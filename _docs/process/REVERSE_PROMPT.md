@@ -4,6 +4,52 @@
 
 ## Last Updated
 
+**Date**: 2026-10-25 (second entry)
+**Task**: **A200 to A296 converted to Chicago author-date from the source database, so all of A200 to A384 are converted. Pushed on the pilot's instruction.** The first entry's commit, `85c3719`, deployed successfully first.
+
+**Scale.** 97 articles, 10,082 link definitions, now 10,042 generated entries citing 6,053 distinct records. The store holds 235,874 records and 27,552 venues, 12,540 credited, in 160 MB of shards, the largest 15 MB.
+
+| Section | A200 to A296 entries |
+|---|---|
+| Secondary Sources | 3,596 |
+| Primary Sources, Non-Peer-Reviewed | 2,748 |
+| General Sources | 1,663 |
+| Primary Sources, Peer-Reviewed | 711 |
+| Commercial Sources | 639 |
+| Related Posts | 579 |
+| Tertiary Sources | 106 |
+
+**The difference from the X-Planes series.** Only 215 of these links were DOIs. The rest were publisher pages, JSTOR, arXiv, proceedings sites, Open Library and Google Scholar searches and web pages, too many to read one at a time. A new module, `_lib/sources_resolve.py`, resolves each link to a registry record and keeps it only when it agrees with the article's label. Of the 6,053 records, 1,851 came from Open Library, 1,004 from Crossref, 718 from the pages themselves or their archive captures, 207 from DataCite for arXiv, 87 from pinned Wikipedia revisions, 13 from proceedings indexes and 7 from NTRS. 2,045 were built from their labels, each saying why.
+
+**Defects the agreement test found in the published articles.**
+- **130 links name another work.** Chiefly arXiv numbers and page links in the machine-learning series, A250 to A265. `Barreto et al 2019` links a paper on moduli stabilisation in string theory, `Forrester 1948` an MIT record of a 2016 thesis on bacterial signalling. Each entry is now the label's, linked to a search for it, and its note names the work the old link led to.
+- **Dead links.** 12 NTRS identifiers in A237 to A289 named no record. Four were relinked to the records found by author and title, two, Hoag and Klumpp, to the journal publication of the same report, and the rest are built from their labels. NeurIPS links that serve no paper were matched to the one paper in that year's index by the label's authors.
+- **54 Wikipedia links stood in for books and papers** their labels name, in A200 to A238, such as Curry and Feys's *Combinatory Logic* linked to the article on combinatory logic. The entries are the works'.
+- **279 entries give `[Title not identified]`.** Their labels name only authors and a year, `Hopkins Alonso Adcock 1965`, and nothing found agrees. Two searches, for Hopkins, Alonso and Adcock 1965 and for Newkirk 1971, found no such work at all, so those citations may not exist and need the pilot's decision.
+
+**A regression in shipped articles was found and fixed.** The generator kept only works the prose cites, so nine X-Planes articles had lost 156 works their lists named, A349, A352, A355 to A357, A359, A360, A363 and A373. They are restored, and the import now records such works in `_sources/articles/<stem>.listed.json`. Undated entries in 77 published posts printed `n.d..`, and the full stop is no longer doubled.
+
+**What changed in the prose.** In-text labels were set to the database's author and year, 1,375 substantive changes across the 97 articles. Each class was reviewed, and the suspicious ones, a year more than two off or another first author, were traced to their causes and fixed before the final run. One sentence in A293 named the legacy list categories and now names the Chicago sections. Two anchors in A283 were lower-cased, `ref_nasa_hls_option_a_2021` and `_b_2022`, since the link pattern does not read capitals. Link targets changed where the old target was a search, a stand-in or a wrong record: 575 to a DOI, 535 to an Open Library work, 154 to a search for the work, and 32 to the proceedings paper.
+
+**Tooling added.** `_lib/sources_resolve.py`, with the commands `plan`, `fetch STEP` and `explain`. It reads the identifier in a URL, parses every legacy label form, applies the agreement test, and fetches from DataCite, Crossref by PII and by title, Open Library by ISBN and by title, the NeurIPS and PMLR indexes, DataCite by authors, and the pages themselves, live or from the Internet Archive. The importer gained rules for Wikipedia stand-ins, wrong Open Library works, prose-only sources, listed works, the label's authors where a registry lists some, reprint years, late registrations, given names filed as family names, Open Library edition choice past audiobooks and translations, imprint statements, and capitals recased per title part. A URL-cited work is now identified by its URL, year and first author, since two works can share a link. 148 host judgements were added to `_sources/domains.toml`, and `fetch.py` gained `get_bytes_status`, which keeps an archive capture that misstates its own length. Each rule has a test.
+
+**Verification.** `test_sources.py` 89 of 89, `test_lib.py` 165 of 165, `sources.py validate` 235,874 records and 27,552 venues valid, `_verify.py --strict` 0 and 0 over 384 posts, and `./_check.sh --weights` passed, its rendered audit clean over 551 pages. Every one of the 185 converted articles passes `sources.py check`. The site grew from 223 MB to 224 MB. One run of `test_sources.py` failed a test once while the final conversion was writing the shared store, and passed on every rerun.
+
+**Judgements to review.**
+- The agreement test. A search result must agree on title, first author and year. A record the link names must agree on title, or on first author, second author and year. A label naming an organisation, `OpenAI 2019`, rests on the exact year.
+- A record dated more than two years after the label is a reprint for books, `(1945) 2002`, and a late registration otherwise, taking the article's year.
+- Entries with a wrong or dead link now link a search for the work rather than the wrong page.
+- The 148 host judgements, for example FTC pages as first-hand records and Pew Research as a think tank.
+
+**Open.**
+- 2,045 label-built records, of which 279 untitled entries, and about 800 pages never read because the Internet Archive refused this address after six concurrent readers. A later run at one request every few seconds would read most of them.
+- dblp and OpenReview answer with browser challenges and were not used, so 53 OpenReview links rest on archive captures or labels.
+- NeurIPS, ICML and the other proceedings venues are not credited with peer review, since no publisher statement has been read for them.
+- PMLR prints some names without their particles, `Herke Hoof` for van Hoof, and the entries follow the venue.
+- The earlier open items stand.
+
+## Previous Report (2026-10-25, first entry)
+
 **Date**: 2026-10-25 (first entry)
 **Task**: **The X-Planes series, A297 to A368, converted to Chicago author-date from the source database, so all of A297 to A384 are converted. Pushed on the pilot's instruction.** There was nothing to commit at the start, since `dad2159` was already pushed.
 

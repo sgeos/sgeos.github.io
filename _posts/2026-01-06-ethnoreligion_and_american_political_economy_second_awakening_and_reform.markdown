@@ -59,7 +59,7 @@ per the 1850 Census of Religious Bodies, with Catholic populations having overta
 
 ## The Second Great Awakening
 
-The Second Great Awakening, conventionally dated from approximately 1795 through approximately 1845 with substantial regional variation, produced the religious revival that would reshape the American religious landscape and provide the religious foundation for the antebellum reform movements. The [Hatch 1989][book_hatch_1989] The Democratization of American Christianity, [Cross 1950][book_cross_1950] The Burned-over District, [Boles 1972][book_boles_1972] The Great Revival, [Johnson 1978][book_johnson_1978] A Shopkeeper's Millennium, [Long 1998][book_long_1998] Great Awakenings, [Butler 1990][book_butler_1990] Awash in a Sea of Faith, [Sandeen 1970][book_sandeen_1970] The Roots of Fundamentalism, [Douglas 1977][book_douglas_1977] The Feminization of American Culture, and [Boyer 1978][book_boyer_1978] Urban Masses and Moral Order in America provide the fullest treatments.
+The Second Great Awakening, conventionally dated from approximately 1795 through approximately 1845 with substantial regional variation, produced the religious revival that would reshape the American religious landscape and provide the religious foundation for the antebellum reform movements. The [Hatch 1989][book_hatch_1989] The Democratization of American Christianity, [Cross 1950][book_cross_1950] The Burned-over District, [Boles 1972][book_boles_1972] The Great Revival, [Johnson 1978][book_johnson_1978] A Shopkeeper's Millennium, [Long 1998][book_long_1998] Great Awakenings, [Butler 1990][book_butler_1990] Awash in a Sea of Faith, [Sandeen 1970][book_sandeen_1970] The Roots of Fundamentalism, [Douglas and Douglas 1977][book_douglas_1977] The Feminization of American Culture, and [Boyer 1978][book_boyer_1978] Urban Masses and Moral Order in America provide the fullest treatments.
 
 Kentucky camp meetings from the 1790s forward produced the frontier revival pattern that would shape subsequent evangelical practice. James McGready (1763-1817), Presbyterian minister at Red River (Logan County, Kentucky), initiated the 1800 Gasper River sacramental meeting that produced the first documented camp meeting. The [1801 Cane Ridge Revival][ref_cane_ridge_revival_1801] in Bourbon County, Kentucky under Barton Warren Stone (1772-1844), reached reported attendance of
 
@@ -134,7 +134,7 @@ The Millerite movement, based on William Miller's (1782-1849) biblical prophetic
 
 $$P_{\text{Millerite adherents, US peak, 1844}} \sim 5 \times 10^4 \text{ to } 1 \times 10^5$$
 
-anticipated the Second Coming on the 22 October 1844 date. The failure of the expected event produced the Great Disappointment. The [Rowe 2008][book_rowe_2008] God's Strange Work and [Numbers and Butler 1987][book_numbers_butler_1987] The Disappointed provide the most complete treatments.
+anticipated the Second Coming on the 22 October 1844 date. The failure of the expected event produced the Great Disappointment. The [Rowe 2008][book_rowe_2008] God's Strange Work and [Butler and Numbers 1987][book_numbers_butler_1987] The Disappointed provide the most complete treatments.
 
 Post-Disappointment Millerite reorganization produced successor formations. The Seventh-day Adventist Church, formally organized 1863 under Ellen G. White (1827-1915) and James White (1821-1881) with emphasis on the Saturday sabbath and the investigative judgment doctrine, provided the largest continuing Millerite successor. The [Land 1998][book_land_1998] Adventism in America and [Land 2005][book_land_2005] The A to Z of the Seventh-day Adventists treat the formation. The Advent Christian Church (organized 1860) and other smaller successor bodies provided the alternative continuing formations.
 
@@ -146,7 +146,7 @@ The [Oneida Community][ref_oneida_community_documents] under John Humphrey Noyes
 
 The founding of The Church of Jesus Christ of Latter-day Saints under Joseph Smith (1805-1844) provided the most distinctive American religious formation of the antebellum period and produced the movement that would shape subsequent American religious and political history. The [Bushman 2005][book_bushman_2005] Joseph Smith Rough Stone Rolling, [Arrington 1985][book_arrington_1985] Brigham Young American Moses, [Arrington and Bitton 1979][book_arrington_bitton_1979] The Mormon Experience, [Bowman 2012][book_bowman_2012] The Mormon People, [Turner 2016][book_turner_2016] The Mormon Jesus, [Brodie 1945][book_brodie_1945] No Man Knows My History, [Shipps 1985][book_shipps_1985] Mormonism The Story of a New Religious Tradition, [Givens 2007][book_givens_2007] People of Paradox, [Brooke 1994][book_brooke_1994] The Refiner's Fire, and [Quinn 1998][book_quinn_1998] Early Mormonism and the Magic World View provide the fullest treatments.
 
-Joseph Smith, born at Sharon, Vermont, and raised at Palmyra, New York in the burned-over district treated above, reported the 1820 First Vision experience in which the Father and the Son appeared to instruct him that existing denominations were in error. Subsequent visitations from the angel Moroni beginning 1823 led Smith to the location where he reportedly obtained the golden plates that would provide the source for the [Book of Mormon 1830][book_book_of_mormon_1830] [primary text][ref_book_of_mormon_1830] published at Palmyra by E. B. Grandin. Smith's 1842 [Wentworth Letter][ref_wentworth_letter_1842] to John Wentworth of the Chicago Democrat provided the earliest systematic statement of Latter-day Saint doctrine and history intended for external audience.
+Joseph Smith, born at Sharon, Vermont, and raised at Palmyra, New York in the burned-over district treated above, reported the 1820 First Vision experience in which the Father and the Son appeared to instruct him that existing denominations were in error. Subsequent visitations from the angel Moroni beginning 1823 led Smith to the location where he reportedly obtained the golden plates that would provide the source for the [The Book of Mormon 1830][book_book_of_mormon_1830] [primary text][ref_book_of_mormon_1830] published at Palmyra by E. B. Grandin. Smith's 1842 [Wentworth Letter][ref_wentworth_letter_1842] to John Wentworth of the Chicago Democrat provided the earliest systematic statement of Latter-day Saint doctrine and history intended for external audience.
 
 The 1830 organization of the Church of Christ (later renamed The Church of Jesus Christ of Latter Day Saints in 1834 and The Church of Jesus Christ of Latter-day Saints in 1838) at Fayette, New York provided the institutional founding. The early membership grew rapidly, with
 
@@ -265,19 +265,19 @@ comprised approximately ninety percent of the Central Pacific workforce. The Chi
 
 ## Nativism and the Know-Nothing Movement
 
-Antebellum nativism produced appreciable anti-Catholic and anti-immigrant mobilization that would culminate in the Know-Nothing (American Party) movement of the 1850s. The [Higham 1955][book_higham_1955] Strangers in the Land (already cited), [Anbinder 1992][book_anbinder_1992] Nativism and Slavery, [Billington 1938][book_billington_1938] The Protestant Crusade, [Knobel 1996][book_knobel_1996] America for the Americans, [Gienapp 1987][book_gienapp_1987] The Origins of the Republican Party, and [Holt 1978][book_holt_1978] The Political Crisis of the 1850s provide the most complete treatments.
+Antebellum nativism produced appreciable anti-Catholic and anti-immigrant mobilization that would culminate in the Know-Nothing (American Party) movement of the 1850s. The [Higham et al. 1955][book_higham_1955] Strangers in the Land (already cited), [Anbinder and Anbinder 1992][book_anbinder_1992] Nativism and Slavery, [Billington 1938][book_billington_1938] The Protestant Crusade, [Knobel 1996][book_knobel_1996] America for the Americans, [Gienapp 1987][book_gienapp_1987] The Origins of the Republican Party, and [Holt 1978][book_holt_1978] The Political Crisis of the 1850s provide the most complete treatments.
 
 The [Ursuline Convent burning at Charlestown, Massachusetts][ref_charlestown_ursuline_convent_burning_1834] on 11 August 1834 by a Protestant mob provided the inflection point for antebellum anti-Catholic mobilization. Samuel F. B. Morse's 1834 [Foreign Conspiracy Against the Liberties of the United States][ref_morse_foreign_conspiracy_1834], published serially in the New-York Observer, provided the systematic conspiratorial framework alleging papal and Habsburg designs on American institutions. The incident, provoked by sensational lecture tours by former nuns (particularly Rebecca Reed and later Maria Monk) and by the broader Protestant fear of expanding Catholic populations, produced the model of anti-Catholic mob violence that would recur through the subsequent decades. The [Franchot 1994][book_franchot_1994] Roads to Rome and [Cohen 2015][book_cohen_2015] The Ursuline Convent Burning treat the episode.
 
 The 1836 publication of [Monk 1836][book_monk_1836] [Awful Disclosures of the Hotel Dieu Nunnery][ref_awful_disclosures_of_maria_monk_1836], a fictional convent narrative that historians have subsequently established as fraudulent, provided the most widely-circulated anti-Catholic text of the antebellum period, selling approximately three hundred thousand copies before the Civil War. The work established the anti-Catholic pornographic-conspiracy genre that would recur through subsequent nativist literature. The [Franchot 1994][book_franchot_1994] treatment covers the reception.
 
-The [Philadelphia Bible Riots of 1844][ref_philadelphia_nativist_riots_1844], occurring in May and July, produced the most substantial anti-Catholic mob violence of the antebellum period. The conflict arose from the dispute over Catholic children in Philadelphia public schools being permitted to use the Douay Bible rather than the King James Bible for the mandatory school Bible reading. The May 1844 riots and July 1844 riots killed approximately
+The [Nativist Riots of 1844 1844][ref_philadelphia_nativist_riots_1844], occurring in May and July, produced the most substantial anti-Catholic mob violence of the antebellum period. The conflict arose from the dispute over Catholic children in Philadelphia public schools being permitted to use the Douay Bible rather than the King James Bible for the mandatory school Bible reading. The May 1844 riots and July 1844 riots killed approximately
 
 $$N_{\text{Philadelphia Bible Riots dead}} \approx 20, \quad N_{\text{Catholic churches burned}} = 2$$
 
 with significant additional property damage. The St. Michael's and St. Augustine's Catholic churches were burned by Protestant mobs. The [Feldberg 1975][book_feldberg_1975] The Philadelphia Riots of 1844 provides the standard treatment.
 
-The 1849 founding of the Order of the Star Spangled Banner in New York by Charles B. Allen provided the secret nativist organization that would expand into the American Party. The requirement that members respond to questions about the organization with I know nothing produced the popular Know-Nothing designation. The 1854 emergence of the American Party as public political vehicle produced substantial electoral success, with the Party electing governors of Massachusetts, Delaware, Rhode Island, New Hampshire, and Kentucky, and marked Congressional representation. The [Anbinder 1992][book_anbinder_1992] provides the fullest treatment.
+The 1849 founding of the Order of the Star Spangled Banner in New York by Charles B. Allen provided the secret nativist organization that would expand into the American Party. The requirement that members respond to questions about the organization with I know nothing produced the popular Know-Nothing designation. The 1854 emergence of the American Party as public political vehicle produced substantial electoral success, with the Party electing governors of Massachusetts, Delaware, Rhode Island, New Hampshire, and Kentucky, and marked Congressional representation. The [Anbinder and Anbinder 1992][book_anbinder_1992] provides the fullest treatment.
 
 American Party political program combined anti-Catholic anti-immigrant provisions (extending naturalization waiting periods to twenty-one years, restricting officeholding to native-born Protestants, imposing Bible reading in public schools using the Protestant version) with broader nativist commitments. The 1856 Millard Fillmore American Party presidential campaign captured approximately
 
@@ -287,7 +287,7 @@ representing extensive national nativist support before the 1857-1860 party disi
 
 ## Abolitionism as Religious Movement
 
-Abolitionism emerged in the antebellum period as a religious movement whose evangelical Protestant theological framework, voluntary-society institutional infrastructure, and direct-action tactics were shaped by the Second Great Awakening treated above. The [Sinha 2016][book_sinha_2016] The Slave's Cause (already cited), [Foner 1970][book_foner_1970] Free Soil, Free Labor, Free Men, [Stewart 1976][book_stewart_1976] Holy Warriors, [Mayer 1998][book_mayer_1998] All on Fire, [Blight 2018][book_blight_2018] Frederick Douglass, [Sinha 2020][book_sinha_2020] The Rise and Fall of the Second American Republic, [Kraditor 1969][book_kraditor_1969] Means and Ends in American Abolitionism, [Jeffrey 1998][book_jeffrey_1998] The Great Silent Army of Abolitionism, and [Wyatt-Brown 1969][book_wyatt_brown_1969] Lewis Tappan and the Evangelical War Against Slavery provide the treatments.
+Abolitionism emerged in the antebellum period as a religious movement whose evangelical Protestant theological framework, voluntary-society institutional infrastructure, and direct-action tactics were shaped by the Second Great Awakening treated above. The [Sinha 2016][book_sinha_2016] The Slave's Cause (already cited), [Foner 1970][book_foner_1970] Free Soil, Free Labor, Free Men, [Stewart 1976][book_stewart_1976] Holy Warriors, [Mayer 1998][book_mayer_1998] All on Fire, [Blight 2018][book_blight_2018] Frederick Douglass, [Sinha 2020][book_sinha_2020] The Rise and Fall of the Second American Republic, [Kraditor 1969][book_kraditor_1969] Means and Ends in American Abolitionism, [Jeffrey 1998][book_jeffrey_1998] The Great Silent Army of Abolitionism, and [Wyatt-Brown and Wyatt-Brown 1969][book_wyatt_brown_1969] Lewis Tappan and the Evangelical War Against Slavery provide the treatments.
 
 William Lloyd Garrison (1805-1879), Boston-based abolitionist editor and organizer, provided the most prominent radical abolitionist leadership. Garrison's 1 January 1831 first issue of [The Liberator][book_liberator_1831] [periodical archive][ref_liberator_periodical_1831] and 1833 founding of the American Anti-Slavery Society at Philadelphia, producing the [Declaration of Sentiments of the American Anti-Slavery Convention][ref_american_anti_slavery_declaration_1833] under Garrison's authorship, provided the institutional foundation for immediatist abolition (demanding immediate rather than gradual emancipation). The 1837 murder of Elijah Lovejoy at Alton, Illinois for his abolitionist newspaper publication provided the first American abolitionist martyrdom. The [Mayer 1998][book_mayer_1998] All on Fire provides the Garrison biography.
 
@@ -295,7 +295,7 @@ Frederick Douglass (approximately 1817-1895), formerly enslaved, provided the mo
 
 The Grimké sisters (Sarah 1792-1873 and Angelina 1805-1879), formerly slaveholders themselves from Charleston, South Carolina, converted to Quakerism and moved to Philadelphia, then became prominent abolitionist speakers whose public female speaking advanced both abolition and women's rights. Angelina Grimké's 1836 [Appeal to the Christian Women of the South][ref_grimke_appeal_1836] and Sarah Grimké's 1838 [Letters on the Equality of the Sexes][ref_grimke_letters_on_equality_1838] provided the systematic textual foundation. Their 1837-1838 speaking tour of New England produced sizable controversy and mobilized women's rights concerns alongside the abolitionist message. The [Lerner 1998][book_lerner_1998] The Grimké Sisters from South Carolina provides the treatment.
 
-Theodore Dwight Weld (1803-1895), converted under Charles Finney's revival preaching, provided the most influential organizational leadership of the antebellum abolitionist movement. Weld's 1834 Lane Debates at Lane Theological Seminary (under Lyman Beecher noted above), 1836 founding of the Anti-Slavery Society of Ohio, 1839 [Weld 1839][book_weld_1839] [American Slavery As It Is][ref_weld_american_slavery_as_it_is_1839] compendium, and systematic mobilization of the Ohio antislavery constituency provided the Western abolitionist organizational base. The [Abzug 1980][book_abzug_1980] Passionate Liberator treats the Weld biography.
+Theodore Dwight Weld (1803-1895), converted under Charles Finney's revival preaching, provided the most influential organizational leadership of the antebellum abolitionist movement. Weld's 1834 Lane Debates at Lane Theological Seminary (under Lyman Beecher noted above), 1836 founding of the Anti-Slavery Society of Ohio, 1839 [Weld et al. 1839][book_weld_1839] [American Slavery As It Is][ref_weld_american_slavery_as_it_is_1839] compendium, and systematic mobilization of the Ohio antislavery constituency provided the Western abolitionist organizational base. The [Abzug 1980][book_abzug_1980] Passionate Liberator treats the Weld biography.
 
 Harriet Beecher Stowe (1811-1896), daughter of Lyman Beecher and wife of Calvin Stowe, produced the most widely-influential antebellum abolitionist text. Her 1852 [Stowe 1852][book_stowe_1852] [Uncle Tom's Cabin][ref_stowe_uncle_toms_cabin_1852] sold approximately
 
@@ -354,7 +354,7 @@ preceding the political split of 1861 by intervals ranging from zero years (Pres
 
 ## Indian Removal and the Trail of Tears
 
-The [Indian Removal Act of 1830][ref_indian_removal_act_1830] signed by President Andrew Jackson and subsequent implementation through treaties and coercion produced the forced removal of approximately
+The [Indian Removal Act 1830][ref_indian_removal_act_1830] signed by President Andrew Jackson and subsequent implementation through treaties and coercion produced the forced removal of approximately
 
 $$N_{\text{Native persons removed east of Mississippi, 1830 to 1850}} \approx 6 \times 10^4$$
 
@@ -390,7 +390,7 @@ Creek removal from Alabama and Georgia under the 1832 Treaty of Cusseta produced
 
 $$N_{\text{Creek removed, 1834 to 1837}} \approx 2 \times 10^4, \quad N_{\text{Creek dead}} \sim 3.5 \times 10^3$$
 
-The [Green 1982][book_green_1982] The Politics of Indian Removal treats the Creek removal.
+The [Green and Green 1982][book_green_1982] The Politics of Indian Removal treats the Creek removal.
 
 Seminole resistance produced the most significant armed opposition to removal. The Second Seminole War (1835-1842) can be characterized as
 
@@ -477,13 +477,13 @@ Enslaved religious life resisted the slaveholder-authorized framing through alte
 
 ## Nat Turner, Denmark Vesey, and Religious Resistance
 
-Two antebellum enslaved rebellions produced appreciable religious dimensions and consequences for the broader African American religious formation. The [Aptheker 1943][book_aptheker_1943] American Negro Slave Revolts, [Egerton 1999][book_egerton_1999] He Shall Go Out Free, [Robertson 1999][book_robertson_1999] Denmark Vesey, [Foner 1971][book_foner_1971] Nat Turner, [Greenberg 2003][book_greenberg_2003] Nat Turner A Slave Rebellion in History and Memory, and [French 2004][book_french_2004] The Rebellious Slave provide the detailed treatments.
+Two antebellum enslaved rebellions produced appreciable religious dimensions and consequences for the broader African American religious formation. The [Aptheker 1943][book_aptheker_1943] American Negro Slave Revolts, [Egerton 1999][book_egerton_1999] He Shall Go Out Free, [Robertson and Robertson 1999][book_robertson_1999] Denmark Vesey, [Foner 1971][book_foner_1971] Nat Turner, [Greenberg 2003][book_greenberg_2003] Nat Turner A Slave Rebellion in History and Memory, and [French 2004][book_french_2004] The Rebellious Slave provide the detailed treatments.
 
 Denmark Vesey (approximately 1767-1822) planned the extensive 1822 Charleston insurrection that would have involved approximately six to nine thousand enslaved and free Black participants across considerable Low Country plantations. Vesey, formerly enslaved and free through the 1799 purchase of his own freedom with lottery winnings, developed the plot through the African Methodist Episcopal Church at Charleston (founded 1817 by Morris Brown), providing the institutional infrastructure for organization. The plot was betrayed before the 16 July 1822 planned uprising. Approximately
 
 $$N_{\text{Vesey plot executed}} = 35, \quad N_{\text{Vesey plot deported}} \approx 30$$
 
-with Vesey himself hanged on 2 July 1822. The Charleston AME Church was closed under city ordinance following the plot exposure, producing significant African Methodist decline in the Deep South until the post-Civil War reorganization. The [Egerton 1999][book_egerton_1999] and [Robertson 1999][book_robertson_1999] treatments provide the comprehensive analyses.
+with Vesey himself hanged on 2 July 1822. The Charleston AME Church was closed under city ordinance following the plot exposure, producing significant African Methodist decline in the Deep South until the post-Civil War reorganization. The [Egerton 1999][book_egerton_1999] and [Robertson and Robertson 1999][book_robertson_1999] treatments provide the comprehensive analyses.
 
 Nat Turner (1800-1831), Virginia enslaved Baptist preacher and self-reported religious visionary, led the August 1831 Southampton County, Virginia rebellion that killed approximately
 
@@ -521,7 +521,7 @@ Sojourner Truth (approximately 1797-1883), formerly enslaved in New York (freed 
 
 ## Mexican Catholic Incorporation via the Treaty of Guadalupe Hidalgo
 
-The 1846-1848 Mexican-American War and the 1848 Treaty of Guadalupe Hidalgo produced the American incorporation of considerable territories that had been Mexican Catholic populations, reshaping the American ethnoreligious landscape. The [Griswold del Castillo 1990][book_griswold_del_castillo_1990] The Treaty of Guadalupe Hidalgo, [Weber 1973][book_weber_1973] Foreigners in Their Native Land, [Weber 1982][book_weber_1982] The Mexican Frontier, [Deverell 2004][book_deverell_2004] Whitewashed Adobe, [Menchaca 2001][book_menchaca_2001] Recovering History, [Sánchez 1993][book_sanchez_1993] Becoming Mexican American, [Gutiérrez 1995][book_gutierrez_1995] Walls and Mirrors, and [Matovina 2011][book_matovina_2011] Latino Catholicism provide the standard treatments.
+The 1846-1848 Mexican-American War and the 1848 Treaty of Guadalupe Hidalgo produced the American incorporation of considerable territories that had been Mexican Catholic populations, reshaping the American ethnoreligious landscape. The [del Castillo 1990][book_griswold_del_castillo_1990] The Treaty of Guadalupe Hidalgo, [Weber 1973][book_weber_1973] Foreigners in Their Native Land, [Weber 1982][book_weber_1982] The Mexican Frontier, [Deverell 2004][book_deverell_2004] Whitewashed Adobe, [Menchaca 2001][book_menchaca_2001] Recovering History, [Sanchez 1993][book_sanchez_1993] Becoming Mexican American, [Gutiérrez 1995][book_gutierrez_1995] Walls and Mirrors, and [Matovina 2011][book_matovina_2011] Latino Catholicism provide the standard treatments.
 
 The 1848 Treaty of Guadalupe Hidalgo, ratified 30 May 1848, ceded to the United States approximately
 
@@ -557,7 +557,7 @@ Ralph Waldo Emerson (1803-1882), formerly Unitarian minister at the Second Churc
 
 Henry David Thoreau (1817-1862) extended the Emersonian religious-philosophical program through the empirical natural-history direction. His 1854 [Thoreau 1854][book_thoreau_1854] Walden and 1849 [Thoreau 1849][book_thoreau_1849] Resistance to Civil Government (Civil Disobedience) provided the most influential Transcendentalist texts. The Walden experiment (July 1845 through September 1847) provided the practical exemplification of the Transcendentalist commitment to individual religious-philosophical self-reliance. The [Richardson 1986][book_richardson_1986] Henry Thoreau A Life of the Mind provides the biography.
 
-Margaret Fuller (1810-1850), first female editor of the Transcendentalist journal The Dial (1840-1844) and first female foreign correspondent for the New-York Tribune, produced the most extensive Transcendentalist feminist contribution. Her 1845 [Fuller 1845][book_fuller_1845] Woman in the Nineteenth Century provided the canonical American feminist text and anticipated the 1848 Seneca Falls Convention treated below. The [Marshall 2013][book_marshall_2013] Margaret Fuller A New American Life provides the biography.
+Margaret Fuller (1810-1850), first female editor of the Transcendentalist journal The Dial (1840-1844) and first female foreign correspondent for the New-York Tribune, produced the most extensive Transcendentalist feminist contribution. Her 1845 [Fuller and Fuller 1845][book_fuller_1845] Woman in the Nineteenth Century provided the canonical American feminist text and anticipated the 1848 Seneca Falls Convention treated below. The [Marshall 2013][book_marshall_2013] Margaret Fuller A New American Life provides the biography.
 
 The Brook Farm community (1841-1847) under George Ripley (1802-1880) at West Roxbury, Massachusetts, provided the most substantial Transcendentalist communal experiment. The community combining manual labor, intellectual life, and religious-philosophical formation attracted participation from Nathaniel Hawthorne, Elizabeth Peabody, and other Transcendentalist-adjacent figures before its 1846 fire and 1847 dissolution. The [Delano 2004][book_delano_2004] Brook Farm provides the treatment. The Fruitlands community (1843) under Bronson Alcott and Charles Lane provided the much smaller and shorter-lived complementary experiment.
 
@@ -573,7 +573,7 @@ $$N_{\text{state prohibition laws by 1855}} = 13$$
 
 Northern states had enacted prohibition or restriction laws following the Maine Law model, though most were subsequently repealed or amended. The temperance mobilization was religious in framing, drawing on the Second Great Awakening perfectionism and the voluntary-society infrastructure. The [Tyrrell 1979][book_tyrrell_1979] Sobering Up and [Blocker 1989][book_blocker_1989] American Temperance Movements treat the movement.
 
-The women's rights movement mobilized in the 1840s combining abolitionist experience of women activists with broader concerns about women's legal, economic, and political rights. The 1848 Seneca Falls Convention under Elizabeth Cady Stanton (1815-1902) and Lucretia Mott (1793-1880) produced the [Declaration of Sentiments][ref_seneca_falls_declaration_1848] modeled on the Declaration of Independence with eighteen resolutions demanding women's rights, accompanied by Stanton's [Address on Woman's Rights][ref_stanton_address_womans_rights_1848]. Catharine Beecher's 1841 [Treatise on Domestic Economy][ref_beecher_treatise_on_domestic_economy_1841] provided the influential contemporary complementary framework centering female authority in the domestic sphere. The subsequent 1850 Worcester National Women's Rights Convention and decades of organizing established the antebellum women's rights movement. The [DuBois 1978][book_dubois_1978] Feminism and Suffrage and [Wellman 2004][book_wellman_2004] The Road to Seneca Falls provide the leading treatments.
+The women's rights movement mobilized in the 1840s combining abolitionist experience of women activists with broader concerns about women's legal, economic, and political rights. The 1848 Seneca Falls Convention under Elizabeth Cady Stanton (1815-1902) and Lucretia Mott (1793-1880) produced the [Declaration of Sentiments][ref_seneca_falls_declaration_1848] modeled on the Declaration of Independence with eighteen resolutions demanding women's rights, accompanied by Stanton's [Address on Woman's Rights][ref_stanton_address_womans_rights_1848]. Catharine Beecher's 1841 [Treatise on Domestic Economy][ref_beecher_treatise_on_domestic_economy_1841] provided the influential contemporary complementary framework centering female authority in the domestic sphere. The subsequent 1850 Worcester National Women's Rights Convention and decades of organizing established the antebellum women's rights movement. The [Dubois 1978][book_dubois_1978] Feminism and Suffrage and [Wellman 2004][book_wellman_2004] The Road to Seneca Falls provide the leading treatments.
 
 Prison reform under Dorothea Dix (1802-1887) produced significant improvement in American treatment of incarcerated and mentally ill persons. Dix's 1841-1843 investigation of Massachusetts jails and almshouses documented systematic mistreatment of mentally ill persons and produced her 1843 Memorial to the Massachusetts General Court that shaped subsequent state mental health institutional reform. Her extensive advocacy across twenty American states and European countries reshaped mental health treatment. The [Brown 1998][book_brown_1998] Dorothea Dix treats the biography.
 
@@ -627,7 +627,7 @@ The structure axis characterizes ecclesiastical form. Methodist and Baptist evan
 
 The model axis characterizes theological content. Second Great Awakening formation modified strict Calvinist predestinarianism through New Divinity, New Haven Theology, and Arminian evangelical variants toward human-agency emphasis. Mormonism developed distinctive theological framework treated above. Southern proslavery theology developed biblical hermeneutics defending slavery. Abolitionist theology developed higher-law framework grounded in perfectionist evangelical commitments. Transcendentalism developed naturalistic religious framework departing from traditional Christian formulations.
 
-The interaction axis characterizes external relationships. Northern evangelical formations engaged appreciable voluntary-society reform activity extending to political action. Southern evangelical formations aligned with slaveholder political interests through denominational splits treated above. Catholic populations operated outside mainstream Protestant civic engagement while maintaining parish-based social provision. Mormon populations experienced severe conflict producing the 1846-1847 Utah migration. Native populations experienced considerable displacement through removal treated above. Enslaved and free Black populations experienced increasing constraint through the earlier [Fugitive Slave Act of 1793][ref_fugitive_slave_act_1793], the [Missouri Compromise of 1820][ref_missouri_compromise_1820], the [Compromise of 1850][ref_compromise_of_1850] and its [Fugitive Slave Act][ref_fugitive_slave_act_1850], the [Kansas-Nebraska Act of 1854][ref_kansas_nebraska_act_1854], the [1857 Dred Scott v. Sandford decision][ref_dred_scott_v_sandford_1857], and expanding Southern proslavery consensus.
+The interaction axis characterizes external relationships. Northern evangelical formations engaged appreciable voluntary-society reform activity extending to political action. Southern evangelical formations aligned with slaveholder political interests through denominational splits treated above. Catholic populations operated outside mainstream Protestant civic engagement while maintaining parish-based social provision. Mormon populations experienced severe conflict producing the 1846-1847 Utah migration. Native populations experienced considerable displacement through removal treated above. Enslaved and free Black populations experienced increasing constraint through the earlier [Fugitive Slave Act 1793][ref_fugitive_slave_act_1793], the [Missouri Compromise 1820][ref_missouri_compromise_1820], the [Compromise 1850][ref_compromise_of_1850] and its [Fugitive Slave Act][ref_fugitive_slave_act_1850], the [Kansas-Nebraska Act 1854][ref_kansas_nebraska_act_1854], the [1857 Dred Scott v. Sandford decision][ref_dred_scott_v_sandford_1857], and expanding Southern proslavery consensus.
 
 The adaptation axis characterizes response to novel circumstances. The antebellum period saw significant adaptation across all substrates through institutional innovation, denominational reorganization, and ideological development. The denominational splits of the 1837-1861 period marked the most substantial institutional adaptation as marked denominations reorganized along North-South lines preceding the political split.
 
@@ -648,363 +648,371 @@ This article follows the terminological conventions established in [A266][relate
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Abzug 1980 Passionate Liberator][book_abzug_1980]
-- [Adams 1995 Education for Extinction][book_adams_1995]
-- [Ahlstrom 1972 A Religious History of the American People][book_ahlstrom_1972]
-- [Anbinder 1992 Nativism and Slavery][book_anbinder_1992]
-- [Anderson 1991 Cherokee Removal][book_anderson_1991_removal]
-- [Andrew 1976 Rebuilding the Christian Commonwealth][book_andrew_1976]
-- [Andrews 2000 The Methodists and Revolutionary America][book_andrews_2000]
-- [Aptheker 1943 American Negro Slave Revolts][book_aptheker_1943]
-- [Arrington 1985 Brigham Young American Moses][book_arrington_1985]
-- [Arrington and Bitton 1979 The Mormon Experience][book_arrington_bitton_1979]
-- [Bagley 2002 Blood of the Prophets][book_bagley_2002]
-- [Barnes 1954 The Southern Baptist Convention][book_barnes_1954]
-- [Barry 1953 The Catholic Church and German Americans][book_barry_1953]
-- [Barton 1994 A Folk Divided][book_barton_1994]
-- [Bass 1936 Cherokee Messenger][book_bass_1936]
-- [Beijbom Bishop Hill][book_bishop_hill_beijbom]
-- [Blegen 1931 Norwegian Migration to America][book_blegen_1931]
-- [Beidler 2013 Murder on the Reservation][book_beidler_2013]
-- [Berkhofer 1965 Salvation and the Savage][book_berkhofer_1965]
-- [Billington 1938 The Protestant Crusade][book_billington_1938]
-- [Blassingame 1972 The Slave Community][book_blassingame_1972]
-- [Blight 2018 Frederick Douglass][book_blight_2018]
-- [Blocker 1989 American Temperance Movements][book_blocker_1989]
-- [Bodnar 1985 The Transplanted][book_bodnar_1985]
-- [Boles 1972 The Great Revival][book_boles_1972]
-- [Boles 1988 Masters and Slaves in the House of the Lord][book_boles_1988]
-- [Book of Mormon 1830][book_book_of_mormon_1830]
-- [Bordewich 2005 Bound for Canaan][book_bordewich_2005]
-- [Bowden 1981 American Indians and Christian Missions][book_bowden_1981]
-- [Bowman 2012 The Mormon People][book_bowman_2012]
-- [Boyer 1978 Urban Masses and Moral Order in America][book_boyer_1978]
-- [Boylan 1988 Sunday School][book_boylan_1988]
-- [Braude 1989 Radical Spirits][book_braude_1989]
-- [Brodie 1945 No Man Knows My History][book_brodie_1945]
-- [Brooke 1994 The Refiner's Fire][book_brooke_1994]
-- [Brown 1998 Dorothea Dix][book_brown_1998]
-- [Buell 2003 Emerson][book_buell_2003]
-- [Burin 2005 Slavery and the Peculiar Solution][book_burin_2005]
-- [Bushman 2005 Joseph Smith Rough Stone Rolling][book_bushman_2005]
-- [Butler 1990 Awash in a Sea of Faith][book_butler_1990]
-- [Camarillo 1979 Chicanos in a Changing Society][book_camarillo_1979]
-- [Cassidy 2011 Mexican American Religions][book_cassidy_2011]
-- [Cather 1927 Death Comes for the Archbishop][book_cather_1927]
-- [Chan 1991 Asian Americans][book_chan_1991]
-- [Chang 2003 The Chinese in America][book_chang_2003]
-- [Chang 2019 Ghosts of Gold Mountain][book_chang_2019]
-- [Chen 2000 Chinese San Francisco][book_chen_2000]
-- [Cohen 2015 The Ursuline Convent Burning][book_cohen_2015]
-- [Cone 1972 The Spirituals and the Blues][book_cone_1972]
-- [Conkin 1990 Cane Ridge][book_conkin_1990]
-- [Conley 2007 A Cherokee Encyclopedia][book_conley_2007]
-- [Conzen 1976 Immigrant Milwaukee][book_conzen_1976]
-- [Champagne 1992 Social Order and Political Change][book_champagne_1992]
-- [Cornelius 1999 Slave Missions and the Black Church][book_cornelius_1999]
-- [Cott 1977 The Bonds of Womanhood][book_cott_1977]
-- [Cox 2003 Body and Soul][book_cox_2003]
-- [Cremin 1980 American Education The National Experience][book_cremin_1980]
-- [Cross 1950 The Burned-over District][book_cross_1950]
-- [Curti 1929 The American Peace Crusade][book_curti_1929]
-- [Cushman 2011 The Cherokee Syllabary][book_cushman_2011]
-- [Daniels 1990 Coming to America][book_daniels_1990]
-- [Debo 1934 The Rise and Fall of the Choctaw Republic][book_debo_1934]
-- [De León 1983 They Called Them Greasers][book_de_leon_1983]
-- [Delano 2004 Brook Farm][book_delano_2004]
-- [Deverell 2004 Whitewashed Adobe][book_deverell_2004]
-- [Diner 1983 Erin's Daughters in America][book_diner_1983]
-- [Diner 1992 A Time for Gathering][book_diner_1992]
-- [Doctrine and Covenants 1835][book_doctrine_covenants_1835]
-- [Dolan 1985 The American Catholic Experience][book_dolan_1985]
-- [Dolan 2002 In Search of an American Catholicism][book_dolan_2002]
-- [Douglas 1977 The Feminization of American Culture][book_douglas_1977]
-- [Douglass 1845 Narrative of the Life of Frederick Douglass][book_douglass_1845]
-- [DuBois 1978 Feminism and Suffrage][book_dubois_1978]
-- [Dunbar 2008 A Fragile Freedom][book_dunbar_2008]
-- [Egerton 1999 He Shall Go Out Free][book_egerton_1999]
-- [Ehle 1988 Trail of Tears][book_ehle_1988]
-- [Emerson 1836 Nature][book_emerson_1836]
-- [Erie 1988 Rainbow's End][book_erie_1988]
-- [Ernst 1949 Immigrant Life in New York City][book_ernst_1949]
-- [Erskine 1996 Black People and the Reformed Church in America][book_erskine_1996]
-- [Everill 2013 Abolition and Empire in Sierra Leone and Liberia][book_everill_2013]
-- [Farmer 1986 The Metaphysical Confederacy][book_farmer_1986]
-- [Faust 1909 The German Element in the United States][book_faust_1909]
-- [Faust 1981 The Ideology of Slavery][book_faust_1981]
-- [Feldberg 1975 The Philadelphia Riots of 1844][book_feldberg_1975]
-- [Fessler 1983 Chinese in America][book_fessler_1983]
-- [Finke and Stark 1992 The Churching of America][book_finke_stark_1992]
-- [Finney 1835 Lectures on Revivals of Religion][book_finney_1835]
-- [Fitzhugh 1854 Sociology for the South][book_fitzhugh_1854]
-- [Fitzhugh 1857 Cannibals All!][book_fitzhugh_1857]
-- [Fogelson 1961 Cherokee Notions of Power][book_fogelson_1961]
-- [Foner 1970 Free Soil, Free Labor, Free Men][book_foner_1970]
-- [Foner 1971 Nat Turner][book_foner_1971]
-- [Foner 2015 Gateway to Freedom][book_foner_2015]
-- [Foreman 1932 Indian Removal][book_foreman_1932]
-- [Foster 1960 An Errand of Mercy][book_foster_1960]
-- [Foster 1981 Religion and Sexuality][book_foster_1981]
-- [Foster and Blowers 2004 The Encyclopedia of the Stone-Campbell Movement][book_foster_blowers_2004]
-- [Fox-Genovese and Genovese 2005 The Mind of the Master Class][book_fox_genovese_genovese_2005]
-- [Franchot 1994 Roads to Rome][book_franchot_1994]
-- [French 2004 The Rebellious Slave][book_french_2004]
-- [Frey 1991 Water from the Rock][book_frey_1991]
-- [Fuller 1845 Woman in the Nineteenth Century][book_fuller_1845]
-- [Gaustad and Barlow 2001 New Historical Atlas of Religion in America][book_gaustad_barlow_2001]
-- [Genovese 1974 Roll Jordan Roll][book_genovese_1974]
-- [Genovese 1998 A Consuming Fire][book_genovese_1998]
-- [Gibson 1971 The Chickasaws][book_gibson_1971]
-- [Gienapp 1987 The Origins of the Republican Party][book_gienapp_1987]
-- [Ginzberg 1990 Women and the Work of Benevolence][book_ginzberg_1990]
-- [Givens 2007 People of Paradox][book_givens_2007]
-- [Givens 2009 The Book of Mormon A Very Short Introduction][book_givens_2009]
-- [Goen 1985 Broken Churches Broken Nation][book_goen_1985]
-- [Gray 1995 The Irish Famine][book_gray_1995]
-- [Green 1982 The Politics of Indian Removal][book_green_1982]
-- [Greenberg 2003 Nat Turner A Slave Rebellion in History and Memory][book_greenberg_2003]
-- [Griswold del Castillo 1990 The Treaty of Guadalupe Hidalgo][book_griswold_del_castillo_1990]
-- [Grodzins 2002 American Heretic][book_grodzins_2002]
-- [Grusd 1966 B'nai B'rith][book_grusd_1966]
-- [Guinnane 1997 The Vanishing Irish][book_guinnane_1997]
-- [Gura 2007 American Transcendentalism][book_gura_2007]
-- [Gutiérrez 1995 Walls and Mirrors][book_gutierrez_1995]
-- [Hambrick-Stowe 1996 Charles G. Finney and the Spirit of American Evangelicalism][book_hambrick_stowe_1996]
-- [Handlin 1941 Boston's Immigrants][book_handlin_1941]
-- [Handlin 1951 The Uprooted][book_handlin_1951]
-- [Hardman 1987 Charles Grandison Finney][book_hardman_1987]
-- [Harrill 2006 Slaves in the New Testament][book_harrill_2006]
-- [Hatch 1989 The Democratization of American Christianity][book_hatch_1989]
-- [Haynes 2002 Noah's Curse][book_haynes_2002]
-- [Hedrick 1994 Harriet Beecher Stowe][book_hedrick_1994]
-- [Hennesey 1981 American Catholics][book_hennesey_1981]
-- [Hewitt 1984 Women's Activism and Social Change][book_hewitt_1984]
-- [Higham 1955 Strangers in the Land][book_higham_1955]
-- [Holt 1978 The Political Crisis of the 1850s][book_holt_1978]
-- [Hughes 1996 Reviving the Ancient Faith][book_hughes_1996]
-- [Inskeep 2015 Jacksonland][book_inskeep_2015]
-- [Jeffrey 1991 Converting the West][book_jeffrey_1991]
-- [Jeffrey 1998 The Great Silent Army of Abolitionism][book_jeffrey_1998]
-- [Jetté 2004 At the Hearth of the Crossed Races][book_jette_2004]
-- [Johnson 1955 The Frontier Camp Meeting][book_johnson_1955]
-- [Johnson 1978 A Shopkeeper's Millennium][book_johnson_1978]
-- [Jones 1842 The Religious Instruction of the Negroes][book_jones_1842]
-- [Kamphoefner 1987 The Westfalians][book_kamphoefner_1987]
-- [Kenny 2000 The American Irish][book_kenny_2000]
-- [Killoren 1994 Come, Blackrobe][book_killoren_1994]
-- [Kinealy 1994 This Great Calamity][book_kinealy_1994]
-- [Kling 1993 A Field of Divine Wonders][book_kling_1993]
-- [Knobel 1996 America for the Americans][book_knobel_1996]
-- [Kolchin 1993 American Slavery][book_kolchin_1993]
-- [Kraditor 1969 Means and Ends in American Abolitionism][book_kraditor_1969]
-- [Kwong and Miscevic 2005 Chinese America][book_kwong_miscevic_2005]
-- [Lai 2004 Becoming Chinese American][book_lai_2004]
-- [Land 1998 Adventism in America][book_land_1998]
-- [Land 2005 The A to Z of the Seventh-day Adventists][book_land_2005]
-- [Lee 2003 At America's Gates][book_lee_2003]
-- [Leonard 2003 Baptists in America][book_leonard_2003]
-- [Lerner 1998 The Grimké Sisters from South Carolina][book_lerner_1998]
-- [Levine 1977 Black Culture and Black Consciousness][book_levine_1977]
-- [The Liberator 1831][book_liberator_1831]
-- [Lincoln and Mamiya 1990 The Black Church in the African American Experience][book_lincoln_mamiya_1990]
-- [Long 1998 Great Awakenings][book_long_1998]
-- [Longfield 2013 Presbyterians and American Culture][book_longfield_2013]
-- [Lovoll 1984 The Promise of America][book_lovoll_1984]
-- [Luebke 1974 Bonds of Loyalty][book_luebke_1974]
-- [Marini 1982 Radical Sects of Revolutionary New England][book_marini_1982]
-- [Marsden 1970 The Evangelical Mind and the New School Presbyterian Experience][book_marsden_1970]
-- [Marshall 2013 Margaret Fuller A New American Life][book_marshall_2013]
-- [Mathews 1965 Slavery and Methodism][book_mathews_1965]
-- [Matovina 2011 Latino Catholicism][book_matovina_2011]
-- [Mayer 1998 All on Fire][book_mayer_1998]
-- [McBeth 1987 The Baptist Heritage][book_mcbeth_1987]
-- [McLoughlin 1984 The Cherokees and Christianity][book_mcloughlin_1984]
-- [McLoughlin 1986 Cherokee Renascence][book_mcloughlin_1986]
-- [Meagher 2005 The Columbia Guide to Irish American History][book_meagher_2005]
-- [Menchaca 2001 Recovering History][book_menchaca_2001]
-- [Meyer 1987 Log Cabin to Luther Tower][book_meyer_1987]
-- [Meyer 1988 Response to Modernity][book_meyer_1988]
-- [Miller 1950 The Transcendentalists An Anthology][book_miller_1950]
-- [Miller 1985 Emigrants and Exiles][book_miller_1985]
-- [Missall and Missall 2004 The Seminole Wars][book_missall_missall_2004]
-- [Monk 1836 Awful Disclosures][book_monk_1836]
-- [Mullin 1986 Episcopal Vision and American Reality][book_mullin_1986]
-- [Nadel 1990 Little Germany][book_nadel_1990]
-- [Nash 1988 Forging Freedom][book_nash_1988]
-- [Nee and Nee 1972 Longtime Californ][book_nee_nee_1972]
-- [Nelson 1998 The Lutherans in North America][book_nelson_1998]
-- [Newman 2008 Freedom's Prophet][book_newman_2008]
-- [Noll 2006 The Civil War as a Theological Crisis][book_noll_2006]
-- [Numbers and Butler 1987 The Disappointed][book_numbers_butler_1987]
-- [O Grada 1999 Black '47 and Beyond][book_ograda_1999]
-- [Ostergren 1988 A Community Transplanted][book_ostergren_1988]
-- [O'Toole 2008 The Faithful][book_otoole_2008]
-- [Packer 1982 Emerson's Fall][book_packer_1982]
-- [Packer 2007 The Transcendentalists][book_packer_2007]
-- [Painter 1996 Sojourner Truth][book_painter_1996]
-- [Parker 1841 The Transient and Permanent in Christianity][book_parker_1841]
-- [Payne 1891 History of the African Methodist Episcopal Church][book_payne_1891]
-- [Pearl of Great Price 1851][book_pearl_of_great_price_1851]
-- [Perdue 1996 Cherokee Editor][book_perdue_1996]
-- [Perdue 1998 Cherokee Women][book_perdue_1998]
-- [Perdue and Green 2007 The Cherokee Nation and the Trail of Tears][book_perdue_green_2007]
-- [Pfaelzer 2007 Driven Out][book_pfaelzer_2007]
-- [Pitt 1966 The Decline of the Californios][book_pitt_1966]
-- [Prucha 1976 American Indian Policy in Crisis][book_prucha_1976]
-- [Quinn 1998 Early Mormonism and the Magic World View][book_quinn_1998]
-- [Raboteau 1978 Slave Religion][book_raboteau_1978]
-- [Remini 2001 Andrew Jackson and His Indian Wars][book_remini_2001]
-- [Reynolds 2005 John Brown Abolitionist][book_reynolds_2005]
-- [Rice 1849 A Debate on Slavery][book_rice_1849]
-- [Richardson 1986 Henry Thoreau A Life of the Mind][book_richardson_1986]
-- [Richardson 1995 Emerson The Mind on Fire][book_richardson_1995]
-- [Richey 1991 Early American Methodism][book_richey_1991]
-- [Robertson 1999 Denmark Vesey][book_robertson_1999]
-- [Robinson 2004 The Unitarians and the Universalists][book_robinson_2004]
-- [Roeber 1993 Palatines, Liberty, and Property][book_roeber_1993]
-- [Rose 1981 Transcendentalism as a Social Movement][book_rose_1981]
-- [Rowe 2008 God's Strange Work][book_rowe_2008]
-- [Rugoff 1981 The Beechers][book_rugoff_1981]
-- [Ryan 1981 Cradle of the Middle Class][book_ryan_1981]
-- [Sánchez 1993 Becoming Mexican American][book_sanchez_1993]
-- [Sandeen 1970 The Roots of Fundamentalism][book_sandeen_1970]
-- [Sandmeyer 1939 The Anti-Chinese Movement in California][book_sandmeyer_1939]
-- [Sarna 2004 American Judaism][book_sarna_2004]
-- [Satz 1975 American Indian Policy in the Jacksonian Era][book_satz_1975]
-- [Saunt 2020 Unworthy Republic][book_saunt_2020]
-- [Sernett 2007 Bound for the Promised Land][book_sernett_2007]
-- [Shipps 1985 Mormonism The Story of a New Religious Tradition][book_shipps_1985]
-- [Sinha 2016 The Slave's Cause][book_sinha_2016]
-- [Sinha 2020 The Rise and Fall of the Second American Republic][book_sinha_2020]
-- [Snay 1993 Gospel of Disunion][book_snay_1993]
-- [Stewart 1976 Holy Warriors][book_stewart_1976]
-- [Stowe 1852 Uncle Tom's Cabin][book_stowe_1852]
-- [Stringfellow 1841 A Brief Examination of Scripture Testimony][book_stringfellow_1841]
-- [Takaki 1989 Strangers from a Different Shore][book_takaki_1989]
-- [Thompson 1963 Presbyterians in the South][book_thompson_1963]
-- [Thoreau 1849 Resistance to Civil Government][book_thoreau_1849]
-- [Thoreau 1854 Walden][book_thoreau_1854]
-- [Thornwell 1850 Rights and Duties of Masters][book_thornwell_1850]
-- [Thurman 1975 Deep River][book_thurman_1975]
-- [Tise 1987 Proslavery][book_tise_1987]
-- [Trinterud 1949 The Forming of an American Tradition][book_trinterud_1949]
-- [Turner 1831 Confessions of Nat Turner][book_turner_confessions_1831]
-- [Turner 2016 The Mormon Jesus][book_turner_2016]
-- [Tyler-McGraw 2007 An African Republic][book_tyler_mcgraw_2007]
-- [Tyrrell 1979 Sobering Up][book_tyrrell_1979]
-- [Walch 2003 Parish School][book_walch_2003]
-- [Wallace 1993 The Long, Bitter Trail][book_wallace_1993]
-- [Walls 1974 The African Methodist Episcopal Zion Church][book_walls_1974]
-- [Walters 1978 American Reformers 1815-1860][book_walters_1978]
-- [Washington 1985 Frustrated Fellowship][book_washington_1985]
-- [Weber 1973 Foreigners in Their Native Land][book_weber_1973]
-- [Weber 1982 The Mexican Frontier][book_weber_1982]
-- [Weigle 1976 Brothers of Light Brothers of Blood][book_weigle_1976]
-- [Weld 1839 American Slavery As It Is][book_weld_1839]
-- [Wellman 2004 The Road to Seneca Falls][book_wellman_2004]
-- [Wigger 1998 Taking Heaven by Storm][book_wigger_1998]
-- [Wilkins 1970 Cherokee Tragedy][book_wilkins_1970]
-- [Wilmore 1998 Black Religion and Black Radicalism][book_wilmore_1998]
-- [Winch 2002 A Gentleman of Color][book_winch_2002]
-- [Wise 1901 Reminiscences][book_wise_1901]
-- [Wish 1943 George Fitzhugh][book_wish_1943]
-- [Wittke 1952 Refugees of Revolution][book_wittke_1952]
-- [Wyatt-Brown 1969 Lewis Tappan and the Evangelical War Against Slavery][book_wyatt_brown_1969]
-- [Youngs 1976 The Congregationalists][book_youngs_1976]
-- [Yung 1995 Unbound Feet][book_yung_1995]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- "Beecher Six Sermons on Intemperance." 1826. [https://archive.org/details/sixsermonsonintem00beec][ref_beecher_six_sermons_on_intemperance_1826]
+- "Cherokee Nation v. Georgia, 30 U.S. 1 (1831)." 1831. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/30/1/][ref_cherokee_nation_v_georgia_1831]
+- "Compromise of." 1850. [https://avalon.law.yale.edu/19th\_century/comp1850.asp][ref_compromise_of_1850]
+- Douglass, My, Bondage, My, and Freedom. 1855. "Frederick Douglass, 1818-1895. My Bondage and My Freedom. Part I. Life as a Slave. Part II. Life as a Freeman." Accessed October 25, 2026. [https://docsouth.unc.edu/neh/douglass55/douglass55.html][ref_douglass_my_bondage_1855]
+- Douglass Narrative. 1845. "Frederick Douglass, 1818-1895. Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself." Accessed October 25, 2026. [https://docsouth.unc.edu/neh/douglass/douglass.html][ref_douglass_narrative_1845]
+- "Dred Scott v. Sandford, 60 U.S. 393 (1856)." 1857. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/60/393/][ref_dred_scott_v_sandford_1857]
+- "Finney Systematic Theology." n.d. Accessed October 25, 2026. [https://www.ccel.org/ccel/finney/systematic.html][ref_finney_systematic_theology]
+- "Frederick Douglass Newspapers, 1847-1874." n.d. The Library of Congress. Accessed October 25, 2026. [https://www.loc.gov/collections/frederick-douglass-newspapers/][ref_north_star_frederick_douglass_paper]
+- "Fugitive Slave Act." 1850. [https://avalon.law.yale.edu/19th\_century/fugslave.asp][ref_fugitive_slave_act_1850]
+- "Indian Removal Act." 1830. [https://avalon.law.yale.edu/19th\_century/removaltriv.asp][ref_indian_removal_act_1830]
+- "Kansas-Nebraska Act." 1854. [https://avalon.law.yale.edu/19th\_century/kansas.asp][ref_kansas_nebraska_act_1854]
+- "Mann Twelfth Annual Report." 1848. [https://archive.org/details/mannstwelfthannual][ref_mann_twelfth_annual_report_1848]
+- "Missouri Compromise." 1820. [https://avalon.law.yale.edu/19th\_century/mocomp.asp][ref_missouri_compromise_1820]
+- "Old School / New School Presbyterian split." 1837. [https://www.pcahistory.org/documents/oldnew.html][ref_old_school_new_school_split_1837]
+- "Stowe Uncle Tom's Cabin." 1852. [https://docsouth.unc.edu/southlit/stowe/stowe.html][ref_stowe_uncle_toms_cabin_1852]
+- "Treaty of New Echota." 1835. [https://avalon.law.yale.edu/19th\_century/chr1835.asp][ref_treaty_of_new_echota_1835]
+- "Turner Confessions of Nat Turner." 1831. [https://docsouth.unc.edu/neh/turner/turner.html][ref_turner_confessions_1831]
+- "Walker Appeal to the Coloured Citizens." 1829. [https://docsouth.unc.edu/church/walker/walker.html][ref_walker_appeal_1829]
+- "Weld American Slavery As It Is." 1839. [https://archive.org/details/americanslaveryw00weld][ref_weld_american_slavery_as_it_is_1839]
+- "Worcester v. Georgia." 1832. [https://supreme.justia.com/cases/federal/us/31/515/][ref_worcester_v_georgia_1832]
+- "Work Info: Lectures on Revivals of Religion: Christian Classics Ethereal Library." 1835. Accessed October 25, 2026. [https://www.ccel.org/ccel/finney/revivals.html][ref_finney_lectures_on_revivals_1835]
 
-- [American Anti-Slavery Society Declaration of Sentiments 1833][ref_american_anti_slavery_declaration_1833]
-- [American Bible Society founding 1816][ref_american_bible_society_1816]
-- [American Board of Commissioners for Foreign Missions 1810][ref_abcfm_1810]
-- [American Sunday School Union 1824][ref_american_sunday_school_union_1824]
-- [Amana Colonies documents][ref_amana_colonies_documents]
-- [Awful Disclosures of Maria Monk 1836][ref_awful_disclosures_of_maria_monk_1836]
-- [Beecher Six Sermons on Intemperance 1826][ref_beecher_six_sermons_on_intemperance_1826]
-- [Beecher Treatise on Domestic Economy 1841][ref_beecher_treatise_on_domestic_economy_1841]
-- [Book of Mormon 1830 canonical text][ref_book_of_mormon_1830]
-- [Campbell Declaration and Address 1809][ref_campbell_declaration_and_address_1809]
-- [Cane Ridge Revival 1801][ref_cane_ridge_revival_1801]
-- [Charlestown Ursuline Convent burning 1834][ref_charlestown_ursuline_convent_burning_1834]
-- [Cherokee Nation v. Georgia 1831][ref_cherokee_nation_v_georgia_1831]
-- [Compromise of 1850][ref_compromise_of_1850]
-- [Doctrine and Covenants canonical text][ref_doctrine_and_covenants]
-- [Douglass Fourth of July address 1852][ref_douglass_fourth_of_july_1852]
-- [Douglass My Bondage and My Freedom 1855][ref_douglass_my_bondage_1855]
-- [Douglass Narrative 1845][ref_douglass_narrative_1845]
-- [Dred Scott v. Sandford 1857][ref_dred_scott_v_sandford_1857]
-- [Finney Lectures on Revivals of Religion 1835][ref_finney_lectures_on_revivals_1835]
-- [Finney Systematic Theology][ref_finney_systematic_theology]
-- [Fugitive Slave Act 1793][ref_fugitive_slave_act_1793]
-- [Fugitive Slave Act 1850][ref_fugitive_slave_act_1850]
-- [Garnet Address to the Slaves of the United States 1843][ref_garnet_address_to_the_slaves_1843]
-- [Grimké Appeal to the Christian Women of the South 1836][ref_grimke_appeal_1836]
-- [Grimké Letters on the Equality of the Sexes 1838][ref_grimke_letters_on_equality_1838]
-- [Harpers Ferry raid 1859][ref_harpers_ferry_raid_1859]
-- [Indian Removal Act 1830][ref_indian_removal_act_1830]
-- [Kansas-Nebraska Act 1854][ref_kansas_nebraska_act_1854]
-- [Leeser Occident and American Jewish Advocate 1843][ref_leeser_occident_1843]
-- [Liberator periodical 1831 archive][ref_liberator_periodical_1831]
-- [Maine Law 1851][ref_maine_law_1851]
-- [Mann Twelfth Annual Report 1848][ref_mann_twelfth_annual_report_1848]
-- [Methodist Plan of Separation 1844][ref_methodist_plan_of_separation_1844]
-- [Miller Evidence from Scripture and History 1836][ref_miller_evidence_second_coming_1836]
-- [Missouri Compromise 1820][ref_missouri_compromise_1820]
-- [Morse Foreign Conspiracy Against the Liberties of the United States 1834][ref_morse_foreign_conspiracy_1834]
-- [Nauvoo Expositor 1844][ref_nauvoo_expositor_1844]
-- [North Star Frederick Douglass Newspapers collection][ref_north_star_frederick_douglass_paper]
-- [Old School / New School Presbyterian split 1837][ref_old_school_new_school_split_1837]
-- [Oneida Community documents][ref_oneida_community_documents]
-- [Philadelphia nativist Bible riots 1844][ref_philadelphia_nativist_riots_1844]
-- [Seneca Falls Declaration of Sentiments 1848][ref_seneca_falls_declaration_1848]
-- [Shaker Millennial Laws][ref_shaker_millennial_laws]
-- [Southern Baptist Convention founding 1845][ref_southern_baptist_convention_1845]
-- [Stanton Address on Woman's Rights 1848][ref_stanton_address_womans_rights_1848]
-- [Stone Last Will and Testament of the Springfield Presbytery 1804][ref_stone_last_will_and_testament_1804]
-- [Stowe Uncle Tom's Cabin 1852][ref_stowe_uncle_toms_cabin_1852]
-- [Treaty of New Echota 1835][ref_treaty_of_new_echota_1835]
-- [Truth Ain't I a Woman 1851][ref_truth_aint_i_a_woman_1851]
-- [Turner Confessions of Nat Turner 1831][ref_turner_confessions_1831]
-- [Walker Appeal to the Coloured Citizens 1829][ref_walker_appeal_1829]
-- [Weld American Slavery As It Is 1839][ref_weld_american_slavery_as_it_is_1839]
-- [Wentworth Letter 1842][ref_wentworth_letter_1842]
-- [Worcester v. Georgia 1832][ref_worcester_v_georgia_1832]
+### Secondary Sources
+
+- Abzug, Robert H. 1980. *Passionate Liberator: Theodore Dwight Weld and the Dilemma of Reform*. Oxford University Press. [https://global.oup.com/academic/product/passionate-liberator-9780195028010][book_abzug_1980]
+- Adams, David Wallace. 1995. *Education for Extinction: American Indians and the Boarding School Experience, 1875-1928*. University Press of Kansas. [https://kansaspress.ku.edu/978-0-7006-0735-3.html][book_adams_1995]
+- Ahlstrom, Sydney E. 1972. *A Religious History of the American People*. Yale University Press. [https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/][book_ahlstrom_1972]
+- Anbinder, Tyler, and Tyler G. Anbinder. 1992. *Nativism and Slavery: The Northern Know Nothings and the Politics of the 1850's*. Oxford University Press. [https://global.oup.com/academic/product/nativism-and-slavery-9780195089226][book_anbinder_1992]
+- Anderson, William L. 1991. *Cherokee Removal: Before and After*. University of Georgia Press. [https://global.oup.com/academic/product/cherokee-removal-9780820313825][book_anderson_1991_removal]
+- Andrew, John A. 1976. *Rebuilding the Christian Commonwealth: New England Congregationalists & Foreign Missions, 1800-1830*. University Press of Kentucky. [https://openlibrary.org/works/OL2724622W][book_andrew_1976]
+- Andrews, Dee. 2000. *The Methodists and Revolutionary America, 1760-1800: The Shaping of an Evangelical Culture*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691009629/the-methodists-and-revolutionary-america][book_andrews_2000]
+- Aptheker, Herbert. 1943. *American Negro Slave Revolts*. Columbia University Press. [https://www.internationalpublishers.com/book/american-negro-slave-revolts][book_aptheker_1943]
+- Arrington, Leonard J. 1985. *Brigham Young*. Alfred A. Knopf. [https://global.oup.com/academic/product/brigham-young-9780252012969][book_arrington_1985]
+- Arrington, Leonard J., and Bitton. 1979. *The Mormon Experience: A History of the Latter-Day Saints*. Knopf: distributed by Random House. [https://global.oup.com/academic/product/the-mormon-experience-9780252060120][book_arrington_bitton_1979]
+- Bagley, Will. 2002. *Blood of the Prophets: Brigham Young and the Massacre at Mountain Meadows*. University of Oklahoma Press. [https://www.oupress.com/9780806134260/blood-of-the-prophets/][book_bagley_2002]
+- Barnes, William Wright. 1954. *The Southern Baptist Convention: A Study in the Development of Ecclesiology*. The author. [https://openlibrary.org/works/OL7480903W][book_barnes_1954]
+- Barry, Colman James. 1953. *The Catholic Church and German Americans*. Bruce. [https://cuapress.org/9780813205104/the-catholic-church-and-german-americans/][book_barry_1953]
+- Barton, H. Arnold. 1994. *A Folk Divided: Homeland Swedes and Swedish Americans, 1840-1940*. Southern Illinois University Press. [https://uofcpress.com/9780809318681/a-folk-divided/][book_barton_1994]
+- Bass, Althea. 1936. *Cherokee Messenger*. University of Oklahoma Press. [https://openlibrary.org/works/OL3245109W][book_bass_1936]
+- Beidler. 2013. *Murder on the Reservation*. [https://global.oup.com/academic/product/murder-on-the-reservation-9780806143637][book_beidler_2013]
+- *Beijbom Bishop Hill*. n.d. [https://scholar.google.com/scholar?q=beijbom+bishop+hill+jansonists][book_bishop_hill_beijbom]
+- Berkhofer, Robert F. 1965. *Salvation and the Savage: An Analysis of Protestant Missions and American Indian Response, 1787-1862*. University of Kentucky Press. [https://openlibrary.org/works/OL3740845W][book_berkhofer_1965]
+- Billington, Ray Allen. 1938. *The Protestant Crusade, 1800-1860: A Study of the Origins of American Nativism*. Macmillan. [https://global.oup.com/academic/product/the-protestant-crusade-9780814703786][book_billington_1938]
+- Blassingame, John W. 1972. *The Slave Community: Plantation Life in the Antebellum South*. OxfordUniversity Press. [https://global.oup.com/academic/product/the-slave-community-9780195025637][book_blassingame_1972]
+- Blegen, Theodore Christian. 1931. *Norwegian Migration to America*. The Norwegian-American Historical Association. [https://mnhs.org/mnhspress/books/norwegian-migration-to-america][book_blegen_1931]
+- Blight, David W. 2018. *Frederick Douglass: Prophet of Freedom*. Simon & Schuster. [https://www.simonandschuster.com/books/Frederick-Douglass/David-W-Blight/9781416590316][book_blight_2018]
+- Blocker, Jack S. 1989. *American Temperance Movements: Cycles of Reform*. Twayne Publishers. [https://openlibrary.org/works/OL4627877W][book_blocker_1989]
+- Bodnar, John E. 1985. *The Transplanted: A History of Immigrants in Urban America*. Indiana University Press. [https://iupress.org/9780253203960/the-transplanted/][book_bodnar_1985]
+- Boles, John B. 1972. *The Great Revival, 1787-1805: The Origins of the Southern Evangelical Mind*. University Press of Kentucky. [https://openlibrary.org/works/OL1828027W][book_boles_1972]
+- Boles, John B. 1988. *Masters & Slaves in the House of the Lord: Race and Religion in the American South, 1740-1870*. University Press of Kentucky. [https://openlibrary.org/works/OL17315982W][book_boles_1988]
+- *The Book of Mormon*. 1830. [https://www.churchofjesuschrist.org/study/scriptures/bofm][book_book_of_mormon_1830]
+- Bordewich, Fergus M. 2005. *Bound for Canaan: The Underground Railroad and the War for the Soul of America*. Amistad. [https://www.harpercollins.com/products/bound-for-canaan-fergus-m-bordewich][book_bordewich_2005]
+- Bowden, Henry Warner. 1981. *American Indians and Christian Missions: Studies in Cultural Conflict*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/A/bo3771540.html][book_bowden_1981]
+- Bowman, Matthew Burton. 2012. *The Mormon People: The Making of an American Faith*. Random House. [https://www.penguinrandomhouse.com/books/213041/the-mormon-people-by-matthew-bowman/][book_bowman_2012]
+- Boyer, Paul S. 1978. *Urban Masses and Moral Order in America, 1820-1920*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674930933][book_boyer_1978]
+- Boylan, Anne M. 1988. *Sunday School: The Formation of an American Institution, 1790-1880*. Yale University Press. [https://yalebooks.yale.edu/book/9780300043211/sunday-school/][book_boylan_1988]
+- Braude, Ann. 1989. *Radical Spirits: Spiritualism and Women's Rights in Nineteenth-Century America*. Beacon Press. [https://global.oup.com/academic/product/radical-spirits-9780253213754][book_braude_1989]
+- Brodie, Fawn McKay. 1945. *No Man Knows My History: The Life of Joseph Smith, the Mormon Prophet*. A.A. Knopf. [https://www.penguinrandomhouse.com/books/159169/no-man-knows-my-history-by-fawn-m-brodie/][book_brodie_1945]
+- Brooke, John L. 1994. *The Refiner's Fire: The Making of Mormon Cosmology, 1644-1844*. Cambridge University Press. [https://www.cambridge.org/9780521477710][book_brooke_1994]
+- Brown, Thomas J. 1998. *Dorothea Dix: New England Reformer*. Harvard University Press. [https://uncpress.org/book/9780807847596/dorothea-dix/][book_brown_1998]
+- Buell, Lawrence. 2003. *Emerson*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674018204][book_buell_2003]
+- Burin, Eric. 2005. *Slavery and the Peculiar Solution: A History of the American Colonization Society*. University Press of Florida. [https://uga.edu/press/burin-slavery-peculiar-solution][book_burin_2005]
+- Bushman. 2005. *Joseph Smith Rough Stone Rolling*. [https://www.penguinrandomhouse.com/books/76931/joseph-smith-by-richard-lyman-bushman/][book_bushman_2005]
+- Butler, Jon. 1990. *Awash in a Sea of Faith: Christianizing the American People*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674056015][book_butler_1990]
+- Butler, Jonathan M., and Ronald L. Numbers. 1987. *The Disappointed: Millerism and Millenarianism in the Nineteenth Century*. Indiana University Press. [https://global.oup.com/academic/product/the-disappointed-9780870499319][book_numbers_butler_1987]
+- Camarillo, Albert. 1979. *Chicanos in a Changing Society: From Mexican Pueblos to American Barrios in Santa Barbara and Southern California, 1848-1930*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674113954][book_camarillo_1979]
+- Cassidy. 2011. *Mexican American Religions*. [https://scholar.google.com/scholar?q=cassidy+2011+mexican+american+religions][book_cassidy_2011]
+- Cather, Willa. 1927. *Death Comes for the Archbishop*. Alfred A. Knopf. [https://www.penguinrandomhouse.com/books/25611/death-comes-for-the-archbishop-by-willa-cather/][book_cather_1927]
+- Champagne, Duane. 1992. *Social Order and Political Change: Constitutional Governments among the Cherokee, the Choctaw, the Chickasaw, and the Creek*. Stanford University Press. [https://sup.org/books/title/?id=2946][book_champagne_1992]
+- Chan, Sucheng. 1991. *Asian Americans: An Interpretive History*. Twayne. [https://openlibrary.org/works/OL4475857W][book_chan_1991]
+- Chang, Iris. 2003. *The Chinese in America: A Narrative History*. Viking Press: NY. [https://www.penguinrandomhouse.com/books/28712/the-chinese-in-america-by-iris-chang/][book_chang_2003]
+- Chang, Gordon H. 2019. *Ghosts of Gold Mountain: The Epic Story of the Chinese Who Built the Transcontinental Railroad*. Houghton Mifflin Harcourt Publishing Company. [https://wwnorton.com/books/9781328971258][book_chang_2019]
+- Chen, Yong. 2000. *Chinese San Francisco, 1850-1943*. [https://global.oup.com/academic/product/chinese-san-francisco-9780804744492][book_chen_2000]
+- Cohen. 2015. *The Ursuline Convent Burning*. [https://scholar.google.com/scholar?q=cohen+2015+ursuline+convent+burning][book_cohen_2015]
+- Cone, James H. 1972. *The Spirituals and the Blues: An Interpretation*. Seabury Press. [https://www.orbisbooks.com/spirituals-and-the-blues.html][book_cone_1972]
+- Conkin, Paul K. 1990. *Cane Ridge: America's Pentecost*. University of Wisconsin Press. [https://www.wisc.edu/press/books/9780299127442][book_conkin_1990]
+- Conley, Robert J. 2007. *A Cherokee Encyclopedia*. University of New Mexico Press. [https://openlibrary.org/works/OL1889755W][book_conley_2007]
+- Conzen, Kathleen Neils. 1976. *Immigrant Milwaukee, 1836-1860: Accommodation and Community in a Frontier City*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674443648][book_conzen_1976]
+- Cornelius, Janet Duitsman. 1999. *Slave Missions and the Black Church in the Antebellum South*. University of South Carolina Press. [https://uscpress.com/Slave-Missions][book_cornelius_1999]
+- Cott, Nancy F. 1977. *The Bonds of Womanhood: "Woman's Sphere" in New England, 1780-1835*. Yale University Press. [https://yalebooks.yale.edu/book/9780300071962/the-bonds-of-womanhood/][book_cott_1977]
+- Cox, Robert S. 2003. *Body and Soul: A Sympathetic History of American Spiritualism*. University of Virginia Press. [https://global.oup.com/academic/product/body-and-soul-9780813922232][book_cox_2003]
+- Cremin. 1980. *American Education The National Experience*. [https://www.harpercollins.com/products/american-education-lawrence-a-cremin][book_cremin_1980]
+- Cross, Whitney R. 1950. *The Burned-over District: The Social and Intellectual History of Enthusiastic Religion in Western New York, 1800-1850*. Cornell University Press. [https://cornellpress.cornell.edu/book/9780801493386/the-burned-over-district/][book_cross_1950]
+- Curti, Merle Eugene. 1929. *The American Peace Crusade, 1815-1860*. Duke University Press. [https://openlibrary.org/works/OL1226152W][book_curti_1929]
+- Cushman, Ellen. 2011. *The Cherokee Syllabary: Writing the People's Perseverance*. University of Oklahoma Press. [https://www.oupress.com/9780806142418/the-cherokee-syllabary/][book_cushman_2011]
+- Daniels, Roger. 1990. *Coming to America: A History of Immigration and Ethnicity in American Life*. HarperCollins. [https://www.harpercollins.com/products/coming-to-america-roger-daniels][book_daniels_1990]
+- De León, Arnoldo. 1983. *They Called Them Greasers: Anglo Attitudes toward Mexicans in Texas, 1821-1900*. University of Texas Press. [https://utpress.utexas.edu/books/deltha][book_de_leon_1983]
+- Debo, Angie. 1934. *Rise and Fall of the Choctaw Republic*. University of Oklahoma Press. [https://www.oupress.com/9780806133805/the-rise-and-fall-of-the-choctaw-republic/][book_debo_1934]
+- del Castillo, Richard Griswold. 1990. *The Treaty of Guadalupe Hidalgo: A Legacy of Conflict*. University of Oklahoma Press. [https://www.oupress.com/9780806127927/the-treaty-of-guadalupe-hidalgo/][book_griswold_del_castillo_1990]
+- Delano, Sterling F. 2004. *Brook Farm: The Dark Side of Utopia*. Belknap Press. [https://www.hup.harvard.edu/books/9780674014800][book_delano_2004]
+- Deverell, William Francis. 2004. *Whitewashed Adobe: The Rise of Los Angeles and the Remaking of Its Mexican Past*. University of California Press. [https://www.ucpress.edu/book/9780520246423/whitewashed-adobe][book_deverell_2004]
+- Diner, Hasia R. 1983. *Erin's Daughters in America: Irish Immigrant Women in the Nineteenth Century*. Johns Hopkins University Press. [https://jhupress.jhu.edu/9780801830174/erins-daughters-in-america/][book_diner_1983]
+- Diner, Hasia R. 1992. *A Time for Gathering: The Second Migration, 1820-1880*. Johns Hopkins University Press. [https://jhupress.jhu.edu/9780801847998/a-time-for-gathering/][book_diner_1992]
+- Doctrine and Covenants. 1835. *Doctrine and Covenants*. [https://www.churchofjesuschrist.org/study/scriptures/dc-testament][book_doctrine_covenants_1835]
+- Dolan, Jay P. 1985. *The American Catholic Experience: A History from Colonial Times to the Present*. Doubleday. [https://global.oup.com/academic/product/the-american-catholic-experience-9780268006020][book_dolan_1985]
+- Dolan, Jay P. 2002. *In Search of an American Catholicism: A History of Religion and Culture in Tension*. Oxford University Press, USA. [https://global.oup.com/academic/product/in-search-of-an-american-catholicism-9780195148886][book_dolan_2002]
+- Douglas, Ann, and Ann Douglas. 1977. *The Feminization of American Culture*. Knopf. [https://us.macmillan.com/books/9780374525583][book_douglas_1977]
+- Douglass, Frederick. 1845. *Narrative of the Life of Frederick Douglass*. CreateSpace Independent Publishing Platform. [https://oll.libertyfund.org/titles/douglass-narrative-of-the-life-of-frederick-douglass][book_douglass_1845]
+- Dubois, Ellen Carol. 1978. *Feminism and Suffrage: The Emergence of an Independent Women's Movement in America, 1848-1869*. Cornell University Press. [https://cornellpress.cornell.edu/book/9780801491825/feminism-and-suffrage/][book_dubois_1978]
+- Dunbar, Erica Armstrong. 2008. *A Fragile Freedom: African American Women and Emancipation in the Antebellum City (Society and the Sexes in the Modern Worl)*. Yale University Press. [https://yalebooks.yale.edu/book/9780300154177/a-fragile-freedom/][book_dunbar_2008]
+- Egerton. 1999. *He Shall Go Out Free*. [https://uwpress.wisc.edu/books/2113.htm][book_egerton_1999]
+- Ehle, John. 1988. *Trail of Tears: The Rise and Fall of the Cherokee Nation*. Doubleday. [https://www.penguinrandomhouse.com/books/113050/trail-of-tears-by-john-ehle/][book_ehle_1988]
+- Emerson, Ralph Waldo. 1836. *Nature*. J. Munroe and Company. [https://oll.libertyfund.org/titles/emerson-nature][book_emerson_1836]
+- Erie, Steven P. 1988. *Rainbow's End: Irish-Americans and the Dilemmas of Urban Machine Politics, 1840-1985*. University of California Press. [https://www.ucpress.edu/book/9780520071834/rainbows-end][book_erie_1988]
+- Ernst, Robert. 1949. *Immigrant Life in New York City, 1825-1863*. King's Crown Press. [https://openlibrary.org/works/OL3500995W][book_ernst_1949]
+- Erskine, Noel Leo. 1996. *Black People and the Reformed Church in America*. Reformed Church Press. [https://openlibrary.org/works/OL2682386W][book_erskine_1996]
+- Everill, Bronwen. 2013. *Abolition and Empire in Sierra Leone and Liberia*. Palgrave Macmillan. [https://global.oup.com/academic/product/abolition-and-empire-in-sierra-leone-and-liberia-9781137291509][book_everill_2013]
+- Farmer, James Oscar. 1986. *The Metaphysical Confederacy: James Henley Thornwell and the Synthesis of Southern Values*. Mercer University Press. [https://mercer.edu/press/farmer-metaphysical-confederacy][book_farmer_1986]
+- Faust, Albert Bernhardt. 1909. *The German Element in the United States: With Special Reference to Its Political, Moral, Social, and Educational Influence*. Houghton Mifflin company. [https://archive.org/details/germanelementinu01faus][book_faust_1909]
+- Faust, Drew Gilpin. 1981. *The Ideology of Slavery: Proslavery Thought in the Antebellum South, 1830-1860*. Louisiana State University Press. [https://lsupress.org/9780807107874/the-ideology-of-slavery/][book_faust_1981]
+- Feldberg, Michael. 1975. *The Philadelphia Riots of 1844: A Study of Ethnic Conflict*. Greenwood Press. [https://openlibrary.org/works/OL6563901W][book_feldberg_1975]
+- Fessler, Loren. 1983. *Chinese in America: Stereotyped past, Changing Present*. Vantage Press. [https://openlibrary.org/works/OL19680116W][book_fessler_1983]
+- Finke, Roger, and Stark. 1992. *The Churching of America, 1776-2005: Winners and Losers in Our Religious Economy*. Rutgers University Press. [https://www.rutgersuniversitypress.org/the-churching-of-america/9780813535531][book_finke_stark_1992]
+- Finney, Charles G. 1835. *Lectures on Revivals of Religion*. Leavitt, Lord & co. [https://ccel.org/ccel/finney/revivals/revivals.html][book_finney_1835]
+- Fitzhugh, George. 1854. *Sociology for the South: Or, the Failure of a Free Society*. A. Morris. [https://oll.libertyfund.org/titles/fitzhugh-sociology-for-the-south][book_fitzhugh_1854]
+- Fitzhugh, George. 1857. *Cannibals All! Or, Slaves without Masters*. A. Morris. [https://oll.libertyfund.org/titles/fitzhugh-cannibals-all][book_fitzhugh_1857]
+- Fogelson. 1961. *Cherokee Notions of Power*. [https://scholar.google.com/scholar?q=fogelson+1961+cherokee+notions+power][book_fogelson_1961]
+- Foner, Eric. 1970. *Free Soil, Free Labor, Free Men: The Ideology of the Republican Party before the Civil War*. Oxford University Press. [https://global.oup.com/academic/product/free-soil-free-labor-free-men-9780195094978][book_foner_1970]
+- Foner, Eric. 1971. *Nat Turner*. Prentice-Hall. [https://openlibrary.org/works/OL1805091W][book_foner_1971]
+- Foner, Eric. 2015. *Gateway to Freedom: The Hidden History of the Underground Railroad*. W.W. Norton & Co. [https://wwnorton.com/books/Gateway-to-Freedom][book_foner_2015]
+- Foreman. 1932. *Indian Removal*. [https://www.oupress.com/9780806112527/indian-removal/][book_foreman_1932]
+- Foster, Charles I. 1960. *An Errand of Mercy: The Evangelical United Front, 1790-1837*. University of North Carolina Press. [https://openlibrary.org/works/OL178437W][book_foster_1960]
+- Foster, Lawrence. 1981. *Religion and Sexuality: Three American Communal Experiments of the Nineteenth Century*. Oxford University Press. [https://global.oup.com/academic/product/religion-and-sexuality-9780252012396][book_foster_1981]
+- Foster, Douglas A., and Blowers. 2004. *The Encyclopedia of the Stone-Campbell Movement: Christian Church (Disciples of Christ), Christian Churches/Churches of Christ, Churches of Christ*. W.B. Eerdmans Pub. [https://www.eerdmans.com/9780802838988/the-encyclopedia-of-the-stone-campbell-movement/][book_foster_blowers_2004]
+- Fox-Genovese, Elizabeth, and Eugene D. Genovese. 2005. *The Mind of the Master Class: History and Faith in the Southern Slaveholders' Worldview*. Cambridge University Press. [https://www.cambridge.org/9780521850650][book_fox_genovese_genovese_2005]
+- Franchot, Jenny. 1994. *Roads to Rome: The Antebellum Protestant Encounter with Catholicism*. University of California Press. [https://www.ucpress.edu/book/9780520083783/roads-to-rome][book_franchot_1994]
+- French, Scot. 2004. *The Rebellious Slave: Nat Turner in American Memory*. Houghton Mifflin. [https://global.oup.com/academic/product/the-rebellious-slave-9781403964786][book_french_2004]
+- Frey, Sylvia R. 1991. *Water from the Rock: Black Resistance in a Revolutionary Age*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691006260/water-from-the-rock][book_frey_1991]
+- Fuller, Margaret, and Arthur Buckminster Fuller. 1845. *Woman in the Nineteenth Century*. Greeley & McElrath. [https://oll.libertyfund.org/titles/fuller-woman-in-the-nineteenth-century][book_fuller_1845]
+- Gaustad, Edwin Scott, and Philip L. Barlow. 2001. *New Historical Atlas of Religion in America*. Oxford University Press. [https://global.oup.com/academic/product/new-historical-atlas-of-religion-in-america-9780195097016][book_gaustad_barlow_2001]
+- Genovese, Eugene D. 1974. *Roll, Jordan, Roll: The World the Slaves Made*. Pantheon Books. [https://www.penguinrandomhouse.com/books/38617/roll-jordan-roll-by-eugene-d-genovese/][book_genovese_1974]
+- Genovese, Eugene D. 1998. *A Consuming Fire: The Fall of the Confederacy in the Mind of the White Christian South*. University of Georgia Press. [https://uga.edu/press/genovese-consuming-fire][book_genovese_1998]
+- Gibson, Arrell M. 1971. *The Chickasaws*. University of Oklahoma Press. [https://www.oupress.com/9780806115047/the-chickasaws/][book_gibson_1971]
+- Gienapp, William E. 1987. *The Origins of the Republican Party, 1852-1856*. Oxford University Press. [https://global.oup.com/academic/product/the-origins-of-the-republican-party-9780195055016][book_gienapp_1987]
+- Ginzberg, Lori D. 1990. *Women and the Work of Benevolence: Morality, Politics, and Class in the Nineteenth-Century United States*. Yale University Press. [https://yalebooks.yale.edu/book/9780300048704/women-and-the-work-of-benevolence/][book_ginzberg_1990]
+- Givens, Terryl L. 2007. *People of Paradox: A History of Mormon Culture*. Oxford University Press, USA. [https://global.oup.com/academic/product/people-of-paradox-9780195167115][book_givens_2007]
+- Givens, Terryl. 2009. *The Book of Mormon: A Very Short Introduction*. Oxford University Press. [https://global.oup.com/academic/product/the-book-of-mormon-9780195369311][book_givens_2009]
+- Goen, C. C. 1985. *Broken Churches, Broken Nation: Denominational Schisms and the Coming of the American Civil War*. Mercer University Press. [https://openlibrary.org/works/OL4971573W][book_goen_1985]
+- Gray, Peter. 1995. *The Irish Famine*. H.N. Abrams. [https://global.oup.com/academic/product/the-irish-famine-9780810928664][book_gray_1995]
+- Green, Michael D., and Michael D. Green. 1982. *The Politics of Indian Removal: Creek Government and Society in Crisis*. University of Nebraska Press. [https://www.nebraskapress.unl.edu/nebraska/9780803265240/][book_green_1982]
+- Greenberg. 2003. *Nat Turner A Slave Rebellion in History and Memory*. [https://global.oup.com/academic/product/nat-turner-9780195177558][book_greenberg_2003]
+- *The Greville Memoirs, Part 2 (of 3), Volume 1 (of 3) by Charles Greville*. 1836. [https://www.gutenberg.org/ebooks/24504][ref_awful_disclosures_of_maria_monk_1836]
+- Grodzins, Dean. 2002. *American Heretic: Theodore Parker and Transcendentalism*. University of North Carolina Press. [https://uncpress.org/book/9780807827117/american-heretic/][book_grodzins_2002]
+- Grusd, Edward E. 1966. *B'nai B'rith: The Story of a Covenant*. Appleton-Century. [https://openlibrary.org/works/OL7400960W][book_grusd_1966]
+- Guinnane, Timothy W. 1997. *The Vanishing Irish: Households, Migration, and the Rural Economy in Ireland, 1850-1914*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691043067/the-vanishing-irish][book_guinnane_1997]
+- Gura, Philip F. 2007. *American Transcendentalism: A History*. Hill and Wang. [https://us.macmillan.com/books/9780809034772/americantranscendentalism][book_gura_2007]
+- Gutiérrez, David G. 1995. *Walls and Mirrors: Mexican Americans, Mexican Immigrants, and the Politics of Ethnicity*. University of California Press. [https://www.ucpress.edu/book/9780520207974/walls-and-mirrors][book_gutierrez_1995]
+- Hambrick-Stowe, Charles E. 1996. *Charles G. Finney and the Spirit of American Evangelicalism*. W.B. Eerdmans Pub. Co. [https://www.eerdmans.com/9780802801296/charles-g-finney/][book_hambrick_stowe_1996]
+- Handlin, Oscar. 1941. *Boston's Immigrants, 1790-1865: A Study in Acculturation*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674079861][book_handlin_1941]
+- Handlin, Oscar. 1951. *The Uprooted*. little, brown and company. [https://www.pennpress.org/9780812218602/the-uprooted/][book_handlin_1951]
+- Hardman, Keith. 1987. *Charles Grandison Finney, 1792-1875: Revivalist and Reformer*. Syracuse University Press. [https://openlibrary.org/works/OL3923351W][book_hardman_1987]
+- Harrill, James Albert. 2006. *Slaves in the New Testament: Literary, Social, and Moral Dimensions*. Fortress Press. [https://fortresspress.com/product/slaves-in-the-new-testament][book_harrill_2006]
+- Hatch, Nathan O. 1989. *The Democratization of American Christianity*. Yale University Press. [https://yalebooks.yale.edu/book/9780300050608/the-democratization-of-american-christianity/][book_hatch_1989]
+- Haynes, Stephen R. 2002. *Noah's Curse: The Biblical Justification of American Slavery*. Oxford University Press. [https://global.oup.com/academic/product/noahs-curse-9780195313093][book_haynes_2002]
+- Hedrick, Joan D. 1994. *Harriet Beecher Stowe: A Life*. Oxford University Press. [https://global.oup.com/academic/product/harriet-beecher-stowe-9780195096392][book_hedrick_1994]
+- Hennesey, James J. 1981. *American Catholics: A History of the Roman Catholic Community in the United States*. Oxford University Press. [https://global.oup.com/academic/product/american-catholics-9780195030525][book_hennesey_1981]
+- Hewitt, Nancy A. 1984. *Women's Activism and Social Change: Rochester, New York, 1822-1872*. Cornell University Press. [https://cornellpress.cornell.edu/book/9780801417641/womens-activism-and-social-change/][book_hewitt_1984]
+- Higham, John, John Higham, John Higham, and JOhn Higham. 1955. *Strangers in the Land: Patterns of American Nativism, 1860-1925*. Rutgers University Press. [https://www.rutgersuniversitypress.org/strangers-in-the-land/9780813513966][book_higham_1955]
+- Holt, Michael F. 1978. *The Political Crisis of the 1850s*. Wiley. [https://wwnorton.com/books/The-Political-Crisis-of-the-1850s][book_holt_1978]
+- Hughes, Richard T. 1996. *Reviving the Ancient Faith: The Story of Churches of Christ in America*. W.B. Eerdmans Pub. Co. [https://www.eerdmans.com/9780802807977/reviving-the-ancient-faith/][book_hughes_1996]
+- Inskeep, Steve. 2015. *Jacksonland: President Andrew Jackson, Cherokee Chief John Ross, and a Great American Land Grab*. Penguin Press. [https://www.penguinrandomhouse.com/books/230057/jacksonland-by-steve-inskeep/][book_inskeep_2015]
+- Jeffrey, Julie Roy. 1991. *Converting the West: A Biography of Narcissa Whitman*. University of Oklahoma Press. [https://www.oupress.com/9780806123714/converting-the-west/][book_jeffrey_1991]
+- Jeffrey, Julie Roy. 1998. *The Great Silent Army of Abolitionism: Ordinary Women in the Antislavery Movement*. University of North Carolina Press. [https://uncpress.org/book/9780807847411/the-great-silent-army-of-abolitionism/][book_jeffrey_1998]
+- Jetté. 2004. *At the Hearth of the Crossed Races*. [https://www.oupress.com/9780806135953/at-the-hearth-of-the-crossed-races/][book_jette_2004]
+- Johnson, Charles A. 1955. *The Frontier Camp Meeting: Religion's Harvest Time*. Southern Methodist University Press. [https://openlibrary.org/works/OL8895382W][book_johnson_1955]
+- Johnson, Paul E. 1978. *A Shopkeeper's Millennium: Society and Revivals in Rochester, New York, 1815-1837 (American Century)*. Hill and Wang. [https://us.macmillan.com/books/9780809016358/ashopkeepersmillennium][book_johnson_1978]
+- Jones, Charles Colcock. 1842. *The Religious Instruction of the Negroes in the United States*. CreateSpace Independent Publishing Platform. [https://archive.org/details/religiousinstru00jone][book_jones_1842]
+- Kamphoefner, Walter D. 1987. *The Westfalians: From Germany to Missouri*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691628141/the-westfalians][book_kamphoefner_1987]
+- Kenny, Kevin. 2000. *The American Irish*. New York. [https://www.penguinrandomhouse.com/books/298907/the-american-irish-by-kevin-kenny/][book_kenny_2000]
+- Killoren, John J. 1994. *"Come, Blackrobe": De Smet and the Indian Tragedy*. University of Oklahoma Press. [https://global.oup.com/academic/product/come-blackrobe-9780806126586][book_killoren_1994]
+- Kinealy, Christine. 1994. *This Great Calamity: The Irish Famine, 1845-52*. Gill & Macmillan. [https://www.gillbooks.ie/this-great-calamity][book_kinealy_1994]
+- Kling, David William. 1993. *A Field of Divine Wonders: The New Divinity and Village Revivals in Northwestern Connecticut, 1792-1822*. Pennsylvania State University Press. [https://global.oup.com/academic/product/a-field-of-divine-wonders-9780271010601][book_kling_1993]
+- Knobel, Dale T. 1996. *America for the Americans: The Nativist Movement in the United States*. Twayne Publishers. [https://global.oup.com/academic/product/america-for-the-americans-9780805738162][book_knobel_1996]
+- Kolchin, Peter. 1993. *American Slavery, 1619-1877*. Hill and Wang. [https://us.macmillan.com/books/9780809034314/americanslavery][book_kolchin_1993]
+- Kraditor, Aileen S. 1969. *Means and Ends in American Abolitionism: Garrison and His Critics on Strategy and Tactics, 1834-1850*. Pantheon Books. [https://openlibrary.org/works/OL4780586W][book_kraditor_1969]
+- Kwong, Peter, and Miscevic. 2005. *Chinese America: The Untold Story of America's Oldest New Community*. New Press. [https://www.perseusbooks.com/titles/peter-kwong/chinese-america/9781565849624/][book_kwong_miscevic_2005]
+- Lai, Him Mark. 2004. *Becoming Chinese American: A History of Communities and Institutions*. AltaMira Press. [https://rowman.com/ISBN/9780759104594/Becoming-Chinese-American][book_lai_2004]
+- Land, Gary. 1998. *Adventism in America*. Andrews University Press. [https://openlibrary.org/works/OL539882W][book_land_1998]
+- Land, Gary. 2005. *Historical Dictionary of the Seventh-Day Adventists (Historical Dictionaries of Religions, Philosophies and Movements)*. The Scarecrow Press, Inc. [https://rowman.com/ISBN/9780810853454/A-to-Z-of-the-Seventh-Day-Adventists][book_land_2005]
+- Lee, Erika. 2003. *At America's Gates*. Stanford University Press. [https://uncpress.org/book/9780807855102/at-americas-gates/][book_lee_2003]
+- Leonard, Bill J. 2003. *Baptists in America*. Columbia University Press. [https://global.oup.com/academic/product/baptists-in-america-9780231127035][book_leonard_2003]
+- Lerner, Gerda. 1998. *The Grimke Sisters from South Carolina: Pioneers for Woman's \[Sic\] Rights and Abolition*. Oxford University Press. [https://global.oup.com/academic/product/the-grimke-sisters-from-south-carolina-9780195106039][book_lerner_1998]
+- Levine, Lawrence W. 1977. *Black Culture and Black Consciousness: Afro-American Folk Thought from Slavery to Freedom*. Oxford University Press. [https://global.oup.com/academic/product/black-culture-and-black-consciousness-9780195305692][book_levine_1977]
+- Lincoln, C. Eric, and Mamiya. 1990. *The Black Church in the African-American Experience*. Duke University Press. [https://www.dukeupress.edu/the-black-church-in-the-african-american-experience][book_lincoln_mamiya_1990]
+- Long. 1998. *Great Awakenings*. [https://scholar.google.com/scholar?q=long+1998+great+awakenings][book_long_1998]
+- Longfield, Bradley J. 2013. *Presbyterians and American Culture: A History*. Westminster John Knox Press. [https://global.oup.com/academic/product/presbyterians-and-american-culture-9780664233150][book_longfield_2013]
+- Lovoll. 1984. *The Promise of America*. [https://uofmpress.umn.edu/9780816613212/the-promise-of-america/][book_lovoll_1984]
+- Luebke, Frederick C. 1974. *Bonds of Loyalty: German-Americans and World War I*. Northern Illinois University Press. [https://www.nebraskapress.unl.edu/nebraska/9780803261211/][book_luebke_1974]
+- Marini, Stephen A. 1982. *Radical Sects of Revolutionary New England*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674745704][book_marini_1982]
+- Marsden, George M. 1970. *The Evangelical Mind and the New School Presbyterian Experience: A Case Study of Thought and Theology in Nineteenth-Century America*. Yale University Press. [https://yalebooks.yale.edu/book/9780300012705/the-evangelical-mind-and-the-new-school-presbyterian-experience/][book_marsden_1970]
+- Marshall, Megan. 2013. *Margaret Fuller: A New American Life*. Houghton Mifflin Harcourt. [https://www.hmhbooks.com/shop/books/margaret-fuller/9780547195605][book_marshall_2013]
+- Mathews, Donald G. 1965. *Slavery and Methodism: A Chapter in American Morality, 1780-1845*. Princeton University Press. [https://press.princeton.edu/books/hardcover/9780691623542/slavery-and-methodism][book_mathews_1965]
+- Matovina, Timothy. 2011. *Latino Catholicism: Transformation in America's Largest Church*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691168456/latino-catholicism][book_matovina_2011]
+- Mayer, Henry. 1998. *All on Fire: William Lloyd Garrison and the Abolition of Slavery*. St. Martin's Press. [https://us.macmillan.com/books/9780393329445/allonfire][book_mayer_1998]
+- McBeth, Leon. 1987. *The Baptist Heritage*. Broadman Press. [https://openlibrary.org/works/OL778295W][book_mcbeth_1987]
+- McLoughlin. 1984. *The Cherokees and Christianity*. [https://scholar.google.com/scholar?q=mcloughlin+1984+cherokees+christianity][book_mcloughlin_1984]
+- McLoughlin, William Gerald. 1986. *Cherokee Renascence in the New Republic*. Princeton University Press. [https://global.oup.com/academic/product/cherokee-renascence-in-the-new-republic-9780691047614][book_mcloughlin_1986]
+- Meagher, Timothy J. 2005. *The Columbia Guide to Irish American History*. Columbia University Press. [https://global.oup.com/academic/product/the-columbia-guide-to-irish-american-history-9780231120708][book_meagher_2005]
+- Menchaca, Martha. 2001. *Recovering History, Constructing Race: The Indian, Black, and White Roots of Mexican Americans (Joe R. and Teresa Lozano Long Series in Latin American and Latino Art and Culture)*. University of Texas Press. [https://utpress.utexas.edu/books/menrec][book_menchaca_2001]
+- Meyer, Carl Stamm. 1987. *Log Cabin to Luther Tower*. Concordia Pub. House. [https://openlibrary.org/works/OL7145598W][book_meyer_1987]
+- Meyer, Michael A. 1988. *Response to Modernity: A History of the Reform Movement in Judaism*. Oxford University Press. [https://global.oup.com/academic/product/response-to-modernity-9780814327531][book_meyer_1988]
+- Miller, Perry. 1950. *The Transcendentalists an Anthology*. Harvard Univ Press. [https://www.hup.harvard.edu/books/9780674903319][book_miller_1950]
+- Miller, Kerby A. 1985. *Emigrants and Exiles: Ireland and the Irish Exodus to North America*. Oxford University Press. [https://global.oup.com/academic/product/emigrants-and-exiles-9780195051872][book_miller_1985]
+- Missall, John, and Mary Lou Missall. 2004. *The Seminole Wars: America's Longest Indian Conflict (the Florida History and Culture Series)*. University Press of Florida. [https://upress.ufl.edu/9780813027159][book_missall_missall_2004]
+- Monk, Maria. 1836. *Awful Disclosures of Maria Monk: Or, the Hidden Secrets of a Nun's Life in a Convent Exposed!*. Milner. [https://oll.libertyfund.org/titles/monk-awful-disclosures][book_monk_1836]
+- Morse, Samuel Finley Breese, 1791-1872. 1834. *Foreign Conspiracy against the Liberties of the United States: The Numbers under the Signature of Brutus, Originally Published in the New York Observer*. New York, N.Y.: The American and Foreign Christian Union. [https://archive.org/details/foreignconspirac00mors][ref_morse_foreign_conspiracy_1834]
+- Mullin. 1986. *Episcopal Vision and American Reality*. [https://global.oup.com/academic/product/episcopal-vision-american-reality-9780195037982][book_mullin_1986]
+- Nadel, Stanley. 1990. *Little Germany: Ethnicity, Religion, and Class in New York City, 1845-80*. University of Illinois Press. [https://global.oup.com/academic/product/little-germany-9780252060014][book_nadel_1990]
+- Nash, Gary B. 1988. *Forging Freedom: The Formation of Philadelphia's Black Community, 1720-1840*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674309333][book_nash_1988]
+- Nee, Victor, and Victor Nee. 1972. *Longtime Californ': A Documentary Study of an American Chinatown*. Pantheon Books. [https://openlibrary.org/works/OL4615352W][book_nee_nee_1972]
+- Nelson, E. Clifford. 1998. *The Lutherans in North America*. Fortress Press. [https://openlibrary.org/works/OL18319081W][book_nelson_1998]
+- Newman, Richard S. 2008. *Freedom's Prophet: Bishop Richard Allen, the AME Church, and the Black Founding Fathers*. New York University Press. [https://nyupress.org/9780814758618/freedoms-prophet/][book_newman_2008]
+- Noll, Mark A. 2006. *The Civil War as a Theological Crisis*. University of North Carolina Press. [https://uncpress.org/book/9780807858998/the-civil-war-as-a-theological-crisis/][book_noll_2006]
+- O Grada. 1999. *Black '47 and Beyond: The Great Irish Famine in History, Economy, and Memory (Princeton Economic History of the Western World)*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691070155/black-47-and-beyond][book_ograda_1999]
+- O'Toole, James M. 2008. *The Faithful: A History of Catholics in America*. Belknap Press. [https://www.hup.harvard.edu/books/9780674034686][book_otoole_2008]
+- Ostergren, Robert Clifford. 1988. *A Community Transplanted: The Trans-Atlantic Experience of a Swedish Immigrant Settlement in the Upper Middle West, 1835-1915*. Uppsala. [https://www.wisc.edu/press/books/9780299111342][book_ostergren_1988]
+- Packer, Barbara L. 1982. *Emerson's Fall: A New Interpretation of the Major Essays*. Continuum. [https://openlibrary.org/works/OL5896194W][book_packer_1982]
+- Packer, Barbara L. 2007. *The Transcendentalists*. University of Georgia Press. [https://global.oup.com/academic/product/the-transcendentalists-9780820329581][book_packer_2007]
+- Painter, Nell Irvin. 1996. *Sojourner Truth: A Life, a Symbol*. W.W. Norton. [https://wwnorton.com/books/Sojourner-Truth][book_painter_1996]
+- Parker, Theodore. 1841. *A Discourse on the Transient and Permanent in Christianity*. Printed for the author \[by Freeman and Bolles\]. [https://oll.libertyfund.org/titles/parker-the-transient-and-permanent-in-christianity][book_parker_1841]
+- Payne, Daniel Alexander. 1891. *History of the African Methodist Episcopal Church*. Publishing house of the A.M.E. Sunday-school union. [https://archive.org/details/historyoftheafr00payn][book_payne_1891]
+- *Pearl of Great Price*. 1851. [https://www.churchofjesuschrist.org/study/scriptures/pgp][book_pearl_of_great_price_1851]
+- Perdue, Theda. 1996. *Cherokee Editor: The Writings of Elias Boudinot*. Univ of Tennessee Pr. [https://global.oup.com/academic/product/cherokee-editor-9781572330603][book_perdue_1996]
+- Perdue, Theda. 1998. *Cherokee Women: Gender and Culture Change, 1700-1835*. University of Nebraska Press. [https://www.nebraskapress.unl.edu/nebraska/9780803287600/][book_perdue_1998]
+- Perdue, Theda, and Michael Green. 2007. *The Cherokee Nation and the Trail of Tears: The Penguin Library of American Indian History Series (Penguin Library of American Indian History)*. Viking Adult. [https://www.penguinrandomhouse.com/books/167028/the-cherokee-nation-and-the-trail-of-tears-by-theda-perdue-and-michael-d-green/][book_perdue_green_2007]
+- Pfaelzer, Jean. 2007. *Driven Out: The Forgotten War against Chinese Americans*. Penguin Random House. [https://global.oup.com/academic/product/driven-out-9780520256941][book_pfaelzer_2007]
+- Pitt, Leonard. 1966. *The Decline of the Californios: A Social History of the Spanish-Speaking Californians,1846-1890*. California U.P.;Cambridge U.P. [https://www.ucpress.edu/book/9780520028302/the-decline-of-the-californios][book_pitt_1966]
+- Prucha, Francis Paul. 1976. *American Indian Policy in Crisis: Christian Reformers and the Indian, 1865-1900*. University of Oklahoma Press. [https://global.oup.com/academic/product/american-indian-policy-in-crisis-9780806117966][book_prucha_1976]
+- Quinn, D. Michael. 1998. *Early Mormonism and the Magic World View*. Signature Books. [https://sunstonepress.com/9781560851004/][book_quinn_1998]
+- Raboteau, Albert J. 1978. *Slave Religion: The "Invisible Institution" in the Antebellum South*. Oxford University Press. [https://global.oup.com/academic/product/slave-religion-9780195174137][book_raboteau_1978]
+- Remini, Robert Vincent. 2001. *Andrew Jackson and His Indian Wars*. Penguin (Non-Classics). [https://global.oup.com/academic/product/andrew-jackson-and-his-indian-wars-9780670910252][book_remini_2001]
+- Reynolds, David S. 2005. *John Brown, Abolitionist: The Man Who Killed Slavery, Sparked the Civil War, and Seeded Civil Rights*. Alfred A. Knopf. [https://www.penguinrandomhouse.com/books/292103/john-brown-abolitionist-by-david-s-reynolds/][book_reynolds_2005]
+- Rice, Nathan Lewis. 1849. *A Debate on Slavery: Held in the City of Cincinnati, on the First, Second, Third, and Sixth Days of October 1845,. upon the Question:Is Slave-Holding in Itself Sinful, and the Relationship between Master and Slave, a Sinful Relationship?*. New York, M. H. Newman. [https://archive.org/details/debateonslavery00rice][book_rice_1849]
+- Richardson. 1986. *Henry Thoreau: A Life of the Mind*. University of California Press. [https://www.ucpress.edu/book/9780520063464/henry-thoreau][book_richardson_1986]
+- Richardson. 1995. *Emerson The Mind on Fire*. [https://www.ucpress.edu/book/9780520206896/emerson][book_richardson_1995]
+- Richey, Russell E. 1991. *Early American Methodism*. Indiana University Press. [https://global.oup.com/academic/product/early-american-methodism-9780253206725][book_richey_1991]
+- Robertson, David, and David M. Robertson. 1999. *Denmark Vesey*. Alfred A. Knopf. [https://www.penguinrandomhouse.com/books/167005/denmark-vesey-by-david-robertson/][book_robertson_1999]
+- Robinson, David. 2004. *Unitarians and the Universalists*. ABC-CLIO, LLC. [https://greenwood.com/product/the-unitarians-and-the-universalists][book_robinson_2004]
+- Roeber, A. G. 1993. *Palatines, Liberty, and Property: German Lutherans in Colonial British America*. Johns Hopkins University Press. [https://jhupress.jhu.edu/9780801846267/palatines-liberty-and-property/][book_roeber_1993]
+- Rose, Anne C. 1981. *Transcendentalism as a Social Movement, 1830-1850*. Yale University Press. [https://global.oup.com/academic/product/transcendentalism-as-a-social-movement-9780300026016][book_rose_1981]
+- Rowe, David L. 2008. *God's Strange Work: William Miller and the End of the World*. Eerdmans Publishing Company, William B. [https://www.eerdmans.com/9780802803801/gods-strange-work/][book_rowe_2008]
+- Rugoff, Milton Allan. 1981. *The Beechers: An American Family in the Nineteenth Century*. HarperCollins. [https://openlibrary.org/works/OL273143W][book_rugoff_1981]
+- Ryan, Mary P. 1981. *Cradle of the Middle Class: The Family in Oneida County, New York, 1790-1865*. Cambridge University Press. [https://www.cambridge.org/9780521287807][book_ryan_1981]
+- Sanchez, George J. 1993. *Becoming Mexican American: Ethnicity, Culture, and Identity in Chicano Los Angeles, 1900-1945*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/becoming-mexican-american-9780195096484][book_sanchez_1993]
+- Sandeen, Ernest Robert. 1970. *The Roots of Fundamentalism: British and American Millenarianism, 1800-1930*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/R/bo3623648.html][book_sandeen_1970]
+- Sandmeyer, Elmer Clarence. 1939. *The Anti-Chinese Movement in California*. University of Illinois Press. [https://openlibrary.org/works/OL7208877W][book_sandmeyer_1939]
+- Sarna, Jonathan D. 2004. *American Judaism: A History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300109764/american-judaism/][book_sarna_2004]
+- Satz, Ronald N. 1975. *American Indian Policy in the Jacksonian Era*. University of Nebraska Press. [https://uofmpress.umn.edu/9780803261341/american-indian-policy-jacksonian-era/][book_satz_1975]
+- Saunt, Claudio. 2020. *Unworthy Republic: The Dispossession of Native Americans and the Road to Indian Territory*. W. W. Norton Company. [https://wwnorton.com/books/9780393609844][book_saunt_2020]
+- Sernett, Milton C. 2007. *Bound for the Promised Land: African American Religion and the Great Migration*. Duke University Press. [https://www.dukeupress.edu/bound-for-the-promised-land][book_sernett_2007]
+- Shipps. 1985. *Mormonism The Story of a New Religious Tradition*. [https://www.press.uillinois.edu/books/?id=p066002][book_shipps_1985]
+- Sinha, Manisha. 2016. *The Slave's Cause: A History of Abolition*. Yale University Press. [https://yalebooks.yale.edu/book/9780300182088/the-slaves-cause/][book_sinha_2016]
+- Sinha. 2020. *The Rise and Fall of the Second American Republic*. [https://global.oup.com/academic/product/the-rise-and-fall-of-the-second-american-republic-9780871407313][book_sinha_2020]
+- Snay, Mitchell. 1993. *Gospel of Disunion: Religion and Separatism in the Antebellum South*. Cambridge University Press. [https://www.cambridge.org/9780521467964][book_snay_1993]
+- Stewart, James Brewer. 1976. *Holy Warriors: The Abolitionists and American Slavery*. Hill and Wang. [https://global.oup.com/academic/product/holy-warriors-9780809016358][book_stewart_1976]
+- Stowe, Harriet Beecher. 1852. *Uncle Tom's Cabin*. Thomas Nelson and Sons. [https://oll.libertyfund.org/titles/stowe-uncle-toms-cabin][book_stowe_1852]
+- Stringfellow, Thornton. 1841. *A Brief Examination of Scripture Testimony on the Institution of Slavery: In an Essay, First Published in the Religious Herald and Republished by Request, with Remarks on a Review of the Essay*. Office of the Religious Herald. [https://oll.libertyfund.org/titles/stringfellow-brief-examination-of-scripture-testimony][book_stringfellow_1841]
+- Takaki, Ronald. 1989. *Strangers from a Different Shore: A History of Asian Americans*. Little, Brown. [https://www.hachettebookgroup.com/titles/ronald-takaki/strangers-from-a-different-shore/9780316831307/][book_takaki_1989]
+- The Liberator. 1831. *William Lloyd Garrison's Liberator: Abolitionist Newspaper*. [https://www.theliberatorfiles.com/][book_liberator_1831]
+- Thompson, Ernest Trice. 1963. *Presbyterians in the South*. John Knox Press. [https://openlibrary.org/works/OL178409W][book_thompson_1963]
+- Thoreau. 1849. *Resistance to Civil Government*. [https://oll.libertyfund.org/titles/thoreau-resistance-to-civil-government][book_thoreau_1849]
+- Thoreau, Henry David. 1854. *Walden: And Other Writings*. Ticknor and Fields. [https://oll.libertyfund.org/titles/thoreau-walden][book_thoreau_1854]
+- Thornwell, James Henley. 1850. *The Rights and Duties of Masters: A Sermon Preached at the Dedication of a Church, Erected in Charleston, S. C., for the Benefit and Instruction of the Coloured Population*. Steam-Power Press to Walker & James. [https://oll.libertyfund.org/titles/thornwell-rights-and-duties-of-masters][book_thornwell_1850]
+- Thurman, Howard. 1975. *Deep River: Reflections on the Religious Insight of Certain of the Negro Spirituals*. Kennikat Press. [https://global.oup.com/academic/product/deep-river-9780935016543][book_thurman_1975]
+- Tise, Larry E. 1987. *Proslavery: A History of the Defense of Slavery in America, 1701-1840*. University of Georgia Press. [https://uga.edu/press/tise-proslavery][book_tise_1987]
+- Trinterud, Leonard J. 1949. *The Forming of an American Tradition: A Re-Examination of Colonial Presbyterianism*. Westminster Press. [https://openlibrary.org/works/OL6830271W][book_trinterud_1949]
+- Turner, Nat. 1831. *The Confessions of Nat Turner: Leader of the Late Insurrection in Southampton, Va., as Fully and Voluntarily Made to Thomas R. Gray ... and Acknowledged by Him ... When Read before the Court of Southampton, Convened at Jerusalem, November 5, 1831, for His Trial*. s.n. [https://oll.libertyfund.org/titles/turner-confessions-of-nat-turner][book_turner_confessions_1831]
+- Turner, John G. 2016. *The Mormon Jesus: A Biography*. Belknap Press. [https://yalebooks.yale.edu/book/9780300220803/the-mormon-jesus/][book_turner_2016]
+- Tyler-McGraw, Marie. 2007. *An African Republic: Black and White Virginians in the Making of Liberia*. University of North Carolina Press. [https://uncpress.org/book/9780807858585/an-african-republic/][book_tyler_mcgraw_2007]
+- Tyrrell, Ian R. 1979. *Sobering Up: From Temperance to Prohibition in Antebellum America, 1800-1860*. Greenwood Press. [https://openlibrary.org/works/OL1813636W][book_tyrrell_1979]
+- Walch, Timothy. 2003. *Parish School: American Catholic Parochial Education from Colonial Times to the Present*. National Catholic Education Association. [https://global.oup.com/academic/product/parish-school-9780814332047][book_walch_2003]
+- Wallace, Anthony F. C. 1993. *The Long, Bitter Trail: Andrew Jackson and the Indians*. Hill and Wang. [https://www.harpercollins.com/products/the-long-bitter-trail-anthony-fc-wallace][book_wallace_1993]
+- Walls, William Jacob. 1974. *The African Methodist Episcopal Zion Church;: Reality of the Black Church,*. A.M.E. Zion Pub. House. [https://openlibrary.org/works/OL35995763W][book_walls_1974]
+- Walters, Ronald G. 1978. *American Reformers, 1815-1860*. Hill and Wang. [https://jhupress.jhu.edu/9780801856464/american-reformers/][book_walters_1978]
+- Washington, James Melvin. 1985. *Frustrated Fellowship: The Black Baptist Quest for Social Power*. Mercer. [https://openlibrary.org/works/OL5113213W][book_washington_1985]
+- Weber, David J. 1973. *Foreigners in Their Native Land: Historical Roots of the Mexican Americans*. University of New Mexico Press. [https://unmpress.com/9780826301697/foreigners-in-their-native-land/][book_weber_1973]
+- Weber, David J. 1982. *The Mexican Frontier, 1821-1846: The American Southwest under Mexico*. University of New Mexico Press. [https://unmpress.com/9780826306036/the-mexican-frontier-1821-1846/][book_weber_1982]
+- Weigle, Marta. 1976. *Brothers of Light, Brothers of Blood: The Penitentes of the Southwest*. University of New Mexico Press. [https://unmpress.com/9780826303707/brothers-of-light-brothers-of-blood/][book_weigle_1976]
+- Weld, Theodore Dwight, Theodore Dwight Weld, Theodore Dwight; Katz, William Loren Weld, and Theodore D. Weld. 1839. *American Slavery as It Is: Testimony of a Thousand Witnesses*. American Anti-Slavery Society. [https://archive.org/details/americanslaveryw00weld][book_weld_1839]
+- Wellman, Judith. 2004. *The Road to Seneca Falls: Elizabeth Cady Stanton and the First Woman's Rights Convention (Women in American History)*. University of Illinois Press. [https://global.oup.com/academic/product/the-road-to-seneca-falls-9780252029042][book_wellman_2004]
+- Wigger, John. 1998. *Taking Heaven by Storm: Methodism and the Rise of Popular Christianity in America*. Oxford University Press. [https://global.oup.com/academic/product/taking-heaven-by-storm-9780252069895][book_wigger_1998]
+- Wilkins, Thurman. 1970. *Cherokee Tragedy: The Story of the Ridge Family and the Decimation of a People*. MacMillan Publishing Company. [https://www.oupress.com/9780806118093/cherokee-tragedy/][book_wilkins_1970]
+- Wilmore, Gayraud S. 1998. *Black Religion and Black Radicalism: An Interpretation of the Religious History of African Americans*. Orbis Books. [https://www.orbisbooks.com/black-religion-and-black-radicalism.html][book_wilmore_1998]
+- Winch, Julie. 2002. *A Gentleman of Color: The Life of James Forten*. Oxford University Press. [https://global.oup.com/academic/product/a-gentleman-of-color-9780195088861][book_winch_2002]
+- Wise, Isaac Mayer. 1901. *Reminiscences*. L. Wise. [https://archive.org/details/reminiscences00wise][book_wise_1901]
+- Wish, Harvey. 1943. *George Fitzhugh: Propagandist of the Old South*. Louisiana State University Press. [https://openlibrary.org/works/OL33645820W][book_wish_1943]
+- Wittke, Carl Frederick. 1952. *Refugees of Revolution: The German Forty-Eighters in America*. University of Pennsylvania Press. [https://openlibrary.org/works/OL34665086W][book_wittke_1952]
+- Wyatt-Brown, Bertram, and B. Wyatt-Brown. 1969. *Lewis Tappan and the Evangelical War against Slavery*. Press of Case Western Reserve University. [https://global.oup.com/academic/product/lewis-tappan-and-the-evangelical-war-against-slavery-9780807114681][book_wyatt_brown_1969]
+- Youngs. 1976. *The Congregationalists*. [https://scholar.google.com/scholar?q=youngs+1976+congregationalists][book_youngs_1976]
+- Yung, Judy. 1995. *Unbound Feet: A Social History of Chinese Women in San Francisco*. University of California Press. [https://www.ucpress.edu/book/9780520088672/unbound-feet][book_yung_1995]
+
+### Commercial Sources
+
+- "Declaration of Sentiments: Women's Rights National Historical Park (U.S. National Park Service)." 1848. Accessed October 25, 2026. [https://www.nps.gov/wori/learn/historyculture/declaration-of-sentiments.htm][ref_seneca_falls_declaration_1848]
+- "Harpers Ferry raid." 1859. [https://www.nps.gov/hafe/learn/historyculture/john-brown-s-raid.htm][ref_harpers_ferry_raid_1859]
+- "Stanton Address on Woman's Rights." 1848. [https://www.nps.gov/wori/learn/historyculture/address-by-elizabeth-cady-stanton-on-womans-rights.htm][ref_stanton_address_womans_rights_1848]
+
+### General Sources
+
+- "(1843) Henry Highland Garnet, 'an Address to the Slaves of the United States'." 1843. *BlackPast.org*. Accessed October 25, 2026. [https://www.blackpast.org/african-american-history/1843-henry-highland-garnet-address-slaves-united-states/][ref_garnet_address_to_the_slaves_1843]
+- "About Advent." 1816. *American Bible Society*. Accessed October 25, 2026. [https://americanbible.org/about/history/][ref_american_bible_society_1816]
+- "Amana Colonies documents." n.d. Accessed October 25, 2026. [https://www.amanaheritage.org/][ref_amana_colonies_documents]
+- "American Anti-Slavery Society Declaration of Sentiments." 1833. [https://teachingamericanhistory.org/document/declaration-of-sentiments-of-the-american-anti-slavery-convention/][ref_american_anti_slavery_declaration_1833]
+- "American Board of Commissioners for Foreign Missions." 1810. [https://www.internationalmissionphotography.org/history/abcfm.html][ref_abcfm_1810]
+- "American Sunday School Union." 1824. [https://www.presbyterianmission.org/ministries/history/american-sunday-school-union/][ref_american_sunday_school_union_1824]
+- "Beecher Treatise on Domestic Economy." 1841. [https://digital.library.cornell.edu/catalog/hearth4405812][ref_beecher_treatise_on_domestic_economy_1841]
+- Book of Mormon. 1830. "canonical text." [https://www.churchofjesuschrist.org/study/scriptures/bofm][ref_book_of_mormon_1830]
+- Campbell, Declaration, and Address. 1809. "\[Title not identified\]." Accessed October 25, 2026. [https://www.mun.ca/rels/restmov/texts/tcampbell/DA/DA-1ST.HTM][ref_campbell_declaration_and_address_1809]
+- "Cane Ridge Revival." 1801. [https://www.wku.edu/library/dlsc/manuscripts/canridge.php][ref_cane_ridge_revival_1801]
+- "Charlestown Ursuline Convent burning." 1834. [https://www.masshist.org/features/ursuline][ref_charlestown_ursuline_convent_burning_1834]
+- "Doctrine and Covenants." n.d. Accessed October 25, 2026. [https://www.churchofjesuschrist.org/study/scriptures/dc-testament][ref_doctrine_and_covenants]
+- "Douglass Fourth of July address." 1852. [https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/][ref_douglass_fourth_of_july_1852]
+- "Fugitive Slave Act." 1793. [https://guides.loc.gov/slavery-laws/fugitive-slave-act-of-1793][ref_fugitive_slave_act_1793]
+- "Grimké Letters on the Equality of the Sexes." 1838. [https://digital.library.upenn.edu/women/grimke/equality/equality.html][ref_grimke_letters_on_equality_1838]
+- "Grimke's Appeal." 1836. Accessed October 25, 2026. [https://utc.iath.virginia.edu/abolitn/abesaegat.html][ref_grimke_appeal_1836]
+- "Internet History Sourcebooks: Modern History." 1851. Accessed October 25, 2026. [https://sourcebooks.fordham.edu/mod/sojtruth-woman.asp][ref_truth_aint_i_a_woman_1851]
+- Leeser, Occident, American, Jewish, and Advocate. 1843. "\[Title not identified\]." Accessed October 25, 2026. [https://collections.americanjewisharchives.org/occident/][ref_leeser_occident_1843]
+- Liberator periodical. 1831. "William Lloyd Garrison's Liberator: Abolitionist Newspaper." Accessed October 25, 2026. [https://www.theliberatorfiles.com/][ref_liberator_periodical_1831]
+- "Lodging and Events in Oneida, NY \| Oneida Mansion House." n.d. OCMH. Accessed October 25, 2026. [https://oneidacommunity.org/][ref_oneida_community_documents]
+- "Maine Law." 1851. [https://www.maine.gov/legis/lawlib/lldl/maineprohibitionlaw1851.html][ref_maine_law_1851]
+- "Methodist Plan of Separation." 1844. [https://www.gcah.org/history/heritage-landmarks][ref_methodist_plan_of_separation_1844]
+- Miller, Evidence, from, Scripture, and History. 1836. "\[Title not identified\]." Accessed October 25, 2026. [https://adventistdigitallibrary.org/adl-360189/evidence-scripture-and-history-second-coming-christ-about-year-1843-exhibited][ref_miller_evidence_second_coming_1836]
+- "Nativist Riots of 1844." 1844. *Encyclopedia of Greater Philadelphia*. Accessed October 25, 2026. [https://philadelphiaencyclopedia.org/essays/nativist-riots-of-1844/][ref_philadelphia_nativist_riots_1844]
+- "Nauvoo Expositor." 1844. [https://www.utlm.org/onlineresources/nauvoo\_expositor.htm][ref_nauvoo_expositor_1844]
+- "Shaker Millennial Laws." n.d. Accessed October 25, 2026. [https://www.shakerworkshops.com/tour/millennial-laws][ref_shaker_millennial_laws]
+- "Southern Baptist Convention founding." 1845. [https://www.sbc.net/about/what-we-do/heritage-and-history/][ref_southern_baptist_convention_1845]
+- Stone, Last, Will, et al. 1804. "\[Title not identified\]." Accessed October 25, 2026. [https://www.mun.ca/rels/restmov/texts/bwstone/LWT.HTM][ref_stone_last_will_and_testament_1804]
+- Wentworth Letter. 1842. "“Church History,” 1 March 1842, Page 706." Accessed October 25, 2026. [https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/1][ref_wentworth_letter_1842]
 
 ### Related Posts
 
-- [A266 Ethnoreligion Framing and Three Substrates][related_post_a266_framing]
-- [A267 Ethnoreligion Colonial Folkways and Early Diffusion][related_post_a267_colonial_folkways]
-- [A268 Ethnoreligion Awakening and Founding][related_post_a268_awakening_and_founding]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Indigenous, African, and European Ethnoreligious Substrates." *Brendan A R Sechter's Development Blog*, January 3. [https://sgeos.github.io/history/economics/religion/2026/01/03/ethnoreligion\_and\_american\_political\_economy\_framing.html][related_post_a266_framing]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contact, Colonial Folkways, and Early Diffusion 1607-1725." *Brendan A R Sechter's Development Blog*, January 4. [https://sgeos.github.io/history/economics/religion/2026/01/04/ethnoreligion\_and\_american\_political\_economy\_colonial\_folkways.html][related_post_a267_colonial_folkways]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Great Awakening, Revolution, and Founding 1725-1789." *Brendan A R Sechter's Development Blog*, January 5. [https://sgeos.github.io/history/economics/religion/2026/01/05/ethnoreligion\_and\_american\_political\_economy\_awakening\_and\_founding.html][related_post_a268_awakening_and_founding]
 
 [book_abzug_1980]: https://global.oup.com/academic/product/passionate-liberator-9780195028010
 [book_adams_1995]: https://kansaspress.ku.edu/978-0-7006-0735-3.html
 [book_ahlstrom_1972]: https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/
 [book_anbinder_1992]: https://global.oup.com/academic/product/nativism-and-slavery-9780195089226
 [book_anderson_1991_removal]: https://global.oup.com/academic/product/cherokee-removal-9780820313825
-[book_andrew_1976]: https://scholar.google.com/scholar?q=andrew+1976+rebuilding+christian+commonwealth
+[book_andrew_1976]: https://openlibrary.org/works/OL2724622W
 [book_andrews_2000]: https://press.princeton.edu/books/paperback/9780691009629/the-methodists-and-revolutionary-america
 [book_aptheker_1943]: https://www.internationalpublishers.com/book/american-negro-slave-revolts
 [book_arrington_1985]: https://global.oup.com/academic/product/brigham-young-9780252012969
 [book_arrington_bitton_1979]: https://global.oup.com/academic/product/the-mormon-experience-9780252060120
 [book_bagley_2002]: https://www.oupress.com/9780806134260/blood-of-the-prophets/
-[book_barnes_1954]: https://scholar.google.com/scholar?q=barnes+1954+southern+baptist+convention
+[book_barnes_1954]: https://openlibrary.org/works/OL7480903W
 [book_barry_1953]: https://cuapress.org/9780813205104/the-catholic-church-and-german-americans/
 [book_barton_1994]: https://uofcpress.com/9780809318681/a-folk-divided/
-[book_bass_1936]: https://scholar.google.com/scholar?q=bass+1936+cherokee+messenger+worcester
+[book_bass_1936]: https://openlibrary.org/works/OL3245109W
 [book_beidler_2013]: https://global.oup.com/academic/product/murder-on-the-reservation-9780806143637
-[book_berkhofer_1965]: https://scholar.google.com/scholar?q=berkhofer+1965+salvation+savage
+[book_berkhofer_1965]: https://openlibrary.org/works/OL3740845W
 [book_billington_1938]: https://global.oup.com/academic/product/the-protestant-crusade-9780814703786
 [book_bishop_hill_beijbom]: https://scholar.google.com/scholar?q=beijbom+bishop+hill+jansonists
 [book_blassingame_1972]: https://global.oup.com/academic/product/the-slave-community-9780195025637
 [book_blegen_1931]: https://mnhs.org/mnhspress/books/norwegian-migration-to-america
 [book_blight_2018]: https://www.simonandschuster.com/books/Frederick-Douglass/David-W-Blight/9781416590316
-[book_blocker_1989]: https://scholar.google.com/scholar?q=blocker+1989+american+temperance+movements
+[book_blocker_1989]: https://openlibrary.org/works/OL4627877W
 [book_bodnar_1985]: https://iupress.org/9780253203960/the-transplanted/
-[book_boles_1972]: https://scholar.google.com/scholar?q=boles+1972+great+revival
-[book_boles_1988]: https://scholar.google.com/scholar?q=boles+1988+masters+slaves+house+lord
+[book_boles_1972]: https://openlibrary.org/works/OL1828027W
+[book_boles_1988]: https://openlibrary.org/works/OL17315982W
 [book_book_of_mormon_1830]: https://www.churchofjesuschrist.org/study/scriptures/bofm
 [book_bordewich_2005]: https://www.harpercollins.com/products/bound-for-canaan-fergus-m-bordewich
 [book_bowden_1981]: https://press.uchicago.edu/ucp/books/book/chicago/A/bo3771540.html
@@ -1023,21 +1031,21 @@ This article follows the terminological conventions established in [A266][relate
 [book_cassidy_2011]: https://scholar.google.com/scholar?q=cassidy+2011+mexican+american+religions
 [book_cather_1927]: https://www.penguinrandomhouse.com/books/25611/death-comes-for-the-archbishop-by-willa-cather/
 [book_champagne_1992]: https://sup.org/books/title/?id=2946
-[book_chan_1991]: https://scholar.google.com/scholar?q=chan+1991+asian+americans+interpretive+history
+[book_chan_1991]: https://openlibrary.org/works/OL4475857W
 [book_chang_2003]: https://www.penguinrandomhouse.com/books/28712/the-chinese-in-america-by-iris-chang/
 [book_chang_2019]: https://wwnorton.com/books/9781328971258
 [book_chen_2000]: https://global.oup.com/academic/product/chinese-san-francisco-9780804744492
 [book_cohen_2015]: https://scholar.google.com/scholar?q=cohen+2015+ursuline+convent+burning
 [book_cone_1972]: https://www.orbisbooks.com/spirituals-and-the-blues.html
 [book_conkin_1990]: https://www.wisc.edu/press/books/9780299127442
-[book_conley_2007]: https://scholar.google.com/scholar?q=conley+2007+cherokee+encyclopedia
+[book_conley_2007]: https://openlibrary.org/works/OL1889755W
 [book_conzen_1976]: https://www.hup.harvard.edu/books/9780674443648
 [book_cornelius_1999]: https://uscpress.com/Slave-Missions
 [book_cott_1977]: https://yalebooks.yale.edu/book/9780300071962/the-bonds-of-womanhood/
 [book_cox_2003]: https://global.oup.com/academic/product/body-and-soul-9780813922232
 [book_cremin_1980]: https://www.harpercollins.com/products/american-education-lawrence-a-cremin
 [book_cross_1950]: https://cornellpress.cornell.edu/book/9780801493386/the-burned-over-district/
-[book_curti_1929]: https://scholar.google.com/scholar?q=curti+1929+american+peace+crusade
+[book_curti_1929]: https://openlibrary.org/works/OL1226152W
 [book_cushman_2011]: https://www.oupress.com/9780806142418/the-cherokee-syllabary/
 [book_daniels_1990]: https://www.harpercollins.com/products/coming-to-america-roger-daniels
 [book_de_leon_1983]: https://utpress.utexas.edu/books/deltha
@@ -1057,24 +1065,24 @@ This article follows the terminological conventions established in [A266][relate
 [book_ehle_1988]: https://www.penguinrandomhouse.com/books/113050/trail-of-tears-by-john-ehle/
 [book_emerson_1836]: https://oll.libertyfund.org/titles/emerson-nature
 [book_erie_1988]: https://www.ucpress.edu/book/9780520071834/rainbows-end
-[book_ernst_1949]: https://scholar.google.com/scholar?q=ernst+1949+immigrant+life+new+york+city
-[book_erskine_1996]: https://scholar.google.com/scholar?q=erskine+1996+black+people+reformed+church+america
+[book_ernst_1949]: https://openlibrary.org/works/OL3500995W
+[book_erskine_1996]: https://openlibrary.org/works/OL2682386W
 [book_everill_2013]: https://global.oup.com/academic/product/abolition-and-empire-in-sierra-leone-and-liberia-9781137291509
 [book_farmer_1986]: https://mercer.edu/press/farmer-metaphysical-confederacy
 [book_faust_1909]: https://archive.org/details/germanelementinu01faus
 [book_faust_1981]: https://lsupress.org/9780807107874/the-ideology-of-slavery/
-[book_feldberg_1975]: https://scholar.google.com/scholar?q=feldberg+1975+philadelphia+riots+1844
-[book_fessler_1983]: https://scholar.google.com/scholar?q=fessler+1983+chinese+in+america
+[book_feldberg_1975]: https://openlibrary.org/works/OL6563901W
+[book_fessler_1983]: https://openlibrary.org/works/OL19680116W
 [book_finke_stark_1992]: https://www.rutgersuniversitypress.org/the-churching-of-america/9780813535531
 [book_finney_1835]: https://ccel.org/ccel/finney/revivals/revivals.html
 [book_fitzhugh_1854]: https://oll.libertyfund.org/titles/fitzhugh-sociology-for-the-south
 [book_fitzhugh_1857]: https://oll.libertyfund.org/titles/fitzhugh-cannibals-all
 [book_fogelson_1961]: https://scholar.google.com/scholar?q=fogelson+1961+cherokee+notions+power
 [book_foner_1970]: https://global.oup.com/academic/product/free-soil-free-labor-free-men-9780195094978
-[book_foner_1971]: https://scholar.google.com/scholar?q=foner+1971+nat+turner
+[book_foner_1971]: https://openlibrary.org/works/OL1805091W
 [book_foner_2015]: https://wwnorton.com/books/Gateway-to-Freedom
 [book_foreman_1932]: https://www.oupress.com/9780806112527/indian-removal/
-[book_foster_1960]: https://scholar.google.com/scholar?q=foster+1960+errand+mercy+evangelical+united+front
+[book_foster_1960]: https://openlibrary.org/works/OL178437W
 [book_foster_1981]: https://global.oup.com/academic/product/religion-and-sexuality-9780252012396
 [book_foster_blowers_2004]: https://www.eerdmans.com/9780802838988/the-encyclopedia-of-the-stone-campbell-movement/
 [book_fox_genovese_genovese_2005]: https://www.cambridge.org/9780521850650
@@ -1090,20 +1098,20 @@ This article follows the terminological conventions established in [A266][relate
 [book_ginzberg_1990]: https://yalebooks.yale.edu/book/9780300048704/women-and-the-work-of-benevolence/
 [book_givens_2007]: https://global.oup.com/academic/product/people-of-paradox-9780195167115
 [book_givens_2009]: https://global.oup.com/academic/product/the-book-of-mormon-9780195369311
-[book_goen_1985]: https://scholar.google.com/scholar?q=goen+1985+broken+churches+broken_nation
+[book_goen_1985]: https://openlibrary.org/works/OL4971573W
 [book_gray_1995]: https://global.oup.com/academic/product/the-irish-famine-9780810928664
 [book_green_1982]: https://www.nebraskapress.unl.edu/nebraska/9780803265240/
 [book_greenberg_2003]: https://global.oup.com/academic/product/nat-turner-9780195177558
 [book_griswold_del_castillo_1990]: https://www.oupress.com/9780806127927/the-treaty-of-guadalupe-hidalgo/
 [book_grodzins_2002]: https://uncpress.org/book/9780807827117/american-heretic/
-[book_grusd_1966]: https://scholar.google.com/scholar?q=grusd+1966+bnai+brith
+[book_grusd_1966]: https://openlibrary.org/works/OL7400960W
 [book_guinnane_1997]: https://press.princeton.edu/books/paperback/9780691043067/the-vanishing-irish
 [book_gura_2007]: https://us.macmillan.com/books/9780809034772/americantranscendentalism
 [book_gutierrez_1995]: https://www.ucpress.edu/book/9780520207974/walls-and-mirrors
 [book_hambrick_stowe_1996]: https://www.eerdmans.com/9780802801296/charles-g-finney/
 [book_handlin_1941]: https://www.hup.harvard.edu/books/9780674079861
 [book_handlin_1951]: https://www.pennpress.org/9780812218602/the-uprooted/
-[book_hardman_1987]: https://scholar.google.com/scholar?q=hardman+1987+charles+grandison+finney
+[book_hardman_1987]: https://openlibrary.org/works/OL3923351W
 [book_harrill_2006]: https://fortresspress.com/product/slaves-in-the-new-testament
 [book_hatch_1989]: https://yalebooks.yale.edu/book/9780300050608/the-democratization-of-american-christianity/
 [book_haynes_2002]: https://global.oup.com/academic/product/noahs-curse-9780195313093
@@ -1117,7 +1125,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_jeffrey_1991]: https://www.oupress.com/9780806123714/converting-the-west/
 [book_jeffrey_1998]: https://uncpress.org/book/9780807847411/the-great-silent-army-of-abolitionism/
 [book_jette_2004]: https://www.oupress.com/9780806135953/at-the-hearth-of-the-crossed-races/
-[book_johnson_1955]: https://scholar.google.com/scholar?q=johnson+1955+frontier+camp+meeting
+[book_johnson_1955]: https://openlibrary.org/works/OL8895382W
 [book_johnson_1978]: https://us.macmillan.com/books/9780809016358/ashopkeepersmillennium
 [book_jones_1842]: https://archive.org/details/religiousinstru00jone
 [book_kamphoefner_1987]: https://press.princeton.edu/books/paperback/9780691628141/the-westfalians
@@ -1127,10 +1135,10 @@ This article follows the terminological conventions established in [A266][relate
 [book_kling_1993]: https://global.oup.com/academic/product/a-field-of-divine-wonders-9780271010601
 [book_knobel_1996]: https://global.oup.com/academic/product/america-for-the-americans-9780805738162
 [book_kolchin_1993]: https://us.macmillan.com/books/9780809034314/americanslavery
-[book_kraditor_1969]: https://scholar.google.com/scholar?q=kraditor+1969+means+ends+american+abolitionism
+[book_kraditor_1969]: https://openlibrary.org/works/OL4780586W
 [book_kwong_miscevic_2005]: https://www.perseusbooks.com/titles/peter-kwong/chinese-america/9781565849624/
 [book_lai_2004]: https://rowman.com/ISBN/9780759104594/Becoming-Chinese-American
-[book_land_1998]: https://scholar.google.com/scholar?q=land+1998+adventism+in+america
+[book_land_1998]: https://openlibrary.org/works/OL539882W
 [book_land_2005]: https://rowman.com/ISBN/9780810853454/A-to-Z-of-the-Seventh-Day-Adventists
 [book_lee_2003]: https://uncpress.org/book/9780807855102/at-americas-gates/
 [book_leonard_2003]: https://global.oup.com/academic/product/baptists-in-america-9780231127035
@@ -1148,12 +1156,12 @@ This article follows the terminological conventions established in [A266][relate
 [book_mathews_1965]: https://press.princeton.edu/books/hardcover/9780691623542/slavery-and-methodism
 [book_matovina_2011]: https://press.princeton.edu/books/paperback/9780691168456/latino-catholicism
 [book_mayer_1998]: https://us.macmillan.com/books/9780393329445/allonfire
-[book_mcbeth_1987]: https://scholar.google.com/scholar?q=mcbeth+1987+baptist+heritage
+[book_mcbeth_1987]: https://openlibrary.org/works/OL778295W
 [book_mcloughlin_1984]: https://scholar.google.com/scholar?q=mcloughlin+1984+cherokees+christianity
 [book_mcloughlin_1986]: https://global.oup.com/academic/product/cherokee-renascence-in-the-new-republic-9780691047614
 [book_meagher_2005]: https://global.oup.com/academic/product/the-columbia-guide-to-irish-american-history-9780231120708
 [book_menchaca_2001]: https://utpress.utexas.edu/books/menrec
-[book_meyer_1987]: https://scholar.google.com/scholar?q=meyer+1987+log+cabin+luther+tower
+[book_meyer_1987]: https://openlibrary.org/works/OL7145598W
 [book_meyer_1988]: https://global.oup.com/academic/product/response-to-modernity-9780814327531
 [book_miller_1950]: https://www.hup.harvard.edu/books/9780674903319
 [book_miller_1985]: https://global.oup.com/academic/product/emigrants-and-exiles-9780195051872
@@ -1162,15 +1170,15 @@ This article follows the terminological conventions established in [A266][relate
 [book_mullin_1986]: https://global.oup.com/academic/product/episcopal-vision-american-reality-9780195037982
 [book_nadel_1990]: https://global.oup.com/academic/product/little-germany-9780252060014
 [book_nash_1988]: https://www.hup.harvard.edu/books/9780674309333
-[book_nee_nee_1972]: https://scholar.google.com/scholar?q=nee+1972+longtime+californ
-[book_nelson_1998]: https://scholar.google.com/scholar?q=nelson+1998+lutherans+north+america
+[book_nee_nee_1972]: https://openlibrary.org/works/OL4615352W
+[book_nelson_1998]: https://openlibrary.org/works/OL18319081W
 [book_newman_2008]: https://nyupress.org/9780814758618/freedoms-prophet/
 [book_noll_2006]: https://uncpress.org/book/9780807858998/the-civil-war-as-a-theological-crisis/
 [book_numbers_butler_1987]: https://global.oup.com/academic/product/the-disappointed-9780870499319
 [book_ograda_1999]: https://press.princeton.edu/books/paperback/9780691070155/black-47-and-beyond
 [book_ostergren_1988]: https://www.wisc.edu/press/books/9780299111342
 [book_otoole_2008]: https://www.hup.harvard.edu/books/9780674034686
-[book_packer_1982]: https://scholar.google.com/scholar?q=packer+1982+emersons+fall
+[book_packer_1982]: https://openlibrary.org/works/OL5896194W
 [book_packer_2007]: https://global.oup.com/academic/product/the-transcendentalists-9780820329581
 [book_painter_1996]: https://wwnorton.com/books/Sojourner-Truth
 [book_parker_1841]: https://oll.libertyfund.org/titles/parker-the-transient-and-permanent-in-christianity
@@ -1195,11 +1203,11 @@ This article follows the terminological conventions established in [A266][relate
 [book_roeber_1993]: https://jhupress.jhu.edu/9780801846267/palatines-liberty-and-property/
 [book_rose_1981]: https://global.oup.com/academic/product/transcendentalism-as-a-social-movement-9780300026016
 [book_rowe_2008]: https://www.eerdmans.com/9780802803801/gods-strange-work/
-[book_rugoff_1981]: https://scholar.google.com/scholar?q=rugoff+1981+beechers
+[book_rugoff_1981]: https://openlibrary.org/works/OL273143W
 [book_ryan_1981]: https://www.cambridge.org/9780521287807
 [book_sanchez_1993]: https://global.oup.com/academic/product/becoming-mexican-american-9780195096484
 [book_sandeen_1970]: https://press.uchicago.edu/ucp/books/book/chicago/R/bo3623648.html
-[book_sandmeyer_1939]: https://scholar.google.com/scholar?q=sandmeyer+1939+anti-chinese+movement+california
+[book_sandmeyer_1939]: https://openlibrary.org/works/OL7208877W
 [book_sarna_2004]: https://yalebooks.yale.edu/book/9780300109764/american-judaism/
 [book_satz_1975]: https://uofmpress.umn.edu/9780803261341/american-indian-policy-jacksonian-era/
 [book_saunt_2020]: https://wwnorton.com/books/9780393609844
@@ -1212,22 +1220,22 @@ This article follows the terminological conventions established in [A266][relate
 [book_stowe_1852]: https://oll.libertyfund.org/titles/stowe-uncle-toms-cabin
 [book_stringfellow_1841]: https://oll.libertyfund.org/titles/stringfellow-brief-examination-of-scripture-testimony
 [book_takaki_1989]: https://www.hachettebookgroup.com/titles/ronald-takaki/strangers-from-a-different-shore/9780316831307/
-[book_thompson_1963]: https://scholar.google.com/scholar?q=thompson+1963+presbyterians+south
+[book_thompson_1963]: https://openlibrary.org/works/OL178409W
 [book_thoreau_1849]: https://oll.libertyfund.org/titles/thoreau-resistance-to-civil-government
 [book_thoreau_1854]: https://oll.libertyfund.org/titles/thoreau-walden
 [book_thornwell_1850]: https://oll.libertyfund.org/titles/thornwell-rights-and-duties-of-masters
 [book_thurman_1975]: https://global.oup.com/academic/product/deep-river-9780935016543
 [book_tise_1987]: https://uga.edu/press/tise-proslavery
-[book_trinterud_1949]: https://scholar.google.com/scholar?q=trinterud+1949+forming+american+tradition
+[book_trinterud_1949]: https://openlibrary.org/works/OL6830271W
 [book_turner_2016]: https://yalebooks.yale.edu/book/9780300220803/the-mormon-jesus/
 [book_turner_confessions_1831]: https://oll.libertyfund.org/titles/turner-confessions-of-nat-turner
 [book_tyler_mcgraw_2007]: https://uncpress.org/book/9780807858585/an-african-republic/
-[book_tyrrell_1979]: https://scholar.google.com/scholar?q=tyrrell+1979+sobering+up
+[book_tyrrell_1979]: https://openlibrary.org/works/OL1813636W
 [book_walch_2003]: https://global.oup.com/academic/product/parish-school-9780814332047
 [book_wallace_1993]: https://www.harpercollins.com/products/the-long-bitter-trail-anthony-fc-wallace
-[book_walls_1974]: https://scholar.google.com/scholar?q=walls+1974+african+methodist+episcopal+zion+church
+[book_walls_1974]: https://openlibrary.org/works/OL35995763W
 [book_walters_1978]: https://jhupress.jhu.edu/9780801856464/american-reformers/
-[book_washington_1985]: https://scholar.google.com/scholar?q=washington+1985+frustrated+fellowship+black+baptist
+[book_washington_1985]: https://openlibrary.org/works/OL5113213W
 [book_weber_1973]: https://unmpress.com/9780826301697/foreigners-in-their-native-land/
 [book_weber_1982]: https://unmpress.com/9780826306036/the-mexican-frontier-1821-1846/
 [book_weigle_1976]: https://unmpress.com/9780826303707/brothers-of-light-brothers-of-blood/
@@ -1238,8 +1246,8 @@ This article follows the terminological conventions established in [A266][relate
 [book_wilmore_1998]: https://www.orbisbooks.com/black-religion-and-black-radicalism.html
 [book_winch_2002]: https://global.oup.com/academic/product/a-gentleman-of-color-9780195088861
 [book_wise_1901]: https://archive.org/details/reminiscences00wise
-[book_wish_1943]: https://scholar.google.com/scholar?q=wish+1943+george+fitzhugh
-[book_wittke_1952]: https://scholar.google.com/scholar?q=wittke+1952+refugees+revolution
+[book_wish_1943]: https://openlibrary.org/works/OL33645820W
+[book_wittke_1952]: https://openlibrary.org/works/OL34665086W
 [book_wyatt_brown_1969]: https://global.oup.com/academic/product/lewis-tappan-and-the-evangelical-war-against-slavery-9780807114681
 [book_youngs_1976]: https://scholar.google.com/scholar?q=youngs+1976+congregationalists
 [book_yung_1995]: https://www.ucpress.edu/book/9780520088672/unbound-feet

@@ -75,7 +75,7 @@ The permissive position skips the unknown and continues. Protocol Buffers achiev
 
 The strict position rejects anything unrecognised. This is correct where the reader must fully understand a message to act safely on it, and it is the right default in consensus systems, where a participant that silently ignores part of a transaction may compute a different result from its peers and cause a chain split, not a local bug.
 
-The permissive position is the robustness principle in its classical form, which counsels being liberal in what a reader accepts. That advice has been substantially revised. The language-theoretic security position holds that a parser should recognise exactly the language the specification defines and nothing beyond it, and that the discipline of building parsers from an explicit grammar and not from ad hoc control flow eliminates whole categories of defect, an argument [Anantharaman and colleagues][research_anantharaman_input_handling] develop with worked construction, not exhortation. [Sassaman, Patterson and Bratus][research_sassaman_postel] argue that liberal acceptance is precisely what creates parser differentials, since two readers that are liberal in different ways disagree about what a message means, and [RFC 9413][ref_rfc9413] restates the modern position that tolerance defers cost and not removing it and that divergent implementations become a maintenance and security burden.
+The permissive position is the robustness principle in its classical form, which counsels being liberal in what a reader accepts. That advice has been substantially revised. The language-theoretic security position holds that a parser should recognise exactly the language the specification defines and nothing beyond it, and that the discipline of building parsers from an explicit grammar and not from ad hoc control flow eliminates whole categories of defect, an argument [Anantharaman and colleagues][research_anantharaman_input_handling] develop with worked construction, not exhortation. [Sassaman, Patterson and Bratus][research_sassaman_postel] argue that liberal acceptance is precisely what creates parser differentials, since two readers that are liberal in different ways disagree about what a message means, and [RFC 9413 Maintaining Robust n.d.][ref_rfc9413] restates the modern position that tolerance defers cost and not removing it and that divergent implementations become a maintenance and security burden.
 
 The two positions produce opposite failure modes. Permissive readers stay compatible and can act on messages they only partly understand. Strict readers refuse to act on incomplete understanding and require coordinated upgrades.
 
@@ -105,7 +105,7 @@ $$\forall v, \quad \left| E(v) \right| = 1$$
 
 which is strictly stronger than the unambiguity every wire format already requires. Unambiguity says each byte sequence denotes one value. Canonicity says each value has one byte sequence. A format can satisfy the first and violate the second, and most do. Most formats do not require this, because it constrains encoders for no benefit in ordinary use.
 
-It becomes mandatory the moment bytes are hashed, signed, or compared. If two encoders may legitimately produce different bytes for the same value, then a signature over those bytes verifies the encoding, not the value, and a hash cannot serve as an identity. CBOR addresses this with the deterministic encoding requirements in [RFC 8949][ref_rfc8949], and ASN.1 has carried the distinction since its Distinguished Encoding Rules in [ITU-T X.690][ref_itu_x690], where Basic Encoding Rules permit choices that Distinguished Encoding Rules remove.
+It becomes mandatory the moment bytes are hashed, signed, or compared. If two encoders may legitimately produce different bytes for the same value, then a signature over those bytes verifies the encoding, not the value, and a hash cannot serve as an identity. CBOR addresses this with the deterministic encoding requirements in [Bormann and Hoffman n.d.][ref_rfc8949], and ASN.1 has carried the distinction since its Distinguished Encoding Rules in [ITU-T X.690][ref_itu_x690], where Basic Encoding Rules permit choices that Distinguished Encoding Rules remove.
 
 The sources of non-canonicity are consistent across families. Integers may admit multiple lengths, as a varint that could be written with fewer bytes but is not. Map or field ordering may be unconstrained. Optional fields may be present with a default value or absent. Floating point may admit multiple representations of the same quantity. Padding may be unconstrained.
 
@@ -137,7 +137,7 @@ Instruction encodings face the identical calculation with different units. A com
 
 Byte order and alignment are the oldest portability hazards in the field and the ones most often assumed away.
 
-A format that fixes byte order imposes a conversion on machines of the opposite convention. A format that carries a byte-order marker avoids the conversion and requires every reader to handle both, which doubles the paths through the decoder and therefore doubles what must be tested. Network protocols overwhelmingly fix big-endian order, and [RFC 4506][ref_rfc4506] fixed it for XDR, which is a decision in favour of decoder simplicity over encoder convenience. The argument that the choice is largely arbitrary and that agreeing matters far more than which convention is agreed was made directly by [Cohen][research_cohen_holy_wars] in the paper that gave the field its vocabulary.
+A format that fixes byte order imposes a conversion on machines of the opposite convention. A format that carries a byte-order marker avoids the conversion and requires every reader to handle both, which doubles the paths through the decoder and therefore doubles what must be tested. Network protocols overwhelmingly fix big-endian order, and [Eisler 2006][ref_rfc4506] fixed it for XDR, which is a decision in favour of decoder simplicity over encoder convenience. The argument that the choice is largely arbitrary and that agreeing matters far more than which convention is agreed was made directly by [Cohen][research_cohen_holy_wars] in the paper that gave the field its vocabulary.
 
 Alignment is the same tradeoff in space. XDR pads everything to four-byte boundaries so that a reader can load fields directly, and pays in wasted bytes. For a field of size $f$ aligned to boundary $a$, the padding is
 
@@ -151,7 +151,7 @@ Zero-copy formats must respect alignment because they hand out direct references
 
 A format that succeeds becomes difficult to change, and the difficulty grows with the number of independent implementations that have made assumptions about it.
 
-Ossification is the specific failure where middleboxes and intermediate implementations inspect fields they were not meant to inspect, and then break when those fields take legitimate but previously unseen values. This is not a theoretical concern, and the evidence is measured rather than argued. [Honda and colleagues][research_honda_extend_tcp] tested whether new TCP options could still traverse the public internet and found that a substantial fraction of paths interfered with anything unfamiliar, which is the empirical result that reframed extensibility as a deployment problem rather than a specification problem. [Edeline and Donnet][research_edeline_path_brokenness] later quantified how path brokenness specifically affects TCP options, and [Papastergiou and colleagues][research_papastergiou_deossifying] survey the resulting body of work and the mitigations proposed against it. [RFC 9170][ref_rfc9170] distils the operational lesson, which is that an extension point not exercised in practice will not work when it is finally needed, so the only reliable defence is to use the mechanism continuously rather than reserve it. The field is now effectively frozen even though the specification permits change. QUIC responded by encrypting nearly all of its transport header, as [RFC 9000][ref_rfc9000] describes, so that intermediaries cannot form dependencies on fields the designers intend to evolve. It went further and published the small set of properties that will not change across versions as [RFC 8999][ref_rfc8999], which converts an implicit and unbounded dependency surface into an explicit and bounded one. The general principle is that anything visible will eventually be depended upon, whether or not the specification permits it.
+Ossification is the specific failure where middleboxes and intermediate implementations inspect fields they were not meant to inspect, and then break when those fields take legitimate but previously unseen values. This is not a theoretical concern, and the evidence is measured rather than argued. [Honda and colleagues][research_honda_extend_tcp] tested whether new TCP options could still traverse the public internet and found that a substantial fraction of paths interfered with anything unfamiliar, which is the empirical result that reframed extensibility as a deployment problem rather than a specification problem. [Edeline and Donnet][research_edeline_path_brokenness] later quantified how path brokenness specifically affects TCP options, and [Papastergiou and colleagues][research_papastergiou_deossifying] survey the resulting body of work and the mitigations proposed against it. [RFC 9170 Long-Term Viability n.d.][ref_rfc9170] distils the operational lesson, which is that an extension point not exercised in practice will not work when it is finally needed, so the only reliable defence is to use the mechanism continuously rather than reserve it. The field is now effectively frozen even though the specification permits change. QUIC responded by encrypting nearly all of its transport header, as [Iyengar and Thomson n.d.][ref_rfc9000] describes, so that intermediaries cannot form dependencies on fields the designers intend to evolve. It went further and published the small set of properties that will not change across versions as [Thomson n.d.][ref_rfc8999], which converts an implicit and unbounded dependency surface into an explicit and bounded one. The general principle is that anything visible will eventually be depended upon, whether or not the specification permits it.
 
 A project that treats a change to its bytecode as requiring explicit authorisation rather than as a routine version bump has recognised the same pressure early. [Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting] records a bytecode-format change as a stop that needs a deliberate decision, which is an acknowledgement that the encoding is a contract with every artifact already compiled against it rather than an internal detail of the current compiler.
 
@@ -167,7 +167,7 @@ depending on how much of the pair space the negotiation can actually reach, whic
 
 A format is rarely deployed without a companion notation for describing messages, and the choice of notation constrains the format more than it first appears.
 
-ASN.1 separated abstract syntax from encoding rules, and the modern equivalents repeat the separation. The Concise Data Definition Language, [RFC 8610][ref_rfc8610], describes valid CBOR without prescribing how it is written. Protocol Buffers, Thrift, Cap'n Proto, and FlatBuffers each ship an interface definition language whose primary output is generated code rather than a validation rule, which is a different emphasis with different consequences.
+ASN.1 separated abstract syntax from encoding rules, and the modern equivalents repeat the separation. The Concise Data Definition Language, [Birkholz et al. 2019][ref_rfc8610], describes valid CBOR without prescribing how it is written. Protocol Buffers, Thrift, Cap'n Proto, and FlatBuffers each ship an interface definition language whose primary output is generated code rather than a validation rule, which is a different emphasis with different consequences.
 
 Generated code is fast and rigid. It turns field access into a compile-time-checked member reference, and it requires a build step, a toolchain, and a regeneration discipline whenever the schema changes. Reflective decoding is slow and flexible, since it can handle a message whose shape is discovered at run time, and it moves errors from compile time to run time. Systems that must accept messages from parties they do not control tend toward the reflective end regardless of what their performance budget would prefer.
 
@@ -233,35 +233,51 @@ No format is best. A format is a set of positions on these tradeoffs, and the po
 
 ## References
 
-- [Hennessy, John L. and Patterson, David A., Computer Architecture, A Quantitative Approach, Morgan Kaufmann][book_hennessy_patterson]
-- [Stevens, W. Richard, TCP/IP Illustrated, Volume 1, The Protocols, Addison-Wesley][book_stevens_tcpip]
-- [Tanenbaum, Andrew S. and Wetherall, David J., Computer Networks, Pearson][book_tanenbaum_networks]
-- [Apache Avro Specification][ref_avro_spec]
-- [Cap'n Proto Encoding Specification][ref_capnproto_encoding]
-- [ITU-T X.690, ASN.1 Encoding Rules, BER, CER and DER][ref_itu_x690]
-- [RFC 8610, Concise Data Definition Language][ref_rfc8610]
-- [RFC 8999, Version-Independent Properties of QUIC][ref_rfc8999]
-- [Protocol Buffers Field Presence Documentation][ref_protobuf_field_presence]
-- [RFC 4506, XDR, External Data Representation Standard][ref_rfc4506]
-- [RFC 7541, HPACK, Header Compression for HTTP/2][ref_rfc7541]
-- [RFC 8949, Concise Binary Object Representation][ref_rfc8949]
-- [RFC 9000, QUIC, A UDP-Based Multiplexed and Secure Transport][ref_rfc9000]
-- [RFC 9170, Long-Term Viability of Protocol Extension Mechanisms][ref_rfc9170]
-- [RFC 9413, Maintaining Robust Protocols][ref_rfc9413]
-- [RISC-V Unprivileged Specification][ref_riscv_spec]
-- [Anantharaman, Prashant, Millian, Michael and Bratus, Sergey, Input Handling Done Right, IEEE SecDev, 2017][research_anantharaman_input_handling]
-- [Cohen, Danny, On Holy Wars and a Plea for Peace, Computer 14, 1981][research_cohen_holy_wars]
-- [Edeline, Korian and Donnet, Benoit, Evaluating the Impact of Path Brokenness on TCP Options, ACM ANRW, 2020][research_edeline_path_brokenness]
-- [Honda, Michio, Nishida, Yoshifumi and Raiciu, Costin, Is It Still Possible to Extend TCP, ACM IMC, 2011][research_honda_extend_tcp]
-- [Papastergiou, Giorgos, Fairhurst, Gorry and Ros, David, De-Ossifying the Internet Transport Layer, IEEE Communications Surveys and Tutorials 19, 2017][research_papastergiou_deossifying]
-- [Sassaman, Len, Patterson, Meredith L. and Bratus, Sergey, A Patch for Postel's Robustness Principle, IEEE Security and Privacy 10, 2012][research_sassaman_postel]
-- [Related Post, Block-Structured Control Flow and Single-Pass Validation][related_post_single_pass_validation]
-- [Related Post, Fixup Tables and the Forward-Jump Problem][related_post_fixup_tables]
-- [Related Post, Getting Started with Solana Using Rust and Anchor][related_post_solana_anchor]
-- [Related Post, Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting]
-- [Related Post, Symbol Tables, Scope Popping, and Bounded Working Memory][related_post_symbol_tables]
-- [Related Post, WASM on a Jekyll Blog with Rust and wasm-bindgen][related_post_wasm_on_jekyll]
-- [Related Post, Wire Formats, What They Are][related_post_wire_formats_what]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Anantharaman, Prashant, Michael C. Millian, Sergey Bratus, and Meredith L. Patterson. 2017. "Input Handling Done Right: Building Hardened Parsers Using Language-Theoretic Security." In *2017 IEEE Cybersecurity Development (SecDev)*. IEEE. [https://doi.org/10.1109/secdev.2017.12][research_anantharaman_input_handling]
+- Cohen, D. 1981. "On Holy Wars and a Plea for Peace." *Computer* 14 (10): 48–54. [https://doi.org/10.1109/c-m.1981.220208][research_cohen_holy_wars]
+- Papastergiou, Giorgos, Gorry Fairhurst, David Ros, et al. 2017. "De-Ossifying the Internet Transport Layer: A Survey and Future Perspectives." *IEEE Communications Surveys & Tutorials* 19 (1): 619–39. [https://doi.org/10.1109/comst.2016.2626780][research_papastergiou_deossifying]
+- Sassaman, Len, Meredith L. Patterson, and Sergey Bratus. 2012. "A Patch for Postel's Robustness Principle." *IEEE Security & Privacy Magazine* 10 (2): 87–91. [https://doi.org/10.1109/msp.2012.31][research_sassaman_postel]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Birkholz, H., C. Vigano, and C. Bormann. 2019. *Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures*. [https://www.rfc-editor.org/rfc/rfc8610][ref_rfc8610]
+- Bormann, Carsten, and Paul Hoffman. n.d. *RFC 8949: Concise Binary Object Representation (CBOR)*. [https://www.rfc-editor.org/rfc/rfc8949][ref_rfc8949]
+- "Cap'n Proto Encoding Specification." n.d. capnproto.org. Accessed October 25, 2026. [https://capnproto.org/encoding.html][ref_capnproto_encoding]
+- Edeline, Korian, and Benoit Donnet. 2020. "Evaluating the Impact of Path Brokenness on TCP Options." In *Proceedings of the Applied Networking Research Workshop*. ACM. [https://doi.org/10.1145/3404868.3406662][research_edeline_path_brokenness]
+- Eisler, M. 2006. *XDR: External Data Representation Standard*. [https://www.rfc-editor.org/rfc/rfc4506][ref_rfc4506]
+- Honda, Michio, Yoshifumi Nishida, Costin Raiciu, Adam Greenhalgh, Mark Handley, and Hideyuki Tokuda. 2011. "Is It Still Possible to Extend TCP?" In *Proceedings of the 2011 ACM SIGCOMM conference on Internet measurement conference*. ACM. [https://doi.org/10.1145/2068816.2068834][research_honda_extend_tcp]
+- Iyengar, Jana, and Martin Thomson. n.d. *RFC 9000: QUIC: A UDP-Based Multiplexed and Secure Transport*. [https://www.rfc-editor.org/rfc/rfc9000][ref_rfc9000]
+- Peon, R., and H. Ruellan. 2015. *HPACK: Header Compression for HTTP/2*. [https://www.rfc-editor.org/rfc/rfc7541][ref_rfc7541]
+- *RFC 9170, Long-Term Viability of Protocol Extension Mechanisms*. n.d. [https://www.rfc-editor.org/rfc/rfc9170][ref_rfc9170]
+- *RFC 9413, Maintaining Robust Protocols*. n.d. [https://www.rfc-editor.org/rfc/rfc9413][ref_rfc9413]
+- Thomson, Martin. n.d. *RFC 8999: Version-Independent Properties of QUIC*. [https://www.rfc-editor.org/rfc/rfc8999][ref_rfc8999]
+- *X.690: Information Technology: ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER)*. n.d. [https://www.itu.int/rec/T-REC-X.690][ref_itu_x690]
+
+### Secondary Sources
+
+- *Hennessy, John L. and Patterson, David A., Computer Architecture, A Quantitative Approach, Morgan Kaufmann*. n.d. [https://openlibrary.org/search?q=Hennessy+Patterson+Computer+Architecture+A+Quantitative+Approach][book_hennessy_patterson]
+- *Stevens, W. Richard, TCP/IP Illustrated, Volume 1, The Protocols, Addison-Wesley*. n.d. [https://openlibrary.org/search?q=Stevens+TCP+IP+Illustrated+Volume+1][book_stevens_tcpip]
+- *Tanenbaum, Andrew S. and Wetherall, David J., Computer Networks, Pearson*. n.d. [https://openlibrary.org/search?q=Tanenbaum+Computer+Networks][book_tanenbaum_networks]
+
+### General Sources
+
+- "Apache Avro Specification." n.d. Accessed October 25, 2026. [https://avro.apache.org/docs/current/specification/][ref_avro_spec]
+- "Protocol Buffers Field Presence Documentation." n.d. Accessed October 25, 2026. [https://protobuf.dev/programming-guides/field\_presence/][ref_protobuf_field_presence]
+- "RISC-V Unprivileged Specification." n.d. Accessed October 25, 2026. [https://riscv.org/technical/specifications/][ref_riscv_spec]
+
+### Related Posts
+
+- Sechter, Brendan. 2025. "Getting Started with Solana Using Rust and Anchor." *Brendan A R Sechter's Development Blog*, December 17. [https://sgeos.github.io/2025/12/17/solana\_with\_rust\_and\_anchor\_getting\_started.html][related_post_solana_anchor]
+- Sechter, Brendan. 2026. "WASM on a Jekyll Blog with Rust and wasm-bindgen." *Brendan A R Sechter's Development Blog*, January 26. [https://sgeos.github.io/rust/wasm/jekyll/2026/01/26/webasm\_on\_jekyll.html][related_post_wasm_on_jekyll]
+- Sechter, Brendan. 2026. "Wire Formats: What They Are." *Brendan A R Sechter's Development Blog*, January 27. [https://sgeos.github.io/engineering/protocols/computing/2026/01/27/wire\_formats\_what\_they\_are.html][related_post_wire_formats_what]
+- Sechter, Brendan. 2026. "Block-Structured Control Flow and Single-Pass Validation." *Brendan A R Sechter's Development Blog*, April 10. [https://sgeos.github.io/compilers/streaming/series/2026/04/10/block\_structured\_single\_pass\_validation.html][related_post_single_pass_validation]
+- Sechter, Brendan. 2026. "Fixup Tables and the Forward-Jump Problem." *Brendan A R Sechter's Development Blog*, April 12. [https://sgeos.github.io/compilers/streaming/series/2026/04/12/fixup\_tables\_forward\_jump\_problem.html][related_post_fixup_tables]
+- Sechter, Brendan. 2026. "Symbol Tables, Scope Popping, and Bounded Working Memory." *Brendan A R Sechter's Development Blog*, April 14. [https://sgeos.github.io/compilers/streaming/series/2026/04/14/symbol\_tables\_scope\_popping\_bounded\_memory.html][related_post_symbol_tables]
+- Sechter, Brendan. 2026. "Keleusma's Self-Hosting Strategy." *Brendan A R Sechter's Development Blog*, July 12. [https://sgeos.github.io/compilers/self-hosting/keleusma/2026/07/12/keleusma\_self\_hosting\_strategy.html][related_post_keleusma_self_hosting]
 
 [book_hennessy_patterson]: https://openlibrary.org/search?q=Hennessy+Patterson+Computer+Architecture+A+Quantitative+Approach
 [book_stevens_tcpip]: https://openlibrary.org/search?q=Stevens+TCP+IP+Illustrated+Volume+1

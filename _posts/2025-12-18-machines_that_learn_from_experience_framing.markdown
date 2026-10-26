@@ -73,11 +73,11 @@ The synthesis emerged in the 1980s. Sutton's [Sutton 1988][research_sutton_1988]
 
 $$\Delta V_i = \alpha_i \beta \left( \lambda - \sum_j V_j \right)$$
 
-expresses conditioning as a prediction-error-driven adjustment of associative strengths $V_j$ toward the reinforcement magnitude $\lambda$. Watkins's [Watkins 1989][research_watkins_1989] Q-learning provided the first convergence-guaranteed reinforcement learning algorithm for tabular control. Williams's [Williams 1992][research_williams_1992] REINFORCE established the policy gradient theorem's practical form. Barto, Sutton, and Anderson's [Barto Sutton Anderson 1983][research_barto_sutton_anderson_1983] actor-critic architecture drew on neuroscience for its inspiration. By the mid 1990s the [Kaelbling Littman Moore 1996][research_kaelbling_littman_moore_1996] survey codified reinforcement learning as a distinct field, and [Bertsekas and Tsitsiklis 1996][book_bertsekas_tsitsiklis_1996] provided its mathematical foundations under the label neuro-dynamic programming.
+expresses conditioning as a prediction-error-driven adjustment of associative strengths $V_j$ toward the reinforcement magnitude $\lambda$. Watkins's [Watkins 1989][research_watkins_1989] Q-learning provided the first convergence-guaranteed reinforcement learning algorithm for tabular control. Williams's [Williams 1992][research_williams_1992] REINFORCE established the policy gradient theorem's practical form. Barto, Sutton, and Anderson's [Barto et al. 1983][research_barto_sutton_anderson_1983] actor-critic architecture drew on neuroscience for its inspiration. By the mid 1990s the [Kaelbling et al. 1996][research_kaelbling_littman_moore_1996] survey codified reinforcement learning as a distinct field, and [Bertsekas and Tsitsiklis 1996][book_bertsekas_tsitsiklis_1996] provided its mathematical foundations under the label neuro-dynamic programming.
 
-The 2010s produced deep reinforcement learning through the marriage of the classical algorithms with neural function approximation. [Mnih et al 2015][research_mnih_et_al_2015] deep Q-networks demonstrated human-level Atari game play from pixels. [Silver et al 2016][research_silver_et_al_2016] AlphaGo defeated Lee Sedol in Go. [Silver et al 2017][research_silver_et_al_2017] AlphaZero achieved superhuman performance in chess, shogi, and Go from self-play alone. Article three in this series treats the deep reinforcement learning wave in detail.
+The 2010s produced deep reinforcement learning through the marriage of the classical algorithms with neural function approximation. [Mnih et al. 2015][research_mnih_et_al_2015] deep Q-networks demonstrated human-level Atari game play from pixels. [Silver et al. 2016][research_silver_et_al_2016] AlphaGo defeated Lee Sedol in Go. [Silver et al. 2017][research_silver_et_al_2017] AlphaZero achieved superhuman performance in chess, shogi, and Go from self-play alone. Article three in this series treats the deep reinforcement learning wave in detail.
 
-Alongside these algorithmic developments, the neuroscience of reward learning uncovered striking parallels. [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997] identified midbrain dopamine neurons as encoding a reward prediction error mathematically identical to the temporal-difference error, launching the modern era of computational neuroscience-machine learning cross-fertilization. Article fourteen surveys this bridge under the emerging label NeuroAI.
+Alongside these algorithmic developments, the neuroscience of reward learning uncovered striking parallels. [Schultz et al. 1997][research_schultz_dayan_montague_1997] identified midbrain dopamine neurons as encoding a reward prediction error mathematically identical to the temporal-difference error, launching the modern era of computational neuroscience-machine learning cross-fertilization. Article fourteen surveys this bridge under the emerging label NeuroAI.
 
 ## Learning From Experience Versus Batch Learning
 
@@ -235,7 +235,7 @@ These objects recur throughout the series. Articles two through five build the c
 
 The hardest open problems in adaptive learning cluster at the boundary with neuroscience and psychology of learning. The bridge runs in both directions.
 
-From machine learning to the mind sciences, temporal-difference learning provided the computational hypothesis that unified [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997] a wealth of behavioral and electrophysiological data on midbrain dopamine as a reward prediction error. Actor-critic architectures aligned with the anatomy of basal ganglia loops. Hippocampal experience replay [McClelland McNaughton O'Reilly 1995][research_mcclelland_mcnaughton_oreilly_1995] parallels the experience-replay buffers that stabilize deep reinforcement learning.
+From machine learning to the mind sciences, temporal-difference learning provided the computational hypothesis that unified [Schultz et al. 1997][research_schultz_dayan_montague_1997] a wealth of behavioral and electrophysiological data on midbrain dopamine as a reward prediction error. Actor-critic architectures aligned with the anatomy of basal ganglia loops. Hippocampal experience replay [McClelland et al. 1995][research_mcclelland_mcnaughton_oreilly_1995] parallels the experience-replay buffers that stabilize deep reinforcement learning.
 
 From the mind sciences to machine learning, the developmental robotics literature draws on [Piaget 1936][book_piaget_1936] constructivism and on developmental psychology to argue for staged, embodied learning. Predictive processing and active inference [Friston 2010][research_friston_2010] frame the brain as a hierarchical prediction machine that minimizes a variational free energy,
 
@@ -287,11 +287,11 @@ The theoretical framework acquires its practical character through the benchmark
 
 Board games. Chess, Go, shogi, and poker have served as reinforcement learning testbeds since [Samuel 1959][research_samuel_1959] checkers work. [Tesauro 1995][research_tesauro_1995] TD-Gammon demonstrated that self-play temporal-difference learning could reach world-class backgammon play with a neural network policy. AlphaGo, AlphaZero, and MuZero extended the paradigm to Go, chess, shogi, and video games with progressively more general algorithmic apparatus.
 
-Arcade games. The Arcade Learning Environment [Bellemare et al 2013][research_bellemare_et_al_2013] provided approximately fifty-seven Atari 2600 games as a benchmark that requires learning from raw pixel input under a shared reward signal. The Deep Q-Network results of [Mnih et al 2015][research_mnih_et_al_2015] on this suite catalyzed the deep reinforcement learning wave.
+Arcade games. The Arcade Learning Environment [Bellemare et al. 2013][research_bellemare_et_al_2013] provided approximately fifty-seven Atari 2600 games as a benchmark that requires learning from raw pixel input under a shared reward signal. The Deep Q-Network results of [Mnih et al. 2015][research_mnih_et_al_2015] on this suite catalyzed the deep reinforcement learning wave.
 
 Continuous control. The MuJoCo physics engine [MuJoCo Physics Engine][ref_mujoco] and the DeepMind Control Suite provide continuous-state continuous-action robotic control benchmarks including locomotion, manipulation, and dexterous hand control. The Gymnasium framework, successor to OpenAI Gym, has become the standard interface [Farama Foundation Gymnasium][ref_farama_gymnasium].
 
-Procedurally generated environments. Procgen [Cobbe et al 2019][research_cobbe_et_al_2019] and its successors provide procedurally generated benchmarks that stress generalization rather than memorization. The MinAtar suite provides simplified Atari-like environments for controlled experimentation.
+Procedurally generated environments. Procgen [Cobbe et al. 2019][research_cobbe_et_al_2019] and its successors provide procedurally generated benchmarks that stress generalization rather than memorization. The MinAtar suite provides simplified Atari-like environments for controlled experimentation.
 
 Simulated robotics and dexterous manipulation. Isaac Gym, Meta-World, and RoboSuite provide manipulation and dexterous control benchmarks with GPU-accelerated physics that support the throughput required for modern algorithms.
 
@@ -299,7 +299,7 @@ Real-world robotics. Physical robot benchmarks including real-robot manipulation
 
 Language and dialogue. Reinforcement learning from human feedback has produced a class of large language model post-training methods that use preference data rather than reward signals directly. These methods sit at the boundary of the applications scope this series excludes and the theoretical apparatus articles eleven and fifteen treat.
 
-Community practice includes standardized benchmarks with defined evaluation protocols, open-source implementations such as those in Stable Baselines and CleanRL, and reproducibility guidelines that address the observation of [Henderson et al 2018][research_henderson_et_al_2018] that reinforcement learning results are often more variable across random seeds and implementations than reported summary statistics suggest.
+Community practice includes standardized benchmarks with defined evaluation protocols, open-source implementations such as those in Stable Baselines and CleanRL, and reproducibility guidelines that address the observation of [Henderson et al. 2018][research_henderson_et_al_2018] that reinforcement learning results are often more variable across random seeds and implementations than reported summary statistics suggest.
 
 ## Series Roadmap
 
@@ -350,65 +350,73 @@ These questions recur throughout the series and are revisited in the closing syn
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Anderson 2007][book_anderson_2007]
-- [Ashby 1952][book_ashby_1952]
-- [Bellman 1957][book_bellman_1957]
-- [Bertsekas 2019][book_bertsekas_2019]
-- [Bertsekas and Tsitsiklis 1996][book_bertsekas_tsitsiklis_1996]
-- [Dayan and Abbott 2001][book_dayan_abbott_2001]
-- [Hebb 1949][book_hebb_1949]
-- [Howard 1960][book_howard_1960]
-- [Newell 1990][book_newell_1990]
-- [Pavlov 1927][book_pavlov_1927]
-- [Piaget 1936][book_piaget_1936]
-- [Puterman 1994][book_puterman_1994]
-- [Simon 1969][book_simon_1969]
-- [Skinner 1938][book_skinner_1938]
-- [Sutton and Barto 2018][book_sutton_barto_2018]
-- [Szepesvari 2010][book_szepesvari_2010]
-- [Thorndike 1911][book_thorndike_1911]
-- [Wiener 1948][book_wiener_1948]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Friston, Karl. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11 (2): 127–38. [https://doi.org/10.1038/nrn2787][research_friston_2010]
+- McCulloch, Warren S., and Walter Pitts. 1943. "A Logical Calculus of the Ideas Immanent in Nervous Activity." *Bulletin of Mathematical Biophysics* 5 (4): 115–33. [https://doi.org/10.1007/bf02478259][research_mcculloch_pitts_1943]
+- Mnih, Volodymyr, Koray Kavukcuoglu, David Silver, et al. 2015. "Human-Level Control through Deep Reinforcement Learning." *Nature* 518 (7540): 529–33. [https://doi.org/10.1038/nature14236][research_mnih_et_al_2015]
+- Silver, David, Aja Huang, Chris J. Maddison, et al. 2016. "Mastering the Game of Go with Deep Neural Networks and Tree Search." *Nature* 529 (7587): 484–89. [https://doi.org/10.1038/nature16961][research_silver_et_al_2016]
+- Silver, David, Julian Schrittwieser, Karen Simonyan, et al. 2017. "Mastering the Game of Go without Human Knowledge." *Nature* 550 (7676): 354–59. [https://doi.org/10.1038/nature24270][research_silver_et_al_2017]
+- Sutton, Richard S. 1988. "Learning to Predict by the Methods of Temporal Differences." *Machine Learning* 3 (1): 9–44. [https://doi.org/10.1007/bf00115009][research_sutton_1988]
+- Williams, Ronald J. 1992. "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning." *Machine Learning* 8 (3–4): 229–56. [https://doi.org/10.1007/bf00992696][research_williams_1992]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [CleanRL][ref_cleanrl]
-- [DeepMind Control Suite][ref_dm_control_suite]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [Farama Foundation Gymnasium][ref_farama_gymnasium]
-- [MuJoCo Physics Engine][ref_mujoco]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stable Baselines3][ref_stable_baselines]
-- [Stanford CS234][ref_stanford_cs234]
-- [Sutton and Barto Second Edition PDF][ref_sutton_barto_pdf]
+### Primary Sources, Non-Peer-Reviewed
 
-### Research
+- Bellemare, M. G., Y. Naddaf, J. Veness, and M. Bowling. 2013. "The Arcade Learning Environment: An Evaluation Platform for General Agents." *Journal of Artificial Intelligence Research* 47: 253–79. [https://doi.org/10.1613/jair.3912][research_bellemare_et_al_2013]
+- Cobbe, Karl, Christopher Hesse, Jacob Hilton, and John Schulman. 2019. "Leveraging Procedural Generation to Benchmark Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1912.01588][research_cobbe_et_al_2019]
+- "DeepMind Control Suite." n.d. github.com. Accessed October 25, 2026. [https://github.com/deepmind/dm\_control][ref_dm_control_suite]
+- Henderson, Peter, Riashat Islam, Philip Bachman, Joelle Pineau, Doina Precup, and David Meger. 2018. "Deep Reinforcement Learning That Matters." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11694][research_henderson_et_al_2018]
+- Kaelbling, L. P., M. L. Littman, and A. W. Moore. 1996. "Reinforcement Learning: A Survey." *Journal of Artificial Intelligence Research* 4: 237–85. [https://doi.org/10.1613/jair.301][research_kaelbling_littman_moore_1996]
+- Klopf, A. H. 1972. "Brain Function and Adaptive Systems: A Heterostatic Theory." DTIC, March 3. [https://apps.dtic.mil/sti/citations/AD0742259][research_klopf_1972]
+- McClelland, James L., Bruce L. McNaughton, and Randall C. O'Reilly. 1995. "Why There Are Complementary Learning Systems in the Hippocampus and Neocortex: Insights from the Successes and Failures of Connectionist Models of Learning and Memory." *Psychological Review* 102 (3): 419–57. [https://doi.org/10.1037/0033-295x.102.3.419][research_mcclelland_mcnaughton_oreilly_1995]
+- Schultz, Wolfram, Peter Dayan, and P. Read Montague. 1997. "A Neural Substrate of Prediction and Reward." *Science* 275 (5306): 1593–99. [https://doi.org/10.1126/science.275.5306.1593][research_schultz_dayan_montague_1997]
+- Tesauro, Gerald. 1995. "Temporal Difference Learning and TD-Gammon." *Communications of the ACM* 38 (3): 58–68. [https://doi.org/10.1145/203330.203343][research_tesauro_1995]
 
-- [Barto Sutton Anderson 1983][research_barto_sutton_anderson_1983]
-- [Bellemare et al 2013][research_bellemare_et_al_2013]
-- [Cobbe et al 2019][research_cobbe_et_al_2019]
-- [Friston 2010][research_friston_2010]
-- [Henderson et al 2018][research_henderson_et_al_2018]
-- [Kaelbling Littman Moore 1996][research_kaelbling_littman_moore_1996]
-- [Klopf 1972][research_klopf_1972]
-- [McClelland McNaughton O'Reilly 1995][research_mcclelland_mcnaughton_oreilly_1995]
-- [McCulloch and Pitts 1943][research_mcculloch_pitts_1943]
-- [Minsky 1961][research_minsky_1961]
-- [Mnih et al 2015][research_mnih_et_al_2015]
-- [Rescorla and Wagner 1972][research_rescorla_wagner_1972]
-- [Samuel 1959][research_samuel_1959]
-- [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997]
-- [Silver et al 2016][research_silver_et_al_2016]
-- [Silver et al 2017][research_silver_et_al_2017]
-- [Sutton 1988][research_sutton_1988]
-- [Tesauro 1995][research_tesauro_1995]
-- [Tsitsiklis and Van Roy 1997][research_tsitsiklis_van_roy_1997]
-- [Watkins 1989][research_watkins_1989]
-- [Widrow and Hoff 1960][research_widrow_hoff_1960]
-- [Williams 1992][research_williams_1992]
+### Secondary Sources
+
+- Anderson, John Robert. 2007. *How Can the Human Mind Occur in the Physical Universe?*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/how-can-the-human-mind-occur-in-the-physical-universe-9780195398953][book_anderson_2007]
+- Ashby. 1952. *\[Title not identified\]*. [https://archive.org/details/designforbrain00ashb][book_ashby_1952]
+- Bellman. 1957. *Dynamic Programming Princeton Landmarks in Mathematics*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691146683/dynamic-programming][book_bellman_1957]
+- Bertsekas. 2019. *\[Title not identified\]*. [http://www.athenasc.com/rlbook.html][book_bertsekas_2019]
+- Bertsekas, Dimitri P., and Tsitsiklis. 1996. *Neuro-Dynamic Programming*. Athena Scientific. [http://www.athenasc.com/ndpbook.html][book_bertsekas_tsitsiklis_1996]
+- Dayan, Peter, and L. F. Abbott. 2001. *Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems*. Massachusetts Institute of Technology Press. [https://mitpress.mit.edu/9780262541855/theoretical-neuroscience/][book_dayan_abbott_2001]
+- Hebb. 1949. *\[Title not identified\]*. [https://psycnet.apa.org/record/1950-02200-000][book_hebb_1949]
+- Howard, Ronald Arthur. 1960. *Dynamic Programming and Markov Processes*. MIT Press. [https://mitpress.mit.edu/9780262080095/dynamic-programming-and-markov-processes/][book_howard_1960]
+- Newell, Allen. 1990. *Unified Theories of Cognition (the William James Lectures)*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674921016][book_newell_1990]
+- Pavlov. 1927. *\[Title not identified\]*. [https://archive.org/details/conditionedrefle00pavl][book_pavlov_1927]
+- Piaget. 1936. *\[Title not identified\]*. [https://www.routledge.com/The-Origin-of-Intelligence-in-the-Child/Piaget/p/book/9780415846394][book_piaget_1936]
+- Puterman, Martin L. 1994. *Markov Decision Processes: Discrete Stochastic Dynamic Programming*. Wiley. [https://doi.org/10.1002/9780470316887][book_puterman_1994]
+- Simon, Herbert Alexander. 1969. *The Sciences of the Artificial*. M.I.T. Press. [https://mitpress.mit.edu/9780262691918/the-sciences-of-the-artificial/][book_simon_1969]
+- Skinner. 1938. *\[Title not identified\]*. [https://www.bfskinner.org/product/the-behavior-of-organisms/][book_skinner_1938]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+- Szepesvari. 2010. *\[Title not identified\]*. [https://sites.ualberta.ca/~szepesva/rlbook.html][book_szepesvari_2010]
+- Thorndike. 1911. *\[Title not identified\]*. [https://archive.org/details/animalintelligen00thor][book_thorndike_1911]
+- Wiener, Norbert. 1948. *Cybernetics, or Control and Communication in the Animal and the Machine*. The M.i.t. Press. [https://mitpress.mit.edu/9780262730099/cybernetics/][book_wiener_1948]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- Barto, Sutton, and Anderson. 1983. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/6313077][research_barto_sutton_anderson_1983]
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- "CleanRL." n.d. Accessed October 25, 2026. [https://docs.cleanrl.dev/][ref_cleanrl]
+- "Farama Foundation Gymnasium." n.d. Accessed October 25, 2026. [https://gymnasium.farama.org/][ref_farama_gymnasium]
+- Minsky. 1961. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4066245][research_minsky_1961]
+- "MuJoCo Physics Engine." n.d. Accessed October 25, 2026. [https://mujoco.org/][ref_mujoco]
+- Rescorla and Wagner. 1972. "\[Title not identified\]." Accessed October 25, 2026. [https://sites.ualberta.ca/~egray/teaching/Rescorla%20&%20Wagner%201972.pdf][research_rescorla_wagner_1972]
+- Samuel. 1959. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/5392560][research_samuel_1959]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- "Stable-Baselines3 Docs: Reliable Reinforcement Learning Implementations — Stable Baselines3 2.8.0a1 Documentation." n.d. Accessed October 25, 2026. [https://stable-baselines3.readthedocs.io/][ref_stable_baselines]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- "Sutton and Barto Second Edition PDF." n.d. Accessed October 25, 2026. [http://incompleteideas.net/book/RLbook2020.pdf][ref_sutton_barto_pdf]
+- Tsitsiklis and Van Roy. 1997. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/580874][research_tsitsiklis_van_roy_1997]
+- Watkins. 1989. "Q-Learning." [https://www.cs.rhul.ac.uk/~chrisw/new\_thesis.pdf][research_watkins_1989]
+- Widrow and Hoff. 1960. "\[Title not identified\]." Accessed October 25, 2026. [https://www-isl.stanford.edu/~widrow/papers/c1960adaptiveswitching.pdf][research_widrow_hoff_1960]
 
 [book_anderson_2007]: https://global.oup.com/academic/product/how-can-the-human-mind-occur-in-the-physical-universe-9780195398953
 [book_ashby_1952]: https://archive.org/details/designforbrain00ashb
@@ -421,7 +429,7 @@ These questions recur throughout the series and are revisited in the closing syn
 [book_newell_1990]: https://www.hup.harvard.edu/books/9780674921016
 [book_pavlov_1927]: https://archive.org/details/conditionedrefle00pavl
 [book_piaget_1936]: https://www.routledge.com/The-Origin-of-Intelligence-in-the-Child/Piaget/p/book/9780415846394
-[book_puterman_1994]: https://onlinelibrary.wiley.com/doi/book/10.1002/9780470316887
+[book_puterman_1994]: https://doi.org/10.1002/9780470316887
 [book_simon_1969]: https://mitpress.mit.edu/9780262691918/the-sciences-of-the-artificial/
 [book_skinner_1938]: https://www.bfskinner.org/product/the-behavior-of-organisms/
 [book_sutton_barto_2018]: http://incompleteideas.net/book/the-book-2nd.html
@@ -440,24 +448,24 @@ These questions recur throughout the series and are revisited in the closing syn
 [ref_stanford_cs234]: https://web.stanford.edu/class/cs234/
 [ref_sutton_barto_pdf]: http://incompleteideas.net/book/RLbook2020.pdf
 [research_barto_sutton_anderson_1983]: https://ieeexplore.ieee.org/document/6313077
-[research_bellemare_et_al_2013]: https://www.jair.org/index.php/jair/article/view/10819
-[research_cobbe_et_al_2019]: https://arxiv.org/abs/1912.01588
-[research_friston_2010]: https://www.nature.com/articles/nrn2787
-[research_henderson_et_al_2018]: https://ojs.aaai.org/index.php/AAAI/article/view/11694
-[research_kaelbling_littman_moore_1996]: https://www.jair.org/index.php/jair/article/view/10166
+[research_bellemare_et_al_2013]: https://doi.org/10.1613/jair.3912
+[research_cobbe_et_al_2019]: https://doi.org/10.48550/arxiv.1912.01588
+[research_friston_2010]: https://doi.org/10.1038/nrn2787
+[research_henderson_et_al_2018]: https://doi.org/10.1609/aaai.v32i1.11694
+[research_kaelbling_littman_moore_1996]: https://doi.org/10.1613/jair.301
 [research_klopf_1972]: https://apps.dtic.mil/sti/citations/AD0742259
-[research_mcclelland_mcnaughton_oreilly_1995]: https://psycnet.apa.org/record/1995-42327-001
-[research_mcculloch_pitts_1943]: https://link.springer.com/article/10.1007/BF02478259
+[research_mcclelland_mcnaughton_oreilly_1995]: https://doi.org/10.1037/0033-295x.102.3.419
+[research_mcculloch_pitts_1943]: https://doi.org/10.1007/bf02478259
 [research_minsky_1961]: https://ieeexplore.ieee.org/document/4066245
-[research_mnih_et_al_2015]: https://www.nature.com/articles/nature14236
+[research_mnih_et_al_2015]: https://doi.org/10.1038/nature14236
 [research_rescorla_wagner_1972]: https://sites.ualberta.ca/~egray/teaching/Rescorla%20&%20Wagner%201972.pdf
 [research_samuel_1959]: https://ieeexplore.ieee.org/document/5392560
-[research_schultz_dayan_montague_1997]: https://www.science.org/doi/10.1126/science.275.5306.1593
-[research_silver_et_al_2016]: https://www.nature.com/articles/nature16961
-[research_silver_et_al_2017]: https://www.nature.com/articles/nature24270
-[research_sutton_1988]: https://link.springer.com/article/10.1007/BF00115009
-[research_tesauro_1995]: https://dl.acm.org/doi/10.1145/203330.203343
+[research_schultz_dayan_montague_1997]: https://doi.org/10.1126/science.275.5306.1593
+[research_silver_et_al_2016]: https://doi.org/10.1038/nature16961
+[research_silver_et_al_2017]: https://doi.org/10.1038/nature24270
+[research_sutton_1988]: https://doi.org/10.1007/bf00115009
+[research_tesauro_1995]: https://doi.org/10.1145/203330.203343
 [research_tsitsiklis_van_roy_1997]: https://ieeexplore.ieee.org/document/580874
 [research_watkins_1989]: https://www.cs.rhul.ac.uk/~chrisw/new_thesis.pdf
 [research_widrow_hoff_1960]: https://www-isl.stanford.edu/~widrow/papers/c1960adaptiveswitching.pdf
-[research_williams_1992]: https://link.springer.com/article/10.1007/BF00992696
+[research_williams_1992]: https://doi.org/10.1007/bf00992696

@@ -43,15 +43,15 @@ Finally, hierarchical control aligns with the observed structure of biological m
 
 The hierarchical reinforcement learning research program has multiple parallel origins. The behavior-based robotics community treated hierarchical behavior organization through subsumption architectures [Brooks 1986][research_brooks_1986] that composed reactive control modules into layered behavior systems. The cognitive-science community developed hierarchical task-network planning frameworks that formalized the decomposition of complex actions into subtask sequences.
 
-Within reinforcement learning proper, [Dayan and Hinton 1993][research_dayan_hinton_1993] feudal reinforcement learning provided the first systematic treatment of hierarchical reinforcement learning as a distinct algorithmic framework. The manager-worker structure with information hiding between levels became a template for later work.
+Within reinforcement learning proper, [Dayan and Hinton 1992][research_dayan_hinton_1993] feudal reinforcement learning provided the first systematic treatment of hierarchical reinforcement learning as a distinct algorithmic framework. The manager-worker structure with information hiding between levels became a template for later work.
 
 [Parr and Russell 1998][research_parr_russell_1998] hierarchical abstract machines (HAMs) formalized hierarchical reinforcement learning through the machine-hierarchy formalism, providing convergence guarantees analogous to the classical Q-learning results but for the induced semi-Markov decision process.
 
-The options framework of [Sutton Precup and Singh 1999][research_sutton_precup_singh_1999] became the canonical modern formalization. The paper unified the previous frameworks under the shared semi-Markov decision process foundation and established the intra-option learning algorithms that permit efficient policy evaluation and control at both levels of the hierarchy. [Precup and Sutton 1998][research_precup_sutton_1998] earlier introduced multi-time models for temporally abstract planning, providing the precursor formalization of option-level dynamics. [Precup 2000][book_precup_thesis_2000] doctoral thesis provided the systematic development, and [Barto and Mahadevan 2003][research_barto_mahadevan_2003] survey consolidated the field's state at the turn of the millennium.
+The options framework of [Sutton et al. 1999][research_sutton_precup_singh_1999] became the canonical modern formalization. The paper unified the previous frameworks under the shared semi-Markov decision process foundation and established the intra-option learning algorithms that permit efficient policy evaluation and control at both levels of the hierarchy. [Precup and Sutton 1998][research_precup_sutton_1998] earlier introduced multi-time models for temporally abstract planning, providing the precursor formalization of option-level dynamics. [Precup 2000][book_precup_thesis_2000] doctoral thesis provided the systematic development, and [Barto and Mahadevan 2003][research_barto_mahadevan_2003] survey consolidated the field's state at the turn of the millennium.
 
 [Dietterich 2000][research_dietterich_2000] MAXQ decomposition provided a distinct hierarchical value function factorization that admits separate optimality analyses at each level of the hierarchy. MAXQ trades some of the flexibility of the options framework for stronger structural constraints that enable cleaner theoretical treatment.
 
-The deep reinforcement learning wave of the 2010s brought new algorithmic developments. [Kulkarni et al 2016][research_kulkarni_et_al_2016] hierarchical DQN combined deep Q-learning with sub-goal-based hierarchy. [Bacon Harb and Precup 2017][research_bacon_harb_precup_2017] Option-Critic Architecture extended the actor-critic framework to the options setting. [Vezhnevets et al 2017][research_vezhnevets_et_al_2017] FeUdal Networks provided a deep-learning implementation of the feudal reinforcement learning framework. [Nachum Gu Lee Levine 2018][research_nachum_gu_lee_levine_2018] HIRO extended the framework to off-policy hierarchical reinforcement learning.
+The deep reinforcement learning wave of the 2010s brought new algorithmic developments. [Kulkarni et al. 2016][research_kulkarni_et_al_2016] hierarchical DQN combined deep Q-learning with sub-goal-based hierarchy. [Bacon et al. 2017][research_bacon_harb_precup_2017] Option-Critic Architecture extended the actor-critic framework to the options setting. [Vezhnevets et al. 2017][research_vezhnevets_et_al_2017] FeUdal Networks provided a deep-learning implementation of the feudal reinforcement learning framework. [Nachum et al. 2018][research_nachum_gu_lee_levine_2018] HIRO extended the framework to off-policy hierarchical reinforcement learning.
 
 ## Semi-Markov Decision Processes
 
@@ -173,7 +173,7 @@ MAXQ-Q of Dietterich provides the sample-based algorithm that learns the complet
 
 ## Feudal Reinforcement Learning and Hierarchical Abstract Machines
 
-Feudal reinforcement learning of [Dayan and Hinton 1993][research_dayan_hinton_1993] structures the hierarchy as a sequence of manager-worker relationships. Each level receives rewards only from its immediate supervisor, and each level sends actions only to its immediate subordinate. Information is hidden across levels. Workers do not see the top-level reward and managers do not see primitive actions.
+Feudal reinforcement learning of [Dayan and Hinton 1992][research_dayan_hinton_1993] structures the hierarchy as a sequence of manager-worker relationships. Each level receives rewards only from its immediate supervisor, and each level sends actions only to its immediate subordinate. Information is hidden across levels. Workers do not see the top-level reward and managers do not see primitive actions.
 
 The feudal architecture provides several conceptual advantages. Reward-hiding at intermediate levels avoids reward-signal dilution across long horizons. Action-hiding at intermediate levels supports abstract policy formulation independent of implementation-level details. The manager-worker delegation naturally supports skill transfer and modular composition.
 
@@ -193,7 +193,7 @@ The choice-versus-constraint formulation of HAMs contrasts with the free-form op
 
 ## Deep Hierarchical Reinforcement Learning
 
-The deep reinforcement learning wave of the 2010s produced neural implementations of the classical hierarchical frameworks. Hierarchical DQN of [Kulkarni Narasimhan Saeedi Tenenbaum 2016][research_kulkarni_et_al_2016] combined deep Q-learning with a two-level hierarchy in which a high-level meta-controller selects sub-goals from a discrete set and a low-level controller learns to reach the selected sub-goal. The meta-controller Q-network is updated on transitions between sub-goal completions,
+The deep reinforcement learning wave of the 2010s produced neural implementations of the classical hierarchical frameworks. Hierarchical DQN of [Kulkarni et al. 2016][research_kulkarni_et_al_2016] combined deep Q-learning with a two-level hierarchy in which a high-level meta-controller selects sub-goals from a discrete set and a low-level controller learns to reach the selected sub-goal. The meta-controller Q-network is updated on transitions between sub-goal completions,
 
 $$Q_{\text{meta}}(s, g) \leftarrow Q_{\text{meta}}(s, g) + \alpha \left[R_g + \gamma \max_{g'} Q_{\text{meta}}(s', g') - Q_{\text{meta}}(s, g)\right]$$
 
@@ -203,7 +203,7 @@ $$r^{\text{intrinsic}}_t = \mathbb{1}\!\left\{\phi(s_t) = g\right\}$$
 
 for a goal-check function $\phi$. The mechanism achieved significant improvements on Montezuma's Revenge where flat DQN made essentially no progress.
 
-FeUdal Networks of [Vezhnevets et al 2017][research_vezhnevets_et_al_2017] extended the feudal framework to deep neural networks with a manager operating at a coarser timescale than the worker. The manager produces a directional sub-goal in a latent state space,
+FeUdal Networks of [Vezhnevets et al. 2017][research_vezhnevets_et_al_2017] extended the feudal framework to deep neural networks with a manager operating at a coarser timescale than the worker. The manager produces a directional sub-goal in a latent state space,
 
 $$g_t = f_{\text{manager}}(s_t; \theta_M) \in \mathbb{R}^d$$
 
@@ -217,7 +217,7 @@ FeUdal Networks achieved substantial gains on Atari games including Montezuma's 
 
 ## The Option-Critic Architecture
 
-The Option-Critic Architecture of [Bacon Harb and Precup 2017][research_bacon_harb_precup_2017] extends the actor-critic framework to the options setting, providing an end-to-end differentiable learning algorithm for options. The account learns the intra-option policies, termination conditions, and policy over options jointly through gradient descent on the expected return.
+The Option-Critic Architecture of [Bacon et al. 2017][research_bacon_harb_precup_2017] extends the actor-critic framework to the options setting, providing an end-to-end differentiable learning algorithm for options. The account learns the intra-option policies, termination conditions, and policy over options jointly through gradient descent on the expected return.
 
 The option-policy gradient theorem gives the gradient of the expected return with respect to the intra-option policy parameters $\theta$,
 
@@ -237,7 +237,7 @@ Extensions of Option-Critic include Interest-Option-Critic that adds learned int
 
 ## HIRO and Off-Policy Hierarchical Learning
 
-HIRO of [Nachum Gu Lee Levine 2018][research_nachum_gu_lee_levine_2018] provides an off-policy hierarchical reinforcement learning algorithm for continuous control settings. A high-level policy $\mu_{\text{high}}(g \mid s)$ produces state-conditioned sub-goals in the observation space at fixed intervals of $c$ primitive-action steps, and a low-level policy $\pi_{\text{low}}(a \mid s, g)$ learns to reach the sub-goals through goal-conditioned reinforcement learning with intrinsic reward
+HIRO of [Nachum et al. 2018][research_nachum_gu_lee_levine_2018] provides an off-policy hierarchical reinforcement learning algorithm for continuous control settings. A high-level policy $\mu_{\text{high}}(g \mid s)$ produces state-conditioned sub-goals in the observation space at fixed intervals of $c$ primitive-action steps, and a low-level policy $\pi_{\text{low}}(a \mid s, g)$ learns to reach the sub-goals through goal-conditioned reinforcement learning with intrinsic reward
 
 $$r^{\text{low}}_t = -\| s_{t+1} - (s_t + g_t) \|_2$$
 
@@ -251,17 +251,17 @@ which is approximated by searching over a small set of candidate goals around th
 
 HIRO demonstrated state-of-the-art performance on hierarchical continuous control benchmarks including ant maze navigation and simulated manipulation tasks, providing evidence that sample-efficient hierarchical learning is feasible with off-policy methods.
 
-Related methods include HAC (Hierarchical Actor-Critic) of [Levy et al 2018][research_levy_et_al_2018] which uses subgoal testing to handle the moving-target problem in hierarchical off-policy learning, and Data-Efficient Hierarchical RL of [Nachum et al 2019][research_nachum_et_al_2019] which further refines the sub-goal representation using learned representations.
+Related methods include HAC (Hierarchical Actor-Critic) of [Levy 2018][research_levy_et_al_2018] which uses subgoal testing to handle the moving-target problem in hierarchical off-policy learning, and Data-Efficient Hierarchical RL of [Nachum et al. 2019b][research_nachum_et_al_2019] which further refines the sub-goal representation using learned representations.
 
 ## Goal-Conditioned Hierarchies
 
-Goal-conditioned reinforcement learning treated in article five naturally extends to hierarchical settings. A high-level policy proposes goals from a goal space $\mathcal{G}$ and a low-level goal-conditioned policy attempts to reach those goals. The universal value function of [Schaul Horgan Gregor Silver 2015][research_schaul_horgan_gregor_silver_2015_hrl] provides the foundational value function representation
+Goal-conditioned reinforcement learning treated in article five naturally extends to hierarchical settings. A high-level policy proposes goals from a goal space $\mathcal{G}$ and a low-level goal-conditioned policy attempts to reach those goals. The universal value function of [Schaul et al. 2015][research_schaul_horgan_gregor_silver_2015_hrl] provides the foundational value function representation
 
 $$V(s, g) = \mathbb{E}\!\left[\sum_t \gamma^t r(s_t, g) \mid s_0 = s, \pi(\cdot \mid \cdot, g)\right]$$
 
 that generalizes across goals in a shared parameter space.
 
-Hierarchical goal-conditioned methods differ in how they define the goal space and the high-level policy. Options-of-Interest of [Barreto et al 2019][research_barreto_et_al_2019] connects options to successor features, treating options as being defined by successor-feature-based termination criteria. HRL with Latent Sub-Goals of [Nachum et al 2019][research_nachum_et_al_2019] learns a latent goal representation that compresses the high-dimensional state space to a lower-dimensional goal manifold.
+Hierarchical goal-conditioned methods differ in how they define the goal space and the high-level policy. Options-of-Interest of [Barreto 2019][research_barreto_et_al_2019] connects options to successor features, treating options as being defined by successor-feature-based termination criteria. HRL with Latent Sub-Goals of [Nachum et al. 2019b][research_nachum_et_al_2019] learns a latent goal representation that compresses the high-dimensional state space to a lower-dimensional goal manifold.
 
 Sub-goal generation approaches use several methods to propose useful sub-goals. Landmark-based methods identify frequently-visited states as candidate sub-goals. Learned goal generators produce sub-goals through generative models trained on visited states. Adversarial goal generation trains a generator to produce goals of appropriate difficulty for the current policy, connecting to the curriculum generation methods of article five.
 
@@ -273,11 +273,11 @@ $$\pi_\theta(a \mid s, z)$$
 
 produces different behaviors for different values of the code. Continuous latent spaces support interpolation between skills, distance-based skill similarity, and gradient-based composition, providing a natural interface for skill manipulation that discrete option sets do not.
 
-Encoder-decoder skill representations learn to compress action sequences into latent codes and to decode from latent codes back to action sequences. The model provides an inference mechanism to identify the skill executing during a demonstration and a generation mechanism to produce skill-consistent actions during control. Neural Probabilistic Motor Primitives of [Merel Hasenclever Galashov Ahuja Tassa Wayne Tirumala Wulfmeier Heess 2019][research_merel_et_al_2019] applied this formulation to complex humanoid motion, showing that an extensive repertoire of motor skills can be compressed into a low-dimensional latent code with high fidelity and then reproduced by a latent-conditioned decoder.
+Encoder-decoder skill representations learn to compress action sequences into latent codes and to decode from latent codes back to action sequences. The model provides an inference mechanism to identify the skill executing during a demonstration and a generation mechanism to produce skill-consistent actions during control. Neural Probabilistic Motor Primitives of [Merel et al. 2019][research_merel_et_al_2019] applied this formulation to complex humanoid motion, showing that an extensive repertoire of motor skills can be compressed into a low-dimensional latent code with high fidelity and then reproduced by a latent-conditioned decoder.
 
 OPAL of Ajay et al 2021 treated earlier extended the treatment to offline reinforcement learning by learning skill embeddings from offline datasets. The offline-learned skill space then serves as the action space for an online high-level policy, decoupling the skill-learning phase from the task-solving phase.
 
-Diffusion-based skill representations of [Chi Feng Du Xu Cousineau Burchfiel Song 2023][research_chi_et_al_2023] (Diffusion Policy) use diffusion models as the low-level policy conditional on skill or goal representations. The mechanism provides sizable expressiveness for complex multi-modal action distributions that plain Gaussian policies struggle to capture, and has proved particularly effective for robot manipulation with high-frequency continuous action.
+Diffusion-based skill representations of [Chi et al. 2023][research_chi_et_al_2023] (Diffusion Policy) use diffusion models as the low-level policy conditional on skill or goal representations. The mechanism provides sizable expressiveness for complex multi-modal action distributions that plain Gaussian policies struggle to capture, and has proved particularly effective for robot manipulation with high-frequency continuous action.
 
 The choice between discrete and continuous skill representations represents a fundamental design axis in hierarchical reinforcement learning. Discrete options admit clean theoretical treatment through the options framework but require prior specification or discovery of the option set. Continuous skill embeddings admit end-to-end training and support smooth composition but sacrifice the analytical clarity of the options formalism.
 
@@ -285,17 +285,17 @@ The choice between discrete and continuous skill representations represents a fu
 
 The rise of large language models treated in article four has produced a class of language-conditioned hierarchical control systems in which the high-level policy is either a language model directly emitting subgoal commands or a policy conditioned on natural-language instructions from a language model. This account treats language as a substrate for high-level plan specification and grounds language-level plans in low-level executable actions.
 
-SayCan of [Ahn et al 2022][research_ahn_et_al_2022_saycan] combines an LLM that proposes candidate subgoal actions with a value function that scores each candidate for reachability under the current low-level policy. The combined score selects the next skill to execute,
+SayCan of [Ahn et al. 2022][research_ahn_et_al_2022_saycan] combines an LLM that proposes candidate subgoal actions with a value function that scores each candidate for reachability under the current low-level policy. The combined score selects the next skill to execute,
 
 $$p(\text{skill}_i \mid \text{context}) \propto p_{\text{LLM}}(\text{skill}_i \mid \text{context}) \cdot V(\text{skill}_i \mid s)$$
 
 providing a hierarchical policy in which the language model handles high-level reasoning through natural language and the value function handles low-level executability grounding. The mechanism connects deployed language models to robotic control in a way that requires no additional training of the language model itself.
 
-Inner Monologue of [Huang et al 2022][research_huang_et_al_2022] extends the SayCan framework with feedback loops in which execution outcomes, environment observations, and human feedback are fed back to the language model as additional context for revised planning. The framework produces language models that iteratively refine their plans in response to execution feedback.
+Inner Monologue of [Huang et al. 2022][research_huang_et_al_2022] extends the SayCan framework with feedback loops in which execution outcomes, environment observations, and human feedback are fed back to the language model as additional context for revised planning. The framework produces language models that iteratively refine their plans in response to execution feedback.
 
-PaLM-E of [Driess et al 2023][research_driess_et_al_2023] integrates vision, language, and control into a unified multimodal foundation model that can serve as either the planner or the low-level policy across a range of tasks. The model tokenizes images and continuous action signals alongside language tokens, producing a single autoregressive model over the joint sequence.
+PaLM-E of [Driess et al. 2023][research_driess_et_al_2023] integrates vision, language, and control into a unified multimodal foundation model that can serve as either the planner or the low-level policy across a range of tasks. The model tokenizes images and continuous action signals alongside language tokens, producing a single autoregressive model over the joint sequence.
 
-Voyager of [Wang et al 2023][research_wang_et_al_2023_voyager] uses an LLM as an open-ended lifelong agent in Minecraft, autonomously proposing curriculum items, executing them via code-generation into a game API, and accumulating a library of learned skills across many hours of gameplay. The account connects hierarchical reinforcement learning to open-ended learning treated in article twelve.
+Voyager of [Wang et al. 2023][research_wang_et_al_2023_voyager] uses an LLM as an open-ended lifelong agent in Minecraft, autonomously proposing curriculum items, executing them via code-generation into a game API, and accumulating a library of learned skills across many hours of gameplay. The account connects hierarchical reinforcement learning to open-ended learning treated in article twelve.
 
 The rapid pace of development in language-conditioned control has outpaced systematic theoretical treatment, but the empirical demonstrations across robotics, game-playing, and instruction-following tasks establish language-conditioned hierarchies as an appreciable contemporary research direction.
 
@@ -303,9 +303,9 @@ The rapid pace of development in language-conditioned control has outpaced syste
 
 The option discovery problem is the algorithmic construction of useful options without hand-specification. The problem has proved considerably harder than the algorithmic components of options learning, and no dominant solution has emerged as of the mid 2020s.
 
-Bottleneck-state-based methods identify states through which many trajectories pass and define options that reach these bottleneck states. The intuition is that bottlenecks correspond to gateway states that must be traversed to reach many downstream regions, so options that reach bottlenecks provide broad utility. Approaches include the diverse-density method of [McGovern and Barto 2001][research_mcgovern_barto_2001] which identifies subgoal candidates as states appearing on many successful trajectories but few unsuccessful ones, the Q-Cut algorithm of [Menache Mannor and Shimkin 2002][research_menache_mannor_shimkin_2002] which uses graph min-cut to find bottleneck states, and the relative-novelty framework of [Simsek and Barto 2004][research_simsek_barto_2004] that identifies states whose visitation strongly precedes visitation of otherwise-rare states. [Wolfe and Barto 2005][research_wolfe_barto_2005] local graph partitioning provided an alternative graph-based subgoal-discovery method.
+Bottleneck-state-based methods identify states through which many trajectories pass and define options that reach these bottleneck states. The intuition is that bottlenecks correspond to gateway states that must be traversed to reach many downstream regions, so options that reach bottlenecks provide broad utility. Approaches include the diverse-density method of [McGovern and Barto 2001][research_mcgovern_barto_2001] which identifies subgoal candidates as states appearing on many successful trajectories but few unsuccessful ones, the Q-Cut algorithm of [Menache et al. 2002][research_menache_mannor_shimkin_2002] which uses graph min-cut to find bottleneck states, and the relative-novelty framework of [Şimşek and Barto 2004][research_simsek_barto_2004] that identifies states whose visitation strongly precedes visitation of otherwise-rare states. [Wolfe and Barto 2005][research_wolfe_barto_2005] local graph partitioning provided an alternative graph-based subgoal-discovery method.
 
-Successor-feature-based methods use the successor representation of [Dayan 1993][research_dayan_1993_hrl] to identify options that reach diverse regions of the state space. Options-of-Interest of Barreto et al 2019 provides one systematic instantiation. Eigenoption discovery of [Machado Bellemare Bowling 2018][research_machado_bellemare_bowling_2018_eigenoptions] uses the eigenfunctions of the successor representation to define options. The graph-Laplacian formulation constructs the state-transition matrix
+Successor-feature-based methods use the successor representation of [Dayan 1993][research_dayan_1993_hrl] to identify options that reach diverse regions of the state space. Options-of-Interest of Barreto et al 2019 provides one systematic instantiation. Eigenoption discovery of [Machado et al. 2018][research_machado_bellemare_bowling_2018_eigenoptions] uses the eigenfunctions of the successor representation to define options. The graph-Laplacian formulation constructs the state-transition matrix
 
 $$L = D - W$$
 
@@ -319,11 +319,11 @@ The Option-Critic framework treated above provides an end-to-end approach to opt
 
 $$L_{\text{OC}}(\theta, \vartheta) = -\mathbb{E}[G] + \eta \, \mathbb{E}\!\left[\sum_t \beta_{o_t, \vartheta}(s_t)\right]$$
 
-where $\eta$ penalizes frequent option termination. The Termination Critic of [Harutyunyan Dabney Borsa Heess Munos Precup 2019][research_harutyunyan_et_al_2019] provides a principled information-theoretic objective that specifically targets the termination-degeneracy problem. Flexible option learning of [Klissarov and Precup 2021][research_klissarov_precup_2021] introduces adaptive regularization schedules that improve option-critic convergence.
+where $\eta$ penalizes frequent option termination. The Termination Critic of [Harutyunyan et al. 2019][research_harutyunyan_et_al_2019] provides a principled information-theoretic objective that specifically targets the termination-degeneracy problem. Flexible option learning of [Klissarov and Precup 2021][research_klissarov_precup_2021] introduces adaptive regularization schedules that improve option-critic convergence.
 
 Deep skill chaining of [Bagaria and Konidaris 2020][research_bagaria_konidaris_2020] combines options with sequential-chaining that constructs a chain of options ending at a task goal by iteratively learning options whose termination sets serve as initiation sets for the previous option in the chain. The [Konidaris and Barto 2007][research_konidaris_barto_2007] work on portable options established the earlier framework for transferable skills across contexts.
 
-Options from Symbols of [Konidaris Kaelbling and Lozano-Perez 2018][research_konidaris_kaelbling_lozano_perez_2018] connects options to abstract symbolic planning, showing how options with well-defined effects support hierarchical task-network planning. Offline primitive discovery of [Ajay Kumar Agrawal Levine Nachum 2021][research_ajay_et_al_2021] (OPAL) learns skill primitives from offline datasets that can then be composed by an online meta-policy, connecting hierarchical reinforcement learning to the offline RL setting treated in article eight.
+Options from Symbols of [Konidaris et al. 2018][research_konidaris_kaelbling_lozano_perez_2018] connects options to abstract symbolic planning, showing how options with well-defined effects support hierarchical task-network planning. Offline primitive discovery of [Ajay et al. 2021][research_ajay_et_al_2021] (OPAL) learns skill primitives from offline datasets that can then be composed by an online meta-policy, connecting hierarchical reinforcement learning to the offline RL setting treated in article eight.
 
 ## Sample Complexity of Hierarchical Reinforcement Learning
 
@@ -335,7 +335,7 @@ $$R_T = \tilde{\mathcal{O}}\!\left(D_O \sqrt{|\mathcal{S}| |\mathcal{O}| T}\righ
 
 where $D_O$ is the diameter of the option-induced SMDP and $\lvert \mathcal{O} \rvert$ is the number of options. When $\lvert \mathcal{O} \rvert \ll \lvert \mathcal{A} \rvert$ and $D_O$ is comparable to the primitive-action diameter $D$, hierarchical exploration achieves markedly better regret than flat exploration.
 
-[Wen Precup Ibarz Barreto Silver Van Roy 2020][research_wen_precup_ibarz_2020] provided efficient reinforcement learning via hierarchy analysis with sub-linear regret bounds under favorable option structures. The theoretical understanding of when hierarchical decomposition provably reduces sample complexity remains a productive research area with contributions continuing through the 2020s. Extensions include analysis of hierarchical policy iteration, sample-complexity bounds for MAXQ-style decompositions, and hierarchical PAC-MDP frameworks.
+[Wen et al. 2020][research_wen_precup_ibarz_2020] provided efficient reinforcement learning via hierarchy analysis with sub-linear regret bounds under favorable option structures. The theoretical understanding of when hierarchical decomposition provably reduces sample complexity remains a productive research area with contributions continuing through the 2020s. Extensions include analysis of hierarchical policy iteration, sample-complexity bounds for MAXQ-style decompositions, and hierarchical PAC-MDP frameworks.
 
 The gap between theoretical sample-complexity advantages of well-designed hierarchies and the practical difficulty of automatically discovering such hierarchies constitutes a significant current tension in the field. Theoretical results assume that useful options exist and are used, while practical algorithms struggle to discover them without extensive supervision or hand-tuned regularization.
 
@@ -345,13 +345,13 @@ Empirical sample-complexity gains from hierarchical decomposition depend strongl
 
 Hierarchical imitation learning combines the expert-demonstration setting of imitation learning treated in article eleven with hierarchical decomposition. The model enables learning hierarchies from demonstration data rather than through the difficult online option-discovery problem, leveraging structural information implicit in expert behavior.
 
-The [Fox Krishnan Stoica Goldberg 2017][research_fox_krishnan_stoica_goldberg_2017] Directed-Info GAIL framework infers latent option assignments in demonstration trajectories through variational expectation-maximization, identifying which segments of the demonstration correspond to which option. The identified segments provide supervised training data for option policies, converting the difficult online option-discovery problem into a supervised inference problem.
+The [Fox et al. 2017][research_fox_krishnan_stoica_goldberg_2017] Directed-Info GAIL framework infers latent option assignments in demonstration trajectories through variational expectation-maximization, identifying which segments of the demonstration correspond to which option. The identified segments provide supervised training data for option policies, converting the difficult online option-discovery problem into a supervised inference problem.
 
-The [Le Yue Wang Kang Yue 2018][research_le_et_al_2018] hierarchical imitation and reinforcement learning framework combines expert-demonstrated high-level policy with learned low-level skills. This formulation leverages hierarchical demonstration structure while adapting low-level execution to environment-details through reinforcement learning fine-tuning.
+The [Le et al. 2018][research_le_et_al_2018] hierarchical imitation and reinforcement learning framework combines expert-demonstrated high-level policy with learned low-level skills. This formulation leverages hierarchical demonstration structure while adapting low-level execution to environment-details through reinforcement learning fine-tuning.
 
 Behavioral cloning at each level of the hierarchy provides the simplest instantiation but requires demonstration data at each level. When high-level demonstrations are unavailable, weakly-supervised or unsupervised approaches attempt to infer high-level structure from primitive-action demonstrations, using change-point detection, mutual-information objectives, or clustering of trajectory segments to identify option boundaries.
 
-Compile of [Kipf Li Bloem-Reddy Gonzales Battaglia Zoran 2019][research_kipf_et_al_2019] extended the option-inference framework to end-to-end differentiable inference through soft change-point detection. The Play-LMP framework of [Lynch Khansari Duong Nair Havaldar Hausman Levine Bellemare 2020][research_lynch_et_al_2020] used unsupervised play data as demonstration for a latent-plan-conditioned policy, connecting to the latent-code skill representations discussed above.
+Compile of [Kipf et al. 2019][research_kipf_et_al_2019] extended the option-inference framework to end-to-end differentiable inference through soft change-point detection. The Play-LMP framework of [Lynch et al. 2020][research_lynch_et_al_2020] used unsupervised play data as demonstration for a latent-plan-conditioned policy, connecting to the latent-code skill representations discussed above.
 
 ## Hierarchical Planning
 
@@ -373,9 +373,9 @@ Option models enable multi-step planning at the option timescale, providing a na
 
 ## Multi-Task and Multi-Agent Hierarchical RL
 
-Hierarchical decomposition supports multi-task learning through shared low-level policies. When multiple tasks share the same primitive-action environment but differ in reward structure, the same low-level skills may be reusable across tasks with only the high-level policy adapting. Methods including Meta-Learning Shared Hierarchies of [Frans Ho Chen Abbeel Schulman 2018][research_frans_et_al_2018] explicitly train the low-level policy across a distribution of tasks to induce transferable skills.
+Hierarchical decomposition supports multi-task learning through shared low-level policies. When multiple tasks share the same primitive-action environment but differ in reward structure, the same low-level skills may be reusable across tasks with only the high-level policy adapting. Methods including Meta-Learning Shared Hierarchies of [Frans et al. 2018][research_frans_et_al_2018] explicitly train the low-level policy across a distribution of tasks to induce transferable skills.
 
-Modular multitask reinforcement learning of [Andreas Klein Levine 2017][research_andreas_klein_levine_2017] uses natural-language descriptions of tasks to select among modular sub-policies, providing an alternative to purely-emergent modularity. Stochastic Neural Networks for Hierarchical RL of [Florensa Duan and Abbeel 2017][research_florensa_duan_abbeel_2017] learns a repertoire of skills via stochastic latent variables, applied to locomotion transfer. Learning modulated locomotor controllers of [Heess Wayne Silver Lillicrap Erez Tassa 2016][research_heess_wayne_silver_2016] demonstrated hierarchical decomposition on complex simulated locomotion tasks. The MCP framework of [Peng Chang Zhang Abbeel Levine 2019][research_peng_chang_zhang_2019] learns composable multiplicative-composition primitives for continuous control transfer.
+Modular multitask reinforcement learning of [Andreas et al. 2017][research_andreas_klein_levine_2017] uses natural-language descriptions of tasks to select among modular sub-policies, providing an alternative to purely-emergent modularity. Stochastic Neural Networks for Hierarchical RL of [Florensa et al. 2017][research_florensa_duan_abbeel_2017] learns a repertoire of skills via stochastic latent variables, applied to locomotion transfer. Learning modulated locomotor controllers of [Heess et al. 2015][research_heess_wayne_silver_2016] demonstrated hierarchical decomposition on complex simulated locomotion tasks. The MCP framework of [Peng et al. 2019][research_peng_chang_zhang_2019] learns composable multiplicative-composition primitives for continuous control transfer.
 
 Multi-agent hierarchical reinforcement learning combines the hierarchical decomposition of within-agent behavior with the multi-agent coordination challenges of article four. Hierarchical policies can decouple agent-level decisions (which agents to coordinate with, what team-level goal to pursue) from primitive-action decisions (movements to execute), providing computational and conceptual advantages.
 
@@ -383,11 +383,11 @@ Multi-agent hierarchical reinforcement learning combines the hierarchical decomp
 
 The design of hierarchical reinforcement learning systems involves several interacting decisions that shape empirical behavior appreciably. Hierarchy depth (typically two levels but sometimes three or more), branching factor at each level (few options per state versus many), state representation at each level (raw observation versus learned abstraction), reward signal at each level (extrinsic only versus intrinsic subgoal-completion rewards), and the temporal grain of high-level decisions (fixed period versus terminate-when-appropriate) each affect learning dynamics greatly.
 
-When hierarchy helps in practice has received systematic empirical analysis. [Nachum Tang Lee Gu Levine 2019][research_nachum_tang_lee_2019] documented conditions under which hierarchies provide substantial advantages, namely tasks with long horizons and clear sub-task structure, tasks where intrinsic reward or subgoal signal aligns with useful behavior, and tasks where the low-level policy can be pretrained on related tasks. Absent these conditions, flat methods often match or exceed hierarchical methods on standard benchmarks.
+When hierarchy helps in practice has received systematic empirical analysis. [Nachum et al. 2019a][research_nachum_tang_lee_2019] documented conditions under which hierarchies provide substantial advantages, namely tasks with long horizons and clear sub-task structure, tasks where intrinsic reward or subgoal signal aligns with useful behavior, and tasks where the low-level policy can be pretrained on related tasks. Absent these conditions, flat methods often match or exceed hierarchical methods on standard benchmarks.
 
 The choice between hand-designed and learned hierarchies represents a major design axis. Hand-designed hierarchies encode domain knowledge and often achieve strong initial performance at the cost of manual engineering effort and reduced generality. Learned hierarchies require less domain-design but often produce inferior or trivially-degenerate options without careful regularization.
 
-Regularization strategies for learned options include termination-cost penalties, mutual-information objectives, diversity penalties, duration constraints, and information bottlenecks between levels. No single regularization strategy dominates across benchmarks, and empirical practice typically combines several. The [Vezhnevets et al 2020][research_vezhnevets_et_al_2020] Options-as-Responses framework provides one influential systematic proposal that uses response functions to shape option boundaries.
+Regularization strategies for learned options include termination-cost penalties, mutual-information objectives, diversity penalties, duration constraints, and information bottlenecks between levels. No single regularization strategy dominates across benchmarks, and empirical practice typically combines several. The [Vezhnevets 2020][research_vezhnevets_et_al_2020] Options-as-Responses framework provides one influential systematic proposal that uses response functions to shape option boundaries.
 
 Empirical debugging of hierarchical agents presents distinctive challenges. Standard reinforcement learning diagnostics (value function estimates, TD error magnitudes, policy entropy) apply at each level of the hierarchy, but the interaction between levels can produce non-obvious failure modes. Manifestations include high-level policy oscillation between options (which prevents any option from executing to useful completion), low-level policy specialization to high-level commands (which prevents transfer across high-level policies), and complete option degeneracy (which reduces the hierarchy to a flat policy). Diagnostic tools that inspect option usage histograms, option duration distributions, and per-option value estimates support debugging of these failure modes.
 
@@ -395,11 +395,11 @@ The interaction of hierarchy with modern deep reinforcement learning techniques 
 
 ## Neuroscience Connections
 
-Hierarchical control in biological brains has been extensively documented across multiple systems. The prefrontal cortex is widely implicated in the maintenance and hierarchical composition of task-level goals, with dorsolateral prefrontal cortex maintaining task-set representations that guide lower-level behavior. The cascade model of [Koechlin Ody Kouneiher 2003][research_koechlin_ody_kouneiher_2003] proposed a hierarchical organization of frontal cortex with progressively-more-abstract representations along a caudal-to-rostral axis.
+Hierarchical control in biological brains has been extensively documented across multiple systems. The prefrontal cortex is widely implicated in the maintenance and hierarchical composition of task-level goals, with dorsolateral prefrontal cortex maintaining task-set representations that guide lower-level behavior. The cascade model of [Koechlin et al. 2003][research_koechlin_ody_kouneiher_2003] proposed a hierarchical organization of frontal cortex with progressively-more-abstract representations along a caudal-to-rostral axis.
 
-The basal ganglia have been proposed to implement hierarchical action selection through parallel loops through cortex, striatum, pallidum, and thalamus. Each loop can be interpreted as selecting among actions at a particular level of abstraction, from motor to cognitive planning. The [Botvinick 2008][research_botvinick_2008] proposal for hierarchically-organized frontal-striatal loops provides a framework linking hierarchical reinforcement learning to neural circuitry, and [Botvinick Niv and Barto 2009][research_botvinick_niv_barto_2009] extended the treatment to include the developmental and evolutionary considerations of hierarchically organized behavior. [Solway Diuk Cordova Yee Barto Niv Botvinick 2014][research_solway_et_al_2014] proposed a normative account of behavioral hierarchy that predicts optimal decomposition of behavior in task settings. [Balaguer Spiers Hassabis and Summerfield 2016][research_balaguer_spiers_hassabis_summerfield_2016] identified neural signatures of hierarchical planning in human functional magnetic resonance imaging.
+The basal ganglia have been proposed to implement hierarchical action selection through parallel loops through cortex, striatum, pallidum, and thalamus. Each loop can be interpreted as selecting among actions at a particular level of abstraction, from motor to cognitive planning. The [Botvinick 2008][research_botvinick_2008] proposal for hierarchically-organized frontal-striatal loops provides a framework linking hierarchical reinforcement learning to neural circuitry, and [Botvinick et al. 2009][research_botvinick_niv_barto_2009] extended the treatment to include the developmental and evolutionary considerations of hierarchically organized behavior. [Solway et al. 2014][research_solway_et_al_2014] proposed a normative account of behavioral hierarchy that predicts optimal decomposition of behavior in task settings. [Balaguer et al. 2016][research_balaguer_spiers_hassabis_summerfield_2016] identified neural signatures of hierarchical planning in human functional magnetic resonance imaging.
 
-Dopamine-based reinforcement signals treated in article three extend naturally to the hierarchical setting through pseudo-reward at option termination. The correspondence between temporal-difference errors in dopamine responses and reinforcement signals at option boundaries has been proposed by [Ribas-Fernandes Solway Diuk McGuire Barto Niv Botvinick 2011][research_ribas_fernandes_et_al_2011] and successors, providing empirical evidence for the hierarchical reinforcement learning framework at a neural level.
+Dopamine-based reinforcement signals treated in article three extend naturally to the hierarchical setting through pseudo-reward at option termination. The correspondence between temporal-difference errors in dopamine responses and reinforcement signals at option boundaries has been proposed by [Ribas-Fernandes et al. 2011][research_ribas_fernandes_et_al_2011] and successors, providing empirical evidence for the hierarchical reinforcement learning framework at a neural level.
 
 The habit-versus-goal-directed distinction treated in article fifteen connects to hierarchical control through the mapping of habits to low-level cached options and goal-directed behavior to high-level model-based planning. The hierarchical framework provides a natural bridge between the two systems.
 
@@ -413,7 +413,7 @@ Atari hard-exploration games including Montezuma's Revenge remain common benchma
 
 Empirical performance of hierarchical methods has been mixed. On carefully-constructed hierarchical benchmarks, hierarchical methods often outperform flat methods considerably. On less-structured environments, the advantage is smaller or absent, and flat methods with sufficient compute often match hierarchical methods. The frequent observation that emergent options learned by end-to-end methods often collapse to trivial behavior suggests that current methods do not reliably discover useful temporal abstractions without additional inductive biases or supervision.
 
-Reproducibility challenges in hierarchical reinforcement learning are similar to those documented for flat deep RL in article four. Hyperparameter sensitivity is often severe, and reported gains on benchmarks sometimes fail to reproduce with careful implementation. The [Wolczyk Zajac Pascanu Kucinski Milos 2021][research_wolczyk_et_al_2021] Continual World benchmark provides a systematic setting for evaluating hierarchical and continual reinforcement learning methods.
+Reproducibility challenges in hierarchical reinforcement learning are similar to those documented for flat deep RL in article four. Hyperparameter sensitivity is often severe, and reported gains on benchmarks sometimes fail to reproduce with careful implementation. The [Wolczyk et al. 2021][research_wolczyk_et_al_2021] Continual World benchmark provides a systematic setting for evaluating hierarchical and continual reinforcement learning methods.
 
 ## Load-Bearing Open Questions
 
@@ -428,82 +428,90 @@ Reproducibility challenges in hierarchical reinforcement learning are similar to
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Precup 2000 Thesis][book_precup_thesis_2000]
-- [Sutton and Barto 2018][book_sutton_barto_2018]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Barto, Andrew G., and Sridhar Mahadevan. 2003. "Recent Advances in Hierarchical Reinforcement Learning." *Discrete Event Dynamic Systems* 13 (4): 341–79. [https://doi.org/10.1023/a:1025696116075][research_barto_mahadevan_2003]
+- Menache, Ishai, Shie Mannor, and Nahum Shimkin. 2002. "Q-Cut—Dynamic Discovery of Sub-Goals in Reinforcement Learning." In *Machine Learning: ECML 2002*. Springer Berlin Heidelberg. [https://doi.org/10.1007/3-540-36755-1\_25][research_menache_mannor_shimkin_2002]
+- Sutton, Richard S., Doina Precup, and Satinder Singh. 1999. "Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning." *Artificial Intelligence* 112 (1–2): 181–211. [https://doi.org/10.1016/s0004-3702(99)00052-1][research_sutton_precup_singh_1999]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stanford CS234][ref_stanford_cs234]
+### Primary Sources, Non-Peer-Reviewed
+
+- Ahn, Michael, Anthony Brohan, Noah Brown, et al. 2022. "Do as I Can, Not as I Say: Grounding Language in Robotic Affordances." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2204.01691][research_ahn_et_al_2022_saycan]
+- Ajay, Anurag, Aviral Kumar, Pulkit Agrawal, Sergey Levine, and Ofir Nachum. 2021. "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=V69LGwJ0lIN][research_ajay_et_al_2021]
+- Andreas, Jacob, Dan Klein, and Sergey Levine. 2017. "Modular Multitask Reinforcement Learning with Policy Sketches." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/andreas17a.html][research_andreas_klein_levine_2017]
+- Bacon, Pierre-Luc, Jean Harb, and Doina Precup. 2017. "The Option-Critic Architecture." *Proceedings of the AAAI Conference on Artificial Intelligence* 31 (1). [https://doi.org/10.1609/aaai.v31i1.10916][research_bacon_harb_precup_2017]
+- Bagaria, Akhil, and George Konidaris. 2020. "Option Discovery Using Deep Skill Chaining." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=B1gqipNYwH][research_bagaria_konidaris_2020]
+- Barreto. 2019. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Barreto+2019][research_barreto_et_al_2019]
+- Chi, Cheng, Zhenjia Xu, Siyuan Feng, et al. 2023. "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2303.04137][research_chi_et_al_2023]
+- Dayan, Peter, and Geoffrey E. Hinton. 1992. "Feudal Reinforcement Learning." *Advances in Neural Information Processing Systems* 5. [https://papers.nips.cc/paper/1992/hash/d14220ee66aeec73c49038385428ec4c-Abstract.html][research_dayan_hinton_1993]
+- Dietterich, T. G. 2000. "Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition." *Journal of Artificial Intelligence Research* 13: 227–303. [https://doi.org/10.1613/jair.639][research_dietterich_2000]
+- Driess, Danny, Fei Xia, Mehdi S. M. Sajjadi, et al. 2023. "PaLM-E: An Embodied Multimodal Language Model." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2303.03378][research_driess_et_al_2023]
+- Florensa, Carlos, Yan Duan, and Pieter Abbeel. 2017. "Stochastic Neural Networks for Hierarchical Reinforcement Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=B1oK8aoxe][research_florensa_duan_abbeel_2017]
+- Fox, Roy, Sanjay Krishnan, Ion Stoica, and Ken Goldberg. 2017. "Multi-Level Discovery of Deep Options." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1703.08294][research_fox_krishnan_stoica_goldberg_2017]
+- Frans, Kevin, Jonathan Ho, Xi Chen, Pieter Abbeel, and John Schulman. 2018. "Meta Learning Shared Hierarchies." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=SyX0IeWAW][research_frans_et_al_2018]
+- Fruit, Ronan, and Alessandro Lazaric. 2017. "Exploration--Exploitation in MDPs with Options." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1703.08667][research_fruit_lazaric_2017]
+- Harutyunyan, Anna, Will Dabney, Diana Borsa, Nicolas Heess, Remi Munos, and Doina Precup. 2019. "The Termination Critic." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1902.09996][research_harutyunyan_et_al_2019]
+- Heess, Nicolas, Greg Wayne, David Silver, Timothy Lillicrap, Yuval Tassa, and Tom Erez. 2015. "Learning Continuous Control Policies by Stochastic Value Gradients." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1510.09142][research_heess_wayne_silver_2016]
+- Huang, Wenlong, Fei Xia, Ted Xiao, et al. 2022. "Inner Monologue: Embodied Reasoning through Planning with Language Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2207.05608][research_huang_et_al_2022]
+- Kipf, Thomas, Yujia Li, Hanjun Dai, et al. 2019. "CompILE: Compositional Imitation Learning and Execution." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/kipf19a.html][research_kipf_et_al_2019]
+- Koechlin, Etienne, Chrystèle Ody, and Frédérique Kouneiher. 2003. "The Architecture of Cognitive Control in the Human Prefrontal Cortex." *Science* 302 (5648): 1181–85. [https://doi.org/10.1126/science.1088545][research_koechlin_ody_kouneiher_2003]
+- Konidaris and Barto. 2007. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Konidaris+Barto+2007][research_konidaris_barto_2007]
+- Konidaris, George, Leslie Pack Kaelbling, and Tomas Lozano-Perez. 2018. "From Skills to Symbols: Learning Symbolic Representations for Abstract High-Level Planning." *Journal of Artificial Intelligence Research* 61: 215–89. [https://doi.org/10.1613/jair.5575][research_konidaris_kaelbling_lozano_perez_2018]
+- Kulkarni, Tejas D., Karthik Narasimhan, Ardavan Saeedi, and Josh Tenenbaum. 2016. "Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/f442d33fa06832082290ad8544a8da27-Abstract.html][research_kulkarni_et_al_2016]
+- Le, Hoang, Nan Jiang, Alekh Agarwal, Miroslav Dudik, Yisong Yue, and Hal Daumé III. 2018. "Hierarchical Imitation and Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/le18a.html][research_le_et_al_2018]
+- Lynch, Corey, Mohi Khansari, Ted Xiao, et al. 2020. "Learning Latent Plans from Play." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/lynch20a.html][research_lynch_et_al_2020]
+- Machado, Bellemare, and Bowling. 2018. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Machado+Bellemare+Bowling+2018][research_machado_bellemare_bowling_2018_eigenoptions]
+- Merel, Josh, Leonard Hasenclever, Alexandre Galashov, et al. 2019. "Neural Probabilistic Motor Primitives for Humanoid Control." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=BJl6TjRcY7][research_merel_et_al_2019]
+- Nachum, Ofir, Shixiang Gu, Honglak Lee, and Sergey Levine. 2018. "Data-Efficient Hierarchical Reinforcement Learning." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/e6384711491713d29bc63fc5eeb5ba4f-Abstract.html][research_nachum_gu_lee_levine_2018]
+- Nachum, Ofir, Shixiang Gu, Honglak Lee, and Sergey Levine. 2019b. "Near-Optimal Representation Learning for Hierarchical Reinforcement Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=H1emus0qF7][research_nachum_et_al_2019]
+- Parr, Ronald, and Stuart J. Russell. 1998. "Reinforcement Learning with Hierarchies of Machines." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/1997/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html][research_parr_russell_1998]
+- Peng, Xue Bin, Michael Chang, Grace Zhang, Pieter Abbeel, and Sergey Levine. 2019. "MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies." *Advances in Neural Information Processing Systems* 32. [https://papers.nips.cc/paper/2019/hash/95192c98732387165bf8e396c0f2dad2-Abstract.html][research_peng_chang_zhang_2019]
+- Precup, Doina, and Richard S. Sutton. 1998. "Multi-Time Models for Temporally Abstract Planning." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/1997/hash/a9be4c2a4041cadbf9d61ae16dd1389e-Abstract.html][research_precup_sutton_1998]
+- Schaul, Tom, Daniel Horgan, Karol Gregor, and David Silver. 2015. "Universal Value Function Approximators." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v37/schaul15.html][research_schaul_horgan_gregor_silver_2015_hrl]
+- Şimşek, Özgür, and Andrew G. Barto. 2004. "Using Relative Novelty to Identify Useful Temporal Abstractions in Reinforcement Learning." In *Twenty-first international conference on Machine learning - ICML '04*. ACM Press. [https://doi.org/10.1145/1015330.1015353][research_simsek_barto_2004]
+- Solway, Alec, Carlos Diuk, Natalia Córdova, et al. 2014. "Optimal Behavioral Hierarchy." *PLoS Computational Biology* 10 (8): e1003779. [https://doi.org/10.1371/journal.pcbi.1003779][research_solway_et_al_2014]
+- Vezhnevets, Alexander Sasha, Simon Osindero, Tom Schaul, et al. 2017. "FeUdal Networks for Hierarchical Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/vezhnevets17a.html][research_vezhnevets_et_al_2017]
+- Wang, Guanzhi, Yuqi Xie, Yunfan Jiang, et al. 2023. "Voyager: An Open-Ended Embodied Agent with Large Language Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2305.16291][research_wang_et_al_2023_voyager]
+- Wen, Precup, Ibarz, et al. 2020. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Wen+Precup+Ibarz+2020][research_wen_precup_ibarz_2020]
+- Wolfe and Barto. 2005. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Wolfe+Barto+2005][research_wolfe_barto_2005]
+
+### Secondary Sources
+
+- Precup. 2000. *Thesis*. [https://scholarworks.umass.edu/dissertations/AAI9978540/][book_precup_thesis_2000]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- Balaguer, Spiers, Hassabis, and Summerfield. 2016. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cell.com/neuron/fulltext/S0896-6273(16)00104-1][research_balaguer_spiers_hassabis_summerfield_2016]
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- Botvinick. 2008. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S1364661308002052][research_botvinick_2008]
+- Botvinick, Niv, and Barto. 2009. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0010027708001960][research_botvinick_niv_barto_2009]
+- Brooks. 1986. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1087032][research_brooks_1986]
+- Dayan. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/5/4/613/5679][research_dayan_1993_hrl]
+- Klissarov and Precup. 2021. "\[Title not identified\]." Accessed October 25, 2026. [https://papers.nips.cc/paper/2021/hash/2ab3e4b0e69cf49c26f0c98d7f5ef8ba-Abstract.html][research_klissarov_precup_2021]
+- Levy. 2018. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=ryzECoAcY7][research_levy_et_al_2018]
+- McGovern and Barto. 2001. "\[Title not identified\]." Accessed October 25, 2026. [https://scholarworks.umass.edu/cs\_faculty\_pubs/8/][research_mcgovern_barto_2001]
+- Nachum, Tang, Lee, Gu, and Levine. 2019a. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=SkljlBEtvS][research_nachum_tang_lee_2019]
+- Ribas-Fernandes, Solway, Diuk, et al. 2011. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cell.com/neuron/fulltext/S0896-6273(11)00559-X][research_ribas_fernandes_et_al_2011]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- Vezhnevets. 2020. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=BJgUX6VtDB][research_vezhnevets_et_al_2020]
+- Wolczyk, Zajac, Pascanu, Kucinski, and Milos. 2021. "\[Title not identified\]." Accessed October 25, 2026. [https://papers.nips.cc/paper/2021/hash/ae3b6d6a89a3b56ca5c8b6c65e26326d-Abstract.html][research_wolczyk_et_al_2021]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
-- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
-- [A252 Machines That Learn From Experience Reinforcement Learning Foundations][related_post_a252_rl_foundations]
-- [A253 Machines That Learn From Experience Deep Reinforcement Learning][related_post_a253_deep_rl]
-- [A254 Machines That Learn From Experience Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]
-
-### Research
-
-- [Ahn et al 2022 SayCan][research_ahn_et_al_2022_saycan]
-- [Ajay Kumar Agrawal Levine Nachum 2021][research_ajay_et_al_2021]
-- [Andreas Klein and Levine 2017][research_andreas_klein_levine_2017]
-- [Bacon Harb and Precup 2017][research_bacon_harb_precup_2017]
-- [Bagaria and Konidaris 2020][research_bagaria_konidaris_2020]
-- [Balaguer Spiers Hassabis Summerfield 2016][research_balaguer_spiers_hassabis_summerfield_2016]
-- [Barreto et al 2019][research_barreto_et_al_2019]
-- [Barto and Mahadevan 2003][research_barto_mahadevan_2003]
-- [Botvinick 2008][research_botvinick_2008]
-- [Botvinick Niv Barto 2009][research_botvinick_niv_barto_2009]
-- [Brooks 1986][research_brooks_1986]
-- [Chi Feng Du Xu Cousineau Burchfiel Song 2023][research_chi_et_al_2023]
-- [Dayan 1993][research_dayan_1993_hrl]
-- [Dayan and Hinton 1993][research_dayan_hinton_1993]
-- [Dietterich 2000][research_dietterich_2000]
-- [Driess et al 2023 PaLM-E][research_driess_et_al_2023]
-- [Florensa Duan and Abbeel 2017][research_florensa_duan_abbeel_2017]
-- [Fox Krishnan Stoica Goldberg 2017][research_fox_krishnan_stoica_goldberg_2017]
-- [Frans Ho Chen Abbeel Schulman 2018][research_frans_et_al_2018]
-- [Fruit and Lazaric 2017][research_fruit_lazaric_2017]
-- [Harutyunyan Dabney Borsa Heess Munos Precup 2019][research_harutyunyan_et_al_2019]
-- [Heess Wayne Silver Lillicrap Erez Tassa 2016][research_heess_wayne_silver_2016]
-- [Huang et al 2022 Inner Monologue][research_huang_et_al_2022]
-- [Kipf Li Bloem-Reddy Gonzales Battaglia Zoran 2019][research_kipf_et_al_2019]
-- [Klissarov and Precup 2021][research_klissarov_precup_2021]
-- [Koechlin Ody Kouneiher 2003][research_koechlin_ody_kouneiher_2003]
-- [Konidaris and Barto 2007][research_konidaris_barto_2007]
-- [Konidaris Kaelbling Lozano-Perez 2018][research_konidaris_kaelbling_lozano_perez_2018]
-- [Kulkarni Narasimhan Saeedi Tenenbaum 2016][research_kulkarni_et_al_2016]
-- [Le Yue Wang Kang Yue 2018][research_le_et_al_2018]
-- [Levy et al 2018][research_levy_et_al_2018]
-- [Lynch et al 2020][research_lynch_et_al_2020]
-- [Machado Bellemare Bowling 2018][research_machado_bellemare_bowling_2018_eigenoptions]
-- [McGovern and Barto 2001][research_mcgovern_barto_2001]
-- [Menache Mannor and Shimkin 2002][research_menache_mannor_shimkin_2002]
-- [Merel Hasenclever Galashov Ahuja Tassa Wayne Tirumala Wulfmeier Heess 2019][research_merel_et_al_2019]
-- [Nachum Gu Lee Levine 2018][research_nachum_gu_lee_levine_2018]
-- [Nachum et al 2019][research_nachum_et_al_2019]
-- [Nachum Tang Lee Gu Levine 2019][research_nachum_tang_lee_2019]
-- [Parr and Russell 1998][research_parr_russell_1998]
-- [Peng Chang Zhang Abbeel Levine 2019][research_peng_chang_zhang_2019]
-- [Precup and Sutton 1998][research_precup_sutton_1998]
-- [Ribas-Fernandes Solway Diuk McGuire Barto Niv Botvinick 2011][research_ribas_fernandes_et_al_2011]
-- [Schaul Horgan Gregor Silver 2015][research_schaul_horgan_gregor_silver_2015_hrl]
-- [Simsek and Barto 2004][research_simsek_barto_2004]
-- [Solway Diuk Cordova Yee Barto Niv Botvinick 2014][research_solway_et_al_2014]
-- [Sutton Precup and Singh 1999][research_sutton_precup_singh_1999]
-- [Vezhnevets et al 2017][research_vezhnevets_et_al_2017]
-- [Vezhnevets et al 2020][research_vezhnevets_et_al_2020]
-- [Wang et al 2023 Voyager][research_wang_et_al_2023_voyager]
-- [Wen Precup Ibarz Barreto Silver Van Roy 2020][research_wen_precup_ibarz_2020]
-- [Wolczyk Zajac Pascanu Kucinski Milos 2021][research_wolczyk_et_al_2021]
-- [Wolfe and Barto 2005][research_wolfe_barto_2005]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Bandits and Online Learning." *Brendan A R Sechter's Development Blog*, December 19. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/19/machines\_that\_learn\_from\_experience\_bandits\_and\_online\_learning.html][related_post_a251_bandits]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Reinforcement Learning Foundations." *Brendan A R Sechter's Development Blog*, December 20. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/20/machines\_that\_learn\_from\_experience\_reinforcement\_learning\_foundations.html][related_post_a252_rl_foundations]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Deep Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 21. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/21/machines\_that\_learn\_from\_experience\_deep\_reinforcement\_learning.html][related_post_a253_deep_rl]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Exploration, Intrinsic Motivation, and Curiosity." *Brendan A R Sechter's Development Blog*, December 22. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/22/machines\_that\_learn\_from\_experience\_exploration\_intrinsic\_motivation\_and\_curiosity.html][related_post_a254_exploration]
 
 [book_precup_thesis_2000]: https://scholarworks.umass.edu/dissertations/AAI9978540/
 [book_sutton_barto_2018]: http://incompleteideas.net/book/the-book-2nd.html
@@ -517,56 +525,56 @@ Reproducibility challenges in hierarchical reinforcement learning are similar to
 [related_post_a252_rl_foundations]: {% post_url 2025-12-20-machines_that_learn_from_experience_reinforcement_learning_foundations %}
 [related_post_a253_deep_rl]: {% post_url 2025-12-21-machines_that_learn_from_experience_deep_reinforcement_learning %}
 [related_post_a254_exploration]: {% post_url 2025-12-22-machines_that_learn_from_experience_exploration_intrinsic_motivation_and_curiosity %}
-[research_ahn_et_al_2022_saycan]: https://arxiv.org/abs/2204.01691
+[research_ahn_et_al_2022_saycan]: https://doi.org/10.48550/arxiv.2204.01691
 [research_ajay_et_al_2021]: https://openreview.net/forum?id=V69LGwJ0lIN
 [research_andreas_klein_levine_2017]: https://proceedings.mlr.press/v70/andreas17a.html
-[research_bacon_harb_precup_2017]: https://ojs.aaai.org/index.php/AAAI/article/view/10916
+[research_bacon_harb_precup_2017]: https://doi.org/10.1609/aaai.v31i1.10916
 [research_bagaria_konidaris_2020]: https://openreview.net/forum?id=B1gqipNYwH
 [research_balaguer_spiers_hassabis_summerfield_2016]: https://www.cell.com/neuron/fulltext/S0896-6273(16)00104-1
-[research_barreto_et_al_2019]: https://arxiv.org/abs/1901.05075
-[research_barto_mahadevan_2003]: https://link.springer.com/article/10.1023/A:1025696116075
+[research_barreto_et_al_2019]: https://scholar.google.com/scholar?q=Barreto+2019
+[research_barto_mahadevan_2003]: https://doi.org/10.1023/a:1025696116075
 [research_botvinick_2008]: https://www.sciencedirect.com/science/article/pii/S1364661308002052
 [research_botvinick_niv_barto_2009]: https://www.sciencedirect.com/science/article/pii/S0010027708001960
 [research_brooks_1986]: https://ieeexplore.ieee.org/document/1087032
-[research_chi_et_al_2023]: https://arxiv.org/abs/2303.04137
+[research_chi_et_al_2023]: https://doi.org/10.48550/arxiv.2303.04137
 [research_dayan_1993_hrl]: https://direct.mit.edu/neco/article/5/4/613/5679
 [research_dayan_hinton_1993]: https://papers.nips.cc/paper/1992/hash/d14220ee66aeec73c49038385428ec4c-Abstract.html
-[research_dietterich_2000]: https://www.jair.org/index.php/jair/article/view/10266
-[research_driess_et_al_2023]: https://arxiv.org/abs/2303.03378
+[research_dietterich_2000]: https://doi.org/10.1613/jair.639
+[research_driess_et_al_2023]: https://doi.org/10.48550/arxiv.2303.03378
 [research_florensa_duan_abbeel_2017]: https://openreview.net/forum?id=B1oK8aoxe
-[research_fox_krishnan_stoica_goldberg_2017]: https://arxiv.org/abs/1703.08294
+[research_fox_krishnan_stoica_goldberg_2017]: https://doi.org/10.48550/arxiv.1703.08294
 [research_frans_et_al_2018]: https://openreview.net/forum?id=SyX0IeWAW
-[research_fruit_lazaric_2017]: https://papers.nips.cc/paper/2017/hash/d3b1fb02964aa64e257f9f26a31f72cf-Abstract.html
-[research_harutyunyan_et_al_2019]: https://ojs.aaai.org/index.php/AAAI/article/view/4342
-[research_heess_wayne_silver_2016]: https://papers.nips.cc/paper/2016/hash/74563ba21a90da13dacf2a73e3ddefa7-Abstract.html
-[research_huang_et_al_2022]: https://arxiv.org/abs/2207.05608
+[research_fruit_lazaric_2017]: https://doi.org/10.48550/arxiv.1703.08667
+[research_harutyunyan_et_al_2019]: https://doi.org/10.48550/arxiv.1902.09996
+[research_heess_wayne_silver_2016]: https://doi.org/10.48550/arxiv.1510.09142
+[research_huang_et_al_2022]: https://doi.org/10.48550/arxiv.2207.05608
 [research_kipf_et_al_2019]: https://proceedings.mlr.press/v97/kipf19a.html
 [research_klissarov_precup_2021]: https://papers.nips.cc/paper/2021/hash/2ab3e4b0e69cf49c26f0c98d7f5ef8ba-Abstract.html
-[research_koechlin_ody_kouneiher_2003]: https://www.science.org/doi/10.1126/science.1088545
-[research_konidaris_barto_2007]: https://link.springer.com/article/10.1007/s10514-007-9034-y
-[research_konidaris_kaelbling_lozano_perez_2018]: https://www.jair.org/index.php/jair/article/view/11175
+[research_koechlin_ody_kouneiher_2003]: https://doi.org/10.1126/science.1088545
+[research_konidaris_barto_2007]: https://scholar.google.com/scholar?q=Konidaris+Barto+2007
+[research_konidaris_kaelbling_lozano_perez_2018]: https://doi.org/10.1613/jair.5575
 [research_kulkarni_et_al_2016]: https://papers.nips.cc/paper/2016/hash/f442d33fa06832082290ad8544a8da27-Abstract.html
 [research_le_et_al_2018]: https://proceedings.mlr.press/v80/le18a.html
 [research_levy_et_al_2018]: https://openreview.net/forum?id=ryzECoAcY7
 [research_lynch_et_al_2020]: https://proceedings.mlr.press/v100/lynch20a.html
-[research_machado_bellemare_bowling_2018_eigenoptions]: https://ojs.aaai.org/index.php/AAAI/article/view/11824
+[research_machado_bellemare_bowling_2018_eigenoptions]: https://scholar.google.com/scholar?q=Machado+Bellemare+Bowling+2018
 [research_mcgovern_barto_2001]: https://scholarworks.umass.edu/cs_faculty_pubs/8/
-[research_menache_mannor_shimkin_2002]: https://link.springer.com/chapter/10.1007/3-540-36755-1_25
+[research_menache_mannor_shimkin_2002]: https://doi.org/10.1007/3-540-36755-1_25
 [research_merel_et_al_2019]: https://openreview.net/forum?id=BJl6TjRcY7
 [research_nachum_et_al_2019]: https://openreview.net/forum?id=H1emus0qF7
 [research_nachum_gu_lee_levine_2018]: https://papers.nips.cc/paper/2018/hash/e6384711491713d29bc63fc5eeb5ba4f-Abstract.html
 [research_nachum_tang_lee_2019]: https://openreview.net/forum?id=SkljlBEtvS
-[research_parr_russell_1998]: https://papers.nips.cc/paper/1997/hash/5487315b1286f907165907aa8fc96619-Abstract.html
+[research_parr_russell_1998]: https://papers.nips.cc/paper_files/paper/1997/hash/5ca3e9b122f61f8f06494c97b1afccf3-Abstract.html
 [research_peng_chang_zhang_2019]: https://papers.nips.cc/paper/2019/hash/95192c98732387165bf8e396c0f2dad2-Abstract.html
-[research_precup_sutton_1998]: https://papers.nips.cc/paper/1997/hash/44e2be2a5b9e6f4e421c58af1c8e5fef-Abstract.html
+[research_precup_sutton_1998]: https://papers.nips.cc/paper_files/paper/1997/hash/a9be4c2a4041cadbf9d61ae16dd1389e-Abstract.html
 [research_ribas_fernandes_et_al_2011]: https://www.cell.com/neuron/fulltext/S0896-6273(11)00559-X
 [research_schaul_horgan_gregor_silver_2015_hrl]: https://proceedings.mlr.press/v37/schaul15.html
-[research_simsek_barto_2004]: https://dl.acm.org/doi/10.1145/1015330.1015353
-[research_solway_et_al_2014]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003779
-[research_sutton_precup_singh_1999]: https://www.sciencedirect.com/science/article/pii/S0004370299000521
+[research_simsek_barto_2004]: https://doi.org/10.1145/1015330.1015353
+[research_solway_et_al_2014]: https://doi.org/10.1371/journal.pcbi.1003779
+[research_sutton_precup_singh_1999]: https://doi.org/10.1016/s0004-3702(99)00052-1
 [research_vezhnevets_et_al_2017]: https://proceedings.mlr.press/v70/vezhnevets17a.html
 [research_vezhnevets_et_al_2020]: https://openreview.net/forum?id=BJgUX6VtDB
-[research_wang_et_al_2023_voyager]: https://arxiv.org/abs/2305.16291
-[research_wen_precup_ibarz_2020]: https://arxiv.org/abs/2002.05095
+[research_wang_et_al_2023_voyager]: https://doi.org/10.48550/arxiv.2305.16291
+[research_wen_precup_ibarz_2020]: https://scholar.google.com/scholar?q=Wen+Precup+Ibarz+2020
 [research_wolczyk_et_al_2021]: https://papers.nips.cc/paper/2021/hash/ae3b6d6a89a3b56ca5c8b6c65e26326d-Abstract.html
-[research_wolfe_barto_2005]: https://dl.acm.org/doi/10.1145/1102351.1102481
+[research_wolfe_barto_2005]: https://scholar.google.com/scholar?q=Wolfe+Barto+2005

@@ -25,7 +25,7 @@ representing approximately 25% of pre-restriction annual average. Corresponding 
 
 $$f_{\text{foreign-born, US population}}\bigg|_{1920} \approx 0.132, \quad f_{\text{foreign-born, US population}}\bigg|_{1930} \approx 0.117, \quad f_{\text{foreign-born, US population}}\bigg|_{1940} \approx 0.089$$
 
-producing the twentieth-century foreign-born nadir preceding the 1965 Immigration Act recovery treated in article eight. The [Ngai 2004][book_ngai_2004] Impossible Subjects (already cited in A271), [King 2000][book_king_2000] Making Americans (already cited), and [Fitzgerald and Cook-Martín 2014][book_fitzgerald_cook_martin_2014] Culling the Masses provide the standard treatments.
+producing the twentieth-century foreign-born nadir preceding the 1965 Immigration Act recovery treated in article eight. The [Ngai 2004][book_ngai_2004] Impossible Subjects (already cited in A271), [King 2000][book_king_2000] Making Americans (already cited), and [Fitzgerald and Cook-Martin 2014][book_fitzgerald_cook_martin_2014] Culling the Masses provide the standard treatments.
 
 The 1928 Al Smith Democratic presidential candidacy treated in [A271][related_post_a271_mass_immigration_and_closure] produced substantial religious-political mobilization that would reshape American electoral realignment through the 1932 New Deal Democratic coalition treated below. The 1929 stock market crash and subsequent Great Depression provided the economic disruption reshaping American religious and political-economic institutional formation through the 1929-1941 period.
 
@@ -84,7 +84,7 @@ per electoral reconstruction. The African American shift from historically Repub
 
 $$V_{\text{Roosevelt, 1932 electoral}} = 472, \quad V_{\text{Hoover, 1932 electoral}} = 59, \quad V_{\text{Roosevelt, 1936 electoral}} = 523, \quad V_{\text{Landon, 1936 electoral}} = 8$$
 
-with the 1936 result producing the second largest electoral college margin in US history to that date. Primary Roosevelt-era sources include [Roosevelt 1933 First Inaugural][ref_roosevelt_1933_first_inaugural] ("only thing we have to fear is fear itself"), [Roosevelt 1937 Second Inaugural][ref_roosevelt_1937_second_inaugural] ("one-third of a nation ill-housed, ill-clad, ill-nourished"), [Roosevelt 1941 Four Freedoms][ref_roosevelt_1941_four_freedoms] Annual Message to Congress (January 6, 1941), and [Frances Perkins 1946][ref_perkins_1946_roosevelt_i_knew] The Roosevelt I Knew memoir. Roosevelt religious appointments incorporated Catholic, Jewish, and African American figures into federal executive branch positions. Catholic appointments included Frank Murphy (Michigan Governor, Attorney General, Supreme Court Justice), James Farley (Postmaster General 1933-1940 and Democratic National Committee chair), James F. Byrnes (subsequent secular but Catholic-raised), and numerous New Deal agency positions. Jewish appointments included Henry Morgenthau Jr. (Treasury Secretary 1934-1945), Frances Perkins (Secretary of Labor 1933-1945, actually Episcopalian, but treated as symbolic of Catholic-adjacent inclusion), Samuel Rosenman (speechwriter and advisor), and extensive New Deal agency staffing. The [Freidel 1990][book_freidel_1990] Franklin D. Roosevelt and [Kennedy 1999][book_kennedy_1999] Freedom from Fear provide the leading treatments.
+with the 1936 result producing the second largest electoral college margin in US history to that date. Primary Roosevelt-era sources include [Roosevelt 1933 First Inaugural][ref_roosevelt_1933_first_inaugural] ("only thing we have to fear is fear itself"), [Roosevelt 1937 Second Inaugural][ref_roosevelt_1937_second_inaugural] ("one-third of a nation ill-housed, ill-clad, ill-nourished"), [Roosevelt 1941 Four Freedoms][ref_roosevelt_1941_four_freedoms] Annual Message to Congress (January 6, 1941), and [Perkins 1946][ref_perkins_1946_roosevelt_i_knew] The Roosevelt I Knew memoir. Roosevelt religious appointments incorporated Catholic, Jewish, and African American figures into federal executive branch positions. Catholic appointments included Frank Murphy (Michigan Governor, Attorney General, Supreme Court Justice), James Farley (Postmaster General 1933-1940 and Democratic National Committee chair), James F. Byrnes (subsequent secular but Catholic-raised), and numerous New Deal agency positions. Jewish appointments included Henry Morgenthau Jr. (Treasury Secretary 1934-1945), Frances Perkins (Secretary of Labor 1933-1945, actually Episcopalian, but treated as symbolic of Catholic-adjacent inclusion), Samuel Rosenman (speechwriter and advisor), and extensive New Deal agency staffing. The [Freidel 1990][book_freidel_1990] Franklin D. Roosevelt and [Kennedy 1999][book_kennedy_1999] Freedom from Fear provide the leading treatments.
 
 ## Catholic Worker Movement 1933
 
@@ -194,7 +194,7 @@ $$A_{\text{Native landholding, US}}(1934) \approx 4.8 \times 10^7 \text{ acres},
 
 reversing the approximately 65-year continuous decline through allotment era.
 
-The religious dimensions of the Indian Reorganization Act included appreciable formal federal recognition of traditional Native religious practices, Native American Church legal protection, reversal of systematic religious suppression through 1934 termination of Indian Bureau religious crimes regulation ("Religious Crimes Code" implemented from 1883). The 1978 [American Indian Religious Freedom Act 1978][ref_airfa_1978] treated in article eight extended the IRA-era religious protection framework, though effective religious protection continued to require ongoing legislative and judicial intervention.
+The religious dimensions of the Indian Reorganization Act included appreciable formal federal recognition of traditional Native religious practices, Native American Church legal protection, reversal of systematic religious suppression through 1934 termination of Indian Bureau religious crimes regulation ("Religious Crimes Code" implemented from 1883). The 1978 [AIRFA 1978][ref_airfa_1978] treated in article eight extended the IRA-era religious protection framework, though effective religious protection continued to require ongoing legislative and judicial intervention.
 
 Primary sources include John Collier's 1947 [Collier 1947][ref_collier_1947] The Indians of the Americas providing the comprehensive articulation of Collier's Indian New Deal framework, and [Bureau of Indian Affairs Annual Reports 1933-1945][ref_bia_reports_1933_1945] institutional documentation. Concurrent 1936 [Alaska Reorganization Act 1936][ref_alaska_reorganization_act_1936] extended IRA provisions to Alaska Native populations. The 1953 termination policy under House Concurrent Resolution 108 and 1953-1968 termination period treated in article eight reversed IRA framework for 109 tribes before 1970 restoration policy under Nixon administration.
 
@@ -243,7 +243,7 @@ The Kristallnacht (Night of Broken Glass) pogrom of 9-10 November 1938 across Ge
 
 $$N_{\text{synagogues destroyed, Kristallnacht}} \approx 267, \quad N_{\text{Jewish-owned businesses damaged}} \approx 7000, \quad N_{\text{Jews arrested and sent to concentration camps}} \approx 3 \times 10^4$$
 
-per historical reconstruction. American public response was sizable. Presidential recall of Ambassador Hugh Wilson from Berlin on 14 November 1938 provided the highest-level diplomatic protest. Religious institutional condemnation emerged across Federal Council of Churches ([FCC Kristallnacht Statement 1938][ref_fcc_kristallnacht_statement_1938] of 15 November 1938), American Catholic hierarchy (with [Gallagher Radio Address 1938][ref_gallagher_1938_kristallnacht] Detroit Bishop Michael Gallagher's 16 November 1938 radio address as most extensive American Catholic denunciation), and Jewish organizations. The [Diamond 1969][book_diamond_1969] The Nazi Movement in the United States and [Feingold 1995][book_feingold_1995] Bearing Witness provide the standard treatments.
+per historical reconstruction. American public response was sizable. Presidential recall of Ambassador Hugh Wilson from Berlin on 14 November 1938 provided the highest-level diplomatic protest. Religious institutional condemnation emerged across Federal Council of Churches ([FCC Kristallnacht Statement 1938][ref_fcc_kristallnacht_statement_1938] of 15 November 1938), American Catholic hierarchy (with [Gallagher 1938][ref_gallagher_1938_kristallnacht] Detroit Bishop Michael Gallagher's 16 November 1938 radio address as most extensive American Catholic denunciation), and Jewish organizations. The [Diamond 1969][book_diamond_1969] The Nazi Movement in the United States and [Feingold 1995][book_feingold_1995] Bearing Witness provide the standard treatments.
 
 American public opinion polling showed majority disapproval of Kristallnacht,
 
@@ -287,7 +287,7 @@ The religious dimensions of America First combined substantial mainstream Protes
 
 ## World War II American Religious Mobilization
 
-American entry into World War II following the 7 December 1941 Pearl Harbor attack mobilized American religious institutions across denominational lines. Roosevelt's [Roosevelt 1941 War Message][ref_roosevelt_1941_war_message] "day which will live in infamy" address to Congress of 8 December 1941 provided the war declaration request. Congressional declarations followed rapidly (8 December 1941 [Congressional Declaration of War Against Japan 1941][ref_congressional_declaration_japan_1941], 11 December 1941 declarations against Germany and Italy). Total American military service reached
+American entry into World War II following the 7 December 1941 Pearl Harbor attack mobilized American religious institutions across denominational lines. Roosevelt's [Roosevelt 1941 War Message][ref_roosevelt_1941_war_message] "day which will live in infamy" address to Congress of 8 December 1941 provided the war declaration request. Congressional declarations followed rapidly (8 December 1941 [Congressional Declaration of War 1941][ref_congressional_declaration_japan_1941], 11 December 1941 declarations against Germany and Italy). Total American military service reached
 
 $$N_{\text{US military personnel WWII, cumulative}} \approx 1.6 \times 10^7, \quad N_{\text{US military dead, WWII}} \approx 4.05 \times 10^5, \quad N_{\text{US military wounded, WWII}} \approx 6.7 \times 10^5$$
 
@@ -323,7 +323,7 @@ The religious dimensions of interfaith wartime cooperation transformed American 
 
 ## Historic Peace Churches and Civilian Public Service
 
-The Selective Training and Service Act of 16 September 1940 [Selective Training and Service Act 1940][ref_selective_training_service_act_1940] provided conscientious objector accommodation for "any person, who, by reason of religious training and belief, is conscientiously opposed to participation in war in any form." The accommodation expanded WWI-era exemption provisions treated in [A271][related_post_a271_mass_immigration_and_closure], permitting Civilian Public Service (CPS) alternative service. The [Sibley and Jacob 1952][book_sibley_jacob_1952] Conscription of Conscience, [Anderson 1994][book_anderson_1994] Peace Was in Their Hearts, and [Frazer and O'Sullivan 1996][book_frazer_osullivan_1996] We Have Just Begun to Not Fight provide the principal treatments.
+The Selective Training and Service Act of 16 September 1940 [Selective et al. 1940][ref_selective_training_service_act_1940] provided conscientious objector accommodation for "any person, who, by reason of religious training and belief, is conscientiously opposed to participation in war in any form." The accommodation expanded WWI-era exemption provisions treated in [A271][related_post_a271_mass_immigration_and_closure], permitting Civilian Public Service (CPS) alternative service. The [Sibley and Jacob 1952][book_sibley_jacob_1952] Conscription of Conscience, [Anderson 1994][book_anderson_1994] Peace Was in Their Hearts, and [Frazer and O'Sullivan 1996][book_frazer_osullivan_1996] We Have Just Begun to Not Fight provide the principal treatments.
 
 Civilian Public Service enrolled approximately
 
@@ -339,7 +339,7 @@ Additional conscientious objectors received 1-A-O noncombatant military service 
 
 ## Jehovah's Witnesses Flag Salute Cases
 
-Jehovah's Witnesses draft resistance and school flag salute refusal produced substantial WWII-era religious liberty litigation. The 1938 Cantwell v. Connecticut case [Cantwell v. Connecticut 1940][ref_cantwell_v_connecticut_1940] Supreme Court decision incorporated First Amendment religious liberty protection against state action through Fourteenth Amendment. Additional Jehovah's Witness cases from the period include [Jones v. Opelika 1942][ref_jones_v_opelika_1942] (initial unfavorable licensing tax ruling subsequently overturned), [Murdock v. Pennsylvania 1943][ref_murdock_v_pennsylvania_1943] (overturning of religious literature licensing taxes), and [Prince v. Massachusetts 1944][ref_prince_v_massachusetts_1944] (child labor law application to religious practice). Subsequent school flag salute cases produced critical constitutional shift. The [Peters 2000][book_peters_2000] Judging Jehovah's Witnesses and [Newton 1995][book_newton_1995] Armed with the Constitution provide the most complete treatments.
+Jehovah's Witnesses draft resistance and school flag salute refusal produced substantial WWII-era religious liberty litigation. The 1938 Cantwell v. Connecticut case [Cantwell v. Connecticut 310 1940][ref_cantwell_v_connecticut_1940] Supreme Court decision incorporated First Amendment religious liberty protection against state action through Fourteenth Amendment. Additional Jehovah's Witness cases from the period include [Jones v. Opelika 316 1942][ref_jones_v_opelika_1942] (initial unfavorable licensing tax ruling subsequently overturned), [Murdock v. Pennsylvania 319 1943][ref_murdock_v_pennsylvania_1943] (overturning of religious literature licensing taxes), and [Prince v. Massachusetts 1944][ref_prince_v_massachusetts_1944] (child labor law application to religious practice). Subsequent school flag salute cases produced critical constitutional shift. The [Peters 2000][book_peters_2000] Judging Jehovah's Witnesses and [Newton 1995][book_newton_1995] Armed with the Constitution provide the most complete treatments.
 
 Minersville School District v. Gobitis [Minersville v. Gobitis 1940][ref_minersville_v_gobitis_1940] decided 3 June 1940 upheld compulsory school flag salute against Jehovah's Witness challenge in decision,
 
@@ -385,7 +385,7 @@ $$C_{\text{Japanese American property losses, internment estimate}} \approx 4 \t
 
 per 1948 Japanese American Evacuation Claims Act and subsequent 1980 Commission on Wartime Relocation and Internment of Civilians reconstruction. The [CWRIC 1982][ref_cwric_1982] Personal Justice Denied report provides the comprehensive federal investigation.
 
-Landmark Supreme Court decisions on the internment included [Hirabayashi v. United States 1943][ref_hirabayashi_v_united_states_1943] upholding curfew, [Yasui v. United States 1943][ref_yasui_v_united_states_1943] companion case upholding Portland military exclusion, [Korematsu v. United States 1944][ref_korematsu_v_united_states_1944] upholding exclusion, and [Ex parte Endo 1944][ref_ex_parte_endo_1944] ordering release of "loyal" internees. The Korematsu decision was repudiated in 2018 [Trump v. Hawaii 2018][ref_trump_v_hawaii_2018] Supreme Court decision (in Roberts majority opinion though the decision itself upheld travel ban) and 2011 Solicitor General acknowledgment of factual misrepresentation in original briefing. The 1983 coram nobis proceedings under Peter Irons's archival research producing Korematsu, Hirabayashi, and Yasui convictions vacated. The [Irons 1983][book_irons_1983] Justice at War treats the decisions.
+Landmark Supreme Court decisions on the internment included [Hirabayashi v. United States 1943][ref_hirabayashi_v_united_states_1943] upholding curfew, [Yasui v. United States 1943][ref_yasui_v_united_states_1943] companion case upholding Portland military exclusion, [Korematsu v. United States 1944][ref_korematsu_v_united_states_1944] upholding exclusion, and [Ex Parte Endo 323 1944][ref_ex_parte_endo_1944] ordering release of "loyal" internees. The Korematsu decision was repudiated in 2018 [Trump v. Hawaii 2018][ref_trump_v_hawaii_2018] Supreme Court decision (in Roberts majority opinion though the decision itself upheld travel ban) and 2011 Solicitor General acknowledgment of factual misrepresentation in original briefing. The 1983 coram nobis proceedings under Peter Irons's archival research producing Korematsu, Hirabayashi, and Yasui convictions vacated. The [Irons 1983][book_irons_1983] Justice at War treats the decisions.
 
 The 1988 [Civil Liberties Act 1988][ref_civil_liberties_act_1988] Civil Liberties Act signed by President Reagan provided formal federal apology and $20,000 individual redress payments to approximately 82,000 surviving internees, reaching total approximately
 
@@ -688,207 +688,215 @@ This article follows the terminological conventions established in [A266][relate
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Aaseng 1992 Navajo Code Talkers][book_aaseng_1992]
-- [Alvarez 2008 The Power of the Zoot][book_alvarez_2008]
-- [Andersen 1979 The Creation of a Democratic Majority][book_andersen_1979]
-- [Anderson 1972 A. Philip Randolph][book_anderson_1972]
-- [Anderson 1994 Peace Was in Their Hearts][book_anderson_1994]
-- [Asahina 2006 Just Americans][book_asahina_2006]
-- [Baciu 2013 Bracero Religious History][book_baciu_2013]
-- [Balderrama and Rodriguez 2006 Decade of Betrayal][book_balderrama_rodriguez_2006]
-- [Bell 1973 In Hitler's Shadow][book_bell_1973]
-- [Ben-Ur 2009 Sephardic Jews in America][book_ben_ur_2009]
-- [Bennett 1996 When Dreams Came True (GI Bill)][book_bennett_1996]
-- [Berg 2005 Elijah Muhammad and Islam][book_berg_2005_elijah]
-- [Bergen 2004 The Sword of the Lord][book_bergen_2004]
-- [Bernstein 1991 American Indians and World War II][book_bernstein_1991]
-- [Breitman 1998 Official Secrets][book_breitman_1998]
-- [Breitman and Kraut 1987 American Refugee Policy][book_breitman_kraut_1987]
-- [Brinkley 1982 Voices of Protest][book_brinkley_1982]
-- [Brown 2002 Reinhold Niebuhr and His Age][book_brown_2002]
-- [Capeci and Wilkerson 1991 Layered Violence][book_capeci_wilkerson_1991]
-- [Carpenter 1997 Revive Us Again][book_carpenter_1997]
-- [Chadwick 1986 Britain and the Vatican][book_chadwick_1986]
-- [Chen 2015 Chinese San Francisco (revised)][book_chen_2015]
-- [Clegg 1997 An Original Man][book_clegg_1997]
-- [Coffey 1991 Always Home][book_coffey_1991]
-- [Cohen 2011 Braceros][book_cohen_2011_bracero]
-- [Cole 1974 Charles A. Lindbergh and the Battle Against American Intervention][book_cole_1974]
-- [Curtis 2006 Black Muslim Religion][book_curtis_2006]
-- [Daniels 1993 Prisoners Without Trial][book_daniels_1993]
-- [Deloria and Lytle 1984 The Nations Within][book_deloria_lytle_1984]
-- [Diamond 1969 The Nazi Movement in the United States][book_diamond_1969]
-- [Doenecke 2000 Storm on the Horizon][book_doenecke_2000]
-- [Dulles 1950 War or Peace][book_dulles_1950]
-- [Duus 2005 Unlikely Liberators][book_duus_2005]
-- [Erbelding 2018 Rescue Board][book_erbelding_2018]
-- [Farmer 1985 Lay Bare the Heart][book_farmer_1985]
-- [Feingold 1970 The Politics of Rescue][book_feingold_1970]
-- [Feingold 1995 Bearing Witness][book_feingold_1995]
-- [Frantz and Collins 2003 Death on the Black Sea (Struma)][book_frantz_collins_2003]
-- [Frydl 2009 The GI Bill][book_frydl_2009]
-- [Fermi 1968 Illustrious Immigrants][book_fermi_1968]
-- [Fischer 1989 Making Them Like Us][book_fischer_1989]
-- [Fitzgerald and Cook-Martín 2014 Culling the Masses][book_fitzgerald_cook_martin_2014]
-- [Fox 1985 Reinhold Niebuhr][book_fox_1985]
-- [Frazer and O'Sullivan 1996 We Have Just Begun to Not Fight][book_frazer_osullivan_1996]
-- [Freidel 1990 Franklin D. Roosevelt][book_freidel_1990]
-- [Galarza 1964 Merchants of Labor][book_galarza_1964]
-- [Hoffman 1974 Unwanted Mexican Americans in the Great Depression][book_hoffman_1974]
-- [Irons 1983 Justice at War][book_irons_1983]
-- [Jackson 2005 Islam and the Blackamerican][book_jackson_2005]
-- [Kashima 1977 Buddhism in America][book_kashima_1977]
-- [Kelly 1983 The Assault on Assimilation][book_kelly_1983]
-- [Laqueur 1980 The Terrible Secret][book_laqueur_1980]
-- [Kennedy 1999 Freedom from Fear][book_kennedy_1999]
-- [King 2000 Making Americans][book_king_2000]
-- [Kurzman 2004 No Greater Glory][book_kurzman_2004]
-- [Marcus 1973 Father Coughlin][book_marcus_1973]
-- [Masumoto 1972 Country Voices][book_masumoto_1972]
-- [McCollister 2000 All American Political Parties][book_mccollister_2000]
-- [McNaughton 2006 Nisei Linguists][book_mcnaughton_2006]
-- [Meadows 2002 The Comanche Code Talkers][book_meadows_2002]
-- [Meier and Rudwick 1975 CORE][book_meier_rudwick_1975]
-- [Meyer 1988 Response to Modernity (Reform Judaism)][book_meyer_1988_response]
-- [Miyakawa 2015 Buddhism in Japanese American Life][book_miyakawa_2015]
-- [Milkis 1993 The President and the Parties][book_milkis_1993]
-- [Miller 1982 Dorothy Day][book_miller_1982_dorothy_day]
-- [Miller 2003 The Depression and the New Deal][book_miller_2003]
-- [Muller 2007 American Inquisition][book_muller_2007]
-- [Nakano 2000 Filipino Veterans of World War II][book_nakano_2000]
-- [Nakano 2005 Japanese American Women][book_nakano_2005]
-- [Newton 1995 Armed with the Constitution][book_newton_1995]
-- [Ngai 2004 Impossible Subjects][book_ngai_2004]
-- [Niebuhr 1932 Moral Man and Immoral Society (Niebuhr)][book_niebuhr_1932_book]
-- [Ogilvie and Miller 2006 Refuge Denied][book_ogilvie_miller_2006]
-- [O'Brien 1968 American Catholics and Social Reform][book_obrien_1968_american_catholics]
-- [Pagan 2003 Murder at the Sleepy Lagoon][book_pagan_2003]
-- [Peters 2000 Judging Jehovah's Witnesses][book_peters_2000]
-- [Pollard 2014 The Papacy in the Age of Totalitarianism][book_pollard_2014]
-- [Pfeffer 1990 A. Philip Randolph][book_pfeffer_1990]
-- [Philp 1977 John Collier's Crusade for Indian Reform][book_philp_1977]
-- [Piehl 1982 Breaking Bread][book_piehl_1982]
-- [Preston 2012 Sword of the Spirit, Shield of Faith][book_preston_2012]
-- [Sarna 2004 American Judaism][book_sarna_2004]
-- [Rasmussen 1951 A History of the Emergency Farm Labor Supply Program][book_rasmussen_1951]
-- [Reed 1991 Seedtime for the Modern Civil Rights Movement][book_reed_1991]
-- [Rice 2013 Reinhold Niebuhr and His Circle][book_rice_2013]
-- [Robinson 2001 By Order of the President][book_robinson_2001]
-- [Rusco 2000 A Fateful Time][book_rusco_2000]
-- [Schultz 2011 Tri-Faith America][book_schultz_2011]
-- [Sibley and Jacob 1952 Conscription of Conscience][book_sibley_jacob_1952]
-- [Silk 1988 Spiritual Politics][book_silk_1988]
-- [Sittser 1997 A Cautious Patriotism][book_sittser_1997]
-- [Sweeney 2005 The American Evangelical Story][book_sweeney_2005]
-- [Toulouse 1985 The Transformation of John Foster Dulles][book_toulouse_1985]
-- [Ventresca 2013 Soldier of Christ (Pius XI)][book_ventresca_2013]
-- [Sterner 2007 Go for Broke][book_sterner_2007]
-- [Sundquist 1983 Dynamics of the Party System][book_sundquist_1983]
-- [Thomas and Morgan-Witts 1974 Voyage of the Damned][book_thomas_morgan_witts_1974]
-- [Townsend 2000 World War II and the American Indian][book_townsend_2000]
-- [Turner 1997 Islam in the African-American Experience][book_turner_1997]
-- [Warren 1996 Radio Priest][book_warren_1996]
-- [Warren 1997 Theologians of a New World Order][book_warren_1997_theologians]
-- [Weglyn 1976 Years of Infamy][book_weglyn_1976]
-- [Weissbach 2005 Jewish Life in Small-Town America][book_weissbach_2005]
-- [Wells 2008 The Tropics of Empire][book_wells_2008]
-- [Williams 2019 American Sutra][book_williams_2019]
-- [Wong 2005 Americans First][book_wong_2005]
-- [Wyman 1985 The Abandonment of the Jews][book_wyman_1985]
-- [Zucker 2001 The Haven][book_zucker_2001]
-- [Zwick and Zwick 2005 The Catholic Worker Movement][book_zwick_zwick_2005]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- AIRFA. 1978. *American Indian Religious Freedom Act*. [https://scholar.google.com/scholar?q=American+Indian+Religious+Freedom+Act+AIRFA+1978][ref_airfa_1978]
+- "Alaska Reorganization Act." 1936. [https://www.loc.gov/collections/statutes-at-large/][ref_alaska_reorganization_act_1936]
+- "Bracero Agreement." 1942. [https://www.archives.gov/research/latinos/1940s/bracero][ref_bracero_agreement_1942]
+- "Cantwell v. Connecticut, 310 U.S. 296 (1940)." 1940. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/310/296/][ref_cantwell_v_connecticut_1940]
+- "Civil Liberties Act." 1988. [https://www.archives.gov/milestone-documents/civil-liberties-act][ref_civil_liberties_act_1988]
+- "Congressional Declaration of War Against Japan." 1941. [https://www.archives.gov/milestone-documents/joint-resolution-declaring-war-against-japan][ref_congressional_declaration_japan_1941]
+- CWRIC. 1982. "World War II Japanese Americans Incarceration: Justice Denied." National Archives. Accessed October 25, 2026. [https://www.archives.gov/research/japanese-americans/justice-denied][ref_cwric_1982]
+- Divini Redemptoris. 1937. "Pius XI Encyclical." [https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf\_p-xi\_enc\_19031937\_divini-redemptoris.html][ref_divini_redemptoris_1937]
+- "Ex Parte Endo, 323 U.S. 283 (1944)." 1944. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/323/283/][ref_ex_parte_endo_1944]
+- Executive Order 8802. 1941. "Fair Employment Practices." [https://www.archives.gov/milestone-documents/executive-order-8802][ref_executive_order_8802_1941]
+- Executive Order 9066. 1942. "Japanese Internment Authorization." [https://www.archives.gov/milestone-documents/executive-order-9066][ref_executive_order_9066_1942]
+- Executive Order 9102. 1942. "War Relocation Authority." [https://www.presidency.ucsb.edu/documents/executive-order-9102-establishing-the-war-relocation-authority][ref_executive_order_9102_1942]
+- Executive Order 9346. 1943. "FEPC Restructuring." [https://www.presidency.ucsb.edu/documents/executive-order-9346-establishing-a-committee-fair-employment-practice][ref_executive_order_9346_1943]
+- GI Bill. 1944. "Servicemen's Readjustment Act (1944)." National Archives. Accessed October 25, 2026. [https://www.archives.gov/milestone-documents/servicemens-readjustment-act][ref_gi_bill_1944]
+- "Hirabayashi v. United States, 320 U.S. 81 (1943)." 1943. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/320/81/][ref_hirabayashi_v_united_states_1943]
+- "Indian Reorganization Act." 1934. [https://www.archives.gov/milestone-documents/indian-reorganization-act][ref_indian_reorganization_act_1934]
+- "Jones v. Opelika, 316 U.S. 584 (1942)." 1942. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/316/584/][ref_jones_v_opelika_1942]
+- "Korematsu v. United States, 323 U.S. 214 (1944)." 1944. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/323/214/][ref_korematsu_v_united_states_1944]
+- "Luce-Celler Act." 1946. [https://history.state.gov/milestones/1945-1952/luce-celler-act][ref_luce_celler_act_1946]
+- Magnuson Act. 1943. "Chinese Exclusion Repeal." [https://history.state.gov/milestones/1937-1945/chinese-exclusion-act-repeal][ref_magnuson_act_1943]
+- "Minersville School District v. Gobitis, 310 U.S. 586 (1940)." 1940. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/310/586/][ref_minersville_v_gobitis_1940]
+- Mit Brennender Sorge. 1937. "Pius XI Encyclical." [https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf\_p-xi\_enc\_14031937\_mit-brennender-sorge.html][ref_mit_brennender_sorge_1937]
+- "Murdock v. Pennsylvania, 319 U.S. 105 (1943)." 1943. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/319/105/][ref_murdock_v_pennsylvania_1943]
+- Niebuhr. 1941. "The Nature and Destiny of Man." [https://archive.org/details/naturedestinyofm0001nieb][ref_niebuhr_1941_nature_and_destiny]
+- Niebuhr H R. 1929. "The Social Sources of Denominationalism." [https://archive.org/details/socialsourcesofdenominationalism][ref_niebuhr_hr_1929]
+- Non abbiamo bisogno. 1931. "Pius XI Encyclical." [https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf\_p-xi\_enc\_29061931\_non-abbiamo-bisogno.html][ref_non_abbiamo_bisogno_1931]
+- "Prince v. Massachusetts." 1944. [https://supreme.justia.com/cases/federal/us/321/158/][ref_prince_v_massachusetts_1944]
+- Public Law 45. 1943. "Mexican Farm Labor Program." [https://www.loc.gov/collections/statutes-at-large/][ref_public_law_45_1943]
+- Public Law 77-503. 1942. "Military Exclusion Criminal Penalties." [https://www.loc.gov/collections/statutes-at-large/][ref_public_law_77_503]
+- Public Law 78. 1951. "Mexican Farm Labor Renewal." [https://www.loc.gov/collections/statutes-at-large/][ref_public_law_78_1951]
+- Quadragesimo Anno. 1931. "Pius XI Encyclical." [https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf\_p-xi\_enc\_19310515\_quadragesimo-anno.html][ref_quadragesimo_anno_1931]
+- Rescission Act. 1946. "(Public Law 79-301)." [https://www.loc.gov/collections/statutes-at-large/][ref_rescission_act_1946]
+- Roosevelt. 1933. "First Inaugural Address." [https://www.archives.gov/milestone-documents/president-franklin-roosevelts-inaugural-address][ref_roosevelt_1933_first_inaugural]
+- Roosevelt. 1937. "Second Inaugural Address." [https://avalon.law.yale.edu/20th\_century/froos2.asp][ref_roosevelt_1937_second_inaugural]
+- Roosevelt. 1941a. "Four Freedoms Speech." [https://www.archives.gov/milestone-documents/president-franklin-roosevelts-annual-message][ref_roosevelt_1941_four_freedoms]
+- Roosevelt. 1941b. "War Message (Day of Infamy)." [https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war][ref_roosevelt_1941_war_message]
+- Treaty of Manila. 1946. "Philippine Independence." [https://avalon.law.yale.edu/20th\_century/decad159.asp][ref_treaty_of_manila_1946]
+- Trump v. Hawaii. 2018. "(Korematsu repudiation)." [https://supreme.justia.com/cases/federal/us/585/17-965/][ref_trump_v_hawaii_2018]
+- "War Brides Act." 1945. [https://history.state.gov/milestones/1945-1952/war-brides][ref_war_brides_act_1945]
+- "West Virginia State Board of Education v. Barnette, 319 U.S. 624 (1943)." 1943. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/319/624/][ref_west_virginia_v_barnette_1943]
+- "Yasui v. United States, 320 U.S. 115 (1943)." 1943. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/320/115/][ref_yasui_v_united_states_1943]
 
-- [AIRFA 1978 American Indian Religious Freedom Act][ref_airfa_1978]
-- [Alaska Reorganization Act 1936][ref_alaska_reorganization_act_1936]
-- [Bracero Agreement 1942][ref_bracero_agreement_1942]
-- [Biltmore Program 1942 (American Zionist Declaration)][ref_biltmore_program_1942]
-- [Bureau of Indian Affairs Annual Reports 1933-1945][ref_bia_reports_1933_1945]
-- [Cantwell v. Connecticut 1940][ref_cantwell_v_connecticut_1940]
-- [Christianity and Crisis 1941 Magazine Archive][ref_christianity_and_crisis_1941]
-- [Civil Liberties Act 1988][ref_civil_liberties_act_1988]
-- [Collier 1947 The Indians of the Americas][ref_collier_1947]
-- [Columbus Platform 1937 (Reform Judaism)][ref_columbus_platform_1937]
-- [Congressional Declaration of War Against Japan 1941][ref_congressional_declaration_japan_1941]
-- [Coughlin 1934 Money! Questions and Answers][ref_coughlin_1934_money]
-- [Coughlin 1935 A Series of Lectures on Social Justice][ref_coughlin_1935_lectures]
-- [Coughlin Radio Sermons Collection][ref_coughlin_sermons]
-- [CWRIC 1982 Personal Justice Denied][ref_cwric_1982]
-- [Day 1938 From Union Square to Rome][ref_day_1938]
-- [Day 1952 The Long Loneliness][ref_day_1952]
-- [Day Selected Writings][ref_day_selected_writings]
-- [Divini Redemptoris 1937 Pius XI Encyclical][ref_divini_redemptoris_1937]
-- [Dulles 1946 The Christian Basis of a Just and Durable Peace][ref_dulles_1946]
-- [Evian Conference 1938 Proceedings][ref_evian_conference_1938]
-- [Executive Order 8802 1941 Fair Employment Practices][ref_executive_order_8802_1941]
-- [Executive Order 9066 1942 Japanese Internment Authorization][ref_executive_order_9066_1942]
-- [Executive Order 9102 1942 War Relocation Authority][ref_executive_order_9102_1942]
-- [Executive Order 9346 1943 FEPC Restructuring][ref_executive_order_9346_1943]
-- [Ex parte Endo 1944][ref_ex_parte_endo_1944]
-- [FCC Kristallnacht Statement 1938][ref_fcc_kristallnacht_statement_1938]
-- [Gallagher 1938 Radio Address (Kristallnacht)][ref_gallagher_1938_kristallnacht]
-- [GI Bill 1944 (Servicemen's Readjustment Act)][ref_gi_bill_1944]
-- [Hirabayashi v. United States 1943][ref_hirabayashi_v_united_states_1943]
-- [Indian Reorganization Act 1934][ref_indian_reorganization_act_1934]
-- [Jones v. Opelika 1942][ref_jones_v_opelika_1942]
-- [Lindbergh 1941 Des Moines Speech][ref_lindbergh_1941_des_moines]
-- [Korematsu v. United States 1944][ref_korematsu_v_united_states_1944]
-- [Luce-Celler Act 1946][ref_luce_celler_act_1946]
-- [Magnuson Act 1943 Chinese Exclusion Repeal][ref_magnuson_act_1943]
-- [Maurin 1936 Easy Essays][ref_maurin_1936]
-- [Minersville School District v. Gobitis 1940][ref_minersville_v_gobitis_1940]
-- [Mit Brennender Sorge 1937 Pius XI Encyclical][ref_mit_brennender_sorge_1937]
-- [Muhammad 1965 Message to the Blackman in America][ref_muhammad_1965_message]
-- [Muhammad Speaks Newspaper][ref_muhammad_speaks]
-- [Murdock v. Pennsylvania 1943][ref_murdock_v_pennsylvania_1943]
-- [Niebuhr 1932 Moral Man and Immoral Society][ref_niebuhr_1932_moral_man]
-- [Niebuhr 1941 The Nature and Destiny of Man][ref_niebuhr_1941_nature_and_destiny]
-- [Niebuhr 1944 The Children of Light and the Children of Darkness][ref_niebuhr_1944_children]
-- [Niebuhr H R 1929 The Social Sources of Denominationalism][ref_niebuhr_hr_1929]
-- [Non abbiamo bisogno 1931 Pius XI Encyclical][ref_non_abbiamo_bisogno_1931]
-- [Perkins 1946 The Roosevelt I Knew][ref_perkins_1946_roosevelt_i_knew]
-- [Prince v. Massachusetts 1944][ref_prince_v_massachusetts_1944]
-- [Public Law 45 1943 Mexican Farm Labor Program][ref_public_law_45_1943]
-- [Public Law 77-503 1942 Military Exclusion Criminal Penalties][ref_public_law_77_503]
-- [Public Law 78 1951 Mexican Farm Labor Renewal][ref_public_law_78_1951]
-- [Quadragesimo Anno 1931 Pius XI Encyclical][ref_quadragesimo_anno_1931]
-- [Rescission Act 1946 (Public Law 79-301)][ref_rescission_act_1946]
-- [Roosevelt 1933 First Inaugural Address][ref_roosevelt_1933_first_inaugural]
-- [Roosevelt 1937 Second Inaugural Address][ref_roosevelt_1937_second_inaugural]
-- [Roosevelt 1941 Four Freedoms Speech][ref_roosevelt_1941_four_freedoms]
-- [Roosevelt 1941 War Message (Day of Infamy)][ref_roosevelt_1941_war_message]
-- [Roosevelt Letter to USO Founders 1941][ref_roosevelt_uso_letter_1941]
-- [Selective Training and Service Act 1940][ref_selective_training_service_act_1940]
-- [Six Pillars of Peace 1943 (Federal Council of Churches)][ref_six_pillars_of_peace_1943]
-- [Shinto Directive 1945 (SCAPIN-448)][ref_shinto_directive_1945]
-- [Social Justice Magazine (Coughlin)][ref_social_justice_magazine]
-- [Tillich 1948 The Shaking of the Foundations][ref_tillich_1948]
-- [Treaty of Manila 1946 Philippine Independence][ref_treaty_of_manila_1946]
-- [Truman Directive 1945][ref_truman_directive_1945]
-- [Trump v. Hawaii 2018 (Korematsu repudiation)][ref_trump_v_hawaii_2018]
-- [Wagner-Rogers Bill 1939][ref_wagner_rogers_bill_1939]
-- [We Will Never Die 1943 Ben Hecht Pageant][ref_we_will_never_die_1943]
-- [War Brides Act 1945][ref_war_brides_act_1945]
-- [War Refugee Board 1944 Executive Order 9417][ref_war_refugee_board_1944]
-- [West Virginia v. Barnette 1943][ref_west_virginia_v_barnette_1943]
-- [Yasui v. United States 1943][ref_yasui_v_united_states_1943]
+### Secondary Sources
+
+- Aaseng, Nathan. 1992. *Navajo Code Talkers*. Walker. [https://www.penguinrandomhouse.com/books/321706/navajo-code-talkers-by-nathan-aaseng/][book_aaseng_1992]
+- Alvarez, Luis. 2008. *The Power of the Zoot Youth Culture and Resistance during World War Ii*. University of California Press. [https://www.ucpress.edu/book/9780520261549/the-power-of-the-zoot][book_alvarez_2008]
+- Andersen, Kristi. 1979. *The Creation of a Democratic Majority, 1928-1936*. University of Chicago Press. [https://openlibrary.org/works/OL2969840W][book_andersen_1979]
+- Anderson, Jervis. 1972. *A. Philip Randolph: A Biographical Portrait*. A Harvest Book. [https://openlibrary.org/works/OL2709535W][book_anderson_1972]
+- Anderson, Richard C. 1994. *Peace Was in Their Hearts: Conscientious Objectors in World War Ii*. Herald Press. [https://catalog.hathitrust.org/Record/002989116][book_anderson_1994]
+- Asahina, Robert. 2006. *Just Americans: How Japanese Americans Won a War at Home and Abroad*. Gotham. [https://gothambooks.com/books/asahina-just-americans][book_asahina_2006]
+- Baciu. 2013. *Bracero Religious History*. [https://scholar.google.com/scholar?q=baciu+2013+bracero+religious+history][book_baciu_2013]
+- Balderrama, Francisco E., and Rodriguez. 2006. *Decade of Betrayal: Mexican Repatriation in the 1930s, Revised Edition*. University of New Mexico Press. [https://www.unmpress.com/9780826339737/decade-of-betrayal/][book_balderrama_rodriguez_2006]
+- Bell, Leland V. 1973. *In Hitler's Shadow: The Anatomy of American Nazism*. Kennikat Press. [https://global.oup.com/academic/product/in-hitlers-shadow-9780252003592][book_bell_1973]
+- Ben-Ur, Aviva. 2009. *Sephardic Jews in America: A Diasporic History*. New York University Press. [https://global.oup.com/academic/product/sephardic-jews-in-america-9780814720837][book_ben_ur_2009]
+- Bennett. 1996. *When Dreams Came True (GI Bill)*. [https://global.oup.com/academic/product/when-dreams-came-true-9781574887532][book_bennett_1996]
+- Berg. 2005. *Elijah Muhammad and Islam*. [https://global.oup.com/academic/product/elijah-muhammad-and-islam-9780814791455][book_berg_2005_elijah]
+- Bergen, Doris L. 2004. *The Sword of the Lord: Military Chaplains from the First to the Twenty-First Century*. University of Notre Dame Press. [https://uncpress.org/book/9780807829134/the-sword-of-the-lord/][book_bergen_2004]
+- Bernstein, Alison R. 1991. *American Indians and World War II: Toward a New Era in Indian Affairs*. University of Oklahoma Press. [https://www.oupress.com/9780806123608/american-indians-and-world-war-ii/][book_bernstein_1991]
+- Breitman, Richard. 1998. *Official Secrets: What the Nazis Planned, What the British and Americans Knew*. Hill and Wang. [https://www.hup.harvard.edu/books/9780674633209][book_breitman_1998]
+- Breitman, Richard, and Kraut. 1987. *American Refugee Policy and European Jewry, 1933-1945*. Indiana University Press. [https://iupress.org/9780253203632/american-refugee-policy/][book_breitman_kraut_1987]
+- Brinkley, Alan. 1982. *Voices of Protest: Huey Long, Father Coughlin, and the Great Depression*. Knopf. [https://www.penguinrandomhouse.com/books/62366/voices-of-protest-by-alan-brinkley/][book_brinkley_1982]
+- Brown. 2002. *Reinhold Niebuhr and His Age*. [https://global.oup.com/academic/product/reinhold-niebuhr-and-his-age-9781563383793][book_brown_2002]
+- *Bureau of Indian Affairs Annual Reports 1933-*. 1945. [https://catalog.hathitrust.org/Record/000497884][ref_bia_reports_1933_1945]
+- Capeci, Dominic J., and Wilkerson. 1991. *Layered Violence: The Detroit Rioters of 1943*. University Press of Mississippi. [https://catalog.hathitrust.org/Record/002133075][book_capeci_wilkerson_1991]
+- Carpenter, Joel A. 1997. *Revive Us Again: The Reawakening of American Fundamentalism*. Oxford University Press. [https://global.oup.com/academic/product/revive-us-again-9780195129076][book_carpenter_1997]
+- Chadwick, Owen. 1986. *Britain and the Vatican during the Second World War*. Cambridge University Press. [https://global.oup.com/academic/product/britain-and-the-vatican-9780521048354][book_chadwick_1986]
+- Chen. 2015. *Chinese San Francisco (revised)*. [https://sup.org/books/title/?id=6398][book_chen_2015]
+- Christianity and Crisis. 1941. *Magazine Archive*. [https://catalog.hathitrust.org/Record/000642174][ref_christianity_and_crisis_1941]
+- Clegg, Claude Andrew. 1997. *An Original Man: The Life and Times of Elijah Muhammad*. St. Martin's Press. [https://global.oup.com/academic/product/an-original-man-9780312181536][book_clegg_1997]
+- Coffey, Frank. 1991. *Always Home: 50 Years of the USO--the Official Photographic History*. Brassey's (US). [https://openlibrary.org/works/OL2285548W][book_coffey_1991]
+- Cohen, Deborah. 2011. *Braceros: Migrant Citizens and Transnational Subjects in the Postwar United States and Mexico*. University of North Carolina Press. [https://uncpress.org/book/9780807872246/braceros/][book_cohen_2011_bracero]
+- Cole, Wayne S. 1974. *Charles a. Lindbergh and the Battle against American Intervention in World War II*. Harcourt Brace Jovanovich. [https://openlibrary.org/works/OL3505658W][book_cole_1974]
+- Coughlin. 1934. *Money! Questions and Answers*. [https://catalog.hathitrust.org/Record/001306411][ref_coughlin_1934_money]
+- Coughlin. 1935. *A Series of Lectures on Social Justice*. [https://catalog.hathitrust.org/Record/001306428][ref_coughlin_1935_lectures]
+- *Coughlin Radio Sermons Collection*. n.d. [https://catalog.hathitrust.org/Record/000646122][ref_coughlin_sermons]
+- Curtis, Edward E. 2006. *Black Muslim Religion in the Nation of Islam, 1960-1975*. The University of North Carolina Press. [https://uncpress.org/book/9780807857717/black-muslim-religion-in-the-nation-of-islam/][book_curtis_2006]
+- Daniels, Roger. 1993. *Prisoners without Trial: Japanese Americans in World War II*. Hill and Wang. [https://global.oup.com/academic/product/prisoners-without-trial-9780809078967][book_daniels_1993]
+- Day. 1938. *From Union Square to Rome*. [https://catalog.hathitrust.org/Record/001191506][ref_day_1938]
+- Deloria, Vine, and Lytle. 1984. *The Nations Within: The past and Future of American Indian Sovereignty*. Pantheon Books. [https://www.oupress.com/9780292775572/the-nations-within/][book_deloria_lytle_1984]
+- Diamond. 1969. *The Nazi Movement in the United States*. [https://cornellpress.cornell.edu/book/9780801408502/the-nazi-movement-in-the-united-states-1924-1941/][book_diamond_1969]
+- Doenecke, Justus D. 2000. *Storm on the Horizon: The Challenge to American Intervention, 1939-1941*. Rowman & Littlefield Publishers. [https://global.oup.com/academic/product/storm-on-the-horizon-9780742507845][book_doenecke_2000]
+- Dulles. 1946. *The Christian Basis of a Just and Durable Peace*. [https://catalog.hathitrust.org/Record/000642180][ref_dulles_1946]
+- Dulles, John Foster. 1950. *War or Peace*. Harrap. [https://openlibrary.org/works/OL2418116W][book_dulles_1950]
+- Duus, Masayo. 2005. *Unlikely Liberators: The Men of the 100th and 442nd*. University of Hawaii Press. [https://uhpress.hawaii.edu/title/unlikely-liberators/][book_duus_2005]
+- Erbelding, Rebecca. 2018. *Rescue Board: The Untold Story of America's Efforts to Save the Jews of Europe*. Doubleday. [https://us.macmillan.com/books/9781101871515/rescueboard][book_erbelding_2018]
+- Farmer, James. 1985. *Lay Bare the Heart: An Autobiography of the Civil Rights Movement*. Arbor House. [https://tcupress.com/farmer-lay-bare-the-heart][book_farmer_1985]
+- *FCC Kristallnacht Statement*. 1938. [https://catalog.hathitrust.org/Record/000642174][ref_fcc_kristallnacht_statement_1938]
+- Feingold, Henry L. 1970. *The Politics of Rescue: The Roosevelt Administration and the Holocaust, 1938-1945*. Rutgers University Press. [https://rutgersuniversitypress.org/the-politics-of-rescue/9780813505732/][book_feingold_1970]
+- Feingold, Henry L. 1995. *Bearing Witness: How America and Its Jews Responded to the Holocaust*. Syracuse University Press. [https://openlibrary.org/works/OL2915481W][book_feingold_1995]
+- Fermi, Laura. 1968. *Illustrious Immigrants: The Intellectual Migration from Europe, 1930-41. --*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/I/bo3643700.html][book_fermi_1968]
+- Fischer. 1989. *Making Them Like Us*. [https://scholar.google.com/scholar?q=fischer+1989+making+them+like+us][book_fischer_1989]
+- Fitzgerald and David Cook-Martin. 2014. *Culling the Masses the Democratic Origins of Racist Immigration Policy in the Americas*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674729049][book_fitzgerald_cook_martin_2014]
+- Fox, Richard Wightman. 1985. *Reinhold Niebuhr: A Biography*. Pantheon Books. [https://global.oup.com/academic/product/reinhold-niebuhr-9780801453267][book_fox_1985]
+- Frantz and Collins. 2003. *Death on the Black Sea (Struma)*. [https://www.harpercollins.com/products/death-on-the-black-sea-douglas-frantz-catherine-collins][book_frantz_collins_2003]
+- Frazer, Heather T., and John O'Sullivan. 1996. *We Have Just Begun to Not Fight: An Oral History of Conscientious Objectors in Civilian Public Service during World War II*. Twayne Publishers. [https://global.oup.com/academic/product/we-have-just-begun-to-not-fight-9780810833890][book_frazer_osullivan_1996]
+- Freidel, Frank Burt. 1990. *Franklin D. Roosevelt: A Rendezvous with Destiny*. Back Bay Books. [https://www.hachettebookgroup.com/titles/frank-freidel/franklin-d-roosevelt/9780316293297/][book_freidel_1990]
+- Frydl, Kathleen. 2009. *The GI Bill*. Cambridge University Press. [https://www.cambridge.org/9780521514286][book_frydl_2009]
+- Galarza, Ernesto. 1964. *Merchants of Labor: The Mexican Bracero Story*. McNally and Loftin. [https://openlibrary.org/works/OL11392524W][book_galarza_1964]
+- Hoffman, Abraham. 1974. *Unwanted Mexican Americans in the Great Depression: Repatriation Pressures, 1929-1939*. University of Arizona Press. [https://www.arizonapress.com/9780816504183][book_hoffman_1974]
+- Irons, Peter H. 1983. *Justice at War*. Oxford University Press. [https://global.oup.com/academic/product/justice-at-war-9780520083127][book_irons_1983]
+- Jackson, Sherman A. 2005. *Islam and the Blackamerican: Looking toward the Third Resurrection*. Oxford University Press. [https://global.oup.com/academic/product/islam-and-the-blackamerican-9780195180817][book_jackson_2005]
+- Kashima, Tetsuden. 1977. *Buddhism in America: The Social Organization of an Ethnic Religious Institution*. Greenwood Press. [https://greenwood.com/product/buddhism-in-america][book_kashima_1977]
+- Kelly, Lawrence C. 1983. *The Assault on Assimilation: John Collier and the Origins of Indian Policy Reform*. University of New Mexico Press. [https://uofnpress.utenn.edu/9780826307804/the-assault-on-assimilation/][book_kelly_1983]
+- Kennedy, David M. 1999. *Freedom from Fear: The American People in Depression and War, 1929-1945*. Oxford University Press. [https://global.oup.com/academic/product/freedom-from-fear-9780195144031][book_kennedy_1999]
+- King, Desmond. 2000. *Making Americans: Immigration, Race, and the Origins of the Diverse Democracy*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674007437][book_king_2000]
+- Kurzman, Dan. 2004. *No Greater Glory: The Four Immortal Chaplains and the Sinking of the Dorchester in World War II*. Penguin Random House. [https://www.penguinrandomhouse.com/books/292164/no-greater-glory-by-dan-kurzman/][book_kurzman_2004]
+- Laqueur, Walter. 1980. *The Terrible Secret*. Little, Brown. [https://www.penguinrandomhouse.com/books/173620/the-terrible-secret-by-walter-laqueur/][book_laqueur_1980]
+- Marcus, Sheldon. 1973. *Father Coughlin: The Tumultuous Life of the Priest of the Little Flower*. Little, Brown. [https://openlibrary.org/works/OL5842890W][book_marcus_1973]
+- Masumoto. 1972. *Country Voices*. [https://scholar.google.com/scholar?q=masumoto+1972+country+voices][book_masumoto_1972]
+- McCollister. 2000. *All American Political Parties*. [https://scholar.google.com/scholar?q=mccollister+2000+american+political+parties][book_mccollister_2000]
+- McNaughton, James C. 2006. *Nisei Linguists: Japanese Americans in the Military Intelligence Service during World War II*. Department of the Army. [https://www.army.mil/csm/mihi/][book_mcnaughton_2006]
+- Meadows, William C. 2002. *The Comanche Code Talkers of World War II*. University of Texas Press. [https://www.oupress.com/9780806133904/the-comanche-code-talkers-of-world-war-ii/][book_meadows_2002]
+- Meier and Rudwick. 1975. *CORE*. [https://global.oup.com/academic/product/core-9780252012259][book_meier_rudwick_1975]
+- Meyer. 1988. *Response to Modernity (Reform Judaism)*. [https://global.oup.com/academic/product/response-to-modernity-9780814326848][book_meyer_1988_response]
+- Milkis, Sidney M. 1993. *The President and the Parties: The Transformation of the American Party System since the New Deal*. Oxford University Press. [https://global.oup.com/academic/product/the-president-and-the-parties-9780195088243][book_milkis_1993]
+- Miller, William D. 1982. *Dorothy Day: A Biography*. Harper & Row. [https://global.oup.com/academic/product/dorothy-day-9781570753893][book_miller_1982_dorothy_day]
+- Miller. 2003. *The Depression and the New Deal*. [https://scholar.google.com/scholar?q=miller+2003+depression+new+deal][book_miller_2003]
+- Miyakawa. 2015. *Buddhism in Japanese American Life*. [https://sup.org/books/title/?id=25289][book_miyakawa_2015]
+- Muhammad. 1965. *Message to the Blackman in America*. [https://catalog.hathitrust.org/Record/000450128][ref_muhammad_1965_message]
+- *Muhammad Speaks Newspaper*. n.d. [https://catalog.hathitrust.org/Record/000646156][ref_muhammad_speaks]
+- Muller, Eric L. 2007. *American Inquisition: The Hunt for Japanese American Disloyalty in World War II*. University of North Carolina Press. [https://uncpress.org/book/9780807858998/american-inquisition/][book_muller_2007]
+- Nakano. 2000. *Filipino Veterans of World War II*. [https://scholar.google.com/scholar?q=nakano+2000+filipino+veterans][book_nakano_2000]
+- Nakano, Mei T. 2005. *Japanese American Women: Three Generations, 1890-1990*. Mina Press Pub. [https://openlibrary.org/works/OL4815458W][book_nakano_2005]
+- Newton, Merlin Owen. 1995. *Armed with the Constitution: Jehovah's Witnesses in Alabama and the U.S. Supreme Court, 1939-1946*. University of Alabama Press. [https://global.oup.com/academic/product/armed-with-the-constitution-9780817307907][book_newton_1995]
+- Ngai, Mae M. 2004. *Impossible Subjects: Illegal Aliens and the Making of Modern America*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691160825/impossible-subjects][book_ngai_2004]
+- Niebuhr, Reinhold. 1932a. *Moral Man and Immoral Society: A Study in Ethics and Politics*. C. Scribner's. [https://wjkbooks.com/9780664224745/moral-man-and-immoral-society/][book_niebuhr_1932_book]
+- Niebuhr, Reinhold, 1892-1971. 1932b. *Moral Man and Immoral Society: A Study in Ethics and Politics*. New York: Simon & Schuster. [https://archive.org/details/moralmanimmorals00nieb][ref_niebuhr_1932_moral_man]
+- O'Brien, David J. 1968. *American Catholics and Social Reform: The New Deal Years*. Oxford U. P. [https://openlibrary.org/works/OL2559299W][book_obrien_1968_american_catholics]
+- Ogilvie, Sarah A., and Miller. 2006. *Refuge Denied: The St. Louis Passengers and the Holocaust*. University of Wisconsin Press. [https://www.wisconsinpress.wisc.edu/9780299219840/refuge-denied/][book_ogilvie_miller_2006]
+- Pagan. 2003. *Murder at the Sleepy Lagoon: Zoot Suits, Race, and Riot in Wartime L.A.*. The University of North Carolina Press. [https://uncpress.org/book/9780807854945/murder-at-the-sleepy-lagoon/][book_pagan_2003]
+- Perkins. 1946. *The Roosevelt I Knew*. [https://catalog.hathitrust.org/Record/001191586][ref_perkins_1946_roosevelt_i_knew]
+- Peters, Shawn Francis. 2000. *Judging Jehovah's Witnesses: Religious Persecution and the Dawn of the Rights Revolution*. University Press of Kansas. [https://kansaspress.ku.edu/978-0-7006-1008-7.html][book_peters_2000]
+- Pfeffer, Paula F. 1990. *A. Philip Randolph, Pioneer of the Civil Rights Movement*. Louisiana State University Press. [https://lsupress.org/9780807115497/a-philip-randolph/][book_pfeffer_1990]
+- Philp, Kenneth R. 1977. *John Collier's Crusade for Indian Reform, 1920-1954*. University of Arizona Press. [https://ucpress.arizona.edu/9780816505807/john-collier-s-crusade-for-indian-reform/][book_philp_1977]
+- Piehl, Mel. 1982. *Breaking Bread: The Catholic Worker and the Origin of Catholic Radicalism in America*. Temple University Press. [https://iupress.org/9780877223351/breaking-bread/][book_piehl_1982]
+- Pollard, John. 2014. *The Papacy in the Age of Totalitarianism, 1914-1958*. Oxford University Press. [https://global.oup.com/academic/product/the-papacy-in-the-age-of-totalitarianism-9780199208562][book_pollard_2014]
+- Preston, Andrew. 2012. *Sword of the Spirit, Shield of Faith: Religion in American War and Diplomacy*. Alfred A. Knopf. [https://www.penguinrandomhouse.com/books/298018/sword-of-the-spirit-shield-of-faith-by-andrew-preston/][book_preston_2012]
+- Rasmussen, Wayne David. 1951. *A History of the Emergency Farm Labor Supply Program, 1943-47*. U.S. Dept. of Agriculture, Bureau of Agricultural Economics. [https://catalog.hathitrust.org/Record/001315706][book_rasmussen_1951]
+- Reed, Merl Elwyn. 1991. *Seedtime for the Modern Civil Rights Movement: The President's Committee on Fair Employment Practice, 1941-1946*. Louisiana State University Press. [https://global.oup.com/academic/product/seedtime-for-the-modern-civil-rights-movement-9780807116265][book_reed_1991]
+- Rice, Daniel F. 2013. *Reinhold Niebuhr and His Circle of Influence*. Cambridge University Press. [https://global.oup.com/academic/product/reinhold-niebuhr-and-his-circle-9780199755318][book_rice_2013]
+- Robinson, Greg. 2001. *By Order of the President: FDR and the Internment of Japanese Americans*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674006393][book_robinson_2001]
+- Rusco, Elmer R. 2000. *A Fateful Time: The Background and Legislative History of the Indian Reorganization Act*. University of Nevada Press. [https://uofnpress.utenn.edu/9780874173420/a-fateful-time/][book_rusco_2000]
+- Sarna, Jonathan D. 2004. *American Judaism: A History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300109764/american-judaism/][book_sarna_2004]
+- Schultz, Kevin M. 2011. *Tri-Faith America: How Catholics and Jews Held Postwar America to Its Protestant Promise*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/tri-faith-america-9780199831234][book_schultz_2011]
+- Sibley, Mulford Quickert, and Jacob. 1952. *Conscription of Conscience: The American State and the Conscientious Objector, 1940-1947*. Cornell University Press. [https://catalog.hathitrust.org/Record/001048817][book_sibley_jacob_1952]
+- Silk, Mark. 1988. *Spiritual Politics: Religion and America since World War II*. Simon and Schuster. [https://openlibrary.org/works/OL3525065W][book_silk_1988]
+- Sittser, Gerald Lawson. 1997. *A Cautious Patriotism: The American Churches & the Second World War*. University of North Carolina Press. [https://uncpress.org/book/9780807823163/a-cautious-patriotism/][book_sittser_1997]
+- Six Pillars of Peace. 1943. *(Federal Council of Churches)*. [https://catalog.hathitrust.org/Record/000642180][ref_six_pillars_of_peace_1943]
+- *Social Justice Magazine (Coughlin)*. n.d. [https://catalog.hathitrust.org/Record/000131545][ref_social_justice_magazine]
+- Sterner, C. Douglas. 2007. *Go for Broke: The Nisei Warriors of World War II Who Conquered Germany, Japan, and American Bigotry*. American Legacy Historical Press. [https://global.oup.com/academic/product/go-for-broke-9780897459068][book_sterner_2007]
+- Sundquist, James L. 1983. *Dynamics of the Party System: Alignment and Realignment of Political Parties in the United States*. Brookings Institution Press. [https://brookings.edu/book/dynamics-of-the-party-system/][book_sundquist_1983]
+- Sweeney, Douglas A. 2005. *The American Evangelical Story: A History of the Movement*. Baker Academic. [https://bakerpublishinggroup.com/books/the-american-evangelical-story/319293][book_sweeney_2005]
+- Thomas, Gordon, and Max Morgan-Witts. 1974. *Voyage of the Damned*. Fawcett Crest. [https://openlibrary.org/works/OL56601W][book_thomas_morgan_witts_1974]
+- Tillich. 1948. *The Shaking of the Foundations*. [https://catalog.hathitrust.org/Record/001192117][ref_tillich_1948]
+- Toulouse, Mark G. 1985. *The Transformation of John Foster Dulles: From Prophet of Realism to Priest of Nationalism*. Mercer University Press. [https://mercer.edu/press/toulouse-transformation-john-foster-dulles][book_toulouse_1985]
+- Townsend, Kenneth William. 2000. *World War II and the American Indian*. University of New Mexico Press. [https://www.unmpress.com/9780826322845/world-war-ii-and-the-american-indian/][book_townsend_2000]
+- Turner, Richard Brent. 1997. *Islam in the African-American Experience*. Indiana University Press. [https://iupress.org/9780253213099/islam-in-the-african-american-experience/][book_turner_1997]
+- Ventresca, Robert. 2013. *Soldier of Christ: The Life of Pope Pius XII*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674049611][book_ventresca_2013]
+- Warren, Donald I. 1996. *Radio Priest: Charles Coughlin, the Father of Hate Radio*. Free Press. [https://freepressbooks.com/books/radio-priest][book_warren_1996]
+- Warren, Heather A. 1997. *Theologians of a New World Order: Rheinhold Niebuhr and the Christian Realists, 1920-1948*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/theologians-of-a-new-world-order-9780195113303][book_warren_1997_theologians]
+- Weglyn, Michi. 1976. *Years of Infamy: The Untold Story of America's Concentration Camps*. Morrow. [https://uwapress.uw.edu/book/9780295974842/years-of-infamy/][book_weglyn_1976]
+- Weissbach, Lee Shai. 2005. *Jewish Life in Small-Town America: A History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300100716/jewish-life-in-small-town-america/][book_weissbach_2005]
+- Wells. 2008. *The Tropics of Empire*. [https://uncpress.org/book/9780807832387/the-tropics-of-empire/][book_wells_2008]
+- Williams, Duncan Ryūken. 2019. *American Sutra: A Story of Faith and Freedom in the Second World War*. The Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674985346][book_williams_2019]
+- Wong, Kevin Scott. 2005. *Americans First: Chinese Americans and the Second World War*. Harvard University Press. [https://uncpress.org/book/9780674017719/americans-first/][book_wong_2005]
+- Wyman, David S. 1985. *The Abandonment of the Jews: America and the Holocaust, 1941- 1945*. Pantheon Books. [https://www.penguinrandomhouse.com/books/54070/the-abandonment-of-the-jews-by-david-s-wyman/][book_wyman_1985]
+- Zucker. 2001. *The Haven*. [https://global.oup.com/academic/product/the-haven-9780253339133][book_zucker_2001]
+- Zwick, Mark, and Louise Zwick. 2005. *The Catholic Worker Movement: Intellectual and Spiritual Origins*. Paulist Press. [https://paulistpress.com/9780809144242/the-catholic-worker-movement/][book_zwick_zwick_2005]
+
+### Commercial Sources
+
+- Lindbergh. 1941. "Des Moines Speech." [https://airandspace.si.edu/collection-objects/lindbergh-des-moines-speech-1941][ref_lindbergh_1941_des_moines]
+
+### General Sources
+
+- Biltmore Program. 1942. "(American Zionist Declaration)." [https://www.jewishvirtuallibrary.org/the-biltmore-program][ref_biltmore_program_1942]
+- Collier. 1947. "The Indians of the Americas." [https://www.penguinrandomhouse.com/books/50133/the-indians-of-the-americas-by-john-collier/][ref_collier_1947]
+- Columbus Platform. 1937. "(Reform Judaism)." [https://www.ccarnet.org/rabbinic-voice/platforms/article-guiding-principles-reform-judaism/][ref_columbus_platform_1937]
+- Day. 1952. "The Long Loneliness." HarperCollins. Accessed October 25, 2026. [https://harpercollins.com/products/the-long-loneliness-dorothy-day][ref_day_1952]
+- "Day Selected Writings." n.d. Accessed October 25, 2026. [https://catholicworker.org/dorothyday/writings.html][ref_day_selected_writings]
+- Evian Conference. 1938. "Proceedings." [https://encyclopedia.ushmm.org/content/en/article/the-evian-conference][ref_evian_conference_1938]
+- Gallagher. 1938. "Radio Address (Kristallnacht)." [https://catholicnews.com/holocaust-1938-kristallnacht-catholic-response][ref_gallagher_1938_kristallnacht]
+- Maurin. 1936. "Easy Essays." [https://www.pauljhbecker.com/uploads/1/9/6/9/19692663/peter\_maurin\_-\_easy\_essays.pdf][ref_maurin_1936]
+- Niebuhr. 1944. "The Children of Light and the Children of Darkness." [https://scholar.google.com/scholar?q=niebuhr+1944+children+light+darkness][ref_niebuhr_1944_children]
+- "The Organization." 1941. *United Service Organizations*. Accessed October 25, 2026. [https://www.uso.org/about][ref_roosevelt_uso_letter_1941]
+- Selective, Training, and Service Act. 1940. "\[Title not identified\]." Accessed October 25, 2026. [https://www.loc.gov/collections/statutes-at-large/][ref_selective_training_service_act_1940]
+- Shinto Directive. 1945. "(SCAPIN-448)." [https://www.ndl.go.jp/constitution/e/shiryo/03/056shoshi.html][ref_shinto_directive_1945]
+- "Truman Directive." 1945. [https://www.trumanlibrary.gov/library/public-papers/223/statement-and-directive-president-immigration-united-states-certain-displaced][ref_truman_directive_1945]
+- "Wagner-Rogers Bill." 1939. [https://www.ushmm.org/wagner-rogers][ref_wagner_rogers_bill_1939]
+- War Refugee Board. 1944. "Executive Order 9417." [https://www.fdrlibrary.marist.edu/archives/war-refugee-board][ref_war_refugee_board_1944]
+- We Will Never Die. 1943. "Ben Hecht Pageant." [https://encyclopedia.ushmm.org/content/en/article/we-will-never-die][ref_we_will_never_die_1943]
 
 ### Related Posts
 
-- [A266 Ethnoreligion Framing and Three Substrates][related_post_a266_framing]
-- [A267 Ethnoreligion Colonial Folkways and Early Diffusion][related_post_a267_colonial_folkways]
-- [A268 Ethnoreligion Awakening and Founding][related_post_a268_awakening_and_founding]
-- [A269 Ethnoreligion Second Awakening and Reform][related_post_a269_second_awakening_and_reform]
-- [A270 Ethnoreligion Civil War and Reconstruction][related_post_a270_civil_war_and_reconstruction]
-- [A271 Ethnoreligion Mass Immigration and Closure][related_post_a271_mass_immigration_and_closure]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Indigenous, African, and European Ethnoreligious Substrates." *Brendan A R Sechter's Development Blog*, January 3. [https://sgeos.github.io/history/economics/religion/2026/01/03/ethnoreligion\_and\_american\_political\_economy\_framing.html][related_post_a266_framing]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contact, Colonial Folkways, and Early Diffusion 1607-1725." *Brendan A R Sechter's Development Blog*, January 4. [https://sgeos.github.io/history/economics/religion/2026/01/04/ethnoreligion\_and\_american\_political\_economy\_colonial\_folkways.html][related_post_a267_colonial_folkways]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Great Awakening, Revolution, and Founding 1725-1789." *Brendan A R Sechter's Development Blog*, January 5. [https://sgeos.github.io/history/economics/religion/2026/01/05/ethnoreligion\_and\_american\_political\_economy\_awakening\_and\_founding.html][related_post_a268_awakening_and_founding]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Second Great Awakening, Removal, and Antebellum Reform 1789-1861." *Brendan A R Sechter's Development Blog*, January 6. [https://sgeos.github.io/history/economics/religion/2026/01/06/ethnoreligion\_and\_american\_political\_economy\_second\_awakening\_and\_reform.html][related_post_a269_second_awakening_and_reform]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Civil War, Reconstruction, and Continental Consolidation 1861-1900." *Brendan A R Sechter's Development Blog*, January 7. [https://sgeos.github.io/history/economics/religion/2026/01/07/ethnoreligion\_and\_american\_political\_economy\_civil\_war\_and\_reconstruction.html][related_post_a270_civil_war_and_reconstruction]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Mass Immigration and Restrictionist Closure 1900-1924." *Brendan A R Sechter's Development Blog*, January 8. [https://sgeos.github.io/history/economics/religion/2026/01/08/ethnoreligion\_and\_american\_political\_economy\_mass\_immigration\_and\_closure.html][related_post_a271_mass_immigration_and_closure]
 
 [book_aaseng_1992]: https://www.penguinrandomhouse.com/books/321706/navajo-code-talkers-by-nathan-aaseng/
 [book_alvarez_2008]: https://www.ucpress.edu/book/9780520261549/the-power-of-the-zoot
-[book_andersen_1979]: https://scholar.google.com/scholar?q=andersen+1979+creation+democratic+majority
-[book_anderson_1972]: https://scholar.google.com/scholar?q=anderson+1972+a+philip+randolph
+[book_andersen_1979]: https://openlibrary.org/works/OL2969840W
+[book_anderson_1972]: https://openlibrary.org/works/OL2709535W
 [book_anderson_1994]: https://catalog.hathitrust.org/Record/002989116
 [book_asahina_2006]: https://gothambooks.com/books/asahina-just-americans
 [book_baciu_2013]: https://scholar.google.com/scholar?q=baciu+2013+bracero+religious+history
@@ -908,20 +916,20 @@ This article follows the terminological conventions established in [A266][relate
 [book_chadwick_1986]: https://global.oup.com/academic/product/britain-and-the-vatican-9780521048354
 [book_chen_2015]: https://sup.org/books/title/?id=6398
 [book_clegg_1997]: https://global.oup.com/academic/product/an-original-man-9780312181536
-[book_coffey_1991]: https://scholar.google.com/scholar?q=coffey+1991+always+home+uso
+[book_coffey_1991]: https://openlibrary.org/works/OL2285548W
 [book_cohen_2011_bracero]: https://uncpress.org/book/9780807872246/braceros/
-[book_cole_1974]: https://scholar.google.com/scholar?q=cole+1974+lindbergh+battle+against+american+intervention
+[book_cole_1974]: https://openlibrary.org/works/OL3505658W
 [book_curtis_2006]: https://uncpress.org/book/9780807857717/black-muslim-religion-in-the-nation-of-islam/
 [book_daniels_1993]: https://global.oup.com/academic/product/prisoners-without-trial-9780809078967
 [book_deloria_lytle_1984]: https://www.oupress.com/9780292775572/the-nations-within/
 [book_diamond_1969]: https://cornellpress.cornell.edu/book/9780801408502/the-nazi-movement-in-the-united-states-1924-1941/
 [book_doenecke_2000]: https://global.oup.com/academic/product/storm-on-the-horizon-9780742507845
-[book_dulles_1950]: https://scholar.google.com/scholar?q=dulles+1950+war+or+peace
+[book_dulles_1950]: https://openlibrary.org/works/OL2418116W
 [book_duus_2005]: https://uhpress.hawaii.edu/title/unlikely-liberators/
 [book_erbelding_2018]: https://us.macmillan.com/books/9781101871515/rescueboard
 [book_farmer_1985]: https://tcupress.com/farmer-lay-bare-the-heart
 [book_feingold_1970]: https://rutgersuniversitypress.org/the-politics-of-rescue/9780813505732/
-[book_feingold_1995]: https://scholar.google.com/scholar?q=feingold+1995+bearing+witness
+[book_feingold_1995]: https://openlibrary.org/works/OL2915481W
 [book_fermi_1968]: https://press.uchicago.edu/ucp/books/book/chicago/I/bo3643700.html
 [book_fischer_1989]: https://scholar.google.com/scholar?q=fischer+1989+making+them+like+us
 [book_fitzgerald_cook_martin_2014]: https://www.hup.harvard.edu/books/9780674729049
@@ -930,7 +938,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_frazer_osullivan_1996]: https://global.oup.com/academic/product/we-have-just-begun-to-not-fight-9780810833890
 [book_freidel_1990]: https://www.hachettebookgroup.com/titles/frank-freidel/franklin-d-roosevelt/9780316293297/
 [book_frydl_2009]: https://www.cambridge.org/9780521514286
-[book_galarza_1964]: https://scholar.google.com/scholar?q=galarza+1964+merchants+of+labor
+[book_galarza_1964]: https://openlibrary.org/works/OL11392524W
 [book_hoffman_1974]: https://www.arizonapress.com/9780816504183
 [book_irons_1983]: https://global.oup.com/academic/product/justice-at-war-9780520083127
 [book_jackson_2005]: https://global.oup.com/academic/product/islam-and-the-blackamerican-9780195180817
@@ -940,7 +948,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_king_2000]: https://www.hup.harvard.edu/books/9780674007437
 [book_kurzman_2004]: https://www.penguinrandomhouse.com/books/292164/no-greater-glory-by-dan-kurzman/
 [book_laqueur_1980]: https://www.penguinrandomhouse.com/books/173620/the-terrible-secret-by-walter-laqueur/
-[book_marcus_1973]: https://scholar.google.com/scholar?q=marcus+1973+father+coughlin
+[book_marcus_1973]: https://openlibrary.org/works/OL5842890W
 [book_masumoto_1972]: https://scholar.google.com/scholar?q=masumoto+1972+country+voices
 [book_mccollister_2000]: https://scholar.google.com/scholar?q=mccollister+2000+american+political+parties
 [book_mcnaughton_2006]: https://www.army.mil/csm/mihi/
@@ -953,11 +961,11 @@ This article follows the terminological conventions established in [A266][relate
 [book_miyakawa_2015]: https://sup.org/books/title/?id=25289
 [book_muller_2007]: https://uncpress.org/book/9780807858998/american-inquisition/
 [book_nakano_2000]: https://scholar.google.com/scholar?q=nakano+2000+filipino+veterans
-[book_nakano_2005]: https://scholar.google.com/scholar?q=nakano+2005+japanese+american+women
+[book_nakano_2005]: https://openlibrary.org/works/OL4815458W
 [book_newton_1995]: https://global.oup.com/academic/product/armed-with-the-constitution-9780817307907
 [book_ngai_2004]: https://press.princeton.edu/books/paperback/9780691160825/impossible-subjects
 [book_niebuhr_1932_book]: https://wjkbooks.com/9780664224745/moral-man-and-immoral-society/
-[book_obrien_1968_american_catholics]: https://scholar.google.com/scholar?q=obrien+1968+american+catholics+social+reform
+[book_obrien_1968_american_catholics]: https://openlibrary.org/works/OL2559299W
 [book_ogilvie_miller_2006]: https://www.wisconsinpress.wisc.edu/9780299219840/refuge-denied/
 [book_pagan_2003]: https://uncpress.org/book/9780807854945/murder-at-the-sleepy-lagoon/
 [book_peters_2000]: https://kansaspress.ku.edu/978-0-7006-1008-7.html
@@ -974,12 +982,12 @@ This article follows the terminological conventions established in [A266][relate
 [book_sarna_2004]: https://yalebooks.yale.edu/book/9780300109764/american-judaism/
 [book_schultz_2011]: https://global.oup.com/academic/product/tri-faith-america-9780199831234
 [book_sibley_jacob_1952]: https://catalog.hathitrust.org/Record/001048817
-[book_silk_1988]: https://scholar.google.com/scholar?q=silk+1988+spiritual+politics
+[book_silk_1988]: https://openlibrary.org/works/OL3525065W
 [book_sittser_1997]: https://uncpress.org/book/9780807823163/a-cautious-patriotism/
 [book_sterner_2007]: https://global.oup.com/academic/product/go-for-broke-9780897459068
 [book_sundquist_1983]: https://brookings.edu/book/dynamics-of-the-party-system/
 [book_sweeney_2005]: https://bakerpublishinggroup.com/books/the-american-evangelical-story/319293
-[book_thomas_morgan_witts_1974]: https://scholar.google.com/scholar?q=thomas+morgan-witts+1974+voyage+damned
+[book_thomas_morgan_witts_1974]: https://openlibrary.org/works/OL56601W
 [book_toulouse_1985]: https://mercer.edu/press/toulouse-transformation-john-foster-dulles
 [book_townsend_2000]: https://www.unmpress.com/9780826322845/world-war-ii-and-the-american-indian/
 [book_turner_1997]: https://iupress.org/9780253213099/islam-in-the-african-american-experience/
@@ -994,7 +1002,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_wyman_1985]: https://www.penguinrandomhouse.com/books/54070/the-abandonment-of-the-jews-by-david-s-wyman/
 [book_zucker_2001]: https://global.oup.com/academic/product/the-haven-9780253339133
 [book_zwick_zwick_2005]: https://paulistpress.com/9780809144242/the-catholic-worker-movement/
-[ref_airfa_1978]: https://www.congress.gov/bill/95th-congress/senate-joint-resolution/102
+[ref_airfa_1978]: https://scholar.google.com/scholar?q=American+Indian+Religious+Freedom+Act+AIRFA+1978
 [ref_alaska_reorganization_act_1936]: https://www.loc.gov/collections/statutes-at-large/
 [ref_bia_reports_1933_1945]: https://catalog.hathitrust.org/Record/000497884
 [ref_biltmore_program_1942]: https://www.jewishvirtuallibrary.org/the-biltmore-program

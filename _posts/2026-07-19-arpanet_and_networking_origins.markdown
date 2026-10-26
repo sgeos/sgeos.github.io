@@ -41,7 +41,7 @@ for a small safety factor $k$ of order 3 to 5 based on the Central Limit Theorem
 
 The ARPANET design was led by Lawrence Roberts, who joined the IPTO in 1966 and became its director in 1969. Roberts drew on Kleinrock's queueing theory, Baran's survivability analysis, and Davies's efficiency analysis to specify a network architecture that would connect approximately 15 to 20 research computing sites at United States universities and defense laboratories. The initial ARPANET plan was presented at the 1967 ACM Symposium on Operating Systems Principles in [Roberts 1967][research_roberts_1967], with the subsequent detailed account of the operational network appearing in the [Roberts and Wessler 1970][research_roberts_wessler_1970] AFIPS paper previously cited in [A237][related_post_a237_framing_co_development]. The design decision that Roberts adopted at Wesley Clark's suggestion was to use dedicated switching computers called Interface Message Processors hereafter IMPs to handle the network communications, with the host computers at each site relieved of the engineering burden of implementing the network protocols. This separation between hosts and switches remains foundational to essentially all subsequent network architectures.
 
-The IMPs were built by Bolt Beranek and Newman hereafter BBN in Cambridge, Massachusetts, under contract to ARPA following a 1968 request for proposals. The primary technical description of the IMP is [Heart Kahn Ornstein Crowther Walden 1970][research_heart_1970], authored by the BBN engineering team responsible for the machine. The IMP was based on the Honeywell DDP-516 minicomputer with special-purpose interfaces to the local host computer and to the leased telephone lines that formed the backbone links. The initial IMP configuration provided approximately 16 kilobits per second per backbone link, with store-and-forward latency across the IMP of approximately 10 milliseconds. End-to-end latency across an $N_{\text{hops}}$-hop path summed the per-hop transmission time and processing time as
+The IMPs were built by Bolt Beranek and Newman hereafter BBN in Cambridge, Massachusetts, under contract to ARPA following a 1968 request for proposals. The primary technical description of the IMP is [Heart et al. 1970][research_heart_1970], authored by the BBN engineering team responsible for the machine. The IMP was based on the Honeywell DDP-516 minicomputer with special-purpose interfaces to the local host computer and to the leased telephone lines that formed the backbone links. The initial IMP configuration provided approximately 16 kilobits per second per backbone link, with store-and-forward latency across the IMP of approximately 10 milliseconds. End-to-end latency across an $N_{\text{hops}}$-hop path summed the per-hop transmission time and processing time as
 
 $$T_{\text{e2e}} = N_{\text{hops}} \cdot \left(\frac{L_{\text{packet}}}{B_{\text{link}}} + T_{\text{proc}}\right) + T_{\text{propagation}}$$
 
@@ -79,7 +79,7 @@ for $N$ connected users under the assumption that all pairwise connections carry
 
 The ARPANET was funded by ARPA, a defense research agency, and its initial nodes were at universities and industrial laboratories doing defense-related research. The set of institutions connected in the first several years included MIT, Stanford, Utah, UCLA, and Carnegie Mellon among the universities, and RAND, MITRE, and BBN among the industrial and non-profit laboratories. Aerospace research communities were prominent in the institutional participation. Documented early MIT ARPANET nodes included MIT Multics, the MIT Artificial Intelligence Laboratory, and MIT Project MAC, though the MIT Instrumentation Laboratory treated in [A242][related_post_a242_apollo_guidance_computer] was primarily served by these adjacent MIT nodes rather than by a directly attributed Instrumentation Laboratory host. The Stanford Artificial Intelligence Laboratory, Carnegie Mellon's computer science department, and the various NASA-funded university research groups all participated actively.
 
-The value of the ARPANET to the aerospace research community was that it enabled resource sharing across geographic distances that would otherwise have required physical travel or file transfer by mail. A researcher at Stanford could log into a specialized simulation computer at Utah, transfer results to a display terminal on an MIT timesharing system, and exchange messages with a collaborator at NASA Ames Research Center in Mountain View, all within a single research session. The efficiency gain relative to the pre-network research process, per the account in [Abbate 1999][book_abbate_inventing_internet] and in [Hafner and Lyon 1996][book_hafner_lyon_wizards], was substantial and drove sustained institutional demand for network capacity that outstripped ARPA's initial expectations.
+The value of the ARPANET to the aerospace research community was that it enabled resource sharing across geographic distances that would otherwise have required physical travel or file transfer by mail. A researcher at Stanford could log into a specialized simulation computer at Utah, transfer results to a display terminal on an MIT timesharing system, and exchange messages with a collaborator at NASA Ames Research Center in Mountain View, all within a single research session. The efficiency gain relative to the pre-network research process, per the account in [Abbate 1999][book_abbate_inventing_internet] and in [Hafner et al. 1996][book_hafner_lyon_wizards], was substantial and drove sustained institutional demand for network capacity that outstripped ARPA's initial expectations.
 
 The ARPANET was transferred from ARPA to the Defense Communications Agency in 1975 as it transitioned from a research network to an operational one, and split into the ARPANET research network and the MILNET operational military network in 1983. The MILNET carried operational military traffic including logistics, personnel management, and command-and-control functions. The ARPANET research network continued to grow and interconnect with other networks including the National Science Foundation Network hereafter NSFNET. The final ARPANET decommissioning in 1990 marked the transition of the research-network traffic to the NSFNET, which in turn transitioned to the commercial internet in the mid-1990s.
 
@@ -115,64 +115,66 @@ The next article in the series treats the Space Shuttle primary avionics softwar
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Abbate 1999][book_abbate_inventing_internet]
-- [Hafner and Lyon 1996][book_hafner_lyon_wizards]
-- [Hiltzik 1999][book_hiltzik_dealers_lightning]
-- [Norberg and O'Neill 1996][book_norberg_oneill_transforming]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- Corbató, F. J., and V. A. Vyssotsky. 1965. "Introduction and Overview of the Multics System." In *Proceedings of the November 30--December 1, 1965, fall joint computer conference, part I on XX - AFIPS '65 (Fall, part I)*. ACM Press. [https://doi.org/10.1145/1463891.1463912][research_corbato_vyssotsky_1965]
+- Heart, F. E., R. E. Kahn, S. M. Ornstein, W. R. Crowther, and D. C. Walden. 1970. "The Interface Message Processor for the ARPA Computer Network." In *Proceedings of the May 5-7, 1970, spring joint computer conference on - AFIPS '70 (Spring)*. ACM Press. [https://doi.org/10.1145/1476936.1477021][research_heart_1970]
+- Jacobson, V. 1988. "Congestion Avoidance and Control." In *Symposium proceedings on Communications architectures and protocols*. ACM. [https://doi.org/10.1145/52324.52356][research_jacobson_1988]
+- Metcalfe, Robert M., and David R. Boggs. 1976. "Ethernet: Distributed Packet Switching for Local Computer Networks." *Communications of the ACM* 19 (7): 395–404. [https://doi.org/10.1145/360248.360253][research_metcalfe_boggs_1976]
+- Postel, J. 1981. *Transmission Control Protocol*. [https://www.rfc-editor.org/rfc/rfc793][research_postel_1981_tcp]
+- Roberts, Lawrence G. 1967. "Multiple Computer Networks and Intercomputer Communication." In *Proceedings of the ACM symposium on Operating System Principles - SOSP '67*. ACM Press. [https://doi.org/10.1145/800001.811680][research_roberts_1967]
+- Roberts, Lawrence G., and Barry D. Wessler. 1970. "Computer Network Development to Achieve Resource Sharing." In *Proceedings of the May 5-7, 1970, spring joint computer conference on - AFIPS '70 (Spring)*. ACM Press. [https://doi.org/10.1145/1476936.1477020][research_roberts_wessler_1970]
 
-- [ARPA/DARPA History][ref_arpa_darpa_history]
-- [Internet Society History of the Internet][ref_isoc_history]
+### Secondary Sources
+
+- Abbate, Janet. 1999. *Inventing the Internet*. MIT Press. [https://mitpress.mit.edu/9780262511155/inventing-the-internet/][book_abbate_inventing_internet]
+- Hafner, Katie, Katie Hefner, and Matthew Lyon. 1996. *Where Wizards Stay up Late: The Origins of the Internet*. Diane Pub Co. [https://openlibrary.org/works/OL3270089W][book_hafner_lyon_wizards]
+- Hiltzik, Michael A. 1999. *Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age*. HarperBusiness. [https://openlibrary.org/works/OL1987733W][book_hiltzik_dealers_lightning]
+- Norberg and O'Neill. 1996. *\[Title not identified\]*. [https://www.press.jhu.edu/books/title/1720/transforming-computer-technology][book_norberg_oneill_transforming]
+
+### Commercial Sources
+
+- Baran, Paul. 1964. "On Distributed Communications: I. Introduction to Distributed Communications Networks.", January 1. [https://www.rand.org/pubs/research\_memoranda/RM3420.html][research_baran_1964]
+- Davies. 1966. "A Brief History of the Internet." Internet Society. Accessed October 25, 2026. [https://www.internetsociety.org/internet/history-internet/brief-history-internet/][research_davies_1966]
+- "Internet Society History of the Internet." n.d. Accessed October 25, 2026. [https://www.internetsociety.org/internet/history-internet/][ref_isoc_history]
+- "Redirecting to Https://www.darpa.mil/about/innovation-Timeline." n.d. Accessed October 25, 2026. [https://www.darpa.mil/about-us/timeline][ref_arpa_darpa_history]
+
+### General Sources
+
+- Cerf and Kahn. 1974. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1092259][research_cerf_kahn_1974]
+- Kleinrock. 2010. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/5534588][research_kleinrock_2010]
+- Licklider. 1960. "\[Title not identified\]." Accessed October 25, 2026. [https://groups.csail.mit.edu/medg/people/psz/Licklider.html][research_licklider_1960]
+- Licklider and Taylor. 1968. "\[Title not identified\]." Accessed October 25, 2026. [https://internetat50.com/references/Licklider\_Taylor\_The-Computer-As-A-Communications-Device.pdf][research_licklider_taylor_1968]
 
 ### Related Posts
 
-- [A237 Framing and the Co-Development Mechanism][related_post_a237_framing_co_development]
-- [A240 Early Cold War Air Defense and SAGE][related_post_a240_early_cold_war_sage]
-- [A241 Aerospace Simulation and Real-Time Systems][related_post_a241_aerospace_simulation]
-- [A242 The Apollo Guidance Computer][related_post_a242_apollo_guidance_computer]
-
-### Research
-
-- [Baran 1964][research_baran_1964]
-- [Cerf and Kahn 1974][research_cerf_kahn_1974]
-- [Corbató and Vyssotsky 1965][research_corbato_vyssotsky_1965]
-- [Davies 1966][research_davies_1966]
-- [Heart Kahn Ornstein Crowther Walden 1970][research_heart_1970]
-- [Jacobson 1988][research_jacobson_1988]
-- [Kleinrock 2010][research_kleinrock_2010]
-- [Licklider 1960][research_licklider_1960]
-- [Licklider and Taylor 1968][research_licklider_taylor_1968]
-- [Metcalfe and Boggs 1976][research_metcalfe_boggs_1976]
-- [Postel 1981][research_postel_1981_tcp]
-- [Roberts 1967][research_roberts_1967]
-- [Roberts and Wessler 1970][research_roberts_wessler_1970]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Framing and the Co-Development Mechanism." *Brendan A R Sechter's Development Blog*, July 13. [https://sgeos.github.io/history/technology/aerospace/2026/07/13/framing\_and\_the\_co\_development\_mechanism.html][related_post_a237_framing_co_development]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Early Cold War Air Defense and SAGE." *Brendan A R Sechter's Development Blog*, July 16. [https://sgeos.github.io/history/technology/aerospace/2026/07/16/early\_cold\_war\_air\_defense\_and\_sage.html][related_post_a240_early_cold_war_sage]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Aerospace Simulation and Real-Time Systems." *Brendan A R Sechter's Development Blog*, July 17. [https://sgeos.github.io/history/technology/aerospace/2026/07/17/aerospace\_simulation\_and\_real\_time\_systems.html][related_post_a241_aerospace_simulation]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: The Apollo Guidance Computer." *Brendan A R Sechter's Development Blog*, July 18. [https://sgeos.github.io/history/technology/aerospace/2026/07/18/apollo\_guidance\_computer.html][related_post_a242_apollo_guidance_computer]
 
 [book_abbate_inventing_internet]: https://mitpress.mit.edu/9780262511155/inventing-the-internet/
-[book_hafner_lyon_wizards]: https://openlibrary.org/works/OL3270089W/Where_wizards_stay_up_late
-[book_hiltzik_dealers_lightning]: https://openlibrary.org/works/OL1987733W/Dealers_of_lightning
+[book_hafner_lyon_wizards]: https://openlibrary.org/works/OL3270089W
+[book_hiltzik_dealers_lightning]: https://openlibrary.org/works/OL1987733W
 [book_norberg_oneill_transforming]: https://www.press.jhu.edu/books/title/1720/transforming-computer-technology
-
 [ref_arpa_darpa_history]: https://www.darpa.mil/about-us/timeline
 [ref_isoc_history]: https://www.internetsociety.org/internet/history-internet/
-
 [related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
 [related_post_a240_early_cold_war_sage]: {% post_url 2026-07-16-early_cold_war_air_defense_and_sage %}
 [related_post_a241_aerospace_simulation]: {% post_url 2026-07-17-aerospace_simulation_and_real_time_systems %}
 [related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-18-apollo_guidance_computer %}
-
 [research_baran_1964]: https://www.rand.org/pubs/research_memoranda/RM3420.html
 [research_cerf_kahn_1974]: https://ieeexplore.ieee.org/document/1092259
-[research_corbato_vyssotsky_1965]: https://dl.acm.org/doi/10.1145/1463891.1463912
+[research_corbato_vyssotsky_1965]: https://doi.org/10.1145/1463891.1463912
 [research_davies_1966]: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
-[research_heart_1970]: https://dl.acm.org/doi/10.1145/1476936.1477021
-[research_jacobson_1988]: https://dl.acm.org/doi/10.1145/52324.52356
+[research_heart_1970]: https://doi.org/10.1145/1476936.1477021
+[research_jacobson_1988]: https://doi.org/10.1145/52324.52356
 [research_kleinrock_2010]: https://ieeexplore.ieee.org/document/5534588
 [research_licklider_1960]: https://groups.csail.mit.edu/medg/people/psz/Licklider.html
 [research_licklider_taylor_1968]: https://internetat50.com/references/Licklider_Taylor_The-Computer-As-A-Communications-Device.pdf
-[research_metcalfe_boggs_1976]: https://dl.acm.org/doi/10.1145/360248.360253
+[research_metcalfe_boggs_1976]: https://doi.org/10.1145/360248.360253
 [research_postel_1981_tcp]: https://www.rfc-editor.org/rfc/rfc793
-[research_roberts_1967]: https://dl.acm.org/doi/10.1145/800001.811680
-[research_roberts_wessler_1970]: https://dl.acm.org/doi/10.1145/1476936.1477020
+[research_roberts_1967]: https://doi.org/10.1145/800001.811680
+[research_roberts_wessler_1970]: https://doi.org/10.1145/1476936.1477020

@@ -173,13 +173,13 @@ and the mean arterial pressure is the product of cardiac output and systemic vas
 
 $$\text{MAP} = \dot Q_{\text{cardiac}} \times \text{SVR}$$
 
-so that the heat-induced fall in systemic vascular resistance from vasodilation is compensated by a rise in heart rate to maintain arterial pressure. The sustained elevation of heart rate in the hot bath is the basis of the cardiovascular literature on bathing, including the cohort studies of [Laukkanen and colleagues 2015][research_laukkanen_2015_sauna] associating regular sauna bathing with reduced cardiovascular mortality, the review of [Laukkanen and colleagues 2018][research_laukkanen_2018_review], and the study of [Kohara and colleagues 2018][research_kohara_2018_bathing] on habitual hot-water bathing, which are treated as the evidence base for the therapeutic claims that surround elevated bathing while their causal interpretation remains a matter of ongoing research.
+so that the heat-induced fall in systemic vascular resistance from vasodilation is compensated by a rise in heart rate to maintain arterial pressure. The sustained elevation of heart rate in the hot bath is the basis of the cardiovascular literature on bathing, including the cohort studies of [Laukkanen et al. 2015][research_laukkanen_2015_sauna] associating regular sauna bathing with reduced cardiovascular mortality, the review of [Laukkanen et al. 2018a][research_laukkanen_2018_review], and the study of [Kohara et al. 2018][research_kohara_2018_bathing] on habitual hot-water bathing, which are treated as the evidence base for the therapeutic claims that surround elevated bathing while their causal interpretation remains a matter of ongoing research.
 
 The cold plunge that punctuates the hot bath in many bathing cultures produces the opposite response, a vasoconstriction that raises systemic vascular resistance and a cold-shock response of the first seconds of immersion. The rate dependence of the physiological response on temperature is summarized by a temperature coefficient of the form
 
 $$\frac{R_2}{R_1} = Q_{10}^{\,(T_2 - T_1)/10}$$
 
-with $Q_{10}$ the factor by which a rate changes per ten-degree temperature change. The alternation of hot immersion and cold plunge that constitutes contrast bathing is treated in the physiological literature including [Tipton and colleagues 2017][research_tipton_2017_cold] on the hazards and effects of cold-water immersion and the meta-analysis of [Bieuzen and colleagues 2013][research_bieuzen_2013_contrast] on contrast water therapy.
+with $Q_{10}$ the factor by which a rate changes per ten-degree temperature change. The alternation of hot immersion and cold plunge that constitutes contrast bathing is treated in the physiological literature including [Tipton et al. 2017][research_tipton_2017_cold] on the hazards and effects of cold-water immersion and the meta-analysis of [Bieuzen et al. 2013][research_bieuzen_2013_contrast] on contrast water therapy.
 
 The hydrostatic pressure of immersion is a further physiological load. The gauge pressure at depth $h$ below the surface is
 
@@ -299,7 +299,7 @@ so that a process delivering a four-log reduction leaves one organism in ten tho
 
 $$C(t) = C_0 \, e^{-k_d t}$$
 
-with $k_d$ a decay constant, so that the treatment must replenish the residual continuously to hold the concentration against the demand the bathers impose. The narrow margin between the comfortable bathing temperature and the Legionella proliferation range, treated in the disinfection study of [Cervero-Arago and colleagues 2015][research_cervero_arago_2015] and in the [World Health Organization Legionella guidance][ref_who_legionella], is the reason the hygienic management of the warm shared bath is a demanding problem and the reason the elevated bathing facility invests heavily in the water-treatment technology of the augmentation dimension, whose principles are set out in the water-treatment references of [White's Handbook of Chlorination][book_white_chlorination] and [Crittenden and colleagues][book_crittenden_water_treatment]. The public-health framework for the shared recreational bath is set out in the [World Health Organization guidelines for safe recreational water][ref_who_recreational_water_pools].
+with $k_d$ a decay constant, so that the treatment must replenish the residual continuously to hold the concentration against the demand the bathers impose. The narrow margin between the comfortable bathing temperature and the Legionella proliferation range, treated in the disinfection study of [Cervero-Aragó et al. 2015][research_cervero_arago_2015] and in the [World Health Organization Legionella guidance][ref_who_legionella], is the reason the hygienic management of the warm shared bath is a demanding problem and the reason the elevated bathing facility invests heavily in the water-treatment technology of the augmentation dimension, whose principles are set out in the water-treatment references of [White's Handbook of Chlorination][book_white_chlorination] and [Crittenden and colleagues][book_crittenden_water_treatment]. The public-health framework for the shared recreational bath is set out in the [World Health Organization guidelines for safe recreational water][ref_who_recreational_water_pools].
 
 ## Bath-Hall Acoustics and the Sensory Dimension
 
@@ -385,9 +385,9 @@ The bath is studied across several disciplines that each supply a partial accoun
 
 The archaeological and architectural-history tradition supplies the record of the great baths and the account of their design, and it is the richest of the traditions for the bath. The comprehensive histories of [Yegül 1992][book_yegul_baths_bathing] and [Yegül 2010][book_yegul_bathing_roman_world], the architectural study of [Nielsen 1990][book_nielsen_thermae_et_balnea], and the Ottoman-architecture scholarship of [Necipoğlu 2005][book_necipoglu_age_of_sinan] and [Goodwin 1971][book_goodwin_ottoman_architecture] supply the sensory and technological-augmentation dimensions through the record of the material, the heating, and the water engineering of the bath.
 
-The social-history tradition treats the bath as a social institution and supplies the social-signification dimension. The study of Roman bathing as a public institution by [Fagan 1999][book_fagan_bathing_public], the social history of the Russian banya by [Pollock 2019][book_pollock_without_banya], and the ethnographic study of the Japanese bath by [Clark 1994][book_clark_japan_view_bath] establish the bath as a site of sociality whose meaning exceeds its hygienic function.
+The social-history tradition treats the bath as a social institution and supplies the social-signification dimension. The study of Roman bathing as a public institution by [Fagan 1999][book_fagan_bathing_public], the social history of the Russian banya by [Pollock 2019b][book_pollock_without_banya], and the ethnographic study of the Japanese bath by [Clark 1994][book_clark_japan_view_bath] establish the bath as a site of sociality whose meaning exceeds its hygienic function.
 
-The medical and balneological tradition treats the bath as a therapeutic instrument and supplies part of the sensory and social-signification dimensions through the history of the cure, a tradition whose primary root is the medical encyclopedia of [Celsus][ref_celsus_medicina], which prescribed bathing within the regimen of Roman medicine. The medical history of waters and spas edited by [Porter 1990][book_porter_medical_history_waters_spas] and the histories of the European spa by [Hembry 1990][book_hembry_english_spa], [Large 2015][book_large_grand_spas], and [Mackaman 1998][book_mackaman_leisure_settings] establish the therapeutic claim as a central component of the bath's elevation, a claim the physiological literature treated above evaluates.
+The medical and balneological tradition treats the bath as a therapeutic instrument and supplies part of the sensory and social-signification dimensions through the history of the cure, a tradition whose primary root is the medical encyclopedia of [Celsus][ref_celsus_medicina], which prescribed bathing within the regimen of Roman medicine. The medical history of waters and spas edited by [Porter 1990][book_porter_medical_history_waters_spas] and the histories of the European spa by [Hembry 1990][book_hembry_english_spa], [Large 2015][book_large_grand_spas], and [Stewart and Mackaman 1999][book_mackaman_leisure_settings] establish the therapeutic claim as a central component of the bath's elevation, a claim the physiological literature treated above evaluates.
 
 The cultural-history-of-cleanliness tradition treats the bath within the long history of the changing relation between the body and washing, developed in the histories of [Ashenburg 2007][book_ashenburg_dirt_on_clean], [Smith 2007][book_smith_clean_bath], and [Vigarello 1988][book_vigarello_cleanliness], and it illuminates the shifting weights of the dimensions across the centuries. The thermal-engineering, geochemical, and physiological traditions supply the quantitative apparatus of the preceding sections, and the art-historical tradition, treated below, supplies the record of the bath as a subject of art.
 
@@ -399,29 +399,29 @@ The Greek gymnasium bath is treated in the archaeological volume of [Lucore and 
 
 The Greek gymnasium bath and the hip-bath of the classical period supplied the immediate precedent for the Roman development, and it is the Roman bath that first elevated the immersion facility to the scale of civic monument. The Roman bath admits a distinction, not rigidly applied in antiquity, between the great imperial thermae and the numerous smaller balneae, treated in the architectural history of [Nielsen 1990][book_nielsen_thermae_et_balnea] and the social history of [Fagan 1999][book_fagan_bathing_public]. The characteristic Roman bath moved the bather through a sequence of rooms, the apodyterium for undressing, the tepidarium of warm air, the caldarium of hot water, and the frigidarium of cold, documented in the survey of [World History Encyclopedia][ref_worldhistory_roman_baths], and it heated its rooms and water by the hypocaust, the underfloor system in which the hot gases of a furnace circulated beneath a floor raised on brick piers. The bath was inexpensive to enter, commonly the price of the smallest coin, and it was among the central social institutions of the Roman city, a role attested in the complaint of [Seneca][ref_wikisource_seneca_56] about the din of the bathhouse below his lodging.
 
-The imperial thermae reached a scale that no subsequent bath has matched. The Baths of Caracalla, dedicated in 216 of the common era, accommodated an estimated sixteen hundred bathers at once within a central block over two hundred meters in length, and the Baths of Diocletian of the early fourth century were larger still, their frigidarium surviving because Michelangelo converted it into a church, a record documented in the topographical scholarship of [Platner and Ashby][ref_lacuscurtius_diocletiani] and the modern study of [DeLaine 1997][book_delaine_baths_caracalla]. The engineering that supplied these baths, the aqueduct network that delivered on the order of a billion liters of water per day to the city at its peak, is treated in the study of [Deming 2020][research_deming_2020_aqueducts] and in the primary treatise of [Frontinus][ref_frontinus_aqueducts] on the water administration of Rome, while the design of the bath itself is set out in the primary architectural manual of [Vitruvius][ref_vitruvius_architecture], whose fifth book treats the planning and the heating of the baths. The archaeology of the ordinary municipal bath is documented at the Stabian Baths of Pompeii in the research of [Trümper][research_trumper_stabian] and the reporting of [Archaeology Magazine][ref_archaeology_mag_pompeii]. The Roman bath is the historical archetype of the elevated immersion facility, closing the sensory, social-signification, and technological-augmentation dimensions at a scale that established the bath as an instrument of civic magnificence.
+The imperial thermae reached a scale that no subsequent bath has matched. The Baths of Caracalla, dedicated in 216 of the common era, accommodated an estimated sixteen hundred bathers at once within a central block over two hundred meters in length, and the Baths of Diocletian of the early fourth century were larger still, their frigidarium surviving because Michelangelo converted it into a church, a record documented in the topographical scholarship of [Platner and Ashby][ref_lacuscurtius_diocletiani] and the modern study of [DeLaine 1997][book_delaine_baths_caracalla]. The engineering that supplied these baths, the aqueduct network that delivered on the order of a billion liters of water per day to the city at its peak, is treated in the study of [Deming 2019][research_deming_2020_aqueducts] and in the primary treatise of [Frontinus][ref_frontinus_aqueducts] on the water administration of Rome, while the design of the bath itself is set out in the primary architectural manual of [Vitruvius][ref_vitruvius_architecture], whose fifth book treats the planning and the heating of the baths. The archaeology of the ordinary municipal bath is documented at the Stabian Baths of Pompeii in the research of [Trümper][research_trumper_stabian] and the reporting of [Archaeology Magazine][ref_archaeology_mag_pompeii]. The Roman bath is the historical archetype of the elevated immersion facility, closing the sensory, social-signification, and technological-augmentation dimensions at a scale that established the bath as an instrument of civic magnificence.
 
 ## The Islamic Hammam and the Ottoman Bath
 
 The Roman bath did not end with Rome, because its form was inherited and transformed by the Islamic world into the hammam, which carried the elevated communal bath through the medieval and early modern periods and which remains a living institution. The hammam synthesized the Roman and Byzantine bath with the requirements of Islamic ritual purification, and it spread with the early Islamic conquests across Syria, Egypt, and North Africa, a history treated by [Muslim Heritage][ref_muslim_heritage_hammam] and the [Syrian Heritage Archive][ref_syrian_heritage_hammam]. The hammam retained the tripartite thermal progression of the Roman bath, moving the bather from a cool undressing room through a warm room to a hot room, and it centered the hot room on the göbek taşı, the heated marble platform on which the bather reclined and was washed and massaged, beneath a dome pierced with star-shaped glass oculi that admitted shafts of light.
 
-The hammam reached its architectural height in the Ottoman Empire, where the great imperial architect Mimar Sinan, who served the sultans through the sixteenth century until his death in 1588, built dozens of baths among his hundreds of works, documented in the scholarship of [Necipoğlu 2005][book_necipoglu_age_of_sinan], the architectural history of [Goodwin 1971][book_goodwin_ottoman_architecture], and the biographical record of [Mimar Sinan][ref_wikipedia_mimar_sinan]. The [Haseki Hürrem Sultan Hamamı][ref_wikipedia_hurrem_bathhouse], built by Sinan in the 1550s on the site of an ancient bath to serve the congregation of the Hagia Sophia, is among his signal works, its men's and women's sections arranged symmetrically along a single axis. The [Çemberlitaş Hamamı][ref_wikipedia_cemberlitas], completed in 1584 and attributed to Sinan's workshop rather than with certainty to his own hand, has operated for more than four centuries, its life story documented in the study of [Cichocki 2005][research_cichocki_cemberlitas]. Istanbul held some two hundred and thirty hammams at the Ottoman height, and the hammam was among the few public spaces available to women, hosting bridal baths and the social gatherings at which marriages were arranged, a social role treated in the social history of [Boyar and Fleet 2010][book_boyar_fleet_ottoman_istanbul] and the gender analysis of [Pasın 2016][research_pasin_hammam]. The biography of [Sinan][ref_britannica_sinan] and the documentation of the [Haseki Hürrem bath in Archnet][ref_archnet_haseki] and the [Çemberlitaş bath in the Harvard study][ref_harvard_cemberlitas] establish the architectural record, and the social and cultural role of the Ottoman bath is treated in the studies of [Ergin 2011][book_ergin_bathing_culture_anatolian] and [Faroqhi 2000][book_faroqhi_subjects_sultan]. The westward and regional spread of the bath is recorded in the surviving baths such as [El Bañuelo][ref_alhambra_banuelo] of Granada with its [documentation][ref_wikipedia_el_banuelo], the [Hammam Nur al-Din][ref_discover_islamic_art_hammam] of Damascus preserved in the [CyArk record][ref_google_arts_hammam], the [Hammam Yalbugha][ref_wikipedia_hammam_yalbugha] of Aleppo, and the Ottoman baths of Budapest, the [Rudas][ref_wikipedia_rudas] and the [Király][ref_wikipedia_kiraly], and in the travel account of [Boggs 2010][book_boggs_hammaming] through the baths of Damascus and Aleppo and the material culture of [Medlej][book_medlej_olive_soap_hammam]. The hammam weights the social-signification dimension especially heavily, and its history establishes the bath as a durable social institution that outlived the civilization that created its form.
+The hammam reached its architectural height in the Ottoman Empire, where the great imperial architect Mimar Sinan, who served the sultans through the sixteenth century until his death in 1588, built dozens of baths among his hundreds of works, documented in the scholarship of [Necipoğlu 2005][book_necipoglu_age_of_sinan], the architectural history of [Goodwin 1971][book_goodwin_ottoman_architecture], and the biographical record of [Mimar Sinan][ref_wikipedia_mimar_sinan]. The [Haseki Hürrem Sultan Hamamı][ref_wikipedia_hurrem_bathhouse], built by Sinan in the 1550s on the site of an ancient bath to serve the congregation of the Hagia Sophia, is among his signal works, its men's and women's sections arranged symmetrically along a single axis. The [Çemberlitaş Hamamı][ref_wikipedia_cemberlitas], completed in 1584 and attributed to Sinan's workshop rather than with certainty to his own hand, has operated for more than four centuries, its life story documented in the study of [Cichocki 2005][research_cichocki_cemberlitas]. Istanbul held some two hundred and thirty hammams at the Ottoman height, and the hammam was among the few public spaces available to women, hosting bridal baths and the social gatherings at which marriages were arranged, a social role treated in the social history of [Boyar and Fleet 2010][book_boyar_fleet_ottoman_istanbul] and the gender analysis of [PasİN 2016][research_pasin_hammam]. The biography of [Sinan][ref_britannica_sinan] and the documentation of the [Haseki Hürrem bath in Archnet][ref_archnet_haseki] and the [Çemberlitaş bath in the Harvard study][ref_harvard_cemberlitas] establish the architectural record, and the social and cultural role of the Ottoman bath is treated in the studies of [Ergin 2011][book_ergin_bathing_culture_anatolian] and [Faroqhi 2000][book_faroqhi_subjects_sultan]. The westward and regional spread of the bath is recorded in the surviving baths such as [El Bañuelo][ref_alhambra_banuelo] of Granada with its [documentation][ref_wikipedia_el_banuelo], the [Hammam Nur al-Din][ref_discover_islamic_art_hammam] of Damascus preserved in the [CyArk record][ref_google_arts_hammam], the [Hammam Yalbugha][ref_wikipedia_hammam_yalbugha] of Aleppo, and the Ottoman baths of Budapest, the [Rudas][ref_wikipedia_rudas] and the [Király][ref_wikipedia_kiraly], and in the travel account of [Boggs 2010][book_boggs_hammaming] through the baths of Damascus and Aleppo and the material culture of [Medlej][book_medlej_olive_soap_hammam]. The hammam weights the social-signification dimension especially heavily, and its history establishes the bath as a durable social institution that outlived the civilization that created its form.
 
 ## The Northern Sweat Bath, the Finnish Sauna and the Russian Banya
 
 The northern European bathing tradition took the form of the sweat bath rather than the water immersion of the Mediterranean, and its central instances, the Finnish sauna and the Russian banya, elevate the immersion facility through heat and steam. The Finnish sauna is a room heated by a stove surmounted by stones, onto which water is thrown to produce the löyly, the burst of steam whose physics the preceding sections treated, and it holds a status in Finnish culture that few facilities of any kind approach, recognized in the inscription of [sauna culture in Finland on the UNESCO list of intangible cultural heritage][ref_unesco_sauna] in 2020. The scale of the institution is extraordinary, with an estimated three point three million saunas among five and a half million inhabitants, a density documented by the [Finnish Heritage Agency][ref_museovirasto_sauna] and [thisisFINLAND][ref_thisisfinland_sauna], so that the sauna is more common than the automobile. The cross-cultural sweat-bath tradition is surveyed in the study of [Aaland 1978][book_aaland_sweat] and the regional history of [Nordskog 2010][book_nordskog_opposite_cold].
 
-The Finnish sauna is documented further in the government record of its [UNESCO inscription][ref_finnish_govt_sauna] and the classic accounts of [Viherjuuri 1965][book_viherjuuri_sauna] and [Hillila 1998][book_hillila_sauna_is]. The health effects of regular sauna use have become the subject of a substantial epidemiological literature centered on a cohort of middle-aged Finnish men, the studies of which associate frequent sauna bathing with reduced cardiovascular and all-cause mortality in [Laukkanen and colleagues 2015][research_laukkanen_2015_sauna], with reduced incidence of [dementia][research_laukkanen_2017_dementia] in the same cohort, with reduced incident [hypertension][research_zaccardi_hypertension] and [respiratory disease][research_kunutsor_respiratory], and with reduced cardiovascular mortality in the analysis of [Kunutsor and colleagues 2018][research_kunutsor_2018_bmc], reviewed in [Laukkanen and colleagues 2018][research_laukkanen_2018_review] and the systematic review of [Hussain and Cohen 2018][research_hussain_cohen_2018]. The observational character of this evidence limits its causal interpretation, a limitation the article states rather than resolves. The Russian banya, documented from at least the tenth century, shares the steam-bath form and adds the parenie, the striking of the bather with a bundle of leafy birch or oak branches to drive the hot air onto the skin, a practice and its social history treated in the account of [Pollock 2019][book_pollock_without_banya] and the chapter of [Pollock][research_pollock_banya]. The northern sweat bath weights the sensory dimension through its heat and the social-signification dimension through its communal and ritual structure, and it introduces the physiological-bound feature that the immersion facility exhibits and the elimination facility does not.
+The Finnish sauna is documented further in the government record of its [UNESCO inscription][ref_finnish_govt_sauna] and the classic accounts of [Viherjuuri 1965][book_viherjuuri_sauna] and [Hillila 1998][book_hillila_sauna_is]. The health effects of regular sauna use have become the subject of a substantial epidemiological literature centered on a cohort of middle-aged Finnish men, the studies of which associate frequent sauna bathing with reduced cardiovascular and all-cause mortality in [Laukkanen et al. 2015][research_laukkanen_2015_sauna], with reduced incidence of [dementia][research_laukkanen_2017_dementia] in the same cohort, with reduced incident [hypertension][research_zaccardi_hypertension] and [respiratory disease][research_kunutsor_respiratory], and with reduced cardiovascular mortality in the analysis of [Laukkanen et al. 2018b][research_kunutsor_2018_bmc], reviewed in [Laukkanen et al. 2018a][research_laukkanen_2018_review] and the systematic review of [Hussain and Cohen 2018][research_hussain_cohen_2018]. The observational character of this evidence limits its causal interpretation, a limitation the article states rather than resolves. The Russian banya, documented from at least the tenth century, shares the steam-bath form and adds the parenie, the striking of the bather with a bundle of leafy birch or oak branches to drive the hot air onto the skin, a practice and its social history treated in the account of [Pollock 2019b][book_pollock_without_banya] and the chapter of [Pollock][research_pollock_banya]. The northern sweat bath weights the sensory dimension through its heat and the social-signification dimension through its communal and ritual structure, and it introduces the physiological-bound feature that the immersion facility exhibits and the elimination facility does not.
 
 ## The Japanese Bath, Onsen, Sento, and Furo
 
-The Japanese bathing tradition is among the most elaborated in the world, and it distinguishes the hot-spring bath, the onsen, from the urban public bath, the sento, and from the domestic soaking tub, the furo, while sharing across all three a discipline of washing before immersion that separates cleansing from soaking. The onsen draws on Japan's abundant geothermal water, whose legal definition is fixed by the [Hot Spring Act][ref_hot_spring_act] of 1948 in terms of temperature or mineral content, and the oldest onsen, such as Dogo Onsen, are attested in the earliest Japanese chronicles reaching to the eighth century. The onsen towns of Japan, among them [Beppu][ref_jnto_beppu] with its thousands of vents, [Kinosaki][ref_jnto_kinosaki] with its public bathhouses, [Kusatsu][ref_jnto_kusatsu], [Hakone][ref_jnto_hakone], and [Gero][ref_jnto_gero], developed as destinations organized around the hot-spring bath. The ethnography of the Japanese bath is treated in the study of [Clark 1994][book_clark_japan_view_bath], the travel account of [Talmadge 2006][book_talmadge_getting_wet], the cultural histories of [Grilli 1992][book_grilli_pleasures_japanese_bath] and [Grilli and Levy 1985][book_grilli_levy_furo], the design study of [Smith and Yamamoto 2001][book_smith_yamamoto_japanese_bath], the guides of [Hotta and Ishiguro 1986][book_hotta_guide_hot_springs], [Seki 2005][book_seki_japanese_spa], and [Goss 2017][book_goss_japanese_inns], and the sento study of [Crohin 2020][book_crohin_sento], and the healing-landscape dimension of the onsen is analyzed in the research of [Serbulea and Payyappallimana 2012][research_serbulea_onsen], the heritage-tourism study of [McMorran 2008][research_mcmorran_heritage], the inn study of [Jimura 2021][research_jimura_onsen], and the health research of [Hayasaka 2020][research_hayasaka_onsen] and the gut-microbiota study of [Takeda and colleagues 2024][research_takeda_gut_microbiota]. The Meiji-era encounter of Western travelers with the Japanese bath is recorded in the primary accounts of [Morse][book_morse_japan_day], [Bird][book_bird_unbeaten_tracks], [Chamberlain][book_chamberlain_things_japanese], and [Hearn][book_hearn_glimpses], and the tourism-culture context in the volume of [Guichard-Anguis and Moon 2008][book_guichard_anguis].
+The Japanese bathing tradition is among the most elaborated in the world, and it distinguishes the hot-spring bath, the onsen, from the urban public bath, the sento, and from the domestic soaking tub, the furo, while sharing across all three a discipline of washing before immersion that separates cleansing from soaking. The onsen draws on Japan's abundant geothermal water, whose legal definition is fixed by the [Hot Spring Act][ref_hot_spring_act] of 1948 in terms of temperature or mineral content, and the oldest onsen, such as Dogo Onsen, are attested in the earliest Japanese chronicles reaching to the eighth century. The onsen towns of Japan, among them [Beppu][ref_jnto_beppu] with its thousands of vents, [Kinosaki][ref_jnto_kinosaki] with its public bathhouses, [Kusatsu][ref_jnto_kusatsu], [Hakone][ref_jnto_hakone], and [Gero][ref_jnto_gero], developed as destinations organized around the hot-spring bath. The ethnography of the Japanese bath is treated in the study of [Clark 1994][book_clark_japan_view_bath], the travel account of [Talmadge 2006][book_talmadge_getting_wet], the cultural histories of [Grilli 1992][book_grilli_pleasures_japanese_bath] and [Grilli and Levy 1985][book_grilli_levy_furo], the design study of [Smith and Yamamoto 2001][book_smith_yamamoto_japanese_bath], the guides of [Hotta and Ishiguro 1986][book_hotta_guide_hot_springs], [Seki and Brooke 2005][book_seki_japanese_spa], and [Goss 2017][book_goss_japanese_inns], and the sento study of [Crohin 2020][book_crohin_sento], and the healing-landscape dimension of the onsen is analyzed in the research of [Serbulea and Payyappallimana 2012][research_serbulea_onsen], the heritage-tourism study of [McMorran 2008][research_mcmorran_heritage], the inn study of [Jimura 2021][research_jimura_onsen], and the health research of [Hayasaka 2020][research_hayasaka_onsen] and the gut-microbiota study of [Takeda et al. 2024][research_takeda_gut_microbiota]. The Meiji-era encounter of Western travelers with the Japanese bath is recorded in the primary accounts of [Morse][book_morse_japan_day], [Bird][book_bird_unbeaten_tracks], [Chamberlain][book_chamberlain_things_japanese], and [Hearn][book_hearn_glimpses], and the tourism-culture context in the volume of [Guichard-Anguis and Moon 2008][book_guichard_anguis].
 
 The sento, the urban public bath, served the Japanese city through the centuries in which few homes had a private bath, and its history traces a rise and decline that the framework reads as a shift in the throughput and social-signification dimensions. The number of sento in Tokyo and across Japan grew through the early twentieth century and reached a national peak above eighteen thousand in 1968, after which the spread of the private home bath drove a long decline to some few thousand today, a trajectory documented by [Nippon.com][ref_nippon_sento] and its account of [the bathhouses of Edo][ref_nippon_edo]. The etiquette of the Japanese bath, the thorough washing before entry, the exclusion of the small towel from the water, and the prohibition on swimwear, is codified in the guidance of the [Japan National Tourism Organization][ref_jnto_etiquette], and the restriction on tattooed bathers, rooted in the association of the tattoo with organized crime, is treated in the same organization's account of [the tattoo taboo][ref_jnto_tattoo]. The domestic furo, the deep soaking tub filled with water near forty degrees and shared in sequence by the family after each member washes outside it, is documented in the account of [the furo][ref_wikipedia_furo]. The Japanese tradition weights the sensory and social-signification dimensions heavily and demonstrates the sharpest cultural expression of the separation of cleansing from soaking that distinguishes the immersion facility from the elimination facility.
 
 ## Sweat Cultures of the Americas and Korea
 
-The sweat bath is not peculiar to Eurasia, because the indigenous cultures of the Americas developed sweat-bath traditions of deep antiquity and ritual significance, and the Korean bathing tradition developed its own elaborated public bath. The Mesoamerican temazcal, whose name derives from the Nahuatl for house of heat, is a domed masonry sweat house used before the European contact for purification, for the treatment of illness, and for recovery after childbirth under the care of indigenous midwives, its form symbolizing the womb and its patron the goddess [Toci][ref_wikipedia_toci] in her aspect as [Temazcalteci][ref_wikipedia_temazcalteci], the grandmother of the sweat bath, documented in the scholarly study of [Alcina Franch 2000][book_alcina_franch_temazcalli] and the medical-anthropology of [Ortiz de Montellano 1990][book_ortiz_montellano_aztec_medicine] and summarized in the account of [the temazcal][ref_wikipedia_temazcal]. The North American sweat lodge, the Lakota inípi whose name means to live again, is one of the seven sacred rites, a dome of willow poles covered with hides in which water is poured on heated stones, treated in the scholarship of [Bucko 1998][book_bucko_lakota_sweat_lodge], the primary account of the seven rites by [Brown][book_brown_sacred_pipe], and the records of the [Aktá Lakota Museum][ref_akta_lakota_inipi] and [World History Encyclopedia][ref_whe_sweat_lodge]. The sweat lodge is a sacred ceremony rather than a leisure facility, and the appropriation of its form for commercial retreat has had fatal consequences, as in the case of the deaths at a Sedona retreat in 2009 reported by [NBC News][ref_nbc_sedona], a caution the article notes as a boundary of the elevation frame, because the sacred sweat bath is not an object of luxury elevation and its treatment as such is a category error with real hazard.
+The sweat bath is not peculiar to Eurasia, because the indigenous cultures of the Americas developed sweat-bath traditions of deep antiquity and ritual significance, and the Korean bathing tradition developed its own elaborated public bath. The Mesoamerican temazcal, whose name derives from the Nahuatl for house of heat, is a domed masonry sweat house used before the European contact for purification, for the treatment of illness, and for recovery after childbirth under the care of indigenous midwives, its form symbolizing the womb and its patron the goddess [Toci][ref_wikipedia_toci] in her aspect as [Temazcalteci][ref_wikipedia_temazcalteci], the grandmother of the sweat bath, documented in the scholarly study of [Alcina Franch 2000][book_alcina_franch_temazcalli] and the medical-anthropology of [De Montellano 1990][book_ortiz_montellano_aztec_medicine] and summarized in the account of [the temazcal][ref_wikipedia_temazcal]. The North American sweat lodge, the Lakota inípi whose name means to live again, is one of the seven sacred rites, a dome of willow poles covered with hides in which water is poured on heated stones, treated in the scholarship of [Bucko 1998][book_bucko_lakota_sweat_lodge], the primary account of the seven rites by [Brown][book_brown_sacred_pipe], and the records of the [Aktá Lakota Museum][ref_akta_lakota_inipi] and [World History Encyclopedia][ref_whe_sweat_lodge]. The sweat lodge is a sacred ceremony rather than a leisure facility, and the appropriation of its form for commercial retreat has had fatal consequences, as in the case of the deaths at a Sedona retreat in 2009 reported by [NBC News][ref_nbc_sedona], a caution the article notes as a boundary of the elevation frame, because the sacred sweat bath is not an object of luxury elevation and its treatment as such is a category error with real hazard.
 
 The Korean jjimjilbang is a large gender-segregated bathhouse combined with unisex heated common rooms, whose antecedent, the domed kiln sauna of the hanjeungmak, is documented in the fifteenth-century annals of the Joseon dynasty, and whose modern form emerged in the late twentieth century, treated in the account of [the jjimjilbang][ref_wikipedia_jjimjilbang]. These traditions extend the range of the immersion facility across cultures and confirm the framework claim that the dimension weights are set by the meanings a culture attaches to the shared experience of heat and water, meanings that in the sacred sweat bath place the facility outside the frame of luxury elevation altogether.
 
@@ -429,7 +429,7 @@ The Korean jjimjilbang is a large gender-segregated bathhouse combined with unis
 
 The European thermal spa is the tradition in which the bath was elevated through the medical claim of the cure and the social institution of the resort, and it is the tradition that gave the English language the word spa, from the Belgian town of [Spa][ref_wikipedia_spa_belgium] whose mineral springs were documented in antiquity by [Pliny the Elder][ref_pliny_natural_history] in his natural history of the waters of the empire. The European spa built on the Roman thermal foundation, most directly at Bath in England, the Roman Aquae Sulis, whose sacred spring sacred to the goddess Sulis Minerva yielded the gilt-bronze cult head and the inscribed curse tablets treated in the scholarship of [Tomlin 1990][research_tomlin_curses_sulis], the temple study of [Cunliffe and Davenport 1985][book_cunliffe_temple_sulis], and the record of [the Roman Baths][ref_roman_baths_official] and [the Bath curse tablets][ref_wikipedia_bath_curse_tablets]. The geological origin of the Bath springs in a deep fracture zone is treated in the research of [Kellaway 1996][research_kellaway_bath_springs] and the geophysical study of [McCann and colleagues][research_mccann_bath_geophysics], within the general account of thermal-spring [terminology and geology][research_hot_springs_terminology], and the Georgian elevation of Bath into a fashionable resort produced the [Grand Pump Room][ref_wikipedia_pump_room], opened in 1795, the social center of the spa where the mineral water was taken.
 
-The eighteenth and nineteenth centuries saw the European spa reach its height as a social and medical institution, a history treated in the scholarship of [Hembry 1990][book_hembry_english_spa] on the English spa, [Large 2015][book_large_grand_spas] on the grand spas of central Europe, [Mackaman 1998][book_mackaman_leisure_settings] on the French spa, the medical history edited by [Porter 1990][book_porter_medical_history_waters_spas] and the [Cambridge illustrated history of medicine][book_porter_cambridge_medicine], the cultural histories of [Bonneville 1998][book_bonneville_book_of_bath] and [Croutier 1992][book_croutier_taking_waters], the European perspectives collected by [Anderson and Tabb 2002][book_anderson_tabb_water_leisure], the seaside-leisure study of [Gray 2006][book_gray_designing_seaside], and the community-attitudes research of [Stevens and colleagues 2018][research_stevens_thermalism]. The great Continental spas built palatial bathing houses, among them the [Friedrichsbad][ref_wikipedia_friedrichsbad] of Baden-Baden, opened in 1877 as a Roman-Irish bath that displayed the Roman ruins found during its construction, and the thermal baths of Budapest, the Neo-Baroque [Széchenyi][ref_wikipedia_szechenyi] opened in 1913 and the Art Nouveau [Gellért][ref_wikipedia_gellert] opened in 1918. The recognition of the tradition is institutionalized in the inscription of [the Great Spa Towns of Europe on the UNESCO World Heritage list][ref_unesco_great_spa_towns] in 2021, a serial property of eleven towns across seven countries maintained by the [Great Spa Towns organization][ref_great_spa_towns_official] and its members such as [Baden-Baden][ref_baden_baden_great_spa_towns] and [Karlovy Vary][ref_karlovy_vary], and in the earlier inscription of [the City of Bath][ref_unesco_city_of_bath] in 1987. The European spa weights the social-signification dimension through its role as a resort and the sensory dimension through its palatial architecture, and its history establishes the medical cure as a durable engine of the bath's elevation.
+The eighteenth and nineteenth centuries saw the European spa reach its height as a social and medical institution, a history treated in the scholarship of [Hembry 1990][book_hembry_english_spa] on the English spa, [Large 2015][book_large_grand_spas] on the grand spas of central Europe, [Stewart and Mackaman 1999][book_mackaman_leisure_settings] on the French spa, the medical history edited by [Porter 1990][book_porter_medical_history_waters_spas] and the [Cambridge illustrated history of medicine][book_porter_cambridge_medicine], the cultural histories of [Bonneville 1998][book_bonneville_book_of_bath] and [Croutier 1992][book_croutier_taking_waters], the European perspectives collected by [Anderson and Tabb 2002][book_anderson_tabb_water_leisure], the seaside-leisure study of [Gray 2006][book_gray_designing_seaside], and the community-attitudes research of [Stevens et al. 2018][research_stevens_thermalism]. The great Continental spas built palatial bathing houses, among them the [Friedrichsbad][ref_wikipedia_friedrichsbad] of Baden-Baden, opened in 1877 as a Roman-Irish bath that displayed the Roman ruins found during its construction, and the thermal baths of Budapest, the Neo-Baroque [Széchenyi][ref_wikipedia_szechenyi] opened in 1913 and the Art Nouveau [Gellért][ref_wikipedia_gellert] opened in 1918. The recognition of the tradition is institutionalized in the inscription of [the Great Spa Towns of Europe on the UNESCO World Heritage list][ref_unesco_great_spa_towns] in 2021, a serial property of eleven towns across seven countries maintained by the [Great Spa Towns organization][ref_great_spa_towns_official] and its members such as [Baden-Baden][ref_baden_baden_great_spa_towns] and [Karlovy Vary][ref_karlovy_vary], and in the earlier inscription of [the City of Bath][ref_unesco_city_of_bath] in 1987. The European spa weights the social-signification dimension through its role as a resort and the sensory dimension through its palatial architecture, and its history establishes the medical cure as a durable engine of the bath's elevation.
 
 ## The Bath as a Subject of Art
 
@@ -439,7 +439,7 @@ The elevation of the bath along the sensory and social-signification dimensions 
 
 The contemporary elevated bath is embedded in a global wellness economy of great scale, and its luxury frontier joins geothermal engineering, resort architecture, and the hydrotherapeutic technology of the augmentation dimension. The wellness economy reached an estimated six point eight trillion dollars in 2024 by the accounting of [the Global Wellness Institute][ref_gwi_press_2025], within which thermal and mineral-spring bathing is one of several defined [spa categories][ref_gwi_spa_industry] treated in the institute's [statistics][ref_gwi_stats] and its account of [wellness tourism][ref_gwi_tourism], though the sector figures require the institute's full report and are not quoted here. The luxury frontier is exemplified by the [Blue Lagoon][ref_blue_lagoon] of Iceland, a bathing facility opened in 1987 whose warm silica-rich water is the byproduct of an adjacent geothermal power plant, and by the [infinity pool][ref_infinity_pool] of [Marina Bay Sands][ref_mbs] in Singapore, opened in 2010 nearly two hundred meters above the ground, which elevates the bath through the sensory dimension of the vanishing-edge view.
 
-The hydrotherapeutic technology of the modern bath descends from the nineteenth-century water cure, the systematized hydrotherapy of [Kneipp][ref_kneipp], and reaches the contemporary market in the whirlpool bath, whose integrated form was developed by [Jacuzzi][ref_jacuzzi] in 1968 from a hydrotherapy pump. The therapeutic claims that surround the modern bath, including the thalassotherapy of seawater whose term is first attested in 1865 rather than in the commonly repeated later date, are treated in the account of [thalassotherapy][ref_thalasso] and the etymological record of [the CNRTL][ref_cnrtl_thalasso], and the evidence for balneotherapy is assessed in the medical literature including the Cochrane reviews of [Verhagen and colleagues][research_verhagen_2015_balneotherapy] on rheumatoid arthritis and [osteoarthritis][research_verhagen_balneo_oa], the [systematic review and meta-analysis in rheumatology][research_balneotherapy_rheumatology_meta], the evaluation of the randomized-controlled-trial evidence by [Falagas and colleagues 2009][research_falagas_2009], the proposal of [Gutenbrunner and colleagues 2010][research_gutenbrunner_2010] for a worldwide definition of health-resort medicine and balneology, the cortisol study of [Antonelli and Donelli 2018][research_antonelli_cortisol], the Kneipp-hydrotherapy trial of [Michalsen and colleagues][research_michalsen_kneipp], the thalassotherapy trial of [de Andrade and colleagues][research_deandrade_thalasso], the tub-bathing cohort study of [Ukai and colleagues 2020][research_ukai_tub_bathing], and the wellness-tourism analysis of [Dimitrovski and Todorović 2015][research_dimitrovski_wellness]. The modern wellness economy weights the sensory, social-signification, and technological-augmentation dimensions and demonstrates that the elevation of the bath remains a substantial commercial enterprise.
+The hydrotherapeutic technology of the modern bath descends from the nineteenth-century water cure, the systematized hydrotherapy of [Kneipp][ref_kneipp], and reaches the contemporary market in the whirlpool bath, whose integrated form was developed by [Jacuzzi][ref_jacuzzi] in 1968 from a hydrotherapy pump. The therapeutic claims that surround the modern bath, including the thalassotherapy of seawater whose term is first attested in 1865 rather than in the commonly repeated later date, are treated in the account of [thalassotherapy][ref_thalasso] and the etymological record of [the CNRTL][ref_cnrtl_thalasso], and the evidence for balneotherapy is assessed in the medical literature including the Cochrane reviews of [Verhagen and colleagues][research_verhagen_2015_balneotherapy] on rheumatoid arthritis and [osteoarthritis][research_verhagen_balneo_oa], the [systematic review and meta-analysis in rheumatology][research_balneotherapy_rheumatology_meta], the evaluation of the randomized-controlled-trial evidence by [Falagas et al. 2009][research_falagas_2009], the proposal of [Gutenbrunner et al. 2010][research_gutenbrunner_2010] for a worldwide definition of health-resort medicine and balneology, the cortisol study of [Antonelli and Donelli 2018][research_antonelli_cortisol], the Kneipp-hydrotherapy trial of [Michalsen and colleagues][research_michalsen_kneipp], the thalassotherapy trial of [de Andrade and colleagues][research_deandrade_thalasso], the tub-bathing cohort study of [Ukai et al. 2020][research_ukai_tub_bathing], and the wellness-tourism analysis of [Dimitrovski and Todorović 2015][research_dimitrovski_wellness]. The modern wellness economy weights the sensory, social-signification, and technological-augmentation dimensions and demonstrates that the elevation of the bath remains a substantial commercial enterprise.
 
 ## Sex Segregation and the Sex-Based Difference of the Bath
 
@@ -529,253 +529,263 @@ The sustainability question asks whether the large water and energy commitments 
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Aaland 1978 Sweat][book_aaland_sweat]
-- [Ackerman 1997 Jean-Léon Gérôme][book_ackerman_gerome]
-- [Alcina Franch 2000 Temazcalli][book_alcina_franch_temazcalli]
-- [Ashenburg 2007 The Dirt on Clean An Unsanitized History][book_ashenburg_dirt_on_clean]
-- [Beranek 2004 Concert Halls and Opera Houses][book_beranek_concert_halls]
-- [Boggs 2010 Hammaming in the Sham][book_boggs_hammaming]
-- [Boyar and Fleet 2010 A Social History of Ottoman Istanbul][book_boyar_fleet_ottoman_istanbul]
-- [Bucko 1998 The Lakota Ritual of the Sweat Lodge][book_bucko_lakota_sweat_lodge]
-- [Clark 1994 Japan A View from the Bath][book_clark_japan_view_bath]
-- [Cunliffe and Davenport 1985 The Temple of Sulis Minerva at Bath][book_cunliffe_temple_sulis]
-- [DeLaine 1997 The Baths of Caracalla][book_delaine_baths_caracalla]
-- [Fagan 1999 Bathing in Public in the Roman World][book_fagan_bathing_public]
-- [Goodwin 1971 A History of Ottoman Architecture][book_goodwin_ottoman_architecture]
-- [Grilli 1992 Pleasures of the Japanese Bath][book_grilli_pleasures_japanese_bath]
-- [Hembry 1990 The English Spa 1560-1815 A Social History][book_hembry_english_spa]
-- [Kuttruff Room Acoustics][book_kuttruff_room_acoustics]
-- [Large 2015 The Grand Spas of Central Europe][book_large_grand_spas]
-- [Mackaman 1998 Leisure Settings Bourgeois Culture Medicine and the Spa in Modern France][book_mackaman_leisure_settings]
-- [Marshall 1931 Mohenjo-Daro and the Indus Civilization][book_marshall_mohenjo_daro]
-- [Necipoğlu 2005 The Age of Sinan Architectural Culture in the Ottoman Empire][book_necipoglu_age_of_sinan]
-- [Nielsen 1990 Thermae et Balnea The Architecture and Cultural History of Roman Public Baths][book_nielsen_thermae_et_balnea]
-- [Nordskog 2010 The Opposite of Cold The Northwoods Finnish Sauna Tradition][book_nordskog_opposite_cold]
-- [Ortiz de Montellano 1990 Aztec Medicine Health and Nutrition][book_ortiz_montellano_aztec_medicine]
-- [Pollock 2019 Without the Banya We Would Perish A History of the Russian Bathhouse][book_pollock_without_banya]
-- [Porter 1990 The Medical History of Waters and Spas][book_porter_medical_history_waters_spas]
-- [Possehl 2002 The Indus Civilization A Contemporary Perspective][book_possehl_indus]
-- [Roberts 2007 Intimate Outsiders The Harem in Ottoman and Orientalist Art][book_roberts_intimate_outsiders]
-- [Smith 2007 Clean A History of Personal Hygiene and Purity][book_smith_clean_bath]
-- [Smith and Yamamoto 2001 The Japanese Bath][book_smith_yamamoto_japanese_bath]
-- [Talmadge 2006 Getting Wet Adventures in the Japanese Bath][book_talmadge_getting_wet]
-- [Vigarello 1988 Concepts of Cleanliness][book_vigarello_cleanliness]
-- [Wheeler 1968 The Indus Civilization][book_wheeler_indus]
-- [Yegül 1992 Baths and Bathing in Classical Antiquity][book_yegul_baths_bathing]
-- [Yegül 2010 Bathing in the Roman World][book_yegul_bathing_roman_world]
-- [Anderson and Tabb 2002 Water Leisure and Culture European Historical Perspectives][book_anderson_tabb_water_leisure]
-- [Bird 1880 Unbeaten Tracks in Japan][book_bird_unbeaten_tracks]
-- [Bonneville 1998 The Book of the Bath][book_bonneville_book_of_bath]
-- [Brown 1953 The Sacred Pipe Black Elk's Account of the Seven Rites][book_brown_sacred_pipe]
-- [Çengel and Ghajar Heat and Mass Transfer Fundamentals and Applications][book_cengel_heat_mass]
-- [Chamberlain 1890 Things Japanese][book_chamberlain_things_japanese]
-- [Crittenden and colleagues MWH's Water Treatment Principles and Design][book_crittenden_water_treatment]
-- [Crohin 2020 Sento l'art des bains japonais][book_crohin_sento]
-- [Croutier 1992 Taking the Waters Spirit Art Sensuality][book_croutier_taking_waters]
-- [Dunbabin 1999 Mosaics of the Greek and Roman World][book_dunbabin_mosaics_greek_roman]
-- [Dunbabin 1978 The Mosaics of Roman North Africa][book_dunbabin_mosaics_north_africa]
-- [Ergin 2011 Bathing Culture of Anatolian Civilizations][book_ergin_bathing_culture_anatolian]
-- [Faroqhi 2000 Subjects of the Sultan Culture and Daily Life in the Ottoman Empire][book_faroqhi_subjects_sultan]
-- [Goss 2017 Japanese Inns and Hot Springs][book_goss_japanese_inns]
-- [Gray 2006 Designing the Seaside Architecture Society and Nature][book_gray_designing_seaside]
-- [Grilli and Levy 1985 Furo The Japanese Bath][book_grilli_levy_furo]
-- [Guichard-Anguis and Moon 2008 Japanese Tourism and Travel Culture][book_guichard_anguis]
-- [Hearn 1894 Glimpses of Unfamiliar Japan][book_hearn_glimpses]
-- [Hillila 1998 The Sauna Is][book_hillila_sauna_is]
-- [Hotta and Ishiguro 1986 A Guide to Japanese Hot Springs][book_hotta_guide_hot_springs]
-- [Bergman Lavine Incropera and DeWitt Fundamentals of Heat and Mass Transfer][book_incropera_heat_mass]
-- [Jackson 1988 Doctors and Diseases in the Roman Empire][book_jackson_doctors_diseases]
-- [Langmuir 1997 Aqueous Environmental Geochemistry][book_langmuir_geochemistry]
-- [Ling 1998 Ancient Mosaics][book_ling_ancient_mosaics]
-- [Lucore and Trümper 2013 Greek Baths and Bathing Culture][book_lucore_trumper_greek_baths]
-- [Medlej 2008 Olive Soap Hammam][book_medlej_olive_soap_hammam]
-- [Morse 1917 Japan Day by Day][book_morse_japan_day]
-- [Porter 1996 The Cambridge Illustrated History of Medicine][book_porter_cambridge_medicine]
-- [Seki and Brooke 2005 The Japanese Spa][book_seki_japanese_spa]
-- [Stumm and Morgan 1996 Aquatic Chemistry][book_stumm_morgan_aquatic]
-- [Viherjuuri 1965 Sauna The Finnish Bath][book_viherjuuri_sauna]
-- [White's Handbook of Chlorination and Alternative Disinfectants][book_white_chlorination]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Antonelli, Michele, and Davide Donelli. 2018. "Effects of Balneotherapy and Spa Therapy on Levels of Cortisol as a Stress Biomarker: A Systematic Review." *International Journal of Biometeorology* 62 (6): 913–24. [https://doi.org/10.1007/s00484-018-1504-8][research_antonelli_cortisol]
+- Cichocki, Nina. 2005. "Continuity and Change in Turkish Bathing Culture in Istanbul: The Life Story of the ÇemberlitaşHamam." *Turkish Studies* 6 (1): 93–112. [https://doi.org/10.1080/1468384042000339348][research_cichocki_cemberlitas]
+- de Andrade, Sandra Cristina, Ranulfo Fiel Pereira Pessoa de Carvalho, Aluízio Silvio Soares, Rodrigo Pegado de Abreu Freitas, Luís Marcos de Medeiros Guerra, and Maria José Vilar. 2008. "Thalassotherapy for Fibromyalgia: A Randomized Controlled Trial Comparing Aquatic Exercises in Sea Water and Water Pool." *Rheumatology International* 29 (2): 147–52. [https://doi.org/10.1007/s00296-008-0644-2][research_deandrade_thalasso]
+- Deming, David. 2019. "The Aqueducts and Water Supply of Ancient Rome." *Groundwater* 58 (1): 152–61. [https://doi.org/10.1111/gwat.12958][research_deming_2020_aqueducts]
+- Dimitrovski, Darko, and Aleksandar Todorović. 2015. "Clustering Wellness Tourists in Spa Environment." *Tourism Management Perspectives* 16: 259–65. [https://doi.org/10.1016/j.tmp.2015.09.004][research_dimitrovski_wellness]
+- Fournier, R. O. 1977. "Chemical Geothermometers and Mixing Models for Geothermal Systems." *Geothermics* 5 (1–4): 41–50. [https://doi.org/10.1016/0375-6505(77)90007-4][research_fournier_1977]
+- Fournier, Robert O., and Robert W. Potter. 1982. "An Equation Correlating the Solubility of Quartz in Water from 25° to 900°C at Pressures up to 10,000 Bars." *Geochimica et Cosmochimica Acta* 46 (10): 1969–73. [https://doi.org/10.1016/0016-7037(82)90135-1][research_fournier_potter_1982]
+- Fournier, R. O., and A. H. Truesdell. 1973. "An Empirical NaKCa Geothermometer for Natural Waters." *Geochimica et Cosmochimica Acta* 37 (5): 1255–75. [https://doi.org/10.1016/0016-7037(73)90060-4][research_fournier_truesdell_1973]
+- Giggenbach, Werner F. 1988. "Geothermal Solute Equilibria. Derivation of Na-K-Mg-Ca Geoindicators." *Geochimica et Cosmochimica Acta* 52 (12): 2749–65. [https://doi.org/10.1016/0016-7037(88)90143-3][research_giggenbach_1988]
+- Gutenbrunner, Christoph, Tamas Bender, Pedro Cantista, and Zeki Karagülle. 2010. "A Proposal for a Worldwide Definition of Health Resort Medicine, Balneology, Medical Hydrology and Climatology." *International Journal of Biometeorology* 54 (5): 495–507. [https://doi.org/10.1007/s00484-010-0321-5][research_gutenbrunner_2010]
+- Hussain, Joy, and Marc Cohen. 2018. "Clinical Effects of Regular Dry Sauna Bathing: A Systematic Review." *Evidence-Based Complementary and Alternative Medicine* 2018 (1): 1857413. [https://doi.org/10.1155/2018/1857413][research_hussain_cohen_2018]
+- Jansen, M. 1989. "Water Supply and Sewage Disposal at Mohenjo-Daro." *World Archaeology* 21 (2): 177–92. [https://doi.org/10.1080/00438243.1989.9980100][research_jansen_mohenjo_daro]
+- Kellaway, G. A. 1996. "Discovery of the Avon: Solent Fracture Zone and Its Relationship to Bath Hot Springs." *Environmental Geology* 28 (1): 34–39. [https://doi.org/10.1007/s002540050076][research_kellaway_bath_springs]
+- Kohara, Katsuhiko, Yasuharu Tabara, Masayuki Ochi, et al. 2018. "Habitual Hot Water Bathing Protects Cardiovascular Function in Middle-Aged to Elderly Japanese Subjects." *Scientific Reports* 8 (1): 8687. [https://doi.org/10.1038/s41598-018-26908-1][research_kohara_2018_bathing]
+- Kunutsor, Setor Kwadzo, Tanjaniina Laukkanen, and Jari Antero Laukkanen. 2017. "Sauna Bathing Reduces the Risk of Respiratory Diseases: A Long-Term Prospective Cohort Study." *European Journal of Epidemiology* 32 (12): 1107–11. [https://doi.org/10.1007/s10654-017-0311-6][research_kunutsor_respiratory]
+- Laukkanen, Tanjaniina, Setor K. Kunutsor, Hassan Khan, Peter Willeit, Francesco Zaccardi, and Jari A. Laukkanen. 2018b. "Sauna Bathing Is Associated with Reduced Cardiovascular Mortality and Improves Risk Prediction in Men and Women: A Prospective Cohort Study." *BMC Medicine* 16 (1): 219. [https://doi.org/10.1186/s12916-018-1198-0][research_kunutsor_2018_bmc]
+- Laukkanen, Jari A., Tanjaniina Laukkanen, and Setor K. Kunutsor. 2018a. "Cardiovascular and Other Health Benefits of Sauna Bathing: A Review of the Evidence." *Mayo Clinic Proceedings* 93 (8): 1111–21. [https://doi.org/10.1016/j.mayocp.2018.04.008][research_laukkanen_2018_review]
+- McMorran, Chris. 2008. "Understanding the ‘Heritage’ in Heritage Tourism: Ideological Tool or Economic Tool for a Japanese Hot Springs Resort?" *Tourism Geographies* 10 (3): 334–54. [https://doi.org/10.1080/14616680802236329][research_mcmorran_heritage]
+- Michalsen, A., R. Lüdtke, M. Bühring, G. Spahn, J. Langhorst, and Gj Dobos. 2003. "Thermal Hydrotherapy According to Kneipp Improves Quality of Life and Haemodynamic Function in Patients with Chronic Heart Failure." *Focus on Alternative and Complementary Therapies* 8 (4): 520–520. [https://doi.org/10.1111/j.2042-7166.2003.tb04040.x][research_michalsen_kneipp]
+- Pentecost, Allan. 2005. "Hot Springs, Thermal Springs and Warm Springs. What's the Difference?" *Geology Today* 21 (6): 222–24. [https://doi.org/10.1111/j.1365-2451.2005.00536.x][research_hot_springs_terminology]
+- Serbulea, Mihaela, and Unnikrishnan Payyappallimana. 2012. "Onsen (Hot Springs) in Japan—Transforming Terrain into Healing Landscapes." *Health & Place* 18 (6): 1366–73. [https://doi.org/10.1016/j.healthplace.2012.06.020][research_serbulea_onsen]
+- Stevens, Fleur, Iride Azara, and Eleni (Elina) Michopoulou. 2018. "Local Community Attitudes and Perceptions towards Thermalism." *International Journal of Spa and Wellness* 1 (1): 55–68. [https://doi.org/10.1080/24721735.2018.1432451][research_stevens_thermalism]
+- Takeda, Midori, Jungmi Choi, Toyoki Maeda, and Shunsuke Managi. 2024. "Effects of Bathing in Different Hot Spring Types on Japanese Gut Microbiota." *Scientific Reports* 14 (1): 2316. [https://doi.org/10.1038/s41598-024-52895-7][research_takeda_gut_microbiota]
+- Tipton, M. J., N. Collier, H. Massey, J. Corbett, and M. Harper. 2017. "Cold Water Immersion: Kill or Cure?" *Experimental Physiology* 102 (11): 1335–55. [https://doi.org/10.1113/ep086283][research_tipton_2017_cold]
+- Verhagen, Arianne P., Sita Ma Bierma-Zeinstra, Maarten Boers, et al. 2007. "Balneotherapy for Osteoarthritis." *Cochrane Database of Systematic Reviews*. [https://doi.org/10.1002/14651858.cd006864][research_verhagen_balneo_oa]
 
-- [Aktá Lakota Museum Inipi Rite of Purification][ref_akta_lakota_inipi]
-- [Alhambra El Bañuelo Granada][ref_alhambra_banuelo]
-- [Archaeology Magazine Digging Deeper into Pompeii's Past Water and Bathing][ref_archaeology_mag_pompeii]
-- [Bathing Machine][ref_bathing_machine]
-- [Blue Lagoon Geothermal Spa][ref_blue_lagoon]
-- [CNRTL Etymology of Thalassothérapie][ref_cnrtl_thalasso]
-- [EPA Surface Water Treatment Rules][ref_epa_swtr]
-- [Global Wellness Institute Wellness Economy Reaches 6.8 Trillion][ref_gwi_press_2025]
-- [Global Wellness Institute Statistics and Facts][ref_gwi_stats]
-- [Hot Spring Act Act No. 125 of 1948][ref_hot_spring_act]
-- [Jacuzzi][ref_jacuzzi]
-- [Japan National Tourism Organization Onsen Etiquette and Tattoos][ref_jnto_etiquette]
-- [Japan National Tourism Organization The Tattoo Taboo][ref_jnto_tattoo]
-- [Japan Tourism Agency The History of Konyoku][ref_konyoku_history]
-- [Louvre Ingres The Turkish Bath][ref_louvre_ingres_turkish_bath]
-- [Marina Bay Sands][ref_mbs]
-- [Finnish Heritage Agency Sauna Culture Intangible Cultural Heritage][ref_museovirasto_sauna]
-- [Muslim Heritage The Turkish Hammam][ref_muslim_heritage_hammam]
-- [National Gallery Degas After the Bath Woman Drying Herself][ref_nationalgallery_degas]
-- [NBC News Self-Help Guru Convicted in Sweat Lodge Deaths][ref_nbc_sedona]
-- [Nippon.com A Look Inside the Bathhouses of Edo][ref_nippon_edo]
-- [Nippon.com The Story of Sento][ref_nippon_sento]
-- [Philadelphia Museum of Art Cézanne The Large Bathers][ref_philamuseum_cezanne]
-- [Platner and Ashby Thermae Diocletiani][ref_lacuscurtius_diocletiani]
-- [Sebastian Kneipp][ref_kneipp]
-- [Syrian Heritage Archive The Public Hammam][ref_syrian_heritage_hammam]
-- [The Roman Baths Bath][ref_roman_baths_official]
-- [Thalassotherapy][ref_thalasso]
-- [thisisFINLAND Bare Facts of the Sauna][ref_thisisfinland_sauna]
-- [UNESCO Archaeological Ruins at Moenjodaro][ref_unesco_moenjodaro]
-- [UNESCO City of Bath][ref_unesco_city_of_bath]
-- [UNESCO Sauna Culture in Finland][ref_unesco_sauna]
-- [UNESCO The Great Spa Towns of Europe][ref_unesco_great_spa_towns]
-- [Wikipedia Bath Curse Tablets][ref_wikipedia_bath_curse_tablets]
-- [Wikipedia Çemberlitaş Hamamı][ref_wikipedia_cemberlitas]
-- [Wikipedia Friedrichsbad][ref_wikipedia_friedrichsbad]
-- [Wikipedia Furo][ref_wikipedia_furo]
-- [Wikipedia Gellért Baths][ref_wikipedia_gellert]
-- [Wikipedia Grand Pump Room Bath][ref_wikipedia_pump_room]
-- [Wikipedia Hagia Sophia Hurrem Sultan Bathhouse][ref_wikipedia_hurrem_bathhouse]
-- [Wikipedia Hammam][ref_wikipedia_hammam]
-- [Wikipedia Jjimjilbang][ref_wikipedia_jjimjilbang]
-- [Wikipedia Mimar Sinan][ref_wikipedia_mimar_sinan]
-- [Wikipedia Sentō][ref_wikipedia_sento]
-- [Wikipedia Spa Belgium][ref_wikipedia_spa_belgium]
-- [Wikipedia Széchenyi Baths][ref_wikipedia_szechenyi]
-- [Wikipedia Temazcal][ref_wikipedia_temazcal]
-- [Wikipedia The Great Bath at Bursa][ref_wikipedia_gerome_bursa]
-- [Wikisource Seneca Moral Letters to Lucilius Letter 56][ref_wikisource_seneca_56]
-- [World Health Organization Guidelines for Safe Recreational Water Environments][ref_who_recreational_water_pools]
-- [World Health Organization Handbook on Indoor Radon][ref_who_indoor_radon]
-- [World Health Organization Legionella and the Prevention of Legionellosis][ref_who_legionella]
-- [World History Encyclopedia Origin of the Sweat Lodge][ref_whe_sweat_lodge]
-- [World History Encyclopedia Roman Baths][ref_worldhistory_roman_baths]
-- [Ancient Rome Live Baths of Trajan][ref_ancientromelive_trajan]
-- [Archnet Haseki Hürrem Sultan Hamamı][ref_archnet_haseki]
-- [Baden-Baden and the Great Spa Towns of Europe][ref_baden_baden_great_spa_towns]
-- [Britannica Baths of Caracalla][ref_britannica_caracalla]
-- [Britannica Baths of Diocletian][ref_britannica_diocletian]
-- [Britannica Great Bath Mohenjo-daro][ref_britannica_great_bath]
-- [Britannica Sinan][ref_britannica_sinan]
-- [Celsus De Medicina][ref_celsus_medicina]
-- [Discover Islamic Art Hammam Nur al-Din][ref_discover_islamic_art_hammam]
-- [Frontinus On the Water Management of the City of Rome][ref_frontinus_aqueducts]
-- [Pliny the Elder The Natural History][ref_pliny_natural_history]
-- [Vitruvius De Architectura][ref_vitruvius_architecture]
-- [Finnish Government Sauna Culture Inscribed on the UNESCO List][ref_finnish_govt_sauna]
-- [Global Wellness Institute Spa Industry][ref_gwi_spa_industry]
-- [Global Wellness Institute What Is Wellness Tourism][ref_gwi_tourism]
-- [Google Arts and Culture Hammam Nur al-Din][ref_google_arts_hammam]
-- [Great Spa Towns of Europe Official][ref_great_spa_towns_official]
-- [Harappa Great Bath Mohenjo-daro][ref_harappa_great_bath]
-- [Harvard Urban Imagination The Intent of the Çemberlitaş Bathhouse][ref_harvard_cemberlitas]
-- [Infinity Pool][ref_infinity_pool]
-- [Japan National Tourism Organization Beppu Onsen][ref_jnto_beppu]
-- [Japan National Tourism Organization Gero Onsen][ref_jnto_gero]
-- [Japan National Tourism Organization Hakone Onsen][ref_jnto_hakone]
-- [Japan National Tourism Organization Kinosaki Onsen][ref_jnto_kinosaki]
-- [Japan National Tourism Organization Kusatsu Onsen][ref_jnto_kusatsu]
-- [Karlovy Vary Official City Tourism][ref_karlovy_vary]
-- [Louvre Ingres The Valpinçon Bather][ref_louvre_valpincon]
-- [Pausanias Description of Greece][ref_pausanias_greece]
-- [Platner and Ashby Thermae Titi][ref_lacuscurtius_thermae_titi]
-- [Pleiades Gazetteer Thermae Traiani][ref_pleiades_trajan]
-- [Strabo The Geography][ref_strabo_geography]
-- [Wikipedia El Bañuelo Granada][ref_wikipedia_el_banuelo]
-- [Wikipedia Hammam Yalbugha Aleppo][ref_wikipedia_hammam_yalbugha]
-- [Wikipedia Király Baths][ref_wikipedia_kiraly]
-- [Wikipedia Rudas Baths][ref_wikipedia_rudas]
-- [Wikipedia Temazcalteci][ref_wikipedia_temazcalteci]
-- [Wikipedia The Bathers Cézanne][ref_wikipedia_cezanne_bathers]
-- [Wikipedia The Turkish Bath Ingres][ref_wikipedia_turkish_bath]
-- [Wikipedia Toci][ref_wikipedia_toci]
+### Primary Sources, Non-Peer-Reviewed
 
-### Research
+- Aribi, Ikram, Mikail Nourredine, Caroline Giroudon, et al. 2025. "Efficacy and Safety of Balneotherapy in Rheumatology: A Systematic Review and Meta-Analysis." *BMJ Open* 15 (2): e089597. [https://doi.org/10.1136/bmjopen-2024-089597][research_balneotherapy_rheumatology_meta]
+- Bieuzen, François, Chris M. Bleakley, and Joseph Thomas Costello. 2013. "Contrast Water Therapy and Exercise Induced Muscle Damage: A Systematic Review and Meta-Analysis." *PLoS ONE* 8 (4): e62356. [https://doi.org/10.1371/journal.pone.0062356][research_bieuzen_2013_contrast]
+- Bruun, Christer. 2002. "Public Baths in the Roman West: Garrett G. Fagan, BATHING IN PUBLIC IN THE ROMAN WORLD (University of Michigan Press, Ann Arbor 1999). Pp. Xiii + 437, Figs. ISBN 0-472-10819. \$57.50." *Journal of Roman Archaeology* 15: 459–65. [https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/abs/public-baths-in-the-roman-west-garrett-g-fagan-bathing-in-public-in-the-roman-world-university-of-michigan-press-ann-arbor-1999-pp-xiii-437-figs-isbn-047210819-5750/7A0D59F7C5FD602C89F3FB334E2B54A8][research_jra_review_fagan]
+- "Celsus De Medicina." n.d. Accessed October 25, 2026. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Celsus/home.html][ref_celsus_medicina]
+- Cervero-Aragó, Sílvia, Sarah Rodríguez-Martínez, Antoni Puertas-Bennasar, and Rosa M. Araujo. 2015. "Effect of Common Drinking Water Disinfectants, Chlorine and Heat, on Free Legionella and Amoebae-Associated Legionella." *PLOS ONE* 10 (8): e0134726. [https://doi.org/10.1371/journal.pone.0134726][research_cervero_arago_2015]
+- Chick, Harriette. 1908. "An Investigation of the Laws of Disinfection." *Journal of Hygiene* 8 (1): 92–158. [https://doi.org/10.1017/s0022172400006987][research_chick_1908]
+- "EPA Surface Water Treatment Rules." n.d. Accessed October 25, 2026. [https://www.epa.gov/dwreginfo/surface-water-treatment-rules][ref_epa_swtr]
+- Epstein, M. 1992. "Renal Effects of Head-out Water Immersion in Humans: A 15-Year Update." *Physiological Reviews* 72 (3): 563–621. [https://doi.org/10.1152/physrev.1992.72.3.563][research_epstein_1992_immersion]
+- Falagas, M. E., E. Zarkadoulia, and P. I. Rafailidis. 2009. "The Therapeutic Effect of Balneotherapy: Evaluation of the Evidence from Randomised Controlled Trials." *International Journal of Clinical Practice* 63 (7): 1068–84. [https://doi.org/10.1111/j.1742-1241.2009.02062.x][research_falagas_2009]
+- "Frontinus On the Water Management of the City of Rome." n.d. Accessed October 25, 2026. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Frontinus/De\_Aquis/home.html][ref_frontinus_aqueducts]
+- Hayasaka, Shinya. 2020. "Hot Spring (Onsen) and Health." *Journal of the Japan Society of Applied Electromagnetics and Mechanics* 28 (3): 196–201. [https://doi.org/10.14243/jsaem.28.196][research_hayasaka_onsen]
+- Jimura, Takamitsu. 2021. "Onsen and Japanese-Style Inns." In *Cultural Heritage and Tourism in Japan*. Routledge. [https://doi.org/10.4324/9780429019173-5][research_jimura_onsen]
+- Large, David Clay. 2015. "EPILOGUE. the Grand Spas Today." In *The Grand Spas of Central Europe*. Rowman & Littlefield Publishers. [https://doi.org/10.5771/9781442222373-391][book_large_grand_spas]
+- Laukkanen, Tanjaniina, Hassan Khan, Francesco Zaccardi, and Jari A. Laukkanen. 2015. "Association between Sauna Bathing and Fatal Cardiovascular and All-Cause Mortality Events." *JAMA Internal Medicine* 175 (4): 542. [https://doi.org/10.1001/jamainternmed.2014.8187][research_laukkanen_2015_sauna]
+- Laukkanen, Tanjaniina, Setor Kunutsor, Jussi Kauhanen, and Jari Antero Laukkanen. 2016. "Sauna Bathing Is Inversely Associated with Dementia and Alzheimer's Disease in Middle-Aged Finnish Men." *Age and Ageing* 46 (2): 245–49. [https://doi.org/10.1093/ageing/afw212][research_laukkanen_2017_dementia]
+- McCann, C., A. Mann, D. McCann, and G. Kellaway. 2000. "Geophysical Investigations of the Thermal Springs of Bath: England." In *62nd EAGE Conference & Exhibition*. European Association of Geoscientists & Engineers. [https://doi.org/10.3997/2214-4609-pdb.28.d19][research_mccann_bath_geophysics]
+- PasİN, Burkay. 2016. "A Critical Reading of the Ottoman-Turkish Hammam as a Representational Space of Sexuality." *METU Journal of the Faculty of Architecture*. [https://doi.org/10.4305/metu.jfa.2016.2.9][research_pasin_hammam]
+- "Pausanias, Description of Greece, Attica, Chapter 1, Section 1." n.d. Accessed October 25, 2026. [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0160][ref_pausanias_greece]
+- "Platner and Ashby Thermae Diocletiani." n.d.-a. Accessed October 25, 2026. [https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Lazio/Roma/Rome/\_Texts/PLATOP\*/Thermae\_Diocletiani.html][ref_lacuscurtius_diocletiani]
+- "Platner and Ashby Thermae Titi." n.d.-b. Accessed October 25, 2026. [https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Lazio/Roma/Rome/\_Texts/PLATOP\*/Thermae\_Titi.html][ref_lacuscurtius_thermae_titi]
+- "Pliny the Elder, the Natural History, BOOK I.1, DEDICATION. 1 Lemaire Informs Us, in His Title-Page, That the Two First Books of the Natural History Are Edited by M. Alexandre, in His Edition." n.d. Accessed October 25, 2026. [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137][ref_pliny_natural_history]
+- Pollock, Ethan. 2019a. "The Banya . . . Is It Still Necessary?" In *Without the Banya We Would Perish*. Oxford University PressNew York. [https://doi.org/10.1093/oso/9780195395488.003.0010][research_pollock_banya]
+- Stewart, Mary Lynn, and Douglas Peter Mackaman. 1999. "Leisure Settings. Bourgeois Culture, Medicine, and the Spa in Modern France." *Labour / Le Travail* 44: 291. [https://doi.org/10.2307/25149019][book_mackaman_leisure_settings]
+- "Strabo The Geography." n.d. Accessed October 25, 2026. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/home.html][ref_strabo_geography]
+- Tomlin, R. S. O. 1990. *Sulis*. Wiley. [https://doi.org/10.1002/9781444338386.wbeah17428][research_tomlin_curses_sulis]
+- Ukai, Tomohiko, Hiroyasu Iso, Kazumasa Yamagishi, et al. 2020. "Habitual Tub Bathing and Risks of Incident Coronary Heart Disease and Stroke." *Heart* 106 (10): 732–37. [https://doi.org/10.1136/heartjnl-2019-315752][research_ukai_tub_bathing]
+- "Vitruvius De Architectura." n.d. Accessed October 25, 2026. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/home.html][ref_vitruvius_architecture]
+- "Wikisource Seneca Moral Letters to Lucilius Letter 56." n.d. Accessed October 25, 2026. [https://en.wikisource.org/wiki/Moral\_letters\_to\_Lucilius/Letter\_56][ref_wikisource_seneca_56]
+- Zaccardi, Francesco, Tanjaniina Laukkanen, Peter Willeit, Setor K. Kunutsor, Jussi Kauhanen, and Jari A. Laukkanen. 2017. "Sauna Bathing and Incident Hypertension: A Prospective Cohort Study." *American Journal of Hypertension* 30 (11): 1120–25. [https://doi.org/10.1093/ajh/hpx102][research_zaccardi_hypertension]
+- Zytka, Michal. 2019. "Bathing in Medicine." In *A Cultural History of Bathing in Late Antiquity and Early Byzantium*. Routledge. [https://doi.org/10.4324/9781351134118-4][research_zytka_bathing_medicine]
 
-- [Bieuzen Bleakley and Costello 2013 Contrast Water Therapy and Exercise Induced Muscle Damage][research_bieuzen_2013_contrast]
-- [Cervero-Aragó and colleagues 2015 Effect of Chlorine and Heat on Legionella][research_cervero_arago_2015]
-- [Chick 1908 An Investigation of the Laws of Disinfection][research_chick_1908]
-- [Cichocki 2005 Continuity and Change in the Life Story of the Çemberlitaş Hamam][research_cichocki_cemberlitas]
-- [Deming 2020 The Aqueducts and Water Supply of Ancient Rome][research_deming_2020_aqueducts]
-- [Epstein 1992 Renal Effects of Head-out Water Immersion in Humans][research_epstein_1992_immersion]
-- [Fournier 1977 Chemical Geothermometers and Mixing Models for Geothermal Systems][research_fournier_1977]
-- [Fournier and Truesdell 1973 An Empirical Na-K-Ca Geothermometer for Natural Waters][research_fournier_truesdell_1973]
-- [Jansen 1989 Water Supply and Sewage Disposal at Mohenjo-daro][research_jansen_mohenjo_daro]
-- [Kellaway 1996 Discovery of the Avon-Solent Fracture Zone and the Bath Hot Springs][research_kellaway_bath_springs]
-- [Kohara and colleagues 2018 Habitual Hot Water Bathing Protects Cardiovascular Function][research_kohara_2018_bathing]
-- [Kunutsor and colleagues 2018 Sauna Bathing and Reduced Cardiovascular Mortality][research_kunutsor_2018_bmc]
-- [Laukkanen and colleagues 2015 Association Between Sauna Bathing and Mortality][research_laukkanen_2015_sauna]
-- [Laukkanen and colleagues 2018 Cardiovascular and Other Health Benefits of Sauna Bathing][research_laukkanen_2018_review]
-- [Pasın 2016 A Critical Reading of the Ottoman-Turkish Hammam as a Representational Space of Sexuality][research_pasin_hammam]
-- [Pollock 2019 The Banya Is It Still Necessary][research_pollock_banya]
-- [Serbulea and Payyappallimana 2012 Onsen Transforming Terrain into Healing Landscapes][research_serbulea_onsen]
-- [Tipton and colleagues 2017 Cold Water Immersion Kill or Cure][research_tipton_2017_cold]
-- [Tomlin 1990 Curses from the Waters of Sulis][research_tomlin_curses_sulis]
-- [Trümper Stabian Baths in Pompeii New Research][research_trumper_stabian]
-- [Ukai and colleagues 2020 Habitual Tub Bathing and Risks of Coronary Heart Disease and Stroke][research_ukai_tub_bathing]
-- [Verhagen and colleagues Balneotherapy or Spa Therapy for Rheumatoid Arthritis][research_verhagen_2015_balneotherapy]
-- [American Journal of Archaeology Review of DeLaine][research_aja_review_delaine]
-- [Antonelli and Donelli 2018 Effects of Balneotherapy and Spa Therapy on Cortisol][research_antonelli_cortisol]
-- [Balneotherapy in Rheumatology A Systematic Review and Meta-Analysis][research_balneotherapy_rheumatology_meta]
-- [Bryn Mawr Classical Review of DeLaine The Baths of Caracalla][research_bmcr_review_delaine]
-- [de Andrade and colleagues 2008 Thalassotherapy for Fibromyalgia][research_deandrade_thalasso]
-- [DeLaine 1997 The Baths of Caracalla Journal of Roman Archaeology Supplement 25][research_delaine_jra]
-- [Dimitrovski and Todorović 2015 Clustering Wellness Tourists][research_dimitrovski_wellness]
-- [Falagas and colleagues 2009 The Therapeutic Effect of Balneotherapy Evidence from Randomised Controlled Trials][research_falagas_2009]
-- [Gutenbrunner and colleagues 2010 A Proposal for a Worldwide Definition of Health Resort Medicine Balneology and Climatology][research_gutenbrunner_2010]
-- [Fournier and Potter 1982 An Equation Correlating the Solubility of Quartz in Water][research_fournier_potter_1982]
-- [Giggenbach 1988 Geothermal Solute Equilibria][research_giggenbach_1988]
-- [Greek Baths][research_greek_baths]
-- [Hayasaka 2020 Hot Spring Onsen and Health][research_hayasaka_onsen]
-- [Hot Springs Thermal Springs and Warm Springs Geology Today][research_hot_springs_terminology]
-- [Hussain and Cohen 2018 Clinical Effects of Regular Dry Sauna Bathing][research_hussain_cohen_2018]
-- [Jimura 2021 Onsen and Japanese-Style Inns][research_jimura_onsen]
-- [Journal of Roman Archaeology Review of Fagan Public Baths in the Roman West][research_jra_review_fagan]
-- [Kunutsor and colleagues 2017 Sauna Bathing Reduces the Risk of Respiratory Diseases][research_kunutsor_respiratory]
-- [Laukkanen and colleagues 2017 Sauna Bathing Inversely Associated with Dementia][research_laukkanen_2017_dementia]
-- [McCann and colleagues 2000 Geophysical Investigations of the Thermal Springs of Bath][research_mccann_bath_geophysics]
-- [McMorran 2008 Understanding the Heritage in Heritage Tourism][research_mcmorran_heritage]
-- [Michalsen and colleagues 2003 Thermal Hydrotherapy According to Kneipp][research_michalsen_kneipp]
-- [Stevens Azara and Michopoulou 2018 Local Community Attitudes Towards Thermalism][research_stevens_thermalism]
-- [Takeda and colleagues 2024 Effects of Bathing in Different Hot Spring Types on Gut Microbiota][research_takeda_gut_microbiota]
-- [Verhagen and colleagues 2007 Balneotherapy for Osteoarthritis][research_verhagen_balneo_oa]
-- [Zaccardi and colleagues 2017 Sauna Bathing and Incident Hypertension][research_zaccardi_hypertension]
-- [Zytka 2019 Bathing in Medicine][research_zytka_bathing_medicine]
+### Secondary Sources
 
-### Related Post
+- Aaland, Mikkel. 1978. *Sweat: The Illustrated History and Description of the Finnish Sauna, Russian Bania, Islamic Hammam, Japanese Mushi-Buro, Mexican Temescal, and Americ*. Capra Pr. [https://archive.org/details/sweatillustrated0000aala][book_aaland_sweat]
+- Ackerman, Gerald M. 1997. *Jean-Léon Gérôme, Sa Vie, Son Oeuvre*. ACR edition. [https://openlibrary.org/works/OL1713816W][book_ackerman_gerome]
+- Alcina Franch. 2000. *Temazcalli: Higiene, Terapéutica, Obstetricia y Ritual En El Nuevo Mundo*. Escuela de Estudios Hispano-Americanos de Sevilla, Consejo Superior de Investigaciones Científicas. [https://openlibrary.org/works/OL996043W][book_alcina_franch_temazcalli]
+- Anderson, Susan C., and Tabb. 2002. *Water, Leisure and Culture: European Historical Perspectives*. Bloomsbury Publishing Plc. [https://openlibrary.org/works/OL18245578W][book_anderson_tabb_water_leisure]
+- Ashenburg. 2007. *The Dirt on Clean An Unsanitized History*. [https://openlibrary.org/works/OL1680656W][book_ashenburg_dirt_on_clean]
+- Beranek, Leo. 2004. *Concert Halls and Opera Houses*. Springer New York. [https://doi.org/10.1007/978-0-387-21636-2][book_beranek_concert_halls]
+- *Bergman Lavine Incropera and DeWitt Fundamentals of Heat and Mass Transfer*. n.d. [https://www.wiley.com/en-us/Fundamentals+of+Heat+and+Mass+Transfer,+8th+Edition-p-9781119353881][book_incropera_heat_mass]
+- Bird, Isabella L. 1880. *Unbeaten Tracks in Japan: An Account of Travels on Horseback on the Interior, Including Visits to the Aborigines of Yezo and the Shrines of Nikko and Ise*. G.P. Putnam. [https://openlibrary.org/works/OL1077888W][book_bird_unbeaten_tracks]
+- Boggs, Richard. 2010. *Hammaming in the Sham: A Journey through the Turkish Baths of Damascus, Aleppo and Beyond*. Garnet Publishing. [https://openlibrary.org/works/OL20404718W][book_boggs_hammaming]
+- Bonneville. 1998. *The Book of the Bath*. Rizzoli. [https://openlibrary.org/works/OL2016952W][book_bonneville_book_of_bath]
+- Boyar, Ebru, and Fleet. 2010. *A Social History of Ottoman Istanbul*. Cambridge University Press. [https://openlibrary.org/works/OL9030197W][book_boyar_fleet_ottoman_istanbul]
+- Brown. 1953. *The Sacred Pipe Black Elk's Account of the Seven Rites*. [https://openlibrary.org/search?q=The+Sacred+Pipe+Black+Elk+Brown][book_brown_sacred_pipe]
+- Bucko, Raymond A. 1998. *The Lakota Ritual of the Sweat Lodge: History and Contemporary Practice*. University of Nebraska Press in cooperation with the American Indian Studies Research Institute, Indiana University, Bloomington. [https://openlibrary.org/works/OL2745445W][book_bucko_lakota_sweat_lodge]
+- Chamberlain, Basil Hall. 1890. *Things Japanese: Being Notes on Various Subjects Connected with Japan*. K. Paul, Trench, Trübner & co., ltd. [https://openlibrary.org/works/OL1097338W][book_chamberlain_things_japanese]
+- Clark, Scott. 1994. *Japan, a View from the Bath*. University of Hawaii Press. [https://archive.org/details/japanviewfrombat0000clar][book_clark_japan_view_bath]
+- *Crittenden and colleagues MWH's Water Treatment Principles and Design*. n.d. [https://openlibrary.org/isbn/9780470405390][book_crittenden_water_treatment]
+- Crohin. 2020. *Sento, L'art Des Bains Japonais*. SULLY. [https://openlibrary.org/works/OL23645839W][book_crohin_sento]
+- Croutier. 1992. *Taking the Waters Spirit Art Sensuality*. [https://openlibrary.org/search?q=Taking+the+Waters+Croutier][book_croutier_taking_waters]
+- Cunliffe, Barry W., and Davenport. 1985. *The Temple of Sulis Minerva at Bath (Monograph / University of Oxford, Committee for Archaeology)*. Oxford University Committee for Archaeology. [https://openlibrary.org/works/OL7975747W][book_cunliffe_temple_sulis]
+- De Montellano, Bernard R. Ortiz. 1990. *Aztec Medicine, Health, and Nutrition*. Rutgers University Press. [https://openlibrary.org/works/OL8498555W][book_ortiz_montellano_aztec_medicine]
+- Dunbabin, Katherine M. D. 1978. *The Mosaics of Roman North Africa: Studies in Iconography and Patronage*. Clarendon Press. [https://openlibrary.org/works/OL1956343W][book_dunbabin_mosaics_north_africa]
+- Dunbabin, Katherine M. D. 1999. *Mosaics of the Greek and Roman World*. Cambridge University Press. [https://openlibrary.org/works/OL1956344W][book_dunbabin_mosaics_greek_roman]
+- Ergin, Nina. 2011. *Bathing Culture of Anatolian Civilizations: Architecture, History, and Imagination*. Peeters. [https://openlibrary.org/works/OL16587009W][book_ergin_bathing_culture_anatolian]
+- Fagan, Garrett G. 1999. *Bathing in Public in the Roman World*. University of Michigan Press. [https://openlibrary.org/works/OL5817538W][book_fagan_bathing_public]
+- Faroqhi. 2000. *Subjects of the Sultan Culture and Daily Life in the Ottoman Empire*. [https://openlibrary.org/search?q=Subjects+of+the+Sultan+Faroqhi][book_faroqhi_subjects_sultan]
+- Goodwin, Godfrey. 1971. *A History of Ottoman Architecture*. Johns Hopkins Press. [https://openlibrary.org/works/OL2553148W][book_goodwin_ottoman_architecture]
+- Goss, Rob. 2017. *Japanese Inns and Hot Springs: A Guide to Japan's Best Ryokan & Onsen*. Tuttle Publishing. [https://openlibrary.org/works/OL20498376W][book_goss_japanese_inns]
+- Gray, Fred. 2006. *Designing the Seaside: Architecture, Society and Nature*. Reaktion Books. [https://openlibrary.org/works/OL8868138W][book_gray_designing_seaside]
+- Grilli, Peter. 1992. *Pleasures of the Japanese Bath =: \[Furo\]*. Weatherhill. [https://openlibrary.org/works/OL4276459W][book_grilli_pleasures_japanese_bath]
+- Grilli, Peter, and Levy. 1985. *Furo, the Japanese Bath =: \[Furo\]*. Kodansha International. [https://openlibrary.org/works/OL4276457W][book_grilli_levy_furo]
+- Guichard-Anguis, Sylvie, and Okpyo Moon. 2008. *Japanese Tourism and Travel Culture. Japan Anthropology Workshop Series*. Taylor & Francis Group. [https://openlibrary.org/works/OL25144165W][book_guichard_anguis]
+- Hearn, Lafcadio. 1894. *Glimpses of Unfamiliar Japan*. Houghton, Mifflin and company. [https://openlibrary.org/works/OL859604W][book_hearn_glimpses]
+- *Heat and Mass Transfer: Fundamentals and Applications*. n.d. [https://www.mheducation.com/highered/product/heat-and-mass-transfer-fundamentals-and-applications-cengel.html][book_cengel_heat_mass]
+- Hembry. 1990. *The English Spa 1560–1815: A Social History*. Bloomsbury Academic. [https://doi.org/10.5040/9781474210089][book_hembry_english_spa]
+- Hillila, Bernhard. 1998. *The Sauna Is*. Penfield Press. [https://openlibrary.org/works/OL2999194W][book_hillila_sauna_is]
+- Hotta, Anne, and Ishiguro. 1986. *A Guide to Japanese Hot Springs*. Kodansha International. [https://openlibrary.org/works/OL5113468W][book_hotta_guide_hot_springs]
+- Jackson, Ralph. 1988. *Doctors and Diseases in the Roman Empire*. University of Oklahoma Press. [https://openlibrary.org/works/OL2886391W][book_jackson_doctors_diseases]
+- Langmuir, Donald. 1997. *Aqueous Environmental Geochemistry*. Prentice Hall. [https://openlibrary.org/works/OL3334024W][book_langmuir_geochemistry]
+- Ling, Roger. 1998. *Ancient Mosaics*. Princeton University Press. [https://openlibrary.org/works/OL63787W][book_ling_ancient_mosaics]
+- Lucore and Trümper. 2013. *Greek Baths and Bathing Culture*. [https://www.academia.edu/42095320/][book_lucore_trumper_greek_baths]
+- Marshall, John Hubert Sir. 1931. *Mohenjo-Daro and the Indus Civilization: Being an Official Account of Archæological Excavations at Mohenjo-Daro Carried out by the Government of India between the Years 1922 Ad 1927*. A. Probsthain. [https://archive.org/details/in.ernet.dli.2015.62023][book_marshall_mohenjo_daro]
+- Medlej, Youmna Jazzar, and Joumana Medlej. 2008. *Olive, Soap, Hammam*. Anis Commercial Printing Press. [https://openlibrary.org/works/OL43548006W][book_medlej_olive_soap_hammam]
+- Morse, Edward Sylvester. 1917. *Japan Day by Day: 1877, 1878-79, 1882-83*. Kobunsha. [https://openlibrary.org/works/OL36009784W][book_morse_japan_day]
+- Necipoğlu, Gülru. 2005. *Age of Sinan: Architectural Culture in the Ottoman Empire*. REAKTION BOOKS. [https://openlibrary.org/works/OL13638972W][book_necipoglu_age_of_sinan]
+- Nielsen, Inge. 1990. *Thermae Et Balnea: The Architecture and Cultural History of Roman Public Baths*. Aarhus University Press. [https://openlibrary.org/works/OL2391483W][book_nielsen_thermae_et_balnea]
+- Nordskog, Michael. 2010. *The Opposite of Cold: The Northwoods Finnish Sauna Tradition*. University of Minnesota Press. [https://openlibrary.org/works/OL15520581W][book_nordskog_opposite_cold]
+- Pollock, Ethan. 2019b. *Without the Banya We Would Perish: A History of the Russian Bathhouse*. Oxford University PressNew York. [https://doi.org/10.1093/oso/9780195395488.001.0001][book_pollock_without_banya]
+- Porter, Roy Sydney. 1990. *The Medical History of Waters and Spas*. Wellcome Institute for the History of Medicine. [https://openlibrary.org/works/OL18974006W][book_porter_medical_history_waters_spas]
+- Porter, Roy Sydney. 1996. *The Cambridge Illustrated History of Medicine*. Cambridge University Press. [https://openlibrary.org/works/OL18508955W][book_porter_cambridge_medicine]
+- Possehl, Gregory L. 2002. *The Indus Civilization: A Contemporary Perspective*. AltaMira Press. [https://openlibrary.org/works/OL1932766W][book_possehl_indus]
+- Roberts, Mary. 2007. *Intimate Outsiders: The Harem in Ottoman and Orientalist Art and Travel Literature (Objects/Histories)*. Duke University Press. [https://openlibrary.org/works/OL3899206W][book_roberts_intimate_outsiders]
+- *Room Acoustics*. n.d. [https://www.routledge.com/Room-Acoustics/Kuttruff-Vorlander/p/book/9781032478258][book_kuttruff_room_acoustics]
+- Seki, Akihiko, and Brooke. 2005. *The Japanese Spa: A Guide to Japan's Finest Ryokan and Onsen*. Tuttle. [https://openlibrary.org/works/OL9584779W][book_seki_japanese_spa]
+- Smith. 2007. *Clean A History of Personal Hygiene and Purity*. [https://openlibrary.org/works/OL16070814W][book_smith_clean_bath]
+- Smith, Bruce, and Yoshiko Yamamoto. 2001. *The Japanese Bath*. Gibbs Smith, Publisher. [https://openlibrary.org/works/OL18352982W][book_smith_yamamoto_japanese_bath]
+- Stumm, Werner, and James J. Morgan. 1996. *Aquatic Chemistry: Chemical Equilibria and Rates in Natural Waters*. Wiley. [https://openlibrary.org/works/OL3528131W][book_stumm_morgan_aquatic]
+- Talmadge. 2006. *Getting Wet Adventures in the Japanese Bath*. [https://openlibrary.org/works/OL9065884W][book_talmadge_getting_wet]
+- Vigarello, Georges. 1988. *Concepts of Cleanliness: Changing Attitudes in France since the Middle Ages*. Cambridge University Press. [https://openlibrary.org/works/OL2105099W][book_vigarello_cleanliness]
+- Viherjuuri. 1965. *Sauna The Finnish Bath*. [https://openlibrary.org/search?q=Viherjuuri+Sauna+The+Finnish+Bath][book_viherjuuri_sauna]
+- Wheeler, Mortimer. 1968. *The Indus Civilization*. Cambridge University Press. [https://openlibrary.org/works/OL8194119W][book_wheeler_indus]
+- White, George Clifford. 2010. *White's Handbook of Chlorination and Alternative Disinfectants*. Wiley. [https://openlibrary.org/isbn/9780470180983][book_white_chlorination]
+- Yegül, Fikret K. 1992. *Baths and Bathing in Classical Antiquity*. Architectural History Foundation. [https://openlibrary.org/works/OL4099956W][book_yegul_baths_bathing]
+- Yegül, Fikret K. 2010. *Bathing in the Roman World*. Cambridge University Press. [https://openlibrary.org/works/OL4099954W][book_yegul_bathing_roman_world]
 
-- [A293 Enhanced and Luxury Restrooms][related_post_a293_restrooms]
+### Commercial Sources
+
+- "The Global Wellness Economy Hits a Record \$6.8 Trillion and Is Forecast to Reach \$9.8 Trillion by 2029." n.d. Global Wellness Institute. Accessed October 25, 2026. [https://globalwellnessinstitute.org/press-room/press-releases/the-global-wellness-economy-hits-a-record-6-8-trillion-and-is-forecast-to-reach-9-8-trillion-by-2029/][ref_gwi_press_2025]
+- "Global Wellness Institute Spa Industry." n.d. Accessed October 25, 2026. [https://globalwellnessinstitute.org/what-is-wellness/spa-industry/][ref_gwi_spa_industry]
+- "Global Wellness Institute Statistics and Facts." n.d. Accessed October 25, 2026. [https://globalwellnessinstitute.org/press-room/statistics-and-facts/][ref_gwi_stats]
+- "Global Wellness Institute What Is Wellness Tourism." n.d. Accessed October 25, 2026. [https://globalwellnessinstitute.org/what-is-wellness/what-is-wellness-tourism/][ref_gwi_tourism]
+- "Japan National Tourism Organization Beppu Onsen." n.d.-a. Accessed October 25, 2026. [https://www.japan.travel/en/spot/716/][ref_jnto_beppu]
+- "Japan National Tourism Organization Gero Onsen." n.d.-b. Accessed October 25, 2026. [https://www.japan.travel/en/spot/2033/][ref_jnto_gero]
+- "Japan National Tourism Organization Hakone Onsen." n.d.-c. Accessed October 25, 2026. [https://www.japan.travel/en/spot/1572/][ref_jnto_hakone]
+- "Japan National Tourism Organization Kinosaki Onsen." n.d.-d. Accessed October 25, 2026. [https://www.japan.travel/en/spot/2005/][ref_jnto_kinosaki]
+- "Japan National Tourism Organization Kusatsu Onsen." n.d.-e. Accessed October 25, 2026. [https://www.japan.travel/en/spot/1518/][ref_jnto_kusatsu]
+- "Japan National Tourism Organization Onsen Etiquette and Tattoos." n.d.-f. Accessed October 25, 2026. [https://www.japan.travel/en/uk/inspiration/onsen-hot-springs-on-tattoos-and-etiquette/][ref_jnto_etiquette]
+- "Japan National Tourism Organization The Tattoo Taboo." n.d.-g. Accessed October 25, 2026. [https://www.japan.travel/en/blog/japanese-Onsen-and-ink-the-tattoo-taboo/][ref_jnto_tattoo]
+
+### General Sources
+
+- "'Great Bath' Mohenjo-Daro." n.d. Accessed October 25, 2026. [https://www.harappa.com/slide/great-bath-mohenjo-daro-0][ref_harappa_great_bath]
+- "American Journal of Archaeology Review of DeLaine." n.d. Accessed October 25, 2026. [https://www.journals.uchicago.edu/doi/10.2307/506616][research_aja_review_delaine]
+- "Archaeological Ruins at Moenjodaro." n.d. UNESCO World Heritage Centre. Accessed October 25, 2026. [https://whc.unesco.org/en/list/138][ref_unesco_moenjodaro]
+- "Archnet \> Site \> Haseki Hürrem Sultan Hamamı." n.d. Accessed October 25, 2026. [https://www.archnet.org/sites/3476][ref_archnet_haseki]
+- "Bryn Mawr Classical Review of DeLaine The Baths of Caracalla." n.d. Accessed October 25, 2026. [https://bmcr.brynmawr.edu/1998/1998.11.41][research_bmcr_review_delaine]
+- "City of Bath." n.d. UNESCO World Heritage Centre. Accessed October 25, 2026. [https://whc.unesco.org/en/list/428/][ref_unesco_city_of_bath]
+- "CNRTL Etymology of Thalassothérapie." n.d. Accessed October 25, 2026. [https://www.cnrtl.fr/etymologie/thalassoth%C3%A9rapie][ref_cnrtl_thalasso]
+- DeLaine. 1997. "The Baths of Caracalla Journal of Roman Archaeology Supplement 25." [https://journalofromanarchaeology.com/supplement-25/][book_delaine_baths_caracalla]
+- "Digging Deeper into Pompeii’s Past: Water and Bathing: Archaeology Magazine: July/August 2019." n.d. *Archaeology Magazine*. Accessed October 25, 2026. [https://archaeology.org/issues/july-august-2019/collection/pompeii-water-bathing/digging-deeper-into-pompeiis-past/][ref_archaeology_mag_pompeii]
+- "El Bañuelo: Monuments of Granada." n.d. Alhambra de Granada. Accessed October 25, 2026. [https://www.alhambradegranada.org/en/info/monuments-granada/elbanuelo.asp][ref_alhambra_banuelo]
+- "Finland’s Sauna Culture Inscribed on UNESCO Intangible Cultural Heritage List." 2020. *Finnish Government*, December 17. [https://valtioneuvosto.fi/en/-/1410845/finland-s-sauna-culture-inscribed-on-unesco-intangible-cultural-heritage-list][ref_finnish_govt_sauna]
+- "Finnish Heritage Agency Sauna Culture Intangible Cultural Heritage." n.d. Accessed October 25, 2026. [https://www.museovirasto.fi/en/articles/sauna-culture-intangible-cultural-heritage][ref_museovirasto_sauna]
+- "Google Arts and Culture Hammam Nur al-Din." n.d. Accessed October 25, 2026. [https://artsandculture.google.com/story/hammam-nur-al-din-syria-cyark/MQWR8cRB3RToJg][ref_google_arts_hammam]
+- "The Great Spa Towns of Europe." n.d.-a. UNESCO World Heritage Centre. Accessed October 25, 2026. [https://whc.unesco.org/en/list/1613/][ref_unesco_great_spa_towns]
+- "Great Spa Towns of Europe Official." n.d. Accessed October 25, 2026. [https://www.greatspatownsofeurope.eu/][ref_great_spa_towns_official]
+- "The Great Spa Towns of Europe \| UNESCO World Heritage." n.d.-b. Visit Baden-Baden \[Germany\] - The official tourism website. Accessed October 25, 2026. [https://www.baden-baden.com/en/unesco-world-heritage/great-spa-towns-of-europe][ref_baden_baden_great_spa_towns]
+- "Greek Baths." n.d. Accessed October 25, 2026. [https://www.researchgate.net/publication/305420281\_Greek\_Baths][research_greek_baths]
+- "Guidelines for Safe Recreational Water Environments Volume 2 Swimming Pools and Similar Environments." n.d. Accessed October 25, 2026. [https://www.who.int/publications/i/item/9241546808][ref_who_recreational_water_pools]
+- "Hammam Nur Al-Din: Discover Islamic Art: Virtual Museum." n.d. Accessed October 25, 2026. [https://islamicart.museumwnf.org/database\_item.php?id=monument%3Bisl%3Bsy%3Bmon01%3B13%3Ben][ref_discover_islamic_art_hammam]
+- "Harvard Urban Imagination The Intent of the Çemberlitaş Bathhouse." n.d. Accessed October 25, 2026. [https://hum54-15.omeka.fas.harvard.edu/exhibits/show/fluctuating\_cemberlitas\_hamam/intent\_of\_cemerlitas][ref_harvard_cemberlitas]
+- "Hot Spring Act: Japanese/English: Japanese Law Translation." 1948. Accessed October 25, 2026. [http://www.japaneselawtranslation.go.jp/en/laws/view/4950][ref_hot_spring_act]
+- "Inipi Rite of Purification Explained." n.d. *Aktá Lakota Museum & Cultural Center*. Accessed October 25, 2026. [https://aktalakota.stjo.org/seven-sacred-rites/inipi-rite-of-purification/][ref_akta_lakota_inipi]
+- "Japan Tourism Agency The History of Konyoku." n.d. Accessed October 25, 2026. [https://www.mlit.go.jp/tagengo-db/en/R5-00425.html][ref_konyoku_history]
+- "Karlovy Vary Official City Tourism." n.d. Accessed October 25, 2026. [https://www.karlovyvary.cz/en][ref_karlovy_vary]
+- "A Look inside the Bathhouses of Edo." 2022. *nippon.com*, May 2. [https://www.nippon.com/en/japan-topics/g01098/][ref_nippon_edo]
+- "Louvre Ingres The Turkish Bath." n.d. Accessed October 25, 2026. [https://collections.louvre.fr/en/ark:/53355/cl010066606][ref_louvre_ingres_turkish_bath]
+- "Louvre Ingres The Valpinçon Bather." n.d. Accessed October 25, 2026. [https://collections.louvre.fr/en/ark:/53355/cl010066528][ref_louvre_valpincon]
+- "Monuments of Rome \| Baths of Trajan." 2022. *Ancient Rome Live*, March 22. [https://ancientromelive.org/baths-of-trajan/][ref_ancientromelive_trajan]
+- "Muslim Heritage The Turkish Hammam." n.d. Accessed October 25, 2026. [https://muslimheritage.com/turkish-hammam/][ref_muslim_heritage_hammam]
+- "NBC News Self-Help Guru Convicted in Sweat Lodge Deaths." n.d. Accessed October 25, 2026. [https://www.nbcnews.com/id/43501833/ns/us\_news-crime\_and\_courts/t/self-help-guru-convicted-sweat-lodge-deaths/][ref_nbc_sedona]
+- "Nippon.com The Story of Sento." n.d. Accessed October 25, 2026. [https://www.nippon.com/en/views/b07302/][ref_nippon_sento]
+- "Philadelphia Museum of Art Cézanne The Large Bathers." n.d. Accessed October 25, 2026. [https://philamuseum.org/collection/object/104464][ref_philamuseum_cezanne]
+- "The Public Hammam – an Ancient Syrian Tradition." n.d. *Syrian Heritage Archive*. Accessed October 25, 2026. [https://syrian-heritage.org/the-public-hammam-an-ancient-syrian-tradition/][ref_syrian_heritage_hammam]
+- "The Roman Baths Bath." n.d. Accessed October 25, 2026. [https://www.romanbaths.co.uk/][ref_roman_baths_official]
+- "Sauna Culture in Finland." n.d. Accessed October 25, 2026. [https://ich.unesco.org/en/RL/sauna-culture-in-finland-01596][ref_unesco_sauna]
+- The National Gallery, London. n.d. "Hilaire-Germain-Edgar Degas \| after the Bath, Woman Drying Herself \| NG6295 \| National Gallery, London." Accessed October 25, 2026. [https://www.nationalgallery.org.uk/paintings/hilaire-germain-edgar-degas-after-the-bath-woman-drying-herself][ref_nationalgallery_degas]
+- "Thermae Traiani: A Pleiades Place resourceMassive Thermae, a Bathing and Leisure Complex, Built in Ancient Rome Starting from 104 AD and Dedicated during the Kalends of July in 109." n.d. Pleiades: a gazetteer of past places. Accessed October 25, 2026. [https://pleiades.stoa.org/places/188289894][ref_pleiades_trajan]
+- "thisisFINLAND Bare Facts of the Sauna." n.d. Accessed October 25, 2026. [https://finland.fi/life-society/bare-facts-of-the-sauna/][ref_thisisfinland_sauna]
+- "Trümper Stabian Baths in Pompeii New Research." n.d. Accessed October 25, 2026. [https://www.academia.edu/49183462/][research_trumper_stabian]
+- "Verhagen and colleagues Balneotherapy or Spa Therapy for Rheumatoid Arthritis." n.d. Accessed October 25, 2026. [https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000518.pub2/abstract][research_verhagen_2015_balneotherapy]
+- "World Health Organization Handbook on Indoor Radon." n.d. Accessed October 25, 2026. [https://www.who.int/publications/i/item/9789241547673][ref_who_indoor_radon]
+- "World Health Organization Legionella and the Prevention of Legionellosis." n.d. Accessed October 25, 2026. [https://www.who.int/publications/i/item/9241562978][ref_who_legionella]
+
+### Tertiary Sources
+
+- "Bath Curse Tablets." 2025. Wikipedia. Last modified December 31, at 23:14 (UTC). [https://en.wikipedia.org/w/index.php?title=Bath\_curse\_tablets&oldid=1330523298][ref_wikipedia_bath_curse_tablets]
+- "The Bathers (Cézanne)." 2026. Wikipedia. Last modified June 27, at 20:50 (UTC). [https://en.wikipedia.org/w/index.php?title=The\_Bathers\_(C%C3%A9zanne)&oldid=1361421273][ref_wikipedia_cezanne_bathers]
+- "Bathing Machine." 2026. Wikipedia. Last modified July 20, at 07:56 (UTC). [https://en.wikipedia.org/w/index.php?title=Bathing\_machine&oldid=1365106143][ref_bathing_machine]
+- "Blue Lagoon (Geothermal Spa)." 2026. Wikipedia. Last modified April 4, at 02:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Blue\_Lagoon\_(geothermal\_spa)&oldid=1346999038][ref_blue_lagoon]
+- "Britannica Baths of Caracalla." n.d. Accessed October 25, 2026. [https://www.britannica.com/topic/Baths-of-Caracalla][ref_britannica_caracalla]
+- "Britannica Baths of Diocletian." n.d. Accessed October 25, 2026. [https://www.britannica.com/place/Baths-of-Diocletian][ref_britannica_diocletian]
+- "Britannica Great Bath Mohenjo-daro." n.d. Accessed October 25, 2026. [https://www.britannica.com/place/Great-Bath-Mohenjo-daro][ref_britannica_great_bath]
+- Cartwright, Mark. 2013. "Roman Baths." *World History Encyclopedia*. [https://www.worldhistory.org/Roman\_Baths/][ref_worldhistory_roman_baths]
+- "Çemberlitaş Hamam." 2026. Wikipedia. Last modified July 1, at 21:54 (UTC). [https://en.wikipedia.org/w/index.php?title=%C3%87emberlita%C5%9F\_Hamam&oldid=1362092762][ref_wikipedia_cemberlitas]
+- "El Bañuelo." 2026. Wikipedia. Last modified January 9, at 22:09 (UTC). [https://en.wikipedia.org/w/index.php?title=El\_Ba%C3%B1uelo&oldid=1332101179][ref_wikipedia_el_banuelo]
+- "Friedrichsbad." 2026. Wikipedia. Last modified July 20, at 04:45 (UTC). [https://en.wikipedia.org/w/index.php?title=Friedrichsbad&oldid=1365085551][ref_wikipedia_friedrichsbad]
+- "Furo." 2026. Wikipedia. Last modified June 23, at 20:21 (UTC). [https://en.wikipedia.org/w/index.php?title=Furo&oldid=1360819168][ref_wikipedia_furo]
+- "Gellért Baths." 2026. Wikipedia. Last modified May 16, at 07:28 (UTC). [https://en.wikipedia.org/w/index.php?title=Gell%C3%A9rt\_Baths&oldid=1354412918][ref_wikipedia_gellert]
+- "Grand Pump Room." 2026. Wikipedia. Last modified July 18, at 19:57 (UTC). [https://en.wikipedia.org/w/index.php?title=Grand\_Pump\_Room&oldid=1364833237][ref_wikipedia_pump_room]
+- "The Great Bath at Bursa." 2026. Wikipedia. Last modified June 27, at 21:27 (UTC). [https://en.wikipedia.org/w/index.php?title=The\_Great\_Bath\_at\_Bursa&oldid=1361427769][ref_wikipedia_gerome_bursa]
+- "Hagia Sophia Hurrem Sultan Bathhouse." 2026. Wikipedia. Last modified July 16, at 11:27 (UTC). [https://en.wikipedia.org/w/index.php?title=Hagia\_Sophia\_Hurrem\_Sultan\_Bathhouse&oldid=1364416920][ref_wikipedia_hurrem_bathhouse]
+- "Hammam." 2026. Wikipedia. Last modified July 1, at 14:46 (UTC). [https://en.wikipedia.org/w/index.php?title=Hammam&oldid=1362028877][ref_wikipedia_hammam]
+- "Hammam Yalbugha." 2026. Wikipedia. Last modified March 22, at 16:41 (UTC). [https://en.wikipedia.org/w/index.php?title=Hammam\_Yalbugha&oldid=1344800833][ref_wikipedia_hammam_yalbugha]
+- "Infinity Pool." 2026. Wikipedia. Last modified March 17, at 15:35 (UTC). [https://en.wikipedia.org/w/index.php?title=Infinity\_pool&oldid=1343982305][ref_infinity_pool]
+- "Jacuzzi." 2026. Wikipedia. Last modified June 15, at 23:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Jacuzzi&oldid=1359557909][ref_jacuzzi]
+- "Jjimjilbang." 2026. Wikipedia. Last modified June 9, at 10:13 (UTC). [https://en.wikipedia.org/w/index.php?title=Jjimjilbang&oldid=1358541516][ref_wikipedia_jjimjilbang]
+- "Király Baths." 2026. Wikipedia. Last modified July 2, at 07:05 (UTC). [https://en.wikipedia.org/w/index.php?title=Kir%C3%A1ly\_Baths&oldid=1362159030][ref_wikipedia_kiraly]
+- "Marina Bay Sands." 2026. Wikipedia. Last modified July 9, at 08:24 (UTC). [https://en.wikipedia.org/w/index.php?title=Marina\_Bay\_Sands&oldid=1363296426][ref_mbs]
+- Mark, Joshua J. 2023. "Origin of the Sweat Lodge." *World History Encyclopedia*. [https://www.worldhistory.org/article/2289/origin-of-the-sweat-lodge/][ref_whe_sweat_lodge]
+- "Mimar Sinan." 2026. Wikipedia. Last modified July 21, at 04:17 (UTC). [https://en.wikipedia.org/w/index.php?title=Mimar\_Sinan&oldid=1365240690][ref_wikipedia_mimar_sinan]
+- "Rudas Baths." 2025. Wikipedia. Last modified December 14, at 02:57 (UTC). [https://en.wikipedia.org/w/index.php?title=Rudas\_Baths&oldid=1327383843][ref_wikipedia_rudas]
+- "Sebastian Kneipp." 2026. Wikipedia. Last modified March 4, at 20:06 (UTC). [https://en.wikipedia.org/w/index.php?title=Sebastian\_Kneipp&oldid=1341740203][ref_kneipp]
+- "Sentō." 2026. Wikipedia. Last modified May 25, at 13:12 (UTC). [https://en.wikipedia.org/w/index.php?title=Sent%C5%8D&oldid=1356051977][ref_wikipedia_sento]
+- "Sinan \| Architecture, Buildings, Works, & Biography." n.d. Encyclopedia Britannica. Accessed October 25, 2026. [https://www.britannica.com/biography/Sinan][ref_britannica_sinan]
+- "Spa, Belgium." 2026. Wikipedia. Last modified July 24, at 23:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Spa,\_Belgium&oldid=1365872211][ref_wikipedia_spa_belgium]
+- "Széchenyi Thermal Bath." 2026. Wikipedia. Last modified July 23, at 17:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Sz%C3%A9chenyi\_thermal\_bath&oldid=1365654701][ref_wikipedia_szechenyi]
+- "Temazcal." 2026. Wikipedia. Last modified May 13, at 00:31 (UTC). [https://en.wikipedia.org/w/index.php?title=Temazcal&oldid=1353886873][ref_wikipedia_temazcal]
+- "Temazcalteci." 2026. Wikipedia. Last modified April 15, at 19:23 (UTC). [https://en.wikipedia.org/w/index.php?title=Temazcalteci&oldid=1349098837][ref_wikipedia_temazcalteci]
+- "Thalassotherapy." 2024. Wikipedia. Last modified August 30, at 13:49 (UTC). [https://en.wikipedia.org/w/index.php?title=Thalassotherapy&oldid=1243097279][ref_thalasso]
+- "Toci." 2025. Wikipedia. Last modified January 16, at 20:14 (UTC). [https://en.wikipedia.org/w/index.php?title=Toci&oldid=1269867962][ref_wikipedia_toci]
+- "The Turkish Bath." 2026. Wikipedia. Last modified June 5, at 18:00 (UTC). [https://en.wikipedia.org/w/index.php?title=The\_Turkish\_Bath&oldid=1357953507][ref_wikipedia_turkish_bath]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Enhanced and Luxury Restrooms: Elevating the Elimination Facility." *Brendan A R Sechter's Development Blog*, January 18. [https://sgeos.github.io/culture/architecture/design/2026/01/18/enhanced\_luxury\_restrooms.html][related_post_a293_restrooms]
 
 [book_aaland_sweat]: https://archive.org/details/sweatillustrated0000aala
-[book_ackerman_gerome]: https://openlibrary.org/works/OL1713821W
+[book_ackerman_gerome]: https://openlibrary.org/works/OL1713816W
 [book_alcina_franch_temazcalli]: https://openlibrary.org/works/OL996043W
 [book_anderson_tabb_water_leisure]: https://openlibrary.org/works/OL18245578W
 [book_ashenburg_dirt_on_clean]: https://openlibrary.org/works/OL1680656W
-[book_beranek_concert_halls]: https://link.springer.com/book/10.1007/978-0-387-21636-2
+[book_beranek_concert_halls]: https://doi.org/10.1007/978-0-387-21636-2
 [book_bird_unbeaten_tracks]: https://openlibrary.org/works/OL1077888W
 [book_boggs_hammaming]: https://openlibrary.org/works/OL20404718W
 [book_bonneville_book_of_bath]: https://openlibrary.org/works/OL2016952W
-[book_boyar_fleet_ottoman_istanbul]: https://openlibrary.org/search?q=A+Social+History+of+Ottoman+Istanbul+Boyar+Fleet
+[book_boyar_fleet_ottoman_istanbul]: https://openlibrary.org/works/OL9030197W
 [book_brown_sacred_pipe]: https://openlibrary.org/search?q=The+Sacred+Pipe+Black+Elk+Brown
-[book_bucko_lakota_sweat_lodge]: https://openlibrary.org/search?q=Lakota+Ritual+of+the+Sweat+Lodge+Bucko
+[book_bucko_lakota_sweat_lodge]: https://openlibrary.org/works/OL2745445W
 [book_cengel_heat_mass]: https://www.mheducation.com/highered/product/heat-and-mass-transfer-fundamentals-and-applications-cengel.html
 [book_chamberlain_things_japanese]: https://openlibrary.org/works/OL1097338W
 [book_clark_japan_view_bath]: https://archive.org/details/japanviewfrombat0000clar
 [book_crittenden_water_treatment]: https://openlibrary.org/isbn/9780470405390
 [book_crohin_sento]: https://openlibrary.org/works/OL23645839W
 [book_croutier_taking_waters]: https://openlibrary.org/search?q=Taking+the+Waters+Croutier
-[book_cunliffe_temple_sulis]: https://openlibrary.org/search?q=Temple+of+Sulis+Minerva+at+Bath+Cunliffe
+[book_cunliffe_temple_sulis]: https://openlibrary.org/works/OL7975747W
 [book_delaine_baths_caracalla]: https://journalofromanarchaeology.com/supplement-25/
 [book_dunbabin_mosaics_greek_roman]: https://openlibrary.org/works/OL1956344W
 [book_dunbabin_mosaics_north_africa]: https://openlibrary.org/works/OL1956343W
-[book_ergin_bathing_culture_anatolian]: https://openlibrary.org/search?q=Bathing+Culture+of+Anatolian+Civilizations+Ergin
+[book_ergin_bathing_culture_anatolian]: https://openlibrary.org/works/OL16587009W
 [book_fagan_bathing_public]: https://openlibrary.org/works/OL5817538W
 [book_faroqhi_subjects_sultan]: https://openlibrary.org/search?q=Subjects+of+the+Sultan+Faroqhi
-[book_goodwin_ottoman_architecture]: https://openlibrary.org/search?q=A+History+of+Ottoman+Architecture+Goodwin
+[book_goodwin_ottoman_architecture]: https://openlibrary.org/works/OL2553148W
 [book_goss_japanese_inns]: https://openlibrary.org/works/OL20498376W
 [book_gray_designing_seaside]: https://openlibrary.org/works/OL8868138W
 [book_grilli_levy_furo]: https://openlibrary.org/works/OL4276457W
@@ -788,7 +798,7 @@ The sustainability question asks whether the large water and energy commitments 
 [book_incropera_heat_mass]: https://www.wiley.com/en-us/Fundamentals+of+Heat+and+Mass+Transfer,+8th+Edition-p-9781119353881
 [book_jackson_doctors_diseases]: https://openlibrary.org/works/OL2886391W
 [book_kuttruff_room_acoustics]: https://www.routledge.com/Room-Acoustics/Kuttruff-Vorlander/p/book/9781032478258
-[book_langmuir_geochemistry]: https://openlibrary.org/search?q=Aqueous+Environmental+Geochemistry+Langmuir
+[book_langmuir_geochemistry]: https://openlibrary.org/works/OL3334024W
 [book_large_grand_spas]: https://doi.org/10.5771/9781442222373-391
 [book_ling_ancient_mosaics]: https://openlibrary.org/works/OL63787W
 [book_lucore_trumper_greek_baths]: https://www.academia.edu/42095320/
@@ -796,7 +806,7 @@ The sustainability question asks whether the large water and energy commitments 
 [book_marshall_mohenjo_daro]: https://archive.org/details/in.ernet.dli.2015.62023
 [book_medlej_olive_soap_hammam]: https://openlibrary.org/works/OL43548006W
 [book_morse_japan_day]: https://openlibrary.org/works/OL36009784W
-[book_necipoglu_age_of_sinan]: https://openlibrary.org/search?q=The+Age+of+Sinan+Necipoglu
+[book_necipoglu_age_of_sinan]: https://openlibrary.org/works/OL13638972W
 [book_nielsen_thermae_et_balnea]: https://openlibrary.org/works/OL2391483W
 [book_nordskog_opposite_cold]: https://openlibrary.org/works/OL15520581W
 [book_ortiz_montellano_aztec_medicine]: https://openlibrary.org/works/OL8498555W
@@ -808,7 +818,7 @@ The sustainability question asks whether the large water and energy commitments 
 [book_seki_japanese_spa]: https://openlibrary.org/works/OL9584779W
 [book_smith_clean_bath]: https://openlibrary.org/works/OL16070814W
 [book_smith_yamamoto_japanese_bath]: https://openlibrary.org/works/OL18352982W
-[book_stumm_morgan_aquatic]: https://openlibrary.org/search?title=Aquatic+Chemistry&author=Stumm
+[book_stumm_morgan_aquatic]: https://openlibrary.org/works/OL3528131W
 [book_talmadge_getting_wet]: https://openlibrary.org/works/OL9065884W
 [book_vigarello_cleanliness]: https://openlibrary.org/works/OL2105099W
 [book_viherjuuri_sauna]: https://openlibrary.org/search?q=Viherjuuri+Sauna+The+Finnish+Bath
@@ -822,8 +832,8 @@ The sustainability question asks whether the large water and energy commitments 
 [ref_archaeology_mag_pompeii]: https://archaeology.org/issues/july-august-2019/collection/pompeii-water-bathing/digging-deeper-into-pompeiis-past/
 [ref_archnet_haseki]: https://www.archnet.org/sites/3476
 [ref_baden_baden_great_spa_towns]: https://www.baden-baden.com/en/unesco-world-heritage/great-spa-towns-of-europe
-[ref_bathing_machine]: https://en.wikipedia.org/wiki/Bathing_machine
-[ref_blue_lagoon]: https://en.wikipedia.org/wiki/Blue_Lagoon_(geothermal_spa)
+[ref_bathing_machine]: https://en.wikipedia.org/w/index.php?title=Bathing_machine&oldid=1365106143
+[ref_blue_lagoon]: https://en.wikipedia.org/w/index.php?title=Blue_Lagoon_(geothermal_spa)&oldid=1346999038
 [ref_britannica_caracalla]: https://www.britannica.com/topic/Baths-of-Caracalla
 [ref_britannica_diocletian]: https://www.britannica.com/place/Baths-of-Diocletian
 [ref_britannica_great_bath]: https://www.britannica.com/place/Great-Bath-Mohenjo-daro
@@ -843,8 +853,8 @@ The sustainability question asks whether the large water and energy commitments 
 [ref_harappa_great_bath]: https://www.harappa.com/slide/great-bath-mohenjo-daro-0
 [ref_harvard_cemberlitas]: https://hum54-15.omeka.fas.harvard.edu/exhibits/show/fluctuating_cemberlitas_hamam/intent_of_cemerlitas
 [ref_hot_spring_act]: http://www.japaneselawtranslation.go.jp/en/laws/view/4950
-[ref_infinity_pool]: https://en.wikipedia.org/wiki/Infinity_pool
-[ref_jacuzzi]: https://en.wikipedia.org/wiki/Jacuzzi
+[ref_infinity_pool]: https://en.wikipedia.org/w/index.php?title=Infinity_pool&oldid=1343982305
+[ref_jacuzzi]: https://en.wikipedia.org/w/index.php?title=Jacuzzi&oldid=1359557909
 [ref_jnto_beppu]: https://www.japan.travel/en/spot/716/
 [ref_jnto_etiquette]: https://www.japan.travel/en/uk/inspiration/onsen-hot-springs-on-tattoos-and-etiquette/
 [ref_jnto_gero]: https://www.japan.travel/en/spot/2033/
@@ -853,13 +863,13 @@ The sustainability question asks whether the large water and energy commitments 
 [ref_jnto_kusatsu]: https://www.japan.travel/en/spot/1518/
 [ref_jnto_tattoo]: https://www.japan.travel/en/blog/japanese-Onsen-and-ink-the-tattoo-taboo/
 [ref_karlovy_vary]: https://www.karlovyvary.cz/en
-[ref_kneipp]: https://en.wikipedia.org/wiki/Sebastian_Kneipp
+[ref_kneipp]: https://en.wikipedia.org/w/index.php?title=Sebastian_Kneipp&oldid=1341740203
 [ref_konyoku_history]: https://www.mlit.go.jp/tagengo-db/en/R5-00425.html
 [ref_lacuscurtius_diocletiani]: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Lazio/Roma/Rome/_Texts/PLATOP*/Thermae_Diocletiani.html
 [ref_lacuscurtius_thermae_titi]: https://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Europe/Italy/Lazio/Roma/Rome/_Texts/PLATOP*/Thermae_Titi.html
 [ref_louvre_ingres_turkish_bath]: https://collections.louvre.fr/en/ark:/53355/cl010066606
 [ref_louvre_valpincon]: https://collections.louvre.fr/en/ark:/53355/cl010066528
-[ref_mbs]: https://en.wikipedia.org/wiki/Marina_Bay_Sands
+[ref_mbs]: https://en.wikipedia.org/w/index.php?title=Marina_Bay_Sands&oldid=1363296426
 [ref_museovirasto_sauna]: https://www.museovirasto.fi/en/articles/sauna-culture-intangible-cultural-heritage
 [ref_muslim_heritage_hammam]: https://muslimheritage.com/turkish-hammam/
 [ref_nationalgallery_degas]: https://www.nationalgallery.org.uk/paintings/hilaire-germain-edgar-degas-after-the-bath-woman-drying-herself
@@ -873,7 +883,7 @@ The sustainability question asks whether the large water and energy commitments 
 [ref_roman_baths_official]: https://www.romanbaths.co.uk/
 [ref_strabo_geography]: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/home.html
 [ref_syrian_heritage_hammam]: https://syrian-heritage.org/the-public-hammam-an-ancient-syrian-tradition/
-[ref_thalasso]: https://en.wikipedia.org/wiki/Thalassotherapy
+[ref_thalasso]: https://en.wikipedia.org/w/index.php?title=Thalassotherapy&oldid=1243097279
 [ref_thisisfinland_sauna]: https://finland.fi/life-society/bare-facts-of-the-sauna/
 [ref_unesco_city_of_bath]: https://whc.unesco.org/en/list/428/
 [ref_unesco_great_spa_towns]: https://whc.unesco.org/en/list/1613/
@@ -884,45 +894,45 @@ The sustainability question asks whether the large water and energy commitments 
 [ref_who_indoor_radon]: https://www.who.int/publications/i/item/9789241547673
 [ref_who_legionella]: https://www.who.int/publications/i/item/9241562978
 [ref_who_recreational_water_pools]: https://www.who.int/publications/i/item/9241546808
-[ref_wikipedia_bath_curse_tablets]: https://en.wikipedia.org/wiki/Bath_curse_tablets
-[ref_wikipedia_cemberlitas]: https://en.wikipedia.org/wiki/%C3%87emberlita%C5%9F_Hamam%C4%B1
-[ref_wikipedia_cezanne_bathers]: https://en.wikipedia.org/wiki/The_Bathers_(C%C3%A9zanne)
-[ref_wikipedia_el_banuelo]: https://en.wikipedia.org/wiki/El_Ba%C3%B1uelo
-[ref_wikipedia_friedrichsbad]: https://en.wikipedia.org/wiki/Friedrichsbad
-[ref_wikipedia_furo]: https://en.wikipedia.org/wiki/Furo
-[ref_wikipedia_gellert]: https://en.wikipedia.org/wiki/Gell%C3%A9rt_Baths
-[ref_wikipedia_gerome_bursa]: https://en.wikipedia.org/wiki/The_Great_Bath_at_Bursa
-[ref_wikipedia_hammam]: https://en.wikipedia.org/wiki/Hammam
-[ref_wikipedia_hammam_yalbugha]: https://en.wikipedia.org/wiki/Hammam_Yalbugha
-[ref_wikipedia_hurrem_bathhouse]: https://en.wikipedia.org/wiki/Hagia_Sophia_Hurrem_Sultan_Bathhouse
-[ref_wikipedia_jjimjilbang]: https://en.wikipedia.org/wiki/Jjimjilbang
-[ref_wikipedia_kiraly]: https://en.wikipedia.org/wiki/Kir%C3%A1ly_Baths
-[ref_wikipedia_mimar_sinan]: https://en.wikipedia.org/wiki/Mimar_Sinan
-[ref_wikipedia_pump_room]: https://en.wikipedia.org/wiki/Grand_Pump_Room,_Bath
-[ref_wikipedia_rudas]: https://en.wikipedia.org/wiki/Rudas_Baths
-[ref_wikipedia_sento]: https://en.wikipedia.org/wiki/Sent%C5%8D
-[ref_wikipedia_spa_belgium]: https://en.wikipedia.org/wiki/Spa,_Belgium
-[ref_wikipedia_szechenyi]: https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_Baths
-[ref_wikipedia_temazcal]: https://en.wikipedia.org/wiki/Temazcal
-[ref_wikipedia_temazcalteci]: https://en.wikipedia.org/wiki/Temazcalteci
-[ref_wikipedia_toci]: https://en.wikipedia.org/wiki/Toci
-[ref_wikipedia_turkish_bath]: https://en.wikipedia.org/wiki/The_Turkish_Bath
+[ref_wikipedia_bath_curse_tablets]: https://en.wikipedia.org/w/index.php?title=Bath_curse_tablets&oldid=1330523298
+[ref_wikipedia_cemberlitas]: https://en.wikipedia.org/w/index.php?title=%C3%87emberlita%C5%9F_Hamam&oldid=1362092762
+[ref_wikipedia_cezanne_bathers]: https://en.wikipedia.org/w/index.php?title=The_Bathers_(C%C3%A9zanne)&oldid=1361421273
+[ref_wikipedia_el_banuelo]: https://en.wikipedia.org/w/index.php?title=El_Ba%C3%B1uelo&oldid=1332101179
+[ref_wikipedia_friedrichsbad]: https://en.wikipedia.org/w/index.php?title=Friedrichsbad&oldid=1365085551
+[ref_wikipedia_furo]: https://en.wikipedia.org/w/index.php?title=Furo&oldid=1360819168
+[ref_wikipedia_gellert]: https://en.wikipedia.org/w/index.php?title=Gell%C3%A9rt_Baths&oldid=1354412918
+[ref_wikipedia_gerome_bursa]: https://en.wikipedia.org/w/index.php?title=The_Great_Bath_at_Bursa&oldid=1361427769
+[ref_wikipedia_hammam]: https://en.wikipedia.org/w/index.php?title=Hammam&oldid=1362028877
+[ref_wikipedia_hammam_yalbugha]: https://en.wikipedia.org/w/index.php?title=Hammam_Yalbugha&oldid=1344800833
+[ref_wikipedia_hurrem_bathhouse]: https://en.wikipedia.org/w/index.php?title=Hagia_Sophia_Hurrem_Sultan_Bathhouse&oldid=1364416920
+[ref_wikipedia_jjimjilbang]: https://en.wikipedia.org/w/index.php?title=Jjimjilbang&oldid=1358541516
+[ref_wikipedia_kiraly]: https://en.wikipedia.org/w/index.php?title=Kir%C3%A1ly_Baths&oldid=1362159030
+[ref_wikipedia_mimar_sinan]: https://en.wikipedia.org/w/index.php?title=Mimar_Sinan&oldid=1365240690
+[ref_wikipedia_pump_room]: https://en.wikipedia.org/w/index.php?title=Grand_Pump_Room&oldid=1364833237
+[ref_wikipedia_rudas]: https://en.wikipedia.org/w/index.php?title=Rudas_Baths&oldid=1327383843
+[ref_wikipedia_sento]: https://en.wikipedia.org/w/index.php?title=Sent%C5%8D&oldid=1356051977
+[ref_wikipedia_spa_belgium]: https://en.wikipedia.org/w/index.php?title=Spa,_Belgium&oldid=1365872211
+[ref_wikipedia_szechenyi]: https://en.wikipedia.org/w/index.php?title=Sz%C3%A9chenyi_thermal_bath&oldid=1365654701
+[ref_wikipedia_temazcal]: https://en.wikipedia.org/w/index.php?title=Temazcal&oldid=1353886873
+[ref_wikipedia_temazcalteci]: https://en.wikipedia.org/w/index.php?title=Temazcalteci&oldid=1349098837
+[ref_wikipedia_toci]: https://en.wikipedia.org/w/index.php?title=Toci&oldid=1269867962
+[ref_wikipedia_turkish_bath]: https://en.wikipedia.org/w/index.php?title=The_Turkish_Bath&oldid=1357953507
 [ref_wikisource_seneca_56]: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_56
 [ref_worldhistory_roman_baths]: https://www.worldhistory.org/Roman_Baths/
 [related_post_a293_restrooms]: {% post_url 2026-01-18-enhanced_luxury_restrooms %}
 [research_aja_review_delaine]: https://www.journals.uchicago.edu/doi/10.2307/506616
 [research_antonelli_cortisol]: https://doi.org/10.1007/s00484-018-1504-8
 [research_balneotherapy_rheumatology_meta]: https://doi.org/10.1136/bmjopen-2024-089597
-[research_bieuzen_2013_contrast]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0062356
+[research_bieuzen_2013_contrast]: https://doi.org/10.1371/journal.pone.0062356
 [research_bmcr_review_delaine]: https://bmcr.brynmawr.edu/1998/1998.11.41
-[research_cervero_arago_2015]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134726
-[research_chick_1908]: https://pmc.ncbi.nlm.nih.gov/articles/PMC2167134/
+[research_cervero_arago_2015]: https://doi.org/10.1371/journal.pone.0134726
+[research_chick_1908]: https://doi.org/10.1017/s0022172400006987
 [research_cichocki_cemberlitas]: https://doi.org/10.1080/1468384042000339348
 [research_deandrade_thalasso]: https://doi.org/10.1007/s00296-008-0644-2
 [research_delaine_jra]: https://journalofromanarchaeology.com/supplement-25/
 [research_deming_2020_aqueducts]: https://doi.org/10.1111/gwat.12958
 [research_dimitrovski_wellness]: https://doi.org/10.1016/j.tmp.2015.09.004
-[research_epstein_1992_immersion]: https://pubmed.ncbi.nlm.nih.gov/1626032/
+[research_epstein_1992_immersion]: https://doi.org/10.1152/physrev.1992.72.3.563
 [research_falagas_2009]: https://doi.org/10.1111/j.1742-1241.2009.02062.x
 [research_fournier_1977]: https://doi.org/10.1016/0375-6505(77)90007-4
 [research_fournier_potter_1982]: https://doi.org/10.1016/0016-7037(82)90135-1
@@ -937,10 +947,10 @@ The sustainability question asks whether the large water and energy commitments 
 [research_jimura_onsen]: https://doi.org/10.4324/9780429019173-5
 [research_jra_review_fagan]: https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/abs/public-baths-in-the-roman-west-garrett-g-fagan-bathing-in-public-in-the-roman-world-university-of-michigan-press-ann-arbor-1999-pp-xiii-437-figs-isbn-047210819-5750/7A0D59F7C5FD602C89F3FB334E2B54A8
 [research_kellaway_bath_springs]: https://doi.org/10.1007/s002540050076
-[research_kohara_2018_bathing]: https://www.nature.com/articles/s41598-018-26908-1
+[research_kohara_2018_bathing]: https://doi.org/10.1038/s41598-018-26908-1
 [research_kunutsor_2018_bmc]: https://doi.org/10.1186/s12916-018-1198-0
 [research_kunutsor_respiratory]: https://doi.org/10.1007/s10654-017-0311-6
-[research_laukkanen_2015_sauna]: https://pubmed.ncbi.nlm.nih.gov/25705824/
+[research_laukkanen_2015_sauna]: https://doi.org/10.1001/jamainternmed.2014.8187
 [research_laukkanen_2017_dementia]: https://doi.org/10.1093/ageing/afw212
 [research_laukkanen_2018_review]: https://doi.org/10.1016/j.mayocp.2018.04.008
 [research_mccann_bath_geophysics]: https://doi.org/10.3997/2214-4609-pdb.28.d19
@@ -951,11 +961,11 @@ The sustainability question asks whether the large water and energy commitments 
 [research_serbulea_onsen]: https://doi.org/10.1016/j.healthplace.2012.06.020
 [research_stevens_thermalism]: https://doi.org/10.1080/24721735.2018.1432451
 [research_takeda_gut_microbiota]: https://doi.org/10.1038/s41598-024-52895-7
-[research_tipton_2017_cold]: https://pubmed.ncbi.nlm.nih.gov/28833689/
+[research_tipton_2017_cold]: https://doi.org/10.1113/ep086283
 [research_tomlin_curses_sulis]: https://doi.org/10.1002/9781444338386.wbeah17428
 [research_trumper_stabian]: https://www.academia.edu/49183462/
 [research_ukai_tub_bathing]: https://doi.org/10.1136/heartjnl-2019-315752
 [research_verhagen_2015_balneotherapy]: https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD000518.pub2/abstract
-[research_verhagen_balneo_oa]: https://doi.org/10.1002/14651858.CD006864
+[research_verhagen_balneo_oa]: https://doi.org/10.1002/14651858.cd006864
 [research_zaccardi_hypertension]: https://doi.org/10.1093/ajh/hpx102
 [research_zytka_bathing_medicine]: https://doi.org/10.4324/9781351134118-4

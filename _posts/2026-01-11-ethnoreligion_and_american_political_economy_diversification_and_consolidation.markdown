@@ -39,11 +39,11 @@ f_{\text{Buddhist, US}}\bigg|_{1980} &\approx 0.002, \quad f\bigg|_{2020} \appro
 f_{\text{Unaffiliated, US}}\bigg|_{1948} &\approx 0.02, \quad f\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2020} \approx 0.29
 \end{aligned}$$
 
-per [Gallup Religion Surveys][ref_gallup_religion_surveys], [Pew Research US Religious Landscape 2014][ref_pew_religious_landscape_2014], and [ARIS 1990 2008][ref_aris_1990_2008] American Religious Identification Survey reconstruction. The Christian share decline and "Nones" expansion documented above represent the most substantial American religious demographic transformation of the twentieth century's second half.
+per [Gallup Religion Surveys][ref_gallup_religion_surveys], [Religious Landscape Study 2014][ref_pew_religious_landscape_2014], and [ARIS 1990 2008][ref_aris_1990_2008] American Religious Identification Survey reconstruction. The Christian share decline and "Nones" expansion documented above represent the most substantial American religious demographic transformation of the twentieth century's second half.
 
 ## Immigration Reform and Control Act 1986 (IRCA)
 
-The Immigration Reform and Control Act (IRCA) of 6 November 1986 [IRCA 1986][ref_irca_1986] provided the first considerable federal immigration enforcement and legalization legislation of the post-Hart-Celler era. IRCA combined employer sanctions (I-9 employment verification framework), legalization program admitting approximately 2.7 million previously undocumented residents to legal status, Special Agricultural Workers (SAW) program admitting approximately 1.1 million agricultural workers, and border enforcement expansion. The [Reimers 1985][book_reimers_1985] Still the Golden Door, [Massey Durand and Malone 2002][book_massey_durand_malone_2002] Beyond Smoke and Mirrors (already cited in A273), and [Ngai 2004][book_ngai_2004] Impossible Subjects (already cited in A271) provide the fullest treatments.
+The Immigration Reform and Control Act (IRCA) of 6 November 1986 [IRCA 1986][ref_irca_1986] provided the first considerable federal immigration enforcement and legalization legislation of the post-Hart-Celler era. IRCA combined employer sanctions (I-9 employment verification framework), legalization program admitting approximately 2.7 million previously undocumented residents to legal status, Special Agricultural Workers (SAW) program admitting approximately 1.1 million agricultural workers, and border enforcement expansion. The [Reimers 1985][book_reimers_1985] Still the Golden Door, [Massey et al. 2002][book_massey_durand_malone_2002] Beyond Smoke and Mirrors (already cited in A273), and [Ngai 2004][book_ngai_2004] Impossible Subjects (already cited in A271) provide the fullest treatments.
 
 IRCA legalization program totals reached approximately
 
@@ -91,13 +91,13 @@ per US Citizenship and Immigration Services records, with extensions across subs
 
 The Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA) of 30 September 1996 [IIRIRA 1996][ref_iirira_1996] provided extensive expansion of immigration enforcement combining expedited removal procedures, aggravated felony deportation expansion, three-year and ten-year bars for unlawful presence, 287(g) state-federal enforcement cooperation framework, and criminalization of several immigration violations. The [Ngai 2004][book_ngai_2004] (already cited), [Kanstroom 2007][book_kanstroom_2007] Deportation Nation, and [Chacon 2018][book_chacon_2018] Producing Undocumented Migration provide the detailed treatments.
 
-The 1996 [Personal Responsibility and Work Opportunity Reconciliation Act 1996][ref_prwora_1996] (PRWORA, welfare reform) restricted legal immigrant access to federal welfare programs, and 1996 [Antiterrorism and Effective Death Penalty Act 1996][ref_aedpa_1996] (AEDPA) provided additional expedited removal framework. Combined enforcement effects produced sizable deportation expansion,
+The 1996 [PRWORA 1996][ref_prwora_1996] (PRWORA, welfare reform) restricted legal immigrant access to federal welfare programs, and 1996 [AEDPA 1996][ref_aedpa_1996] (AEDPA) provided additional expedited removal framework. Combined enforcement effects produced sizable deportation expansion,
 
 $$N_{\text{annual formal removals, US}}(1990) \approx 3 \times 10^4, \quad N\bigg|_{2000} \approx 1.9 \times 10^5, \quad N\bigg|_{2013} \approx 4.4 \times 10^5, \quad N_{\text{cumulative formal removals 1996 to 2020}} \gtrsim 5 \times 10^6$$
 
 per Immigration and Customs Enforcement records. The 1996 legislation shaped twenty-first-century immigration enforcement framework treated in subsequent articles.
 
-The 1997 [Nicaraguan Adjustment and Central American Relief Act 1997][ref_nacara_1997] (NACARA) provided relief pathway for approximately 200,000 Central American nationals from Nicaragua, El Salvador, Guatemala, and former Soviet Bloc populations, reflecting institutional Catholic and ecumenical Protestant advocacy through Sanctuary Movement legacy documented in [A273][related_post_a273_postwar_transformation_and_reopening].
+The 1997 [NACARA 1997][ref_nacara_1997] (NACARA) provided relief pathway for approximately 200,000 Central American nationals from Nicaragua, El Salvador, Guatemala, and former Soviet Bloc populations, reflecting institutional Catholic and ecumenical Protestant advocacy through Sanctuary Movement legacy documented in [A273][related_post_a273_postwar_transformation_and_reopening].
 
 ## Central American Civil War Refugees
 
@@ -110,7 +110,7 @@ N_{\text{Nicaraguan arrivals, US, 1980 to 2000}} &\approx 2 \times 10^5 \\
 N_{\text{Honduran arrivals, US, 1980 to 2000}} &\approx 2 \times 10^5
 \end{aligned}$$
 
-per US Immigration and Naturalization Service records. The [Menjivar 2000][book_menjivar_2000] Fragmented Ties, [Coutin 2000][book_coutin_2000] Legalizing Moves, and [Hagan 1994][book_hagan_1994] Deciding to Be Legal provide the leading treatments.
+per US Immigration and Naturalization Service records. The [Menjívar 2000][book_menjivar_2000] Fragmented Ties, [Coutin 2000][book_coutin_2000] Legalizing Moves, and [Hagan 1994][book_hagan_1994] Deciding to Be Legal provide the leading treatments.
 
 Religious composition of Central American refugee populations combined considerable Catholic majority (approximately 65% Catholic identification through 1990s, declining through twenty-first century), rapidly expanding Pentecostal populations (approximately 25% by 2000, expanding to approximately 40% by 2020 in a range of Central American national populations), mainline Protestant minorities, and various traditional and syncretic religious practices particularly among Guatemalan Maya populations. The [Chesnut 2003][book_chesnut_2003] Competitive Spirits and [Stoll 1990][book_stoll_1990] Is Latin America Turning Protestant provide the principal treatments of Latin American religious transformation.
 
@@ -118,7 +118,7 @@ Sanctuary Movement expansion continued 1982-1990 window documented in [A273][rel
 
 $$N_{\text{Sanctuary Movement congregations, US, peak c. 1988 to 1990}} \approx 6 \times 10^2, \quad N_{\text{Sanctuary Movement participating religious denominations}} \approx 25$$
 
-per institutional records. The 1987 [INS v. Cardoza-Fonseca 1987][ref_ins_v_cardoza_fonseca_1987] Supreme Court decision lowered asylum evidentiary standard from "clear probability" to "well-founded fear of persecution" framework consistent with 1980 Refugee Act statutory language, producing significant asylum grant expansion. The 1990 [American Baptist Churches v. Thornburgh 1991][ref_abc_v_thornburgh_1991] American Baptist Churches v. Thornburgh settlement produced substantial relief for approximately 500,000 Salvadoran and Guatemalan asylum applicants previously denied under Reagan administration framework. The settlement's institutional impact preceded NACARA framework treated above.
+per institutional records. The 1987 [INS v. Cardoza-Fonseca 1987][ref_ins_v_cardoza_fonseca_1987] Supreme Court decision lowered asylum evidentiary standard from "clear probability" to "well-founded fear of persecution" framework consistent with 1980 Refugee Act statutory language, producing significant asylum grant expansion. The 1990 [American Baptist Churches v. 1991][ref_abc_v_thornburgh_1991] American Baptist Churches v. Thornburgh settlement produced substantial relief for approximately 500,000 Salvadoran and Guatemalan asylum applicants previously denied under Reagan administration framework. The settlement's institutional impact preceded NACARA framework treated above.
 
 ## Iranian Refugee Consolidation
 
@@ -166,7 +166,7 @@ Ethiopian Jewish (Beta Israel, formerly termed "Falasha") migration proceeded th
 
 $$N_{\text{Beta Israel emigrants to Israel, cumulative 1980 to 2020}} \approx 1.4 \times 10^5, \quad N_{\text{Beta Israel population, US}} \approx 3 \times 10^3$$
 
-per Jewish Agency for Israel and US Census records. The smaller US Ethiopian Jewish population reflected Israeli institutional priority for Beta Israel absorption combined with 1970s Israeli rabbinical recognition of Ethiopian Jewish authenticity. The [Kaplan 1992][book_kaplan_1992] The Beta Israel and [Salamon 1999][book_salamon_1999] The Hyena People treat the Beta Israel history.
+per Jewish Agency for Israel and US Census records. The smaller US Ethiopian Jewish population reflected Israeli institutional priority for Beta Israel absorption combined with 1970s Israeli rabbinical recognition of Ethiopian Jewish authenticity. The [Kaplan and Kaplan 1992][book_kaplan_1992] The Beta Israel and [Salamon 1999][book_salamon_1999] The Hyena People treat the Beta Israel history.
 
 ## Somali Refugees Post-1991
 
@@ -194,7 +194,7 @@ Bosnian religious composition combined substantial Bosnian Muslim (Bosniak) majo
 
 $$N_{\text{Bosnian Muslim mosques and Islamic centers, US, 2020}} \approx 40$$
 
-per institutional records. The 21 November 1995 [Dayton Peace Accords 1995][ref_dayton_accords_1995] Dayton Peace Accords formally ending Bosnian War (signed 14 December 1995 at Paris) and 24 March to 10 June 1999 NATO Kosovo intervention framed American religious institutional responses to Balkan conflict combining mainline Protestant and Catholic institutional engagement with American Muslim institutional support for Bosniak population protection.
+per institutional records. The 21 November 1995 [General Framework Agreement 1995][ref_dayton_accords_1995] Dayton Peace Accords formally ending Bosnian War (signed 14 December 1995 at Paris) and 24 March to 10 June 1999 NATO Kosovo intervention framed American religious institutional responses to Balkan conflict combining mainline Protestant and Catholic institutional engagement with American Muslim institutional support for Bosniak population protection.
 
 ## Vietnamese Second-Wave and Amerasian Homecoming Act 1988
 
@@ -226,7 +226,7 @@ $$N_{\text{Haitian arrivals, US, 1980 to 2000}} \approx 3 \times 10^5, \quad P_{
 
 per US Census records. Concentration in New York City (Flatbush and Crown Heights Brooklyn neighborhoods) and Miami (Little Haiti neighborhood) produced characteristic Haitian diaspora community formation. Haitian American religious composition combined sizable Catholic majority (approximately 55%), Protestant and Pentecostal populations (approximately 30%), and Vodou (Vodun) syncretic religious practices preserved despite ongoing institutional Catholic and evangelical Protestant opposition. The [Stepick 1998][book_stepick_1998] Pride Against Prejudice and [Richman 2005][book_richman_2005] Migration and Vodou provide the detailed treatments.
 
-The 1998 [Haitian Refugee Immigration Fairness Act 1998][ref_hrifa_1998] Haitian Refugee Immigration Fairness Act provided approximately 50,000 legalization opportunities for pre-1996 Haitian arrivals, responding to religious institutional and civil rights advocacy for Haitian community parity with Cuban Adjustment Act framework documented in [A273][related_post_a273_postwar_transformation_and_reopening] and NACARA framework treated above.
+The 1998 [Haitian Refugee Immigration Fairness 1998][ref_hrifa_1998] Haitian Refugee Immigration Fairness Act provided approximately 50,000 legalization opportunities for pre-1996 Haitian arrivals, responding to religious institutional and civil rights advocacy for Haitian community parity with Cuban Adjustment Act framework documented in [A273][related_post_a273_postwar_transformation_and_reopening] and NACARA framework treated above.
 
 ## Post-Tiananmen Chinese Migration
 
@@ -244,7 +244,7 @@ per Pew Research reconstruction. expanded Chinese Christian identification refle
 
 $$P_{\text{Falun Gong practitioners, US}}\bigg|_{2020} \approx 5 \times 10^4$$
 
-per institutional estimates). The [Fenggang Yang 1999][book_yang_1999] Chinese Christians in America and [Chen 2008][book_chen_2008] Getting Saved in America treat the Chinese American Christian institutional formation.
+per institutional estimates). The [Yang 1999][book_yang_1999] Chinese Christians in America and [Chen 2008][book_chen_2008] Getting Saved in America treat the Chinese American Christian institutional formation.
 
 ## Korean Migration and American Korean Protestantism
 
@@ -256,7 +256,7 @@ per US Census records. Korean American religious composition was Christian (appr
 
 $$N_{\text{Korean American Christian congregations, US, 1980}} \approx 500, \quad N\bigg|_{2000} \approx 2500, \quad N\bigg|_{2020} \approx 4000$$
 
-per denominational and Association of Korean American Churches records. The [Kwon Kim and Warner 2001][book_kwon_kim_warner_2001] Korean Americans and Their Religions (already cited in A273), [Min 2010][book_min_2010] Preserving Ethnicity through Religion in America, and [Chai 2001][book_chai_2001] Beyond Strictness treat the comprehensive Korean American Christian formation.
+per denominational and Association of Korean American Churches records. The [Kwon et al. 2001][book_kwon_kim_warner_2001] Korean Americans and Their Religions (already cited in A273), [Min 2010][book_min_2010] Preserving Ethnicity through Religion in America, and [Chai 2001][book_chai_2001] Beyond Strictness treat the comprehensive Korean American Christian formation.
 
 Korean Presbyterian denominational formation produced Korean American Presbyterian Church (KAPC, formed 1976 as Korean-language denomination), Presbyterian Church USA Korean congregations (approximately 400 by 2020), and several Korean Presbyterian denominational bodies. Korean Methodist Episcopal congregations under United Methodist Church Korean American National Association reached approximately 700 by 2020. Korean American evangelical, Pentecostal, and a range of other Protestant denominational formation provided the broader institutional framework.
 
@@ -274,7 +274,7 @@ Hindu temple movement expansion was considerable through 1970s-2020s window,
 
 $$N_{\text{Hindu temples, US, 1980}} \approx 50, \quad N_{\text{Hindu temples, US, 2000}} \approx 400, \quad N_{\text{Hindu temples, US, 2020}} \approx 800$$
 
-per Hindu American Foundation and Hindu Mandir Executives' Conference records. Major American Hindu temple complexes include BAPS Shri Swaminarayan Mandir at Robbinsville, New Jersey (dedicated 2014, approximately 500,000 square feet), Hindu Temple of Atlanta, Sri Venkateswara Temple at Pittsburgh (dedicated 1977 as first traditional-style South Indian Hindu temple in the US), and a number of others. The [Prema Kurien 1998][book_kurien_1998] Becoming American, Becoming Indian treats the institutional formation.
+per Hindu American Foundation and Hindu Mandir Executives' Conference records. Major American Hindu temple complexes include BAPS Shri Swaminarayan Mandir at Robbinsville, New Jersey (dedicated 2014, approximately 500,000 square feet), Hindu Temple of Atlanta, Sri Venkateswara Temple at Pittsburgh (dedicated 1977 as first traditional-style South Indian Hindu temple in the US), and a number of others. The [Kurien 1998][book_kurien_1998] Becoming American, Becoming Indian treats the institutional formation.
 
 Sikh American gurdwara expansion proceeded through 1980-2020 window building on pre-1924 Punjabi arrivals documented in [A271][related_post_a271_mass_immigration_and_closure] and post-1965 South Asian immigration expansion. Approximate institutional counts reached
 
@@ -310,7 +310,7 @@ Filipino immigration through 1965-2020 window continued the pre-1965 pattern doc
 
 $$P_{\text{Filipino American, US}}\bigg|_{1970} \approx 3.4 \times 10^5, \quad P\bigg|_{1990} \approx 1.4 \times 10^6, \quad P\bigg|_{2020} \approx 4.4 \times 10^6$$
 
-per US Census records, producing approximately thirteen-fold expansion across 50-year post-1965 window. Concentration in California (approximately 30% of US Filipino Americans), Hawaii, New York, and several major metropolitan areas produced characteristic community formation. The [España-Maram 2006][book_espana_maram_2006] Creating Masculinity in Los Angeles's Little Manila (already cited in A271) and [Bonus 2000][book_bonus_2000] Locating Filipino Americans provide the fullest treatments.
+per US Census records, producing approximately thirteen-fold expansion across 50-year post-1965 window. Concentration in California (approximately 30% of US Filipino Americans), Hawaii, New York, and several major metropolitan areas produced characteristic community formation. The [Espana-Maram 2006][book_espana_maram_2006] Creating Masculinity in Los Angeles's Little Manila (already cited in A271) and [Bonus 2000][book_bonus_2000] Locating Filipino Americans provide the fullest treatments.
 
 Filipino American religious composition trajectory,
 
@@ -458,7 +458,7 @@ P_{\text{Evangelical Lutheran Church in America}}\bigg|_{1988} &\approx 5.3 \tim
 P_{\text{United Church of Christ}}\bigg|_{1965} &\approx 2.1 \times 10^6, \quad P\bigg|_{2020} \approx 8 \times 10^5, \quad \Delta \approx -62\%
 \end{aligned}$$
 
-per denominational records. Combined aggregate mainline Protestant membership declined from approximately 30 million in 1965 to approximately 12 million by 2020, producing approximately 60% decline while US population expanded approximately 65%. The [Roozen and Hadaway 1993][book_roozen_hadaway_1993] Church and Denominational Growth, [Wuthnow 1988][book_wuthnow_1988] The Restructuring of American Religion (already cited in A273), and [Hout Greeley and Wilde 2001][book_hout_greeley_wilde_2001] The Demographic Imperative treat the comprehensive mainline decline analysis.
+per denominational records. Combined aggregate mainline Protestant membership declined from approximately 30 million in 1965 to approximately 12 million by 2020, producing approximately 60% decline while US population expanded approximately 65%. The [Roozen and Hadaway 1993][book_roozen_hadaway_1993] Church and Denominational Growth, [Wuthnow 1988][book_wuthnow_1988] The Restructuring of American Religion (already cited in A273), and [Hout et al. 2001][book_hout_greeley_wilde_2001] The Demographic Imperative treat the comprehensive mainline decline analysis.
 
 Multiple hypothesized causes include denominational fertility decline (Hout, Greeley, and Wilde thesis attributing appreciable share of mainline decline to below-replacement mainline fertility), denominational disaffiliation to evangelical alternatives or unaffiliation, ongoing denominational contests over homosexuality and other issues producing schism (2009 Evangelical Presbyterian Church, 2010 Presbyterian Church Covenant Order of Evangelical Presbyterians, 2018-2024 Global Methodist Church splits from UMC), and broader institutional trust decline.
 
@@ -470,7 +470,7 @@ $$N_{\text{Branch Davidian deaths, Waco siege}} = 82, \quad N_{\text{deaths duri
 
 per FBI records and US Department of Justice investigation. The event reshaped American federal law enforcement approach to religious communities and new religious movement categorization. Primary official investigations included [Waco DOJ Report 1993][ref_waco_doj_1993] Department of Justice initial report and 21 July 2000 [Danforth Report 2000][ref_danforth_report_2000] final Office of Special Counsel report under John C. Danforth (Republican Senator and Episcopal priest) providing comprehensive federal review exonerating federal action of initial claims of fire-setting and gunfire directed at fleeing Branch Davidians. The [Wright 1995][book_wright_1995] Armageddon in Waco and [Tabor and Gallagher 1995][book_tabor_gallagher_1995] Why Waco treat the comprehensive analysis.
 
-The 19 April 1995 [Oklahoma City bombing 1995][ref_oklahoma_city_bombing_1995] Oklahoma City Federal Building bombing by Timothy McVeigh and Terry Nichols produced significant casualties,
+The 19 April 1995 [Oklahoma City Bombing 1995][ref_oklahoma_city_bombing_1995] Oklahoma City Federal Building bombing by Timothy McVeigh and Terry Nichols produced significant casualties,
 
 $$N_{\text{Oklahoma City bombing dead}} = 168, \quad N_{\text{children among dead}} = 19, \quad N_{\text{injured}} \approx 684, \quad C_{\text{property damage estimate}} \approx 6.5 \times 10^8 \text{ USD nominal}$$
 
@@ -492,7 +492,7 @@ The rise of "Nones" (religiously unaffiliated) reached extensive proportions thr
 
 $$f_{\text{religiously unaffiliated, US}}\bigg|_{1948} \approx 0.02, \quad f\bigg|_{1990} \approx 0.08, \quad f\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2020} \approx 0.29$$
 
-per Gallup, American Religious Identification Survey (ARIS), and Pew Research reconstruction. The 2000-2020 window produced most rapid unaffiliation acceleration. The [Kosmin and Keysar 2009][book_kosmin_keysar_2009] American Religious Identification Survey, [Putnam and Campbell 2010][book_putnam_campbell_2010] American Grace, and [Chaves 2011][book_chaves_2011] American Religion provide the detailed treatments, with primary sources including [Pew Nones on the Rise 2012][ref_pew_nones_2012] Pew Research "Nones on the Rise" and [Pew Religious Landscape 2014][ref_pew_religious_landscape_2014] Religious Landscape Study.
+per Gallup, American Religious Identification Survey (ARIS), and Pew Research reconstruction. The 2000-2020 window produced most rapid unaffiliation acceleration. The [Kosmin and Keysar 2009][book_kosmin_keysar_2009] American Religious Identification Survey, [Putnam and Campbell 2010][book_putnam_campbell_2010] American Grace, and [Chaves 2011][book_chaves_2011] American Religion provide the detailed treatments, with primary sources including [Pew Nones on the Rise 2012][ref_pew_nones_2012] Pew Research "Nones on the Rise" and [Religious Landscape Study 2014][ref_pew_religious_landscape_2014] Religious Landscape Study.
 
 Multiple hypothesized causes for unaffiliation expansion include generational replacement (American cohorts exhibiting progressively lower religious affiliation), 1980s-2020s Religious Right political mobilization producing institutional Christianity association with political conservatism alienating younger and liberal Americans, 2002 Boston Globe reporting on Catholic clergy sexual abuse and subsequent institutional revelations discrediting Catholic and assorted mainstream Christian institutional authority, and broader institutional trust decline patterns. Approximate unaffiliated composition included
 
@@ -544,7 +544,7 @@ per National Abortion Federation records. The 10 March 1993 murder of Dr. David 
 
 ## Native American Graves Protection Act 1990 (NAGPRA)
 
-The Native American Graves Protection and Repatriation Act of 16 November 1990 [NAGPRA 1990][ref_nagpra_1990] provided the most extensive twentieth-century federal Native American religious repatriation framework, requiring federal agencies and federally-funded institutions to return Native American human remains, funerary objects, sacred objects, and objects of cultural patrimony to culturally-affiliated tribes and Native Hawaiian organizations. The [Fine-Dare 2002][book_fine_dare_2002] Grave Injustice and [Riding In and Trope 2011][book_riding_in_trope_2011] Repatriation Reader provide the standard treatments.
+The Native American Graves Protection and Repatriation Act of 16 November 1990 [NAGPRA 1990][ref_nagpra_1990] provided the most extensive twentieth-century federal Native American religious repatriation framework, requiring federal agencies and federally-funded institutions to return Native American human remains, funerary objects, sacred objects, and objects of cultural patrimony to culturally-affiliated tribes and Native Hawaiian organizations. The [Fine-Dare 2002][book_fine_dare_2002] Grave Injustice and [Riding et al. 2011][book_riding_in_trope_2011] Repatriation Reader provide the standard treatments.
 
 Approximate NAGPRA implementation reached extensive institutional scale,
 
@@ -554,9 +554,9 @@ per National Park Service NAGPRA program records. Ongoing repatriation continued
 
 ## City of Boerne v. Flores 1997 and RFRA Litigation
 
-The 25 June 1997 [City of Boerne v. Flores 1997][ref_city_boerne_v_flores_1997] City of Boerne v. Flores Supreme Court decision struck down 1993 Religious Freedom Restoration Act (RFRA) as applied to state and local governments, holding that Congressional Section 5 enforcement power under Fourteenth Amendment could not expand Court's interpretation of First Amendment. The 6-3 decision produced sizable religious freedom jurisprudence recalibration. The [Long 2000][book_long_2000] Religious Freedom and Indian Rights and [Laycock 2004][book_laycock_2004_conflicts] Religious Liberty provide the fullest treatments.
+The 25 June 1997 [City of Boerne v. 1997][ref_city_boerne_v_flores_1997] City of Boerne v. Flores Supreme Court decision struck down 1993 Religious Freedom Restoration Act (RFRA) as applied to state and local governments, holding that Congressional Section 5 enforcement power under Fourteenth Amendment could not expand Court's interpretation of First Amendment. The 6-3 decision produced sizable religious freedom jurisprudence recalibration. The [Long 2000][book_long_2000] Religious Freedom and Indian Rights and [Laycock 2004][book_laycock_2004_conflicts] Religious Liberty provide the fullest treatments.
 
-Congressional response through 2000 [Religious Land Use and Institutionalized Persons Act 2000][ref_rluipa_2000] Religious Land Use and Institutionalized Persons Act (RLUIPA) restored religious freedom protection under narrower jurisdictional framework combining Spending Clause and Commerce Clause authority. Approximately 26 states subsequently enacted state RFRAs providing parallel state-level religious freedom protection. Twenty-first-century religious freedom litigation combining business exemption claims (2014 Burby Lobby v. Hobby Lobby, 2015 Obergefell v. Hodges religious dissent claims) built on Boerne and RLUIPA framework treated in subsequent articles.
+Congressional response through 2000 [RLUIPA 2000][ref_rluipa_2000] Religious Land Use and Institutionalized Persons Act (RLUIPA) restored religious freedom protection under narrower jurisdictional framework combining Spending Clause and Commerce Clause authority. Approximately 26 states subsequently enacted state RFRAs providing parallel state-level religious freedom protection. Twenty-first-century religious freedom litigation combining business exemption claims (2014 Burby Lobby v. Hobby Lobby, 2015 Obergefell v. Hodges religious dissent claims) built on Boerne and RLUIPA framework treated in subsequent articles.
 
 ## Left Behind Series and Popular Dispensationalism
 
@@ -605,173 +605,180 @@ This article follows the terminological conventions established in [A266][relate
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Ackerman and Clark 1995 The Cuban Balseros][book_ackerman_clark_1995]
-- [Adogame 2013 The African Christian Diaspora][book_adogame_2013]
-- [Anderson 2004 An Introduction to Pentecostalism][book_anderson_2004_pentecostalism]
-- [Arthur 2010 African Diaspora Identities][book_arthur_2010]
-- [Bagby 2020 The American Mosque Study][book_bagby_2020]
-- [Bald 2013 Bengali Harlem][book_bald_2013]
-- [Barnhart 1988 Jim and Tammy][book_barnhart_1988]
-- [Bass 1996 Vietnamerica][book_bass_1996_vietnamerica]
-- [Blanchard 1994 Anti-Abortion Movement and Religious Right][book_blanchard_1994]
-- [Bilici 2012 Finding Mecca in America][book_bilici_2012]
-- [Blumhofer 1993 Restoring the Faith][book_blumhofer_1993_restoring]
-- [Bonus 2000 Locating Filipino Americans][book_bonus_2000]
-- [Bozorgmehr 1998 From Iranian Studies][book_bozorgmehr_1998]
-- [Chacko 2003 Identity and Assimilation among Ethiopian Immigrants][book_chacko_2003]
-- [Chacon 2018 Producing Undocumented Migration][book_chacon_2018]
-- [Chai 2001 Beyond Strictness][book_chai_2001]
-- [Chan 2004 Survivors (Cambodian)][book_chan_2004]
-- [Chanoff 2002 African Refugees in America][book_chanoff_2002]
-- [Chaves 2011 American Religion][book_chaves_2011]
-- [Chen 2008 Getting Saved in America][book_chen_2008]
-- [Chesnut 2003 Competitive Spirits][book_chesnut_2003]
-- [Cohen 1997 The Boundaries of Blackness (AIDS)][book_cohen_1997]
-- [Coleman 2001 The New Buddhism][book_coleman_2001]
-- [Cottman 1995 Million Man March][book_cottman_1995]
-- [Coughlan and Owens-Manley 2005 Bosnian Refugees in America][book_coughlan_owens_manley_2005]
-- [Coutin 2000 Legalizing Moves][book_coutin_2000]
-- [Curtis 2009 Muslims in America][book_curtis_2009]
-- [Diamond 1998 Not by Politics Alone][book_diamond_1998]
-- [Ellingson 2010 The Megachurch and the Mainline][book_ellingson_2010]
-- [Fetner 2008 How the Religious Right Shaped Lesbian and Gay Activism][book_fetner_2008]
-- [España-Maram 2006 Creating Masculinity in Los Angeles's Little Manila][book_espana_maram_2006]
-- [Fields 1992 How the Swans Came to the Lake][book_fields_1992]
-- [Fine-Dare 2002 Grave Injustice (NAGPRA)][book_fine_dare_2002]
-- [Foner 2000 From Ellis Island to JFK][book_foner_2000]
-- [Franz 2005 Uprooted and Unwanted][book_franz_2005]
-- [Freeman 1995 Changing Identities (Vietnamese)][book_freeman_1995]
-- [Frykholm 2004 Rapture Culture][book_frykholm_2004_rapture]
-- [GhaneaBassiri 2010 A History of Islam in America][book_ghaneabassiri_2010]
-- [Haddad and Esposito 2000 Muslims on the Americanization Path][book_haddad_esposito_2000]
-- [Hagan 1994 Deciding to Be Legal][book_hagan_1994]
-- [Hedges 2008 American Fascists][book_hedges_2008]
-- [Herzog 2011 The Spiritual-Industrial Complex][book_herzog_2011]
-- [Hout Greeley and Wilde 2001 The Demographic Imperative][book_hout_greeley_wilde_2001]
-- [Kanstroom 2007 Deportation Nation][book_kanstroom_2007]
-- [Kirby 2003 Religion and the Cold War][book_kirby_2003]
-- [Kaplan 1992 The Beta Israel][book_kaplan_1992]
-- [Kelley 1993 Irangeles][book_kelley_1993]
-- [Kiernan 2008 The Pol Pot Regime][book_kiernan_2008]
-- [Kosmin and Keysar 2009 American Religious Identification Survey][book_kosmin_keysar_2009]
-- [Kurien 1998 Becoming American, Becoming Indian][book_kurien_1998]
-- [Kurien 2007 A Place at the Multicultural Table][book_kurien_2007]
-- [Kwon Kim and Warner 2001 Korean Americans and Their Religions][book_kwon_kim_warner_2001]
-- [Lee 2015 The Making of Asian America][book_lee_2015]
-- [Laycock 2004 Religious Liberty][book_laycock_2004_conflicts]
-- [Levine 2000 Greater Ethiopia][book_levine_2000]
-- [Long 2000 Religious Freedom and Indian Rights][book_long_2000]
-- [Ling 2004 Chinese Chicago][book_ling_2004]
-- [Madhubuti 1996 Million Man March/Day of Absence][book_madhubuti_1996]
-- [Massey Durand and Malone 2002 Beyond Smoke and Mirrors][book_massey_durand_malone_2002]
-- [Menjivar 2000 Fragmented Ties][book_menjivar_2000]
-- [Michel and Herbeck 2001 American Terrorist][book_michel_herbeck_2001]
-- [Min 2010 Preserving Ethnicity through Religion in America][book_min_2010]
-- [Mortland 2017 Grief and the Healing of the Cambodian Community][book_mortland_2017]
-- [Mostofi 2003 Iranian Americans][book_mostofi_2003]
-- [Ngai 2004 Impossible Subjects][book_ngai_2004]
-- [Pantoja 2003 Filipino American Faith in Action][book_pantoja_2003]
-- [Petro 2015 After the Wrath of God (AIDS)][book_petro_2015]
-- [Prashad 2000 The Karma of Brown Folk][book_prashad_2000]
-- [Prebish 1999 Luminous Passage][book_prebish_1999]
-- [Preston 2012 Sword of the Spirit, Shield of Faith][book_preston_2012]
-- [Putnam and Campbell 2010 American Grace][book_putnam_campbell_2010]
-- [Rangaswamy 2000 Namasté America][book_rangaswamy_2000]
-- [Reed 1994 Politically Incorrect][book_reed_1994_active]
-- [Reimers 1985 Still the Golden Door][book_reimers_1985]
-- [Richman 2005 Migration and Vodou][book_richman_2005]
-- [Riding In and Trope 2011 Repatriation Reader][book_riding_in_trope_2011]
-- [Risen and Thomas 1998 Wrath of Angels (Anti-Abortion)][book_risen_thomas_1998]
-- [Robinson 1998 Terms of Refuge][book_robinson_1998]
-- [Roozen and Hadaway 1993 Church and Denominational Growth][book_roozen_hadaway_1993]
-- [Salamon 1999 The Hyena People][book_salamon_1999]
-- [Sanasarian 2000 Religious Minorities in Iran][book_sanasarian_2000]
-- [Seager 1999 Buddhism in America][book_seager_1999]
-- [Shepard 1989 Forgiven (Jim Bakker)][book_shepard_1989]
-- [Singh 2013 Sikhs in America][book_singh_2013]
-- [Smith 2010 Islam in America][book_smith_2010_islam]
-- [Stepick 1998 Pride Against Prejudice (Haitians)][book_stepick_1998]
-- [Stoll 1990 Is Latin America Turning Protestant][book_stoll_1990]
-- [Sutton 2014 American Apocalypse][book_sutton_2014]
-- [Tabor and Gallagher 1995 Why Waco][book_tabor_gallagher_1995]
-- [Thumma and Travis 2007 Beyond Megachurch Myths][book_thumma_travis_2007]
-- [Tichenor 2002 Dividing Lines][book_tichenor_2002]
-- [Wacker 2001 Heaven Below][book_wacker_2001]
-- [Waldinger and Lichter 2003 How the Other Half Works][book_waldinger_lichter_2003]
-- [Warren 1995 The Purpose Driven Church][book_warren_1995]
-- [Weber 2004 On the Road to Armageddon (Dispensationalism)][book_weber_2004_road]
-- [Waters and Ueda 2007 The New Americans][book_waters_ueda_2007]
-- [Williams 2010 God's Own Party][book_williams_2010]
-- [Wright 1995 Armageddon in Waco][book_wright_1995]
-- [Wuthnow 1988 The Restructuring of American Religion][book_wuthnow_1988]
-- [Yang 1999 Chinese Christians in America][book_yang_1999]
-- [Yankah 2018 African Immigrants and Religious Pluralism][book_yankah_2018]
-- [Zhou 1992 Chinatown][book_zhou_1992]
-- [Zolberg 2006 A Nation by Design][book_zolberg_2006]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- AEDPA. 1996. *Antiterrorism and Effective Death Penalty Act*. [https://scholar.google.com/scholar?q=Antiterrorism+and+Effective+Death+Penalty+Act+AEDPA+1996][ref_aedpa_1996]
+- "Amerasian Homecoming Act." 1987. [https://www.congress.gov/bill/100th-congress/house-bill/3966][ref_amerasian_homecoming_act_1987]
+- "American Baptist Churches v. Thornburgh." 1991. [https://law.justia.com/cases/federal/district-courts/FSupp/760/796/][ref_abc_v_thornburgh_1991]
+- "Chinese Student Protection Act." 1992. [https://www.congress.gov/bill/102nd-congress/house-bill/2712][ref_chinese_student_protection_1992]
+- "City of Boerne v. Flores, 521 U.S. 507 (1997)." 1997. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/521/507/][ref_city_boerne_v_flores_1997]
+- Executive Order 12711. 1990. "(Chinese Students)." [https://www.presidency.ucsb.edu/documents/executive-order-12711-policy-implementation-with-respect-nationals-the-peoples-republic][ref_executive_order_12711_1990]
+- FACE Act. 1994. *Freedom of Access to Clinic Entrances*. [https://scholar.google.com/scholar?q=Freedom+of+Access+to+Clinic+Entrances+FACE+Act+1994][ref_face_act_1994]
+- "General Framework Agreement for Peace in Bosnia and Herzegovina." 1995. Washington, DC: Government Printing Office, 1996.. Accessed October 25, 2026. [https://avalon.law.yale.edu/20th\_century/day01.asp][ref_dayton_accords_1995]
+- "Haitian Refugee Immigration Fairness Act." 1998. [https://www.uscis.gov/laws-and-policy/legislation/hrifa][ref_hrifa_1998]
+- IIRIRA. 1996. *Illegal Immigration Reform and Immigrant Responsibility Act*. [https://scholar.google.com/scholar?q=Illegal+Immigration+Reform+and+Immigrant+Responsibility+Act+IIRIRA+1996][ref_iirira_1996]
+- "Immigration Act." 1990. [https://www.congress.gov/bill/101st-congress/senate-bill/358][ref_immigration_act_1990]
+- "INS v. Cardoza-Fonseca." 1987. [https://supreme.justia.com/cases/federal/us/480/421/][ref_ins_v_cardoza_fonseca_1987]
+- IRCA. 1986. "Immigration Reform and Control Act." [https://www.congress.gov/bill/99th-congress/senate-bill/1200][ref_irca_1986]
+- NACARA. 1997. "Nicaraguan Adjustment and Central American Relief Act." [https://www.uscis.gov/laws-and-policy/legislation/nacara][ref_nacara_1997]
+- "Planned Parenthood of Southeastern Pa. v. Casey, 505 U.S. 833 (1992)." 1992. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/505/833/][ref_pp_v_casey_1992]
+- PRWORA. 1996. *Personal Responsibility and Work Opportunity Reconciliation Act*. [https://scholar.google.com/scholar?q=Personal+Responsibility+and+Work+Opportunity+Reconciliation+Act+PRWORA+1996][ref_prwora_1996]
+- "Roe v. Wade." 1973. [https://supreme.justia.com/cases/federal/us/410/113/][ref_roe_v_wade_1973]
+- "US-Cuba Migration Accord." 1994. [https://www.uscis.gov/history-and-genealogy/our-history/agency-history/cuban-migration-accord][ref_us_cuba_migration_accord_1994]
+- USCCB AIDS Statement. 1987. "(Many Faces of AIDS)." [https://www.usccb.org/committees/domestic-justice-and-human-development/many-faces-aids-1987][ref_usccb_aids_1987]
 
-- [AEDPA 1996 Antiterrorism and Effective Death Penalty Act][ref_aedpa_1996]
-- [Amerasian Homecoming Act 1987][ref_amerasian_homecoming_act_1987]
-- [American Baptist Churches v. Thornburgh 1991][ref_abc_v_thornburgh_1991]
-- [ARIS 1990 and 2008 American Religious Identification Surveys][ref_aris_1990_2008]
-- [Chinese Student Protection Act 1992][ref_chinese_student_protection_1992]
-- [City of Boerne v. Flores 1997][ref_city_boerne_v_flores_1997]
-- [Contract with America 1994][ref_contract_with_america_1994]
-- [Contract with the American Family 1995 (Christian Coalition)][ref_contract_american_family_1995]
-- [Danforth Report 2000 (Waco Special Counsel)][ref_danforth_report_2000]
-- [Dayton Peace Accords 1995][ref_dayton_accords_1995]
-- [Dobson 1970 Dare to Discipline][ref_dobson_1970_dare]
-- [Executive Order 12711 1990 (Chinese Students)][ref_executive_order_12711_1990]
-- [Farrakhan 1995 Million Man March Address][ref_farrakhan_1995_mmm]
-- [FACE Act 1994 Freedom of Access to Clinic Entrances][ref_face_act_1994]
-- [Gallup Religion Surveys][ref_gallup_religion_surveys]
-- [IIRIRA 1996 Illegal Immigration Reform and Immigrant Responsibility Act][ref_iirira_1996]
-- [Immigration Act 1990][ref_immigration_act_1990]
-- [INS v. Cardoza-Fonseca 1987][ref_ins_v_cardoza_fonseca_1987]
-- [Haitian Refugee Immigration Fairness Act 1998][ref_hrifa_1998]
-- [IRCA 1986 Immigration Reform and Control Act][ref_irca_1986]
-- [NACARA 1997 Nicaraguan Adjustment and Central American Relief Act][ref_nacara_1997]
-- [NAGPRA 1990 Native American Graves Protection and Repatriation Act][ref_nagpra_1990]
-- [Oklahoma City Bombing 1995][ref_oklahoma_city_bombing_1995]
-- [Planned Parenthood v. Casey 1992][ref_pp_v_casey_1992]
-- [Pew Nones on the Rise 2012][ref_pew_nones_2012]
-- [Pew Research US Religious Landscape 2014][ref_pew_religious_landscape_2014]
-- [PRWORA 1996 Personal Responsibility and Work Opportunity Reconciliation Act][ref_prwora_1996]
-- [Reagan 1983 Evil Empire Speech][ref_reagan_1983_evil_empire]
-- [Reagan 1984 NAE Address][ref_reagan_1984_nae]
-- [RLUIPA 2000 Religious Land Use and Institutionalized Persons Act][ref_rluipa_2000]
-- [Roe v. Wade 1973][ref_roe_v_wade_1973]
-- [US-Cuba Migration Accord 1994][ref_us_cuba_migration_accord_1994]
-- [USCCB AIDS Statement 1987 (Many Faces of AIDS)][ref_usccb_aids_1987]
-- [Waco Branch Davidian 1993][ref_waco_branch_davidian_1993]
-- [Waco DOJ Report 1993][ref_waco_doj_1993]
-- [Wagner 1988 The Third Wave of the Holy Spirit][ref_wagner_1988_third_wave]
-- [Warren 2002 Purpose Driven Life][ref_warren_2002_purpose]
+### Secondary Sources
+
+- Ackerman, Holly, and Clark. 1995. *The Cuban Balseros: Voyage of Uncertainty*. Policy Center of the Cuban American National Council. [https://openlibrary.org/works/OL38480345W][book_ackerman_clark_1995]
+- Adogame, Afeosemime U. 2013. *The African Christian Diaspora: New Currents and Emerging Trends in World Christianity*. Bloomsbury. [https://bloomsbury.com/us/african-christian-diaspora-9781441189714/][book_adogame_2013]
+- Anderson, Allan. 2004. *An Introduction to Pentecostalism: Global Charismatic Christianity (Introduction to Religion)*. Cambridge University Press. [https://www.cambridge.org/9780521524964][book_anderson_2004_pentecostalism]
+- Arthur, John A. 2010. *African Diaspora Identities: Negotiating Culture in Transnational Migration*. Lexington Books. [https://openlibrary.org/works/OL19640499W][book_arthur_2010]
+- Bagby. 2020. *The American Mosque Study*. [https://www.ispu.org/american-mosque-2020/][book_bagby_2020]
+- Bald, Vivek. 2013. *Bengali Harlem and the Lost Histories of South Asian America*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674503854][book_bald_2013]
+- Barnhart, Joe E. 1988. *Jim and Tammy: Charismatic Intrigue inside PTL*. Prometheus Books. [https://openlibrary.org/works/OL507812W][book_barnhart_1988]
+- Bass, Thomas A. 1996. *Vietnamerica: The War Comes Home*. Soho. [https://www.hup.harvard.edu/books/9780674937109][book_bass_1996_vietnamerica]
+- Bilici, Mucahit. 2012. *Finding Mecca in America: How Islam Is Becoming an American Religion*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/F/bo11711834.html][book_bilici_2012]
+- Blanchard, Dallas A. 1994. *The Anti-Abortion Movement and the Rise of the Religious Right: From Polite to Fiery Protest*. Twayne Publishers. [https://openlibrary.org/works/OL2986213W][book_blanchard_1994]
+- Blumhofer, Edith L. 1993. *Restoring the Faith: The Assemblies of God, Pentecostalism, and American Culture*. University of Illinois Press. [https://www.uipress.uiowa.edu/9780252065088/restoring-the-faith/][book_blumhofer_1993_restoring]
+- Bonus, Rick. 2000. *Locating Filipino Americans: Ethnicity and the Cultural Politics of Space*. Temple University Press. [https://www.temple.edu/tempress/titles/1519\_reg.html][book_bonus_2000]
+- Bozorgmehr. 1998. *From Iranian Studies*. [https://scholar.google.com/scholar?q=bozorgmehr+1998+iranian+studies+diaspora][book_bozorgmehr_1998]
+- Chacko. 2003. *Identity and Assimilation among Ethiopian Immigrants*. [https://scholar.google.com/scholar?q=chacko+2003+ethiopian+immigrants+identity+assimilation][book_chacko_2003]
+- Chacon. 2018. *Producing Undocumented Migration*. [https://global.oup.com/academic/product/producing-undocumented-migration-9781316634516][book_chacon_2018]
+- Chai. 2001. *Beyond Strictness*. [https://global.oup.com/academic/product/beyond-strictness-9780271025148][book_chai_2001]
+- Chan. 2004. *Survivors (Cambodian)*. [https://uofnpress.utenn.edu/9780252071249/survivors/][book_chan_2004]
+- Chanoff. 2002. *African Refugees in America*. [https://scholar.google.com/scholar?q=chanoff+2002+african+refugees+america][book_chanoff_2002]
+- Chaves, Mark. 2011. *American Religion: Contemporary Trends*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691152233/american-religion][book_chaves_2011]
+- Chen, Carolyn. 2008. *Getting Saved in America: Taiwanese Immigration and Religious Experience*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691134529/getting-saved-in-america][book_chen_2008]
+- Chesnut, R. Andrew. 2003. *Competitive Spirits: Latin America's New Religious Economy*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/competitive-spirits-9780195305173][book_chesnut_2003]
+- Cohen. 1997. *The Boundaries of Blackness (AIDS)*. [https://press.uchicago.edu/ucp/books/book/chicago/B/bo3617649.html][book_cohen_1997]
+- Coleman, James William. 2001. *The New Buddhism: The Western Transformation of an Ancient Tradition*. Oxford University Press. [https://global.oup.com/academic/product/the-new-buddhism-9780195152418][book_coleman_2001]
+- Contract with the American Family. 1995. *(Christian Coalition)*. [https://catalog.hathitrust.org/Record/002935146][ref_contract_american_family_1995]
+- Cottman, Michael H. 1995. *Million Man March*. Crown Trade Paperbacks. [https://openlibrary.org/works/OL1924234W][book_cottman_1995]
+- Coughlan, Reed, and Judith Owens-Manley. 2005. *Bosnian Refugees in America*. Springer. [https://openlibrary.org/works/OL18344522W][book_coughlan_owens_manley_2005]
+- Coutin, Susan Bibler. 2000. *Legalizing Moves: Salvadoran Immigrants' Struggle for U.S. Residency*. University of Michigan Press. [https://press.umich.edu/Books/L/Legalizing-Moves][book_coutin_2000]
+- Curtis, Edward E. 2009. *Muslims in America: A Short History*. Oxford University Press. [https://facts-on-file.com/curtis-muslims-america][book_curtis_2009]
+- Diamond, Sara. 1998. *Not by Politics Alone: The Enduring Influence of the Christian Right*. Guilford Press. [https://global.oup.com/academic/product/not-by-politics-alone-9781572303331][book_diamond_1998]
+- Ellingson, Stephen. 2010. *The Megachurch and the Mainline: Remaking Religious Tradition in the Twenty-First Century*. University of Chicago Press. [https://uofnpress.utenn.edu/9780813547954/the-megachurch-and-the-mainline/][book_ellingson_2010]
+- Espana-Maram, Linda. 2006. *Creating Masculinity in Los Angeles's Little Manila: Working-Class Filipinos and Popular Culture, 1920s-1950s*. Columbia University Press. [https://cup.columbia.edu/book/creating-masculinity-in-los-angeless-little-manila/9780231115940][book_espana_maram_2006]
+- Fetner, Tina. 2008. *How the Religious Right Shaped Lesbian and Gay Activism*. University of Minnesota Press. [https://www.upress.umn.edu/book-division/books/how-the-religious-right-shaped-lesbian-and-gay-activism][book_fetner_2008]
+- Fields, Rick. 1992. *How the Swans Came to the Lake*. Shambhala Publications, Incorporated. [https://www.shambhala.com/how-the-swans-came-to-the-lake-1541.html][book_fields_1992]
+- Fine-Dare, Kathleen S. 2002. *Grave Injustice: The American Indian Repatriation Movement and NAGPRA*. University of Nebraska Press. [https://www.nebraskapress.unl.edu/nebraska/9780803269088/][book_fine_dare_2002]
+- Foner, Nancy. 2000. *From Ellis Island to JFK: New York\`s Two Great Waves of Immigration*. Yale University Press. [https://yalebooks.yale.edu/book/9780300091731/from-ellis-island-to-jfk/][book_foner_2000]
+- Franz. 2005. *Uprooted and Unwanted*. [https://www.penguinrandomhouse.com/books/207994/uprooted-and-unwanted-by-barbara-franz][book_franz_2005]
+- Freeman. 1995. *Changing Identities (Vietnamese)*. [https://sup.org/books/title/?id=1899][book_freeman_1995]
+- Frykholm, Amy Johnson. 2004. *Rapture Culture: Left behind in Evangelical America*. Oxford University Press. [https://global.oup.com/academic/product/rapture-culture-9780195159820][book_frykholm_2004_rapture]
+- GhaneaBassiri, Kambiz. 2010. *A History of Islam in America: From the New World to the New World Order*. Cambridge University Press. [https://www.cambridge.org/9780521614870][book_ghaneabassiri_2010]
+- Haddad, Yvonne Yazbeck, and John L. Esposito. 2000. *Muslims on the Americanization Path?*. Ebsco Publishing. [https://global.oup.com/academic/product/muslims-on-the-americanization-path-9780195136340][book_haddad_esposito_2000]
+- Hagan, Jacqueline Maria. 1994. *Deciding to Be Legal: A Maya Community in Houston*. Temple University Press. [https://www.temple.edu/tempress/titles/978\_reg.html][book_hagan_1994]
+- Hedges, Chris. 2008. *American Fascists: The Christian Right and the War on America*. Free Press. [https://www.simonandschuster.com/books/American-Fascists/Chris-Hedges/9780743284462][book_hedges_2008]
+- Herzog, Jonathan P. 2011. *The Spiritual-Industrial Complex: America's Religious Battle against Communism in the Early Cold War*. Oxford University Press. [https://global.oup.com/academic/product/the-spiritual-industrial-complex-9780199797608][book_herzog_2011]
+- Hout, Greeley, and Wilde. 2001. *The Demographic Imperative*. [https://www.russellsage.org/publications/demographic-imperative][book_hout_greeley_wilde_2001]
+- Kanstroom, Daniel. 2007. *Deportation Nation: Outsiders in American History*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674025967][book_kanstroom_2007]
+- Kaplan, Steven, and Steven B. Kaplan. 1992. *The Beta Israel: Falasha in Ethiopia: From Earliest Times to the Twentieth Century (Falasha in Ethiopia: From Earliest Times to the Twentieth Century)*. New York University Press. [https://cup.columbia.edu/book/the-beta-israel/9780814791110][book_kaplan_1992]
+- Kelley. 1993. *Irangeles*. [https://scholar.google.com/scholar?q=kelley+1993+irangeles+iranian+los+angeles][book_kelley_1993]
+- Kiernan, Ben. 2008. *The Pol Pot Regime: Race, Power, and Genocide in Cambodia under the Khmer Rouge, 1975-79*. Yale Univ Pr. [https://yalebooks.yale.edu/book/9780300144345/the-pol-pot-regime/][book_kiernan_2008]
+- Kirby, D. 2003. *Religion and the Cold War*. Palgrave Macmillan. [https://global.oup.com/academic/product/religion-and-the-cold-war-9781403913685][book_kirby_2003]
+- Kosmin, Barry A., and Keysar. 2009. *American Religious Identification Survey 2001*. Graduate Center of the City University of New York. [https://commons.trincoll.edu/aris/publications/aris-2008-summary-report/][book_kosmin_keysar_2009]
+- Kurien. 1998. *Becoming American, Becoming Indian*. [https://scholar.google.com/scholar?q=kurien+1998+becoming+american+becoming+indian][book_kurien_1998]
+- Kurien, Prema A. 2007. *A Place at the Multicultural Table: The Development of an American Hinduism*. Rutgers. [https://rutgersuniversitypress.org/a-place-at-the-multicultural-table/9780813540559/][book_kurien_2007]
+- Kwon, Ho-Youn, Kwang Chung Kim, and R. Stephen Warner. 2001. *Korean Americans and Their Religions: Pilgrams and Missionaries from a Different Shore*. Pennsylvania State University Press. [https://www.psupress.org/books/titles/0-271-02074-2.html][book_kwon_kim_warner_2001]
+- Laycock. 2004. *Religious Liberty*. [https://www.eerdmans.com/9780802821898/religious-liberty/][book_laycock_2004_conflicts]
+- Lee, Erika. 2015. *The Making of Asian America: A History*. Simon & Schuster. [https://www.simonandschuster.com/books/The-Making-of-Asian-America/Erika-Lee/9781476739403][book_lee_2015]
+- Levine, Donald Nathan. 2000. *Greater Ethiopia: The Evolution of a Multiethnic Society*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/G/bo3644089.html][book_levine_2000]
+- Ling. 2004. *Chinese Chicago*. [https://sup.org/books/title/?id=2144][book_ling_2004]
+- Long, Carolyn N. 2000. *Religious Freedom and Indian Rights: The Case of Oregon v. Smith*. University Press of Kansas. [https://kansaspress.ku.edu/978-0-7006-1005-6.html][book_long_2000]
+- Madhubuti, Haki R. 1996. *Million Man March/Day of Absence: A Commemorative Anthology: Speeches, Commentary, Photography, Poetry, Illustrations, Documents*. Third World Press. [https://openlibrary.org/works/OL18226003W][book_madhubuti_1996]
+- Massey, Douglas S., Jorge Durand, and Nolan J. Malone. 2002. *Beyond Smoke and Mirrors: Mexican Immigration in an Era of Economic Integration*. Russell Sage Foundation Publications. [https://www.russellsage.org/publications/beyond-smoke-and-mirrors][book_massey_durand_malone_2002]
+- Menjívar, Cecilia. 2000. *Fragmented Ties: Salvadoran Immigrant Networks in America*. University of California Press. [https://www.ucpress.edu/book/9780520222113/fragmented-ties][book_menjivar_2000]
+- Michel, Lou, and Dan Herbeck. 2001. *American Terrorist*. Regan Books. [https://www.harpercollins.com/products/american-terrorist-lou-michel][book_michel_herbeck_2001]
+- Min, Pyong Gap. 2010. *Preserving Ethnicity through Religion in America: Korean Protestants and Indian Hindus across Generations*. New York University Press. [https://global.oup.com/academic/product/preserving-ethnicity-through-religion-in-america-9780814795866][book_min_2010]
+- Mortland. 2017. *Grief and the Healing of the Cambodian Community*. [https://uofnpress.utenn.edu/9780813588476/grief-and-the-healing-of-the-cambodian-community/][book_mortland_2017]
+- Mostofi. 2003. *Iranian Americans*. [https://scholar.google.com/scholar?q=mostofi+2003+iranian+americans][book_mostofi_2003]
+- Ngai, Mae M. 2004. *Impossible Subjects: Illegal Aliens and the Making of Modern America*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691160825/impossible-subjects][book_ngai_2004]
+- Pantoja. 2003. *Filipino American Faith in Action*. [https://scholar.google.com/scholar?q=pantoja+2003+filipino+american+faith+action][book_pantoja_2003]
+- Petro, Anthony M. 2015. *After the Wrath of God: AIDS, Sexuality, and American Religion*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/after-the-wrath-of-god-9780199391288][book_petro_2015]
+- Prashad, Vijay. 2000. *The Karma of Brown Folk*. University of Minnesota Press. [https://www.upress.umn.edu/book-division/books/the-karma-of-brown-folk][book_prashad_2000]
+- Prebish, Charles S. 1999. *Luminous Passage: The Practice and Study of Buddhism in America*. University of California Press. [https://www.ucpress.edu/book/9780520216976/luminous-passage][book_prebish_1999]
+- Preston, Andrew. 2012. *Sword of the Spirit, Shield of Faith: Religion in American War and Diplomacy*. Alfred A. Knopf. [https://www.penguinrandomhouse.com/books/298018/sword-of-the-spirit-shield-of-faith-by-andrew-preston/][book_preston_2012]
+- Putnam, Robert D., and Campbell. 2010. *American Grace: How Religion Divides and Unites Us*. Simon & Schuster, Limited. [https://www.simonandschuster.com/books/American-Grace/Robert-D-Putnam/9781416566731][book_putnam_campbell_2010]
+- Rangaswamy, Padma. 2000. *Namasté America: Indian Immigrants in an American Metropolis*. Pennsylvania State University Press. [https://global.oup.com/academic/product/namaste-america-9780271020273][book_rangaswamy_2000]
+- Reed, Ralph. 1994. *Politically Incorrect: The Emerging Faith Factor in American Politics*. Word Publishing. [https://www.simonandschuster.com/books/Politically-Incorrect/Ralph-Reed/9780849936371][book_reed_1994_active]
+- Reimers, David M. 1985. *Still the Golden Door: The Third World Comes to America*. Columbia University Press. [https://cup.columbia.edu/book/still-the-golden-door/9780231073844][book_reimers_1985]
+- Richman, Karen E. 2005. *Migration and Vodou (New World Diasporas)*. University Press of Florida. [https://uofnpress.utenn.edu/9780813037592/migration-and-vodou/][book_richman_2005]
+- Riding, In, and Trope. 2011. *Repatriation Reader*. [https://global.oup.com/academic/product/repatriation-reader-9780803226326][book_riding_in_trope_2011]
+- Risen and Thomas. 1998. *Wrath of Angels (Anti-Abortion)*. [https://global.oup.com/academic/product/wrath-of-angels-9780465091188][book_risen_thomas_1998]
+- Robinson, Court. 1998. *Terms of Refuge: The Indochinese Exodus & the International Response*. Zed Books. [https://www.zedbooks.net/shop/book/terms-of-refuge][book_robinson_1998]
+- Roozen, David A., and C. Kirk Hadaway. 1993. *Church and Denominational Growth*. Abingdon Press. [https://openlibrary.org/works/OL18987889W][book_roozen_hadaway_1993]
+- Salamon, Hagar. 1999. *The Hyena People: Ethiopian Jews in Christian Ethiopia (Contraversions: Critical Studies in Jewish Literature, Culture, and Society, 13)*. University of California Press. [https://www.ucpress.edu/book/9780520216907/the-hyena-people][book_salamon_1999]
+- Sanasarian, Eliz. 2000. *Religious Minorities in Iran (Cambridge Middle East Studies)*. Cambridge University Press. [https://www.cambridge.org/9780521770735][book_sanasarian_2000]
+- Seager, Richard Hughes. 1999. *Buddhism in America*. Columbia University Press. [https://cup.columbia.edu/book/buddhism-in-america/9780231108690][book_seager_1999]
+- Shepard. 1989. *Forgiven (Jim Bakker)*. [https://scholar.google.com/scholar?q=shepard+1989+forgiven+jim+bakker][book_shepard_1989]
+- Singh. 2013. *Sikhs in America*. [https://global.oup.com/academic/product/sikhs-in-america-9780199837601][book_singh_2013]
+- Smith, Jane I. 2010. *Islam in America*. Columbia University Press. [https://cup.columbia.edu/book/islam-in-america/9780231147101][book_smith_2010_islam]
+- Stepick. 1998. *Pride Against Prejudice (Haitians)*. [https://www.pearson.com/us/higher-education/program/Stepick-Pride-Against-Prejudice-Haitians-in-the-United-States/PGM95195.html][book_stepick_1998]
+- Stoll, David. 1990. *Is Latin America Turning Protestant?: The Politics of Evangelical Growth*. University of California Press. [https://www.ucpress.edu/book/9780520076457/is-latin-america-turning-protestant][book_stoll_1990]
+- Sutton, Matthew Avery. 2014. *American Apocalypse: A History of Modern Evangelicalism*. Belknap Press. [https://www.hup.harvard.edu/books/9780674048362][book_sutton_2014]
+- Tabor, James D., and Eugene V. Gallagher. 1995. *Why Waco?: Cults and the Battle for Religious Freedom in America*. University of California Press. [https://www.ucpress.edu/book/9780520207981/why-waco][book_tabor_gallagher_1995]
+- Thumma, Scott, and Dave Travis. 2007. *Beyond Megachurch Myths: What We Can Learn from America's Largest Churches (J-B Leadership Network Series)*. Jossey-Bass. [https://www.wjkbooks.com/9780787994679/beyond-megachurch-myths/][book_thumma_travis_2007]
+- Tichenor, Daniel J. 2002. *Dividing Lines: The Politics of Immigration Control in America*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691088051/dividing-lines][book_tichenor_2002]
+- Wacker, Grant. 2001. *Heaven Below: Early Pentecostals and American Culture*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674011052][book_wacker_2001]
+- Waldinger, Roger, and Michael I. Lichter. 2003. *How the Other Half Works: Immigration and the Social Organization of Labor*. University of California Press. [https://www.ucpress.edu/book/9780520233591/how-the-other-half-works][book_waldinger_lichter_2003]
+- Warren, Rick. 1995. *The Purpose Driven Church: Growth without Compromising Your Message & Mission*. Zondervan Pub. [https://www.zondervan.com/9780310201069/the-purpose-driven-church/][book_warren_1995]
+- Warren, Rick. 2002. *Purpose-Driven Life, The: What on Earth Am I Here For?*. Zondervan. [https://www.zondervan.com/9780310337508/the-purpose-driven-life/][ref_warren_2002_purpose]
+- Waters and Reed Ueda. 2007. *The New Americans: A Guide to Immigration since 1965 (Harvard University Press Reference Library)*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674023574][book_waters_ueda_2007]
+- Weber. 2004. *On the Road to Armageddon (Dispensationalism)*. [https://bakerpublishinggroup.com/books/on-the-road-to-armageddon/311876][book_weber_2004_road]
+- Williams, Daniel K. 2010. *God's Own Party: The Making of the Christian Right*. Oxford University Press. [https://global.oup.com/academic/product/gods-own-party-9780199754373][book_williams_2010]
+- Wright, Stuart A. 1995. *Armageddon in Waco: Critical Perspectives on the Branch Davidian Conflict*. University Of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/A/bo3644101.html][book_wright_1995]
+- Wuthnow, Robert. 1988. *The Restructuring of American Religion: Society and Faith since World War II*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691073682/the-restructuring-of-american-religion][book_wuthnow_1988]
+- Yang, Fenggang. 1999. *Chinese Christians in America: Conversion, Assimilation, and Adhesive Identities*. Ebsco Publishing. [https://www.psupress.org/books/titles/0-271-01858-6.html][book_yang_1999]
+- Yankah. 2018. *African Immigrants and Religious Pluralism*. [https://global.oup.com/academic/product/african-immigrants-and-religious-pluralism-9780814725634][book_yankah_2018]
+- Zhou, Min. 1992. *Chinatown: The Socioeconomic Potential of an Urban Enclave*. Temple University Press. [https://www.temple.edu/tempress/titles/933\_reg.html][book_zhou_1992]
+- Zolberg, Aristide R. 2006. *A Nation by Design: Immigration Policy in the Fashioning of America*. Russell Sage Foundation. [https://www.hup.harvard.edu/books/9780674022188][book_zolberg_2006]
+
+### Commercial Sources
+
+- Author, No. 2012. "“Nones” on the Rise." Pew Research Center, October 9. [https://www.pewresearch.org/religion/2012/10/09/nones-on-the-rise/][ref_pew_nones_2012]
+- NAGPRA. 1990. "Native American Graves Protection and Repatriation Act (U.S. National Park Service)." Accessed October 25, 2026. [https://www.nps.gov/subjects/nagpra/index.htm][ref_nagpra_1990]
+- "Religious Landscape Study." 2014. Pew Research Center. Accessed October 25, 2026. [https://www.pewresearch.org/religion/religious-landscape-study/][ref_pew_religious_landscape_2014]
+
+### General Sources
+
+- ARIS. 1990. "and 2008 American Religious Identification Surveys." [https://commons.trincoll.edu/aris/publications/aris-2008-summary-report/][ref_aris_1990_2008]
+- "Contract with America." 1994. [https://www.house.gov/legislative/history/contract-with-america][ref_contract_with_america_1994]
+- Danforth Report. 2000. "(Waco Special Counsel)." [https://www.justice.gov/archives/publications/danforth-report-2000][ref_danforth_report_2000]
+- Dobson. 1970. "Dare to Discipline." [https://www.tyndale.com/p/the-new-dare-to-discipline][ref_dobson_1970_dare]
+- Farrakhan. 1995. "Million Man March Address." [https://www.finalcall.com/artman/publish/Perspectives\_1/Minister\_Louis\_Farrakhan\_s\_1995\_Million\_Man\_March\_Address\_9820.shtml][ref_farrakhan_1995_mmm]
+- "Gallup Religion Surveys." n.d. Accessed October 25, 2026. [https://news.gallup.com/poll/1690/religion.aspx][ref_gallup_religion_surveys]
+- "Oklahoma City Bombing." 1995. Federal Bureau of Investigation. Accessed October 25, 2026. [https://www.fbi.gov/history/famous-cases/oklahoma-city-bombing][ref_oklahoma_city_bombing_1995]
+- Reagan. 1983. "Evil Empire Speech." [https://www.reaganfoundation.org/ronald-reagan/reagan-quotes-speeches/evil-empire-speech/][ref_reagan_1983_evil_empire]
+- Reagan. 1984. "NAE Address." [https://www.reaganfoundation.org/ronald-reagan/reagan-quotes-speeches/remarks-national-association-of-evangelicals-columbus-ohio-march-6-1984/][ref_reagan_1984_nae]
+- RLUIPA. 2000. "Religious Land Use and Institutionalized Persons Act." Accessed October 25, 2026. [https://www.justice.gov/crt/religious-land-use-and-institutionalized-persons-act][ref_rluipa_2000]
+- "Waco DOJ Report." 1993. [https://www.justice.gov/publications/waco-report][ref_waco_branch_davidian_1993]
+- Wagner. 1988. "The Third Wave of the Holy Spirit." [https://scholar.google.com/scholar?q=wagner+1988+third+wave+holy+spirit][ref_wagner_1988_third_wave]
 
 ### Related Posts
 
-- [A266 Ethnoreligion Framing and Three Substrates][related_post_a266_framing]
-- [A267 Ethnoreligion Colonial Folkways and Early Diffusion][related_post_a267_colonial_folkways]
-- [A268 Ethnoreligion Awakening and Founding][related_post_a268_awakening_and_founding]
-- [A269 Ethnoreligion Second Awakening and Reform][related_post_a269_second_awakening_and_reform]
-- [A270 Ethnoreligion Civil War and Reconstruction][related_post_a270_civil_war_and_reconstruction]
-- [A271 Ethnoreligion Mass Immigration and Closure][related_post_a271_mass_immigration_and_closure]
-- [A272 Ethnoreligion Depression War and Refuge][related_post_a272_depression_war_and_refuge]
-- [A273 Ethnoreligion Postwar Transformation and Reopening][related_post_a273_postwar_transformation_and_reopening]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Indigenous, African, and European Ethnoreligious Substrates." *Brendan A R Sechter's Development Blog*, January 3. [https://sgeos.github.io/history/economics/religion/2026/01/03/ethnoreligion\_and\_american\_political\_economy\_framing.html][related_post_a266_framing]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contact, Colonial Folkways, and Early Diffusion 1607-1725." *Brendan A R Sechter's Development Blog*, January 4. [https://sgeos.github.io/history/economics/religion/2026/01/04/ethnoreligion\_and\_american\_political\_economy\_colonial\_folkways.html][related_post_a267_colonial_folkways]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Great Awakening, Revolution, and Founding 1725-1789." *Brendan A R Sechter's Development Blog*, January 5. [https://sgeos.github.io/history/economics/religion/2026/01/05/ethnoreligion\_and\_american\_political\_economy\_awakening\_and\_founding.html][related_post_a268_awakening_and_founding]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Second Great Awakening, Removal, and Antebellum Reform 1789-1861." *Brendan A R Sechter's Development Blog*, January 6. [https://sgeos.github.io/history/economics/religion/2026/01/06/ethnoreligion\_and\_american\_political\_economy\_second\_awakening\_and\_reform.html][related_post_a269_second_awakening_and_reform]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Civil War, Reconstruction, and Continental Consolidation 1861-1900." *Brendan A R Sechter's Development Blog*, January 7. [https://sgeos.github.io/history/economics/religion/2026/01/07/ethnoreligion\_and\_american\_political\_economy\_civil\_war\_and\_reconstruction.html][related_post_a270_civil_war_and_reconstruction]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Mass Immigration and Restrictionist Closure 1900-1924." *Brendan A R Sechter's Development Blog*, January 8. [https://sgeos.github.io/history/economics/religion/2026/01/08/ethnoreligion\_and\_american\_political\_economy\_mass\_immigration\_and\_closure.html][related_post_a271_mass_immigration_and_closure]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Depression, War, and Refuge 1924-1945." *Brendan A R Sechter's Development Blog*, January 9. [https://sgeos.github.io/history/economics/religion/2026/01/09/ethnoreligion\_and\_american\_political\_economy\_depression\_war\_and\_refuge.html][related_post_a272_depression_war_and_refuge]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Postwar Transformation and Reopening 1945-1980." *Brendan A R Sechter's Development Blog*, January 10. [https://sgeos.github.io/history/economics/religion/2026/01/10/ethnoreligion\_and\_american\_political\_economy\_postwar\_transformation\_and\_reopening.html][related_post_a273_postwar_transformation_and_reopening]
 
-[book_ackerman_clark_1995]: https://scholar.google.com/scholar?q=ackerman+clark+1995+cuban+balseros
+[book_ackerman_clark_1995]: https://openlibrary.org/works/OL38480345W
 [book_adogame_2013]: https://bloomsbury.com/us/african-christian-diaspora-9781441189714/
 [book_anderson_2004_pentecostalism]: https://www.cambridge.org/9780521524964
-[book_arthur_2010]: https://scholar.google.com/scholar?q=arthur+2010+african+diaspora+identities
+[book_arthur_2010]: https://openlibrary.org/works/OL19640499W
 [book_bagby_2020]: https://www.ispu.org/american-mosque-2020/
 [book_bald_2013]: https://www.hup.harvard.edu/books/9780674503854
-[book_barnhart_1988]: https://scholar.google.com/scholar?q=barnhart+1988+jim+and+tammy
+[book_barnhart_1988]: https://openlibrary.org/works/OL507812W
 [book_bass_1996_vietnamerica]: https://www.hup.harvard.edu/books/9780674937109
 [book_bilici_2012]: https://press.uchicago.edu/ucp/books/book/chicago/F/bo11711834.html
-[book_blanchard_1994]: https://scholar.google.com/scholar?q=blanchard+1994+anti-abortion+movement+religious+right
+[book_blanchard_1994]: https://openlibrary.org/works/OL2986213W
 [book_blumhofer_1993_restoring]: https://www.uipress.uiowa.edu/9780252065088/restoring-the-faith/
 [book_bonus_2000]: https://www.temple.edu/tempress/titles/1519_reg.html
 [book_bozorgmehr_1998]: https://scholar.google.com/scholar?q=bozorgmehr+1998+iranian+studies+diaspora
@@ -785,8 +792,8 @@ This article follows the terminological conventions established in [A266][relate
 [book_chesnut_2003]: https://global.oup.com/academic/product/competitive-spirits-9780195305173
 [book_cohen_1997]: https://press.uchicago.edu/ucp/books/book/chicago/B/bo3617649.html
 [book_coleman_2001]: https://global.oup.com/academic/product/the-new-buddhism-9780195152418
-[book_cottman_1995]: https://scholar.google.com/scholar?q=cottman+1995+million+man+march
-[book_coughlan_owens_manley_2005]: https://scholar.google.com/scholar?q=coughlan+owens-manley+2005+bosnian+refugees+america
+[book_cottman_1995]: https://openlibrary.org/works/OL1924234W
+[book_coughlan_owens_manley_2005]: https://openlibrary.org/works/OL18344522W
 [book_coutin_2000]: https://press.umich.edu/Books/L/Legalizing-Moves
 [book_curtis_2009]: https://facts-on-file.com/curtis-muslims-america
 [book_diamond_1998]: https://global.oup.com/academic/product/not-by-politics-alone-9781572303331
@@ -819,7 +826,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_levine_2000]: https://press.uchicago.edu/ucp/books/book/chicago/G/bo3644089.html
 [book_ling_2004]: https://sup.org/books/title/?id=2144
 [book_long_2000]: https://kansaspress.ku.edu/978-0-7006-1005-6.html
-[book_madhubuti_1996]: https://scholar.google.com/scholar?q=madhubuti+1996+million+man+march+day+of+absence
+[book_madhubuti_1996]: https://openlibrary.org/works/OL18226003W
 [book_massey_durand_malone_2002]: https://www.russellsage.org/publications/beyond-smoke-and-mirrors
 [book_menjivar_2000]: https://www.ucpress.edu/book/9780520222113/fragmented-ties
 [book_michel_herbeck_2001]: https://www.harpercollins.com/products/american-terrorist-lou-michel
@@ -840,7 +847,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_riding_in_trope_2011]: https://global.oup.com/academic/product/repatriation-reader-9780803226326
 [book_risen_thomas_1998]: https://global.oup.com/academic/product/wrath-of-angels-9780465091188
 [book_robinson_1998]: https://www.zedbooks.net/shop/book/terms-of-refuge
-[book_roozen_hadaway_1993]: https://scholar.google.com/scholar?q=roozen+hadaway+1993+church+denominational+growth
+[book_roozen_hadaway_1993]: https://openlibrary.org/works/OL18987889W
 [book_salamon_1999]: https://www.ucpress.edu/book/9780520216907/the-hyena-people
 [book_sanasarian_2000]: https://www.cambridge.org/9780521770735
 [book_seager_1999]: https://cup.columbia.edu/book/buddhism-in-america/9780231108690
@@ -866,7 +873,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_zhou_1992]: https://www.temple.edu/tempress/titles/933_reg.html
 [book_zolberg_2006]: https://www.hup.harvard.edu/books/9780674022188
 [ref_abc_v_thornburgh_1991]: https://law.justia.com/cases/federal/district-courts/FSupp/760/796/
-[ref_aedpa_1996]: https://www.congress.gov/bill/104th-congress/senate-bill/735
+[ref_aedpa_1996]: https://scholar.google.com/scholar?q=Antiterrorism+and+Effective+Death+Penalty+Act+AEDPA+1996
 [ref_amerasian_homecoming_act_1987]: https://www.congress.gov/bill/100th-congress/house-bill/3966
 [ref_aris_1990_2008]: https://commons.trincoll.edu/aris/publications/aris-2008-summary-report/
 [ref_chinese_student_protection_1992]: https://www.congress.gov/bill/102nd-congress/house-bill/2712
@@ -877,11 +884,11 @@ This article follows the terminological conventions established in [A266][relate
 [ref_dayton_accords_1995]: https://avalon.law.yale.edu/20th_century/day01.asp
 [ref_dobson_1970_dare]: https://www.tyndale.com/p/the-new-dare-to-discipline
 [ref_executive_order_12711_1990]: https://www.presidency.ucsb.edu/documents/executive-order-12711-policy-implementation-with-respect-nationals-the-peoples-republic
-[ref_face_act_1994]: https://www.congress.gov/bill/103rd-congress/house-bill/796
+[ref_face_act_1994]: https://scholar.google.com/scholar?q=Freedom+of+Access+to+Clinic+Entrances+FACE+Act+1994
 [ref_farrakhan_1995_mmm]: https://www.finalcall.com/artman/publish/Perspectives_1/Minister_Louis_Farrakhan_s_1995_Million_Man_March_Address_9820.shtml
 [ref_gallup_religion_surveys]: https://news.gallup.com/poll/1690/religion.aspx
 [ref_hrifa_1998]: https://www.uscis.gov/laws-and-policy/legislation/hrifa
-[ref_iirira_1996]: https://www.congress.gov/bill/104th-congress/house-bill/2202
+[ref_iirira_1996]: https://scholar.google.com/scholar?q=Illegal+Immigration+Reform+and+Immigrant+Responsibility+Act+IIRIRA+1996
 [ref_immigration_act_1990]: https://www.congress.gov/bill/101st-congress/senate-bill/358
 [ref_ins_v_cardoza_fonseca_1987]: https://supreme.justia.com/cases/federal/us/480/421/
 [ref_irca_1986]: https://www.congress.gov/bill/99th-congress/senate-bill/1200
@@ -891,7 +898,7 @@ This article follows the terminological conventions established in [A266][relate
 [ref_pew_nones_2012]: https://www.pewresearch.org/religion/2012/10/09/nones-on-the-rise/
 [ref_pew_religious_landscape_2014]: https://www.pewresearch.org/religion/religious-landscape-study/
 [ref_pp_v_casey_1992]: https://supreme.justia.com/cases/federal/us/505/833/
-[ref_prwora_1996]: https://www.congress.gov/bill/104th-congress/house-bill/3734
+[ref_prwora_1996]: https://scholar.google.com/scholar?q=Personal+Responsibility+and+Work+Opportunity+Reconciliation+Act+PRWORA+1996
 [ref_reagan_1983_evil_empire]: https://www.reaganfoundation.org/ronald-reagan/reagan-quotes-speeches/evil-empire-speech/
 [ref_reagan_1984_nae]: https://www.reaganfoundation.org/ronald-reagan/reagan-quotes-speeches/remarks-national-association-of-evangelicals-columbus-ohio-march-6-1984/
 [ref_rluipa_2000]: https://www.justice.gov/crt/religious-land-use-and-institutionalized-persons-act

@@ -53,15 +53,15 @@ The competitor-attack phenomenon permits characterization from several disciplin
 
 The economics-of-competition and antitrust framing treats competitor-attack manipulation as a form of exclusionary conduct that reduces competitive market efficiency. The [Bork 1978][book_bork_1978] The Antitrust Paradox and [Posner 2001][book_posner_2001] Antitrust Law treatments frame exclusionary conduct within the consumer-welfare framework. The [Melamed 2006][research_melamed_2006] and [Elhauge 2003][research_elhauge_2003] frameworks develop the exclusionary-conduct doctrine that applies to reputation-manipulation-adjacent competitive tactics. The predatory-conduct framework from [Areeda and Turner 1975][research_areeda_turner_1975] adapts to reputation attacks via the sacrifice-versus-legitimate-competition test. The economics-of-competition framing complements the reputation-manipulation framing by treating the attack as a competitive-market intervention with implications for market structure and consumer welfare beyond the direct target's reputation harm.
 
-The tort-law framing traces from the [Prosser and Keeton 1984][book_prosser_keeton_1984] Handbook of the Law of Torts through the [Restatement Second of Torts 1977][ref_restatement_second_torts] on defamation and tortious interference. The tort framing treats competitor-attack as actionable civil wrong subject to damages recovery, with the elements varying by tort category (defamation, false light, tortious interference with business relations, tortious interference with prospective economic advantage, injurious falsehood). The [Franklin Anderson and Cate 2016][book_franklin_anderson_cate_2016] Mass Media Law treatment consolidates the modern doctrinal treatment. The tort framing provides the primary US-law analytical structure for the private-action recourse landscape.
+The tort-law framing traces from the [Prosser and Keeton 1984][book_prosser_keeton_1984] Handbook of the Law of Torts through the [Restatement Second of Torts 1977][ref_restatement_second_torts] on defamation and tortious interference. The tort framing treats competitor-attack as actionable civil wrong subject to damages recovery, with the elements varying by tort category (defamation, false light, tortious interference with business relations, tortious interference with prospective economic advantage, injurious falsehood). The [Franklin et al. 2016][book_franklin_anderson_cate_2016] Mass Media Law treatment consolidates the modern doctrinal treatment. The tort framing provides the primary US-law analytical structure for the private-action recourse landscape.
 
 The critical-harassment-studies framing traces from [Kelly 1988][book_kelly_1988] Surviving Sexual Violence establishing the continuum-of-violence framework that maps onto online-harassment operations, through [Herring 2002][research_herring_2002] Cyber Violence Recognizing and Resisting Abuse in Online Environments, [Jane 2014][research_jane_2014] Your a Ugly Whorish Slut on the gendered dimensions of online harassment, [Citron 2014][book_citron_2014] Hate Crimes in Cyberspace on the legal-and-policy framework, and [Franks 2019][book_franks_2019] The Cult of the Constitution on the broader speech-and-harassment doctrine. The critical-harassment framing emphasizes the gendered and marginalized-population-targeting patterns of competitor-attack operations that the neutral economic framing may obscure.
 
-The computer-science-and-adversarial-machine-learning framing traces from [Goodfellow Shlens Szegedy 2014][research_goodfellow_shlens_szegedy_2014] Explaining and Harnessing Adversarial Examples through the [Szegedy et al 2013][research_szegedy_et_al_2013] Intriguing Properties of Neural Networks and subsequent adversarial-ML literature. The framing treats platform-detection systems as classifiers subject to adversarial-example attacks in which the attacker crafts inputs designed to evade or mislead the detection classifier. The [Papernot et al 2016][research_papernot_et_al_2016] Practical Black-Box Attacks against Machine Learning treatment applies the adversarial-ML framework to detection-evasion. The [Carlini and Wagner 2017][research_carlini_wagner_2017] Towards Evaluating the Robustness of Neural Networks treatment establishes the state-of-the-art adversarial-example generation. The adversarial-ML framing complements the reputation-manipulation framing by treating the attacker-detector dynamic as an adversarial-example generation-and-defense problem with algorithmic implications for detector design.
+The computer-science-and-adversarial-machine-learning framing traces from [Goodfellow et al. 2014][research_goodfellow_shlens_szegedy_2014] Explaining and Harnessing Adversarial Examples through the [Szegedy et al. 2013][research_szegedy_et_al_2013] Intriguing Properties of Neural Networks and subsequent adversarial-ML literature. The framing treats platform-detection systems as classifiers subject to adversarial-example attacks in which the attacker crafts inputs designed to evade or mislead the detection classifier. The [Papernot et al. 2016][research_papernot_et_al_2016] Practical Black-Box Attacks against Machine Learning treatment applies the adversarial-ML framework to detection-evasion. The [Carlini and Wagner 2017][research_carlini_wagner_2017] Towards Evaluating the Robustness of Neural Networks treatment establishes the state-of-the-art adversarial-example generation. The adversarial-ML framing complements the reputation-manipulation framing by treating the attacker-detector dynamic as an adversarial-example generation-and-defense problem with algorithmic implications for detector design.
 
-The network-science and cascade-dynamics framing traces from [Watts 2002][research_watts_2002] A Simple Model of Global Cascades on Random Networks through [Barabási and Albert 1999][research_barabasi_albert_1999] Emergence of Scaling in Random Networks and subsequent network-dynamics literature. The framing treats competitor-attack propagation as a cascade on the target's audience network, with the cascade characteristics shaped by network topology and threshold-crossing dynamics. The [Chandrasekharan et al 2017][research_chandrasekharan_et_al_2017] treatment applies the cascade framework to hate-community migration after community-ban events. The [Kwak Lee Park Moon 2010][research_kwak_lee_park_moon_2010] treatment analyzes Twitter cascade dynamics applicable to attack-content propagation. The network-science framing complements the reputation-manipulation framing by identifying the network-topology and threshold-dynamics conditions under which attack operations achieve significant cascade amplification versus fizzling.
+The network-science and cascade-dynamics framing traces from [Watts 2002][research_watts_2002] A Simple Model of Global Cascades on Random Networks through [Barabási and Albert 1999][research_barabasi_albert_1999] Emergence of Scaling in Random Networks and subsequent network-dynamics literature. The framing treats competitor-attack propagation as a cascade on the target's audience network, with the cascade characteristics shaped by network topology and threshold-crossing dynamics. The [Chandrasekharan et al. 2017][research_chandrasekharan_et_al_2017] treatment applies the cascade framework to hate-community migration after community-ban events. The [Kwak et al. 2010][research_kwak_lee_park_moon_2010] treatment analyzes Twitter cascade dynamics applicable to attack-content propagation. The network-science framing complements the reputation-manipulation framing by identifying the network-topology and threshold-dynamics conditions under which attack operations achieve significant cascade amplification versus fizzling.
 
-The platform-governance and information-law framing traces from [Balkin 2018][research_balkin_2018] Free Speech is a Triangle through [Klonick 2018][research_klonick_2018] The New Governors, [Douek 2021][research_douek_2021] Governing Online Speech, and [Grimmelmann 2015][research_grimmelmann_2015] The Virtues of Moderation. The framing treats the platform's role as private governor of speech and reputation as itself a distinct object of analysis subject to accountability and legitimacy concerns. The [Sunstein 2018][book_sunstein_2018] Republic Divided Democracy in the Age of Social Media treatment addresses the systemic democratic-institution consequences of platform-mediated attack operations. The platform-governance framing complements the technique-specific framing by treating the platform as a governance actor rather than as a neutral infrastructure provider.
+The platform-governance and information-law framing traces from [Balkin 2018][research_balkin_2018] Free Speech is a Triangle through [Klonick 2018][research_klonick_2018] The New Governors, [Douek 2020][research_douek_2021] Governing Online Speech, and [Grimmelmann 2015][research_grimmelmann_2015] The Virtues of Moderation. The framing treats the platform's role as private governor of speech and reputation as itself a distinct object of analysis subject to accountability and legitimacy concerns. The [Sunstein 2018][book_sunstein_2018] Republic Divided Democracy in the Age of Social Media treatment addresses the systemic democratic-institution consequences of platform-mediated attack operations. The platform-governance framing complements the technique-specific framing by treating the platform as a governance actor rather than as a neutral infrastructure provider.
 
 ## Historical Antecedents
 
@@ -71,9 +71,9 @@ The pre-industrial antecedents include the medieval and early-modern practice of
 
 The nineteenth-century mass-newspaper era produced marked competitor-attack activity between rival newspapers and rival politicians. The [Baldasty 1992][book_baldasty_1992] The Commercialization of News in the Nineteenth Century documents the transition to competitive commercial journalism. The [Nasaw 2000][book_nasaw_2000] The Chief biography of William Randolph Hearst documents the coordinated attack operations of the yellow-journalism era. The [Boorstin 1961][book_boorstin_1961] The Image treatment addresses the emergence of pseudo-event manufacture in the pre-electronic media environment. The [Wills 1970][book_wills_1970] Nixon Agonistes treatment addresses the negative-campaigning tradition in American political practice from the mid-twentieth century.
 
-The Cold War era produced the extensive evolution of state-sponsored competitor-attack operations. The [Rid 2020][book_rid_2020] Active Measures treatment documents the Soviet-era active-measures campaigns and their evolution into contemporary Russian information operations. The [Weiner 2007][book_weiner_2007] Legacy of Ashes The History of the CIA addresses the parallel US-side operations. The [Andrew and Mitrokhin 1999][book_andrew_mitrokhin_1999] The Sword and the Shield provides the Soviet-archive-based documentation. The Cold War state-operation infrastructure established organizational forms and technique templates that transferred into the contemporary state-sponsored digital-attack operations.
+The Cold War era produced the extensive evolution of state-sponsored competitor-attack operations. The [Rid 2020][book_rid_2020] Active Measures treatment documents the Soviet-era active-measures campaigns and their evolution into contemporary Russian information operations. The [Weiner 2007][book_weiner_2007] Legacy of Ashes The History of the CIA addresses the parallel US-side operations. The [Andrew et al. 1999][book_andrew_mitrokhin_1999] The Sword and the Shield provides the Soviet-archive-based documentation. The Cold War state-operation infrastructure established organizational forms and technique templates that transferred into the contemporary state-sponsored digital-attack operations.
 
-The late-twentieth-century negative-political-advertising era produced sizable technique innovation in the mass-media-mediated attack. The [Ansolabehere and Iyengar 1996][book_ansolabehere_iyengar_1996] Going Negative empirical study of negative advertising effects, the [Geer 2006][book_geer_2006] In Defense of Negativity treatment of the democratic function of negative campaigning, and the [Mark 2006][book_mark_2006] Going Dirty History of Negative Campaigning consolidate the historical and empirical analysis. The [Willie Horton 1988 attack ad][ref_willie_horton_1988] represents one of the reference-case attack operations of the era. The [Swift Boat Veterans for Truth 2004][ref_swift_boat_2004] operation represents the transition from broadcast-era negative advertising to the emerging internet-era coordinated attack. The [birther conspiracy campaign 2008-2016][ref_birther_campaign] represents the fully-internet-era attack operation.
+The late-twentieth-century negative-political-advertising era produced sizable technique innovation in the mass-media-mediated attack. The [Ansolabehere and Iyengar 1996][book_ansolabehere_iyengar_1996] Going Negative empirical study of negative advertising effects, the [Geer 2006][book_geer_2006] In Defense of Negativity treatment of the democratic function of negative campaigning, and the [Mark 2006][book_mark_2006] Going Dirty History of Negative Campaigning consolidate the historical and empirical analysis. The [Willie Horton 1988 attack ad][ref_willie_horton_1988] represents one of the reference-case attack operations of the era. The [Swift Boat Veterans 2004][ref_swift_boat_2004] operation represents the transition from broadcast-era negative advertising to the emerging internet-era coordinated attack. The [birther conspiracy campaign 2008-2016][ref_birther_campaign] represents the fully-internet-era attack operation.
 
 The corporate competitor-attack antecedents include documented cases from tobacco, chemical, and pharmaceutical industries. The [Oreskes and Conway 2010][book_oreskes_conway_2010] Merchants of Doubt treatment documents the coordinated denial campaigns that included direct attacks on scientific critics. The [Michaels 2020][book_michaels_2020] The Triumph of Doubt updates the treatment through the 2010s. The [Michaels 2008][book_michaels_2008] Doubt Is Their Product documents the earlier corporate playbook. The corporate-attack antecedents established the coordination-with-plausible-deniability infrastructure that carries into contemporary corporate reputation-attack operations.
 
@@ -83,11 +83,11 @@ The scholarly treatment of competitor-attack reputation manipulation has develop
 
 The defamation-law scholarship developed continuously from the [Prosser 1960][research_prosser_1960] Privacy Law framework through the [Post 1986][research_post_1986] The Social Foundations of Defamation Law treatment and the modern-era [Anderson 1991][research_anderson_1991] Reputation Compensation Punishment Suppression analysis. The [Franks 2019][book_franks_2019] Cult of the Constitution and the [Citron 2014][book_citron_2014] Hate Crimes in Cyberspace treatments represent the contemporary reform-oriented scholarship. The gap between the classical-tort framework and the platform-mediated attack environment remains substantially unbridged in the doctrinal literature, with courts applying pre-internet defamation frameworks to attack operations that exhibit markedly different scale and coordination structure.
 
-The empirical-attack-detection literature developed through the same computer-science-detection tradition surveyed for self-promotion. The competitor-attack detection literature includes [Kumar et al 2018][research_kumar_et_al_2018] on Reddit brigading, [Chandrasekharan et al 2017][research_chandrasekharan_et_al_2017] on hate-community-ban effects, [Hine et al 2017][research_hine_et_al_2017] on 4chan raid operations, [Zannettou et al 2018][research_zannettou_et_al_2018_reddit_4chan] on cross-platform coordinated behavior, [Ribeiro et al 2020][research_ribeiro_et_al_2020] on YouTube radicalization pathways, [Marwick and Caplan 2018][research_marwick_caplan_2018] on gendered harassment, and [Lewis 2018][research_lewis_2018] on alternative influence networks. The empirical literature has developed primarily around large-community-platform brigading and harassment operations, with less coverage of the specifically-commercial competitor-attack operations that the miniseries treats.
+The empirical-attack-detection literature developed through the same computer-science-detection tradition surveyed for self-promotion. The competitor-attack detection literature includes [Kumar et al. 2018][research_kumar_et_al_2018] on Reddit brigading, [Chandrasekharan et al. 2017][research_chandrasekharan_et_al_2017] on hate-community-ban effects, [Hine et al. 2017][research_hine_et_al_2017] on 4chan raid operations, [Zannettou et al. 2018][research_zannettou_et_al_2018_reddit_4chan] on cross-platform coordinated behavior, [Ribeiro et al. 2020][research_ribeiro_et_al_2020] on YouTube radicalization pathways, [Marwick and Caplan 2018][research_marwick_caplan_2018] on gendered harassment, and [Lewis 2018][research_lewis_2018] on alternative influence networks. The empirical literature has developed primarily around large-community-platform brigading and harassment operations, with less coverage of the specifically-commercial competitor-attack operations that the miniseries treats.
 
-The platform-governance scholarship developed through the [Klonick 2018][research_klonick_2018], [Balkin 2018][research_balkin_2018], [Douek 2021][research_douek_2021], and [Grimmelmann 2015][research_grimmelmann_2015] treatments surveyed above. The application to competitor-attack response is less developed than the general content-moderation treatment, with the attack-oriented moderation challenges (target-notification, evidence-preservation, cross-platform coordination) remaining under-treated relative to the general moderation-scale challenges.
+The platform-governance scholarship developed through the [Klonick 2018][research_klonick_2018], [Balkin 2018][research_balkin_2018], [Douek 2020][research_douek_2021], and [Grimmelmann 2015][research_grimmelmann_2015] treatments surveyed above. The application to competitor-attack response is less developed than the general content-moderation treatment, with the attack-oriented moderation challenges (target-notification, evidence-preservation, cross-platform coordination) remaining under-treated relative to the general moderation-scale challenges.
 
-The adversarial-machine-learning literature developed through the [Goodfellow et al 2014][research_goodfellow_shlens_szegedy_2014], [Carlini and Wagner 2017][research_carlini_wagner_2017], and [Papernot et al 2016][research_papernot_et_al_2016] treatments surveyed above. The application of the adversarial-ML framework to reputation-attack detection is emerging but not yet consolidated in a reference treatment.
+The adversarial-machine-learning literature developed through the [Goodfellow et al. 2014][research_goodfellow_shlens_szegedy_2014], [Carlini and Wagner 2017][research_carlini_wagner_2017], and [Papernot et al. 2016][research_papernot_et_al_2016] treatments surveyed above. The application of the adversarial-ML framework to reputation-attack detection is emerging but not yet consolidated in a reference treatment.
 
 The historiographical gap that the miniseries addresses lies in the absence of an integrated treatment that draws on the economics-of-competition, tort-law, harassment-studies, computer-science-detection, network-science, and platform-governance traditions simultaneously. Each tradition treats a portion of the competitor-attack phenomenon, and the standard treatment requires all six. The miniseries organizes the material to make the cross-tradition connections explicit where they are load-bearing for the analytical conclusions.
 
@@ -97,7 +97,7 @@ The review-signal attack class comprises the technique inventory oriented at inj
 
 ### Individual Negative Review Fabrication
 
-Individual negative review fabrication operates analogously to individual positive fabrication treated in the preceding article, with the direction of the intended rating shift reversed. Documented cases include the [Yelp v Hadeed Carpet Cleaning 2014][ref_yelp_v_hadeed_2014] litigation over Yelp's disclosure of anonymous reviewer identities in a defamation action, the [FTC v Roomster 2022][ref_ftc_roomster_2022] action addressing a rental-platform's use of fake reviews (which included both self-promotion and competitor-attack elements), and the [Amazon v ThinkExpress 2022][ref_amazon_v_thinkexpress_2022] private action addressing coordinated negative-review injection. The [Reit-Nightingale v Universal 2019][ref_reit_nightingale_v_universal_2019] deepfake-defamation case illustrates the adjacent legal frontier where synthetic content produces false negative reviews or testimonials.
+Individual negative review fabrication operates analogously to individual positive fabrication treated in the preceding article, with the direction of the intended rating shift reversed. Documented cases include the [Yelp v Hadeed Carpet 2014][ref_yelp_v_hadeed_2014] litigation over Yelp's disclosure of anonymous reviewer identities in a defamation action, the [FTC v Roomster 2022][ref_ftc_roomster_2022] action addressing a rental-platform's use of fake reviews (which included both self-promotion and competitor-attack elements), and the [Amazon v ThinkExpress 2022][ref_amazon_v_thinkexpress_2022] private action addressing coordinated negative-review injection. The [Reit-Nightingale v Universal 2019][ref_reit_nightingale_v_universal_2019] deepfake-defamation case illustrates the adjacent legal frontier where synthetic content produces false negative reviews or testimonials.
 
 The [FTC v Amazon 2023][ref_ftc_v_amazon_2023] action addressed adjacent dark-pattern manipulation practices and provides the reference federal enforcement precedent applicable to platform-mediated reputation manipulation. The rating-shift model for individual negative-review fabrication mirrors the positive-fabrication case,
 
@@ -105,7 +105,7 @@ $$\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} - n_i^{\text{fake-neg}
 
 with $n_i^{\text{fake-neg}}$ the injected fake-negative-review count, $\bar{r}\_{\text{fake-neg}}$ the average fake-negative-review rating (typically one or two stars), $\bar{r}\_{\text{pre}}$ the pre-injection average rating, and $N_i$ the pre-injection authentic-review count. The equation shows that fake-negative-review effectiveness is higher against targets with fewer authentic reviews and against targets with higher pre-injection averages (larger gap between $\bar{r}\_{\text{pre}}$ and $\bar{r}\_{\text{fake-neg}}$).
 
-The detection signatures for individual negative fabrication include the same stylometric, temporal, reviewer-history, and IP-and-device-fingerprint anomalies documented for positive fabrication in the [Ott et al 2011][research_ott_et_al_2011], [Feng et al 2012][research_feng_et_al_2012], and subsequent detection literature. The attack-oriented signature includes the anomaly of a reviewer whose review history disproportionately concentrates on negative reviews of one or a small set of businesses in the target category, which allows characterization as the concentration ratio
+The detection signatures for individual negative fabrication include the same stylometric, temporal, reviewer-history, and IP-and-device-fingerprint anomalies documented for positive fabrication in the [Ott et al. 2011][research_ott_et_al_2011], [Feng 2012][research_feng_et_al_2012], and subsequent detection literature. The attack-oriented signature includes the anomaly of a reviewer whose review history disproportionately concentrates on negative reviews of one or a small set of businesses in the target category, which allows characterization as the concentration ratio
 
 $$C_{\text{reviewer}}^{\text{neg}} = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}$$
 
@@ -113,7 +113,7 @@ with reviewers exhibiting anomalously high $C^{\text{neg}}$ triggering attack-or
 
 $$C_{\text{reviewer}}^{\text{target}}(R, T) = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{target}(r) = T \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}$$
 
-with anomalously high values across a target-and-competitor set triggering coordinated-attack classification. The [Ott et al 2013][research_ott_et_al_2013] Negative Deceptive Opinion Spam treatment establishes the negative-review detection framework.
+with anomalously high values across a target-and-competitor set triggering coordinated-attack classification. The [Ott 2013][research_ott_et_al_2013] Negative Deceptive Opinion Spam treatment establishes the negative-review detection framework.
 
 ### Coordinated Review Bombing
 
@@ -123,7 +123,7 @@ The empirical characterization of review-bombing arrivals has the Hawkes point p
 
 $$\lambda^{\text{bomb}}(t) = \mu + \alpha^{\text{bomb}} \sum_{t_i < t} e^{-\beta(t - t_i)}$$
 
-with $\alpha^{\text{bomb}} \gg \alpha^{\text{baseline}}$ during the bombing event. The detection threshold triggers when the observed $\alpha$ exceeds the null-model distribution by a factor typically set at $\alpha / \alpha_{\text{null}} > 10$. The [Kalpakis et al 2001][research_kalpakis_et_al_2001] framework for temporal anomaly detection provides the general methodology, and the [Vasilescu and Casanueva 2016][research_vasilescu_casanueva_2016] treatment addresses the review-bombing detection problem.
+with $\alpha^{\text{bomb}} \gg \alpha^{\text{baseline}}$ during the bombing event. The detection threshold triggers when the observed $\alpha$ exceeds the null-model distribution by a factor typically set at $\alpha / \alpha_{\text{null}} > 10$. The [Kalpakis et al. 2001][research_kalpakis_et_al_2001] framework for temporal anomaly detection provides the general methodology, and the [Vasilescu and Casanueva 2016][research_vasilescu_casanueva_2016] treatment addresses the review-bombing detection problem.
 
 The rating-distribution shape during a review-bombing event exhibits characteristic bimodality with a spike at the extreme-negative rating (one star or equivalent) that the null-distribution would not produce. The bimodality statistic supports characterization via the Hartigan dip test
 
@@ -143,7 +143,7 @@ with $\Delta t_{\text{coord}}$ a coordination-window threshold typically set at 
 
 $$\bar{S}_{\text{content}}(\text{event}) = \frac{2}{n(n-1)} \sum_{i<j} \text{sim}(r_i, r_j)$$
 
-with anomalously high $\bar{S}\_{\text{content}}$ indicating shared-template origin. The [Kumar et al 2018][research_kumar_et_al_2018] Community Interaction and Conflict on the Web treatment provides the reference framework for cross-community brigading detection applicable to coordinated review bombing.
+with anomalously high $\bar{S}\_{\text{content}}$ indicating shared-template origin. The [Kumar et al. 2018][research_kumar_et_al_2018] Community Interaction and Conflict on the Web treatment provides the reference framework for cross-community brigading detection applicable to coordinated review bombing.
 
 ### Cross-Account Downvoting
 
@@ -165,7 +165,7 @@ The generative-model transition has enabled significant scale-up of negative-rev
 
 $$\pi_{\text{attack-prompt}}(x) = \sum_k w_k \, p_k(x)$$
 
-with $p_k(x)$ the template-specific prompt distribution and $w_k$ template mixing weights that shape the diversity-versus-effectiveness tradeoff. The same detection challenges documented for positive-review generative content apply to negative-review generative content, with the additional dimension that generative models can be prompted to produce attack narratives targeting particular competitor attributes. The [Yang and Menczer 2024][research_yang_menczer_2024] Anatomy of an AI-Powered Malicious Social Botnet documents contemporary AI-driven botnet operations that engage in both self-promotion and competitor-attack activity. The [Goldstein et al 2023][research_goldstein_et_al_2023] Generative Language Models and Automated Influence Operations treatment surveys the emerging threat landscape.
+with $p_k(x)$ the template-specific prompt distribution and $w_k$ template mixing weights that shape the diversity-versus-effectiveness tradeoff. The same detection challenges documented for positive-review generative content apply to negative-review generative content, with the additional dimension that generative models can be prompted to produce attack narratives targeting particular competitor attributes. The [Yang and Menczer 2023][research_yang_menczer_2024] Anatomy of an AI-Powered Malicious Social Botnet documents contemporary AI-driven botnet operations that engage in both self-promotion and competitor-attack activity. The [Goldstein et al. 2023][research_goldstein_et_al_2023] Generative Language Models and Automated Influence Operations treatment surveys the emerging threat landscape.
 
 The attack-oriented cost function takes the same collapsed-convexity characterization as the self-promotion case,
 
@@ -175,7 +175,7 @@ with the additional prompt-engineering cost typically higher for attack-oriented
 
 $$\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}$$
 
-per the [Sadasivan et al 2023][research_sadasivan_et_al_2023] analysis.
+per the [Sadasivan et al. 2023][research_sadasivan_et_al_2023] analysis.
 
 ## Brigading and Cross-Community Attack
 
@@ -183,7 +183,7 @@ Brigading refers to the coordinated deposit of engagement (upvotes, downvotes, c
 
 ### Cross-Community Brigading
 
-Cross-community brigading operates through the movement of participants from a source community (typically a subreddit, chan-adjacent board, private chat channel, or organized discussion group) to a target community or platform where they engage in the coordinated action. The [Kumar et al 2018][research_kumar_et_al_2018] Community Interaction and Conflict on the Web treatment provides the foundational large-scale analysis of Reddit cross-community mobilization, characterizing the population dynamics of source-target community interactions. The [Chandrasekharan et al 2017][research_chandrasekharan_et_al_2017] You Can't Stay Here treatment analyzes the case of hate-community mobilization and the platform-side effect of banning source communities. The [Hine et al 2017][research_hine_et_al_2017] Kek Cucks and God Emperor Trump treatment analyzes the 4chan/pol/-originating brigading operations. The [Zannettou et al 2018][research_zannettou_et_al_2018_reddit_4chan] Web-Wide Coordinated Behavior treatment analyzes the cross-platform brigading dynamic between Reddit and 4chan.
+Cross-community brigading operates through the movement of participants from a source community (typically a subreddit, chan-adjacent board, private chat channel, or organized discussion group) to a target community or platform where they engage in the coordinated action. The [Kumar et al. 2018][research_kumar_et_al_2018] Community Interaction and Conflict on the Web treatment provides the foundational large-scale analysis of Reddit cross-community mobilization, characterizing the population dynamics of source-target community interactions. The [Chandrasekharan et al. 2017][research_chandrasekharan_et_al_2017] You Can't Stay Here treatment analyzes the case of hate-community mobilization and the platform-side effect of banning source communities. The [Hine et al. 2017][research_hine_et_al_2017] Kek Cucks and God Emperor Trump treatment analyzes the 4chan/pol/-originating brigading operations. The [Zannettou et al. 2018][research_zannettou_et_al_2018_reddit_4chan] Web-Wide Coordinated Behavior treatment analyzes the cross-platform brigading dynamic between Reddit and 4chan.
 
 The cross-community brigading detection statistic operates on the source-community-origin fraction of participants in a target-community event,
 
@@ -217,7 +217,7 @@ with $p_C$ the fraction of pile-on participants originating from community $C$. 
 
 Raid organization patterns refer to the coordination structures through which brigading and dogpiling operations are organized. Documented raid-organization patterns include the [4chan raid coordination framework][ref_4chan_raid_documentation], the [Discord server-based coordination][ref_discord_coordination_reports], and the [Telegram channel-based coordination][ref_telegram_coordination_reports] that has expanded since 2020. The [Marwick 2013][book_marwick_2013] Status Update treatment provides the sociological framing. The [Phillips 2015][book_phillips_2015] This is Why We Can't Have Nice Things treatment analyzes the online-harassment-community formation.
 
-Detection of raid-organization patterns operates through the analysis of the external-coordination signal: private-channel invocation of a target followed by coordinated on-platform action against that target. The detection challenge is substantial because the coordination signal is generally not observable to the target platform, and cross-platform detection requires platform-integrity coordination between the coordinating platform (typically not the target platform) and the target platform. The [Ribeiro et al 2020][research_ribeiro_et_al_2020] Auditing Radicalization Pathways on YouTube treatment provides the reference empirical framework for cross-community-to-target-platform radicalization-and-attack-mobilization pathways.
+Detection of raid-organization patterns operates through the analysis of the external-coordination signal: private-channel invocation of a target followed by coordinated on-platform action against that target. The detection challenge is substantial because the coordination signal is generally not observable to the target platform, and cross-platform detection requires platform-integrity coordination between the coordinating platform (typically not the target platform) and the target platform. The [Ribeiro et al. 2020][research_ribeiro_et_al_2020] Auditing Radicalization Pathways on YouTube treatment provides the reference empirical framework for cross-community-to-target-platform radicalization-and-attack-mobilization pathways.
 
 ## Negative Search-Engine Optimization
 
@@ -275,7 +275,7 @@ Defamation campaigns operate through the publication of false statements damagin
 
 ### False Content Publication
 
-False content publication produces damaging false statements about the target on platforms where the content is accessible to the target's audience. The technique can operate through review platforms (fake reviews containing false factual claims), social media (posts containing false claims), blogs and websites (long-form defamatory content), or news-adjacent platforms (fake news articles). The [New York Times v Sullivan 1964][ref_ny_times_sullivan_1964] framework establishes the actual-malice standard for public-figure defamation, and the [Gertz v Robert Welch 1974][ref_gertz_v_welch_1974] framework extends to private figures. The [Milkovich v Lorain Journal 1990][ref_milkovich_v_lorain_1990] framework distinguishes statements of fact from statements of opinion.
+False content publication produces damaging false statements about the target on platforms where the content is accessible to the target's audience. The technique can operate through review platforms (fake reviews containing false factual claims), social media (posts containing false claims), blogs and websites (long-form defamatory content), or news-adjacent platforms (fake news articles). The [New York Times v 1964][ref_ny_times_sullivan_1964] framework establishes the actual-malice standard for public-figure defamation, and the [Gertz v. Robert Welch 1974][ref_gertz_v_welch_1974] framework extends to private figures. The [Milkovich v. Lorain Journal 1990][ref_milkovich_v_lorain_1990] framework distinguishes statements of fact from statements of opinion.
 
 The defamation-classification of a statement $s$ under US law requires four elements: publication, identification of the target, defamatory content (false statement of fact), and damages. The statement's actionability has the form
 
@@ -287,7 +287,7 @@ $$D_{\text{total}} = D_{\text{special}} + D_{\text{general}} + D_{\text{presumed
 
 with the characterization varying by jurisdiction and case type.
 
-Documented defamation cases involving digital-platform manipulation include [Zeran v AOL 1997][ref_zeran_v_aol_1997] on early Section 230 immunity, [Batzel v Smith 2003][ref_batzel_v_smith_2003] on selective republication and immunity, [Barnes v Yahoo 2009][ref_barnes_v_yahoo_2009] on promissory-estoppel exception to immunity, [Doe v MySpace 2008][ref_doe_v_myspace_2008] on Section 230 immunity limits in physical-harm cases, [Fair Housing Council v Roommates.com 2008][ref_roommates_2008] on platform-created content, [Nemet Chevrolet v Consumeraffairs.com 2009][ref_nemet_v_consumeraffairs_2009] on the immunity boundary for consumer-review platforms, [Klayman v Zuckerberg 2014][ref_klayman_v_zuckerberg_2014] on platform-side immunity from user-generated attack content, [Herrick v Grindr 2019][ref_herrick_v_grindr_2019] on impersonation-facilitation immunity, and the more recent [Force v Facebook 2019][ref_force_v_facebook_2019] and [Gonzalez v Google 2023][ref_gonzalez_v_google_2023] decisions addressing algorithmic-recommendation liability. The [Zervos v Trump 2017-2022][ref_zervos_v_trump] litigation illustrates the modern high-profile defamation case involving public-figure targets and social-media platforms. Additional contemporary defamation cases include the [Sarah Palin v NYT 2022][ref_palin_v_nyt_2022] action addressing actual-malice standards in political defamation, the [Cardi B v Kebe 2022][ref_cardi_b_v_kebe_2022] case addressing YouTube-mediated defamation with a jury verdict against the defendant, the [E Jean Carroll v Trump 2023][ref_carroll_v_trump_2023] defamation-and-battery action, and the [Amber Heard v Depp 2022][ref_heard_v_depp_2022] cross-defamation action. The [Bartnicki v Vopper 2001][ref_bartnicki_v_vopper_2001] First Amendment framework establishes limits on defamation-adjacent liability for third-party republication.
+Documented defamation cases involving digital-platform manipulation include [Zeran v AOL 1997][ref_zeran_v_aol_1997] on early Section 230 immunity, [Batzel v Smith 2003][ref_batzel_v_smith_2003] on selective republication and immunity, [Barnes v Yahoo 2009][ref_barnes_v_yahoo_2009] on promissory-estoppel exception to immunity, [Doe v MySpace 2008][ref_doe_v_myspace_2008] on Section 230 immunity limits in physical-harm cases, [Fair Housing Council v 2008][ref_roommates_2008] on platform-created content, [Nemet Chevrolet v Consumeraffairs.com 2009][ref_nemet_v_consumeraffairs_2009] on the immunity boundary for consumer-review platforms, [Klayman v Zuckerberg 2014][ref_klayman_v_zuckerberg_2014] on platform-side immunity from user-generated attack content, [Herrick v Grindr 2019][ref_herrick_v_grindr_2019] on impersonation-facilitation immunity, and the more recent [Force v Facebook 2019][ref_force_v_facebook_2019] and [Gonzalez v Google 2023][ref_gonzalez_v_google_2023] decisions addressing algorithmic-recommendation liability. The [Zervos v Trump 2017-2022][ref_zervos_v_trump] litigation illustrates the modern high-profile defamation case involving public-figure targets and social-media platforms. Additional contemporary defamation cases include the [Sarah Palin v NYT 2022][ref_palin_v_nyt_2022] action addressing actual-malice standards in political defamation, the [Cardi B v Kebe 2022][ref_cardi_b_v_kebe_2022] case addressing YouTube-mediated defamation with a jury verdict against the defendant, the [E Jean Carroll v 2023][ref_carroll_v_trump_2023] defamation-and-battery action, and the [Amber Heard v Depp 2022][ref_heard_v_depp_2022] cross-defamation action. The [Bartnicki v. Vopper 532 2001][ref_bartnicki_v_vopper_2001] First Amendment framework establishes limits on defamation-adjacent liability for third-party republication.
 
 ### Anonymous Defamation
 
@@ -373,13 +373,13 @@ Reporting-system weaponization refers to the class of techniques that abuse plat
 
 ### False DMCA Takedowns
 
-The Digital Millennium Copyright Act at [17 USC 512][ref_dmca_17_usc_512] establishes the notice-and-takedown framework under which service providers receive safe-harbor protection in exchange for prompt takedown of content upon receipt of a copyright-infringement notice from the rights-holder. The framework has been documented as subject to weaponization through false-notice submission by parties without valid copyright claims, with the intent of removing target content that the party wishes suppressed. The [Lenz v Universal 2015][ref_lenz_v_universal_2015] "dancing baby" case established the requirement that DMCA-notice-senders consider fair use before submission. The [Online Policy Group v Diebold 2004][ref_diebold_2004] case addressed the pattern of DMCA misuse to suppress critical content. Additional DMCA case law includes [Perfect 10 v CCBill 2007][ref_perfect_10_v_ccbill_2007] on safe-harbor scope, [Automattic v Steiner 2016][ref_automattic_v_steiner_2016] on DMCA-misrepresentation-liability under §512(f), and [Ouellette v Viacom 2013][ref_ouellette_v_viacom_2013] on pro-se-plaintiff §512(f) actions. The [Urban Karaganis Schofield 2016][research_urban_karaganis_schofield_2016] Notice and Takedown in Everyday Practice empirical study documents the DMCA-abuse prevalence across major platforms. The [Lumen Database][ref_lumen_database] provides the standing archive of DMCA takedown notices submitted to participating platforms. The [US Copyright Office DMCA Section 512 Study][ref_copyright_office_512_study] provides the federal-agency comprehensive analysis of the notice-and-takedown framework as of 2020. The [Google Transparency Report DMCA data][ref_google_transparency_dmca] provides the largest single-platform quantitative disclosure of DMCA-notice volume, actor, and enforcement outcomes.
+The Digital Millennium Copyright Act at [17 USC 512][ref_dmca_17_usc_512] establishes the notice-and-takedown framework under which service providers receive safe-harbor protection in exchange for prompt takedown of content upon receipt of a copyright-infringement notice from the rights-holder. The framework has been documented as subject to weaponization through false-notice submission by parties without valid copyright claims, with the intent of removing target content that the party wishes suppressed. The [Lenz v Universal 2015][ref_lenz_v_universal_2015] "dancing baby" case established the requirement that DMCA-notice-senders consider fair use before submission. The [Online Policy Group v 2004][ref_diebold_2004] case addressed the pattern of DMCA misuse to suppress critical content. Additional DMCA case law includes [Perfect 10 v CCBill 2007][ref_perfect_10_v_ccbill_2007] on safe-harbor scope, [Automattic v Steiner 2016][ref_automattic_v_steiner_2016] on DMCA-misrepresentation-liability under §512(f), and [Ouellette v Viacom 2013][ref_ouellette_v_viacom_2013] on pro-se-plaintiff §512(f) actions. The [Urban et al. 2016][research_urban_karaganis_schofield_2016] Notice and Takedown in Everyday Practice empirical study documents the DMCA-abuse prevalence across major platforms. The [Lumen Database][ref_lumen_database] provides the standing archive of DMCA takedown notices submitted to participating platforms. The [US Copyright Office DMCA Section 512 Study][ref_copyright_office_512_study] provides the federal-agency comprehensive analysis of the notice-and-takedown framework as of 2020. The [Google Transparency Report DMCA data][ref_google_transparency_dmca] provides the largest single-platform quantitative disclosure of DMCA-notice volume, actor, and enforcement outcomes.
 
 The false-DMCA-notice volume supports characterization as a fraction of total DMCA submissions,
 
 $$p_{\text{false-DMCA}} = \frac{|\{n \in \text{DMCA notices} : n \text{ lacks valid claim}\}|}{|\{n \in \text{DMCA notices}\}|}$$
 
-with the [Urban Karaganis Schofield 2016][research_urban_karaganis_schofield_2016] empirical estimates placing $p_{\text{false-DMCA}}$ in the range of thirty to fifty percent across major-platform samples. The counter-notice-success rate under the DMCA framework provides the target's recourse mechanism but exhibits sizable friction that reduces its practical effectiveness. The counter-notice-adoption rate follows
+with the [Urban et al. 2016][research_urban_karaganis_schofield_2016] empirical estimates placing $p_{\text{false-DMCA}}$ in the range of thirty to fifty percent across major-platform samples. The counter-notice-success rate under the DMCA framework provides the target's recourse mechanism but exhibits sizable friction that reduces its practical effectiveness. The counter-notice-adoption rate follows
 
 $$\rho_{\text{counter}} = \frac{|\text{counter-notices filed}|}{|\text{takedown-notices received}|}$$
 
@@ -387,7 +387,7 @@ with empirical estimates placing $\rho_{\text{counter}}$ at approximately one pe
 
 $$\rho_{\text{chilling}} = 1 - \frac{|\text{content restored via counter-notice}|}{|\text{content removed via notice}|}$$
 
-with $\rho_{\text{chilling}}$ close to unity indicating considerable suppression of legitimate speech through the notice mechanism absent effective counter-notice recourse. The [Rossi v Motion Picture Association 2004][ref_rossi_v_mpaa_2004] case addressed the standard for DMCA-misrepresentation liability.
+with $\rho_{\text{chilling}}$ close to unity indicating considerable suppression of legitimate speech through the notice mechanism absent effective counter-notice recourse. The [Rossi v Motion Picture 2004][ref_rossi_v_mpaa_2004] case addressed the standard for DMCA-misrepresentation liability.
 
 ### Trademark Abuse
 
@@ -425,7 +425,7 @@ Complaint-farm services refer to the commercial industry that produces coordinat
 
 ### Better Business Bureau Complaint Farms
 
-The Better Business Bureau (BBB) accreditation and rating system has been documented as subject to complaint-farm attack through the coordinated submission of unfounded complaints intended to trigger rating downgrades or accreditation loss for a target business. The [BBB standards for trust][ref_bbb_standards] establish the platform's response framework. The [ABC News 20/20 BBB investigation 2010][ref_abc_2020_bbb_2010] documented the pattern of BBB rating manipulation through both self-promotion (rating buying) and competitor-attack (complaint farming).
+The Better Business Bureau (BBB) accreditation and rating system has been documented as subject to complaint-farm attack through the coordinated submission of unfounded complaints intended to trigger rating downgrades or accreditation loss for a target business. The [BBB standards for trust][ref_bbb_standards] establish the platform's response framework. The [ABC News 20/20 BBB 2010][ref_abc_2020_bbb_2010] documented the pattern of BBB rating manipulation through both self-promotion (rating buying) and competitor-attack (complaint farming).
 
 The complaint-escalation pattern from a coordinated farm produces the characteristic time-series signature of high initial complaint-arrival rate followed by rapid decay after the farm operation completes. The complaint-arrival-rate anomaly detection statistic mirrors the review-bombing burst detection,
 
@@ -587,7 +587,7 @@ Content-authentication countermeasures target the false-content-attack space thr
 
 The legal recourse landscape for competitor-attack manipulation is more developed than for self-promotion manipulation due to the direct intersection with defamation law and with unfair-competition doctrine. The framing article surveys the principal recourse categories.
 
-Defamation actions provide the primary US-law recourse against false-content-attack. The account operates under the [New York Times v Sullivan 1964][ref_ny_times_sullivan_1964] and [Gertz v Robert Welch 1974][ref_gertz_v_welch_1974] framework with the elements characterization above. The defamation-action success-rate estimate under empirical study varies by jurisdiction and case type, with the composite rate admitting characterization as
+Defamation actions provide the primary US-law recourse against false-content-attack. The account operates under the [New York Times v 1964][ref_ny_times_sullivan_1964] and [Gertz v. Robert Welch 1974][ref_gertz_v_welch_1974] framework with the elements characterization above. The defamation-action success-rate estimate under empirical study varies by jurisdiction and case type, with the composite rate admitting characterization as
 
 $$s_{\text{def-action}} = \Pr(\text{plaintiff prevails} \mid \text{action filed})$$
 
@@ -611,9 +611,9 @@ Intermediary-liability constraints operate under [47 USC 230][ref_section_230_cd
 
 $$I_{\text{§230}}(c) = \mathbb{1}[\text{platform did not materially contribute to content}] \cdot \mathbb{1}[\text{good-faith moderation}]$$
 
-with the platform receiving immunity when both conditions hold. The [Roommates.com 2008][ref_roommates_2008] exception and the [Batzel v Smith 2003][ref_batzel_v_smith_2003] framework establish limits on Section 230 immunity applicable to platform-created or platform-solicited attack content.
+with the platform receiving immunity when both conditions hold. The [Fair Housing Council v 2008][ref_roommates_2008] exception and the [Batzel v Smith 2003][ref_batzel_v_smith_2003] framework establish limits on Section 230 immunity applicable to platform-created or platform-solicited attack content.
 
-International recourse varies by jurisdiction. The [UK defamation framework][ref_uk_defamation_act_2013] under the Defamation Act 2013, the [Germany NetzDG 2017][ref_germany_netzdg_2017] takedown framework, the [Australia Defamation Act uniform framework][ref_australia_defamation_uniform], and the [Canada Grant v Torstar 2009][ref_grant_v_torstar_2009] framework each provide distinct recourse structures. Additional international case law includes [Dow Jones v Gutnick 2002][ref_dow_jones_v_gutnick_2002] establishing the Australian jurisdiction-of-publication framework for internet-mediated defamation, [Godfrey v Demon Internet 1999][ref_godfrey_v_demon_1999] establishing the UK intermediary-liability framework, [McAlpine v Bercow 2013][ref_mcalpine_v_bercow_2013] applying UK defamation law to Twitter, and [Loutchansky v Times Newspapers 2001][ref_loutchansky_v_times_2001] establishing the UK online-publication limitation-period framework. The [SPEECH Act 2010][ref_speech_act_2010] limits US-jurisdiction enforceability of some international judgments.
+International recourse varies by jurisdiction. The [UK defamation framework][ref_uk_defamation_act_2013] under the Defamation Act 2013, the [NetzDG 2017][ref_germany_netzdg_2017] takedown framework, the [Australia Defamation Act uniform framework][ref_australia_defamation_uniform], and the [Canada Grant v Torstar 2009][ref_grant_v_torstar_2009] framework each provide distinct recourse structures. Additional international case law includes [Dow Jones v Gutnick 2002][ref_dow_jones_v_gutnick_2002] establishing the Australian jurisdiction-of-publication framework for internet-mediated defamation, [Godfrey v Demon Internet 1999][ref_godfrey_v_demon_1999] establishing the UK intermediary-liability framework, [McAlpine v Bercow 2013][ref_mcalpine_v_bercow_2013] applying UK defamation law to Twitter, and [Loutchansky v Times Newspapers 2001][ref_loutchansky_v_times_2001] establishing the UK online-publication limitation-period framework. The [SPEECH Act 2010][ref_speech_act_2010] limits US-jurisdiction enforceability of some international judgments.
 
 ## Prevalence Estimates by Technique Class
 
@@ -621,15 +621,15 @@ The empirical prevalence estimates for competitor-attack techniques are signific
 
 Coordinated review-bombing prevalence is documented most extensively in the [Metacritic][ref_metacritic_review_bombing] and [Rotten Tomatoes][ref_rt_review_bombing] cases and in the [Vasilescu and Casanueva 2016][research_vasilescu_casanueva_2016] and adjacent empirical treatments. Event-triggered review bombing appears in approximately zero-point-one to one percent of high-visibility product releases on average, with sizable variance driven by specific-event triggers.
 
-Brigading prevalence on Reddit and adjacent community platforms is documented in [Kumar et al 2018][research_kumar_et_al_2018], [Chandrasekharan et al 2017][research_chandrasekharan_et_al_2017], and [Zannettou et al 2018][research_zannettou_et_al_2018_reddit_4chan]. The brigading-event rate varies substantially across subreddits and time periods, with typical estimates in the range of one to five percent of high-visibility target-community events involving cross-community mobilization.
+Brigading prevalence on Reddit and adjacent community platforms is documented in [Kumar et al. 2018][research_kumar_et_al_2018], [Chandrasekharan et al. 2017][research_chandrasekharan_et_al_2017], and [Zannettou et al. 2018][research_zannettou_et_al_2018_reddit_4chan]. The brigading-event rate varies substantially across subreddits and time periods, with typical estimates in the range of one to five percent of high-visibility target-community events involving cross-community mobilization.
 
 Negative-SEO prevalence is difficult to estimate because attack detection requires target-side monitoring that is not systematically reported at the industry level. Industry estimates from reputation-management firms place negative-SEO-attack incidence at approximately one to five percent of monitored client campaigns. The [Cyveillance 2015][ref_cyveillance_2015_reverse_seo] estimate at the enterprise level suggests appreciable variation by industry vertical.
 
 Defamation-campaign prevalence is difficult to estimate at aggregate level because litigation-based reporting captures only the small subset of cases that proceed to court. The [Digital Media Law Project database][ref_dmlp_database] provides one aggregate resource for documented cases. Enterprise-level surveys from [Ponemon Institute][ref_ponemon_institute] and adjacent industry-research infrastructure suggest that defamation-adjacent reputation attacks affect approximately five to ten percent of large-enterprise brands annually.
 
-Sybil-downvoting prevalence tracks the aggregate Sybil-account prevalence surveyed in [Cresci 2020][research_cresci_2020] and [Yang et al 2020][research_yang_et_al_2020]. The attack-oriented Sybil-vote fraction of aggregate Sybil-activity is not systematically reported at the industry level.
+Sybil-downvoting prevalence tracks the aggregate Sybil-account prevalence surveyed in [Cresci 2020][research_cresci_2020] and [Yang et al. 2019][research_yang_et_al_2020]. The attack-oriented Sybil-vote fraction of aggregate Sybil-activity is not systematically reported at the industry level.
 
-Reporting-system-abuse prevalence is documented most extensively in the DMCA context via the [Urban Karaganis Schofield 2016][research_urban_karaganis_schofield_2016] treatment estimating false-notice rates in the thirty-to-fifty percent range. The parallel estimates for trademark-abuse and coordinated-abuse-reporting are less developed.
+Reporting-system-abuse prevalence is documented most extensively in the DMCA context via the [Urban et al. 2016][research_urban_karaganis_schofield_2016] treatment estimating false-notice rates in the thirty-to-fifty percent range. The parallel estimates for trademark-abuse and coordinated-abuse-reporting are less developed.
 
 The composite category-weighted prevalence estimator has the same formal characterization as for self-promotion,
 
@@ -649,13 +649,13 @@ The antitrust-and-predatory-conduct framework treats competitor-attack as an exc
 
 The tort-doctrine framework treats competitor-attack under the tort categories the [Restatement Second of Torts][ref_restatement_second_torts] enumerates, including defamation, false light, tortious interference with contract, tortious interference with prospective economic advantage, and injurious falsehood. This account operates through the per-tort element analysis and produces damages-based recourse to the tort category invoked. The framework is the primary US-law recourse structure and allows treatment through the [Prosser and Keeton 1984][book_prosser_keeton_1984] Handbook of the Law of Torts and subsequent doctrinal treatments.
 
-The cascade-dynamics framework of [Watts 2002][research_watts_2002] and [Bikhchandani Hirshleifer Welch 1992][research_bikhchandani_hirshleifer_welch_1992] treats competitor-attack propagation as a threshold-cascade dynamic on the target's audience network. The account predicts that attack effectiveness is highly sensitive to the network topology and to the timing of the attack relative to the audience's information state, which produces the observed high-variance outcome distribution across attempted attacks. The [Salganik Dodds Watts 2006][research_salganik_dodds_watts_2006] Experimental Study of Inequality treatment provides the empirical foundation.
+The cascade-dynamics framework of [Watts 2002][research_watts_2002] and [Bikhchandani et al. 1992][research_bikhchandani_hirshleifer_welch_1992] treats competitor-attack propagation as a threshold-cascade dynamic on the target's audience network. The account predicts that attack effectiveness is highly sensitive to the network topology and to the timing of the attack relative to the audience's information state, which produces the observed high-variance outcome distribution across attempted attacks. The [Salganik et al. 2006][research_salganik_dodds_watts_2006] Experimental Study of Inequality treatment provides the empirical foundation.
 
 The harassment-continuum framework of [Kelly 1988][book_kelly_1988] and the online-harassment extension in [Jane 2014][research_jane_2014] treat competitor-attack against individual targets (particularly public-figure individuals) as a subset of the broader harassment continuum, with attention to gendered and marginalized-population-targeting patterns. The model predicts that reforms internal to the competitor-attack framework will fail to address the underlying harassment dynamic and that broader anti-harassment reform is required.
 
 The information-warfare framework treats competitor-attack as a subset of the broader information-operations framework that includes state-sponsored operations. The [Rid 2020][book_rid_2020] Active Measures treatment, the [Singer and Brooking 2018][book_singer_brooking_2018] LikeWar treatment, and the [Woolley and Howard 2018][book_woolley_howard_2018] Computational Propaganda treatment develop the framework. This formulation predicts significant technique-and-infrastructure spillover from state-sponsored operations into commercial competitor-attack operations, which produces commercial-attack characteristics that pure-commercial framing may miss.
 
-The restorative-justice framework of [Zehr 2002][book_zehr_2002] Little Book of Restorative Justice provides an alternative recourse structure emphasizing target-restoration and community-repair rather than adversarial-litigation adjudication. This account has been applied to online-harassment contexts through the [Chandrasekharan et al 2017][research_chandrasekharan_et_al_2017] work on community-ban effects and adjacent scholarship. The framework predicts that adversarial-litigation-focused reform produces limited target-restoration effect compared with community-based interventions that address the underlying attack-motivation and audience-dynamics.
+The restorative-justice framework of [Zehr 2002][book_zehr_2002] Little Book of Restorative Justice provides an alternative recourse structure emphasizing target-restoration and community-repair rather than adversarial-litigation adjudication. This account has been applied to online-harassment contexts through the [Chandrasekharan et al. 2017][research_chandrasekharan_et_al_2017] work on community-ban effects and adjacent scholarship. The framework predicts that adversarial-litigation-focused reform produces limited target-restoration effect compared with community-based interventions that address the underlying attack-motivation and audience-dynamics.
 
 The regulatory-capture framework of [Stigler 1971][research_stigler_1971] extends to defamation-reform politics through the observation that reform of the defamation-and-attack landscape faces systematic opposition from actors that benefit from the status quo. The account predicts that reform-oriented efforts (comprehensive anti-SLAPP legislation, defamation-law modernization, Section-230 revision) will face persistent opposition from concentrated-interest actors even where diffuse-benefit constituencies favor the reform.
 
@@ -681,207 +681,216 @@ These questions recur throughout the miniseries and are revisited in the closing
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Andrew and Mitrokhin 1999 The Sword and the Shield][book_andrew_mitrokhin_1999]
-- [Ansolabehere and Iyengar 1996 Going Negative][book_ansolabehere_iyengar_1996]
-- [Baldasty 1992 The Commercialization of News in the Nineteenth Century][book_baldasty_1992]
-- [Boorstin 1961 The Image][book_boorstin_1961]
-- [Bork 1978 The Antitrust Paradox][book_bork_1978]
-- [Citron 2014 Hate Crimes in Cyberspace][book_citron_2014]
-- [Franklin Anderson and Cate 2016 Mass Media Law][book_franklin_anderson_cate_2016]
-- [Franks 2019 The Cult of the Constitution][book_franks_2019]
-- [Geer 2006 In Defense of Negativity][book_geer_2006]
-- [Kelly 1988 Surviving Sexual Violence][book_kelly_1988]
-- [Kiernan 1988 The Duel in European History][book_kiernan_1988]
-- [Loveland 2000 Political Libels A Comparative Study][book_loveland_2000]
-- [Mark 2006 Going Dirty History of Negative Campaigning][book_mark_2006]
-- [Marwick 2013 Status Update][book_marwick_2013]
-- [Michaels 2008 Doubt Is Their Product][book_michaels_2008]
-- [Michaels 2020 The Triumph of Doubt][book_michaels_2020]
-- [Nasaw 2000 The Chief][book_nasaw_2000]
-- [Oreskes and Conway 2010 Merchants of Doubt][book_oreskes_conway_2010]
-- [Phillips 2015 This is Why We Can't Have Nice Things][book_phillips_2015]
-- [Posner 2001 Antitrust Law][book_posner_2001]
-- [Prosser and Keeton 1984 Handbook of the Law of Torts][book_prosser_keeton_1984]
-- [Rid 2020 Active Measures][book_rid_2020]
-- [Rosenberg 1986 Protecting the Best Men][book_rosenberg_1986]
-- [Siebert 1965 Freedom of the Press in England 1476-1776][book_siebert_1965]
-- [Singer and Brooking 2018 LikeWar][book_singer_brooking_2018]
-- [Sunstein 2018 Republic Divided Democracy in the Age of Social Media][book_sunstein_2018]
-- [Weiner 2007 Legacy of Ashes The History of the CIA][book_weiner_2007]
-- [Wills 1970 Nixon Agonistes][book_wills_1970]
-- [Woolley and Howard 2018 Computational Propaganda][book_woolley_howard_2018]
-- [Zehr 2002 Little Book of Restorative Justice][book_zehr_2002]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Carlini, Nicholas, and David Wagner. 2017. "Towards Evaluating the Robustness of Neural Networks." In *2017 IEEE Symposium on Security and Privacy (SP)*. IEEE. [https://doi.org/10.1109/sp.2017.49][research_carlini_wagner_2017]
+- Urban, Jennifer M., Joe Karaganis, and Schofield. 2016. "Notice and Takedown in Everyday Practice." *SSRN Electronic Journal*. [https://doi.org/10.2139/ssrn.2755628][research_urban_karaganis_schofield_2016]
+- Yang, Kai-Cheng, Onur Varol, Clayton A. Davis, Emilio Ferrara, Alessandro Flammini, and Filippo Menczer. 2019. "Arming the Public with Artificial Intelligence to Counter Social Bots." *Human Behavior and Emerging Technologies* 1 (1): 48–61. [https://doi.org/10.1002/hbe2.115][research_yang_et_al_2020]
 
-- [4chan Raid Coordination Documentation][ref_4chan_raid_documentation]
-- [15 USC 1125 Lanham Act Section 43a False Advertising][ref_lanham_act_15_usc_1125]
-- [15 USC 2 Sherman Act Section 2][ref_sherman_act_15_usc_2]
-- [17 USC 512 Digital Millennium Copyright Act Notice and Takedown][ref_dmca_17_usc_512]
-- [17 USC 512(f) DMCA Misrepresentation Provision][ref_dmca_512f]
-- [18 USC 2261A Federal Cyberstalking Statute][ref_cyberstalking_18_usc_2261a]
-- [47 USC 223 Telecommunications Harassment Framework][ref_47_usc_223]
-- [47 USC 230 Communications Decency Act Section 230][ref_section_230_cda]
-- [47 USC 230(c)(2) Good Samaritan Provision][ref_section_230_c2]
-- [ABC News 20/20 BBB Investigation 2010][ref_abc_2020_bbb_2010]
-- [Amber Heard v Depp 2022][ref_heard_v_depp_2022]
-- [Atlantic Council DFRLab Investigations][ref_atlantic_council_dfrlab]
-- [Anti-SLAPP Tracker Public Participation Project][ref_anti_slapp_tracker]
-- [Automattic v Steiner 2016][ref_automattic_v_steiner_2016]
-- [Bartnicki v Vopper 2001][ref_bartnicki_v_vopper_2001]
-- [Bellingcat Open-Source Investigation Methodology][ref_bellingcat]
-- [Birther Conspiracy Campaign 2008-2016][ref_birther_campaign]
-- [California Anti-SLAPP Statute Code of Civil Procedure 425.16][ref_california_anti_slapp]
-- [Ahrefs Domain Rating Framework][ref_ahrefs_domain_rating]
-- [Amazon Community Guidelines][ref_amazon_community_guidelines]
-- [Amazon Brand Registry][ref_amazon_brand_registry]
-- [Amazon Review Bombing Documented Cases][ref_amazon_review_bombing_cases]
-- [Amazon v ThinkExpress 2022][ref_amazon_v_thinkexpress_2022]
-- [Australia Defamation Act Uniform Framework][ref_australia_defamation_uniform]
-- [Barnes v Yahoo 2009][ref_barnes_v_yahoo_2009]
-- [Batzel v Smith 2003][ref_batzel_v_smith_2003]
-- [BBB Standards for Trust][ref_bbb_standards]
-- [Blockowicz v Williams 2010][ref_blockowicz_v_williams_2010]
-- [Cahill v Doe 2005][ref_cahill_v_doe_2005]
-- [California Business and Professions Code Section 17200 Unfair Competition Law][ref_california_ucl_17200]
-- [Cardi B v Kebe 2022][ref_cardi_b_v_kebe_2022]
-- [E Jean Carroll v Trump 2023][ref_carroll_v_trump_2023]
-- [Christchurch Call][ref_christchurch_call]
-- [ComplaintsBoard][ref_complaints_board]
-- [Copyright Office Section 512 Study][ref_copyright_office_512_study]
-- [Cyber Civil Rights Initiative][ref_cyber_civil_rights_initiative]
-- [Cyveillance 2015 Reverse SEO Report][ref_cyveillance_2015_reverse_seo]
-- [Dendrite v Doe 2001][ref_dendrite_v_doe_2001]
-- [Digital Media Law Project Database][ref_dmlp_database]
-- [Discord Coordination Reports][ref_discord_coordination_reports]
-- [Doe v MySpace 2008][ref_doe_v_myspace_2008]
-- [Dow Jones v Gutnick 2002][ref_dow_jones_v_gutnick_2002]
-- [EU Anti-SLAPP Directive 2024][ref_eu_anti_slapp_2024]
-- [Fair Housing Council v Roommates.com 2008][ref_roommates_2008]
-- [Force v Facebook 2019][ref_force_v_facebook_2019]
-- [FTC Consumer Sentinel Network][ref_ftc_consumer_sentinel]
-- [FTC v Amazon 2023][ref_ftc_v_amazon_2023]
-- [FTC v Roomster 2022][ref_ftc_roomster_2022]
-- [Gamergate Coordinated Harassment Documentation][ref_gamergate_coverage]
-- [Godfrey v Demon Internet 1999][ref_godfrey_v_demon_1999]
-- [Germany Netzwerkdurchsetzungsgesetz NetzDG 2017][ref_germany_netzdg_2017]
-- [Gertz v Robert Welch 1974][ref_gertz_v_welch_1974]
-- [Global Internet Forum to Counter Terrorism GIFCT][ref_gifct]
-- [Gonzalez v Google 2023][ref_gonzalez_v_google_2023]
-- [Goodreads Review Bombing Documented Cases][ref_goodreads_review_bombing]
-- [Google 2011 Panda Algorithm Update][ref_google_panda_2011]
-- [Google 2012 Penguin Algorithm Update][ref_google_penguin_2012]
-- [Google Disavow Tool][ref_google_disavow_tool]
-- [Google Manual Actions Documentation][ref_google_manual_actions]
-- [Google Safe Browsing][ref_google_safe_browsing]
-- [Google Search Central Spam Policies][ref_google_search_spam_policies]
-- [Google Search Console Malware Notification][ref_google_search_console_malware]
-- [Google Transparency Report DMCA Data][ref_google_transparency_dmca]
-- [Grant v Torstar 2009 Canada][ref_grant_v_torstar_2009]
-- [Graphika Reports on Coordinated Inauthentic Behavior][ref_graphika_reports]
-- [Herrick v Grindr 2019][ref_herrick_v_grindr_2019]
-- [Klayman v Zuckerberg 2014][ref_klayman_v_zuckerberg_2014]
-- [Lenz v Universal 2015][ref_lenz_v_universal_2015]
-- [Loutchansky v Times Newspapers 2001][ref_loutchansky_v_times_2001]
-- [Lumen Database][ref_lumen_database]
-- [McAlpine v Bercow 2013][ref_mcalpine_v_bercow_2013]
-- [Meta Adversarial Threat Report][ref_meta_atr]
-- [Meta CIB Report Archive][ref_meta_cib_report_archive]
-- [Meta Community Standards][ref_meta_community_standards]
-- [Metacritic Review Bombing Documented Cases][ref_metacritic_review_bombing]
-- [Milkovich v Lorain Journal 1990][ref_milkovich_v_lorain_1990]
-- [Moz Spam Score Methodology][ref_moz_spam_score]
-- [MTM v Amazon 2015][ref_mtm_v_amazon_2015]
-- [Nemet Chevrolet v Consumeraffairs.com 2009][ref_nemet_v_consumeraffairs_2009]
-- [NetReputation.com][ref_netreputation_com]
-- [New York Times v Sullivan 1964][ref_ny_times_sullivan_1964]
-- [Online Policy Group v Diebold 2004][ref_diebold_2004]
-- [Ouellette v Viacom 2013][ref_ouellette_v_viacom_2013]
-- [Perfect 10 v CCBill 2007][ref_perfect_10_v_ccbill_2007]
-- [Sarah Palin v NYT 2022][ref_palin_v_nyt_2022]
-- [Ponemon Institute Enterprise Reputation Research][ref_ponemon_institute]
-- [Reddit Content Policy][ref_reddit_content_policy]
-- [Reddit Vote Manipulation Policy][ref_reddit_vote_manipulation_policy]
-- [Reit-Nightingale v Universal 2019][ref_reit_nightingale_v_universal_2019]
-- [Reputation.com][ref_reputation_com]
-- [Rescuecom v Google 2009][ref_rescuecom_v_google_2009]
-- [Restatement Second of Torts][ref_restatement_second_torts]
-- [Right to be Forgotten EU Framework][ref_right_to_be_forgotten_eu]
-- [Ripoff Report Platform][ref_ripoff_report]
-- [Rossi v Motion Picture Association 2004][ref_rossi_v_mpaa_2004]
-- [Rotten Tomatoes Review Bombing Documented Cases][ref_rt_review_bombing]
-- [SPEECH Act 2010][ref_speech_act_2010]
-- [Swift Boat Veterans for Truth 2004][ref_swift_boat_2004]
-- [Telegram Coordination Reports][ref_telegram_coordination_reports]
-- [TikTok Community Guidelines General Framework][ref_tiktok_community_guidelines_general]
-- [Trustpilot Transparency Report][ref_trustpilot_transparency]
-- [Twitter Mass-Reporting Analysis][ref_twitter_mass_reporting_analysis]
-- [UK Defamation Act 2013][ref_uk_defamation_act_2013]
-- [Uniform Public Expression Protection Act][ref_upepa]
-- [Wikipedia Sockpuppet Investigations][ref_wikipedia_spi]
-- [Willie Horton 1988 Attack Ad Documentation][ref_willie_horton_1988]
-- [X Terms of Service][ref_x_terms_of_service]
-- [YouTube Community Guidelines Strikes System][ref_youtube_community_guidelines_strikes]
-- [YouTube Content ID Trademark Framework][ref_youtube_trademark_policy]
-- [Yelp v Hadeed Carpet Cleaning 2014][ref_yelp_v_hadeed_2014]
-- [Zeran v AOL 1997][ref_zeran_v_aol_1997]
-- [Zervos v Trump Defamation Litigation][ref_zervos_v_trump]
+### Primary Sources, Non-Peer-Reviewed
 
-### Related Post
+- "15 USC 1125 Lanham Act Section 43a False Advertising." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/1125][ref_lanham_act_15_usc_1125]
+- "15 USC 2 Sherman Act Section 2." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/2][ref_sherman_act_15_usc_2]
+- "17 USC 512(f) DMCA Misrepresentation Provision." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/17/512][ref_dmca_17_usc_512]
+- "18 USC 2261A Federal Cyberstalking Statute." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/18/2261A][ref_cyberstalking_18_usc_2261a]
+- "47 USC 223 Telecommunications Harassment Framework." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/47/223][ref_47_usc_223]
+- "47 USC 230 Communications Decency Act Section 230." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/47/230][ref_section_230_cda]
+- Areeda, Phillip, and Donald F. Turner. 1975. "Predatory Pricing and Related Practices under Section 2 of the Sherman Act." *Harvard Law Review* 88 (4): 697. [https://doi.org/10.2307/1340237][research_areeda_turner_1975]
+- Barabási, Albert-László, and Réka Albert. 1999. "Emergence of Scaling in Random Networks." *Science* 286 (5439): 509–12. [https://doi.org/10.1126/science.286.5439.509][research_barabasi_albert_1999]
+- "Barnes v Yahoo." 2009. [https://cdn.ca9.uscourts.gov/datastore/opinions/2009/06/22/05-36189.pdf][ref_barnes_v_yahoo_2009]
+- "Bartnicki v. Vopper, 532 U.S. 514 (2001)." 2001. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/532/514/][ref_bartnicki_v_vopper_2001]
+- "Batzel v Smith." 2003. [https://caselaw.findlaw.com/court/us-9th-circuit/1290014.html][ref_batzel_v_smith_2003]
+- Bikhchandani, Sushil, David Hirshleifer, and Ivo Welch. 1992. "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades." *Journal of Political Economy* 100 (5): 992–1026. [https://doi.org/10.1086/261849][research_bikhchandani_hirshleifer_welch_1992]
+- "Cahill v Doe." 2005. [https://law.justia.com/cases/delaware/supreme-court/2005/2005-oct-05-4.html][ref_cahill_v_doe_2005]
+- "California Anti-SLAPP Statute Code of Civil Procedure 425.16." n.d. Accessed October 25, 2026. [https://leginfo.legislature.ca.gov/faces/codes\_displaySection.xhtml?lawCode=CCP&sectionNum=425.16][ref_california_anti_slapp]
+- "California Business and Professions Code Section 17200 Unfair Competition Law." n.d. Accessed October 25, 2026. [https://leginfo.legislature.ca.gov/faces/codes\_displaySection.xhtml?lawCode=BPC&sectionNum=17200][ref_california_ucl_17200]
+- Chandrasekharan, Eshwar, Umashanthi Pavalanathan, Anirudh Srinivasan, Adam Glynn, Jacob Eisenstein, and Eric Gilbert. 2017. "You Can't Stay Here: The Efficacy of Reddit's 2015 Ban Examined through Hate Speech." *Proceedings of the ACM on Human-Computer Interaction* 1 (CSCW): 1–22. [https://doi.org/10.1145/3134666][research_chandrasekharan_et_al_2017]
+- "Consumer Sentinel Network." 2013. Federal Trade Commission, July 16. [https://www.ftc.gov/enforcement/consumer-sentinel-network][ref_ftc_consumer_sentinel]
+- Cresci, Stefano. 2020. "A Decade of Social Bot Detection." *Communications of the ACM* 63 (10): 72–83. [https://doi.org/10.1145/3409116][research_cresci_2020]
+- "Dendrite v Doe." 2001. [https://law.justia.com/cases/new-jersey/appellate-division-published/2001/a2774-00-1.html][ref_dendrite_v_doe_2001]
+- "Directive: EU: 2024/1069: EN: EUR-LexLog inEnglish." 2024. Accessed October 25, 2026. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024L1069][ref_eu_anti_slapp_2024]
+- "Doe v MySpace." 2008. [https://law.justia.com/cases/federal/appellate-courts/F3/528/413/525193/][ref_doe_v_myspace_2008]
+- Douek, Evelyn. 2020. "Governing Online Speech: From 'Posts-As-Trumps' to Proportionality and Probability." Preprint, . [https://doi.org/10.2139/ssrn.3679607][research_douek_2021]
+- "Fair Housing Council v Roommates.com." 2008. [https://cdn.ca9.uscourts.gov/datastore/opinions/2008/04/03/0456916.pdf][ref_roommates_2008]
+- Feng. 2012. *Syntactic Stylometry for Deception Detection*. [https://scholar.google.com/scholar?q=Syntactic+Stylometry+for+Deception+Detection+Feng+2012][research_feng_et_al_2012]
+- "Force v Facebook." 2019. [https://www.ca2.uscourts.gov/decisions/isysquery/2c50f8ea-4b6f-4c0f-b8ec-92f6c2d80a26/1/doc/18-397\_opn.pdf][ref_force_v_facebook_2019]
+- "FTC v Amazon." 2023. [https://www.ftc.gov/legal-library/browse/cases-proceedings/2223050-amazoncom-inc-prime][ref_ftc_v_amazon_2023]
+- "FTC v Roomster." 2022. [https://www.ftc.gov/legal-library/browse/cases-proceedings/2223059-roomster-corp][ref_ftc_roomster_2022]
+- "Gertz v. Robert Welch, Inc., 418 U.S. 323 (1974)." 1974. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/418/323/][ref_gertz_v_welch_1974]
+- Goldstein, Josh A., Girish Sastry, Micah Musser, Renee DiResta, Matthew Gentzel, and Katerina Sedova. 2023. "Generative Language Models and Automated Influence Operations: Emerging Threats and Potential Mitigations." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2301.04246][research_goldstein_et_al_2023]
+- "Gonzalez v Google." 2023. [https://www.supremecourt.gov/opinions/22pdf/21-1333\_6j7a.pdf][ref_gonzalez_v_google_2023]
+- Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. 2014. "Explaining and Harnessing Adversarial Examples." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1412.6572][research_goodfellow_shlens_szegedy_2014]
+- Hartigan, J. A., and P. M. Hartigan. 1985. "The Dip Test of Unimodality." *Annals of Statistics* 13 (1): 70–84. [https://doi.org/10.1214/aos/1176346577][research_hartigan_hartigan_1985]
+- "Herrick v Grindr." 2019. [https://www.ca2.uscourts.gov/decisions/isysquery/85d0e5df-2d4b-4a1a-b4b7-8ba15c8de1f9/1/doc/18-396\_opn.pdf][ref_herrick_v_grindr_2019]
+- Hine, Gabriel, Jeremiah Onaolapo, Emiliano De Cristofaro, et al. 2017. "Kek, Cucks, and God Emperor Trump: A Measurement Study of 4chan’s Politically Incorrect Forum and Its Effects on the Web." *Proceedings of the International AAAI Conference on Web and Social Media* 11 (1): 92–101. [https://doi.org/10.1609/icwsm.v11i1.14893][research_hine_et_al_2017]
+- Kalpakis, K., D. Gada, and V. Puttagunta. 2001. "Distance Measures for Effective Clustering of ARIMA Time-Series." In *Proceedings 2001 IEEE International Conference on Data Mining*. IEEE Comput. Soc. [https://doi.org/10.1109/icdm.2001.989529][research_kalpakis_et_al_2001]
+- Kamenica, Emir, and Matthew Gentzkow. 2011. "Bayesian Persuasion." *American Economic Review* 101 (6): 2590–2615. [https://doi.org/10.1257/aer.101.6.2590][research_kamenica_gentzkow_2011]
+- Kumar, Srijan, William L. Hamilton, Jure Leskovec, and Dan Jurafsky. 2018. "Community Interaction and Conflict on the Web." In *Proceedings of the 2018 World Wide Web Conference on World Wide Web - WWW '18*. ACM Press. [https://doi.org/10.1145/3178876.3186141][research_kumar_et_al_2018]
+- Kwak, Haewoon, Changhyun Lee, Hosung Park, and Sue Moon. 2010. "What Is Twitter, a Social Network or a News Media?" In *Proceedings of the 19th international conference on World wide web*. ACM. [https://doi.org/10.1145/1772690.1772751][research_kwak_lee_park_moon_2010]
+- "Lenz v Universal." 2015. [https://cdn.ca9.uscourts.gov/datastore/opinions/2015/09/14/13-16106.pdf][ref_lenz_v_universal_2015]
+- Marwick, Alice, and Lewis. 2017. *Media Manipulation and Disinformation Online*. Data & Society Research Institute. [https://doi.org/10.69985/qpaf6919][research_marwick_lewis_2017]
+- "Milkovich v. Lorain Journal, 497 U.S. 1 (1990)." 1990. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/497/1/][ref_milkovich_v_lorain_1990]
+- "MTM v Amazon." 2015. [https://cdn.ca9.uscourts.gov/datastore/opinions/2015/07/06/14-55184.pdf][ref_mtm_v_amazon_2015]
+- "Nemet Chevrolet v Consumeraffairs.com." 2009. [https://law.justia.com/cases/federal/appellate-courts/ca4/08-2097/08-2097-2009-12-29.html][ref_nemet_v_consumeraffairs_2009]
+- "NetzDG: Nichtamtliches Inhaltsverzeichnis." 2017. Accessed October 25, 2026. [https://www.gesetze-im-internet.de/netzdg/][ref_germany_netzdg_2017]
+- "New York Times v Sullivan." 1964. [https://supreme.justia.com/cases/federal/us/376/254/][ref_ny_times_sullivan_1964]
+- Ott, Myle, Yejin Choi, Claire Cardie, and Jeffrey T. Hancock. 2011. "Finding Deceptive Opinion Spam by Any Stretch of the Imagination." In *Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*. [https://aclanthology.org/P11-1032/][research_ott_et_al_2011]
+- Papernot, Nicolas, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z. Berkay Celik, and Ananthram Swami. 2016. "Practical Black-Box Attacks against Machine Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1602.02697][research_papernot_et_al_2016]
+- "Perfect 10 v CCBill." 2007. [https://caselaw.findlaw.com/court/us-9th-circuit/1050063.html][ref_perfect_10_v_ccbill_2007]
+- Post, Robert C. 1986. "The Social Foundations of Defamation Law: Reputation and the Constitution." *California Law Review* 74 (3): 691. [https://doi.org/10.2307/3480391][research_post_1986]
+- Prosser. 1960. *Privacy Law*. [https://scholar.google.com/scholar?q=Privacy+Law+Prosser+1960][research_prosser_1960]
+- Ravasi. 2020. *Search Engine Ranking Manipulation and Legitimate Content Displacement*. [https://scholar.google.com/scholar?q=Search+Engine+Ranking+Manipulation+and+Legitimate+Content+Displacement+Ravasi+2020][research_ravasi_et_al_2020]
+- "Rescuecom v Google." 2009. [https://caselaw.findlaw.com/court/us-2nd-circuit/1230253.html][ref_rescuecom_v_google_2009]
+- Ribeiro, Manoel Horta, Raphael Ottoni, Robert West, Virgílio A. F. Almeida, and Wagner Meira. 2020. "Auditing Radicalization Pathways on YouTube." In *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency*. ACM. [https://doi.org/10.1145/3351095.3372879][research_ribeiro_et_al_2020]
+- "Rossi v Motion Picture Association." 2004. [https://cdn.ca9.uscourts.gov/datastore/opinions/2004/02/02/0356075.pdf][ref_rossi_v_mpaa_2004]
+- Sadasivan, Vinu Sankar, Aounon Kumar, Sriram Balasubramanian, Wenxiao Wang, and Soheil Feizi. 2023. "Can AI-Generated Text Be Reliably Detected?" Preprint, arXiv. [https://doi.org/10.48550/arxiv.2303.11156][research_sadasivan_et_al_2023]
+- Salganik, Matthew J., Peter Sheridan Dodds, and Duncan J. Watts. 2006. "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market." *Science* 311 (5762): 854–56. [https://doi.org/10.1126/science.1121066][research_salganik_dodds_watts_2006]
+- "SPEECH Act." 2010. [https://www.congress.gov/bill/111th-congress/house-bill/2765][ref_speech_act_2010]
+- Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
+- Szegedy, Christian, Wojciech Zaremba, Ilya Sutskever, et al. 2013. "Intriguing Properties of Neural Networks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1312.6199][research_szegedy_et_al_2013]
+- "UK Defamation Act." 2013. [https://www.legislation.gov.uk/ukpga/2013/26/contents][ref_uk_defamation_act_2013]
+- Vasilescu and Casanueva. 2016. *Review Bombing Detection*. [https://scholar.google.com/scholar?q=Review+Bombing+Detection+Vasilescu+Casanueva+2016][research_vasilescu_casanueva_2016]
+- Watts, Duncan J. 2002. "A Simple Model of Global Cascades on Random Networks." *Proceedings of the National Academy of Sciences* 99 (9): 5766–71. [https://doi.org/10.1073/pnas.082090499][research_watts_2002]
+- Yang, Kai-Cheng, and Filippo Menczer. 2023. "Anatomy of an AI-Powered Malicious Social Botnet." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2307.16336][research_yang_menczer_2024]
+- "Yelp v Hadeed Carpet Cleaning." 2014. [https://law.justia.com/cases/virginia/supreme-court/2015/141531.html][ref_yelp_v_hadeed_2014]
+- Zannettou, Savvas, Tristan Caulfield, Emiliano De Cristofaro, Michael Sirivianos, Gianluca Stringhini, and Jeremy Blackburn. 2018. "Disinformation Warfare: Understanding State-Sponsored Trolls on Twitter and Their Influence on the Web." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1801.09288][research_zannettou_et_al_2018_reddit_4chan]
+- "Zeran v AOL." 1997. [https://law.justia.com/cases/federal/appellate-courts/F3/129/327/565056/][ref_zeran_v_aol_1997]
+- "Zervos v Trump Defamation Litigation." n.d. Accessed October 25, 2026. [https://law.justia.com/cases/new-york/other-courts/2018/2018-ny-slip-op-28074.html][ref_zervos_v_trump]
 
-- [Virtual Reputation Manipulation Theory and Analytical Framework A277][related_post_a277_theory]
-- [Virtual Reputation Manipulation Techniques of Self-Promotion A278][related_post_a278_self_promotion]
+### Secondary Sources
 
-### Research
+- Andrew, Christopher M., Christopher Andrew, and Vasili Mitrokhin. 1999. *The Sword and the Shield: The Mitrokhin Archive and the Secret History of the KGB*. Basic Books. [https://www.basicbooks.com/titles/christopher-andrew/the-sword-and-the-shield/9780465003129/][book_andrew_mitrokhin_1999]
+- Ansolabehere, Stephen, and Shanto Iyengar. 1996. *Going Negative: How Political Advertisements Shrink and Polarize the Electorate*. Free Press. [https://www.simonandschuster.com/books/Going-Negative/Stephen-Ansolabehere/9780028740140][book_ansolabehere_iyengar_1996]
+- Baldasty, Gerald J. 1992. *The Commercialization of News in the Nineteenth Century*. University of Wisconsin Press. [https://uwapress.uw.edu/book/9780299134044/the-commercialization-of-news-in-the-nineteenth-century/][book_baldasty_1992]
+- Boorstin, Daniel J. 1961. *The Image: Or, What Happened to the American Dream*. Kingsport Press, Inc. [https://www.penguinrandomhouse.com/books/28626/the-image-by-daniel-j-boorstin/][book_boorstin_1961]
+- Bork, Robert H. 1978. *The Antitrust Paradox: A Policy at War with Itself*. Basic Books. [https://www.basicbooks.com/titles/robert-h-bork/the-antitrust-paradox/9780029044568/][book_bork_1978]
+- Citron, Danielle Keats. 2014. *Hate Crimes in Cyberspace*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674659902][book_citron_2014]
+- Franklin, Marc A., David A. Anderson, and Fred H. Cate. 2016. *Cases and Materials on Mass Media Law*. Foundation Press. [https://www.westacademic.com/Casebook/Mass-Media-Law-Cases-and-Materials-9th-Franklin][book_franklin_anderson_cate_2016]
+- Franks, Mary Anne. 2019. *The Cult of the Constitution*. Stanford University Press. [https://www.sup.org/books/title/?id=29663][book_franks_2019]
+- Geer, John Gray. 2006. *In Defense of Negativity: Attack Ads in Presidential Campaigns*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/I/bo3766942.html][book_geer_2006]
+- Kelly, Liz. 1988. *Surviving Sexual Violence*. Polity Press. [https://www.wiley.com/en-us/Surviving+Sexual+Violence-p-9780745605739][book_kelly_1988]
+- Kiernan, V. G. 1988. *The Duel in European History: Honour and the Reign of Aristocracy*. Oxford University Press. [https://global.oup.com/academic/product/the-duel-in-european-history-9780198205036][book_kiernan_1988]
+- Loveland. 2000. *Political Libels A Comparative Study*. [https://www.hart.oup.com/political-libels][book_loveland_2000]
+- Mark. 2006. *Going Dirty History of Negative Campaigning*. [https://rowman.com/ISBN/9780742551169][book_mark_2006]
+- Marwick, Alice E. 2013. *Status Update: Celebrity, Publicity, and Branding in the Social Media Age*. Yale University Press. [https://yalebooks.yale.edu/book/9780300209389/status-update/][book_marwick_2013]
+- Michaels. 2008. *Doubt Is Their Product: How Industry's Assault on Science Threatens Your Health*. Oxford University Press, USA. [https://global.oup.com/academic/product/doubt-is-their-product-9780195300673][book_michaels_2008]
+- Michaels, David. 2020. *The Triumph of Doubt: Dark Money and the Science of Deception*. Oxford University Press. [https://global.oup.com/academic/product/the-triumph-of-doubt-9780190922665][book_michaels_2020]
+- Nasaw, David. 2000. *The Chief: The Life of William Randolph Hearst*. Houghton Mifflin. [https://www.hmhbooks.com/shop/books/The-Chief/9780618154463][book_nasaw_2000]
+- Oreskes, Naomi, and Conway. 2010. *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Publishing Plc. [https://www.bloomsbury.com/us/merchants-of-doubt-9781608193943/][book_oreskes_conway_2010]
+- Phillips, Whitney. 2015. *This Is Why We Can't Have Nice Things*. MIT Press. [https://mitpress.mit.edu/9780262529877/this-is-why-we-cant-have-nice-things/][book_phillips_2015]
+- Posner, Richard A. 2001. *Antitrust Law: An Economic Perspective*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/A/bo3626728.html][book_posner_2001]
+- Prosser, William Lloyd, and Keeton. 1984. *Handbook of the Law of Torts*. West Pub. Co. [https://www.westacademic.com/Casebook/Prosser-and-Keeton-on-Torts-5th-9780314745774][book_prosser_keeton_1984]
+- Rid, Thomas. 2020. *Active Measures*. [https://us.macmillan.com/books/9780374287269/activemeasures][book_rid_2020]
+- Rosenberg, Norman L. 1986. *Protecting the Best Men: An Interpretive History of the Law of Libel*. University of North Carolina Press. [https://uncpress.org/book/9780807817124/protecting-the-best-men/][book_rosenberg_1986]
+- Siebert, Fred S. 1965. *Freedom of the Press in England, 1476-1776*. Books on Demand. [https://uipress.press.uillinois.edu/books/?id=p066395][book_siebert_1965]
+- Singer, P. W., and Brooking. 2018. *LikeWar: The Weaponization of Social Media*. Houghton Mifflin Harcourt Publishing Company. [https://www.hmhbooks.com/shop/books/LikeWar/9781328695741][book_singer_brooking_2018]
+- Sunstein, Cass R. 2018. *\#Republic: Divided Democracy in the Age of Social Media*. Princeton University Press. [https://press.princeton.edu/books/hardcover/9780691180908/republic][book_sunstein_2018]
+- Weiner. 2007. *Legacy of Ashes The History of the CIA*. [https://www.penguinrandomhouse.com/books/198540/legacy-of-ashes-by-tim-weiner/][book_weiner_2007]
+- Wills, Garry. 1970. *Nixon Agonistes: The Crisis of the Self-Made Man*. Houghton Mifflin. [https://www.penguinrandomhouse.com/books/319898/nixon-agonistes-by-garry-wills/][book_wills_1970]
+- Woolley, Samuel C., and Philip N. Howard. 2018. *Computational Propaganda: Political Parties, Politicians, and Political Manipulation on Social Media*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/computational-propaganda-9780190931414][book_woolley_howard_2018]
+- Zehr, Howard. 2002. *The Little Book of Restorative Justice*. Good Books. [https://www.goodbooks.com/little-book-of-restorative-justice/][book_zehr_2002]
 
-- [Anderson 1991 Reputation Compensation Punishment Suppression][research_anderson_1991]
-- [Areeda and Turner 1975 Predatory Pricing and Related Practices][research_areeda_turner_1975]
-- [Balkin 2018 Free Speech is a Triangle][research_balkin_2018]
-- [Barabasi and Albert 1999 Emergence of Scaling in Random Networks][research_barabasi_albert_1999]
-- [Bikhchandani Hirshleifer Welch 1992 A Theory of Fads Fashion Custom and Cultural Change][research_bikhchandani_hirshleifer_welch_1992]
-- [Carlini and Wagner 2017 Towards Evaluating the Robustness of Neural Networks][research_carlini_wagner_2017]
-- [Chandrasekharan et al 2017 You Can't Stay Here Reddit Ban Effects][research_chandrasekharan_et_al_2017]
-- [Cresci 2020 A Decade of Social Bot Detection][research_cresci_2020]
-- [Douek 2021 Governing Online Speech][research_douek_2021]
-- [Elhauge 2003 Defining Better Monopolization Standards][research_elhauge_2003]
-- [Fazio Barber Sherman Rand 2019 Knowledge Does Not Protect Against Illusory Truth Effect][research_fazio_barber_sherman_rand_2019]
-- [Feng et al 2012 Syntactic Stylometry for Deception Detection][research_feng_et_al_2012]
-- [Goldstein et al 2023 Generative Language Models and Automated Influence Operations][research_goldstein_et_al_2023]
-- [Goodfellow Shlens Szegedy 2014 Explaining and Harnessing Adversarial Examples][research_goodfellow_shlens_szegedy_2014]
-- [Grimmelmann 2015 The Virtues of Moderation][research_grimmelmann_2015]
-- [Hartigan and Hartigan 1985 The Dip Test of Unimodality][research_hartigan_hartigan_1985]
-- [Herring 2002 Cyber Violence Recognizing and Resisting Abuse in Online Environments][research_herring_2002]
-- [Hine et al 2017 Kek Cucks and God Emperor Trump 4chan Analysis][research_hine_et_al_2017]
-- [Jane 2014 Your a Ugly Whorish Slut Gendered Online Harassment][research_jane_2014]
-- [Kamenica and Gentzkow 2011 Bayesian Persuasion][research_kamenica_gentzkow_2011]
-- [Klonick 2018 The New Governors][research_klonick_2018]
-- [Kalpakis et al 2001 Distance Measures for Effective Clustering of ARIMA Time-Series][research_kalpakis_et_al_2001]
-- [Kumar et al 2018 Community Interaction and Conflict on the Web][research_kumar_et_al_2018]
-- [Kwak Lee Park Moon 2010 What is Twitter a Social Network or News Media][research_kwak_lee_park_moon_2010]
-- [Lewis 2018 Alternative Influence Networks on YouTube][research_lewis_2018]
-- [Melamed 2006 Exclusionary Conduct Under the Antitrust Laws][research_melamed_2006]
-- [Marwick and Caplan 2018 Drinking Male Tears Language Harassment and Trolls][research_marwick_caplan_2018]
-- [Marwick and Lewis 2017 Media Manipulation and Disinformation Online][research_marwick_lewis_2017]
-- [Massaro and Stryker 2013 Freedom of Speech Liberal Democracy and Emerging Evidence][research_massaro_stryker_2013]
-- [Ott et al 2011 Finding Deceptive Opinion Spam][research_ott_et_al_2011]
-- [Ott et al 2013 Negative Deceptive Opinion Spam][research_ott_et_al_2013]
-- [Papernot et al 2016 Practical Black-Box Attacks against Machine Learning][research_papernot_et_al_2016]
-- [Post 1986 The Social Foundations of Defamation Law][research_post_1986]
-- [Prosser 1960 Privacy Law][research_prosser_1960]
-- [Ravasi et al 2020 Search Engine Ranking Manipulation and Legitimate Content Displacement][research_ravasi_et_al_2020]
-- [Ribeiro et al 2020 Auditing Radicalization Pathways on YouTube][research_ribeiro_et_al_2020]
-- [Sadasivan et al 2023 Can AI-Generated Text be Reliably Detected][research_sadasivan_et_al_2023]
-- [Salganik Dodds Watts 2006 Experimental Study of Inequality and Unpredictability][research_salganik_dodds_watts_2006]
-- [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
-- [Szegedy et al 2013 Intriguing Properties of Neural Networks][research_szegedy_et_al_2013]
-- [Urban Karaganis Schofield 2016 Notice and Takedown in Everyday Practice][research_urban_karaganis_schofield_2016]
-- [Vasilescu and Casanueva 2016 Review Bombing Detection][research_vasilescu_casanueva_2016]
-- [Watts 2002 A Simple Model of Global Cascades on Random Networks][research_watts_2002]
-- [Yang et al 2020 Scalable and Generalizable Social Bot Detection][research_yang_et_al_2020]
-- [Yang and Menczer 2024 Anatomy of an AI-Powered Malicious Social Botnet][research_yang_menczer_2024]
-- [Zannettou et al 2018 Web-Wide Coordinated Behavior Reddit-4chan Analysis][research_zannettou_et_al_2018_reddit_4chan]
+### Commercial Sources
+
+- "Amazon Review Bombing Documented Cases." n.d. Accessed October 25, 2026. [https://www.aboutamazon.com/news/policy-news-views/how-amazon-detects-and-prevents-fake-reviews][ref_amazon_review_bombing_cases]
+- "Amazon v Fake Review Brokers." 2022. [https://www.aboutamazon.com/news/policy-news-views/amazon-continues-legal-action-against-fake-review-brokers][ref_amazon_v_thinkexpress_2022]
+- "Automattic v Steiner." 2016. [https://www.eff.org/cases/automattic-v-steiner][ref_automattic_v_steiner_2016]
+- "DFRLab Reports on Coordinated Inauthentic Behavior." n.d. Accessed October 25, 2026. [https://dfrlab.org/][ref_atlantic_council_dfrlab]
+- "Gamergate Coordinated Harassment Documentation." n.d. Accessed October 25, 2026. [https://www.pewresearch.org/internet/2017/07/11/online-harassment-2017/][ref_gamergate_coverage]
+- "Global Internet Forum to Counter Terrorism GIFCT." n.d. Accessed October 25, 2026. [https://gifct.org/][ref_gifct]
+- "Godfrey v Demon Internet." 1999. [https://www.5rb.com/case/godfrey-v-demon-internet/][ref_godfrey_v_demon_1999]
+- Google. 2011. "Panda Algorithm Update." [https://developers.google.com/search/blog/2011/02/finding-more-high-quality-sites-in][ref_google_panda_2011]
+- Google. 2012. "Penguin Algorithm Update." [https://developers.google.com/search/blog/2012/04/another-step-to-reward-high-quality][ref_google_penguin_2012]
+- "Google Disavow Tool." n.d. Accessed October 25, 2026. [https://support.google.com/webmasters/answer/2648487][ref_google_disavow_tool]
+- "Google Manual Actions Documentation." n.d. Accessed October 25, 2026. [https://support.google.com/webmasters/answer/9044175][ref_google_manual_actions]
+- "Google Search Central Spam Policies." n.d. Accessed October 25, 2026. [https://developers.google.com/search/docs/essentials/spam-policies][ref_google_search_spam_policies]
+- "Google Search Console Malware Notification." n.d. Accessed October 25, 2026. [https://support.google.com/webmasters/answer/9679690][ref_google_search_console_malware]
+- "Google Transparency Report DMCA Data." n.d. Accessed October 25, 2026. [https://transparencyreport.google.com/copyright/overview][ref_google_transparency_dmca]
+- Lewis, Becca. 2018. "Alternative Influence." Data & Society, September 18. [https://datasociety.net/library/alternative-influence/][research_lewis_2018]
+- "Loutchansky v Times Newspapers." 2001. [https://www.5rb.com/case/loutchansky-v-times-newspapers/][ref_loutchansky_v_times_2001]
+- "McAlpine v Bercow." 2013. [https://www.5rb.com/case/mcalpine-v-bercow/][ref_mcalpine_v_bercow_2013]
+- "Meta Adversarial Threat Report." n.d. Accessed October 25, 2026. [https://about.fb.com/news/tag/adversarial-threat-report/][ref_meta_atr]
+- "Meta CIB Report Archive." n.d. Accessed October 25, 2026. [https://about.fb.com/news/tag/coordinated-inauthentic-behavior/][ref_meta_cib_report_archive]
+- "Meta Community Standards." n.d. Accessed October 25, 2026. [https://transparency.meta.com/policies/community-standards/][ref_meta_community_standards]
+- "Reddit Content Policy." n.d. Accessed October 25, 2026. [https://www.redditinc.com/policies/content-policy][ref_reddit_content_policy]
+- "Reit-Nightingale v Universal." 2019. [https://www.eff.org/deeplinks/2019/03/deepfakes-defamation][ref_reit_nightingale_v_universal_2019]
+- "TikTok Community Guidelines General Framework." n.d. Accessed October 25, 2026. [https://www.tiktok.com/community-guidelines/][ref_tiktok_community_guidelines_general]
+- "Twitter Election Integrity Dataset Archive." n.d. Accessed October 25, 2026. [https://transparency.twitter.com/en/reports/moderation-research.html][ref_twitter_mass_reporting_analysis]
+- "YouTube Community Guidelines Strikes System." n.d. Accessed October 25, 2026. [https://support.google.com/youtube/answer/2802032][ref_youtube_community_guidelines_strikes]
+- "YouTube Content ID Trademark Framework." n.d. Accessed October 25, 2026. [https://support.google.com/youtube/answer/2801979][ref_youtube_trademark_policy]
+
+### General Sources
+
+- "4chan Raid Coordination Documentation." n.d. Accessed October 25, 2026. [https://knowyourmeme.com/memes/subcultures/4chan][ref_4chan_raid_documentation]
+- "ABC News 20/20 BBB Investigation." 2010. [https://abcnews.go.com/Blotter/business-bureau-best-ratings-money-buy/story?id=12123843][ref_abc_2020_bbb_2010]
+- "AI-Powered Reputation Management Platform." n.d. Accessed October 25, 2026. [https://www.reputation.com/][ref_reputation_com]
+- "Amazon Brand Registry." n.d. Accessed October 25, 2026. [https://brandservices.amazon.com/][ref_amazon_brand_registry]
+- "Amazon Community Guidelines." n.d. Accessed October 25, 2026. [https://www.amazon.com/gp/help/customer/display.html?nodeId=GLHXEX85MENUE4XF][ref_amazon_community_guidelines]
+- "Amber Heard v Depp." 2022. [https://www.courts.state.va.us/opinions/opncavwp/1602222.pdf][ref_heard_v_depp_2022]
+- Anderson. 1991. "Reputation Compensation Punishment Suppression." [https://scholar.google.com/scholar?q=anderson+1991+reputation+compensation+punishment+suppression][research_anderson_1991]
+- "Anti-SLAPP Tracker Public Participation Project." n.d. Accessed October 25, 2026. [https://anti-slapp.org/][ref_anti_slapp_tracker]
+- "Australia Defamation Act Uniform Framework." n.d. Accessed October 25, 2026. [https://www.austlii.edu.au/cgi-bin/viewdb/au/legis/nsw/consol\_act/da200599/][ref_australia_defamation_uniform]
+- Balkin. 2018. "Free Speech is a Triangle." [https://www.uclawreview.org/2018/12/free-speech-is-a-triangle/][research_balkin_2018]
+- "BBB Standards for Trust." n.d. Accessed October 25, 2026. [https://www.bbb.org/about-bbb/bbb-standards-for-trust][ref_bbb_standards]
+- "Bellingcat Open-Source Investigation Methodology." n.d. Accessed October 25, 2026. [https://www.bellingcat.com/resources/how-tos/][ref_bellingcat]
+- "Birther Conspiracy Campaign 2008-." 2016. [https://www.washingtonpost.com/politics/how-obama-birther-conspiracy-theory-came-to-mainstream-politics/2016/09/16/][ref_birther_campaign]
+- "Blockowicz v Williams." 2010. [https://scholar.google.com/scholar\_case?case=13022555516218523268][ref_blockowicz_v_williams_2010]
+- "Cardi B v Kebe." 2022. [https://ca11.uscourts.gov/opinions/pub/files/202212827.pdf][ref_cardi_b_v_kebe_2022]
+- "Christchurch Call." n.d. Accessed October 25, 2026. [https://www.christchurchcall.com/][ref_christchurch_call]
+- "ComplaintsBoard." n.d. Accessed October 25, 2026. [https://www.complaintsboard.com/][ref_complaints_board]
+- "Copyright Office Section 512 Study." n.d. Accessed October 25, 2026. [https://www.copyright.gov/policy/section512/section-512-full-report.pdf][ref_copyright_office_512_study]
+- "Cyber Civil Rights Initiative." n.d. Accessed October 25, 2026. [https://cybercivilrights.org/][ref_cyber_civil_rights_initiative]
+- Cyveillance. 2015. "Reverse SEO Report." [https://www.zerofox.com/blog/reverse-seo-attacks/][ref_cyveillance_2015_reverse_seo]
+- "Discord Coordination Reports." n.d. Accessed October 25, 2026. [https://discord.com/safety/policies][ref_discord_coordination_reports]
+- "Dow Jones and Company Inc v Gutnick \[2002\] HCA 56; 210 CLR 575; 194 ALR 433; 77 ALJR 255 (10 December 2002)." 2002. Accessed October 25, 2026. [https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/HCA/2002/56.html][ref_dow_jones_v_gutnick_2002]
+- "E Jean Carroll v Trump." 2023. [https://cases.justia.com/federal/appellate-courts/ca2/22-3140/22-3140-2023-12-13.pdf][ref_carroll_v_trump_2023]
+- Elhauge. 2003. "Defining Better Monopolization Standards." [https://scholar.google.com/scholar?q=elhauge+2003+defining+better+monopolization][research_elhauge_2003]
+- Fazio Barber Sherman Rand. 2019. "Knowledge Does Not Protect Against Illusory Truth Effect." [https://psycnet.apa.org/record/2019-56321-001][research_fazio_barber_sherman_rand_2019]
+- "Goodreads Review Bombing Documented Cases." n.d. Accessed October 25, 2026. [https://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/91018-review-bombing-comes-to-goodreads.html][ref_goodreads_review_bombing]
+- "Google Safe Browsing." n.d. Accessed October 25, 2026. [https://safebrowsing.google.com/][ref_google_safe_browsing]
+- Grant v Torstar. 2009. "Canada." [https://scc-csc.lexum.com/scc-csc/scc-csc/en/item/7837/index.do][ref_grant_v_torstar_2009]
+- "Graphika Reports on Coordinated Inauthentic Behavior." n.d. Accessed October 25, 2026. [https://graphika.com/reports][ref_graphika_reports]
+- Grimmelmann. 2015. "The Virtues of Moderation." [https://yalejreg.com/print/the-virtues-of-moderation/][research_grimmelmann_2015]
+- Herring. 2002. "Cyber Violence Recognizing and Resisting Abuse in Online Environments." [https://www.tandfonline.com/doi/abs/10.1108/10748120210424879][research_herring_2002]
+- Jane. 2014. "Your a Ugly Whorish Slut Gendered Online Harassment." [https://journals.sagepub.com/doi/10.1177/1367877913513494][research_jane_2014]
+- "Klayman v Zuckerberg." 2014. [https://www.cadc.uscourts.gov/internet/opinions.nsf/E5C3EB0E1F9EF8E185257CEC004E3AC0/\$file/13-7017-1493974.pdf][ref_klayman_v_zuckerberg_2014]
+- Klonick. 2018. "The New Governors." [https://harvardlawreview.org/2018/04/the-new-governors-the-people-rules-and-processes-governing-online-speech/][research_klonick_2018]
+- "Lumen Database." n.d. Accessed October 25, 2026. [https://lumendatabase.org/][ref_lumen_database]
+- Marwick and Caplan. 2018. "Drinking Male Tears Language Harassment and Trolls." [https://journals.sagepub.com/doi/10.1177/0163443718772107][research_marwick_caplan_2018]
+- Massaro and Stryker. 2013. "Freedom of Speech Liberal Democracy and Emerging Evidence." [https://arizonalawreview.org/pdf/54-4/54arizlrev1287.pdf][research_massaro_stryker_2013]
+- Melamed. 2006. "Exclusionary Conduct Under the Antitrust Laws." [https://scholar.google.com/scholar?q=melamed+2006+exclusionary+conduct+antitrust][research_melamed_2006]
+- "Metacritic Review Bombing Documented Cases." n.d. Accessed October 25, 2026. [https://www.polygon.com/2019/12/12/21005907/metacritic-users-review-bombing][ref_metacritic_review_bombing]
+- "Moz Spam Score Methodology." n.d. Accessed October 25, 2026. [https://moz.com/help/moz-data/spam-score-methodology][ref_moz_spam_score]
+- "NetReputation.com." n.d. Accessed October 25, 2026. [https://www.netreputation.com/][ref_netreputation_com]
+- "Online Policy Group v Diebold." 2004. [https://cyberlaw.stanford.edu/case/online-policy-group-v-diebold-inc][ref_diebold_2004]
+- Ott. 2013. "Negative Deceptive Opinion Spam." [https://aclanthology.org/N13-1053/][research_ott_et_al_2013]
+- "Ouellette v Viacom." 2013. [https://scholar.google.com/scholar\_case?case=17232987395091854023][ref_ouellette_v_viacom_2013]
+- "Ponemon Institute Enterprise Reputation Research." n.d. Accessed October 25, 2026. [https://www.ponemon.org/][ref_ponemon_institute]
+- "Public Expression Protection Act: Uniform Law Commission." n.d. Accessed October 25, 2026. [https://www.uniformlaws.org/committees/community-home?CommunityKey=4f486460-199c-49d7-9fac-05570be1e7b1][ref_upepa]
+- "Reddit Vote Manipulation Policy." n.d. Accessed October 25, 2026. [https://support.reddithelp.com/hc/en-us/articles/360043069012][ref_reddit_vote_manipulation_policy]
+- "Restatement Second of Torts." 1977. Accessed October 25, 2026. [https://www.ali.org/publications/show/torts/][ref_restatement_second_torts]
+- "Ripoff Report Platform." n.d. Accessed October 25, 2026. [https://www.ripoffreport.com/][ref_ripoff_report]
+- "Rotten Tomatoes Review Bombing Documented Cases." n.d. Accessed October 25, 2026. [https://www.polygon.com/2019/1/25/18197776/rotten-tomatoes-captain-marvel-brie-larson-review-bombing-scores-anti-fans][ref_rt_review_bombing]
+- "Sarah Palin v NYT." 2022. [https://www.nysd.uscourts.gov/case/1:2017cv04853][ref_palin_v_nyt_2022]
+- Soulo, Tim. 2022. "Domain Rating: What It Is & What It’s Good For." *SEO Blog by Ahrefs*, May 4. [https://ahrefs.com/blog/domain-rating/][ref_ahrefs_domain_rating]
+- "Swift Boat Veterans for Truth." 2004. [https://www.pbs.org/newshour/politics/campaign-2004-swift-boat-veterans-for-truth][ref_swift_boat_2004]
+- "Telegram Coordination Reports." n.d. Accessed October 25, 2026. [https://telegram.org/faq\#q-what-is-telegram-what-do-i-do-here][ref_telegram_coordination_reports]
+- "Trustpilot Transparency Report." n.d. Accessed October 25, 2026. [https://uk.business.trustpilot.com/reviews/build-trusted-brand/trustpilot-transparency-report][ref_trustpilot_transparency]
+- Willie Horton. 1988. "Attack Ad Documentation." [https://www.pbs.org/wgbh/pages/frontline/shows/pres/campaigns/1988.html][ref_willie_horton_1988]
+- Wolford, Ben. 2018. "Everything You Need to Know about the 'Right to Be Forgotten'." *GDPR.eu*, November 5. [https://gdpr.eu/right-to-be-forgotten/][ref_right_to_be_forgotten_eu]
+- "X Terms of Service." n.d. Accessed October 25, 2026. [https://x.com/en/tos][ref_x_terms_of_service]
+- "\| Digital Media Law Project." n.d. Accessed October 25, 2026. [https://www.dmlp.org/legal-guide][ref_dmlp_database]
+
+### Tertiary Sources
+
+- "Wikipedia:Sockpuppet Investigations." 2026. Wikipedia. Last modified June 15, at 19:13 (UTC). [https://en.wikipedia.org/w/index.php?title=Wikipedia%3ASockpuppet\_investigations&oldid=1359520954][ref_wikipedia_spi]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Virtual Reputation Manipulation: Theory and Analytical Framework." *Brendan A R Sechter's Development Blog*, January 22. [https://sgeos.github.io/economics/technology/sociology/2026/01/22/virtual\_reputation\_manipulation\_theory.html][related_post_a277_theory]
+- Sechter, Brendan. 2026. "Virtual Reputation Manipulation: Techniques of Self-Promotion." *Brendan A R Sechter's Development Blog*, January 23. [https://sgeos.github.io/economics/technology/sociology/2026/01/23/virtual\_reputation\_manipulation\_self\_promotion.html][related_post_a278_self_promotion]
 
 [book_andrew_mitrokhin_1999]: https://www.basicbooks.com/titles/christopher-andrew/the-sword-and-the-shield/9780465003129/
 [book_ansolabehere_iyengar_1996]: https://www.simonandschuster.com/books/Going-Negative/Stephen-Ansolabehere/9780028740140
@@ -1017,7 +1026,7 @@ These questions recur throughout the miniseries and are revisited in the closing
 [ref_twitter_mass_reporting_analysis]: https://transparency.twitter.com/en/reports/moderation-research.html
 [ref_uk_defamation_act_2013]: https://www.legislation.gov.uk/ukpga/2013/26/contents
 [ref_upepa]: https://www.uniformlaws.org/committees/community-home?CommunityKey=4f486460-199c-49d7-9fac-05570be1e7b1
-[ref_wikipedia_spi]: https://en.wikipedia.org/wiki/Wikipedia:Sockpuppet_investigations
+[ref_wikipedia_spi]: https://en.wikipedia.org/w/index.php?title=Wikipedia%3ASockpuppet_investigations&oldid=1359520954
 [ref_willie_horton_1988]: https://www.pbs.org/wgbh/pages/frontline/shows/pres/campaigns/1988.html
 [ref_x_terms_of_service]: https://x.com/en/tos
 [ref_yelp_v_hadeed_2014]: https://law.justia.com/cases/virginia/supreme-court/2015/141531.html
@@ -1028,48 +1037,48 @@ These questions recur throughout the miniseries and are revisited in the closing
 [related_post_a277_theory]: {% post_url 2026-01-22-virtual_reputation_manipulation_theory %}
 [related_post_a278_self_promotion]: {% post_url 2026-01-23-virtual_reputation_manipulation_self_promotion %}
 [research_anderson_1991]: https://scholar.google.com/scholar?q=anderson+1991+reputation+compensation+punishment+suppression
-[research_areeda_turner_1975]: https://scholar.google.com/scholar?q=areeda+turner+1975+predatory+pricing
+[research_areeda_turner_1975]: https://doi.org/10.2307/1340237
 [research_balkin_2018]: https://www.uclawreview.org/2018/12/free-speech-is-a-triangle/
-[research_barabasi_albert_1999]: https://www.science.org/doi/10.1126/science.286.5439.509
-[research_bikhchandani_hirshleifer_welch_1992]: https://www.jstor.org/stable/2138632
-[research_carlini_wagner_2017]: https://ieeexplore.ieee.org/document/7958570
-[research_chandrasekharan_et_al_2017]: https://dl.acm.org/doi/10.1145/3134666
-[research_cresci_2020]: https://cacm.acm.org/magazines/2020/10/247594-a-decade-of-social-bot-detection/
-[research_douek_2021]: https://harvardlawreview.org/2021/06/governing-online-speech-from-posts-as-trumps-to-proportionality-and-probability/
+[research_barabasi_albert_1999]: https://doi.org/10.1126/science.286.5439.509
+[research_bikhchandani_hirshleifer_welch_1992]: https://doi.org/10.1086/261849
+[research_carlini_wagner_2017]: https://doi.org/10.1109/sp.2017.49
+[research_chandrasekharan_et_al_2017]: https://doi.org/10.1145/3134666
+[research_cresci_2020]: https://doi.org/10.1145/3409116
+[research_douek_2021]: https://doi.org/10.2139/ssrn.3679607
 [research_elhauge_2003]: https://scholar.google.com/scholar?q=elhauge+2003+defining+better+monopolization
 [research_fazio_barber_sherman_rand_2019]: https://psycnet.apa.org/record/2019-56321-001
-[research_feng_et_al_2012]: https://aclanthology.org/P12-2033/
-[research_goldstein_et_al_2023]: https://arxiv.org/abs/2301.04246
-[research_goodfellow_shlens_szegedy_2014]: https://arxiv.org/abs/1412.6572
+[research_feng_et_al_2012]: https://scholar.google.com/scholar?q=Syntactic+Stylometry+for+Deception+Detection+Feng+2012
+[research_goldstein_et_al_2023]: https://doi.org/10.48550/arxiv.2301.04246
+[research_goodfellow_shlens_szegedy_2014]: https://doi.org/10.48550/arxiv.1412.6572
 [research_grimmelmann_2015]: https://yalejreg.com/print/the-virtues-of-moderation/
-[research_hartigan_hartigan_1985]: https://www.jstor.org/stable/2241144
+[research_hartigan_hartigan_1985]: https://doi.org/10.1214/aos/1176346577
 [research_herring_2002]: https://www.tandfonline.com/doi/abs/10.1108/10748120210424879
-[research_hine_et_al_2017]: https://ojs.aaai.org/index.php/ICWSM/article/view/14893
+[research_hine_et_al_2017]: https://doi.org/10.1609/icwsm.v11i1.14893
 [research_jane_2014]: https://journals.sagepub.com/doi/10.1177/1367877913513494
-[research_kalpakis_et_al_2001]: https://ieeexplore.ieee.org/document/989531
-[research_kamenica_gentzkow_2011]: https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590
+[research_kalpakis_et_al_2001]: https://doi.org/10.1109/icdm.2001.989529
+[research_kamenica_gentzkow_2011]: https://doi.org/10.1257/aer.101.6.2590
 [research_klonick_2018]: https://harvardlawreview.org/2018/04/the-new-governors-the-people-rules-and-processes-governing-online-speech/
-[research_kumar_et_al_2018]: https://dl.acm.org/doi/10.1145/3178876.3186141
-[research_kwak_lee_park_moon_2010]: https://dl.acm.org/doi/10.1145/1772690.1772751
+[research_kumar_et_al_2018]: https://doi.org/10.1145/3178876.3186141
+[research_kwak_lee_park_moon_2010]: https://doi.org/10.1145/1772690.1772751
 [research_lewis_2018]: https://datasociety.net/library/alternative-influence/
 [research_marwick_caplan_2018]: https://journals.sagepub.com/doi/10.1177/0163443718772107
-[research_marwick_lewis_2017]: https://datasociety.net/library/media-manipulation-and-disinfo-online/
+[research_marwick_lewis_2017]: https://doi.org/10.69985/qpaf6919
 [research_massaro_stryker_2013]: https://arizonalawreview.org/pdf/54-4/54arizlrev1287.pdf
 [research_melamed_2006]: https://scholar.google.com/scholar?q=melamed+2006+exclusionary+conduct+antitrust
 [research_ott_et_al_2011]: https://aclanthology.org/P11-1032/
 [research_ott_et_al_2013]: https://aclanthology.org/N13-1053/
-[research_papernot_et_al_2016]: https://arxiv.org/abs/1602.02697
-[research_post_1986]: https://www.jstor.org/stable/1341064
-[research_prosser_1960]: https://www.jstor.org/stable/1341064
-[research_ravasi_et_al_2020]: https://arxiv.org/abs/2005.14400
-[research_ribeiro_et_al_2020]: https://dl.acm.org/doi/10.1145/3351095.3372879
-[research_sadasivan_et_al_2023]: https://arxiv.org/abs/2303.11156
-[research_salganik_dodds_watts_2006]: https://www.science.org/doi/10.1126/science.1121066
-[research_stigler_1971]: https://www.jstor.org/stable/3003160
-[research_szegedy_et_al_2013]: https://arxiv.org/abs/1312.6199
-[research_urban_karaganis_schofield_2016]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2755628
-[research_vasilescu_casanueva_2016]: https://arxiv.org/abs/1605.09105
-[research_watts_2002]: https://www.pnas.org/doi/10.1073/pnas.082090499
-[research_yang_et_al_2020]: https://onlinelibrary.wiley.com/doi/10.1002/hbe2.115
-[research_yang_menczer_2024]: https://arxiv.org/abs/2307.16336
-[research_zannettou_et_al_2018_reddit_4chan]: https://arxiv.org/abs/1801.09288
+[research_papernot_et_al_2016]: https://doi.org/10.48550/arxiv.1602.02697
+[research_post_1986]: https://doi.org/10.2307/3480391
+[research_prosser_1960]: https://scholar.google.com/scholar?q=Privacy+Law+Prosser+1960
+[research_ravasi_et_al_2020]: https://scholar.google.com/scholar?q=Search+Engine+Ranking+Manipulation+and+Legitimate+Content+Displacement+Ravasi+2020
+[research_ribeiro_et_al_2020]: https://doi.org/10.1145/3351095.3372879
+[research_sadasivan_et_al_2023]: https://doi.org/10.48550/arxiv.2303.11156
+[research_salganik_dodds_watts_2006]: https://doi.org/10.1126/science.1121066
+[research_stigler_1971]: https://doi.org/10.2307/3003160
+[research_szegedy_et_al_2013]: https://doi.org/10.48550/arxiv.1312.6199
+[research_urban_karaganis_schofield_2016]: https://doi.org/10.2139/ssrn.2755628
+[research_vasilescu_casanueva_2016]: https://scholar.google.com/scholar?q=Review+Bombing+Detection+Vasilescu+Casanueva+2016
+[research_watts_2002]: https://doi.org/10.1073/pnas.082090499
+[research_yang_et_al_2020]: https://doi.org/10.1002/hbe2.115
+[research_yang_menczer_2024]: https://doi.org/10.48550/arxiv.2307.16336
+[research_zannettou_et_al_2018_reddit_4chan]: https://doi.org/10.48550/arxiv.1801.09288

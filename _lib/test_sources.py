@@ -923,6 +923,148 @@ def t_diff_labels_reports_substance_and_other_text():
     assert changes == [("research_h", "Hanley and Lippman-Hand 1983", "Hanley 1983")], changes
     assert [o[0] for o in other] == [4], other
 
+
+def t_url_identifiers_are_read_from_links():
+    import sources_resolve as SR
+    cases = {
+        "https://dl.acm.org/doi/abs/10.1145/3110268": ("doi", "10.1145/3110268"),
+        "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0054346": ("doi", "10.1037/h0054346"),
+        "https://www.tandfonline.com/doi/full/10.1080/1/abstract": ("doi", "10.1080/1"),
+        "https://www.jstor.org/stable/1968337": ("doi", "10.2307/1968337"),
+        "https://www.nature.com/articles/nature14236": ("doi", "10.1038/nature14236"),
+        "https://www.sciencedirect.com/science/article/abs/pii/0304405X77900150": ("doi", "10.1016/0304-405x(77)90015-0"),
+        "https://www.sciencedirect.com/science/article/pii/S0890540184710935": ("pii", "S0890540184710935"),
+        "https://www.cell.com/x/fulltext/S1364-6613(16)30126-7": ("pii", "S1364661316301267"),
+        "https://arxiv.org/abs/2301.04104v2": ("arxiv", "2301.04104"),
+        "https://global.oup.com/academic/product/x-9780195320442": ("isbn", "9780195320442"),
+    }
+    for url, want in cases.items():
+        assert SR.url_identifier(url) == want, (url, SR.url_identifier(url))
+    # A NUMBER THAT FAILS THE ISBN CHECK DIGIT is not an ISBN, so an article id is not read as one.
+    assert SR.url_identifier("https://ieeexplore.ieee.org/document/6119585") is None
+    assert SR.url_identifier("https://example.org/story/9780195320443") is None
+
+
+def t_label_forms_are_parsed():
+    import sources_resolve as SR
+    lab = SR.parse_label("Curry, Haskell B. and Feys, Robert, Combinatory Logic, North-Holland, 1958")
+    assert [p["family"] for p in lab["people"]] == ["Curry", "Feys"] and lab["title"] == "Combinatory Logic", lab
+    assert lab["venue"] == "North-Holland" and lab["year"] == 1958 and lab["form"] == "full"
+    lab = SR.parse_label("Yang, Vigor, Habiballah, Mohammed, Popp, Michael, and Hulka, James (editors), "
+                         "Liquid Rocket Thrust Chambers, Aspects of Modeling, AIAA, 2004")
+    assert len(lab["people"]) == 4 and lab["editors"] and lab["title"].startswith("Liquid"), lab
+    lab = SR.parse_label("Brooks, Frederick P., Jr., The Mythical Man-Month, anniversary edition, Addison-Wesley, 1995")
+    assert lab["people"] == [{"family": "Brooks Jr.", "given": "Frederick P."}] and lab["title"] == "The Mythical Man-Month"
+    # A TITLE'S OWN `and` IS NO SECOND AUTHOR.
+    lab = SR.parse_label("Baumol, William J., Productivity Growth, Convergence, and Welfare, What the Long-run "
+                         "Data Show, American Economic Review 76, 1986")
+    assert [p["family"] for p in lab["people"]] == ["Baumol"] and lab["title"].startswith("Productivity"), lab
+    assert SR.parse_label("Boehm 1981")["people"] == [{"family": "Boehm"}]
+    assert [p["family"] for p in SR.parse_label("Bruner Goodnow Austin 1956 Study of Thinking")["people"]] == \
+        ["Bruner", "Goodnow", "Austin"]
+    # A `ref_` LABEL DESCRIBES, so its words are a title, never five surnames.
+    lab = SR.parse_label("Commercial Space Launch Amendments Act 2004", "ref_csla_amendments_2004")
+    assert lab["people"] == [] and lab["title"] == "Commercial Space Launch Amendments Act", lab
+    assert len(SR.parse_label("Hopkins Alonso Adcock 1965", "research_hopkins_alonso_adcock_1965")["people"]) == 3
+    # A DESCRIPTION names no people and no year.
+    lab = SR.parse_label("Computer History Museum")
+    assert lab["people"] == [] and lab["year"] is None and lab["form"] == "none"
+
+
+def t_registry_records_must_agree_with_the_label():
+    import sources_resolve as SR
+    lab = SR.parse_label("Ahlstrom 1972 A Religious History of the American People")
+    assert SR.agrees(lab, "A Religious History of the American People", ["Ahlstrom"], 1972, False)[0]
+    # A SEARCH HIT by another author, or decades off, is not the work.
+    assert not SR.agrees(lab, "A Religious History of the American People", ["Smith"], 1972, False)[0]
+    assert not SR.agrees(lab, "A Religious History of the American People", ["Ahlstrom"], 1990, False)[0]
+    # A LINK'S OWN IDENTIFIER may stand on author and year when the label has no title.
+    lab = SR.parse_label("Boehm 1981")
+    assert SR.agrees(lab, "Software Engineering Economics", ["Boehm"], 1981, True)[0]
+    assert not SR.agrees(lab, "Software Engineering Economics", ["Boehm"], 1981, False)[0]
+    assert not SR.agrees(lab, "Something Else", ["Jones"], 1981, True)[0]
+    # AN ORGANISATION'S LABEL, `OpenAI 2019`, rests on the link's identifier and the exact year.
+    lab = SR.parse_label("OpenAI 2019")
+    assert SR.agrees(lab, "Solving Rubik's Cube with a Robot Hand", ["Akkaya", "Andrychowicz"], 2019, True)[0]
+    assert not SR.agrees(lab, "Solving Rubik's Cube with a Robot Hand", ["Akkaya"], 2020, True)[0]
+    assert not SR.agrees(lab, "Solving Rubik's Cube with a Robot Hand", ["Akkaya"], 2019, False)[0]
+    # A SHORT TITLE agrees with the full title it opens; a colon written as a comma is no difference.
+    assert SR.title_agrees("Study of Thinking", "A Study of Thinking")
+    assert SR.title_agrees("Varieties of Capitalism, The Institutional Foundations",
+                           "Varieties of Capitalism: The Institutional Foundations")
+    assert SR.title_agrees("Why Nations Fail", "Why Nations Fail: The Origins of Power, Prosperity, and Poverty")
+    assert not SR.title_agrees("The Reformation", "The Counter-Reformation in Europe")
+
+
+def t_a_full_label_builds_a_full_entry():
+    import sources_resolve as SR
+    r = SR.record_from_label("book_church_calculi", "https://example.org/b",
+                             "Church, Alonzo, The Calculi of Lambda-Conversion, Princeton University Press, 1941",
+                             {}, "2026-10-25", "The page could not be read (no metadata)")
+    assert r["kind"] == "book" and r["publisher"] == "Princeton University Press", r
+    assert r["authors"] == [{"family": "Church", "given": "Alonzo"}] and r["year"] == 1941
+    r = SR.record_from_label("paper_church_postulates", "https://example.org/p",
+                             "Church, Alonzo, A Set of Postulates for the Foundation of Logic, Annals of Mathematics 33, 1932",
+                             {}, "2026-10-25", "x")
+    assert r["kind"] == "journal-article" and r["container"] == "Annals of Mathematics" and r["volume"] == "33", r
+    r = SR.record_from_label("book_x", "https://example.org/e", "Edinburgh LCF, A Mechanised Logic, Springer, 1979",
+                             {}, "2026-10-25", "x")
+    assert r is None, "a label that names no people is not a full form"
+
+
+def t_listed_works_the_prose_does_not_cite_are_kept():
+    # A207 AND NINE X-PLANES ARTICLES lost every work their lists named and their prose
+    # did not cite, 156 of them, because the generator kept only cited anchors.
+    pre = ("---\n---\nSee [Smith 2001][research_smith_2001].\n\n## References\n\n"
+           "- [Smith 2001 A Title][research_smith_2001]\n- [Jones 1999 Another][book_jones_1999]\n"
+           "- [*Kinematic Machines*][book_freitas_ksrm], Robert A. Freitas Jr., Landes Bioscience, 2004\n\n"
+           "[research_smith_2001]: https://example.org/a\n[book_jones_1999]: https://example.org/b\n"
+           "[book_freitas_ksrm]: https://example.org/c\n")
+    assert SI.listed_anchors(pre) == ["book_freitas_ksrm", "book_jones_1999"], SI.listed_anchors(pre)
+
+
+def t_undated_entry_has_one_full_stop():
+    # 77 POSTS PRINTED `n.d..`, the abbreviation's full stop doubled by the element's.
+    r = {"anchor": "research_x", "kind": "report", "title": "A Report", "authors": [{"family": "Doe", "given": "J."}],
+         "url": "https://example.org/r", "publisher": "X"}
+    e = S.entry(r)
+    assert "n.d.." not in e and "n.d. *A Report*" in e, e
+
+
+def t_open_library_quirks_are_repaired():
+    # A267 TO A276 BOOKS: a work listing its author twice, a title running into its
+    # subtitle, and an imprint statement in the publisher's place.
+    w = {"title": "From Puritan to Yankee Character and the Social Order",
+         "subtitle": "Character and the Social Order in Connecticut, 1690-1765",
+         "_author_names": ["Richard L. Bushman", "Richard L. Bushman"],
+         "_editions": [{"key": "/books/OL1M", "publish_date": "1967", "publishers": [
+             "Published for the Institute of Early American History and Culture by the University of North Carolina Press"]}]}
+    r = SI.record_from_openlibrary("book_bushman_1967", w, "works/OL1W", 1967)
+    assert r["title_published"] == "From Puritan to Yankee: Character and the Social Order in Connecticut, 1690-1765", r
+    assert len(r["authors"]) == 1 and r["publisher"] == "University of North Carolina Press", r
+
+
+def t_given_names_filed_as_family_are_swapped():
+    # ELSEVIER DEPOSITED Huttenlocher 1979 as `{family: Peter R., given: Huttenlocher}`.
+    assert SI._repair_people([{"family": "Peter R.", "given": "Huttenlocher"}]) == \
+        [{"family": "Huttenlocher", "given": "Peter R."}]
+    assert SI._repair_people([{"family": "Smith", "given": "John R."}]) == [{"family": "Smith", "given": "John R."}]
+
+
+def t_works_sharing_a_link_stay_two_sources():
+    # A262 LINKED Werbos 1987 and Barto et al. 1983 to one IEEE page; merged by URL
+    # alone, relabelling rewrote `Werbos 1987` in the prose as the other paper.
+    a = {"anchor": "a", "kind": "report", "url": "https://x.org/p", "year": 1987, "authors": [{"family": "Werbos"}]}
+    b = {"anchor": "b", "kind": "report", "url": "https://x.org/p", "year": 1983, "authors": [{"family": "Barto"}]}
+    assert SI.identity(a) != SI.identity(b)
+    assert SI.identity(a) == SI.identity(dict(a, anchor="c", title="Another Spelling"))
+
+
+def t_two_surnames_take_no_comma():
+    assert S.author_list([{"family": "Astrahan"}, {"family": "Jacobs"}]) == "Astrahan and Jacobs"
+    assert S.author_list([{"family": "Ward", "given": "Geoffrey C."}, {"family": "Burns", "given": "Ken"}]) == \
+        "Ward, Geoffrey C., and Ken Burns"
+
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):
         check(name[2:], fn)

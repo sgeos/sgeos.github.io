@@ -1,0 +1,21 @@
+# Import decisions for A242. Registry caches and page metadata are scratch and are not tracked.
+article = "A242"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a242/sources/wiki_pins.json"
+report_cache = "tmp/sources"
+web_read = "2026-10-25"
+
+# The links are resolved to registry records where their URL or their label's title finds one that
+# agrees with the label, and otherwise read from the page or its archive capture. See _lib/sources_resolve.py.
+resolve_links = true
+
+# No copy of the Wikipedia text read for A242 was saved, so its pins are the revisions current
+# when each link was first committed, and say so in their evidence.
+dated_pins = true
+
+# THE ARTICLE'S NTRS LINKS FOR THESE TWO WORKS NAMED NO RECORD, NTRS answering 404 on 2026-10-25. Each work's
+# journal publication is cited instead, so the year is the journal's.
+# The relinked definitions are in the post itself, changed before conversion.
+[note]
+research_hoag_1976 = "The article linked NTRS 19760022093, which NTRS does not hold. Hoag's history of Apollo guidance, first given as a 1976 paper, is cited in its journal publication, Journal of Guidance, Control, and Dynamics, 1983."
+research_klumpp_1971 = "The article linked NTRS 19710069441, which NTRS does not hold. Klumpp's 1971 Draper Laboratory report on Apollo lunar descent guidance is cited in its journal publication, Automatica, 1974."

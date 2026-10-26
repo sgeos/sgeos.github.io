@@ -17,7 +17,7 @@ This article opens a four-article miniseries that treats virtual reputation mani
 
 ## The Reputation Manipulation Mapping Problem
 
-The mapping problem for a comprehensive treatment of virtual reputation manipulation is the question of which technical, economic, legal, and sociological factors produced the manipulation-saturated equilibrium that characterizes most contemporary online reputation systems, and which factors permit a minority of participants to establish reputation organically despite that equilibrium. The problem admits several formalizations depending on the analytical tradition consulted. The economic tradition from [Akerlof 1970][research_akerlof_1970] on the market for lemons through [Spence 1973][research_spence_1973] on job market signaling, [Klein and Leffler 1981][research_klein_leffler_1981] on brand names as market discipline, [Kreps and Wilson 1982][research_kreps_wilson_1982] on reputation and imperfect information, [Shapiro 1983][research_shapiro_1983] on premiums for high quality products, [Milgrom and Roberts 1986][research_milgrom_roberts_1986] on price and advertising signals, and [Fudenberg and Levine 1992][research_fudenberg_levine_1992] on maintaining a reputation when strategies are imperfectly observed treats reputation as a costly signal transmitted through repeated interactions under information asymmetry. The sociological tradition from [Goffman 1959][book_goffman_1959] The Presentation of Self in Everyday Life through [Bourdieu 1984][book_bourdieu_1984] Distinction, [Coleman 1990][book_coleman_1990] Foundations of Social Theory, [Fukuyama 1995][book_fukuyama_1995] Trust, [Putnam 2000][book_putnam_2000] Bowling Alone, and [Podolny 2005][book_podolny_2005] Status Signals treats reputation as an accumulated social attribute that operates through symbolic capital and network effects. The contemporary treatment to digital reputation systems runs through [Resnick et al 2000][research_resnick_et_al_2000] Reputation Systems, [Dellarocas 2003][research_dellarocas_2003] The Digitization of Word of Mouth, [Bolton Katok Ockenfels 2004][research_bolton_katok_ockenfels_2004] How Effective Are Electronic Reputation Mechanisms, [Ba and Pavlou 2002][research_ba_pavlou_2002] Evidence of the Effect of Trust Building Technology, [Tirole 1996][research_tirole_1996] A Theory of Collective Reputations, [Mailath and Samuelson 2006][book_mailath_samuelson_2006] Repeated Games and Reputations, [Fombrun 1996][book_fombrun_1996] Reputation, and [Origgi 2018][book_origgi_2018] Reputation What It Is and Why It Matters. The present miniseries adopts the economic analytical stance while retaining the sociological tradition's attention to the symbolic and network effects the reputation economy produces.
+The mapping problem for a comprehensive treatment of virtual reputation manipulation is the question of which technical, economic, legal, and sociological factors produced the manipulation-saturated equilibrium that characterizes most contemporary online reputation systems, and which factors permit a minority of participants to establish reputation organically despite that equilibrium. The problem admits several formalizations depending on the analytical tradition consulted. The economic tradition from [Akerlof 1970][research_akerlof_1970] on the market for lemons through [Spence 1973][research_spence_1973] on job market signaling, [Klein and Leffler 1981][research_klein_leffler_1981] on brand names as market discipline, [Kreps and Wilson 1982][research_kreps_wilson_1982] on reputation and imperfect information, [Shapiro 1983][research_shapiro_1983] on premiums for high quality products, [Milgrom and Roberts 1986][research_milgrom_roberts_1986] on price and advertising signals, and [Fudenberg and Levine 1992][research_fudenberg_levine_1992] on maintaining a reputation when strategies are imperfectly observed treats reputation as a costly signal transmitted through repeated interactions under information asymmetry. The sociological tradition from [Goffman 1959][book_goffman_1959] The Presentation of Self in Everyday Life through [Bourdieu 1984][book_bourdieu_1984] Distinction, [Coleman 1990][book_coleman_1990] Foundations of Social Theory, [Fukuyama 1995][book_fukuyama_1995] Trust, [Putnam 2000][book_putnam_2000] Bowling Alone, and [Podolny 2005][book_podolny_2005] Status Signals treats reputation as an accumulated social attribute that operates through symbolic capital and network effects. The contemporary treatment to digital reputation systems runs through [Resnick et al. 2000][research_resnick_et_al_2000] Reputation Systems, [Dellarocas 2003][research_dellarocas_2003] The Digitization of Word of Mouth, [Bolton et al. 2004][research_bolton_katok_ockenfels_2004] How Effective Are Electronic Reputation Mechanisms, [Ba and Pavlou 2002][research_ba_pavlou_2002] Evidence of the Effect of Trust Building Technology, [Tirole 1996][research_tirole_1996] A Theory of Collective Reputations, [Mailath and Samuelson 2006][book_mailath_samuelson_2006] Repeated Games and Reputations, [Fombrun 1996][book_fombrun_1996] Reputation, and [Origgi 2018][book_origgi_2018] Reputation What It Is and Why It Matters. The present miniseries adopts the economic analytical stance while retaining the sociological tradition's attention to the symbolic and network effects the reputation economy produces.
 
 The mapping problem permits several formalizations depending on the level of analysis adopted. At the level of the individual actor, reputation manipulation shapes patterns of self-presentation, purchase-intent generation, competitive positioning, and audience formation. At the level of the platform, reputation manipulation shapes the design of ranking algorithms, the deployment of detection and enforcement systems, the terms of service, and the two-sided market dynamics between reputation producers and reputation consumers. At the level of the market, reputation manipulation shapes the equilibrium quality of information available to consumers, the survival probabilities of firms competing on reputation, and the returns to authentic quality investment. At the level of the legal-institutional structure, reputation manipulation intersects with consumer protection law, unfair competition doctrine, intermediary liability, and speech regulation. The miniseries treats each level explicitly.
 
@@ -49,7 +49,7 @@ The first commitment is descriptive-analytical framing rather than operational i
 
 The second commitment is first-class treatment of both self-promotion and competitor-attack manipulation. The miniseries does not treat one class as the default form of manipulation with the other as a variant. The two classes exhibit distinct technique inventories, distinct detection signatures, distinct legal exposures, and distinct market effects, and each receives comparable analytical attention. Article two treats self-promotion techniques. Article three treats competitor-attack techniques. The closing article treats the detection and organic-establishment landscape that responds to both.
 
-The third commitment is the manipulation-as-baseline framing. The miniseries treats reputation manipulation as the empirical default in most contemporary online reputation systems rather than as an aberration from an otherwise trustworthy baseline. The framing rests on the accumulated empirical evidence that fake review prevalence in major consumer platforms exceeds ten percent by conservative estimate and exceeds thirty percent in several categories, that coordinated inauthentic behavior campaigns operate at scale across the major social platforms, that reputation-manipulation service markets have been documented in multiple jurisdictions with public price lists and service catalogs, and that the platforms themselves acknowledge the prevalence in transparency reporting. The empirical base is developed in [Luca and Zervas 2016][research_luca_zervas_2016] Fake It Till You Make It, [Mayzlin Dover Chevalier 2014][research_mayzlin_dover_chevalier_2014] Promotional Reviews, [He Hollenbeck Proserpio 2022][research_he_hollenbeck_proserpio_2022] The Market for Fake Reviews, [Wu et al 2020][research_wu_et_al_2020] Fake Online Reviews, [Ferrara et al 2016][research_ferrara_et_al_2016] The Rise of Social Bots, [Vosoughi Roy Aral 2018][research_vosoughi_roy_aral_2018] The Spread of True and False News Online, and [DiResta et al 2019][research_diresta_et_al_2019] The Tactics and Tropes of the Internet Research Agency, among other primary sources cited across the miniseries.
+The third commitment is the manipulation-as-baseline framing. The miniseries treats reputation manipulation as the empirical default in most contemporary online reputation systems rather than as an aberration from an otherwise trustworthy baseline. The framing rests on the accumulated empirical evidence that fake review prevalence in major consumer platforms exceeds ten percent by conservative estimate and exceeds thirty percent in several categories, that coordinated inauthentic behavior campaigns operate at scale across the major social platforms, that reputation-manipulation service markets have been documented in multiple jurisdictions with public price lists and service catalogs, and that the platforms themselves acknowledge the prevalence in transparency reporting. The empirical base is developed in [Luca and Zervas 2016][research_luca_zervas_2016] Fake It Till You Make It, [Mayzlin et al. 2014][research_mayzlin_dover_chevalier_2014] Promotional Reviews, [He et al. 2022][research_he_hollenbeck_proserpio_2022] The Market for Fake Reviews, [Wu et al. 2020][research_wu_et_al_2020] Fake Online Reviews, [Ferrara et al. 2016][research_ferrara_et_al_2016] The Rise of Social Bots, [Vosoughi et al. 2018][research_vosoughi_roy_aral_2018] The Spread of True and False News Online, and [DiResta et al. 2019][research_diresta_et_al_2019] The Tactics and Tropes of the Internet Research Agency, among other primary sources cited across the miniseries.
 
 The fourth commitment is contested-claim marking. The miniseries identifies the claims that remain contested within contemporary scholarship (the precise prevalence rates in each platform category, the causal impact of technique classes on purchase behavior, the effectiveness of detection technologies, the marginal deterrent effect of legal enforcement) and cites the primary sources on each side rather than presenting one position as settled. Where the scholarly literature includes competing estimates, the miniseries reports the range and identifies the methodological basis for the divergence. The prevalence estimator for a random sample of $n$ candidate items is
 
@@ -127,17 +127,17 @@ with the manipulation contribution $\sigma_i^{\text{manip}} - \delta_i^{\text{de
 
 The reputation-manipulation phenomenon supports characterization from several disciplinary traditions beyond the economics-of-reputation literature. The miniseries treats each tradition as offering distinct analytical leverage on the same underlying phenomenon while maintaining the economics-of-reputation framework as the primary organizing structure.
 
-The sociological framing traces from [Goffman 1959][book_goffman_1959] The Presentation of Self in Everyday Life and [Goffman 1967][book_goffman_1967] Interaction Ritual through the symbolic-interactionist and impression-management traditions. Reputation is treated as a social accomplishment rather than an economic good, produced through the coordinated performance of identity and status across audiences. The [Bourdieu 1984][book_bourdieu_1984] Distinction framework treats reputation as a component of symbolic capital that can be converted to and from economic, cultural, and social capital, with the conversion rates determined by field-specific rules. The [Coleman 1990][book_coleman_1990] Foundations of Social Theory and [Putnam 2000][book_putnam_2000] Bowling Alone treatments treat reputation as an emergent property of social-network structure that shapes the availability of resources, information, and cooperation. The [Fukuyama 1995][book_fukuyama_1995] Trust extension treats aggregate reputation quality as a determinant of a society's economic capacity. The [Granovetter 1985][research_granovetter_1985] Economic Action and Social Structure and [Uzzi 1997][research_uzzi_1997] Social Structure and Competition treatments trace the embeddedness of economic transactions in social networks and the reputation dynamics that follow. The [Mauss 1925][book_mauss_1925] The Gift and [Douglas 1966][book_douglas_1966] Purity and Danger treatments provide the deep-anthropological framing of reputation as an accumulated symbolic obligation and as a marker of social boundary maintenance. The [Weber 1922][book_weber_1922] Economy and Society treatment provides the classical-sociological framing of authority, legitimacy, and reputation as interrelated forms of social power. The [Elias 1939][book_elias_1939] The Civilizing Process treats reputation and status as shaped by the long-run dynamics of social-differentiation and impulse-regulation processes. The sociological framing complements the economic framing by treating the audience and community structure of reputation reception rather than the incentive structure of reputation production.
+The sociological framing traces from [Goffman 1959][book_goffman_1959] The Presentation of Self in Everyday Life and [Goffman 1967][book_goffman_1967] Interaction Ritual through the symbolic-interactionist and impression-management traditions. Reputation is treated as a social accomplishment rather than an economic good, produced through the coordinated performance of identity and status across audiences. The [Bourdieu 1984][book_bourdieu_1984] Distinction framework treats reputation as a component of symbolic capital that can be converted to and from economic, cultural, and social capital, with the conversion rates determined by field-specific rules. The [Coleman 1990][book_coleman_1990] Foundations of Social Theory and [Putnam 2000][book_putnam_2000] Bowling Alone treatments treat reputation as an emergent property of social-network structure that shapes the availability of resources, information, and cooperation. The [Fukuyama 1995][book_fukuyama_1995] Trust extension treats aggregate reputation quality as a determinant of a society's economic capacity. The [Granovetter 1985][research_granovetter_1985] Economic Action and Social Structure and [Uzzi 1997][research_uzzi_1997] Social Structure and Competition treatments trace the embeddedness of economic transactions in social networks and the reputation dynamics that follow. The [Mauss 1925][book_mauss_1925] The Gift and [Douglas et al. 1966][book_douglas_1966] Purity and Danger treatments provide the deep-anthropological framing of reputation as an accumulated symbolic obligation and as a marker of social boundary maintenance. The [Weber 1922][book_weber_1922] Economy and Society treatment provides the classical-sociological framing of authority, legitimacy, and reputation as interrelated forms of social power. The [Elias 1939][book_elias_1939] The Civilizing Process treats reputation and status as shaped by the long-run dynamics of social-differentiation and impulse-regulation processes. The sociological framing complements the economic framing by treating the audience and community structure of reputation reception rather than the incentive structure of reputation production.
 
 The behavioral-economics and cognitive-psychology framing traces from [Tversky and Kahneman 1974][research_tversky_kahneman_1974] Judgment Under Uncertainty through [Kahneman 2011][book_kahneman_2011] Thinking Fast and Slow. The framing identifies systematic cognitive biases that shape consumer response to reputation signals, including availability heuristic (recency-weighted evaluation), representativeness heuristic (stereotype-based evaluation), anchoring (initial-value dependence), and social proof (majority-following behavior). The [Cialdini 1984][book_cialdini_1984] Influence treatment consolidates the persuasion-adjacent biases that manipulation practices exploit, including reciprocity, commitment and consistency, social proof, authority, liking, and scarcity. The [Thaler and Sunstein 2008][book_thaler_sunstein_2008] Nudge extension develops the choice-architecture perspective on how the presentation of reputation signals shapes consumer decision-making even in the absence of manipulation. The [Ariely 2008][book_ariely_2008] Predictably Irrational treatment provides the popular synthesis. The behavioral-economics framing complements the economic framing by treating consumer response to reputation signals as systematically deviating from rational-Bayesian benchmark, which magnifies the effect of manipulation for a given signal-injection intensity.
 
-The computer-science and information-retrieval framing traces from the [Page and Brin 1998][research_page_brin_1998] PageRank algorithm through the reputation-and-trust systems literature. The framing treats reputation as a computed property of the link and interaction graph, with algorithmic ranking functions determining the equilibrium reputation distribution. The [Kleinberg 1999][research_kleinberg_1999] HITS algorithm develops the parallel hub-and-authority framework. The [Watts and Strogatz 1998][research_watts_strogatz_1998] Collective Dynamics of Small-World Networks provides the network-topology framework that shapes reputation propagation. The [Kleinberg 2000][research_kleinberg_2000] Navigation in a Small World treatment provides the search-path framework. The [Adamic and Adar 2003][research_adamic_adar_2003] Friends and Neighbors on the Web treatment provides the link-prediction framework relevant to reputation-signal fabrication detection. The [Golbeck 2008][book_golbeck_2008] Computing with Social Trust consolidates the trust-computation subfield. The computer-science framing complements the economic framing by treating reputation as an artifact of a specific algorithmic architecture rather than as a scalar economic quantity, which surfaces the platform-design choices that shape the manipulation equilibrium.
+The computer-science and information-retrieval framing traces from the [Brin and Page 1998][research_page_brin_1998] PageRank algorithm through the reputation-and-trust systems literature. The framing treats reputation as a computed property of the link and interaction graph, with algorithmic ranking functions determining the equilibrium reputation distribution. The [Kleinberg 1999][research_kleinberg_1999] HITS algorithm develops the parallel hub-and-authority framework. The [Watts and Strogatz 1998][research_watts_strogatz_1998] Collective Dynamics of Small-World Networks provides the network-topology framework that shapes reputation propagation. The [Kleinberg 2000][research_kleinberg_2000] Navigation in a Small World treatment provides the search-path framework. The [Adamic and Adar 2003][research_adamic_adar_2003] Friends and Neighbors on the Web treatment provides the link-prediction framework relevant to reputation-signal fabrication detection. The [Golbeck 2008][book_golbeck_2008] Computing with Social Trust consolidates the trust-computation subfield. The computer-science framing complements the economic framing by treating reputation as an artifact of a specific algorithmic architecture rather than as a scalar economic quantity, which surfaces the platform-design choices that shape the manipulation equilibrium.
 
-The legal-scholarship framing traces from the First Amendment tradition through the digital-intermediary-liability tradition. The [Balkin 2018][research_balkin_2018] Free Speech is a Triangle treatment develops the framework of platforms as private governors mediating between users and states. The [Klonick 2018][research_klonick_2018] The New Governors treats the internal governance structure of major platforms. The [Douek 2021][research_douek_2021] Governing Online Speech treats the emerging comparative platform-governance jurisprudence. The [Suzor 2019][book_suzor_2019] Lawless treats the accountability gaps in platform governance. The [Persily 2017][research_persily_2017] Can Democracy Survive the Internet treats the democratic-institution consequences of platform-mediated information environments. The [Solove 2007][book_solove_2007] The Future of Reputation treats the legal implications of digital reputation persistence. The [Nissenbaum 2010][book_nissenbaum_2010] Privacy in Context provides the contextual-integrity framework that has become influential in reputation and privacy law. The legal framing complements the economic framing by treating the constraints on manipulation and the constraints on platform enforcement as products of specific legal-institutional configurations rather than as exogenous constants.
+The legal-scholarship framing traces from the First Amendment tradition through the digital-intermediary-liability tradition. The [Balkin 2018][research_balkin_2018] Free Speech is a Triangle treatment develops the framework of platforms as private governors mediating between users and states. The [Klonick 2018][research_klonick_2018] The New Governors treats the internal governance structure of major platforms. The [Douek 2020][research_douek_2021] Governing Online Speech treats the emerging comparative platform-governance jurisprudence. The [Suzor 2019][book_suzor_2019] Lawless treats the accountability gaps in platform governance. The [Persily 2017][research_persily_2017] Can Democracy Survive the Internet treats the democratic-institution consequences of platform-mediated information environments. The [Solove 2007][book_solove_2007] The Future of Reputation treats the legal implications of digital reputation persistence. The [Nissenbaum 2010][book_nissenbaum_2010] Privacy in Context provides the contextual-integrity framework that has become influential in reputation and privacy law. The legal framing complements the economic framing by treating the constraints on manipulation and the constraints on platform enforcement as products of specific legal-institutional configurations rather than as exogenous constants.
 
 The critical-media-studies framing traces from [Marwick 2013][book_marwick_2013] Status Update through [Marwick and Lewis 2017][research_marwick_lewis_2017] Media Manipulation and Disinformation Online. The framing treats reputation manipulation as embedded in a broader political-economy of digital media in which platform business models, algorithmic amplification, and audience formation combine to produce systematic manipulation-amenable conditions. The [Wardle and Derakhshan 2017][research_wardle_derakhshan_2017] Information Disorder treatment provides the taxonomic framework for misinformation, disinformation, and malinformation that overlaps considerably with the reputation-manipulation taxonomy. The [Roberts 2019][book_roberts_2019] Behind the Screen treats the labor conditions of content moderation that shapes platform-side enforcement capacity. The [Farkas and Schou 2019][book_farkas_schou_2019] Post-Truth Fake News and Democracy treats the epistemological consequences of the manipulation-saturated information environment. The [Zuckerman 2021][book_zuckerman_2021] Mistrust treats the trust erosion produced by manipulation and the potential remedies. The [Aral 2020][book_aral_2020] The Hype Machine consolidates the empirical evidence on social-media effects on political and commercial outcomes. The critical-media-studies framing complements the economic framing by treating the manipulation-saturated equilibrium as a systemic outcome of platform political economy rather than as an aggregation of individual manipulation choices.
 
-The decentralized-systems framing traces from the [Nakamoto 2008][ref_nakamoto_2008_bitcoin] Bitcoin whitepaper through the subsequent Web3 and blockchain-reputation literature. The framing treats reputation as potentially portable across platforms through cryptographic attestation and treats the platform-level manipulation equilibrium as one of several possible architectural equilibria rather than as inherent to digital reputation. The [Buterin 2014][ref_buterin_2014_ethereum] Ethereum whitepaper introduced the smart-contract programmability that supports on-chain reputation systems. The [Weyl Ohlhaver Buterin 2022][research_weyl_ohlhaver_buterin_2022] Decentralized Society treatment proposes the soulbound-token framework for non-transferable on-chain reputation. The empirical assessment in [Zargham and Nabben 2022][research_zargham_nabben_2022] Aligning Intent and Behavior in Web3 tempers the aspirational claims with observed manipulation patterns in decentralized reputation systems. The decentralized-systems framing complements the platform-centric framing by treating the platform's mediating role as historically contingent and identifying alternative architectural configurations that admit different manipulation equilibria.
+The decentralized-systems framing traces from the [Nakamoto 2008][ref_nakamoto_2008_bitcoin] Bitcoin whitepaper through the subsequent Web3 and blockchain-reputation literature. The framing treats reputation as potentially portable across platforms through cryptographic attestation and treats the platform-level manipulation equilibrium as one of several possible architectural equilibria rather than as inherent to digital reputation. The [Buterin 2014][ref_buterin_2014_ethereum] Ethereum whitepaper introduced the smart-contract programmability that supports on-chain reputation systems. The [Weyl et al. 2022][research_weyl_ohlhaver_buterin_2022] Decentralized Society treatment proposes the soulbound-token framework for non-transferable on-chain reputation. The empirical assessment in [Zargham and Nabben 2022][research_zargham_nabben_2022] Aligning Intent and Behavior in Web3 tempers the aspirational claims with observed manipulation patterns in decentralized reputation systems. The decentralized-systems framing complements the platform-centric framing by treating the platform's mediating role as historically contingent and identifying alternative architectural configurations that admit different manipulation equilibria.
 
 ## The Attention Economy Substrate
 
@@ -147,7 +147,7 @@ The formal structure of the attention economy substrate can be characterized as 
 
 $$A_{\text{total}} = N \cdot \bar{a}$$
 
-with $N$ the active user count and $\bar{a}$ the average attention allocation per user. The allocation of $A_{\text{total}}$ across content, sellers, or reputational entities $i \in \{1, 2, \ldots, K\}$ produces the attention distribution $\{a_i\}\_{i=1}^K$ satisfying $\sum_i a_i = A_{\text{total}}$. The empirical distribution of attention across content on major platforms is highly skewed, with the [Zipf 1949][book_zipf_1949] Human Behavior and the Principle of Least Effort framework and the [Pareto 1897][research_pareto_1897] Cours d'Economie Politique framework each providing power-law characterizations. The observed rank-size distribution typically satisfies
+with $N$ the active user count and $\bar{a}$ the average attention allocation per user. The allocation of $A_{\text{total}}$ across content, sellers, or reputational entities $i \in \{1, 2, \ldots, K\}$ produces the attention distribution $\{a_i\}\_{i=1}^K$ satisfying $\sum_i a_i = A_{\text{total}}$. The empirical distribution of attention across content on major platforms is highly skewed, with the [Zipf 1949][book_zipf_1949] Human Behavior and the Principle of Least Effort framework and the [Flux and Pareto 1897][research_pareto_1897] Cours d'Economie Politique framework each providing power-law characterizations. The observed rank-size distribution typically satisfies
 
 $$a_{(r)} \sim r^{-\alpha}, \quad \alpha \in [0.5, 2]$$
 
@@ -169,7 +169,7 @@ maps reputation $R_i$, engagement history $e_i$, content features $c_i$, and use
 
 $$a_i = \phi(\text{rank}(\rho_i))$$
 
-with $\phi$ typically exponentially decaying or power-law decaying in rank. The empirical evidence on the rank-attention decay for search results is documented in [Craswell et al 2008][research_craswell_et_al_2008] An Experimental Comparison of Click Position-Bias Models and subsequent work. The click-through decay by rank position observed on major search platforms satisfies approximately
+with $\phi$ typically exponentially decaying or power-law decaying in rank. The empirical evidence on the rank-attention decay for search results is documented in [Craswell et al. 2008][research_craswell_et_al_2008] An Experimental Comparison of Click Position-Bias Models and subsequent work. The click-through decay by rank position observed on major search platforms satisfies approximately
 
 $$\text{CTR}(r) \approx c_0 \cdot r^{-\beta}, \quad \beta \in [1, 2]$$
 
@@ -374,11 +374,11 @@ The commercial-testimonial tradition traces to the patent-medicine advertising o
 
 The nineteenth-century yellow-journalism tradition produced organized reputation manipulation at the newspaper-industry scale. The [Campbell 2001][book_campbell_2001] Yellow Journalism documents the Pulitzer and Hearst rivalry that produced the manipulation-oriented mass-circulation newspaper. The [Nasaw 2000][book_nasaw_2000] The Chief provides the definitive biography of William Randolph Hearst and the operational detail of his newspaper empire's reputation-manipulation practices. The yellow-journalism era established many technique templates that later transferred to the twentieth-century advertising and PR industries.
 
-The public-relations tradition of managed reputation traces to the founding of the modern PR industry in the early twentieth century. The [Bernays 1923][book_bernays_1923] Crystallizing Public Opinion and [Bernays 1928][book_bernays_1928] Propaganda established the doctrine of the systematic engineering of consent through media placement, endorsement cultivation, and narrative construction. The [Lee 1925][book_lee_1925] Publicity work and the earlier [Ivy Lee Declaration of Principles 1906][ref_ivy_lee_declaration_1906] established the professional-ethics framing of the PR industry, and the [Byoir 1930][ref_byoir_1930_1955] agency campaigns established the operational form. The [Lippmann 1922][book_lippmann_1922] Public Opinion provided the theoretical framework the PR industry drew on. The critical treatments in [Ewen 1996][book_ewen_1996] PR A Social History of Spin and [Tye 1998][book_tye_1998] The Father of Spin document the industry's development and its manipulation practices from the 1900s through the late twentieth century.
+The public-relations tradition of managed reputation traces to the founding of the modern PR industry in the early twentieth century. The [Bernays 1923][book_bernays_1923] Crystallizing Public Opinion and [Bernays 1928][book_bernays_1928] Propaganda established the doctrine of the systematic engineering of consent through media placement, endorsement cultivation, and narrative construction. The [Lee 1925][book_lee_1925] Publicity work and the earlier [PRSA Code of Ethics 1906][ref_ivy_lee_declaration_1906] established the professional-ethics framing of the PR industry, and the [Byoir Papers 1930 1955][ref_byoir_1930_1955] agency campaigns established the operational form. The [Lippmann 1922][book_lippmann_1922] Public Opinion provided the theoretical framework the PR industry drew on. The critical treatments in [Ewen 1996][book_ewen_1996] PR A Social History of Spin and [Tye 1998][book_tye_1998] The Father of Spin document the industry's development and its manipulation practices from the 1900s through the late twentieth century.
 
-The astroturfing tradition of manufactured grassroots support traces to political-operations practice from the mid twentieth century forward, with sizable precedent in the corporate lobbying campaigns of the tobacco, oil, and pharmaceutical industries. The [McGarity and Wagner 2008][book_mcgarity_wagner_2008] Bending Science documents the corporate manufacture of doubt through funded academic work and coordinated advocacy. The [Oreskes and Conway 2010][book_oreskes_conway_2010] Merchants of Doubt documents the coordinated denial campaigns on tobacco, ozone depletion, acid rain, and climate change. The [Michaels 2008][book_michaels_2008] Doubt Is Their Product documents the corporate manufactured-doubt playbook. The term astroturf itself traces to Senator Lloyd Bentsen's 1985 characterization of manufactured constituent mail as artificial grass in the [Bentsen 1985 Congressional Record][ref_bentsen_congressional_record_1985], and the [Cho et al 2011][research_cho_et_al_2011] Astroturfing framework and the [Walker 2014][book_walker_2014] Grassroots for Hire treatment document the contemporary industry.
+The astroturfing tradition of manufactured grassroots support traces to political-operations practice from the mid twentieth century forward, with sizable precedent in the corporate lobbying campaigns of the tobacco, oil, and pharmaceutical industries. The [McGarity and Wagner 2008][book_mcgarity_wagner_2008] Bending Science documents the corporate manufacture of doubt through funded academic work and coordinated advocacy. The [Oreskes and Conway 2010][book_oreskes_conway_2010] Merchants of Doubt documents the coordinated denial campaigns on tobacco, ozone depletion, acid rain, and climate change. The [Michaels 2008][book_michaels_2008] Doubt Is Their Product documents the corporate manufactured-doubt playbook. The term astroturf itself traces to Senator Lloyd Bentsen's 1985 characterization of manufactured constituent mail as artificial grass in the [Bentsen 1985 Congressional Record][ref_bentsen_congressional_record_1985], and the [Cho et al. 2011][research_cho_et_al_2011] Astroturfing framework and the [Walker 2014][book_walker_2014] Grassroots for Hire treatment document the contemporary industry.
 
-The propaganda tradition of state-sponsored reputation manipulation traces to the first world war on both allied and central-powers sides, with appreciable elaboration through the second world war, the cold war, and the contemporary information-operations era. The [Lasswell 1927][book_lasswell_1927] Propaganda Technique in the World War established the analytical framework. The [Ellul 1965][book_ellul_1965] Propaganda The Formation of Men's Attitudes provided the theoretical treatment. The [Herman and Chomsky 1988][book_herman_chomsky_1988] Manufacturing Consent developed the political-economy critique. The contemporary state-sponsored information operations are documented in [Rid 2020][book_rid_2020] Active Measures, [DiResta et al 2019][research_diresta_et_al_2019], and the [Mueller Report 2019][ref_mueller_report_2019] Volume One on Russian interference in the 2016 election.
+The propaganda tradition of state-sponsored reputation manipulation traces to the first world war on both allied and central-powers sides, with appreciable elaboration through the second world war, the cold war, and the contemporary information-operations era. The [Lasswell 1927][book_lasswell_1927] Propaganda Technique in the World War established the analytical framework. The [Ellul 1965][book_ellul_1965] Propaganda The Formation of Men's Attitudes provided the theoretical treatment. The [Herman and Chomsky 1988][book_herman_chomsky_1988] Manufacturing Consent developed the political-economy critique. The contemporary state-sponsored information operations are documented in [Rid 2020][book_rid_2020] Active Measures, [DiResta et al. 2019][research_diresta_et_al_2019], and the [Mueller Report 2019][ref_mueller_report_2019] Volume One on Russian interference in the 2016 election.
 
 The direct-marketing tradition of database-driven reputation and preference manipulation traces to the mid twentieth century mail-order and catalog industry and the subsequent development of psychographic marketing. The [Packard 1957][book_packard_1957] The Hidden Persuaders documents the mid-century motivation research industry. The [Turow 2011][book_turow_2011] The Daily You traces the transition to digital psychographic targeting and the contemporary surveillance-advertising economy that provides the substrate for algorithmic reputation manipulation.
 
@@ -390,21 +390,21 @@ with $N(t)$ the cumulative adopter count at time $t$, $\bar{N}$ the ceiling adop
 
 $$R_{\text{reach}}(t) = R_0 \, (1 + \eta)^t$$
 
-with $\eta$ the per-period retransmission gain that combines the audience-network branching factor and the per-message persistence. The empirical treatment of pre-digital propaganda reach traces to [Berelson 1948][research_berelson_1948] and subsequent work; the digital-era treatment appears in [Vosoughi Roy Aral 2018][research_vosoughi_roy_aral_2018] and the platform-integrity literature.
+with $\eta$ the per-period retransmission gain that combines the audience-network branching factor and the per-message persistence. The empirical treatment of pre-digital propaganda reach traces to [Berelson 1948][research_berelson_1948] and subsequent work; the digital-era treatment appears in [Vosoughi et al. 2018][research_vosoughi_roy_aral_2018] and the platform-integrity literature.
 
 ## Historiographical Gap and Recent Scholarship
 
 The scholarly treatment of virtual reputation manipulation has developed unevenly across disciplines, historical periods, and platform categories. The framing article surveys the observable gap in the scholarly literature and identifies the recent-scholarship developments that the miniseries builds on.
 
-The economics-of-reputation literature developed in the 1970s and 1980s under the general information-economics program initiated by [Akerlof 1970][research_akerlof_1970] and [Spence 1973][research_spence_1973], with the reputation-specific extensions in [Klein and Leffler 1981][research_klein_leffler_1981], [Kreps and Wilson 1982][research_kreps_wilson_1982], [Shapiro 1983][research_shapiro_1983], and [Milgrom and Roberts 1986][research_milgrom_roberts_1986]. The extension to digital reputation systems began with [Resnick et al 2000][research_resnick_et_al_2000] and continued through [Dellarocas 2003][research_dellarocas_2003], [Ba and Pavlou 2002][research_ba_pavlou_2002], and [Bolton Katok Ockenfels 2004][research_bolton_katok_ockenfels_2004]. The gap between the theoretical literature and the empirical manipulation-prevalence literature that emerged in the 2010s reflects the historical division between economic-theoretic work grounded in game-theoretic modeling and empirical detection work grounded in machine-learning and network-analytic methodology. The recent [He Hollenbeck Proserpio 2022][research_he_hollenbeck_proserpio_2022] treatment for Amazon reviews and the [Luca and Zervas 2016][research_luca_zervas_2016] treatment for Yelp begin to bridge the two traditions.
+The economics-of-reputation literature developed in the 1970s and 1980s under the general information-economics program initiated by [Akerlof 1970][research_akerlof_1970] and [Spence 1973][research_spence_1973], with the reputation-specific extensions in [Klein and Leffler 1981][research_klein_leffler_1981], [Kreps and Wilson 1982][research_kreps_wilson_1982], [Shapiro 1983][research_shapiro_1983], and [Milgrom and Roberts 1986][research_milgrom_roberts_1986]. The extension to digital reputation systems began with [Resnick et al. 2000][research_resnick_et_al_2000] and continued through [Dellarocas 2003][research_dellarocas_2003], [Ba and Pavlou 2002][research_ba_pavlou_2002], and [Bolton et al. 2004][research_bolton_katok_ockenfels_2004]. The gap between the theoretical literature and the empirical manipulation-prevalence literature that emerged in the 2010s reflects the historical division between economic-theoretic work grounded in game-theoretic modeling and empirical detection work grounded in machine-learning and network-analytic methodology. The recent [He et al. 2022][research_he_hollenbeck_proserpio_2022] treatment for Amazon reviews and the [Luca and Zervas 2016][research_luca_zervas_2016] treatment for Yelp begin to bridge the two traditions.
 
 The sociological literature on reputation and status developed in parallel to the economics literature but with limited cross-fertilization until the recent embeddedness-and-networks synthesis. The [Podolny 2005][book_podolny_2005] Status Signals treatment marks the substantive integration of the two traditions. The digital-reputation extension in [Marwick 2013][book_marwick_2013] Status Update and [Marwick and boyd 2011][research_marwick_boyd_2011] I Tweet Honestly begins to connect the sociological framing to the empirical platform-specific research.
 
-The critical-media-studies and disinformation-studies literature developed in the 2010s in response to the 2016 US election and the subsequent recognition of state-sponsored information operations. The [Benkler Faris Roberts 2018][book_benkler_faris_roberts_2018] Network Propaganda, [Jamieson 2018][book_jamieson_2018] Cyberwar, [Woolley 2020][book_woolley_2020] The Reality Game, and [Rid 2020][book_rid_2020] Active Measures treatments established the field. The commercial-reputation-manipulation literature has developed largely separately, with limited cross-reference to the political-manipulation literature despite considerable technique overlap. The miniseries treats the two literatures as connected through shared technique, infrastructure, and detection challenges.
+The critical-media-studies and disinformation-studies literature developed in the 2010s in response to the 2016 US election and the subsequent recognition of state-sponsored information operations. The [Benkler et al. 2018][book_benkler_faris_roberts_2018] Network Propaganda, [Jamieson 2018][book_jamieson_2018] Cyberwar, [Woolley 2020][book_woolley_2020] The Reality Game, and [Rid 2020][book_rid_2020] Active Measures treatments established the field. The commercial-reputation-manipulation literature has developed largely separately, with limited cross-reference to the political-manipulation literature despite considerable technique overlap. The miniseries treats the two literatures as connected through shared technique, infrastructure, and detection challenges.
 
-The legal-scholarship literature on platform governance and intermediary liability developed in the late 2010s in response to the Section-230 policy debate and the emerging platform-integrity concerns. The [Klonick 2018][research_klonick_2018] New Governors, [Balkin 2018][research_balkin_2018] Free Speech is a Triangle, [Douek 2021][research_douek_2021] Governing Online Speech, and [Suzor 2019][book_suzor_2019] Lawless treatments established the platform-governance subfield. The legal treatment of reputation manipulation as distinct from broader content-moderation questions remains significantly underdeveloped, with [Solove 2007][book_solove_2007] The Future of Reputation the most substantive legal treatment to reputation.
+The legal-scholarship literature on platform governance and intermediary liability developed in the late 2010s in response to the Section-230 policy debate and the emerging platform-integrity concerns. The [Klonick 2018][research_klonick_2018] New Governors, [Balkin 2018][research_balkin_2018] Free Speech is a Triangle, [Douek 2020][research_douek_2021] Governing Online Speech, and [Suzor 2019][book_suzor_2019] Lawless treatments established the platform-governance subfield. The legal treatment of reputation manipulation as distinct from broader content-moderation questions remains significantly underdeveloped, with [Solove 2007][book_solove_2007] The Future of Reputation the most substantive legal treatment to reputation.
 
-The computer-science literature on manipulation detection developed through the 2010s and accelerated in the 2020s. The [Cresci 2020][research_cresci_2020] Decade of Social Bot Detection surveys the bot-detection subfield. The [Yang et al 2020][research_yang_et_al_2020] Scalable and Generalizable Social Bot Detection treatment extends the model to contemporary bot populations. The [Ott et al 2011][research_ott_et_al_2011] Finding Deceptive Opinion Spam initiated the fake-review-detection subfield, extended in [Mukherjee et al 2013][research_mukherjee_et_al_2013] Yelp Fake Review Filter, [Rayana and Akoglu 2015][research_rayana_akoglu_2015] Collective Opinion Spam Detection, [Kumar et al 2017][research_kumar_et_al_2017] Rating Distributions, and continuing work. The [Grinberg et al 2019][research_grinberg_et_al_2019] Fake News on Twitter treatment provides the network-level empirical assessment of manipulation exposure. The computer-science literature has developed primarily as a detection-methodology tradition with limited integration into the economic and legal frameworks the miniseries adopts.
+The computer-science literature on manipulation detection developed through the 2010s and accelerated in the 2020s. The [Cresci 2020][research_cresci_2020] Decade of Social Bot Detection surveys the bot-detection subfield. The [Yang et al. 2019][research_yang_et_al_2020] Scalable and Generalizable Social Bot Detection treatment extends the model to contemporary bot populations. The [Ott et al. 2011][research_ott_et_al_2011] Finding Deceptive Opinion Spam initiated the fake-review-detection subfield, extended in [Mukherjee 2013][research_mukherjee_et_al_2013] Yelp Fake Review Filter, [Rayana and Akoglu 2015][research_rayana_akoglu_2015] Collective Opinion Spam Detection, [Kumar 2017][research_kumar_et_al_2017] Rating Distributions, and continuing work. The [Grinberg et al. 2019][research_grinberg_et_al_2019] Fake News on Twitter treatment provides the network-level empirical assessment of manipulation exposure. The computer-science literature has developed primarily as a detection-methodology tradition with limited integration into the economic and legal frameworks the miniseries adopts.
 
 The historiographical gap that the miniseries seeks to address is the absence of an integrated treatment that draws on all five traditions simultaneously. Each tradition treats a portion of the reputation-manipulation phenomenon: economics treats the incentive structure, sociology treats the audience-and-community structure, critical media studies treats the political-economy structure, law treats the constraint structure, and computer science treats the detection-and-classification methodology. The comprehensive treatment requires all five, and the miniseries organizes the material to make the cross-tradition connections explicit where they are load-bearing for the analytical conclusions.
 
@@ -418,29 +418,29 @@ The state framework varies. California's Unfair Competition Law at [California B
 
 The European framework rests principally on the Unfair Commercial Practices Directive at [Directive 2005/29/EC][ref_eu_ucpd_2005_29_ec] as implemented in member-state law, which prohibits misleading commercial practices including undisclosed paid endorsements and fake reviews. The Digital Services Act at [Regulation 2022/2065][ref_eu_dsa_2022] imposes systemic-risk assessment and mitigation obligations on very large online platforms and search engines. The AI Act at [Regulation 2024/1689][ref_eu_ai_act_2024] regulates deployment of generative-model systems whose output may facilitate reputation manipulation. The [European Commission 2023][ref_ec_2023_sweep] cross-platform sweep of consumer websites documented systematic non-compliance across member states.
 
-The United Kingdom framework includes the [Online Safety Act 2023][ref_uk_online_safety_act_2023] imposing duties of care on user-to-user services and search services, and the [UK CMA fake reviews action][ref_uk_cma_fake_reviews] under the Consumer Protection from Unfair Trading Regulations 2008. The Australian framework rests on the Australian Consumer Law with implementation through the [ACCC fake reviews guidance][ref_accc_fake_reviews_guidance]. The Australian [OAIC Online Privacy Principles][ref_oaic_australian_privacy_principles] address the data-protection dimension of platform manipulation.
+The United Kingdom framework includes the [Online Safety Act 2023 2023][ref_uk_online_safety_act_2023] imposing duties of care on user-to-user services and search services, and the [UK CMA fake reviews action][ref_uk_cma_fake_reviews] under the Consumer Protection from Unfair Trading Regulations 2008. The Australian framework rests on the Australian Consumer Law with implementation through the [ACCC fake reviews guidance][ref_accc_fake_reviews_guidance]. The Australian [OAIC Online Privacy Principles][ref_oaic_australian_privacy_principles] address the data-protection dimension of platform manipulation.
 
-Enforcement case law developed through the 2010s and 2020s establishes precedent across several fact patterns. The [FTC v. Cure Encapsulations 2019][ref_ftc_cure_encapsulations_2019] action addressed a supplement manufacturer's payment for fake Amazon reviews. The [NY Attorney General v. Devumi 2019][ref_ny_ag_devumi_2019] action addressed a fake-social-media-follower marketplace and established the first US enforcement action treating fake identities as false endorsements. The [SEC v. Kardashian 2022][ref_sec_kardashian_2022] action addressed undisclosed crypto-asset promotion and established that celebrity endorsement disclosure requirements apply to social-media promotion. The [Amazon v. Fake Review Brokers 2022][ref_amazon_v_fake_review_brokers_2022] private-action campaign has produced settlements with multiple marketplace intermediaries. The [People v. Lifestyle Lift 2013][ref_ny_ag_lifestyle_lift_2013] investigation and settlement established the earliest state-level enforcement action against organized fake-review production. The [GAO 2020 Report on Online Consumer Reviews][ref_gao_2020_online_reviews] provides the consolidated federal audit of the enforcement landscape as of the late 2010s.
+Enforcement case law developed through the 2010s and 2020s establishes precedent across several fact patterns. The [FTC v Cure Encapsulations 2019][ref_ftc_cure_encapsulations_2019] action addressed a supplement manufacturer's payment for fake Amazon reviews. The [NY Attorney General v 2019][ref_ny_ag_devumi_2019] action addressed a fake-social-media-follower marketplace and established the first US enforcement action treating fake identities as false endorsements. The [SEC v Kardashian 2022][ref_sec_kardashian_2022] action addressed undisclosed crypto-asset promotion and established that celebrity endorsement disclosure requirements apply to social-media promotion. The [Amazon v Fake Review 2022][ref_amazon_v_fake_review_brokers_2022] private-action campaign has produced settlements with multiple marketplace intermediaries. The [People v. Lifestyle Lift 2013][ref_ny_ag_lifestyle_lift_2013] investigation and settlement established the earliest state-level enforcement action against organized fake-review production. The [GAO 2020 Report on Online Consumer Reviews][ref_gao_2020_online_reviews] provides the consolidated federal audit of the enforcement landscape as of the late 2010s.
 
 Platform-integrity self-regulation runs parallel to the statutory framework. The [Meta Adversarial Threat Report][ref_meta_atr] provides quarterly disclosure of coordinated-inauthentic-behavior enforcement. The [Meta Coordinated Inauthentic Behavior policy][ref_meta_cib_policy] establishes the operational definition of CIB that the platform-integrity industry has adopted. The [Google Search Quality Rater Guidelines][ref_google_srg] establish the taxonomy of manipulated content that the search-quality evaluation framework identifies. The [Amazon Community Guidelines][ref_amazon_community_guidelines] establish the platform's anti-manipulation policy for review content. The [YouTube Community Guidelines Enforcement Report][ref_youtube_transparency_report] and the [Reddit Transparency Report][ref_reddit_transparency_report] provide quantitative disclosure of platform-side enforcement volume. The [TikTok Community Guidelines Enforcement Report][ref_tiktok_transparency_report] provides equivalent disclosure for the TikTok platform.
 
 Empirical study of the manipulation ecosystem draws on several standing datasets. The [Yelp Open Dataset][ref_yelp_open_dataset] provides business, review, and user records suitable for detection research. The [Amazon Reviews Dataset][ref_amazon_reviews_dataset] provides multi-category review corpora used across the fake-review detection literature. The [Botometer database][ref_botometer] provides bot-detection scores for social-media accounts. The [Stanford Internet Observatory data catalog][ref_stanford_internet_observatory] provides datasets and code from the observatory's investigations. The [Twitter Election Integrity dataset archive][ref_twitter_election_integrity] preserves the pre-2023 Twitter releases of state-attributed information-operations content.
 
-The First Amendment constraint on reputation-manipulation regulation runs through the defamation case law from [New York Times v Sullivan 1964][ref_ny_times_sullivan_1964] establishing the actual-malice standard for public-figure defamation, [Gertz v Robert Welch 1974][ref_gertz_v_welch_1974] extending this formulation to private figures, [Milkovich v Lorain Journal 1990][ref_milkovich_v_lorain_1990] distinguishing statements of fact from statements of opinion, and [Snyder v Phelps 2011][ref_snyder_v_phelps_2011] on speech of public concern. The First Amendment framework constrains both the direct regulation of manipulated content and the platform-liability regime that would otherwise incentivize aggressive content moderation.
+The First Amendment constraint on reputation-manipulation regulation runs through the defamation case law from [New York Times v 1964][ref_ny_times_sullivan_1964] establishing the actual-malice standard for public-figure defamation, [Gertz v. Robert Welch 1974][ref_gertz_v_welch_1974] extending this formulation to private figures, [Milkovich v. Lorain Journal 1990][ref_milkovich_v_lorain_1990] distinguishing statements of fact from statements of opinion, and [Snyder v Phelps 2011][ref_snyder_v_phelps_2011] on speech of public concern. The First Amendment framework constrains both the direct regulation of manipulated content and the platform-liability regime that would otherwise incentivize aggressive content moderation.
 
-The Section 230 CDA case law defines the scope of intermediary immunity for platforms hosting manipulated content. The foundational [Zeran v AOL 1997][ref_zeran_v_aol_1997] decision established the broad immunity for third-party content, and [Fair Housing Council v Roommates.com 2008][ref_roommates_2008] carved out the exception for platform-solicited or platform-created content. The [Barnes v Yahoo 2009][ref_barnes_v_yahoo_2009] decision addressed promissory-estoppel exceptions. The [Force v Facebook 2019][ref_force_v_facebook_2019] decision addressed algorithmic-recommendation liability. The recent [Gonzalez v Google 2023][ref_gonzalez_v_google_2023] and [Twitter v Taamneh 2023][ref_twitter_v_taamneh_2023] Supreme Court decisions declined to substantially narrow Section 230 while addressing platform-recommendation liability under the Antiterrorism Act. The [Malwarebytes v Enigma 2020][ref_malwarebytes_v_enigma_2020] cert-denial dissent by Justice Thomas signaled interest in Section-230 revisitation that has not yet materialized. The [FOSTA-SESTA 2018 amendment][ref_fosta_sesta_2018] created the first substantive Section-230 exception, limited to sex-trafficking content.
+The Section 230 CDA case law defines the scope of intermediary immunity for platforms hosting manipulated content. The foundational [Zeran v AOL 1997][ref_zeran_v_aol_1997] decision established the broad immunity for third-party content, and [Fair Housing Council v 2008][ref_roommates_2008] carved out the exception for platform-solicited or platform-created content. The [Barnes v Yahoo 2009][ref_barnes_v_yahoo_2009] decision addressed promissory-estoppel exceptions. The [Force v Facebook 2019][ref_force_v_facebook_2019] decision addressed algorithmic-recommendation liability. The recent [Gonzalez v Google 2023][ref_gonzalez_v_google_2023] and [Twitter v Taamneh 2023][ref_twitter_v_taamneh_2023] Supreme Court decisions declined to substantially narrow Section 230 while addressing platform-recommendation liability under the Antiterrorism Act. The [Malwarebytes v Enigma 2020][ref_malwarebytes_v_enigma_2020] cert-denial dissent by Justice Thomas signaled interest in Section-230 revisitation that has not yet materialized. The [FOSTA-SESTA 2018 amendment][ref_fosta_sesta_2018] created the first substantive Section-230 exception, limited to sex-trafficking content.
 
-The international comparative regulation includes the German [Netzwerkdurchsetzungsgesetz NetzDG 2017][ref_germany_netzdg_2017] imposing content-removal obligations on major platforms, the French [Loi Avia 2020][ref_france_loi_avia_2020] largely struck down by the Conseil constitutionnel, the Indian [IT Intermediary Guidelines 2021][ref_india_it_rules_2021] imposing traceability and grievance-officer requirements, the Singapore [Protection from Online Falsehoods and Manipulation Act 2019][ref_singapore_pofma_2019] providing government-directed correction and takedown authority, the Brazilian [Marco Civil da Internet 2014][ref_brazil_marco_civil_2014] establishing the intermediary-liability framework, and the [China Cyberspace Administration deep-synthesis regulations 2023][ref_china_cac_deepfake_2023] regulating generative-model output including manipulation-adjacent applications. The [Bradshaw Bailey Howard 2021][research_bradshaw_bailey_howard_2021] Industrialized Disinformation treatment surveys the cross-national comparative regulatory landscape.
+The international comparative regulation includes the German [NetzDG 2017][ref_germany_netzdg_2017] imposing content-removal obligations on major platforms, the French [France Loi Avia 2020][ref_france_loi_avia_2020] largely struck down by the Conseil constitutionnel, the Indian [India IT Intermediary Guidelines 2021][ref_india_it_rules_2021] imposing traceability and grievance-officer requirements, the Singapore [Singapore et al. 2019][ref_singapore_pofma_2019] providing government-directed correction and takedown authority, the Brazilian [L12965 2014][ref_brazil_marco_civil_2014] establishing the intermediary-liability framework, and the [China Cyberspace Administration Deep 2023][ref_china_cac_deepfake_2023] regulating generative-model output including manipulation-adjacent applications. The [Bradshaw et al. 2021][research_bradshaw_bailey_howard_2021] Industrialized Disinformation treatment surveys the cross-national comparative regulatory landscape.
 
 ## Contemporary Platform Landscape
 
 The contemporary platform landscape in which reputation manipulation operates admits partition into several major categories that the miniseries treats. The categories differ in their reputation-signal architecture, their detection intensity, their legal exposure, and their manipulation-equilibrium characteristics.
 
-The consumer-review platforms include Amazon, Yelp, Google Reviews, Tripadvisor, and category-specific review sites (Booking.com, OpenTable, Angi, Zocdoc). The dominant signal is the star rating combined with the text review. The manipulation economy has been documented extensively for Amazon in [He Hollenbeck Proserpio 2022][research_he_hollenbeck_proserpio_2022] and [Wu et al 2020][research_wu_et_al_2020], for Yelp in [Luca and Zervas 2016][research_luca_zervas_2016], for Tripadvisor in [Mayzlin Dover Chevalier 2014][research_mayzlin_dover_chevalier_2014], and for Google Reviews in [Feng et al 2021][research_feng_et_al_2021] and subsequent work.
+The consumer-review platforms include Amazon, Yelp, Google Reviews, Tripadvisor, and category-specific review sites (Booking.com, OpenTable, Angi, Zocdoc). The dominant signal is the star rating combined with the text review. The manipulation economy has been documented extensively for Amazon in [He et al. 2022][research_he_hollenbeck_proserpio_2022] and [Wu et al. 2020][research_wu_et_al_2020], for Yelp in [Luca and Zervas 2016][research_luca_zervas_2016], for Tripadvisor in [Mayzlin et al. 2014][research_mayzlin_dover_chevalier_2014], and for Google Reviews in [Feng 2021][research_feng_et_al_2021] and subsequent work.
 
 The e-commerce marketplaces include Amazon, eBay, Etsy, Alibaba, and platform-integrated sellers on Instagram and TikTok. The dominant signals are seller ratings, product ratings, and platform-assigned badges (Best Seller, Amazon's Choice, verified badges). The manipulation economy overlaps markedly with the consumer-review economy. Additional manipulation vectors include buy-box manipulation, listing-hijacking, and search-ranking manipulation through keyword-stuffing and inventory positioning.
 
-The social-media engagement platforms include Facebook, Instagram, X (formerly Twitter), TikTok, YouTube, LinkedIn, Reddit, Snapchat, Threads, and Bluesky. The dominant signals are follower counts, engagement metrics (likes, comments, shares, saves), and algorithmic recommendation position. The manipulation economy for follower purchase is documented in [De Micheli and Stroppa 2013][research_demicheli_stroppa_2013], for coordinated inauthentic behavior in [Bradshaw and Howard 2019][research_bradshaw_howard_2019] and the [DFRLab Reports][ref_dfrlab_reports], and for algorithmic amplification manipulation in [Papakyriakopoulos et al 2020][research_papakyriakopoulos_et_al_2020].
+The social-media engagement platforms include Facebook, Instagram, X (formerly Twitter), TikTok, YouTube, LinkedIn, Reddit, Snapchat, Threads, and Bluesky. The dominant signals are follower counts, engagement metrics (likes, comments, shares, saves), and algorithmic recommendation position. The manipulation economy for follower purchase is documented in [De Micheli and Stroppa 2013][research_demicheli_stroppa_2013], for coordinated inauthentic behavior in [Bradshaw and Howard 2019][research_bradshaw_howard_2019] and the [DFRLab Reports][ref_dfrlab_reports], and for algorithmic amplification manipulation in [Papakyriakopoulos et al. 2020][research_papakyriakopoulos_et_al_2020].
 
 The search-engine and content-discovery platforms include Google Search, Bing, DuckDuckGo, Baidu, Yandex, and category-specific discovery (Google Scholar, PubMed, Apple App Store search, Google Play Store search, Amazon search). The dominant signals are ranking position under the platform's ranking function. The manipulation economy runs through search-engine optimization (SEO), reverse-SEO or negative-SEO attacks, and app-store optimization (ASO). The scholarly and industry treatment is documented in [Halavais 2018][book_halavais_2018] Search Engine Society and in the search-engine optimization industry literature.
 
@@ -452,7 +452,7 @@ The community-moderation platforms include Reddit, Stack Exchange, Wikipedia, Qu
 
 The subscription-and-follower platforms include Substack, Patreon, OnlyFans, YouTube memberships, and Twitch subscriptions. The dominant signals are subscriber counts and revenue proxies. The manipulation economy runs through subscriber purchase, view-count inflation, and coordinated cross-promotion.
 
-The gig-economy and marketplace platforms include Uber, Lyft, DoorDash, Airbnb, TaskRabbit, and Fiverr. The dominant signals are provider ratings, completion rates, and category-specific quality metrics. The manipulation dynamics include provider-side rating manipulation, coordinated cross-rating rings, and consumer-side rating extortion. The empirical treatment is documented in [Athey Castillo Chandar 2019][research_athey_castillo_chandar_2019] and subsequent work.
+The gig-economy and marketplace platforms include Uber, Lyft, DoorDash, Airbnb, TaskRabbit, and Fiverr. The dominant signals are provider ratings, completion rates, and category-specific quality metrics. The manipulation dynamics include provider-side rating manipulation, coordinated cross-rating rings, and consumer-side rating extortion. The empirical treatment is documented in [Athey et al. 2019][research_athey_castillo_chandar_2019] and subsequent work.
 
 The scale of the manipulation economy across the landscape permits summary through order-of-magnitude estimates from the industry and regulatory literature. The [FTC 2019 Sunday Riley settlement][ref_ftc_sunday_riley_2019], the [FTC 2020 Fashion Nova settlement][ref_ftc_fashion_nova_2020], the [FTC 2022 Fake Reviews and Endorsements notice of penalty offense][ref_ftc_penalty_offense_2022], and the [FTC 2024 final rule on fake reviews][ref_ftc_final_rule_2024] provide the regulatory documentation. The estimated aggregate annual reputation-manipulation-service market size across major platforms is approximately
 
@@ -466,11 +466,11 @@ with the [World Economic Forum 2021][ref_wef_2021_fake_reviews] and [European Co
 
 $$V_{\text{fake}}(t) = \sum_{c \in \text{categories}} n_c(t) \cdot p_c(t)$$
 
-with $n_c(t)$ the total signal-event volume in category $c$ at time $t$ and $p_c(t)$ the category-specific manipulation prevalence. The estimated aggregate ranges from approximately one billion to approximately one hundred billion manipulated signal events per year across the major categories, with the upper bound reflecting generative-model-enabled scale-up documented since 2023 in [Sohail et al 2024][research_sohail_et_al_2024] and subsequent work.
+with $n_c(t)$ the total signal-event volume in category $c$ at time $t$ and $p_c(t)$ the category-specific manipulation prevalence. The estimated aggregate ranges from approximately one billion to approximately one hundred billion manipulated signal events per year across the major categories, with the upper bound reflecting generative-model-enabled scale-up documented since 2023 in [Sohail 2024][research_sohail_et_al_2024] and subsequent work.
 
-The generative-model impact on the manipulation ecosystem constitutes the most substantial recent development. Large-language-model deployment since the [OpenAI ChatGPT release 2022][ref_openai_chatgpt_2022] and subsequent [GPT-4 release 2023][ref_openai_gpt4_2023], the [Anthropic Claude release][ref_anthropic_claude], and the open-source model releases documented in the [Meta Llama papers][ref_meta_llama] and successors, has produced a step-change reduction in the marginal cost of generating human-quality manipulated content. The empirical assessment in [Yang and Menczer 2024][research_yang_menczer_2024] Anatomy of an AI-Powered Malicious Social Botnet documents the deployment of large-language-model-driven bot accounts across social platforms. The [Goldstein et al 2023][research_goldstein_et_al_2023] Generative Language Models and Automated Influence Operations treatment surveys the emerging threat landscape. The [Sadasivan et al 2023][research_sadasivan_et_al_2023] Can AI-Generated Text be Reliably Detected treatment establishes the detection-difficulty ceiling under contemporary technique. The generative-model transition shifts the manipulation cost function's convexity parameter $\alpha$ appreciably toward unity, which shifts the manipulation-equilibrium first-order condition toward higher equilibrium manipulation intensity absent compensating increases in detection capability. The [Watermarking Large Language Models literature][research_kirchenbauer_et_al_2023] and the [C2PA content provenance standard][ref_c2pa_standard] represent the emerging technical countermeasure infrastructure.
+The generative-model impact on the manipulation ecosystem constitutes the most substantial recent development. Large-language-model deployment since the [OpenAI ChatGPT release 2022][ref_openai_chatgpt_2022] and subsequent [GPT-4 release 2023][ref_openai_gpt4_2023], the [Anthropic Claude release][ref_anthropic_claude], and the open-source model releases documented in the [Meta Llama papers][ref_meta_llama] and successors, has produced a step-change reduction in the marginal cost of generating human-quality manipulated content. The empirical assessment in [Yang and Menczer 2023][research_yang_menczer_2024] Anatomy of an AI-Powered Malicious Social Botnet documents the deployment of large-language-model-driven bot accounts across social platforms. The [Goldstein et al. 2023][research_goldstein_et_al_2023] Generative Language Models and Automated Influence Operations treatment surveys the emerging threat landscape. The [Sadasivan et al. 2023][research_sadasivan_et_al_2023] Can AI-Generated Text be Reliably Detected treatment establishes the detection-difficulty ceiling under contemporary technique. The generative-model transition shifts the manipulation cost function's convexity parameter $\alpha$ appreciably toward unity, which shifts the manipulation-equilibrium first-order condition toward higher equilibrium manipulation intensity absent compensating increases in detection capability. The [Watermarking Large Language Models literature][research_kirchenbauer_et_al_2023] and the [C2PA content provenance standard][ref_c2pa_standard] represent the emerging technical countermeasure infrastructure.
 
-The bot-ecosystem-specific empirical assessment includes [Chu et al 2012][research_chu_et_al_2012] Detecting Automation of Twitter Accounts, [Varol et al 2017][research_varol_et_al_2017] Online Human-Bot Interactions, [Bessi and Ferrara 2016][research_bessi_ferrara_2016] Social Bots Distort the 2016 US Presidential Election Discussion, [Cresci et al 2017][research_cresci_et_al_2017] The Paradigm-Shift of Social Spambots, and [Rauchfleisch and Kaiser 2020][research_rauchfleisch_kaiser_2020] The False Positive Problem of Automatic Bot Detection. The prevalence estimates for bot accounts on major social platforms range from approximately five percent to approximately fifteen percent of active accounts under conservative classifiers and higher under aggressive classifiers, with the divergence reflecting the boundary definition between fully automated accounts, semi-automated accounts, and human-operated accounts with automation assistance.
+The bot-ecosystem-specific empirical assessment includes [Chu et al. 2012][research_chu_et_al_2012] Detecting Automation of Twitter Accounts, [Varol et al. 2017][research_varol_et_al_2017] Online Human-Bot Interactions, [Bessi and Ferrara 2016][research_bessi_ferrara_2016] Social Bots Distort the 2016 US Presidential Election Discussion, [Cresci et al. 2017][research_cresci_et_al_2017] The Paradigm-Shift of Social Spambots, and [Rauchfleisch and Kaiser 2020][research_rauchfleisch_kaiser_2020] The False Positive Problem of Automatic Bot Detection. The prevalence estimates for bot accounts on major social platforms range from approximately five percent to approximately fifteen percent of active accounts under conservative classifiers and higher under aggressive classifiers, with the divergence reflecting the boundary definition between fully automated accounts, semi-automated accounts, and human-operated accounts with automation assistance.
 
 ## Alternative Analytical Frameworks
 
@@ -478,11 +478,11 @@ The economics-and-signaling framework the miniseries adopts is one of several an
 
 The public-choice framework of [Buchanan and Tullock 1962][book_buchanan_tullock_1962] The Calculus of Consent treats reputation manipulation as an instance of rent-seeking within a political-economy framework in which manipulation is analyzed by the incentives of interest groups to invest resources in reputation-shifting rather than in productive activity. This account produces stronger normative conclusions about the welfare costs of the manipulation equilibrium and predicts regulatory-capture dynamics under which platform enforcement systematically underweights the consumer side.
 
-The information-cascade framework of [Bikhchandani Hirshleifer Welch 1992][research_bikhchandani_hirshleifer_welch_1992] A Theory of Fads Fashion Custom and Cultural Change and the [Banerjee 1992][research_banerjee_1992] Simple Model of Herd Behavior treats reputation manipulation as an intervention in a cascade dynamic in which early signals disproportionately shape later beliefs. The framework predicts that early-stage manipulation produces disproportionate downstream reputation effects and that the manipulation equilibrium exhibits strong path-dependence rather than convergence to a stable configuration. The [Salganik Dodds Watts 2006][research_salganik_dodds_watts_2006] Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market provides the empirical demonstration of cascade dynamics in a controlled reputation-adjacent setting.
+The information-cascade framework of [Bikhchandani et al. 1992][research_bikhchandani_hirshleifer_welch_1992] A Theory of Fads Fashion Custom and Cultural Change and the [Banerjee 1992][research_banerjee_1992] Simple Model of Herd Behavior treats reputation manipulation as an intervention in a cascade dynamic in which early signals disproportionately shape later beliefs. The framework predicts that early-stage manipulation produces disproportionate downstream reputation effects and that the manipulation equilibrium exhibits strong path-dependence rather than convergence to a stable configuration. The [Salganik et al. 2006][research_salganik_dodds_watts_2006] Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market provides the empirical demonstration of cascade dynamics in a controlled reputation-adjacent setting.
 
 The evolutionary-game-theoretic framework of [Maynard Smith 1982][book_maynard_smith_1982] Evolution and the Theory of Games and the [Nowak 2006][book_nowak_2006] Evolutionary Dynamics extension treats the manipulation equilibrium as a stable strategy profile in a repeated interaction over the operator population. The account identifies conditions under which the manipulation strategy is invasion-resistant, replaces the honest strategy under replicator dynamics, and supports or does not admit persistent minority strategies. The model provides an alternative theoretical foundation for the organic-establishment-minority puzzle the miniseries treats.
 
-The complex-systems and network-dynamics framework of [Barabási and Albert 1999][research_barabasi_albert_1999] Emergence of Scaling in Random Networks and the [Newman 2010][book_newman_2010] Networks treatment treats reputation as an emergent property of the interaction graph rather than as a property of individual actors. This formulation predicts that reputation-manipulation effects are shaped by the network topology and that platform-architecture changes to the underlying graph produce reputation-equilibrium changes independent of any manipulation-technique changes. The [Watts 2002][research_watts_2002] A Simple Model of Global Cascades treatment provides the threshold-cascade framework for reputation dynamics.
+The complex-systems and network-dynamics framework of [Barabási and Albert 1999][research_barabasi_albert_1999] Emergence of Scaling in Random Networks and the [Newman 2010][book_newman_2010] Networks treatment treats reputation as an emergent property of the interaction graph rather than as a property of individual actors. This formulation predicts that reputation-manipulation effects are shaped by the network topology and that platform-architecture changes to the underlying graph produce reputation-equilibrium changes independent of any manipulation-technique changes. The [Watts 2002][research_watts_2002] A Simple Model of Global Cascades treatment provides the threshold-cascade framework for reputation dynamics.
 
 The critical-political-economy framework of [Fuchs 2014][book_fuchs_2014] Social Media A Critical Introduction and [Fisher and Fuchs 2015][book_fisher_fuchs_2015] Reconsidering Value and Labour in the Digital Age treats reputation manipulation as a symptomatic outcome of the contradictions in the surveillance-capitalist information economy rather than as a phenomenon to be understood in its own terms. The treatment predicts that reforms internal to the platform-integrity framework will fail to address the underlying manipulation dynamic and that structural reform of the platform business model is required.
 
@@ -510,10 +510,10 @@ Article four synthesizes the miniseries and treats the detection landscape, the 
 
 ## Load-Bearing Open Questions
 
-- What is the correct empirical characterization of aggregate fake-review prevalence across the major consumer-review platforms, and how does the prevalence estimate change under alternative detection methodologies? The [Luca and Zervas 2016][research_luca_zervas_2016] estimate for Yelp, the [He Hollenbeck Proserpio 2022][research_he_hollenbeck_proserpio_2022] estimate for Amazon, and the platform-industry estimates diverge greatly and the divergence remains unresolved.
-- What is the correct empirical characterization of the causal impact of manipulation on downstream consumer behavior? The [Ma et al 2013][research_ma_et_al_2013] and [Chevalier and Mayzlin 2006][research_chevalier_mayzlin_2006] estimates and subsequent work provide competing empirical bases.
+- What is the correct empirical characterization of aggregate fake-review prevalence across the major consumer-review platforms, and how does the prevalence estimate change under alternative detection methodologies? The [Luca and Zervas 2016][research_luca_zervas_2016] estimate for Yelp, the [He et al. 2022][research_he_hollenbeck_proserpio_2022] estimate for Amazon, and the platform-industry estimates diverge greatly and the divergence remains unresolved.
+- What is the correct empirical characterization of the causal impact of manipulation on downstream consumer behavior? The [Ma 2013][research_ma_et_al_2013] and [Chevalier and Mayzlin 2006][research_chevalier_mayzlin_2006] estimates and subsequent work provide competing empirical bases.
 - What is the correct empirical characterization of the marginal deterrent effect of legal enforcement on manipulation prevalence? The pre-and-post studies of major FTC enforcement actions provide the empirical base, and the treatment remains contested.
-- What is the correct empirical characterization of the equilibrium impact of generative-model deployment on manipulation prevalence and detection difficulty? The [Zellers et al 2019][research_zellers_et_al_2019] Grover treatment, the [Sohail et al 2024][research_sohail_et_al_2024] treatment, and subsequent work address the question, and the empirical trajectory since 2023 admits marked uncertainty in extrapolation.
+- What is the correct empirical characterization of the equilibrium impact of generative-model deployment on manipulation prevalence and detection difficulty? The [Zellers et al. 2019][research_zellers_et_al_2019] Grover treatment, the [Sohail 2024][research_sohail_et_al_2024] treatment, and subsequent work address the question, and the empirical trajectory since 2023 admits marked uncertainty in extrapolation.
 - What is the correct causal characterization of the organic-establishment minority in manipulation-saturated markets, and does the minority persist under sufficiently intense manipulation or eventually collapse into the manipulation equilibrium?
 - How should the platform-integrity operations, the regulatory framework, and the market response coordinate to reduce equilibrium manipulation intensity, and what is the equilibrium detection intensity that maximizes joint surplus across producer, consumer, and platform welfare?
 - What is the correct comparative treatment of the American manipulation ecosystem against other national manipulation ecosystems in China, Russia, the European Union, India, Brazil, and other major markets, and how do the divergent legal, cultural, and platform-architecture conditions produce divergent equilibria?
@@ -522,248 +522,259 @@ These questions recur throughout the miniseries and are revisited in the closing
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Applegate 2012 The Rise of Advertising in the United States][book_applegate_2012]
-- [Aral 2020 The Hype Machine][book_aral_2020]
-- [Ariely 2008 Predictably Irrational][book_ariely_2008]
-- [Benkler Faris and Roberts 2018 Network Propaganda][book_benkler_faris_roberts_2018]
-- [Bernays 1923 Crystallizing Public Opinion][book_bernays_1923]
-- [Bernays 1928 Propaganda][book_bernays_1928]
-- [Bourdieu 1984 Distinction][book_bourdieu_1984]
-- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
-- [Bucher 2018 If Then][book_bucher_2018]
-- [Campbell 2001 Yellow Journalism][book_campbell_2001]
-- [Cialdini 1984 Influence][book_cialdini_1984]
-- [Coleman 1990 Foundations of Social Theory][book_coleman_1990]
-- [Darnton 1982 The Literary Underground of the Old Regime][book_darnton_1982]
-- [Davenport and Beck 2001 The Attention Economy][book_davenport_beck_2001]
-- [Douglas 1966 Purity and Danger][book_douglas_1966]
-- [Elias 1939 The Civilizing Process][book_elias_1939]
-- [Ellul 1965 Propaganda The Formation of Men's Attitudes][book_ellul_1965]
-- [Epstein and Prak 2008 Guilds Innovation and the European Economy][book_epstein_prak_2008]
-- [Ewen 1996 PR A Social History of Spin][book_ewen_1996]
-- [Farkas and Schou 2019 Post-Truth Fake News and Democracy][book_farkas_schou_2019]
-- [Fisher and Fuchs 2015 Reconsidering Value and Labour in the Digital Age][book_fisher_fuchs_2015]
-- [Fombrun 1996 Reputation][book_fombrun_1996]
-- [Fuchs 2014 Social Media A Critical Introduction][book_fuchs_2014]
-- [Fukuyama 1995 Trust][book_fukuyama_1995]
-- [Gillespie 2018 Custodians of the Internet][book_gillespie_2018]
-- [Goffman 1959 The Presentation of Self in Everyday Life][book_goffman_1959]
-- [Goffman 1967 Interaction Ritual][book_goffman_1967]
-- [Golbeck 2008 Computing with Social Trust][book_golbeck_2008]
-- [Greif 2006 Institutions and the Path to the Modern Economy][book_greif_2006]
-- [Habermas 1962 The Structural Transformation of the Public Sphere][book_habermas_1962]
-- [Halavais 2018 Search Engine Society][book_halavais_2018]
-- [Herman and Chomsky 1988 Manufacturing Consent][book_herman_chomsky_1988]
-- [Hirsch 1976 Social Limits to Growth][book_hirsch_1976]
-- [Jamieson 2018 Cyberwar][book_jamieson_2018]
-- [Jemielniak 2014 Common Knowledge][book_jemielniak_2014]
-- [Kahneman 2011 Thinking Fast and Slow][book_kahneman_2011]
-- [Lasswell 1927 Propaganda Technique in the World War][book_lasswell_1927]
-- [Lee 1925 Publicity][book_lee_1925]
-- [Lippmann 1922 Public Opinion][book_lippmann_1922]
-- [Mailath and Samuelson 2006 Repeated Games and Reputations][book_mailath_samuelson_2006]
-- [Marchand 1985 Advertising the American Dream][book_marchand_1985]
-- [Marwick 2013 Status Update][book_marwick_2013]
-- [Mauss 1925 The Gift][book_mauss_1925]
-- [Maynard Smith 1982 Evolution and the Theory of Games][book_maynard_smith_1982]
-- [McGarity and Wagner 2008 Bending Science][book_mcgarity_wagner_2008]
-- [Michaels 2008 Doubt Is Their Product][book_michaels_2008]
-- [Milgrom 2004 Putting Auction Theory to Work][book_milgrom_2004]
-- [Nasaw 2000 The Chief][book_nasaw_2000]
-- [Newman 2010 Networks][book_newman_2010]
-- [Nissenbaum 2010 Privacy in Context][book_nissenbaum_2010]
-- [Nowak 2006 Evolutionary Dynamics][book_nowak_2006]
-- [Oreskes and Conway 2010 Merchants of Doubt][book_oreskes_conway_2010]
-- [Origgi 2018 Reputation What It Is and Why It Matters][book_origgi_2018]
-- [Packard 1957 The Hidden Persuaders][book_packard_1957]
-- [Pasley 2001 The Tyranny of Printers][book_pasley_2001]
-- [Podolny 2005 Status Signals][book_podolny_2005]
-- [Presbrey 1929 The History and Development of Advertising][book_presbrey_1929]
-- [Putnam 2000 Bowling Alone][book_putnam_2000]
-- [Rid 2020 Active Measures][book_rid_2020]
-- [Roberts 2019 Behind the Screen][book_roberts_2019]
-- [Sivulka 1998 Soap Sex and Cigarettes][book_sivulka_1998]
-- [Solove 2007 The Future of Reputation][book_solove_2007]
-- [Srnicek 2017 Platform Capitalism][book_srnicek_2017]
-- [Suzor 2019 Lawless][book_suzor_2019]
-- [Thaler and Sunstein 2008 Nudge][book_thaler_sunstein_2008]
-- [Trivellato 2009 The Familiarity of Strangers][book_trivellato_2009]
-- [Turow 2011 The Daily You][book_turow_2011]
-- [Tye 1998 The Father of Spin][book_tye_1998]
-- [Vaidhyanathan 2018 Antisocial Media][book_vaidhyanathan_2018]
-- [Walker 2014 Grassroots for Hire][book_walker_2014]
-- [Wallace-Hadrill 1989 Patronage in Ancient Society][book_wallace_hadrill_1989]
-- [Warner 1990 The Letters of the Republic][book_warner_1990]
-- [Weber 1922 Economy and Society][book_weber_1922]
-- [Woolley 2020 The Reality Game][book_woolley_2020]
-- [Wu 2016 The Attention Merchants][book_wu_2016]
-- [Young 1961 The Toadstool Millionaires][book_young_1961]
-- [Zipf 1949 Human Behavior and the Principle of Least Effort][book_zipf_1949]
-- [Zuboff 2019 The Age of Surveillance Capitalism][book_zuboff_2019]
-- [Zuckerman 2021 Mistrust][book_zuckerman_2021]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Adamic, Lada A., and Eytan Adar. 2003. "Friends and Neighbors on the Web." *Social Networks* 25 (3): 211–30. [https://doi.org/10.1016/s0378-8733(03)00009-1][research_adamic_adar_2003]
+- Brin, Sergey, and Lawrence Page. 1998. "The Anatomy of a Large-Scale Hypertextual Web Search Engine." *Computer Networks and ISDN Systems* 30 (1–7): 107–17. [https://doi.org/10.1016/s0169-7552(98)00110-x][research_page_brin_1998]
+- Cho, Charles H., Martin L. Martens, Hakkyun Kim, and Michelle Rodrigue. 2011. "Astroturfing Global Warming: It Isn’t Always Greener on the Other Side of the Fence." *Journal of Business Ethics* 104 (4): 571–87. [https://doi.org/10.1007/s10551-011-0950-6][research_cho_et_al_2011]
+- Chu, Zi, Steven Gianvecchio, Haining Wang, and Sushil Jajodia. 2012. "Detecting Automation of Twitter Accounts: Are You a Human, Bot, or Cyborg?" *IEEE Transactions on Dependable and Secure Computing* 9 (6): 811–24. [https://doi.org/10.1109/tdsc.2012.75][research_chu_et_al_2012]
+- Kleinberg, Jon M. 2000. "Navigation in a Small World." *Nature* 406 (6798): 845–845. [https://doi.org/10.1038/35022643][research_kleinberg_2000]
+- Kreps, David M., and Robert Wilson. 1982. "Reputation and Imperfect Information." *Journal of Economic Theory* 27 (2): 253–79. [https://doi.org/10.1016/0022-0531(82)90030-8][research_kreps_wilson_1982]
+- Papakyriakopoulos, Orestis, Juan Carlos Medina Serrano, and Simon Hegelich. 2020. "Political Communication on Social Media: A Tale of Hyperactive Users and Bias in Recommender Systems." *Online Social Networks and Media* 15: 100058. [https://doi.org/10.1016/j.osnem.2019.100058][research_papakyriakopoulos_et_al_2020]
+- Watts, Duncan J., and Steven H. Strogatz. 1998. "Collective Dynamics of ‘Small-World’ Networks." *Nature* 393 (6684): 440–42. [https://doi.org/10.1038/30918][research_watts_strogatz_1998]
+- Weyl, Eric Glen, Puja Ohlhaver, and Vitalik Buterin. 2022. "Decentralized Society: Finding Web3's Soul." *SSRN Electronic Journal*. [https://doi.org/10.2139/ssrn.4105763][research_weyl_ohlhaver_buterin_2022]
+- Wu, Yuanyuan, Eric W. T. Ngai, Pengkun Wu, and Chong Wu. 2020. "Fake Online Reviews: Literature Review, Synthesis, and Directions for Future Research." *Decision Support Systems* 132: 113280. [https://doi.org/10.1016/j.dss.2020.113280][research_wu_et_al_2020]
+- Yang, Kai-Cheng, Onur Varol, Clayton A. Davis, Emilio Ferrara, Alessandro Flammini, and Filippo Menczer. 2019. "Arming the Public with Artificial Intelligence to Counter Social Bots." *Human Behavior and Emerging Technologies* 1 (1): 48–61. [https://doi.org/10.1002/hbe2.115][research_yang_et_al_2020]
 
-- [15 USC 45 Federal Trade Commission Act Section 5][ref_ftc_act_15_usc_45]
-- [15 USC 45b Consumer Review Fairness Act 2016][ref_consumer_review_fairness_act_2016]
-- [15 USC 1125 Lanham Act Section 43a False Advertising][ref_lanham_act_15_usc_1125]
-- [16 CFR Part 255 FTC Guides on Endorsements and Testimonials][ref_ftc_endorsement_guides_16_cfr_255]
-- [47 USC 230 Communications Decency Act Section 230][ref_section_230_cda]
-- [ACCC Fake Reviews Guidance][ref_accc_fake_reviews_guidance]
-- [Amazon Community Guidelines][ref_amazon_community_guidelines]
-- [Amazon Reviews Dataset][ref_amazon_reviews_dataset]
-- [Amazon v Fake Review Brokers 2022][ref_amazon_v_fake_review_brokers_2022]
-- [Anthropic Claude][ref_anthropic_claude]
-- [Barnes v Yahoo 2009][ref_barnes_v_yahoo_2009]
-- [Bentsen 1985 Congressional Record on Astroturf Lobbying][ref_bentsen_congressional_record_1985]
-- [Botometer Bot Detection Database][ref_botometer]
-- [Brazil Marco Civil da Internet 2014][ref_brazil_marco_civil_2014]
-- [Buterin 2014 Ethereum Whitepaper][ref_buterin_2014_ethereum]
-- [Byoir Papers 1930-1955][ref_byoir_1930_1955]
-- [C2PA Content Provenance Standard][ref_c2pa_standard]
-- [California Business and Professions Code Section 17200 Unfair Competition Law][ref_california_ucl_17200]
-- [China Cyberspace Administration Deep Synthesis Regulations 2023][ref_china_cac_deepfake_2023]
-- [DFRLab Reports on Coordinated Inauthentic Behavior][ref_dfrlab_reports]
-- [EU AI Act Regulation 2024/1689][ref_eu_ai_act_2024]
-- [EU Digital Services Act Regulation 2022/2065][ref_eu_dsa_2022]
-- [EU Unfair Commercial Practices Directive 2005/29/EC][ref_eu_ucpd_2005_29_ec]
-- [European Commission 2023 Sweep of Consumer Websites][ref_ec_2023_sweep]
-- [Fair Housing Council v Roommates.com 2008][ref_roommates_2008]
-- [Force v Facebook 2019][ref_force_v_facebook_2019]
-- [FOSTA-SESTA 2018 Section 230 Amendment][ref_fosta_sesta_2018]
-- [France Loi Avia 2020][ref_france_loi_avia_2020]
-- [FTC 2019 Sunday Riley Settlement][ref_ftc_sunday_riley_2019]
-- [FTC 2020 Fashion Nova Settlement][ref_ftc_fashion_nova_2020]
-- [FTC 2022 Fake Reviews and Endorsements Notice of Penalty Offense][ref_ftc_penalty_offense_2022]
-- [FTC 2024 Final Rule on Fake Reviews and Testimonials][ref_ftc_final_rule_2024]
-- [FTC Endorsement Guides Frequently Asked Questions][ref_ftc_endorsement_faq]
-- [FTC v Cure Encapsulations 2019][ref_ftc_cure_encapsulations_2019]
-- [GAO 2020 Report on Online Consumer Reviews][ref_gao_2020_online_reviews]
-- [Germany Netzwerkdurchsetzungsgesetz NetzDG 2017][ref_germany_netzdg_2017]
-- [Gertz v Robert Welch 1974][ref_gertz_v_welch_1974]
-- [Gonzalez v Google 2023][ref_gonzalez_v_google_2023]
-- [Google Search Quality Rater Guidelines][ref_google_srg]
-- [India IT Intermediary Guidelines 2021][ref_india_it_rules_2021]
-- [Ivy Lee Declaration of Principles 1906][ref_ivy_lee_declaration_1906]
-- [Malwarebytes v Enigma 2020][ref_malwarebytes_v_enigma_2020]
-- [Meta Adversarial Threat Report][ref_meta_atr]
-- [Meta Coordinated Inauthentic Behavior Policy][ref_meta_cib_policy]
-- [Meta Llama][ref_meta_llama]
-- [Milkovich v Lorain Journal 1990][ref_milkovich_v_lorain_1990]
-- [Mueller Report 2019 Volume One][ref_mueller_report_2019]
-- [Nakamoto 2008 Bitcoin Whitepaper][ref_nakamoto_2008_bitcoin]
-- [New York Times v Sullivan 1964][ref_ny_times_sullivan_1964]
-- [NY Attorney General People v Lifestyle Lift 2013][ref_ny_ag_lifestyle_lift_2013]
-- [NY Attorney General v Devumi 2019][ref_ny_ag_devumi_2019]
-- [OAIC Australian Privacy Principles][ref_oaic_australian_privacy_principles]
-- [OpenAI ChatGPT 2022 Release][ref_openai_chatgpt_2022]
-- [OpenAI GPT-4 2023 Release][ref_openai_gpt4_2023]
-- [Reddit Transparency Report][ref_reddit_transparency_report]
-- [Retraction Watch Database][ref_retraction_watch]
-- [SEC v Kardashian 2022][ref_sec_kardashian_2022]
-- [Singapore Protection from Online Falsehoods and Manipulation Act 2019][ref_singapore_pofma_2019]
-- [Snyder v Phelps 2011][ref_snyder_v_phelps_2011]
-- [Stanford Internet Observatory Data Catalog][ref_stanford_internet_observatory]
-- [TikTok Community Guidelines Enforcement Report][ref_tiktok_transparency_report]
-- [Twitter Election Integrity Dataset Archive][ref_twitter_election_integrity]
-- [Twitter v Taamneh 2023][ref_twitter_v_taamneh_2023]
-- [UK CMA Fake Reviews Action][ref_uk_cma_fake_reviews]
-- [UK Online Safety Act 2023][ref_uk_online_safety_act_2023]
-- [Wikipedia Signpost Archives][ref_wikipedia_signpost]
-- [World Economic Forum 2021 Report on Fake Reviews][ref_wef_2021_fake_reviews]
-- [Yelp Open Dataset][ref_yelp_open_dataset]
-- [YouTube Community Guidelines Enforcement Report][ref_youtube_transparency_report]
-- [Zeran v AOL 1997][ref_zeran_v_aol_1997]
+### Primary Sources, Non-Peer-Reviewed
 
-### Research
+- "15 U.S. Code § 45b: Consumer Review Protection." 2016. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/45b][ref_consumer_review_fairness_act_2016]
+- "15 USC 1125 Lanham Act Section 43a False Advertising." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/1125][ref_lanham_act_15_usc_1125]
+- "15 USC 45 Federal Trade Commission Act Section 5." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/45][ref_ftc_act_15_usc_45]
+- "16 CFR Part 255 FTC Guides on Endorsements and Testimonials." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255][ref_ftc_endorsement_guides_16_cfr_255]
+- "47 USC 230 Communications Decency Act Section 230." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/47/230][ref_section_230_cda]
+- Adamic, Lada A., and Bernardo A. Huberman. 2000. "Power-Law Distribution of the World Wide Web." *Science* 287 (5461): 2115–2115. [https://doi.org/10.1126/science.287.5461.2115a][research_adamic_huberman_2000]
+- Akerlof, George A. 1970. "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism." *Quarterly Journal of Economics* 84 (3): 488. [https://doi.org/10.2307/1879431][research_akerlof_1970]
+- Athey, Castillo, and Chandar. 2019. *The Allocation of Scarce Attention*. [https://scholar.google.com/scholar?q=The+Allocation+of+Scarce+Attention+Athey+Castillo+Chandar+2019][research_athey_castillo_chandar_2019]
+- Ba, Sulin, and Paul A. Pavlou. 2002. "Evidence of the Effect of Trust Building Technology in Electronic Markets: Price Premiums and Buyer Behavior1." *MIS Quarterly* 26 (3): 243–68. [https://doi.org/10.2307/4132332][research_ba_pavlou_2002]
+- Banerjee, A. V. 1992. "A Simple Model of Herd Behavior." *Quarterly Journal of Economics* 107 (3): 797–817. [https://doi.org/10.2307/2118364][research_banerjee_1992]
+- Barabási, Albert-László, and Réka Albert. 1999. "Emergence of Scaling in Random Networks." *Science* 286 (5439): 509–12. [https://doi.org/10.1126/science.286.5439.509][research_barabasi_albert_1999]
+- "Barnes v Yahoo." 2009. [https://cdn.ca9.uscourts.gov/datastore/opinions/2009/06/22/05-36189.pdf][ref_barnes_v_yahoo_2009]
+- Bass, Frank M. 1969. "A New Product Growth for Model Consumer Durables." *Management Science* 15 (5): 215–27. [https://doi.org/10.1287/mnsc.15.5.215][research_bass_1969]
+- Bentsen. 1985. "Congressional Record." Accessed October 25, 2026. [https://www.congress.gov/congressional-record][ref_bentsen_congressional_record_1985]
+- Bergemann, Dirk, and Stephen Morris. 2019. "Information Design: A Unified Perspective." *Journal of Economic Literature* 57 (1): 44–95. [https://doi.org/10.1257/jel.20181489][research_bergemann_morris_2019]
+- Bessi, Alessandro, and Emilio Ferrara. 2016. "Social Bots Distort the 2016 U.S. Presidential Election Online Discussion." *First Monday*. [https://doi.org/10.5210/fm.v21i11.7090][research_bessi_ferrara_2016]
+- Bikhchandani, Sushil, David Hirshleifer, and Ivo Welch. 1992. "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades." *Journal of Political Economy* 100 (5): 992–1026. [https://doi.org/10.1086/261849][research_bikhchandani_hirshleifer_welch_1992]
+- Bolton, Gary E., Elena Katok, and Axel Ockenfels. 2004. "How Effective Are Electronic Reputation Mechanisms? An Experimental Investigation." *Management Science* 50 (11): 1587–1602. [https://doi.org/10.1287/mnsc.1030.0199][research_bolton_katok_ockenfels_2004]
+- *C2PA Content Provenance Standard*. n.d. [https://c2pa.org/specifications/specifications/1.4/index.html][ref_c2pa_standard]
+- "California Business and Professions Code Section 17200 Unfair Competition Law." n.d. Accessed October 25, 2026. [https://leginfo.legislature.ca.gov/faces/codes\_displaySection.xhtml?lawCode=BPC&sectionNum=17200][ref_california_ucl_17200]
+- Chevalier, Judith A., and Dina Mayzlin. 2006. "The Effect of Word of Mouth on Sales: Online Book Reviews." *Journal of Marketing Research* 43 (3): 345–54. [https://doi.org/10.1509/jmkr.43.3.345][research_chevalier_mayzlin_2006]
+- Craswell, Nick, Onno Zoeter, Michael Taylor, and Bill Ramsey. 2008. "An Experimental Comparison of Click Position-Bias Models." In *Proceedings of the international conference on Web search and web data mining - WSDM '08*. ACM Press. [https://doi.org/10.1145/1341531.1341545][research_craswell_et_al_2008]
+- Cresci, Stefano. 2020. "A Decade of Social Bot Detection." *Communications of the ACM* 63 (10): 72–83. [https://doi.org/10.1145/3409116][research_cresci_2020]
+- Cresci, Stefano, Roberto Di Pietro, Marinella Petrocchi, Angelo Spognardi, and Maurizio Tesconi. 2017. "The Paradigm-Shift of Social Spambots: Evidence, Theories, and Tools for the Arms Race." In *Proceedings of the 26th International Conference on World Wide Web Companion - WWW '17 Companion*. ACM Press. [https://doi.org/10.1145/3041021.3055135][research_cresci_et_al_2017]
+- Darby, Michael R., and Edi Karni. 1973. "Free Competition and the Optimal Amount of Fraud." *Journal of Law and Economics* 16 (1): 67–88. [https://doi.org/10.1086/466756][research_darby_karni_1973]
+- De Micheli and Stroppa. 2013. *Twitter and the Underground Market*. [https://scholar.google.com/scholar?q=Twitter+and+the+Underground+Market+De+Micheli+Stroppa+2013][research_demicheli_stroppa_2013]
+- Dellarocas, Chrysanthos. 2003. "The Digitization of Word of Mouth: Promise and Challenges of Online Feedback Mechanisms." *Management Science* 49 (10): 1407–24. [https://doi.org/10.1287/mnsc.49.10.1407.17308][research_dellarocas_2003]
+- "Directive: 2005/29: EN: Unfair Commercial Practices Directive: EUR-LexLog inEnglish." n.d. Accessed October 25, 2026. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32005L0029][ref_eu_ucpd_2005_29_ec]
+- Douek, Evelyn. 2020. "Governing Online Speech: From 'Posts-As-Trumps' to Proportionality and Probability." Preprint, . [https://doi.org/10.2139/ssrn.3679607][research_douek_2021]
+- "EU Digital Services Act Regulation 2022/." 2065. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065][ref_eu_dsa_2022]
+- European Commission. 2023. "Sweep of Consumer Websites." [https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/sweeps\_en][ref_ec_2023_sweep]
+- "Fair Housing Council v Roommates.com." 2008. [https://cdn.ca9.uscourts.gov/datastore/opinions/2008/04/03/0456916.pdf][ref_roommates_2008]
+- Feng. 2021. *Analyzing Fake Reviews on Google Maps*. [https://scholar.google.com/scholar?q=Analyzing+Fake+Reviews+on+Google+Maps+Feng+2021][research_feng_et_al_2021]
+- Ferrara, Emilio, Onur Varol, Clayton Davis, Filippo Menczer, and Alessandro Flammini. 2016. "The Rise of Social Bots." *Communications of the ACM* 59 (7): 96–104. [https://doi.org/10.1145/2818717][research_ferrara_et_al_2016]
+- Flux, A. W., and Vilfredo Pareto. 1897. "Cours d'Economie Politique." *Economic Journal* 7 (25): 91. [https://doi.org/10.2307/2956966][research_pareto_1897]
+- "Force v Facebook." 2019. [https://www.ca2.uscourts.gov/decisions/isysquery/2c50f8ea-4b6f-4c0f-b8ec-92f6c2d80a26/1/doc/18-397\_opn.pdf][ref_force_v_facebook_2019]
+- FOSTA-SESTA. 2018. *Section 230 Amendment*. [https://scholar.google.com/scholar?q=Section+230+Amendment+FOSTA-SESTA+2018][ref_fosta_sesta_2018]
+- FTC. 2019. "Sunday Riley Settlement." [https://www.ftc.gov/legal-library/browse/cases-proceedings/1723065-sunday-riley-modern-skincare-llc][ref_ftc_sunday_riley_2019]
+- FTC. 2020. "Fashion Nova Settlement." [https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3138-fashion-nova-llc][ref_ftc_fashion_nova_2020]
+- FTC. 2022. "Fake Reviews and Endorsements Notice of Penalty Offense." [https://www.ftc.gov/legal-library/browse/notices-penalty-offenses-concerning-money-making-opportunities-endorsements-reviews-testimonials][ref_ftc_penalty_offense_2022]
+- FTC. 2024. "Final Rule on Fake Reviews and Testimonials." [https://www.ftc.gov/legal-library/browse/federal-register-notices/16-cfr-part-465-rule-use-consumer-reviews-testimonials][ref_ftc_final_rule_2024]
+- "FTC v Cure Encapsulations." 2019. [https://www.ftc.gov/legal-library/browse/cases-proceedings/172-3117-cure-encapsulations-inc][ref_ftc_cure_encapsulations_2019]
+- "FTC's Endorsement Guides: What People Are Asking." 2017. Federal Trade Commission, September 7. [https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking][ref_ftc_endorsement_faq]
+- Fudenberg, Drew, and David K. Levine. 1992. "Maintaining a Reputation When Strategies Are Imperfectly Observed." *Review of Economic Studies* 59 (3): 561. [https://doi.org/10.2307/2297864][research_fudenberg_levine_1992]
+- GAO. 2020. "Report on Online Consumer Reviews." [https://www.gao.gov/products/gao-20-660][ref_gao_2020_online_reviews]
+- "Gertz v. Robert Welch, Inc., 418 U.S. 323 (1974)." 1974. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/418/323/][ref_gertz_v_welch_1974]
+- Goldstein, Josh A., Girish Sastry, Micah Musser, Renee DiResta, Matthew Gentzel, and Katerina Sedova. 2023. "Generative Language Models and Automated Influence Operations: Emerging Threats and Potential Mitigations." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2301.04246][research_goldstein_et_al_2023]
+- "Gonzalez v Google." 2023. [https://www.supremecourt.gov/opinions/22pdf/21-1333\_6j7a.pdf][ref_gonzalez_v_google_2023]
+- Granovetter, Mark. 1985. "Economic Action and Social Structure: The Problem of Embeddedness." *American Journal of Sociology* 91 (3): 481–510. [https://doi.org/10.1086/228311][research_granovetter_1985]
+- Grinberg, Nir, Kenneth Joseph, Lisa Friedland, Briony Swire-Thompson, and David Lazer. 2019. "Fake News on Twitter during the 2016 U.S. Presidential Election." *Science* 363 (6425): 374–78. [https://doi.org/10.1126/science.aau2706][research_grinberg_et_al_2019]
+- He, Sherry, Brett Hollenbeck, and Davide Proserpio. 2022. "The Market for Fake Reviews." *Marketing Science* 41 (5): 896–921. [https://doi.org/10.1287/mksc.2022.1353][research_he_hollenbeck_proserpio_2022]
+- Kamenica, Emir, and Matthew Gentzkow. 2011. "Bayesian Persuasion." *American Economic Review* 101 (6): 2590–2615. [https://doi.org/10.1257/aer.101.6.2590][research_kamenica_gentzkow_2011]
+- Kirchenbauer, John, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers, and Tom Goldstein. 2023. "A Watermark for Large Language Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2301.10226][research_kirchenbauer_et_al_2023]
+- Klein, Benjamin, and Keith B. Leffler. 1981. "The Role of Market Forces in Assuring Contractual Performance." *Journal of Political Economy* 89 (4): 615–41. [https://doi.org/10.1086/260996][research_klein_leffler_1981]
+- Kleinberg, Jon M. 1999. "Authoritative Sources in a Hyperlinked Environment." *Journal of the ACM* 46 (5): 604–32. [https://doi.org/10.1145/324133.324140][research_kleinberg_1999]
+- Konieczny. 2010. *Governance Adhocracy and Wikipedia*. [https://scholar.google.com/scholar?q=Governance+Adhocracy+and+Wikipedia+Konieczny+2010][research_konieczny_2010]
+- Luca, Michael, and Georgios Zervas. 2016. "Fake It till You Make It: Reputation, Competition, and Yelp Review Fraud." *Management Science* 62 (12): 3412–27. [https://doi.org/10.1287/mnsc.2015.2304][research_luca_zervas_2016]
+- "Malwarebytes v Enigma." 2020. [https://www.supremecourt.gov/opinions/20pdf/19-1284\_869d.pdf][ref_malwarebytes_v_enigma_2020]
+- Marwick, Alice E., and danah Boyd. 2010. "I Tweet Honestly, I Tweet Passionately: Twitter Users, Context Collapse, and the Imagined Audience." *New Media & Society* 13 (1): 114–33. [https://doi.org/10.1177/1461444810365313][research_marwick_boyd_2011]
+- Marwick, Alice, and Lewis. 2017. *Media Manipulation and Disinformation Online*. Data & Society Research Institute. [https://doi.org/10.69985/qpaf6919][research_marwick_lewis_2017]
+- Mayzlin, Dina, Yaniv Dover, and Judith Chevalier. 2014. "Promotional Reviews: An Empirical Investigation of Online Review Manipulation." *American Economic Review* 104 (8): 2421–55. [https://doi.org/10.1257/aer.104.8.2421][research_mayzlin_dover_chevalier_2014]
+- Milgrom, Paul, and John Roberts. 1986. "Price and Advertising Signals of Product Quality." *Journal of Political Economy* 94 (4): 796–821. [https://doi.org/10.1086/261408][research_milgrom_roberts_1986]
+- "Milkovich v. Lorain Journal, 497 U.S. 1 (1990)." 1990. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/497/1/][ref_milkovich_v_lorain_1990]
+- Mukherjee. 2013. *What Yelp Fake Review Filter Might Be Doing*. [https://scholar.google.com/scholar?q=What+Yelp+Fake+Review+Filter+Might+Be+Doing+Mukherjee+2013][research_mukherjee_et_al_2013]
+- Myerson, Roger B. 1981. "Optimal Auction Design." *Mathematics of Operations Research* 6 (1): 58–73. [https://doi.org/10.1287/moor.6.1.58][research_myerson_1981]
+- "NetzDG: Nichtamtliches Inhaltsverzeichnis." 2017. Accessed October 25, 2026. [https://www.gesetze-im-internet.de/netzdg/][ref_germany_netzdg_2017]
+- "New York Times v Sullivan." 1964. [https://supreme.justia.com/cases/federal/us/376/254/][ref_ny_times_sullivan_1964]
+- "Online Safety Act 2023." 2023. Statute Law Database. Accessed October 25, 2026. [https://www.legislation.gov.uk/ukpga/2023/50/contents][ref_uk_online_safety_act_2023]
+- Ott, Myle, Yejin Choi, Claire Cardie, and Jeffrey T. Hancock. 2011. "Finding Deceptive Opinion Spam by Any Stretch of the Imagination." In *Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*. [https://aclanthology.org/P11-1032/][research_ott_et_al_2011]
+- Persily, Nathaniel. 2017. "Can Democracy Survive the Internet?" *Journal of Democracy* 28 (2): 63–76. [https://doi.org/10.1353/jod.2017.0025][research_persily_2017]
+- Rauchfleisch, Adrian, and Jonas Kaiser. 2020. "The False Positive Problem of Automatic Bot Detection in Social Science Research." *PLOS ONE* 15 (10): e0241045. [https://doi.org/10.1371/journal.pone.0241045][research_rauchfleisch_kaiser_2020]
+- Rayana, Shebuti, and Leman Akoglu. 2015. "Collective Opinion Spam Detection: Bridging Review Networks and Metadata." In *Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*. ACM. [https://doi.org/10.1145/2783258.2783370][research_rayana_akoglu_2015]
+- "Regulation: EU: 2024/1689: EN: EUR-LexLog inEnglish." n.d. Accessed October 25, 2026. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689][ref_eu_ai_act_2024]
+- Resnick, Paul, Ko Kuwabara, Richard Zeckhauser, and Eric Friedman. 2000. "Reputation Systems." *Communications of the ACM* 43 (12): 45–48. [https://doi.org/10.1145/355112.355122][research_resnick_et_al_2000]
+- Rochet, Jean-Charles, and Jean Tirole. 2003. "Platform Competition in Two-Sided Markets." *Journal of the European Economic Association* 1 (4): 990–1029. [https://doi.org/10.1162/154247603322493212][research_rochet_tirole_2003]
+- Rysman, Marc. 2009. "The Economics of Two-Sided Markets." *Journal of Economic Perspectives* 23 (3): 125–43. [https://doi.org/10.1257/jep.23.3.125][research_rysman_2009]
+- Sadasivan, Vinu Sankar, Aounon Kumar, Sriram Balasubramanian, Wenxiao Wang, and Soheil Feizi. 2023. "Can AI-Generated Text Be Reliably Detected?" Preprint, arXiv. [https://doi.org/10.48550/arxiv.2303.11156][research_sadasivan_et_al_2023]
+- Salganik, Matthew J., Peter Sheridan Dodds, and Duncan J. Watts. 2006. "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market." *Science* 311 (5762): 854–56. [https://doi.org/10.1126/science.1121066][research_salganik_dodds_watts_2006]
+- "SEC v Kardashian." 2022. [https://www.sec.gov/news/press-release/2022-183][ref_sec_kardashian_2022]
+- Shapiro, Carl. 1983. "Premiums for High Quality Products as Returns to Reputations." *Quarterly Journal of Economics* 98 (4): 659. [https://doi.org/10.2307/1881782][research_shapiro_1983]
+- "Snyder v Phelps." 2011. [https://supreme.justia.com/cases/federal/us/562/443/][ref_snyder_v_phelps_2011]
+- Sohail. 2024. *Detection of Large-Language-Model Generated Reviews*. [https://scholar.google.com/scholar?q=Detection+of+Large-Language-Model+Generated+Reviews+Sohail+2024][research_sohail_et_al_2024]
+- Spence, Michael. 1973. "Job Market Signaling." *Quarterly Journal of Economics* 87 (3): 355. [https://doi.org/10.2307/1882010][research_spence_1973]
+- Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
+- Tirole, Jean. 1996. "A Theory of Collective Reputations (with Applications to the Persistence of Corruption and to Firm Quality)." *Review of Economic Studies* 63 (1): 1. [https://doi.org/10.2307/2298112][research_tirole_1996]
+- Tversky, Amos, and Daniel Kahneman. 1974. "Judgment under Uncertainty: Heuristics and Biases: Biases in Judgments Reveal Some Heuristics of Thinking under Uncertainty." *Science* 185 (4157): 1124–31. [https://doi.org/10.1126/science.185.4157.1124][research_tversky_kahneman_1974]
+- "Twitter v Taamneh." 2023. [https://www.supremecourt.gov/opinions/22pdf/21-1496\_d18f.pdf][ref_twitter_v_taamneh_2023]
+- Uzzi, Brian. 1997. "Social Structure and Competition in Interfirm Networks: The Paradox of Embeddedness." *Administrative Science Quarterly* 42 (1): 35. [https://doi.org/10.2307/2393808][research_uzzi_1997]
+- Varol, Onur, Emilio Ferrara, Clayton Davis, Filippo Menczer, and Alessandro Flammini. 2017. "Online Human-Bot Interactions: Detection, Estimation, and Characterization." *Proceedings of the International AAAI Conference on Web and Social Media* 11 (1): 280–89. [https://doi.org/10.1609/icwsm.v11i1.14871][research_varol_et_al_2017]
+- Vosoughi, Soroush, Deb Roy, and Sinan Aral. 2018. "The Spread of True and False News Online." *Science* 359 (6380): 1146–51. [https://doi.org/10.1126/science.aap9559][research_vosoughi_roy_aral_2018]
+- Watts, Duncan J. 2002. "A Simple Model of Global Cascades on Random Networks." *Proceedings of the National Academy of Sciences* 99 (9): 5766–71. [https://doi.org/10.1073/pnas.082090499][research_watts_2002]
+- Yang, Kai-Cheng, and Filippo Menczer. 2023. "Anatomy of an AI-Powered Malicious Social Botnet." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2307.16336][research_yang_menczer_2024]
+- Zargham and Nabben. 2022. *Aligning Intent and Behavior in Web3*. [https://scholar.google.com/scholar?q=Aligning+Intent+and+Behavior+in+Web3+Zargham+Nabben+2022][research_zargham_nabben_2022]
+- Zellers, Rowan, Ari Holtzman, Hannah Rashkin, et al. 2019. "Defending against Neural Fake News." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1905.12616][research_zellers_et_al_2019]
+- "Zeran v AOL." 1997. [https://law.justia.com/cases/federal/appellate-courts/F3/129/327/565056/][ref_zeran_v_aol_1997]
 
-- [Adamic and Adar 2003 Friends and Neighbors on the Web][research_adamic_adar_2003]
-- [Adamic and Huberman 2000 Power-Law Distribution of the World Wide Web][research_adamic_huberman_2000]
-- [Akerlof 1970 The Market for Lemons][research_akerlof_1970]
-- [Athey Castillo Chandar 2019 The Allocation of Scarce Attention][research_athey_castillo_chandar_2019]
-- [Ba and Pavlou 2002 Evidence of the Effect of Trust Building Technology][research_ba_pavlou_2002]
-- [Balkin 2018 Free Speech is a Triangle][research_balkin_2018]
-- [Banerjee 1992 A Simple Model of Herd Behavior][research_banerjee_1992]
-- [Barabasi and Albert 1999 Emergence of Scaling in Random Networks][research_barabasi_albert_1999]
-- [Bass 1969 A New Product Growth Model for Consumer Durables][research_bass_1969]
-- [Berelson 1948 Communications and Public Opinion][research_berelson_1948]
-- [Bergemann and Morris 2019 Information Design][research_bergemann_morris_2019]
-- [Bessi and Ferrara 2016 Social Bots Distort the 2016 US Presidential Election][research_bessi_ferrara_2016]
-- [Bikhchandani Hirshleifer Welch 1992 A Theory of Fads Fashion Custom and Cultural Change][research_bikhchandani_hirshleifer_welch_1992]
-- [Bolton Katok Ockenfels 2004 How Effective Are Electronic Reputation Mechanisms][research_bolton_katok_ockenfels_2004]
-- [Bradshaw Bailey Howard 2021 Industrialized Disinformation][research_bradshaw_bailey_howard_2021]
-- [Bradshaw and Howard 2019 The Global Disinformation Order][research_bradshaw_howard_2019]
-- [Cabral 2012 Reputation on the Internet][research_cabral_2012]
-- [Chevalier and Mayzlin 2006 The Effect of Word of Mouth on Sales][research_chevalier_mayzlin_2006]
-- [Cho et al 2011 Astroturfing][research_cho_et_al_2011]
-- [Chu et al 2012 Detecting Automation of Twitter Accounts][research_chu_et_al_2012]
-- [Craswell et al 2008 An Experimental Comparison of Click Position-Bias Models][research_craswell_et_al_2008]
-- [Cresci 2020 A Decade of Social Bot Detection][research_cresci_2020]
-- [Cresci et al 2017 The Paradigm-Shift of Social Spambots][research_cresci_et_al_2017]
-- [Darby and Karni 1973 Free Competition and Optimal Amount of Fraud][research_darby_karni_1973]
-- [Dellarocas 2003 The Digitization of Word of Mouth][research_dellarocas_2003]
-- [De Micheli and Stroppa 2013 Twitter and the Underground Market][research_demicheli_stroppa_2013]
-- [DiResta et al 2019 The Tactics and Tropes of the Internet Research Agency][research_diresta_et_al_2019]
-- [Douek 2021 Governing Online Speech][research_douek_2021]
-- [Feng et al 2021 Analyzing Fake Reviews on Google Maps][research_feng_et_al_2021]
-- [Ferrara et al 2016 The Rise of Social Bots][research_ferrara_et_al_2016]
-- [Fudenberg and Levine 1992 Maintaining a Reputation When Strategies Are Imperfectly Observed][research_fudenberg_levine_1992]
-- [Goldstein et al 2023 Generative Language Models and Automated Influence Operations][research_goldstein_et_al_2023]
-- [Granovetter 1985 Economic Action and Social Structure][research_granovetter_1985]
-- [Greif 1993 Contract Enforceability and Economic Institutions in Early Trade][research_greif_1993]
-- [Grinberg et al 2019 Fake News on Twitter During the 2016 US Election][research_grinberg_et_al_2019]
-- [He Hollenbeck Proserpio 2022 The Market for Fake Reviews][research_he_hollenbeck_proserpio_2022]
-- [Kamenica and Gentzkow 2011 Bayesian Persuasion][research_kamenica_gentzkow_2011]
-- [Kirchenbauer et al 2023 A Watermark for Large Language Models][research_kirchenbauer_et_al_2023]
-- [Klein and Leffler 1981 The Role of Market Forces in Assuring Contractual Performance][research_klein_leffler_1981]
-- [Kleinberg 1999 Authoritative Sources in a Hyperlinked Environment][research_kleinberg_1999]
-- [Kleinberg 2000 Navigation in a Small World][research_kleinberg_2000]
-- [Klonick 2018 The New Governors][research_klonick_2018]
-- [Konieczny 2010 Governance Adhocracy and Wikipedia][research_konieczny_2010]
-- [Kreps and Wilson 1982 Reputation and Imperfect Information][research_kreps_wilson_1982]
-- [Kumar et al 2017 Understanding Rating Distributions][research_kumar_et_al_2017]
-- [Luca and Zervas 2016 Fake It Till You Make It][research_luca_zervas_2016]
-- [Ma et al 2013 The Signaling Effect of Online Reviews][research_ma_et_al_2013]
-- [Marwick and boyd 2011 I Tweet Honestly I Tweet Passionately][research_marwick_boyd_2011]
-- [Marwick and Lewis 2017 Media Manipulation and Disinformation Online][research_marwick_lewis_2017]
-- [Mayzlin Dover Chevalier 2014 Promotional Reviews][research_mayzlin_dover_chevalier_2014]
-- [Milgrom and Roberts 1986 Price and Advertising Signals of Product Quality][research_milgrom_roberts_1986]
-- [Mukherjee et al 2013 What Yelp Fake Review Filter Might Be Doing][research_mukherjee_et_al_2013]
-- [Myerson 1981 Optimal Auction Design][research_myerson_1981]
-- [Ott et al 2011 Finding Deceptive Opinion Spam by Any Stretch of the Imagination][research_ott_et_al_2011]
-- [Page and Brin 1998 The Anatomy of a Large-Scale Hypertextual Web Search Engine][research_page_brin_1998]
-- [Papakyriakopoulos et al 2020 Political Communication on Social Media][research_papakyriakopoulos_et_al_2020]
-- [Pareto 1897 Cours d'Economie Politique][research_pareto_1897]
-- [Persily 2017 Can Democracy Survive the Internet][research_persily_2017]
-- [Rauchfleisch and Kaiser 2020 The False Positive Problem of Automatic Bot Detection][research_rauchfleisch_kaiser_2020]
-- [Rayana and Akoglu 2015 Collective Opinion Spam Detection][research_rayana_akoglu_2015]
-- [Resnick et al 2000 Reputation Systems][research_resnick_et_al_2000]
-- [Rochet and Tirole 2003 Platform Competition in Two-Sided Markets][research_rochet_tirole_2003]
-- [Rysman 2009 The Economics of Two-Sided Markets][research_rysman_2009]
-- [Sadasivan et al 2023 Can AI-Generated Text be Reliably Detected][research_sadasivan_et_al_2023]
-- [Salganik Dodds Watts 2006 Experimental Study of Inequality and Unpredictability][research_salganik_dodds_watts_2006]
-- [Shapiro 1983 Premiums for High Quality Products][research_shapiro_1983]
-- [Simon 1971 Designing Organizations for an Information-Rich World][research_simon_1971]
-- [Sohail et al 2024 Detection of Large-Language-Model Generated Reviews][research_sohail_et_al_2024]
-- [Spence 1973 Job Market Signaling][research_spence_1973]
-- [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
-- [Tirole 1996 A Theory of Collective Reputations][research_tirole_1996]
-- [Tversky and Kahneman 1974 Judgment Under Uncertainty][research_tversky_kahneman_1974]
-- [Uzzi 1997 Social Structure and Competition in Interfirm Networks][research_uzzi_1997]
-- [Van Noorden 2020 Nature Investigates Citation Manipulation][research_van_noorden_2020]
-- [Varol et al 2017 Online Human-Bot Interactions][research_varol_et_al_2017]
-- [Vosoughi Roy Aral 2018 The Spread of True and False News Online][research_vosoughi_roy_aral_2018]
-- [Wardle and Derakhshan 2017 Information Disorder][research_wardle_derakhshan_2017]
-- [Watts 2002 A Simple Model of Global Cascades on Random Networks][research_watts_2002]
-- [Watts and Strogatz 1998 Collective Dynamics of Small-World Networks][research_watts_strogatz_1998]
-- [Weyl Ohlhaver Buterin 2022 Decentralized Society][research_weyl_ohlhaver_buterin_2022]
-- [Wu et al 2020 Fake Online Reviews Literature Review][research_wu_et_al_2020]
-- [Yang et al 2020 Scalable and Generalizable Social Bot Detection][research_yang_et_al_2020]
-- [Yang and Menczer 2024 Anatomy of an AI-Powered Malicious Social Botnet][research_yang_menczer_2024]
-- [Zargham and Nabben 2022 Aligning Intent and Behavior in Web3][research_zargham_nabben_2022]
-- [Zellers et al 2019 Defending Against Neural Fake News][research_zellers_et_al_2019]
+### Secondary Sources
+
+- Applegate, Edd. 2012. *The Rise of Advertising in the United States: A History of Innovation to 1960*. Scarecrow Press. [https://global.oup.com/academic/product/the-rise-of-advertising-in-the-united-states-9780810881785][book_applegate_2012]
+- Aral, Sinan. 2020. *The Hype Machine: How Social Media Disrupts Our Elections, Our Economy, and Our Health—and How We Must Adapt*. Currency. [https://us.macmillan.com/books/9780525574514/thehypemachine][book_aral_2020]
+- Ariely, Dan. 2008. *Predictably Irrational: The Hidden Forces That Shape Our Decisions*. HarperCollins. [https://www.harpercollins.com/products/predictably-irrational-revised-and-expanded-edition-dan-ariely][book_ariely_2008]
+- Benkler, Yochai, Robert Faris, and Hal Roberts. 2018. *Network Propaganda: Manipulation, Disinformation, and Radicalization in American Politics*. Oxford University Press. [https://global.oup.com/academic/product/network-propaganda-9780190923624][book_benkler_faris_roberts_2018]
+- Bernays, Edward L. 1923. *Crystallizing Public Opinion*. Boni and Liveright. [https://archive.org/details/crystallizingpub00bern][book_bernays_1923]
+- Bernays, Edward L. 1928. *Propaganda*. H. Liveright. [https://www.igpublishing.com/product/propaganda/][book_bernays_1928]
+- Bourdieu, Pierre. 1984. *La Distinction: A Social Critique of the Judgement of Taste*. Routledge & Kegan Paul. [https://www.hup.harvard.edu/books/9780674212770][book_bourdieu_1984]
+- Buchanan, James M., and Tullock. 1962. *The Calculus of Consent: Logical Foundations of Constitutional Democracy*. Michigan University Press. [https://oll.libertyfund.org/titles/buchanan-the-calculus-of-consent-logical-foundations-of-constitutional-democracy][book_buchanan_tullock_1962]
+- Bucher, Taina. 2018. *If... Then: Algorithmic Power and Politics*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/if-then-9780190493028][book_bucher_2018]
+- Cabral, Luis. 2012. *Reputation on the Internet*. Oxford University Press. [https://doi.org/10.1093/oxfordhb/9780195397840.013.0013][research_cabral_2012]
+- Campbell, W. Joseph. 2001. *Yellow Journalism: Puncturing the Myths, Defining the Legacies*. Praeger. [https://www.abc-clio.com/products/a4152p/][book_campbell_2001]
+- Cialdini, Robert B. 1984. *Influence: How and Why People Agree to Things*. Morrow. [https://www.harpercollins.com/products/influence-new-and-expanded-robert-b-cialdini-phd][book_cialdini_1984]
+- Coleman, James Samuel. 1990. *Foundations of Social Theory*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674312265][book_coleman_1990]
+- Darnton, Robert. 1982. *The Literary Underground of the Old Regime*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674536579][book_darnton_1982]
+- Davenport, Thomas H., and John C. Beck. 2001. *The Attention Economy: Understanding the New Currency of Business*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/1789-HBK-ENG][book_davenport_beck_2001]
+- Douglas, Mary, Profess Douglas, and Professor Mary Douglas. 1966. *Purity and Danger: An Analysis of Concepts of Pollution and Taboo*. Praeger. [https://www.routledge.com/Purity-and-Danger-An-Analysis-of-Concepts-of-Pollution-and-Taboo/Douglas/p/book/9780415289955][book_douglas_1966]
+- Elias, Norbert. 1939. *Über Den Prozess Der Zivilisation*. [https://www.wiley.com/en-us/The+Civilizing+Process%3A+Sociogenetic+and+Psychogenetic+Investigations%2C+Revised+Edition-p-9780631221616][book_elias_1939]
+- Ellul, Jacques. 1965. *Propaganda: The Formation of Men's Attitudes*. Knopf. [https://www.penguinrandomhouse.com/books/47269/propaganda-by-jacques-ellul/][book_ellul_1965]
+- Epstein, Stephan R., and Prak. 2008. *Guilds, Innovation, and the European Economy, 1400-1800*. Cambridge University Press. [https://www.cambridge.org/9780521887175][book_epstein_prak_2008]
+- Ewen. 1996. *PR A Social History of Spin*. [https://www.basicbooks.com/titles/stuart-ewen/pr/9780465061792/][book_ewen_1996]
+- Farkas, Johan, and Jannick Schou. 2019. *Post-Truth Fake News and Democracy: Mapping the Politics of Falsehood*. Routledge. [https://www.routledge.com/Post-Truth-Fake-News-and-Democracy-Mapping-the-Politics-of-Falsehood/Farkas-Schou/p/book/9781138336773][book_farkas_schou_2019]
+- Fisher, Eran, and Christian Fuchs, eds. 2015. *Reconsidering Value and Labour in the Digital Age*. Palgrave Macmillan UK. [https://doi.org/10.1057/9781137478573][book_fisher_fuchs_2015]
+- Fombrun, Charles J. 1996. *Reputation: Realizing Value from the Corporate Image*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/6749-HBK-ENG][book_fombrun_1996]
+- Fuchs. 2014. *Social Media A Critical Introduction*. [https://uk.sagepub.com/en-gb/eur/social-media/book282566][book_fuchs_2014]
+- Fukuyama, Francis. 1995. *Trust: The Social Virtues and the Creation of Prosperity*. Free Press. [https://www.simonandschuster.com/books/Trust/Francis-Fukuyama/9780684825250][book_fukuyama_1995]
+- Gillespie, Tarleton. 2018. *Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media*. Yale University Press. [https://yalebooks.yale.edu/book/9780300235029/custodians-of-the-internet/][book_gillespie_2018]
+- Goffman, Erving. 1959. *The Presentation of Self in Everyday Life*. Doubleday. [https://www.penguinrandomhouse.com/books/168265/the-presentation-of-self-in-everyday-life-by-erving-goffman/][book_goffman_1959]
+- Goffman, Erving. 1967. *Interaction Ritual: Essays on Face-to-Face Behavior*. Anchor Books. [https://www.penguinrandomhouse.com/books/168266/interaction-ritual-by-erving-goffman/][book_goffman_1967]
+- Golbeck, Jennifer. 2008. *Computing with Social Trust*. Springer. [https://link.springer.com/book/10.1007/978-3-540-92803-0][book_golbeck_2008]
+- Greif, Avner. 2006. *Institutions and Trade during the Late Medieval Commercial Revolution*. Cambridge University Press. [https://www.cambridge.org/9780521671347][book_greif_2006]
+- Habermas, Jürgen. 1962. *Strukturwandel Der Öffentlichkeit: Untersuchungen Zu Einer Kategorie Der Burgerlichen Gesellschaft*. Sammlung Luchterhand. [https://mitpress.mit.edu/9780262581080/the-structural-transformation-of-the-public-sphere/][book_habermas_1962]
+- Halavais, Alexander. 2018. *Search Engine Society*. Polity Press. [https://www.wiley.com/en-us/Search+Engine+Society%2C+2nd+Edition-p-9781509518906][book_halavais_2018]
+- Herman, Edward S., and Noam Chomsky. 1988. *Manufacturing Consent: The Political Economy of the Mass Media*. Pantheon Books. [https://www.penguinrandomhouse.com/books/288363/manufacturing-consent-by-edward-s-herman-and-noam-chomsky/][book_herman_chomsky_1988]
+- Hirsch, Fred. 1976. *Social Limits to Growth*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674812901][book_hirsch_1976]
+- Jamieson, Kathleen Hall. 2018. *Cyberwar: How Russian Hackers and Trolls Helped Elect a President What We Don't, Can't, and Do Know*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/cyberwar-9780190058838][book_jamieson_2018]
+- Jemielniak, Dariusz. 2014. *Common Knowledge?: An Ethnography of Wikipedia*. Stanford University Press. [https://www.sup.org/books/title/?id=23054][book_jemielniak_2014]
+- Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. Penguin Books, Limited. [https://us.macmillan.com/books/9780374533557/thinkingfastandslow][book_kahneman_2011]
+- Lasswell, Harold Dwight. 1927. *Propaganda Technique in World War I*. M.I.T. Press. [https://mitpress.mit.edu/9780262620185/propaganda-technique-in-world-war-i/][book_lasswell_1927]
+- Lee. 1925. *Publicity*. [https://archive.org/details/publicity00leei][book_lee_1925]
+- Lippmann, Walter. 1922. *Public Opinion*. George Allen & Unwin Ltd. [https://www.simonandschuster.com/books/Public-Opinion/Walter-Lippmann/9781416573104][book_lippmann_1922]
+- Mailath, George Joseph, and Samuelson. 2006. *Repeated Games and Reputations: Long-Run Relationships*. Oxford University Press. [https://global.oup.com/academic/product/repeated-games-and-reputations-9780195300796][book_mailath_samuelson_2006]
+- Marchand, Roland. 1985. *Advertising the American Dream: Making Way for Modernity, 1920-1940*. University of California Press. [https://www.ucpress.edu/book/9780520050914/advertising-the-american-dream][book_marchand_1985]
+- Marwick, Alice E. 2013. *Status Update: Celebrity, Publicity, and Branding in the Social Media Age*. Yale University Press. [https://yalebooks.yale.edu/book/9780300209389/status-update/][book_marwick_2013]
+- Mauss, Marcel. 1925. *Die Gabe: Form Und Funktion Des Austauschs in Archaischen Gesellschaften*. Universitaire Presses de France. [https://wwnorton.com/books/9780393320435][book_mauss_1925]
+- Maynard Smith. 1982. *Evolution and the Theory of Games*. Cambridge University Press. [https://www.cambridge.org/9780521288842][book_maynard_smith_1982]
+- McGarity, Thomas O., and Wagner. 2008. *Bending Science: How Special Interests Corrupt Public Health Research*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674047143][book_mcgarity_wagner_2008]
+- Michaels. 2008. *Doubt Is Their Product: How Industry's Assault on Science Threatens Your Health*. Oxford University Press, USA. [https://global.oup.com/academic/product/doubt-is-their-product-9780195300673][book_michaels_2008]
+- Milgrom. 2004. *Putting Auction Theory to Work*. [https://www.cambridge.org/9780521536721][book_milgrom_2004]
+- Nasaw, David. 2000. *The Chief: The Life of William Randolph Hearst*. Houghton Mifflin. [https://www.hmhbooks.com/shop/books/The-Chief/9780618154463][book_nasaw_2000]
+- Newman, Mark E. J. 2010. *Networks: Second Edition*. Oxford University Press. [https://global.oup.com/academic/product/networks-9780198805090][book_newman_2010]
+- Nissenbaum, Helen. 2010. *Privacy in Context: Technology, Policy, and the Integrity of Social Life*. Stanford University Press. [https://www.sup.org/books/title/?id=8862][book_nissenbaum_2010]
+- Nowak, Martin A. 2006. *Evolutionary Dynamics: Exploring the Equations of Life*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674023383][book_nowak_2006]
+- Oreskes, Naomi, and Conway. 2010. *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Publishing Plc. [https://www.bloomsbury.com/us/merchants-of-doubt-9781608193943/][book_oreskes_conway_2010]
+- Origgi, Gloria. 2018. *Reputation: What It Is and Why It Matters*. Princeton University Press. [https://press.princeton.edu/books/hardcover/9780691175355/reputation][book_origgi_2018]
+- Packard, Vance. 1957. *The Hidden Persuaders*. Longmans, Green. [https://ighland-books.com/hidden-persuaders][book_packard_1957]
+- Pasley, Jeffrey L. 2001. *The Tyranny of Printers": Newspaper Politics in the Early American Republic*. University Press of Virginia. [https://www.upress.virginia.edu/title/2260][book_pasley_2001]
+- Podolny, Joel M. 2005. *Status Signals: A Sociological Study of Market Competition*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691134253/status-signals][book_podolny_2005]
+- Presbrey, Frank. 1929. *The History and Development of Advertising*. Doubleday. [https://archive.org/details/historyanddevelo00pres][book_presbrey_1929]
+- Putnam, Robert D. 2000. *Bowling Alone: The Collapse and Revival of American Community*. Simon & Schuster. [https://www.simonandschuster.com/books/Bowling-Alone/Robert-D-Putnam/9780743203043][book_putnam_2000]
+- Rid, Thomas. 2020. *Active Measures*. [https://us.macmillan.com/books/9780374287269/activemeasures][book_rid_2020]
+- Roberts, Sarah T. 2019. *Behind the Screen: Content Moderation in the Shadows of Social Media*. Yale University Press. [https://yalebooks.yale.edu/book/9780300235883/behind-the-screen/][book_roberts_2019]
+- Sivulka, Juliann. 1998. *Soap, Sex, and Cigarettes: A Cultural History of American Advertising*. Wadsworth Pub. Co. [https://www.wadsworth.com/marketing\_d/course\_products/0534506933][book_sivulka_1998]
+- Solove, Daniel J. 2007. *The Future of Reputation: Gossip, Rumor, and Privacy on the Internet*. Yale University Press. [https://yalebooks.yale.edu/book/9780300144222/the-future-of-reputation/][book_solove_2007]
+- Srnicek, Nick. 2017. *Platform Capitalism*. Polity Press. [https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879][book_srnicek_2017]
+- Suzor, Nicolas P. 2019. *Lawless: The Secret Rules That Govern Our Digital Lives*. Cambridge University Press. [https://www.cambridge.org/9781108408271][book_suzor_2019]
+- Thaler, Richard H., and Cass R. Sunstein. 2008. *Nudge: Improving Decisions about Health, Wealth and Happiness*. Yale University Press. [https://yalebooks.yale.edu/book/9780300122237/nudge/][book_thaler_sunstein_2008]
+- Trivellato, Francesca. 2009. *The Familiarity of Strangers: The Sephardic Diaspora, Livorno, and Cross-Cultural Trade in the Early Modern Period*. Yale University Press. [https://yalebooks.yale.edu/book/9780300172416/the-familiarity-of-strangers/][book_trivellato_2009]
+- Turow, Joseph. 2011. *The Daily You: How the New Advertising Industry Is Defining Your Identity and Your Worth*. Yale University Press. [https://yalebooks.yale.edu/book/9780300188011/the-daily-you/][book_turow_2011]
+- Tye, Larry. 1998. *The Father of Spin: Edward L. Bernays & the Birth of Public Relations*. Crown Publishers. [https://www.penguinrandomhouse.com/books/153822/the-father-of-spin-by-larry-tye/][book_tye_1998]
+- Vaidhyanathan, Siva. 2018. *Antisocial Media: How Facebook Disconnects Us and Undermines Democracy*. Oxford University Press. [https://global.oup.com/academic/product/antisocial-media-9780190841164][book_vaidhyanathan_2018]
+- Walker, Edward T. 2014. *Grassroots for Hire: Public Affairs Consultants in American Democracy*. Cambridge University Press. [https://www.cambridge.org/9781107619012][book_walker_2014]
+- Wallace-Hadrill, Andrew. 1989. *Patronage in Ancient Society*. Routledge. [https://www.routledge.com/Patronage-in-Ancient-Society/Wallace-Hadrill/p/book/9780415034418][book_wallace_hadrill_1989]
+- Warner, Michael. 1990. *The Letters of the Republic: Publication and the Public Sphere in Eighteenth-Century America*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674526136][book_warner_1990]
+- Weber, Max. 1922. *Wirtschaft Und Gesellschaft: An Outline of Interpretive Sociology*. [https://www.ucpress.edu/book/9780520035003/economy-and-society][book_weber_1922]
+- Woolley, Samuel. 2020. *The Reality Game: How the Next Wave of Technology Will Break the Truth*. PublicAffairs. [https://www.hachettebookgroup.com/titles/samuel-woolley/the-reality-game/9781541768253/][book_woolley_2020]
+- Wu, Tim. 2016. *The Attention Merchants: The Epic Scramble to Get inside Our Heads*. Knopf. [https://www.penguinrandomhouse.com/books/232292/the-attention-merchants-by-tim-wu/][book_wu_2016]
+- Young, James Harvey. 1961. *The Toadstool Millionaires*. Princeton, New jersey, Princeton University Press. [https://press.princeton.edu/books/paperback/9780691623429/the-toadstool-millionaires][book_young_1961]
+- Zipf, George Kingsley. 1949. *Human Behavior and the Principle of Least Effort: An Introduction to Human Ecology*. Addison-Wesley Press. [https://archive.org/details/humanbehaviorpri0000zipf][book_zipf_1949]
+- Zuboff, Shoshana. 2019. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. Profile Books Ltd. [https://www.publicaffairsbooks.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/][book_zuboff_2019]
+- Zuckerman, Ethan. 2021. *Mistrust: Why Losing Faith in Institutions Provides the Tools to Transform Them*. Norton & Company, Incorporated, W. W. [https://wwnorton.com/books/9781324002505][book_zuckerman_2021]
+
+### Commercial Sources
+
+- "ACCC Fake Reviews Guidance." n.d. Accessed October 25, 2026. [https://www.accc.gov.au/business/advertising-and-promotions/online-reviews][ref_accc_fake_reviews_guidance]
+- "Amazon v Fake Review Brokers." 2022. [https://www.aboutamazon.com/news/policy-news-views/amazon-continues-legal-action-against-fake-review-brokers][ref_amazon_v_fake_review_brokers_2022]
+- "DFRLab Reports on Coordinated Inauthentic Behavior." n.d. Accessed October 25, 2026. [https://dfrlab.org/][ref_dfrlab_reports]
+- "Meta Adversarial Threat Report." n.d. Accessed October 25, 2026. [https://about.fb.com/news/tag/adversarial-threat-report/][ref_meta_atr]
+- "Meta Coordinated Inauthentic Behavior Policy." n.d. Accessed October 25, 2026. [https://transparency.meta.com/policies/community-standards/inauthentic-behavior/][ref_meta_cib_policy]
+- "NY Attorney General People v Lifestyle Lift." 2013. [https://ag.ny.gov/press-release/2013/ag-schneiderman-announces-agreement-19-companies-cease-writing-fake-online-reviews][ref_ny_ag_lifestyle_lift_2013]
+- "NY Attorney General v Devumi." 2019. [https://ag.ny.gov/press-release/2019/attorney-general-james-announces-groundbreaking-settlement-devumi-owner-german][ref_ny_ag_devumi_2019]
+- OpenAI ChatGPT. 2022. "Introducing ChatGPT." Accessed October 25, 2026. [https://openai.com/index/chatgpt/][ref_openai_chatgpt_2022]
+- OpenAI GPT-4. 2023. "GPT-4." Accessed October 25, 2026. [https://openai.com/index/gpt-4-research/][ref_openai_gpt4_2023]
+- "Overview \| Claude." n.d. Accessed October 25, 2026. [https://www.anthropic.com/claude][ref_anthropic_claude]
+- "TikTok Community Guidelines Enforcement Report." n.d. Accessed October 25, 2026. [https://www.tiktok.com/transparency/en/community-guidelines-enforcement/][ref_tiktok_transparency_report]
+- "Transparency Report 2017." n.d. Accessed October 25, 2026. [https://www.redditinc.com/policies/transparency-report][ref_reddit_transparency_report]
+- "Twitter Election Integrity Dataset Archive." n.d. Accessed October 25, 2026. [https://transparency.twitter.com/en/reports/moderation-research.html][ref_twitter_election_integrity]
+- "YouTube Community Guidelines Enforcement Report." n.d. Accessed October 25, 2026. [https://transparencyreport.google.com/youtube-policy/removals][ref_youtube_transparency_report]
+
+### General Sources
+
+- "Amazon Community Guidelines." n.d. Accessed October 25, 2026. [https://www.amazon.com/gp/help/customer/display.html?nodeId=GLHXEX85MENUE4XF][ref_amazon_community_guidelines]
+- "Amazon Reviews Dataset." n.d. Accessed October 25, 2026. [https://amazon-reviews-2023.github.io/][ref_amazon_reviews_dataset]
+- "Australian Privacy Principles." 2023. OAIC, March 10. [https://www.oaic.gov.au/privacy/australian-privacy-principles][ref_oaic_australian_privacy_principles]
+- Balkin. 2018. "Free Speech is a Triangle." [https://www.uclawreview.org/2018/12/free-speech-is-a-triangle/][research_balkin_2018]
+- Berelson. 1948. "Communications and Public Opinion." [https://www.jstor.org/stable/2745835][research_berelson_1948]
+- "Botometer Bot Detection Database." n.d. Accessed October 25, 2026. [https://botometer.osome.iu.edu/][ref_botometer]
+- Bradshaw, Bailey, and Howard. 2021. "DemTech \| Industrialized Disinformation: 2020 Global Inventory of Organized Social Media Manipulation." Accessed October 25, 2026. [https://demtech.oii.ox.ac.uk/research/posts/industrialized-disinformation/][research_bradshaw_bailey_howard_2021]
+- Bradshaw and Howard. 2019. "DemTech \| the Global Disinformation Order: 2019 Global Inventory of Organised Social Media Manipulation." Accessed October 25, 2026. [https://demtech.oii.ox.ac.uk/research/posts/the-global-disinformation-order-2019-global-inventory-of-organised-social-media-manipulation/][research_bradshaw_howard_2019]
+- Buterin. 2014. "Ethereum Whitepaper." [https://ethereum.org/en/whitepaper/][ref_buterin_2014_ethereum]
+- "Byoir Papers 1930-." 1955. [https://briscoecenter.org/collections/carl-byoir/][ref_byoir_1930_1955]
+- "China Cyberspace Administration Deep Synthesis Regulations." 2023. [https://www.chinalawtranslate.com/en/deep-synthesis/][ref_china_cac_deepfake_2023]
+- DiResta, Renee, Kris Shaffer, Becky Ruppel, et al. 2019. "The Tactics & Tropes of the Internet Research Agency." DigitalCommons@University of Nebraska - Lincoln. Accessed October 25, 2026. [https://digitalcommons.unl.edu/senatedocs/2/][research_diresta_et_al_2019]
+- "France Loi Avia." 2020. [https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042031970/][ref_france_loi_avia_2020]
+- "Google Search Quality Rater Guidelines." n.d. Accessed October 25, 2026. [https://services.google.com/fh/files/misc/hsw-sqrg.pdf][ref_google_srg]
+- Greif. 1993. "Contract Enforceability and Economic Institutions in Early Trade: The Maghribi Traders' Coalition on JSTOR." Accessed October 25, 2026. [https://www.jstor.org/stable/2117532][research_greif_1993]
+- "India IT Intermediary Guidelines." 2021. [https://www.meity.gov.in/content/notification-dated-25th-february-2021-gsr-139e-information-technology-intermediary][ref_india_it_rules_2021]
+- Klonick. 2018. "The New Governors." [https://harvardlawreview.org/2018/04/the-new-governors-the-people-rules-and-processes-governing-online-speech/][research_klonick_2018]
+- Kumar. 2017. "Understanding Rating Distributions." [https://cs.stanford.edu/~srijan/pubs/rev2-wsdm18.pdf][research_kumar_et_al_2017]
+- "L12965." 2014. Accessed October 25, 2026. [https://www.planalto.gov.br/ccivil\_03/\_ato2011-2014/2014/lei/l12965.htm][ref_brazil_marco_civil_2014]
+- Ma. 2013. "The Signaling Effect of Online Reviews." [https://misq.umn.edu/the-signaling-effect-of-online-reviews.html][research_ma_et_al_2013]
+- "Meta Llama." n.d. Accessed October 25, 2026. [https://ai.meta.com/llama/][ref_meta_llama]
+- Mueller Report. 2019. "Volume One." [https://www.justice.gov/archives/sco/file/1373816/download][ref_mueller_report_2019]
+- Nakamoto. 2008. "Bitcoin Whitepaper." [https://bitcoin.org/bitcoin.pdf][ref_nakamoto_2008_bitcoin]
+- "PRSA Code of Ethics." 1906. www. Accessed October 25, 2026. [https://www.prsa.org/about/ethics/][ref_ivy_lee_declaration_1906]
+- "Retraction Watch Database." n.d. Accessed October 25, 2026. [https://retractionwatch.com/][ref_retraction_watch]
+- Simon. 1971. "Designing Organizations for an Information-Rich World." [https://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=33748][research_simon_1971]
+- Singapore, Protection, from, et al. 2019. "Protection from Online Falsehoods and Manipulation Act 2019: Singapore Statutes Online." Accessed October 25, 2026. [https://sso.agc.gov.sg/Act/POFMA2019][ref_singapore_pofma_2019]
+- "Stanford Internet Observatory Data Catalog." n.d. Accessed October 25, 2026. [https://cyber.fsi.stanford.edu/io][ref_stanford_internet_observatory]
+- "UK CMA Fake Reviews Action." n.d. Accessed October 25, 2026. [https://www.gov.uk/government/collections/fake-online-reviews-cma-action][ref_uk_cma_fake_reviews]
+- Van Noorden. 2020. "Nature Investigates Citation Manipulation." [https://www.nature.com/articles/d41586-020-02218-3][research_van_noorden_2020]
+- Wardle and Derakhshan. 2017. "Information Disorder." [https://rm.coe.int/information-disorder-report-november-2017/1680764666][research_wardle_derakhshan_2017]
+- World Economic Forum. 2021. "Report on Fake Reviews." [https://www.weforum.org/agenda/2021/07/fake-online-reviews-are-a-25-billion-problem/][ref_wef_2021_fake_reviews]
+- "Yelp Open Dataset." n.d. Accessed October 25, 2026. [https://www.yelp.com/dataset][ref_yelp_open_dataset]
+
+### Tertiary Sources
+
+- "Wikipedia:Wikipedia Signpost." 2026. Wikipedia. Last modified July 13, at 19:20 (UTC). [https://en.wikipedia.org/w/index.php?title=Wikipedia%3AWikipedia\_Signpost&oldid=1363985477][ref_wikipedia_signpost]
 
 [book_applegate_2012]: https://global.oup.com/academic/product/the-rise-of-advertising-in-the-united-states-9780810881785
 [book_aral_2020]: https://us.macmillan.com/books/9780525574514/thehypemachine
@@ -785,7 +796,7 @@ These questions recur throughout the miniseries and are revisited in the closing
 [book_epstein_prak_2008]: https://www.cambridge.org/9780521887175
 [book_ewen_1996]: https://www.basicbooks.com/titles/stuart-ewen/pr/9780465061792/
 [book_farkas_schou_2019]: https://www.routledge.com/Post-Truth-Fake-News-and-Democracy-Mapping-the-Politics-of-Falsehood/Farkas-Schou/p/book/9781138336773
-[book_fisher_fuchs_2015]: https://link.springer.com/book/10.1057/9781137478573
+[book_fisher_fuchs_2015]: https://doi.org/10.1057/9781137478573
 [book_fombrun_1996]: https://www.hbsp.harvard.edu/product/6749-HBK-ENG
 [book_fuchs_2014]: https://uk.sagepub.com/en-gb/eur/social-media/book282566
 [book_fukuyama_1995]: https://www.simonandschuster.com/books/Trust/Francis-Fukuyama/9780684825250
@@ -865,7 +876,7 @@ These questions recur throughout the miniseries and are revisited in the closing
 [ref_eu_dsa_2022]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065
 [ref_eu_ucpd_2005_29_ec]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32005L0029
 [ref_force_v_facebook_2019]: https://www.ca2.uscourts.gov/decisions/isysquery/2c50f8ea-4b6f-4c0f-b8ec-92f6c2d80a26/1/doc/18-397_opn.pdf
-[ref_fosta_sesta_2018]: https://www.congress.gov/bill/115th-congress/house-bill/1865
+[ref_fosta_sesta_2018]: https://scholar.google.com/scholar?q=Section+230+Amendment+FOSTA-SESTA+2018
 [ref_france_loi_avia_2020]: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042031970/
 [ref_ftc_act_15_usc_45]: https://www.law.cornell.edu/uscode/text/15/45
 [ref_ftc_cure_encapsulations_2019]: https://www.ftc.gov/legal-library/browse/cases-proceedings/172-3117-cure-encapsulations-inc
@@ -910,92 +921,92 @@ These questions recur throughout the miniseries and are revisited in the closing
 [ref_uk_cma_fake_reviews]: https://www.gov.uk/government/collections/fake-online-reviews-cma-action
 [ref_uk_online_safety_act_2023]: https://www.legislation.gov.uk/ukpga/2023/50/contents
 [ref_wef_2021_fake_reviews]: https://www.weforum.org/agenda/2021/07/fake-online-reviews-are-a-25-billion-problem/
-[ref_wikipedia_signpost]: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost
+[ref_wikipedia_signpost]: https://en.wikipedia.org/w/index.php?title=Wikipedia%3AWikipedia_Signpost&oldid=1363985477
 [ref_yelp_open_dataset]: https://www.yelp.com/dataset
 [ref_youtube_transparency_report]: https://transparencyreport.google.com/youtube-policy/removals
 [ref_zeran_v_aol_1997]: https://law.justia.com/cases/federal/appellate-courts/F3/129/327/565056/
-[research_adamic_adar_2003]: https://www.sciencedirect.com/science/article/abs/pii/S0378873303000091
-[research_adamic_huberman_2000]: https://firstmonday.org/ojs/index.php/fm/article/view/1298
-[research_akerlof_1970]: https://academic.oup.com/qje/article/84/3/488/1896241
-[research_athey_castillo_chandar_2019]: https://www.nber.org/papers/w26346
-[research_ba_pavlou_2002]: https://www.jstor.org/stable/4132332
+[research_adamic_adar_2003]: https://doi.org/10.1016/s0378-8733(03)00009-1
+[research_adamic_huberman_2000]: https://doi.org/10.1126/science.287.5461.2115a
+[research_akerlof_1970]: https://doi.org/10.2307/1879431
+[research_athey_castillo_chandar_2019]: https://scholar.google.com/scholar?q=The+Allocation+of+Scarce+Attention+Athey+Castillo+Chandar+2019
+[research_ba_pavlou_2002]: https://doi.org/10.2307/4132332
 [research_balkin_2018]: https://www.uclawreview.org/2018/12/free-speech-is-a-triangle/
-[research_banerjee_1992]: https://academic.oup.com/qje/article-abstract/107/3/797/1873015
-[research_barabasi_albert_1999]: https://www.science.org/doi/10.1126/science.286.5439.509
-[research_bass_1969]: https://pubsonline.informs.org/doi/10.1287/mnsc.15.5.215
+[research_banerjee_1992]: https://doi.org/10.2307/2118364
+[research_barabasi_albert_1999]: https://doi.org/10.1126/science.286.5439.509
+[research_bass_1969]: https://doi.org/10.1287/mnsc.15.5.215
 [research_berelson_1948]: https://www.jstor.org/stable/2745835
-[research_bergemann_morris_2019]: https://www.aeaweb.org/articles?id=10.1257/jel.20181489
-[research_bessi_ferrara_2016]: https://firstmonday.org/ojs/index.php/fm/article/view/7090
-[research_bikhchandani_hirshleifer_welch_1992]: https://www.jstor.org/stable/2138632
-[research_bolton_katok_ockenfels_2004]: https://pubsonline.informs.org/doi/10.1287/mnsc.1030.0199
+[research_bergemann_morris_2019]: https://doi.org/10.1257/jel.20181489
+[research_bessi_ferrara_2016]: https://doi.org/10.5210/fm.v21i11.7090
+[research_bikhchandani_hirshleifer_welch_1992]: https://doi.org/10.1086/261849
+[research_bolton_katok_ockenfels_2004]: https://doi.org/10.1287/mnsc.1030.0199
 [research_bradshaw_bailey_howard_2021]: https://demtech.oii.ox.ac.uk/research/posts/industrialized-disinformation/
 [research_bradshaw_howard_2019]: https://demtech.oii.ox.ac.uk/research/posts/the-global-disinformation-order-2019-global-inventory-of-organised-social-media-manipulation/
-[research_cabral_2012]: https://academic.oup.com/oxrep/article/28/4/730/436538
-[research_chevalier_mayzlin_2006]: https://www.jstor.org/stable/30162548
-[research_cho_et_al_2011]: https://journals.sagepub.com/doi/10.1177/0894439310396571
-[research_chu_et_al_2012]: https://ieeexplore.ieee.org/document/6280553
-[research_craswell_et_al_2008]: https://dl.acm.org/doi/10.1145/1341531.1341545
-[research_cresci_2020]: https://cacm.acm.org/magazines/2020/10/247594-a-decade-of-social-bot-detection/
-[research_cresci_et_al_2017]: https://dl.acm.org/doi/10.1145/3041021.3055135
-[research_darby_karni_1973]: https://www.jstor.org/stable/725058
-[research_dellarocas_2003]: https://pubsonline.informs.org/doi/10.1287/mnsc.49.10.1407.17308
-[research_demicheli_stroppa_2013]: https://arxiv.org/abs/1309.7889
+[research_cabral_2012]: https://doi.org/10.1093/oxfordhb/9780195397840.013.0013
+[research_chevalier_mayzlin_2006]: https://doi.org/10.1509/jmkr.43.3.345
+[research_cho_et_al_2011]: https://doi.org/10.1007/s10551-011-0950-6
+[research_chu_et_al_2012]: https://doi.org/10.1109/tdsc.2012.75
+[research_craswell_et_al_2008]: https://doi.org/10.1145/1341531.1341545
+[research_cresci_2020]: https://doi.org/10.1145/3409116
+[research_cresci_et_al_2017]: https://doi.org/10.1145/3041021.3055135
+[research_darby_karni_1973]: https://doi.org/10.1086/466756
+[research_dellarocas_2003]: https://doi.org/10.1287/mnsc.49.10.1407.17308
+[research_demicheli_stroppa_2013]: https://scholar.google.com/scholar?q=Twitter+and+the+Underground+Market+De+Micheli+Stroppa+2013
 [research_diresta_et_al_2019]: https://digitalcommons.unl.edu/senatedocs/2/
-[research_douek_2021]: https://harvardlawreview.org/2021/06/governing-online-speech-from-posts-as-trumps-to-proportionality-and-probability/
-[research_feng_et_al_2021]: https://arxiv.org/abs/2109.05939
-[research_ferrara_et_al_2016]: https://dl.acm.org/doi/10.1145/2818717
-[research_fudenberg_levine_1992]: https://www.jstor.org/stable/2298058
-[research_goldstein_et_al_2023]: https://arxiv.org/abs/2301.04246
-[research_granovetter_1985]: https://www.jstor.org/stable/2780199
+[research_douek_2021]: https://doi.org/10.2139/ssrn.3679607
+[research_feng_et_al_2021]: https://scholar.google.com/scholar?q=Analyzing+Fake+Reviews+on+Google+Maps+Feng+2021
+[research_ferrara_et_al_2016]: https://doi.org/10.1145/2818717
+[research_fudenberg_levine_1992]: https://doi.org/10.2307/2297864
+[research_goldstein_et_al_2023]: https://doi.org/10.48550/arxiv.2301.04246
+[research_granovetter_1985]: https://doi.org/10.1086/228311
 [research_greif_1993]: https://www.jstor.org/stable/2117532
-[research_grinberg_et_al_2019]: https://www.science.org/doi/10.1126/science.aau2706
-[research_he_hollenbeck_proserpio_2022]: https://pubsonline.informs.org/doi/10.1287/mksc.2022.1353
-[research_kamenica_gentzkow_2011]: https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2590
-[research_kirchenbauer_et_al_2023]: https://arxiv.org/abs/2301.10226
-[research_klein_leffler_1981]: https://www.jstor.org/stable/1837524
-[research_kleinberg_1999]: https://dl.acm.org/doi/10.1145/324133.324140
-[research_kleinberg_2000]: https://www.nature.com/articles/35022643
+[research_grinberg_et_al_2019]: https://doi.org/10.1126/science.aau2706
+[research_he_hollenbeck_proserpio_2022]: https://doi.org/10.1287/mksc.2022.1353
+[research_kamenica_gentzkow_2011]: https://doi.org/10.1257/aer.101.6.2590
+[research_kirchenbauer_et_al_2023]: https://doi.org/10.48550/arxiv.2301.10226
+[research_klein_leffler_1981]: https://doi.org/10.1086/260996
+[research_kleinberg_1999]: https://doi.org/10.1145/324133.324140
+[research_kleinberg_2000]: https://doi.org/10.1038/35022643
 [research_klonick_2018]: https://harvardlawreview.org/2018/04/the-new-governors-the-people-rules-and-processes-governing-online-speech/
-[research_konieczny_2010]: https://journals.sagepub.com/doi/10.1177/1461444809342738
-[research_kreps_wilson_1982]: https://www.jstor.org/stable/1912538
+[research_konieczny_2010]: https://scholar.google.com/scholar?q=Governance+Adhocracy+and+Wikipedia+Konieczny+2010
+[research_kreps_wilson_1982]: https://doi.org/10.1016/0022-0531(82)90030-8
 [research_kumar_et_al_2017]: https://cs.stanford.edu/~srijan/pubs/rev2-wsdm18.pdf
-[research_luca_zervas_2016]: https://pubsonline.informs.org/doi/10.1287/mnsc.2015.2304
+[research_luca_zervas_2016]: https://doi.org/10.1287/mnsc.2015.2304
 [research_ma_et_al_2013]: https://misq.umn.edu/the-signaling-effect-of-online-reviews.html
-[research_marwick_boyd_2011]: https://journals.sagepub.com/doi/10.1177/1461444810365313
-[research_marwick_lewis_2017]: https://datasociety.net/library/media-manipulation-and-disinfo-online/
-[research_mayzlin_dover_chevalier_2014]: https://www.aeaweb.org/articles?id=10.1257/aer.104.8.2421
-[research_milgrom_roberts_1986]: https://www.jstor.org/stable/1833272
-[research_mukherjee_et_al_2013]: https://ojs.aaai.org/index.php/ICWSM/article/view/14380
-[research_myerson_1981]: https://pubsonline.informs.org/doi/10.1287/moor.6.1.58
+[research_marwick_boyd_2011]: https://doi.org/10.1177/1461444810365313
+[research_marwick_lewis_2017]: https://doi.org/10.69985/qpaf6919
+[research_mayzlin_dover_chevalier_2014]: https://doi.org/10.1257/aer.104.8.2421
+[research_milgrom_roberts_1986]: https://doi.org/10.1086/261408
+[research_mukherjee_et_al_2013]: https://scholar.google.com/scholar?q=What+Yelp+Fake+Review+Filter+Might+Be+Doing+Mukherjee+2013
+[research_myerson_1981]: https://doi.org/10.1287/moor.6.1.58
 [research_ott_et_al_2011]: https://aclanthology.org/P11-1032/
-[research_page_brin_1998]: http://infolab.stanford.edu/~backrub/google.html
-[research_papakyriakopoulos_et_al_2020]: https://dl.acm.org/doi/10.1145/3392866
-[research_pareto_1897]: https://archive.org/details/coursdeconomiep00pare
-[research_persily_2017]: https://www.journalofdemocracy.org/articles/can-democracy-survive-the-internet/
-[research_rauchfleisch_kaiser_2020]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0241045
-[research_rayana_akoglu_2015]: https://dl.acm.org/doi/10.1145/2783258.2783370
-[research_resnick_et_al_2000]: https://dl.acm.org/doi/10.1145/355112.355122
-[research_rochet_tirole_2003]: https://www.jstor.org/stable/40005933
-[research_rysman_2009]: https://www.aeaweb.org/articles?id=10.1257/jep.23.3.125
-[research_sadasivan_et_al_2023]: https://arxiv.org/abs/2303.11156
-[research_salganik_dodds_watts_2006]: https://www.science.org/doi/10.1126/science.1121066
-[research_shapiro_1983]: https://academic.oup.com/qje/article/98/4/659/1873941
+[research_page_brin_1998]: https://doi.org/10.1016/s0169-7552(98)00110-x
+[research_papakyriakopoulos_et_al_2020]: https://doi.org/10.1016/j.osnem.2019.100058
+[research_pareto_1897]: https://doi.org/10.2307/2956966
+[research_persily_2017]: https://doi.org/10.1353/jod.2017.0025
+[research_rauchfleisch_kaiser_2020]: https://doi.org/10.1371/journal.pone.0241045
+[research_rayana_akoglu_2015]: https://doi.org/10.1145/2783258.2783370
+[research_resnick_et_al_2000]: https://doi.org/10.1145/355112.355122
+[research_rochet_tirole_2003]: https://doi.org/10.1162/154247603322493212
+[research_rysman_2009]: https://doi.org/10.1257/jep.23.3.125
+[research_sadasivan_et_al_2023]: https://doi.org/10.48550/arxiv.2303.11156
+[research_salganik_dodds_watts_2006]: https://doi.org/10.1126/science.1121066
+[research_shapiro_1983]: https://doi.org/10.2307/1881782
 [research_simon_1971]: https://digitalcollections.library.cmu.edu/awweb/awarchive?type=file&item=33748
-[research_sohail_et_al_2024]: https://arxiv.org/abs/2402.01697
-[research_spence_1973]: https://academic.oup.com/qje/article/87/3/355/1885359
-[research_stigler_1971]: https://www.jstor.org/stable/3003160
-[research_tirole_1996]: https://academic.oup.com/restud/article/63/1/1/1567526
-[research_tversky_kahneman_1974]: https://www.science.org/doi/10.1126/science.185.4157.1124
-[research_uzzi_1997]: https://www.jstor.org/stable/2393808
+[research_sohail_et_al_2024]: https://scholar.google.com/scholar?q=Detection+of+Large-Language-Model+Generated+Reviews+Sohail+2024
+[research_spence_1973]: https://doi.org/10.2307/1882010
+[research_stigler_1971]: https://doi.org/10.2307/3003160
+[research_tirole_1996]: https://doi.org/10.2307/2298112
+[research_tversky_kahneman_1974]: https://doi.org/10.1126/science.185.4157.1124
+[research_uzzi_1997]: https://doi.org/10.2307/2393808
 [research_van_noorden_2020]: https://www.nature.com/articles/d41586-020-02218-3
-[research_varol_et_al_2017]: https://ojs.aaai.org/index.php/ICWSM/article/view/14871
-[research_vosoughi_roy_aral_2018]: https://www.science.org/doi/10.1126/science.aap9559
+[research_varol_et_al_2017]: https://doi.org/10.1609/icwsm.v11i1.14871
+[research_vosoughi_roy_aral_2018]: https://doi.org/10.1126/science.aap9559
 [research_wardle_derakhshan_2017]: https://rm.coe.int/information-disorder-report-november-2017/1680764666
-[research_watts_2002]: https://www.pnas.org/doi/10.1073/pnas.082090499
-[research_watts_strogatz_1998]: https://www.nature.com/articles/30918
-[research_weyl_ohlhaver_buterin_2022]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763
-[research_wu_et_al_2020]: https://www.sciencedirect.com/science/article/pii/S014829631930464X
-[research_yang_et_al_2020]: https://onlinelibrary.wiley.com/doi/10.1002/hbe2.115
-[research_yang_menczer_2024]: https://arxiv.org/abs/2307.16336
-[research_zargham_nabben_2022]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4077249
-[research_zellers_et_al_2019]: https://arxiv.org/abs/1905.12616
+[research_watts_2002]: https://doi.org/10.1073/pnas.082090499
+[research_watts_strogatz_1998]: https://doi.org/10.1038/30918
+[research_weyl_ohlhaver_buterin_2022]: https://doi.org/10.2139/ssrn.4105763
+[research_wu_et_al_2020]: https://doi.org/10.1016/j.dss.2020.113280
+[research_yang_et_al_2020]: https://doi.org/10.1002/hbe2.115
+[research_yang_menczer_2024]: https://doi.org/10.48550/arxiv.2307.16336
+[research_zargham_nabben_2022]: https://scholar.google.com/scholar?q=Aligning+Intent+and+Behavior+in+Web3+Zargham+Nabben+2022
+[research_zellers_et_al_2019]: https://doi.org/10.48550/arxiv.1905.12616

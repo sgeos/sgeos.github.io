@@ -186,11 +186,11 @@ Outside the gaming industry and the integrated resort template it exports, Las V
 
 ## US Domestic Competition
 
-Tribal gaming under the Indian Gaming Regulatory Act of 1988, Public Law 100-497 codified at 25 USC chapter 29, has grown from approximately \\$121 million in 1988 to approximately \\$41.8 billion in 2023, approaching total US commercial casino gaming revenue of approximately \\$66.5 billion in 2024. Tribal and commercial together define a US gaming market above \\$100 billion in annual gross revenue [IGRA 1988][ref_igra_1988] [NIGA Report][ref_niga_report] [AGA State of the States 2024][ref_aga_report]. California tribal casinos alone generate approximately \\$9 billion annually, drawing from the Los Angeles and Bay Area drive markets that once fed Las Vegas. Arizona tribal casinos generate approximately \\$2.5 billion annually. New Mexico tribal casinos and Oklahoma tribal casinos each generate over \\$2 billion. The regional competition has substantially reduced the drive-market catchment for casual gamblers from the western United States who once traveled to Las Vegas primarily for gambling.
+Tribal gaming under the Indian Gaming Regulatory Act of 1988, Public Law 100-497 codified at 25 USC chapter 29, has grown from approximately \\$121 million in 1988 to approximately \\$41.8 billion in 2023, approaching total US commercial casino gaming revenue of approximately \\$66.5 billion in 2024. Tribal and commercial together define a US gaming market above \\$100 billion in annual gross revenue [IGRA 1988][ref_igra_1988] [NIGA Report][ref_niga_report] [State of the States 2024][ref_aga_report]. California tribal casinos alone generate approximately \\$9 billion annually, drawing from the Los Angeles and Bay Area drive markets that once fed Las Vegas. Arizona tribal casinos generate approximately \\$2.5 billion annually. New Mexico tribal casinos and Oklahoma tribal casinos each generate over \\$2 billion. The regional competition has substantially reduced the drive-market catchment for casual gamblers from the western United States who once traveled to Las Vegas primarily for gambling.
 
-Commercial casino expansion outside Nevada has been similarly rapid. Pennsylvania authorized casinos in 2004 and reached approximately \\$5.5 billion in 2024 gaming revenue, second only to Nevada among states. Michigan, Ohio, Indiana, Missouri, Illinois, Louisiana, Maryland, and New Jersey each generate over \\$2 billion annually in commercial gaming revenue [AGA State of the States 2024][ref_aga_report]. The New York downstate license process concluding in 2025 authorizes three new commercial casinos in the New York City metropolitan area, further reducing the incentive for East Coast residents to travel to Las Vegas for gambling.
+Commercial casino expansion outside Nevada has been similarly rapid. Pennsylvania authorized casinos in 2004 and reached approximately \\$5.5 billion in 2024 gaming revenue, second only to Nevada among states. Michigan, Ohio, Indiana, Missouri, Illinois, Louisiana, Maryland, and New Jersey each generate over \\$2 billion annually in commercial gaming revenue [State of the States 2024][ref_aga_report]. The New York downstate license process concluding in 2025 authorizes three new commercial casinos in the New York City metropolitan area, further reducing the incentive for East Coast residents to travel to Las Vegas for gambling.
 
-Online sports betting and iGaming represent the most recent structural change. The Supreme Court's 2018 decision in Murphy v. National Collegiate Athletic Association struck down the Professional and Amateur Sports Protection Act of 1992 on Tenth Amendment anticommandeering grounds, opening state-by-state legalization of sports betting [Murphy v NCAA 2018][ref_murphy_ncaa_2018]. By early 2026, thirty-nine states plus the District of Columbia have legal sports betting, generating approximately \\$13.7 billion in gross revenue in 2024. Online casino gaming is legal in seven states generating approximately \\$8.5 billion in 2024 [AGA State of the States 2024][ref_aga_report]. The share of gambling activity that must occur physically in Las Vegas has correspondingly declined.
+Online sports betting and iGaming represent the most recent structural change. The Supreme Court's 2018 decision in Murphy v. National Collegiate Athletic Association struck down the Professional and Amateur Sports Protection Act of 1992 on Tenth Amendment anticommandeering grounds, opening state-by-state legalization of sports betting [Murphy v NCAA 2018][ref_murphy_ncaa_2018]. By early 2026, thirty-nine states plus the District of Columbia have legal sports betting, generating approximately \\$13.7 billion in gross revenue in 2024. Online casino gaming is legal in seven states generating approximately \\$8.5 billion in 2024 [State of the States 2024][ref_aga_report]. The share of gambling activity that must occur physically in Las Vegas has correspondingly declined.
 
 ## Forward Projection
 
@@ -237,67 +237,69 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Denton and Morris 2001][book_denton_morris_2001]
-- [Earley 2000][book_earley_2000]
-- [Findlay 1986][book_findlay_1986]
-- [Fleck 2016][book_fleck_2016]
-- [Moehring 2000][book_moehring_2000]
-- [Reid and Demaris 1963][book_reid_demaris_1963]
-- [Reisner 1986][book_reisner_1986]
-- [Rothman 2002][book_rothman_2002]
-- [Schwartz 2003][book_schwartz_2003]
-- [Schwartz 2006][book_schwartz_roll_2006]
-- [Wilkerson 2000][book_wilkerson_2000]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- Eadington, William R. 1999. "The Economics of Casino Gambling." *Journal of Economic Perspectives* 13 (3): 173–92. [https://doi.org/10.1257/jep.13.3.173][research_eadington_1999]
+- "Las Vegas Sands 10-K." n.d. Accessed October 25, 2026. [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001300514&type=10-K&dateb=&owner=include&count=40][ref_lvs_10k]
+- "MGM 10-K." 2013. [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789570&type=10-K&dateb=20140101&owner=include&count=40][ref_mgm_10k_2013]
+- "MGM 10-K." 2024. [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789570&type=10-K&dateb=&owner=include&count=40][ref_mgm_10k_2024]
+- "Murphy v NCAA." 2018. [https://www.supremecourt.gov/opinions/17pdf/16-476\_dbfi.pdf][ref_murphy_ncaa_2018]
+- "Sphere Entertainment 10-K." n.d. Accessed October 25, 2026. [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001874482&type=10-K&dateb=&owner=include&count=40][ref_msg_sphere_10k]
+- "U.S. Census Bureau QuickFacts: Las Vegas City, Nevada." n.d. Census Bureau QuickFacts. Accessed October 25, 2026. [https://www.census.gov/quickfacts/lasvegascitynevada][ref_census_bureau]
+- "Wynn Resorts 10-K." n.d. Accessed October 25, 2026. [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001174922&type=10-K&dateb=&owner=include&count=40][ref_wynn_10k]
 
-- [Asia Gaming Brief][ref_agb_briefings]
-- [AGA State of the States 2024][ref_aga_report]
-- [Gambling Participation Survey][ref_agrs_survey]
-- [US BEA Regional][ref_bea_regional]
-- [US BLS QCEW][ref_bls_qcew]
-- [Attom Foreclosure Data][ref_attom_foreclosure]
-- [US Bureau of Reclamation][ref_bureau_reclamation]
-- [US Census Bureau][ref_census_bureau]
-- [Boring Company Vegas Loop][ref_boring_loop]
-- [Brightline West][ref_brightline_west]
-- [Case-Shiller Las Vegas][ref_case_shiller_lv]
-- [CBRE Las Vegas][ref_cbre_las_vegas]
-- [Colorado River Compact 1922][ref_colorado_compact_1922]
-- [Culinary Workers Union Local 226][ref_culinary_226]
-- [Harry Reid International Airport][ref_lasairport]
-- [IGRA 1988][ref_igra_1988]
-- [IPCC AR6 WGII Ch 14][ref_ipcc_ar6_wg2]
-- [Kefauver 1951][ref_kefauver_1951]
-- [Las Vegas Review-Journal][ref_las_vegas_review_journal]
-- [Liberty Media 10-K][ref_liberty_media_10k]
-- [LVCVA Annual Reports][ref_lvcva_annual]
-- [Las Vegas Sands 10-K][ref_lvs_10k]
-- [Macau DICJ][ref_macau_dicj]
-- [MGM 10-K 2013][ref_mgm_10k_2013]
-- [MGM 10-K 2024][ref_mgm_10k_2024]
-- [Sphere Entertainment 10-K][ref_msg_sphere_10k]
-- [Murphy v NCAA 2018][ref_murphy_ncaa_2018]
-- [Nevada Gaming Control Board][ref_nevada_gcb]
-- [NIGA Report][ref_niga_report]
-- [Nevada Department of Taxation][ref_nv_dor]
-- [Nevada GOED][ref_nv_goed]
-- [NOAA NWS Las Vegas][ref_noaa_las_vegas]
-- [Nevada Revised Statutes 463][ref_nrs_463]
-- [SNWA Water Resource Plan][ref_snwa_report]
-- [Stanton 2020][ref_stanton_2020]
-- [Tesla Nevada][ref_tesla_nevada]
-- [TSMC Arizona][ref_tsmc_arizona]
-- [UNLV Center for Gaming Research][ref_unlv_cgr]
-- [Wynn Resorts 10-K][ref_wynn_10k]
+### Secondary Sources
 
-### Research
+- Denton and Morris. 2001. *\[Title not identified\]*. [https://www.penguinrandomhouse.com/books/59015/the-money-and-the-power-by-sally-denton-and-roger-morris/][book_denton_morris_2001]
+- Earley. 2000. *\[Title not identified\]*. [https://www.penguinrandomhouse.com/books/59014/super-casino-by-pete-earley/][book_earley_2000]
+- Findlay. 1986. *\[Title not identified\]*. [https://global.oup.com/academic/product/people-of-chance-9780195055016][book_findlay_1986]
+- Fleck. 2016. *\[Title not identified\]*. [https://islandpress.org/books/water-fighting-over][book_fleck_2016]
+- Moehring, Eugene P. 2000. *Resort City in the Sunbelt: Las Vegas, 1930-2000*. University of Nevada Press. [https://unpress.nevada.edu/9780874173567/resort-city-in-the-sunbelt-second-edition/][book_moehring_2000]
+- Reid and Demaris. 1963. *\[Title not identified\]*. [https://www.worldcat.org/title/green-felt-jungle/oclc/577895][book_reid_demaris_1963]
+- Reisner. 1986. *\[Title not identified\]*. [https://www.penguinrandomhouse.com/books/56276/cadillac-desert-by-marc-reisner/][book_reisner_1986]
+- Rothman, Hal. 2002. *Neon Metropolis: How Las Vegas Started the Twenty-First Century*. Routledge. [https://www.routledge.com/Neon-Metropolis-How-Las-Vegas-Started-the-Twenty-First-Century/Rothman/p/book/9780415926126][book_rothman_2002]
+- Schwartz, David G. 2003. *Suburban Xanadu: The Casino Resort on the Las Vegas Strip and Beyond*. Routledge. [https://www.routledge.com/Suburban-Xanadu-The-Casino-Resort-on-the-Las-Vegas-Strip-and-Beyond/Schwartz/p/book/9780415935562][book_schwartz_2003]
+- Schwartz. 2006. *\[Title not identified\]*. [https://www.penguinrandomhouse.com/books/294024/roll-the-bones-by-david-g-schwartz/][book_schwartz_roll_2006]
+- Wilkerson. 2000. *\[Title not identified\]*. [https://www.worldcat.org/title/man-who-invented-las-vegas/oclc/44628988][book_wilkerson_2000]
 
-- [Borg Mason Shapiro 2015][research_borg_2015]
-- [Eadington 1999][research_eadington_1999]
-- [Walker 2007][research_walker_2007]
+### General Sources
+
+- "Asia Gaming Brief." n.d. Accessed October 25, 2026. [https://agbrief.com/][ref_agb_briefings]
+- "Attom Foreclosure Data." n.d. Accessed October 25, 2026. [https://www.attomdata.com/data/foreclosure-data/][ref_attom_foreclosure]
+- Borg, Mason, and Shapiro. 2015. "\[Title not identified\]." Accessed October 25, 2026. [https://onlinelibrary.wiley.com/doi/10.1111/ajes.12123][research_borg_2015]
+- "Brightline West." n.d. Accessed October 25, 2026. [https://www.gobrightline.com/west][ref_brightline_west]
+- "CBRE Las Vegas." n.d. Accessed October 25, 2026. [https://www.cbre.com/insights/figures/las-vegas-office-figures][ref_cbre_las_vegas]
+- "Colorado River Compact." 1922. [https://www.usbr.gov/lc/region/pao/pdfiles/crcompct.pdf][ref_colorado_compact_1922]
+- "Culinary Workers Union Local 226." n.d. Culinary Union Local 226. Accessed October 25, 2026. [https://www.culinaryunion226.org/][ref_culinary_226]
+- "Gambling Participation Survey." n.d. Accessed October 25, 2026. [https://nationalcouncilonproblemgambling.org/][ref_agrs_survey]
+- "Gigafactory Nevada." n.d. Tesla. Accessed October 25, 2026. [https://www.tesla.com/gigafactory][ref_tesla_nevada]
+- "Harry Reid International Airport." n.d. Accessed October 25, 2026. [https://www.harryreidairport.com/][ref_lasairport]
+- IGRA. 1988. "\[Title not identified\]." Accessed October 25, 2026. [https://www.govinfo.gov/app/details/STATUTE-102/STATUTE-102-Pg2467][ref_igra_1988]
+- "IPCC AR6 WGII Ch 14." n.d. Accessed October 25, 2026. [https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-14/][ref_ipcc_ar6_wg2]
+- Kefauver. 1951. "\[Title not identified\]." Accessed October 25, 2026. [https://www.govinfo.gov/app/collection/serialset][ref_kefauver_1951]
+- "Las Vegas Review-Journal." n.d. Accessed October 25, 2026. [https://www.reviewjournal.com/sports/][ref_las_vegas_review_journal]
+- "Liberty Media 10-K." n.d. Accessed October 25, 2026. [https://www.libertymedia.com/investors][ref_liberty_media_10k]
+- "Lower Colorado River Operations \| Lower Colorado Region \| Bureau of Reclamation." n.d. Accessed October 25, 2026. [https://www.usbr.gov/lc/region/g4000/hourly/mead-elv.html][ref_bureau_reclamation]
+- "LVCVA Annual Reports." n.d. Accessed October 25, 2026. [https://www.lvcva.com/research/][ref_lvcva_annual]
+- "Macau DICJ." n.d. Accessed October 25, 2026. [https://www.dicj.gov.mo/web/en/information/DadosEstat\_mensal/index.html][ref_macau_dicj]
+- "Nevada Department of Taxation." n.d. State of Nevada. Accessed October 25, 2026. [https://tax.nv.gov/][ref_nv_dor]
+- "Nevada Gaming Commission and the Nevada Gaming Control Board." 2026., January 28. [https://gaming.nv.gov/][ref_nevada_gcb]
+- "Nevada Revised Statutes 463." n.d. Accessed October 25, 2026. [https://www.leg.state.nv.us/nrs/nrs-463.html][ref_nrs_463]
+- "Nevada’s State Economic Development Experts." n.d. Governor's Office of Economic Development. Accessed October 25, 2026. [https://goed.nv.gov/][ref_nv_goed]
+- "NIGA Report." n.d. Accessed October 25, 2026. [https://www.indiangaming.org/][ref_niga_report]
+- "NOAA NWS Las Vegas." n.d. Accessed October 25, 2026. [https://www.weather.gov/vef/climate][ref_noaa_las_vegas]
+- "S&P Cotality Case-Shiller NV-Las Vegas Home Price Index." 2026., April 28. [https://fred.stlouisfed.org/series/LVXRSA][ref_case_shiller_lv]
+- "SNWA Water Resource Plan." n.d. Accessed October 25, 2026. [https://www.snwa.com/][ref_snwa_report]
+- Stanton. 2020. "Homepage \| SHPO." Accessed October 25, 2026. [https://shpo.nv.gov/][ref_stanton_2020]
+- "State of the States 2024." 2024. *American Gaming Association*. Accessed October 25, 2026. [https://www.americangaming.org/resources/state-of-the-states-2024/][ref_aga_report]
+- "TSMC Arizona." n.d. Accessed October 25, 2026. [https://www.tsmc.com/english/aboutTSMC/tsmc\_arizona][ref_tsmc_arizona]
+- UNLV University Libraries. n.d. "UNLV University Libraries Center for Gaming Research: Home." Accessed October 25, 2026. [https://gaming.library.unlv.edu/][ref_unlv_cgr]
+- "US BEA Regional." n.d. Accessed October 25, 2026. [https://www.bea.gov/data/economic-accounts/regional][ref_bea_regional]
+- "US BLS QCEW." n.d. Accessed October 25, 2026. [https://www.bls.gov/cew/][ref_bls_qcew]
+- "Vegas Loop." n.d. The Boring Company. Accessed October 25, 2026. [https://www.boringcompany.com/vegas-loop][ref_boring_loop]
+- Walker. 2007. "\[Title not identified\]." Accessed October 25, 2026. [https://link.springer.com/book/10.1007/978-0-387-72325-2][research_walker_2007]
 
 [book_denton_morris_2001]: https://www.penguinrandomhouse.com/books/59015/the-money-and-the-power-by-sally-denton-and-roger-morris/
 [book_earley_2000]: https://www.penguinrandomhouse.com/books/59014/super-casino-by-pete-earley/
@@ -350,5 +352,5 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 [ref_unlv_cgr]: https://gaming.library.unlv.edu/
 [ref_wynn_10k]: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001174922&type=10-K&dateb=&owner=include&count=40
 [research_borg_2015]: https://onlinelibrary.wiley.com/doi/10.1111/ajes.12123
-[research_eadington_1999]: https://www.aeaweb.org/articles?id=10.1257/jep.13.3.173
+[research_eadington_1999]: https://doi.org/10.1257/jep.13.3.173
 [research_walker_2007]: https://link.springer.com/book/10.1007/978-0-387-72325-2

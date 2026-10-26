@@ -103,13 +103,13 @@ Benjamin Franklin (1706-1790), whose religious position combined Deist inclinati
 
 Thomas Jefferson (1743-1826), whose religious position embraced Deism and rejected traditional Christian theological formulations, produced the most systematic Founding-era religious writings. Jefferson's 1804 and 1820 [Jefferson 1820][book_jefferson_1820] The Life and Morals of Jesus of Nazareth (the Jefferson Bible) excised the supernatural elements from the Gospels to produce a rationalist portrait of Jesus as ethical teacher. His correspondence, particularly with Adams and Priestley, documents the systematic religious position. The [Gaustad 1996][book_gaustad_1996] treatment provides the comprehensive interpretation.
 
-James Madison (1751-1836), whose religious position combined traditional Presbyterian formation at Princeton with mature commitment to religious liberty and institutional separation of religion and state, produced the institutional-legal contributions treated below. His 1785 [Madison 1785][book_madison_1785] Memorial and Remonstrance Against Religious Assessments, available as the [Memorial and Remonstrance 1785 primary text][ref_memorial_and_remonstrance_1785], provided the canonical American statement against religious establishment. Madison's later 1802 correspondence found expression in the [Jefferson Letter to the Danbury Baptists 1802 primary text][ref_danbury_baptist_letter_1802] as the interpretive counterpoint from Jefferson. The [Rakove 1990][book_rakove_1990] James Madison and the Creation of the American Republic, [Muñoz 2009][book_munoz_2009] God and the Founders, [Alley 1985][book_alley_1985] James Madison on Religious Liberty, and [Banning 1995][book_banning_1995] The Sacred Fire of Liberty treat Madison's religious-political thought.
+James Madison (1751-1836), whose religious position combined traditional Presbyterian formation at Princeton with mature commitment to religious liberty and institutional separation of religion and state, produced the institutional-legal contributions treated below. His 1785 [Madison 1785][book_madison_1785] Memorial and Remonstrance Against Religious Assessments, available as the [Memorial and Remonstrance 1785 primary text][ref_memorial_and_remonstrance_1785], provided the canonical American statement against religious establishment. Madison's later 1802 correspondence found expression in the [Jefferson Letter to the Danbury Baptists 1802 primary text][ref_danbury_baptist_letter_1802] as the interpretive counterpoint from Jefferson. The [Rakove 1990][book_rakove_1990] James Madison and the Creation of the American Republic, [Muñoz 2009][book_munoz_2009] God and the Founders, [Alley 1985][book_alley_1985] James Madison on Religious Liberty, and [Banning 1995][book_banning_1995] The Sacred Fire of Liberty treat Madison's religious-political thought.
 
 George Washington (1732-1799) maintained formal Anglican observance combined with personal religious reticence that has produced extensive subsequent interpretive debate. Washington's 1790 letter to the Touro Synagogue in Newport documenting his commitment to religious accommodation for all faiths provides the canonical Founding-era statement, available as the [Washington Letter to the Hebrew Congregation at Newport 1790 primary text][ref_washington_letter_hebrew_congregation_newport_1790]. The [Boller 1963][book_boller_1963] George Washington and Religion and [Rowe 2013][book_rowe_2013] Sons of the Founders treat the Washington religious formation.
 
 John Adams (1735-1826), a Unitarian Congregationalist by mature religious commitment, maintained engagement with religious questions across his political and post-political career. His correspondence with Jefferson from 1812 through 1826 (some fourteen years) documents the extended religious-philosophical conversation between the two Founders. The [Cappon 1959][book_cappon_1959] The Adams-Jefferson Letters provides the correspondence collection.
 
-Thomas Paine (1737-1809), whose 1794 and 1795 [Paine 1794][book_paine_1794] The Age of Reason presented the systematic radical Deist critique of Christianity, produced the most popularly influential Deist tract of the American Revolutionary period. His earlier 1776 [Paine Common Sense 1776 primary text][ref_paine_common_sense_1776] provided the Revolutionary mobilization pamphlet whose scriptural framing reached both Deist and evangelical Protestant audiences. The work was received across popular audiences and provided the ammunition for the late-eighteenth century American Deist popular movement documented in [Palmer 1801][book_palmer_1801] Principles of Nature and other subsequent texts. The popular Deism declined after approximately 1810 under the Second Great Awakening's counter-mobilization treated in article four. Common Sense circulation estimates give
+Thomas Paine (1737-1809), whose 1794 and 1795 [Paine 1794][book_paine_1794] The Age of Reason presented the systematic radical Deist critique of Christianity, produced the most popularly influential Deist tract of the American Revolutionary period. His earlier 1776 [Paine Common Sense 1776 primary text][ref_paine_common_sense_1776] provided the Revolutionary mobilization pamphlet whose scriptural framing reached both Deist and evangelical Protestant audiences. The work was received across popular audiences and provided the ammunition for the late-eighteenth century American Deist popular movement documented in [Palmer and Palmer 1801][book_palmer_1801] Principles of Nature and other subsequent texts. The popular Deism declined after approximately 1810 under the Second Great Awakening's counter-mobilization treated in article four. Common Sense circulation estimates give
 
 $$N_{\text{Common Sense copies, 1776}} \approx 1.5 \times 10^5, \quad P_{\text{colonial, 1776}} \approx 2.5 \times 10^6, \quad f_{\text{households reached}} \sim 0.30$$
 
@@ -163,7 +163,7 @@ The documentary evidence includes Benjamin Franklin's 1751 letter to James Parke
 
 The critical response of [Tooker 1988][research_tooker_1988], [Payne 1996][research_payne_1996], and [Levy 1996][research_levy_1996] argues that the documented influence was weaker than Grinde and Johansen claim, that the institutional similarities reflect independent European constitutional inheritance rather than direct Iroquois borrowing, and that the documentary evidence supports rhetorical use of the Iroquois example by Founders rather than structural incorporation of Iroquois governance principles. The [Snow 1994][book_snow_1994] The Iroquois treats the historical Haudenosaunee governance in ways that permit evaluation of the structural comparison.
 
-The 1988 [United States Congress 1988][research_congress_1988] Concurrent Resolution 331 formally acknowledged Iroquois contributions to the American Constitution, providing the political-institutional acknowledgment without settling the historiographical debate. The series treats the debate as documented and continues to cite the primary sources on both sides through this article, article four, and the series closing.
+The 1988 [United et al. 1988][research_congress_1988] Concurrent Resolution 331 formally acknowledged Iroquois contributions to the American Constitution, providing the political-institutional acknowledgment without settling the historiographical debate. The series treats the debate as documented and continues to cite the primary sources on both sides through this article, article four, and the series closing.
 
 ## Missionary Movements to Native Peoples
 
@@ -238,7 +238,7 @@ $$\Delta t_{\text{Free Exercise incorporation}} = 1940 - 1791 = 149 \text{ years
 
 $$\Delta t_{\text{Establishment incorporation}} = 1947 - 1791 = 156 \text{ years}$$
 
-per [Cantwell v. Connecticut 1940][ref_cantwell_v_connecticut_1940] and [Everson v. Board of Education 1947][ref_everson_v_board_of_education_1947] respectively. The pre-incorporation state establishments discussed above operated without federal constitutional restriction.
+per [Cantwell v. Connecticut 310 1940][ref_cantwell_v_connecticut_1940] and [Everson v. Board 1947][ref_everson_v_board_of_education_1947] respectively. The pre-incorporation state establishments discussed above operated without federal constitutional restriction.
 
 ## Federalist and Jeffersonian Religious Constituencies
 
@@ -246,7 +246,7 @@ The 1790s formation of the Federalist and Democratic-Republican (Jeffersonian) p
 
 The Federalist Party (John Adams, Alexander Hamilton, John Jay) drew marked support from New England Congregationalists, Middle Colony and Southern Anglican merchants and planters, Dutch Reformed populations, and commercial-mercantile constituencies more generally. The religious constituency reflected the older colonial establishments and the commercial-Atlantic Federalism that Hamilton's financial system advanced.
 
-The Democratic-Republican Party (Thomas Jefferson, James Madison) drew extensive support from Baptist, Methodist, Presbyterian, and dissenter populations across the colonies, alongside Southern planters (particularly Virginia's) opposed to Federalist commercial policy. The religious constituency reflected dissenter opposition to the former colonial establishments and the rural-agrarian democratic vision that Jefferson's political program advanced. The [Nash 1979][book_nash_1979] The Urban Crucible and [Wood 1992][book_wood_1992] treatments cover the socioeconomic dimensions of the religious-political constituency alignment.
+The Democratic-Republican Party (Thomas Jefferson, James Madison) drew extensive support from Baptist, Methodist, Presbyterian, and dissenter populations across the colonies, alongside Southern planters (particularly Virginia's) opposed to Federalist commercial policy. The religious constituency reflected dissenter opposition to the former colonial establishments and the rural-agrarian democratic vision that Jefferson's political program advanced. The [Nash and Nash 1979][book_nash_1979] The Urban Crucible and [Wood 1992][book_wood_1992] treatments cover the socioeconomic dimensions of the religious-political constituency alignment.
 
 The 1800 election of Jefferson over Adams reflected the mobilization of Baptist, Methodist, and other dissenter constituencies alongside Southern planter constituencies. The New England Federalist alarm at Jefferson's religious liberalism (portrayed by Federalist propagandists as atheistic) reflected the religious dimension of the party conflict. The [Larson 2007][book_larson_2007] A Magnificent Catastrophe treats the 1800 election dynamics. The 1800 electoral outcome quantifies as
 
@@ -380,7 +380,7 @@ Samuel Seabury (1729-1796), Connecticut Anglican priest and Loyalist during the 
 
 William White (1748-1836), Philadelphia Anglican priest and chaplain to the Continental Congress, obtained English consecration in 1787 after the 1786 Enabling Act permitted the English bishops to consecrate American candidates without the oath to the British Crown. White's consecration alongside Samuel Provoost (1742-1815) of New York provided the institutional foundation for the middle and southern Episcopal Church formation. The 1789 Philadelphia General Convention reunited the Seabury and White ecclesiastical traditions into the unified Protestant Episcopal Church constitution.
 
-The 1789 Book of Common Prayer adaptation replaced the royal-family prayers with prayers for the American civil authorities, retained the catholic order of Anglican worship, and provided the institutional continuity of Anglican liturgical tradition under the new American ecclesiastical polity. The [Book of Common Prayer 1789][book_bcp_1789] and the [Book of Common Prayer 1789 primary text][ref_book_of_common_prayer_1789] provide the founding liturgical document.
+The 1789 Book of Common Prayer adaptation replaced the royal-family prayers with prayers for the American civil authorities, retained the catholic order of Anglican worship, and provided the institutional continuity of Anglican liturgical tradition under the new American ecclesiastical polity. The [The 1789 U. S. 1789][book_bcp_1789] and the [Book of Common Prayer 1789 primary text][ref_book_of_common_prayer_1789] provide the founding liturgical document.
 
 ## Catholic Reorganization Under John Carroll
 
@@ -462,268 +462,268 @@ This article follows the terminological conventions established in [A266][relate
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Ahlstrom 1972 A Religious History of the American People][book_ahlstrom_1972]
-- [Alley 1985 James Madison on Religious Liberty][book_alley_1985]
-- [Andrews 2000 The Methodists and Revolutionary America][book_andrews_2000]
-- [Appleby 1984 Capitalism and a New Social Order][book_appleby_1984]
-- [Backus 1774 An Appeal to the Public for Religious Liberty][book_backus_1774]
-- [Bailyn 1967 Ideological Origins of the American Revolution][book_bailyn_1967]
-- [Baker 1976 From Wesley to Asbury][book_baker_1976]
-- [Banning 1995 The Sacred Fire of Liberty][book_banning_1995]
-- [Beaver 1966 Church, State, and the American Indian][book_beaver_1966]
-- [Berkhofer 1965 Salvation and the Savage][book_berkhofer_1965]
-- [Berlin 1974 Slaves Without Masters][book_berlin_1974]
-- [Book of Common Prayer 1789][book_bcp_1789]
-- [Berlin 1998 Many Thousands Gone][book_berlin_1998]
-- [Blethen and Wood 1997 Ulster and North America][book_blethen_wood_1997]
-- [Bloch 1985 Visionary Republic][book_bloch_1985]
-- [Boller 1963 George Washington and Religion][book_boller_1963]
-- [Bond 2000 Damned Souls in a Tobacco Colony][book_bond_2000]
-- [Bradley 1987 Church-State Relationships in America][book_bradley_1987]
-- [Buchanan 1997 The Road to Guilford Courthouse][book_buchanan_1997]
-- [Buckley 1977 Church and State in Revolutionary Virginia][book_buckley_1977]
-- [Bullock 1996 Revolutionary Brotherhood][book_bullock_1996]
-- [Bushman 1970 The Great Awakening][book_bushman_1970]
-- [Butler 1990 Awash in a Sea of Faith][book_butler_1990]
-- [Calloway 1995 The American Revolution in Indian Country][book_calloway_1995]
-- [Cameron 2014 To Plead Our Own Cause][book_cameron_2014]
-- [Cappon 1959 The Adams-Jefferson Letters][book_cappon_1959]
-- [Carey 1996 The Roman Catholics in America][book_carey_1996]
-- [Chauncy 1743 Seasonable Thoughts][book_chauncy_1743]
-- [Clark 2007 Masterless Mistresses][book_clark_2007]
-- [Coffman 1994 Solomon Stoddard][book_coffman_1994]
-- [Colden 1727 The History of the Five Indian Nations][book_colden_1727]
-- [Corrigan 1991 The Prism of Piety][book_corrigan_1991]
-- [Cotterill 1954 The Southern Indians][book_cotterill_1954]
-- [Cowing 1971 The Great Awakening and the American Revolution][book_cowing_1971]
-- [Cross 1988 The Mennonites][book_cross_1988]
-- [Cumfer 2007 Separate Peoples One Land][book_cumfer_2007]
-- [Curran 1993 The Bicentennial History of Georgetown University][book_curran_1993]
-- [Curry 1986 The First Freedoms][book_curry_1986]
-- [Dessens 2007 From Saint-Domingue to New Orleans][book_dessens_2007]
-- [Din 1988 The Canary Islanders of Louisiana][book_din_1988]
-- [Din 1999 Spaniards Planters and Slaves][book_din_1999]
-- [Draper 1881 King's Mountain and Its Heroes][book_draper_1881]
-- [Egerton 2009 Death or Liberty][book_egerton_2009]
-- [Edwards 1737 A Faithful Narrative][book_edwards_1737]
-- [Edwards 1741 Sinners in the Hands of an Angry God][book_edwards_1741_sinners]
-- [Edwards 1746 A Treatise Concerning Religious Affections][book_edwards_1746]
-- [Edwards 1754 Freedom of the Will][book_edwards_1754]
-- [Edwards 1758 The Nature of True Virtue][book_edwards_1758]
-- [Fea 2011 Was America Founded as a Christian Nation][book_fea_2011]
-- [Fenton 2006 Religious Liberties][book_fenton_2006]
-- [Fischer 1989 Albion's Seed][book_fischer_1989]
-- [Fogleman 1996 Hopeful Journeys][book_fogleman_1996]
-- [Fogleman 2007 Jesus Is Female][book_fogleman_2007]
-- [Formisano 1983 The Transformation of Political Culture][book_formisano_1983]
-- [Franklin 1728 Articles of Belief and Acts of Religion][book_franklin_1728]
-- [Franklin 1791 Autobiography][book_franklin_autobiography]
-- [Frey 1991 Water from the Rock][book_frey_1991]
-- [Frey and Wood 1998 Come Shouting to Zion][book_frey_wood_1998]
-- [Gaustad 1996 Sworn on the Altar of God][book_gaustad_1996]
-- [Glatfelter 1980 Pastors and People][book_glatfelter_1980]
-- [Good 1899 History of the Reformed Church in the United States][book_good_1899]
-- [Gould 1996 Chained to the Rock of Adversity][book_gould_1996]
-- [Graymont 1972 The Iroquois in the American Revolution][book_graymont_1972]
-- [Green 2010 The Second Disestablishment][book_green_2010]
-- [Griffin 2001 The People with No Name][book_griffin_2001]
-- [Grinde and Johansen 1991 Exemplar of Liberty][book_grinde_johansen_1991]
-- [Hall 1992 Africans in Colonial Louisiana][book_hall_1992]
-- [Hamburger 2002 Separation of Church and State][book_hamburger_2002]
-- [Hanger 1997 Bounded Lives, Bounded Places][book_hanger_1997]
-- [Hanley 1976 Charles Carroll of Carrollton][book_hanley_1976]
-- [Harper 2014 Unsettling the West][book_harper_2014]
-- [Hart 1976 Violets in the King's Garden][book_hart_1976]
-- [Hatch 1977 The Sacred Cause of Liberty][book_hatch_1977]
-- [Heimert 1966 Religion and the American Mind][book_heimert_1966]
-- [Hempton 2005 Methodism Empire of the Spirit][book_hempton_2005]
-- [Hennesey 1981 American Catholics][book_hennesey_1981]
-- [Heyrman 1997 Southern Cross][book_heyrman_1997]
-- [Hofstra 2011 Ulster to America][book_hofstra_2011]
-- [Holifield 2003 Theology in America][book_holifield_2003]
-- [Holmes 2006 The Faiths of the Founding Fathers][book_holmes_2006]
-- [Holton 1999 Forced Founders][book_holton_1999]
-- [Howe 1970 The Unitarian Conscience][book_howe_1970]
-- [Isaac 1982 The Transformation of Virginia][book_isaac_1982]
-- [Jacob 1991 Living the Enlightenment][book_jacob_1991]
-- [Jefferson 1820 The Life and Morals of Jesus of Nazareth][book_jefferson_1820]
-- [Kelsay 1984 Joseph Brant][book_kelsay_1984]
-- [Kenny 2000 The American Irish][book_kenny_2000]
-- [Kidd 2007 The Great Awakening][book_kidd_2007]
-- [Kidd 2010 God of Liberty][book_kidd_2010]
-- [Klein 1990 Unification of a Slave State][book_klein_1990]
-- [Klepp 1998 Revolutionary Conceptions][book_klepp_1998]
-- [Kramnick and Moore 2005 The Godless Constitution][book_kramnick_moore_2005]
-- [Lambert 1994 Inventing the Great Awakening][book_lambert_1994]
-- [Lambert 1999 Pedlar in Divinity][book_lambert_1999]
-- [Larson 2007 A Magnificent Catastrophe][book_larson_2007]
-- [Levy 1988 The Establishment Clause][book_levy_1988_establishment]
-- [Lincoln and Mamiya 1990 The Black Church in the African American Experience][book_lincoln_mamiya_1990]
-- [Litwack 1961 North of Slavery][book_litwack_1961]
-- [Longenecker 1994 Piety and Tolerance][book_longenecker_1994]
-- [Longfield 2013 Presbyterians and American Culture][book_longfield_2013]
-- [Madison 1785 Memorial and Remonstrance][book_madison_1785]
-- [Mann 2000 Iroquoian Women][book_mann_2000]
-- [Manross 1959 A History of the American Episcopal Church][book_manross_1959]
-- [Marcus 1970 The Colonial American Jew][book_marcus_1970]
-- [Marietta 1984 The Reformation of American Quakerism][book_marietta_1984]
-- [Marini 1982 Radical Sects of Revolutionary New England][book_marini_1982]
-- [Marsden 1970 The Evangelical Mind and the New School Presbyterian Experience][book_marsden_1970]
-- [Marsden 2003 Jonathan Edwards A Life][book_marsden_2003]
-- [Marsden 2013 The New England Soul][book_marsden_2013]
-- [May 1976 The Enlightenment in America][book_may_1976]
-- [McDermott 2009 Understanding Jonathan Edwards][book_mcdermott_2009]
-- [McLoughlin 1971 New England Dissent][book_mcloughlin_1971]
-- [McLoughlin 1984 The Cherokees and Christianity][book_mcloughlin_1984]
-- [McMichael 2008 Atlantic Loyalties][book_mcmichael_2008]
-- [Meacham 2006 American Gospel][book_meacham_2006]
-- [Mekeel 1979 The Relation of the Quakers to the American Revolution][book_mekeel_1979]
-- [Melish 1998 Disowning Slavery][book_melish_1998]
-- [Merrell 1989 The Indians' New World][book_merrell_1989]
-- [Merritt 2003 At the Crossroads][book_merritt_2003]
-- [Middlekauff 1982 The Glorious Cause][book_middlekauff_1982]
-- [Miller 1976 The First Liberty][book_miller_1976]
-- [Miller 1979 The Larger Hope][book_miller_1979]
-- [Miller 2019 Modernity and the Sacred][book_miller_2019]
-- [Mintz 1999 Seeds of Empire][book_mintz_1999]
-- [Mullin 1986 Episcopal Vision and American Reality][book_mullin_1986]
-- [Muñoz 2009 God and the Founders][book_munoz_2009]
-- [Nash 1979 The Urban Crucible][book_nash_1979]
-- [Nash 1991 Race and Revolution][book_nash_1991]
-- [Nash and Soderlund 1991 Freedom by Degrees][book_nash_soderlund_1991]
-- [Nelson 1998 The Lutherans in North America][book_nelson_1998]
-- [Nelson 2001 A Blessed Company][book_nelson_2001]
-- [Newman 2008 Freedom's Prophet][book_newman_2008]
-- [Noll 2003 The Rise of Evangelicalism][book_noll_2003]
-- [Nolt 2004 Foreigners in Their Own Land][book_nolt_2004]
-- [Nolt 2015 A History of the Amish][book_nolt_2015]
-- [Northwest Ordinance 1787][book_northwest_ordinance_1787]
-- [Olmstead 1991 David Zeisberger][book_olmstead_1991]
-- [Onuf 1987 Statehood and Union][book_onuf_1987]
-- [O'Toole 2008 The Faithful][book_otoole_2008]
-- [Paine 1794 The Age of Reason][book_paine_1794]
-- [Palmer 1801 Principles of Nature][book_palmer_1801]
-- [Patrick 2014 The Life and Times of Samuel Kirkland][book_patrick_2014]
-- [Perdue 1979 Slavery and the Evolution of Cherokee Society][book_perdue_1979]
-- [Peterson 1998 American Deism][book_peterson_1998]
-- [Prichard 1999 A History of the Episcopal Church][book_prichard_1999]
-- [Prucha 1994 American Indian Treaties][book_prucha_1994]
-- [Pybus 2006 Epic Journeys of Freedom][book_pybus_2006]
-- [Raboteau 1978 Slave Religion][book_raboteau_1978]
-- [Ragosta 2010 Wellspring of Liberty][book_ragosta_2010]
-- [Rakove 1990 James Madison and the Creation of the American Republic][book_rakove_1990]
-- [Richter 2001 Facing East from Indian Country][book_richter_2001]
-- [Robinson 1985 The Unitarians and the Universalists][book_robinson_1985]
-- [Roeber 1993 Palatines, Liberty, and Property][book_roeber_1993]
-- [Rowe 2013 Sons of the Founders][book_rowe_2013]
-- [Sarna 2004 American Judaism][book_sarna_2004]
-- [Schama 2005 Rough Crossings][book_schama_2005]
-- [Scott 2008 Degrees of Freedom][book_scott_2008]
-- [Sehat 2011 The Myth of American Religious Freedom][book_sehat_2011]
-- [Sensbach 1998 A Separate Canaan][book_sensbach_1998]
-- [Sensbach 2005 Rebecca's Revival][book_sensbach_2005]
-- [Silverman 2016 Thundersticks][book_silverman_2016]
-- [Sinha 2016 The Slave's Cause][book_sinha_2016]
-- [Slaughter 1986 The Whiskey Rebellion][book_slaughter_1986]
-- [Snow 1994 The Iroquois][book_snow_1994]
-- [Sobel 1988 Trabelin' On][book_sobel_1988]
-- [Stein 1992 The Shaker Experience in America][book_stein_1992]
-- [Stout 1991 The Divine Dramatist][book_stout_1991]
-- [Sweeney 2005 The American Evangelical Story][book_sweeney_2005]
-- [Tabbert 2005 American Freemasons][book_tabbert_2005]
-- [Taylor 2006 The Divided Ground][book_taylor_2006]
-- [Taylor 2016 American Revolutions][book_taylor_2016]
-- [Tennent 1740 The Danger of an Unconverted Ministry][book_tennent_1740]
-- [Thornton 1987 American Indian Holocaust and Survival][book_thornton_1987]
-- [Tiro 2011 The People of the Standing Stone][book_tiro_2011]
-- [Trinterud 1949 The Forming of an American Tradition][book_trinterud_1949]
-- [Usner 1992 Indians, Settlers, and Slaves][book_usner_1992]
-- [Vidal 2014 Louisiana][book_vidal_2014]
-- [Virginia Statute 1786 for Religious Freedom][book_virginia_statute_1786]
-- [Waldman 2008 Founding Faith][book_waldman_2008]
-- [Waldstreicher 2004 Runaway America][book_waldstreicher_2004]
-- [Wallace 1999 Jefferson and the Indians][book_wallace_1999]
-- [Walters 1992 Rational Infidels][book_walters_1992]
-- [Wells 1975 The Population of the British Colonies][book_wells_1975]
-- [Wentz 1955 A Basic History of Lutheranism in America][book_wentz_1955]
-- [Wheeler 2008 To Live upon Hope][book_wheeler_2008]
-- [Wigger 1998 Taking Heaven by Storm][book_wigger_1998]
-- [Wigger 2009 American Saint Francis Asbury][book_wigger_2009]
-- [Wilentz 2005 The Rise of American Democracy][book_wilentz_2005]
-- [Winiarski 2017 Darkness Falls on the Land of Light][book_winiarski_2017]
-- [Wokeck 1999 Trade in Strangers][book_wokeck_1999]
-- [Wood 1969 The Creation of the American Republic][book_wood_1969]
-- [Wood 1992 The Radicalism of the American Revolution][book_wood_1992]
-- [Wood 2009 Empire of Liberty][book_wood_2009]
-- [Woodmason 1953 The Carolina Backcountry on the Eve of the Revolution][book_woodmason_1953]
-- [Woodson 1921 The History of the Negro Church][book_woodson_1921]
-- [Wright 1955 The Beginnings of Unitarianism in America][book_wright_1955]
-- [Yoder 1985 Discovering American Folklife][book_yoder_1985]
-- [Zilversmit 1967 The First Emancipation][book_zilversmit_1967]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- Articles of Confederation. 1777. "primary text." [https://avalon.law.yale.edu/18th\_century/artconf.asp][ref_articles_of_confederation_1777]
+- "Avalon Project: Pennsylvania: An Act for the Gradual Abolition of Slavery, 1780." 1780. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/pennst01.asp][ref_pennsylvania_gradual_emancipation_act_1780]
+- "The Avalon Project: Treaty with the Six Nations: 1784." 1784. Washington, DC: Government Printing Office, 1904. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/six1784.asp][ref_treaty_of_fort_stanwix_1784]
+- "The Bill of Rights: A Transcription." 1791. National Archives. Accessed October 25, 2026. [https://www.archives.gov/founding-docs/bill-of-rights-transcript][ref_bill_of_rights_1791]
+- Butler, Jon. 1982. "Enthusiasm Described and Decried: The Great Awakening as Interpretative Fiction." *Journal of American History* 69 (2): 305. [https://doi.org/10.2307/1893821][research_butler_1982]
+- "Cantwell v. Connecticut, 310 U.S. 296 (1940)." 1940. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/310/296/][ref_cantwell_v_connecticut_1940]
+- Carroll First US Catholic Bishop. 1789. "primary source." [https://www.loc.gov/exhibits/religion/rel06.html][ref_carroll_first_us_catholic_bishop_1789]
+- "The Constitution of the United States: A Transcription." 1787. National Archives. Accessed October 25, 2026. [https://www.archives.gov/founding-docs/constitution-transcript][ref_us_constitution_1787]
+- "Declaration of Independence: A Transcription." 1776. National Archives. Accessed October 25, 2026. [https://www.archives.gov/founding-docs/declaration-transcript][ref_declaration_of_independence_1776]
+- Delaware Constitution. 1776. "The Federal and State Constitutions, Colonial Charters, and Other Organic Laws of the State\[s\], Territories, and Colonies Now or Heretofore Forming the United States of America /Compiled and Edited under the Act of Congress of June 30, 1906." Washington, DC: Government Printing Office, 1909. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/de02.asp][ref_delaware_constitution_1776]
+- Edwards Faithful Narrative. 1737. "primary text." [https://www.ccel.org/ccel/edwards/works1.html][ref_edwards_faithful_narrative_1737]
+- "Everson v. Board of Education, 330 U.S. 1 (1947)." 1947. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/330/1/][ref_everson_v_board_of_education_1947]
+- "Federalist 10 primary text." n.d. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/fed10.asp][ref_federalist_10]
+- "Federalist 51 primary text." n.d. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/fed51.asp][ref_federalist_51]
+- "Federalist 84 primary text." n.d. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/fed84.asp][ref_federalist_84]
+- First Amendment. 1791. "The Bill of Rights: A Transcription." National Archives. Accessed October 25, 2026. [https://www.archives.gov/founding-docs/bill-of-rights-transcript][ref_first_amendment_1791]
+- Fort Pitt Treaty. 1778. "primary text." [https://avalon.law.yale.edu/18th\_century/del1778.asp][ref_fort_pitt_treaty_1778]
+- "Jefferson's Letter to the Danbury Baptists (June 1998): Library of Congress Information Bulletin." 1802. Accessed October 25, 2026. [https://www.loc.gov/loc/lcib/9806/danpre.html][ref_danbury_baptist_letter_1802]
+- "Library of Congress Religion and the Founding of the American Republic exhibit." n.d. Accessed October 25, 2026. [https://www.loc.gov/exhibits/religion/][ref_loc_religion_and_founding]
+- MacEacheren, Elaine. 1970. "Emancipation of Slavery in in Massachusetts: A Reexamination, 1770-1790." *Journal of Negro History* 55 (4): 289–306. [https://doi.org/10.2307/2716174][research_maceacheren_1970]
+- Massachusetts Constitution. 1780. "primary text." [https://avalon.law.yale.edu/17th\_century/mass03.asp][ref_massachusetts_constitution_1780]
+- McConnell, Michael W. 1990. "The Origins and Historical Understanding of Free Exercise of Religion." *Harvard Law Review* 103 (7): 1409. [https://doi.org/10.2307/1341281][research_mcconnell_1990]
+- Northwest Ordinance. 1787. "Avalon Project: Northwest Ordinance; July 13, 1787." Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/nworder.asp][book_northwest_ordinance_1787]
+- Payne. 1996. *Iroquois Influence Thesis Critique*. [https://scholar.google.com/scholar?q=Iroquois+Influence+Thesis+Critique+Payne+1996][research_payne_1996]
+- Pennsylvania Constitution. 1776. "primary text." [https://avalon.law.yale.edu/18th\_century/pa08.asp][ref_pennsylvania_constitution_1776]
+- Philadelphia Baptist Confession. 1742. "primary text." [https://www.reformedreader.org/ccc/pcof1742.htm][ref_baptist_confession_1742]
+- Second London Baptist Confession. 1689. "primary text." [https://www.reformedreader.org/ccc/pcof1689.htm][ref_second_london_baptist_confession_1689]
+- Tooker, Elisabeth. 1988. "The United States Constitution and the Iroquois League." *Ethnohistory* 35 (4): 305. [https://doi.org/10.2307/482139][research_tooker_1988]
+- United, States, and Congress. 1988. "Concurrent Resolution 331." [https://www.congress.gov/bill/100th-congress/senate-concurrent-resolution/76][research_congress_1988]
+- Virginia Constitution. 1776. "primary text." [https://avalon.law.yale.edu/18th\_century/va05.asp][ref_virginia_constitution_1776]
+- Virginia Statute for Religious Freedom. 1786. "primary text." [https://www.archives.gov/founding-docs/virginia-statute-religious-freedom][ref_virginia_statute_religious_freedom_1786]
+- "Whitefield Journals primary source." n.d. Accessed October 25, 2026. [https://www.ccel.org/ccel/whitefield/journals.html][ref_whitefield_journals]
+- Whittenburg, James P. 1977. "Planters, Merchants, and Lawyers: Social Change and the Origins of the North Carolina Regulation." *William and Mary Quarterly* 34 (2): 215. [https://doi.org/10.2307/1925314][research_whittenburg_1977]
+- "Work Info: Religious Affections: Christian Classics Ethereal Library." 1746. Accessed October 25, 2026. [https://www.ccel.org/ccel/edwards/affections.html][ref_edwards_religious_affections_1746]
 
-- [Articles of Confederation 1777 primary text][ref_articles_of_confederation_1777]
-- [Backus History of New England 1777 primary text][ref_backus_history_of_new_england_1777]
-- [Bill of Rights 1791 primary text][ref_bill_of_rights_1791]
-- [Book of Common Prayer 1789 primary text][ref_book_of_common_prayer_1789]
-- [Cantwell v Connecticut 1940][ref_cantwell_v_connecticut_1940]
-- [Carroll First US Catholic Bishop 1789 primary source][ref_carroll_first_us_catholic_bishop_1789]
-- [Chauncy Seasonable Thoughts 1743 primary text][ref_chauncy_seasonable_thoughts_1743]
-- [Declaration of Independence 1776 primary text][ref_declaration_of_independence_1776]
-- [Delaware Constitution 1776 primary text][ref_delaware_constitution_1776]
-- [Edwards Faithful Narrative 1737 primary text][ref_edwards_faithful_narrative_1737]
-- [Edwards Freedom of the Will 1754 primary text][ref_edwards_freedom_of_the_will_1754]
-- [Edwards Religious Affections 1746 primary text][ref_edwards_religious_affections_1746]
-- [Edwards Sinners in the Hands of an Angry God 1741 primary text][ref_edwards_sinners_in_the_hands_1741]
-- [Everson v Board of Education 1947][ref_everson_v_board_of_education_1947]
-- [Federalist 10 primary text][ref_federalist_10]
-- [Federalist 51 primary text][ref_federalist_51]
-- [Federalist 84 primary text][ref_federalist_84]
-- [First Amendment 1791 primary text][ref_first_amendment_1791]
-- [Fort Pitt Treaty 1778 primary text][ref_fort_pitt_treaty_1778]
-- [Jefferson Letter to the Danbury Baptists 1802 primary text][ref_danbury_baptist_letter_1802]
-- [Leland Rights of Conscience 1791 primary text][ref_leland_rights_of_conscience_1791]
-- [Library of Congress Religion and the Founding of the American Republic exhibit][ref_loc_religion_and_founding]
-- [Massachusetts Constitution 1780 primary text][ref_massachusetts_constitution_1780]
-- [Memorial and Remonstrance 1785 primary text][ref_memorial_and_remonstrance_1785]
-- [Methodist Christmas Conference 1784 minutes and records][ref_methodist_christmas_conference_1784]
-- [Northwest Ordinance 1787 primary text][ref_northwest_ordinance_1787]
-- [Paine Common Sense 1776 primary text][ref_paine_common_sense_1776]
-- [Pennsylvania Constitution 1776 primary text][ref_pennsylvania_constitution_1776]
-- [Pennsylvania Gradual Emancipation Act 1780 primary text][ref_pennsylvania_gradual_emancipation_act_1780]
-- [Philadelphia Baptist Confession 1742 primary text][ref_baptist_confession_1742]
-- [Quock Walker Case 1783 primary text][ref_quock_walker_case_1783]
-- [Second London Baptist Confession 1689 primary text][ref_second_london_baptist_confession_1689]
-- [Somerset v Stewart 1772 primary text][ref_somerset_v_stewart_1772]
-- [Stiles United States Elevated 1783 primary text][ref_stiles_united_states_elevated_1783]
-- [Tennent Danger of an Unconverted Ministry 1740 primary text][ref_tennent_danger_of_unconverted_ministry_1740]
-- [Treaty of Fort Stanwix 1784 primary text][ref_treaty_of_fort_stanwix_1784]
-- [United States Constitution 1787 primary text][ref_us_constitution_1787]
-- [Virginia Constitution 1776 primary text][ref_virginia_constitution_1776]
-- [Virginia Statute for Religious Freedom 1786 primary text][ref_virginia_statute_religious_freedom_1786]
-- [Washington Letter to the Hebrew Congregation at Newport 1790 primary text][ref_washington_letter_hebrew_congregation_newport_1790]
-- [Whitefield Journals primary source][ref_whitefield_journals]
-- [Witherspoon Dominion of Providence 1776 primary text][ref_witherspoon_dominion_of_providence_1776]
+### Secondary Sources
+
+- Ahlstrom, Sydney E. 1972. *A Religious History of the American People*. Yale University Press. [https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/][book_ahlstrom_1972]
+- Alley, Robert S. 1985. *James Madison on Religious Liberty*. Prometheus Books. [https://prometheusbooks.com/9780879759988/james-madison-on-religious-liberty/][book_alley_1985]
+- Andrews, Dee. 2000. *The Methodists and Revolutionary America, 1760-1800: The Shaping of an Evangelical Culture*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691009629/the-methodists-and-revolutionary-america][book_andrews_2000]
+- Appleby. 1984. *Capitalism and a New Social Order: The Republican Vision of the 1790s*. New York University Press. [https://global.oup.com/academic/product/capitalism-and-a-new-social-order-9780814705988][book_appleby_1984]
+- Backus, Isaac. 1774. *An Appeal to the Public for Religious Liberty against the Oppressions of the Present Day: \[Three Lines from Galatians\]*. John Boyle in Marlborough-Street. [https://digitalcommons.trinity.edu/mono/6/][book_backus_1774]
+- Backus, Isaac, 1724-1806. 1777. *A History of New England: With Particular Reference to the Denomination of Christians Called Baptists .*. Boston: Printed by Edward Draper. [https://archive.org/details/historyofnewengl01back][ref_backus_history_of_new_england_1777]
+- Bailyn, Bernard. 1967. *The Ideological Origins of the American Revolution*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674443020][book_bailyn_1967]
+- Baker, Frank. 1976. *From Wesley to Asbury: Studies in Early American Methodism*. Duke University Press. [https://www.dukeupress.edu/from-wesley-to-asbury][book_baker_1976]
+- Banning, Lance. 1995. *The Sacred Fire of Liberty: James Madison and the Founding of the Federal Republic*. Cornell University Press. [https://cornellpress.cornell.edu/book/9780801481468/the-sacred-fire-of-liberty/][book_banning_1995]
+- Beaver, R. Pierce. 1966. *Church, State, and the American Indians*. Concordia Publishing House. [https://openlibrary.org/works/OL34569345W][book_beaver_1966]
+- Berkhofer, Robert F. 1965. *Salvation and the Savage: An Analysis of Protestant Missions and American Indian Response, 1787-1862*. University of Kentucky Press. [https://openlibrary.org/works/OL3740845W][book_berkhofer_1965]
+- Berlin, Ira. 1974. *Slaves without Masters: The Free Negro in the Antebellum South*. Pantheon Pr. [https://global.oup.com/academic/product/slaves-without-masters-9780195095609][book_berlin_1974]
+- Berlin, Ira. 1998. *Many Thousands Gone: The First Two Centuries of Slavery in North America*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674002111][book_berlin_1998]
+- Blethen, Tyler, and Curtis Wood. 1997. *Ulster and North America: Transatlantic Perspectives on the Scotch-Irish*. University of Alabama Press. [https://uapress.ua.edu/product/Ulster-and-North-America,3120.aspx][book_blethen_wood_1997]
+- Bloch, Ruth H. 1985. *Visionary Republic: Millennial Themes in American Thought 1756-1800*. Cambridge University Press. [https://www.cambridge.org/9780521337106][book_bloch_1985]
+- Boller. 1963. *George Washington and Religion*. [https://smu.edu/press/boller-washington-religion][book_boller_1963]
+- Bond, Edward. 2000. *Damned Souls in a Tobacco Colony: Religion in Seventeenth-Century Virginia*. Mercer University Press. [https://openlibrary.org/works/OL222351W][book_bond_2000]
+- Bradley. 1987. *Church-State Relationships in America*. [https://scholar.google.com/scholar?q=bradley+1987+church+state+relationships+america][book_bradley_1987]
+- Buchanan, John. 1997. *The Road to Guilford Courthouse: The American Revolution in the Carolinas*. Wiley. [https://wiley.com/en-us/The+Road+to+Guilford+Courthouse-p-9780471327165][book_buchanan_1997]
+- Buckley, Thomas E. 1977. *Church and State in Revolutionary Virginia, 1776-1787*. University Press of Virginia. [https://uvapress.com/9780813915777/church-and-state-in-revolutionary-virginia/][book_buckley_1977]
+- Bullock, Steven C. 1996. *Revolutionary Brotherhood: Freemasonry and the Transformation of the American Social Order, 1730-1840*. University of North Carolina Press. [https://uncpress.org/book/9780807846131/revolutionary-brotherhood/][book_bullock_1996]
+- Bushman, Richard L. 1970. *The Great Awakening: Documents on the Revival of Religion, 1740-1745*. Published for the Institute of Early American History and Culture at Williamsburg, Va. \[by\] Atheneum. [https://uncpress.org/book/9780807842263/the-great-awakening/][book_bushman_1970]
+- Butler, Jon. 1990. *Awash in a Sea of Faith: Christianizing the American People*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674056015][book_butler_1990]
+- Calloway, Colin G. 1995. *The American Revolution in Indian Country: Crisis and Diversity in Native American Communities*. Cambridge University Press. [https://www.cambridge.org/9780521475693][book_calloway_1995]
+- Cameron, Cristopher. 2014. *To Plead Our Own Cause: African Americans in Massachusetts and the Making of the Antislavery Movement*. The Kent State University Press. [https://www.kentstateuniversitypress.com/2014/to-plead-our-own-cause/][book_cameron_2014]
+- Cappon, Lester Jesse. 1959. *The Adams-Jefferson Letters: The Complete Correspondence between Thomas Jefferson and Abigail and John Adams*. University of North Carolina Press. [https://uncpress.org/book/9780807842300/the-adams-jefferson-letters/][book_cappon_1959]
+- Carey, Patrick W. 1996. *The Roman Catholics in America*. Praeger. [https://openlibrary.org/works/OL2569320W][book_carey_1996]
+- Chauncy, Charles. 1743. *Seasonable Thoughts on the State of Religion in New-England: A Treatise in Five Parts ; with a Preface Giving an Account of the Antinomians, Familists and Libertines, Who Infected These Churches, above an Hundred Years Ago: Very Needful r These Days ; the like Spirit Prevailing Now as Did Then. the Whole Being Intended, and Calculated, to Serve the Interest of Christ's Kingdom*. Rogers and Fowle, for Samuel Eliot in Cornhill. [https://quod.lib.umich.edu/e/evans/N04440.0001.001][book_chauncy_1743]
+- Clark, Emily. 2007. *Masterless Mistresses: The New Orleans Ursulines and the Development of a New World Society, 1727-1834*. The University of North Carolina Press. [https://uncpress.org/book/9780807860977/masterless-mistresses/][book_clark_2007]
+- Coffman, Ralph J. 1994. *Solomon Stoddard*. Twayne Publishers. [https://openlibrary.org/works/OL4963427W][book_coffman_1994]
+- Colden, Cadwallader. 1727. *History of the Five Indian Nations Depending on the Province of New-York in America*. Printed and sold by William Bradford. [https://oll.libertyfund.org/titles/colden-history-of-the-five-indian-nations][book_colden_1727]
+- *Common Sense by Thomas Paine*. 1776. [https://www.gutenberg.org/ebooks/147][ref_paine_common_sense_1776]
+- Corrigan, John. 1991. *The Prism of Piety: Catholick Congregational Clergy at the Beginning of the Enlightenment*. Oxford University Press. [https://global.oup.com/academic/product/the-prism-of-piety-9780195068542][book_corrigan_1991]
+- Cotterill, R. S. 1954. *The Southern Indians: The Story of the Civilized Tribes before Removal*. University of Oklahoma Press. [https://www.oupress.com/9780806112589/the-southern-indians/][book_cotterill_1954]
+- Cowing, Cedric B. 1971. *The Great Awakening and the American Revolution: Colonial Thought in the 18th Century*. Rand McNally. [https://openlibrary.org/works/OL3492895W][book_cowing_1971]
+- Cross. 1988. *The Mennonites*. [https://scholar.google.com/scholar?q=cross+1988+the+mennonites][book_cross_1988]
+- Cumfer, Cynthia. 2007. *Separate Peoples, One Land: The Minds of Cherokees, Blacks, and Whites on the Tennessee Frontier*. The University of North Carolina Press. [https://uncpress.org/book/9780807858172/separate-peoples-one-land/][book_cumfer_2007]
+- Curran, Robert Emmett. 1993. *The Bicentennial History of Georgetown University*. Georgetown University Press. [https://georgetownupress.georgetown.edu/9780878405206/the-bicentennial-history-of-georgetown-university/][book_curran_1993]
+- Curry, Thomas J. 1986. *The First Freedoms: Church and State in America to the Passage of the First Amendment*. Oxford University Press. [https://global.oup.com/academic/product/the-first-freedoms-9780195051810][book_curry_1986]
+- Dessens, Nathalie. 2007. *From Saint-Domingue to New Orleans: Migration and Influences (Southern Dissent)*. University Press of Florida. [https://upress.ufl.edu/9780813031477][book_dessens_2007]
+- Din, Gilbert C. 1988. *The Canary Islanders of Louisiana*. Louisiana State University Press. [https://lsupress.org/9780807114186/the-canary-islanders-of-louisiana/][book_din_1988]
+- Din, Gilbert C. 1999. *Spaniards, Planters, and Slaves: The Spanish Regulation of Slavery in Louisiana, 1763-1803*. Texas A&M University Press. [https://lsupress.org/9780807124352/spaniards-planters-and-slaves/][book_din_1999]
+- Draper, Lyman Copeland. 1881. *King's Mountain and Its Heroes: History of the Battle ... and the Events Which Led to It ..*. P.G. Thomson. [https://archive.org/details/kingsmountainits00drap][book_draper_1881]
+- Edwards, Jonathan. 1737. *A Faithful Narrative of the Surprizing Work of God*. [https://oll.libertyfund.org/titles/edwards-a-faithful-narrative][book_edwards_1737]
+- Edwards, Jonathan. 1741. *Sinners in the Hands of an Angry God.: A Sermon Preached at Enfield, July 8th 1741. at a Time of Great Awakenings; and Attended with Remarkable Impressions on Many of the Hearers*. Printed and sold by S. Kneeland and T. Green in Queen-Street over against the prison. [https://oll.libertyfund.org/titles/edwards-sinners-in-the-hands-of-an-angry-god][book_edwards_1741_sinners]
+- Edwards, Jonathan. 1746. *A Treatise Concerning Religious Affections (Volume 4) (Notable American Authors)*. [https://yalebooks.yale.edu/book/9780300158397/religious-affections/][book_edwards_1746]
+- Edwards. 1754. *Freedom of the Will*. [https://oll.libertyfund.org/titles/edwards-freedom-of-the-will][book_edwards_1754]
+- Edwards. 1758. *The Nature of True Virtue*. [https://oll.libertyfund.org/titles/edwards-the-nature-of-true-virtue][book_edwards_1758]
+- Egerton, Douglas R. 2009. *Death or Liberty: African Americans and Revolutionary America*. Oxford University Press. [https://global.oup.com/academic/product/death-or-liberty-9780195330267][book_egerton_2009]
+- Fea, John. 2011. *Was America Founded as a Christian Nation?: A Historical Introduction*. Westminster John Knox Press. [https://www.wjkbooks.com/Products/0664235042/was-america-founded-as-a-christian-nation.aspx][book_fea_2011]
+- Fenton. 2006. *Religious Liberties*. [https://scholar.google.com/scholar?q=fenton+2006+religious+liberties][book_fenton_2006]
+- Fischer, David Hackett. 1989. *Albion's Seed: Four British Folkways in America*. Oxford University Press. [https://global.oup.com/academic/product/albions-seed-9780195069051][book_fischer_1989]
+- Fogleman, Aaron Spencer. 1996. *Hopeful Journeys: German Immigration, Settlement, and Political Culture in Colonial America, 1717-1775*. University of Pennsylvania Press. [https://www.pennpress.org/9780812216271/hopeful-journeys/][book_fogleman_1996]
+- Fogleman, Aaron Spencer. 2007. *Jesus Is Female: Moravians and the Challenge of Radical Religion in Early America*. University of Pennsylvania Press. [https://www.pennpress.org/9780812220216/jesus-is-female/][book_fogleman_2007]
+- Formisano, Ronald P. 1983. *The Transformation of Political Culture: Massachusetts Parties, 1790s-1840s*. Oxford University Press. [https://global.oup.com/academic/product/the-transformation-of-political-culture-9780195033281][book_formisano_1983]
+- Franklin, Benjamin. 1728. *Articles of Belief and Acts of Religion Vol.2*. Reprint Services Corporation. [https://founders.archives.gov/documents/Franklin/01-01-02-0041][book_franklin_1728]
+- Franklin, Benjamin. 1791. *The Autobiography of Benjamin Franklin*. Washington Square Press. [https://oll.libertyfund.org/titles/franklin-the-autobiography-of-benjamin-franklin][book_franklin_autobiography]
+- Frey, Sylvia R. 1991. *Water from the Rock: Black Resistance in a Revolutionary Age*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691006260/water-from-the-rock][book_frey_1991]
+- Frey, Sylvia R., and Wood. 1998. *Come Shouting to Zion: African American Protestantism in the American South and British Caribbean to 1830*. University of North Carolina Press. [https://uncpress.org/book/9780807847596/come-shouting-to-zion/][book_frey_wood_1998]
+- Gaustad, Edwin S. 1996. *Sworn on the Altar of God: A Religious Biography of Thomas Jefferson*. Eerdmans Publishing Company, William B. [https://openlibrary.org/works/OL36099560W][book_gaustad_1996]
+- Glatfelter, Charles Henry. 1980. *Pastors and People: German Lutheran and Reformed Churches in the Pennsylvania Field, 1717-1793*. Pennsylvania German Society. [https://openlibrary.org/works/OL2790728W][book_glatfelter_1980]
+- Good, James I. 1899. *History of the Reformed Church in the United States, 1725-1792*. D. Miller. [https://archive.org/details/historyofreforme00good][book_good_1899]
+- Gould. 1996. *Chained to the Rock of Adversity*. [https://scholar.google.com/scholar?q=gould+1996+chained+rock+adversity+louisiana][book_gould_1996]
+- Graymont, Barbara. 1972. *The Iroquois in the American Revolution*. Syracuse University Press. [https://syracuseuniversitypress.syr.edu/9780815600831/the-iroquois-in-the-american-revolution/][book_graymont_1972]
+- Green, Steven K. 2010. *The Second Disestablishment: Church and State in Nineteenth-Century America*. Oxford University Press. [https://global.oup.com/academic/product/the-second-disestablishment-9780195399462][book_green_2010]
+- Griffin, Patrick. 2001. *The People with No Name: Ireland's Ulster Scots, America's Scots Irish, and the Creation of a British Atlantic World, 1689-1764*. Princeton University Press. [https://global.oup.com/academic/product/the-people-with-no-name-9780691074627][book_griffin_2001]
+- Grinde, Donald A., and Johansen. 1991. *Exemplar of Liberty: Native America and the Evolution of Democracy*. American Indian Studies Center, University of California, Los Angeles. [https://uapress.arizona.edu/book/exemplar-of-liberty][book_grinde_johansen_1991]
+- Hall, Gwendolyn Midlo. 1992. *Africans in Colonial Louisiana: The Development of Afro-Creole Culture in the Eighteenth-Century*. LSU Press. [https://lsupress.org/9780807119990/africans-in-colonial-louisiana/][book_hall_1992]
+- Hamburger, Philip. 2002. *Separation of Church and State*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674013605][book_hamburger_2002]
+- Hanger, Kimberly S. 1997. *Bounded Lives, Bounded Places: Free Black Society in Colonial New Orleans, 1769 1803*. Duke University Press. [https://dukeupress.edu/bounded-lives-bounded-places][book_hanger_1997]
+- Hanley, Thomas O'Brien. 1976. *Charles Carroll of Carrollton: The Making of a Revolutionary Gentleman*. Catholic University of America Press. [https://openlibrary.org/works/OL5360842W][book_hanley_1976]
+- Harper. 2014. *Unsettling the West*. [https://cornellpress.cornell.edu/book/9780801452925/unsettling-the-west/][book_harper_2014]
+- Hart, Mary Francis Borgia. 1976. *Violets in the King's Garden: A History of the Sisters of the Holy Family of New Orleans*. Hart. [https://openlibrary.org/works/OL6953287W][book_hart_1976]
+- Hatch, Nathan O. 1977. *The Sacred Cause of Liberty: Republican Thought Andthe Millennium in Revolutionary New England*. Yale University Press. [https://yalebooks.yale.edu/book/9780300019506/the-sacred-cause-of-liberty/][book_hatch_1977]
+- Heimert, Alan. 1966. *Religion and the American Mind: From the Great Awakening to the Revolution*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674755390][book_heimert_1966]
+- Hempton, David. 2005. *Methodism: Empire of the Spirit*. Yale University Press. [https://yalebooks.yale.edu/book/9780300119763/methodism/][book_hempton_2005]
+- Hennesey, James J. 1981. *American Catholics: A History of the Roman Catholic Community in the United States*. Oxford University Press. [https://global.oup.com/academic/product/american-catholics-9780195030525][book_hennesey_1981]
+- Heyrman, Christine Leigh. 1997. *Southern Cross: The Beginnings of the Bible Belt*. University of North Carolina Press. [https://wwnorton.com/books/Southern-Cross][book_heyrman_1997]
+- Hofstra, Warren R. 2011. *Ulster to America: The Scots-Irish Migration Experience, 1680-1830*. University of Tennessee Press. [https://uapress.ua.edu/product/Ulster-to-America,4993.aspx][book_hofstra_2011]
+- Holifield, E. Brooks. 2003. *Theology in America: Christian Thought from the Age of the Puritans to the Civil War*. Yale University Press. [https://yalebooks.yale.edu/book/9780300107654/theology-in-america/][book_holifield_2003]
+- Holmes, David Lynn. 2006. *The Faiths of the Founding Fathers*. Oxford University Press. [https://global.oup.com/academic/product/the-faiths-of-the-founding-fathers-9780195300925][book_holmes_2006]
+- Holton, Woody. 1999. *Forced Founders: Indians, Debtors, Slaves, and the Making of the American Revolution in Virginia*. University of North Carolina Press. [https://uncpress.org/book/9780807847848/forced-founders/][book_holton_1999]
+- Howe, Daniel Walker. 1970. *The Unitarian Conscience: Harvard Moral Philosophy, 1805-1861*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674920309][book_howe_1970]
+- *The Imaginary Invalid by Molière*. 1754. [https://www.gutenberg.org/ebooks/9070][ref_edwards_freedom_of_the_will_1754]
+- Isaac, Rhys. 1982. *The Transformation of Virginia, 1740-1790*. University of North Carolina Press. [https://uncpress.org/book/9780807842140/the-transformation-of-virginia-1740-1790/][book_isaac_1982]
+- Jacob, Margaret C. 1991. *Living the Enlightenment: Freemasonry and Politics in Eighteenth-Century Europe*. Oxford University Press. [https://global.oup.com/academic/product/living-the-enlightenment-9780195070613][book_jacob_1991]
+- Jefferson. 1820. *The Life and Morals of Jesus of Nazareth*. [https://www.smithsonianmag.com/history/jefferson-bible-online/][book_jefferson_1820]
+- Kelsay, Isabel Thompson. 1984. *Joseph Brant 1743-1807: Man of Two Worlds*. Syracuse University Press. [https://openlibrary.org/works/OL45664892W][book_kelsay_1984]
+- Kenny, Kevin. 2000. *The American Irish*. New York. [https://www.penguinrandomhouse.com/books/298907/the-american-irish-by-kevin-kenny/][book_kenny_2000]
+- Kidd, Thomas S. 2007. *The Great Awakening: The Roots of Evangelical Christianity in Colonial America*. Yale University Press. [https://yalebooks.yale.edu/book/9780300158465/the-great-awakening/][book_kidd_2007]
+- Kidd, Thomas S. 2010. *God of Liberty: A Religious History of the American Revolution*. Basic Books. [https://basicbooks.com/titles/thomas-s-kidd/god-of-liberty/9780465002351/][book_kidd_2010]
+- Klein, Rachel N. 1990. *Unification of a Slave State: The Rise of the Planter Class in the South Carolina Backcountry, 1760-1808*. University of North Carolina Press. [https://uncpress.org/book/9780807842911/unification-of-a-slave-state/][book_klein_1990]
+- *Klein Zaches, Genannt Zinnober: Ein Märchen by E. T. a. Hoffmann*. 1741. [https://www.gutenberg.org/ebooks/9200][ref_edwards_sinners_in_the_hands_1741]
+- Klepp. 1998. *Revolutionary Conceptions*. [https://uncpress.org/book/9780807829233/revolutionary-conceptions/][book_klepp_1998]
+- Kramnick, Isaac, and Moore. 2005. *The Godless Constitution: A Moral Defense of the Secular State*. W. W. Norton. [https://wwnorton.com/books/The-Godless-Constitution][book_kramnick_moore_2005]
+- Lambert. 1994. *Inventing the Great Awakening*. [https://press.princeton.edu/books/paperback/9780691011882/inventing-the-great-awakening][book_lambert_1994]
+- Lambert, Frank. 1999. *Pedlar in Divinity: George Whitefield and the Transatlantic Revivals, 1737-1770*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691118932/pedlar-in-divinity][book_lambert_1999]
+- Larson, Edward J. 2007. *A Magnificent Catastrophe: The Tumultuous Election of 1800: America's First Presidential Campaign*. Free Press. [https://www.hachettebookgroup.com/titles/edward-j-larson/a-magnificent-catastrophe/9780743293174/][book_larson_2007]
+- Levy, Leonard W. 1988. *The Establishment Clause: Religion and the First Amendment*. MacMillan Publishing Company. [https://uncpress.org/book/9780807842492/the-establishment-clause/][book_levy_1988_establishment]
+- Lincoln, C. Eric, and Mamiya. 1990. *The Black Church in the African-American Experience*. Duke University Press. [https://www.dukeupress.edu/the-black-church-in-the-african-american-experience][book_lincoln_mamiya_1990]
+- Litwack, Leon F. 1961. *North of Slavery: The Negro in the Free States, 1790-1860*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/N/bo3684072.html][book_litwack_1961]
+- Longenecker, Stephen L. 1994. *Piety and Tolerance: Pennsylvania German Religion, 1700-1850*. Scarecrow Press. [https://openlibrary.org/works/OL3961150W][book_longenecker_1994]
+- Longfield, Bradley J. 2013. *Presbyterians and American Culture: A History*. Westminster John Knox Press. [https://global.oup.com/academic/product/presbyterians-and-american-culture-9780664233150][book_longfield_2013]
+- Madison, James. 1785. *A Memorial and Remonstrance, Presented to the General Assembly of the State of Virginia, at Their Session in 1785, in Consequence of a Bill Brought into That Assembly for the Establishment of Religion by Law*. by Isaiah Thomas. [https://founders.archives.gov/documents/Madison/01-08-02-0163][book_madison_1785]
+- Mann, Barbara Alice. 2000. *Iroquoian Women: The Gantowisas*. P. Lang. [https://www.peterlang.com/document/1104894][book_mann_2000]
+- Manross, William Wilson. 1959. *A History of the American Episcopal Church*. Morehouse-Gorham. [https://openlibrary.org/works/OL20105819W][book_manross_1959]
+- Marcus, Jacob Rader. 1970. *The Colonial American Jew, 1492-1776*. Wayne State University Press. [https://www.wayneupress.wayne.edu/book/9780814315200/the-colonial-american-jew][book_marcus_1970]
+- Marietta, Jack D. 1984. *The Reformation of American Quakerism, 1748-1783*. University of Pennsylvania Press. [https://www.pennpress.org/9780812218909/the-reformation-of-american-quakerism/][book_marietta_1984]
+- Marini, Stephen A. 1982. *Radical Sects of Revolutionary New England*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674745704][book_marini_1982]
+- Marsden, George M. 1970. *The Evangelical Mind and the New School Presbyterian Experience: A Case Study of Thought and Theology in Nineteenth-Century America*. Yale University Press. [https://yalebooks.yale.edu/book/9780300012705/the-evangelical-mind-and-the-new-school-presbyterian-experience/][book_marsden_1970]
+- Marsden, George M. 2003. *Jonathan Edwards: A Life*. Yale University Press. [https://yalebooks.yale.edu/book/9780300105964/jonathan-edwards/][book_marsden_2003]
+- Marsden. 2013. *The New England Soul*. [https://global.oup.com/academic/product/the-new-england-soul-9780195028034][book_marsden_2013]
+- May, Henry Farnham. 1976. *The Enlightenment in America*. Oxford University Press. [https://global.oup.com/academic/product/the-enlightenment-in-america-9780195023657][book_may_1976]
+- McDermott, Gerald R. 2009. *Understanding Jonathan Edwards: An Introduction to America's Theologian*. Ebsco Publishing. [https://www.eerdmans.com/9780802865144/understanding-jonathan-edwards/][book_mcdermott_2009]
+- McLoughlin, William G. 1971. *New England Dissent, 1630-1833: The Baptists and the Separation of Church and State*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674612266][book_mcloughlin_1971]
+- McLoughlin. 1984. *The Cherokees and Christianity*. [https://scholar.google.com/scholar?q=mcloughlin+1984+cherokees+christianity][book_mcloughlin_1984]
+- McMichael, Andrew. 2008. *Atlantic Loyalties: Americans in Spanish West Florida, 1785-1810*. University of Georgia Press. [https://uapress.ua.edu/product/Atlantic-Loyalties,4116.aspx][book_mcmichael_2008]
+- Meacham, Jon. 2006. *American Gospel: God, the Founding Fathers, and the Making of a Nation*. Random House. [https://www.penguinrandomhouse.com/books/76008/american-gospel-by-jon-meacham/][book_meacham_2006]
+- Mekeel, Arthur J. 1979. *Relation of the Quakers to the American Revolution*. University Press of America. [https://openlibrary.org/works/OL6577860W][book_mekeel_1979]
+- Melish, Joanne Pope. 1998. *Disowning Slavery: Gradual Emancipation and "Race" in New England, 1780-1860*. Cornell University Press. [https://cornellpress.cornell.edu/book/9780801484469/disowning-slavery/][book_melish_1998]
+- Merrell, James Hart. 1989. *The Indians' New World: Catawbas and Their Neighbors from European Contact through the Era of Removal*. University of North Carolina Press. [https://uncpress.org/book/9780807842126/the-indians-new-world/][book_merrell_1989]
+- Merritt, Jane T. 2003. *At the Crossroads: Indians and Empires on a Mid-Atlantic Frontier, 1700-1763*. University of North Carolina Press. [https://uncpress.org/book/9780807854853/at-the-crossroads/][book_merritt_2003]
+- Middlekauff, Robert. 1982. *The Glorious Cause: The American Revolution, 1763-1789*. Oxford University Press. [https://global.oup.com/academic/product/the-glorious-cause-9780195162479][book_middlekauff_1982]
+- Miller. 1976. *The First Liberty*. [https://scholar.google.com/scholar?q=miller+1976+first+liberty+presbyterians+revolution][book_miller_1976]
+- Miller, Russell E. 1979. *The Larger Hope*. Unitarian Universalist Association. [https://uupress.org/product/the-larger-hope/][book_miller_1979]
+- Miller. 2019. *Modernity and the Sacred*. [https://scholar.google.com/scholar?q=miller+2019+modernity+sacred][book_miller_2019]
+- Mintz, Max M. 1999. *Seeds of Empire: The American Revolutionary Conquest of the Iroquois*. New York University. [https://global.oup.com/academic/product/seeds-of-empire-9780195170351][book_mintz_1999]
+- Mullin. 1986. *Episcopal Vision and American Reality*. [https://global.oup.com/academic/product/episcopal-vision-american-reality-9780195037982][book_mullin_1986]
+- Muñoz, Vincent Phillip. 2009. *God and the Founders: Madison, Washington, and Jefferson*. Cambridge University Press. [https://www.cambridge.org/9780521735797][book_munoz_2009]
+- Nash, Gary B. 1991. *Race and Revolution*. Madison House. [https://uapress.wisc.edu/9780299129149/race-and-revolution/][book_nash_1991]
+- Nash, Gary B., and Gary Nash. 1979. *The Urban Crucible: Social Change, Political Consciousness, and the Origins of the American Revolution*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674931060][book_nash_1979]
+- Nash, Gary B., and Jean R. Soderlund. 1991. *Freedom by Degrees: Emancipation in Pennsylvania and Its Aftermath*. Oxford University Press. [https://global.oup.com/academic/product/freedom-by-degrees-9780195085424][book_nash_soderlund_1991]
+- Nelson, E. Clifford. 1998. *The Lutherans in North America*. Fortress Press. [https://openlibrary.org/works/OL18319081W][book_nelson_1998]
+- Nelson, John K. 2001. *A Blessed Company: Parishes, Parsons, and Parishioners in Anglican Virginia, 1690-1776*. The University of North Carolina Press. [https://uncpress.org/book/9780807826973/a-blessed-company/][book_nelson_2001]
+- Newman, Richard S. 2008. *Freedom's Prophet: Bishop Richard Allen, the AME Church, and the Black Founding Fathers*. New York University Press. [https://nyupress.org/9780814758618/freedoms-prophet/][book_newman_2008]
+- Noll, Mark A. 2003. *The Rise of Evangelicalism: The Age of Edwards, Whitefield, and the Wesleys*. InterVarsity Press. [https://ivpress.com/the-rise-of-evangelicalism][book_noll_2003]
+- Nolt, Steven M. 2004. *Foreigners in Their Own Land: Pennsylvania Germans in the Early Republic*. Pennsylvania State University Press. [https://jhupress.jhu.edu/9780801880049/foreigners-in-their-own-land/][book_nolt_2004]
+- Nolt, Steven M. 2015. *A History of the Amish: Revised and Updated*. Good Books. [https://jhupress.jhu.edu/9781421418575/a-history-of-the-amish/][book_nolt_2015]
+- O'Toole, James M. 2008. *The Faithful: A History of Catholics in America*. Belknap Press. [https://www.hup.harvard.edu/books/9780674034686][book_otoole_2008]
+- Olmstead. 1991. *David Zeisberger*. [https://kentstateuniversitypress.com/1991/david-zeisberger/][book_olmstead_1991]
+- Onuf, Peter S. 1987. *Statehood and Union: A History of the Northwest Ordinance*. Indiana University Press. [https://iupress.org/9780253203533/statehood-and-union/][book_onuf_1987]
+- Paine, Thomas. 1794. *The Age of Reason: Being an Investigation of True and Fabulous Theology*. Barrois. [https://oll.libertyfund.org/titles/paine-the-age-of-reason][book_paine_1794]
+- Palmer, E., and Elihu Palmer. 1801. *Principles of Nature*. s.n. [https://archive.org/details/principlesnatur01palmgoog][book_palmer_1801]
+- Patrick. 2014. *The Life and Times of Samuel Kirkland*. [https://syracuseuniversitypress.syr.edu/9780815633471/the-life-and-times-of-samuel-kirkland/][book_patrick_2014]
+- Perdue, Theda. 1979. *Slavery and the Evolution of Cherokee Society, 1540-1866*. University of Tennessee Press. [https://www.nebraskapress.unl.edu/nebraska/9780803287587/][book_perdue_1979]
+- Peterson. 1998. *American Deism*. [https://scholar.google.com/scholar?q=peterson+1998+american+deism][book_peterson_1998]
+- Prichard, Robert W. 1999. *A History of the Episcopal Church*. Morehouse Pub. [https://www.churchpublishing.org/products/9780898692112][book_prichard_1999]
+- Prucha, Francis Paul. 1994. *American Indian Treaties: The History of a Political Anomaly*. University of California Press. [https://www.oupress.com/9780806134796/american-indian-treaties/][book_prucha_1994]
+- Pybus, Cassandra. 2006. *Epic Journeys of Freedom: Runaway Slaves of the American Revolution and Their Global Quest for Liberty*. Beacon Press. [https://beaconpress.com/books/epic-journeys-of-freedom][book_pybus_2006]
+- Raboteau, Albert J. 1978. *Slave Religion: The "Invisible Institution" in the Antebellum South*. Oxford University Press. [https://global.oup.com/academic/product/slave-religion-9780195174137][book_raboteau_1978]
+- Ragosta, John. 2010. *Wellspring of Liberty: How Virginia's Religious Dissenters Helped Win the American Revolution and Secured Religious Liberty*. Oxford University Press. [https://global.oup.com/academic/product/wellspring-of-liberty-9780199745593][book_ragosta_2010]
+- Rakove, Jack N. 1990. *James Madison and the Creation of the American Republic*. HarperCollins. [https://global.oup.com/academic/product/james-madison-and-the-creation-of-the-american-republic-9780673468512][book_rakove_1990]
+- Richter, Daniel K. 2001. *Facing East from Indian Country: A Native History of Early America*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674011175][book_richter_2001]
+- Robinson, David. 1985. *Unitarians and the Universalists*. ABC-CLIO, LLC. [https://greenwood.com/product/the-unitarians-and-the-universalists][book_robinson_1985]
+- Roeber, A. G. 1993. *Palatines, Liberty, and Property: German Lutherans in Colonial British America*. Johns Hopkins University Press. [https://jhupress.jhu.edu/9780801846267/palatines-liberty-and-property/][book_roeber_1993]
+- Rowe. 2013. *Sons of the Founders*. [https://uvapress.com/9780813933047/sons-of-the-founders/][book_rowe_2013]
+- Sarna, Jonathan D. 2004. *American Judaism: A History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300109764/american-judaism/][book_sarna_2004]
+- Schama, Simon. 2005. *Rough Crossings: Britain, the Slaves, and the American Revolution*. Viking Canada. [https://www.harpercollins.com/products/rough-crossings-simon-schama][book_schama_2005]
+- Scott, Rebecca J. 2008. *Degrees of Freedom: Louisiana and Cuba after Slavery*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674027596][book_scott_2008]
+- Sehat, David. 2011. *The Myth of American Religious Freedom*. Oxford University Press. [https://global.oup.com/academic/product/the-myth-of-american-religious-freedom-9780199997855][book_sehat_2011]
+- Sensbach, Jon F. 1998. *A Separate Canaan: The Making of an Afro-Moravian World in North Carolina, 1763-1840*. University of North Carolina Press. [https://uncpress.org/book/9780807847527/a-separate-canaan/][book_sensbach_1998]
+- Sensbach, Jon F. 2005. *Rebecca's Revival: Creating Black Christianity in the Atlantic World*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674021891][book_sensbach_2005]
+- Silverman, David J. 2016. *Thundersticks: Firearms and the Violent Transformation of Native America*. The Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674737471][book_silverman_2016]
+- Sinha, Manisha. 2016. *The Slave's Cause: A History of Abolition*. Yale University Press. [https://yalebooks.yale.edu/book/9780300182088/the-slaves-cause/][book_sinha_2016]
+- Slaughter, Thomas P. 1986. *The Whiskey Rebellion: Frontier Epilogue to the American Revolution*. Oxford University Press. [https://global.oup.com/academic/product/the-whiskey-rebellion-9780195051919][book_slaughter_1986]
+- Snow, Dean R. 1994. *The Iroquois*. Blackwell. [https://www.wiley.com/en-us/The+Iroquois-p-9781557863379][book_snow_1994]
+- Sobel, Mechal. 1988. *Trabelin' On: The Slave Journey to an Afro-Baptist Faith*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691006376/trabelin-on][book_sobel_1988]
+- Stein, Stephen J. 1992. *The Shaker Experience in America: A History of the United Society of Believers*. Yale University Press. [https://yalebooks.yale.edu/book/9780300054392/the-shaker-experience-in-america/][book_stein_1992]
+- Stout, Harry S. 1991. *The Divine Dramatist: George Whitefield and the Rise of Modern Evangelicalism*. W.B. Eerdmans. [https://www.eerdmans.com/9780802801296/the-divine-dramatist/][book_stout_1991]
+- Sweeney, Douglas A. 2005. *The American Evangelical Story: A History of the Movement*. Baker Academic. [https://bakerpublishinggroup.com/books/the-american-evangelical-story/321380][book_sweeney_2005]
+- Tabbert, Mark. 2005. *American Freemasons: Three Centuries of Building Communities*. NYU Press. [https://nyupress.org/9780814783023/american-freemasons/][book_tabbert_2005]
+- Taylor, Alan. 2006. *The Divided Ground: Indians, Settlers and the Northern Borderland of the American Revolution*. Alfred A. Knopf. [https://global.oup.com/academic/product/the-divided-ground-9780679761174][book_taylor_2006]
+- Taylor, Alan. 2016. *American Revolutions: A Continental History, 1750-1804*. Norton & Company, Incorporated, W. W. [https://wwnorton.com/books/9780393082814][book_taylor_2016]
+- Tennent, Gilbert. 1740. *The Danger of an Unconverted Ministry: Considered in a Sermon on Mark VI. 34. Preached at Nottingham, in Pennsylvania, March 8. Anno 1739,40*. Benjamin Franklin, in Market-Street. [https://quod.lib.umich.edu/e/evans/N04128.0001.001][book_tennent_1740]
+- Thornton, Russell. 1987. *American Indian Holocaust and Survival: A Population History since 1492*. University of Oklahoma Press. [https://www.oupress.com/9780806121758/american-indian-holocaust-and-survival/][book_thornton_1987]
+- Tiro, Karim M. 2011. *The People of the Standing Stone: The Oneida Nation from the Revolution through the Era of Removal*. University of Massachusetts Press. [https://www.umasspress.com/9781625340009/the-people-of-the-standing-stone/][book_tiro_2011]
+- Trinterud, Leonard J. 1949. *The Forming of an American Tradition: A Re-Examination of Colonial Presbyterianism*. Westminster Press. [https://openlibrary.org/works/OL6830271W][book_trinterud_1949]
+- Usner, Daniel H. 1992. *Indians, Settlers & Slaves in a Frontier Exchange Economy: The Lower Mississippi Valley before 1783*. University of North Carolina Press. [https://uncpress.org/book/9780807820803/indians-settlers-and-slaves-in-a-frontier-exchange-economy/][book_usner_1992]
+- Vidal, Cécile. 2014. *Louisiana: Crossroads of the Atlantic World*. University of Pennsylvania Press. [https://www.pennpress.org/9780812246025/louisiana/][book_vidal_2014]
+- Virginia Statute. 1786. *for Religious Freedom*. [https://encyclopediavirginia.org/entries/virginia-statute-for-establishing-religious-freedom-1786/][book_virginia_statute_1786]
+- Waldman, Steven. 2008. *Founding Faith: The Birth of Religious Freedom in America*. Random House. [https://www.penguinrandomhouse.com/books/71830/founding-faith-by-steven-waldman/][book_waldman_2008]
+- Waldstreicher, David. 2004. *Runaway America: Benjamin Franklin, Slavery, and the American Revolution*. Hill and Wang. [https://us.macmillan.com/books/9780809083152/runawayamerica][book_waldstreicher_2004]
+- Wallace, Anthony F. C. 1999. *Jefferson and the Indians: The Tragic Fate of the First Americans*. Belknap Press. [https://www.hup.harvard.edu/books/9780674005488][book_wallace_1999]
+- Walters, Kerry S. 1992. *Rational Infidels: The American Deists*. Longwood Academic. [https://uklibraryumb.edu/walters-rational-infidels][book_walters_1992]
+- Wells, Robert V. 1975. *Population of the British Colonies in America before 1776*. Princeton University Press, Prrinceton, New Jersey. [https://press.princeton.edu/books/hardcover/9780691052755/the-population-of-the-british-colonies][book_wells_1975]
+- Wentz, Abdel Ross. 1955. *A Basic History of Lutheranism in America*. Muhlenberg Press. [https://openlibrary.org/works/OL4945009W][book_wentz_1955]
+- Wheeler, Rachel. 2008. *To Live upon Hope*. Cornell University Press. [https://cornellpress.cornell.edu/book/9780801446146/to-live-upon-hope/][book_wheeler_2008]
+- Wigger, John. 1998. *Taking Heaven by Storm: Methodism and the Rise of Popular Christianity in America*. Oxford University Press. [https://global.oup.com/academic/product/taking-heaven-by-storm-9780252069895][book_wigger_1998]
+- Wigger, John H. 2009. *American Saint: Francis Asbury & the Methodists*. Oxford University Press. [https://global.oup.com/academic/product/american-saint-9780195387803][book_wigger_2009]
+- Wilentz, Sean. 2005. *The Rise of American Democracy: Jefferson to Lincoln*. Norton. [https://wwnorton.com/books/9780393329216][book_wilentz_2005]
+- Winiarski, Douglas L. 2017. *Darkness Falls on the Land of Light: Experiencing Religious Awakenings in Eighteenth-Century New England*. Omohundro Institute of Early American History & Culture. [https://uncpress.org/book/9781469646886/darkness-falls-on-the-land-of-light/][book_winiarski_2017]
+- Wokeck, Marianne Sophia. 1999. *Trade in Strangers: The Beginnings of Mass Migration to North America*. Ebsco Publishing. [https://www.psupress.org/books/titles/0-271-01834-x.html][book_wokeck_1999]
+- Wood, Gordon S. 1969. *The Creation of the American Republic, 1776-1787*. University of North Carolina Press. [https://uncpress.org/book/9780807847237/the-creation-of-the-american-republic-1776-1787/][book_wood_1969]
+- Wood, Gordon S. 1992. *The Radicalism of the American Revolution*. A.A. Knopf. [https://www.penguinrandomhouse.com/books/165080/the-radicalism-of-the-american-revolution-by-gordon-s-wood/][book_wood_1992]
+- Wood, Gordon S. 2009. *The United States: The Early Republic*. Oxford University Press. [https://global.oup.com/academic/product/empire-of-liberty-9780195039146][book_wood_2009]
+- Woodmason, Charles. 1953. *The Carolina Backcountry on the Eve of the Revolution: The Journal and Other Writings of Charles Woodmason, Anglican Itinerant*. University of North Carolina Press. [https://uncpress.org/book/9780807804063/the-carolina-backcountry-on-the-eve-of-the-revolution/][book_woodmason_1953]
+- Woodson, Carter Godwin. 1921. *The History of the Negro Church*. 12th Media Services. [https://openlibrary.org/works/OL48133W][book_woodson_1921]
+- Wright, Conrad. 1955. *The Beginnings of Unitarianism in America*. Starr King Press. [https://openlibrary.org/works/OL1706652W][book_wright_1955]
+- Yoder, Don. 1985. *Discovering American Folklife*. [https://openlibrary.org/works/OL31973W][book_yoder_1985]
+- Zilversmit, Arthur. 1967. *The First Emancipation: The Abolition of Slavery in the North*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/F/bo3634068.html][book_zilversmit_1967]
+
+### General Sources
+
+- "The 1789 U. S. Book of Common Prayer." 1789. Accessed October 25, 2026. [https://justus.anglican.org/resources/bcp/1789/BCP\_1789.htm][book_bcp_1789]
+- Chauncy Seasonable Thoughts. 1743. "primary text." [https://quod.lib.umich.edu/e/evans/N04440.0001.001][ref_chauncy_seasonable_thoughts_1743]
+- Ezra Stiles, D. D. 1783. "The United States Elevated to Glory and Honor (1783)." DigitalCommons@University of Nebraska - Lincoln. Accessed October 25, 2026. [https://digitalcommons.unl.edu/etas/41/][ref_stiles_united_states_elevated_1783]
+- "Founders Online: George Washington to the Hebrew Congregation in Newport, Rhode …." 1790. University of Virginia Press. Accessed October 25, 2026. [https://founders.archives.gov/documents/Washington/05-06-02-0135][ref_washington_letter_hebrew_congregation_newport_1790]
+- Gordon. 1974. "David George." [https://www.jstor.org/stable/40580672][research_gordon_1974]
+- Leland Rights of Conscience. 1791. "primary text." [https://www.baptiststudiesonline.com/leland-rights-of-conscience-1791][ref_leland_rights_of_conscience_1791]
+- Levy. 1996. "Iroquois Constitutional Influence." [https://www.jstor.org/stable/1170072][research_levy_1996]
+- Memorial and Remonstrance. 1785. "Founders Online: Memorial and Remonstrance against Religious Assessments, \[Ca. …." University of Virginia Press. Accessed October 25, 2026. [https://founders.archives.gov/documents/Madison/01-08-02-0163][ref_memorial_and_remonstrance_1785]
+- Methodist Christmas Conference. 1784. "minutes and records." [https://www.gcah.org/history/christmas-conference][ref_methodist_christmas_conference_1784]
+- "MHS Collections Online: Petition for Freedom (Manuscript Copy) to the Massachusetts Council and the House of Representatives, \[13\] January 1777." 1783. Accessed October 25, 2026. [https://www.masshist.org/database/557][ref_quock_walker_case_1783]
+- Somerset v Stewart. 1772. "primary text." [https://www.commonlii.org/uk/cases/EngR/1772/57.pdf][ref_somerset_v_stewart_1772]
+- Tennent Danger of an Unconverted Ministry. 1740. "primary text." [https://quod.lib.umich.edu/e/evans/N04128.0001.001][ref_tennent_danger_of_unconverted_ministry_1740]
+- Witherspoon Dominion of Providence. 1776. "primary text." [https://founding.com/founders-library/american-political-figures/john-witherspoon/the-dominion-of-providence-over-the-passions-of-men/][ref_witherspoon_dominion_of_providence_1776]
 
 ### Related Posts
 
-- [A266 Ethnoreligion Framing and Three Substrates][related_post_a266_framing]
-- [A267 Ethnoreligion Colonial Folkways and Early Diffusion][related_post_a267_colonial_folkways]
-
-### Research
-
-- [Butler 1982 Enthusiasm Described and Decried][research_butler_1982]
-- [Congress 1988 Concurrent Resolution 331][research_congress_1988]
-- [Gordon 1974 David George][research_gordon_1974]
-- [Levy 1996 Iroquois Constitutional Influence][research_levy_1996]
-- [MacEacheren 1970 Emancipation of Slavery in Massachusetts][research_maceacheren_1970]
-- [McConnell 1990 The Origins and Historical Understanding of Free Exercise][research_mcconnell_1990]
-- [Payne 1996 Iroquois Influence Thesis Critique][research_payne_1996]
-- [Tooker 1988 The United States Constitution and the Iroquois League][research_tooker_1988]
-- [Whittenburg 1977 Planters Merchants and Lawyers][research_whittenburg_1977]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Indigenous, African, and European Ethnoreligious Substrates." *Brendan A R Sechter's Development Blog*, January 3. [https://sgeos.github.io/history/economics/religion/2026/01/03/ethnoreligion\_and\_american\_political\_economy\_framing.html][related_post_a266_framing]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contact, Colonial Folkways, and Early Diffusion 1607-1725." *Brendan A R Sechter's Development Blog*, January 4. [https://sgeos.github.io/history/economics/religion/2026/01/04/ethnoreligion\_and\_american\_political\_economy\_colonial\_folkways.html][related_post_a267_colonial_folkways]
 
 [book_ahlstrom_1972]: https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/
 [book_alley_1985]: https://prometheusbooks.com/9780879759988/james-madison-on-religious-liberty/
@@ -734,14 +734,14 @@ This article follows the terminological conventions established in [A266][relate
 [book_baker_1976]: https://www.dukeupress.edu/from-wesley-to-asbury
 [book_banning_1995]: https://cornellpress.cornell.edu/book/9780801481468/the-sacred-fire-of-liberty/
 [book_bcp_1789]: https://justus.anglican.org/resources/bcp/1789/BCP_1789.htm
-[book_beaver_1966]: https://scholar.google.com/scholar?q=beaver+1966+church+state+american+indian
-[book_berkhofer_1965]: https://scholar.google.com/scholar?q=berkhofer+1965+salvation+savage
+[book_beaver_1966]: https://openlibrary.org/works/OL34569345W
+[book_berkhofer_1965]: https://openlibrary.org/works/OL3740845W
 [book_berlin_1974]: https://global.oup.com/academic/product/slaves-without-masters-9780195095609
 [book_berlin_1998]: https://www.hup.harvard.edu/books/9780674002111
 [book_blethen_wood_1997]: https://uapress.ua.edu/product/Ulster-and-North-America,3120.aspx
 [book_bloch_1985]: https://www.cambridge.org/9780521337106
 [book_boller_1963]: https://smu.edu/press/boller-washington-religion
-[book_bond_2000]: https://scholar.google.com/scholar?q=bond+2000+damned+souls+tobacco+colony
+[book_bond_2000]: https://openlibrary.org/works/OL222351W
 [book_bradley_1987]: https://scholar.google.com/scholar?q=bradley+1987+church+state+relationships+america
 [book_buchanan_1997]: https://wiley.com/en-us/The+Road+to+Guilford+Courthouse-p-9780471327165
 [book_buckley_1977]: https://uvapress.com/9780813915777/church-and-state-in-revolutionary-virginia/
@@ -751,14 +751,14 @@ This article follows the terminological conventions established in [A266][relate
 [book_calloway_1995]: https://www.cambridge.org/9780521475693
 [book_cameron_2014]: https://www.kentstateuniversitypress.com/2014/to-plead-our-own-cause/
 [book_cappon_1959]: https://uncpress.org/book/9780807842300/the-adams-jefferson-letters/
-[book_carey_1996]: https://scholar.google.com/scholar?q=carey+1996+roman+catholics+america
+[book_carey_1996]: https://openlibrary.org/works/OL2569320W
 [book_chauncy_1743]: https://quod.lib.umich.edu/e/evans/N04440.0001.001
 [book_clark_2007]: https://uncpress.org/book/9780807860977/masterless-mistresses/
-[book_coffman_1994]: https://scholar.google.com/scholar?q=coffman+1994+solomon+stoddard
+[book_coffman_1994]: https://openlibrary.org/works/OL4963427W
 [book_colden_1727]: https://oll.libertyfund.org/titles/colden-history-of-the-five-indian-nations
 [book_corrigan_1991]: https://global.oup.com/academic/product/the-prism-of-piety-9780195068542
 [book_cotterill_1954]: https://www.oupress.com/9780806112589/the-southern-indians/
-[book_cowing_1971]: https://scholar.google.com/scholar?q=cowing+1971+great+awakening+american+revolution
+[book_cowing_1971]: https://openlibrary.org/works/OL3492895W
 [book_cross_1988]: https://scholar.google.com/scholar?q=cross+1988+the+mennonites
 [book_cumfer_2007]: https://uncpress.org/book/9780807858172/separate-peoples-one-land/
 [book_curran_1993]: https://georgetownupress.georgetown.edu/9780878405206/the-bicentennial-history-of-georgetown-university/
@@ -783,8 +783,8 @@ This article follows the terminological conventions established in [A266][relate
 [book_franklin_autobiography]: https://oll.libertyfund.org/titles/franklin-the-autobiography-of-benjamin-franklin
 [book_frey_1991]: https://press.princeton.edu/books/paperback/9780691006260/water-from-the-rock
 [book_frey_wood_1998]: https://uncpress.org/book/9780807847596/come-shouting-to-zion/
-[book_gaustad_1996]: https://scholar.google.com/scholar?q=gaustad+1996+sworn+altar+god+jefferson
-[book_glatfelter_1980]: https://scholar.google.com/scholar?q=glatfelter+1980+pastors+people+pennsylvania+germans
+[book_gaustad_1996]: https://openlibrary.org/works/OL36099560W
+[book_glatfelter_1980]: https://openlibrary.org/works/OL2790728W
 [book_good_1899]: https://archive.org/details/historyofreforme00good
 [book_gould_1996]: https://scholar.google.com/scholar?q=gould+1996+chained+rock+adversity+louisiana
 [book_graymont_1972]: https://syracuseuniversitypress.syr.edu/9780815600831/the-iroquois-in-the-american-revolution/
@@ -794,9 +794,9 @@ This article follows the terminological conventions established in [A266][relate
 [book_hall_1992]: https://lsupress.org/9780807119990/africans-in-colonial-louisiana/
 [book_hamburger_2002]: https://www.hup.harvard.edu/books/9780674013605
 [book_hanger_1997]: https://dukeupress.edu/bounded-lives-bounded-places
-[book_hanley_1976]: https://scholar.google.com/scholar?q=hanley+1976+charles+carroll+carrollton
+[book_hanley_1976]: https://openlibrary.org/works/OL5360842W
 [book_harper_2014]: https://cornellpress.cornell.edu/book/9780801452925/unsettling-the-west/
-[book_hart_1976]: https://scholar.google.com/scholar?q=hart+1976+violets+kings+garden+louisiana
+[book_hart_1976]: https://openlibrary.org/works/OL6953287W
 [book_hatch_1977]: https://yalebooks.yale.edu/book/9780300019506/the-sacred-cause-of-liberty/
 [book_heimert_1966]: https://www.hup.harvard.edu/books/9780674755390
 [book_hempton_2005]: https://yalebooks.yale.edu/book/9780300119763/methodism/
@@ -810,7 +810,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_isaac_1982]: https://uncpress.org/book/9780807842140/the-transformation-of-virginia-1740-1790/
 [book_jacob_1991]: https://global.oup.com/academic/product/living-the-enlightenment-9780195070613
 [book_jefferson_1820]: https://www.smithsonianmag.com/history/jefferson-bible-online/
-[book_kelsay_1984]: https://scholar.google.com/scholar?q=kelsay+1984+joseph+brant
+[book_kelsay_1984]: https://openlibrary.org/works/OL45664892W
 [book_kenny_2000]: https://www.penguinrandomhouse.com/books/298907/the-american-irish-by-kevin-kenny/
 [book_kidd_2007]: https://yalebooks.yale.edu/book/9780300158465/the-great-awakening/
 [book_kidd_2010]: https://basicbooks.com/titles/thomas-s-kidd/god-of-liberty/9780465002351/
@@ -823,11 +823,11 @@ This article follows the terminological conventions established in [A266][relate
 [book_levy_1988_establishment]: https://uncpress.org/book/9780807842492/the-establishment-clause/
 [book_lincoln_mamiya_1990]: https://www.dukeupress.edu/the-black-church-in-the-african-american-experience
 [book_litwack_1961]: https://press.uchicago.edu/ucp/books/book/chicago/N/bo3684072.html
-[book_longenecker_1994]: https://scholar.google.com/scholar?q=longenecker+1994+piety+tolerance
+[book_longenecker_1994]: https://openlibrary.org/works/OL3961150W
 [book_longfield_2013]: https://global.oup.com/academic/product/presbyterians-and-american-culture-9780664233150
 [book_madison_1785]: https://founders.archives.gov/documents/Madison/01-08-02-0163
 [book_mann_2000]: https://www.peterlang.com/document/1104894
-[book_manross_1959]: https://scholar.google.com/scholar?q=manross+1959+history+american+episcopal+church
+[book_manross_1959]: https://openlibrary.org/works/OL20105819W
 [book_marcus_1970]: https://www.wayneupress.wayne.edu/book/9780814315200/the-colonial-american-jew
 [book_marietta_1984]: https://www.pennpress.org/9780812218909/the-reformation-of-american-quakerism/
 [book_marini_1982]: https://www.hup.harvard.edu/books/9780674745704
@@ -840,7 +840,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_mcloughlin_1984]: https://scholar.google.com/scholar?q=mcloughlin+1984+cherokees+christianity
 [book_mcmichael_2008]: https://uapress.ua.edu/product/Atlantic-Loyalties,4116.aspx
 [book_meacham_2006]: https://www.penguinrandomhouse.com/books/76008/american-gospel-by-jon-meacham/
-[book_mekeel_1979]: https://scholar.google.com/scholar?q=mekeel+1979+quakers+american+revolution
+[book_mekeel_1979]: https://openlibrary.org/works/OL6577860W
 [book_melish_1998]: https://cornellpress.cornell.edu/book/9780801484469/disowning-slavery/
 [book_merrell_1989]: https://uncpress.org/book/9780807842126/the-indians-new-world/
 [book_merritt_2003]: https://uncpress.org/book/9780807854853/at-the-crossroads/
@@ -854,7 +854,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_nash_1979]: https://www.hup.harvard.edu/books/9780674931060
 [book_nash_1991]: https://uapress.wisc.edu/9780299129149/race-and-revolution/
 [book_nash_soderlund_1991]: https://global.oup.com/academic/product/freedom-by-degrees-9780195085424
-[book_nelson_1998]: https://scholar.google.com/scholar?q=nelson+1998+lutherans+north+america
+[book_nelson_1998]: https://openlibrary.org/works/OL18319081W
 [book_nelson_2001]: https://uncpress.org/book/9780807826973/a-blessed-company/
 [book_newman_2008]: https://nyupress.org/9780814758618/freedoms-prophet/
 [book_noll_2003]: https://ivpress.com/the-rise-of-evangelicalism
@@ -899,7 +899,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_tennent_1740]: https://quod.lib.umich.edu/e/evans/N04128.0001.001
 [book_thornton_1987]: https://www.oupress.com/9780806121758/american-indian-holocaust-and-survival/
 [book_tiro_2011]: https://www.umasspress.com/9781625340009/the-people-of-the-standing-stone/
-[book_trinterud_1949]: https://scholar.google.com/scholar?q=trinterud+1949+forming+american+tradition
+[book_trinterud_1949]: https://openlibrary.org/works/OL6830271W
 [book_usner_1992]: https://uncpress.org/book/9780807820803/indians-settlers-and-slaves-in-a-frontier-exchange-economy/
 [book_vidal_2014]: https://www.pennpress.org/9780812246025/louisiana/
 [book_virginia_statute_1786]: https://encyclopediavirginia.org/entries/virginia-statute-for-establishing-religious-freedom-1786/
@@ -908,7 +908,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_wallace_1999]: https://www.hup.harvard.edu/books/9780674005488
 [book_walters_1992]: https://uklibraryumb.edu/walters-rational-infidels
 [book_wells_1975]: https://press.princeton.edu/books/hardcover/9780691052755/the-population-of-the-british-colonies
-[book_wentz_1955]: https://scholar.google.com/scholar?q=wentz+1955+basic+history+lutheranism+america
+[book_wentz_1955]: https://openlibrary.org/works/OL4945009W
 [book_wheeler_2008]: https://cornellpress.cornell.edu/book/9780801446146/to-live-upon-hope/
 [book_wigger_1998]: https://global.oup.com/academic/product/taking-heaven-by-storm-9780252069895
 [book_wigger_2009]: https://global.oup.com/academic/product/american-saint-9780195387803
@@ -919,9 +919,9 @@ This article follows the terminological conventions established in [A266][relate
 [book_wood_1992]: https://www.penguinrandomhouse.com/books/165080/the-radicalism-of-the-american-revolution-by-gordon-s-wood/
 [book_wood_2009]: https://global.oup.com/academic/product/empire-of-liberty-9780195039146
 [book_woodmason_1953]: https://uncpress.org/book/9780807804063/the-carolina-backcountry-on-the-eve-of-the-revolution/
-[book_woodson_1921]: https://scholar.google.com/scholar?q=woodson+1921+history+negro+church
-[book_wright_1955]: https://scholar.google.com/scholar?q=wright+1955+beginnings+unitarianism+america
-[book_yoder_1985]: https://scholar.google.com/scholar?q=yoder+1985+discovering+american+folklife
+[book_woodson_1921]: https://openlibrary.org/works/OL48133W
+[book_wright_1955]: https://openlibrary.org/works/OL1706652W
+[book_yoder_1985]: https://openlibrary.org/works/OL31973W
 [book_zilversmit_1967]: https://press.uchicago.edu/ucp/books/book/chicago/F/bo3634068.html
 [ref_articles_of_confederation_1777]: https://avalon.law.yale.edu/18th_century/artconf.asp
 [ref_backus_history_of_new_england_1777]: https://archive.org/details/historyofnewengl01back
@@ -967,12 +967,12 @@ This article follows the terminological conventions established in [A266][relate
 [ref_witherspoon_dominion_of_providence_1776]: https://founding.com/founders-library/american-political-figures/john-witherspoon/the-dominion-of-providence-over-the-passions-of-men/
 [related_post_a266_framing]: {% post_url 2026-01-03-ethnoreligion_and_american_political_economy_framing %}
 [related_post_a267_colonial_folkways]: {% post_url 2026-01-04-ethnoreligion_and_american_political_economy_colonial_folkways %}
-[research_butler_1982]: https://www.jstor.org/stable/1888816
+[research_butler_1982]: https://doi.org/10.2307/1893821
 [research_congress_1988]: https://www.congress.gov/bill/100th-congress/senate-concurrent-resolution/76
 [research_gordon_1974]: https://www.jstor.org/stable/40580672
 [research_levy_1996]: https://www.jstor.org/stable/1170072
-[research_maceacheren_1970]: https://www.jstor.org/stable/2716357
-[research_mcconnell_1990]: https://harvardlawreview.org/1990/05/the-origins-and-historical-understanding-of-free-exercise-of-religion/
-[research_payne_1996]: https://www.jstor.org/stable/2946638
-[research_tooker_1988]: https://www.jstor.org/stable/670953
-[research_whittenburg_1977]: https://www.jstor.org/stable/1922549
+[research_maceacheren_1970]: https://doi.org/10.2307/2716174
+[research_mcconnell_1990]: https://doi.org/10.2307/1341281
+[research_payne_1996]: https://scholar.google.com/scholar?q=Iroquois+Influence+Thesis+Critique+Payne+1996
+[research_tooker_1988]: https://doi.org/10.2307/482139
+[research_whittenburg_1977]: https://doi.org/10.2307/1925314

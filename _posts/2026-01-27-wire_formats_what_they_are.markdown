@@ -25,15 +25,15 @@ The problem is older than computer networking. Telegraphy already required agree
 
 The first sustained attempt to standardise that freedom was Abstract Syntax Notation One, hereafter ASN.1, standardised by the International Telegraph and Telephone Consultative Committee and now maintained as [ITU-T X.680][ref_itu_x680] with encoding rules in [ITU-T X.690][ref_itu_x690]. ASN.1 separated the abstract shape of a message from the rules that turn it into bytes, which is the single most consequential idea in the field. A schema describes what a message contains. Encoding rules describe how it is written. The same schema can be paired with different encoding rules to obtain a verbose self-describing form or a compact canonical one. Nearly every later design either adopts this separation or deliberately rejects it.
 
-The Sun Microsystems External Data Representation standard, published as [RFC 4506][ref_rfc4506] and used by the [Network File System][ref_rfc1813], took a different position. It fixed a single encoding, aligned everything to four-byte boundaries, and accepted the resulting padding in exchange for decoders that were trivial to write and fast to run. That tradeoff between compactness and decode simplicity recurs continuously.
+The Sun Microsystems External Data Representation standard, published as [Eisler 2006][ref_rfc4506] and used by the [Network File System][ref_rfc1813], took a different position. It fixed a single encoding, aligned everything to four-byte boundaries, and accepted the resulting padding in exchange for decoders that were trivial to write and fast to run. That tradeoff between compactness and decode simplicity recurs continuously.
 
-The web pushed the field toward human-readable, self-describing text. The [Extensible Markup Language][ref_w3c_xml] and later JavaScript Object Notation, specified in [RFC 8259][ref_rfc8259], made the format inspectable with ordinary tools and removed the need to distribute a schema before two parties could talk. The cost was size and parsing expense, and the reaction against that cost produced the modern binary interchange formats, including Protocol Buffers, Apache Avro, [MessagePack][ref_messagepack_spec], and Concise Binary Object Representation, hereafter CBOR, standardised as [RFC 8949][ref_rfc8949]. [Apache Thrift][ref_thrift_idl] arrived from the same pressure with an interface definition language attached.
+The web pushed the field toward human-readable, self-describing text. The [Extensible Markup Language][ref_w3c_xml] and later JavaScript Object Notation, specified in [Bray 2017][ref_rfc8259], made the format inspectable with ordinary tools and removed the need to distribute a schema before two parties could talk. The cost was size and parsing expense, and the reaction against that cost produced the modern binary interchange formats, including Protocol Buffers, Apache Avro, [MessagePack][ref_messagepack_spec], and Concise Binary Object Representation, hereafter CBOR, standardised as [Bormann and Hoffman n.d.][ref_rfc8949]. [Apache Thrift][ref_thrift_idl] arrived from the same pressure with an interface definition language attached.
 
-Between the ASN.1 era and the web there was a decade in which remote procedure call frameworks drove the field. The Open Network Computing remote procedure call standard, [RFC 5531][ref_rfc5531], paired XDR with a call convention, and the Common Object Request Broker Architecture generalised the idea across languages and vendors. Those systems established that a wire format is rarely deployed alone, since it arrives attached to an interface definition language, a code generator, and a service model, and that the format is often the least contentious part of the bundle.
+Between the ASN.1 era and the web there was a decade in which remote procedure call frameworks drove the field. The Open Network Computing remote procedure call standard, [Thurlow 2009][ref_rfc5531], paired XDR with a call convention, and the Common Object Request Broker Architecture generalised the idea across languages and vendors. Those systems established that a wire format is rarely deployed alone, since it arrives attached to an interface definition language, a code generator, and a service model, and that the format is often the least contentious part of the bundle.
 
-The web then pushed the field toward human-readable, self-describing text. The [Extensible Markup Language][ref_w3c_xml] and later JavaScript Object Notation, specified in [RFC 8259][ref_rfc8259], made the format inspectable with ordinary tools and removed the need to distribute a schema before two parties could talk. The cost was size and parsing expense, and the reaction against that cost produced the modern binary interchange formats, including Protocol Buffers, Apache Avro, [MessagePack][ref_messagepack_spec], and Concise Binary Object Representation, hereafter CBOR, standardised as [RFC 8949][ref_rfc8949]. [Apache Thrift][ref_thrift_idl] arrived from the same pressure with an interface definition language attached, and [BSON][ref_bson_spec] and [Amazon Ion][ref_ion_binary] took the narrower path of keeping the JSON data model while replacing its byte representation.
+The web then pushed the field toward human-readable, self-describing text. The [Extensible Markup Language][ref_w3c_xml] and later JavaScript Object Notation, specified in [Bray 2017][ref_rfc8259], made the format inspectable with ordinary tools and removed the need to distribute a schema before two parties could talk. The cost was size and parsing expense, and the reaction against that cost produced the modern binary interchange formats, including Protocol Buffers, Apache Avro, [MessagePack][ref_messagepack_spec], and Concise Binary Object Representation, hereafter CBOR, standardised as [Bormann and Hoffman n.d.][ref_rfc8949]. [Apache Thrift][ref_thrift_idl] arrived from the same pressure with an interface definition language attached, and [BSON][ref_bson_spec] and [Amazon Ion][ref_ion_binary] took the narrower path of keeping the JSON data model while replacing its byte representation.
 
-The schema itself eventually became a specified artifact, not an informal agreement. The Concise Data Definition Language, [RFC 8610][ref_rfc8610], gives CBOR a notation for describing what a valid message looks like, which closes the loop that ASN.1 opened by separating abstract syntax from encoding rules.
+The schema itself eventually became a specified artifact, not an informal agreement. The Concise Data Definition Language, [Birkholz et al. 2019][ref_rfc8610], gives CBOR a notation for describing what a valid message looks like, which closes the loop that ASN.1 opened by separating abstract syntax from encoding rules.
 
 Instruction encodings developed on a parallel track with almost no cross-pollination. The design questions there were framed as instruction set architecture and not serialisation, and the vocabulary differs, but the underlying problem is the same one.
 
@@ -99,7 +99,7 @@ This family carries the structure of a conversation rather than the values withi
 
 A byte stream such as a [Transmission Control Protocol][ref_rfc9293] connection delivers ordered bytes with no record boundaries. Any structure above that must be imposed by the format. Three strategies dominate. Length prefixing writes the size before the payload, which lets a reader allocate once and know exactly when it is finished. Delimiting reserves a byte sequence to mark the end, which is simple but requires escaping any occurrence of the delimiter inside the payload. Self-describing framing derives the extent from the content itself, as a decoder does when it reads a nested structure and knows it is complete.
 
-The HyperText Transfer Protocol shows both the older and newer approaches. [Version 1.1][ref_rfc9112] uses delimiters for headers, terminating them with a blank line, and a length prefix for bodies via the content-length header, with chunked transfer encoding as the fallback when the length is not known in advance. Version 2, specified in [RFC 9113][ref_rfc9113], abandons the text framing entirely for fixed nine-octet binary frame headers carrying length, type, flags, and stream identifier. That change was made to allow many logical streams to share one connection, which text framing cannot express without ambiguity.
+The HyperText Transfer Protocol shows both the older and newer approaches. [Version 1.1][ref_rfc9112] uses delimiters for headers, terminating them with a blank line, and a length prefix for bodies via the content-length header, with chunked transfer encoding as the fallback when the length is not known in advance. Version 2, specified in [Thomson and Benfield n.d.][ref_rfc9113], abandons the text framing entirely for fixed nine-octet binary frame headers carrying length, type, flags, and stream identifier. That change was made to allow many logical streams to share one connection, which text framing cannot express without ambiguity.
 
 Header compression illustrates that framing formats face the same metadata pressure as interchange formats. HTTP/2 introduced [HPACK][ref_rfc7541], which maintains a shared table of previously seen header fields so that a repeated header can be sent as a small index rather than a full name and value. This is the same insight as Avro's external schema, applied to a conversation instead of a record, and arrived at independently.
 
@@ -111,13 +111,13 @@ Framing also nests, and each layer of encapsulation charges its own header. For 
 
 $$\eta_{\text{stack}} = \frac{p}{p + \sum_{i=1}^{n} h_i}$$
 
-so a bundle inside a transport segment inside a network packet pays all three, and a small payload can carry more framing than content once the stack is deep enough. For an HTTP/2 frame with $h = 9$ carrying a kilobyte, $\eta$ exceeds ninety nine percent and the header is irrelevant. For the same header carrying a four-byte acknowledgement, $\eta$ falls below one third. Protocols that exchange many small messages therefore care enormously about header size, which is why QUIC, specified in [RFC 9000][ref_rfc9000], works to keep its packet headers short and why it moved framing into the encrypted payload to permit change without ossification.
+so a bundle inside a transport segment inside a network packet pays all three, and a small payload can carry more framing than content once the stack is deep enough. For an HTTP/2 frame with $h = 9$ carrying a kilobyte, $\eta$ exceeds ninety nine percent and the header is irrelevant. For the same header carrying a four-byte acknowledgement, $\eta$ falls below one third. Protocols that exchange many small messages therefore care enormously about header size, which is why QUIC, specified in [Iyengar and Thomson n.d.][ref_rfc9000], works to keep its packet headers short and why it moved framing into the encrypted payload to permit change without ossification.
 
 The framing question recurs at every layer of a protocol stack, and the answers differ layer by layer. An [Ethernet][ref_ieee_8023] frame is length-delimited by the physical layer. The [Internet Protocol][ref_rfc791] header carries an explicit total length, as does its [version 6 successor][ref_rfc8200] in a different field layout. The [User Datagram Protocol][ref_rfc768] preserves message boundaries and so needs no framing above it, which is exactly why protocols that want records often prefer it. The [Transmission Control Protocol][ref_rfc9293] destroys those boundaries and forces every protocol above it to reinvent framing, which is the single most consequential framing decision in the history of the field. The [Stream Control Transmission Protocol][ref_rfc9260] was designed in part to give back the message boundaries that TCP removes.
 
 Above the transport, the [Transport Layer Security][ref_rfc8446] record layer imposes its own framing, and the application protocols impose theirs again. The [WebSocket Protocol][ref_rfc6455] adds a small binary frame header to a connection that began as HTTP, [HTTP/3][ref_rfc9114] carries HTTP semantics over QUIC streams rather than over TCP, and messaging protocols such as [MQTT][ref_mqtt_spec] and [AMQP][ref_amqp_spec] define their own compact frame headers for the publish-and-subscribe case. [gRPC][ref_grpc_concepts] layers a length-prefixed message framing over HTTP/2 streams, which means a single gRPC call is framed at least four times before it reaches the wire.
 
-Delay-tolerant networking pushes framing into an environment where the round trip may be hours. The Bundle Protocol, now [RFC 9171][ref_rfc9171], frames application data into bundles that carry enough context to be forwarded and stored by intermediaries that may hold them for a long time before onward transmission. The architecture is described in [RFC 4838][ref_rfc4838], and the corpus covers the practical side of this in [Getting Started with ION-DTN on FreeBSD][related_post_ion_dtn_getting_started], with bundle-level exchange demonstrated in [Almost Serving a Web Page with ION-DTN bpchat][related_post_ion_dtn_bpchat] and [Serving a Web Page with ION-DTN bpsendfile and bprecvfile][related_post_ion_dtn_serving]. When storage time is measured in hours, a bundle is closer to a self-contained document than to a packet, and its framing reflects that.
+Delay-tolerant networking pushes framing into an environment where the round trip may be hours. The Bundle Protocol, now [Burleigh et al. n.d.][ref_rfc9171], frames application data into bundles that carry enough context to be forwarded and stored by intermediaries that may hold them for a long time before onward transmission. The architecture is described in [Cerf et al. 2007][ref_rfc4838], and the corpus covers the practical side of this in [Getting Started with ION-DTN on FreeBSD][related_post_ion_dtn_getting_started], with bundle-level exchange demonstrated in [Almost Serving a Web Page with ION-DTN bpchat][related_post_ion_dtn_bpchat] and [Serving a Web Page with ION-DTN bpsendfile and bprecvfile][related_post_ion_dtn_serving]. When storage time is measured in hours, a bundle is closer to a self-contained document than to a packet, and its framing reflects that.
 
 ## Instruction Encodings
 
@@ -145,7 +145,7 @@ A bytecode designed for verification makes the wire-format character explicit in
 
 Managed-runtime bytecodes show the design space clearly because they were specified rather than accreted. The [Java Virtual Machine class file format][ref_jvm_spec] is a stack-oriented encoding with a constant pool, so that repeated references become short indices, which is structurally the same move HPACK makes for headers and Avro makes for schemas. The Common Intermediate Language standardised as [ECMA-335][ref_ecma_335] takes a comparable position for a different runtime. The [Dalvik executable format][ref_dalvik_bytecode] deliberately chose a register machine over a stack machine and shared its constant pools across an entire application, trading a more complex format for smaller total size on devices where storage was the binding constraint. [LLVM bitcode][ref_llvm_bitcode] is a wire format for compiler intermediate representation rather than for execution, and it carries an explicit versioning scheme because it must survive between tool versions.
 
-The kernel extension case is the most recent addition. The Berkeley Packet Filter instruction set, now standardised as [RFC 9669][ref_rfc9669], is an encoding whose consumer verifies the program before running it, in an environment where a mistake compromises the kernel. Verification-before-execution is the same posture WebAssembly adopts, reached independently under a different threat model, and it makes explicit that an instruction encoding is a message from an untrusted party until proven otherwise.
+The kernel extension case is the most recent addition. The Berkeley Packet Filter instruction set, now standardised as [Thaler n.d.][ref_rfc9669], is an encoding whose consumer verifies the program before running it, in an environment where a mistake compromises the kernel. Verification-before-execution is the same posture WebAssembly adopts, reached independently under a different threat model, and it makes explicit that an instruction encoding is a message from an untrusted party until proven otherwise.
 
 Blockchain instruction encodings share the same shape with an additional constraint. A transaction is an instruction stream that must be interpreted identically by every participant, since disagreement is a consensus failure rather than a bug in one implementation. That requirement forces canonical encoding, which the companion article treats as a general concern. The Ethereum Virtual Machine encoding and the Solana variant of the Berkeley Packet Filter encoding both sit in this category, and the corpus covers the practical side in [Getting Started with Solana Using Rust and Anchor][related_post_solana_anchor].
 
@@ -197,78 +197,96 @@ The families were developed by different communities with different vocabularies
 
 ## References
 
-- [Hennessy, John L. and Patterson, David A., Computer Architecture, A Quantitative Approach, Morgan Kaufmann][book_hennessy_patterson]
-- [Stevens, W. Richard, TCP/IP Illustrated, Volume 1, The Protocols, Addison-Wesley][book_stevens_tcpip]
-- [Tanenbaum, Andrew S. and Wetherall, David J., Computer Networks, Pearson][book_tanenbaum_networks]
-- [Apache Avro Specification][ref_avro_spec]
-- [Amazon Ion Binary Encoding][ref_ion_binary]
-- [Apache Thrift Interface Definition Language][ref_thrift_idl]
-- [BSON Specification][ref_bson_spec]
-- [Baudot Code][ref_baudot_code]
-- [Borsh Specification][ref_borsh_spec]
-- [Cap'n Proto Encoding Specification][ref_capnproto_encoding]
-- [Dalvik Bytecode Format][ref_dalvik_bytecode]
-- [ECMA-335, Common Language Infrastructure][ref_ecma_335]
-- [Ethereum Recursive Length Prefix Encoding][ref_ethereum_rlp]
-- [FlatBuffers Documentation][ref_flatbuffers]
-- [IEEE 802.3, Ethernet][ref_ieee_8023]
-- [Java Virtual Machine Specification, The class File Format][ref_jvm_spec]
-- [LLVM Bitcode File Format][ref_llvm_bitcode]
-- [ITU-T X.680, Abstract Syntax Notation One, Specification of Basic Notation][ref_itu_x680]
-- [ITU-T X.690, ASN.1 Encoding Rules, BER, CER and DER][ref_itu_x690]
-- [MQTT Specification][ref_mqtt_spec]
-- [MessagePack Specification][ref_messagepack_spec]
-- [OASIS AMQP Version 1.0][ref_amqp_spec]
-- [Protocol Buffers Encoding Documentation][ref_protobuf_encoding]
-- [RFC 768, User Datagram Protocol][ref_rfc768]
-- [RFC 791, Internet Protocol][ref_rfc791]
-- [RFC 1813, NFS Version 3 Protocol Specification][ref_rfc1813]
-- [RFC 3629, UTF-8, a Transformation Format of ISO 10646][ref_rfc3629]
-- [RFC 4838, Delay-Tolerant Networking Architecture][ref_rfc4838]
-- [RFC 4506, XDR, External Data Representation Standard][ref_rfc4506]
-- [RFC 5531, Remote Procedure Call Protocol Version 2][ref_rfc5531]
-- [RFC 7541, HPACK, Header Compression for HTTP/2][ref_rfc7541]
-- [RFC 6455, The WebSocket Protocol][ref_rfc6455]
-- [RFC 8259, The JavaScript Object Notation Data Interchange Format][ref_rfc8259]
-- [RFC 8200, Internet Protocol Version 6][ref_rfc8200]
-- [RFC 8446, Transport Layer Security Version 1.3][ref_rfc8446]
-- [RFC 8610, Concise Data Definition Language][ref_rfc8610]
-- [RFC 8949, Concise Binary Object Representation][ref_rfc8949]
-- [RFC 9000, QUIC, A UDP-Based Multiplexed and Secure Transport][ref_rfc9000]
-- [RFC 9112, HTTP/1.1][ref_rfc9112]
-- [RFC 9113, HTTP/2][ref_rfc9113]
-- [RFC 9171, Bundle Protocol Version 7][ref_rfc9171]
-- [RFC 9114, HTTP/3][ref_rfc9114]
-- [RFC 9260, Stream Control Transmission Protocol][ref_rfc9260]
-- [RFC 9293, Transmission Control Protocol][ref_rfc9293]
-- [RFC 9669, BPF Instruction Set Architecture][ref_rfc9669]
-- [RISC-V Unprivileged Specification][ref_riscv_spec]
-- [Apache Thrift Interface Definition Language][ref_thrift_idl]
-- [Simple Binary Encoding][ref_sbe_spec]
-- [Unicode Standard][ref_unicode_standard]
-- [W3C Extensible Markup Language][ref_w3c_xml]
-- [gRPC Core Concepts][ref_grpc_concepts]
-- [W3C WebAssembly Core Specification][ref_wasm_spec]
-- [Haas, Andreas et al., Bringing the Web up to Speed with WebAssembly, PLDI, 2017][research_haas_webassembly]
-- [Sassaman, Len, Patterson, Meredith L. and Bratus, Sergey, Security Applications of Formal Language Theory, IEEE Systems Journal, 2013][research_sassaman_formal_language]
-- [Related Post, Almost Serving a Web Page with ION-DTN bpchat][related_post_ion_dtn_bpchat]
-- [Related Post, Deficiencies of the HTML Hypermedia Model][related_post_html_hypermedia]
-- [Related Post, Getting Started with ION-DTN 3.4.0 on FreeBSD][related_post_ion_dtn_getting_started]
-- [Related Post, Getting Started with Keleusma 0.1.1][related_post_keleusma_getting_started]
-- [Related Post, Getting Started with Solana Using Rust and Anchor][related_post_solana_anchor]
-- [Related Post, Getting Started with no_std Rust Programming][related_post_no_std_rust_getting_started]
-- [Related Post, Keleusma's Self-Hosting Strategy][related_post_keleusma_self_hosting]
-- [Related Post, Serving a Web Page with ION-DTN bpsendfile and bprecvfile][related_post_ion_dtn_serving]
-- [Related Post, UNIX ARM Assembler on Android][related_post_unix_arm_assembler]
-- [Related Post, WASM on a Jekyll Blog with Rust and wasm-bindgen][related_post_wasm_on_jekyll]
-- [Related Post, no_std Rust with bin and lib][related_post_no_std_rust_bin_lib]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Haas, Andreas, Andreas Rossberg, Derek L. Schuff, et al. 2017. "Bringing the Web up to Speed with WebAssembly." In *Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation*. ACM. [https://doi.org/10.1145/3062341.3062363][research_haas_webassembly]
+- Sassaman, Len, Meredith L. Patterson, Sergey Bratus, and Michael E. Locasto. 2013. "Security Applications of Formal Language Theory." *IEEE Systems Journal* 7 (3): 489–500. [https://doi.org/10.1109/jsyst.2012.2222000][research_sassaman_formal_language]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Birkholz, H., C. Vigano, and C. Bormann. 2019. *Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures*. [https://www.rfc-editor.org/rfc/rfc8610][ref_rfc8610]
+- Bishop, Mike. n.d. *Rfc 9114: HTTP/3*. [https://www.rfc-editor.org/rfc/rfc9114][ref_rfc9114]
+- Bormann, Carsten, and Paul Hoffman. n.d. *RFC 8949: Concise Binary Object Representation (CBOR)*. [https://www.rfc-editor.org/rfc/rfc8949][ref_rfc8949]
+- Bray, T. 2017. *The JavaScript Object Notation (JSON) Data Interchange Format*. [https://www.rfc-editor.org/rfc/rfc8259][ref_rfc8259]
+- Burleigh, Scott, Kevin Fall, and Edward J. Birrane III. n.d. *RFC 9171: Bundle Protocol Version 7*. [https://www.rfc-editor.org/rfc/rfc9171][ref_rfc9171]
+- Callaghan, B., B. Pawlowski, and P. Staubach. 1813. *NFS Version 3 Protocol Specification*. [https://www.rfc-editor.org/rfc/rfc1813][ref_rfc1813]
+- "Cap'n Proto Encoding Specification." n.d. capnproto.org. Accessed October 25, 2026. [https://capnproto.org/encoding.html][ref_capnproto_encoding]
+- Cerf, V., S. Burleigh, A. Hooke, et al. 2007. *Delay-Tolerant Networking Architecture*. [https://www.rfc-editor.org/rfc/rfc4838][ref_rfc4838]
+- *ECMA-335, Common Language Infrastructure*. n.d. [https://ecma-international.org/publications-and-standards/standards/ecma-335/][ref_ecma_335]
+- Eddy, Wesley M. n.d. *RFC 9293: Transmission Control Protocol (TCP)*. [https://www.rfc-editor.org/rfc/rfc9293][ref_rfc9293]
+- Eisler, M. 2006. *XDR: External Data Representation Standard*. [https://www.rfc-editor.org/rfc/rfc4506][ref_rfc4506]
+- *Extensible Markup Language (XML) 1.0 (Fifth Edition)*. n.d. [https://www.w3.org/TR/xml/][ref_w3c_xml]
+- Fette, I., and A. Melnikov. 2011. *The WebSocket Protocol*. [https://www.rfc-editor.org/rfc/rfc6455][ref_rfc6455]
+- Fielding, Roy T., Mark Nottingham, and Julian Reschke. n.d. *Rfc 9112: HTTP/1.1*. [https://www.rfc-editor.org/rfc/rfc9112][ref_rfc9112]
+- "FlatBuffers Docs." n.d. FlatBuffers. Accessed October 24, 2026. [https://flatbuffers.dev/][ref_flatbuffers]
+- *IEEE 802.3, Ethernet*. n.d. [https://standards.ieee.org/ieee/802.3/][ref_ieee_8023]
+- Iyengar, Jana, and Martin Thomson. n.d. *RFC 9000: QUIC: A UDP-Based Multiplexed and Secure Transport*. [https://www.rfc-editor.org/rfc/rfc9000][ref_rfc9000]
+- "Java Virtual Machine Specification, The class File Format." n.d. docs.oracle.com. Accessed October 25, 2026. [https://docs.oracle.com/javase/specs/jvms/se21/html/jvms-4.html][ref_jvm_spec]
+- "LLVM Bitcode File Format." n.d. llvm.org. Accessed October 25, 2026. [https://llvm.org/docs/BitCodeFormat.html][ref_llvm_bitcode]
+- "MessagePack Specification." n.d. github.com. Accessed October 25, 2026. [https://github.com/msgpack/msgpack/blob/master/spec.md][ref_messagepack_spec]
+- Peon, R., and H. Ruellan. 2015. *HPACK: Header Compression for HTTP/2*. [https://www.rfc-editor.org/rfc/rfc7541][ref_rfc7541]
+- Postel, J. 1980. *User Datagram Protocol*. [https://www.rfc-editor.org/rfc/rfc768][ref_rfc768]
+- Postel, J. 1981. *Internet Protocol*. [https://www.rfc-editor.org/rfc/rfc791][ref_rfc791]
+- Rescorla, E. 2018. *The Transport Layer Security (TLS) Protocol Version 1.3*. [https://www.rfc-editor.org/rfc/rfc8446][ref_rfc8446]
+- *RFC 8200, Internet Protocol Version 6*. n.d. [https://www.rfc-editor.org/rfc/rfc8200][ref_rfc8200]
+- Stewart, Randall R., Michael Tüxen, and Karen E. E. Nielsen. n.d. *RFC 9260: Stream Control Transmission Protocol*. [https://www.rfc-editor.org/rfc/rfc9260][ref_rfc9260]
+- Thaler, Dave. n.d. *RFC 9669: BPF Instruction Set Architecture (ISA)*. [https://www.rfc-editor.org/rfc/rfc9669][ref_rfc9669]
+- Thomson, Martin, and Cory Benfield. n.d. *Rfc 9113: HTTP/2*. [https://www.rfc-editor.org/rfc/rfc9113][ref_rfc9113]
+- Thurlow, R. 2009. *RPC: Remote Procedure Call Protocol Specification Version 2*. [https://www.rfc-editor.org/rfc/rfc5531][ref_rfc5531]
+- *WebAssembly Core Specification*. n.d. [https://www.w3.org/TR/wasm-core-2/][ref_wasm_spec]
+- *X.680: Information Technology: Abstract Syntax Notation One (ASN.1): Specification of Basic Notation*. n.d. [https://www.itu.int/rec/T-REC-X.680][ref_itu_x680]
+- *X.690: Information Technology: ASN.1 Encoding Rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER)*. n.d. [https://www.itu.int/rec/T-REC-X.690][ref_itu_x690]
+- Yergeau, F. 2003. *UTF-8, a Transformation Format of ISO 10646*. [https://www.rfc-editor.org/rfc/rfc3629][ref_rfc3629]
+
+### Secondary Sources
+
+- *Hennessy, John L. and Patterson, David A., Computer Architecture, A Quantitative Approach, Morgan Kaufmann*. n.d. [https://openlibrary.org/search?q=Hennessy+Patterson+Computer+Architecture+A+Quantitative+Approach][book_hennessy_patterson]
+- *Stevens, W. Richard, TCP/IP Illustrated, Volume 1, The Protocols, Addison-Wesley*. n.d. [https://openlibrary.org/search?q=Stevens+TCP+IP+Illustrated+Volume+1][book_stevens_tcpip]
+- *Tanenbaum, Andrew S. and Wetherall, David J., Computer Networks, Pearson*. n.d. [https://openlibrary.org/search?q=Tanenbaum+Computer+Networks][book_tanenbaum_networks]
+
+### General Sources
+
+- "Apache Avro Specification." n.d. Accessed October 25, 2026. [https://avro.apache.org/docs/current/specification/][ref_avro_spec]
+- "Apache Thrift Interface Definition Language." n.d. Accessed October 25, 2026. [https://thrift.apache.org/docs/idl][ref_thrift_idl]
+- "Borsh Specification." n.d. Accessed October 25, 2026. [https://borsh.io/][ref_borsh_spec]
+- "BSON (Binary JSON): Specification." n.d. Accessed October 25, 2026. [https://bsonspec.org/spec.html][ref_bson_spec]
+- "Core Concepts, Architecture and Lifecycle." n.d. *gRPC*. Accessed October 25, 2026. [https://grpc.io/docs/what-is-grpc/core-concepts/][ref_grpc_concepts]
+- "Dalvik Bytecode Format." n.d. Accessed October 25, 2026. [https://source.android.com/docs/core/runtime/dalvik-bytecode][ref_dalvik_bytecode]
+- "Ion Binary Encoding." n.d. Accessed October 25, 2026. [https://amazon-ion.github.io/ion-docs/docs/binary.html][ref_ion_binary]
+- "MQTT Specification." n.d. Accessed October 25, 2026. [https://mqtt.org/mqtt-specification/][ref_mqtt_spec]
+- "OASIS AMQP Version 1.0." n.d. Accessed October 25, 2026. [https://docs.oasis-open.org/amqp/core/v1.0/amqp-core-complete-v1.0.pdf][ref_amqp_spec]
+- "Protocol Buffers Encoding Documentation." n.d. Accessed October 25, 2026. [https://protobuf.dev/programming-guides/encoding/][ref_protobuf_encoding]
+- "Recursive-Length Prefix (RLP) Serialization." n.d. ethereum.org. Accessed October 25, 2026. [https://ethereum.org/en/developers/docs/data-structures-and-encoding/rlp/][ref_ethereum_rlp]
+- "RISC-V Unprivileged Specification." n.d. Accessed October 25, 2026. [https://riscv.org/technical/specifications/][ref_riscv_spec]
+- "Simple Binary Encoding (SBE)." n.d. Accessed October 25, 2026. [https://www.fixtrading.org/standards/sbe/][ref_sbe_spec]
+- "Unicode 17.0.0." n.d. Accessed October 25, 2026. [https://www.unicode.org/versions/latest/][ref_unicode_standard]
+
+### Tertiary Sources
+
+- "Baudot Code." 2026. Wikipedia. Last modified June 29, at 00:58 (UTC). [https://en.wikipedia.org/w/index.php?title=Baudot\_code&oldid=1361608166][ref_baudot_code]
+
+### Related Posts
+
+- Sechter, Brendan. 2016. "UNIX ARM Assembler on Android." *Brendan A R Sechter's Development Blog*, January 10. [https://sgeos.github.io/jekyll/github/freebsd/2016/01/10/unix-arm-assembler-on-android.html][related_post_unix_arm_assembler]
+- Sechter, Brendan. 2016. "Getting Started with ION-DTN 3.4.0 on FreeBSD." *Brendan A R Sechter's Development Blog*, February 7. [https://sgeos.github.io/freebsd/ion/dtn/2016/02/07/getting-started-with-ion-dtn-3-4-0-on-freebsd.html][related_post_ion_dtn_getting_started]
+- Sechter, Brendan. 2016. "Almost Serving a Web Page with ION-DTN bpchat." *Brendan A R Sechter's Development Blog*, February 12. [https://sgeos.github.io/freebsd/ion/dtn/2016/02/12/almost-serving-a-web-page-with-ion-dtn-bpchat.html][related_post_ion_dtn_bpchat]
+- Sechter, Brendan. 2016. "Serving a Web Page with ION-DTN bpsendfile and bprecvfile." *Brendan A R Sechter's Development Blog*, February 17. [https://sgeos.github.io/freebsd/ion/dtn/2016/02/17/serving-a-web-page-with-ion-dtn-bpsendfile-and-bprecvfile.html][related_post_ion_dtn_serving]
+- Sechter, Brendan. 2022. "no\_std Rust with bin and lib." *Brendan A R Sechter's Development Blog*, October 6. [https://sgeos.github.io/rust/no\_std/2022/10/06/no\_std\_rust\_with\_bin\_and\_lib.html][related_post_no_std_rust_bin_lib]
+- Sechter, Brendan. 2025. "Getting Started with Solana Using Rust and Anchor." *Brendan A R Sechter's Development Blog*, December 17. [https://sgeos.github.io/2025/12/17/solana\_with\_rust\_and\_anchor\_getting\_started.html][related_post_solana_anchor]
+- Sechter, Brendan. 2026. "Getting Started with no\_std Rust Programming." *Brendan A R Sechter's Development Blog*, January 16. [https://sgeos.github.io/rust/no\_std/embedded/2026/01/16/no\_std\_rust\_getting\_started.html][related_post_no_std_rust_getting_started]
+- Sechter, Brendan. 2026. "WASM on a Jekyll Blog with Rust and wasm-bindgen." *Brendan A R Sechter's Development Blog*, January 26. [https://sgeos.github.io/rust/wasm/jekyll/2026/01/26/webasm\_on\_jekyll.html][related_post_wasm_on_jekyll]
+- Sechter, Brendan. 2026. "Deficiencies of the HTML Hypermedia Model." *Brendan A R Sechter's Development Blog*, March 7. [https://sgeos.github.io/hypermedia/web/history/2026/03/07/html\_hypermedia\_deficiencies.html][related_post_html_hypermedia]
+- Sechter, Brendan. 2026. "Getting Started with Keleusma 0.1.1." *Brendan A R Sechter's Development Blog*, March 14. [https://sgeos.github.io/rust/embedded/programming/2026/03/14/keleusma\_getting\_started.html][related_post_keleusma_getting_started]
+- Sechter, Brendan. 2026. "Keleusma's Self-Hosting Strategy." *Brendan A R Sechter's Development Blog*, July 12. [https://sgeos.github.io/compilers/self-hosting/keleusma/2026/07/12/keleusma\_self\_hosting\_strategy.html][related_post_keleusma_self_hosting]
 
 [book_hennessy_patterson]: https://openlibrary.org/search?q=Hennessy+Patterson+Computer+Architecture+A+Quantitative+Approach
 [book_stevens_tcpip]: https://openlibrary.org/search?q=Stevens+TCP+IP+Illustrated+Volume+1
 [book_tanenbaum_networks]: https://openlibrary.org/search?q=Tanenbaum+Computer+Networks
 [ref_amqp_spec]: https://docs.oasis-open.org/amqp/core/v1.0/amqp-core-complete-v1.0.pdf
 [ref_avro_spec]: https://avro.apache.org/docs/current/specification/
-[ref_baudot_code]: https://en.wikipedia.org/wiki/Baudot_code
+[ref_baudot_code]: https://en.wikipedia.org/w/index.php?title=Baudot_code&oldid=1361608166
 [ref_borsh_spec]: https://borsh.io/
 [ref_bson_spec]: https://bsonspec.org/spec.html
 [ref_capnproto_encoding]: https://capnproto.org/encoding.html

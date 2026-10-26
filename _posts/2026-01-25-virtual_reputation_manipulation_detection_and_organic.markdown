@@ -49,15 +49,15 @@ The common-pool-resource-governance framing traces from [Ostrom 1990][book_ostro
 
 The trust-theory framing traces from [Hardin 2002][book_hardin_2002] Trust and Trustworthiness through [Fukuyama 1995][book_fukuyama_1995] Trust and [Barber 1983][book_barber_1983] The Logic and Limits of Trust. The framing treats reputation-system integrity as a producer of interpersonal-and-institutional trust and characterizes the mechanisms through which manipulation degrades trust and through which countermeasure infrastructure sustains it. The [Sztompka 1999][book_sztompka_1999] Trust A Sociological Theory treatment provides the sociological reference framework. The trust-theory framing complements the economic-signaling framing by treating trust as the ultimate outcome of interest rather than as an intermediate signal.
 
-The network-dynamics-and-complex-adaptive-systems framing traces from [Watts 2002][research_watts_2002] and [Barabási and Albert 1999][research_barabasi_albert_1999] through the broader complex-systems literature. The framing treats the manipulation-detection-organic-establishment ecosystem as a complex adaptive system with characteristic emergent-behavior, path-dependence, and phase-transition dynamics. The [Holland 1995][book_holland_1995] Hidden Order and the [Miller and Page 2007][book_miller_page_2007] Complex Adaptive Systems treatments provide the reference framework. The complex-systems framing complements the equilibrium-analysis framing by treating the ecosystem dynamics as inherently non-equilibrium and predicting critical-transition and hysteresis phenomena the equilibrium framing does not capture.
+The network-dynamics-and-complex-adaptive-systems framing traces from [Watts 2002][research_watts_2002] and [Barabási and Albert 1999][research_barabasi_albert_1999] through the broader complex-systems literature. The framing treats the manipulation-detection-organic-establishment ecosystem as a complex adaptive system with characteristic emergent-behavior, path-dependence, and phase-transition dynamics. The [Holland 1995][book_holland_1995] Hidden Order and the [Miller and Page 2007][book_miller_page_2007] Complex Adaptive Systems treatments provide the reference framework. The complex-systems framing complements the equilibrium-analysis framing by treating the ecosystem dynamics as inherently non-equilibrium and predicting critical-transition and hysteresis phenomena the equilibrium framing does not capture.
 
 The institutional-economics framing traces from [North 1990][book_north_1990] Institutions Institutional Change and Economic Performance through [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism and the subsequent transaction-cost economics literature. The framing treats reputation-system institutions as transaction-cost-economizing structures and characterizes the institutional-design choices that shape the manipulation-detection-organic-establishment equilibrium. The [Greif 2006][book_greif_2006] Institutions and the Path to the Modern Economy treatment addresses the historical-comparative-institutional framework. The institutional-economics framing complements the economic-signaling framing by treating the reputation-system architecture itself as endogenous rather than as an exogenous parameter.
 
-The enforcement-economics framing traces from [Becker 1968][research_becker_1968] Crime and Punishment An Economic Approach through the subsequent law-and-economics literature on optimal enforcement. The framing treats manipulation-enforcement design as an economic-optimization problem balancing detection cost, penalty magnitude, and deterrence benefit. The [Polinsky and Shavell 2000][research_polinsky_shavell_2000] Public Enforcement of Law treatment establishes the reference modern framework. The enforcement-economics framing complements the criminology-of-manipulation framing by providing the mathematical framework for optimal-enforcement design.
+The enforcement-economics framing traces from [Becker 1968][research_becker_1968] Crime and Punishment An Economic Approach through the subsequent law-and-economics literature on optimal enforcement. The framing treats manipulation-enforcement design as an economic-optimization problem balancing detection cost, penalty magnitude, and deterrence benefit. The [Polinsky and Shavell 1999][research_polinsky_shavell_2000] Public Enforcement of Law treatment establishes the reference modern framework. The enforcement-economics framing complements the criminology-of-manipulation framing by providing the mathematical framework for optimal-enforcement design.
 
-The platform-governance framing traces from [Balkin 2018][research_balkin_2018] Free Speech is a Triangle through [Klonick 2018][research_klonick_2018] The New Governors, [Douek 2021][research_douek_2021] Governing Online Speech, [Grimmelmann 2015][research_grimmelmann_2015] The Virtues of Moderation, and [Suzor 2019][book_suzor_2019] Lawless. The framing treats platforms as private-governance actors and characterizes the accountability-and-legitimacy concerns the platform-governance role raises. The [Sunstein 2018][book_sunstein_2018] Republic treatment addresses the democratic-institution consequences. The platform-governance framing complements the platform-integrity-operations framing by treating the platform as a governance actor with specific legitimacy responsibilities rather than as a neutral infrastructure provider.
+The platform-governance framing traces from [Balkin 2018][research_balkin_2018] Free Speech is a Triangle through [Klonick 2018][research_klonick_2018] The New Governors, [Douek 2020][research_douek_2021] Governing Online Speech, [Grimmelmann 2015][research_grimmelmann_2015] The Virtues of Moderation, and [Suzor 2019][book_suzor_2019] Lawless. The framing treats platforms as private-governance actors and characterizes the accountability-and-legitimacy concerns the platform-governance role raises. The [Sunstein 2018][book_sunstein_2018] Republic treatment addresses the democratic-institution consequences. The platform-governance framing complements the platform-integrity-operations framing by treating the platform as a governance actor with specific legitimacy responsibilities rather than as a neutral infrastructure provider.
 
-The adversarial-machine-learning framing traces from [Goodfellow Shlens Szegedy 2014][research_goodfellow_shlens_szegedy_2014] through the subsequent adversarial-ML literature and treats the detection-versus-manipulation dynamic as an adversarial-example generation-and-defense problem. The [Papernot et al 2016][research_papernot_et_al_2016] and [Carlini and Wagner 2017][research_carlini_wagner_2017] treatments establish the reference adversarial-attack framework, while the [Madry et al 2018][research_madry_et_al_2018] adversarial-training and [Cohen Rosenfeld Kolter 2019][research_cohen_rosenfeld_kolter_2019] certified-robustness treatments establish the reference defense framework.
+The adversarial-machine-learning framing traces from [Goodfellow et al. 2014][research_goodfellow_shlens_szegedy_2014] through the subsequent adversarial-ML literature and treats the detection-versus-manipulation dynamic as an adversarial-example generation-and-defense problem. The [Papernot et al. 2016][research_papernot_et_al_2016] and [Carlini and Wagner 2017][research_carlini_wagner_2017] treatments establish the reference adversarial-attack framework, while the [Madry et al. 2017][research_madry_et_al_2018] adversarial-training and [Cohen et al. 2019][research_cohen_rosenfeld_kolter_2019] certified-robustness treatments establish the reference defense framework.
 
 ## The Detection Methodology Landscape
 
@@ -65,7 +65,7 @@ The detection methodology landscape has developed continuously from the initial 
 
 ### Statistical Anomaly Detection
 
-Statistical anomaly detection identifies deviations from expected distributional patterns of reputation signals under the null hypothesis of authentic-origin. The methodology class includes temporal-anomaly detection (arrival-rate burst detection via change-point analysis, Hawkes point-process modeling), distributional-anomaly detection (rating-distribution shape testing via the Hartigan dip test and adjacent statistics), demographic-anomaly detection (geographic and account-age distributional testing), and cross-attribute anomaly detection (multi-dimensional feature-space outlier identification). The [Chandola Banerjee Kumar 2009][research_chandola_banerjee_kumar_2009] Anomaly Detection A Survey establishes the reference methodological framework. The [Kumar et al 2017][research_kumar_et_al_2017] rating-distribution treatment and the [Xie et al 2012][research_xie_et_al_2012] temporal-pattern treatment establish the reputation-specific reference methodology.
+Statistical anomaly detection identifies deviations from expected distributional patterns of reputation signals under the null hypothesis of authentic-origin. The methodology class includes temporal-anomaly detection (arrival-rate burst detection via change-point analysis, Hawkes point-process modeling), distributional-anomaly detection (rating-distribution shape testing via the Hartigan dip test and adjacent statistics), demographic-anomaly detection (geographic and account-age distributional testing), and cross-attribute anomaly detection (multi-dimensional feature-space outlier identification). The [Chandola et al. 2009][research_chandola_banerjee_kumar_2009] Anomaly Detection A Survey establishes the reference methodological framework. The [Kumar 2017][research_kumar_et_al_2017] rating-distribution treatment and the [Xie et al. 2012][research_xie_et_al_2012] temporal-pattern treatment establish the reputation-specific reference methodology.
 
 The generic anomaly-score statistic under the null-model $H_0$ takes the standardized form
 
@@ -107,7 +107,7 @@ with anomaly triggering when the divergence exceeds a chosen threshold. The [End
 
 ### Graph-Theoretic and Network Detection
 
-Graph-theoretic detection identifies structural anomalies in the reviewer-product graph, the follower-followee graph, the account-content interaction graph, or the cross-platform sharing graph. The methodology class includes community-detection anomaly (unusually dense subgraphs indicating coordination), spectral-analysis anomaly (eigenvalue-based anomaly in the graph Laplacian), graph-embedding anomaly (nodes with anomalous positions in learned embedding spaces), and label-propagation anomaly (nodes whose classifier labels propagate inconsistently). The [Akoglu Tong Koutra 2015][research_akoglu_tong_koutra_2015] Graph-based Anomaly Detection and Description survey establishes the reference methodological framework. The [Rayana and Akoglu 2015][research_rayana_akoglu_2015] Collective Opinion Spam Detection and the [Wang et al 2011][research_wang_et_al_2011] Review Graph Based Detection treatments establish the reputation-specific reference framework.
+Graph-theoretic detection identifies structural anomalies in the reviewer-product graph, the follower-followee graph, the account-content interaction graph, or the cross-platform sharing graph. The methodology class includes community-detection anomaly (unusually dense subgraphs indicating coordination), spectral-analysis anomaly (eigenvalue-based anomaly in the graph Laplacian), graph-embedding anomaly (nodes with anomalous positions in learned embedding spaces), and label-propagation anomaly (nodes whose classifier labels propagate inconsistently). The [Akoglu et al. 2014][research_akoglu_tong_koutra_2015] Graph-based Anomaly Detection and Description survey establishes the reference methodological framework. The [Rayana and Akoglu 2015][research_rayana_akoglu_2015] Collective Opinion Spam Detection and the [Wang et al. 2011][research_wang_et_al_2011] Review Graph Based Detection treatments establish the reputation-specific reference framework.
 
 The community-detection modularity function characterizes coordinated subgraphs
 
@@ -115,7 +115,7 @@ $$Q = \frac{1}{2m} \sum_{ij} \left[A_{ij} - \frac{k_i k_j}{2m}\right] \delta(c_i
 
 with $A_{ij}$ the adjacency matrix, $k_i$ the node degree, $m$ the edge count, and $\delta(c_i, c_j)$ the community-match indicator. High-modularity dense subgraphs concentrated in target regions of the platform trigger coordination-detection classification. The [Newman 2006][research_newman_2006] Modularity Framework provides the reference modularity formulation.
 
-Graph-neural-network approaches extend the community-detection framework via learned graph representations. The [Kipf and Welling 2016][research_kipf_welling_2016] Semi-Supervised Classification with Graph Convolutional Networks establishes the foundational GCN framework. The [Hamilton Ying Leskovec 2017][research_hamilton_ying_leskovec_2017] Inductive Representation Learning on Large Graphs treatment establishes the GraphSAGE framework applicable to inductive-detection scenarios. The [Wu Pan Chen 2020][research_wu_pan_chen_2020] Comprehensive Survey on Graph Neural Networks establishes the reference summary. The application to reputation-manipulation detection appears in [Dou et al 2020][research_dou_et_al_2020] Enhancing Graph Neural Network-based Fraud Detectors and adjacent work.
+Graph-neural-network approaches extend the community-detection framework via learned graph representations. The [Kipf and Welling 2016][research_kipf_welling_2016] Semi-Supervised Classification with Graph Convolutional Networks establishes the foundational GCN framework. The [Hamilton et al. 2017][research_hamilton_ying_leskovec_2017] Inductive Representation Learning on Large Graphs treatment establishes the GraphSAGE framework applicable to inductive-detection scenarios. The [Wu et al. 2021][research_wu_pan_chen_2020] Comprehensive Survey on Graph Neural Networks establishes the reference summary. The application to reputation-manipulation detection appears in [Dou et al. 2020][research_dou_et_al_2020] Enhancing Graph Neural Network-based Fraud Detectors and adjacent work.
 
 The graph-embedding distance for anomaly detection takes the form
 
@@ -131,7 +131,7 @@ for a chosen threshold, with the [Chung 1997][book_chung_1997] Spectral Graph Th
 
 ### Machine-Learning Classifier Approaches
 
-Machine-learning classifier approaches train on labeled instances of manipulation and non-manipulation and apply the trained classifiers to unlabeled instances. The methodology class includes stylometric text classifiers, behavior-pattern classifiers, embedding-based classifiers, and multi-modal ensemble classifiers. The [Ott et al 2011][research_ott_et_al_2011] treatment initiated the classifier-based reputation-manipulation detection subfield. The [Cresci 2020][research_cresci_2020] Decade of Social Bot Detection survey establishes the reference summary for the bot-detection subclass. Standing reference datasets for classifier training and evaluation include the [Yelp Open Dataset][ref_yelp_open_dataset], the [Amazon Reviews Dataset][ref_amazon_reviews_dataset], the [YelpChi Fake Review Dataset][ref_yelpchi_dataset], the [Ott Deceptive Opinion Spam Corpus][ref_ott_deceptive_corpus], the [Cresci-2015 Fake Followers Dataset][ref_cresci_2015_dataset], the [Cresci-2017 Genuine and Spambot Dataset][ref_cresci_2017_dataset], the [Bot Repository Indiana OSoMe][ref_bot_repository], the [Twitter Election Integrity Dataset Archive][ref_twitter_election_integrity], the [Stanford Internet Observatory Data Catalog][ref_stanford_internet_observatory], and the [Cross-Platform Sharing Dataset][ref_cross_platform_sharing_dataset].
+Machine-learning classifier approaches train on labeled instances of manipulation and non-manipulation and apply the trained classifiers to unlabeled instances. The methodology class includes stylometric text classifiers, behavior-pattern classifiers, embedding-based classifiers, and multi-modal ensemble classifiers. The [Ott et al. 2011][research_ott_et_al_2011] treatment initiated the classifier-based reputation-manipulation detection subfield. The [Cresci 2020][research_cresci_2020] Decade of Social Bot Detection survey establishes the reference summary for the bot-detection subclass. Standing reference datasets for classifier training and evaluation include the [Yelp Open Dataset][ref_yelp_open_dataset], the [Amazon Reviews Dataset][ref_amazon_reviews_dataset], the [YelpChi Fake Review Dataset][ref_yelpchi_dataset], the [Ott Deceptive Opinion Spam Corpus][ref_ott_deceptive_corpus], the [Cresci-2015 Fake Followers Dataset][ref_cresci_2015_dataset], the [Cresci-2017 Genuine and Spambot Dataset][ref_cresci_2017_dataset], the [Bot Repository Indiana OSoMe][ref_bot_repository], the [Twitter Election Integrity Dataset Archive][ref_twitter_election_integrity], the [Stanford Internet Observatory Data Catalog][ref_stanford_internet_observatory], and the [Cross-Platform Sharing Dataset][ref_cross_platform_sharing_dataset].
 
 Ensemble classifier accuracy under standard averaging allows characterization as
 
@@ -161,13 +161,13 @@ with the prior shifting under manipulation-prevalence changes over time and requ
 
 ### Adversarial Machine Learning Defenses
 
-Adversarial machine learning defenses target the detection-evasion techniques characterized in the preceding articles under the generative-model and adaptive-manipulation-technique headings. The methodology class includes adversarial training (training the detector on labeled adversarial examples), ensemble robustness (combining diverse classifier types to reduce single-attack-vector vulnerability), certified robustness (mathematical guarantees against bounded-perturbation attacks), and watermarking (marking authentic content to enable verification). The [Goodfellow Shlens Szegedy 2014][research_goodfellow_shlens_szegedy_2014] adversarial-examples treatment and the [Carlini and Wagner 2017][research_carlini_wagner_2017] Towards Evaluating the Robustness of Neural Networks treatment establish the adversarial-attack reference framework. The [Madry et al 2018][research_madry_et_al_2018] Towards Deep Learning Models Resistant to Adversarial Attacks treatment establishes the adversarial-training framework. The [Cohen Rosenfeld Kolter 2019][research_cohen_rosenfeld_kolter_2019] Certified Adversarial Robustness via Randomized Smoothing treatment establishes the certified-robustness framework.
+Adversarial machine learning defenses target the detection-evasion techniques characterized in the preceding articles under the generative-model and adaptive-manipulation-technique headings. The methodology class includes adversarial training (training the detector on labeled adversarial examples), ensemble robustness (combining diverse classifier types to reduce single-attack-vector vulnerability), certified robustness (mathematical guarantees against bounded-perturbation attacks), and watermarking (marking authentic content to enable verification). The [Goodfellow et al. 2014][research_goodfellow_shlens_szegedy_2014] adversarial-examples treatment and the [Carlini and Wagner 2017][research_carlini_wagner_2017] Towards Evaluating the Robustness of Neural Networks treatment establish the adversarial-attack reference framework. The [Madry et al. 2017][research_madry_et_al_2018] Towards Deep Learning Models Resistant to Adversarial Attacks treatment establishes the adversarial-training framework. The [Cohen et al. 2019][research_cohen_rosenfeld_kolter_2019] Certified Adversarial Robustness via Randomized Smoothing treatment establishes the certified-robustness framework.
 
 The adversarial-example detection difficulty supports partial characterization via the fundamental result that under sufficient generative-model quality the detection accuracy approaches the random-classifier baseline
 
 $$\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}$$
 
-per the [Sadasivan et al 2023][research_sadasivan_et_al_2023] analysis. The watermarking countermeasure introduces a controlled bias in the generation distribution that preserves detection accuracy at the cost of small utility loss, per the [Kirchenbauer et al 2023][research_kirchenbauer_et_al_2023] treatment.
+per the [Sadasivan et al. 2023][research_sadasivan_et_al_2023] analysis. The watermarking countermeasure introduces a controlled bias in the generation distribution that preserves detection accuracy at the cost of small utility loss, per the [Kirchenbauer et al. 2023][research_kirchenbauer_et_al_2023] treatment.
 
 The adversarial-example L_p perturbation bound characterizes the attacker's search space,
 
@@ -251,7 +251,7 @@ with $t_v^\*$ the inflection point at which verification passes the majority ado
 
 ### Content-Authentication and Provenance
 
-Content-authentication and provenance countermeasures target the content-provenance channel through cryptographic content-signing, watermarking, and provenance-attestation. The [C2PA content provenance standard][ref_c2pa_standard], the [Coalition for Content Provenance and Authenticity][ref_c2pa_coalition], the [Content Authenticity Initiative][ref_content_authenticity_initiative], the [Meta AI-generated content labeling policy][ref_meta_ai_content_labeling], and the [Kirchenbauer et al 2023][research_kirchenbauer_et_al_2023] watermarking framework represent the field's current state. Adjacent generative-model deployment infrastructure includes the [OpenAI ChatGPT 2022 release][ref_openai_chatgpt_2022], the [OpenAI GPT-4 2023 release][ref_openai_gpt4_2023], the [Anthropic Claude][ref_anthropic_claude], and the [Meta Llama][ref_meta_llama] model families that produced the generative-model transition characterized in the framing article. The [Sohail et al 2024][research_sohail_et_al_2024] Detection of Large-Language-Model Generated Reviews and adjacent contemporary detection literature address the detection challenge under the transition.
+Content-authentication and provenance countermeasures target the content-provenance channel through cryptographic content-signing, watermarking, and provenance-attestation. The [C2PA content provenance standard][ref_c2pa_standard], the [Coalition for Content Provenance and Authenticity][ref_c2pa_coalition], the [Content Authenticity Initiative][ref_content_authenticity_initiative], the [Meta AI-generated content labeling policy][ref_meta_ai_content_labeling], and the [Kirchenbauer et al. 2023][research_kirchenbauer_et_al_2023] watermarking framework represent the field's current state. Adjacent generative-model deployment infrastructure includes the [OpenAI ChatGPT 2022 release][ref_openai_chatgpt_2022], the [OpenAI GPT-4 2023 release][ref_openai_gpt4_2023], the [Anthropic Claude][ref_anthropic_claude], and the [Meta Llama][ref_meta_llama] model families that produced the generative-model transition characterized in the framing article. The [Sohail 2024][research_sohail_et_al_2024] Detection of Large-Language-Model Generated Reviews and adjacent contemporary detection literature address the detection challenge under the transition.
 
 The content-provenance verification permits characterization as the signature-validity check
 
@@ -265,7 +265,7 @@ with $w_{\text{prov}}$ and $w_{\text{content}}$ the aggregation weights, providi
 
 ### Legal-Liability Regimes
 
-Legal-liability regimes operate through the regulatory and case-law framework surveyed across the miniseries. The account includes the FTC Act Section 5 unfair-or-deceptive-practices framework at [15 USC 45][ref_ftc_act_15_usc_45] (extended by the [FTC 2024 Final Rule on Fake Reviews and Testimonials][ref_ftc_final_rule_2024]), the Consumer Review Fairness Act at [15 USC 45b][ref_consumer_review_fairness_act_2016], the FTC Endorsement Guides at [16 CFR Part 255][ref_ftc_endorsement_guides_16_cfr_255] and the [FTC Endorsement Guides FAQ][ref_ftc_endorsement_faq], the Lanham Act Section 43(a) false-advertising framework at [15 USC 1125][ref_lanham_act_15_usc_1125], defamation law (New York Times v Sullivan through the contemporary case law surveyed in A279), intermediary-liability constraints under Section 230 CDA at [47 USC 230][ref_section_230_cda], and the international frameworks including the [EU Digital Services Act][ref_eu_dsa_2022], the [EU AI Act 2024][ref_eu_ai_act_2024], the [EU Unfair Commercial Practices Directive][ref_eu_ucpd_2005_29_ec], the [UK Online Safety Act 2023][ref_uk_online_safety_act_2023], the [UK CMA fake reviews action][ref_uk_cma_fake_reviews], the [Germany NetzDG 2017][ref_germany_netzdg_2017], the [France Loi Avia 2020][ref_france_loi_avia_2020], the [India IT Intermediary Guidelines 2021][ref_india_it_rules_2021], the [Singapore POFMA 2019][ref_singapore_pofma_2019], the [Brazil Marco Civil 2014][ref_brazil_marco_civil_2014], the [China CAC Deep Synthesis Regulations 2023][ref_china_cac_deepfake_2023], the [Australia ACCC fake reviews guidance][ref_accc_fake_reviews_guidance], and the [SPEECH Act 2010][ref_speech_act_2010] shielding US jurisdictions from inconsistent foreign judgments. The legal-deterrence condition from the framing article characterizes the equilibrium constraint that legal enforcement imposes
+Legal-liability regimes operate through the regulatory and case-law framework surveyed across the miniseries. The account includes the FTC Act Section 5 unfair-or-deceptive-practices framework at [15 USC 45][ref_ftc_act_15_usc_45] (extended by the [FTC 2024 Final Rule on Fake Reviews and Testimonials][ref_ftc_final_rule_2024]), the Consumer Review Fairness Act at [15 USC 45b][ref_consumer_review_fairness_act_2016], the FTC Endorsement Guides at [16 CFR Part 255][ref_ftc_endorsement_guides_16_cfr_255] and the [FTC Endorsement Guides FAQ][ref_ftc_endorsement_faq], the Lanham Act Section 43(a) false-advertising framework at [15 USC 1125][ref_lanham_act_15_usc_1125], defamation law (New York Times v Sullivan through the contemporary case law surveyed in A279), intermediary-liability constraints under Section 230 CDA at [47 USC 230][ref_section_230_cda], and the international frameworks including the [EU Digital Services Act][ref_eu_dsa_2022], the [Regulation 2024][ref_eu_ai_act_2024], the [EU Unfair Commercial Practices Directive][ref_eu_ucpd_2005_29_ec], the [Online Safety Act 2023 2023][ref_uk_online_safety_act_2023], the [UK CMA fake reviews action][ref_uk_cma_fake_reviews], the [NetzDG 2017][ref_germany_netzdg_2017], the [France Loi Avia 2020][ref_france_loi_avia_2020], the [India IT Intermediary Guidelines 2021][ref_india_it_rules_2021], the [Singapore POFMA 2019][ref_singapore_pofma_2019], the [L12965 2014][ref_brazil_marco_civil_2014], the [China Cyberspace Administration Deep 2023][ref_china_cac_deepfake_2023], the [Australia ACCC fake reviews guidance][ref_accc_fake_reviews_guidance], and the [SPEECH Act 2010][ref_speech_act_2010] shielding US jurisdictions from inconsistent foreign judgments. The legal-deterrence condition from the framing article characterizes the equilibrium constraint that legal enforcement imposes
 
 $$\Pr(\text{detect}) \cdot \text{Penalty} + c(m) > \frac{\partial R_i}{\partial m_i} \cdot v \cdot m$$
 
@@ -273,7 +273,7 @@ with the deterrence binding tightly in high-detection high-penalty regimes and l
 
 $$L(t) = L_0 \cdot (1 + g_L)^{t - t_0}$$
 
-with $g_L$ the compound-annual-growth rate of enforcement volume. Empirical estimates from the FTC enforcement-history place $g_L$ in the range 0.1 to 0.3 across the 2018-2025 window, reflecting significant enforcement intensification. The enforcement-case anchor set surveyed across the miniseries includes the [FTC 2019 Sunday Riley Settlement][ref_ftc_sunday_riley_2019], [FTC 2019 UrthBox Settlement][ref_ftc_urthbox_2019], [FTC v Devumi 2019][ref_ftc_devumi_2019] and parallel [NY AG v Devumi 2019][ref_ny_ag_devumi_2019], [FTC v Cure Encapsulations 2019][ref_ftc_cure_encapsulations_2019], [FTC 2020 Fashion Nova Settlement][ref_ftc_fashion_nova_2020], [FTC 2022 Fake Reviews and Endorsements Notice of Penalty Offense][ref_ftc_penalty_offense_2022], [FTC v Roomster 2022][ref_ftc_roomster_2022], [Amazon v Fake Review Brokers 2022][ref_amazon_v_fake_review_brokers_2022], [SEC v Kardashian 2022][ref_sec_kardashian_2022], [FTC 2023 Bountiful Company Review Hijacking Settlement][ref_ftc_bountiful_2023], [FTC v Amazon 2023][ref_ftc_v_amazon_2023] on dark-pattern manipulation, [FTC 2024 Impersonation Rule][ref_ftc_impersonation_rule_2024], and the [European Commission 2023 Sweep of Consumer Websites][ref_ec_2023_sweep] plus international parallels including [ACCC v Trivago 2020][ref_accc_v_trivago_2020], the [UK CMA Facebook and Google Fake Reviews Investigation 2022][ref_uk_cma_facebook_google_2022], the [Canadian Competition Bureau v Amazon][ref_canada_amazon], and the [Italian AGCM Booking.com Fake Reviews Action][ref_italy_agcm_booking].
+with $g_L$ the compound-annual-growth rate of enforcement volume. Empirical estimates from the FTC enforcement-history place $g_L$ in the range 0.1 to 0.3 across the 2018-2025 window, reflecting significant enforcement intensification. The enforcement-case anchor set surveyed across the miniseries includes the [FTC 2019 Sunday Riley Settlement][ref_ftc_sunday_riley_2019], [FTC 2019 UrthBox Settlement][ref_ftc_urthbox_2019], [FTC v Devumi 2019][ref_ftc_devumi_2019] and parallel [NY AG v Devumi 2019][ref_ny_ag_devumi_2019], [FTC v Cure Encapsulations 2019][ref_ftc_cure_encapsulations_2019], [FTC 2020 Fashion Nova Settlement][ref_ftc_fashion_nova_2020], [FTC 2022 Fake Reviews and Endorsements Notice of Penalty Offense][ref_ftc_penalty_offense_2022], [FTC v Roomster 2022][ref_ftc_roomster_2022], [Amazon v Fake Review 2022][ref_amazon_v_fake_review_brokers_2022], [SEC v Kardashian 2022][ref_sec_kardashian_2022], [FTC 2023 Bountiful Company Review Hijacking Settlement][ref_ftc_bountiful_2023], [FTC v Amazon 2023][ref_ftc_v_amazon_2023] on dark-pattern manipulation, [FTC 2024 Impersonation Rule][ref_ftc_impersonation_rule_2024], and the [European Commission 2023 Sweep of Consumer Websites][ref_ec_2023_sweep] plus international parallels including [ACCC v Trivago 2020][ref_accc_v_trivago_2020], the [UK et al. 2022][ref_uk_cma_facebook_google_2022], the [Canadian Competition Bureau v Amazon][ref_canada_amazon], and the [Italian AGCM Booking.com Fake Reviews Action][ref_italy_agcm_booking].
 
 ### Market-Based Countermeasures
 
@@ -291,7 +291,7 @@ The organic-establishment-minority puzzle introduced in the framing article at A
 
 ### Wikipedia and the Consensus-Editing Model
 
-Wikipedia represents the most substantial documented case of organic-reputation-establishment under manipulation-attempt-heavy conditions. The platform sustains article-quality reputation through a combination of consensus-editing protocols, verifiability-requirement policies, sourcing-standards enforcement, sockpuppet-investigation infrastructure, and volunteer-editor community norms. The [Wikipedia Sockpuppet Investigations][ref_wikipedia_spi] documentation provides the standing record of manipulation-attempt detection and enforcement. The [Jemielniak 2014][book_jemielniak_2014] Common Knowledge treatment provides the comprehensive academic analysis of the Wikipedia governance model. The [Konieczny 2010][research_konieczny_2010] Governance Adhocracy and Wikipedia treatment addresses the governance-structure evolution. The [Halfaker et al 2013][research_halfaker_et_al_2013] Rise and Decline of an Open Collaboration System addresses the editor-population dynamics.
+Wikipedia represents the most substantial documented case of organic-reputation-establishment under manipulation-attempt-heavy conditions. The platform sustains article-quality reputation through a combination of consensus-editing protocols, verifiability-requirement policies, sourcing-standards enforcement, sockpuppet-investigation infrastructure, and volunteer-editor community norms. The [Wikipedia Sockpuppet Investigations][ref_wikipedia_spi] documentation provides the standing record of manipulation-attempt detection and enforcement. The [Jemielniak 2014][book_jemielniak_2014] Common Knowledge treatment provides the comprehensive academic analysis of the Wikipedia governance model. The [Konieczny 2010][research_konieczny_2010] Governance Adhocracy and Wikipedia treatment addresses the governance-structure evolution. The [Halfaker et al. 2012][research_halfaker_et_al_2013] Rise and Decline of an Open Collaboration System addresses the editor-population dynamics.
 
 The Wikipedia consensus-threshold statistic characterizes the community-editing dynamic
 
@@ -307,7 +307,7 @@ with $\sigma$ the logistic function, $e_{\text{quality}}$ the edit quality attri
 
 ### GitHub and Open-Source Contribution Reputation
 
-GitHub and the broader open-source-software ecosystem represent a second documented case of organic-reputation-establishment. The platform sustains contributor-quality reputation through commit-history transparency, code-review requirements, commit-signing infrastructure, and downstream-user-verification dynamics. The [GitHub Commit Signature Verification][ref_github_commit_signing] documentation provides the reference infrastructure. The [Vasilescu Serebrenik Devanbu Filkov 2016][research_vasilescu_serebrenik_devanbu_filkov_2016] treatment addresses the empirical open-source contributor-dynamics.
+GitHub and the broader open-source-software ecosystem represent a second documented case of organic-reputation-establishment. The platform sustains contributor-quality reputation through commit-history transparency, code-review requirements, commit-signing infrastructure, and downstream-user-verification dynamics. The [GitHub Commit Signature Verification][ref_github_commit_signing] documentation provides the reference infrastructure. The [Vasilescu et al. 2016][research_vasilescu_serebrenik_devanbu_filkov_2016] treatment addresses the empirical open-source contributor-dynamics.
 
 The commit-signature validity characterization has the same form as the content-provenance verification above,
 
@@ -315,7 +315,7 @@ $$V_{\text{commit}}(\text{commit}, \sigma) = \mathbb{1}[\text{Verify}(\text{gpg 
 
 with the commit-signing infrastructure providing cryptographic attestation of contributor identity that resists sockpuppet-and-impersonation manipulation.
 
-The downstream-user-verification dynamic operates through the fact that open-source contributor reputation is verified by downstream users through actual use of the contributed code, which produces reputation-signal-informativeness that pure claim-based reputation systems lack. The [Kalliamvakou et al 2016][research_kalliamvakou_et_al_2016] Depth of Programmer Skill treatment addresses the skill-verification dynamics. The GitHub contributor-reputation growth trajectory supports characterization via the accumulation function
+The downstream-user-verification dynamic operates through the fact that open-source contributor reputation is verified by downstream users through actual use of the contributed code, which produces reputation-signal-informativeness that pure claim-based reputation systems lack. The [Kalliamvakou et al. 2015][research_kalliamvakou_et_al_2016] Depth of Programmer Skill treatment addresses the skill-verification dynamics. The GitHub contributor-reputation growth trajectory supports characterization via the accumulation function
 
 $$R_{\text{contributor}}(t) = \int_0^t \gamma(s) \cdot q(s) \, ds$$
 
@@ -335,7 +335,7 @@ The citation-network reputation dynamic allows the PageRank-analog characterizat
 
 $$R_{\text{author}}(a) = (1 - d)/N + d \sum_{a' : \text{cites } a} R_{\text{author}}(a') / L(a')$$
 
-with $R_{\text{author}}$ the author reputation as a function of the citing-author reputation and $L(a')$ the citation count of $a'$. The [Ding et al 2009][research_ding_et_al_2009] PageRank for Ranking Authors in Co-citation Networks treatment applies the PageRank framework to author reputation. The retraction-and-correction infrastructure limits the persistence of manipulation-derived reputation and provides the accountability mechanism absent from most commercial reputation systems. The retraction-rate characterization takes the composite fraction
+with $R_{\text{author}}$ the author reputation as a function of the citing-author reputation and $L(a')$ the citation count of $a'$. The [Ding et al. 2009][research_ding_et_al_2009] PageRank for Ranking Authors in Co-citation Networks treatment applies the PageRank framework to author reputation. The retraction-and-correction infrastructure limits the persistence of manipulation-derived reputation and provides the accountability mechanism absent from most commercial reputation systems. The retraction-rate characterization takes the composite fraction
 
 $$\rho_{\text{retract}}(\text{field}, t) = \frac{|\text{retractions in field at } t|}{|\text{publications in field at } t|}$$
 
@@ -347,7 +347,7 @@ with academic-citation reputation exhibiting considerable concentration ($G > 0.
 
 ### Stack Exchange and Reputation-Weighted Community Moderation
 
-Stack Exchange and the broader question-and-answer-community family represent a fourth case of organic-establishment through reputation-weighted community moderation. The reputation system awards points for question-and-answer quality assessed by community voting, with reputation gating access to moderation privileges. The [Stack Exchange reputation policies][ref_stack_exchange_reputation] document the reference infrastructure. The [Movshovitz-Attias et al 2013][research_movshovitz_attias_et_al_2013] Analysis of the Reputation System and User Contributions treatment addresses the empirical reputation-dynamics.
+Stack Exchange and the broader question-and-answer-community family represent a fourth case of organic-establishment through reputation-weighted community moderation. The reputation system awards points for question-and-answer quality assessed by community voting, with reputation gating access to moderation privileges. The [Stack Exchange reputation policies][ref_stack_exchange_reputation] document the reference infrastructure. The [Movshovitz-Attias et al. 2013][research_movshovitz_attias_et_al_2013] Analysis of the Reputation System and User Contributions treatment addresses the empirical reputation-dynamics.
 
 The Stack Exchange reputation-cascade dynamic supports characterization as the reinforcing feedback
 
@@ -367,7 +367,7 @@ with $C_{\text{fee}}$ the direct financial cost, $C_{\text{learn}}$ the norm-acq
 
 ### Cryptographic-Attestation and Web3 Alternative Architectures
 
-Cryptographic-attestation and Web3-based alternative architectures represent an emerging sixth case of organic-establishment-infrastructure development. The [Weyl Ohlhaver Buterin 2022][research_weyl_ohlhaver_buterin_2022] Decentralized Society treatment proposes the soulbound-token framework for non-transferable on-chain reputation. The [Ethereum Attestation Service][ref_ethereum_attestation_service] provides the emerging on-chain attestation infrastructure. The [Zargham and Nabben 2022][research_zargham_nabben_2022] Aligning Intent and Behavior in Web3 treatment provides the tempering critique. The cryptographic-attestation architecture is early-stage and is estimated by as a design-space alternative rather than as a validated organic-establishment infrastructure.
+Cryptographic-attestation and Web3-based alternative architectures represent an emerging sixth case of organic-establishment-infrastructure development. The [Weyl et al. 2022][research_weyl_ohlhaver_buterin_2022] Decentralized Society treatment proposes the soulbound-token framework for non-transferable on-chain reputation. The [Ethereum Attestation Service][ref_ethereum_attestation_service] provides the emerging on-chain attestation infrastructure. The [Zargham and Nabben 2022][research_zargham_nabben_2022] Aligning Intent and Behavior in Web3 treatment provides the tempering critique. The cryptographic-attestation architecture is early-stage and is estimated by as a design-space alternative rather than as a validated organic-establishment infrastructure.
 
 ### Common Structural Features Across Organic-Establishment Cases
 
@@ -475,9 +475,9 @@ The contemporary reputation-manipulation ecosystem admits comparative treatment 
 
 **Medieval guild reputation infrastructure**: the medieval European guild system administered collective reputation through membership admission, apprenticeship certification, quality-inspection, and expulsion mechanisms. The [Epstein and Prak 2008][book_epstein_prak_2008] Guilds Innovation and the European Economy treatment documents the infrastructure. The [Greif 1993][research_greif_1993] Contract Enforceability treatment addresses the Maghribi trader coalition infrastructure. The guild-system reputation infrastructure achieved organic-establishment across marked merchant populations under the conditions of concentrated-community enforcement that the contemporary organic-establishment cases echo.
 
-**Consumer Reports and independent product-testing infrastructure**: the [Consumer Reports founding 1936][ref_consumer_reports_1936] established the independent-product-testing infrastructure that provided authentic-reputation signal for an extensive consumer-goods market segment through the late twentieth century. The organizational form (subscription-funded independent testing) produced reputation-signal-informativeness that pure advertising-and-word-of-mouth could not provide. The parallel Which? UK founding 1957 and the European counterpart consumer-testing organizations extended the model internationally. The organizational form has faced sizable pressure from the shift to digital-mediated consumer-signal environments but persists as an organic-establishment infrastructure.
+**Consumer Reports and independent product-testing infrastructure**: the [Consumer Reports Founding 1936][ref_consumer_reports_1936] established the independent-product-testing infrastructure that provided authentic-reputation signal for an extensive consumer-goods market segment through the late twentieth century. The organizational form (subscription-funded independent testing) produced reputation-signal-informativeness that pure advertising-and-word-of-mouth could not provide. The parallel Which? UK founding 1957 and the European counterpart consumer-testing organizations extended the model internationally. The organizational form has faced sizable pressure from the shift to digital-mediated consumer-signal environments but persists as an organic-establishment infrastructure.
 
-**Pure Food and Drug Act 1906 and FDA emergence**: the [Pure Food and Drug Act 1906][ref_pure_food_drug_act_1906] and the subsequent Food and Drug Administration establishment addressed the patent-medicine testimonial-manipulation era through federal regulatory intervention. The [Wiley 1929][book_wiley_1929] History of a Crime Against the Food Law treatment documents the era. The regulatory-intervention response established the reference precedent for federal-regulatory response to information-asymmetry-and-manipulation environments.
+**Pure Food and Drug Act 1906 and FDA emergence**: the [Pure et al. 1906][ref_pure_food_drug_act_1906] and the subsequent Food and Drug Administration establishment addressed the patent-medicine testimonial-manipulation era through federal regulatory intervention. The [Wiley 1929][book_wiley_1929] History of a Crime Against the Food Law treatment documents the era. The regulatory-intervention response established the reference precedent for federal-regulatory response to information-asymmetry-and-manipulation environments.
 
 **Federal Trade Commission establishment 1914**: the [Federal Trade Commission Act 1914][ref_ftc_act_1914_founding] established the federal consumer-protection infrastructure that continues to serve as the reference regulatory apparatus for reputation-manipulation-adjacent commercial practices. The Wheeler-Lea Act 1938 extended the FTC authority to unfair-or-deceptive-acts-or-practices, establishing this formulation that the contemporary FTC 2024 Final Rule on Fake Reviews extends.
 
@@ -678,13 +678,13 @@ with the coverage exceeding the coverage of any individual preceding treatment s
 
 The scholarly treatment of the detection-and-countermeasure-and-organic-establishment landscape has developed unevenly across disciplines and has integrated less well across traditions than the manipulation-technique-specific literature. The closing article surveys the observable gap and identifies the recent-scholarship developments that the miniseries builds on.
 
-The detection-methodology scholarship developed continuously from the initial [Jindal and Liu 2008][research_jindal_liu_2008] and [Ott et al 2011][research_ott_et_al_2011] treatments through the contemporary [Cresci 2020][research_cresci_2020] survey and the [Kumar et al 2017][research_kumar_et_al_2017] treatment. The gap in the detection-methodology literature lies in the limited coverage of adversarial-adaptation dynamics beyond the bot-detection subclass, with appreciable residual work needed to characterize the equilibrium-detection-accuracy trajectory under sustained generative-model-driven manipulation-technique evolution.
+The detection-methodology scholarship developed continuously from the initial [Jindal and Liu 2008][research_jindal_liu_2008] and [Ott et al. 2011][research_ott_et_al_2011] treatments through the contemporary [Cresci 2020][research_cresci_2020] survey and the [Kumar 2017][research_kumar_et_al_2017] treatment. The gap in the detection-methodology literature lies in the limited coverage of adversarial-adaptation dynamics beyond the bot-detection subclass, with appreciable residual work needed to characterize the equilibrium-detection-accuracy trajectory under sustained generative-model-driven manipulation-technique evolution.
 
-The countermeasure-and-governance scholarship developed continuously from the platform-governance literature ([Klonick 2018][research_klonick_2018], [Balkin 2018][research_balkin_2018], [Douek 2021][research_douek_2021], [Grimmelmann 2015][research_grimmelmann_2015], [Suzor 2019][book_suzor_2019]) through the application to manipulation-countermeasure design. The gap lies in the limited integrated treatment across the platform-integrity-operations, identity-verification, content-authentication, and legal-liability countermeasure classes, with each class treated considerably in isolation rather than as components of an integrated countermeasure architecture.
+The countermeasure-and-governance scholarship developed continuously from the platform-governance literature ([Klonick 2018][research_klonick_2018], [Balkin 2018][research_balkin_2018], [Douek 2020][research_douek_2021], [Grimmelmann 2015][research_grimmelmann_2015], [Suzor 2019][book_suzor_2019]) through the application to manipulation-countermeasure design. The gap lies in the limited integrated treatment across the platform-integrity-operations, identity-verification, content-authentication, and legal-liability countermeasure classes, with each class treated considerably in isolation rather than as components of an integrated countermeasure architecture.
 
-The organic-establishment scholarship has developed as a set of case-specific literatures without considerable integration. The Wikipedia-specific literature ([Jemielniak 2014][book_jemielniak_2014], [Konieczny 2010][research_konieczny_2010], [Halfaker et al 2013][research_halfaker_et_al_2013]) provides significant treatment of the case. The GitHub-and-open-source literature ([Vasilescu Serebrenik Devanbu Filkov 2016][research_vasilescu_serebrenik_devanbu_filkov_2016], [Kalliamvakou et al 2016][research_kalliamvakou_et_al_2016]) provides parallel case-specific treatment. The academic-reputation literature ([Bornmann 2011][research_bornmann_2011], [Ding et al 2009][research_ding_et_al_2009], [Van Noorden 2020][research_van_noorden_2020]) provides parallel case-specific treatment. The cross-case-integration scholarship that identifies the common structural features across organic-establishment cases remains significantly underdeveloped, and the miniseries's five-common-enabling-conditions characterization contributes to this integration gap.
+The organic-establishment scholarship has developed as a set of case-specific literatures without considerable integration. The Wikipedia-specific literature ([Jemielniak 2014][book_jemielniak_2014], [Konieczny 2010][research_konieczny_2010], [Halfaker et al. 2012][research_halfaker_et_al_2013]) provides significant treatment of the case. The GitHub-and-open-source literature ([Vasilescu et al. 2016][research_vasilescu_serebrenik_devanbu_filkov_2016], [Kalliamvakou et al. 2015][research_kalliamvakou_et_al_2016]) provides parallel case-specific treatment. The academic-reputation literature ([Bornmann 2011][research_bornmann_2011], [Ding et al. 2009][research_ding_et_al_2009], [Van Noorden 2020][research_van_noorden_2020]) provides parallel case-specific treatment. The cross-case-integration scholarship that identifies the common structural features across organic-establishment cases remains significantly underdeveloped, and the miniseries's five-common-enabling-conditions characterization contributes to this integration gap.
 
-The forward-projection-methodology scholarship for the reputation-manipulation ecosystem is emergent rather than established. The [Bradshaw Bailey Howard 2021][research_bradshaw_bailey_howard_2021] Industrialized Disinformation and adjacent state-sponsored-operation projection literature provide the reference frameworks for the political-manipulation subset. The commercial-reputation-manipulation projection literature remains substantially underdeveloped, and the closing article's five-scenario projection framework contributes to this literature gap.
+The forward-projection-methodology scholarship for the reputation-manipulation ecosystem is emergent rather than established. The [Bradshaw et al. 2021][research_bradshaw_bailey_howard_2021] Industrialized Disinformation and adjacent state-sponsored-operation projection literature provide the reference frameworks for the political-manipulation subset. The commercial-reputation-manipulation projection literature remains substantially underdeveloped, and the closing article's five-scenario projection framework contributes to this literature gap.
 
 The governance-and-legitimacy scholarship addresses the platform-governance role in the manipulation-detection-organic-establishment landscape. The [Klonick 2018][research_klonick_2018] and [Balkin 2018][research_balkin_2018] treatments provide the reference framework. The gap lies in the limited empirical characterization of the equilibrium legitimacy consequences of alternative platform-governance choices, which remains an open empirical-and-normative question.
 
@@ -694,7 +694,7 @@ The historiographical gap that the closing article addresses lies in the absence
 
 The economic-signaling-and-detection-methodology framework the closing article adopts is one of several analytical frameworks under which the detection-and-countermeasure-and-organic-establishment landscape supports treatment. The closing article surveys the principal alternatives.
 
-The enforcement-economics framework of [Becker 1968][research_becker_1968] and [Polinsky and Shavell 2000][research_polinsky_shavell_2000] treats manipulation-enforcement as a Becker-crime-and-punishment optimization problem, characterizing the optimal-detection-intensity-and-penalty combination that maximizes deterrence net of enforcement cost. This account produces different conclusions than the miniseries's economic-signaling framework in that it emphasizes the sanction-severity-versus-probability tradeoff and provides policy-design recommendations that the signaling framework does not directly generate.
+The enforcement-economics framework of [Becker 1968][research_becker_1968] and [Polinsky and Shavell 1999][research_polinsky_shavell_2000] treats manipulation-enforcement as a Becker-crime-and-punishment optimization problem, characterizing the optimal-detection-intensity-and-penalty combination that maximizes deterrence net of enforcement cost. This account produces different conclusions than the miniseries's economic-signaling framework in that it emphasizes the sanction-severity-versus-probability tradeoff and provides policy-design recommendations that the signaling framework does not directly generate.
 
 The common-pool-resource-governance framework of [Ostrom 1990][book_ostrom_1990] treats reputation-system integrity as a common-pool resource subject to institutional-design requirements. The [Ostrom 2010][research_ostrom_2010] polycentric-governance extension addresses the multi-level-governance dimension. The framework produces different conclusions than the platform-integrity-operations framework in that it emphasizes community-based governance solutions and predicts failure modes for pure-platform-mediated integrity approaches. The account provides the theoretical foundation for the organic-establishment case studies.
 
@@ -704,7 +704,7 @@ The evolutionary-game-theoretic framework of [Maynard Smith 1982][book_maynard_s
 
 The regulatory-capture framework of [Stigler 1971][research_stigler_1971] extends to platform-integrity-enforcement politics through the observation that regulated industries capture their regulators over time. The treatment predicts systematic underperformance of formal-regulatory approaches to manipulation-enforcement and provides theoretical foundation for organic-establishment community-based approaches as regulatory-capture-resistant alternatives.
 
-The adversarial-machine-learning framework of [Goodfellow Shlens Szegedy 2014][research_goodfellow_shlens_szegedy_2014] and subsequent adversarial-ML literature treats the detection-versus-manipulation dynamic as an adversarial-example generation-and-defense problem with algorithmic implications. This account produces different detection-system-design recommendations than the classical machine-learning framework, emphasizing robustness against adversarial adaptation over accuracy on labeled-training-distribution instances.
+The adversarial-machine-learning framework of [Goodfellow et al. 2014][research_goodfellow_shlens_szegedy_2014] and subsequent adversarial-ML literature treats the detection-versus-manipulation dynamic as an adversarial-example generation-and-defense problem with algorithmic implications. This account produces different detection-system-design recommendations than the classical machine-learning framework, emphasizing robustness against adversarial adaptation over accuracy on labeled-training-distribution instances.
 
 The signal-detection-theory framework of [Green and Swets 1966][book_green_swets_1966] treats detection design in the classical statistical-decision-theory tradition, with characterization of the observer-sensitivity-versus-response-criterion decomposition that provides analytical leverage the machine-learning framework does not directly offer.
 
@@ -731,218 +731,227 @@ The load-bearing open questions from the preceding articles remain open at the c
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Barber 1983 The Logic and Limits of Trust][book_barber_1983]
-- [Basseville and Nikiforov 1993 Detection of Abrupt Changes][book_basseville_nikiforov_1993]
-- [Berger 1985 Statistical Decision Theory and Bayesian Analysis][book_berger_1985]
-- [Bernays 1928 Propaganda][book_bernays_1928]
-- [Chung 1997 Spectral Graph Theory][book_chung_1997]
-- [Epstein and Prak 2008 Guilds Innovation and the European Economy][book_epstein_prak_2008]
-- [Fukuyama 1995 Trust][book_fukuyama_1995]
-- [Gray and Suri 2019 Ghost Work][book_gray_suri_2019]
-- [Green and Swets 1966 Signal Detection Theory and Psychophysics][book_green_swets_1966]
-- [Greif 2006 Institutions and the Path to the Modern Economy][book_greif_2006]
-- [Hardin 2002 Trust and Trustworthiness][book_hardin_2002]
-- [Hirsch 1976 Social Limits to Growth][book_hirsch_1976]
-- [Holland 1995 Hidden Order][book_holland_1995]
-- [Jemielniak 2014 Common Knowledge][book_jemielniak_2014]
-- [Kahneman 2011 Thinking Fast and Slow][book_kahneman_2011]
-- [Kovach and Rosenstiel 2001 The Elements of Journalism][book_kovach_rosenstiel_2001]
-- [Macmillan and Creelman 2005 Detection Theory User's Guide][book_macmillan_creelman_2005]
-- [Maynard Smith 1982 Evolution and the Theory of Games][book_maynard_smith_1982]
-- [Miller and Page 2007 Complex Adaptive Systems][book_miller_page_2007]
-- [North 1990 Institutions Institutional Change and Economic Performance][book_north_1990]
-- [Nowak 2006 Evolutionary Dynamics][book_nowak_2006]
-- [Ostrom 1990 Governing the Commons][book_ostrom_1990]
-- [Roberts 2019 Behind the Screen][book_roberts_2019]
-- [Silverman 2007 Regret the Error][book_silverman_2007]
-- [Sunstein 2018 Republic Divided Democracy in the Age of Social Media][book_sunstein_2018]
-- [Suzor 2019 Lawless][book_suzor_2019]
-- [Sztompka 1999 Trust A Sociological Theory][book_sztompka_1999]
-- [Wald 1950 Statistical Decision Functions][book_wald_1950]
-- [Wiley 1929 History of a Crime Against the Food Law][book_wiley_1929]
-- [Williamson 1985 The Economic Institutions of Capitalism][book_williamson_1985]
-- [Zuboff 2019 The Age of Surveillance Capitalism][book_zuboff_2019]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Akoglu, Leman, Hanghang Tong, and Danai Koutra. 2014. "Graph Based Anomaly Detection and Description: A Survey." *Data Mining and Knowledge Discovery* 29 (3): 626–88. [https://doi.org/10.1007/s10618-014-0365-y][research_akoglu_tong_koutra_2015]
+- Bornmann, Lutz. 2011. "Scientific Peer Review." *Annual Review of Information Science and Technology* 45 (1): 197–245. [https://doi.org/10.1002/aris.2011.1440450112][research_bornmann_2011]
+- Carlini, Nicholas, and David Wagner. 2017. "Towards Evaluating the Robustness of Neural Networks." In *2017 IEEE Symposium on Security and Privacy (SP)*. IEEE. [https://doi.org/10.1109/sp.2017.49][research_carlini_wagner_2017]
+- Ding, Ying, Erjia Yan, Arthur Frazho, and James Caverlee. 2009. "PageRank for Ranking Authors in Co-Citation Networks." *Journal of the American Society for Information Science and Technology* 60 (11): 2229–43. [https://doi.org/10.1002/asi.21171][research_ding_et_al_2009]
+- Endres, D. M., and J. E. Schindelin. 2003. "A New Metric for Probability Distributions." *IEEE Transactions on Information Theory* 49 (7): 1858–60. [https://doi.org/10.1109/tit.2003.813506][research_endres_schindelin_2003]
+- Kalliamvakou, Eirini, Georgios Gousios, Kelly Blincoe, Leif Singer, Daniel M. German, and Daniela Damian. 2015. "An in-Depth Study of the Promises and Perils of Mining GitHub." *Empirical Software Engineering* 21 (5): 2035–71. [https://doi.org/10.1007/s10664-015-9393-5][research_kalliamvakou_et_al_2016]
+- Wang, Guan, Sihong Xie, Bing Liu, and Philip S. Yu. 2011. "Review Graph Based Online Store Review Spammer Detection." In *2011 IEEE 11th International Conference on Data Mining*. IEEE. [https://doi.org/10.1109/icdm.2011.124][research_wang_et_al_2011]
+- Weyl, Eric Glen, Puja Ohlhaver, and Vitalik Buterin. 2022. "Decentralized Society: Finding Web3's Soul." *SSRN Electronic Journal*. [https://doi.org/10.2139/ssrn.4105763][research_weyl_ohlhaver_buterin_2022]
+- Wu, Zonghan, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, and Philip S. Yu. 2021. "A Comprehensive Survey on Graph Neural Networks." *IEEE Transactions on Neural Networks and Learning Systems* 32 (1): 4–24. [https://doi.org/10.1109/tnnls.2020.2978386][research_wu_pan_chen_2020]
 
-- [15 USC 45 Federal Trade Commission Act Section 5][ref_ftc_act_15_usc_45]
-- [15 USC 45b Consumer Review Fairness Act 2016][ref_consumer_review_fairness_act_2016]
-- [15 USC 1125 Lanham Act Section 43a False Advertising][ref_lanham_act_15_usc_1125]
-- [16 CFR Part 255 FTC Guides on Endorsements and Testimonials][ref_ftc_endorsement_guides_16_cfr_255]
-- [47 USC 230 Communications Decency Act Section 230][ref_section_230_cda]
-- [ACCC Fake Reviews Guidance][ref_accc_fake_reviews_guidance]
-- [ACCC v Trivago 2020][ref_accc_v_trivago_2020]
-- [Amazon Community Guidelines][ref_amazon_community_guidelines]
-- [Amazon Reviews Dataset][ref_amazon_reviews_dataset]
-- [Amazon v Fake Review Brokers 2022][ref_amazon_v_fake_review_brokers_2022]
-- [Anthropic Claude][ref_anthropic_claude]
-- [Apple App Store Review Guidelines][ref_apple_app_store_review_guidelines]
-- [Atlantic Council DFRLab Investigations][ref_atlantic_council_dfrlab]
-- [Bellingcat Open-Source Investigation Methodology][ref_bellingcat]
-- [Bot Repository Indiana OSoMe][ref_bot_repository]
-- [Brazil Marco Civil da Internet 2014][ref_brazil_marco_civil_2014]
-- [C2PA Coalition for Content Provenance and Authenticity][ref_c2pa_coalition]
-- [C2PA Content Provenance Standard][ref_c2pa_standard]
-- [Cambridge Analytica Revelations 2018][ref_cambridge_analytica_2018]
-- [Canadian Competition Bureau v Amazon Fake Reviews][ref_canada_amazon]
-- [China Cyberspace Administration Deep Synthesis Regulations 2023][ref_china_cac_deepfake_2023]
-- [Christchurch Call][ref_christchurch_call]
-- [Consumer Reports Founding 1936][ref_consumer_reports_1936]
-- [Content Authenticity Initiative][ref_content_authenticity_initiative]
-- [Cresci-2015 Fake Followers Dataset][ref_cresci_2015_dataset]
-- [Cresci-2017 Genuine and Spambot Dataset][ref_cresci_2017_dataset]
-- [Cross-Platform Sharing Dataset][ref_cross_platform_sharing_dataset]
-- [DFRLab Reports on Coordinated Inauthentic Behavior][ref_dfrlab_reports]
-- [Ethereum Attestation Service][ref_ethereum_attestation_service]
-- [EU AI Act Regulation 2024/1689][ref_eu_ai_act_2024]
-- [EU Digital Services Act Regulation 2022/2065][ref_eu_dsa_2022]
-- [EU Unfair Commercial Practices Directive 2005/29/EC][ref_eu_ucpd_2005_29_ec]
-- [European Commission 2023 Sweep of Consumer Websites][ref_ec_2023_sweep]
-- [Fakespot Consumer Reports][ref_fakespot_consumer_reports]
-- [Federal Trade Commission Act 1914 Founding][ref_ftc_act_1914_founding]
-- [FIDO Alliance Authentication Standards][ref_fido_alliance]
-- [France Loi Avia 2020][ref_france_loi_avia_2020]
-- [FTC 2019 Sunday Riley Settlement][ref_ftc_sunday_riley_2019]
-- [FTC 2019 UrthBox Settlement][ref_ftc_urthbox_2019]
-- [FTC 2020 Fashion Nova Settlement][ref_ftc_fashion_nova_2020]
-- [FTC 2022 Fake Reviews and Endorsements Notice of Penalty Offense][ref_ftc_penalty_offense_2022]
-- [FTC 2022 Roomster Settlement][ref_ftc_roomster_2022]
-- [FTC 2023 Bountiful Company Review Hijacking Settlement][ref_ftc_bountiful_2023]
-- [FTC 2024 Final Rule on Fake Reviews and Testimonials][ref_ftc_final_rule_2024]
-- [FTC 2024 Impersonation Rule][ref_ftc_impersonation_rule_2024]
-- [FTC Endorsement Guides Frequently Asked Questions][ref_ftc_endorsement_faq]
-- [FTC v Amazon 2023][ref_ftc_v_amazon_2023]
-- [FTC v Cure Encapsulations 2019][ref_ftc_cure_encapsulations_2019]
-- [FTC v Devumi 2019][ref_ftc_devumi_2019]
-- [Germany Netzwerkdurchsetzungsgesetz NetzDG 2017][ref_germany_netzdg_2017]
-- [GitHub Commit Signature Verification][ref_github_commit_signing]
-- [Global Internet Forum to Counter Terrorism GIFCT][ref_gifct]
-- [Google Business Profile Content Guidelines][ref_google_business_profile_guidelines]
-- [Google Play Developer Policy][ref_google_play_developer_policy]
-- [Google Scholar Citation Counts][ref_google_scholar]
-- [Google Search Central Spam Policies][ref_google_search_spam_policies]
-- [Google Webmaster Guidelines][ref_google_webmaster_guidelines]
-- [Graphika Reports on Coordinated Inauthentic Behavior][ref_graphika_reports]
-- [IAB Digital Ad Fraud Report][ref_iab_ad_fraud_report]
-- [India IT Intermediary Guidelines 2021][ref_india_it_rules_2021]
-- [Instagram Community Guidelines Authenticity Section][ref_instagram_authenticity_guidelines]
-- [Italian AGCM Booking.com Fake Reviews Action][ref_italy_agcm_booking]
-- [LessWrong Reputation and Community Norms][ref_lesswrong_community]
-- [MetaFilter Membership Fee][ref_metafilter_membership]
-- [Meta Adversarial Threat Report][ref_meta_atr]
-- [Meta AI-Generated Content Labeling Policy][ref_meta_ai_content_labeling]
-- [Meta CIB Report Archive][ref_meta_cib_report_archive]
-- [Meta Community Standards][ref_meta_community_standards]
-- [Meta Coordinated Inauthentic Behavior Policy][ref_meta_cib_policy]
-- [Meta Llama][ref_meta_llama]
-- [MRC Media Rating Council Viewability Standards][ref_mrc_viewability_standards]
-- [NetReputation.com][ref_netreputation_com]
-- [NY Attorney General v Devumi 2019][ref_ny_ag_devumi_2019]
-- [OpenAI ChatGPT 2022 Release][ref_openai_chatgpt_2022]
-- [OpenAI GPT-4 2023 Release][ref_openai_gpt4_2023]
-- [ORCID Identifier System][ref_orcid]
-- [Ott Deceptive Opinion Spam Corpus][ref_ott_deceptive_corpus]
-- [Pure Food and Drug Act 1906][ref_pure_food_drug_act_1906]
-- [Reddit Content Policy][ref_reddit_content_policy]
-- [Reddit Transparency Report][ref_reddit_transparency_report]
-- [Reputation.com][ref_reputation_com]
-- [Retraction Watch Database][ref_retraction_watch]
-- [SEC v Kardashian 2022][ref_sec_kardashian_2022]
-- [Singapore POFMA 2019][ref_singapore_pofma_2019]
-- [SPEECH Act 2010][ref_speech_act_2010]
-- [Stack Exchange Reputation Policies][ref_stack_exchange_reputation]
-- [Stanford Internet Observatory Data Catalog][ref_stanford_internet_observatory]
-- [TikTok Community Guidelines General Framework][ref_tiktok_community_guidelines_general]
-- [TikTok Community Guidelines Enforcement Report][ref_tiktok_transparency_report]
-- [Twitter Election Integrity Dataset Archive][ref_twitter_election_integrity]
-- [UK CMA Facebook and Google Fake Reviews Investigation 2022][ref_uk_cma_facebook_google_2022]
-- [UK CMA Fake Reviews Action][ref_uk_cma_fake_reviews]
-- [UK Online Safety Act 2023][ref_uk_online_safety_act_2023]
-- [W3C Decentralized Identifiers Standard][ref_w3c_did]
-- [W3C Verifiable Credentials Standard][ref_w3c_verifiable_credentials]
-- [W3C Web Authentication WebAuthn Standard][ref_w3c_webauthn]
-- [Wikipedia Sockpuppet Investigations][ref_wikipedia_spi]
-- [X Platform Manipulation and Spam Policy][ref_x_platform_manipulation_policy]
-- [X Terms of Service][ref_x_terms_of_service]
-- [X Transparency Report][ref_x_transparency_report]
-- [Yelp Content Guidelines][ref_yelp_content_guidelines]
-- [Yelp Open Dataset][ref_yelp_open_dataset]
-- [YelpChi Fake Review Dataset][ref_yelpchi_dataset]
-- [YouTube Community Guidelines Enforcement Report][ref_youtube_transparency_report]
+### Primary Sources, Non-Peer-Reviewed
 
-### Related Post
+- "15 U.S. Code § 45b: Consumer Review Protection." 2016. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/45b][ref_consumer_review_fairness_act_2016]
+- "15 USC 1125 Lanham Act Section 43a False Advertising." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/1125][ref_lanham_act_15_usc_1125]
+- "15 USC 45 Federal Trade Commission Act Section 5." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/45][ref_ftc_act_15_usc_45]
+- "16 CFR Part 255 FTC Guides on Endorsements and Testimonials." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-255][ref_ftc_endorsement_guides_16_cfr_255]
+- "47 USC 230 Communications Decency Act Section 230." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/47/230][ref_section_230_cda]
+- Akerlof, George A. 1970. "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism." *Quarterly Journal of Economics* 84 (3): 488. [https://doi.org/10.2307/1879431][research_akerlof_1970]
+- Barabási, Albert-László, and Réka Albert. 1999. "Emergence of Scaling in Random Networks." *Science* 286 (5439): 509–12. [https://doi.org/10.1126/science.286.5439.509][research_barabasi_albert_1999]
+- Becker, Gary S. 1968. "Crime and Punishment: An Economic Approach." In *The Economic Dimensions of Crime*. Palgrave Macmillan UK. [https://doi.org/10.1007/978-1-349-62853-7\_2][research_becker_1968]
+- Benjamini, Yoav, and Yosef Hochberg. 1995. "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing." *Journal of the Royal Statistical Society Series B: Statistical Methodology* 57 (1): 289–300. [https://doi.org/10.1111/j.2517-6161.1995.tb02031.x][research_benjamini_hochberg_1995]
+- *C2PA Coalition for Content Provenance and Authenticity*. n.d. [https://c2pa.org/][ref_c2pa_coalition]
+- *C2PA Content Provenance Standard*. n.d. [https://c2pa.org/specifications/specifications/1.4/index.html][ref_c2pa_standard]
+- Chandola, Varun, Arindam Banerjee, and Vipin Kumar. 2009. "Anomaly Detection: A Survey." *ACM Computing Surveys* 41 (3): 1–58. [https://doi.org/10.1145/1541880.1541882][research_chandola_banerjee_kumar_2009]
+- Cohen, Jeremy M., Elan Rosenfeld, and J. Zico Kolter. 2019. "Certified Adversarial Robustness via Randomized Smoothing." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1902.02918][research_cohen_rosenfeld_kolter_2019]
+- Cresci, Stefano. 2020. "A Decade of Social Bot Detection." *Communications of the ACM* 63 (10): 72–83. [https://doi.org/10.1145/3409116][research_cresci_2020]
+- Darby, Michael R., and Edi Karni. 1973. "Free Competition and the Optimal Amount of Fraud." *Journal of Law and Economics* 16 (1): 67–88. [https://doi.org/10.1086/466756][research_darby_karni_1973]
+- Davis, Jesse, and Mark Goadrich. 2006. "The Relationship between Precision-Recall and ROC Curves." In *Proceedings of the 23rd international conference on Machine learning - ICML '06*. ACM Press. [https://doi.org/10.1145/1143844.1143874][research_davis_goadrich_2006]
+- "Directive: 2005/29: EN: Unfair Commercial Practices Directive: EUR-LexLog inEnglish." n.d. Accessed October 25, 2026. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32005L0029][ref_eu_ucpd_2005_29_ec]
+- Dou, Yingtong, Zhiwei Liu, Li Sun, Yutong Deng, Hao Peng, and Philip S. Yu. 2020. "Enhancing Graph Neural Network-Based Fraud Detectors against Camouflaged Fraudsters." In *Proceedings of the 29th ACM International Conference on Information & Knowledge Management*. ACM. [https://doi.org/10.1145/3340531.3411903][research_dou_et_al_2020]
+- Douek, Evelyn. 2020. "Governing Online Speech: From 'Posts-As-Trumps' to Proportionality and Probability." Preprint, . [https://doi.org/10.2139/ssrn.3679607][research_douek_2021]
+- "EU Digital Services Act Regulation 2022/." 2065. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065][ref_eu_dsa_2022]
+- European Commission. 2023. "Sweep of Consumer Websites." [https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/sweeps\_en][ref_ec_2023_sweep]
+- Federal Trade Commission Act. 1914. "Founding." [https://www.ftc.gov/about-ftc/history/federal-trade-commission-act][ref_ftc_act_1914_founding]
+- FTC. 2019a. "Sunday Riley Settlement." [https://www.ftc.gov/legal-library/browse/cases-proceedings/1723065-sunday-riley-modern-skincare-llc][ref_ftc_sunday_riley_2019]
+- FTC. 2019b. "UrthBox Settlement." [https://www.ftc.gov/legal-library/browse/cases-proceedings/172-3128-urthbox-inc][ref_ftc_urthbox_2019]
+- FTC. 2020. "Fashion Nova Settlement." [https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3138-fashion-nova-llc][ref_ftc_fashion_nova_2020]
+- FTC. 2022a. "Fake Reviews and Endorsements Notice of Penalty Offense." [https://www.ftc.gov/legal-library/browse/notices-penalty-offenses-concerning-money-making-opportunities-endorsements-reviews-testimonials][ref_ftc_penalty_offense_2022]
+- FTC. 2022b. "Roomster Settlement." [https://www.ftc.gov/legal-library/browse/cases-proceedings/2223059-roomster-corp][ref_ftc_roomster_2022]
+- FTC. 2023. "Bountiful Company Review Hijacking Settlement." [https://www.ftc.gov/legal-library/browse/cases-proceedings/2023127-bountiful-company][ref_ftc_bountiful_2023]
+- FTC. 2024a. "Final Rule on Fake Reviews and Testimonials." [https://www.ftc.gov/legal-library/browse/federal-register-notices/16-cfr-part-465-rule-use-consumer-reviews-testimonials][ref_ftc_final_rule_2024]
+- FTC. 2024b. "Impersonation Rule." [https://www.ftc.gov/legal-library/browse/federal-register-notices/rule-impersonation-government-businesses][ref_ftc_impersonation_rule_2024]
+- "FTC v Amazon." 2023. [https://www.ftc.gov/legal-library/browse/cases-proceedings/2223050-amazoncom-inc-prime][ref_ftc_v_amazon_2023]
+- "FTC v Cure Encapsulations." 2019. [https://www.ftc.gov/legal-library/browse/cases-proceedings/172-3117-cure-encapsulations-inc][ref_ftc_cure_encapsulations_2019]
+- "FTC v Devumi." 2019. [https://www.ftc.gov/legal-library/browse/cases-proceedings/162-3175-devumi-llc-german-calas-jr][ref_ftc_devumi_2019]
+- "FTC's Endorsement Guides: What People Are Asking." 2017. Federal Trade Commission, September 7. [https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking][ref_ftc_endorsement_faq]
+- Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. 2014. "Explaining and Harnessing Adversarial Examples." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1412.6572][research_goodfellow_shlens_szegedy_2014]
+- Halfaker, Aaron, R. Stuart Geiger, Jonathan T. Morgan, and John Riedl. 2012. "The Rise and Decline of an Open Collaboration System: How Wikipedia’s Reaction to Popularity Is Causing Its Decline." *American Behavioral Scientist* 57 (5): 664–88. [https://doi.org/10.1177/0002764212469365][research_halfaker_et_al_2013]
+- Hamilton, William L., Rex Ying, and Jure Leskovec. 2017. "Inductive Representation Learning on Large Graphs." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1706.02216][research_hamilton_ying_leskovec_2017]
+- Jindal, Nitin, and Bing Liu. 2008. "Opinion Spam and Analysis." In *Proceedings of the international conference on Web search and web data mining - WSDM '08*. ACM Press. [https://doi.org/10.1145/1341531.1341560][research_jindal_liu_2008]
+- Kipf, Thomas N., and Max Welling. 2016. "Semi-Supervised Classification with Graph Convolutional Networks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1609.02907][research_kipf_welling_2016]
+- Kirchenbauer, John, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers, and Tom Goldstein. 2023. "A Watermark for Large Language Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2301.10226][research_kirchenbauer_et_al_2023]
+- Konieczny. 2010. *Governance Adhocracy and Wikipedia*. [https://scholar.google.com/scholar?q=Governance+Adhocracy+and+Wikipedia+Konieczny+2010][research_konieczny_2010]
+- Madry, Aleksander, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, and Adrian Vladu. 2017. "Towards Deep Learning Models Resistant to Adversarial Attacks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1706.06083][research_madry_et_al_2018]
+- Movshovitz-Attias, Dana, Yair Movshovitz-Attias, Peter Steenkiste, and Christos Faloutsos. 2013. "Analysis of the Reputation System and User Contributions on a Question Answering Website: StackOverflow." In *Proceedings of the 2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining*. ACM. [https://doi.org/10.1145/2492517.2500242][research_movshovitz_attias_et_al_2013]
+- "NetzDG: Nichtamtliches Inhaltsverzeichnis." 2017. Accessed October 25, 2026. [https://www.gesetze-im-internet.de/netzdg/][ref_germany_netzdg_2017]
+- Newman, M. E. J. 2006. "Modularity and Community Structure in Networks." *Proceedings of the National Academy of Sciences* 103 (23): 8577–82. [https://doi.org/10.1073/pnas.0601602103][research_newman_2006]
+- Neyman, Jerzy, and Egon Sharpe Pearson. 1933. "IX. on the Problem of the Most Efficient Tests of Statistical Hypotheses." *Philosophical Transactions of the Royal Society of London. Series A, Containing Papers of a Mathematical or Physical Character* 231 (694–706): 289–337. [https://doi.org/10.1098/rsta.1933.0009][research_neyman_pearson_1933]
+- "Online Safety Act 2023." 2023. Statute Law Database. Accessed October 25, 2026. [https://www.legislation.gov.uk/ukpga/2023/50/contents][ref_uk_online_safety_act_2023]
+- Ostrom, Elinor. 2010. "Beyond Markets and States: Polycentric Governance of Complex Economic Systems." *American Economic Review* 100 (3): 641–72. [https://doi.org/10.1257/aer.100.3.641][research_ostrom_2010]
+- Ott, Myle, Yejin Choi, Claire Cardie, and Jeffrey T. Hancock. 2011. "Finding Deceptive Opinion Spam by Any Stretch of the Imagination." In *Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*. [https://aclanthology.org/P11-1032/][research_ott_et_al_2011]
+- Page, E. S. 1954. "Continuous Inspection Schemes." *Biometrika* 41 (1/2): 100. [https://doi.org/10.2307/2333009][research_page_1954]
+- Papernot, Nicolas, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z. Berkay Celik, and Ananthram Swami. 2016. "Practical Black-Box Attacks against Machine Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1602.02697][research_papernot_et_al_2016]
+- Polinsky, A. Mitchell, and Steven Shavell. 1999. *The Economic Theory of Public Enforcement of Law*. National Bureau of Economic Research. [https://doi.org/10.3386/w6993][research_polinsky_shavell_2000]
+- Rayana, Shebuti, and Leman Akoglu. 2015. "Collective Opinion Spam Detection: Bridging Review Networks and Metadata." In *Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*. ACM. [https://doi.org/10.1145/2783258.2783370][research_rayana_akoglu_2015]
+- "Regulation: EU: 2024/1689: EN: EUR-LexLog inEnglish." 2024. Accessed October 25, 2026. [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689][ref_eu_ai_act_2024]
+- Sadasivan, Vinu Sankar, Aounon Kumar, Sriram Balasubramanian, Wenxiao Wang, and Soheil Feizi. 2023. "Can AI-Generated Text Be Reliably Detected?" Preprint, arXiv. [https://doi.org/10.48550/arxiv.2303.11156][research_sadasivan_et_al_2023]
+- "SEC v Kardashian." 2022. [https://www.sec.gov/news/press-release/2022-183][ref_sec_kardashian_2022]
+- Sohail. 2024. *Detection of Large-Language-Model Generated Reviews*. [https://scholar.google.com/scholar?q=Detection+of+Large-Language-Model+Generated+Reviews+Sohail+2024][research_sohail_et_al_2024]
+- "SPEECH Act." 2010. [https://www.congress.gov/bill/111th-congress/house-bill/2765][ref_speech_act_2010]
+- Spence, Michael. 1973. "Job Market Signaling." *Quarterly Journal of Economics* 87 (3): 355. [https://doi.org/10.2307/1882010][research_spence_1973]
+- Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
+- Vasilescu, Serebrenik, Devanbu, and Filkov. 2016. *The Work Life of Developers*. [https://scholar.google.com/scholar?q=The+Work+Life+of+Developers+Vasilescu+Serebrenik+Devanbu+2016][research_vasilescu_serebrenik_devanbu_filkov_2016]
+- *W3C Decentralized Identifiers Standard*. n.d. [https://www.w3.org/TR/did-core/][ref_w3c_did]
+- *W3C Verifiable Credentials Standard*. n.d. [https://www.w3.org/TR/vc-data-model/][ref_w3c_verifiable_credentials]
+- *W3C Web Authentication WebAuthn Standard*. n.d. [https://www.w3.org/TR/webauthn/][ref_w3c_webauthn]
+- Wald, A. 1945. "Sequential Tests of Statistical Hypotheses." *Annals of Mathematical Statistics* 16 (2): 117–86. [https://doi.org/10.1214/aoms/1177731118][research_wald_1945]
+- Watts, Duncan J. 2002. "A Simple Model of Global Cascades on Random Networks." *Proceedings of the National Academy of Sciences* 99 (9): 5766–71. [https://doi.org/10.1073/pnas.082090499][research_watts_2002]
+- Xie, Sihong, Guan Wang, Shuyang Lin, and Philip S. Yu. 2012. "Review Spam Detection via Temporal Pattern Discovery." In *Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining*. ACM. [https://doi.org/10.1145/2339530.2339662][research_xie_et_al_2012]
+- Zargham and Nabben. 2022. *Aligning Intent and Behavior in Web3*. [https://scholar.google.com/scholar?q=Aligning+Intent+and+Behavior+in+Web3+Zargham+Nabben+2022][research_zargham_nabben_2022]
 
-- [Virtual Reputation Manipulation Theory and Analytical Framework A277][related_post_a277_theory]
-- [Virtual Reputation Manipulation Techniques of Self-Promotion A278][related_post_a278_self_promotion]
-- [Virtual Reputation Manipulation Techniques of Competitor Attack A279][related_post_a279_competitor_attack]
+### Secondary Sources
 
-### Research
+- Barber, Bernard. 1983. *The Logic and Limits of Trust*. Rutgers University Press. [https://www.rutgersuniversitypress.org/9780813509884][book_barber_1983]
+- Basseville, M., and Nikiforov. 1993. *Detection of Abrupt Changes: Theory and Application*. Prentice Hall. [https://people.irisa.fr/Michele.Basseville/kniga/][book_basseville_nikiforov_1993]
+- Berger, James O. 1985. *Statistical Decision Theory and Bayesian Analysis*. Springer New York. [https://doi.org/10.1007/978-1-4757-4286-2][book_berger_1985]
+- Bernays, Edward L. 1928. *Propaganda*. H. Liveright. [https://www.igpublishing.com/product/propaganda/][book_bernays_1928]
+- Chung, Fan R. K. 1997. *Spectral Graph Theory*. American Mathematical Society. [https://www.ams.org/books/cbms/092/][book_chung_1997]
+- Epstein, Stephan R., and Prak. 2008. *Guilds, Innovation, and the European Economy, 1400-1800*. Cambridge University Press. [https://www.cambridge.org/9780521887175][book_epstein_prak_2008]
+- Fukuyama, Francis. 1995. *Trust: The Social Virtues and the Creation of Prosperity*. Free Press. [https://www.simonandschuster.com/books/Trust/Francis-Fukuyama/9780684825250][book_fukuyama_1995]
+- Gray, Mary L., and Siddharth Suri. 2019. *Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass*. Houghton Mifflin Harcourt Publishing Company. [https://www.hmhbooks.com/shop/books/Ghost-Work/9781328566249][book_gray_suri_2019]
+- Green, David Marvin, and Swets. 1966. *Signal Detection Theory and Psychophysics*. Wiley. [https://openlibrary.org/works/OL5268329W][book_green_swets_1966]
+- Greif, Avner. 2006. *Institutions and Trade during the Late Medieval Commercial Revolution*. Cambridge University Press. [https://www.cambridge.org/9780521671347][book_greif_2006]
+- Hardin, Russell. 2002. *Trust and Trustworthiness*. Russell Sage Foundation. [https://www.russellsage.org/publications/trust-and-trustworthiness][book_hardin_2002]
+- Hirsch, Fred. 1976. *Social Limits to Growth*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674812901][book_hirsch_1976]
+- Holland, John H. 1995. *Hidden Order: How Adaptation Builds Complexity (Helix Books)*. Addison Wesley Publishing Company. [https://www.basicbooks.com/titles/john-h-holland/hidden-order/9780201442304/][book_holland_1995]
+- Jemielniak, Dariusz. 2014. *Common Knowledge?: An Ethnography of Wikipedia*. Stanford University Press. [https://www.sup.org/books/title/?id=23054][book_jemielniak_2014]
+- Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. Penguin Books, Limited. [https://us.macmillan.com/books/9780374533557/thinkingfastandslow][book_kahneman_2011]
+- Kovach, Bill, and Tom Rosenstiel. 2001. *The Elements of Journalism: What Newspeople Should Know and the Public Should Expect*. Crown Publishing Group. [https://www.penguinrandomhouse.com/books/305530/the-elements-of-journalism-by-bill-kovach-and-tom-rosenstiel/][book_kovach_rosenstiel_2001]
+- Macmillan, Neil A., and C. Douglas Creelman. 2005. *Detection Theory: A User's Guide*. Taylor & Francis Group. [https://www.routledge.com/Detection-Theory-A-Users-Guide/Macmillan-Creelman/p/book/9780805842319][book_macmillan_creelman_2005]
+- Maynard Smith. 1982. *Evolution and the Theory of Games*. Cambridge University Press. [https://www.cambridge.org/9780521288842][book_maynard_smith_1982]
+- Miller, John H., and Scott E. Page. 2007. *Complex Adaptive Systems: An Introduction to Computational Models of Social Life*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691127026/complex-adaptive-systems][book_miller_page_2007]
+- North, Douglass Cecil. 1990. *Institutions, Institutional Change, and Economic Performance*. Cambridge University Press. [https://www.cambridge.org/9780521397346][book_north_1990]
+- Nowak, Martin A. 2006. *Evolutionary Dynamics: Exploring the Equations of Life*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674023383][book_nowak_2006]
+- Ostrom, Elinor. 1990. *Die Verfassung Der Allmende: The Evolution of Institutions for Collective Action*. Cambridge University Press. [https://www.cambridge.org/9780521405997][book_ostrom_1990]
+- Roberts, Sarah T. 2019. *Behind the Screen: Content Moderation in the Shadows of Social Media*. Yale University Press. [https://yalebooks.yale.edu/book/9780300235883/behind-the-screen/][book_roberts_2019]
+- Silverman, Craig. 2007. *Regret the Error: How Media Mistakes Pollute the Press and Imperil Free Speech*. Union Square Press. [https://www.penguinrandomhouse.com/books/298167/regret-the-error-by-craig-silverman/][book_silverman_2007]
+- Sunstein, Cass R. 2018. *\#Republic: Divided Democracy in the Age of Social Media*. Princeton University Press. [https://press.princeton.edu/books/hardcover/9780691180908/republic][book_sunstein_2018]
+- Suzor, Nicolas P. 2019. *Lawless: The Secret Rules That Govern Our Digital Lives*. Cambridge University Press. [https://www.cambridge.org/9781108408271][book_suzor_2019]
+- Sztompka, Piotr. 1999. *Trust: A Sociological Theory*. Cambridge University Press. [https://www.cambridge.org/9780521598507][book_sztompka_1999]
+- Wald, Abraham. 1950. *Statistical Decision Functions*. Wiley. [https://www.wiley.com/en-us/Statistical+Decision+Functions-p-9780471917618][book_wald_1950]
+- Wiley, Harvey Washington. 1929. *The History of a Crime against the Food Law: The Amazing Story of the National Food and Drug Law Intended to Protect the Health of the Paople, Perverted to Protect Adulteration of Foods and Drugs*. H. W. Wiley. [https://openlibrary.org/works/OL1464165W][book_wiley_1929]
+- Williamson, Oliver E. 1985. *The Economic Institutions of Capitalism: Firms, Markets, Relational Contracting*. The Free Press. [https://openlibrary.org/works/OL3477521W][book_williamson_1985]
+- Zuboff, Shoshana. 2019. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. Profile Books Ltd. [https://www.publicaffairsbooks.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/][book_zuboff_2019]
 
-- [Akerlof 1970 The Market for Lemons][research_akerlof_1970]
-- [Akoglu Tong Koutra 2015 Graph-based Anomaly Detection and Description][research_akoglu_tong_koutra_2015]
-- [Balkin 2018 Free Speech is a Triangle][research_balkin_2018]
-- [Barabasi and Albert 1999 Emergence of Scaling in Random Networks][research_barabasi_albert_1999]
-- [Becker 1968 Crime and Punishment An Economic Approach][research_becker_1968]
-- [Benjamini and Hochberg 1995 Controlling the False Discovery Rate][research_benjamini_hochberg_1995]
-- [Bradshaw Bailey Howard 2021 Industrialized Disinformation][research_bradshaw_bailey_howard_2021]
-- [Bornmann 2011 Scientific Peer Review][research_bornmann_2011]
-- [Carlini and Wagner 2017 Towards Evaluating the Robustness of Neural Networks][research_carlini_wagner_2017]
-- [Chandola Banerjee Kumar 2009 Anomaly Detection A Survey][research_chandola_banerjee_kumar_2009]
-- [Cohen Rosenfeld Kolter 2019 Certified Adversarial Robustness via Randomized Smoothing][research_cohen_rosenfeld_kolter_2019]
-- [Cresci 2020 A Decade of Social Bot Detection][research_cresci_2020]
-- [Darby and Karni 1973 Free Competition and Optimal Amount of Fraud][research_darby_karni_1973]
-- [Davis and Goadrich 2006 Relationship Between Precision-Recall and ROC Curves][research_davis_goadrich_2006]
-- [Ding et al 2009 PageRank for Ranking Authors in Co-citation Networks][research_ding_et_al_2009]
-- [Dou et al 2020 Enhancing Graph Neural Network-based Fraud Detectors][research_dou_et_al_2020]
-- [Douek 2021 Governing Online Speech][research_douek_2021]
-- [Endres and Schindelin 2003 New Metric for Probability Distributions][research_endres_schindelin_2003]
-- [Goodfellow Shlens Szegedy 2014 Explaining and Harnessing Adversarial Examples][research_goodfellow_shlens_szegedy_2014]
-- [Greif 1993 Contract Enforceability and Economic Institutions in Early Trade][research_greif_1993]
-- [Grimmelmann 2015 The Virtues of Moderation][research_grimmelmann_2015]
-- [Halfaker et al 2013 Rise and Decline of an Open Collaboration System][research_halfaker_et_al_2013]
-- [Hamilton Ying Leskovec 2017 Inductive Representation Learning on Large Graphs][research_hamilton_ying_leskovec_2017]
-- [Jindal and Liu 2008 Opinion Spam and Analysis][research_jindal_liu_2008]
-- [Kalliamvakou et al 2016 Depth of Programmer Skill][research_kalliamvakou_et_al_2016]
-- [Kipf and Welling 2016 Semi-Supervised Classification with Graph Convolutional Networks][research_kipf_welling_2016]
-- [Kirchenbauer et al 2023 A Watermark for Large Language Models][research_kirchenbauer_et_al_2023]
-- [Klonick 2018 The New Governors][research_klonick_2018]
-- [Konieczny 2010 Governance Adhocracy and Wikipedia][research_konieczny_2010]
-- [Kumar et al 2017 Understanding Rating Distributions][research_kumar_et_al_2017]
-- [Madry et al 2018 Towards Deep Learning Models Resistant to Adversarial Attacks][research_madry_et_al_2018]
-- [Movshovitz-Attias et al 2013 Analysis of the Reputation System and User Contributions][research_movshovitz_attias_et_al_2013]
-- [Newman 2006 Modularity and Community Structure in Networks][research_newman_2006]
-- [Neyman and Pearson 1933 On the Problem of the Most Efficient Tests][research_neyman_pearson_1933]
-- [Ostrom 2010 Beyond Markets and States Polycentric Governance][research_ostrom_2010]
-- [Ott et al 2011 Finding Deceptive Opinion Spam][research_ott_et_al_2011]
-- [Page 1954 Continuous Inspection Schemes CUSUM][research_page_1954]
-- [Papernot et al 2016 Practical Black-Box Attacks against Machine Learning][research_papernot_et_al_2016]
-- [Polinsky and Shavell 2000 Public Enforcement of Law][research_polinsky_shavell_2000]
-- [Rayana and Akoglu 2015 Collective Opinion Spam Detection][research_rayana_akoglu_2015]
-- [Sadasivan et al 2023 Can AI-Generated Text be Reliably Detected][research_sadasivan_et_al_2023]
-- [Sohail et al 2024 Detection of Large-Language-Model Generated Reviews][research_sohail_et_al_2024]
-- [Spence 1973 Job Market Signaling][research_spence_1973]
-- [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
-- [Van Noorden 2020 Nature Investigates Citation Manipulation][research_van_noorden_2020]
-- [Vasilescu Serebrenik Devanbu Filkov 2016 The Work Life of Developers][research_vasilescu_serebrenik_devanbu_filkov_2016]
-- [Wald 1945 Sequential Tests of Statistical Hypotheses][research_wald_1945]
-- [Wang et al 2011 Review Graph Based Online Store Review Spammer Detection][research_wang_et_al_2011]
-- [Watts 2002 A Simple Model of Global Cascades on Random Networks][research_watts_2002]
-- [Weyl Ohlhaver Buterin 2022 Decentralized Society][research_weyl_ohlhaver_buterin_2022]
-- [Wu Pan Chen 2020 Comprehensive Survey on Graph Neural Networks][research_wu_pan_chen_2020]
-- [Xie et al 2012 Review Spam Detection via Temporal Pattern Discovery][research_xie_et_al_2012]
-- [Zargham and Nabben 2022 Aligning Intent and Behavior in Web3][research_zargham_nabben_2022]
+### Commercial Sources
+
+- "ACCC Fake Reviews Guidance." n.d. Accessed October 25, 2026. [https://www.accc.gov.au/business/advertising-and-promotions/online-reviews][ref_accc_fake_reviews_guidance]
+- "ACCC v Trivago." 2020. [https://www.accc.gov.au/media-release/trivago-ordered-to-pay-447-million-in-penalties-for-misleading-consumers-over-hotel-room-rates][ref_accc_v_trivago_2020]
+- "Amazon v Fake Review Brokers." 2022. [https://www.aboutamazon.com/news/policy-news-views/amazon-continues-legal-action-against-fake-review-brokers][ref_amazon_v_fake_review_brokers_2022]
+- "DFRLab Reports on Coordinated Inauthentic Behavior." n.d. Accessed October 25, 2026. [https://dfrlab.org/][ref_dfrlab_reports]
+- "Global Internet Forum to Counter Terrorism GIFCT." n.d. Accessed October 25, 2026. [https://gifct.org/][ref_gifct]
+- "Google Search Central Spam Policies." n.d. Accessed October 25, 2026. [https://developers.google.com/search/docs/essentials/spam-policies][ref_google_search_spam_policies]
+- "Google Webmaster Guidelines." n.d. Accessed October 25, 2026. [https://developers.google.com/search/docs/essentials][ref_google_webmaster_guidelines]
+- "Guidelines for Representing Your Business on Google." n.d. Accessed October 25, 2026. [https://support.google.com/business/answer/3038177][ref_google_business_profile_guidelines]
+- "Instagram Community Guidelines Authenticity Section." n.d. Accessed October 25, 2026. [https://help.instagram.com/477434105621119][ref_instagram_authenticity_guidelines]
+- "Meta Adversarial Threat Report." n.d. Accessed October 25, 2026. [https://about.fb.com/news/tag/adversarial-threat-report/][ref_meta_atr]
+- "Meta CIB Report Archive." n.d. Accessed October 25, 2026. [https://about.fb.com/news/tag/coordinated-inauthentic-behavior/][ref_meta_cib_report_archive]
+- "Meta Community Standards." n.d. Accessed October 25, 2026. [https://transparency.meta.com/policies/community-standards/][ref_meta_community_standards]
+- "Meta Coordinated Inauthentic Behavior Policy." n.d. Accessed October 25, 2026. [https://transparency.meta.com/policies/community-standards/inauthentic-behavior/][ref_meta_cib_policy]
+- "NY Attorney General v Devumi." 2019. [https://ag.ny.gov/press-release/2019/attorney-general-james-announces-groundbreaking-settlement-devumi-owner-german][ref_ny_ag_devumi_2019]
+- OpenAI ChatGPT. 2022. "Introducing ChatGPT." Accessed October 25, 2026. [https://openai.com/index/chatgpt/][ref_openai_chatgpt_2022]
+- OpenAI GPT-4. 2023. "GPT-4." Accessed October 25, 2026. [https://openai.com/index/gpt-4-research/][ref_openai_gpt4_2023]
+- "Our Approach to Labeling AI-Generated Content and Manipulated Media." 2024. Meta Newsroom, April 5. [https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/][ref_meta_ai_content_labeling]
+- "Overview \| Claude." n.d. Accessed October 25, 2026. [https://www.anthropic.com/claude][ref_anthropic_claude]
+- "Reddit Content Policy." n.d. Accessed October 25, 2026. [https://www.redditinc.com/policies/content-policy][ref_reddit_content_policy]
+- "TikTok Community Guidelines Enforcement Report." n.d. Accessed October 25, 2026. [https://www.tiktok.com/transparency/en/community-guidelines-enforcement/][ref_tiktok_transparency_report]
+- "TikTok Community Guidelines General Framework." n.d. Accessed October 25, 2026. [https://www.tiktok.com/community-guidelines/][ref_tiktok_community_guidelines_general]
+- "Transparency Report 2017." n.d. Accessed October 25, 2026. [https://www.redditinc.com/policies/transparency-report][ref_reddit_transparency_report]
+- "Twitter Election Integrity Dataset Archive." n.d. Accessed October 25, 2026. [https://transparency.twitter.com/en/reports/moderation-research.html][ref_twitter_election_integrity]
+- "X Platform Manipulation and Spam Policy." n.d. Accessed October 25, 2026. [https://help.x.com/en/rules-and-policies/platform-manipulation][ref_x_platform_manipulation_policy]
+- "YouTube Community Guidelines Enforcement Report." n.d. Accessed October 25, 2026. [https://transparencyreport.google.com/youtube-policy/removals][ref_youtube_transparency_report]
+
+### General Sources
+
+- "AI-Powered Reputation Management Platform." n.d. Accessed October 25, 2026. [https://www.reputation.com/][ref_reputation_com]
+- "Amazon Community Guidelines." n.d. Accessed October 25, 2026. [https://www.amazon.com/gp/help/customer/display.html?nodeId=GLHXEX85MENUE4XF][ref_amazon_community_guidelines]
+- "Amazon Reviews Dataset." n.d. Accessed October 25, 2026. [https://amazon-reviews-2023.github.io/][ref_amazon_reviews_dataset]
+- Apple Inc. n.d. "App Review Guidelines." Apple Developer. Accessed October 25, 2026. [https://developer.apple.com/app-store/review/guidelines/][ref_apple_app_store_review_guidelines]
+- Balkin. 2018. "Free Speech is a Triangle." [https://www.uclawreview.org/2018/12/free-speech-is-a-triangle/][research_balkin_2018]
+- "Bellingcat Open-Source Investigation Methodology." n.d. Accessed October 25, 2026. [https://www.bellingcat.com/resources/how-tos/][ref_bellingcat]
+- "Bot Repository Indiana OSoMe." n.d. Accessed October 25, 2026. [https://botometer.osome.iu.edu/bot-repository/][ref_bot_repository]
+- Bradshaw, Bailey, and Howard. 2021. "DemTech \| Industrialized Disinformation: 2020 Global Inventory of Organized Social Media Manipulation." Accessed October 25, 2026. [https://demtech.oii.ox.ac.uk/research/posts/industrialized-disinformation/][research_bradshaw_bailey_howard_2021]
+- "The Cambridge Analytica Files." 2018. Accessed October 25, 2026. [https://www.theguardian.com/news/series/cambridge-analytica-files][ref_cambridge_analytica_2018]
+- "Canadian Competition Bureau v Amazon Fake Reviews." n.d. Accessed October 25, 2026. [https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/testimonials-and-endorsements][ref_canada_amazon]
+- "China Cyberspace Administration Deep Synthesis Regulations." 2023. [https://www.chinalawtranslate.com/en/deep-synthesis/][ref_china_cac_deepfake_2023]
+- "Christchurch Call." n.d. Accessed October 25, 2026. [https://www.christchurchcall.com/][ref_christchurch_call]
+- "Consumer Reports Founding." 1936. [https://www.consumerreports.org/cro/about-us/history/index.htm][ref_consumer_reports_1936]
+- "Content Authenticity Initiative." n.d. Accessed October 25, 2026. [https://contentauthenticity.org/][ref_content_authenticity_initiative]
+- "Cresci-2017 Genuine and Spambot Dataset." n.d. Accessed October 25, 2026. [https://botometer.osome.iu.edu/bot-repository/datasets.html][ref_cresci_2015_dataset]
+- "Cross-Platform Sharing Dataset." n.d. Accessed October 25, 2026. [https://cross-platform-sharing.github.io/][ref_cross_platform_sharing_dataset]
+- "Developer Policy Center." n.d. Accessed October 25, 2026. [https://play.google.com/about/developer-content-policy/][ref_google_play_developer_policy]
+- "Ethereum Attestation Service." n.d. Accessed October 25, 2026. [https://attest.sh/][ref_ethereum_attestation_service]
+- "Fakespot Consumer Reports." n.d. Accessed October 25, 2026. [https://www.fakespot.com/][ref_fakespot_consumer_reports]
+- "FIDO Alliance Authentication Standards." n.d. Accessed October 25, 2026. [https://fidoalliance.org/specifications/][ref_fido_alliance]
+- "France Loi Avia." 2020. [https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042031970/][ref_france_loi_avia_2020]
+- "Google Scholar Citation Counts." n.d. Accessed October 25, 2026. [https://scholar.google.com/][ref_google_scholar]
+- "Graphika Reports on Coordinated Inauthentic Behavior." n.d. Accessed October 25, 2026. [https://graphika.com/reports][ref_graphika_reports]
+- Greif. 1993. "Contract Enforceability and Economic Institutions in Early Trade: The Maghribi Traders' Coalition on JSTOR." Accessed October 25, 2026. [https://www.jstor.org/stable/2117532][research_greif_1993]
+- Grimmelmann. 2015. "The Virtues of Moderation." [https://yalejreg.com/print/the-virtues-of-moderation/][research_grimmelmann_2015]
+- "IAB Digital Ad Fraud Report." n.d. Accessed October 25, 2026. [https://www.iab.com/insights/topics/ad-fraud/][ref_iab_ad_fraud_report]
+- "India IT Intermediary Guidelines." 2021. [https://www.meity.gov.in/content/notification-dated-25th-february-2021-gsr-139e-information-technology-intermediary][ref_india_it_rules_2021]
+- "Italian AGCM Booking.com Fake Reviews Action." n.d. Accessed October 25, 2026. [https://en.agcm.it/en/agcm-media/press-releases/][ref_italy_agcm_booking]
+- Klonick. 2018. "The New Governors." [https://harvardlawreview.org/2018/04/the-new-governors-the-people-rules-and-processes-governing-online-speech/][research_klonick_2018]
+- Kumar. 2017. "Understanding Rating Distributions." [https://cs.stanford.edu/~srijan/pubs/rev2-wsdm18.pdf][research_kumar_et_al_2017]
+- "L12965." 2014. Accessed October 25, 2026. [https://www.planalto.gov.br/ccivil\_03/\_ato2011-2014/2014/lei/l12965.htm][ref_brazil_marco_civil_2014]
+- "LessWrong Reputation and Community Norms." n.d. Accessed October 25, 2026. [https://www.lesswrong.com/about][ref_lesswrong_community]
+- "Managing Commit Signature Verification." n.d. *GitHub Docs*. Accessed October 25, 2026. [https://docs.github.com/en/authentication/managing-commit-signature-verification][ref_github_commit_signing]
+- "Meta Llama." n.d. Accessed October 25, 2026. [https://ai.meta.com/llama/][ref_meta_llama]
+- "MetaFilter Membership Fee." n.d. Accessed October 25, 2026. [https://www.metafilter.com/newuser.mefi][ref_metafilter_membership]
+- "MRC Media Rating Council Viewability Standards." n.d. Accessed October 25, 2026. [https://mediaratingcouncil.org/standards][ref_mrc_viewability_standards]
+- "NetReputation.com." n.d. Accessed October 25, 2026. [https://www.netreputation.com/][ref_netreputation_com]
+- "ORCID Identifier System." n.d. Accessed October 25, 2026. [https://orcid.org/][ref_orcid]
+- "Ott Deceptive Opinion Spam Corpus." n.d. Accessed October 25, 2026. [https://myleott.com/op-spam.html][ref_ott_deceptive_corpus]
+- Pure, Food, Drug, and Act. 1906. "\[Title not identified\]." Accessed October 25, 2026. [https://www.fda.gov/regulatory-information/laws-enforced-fda/pure-food-and-drug-act-1906][ref_pure_food_drug_act_1906]
+- "Retraction Watch Database." n.d. Accessed October 25, 2026. [https://retractionwatch.com/][ref_retraction_watch]
+- Singapore POFMA. 2019. "Protection from Online Falsehoods and Manipulation Act 2019: Singapore Statutes Online." Accessed October 25, 2026. [https://sso.agc.gov.sg/Act/POFMA2019][ref_singapore_pofma_2019]
+- "Stack Exchange Reputation Policies." n.d. Accessed October 25, 2026. [https://stackoverflow.com/help/whats-reputation][ref_stack_exchange_reputation]
+- "Stanford Internet Observatory Data Catalog." n.d. Accessed October 25, 2026. [https://cyber.fsi.stanford.edu/io][ref_stanford_internet_observatory]
+- UK, CMA, Facebook, et al. 2022. "\[Title not identified\]." Accessed October 25, 2026. [https://www.gov.uk/cma-cases/online-reviews-facebook-and-google][ref_uk_cma_facebook_google_2022]
+- "UK CMA Fake Reviews Action." n.d. Accessed October 25, 2026. [https://www.gov.uk/government/collections/fake-online-reviews-cma-action][ref_uk_cma_fake_reviews]
+- Van Noorden. 2020. "Nature Investigates Citation Manipulation." [https://www.nature.com/articles/d41586-020-02218-3][research_van_noorden_2020]
+- "X Terms of Service." n.d. Accessed October 25, 2026. [https://x.com/en/tos][ref_x_terms_of_service]
+- "X Transparency Report." n.d. Accessed October 25, 2026. [https://transparency.x.com/][ref_x_transparency_report]
+- "Yelp Content Guidelines." n.d. Accessed October 25, 2026. [https://www.yelp-support.com/article/Yelp-Content-Guidelines][ref_yelp_content_guidelines]
+- "Yelp Open Dataset." n.d. Accessed October 25, 2026. [https://www.yelp.com/dataset][ref_yelp_open_dataset]
+- "YelpCHI Dataset – ODDS." n.d. Accessed October 25, 2026. [https://odds.cs.stonybrook.edu/yelpchi-dataset/][ref_yelpchi_dataset]
+
+### Tertiary Sources
+
+- "Wikipedia:Sockpuppet Investigations." 2026. Wikipedia. Last modified June 15, at 19:13 (UTC). [https://en.wikipedia.org/w/index.php?title=Wikipedia%3ASockpuppet\_investigations&oldid=1359520954][ref_wikipedia_spi]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Virtual Reputation Manipulation: Theory and Analytical Framework." *Brendan A R Sechter's Development Blog*, January 22. [https://sgeos.github.io/economics/technology/sociology/2026/01/22/virtual\_reputation\_manipulation\_theory.html][related_post_a277_theory]
+- Sechter, Brendan. 2026. "Virtual Reputation Manipulation: Techniques of Self-Promotion." *Brendan A R Sechter's Development Blog*, January 23. [https://sgeos.github.io/economics/technology/sociology/2026/01/23/virtual\_reputation\_manipulation\_self\_promotion.html][related_post_a278_self_promotion]
+- Sechter, Brendan. 2026. "Virtual Reputation Manipulation: Techniques of Competitor Attack." *Brendan A R Sechter's Development Blog*, January 24. [https://sgeos.github.io/economics/technology/sociology/2026/01/24/virtual\_reputation\_manipulation\_competitor\_attack.html][related_post_a279_competitor_attack]
 
 [book_barber_1983]: https://www.rutgersuniversitypress.org/9780813509884
 [book_basseville_nikiforov_1993]: https://people.irisa.fr/Michele.Basseville/kniga/
-[book_berger_1985]: https://link.springer.com/book/10.1007/978-1-4757-4286-2
+[book_berger_1985]: https://doi.org/10.1007/978-1-4757-4286-2
 [book_bernays_1928]: https://www.igpublishing.com/product/propaganda/
 [book_chung_1997]: https://www.ams.org/books/cbms/092/
 [book_epstein_prak_2008]: https://www.cambridge.org/9780521887175
 [book_fukuyama_1995]: https://www.simonandschuster.com/books/Trust/Francis-Fukuyama/9780684825250
 [book_gray_suri_2019]: https://www.hmhbooks.com/shop/books/Ghost-Work/9781328566249
-[book_green_swets_1966]: https://scholar.google.com/scholar?q=green+swets+1966+signal+detection+theory+psychophysics
+[book_green_swets_1966]: https://openlibrary.org/works/OL5268329W
 [book_greif_2006]: https://www.cambridge.org/9780521671347
 [book_hardin_2002]: https://www.russellsage.org/publications/trust-and-trustworthiness
 [book_hirsch_1976]: https://www.hup.harvard.edu/books/9780674812901
@@ -962,8 +971,8 @@ The load-bearing open questions from the preceding articles remain open at the c
 [book_suzor_2019]: https://www.cambridge.org/9781108408271
 [book_sztompka_1999]: https://www.cambridge.org/9780521598507
 [book_wald_1950]: https://www.wiley.com/en-us/Statistical+Decision+Functions-p-9780471917618
-[book_wiley_1929]: https://scholar.google.com/scholar?q=wiley+1929+history+of+a+crime+against+the+food+law
-[book_williamson_1985]: https://scholar.google.com/scholar?q=williamson+1985+economic+institutions+of+capitalism
+[book_wiley_1929]: https://openlibrary.org/works/OL1464165W
+[book_williamson_1985]: https://openlibrary.org/works/OL3477521W
 [book_zuboff_2019]: https://www.publicaffairsbooks.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
 [ref_accc_fake_reviews_guidance]: https://www.accc.gov.au/business/advertising-and-promotions/online-reviews
 [ref_accc_v_trivago_2020]: https://www.accc.gov.au/media-release/trivago-ordered-to-pay-447-million-in-penalties-for-misleading-consumers-over-hotel-room-rates
@@ -1061,7 +1070,7 @@ The load-bearing open questions from the preceding articles remain open at the c
 [ref_w3c_did]: https://www.w3.org/TR/did-core/
 [ref_w3c_verifiable_credentials]: https://www.w3.org/TR/vc-data-model/
 [ref_w3c_webauthn]: https://www.w3.org/TR/webauthn/
-[ref_wikipedia_spi]: https://en.wikipedia.org/wiki/Wikipedia:Sockpuppet_investigations
+[ref_wikipedia_spi]: https://en.wikipedia.org/w/index.php?title=Wikipedia%3ASockpuppet_investigations&oldid=1359520954
 [ref_x_platform_manipulation_policy]: https://help.x.com/en/rules-and-policies/platform-manipulation
 [ref_x_terms_of_service]: https://x.com/en/tos
 [ref_x_transparency_report]: https://transparency.x.com/
@@ -1072,56 +1081,56 @@ The load-bearing open questions from the preceding articles remain open at the c
 [related_post_a277_theory]: {% post_url 2026-01-22-virtual_reputation_manipulation_theory %}
 [related_post_a278_self_promotion]: {% post_url 2026-01-23-virtual_reputation_manipulation_self_promotion %}
 [related_post_a279_competitor_attack]: {% post_url 2026-01-24-virtual_reputation_manipulation_competitor_attack %}
-[research_akerlof_1970]: https://academic.oup.com/qje/article/84/3/488/1896241
-[research_akoglu_tong_koutra_2015]: https://link.springer.com/article/10.1007/s10618-014-0365-y
+[research_akerlof_1970]: https://doi.org/10.2307/1879431
+[research_akoglu_tong_koutra_2015]: https://doi.org/10.1007/s10618-014-0365-y
 [research_balkin_2018]: https://www.uclawreview.org/2018/12/free-speech-is-a-triangle/
-[research_barabasi_albert_1999]: https://www.science.org/doi/10.1126/science.286.5439.509
-[research_becker_1968]: https://www.jstor.org/stable/1830482
-[research_benjamini_hochberg_1995]: https://www.jstor.org/stable/2346101
-[research_bornmann_2011]: https://onlinelibrary.wiley.com/doi/10.1002/aris.2011.1440450112
+[research_barabasi_albert_1999]: https://doi.org/10.1126/science.286.5439.509
+[research_becker_1968]: https://doi.org/10.1007/978-1-349-62853-7_2
+[research_benjamini_hochberg_1995]: https://doi.org/10.1111/j.2517-6161.1995.tb02031.x
+[research_bornmann_2011]: https://doi.org/10.1002/aris.2011.1440450112
 [research_bradshaw_bailey_howard_2021]: https://demtech.oii.ox.ac.uk/research/posts/industrialized-disinformation/
-[research_carlini_wagner_2017]: https://ieeexplore.ieee.org/document/7958570
-[research_chandola_banerjee_kumar_2009]: https://dl.acm.org/doi/10.1145/1541880.1541882
-[research_cohen_rosenfeld_kolter_2019]: https://arxiv.org/abs/1902.02918
-[research_cresci_2020]: https://cacm.acm.org/magazines/2020/10/247594-a-decade-of-social-bot-detection/
-[research_darby_karni_1973]: https://www.jstor.org/stable/725058
-[research_davis_goadrich_2006]: https://dl.acm.org/doi/10.1145/1143844.1143874
-[research_ding_et_al_2009]: https://onlinelibrary.wiley.com/doi/10.1002/asi.21171
-[research_dou_et_al_2020]: https://dl.acm.org/doi/10.1145/3340531.3411903
-[research_douek_2021]: https://harvardlawreview.org/2021/06/governing-online-speech-from-posts-as-trumps-to-proportionality-and-probability/
-[research_endres_schindelin_2003]: https://ieeexplore.ieee.org/document/1207338
-[research_goodfellow_shlens_szegedy_2014]: https://arxiv.org/abs/1412.6572
+[research_carlini_wagner_2017]: https://doi.org/10.1109/sp.2017.49
+[research_chandola_banerjee_kumar_2009]: https://doi.org/10.1145/1541880.1541882
+[research_cohen_rosenfeld_kolter_2019]: https://doi.org/10.48550/arxiv.1902.02918
+[research_cresci_2020]: https://doi.org/10.1145/3409116
+[research_darby_karni_1973]: https://doi.org/10.1086/466756
+[research_davis_goadrich_2006]: https://doi.org/10.1145/1143844.1143874
+[research_ding_et_al_2009]: https://doi.org/10.1002/asi.21171
+[research_dou_et_al_2020]: https://doi.org/10.1145/3340531.3411903
+[research_douek_2021]: https://doi.org/10.2139/ssrn.3679607
+[research_endres_schindelin_2003]: https://doi.org/10.1109/tit.2003.813506
+[research_goodfellow_shlens_szegedy_2014]: https://doi.org/10.48550/arxiv.1412.6572
 [research_greif_1993]: https://www.jstor.org/stable/2117532
 [research_grimmelmann_2015]: https://yalejreg.com/print/the-virtues-of-moderation/
-[research_halfaker_et_al_2013]: https://journals.sagepub.com/doi/10.1177/0002764212469365
-[research_hamilton_ying_leskovec_2017]: https://arxiv.org/abs/1706.02216
-[research_jindal_liu_2008]: https://dl.acm.org/doi/10.1145/1341531.1341560
-[research_kalliamvakou_et_al_2016]: https://link.springer.com/article/10.1007/s10664-015-9393-5
-[research_kipf_welling_2016]: https://arxiv.org/abs/1609.02907
-[research_kirchenbauer_et_al_2023]: https://arxiv.org/abs/2301.10226
+[research_halfaker_et_al_2013]: https://doi.org/10.1177/0002764212469365
+[research_hamilton_ying_leskovec_2017]: https://doi.org/10.48550/arxiv.1706.02216
+[research_jindal_liu_2008]: https://doi.org/10.1145/1341531.1341560
+[research_kalliamvakou_et_al_2016]: https://doi.org/10.1007/s10664-015-9393-5
+[research_kipf_welling_2016]: https://doi.org/10.48550/arxiv.1609.02907
+[research_kirchenbauer_et_al_2023]: https://doi.org/10.48550/arxiv.2301.10226
 [research_klonick_2018]: https://harvardlawreview.org/2018/04/the-new-governors-the-people-rules-and-processes-governing-online-speech/
-[research_konieczny_2010]: https://journals.sagepub.com/doi/10.1177/1461444809342738
+[research_konieczny_2010]: https://scholar.google.com/scholar?q=Governance+Adhocracy+and+Wikipedia+Konieczny+2010
 [research_kumar_et_al_2017]: https://cs.stanford.edu/~srijan/pubs/rev2-wsdm18.pdf
-[research_madry_et_al_2018]: https://arxiv.org/abs/1706.06083
-[research_movshovitz_attias_et_al_2013]: https://dl.acm.org/doi/10.1145/2492517.2492646
-[research_newman_2006]: https://www.pnas.org/doi/10.1073/pnas.0601602103
-[research_neyman_pearson_1933]: https://www.jstor.org/stable/91247
-[research_ostrom_2010]: https://www.aeaweb.org/articles?id=10.1257/aer.100.3.641
+[research_madry_et_al_2018]: https://doi.org/10.48550/arxiv.1706.06083
+[research_movshovitz_attias_et_al_2013]: https://doi.org/10.1145/2492517.2500242
+[research_newman_2006]: https://doi.org/10.1073/pnas.0601602103
+[research_neyman_pearson_1933]: https://doi.org/10.1098/rsta.1933.0009
+[research_ostrom_2010]: https://doi.org/10.1257/aer.100.3.641
 [research_ott_et_al_2011]: https://aclanthology.org/P11-1032/
-[research_page_1954]: https://www.jstor.org/stable/2333009
-[research_papernot_et_al_2016]: https://arxiv.org/abs/1602.02697
-[research_polinsky_shavell_2000]: https://www.jstor.org/stable/2565657
-[research_rayana_akoglu_2015]: https://dl.acm.org/doi/10.1145/2783258.2783370
-[research_sadasivan_et_al_2023]: https://arxiv.org/abs/2303.11156
-[research_sohail_et_al_2024]: https://arxiv.org/abs/2402.01697
-[research_spence_1973]: https://academic.oup.com/qje/article/87/3/355/1885359
-[research_stigler_1971]: https://www.jstor.org/stable/3003160
+[research_page_1954]: https://doi.org/10.2307/2333009
+[research_papernot_et_al_2016]: https://doi.org/10.48550/arxiv.1602.02697
+[research_polinsky_shavell_2000]: https://doi.org/10.3386/w6993
+[research_rayana_akoglu_2015]: https://doi.org/10.1145/2783258.2783370
+[research_sadasivan_et_al_2023]: https://doi.org/10.48550/arxiv.2303.11156
+[research_sohail_et_al_2024]: https://scholar.google.com/scholar?q=Detection+of+Large-Language-Model+Generated+Reviews+Sohail+2024
+[research_spence_1973]: https://doi.org/10.2307/1882010
+[research_stigler_1971]: https://doi.org/10.2307/3003160
 [research_van_noorden_2020]: https://www.nature.com/articles/d41586-020-02218-3
-[research_vasilescu_serebrenik_devanbu_filkov_2016]: https://link.springer.com/article/10.1007/s10664-015-9401-9
-[research_wald_1945]: https://www.jstor.org/stable/2235829
-[research_wang_et_al_2011]: https://ieeexplore.ieee.org/document/6137345
-[research_watts_2002]: https://www.pnas.org/doi/10.1073/pnas.082090499
-[research_weyl_ohlhaver_buterin_2022]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763
-[research_wu_pan_chen_2020]: https://ieeexplore.ieee.org/document/9046288
-[research_xie_et_al_2012]: https://dl.acm.org/doi/10.1145/2339530.2339662
-[research_zargham_nabben_2022]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4077249
+[research_vasilescu_serebrenik_devanbu_filkov_2016]: https://scholar.google.com/scholar?q=The+Work+Life+of+Developers+Vasilescu+Serebrenik+Devanbu+2016
+[research_wald_1945]: https://doi.org/10.1214/aoms/1177731118
+[research_wang_et_al_2011]: https://doi.org/10.1109/icdm.2011.124
+[research_watts_2002]: https://doi.org/10.1073/pnas.082090499
+[research_weyl_ohlhaver_buterin_2022]: https://doi.org/10.2139/ssrn.4105763
+[research_wu_pan_chen_2020]: https://doi.org/10.1109/tnnls.2020.2978386
+[research_xie_et_al_2012]: https://doi.org/10.1145/2339530.2339662
+[research_zargham_nabben_2022]: https://scholar.google.com/scholar?q=Aligning+Intent+and+Behavior+in+Web3+Zargham+Nabben+2022

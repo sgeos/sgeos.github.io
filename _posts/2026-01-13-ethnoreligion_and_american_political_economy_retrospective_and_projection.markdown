@@ -58,7 +58,7 @@ f_{\text{Asian-descent share}}\bigg|_{1900} &\approx 0.002, \quad f\bigg|_{2020}
 f_{\text{Hispanic/Latino share}}\bigg|_{1970} &\approx 0.047, \quad f\bigg|_{2020} \approx 0.189
 \end{aligned}$$
 
-per [US Census Historical Statistics][ref_us_census_historical] and [Pew Research US Religious Landscape 2014][ref_pew_religious_landscape_2014] and historical reconstruction. The 1900-2020 composition transformation reflects Hart-Celler post-1965 immigration documented in [A273][related_post_a273_postwar_transformation_and_reopening] through [A275][related_post_a275_contemporary_sorting_and_new_flows].
+per [US Census Historical Statistics][ref_us_census_historical] and [Religious Landscape Study 2014][ref_pew_religious_landscape_2014] and historical reconstruction. The 1900-2020 composition transformation reflects Hart-Celler post-1965 immigration documented in [A273][related_post_a273_postwar_transformation_and_reopening] through [A275][related_post_a275_contemporary_sorting_and_new_flows].
 
 ## Signal Axis Retrospective
 
@@ -204,7 +204,7 @@ f_{\text{Christian, Sweden}}\bigg|_{2020} &\approx 0.56, \quad f_{\text{Unaffili
 f_{\text{Christian, Poland}}\bigg|_{2020} &\approx 0.88, \quad f_{\text{Unaffiliated}} \approx 0.09
 \end{aligned}$$
 
-per [Pew European Religion 2018][ref_pew_european_religion_2018] Pew Research Being Christian in Western Europe 2018 study. The [Berger 1999][book_berger_1999_desecularization] The Desecularization of the World, [Casanova 1994][book_casanova_1994_public] Public Religions in the Modern World, and [Norris and Inglehart 2004][book_norris_inglehart_2004] Sacred and Secular provide the detailed treatments. European variation between Poland/Italy Catholic retention and Netherlands/Sweden Protestant decline reflects twentieth-century political-religious frameworks. European aggregate unaffiliation exceeds US unaffiliation, though approximately 30% US unaffiliation is approaching European levels through twenty-first century.
+per [Author 2018][ref_pew_european_religion_2018] Pew Research Being Christian in Western Europe 2018 study. The [Berger 1999][book_berger_1999_desecularization] The Desecularization of the World, [Casanova 1994][book_casanova_1994_public] Public Religions in the Modern World, and [Norris and Inglehart 2004][book_norris_inglehart_2004] Sacred and Secular provide the detailed treatments. European variation between Poland/Italy Catholic retention and Netherlands/Sweden Protestant decline reflects twentieth-century political-religious frameworks. European aggregate unaffiliation exceeds US unaffiliation, though approximately 30% US unaffiliation is approaching European levels through twenty-first century.
 
 ## Comparative Case: Israeli Zionist Ethnoreligious Formation
 
@@ -279,7 +279,7 @@ f_{\text{Christian share, US}}\bigg|_{2050} &\approx 0.52 \text{ (central projec
 f_{\text{Unaffiliated share, US}}\bigg|_{2050} &\approx 0.36 \text{ (central projection)}, \quad f\bigg|_{2020} \approx 0.29
 \end{aligned}$$
 
-per [US Census Bureau Projections 2023][ref_us_census_projections_2023] US Census Bureau 2023 National Population Projections and [Pew Modeling the Future of Religion 2022][ref_pew_modeling_future_2022] Pew Research Modeling the Future of Religion in America projections. 2020-2050 projected transformation includes approximate 11-percentage-point Christian share decline and 7-percentage-point Nones share expansion, continuing approximate 2000-2020 trajectory documented above.
+per [US Census Bureau 2023][ref_us_census_projections_2023] US Census Bureau 2023 National Population Projections and [Nadeem 2022][ref_pew_modeling_future_2022] Pew Research Modeling the Future of Religion in America projections. 2020-2050 projected transformation includes approximate 11-percentage-point Christian share decline and 7-percentage-point Nones share expansion, continuing approximate 2000-2020 trajectory documented above.
 
 Religious composition projections face sizable uncertainty, particularly regarding Latino Catholic-to-Pentecostal-to-Nones trajectory, African American religious institutional formation, Asian American religious formation combining ongoing immigrant and second-generation trajectories, and religious institutional response to twenty-first-century developments.
 
@@ -315,7 +315,7 @@ P_{\text{US Jewish}}(2020) &\approx 7.5 \times 10^6, \quad P(2050)_{\text{projec
 P_{\text{US Nones}}(2020) &\approx 1 \times 10^8, \quad P(2050)_{\text{projected}} \approx 1.4 \times 10^8
 \end{aligned}$$
 
-per [Pew Modeling the Future of Religion 2022][ref_pew_modeling_future_2022] Pew Research Modeling the Future of Religion in America projections and denominational forecasting reconstruction.
+per [Nadeem 2022][ref_pew_modeling_future_2022] Pew Research Modeling the Future of Religion in America projections and denominational forecasting reconstruction.
 
 ## Load-Bearing Uncertainties for Forward Projection
 
@@ -431,63 +431,71 @@ The series concludes acknowledging marked ongoing research agenda combining empi
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Bellah 1967 Civil Religion in America][book_bellah_1967]
-- [Berger 1967 The Sacred Canopy][book_berger_1967]
-- [Berger 1999 The Desecularization of the World][book_berger_1999_desecularization]
-- [Beyer 2013 Religion in Canada][book_beyer_2013_canada]
-- [Bouma 2006 Australian Soul][book_bouma_2006_australia]
-- [Bowen 2005 Christians in a Secular World (Canada)][book_bowen_2005_canada]
-- [Bruce 2002 God Is Dead][book_bruce_2002_secularization]
-- [Casanova 1994 Public Religions in the Modern World][book_casanova_1994_public]
-- [Chesnut 2003 Competitive Spirits][book_chesnut_2003]
-- [Davie 1994 Religion in Britain][book_davie_1994_believing]
-- [Fletcher 1997 The Barbarian Conversion][book_fletcher_1997]
-- [Fogel and Engerman 1974 Time on the Cross][book_fogel_engerman_1974_time]
-- [Israel 2001 Radical Enlightenment][book_israel_2001]
-- [MacCulloch 2003 The Reformation][book_macculloch_2003]
-- [MacMullen 1984 Christianizing the Roman Empire][book_macmullen_1984]
-- [Norris and Inglehart 2004 Sacred and Secular][book_norris_inglehart_2004]
-- [Ravitzky 1996 Messianism, Zionism, and Jewish Religious Radicalism][book_ravitzky_1996_israel]
-- [Reader 2012 Religion in Contemporary Japan][book_reader_2012_japan]
-- [Stark and Bainbridge 1985 The Future of Religion][book_stark_bainbridge_1985]
-- [Stoll 1990 Is Latin America Turning Protestant][book_stoll_1990]
-- [Taylor 2007 A Secular Age][book_taylor_2007]
-- [Wolfe 1998 One Nation After All][book_wolfe_1998]
-- [Yadgar 2020 Israel's Jewish Identity Crisis][book_yadgar_2020_israel]
-- [Yang 2011 Religion in China][book_yang_2011_china]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- US Census Bureau. 2023. "Population Projections." Census.gov. Accessed October 25, 2026. [https://www.census.gov/programs-surveys/popproj.html][ref_us_census_projections_2023]
+- "US Census Historical Statistics." n.d. Accessed October 25, 2026. [https://www.census.gov/library/publications/1975/compendia/hist\_stats\_colonial-1970.html][ref_us_census_historical]
 
-- [ABS 2021 Australia Census Religion][ref_abs_2021_religion]
-- [Canadian Multiculturalism Act 1988][ref_canadian_multiculturalism_1988]
-- [Constitution Act 1982 (Canada)][ref_constitution_act_1982]
-- [Israel CBS 2023 Statistical Abstract][ref_israel_cbs_2023]
-- [Pew European Religion 2018 (Being Christian in Western Europe)][ref_pew_european_religion_2018]
-- [Pew Latin America Religion 2014][ref_pew_latin_america_2014]
-- [Pew Modeling the Future of Religion in America 2022][ref_pew_modeling_future_2022]
-- [Pew Research US Religious Landscape 2014][ref_pew_religious_landscape_2014]
-- [Quebec Act 1774][ref_quebec_act_1774]
-- [Statistics Canada 2021 Census Religion][ref_statscan_2021_religion]
-- [Stats NZ 2018 Religion Census][ref_stats_nz_2018_religion]
-- [Treaty of Waitangi 1840][ref_treaty_of_waitangi_1840]
-- [UK ONS 2021 Census Religion (England and Wales)][ref_uk_ons_2021_religion]
-- [US Census Bureau 2023 National Population Projections][ref_us_census_projections_2023]
-- [US Census Historical Statistics][ref_us_census_historical]
+### Secondary Sources
+
+- Bellah. 1967. *Civil Religion in America on JSTOR*. [https://www.jstor.org/stable/20027022][book_bellah_1967]
+- Berger, Peter L. 1967. *The Sacred Canopy: Elements of a Sociological Theory of Religion*. Doubleday. [https://www.penguinrandomhouse.com/books/167538/the-sacred-canopy-by-peter-l-berger/][book_berger_1967]
+- Berger, Peter L. 1999. *The Desecularization of the World: Resurgent Religion and World Politics*. Wm. B. Eerdmans Publishing Company. [https://www.eerdmans.com/9780802846914/the-desecularization-of-the-world/][book_berger_1999_desecularization]
+- Beyer, Peter. 2013. *Religion and Diversity in Canada*. Ebsco Publishing. [https://utorontopress.com/9781442610897/religion-in-canada/][book_beyer_2013_canada]
+- Bouma, Gary D. 2006. *Australian Soul: Religion and Spirituality in the Twenty-First Century*. Cambridge University Press. [https://www.cambridge.org/9780521673891][book_bouma_2006_australia]
+- Bowen. 2005. *Christians in a Secular World (Canada)*. [https://mqup.ca/christians-in-a-secular-world-products-9780773529731.php][book_bowen_2005_canada]
+- Bruce, Steve. 2002. *God Is Dead: Secularization in the West*. Blackwell Publishing Limited. [https://global.oup.com/academic/product/god-is-dead-9780631232759][book_bruce_2002_secularization]
+- Casanova, José. 1994. *Public Religions in the Modern World*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/P/bo3620937.html][book_casanova_1994_public]
+- Chesnut, R. Andrew. 2003. *Competitive Spirits: Latin America's New Religious Economy*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/competitive-spirits-9780195305173][book_chesnut_2003]
+- Davie, Grace. 1994. *Religion in Britain since 1945: Believing without Belonging*. Blackwell. [https://global.oup.com/academic/product/religion-in-britain-since-1945-9780631184447][book_davie_1994_believing]
+- Fletcher, Richard. 1997. *Conversion of Europe: From Paganism to Christianity, 371-1386 AD*. HarperCollins. [https://www.ucpress.edu/book/9780520218598/the-barbarian-conversion][book_fletcher_1997]
+- Fogel, Robert William, and Stanley L. Engerman. 1974. *Time on the Cross: The Economics of American Negro Slavery*. W. W. Norton & Company. [https://wwnorton.com/books/9780393312188][book_fogel_engerman_1974_time]
+- Israel, Jonathan I. 2001. *Radical Enlightenment: Philosophy and the Making of Modernity 1650-1750*. Oxford University Press. [https://global.oup.com/academic/product/radical-enlightenment-9780199254569][book_israel_2001]
+- MacCulloch, Diarmaid. 2003. *The Reformation: Europe's House Divided 1490: 1700*. Viking. [https://www.penguinrandomhouse.com/books/294864/the-reformation-by-diarmaid-macculloch/][book_macculloch_2003]
+- MacMullen, Ramsay. 1984. *Christianizing the Roman Empire: (A.D. 100-400)*. Yale University Press. [https://yalebooks.yale.edu/book/9780300036428/christianizing-the-roman-empire/][book_macmullen_1984]
+- Norris, Pippa, and Inglehart. 2004. *Sacred and Secular: Religion and Politics Worldwide (Cambridge Studies in Social Theory, Religion and Politics)*. Cambridge University Press. [https://www.cambridge.org/9780521548724][book_norris_inglehart_2004]
+- Ravitzky, Aviezer. 1996. *Messianism, Zionism, and Jewish Religious Radicalism*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/M/bo3617656.html][book_ravitzky_1996_israel]
+- Reader, Ian. 2012. *Religion in Contemporary Japan*. Palgrave Macmillan. [https://uhpress.hawaii.edu/title/religion-in-contemporary-japan/][book_reader_2012_japan]
+- Stark, Rodney, and William Sims Bainbridge. 1985. *The Future of Religion: Secularization, Revival, and Cult Formation*. University of California Press. [https://www.ucpress.edu/book/9780520057319/the-future-of-religion][book_stark_bainbridge_1985]
+- Stoll, David. 1990. *Is Latin America Turning Protestant?: The Politics of Evangelical Growth*. University of California Press. [https://www.ucpress.edu/book/9780520076457/is-latin-america-turning-protestant][book_stoll_1990]
+- Taylor, Charles. 2007. *A Secular Age*. Belknap Press: An Imprint of Harvard University Press. [https://www.hup.harvard.edu/books/9780674986916][book_taylor_2007]
+- Wolfe, Alan. 1998. *One Nation, after All: What Middle-Class Americans Really Think About: God, Country, Family, Racism, Welfare, Immigration, Homosexuality, Work, the Right, the Left, and Each Other*. Viking. [https://www.penguinrandomhouse.com/books/159013/one-nation-after-all-by-alan-wolfe/][book_wolfe_1998]
+- Yadgar, Yaacov. 2020. *Israel's Jewish Identity Crisis*. Cambridge University Press. [https://global.oup.com/academic/product/israels-jewish-identity-crisis-9780197514993][book_yadgar_2020_israel]
+- Yang, Fenggang. 2011. *Religion in China: Survival and Revival under Communist Rule*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/religion-in-china-9780199735648][book_yang_2011_china]
+
+### Commercial Sources
+
+- Author, No. 2018. "Being Christian in Western Europe." Pew Research Center, May 29. [https://www.pewresearch.org/religion/2018/05/29/being-christian-in-western-europe/][ref_pew_european_religion_2018]
+- Nadeem, Reem. 2022. "Modeling the Future of Religion in America." Pew Research Center, September 13. [https://www.pewresearch.org/religion/2022/09/13/modeling-the-future-of-religion-in-america/][ref_pew_modeling_future_2022]
+- "Pew Latin America Religion." 2014. [https://www.pewresearch.org/religion/2014/11/13/religion-in-latin-america/][ref_pew_latin_america_2014]
+- "Religious Landscape Study." 2014. Pew Research Center. Accessed October 25, 2026. [https://www.pewresearch.org/religion/religious-landscape-study/][ref_pew_religious_landscape_2014]
+
+### General Sources
+
+- ABS. 2021. "Australia Census Religion." [https://www.abs.gov.au/statistics/people/people-and-communities/religious-affiliation-australia][ref_abs_2021_religion]
+- "Canadian Multiculturalism Act." 1988. Accessed October 25, 2026. [https://laws-lois.justice.gc.ca/eng/acts/c-18.7/][ref_canadian_multiculturalism_1988]
+- Constitution Act. 1982. "(Canada)." [https://laws-lois.justice.gc.ca/eng/const/][ref_constitution_act_1982]
+- Israel CBS. 2023. "Publications Statistical Abstract of Israel 2023: No.74." Accessed October 25, 2026. [https://www.cbs.gov.il/en/publications/Pages/2023/Statistical-Abstract-of-Israel-2023-No-74.aspx][ref_israel_cbs_2023]
+- "Quebec Act." 1774. [https://www.canadiana.ca/view/oocihm.9\_00949][ref_quebec_act_1774]
+- Statistics Canada. 2021. "Census Profile, 2021 Census of Population." Accessed October 25, 2026. [https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E][ref_statscan_2021_religion]
+- Stats NZ. 2018. "2018 Census Totals by Topic – National Highlights (Updated) \| Stats NZ." Accessed October 25, 2026. [https://www.stats.govt.nz/information-releases/2018-census-totals-by-topic-national-highlights-updated][ref_stats_nz_2018_religion]
+- "Treaty of Waitangi." 1840. [https://nzhistory.govt.nz/politics/treaty-of-waitangi][ref_treaty_of_waitangi_1840]
+- UK ONS. 2021. "Census Religion (England and Wales)." [https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion][ref_uk_ons_2021_religion]
 
 ### Related Posts
 
-- [A266 Ethnoreligion Framing and Three Substrates][related_post_a266_framing]
-- [A267 Ethnoreligion Colonial Folkways and Early Diffusion][related_post_a267_colonial_folkways]
-- [A268 Ethnoreligion Awakening and Founding][related_post_a268_awakening_and_founding]
-- [A269 Ethnoreligion Second Awakening and Reform][related_post_a269_second_awakening_and_reform]
-- [A270 Ethnoreligion Civil War and Reconstruction][related_post_a270_civil_war_and_reconstruction]
-- [A271 Ethnoreligion Mass Immigration and Closure][related_post_a271_mass_immigration_and_closure]
-- [A272 Ethnoreligion Depression War and Refuge][related_post_a272_depression_war_and_refuge]
-- [A273 Ethnoreligion Postwar Transformation and Reopening][related_post_a273_postwar_transformation_and_reopening]
-- [A274 Ethnoreligion Diversification and Consolidation][related_post_a274_diversification_and_consolidation]
-- [A275 Ethnoreligion Contemporary Sorting and New Flows][related_post_a275_contemporary_sorting_and_new_flows]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Indigenous, African, and European Ethnoreligious Substrates." *Brendan A R Sechter's Development Blog*, January 3. [https://sgeos.github.io/history/economics/religion/2026/01/03/ethnoreligion\_and\_american\_political\_economy\_framing.html][related_post_a266_framing]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contact, Colonial Folkways, and Early Diffusion 1607-1725." *Brendan A R Sechter's Development Blog*, January 4. [https://sgeos.github.io/history/economics/religion/2026/01/04/ethnoreligion\_and\_american\_political\_economy\_colonial\_folkways.html][related_post_a267_colonial_folkways]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Great Awakening, Revolution, and Founding 1725-1789." *Brendan A R Sechter's Development Blog*, January 5. [https://sgeos.github.io/history/economics/religion/2026/01/05/ethnoreligion\_and\_american\_political\_economy\_awakening\_and\_founding.html][related_post_a268_awakening_and_founding]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Second Great Awakening, Removal, and Antebellum Reform 1789-1861." *Brendan A R Sechter's Development Blog*, January 6. [https://sgeos.github.io/history/economics/religion/2026/01/06/ethnoreligion\_and\_american\_political\_economy\_second\_awakening\_and\_reform.html][related_post_a269_second_awakening_and_reform]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Civil War, Reconstruction, and Continental Consolidation 1861-1900." *Brendan A R Sechter's Development Blog*, January 7. [https://sgeos.github.io/history/economics/religion/2026/01/07/ethnoreligion\_and\_american\_political\_economy\_civil\_war\_and\_reconstruction.html][related_post_a270_civil_war_and_reconstruction]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Mass Immigration and Restrictionist Closure 1900-1924." *Brendan A R Sechter's Development Blog*, January 8. [https://sgeos.github.io/history/economics/religion/2026/01/08/ethnoreligion\_and\_american\_political\_economy\_mass\_immigration\_and\_closure.html][related_post_a271_mass_immigration_and_closure]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Depression, War, and Refuge 1924-1945." *Brendan A R Sechter's Development Blog*, January 9. [https://sgeos.github.io/history/economics/religion/2026/01/09/ethnoreligion\_and\_american\_political\_economy\_depression\_war\_and\_refuge.html][related_post_a272_depression_war_and_refuge]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Postwar Transformation and Reopening 1945-1980." *Brendan A R Sechter's Development Blog*, January 10. [https://sgeos.github.io/history/economics/religion/2026/01/10/ethnoreligion\_and\_american\_political\_economy\_postwar\_transformation\_and\_reopening.html][related_post_a273_postwar_transformation_and_reopening]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Full Diversification and Religious Right Consolidation 1980-2000." *Brendan A R Sechter's Development Blog*, January 11. [https://sgeos.github.io/history/economics/religion/2026/01/11/ethnoreligion\_and\_american\_political\_economy\_diversification\_and\_consolidation.html][related_post_a274_diversification_and_consolidation]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contemporary Sorting and New Flows 2000-2024." *Brendan A R Sechter's Development Blog*, January 12. [https://sgeos.github.io/history/economics/religion/2026/01/12/ethnoreligion\_and\_american\_political\_economy\_contemporary\_sorting\_and\_new\_flows.html][related_post_a275_contemporary_sorting_and_new_flows]
 
 [book_bellah_1967]: https://www.jstor.org/stable/20027022
 [book_berger_1967]: https://www.penguinrandomhouse.com/books/167538/the-sacred-canopy-by-peter-l-berger/

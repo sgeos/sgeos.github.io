@@ -211,6 +211,40 @@ def save_article_map(article, amap, directory=None):
         fh.write("\n")
 
 
+def load_listed(article, directory=None):
+    """Anchors the article's reference list names that its prose does not cite.
+
+    WHY. Some articles, A207 among them, close with a bibliography of the works
+    the account rests on and cite none of them in the prose. The generated list
+    would otherwise keep only what the prose cites and drop every one of those
+    works. Filed per article in `_sources/articles/<post stem>.listed.json`, a
+    list of anchors, written by the import from the legacy reference list.
+    """
+    directory = directory or ARTICLES
+    stem = article_stem(article)
+    path = os.path.join(directory, f"{stem}.listed.json") if stem else None
+    if not path or not os.path.exists(path):
+        return set()
+    with open(path, encoding="utf-8") as fh:
+        listed = json.load(fh)
+    if not (isinstance(listed, list) and all(isinstance(a, str) and ANCHOR_RE.match(a) for a in listed)):
+        raise SourceError(f"{path}: a list of anchors")
+    return set(listed)
+
+
+def save_listed(article, anchors, directory=None):
+    directory = directory or ARTICLES
+    path = os.path.join(directory, f"{article_stem(article)}.listed.json")
+    if not anchors:
+        if os.path.exists(path):
+            os.remove(path)
+        return
+    os.makedirs(directory, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(sorted(anchors), fh, indent=1)
+        fh.write("\n")
+
+
 def load_prose_links(article, directory=None):
     """Anchors whose links in the article name a document in the prose, not cite it.
 
@@ -327,7 +361,8 @@ def validate_record(r, venues):
         return
     _require(isinstance(r.get("title"), str) and r["title"].strip(), f"{a}: title required")
     year = r.get("year")
-    _require(year is None or (isinstance(year, int) and 1500 <= year <= 2100), f"{a}: bad year {year!r}")
+    # A YEAR FROM 1000: A266 cites the papal bull Inter caetera of 1493.
+    _require(year is None or (isinstance(year, int) and 1000 <= year <= 2100), f"{a}: bad year {year!r}")
     authors = r.get("authors", [])
     _require(isinstance(authors, list) and isinstance(r.get("editors", []), list),
              f"{a}: authors and editors must be lists")
@@ -588,6 +623,11 @@ def author_list(authors):
         return ", ".join(names) + ", et al."
     if len(names) == 1:
         return names[0]
+    # THE COMMA BEFORE `and` closes an inverted name, `Ward, Geoffrey C., and Ken Burns`.
+    # A first author known by surname alone is not inverted, so two such read
+    # `Astrahan and Jacobs`, not `Astrahan, and Jacobs`.
+    if len(names) == 2 and not shown[0].get("given"):
+        return f"{names[0]} and {names[1]}"
     return ", ".join(names[:-1]) + ", and " + names[-1]
 
 
@@ -748,7 +788,9 @@ def _entry(r, suffix="", posts_dir=POSTS):
     au = author_list(creators(r))
     if au and not r.get("authors"):
         au += ", ed." if len(creators(r)) == 1 else ", eds."
-    lead = f"{md_escape(_sentence(au))} {year}." if au else f"{_quoted(r['title'])} {year}."
+    # `n.d.` ENDS IN ITS OWN FULL STOP, which closes the element, so none is added.
+    ydot = year if year.endswith(".") else year + "."
+    lead = f"{md_escape(_sentence(au))} {ydot}" if au else f"{_quoted(r['title'])} {ydot}"
     title_q = "" if not au else " " + _quoted(r["title"])
     title_i = f" *{md_escape(r['title'])}*." if au else ""
     container = md_escape(r.get("container", ""))
@@ -883,7 +925,7 @@ def generate(text, records=None, venues=None, posts_dir=POSTS, article=None):
     venues = load_venues() if venues is None else venues
     index = article_index(records, article)
     body, _old = split_article(text)
-    used = cited_anchors(body)
+    used = cited_anchors(body) | load_listed(article)
     missing = sorted(a for a in used if a not in index)
     if missing:
         raise SourceError(f"anchors cited but not in the database: {', '.join(missing)}")
@@ -1085,8 +1127,17 @@ def label_changes(pre_text, post_text):
     unwrap = lambda t: t[1:-1] if t.startswith("<") and t.endswith(">") else t
     before = {a: unwrap(t).lower().rstrip(".") for a, t in defs.findall(pre_text)}
     after = {a: unwrap(t).lower().rstrip(".") for a, t in defs.findall(post_text)}
+    import sources_resolve
     for a in sorted(set(before) & set(after)):
         if before[a] != after[a] and "oldid=" not in after[a]:
+            # A LINK REPLACED BY THE DOI ITS OWN URL CARRIES, a JSTOR stable URL by
+            # `10.2307/N` or an arXiv abstract by its arXiv DOI, still names the same
+            # work. A DOI found any other way, by search or by PII, is reported.
+            ident = sources_resolve.url_identifier(unwrap(before[a]))
+            doi = None if not ident else ident[1] if ident[0] == "doi" else \
+                sources_resolve.arxiv_doi(ident[1]).lower() if ident[0] == "arxiv" else None
+            if doi and after[a] == f"https://doi.org/{doi}".lower():
+                continue
             other.append((0, f"[{a}]: {before[a]}", f"[{a}]: {after[a]}"))
     return out, other
 

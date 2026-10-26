@@ -43,19 +43,19 @@ The distinction between meta-learning and multi-task learning is subtle. A pure 
 
 ## Historical Development
 
-The idea of learning to learn has a long history. [Schmidhuber 1987][research_schmidhuber_1987_metalearning] doctoral thesis proposed evolutionary meta-learning in which the learning algorithm itself is evolved across generations of tasks. [Naik and Mammone 1992][research_naik_mammone_1992] independently introduced meta-neural-networks in the connectionist learning literature. [Bengio Bengio and Cloutier 1990][research_bengio_bengio_cloutier_1990] proposed learning a synaptic update rule as an alternative to backpropagation. [Schmidhuber Zhao and Wiering 1996][research_schmidhuber_zhao_wiering_1996] developed the meta-learning framework further with bias learning. The [Thrun and Pratt 1998][book_thrun_pratt_1998] Learning to Learn edited volume consolidated the field at the turn of the century, and the [Vilalta and Drazdil 2002][research_vilalta_drazdil_2002] survey provided a systematic taxonomy of meta-learning approaches. The [Hospedales Antoniou Micaelli Storkey 2022][research_hospedales_et_al_2022] modern survey reviews the field circa the early 2020s.
+The idea of learning to learn has a long history. [Schmidhuber 1987][research_schmidhuber_1987_metalearning] doctoral thesis proposed evolutionary meta-learning in which the learning algorithm itself is evolved across generations of tasks. [Naik and Mammone 1992][research_naik_mammone_1992] independently introduced meta-neural-networks in the connectionist learning literature. [Bengio et al. 1990][research_bengio_bengio_cloutier_1990] proposed learning a synaptic update rule as an alternative to backpropagation. [Schmidhuber et al. 1996][research_schmidhuber_zhao_wiering_1996] developed the meta-learning framework further with bias learning. The [Thrun and Pratt 1998][book_thrun_pratt_1998] Learning to Learn edited volume consolidated the field at the turn of the century, and the [Vilalta and Drazdil 2002][research_vilalta_drazdil_2002] survey provided a systematic taxonomy of meta-learning approaches. The [Hospedales et al. 2022][research_hospedales_et_al_2022] modern survey reviews the field circa the early 2020s.
 
-The neural network meta-learning of [Hochreiter Younger and Conwell 2001][research_hochreiter_younger_conwell_2001] used LSTMs as universal learning algorithms, training a recurrent network to solve a sequence of related regression tasks by taking the training data as input and producing predictions. The framework provided the direct precursor to the modern recurrent meta-reinforcement learning approaches. The Bayes-adaptive MDP framework treated later has roots in the [Duff 2002][book_duff_2002] doctoral thesis on optimal exploration under uncertainty, and the [Poupart Vlassis Hoey Regan 2006][research_poupart_et_al_2006] analytical treatment of Bayes-adaptive MDPs provided the algorithmic foundation for tractable Bayes-optimal reinforcement learning.
+The neural network meta-learning of [Hochreiter et al. 2001][research_hochreiter_younger_conwell_2001] used LSTMs as universal learning algorithms, training a recurrent network to solve a sequence of related regression tasks by taking the training data as input and producing predictions. The framework provided the direct precursor to the modern recurrent meta-reinforcement learning approaches. The Bayes-adaptive MDP framework treated later has roots in the [Duff 2002][book_duff_2002] doctoral thesis on optimal exploration under uncertainty, and the [Poupart et al. 2006][research_poupart_et_al_2006] analytical treatment of Bayes-adaptive MDPs provided the algorithmic foundation for tractable Bayes-optimal reinforcement learning.
 
-Meta-reinforcement learning emerged as a distinct research area in the mid 2010s. [Duan Schulman Chen Bartlett Sutskever Abbeel 2016][research_duan_et_al_2016_rl2] RL-squared and [Wang Kurth-Nelson Tirumala Soyer Leibo Munos Blundell Kumaran Botvinick 2016][research_wang_et_al_2016_l2rl] Learning to Reinforcement Learn independently proposed training recurrent policies on distributions of MDPs so that the recurrent state implicitly encodes the task identity.
+Meta-reinforcement learning emerged as a distinct research area in the mid 2010s. [Duan et al. 2016][research_duan_et_al_2016_rl2] RL-squared and [Wang et al. 2016][research_wang_et_al_2016_l2rl] Learning to Reinforcement Learn independently proposed training recurrent policies on distributions of MDPs so that the recurrent state implicitly encodes the task identity.
 
-[Finn Abbeel and Levine 2017][research_finn_abbeel_levine_2017] Model-Agnostic Meta-Learning (MAML) provided a gradient-based alternative that has become the canonical modern meta-learning framework. MAML optimizes initial parameters that are one gradient step away from good task-parameters, providing a general-purpose adaptation mechanism applicable to any differentiable model.
+[Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017] Model-Agnostic Meta-Learning (MAML) provided a gradient-based alternative that has become the canonical modern meta-learning framework. MAML optimizes initial parameters that are one gradient step away from good task-parameters, providing a general-purpose adaptation mechanism applicable to any differentiable model.
 
-The 2018-2020 period produced considerable algorithmic diversification. Reptile of [Nichol Achiam Schulman 2018][research_nichol_achiam_schulman_2018] provided a simpler first-order approximation to MAML. Probabilistic Meta-Reinforcement Learning (PEARL) of [Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl] combined off-policy meta-learning with variational task inference. Variational Bayes-Adaptive Deep RL (VariBAD) of [Zintgraf Shiarlis Igl Schulze Gal Hofmann Whiteson 2020][research_zintgraf_et_al_2020_varibad] introduced Bayes-optimal meta-reinforcement learning through variational task inference.
+The 2018-2020 period produced considerable algorithmic diversification. Reptile of [Nichol et al. 2018][research_nichol_achiam_schulman_2018] provided a simpler first-order approximation to MAML. Probabilistic Meta-Reinforcement Learning (PEARL) of [Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl] combined off-policy meta-learning with variational task inference. Variational Bayes-Adaptive Deep RL (VariBAD) of [Zintgraf et al. 2020][research_zintgraf_et_al_2020_varibad] introduced Bayes-optimal meta-reinforcement learning through variational task inference.
 
 Meta-gradient methods matured in parallel through [Xu van Hasselt Silver 2018][research_xu_van_hasselt_silver_2018] meta-gradient RL and subsequent work on learning hyperparameters, auxiliary rewards, and discount factors through outer-loop gradients.
 
-In-context reinforcement learning emerged in the 2020s. Algorithm Distillation of [Laskin Wang Oh Parisotto Spencer et al 2023][research_laskin_et_al_2023] demonstrated that transformer sequence models trained on learning-algorithm outputs could produce in-context learning behavior at test time. Adaptive Agent of [Bauer et al 2023][research_bauer_et_al_2023_ada] combined meta-learning with foundation-model-scale training to achieve rapid adaptation across a vast distribution of tasks.
+In-context reinforcement learning emerged in the 2020s. Algorithm Distillation of [Laskin et al. 2023][research_laskin_et_al_2023] demonstrated that transformer sequence models trained on learning-algorithm outputs could produce in-context learning behavior at test time. Adaptive Agent of [Adaptive Agent Team et al. 2023][research_bauer_et_al_2023_ada] combined meta-learning with foundation-model-scale training to achieve rapid adaptation across a vast distribution of tasks.
 
 ## The Meta-Reinforcement Learning Framework
 
@@ -99,7 +99,7 @@ Learning to Reinforcement Learn of Wang et al 2016 provided the concurrent formu
 
 The recurrent framework's principal advantage is generality. It requires no assumptions about the task structure or the adaptation mechanism, and the recurrent network can in principle learn arbitrarily-complex adaptation strategies. Its principal disadvantage is data-hungry meta-training. The recurrent policy must experience many tasks to learn the meta-strategy, and the amount of meta-training data required scales with the complexity of the task distribution.
 
-Modern variants extend the account with transformer sequence models in place of recurrent networks, treating the adaptation trajectory as a sequence to be autoregressively modeled. [Ni Eysenbach and Levine 2022][research_ni_eysenbach_levine_2022] documented that transformer-based sequence models considerably outperform recurrent baselines on POMDP-based meta-reinforcement learning benchmarks when trained at sufficient scale. The transformer-based approach connects meta-reinforcement learning to the sequence modeling framework treated in articles four and eight.
+Modern variants extend the account with transformer sequence models in place of recurrent networks, treating the adaptation trajectory as a sequence to be autoregressively modeled. [Ni et al. 2022][research_ni_eysenbach_levine_2022] documented that transformer-based sequence models considerably outperform recurrent baselines on POMDP-based meta-reinforcement learning benchmarks when trained at sufficient scale. The transformer-based approach connects meta-reinforcement learning to the sequence modeling framework treated in articles four and eight.
 
 ## Model-Agnostic Meta-Learning
 
@@ -129,7 +129,7 @@ First-order MAML approximations drop the second-order terms in exchange for comp
 
 $$\nabla_\theta J_{\text{FOMAML}} \approx \mathbb{E}_{\mathcal{T}}\!\left[\nabla_{\theta'} \mathcal{L}_{\mathcal{T}}(\theta')|_{\theta' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta)}\right]$$
 
-producing a gradient approximation that has empirically proved to be sufficient on many tasks. The [Nichol Achiam Schulman 2018][research_nichol_achiam_schulman_2018] Reptile algorithm provides an even simpler first-order alternative,
+producing a gradient approximation that has empirically proved to be sufficient on many tasks. The [Nichol et al. 2018][research_nichol_achiam_schulman_2018] Reptile algorithm provides an even simpler first-order alternative,
 
 $$\theta \leftarrow \theta + \beta (\text{SGD}_k^{\mathcal{T}}(\theta) - \theta)$$
 
@@ -141,9 +141,9 @@ $$\nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta) = -\mathbb{E}_{\tau \sim \pi_\
 
 with the outer-loop meta-gradient computed through the inner-loop trajectory sampling and gradient update.
 
-MAML has been applied to reinforcement learning through several variants. Proximal Meta-Policy Search (ProMP) of [Rothfuss Lee Clavera Asfour Abbeel 2019][research_rothfuss_et_al_2019] combined MAML with the trust-region and clipped policy gradient methods of article four, producing meta-policies with stable inner-loop adaptation. Implicit MAML of [Rajeswaran Finn Kakade Levine 2019][research_rajeswaran_et_al_2019_imaml] used implicit differentiation to avoid the second-order gradients, providing computational efficiency without the accuracy loss of first-order approximations.
+MAML has been applied to reinforcement learning through several variants. Proximal Meta-Policy Search (ProMP) of [Rothfuss et al. 2019][research_rothfuss_et_al_2019] combined MAML with the trust-region and clipped policy gradient methods of article four, producing meta-policies with stable inner-loop adaptation. Implicit MAML of [Rajeswaran Finn Kakade Levine 2019][research_rajeswaran_et_al_2019_imaml] used implicit differentiation to avoid the second-order gradients, providing computational efficiency without the accuracy loss of first-order approximations.
 
-MAML++ of [Antoniou Edwards Storkey 2019][research_antoniou_edwards_storkey_2019] documented that many practical improvements to MAML including per-layer learning rates, multi-step BN statistics, and cosine-annealed learning rates substantially improve performance across benchmark tasks. The Bayesian interpretation of MAML by [Grant Finn Levine Darrell Griffiths 2018][research_grant_finn_levine_darrell_griffiths_2018] framed MAML as hierarchical Bayesian inference and provided a principled probabilistic account of gradient-based meta-learning. Online meta-learning of [Finn Rajeswaran Kakade Levine 2019][research_finn_rajeswaran_kakade_levine_2019] extended MAML to sequential settings in which tasks arrive one at a time and the meta-learner must handle non-stationary task distributions. The [Ravi and Larochelle 2017][research_ravi_larochelle_2017] framing of the meta-learner as an LSTM optimizer provided one of the foundational architectural alternatives to MAML.
+MAML++ of [Antoniou et al. 2019][research_antoniou_edwards_storkey_2019] documented that many practical improvements to MAML including per-layer learning rates, multi-step BN statistics, and cosine-annealed learning rates substantially improve performance across benchmark tasks. The Bayesian interpretation of MAML by [Grant Finn Levine Darrell Griffiths 2018][research_grant_finn_levine_darrell_griffiths_2018] framed MAML as hierarchical Bayesian inference and provided a principled probabilistic account of gradient-based meta-learning. Online meta-learning of [Finn et al. 2019][research_finn_rajeswaran_kakade_levine_2019] extended MAML to sequential settings in which tasks arrive one at a time and the meta-learner must handle non-stationary task distributions. The [Ravi and Larochelle 2017][research_ravi_larochelle_2017] framing of the meta-learner as an LSTM optimizer provided one of the foundational architectural alternatives to MAML.
 
 The empirical analysis of [Raghu Raghu Bengio Vinyals 2020][research_raghu_raghu_bengio_vinyals_2020] documented that most of the adaptation benefit in MAML on few-shot supervised tasks derives from feature reuse rather than rapid weight change, motivating simplified variants such as ANIL that adapt only the classification head. The observation partially transfers to reinforcement learning, where fixed shared representations combined with task-value or policy heads often match full-parameter MAML on benchmark tasks. The [Rusu Rao Sygnowski Vinyals Pascanu Osindero Hadsell 2019][research_rusu_et_al_2019_leo] LEO framework proposed latent embedding optimization as an intermediate between MAML and metric-based methods, performing gradient-based adaptation in a low-dimensional latent space of task representations.
 
@@ -157,13 +157,13 @@ $$L_{\text{contrastive}}(x_i, x_j, y_{ij}) = y_{ij} \, \|f_\theta(x_i) - f_\thet
 
 with $y_{ij} = 1$ if the pair is same-class and $y_{ij} = 0$ otherwise, and $m$ a margin hyperparameter.
 
-Matching Networks of [Vinyals Blundell Lillicrap Kavukcuoglu Wierstra 2016][research_vinyals_et_al_2016_matching] extended the treatment to few-shot classification. Given a support set $\mathcal{S} = \{(x_i, y_i)\}\_{i=1}^N$ and a query $x^\*$, the predicted label is
+Matching Networks of [Vinyals et al. 2016][research_vinyals_et_al_2016_matching] extended the treatment to few-shot classification. Given a support set $\mathcal{S} = \{(x_i, y_i)\}\_{i=1}^N$ and a query $x^\*$, the predicted label is
 
 $$\hat{y}^* = \sum_{i=1}^{N} a(x^*, x_i) \, y_i, \quad a(x^*, x_i) = \frac{\exp(\text{cosine}(f(x^*), g(x_i)))}{\sum_j \exp(\text{cosine}(f(x^*), g(x_j)))}$$
 
 where the attention weights implement a soft nearest-neighbor lookup in the learned embedding space. The full context embedding variant conditions $f$ and $g$ on the entire support set through a bidirectional LSTM, enabling context-dependent metric adaptation.
 
-Prototypical Networks of [Snell Swersky Zemel 2017][research_snell_swersky_zemel_2017] provided a simpler and often more effective framework in which each class is represented by the mean embedding of its support examples
+Prototypical Networks of [Snell et al. 2017][research_snell_swersky_zemel_2017] provided a simpler and often more effective framework in which each class is represented by the mean embedding of its support examples
 
 $$c_k = \frac{1}{|\mathcal{S}_k|} \sum_{(x_i, y_i) \in \mathcal{S}_k} f_\theta(x_i)$$
 
@@ -173,9 +173,9 @@ $$p_\theta(y = k \mid x^*) = \frac{\exp(-\|f_\theta(x^*) - c_k\|^2)}{\sum_{k'} \
 
 This account provides a Bayes-optimal classifier under an assumed spherical Gaussian likelihood in embedding space and generalizes to zero-shot settings when class embeddings are computed from side information rather than support examples.
 
-Relation Networks of [Sung Yang Zhang Xiang Torr Hospedales 2018][research_sung_et_al_2018] replaced the fixed metric with a learned neural comparison function that operates on concatenated support-query embedding pairs, producing a similarity score directly rather than through a distance calculation. The framework subsumes matching and prototypical networks and often achieves stronger performance when the underlying similarity is highly non-Euclidean.
+Relation Networks of [Sung et al. 2018][research_sung_et_al_2018] replaced the fixed metric with a learned neural comparison function that operates on concatenated support-query embedding pairs, producing a similarity score directly rather than through a distance calculation. The framework subsumes matching and prototypical networks and often achieves stronger performance when the underlying similarity is highly non-Euclidean.
 
-In reinforcement learning settings, metric-based meta-learning appears through several routes. Successor feature approaches of [Barreto Dabney Munos Hunt Schaul van Hasselt Silver 2017][research_barreto_et_al_2017] decompose value functions into task-independent features and task-reward weights, enabling policy transfer through inner products in the successor feature space. Contrastive task inference through embedding-space clustering has been used in extensions of PEARL for improved sample efficiency. The relation between metric-based supervised meta-learning and Bayesian task inference in reinforcement learning is close, with both frameworks producing task representations that support downstream adaptation through comparison operations.
+In reinforcement learning settings, metric-based meta-learning appears through several routes. Successor feature approaches of [Barreto et al. 2017][research_barreto_et_al_2017] decompose value functions into task-independent features and task-reward weights, enabling policy transfer through inner products in the successor feature space. Contrastive task inference through embedding-space clustering has been used in extensions of PEARL for improved sample efficiency. The relation between metric-based supervised meta-learning and Bayesian task inference in reinforcement learning is close, with both frameworks producing task representations that support downstream adaptation through comparison operations.
 
 ## Context-Conditioned Policies and Task Inference
 
@@ -203,7 +203,7 @@ $$J_{\text{PEARL}}(\theta, \psi, \phi) = J_{\text{SAC}}(\theta, \psi, \phi) - \b
 
 where the KL term regularizes the task representation toward a prior distribution.
 
-PEARL has proved to be one of the most sample-efficient meta-reinforcement learning methods on standard benchmarks, largely due to its off-policy training that leverages replay-buffer data across tasks. Extensions include MQL of [Fakoor Chaudhari Soatto Smola 2020][research_fakoor_et_al_2020_mql] which simplified the task inference through a meta-Q-learning framework. Task-conditional VAE approaches of [Sæmundsson Hofmann Deisenroth 2018][research_saemundsson_hofmann_deisenroth_2018] applied similar variational task inference to Gaussian process dynamics models, providing a principled framework for model-based meta-learning with structured priors. The task inference framework of [Humplik Igl Duan et al 2019][research_humplik_et_al_2019] combined explicit task supervision with policy learning, producing more sample-efficient task inference than purely-variational alternatives.
+PEARL has proved to be one of the most sample-efficient meta-reinforcement learning methods on standard benchmarks, largely due to its off-policy training that leverages replay-buffer data across tasks. Extensions include MQL of [Fakoor et al. 2020][research_fakoor_et_al_2020_mql] which simplified the task inference through a meta-Q-learning framework. Task-conditional VAE approaches of [Sæmundsson et al. 2018][research_saemundsson_hofmann_deisenroth_2018] applied similar variational task inference to Gaussian process dynamics models, providing a principled framework for model-based meta-learning with structured priors. The task inference framework of [Humplik et al. 2019][research_humplik_et_al_2019] combined explicit task supervision with policy learning, producing more sample-efficient task inference than purely-variational alternatives.
 
 ## Bayesian Meta-Reinforcement Learning
 
@@ -213,7 +213,7 @@ The Bayes-adaptive MDP formalism casts meta-reinforcement learning as a POMDP ov
 
 $$b_t(\mathcal{T}) = \Pr(\mathcal{T} \mid o_{1:t}, a_{1:t-1})$$
 
-updated by Bayes rule at each step. Solving the Bayes-adaptive POMDP exactly is intractable for realistic problems, but approximate methods provide practical algorithms. The BAMCP algorithm of [Guez Silver Dayan 2013][research_guez_silver_dayan_2013] extended Monte Carlo tree search to the Bayes-adaptive setting, providing sample-efficient planning under task uncertainty. The [Ortega Wang Rowland Genewein Hutter et al 2019][research_ortega_et_al_2019] Bayesian meta-reinforcement learning treatment provided a systematic modern framework connecting the classical Bayes-adaptive theory to deep function approximation.
+updated by Bayes rule at each step. Solving the Bayes-adaptive POMDP exactly is intractable for realistic problems, but approximate methods provide practical algorithms. The BAMCP algorithm of [Guez Silver Dayan 2013][research_guez_silver_dayan_2013] extended Monte Carlo tree search to the Bayes-adaptive setting, providing sample-efficient planning under task uncertainty. The [Ortega et al. 2019][research_ortega_et_al_2019] Bayesian meta-reinforcement learning treatment provided a systematic modern framework connecting the classical Bayes-adaptive theory to deep function approximation.
 
 VariBAD of Zintgraf Shiarlis Igl Schulze Gal Hofmann Whiteson 2020 provides a variational Bayesian meta-reinforcement learning framework. A variational encoder produces a distribution over latent tasks
 
@@ -231,11 +231,11 @@ producing behavior that trades off task-identifying exploration against reward-s
 
 VariBAD produces near-Bayes-optimal behavior on tabular meta-reinforcement learning problems and scales to deep function approximation on standard benchmarks. Its principal advantage over MAML and PEARL is the explicit uncertainty representation, which supports normatively-optimal exploration in a way that gradient-based and point-estimate methods do not directly provide.
 
-Extensions include HyperX of [Zintgraf Feng Igl Whiteson 2021][research_zintgraf_et_al_2021_hyperx] that incorporates hypernetwork-based task adaptation and reward-based exploration bonuses tuned for Bayes-adaptive exploration, and BOReL of [Dorfman Shenfeld Tamar 2021][research_dorfman_shenfeld_tamar_2021] that extends the treatment to offline meta-reinforcement learning.
+Extensions include HyperX of [Zintgraf Feng Igl Whiteson 2021][research_zintgraf_et_al_2021_hyperx] that incorporates hypernetwork-based task adaptation and reward-based exploration bonuses tuned for Bayes-adaptive exploration, and BOReL of [Dorfman et al. 2021][research_dorfman_shenfeld_tamar_2021] that extends the treatment to offline meta-reinforcement learning.
 
 ## Hypernetworks and Amortized Adaptation
 
-Hypernetworks provide a distinct route to meta-learning in which a meta-network directly outputs the parameters of a task-policy or value function. The treatment was introduced by [Ha Dai Le 2016][research_ha_dai_le_2016] in the general context of dynamic neural network generation and has been applied to meta-reinforcement learning through several routes.
+Hypernetworks provide a distinct route to meta-learning in which a meta-network directly outputs the parameters of a task-policy or value function. The treatment was introduced by [Ha et al. 2017][research_ha_dai_le_2016] in the general context of dynamic neural network generation and has been applied to meta-reinforcement learning through several routes.
 
 The hypernetwork meta-learner formalizes as
 
@@ -245,9 +245,9 @@ where $H_\phi$ is the hypernetwork with meta-parameters $\phi$, $z_{\text{task}}
 
 The primary appeal of the hypernetwork framework is expressive task-dependent structure. A policy with parameters generated by a hypernetwork can implement arbitrarily different task-behaviors without requiring the shared-representation constraint of context-conditioned policies. The primary challenge is training stability, since the meta-parameter space of $\phi$ is typically much larger than the task-policy parameters, and hypernetwork training exhibits characteristic sensitivity to weight initialization and normalization.
 
-Amortized Bayesian inference provides a complementary perspective. Rather than solving the Bayes-adaptive planning problem directly, amortized methods train a neural network to output an approximation of the Bayes-adaptive policy directly from a small adaptation trajectory. The [Mishra Rohaninejad Chen Abbeel 2018][research_mishra_et_al_2018_snail] SNAIL architecture combined temporal convolutions with attention to produce fully-amortized meta-learners that generalize across a wide range of few-shot tasks. Amortization avoids the recurrent-state bottleneck of RL-squared while retaining the sequence-modeling advantages of attention-based architectures.
+Amortized Bayesian inference provides a complementary perspective. Rather than solving the Bayes-adaptive planning problem directly, amortized methods train a neural network to output an approximation of the Bayes-adaptive policy directly from a small adaptation trajectory. The [Mishra et al. 2018][research_mishra_et_al_2018_snail] SNAIL architecture combined temporal convolutions with attention to produce fully-amortized meta-learners that generalize across a wide range of few-shot tasks. Amortization avoids the recurrent-state bottleneck of RL-squared while retaining the sequence-modeling advantages of attention-based architectures.
 
-Recent work by [Kirsch Sohl-Dickstein Metz 2019][research_kirsch_sohl_dickstein_metz_2019] on MetaGenRL demonstrated that hypernetwork-generated objective functions can be meta-learned across environments to produce reinforcement learning updates that transfer to entirely novel Markov decision processes not seen during meta-training, extending the amortized meta-learning paradigm to the algorithm-space directly.
+Recent work by [Kirsch et al. 2019][research_kirsch_sohl_dickstein_metz_2019] on MetaGenRL demonstrated that hypernetwork-generated objective functions can be meta-learned across environments to produce reinforcement learning updates that transfer to entirely novel Markov decision processes not seen during meta-training, extending the amortized meta-learning paradigm to the algorithm-space directly.
 
 ## Meta-Gradient Methods
 
@@ -271,31 +271,31 @@ $$\tilde{r}_t = r_t + \eta_{\text{intrinsic}}(s_t, a_t; \phi)$$
 
 with $\phi$ optimized to maximize the outer-loop objective (extrinsic return only). The mechanism produces intrinsic rewards that shape policy learning without affecting the true objective.
 
-Meta-Gradient learned rewards of [Oh Guo Warde-Farley Wayne Ostrovski Silver 2020][research_oh_et_al_2020] extended the framework to learn broader reward-shaping structures, and Never Give Up + Meta-Gradient of subsequent work combined the approach with the exploration methods of article five.
+Meta-Gradient learned rewards of [Oh et al. 2020][research_oh_et_al_2020] extended the framework to learn broader reward-shaping structures, and Never Give Up + Meta-Gradient of subsequent work combined the approach with the exploration methods of article five.
 
-Self-tuning actor-critic architectures of [Zahavy Xu Veeriah Hessel Oh van Hasselt Silver Singh 2020][research_zahavy_et_al_2020_stac] STAC and STACX combined meta-gradient adaptation of multiple hyperparameters (return coefficients, auxiliary loss weights, entropy regularization) across parallel actor-critic training. The treatment demonstrated that meta-gradient adaptation of even a modest number of hyperparameters yields substantial improvements over hand-tuned baselines on Atari and DeepMind Control Suite benchmarks, and provided evidence that meta-gradient methods scale to production-scale reinforcement learning training.
+Self-tuning actor-critic architectures of [Zahavy et al. 2020][research_zahavy_et_al_2020_stac] STAC and STACX combined meta-gradient adaptation of multiple hyperparameters (return coefficients, auxiliary loss weights, entropy regularization) across parallel actor-critic training. The treatment demonstrated that meta-gradient adaptation of even a modest number of hyperparameters yields substantial improvements over hand-tuned baselines on Atari and DeepMind Control Suite benchmarks, and provided evidence that meta-gradient methods scale to production-scale reinforcement learning training.
 
-The [Xu Van Hasselt Hessel Modayil et al 2020][research_xu_et_al_2020_meta_a2c] Meta-Gradient A2C extension demonstrated that meta-gradient adaptation of the discount factor and bootstrap parameter under an on-policy actor-critic training regime markedly improves benchmark performance without requiring hyperparameter search.
+The [Xu 2020][research_xu_et_al_2020_meta_a2c] Meta-Gradient A2C extension demonstrated that meta-gradient adaptation of the discount factor and bootstrap parameter under an on-policy actor-critic training regime markedly improves benchmark performance without requiring hyperparameter search.
 
-Meta-gradient methods provide a general framework for online adaptation of the learning process. Their principal challenge is the compute cost of meta-training, which requires inner-loop training to convergence for each outer-loop gradient, and the potential instability of nested optimization. Practical implementations use truncated inner loops and several stabilization techniques. Bootstrapped meta-learning of [Flennerhag et al 2022][research_flennerhag_et_al_2022] addressed the truncation-bias problem through target-network-based meta-gradient estimation, enabling stable long-horizon meta-training. The [Zheng Oh Wang Ha Weber Hafner Wu Levine et al 2020][research_zheng_et_al_2020_learning_reward] Learning to Reward framework extended meta-gradient reward learning to arbitrary parametric reward functions with theoretical guarantees on convergence to reward-shaping equivalence.
+Meta-gradient methods provide a general framework for online adaptation of the learning process. Their principal challenge is the compute cost of meta-training, which requires inner-loop training to convergence for each outer-loop gradient, and the potential instability of nested optimization. Practical implementations use truncated inner loops and several stabilization techniques. Bootstrapped meta-learning of [Flennerhag et al. 2022][research_flennerhag_et_al_2022] addressed the truncation-bias problem through target-network-based meta-gradient estimation, enabling stable long-horizon meta-training. The [Zheng 2020][research_zheng_et_al_2020_learning_reward] Learning to Reward framework extended meta-gradient reward learning to arbitrary parametric reward functions with theoretical guarantees on convergence to reward-shaping equivalence.
 
 ## Meta-Learning of Optimizers and Auxiliary Losses
 
 The meta-learning of optimization procedures themselves represents a distinct branch of the meta-learning literature. Rather than learning initial parameters or task representations, this branch learns the update rule that transforms gradients into parameter updates.
 
-Learning to Learn by Gradient Descent by Gradient Descent of [Andrychowicz Denil Gomez Hoffman Pfau Schaul Shillingford de Freitas 2016][research_andrychowicz_et_al_2016] parameterized the optimizer update rule as a recurrent network,
+Learning to Learn by Gradient Descent by Gradient Descent of [Andrychowicz et al. 2016][research_andrychowicz_et_al_2016] parameterized the optimizer update rule as a recurrent network,
 
 $$\Delta \theta_t = m_\phi(\nabla_\theta L, h_t), \quad h_{t+1} = f_\phi(\nabla_\theta L, h_t)$$
 
 trained to minimize the loss achieved by iteratively applying the update rule. This account produced learned optimizers that outperformed standard first-order methods on the training task distribution but generalized poorly to novel tasks.
 
-Subsequent work by [Metz Maheswaranathan Cheung Sohl-Dickstein 2019][research_metz_et_al_2019] documented the challenges of training generalizable learned optimizers and proposed training procedures that produce optimizers robust to task shift. The [Li and Malik 2017][research_li_malik_2017] Learning to Optimize framework provided a reinforcement-learning-based approach to optimizer meta-learning that treats optimization as a sequential decision process.
+Subsequent work by [Metz et al. 2018][research_metz_et_al_2019] documented the challenges of training generalizable learned optimizers and proposed training procedures that produce optimizers robust to task shift. The [Li and Malik 2017][research_li_malik_2017] Learning to Optimize framework provided a reinforcement-learning-based approach to optimizer meta-learning that treats optimization as a sequential decision process.
 
 Meta-learning of auxiliary losses provides a related direction. The framework parameterizes an auxiliary loss function that is added to the primary learning objective,
 
 $$L_{\text{aux}}(\theta) = L_{\text{primary}}(\theta) + \lambda \, L_{\phi}(\theta)$$
 
-with $\phi$ optimized through outer-loop gradients to maximize the primary objective. The learned auxiliary loss can encode auxiliary tasks, regularizers, or representation-learning objectives that support the primary objective without being explicitly designed. [Wichrowska Maheswaranathan Hoffman Colmenarejo Denil de Freitas Sohl-Dickstein 2017][research_wichrowska_et_al_2017] provided scaled-up learned optimizers with cross-task generalization, and [Chen Hoffman Colmenarejo Denil Lillicrap de Freitas 2017][research_chen_et_al_2017_learned_optimizer] demonstrated that learned optimizers can generalize appreciably beyond the training distribution when trained on diverse task ensembles.
+with $\phi$ optimized through outer-loop gradients to maximize the primary objective. The learned auxiliary loss can encode auxiliary tasks, regularizers, or representation-learning objectives that support the primary objective without being explicitly designed. [Wichrowska et al. 2017][research_wichrowska_et_al_2017] provided scaled-up learned optimizers with cross-task generalization, and [Chen Hoffman Colmenarejo Denil 2017][research_chen_et_al_2017_learned_optimizer] demonstrated that learned optimizers can generalize appreciably beyond the training distribution when trained on diverse task ensembles.
 
 ## Multi-Task Reinforcement Learning
 
@@ -305,7 +305,7 @@ Shared representation multi-task learning trains a single network with task-head
 
 $$Q(s, a; \phi_{\text{shared}}, \phi_{\text{task}}) = h_{\phi_{\text{task}}}(f_{\phi_{\text{shared}}}(s, a))$$
 
-with shared parameters $\phi_{\text{shared}}$ trained on all tasks and task-parameters $\phi_{\text{task}}$ trained only on the corresponding task. The mechanism supports positive transfer through shared representations while allowing task-specialization. Progressive Networks of [Rusu Rabinowitz Desjardins Soyer Kirkpatrick Kavukcuoglu Pascanu Hadsell 2016][research_rusu_et_al_2016_progressive] provided an alternative that avoids negative transfer by adding new columns for each task while freezing prior columns. Actor-Mimic of [Parisotto Ba Salakhutdinov 2016][research_parisotto_ba_salakhutdinov_2016] used policy distillation from single-task expert policies to a multi-task student policy, providing an alternative multi-task learning framework grounded in imitation learning. The [Sener and Koltun 2018][research_sener_koltun_2018] treatment of multi-task learning as multi-objective optimization provided a principled framework based on Pareto-optimality of the multi-task loss.
+with shared parameters $\phi_{\text{shared}}$ trained on all tasks and task-parameters $\phi_{\text{task}}$ trained only on the corresponding task. The mechanism supports positive transfer through shared representations while allowing task-specialization. Progressive Networks of [Rusu et al. 2016][research_rusu_et_al_2016_progressive] provided an alternative that avoids negative transfer by adding new columns for each task while freezing prior columns. Actor-Mimic of [Parisotto et al. 2015][research_parisotto_ba_salakhutdinov_2016] used policy distillation from single-task expert policies to a multi-task student policy, providing an alternative multi-task learning framework grounded in imitation learning. The [Sener and Koltun 2018][research_sener_koltun_2018] treatment of multi-task learning as multi-objective optimization provided a principled framework based on Pareto-optimality of the multi-task loss.
 
 Multi-task actor-critic frameworks including [Teh Bapst Czarnecki Quan Kirkpatrick Hadsell de Freitas Heess 2017][research_teh_et_al_2017] Distral use distillation between task-and shared policies to encourage transferable behavior. Distral's task-policies are trained with a KL regularizer toward the shared distilled policy,
 
@@ -327,15 +327,15 @@ Manually-curated task distributions such as Meta-World and Alchemy provide the e
 
 Automatic curriculum construction provides an alternative to manual task-distribution design. Rather than specifying the training distribution directly, the meta-training procedure searches over tasks to construct a curriculum that maximizes some notion of learning progress. The model connects to the developmental robotics tradition treated in article twelve and to the intrinsic motivation methods treated in article five.
 
-Teacher-Student Curriculum Learning of [Portelas Colas Hofmann Oudeyer 2019][research_portelas_et_al_2019] provided one systematic framework. A teacher policy $\pi_{\text{teacher}}(\mathcal{T})$ proposes tasks that maximize expected learning progress of the student, quantified as the change in expected return per unit training compute. The teacher is trained by reinforcement learning with learning progress as the reward, producing task distributions that automatically adapt to the current capability of the student.
+Teacher-Student Curriculum Learning of [Portelas et al. 2020b][research_portelas_et_al_2019] provided one systematic framework. A teacher policy $\pi_{\text{teacher}}(\mathcal{T})$ proposes tasks that maximize expected learning progress of the student, quantified as the change in expected return per unit training compute. The teacher is trained by reinforcement learning with learning progress as the reward, producing task distributions that automatically adapt to the current capability of the student.
 
-POET of [Wang Lehman Clune Stanley 2019][research_wang_et_al_2019_poet] extended the model to open-ended coevolution of environments and agents. New environments are proposed by mutating existing environments, and environments that are neither too easy nor too hard for the current agent population are preserved. This formulation produces continually-expanding sets of environments and agents that co-adapt over evolutionary time.
+POET of [Wang et al. 2019][research_wang_et_al_2019_poet] extended the model to open-ended coevolution of environments and agents. New environments are proposed by mutating existing environments, and environments that are neither too easy nor too hard for the current agent population are preserved. This formulation produces continually-expanding sets of environments and agents that co-adapt over evolutionary time.
 
-Unsupervised Environment Design of [Dennis Jaques Hughes Gleave Wang Peng Turner Foerster Torr Stone 2020][research_dennis_et_al_2020_paired] PAIRED introduced a game-theoretic formulation in which an adversarial environment generator proposes environments that maximize the regret of the current agent against an antagonist policy. The regret objective automatically balances difficulty and learnability, producing environments that are challenging but solvable at the agent's current capability level.
+Unsupervised Environment Design of [Dennis et al. 2020][research_dennis_et_al_2020_paired] PAIRED introduced a game-theoretic formulation in which an adversarial environment generator proposes environments that maximize the regret of the current agent against an antagonist policy. The regret objective automatically balances difficulty and learnability, producing environments that are challenging but solvable at the agent's current capability level.
 
-Reverse curriculum of [Florensa Held Geng Abbeel 2018][research_florensa_et_al_2018_reverse_curriculum] provided a related framework for goal-conditioned reinforcement learning in which the curriculum is generated by starting near the goal state and progressively expanding outward. This account is particularly effective for sparse-reward manipulation tasks where random exploration would fail to encounter reward. Prioritized Level Replay of [Jiang Grefenstette Rocktäschel 2020][research_jiang_grefenstette_rocktaschel_2020] adapted prioritized-replay ideas to procedurally-generated environments, sampling levels that maximize learning progress.
+Reverse curriculum of [Florensa et al. 2017][research_florensa_et_al_2018_reverse_curriculum] provided a related framework for goal-conditioned reinforcement learning in which the curriculum is generated by starting near the goal state and progressively expanding outward. This account is particularly effective for sparse-reward manipulation tasks where random exploration would fail to encounter reward. Prioritized Level Replay of [Jiang et al. 2020][research_jiang_grefenstette_rocktaschel_2020] adapted prioritized-replay ideas to procedurally-generated environments, sampling levels that maximize learning progress.
 
-Automatic Curriculum Learning of [Portelas Romac Hofmann Oudeyer 2020][research_portelas_et_al_2020_acl_survey] provided a systematic survey of the automatic curriculum literature circa the early 2020s. The framework connects meta-learning to the broader intelligent-tutoring-system and self-paced-learning traditions.
+Automatic Curriculum Learning of [Portelas et al. 2020a][research_portelas_et_al_2020_acl_survey] provided a systematic survey of the automatic curriculum literature circa the early 2020s. The framework connects meta-learning to the broader intelligent-tutoring-system and self-paced-learning traditions.
 
 ## Meta-Overfitting and Meta-Generalization
 
@@ -343,25 +343,25 @@ Meta-learning methods are prone to a distinctive failure mode of meta-overfittin
 
 The [Yin Tucker Zhou Levine Finn 2020][research_yin_et_al_2020_memorization] Meta-Learning without Memorization framework provided the systematic diagnosis. The account identified that when the task distribution admits a shortcut solution, in which the task-conditional policy can be constructed without inspecting the adaptation data, gradient-based meta-learning methods often converge to the shortcut solution rather than the intended fast-adaptation solution. The proposed remedy is a mutual-information regularizer that forces the adapted parameters to depend on the adaptation data.
 
-Meta-overfitting is closely related to the meta-generalization gap, defined as the difference between meta-training and meta-test performance. The gap widens with the effective complexity of the meta-learner and narrows with the number of meta-training tasks. Empirical scaling analyses of [Al-Shedivat Diaz-Rodriguez Guo Hospedales 2021][research_al_shedivat_et_al_2021_meta_generalization] documented that many meta-learning methods on standard benchmarks require considerably more tasks than the typical evaluation protocol provides for reliable meta-generalization.
+Meta-overfitting is closely related to the meta-generalization gap, defined as the difference between meta-training and meta-test performance. The gap widens with the effective complexity of the meta-learner and narrows with the number of meta-training tasks. Empirical scaling analyses of [Al-Shedivat et al. 2021][research_al_shedivat_et_al_2021_meta_generalization] documented that many meta-learning methods on standard benchmarks require considerably more tasks than the typical evaluation protocol provides for reliable meta-generalization.
 
 The related failure mode of meta-underfitting occurs when the meta-learner fails to acquire task-adaptation and instead produces a task-agnostic policy that achieves mediocre performance across the distribution. Meta-underfitting is often caused by insufficient meta-training data, inadequate meta-learner capacity, or overly-constrained inner-loop update rules.
 
-Robust meta-learning approaches address distribution shift between meta-training and meta-testing task distributions. Task augmentation via mixup, task interpolation, and adversarial task construction have all been proposed as regularizers that improve out-of-distribution meta-generalization. The [Yao Wei Huang Wang Li 2021][research_yao_et_al_2021_task_augmentation] task augmentation framework provided a systematic treatment of the meta-learning analogue of data augmentation.
+Robust meta-learning approaches address distribution shift between meta-training and meta-testing task distributions. Task augmentation via mixup, task interpolation, and adversarial task construction have all been proposed as regularizers that improve out-of-distribution meta-generalization. The [Yao et al. 2021][research_yao_et_al_2021_task_augmentation] task augmentation framework provided a systematic treatment of the meta-learning analogue of data augmentation.
 
 ## Continual and Online Adaptation
 
 Continual adaptation extends the meta-learning framework to settings in which the agent faces a sequence of related tasks and must adapt to each without forgetting the previous ones. The model connects meta-learning to the continual learning of article ten.
 
-Online adaptation via meta-learning of [Nagabandi Clavera Liu Fearing Abbeel Levine Finn 2018][research_nagabandi_et_al_2018_meta_online] provides the direct link between meta-learning and continual online adaptation. This formulation trains a meta-learned initialization such that few-shot gradient updates produce task-parameters that generalize to unseen environmental conditions. At each online step, the current parameters are updated from the meta-initialization based on a sliding window of recent transitions,
+Online adaptation via meta-learning of [Nagabandi et al. 2018][research_nagabandi_et_al_2018_meta_online] provides the direct link between meta-learning and continual online adaptation. This formulation trains a meta-learned initialization such that few-shot gradient updates produce task-parameters that generalize to unseen environmental conditions. At each online step, the current parameters are updated from the meta-initialization based on a sliding window of recent transitions,
 
 $$\theta_t = \theta_{\text{meta}} - \alpha \sum_{s=1}^{k} \nabla_{\theta_{\text{meta}}} \ell(\theta_{\text{meta}}; \tau_{t-s})$$
 
 where $\ell$ is the per-transition prediction loss. Applied to legged robot control, this formulation enables rapid adaptation to novel terrain, actuator faults, and payload variations through a small number of online gradient steps.
 
-Continuous Adaptation via Meta-Learning (CAML) of [Al-Shedivat Bansal Burda Sutskever Mordatch Abbeel 2018][research_al_shedivat_et_al_2018] extended MAML to continuously-changing environments in multi-agent settings where the changing behavior of other agents produces non-stationarity.
+Continuous Adaptation via Meta-Learning (CAML) of [Al-Shedivat et al. 2018][research_al_shedivat_et_al_2018] extended MAML to continuously-changing environments in multi-agent settings where the changing behavior of other agents produces non-stationarity.
 
-MOLe of [Nagabandi Finn Levine 2019][research_nagabandi_finn_levine_2019_mole] developed a mixture-of-experts framework for continual adaptation that identifies task boundaries and switches among meta-learned expert policies, providing a middle ground between pure meta-learning and pure continual learning. Reconciling meta-learning and continual learning through Bayesian nonparametrics, [Jerfel Grant Griffiths Heller 2019][research_jerfel_et_al_2019] proposed a Dirichlet-process mixture over meta-learned initializations that automatically identifies task clusters and enables backward transfer across the sequence of tasks. [Caccia Rodríguez Ostapenko Normandin Lin et al 2020][research_caccia_et_al_2020] provided the OSAKA benchmark and framework for online fast adaptation in continual meta-learning, exposing the tension between meta-adaptation speed and long-run non-forgetting.
+MOLe of [Nagabandi Finn Levine 2019][research_nagabandi_finn_levine_2019_mole] developed a mixture-of-experts framework for continual adaptation that identifies task boundaries and switches among meta-learned expert policies, providing a middle ground between pure meta-learning and pure continual learning. Reconciling meta-learning and continual learning through Bayesian nonparametrics, [Jerfel et al. 2018][research_jerfel_et_al_2019] proposed a Dirichlet-process mixture over meta-learned initializations that automatically identifies task clusters and enables backward transfer across the sequence of tasks. [Caccia et al. 2020][research_caccia_et_al_2020] provided the OSAKA benchmark and framework for online fast adaptation in continual meta-learning, exposing the tension between meta-adaptation speed and long-run non-forgetting.
 
 ## In-Context Reinforcement Learning
 
@@ -381,7 +381,7 @@ Adaptive Agent of Bauer et al 2023 combined meta-reinforcement learning with fou
 
 In-context reinforcement learning connects meta-learning to the sequence modeling framework of articles four and eight and to the foundation model treatments throughout the series. The relationship between in-context learning as a compression of learning algorithms and traditional meta-learning as a parameterization of learning algorithms remains an active research area.
 
-Related work by [Kirsch Harrison Sohl-Dickstein Metz 2022][research_kirsch_et_al_2022] on general-purpose in-context meta-learning provided a systematic framework connecting in-context learning to classical meta-learning theory. Supervised pretraining approaches of [Lee et al 2023][research_lee_et_al_2023_supervised_pretraining] demonstrated that supervised learning on cross-task trajectory data can produce in-context reinforcement learning behavior comparable to specialized meta-reinforcement learning algorithms.
+Related work by [Kirsch et al. 2022][research_kirsch_et_al_2022] on general-purpose in-context meta-learning provided a systematic framework connecting in-context learning to classical meta-learning theory. Supervised pretraining approaches of [Lee et al. 2023][research_lee_et_al_2023_supervised_pretraining] demonstrated that supervised learning on cross-task trajectory data can produce in-context reinforcement learning behavior comparable to specialized meta-reinforcement learning algorithms.
 
 ## Meta-Learning Theory and Sample Complexity
 
@@ -393,11 +393,11 @@ $$\mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}[R(\mathcal{A}_\phi, \mathcal{T})]
 
 where $\text{Comp}(\mathcal{A})$ is a complexity measure of the meta-algorithm class, $n_{\text{tasks}}$ is the number of meta-training tasks, and $m_{\text{per-task}}$ is the number of samples per task. When the effective algorithm-class complexity is smaller than the model-class complexity for per-task learning, meta-learning provides sample-complexity advantages.
 
-Modern analyses including [Denevi Ciliberto Grazzi Pontil 2019][research_denevi_et_al_2019] and [Khodak Balcan Talwalkar 2019][research_khodak_balcan_talwalkar_2019] provide refined bounds for gradient-based meta-learning under favorable geometric assumptions on the task loss landscape. The [Balcan Blum Sharma 2018][research_balcan_blum_sharma_2018] work on algorithm design principles for meta-learning extended the framework to structured hypothesis classes.
+Modern analyses including [Denevi et al. 2019][research_denevi_et_al_2019] and [Khodak et al. 2019][research_khodak_balcan_talwalkar_2019] provide refined bounds for gradient-based meta-learning under favorable geometric assumptions on the task loss landscape. The [Balcan et al. 2018][research_balcan_blum_sharma_2018] work on algorithm design principles for meta-learning extended the framework to structured hypothesis classes.
 
-The theory of PAC-Bayesian meta-learning provides bounds that are often practical to compute and use for meta-algorithm selection. The [Amit and Meir 2018][research_amit_meir_2018] PAC-Bayes bounds for meta-learning and the [Rothfuss Fortuin Josifoski Krause 2021][research_rothfuss_et_al_2021_pacoh] PACOH framework for principled Bayesian meta-learning provided the modern development. The account connects meta-learning to broader statistical learning theory and clarifies when meta-learning theoretical guarantees hold.
+The theory of PAC-Bayesian meta-learning provides bounds that are often practical to compute and use for meta-algorithm selection. The [Amit and Meir 2018][research_amit_meir_2018] PAC-Bayes bounds for meta-learning and the [Rothfuss et al. 2021][research_rothfuss_et_al_2021_pacoh] PACOH framework for principled Bayesian meta-learning provided the modern development. The account connects meta-learning to broader statistical learning theory and clarifies when meta-learning theoretical guarantees hold.
 
-Convergence analyses of MAML including [Fallah Mokhtari Ozdaglar 2020][research_fallah_mokhtari_ozdaglar_2020] established sample-complexity bounds for gradient-based meta-learning under standard smoothness conditions, providing theoretical justification for the empirical success of first-order MAML variants.
+Convergence analyses of MAML including [Fallah et al. 2020][research_fallah_mokhtari_ozdaglar_2020] established sample-complexity bounds for gradient-based meta-learning under standard smoothness conditions, providing theoretical justification for the empirical success of first-order MAML variants.
 
 Sample-complexity analyses to meta-reinforcement learning remain limited by the difficulty of the underlying reinforcement learning setting. Bounds tend to require restrictive assumptions on the MDP class and adaptation procedure, and empirical performance often exceeds theoretical predictions.
 
@@ -407,7 +407,7 @@ Model-based meta-reinforcement learning combines the sample-efficiency advantage
 
 The Nagabandi et al 2018 deep online adaptation via meta-learning framework treated earlier provides the direct instantiation. A meta-learned dynamics model rapidly adapts to novel environmental conditions through few-shot gradient updates, and the adapted model is used for model-based control via MPC. This formulation achieves significantly better real-robot adaptation efficiency than model-free alternatives.
 
-Model-based meta-policy optimization of [Clavera Rothfuss Schulman Fujita Asfour Abbeel 2018][research_clavera_et_al_2018] combined MAML with model-based reinforcement learning through ensemble dynamics models. The mechanism supports uncertainty-aware planning during meta-testing when the task is not fully identified. Learning-to-adapt for legged robotics of [Nagabandi Finn Levine 2018][research_nagabandi_finn_levine_2018_learn_to_adapt] applied a similar framework to real-robot control and provided evidence that model-based meta-learning generalizes to physical hardware with acceptable data budgets.
+Model-based meta-policy optimization of [Clavera et al. 2018][research_clavera_et_al_2018] combined MAML with model-based reinforcement learning through ensemble dynamics models. The mechanism supports uncertainty-aware planning during meta-testing when the task is not fully identified. Learning-to-adapt for legged robotics of [Nagabandi Finn Levine 2018][research_nagabandi_finn_levine_2018_learn_to_adapt] applied a similar framework to real-robot control and provided evidence that model-based meta-learning generalizes to physical hardware with acceptable data budgets.
 
 Latent-variable model-based meta-learning approaches condition the world model on a latent task embedding
 
@@ -425,11 +425,11 @@ Recent developments including task-conditioned world models in the Dreamer famil
 
 The foundation-model paradigm has substantially reshaped the practice of meta-reinforcement learning in the mid 2020s. Rather than training specialized meta-learners on hand-curated task distributions, foundation-scale meta-reinforcement learning trains large sequence models on vast collections of experience data spanning many embodiments, tasks, and modalities.
 
-Gato of [Reed Zolna Parisotto Colmenarejo Novikov Barth-Maron Giménez et al 2022][research_reed_et_al_2022_gato] demonstrated that a single 1.2-billion-parameter transformer trained on tokenized experience data from 604 distinct tasks including robotics, Atari, image captioning, and dialogue can perform all tasks competitively at test time by conditioning on task identity. This account does not perform meta-adaptation in the traditional sense, but exhibits in-context task inference through the shared sequence model.
+Gato of [Reed et al. 2022][research_reed_et_al_2022_gato] demonstrated that a single 1.2-billion-parameter transformer trained on tokenized experience data from 604 distinct tasks including robotics, Atari, image captioning, and dialogue can perform all tasks competitively at test time by conditioning on task identity. This account does not perform meta-adaptation in the traditional sense, but exhibits in-context task inference through the shared sequence model.
 
-RT-1 of [Brohan Brown Carbajal Chebotar Dabis et al 2022][research_brohan_et_al_2022_rt1] and RT-2 of [Brohan Brown Carbajal Chebotar Chen et al 2023][research_brohan_et_al_2023_rt2] extended the account to real-robot manipulation across diverse tasks and objects. RT-2's contribution was the integration of pretrained vision-language models with reinforcement learning trajectory data, enabling zero-shot generalization to novel objects and instructions through the shared representational structure of the underlying foundation model.
+RT-1 of [Brohan et al. 2022][research_brohan_et_al_2022_rt1] and RT-2 of [Brohan et al. 2023][research_brohan_et_al_2023_rt2] extended the account to real-robot manipulation across diverse tasks and objects. RT-2's contribution was the integration of pretrained vision-language models with reinforcement learning trajectory data, enabling zero-shot generalization to novel objects and instructions through the shared representational structure of the underlying foundation model.
 
-Cross-embodiment meta-learning of [Open X-Embodiment Collaboration et al 2023][research_open_x_embodiment_2023] demonstrated that policies trained jointly on data from 22 different robotic embodiments outperform embodiment-baselines on held-out embodiments, providing evidence for positive transfer across markedly different action and observation spaces. The account connects meta-reinforcement learning to the broader multimodal foundation model literature and establishes an emerging pattern of scaled cross-domain training.
+Cross-embodiment meta-learning of [Open et al. 2023][research_open_x_embodiment_2023] demonstrated that policies trained jointly on data from 22 different robotic embodiments outperform embodiment-baselines on held-out embodiments, providing evidence for positive transfer across markedly different action and observation spaces. The account connects meta-reinforcement learning to the broader multimodal foundation model literature and establishes an emerging pattern of scaled cross-domain training.
 
 The relationship between foundation-scale meta-learning and traditional specialized meta-learning remains an open research question. Traditional meta-learners achieve strong adaptation from small task distributions with modest compute budgets, while foundation-scale meta-learners achieve broad generalization with extensive compute and data investment. The two approaches likely complement rather than substitute for one another in the mature engineering practice.
 
@@ -439,7 +439,7 @@ Instruction-following meta-learning provides a related direction connecting meta
 
 Sim-to-real transfer is a longstanding problem in robotics that has a close but distinct relationship to meta-reinforcement learning. Sim-to-real methods train policies in simulation and deploy them on physical hardware, which requires the trained policy to generalize to the sim-to-real gap of unmodeled physical effects.
 
-Domain randomization of [Tobin Fong Ray Schneider Zaremba Abbeel 2017][research_tobin_et_al_2017_dr] provides the canonical alternative to meta-learning for sim-to-real transfer. Rather than meta-training on a distribution of tasks with the intent of enabling test-time adaptation, domain randomization trains a single robust policy on a distribution of simulated environments with randomized physical parameters, resulting in a policy that performs adequately across the randomization distribution without further adaptation.
+Domain randomization of [Tobin et al. 2017][research_tobin_et_al_2017_dr] provides the canonical alternative to meta-learning for sim-to-real transfer. Rather than meta-training on a distribution of tasks with the intent of enabling test-time adaptation, domain randomization trains a single robust policy on a distribution of simulated environments with randomized physical parameters, resulting in a policy that performs adequately across the randomization distribution without further adaptation.
 
 Formally, domain randomization solves
 
@@ -447,29 +447,29 @@ $$\pi^*_{\text{DR}} = \arg\max_\pi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\
 
 which is the multi-task objective without task-adaptation. This formulation produces zero-shot generalization to any task in the randomization support at the cost of task-optimality.
 
-Dynamics randomization of [Peng Andrychowicz Zaremba Abbeel 2018][research_peng_et_al_2018_dynamics_rand] extended domain randomization to dynamical properties including mass, friction, and actuator characteristics. The treatment combined with LSTM policies produced appreciably better sim-to-real transfer for legged robotics than either component alone.
+Dynamics randomization of [Peng et al. 2017][research_peng_et_al_2018_dynamics_rand] extended domain randomization to dynamical properties including mass, friction, and actuator characteristics. The treatment combined with LSTM policies produced appreciably better sim-to-real transfer for legged robotics than either component alone.
 
-Adaptive domain randomization approaches combine the two paradigms. The [Akkaya Andrychowicz Chociej Litwin McGrew Petron Paino Plappert et al 2019][research_openai_et_al_2019_rubiks] Rubik's Cube framework used automatic domain randomization to progressively expand the randomization distribution during training, producing policies that transferred to physical hand manipulation. The policy retained sufficient adaptation capability through the LSTM recurrence to specialize to the physical hand at deployment time.
+Adaptive domain randomization approaches combine the two paradigms. The [OpenAI et al. 2019][research_openai_et_al_2019_rubiks] Rubik's Cube framework used automatic domain randomization to progressively expand the randomization distribution during training, producing policies that transferred to physical hand manipulation. The policy retained sufficient adaptation capability through the LSTM recurrence to specialize to the physical hand at deployment time.
 
 The tradeoff between domain randomization and meta-learning is subtle. Domain randomization requires no test-time compute for adaptation but requires the randomization distribution to encompass the deployment conditions. Meta-learning tolerates deployment conditions outside the training distribution when the adaptation trajectory reveals the discrepancy, at the cost of test-time adaptation compute. In practice modern robotics systems often combine both approaches, using domain randomization to establish a robust prior policy and meta-adaptation to specialize to the deployment environment.
 
-The related framework of system identification meta-learning of [Yu Tan Bai Xu Liu 2017][research_yu_et_al_2017_sysid] used a small adaptation trajectory to identify physical parameters of the deployment environment, then used the identified parameters to select or specialize a policy. This account provides a middle ground between pure meta-learning and pure domain randomization by making the task representation explicit and physically-interpretable.
+The related framework of system identification meta-learning of [Yu et al. 2017][research_yu_et_al_2017_sysid] used a small adaptation trajectory to identify physical parameters of the deployment environment, then used the identified parameters to select or specialize a policy. This account provides a middle ground between pure meta-learning and pure domain randomization by making the task representation explicit and physically-interpretable.
 
 ## Empirical Landscape
 
-The empirical landscape of meta-reinforcement learning has consolidated around several standard benchmarks. Meta-World of [Yu Quillen He Julian Hausman Finn Levine 2020][research_yu_et_al_2020_metaworld] provides a suite of fifty robotic manipulation tasks that share the same robot embodiment but require distinct manipulation skills. The benchmark supports both meta-training on a subset and evaluation on held-out tasks and multi-task training on the full set.
+The empirical landscape of meta-reinforcement learning has consolidated around several standard benchmarks. Meta-World of [Yu et al. 2020][research_yu_et_al_2020_metaworld] provides a suite of fifty robotic manipulation tasks that share the same robot embodiment but require distinct manipulation skills. The benchmark supports both meta-training on a subset and evaluation on held-out tasks and multi-task training on the full set.
 
 Procgen and the Procgen-based generalization benchmarks provide procedurally-generated video games that test generalization across the procedural distribution rather than adaptation to fixed tasks. The distinction between generalization and meta-learning is subtle. Pure generalization requires no test-time adaptation, while meta-learning explicitly optimizes for it.
 
-Alchemy of [Wang et al 2021][research_wang_et_al_2021_alchemy] provides a specifically-designed meta-reinforcement learning benchmark with hidden structural rules that must be inferred through experimentation. The benchmark exposes the exploration-versus-exploitation trade-off that Bayes-optimal meta-learning should navigate.
+Alchemy of [Wang et al. 2021][research_wang_et_al_2021_alchemy] provides a specifically-designed meta-reinforcement learning benchmark with hidden structural rules that must be inferred through experimentation. The benchmark exposes the exploration-versus-exploitation trade-off that Bayes-optimal meta-learning should navigate.
 
-XLand of [Team et al 2021][research_team_et_al_2021_xland] provides a vast procedurally-generated 3D environment that has served as a test-bed for foundation-model-scale meta-reinforcement learning. Adaptive Agent's performance on XLand provides evidence for the scalability of transformer-based in-context meta-reinforcement learning.
+XLand of [Team 2021][research_team_et_al_2021_xland] provides a vast procedurally-generated 3D environment that has served as a test-bed for foundation-model-scale meta-reinforcement learning. Adaptive Agent's performance on XLand provides evidence for the scalability of transformer-based in-context meta-reinforcement learning.
 
 Empirical performance across these benchmarks shows several patterns. Recurrent meta-learning through RL-squared and L2RL provides strong performance when meta-training data is abundant. Gradient-based methods including MAML and ProMP provide better sample efficiency at meta-test time but require more careful meta-training. Bayesian methods including PEARL and VariBAD provide the strongest exploration behavior at higher implementation complexity. In-context methods including Algorithm Distillation and Adaptive Agent provide the most flexible framework but require foundation-model-scale training.
 
-MiniHack of [Samvelyan Kirk Kurin et al 2021][research_samvelyan_et_al_2021_minihack] provides a diverse and configurable NetHack-based environment specifically designed for meta-reinforcement learning research. NLE of [Küttler Nardelli et al 2020][research_kuttler_et_al_2020_nle] provides the underlying NetHack Learning Environment that has served as one of the most challenging open benchmarks for reinforcement learning generalization.
+MiniHack of [Samvelyan et al. 2021][research_samvelyan_et_al_2021_minihack] provides a diverse and configurable NetHack-based environment specifically designed for meta-reinforcement learning research. NLE of [Küttler et al. 2020][research_kuttler_et_al_2020_nle] provides the underlying NetHack Learning Environment that has served as one of the most challenging open benchmarks for reinforcement learning generalization.
 
-Crafter of [Hafner 2022][research_hafner_2022_crafter] provides a Minecraft-inspired procedurally-generated benchmark that supports both meta-learning and long-horizon reinforcement learning research with greatly lower computational requirements than 3D game engines.
+Crafter of [Hafner 2021][research_hafner_2022_crafter] provides a Minecraft-inspired procedurally-generated benchmark that supports both meta-learning and long-horizon reinforcement learning research with greatly lower computational requirements than 3D game engines.
 
 Empirical comparison across meta-reinforcement learning benchmarks is complicated by the sensitivity of results to hyperparameter choices, task distribution details, and evaluation protocols. Standardized evaluation practices are an active area of methodological development.
 
@@ -493,29 +493,29 @@ Wireless network resource allocation uses meta-reinforcement learning to adapt s
 
 The practical realization of meta-reinforcement learning depends on software tooling for differentiating through inner-loop training procedures, managing task distributions, and reproducing benchmark results. Several open-source frameworks have emerged to support the practical work.
 
-Higher of [Grefenstette Amos Yarats Htut Riedel Chintala 2019][research_grefenstette_et_al_2019_higher] provides a PyTorch extension for computing higher-order gradients through arbitrary training loops. The account is the standard tool for implementing MAML and related gradient-based meta-learning methods, supporting both first-order and full second-order gradients through a functional module rewrite.
+Higher of [Grefenstette et al. 2019][research_grefenstette_et_al_2019_higher] provides a PyTorch extension for computing higher-order gradients through arbitrary training loops. The account is the standard tool for implementing MAML and related gradient-based meta-learning methods, supporting both first-order and full second-order gradients through a functional module rewrite.
 
-Learn2learn of [Arnold Mahajan Datta Bunner Zarkias 2020][research_arnold_et_al_2020_learn2learn] provides a broader library of meta-learning algorithms and benchmarks. The library implements MAML, ANIL, Reptile, PEARL, matching networks, prototypical networks, and other standard methods on both few-shot supervised and meta-reinforcement learning benchmarks.
+Learn2learn of [Arnold et al. 2020][research_arnold_et_al_2020_learn2learn] provides a broader library of meta-learning algorithms and benchmarks. The library implements MAML, ANIL, Reptile, PEARL, matching networks, prototypical networks, and other standard methods on both few-shot supervised and meta-reinforcement learning benchmarks.
 
-Torchmeta of [Deleu Warde-Farley Sygnowski Bengio 2019][research_deleu_et_al_2019_torchmeta] provides an alternative library focused on few-shot supervised meta-learning with support for standard benchmarks including Omniglot and miniImageNet. The library provides task-generator utilities that abstract away the boilerplate of episode construction.
+Torchmeta of [Deleu et al. 2019][research_deleu_et_al_2019_torchmeta] provides an alternative library focused on few-shot supervised meta-learning with support for standard benchmarks including Omniglot and miniImageNet. The library provides task-generator utilities that abstract away the boilerplate of episode construction.
 
 Garage of [Duan Chen Houthooft Schulman Abbeel 2016 et al][research_duan_et_al_garage] and its successor libraries provide reinforcement-learning-implementations of PEARL, MAML, RL-squared, and related methods. The model enables direct benchmark comparison across meta-reinforcement learning algorithms with consistent evaluation protocols.
 
-Reproducibility of meta-reinforcement learning results has been a persistent challenge. The [Henderson Islam Bachman Pineau Precup Meger 2018][research_henderson_et_al_2018_reproducibility] analysis of reinforcement learning reproducibility documented sizable variation in reported results across random seeds and implementation details, and subsequent analyses have documented similar patterns to meta-reinforcement learning. The [Beck Vuorio Liu Xiong Zintgraf Finn Whiteson 2023][research_beck_et_al_2023_metarl_survey] survey of meta-reinforcement learning provided consolidated reproducibility guidelines that are increasingly adopted in the modern practice.
+Reproducibility of meta-reinforcement learning results has been a persistent challenge. The [Henderson et al. 2018][research_henderson_et_al_2018_reproducibility] analysis of reinforcement learning reproducibility documented sizable variation in reported results across random seeds and implementation details, and subsequent analyses have documented similar patterns to meta-reinforcement learning. The [Beck et al. 2023][research_beck_et_al_2023_metarl_survey] survey of meta-reinforcement learning provided consolidated reproducibility guidelines that are increasingly adopted in the modern practice.
 
 Standardization of benchmark protocols including consistent task distributions, evaluation horizons, and adaptation budgets has become a research priority. Meta-World v2 in particular introduced standardized benchmarking that has improved cross-paper comparability. Ongoing work on Meta-RL reproducibility infrastructure continues to strengthen the empirical foundation of the field.
 
 ## Neuroscience Connections
 
-The prefrontal cortex has been proposed as implementing meta-reinforcement learning in biological brains. The [Wang Kurth-Nelson Tirumala Soyer Leibo Munos Blundell Kumaran Botvinick 2018][research_wang_et_al_2018_prefrontal] framework proposed that the prefrontal cortex functions as a meta-reinforcement learning system in which recurrent activity supports fast adaptation across tasks while slower dopaminergic updates train the recurrent weights themselves. The proposal provides a computational-level explanation for prefrontal cortex behavior across a wide range of experimental paradigms.
+The prefrontal cortex has been proposed as implementing meta-reinforcement learning in biological brains. The [Wang et al. 2018][research_wang_et_al_2018_prefrontal] framework proposed that the prefrontal cortex functions as a meta-reinforcement learning system in which recurrent activity supports fast adaptation across tasks while slower dopaminergic updates train the recurrent weights themselves. The proposal provides a computational-level explanation for prefrontal cortex behavior across a wide range of experimental paradigms.
 
 This formulation predicts that lesions to prefrontal cortex should impair fast adaptation but leave slow reinforcement learning intact. The prediction is broadly consistent with the neuropsychological literature on prefrontal damage, though the specificity of the mapping remains under investigation.
 
-[Botvinick et al 2019][research_botvinick_et_al_2019_meta] provided a broader review of the neuroscience-machine-learning connection, treating meta-reinforcement learning as a instance of the broader principle that the brain implements algorithms shaped by evolutionary and developmental meta-learning across distributions of environmental challenges.
+[Botvinick et al. 2019][research_botvinick_et_al_2019_meta] provided a broader review of the neuroscience-machine-learning connection, treating meta-reinforcement learning as a instance of the broader principle that the brain implements algorithms shaped by evolutionary and developmental meta-learning across distributions of environmental challenges.
 
 Dopamine-based reinforcement signals continue to play their role in the meta-learning framework. Dopamine provides the outer-loop training signal for the meta-learned recurrent computation, while the recurrent computation implements the inner-loop task-policy. The two-timescale structure aligns with dual-system models of prefrontal cortex function.
 
-Human meta-learning behavior in laboratory tasks has been documented at length. Humans exhibit rapid adaptation to novel task structure that is difficult to explain without prior meta-learned knowledge. Behavioral signatures including few-shot generalization, task-inference-driven exploration, and rapid re-adaptation to previously-solved tasks all show correspondence with computational meta-reinforcement learning predictions. [Dasgupta Schulz Chater Gershman 2020][research_dasgupta_schulz_chater_gershman_2020] proposed that human meta-learning behavior in structured environments is well-modeled by resource-rational Bayesian meta-learning, providing a normative framework that connects behavioral signatures to computational-level accounts. Computational-cognitive accounts of task-general learning by [Lake Ullman Tenenbaum Gershman 2017][research_lake_et_al_2017] argued that human-level meta-learning requires structured causal models of the task-generating process rather than purely-statistical adaptation.
+Human meta-learning behavior in laboratory tasks has been documented at length. Humans exhibit rapid adaptation to novel task structure that is difficult to explain without prior meta-learned knowledge. Behavioral signatures including few-shot generalization, task-inference-driven exploration, and rapid re-adaptation to previously-solved tasks all show correspondence with computational meta-reinforcement learning predictions. [Dasgupta et al. 2020][research_dasgupta_schulz_chater_gershman_2020] proposed that human meta-learning behavior in structured environments is well-modeled by resource-rational Bayesian meta-learning, providing a normative framework that connects behavioral signatures to computational-level accounts. Computational-cognitive accounts of task-general learning by [Lake et al. 2016][research_lake_et_al_2017] argued that human-level meta-learning requires structured causal models of the task-generating process rather than purely-statistical adaptation.
 
 Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement learning correspondence in greater detail.
 
@@ -532,143 +532,151 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Duff 2002][book_duff_2002]
-- [Sutton and Barto 2018][book_sutton_barto_2018]
-- [Thrun and Pratt 1998][book_thrun_pratt_1998]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Botvinick, Matthew, Sam Ritter, Jane X. Wang, Zeb Kurth-Nelson, Charles Blundell, and Demis Hassabis. 2019. "Reinforcement Learning, Fast and Slow." *Trends in Cognitive Sciences* 23 (5): 408–22. [https://doi.org/10.1016/j.tics.2019.02.006][research_botvinick_et_al_2019_meta]
+- Hochreiter, Sepp, A. Steven Younger, and Peter R. Conwell. 2001. "Learning to Learn Using Gradient Descent." In *Artificial Neural Networks — ICANN 2001*. Springer Berlin Heidelberg. [https://doi.org/10.1007/3-540-44668-0\_13][research_hochreiter_younger_conwell_2001]
+- Wang, Jane X., Zeb Kurth-Nelson, Dharshan Kumaran, et al. 2018. "Prefrontal Cortex as a Meta-Reinforcement Learning System." *Nature Neuroscience* 21 (6): 860–68. [https://doi.org/10.1038/s41593-018-0147-8][research_wang_et_al_2018_prefrontal]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stanford CS234][ref_stanford_cs234]
+### Primary Sources, Non-Peer-Reviewed
+
+- Adaptive Agent Team, Jakob Bauer, Kate Baumli, et al. 2023. "Human-Timescale Adaptation in an Open-Ended Task Space." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2301.07608][research_bauer_et_al_2023_ada]
+- Al-Shedivat, Maruan, Trapit Bansal, Yura Burda, Ilya Sutskever, Igor Mordatch, and Pieter Abbeel. 2018. "Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=Sk2u1g-0-][research_al_shedivat_et_al_2018]
+- Al-Shedivat, Diaz-Rodriguez, Guo, and Hospedales. 2021. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Al-Shedivat+Diaz-Rodriguez+Guo+2021][research_al_shedivat_et_al_2021_meta_generalization]
+- Amit, Ron, and Ron Meir. 2018. "Meta-Learning by Adjusting Priors Based on Extended PAC-Bayes Theory." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/amit18a.html][research_amit_meir_2018]
+- Andrychowicz, Marcin, Misha Denil, Sergio Gómez, et al. 2016. "Learning to Learn by Gradient Descent by Gradient Descent." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html][research_andrychowicz_et_al_2016]
+- Antoniou, Antreas, Harrison Edwards, and Amos Storkey. 2019. "How to Train Your MAML." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=HJGven05Y7][research_antoniou_edwards_storkey_2019]
+- Arnold, Sébastien M. R., Praateek Mahajan, Debajyoti Datta, Ian Bunner, and Konstantinos Saitas Zarkias. 2020. "learn2learn: A Library for Meta-Learning Research." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2008.12284][research_arnold_et_al_2020_learn2learn]
+- Balcan, Blum, and Sharma. 2018. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Balcan+Blum+Sharma+2018][research_balcan_blum_sharma_2018]
+- Barreto, Andre, Will Dabney, Remi Munos, et al. 2017. "Successor Features for Transfer in Reinforcement Learning." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2017/hash/350db081a661525235354dd3e19b8c05-Abstract.html][research_barreto_et_al_2017]
+- Baxter. 2000. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Baxter+2000][research_baxter_2000]
+- Beck, Jacob, Risto Vuorio, Evan Zheran Liu, et al. 2023. "A Tutorial on Meta-Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2301.08028][research_beck_et_al_2023_metarl_survey]
+- Brohan, Anthony, Noah Brown, Justice Carbajal, et al. 2023. "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2307.15818][research_brohan_et_al_2023_rt2]
+- Brohan, Anthony, Noah Brown, Justice Carbajal, et al. 2022. "RT-1: Robotics Transformer for Real-World Control at Scale." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2212.06817][research_brohan_et_al_2022_rt1]
+- Caccia, Massimo, Pau Rodriguez, Oleksiy Ostapenko, et al. 2020. "Online Fast Adaptation and Knowledge Accumulation (OSAKA): A New Approach to Continual Learning." *Advances in Neural Information Processing Systems* 33: 16532–45. [https://papers.nips.cc/paper/2020/hash/c0a271bc0ecb776a094786474322cb82-Abstract.html][research_caccia_et_al_2020]
+- "Chen Hoffman Colmenarejo Denil Lillicrap de Freitas." 2017. Preprint, . [https://arxiv.org/abs/1611.03824][research_chen_et_al_2017_learned_optimizer]
+- Clavera, Ignasi, Jonas Rothfuss, John Schulman, Yasuhiro Fujita, Tamim Asfour, and Pieter Abbeel. 2018. "Model-Based Reinforcement Learning via Meta-Policy Optimization." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v87/clavera18a.html][research_clavera_et_al_2018]
+- Dasgupta, Schulz, Chater, and Gershman. 2020. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Dasgupta+Schulz+Chater+2020][research_dasgupta_schulz_chater_gershman_2020]
+- Deleu, Tristan, Tobias Würfl, Mandana Samiei, Joseph Paul Cohen, and Yoshua Bengio. 2019. "Torchmeta: A Meta-Learning Library for PyTorch." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1909.06576][research_deleu_et_al_2019_torchmeta]
+- Denevi, Giulia, Carlo Ciliberto, Riccardo Grazzi, and Massimiliano Pontil. 2019. "Learning-to-Learn Stochastic Gradient Descent with Biased Regularization." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/denevi19a.html][research_denevi_et_al_2019]
+- Dorfman, Ron, Idan Shenfeld, and Aviv Tamar. 2021. "Offline Meta Reinforcement Learning -- Identifiability Challenges and Effective Data Collection Strategies." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2021/hash/248024541dbda1d3fd75fe49d1a4df4d-Abstract.html][research_dorfman_shenfeld_tamar_2021]
+- Duan, Yan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, and Pieter Abbeel. 2016. "RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1611.02779][research_duan_et_al_2016_rl2]
+- "Duan et al Garage." n.d. github.com. Accessed October 25, 2026. [https://github.com/rlworkgroup/garage][research_duan_et_al_garage]
+- Fakoor, Rasool, Pratik Chaudhari, Stefano Soatto, and Alexander J. Smola. 2020. "Meta-Q-Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=SJeD3CEFPH][research_fakoor_et_al_2020_mql]
+- Fallah, Alireza, Aryan Mokhtari, and Asuman Ozdaglar. 2020. "On the Convergence Theory of Gradient-Based Model-Agnostic Meta-Learning Algorithms." In *Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics*. [https://proceedings.mlr.press/v108/fallah20a.html][research_fallah_mokhtari_ozdaglar_2020]
+- Finn, Chelsea, Aravind Rajeswaran, Sham Kakade, and Sergey Levine. 2019. "Online Meta-Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/finn19a.html][research_finn_rajeswaran_kakade_levine_2019]
+- Flennerhag, Sebastian, Yannick Schroecker, Tom Zahavy, Hado van Hasselt, David Silver, and Satinder Singh. 2022. "Bootstrapped Meta-Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=b-ny3x071E5][research_flennerhag_et_al_2022]
+- Florensa, Carlos, David Held, Markus Wulfmeier, Michael Zhang, and Pieter Abbeel. 2017. "Reverse Curriculum Generation for Reinforcement Learning." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v78/florensa17a.html][research_florensa_et_al_2018_reverse_curriculum]
+- Grefenstette, Edward, Brandon Amos, Denis Yarats, et al. 2019. "Generalized Inner Loop Meta-Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1910.01727][research_grefenstette_et_al_2019_higher]
+- Ha, David, Andrew M. Dai, and Quoc V. Le. 2017. "HyperNetworks." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=rkpACe1lx][research_ha_dai_le_2016]
+- Hafner, Danijar. 2021. "Benchmarking the Spectrum of Agent Capabilities." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2109.06780][research_hafner_2022_crafter]
+- Henderson, Peter, Riashat Islam, Philip Bachman, Joelle Pineau, Doina Precup, and David Meger. 2018. "Deep Reinforcement Learning That Matters." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11694][research_henderson_et_al_2018_reproducibility]
+- Humplik, Jan, Alexandre Galashov, Leonard Hasenclever, Pedro A. Ortega, Yee Whye Teh, and Nicolas Heess. 2019. "Meta Reinforcement Learning as Task Inference." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1905.06424][research_humplik_et_al_2019]
+- Jerfel, Ghassen, Erin Grant, Thomas L. Griffiths, and Katherine Heller. 2018. "Reconciling Meta-Learning and Continual Learning with Online Mixtures of Tasks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1812.06080][research_jerfel_et_al_2019]
+- Jiang, Minqi, Edward Grefenstette, and Tim Rocktäschel. 2020. "Prioritized Level Replay." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2010.03934][research_jiang_grefenstette_rocktaschel_2020]
+- Khodak, Mikhail, Maria-Florina F. Balcan, and Ameet Talwalkar. 2019. "Adaptive Gradient-Based Meta-Learning Methods." *Advances in Neural Information Processing Systems* 32. [https://papers.nips.cc/paper/2019/hash/f4aa0dd960521e045ae2f20621fb4ee9-Abstract.html][research_khodak_balcan_talwalkar_2019]
+- Kirsch, Louis, James Harrison, Jascha Sohl-Dickstein, and Luke Metz. 2022. "General-Purpose in-Context Learning by Meta-Learning Transformers." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2212.04458][research_kirsch_et_al_2022]
+- Kirsch, Louis, Sjoerd van Steenkiste, and Jürgen Schmidhuber. 2019. "Improving Generalization in Meta Reinforcement Learning Using Learned Objectives." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1910.04098][research_kirsch_sohl_dickstein_metz_2019]
+- Küttler, Heinrich, Nantas Nardelli, Alexander Miller, et al. 2020. "The NetHack Learning Environment." *Advances in Neural Information Processing Systems* 33: 7671–84. [https://papers.nips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html][research_kuttler_et_al_2020_nle]
+- Lake, Brenden M., Tomer D. Ullman, Joshua B. Tenenbaum, and Samuel J. Gershman. 2016. "Building Machines That Learn and Think like People." *Behavioral and Brain Sciences* 40: e253. [https://doi.org/10.1017/s0140525x16001837][research_lake_et_al_2017]
+- Laskin, Michael, Luyu Wang, Junhyuk Oh, et al. 2023. "In-Context Reinforcement Learning with Algorithm Distillation." In *The Eleventh International Conference on Learning Representations*. [https://openreview.net/forum?id=hy0a5MMPUv][research_laskin_et_al_2023]
+- Lee, Jonathan, Annie Xie, Aldo Pacchiano, et al. 2023. "Supervised Pretraining Can Learn in-Context Reinforcement Learning." In *Advances in Neural Information Processing Systems 36*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/075280-1866][research_lee_et_al_2023_supervised_pretraining]
+- Li, Ke, and Jitendra Malik. 2017. "Learning to Optimize." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=ry4Vrt5gl][research_li_malik_2017]
+- Metz, Luke, Niru Maheswaranathan, Brian Cheung, and Jascha Sohl-Dickstein. 2018. "Meta-Learning Update Rules for Unsupervised Representation Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1804.00222][research_metz_et_al_2019]
+- Ni, Tianwei, Benjamin Eysenbach, and Ruslan Salakhutdinov. 2022. "Recurrent Model-Free RL Can Be a Strong Baseline for Many POMDPs." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v162/ni22a.html][research_ni_eysenbach_levine_2022]
+- Nichol, Alex, Joshua Achiam, and John Schulman. 2018. "On First-Order Meta-Learning Algorithms." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1803.02999][research_nichol_achiam_schulman_2018]
+- Open, X-Embodiment, and Collaboration. 2023. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Open+X-Embodiment+Collaboration+2023][research_open_x_embodiment_2023]
+- OpenAI, Ilge Akkaya, Marcin Andrychowicz, et al. 2019. "Solving Rubik's Cube with a Robot Hand." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1910.07113][research_openai_et_al_2019_rubiks]
+- Ortega, Pedro A., Jane X. Wang, Mark Rowland, et al. 2019. "Meta-Learning of Sequential Strategies." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1905.03030][research_ortega_et_al_2019]
+- Parisotto, Emilio, Jimmy Lei Ba, and Ruslan Salakhutdinov. 2015. "Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1511.06342][research_parisotto_ba_salakhutdinov_2016]
+- Peng, Xue Bin, Marcin Andrychowicz, Wojciech Zaremba, and Pieter Abbeel. 2017. "Sim-to-Real Transfer of Robotic Control with Dynamics Randomization." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1710.06537][research_peng_et_al_2018_dynamics_rand]
+- Portelas, Rémy, Cédric Colas, Katja Hofmann, and Pierre-Yves Oudeyer. 2020b. "Teacher Algorithms for Curriculum Learning of Deep RL in Continuously Parameterized Environments." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/portelas20a.html][research_portelas_et_al_2019]
+- Portelas, Rémy, Cédric Colas, Lilian Weng, Katja Hofmann, and Pierre-Yves Oudeyer. 2020a. "Automatic Curriculum Learning for Deep RL: A Short Survey." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2003.04664][research_portelas_et_al_2020_acl_survey]
+- Poupart, Pascal, Nikos Vlassis, Jesse Hoey, and Kevin Regan. 2006. "An Analytic Solution to Discrete Bayesian Reinforcement Learning." In *Proceedings of the 23rd international conference on Machine learning - ICML '06*. ACM Press. [https://doi.org/10.1145/1143844.1143932][research_poupart_et_al_2006]
+- Ravi, Sachin, and Hugo Larochelle. 2017. "Optimization as a Model for Few-Shot Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=rJY0-Kcll][research_ravi_larochelle_2017]
+- Reed, Scott, Konrad Zolna, Emilio Parisotto, et al. 2022. "A Generalist Agent." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2205.06175][research_reed_et_al_2022_gato]
+- Rothfuss, Jonas, Vincent Fortuin, Martin Josifoski, and Andreas Krause. 2021. "PACOH: Bayes-Optimal Meta-Learning with PAC-Guarantees." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v139/rothfuss21a.html][research_rothfuss_et_al_2021_pacoh]
+- Rothfuss, Jonas, Dennis Lee, Ignasi Clavera, Tamim Asfour, and Pieter Abbeel. 2019. "ProMP: Proximal Meta-Policy Search." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=SkxXCi0qFX][research_rothfuss_et_al_2019]
+- Rusu, Andrei A., Neil C. Rabinowitz, Guillaume Desjardins, et al. 2016. "Progressive Neural Networks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1606.04671][research_rusu_et_al_2016_progressive]
+- Samvelyan, Mikayel, Robert Kirk, Vitaly Kurin, et al. 2021. "MiniHack the Planet: A Sandbox for Open-Ended Reinforcement Learning Research." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2109.13202][research_samvelyan_et_al_2021_minihack]
+- Sener, Ozan, and Vladlen Koltun. 2018. "Multi-Task Learning as Multi-Objective Optimization." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/432aca3a1e345e339f35a30c8f65edce-Abstract.html][research_sener_koltun_2018]
+- Snell, Jake, Kevin Swersky, and Richard Zemel. 2017. "Prototypical Networks for Few-Shot Learning." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/cb8da6767461f2812ae4290eac7cbc42-Abstract.html][research_snell_swersky_zemel_2017]
+- Sung, Flood, Yongxin Yang, Li Zhang, Tao Xiang, Philip H. S. Torr, and Timothy M. Hospedales. 2018. "Learning to Compare: Relation Network for Few-Shot Learning." In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition*. [https://openaccess.thecvf.com/content\_cvpr\_2018/html/Sung\_Learning\_to\_Compare\_CVPR\_2018\_paper.html][research_sung_et_al_2018]
+- Sæmundsson, Steindór, Katja Hofmann, and Marc Peter Deisenroth. 2018. "Meta Reinforcement Learning with Latent Variable Gaussian Processes." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1803.07551][research_saemundsson_hofmann_deisenroth_2018]
+- Team. 2021. "XLand." Preprint, . [https://arxiv.org/abs/2107.12808][research_team_et_al_2021_xland]
+- Tobin, Josh, Rachel Fong, Alex Ray, Jonas Schneider, Wojciech Zaremba, and Pieter Abbeel. 2017. "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1703.06907][research_tobin_et_al_2017_dr]
+- Vinyals, Oriol, Charles Blundell, Timothy Lillicrap, koray Kavukcuoglu, and Daan Wierstra. 2016. "Matching Networks for One Shot Learning." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/90e1357833654983612fb05e3ec9148c-Abstract.html][research_vinyals_et_al_2016_matching]
+- Wang, Jane X., Michael King, Nicolas Porcel, et al. 2021. "Alchemy: A Benchmark and Analysis Toolkit for Meta-Reinforcement Learning Agents." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2102.02926][research_wang_et_al_2021_alchemy]
+- Wang, Jane X., Zeb Kurth-Nelson, Dhruva Tirumala, et al. 2016. "Learning to Reinforcement Learn." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1611.05763][research_wang_et_al_2016_l2rl]
+- Wang, Rui, Joel Lehman, Jeff Clune, and Kenneth O. Stanley. 2019. "Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1901.01753][research_wang_et_al_2019_poet]
+- Wichrowska, Olga, Niru Maheswaranathan, Matthew W. Hoffman, et al. 2017. "Learned Optimizers That Scale and Generalize." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/wichrowska17a.html][research_wichrowska_et_al_2017]
+- Xu. 2020. *Meta-A2C*. [https://scholar.google.com/scholar?q=Meta-A2C+Xu+2020][research_xu_et_al_2020_meta_a2c]
+- Yao, Huaxiu, Long-Kai Huang, Linjun Zhang, et al. 2021. "Improving Generalization in Meta-Learning via Task Augmentation." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v139/yao21b.html][research_yao_et_al_2021_task_augmentation]
+- Yu, Tianhe, Deirdre Quillen, Zhanpeng He, et al. 2020. "Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/yu20a.html][research_yu_et_al_2020_metaworld]
+- Yu, Tan, Bai, Xu, and Liu. 2017. *SysID*. [https://scholar.google.com/scholar?q=SysID+Yu+Tan+Bai+2017][research_yu_et_al_2017_sysid]
+- Zahavy, Tom, Zhongwen Xu, Vivek Veeriah, et al. 2020. "A Self-Tuning Actor-Critic Algorithm." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2020/hash/f02208a057804ee16ac72ff4d3cec53b-Abstract.html][research_zahavy_et_al_2020_stac]
+- Zintgraf, Luisa, Kyriacos Shiarlis, Maximilian Igl, et al. 2020. "VariBAD: A Very Good Method for Bayes-Adaptive Deep RL via Meta-Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=Hkl9JlBYvr][research_zintgraf_et_al_2020_varibad]
+
+### Secondary Sources
+
+- Duff. 2002. *\[Title not identified\]*. [https://www.cs.umass.edu/~mduff/duff\_diss.pdf][book_duff_2002]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+- Thrun, Sebastian, and Lorien Pratt, eds. 1998. *Learning to Learn*. Springer US. [https://doi.org/10.1007/978-1-4615-5529-2][book_thrun_pratt_1998]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- Bengio, Bengio, and Cloutier. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://scholar.google.com/scholar?q=bengio+bengio+cloutier+1990+synaptic+update][research_bengio_bengio_cloutier_1990]
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- Dennis, Jaques, Hughes, et al. 2020. "PAIRED." [https://papers.nips.cc/paper/2020/hash/985e9a46e10005356bbaf194249f6856-Abstract.html][research_dennis_et_al_2020_paired]
+- Finn Abbeel Levine. 2017. "MAML." [https://proceedings.mlr.press/v70/finn17a.html][research_finn_abbeel_levine_2017]
+- Grant Finn Levine Darrell Griffiths. 2018. "Bayesian MAML." [https://openreview.net/forum?id=BJ\_UL-k0b][research_grant_finn_levine_darrell_griffiths_2018]
+- Guez Silver Dayan. 2013. "BAMCP." [https://jmlr.org/papers/v15/guez14a.html][research_guez_silver_dayan_2013]
+- Hospedales, Antoniou, Micaelli, and Storkey. 2022. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/9428530][research_hospedales_et_al_2022]
+- Koch Zemel Salakhutdinov. 2015. "Siamese." [https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf][research_koch_zemel_salakhutdinov_2015]
+- Mishra, Rohaninejad, Chen, and Abbeel. 2018. "SNAIL." [https://openreview.net/forum?id=B1DmUzWAW][research_mishra_et_al_2018_snail]
+- Nagabandi, Clavera, Liu, et al. 2018. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=HyztsoC5Y7][research_nagabandi_et_al_2018_meta_online]
+- Nagabandi Finn Levine. 2018. "Learn to Adapt." [https://openreview.net/forum?id=HyztsoC5Y7v2][research_nagabandi_finn_levine_2018_learn_to_adapt]
+- Nagabandi Finn Levine. 2019. "MOLe." [https://openreview.net/forum?id=HyxAfnA5tm][research_nagabandi_finn_levine_2019_mole]
+- Naik and Mammone. 1992. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/287172][research_naik_mammone_1992]
+- Oh, Guo, Warde-Farley, Wayne, Ostrovski, and Silver. 2020. "\[Title not identified\]." Accessed October 25, 2026. [https://papers.nips.cc/paper/2020/hash/0abdc563a06105aee3c6136871c9f4d1-Abstract.html][research_oh_et_al_2020]
+- Raghu Raghu Bengio Vinyals. 2020. "ANIL." [https://openreview.net/forum?id=rkgMkCEtPB][research_raghu_raghu_bengio_vinyals_2020]
+- Rajeswaran Finn Kakade Levine. 2019. "iMAML." [https://papers.nips.cc/paper/2019/hash/072b030ba126b2f4b2374f342be9ed44-Abstract.html][research_rajeswaran_et_al_2019_imaml]
+- Rakelly Zhou Quillen Finn Levine. 2019. "PEARL." [https://proceedings.mlr.press/v97/rakelly19a.html][research_rakelly_et_al_2019_pearl]
+- Rusu Rao Sygnowski Vinyals Pascanu Osindero Hadsell. 2019. "LEO." [https://openreview.net/forum?id=BJgklhAcK7][research_rusu_et_al_2019_leo]
+- Schmidhuber. 1987. "\[Title not identified\]." Accessed October 25, 2026. [https://people.idsia.ch/~juergen/diploma.html][research_schmidhuber_1987_metalearning]
+- Schmidhuber, Zhao, and Wiering. 1996. "\[Title not identified\]." Accessed October 25, 2026. [https://link.springer.com/article/10.1023/A:1018909723456][research_schmidhuber_zhao_wiering_1996]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- Teh Bapst Czarnecki Quan Kirkpatrick Hadsell de Freitas Heess. 2017. "Distral." [https://papers.nips.cc/paper/2017/hash/0abdc563a06105aee3c6136871c9f4d1-Abstract.html][research_teh_et_al_2017]
+- Vilalta and Drazdil. 2002. "\[Title not identified\]." Accessed October 25, 2026. [https://link.springer.com/article/10.1023/A:1019956318069][research_vilalta_drazdil_2002]
+- Xu van Hasselt Silver. 2018. "Meta-Gradient RL." [https://papers.nips.cc/paper/2018/hash/2715518c875999308842e3455eda2fe3-Abstract.html][research_xu_van_hasselt_silver_2018]
+- Yin Tucker Zhou Levine Finn. 2020. "Memorization." [https://openreview.net/forum?id=BklEFpEYwS][research_yin_et_al_2020_memorization]
+- Yu Kumar Gupta Hausman Levine Finn. 2020. "PCGrad." [https://papers.nips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html][research_yu_et_al_2020_pcgrad]
+- Zheng. 2020. "Learning Reward." [https://papers.nips.cc/paper/2020/hash/e8fd4a8a5bab2b3785d794ab51fef55c-Abstract.html][research_zheng_et_al_2020_learning_reward]
+- Zheng Oh Singh. 2018. "LIRPG." [https://papers.nips.cc/paper/2018/hash/51de85ddd068f0bc787691d356176df9-Abstract.html][research_zheng_oh_singh_2018_lirpg]
+- Zintgraf Feng Igl Whiteson. 2021. "HyperX." [https://proceedings.mlr.press/v139/zintgraf21a.html][research_zintgraf_et_al_2021_hyperx]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
-- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
-- [A252 Machines That Learn From Experience Reinforcement Learning Foundations][related_post_a252_rl_foundations]
-- [A253 Machines That Learn From Experience Deep Reinforcement Learning][related_post_a253_deep_rl]
-- [A254 Machines That Learn From Experience Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]
-- [A255 Machines That Learn From Experience Hierarchical Reinforcement Learning][related_post_a255_hierarchical]
-- [A256 Machines That Learn From Experience World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]
-- [A257 Machines That Learn From Experience Offline and Batch Reinforcement Learning][related_post_a257_offline]
-
-### Research
-
-- [Akkaya et al 2019 Rubik's Cube][research_openai_et_al_2019_rubiks]
-- [Al-Shedivat Bansal Burda Sutskever Mordatch Abbeel 2018][research_al_shedivat_et_al_2018]
-- [Al-Shedivat Diaz-Rodriguez Guo Hospedales 2021][research_al_shedivat_et_al_2021_meta_generalization]
-- [Amit and Meir 2018][research_amit_meir_2018]
-- [Andrychowicz et al 2016][research_andrychowicz_et_al_2016]
-- [Antoniou Edwards Storkey 2019][research_antoniou_edwards_storkey_2019]
-- [Arnold et al 2020 learn2learn][research_arnold_et_al_2020_learn2learn]
-- [Balcan Blum Sharma 2018][research_balcan_blum_sharma_2018]
-- [Barreto et al 2017 Successor Features][research_barreto_et_al_2017]
-- [Bauer et al 2023 Adaptive Agent][research_bauer_et_al_2023_ada]
-- [Baxter 2000][research_baxter_2000]
-- [Beck Vuorio Liu Xiong Zintgraf Finn Whiteson 2023 Meta-RL Survey][research_beck_et_al_2023_metarl_survey]
-- [Bengio Bengio Cloutier 1990][research_bengio_bengio_cloutier_1990]
-- [Botvinick et al 2019][research_botvinick_et_al_2019_meta]
-- [Brohan et al 2022 RT-1][research_brohan_et_al_2022_rt1]
-- [Brohan et al 2023 RT-2][research_brohan_et_al_2023_rt2]
-- [Caccia et al 2020 OSAKA][research_caccia_et_al_2020]
-- [Chen Hoffman Colmenarejo Denil Lillicrap de Freitas 2017][research_chen_et_al_2017_learned_optimizer]
-- [Clavera Rothfuss Schulman Fujita Asfour Abbeel 2018][research_clavera_et_al_2018]
-- [Dasgupta Schulz Chater Gershman 2020][research_dasgupta_schulz_chater_gershman_2020]
-- [Deleu et al 2019 Torchmeta][research_deleu_et_al_2019_torchmeta]
-- [Denevi Ciliberto Grazzi Pontil 2019][research_denevi_et_al_2019]
-- [Dennis et al 2020 PAIRED][research_dennis_et_al_2020_paired]
-- [Dorfman Shenfeld Tamar 2021][research_dorfman_shenfeld_tamar_2021]
-- [Duan Schulman Chen Bartlett Sutskever Abbeel 2016 RL2][research_duan_et_al_2016_rl2]
-- [Duan et al Garage][research_duan_et_al_garage]
-- [Fakoor Chaudhari Soatto Smola 2020][research_fakoor_et_al_2020_mql]
-- [Fallah Mokhtari Ozdaglar 2020][research_fallah_mokhtari_ozdaglar_2020]
-- [Finn Abbeel Levine 2017 MAML][research_finn_abbeel_levine_2017]
-- [Finn Rajeswaran Kakade Levine 2019 Online Meta-Learning][research_finn_rajeswaran_kakade_levine_2019]
-- [Flennerhag et al 2022 Bootstrapped Meta-Learning][research_flennerhag_et_al_2022]
-- [Florensa et al 2018 Reverse Curriculum][research_florensa_et_al_2018_reverse_curriculum]
-- [Grant Finn Levine Darrell Griffiths 2018 Bayesian MAML][research_grant_finn_levine_darrell_griffiths_2018]
-- [Grefenstette et al 2019 higher][research_grefenstette_et_al_2019_higher]
-- [Guez Silver Dayan 2013 BAMCP][research_guez_silver_dayan_2013]
-- [Ha Dai Le 2016 HyperNetworks][research_ha_dai_le_2016]
-- [Hafner 2022 Crafter][research_hafner_2022_crafter]
-- [Henderson et al 2018 Reproducibility][research_henderson_et_al_2018_reproducibility]
-- [Hochreiter Younger Conwell 2001][research_hochreiter_younger_conwell_2001]
-- [Hospedales Antoniou Micaelli Storkey 2022][research_hospedales_et_al_2022]
-- [Humplik Igl Duan et al 2019][research_humplik_et_al_2019]
-- [Jerfel Grant Griffiths Heller 2019][research_jerfel_et_al_2019]
-- [Jiang Grefenstette Rocktäschel 2020 PLR][research_jiang_grefenstette_rocktaschel_2020]
-- [Khodak Balcan Talwalkar 2019][research_khodak_balcan_talwalkar_2019]
-- [Kirsch Harrison Sohl-Dickstein Metz 2022][research_kirsch_et_al_2022]
-- [Kirsch Sohl-Dickstein Metz 2019 MetaGenRL][research_kirsch_sohl_dickstein_metz_2019]
-- [Koch Zemel Salakhutdinov 2015 Siamese][research_koch_zemel_salakhutdinov_2015]
-- [Küttler et al 2020 NLE][research_kuttler_et_al_2020_nle]
-- [Lake Ullman Tenenbaum Gershman 2017][research_lake_et_al_2017]
-- [Laskin et al 2023 Algorithm Distillation][research_laskin_et_al_2023]
-- [Lee et al 2023 Supervised Pretraining][research_lee_et_al_2023_supervised_pretraining]
-- [Li and Malik 2017][research_li_malik_2017]
-- [Metz Maheswaranathan Cheung Sohl-Dickstein 2019][research_metz_et_al_2019]
-- [Mishra et al 2018 SNAIL][research_mishra_et_al_2018_snail]
-- [Nagabandi Clavera Liu Fearing Abbeel Levine Finn 2018][research_nagabandi_et_al_2018_meta_online]
-- [Nagabandi Finn Levine 2018 Learn to Adapt][research_nagabandi_finn_levine_2018_learn_to_adapt]
-- [Nagabandi Finn Levine 2019 MOLe][research_nagabandi_finn_levine_2019_mole]
-- [Naik and Mammone 1992][research_naik_mammone_1992]
-- [Ni Eysenbach Levine 2022][research_ni_eysenbach_levine_2022]
-- [Nichol Achiam Schulman 2018 Reptile][research_nichol_achiam_schulman_2018]
-- [Oh Guo Warde-Farley Wayne Ostrovski Silver 2020][research_oh_et_al_2020]
-- [Open X-Embodiment Collaboration 2023][research_open_x_embodiment_2023]
-- [Ortega Wang Rowland Genewein Hutter et al 2019][research_ortega_et_al_2019]
-- [Parisotto Ba Salakhutdinov 2016 Actor-Mimic][research_parisotto_ba_salakhutdinov_2016]
-- [Peng Andrychowicz Zaremba Abbeel 2018 Dynamics Randomization][research_peng_et_al_2018_dynamics_rand]
-- [Portelas Colas Hofmann Oudeyer 2019 Teacher-Student][research_portelas_et_al_2019]
-- [Portelas Romac Hofmann Oudeyer 2020 ACL Survey][research_portelas_et_al_2020_acl_survey]
-- [Poupart Vlassis Hoey Regan 2006][research_poupart_et_al_2006]
-- [Raghu Raghu Bengio Vinyals 2020 ANIL][research_raghu_raghu_bengio_vinyals_2020]
-- [Rajeswaran Finn Kakade Levine 2019 iMAML][research_rajeswaran_et_al_2019_imaml]
-- [Rakelly Zhou Quillen Finn Levine 2019 PEARL][research_rakelly_et_al_2019_pearl]
-- [Ravi and Larochelle 2017][research_ravi_larochelle_2017]
-- [Reed et al 2022 Gato][research_reed_et_al_2022_gato]
-- [Rothfuss Fortuin Josifoski Krause 2021 PACOH][research_rothfuss_et_al_2021_pacoh]
-- [Rothfuss Lee Clavera Asfour Abbeel 2019 ProMP][research_rothfuss_et_al_2019]
-- [Rusu Rabinowitz Desjardins Soyer Kirkpatrick Kavukcuoglu Pascanu Hadsell 2016 Progressive Networks][research_rusu_et_al_2016_progressive]
-- [Rusu Rao Sygnowski Vinyals Pascanu Osindero Hadsell 2019 LEO][research_rusu_et_al_2019_leo]
-- [Sæmundsson Hofmann Deisenroth 2018][research_saemundsson_hofmann_deisenroth_2018]
-- [Samvelyan et al 2021 MiniHack][research_samvelyan_et_al_2021_minihack]
-- [Schmidhuber 1987][research_schmidhuber_1987_metalearning]
-- [Schmidhuber Zhao Wiering 1996][research_schmidhuber_zhao_wiering_1996]
-- [Sener and Koltun 2018][research_sener_koltun_2018]
-- [Snell Swersky Zemel 2017 Prototypical Networks][research_snell_swersky_zemel_2017]
-- [Sung Yang Zhang Xiang Torr Hospedales 2018 Relation Networks][research_sung_et_al_2018]
-- [Team et al 2021 XLand][research_team_et_al_2021_xland]
-- [Teh Bapst Czarnecki Quan Kirkpatrick Hadsell de Freitas Heess 2017 Distral][research_teh_et_al_2017]
-- [Tobin et al 2017 Domain Randomization][research_tobin_et_al_2017_dr]
-- [Vilalta and Drazdil 2002][research_vilalta_drazdil_2002]
-- [Vinyals et al 2016 Matching Networks][research_vinyals_et_al_2016_matching]
-- [Wang et al 2016 Learning to Reinforcement Learn][research_wang_et_al_2016_l2rl]
-- [Wang et al 2018 Prefrontal Meta-RL][research_wang_et_al_2018_prefrontal]
-- [Wang et al 2019 POET][research_wang_et_al_2019_poet]
-- [Wang et al 2021 Alchemy][research_wang_et_al_2021_alchemy]
-- [Wichrowska et al 2017 Learned Optimizers][research_wichrowska_et_al_2017]
-- [Xu et al 2020 Meta-A2C][research_xu_et_al_2020_meta_a2c]
-- [Xu van Hasselt Silver 2018 Meta-Gradient RL][research_xu_van_hasselt_silver_2018]
-- [Yao et al 2021 Task Augmentation][research_yao_et_al_2021_task_augmentation]
-- [Yin Tucker Zhou Levine Finn 2020 Memorization][research_yin_et_al_2020_memorization]
-- [Yu Kumar Gupta Hausman Levine Finn 2020 PCGrad][research_yu_et_al_2020_pcgrad]
-- [Yu Quillen He Julian Hausman Finn Levine 2020 Meta-World][research_yu_et_al_2020_metaworld]
-- [Yu Tan Bai Xu Liu 2017 SysID][research_yu_et_al_2017_sysid]
-- [Zahavy et al 2020 STAC][research_zahavy_et_al_2020_stac]
-- [Zheng et al 2020 Learning Reward][research_zheng_et_al_2020_learning_reward]
-- [Zheng Oh Singh 2018 LIRPG][research_zheng_oh_singh_2018_lirpg]
-- [Zintgraf Feng Igl Whiteson 2021 HyperX][research_zintgraf_et_al_2021_hyperx]
-- [Zintgraf Shiarlis Igl Schulze Gal Hofmann Whiteson 2020 VariBAD][research_zintgraf_et_al_2020_varibad]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Bandits and Online Learning." *Brendan A R Sechter's Development Blog*, December 19. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/19/machines\_that\_learn\_from\_experience\_bandits\_and\_online\_learning.html][related_post_a251_bandits]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Reinforcement Learning Foundations." *Brendan A R Sechter's Development Blog*, December 20. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/20/machines\_that\_learn\_from\_experience\_reinforcement\_learning\_foundations.html][related_post_a252_rl_foundations]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Deep Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 21. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/21/machines\_that\_learn\_from\_experience\_deep\_reinforcement\_learning.html][related_post_a253_deep_rl]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Exploration, Intrinsic Motivation, and Curiosity." *Brendan A R Sechter's Development Blog*, December 22. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/22/machines\_that\_learn\_from\_experience\_exploration\_intrinsic\_motivation\_and\_curiosity.html][related_post_a254_exploration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Hierarchical Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 23. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/23/machines\_that\_learn\_from\_experience\_hierarchical\_reinforcement\_learning.html][related_post_a255_hierarchical]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: World Models and Predictive, Model-Based Adaptation." *Brendan A R Sechter's Development Blog*, December 24. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/24/machines\_that\_learn\_from\_experience\_world\_models\_and\_predictive\_model\_based\_adaptation.html][related_post_a256_world_models]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Offline and Batch Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 25. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/25/machines\_that\_learn\_from\_experience\_offline\_and\_batch\_reinforcement\_learning.html][related_post_a257_offline]
 
 [book_duff_2002]: https://www.cs.umass.edu/~mduff/duff_diss.pdf
 [book_sutton_barto_2018]: http://incompleteideas.net/book/the-book-2nd.html
-[book_thrun_pratt_1998]: https://link.springer.com/book/10.1007/978-1-4615-5529-2
+[book_thrun_pratt_1998]: https://doi.org/10.1007/978-1-4615-5529-2
 [ref_berkeley_cs285]: https://rail.eecs.berkeley.edu/deeprlcourse/
 [ref_deepmind_ucl_rl]: https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021
 [ref_openai_spinning_up]: https://spinningup.openai.com/
@@ -683,29 +691,29 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 [related_post_a256_world_models]: {% post_url 2025-12-24-machines_that_learn_from_experience_world_models_and_predictive_model_based_adaptation %}
 [related_post_a257_offline]: {% post_url 2025-12-25-machines_that_learn_from_experience_offline_and_batch_reinforcement_learning %}
 [research_al_shedivat_et_al_2018]: https://openreview.net/forum?id=Sk2u1g-0-
-[research_al_shedivat_et_al_2021_meta_generalization]: https://arxiv.org/abs/2106.15884
+[research_al_shedivat_et_al_2021_meta_generalization]: https://scholar.google.com/scholar?q=Al-Shedivat+Diaz-Rodriguez+Guo+2021
 [research_amit_meir_2018]: https://proceedings.mlr.press/v80/amit18a.html
 [research_andrychowicz_et_al_2016]: https://papers.nips.cc/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html
 [research_antoniou_edwards_storkey_2019]: https://openreview.net/forum?id=HJGven05Y7
-[research_arnold_et_al_2020_learn2learn]: https://arxiv.org/abs/2008.12284
-[research_balcan_blum_sharma_2018]: https://arxiv.org/abs/1802.02219
-[research_barreto_et_al_2017]: https://papers.nips.cc/paper/2017/hash/350db081a661525235354dd3e19b8c05-Abstract.html
-[research_bauer_et_al_2023_ada]: https://arxiv.org/abs/2301.07608
-[research_baxter_2000]: https://www.jair.org/index.php/jair/article/view/10248
-[research_beck_et_al_2023_metarl_survey]: https://arxiv.org/abs/2301.08028
+[research_arnold_et_al_2020_learn2learn]: https://doi.org/10.48550/arxiv.2008.12284
+[research_balcan_blum_sharma_2018]: https://scholar.google.com/scholar?q=Balcan+Blum+Sharma+2018
+[research_barreto_et_al_2017]: https://papers.nips.cc/paper_files/paper/2017/hash/350db081a661525235354dd3e19b8c05-Abstract.html
+[research_bauer_et_al_2023_ada]: https://doi.org/10.48550/arxiv.2301.07608
+[research_baxter_2000]: https://scholar.google.com/scholar?q=Baxter+2000
+[research_beck_et_al_2023_metarl_survey]: https://doi.org/10.48550/arxiv.2301.08028
 [research_bengio_bengio_cloutier_1990]: https://scholar.google.com/scholar?q=bengio+bengio+cloutier+1990+synaptic+update
-[research_botvinick_et_al_2019_meta]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30061-0
-[research_brohan_et_al_2022_rt1]: https://arxiv.org/abs/2212.06817
-[research_brohan_et_al_2023_rt2]: https://arxiv.org/abs/2307.15818
+[research_botvinick_et_al_2019_meta]: https://doi.org/10.1016/j.tics.2019.02.006
+[research_brohan_et_al_2022_rt1]: https://doi.org/10.48550/arxiv.2212.06817
+[research_brohan_et_al_2023_rt2]: https://doi.org/10.48550/arxiv.2307.15818
 [research_caccia_et_al_2020]: https://papers.nips.cc/paper/2020/hash/c0a271bc0ecb776a094786474322cb82-Abstract.html
 [research_chen_et_al_2017_learned_optimizer]: https://arxiv.org/abs/1611.03824
 [research_clavera_et_al_2018]: https://proceedings.mlr.press/v87/clavera18a.html
-[research_dasgupta_schulz_chater_gershman_2020]: https://www.sciencedirect.com/science/article/pii/S0010027720301980
-[research_deleu_et_al_2019_torchmeta]: https://arxiv.org/abs/1909.06576
+[research_dasgupta_schulz_chater_gershman_2020]: https://scholar.google.com/scholar?q=Dasgupta+Schulz+Chater+2020
+[research_deleu_et_al_2019_torchmeta]: https://doi.org/10.48550/arxiv.1909.06576
 [research_denevi_et_al_2019]: https://proceedings.mlr.press/v97/denevi19a.html
 [research_dennis_et_al_2020_paired]: https://papers.nips.cc/paper/2020/hash/985e9a46e10005356bbaf194249f6856-Abstract.html
-[research_dorfman_shenfeld_tamar_2021]: https://papers.nips.cc/paper/2021/hash/9c2b23e70f47f1eecf20ac2b9a97b8f8-Abstract.html
-[research_duan_et_al_2016_rl2]: https://arxiv.org/abs/1611.02779
+[research_dorfman_shenfeld_tamar_2021]: https://papers.nips.cc/paper_files/paper/2021/hash/248024541dbda1d3fd75fe49d1a4df4d-Abstract.html
+[research_duan_et_al_2016_rl2]: https://doi.org/10.48550/arxiv.1611.02779
 [research_duan_et_al_garage]: https://github.com/rlworkgroup/garage
 [research_fakoor_et_al_2020_mql]: https://openreview.net/forum?id=SJeD3CEFPH
 [research_fallah_mokhtari_ozdaglar_2020]: https://proceedings.mlr.press/v108/fallah20a.html
@@ -714,53 +722,53 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 [research_flennerhag_et_al_2022]: https://openreview.net/forum?id=b-ny3x071E5
 [research_florensa_et_al_2018_reverse_curriculum]: https://proceedings.mlr.press/v78/florensa17a.html
 [research_grant_finn_levine_darrell_griffiths_2018]: https://openreview.net/forum?id=BJ_UL-k0b
-[research_grefenstette_et_al_2019_higher]: https://arxiv.org/abs/1910.01727
+[research_grefenstette_et_al_2019_higher]: https://doi.org/10.48550/arxiv.1910.01727
 [research_guez_silver_dayan_2013]: https://jmlr.org/papers/v15/guez14a.html
 [research_ha_dai_le_2016]: https://openreview.net/forum?id=rkpACe1lx
-[research_hafner_2022_crafter]: https://arxiv.org/abs/2109.06780
-[research_henderson_et_al_2018_reproducibility]: https://ojs.aaai.org/index.php/AAAI/article/view/11694
-[research_hochreiter_younger_conwell_2001]: https://link.springer.com/chapter/10.1007/3-540-44668-0_13
+[research_hafner_2022_crafter]: https://doi.org/10.48550/arxiv.2109.06780
+[research_henderson_et_al_2018_reproducibility]: https://doi.org/10.1609/aaai.v32i1.11694
+[research_hochreiter_younger_conwell_2001]: https://doi.org/10.1007/3-540-44668-0_13
 [research_hospedales_et_al_2022]: https://ieeexplore.ieee.org/document/9428530
-[research_humplik_et_al_2019]: https://arxiv.org/abs/1905.06424
-[research_jerfel_et_al_2019]: https://papers.nips.cc/paper/2019/hash/e4da3b7fbbce2345d7772b0674a318d5-Abstract.html
-[research_jiang_grefenstette_rocktaschel_2020]: https://arxiv.org/abs/2010.03934
+[research_humplik_et_al_2019]: https://doi.org/10.48550/arxiv.1905.06424
+[research_jerfel_et_al_2019]: https://doi.org/10.48550/arxiv.1812.06080
+[research_jiang_grefenstette_rocktaschel_2020]: https://doi.org/10.48550/arxiv.2010.03934
 [research_khodak_balcan_talwalkar_2019]: https://papers.nips.cc/paper/2019/hash/f4aa0dd960521e045ae2f20621fb4ee9-Abstract.html
-[research_kirsch_et_al_2022]: https://arxiv.org/abs/2212.04475
-[research_kirsch_sohl_dickstein_metz_2019]: https://arxiv.org/abs/1910.04098
+[research_kirsch_et_al_2022]: https://doi.org/10.48550/arxiv.2212.04458
+[research_kirsch_sohl_dickstein_metz_2019]: https://doi.org/10.48550/arxiv.1910.04098
 [research_koch_zemel_salakhutdinov_2015]: https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf
 [research_kuttler_et_al_2020_nle]: https://papers.nips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html
-[research_lake_et_al_2017]: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/building-machines-that-learn-and-think-like-people/A9535B1D745A0377E16C590E14B94993
+[research_lake_et_al_2017]: https://doi.org/10.1017/s0140525x16001837
 [research_laskin_et_al_2023]: https://openreview.net/forum?id=hy0a5MMPUv
-[research_lee_et_al_2023_supervised_pretraining]: https://openreview.net/forum?id=vsSp4Ts_KRi
+[research_lee_et_al_2023_supervised_pretraining]: https://doi.org/10.52202/075280-1866
 [research_li_malik_2017]: https://openreview.net/forum?id=ry4Vrt5gl
-[research_metz_et_al_2019]: https://openreview.net/forum?id=SylO2yStDr
+[research_metz_et_al_2019]: https://doi.org/10.48550/arxiv.1804.00222
 [research_mishra_et_al_2018_snail]: https://openreview.net/forum?id=B1DmUzWAW
 [research_nagabandi_et_al_2018_meta_online]: https://openreview.net/forum?id=HyztsoC5Y7
 [research_nagabandi_finn_levine_2018_learn_to_adapt]: https://openreview.net/forum?id=HyztsoC5Y7v2
 [research_nagabandi_finn_levine_2019_mole]: https://openreview.net/forum?id=HyxAfnA5tm
 [research_naik_mammone_1992]: https://ieeexplore.ieee.org/document/287172
 [research_ni_eysenbach_levine_2022]: https://proceedings.mlr.press/v162/ni22a.html
-[research_nichol_achiam_schulman_2018]: https://arxiv.org/abs/1803.02999
+[research_nichol_achiam_schulman_2018]: https://doi.org/10.48550/arxiv.1803.02999
 [research_oh_et_al_2020]: https://papers.nips.cc/paper/2020/hash/0abdc563a06105aee3c6136871c9f4d1-Abstract.html
-[research_open_x_embodiment_2023]: https://arxiv.org/abs/2310.08864
-[research_openai_et_al_2019_rubiks]: https://arxiv.org/abs/1910.07113
-[research_ortega_et_al_2019]: https://arxiv.org/abs/1905.03030
-[research_parisotto_ba_salakhutdinov_2016]: https://arxiv.org/abs/1511.06342
-[research_peng_et_al_2018_dynamics_rand]: https://arxiv.org/abs/1710.06537
+[research_open_x_embodiment_2023]: https://scholar.google.com/scholar?q=Open+X-Embodiment+Collaboration+2023
+[research_openai_et_al_2019_rubiks]: https://doi.org/10.48550/arxiv.1910.07113
+[research_ortega_et_al_2019]: https://doi.org/10.48550/arxiv.1905.03030
+[research_parisotto_ba_salakhutdinov_2016]: https://doi.org/10.48550/arxiv.1511.06342
+[research_peng_et_al_2018_dynamics_rand]: https://doi.org/10.48550/arxiv.1710.06537
 [research_portelas_et_al_2019]: https://proceedings.mlr.press/v100/portelas20a.html
-[research_portelas_et_al_2020_acl_survey]: https://arxiv.org/abs/2003.04664
-[research_poupart_et_al_2006]: https://dl.acm.org/doi/10.1145/1143844.1143932
+[research_portelas_et_al_2020_acl_survey]: https://doi.org/10.48550/arxiv.2003.04664
+[research_poupart_et_al_2006]: https://doi.org/10.1145/1143844.1143932
 [research_raghu_raghu_bengio_vinyals_2020]: https://openreview.net/forum?id=rkgMkCEtPB
 [research_rajeswaran_et_al_2019_imaml]: https://papers.nips.cc/paper/2019/hash/072b030ba126b2f4b2374f342be9ed44-Abstract.html
 [research_rakelly_et_al_2019_pearl]: https://proceedings.mlr.press/v97/rakelly19a.html
 [research_ravi_larochelle_2017]: https://openreview.net/forum?id=rJY0-Kcll
-[research_reed_et_al_2022_gato]: https://arxiv.org/abs/2205.06175
+[research_reed_et_al_2022_gato]: https://doi.org/10.48550/arxiv.2205.06175
 [research_rothfuss_et_al_2019]: https://openreview.net/forum?id=SkxXCi0qFX
 [research_rothfuss_et_al_2021_pacoh]: https://proceedings.mlr.press/v139/rothfuss21a.html
-[research_rusu_et_al_2016_progressive]: https://arxiv.org/abs/1606.04671
+[research_rusu_et_al_2016_progressive]: https://doi.org/10.48550/arxiv.1606.04671
 [research_rusu_et_al_2019_leo]: https://openreview.net/forum?id=BJgklhAcK7
-[research_saemundsson_hofmann_deisenroth_2018]: https://arxiv.org/abs/1803.07551
-[research_samvelyan_et_al_2021_minihack]: https://arxiv.org/abs/2109.13202
+[research_saemundsson_hofmann_deisenroth_2018]: https://doi.org/10.48550/arxiv.1803.07551
+[research_samvelyan_et_al_2021_minihack]: https://doi.org/10.48550/arxiv.2109.13202
 [research_schmidhuber_1987_metalearning]: https://people.idsia.ch/~juergen/diploma.html
 [research_schmidhuber_zhao_wiering_1996]: https://link.springer.com/article/10.1023/A:1018909723456
 [research_sener_koltun_2018]: https://papers.nips.cc/paper/2018/hash/432aca3a1e345e339f35a30c8f65edce-Abstract.html
@@ -768,22 +776,22 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 [research_sung_et_al_2018]: https://openaccess.thecvf.com/content_cvpr_2018/html/Sung_Learning_to_Compare_CVPR_2018_paper.html
 [research_team_et_al_2021_xland]: https://arxiv.org/abs/2107.12808
 [research_teh_et_al_2017]: https://papers.nips.cc/paper/2017/hash/0abdc563a06105aee3c6136871c9f4d1-Abstract.html
-[research_tobin_et_al_2017_dr]: https://arxiv.org/abs/1703.06907
+[research_tobin_et_al_2017_dr]: https://doi.org/10.48550/arxiv.1703.06907
 [research_vilalta_drazdil_2002]: https://link.springer.com/article/10.1023/A:1019956318069
 [research_vinyals_et_al_2016_matching]: https://papers.nips.cc/paper/2016/hash/90e1357833654983612fb05e3ec9148c-Abstract.html
-[research_wang_et_al_2016_l2rl]: https://arxiv.org/abs/1611.05763
-[research_wang_et_al_2018_prefrontal]: https://www.nature.com/articles/s41593-018-0147-8
-[research_wang_et_al_2019_poet]: https://arxiv.org/abs/1901.01753
-[research_wang_et_al_2021_alchemy]: https://arxiv.org/abs/2102.02926
+[research_wang_et_al_2016_l2rl]: https://doi.org/10.48550/arxiv.1611.05763
+[research_wang_et_al_2018_prefrontal]: https://doi.org/10.1038/s41593-018-0147-8
+[research_wang_et_al_2019_poet]: https://doi.org/10.48550/arxiv.1901.01753
+[research_wang_et_al_2021_alchemy]: https://doi.org/10.48550/arxiv.2102.02926
 [research_wichrowska_et_al_2017]: https://proceedings.mlr.press/v70/wichrowska17a.html
-[research_xu_et_al_2020_meta_a2c]: https://arxiv.org/abs/2007.08794
+[research_xu_et_al_2020_meta_a2c]: https://scholar.google.com/scholar?q=Meta-A2C+Xu+2020
 [research_xu_van_hasselt_silver_2018]: https://papers.nips.cc/paper/2018/hash/2715518c875999308842e3455eda2fe3-Abstract.html
 [research_yao_et_al_2021_task_augmentation]: https://proceedings.mlr.press/v139/yao21b.html
 [research_yin_et_al_2020_memorization]: https://openreview.net/forum?id=BklEFpEYwS
-[research_yu_et_al_2017_sysid]: https://arxiv.org/abs/1710.06537
+[research_yu_et_al_2017_sysid]: https://scholar.google.com/scholar?q=SysID+Yu+Tan+Bai+2017
 [research_yu_et_al_2020_metaworld]: https://proceedings.mlr.press/v100/yu20a.html
 [research_yu_et_al_2020_pcgrad]: https://papers.nips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html
-[research_zahavy_et_al_2020_stac]: https://papers.nips.cc/paper/2020/hash/5cf21ce30208cfffaa832c6e44bb567d-Abstract.html
+[research_zahavy_et_al_2020_stac]: https://papers.nips.cc/paper_files/paper/2020/hash/f02208a057804ee16ac72ff4d3cec53b-Abstract.html
 [research_zheng_et_al_2020_learning_reward]: https://papers.nips.cc/paper/2020/hash/e8fd4a8a5bab2b3785d794ab51fef55c-Abstract.html
 [research_zheng_oh_singh_2018_lirpg]: https://papers.nips.cc/paper/2018/hash/51de85ddd068f0bc787691d356176df9-Abstract.html
 [research_zintgraf_et_al_2020_varibad]: https://openreview.net/forum?id=Hkl9JlBYvr

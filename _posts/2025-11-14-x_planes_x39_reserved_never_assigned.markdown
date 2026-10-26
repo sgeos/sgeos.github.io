@@ -1133,7 +1133,7 @@ The next article returns to a vehicle that was built and flown.
 - Blouin, Francis X. 1999. "Archivists, Mediation, and Constructs of Social Memory." *Archival Issues* 24 (2). [https://doi.org/10.31274/archivalissues.10880][research_blouin_1999]
 - Boeing-Phantom Works. 1997a. *FATE--Block 1--Phase 1*. Contract F33615-97-C-3806. Boeing-Phantom Works. [https://man.fas.org/dod-101/sys/ac/docs/bfrptpa4/tsld001.htm][ref_boeing_fate]
 - Boeing-Phantom Works. 1997b. *FWV Demonstration Program*. Contract F33615-97-C-3806. Boeing-Phantom Works. [https://man.fas.org/dod-101/sys/ac/docs/bfrptpa4/tsld003.htm][ref_boeing_fate_transition]
-- Borglund Erik A.M., and Anderson Karen. 2011. "L.O.S.T Records: The Consequence of Inadequate Recordkeeping Strategies." In *Frontiers in Artificial Intelligence and Applications*. IOS Press. [https://doi.org/10.3233/978-1-60750-688-1-271][research_borglunderikam_andersonkaren_2011]
+- Borglund Erik A.M. and Anderson Karen. 2011. "L.O.S.T Records: The Consequence of Inadequate Recordkeeping Strategies." In *Frontiers in Artificial Intelligence and Applications*. IOS Press. [https://doi.org/10.3233/978-1-60750-688-1-271][research_borglunderikam_andersonkaren_2011]
 - Bourdon, Françoise. 1992. "How Can IFLA Contribute to Solving Problems in Name Authority Control at the International Level?" *IFLA Journal* 18 (2): 135–37. [https://doi.org/10.1177/034003529201800210][research_bourdon_1992]
 - Boyko, Vita. 2024. "Value Categories of Archival Documents in Ukrainian Archival Science." *Scientific journal “Library Science Record Studies Informology”*: 89–98. [https://doi.org/10.63009/lsrsi/4.2024.89][research_boyko_2024]
 - Briguglio, Luigi, Paul K. D. Pacquing, Silvio Salza, and Maria Guercio. 2014. "A Modular Infrastructure for the Management of Authenticity and Persistent Identifiers in Long-Term Digital Preservation Repositories." *International Journal of Knowledge and Learning* 9 (4): 281. [https://doi.org/10.1504/ijkl.2014.069535][research_briguglio_pacquing_2014]
@@ -1200,7 +1200,7 @@ The next article returns to a vehicle that was built and flown.
 - Delsey, Tom. 2024. "Authority Control in an International Context." In *Authority Control in the Online Environment*. CRC Press. [https://doi.org/10.1201/9781003575375-2][research_delsey_2024]
 - Demb, Sarah R. 2012. "Records Management Basics." In *Records Management for Museums and Galleries*. Elsevier. [https://doi.org/10.1016/b978-1-84334-637-1.50002-8][research_demb_2012]
 - *Designating and Naming Defense Military Aerospace Vehicles*. 1997. Defense Technical Information Center. [https://doi.org/10.21236/ada339210][research_departmentoftheairforce_1997]
-- "Designating and Naming Military Aerospace Vehicles." n.d.. Accessed October 24, 2026. [https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/412015p.pdf][ref_dodi_412015]
+- "Designating and Naming Military Aerospace Vehicles." n.d. Accessed October 24, 2026. [https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/412015p.pdf][ref_dodi_412015]
 - Desrochers-Turgeon, Émélie. 2022. "On the Silence of the Colonial Archive." In *Routledge eBooks*. Routledge. [https://doi.org/10.4324/9781003052623-37][research_desrochersturgeon_2022]
 - Dhiman, Anil Kumar. 2015. "Digital Object Identifier: A Unique Identifier for Scholarly Assets." *Pearl: A Journal of Library and Information Science* 9 (4). [https://doi.org/10.5958/0975-6922.2015.00032.7][research_dhiman_2015]
 - Dibble, R., and US Atomic Energy Commission (AEC). 1958. *Aircraft Nuclear Propulsion Department. Administrative Report*. Office of Scientific and Technical Information (OSTI). [https://doi.org/10.2172/10202216][research_dibble_1958]
@@ -1602,7 +1602,7 @@ The next article returns to a vehicle that was built and flown.
 - Treacy, William, and Scott Okrent. 2023. "Using U.S. Business Registry Data to Corroborate Corporate Identity: Case Study of the Legal Entity Identifier." *Finance and Economics Discussion Series*, no. 2023–011: 1–55. [https://doi.org/10.17016/feds.2023.011][research_treacy_okrent_2023]
 - Turnbull, R. W., G. E. Hams, and W. J. B. Pollock. 2010. "The National Telephone Plan: Numbering \[1959\]." *Telecommunications Journal of Australia* 60 (3): 37.1-37.4. [https://doi.org/10.2104/tja10037][research_turnbull_hams_2010]
 - U.S. Department of Defense. 2004. *Model Designation of Military Aerospace Vehicles*. DoD 4120.15-L. U.S. Department of Defense. [https://everyspec.com/DoD/DoD-PUBLICATIONS/DOD\_4120--15-L\_5753/][ref_dod_412015l]
-- U.S. Department of the Air Force, and U.S. Department of the Navy. 1994. *Designating and Naming Defense Military Aerospace Vehicles*. Joint Instruction 16-401; NAVAIRINST 8800.3A. U.S. Department of the Air Force. [https://irp.fas.org/doddir/usaf/16-401.htm][ref_afi_16_401]
+- U.S. Department of the Air Force and U.S. Department of the Navy. 1994. *Designating and Naming Defense Military Aerospace Vehicles*. Joint Instruction 16-401; NAVAIRINST 8800.3A. U.S. Department of the Air Force. [https://irp.fas.org/doddir/usaf/16-401.htm][ref_afi_16_401]
 - Uchida, Hisako. 1999. "The Digital Object Identifier (DOI)." *Journal of Information Processing and Management* 42 (1): 32–46. [https://doi.org/10.1241/johokanri.42.32][research_uchida_1999]
 - Uhl, Bodo. 2001. "The Significance of the Principle of Provenance for Archival Science and Historical Research." *Archivalische Zeitschrift* 84 (1): 91–122. [https://doi.org/10.7788/az.2001.84.1.91][research_uhl_2001]
 - Upward, Frank. 2000. "Modelling the Continuum as Paradigm Shift in Recordkeeping and Archiving Processes, and beyond Ö a Personal Reflection." *Records Management Journal* 10 (3): 115–39. [https://doi.org/10.1108/eum0000000007259][research_upward_2000]
@@ -1656,9 +1656,9 @@ The next article returns to a vehicle that was built and flown.
 - Zinner Henriksen, Helle, and Kim Viborg Andersen. 2008. "Electronic Records Management Systems Implementation in the Pakistani Local Government." *Records Management Journal* 18 (1): 40–52. [https://doi.org/10.1108/09565690810858505][research_zinnerhenriksen_viborgandersen_2008]
 - Марушко, Р. В. 2016. "International Identifier ORCID and Its Role in the Global Scholarly Communication." *Reproductive Endocrinology* 0 (27): 111. [https://doi.org/10.18370/2309-4117.2016.27.111-114][research_international_identifier_orcid_2016]
 - Рамазанова, Т.Ф. 2025. "Types of Evidence in Inheritance Cases in the Absence of Civil Status Records (Based on Examples from Judicial Practice)." In *XIV Международная научно-практическая конференция «Актуальные вопросы науки и образования»*. Crossref. [https://doi.org/10.26118/5699.2025.55.37.023][research_types_of_evidence_2025]
-- إِیمان عزیز خضر, and عمار عبداللطیف زین العابدین. 2022. "المعرف الرقمی للوصول إِلى المعلومات (Digital Object Identifier) DOI: دراسة فی ماهیته ومکوناته وفوائده للباحثین والدوریات." *اداب الرافدین* 52 (90.1): 951–84. [https://doi.org/10.33899/radab.2022.176253][research_anon_2022]
+- إِیمان عزیز خضر and عمار عبداللطیف زین العابدین. 2022. "المعرف الرقمی للوصول إِلى المعلومات (Digital Object Identifier) DOI: دراسة فی ماهیته ومکوناته وفوائده للباحثین والدوریات." *اداب الرافدین* 52 (90.1): 951–84. [https://doi.org/10.33899/radab.2022.176253][research_anon_2022]
 - عبد الحمید, أحمد شعبان أحمد. 2022. "'المعرف المفتوح للباحثین والمساهمین (ORCID): دراسة تحلیلیة لواقع استخدامه من جانب أعضاء هیئة التدریس بأقسام المكتبات والمعلومات' ' Open Researcher and Contributor ID (ORCID): Analytical study of the reality of its use by faculty members in library and information departments." *مجلة کلیة الآداب و العلوم الإنسانیة جامعة قناة السویس* 5 (42): 173–211. [https://doi.org/10.21608/jfhsc.2022.267986][research_anon_2022_b]
-- 서울대 철학과 교수, and Sang-Jin Kang. 2019. "Calling a Stag a Horse, an Argument from Silence about the Truth-Value of a Sentence in Minglitan." *Research Journal of Catholic Church History* 16: 351–79. [https://doi.org/10.35135/casky.2019.16.351][research_kang_2019]
+- 서울대 철학과 교수 and Sang-Jin Kang. 2019. "Calling a Stag a Horse, an Argument from Silence about the Truth-Value of a Sentence in Minglitan." *Research Journal of Catholic Church History* 16: 351–79. [https://doi.org/10.35135/casky.2019.16.351][research_kang_2019]
 
 ### Secondary Sources
 
@@ -1667,7 +1667,7 @@ The next article returns to a vehicle that was built and flown.
 ### Commercial Sources
 
 - Bernier, Robert. 2025. "The World Wasn't Ready for Nuclear-Powered Bombers: The Dangers of Powering Military Aircraft with Nuclear Energy." Air & Space Quarterly, March 20. [https://airandspace.si.edu/air-and-space-quarterly/issue-14/nuclear-bomber][research_bernier_2025]
-- Pike, John. n.d.. "X-39." FAS Military Analysis Network, Military Aircraft. Accessed October 24, 2026. [https://man.fas.org/dod-101/sys/ac/x-39.htm][ref_fas_x39]
+- Pike, John. n.d. "X-39." FAS Military Analysis Network, Military Aircraft. Accessed October 24, 2026. [https://man.fas.org/dod-101/sys/ac/x-39.htm][ref_fas_x39]
 
 ### General Sources
 

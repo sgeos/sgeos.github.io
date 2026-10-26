@@ -741,7 +741,7 @@ which is a different claim from the one the fifteen-year result is usually used 
 
 ### German capacity was never what was destroyed
 
-[Eichengreen and Ritschl 2009][journal_eichengreen_ritschl_2009]
+[Eichengreen et al. 2009][journal_eichengreen_ritschl_2009]
 report that West German industrial capacity in mid-1944
 stood more than a third above 1936 levels,
 and that "In 1948, surviving industrial capacity was 13 percent higher than in 1936".
@@ -3376,7 +3376,7 @@ and then stopping where the hard part starts.
 - Chan, Christopher Yan-Chak, Giuseppe Dal Prá, Isabel Johnson, Matt Boyd, and Ram Eirik Glomseth. 2025. "Resilience Reconsidered: The Need for Modeling Resilience in Food Distribution and Trade Relations in Post Nuclear War Recovery." *International Journal of Disaster Risk Science* 16 (4): 669–81. [https://doi.org/10.1007/s13753-025-00657-y][journal_chan_2025_resilience]
 - Collier, Paul, and Anke Hoeffler. 2004. "Aid, Policy and Growth in Post-Conflict Societies." *European Economic Review* 48 (5): 1125–45. [https://doi.org/10.1016/j.euroecorev.2003.11.005][journal_collier_hoeffler_2004_aid_policy_growth]
 - Davis, Donald R., and David E. Weinstein. 2008. "A Search for Multiple Equilibria in Urban Industrial Structure." *Journal of Regional Science* 48 (1): 29–65. [https://doi.org/10.1111/j.1467-9787.2008.00545.x][journal_davis_weinstein_2008_multiple_equilibria]
-- Eichengreen, Barry, and Albrecht Ritschl. 2009. "Understanding West German Economic Growth in the 1950s." *Cliometrica* 3 (3): 191–219. [https://doi.org/10.1007/s11698-008-0035-7][journal_eichengreen_ritschl_2009]
+- Eichengreen, Barry, Albrecht Ritschl, reconstruction, et al. 2009. "Understanding West German Economic Growth in the 1950s." *Cliometrica* 3 (3): 191–219. [https://doi.org/10.1007/s11698-008-0035-7][journal_eichengreen_ritschl_2009]
 - Felbermayr, Gabriel, Hendrik Mahlkow, and Alexander Sandkamp. 2023. "Cutting through the Value Chain: The Long-Run Effects of Decoupling the East from the West." *Empirica* 50 (1): 75–108. [https://doi.org/10.1007/s10663-022-09561-w][journal_felbermayr_2023_cutting_value_chain]
 - Field, Alexander J. 2023. "The Decline of US Manufacturing Productivity between 1941 and 1948." *Economic History Review* 76 (4): 1163–90. [https://doi.org/10.1111/ehr.13239][journal_field_2023_manufacturing_productivity]
 - Friedman, Jeffrey A. 2011. "Manpower and Counterinsurgency: Empirical Foundations for Theory and Doctrine." *Security Studies* 20 (4): 556–91. [https://doi.org/10.1080/09636412.2011.625768][journal_friedman_2011_manpower]
@@ -3461,14 +3461,14 @@ and then stopping where the hard part starts.
 - Goemans, H. E. 2008. "Which Way Out?: The Manner and Consequences of Losing Office." *Journal of Conflict Resolution* 52 (6): 771–94. [https://doi.org/10.1177/0022002708323316][journal_goemans_2008_which_way_out]
 - Goemans, Henk E., Kristian Skrede Gleditsch, and Giacomo Chiozza. 2009. "Introducing Archigos: A Dataset of Political Leaders." *Journal of Peace Research* 46 (2): 269–83. [https://doi.org/10.1177/0022343308100719][journal_goemans_2009_archigos]
 - Goemans, Hein, Kristian Skrede Gleditsch, and Giacomo Chiozza. 2016. *Archigos: A Data Base on Leaders 1875: 2004*. Version 4.1. [http://ksgleditsch.com/archigos.html][data_archigos_2016_leader_dataset]
-- Goes, and Bekkers. 2022. *The Impact of Geopolitical Conflicts on Trade, Growth, and Innovation*. World Trade Organization. [https://doi.org/10.30875/25189808-2022-9][journal_goes_bekkers_2022_geopolitical_conflicts]
+- Goes and Bekkers. 2022. *The Impact of Geopolitical Conflicts on Trade, Growth, and Innovation*. World Trade Organization. [https://doi.org/10.30875/25189808-2022-9][journal_goes_bekkers_2022_geopolitical_conflicts]
 - Goldberg, Pinelopi, Réka Juhász, Nathan Lane, Giulia Lo Forte, and Jeff Thurk. 2024. *Industrial Policy in the Global Semiconductor Sector*. National Bureau of Economic Research. [https://doi.org/10.3386/w32651][research_goldberg_2024_industrial_policy]
 - Gompert, David, Astrid Cevallos, and Cristina Garafola. 2016. *War with China: Thinking through the Unthinkable*. RR-1140. RAND Corporation. [https://www.rand.org/content/dam/rand/pubs/research\_reports/RR1100/RR1140/RAND\_RR1140.pdf][research_gompert_2016_war_with_china]
 - Goode, Steven M. 2009. "A Historical Basis for Force Requirements in Counterinsurgency." *US Army War College Quarterly: Parameters* 39 (4). [https://doi.org/10.55540/0031-1723.2499][journal_goode_2009_force_requirements]
 - Government Accountability Office. 2022. *Defense Industrial Base: DOD Should Take Actions to Strengthen Its Risk Mitigation Approach*. GAO-22-104154. Government Accountability Office. [https://web.archive.org/web/2024/https://www.gao.gov/assets/gao-22-104154.pdf][research_gao_2022_industrial_base]
 - Green, Brendan Rittenhouse, and Caitlin Talmadge. 2022. "Then What? Assessing the Military Implications of Chinese Control of Taiwan." *International Security* 47 (1): 7–45. [https://doi.org/10.1162/isec\_a\_00437][journal_green_talmadge_2022]
 - Gunzinger, Mark A., and Heather R. Penney. 2026. *Rebuilding America's Air Force: Balancing the Air Force's Combat Forces for Peer Conflict*. The Mitchell Institute for Aerospace Studies, Air & Space Forces Association. [https://www.mitchellaerospacepower.org/app/uploads/2026/04/Rebuilding-Americas-Air-Force-FINAL.pdf][research_gunzinger_2026_rebuilding_air_force]
-- Headquarters, Department of the Army, and Headquarters, Marine Corps Combat Development Command. 2006. *Counterinsurgency*. FM 3-24 / MCWP 3-33.5. Headquarters, Department of the Army. [https://archive.org/download/FugitiveDistro\_FM\_3\_24\_Counterinsurgency\_Anonymous/FM%203%2024%20Counterinsurgency\_READ\_EN\_282.pdf][government_fm_3_24_2006]
+- Headquarters, Department of the Army and Headquarters, Marine Corps Combat Development Command. 2006. *Counterinsurgency*. FM 3-24 / MCWP 3-33.5. Headquarters, Department of the Army. [https://archive.org/download/FugitiveDistro\_FM\_3\_24\_Counterinsurgency\_Anonymous/FM%203%2024%20Counterinsurgency\_READ\_EN\_282.pdf][government_fm_3_24_2006]
 - Hellberg, Roland, and Martin Lundmark. 2025. "Transformation in European Defence Supply Chains as Ukraine Conflict Fuels Demand." *Scandinavian Journal of Military Studies* 8 (1): 17–39. [https://doi.org/10.31374/sjms.303][journal_hellberg_2025_european_chains]
 - Henry, Iain D. 2020. "What Allies Want: Reconsidering Loyalty, Reliability, and Alliance Interdependence." *International Security* 44 (4): 45–83. [https://doi.org/10.1162/isec\_a\_00375][journal_henry_2020_what_allies_want]
 - Hiim, Henrik Stålhane, M. Taylor Fravel, and Magnus Langset Trøan. 2023. "The Dynamics of an Entangled Security Dilemma: China's Changing Nuclear Posture." *International Security* 47 (4): 147–87. [https://doi.org/10.1162/isec\_a\_00457][journal_hiim_2023_entangled_security_dilemma]
@@ -3558,7 +3558,7 @@ and then stopping where the hard part starts.
 - World Bank. 1996. *Bosnia and Herzegovina: The Priority Reconstruction and Recovery Program: The Challenges Ahead*. Discussion paper no. 2. World Bank. [https://documents.worldbank.org/curated/en/998241468743939643/pdf/multi0page.pdf][research_world_bank_1996_bosnia]
 - World Bank, Government of Ukraine, European Union, and United Nations. 2025. *Ukraine Fourth Rapid Damage and Needs Assessment (RDNA4): February 2022 – December 2024*. RDNA4. World Bank. [https://documents.worldbank.org/curated/en/099022025114040022/pdf/P1801741ca39ec0d81b5371ff73a675a0a8.pdf][research_world_bank_2025_rdna4]
 - Xia, Lili, Alan Robock, Michael Mills, Andrea Stenke, and Ira Helfand. 2015. "Decadal Reduction of Chinese Agriculture after a Regional Nuclear War." *Earth's Future* 3 (2): 37–48. [https://doi.org/10.1002/2014ef000283][journal_xia_2015_chinese_agriculture]
-- 中央選舉委員會. n.d.. *選舉資料庫*. 中央選舉委員會. [https://db.cec.gov.tw/static/referendums/list/N.json][data_roc_cec_referendums]
+- 中央選舉委員會. n.d. *選舉資料庫*. 中央選舉委員會. [https://db.cec.gov.tw/static/referendums/list/N.json][data_roc_cec_referendums]
 
 ### Secondary Sources
 

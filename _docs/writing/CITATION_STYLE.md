@@ -275,8 +275,9 @@ entries from bibliography entries.
 
 ### Report Servers and Catalogues
 
-Sources with no DOI are drafted from the record their own server holds, never from an article's label. Each
-rule below is a house rule, because Chicago says nothing about these servers.
+Sources with no DOI are drafted from the record their own server holds, and from an article's label only
+when no record agreeing with it exists, as the rules below state. Each rule below is a house rule, because
+Chicago says nothing about these servers.
 
 - **House.** A NASA Technical Reports Server record is a report under rule 4. Its number is the NASA series
   number where it has one, as in `NASA-TN-D-1600`. Its publisher is NASA when the number is a NASA series
@@ -299,6 +300,26 @@ rule below is a house rule, because Chicago says nothing about these servers.
   `_sources/domains.toml`.
 - **House.** A publisher or author the reader of a page records as inferred, assumed or unverified is not
   shown, because an entry attributes a work. Its note keeps the reader's remark.
+- **House.** A link that is not a DOI is cited from the registry record its URL names, a DOI in the path, a
+  JSTOR number, a PII, an arXiv number or an ISBN, or the record its label's title finds. The record is used
+  only when it agrees with the label on the title, or on the first author and the year, since the label is
+  what the article claims and was checked when it was drafted. A link replaced by the DOI its own URL carries
+  links that DOI.
+- **House.** An entry is built from the article's label only when no registry record or page agrees, and its
+  note says so. A label naming only authors and a year gives the title as `[Title not identified]`, never a
+  surname set as a title and never a title supplied from memory.
+- **House.** A Wikipedia article linked in place of the book or paper its label names is not the source. The
+  entry is the work's, linked to the work found, or to a search for it when none is found.
+- **House.** A search link names no document, so an entry found from one links the work found.
+- **House.** A record dated more than two years after the year the article cites is, for a book or a chapter,
+  a later edition or a translation, given in Chicago's reprint form, `(1945) 2002`, and cited by the original
+  year. For any other kind it is a late registration, as AAAI deposited ICWSM's 2013 papers in 2021, and the
+  year is the article's. A web page dated long after the document it reproduces gives the document's year.
+- **House.** A link whose own identifier or page names another work, by other authors and under another title,
+  is not followed. The entry is the label's, linked to a search for it, and its note names the work the link
+  led to.
+- **House.** A work the reference list names and the prose does not cite stays in the list, as a work the
+  account rests on.
 
 ### Ordering Within a Section
 

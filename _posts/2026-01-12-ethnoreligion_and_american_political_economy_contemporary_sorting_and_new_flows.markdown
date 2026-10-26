@@ -53,7 +53,7 @@ per FBI hate crime statistics, with significant peaks in 2001 immediately follow
 
 Sikh American violence emerged from mistaken identity, including 15 September 2001 Balbir Singh Sodhi murder at Mesa, Arizona (first documented post-9/11 hate murder), 5 August 2012 Oak Creek Wisconsin Sikh Gurdwara mass shooting (6 dead, 4 injured), and a range of incidents. The Sikh American Legal Defense and Education Fund (SALDEF) and Sikh Coalition provided the institutional advocacy framework.
 
-The 26 October 2001 [USA PATRIOT Act 2001][ref_usa_patriot_act_2001] USA PATRIOT Act expanded federal surveillance authority including Section 215 business records provisions, Section 214 pen register expansion, and extensive additional investigative authority affecting religious institutions, particularly mosques and American Muslim organizations subjected to systematic FBI surveillance. The [Cole and Dempsey 2006][book_cole_dempsey_2006] Terrorism and the Constitution treats the comprehensive PATRIOT Act framework.
+The 26 October 2001 [USA PATRIOT Act 2001][ref_usa_patriot_act_2001] USA PATRIOT Act expanded federal surveillance authority including Section 215 business records provisions, Section 214 pen register expansion, and extensive additional investigative authority affecting religious institutions, particularly mosques and American Muslim organizations subjected to systematic FBI surveillance. The [Dempsey et al. 2006][book_cole_dempsey_2006] Terrorism and the Constitution treats the comprehensive PATRIOT Act framework.
 
 ## Iraq War 2003 and American Religious Mobilization
 
@@ -77,9 +77,9 @@ The 2002 Boston Globe Spotlight reporting on Boston Archdiocese Catholic clergy 
 
 $$N_{\text{documented US Catholic priest sexual abuse allegations, 1950 to 2002}} \approx 4400, \quad N_{\text{documented US Catholic clergy sexual abuse victims, 1950 to 2020}} \gtrsim 2 \times 10^4, \quad C_{\text{US Catholic diocesan aggregate settlement expenditure, 1950 to 2020}} \approx 4 \times 10^9 \text{ USD nominal}$$
 
-per John Jay College of Criminal Justice 2004 and 2011 reports and several institutional documentation. The [John Jay Report 2004][ref_john_jay_report_2004] John Jay Report and [John Jay Report 2011][ref_john_jay_report_2011] Causes and Context Report provided the comprehensive institutional analyses commissioned by US Conference of Catholic Bishops. The [Boston Globe Spotlight 2002][ref_boston_globe_spotlight_2002] Boston Globe reporting series provided the inaugural mass-media exposure. The [Berry 1992][book_berry_1992] Lead Us Not into Temptation, [Steinfels 2003][book_steinfels_2003] A People Adrift, and [D'Antonio 2016][book_dantonio_2016] Betrayal provide the detailed treatments.
+per John Jay College of Criminal Justice 2004 and 2011 reports and several institutional documentation. The [John Jay Report 2004][ref_john_jay_report_2004] John Jay Report and [John Jay Report 2011][ref_john_jay_report_2011] Causes and Context Report provided the comprehensive institutional analyses commissioned by US Conference of Catholic Bishops. The [Church Allowed Abuse 2002][ref_boston_globe_spotlight_2002] Boston Globe reporting series provided the inaugural mass-media exposure. The [Berry 1992][book_berry_1992] Lead Us Not into Temptation, [Steinfels 2003][book_steinfels_2003] A People Adrift, and [D'Antonio 2016][book_dantonio_2016] Betrayal provide the detailed treatments.
 
-Institutional consequences included 2002 US Conference of Catholic Bishops [Charter for the Protection of Children and Young People 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [Vatican McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and a range of institutional restructuring. Approximate diocesan bankruptcy filings reached
+Institutional consequences included 2002 US Conference of Catholic Bishops [SBC Dallas Charter 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and a range of institutional restructuring. Approximate diocesan bankruptcy filings reached
 
 $$N_{\text{US Catholic diocesan Chapter 11 bankruptcy filings, 2004 to 2024}} \approx 30, \quad N_{\text{additional Catholic religious order bankruptcy filings}} \gtrsim 10$$
 
@@ -95,7 +95,7 @@ per exit polling reconstruction. 2004 election same-sex marriage state ballot me
 
 ## Same-Sex Marriage Trajectory 2003-2015
 
-The same-sex marriage legal trajectory 2003-2015 produced most significant American religious-political controversy of twenty-first century's first two decades. Primary judicial documents include 18 November 2003 [Goodridge v. Department of Public Health 2003][ref_goodridge_2003] Goodridge v. Department of Public Health (Massachusetts Supreme Judicial Court decision) and 26 June 2013 [Windsor v. United States 2013][ref_windsor_v_us_2013] Windsor v. United States (5-4 Supreme Court decision striking down 1996 Defense of Marriage Act Section 3). Major landmarks included
+The same-sex marriage legal trajectory 2003-2015 produced most significant American religious-political controversy of twenty-first century's first two decades. Primary judicial documents include 18 November 2003 [Goodridge v. Department 2003][ref_goodridge_2003] Goodridge v. Department of Public Health (Massachusetts Supreme Judicial Court decision) and 26 June 2013 [Windsor v. United States 2013][ref_windsor_v_us_2013] Windsor v. United States (5-4 Supreme Court decision striking down 1996 Defense of Marriage Act Section 3). Major landmarks included
 
 $$\begin{aligned}
 \text{Massachusetts Goodridge decision} &: 2003, \text{ first US state same-sex marriage} \\
@@ -116,7 +116,7 @@ f_{\text{denominations formally opposing}}\bigg|_{2020} &\approx 0.55 \text{ (ev
 f_{\text{denominations divided or transitional}}\bigg|_{2020} &\approx 0.15
 \end{aligned}$$
 
-per various denominational documentation. The 13 December 2022 [Respect for Marriage Act 2022][ref_respect_for_marriage_2022] Respect for Marriage Act federally protected same-sex marriage against hypothetical future Obergefell reversal.
+per various denominational documentation. The 13 December 2022 [Rep. Nadler 2022][ref_respect_for_marriage_2022] Respect for Marriage Act federally protected same-sex marriage against hypothetical future Obergefell reversal.
 
 ## Hobby Lobby 2014 and Religious Exemption Framework
 
@@ -126,7 +126,7 @@ $$V_{\text{Hobby Lobby majority}} = 5, \quad V_{\text{Hobby Lobby dissent}} = 4,
 
 permitting religious objection to 2010 Affordable Care Act contraception mandate. Justice Samuel Alito's majority opinion expanded RFRA framework beyond individual and nonprofit religious institution protection to for-profit business framework. The [Sepper 2014][book_sepper_2014_religious] Free Exercise Lochnerism and [Laycock 2018][book_laycock_2018] Religious Liberty Volume 5 provide the leading treatments.
 
-Religious exemption jurisprudence expanded through 2015-2024 window. Major decisions included 2015 [Zubik v. Burwell 2016][ref_zubik_v_burwell_2016] (religious nonprofit contraception accommodation), 2017 [Masterpiece Cakeshop v. Colorado 2018][ref_masterpiece_cakeshop_2018] (religious refusal of same-sex wedding cake service), 2020 [Little Sisters of the Poor v. Pennsylvania 2020][ref_little_sisters_2020] (religious exemption from contraception mandate), 2020 [Bostock v. Clayton County 2020][ref_bostock_v_clayton_2020] (Title VII extension to sexual orientation and gender identity), and 2023 [303 Creative v. Elenis 2023][ref_303_creative_2023] (religious exemption to state anti-discrimination law).
+Religious exemption jurisprudence expanded through 2015-2024 window. Major decisions included 2015 [Zubik v. Burwell 578 2016][ref_zubik_v_burwell_2016] (religious nonprofit contraception accommodation), 2017 [Masterpiece Cakeshop v. Colorado 2018][ref_masterpiece_cakeshop_2018] (religious refusal of same-sex wedding cake service), 2020 [Little Sisters of the Poor v. Pennsylvania 2020][ref_little_sisters_2020] (religious exemption from contraception mandate), 2020 [Bostock v. Clayton County 2020][ref_bostock_v_clayton_2020] (Title VII extension to sexual orientation and gender identity), and 2023 [303 Creative v. Elenis 2023][ref_303_creative_2023] (religious exemption to state anti-discrimination law).
 
 ## Obama Election 2008 and Religious Politics
 
@@ -206,7 +206,7 @@ per differing 2010-2011 polling. The 2011 project cancellation and successor Com
 
 The 11 February 2013 Pope Benedict XVI resignation announcement (first papal resignation since Gregory XII 1415) followed by 13 March 2013 Jorge Mario Bergoglio SJ election as Pope Francis produced considerable American Catholic institutional reception. Francis's Argentine origin (first Latin American Pope), Jesuit membership (first Jesuit Pope), and "Francis" name choice honoring Francis of Assisi provided significant institutional novelty. The [Ivereigh 2014][book_ivereigh_2014_francis] The Great Reformer, [Faggioli 2015][book_faggioli_2015_francis] Pope Francis, and [Rowland 2017][book_rowland_2017_francis] Catholic Theology provide the principal treatments.
 
-Major Pope Francis documents produced substantial American Catholic reception. Approximate major documents included 24 November 2013 [Evangelii Gaudium 2013][ref_evangelii_gaudium_2013] Evangelii Gaudium (Apostolic Exhortation), 24 May 2015 [Laudato Si 2015][ref_laudato_si_2015] Laudato Si (encyclical on environmental care and climate change), 8 April 2016 [Amoris Laetitia 2016][ref_amoris_laetitia_2016] Amoris Laetitia (Apostolic Exhortation on family and marriage producing marked American Catholic controversy over communion for divorced-and-remarried Catholics), 3 October 2020 [Fratelli Tutti 2020][ref_fratelli_tutti_2020] Fratelli Tutti (encyclical on fraternity and social friendship), and 2021 [Traditionis Custodes 2021][ref_traditionis_custodes_2021] motu proprio restricting Latin Mass authorization producing extensive American traditionalist Catholic controversy.
+Major Pope Francis documents produced substantial American Catholic reception. Approximate major documents included 24 November 2013 ["Evangelii Gaudium" 2013][ref_evangelii_gaudium_2013] Evangelii Gaudium (Apostolic Exhortation), 24 May 2015 [Laudato Si 2015][ref_laudato_si_2015] Laudato Si (encyclical on environmental care and climate change), 8 April 2016 ["Amoris Laetitia" 2016][ref_amoris_laetitia_2016] Amoris Laetitia (Apostolic Exhortation on family and marriage producing marked American Catholic controversy over communion for divorced-and-remarried Catholics), 3 October 2020 [Fratelli Tutti 2020][ref_fratelli_tutti_2020] Fratelli Tutti (encyclical on fraternity and social friendship), and 2021 [Traditionis Custodes 2021][ref_traditionis_custodes_2021] motu proprio restricting Latin Mass authorization producing extensive American traditionalist Catholic controversy.
 
 American Catholic institutional reception of Pope Francis divided along ideological lines. Approximate 2014 US Catholic Francis approval reached
 
@@ -222,7 +222,7 @@ $$P_{\text{SBC membership, US}}\bigg|_{2000} \approx 1.63 \times 10^7, \quad P\b
 
 per SBC Annual Church Profile records. The 2018-2024 SBC decline accelerated approximately 20% cumulative membership loss across 2010-2024 window, reflecting broader Protestant institutional decline documented above.
 
-The 22 May 2022 [SBC Guidepost Report 2022][ref_sbc_guidepost_2022] SBC Executive Committee investigation report by Guidepost Solutions documented approximately 700 systematic sexual abuse cases across SBC-affiliated churches through 2000-2021 window, with institutional leadership covering up abuses. The 2022 investigation followed 2019 Houston Chronicle investigative reporting series [Houston Chronicle Abuse of Faith 2019][ref_houston_chronicle_2019] documenting 400 SBC ministers with credible sexual abuse allegations. The SBC 2022-2024 institutional response combined formal apology, database creation, and ongoing institutional restructuring, though systematic Southern Baptist response lagged 2002 Catholic Dallas Charter framework documented above.
+The 22 May 2022 [SBC Guidepost Report 2022][ref_sbc_guidepost_2022] SBC Executive Committee investigation report by Guidepost Solutions documented approximately 700 systematic sexual abuse cases across SBC-affiliated churches through 2000-2021 window, with institutional leadership covering up abuses. The 2022 investigation followed 2019 Houston Chronicle investigative reporting series [Abuse of Faith 2019][ref_houston_chronicle_2019] documenting 400 SBC ministers with credible sexual abuse allegations. The SBC 2022-2024 institutional response combined formal apology, database creation, and ongoing institutional restructuring, though systematic Southern Baptist response lagged 2002 Catholic Dallas Charter framework documented above.
 
 ## African Migration Expansion
 
@@ -334,7 +334,7 @@ $$N_{\text{countries initially banned, EO 13769}} = 7, \quad t_{\text{initial en
 
 producing extensive immediate national reaction. Revisions through 6 March 2017 [Executive Order 13780 2017][ref_executive_order_13780_2017] Executive Order 13780, 24 September 2017 [Presidential Proclamation 9645 2017][ref_pp_9645_2017] Presidential Proclamation 9645, and 31 January 2020 [Presidential Proclamation 9983 2020][ref_pp_9983_2020] Presidential Proclamation 9983 modified covered countries while maintaining sizable Muslim-majority country restriction framework. The [Chishti and Bolter 2020][book_chishti_bolter_2020] The Trump Administration Immigration Legacy and [Cohn 2019][book_cohn_2019] Trump v. Hawaii provide the leading treatments.
 
-The 26 June 2018 [Trump v. Hawaii 2018][ref_trump_v_hawaii_2018] Trump v. Hawaii Supreme Court decision,
+The 26 June 2018 [Trump v. Hawaii 585 2018][ref_trump_v_hawaii_2018] Trump v. Hawaii Supreme Court decision,
 
 $$V_{\text{Trump v. Hawaii majority}} = 5, \quad V_{\text{Trump v. Hawaii dissent}} = 4$$
 
@@ -354,7 +354,7 @@ per US Department of Homeland Security records. The [Barfield 2010][book_barfiel
 
 ## Ukrainian Uniting for Ukraine 2022
 
-The 21 April 2022 [Uniting for Ukraine 2022][ref_uniting_for_ukraine_2022] Biden administration Uniting for Ukraine program provided two-year Humanitarian Parole admission for Ukrainian citizens with US-based sponsors following 24 February 2022 Russian invasion of Ukraine. Total Ukrainian admissions reached approximately
+The 21 April 2022 [Update on Form I-134A 2022][ref_uniting_for_ukraine_2022] Biden administration Uniting for Ukraine program provided two-year Humanitarian Parole admission for Ukrainian citizens with US-based sponsors following 24 February 2022 Russian invasion of Ukraine. Total Ukrainian admissions reached approximately
 
 $$N_{\text{Uniting for Ukraine admissions, 2022 to 2024}} \approx 2.6 \times 10^5, \quad P_{\text{Ukrainian American, US}}\bigg|_{2020} \approx 1 \times 10^6, \quad P\bigg|_{2024} \approx 1.3 \times 10^6$$
 
@@ -368,7 +368,7 @@ $$N_{\text{Cuban arrivals, US, fiscal year 2022}} \approx 2.24 \times 10^5, \qua
 
 per US Customs and Border Protection records, exceeding 1980 Mariel Boatlift documented in [A273][related_post_a273_postwar_transformation_and_reopening] in single-year 2022 total.
 
-The September 2021 Del Rio, Texas Haitian migration crisis produced approximately 15,000 primarily Haitian migrants concentrating under International Bridge at Del Rio in approximately one-week period. The Biden administration [Title 42 Public Health Order 2020][ref_title_42_order_2020] Title 42 pandemic border restriction application (initial 20 March 2020 CDC order under Public Health Service Act Section 265 authority) expelled approximately 8,000 Haitian migrants to Haiti through September-October 2021 window, producing substantial religious institutional criticism. The Haitian Ministries and various Catholic and evangelical Protestant Haitian American organizational response provided reception and advocacy infrastructure.
+The September 2021 Del Rio, Texas Haitian migration crisis produced approximately 15,000 primarily Haitian migrants concentrating under International Bridge at Del Rio in approximately one-week period. The Biden administration [Title 42 Public Health 2020][ref_title_42_order_2020] Title 42 pandemic border restriction application (initial 20 March 2020 CDC order under Public Health Service Act Section 265 authority) expelled approximately 8,000 Haitian migrants to Haiti through September-October 2021 window, producing substantial religious institutional criticism. The Haitian Ministries and various Catholic and evangelical Protestant Haitian American organizational response provided reception and advocacy infrastructure.
 
 ## Religious-Motivated Attacks
 
@@ -391,13 +391,13 @@ The 2020-2022 COVID-19 pandemic produced extensive American religious institutio
 
 $$N_{\text{US COVID-19 cumulative deaths through 2024}} \gtrsim 1.2 \times 10^6, \quad N_{\text{US COVID-19 peak monthly deaths, January 2021}} \approx 1 \times 10^5$$
 
-per Centers for Disease Control and Prevention records. Religious institutional pandemic response combined mainline Protestant, Catholic, and a number of religious body compliance with public health measures and evangelical Protestant, Orthodox Jewish, and differing religious body resistance combining religious exemption claims with broader pandemic skepticism. The [Djupe and Burge 2022][book_djupe_burge_2022] The Politics of Vaccine Hesitancy and [Perry Whitehead and Grubbs 2023][book_perry_whitehead_grubbs_2023] Save the Souls provide the principal treatments.
+per Centers for Disease Control and Prevention records. Religious institutional pandemic response combined mainline Protestant, Catholic, and a number of religious body compliance with public health measures and evangelical Protestant, Orthodox Jewish, and differing religious body resistance combining religious exemption claims with broader pandemic skepticism. The [Djupe and Burge 2022][book_djupe_burge_2022] The Politics of Vaccine Hesitancy and [Perry et al. 2023][book_perry_whitehead_grubbs_2023] Save the Souls provide the principal treatments.
 
 Approximate vaccine acceptance across religious traditions reached
 
 $$f_{\text{COVID vaccine acceptance, white evangelical Protestants}}\bigg|_{2021} \approx 0.55, \quad f_{\text{white mainline Protestants}} \approx 0.75, \quad f_{\text{white Catholics}} \approx 0.75, \quad f_{\text{Black Protestants}} \approx 0.55, \quad f_{\text{Jewish Americans}} \approx 0.85, \quad f_{\text{Muslim Americans}} \approx 0.70, \quad f_{\text{Nones}} \approx 0.80$$
 
-per Public Religion Research Institute polling. The 24 November 2020 [Roman Catholic Diocese of Brooklyn v. Cuomo 2020][ref_diocese_brooklyn_cuomo_2020] Supreme Court decision (5-4) struck down New York gathering limits as applied to religious services, producing religious free exercise pandemic-era jurisprudence framework favoring religious institutional attendance rights over public health capacity restrictions.
+per Public Religion Research Institute polling. The 24 November 2020 [Roman Catholic Diocese 2020][ref_diocese_brooklyn_cuomo_2020] Supreme Court decision (5-4) struck down New York gathering limits as applied to religious services, producing religious free exercise pandemic-era jurisprudence framework favoring religious institutional attendance rights over public health capacity restrictions.
 
 ## 2020 Racial Justice Mobilization and Religious Response
 
@@ -415,7 +415,7 @@ per Pew Research 2020 polling. Denominational contests through 2020-2024 window 
 
 ## Dobbs v. Jackson 2022 and Post-Roe Landscape
 
-The 24 June 2022 [Dobbs v. Jackson Women's Health Organization 2022][ref_dobbs_v_jackson_2022] Dobbs v. Jackson Women's Health Organization Supreme Court decision (6-3 with 5 justice majority opinion) overturned 1973 Roe v. Wade documented in [A273][related_post_a273_postwar_transformation_and_reopening] and 1992 Casey documented in [A274][related_post_a274_diversification_and_consolidation]. Justice Samuel Alito's majority opinion characterized abortion right as "not deeply rooted in this Nation's history and tradition" providing abortion jurisprudence framework return to state-level regulation. The [Ziegler 2020][book_ziegler_2020] Abortion and the Law in America and [Ziegler 2022][book_ziegler_2022_dollars] Dollars for Life provide the most complete treatments.
+The 24 June 2022 [Dobbs v. Jackson Women's 2022][ref_dobbs_v_jackson_2022] Dobbs v. Jackson Women's Health Organization Supreme Court decision (6-3 with 5 justice majority opinion) overturned 1973 Roe v. Wade documented in [A273][related_post_a273_postwar_transformation_and_reopening] and 1992 Casey documented in [A274][related_post_a274_diversification_and_consolidation]. Justice Samuel Alito's majority opinion characterized abortion right as "not deeply rooted in this Nation's history and tradition" providing abortion jurisprudence framework return to state-level regulation. The [Ziegler 2020][book_ziegler_2020] Abortion and the Law in America and [Ziegler 2022][book_ziegler_2022_dollars] Dollars for Life provide the most complete treatments.
 
 Post-Dobbs state-level trajectory produced significant institutional contests. Approximate state abortion status by 2024 reached
 
@@ -452,7 +452,7 @@ f_{\text{Biden 2020 Nones}} &\approx 0.72 \\
 f_{\text{Biden 2020 Black Protestant}} &\approx 0.90
 \end{aligned}$$
 
-per Pew Research and assorted exit polling reconstruction. The characteristic contemporary partisan alignment combines white evangelical Protestant-Republican identification, mainline Protestant, Catholic, Jewish, Muslim, and Nones-Democratic alignment, and Black Protestant-Democratic alignment predating twentieth-century civil rights realignment documented in [A272][related_post_a272_depression_war_and_refuge]. The [Campbell Green and Layman 2020][book_campbell_green_layman_2020] Secular Surge and [Wehner 2019][book_wehner_2019] The Death of Politics provide the standard treatments.
+per Pew Research and assorted exit polling reconstruction. The characteristic contemporary partisan alignment combines white evangelical Protestant-Republican identification, mainline Protestant, Catholic, Jewish, Muslim, and Nones-Democratic alignment, and Black Protestant-Democratic alignment predating twentieth-century civil rights realignment documented in [A272][related_post_a272_depression_war_and_refuge]. The [Campbell et al. 2020][book_campbell_green_layman_2020] Secular Surge and [Wehner 2019][book_wehner_2019] The Death of Politics provide the standard treatments.
 
 Contemporary religious sorting exceeds mid-twentieth-century religious-political alignment, with approximately 30-percentage-point white evangelical Protestant-Nones partisan gap exceeding 1950s-1970s religious-political alignment. The 6 January 2021 Capitol attack, 2024 Trump reelection, and religious-political controversies through 2024-2026 window reflect ongoing religious-political sorting treated in a number of ongoing literature.
 
@@ -496,7 +496,7 @@ DACA program scale reached considerable proportions,
 
 $$N_{\text{DACA initial applicants approved, 2012 to 2013}} \approx 4.8 \times 10^5, \quad N_{\text{DACA cumulative recipients through 2024}} \approx 8 \times 10^5, \quad N_{\text{active DACA recipients, 2024}} \approx 5.8 \times 10^5$$
 
-per US Citizenship and Immigration Services records. Religious institutional support for DACA emerged through US Conference of Catholic Bishops, evangelical immigration table (National Association of Evangelicals, World Relief), mainline Protestant denominational bodies, a range of Jewish and American Muslim organizations. 2017 Trump administration DACA termination attempt, 18 June 2020 [DHS v. Regents of University of California 2020][ref_dhs_v_regents_2020] Department of Homeland Security v. Regents of the University of California 5-4 Supreme Court decision blocking termination on Administrative Procedure Act grounds, and 2021-2024 lower court challenges maintained DACA framework while ongoing legislative reform (various DREAM Act versions from 2001 forward) failed Congressional passage through 2024 window.
+per US Citizenship and Immigration Services records. Religious institutional support for DACA emerged through US Conference of Catholic Bishops, evangelical immigration table (National Association of Evangelicals, World Relief), mainline Protestant denominational bodies, a range of Jewish and American Muslim organizations. 2017 Trump administration DACA termination attempt, 18 June 2020 [DHS v. Regents 2020][ref_dhs_v_regents_2020] Department of Homeland Security v. Regents of the University of California 5-4 Supreme Court decision blocking termination on Administrative Procedure Act grounds, and 2021-2024 lower court challenges maintained DACA framework while ongoing legislative reform (various DREAM Act versions from 2001 forward) failed Congressional passage through 2024 window.
 
 ## October 7 2023 Hamas Attack and American Jewish Response
 
@@ -561,159 +561,167 @@ This article follows the terminological conventions established in [A266][relate
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Alberta 2019 American Carnage][book_alberta_2019]
-- [Anguiano 2023 Latino Immigration][book_anguiano_2023]
-- [Arthur 2010 African Diaspora Identities][book_arthur_2010]
-- [Balmer 2021 Bad Faith][book_balmer_2021_bad]
-- [Beinart 2024 Being Jewish After Gaza][book_beinart_2024_gaza]
-- [Ball 2017 The First Amendment and LGBT Equality][book_ball_2017]
-- [Barfield 2010 Afghanistan][book_barfield_2010]
-- [Bergen 2011 The Longest War][book_bergen_2011]
-- [Berry 1992 Lead Us Not into Temptation][book_berry_1992]
-- [Beydoun 2018 American Islamophobia][book_beydoun_2018]
-- [Bon Tempo 2020 Americans at the Gate][book_bon_tempo_2020]
-- [Bowler 2013 Blessed (Prosperity Gospel)][book_bowler_2013]
-- [Bruno 2020 Refugee Admissions][book_bruno_2020_refugee]
-- [Burge 2021 The Nones][book_burge_2021]
-- [Cebulko 2018 Documented Dreams (DACA)][book_cebulko_2018_daca]
-- [Chomsky 2024 Notes on Gaza][book_chomsky_2024_gaza]
-- [Butler 2021 White Evangelical Racism][book_butler_2021]
-- [Byman 2022 Spreading Hate][book_byman_2022]
-- [Campbell Green and Layman 2020 Secular Surge][book_campbell_green_layman_2020]
-- [Chaves 2011 American Religion][book_chaves_2011]
-- [Chishti and Bolter 2020 Trump Administration Immigration Legacy][book_chishti_bolter_2020]
-- [Cimino and Smith 2014 Atheist Awakening][book_cimino_smith_2014]
-- [Cohen 2010 Democracy Remixed][book_cohen_2010]
-- [Cohn 2019 Trump v. Hawaii][book_cohn_2019]
-- [Cole and Dempsey 2006 Terrorism and the Constitution][book_cole_dempsey_2006]
-- [Coll 2018 Directorate S][book_coll_2018_directorate]
-- [D'Antonio 2016 Betrayal][book_dantonio_2016]
-- [De Genova and Peutz 2010 The Deportation Regime][book_de_genova_peutz_2010]
-- [Djupe and Burge 2022 The Politics of Vaccine Hesitancy][book_djupe_burge_2022]
-- [Djupe and Wagner 2022 Christian Nationalism and January 6][book_djupe_wagner_2022]
-- [Elliott 2011 Park51 (Ground Zero Mosque)][book_elliott_2011_park51]
-- [Faggioli 2015 Pope Francis][book_faggioli_2015_francis]
-- [Fea 2018 Believe Me][book_fea_2018]
-- [Frank 2004 What's the Matter with Kansas][book_frank_2004]
-- [Frank 2017 Awakening][book_frank_2017]
-- [Frank 2020 The United Methodist Church][book_frank_2020_umc]
-- [Garcia-Ferrer 2022 Venezuelan Migration][book_garcia_ferrer_2022]
-- [Gorski and Perry 2022 The Flag and the Cross][book_gorski_perry_2022]
-- [Harrison 2005 Righteous Riches][book_harrison_2005]
-- [Hondagneu-Sotelo 2007 Religion and Social Justice for Immigrants][book_hondagneu_sotelo_2007]
-- [Hunt 2022 Methodism (Global Methodist Church)][book_hunt_2022_gmc]
-- [Ivereigh 2014 The Great Reformer (Pope Francis)][book_ivereigh_2014_francis]
-- [Jones 2016 The End of White Christian America][book_jones_2016]
-- [Kendi 2019 How to Be an Antiracist][book_kendi_2019]
-- [Klarman 2013 From the Closet to the Altar][book_klarman_2013]
-- [Lal 2008 The Other Indians][book_lal_2008]
-- [Laycock 2018 Religious Liberty Volume 5][book_laycock_2018]
-- [LeDrew 2015 The Evolution of Atheism][book_ledrew_2015]
-- [Lincoln 2003 Holy Terrors][book_lincoln_2003]
-- [Marsh 2007 Wayward Christian Soldiers][book_marsh_2007]
-- [Miller 2013 The Political Voice of Black America][book_miller_2013]
-- [Miller 2022 The Battle for the American Mind][book_miller_2022_capitol]
-- [Millhiser 2020 The Agenda][book_millhiser_2020]
-- [Nicholls 2013 The DREAMers][book_nicholls_2013_dreamers]
-- [Perry Whitehead and Grubbs 2023 Save the Souls][book_perry_whitehead_grubbs_2023]
-- [Prashad 2020 India's Search for National Efficiency][book_prashad_2020]
-- [Rowland 2017 Catholic Theology (Pope Francis)][book_rowland_2017_francis]
-- [Sepper 2014 Free Exercise Lochnerism][book_sepper_2014_religious]
-- [Sinitiere 2015 Salvation with a Smile][book_sinitiere_2015]
-- [Steinfels 2003 A People Adrift][book_steinfels_2003]
-- [Stewart 2022 The Power Worshippers][book_stewart_2022]
-- [Tisby 2019 The Color of Compromise][book_tisby_2019]
-- [Toobin 2021 The Nine][book_toobin_2021_court]
-- [Traore 2019 African Immigrants][book_traore_2019]
-- [Wallis 2005 God's Politics][book_wallis_2005]
-- [Wehner 2019 The Death of Politics][book_wehner_2019]
-- [Whitehead and Perry 2020 Taking America Back for God][book_whitehead_perry_2020]
-- [Willmer 2024 He Gets Us Campaign][book_willmer_2024_hegetsus]
-- [Wright 2006 The Looming Tower][book_wright_2006]
-- [Yankah 2018 African Immigrants and Religious Pluralism][book_yankah_2018]
-- [Ziegler 2020 Abortion and the Law in America][book_ziegler_2020]
-- [Ziegler 2022 Dollars for Life][book_ziegler_2022_dollars]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- "'Amoris Laetitia': Post-Synodal Apostolic Exhortation on Love in the Family (19 March 2016)." 2016. Accessed October 25, 2026. [https://www.vatican.va/content/francesco/en/apost\_exhortations/documents/papa-francesco\_esortazione-ap\_20160319\_amoris-laetitia.html][ref_amoris_laetitia_2016]
+- "'Evangelii Gaudium': Apostolic Exhortation on the Proclamation of the Gospel in Today's World (24 November 2013)." 2013. Accessed October 25, 2026. [https://www.vatican.va/content/francesco/en/apost\_exhortations/documents/papa-francesco\_esortazione-ap\_20131124\_evangelii-gaudium.html][ref_evangelii_gaudium_2013]
+- "303 Creative LLC v. Elenis, 600 U.S. \_\_\_ (2023)." 2023. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/600/21-476/][ref_303_creative_2023]
+- "Bostock v. Clayton County, 590 U.S. \_\_\_ (2020)." 2020. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/590/17-1618/][ref_bostock_v_clayton_2020]
+- Bruno. 2020. *Refugee Admissions*. Congressional Research Service. [https://crsreports.congress.gov/product/pdf/RL/RL31269][book_bruno_2020_refugee]
+- "Burwell v. Hobby Lobby." 2014. [https://supreme.justia.com/cases/federal/us/573/682/][ref_burwell_v_hobby_lobby_2014]
+- "DHS v. Regents of University of California." 2020. [https://supreme.justia.com/cases/federal/us/591/18-587/][ref_dhs_v_regents_2020]
+- "Dobbs v. Jackson Women's Health Organization, 597 U.S. \_\_\_ (2022)." 2022. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/597/19-1392/][ref_dobbs_v_jackson_2022]
+- Executive Order 13769. 2017. "Muslim Ban." [https://www.archives.gov/files/federal-register/executive-orders/2017-13769.pdf][ref_executive_order_13769_2017]
+- Executive Order 13780. 2017. "Muslim Ban Revised." [https://www.federalregister.gov/documents/2017/03/09/2017-04837/protecting-the-nation-from-foreign-terrorist-entry-into-the-united-states][ref_executive_order_13780_2017]
+- Fratelli Tutti. 2020. "Pope Francis Encyclical." [https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco\_20201003\_enciclica-fratelli-tutti.html][ref_fratelli_tutti_2020]
+- "Goodridge v. Department of Public Health." 2003. [https://law.justia.com/cases/massachusetts/supreme-court/2003/440-mass-309.html][ref_goodridge_2003]
+- "John Jay Report." 2004. [https://www.usccb.org/committees/child-and-youth-protection/john-jay-study][ref_john_jay_report_2004]
+- "John Jay Report." 2011. [https://www.usccb.org/committees/child-and-youth-protection/causes-and-context][ref_john_jay_report_2011]
+- Laudato Si. 2015. "Pope Francis Encyclical." [https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco\_20150524\_enciclica-laudato-si.html][ref_laudato_si_2015]
+- "Little Sisters of the Poor Saints Peter and Paul Home v. Pennsylvania, 591 U.S. \_\_\_ (2020)." 2020. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/591/19-431/][ref_little_sisters_2020]
+- "Masterpiece Cakeshop, Ltd. v. Colorado Civil Rights Commission, 584 U.S. \_\_\_ (2018)." 2018. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/584/16-111/][ref_masterpiece_cakeshop_2018]
+- McCarrick Report. 2020. "(Vatican)." [https://www.vatican.va/resources/resources\_rapporto-card-mccarrick\_20201110\_en.pdf][ref_mccarrick_report_2020]
+- "Obergefell v. Hodges." 2015. [https://supreme.justia.com/cases/federal/us/576/14-556/][ref_obergefell_v_hodges_2015]
+- Presidential Proclamation 9645. 2017. "(Muslim Ban)." [https://www.federalregister.gov/documents/2017/09/27/2017-20899/enhancing-vetting-capabilities-and-processes-for-detecting-attempted-entry-into-the-united-states][ref_pp_9645_2017]
+- Presidential Proclamation 9983. 2020. "(Muslim Ban)." [https://www.federalregister.gov/documents/2020/02/05/2020-02422/improving-enhanced-vetting-capabilities-and-processes-for-detecting-attempted-entry-into-the-united][ref_pp_9983_2020]
+- Rep. Nadler, Jerrold. 2022. "H.R.8404: 117th Congress (2021-2022): Respect for Marriage Act." [https://www.congress.gov/bill/117th-congress/house-bill/8404][ref_respect_for_marriage_2022]
+- "Roman Catholic Diocese of Brooklyn v. Cuomo, 592 U.S. \_\_\_ (2020)." 2020. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/592/20a87/][ref_diocese_brooklyn_cuomo_2020]
+- "SBC Dallas Charter." 2002. [https://www.usccb.org/committees/child-and-youth-protection/charter-protection-children-and-young-people][ref_dallas_charter_2002]
+- Sen. Kennedy, Edward M. 2007. "110th Congress (2007-2008): Refugee Crisis in Iraq Act." [https://www.congress.gov/bill/110th-congress/senate-bill/1651][ref_refugee_crisis_iraq_act_2008]
+- "Title 42 Public Health Order." 2020. [https://www.cdc.gov/quarantine/title-42.html][ref_title_42_order_2020]
+- Traditionis Custodes. 2021. "Apostolic Letter Issued “Motu Proprio” by the Supreme Pontiff Francis “Traditionis Custodes” on the Use of the Roman Liturgy Prior to the Reform of 1970, 16 July 2021." Accessed October 25, 2026. [https://www.vatican.va/content/francesco/en/motu\_proprio/documents/20210716-motu-proprio-traditionis-custodes.html][ref_traditionis_custodes_2021]
+- "Trump v. Hawaii, 585 U.S. \_\_\_ (2018)." 2018. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/585/17-965/][ref_trump_v_hawaii_2018]
+- "Update on Form I-134A." 2022. USCIS. Accessed October 25, 2026. [https://www.uscis.gov/humanitarian/uniting-for-ukraine][ref_uniting_for_ukraine_2022]
+- "USA PATRIOT Act." 2001. [https://www.congress.gov/bill/107th-congress/house-bill/3162][ref_usa_patriot_act_2001]
+- "USCCB Family Separation Statement." 2018. [https://www.usccb.org/news/2018/usccb-president-family-separation-immoral][ref_usccb_family_separation_2018]
+- "USCCB Iraq Statement." 2002. [https://www.usccb.org/committees/international-justice-peace/statements-iraq][ref_usccb_iraq_2002]
+- "USCCB Racism Statement." 2020. [https://www.usccb.org/racial-harmony][ref_usccb_racism_2020]
+- "Windsor v. United States." 2013. [https://supreme.justia.com/cases/federal/us/570/12-307/][ref_windsor_v_us_2013]
+- "Zubik v. Burwell, 578 U.S. \_\_\_ (2016)." 2016. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/578/14-1418/][ref_zubik_v_burwell_2016]
 
-- [303 Creative v. Elenis 2023][ref_303_creative_2023]
-- [9/11 Commission Report 2004][ref_9_11_commission_2004]
-- [Bell 2011 Love Wins][ref_bell_2011_love]
-- [Bostock v. Clayton County 2020][ref_bostock_v_clayton_2020]
-- [Boston Globe Spotlight 2002][ref_boston_globe_spotlight_2002]
-- [Burwell v. Hobby Lobby 2014][ref_burwell_v_hobby_lobby_2014]
-- [Bush 2001 Islamic Center Address][ref_bush_2001_islamic_center]
-- [Bush 2001 Joint Session Address][ref_bush_2001_joint_session]
-- [Bush 2002 Axis of Evil (State of the Union)][ref_bush_2002_axis_of_evil]
-- [Bush 2003 War Ultimatum][ref_bush_2003_war_ultimatum]
-- [DACA 2012 Deferred Action for Childhood Arrivals][ref_daca_2012]
-- [DHS v. Regents of University of California 2020][ref_dhs_v_regents_2020]
-- [Dawkins 2006 The God Delusion][ref_dawkins_2006_god]
-- [Dennett 2006 Breaking the Spell][ref_dennett_2006_spell]
-- [Dobbs v. Jackson 2022][ref_dobbs_v_jackson_2022]
-- [Diocese of Brooklyn v. Cuomo 2020][ref_diocese_brooklyn_cuomo_2020]
-- [Evangelii Gaudium 2013 Pope Francis Apostolic Exhortation][ref_evangelii_gaudium_2013]
-- [Evans 2015 Searching for Sunday][ref_evans_2015_searching]
-- [Executive Order 13769 2017 Muslim Ban][ref_executive_order_13769_2017]
-- [Executive Order 13780 2017 Muslim Ban Revised][ref_executive_order_13780_2017]
-- [Amoris Laetitia 2016 Pope Francis Apostolic Exhortation][ref_amoris_laetitia_2016]
-- [Fratelli Tutti 2020 Pope Francis Encyclical][ref_fratelli_tutti_2020]
-- [Goodridge v. Department of Public Health 2003][ref_goodridge_2003]
-- [Harris 2004 The End of Faith][ref_harris_2004_end]
-- [Hitchens 2007 God Is Not Great][ref_hitchens_2007_god]
-- [Houston Chronicle Abuse of Faith 2019][ref_houston_chronicle_2019]
-- [Iraqi Refugee Admissions Program 2007][ref_iraqi_refugee_program_2007]
-- [John Jay Report 2004][ref_john_jay_report_2004]
-- [John Jay Report 2011][ref_john_jay_report_2011]
-- [Laudato Si 2015 Pope Francis Encyclical][ref_laudato_si_2015]
-- [Little Sisters of the Poor v. Pennsylvania 2020][ref_little_sisters_2020]
-- [Masterpiece Cakeshop v. Colorado 2018][ref_masterpiece_cakeshop_2018]
-- [McCarrick Report 2020 (Vatican)][ref_mccarrick_report_2020]
-- [Obama 2008 A More Perfect Union Race Speech][ref_obama_2008_race_speech]
-- [Obergefell v. Hodges 2015][ref_obergefell_v_hodges_2015]
-- [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018]
-- [Presidential Proclamation 9645 2017 (Muslim Ban)][ref_pp_9645_2017]
-- [Presidential Proclamation 9983 2020 (Muslim Ban)][ref_pp_9983_2020]
-- [Refugee Crisis in Iraq Act 2008][ref_refugee_crisis_iraq_act_2008]
-- [Respect for Marriage Act 2022][ref_respect_for_marriage_2022]
-- [SBC Dallas Charter 2002][ref_dallas_charter_2002]
-- [SBC Guidepost Report 2022][ref_sbc_guidepost_2022]
-- [Title 42 Public Health Order 2020][ref_title_42_order_2020]
-- [Traditionis Custodes 2021 Pope Francis Motu Proprio][ref_traditionis_custodes_2021]
-- [UMC Protocol Agreement 2020][ref_umc_protocol_2020]
-- [Trump v. Hawaii 2018][ref_trump_v_hawaii_2018]
-- [Uniting for Ukraine 2022][ref_uniting_for_ukraine_2022]
-- [USA PATRIOT Act 2001][ref_usa_patriot_act_2001]
-- [USCCB Family Separation Statement 2018][ref_usccb_family_separation_2018]
-- [USCCB Iraq Statement 2002][ref_usccb_iraq_2002]
-- [USCCB Racism Statement 2020][ref_usccb_racism_2020]
-- [Windsor v. United States 2013][ref_windsor_v_us_2013]
-- [Zero Tolerance Policy 2018][ref_zero_tolerance_2018]
-- [Zubik v. Burwell 2016][ref_zubik_v_burwell_2016]
+### Secondary Sources
+
+- Alberta, Tim. 2019. *American Carnage: On the Front Lines of the Republican Civil War and the Rise of President Trump*. HarperCollins Publishers. [https://www.harpercollins.com/products/american-carnage-tim-alberta][book_alberta_2019]
+- Anguiano. 2023. *Latino Immigration*. [https://scholar.google.com/scholar?q=anguiano+2023+latino+immigration][book_anguiano_2023]
+- Arthur, John A. 2010. *African Diaspora Identities: Negotiating Culture in Transnational Migration*. Lexington Books. [https://openlibrary.org/works/OL19640499W][book_arthur_2010]
+- Ball, Carlos A. 2017. *First Amendment and LGBT Equality*. Harvard University Press. [https://global.oup.com/academic/product/the-first-amendment-and-lgbt-equality-9780674972193][book_ball_2017]
+- Balmer, Randall. 2021. *Bad Faith: Race and the Rise of the Religious Right*. Eerdmans Publishing Company, William B. [https://www.eerdmans.com/9780802879264/bad-faith/][book_balmer_2021_bad]
+- Barfield, Thomas. 2010. *Afghanistan a Cultural and Political History*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691154411/afghanistan][book_barfield_2010]
+- Beinart, Peter. 2024. *Being Jewish after the Destruction of Gaza*. Penguin Random House. [https://www.penguinrandomhouse.com/books/731739/being-jewish-after-the-destruction-of-gaza-by-peter-beinart/][book_beinart_2024_gaza]
+- Bergen, Peter. 2011. *The Longest War: The Enduring Conflict between America and Al-Qaeda*. Free Press. [https://www.simonandschuster.com/books/The-Longest-War/Peter-L-Bergen/9780743278942][book_bergen_2011]
+- Berry, Jason. 1992. *Lead Us Not into Temptation: Catholic Priests and the Sexual Abuse of Children*. Doubleday. [https://openlibrary.org/works/OL35965W][book_berry_1992]
+- Beydoun, Khaled A. 2018. *American Islamophobia: Understanding the Roots and Rise of Fear*. University of California Press. [https://www.ucpress.edu/book/9780520297791/american-islamophobia][book_beydoun_2018]
+- Bon Tempo. 2020. *Americans at the Gate*. [https://press.princeton.edu/books/paperback/9780691138114/americans-at-the-gate][book_bon_tempo_2020]
+- Bowler, Kate. 2013. *Blessed: A History of the American Prosperity Gospel*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/blessed-9780199827695][book_bowler_2013]
+- Burge, Ryan P. 2021. *The Nones: Where They Came from, Who They Are, and Where They Are Going*. Fortress Press. [https://fortresspress.com/9781506474823/the-nones/][book_burge_2021]
+- Butler, Anthea. 2021. *White Evangelical Racism: The Politics of Morality in America*. University of North Carolina Press. [https://uncpress.org/book/9781469661179/white-evangelical-racism/][book_butler_2021]
+- Byman, Daniel. 2022. *Spreading Hate: The Global Rise of White Supremacist Terrorism*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/spreading-hate-9780197537923][book_byman_2022]
+- Campbell, David E., Geoffrey C. Layman, and John C. Green. 2020. *Secular Surge: A New Fault Line in American Politics*. Cambridge University Press. [https://global.oup.com/academic/product/secular-surge-9781316518977][book_campbell_green_layman_2020]
+- Cebulko. 2018. *Documented Dreams (DACA)*. [https://global.oup.com/academic/product/documented-dreams-9781479811281][book_cebulko_2018_daca]
+- Chaves, Mark. 2011. *American Religion: Contemporary Trends*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691152233/american-religion][book_chaves_2011]
+- Chishti and Bolter. 2020. *Trump Administration Immigration Legacy*. [https://www.migrationpolicy.org/research/trump-administration-immigration-legacy][book_chishti_bolter_2020]
+- Chomsky. 2024. *Notes on Gaza*. [https://haymarketbooks.org/books/2073-notes-on-gaza][book_chomsky_2024_gaza]
+- Cimino, Richard P., and Smith. 2014. *Atheist Awakening*. [https://global.oup.com/academic/product/atheist-awakening-9780199986316][book_cimino_smith_2014]
+- Cohen, Cathy J. 2010. *Democracy Remixed*. Oxford University Press. [https://global.oup.com/academic/product/democracy-remixed-9780195378009][book_cohen_2010]
+- Cohn. 2019. *Trump v. Hawaii*. [https://scholar.google.com/scholar?q=cohn+2019+trump+v+hawaii][book_cohn_2019]
+- Coll, Steve. 2018. *Directorate S: The C. I. a. and America's Secret Wars in Afghanistan and Pakistan, 2001-2016*. Penguin Books, Limited. [https://www.penguinrandomhouse.com/books/230685/directorate-s-by-steve-coll/][book_coll_2018_directorate]
+- D'Antonio. 2016. *Betrayal*. [https://scholar.google.com/scholar?q=dantonio+2016+betrayal+catholic+abuse][book_dantonio_2016]
+- De Genova, Nicholas, and Peutz. 2010. *The Deportation Regime: Sovereignty, Space, and the Freedom of Movement*. Duke University Press. [https://www.dukeupress.edu/the-deportation-regime][book_de_genova_peutz_2010]
+- Dempsey, James X., James Dempsey, and David Cole. 2006. *Terrorism and the Constitution*. New Press, The. [https://www.thenewpress.com/books/terrorism-and-constitution][book_cole_dempsey_2006]
+- Djupe and Burge. 2022. *The Politics of Vaccine Hesitancy*. [https://scholar.google.com/scholar?q=djupe+burge+2022+vaccine+hesitancy][book_djupe_burge_2022]
+- Djupe and Wagner. 2022. *Christian Nationalism and January 6*. [https://scholar.google.com/scholar?q=djupe+wagner+2022+christian+nationalism+january+6][book_djupe_wagner_2022]
+- Elliott. 2011. *Park51 (Ground Zero Mosque)*. [https://scholar.google.com/scholar?q=elliott+2011+park51+ground+zero+mosque][book_elliott_2011_park51]
+- Faggioli. 2015. *Pope Francis*. [https://paulistpress.com/9780809148448/pope-francis/][book_faggioli_2015_francis]
+- Fea, John. 2018. *Believe Me: The Evangelical Road to Donald Trump*. Eerdmans Publishing Company, William B. [https://www.eerdmans.com/9780802876416/believe-me/][book_fea_2018]
+- Frank, Thomas. 2004. *What's the Matter with Kansas?: How Conservatives Won the Heart of America*. Metropolitan Books. [https://us.macmillan.com/books/9780805077742/whatsthematterwithkansas][book_frank_2004]
+- Frank, Nathaniel. 2017. *Awakening: How Gays and Lesbians Brought Marriage Equality to America*. Harvard University Press. [https://cambridge.org/9781107176102][book_frank_2017]
+- Frank, Thomas Edward. 2020. *Polity, Practice and Mission of the United Methodist Church Korean Edition*. Alban Books Limited. [https://www.abingdonpress.com/9781791013844/the-united-methodist-church/][book_frank_2020_umc]
+- Garcia-Ferrer. 2022. *Venezuelan Migration*. [https://scholar.google.com/scholar?q=garcia-ferrer+2022+venezuelan+migration][book_garcia_ferrer_2022]
+- Gorski, Philip S., and Samuel Perry. 2022. *Flag and the Cross: White Christian Nationalism and the Threat to American Democracy*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/the-flag-and-the-cross-9780197618677][book_gorski_perry_2022]
+- Harris, Sam. 2004. *The End of Faith: Religion, Terror, and the Future of Reason*. W.W. Norton & Company. [https://wwnorton.com/books/9780393327656][ref_harris_2004_end]
+- Harrison, Milmon F. 2005. *Righteous Riches: The Word of Faith Movement in Contemporary African American Religion*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/righteous-riches-9780195152913][book_harrison_2005]
+- Hitchens, Christopher. 2007. *God Is Not Great: How Religion Poisons Everything*. M&S. [https://twelvebooks.com/titles/christopher-hitchens/god-is-not-great/9780446579803/][ref_hitchens_2007_god]
+- Hondagneu-Sotelo, Pierrette. 2007. *Religion and Social Justice for Immigrants*. Rutgers University Press. [https://www.ucpress.edu/book/9780520253546/religion-and-social-justice-for-immigrants][book_hondagneu_sotelo_2007]
+- Hunt. 2022. *Methodism (Global Methodist Church)*. [https://scholar.google.com/scholar?q=hunt+2022+methodism+global+methodist][book_hunt_2022_gmc]
+- Ivereigh. 2014. *The Great Reformer (Pope Francis)*. [https://www.henryholt.com/9781627791571][book_ivereigh_2014_francis]
+- Jones, Robert P. 2016. *The End of White Christian America*. Simon & Schuster. [https://www.simonandschuster.com/books/The-End-of-White-Christian-America/Robert-P-Jones/9781501122293][book_jones_2016]
+- Kendi, Ibram X. 2019. *How to Be an Antiracist*. One World. [https://www.penguinrandomhouse.com/books/564299/how-to-be-an-antiracist-by-ibram-x-kendi/][book_kendi_2019]
+- Klarman, Michael J. 2013. *From the Closet to the Altar: Courts, Backlash, and the Struggle for Same-Sex Marriage*. Oxford University Press, USA. [https://global.oup.com/academic/product/from-the-closet-to-the-altar-9780199922109][book_klarman_2013]
+- Lal, Vinay. 2008. *The Other Indians: A Political and Cultural History of South Asians in America*. HarperCollins Publishers, India in joint venture with India Today Group. [https://global.oup.com/academic/product/the-other-indians-9780791475324][book_lal_2008]
+- Laycock, Douglas. 2018. *Religious Liberty, Volume 5: The Free Speech and Establishment Clauses*. Eerdmans Publishing Company, William B. [https://www.eerdmans.com/9780802876690/religious-liberty-volume-5/][book_laycock_2018]
+- LeDrew, Stephen. 2015. *The Evolution of Atheism: The Politics of a Modern Movement*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/the-evolution-of-atheism-9780199366439][book_ledrew_2015]
+- Lincoln, Bruce. 2003. *Holy Terrors: Thinking about Religion after September 11*. University Of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/H/bo3612614.html][book_lincoln_2003]
+- Marsh, Charles. 2007. *Wayward Christian Soldiers: Freeing the Gospel from Political Captivity*. Oxford University Press. [https://global.oup.com/academic/product/wayward-christian-soldiers-9780195382013][book_marsh_2007]
+- Miller. 2013. *The Political Voice of Black America*. [https://global.oup.com/academic/product/the-political-voice-of-black-america-9780199336036][book_miller_2013]
+- Miller. 2022. *The Battle for the American Mind*. [https://scholar.google.com/scholar?q=miller+2022+battle+american+mind+capitol][book_miller_2022_capitol]
+- Millhiser. 2020. *The Agenda*. [https://www.harpercollins.com/products/the-agenda-ian-millhiser][book_millhiser_2020]
+- Nicholls, Walter J. 2013. *The DREAMers: How the Undocumented Youth Movement Transformed the Immigrant Rights Debate*. Stanford University Press. [https://sup.org/books/title/?id=22608][book_nicholls_2013_dreamers]
+- Perry, Whitehead, and Grubbs. 2023. *Save the Souls*. [https://global.oup.com/academic/product/save-the-souls-9780197601013][book_perry_whitehead_grubbs_2023]
+- Prashad. 2020. *India's Search for National Efficiency*. [https://scholar.google.com/scholar?q=prashad+2020+india+national+efficiency][book_prashad_2020]
+- Rowland. 2017. *Catholic Theology (Pope Francis)*. [https://www.cambridge.org/9781316609934][book_rowland_2017_francis]
+- Sepper. 2014. *Free Exercise Lochnerism*. [https://scholar.google.com/scholar?q=sepper+2014+free+exercise+lochnerism][book_sepper_2014_religious]
+- Sinitiere, Phillip Luke. 2015. *Salvation with a Smile: Joel Osteen, Lakewood Church, and American Christianity*. New York University Press. [https://nyupress.org/9781479862498/salvation-with-a-smile/][book_sinitiere_2015]
+- Steinfels, Peter. 2003. *A People Adrift: The Crisis of the Roman Catholic Church in America*. Simon & Schuster. [https://www.simonandschuster.com/books/A-People-Adrift/Peter-Steinfels/9780743261418][book_steinfels_2003]
+- Stewart, Katherine. 2022. *The Power Worshippers: Inside the Dangerous Rise of Religious Nationalism*. Bloomsbury Publishing. [https://global.oup.com/academic/product/the-power-worshippers-9781635577860][book_stewart_2022]
+- Tisby. 2019. *The Color of Compromise*. [https://www.zondervan.com/9780310113607/the-color-of-compromise/][book_tisby_2019]
+- Toobin, Jeffrey. 2021. *The Nine: Inside the Secret World of the Supreme Court*. Anchor Books. [https://openlibrary.org/works/OL119176W][book_toobin_2021_court]
+- Traore. 2019. *African Immigrants*. [https://scholar.google.com/scholar?q=traore+2019+african+immigrants][book_traore_2019]
+- Wallis, Jim. 2005. *God's Politics: Why the Right Gets It Wrong and the Left Doesn't Get It*. HarperOne. [https://www.harpercollins.com/products/gods-politics-jim-wallis][book_wallis_2005]
+- Wehner, Peter. 2019. *The Death of Politics: How to Heal Our Frayed Republic after Trump*. HarperOne. [https://www.harpercollins.com/products/the-death-of-politics-peter-wehner][book_wehner_2019]
+- Whitehead, Andrew L., and Samuel L. Perry. 2020. *Taking America Back for God: Christian Nationalism in the United States*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/taking-america-back-for-god-9780197618646][book_whitehead_perry_2020]
+- Willmer. 2024. *He Gets Us Campaign*. [https://scholar.google.com/scholar?q=willmer+2024+he+gets+us][book_willmer_2024_hegetsus]
+- Wright, Lawrence. 2006. *The Looming Tower: Al-Qaeda and the Road to 9/11*. Knopf. [https://www.penguinrandomhouse.com/books/17739/the-looming-tower-by-lawrence-wright/][book_wright_2006]
+- Yankah. 2018. *African Immigrants and Religious Pluralism*. [https://global.oup.com/academic/product/african-immigrants-and-religious-pluralism-9780814725634][book_yankah_2018]
+- Ziegler, Mary. 2020. *Abortion and the Law in America: Roe V. Wade to the Present*. Cambridge University Press. [https://global.oup.com/academic/product/abortion-and-the-law-in-america-9781108844758][book_ziegler_2020]
+- Ziegler, Mary. 2022. *Dollars for Life: The Anti-Abortion Movement and the Fall of the Republican Establishment*. Yale University Press. [https://yalebooks.yale.edu/book/9780300260854/dollars-for-life/][book_ziegler_2022_dollars]
+
+### Commercial Sources
+
+- Bush. 2001a. "Islamic Center Address." [https://www.whitehouse.gov/news/releases/2001/09/20010917-11.html][ref_bush_2001_islamic_center]
+- Bush. 2001b. "Joint Session Address." [https://www.whitehouse.gov/news/releases/2001/09/20010920-8.html][ref_bush_2001_joint_session]
+- Bush. 2002. "Axis of Evil (State of the Union)." [https://www.whitehouse.gov/news/releases/2002/01/20020129-11.html][ref_bush_2002_axis_of_evil]
+
+### General Sources
+
+- "Abuse of Faith." 2019. Houston Chronicle. Accessed October 25, 2026. [https://www.houstonchronicle.com/news/investigations/abuse-of-faith/][ref_houston_chronicle_2019]
+- Bell. 2011. "Love Wins." HarperCollins. Accessed October 25, 2026. [https://www.harpercollins.com/products/love-wins-rob-bell][ref_bell_2011_love]
+- Bush. 2003. "War Ultimatum." [https://georgewbush-whitehouse.archives.gov/news/releases/2003/03/20030317-7.html][ref_bush_2003_war_ultimatum]
+- "Church Allowed Abuse by Priest for Years." 2002. *BostonGlobe.com*. Accessed October 25, 2026. [https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html][ref_boston_globe_spotlight_2002]
+- DACA. 2012. "Deferred Action for Childhood Arrivals (DACA)." U.S. Department of Homeland Security. Accessed October 25, 2026. [https://www.dhs.gov/deferred-action-childhood-arrivals-daca][ref_daca_2012]
+- Dawkins. 2006. "The God Delusion." HarperCollins. Accessed October 25, 2026. [https://www.harpercollins.com/products/the-god-delusion-richard-dawkins][ref_dawkins_2006_god]
+- Dennett. 2006. "Breaking the Spell." [https://www.penguinrandomhouse.com/books/291017/breaking-the-spell-by-daniel-c-dennett/][ref_dennett_2006_spell]
+- Evans. 2015. "Searching for Sunday." [https://www.harpercollins.com/products/searching-for-sunday-rachel-held-evans][ref_evans_2015_searching]
+- "Iraqi Refugee Admissions Program." 2007. [https://www.state.gov/refugee-admissions-program-for-the-near-east/][ref_iraqi_refugee_program_2007]
+- "National Commission on Terrorist Attacks upon the United States." 2004. Accessed October 25, 2026. [https://www.9-11commission.gov/report/][ref_9_11_commission_2004]
+- Obama. 2008. "A More Perfect Union Race Speech." [https://obamawhitehouse.archives.gov/blog/2008/03/18/a-more-perfect-union][ref_obama_2008_race_speech]
+- "Pennsylvania Grand Jury Report." 2018. [https://www.attorneygeneral.gov/report/][ref_pennsylvania_grand_jury_2018]
+- "SBC Guidepost Report." 2022. [https://www.guidepostsolutions.com/insights/reports/independent-third-party-investigation-southern-baptist-convention-executive-committee/][ref_sbc_guidepost_2022]
+- "UMC Protocol Agreement." 2020. [https://www.umnews.org/en/news/protocol-of-reconciliation-and-grace-through-separation][ref_umc_protocol_2020]
+- "Zero Tolerance Policy." 2018. [https://www.justice.gov/opa/press-release/file/1049751/download][ref_zero_tolerance_2018]
 
 ### Related Posts
 
-- [A266 Ethnoreligion Framing and Three Substrates][related_post_a266_framing]
-- [A267 Ethnoreligion Colonial Folkways and Early Diffusion][related_post_a267_colonial_folkways]
-- [A268 Ethnoreligion Awakening and Founding][related_post_a268_awakening_and_founding]
-- [A269 Ethnoreligion Second Awakening and Reform][related_post_a269_second_awakening_and_reform]
-- [A270 Ethnoreligion Civil War and Reconstruction][related_post_a270_civil_war_and_reconstruction]
-- [A271 Ethnoreligion Mass Immigration and Closure][related_post_a271_mass_immigration_and_closure]
-- [A272 Ethnoreligion Depression War and Refuge][related_post_a272_depression_war_and_refuge]
-- [A273 Ethnoreligion Postwar Transformation and Reopening][related_post_a273_postwar_transformation_and_reopening]
-- [A274 Ethnoreligion Diversification and Consolidation][related_post_a274_diversification_and_consolidation]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Indigenous, African, and European Ethnoreligious Substrates." *Brendan A R Sechter's Development Blog*, January 3. [https://sgeos.github.io/history/economics/religion/2026/01/03/ethnoreligion\_and\_american\_political\_economy\_framing.html][related_post_a266_framing]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contact, Colonial Folkways, and Early Diffusion 1607-1725." *Brendan A R Sechter's Development Blog*, January 4. [https://sgeos.github.io/history/economics/religion/2026/01/04/ethnoreligion\_and\_american\_political\_economy\_colonial\_folkways.html][related_post_a267_colonial_folkways]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Great Awakening, Revolution, and Founding 1725-1789." *Brendan A R Sechter's Development Blog*, January 5. [https://sgeos.github.io/history/economics/religion/2026/01/05/ethnoreligion\_and\_american\_political\_economy\_awakening\_and\_founding.html][related_post_a268_awakening_and_founding]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Second Great Awakening, Removal, and Antebellum Reform 1789-1861." *Brendan A R Sechter's Development Blog*, January 6. [https://sgeos.github.io/history/economics/religion/2026/01/06/ethnoreligion\_and\_american\_political\_economy\_second\_awakening\_and\_reform.html][related_post_a269_second_awakening_and_reform]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Civil War, Reconstruction, and Continental Consolidation 1861-1900." *Brendan A R Sechter's Development Blog*, January 7. [https://sgeos.github.io/history/economics/religion/2026/01/07/ethnoreligion\_and\_american\_political\_economy\_civil\_war\_and\_reconstruction.html][related_post_a270_civil_war_and_reconstruction]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Mass Immigration and Restrictionist Closure 1900-1924." *Brendan A R Sechter's Development Blog*, January 8. [https://sgeos.github.io/history/economics/religion/2026/01/08/ethnoreligion\_and\_american\_political\_economy\_mass\_immigration\_and\_closure.html][related_post_a271_mass_immigration_and_closure]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Depression, War, and Refuge 1924-1945." *Brendan A R Sechter's Development Blog*, January 9. [https://sgeos.github.io/history/economics/religion/2026/01/09/ethnoreligion\_and\_american\_political\_economy\_depression\_war\_and\_refuge.html][related_post_a272_depression_war_and_refuge]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Postwar Transformation and Reopening 1945-1980." *Brendan A R Sechter's Development Blog*, January 10. [https://sgeos.github.io/history/economics/religion/2026/01/10/ethnoreligion\_and\_american\_political\_economy\_postwar\_transformation\_and\_reopening.html][related_post_a273_postwar_transformation_and_reopening]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Full Diversification and Religious Right Consolidation 1980-2000." *Brendan A R Sechter's Development Blog*, January 11. [https://sgeos.github.io/history/economics/religion/2026/01/11/ethnoreligion\_and\_american\_political\_economy\_diversification\_and\_consolidation.html][related_post_a274_diversification_and_consolidation]
 
 [book_alberta_2019]: https://www.harpercollins.com/products/american-carnage-tim-alberta
 [book_anguiano_2023]: https://scholar.google.com/scholar?q=anguiano+2023+latino+immigration
-[book_arthur_2010]: https://scholar.google.com/scholar?q=arthur+2010+african+diaspora+identities
+[book_arthur_2010]: https://openlibrary.org/works/OL19640499W
 [book_ball_2017]: https://global.oup.com/academic/product/the-first-amendment-and-lgbt-equality-9780674972193
 [book_balmer_2021_bad]: https://www.eerdmans.com/9780802879264/bad-faith/
 [book_barfield_2010]: https://press.princeton.edu/books/paperback/9780691154411/afghanistan
 [book_beinart_2024_gaza]: https://www.penguinrandomhouse.com/books/731739/being-jewish-after-the-destruction-of-gaza-by-peter-beinart/
 [book_bergen_2011]: https://www.simonandschuster.com/books/The-Longest-War/Peter-L-Bergen/9780743278942
-[book_berry_1992]: https://scholar.google.com/scholar?q=berry+1992+lead+us+not+into+temptation
+[book_berry_1992]: https://openlibrary.org/works/OL35965W
 [book_beydoun_2018]: https://www.ucpress.edu/book/9780520297791/american-islamophobia
 [book_bon_tempo_2020]: https://press.princeton.edu/books/paperback/9780691138114/americans-at-the-gate
 [book_bowler_2013]: https://global.oup.com/academic/product/blessed-9780199827695
@@ -767,7 +775,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_steinfels_2003]: https://www.simonandschuster.com/books/A-People-Adrift/Peter-Steinfels/9780743261418
 [book_stewart_2022]: https://global.oup.com/academic/product/the-power-worshippers-9781635577860
 [book_tisby_2019]: https://www.zondervan.com/9780310113607/the-color-of-compromise/
-[book_toobin_2021_court]: https://scholar.google.com/scholar?q=toobin+2021+the+nine
+[book_toobin_2021_court]: https://openlibrary.org/works/OL119176W
 [book_traore_2019]: https://scholar.google.com/scholar?q=traore+2019+african+immigrants
 [book_wallis_2005]: https://www.harpercollins.com/products/gods-politics-jim-wallis
 [book_wehner_2019]: https://www.harpercollins.com/products/the-death-of-politics-peter-wehner

@@ -45,19 +45,19 @@ The [Rosenblatt 1958][research_rosenblatt_1958] Perceptron introduced the single
 
 The [Hubel and Wiesel 1962][research_hubel_wiesel_1962] receptive-field studies of the cat visual cortex identified the hierarchical organization of visual processing through simple, complex, and hypercomplex cells that respond to progressively more complex visual features. The model directly inspired the convolutional architecture of Fukushima 1980 Neocognitron and subsequently of the deep convolutional networks that dominate modern computer vision.
 
-Backpropagation of errors was independently developed several times before its 1986 popularization. The [Werbos 1974][research_werbos_1974] doctoral thesis introduced the algorithm as beyond regression, and the rediscovery through the [Rumelhart Hinton Williams 1986][research_rumelhart_hinton_williams_1986] paper subsequently popularized the treatment through the application to hidden-unit learning. The backpropagation framework introduced the algorithm for efficient gradient-based learning in multi-layer neural networks through the chain-rule propagation of error signals from output back through the layers,
+Backpropagation of errors was independently developed several times before its 1986 popularization. The [Werbos 1974][research_werbos_1974] doctoral thesis introduced the algorithm as beyond regression, and the rediscovery through the [Rumelhart et al. 1986][research_rumelhart_hinton_williams_1986] paper subsequently popularized the treatment through the application to hidden-unit learning. The backpropagation framework introduced the algorithm for efficient gradient-based learning in multi-layer neural networks through the chain-rule propagation of error signals from output back through the layers,
 
 $$\frac{\partial L}{\partial w_{ij}^{(l)}} = \frac{\partial L}{\partial a_j^{(l+1)}} \cdot \frac{\partial a_j^{(l+1)}}{\partial w_{ij}^{(l)}}$$
 
 with $w_{ij}^{(l)}$ the weight from unit $i$ to unit $j$ at layer $l$ and $a_j^{(l+1)}$ the activation at the next layer. The treatment provided the engineering foundation for modern deep learning while raising the biological-plausibility questions that continue to motivate research on alternative learning rules.
 
-The 1990s produced sizable deep learning progress through the development of convolutional neural networks by [LeCun Boser Denker Henderson Howard Hubbard Jackel 1989][research_lecun_et_al_1989] for digit recognition, providing the empirical validation that hierarchical processing supports the recognition of complex patterns. This account provided the direct architectural bridge from visual neuroscience to modern computer vision. Concurrent work on associative memory through the [Hopfield 1982][research_hopfield_1982] Neural Networks and Physical Systems with Emergent Collective Computational Abilities introduced the spin-glass-based framework for associative memory that continues to organize computational neuroscience research on cortical memory. Boltzmann machines of [Ackley Hinton Sejnowski 1985][research_ackley_hinton_sejnowski_1985] extended the model to generative modeling through the stochastic neural network trained by the contrastive-divergence learning rule.
+The 1990s produced sizable deep learning progress through the development of convolutional neural networks by [LeCun et al. 1989][research_lecun_et_al_1989] for digit recognition, providing the empirical validation that hierarchical processing supports the recognition of complex patterns. This account provided the direct architectural bridge from visual neuroscience to modern computer vision. Concurrent work on associative memory through the [Hopfield 1982][research_hopfield_1982] Neural Networks and Physical Systems with Emergent Collective Computational Abilities introduced the spin-glass-based framework for associative memory that continues to organize computational neuroscience research on cortical memory. Boltzmann machines of [Ackley et al. 1985][research_ackley_hinton_sejnowski_1985] extended the model to generative modeling through the stochastic neural network trained by the contrastive-divergence learning rule.
 
 Recurrent neural network research through the [Elman 1990][research_elman_1990_srn] Simple Recurrent Networks provided the framework for temporal processing that continues to organize modern language modeling and cognitive neuroscience research. NETtalk of [Sejnowski and Rosenberg 1987][research_sejnowski_rosenberg_1987] demonstrated the viability of neural networks for the text-to-speech conversion task and provided one of the first cognitive-scientifically-relevant demonstrations of the modern neural network framework.
 
-The renaissance of deep learning through the 2010s produced the modern NeuroAI research program. AlexNet of [Krizhevsky Sutskever Hinton 2012][research_krizhevsky_sutskever_hinton_2012] demonstrated that deep convolutional networks trained on large-scale image classification produce significantly better performance than prior computer vision methods, and the subsequent [Yamins Hong Cadieu Solomon Seibert DiCarlo 2014][research_yamins_et_al_2014] work documented that the resulting learned representations closely match those observed in the primate inferior temporal cortex. The account established the empirical foundation for modern NeuroAI through the demonstration that task-optimized deep networks produce brain-like representations.
+The renaissance of deep learning through the 2010s produced the modern NeuroAI research program. AlexNet of [Krizhevsky et al. 2012][research_krizhevsky_sutskever_hinton_2012] demonstrated that deep convolutional networks trained on large-scale image classification produce significantly better performance than prior computer vision methods, and the subsequent [Yamins et al. 2014][research_yamins_et_al_2014] work documented that the resulting learned representations closely match those observed in the primate inferior temporal cortex. The account established the empirical foundation for modern NeuroAI through the demonstration that task-optimized deep networks produce brain-like representations.
 
-The [Hassabis Kumaran Summerfield Botvinick 2017][research_hassabis_et_al_2017] Neuroscience-Inspired Artificial Intelligence article consolidated the modern NeuroAI research program and identified the research directions that continue to organize the field. The [Zador Escola Richards Ölveczky Bengio et al 2023][research_zador_et_al_2023] Catalyzing NeuroAI framework provided the modern grand-challenges statement that has substantially shaped subsequent research funding and institutional development.
+The [Hassabis et al. 2017][research_hassabis_et_al_2017] Neuroscience-Inspired Artificial Intelligence article consolidated the modern NeuroAI research program and identified the research directions that continue to organize the field. The [Zador et al. 2023][research_zador_et_al_2023] Catalyzing NeuroAI framework provided the modern grand-challenges statement that has substantially shaped subsequent research funding and institutional development.
 
 ## The Perceptron, Hebbian Learning, and Early Neural Networks
 
@@ -79,7 +79,7 @@ $$\Delta w_i = \eta \, y \, (x_i - y \, w_i)$$
 
 that maintain bounded weights while extracting the principal component of the input distribution. The treatment provided the computational bridge from correlational plasticity to unsupervised feature learning.
 
-The renaissance of connectionism through the 1980s produced the Parallel Distributed Processing framework of [Rumelhart McClelland and the PDP Research Group 1986][book_rumelhart_mcclelland_1986] Explorations in the Microstructure of Cognition. The two-volume treatise consolidated the connectionist framework and identified the advantages of distributed representations over the limitations of symbolic representations for modeling cognitive processes.
+The renaissance of connectionism through the 1980s produced the Parallel Distributed Processing framework of [Rumelhart McClelland PDP Group 1986][book_rumelhart_mcclelland_1986] Explorations in the Microstructure of Cognition. The two-volume treatise consolidated the connectionist framework and identified the advantages of distributed representations over the limitations of symbolic representations for modeling cognitive processes.
 
 The biological correspondence of these early neural network frameworks has been extensively studied. The perceptron admits biological interpretation as a simplified model of cortical neurons whose learning follows the pattern of error-driven synaptic plasticity, and the Hebbian frameworks admit direct biological interpretation through the patterns of long-term potentiation and long-term depression that have been extensively studied in the mammalian hippocampus and cortex.
 
@@ -105,19 +105,19 @@ $$r(f_{\text{CNN}}, f_{\text{brain}}) = \text{corr}(\text{RDM}(f_{\text{CNN}}), 
 
 where $\text{RDM}$ is the Representational Dissimilarity Matrix computed over stimulus pairs, and $r$ measures the correlation between CNN and brain representational geometries.
 
-Subsequent work including [Kriegeskorte 2015][research_kriegeskorte_2015] Deep Neural Networks and Computational Neuroscience consolidated this formulation and identified the research directions for using deep networks as models of cortical processing. [Cadena Denfield Walker Gatys Tolias Bethge Ecker 2019][research_cadena_et_al_2019] extended the treatment to the primary visual cortex and documented that task-optimized deep networks match V1 responses appreciably better than the Gabor-filter and divisive-normalization models that had previously dominated V1 modeling.
+Subsequent work including [Kriegeskorte 2015][research_kriegeskorte_2015] Deep Neural Networks and Computational Neuroscience consolidated this formulation and identified the research directions for using deep networks as models of cortical processing. [Cadena et al. 2019][research_cadena_et_al_2019] extended the treatment to the primary visual cortex and documented that task-optimized deep networks match V1 responses appreciably better than the Gabor-filter and divisive-normalization models that had previously dominated V1 modeling.
 
-Recurrent extensions of the account through [Nayebi Bear Kubilius Kar Ganguli Sussillo DiCarlo Yamins 2018][research_nayebi_et_al_2018] documented that recurrent connections improve the correspondence to biological visual processing, particularly for the delayed responses observed in the ventral visual pathway. The account provides evidence for the functional role of recurrence in cortical computation.
+Recurrent extensions of the account through [Nayebi et al. 2018][research_nayebi_et_al_2018] documented that recurrent connections improve the correspondence to biological visual processing, particularly for the delayed responses observed in the ventral visual pathway. The account provides evidence for the functional role of recurrence in cortical computation.
 
-Auditory extensions of this formulation through [Kell Yamins Shook Norman-Haignere McDermott 2018][research_kell_et_al_2018] demonstrated that task-optimized deep networks for speech and music recognition produce internal representations that match those observed in the primate auditory cortex. This formulation extended the CNN-cortex correspondence beyond vision and demonstrated the generality of the task-optimization framework.
+Auditory extensions of this formulation through [Kell et al. 2018][research_kell_et_al_2018] demonstrated that task-optimized deep networks for speech and music recognition produce internal representations that match those observed in the primate auditory cortex. This formulation extended the CNN-cortex correspondence beyond vision and demonstrated the generality of the task-optimization framework.
 
-CORnet of [Kubilius Schrimpf Kar Hong Majaj Rajalingham Issa Bashivan Kietzmann Prescott-Roy Geiger Schmidt Yamins DiCarlo 2019][research_kubilius_et_al_2019_cornet] introduced the brain-inspired recurrent CNN architecture that matches biological visual processing greatly better than pure feedforward CNNs of comparable size. This account demonstrates the advantages of biological-inspired architectural constraints on the correspondence to biological visual processing.
+CORnet of [Kubilius et al. 2018][research_kubilius_et_al_2019_cornet] introduced the brain-inspired recurrent CNN architecture that matches biological visual processing greatly better than pure feedforward CNNs of comparable size. This account demonstrates the advantages of biological-inspired architectural constraints on the correspondence to biological visual processing.
 
-Self-supervised deep networks of [Zhuang Yan Nayebi Schrimpf DiCarlo Yamins 2021][research_zhuang_et_al_2021] demonstrated that self-supervised training on natural images produces internal representations that match biological visual cortex considerably better than the supervised training on categorical labels. The framework has significantly reshaped subsequent understanding of the normative objectives that produce biological-like representations.
+Self-supervised deep networks of [Zhuang et al. 2021][research_zhuang_et_al_2021] demonstrated that self-supervised training on natural images produces internal representations that match biological visual cortex considerably better than the supervised training on categorical labels. The framework has significantly reshaped subsequent understanding of the normative objectives that produce biological-like representations.
 
 Contrastive learning as a cortical model of [Konkle and Alvarez 2022][research_konkle_alvarez_2022] extended the account to the contrastive-learning objectives and demonstrated the correspondences between contrastive-learning representations and biological ventral-stream representations. The Riesenhuber and Poggio 1999 [research_riesenhuber_poggio_1999_hmax] HMAX framework provided the earlier hierarchical model of object recognition inspired by the properties of ventral-stream visual processing. Face processing has been extensively studied through the frameworks including [Chang and Tsao 2017][research_chang_tsao_2017] Code for Facial Identity that identified the axis-based neural code for face identity in primate face patches.
 
-The [Doerig Sommers Seeliger Richards Ismael Lindsay Kording Kietzmann Konkle Kriegeskorte 2023][research_doerig_et_al_2023] Neuroconnectionist Research Programme framework consolidated the modern task-optimization approach to computational neuroscience and identified the research directions for using deep learning as a systematic tool for computational neuroscience.
+The [Doerig et al. 2023][research_doerig_et_al_2023] Neuroconnectionist Research Programme framework consolidated the modern task-optimization approach to computational neuroscience and identified the research directions for using deep learning as a systematic tool for computational neuroscience.
 
 ## Reinforcement Learning and the Dopamine System
 
@@ -125,7 +125,7 @@ The correspondence between reinforcement learning and the dopamine system repres
 
 Temporal difference learning of [Sutton 1988][research_sutton_1988_td_a263] introduced the learning-from-difference framework that provides the computational vocabulary through which the dopamine reward-prediction-error signal was subsequently understood. Q-learning of [Watkins 1989][research_watkins_1989_thesis_a263] doctoral thesis and the actor-critic framework of [Barto Sutton Anderson 1983][research_barto_sutton_anderson_1983] established the formal frameworks through which the biological reward system has subsequently been analyzed.
 
-The [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997] Neural Substrate of Prediction and Reward framework identified the correspondence between the reward-prediction-error signal of temporal-difference learning and the phasic firing of midbrain dopamine neurons. This formulation observed that dopamine neurons respond to unexpected rewards, transfer their response to predictive cues over training, and show a decrement below baseline when expected rewards are omitted, exactly as the temporal-difference framework predicts. The reward-prediction-error signal
+The [Schultz et al. 1997][research_schultz_dayan_montague_1997] Neural Substrate of Prediction and Reward framework identified the correspondence between the reward-prediction-error signal of temporal-difference learning and the phasic firing of midbrain dopamine neurons. This formulation observed that dopamine neurons respond to unexpected rewards, transfer their response to predictive cues over training, and show a decrement below baseline when expected rewards are omitted, exactly as the temporal-difference framework predicts. The reward-prediction-error signal
 
 $$\delta_t = r_t + \gamma \, V(s_{t+1}) - V(s_t)$$
 
@@ -133,11 +133,11 @@ matches the pattern of dopamine neuron responses across a broad range of experim
 
 The [Sutton and Barto 1998][book_sutton_barto_1998] Reinforcement Learning An Introduction (with its subsequent revised edition) consolidated the computational framework and identified the correspondence between actor-critic architectures and the division of labor between the basal ganglia and cortex. The treatment predicts functional roles for distinct dopaminergic and cortical circuits that continue to organize computational neuroscience research on reward-based learning.
 
-Distributional reinforcement learning of [Bellemare Dabney Munos 2017][research_bellemare_et_al_2017_distributional] extended the framework beyond scalar value estimation to distributional value estimation. The distributional Bellman operator
+Distributional reinforcement learning of [Dabney et al. 2018][research_bellemare_et_al_2017_distributional] extended the framework beyond scalar value estimation to distributional value estimation. The distributional Bellman operator
 
 $$\mathcal{T}^\pi Z(s, a) = R(s, a) + \gamma \, Z(s', a'), \quad a' \sim \pi(\cdot \mid s')$$
 
-evolves the full distribution $Z$ of returns rather than only its mean. The subsequent [Dabney Kurth-Nelson Uchida Starkweather Hassabis Munos Botvinick 2020][research_dabney_et_al_2020_dopamine] framework documented the empirical evidence that individual dopamine neurons encode different quantiles of the reward distribution through asymmetric learning rates
+evolves the full distribution $Z$ of returns rather than only its mean. The subsequent [Dabney et al. 2020][research_dabney_et_al_2020_dopamine] framework documented the empirical evidence that individual dopamine neurons encode different quantiles of the reward distribution through asymmetric learning rates
 
 $$\delta_t^{(\tau)} = \begin{cases} \alpha^+ (r_t + \gamma V(s_{t+1}) - V_\tau(s_t)) & \text{if } r_t + \gamma V(s_{t+1}) > V_\tau(s_t) \\ \alpha^- (r_t + \gamma V(s_{t+1}) - V_\tau(s_t)) & \text{otherwise} \end{cases}$$
 
@@ -147,9 +147,9 @@ The Botvinick Ritter Wang Kurth-Nelson Blundell Hassabis 2019 [research_botvinic
 
 The [Niv 2009][research_niv_2009] reinforcement learning in the brain review consolidated the pre-2010s literature and identified the correspondences between temporal-difference learning components and neural circuits. The account has been extensively updated through subsequent work but continues to provide the systematic taxonomy of the reinforcement-learning-neuroscience correspondence. The [Doya 2000][research_doya_2000] Computational Neuroscience of Reinforcement Learning framework provided the earlier systematic treatment that identified the correspondences between the algorithmic components of reinforcement learning and neural circuits.
 
-Model-based versus model-free arbitration in the human brain was systematically studied by [Daw Gershman Seymour Dayan Dolan 2011][research_daw_et_al_2011] through the two-step decision task that dissociates the two learning strategies. The model provides quantitative evidence for the behavioral and neural correlates of both model-based and model-free reinforcement learning in humans and continues to organize substantial subsequent research.
+Model-based versus model-free arbitration in the human brain was systematically studied by [Daw et al. 2011][research_daw_et_al_2011] through the two-step decision task that dissociates the two learning strategies. The model provides quantitative evidence for the behavioral and neural correlates of both model-based and model-free reinforcement learning in humans and continues to organize substantial subsequent research.
 
-Causal evidence for the role of dopamine in reward-prediction-error learning was provided by [Steinberg Keiflin Boivin Witten Deisseroth Janak 2013][research_steinberg_et_al_2013] through the optogenetic manipulation experiments that demonstrated the direct causal effect of dopamine activation on associative learning. The [Eshel Bukwich Rao Vemuri Tian Uchida 2015][research_eshel_et_al_2015] arithmetic-and-local-circuitry framework provided the mechanistic account of dopamine reward-prediction-error computation through the canonical arithmetic operation performed by the VTA circuit.
+Causal evidence for the role of dopamine in reward-prediction-error learning was provided by [Steinberg et al. 2013][research_steinberg_et_al_2013] through the optogenetic manipulation experiments that demonstrated the direct causal effect of dopamine activation on associative learning. The [Eshel et al. 2015][research_eshel_et_al_2015] arithmetic-and-local-circuitry framework provided the mechanistic account of dopamine reward-prediction-error computation through the canonical arithmetic operation performed by the VTA circuit.
 
 The actor-critic architecture in which distinct systems compute state values and action policies admits correspondence to the division of labor between ventral striatum (as critic) and dorsolateral striatum (as actor). The policy gradient theorem underlying this framework computes
 
@@ -161,7 +161,7 @@ with $A^\pi(s, a) = Q^\pi(s, a) - V^\pi(s)$ the advantage function estimated by 
 
 Recurrent Neural Networks (RNNs) provide the computational framework through which the prefrontal cortex has been modeled. This formulation connects modern deep learning to the empirical literature on cognitive control, working memory, and decision-making in prefrontal circuits.
 
-The [Mante Sussillo Shenoy Newsome 2013][research_mante_et_al_2013] Context-Dependent Computation by Recurrent Dynamics framework introduced the approach of training recurrent networks on the same behavioral tasks used in monkey neurophysiology and comparing the resulting network dynamics to those observed in the biological prefrontal cortex. The treatment demonstrated that trained networks reproduce the patterns of context-dependent computation observed in the biological system through the dynamics of low-dimensional attractor states.
+The [Mante et al. 2013][research_mante_et_al_2013] Context-Dependent Computation by Recurrent Dynamics framework introduced the approach of training recurrent networks on the same behavioral tasks used in monkey neurophysiology and comparing the resulting network dynamics to those observed in the biological prefrontal cortex. The treatment demonstrated that trained networks reproduce the patterns of context-dependent computation observed in the biological system through the dynamics of low-dimensional attractor states.
 
 The [Sussillo and Barak 2013][research_sussillo_barak_2013] Opening the Black Box framework introduced the techniques for analyzing trained RNN dynamics through the identification of fixed points, slow points, and dynamical structure. The general RNN dynamics take the form
 
@@ -169,13 +169,13 @@ $$h_{t+1} = f(W_h h_t + W_x x_t + b), \quad y_t = g(W_y h_t)$$
 
 with $h_t$ the hidden state, $x_t$ the input, $y_t$ the output, and fixed points $h^\*$ satisfying $h^\* = f(W_h h^\* + W_x x^\* + b)$. This account has substantially shaped subsequent computational neuroscience research by providing the analytical tools for understanding trained network computation through the classification of fixed points by the eigenvalues of the linearized dynamics at each fixed point.
 
-Task-trained RNNs as models of prefrontal cortex have been extensively developed through [Song Yang Wang 2016][research_song_yang_wang_2016] and the extensive subsequent literature. The [Yang Joglekar Song Newsome Wang 2019][research_yang_et_al_2019] Task Representations in Neural Networks Trained to Perform Many Cognitive Tasks framework documented that a single RNN trained on many cognitive tasks develops task-representations that correspond to those observed in the biological prefrontal cortex.
+Task-trained RNNs as models of prefrontal cortex have been extensively developed through [Song et al. 2016][research_song_yang_wang_2016] and the extensive subsequent literature. The [Yang et al. 2019][research_yang_et_al_2019] Task Representations in Neural Networks Trained to Perform Many Cognitive Tasks framework documented that a single RNN trained on many cognitive tasks develops task-representations that correspond to those observed in the biological prefrontal cortex.
 
 Working memory in RNNs has been extensively studied through the mechanisms by which persistent activity supports the maintenance of task-relevant information across delay periods. The framework predicts patterns of persistent activity and decay dynamics that have been extensively documented in biological prefrontal cortex.
 
-The correspondence between RNN dynamics and biological cortical dynamics extends beyond prefrontal cortex to motor cortex, parietal cortex, and other cortical areas. The [Sussillo Churchland Kaufman Shenoy 2015][research_sussillo_et_al_2015] framework for motor cortex demonstrated that task-trained RNNs produce dynamical signatures that closely match those observed in the biological motor cortex during reaching movements.
+The correspondence between RNN dynamics and biological cortical dynamics extends beyond prefrontal cortex to motor cortex, parietal cortex, and other cortical areas. The [Sussillo et al. 2015][research_sussillo_et_al_2015] framework for motor cortex demonstrated that task-trained RNNs produce dynamical signatures that closely match those observed in the biological motor cortex during reaching movements.
 
-The [Vyas Golub Sussillo Shenoy 2020][research_vyas_et_al_2020] Computation Through Neural Population Dynamics framework consolidated the modern population-dynamics perspective on cortical computation and identified the ways in which the neural population dynamics framework unifies sizable portions of the modern cortical neurophysiology literature.
+The [Vyas et al. 2020][research_vyas_et_al_2020] Computation Through Neural Population Dynamics framework consolidated the modern population-dynamics perspective on cortical computation and identified the ways in which the neural population dynamics framework unifies sizable portions of the modern cortical neurophysiology literature.
 
 Random RNN dynamics of [Rajan and Abbott 2006][research_rajan_abbott_2006] provided the theoretical framework for the analysis of RNN dynamics in the strongly-recurrent regime, identifying the phase transitions between quiescent and chaotic dynamics that characterize random recurrent networks. The account has markedly influenced the theoretical treatment of trained RNN dynamics.
 
@@ -189,7 +189,7 @@ Neural manifolds are the low-dimensional subspaces of the high-dimensional neura
 
 The [Cunningham and Yu 2014][research_cunningham_yu_2014] Dimensionality Reduction for Large-Scale Neural Recordings framework consolidated the modern approach to characterizing high-dimensional neural population activity through the low-dimensional latent variables that capture the task-relevant structure. The treatment provides the systematic methodological foundation for the population-geometry perspective on cortical computation.
 
-The [Gallego Perich Miller Solla 2017][research_gallego_et_al_2017] Neural Manifolds for the Control of Movement framework proposed that motor behavior is generated through the traversal of task-relevant neural manifolds rather than through the activity of individual neurons. This account has considerable empirical support from studies of motor cortex during reaching movements and has greatly reshaped subsequent motor neurophysiology research.
+The [Gallego et al. 2017][research_gallego_et_al_2017] Neural Manifolds for the Control of Movement framework proposed that motor behavior is generated through the traversal of task-relevant neural manifolds rather than through the activity of individual neurons. This account has considerable empirical support from studies of motor cortex during reaching movements and has greatly reshaped subsequent motor neurophysiology research.
 
 The manifold hypothesis states that the effective dimensionality of neural population activity is considerably lower than the neuron count, and that the low-dimensional structure is task-related. Formally, if the neural population activity $\mathbf{r}(t) \in \mathbb{R}^N$ has effective dimensionality $d \ll N$, then
 
@@ -197,7 +197,7 @@ $$\mathbf{r}(t) \approx \mu + \sum_{k=1}^{d} \alpha_k(t) \, \mathbf{v}_k$$
 
 with $\mu$ the mean activity, $\mathbf{v}\_k$ basis vectors defining the manifold, and $\alpha_k(t)$ the time-varying manifold coordinates that capture the task-relevant dynamics.
 
-Manifold capacity of [Chung Lee Sompolinsky 2018][research_chung_lee_sompolinsky_2018] extended the treatment to the theoretical characterization of the representational capacity of neural manifolds. The framework provides the theoretical bridge between geometric properties of neural manifolds and the classification and generalization capabilities they support.
+Manifold capacity of [Chung et al. 2018][research_chung_lee_sompolinsky_2018] extended the treatment to the theoretical characterization of the representational capacity of neural manifolds. The framework provides the theoretical bridge between geometric properties of neural manifolds and the classification and generalization capabilities they support.
 
 The [Chung and Abbott 2021][research_chung_abbott_2021] Neural Population Geometry review consolidated the modern population geometry framework and identified the research directions that continue to organize the field. The model provides the systematic taxonomy of the geometric properties that characterize task-relevant neural population activity.
 
@@ -217,7 +217,7 @@ with recurrent parameters $\theta$ trained slowly through dopaminergic reward-pr
 
 The account predicts patterns of prefrontal cortex behavior including the transitions between exploration and exploitation, the patterns of task-inference behavior, and the developmental trajectory of meta-learning capacity. Empirical support includes studies of prefrontal cortex activity during rapid task acquisition and studies of prefrontal cortex damage that produce deficits in rapid learning.
 
-The [Duan Schulman Chen Bartlett Sutskever Abbeel 2016][research_duan_et_al_2016_rl2_a263] RL-squared and [Wang Kurth-Nelson Tirumala Soyer Leibo Munos Blundell Kumaran Botvinick 2016][research_wang_et_al_2016_l2rl_a263] Learning to Reinforcement Learn frameworks provided the machine learning meta-reinforcement learning frameworks that the prefrontal cortex is proposed to implement. The frameworks demonstrate that recurrent policies trained on task distributions display many hallmarks of efficient reinforcement learning at test time, including exploration and adaptation patterns that were not directly trained.
+The [Duan et al. 2016][research_duan_et_al_2016_rl2_a263] RL-squared and [Wang et al. 2016][research_wang_et_al_2016_l2rl_a263] Learning to Reinforcement Learn frameworks provided the machine learning meta-reinforcement learning frameworks that the prefrontal cortex is proposed to implement. The frameworks demonstrate that recurrent policies trained on task distributions display many hallmarks of efficient reinforcement learning at test time, including exploration and adaptation patterns that were not directly trained.
 
 The bidirectional exchange of the meta-learning-prefrontal-cortex correspondence provides a paradigmatic example of NeuroAI. Machine learning provides the formal framework through which prefrontal cortex behavior can be understood, and neuroscience provides the empirical constraints and existence proofs through which candidate meta-learning frameworks can be validated. The correspondence continues to shape both fields through the mutual constraint of computational and empirical considerations.
 
@@ -247,7 +247,7 @@ World models provide the computational framework through which the hippocampus a
 
 Place cells were discovered by [O'Keefe and Dostrovsky 1971][research_okeefe_dostrovsky_1971] through the electrophysiological studies of the hippocampus during exploration behavior. The [O'Keefe and Nadel 1978][book_okeefe_nadel_1978] Hippocampus as a Cognitive Map framework consolidated the role of the hippocampus in spatial representation and established the research program that continues to organize hippocampal neurophysiology. The [Buzsáki and Moser 2013][research_buzsaki_moser_2013] Memory Navigation and Theta Rhythm framework provided the modern systematic treatment of the bridge between spatial navigation and memory function in the hippocampal system.
 
-The [Behrens Muller Whittington Mark Baram Stachenfeld Kurth-Nelson 2018][research_behrens_et_al_2018_cognitive_maps] What Is a Cognitive Map framework consolidated the modern computational neuroscience treatment of the hippocampus as a system for representing and using structured knowledge across many domains. This formulation proposes that the spatial cognitive maps identified in classical neurophysiology generalize to abstract relational maps that support the patterns of flexible behavior observed across many species.
+The [Behrens et al. 2018][research_behrens_et_al_2018_cognitive_maps] What Is a Cognitive Map framework consolidated the modern computational neuroscience treatment of the hippocampus as a system for representing and using structured knowledge across many domains. This formulation proposes that the spatial cognitive maps identified in classical neurophysiology generalize to abstract relational maps that support the patterns of flexible behavior observed across many species.
 
 Successor representations of [Dayan 1993][research_dayan_1993_sr] introduced the reinforcement learning framework in which states are represented by the expected future occupancy of other states,
 
@@ -255,13 +255,13 @@ $$M(s, s') = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t \, \mathbb{1}[s_t = 
 
 with $M$ the successor representation matrix and $\gamma$ the discount factor. The treatment provides a alternative to both model-free and model-based reinforcement learning that supports rapid value computation while retaining structural information about the transition dynamics.
 
-The [Stachenfeld Botvinick Gershman 2017][research_stachenfeld_botvinick_gershman_2017] Hippocampus as a Predictive Map framework proposed that the hippocampal place cell system implements the successor representation, providing a computational account of the hippocampal function that unifies spatial and non-spatial hippocampal roles. Under the successor representation, the value function factors as
+The [Stachenfeld et al. 2017][research_stachenfeld_botvinick_gershman_2017] Hippocampus as a Predictive Map framework proposed that the hippocampal place cell system implements the successor representation, providing a computational account of the hippocampal function that unifies spatial and non-spatial hippocampal roles. Under the successor representation, the value function factors as
 
 $$V^\pi(s) = \sum_{s'} M^\pi(s, s') \, R(s')$$
 
 with $M^\pi$ the policy-conditioned successor representation and $R$ the state-reward function. This account has appreciable empirical support and provides testable predictions about the patterns of hippocampal activity that should be observed under different task conditions.
 
-The [Momennejad Russek Cheong Botvinick Daw Gershman 2017][research_momennejad_et_al_2017] Successor Representation in Human Learning framework provided the empirical evidence for successor-representation-consistent behavior in human learning, providing further support for the computational role of the hippocampus in flexible predictive representation. The [Mattar and Daw 2018][research_mattar_daw_2018_a263] Prioritized Memory Access framework proposed that hippocampal replay implements a prioritized-experience-replay strategy that maximizes the expected value of the resulting learning, providing the computational bridge between hippocampal replay and modern reinforcement learning replay buffers.
+The [Momennejad et al. 2017][research_momennejad_et_al_2017] Successor Representation in Human Learning framework provided the empirical evidence for successor-representation-consistent behavior in human learning, providing further support for the computational role of the hippocampus in flexible predictive representation. The [Mattar and Daw 2018][research_mattar_daw_2018_a263] Prioritized Memory Access framework proposed that hippocampal replay implements a prioritized-experience-replay strategy that maximizes the expected value of the resulting learning, providing the computational bridge between hippocampal replay and modern reinforcement learning replay buffers.
 
 The framework connects the classical hippocampus-and-memory literature to modern reinforcement learning through the shared computational vocabulary of predictive representation. The bidirectional exchange has substantially reshaped both computational neuroscience and machine learning through the shared emphasis on the structural properties that support flexible generalization.
 
@@ -269,17 +269,17 @@ The framework connects the classical hippocampus-and-memory literature to modern
 
 Grid cells provide one of the most striking correspondences between biological neural computation and artificial neural network structure. The account connects the classical spatial neurophysiology to modern deep reinforcement learning through the emergence of grid-cell-like representations in artificial networks trained on navigation tasks.
 
-The [Hafting Fyhn Molden Moser Moser 2005][research_hafting_et_al_2005_grid] Microstructure of Spatial Map identified the grid cells in the medial entorhinal cortex that fire at the vertices of a triangular grid tiling the environment. The grid-cell response as a function of position takes the form
+The [Hafting et al. 2005][research_hafting_et_al_2005_grid] Microstructure of Spatial Map identified the grid cells in the medial entorhinal cortex that fire at the vertices of a triangular grid tiling the environment. The grid-cell response as a function of position takes the form
 
 $$g_k(\mathbf{x}) = \sum_{i=1}^{3} \cos\!\left(\mathbf{k}_i \cdot (\mathbf{x} - \mathbf{x}_0^{(k)})\right)$$
 
 with $\mathbf{k}\_i$ three wavevectors at $60^\circ$ rotational offset that produce the triangular grid pattern, $\mathbf{x}$ the current position, and $\mathbf{x}\_0^{(k)}$ the grid phase offset for cell $k$. The model revolutionized spatial neuroscience by identifying the representational structure that supports mammalian spatial cognition.
 
-The [Banino Barry Uria Blundell et al 2018][research_banino_et_al_2018_grid] Vector-Based Navigation Using Grid-Like Representations framework demonstrated that recurrent networks trained on navigation tasks spontaneously develop grid-cell-like representations that support the patterns of vector-based navigation observed in biological systems. This formulation provided one of the strongest existence proofs for the NeuroAI research program by demonstrating that biological neural representations emerge from task-optimization in artificial systems.
+The [Banino et al. 2018][research_banino_et_al_2018_grid] Vector-Based Navigation Using Grid-Like Representations framework demonstrated that recurrent networks trained on navigation tasks spontaneously develop grid-cell-like representations that support the patterns of vector-based navigation observed in biological systems. This formulation provided one of the strongest existence proofs for the NeuroAI research program by demonstrating that biological neural representations emerge from task-optimization in artificial systems.
 
-The [Cueva and Wei 2018][research_cueva_wei_2018] Emergence of Grid-Like Representations framework provided the concurrent independent demonstration of grid-cell emergence in trained networks, and the subsequent [Sorscher Mel Ganguli Ocko 2019][research_sorscher_et_al_2019] Unified Theory framework identified the normative principles that predict when grid-cell-like representations should emerge from task-optimization.
+The [Cueva and Wei 2018][research_cueva_wei_2018] Emergence of Grid-Like Representations framework provided the concurrent independent demonstration of grid-cell emergence in trained networks, and the subsequent [Sorscher et al. 2019][research_sorscher_et_al_2019] Unified Theory framework identified the normative principles that predict when grid-cell-like representations should emerge from task-optimization.
 
-The [Whittington Muller Mark Chen Barry Burgess Behrens 2020][research_whittington_et_al_2020_tem] Tolman-Eichenbaum Machine framework extended the grid-cell framework to a unified computational model of the hippocampal-entorhinal system that supports both spatial and non-spatial relational reasoning. The treatment provides a computational instantiation of the Behrens et al 2018 cognitive maps framework and has considerable empirical support from studies of hippocampal-entorhinal activity across many task domains.
+The [Whittington et al. 2020][research_whittington_et_al_2020_tem] Tolman-Eichenbaum Machine framework extended the grid-cell framework to a unified computational model of the hippocampal-entorhinal system that supports both spatial and non-spatial relational reasoning. The treatment provides a computational instantiation of the Behrens et al 2018 cognitive maps framework and has considerable empirical support from studies of hippocampal-entorhinal activity across many task domains.
 
 Grid cells and place cells provide the empirical validation of the modern NeuroAI research program. The emergence of biological neural representations from task-optimization in artificial networks demonstrates that the structural properties of neural computation can be predicted from the computational requirements of the tasks the biological brain solves, providing the systematic bridge between neuroscience and machine learning.
 
@@ -287,7 +287,7 @@ Grid cells and place cells provide the empirical validation of the modern NeuroA
 
 The Complementary Learning Systems (CLS) framework provides the neuroscientific framework for the continual learning treatments of article ten. This account proposes that mammalian memory arises from the interaction of two distinct learning systems, providing the biological grounding for modern continual learning approaches.
 
-The [McClelland McNaughton O'Reilly 1995][research_mcclelland_mcnaughton_oreilly_1995_a263] Complementary Learning Systems framework proposed the two-system architecture in which the hippocampus provides fast episodic learning of individual experiences while the neocortex provides slow gradual learning of statistical regularities through hippocampal replay during rest and sleep. The framework resolves the stability-plasticity dilemma by dedicating distinct neural substrates to the two demands.
+The [McClelland et al. 1995][research_mcclelland_mcnaughton_oreilly_1995_a263] Complementary Learning Systems framework proposed the two-system architecture in which the hippocampus provides fast episodic learning of individual experiences while the neocortex provides slow gradual learning of statistical regularities through hippocampal replay during rest and sleep. The framework resolves the stability-plasticity dilemma by dedicating distinct neural substrates to the two demands.
 
 The account has significant empirical support from studies of hippocampal amnesia patients whose pattern of memory impairment matches the treatment's predictions. The temporally-graded retrograde amnesia observed in these patients, in which memories closer to the hippocampal lesion are more affected than memories from long before the lesion, provides direct empirical support for the consolidation dynamics predicted by the framework. Formally, the CLS framework describes a two-timescale update in which fast hippocampal traces $M_{\text{hipp}}$ update rapidly with each experience and slow cortical parameters $\theta_{\text{cortex}}$ update through interleaved replay,
 
@@ -295,9 +295,9 @@ $$M_{\text{hipp}}^{t+1} = M_{\text{hipp}}^t + \alpha_{\text{fast}} \, \epsilon_t
 
 with $\alpha_{\text{fast}} \gg \alpha_{\text{slow}}$ enforcing the two-timescale structure that resolves the plasticity-stability dilemma.
 
-The [Kumaran Hassabis McClelland 2016][research_kumaran_hassabis_mcclelland_2016_a263] revised CLS framework extended the original framework with the observation that rapid learning of new information consistent with prior structure occurs directly in cortex, while radical departures from prior structure require the hippocampal system. The revision aligns closely with the observation in machine continual learning that within-distribution updates are less prone to forgetting than out-of-distribution updates.
+The [Kumaran et al. 2016][research_kumaran_hassabis_mcclelland_2016_a263] revised CLS framework extended the original framework with the observation that rapid learning of new information consistent with prior structure occurs directly in cortex, while radical departures from prior structure require the hippocampal system. The revision aligns closely with the observation in machine continual learning that within-distribution updates are less prone to forgetting than out-of-distribution updates.
 
-Modern deep learning implementations of the CLS framework provide the machine learning instantiations that connect the biological framework to modern engineering practice. The experience replay methods of article seven and article ten provide the direct machine learning implementations of the hippocampal replay function, and the slow-consolidation methods provide the machine learning implementations of the neocortical consolidation function. The biological replay literature has been extensively developed through [Foster and Wilson 2006][research_foster_wilson_2006_a263] documentation of reverse replay in hippocampus, the [Ji and Wilson 2007][research_ji_wilson_2007] coordinated hippocampal-cortical replay observations, and the [Louie and Wilson 2001][research_louie_wilson_2001] REM-sleep replay documentation. The treatment provides the bridge from cellular-level empirical observations to computational-level engineering applications.
+Modern deep learning implementations of the CLS framework provide the machine learning instantiations that connect the biological framework to modern engineering practice. The experience replay methods of article seven and article ten provide the direct machine learning implementations of the hippocampal replay function, and the slow-consolidation methods provide the machine learning implementations of the neocortical consolidation function. The biological replay literature has been extensively developed through [Foster and Wilson 2006][research_foster_wilson_2006_a263] documentation of reverse replay in hippocampus, the [Ji and Wilson 2006][research_ji_wilson_2007] coordinated hippocampal-cortical replay observations, and the [Louie and Wilson 2001][research_louie_wilson_2001] REM-sleep replay documentation. The treatment provides the bridge from cellular-level empirical observations to computational-level engineering applications.
 
 The bidirectional exchange of the CLS framework provides another paradigmatic example of NeuroAI. This account was developed from empirical constraints on biological memory and subsequently provided the theoretical foundation for the engineering solutions in modern continual learning. The engineering successes in turn provide the computational validation of the biological framework.
 
@@ -305,7 +305,7 @@ The bidirectional exchange of the CLS framework provides another paradigmatic ex
 
 Attention mechanisms in deep learning provide a correspondence to biological attention through the shared computational principle of selective processing. The framework connects modern transformer architectures to the empirical literature on selective attention in biological systems.
 
-The [Bahdanau Cho Bengio 2015][research_bahdanau_cho_bengio_2015] Neural Machine Translation with Attention framework introduced the attention mechanism that enables neural networks to selectively attend to input elements. The dot-product attention that dominates modern transformer architectures computes
+The [Bahdanau et al. 2014][research_bahdanau_cho_bengio_2015] Neural Machine Translation with Attention framework introduced the attention mechanism that enables neural networks to selectively attend to input elements. The dot-product attention that dominates modern transformer architectures computes
 
 $$\text{Attention}(Q, K, V) = \text{softmax}\!\left(\frac{Q K^\top}{\sqrt{d_k}}\right) V$$
 
@@ -313,7 +313,7 @@ with $Q, K, V$ the query, key, and value matrices and $d_k$ the key dimensionali
 
 The correspondence between attention in deep learning and biological attention has been extensively studied. Biological attention is characterized by the selective modulation of neural responses to task-relevant stimuli, and attention in deep learning implements the selective modulation of processing based on relevance to the current computation. The correspondences at the computational-principle level are substantial, though the implementational details differ markedly between the artificial and biological systems. The [Desimone and Duncan 1995][research_desimone_duncan_1995] biased competition framework provided the neuroscientific account of selective attention through the competitive interactions among cortical representations, and the [Reynolds and Chelazzi 2004][research_reynolds_chelazzi_2004] attentional modulation review consolidated the marked empirical literature on attention as gain modulation.
 
-The [Vaswani Shazeer Parmar Uszkoreit Jones Gomez Kaiser Polosukhin 2017][research_vaswani_et_al_2017] Attention Is All You Need framework introduced the transformer architecture that has appreciably reshaped modern deep learning and provided the architectural substrate for the modern language models that have been increasingly used as models of biological language processing.
+The [Vaswani et al. 2017][research_vaswani_et_al_2017] Attention Is All You Need framework introduced the transformer architecture that has appreciably reshaped modern deep learning and provided the architectural substrate for the modern language models that have been increasingly used as models of biological language processing.
 
 The [Lindsay 2020][research_lindsay_2020_attention] Attention in Psychology Neuroscience and Machine Learning framework provided the systematic review of the relationships between attention in the three fields. The model identifies the computational principles that unify the three treatments and the differences in implementation and terminology that must be reconciled.
 
@@ -353,7 +353,7 @@ Large language models (LLMs) provide the computational framework through which t
 
 The [Toneva and Wehbe 2019][research_toneva_wehbe_2019] Interpreting and Improving Natural Language Processing framework provided the initial systematic demonstration that language model representations predict fMRI responses to naturalistic language stimuli. The treatment demonstrated that transformer language models produce internal representations that closely match those observed in the language cortex.
 
-The [Schrimpf Blank Marvel Fedorenko 2021][research_schrimpf_et_al_2021_language] The Neural Architecture of Language framework extended the framework to a systematic benchmark that compares many language models to their capacity to predict brain responses to language stimuli. This account provides the empirical validation that language models increasingly match the patterns of language cortex activation.
+The [Schrimpf et al. 2021][research_schrimpf_et_al_2021_language] The Neural Architecture of Language framework extended the framework to a systematic benchmark that compares many language models to their capacity to predict brain responses to language stimuli. This account provides the empirical validation that language models increasingly match the patterns of language cortex activation.
 
 The [Caucheteux and King 2022][research_caucheteux_king_2022] Brains and Algorithms framework provided the systematic evidence that language model performance on next-word prediction correlates with the patterns of language cortex activation, supporting the hypothesis that predictive processing underlies both artificial and biological language processing. The brain-language-model alignment is measured through the encoding-model framework
 
@@ -361,15 +361,15 @@ $$\hat{y}_{\text{brain}}(t) = \sum_j \beta_j \, f_{\text{LM}}(x_{1:t})_j$$
 
 with $\hat{y}\_{\text{brain}}$ the predicted brain response, $f_{\text{LM}}(x_{1:t})$ the language model's internal representation given input tokens $x_{1:t}$, and $\beta_j$ the encoding-model coefficients fit through ridge regression on paired language-brain data.
 
-The [Goldstein Zada Buchnik Schain Price et al 2022][research_goldstein_et_al_2022] Shared Computational Principles framework provided the empirical evidence for shared computational principles between language models and biological language processing through the analysis of intracranial recordings from patients listening to naturalistic language.
+The [Goldstein et al. 2022][research_goldstein_et_al_2022] Shared Computational Principles framework provided the empirical evidence for shared computational principles between language models and biological language processing through the analysis of intracranial recordings from patients listening to naturalistic language.
 
-The [Antonello Turek Vaidya Huth 2024][research_antonello_et_al_2024] Scaling Laws for Language Models framework extended the account to the scaling relationships between language model capabilities and brain prediction accuracy. The scaling law takes the form
+The [Antonello et al. 2024][research_antonello_et_al_2024] Scaling Laws for Language Models framework extended the account to the scaling relationships between language model capabilities and brain prediction accuracy. The scaling law takes the form
 
 $$r_{\text{brain}}(N) \approx r_\infty - c \, N^{-\alpha}$$
 
 with $r_{\text{brain}}$ the brain prediction accuracy, $N$ the language model parameter count, and $r_\infty, c, \alpha$ fit constants. The model provides evidence that the correspondence to biological language processing improves systematically with model scale.
 
-The bidirectional exchange in language modeling continues to organize considerable NeuroAI research. Language models have provided new hypotheses about biological language processing including the role of predictive computation and the pattern of contextual integration across word sequences. Earlier work by [Jain and Huth 2018][research_jain_huth_2018] documented the correspondence between contextual word embeddings and fMRI responses to naturalistic language, providing the empirical foundation for subsequent work at foundation-model scale. The [Millet Caucheteux Orhan Boubenec Gramfort Dunbar Pallier King 2022][research_millet_et_al_2022] framework extended this formulation to the auditory speech-processing pathway through the systematic comparison of self-supervised speech models to biological auditory-cortex responses.
+The bidirectional exchange in language modeling continues to organize considerable NeuroAI research. Language models have provided new hypotheses about biological language processing including the role of predictive computation and the pattern of contextual integration across word sequences. Earlier work by [Jain and Huth 2018][research_jain_huth_2018] documented the correspondence between contextual word embeddings and fMRI responses to naturalistic language, providing the empirical foundation for subsequent work at foundation-model scale. The [Millet et al. 2022][research_millet_et_al_2022] framework extended this formulation to the auditory speech-processing pathway through the systematic comparison of self-supervised speech models to biological auditory-cortex responses.
 
 ## Foundation Models as Models of Cognition
 
@@ -377,9 +377,9 @@ Foundation models including large language models have increasingly been treated
 
 The [Binz and Schulz 2023][research_binz_schulz_2023] Using Cognitive Psychology to Understand GPT-3 framework provided the systematic empirical evaluation of the extent to which large language models exhibit the patterns of human cognitive behavior across many classical cognitive psychology paradigms. This account identified both correspondences and systematic divergences between language models and human cognition.
 
-The [Coda-Forno Binz Wang Schulz 2023][research_coda_forno_et_al_2023] Meta-in-Context Learning framework demonstrated that large language models exhibit the patterns of meta-learning behavior that had been proposed for biological prefrontal cortex, providing empirical evidence for the correspondence between language model in-context learning and biological meta-reinforcement learning.
+The [Coda-Forno et al. 2023][research_coda_forno_et_al_2023] Meta-in-Context Learning framework demonstrated that large language models exhibit the patterns of meta-learning behavior that had been proposed for biological prefrontal cortex, providing empirical evidence for the correspondence between language model in-context learning and biological meta-reinforcement learning.
 
-Systematic benchmarks for evaluating foundation models as cognitive models have emerged through frameworks including [Ku Tellex Wu Herrera 2024][research_ku_et_al_2024] and the significant subsequent literature. The frameworks provide the empirical infrastructure for the systematic evaluation of foundation models against cognitive-psychology benchmarks.
+Systematic benchmarks for evaluating foundation models as cognitive models have emerged through frameworks including [Ku et al. 2024][research_ku_et_al_2024] and the significant subsequent literature. The frameworks provide the empirical infrastructure for the systematic evaluation of foundation models against cognitive-psychology benchmarks.
 
 The question of whether foundation models exhibit the cognitive capabilities of biological brains remains actively contested. Foundation models exhibit substantial competence on many cognitive tasks but also exhibit systematic errors that suggest the underlying processing mechanisms differ from those of biological cognition. The [Ullman 2023][research_ullman_2023] Large Language Models Fail on Trivial Alterations framework documented failure modes of language models on classical theory-of-mind tasks that highlight the limitations of the language-model-as-cognitive-model framework.
 
@@ -393,29 +393,29 @@ Biologically plausible learning rules address the concern that standard backprop
 
 The concerns about biological plausibility of backpropagation include the requirement of symmetric feedforward and feedback weights, the requirement of separate forward and backward passes, the requirement of exact gradient computation, and the requirement of non-local information for the credit assignment computation. Standard backpropagation violates each of these constraints in ways that are difficult to reconcile with biological neural systems.
 
-Feedback alignment of [Lillicrap Cownden Tweed Akerman 2016][research_lillicrap_et_al_2016_feedback] introduced the finding that neural networks can learn effectively with random feedback weights rather than symmetric feedback weights. The feedback alignment update replaces the transpose of the forward weights $W^\top$ with a fixed random matrix $B$,
+Feedback alignment of [Lillicrap et al. 2016][research_lillicrap_et_al_2016_feedback] introduced the finding that neural networks can learn effectively with random feedback weights rather than symmetric feedback weights. The feedback alignment update replaces the transpose of the forward weights $W^\top$ with a fixed random matrix $B$,
 
 $$\delta^{(l)} = (B^{(l)})^\top \, \delta^{(l+1)} \odot f'(a^{(l)})$$
 
 with $\delta^{(l)}$ the error signal at layer $l$, $a^{(l)}$ the pre-activation, and $\odot$ the Hadamard product. The account provides the existence proof that the weight symmetry requirement of backpropagation is not essential for effective learning, addressing one of the biological plausibility concerns.
 
-Direct feedback alignment of [Nokland 2016][research_nokland_2016] extended the treatment to networks in which feedback weights connect directly from the output layer to each hidden layer, further relaxing the structural requirements of backpropagation. The model demonstrates that even significantly simpler feedback structures than standard backpropagation support effective learning.
+Direct feedback alignment of [Nøkland 2016][research_nokland_2016] extended the treatment to networks in which feedback weights connect directly from the output layer to each hidden layer, further relaxing the structural requirements of backpropagation. The model demonstrates that even significantly simpler feedback structures than standard backpropagation support effective learning.
 
-The [Guerguiev Lillicrap Richards 2017][research_guerguiev_lillicrap_richards_2017] Deep Learning with Segregated Dendrites framework introduced the biologically-plausible framework in which dendritic compartments implement the error signaling required for hierarchical learning. The treatment provides the bridge between the abstract backpropagation algorithm and the biophysical properties of cortical pyramidal neurons.
+The [Guerguiev et al. 2017][research_guerguiev_lillicrap_richards_2017] Deep Learning with Segregated Dendrites framework introduced the biologically-plausible framework in which dendritic compartments implement the error signaling required for hierarchical learning. The treatment provides the bridge between the abstract backpropagation algorithm and the biophysical properties of cortical pyramidal neurons.
 
-The [Sacramento Costa Bengio Senn 2018][research_sacramento_et_al_2018] Dendritic Cortical Microcircuits framework extended the model with the microcircuit model that implements the error propagation required for learning through the interaction of pyramidal and inhibitory neurons. This account provides one candidate implementation of backpropagation-like learning in biological cortical circuits.
+The [Sacramento et al. 2018][research_sacramento_et_al_2018] Dendritic Cortical Microcircuits framework extended the model with the microcircuit model that implements the error propagation required for learning through the interaction of pyramidal and inhibitory neurons. This account provides one candidate implementation of backpropagation-like learning in biological cortical circuits.
 
 The [Whittington and Bogacz 2019][research_whittington_bogacz_2019_a263] framework treated earlier demonstrated that predictive coding networks approximately implement backpropagation, providing another candidate biologically-plausible learning framework.
 
-The [Payeur Guerguiev Zenke Richards Naud 2021][research_payeur_et_al_2021] Burst-Dependent Synaptic Plasticity framework introduced the biologically-plausible learning rule that supports hierarchical credit assignment through the mechanism of pyramidal cell burst firing. The account provides one of the strongest recent contenders for a biologically-plausible learning rule that supports deep-learning-competitive performance.
+The [Payeur et al. 2021][research_payeur_et_al_2021] Burst-Dependent Synaptic Plasticity framework introduced the biologically-plausible learning rule that supports hierarchical credit assignment through the mechanism of pyramidal cell burst firing. The account provides one of the strongest recent contenders for a biologically-plausible learning rule that supports deep-learning-competitive performance.
 
-The [Lillicrap Santoro Marris Akerman Hinton 2020][research_lillicrap_et_al_2020] Backpropagation and the Brain review consolidated the modern biologically-plausible learning literature and identified the research directions that continue to organize the field. The model identifies both the progress that has been achieved and the remaining challenges for demonstrating that biological brains implement backpropagation-like learning.
+The [Lillicrap et al. 2020][research_lillicrap_et_al_2020] Backpropagation and the Brain review consolidated the modern biologically-plausible learning literature and identified the research directions that continue to organize the field. The model identifies both the progress that has been achieved and the remaining challenges for demonstrating that biological brains implement backpropagation-like learning.
 
-Target propagation of [Bengio Lee Bornschein Mesnard Lin 2015][research_bengio_et_al_2015_targetprop] introduced the alternative to backpropagation in which target activations rather than error gradients are propagated backward through the network, providing another candidate biologically-plausible learning framework. The [Bengio Fischer Mesnard 2015][research_bengio_fischer_mesnard_2015] biological deep learning treatment provided the systematic account of the correspondences between biological neural computation and deep learning. Equilibrium propagation of [Scellier and Bengio 2017][research_scellier_bengio_2017] introduced the energy-based framework for local learning that supports deep-learning-competitive performance without requiring the separate forward and backward passes of standard backpropagation.
+Target propagation of [Bengio et al. 2015a][research_bengio_et_al_2015_targetprop] introduced the alternative to backpropagation in which target activations rather than error gradients are propagated backward through the network, providing another candidate biologically-plausible learning framework. The [Bengio et al. 2015b][research_bengio_fischer_mesnard_2015] biological deep learning treatment provided the systematic account of the correspondences between biological neural computation and deep learning. Equilibrium propagation of [Scellier and Bengio 2017][research_scellier_bengio_2017] introduced the energy-based framework for local learning that supports deep-learning-competitive performance without requiring the separate forward and backward passes of standard backpropagation.
 
-The [Bartunov Santoro Richards Marris Hinton Lillicrap 2018][research_bartunov_et_al_2018] Assessing the Scalability of Biologically-Motivated Deep Learning framework provided the systematic empirical evaluation of biologically-plausible learning algorithms against the standard deep learning benchmarks. This formulation documented that many biologically-plausible alternatives fail to match standard backpropagation performance at scale, identifying the remaining challenges for biologically-plausible learning.
+The [Bartunov et al. 2018][research_bartunov_et_al_2018] Assessing the Scalability of Biologically-Motivated Deep Learning framework provided the systematic empirical evaluation of biologically-plausible learning algorithms against the standard deep learning benchmarks. This formulation documented that many biologically-plausible alternatives fail to match standard backpropagation performance at scale, identifying the remaining challenges for biologically-plausible learning.
 
-The [Song Millidge Salvatori Lukasiewicz Xu Bogacz 2020][research_song_et_al_2020_pc_backprop] Can the Brain Do Backpropagation framework provided the systematic modern treatment of the predictive-coding-based biologically-plausible learning framework, establishing that predictive coding networks can approximately implement backpropagation across a broader range of architectures than had previously been demonstrated.
+The [Song et al. 2020][research_song_et_al_2020_pc_backprop] Can the Brain Do Backpropagation framework provided the systematic modern treatment of the predictive-coding-based biologically-plausible learning framework, establishing that predictive coding networks can approximately implement backpropagation across a broader range of architectures than had previously been demonstrated.
 
 ## Neuromorphic Computing and Spiking Networks
 
@@ -433,9 +433,9 @@ $$\frac{\partial S}{\partial V} \approx \sigma'(V - V_{\text{th}}) = \frac{1}{(1
 
 with $S$ the spike output, $V$ the membrane voltage, and $\beta$ a smoothness hyperparameter. The framework enables standard gradient-based training of spiking networks and provides the bridge between conventional deep learning and neuromorphic implementation.
 
-Backpropagation through time for spiking networks of [Bellec Salaj Subramoney Legenstein Maass 2020][research_bellec_et_al_2020] extended the framework to recurrent spiking networks and produced the engineering framework for training appreciable spiking networks on complex tasks. The account has markedly advanced the engineering capabilities of spiking neural networks.
+Backpropagation through time for spiking networks of [Bellec et al. 2020][research_bellec_et_al_2020] extended the framework to recurrent spiking networks and produced the engineering framework for training appreciable spiking networks on complex tasks. The account has markedly advanced the engineering capabilities of spiking neural networks.
 
-Neuromorphic hardware including the Intel Loihi chip of [Davies et al 2018][research_davies_et_al_2018_loihi] and the IBM TrueNorth chip of [Merolla et al 2014][research_merolla_et_al_2014_truenorth] provide the engineering platforms for the efficient execution of spiking neural networks. This formulation provides the bridge between neuroscience-inspired computation and practical energy-efficient computing.
+Neuromorphic hardware including the Intel Loihi chip of [Davies 2018][research_davies_et_al_2018_loihi] and the IBM TrueNorth chip of [Merolla et al. 2014][research_merolla_et_al_2014_truenorth] provide the engineering platforms for the efficient execution of spiking neural networks. This formulation provides the bridge between neuroscience-inspired computation and practical energy-efficient computing.
 
 The advantages of neuromorphic computing include considerable energy efficiency, real-time processing capability, and the temporal computation capabilities that spiking networks support. The treatment has been increasingly applied to edge computing, robotics, and other applications where the advantages of neuromorphic hardware provide practical benefits. The [Indiveri Liu Delbruck 2015][research_indiveri_liu_delbruck_2015] neuromorphic silicon neuron circuits overview consolidated the engineering literature and identified the tradeoffs between biological fidelity and engineering practicality that continue to organize neuromorphic hardware design.
 
@@ -445,15 +445,15 @@ Task-optimized neural networks provide the normative framework through which cor
 
 The [Yamins and DiCarlo 2016][research_yamins_dicarlo_2016] Using Goal-Driven Deep Learning Models framework consolidated the modern task-optimization approach to cortical modeling and identified the research directions that continue to organize the field. The framework provides the systematic taxonomy of the approaches through which task-optimized networks can be evaluated against biological data.
 
-The [Richards Lillicrap Beaudoin et al 2019][research_richards_et_al_2019] Deep Learning Framework for Neuroscience framework provided the systematic modern statement of the deep learning approach to computational neuroscience. The account identifies the ways in which deep learning provides the computational vocabulary through which neural circuit function can be understood and predicted.
+The [Richards et al. 2019][research_richards_et_al_2019] Deep Learning Framework for Neuroscience framework provided the systematic modern statement of the deep learning approach to computational neuroscience. The account identifies the ways in which deep learning provides the computational vocabulary through which neural circuit function can be understood and predicted.
 
-The Brain-Score benchmark of [Schrimpf et al 2020][research_schrimpf_et_al_2020_brainscore] provided the evaluation framework through which candidate deep learning models can be systematically compared to biological data. The model combines neural response prediction, behavioral prediction, and other measures into a unified benchmark that enables systematic model comparison. Model performance on Brain-Score is measured as an aggregate score across brain regions and tasks
+The Brain-Score benchmark of [Schrimpf 2020][research_schrimpf_et_al_2020_brainscore] provided the evaluation framework through which candidate deep learning models can be systematically compared to biological data. The model combines neural response prediction, behavioral prediction, and other measures into a unified benchmark that enables systematic model comparison. Model performance on Brain-Score is measured as an aggregate score across brain regions and tasks
 
 $$S(M) = \sum_{r} w_r \cdot \text{fit}(M, r)$$
 
 with $\text{fit}(M, r)$ the model-to-brain-region correspondence for region $r$ and $w_r$ the region-weight. This formulation has appreciably accelerated NeuroAI research by providing the quantitative benchmark against which models can be compared.
 
-The [Marblestone Wayne Kording 2016][research_marblestone_wayne_kording_2016] Toward an Integration of Deep Learning and Neuroscience framework provided the systematic modern manifesto for the integration of the two fields. The treatment identifies the research directions that continue to organize NeuroAI and provides the bridge between deep learning practice and computational neuroscience.
+The [Marblestone et al. 2016][research_marblestone_wayne_kording_2016] Toward an Integration of Deep Learning and Neuroscience framework provided the systematic modern manifesto for the integration of the two fields. The treatment identifies the research directions that continue to organize NeuroAI and provides the bridge between deep learning practice and computational neuroscience.
 
 The correspondence between task-optimized networks and cortical representations has been documented across many brain regions and task domains through the standard encoding-model framework
 
@@ -469,11 +469,11 @@ The ACT-R framework of [Anderson 1996][research_anderson_1996_act_r] and its ext
 
 The SOAR architecture of [Laird 2012][book_laird_2012_soar] provided the alternative cognitive architecture that models integrated intelligent behavior through the chunking mechanism that generates new procedural knowledge from problem-solving experience. The account has been extensively applied to both cognitive modeling and to AI engineering applications.
 
-Spaun (Semantic Pointer Architecture Unified Network) of [Eliasmith Stewart Choo Bekolay DeWolf Tang Rasmussen 2012][research_eliasmith_et_al_2012_spaun] introduced the integrated brain model that combines cognitive-architectural principles with the biological constraints of spiking neurons. The model demonstrated a single integrated model that performs eight distinct cognitive tasks including working memory, arithmetic, and pattern recognition, providing the existence proof of the integrated-cognitive-architecture framework at biological scale.
+Spaun (Semantic Pointer Architecture Unified Network) of [Eliasmith et al. 2012][research_eliasmith_et_al_2012_spaun] introduced the integrated brain model that combines cognitive-architectural principles with the biological constraints of spiking neurons. The model demonstrated a single integrated model that performs eight distinct cognitive tasks including working memory, arithmetic, and pattern recognition, providing the existence proof of the integrated-cognitive-architecture framework at biological scale.
 
 The [Eliasmith 2013][book_eliasmith_2013_how_to_build] How to Build a Brain framework consolidated the approach through the Neural Engineering Framework and the Semantic Pointer Architecture. This formulation provides the systematic engineering methodology for the construction of integrated cognitive models that respect biological constraints.
 
-Neural Turing Machines of [Graves Wayne Danihelka 2014][research_graves_wayne_danihelka_2014_ntm] and Differentiable Neural Computers of [Graves Wayne Reynolds Harley Danihelka Grabska-Barwińska Colmenarejo Grefenstette Ramalho Agapiou et al 2016][research_graves_et_al_2016_dnc] introduced the neural-network-based memory-augmented architectures that provide the bridge between the symbolic reasoning of classical cognitive architectures and the representation-learning capabilities of deep neural networks. The frameworks have been greatly influential in the engineering of neural systems that support algorithm-like symbolic computation.
+Neural Turing Machines of [Graves et al. 2014][research_graves_wayne_danihelka_2014_ntm] and Differentiable Neural Computers of [Graves et al. 2016][research_graves_et_al_2016_dnc] introduced the neural-network-based memory-augmented architectures that provide the bridge between the symbolic reasoning of classical cognitive architectures and the representation-learning capabilities of deep neural networks. The frameworks have been greatly influential in the engineering of neural systems that support algorithm-like symbolic computation.
 
 The [Marcus 2020][research_marcus_2020_next_decade] Next Decade in AI framework consolidated the modern hybrid-neurosymbolic research program and identified the research directions that continue to organize the field. The treatment proposes that the integration of symbolic and connectionist frameworks is required for the cognitive capabilities that pure deep learning fails to reproduce.
 
@@ -497,13 +497,13 @@ The tradeoffs between biological detail and computational tractability continue 
 
 Machine learning provides the computational toolkit through which modern neuroscience analyzes the increasingly complex and high-dimensional data produced by modern experimental techniques. This formulation provides the bridge from machine learning to practical neuroscience methodology.
 
-Deep learning for neural spike sorting has substantially improved the accuracy and efficiency of extracting single-neuron activity from multi-electrode recordings. The frameworks including Kilosort of [Pachitariu Steinmetz Kadir Carandini Harris 2016][research_pachitariu_et_al_2016_kilosort] have become the standard tools for the spike-sorting problem and have markedly accelerated modern electrophysiology research.
+Deep learning for neural spike sorting has substantially improved the accuracy and efficiency of extracting single-neuron activity from multi-electrode recordings. The frameworks including Kilosort of [Pachitariu et al. 2016][research_pachitariu_et_al_2016_kilosort] have become the standard tools for the spike-sorting problem and have markedly accelerated modern electrophysiology research.
 
-Deep learning for calcium imaging analysis of [Giovannucci Friedrich Gunn Kalfon Brown Koay Taxidis Najafi Gauthier Zhou Khakh Tank Chklovskii Pnevmatikakis 2019][research_giovannucci_et_al_2019_caiman] and the CaImAn framework provided the tools for extracting neural activity from calcium imaging data at scale. The treatment has appreciably enabled modern large-scale neural recording research.
+Deep learning for calcium imaging analysis of [Giovannucci et al. 2019][research_giovannucci_et_al_2019_caiman] and the CaImAn framework provided the tools for extracting neural activity from calcium imaging data at scale. The treatment has appreciably enabled modern large-scale neural recording research.
 
 Neural decoding through machine learning of [King and Dehaene 2014][research_king_dehaene_2014] and the appreciable subsequent literature has provided the tools for inferring cognitive states from neural activity. This account has enabled the brain-computer interface applications and has provided the systematic methodological framework for the inverse problem of mapping neural activity to cognitive content.
 
-Latent dynamical model frameworks including [Pandarinath O'Shea Collins Jozefowicz Stavisky Kao Trautmann Kaufman Ryu Hochberg Henderson Shenoy Abbott Sussillo 2018][research_pandarinath_et_al_2018_lfads] LFADS provided the tools for extracting low-dimensional neural population dynamics from noisy neural recordings. The framework models neural population spike counts $y_t$ as arising from a latent low-dimensional dynamical process,
+Latent dynamical model frameworks including [Pandarinath et al. 2018][research_pandarinath_et_al_2018_lfads] LFADS provided the tools for extracting low-dimensional neural population dynamics from noisy neural recordings. The framework models neural population spike counts $y_t$ as arising from a latent low-dimensional dynamical process,
 
 $$z_{t+1} = f_\theta(z_t) + \epsilon_t, \quad y_t \sim \text{Poisson}(\exp(W z_t + b))$$
 
@@ -527,13 +527,13 @@ This formulation has significantly reshaped the modern NeuroAI research landscap
 
 The empirical landscape of modern NeuroAI has consolidated around several benchmark suites. The Brain-Score framework of Schrimpf et al 2020 treated earlier provides the benchmark for evaluating deep learning models against neural and behavioral data across many brain regions and task domains.
 
-The Neural Latent Benchmark of [Pei Ye Sedler Ma Chowdhury Livesey Abbaspourazad Zhu Wu Xu Kaufman Ryu Miller Poo Miri Shenoy Kaufman Poo Miri Miller Chestek Willsey Miller Miller Shenoy Sussillo Abbott Kao Cunningham Sussillo Kao Pandarinath 2021][research_pei_et_al_2021_nlb] provided the benchmark for evaluating latent dynamical models of neural population activity across many datasets. This account has substantially accelerated the evaluation and comparison of neural dynamics models.
+The Neural Latent Benchmark of [Pei et al. 2021][research_pei_et_al_2021_nlb] provided the benchmark for evaluating latent dynamical models of neural population activity across many datasets. This account has substantially accelerated the evaluation and comparison of neural dynamics models.
 
-The Sensorium benchmark of [Willeke Fahey Bashiri Pede Cunningham Ecker Sinz 2022][research_willeke_et_al_2022_sensorium] provided the benchmark for predicting mouse visual cortex responses to natural images. The framework has enabled the systematic comparison of many candidate models of visual cortex processing.
+The Sensorium benchmark of [Willeke et al. 2022][research_willeke_et_al_2022_sensorium] provided the benchmark for predicting mouse visual cortex responses to natural images. The framework has enabled the systematic comparison of many candidate models of visual cortex processing.
 
 For language cortex modeling, the [Antonello Turek Vaidya Huth 2024][research_antonello_et_al_2024_a263] scaling laws framework and the brain-language-model benchmarks provide the systematic evaluation of the correspondence between language models and biological language processing.
 
-For behavioral prediction, the Algonauts Project of [Cichy et al 2019][research_cichy_et_al_2019_algonauts] and subsequent iterations provide the systematic benchmark for predicting human behavioral responses from computational models. The account has markedly advanced the quantitative comparison of computational models of cognition.
+For behavioral prediction, the Algonauts Project of [Cichy et al. 2019][research_cichy_et_al_2019_algonauts] and subsequent iterations provide the systematic benchmark for predicting human behavioral responses from computational models. The account has markedly advanced the quantitative comparison of computational models of cognition.
 
 Empirical patterns across benchmarks show several consistent findings. Task-optimized deep networks match brain regions appreciably better than the classical models that had previously dominated computational neuroscience. Model scale greatly improves brain prediction across many domains. Architectural innovations that improve engineering performance also often improve biological prediction. Foundation-model-scale training produces the correspondence that pre-foundation-model methods do not reliably achieve.
 
@@ -569,7 +569,7 @@ The role of foundation models in modern NeuroAI represents a distinctive emergin
 
 The engineering advances of modern NeuroAI raise substantial ethical and safety considerations that require dedicated research alongside the engineering and scientific work. The model identifies the considerations that must be addressed for responsible development and deployment of NeuroAI technology.
 
-Neurorights of [Yuste Goering Arcas Bi Carmena Carter Fins Friesen Gallant Huggins Kellmeyer Marblestone Mitchell Parens Ramos Rommelfanger Wang 2017][research_yuste_et_al_2017_neurorights] proposed the ethical framework for the emerging neurotechnology field through the identification of the mental privacy, personal identity, free will, equitable access, and mental integrity considerations that neurotechnology development must address. This formulation has markedly shaped subsequent international discussion of neurotechnology regulation and provides the starting point for the responsible development of NeuroAI systems.
+Neurorights of [Yuste et al. 2017][research_yuste_et_al_2017_neurorights] proposed the ethical framework for the emerging neurotechnology field through the identification of the mental privacy, personal identity, free will, equitable access, and mental integrity considerations that neurotechnology development must address. This formulation has markedly shaped subsequent international discussion of neurotechnology regulation and provides the starting point for the responsible development of NeuroAI systems.
 
 Brain-computer interface (BCI) ethics addresses the considerations that arise from the technology that reads and writes information to and from biological brains. The treatment identifies the considerations including informed consent, data privacy, potential for coercion, and equitable access to neuroenhancement technologies. The engineering of BCI systems must address these considerations through the technical and institutional mechanisms.
 
@@ -598,177 +598,184 @@ The research program on beneficial NeuroAI development includes the efforts to a
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Eliasmith 2013 How to Build a Brain][book_eliasmith_2013_how_to_build]
-- [Hebb 1949 Organization of Behavior][book_hebb_1949]
-- [Laird 2012 SOAR][book_laird_2012_soar]
-- [Minsky and Papert 1969 Perceptrons][book_minsky_papert_1969]
-- [O'Keefe and Nadel 1978 Hippocampus Cognitive Map][book_okeefe_nadel_1978]
-- [Rumelhart McClelland PDP Group 1986 PDP][book_rumelhart_mcclelland_1986]
-- [Sutton and Barto 1998 Reinforcement Learning][book_sutton_barto_1998]
-- [Sutton and Barto 2018][book_sutton_barto_2018]
-- [Wiener 1948 Cybernetics][book_wiener_1948]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Ackley, David H., Geoffrey E. Hinton, and Terrence J. Sejnowski. 1985. "A Learning Algorithm for Boltzmann Machines." *Cognitive Science* 9 (1): 147–69. [https://doi.org/10.1207/s15516709cog0901\_7][research_ackley_hinton_sejnowski_1985]
+- Banino, Andrea, Caswell Barry, Benigno Uria, et al. 2018. "Vector-Based Navigation Using Grid-like Representations in Artificial Agents." *Nature* 557 (7705): 429–33. [https://doi.org/10.1038/s41586-018-0102-6][research_banino_et_al_2018_grid]
+- Bell, Anthony J., and Terrence J. Sejnowski. 1997. "The “Independent Components” of Natural Scenes Are Edge Filters." *Vision Research* 37 (23): 3327–38. [https://doi.org/10.1016/s0042-6989(97)00121-1][research_bell_sejnowski_1997]
+- Bellec, Guillaume, Franz Scherr, Anand Subramoney, et al. 2020. "A Solution to the Learning Dilemma for Recurrent Networks of Spiking Neurons." *Nature Communications* 11 (1): 3625. [https://doi.org/10.1038/s41467-020-17236-y][research_bellec_et_al_2020]
+- Botvinick, Matthew, Sam Ritter, Jane X. Wang, Zeb Kurth-Nelson, Charles Blundell, and Demis Hassabis. 2019. "Reinforcement Learning, Fast and Slow." *Trends in Cognitive Sciences* 23 (5): 408–22. [https://doi.org/10.1016/j.tics.2019.02.006][research_botvinick_et_al_2019_rl_fast_slow]
+- Buzsáki, György, and Edvard I. Moser. 2013. "Memory, Navigation and Theta Rhythm in the Hippocampal-Entorhinal System." *Nature Neuroscience* 16 (2): 130–38. [https://doi.org/10.1038/nn.3304][research_buzsaki_moser_2013]
+- Caucheteux, Charlotte, and Jean-Rémi King. 2022. "Brains and Algorithms Partially Converge in Natural Language Processing." *Communications Biology* 5 (1): 134. [https://doi.org/10.1038/s42003-022-03036-1][research_caucheteux_king_2022]
+- Chang, Le, and Doris Y. Tsao. 2017. "The Code for Facial Identity in the Primate Brain." *Cell* 169 (6): 1013-1028.e14. [https://doi.org/10.1016/j.cell.2017.05.011][research_chang_tsao_2017]
+- Chung, SueYeon, and L. F. Abbott. 2021. "Neural Population Geometry: An Approach for Understanding Biological and Artificial Neural Networks." *Current Opinion in Neurobiology* 70: 137–44. [https://doi.org/10.1016/j.conb.2021.10.010][research_chung_abbott_2021]
+- Cunningham, John P., and Byron M. Yu. 2014. "Dimensionality Reduction for Large-Scale Neural Recordings." *Nature Neuroscience* 17 (11): 1500–1509. [https://doi.org/10.1038/nn.3776][research_cunningham_yu_2014]
+- Dabney, Will, Zeb Kurth-Nelson, Naoshige Uchida, et al. 2020. "A Distributional Code for Value in Dopamine-Based Reinforcement Learning." *Nature* 577 (7792): 671–75. [https://doi.org/10.1038/s41586-019-1924-6][research_dabney_et_al_2020_dopamine]
+- Daw, Nathaniel D., Samuel J. Gershman, Ben Seymour, Peter Dayan, and Raymond J. Dolan. 2011. "Model-Based Influences on Humans' Choices and Striatal Prediction Errors." *Neuron* 69 (6): 1204–15. [https://doi.org/10.1016/j.neuron.2011.02.027][research_daw_et_al_2011]
+- Doerig, Adrien, Rowan P. Sommers, Katja Seeliger, et al. 2023. "The Neuroconnectionist Research Programme." *Nature Reviews Neuroscience* 24 (7): 431–50. [https://doi.org/10.1038/s41583-023-00705-w][research_doerig_et_al_2023]
+- Elman, Jeffrey L. 1990. "Finding Structure in Time." *Cognitive Science* 14 (2): 179–211. [https://doi.org/10.1207/s15516709cog1402\_1][research_elman_1990_srn]
+- Eshel, Neir, Michael Bukwich, Vinod Rao, Vivian Hemmelder, Ju Tian, and Naoshige Uchida. 2015. "Arithmetic and Local Circuitry Underlying Dopamine Prediction Errors." *Nature* 525 (7568): 243–46. [https://doi.org/10.1038/nature14855][research_eshel_et_al_2015]
+- Foster, David J., and Matthew A. Wilson. 2006. "Reverse Replay of Behavioural Sequences in Hippocampal Place Cells during the Awake State." *Nature* 440 (7084): 680–83. [https://doi.org/10.1038/nature04587][research_foster_wilson_2006_a263]
+- Fukushima, Kunihiko. 1980. "Neocognitron: A Self-Organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position." *Biological Cybernetics* 36 (4): 193–202. [https://doi.org/10.1007/bf00344251][research_fukushima_1980_neocognitron]
+- Gallego, Juan A., Matthew G. Perich, Lee E. Miller, and Sara A. Solla. 2017. "Neural Manifolds for the Control of Movement." *Neuron* 94 (5): 978–84. [https://doi.org/10.1016/j.neuron.2017.05.025][research_gallego_et_al_2017]
+- Goldstein, Ariel, Zaid Zada, Eliav Buchnik, et al. 2022. "Shared Computational Principles for Language Processing in Humans and Deep Language Models." *Nature Neuroscience* 25 (3): 369–80. [https://doi.org/10.1038/s41593-022-01026-4][research_goldstein_et_al_2022]
+- Graves, Alex, Greg Wayne, Malcolm Reynolds, et al. 2016. "Hybrid Computing Using a Neural Network with Dynamic External Memory." *Nature* 538 (7626): 471–76. [https://doi.org/10.1038/nature20101][research_graves_et_al_2016_dnc]
+- Hafting, Torkel, Marianne Fyhn, Sturla Molden, May-Britt Moser, and Edvard I. Moser. 2005. "Microstructure of a Spatial Map in the Entorhinal Cortex." *Nature* 436 (7052): 801–6. [https://doi.org/10.1038/nature03721][research_hafting_et_al_2005_grid]
+- Hassabis, Demis, Dharshan Kumaran, Christopher Summerfield, and Matthew Botvinick. 2017. "Neuroscience-Inspired Artificial Intelligence." *Neuron* 95 (2): 245–58. [https://doi.org/10.1016/j.neuron.2017.06.011][research_hassabis_et_al_2017]
+- Hubel, D. H., and T. N. Wiesel. 1962. "Receptive Fields, Binocular Interaction and Functional Architecture in the Cat's Visual Cortex." *Journal of Physiology* 160 (1): 106–54. [https://doi.org/10.1113/jphysiol.1962.sp006837][research_hubel_wiesel_1962]
+- Ji, Daoyun, and Matthew A. Wilson. 2006. "Coordinated Memory Replay in the Visual Cortex and Hippocampus during Sleep." *Nature Neuroscience* 10 (1): 100–107. [https://doi.org/10.1038/nn1825][research_ji_wilson_2007]
+- Kell, Alexander J. E., Daniel L. K. Yamins, Erica N. Shook, Sam V. Norman-Haignere, and Josh H. McDermott. 2018. "A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy." *Neuron* 98 (3): 630-644.e16. [https://doi.org/10.1016/j.neuron.2018.03.044][research_kell_et_al_2018]
+- Konkle, Talia, and George A. Alvarez. 2022. "A Self-Supervised Domain-General Learning Framework for Human Ventral Stream Representation." *Nature Communications* 13 (1): 491. [https://doi.org/10.1038/s41467-022-28091-4][research_konkle_alvarez_2022]
+- Kumaran, Dharshan, Demis Hassabis, and James L. McClelland. 2016. "What Learning Systems Do Intelligent Agents Need? Complementary Learning Systems Theory Updated." *Trends in Cognitive Sciences* 20 (7): 512–34. [https://doi.org/10.1016/j.tics.2016.05.004][research_kumaran_hassabis_mcclelland_2016_a263]
+- Lillicrap, Timothy P., Daniel Cownden, Douglas B. Tweed, and Colin J. Akerman. 2016. "Random Synaptic Feedback Weights Support Error Backpropagation for Deep Learning." *Nature Communications* 7 (1): 13276. [https://doi.org/10.1038/ncomms13276][research_lillicrap_et_al_2016_feedback]
+- Lillicrap, Timothy P., Adam Santoro, Luke Marris, Colin J. Akerman, and Geoffrey Hinton. 2020. "Backpropagation and the Brain." *Nature Reviews Neuroscience* 21 (6): 335–46. [https://doi.org/10.1038/s41583-020-0277-3][research_lillicrap_et_al_2020]
+- Lindsay, Grace W. 2020. "Attention in Psychology, Neuroscience, and Machine Learning." *Frontiers in Computational Neuroscience* 14: 29. [https://doi.org/10.3389/fncom.2020.00029][research_lindsay_2020_attention]
+- Louie, Kenway, and Matthew A. Wilson. 2001. "Temporally Structured Replay of Awake Hippocampal Ensemble Activity during Rapid Eye Movement Sleep." *Neuron* 29 (1): 145–56. [https://doi.org/10.1016/s0896-6273(01)00186-6][research_louie_wilson_2001]
+- Maass, Wolfgang. 1997. "Networks of Spiking Neurons: The Third Generation of Neural Network Models." *Neural Networks* 10 (9): 1659–71. [https://doi.org/10.1016/s0893-6080(97)00011-7][research_maass_1997]
+- Mante, Valerio, David Sussillo, Krishna V. Shenoy, and William T. Newsome. 2013. "Context-Dependent Computation by Recurrent Dynamics in Prefrontal Cortex." *Nature* 503 (7474): 78–84. [https://doi.org/10.1038/nature12742][research_mante_et_al_2013]
+- Marblestone, Adam H., Greg Wayne, and Konrad P. Kording. 2016. "Toward an Integration of Deep Learning and Neuroscience." *Frontiers in Computational Neuroscience* 10. [https://doi.org/10.3389/fncom.2016.00094][research_marblestone_wayne_kording_2016]
+- Markram, Henry. 2006. "The Blue Brain Project." *Nature Reviews Neuroscience* 7 (2): 153–60. [https://doi.org/10.1038/nrn1848][research_markram_2006_blue_brain]
+- Mattar, Marcelo G., and Nathaniel D. Daw. 2018. "Prioritized Memory Access Explains Planning and Hippocampal Replay." *Nature Neuroscience* 21 (11): 1609–17. [https://doi.org/10.1038/s41593-018-0232-z][research_mattar_daw_2018_a263]
+- McCulloch, Warren S., and Walter Pitts. 1943. "A Logical Calculus of the Ideas Immanent in Nervous Activity." *Bulletin of Mathematical Biophysics* 5 (4): 115–33. [https://doi.org/10.1007/bf02478259][research_mcculloch_pitts_1943]
+- Momennejad, I., E. M. Russek, J. H. Cheong, M. M. Botvinick, N. D. Daw, and S. J. Gershman. 2017. "The Successor Representation in Human Reinforcement Learning." *Nature Human Behaviour* 1 (9): 680–92. [https://doi.org/10.1038/s41562-017-0180-8][research_momennejad_et_al_2017]
+- Niv, Yael. 2009. "Reinforcement Learning in the Brain." *Journal of Mathematical Psychology* 53 (3): 139–54. [https://doi.org/10.1016/j.jmp.2008.12.005][research_niv_2009]
+- O'Keefe, J., and J. Dostrovsky. 1971. "The Hippocampus as a Spatial Map. Preliminary Evidence from Unit Activity in the Freely-Moving Rat." *Brain Research* 34 (1): 171–75. [https://doi.org/10.1016/0006-8993(71)90358-1][research_okeefe_dostrovsky_1971]
+- Oja, Erkki. 1982. "Simplified Neuron Model as a Principal Component Analyzer." *Journal of Mathematical Biology* 15 (3): 267–73. [https://doi.org/10.1007/bf00275687][research_oja_1982]
+- Olshausen, Bruno A., and David J. Field. 1996. "Emergence of Simple-Cell Receptive Field Properties by Learning a Sparse Code for Natural Images." *Nature* 381 (6583): 607–9. [https://doi.org/10.1038/381607a0][research_olshausen_field_1996]
+- Pandarinath, Chethan, Daniel J. O'Shea, Jasmine Collins, et al. 2018. "Inferring Single-Trial Neural Population Dynamics Using Sequential Auto-Encoders." *Nature Methods* 15 (10): 805–15. [https://doi.org/10.1038/s41592-018-0109-9][research_pandarinath_et_al_2018_lfads]
+- Payeur, Alexandre, Jordan Guerguiev, Friedemann Zenke, Blake A. Richards, and Richard Naud. 2021. "Burst-Dependent Synaptic Plasticity Can Coordinate Learning in Hierarchical Circuits." *Nature Neuroscience* 24 (7): 1010–19. [https://doi.org/10.1038/s41593-021-00857-x][research_payeur_et_al_2021]
+- Richards, Blake A., Timothy P. Lillicrap, Philippe Beaudoin, et al. 2019. "A Deep Learning Framework for Neuroscience." *Nature Neuroscience* 22 (11): 1761–70. [https://doi.org/10.1038/s41593-019-0520-2][research_richards_et_al_2019]
+- Riesenhuber, Maximilian, and Tomaso Poggio. 1999. "Hierarchical Models of Object Recognition in Cortex." *Nature Neuroscience* 2 (11): 1019–25. [https://doi.org/10.1038/14819][research_riesenhuber_poggio_1999_hmax]
+- Rumelhart, David E., Geoffrey E. Hinton, and Ronald J. Williams. 1986. "Learning Representations by Back-Propagating Errors." *Nature* 323 (6088): 533–36. [https://doi.org/10.1038/323533a0][research_rumelhart_hinton_williams_1986]
+- Scellier, Benjamin, and Yoshua Bengio. 2017. "Equilibrium Propagation: Bridging the Gap between Energy-Based Models and Backpropagation." *Frontiers in Computational Neuroscience* 11: 24. [https://doi.org/10.3389/fncom.2017.00024][research_scellier_bengio_2017]
+- Stachenfeld, Kimberly L., Matthew M. Botvinick, and Samuel J. Gershman. 2017. "The Hippocampus as a Predictive Map." *Nature Neuroscience* 20 (11): 1643–53. [https://doi.org/10.1038/nn.4650][research_stachenfeld_botvinick_gershman_2017]
+- Steinberg, Elizabeth E., Ronald Keiflin, Josiah R. Boivin, Ilana B. Witten, Karl Deisseroth, and Patricia H. Janak. 2013. "A Causal Link between Prediction Errors, Dopamine Neurons and Learning." *Nature Neuroscience* 16 (7): 966–73. [https://doi.org/10.1038/nn.3413][research_steinberg_et_al_2013]
+- Sussillo, David, Mark M. Churchland, Matthew T. Kaufman, and Krishna V. Shenoy. 2015. "A Neural Network That Finds a Naturalistic Solution for the Production of Muscle Activity." *Nature Neuroscience* 18 (7): 1025–33. [https://doi.org/10.1038/nn.4042][research_sussillo_et_al_2015]
+- Sutton, Richard S. 1988. "Learning to Predict by the Methods of Temporal Differences." *Machine Learning* 3 (1): 9–44. [https://doi.org/10.1007/bf00115009][research_sutton_1988_td_a263]
+- Wang, Jane X., Zeb Kurth-Nelson, Dharshan Kumaran, et al. 2018. "Prefrontal Cortex as a Meta-Reinforcement Learning System." *Nature Neuroscience* 21 (6): 860–68. [https://doi.org/10.1038/s41593-018-0147-8][research_wang_et_al_2018_prefrontal_meta_a263]
+- Whittington, James C. R., Timothy H. Muller, Shirley Mark, et al. 2020. "The Tolman-Eichenbaum Machine: Unifying Space and Relational Memory through Generalization in the Hippocampal Formation." *Cell* 183 (5): 1249-1263.e23. [https://doi.org/10.1016/j.cell.2020.10.024][research_whittington_et_al_2020_tem]
+- Yamins, Daniel L. K., and James J. DiCarlo. 2016. "Using Goal-Driven Deep Learning Models to Understand Sensory Cortex." *Nature Neuroscience* 19 (3): 356–65. [https://doi.org/10.1038/nn.4244][research_yamins_dicarlo_2016]
+- Yang, Guangyu Robert, Madhura R. Joglekar, H. Francis Song, William T. Newsome, and Xiao-Jing Wang. 2019. "Task Representations in Neural Networks Trained to Perform Many Cognitive Tasks." *Nature Neuroscience* 22 (2): 297–306. [https://doi.org/10.1038/s41593-018-0310-2][research_yang_et_al_2019]
+- Yuste, Rafael, Sara Goering, Blaise Agüera y Arcas, et al. 2017. "Four Ethical Priorities for Neurotechnologies and AI." *Nature* 551 (7679): 159–63. [https://doi.org/10.1038/551159a][research_yuste_et_al_2017_neurorights]
+- Zador, Anthony, Sean Escola, Blake Richards, et al. 2023. "Catalyzing Next-Generation Artificial Intelligence through NeuroAI." *Nature Communications* 14 (1): 1597. [https://doi.org/10.1038/s41467-023-37180-x][research_zador_et_al_2023]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stanford CS234][ref_stanford_cs234]
+### Primary Sources, Non-Peer-Reviewed
+
+- Anderson, John R. 1996. "ACT: A Simple Theory of Complex Cognition." *American Psychologist* 51 (4): 355–65. [https://doi.org/10.1037/0003-066x.51.4.355][research_anderson_1996_act_r]
+- Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio. 2014. "Neural Machine Translation by Jointly Learning to Align and Translate." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1409.0473][research_bahdanau_cho_bengio_2015]
+- Bartunov, Sergey, Adam Santoro, Blake Richards, Luke Marris, Geoffrey E. Hinton, and Timothy Lillicrap. 2018. "Assessing the Scalability of Biologically-Motivated Deep Learning Algorithms and Architectures." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/63c3ddcc7b23daa1e42dc41f9a44a873-Abstract.html][research_bartunov_et_al_2018]
+- Bengio, Lee, Bornschein, Mesnard, and Lin. 2015a. *Target Prop*. [https://scholar.google.com/scholar?q=Target+Prop+Bengio+2015][research_bengio_et_al_2015_targetprop]
+- Bengio, Yoshua, Dong-Hyun Lee, Jorg Bornschein, Thomas Mesnard, and Zhouhan Lin. 2015b. "Towards Biologically Plausible Deep Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1502.04156][research_bengio_fischer_mesnard_2015]
+- Binz, Marcel, and Eric Schulz. 2023. "Using Cognitive Psychology to Understand GPT-3." *Proceedings of the National Academy of Sciences* 120 (6): e2218523120. [https://doi.org/10.1073/pnas.2218523120][research_binz_schulz_2023]
+- Cadena, Santiago A., George H. Denfield, Edgar Y. Walker, et al. 2019. "Deep Convolutional Models Improve Predictions of Macaque V1 Responses to Natural Images." *PLOS Computational Biology* 15 (4): e1006897. [https://doi.org/10.1371/journal.pcbi.1006897][research_cadena_et_al_2019]
+- Chung, SueYeon, Daniel D. Lee, and Haim Sompolinsky. 2018. "Classification and Geometry of General Perceptual Manifolds." *Physical Review X* 8 (3): 031003. [https://doi.org/10.1103/physrevx.8.031003][research_chung_lee_sompolinsky_2018]
+- Cichy, Radoslaw Martin, Gemma Roig, Alex Andonian, et al. 2019. "The Algonauts Project: A Platform for Communication between the Sciences of Biological and Artificial Intelligence." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1905.05675][research_cichy_et_al_2019_algonauts]
+- Coda-Forno, Julian, Marcel Binz, Zeynep Akata, Matt Botvinick, Jane Wang, and Eric Schulz. 2023. "Meta-in-Context Learning in Large Language Models." In *Advances in Neural Information Processing Systems 36*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/075280-2844][research_coda_forno_et_al_2023]
+- Cueva, Christopher J., and Xue-Xin Wei. 2018. "Emergence of Grid-like Representations by Training Recurrent Neural Networks to Perform Spatial Localization." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=B17JTOe0-][research_cueva_wei_2018]
+- Dabney, Will, Mark Rowland, Marc Bellemare, and Rémi Munos. 2018. "Distributional Reinforcement Learning with Quantile Regression." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11791][research_bellemare_et_al_2017_distributional]
+- Dayan, Peter. 1993. "Improving Generalization for Temporal Difference Learning: The Successor Representation." *Neural Computation* 5 (4): 613–24. [https://doi.org/10.1162/neco.1993.5.4.613][research_dayan_1993_sr]
+- Desimone, Robert, and John Duncan. 1995. "Neural Mechanisms of Selective Visual Attention." *Annual Review of Neuroscience* 18 (1): 193–222. [https://doi.org/10.1146/annurev.ne.18.030195.001205][research_desimone_duncan_1995]
+- Doya, Kenji. 2000. "Reinforcement Learning in Continuous Time and Space." *Neural Computation* 12 (1): 219–45. [https://doi.org/10.1162/089976600300015961][research_doya_2000]
+- Duan, Yan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, and Pieter Abbeel. 2016. "RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1611.02779][research_duan_et_al_2016_rl2_a263]
+- Eliasmith, Chris, Terrence C. Stewart, Xuan Choo, et al. 2012. "A Large-Scale Model of the Functioning Brain." *Science* 338 (6111): 1202–5. [https://doi.org/10.1126/science.1225266][research_eliasmith_et_al_2012_spaun]
+- Giovannucci, Andrea, Johannes Friedrich, Pat Gunn, et al. 2019. "CaImAn an Open Source Tool for Scalable Calcium Imaging Data Analysis." *eLife* 8: e38173. [https://doi.org/10.7554/elife.38173][research_giovannucci_et_al_2019_caiman]
+- Graves, Alex, Greg Wayne, and Ivo Danihelka. 2014. "Neural Turing Machines." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1410.5401][research_graves_wayne_danihelka_2014_ntm]
+- Guerguiev, Jordan, Timothy P. Lillicrap, and Blake A. Richards. 2017. "Towards Deep Learning with Segregated Dendrites." *eLife* 6: e22901. [https://doi.org/10.7554/elife.22901][research_guerguiev_lillicrap_richards_2017]
+- Hopfield, J. J. 1982. "Neural Networks and Physical Systems with Emergent Collective Computational Abilities." *Proceedings of the National Academy of Sciences* 79 (8): 2554–58. [https://doi.org/10.1073/pnas.79.8.2554][research_hopfield_1982]
+- Izhikevich, Eugene M., and Gerald M. Edelman. 2008. "Large-Scale Model of Mammalian Thalamocortical Systems." *Proceedings of the National Academy of Sciences* 105 (9): 3593–98. [https://doi.org/10.1073/pnas.0712231105][research_izhikevich_edelman_2008]
+- Jain, Shailee, and Alexander Huth. 2018. "Incorporating Context into Language Encoding Models for fMRI." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2018/hash/f471223d1a1614b58a7dc45c9d01df19-Abstract.html][research_jain_huth_2018]
+- Kriegeskorte, Nikolaus. 2015. "Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing." *Annual Review of Vision Science* 1 (1): 417–46. [https://doi.org/10.1146/annurev-vision-082114-035447][research_kriegeskorte_2015]
+- Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. 2012. "ImageNet Classification with Deep Convolutional Neural Networks." *Advances in Neural Information Processing Systems* 25. [https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html][research_krizhevsky_sutskever_hinton_2012]
+- Ku, Tellex, Wu, and Herrera. 2024. *LLM Cognitive*. [https://scholar.google.com/scholar?q=LLM+Cognitive+Ku+2024][research_ku_et_al_2024]
+- Kubilius, Jonas, Martin Schrimpf, Aran Nayebi, Daniel Bear, Daniel L. K. Yamins, and James J. DiCarlo. 2018. "CORnet: Modeling the Neural Mechanisms of Core Object Recognition." Preprint, bioRxiv. [https://doi.org/10.1101/408385][research_kubilius_et_al_2019_cornet]
+- LeCun, Y., B. Boser, J. S. Denker, et al. 1989. "Backpropagation Applied to Handwritten Zip Code Recognition." *Neural Computation* 1 (4): 541–51. [https://doi.org/10.1162/neco.1989.1.4.541][research_lecun_et_al_1989]
+- Marcus, Gary. 2020. "The Next Decade in AI: Four Steps towards Robust Artificial Intelligence." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2002.06177][research_marcus_2020_next_decade]
+- McClelland, James L., Bruce L. McNaughton, and Randall C. O'Reilly. 1995. "Why There Are Complementary Learning Systems in the Hippocampus and Neocortex: Insights from the Successes and Failures of Connectionist Models of Learning and Memory." *Psychological Review* 102 (3): 419–57. [https://doi.org/10.1037/0033-295x.102.3.419][research_mcclelland_mcnaughton_oreilly_1995_a263]
+- Merolla, Paul A., John V. Arthur, Rodrigo Alvarez-Icaza, et al. 2014. "A Million Spiking-Neuron Integrated Circuit with a Scalable Communication Network and Interface." *Science* 345 (6197): 668–73. [https://doi.org/10.1126/science.1254642][research_merolla_et_al_2014_truenorth]
+- Millet, Juliette, Charlotte Caucheteux, pierre Orhan, et al. 2022. "Toward a Realistic Model of Speech Processing in the Brain with Self-Supervised Learning." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2022/hash/d81ecfc8fb18e833a3fa0a35d92532b8-Abstract-Conference.html][research_millet_et_al_2022]
+- Nayebi, Aran, Daniel Bear, Jonas Kubilius, et al. 2018. "Task-Driven Convolutional Recurrent Models of the Visual System." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/6be93f7a96fed60c477d30ae1de032fd-Abstract.html][research_nayebi_et_al_2018]
+- Nøkland, Arild. 2016. "Direct Feedback Alignment Provides Learning in Deep Neural Networks." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/d490d7b4576290fa60eb31b5fc917ad1-Abstract.html][research_nokland_2016]
+- Pachitariu, Marius, Nicholas Steinmetz, Shabnam Kadir, Matteo Carandini, and Kenneth D. Harris. 2016. "Kilosort: Realtime Spike-Sorting for Extracellular Electrophysiology with Hundreds of Channels." Preprint, bioRxiv. [https://doi.org/10.1101/061481][research_pachitariu_et_al_2016_kilosort]
+- Pei, Felix C., Joel Ye, David M. Zoltowski, et al. 2021. "Neural Latents Benchmark ‘21: Evaluating Latent Variable Models of Neural Population Activity." In *Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)*. [https://openreview.net/forum?id=KVMS3fl4Rsv][research_pei_et_al_2021_nlb]
+- Rajan, Kanaka, and L. F. Abbott. 2006. "Eigenvalue Spectra of Random Matrices for Neural Networks." *Physical Review Letters* 97 (18): 188104. [https://doi.org/10.1103/physrevlett.97.188104][research_rajan_abbott_2006]
+- Reynolds, John H., and Leonardo Chelazzi. 2004. "Attentional Modulation of Visual Processing." *Annual Review of Neuroscience* 27 (1): 611–47. [https://doi.org/10.1146/annurev.neuro.26.041002.131039][research_reynolds_chelazzi_2004]
+- Rosenblatt, F. 1958. "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain." *Psychological Review* 65 (6): 386–408. [https://doi.org/10.1037/h0042519][research_rosenblatt_1958]
+- Sacramento, João, Rui Ponte Costa, Yoshua Bengio, and Walter Senn. 2018. "Dendritic Cortical Microcircuits Approximate the Backpropagation Algorithm." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/1dc3a89d0d440ba31729b0ba74b93a33-Abstract.html][research_sacramento_et_al_2018]
+- Schrimpf, Martin, Idan Asher Blank, Greta Tuckute, et al. 2021. "The Neural Architecture of Language: Integrative Modeling Converges on Predictive Processing." *Proceedings of the National Academy of Sciences* 118 (45): e2105646118. [https://doi.org/10.1073/pnas.2105646118][research_schrimpf_et_al_2021_language]
+- Schultz, Wolfram, Peter Dayan, and P. Read Montague. 1997. "A Neural Substrate of Prediction and Reward." *Science* 275 (5306): 1593–99. [https://doi.org/10.1126/science.275.5306.1593][research_schultz_dayan_montague_1997]
+- Sejnowski and Rosenberg. 1987. *NETtalk*. [https://scholar.google.com/scholar?q=NETtalk+Sejnowski+Rosenberg+1987][research_sejnowski_rosenberg_1987]
+- Simoncelli, Eero P., and Bruno A. Olshausen. 2001. "Natural Image Statistics and Neural Representation." *Annual Review of Neuroscience* 24 (1): 1193–1216. [https://doi.org/10.1146/annurev.neuro.24.1.1193][research_simoncelli_olshausen_2001]
+- Song, H. Francis, Guangyu R. Yang, and Xiao-Jing Wang. 2016. "Training Excitatory-Inhibitory Recurrent Neural Networks for Cognitive Tasks: A Simple and Flexible Framework." *PLOS Computational Biology* 12 (2): e1004792. [https://doi.org/10.1371/journal.pcbi.1004792][research_song_yang_wang_2016]
+- Sorscher, Ben, Gabriel Mel, Surya Ganguli, and Samuel Ocko. 2019. "A Unified Theory for the Origin of Grid Cells through the Lens of Pattern Formation." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2019/hash/6e7d5d259be7bf56ed79029c4e621f44-Abstract.html][research_sorscher_et_al_2019]
+- Sussillo, David, and Omri Barak. 2013. "Opening the Black Box: Low-Dimensional Dynamics in High-Dimensional Recurrent Neural Networks." *Neural Computation* 25 (3): 626–49. [https://doi.org/10.1162/neco\_a\_00409][research_sussillo_barak_2013]
+- Toneva, Mariya, and Leila Wehbe. 2019. "Interpreting and Improving Natural-Language Processing (in Machines) with Natural Language-Processing (in the Brain)." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2019/hash/749a8e6c231831ef7756db230b4359c8-Abstract.html][research_toneva_wehbe_2019]
+- Turing, A. M. 1950. "i.—Computing Machinery and Intelligence." *Mind* LIX (236): 433–60. [https://doi.org/10.1093/mind/lix.236.433][research_turing_1950]
+- Ullman, Tomer. 2023. "Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2302.08399][research_ullman_2023]
+- Vaswani, Ashish, Noam Shazeer, Niki Parmar, et al. 2017. "Attention Is All You Need." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html][research_vaswani_et_al_2017]
+- Vinje, William E., and Jack L. Gallant. 2000. "Sparse Coding and Decorrelation in Primary Visual Cortex during Natural Vision." *Science* 287 (5456): 1273–76. [https://doi.org/10.1126/science.287.5456.1273][research_vinje_gallant_2000]
+- Vyas, Saurabh, Matthew D. Golub, David Sussillo, and Krishna V. Shenoy. 2020. "Computation through Neural Population Dynamics." *Annual Review of Neuroscience* 43 (1): 249–75. [https://doi.org/10.1146/annurev-neuro-092619-094115][research_vyas_et_al_2020]
+- Wang. 2002. *Working Memory*. [https://scholar.google.com/scholar?q=Working+Memory+Wang+2002][research_wang_2002_working_memory]
+- Wang, Jane X., Zeb Kurth-Nelson, Dhruva Tirumala, et al. 2016. "Learning to Reinforcement Learn." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1611.05763][research_wang_et_al_2016_l2rl_a263]
+- Widrow and Hoff. 1960. "Adaptive." [https://apps.dtic.mil/sti/citations/AD0241531][research_widrow_hoff_1960]
+- Willeke, Konstantin F., Paul G. Fahey, Mohammad Bashiri, et al. 2022. "The Sensorium Competition on Predicting Large-Scale Mouse Primary Visual Cortex Activity." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2206.08666][research_willeke_et_al_2022_sensorium]
+- Yamins, Daniel L. K., Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James J. DiCarlo. 2014. "Performance-Optimized Hierarchical Models Predict Neural Responses in Higher Visual Cortex." *Proceedings of the National Academy of Sciences* 111 (23): 8619–24. [https://doi.org/10.1073/pnas.1403112111][research_yamins_et_al_2014]
+- Zhuang, Chengxu, Siming Yan, Aran Nayebi, et al. 2021. "Unsupervised Neural Network Models of the Ventral Visual Stream." *Proceedings of the National Academy of Sciences* 118 (3): e2014196118. [https://doi.org/10.1073/pnas.2014196118][research_zhuang_et_al_2021]
+
+### Secondary Sources
+
+- Eliasmith, Chris. 2013. *How to Build a Brain: A Neural Architecture for Biological Cognition*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/how-to-build-a-brain-9780190262129][book_eliasmith_2013_how_to_build]
+- Hebb, D. O. 1949. *The Organization of Behavior*. Wiley. [https://www.taylorfrancis.com/books/mono/10.4324/9781410612403/organization-behavior-hebb][book_hebb_1949]
+- Laird, John. 2012. *The Soar Cognitive Architecture*. MIT Press. [https://mitpress.mit.edu/9780262122962/the-soar-cognitive-architecture/][book_laird_2012_soar]
+- Minsky, Marvin, and Seymour Papert. 1969. *Perceptrons: An Introduction to Computational Geometry*. Brand: MIT Press. [https://mitpress.mit.edu/9780262631112/perceptrons/][book_minsky_papert_1969]
+- O'Keefe, John., and Nadel. 1978. *The Hippocampus as a Cognitive Map*. Clarendon Press. [https://academic.oup.com/book/1050][book_okeefe_nadel_1978]
+- Rumelhart McClelland PDP Group. 1986. *PDP*. [https://mitpress.mit.edu/9780262680530/parallel-distributed-processing/][book_rumelhart_mcclelland_1986]
+- Sutton, Richard S., and Barto. 1998. *Reinforcement Learning: An Introduction*. MIT Press. [https://mitpress.mit.edu/9780262039246/reinforcement-learning/][book_sutton_barto_1998]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+- Wiener, Norbert. 1948. *Cybernetics, or Control and Communication in the Animal and the Machine*. The M.i.t. Press. [https://mitpress.mit.edu/9780262537841/cybernetics/][book_wiener_1948]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- Antonello, Turek, Vaidya, and Huth. 2024. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=xI71dsS3o4][research_antonello_et_al_2024]
+- Antonello Turek Vaidya Huth. 2024. "A263." [https://openreview.net/forum?id=xI71dsS3o4][research_antonello_et_al_2024_a263]
+- Barlow. 1961. "Efficient Coding." [https://scholar.google.com/scholar?q=barlow+1961+possible+principles+underlying+sensory+messages][research_barlow_1961_efficient]
+- Barto Sutton Anderson. 1983. "Actor-Critic." [https://ieeexplore.ieee.org/document/6313077][research_barto_sutton_anderson_1983]
+- Behrens, Muller, Whittington, et al. 2018. "Cognitive Maps." [https://www.cell.com/neuron/fulltext/S0896-6273(18)30856-6][research_behrens_et_al_2018_cognitive_maps]
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- Davies. 2018. "Loihi." [https://ieeexplore.ieee.org/document/8259423][research_davies_et_al_2018_loihi]
+- Indiveri Liu Delbruck. 2015. "Silicon Neurons." [https://ieeexplore.ieee.org/document/7108440][research_indiveri_liu_delbruck_2015]
+- King and Dehaene. 2014. "Decoding." [https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(14)00047-X][research_king_dehaene_2014]
+- Neftci Mostafa Zenke. 2019. "Surrogate." [https://ieeexplore.ieee.org/document/8891809][research_neftci_mostafa_zenke_2019]
+- OECD. 2019. "Neurotechnology." [https://www.oecd.org/en/topics/sub-issues/emerging-technologies/neurotechnology.html][research_oecd_neurotechnology_2019]
+- Schrimpf. 2020. "Brain-Score." [https://www.biorxiv.org/content/10.1101/407007v2][research_schrimpf_et_al_2020_brainscore]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- Song, Millidge, Salvatori, Lukasiewicz, Xu, and Bogacz. 2020. "PC Backprop." [https://papers.nips.cc/paper/2020/hash/fec87a37cdeec1c6ecf8181c0aa2d3bf-Abstract.html][research_song_et_al_2020_pc_backprop]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- Watkins. 1989. "Q-Learning." [https://www.cs.rhul.ac.uk/~chrisw/new\_thesis.pdf][research_watkins_1989_thesis_a263]
+- Werbos. 1974. "Backprop Thesis." [https://scholar.google.com/scholar?q=werbos+1974+beyond+regression][research_werbos_1974]
+- Whittington and Bogacz. 2019. "A263." [https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(18)30284-X][research_whittington_bogacz_2019]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
-- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
-- [A252 Machines That Learn From Experience Reinforcement Learning Foundations][related_post_a252_rl_foundations]
-- [A253 Machines That Learn From Experience Deep Reinforcement Learning][related_post_a253_deep_rl]
-- [A254 Machines That Learn From Experience Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]
-- [A255 Machines That Learn From Experience Hierarchical Reinforcement Learning][related_post_a255_hierarchical]
-- [A256 Machines That Learn From Experience World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]
-- [A257 Machines That Learn From Experience Offline and Batch Reinforcement Learning][related_post_a257_offline]
-- [A258 Machines That Learn From Experience Meta-Learning and Online Adaptation][related_post_a258_meta_learning]
-- [A259 Machines That Learn From Experience Continual and Lifelong Learning][related_post_a259_continual]
-- [A260 Machines That Learn From Experience Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration]
-- [A261 Machines That Learn From Experience Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary]
-- [A262 Machines That Learn From Experience Embodied Cognition and Developmental Learning][related_post_a262_embodied]
-
-### Research
-
-- [Ackley Hinton Sejnowski 1985 Boltzmann][research_ackley_hinton_sejnowski_1985]
-- [Anderson 1996 ACT-R][research_anderson_1996_act_r]
-- [Antonello Turek Vaidya Huth 2024][research_antonello_et_al_2024]
-- [Antonello Turek Vaidya Huth 2024 A263][research_antonello_et_al_2024_a263]
-- [Bahdanau Cho Bengio 2015][research_bahdanau_cho_bengio_2015]
-- [Banino et al 2018 Grid Cells][research_banino_et_al_2018_grid]
-- [Barlow 1961 Efficient Coding][research_barlow_1961_efficient]
-- [Barto Sutton Anderson 1983 Actor-Critic][research_barto_sutton_anderson_1983]
-- [Bartunov et al 2018 Bio Scalability][research_bartunov_et_al_2018]
-- [Behrens et al 2018 Cognitive Maps][research_behrens_et_al_2018_cognitive_maps]
-- [Bell and Sejnowski 1997 ICA][research_bell_sejnowski_1997]
-- [Bellec et al 2020 Spiking BPTT][research_bellec_et_al_2020]
-- [Bellemare Dabney Munos 2017 Distributional][research_bellemare_et_al_2017_distributional]
-- [Bengio Fischer Mesnard 2015 Bio DL][research_bengio_fischer_mesnard_2015]
-- [Bengio et al 2015 Target Prop][research_bengio_et_al_2015_targetprop]
-- [Binz and Schulz 2023 GPT-3 Cognitive][research_binz_schulz_2023]
-- [Botvinick et al 2019 RL Fast Slow][research_botvinick_et_al_2019_rl_fast_slow]
-- [Buzsáki and Moser 2013 Memory Navigation][research_buzsaki_moser_2013]
-- [Cadena et al 2019 V1 Deep Learning][research_cadena_et_al_2019]
-- [Caucheteux and King 2022 Brains and Algorithms][research_caucheteux_king_2022]
-- [Chang and Tsao 2017 Face Code][research_chang_tsao_2017]
-- [Chung Lee Sompolinsky 2018 Manifold Capacity][research_chung_lee_sompolinsky_2018]
-- [Chung and Abbott 2021 Population Geometry][research_chung_abbott_2021]
-- [Cichy et al 2019 Algonauts][research_cichy_et_al_2019_algonauts]
-- [Coda-Forno et al 2023 Meta-in-Context][research_coda_forno_et_al_2023]
-- [Cueva and Wei 2018 Grid Emergence][research_cueva_wei_2018]
-- [Cunningham and Yu 2014 Dimensionality][research_cunningham_yu_2014]
-- [Dabney et al 2020 Dopamine Distributional][research_dabney_et_al_2020_dopamine]
-- [Davies et al 2018 Loihi][research_davies_et_al_2018_loihi]
-- [Daw et al 2011 Model-Based Model-Free][research_daw_et_al_2011]
-- [Dayan 1993 SR][research_dayan_1993_sr]
-- [Desimone and Duncan 1995 Attention][research_desimone_duncan_1995]
-- [Doerig et al 2023 Neuroconnectionist][research_doerig_et_al_2023]
-- [Doya 2000 Computational Neuroscience RL][research_doya_2000]
-- [Duan et al 2016 RL2 A263][research_duan_et_al_2016_rl2_a263]
-- [Eliasmith et al 2012 Spaun][research_eliasmith_et_al_2012_spaun]
-- [Elman 1990 SRN][research_elman_1990_srn]
-- [Eshel et al 2015 Dopamine Arithmetic][research_eshel_et_al_2015]
-- [Foster and Wilson 2006 A263][research_foster_wilson_2006_a263]
-- [Fukushima 1980 Neocognitron][research_fukushima_1980_neocognitron]
-- [Gallego et al 2017 Neural Manifolds][research_gallego_et_al_2017]
-- [Giovannucci et al 2019 CaImAn][research_giovannucci_et_al_2019_caiman]
-- [Goldstein et al 2022 Shared Computational Principles][research_goldstein_et_al_2022]
-- [Graves et al 2016 DNC][research_graves_et_al_2016_dnc]
-- [Graves Wayne Danihelka 2014 NTM][research_graves_wayne_danihelka_2014_ntm]
-- [Guerguiev Lillicrap Richards 2017 Dendrites][research_guerguiev_lillicrap_richards_2017]
-- [Hafting et al 2005 Grid Cells][research_hafting_et_al_2005_grid]
-- [Hassabis Kumaran Summerfield Botvinick 2017][research_hassabis_et_al_2017]
-- [Hopfield 1982 Networks][research_hopfield_1982]
-- [Hubel and Wiesel 1962 V1][research_hubel_wiesel_1962]
-- [Indiveri Liu Delbruck 2015 Silicon Neurons][research_indiveri_liu_delbruck_2015]
-- [Izhikevich and Edelman 2008 Thalamocortex][research_izhikevich_edelman_2008]
-- [Jain and Huth 2018 Contextual Embeddings][research_jain_huth_2018]
-- [Ji and Wilson 2007 Coordinated Replay][research_ji_wilson_2007]
-- [Kell et al 2018 Auditory][research_kell_et_al_2018]
-- [King and Dehaene 2014 Decoding][research_king_dehaene_2014]
-- [Konkle and Alvarez 2022 Contrastive Cortex][research_konkle_alvarez_2022]
-- [Kriegeskorte 2015][research_kriegeskorte_2015]
-- [Krizhevsky Sutskever Hinton 2012][research_krizhevsky_sutskever_hinton_2012]
-- [Ku et al 2024 LLM Cognitive][research_ku_et_al_2024]
-- [Kubilius et al 2019 CORnet][research_kubilius_et_al_2019_cornet]
-- [Kumaran Hassabis McClelland 2016 A263][research_kumaran_hassabis_mcclelland_2016_a263]
-- [LeCun et al 1989 CNN][research_lecun_et_al_1989]
-- [Lillicrap et al 2016 Feedback Alignment][research_lillicrap_et_al_2016_feedback]
-- [Lillicrap et al 2020 Backprop and Brain][research_lillicrap_et_al_2020]
-- [Lindsay 2020 Attention][research_lindsay_2020_attention]
-- [Louie and Wilson 2001 REM Replay][research_louie_wilson_2001]
-- [Maass 1997 Spiking Neurons][research_maass_1997]
-- [Mante et al 2013 Context-Dependent][research_mante_et_al_2013]
-- [Marblestone Wayne Kording 2016][research_marblestone_wayne_kording_2016]
-- [Marcus 2020 Next Decade][research_marcus_2020_next_decade]
-- [Markram 2006 Blue Brain][research_markram_2006_blue_brain]
-- [Mattar and Daw 2018 A263][research_mattar_daw_2018_a263]
-- [McClelland McNaughton O'Reilly 1995 A263][research_mcclelland_mcnaughton_oreilly_1995_a263]
-- [McCulloch and Pitts 1943][research_mcculloch_pitts_1943]
-- [Merolla et al 2014 TrueNorth][research_merolla_et_al_2014_truenorth]
-- [Millet et al 2022 Speech Models][research_millet_et_al_2022]
-- [Momennejad et al 2017 SR Human][research_momennejad_et_al_2017]
-- [Nayebi et al 2018 Recurrent Vision][research_nayebi_et_al_2018]
-- [Neftci Mostafa Zenke 2019 Surrogate][research_neftci_mostafa_zenke_2019]
-- [Niv 2009 RL Brain][research_niv_2009]
-- [Nokland 2016 Direct Feedback][research_nokland_2016]
-- [OECD 2019 Neurotechnology][research_oecd_neurotechnology_2019]
-- [O'Keefe and Dostrovsky 1971 Place Cells][research_okeefe_dostrovsky_1971]
-- [Oja 1982 Simplified Neuron][research_oja_1982]
-- [Olshausen and Field 1996 Sparse Coding][research_olshausen_field_1996]
-- [Pachitariu et al 2016 Kilosort][research_pachitariu_et_al_2016_kilosort]
-- [Pandarinath et al 2018 LFADS][research_pandarinath_et_al_2018_lfads]
-- [Payeur et al 2021 Burst-Dependent][research_payeur_et_al_2021]
-- [Pei et al 2021 Neural Latents Benchmark][research_pei_et_al_2021_nlb]
-- [Rajan and Abbott 2006 Random RNN][research_rajan_abbott_2006]
-- [Reynolds and Chelazzi 2004 Attention Modulation][research_reynolds_chelazzi_2004]
-- [Richards et al 2019 DL Framework Neuroscience][research_richards_et_al_2019]
-- [Riesenhuber and Poggio 1999 HMAX][research_riesenhuber_poggio_1999_hmax]
-- [Rosenblatt 1958 Perceptron][research_rosenblatt_1958]
-- [Rumelhart Hinton Williams 1986 Backprop][research_rumelhart_hinton_williams_1986]
-- [Sacramento et al 2018 Cortical Microcircuits][research_sacramento_et_al_2018]
-- [Scellier and Bengio 2017 Equilibrium Prop][research_scellier_bengio_2017]
-- [Schrimpf et al 2020 Brain-Score][research_schrimpf_et_al_2020_brainscore]
-- [Schrimpf et al 2021 Language][research_schrimpf_et_al_2021_language]
-- [Schultz Dayan Montague 1997 RPE][research_schultz_dayan_montague_1997]
-- [Sejnowski and Rosenberg 1987 NETtalk][research_sejnowski_rosenberg_1987]
-- [Simoncelli and Olshausen 2001 Image Statistics][research_simoncelli_olshausen_2001]
-- [Song et al 2020 PC Backprop][research_song_et_al_2020_pc_backprop]
-- [Song Yang Wang 2016 Task RNN][research_song_yang_wang_2016]
-- [Sorscher et al 2019 Grid Unified Theory][research_sorscher_et_al_2019]
-- [Stachenfeld Botvinick Gershman 2017 Predictive Map][research_stachenfeld_botvinick_gershman_2017]
-- [Steinberg et al 2013 Causal Dopamine][research_steinberg_et_al_2013]
-- [Sussillo and Barak 2013 Black Box][research_sussillo_barak_2013]
-- [Sussillo et al 2015 Motor Cortex][research_sussillo_et_al_2015]
-- [Sutton 1988 TD A263][research_sutton_1988_td_a263]
-- [Toneva and Wehbe 2019 Language][research_toneva_wehbe_2019]
-- [Turing 1950 Computing Machinery][research_turing_1950]
-- [Ullman 2023 LLM Trivial Alterations][research_ullman_2023]
-- [Vaswani et al 2017 Attention Is All You Need][research_vaswani_et_al_2017]
-- [Vinje and Gallant 2000 Sparse V1][research_vinje_gallant_2000]
-- [Vyas et al 2020 Population Dynamics][research_vyas_et_al_2020]
-- [Wang 2002 Working Memory][research_wang_2002_working_memory]
-- [Wang et al 2016 L2RL A263][research_wang_et_al_2016_l2rl_a263]
-- [Wang et al 2018 Prefrontal Meta A263][research_wang_et_al_2018_prefrontal_meta_a263]
-- [Watkins 1989 Thesis A263][research_watkins_1989_thesis_a263]
-- [Werbos 1974 Backprop Thesis][research_werbos_1974]
-- [Whittington and Bogacz 2019 Approximate Backprop][research_whittington_bogacz_2019]
-- [Whittington and Bogacz 2019 A263][research_whittington_bogacz_2019_a263]
-- [Whittington et al 2020 TEM][research_whittington_et_al_2020_tem]
-- [Widrow and Hoff 1960 Adaptive][research_widrow_hoff_1960]
-- [Willeke et al 2022 Sensorium][research_willeke_et_al_2022_sensorium]
-- [Yamins and DiCarlo 2016 Goal-Driven][research_yamins_dicarlo_2016]
-- [Yamins et al 2014 IT CNN][research_yamins_et_al_2014]
-- [Yang et al 2019 Task Representations][research_yang_et_al_2019]
-- [Yuste et al 2017 Neurorights][research_yuste_et_al_2017_neurorights]
-- [Zador et al 2023 Catalyzing NeuroAI][research_zador_et_al_2023]
-- [Zhuang et al 2021 Self-Supervised Cortex][research_zhuang_et_al_2021]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Bandits and Online Learning." *Brendan A R Sechter's Development Blog*, December 19. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/19/machines\_that\_learn\_from\_experience\_bandits\_and\_online\_learning.html][related_post_a251_bandits]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Reinforcement Learning Foundations." *Brendan A R Sechter's Development Blog*, December 20. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/20/machines\_that\_learn\_from\_experience\_reinforcement\_learning\_foundations.html][related_post_a252_rl_foundations]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Deep Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 21. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/21/machines\_that\_learn\_from\_experience\_deep\_reinforcement\_learning.html][related_post_a253_deep_rl]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Exploration, Intrinsic Motivation, and Curiosity." *Brendan A R Sechter's Development Blog*, December 22. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/22/machines\_that\_learn\_from\_experience\_exploration\_intrinsic\_motivation\_and\_curiosity.html][related_post_a254_exploration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Hierarchical Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 23. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/23/machines\_that\_learn\_from\_experience\_hierarchical\_reinforcement\_learning.html][related_post_a255_hierarchical]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: World Models and Predictive, Model-Based Adaptation." *Brendan A R Sechter's Development Blog*, December 24. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/24/machines\_that\_learn\_from\_experience\_world\_models\_and\_predictive\_model\_based\_adaptation.html][related_post_a256_world_models]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Offline and Batch Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 25. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/25/machines\_that\_learn\_from\_experience\_offline\_and\_batch\_reinforcement\_learning.html][related_post_a257_offline]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Meta-Learning and Online Adaptation." *Brendan A R Sechter's Development Blog*, December 26. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/26/machines\_that\_learn\_from\_experience\_meta\_learning\_and\_online\_adaptation.html][related_post_a258_meta_learning]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Continual and Lifelong Learning." *Brendan A R Sechter's Development Blog*, December 27. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/27/machines\_that\_learn\_from\_experience\_continual\_and\_lifelong\_learning.html][related_post_a259_continual]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Learning From Demonstration, Preference, and Other Agents." *Brendan A R Sechter's Development Blog*, December 28. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/28/machines\_that\_learn\_from\_experience\_learning\_from\_demonstration\_preference\_and\_other\_agents.html][related_post_a260_demonstration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Evolutionary and Open-Ended Adaptation." *Brendan A R Sechter's Development Blog*, December 29. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/29/machines\_that\_learn\_from\_experience\_evolutionary\_and\_open\_ended\_adaptation.html][related_post_a261_evolutionary]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Embodied Cognition and Developmental Learning." *Brendan A R Sechter's Development Blog*, December 30. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/30/machines\_that\_learn\_from\_experience\_embodied\_cognition\_and\_developmental\_learning.html][related_post_a262_embodied]
 
 [book_eliasmith_2013_how_to_build]: https://global.oup.com/academic/product/how-to-build-a-brain-9780190262129
 [book_hebb_1949]: https://www.taylorfrancis.com/books/mono/10.4324/9781410612403/organization-behavior-hebb
@@ -797,136 +804,136 @@ The research program on beneficial NeuroAI development includes the efforts to a
 [related_post_a260_demonstration]: {% post_url 2025-12-28-machines_that_learn_from_experience_learning_from_demonstration_preference_and_other_agents %}
 [related_post_a261_evolutionary]: {% post_url 2025-12-29-machines_that_learn_from_experience_evolutionary_and_open_ended_adaptation %}
 [related_post_a262_embodied]: {% post_url 2025-12-30-machines_that_learn_from_experience_embodied_cognition_and_developmental_learning %}
-[research_ackley_hinton_sejnowski_1985]: https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0901_7
-[research_anderson_1996_act_r]: https://psycnet.apa.org/doi/10.1037/0003-066X.51.4.355
+[research_ackley_hinton_sejnowski_1985]: https://doi.org/10.1207/s15516709cog0901_7
+[research_anderson_1996_act_r]: https://doi.org/10.1037/0003-066x.51.4.355
 [research_antonello_et_al_2024]: https://openreview.net/forum?id=xI71dsS3o4
 [research_antonello_et_al_2024_a263]: https://openreview.net/forum?id=xI71dsS3o4
-[research_bahdanau_cho_bengio_2015]: https://arxiv.org/abs/1409.0473
-[research_banino_et_al_2018_grid]: https://www.nature.com/articles/s41586-018-0102-6
+[research_bahdanau_cho_bengio_2015]: https://doi.org/10.48550/arxiv.1409.0473
+[research_banino_et_al_2018_grid]: https://doi.org/10.1038/s41586-018-0102-6
 [research_barlow_1961_efficient]: https://scholar.google.com/scholar?q=barlow+1961+possible+principles+underlying+sensory+messages
 [research_barto_sutton_anderson_1983]: https://ieeexplore.ieee.org/document/6313077
 [research_bartunov_et_al_2018]: https://papers.nips.cc/paper/2018/hash/63c3ddcc7b23daa1e42dc41f9a44a873-Abstract.html
 [research_behrens_et_al_2018_cognitive_maps]: https://www.cell.com/neuron/fulltext/S0896-6273(18)30856-6
-[research_bell_sejnowski_1997]: https://www.sciencedirect.com/science/article/abs/pii/S0042698997001211
-[research_bellec_et_al_2020]: https://www.nature.com/articles/s41467-020-17236-y
-[research_bellemare_et_al_2017_distributional]: https://proceedings.mlr.press/v70/bellemare17a.html
-[research_bengio_et_al_2015_targetprop]: https://arxiv.org/abs/1502.03107
-[research_bengio_fischer_mesnard_2015]: https://arxiv.org/abs/1502.04156
-[research_binz_schulz_2023]: https://www.pnas.org/doi/10.1073/pnas.2218523120
-[research_botvinick_et_al_2019_rl_fast_slow]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(19)30061-0
-[research_buzsaki_moser_2013]: https://www.nature.com/articles/nn.3304
-[research_cadena_et_al_2019]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006897
-[research_caucheteux_king_2022]: https://www.nature.com/articles/s42003-022-03036-1
-[research_chang_tsao_2017]: https://www.cell.com/cell/fulltext/S0092-8674(17)30538-X
-[research_chung_abbott_2021]: https://www.sciencedirect.com/science/article/pii/S0959438821001227
-[research_chung_lee_sompolinsky_2018]: https://link.aps.org/doi/10.1103/PhysRevX.8.031003
-[research_cichy_et_al_2019_algonauts]: https://arxiv.org/abs/1905.05675
-[research_coda_forno_et_al_2023]: https://openreview.net/forum?id=SrIN63qJST
+[research_bell_sejnowski_1997]: https://doi.org/10.1016/s0042-6989(97)00121-1
+[research_bellec_et_al_2020]: https://doi.org/10.1038/s41467-020-17236-y
+[research_bellemare_et_al_2017_distributional]: https://doi.org/10.1609/aaai.v32i1.11791
+[research_bengio_et_al_2015_targetprop]: https://scholar.google.com/scholar?q=Target+Prop+Bengio+2015
+[research_bengio_fischer_mesnard_2015]: https://doi.org/10.48550/arxiv.1502.04156
+[research_binz_schulz_2023]: https://doi.org/10.1073/pnas.2218523120
+[research_botvinick_et_al_2019_rl_fast_slow]: https://doi.org/10.1016/j.tics.2019.02.006
+[research_buzsaki_moser_2013]: https://doi.org/10.1038/nn.3304
+[research_cadena_et_al_2019]: https://doi.org/10.1371/journal.pcbi.1006897
+[research_caucheteux_king_2022]: https://doi.org/10.1038/s42003-022-03036-1
+[research_chang_tsao_2017]: https://doi.org/10.1016/j.cell.2017.05.011
+[research_chung_abbott_2021]: https://doi.org/10.1016/j.conb.2021.10.010
+[research_chung_lee_sompolinsky_2018]: https://doi.org/10.1103/physrevx.8.031003
+[research_cichy_et_al_2019_algonauts]: https://doi.org/10.48550/arxiv.1905.05675
+[research_coda_forno_et_al_2023]: https://doi.org/10.52202/075280-2844
 [research_cueva_wei_2018]: https://openreview.net/forum?id=B17JTOe0-
-[research_cunningham_yu_2014]: https://www.nature.com/articles/nn.3776
-[research_dabney_et_al_2020_dopamine]: https://www.nature.com/articles/s41586-019-1924-6
+[research_cunningham_yu_2014]: https://doi.org/10.1038/nn.3776
+[research_dabney_et_al_2020_dopamine]: https://doi.org/10.1038/s41586-019-1924-6
 [research_davies_et_al_2018_loihi]: https://ieeexplore.ieee.org/document/8259423
-[research_daw_et_al_2011]: https://www.cell.com/neuron/fulltext/S0896-6273(11)00125-5
-[research_dayan_1993_sr]: https://www.mitpressjournals.org/doi/10.1162/neco.1993.5.4.613
-[research_desimone_duncan_1995]: https://www.annualreviews.org/doi/10.1146/annurev.ne.18.030195.001205
-[research_doerig_et_al_2023]: https://www.nature.com/articles/s41583-023-00705-w
-[research_doya_2000]: https://www.mitpressjournals.org/doi/10.1162/089976600300015961
-[research_duan_et_al_2016_rl2_a263]: https://arxiv.org/abs/1611.02779
-[research_eliasmith_et_al_2012_spaun]: https://www.science.org/doi/10.1126/science.1225266
-[research_elman_1990_srn]: https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1402_1
-[research_eshel_et_al_2015]: https://www.nature.com/articles/nature14855
-[research_foster_wilson_2006_a263]: https://www.nature.com/articles/nature04587
-[research_fukushima_1980_neocognitron]: https://link.springer.com/article/10.1007/BF00344251
-[research_gallego_et_al_2017]: https://www.cell.com/neuron/fulltext/S0896-6273(17)30474-9
-[research_giovannucci_et_al_2019_caiman]: https://elifesciences.org/articles/38173
-[research_goldstein_et_al_2022]: https://www.nature.com/articles/s41593-022-01026-4
-[research_graves_et_al_2016_dnc]: https://www.nature.com/articles/nature20101
-[research_graves_wayne_danihelka_2014_ntm]: https://arxiv.org/abs/1410.5401
-[research_guerguiev_lillicrap_richards_2017]: https://elifesciences.org/articles/22901
-[research_hafting_et_al_2005_grid]: https://www.nature.com/articles/nature03721
-[research_hassabis_et_al_2017]: https://www.cell.com/neuron/fulltext/S0896-6273(17)30509-3
-[research_hopfield_1982]: https://www.pnas.org/doi/10.1073/pnas.79.8.2554
-[research_hubel_wiesel_1962]: https://physoc.onlinelibrary.wiley.com/doi/10.1113/jphysiol.1962.sp006837
+[research_daw_et_al_2011]: https://doi.org/10.1016/j.neuron.2011.02.027
+[research_dayan_1993_sr]: https://doi.org/10.1162/neco.1993.5.4.613
+[research_desimone_duncan_1995]: https://doi.org/10.1146/annurev.ne.18.030195.001205
+[research_doerig_et_al_2023]: https://doi.org/10.1038/s41583-023-00705-w
+[research_doya_2000]: https://doi.org/10.1162/089976600300015961
+[research_duan_et_al_2016_rl2_a263]: https://doi.org/10.48550/arxiv.1611.02779
+[research_eliasmith_et_al_2012_spaun]: https://doi.org/10.1126/science.1225266
+[research_elman_1990_srn]: https://doi.org/10.1207/s15516709cog1402_1
+[research_eshel_et_al_2015]: https://doi.org/10.1038/nature14855
+[research_foster_wilson_2006_a263]: https://doi.org/10.1038/nature04587
+[research_fukushima_1980_neocognitron]: https://doi.org/10.1007/bf00344251
+[research_gallego_et_al_2017]: https://doi.org/10.1016/j.neuron.2017.05.025
+[research_giovannucci_et_al_2019_caiman]: https://doi.org/10.7554/elife.38173
+[research_goldstein_et_al_2022]: https://doi.org/10.1038/s41593-022-01026-4
+[research_graves_et_al_2016_dnc]: https://doi.org/10.1038/nature20101
+[research_graves_wayne_danihelka_2014_ntm]: https://doi.org/10.48550/arxiv.1410.5401
+[research_guerguiev_lillicrap_richards_2017]: https://doi.org/10.7554/elife.22901
+[research_hafting_et_al_2005_grid]: https://doi.org/10.1038/nature03721
+[research_hassabis_et_al_2017]: https://doi.org/10.1016/j.neuron.2017.06.011
+[research_hopfield_1982]: https://doi.org/10.1073/pnas.79.8.2554
+[research_hubel_wiesel_1962]: https://doi.org/10.1113/jphysiol.1962.sp006837
 [research_indiveri_liu_delbruck_2015]: https://ieeexplore.ieee.org/document/7108440
-[research_izhikevich_edelman_2008]: https://www.pnas.org/doi/10.1073/pnas.0712231105
-[research_jain_huth_2018]: https://papers.nips.cc/paper/2018/hash/f471223d1a1614b58a7dc45c9d01df19-Abstract.html
-[research_ji_wilson_2007]: https://www.nature.com/articles/nn1825
-[research_kell_et_al_2018]: https://www.cell.com/neuron/fulltext/S0896-6273(18)30250-2
+[research_izhikevich_edelman_2008]: https://doi.org/10.1073/pnas.0712231105
+[research_jain_huth_2018]: https://papers.nips.cc/paper_files/paper/2018/hash/f471223d1a1614b58a7dc45c9d01df19-Abstract.html
+[research_ji_wilson_2007]: https://doi.org/10.1038/nn1825
+[research_kell_et_al_2018]: https://doi.org/10.1016/j.neuron.2018.03.044
 [research_king_dehaene_2014]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(14)00047-X
-[research_konkle_alvarez_2022]: https://www.nature.com/articles/s41467-022-28091-4
-[research_kriegeskorte_2015]: https://www.annualreviews.org/doi/10.1146/annurev-vision-082114-035447
+[research_konkle_alvarez_2022]: https://doi.org/10.1038/s41467-022-28091-4
+[research_kriegeskorte_2015]: https://doi.org/10.1146/annurev-vision-082114-035447
 [research_krizhevsky_sutskever_hinton_2012]: https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
-[research_ku_et_al_2024]: https://arxiv.org/abs/2402.13481
-[research_kubilius_et_al_2019_cornet]: https://papers.nips.cc/paper/2019/hash/7813d1590d28a7dd372ad54b5d29d033-Abstract.html
-[research_kumaran_hassabis_mcclelland_2016_a263]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16)30043-2
-[research_lecun_et_al_1989]: https://www.mitpressjournals.org/doi/10.1162/neco.1989.1.4.541
-[research_lillicrap_et_al_2016_feedback]: https://www.nature.com/articles/ncomms13276
-[research_lillicrap_et_al_2020]: https://www.nature.com/articles/s41583-020-0277-3
-[research_lindsay_2020_attention]: https://www.frontiersin.org/articles/10.3389/fncom.2020.00029/full
-[research_louie_wilson_2001]: https://www.cell.com/neuron/fulltext/S0896-6273(01)00186-6
-[research_maass_1997]: https://www.sciencedirect.com/science/article/abs/pii/S0893608097000117
-[research_mante_et_al_2013]: https://www.nature.com/articles/nature12742
-[research_marblestone_wayne_kording_2016]: https://www.frontiersin.org/articles/10.3389/fncom.2016.00094/full
-[research_marcus_2020_next_decade]: https://arxiv.org/abs/2002.06177
-[research_markram_2006_blue_brain]: https://www.nature.com/articles/nrn1848
-[research_mattar_daw_2018_a263]: https://www.nature.com/articles/s41593-018-0232-z
-[research_mcclelland_mcnaughton_oreilly_1995_a263]: https://psycnet.apa.org/doi/10.1037/0033-295X.102.3.419
-[research_mcculloch_pitts_1943]: https://link.springer.com/article/10.1007/BF02478259
-[research_merolla_et_al_2014_truenorth]: https://www.science.org/doi/10.1126/science.1254642
-[research_millet_et_al_2022]: https://papers.nips.cc/paper_files/paper/2022/hash/e58a20df20aefc57b16e1c1c4a67a41e-Abstract-Conference.html
-[research_momennejad_et_al_2017]: https://www.nature.com/articles/s41562-017-0180-8
+[research_ku_et_al_2024]: https://scholar.google.com/scholar?q=LLM+Cognitive+Ku+2024
+[research_kubilius_et_al_2019_cornet]: https://doi.org/10.1101/408385
+[research_kumaran_hassabis_mcclelland_2016_a263]: https://doi.org/10.1016/j.tics.2016.05.004
+[research_lecun_et_al_1989]: https://doi.org/10.1162/neco.1989.1.4.541
+[research_lillicrap_et_al_2016_feedback]: https://doi.org/10.1038/ncomms13276
+[research_lillicrap_et_al_2020]: https://doi.org/10.1038/s41583-020-0277-3
+[research_lindsay_2020_attention]: https://doi.org/10.3389/fncom.2020.00029
+[research_louie_wilson_2001]: https://doi.org/10.1016/s0896-6273(01)00186-6
+[research_maass_1997]: https://doi.org/10.1016/s0893-6080(97)00011-7
+[research_mante_et_al_2013]: https://doi.org/10.1038/nature12742
+[research_marblestone_wayne_kording_2016]: https://doi.org/10.3389/fncom.2016.00094
+[research_marcus_2020_next_decade]: https://doi.org/10.48550/arxiv.2002.06177
+[research_markram_2006_blue_brain]: https://doi.org/10.1038/nrn1848
+[research_mattar_daw_2018_a263]: https://doi.org/10.1038/s41593-018-0232-z
+[research_mcclelland_mcnaughton_oreilly_1995_a263]: https://doi.org/10.1037/0033-295x.102.3.419
+[research_mcculloch_pitts_1943]: https://doi.org/10.1007/bf02478259
+[research_merolla_et_al_2014_truenorth]: https://doi.org/10.1126/science.1254642
+[research_millet_et_al_2022]: https://papers.nips.cc/paper_files/paper/2022/hash/d81ecfc8fb18e833a3fa0a35d92532b8-Abstract-Conference.html
+[research_momennejad_et_al_2017]: https://doi.org/10.1038/s41562-017-0180-8
 [research_nayebi_et_al_2018]: https://papers.nips.cc/paper/2018/hash/6be93f7a96fed60c477d30ae1de032fd-Abstract.html
 [research_neftci_mostafa_zenke_2019]: https://ieeexplore.ieee.org/document/8891809
-[research_niv_2009]: https://www.sciencedirect.com/science/article/pii/S0022249608001181
+[research_niv_2009]: https://doi.org/10.1016/j.jmp.2008.12.005
 [research_nokland_2016]: https://papers.nips.cc/paper/2016/hash/d490d7b4576290fa60eb31b5fc917ad1-Abstract.html
 [research_oecd_neurotechnology_2019]: https://www.oecd.org/en/topics/sub-issues/emerging-technologies/neurotechnology.html
-[research_oja_1982]: https://link.springer.com/article/10.1007/BF00275687
-[research_okeefe_dostrovsky_1971]: https://www.sciencedirect.com/science/article/abs/pii/0006899371903581
-[research_olshausen_field_1996]: https://www.nature.com/articles/381607a0
-[research_pachitariu_et_al_2016_kilosort]: https://www.biorxiv.org/content/10.1101/061481v1
-[research_pandarinath_et_al_2018_lfads]: https://www.nature.com/articles/s41592-018-0109-9
-[research_payeur_et_al_2021]: https://www.nature.com/articles/s41593-021-00857-x
+[research_oja_1982]: https://doi.org/10.1007/bf00275687
+[research_okeefe_dostrovsky_1971]: https://doi.org/10.1016/0006-8993(71)90358-1
+[research_olshausen_field_1996]: https://doi.org/10.1038/381607a0
+[research_pachitariu_et_al_2016_kilosort]: https://doi.org/10.1101/061481
+[research_pandarinath_et_al_2018_lfads]: https://doi.org/10.1038/s41592-018-0109-9
+[research_payeur_et_al_2021]: https://doi.org/10.1038/s41593-021-00857-x
 [research_pei_et_al_2021_nlb]: https://openreview.net/forum?id=KVMS3fl4Rsv
-[research_rajan_abbott_2006]: https://link.aps.org/doi/10.1103/PhysRevLett.97.188104
-[research_reynolds_chelazzi_2004]: https://www.annualreviews.org/doi/10.1146/annurev.neuro.26.041002.131039
-[research_richards_et_al_2019]: https://www.nature.com/articles/s41593-019-0520-2
-[research_riesenhuber_poggio_1999_hmax]: https://www.nature.com/articles/14819
-[research_rosenblatt_1958]: https://psycnet.apa.org/doi/10.1037/h0042519
-[research_rumelhart_hinton_williams_1986]: https://www.nature.com/articles/323533a0
+[research_rajan_abbott_2006]: https://doi.org/10.1103/physrevlett.97.188104
+[research_reynolds_chelazzi_2004]: https://doi.org/10.1146/annurev.neuro.26.041002.131039
+[research_richards_et_al_2019]: https://doi.org/10.1038/s41593-019-0520-2
+[research_riesenhuber_poggio_1999_hmax]: https://doi.org/10.1038/14819
+[research_rosenblatt_1958]: https://doi.org/10.1037/h0042519
+[research_rumelhart_hinton_williams_1986]: https://doi.org/10.1038/323533a0
 [research_sacramento_et_al_2018]: https://papers.nips.cc/paper/2018/hash/1dc3a89d0d440ba31729b0ba74b93a33-Abstract.html
-[research_scellier_bengio_2017]: https://www.frontiersin.org/articles/10.3389/fncom.2017.00024/full
+[research_scellier_bengio_2017]: https://doi.org/10.3389/fncom.2017.00024
 [research_schrimpf_et_al_2020_brainscore]: https://www.biorxiv.org/content/10.1101/407007v2
-[research_schrimpf_et_al_2021_language]: https://www.pnas.org/doi/10.1073/pnas.2105646118
-[research_schultz_dayan_montague_1997]: https://www.science.org/doi/10.1126/science.275.5306.1593
-[research_sejnowski_rosenberg_1987]: https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1102_3
-[research_simoncelli_olshausen_2001]: https://www.annualreviews.org/doi/10.1146/annurev.neuro.24.1.1193
+[research_schrimpf_et_al_2021_language]: https://doi.org/10.1073/pnas.2105646118
+[research_schultz_dayan_montague_1997]: https://doi.org/10.1126/science.275.5306.1593
+[research_sejnowski_rosenberg_1987]: https://scholar.google.com/scholar?q=NETtalk+Sejnowski+Rosenberg+1987
+[research_simoncelli_olshausen_2001]: https://doi.org/10.1146/annurev.neuro.24.1.1193
 [research_song_et_al_2020_pc_backprop]: https://papers.nips.cc/paper/2020/hash/fec87a37cdeec1c6ecf8181c0aa2d3bf-Abstract.html
-[research_song_yang_wang_2016]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004792
-[research_sorscher_et_al_2019]: https://papers.nips.cc/paper/2019/hash/6e7d5d259be7bf56ed79029c4e621f44-Abstract.html
-[research_stachenfeld_botvinick_gershman_2017]: https://www.nature.com/articles/nn.4650
-[research_steinberg_et_al_2013]: https://www.nature.com/articles/nn.3413
-[research_sussillo_barak_2013]: https://www.mitpressjournals.org/doi/10.1162/NECO_a_00409
-[research_sussillo_et_al_2015]: https://www.nature.com/articles/nn.4042
-[research_sutton_1988_td_a263]: https://link.springer.com/article/10.1007/BF00115009
-[research_toneva_wehbe_2019]: https://papers.nips.cc/paper/2019/hash/749a8e6c231831ef7756db230b4359c8-Abstract.html
-[research_turing_1950]: https://academic.oup.com/mind/article/LIX/236/433/986238
-[research_ullman_2023]: https://arxiv.org/abs/2302.08399
+[research_song_yang_wang_2016]: https://doi.org/10.1371/journal.pcbi.1004792
+[research_sorscher_et_al_2019]: https://papers.nips.cc/paper_files/paper/2019/hash/6e7d5d259be7bf56ed79029c4e621f44-Abstract.html
+[research_stachenfeld_botvinick_gershman_2017]: https://doi.org/10.1038/nn.4650
+[research_steinberg_et_al_2013]: https://doi.org/10.1038/nn.3413
+[research_sussillo_barak_2013]: https://doi.org/10.1162/neco_a_00409
+[research_sussillo_et_al_2015]: https://doi.org/10.1038/nn.4042
+[research_sutton_1988_td_a263]: https://doi.org/10.1007/bf00115009
+[research_toneva_wehbe_2019]: https://papers.nips.cc/paper_files/paper/2019/hash/749a8e6c231831ef7756db230b4359c8-Abstract.html
+[research_turing_1950]: https://doi.org/10.1093/mind/lix.236.433
+[research_ullman_2023]: https://doi.org/10.48550/arxiv.2302.08399
 [research_vaswani_et_al_2017]: https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
-[research_vinje_gallant_2000]: https://www.science.org/doi/10.1126/science.287.5456.1273
-[research_vyas_et_al_2020]: https://www.annualreviews.org/doi/10.1146/annurev-neuro-092619-094115
-[research_wang_2002_working_memory]: https://www.cell.com/neuron/fulltext/S0896-6273(01)00543-8
-[research_wang_et_al_2016_l2rl_a263]: https://arxiv.org/abs/1611.05763
-[research_wang_et_al_2018_prefrontal_meta_a263]: https://www.nature.com/articles/s41593-018-0147-8
+[research_vinje_gallant_2000]: https://doi.org/10.1126/science.287.5456.1273
+[research_vyas_et_al_2020]: https://doi.org/10.1146/annurev-neuro-092619-094115
+[research_wang_2002_working_memory]: https://scholar.google.com/scholar?q=Working+Memory+Wang+2002
+[research_wang_et_al_2016_l2rl_a263]: https://doi.org/10.48550/arxiv.1611.05763
+[research_wang_et_al_2018_prefrontal_meta_a263]: https://doi.org/10.1038/s41593-018-0147-8
 [research_watkins_1989_thesis_a263]: https://www.cs.rhul.ac.uk/~chrisw/new_thesis.pdf
 [research_werbos_1974]: https://scholar.google.com/scholar?q=werbos+1974+beyond+regression
 [research_whittington_bogacz_2019]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(18)30284-X
 [research_whittington_bogacz_2019_a263]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(18)30284-X
-[research_whittington_et_al_2020_tem]: https://www.cell.com/cell/fulltext/S0092-8674(20)31388-X
+[research_whittington_et_al_2020_tem]: https://doi.org/10.1016/j.cell.2020.10.024
 [research_widrow_hoff_1960]: https://apps.dtic.mil/sti/citations/AD0241531
-[research_willeke_et_al_2022_sensorium]: https://arxiv.org/abs/2206.08666
-[research_yamins_dicarlo_2016]: https://www.nature.com/articles/nn.4244
-[research_yamins_et_al_2014]: https://www.pnas.org/doi/10.1073/pnas.1403112111
-[research_yang_et_al_2019]: https://www.nature.com/articles/s41593-018-0310-2
-[research_yuste_et_al_2017_neurorights]: https://www.nature.com/articles/551159a
-[research_zador_et_al_2023]: https://www.nature.com/articles/s41467-023-37180-x
-[research_zhuang_et_al_2021]: https://www.pnas.org/doi/10.1073/pnas.2014196118
+[research_willeke_et_al_2022_sensorium]: https://doi.org/10.48550/arxiv.2206.08666
+[research_yamins_dicarlo_2016]: https://doi.org/10.1038/nn.4244
+[research_yamins_et_al_2014]: https://doi.org/10.1073/pnas.1403112111
+[research_yang_et_al_2019]: https://doi.org/10.1038/s41593-018-0310-2
+[research_yuste_et_al_2017_neurorights]: https://doi.org/10.1038/551159a
+[research_zador_et_al_2023]: https://doi.org/10.1038/s41467-023-37180-x
+[research_zhuang_et_al_2021]: https://doi.org/10.1073/pnas.2014196118

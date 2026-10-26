@@ -23,7 +23,7 @@ Safety-critical software as a distinct engineering discipline emerged in the 197
 
 The book-length treatment in [Leveson 1995][book_leveson_safeware] and its successor [Leveson 2011][book_leveson_engineering_safer_world] together supply the standard textbook exposition of software safety engineering. The analytical techniques include Systems-Theoretic Accident Model and Processes hereafter STAMP, a framework that treats accidents as failures of control rather than as sequences of component failures, formalized in [Leveson 2004][research_leveson_2004] in Safety Science. Its associated hazard-analysis technique is STAMP-based Process Analysis hereafter STPA. STAMP and STPA are widely used in contemporary safety-critical software programs and represent one of the methodological contributions of the discipline that later spread to non-safety-critical applications through the recognition that control-based reasoning applies broadly to complex system behavior.
 
-The emergence of the discipline was substantially driven by mishap-driven learning. Each major accident involving software produced investigation reports, root-cause analyses, and process improvements that fed back into industry consensus process standards and organizational practices. Notable cases documented in the aerospace software literature include the 1996 Ariane 5 maiden flight failure caused by unhandled integer overflow in reused Ariane 4 code, treated in the official investigation report by [Lions et al. 1996][research_lions_et_al_1996], the 1999 Mars Climate Orbiter loss caused by unit-conversion errors between imperial and metric systems, the 1999 Mars Polar Lander loss involving software interpretation of landing-gear deployment sensor data, and the 2018 and 2019 Boeing 737 MAX Maneuvering Characteristics Augmentation System failures. Each case contributed evidence to the discipline's ongoing understanding of the failure modes that safety-critical software must guard against.
+The emergence of the discipline was substantially driven by mishap-driven learning. Each major accident involving software produced investigation reports, root-cause analyses, and process improvements that fed back into industry consensus process standards and organizational practices. Notable cases documented in the aerospace software literature include the 1996 Ariane 5 maiden flight failure caused by unhandled integer overflow in reused Ariane 4 code, treated in the official investigation report by [Lions 1996][research_lions_et_al_1996], the 1999 Mars Climate Orbiter loss caused by unit-conversion errors between imperial and metric systems, the 1999 Mars Polar Lander loss involving software interpretation of landing-gear deployment sensor data, and the 2018 and 2019 Boeing 737 MAX Maneuvering Characteristics Augmentation System failures. Each case contributed evidence to the discipline's ongoing understanding of the failure modes that safety-critical software must guard against.
 
 The reliability targets that safety-critical software programs are expected to achieve are typically expressed as probabilities of catastrophic failure per operational hour. For the highest-consequence category commonly used across safety-critical domains, the target is
 
@@ -73,7 +73,7 @@ where $\alpha$ is the abstraction function that maps concrete states to abstract
 
 Model-based development is the engineering practice of building software from executable models rather than from hand-written source code. The engineer specifies system behavior in a high-level modeling language, and automatic code generation produces the equivalent source code that is then compiled and integrated into the target system. The value of model-based development is that the engineer works at a level of abstraction closer to the domain problem, and that the automatic code generation reduces the class of errors that hand-coding introduces.
 
-Two commercial modeling environments dominate aerospace model-based development. MATLAB Simulink from MathWorks, extended by the Stateflow state-machine modeling capability and the Embedded Coder code generator, is widely used for control-system development including flight-control software. SCADE from ANSYS, based on the synchronous programming language Lustre described in the primary language design paper by [Halbwachs et al. 1991][research_halbwachs_et_al_1991] in Proceedings of the IEEE with a mature commercial toolchain that generates production-ready code from formally defined models, is widely used for safety-critical avionics software with strong formal-verification integration. Both environments include qualification kits that support the use of the generated code in high-severity safety-critical categories under the industry consensus process standards.
+Two commercial modeling environments dominate aerospace model-based development. MATLAB Simulink from MathWorks, extended by the Stateflow state-machine modeling capability and the Embedded Coder code generator, is widely used for control-system development including flight-control software. SCADE from ANSYS, based on the synchronous programming language Lustre described in the primary language design paper by [Halbwachs 1991][research_halbwachs_et_al_1991] in Proceedings of the IEEE with a mature commercial toolchain that generates production-ready code from formally defined models, is widely used for safety-critical avionics software with strong formal-verification integration. Both environments include qualification kits that support the use of the generated code in high-severity safety-critical categories under the industry consensus process standards.
 
 The engineering trade-off with model-based development is that the model becomes the primary engineering artifact rather than the source code. The engineering discipline of model maintenance, model version control, model review, and model verification becomes the analog of the corresponding practices for hand-written source code. The tool-chain qualification requirement, meaning the requirement that the code generator itself be shown to produce correct code for the modeling constructs it accepts, becomes a substantial engineering artifact whose cost is shared across all users of the tool rather than borne by each program individually.
 
@@ -115,56 +115,64 @@ The next article in the series treats Silicon Valley from its defense-contractin
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Leveson 1995][book_leveson_safeware]
-- [Leveson 2011][book_leveson_engineering_safer_world]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Cousot, Patrick, and Radhia Cousot. 1977. "Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints." In *Proceedings of the 4th ACM SIGACT-SIGPLAN symposium on Principles of programming languages - POPL '77*. ACM Press. [https://doi.org/10.1145/512950.512973][research_cousot_cousot_1977]
 
-- [Astrée Analyzer][ref_astree]
-- [MISRA C][ref_misra_c]
-- [RTCA][ref_rtca]
-- [SCADE][ref_scade]
+### Primary Sources, Non-Peer-Reviewed
+
+- Chilenski, John Joseph, and Steven P. Miller. 1994. "Applicability of Modified Condition/decision Coverage to Software Testing." *Software Engineering Journal* 9 (5): 193. [https://doi.org/10.1049/sej.1994.0025][research_chilenski_miller_1994]
+- Delmas and Souyris. 2007. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Delmas+Souyris+2007][research_delmas_souyris_2007]
+
+### Secondary Sources
+
+- Leveson, Nancy. 1995. *SafeWare: System Safety and Computers*. Addison-Wesley Professional. [https://openlibrary.org/works/OL3484831W][book_leveson_safeware]
+- Leveson, Nancy. 2011. *Engineering a Safer World: Systems Thinking Applied to Safety*. MIT Press. [https://mitpress.mit.edu/9780262533690/engineering-a-safer-world/][book_leveson_engineering_safer_world]
+
+### Commercial Sources
+
+- "Astrée Static Analyzer for C and C++." n.d. Accessed October 25, 2026. [https://www.absint.com/astree/index.htm][ref_astree]
+
+### General Sources
+
+- Clarke and Emerson. 1981. "\[Title not identified\]." Accessed October 25, 2026. [https://link.springer.com/chapter/10.1007/BFb0025774][research_clarke_emerson_1981]
+- Halbwachs. 1991. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/97376][research_halbwachs_et_al_1991]
+- Leveson. 2004. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0925753503000476][research_leveson_2004]
+- Leveson and Turner. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/274940][research_leveson_turner_1993]
+- Lions. 1996. "\[Title not identified\]." Accessed October 25, 2026. [https://esamultimedia.esa.int/docs/esa-x-1819eng.pdf][research_lions_et_al_1996]
+- McCabe. 1976. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1702388][research_mccabe_1976]
+- "MISRA C." n.d. Accessed October 25, 2026. [https://misra.org.uk/][ref_misra_c]
+- "RTCA." n.d. Accessed October 25, 2026. [https://www.rtca.org/][ref_rtca]
+
+### Tertiary Sources
+
+- "Esterel Technologies." 2026. Wikipedia. Last modified July 4, at 06:29 (UTC). [https://en.wikipedia.org/w/index.php?title=Esterel\_Technologies&oldid=1362482294][ref_scade]
 
 ### Related Posts
 
-- [A237 Framing and the Co-Development Mechanism][related_post_a237_framing_co_development]
-- [A241 Aerospace Simulation and Real-Time Systems][related_post_a241_aerospace_simulation]
-- [A242 The Apollo Guidance Computer][related_post_a242_apollo_guidance_computer]
-- [A243 ARPANET and Networking Origins][related_post_a243_arpanet_networking]
-- [A244 Space Shuttle Software as Engineering Landmark][related_post_a244_space_shuttle_software]
-
-### Research
-
-- [Chilenski and Miller 1994][research_chilenski_miller_1994]
-- [Clarke and Emerson 1981][research_clarke_emerson_1981]
-- [Cousot and Cousot 1977][research_cousot_cousot_1977]
-- [Delmas and Souyris 2007][research_delmas_souyris_2007]
-- [Halbwachs et al. 1991][research_halbwachs_et_al_1991]
-- [Leveson 2004][research_leveson_2004]
-- [Leveson and Turner 1993][research_leveson_turner_1993]
-- [Lions et al. 1996][research_lions_et_al_1996]
-- [McCabe 1976][research_mccabe_1976]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Framing and the Co-Development Mechanism." *Brendan A R Sechter's Development Blog*, July 13. [https://sgeos.github.io/history/technology/aerospace/2026/07/13/framing\_and\_the\_co\_development\_mechanism.html][related_post_a237_framing_co_development]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Aerospace Simulation and Real-Time Systems." *Brendan A R Sechter's Development Blog*, July 17. [https://sgeos.github.io/history/technology/aerospace/2026/07/17/aerospace\_simulation\_and\_real\_time\_systems.html][related_post_a241_aerospace_simulation]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: The Apollo Guidance Computer." *Brendan A R Sechter's Development Blog*, July 18. [https://sgeos.github.io/history/technology/aerospace/2026/07/18/apollo\_guidance\_computer.html][related_post_a242_apollo_guidance_computer]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: ARPANET and Networking Origins." *Brendan A R Sechter's Development Blog*, July 19. [https://sgeos.github.io/history/technology/aerospace/2026/07/19/arpanet\_and\_networking\_origins.html][related_post_a243_arpanet_networking]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Space Shuttle Software as Engineering Landmark." *Brendan A R Sechter's Development Blog*, July 20. [https://sgeos.github.io/history/technology/aerospace/2026/07/20/space\_shuttle\_software\_as\_engineering\_landmark.html][related_post_a244_space_shuttle_software]
 
 [book_leveson_engineering_safer_world]: https://mitpress.mit.edu/9780262533690/engineering-a-safer-world/
-[book_leveson_safeware]: https://openlibrary.org/works/OL3484831W/Safeware
-
+[book_leveson_safeware]: https://openlibrary.org/works/OL3484831W
 [ref_astree]: https://www.absint.com/astree/index.htm
 [ref_misra_c]: https://misra.org.uk/
 [ref_rtca]: https://www.rtca.org/
-[ref_scade]: https://en.wikipedia.org/wiki/Esterel_Technologies
-
+[ref_scade]: https://en.wikipedia.org/w/index.php?title=Esterel_Technologies&oldid=1362482294
 [related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
 [related_post_a241_aerospace_simulation]: {% post_url 2026-07-17-aerospace_simulation_and_real_time_systems %}
 [related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-18-apollo_guidance_computer %}
 [related_post_a243_arpanet_networking]: {% post_url 2026-07-19-arpanet_and_networking_origins %}
 [related_post_a244_space_shuttle_software]: {% post_url 2026-07-20-space_shuttle_software_as_engineering_landmark %}
-
-[research_chilenski_miller_1994]: https://ntrs.nasa.gov/citations/19950014786
+[research_chilenski_miller_1994]: https://doi.org/10.1049/sej.1994.0025
 [research_clarke_emerson_1981]: https://link.springer.com/chapter/10.1007/BFb0025774
-[research_cousot_cousot_1977]: https://dl.acm.org/doi/10.1145/512950.512973
-[research_delmas_souyris_2007]: https://link.springer.com/chapter/10.1007/978-3-540-73368-3_35
+[research_cousot_cousot_1977]: https://doi.org/10.1145/512950.512973
+[research_delmas_souyris_2007]: https://scholar.google.com/scholar?q=Delmas+Souyris+2007
 [research_halbwachs_et_al_1991]: https://ieeexplore.ieee.org/document/97376
 [research_leveson_2004]: https://www.sciencedirect.com/science/article/pii/S0925753503000476
 [research_leveson_turner_1993]: https://ieeexplore.ieee.org/document/274940

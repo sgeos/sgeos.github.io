@@ -20,7 +20,8 @@ belong to the reference surveys of A297 to A373. Sources the articles share are 
 | `decisions/<article>.toml` | The human decisions made when an article was imported, read by `sources_import.py import` |
 | `articles/<post stem>.json` | For an article that names a source differently from the store, its names mapped to canonical anchors |
 | `articles/<post stem>.links.json` | Link text in an article that is not a citation label, left alone by `fix-labels` |
-| `domains.toml` | Judgements about publishers of web sources, made once per host, each with its reason |
+| `articles/<post stem>.listed.json` | Works the article's reference list names and its prose does not cite, kept in the generated list. Written by the import from the legacy list |
+| `domains.toml` | Judgements about publishers of web sources, made once per host, each with its reason. A host may also fix the `kind`, so `crsreports.congress.gov` gives reports and `github.com` documentation |
 | `acronyms.txt` | Words kept in capitals when a title registered in capitals is recased, derived from registry titles by `sources_import.py acronyms` |
 | `publishers.toml` | A publisher's own statement that it peer reviews, with a verbatim quote, applied to its venues by `credit-venues` |
 
@@ -50,7 +51,17 @@ python3 _lib/survey.py years POST... [--edits FILE.toml]                 # recom
 python3 _lib/sources_import.py credit-venues [--write]                   # apply publishers.toml
 python3 _lib/sources.py fix-labels POST     # set in-text labels to the database's
 python3 _lib/sources.py diff-labels PRE POST   # what conversion changed, labels apart
+
+python3 _lib/sources_resolve.py plan POST...                 # what remains to fetch for links that are not DOIs
+python3 _lib/sources_resolve.py fetch STEP POST... [--shard k/n]   # crossref, pii, datacite, isbn, works,
+                                                             # book-search, work-search, proceedings, pages
+python3 _lib/sources_resolve.py explain POST                 # how each such link resolves, or why it does not
 ```
+
+**A link that is not a DOI is resolved when the decision file says `resolve_links = true`.** The importer
+then takes the registry record the link's URL names, or one its label's title finds, but only a record that
+agrees with the label, and failing that reads the page or builds the entry from the label. See
+[Source Conversion](../_docs/process/SOURCE_CONVERSION.md) under Links That Are Not DOIs.
 
 **A DOI cited is the DOI kept.** Crossref answers some DOIs with another, its primary, for a work registered
 twice. The record keeps the DOI the article cited and stores the primary as `doi_primary`, because the link
@@ -78,7 +89,8 @@ a summarising fetch may be a fragment, which the file's header says. A venue car
 `no_publisher_credit` is never credited this way, because its own pages say otherwise.
 
 **One source, one record, across articles.** A record's identity is its DOI, its Wikipedia page and revision,
-or its post. An import that meets an identity already stored keeps the stored record and its corrections. It
+or its post. A work cited by URL is identified by the URL with its year and first author, because two works can
+share one link, as Werbos 1987 and Barto, Sutton and Anderson 1983 share an IEEE page in A262. An import that meets an identity already stored keeps the stored record and its corrections. It
 adds any new section locators for a related post, and applies this article's own decisions about the record.
 **An article keeps its own names.** When an article cites a stored source under another name, its map in
 `articles/` points that name at the stored record. When an article's name is already taken by a different

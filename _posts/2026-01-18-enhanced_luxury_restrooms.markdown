@@ -29,7 +29,7 @@ The article adopts several methodological commitments that govern the treatment 
 
 The first commitment is to descriptive history before pattern extraction. The article establishes the dates, sites, fixtures, and standards of the elimination facility as a matter of record before it states the abstract mechanic those facts embody. The pattern-extraction section is confined to the close of the article and is clearly marked.
 
-The second commitment is to primary and institutional sources where they exist. Building codes, plumbing standards, public-health guidance, museum documentation, and manufacturer technical specification are preferred over secondary summary. Where a secondary source is cited, the citation is marked as trade press or as journalism in the reference list category.
+The second commitment is to primary and institutional sources where they exist. Building codes, plumbing standards, public-health guidance, museum documentation, and manufacturer technical specification are preferred over secondary summary. Where trade press or journalism is cited, the reference list places it under Commercial Sources or General Sources, apart from the primary sources.
 
 The third commitment is to quantitative operationalization where the material supports it. The dimensions of the framework that admit formal models, in particular the throughput dimension and the acoustic and thermal comfort dimensions, are given explicit models with defined variables. The dimensions that resist formal models, in particular the social-signification dimension, are treated descriptively and are not forced into a false precision.
 
@@ -83,7 +83,7 @@ measured in erlangs, and the utilization of the facility is
 
 $$\rho = \frac{a}{c} = \frac{\lambda}{c \mu}$$
 
-which must satisfy $\rho < 1$ for the system to be stable, because a utilization at or above one implies an unbounded growth of the waiting line. Under the assumption of exponential service the system is the $M/M/c$ queue, whose stationary behavior is exactly solvable and is treated in the standard references of the field from [Erlang 1917][research_erlang_1917] through [Kleinrock 1975][book_kleinrock_1975_queueing] Queueing Systems and [Shortle and colleagues 2018][book_shortle_2018_queueing] Fundamentals of Queueing Theory.
+which must satisfy $\rho < 1$ for the system to be stable, because a utilization at or above one implies an unbounded growth of the waiting line. Under the assumption of exponential service the system is the $M/M/c$ queue, whose stationary behavior is exactly solvable and is treated in the standard references of the field from [Erlang 1917][research_erlang_1917] through [Kleinrock 1975][book_kleinrock_1975_queueing] Queueing Systems and [Shortle et al. 2018][book_shortle_2018_queueing] Fundamentals of Queueing Theory.
 
 The stationary distribution of the number in the system begins with the probability that the system is empty,
 
@@ -179,7 +179,7 @@ with $W_q$ the Erlang-C waiting time of the preceding section. The second is equ
 
 $$\frac{\lambda}{c_m \mu_m} = \frac{\lambda}{c_w \mu_w} \quad\Longrightarrow\quad \frac{c_w}{c_m} = \frac{\mu_m}{\mu_w}$$
 
-so that the ratio of required female fixtures to male fixtures equals the ratio of male to female service rate, which is the ratio of female to male mean occupancy time. Under the empirical occupancy-time ratio the utilization-parity criterion requires roughly 1.5 to 2 times as many female fixtures as male fixtures to equalize the utilization, and the wait-parity criterion requires a comparable or larger ratio because the wait is convex in utilization. The building-code response, in the form of the revised fixture-ratio tables of the [International Plumbing Code][ref_ipc_fixture_403] and the [Uniform Plumbing Code][ref_upc_fixtures] and the potty-parity statutes discussed in the historical treatment below, is an institutional approximation to this balancing condition. The formal analysis of the parity problem in the planning and operations literature, from the review of [Anthony and Dufresne 2007][research_anthony_dufresne_2007] through the queueing treatment of [Huh and colleagues 2019][research_huh_2019_potty], confirms that fixture equality does not deliver waiting equality, and the flexibility analysis of [Farajollahzadeh and Hu][research_farajollahzadeh_hu_potty], with its stadium-design case study [Farajollahzadeh and colleagues 2025][research_farajollahzadeh_stadium], shows that pooling capacity through all-gender provision reduces the disparity by the same mechanism that pooling reduces waiting in any shared-server queue. The empirical asymmetry that drives the analysis is documented in the measurement of [whether women spend more time in the restroom than men][research_do_women_spend_more], and the broader gendered-time-cost framing is developed in the recent scholarship [beyond potty parity][research_beyond_potty_parity] and in the [feminist critical analysis of public toilets and gender][research_feminist_critical].
+so that the ratio of required female fixtures to male fixtures equals the ratio of male to female service rate, which is the ratio of female to male mean occupancy time. Under the empirical occupancy-time ratio the utilization-parity criterion requires roughly 1.5 to 2 times as many female fixtures as male fixtures to equalize the utilization, and the wait-parity criterion requires a comparable or larger ratio because the wait is convex in utilization. The building-code response, in the form of the revised fixture-ratio tables of the [International Plumbing Code][ref_ipc_fixture_403] and the [Uniform Plumbing Code][ref_upc_fixtures] and the potty-parity statutes discussed in the historical treatment below, is an institutional approximation to this balancing condition. The formal analysis of the parity problem in the planning and operations literature, from the review of [Anthony and Dufresne 2007][research_anthony_dufresne_2007] through the queueing treatment of [Huh et al. 2019][research_huh_2019_potty], confirms that fixture equality does not deliver waiting equality, and the flexibility analysis of [Farajollahzadeh and Hu][research_farajollahzadeh_hu_potty], with its stadium-design case study [Farajollahzadeh et al. 2025][research_farajollahzadeh_stadium], shows that pooling capacity through all-gender provision reduces the disparity by the same mechanism that pooling reduces waiting in any shared-server queue. The empirical asymmetry that drives the analysis is documented in the measurement of [whether women spend more time in the restroom than men][research_do_women_spend_more], and the broader gendered-time-cost framing is developed in the recent scholarship [beyond potty parity][research_beyond_potty_parity] and in the [feminist critical analysis of public toilets and gender][research_feminist_critical].
 
 The potty-parity analysis illustrates the general point that access equity, the fourth dimension of the framework, is not achieved by symmetric provision when the populations served differ in their service requirements. Equity in outcome requires asymmetric provision calibrated to the asymmetry in demand. The point recurs in the companion article in the treatment of sex-segregated bathing, where the asymmetry takes a different form.
 
@@ -255,9 +255,9 @@ with $k$ an inactivation rate constant that depends on the disinfectant, its con
 
 $$\text{CT} = C \cdot t$$
 
-which for a specified log-reduction target is approximately constant for a given organism and disinfectant, so that a higher concentration permits a shorter contact time and conversely. The CT formulation is the standard basis of water-disinfection and surface-disinfection guidance, and the quantitative-microbial-risk-assessment framework of [Haas and colleagues 2014][book_haas_2014_qmra] supplies the translation from residual pathogen count to infection probability.
+which for a specified log-reduction target is approximately constant for a given organism and disinfectant, so that a higher concentration permits a shorter contact time and conversely. The CT formulation is the standard basis of water-disinfection and surface-disinfection guidance, and the quantitative-microbial-risk-assessment framework of [Haas et al. 2014][book_haas_2014_qmra] supplies the translation from residual pathogen count to infection probability.
 
-The aerosol pathway is the toilet plume, the fine aerosol lofted by the turbulent flow of a flush, documented from the early droplet-production measurements of [Gerba and colleagues 1975][research_gerba_1975_plume] through the literature review of [Johnson and colleagues 2013][research_johnson_2013_plume] and the high-speed visualization of the energetic commercial-toilet plume by [Crimaldi and colleagues 2022][research_crimaldi_2022_plume], with the surface-contamination pathway documented by [Barker and Jones 2005][research_barker_jones_2005] and the role of the closed lid in suppressing the plume established by [Best, Sandoe, and Wilcox 2012][research_best_wilcox_2012]. The residence time of an aerosolized particle governs the opportunity for its inhalation or its deposition on a surface. A particle of diameter $d$ and density $\rho_p$ settling through air of density $\rho_f$ and dynamic viscosity $\eta$ reaches a terminal settling velocity given in the Stokes regime by
+The aerosol pathway is the toilet plume, the fine aerosol lofted by the turbulent flow of a flush, documented from the early droplet-production measurements of [Gerba et al. 1975][research_gerba_1975_plume] through the literature review of [Johnson et al. 2013][research_johnson_2013_plume] and the high-speed visualization of the energetic commercial-toilet plume by [Crimaldi et al. 2022][research_crimaldi_2022_plume], with the surface-contamination pathway documented by [Barker and Jones 2005][research_barker_jones_2005] and the role of the closed lid in suppressing the plume established by [Best et al. 2012][research_best_wilcox_2012]. The residence time of an aerosolized particle governs the opportunity for its inhalation or its deposition on a surface. A particle of diameter $d$ and density $\rho_p$ settling through air of density $\rho_f$ and dynamic viscosity $\eta$ reaches a terminal settling velocity given in the Stokes regime by
 
 $$v_s = \frac{(\rho_p - \rho_f) \, g \, d^2}{18 \, \eta}$$
 
@@ -291,9 +291,9 @@ with $n$ the coefficient of dilution that governs the relative importance of dis
 
 $$\text{LR} = -\log_{10} \frac{N}{N_0}$$
 
-so that the elevated facility that specifies a cleaning protocol to a stated log-reduction target sets a measurable hygienic standard rather than a nominal one. Hand hygiene interrupts the chain at the surface-to-hand and hand-to-mouth links, and the provision of effective hand hygiene, whose evidence base is set out in the [World Health Organization guidelines on hand hygiene][ref_who_hand_hygiene] and the earlier [guideline of Larson for the Association for Professionals in Infection Control][research_larson_1995], is therefore the single most consequential hygienic-dimension feature of the facility. The magnitude of the effect is established by a substantial epidemiological literature, including the systematic review of [Curtis and Cairncross 2003][research_curtis_cairncross_2003] on the reduction of diarrhoeal disease by handwashing with soap, the community meta-analysis of [Aiello and colleagues 2008][research_aiello_2008], and the worldwide review of handwashing practice by [Freeman and colleagues 2014][research_freeman_2014], which together place the provision of hand hygiene among the most consequential public-health functions the facility discharges. The drying of the hands after washing is itself a contested augmentation, because the jet-air dryer disperses residual microorganisms into the air of the facility more than the paper towel does, a finding of the comparative studies of [Best and Redway 2014][research_best_redway_2014], [Kimmitt and Redway 2016][research_kimmitt_redway_2016], and [Huesca-Espitia and colleagues 2018][research_huesca_espitia_2018], so that the choice of drying technology is a further instance of the non-monotone interaction between the augmentation dimension and the hygienic base.
+so that the elevated facility that specifies a cleaning protocol to a stated log-reduction target sets a measurable hygienic standard rather than a nominal one. Hand hygiene interrupts the chain at the surface-to-hand and hand-to-mouth links, and the provision of effective hand hygiene, whose evidence base is set out in the [World Health Organization guidelines on hand hygiene][ref_who_hand_hygiene] and the earlier [guideline of Larson for the Association for Professionals in Infection Control][research_larson_1995], is therefore the single most consequential hygienic-dimension feature of the facility. The magnitude of the effect is established by a substantial epidemiological literature, including the systematic review of [Curtis and Cairncross 2003][research_curtis_cairncross_2003] on the reduction of diarrhoeal disease by handwashing with soap, the community meta-analysis of [Aiello et al. 2008][research_aiello_2008], and the worldwide review of handwashing practice by [Freeman et al. 2014][research_freeman_2014], which together place the provision of hand hygiene among the most consequential public-health functions the facility discharges. The drying of the hands after washing is itself a contested augmentation, because the jet-air dryer disperses residual microorganisms into the air of the facility more than the paper towel does, a finding of the comparative studies of [Best and Redway 2015][research_best_redway_2014], [Kimmitt and Redway 2016][research_kimmitt_redway_2016], and [Huesca-Espitia et al. 2018][research_huesca_espitia_2018], so that the choice of drying technology is a further instance of the non-monotone interaction between the augmentation dimension and the hygienic base.
 
-Technological augmentation of hygiene is not unambiguously beneficial, a point that qualifies the augmentation dimension of the framework. The touchless fixture reduces the hand contacts through which the fomite pathway operates, yet the internal complexity of the electronically actuated valve can harbor waterborne pathogen more readily than the simple manual valve. The measurement of [Sydnor and colleagues 2012][research_sydnor_2012_faucet] found a markedly higher incidence of Legionella contamination in electronic-eye faucets than in manual faucets in a hospital setting, and found the electronic fixtures more resistant to disinfection. The augmentation dimension thus interacts with the hygienic-sufficiency base in a manner that is not monotone, and elevation along the augmentation dimension does not guarantee elevation of the hygienic base.
+Technological augmentation of hygiene is not unambiguously beneficial, a point that qualifies the augmentation dimension of the framework. The touchless fixture reduces the hand contacts through which the fomite pathway operates, yet the internal complexity of the electronically actuated valve can harbor waterborne pathogen more readily than the simple manual valve. The measurement of [Sydnor et al. 2012][research_sydnor_2012_faucet] found a markedly higher incidence of Legionella contamination in electronic-eye faucets than in manual faucets in a hospital setting, and found the electronic fixtures more resistant to disinfection. The augmentation dimension thus interacts with the hygienic-sufficiency base in a manner that is not monotone, and elevation along the augmentation dimension does not guarantee elevation of the hygienic base.
 
 The fluid mechanics of the flush itself is the siphon action of the water closet. The characteristic modern water closet evacuates its bowl by establishing a siphon over the weir of the trap, so that once the rising water fills the trap passage the siphon draws the bowl contents through by the hydrostatic head. The flow through the siphon is governed by the Bernoulli relation along a streamline from the bowl surface to the trap outlet,
 
@@ -311,7 +311,7 @@ with $C_d$ a discharge coefficient that lumps the viscous and contraction losses
 
 $$t_{\text{flush}} = \frac{A_b}{C_d A_t} \sqrt{\frac{2}{g}} \left( \sqrt{h_0} - \sqrt{h_f} \right)$$
 
-which shows that the evacuation time rises with the bowl area and falls with the trap area and the discharge coefficient, the design levers by which the fixture achieves a rapid and complete flush at the reduced water volume treated below. The minimum flush volume consistent with reliable siphon establishment and bowl clearance has fallen across the twentieth and twenty-first centuries under water-conservation pressure. The regulated maximum flush volume in the United States fell to 1.6 gallons, approximately 6.0 liters, under the [Energy Policy Act of 1992][ref_epact_1992], and the high-efficiency threshold under the Environmental Protection Agency [WaterSense specification][ref_epa_watersense_toilets] is 1.28 gallons, approximately 4.8 liters, subject to a solid-clearance performance floor verified by the [Maximum Performance testing protocol][ref_map_testing] against the [ceramic-fixture standard ASME A112.19.2][ref_asme_a112_19_2]. The trap also serves a hygienic function independent of evacuation, because the standing water in the trap forms a seal against the ingress of sewer gas. Let $h_s$ denote the depth of the trap seal. The seal resists a pressure difference up to
+which shows that the evacuation time rises with the bowl area and falls with the trap area and the discharge coefficient, the design levers by which the fixture achieves a rapid and complete flush at the reduced water volume treated below. The minimum flush volume consistent with reliable siphon establishment and bowl clearance has fallen across the twentieth and twenty-first centuries under water-conservation pressure. The regulated maximum flush volume in the United States fell to 1.6 gallons, approximately 6.0 liters, under the [Energy Policy Act 1992][ref_epact_1992], and the high-efficiency threshold under the Environmental Protection Agency [WaterSense specification][ref_epa_watersense_toilets] is 1.28 gallons, approximately 4.8 liters, subject to a solid-clearance performance floor verified by the [Maximum Performance testing protocol][ref_map_testing] against the [ceramic-fixture standard ASME A112.19.2][ref_asme_a112_19_2]. The trap also serves a hygienic function independent of evacuation, because the standing water in the trap forms a seal against the ingress of sewer gas. Let $h_s$ denote the depth of the trap seal. The seal resists a pressure difference up to
 
 $$\Delta p_{\max} = \rho g h_s$$
 
@@ -321,7 +321,7 @@ with $\rho$ the density of water and $g$ the gravitational acceleration, so that
 
 The sensory-enrichment dimension is the dimension along which luxury is most visibly signaled, and it comprises the material, the illumination, the acoustic character treated above, the scent treated above, and the thermal comfort of the facility. The thermal-comfort axis permits the standard formal treatment of the built environment.
 
-The perceived thermal state of an occupant is predicted by the [Fanger comfort model][book_fanger_1970_thermal_comfort], standardized in [ASHRAE Standard 55][ref_ashrae_55] and [ISO 7730][ref_iso_7730], which relates the thermal load on the body to a predicted mean vote on a seven-point thermal-sensation scale. The predicted mean vote is
+The perceived thermal state of an occupant is predicted by the [Fanger comfort model][book_fanger_1970_thermal_comfort], standardized in [ASHRAE Standard 55][ref_ashrae_55] and [ISO 7730 Analytical Determination n.d.][ref_iso_7730], which relates the thermal load on the body to a predicted mean vote on a seven-point thermal-sensation scale. The predicted mean vote is
 
 $$\text{PMV} = \big(0.303 \, e^{-0.036 M} + 0.028\big) \, L$$
 
@@ -429,11 +429,11 @@ which enters the thermal-load term of the Fanger model of the sensory section, s
 
 The elimination facility is studied across several disciplines that each supply a partial account of its elevation, and the framework of this article draws on all of them. The gathering of these framings establishes the intellectual context in which the six-dimension account sits.
 
-The public-health and sanitary-engineering tradition treats the facility as an instrument of disease control. The tradition descends from the nineteenth-century sanitary movement and its demonstration that the containment and removal of human waste interrupts the transmission of enteric disease, and it supplies the hygienic-sufficiency dimension of the framework. The tradition is notable for a cautionary finding that qualifies any triumphalist account of ancient sanitation, because the archaeological-parasitology work of [Mitchell 2017][research_mitchell_parasites] found that the Roman sanitation apparatus of latrines, sewers, and public baths did not reduce the burden of intestinal parasites and may have coincided with its increase, a finding that separates the provision of a facility from the achievement of its hygienic purpose.
+The public-health and sanitary-engineering tradition treats the facility as an instrument of disease control. The tradition descends from the nineteenth-century sanitary movement and its demonstration that the containment and removal of human waste interrupts the transmission of enteric disease, and it supplies the hygienic-sufficiency dimension of the framework. The tradition is notable for a cautionary finding that qualifies any triumphalist account of ancient sanitation, because the archaeological-parasitology work of [Mitchell 2016][research_mitchell_parasites] found that the Roman sanitation apparatus of latrines, sewers, and public baths did not reduce the burden of intestinal parasites and may have coincided with its increase, a finding that separates the provision of a facility from the achievement of its hygienic purpose.
 
 The architectural and design tradition treats the facility as a designed room and supplies the sensory-enrichment dimension. The foundational ergonomic study of the domestic bathroom by [Kira 1966][book_kira] established the human-factors analysis of the fixtures and their use, and the design-and-culture scholarship of [Penner 2013][book_penner_bathroom] and the edited volumes of [Molotch and Norén 2010][book_molotch_toilet] and [Gershenson and Penner 2009][book_gershenson_ladies_gents] established the study of the public restroom as a designed and contested social space.
 
-The service-marketing tradition treats the facility as a component of the servicescape, the physical environment in which a service is delivered, formalized by [Bitner 1992][research_bitner], and supplies part of the social-signification dimension through the finding that the condition of the restroom shapes the customer evaluation of the establishment that provides it. The tradition includes the empirical work on restroom cleanliness and patron behavior of [Barber and Scarcelli 2009][research_barber_2009] and [2010][research_barber_2010], the servicescape-cleanliness studies of [Vilnai-Yavetz and Gilboa 2010][research_vilnai_yavetz_2010], [Kim and Bachman 2019][research_kim_bachman_2019], and [Taştan and Soylu 2023][research_tastan_soylu_2023], the review of servicescape cues by [Mari and Poggesi 2013][research_mari_poggesi], and the ambient-scent research of [Spangenberg and colleagues 1996][research_spangenberg], which grounds the scent component of the sensory dimension and establishes the empirical claim that the condition of the restroom measurably shapes patron satisfaction and the intent to return.
+The service-marketing tradition treats the facility as a component of the servicescape, the physical environment in which a service is delivered, formalized by [Bitner 1992][research_bitner], and supplies part of the social-signification dimension through the finding that the condition of the restroom shapes the customer evaluation of the establishment that provides it. The tradition includes the empirical work on restroom cleanliness and patron behavior of [Barber and Scarcelli 2009][research_barber_2009] and [2010][research_barber_2010], the servicescape-cleanliness studies of [Vilnai-Yavetz and Gilboa 2010][research_vilnai_yavetz_2010], [Kim and Bachman 2019][research_kim_bachman_2019], and [TaŞTan and Soylu 2023][research_tastan_soylu_2023], the review of servicescape cues by [Mari and Poggesi 2013][research_mari_poggesi], and the ambient-scent research of [Spangenberg et al. 1996][research_spangenberg], which grounds the scent component of the sensory dimension and establishes the empirical claim that the condition of the restroom measurably shapes patron satisfaction and the intent to return.
 
 The operations-research tradition treats the facility as a queueing system and supplies the throughput dimension through the apparatus of the preceding sections, extended in the potty-parity analyses of [Anthony and Dufresne 2007][research_anthony_dufresne_2007] and the optimization treatments of [Farajollahzadeh and Hu][research_farajollahzadeh_hu_potty].
 
@@ -441,7 +441,7 @@ The gender-studies and legal tradition treats the facility as a site at which th
 
 ## The Ancient and Medieval Elimination Facility
 
-The elevated elimination facility has a documented history reaching to antiquity, and the Roman public latrine is its first well-attested instance. The Roman drainage that made the latrine possible began with the [Cloaca Maxima][ref_cloaca_maxima_wiki], the great drain whose construction is attributed to the regal period around 600 before the common era and which was progressively vaulted into a covered sewer draining the Forum to the Tiber. Against this drainage the Romans built the public latrine, the forica, a communal facility of stone benches pierced with keyhole openings set over a channel of running water, with a second channel of clean water at the feet for the rinsing of the shared sponge-on-a-stick, the tersorium, that served the function of cleansing. The archaeology of these facilities is catalogued in the work of [Koloski-Ostrow 2015][book_koloski_ostrow], reviewed in [Isis][research_ostrow_isis], and the edited volume of [Jansen, Koloski-Ostrow, and Moormann 2011][book_jansen_roman_toilets], reviewed in the [Bryn Mawr Classical Review][research_bmcr_roman_toilets], which document the excavated latrines of Rome, Ostia, Pompeii, and Herculaneum and their donor-funded provision, and the practice is surveyed for a general readership by [the Smithsonian][ref_smithsonian_roman] and [History Hit][ref_historyhit_roman]. The primary record of the Roman water infrastructure that the latrine depended on survives in the treatise of [Frontinus][ref_frontinus_aqueducts] on the water administration of Rome, the architectural manual of [Vitruvius][ref_vitruvius_architecture], and the natural-history compilation of [Pliny the Elder][ref_pliny_natural_history], which together supply the contemporaneous documentation that the modern archaeology interprets. The great drain that made the latrines possible is treated in the study of [Hopkins][research_hopkins_cloaca] on the monumental manipulation of water in archaic Rome, the dedicated monograph on Roman toilets of [Hobson 2009][book_hobson_latrinae], and the account of Roman slums, sanitation, and mortality of [Scobie 1986][research_scobie_1986], and the cautionary parasitological finding is documented in full in the [Cambridge repository version][research_mitchell_cam] of the Mitchell study and its [university account][ref_cambridge_roman_parasites].
+The elevated elimination facility has a documented history reaching to antiquity, and the Roman public latrine is its first well-attested instance. The Roman drainage that made the latrine possible began with the [Cloaca Maxima][ref_cloaca_maxima_wiki], the great drain whose construction is attributed to the regal period around 600 before the common era and which was progressively vaulted into a covered sewer draining the Forum to the Tiber. Against this drainage the Romans built the public latrine, the forica, a communal facility of stone benches pierced with keyhole openings set over a channel of running water, with a second channel of clean water at the feet for the rinsing of the shared sponge-on-a-stick, the tersorium, that served the function of cleansing. The archaeology of these facilities is catalogued in the work of [Koloski-Ostrow 2015][book_koloski_ostrow], reviewed in [Isis][research_ostrow_isis], and the edited volume of [Jansen et al. 2011][book_jansen_roman_toilets], reviewed in the [Bryn Mawr Classical Review][research_bmcr_roman_toilets], which document the excavated latrines of Rome, Ostia, Pompeii, and Herculaneum and their donor-funded provision, and the practice is surveyed for a general readership by [the Smithsonian][ref_smithsonian_roman] and [History Hit][ref_historyhit_roman]. The primary record of the Roman water infrastructure that the latrine depended on survives in the treatise of [Frontinus][ref_frontinus_aqueducts] on the water administration of Rome, the architectural manual of [Vitruvius][ref_vitruvius_architecture], and the natural-history compilation of [Pliny the Elder][ref_pliny_natural_history], which together supply the contemporaneous documentation that the modern archaeology interprets. The great drain that made the latrines possible is treated in the study of [Hopkins][research_hopkins_cloaca] on the monumental manipulation of water in archaic Rome, the dedicated monograph on Roman toilets of [Hobson 2009][book_hobson_latrinae], and the account of Roman slums, sanitation, and mortality of [Scobie 1986][research_scobie_1986], and the cautionary parasitological finding is documented in full in the [Cambridge repository version][research_mitchell_cam] of the Mitchell study and its [university account][ref_cambridge_roman_parasites].
 
 The Roman latrine already exhibits several dimensions of the framework. It advanced the hygienic base through its running-water removal of waste, though the parasitology cited above shows the advance was incomplete. It advanced the sensory dimension through the marble finish, the decoration, and in some instances the heating of the elevated examples. It was, above all, a communal facility that made no provision for the discretion the modern facility prizes, so that its configuration on the discretion dimension is near the opposite pole from the contemporary elevated restroom, a divergence that illustrates the cultural variability of the dimension weights.
 
@@ -449,7 +449,7 @@ The medieval period saw the elimination facility retreat from the Roman communal
 
 ## The Flush-Toilet Lineage and the Sanitary Revolution
 
-The modern elimination facility rests on the flush water closet, whose lineage is a sequence of documented inventions across three centuries. The device originates with [Sir John Harington][book_harington_ajax], the Elizabethan courtier who designed a valved flushing closet he named the Ajax, a pun on the jakes, installed one for Queen Elizabeth the First at Richmond Palace in 1592, and described the invention in 1596 in the satire A New Discourse of a Stale Subject Called the Metamorphosis of Ajax, a work preserved in the [Royal Collection][ref_rct_harington] and recognized by [Guinness World Records][ref_guinness_first_flush] as the first flushing toilet. The Harington closet did not propagate, and the decisive advance waited nearly two centuries for the water seal. The lineage is documented in the record of [the Science Museum][ref_science_museum_flushing], the account of [Cumming's advance][ref_historyhit_cumming], the biography of [George Jennings][ref_jennings_wiki], and the American plumbing history of [Ogle 1996][book_ogle_modern_conveniences] and the fixture history of [Eveleigh 2002][book_eveleigh_privies].
+The modern elimination facility rests on the flush water closet, whose lineage is a sequence of documented inventions across three centuries. The device originates with [Sir John Harington][book_harington_ajax], the Elizabethan courtier who designed a valved flushing closet he named the Ajax, a pun on the jakes, installed one for Queen Elizabeth the First at Richmond Palace in 1592, and described the invention in 1596 in the satire A New Discourse of a Stale Subject Called the Metamorphosis of Ajax, a work preserved in the [Royal Collection][ref_rct_harington] and recognized by [Guinness World Records][ref_guinness_first_flush] as the first flushing toilet. The Harington closet did not propagate, and the decisive advance waited nearly two centuries for the water seal. The lineage is documented in the record of [the Science Museum][ref_science_museum_flushing], the account of [Cumming's advance][ref_historyhit_cumming], the biography of [George Jennings][ref_jennings_wiki], and the American plumbing history of [Ogle 1996][book_ogle_modern_conveniences] and the fixture history of [Eveleigh 2008][book_eveleigh_privies].
 
 The water seal that made the indoor water closet tolerable by preventing the return of sewer gas was patented by [Alexander Cumming][ref_national_archives_toilet] in 1775, whose S-trap held a standing plug of water in a bend below the bowl. The patent number is recorded by the United Kingdom National Archives as number 1105, a figure that some secondary sources give instead as 814, a discrepancy noted here for accuracy. The valve closet of Joseph Bramah, patented in 1778, dominated the following century, and the ceramic washdown closet advanced through the wares of the Staffordshire potteries, including the one-piece all-ceramic Unitas of Thomas Twyford of 1883. The name most attached to the flush toilet in popular memory, Thomas Crapper, belongs to a genuine sanitary engineer and showroom proprietor of the later nineteenth century who did not invent the flush toilet and whose association with it was amplified by a 1969 popular biography of [Reyburn][book_reyburn_flushed], a correction documented by [the Smithsonian][ref_smithsonian_crapper]. The social history of the fixture and its domestic setting is treated in the surveys of [Wright 1960][book_wright_clean_decent], [Eveleigh 2006][book_eveleigh_bogs], [Horan 1996][book_horan_porcelain_god], and [Lambton 1995][book_lambton_temples], and the popular accounts of [Carter 2006][book_carter_flushed], [Hart-Davis 1997][book_hart_davis], and [Bryson 2010][book_bryson_at_home], which together document the century-long domestication of the water closet and its progression from an object of concealment to an object of design.
 
@@ -463,17 +463,17 @@ The public conveniences that followed were provided overwhelmingly for men. The 
 
 ## The Japanese High-Technology Washroom
 
-The contemporary frontier of the elevated elimination facility is the Japanese high-technology washroom, whose development over the last half century has advanced the sensory, discretion, and technological-augmentation dimensions farther than any other tradition. The central device is the washlet, the integrated cleansing-and-drying seat, whose origin lies in an American medical bidet seat of the 1960s that [TOTO][ref_toto_history] acquired and re-engineered and launched in 1980 as the Washlet G, providing a warm-water cleansing spray, a warm-air dryer, and a heated seat. The device propagated through Japanese households from a penetration near fourteen percent in the early 1990s to above eighty percent in the contemporary period, a diffusion documented by [Nippon.com][ref_nippon_hightech] and analyzed in the material-culture study of [Szczygiel 2016][research_szczygiel_ejcjs], and its cumulative shipments passed seventy million units, as [TOTO][ref_toto_70million] reports.
+The contemporary frontier of the elevated elimination facility is the Japanese high-technology washroom, whose development over the last half century has advanced the sensory, discretion, and technological-augmentation dimensions farther than any other tradition. The central device is the washlet, the integrated cleansing-and-drying seat, whose origin lies in an American medical bidet seat of the 1960s that [TOTO][ref_toto_history] acquired and re-engineered and launched in 1980 as the Washlet G, providing a warm-water cleansing spray, a warm-air dryer, and a heated seat. The device propagated through Japanese households from a penetration near fourteen percent in the early 1990s to above eighty percent in the contemporary period, a diffusion documented by [Nippon.com][ref_nippon_hightech] and analyzed in the material-culture study of [Marta E. Szczygiel, Osaka University 2016][research_szczygiel_ejcjs], and its cumulative shipments passed seventy million units, as [TOTO][ref_toto_70million] reports.
 
 The discretion dimension received its own Japanese device in the sound-masking machine, introduced by TOTO in 1988 under the name Otohime, the sound princess, which plays a masking water sound to conceal the sounds of elimination and which was motivated, as [Web Japan][ref_webjapan_otohime] records, by the conservation of the water that users otherwise expended on concealment flushing. The device is the physical realization of the acoustic-masking principle the discretion section formalized, and its water-saving figure, treated in that section, is a manufacturer estimate.
 
-The most recent and most visible Japanese advance is the elevation of the public toilet itself into a work of architecture, exemplified by [the Tokyo Toilet][ref_nippon_tokyotoilet] project. Financed through a coordinating role of the Nippon Foundation and begun in 2018, the project commissioned seventeen public toilets in the Shibuya district from sixteen creators including the architects Tadao Ando, Toyo Ito, Kengo Kuma, and Fumihiko Maki, and completed the set in June 2023. The most discussed of the installations are the two transparent toilets of [Shigeru Ban][ref_dezeen_transparent], whose walls of switchable glass turn opaque when the door is locked, resolving the discretion problem through a technological augmentation that makes the state of the facility legible from outside while preserving privacy within. The project became the subject of the Wim Wenders film [Perfect Days][ref_perfectdays_wiki], whose protagonist is a cleaner of the Tokyo toilets and which premiered at Cannes in 2023, and whose treatment of the sanitation labor behind the elevated facility is analyzed in the scholarship of [Hao Wen 2024][research_haowen_mediapolis]. The Tokyo Toilet project is the clearest contemporary demonstration that the elimination facility can be elevated to the status of civic art, advancing the sensory and social-signification dimensions to a degree without precedent in the public facility, and it is documented in the project record of the [completed installations][ref_nippon_17complete], the account of [the Tokyo Toilet][ref_tokyotoilet_wiki], and the monograph of [Okano and Nagare 2023][book_okano_tokyotoilet], while the [Perfect Days][ref_criterion_perfectdays] film and its [reception][ref_nippon_perfectdays] carried the project to a global audience.
+The most recent and most visible Japanese advance is the elevation of the public toilet itself into a work of architecture, exemplified by [the Tokyo Toilet][ref_nippon_tokyotoilet] project. Financed through a coordinating role of the Nippon Foundation and begun in 2018, the project commissioned seventeen public toilets in the Shibuya district from sixteen creators including the architects Tadao Ando, Toyo Ito, Kengo Kuma, and Fumihiko Maki, and completed the set in June 2023. The most discussed of the installations are the two transparent toilets of [Shigeru Ban][ref_dezeen_transparent], whose walls of switchable glass turn opaque when the door is locked, resolving the discretion problem through a technological augmentation that makes the state of the facility legible from outside while preserving privacy within. The project became the subject of the Wim Wenders film [Perfect Days][ref_perfectdays_wiki], whose protagonist is a cleaner of the Tokyo toilets and which premiered at Cannes in 2023, and whose treatment of the sanitation labor behind the elevated facility is analyzed in the scholarship of [Wen 2024][research_haowen_mediapolis]. The Tokyo Toilet project is the clearest contemporary demonstration that the elimination facility can be elevated to the status of civic art, advancing the sensory and social-signification dimensions to a degree without precedent in the public facility, and it is documented in the project record of the [completed installations][ref_nippon_17complete], the account of [the Tokyo Toilet][ref_tokyotoilet_wiki], and the monograph of [Okano and Nagare 2023][book_okano_tokyotoilet], while the [Perfect Days][ref_criterion_perfectdays] film and its [reception][ref_nippon_perfectdays] carried the project to a global audience.
 
 The Japanese elevation of the elimination facility rests on a cultural foundation that predates the washlet, because the Japanese aesthetic tradition accorded the toilet a contemplative and aesthetic status that the Western tradition did not, an attitude articulated in the essay of [Tanizaki][book_tanizaki_shadows] In Praise of Shadows, which praised the traditional Japanese toilet as a place of repose and sensory refinement. The material-culture history of the transition from the night-soil economy to the washlet is traced in the study of [Szczygiel][research_szczygiel_nightsoil] on the premodern night-soil collection system, and the technical development and diffusion of the washlet is documented across the record of its [fortieth anniversary][ref_toto_40th], the [facts of its development][ref_toto_10facts], the milestones of its [fifty-millionth][ref_prnewswire_50m] and [sixty-millionth][ref_prnewswire_60m] units, the account of the [sanitary-equipment industry][ref_sanitary_net], and the record of the [TOTO Museum][ref_nippon_toto_museum]. The sound-masking device is further documented in the accounts of [the sound princess][ref_sound_princess_enn] and its [water-conservation function][ref_sound_princess_iol], and the broader Japanese toilet culture in the surveys of [the washlet][ref_washlet_wiki] and [toilets in Japan][ref_toilets_japan_wiki]. The Japanese case demonstrates that the elevation of the elimination facility along the sensory and augmentation dimensions can rest on a deep cultural foundation rather than on technology alone.
 
 ## Luxury Fixtures and the Restroom as Status Signal
 
-The private and commercial elevated restroom expresses its elevation through fixture, attendance, and finish, and the contemporary market offers fixtures whose specification approaches the limit of the technological-augmentation dimension. The [Kohler Numi][ref_numi_newatlas], introduced in 2011 and updated in 2019 with an integrated voice assistant, integrates a bidet, a heated seat, a foot warmer, ambient lighting, and audio into a single fixture at a price above six thousand dollars, its [second-generation model][ref_numi2_cnbc] adding an integrated voice assistant, and the [TOTO Neorest][ref_neorest_750h], whose NX variant took a [Red Dot design award][ref_neorest_nx_reddot], and the [Duravit SensoWash][ref_sensowash_duravit] of the designer Philippe Starck, an [award-winning][ref_sensowash_azaward] shower-toilet, occupy the same segment. These fixtures advance the technological-augmentation and sensory dimensions at the scale of the individual fixture, and their price situates the elevated facility as a status good. The frontier of the augmentation dimension extends beyond comfort to health monitoring, in the mountable smart-toilet system of [Park and colleagues 2020][research_park_2020_smart_toilet], which analyzes excreta to provide personalized health data, an augmentation that turns the elimination facility into an instrument of continuous physiological measurement.
+The private and commercial elevated restroom expresses its elevation through fixture, attendance, and finish, and the contemporary market offers fixtures whose specification approaches the limit of the technological-augmentation dimension. The [Kohler Numi][ref_numi_newatlas], introduced in 2011 and updated in 2019 with an integrated voice assistant, integrates a bidet, a heated seat, a foot warmer, ambient lighting, and audio into a single fixture at a price above six thousand dollars, its [second-generation model][ref_numi2_cnbc] adding an integrated voice assistant, and the [TOTO Neorest][ref_neorest_750h], whose NX variant took a [Red Dot design award][ref_neorest_nx_reddot], and the [Duravit SensoWash][ref_sensowash_duravit] of the designer Philippe Starck, an [award-winning][ref_sensowash_azaward] shower-toilet, occupy the same segment. These fixtures advance the technological-augmentation and sensory dimensions at the scale of the individual fixture, and their price situates the elevated facility as a status good. The frontier of the augmentation dimension extends beyond comfort to health monitoring, in the mountable smart-toilet system of [Park et al. 2020][research_park_2020_smart_toilet], which analyzes excreta to provide personalized health data, an augmentation that turns the elimination facility into an instrument of continuous physiological measurement.
 
 The attended restroom advances the social-signification dimension through the provision of human service, a practice roughly two centuries old whose most documented practitioner is the Bristol attendant [Victoria Hughes][ref_attendant_wiki], the first of the profession to receive an entry in the Oxford Dictionary of National Biography, and whose decline is associated with the shift from cash to digital payment that removed the gratuity economy on which the profession rested. The recognition of the elevated restroom is institutionalized in the awards of the [Cintas America's Best Restroom][ref_bestrestroom_hof] contest in the United States and the [Loo of the Year Awards][ref_loty_wiki] in the United Kingdom, and the elevation of the restroom to a designed cultural object is exemplified by the Art Deco lounges of Radio City Music Hall of 1932 and the egg-pod toilets of the London restaurant [Sketch][ref_sketch_wallpaper] of 2002. The advocacy for the provision of sanitation as a matter of dignity and public health is organized globally by the [World Toilet Organization][ref_wto_wiki], founded in 2001, whose [World Toilet Day][ref_un_toilet_day] was adopted by the United Nations in the [General Assembly resolution of 2013][ref_un_res_67_291], a development that situates the elevation of the elimination facility within a global development agenda that treats basic sanitation, rather than luxury, as the unmet need for much of the world. The scale of that unmet need is documented in the primary data of the [World Health Organization and United Nations Children's Fund Joint Monitoring Programme][ref_who_unicef_jmp] and the [World Health Organization sanitation fact sheet][ref_who_sanitation], which record that a large fraction of the world population lacks safely managed sanitation, the baseline against which the elevated facility of the wealthy establishment stands in sharp relief.
 
@@ -487,13 +487,13 @@ The recognition of the elevated facility is institutionalized in awards and in a
 
 The provisioning dimension of the elimination facility, the supply of the consumable goods its use requires, has its own history bound up with the vending machine and, more recently, with the politics of menstrual equity. The vending of goods within or adjacent to the restroom includes the [condom vending machine][ref_condom_machine_wiki], whose history reaches to the early twentieth century and whose most documented early operator is the Berlin manufacturer [Julius Fromm][ref_fromm_wiki], who placed condom machines in communal facilities from the late 1920s to reduce the embarrassment of over-the-counter purchase, and whose business was expropriated under the Nazi regime, a history recounted by [Aly and Sontheimer][book_aly_fromms] and by [Vice][ref_vice_fromm] and set within the longer social history of the condom by [Collier 2007][book_collier_condom]. The coin-operated sanitary-napkin dispenser followed, and an example is preserved in the collection of [the Smithsonian][ref_smithsonian_modess]. The vending machine itself, of which Japan sustains among the highest densities in the world, is treated in the survey of [the vending machine][ref_vending_machine_wiki]. The provisioning of the workplace facility, and the right to the break its use requires, is treated in the labor history of [Linder and Nygaard 1998][book_linder_void].
 
-The contemporary frontier of restroom provisioning is the free provision of menstrual products as a matter of equity. The [Period Products Free Provision Scotland Act 2021][ref_scotland_period_act] established the first national statutory duty to provide menstrual products without charge, and comparable school-provision schemes have followed in [England][ref_gov_uk_period] and in [more than half of the United States][ref_ecs_period], a legal landscape surveyed across the states in the [scan of the fifty states and the District of Columbia][research_menstrual_legal_landscape]. The provisioning history connects the framework to the access-equity dimension in a form to the sexes, because the provisioning a facility requires is not symmetric across the populations it serves, and the equitable provision of menstrual products is an access-dimension elevation with no counterpart in the historically male-default facility.
+The contemporary frontier of restroom provisioning is the free provision of menstrual products as a matter of equity. The [Period Products Free Provision 2021][ref_scotland_period_act] established the first national statutory duty to provide menstrual products without charge, and comparable school-provision schemes have followed in [England][ref_gov_uk_period] and in [more than half of the United States][ref_ecs_period], a legal landscape surveyed across the states in the [scan of the fifty states and the District of Columbia][research_menstrual_legal_landscape]. The provisioning history connects the framework to the access-equity dimension in a form to the sexes, because the provisioning a facility requires is not symmetric across the populations it serves, and the equitable provision of menstrual products is an access-dimension elevation with no counterpart in the historically male-default facility.
 
 ## Regulatory and Technical Framework
 
 The elevation of the elimination facility is constrained and in part directed by a framework of codes and standards that fix the minimum provision along several dimensions of the framework. The provisioning of fixtures is governed by the plumbing code, which specifies minimum fixture counts by occupancy. The [International Plumbing Code][ref_ipc_fixture_403] and the [Uniform Plumbing Code][ref_upc_fixtures] fix these minima, and the contemporary editions assign a greater female fixture count in assembly occupancies in approximate response to the potty-parity analysis, a code development documented by the [International Code Council][ref_icc_ipc]. The sex-based provision is further directed by the potty-parity statutes, beginning with the California Restroom Equity Act associated with the year 1987, though some sources record 1989, motivated by the queues at large public venues, and continued in the Virginia regulation that took effect in 1989, the advocacy of [Banzhaf][ref_banzhaf_potty], and the New York Women's Restroom Equity Act of 2005 that mandated a fixture ratio near two to one in many assembly venues.
 
-The hygienic and comfort dimensions are governed by the ventilation standard [ASHRAE 62.1][ref_ashrae_62_1], which fixes the exhaust rate per fixture, and by the thermal-comfort standard [ASHRAE Standard 55][ref_ashrae_55] and [ISO 7730][ref_iso_7730]. The water consumption of the fixture is governed by the [Energy Policy Act of 1992][ref_epact_1992], codified in the appliance-efficiency standards of [Title 10 of the Code of Federal Regulations Part 430][ref_ecfr_10_430], and by the voluntary [WaterSense specification][ref_epa_watersense_toilets] and its [product-specification program][ref_epa_watersense_specs] of the Environmental Protection Agency, verified against the performance floor of the [Maximum Performance protocol][ref_map_testing] and the [ceramic-fixture standard][ref_asme_a112_19_2]. The acoustic and privacy dimension is served by the measurement standards [ASTM E1130][ref_astm_e1130] and [ASTM E1573][ref_astm_e1573]. The accessibility of the facility to the full range of bodies is governed by the [2010 ADA Standards for Accessible Design][ref_ada_2010_standards], issued under the authority of the [United States Access Board][ref_access_board_ada], whose provisions for the accessible toilet room fix the access dimension for users with disabilities, and the advocacy for the provision and quality of the public facility is organized in part by the [American Restroom Association][ref_american_restroom_assoc]. The regulatory framework thus fixes a minimum configuration on the hygienic, access, thermal, acoustic, and resource dimensions, above which the elevation of the facility is the discretionary choice of its provider.
+The hygienic and comfort dimensions are governed by the ventilation standard [ASHRAE 62.1][ref_ashrae_62_1], which fixes the exhaust rate per fixture, and by the thermal-comfort standard [ASHRAE Standard 55][ref_ashrae_55] and [ISO 7730 Analytical Determination n.d.][ref_iso_7730]. The water consumption of the fixture is governed by the [Energy Policy Act 1992][ref_epact_1992], codified in the appliance-efficiency standards of [Title 10 of the Code of Federal Regulations Part 430][ref_ecfr_10_430], and by the voluntary [WaterSense specification][ref_epa_watersense_toilets] and its [product-specification program][ref_epa_watersense_specs] of the Environmental Protection Agency, verified against the performance floor of the [Maximum Performance protocol][ref_map_testing] and the [ceramic-fixture standard][ref_asme_a112_19_2]. The acoustic and privacy dimension is served by the measurement standards [ASTM E1130][ref_astm_e1130] and [ASTM E1573][ref_astm_e1573]. The accessibility of the facility to the full range of bodies is governed by the [2010 ADA Standards for Accessible Design][ref_ada_2010_standards], issued under the authority of the [United States Access Board][ref_access_board_ada], whose provisions for the accessible toilet room fix the access dimension for users with disabilities, and the advocacy for the provision and quality of the public facility is organized in part by the [American Restroom Association][ref_american_restroom_assoc]. The regulatory framework thus fixes a minimum configuration on the hygienic, access, thermal, acoustic, and resource dimensions, above which the elevation of the facility is the discretionary choice of its provider.
 
 ## Contemporary Comparative Landscape
 
@@ -589,217 +589,228 @@ The convergence question asks whether the elevation trajectories of elimination 
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Aly and Sontheimer 2007 Fromms How Julius Fromm's Condom Empire Fell to the Nazis][book_aly_fromms]
-- [Bryson 2010 At Home A Short History of Private Life][book_bryson_at_home]
-- [Carter 2006 Flushed How the Plumber Saved Civilization][book_carter_flushed]
-- [Cavanagh 2010 Queering Bathrooms Gender Sexuality and the Hygienic Imagination][book_cavanagh_queering]
-- [Collier 2007 The Humble Little Condom A History][book_collier_condom]
-- [Davis 2020 Bathroom Battlegrounds How Public Restrooms Shape the Gender Order][book_davis_battlegrounds]
-- [Eveleigh 2006 Bogs Baths and Basins The Story of Domestic Sanitation][book_eveleigh_bogs]
-- [Fanger 1970 Thermal Comfort][book_fanger_1970_thermal_comfort]
-- [George 2008 The Big Necessity][book_george_big_necessity]
-- [Gershenson and Penner 2009 Ladies and Gents Public Toilets and Gender][book_gershenson_ladies_gents]
-- [Greed 2003 Inclusive Urban Design Public Toilets][book_greed_inclusive]
-- [Gross and Harris 1998 Fundamentals of Queueing Theory][book_gross_harris_1998_queueing]
-- [Hinds 1999 Aerosol Technology][book_hinds_1999_aerosol]
-- [Haas Rose and Gerba 2014 Quantitative Microbial Risk Assessment][book_haas_2014_qmra]
-- [Halliday 1999 The Great Stink of London][book_halliday_great_stink]
-- [Harington 1596 A New Discourse of a Stale Subject Called the Metamorphosis of Ajax][book_harington_ajax]
-- [Hart-Davis 1997 Thunder Flush and Thomas Crapper][book_hart_davis]
-- [Hodge Roman Aqueducts and Water Supply][book_hodge_aqueducts]
-- [Horan 1996 The Porcelain God A Social History of the Toilet][book_horan_porcelain_god]
-- [Jansen Koloski-Ostrow and Moormann 2011 Roman Toilets Their Archaeology and Cultural History][book_jansen_roman_toilets]
-- [Kira 1966 The Bathroom][book_kira]
-- [Kleinrock 1975 Queueing Systems Volume 1 Theory][book_kleinrock_1975_queueing]
-- [Koloski-Ostrow 2015 The Archaeology of Sanitation in Roman Italy][book_koloski_ostrow]
-- [Lambton 1995 Temples of Convenience and Chambers of Delight][book_lambton_temples]
-- [Linder and Nygaard 1998 Void Where Prohibited][book_linder_void]
-- [Long 2006 Architectural Acoustics][book_long_2006_architectural_acoustics]
-- [Lowe 2018 No Place to Go How Public Toilets Fail Our Private Needs][book_lowe_no_place]
-- [Molotch and Norén 2010 Toilet Public Restrooms and the Politics of Sharing][book_molotch_toilet]
-- [Penner 2013 Bathroom][book_penner_bathroom]
-- [Rappaport 2000 Shopping for Pleasure Women in the Making of London's West End][book_rappaport_shopping]
-- [Reyburn 1969 Flushed with Pride The Story of Thomas Crapper][book_reyburn_flushed]
-- [Sabine 1922 Collected Papers on Acoustics][book_sabine_1922_acoustics]
-- [Shortle Thompson Gross and Harris 2018 Fundamentals of Queueing Theory][book_shortle_2018_queueing]
-- [Smith 2007 Clean A History of Personal Hygiene and Purity][book_smith_clean]
-- [Anthony 2017 Defined by Design][book_anthony_defined]
-- [Eveleigh 2008 Privies and Water Closets][book_eveleigh_privies]
-- [Ogle 1996 All the Modern Conveniences American Household Plumbing][book_ogle_modern_conveniences]
-- [Okano and Nagare 2023 The Tokyo Toilet][book_okano_tokyotoilet]
-- [Beranek Acoustics][book_beranek_acoustics]
-- [Cockayne 2007 Hubbub Filth Noise and Stench in England][book_cockayne_hubbub]
-- [Corbin 1986 The Foul and the Fragrant Odor and the French Social Imagination][book_corbin_foul_fragrant]
-- [Gregory and James 2006 Toilets of the World][book_gregory_toilets_world]
-- [Harris Handbook of Acoustical Measurements and Noise Control][book_harris_acoustical_handbook]
-- [Hobson 2009 Latrinae et Foricae Toilets in the Roman World][book_hobson_latrinae]
-- [Inglis 2001 A Sociological History of Excretory Experience][book_inglis_excretory]
-- [Jackson 2014 Dirty Old London The Victorian Fight Against Filth][book_jackson_dirty_old_london]
-- [Laporte 2000 History of Shit][book_laporte_history_shit]
-- [Melosi 2000 The Sanitary City][book_melosi_sanitary_city]
-- [Reid 1991 Paris Sewers and Sewermen][book_reid_paris_sewers]
-- [Tanizaki In Praise of Shadows][book_tanizaki_shadows]
-- [Wright 1960 Clean and Decent][book_wright_clean_decent]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Barber, Nelson, and Joseph M. Scarcelli. 2009. "Clean Restrooms: How Important Are They to Restaurant Consumers?" *Journal of Foodservice* 20 (6): 309–20. [https://doi.org/10.1111/j.1748-0159.2009.00155.x][research_barber_2009]
+- Best, E. L., and K. Redway. 2015. "Comparison of Different Hand-Drying Methods: The Potential for Airborne Microbe Dispersal and Contamination." *Journal of Hospital Infection* 89 (3): 215–17. [https://doi.org/10.1016/j.jhin.2014.11.007][research_best_redway_2014]
+- Best, E. L., J. A. T. Sandoe, and M. H. Wilcox. 2012. "Potential for Aerosolization of Clostridium Difficile after Flushing Toilets: The Role of Toilet Lids in Reducing Environmental Contamination Risk." *Journal of Hospital Infection* 80 (1): 1–5. [https://doi.org/10.1016/j.jhin.2011.08.010][research_best_wilcox_2012]
+- Crimaldi, John P., Aaron C. True, Karl G. Linden, Mark T. Hernandez, Lars T. Larson, and Anna K. Pauls. 2022. "Commercial Toilets Emit Energetic and Rapidly Spreading Aerosol Plumes." *Scientific Reports* 12 (1): 20493. [https://doi.org/10.1038/s41598-022-24686-5][research_crimaldi_2022_plume]
+- Curtis, Val, and Sandy Cairncross. 2003. "Effect of Washing Hands with Soap on Diarrhoea Risk in the Community: A Systematic Review." *Lancet Infectious Diseases* 3 (5): 275–81. [https://doi.org/10.1016/s1473-3099(03)00606-6][research_curtis_cairncross_2003]
+- Freeman, Matthew C., Meredith E. Stocks, Oliver Cumming, et al. 2014. "Systematic Review: Hygiene and Health: Systematic Review of Handwashing Practices Worldwide and Update of Health Effects." *Tropical Medicine & International Health* 19 (8): 906–16. [https://doi.org/10.1111/tmi.12339][research_freeman_2014]
+- Huh, Woonghee Tim, Jaywon Lee, Heesang Park, and Kun Soo Park. 2019. "The Potty Parity Problem: Towards Gender Equality at Restrooms in Business Facilities." *Socio-Economic Planning Sciences* 68: 100666. [https://doi.org/10.1016/j.seps.2018.11.003][research_huh_2019_potty]
+- Johnson, David L., Kenneth R. Mead, Robert A. Lynch, and Deborah V. L. Hirst. 2013. "Lifting the Lid on Toilet Plume Aerosol: A Literature Review with Suggestions for Future Research." *American Journal of Infection Control* 41 (3): 254–58. [https://doi.org/10.1016/j.ajic.2012.04.330][research_johnson_2013_plume]
+- Kim, Hyunju, and Jarrett R. Bachman. 2019. "Examining Customer Perceptions of Restaurant Restroom Cleanliness and Their Impact on Satisfaction and Intent to Return." *Journal of Foodservice Business Research* 22 (2): 191–208. [https://doi.org/10.1080/15378020.2019.1596002][research_kim_bachman_2019]
+- Larson, Elaine L. 1995. "APIC Guidelines for Handwashing and Hand Antisepsis in Health Care Settings." *American Journal of Infection Control* 23 (4): 251–69. [https://doi.org/10.1016/0196-6553(95)90070-5][research_larson_1995]
+- Mari, Michela, and Sara Poggesi. 2013. "Servicescape Cues and Customer Behavior: A Systematic Literature Review and Research Agenda." *Service Industries Journal* 33 (2): 171–99. [https://doi.org/10.1080/02642069.2011.613934][research_mari_poggesi]
+- Nicas, Mark, and Daniel Best. 2008. "A Study Quantifying the Hand-to-Face Contact Rate and Its Potential Application to Predicting Respiratory Tract Infection." *Journal of Occupational and Environmental Hygiene* 5 (6): 347–52. [https://doi.org/10.1080/15459620802003896][research_nicas_best_2008]
+- Park, Seung-min, Daeyoun D. Won, Brian J. Lee, et al. 2020. "A Mountable Toilet System for Personalized Health Monitoring via the Analysis of Excreta." *Nature Biomedical Engineering* 4 (6): 624–35. [https://doi.org/10.1038/s41551-020-0534-9][research_park_2020_smart_toilet]
+- Vilnai-Yavetz, Iris, and Shaked Gilboa. 2010. "The Effect of Servicescape Cleanliness on Customer Reactions." *Services Marketing Quarterly* 31 (2): 213–34. [https://doi.org/10.1080/15332961003604386][research_vilnai_yavetz_2010]
 
-- [ANSI and Acoustical Society of America S3.5 Speech Intelligibility Index][ref_ansi_asa_s35_sii]
-- [ASHRAE Standard 55 Thermal Environmental Conditions for Human Occupancy][ref_ashrae_55]
-- [ASHRAE Standard 62.1 Ventilation for Acceptable Indoor Air Quality][ref_ashrae_62_1]
-- [ASME A112.19.2 Ceramic Plumbing Fixtures][ref_asme_a112_19_2]
-- [ASTM E1130 Objective Measurement of Speech Privacy][ref_astm_e1130]
-- [ASTM E1573 Measurement and Reporting of Masking Sound Levels][ref_astm_e1573]
-- [Cloaca Maxima][ref_cloaca_maxima_wiki]
-- [Cintas America's Best Restroom Hall of Fame][ref_bestrestroom_hof]
-- [Dezeen Shigeru Ban Transparent Tokyo Toilets][ref_dezeen_transparent]
-- [Duravit SensoWash Starck f][ref_sensowash_duravit]
-- [Duravit SensoWash Starck f AZ Award][ref_sensowash_azaward]
-- [Education Commission of the States Free Menstrual Products in Schools][ref_ecs_period]
-- [Energy Policy Act of 1992][ref_epact_1992]
-- [EPA WaterSense Residential Toilets][ref_epa_watersense_toilets]
-- [Flush Toilets at the Great Exhibition][ref_great_exhibition_toilets]
-- [GOV.UK Free Period Product Scheme for Schools and Colleges][ref_gov_uk_period]
-- [Historic UK The History of Women's Public Toilets in Britain][ref_historic_uk_womens]
-- [ICC International Plumbing Code Options for Modern Public Restrooms][ref_icc_ipc]
-- [Institution of Civil Engineers Sir Joseph Bazalgette][ref_ice_bazalgette]
-- [International Plumbing Code Section 403.1 Minimum Plumbing Fixtures][ref_ipc_fixture_403]
-- [International Plumbing Code Chapter 10 Traps][ref_ipc_traps_1002]
-- [ISO 7730 Analytical Determination of Thermal Comfort PMV and PPD][ref_iso_7730]
-- [John Banzhaf Potty Parity][ref_banzhaf_potty]
-- [Julius Fromm][ref_fromm_wiki]
-- [London Museum The Great Stink of 1858][ref_london_museum_stink]
-- [Loo of the Year Awards][ref_loty_wiki]
-- [Maximum Performance Toilet Testing][ref_map_testing]
-- [New Atlas Kohler Numi][ref_numi_newatlas]
-- [CNBC Kohler Numi 2.0 with Amazon Alexa][ref_numi2_cnbc]
-- [Nippon.com High-Tech Toilets Become Standard Household Equipment in Japan][ref_nippon_hightech]
-- [NPR Otohime Sound Device][ref_npr_otohime]
-- [One Point Partitions American versus European Bathroom Stalls][ref_onepoint_stalls]
-- [Perfect Days Film][ref_perfectdays_wiki]
-- [Period Products Free Provision Scotland Act 2021][ref_scotland_period_act]
-- [Red Dot Award Neorest NX][ref_neorest_nx_reddot]
-- [Restroom Attendant][ref_attendant_wiki]
-- [Smithsonian Three True Things About Thomas Crapper][ref_smithsonian_crapper]
-- [Smithsonian National Museum of American History Modess Dispenser][ref_smithsonian_modess]
-- [The Nippon Foundation The Tokyo Toilet][ref_nippon_tokyotoilet]
-- [TOTO The Little-Known History of Washlet Bidet Seats][ref_toto_history]
-- [TOTO Neorest 750H][ref_neorest_750h]
-- [TOTO Washlet Shipments Pass 70 Million Units][ref_toto_70million]
-- [Uniform Plumbing Code Minimum Plumbing Facilities][ref_upc_fixtures]
-- [United Nations World Toilet Day][ref_un_toilet_day]
-- [UK National Archives Innovations in Toilet Design][ref_national_archives_toilet]
-- [Vice How the Nazis Annihilated Julius Fromm's Condom Empire][ref_vice_fromm]
-- [Web Japan TOTO Otohime][ref_webjapan_otohime]
-- [World History Encyclopedia Toilets in a Medieval Castle][ref_worldhistory_medieval]
-- [World Toilet Organization][ref_wto_wiki]
-- [London Museum Selfridges Store That Shook Up London Shopping][ref_selfridges_london_museum]
-- [Wallpaper Sketch London Design History][ref_sketch_wallpaper]
-- [ADA 2010 Standards for Accessible Design][ref_ada_2010_standards]
-- [American Restroom Association][ref_american_restroom_assoc]
-- [Code of Federal Regulations Title 10 Part 430 Energy Conservation Program][ref_ecfr_10_430]
-- [EPA WaterSense Product Specifications][ref_epa_watersense_specs]
-- [Frontinus On the Water Management of the City of Rome][ref_frontinus_aqueducts]
-- [Pliny the Elder The Natural History][ref_pliny_natural_history]
-- [United Nations General Assembly Resolution 67/291 Sanitation for All][ref_un_res_67_291]
-- [United States Access Board ADA Accessibility Standards][ref_access_board_ada]
-- [Vitruvius De Architectura][ref_vitruvius_architecture]
-- [World Health Organization Sanitation Fact Sheet][ref_who_sanitation]
-- [World Health Organization and UNICEF Joint Monitoring Programme for Water Supply Sanitation and Hygiene][ref_who_unicef_jmp]
-- [American Standard Companies][ref_amstd_wiki]
-- [American Standard SpaLet Bidet Toilets][ref_spalet_americanstandard]
-- [World Health Organization Guidelines on Hand Hygiene in Health Care][ref_who_hand_hygiene]
-- [British Toilet Association About][ref_bta_about]
-- [Cintas Crowns 2024 America's Best Restroom Winner][ref_cintas_2024]
-- [Condom Machine][ref_condom_machine_wiki]
-- [Criterion Collection Perfect Days][ref_criterion_perfectdays]
-- [DXV AT200 SpaLet Bidet Toilet][ref_dxv_at200]
-- [Environmental News Network The Sound Princess][ref_sound_princess_enn]
-- [George Jennings][ref_jennings_wiki]
-- [Guinness World Records First Flushing Toilet][ref_guinness_first_flush]
-- [Heritage Calling The Story of London's Sewer System][ref_heritage_london_sewers]
-- [Historic England Spending a Penny Collection][ref_historic_england_penny]
-- [Vending Machine][ref_vending_machine_wiki]
-- [History Hit Alexander Cummings Pioneer of the Flush Toilet][ref_historyhit_cumming]
-- [History Hit How the Ancient Romans Went to the Toilet][ref_historyhit_roman]
-- [IOL Sound Princess Eliminates Toilet Noises][ref_sound_princess_iol]
-- [Japan Sanitary Equipment Industry Association About the Spray Seat][ref_sanitary_net]
-- [Kohler Co.][ref_kohler_wiki]
-- [Loo of the Year Awards Official][ref_loty_official]
-- [Marshall Field's][ref_marshall_fields_wiki]
-- [Marshall Field's Tea Room][ref_marshall_fields_tearoom]
-- [Men Without Women Mural][ref_men_without_women_wiki]
-- [Nippon Foundation All 17 Tokyo Toilets Completed][ref_nippon_17complete]
-- [Nippon.com The TOTO Museum and Japan's Toilet Culture][ref_nippon_toto_museum]
-- [Nippon.com Wim Wenders and Perfect Days][ref_nippon_perfectdays]
-- [PR Newswire Global Sales of TOTO Washlet Exceed 50 Million][ref_prnewswire_50m]
-- [PR Newswire TOTO Washlet Line Exceeds 60 Million Units][ref_prnewswire_60m]
-- [Radio City Music Hall][ref_radio_city_wiki]
-- [Roca Company][ref_roca_wiki]
-- [Royal Collection Trust The Metamorphosis of Ajax][ref_rct_harington]
-- [ScentAir What Is Scent Marketing][ref_scentair]
-- [Science Museum A Flushing Story][ref_science_museum_flushing]
-- [Smithsonian How the Ancient Romans Went to the Bathroom][ref_smithsonian_roman]
-- [Toilets in Japan][ref_toilets_japan_wiki]
-- [Toto Ltd.][ref_toto_wiki]
-- [TOTO Washlet 40th Anniversary][ref_toto_40th]
-- [TOTO Ten Little-Known Facts About Washlet Bidet Seats][ref_toto_10facts]
-- [The Tokyo Toilet][ref_tokyotoilet_wiki]
-- [United Nations General Assembly Resolution 67/291 World Toilet Day][ref_un_ga11397]
-- [University of Cambridge Roman Toilets Gave No Clear Health Benefit][ref_cambridge_roman_parasites]
-- [Villeroy and Boch][ref_vb_wiki]
-- [Washlet][ref_washlet_wiki]
-- [World Toilet Organization About Us][ref_wto_about]
+### Primary Sources, Non-Peer-Reviewed
 
-### Research
+- Aiello, Allison E., Rebecca M. Coulborn, Vanessa Perez, and Elaine L. Larson. 2008. "Effect of Hand Hygiene on Infectious Disease Risk in the Community Setting: A Meta-Analysis." *American Journal of Public Health* 98 (8): 1372–81. [https://doi.org/10.2105/ajph.2007.124610][research_aiello_2008]
+- Anthony, Kathryn H., and Meghan Dufresne. 2007. "Potty Parity in Perspective: Gender and Family Issues in Planning and Designing Public Restrooms." *Journal of Planning Literature* 21 (3): 267–94. [https://doi.org/10.1177/0885412206295846][research_anthony_dufresne_2007]
+- Baillie, Michelle A., Shawndel Fraser, and Michael J. Brown. 2009. "Do Women Spend More Time in the Restroom than Men?" *Psychological Reports* 105 (3): 789–90. [https://doi.org/10.2466/pr0.105.3.789-790][research_do_women_spend_more]
+- Barber, Nelson, and Joseph M. Scarcelli. 2010. "Enhancing the Assessment of Tangible Service Quality through the Creation of a Cleanliness Measurement Scale." *Managing Service Quality: An International Journal* 20 (1): 70–88. [https://doi.org/10.1108/09604521011011630][research_barber_2010]
+- Barker, J., and M. V. Jones. 2005. "The Potential Spread of Infection Caused by Aerosol Contamination of Surfaces after Flushing a Domestic Toilet." *Journal of Applied Microbiology* 99 (2): 339–47. [https://doi.org/10.1111/j.1365-2672.2005.02610.x][research_barker_jones_2005]
+- Bitner, Mary Jo. 1992. "Servicescapes: The Impact of Physical Surroundings on Customers and Employees." *Journal of Marketing* 56 (2): 57–71. [https://doi.org/10.1177/002224299205600205][research_bitner]
+- "Code of Federal Regulations Title 10 Part 430 Energy Conservation Program." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-10/chapter-II/subchapter-D/part-430][ref_ecfr_10_430]
+- "Energy Policy Act of." 1992. [https://www.govinfo.gov/app/details/STATUTE-106/STATUTE-106-Pg2776][ref_epact_1992]
+- Farajollahzadeh, Setareh, Ming Hu, and Vahid Roshanaei. 2025. "Case Article—Potty Parity: Stadium Restroom Design." *INFORMS Transactions on Education* 26 (1): 79–86. [https://doi.org/10.1287/ited.2023.0051ca][research_farajollahzadeh_stadium]
+- "First Flushing Toilet." n.d. Guinness World Records. Accessed October 25, 2026. [https://www.guinnessworldrecords.com/world-records/449875-first-flushing-toilet][ref_guinness_first_flush]
+- "Frontinus On the Water Management of the City of Rome." n.d. Accessed October 25, 2026. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Frontinus/De\_Aquis/home.html][ref_frontinus_aqueducts]
+- Gerba, Charles P., Craig Wallis, and Joseph L. Melnick. 1975. "Microbiological Hazards of Household Toilets: Droplet Production and the Fate of Residual Organisms." *Applied Microbiology* 30 (2): 229–37. [https://doi.org/10.1128/am.30.2.229-237.1975][research_gerba_1975_plume]
+- Huesca-Espitia, Luz del Carmen, Jaber Aslanzadeh, Richard Feinn, Gabrielle Joseph, Thomas S. Murray, and Peter Setlow. 2018. "Deposition of Bacteria and Bacterial Spores by Bathroom Hot-Air Hand Dryers." *Applied and Environmental Microbiology* 84 (8): e00044-18. [https://doi.org/10.1128/aem.00044-18][research_huesca_espitia_2018]
+- *ISO 7730 Analytical Determination of Thermal Comfort PMV and PPD*. n.d. [https://www.iso.org/standard/39155.html][ref_iso_7730]
+- Kimmitt, P. T., and K. F. Redway. 2016. "Evaluation of the Potential for Virus Dispersal during Hand Drying: A Comparison of Three Methods." *Journal of Applied Microbiology* 120 (2): 478–86. [https://doi.org/10.1111/jam.13014][research_kimmitt_redway_2016]
+- Lewkowitz, Shawna, and Jason Gilliland. 2024. "A Feminist Critical Analysis of Public Toilets and Gender: A Systematic Review." *Urban Affairs Review* 61 (1): 282–309. [https://doi.org/10.1177/10780874241233529][research_feminist_critical]
+- Little, John D. C. 1961. "A Proof for the Queuing Formula: L = λ W." *Operations Research* 9 (3): 383–87. [https://doi.org/10.1287/opre.9.3.383][research_little_1961]
+- Mitchell, Piers D. 2016. "Human Parasites in the Roman World: Health Consequences of Conquering an Empire." *Parasitology* 144 (1): 48–58. [https://doi.org/10.1017/s0031182015001651][research_mitchell_parasites]
+- "Period Products (Free Provision) (Scotland) Act 2021." 2021. Statute Law Database. Accessed October 25, 2026. [https://www.legislation.gov.uk/asp/2021/1][ref_scotland_period_act]
+- "Pliny the Elder, the Natural History, BOOK I.1, DEDICATION. 1 Lemaire Informs Us, in His Title-Page, That the Two First Books of the Natural History Are Edited by M. Alexandre, in His Edition." n.d. Accessed October 25, 2026. [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137][ref_pliny_natural_history]
+- Scobie, Alex. 1986. "Slums, Sanitation, and Mortality in the Roman World." *Klio* 68 (68): 399–433. [https://doi.org/10.1524/klio.1986.68.68.399][research_scobie_1986]
+- Spangenberg, Eric R., Ayn E. Crowley, and Pamela W. Henderson. 1996. "Improving the Store Environment: Do Olfactory Cues Affect Evaluations and Behaviors?" *Journal of Marketing* 60 (2): 67–80. [https://doi.org/10.1177/002224299606000205][research_spangenberg]
+- Sydnor, Emily R. M., Gregory Bova, Anatoly Gimburg, Sara E. Cosgrove, Trish M. Perl, and Lisa L. Maragakis. 2012. "Electronic-Eye Faucets:LegionellaSpecies Contamination in Healthcare Settings." *Infection Control & Hospital Epidemiology* 33 (3): 235–40. [https://doi.org/10.1086/664047][research_sydnor_2012_faucet]
+- TaŞTan, Hülya, and Aykut Göktuğ Soylu. 2023. "The Impact of Perceived Cleanliness on Customer Satisfaction, Revisiting Intention and Complaining Behaviors: The Case of Restaurants by S-O-R Model." *Journal of Multidisciplinary Academic Tourism* 8 (1): 27–38. [https://doi.org/10.31822/jomat.2023-8-1-27][research_tastan_soylu_2023]
+- "United States Access Board ADA Accessibility Standards." n.d. Accessed October 25, 2026. [https://www.access-board.gov/ada/][ref_access_board_ada]
+- Us Epa, Ow. 2016. "Residential Toilets." US EPA, October 14. [https://www.epa.gov/watersense/residential-toilets][ref_epa_watersense_toilets]
+- Us Epa, Ow. 2017. "Product Specifications." US EPA, January 16. [https://www.epa.gov/watersense/product-specifications][ref_epa_watersense_specs]
+- "Vitruvius De Architectura." n.d. Accessed October 25, 2026. [https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/home.html][ref_vitruvius_architecture]
+- Wen, Hao. 2024. "Tokyo Sanitization: Wim Wenders’ Perfect Days and the Discourse of Public Cleanliness in Japan." *Mediapolis: A Journal of Cities and Culture* 9. [https://www.mediapolisjournal.com/2024/04/tokyo-sanitization/][research_haowen_mediapolis]
 
-- [Aiello and colleagues 2008 Effect of Hand Hygiene on Infectious Disease Risk in the Community Setting][research_aiello_2008]
-- [Anthony and Dufresne 2007 Potty Parity in Perspective][research_anthony_dufresne_2007]
-- [Barber and Scarcelli 2009 Clean Restrooms How Important Are They][research_barber_2009]
-- [Curtis and Cairncross 2003 Effect of Washing Hands with Soap on Diarrhoea Risk][research_curtis_cairncross_2003]
-- [Freeman and colleagues 2014 Hygiene and Health Systematic Review of Handwashing Practices Worldwide][research_freeman_2014]
-- [Larson 1995 APIC Guideline for Handwashing and Hand Antisepsis][research_larson_1995]
-- [Barker and Jones 2005 Aerosol Contamination of Surfaces After Flushing a Domestic Toilet][research_barker_jones_2005]
-- [Best and Redway 2014 Comparison of Hand-Drying Methods and Airborne Microbe Dispersal][research_best_redway_2014]
-- [Best Sandoe and Wilcox 2012 Potential for Aerosolization of Clostridium difficile after Flushing Toilets, the Role of Toilet Lids][research_best_wilcox_2012]
-- [Huesca-Espitia and colleagues 2018 Deposition of Bacteria by Bathroom Hot-Air Hand Dryers][research_huesca_espitia_2018]
-- [Kimmitt and Redway 2016 Virus Dispersal During Hand Drying][research_kimmitt_redway_2016]
-- [Park and colleagues 2020 A Mountable Toilet System for Personalized Health Monitoring][research_park_2020_smart_toilet]
-- [Scobie 1986 Slums Sanitation and Mortality in the Roman World][research_scobie_1986]
-- [Barber and Scarcelli 2010 Cleanliness Measurement Scale][research_barber_2010]
-- [Beyond Potty Parity Public Toilets Gendered Time Costs][research_beyond_potty_parity]
-- [Bitner 1992 Servicescapes The Impact of Physical Surroundings][research_bitner]
-- [Crimaldi and colleagues 2022 Commercial Toilets Emit Energetic Aerosol Plumes][research_crimaldi_2022_plume]
-- [Do Women Spend More Time in the Restroom than Men][research_do_women_spend_more]
-- [Erlang 1917 Solution of Some Problems in the Theory of Probabilities][research_erlang_1917]
-- [Farajollahzadeh and Hu Potty Parity][research_farajollahzadeh_hu_potty]
-- [Farajollahzadeh Hu and Roshanaei 2025 Potty Parity Stadium Restroom Design][research_farajollahzadeh_stadium]
-- [Lewkowitz and Gilliland 2025 A Feminist Critical Analysis of Public Toilets and Gender][research_feminist_critical]
-- [Gerba Wallis and Melnick 1975 Microbiological Hazards of Household Toilets][research_gerba_1975_plume]
-- [Hao Wen 2024 Tokyo Sanitization Wim Wenders Perfect Days][research_haowen_mediapolis]
-- [Huh and colleagues 2019 The Potty Parity Problem][research_huh_2019_potty]
-- [Johnson and colleagues 2013 Lifting the Lid on Toilet Plume Aerosol][research_johnson_2013_plume]
-- [Kim and Bachman 2019 Restaurant Restroom Cleanliness Satisfaction and Intent to Return][research_kim_bachman_2019]
-- [Kogan 2007 Sex Separation in Public Restrooms Law Architecture and Gender][research_kogan_sex_separation]
-- [Kogan 2017 Public Restrooms and the Distorting of Transgender Identity][research_kogan_transgender]
-- [Little 1961 A Proof for the Queuing Formula L Equals Lambda W][research_little_1961]
-- [Mari and Poggesi 2013 Servicescape Cues and Customer Behavior][research_mari_poggesi]
-- [Mitchell 2017 Human Parasites in the Roman World][research_mitchell_parasites]
-- [Nicas and Best 2008 A Study Quantifying the Hand-to-Face Contact Rate][research_nicas_best_2008]
-- [Rawls 1988 Restroom Usage in Selected Public Buildings and Facilities][research_rawls_1988]
-- [Spangenberg Crowley and Henderson 1996 Improving the Store Environment Olfactory Cues][research_spangenberg]
-- [Sydnor and colleagues 2012 Electronic-Eye Faucets Legionella Species Contamination][research_sydnor_2012_faucet]
-- [Szczygiel 2016 From Night Soil to Washlet The Material Culture of Japanese Toilets][research_szczygiel_ejcjs]
-- [Vilnai-Yavetz and Gilboa 2010 The Effect of Servicescape Cleanliness on Customer Reactions][research_vilnai_yavetz_2010]
-- [A World of Unmentionable Suffering Women's Public Conveniences in Victorian London][research_unmentionable_suffering]
-- [Bryn Mawr Classical Review of Roman Toilets][research_bmcr_roman_toilets]
-- [Hopkins 2007 The Cloaca Maxima and the Monumental Manipulation of Water in Archaic Rome][research_hopkins_cloaca]
-- [Menstrual Products in Schools A Scan of Fifty States and the District of Columbia][research_menstrual_legal_landscape]
-- [Mitchell 2017 Human Parasites in the Roman World Cambridge Repository][research_mitchell_cam]
-- [Review of The Archaeology of Sanitation in Roman Italy in Isis][research_ostrow_isis]
-- [Szczygiel Cultural Origins of Japan's Premodern Night Soil Collection System][research_szczygiel_nightsoil]
-- [Taştan and Soylu 2023 The Impact of Perceived Cleanliness][research_tastan_soylu_2023]
+### Secondary Sources
+
+- Aly and Sontheimer. 2007. *Fromms How Julius Fromm's Condom Empire Fell to the Nazis*. [https://openlibrary.org/works/OL756171W][book_aly_fromms]
+- Anthony, Kathryn H., and Eric Schmidt. 2017. *Defined by Design: The Surprising Power of Hidden Gender, Age, and Body Bias in Everyday Products and Places*. Globe Pequot Press, The. [https://openlibrary.org/works/OL21139633W][book_anthony_defined]
+- *Beranek Acoustics*. n.d. [https://openlibrary.org/search?q=Beranek+Acoustics][book_beranek_acoustics]
+- Bryson. 2010. *At Home A Short History of Private Life*. [https://archive.org/details/athomeshorthisto0000brys][book_bryson_at_home]
+- Carter, W. Hodding. 2006. *Flushed: How the Plumber Saved Civilization*. Simon & Schuster, Limited. [https://www.simonandschuster.com/books/Flushed/W-Hodding-Carter/9780743474092][book_carter_flushed]
+- Cavanagh, Sheila L. 2010. *Queering Bathrooms: Gender, Sexuality, and the Hygienic Imagination*. University of Toronto Press. [https://openlibrary.org/works/OL26466983W][book_cavanagh_queering]
+- Cockayne. 2007. *Hubbub Filth Noise and Stench in England*. [https://openlibrary.org/search?q=Hubbub+Filth+Noise+Stench+Cockayne][book_cockayne_hubbub]
+- Collier, Aine. 2007. *The Humble Little Condom: A History*. Prometheus Books. [https://openlibrary.org/works/OL9913348W][book_collier_condom]
+- Corbin. 1986. *The Foul and the Fragrant Odor and the French Social Imagination*. [https://openlibrary.org/search?q=The+Foul+and+the+Fragrant+Corbin][book_corbin_foul_fragrant]
+- Davis, Alexander K. 2020. *Bathroom Battlegrounds: How Public Restrooms Shape the Gender Order*. University of California Press. [https://doi.org/10.1525/9780520971660][book_davis_battlegrounds]
+- Eveleigh. 2006. *Bogs Baths and Basins The Story of Domestic Sanitation*. [https://archive.org/details/bogsbathsbasinss0000evel][book_eveleigh_bogs]
+- Eveleigh, David J. 2008. *Privies and Water Closets*. Shire. [https://www.waterstones.com/book/privies-and-water-closets/david-eveleigh/9780747807025][book_eveleigh_privies]
+- Fanger, P. O. 1970. *Thermal Comfort: Analysis and Applications in Environmental Engineering*. Danish Technical Press. [https://archive.org/details/thermalcomfortan0000fang][book_fanger_1970_thermal_comfort]
+- George, Rose. 2008. *The Big Necessity: Adventures in the World of Human Waste*. Portobello Books. [https://us.macmillan.com/books/9781250058300/thebignecessity/][book_george_big_necessity]
+- Gershenson and Penner. 2009. *Ladies and Gents Public Toilets and Gender*. [https://tupress.temple.edu/books/ladies-and-gents][book_gershenson_ladies_gents]
+- Greed, Clara. 2003. *Inclusive Urban Design: Public Toilets*. Architectural Press. [https://openlibrary.org/works/OL3953277W][book_greed_inclusive]
+- Gregory, Morna E., and Sian James. 2006. *Toilets of the World*. Merrell. [https://openlibrary.org/works/OL24733981W][book_gregory_toilets_world]
+- Gross, Donald, and Harris. 1998. *Fundamentals of Queueing Theory*. Wiley. [https://books.google.com/books/about/Fundamentals\_of\_Queueing\_Theory.html?id=K3lQGeCtAJgC][book_gross_harris_1998_queueing]
+- Haas, Charles N., Joan B. Rose, and Charles P. Gerba. 2014. *Quantitative Microbial Risk Assessment*. Wiley. [https://doi.org/10.1002/9781118910030][book_haas_2014_qmra]
+- Halliday, Stephen. 1999. *The Great Stink of London: Sir Joseph Bazalgette and the Cleansing of the Victorian Capital*. Sutton. [https://thehistorypress.co.uk/publication/the-great-stink-of-london/][book_halliday_great_stink]
+- Harington, Sir John. 1596. *A New Discourse of a Stale Subject, Called the Metamorphosis of Ajax*. Imprinted by Richard Field \[and Eliot's Court Press\], dwelling in the Black-friers. [https://www.exclassics.com/ajax/ajaxintr.htm][book_harington_ajax]
+- *Harris Handbook of Acoustical Measurements and Noise Control*. n.d. [https://openlibrary.org/search?q=Handbook+of+Acoustical+Measurements+and+Noise+Control+Harris][book_harris_acoustical_handbook]
+- Hart-Davis, Adam. 1997. *Thunder, Flush, and Thomas Crapper: An Encycloopedia \[Sic\]*. Trafalgar Square Pub. [https://archive.org/details/thunderflushthom0000hart][book_hart_davis]
+- Hinds, William C. 1999. *Aerosol Technology: Properties, Behavior, and Measurement of Airborne Particles*. Wiley. [https://www.wiley.com/en-us/Aerosol+Technology%3A+Properties%2C+Behavior%2C+and+Measurement+of+Airborne+Particles%2C+3rd+Edition-p-9781119494041][book_hinds_1999_aerosol]
+- Hobson, Barry. 2009. *Latrinae Et Foricae: Toilets in the Roman World*. Bristol Classical Press. [https://openlibrary.org/works/OL19385950W][book_hobson_latrinae]
+- *Hodge Roman Aqueducts and Water Supply*. n.d. [https://archive.org/details/romanaqueductswa0000hodg][book_hodge_aqueducts]
+- Horan, Julie L. 1996. *The Porcelain God: A Social History of the Toilet*. Robson Books. [https://openlibrary.org/works/OL2982700W][book_horan_porcelain_god]
+- Inglis, David. 2001. *A Sociological History of Excretory Experience: Defecatory Manners and Toiletry Technologies (Mellen Studies in Sociology, V. 30)*. Edwin Mellen Press. [https://openlibrary.org/works/OL2495748W][book_inglis_excretory]
+- Jackson. 2014. *Dirty Old London The Victorian Fight Against Filth*. [https://openlibrary.org/search?q=Dirty+Old+London+Lee+Jackson][book_jackson_dirty_old_london]
+- Jansen, Koloski-Ostrow, and Moormann. 2011. *Roman Toilets Their Archaeology and Cultural History*. [https://shs.hal.science/halshs-02288198][book_jansen_roman_toilets]
+- Kira, Alexander. 1966. *The Bathroom: Criteria for Design*. Cornell University, Center for Housing and Environmental studies. [https://openlibrary.org/works/OL6912148W][book_kira]
+- Kleinrock, Leonard. 1975. *Queueing Systems*. Wiley. [https://www.wiley.com/en-us/Queueing+Systems%2C+Volume+1%3A+Theory-p-9780471491101][book_kleinrock_1975_queueing]
+- Koloski-Ostrow, Ann Olga. 2015. *The Archaeology of Sanitation in Roman Italy: Toilets, Sewers, and Water Systems*. The University of North Carolina Press. [https://archive.org/details/archaeologyofsan0000kolo][book_koloski_ostrow]
+- Lambton, Lucinda. 1995. *Temples of Convenience and Chambers of Delight*. St. Martin's Press. [https://archive.org/details/templesofconveni0000lamb][book_lambton_temples]
+- Laporte, Dominique. 2000. *History of Shit*. The MIT Press. [https://openlibrary.org/works/OL4689001W][book_laporte_history_shit]
+- Linder, Marc., and Nygaard. 1998. *Void Where Prohibited: Rest Breaks and the Right to Urinate on Company Time*. ILR Press. [https://openlibrary.org/works/OL2003849W][book_linder_void]
+- Long, Marshall. 2006. *Architectural Acoustics*. Elsevier/Academic Press. [https://books.google.com/books/about/Architectural\_Acoustics.html?id=MnYUfErtBGEC][book_long_2006_architectural_acoustics]
+- Lowe. 2018. *No Place to Go How Public Toilets Fail Our Private Needs*. [https://chbooks.com/Books/N/No-Place-to-Go][book_lowe_no_place]
+- Melosi, Martin V. 2000. *The Sanitary City: Urban Infrastructure in America from Colonial Times to the Present*. Johns Hopkins University Press. [https://openlibrary.org/works/OL4788831W][book_melosi_sanitary_city]
+- Molotch, Harvey, and Norén. 2010. *Toilet: Public Restrooms and the Politics of Sharing*. New York University Press. [https://nyupress.org/9780814795880/toilet/][book_molotch_toilet]
+- Ogle. 1996. *All the Modern Conveniences American Household Plumbing*. [https://books.google.com/books/about/All\_the\_Modern\_Conveniences.html?id=lXrbAAAAMAAJ][book_ogle_modern_conveniences]
+- Okano and Nagare. 2023. *The Tokyo Toilet*. [https://moom.com.tw/en/item/the-tokyo-toilet][book_okano_tokyotoilet]
+- Penner, Barbara. 2013. *Bathroom*. Reaktion Books, Limited. [https://reaktionbooks.co.uk/work/bathroom][book_penner_bathroom]
+- Rappaport, Erika Diane. 2000. *Shopping for Pleasure: Women in the Making of London's West End*. Princeton University Press. [https://openlibrary.org/works/OL11594739W][book_rappaport_shopping]
+- Reid, Donald. 1991. *Paris Sewers and Sewermen: Realities and Representations*. Harvard University Press. [https://openlibrary.org/works/OL4472336W][book_reid_paris_sewers]
+- Reyburn. 1969. *Flushed with Pride The Story of Thomas Crapper*. [https://archive.org/details/flushedwithpride0000reyb\_r5x1][book_reyburn_flushed]
+- Sabine, Wallace Clement. 1922. *Collected Papers on Acoustics*. Harvard University Press. [https://archive.org/details/collectedpaperso00sabi][book_sabine_1922_acoustics]
+- Shortle, Thompson, Donald Gross, and Harris. 2018. *Fundamentals of Queueing Theory*. Wiley & Sons, Incorporated, John. [https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory,+5th+Edition-p-9781118943526][book_shortle_2018_queueing]
+- Smith. 2007. *Clean A History of Personal Hygiene and Purity*. [https://openlibrary.org/works/OL16070814W][book_smith_clean]
+- Wright, Lawrence. 1960. *Clean and Decent: The Fascinating History of the Bathroom & the Water Closet and of Sundry Habits, Fashions & Accessories of the Toilet Principally in Great Britain, France, & America*. Routledge and Kegan Paul. [https://archive.org/details/cleandecentfasci0000wrig][book_wright_clean_decent]
+
+### Commercial Sources
+
+- "10 Little-Known Facts about WASHLET Bidet Seats." n.d. TOTO USA. Accessed October 25, 2026. [https://www.totousa.com/blog/10-little-known-facts-about-washlet-bidet-seats][ref_toto_10facts]
+- "Global Sales of TOTO's Popular WASHLET® Line Exceed 50 Million." 2019., October 22. [https://www.prnewswire.com/news-releases/global-sales-of-totos-popular-washlet-line-exceed-50-million-300942706.html][ref_prnewswire_50m]
+- "Neorest 750H." n.d. TOTO USA. Accessed October 25, 2026. [https://www.totousa.com/neorest-750h][ref_neorest_750h]
+- "TOTO's Popular WASHLET® Line Exceeds 60 Million Units Sold Worldwide." 2022., December 20. [https://www.prnewswire.com/news-releases/totos-popular-washlet-line-exceeds-60-million-units-sold-worldwide-301706757.html][ref_prnewswire_60m]
+- "Toto’s Declaration of Innovation: The Little-Known History of WASHLET® Bidet Seats’ Development." n.d. TOTO USA. Accessed October 25, 2026. [https://www.totousa.com/blog/toto-s-declaration-of-innovation-br-the-little-known-history-of-washlet-bidet-seats-development][ref_toto_history]
+- "WASHLET® Celebrates Its 40th Anniversary." n.d. TOTO USA. Accessed October 25, 2026. [https://www.totousa.com/press/washlet-40-anniversary][ref_toto_40th]
+
+### General Sources
+
+- "About Us – British Toilet Association." n.d. Accessed October 25, 2026. [http://www.btaloos.co.uk/?page\_id=7][ref_bta_about]
+- "About－about the Spray Seat \| TOILET NAVIGATION \| Japan Sanitary Equipment Industry Association." n.d. Accessed October 25, 2026. [https://www.sanitary-net.com/global/about/spray-seat.html][ref_sanitary_net]
+- ADA. 2010. "2010 ADA Standards for Accessible Design." ADA.gov. Accessed October 25, 2026. [https://www.ada.gov/law-and-regs/design-standards/2010-stds/][ref_ada_2010_standards]
+- "Alexander Cummings: The Scottish Pioneer of the Flush Toilet." n.d. History Hit. Accessed October 25, 2026. [https://www.historyhit.com/alexander-cummings-the-scottish-pioneer-of-the-flush-toilet/][ref_historyhit_cumming]
+- "All 17 THE TOKYO TOILET Project Toilets Completed." n.d. *The Nippon Foundation*. Accessed October 25, 2026. [https://en.nippon-foundation.or.jp/news/articles/2023/20230623-91309.html][ref_nippon_17complete]
+- "American Bathroom Stalls vs. European: Which Is Better." 2022. *One Point Partitions*, November 30. [https://onepointpartitions.com/blog/2022/11/30/american-bathroom-stalls-vs-european/][ref_onepoint_stalls]
+- "American Restroom Association." n.d. Accessed October 25, 2026. [https://americanrestroom.org/][ref_american_restroom_assoc]
+- "ANSI and Acoustical Society of America S3.5 Speech Intelligibility Index." n.d. Accessed October 25, 2026. [https://webstore.ansi.org/standards/asa/ansiasas31997r2020][ref_ansi_asa_s35_sii]
+- "ASHRAE Standard 62.1 Ventilation for Acceptable Indoor Air Quality." n.d. Accessed October 25, 2026. [https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2][ref_ashrae_62_1]
+- "ASME A112.19.2 Ceramic Plumbing Fixtures." n.d. Accessed October 25, 2026. [https://www.asme.org/codes-standards/find-codes-standards/a112-19-2-csa-b45-1-ceramic-plumbing-fixtures][ref_asme_a112_19_2]
+- "AT200LS Dual Flush Elongated SpaLet Bidet Toilet." n.d. Accessed October 25, 2026. [https://www.dxv.com/electronic-bidet-toilets/at200ls-dual-flush-elongated-spalet-bidet-toilet/canvas-white-d29030cs416415][ref_dxv_at200]
+- Barrientos, Janet. 2022. "States Address Period Poverty with Free Menstrual Products in Schools." *Education Commission of the States*, June 13. [https://www.ecs.org/states-address-period-poverty-with-free-menstrual-products-in-schools/][ref_ecs_period]
+- "Beyond Potty Parity Public Toilets Gendered Time Costs." n.d. Accessed October 25, 2026. [https://www.mdpi.com/2075-471X/15/3/55][research_beyond_potty_parity]
+- "Bryn Mawr Classical Review of Roman Toilets." n.d. Accessed October 25, 2026. [https://bmcr.brynmawr.edu/2012/2012.03.34/][research_bmcr_roman_toilets]
+- "Cintas America's Best Restroom Hall of Fame." n.d. Accessed October 25, 2026. [https://www.bestrestroom.com/hall-of-fame/][ref_bestrestroom_hof]
+- Cintas Crowns. 2024. "Adventure’s First Stop 2024 America’s Best Restroom® Contest Winner." *Default*. Accessed October 25, 2026. [https://www.cintas.com/newsroom/details/news/2024/10/15/cintas-crowns-maverik-adventure-s-first-stop-2024-america-s-best-restroom-contest-winner/][ref_cintas_2024]
+- "CNBC Kohler Numi 2.0 with Amazon Alexa." n.d. Accessed October 25, 2026. [https://www.cnbc.com/2019/01/08/kohlers-7000-numi-2point0-toilet-with-amazon-alexa-built-in.html][ref_numi2_cnbc]
+- "Department Store Restaurants: Marshall Field’s." 2008. *Restaurant-ing through history*, December 11. [https://restaurant-ingthroughhistory.com/2008/12/11/department-store-restaurants-marshall-fields/][ref_marshall_fields_tearoom]
+- "Dezeen Shigeru Ban Transparent Tokyo Toilets." n.d. Accessed October 25, 2026. [https://www.dezeen.com/2020/08/17/shigeru-ban-transparent-toyko-toilet-shibuya/][ref_dezeen_transparent]
+- Dimoldenberg, Amelia. 2016. "How the Nazis Annihilated a Jewish Businessman's Condom Empire." *VICE*, February 13. [https://www.vice.com/en/article/inventor-condom-vending-machine-julius-fromm/][ref_vice_fromm]
+- "Duravit SensoWash Starck f AZ Award." n.d. Accessed October 25, 2026. [https://www.v2com-newswire.com/en/newsroom/press-kits/5661-01/duravit-sensowash-starck-f-shower-toilet-wins-2021-az-award-for-architectural-product-design][ref_sensowash_azaward]
+- "Environmental News Network The Sound Princess." n.d. Accessed October 25, 2026. [https://www.enn.com/articles/150-the-sound-princess--gadget-helps-bathroom-bashful-japanese-women][ref_sound_princess_enn]
+- Erlang. 1917. "Solution of Some Problems in the Theory of Probabilities." [https://mathshistory.st-andrews.ac.uk/Biographies/Erlang/][research_erlang_1917]
+- Eschner, Kat. n.d. "Three True Things about Sanitary Engineer Thomas Crapper." *Smithsonian Magazine*. Accessed October 25, 2026. [https://www.smithsonianmag.com/smart-news/three-true-things-about-sanitary-engineer-thomas-crapper-180965008/][ref_smithsonian_crapper]
+- "Farajollahzadeh and Hu Potty Parity." n.d. Accessed October 25, 2026. [https://pubsonline.informs.org/doi/10.1287/mnsc.2021.04075][research_farajollahzadeh_hu_potty]
+- "A Flushing Story." n.d. *Science Museum Blog*. Accessed October 25, 2026. [https://blog.sciencemuseum.org.uk/a-flushing-story/][ref_science_museum_flushing]
+- "Free Period Product Scheme for Schools and Colleges Extended." n.d. *GOV.UK*. Accessed October 25, 2026. [https://www.gov.uk/government/news/free-period-product-scheme-for-schools-and-colleges-extended][ref_gov_uk_period]
+- "The Great Stink of 1858." 1858. London Museum. Accessed October 25, 2026. [https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/][ref_london_museum_stink]
+- "High-Tech Toilets Become Standard Household Equipment in Japan." 2018. *nippon.com*, May 1. [https://www.nippon.com/en/features/h00185/high-tech-toilets-become-standard-household-equipment-in-japan.html][ref_nippon_hightech]
+- "Historic England Spending a Penny Collection." n.d. Accessed October 25, 2026. [https://historicengland.org.uk/images-books/archive/collections/photographs/spending-a-penny/][ref_historic_england_penny]
+- "History Hit How the Ancient Romans Went to the Toilet." n.d. Accessed October 25, 2026. [https://www.historyhit.com/how-the-ancient-romans-went-to-the-toilet/][ref_historyhit_roman]
+- "The History of Women's Public Toilets in Britain." n.d. *Historic UK*. Accessed October 25, 2026. [https://www.historic-uk.com/CultureUK/History-of-Womens-Public-Toilets-in-Britain/][ref_historic_uk_womens]
+- Hopkins. 2007. "The Cloaca Maxima and the Monumental Manipulation of Water in Archaic Rome." [https://www.researchgate.net/publication/265225213\_The\_Cloaca\_Maxima\_and\_the\_monumental\_manipulation\_of\_water\_in\_archaic\_Rome][research_hopkins_cloaca]
+- "Innovations in Toilet Design: Collection Highlights." n.d. The National Archives. Accessed October 25, 2026. [https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-topic/business-finance-and-innovation/toilet-design/][ref_national_archives_toilet]
+- "International Plumbing Code Chapter 10 Traps." n.d. Accessed October 25, 2026. [https://codes.iccsafe.org/content/IPC2018/chapter-10-traps-interceptors-and-separators][ref_ipc_traps_1002]
+- "International Plumbing Code Section 403.1 Minimum Plumbing Fixtures." n.d. Accessed October 25, 2026. [https://codes.iccsafe.org/s/IPC2021P1/chapter-4-fixtures-faucets-and-fixture-fittings/IPC2021P1-Ch04-Sec403.1][ref_ipc_fixture_403]
+- "International Plumbing Code: Providing Options for Designers of Modern Public Restrooms." n.d. *ICC*. Accessed October 25, 2026. [https://www.iccsafe.org/building-safety-journal/bsj-technical/international-plumbing-code-providing-options-for-designers-of-modern-public-restrooms/][ref_icc_ipc]
+- "John Banzhaf Potty Parity." n.d. Accessed October 25, 2026. [http://banzhaf.net/pottyparity.html][ref_banzhaf_potty]
+- Kogan. 2007. "Sex Separation in Public Restrooms Law Architecture and Gender." [https://www.researchgate.net/publication/303874037\_SEX\_SEPARATION\_IN\_PUBLIC\_RESTROOMS\_LAW\_ARCHITECTURE\_AND\_GENDER][research_kogan_sex_separation]
+- Kogan. 2017. "Public Restrooms and the Distorting of Transgender Identity." [https://dc.law.utah.edu/scholarship/32/][research_kogan_transgender]
+- "Kohler's Numi Toilet Features Bluetooth, SD Card, and \$6,650 Price Tag." 2013. *New Atlas*, April 24. [https://newatlas.com/kohler-numi-toilet/27223/][ref_numi_newatlas]
+- "Loo of the Year Awards." n.d. Accessed October 25, 2026. [https://www.loo.co.uk/][ref_loty_official]
+- Marta E. Szczygiel, Osaka University. 2016. "From Night Soil to Washlet." electronic journal of contemporary japanese studies. [https://www.japanesestudies.org.uk/ejcjs/vol16/iss3/szczygiel.html][research_szczygiel_ejcjs]
+- "Menstrual Products in Schools A Scan of Fifty States and the District of Columbia." n.d. Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S1353829225001753][research_menstrual_legal_landscape]
+- Mitchell, Pd. 2017. "Human Parasites in the Roman World: Health Consequences of Conquering an Empire." Cambridge University Press, September. [https://www.repository.cam.ac.uk/handle/1810/267257][research_mitchell_cam]
+- "Nippon.com The TOTO Museum and Japan's Toilet Culture." n.d. Accessed October 25, 2026. [https://www.nippon.com/en/guide-to-japan/gu900284/][ref_nippon_toto_museum]
+- "Nippon.com Wim Wenders and Perfect Days." n.d. Accessed October 25, 2026. [https://www.nippon.com/en/japan-topics/c030250/][ref_nippon_perfectdays]
+- "NPR Otohime Sound Device." n.d. Accessed October 25, 2026. [https://www.npr.org/transcripts/526005547][ref_npr_otohime]
+- "Perfect Days." n.d. The Criterion Collection. Accessed October 25, 2026. [https://www.criterion.com/films/34274-perfect-days][ref_criterion_perfectdays]
+- Rawls, Sandra K. 1988. "Restroom Usage in Selected Public Buildings and Facilities: A Comparison of Females and Males." Virginia Polytechnic Institute and State University. [https://vtechworks.lib.vt.edu/items/0ab3b38f-6b97-48f9-b772-3926f8950f9e][research_rawls_1988]
+- "Red Dot Award Neorest NX." n.d. Accessed October 25, 2026. [https://www.red-dot.org/project/neorest-nx-22704-22703][ref_neorest_nx_reddot]
+- "Review of The Archaeology of Sanitation in Roman Italy in Isis." n.d. Accessed October 25, 2026. [https://www.journals.uchicago.edu/doi/10.1086/707660][research_ostrow_isis]
+- "Roman Toilets Gave No Clear Health Benefit, and Romanisation Actually Spread Parasites." 2016. *University of Cambridge*, January 8. [https://www.cam.ac.uk/research/news/roman-toilets-gave-no-clear-health-benefit-and-romanisation-actually-spread-parasites][ref_cambridge_roman_parasites]
+- "Royal Collection Trust The Metamorphosis of Ajax." n.d. Accessed October 25, 2026. [https://www.rct.uk/collection/1121134/a-new-discourse-of-a-stale-subject-called-the-metamorphosis-of-ajax][ref_rct_harington]
+- "ScentAir What Is Scent Marketing." n.d. Accessed October 25, 2026. [https://scentair.com/newscenter/what-scent-marketing-simple-definition/][ref_scentair]
+- "Selfridges: The Store That Shook up London Shopping." n.d. London Museum. Accessed October 25, 2026. [https://www.londonmuseum.org.uk/collections/london-stories/selfridges-store-shook-up-london-shopping/][ref_selfridges_london_museum]
+- "SensoWash® Starck f Shower Toilet." n.d. DURAVIT. Accessed October 25, 2026. [https://www.duravit.com/en-us/products/all-series/sensowash-r-starck-f/][ref_sensowash_duravit]
+- "Sir Joseph Bazalgette: Pioneer of Modern Sewage Systems." n.d. *Institution of Civil Engineers (ICE)*. Accessed October 25, 2026. [https://www.ice.org.uk/what-is-civil-engineering/meet-the-engineers/sir-joseph-bazalgette][ref_ice_bazalgette]
+- "Sketch Is 20: A Design History of London’s Ultimate Entertaining Destination." 2022. *Wallpaper\**, December 14. [https://www.wallpaper.com/design-interiors/sketch-london-design-history][ref_sketch_wallpaper]
+- "Smithsonian How the Ancient Romans Went to the Bathroom." n.d. Accessed October 25, 2026. [https://www.smithsonianmag.com/history/how-the-ancient-romans-went-to-the-bathroom-180979056/][ref_smithsonian_roman]
+- "Smithsonian National Museum of American History Modess Dispenser." n.d. Accessed October 25, 2026. [https://americanhistory.si.edu/collections/object/nmah\_688117][ref_smithsonian_modess]
+- "Sound Princess Eliminates Toilet Noises." n.d. *IOL*. Accessed October 25, 2026. [https://iol.co.za/news/eish/2004-10-04-sound-princess-eliminates-toilet-noises/][ref_sound_princess_iol]
+- "SpaLet Bidet Toilets & Toilet Seats." n.d. Accessed October 25, 2026. [https://www.americanstandard-us.com/pages/spalet-bidet-toilets-toilet-seats][ref_spalet_americanstandard]
+- "Standard 55 – Thermal Environmental Conditions for Human Occupancy." n.d. Accessed October 25, 2026. [https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy][ref_ashrae_55]
+- "Standard Test Method for Measurement and Reporting of Masking Sound Levels Using a-Weighted and One-Third-Octave-Band Sound Pressure Levels." n.d.-a. Accessed October 25, 2026. [https://www.astm.org/e1573-22.html][ref_astm_e1573]
+- "Standard Test Method for Objective Measurement of Speech Privacy in Open Plan Spaces Using Articulation Index." n.d.-b. Accessed October 25, 2026. [https://www.astm.org/e1130-16r21.html][ref_astm_e1130]
+- "The Story of London’s Sewer System – the Historic England Blog." n.d. Accessed October 25, 2026. [https://heritagecalling.com/2019/03/28/the-story-of-londons-sewer-system/][ref_heritage_london_sewers]
+- "Szczygiel Cultural Origins of Japan's Premodern Night Soil Collection System." n.d. Accessed October 25, 2026. [https://www.whp-journals.co.uk/WW/article/download/1044/592/5447][research_szczygiel_nightsoil]
+- "Toilet Types \| MaP Toilet Testing." n.d. *MaP Testing*. Accessed October 25, 2026. [https://map-testing.com/toilet-types/][ref_map_testing]
+- "The Tokyo Toilet." n.d. *The Nippon Foundation*. Accessed October 25, 2026. [https://en.nippon-foundation.or.jp/what/projects/communities/thetokyotoilet][ref_nippon_tokyotoilet]
+- "TOTO Washlet Shipments Pass 70 Million Units." n.d. Accessed October 25, 2026. [https://asia.toto.com/company-news/cumulative-washlet-shipments-have-now-passed-70-million-units/][ref_toto_70million]
+- "Uniform Plumbing Code (UPC)." n.d. IAPMO.org. Accessed October 25, 2026. [https://iapmo.org/codes-standards-development/code-development/uniform-plumbing-code][ref_upc_fixtures]
+- "United Nations General Assembly Resolution 67/291 Sanitation for All." n.d.-a. Accessed October 25, 2026. [https://docs.un.org/en/A/RES/67/291][ref_un_res_67_291]
+- "United Nations General Assembly Resolution 67/291 World Toilet Day." n.d.-b. Accessed October 25, 2026. [https://press.un.org/en/2013/ga11397.doc.htm][ref_un_ga11397]
+- "Web Japan TOTO Otohime." n.d. Accessed October 25, 2026. [https://web-japan.org/kidsweb/hitech/toilet/toilet04.html][ref_webjapan_otohime]
+- "WHO Guidelines on Hand Hygiene in Health Care." n.d. Accessed October 25, 2026. [https://www.who.int/publications/i/item/9789241597906][ref_who_hand_hygiene]
+- "World Health Organization and UNICEF Joint Monitoring Programme for Water Supply Sanitation and Hygiene." n.d. Accessed October 25, 2026. [https://washdata.org/][ref_who_unicef_jmp]
+- "World Health Organization Sanitation Fact Sheet." n.d. Accessed October 25, 2026. [https://www.who.int/news-room/fact-sheets/detail/sanitation][ref_who_sanitation]
+- "A World of Unmentionable Suffering Women's Public Conveniences in Victorian London." n.d. Accessed October 25, 2026. [https://www.researchgate.net/publication/40804931\_A\_World\_of\_Unmentionable\_Suffering\_Women's\_Public\_Conveniences\_in\_Victorian\_London][research_unmentionable_suffering]
+- "World Toilet Day." n.d. *United Nations*. Accessed October 25, 2026. [https://www.un.org/en/observances/toilet-day][ref_un_toilet_day]
+- "World Toilet Organization About Us." n.d. Accessed October 25, 2026. [https://worldtoilet.org/web-agency-gb-about-us/][ref_wto_about]
+
+### Tertiary Sources
+
+- "American Standard Companies." 2026. Wikipedia. Last modified June 24, at 11:20 (UTC). [https://en.wikipedia.org/w/index.php?title=American\_Standard\_Companies&oldid=1360904570][ref_amstd_wiki]
+- Cartwright, Mark. 2018. "Toilets in a Medieval Castle." *World History Encyclopedia*. [https://www.worldhistory.org/article/1239/toilets-in-a-medieval-castle/][ref_worldhistory_medieval]
+- "Cloaca Maxima." 2026. Wikipedia. Last modified July 23, at 02:59 (UTC). [https://en.wikipedia.org/w/index.php?title=Cloaca\_Maxima&oldid=1365547435][ref_cloaca_maxima_wiki]
+- "Condom Machine." 2026. Wikipedia. Last modified May 10, at 12:03 (UTC). [https://en.wikipedia.org/w/index.php?title=Condom\_machine&oldid=1353459332][ref_condom_machine_wiki]
+- "Flush Toilets at the Great Exhibition." 2026. Wikipedia. Last modified July 6, at 21:18 (UTC). [https://en.wikipedia.org/w/index.php?title=Flush\_toilets\_at\_the\_Great\_Exhibition&oldid=1362890776][ref_great_exhibition_toilets]
+- "George Jennings." 2026. Wikipedia. Last modified February 21, at 21:32 (UTC). [https://en.wikipedia.org/w/index.php?title=George\_Jennings&oldid=1339688452][ref_jennings_wiki]
+- "In Praise of Shadows." 2026. Wikipedia. Last modified July 11, at 10:15 (UTC). [https://en.wikipedia.org/w/index.php?title=In\_Praise\_of\_Shadows&oldid=1363627988][book_tanizaki_shadows]
+- "Julius Fromm." 2026. Wikipedia. Last modified May 10, at 12:05 (UTC). [https://en.wikipedia.org/w/index.php?title=Julius\_Fromm&oldid=1353459490][ref_fromm_wiki]
+- "Kohler Co." 2026. Wikipedia. Last modified June 26, at 18:13 (UTC). [https://en.wikipedia.org/w/index.php?title=Kohler\_Co.&oldid=1361251714][ref_kohler_wiki]
+- "Loo of the Year Awards." 2026. Wikipedia. Last modified June 20, at 20:05 (UTC). [https://en.wikipedia.org/w/index.php?title=Loo\_of\_the\_Year\_Awards&oldid=1360328506][ref_loty_wiki]
+- "Marshall Field's." 2026. Wikipedia. Last modified June 24, at 19:10 (UTC). [https://en.wikipedia.org/w/index.php?title=Marshall\_Field's&oldid=1360959653][ref_marshall_fields_wiki]
+- "Men without Women (Mural)." 2026. Wikipedia. Last modified June 26, at 22:19 (UTC). [https://en.wikipedia.org/w/index.php?title=Men\_Without\_Women\_(mural)&oldid=1361282511][ref_men_without_women_wiki]
+- "Perfect Days." 2026. Wikipedia. Last modified July 14, at 20:18 (UTC). [https://en.wikipedia.org/w/index.php?title=Perfect\_Days&oldid=1364148349][ref_perfectdays_wiki]
+- "Radio City Music Hall." 2026. Wikipedia. Last modified May 29, at 02:54 (UTC). [https://en.wikipedia.org/w/index.php?title=Radio\_City\_Music\_Hall&oldid=1356664344][ref_radio_city_wiki]
+- "Restroom Attendant." 2025. Wikipedia. Last modified September 13, at 05:16 (UTC). [https://en.wikipedia.org/w/index.php?title=Restroom\_attendant&oldid=1311066171][ref_attendant_wiki]
+- "Roca (Company)." 2026. Wikipedia. Last modified June 1, at 05:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Roca\_(company)&oldid=1357179089][ref_roca_wiki]
+- "Toilets in Japan." 2026. Wikipedia. Last modified June 26, at 08:09 (UTC). [https://en.wikipedia.org/w/index.php?title=Toilets\_in\_Japan&oldid=1361192954][ref_toilets_japan_wiki]
+- "The Tokyo Toilet." 2026. Wikipedia. Last modified January 6, at 16:10 (UTC). [https://en.wikipedia.org/w/index.php?title=The\_Tokyo\_Toilet&oldid=1331495076][ref_tokyotoilet_wiki]
+- "Toto Ltd." 2026. Wikipedia. Last modified June 16, at 02:35 (UTC). [https://en.wikipedia.org/w/index.php?title=Toto\_Ltd.&oldid=1359585252][ref_toto_wiki]
+- "Vending Machine." 2026. Wikipedia. Last modified July 19, at 15:44 (UTC). [https://en.wikipedia.org/w/index.php?title=Vending\_machine&oldid=1364970384][ref_vending_machine_wiki]
+- "Villeroy & Boch." 2026. Wikipedia. Last modified June 16, at 07:39 (UTC). [https://en.wikipedia.org/w/index.php?title=Villeroy\_%26\_Boch&oldid=1359621088][ref_vb_wiki]
+- "Washlet." 2026. Wikipedia. Last modified May 13, at 09:14 (UTC). [https://en.wikipedia.org/w/index.php?title=Washlet&oldid=1353943423][ref_washlet_wiki]
+- "World Toilet Organization." 2026. Wikipedia. Last modified June 2, at 21:40 (UTC). [https://en.wikipedia.org/w/index.php?title=World\_Toilet\_Organization&oldid=1357474769][ref_wto_wiki]
 
 [book_aly_fromms]: https://openlibrary.org/works/OL756171W
 [book_anthony_defined]: https://openlibrary.org/works/OL21139633W
@@ -817,59 +828,59 @@ The convergence question asks whether the elevation trajectories of elimination 
 [book_george_big_necessity]: https://us.macmillan.com/books/9781250058300/thebignecessity/
 [book_gershenson_ladies_gents]: https://tupress.temple.edu/books/ladies-and-gents
 [book_greed_inclusive]: https://openlibrary.org/works/OL3953277W
-[book_gregory_toilets_world]: https://openlibrary.org/search?q=Toilets+of+the+World+Gregory
+[book_gregory_toilets_world]: https://openlibrary.org/works/OL24733981W
 [book_gross_harris_1998_queueing]: https://books.google.com/books/about/Fundamentals_of_Queueing_Theory.html?id=K3lQGeCtAJgC
-[book_haas_2014_qmra]: https://onlinelibrary.wiley.com/doi/book/10.1002/9781118910030
+[book_haas_2014_qmra]: https://doi.org/10.1002/9781118910030
 [book_halliday_great_stink]: https://thehistorypress.co.uk/publication/the-great-stink-of-london/
 [book_harington_ajax]: https://www.exclassics.com/ajax/ajaxintr.htm
 [book_harris_acoustical_handbook]: https://openlibrary.org/search?q=Handbook+of+Acoustical+Measurements+and+Noise+Control+Harris
 [book_hart_davis]: https://archive.org/details/thunderflushthom0000hart
 [book_hinds_1999_aerosol]: https://www.wiley.com/en-us/Aerosol+Technology%3A+Properties%2C+Behavior%2C+and+Measurement+of+Airborne+Particles%2C+3rd+Edition-p-9781119494041
-[book_hobson_latrinae]: https://openlibrary.org/search?q=Latrinae+et+Foricae+Hobson
+[book_hobson_latrinae]: https://openlibrary.org/works/OL19385950W
 [book_hodge_aqueducts]: https://archive.org/details/romanaqueductswa0000hodg
 [book_horan_porcelain_god]: https://openlibrary.org/works/OL2982700W
-[book_inglis_excretory]: https://openlibrary.org/search?q=Sociological+History+of+Excretory+Experience+Inglis
+[book_inglis_excretory]: https://openlibrary.org/works/OL2495748W
 [book_jackson_dirty_old_london]: https://openlibrary.org/search?q=Dirty+Old+London+Lee+Jackson
 [book_jansen_roman_toilets]: https://shs.hal.science/halshs-02288198
 [book_kira]: https://openlibrary.org/works/OL6912148W
 [book_kleinrock_1975_queueing]: https://www.wiley.com/en-us/Queueing+Systems%2C+Volume+1%3A+Theory-p-9780471491101
 [book_koloski_ostrow]: https://archive.org/details/archaeologyofsan0000kolo
 [book_lambton_temples]: https://archive.org/details/templesofconveni0000lamb
-[book_laporte_history_shit]: https://openlibrary.org/search?q=History+of+Shit+Laporte
+[book_laporte_history_shit]: https://openlibrary.org/works/OL4689001W
 [book_linder_void]: https://openlibrary.org/works/OL2003849W
 [book_long_2006_architectural_acoustics]: https://books.google.com/books/about/Architectural_Acoustics.html?id=MnYUfErtBGEC
 [book_lowe_no_place]: https://chbooks.com/Books/N/No-Place-to-Go
-[book_melosi_sanitary_city]: https://openlibrary.org/search?q=The+Sanitary+City+Melosi
+[book_melosi_sanitary_city]: https://openlibrary.org/works/OL4788831W
 [book_molotch_toilet]: https://nyupress.org/9780814795880/toilet/
 [book_ogle_modern_conveniences]: https://books.google.com/books/about/All_the_Modern_Conveniences.html?id=lXrbAAAAMAAJ
 [book_okano_tokyotoilet]: https://moom.com.tw/en/item/the-tokyo-toilet
 [book_penner_bathroom]: https://reaktionbooks.co.uk/work/bathroom
 [book_rappaport_shopping]: https://openlibrary.org/works/OL11594739W
-[book_reid_paris_sewers]: https://openlibrary.org/search?q=Paris+Sewers+and+Sewermen+Reid
+[book_reid_paris_sewers]: https://openlibrary.org/works/OL4472336W
 [book_reyburn_flushed]: https://archive.org/details/flushedwithpride0000reyb_r5x1
 [book_sabine_1922_acoustics]: https://archive.org/details/collectedpaperso00sabi
 [book_shortle_2018_queueing]: https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory,+5th+Edition-p-9781118943526
 [book_smith_clean]: https://openlibrary.org/works/OL16070814W
-[book_tanizaki_shadows]: https://en.wikipedia.org/wiki/In_Praise_of_Shadows
+[book_tanizaki_shadows]: https://en.wikipedia.org/w/index.php?title=In_Praise_of_Shadows&oldid=1363627988
 [book_wright_clean_decent]: https://archive.org/details/cleandecentfasci0000wrig
 [ref_access_board_ada]: https://www.access-board.gov/ada/
 [ref_ada_2010_standards]: https://www.ada.gov/law-and-regs/design-standards/2010-stds/
 [ref_american_restroom_assoc]: https://americanrestroom.org/
-[ref_amstd_wiki]: https://en.wikipedia.org/wiki/American_Standard_Companies
+[ref_amstd_wiki]: https://en.wikipedia.org/w/index.php?title=American_Standard_Companies&oldid=1360904570
 [ref_ansi_asa_s35_sii]: https://webstore.ansi.org/standards/asa/ansiasas31997r2020
 [ref_ashrae_55]: https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy
 [ref_ashrae_62_1]: https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2
 [ref_asme_a112_19_2]: https://www.asme.org/codes-standards/find-codes-standards/a112-19-2-csa-b45-1-ceramic-plumbing-fixtures
 [ref_astm_e1130]: https://www.astm.org/e1130-16r21.html
 [ref_astm_e1573]: https://www.astm.org/e1573-22.html
-[ref_attendant_wiki]: https://en.wikipedia.org/wiki/Restroom_attendant
+[ref_attendant_wiki]: https://en.wikipedia.org/w/index.php?title=Restroom_attendant&oldid=1311066171
 [ref_banzhaf_potty]: http://banzhaf.net/pottyparity.html
 [ref_bestrestroom_hof]: https://www.bestrestroom.com/hall-of-fame/
 [ref_bta_about]: http://www.btaloos.co.uk/?page_id=7
 [ref_cambridge_roman_parasites]: https://www.cam.ac.uk/research/news/roman-toilets-gave-no-clear-health-benefit-and-romanisation-actually-spread-parasites
 [ref_cintas_2024]: https://www.cintas.com/newsroom/details/news/2024/10/15/cintas-crowns-maverik-adventure-s-first-stop-2024-america-s-best-restroom-contest-winner/
-[ref_cloaca_maxima_wiki]: https://en.wikipedia.org/wiki/Cloaca_Maxima
-[ref_condom_machine_wiki]: https://en.wikipedia.org/wiki/Condom_machine
+[ref_cloaca_maxima_wiki]: https://en.wikipedia.org/w/index.php?title=Cloaca_Maxima&oldid=1365547435
+[ref_condom_machine_wiki]: https://en.wikipedia.org/w/index.php?title=Condom_machine&oldid=1353459332
 [ref_criterion_perfectdays]: https://www.criterion.com/films/34274-perfect-days
 [ref_dezeen_transparent]: https://www.dezeen.com/2020/08/17/shigeru-ban-transparent-toyko-toilet-shibuya/
 [ref_dxv_at200]: https://www.dxv.com/electronic-bidet-toilets/at200ls-dual-flush-elongated-spalet-bidet-toilet/canvas-white-d29030cs416415
@@ -878,10 +889,10 @@ The convergence question asks whether the elevation trajectories of elimination 
 [ref_epa_watersense_specs]: https://www.epa.gov/watersense/product-specifications
 [ref_epa_watersense_toilets]: https://www.epa.gov/watersense/residential-toilets
 [ref_epact_1992]: https://www.govinfo.gov/app/details/STATUTE-106/STATUTE-106-Pg2776
-[ref_fromm_wiki]: https://en.wikipedia.org/wiki/Julius_Fromm
+[ref_fromm_wiki]: https://en.wikipedia.org/w/index.php?title=Julius_Fromm&oldid=1353459490
 [ref_frontinus_aqueducts]: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Frontinus/De_Aquis/home.html
 [ref_gov_uk_period]: https://www.gov.uk/government/news/free-period-product-scheme-for-schools-and-colleges-extended
-[ref_great_exhibition_toilets]: https://en.wikipedia.org/wiki/Flush_toilets_at_the_Great_Exhibition
+[ref_great_exhibition_toilets]: https://en.wikipedia.org/w/index.php?title=Flush_toilets_at_the_Great_Exhibition&oldid=1362890776
 [ref_guinness_first_flush]: https://www.guinnessworldrecords.com/world-records/449875-first-flushing-toilet
 [ref_heritage_london_sewers]: https://heritagecalling.com/2019/03/28/the-story-of-londons-sewer-system/
 [ref_historic_england_penny]: https://historicengland.org.uk/images-books/archive/collections/photographs/spending-a-penny/
@@ -893,15 +904,15 @@ The convergence question asks whether the elevation trajectories of elimination 
 [ref_ipc_fixture_403]: https://codes.iccsafe.org/s/IPC2021P1/chapter-4-fixtures-faucets-and-fixture-fittings/IPC2021P1-Ch04-Sec403.1
 [ref_ipc_traps_1002]: https://codes.iccsafe.org/content/IPC2018/chapter-10-traps-interceptors-and-separators
 [ref_iso_7730]: https://www.iso.org/standard/39155.html
-[ref_jennings_wiki]: https://en.wikipedia.org/wiki/George_Jennings
-[ref_kohler_wiki]: https://en.wikipedia.org/wiki/Kohler_Co.
+[ref_jennings_wiki]: https://en.wikipedia.org/w/index.php?title=George_Jennings&oldid=1339688452
+[ref_kohler_wiki]: https://en.wikipedia.org/w/index.php?title=Kohler_Co.&oldid=1361251714
 [ref_london_museum_stink]: https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/
 [ref_loty_official]: https://www.loo.co.uk/
-[ref_loty_wiki]: https://en.wikipedia.org/wiki/Loo_of_the_Year_Awards
+[ref_loty_wiki]: https://en.wikipedia.org/w/index.php?title=Loo_of_the_Year_Awards&oldid=1360328506
 [ref_map_testing]: https://map-testing.com/toilet-types/
 [ref_marshall_fields_tearoom]: https://restaurant-ingthroughhistory.com/2008/12/11/department-store-restaurants-marshall-fields/
-[ref_marshall_fields_wiki]: https://en.wikipedia.org/wiki/Marshall_Field's
-[ref_men_without_women_wiki]: https://en.wikipedia.org/wiki/Men_Without_Women_(mural)
+[ref_marshall_fields_wiki]: https://en.wikipedia.org/w/index.php?title=Marshall_Field's&oldid=1360959653
+[ref_men_without_women_wiki]: https://en.wikipedia.org/w/index.php?title=Men_Without_Women_(mural)&oldid=1361282511
 [ref_national_archives_toilet]: https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-topic/business-finance-and-innovation/toilet-design/
 [ref_neorest_750h]: https://www.totousa.com/neorest-750h
 [ref_neorest_nx_reddot]: https://www.red-dot.org/project/neorest-nx-22704-22703
@@ -914,13 +925,13 @@ The convergence question asks whether the elevation trajectories of elimination 
 [ref_numi2_cnbc]: https://www.cnbc.com/2019/01/08/kohlers-7000-numi-2point0-toilet-with-amazon-alexa-built-in.html
 [ref_numi_newatlas]: https://newatlas.com/kohler-numi-toilet/27223/
 [ref_onepoint_stalls]: https://onepointpartitions.com/blog/2022/11/30/american-bathroom-stalls-vs-european/
-[ref_perfectdays_wiki]: https://en.wikipedia.org/wiki/Perfect_Days
+[ref_perfectdays_wiki]: https://en.wikipedia.org/w/index.php?title=Perfect_Days&oldid=1364148349
 [ref_pliny_natural_history]: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137
 [ref_prnewswire_50m]: https://www.prnewswire.com/news-releases/global-sales-of-totos-popular-washlet-line-exceed-50-million-300942706.html
 [ref_prnewswire_60m]: https://www.prnewswire.com/news-releases/totos-popular-washlet-line-exceeds-60-million-units-sold-worldwide-301706757.html
-[ref_radio_city_wiki]: https://en.wikipedia.org/wiki/Radio_City_Music_Hall
+[ref_radio_city_wiki]: https://en.wikipedia.org/w/index.php?title=Radio_City_Music_Hall&oldid=1356664344
 [ref_rct_harington]: https://www.rct.uk/collection/1121134/a-new-discourse-of-a-stale-subject-called-the-metamorphosis-of-ajax
-[ref_roca_wiki]: https://en.wikipedia.org/wiki/Roca_(company)
+[ref_roca_wiki]: https://en.wikipedia.org/w/index.php?title=Roca_(company)&oldid=1357179089
 [ref_sanitary_net]: https://www.sanitary-net.com/global/about/spray-seat.html
 [ref_scentair]: https://scentair.com/newscenter/what-scent-marketing-simple-definition/
 [ref_science_museum_flushing]: https://blog.sciencemuseum.org.uk/a-flushing-story/
@@ -935,30 +946,30 @@ The convergence question asks whether the elevation trajectories of elimination 
 [ref_sound_princess_enn]: https://www.enn.com/articles/150-the-sound-princess--gadget-helps-bathroom-bashful-japanese-women
 [ref_sound_princess_iol]: https://iol.co.za/news/eish/2004-10-04-sound-princess-eliminates-toilet-noises/
 [ref_spalet_americanstandard]: https://www.americanstandard-us.com/pages/spalet-bidet-toilets-toilet-seats
-[ref_toilets_japan_wiki]: https://en.wikipedia.org/wiki/Toilets_in_Japan
-[ref_tokyotoilet_wiki]: https://en.wikipedia.org/wiki/The_Tokyo_Toilet
+[ref_toilets_japan_wiki]: https://en.wikipedia.org/w/index.php?title=Toilets_in_Japan&oldid=1361192954
+[ref_tokyotoilet_wiki]: https://en.wikipedia.org/w/index.php?title=The_Tokyo_Toilet&oldid=1331495076
 [ref_toto_10facts]: https://www.totousa.com/blog/10-little-known-facts-about-washlet-bidet-seats
 [ref_toto_40th]: https://www.totousa.com/press/washlet-40-anniversary
 [ref_toto_70million]: https://asia.toto.com/company-news/cumulative-washlet-shipments-have-now-passed-70-million-units/
 [ref_toto_history]: https://www.totousa.com/blog/toto-s-declaration-of-innovation-br-the-little-known-history-of-washlet-bidet-seats-development
-[ref_toto_wiki]: https://en.wikipedia.org/wiki/Toto_Ltd.
+[ref_toto_wiki]: https://en.wikipedia.org/w/index.php?title=Toto_Ltd.&oldid=1359585252
 [ref_un_ga11397]: https://press.un.org/en/2013/ga11397.doc.htm
 [ref_un_res_67_291]: https://docs.un.org/en/A/RES/67/291
 [ref_un_toilet_day]: https://www.un.org/en/observances/toilet-day
 [ref_upc_fixtures]: https://iapmo.org/codes-standards-development/code-development/uniform-plumbing-code
-[ref_vb_wiki]: https://en.wikipedia.org/wiki/Villeroy_%26_Boch
-[ref_vending_machine_wiki]: https://en.wikipedia.org/wiki/Vending_machine
+[ref_vb_wiki]: https://en.wikipedia.org/w/index.php?title=Villeroy_%26_Boch&oldid=1359621088
+[ref_vending_machine_wiki]: https://en.wikipedia.org/w/index.php?title=Vending_machine&oldid=1364970384
 [ref_vice_fromm]: https://www.vice.com/en/article/inventor-condom-vending-machine-julius-fromm/
 [ref_vitruvius_architecture]: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/home.html
-[ref_washlet_wiki]: https://en.wikipedia.org/wiki/Washlet
+[ref_washlet_wiki]: https://en.wikipedia.org/w/index.php?title=Washlet&oldid=1353943423
 [ref_webjapan_otohime]: https://web-japan.org/kidsweb/hitech/toilet/toilet04.html
 [ref_who_hand_hygiene]: https://www.who.int/publications/i/item/9789241597906
 [ref_who_sanitation]: https://www.who.int/news-room/fact-sheets/detail/sanitation
 [ref_who_unicef_jmp]: https://washdata.org/
 [ref_worldhistory_medieval]: https://www.worldhistory.org/article/1239/toilets-in-a-medieval-castle/
 [ref_wto_about]: https://worldtoilet.org/web-agency-gb-about-us/
-[ref_wto_wiki]: https://en.wikipedia.org/wiki/World_Toilet_Organization
-[research_aiello_2008]: https://doi.org/10.2105/AJPH.2007.124610
+[ref_wto_wiki]: https://en.wikipedia.org/w/index.php?title=World_Toilet_Organization&oldid=1357474769
+[research_aiello_2008]: https://doi.org/10.2105/ajph.2007.124610
 [research_anthony_dufresne_2007]: https://doi.org/10.1177/0885412206295846
 [research_barber_2009]: https://doi.org/10.1111/j.1748-0159.2009.00155.x
 [research_barber_2010]: https://doi.org/10.1108/09604521011011630
@@ -968,20 +979,20 @@ The convergence question asks whether the elevation trajectories of elimination 
 [research_beyond_potty_parity]: https://www.mdpi.com/2075-471X/15/3/55
 [research_bitner]: https://doi.org/10.1177/002224299205600205
 [research_bmcr_roman_toilets]: https://bmcr.brynmawr.edu/2012/2012.03.34/
-[research_crimaldi_2022_plume]: https://www.nature.com/articles/s41598-022-24686-5
-[research_curtis_cairncross_2003]: https://doi.org/10.1016/S1473-3099(03)00606-6
-[research_do_women_spend_more]: https://www.researchgate.net/publication/41137857_Do_Women_Spend_More_Time_in_the_Restroom_than_Men
+[research_crimaldi_2022_plume]: https://doi.org/10.1038/s41598-022-24686-5
+[research_curtis_cairncross_2003]: https://doi.org/10.1016/s1473-3099(03)00606-6
+[research_do_women_spend_more]: https://doi.org/10.2466/pr0.105.3.789-790
 [research_erlang_1917]: https://mathshistory.st-andrews.ac.uk/Biographies/Erlang/
 [research_farajollahzadeh_hu_potty]: https://pubsonline.informs.org/doi/10.1287/mnsc.2021.04075
 [research_farajollahzadeh_stadium]: https://doi.org/10.1287/ited.2023.0051ca
-[research_feminist_critical]: https://journals.sagepub.com/doi/10.1177/10780874241233529
+[research_feminist_critical]: https://doi.org/10.1177/10780874241233529
 [research_freeman_2014]: https://doi.org/10.1111/tmi.12339
-[research_gerba_1975_plume]: https://journals.asm.org/doi/10.1128/am.30.2.229-237.1975
+[research_gerba_1975_plume]: https://doi.org/10.1128/am.30.2.229-237.1975
 [research_haowen_mediapolis]: https://www.mediapolisjournal.com/2024/04/tokyo-sanitization/
 [research_hopkins_cloaca]: https://www.researchgate.net/publication/265225213_The_Cloaca_Maxima_and_the_monumental_manipulation_of_water_in_archaic_Rome
-[research_huesca_espitia_2018]: https://doi.org/10.1128/AEM.00044-18
-[research_huh_2019_potty]: https://www.sciencedirect.com/science/article/abs/pii/S0038012118300521
-[research_johnson_2013_plume]: https://www.ajicjournal.org/article/S0196-6553(12)00812-7/fulltext
+[research_huesca_espitia_2018]: https://doi.org/10.1128/aem.00044-18
+[research_huh_2019_potty]: https://doi.org/10.1016/j.seps.2018.11.003
+[research_johnson_2013_plume]: https://doi.org/10.1016/j.ajic.2012.04.330
 [research_kim_bachman_2019]: https://doi.org/10.1080/15378020.2019.1596002
 [research_kimmitt_redway_2016]: https://doi.org/10.1111/jam.13014
 [research_kogan_sex_separation]: https://www.researchgate.net/publication/303874037_SEX_SEPARATION_IN_PUBLIC_RESTROOMS_LAW_ARCHITECTURE_AND_GENDER
@@ -991,14 +1002,14 @@ The convergence question asks whether the elevation trajectories of elimination 
 [research_mari_poggesi]: https://doi.org/10.1080/02642069.2011.613934
 [research_menstrual_legal_landscape]: https://www.sciencedirect.com/science/article/pii/S1353829225001753
 [research_mitchell_cam]: https://www.repository.cam.ac.uk/handle/1810/267257
-[research_mitchell_parasites]: https://doi.org/10.1017/S0031182015001651
-[research_nicas_best_2008]: https://www.tandfonline.com/doi/full/10.1080/15459620802003896
+[research_mitchell_parasites]: https://doi.org/10.1017/s0031182015001651
+[research_nicas_best_2008]: https://doi.org/10.1080/15459620802003896
 [research_ostrow_isis]: https://www.journals.uchicago.edu/doi/10.1086/707660
-[research_park_2020_smart_toilet]: https://www.nature.com/articles/s41551-020-0534-9
+[research_park_2020_smart_toilet]: https://doi.org/10.1038/s41551-020-0534-9
 [research_rawls_1988]: https://vtechworks.lib.vt.edu/items/0ab3b38f-6b97-48f9-b772-3926f8950f9e
 [research_scobie_1986]: https://doi.org/10.1524/klio.1986.68.68.399
 [research_spangenberg]: https://doi.org/10.1177/002224299606000205
-[research_sydnor_2012_faucet]: https://www.cambridge.org/core/journals/infection-control-and-hospital-epidemiology/article/abs/electroniceye-faucets-legionella-species-contamination-in-healthcare-settings/5E1A7B3DB6C652C4D4985B9B98C963A1
+[research_sydnor_2012_faucet]: https://doi.org/10.1086/664047
 [research_szczygiel_ejcjs]: https://www.japanesestudies.org.uk/ejcjs/vol16/iss3/szczygiel.html
 [research_szczygiel_nightsoil]: https://www.whp-journals.co.uk/WW/article/download/1044/592/5447
 [research_tastan_soylu_2023]: https://doi.org/10.31822/jomat.2023-8-1-27

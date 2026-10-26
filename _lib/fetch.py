@@ -36,7 +36,7 @@ DEFAULT_TIMEOUT = 45
 DEFAULT_TRIES = 4
 MIN_INTERVAL = 0.34  # seconds between calls to the same host
 # Hosts that throttle harder. Wikipedia answered 429 to pins at 0.34 s on 2026-10-24.
-HOST_INTERVAL = {"en.wikipedia.org": 1.0, "www.osti.gov": 1.0}  # OSTI refused 1,136 of 1,937 at 0.34 s
+HOST_INTERVAL = {"en.wikipedia.org": 1.0, "www.osti.gov": 1.0, "web.archive.org": 2.5}  # OSTI refused 1,136 of 1,937 at 0.34 s
 
 _last_call = {}
 
@@ -122,6 +122,43 @@ def get_json_status(url, tries=DEFAULT_TRIES, timeout=DEFAULT_TIMEOUT, headers=N
                     return json.loads(r.read()), status
                 except ValueError:
                     return None, status
+        except urllib.error.HTTPError as e:
+            status = e.code
+            if e.code == 404:
+                return None, 404
+            if i < tries - 1:
+                time.sleep(_retry_after(e, i))
+            continue
+        except Exception:
+            status = None
+        if i < tries - 1:
+            time.sleep(2 ** i + 1)
+    return None, status
+
+
+def get_bytes_status(url, tries=DEFAULT_TRIES, timeout=DEFAULT_TIMEOUT, headers=None):
+    """(bytes or None, last HTTP status or None), so that only a 404 is read as absence.
+
+    The bytes counterpart of `get_json_status`, for a page cache that must tell an
+    archive with no capture, which answers 404, from one that refused.
+    """
+    import http.client
+    hdrs = dict(UA)
+    if headers:
+        hdrs.update(headers)
+    status = None
+    for i in range(tries):
+        _throttle(url)
+        try:
+            req = urllib.request.Request(url, headers=hdrs)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                try:
+                    return r.read(), r.status
+                except http.client.IncompleteRead as e:
+                    # AN ARCHIVE CAPTURE REPLAYS THE ORIGINAL `Content-Length`, which need
+                    # not match what is served, so every read of it raised. What arrived
+                    # holds the page's head, which is what a metadata reader needs.
+                    return e.partial, r.status
         except urllib.error.HTTPError as e:
             status = e.code
             if e.code == 404:

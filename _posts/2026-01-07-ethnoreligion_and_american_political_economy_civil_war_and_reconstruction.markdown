@@ -17,7 +17,7 @@ This fifth article of the series treats the 1861-1900 period from Fort Sumter th
 
 ## The Civil War as Theological Crisis
 
-The 1861-1865 Civil War produced the most significant religious crisis in American history through the unresolved theological dispute over slavery that had produced the denominational splits treated in [A269][related_post_a269_second_awakening_and_reform]. The [Noll 2006][book_noll_2006_civil] The Civil War as a Theological Crisis, [Stout 2006][book_stout_2006] Upon the Altar of the Nation, [Rable 2010][book_rable_2010] God's Almost Chosen Peoples, [Miller Stout and Wilson 1998][book_miller_stout_wilson_1998] Religion and the American Civil War, and [Woodworth 2001][book_woodworth_2001] While God Is Marching On provide the standard treatments.
+The 1861-1865 Civil War produced the most significant religious crisis in American history through the unresolved theological dispute over slavery that had produced the denominational splits treated in [A269][related_post_a269_second_awakening_and_reform]. The [Noll 2006][book_noll_2006_civil] The Civil War as a Theological Crisis, [Stout 2006][book_stout_2006] Upon the Altar of the Nation, [Rable 2010][book_rable_2010] God's Almost Chosen Peoples, [Miller et al. 1998][book_miller_stout_wilson_1998] Religion and the American Civil War, and [Woodworth 2001][book_woodworth_2001] While God Is Marching On provide the standard treatments.
 
 The war casualties were substantial across both sides,
 
@@ -43,7 +43,7 @@ $$f_{\text{Methodist Union chaplains}} \approx 0.38, \quad f_{\text{Presbyterian
 
 with the first Jewish chaplain (Jacob Frankel, appointed 1862 under the 1862 statutory amendment permitting non-Christian chaplaincy) marking the first extensive federal religious pluralism precedent. The Confederate religious self-understanding, expressed through fast days proclaimed by Jefferson Davis [CSA Davis Fast Day Proclamations][ref_csa_davis_fast_day], Confederate national symbols including Deo Vindice (God Will Vindicate) motto, and Confederate Constitution's explicit invocation of Almighty God [CSA Constitution 1861][ref_csa_constitution_1861] (departing from the US Constitution's silence), asserted divine sanction of the Confederate cause. Confederate proslavery theology found sustained articulation in James Henley Thornwell's 1861 [Thornwell 1861][ref_thornwell_1861] Address to All the Churches of Jesus Christ Throughout the Earth and Southern Presbyterian denominational documents. The Union religious self-understanding, expressed through Lincoln proclamations of fast and thanksgiving days [Lincoln 1863 Thanksgiving Proclamation][ref_lincoln_1863_thanksgiving] and Union chaplaincy activity, similarly asserted divine sanction of the Union cause. The [Faust 1988][book_faust_1988] The Creation of Confederate Nationalism and [Wilson 1980][book_wilson_1980] Baptized in Blood treat the Confederate religious dimensions.
 
-Lincoln's Second Inaugural Address of 4 March 1865 [Lincoln 1865][ref_lincoln_1865_second_inaugural] provided the most substantial American theological reflection on the Civil War. The address's theological framework acknowledged the mutual religious appeal of both sides, the divine judgment implicit in the war's suffering, and the need for reconciliation grounded in religious humility. The address's "with malice toward none, with charity for all" formulation provided the religious foundation for the Reconstruction moderation Lincoln would have pursued. The [Guelzo 1999][book_guelzo_1999] Abraham Lincoln Redeemer President treats Lincoln's religious formation and thought. The Emancipation Proclamation itself [Lincoln 1863][ref_lincoln_1863_emancipation] and Lincoln's 1862 Meditation on the Divine Will [Lincoln 1862][ref_lincoln_1862_meditation] provide the primary theological documents.
+Lincoln's Second Inaugural Address of 4 March 1865 [Lincoln 1865][ref_lincoln_1865_second_inaugural] provided the most substantial American theological reflection on the Civil War. The address's theological framework acknowledged the mutual religious appeal of both sides, the divine judgment implicit in the war's suffering, and the need for reconciliation grounded in religious humility. The address's "with malice toward none, with charity for all" formulation provided the religious foundation for the Reconstruction moderation Lincoln would have pursued. The [Guelzo 1999][book_guelzo_1999] Abraham Lincoln Redeemer President treats Lincoln's religious formation and thought. The Emancipation Proclamation itself [Lincoln 1863a][ref_lincoln_1863_emancipation] and Lincoln's 1862 Meditation on the Divine Will [Lincoln 1862][ref_lincoln_1862_meditation] provide the primary theological documents.
 
 The theological problem of slavery that Noll characterizes as the crisis was the inability of antebellum American Protestant biblical hermeneutics to produce decisive resolution of the proslavery-antislavery question through biblical exegesis alone. Both sides invoked scriptural authority with appreciable hermeneutical sophistication, producing the theological stalemate that military resolution alone could break. The consequence for postbellum American Protestantism included considerable theological reorientation treated below.
 
@@ -91,7 +91,7 @@ Emancipation proceeded through stages culminating in the 1865 Thirteenth Amendme
 
 $$\text{13th Amendment (1865)}, \quad \text{14th Amendment (1868)}, \quad \text{15th Amendment (1870)}$$
 
-with the 14th Amendment providing birthright citizenship and equal protection, and the 15th Amendment providing voting rights protection irrespective of race. The primary constitutional documents [US 13th Amendment 1865][ref_us_13th_amendment], [US 14th Amendment 1868][ref_us_14th_amendment], and [US 15th Amendment 1870][ref_us_15th_amendment] provide the texts. The parallel primary statutory documents include the [Civil Rights Act 1866][ref_us_civil_rights_act_1866] and [Civil Rights Act 1875][ref_us_civil_rights_act_1875] providing the enumerated federal protections of civil equality. Subsequent Supreme Court interpretation narrowed the Reconstruction Amendments through the [Slaughter-House Cases 1873][ref_slaughter_house_1873], [Civil Rights Cases 1883][ref_civil_rights_cases_1883], and [Plessy v. Ferguson 1896][ref_plessy_1896] providing the jurisprudential path from Reconstruction promise to Jim Crow accommodation. The [Foner 1988][book_foner_1988] Reconstruction, [Foner 2019][book_foner_2019] The Second Founding, and [Kaczorowski 2005][book_kaczorowski_2005] The Politics of Judicial Interpretation provide the comprehensive scholarly treatments.
+with the 14th Amendment providing birthright citizenship and equal protection, and the 15th Amendment providing voting rights protection irrespective of race. The primary constitutional documents [US 13th Amendment 1865][ref_us_13th_amendment], [US 14th Amendment 1868][ref_us_14th_amendment], and [US 15th Amendment 1870][ref_us_15th_amendment] provide the texts. The parallel primary statutory documents include the [U.S. Senate 1866][ref_us_civil_rights_act_1866] and [Civil Rights Act 1875][ref_us_civil_rights_act_1875] providing the enumerated federal protections of civil equality. Subsequent Supreme Court interpretation narrowed the Reconstruction Amendments through the [Slaughterhouse Cases 83 U.S. 1873][ref_slaughter_house_1873], [Civil Rights Cases 109 1883][ref_civil_rights_cases_1883], and [Plessy v. Ferguson 1896][ref_plessy_1896] providing the jurisprudential path from Reconstruction promise to Jim Crow accommodation. The [Foner 1988][book_foner_1988] Reconstruction, [Foner 2019][book_foner_2019] The Second Founding, and [Kaczorowski 2005][book_kaczorowski_2005] The Politics of Judicial Interpretation provide the comprehensive scholarly treatments.
 
 The Freedmen's Bureau (Bureau of Refugees, Freedmen, and Abandoned Lands), established 3 March 1865 [US Freedmen's Bureau Act 1865][ref_freedmens_bureau_act] and continuing through 1872, provided the federal institutional support for the former enslaved population. Approximately
 
@@ -127,7 +127,7 @@ AME Church expansion into the postbellum South was marked. The denomination grew
 
 $$P_{\text{AME}}(1860) \approx 2 \times 10^4, \quad P_{\text{AME}}(1880) \approx 4 \times 10^5, \quad P_{\text{AME}}(1900) \approx 6.5 \times 10^5$$
 
-with the vast majority of the postbellum growth coming from former Confederate states. Daniel Payne's leadership through 1893, subsequent AME bishops, and the denominational institutional infrastructure treated in [A269][related_post_a269_second_awakening_and_reform] provided the coordination. Primary sources include Payne's 1888 [Payne 1888][ref_payne_1888] Recollections of Seventy Years autobiography, Payne's 1891 [Payne 1891][ref_payne_1891] History of the African Methodist Episcopal Church, and the AME [Christian Recorder][ref_christian_recorder] denominational newspaper (founded 1852 as the longest continuously-published Black-controlled newspaper in America).
+with the vast majority of the postbellum growth coming from former Confederate states. Daniel Payne's leadership through 1893, subsequent AME bishops, and the denominational institutional infrastructure treated in [A269][related_post_a269_second_awakening_and_reform] provided the coordination. Primary sources include Payne's 1888 [Payne 1888][ref_payne_1888] Recollections of Seventy Years autobiography, Payne's 1891 [Payne and Smith 1891][ref_payne_1891] History of the African Methodist Episcopal Church, and the AME [Christian Recorder][ref_christian_recorder] denominational newspaper (founded 1852 as the longest continuously-published Black-controlled newspaper in America).
 
 AME Zion Church expansion similarly accelerated. The denomination reached approximately
 
@@ -170,9 +170,9 @@ The first-wave Ku Klux Klan, organized 1866 at Pulaski, Tennessee under Confeder
 
 $$N_{\text{Klan and Klan-associated killings, US, 1866 to 1876}} \gtrsim 3 \times 10^3$$
 
-per the modern reconstruction ([Parsons 2015][book_parsons_2015]) drawing on the primary [Congressional Klan Report 1872][ref_congressional_klan_report_1872] thirteen-volume Joint Select Committee on the Condition of Affairs in the Late Insurrectionary States report. The Klan religious dimensions combined ritualized Protestant symbolism with racist ideology and defense of the antebellum Southern social order. The [Trelease 1971][book_trelease_1971] White Terror and [Parsons 2015][book_parsons_2015] Ku-Klux provide the principal treatments.
+per the modern reconstruction ([Parsons 2015][book_parsons_2015]) drawing on the primary [Congressional Klan Report 1872][ref_congressional_klan_report_1872] thirteen-volume Joint Select Committee on the Condition of Affairs in the Late Insurrectionary States report. The Klan religious dimensions combined ritualized Protestant symbolism with racist ideology and defense of the antebellum Southern social order. The [Trelease et al. 1971][book_trelease_1971] White Terror and [Parsons 2015][book_parsons_2015] Ku-Klux provide the principal treatments.
 
-The 1870 and 1871 Enforcement Acts [Enforcement Act 1870][ref_us_enforcement_act_1870] and 1871 Ku Klux Klan Act [US Ku Klux Klan Act 1871][ref_us_kkk_act_1871] provided the federal legal response to Klan violence. The 1872 federal prosecutions suppressed the first-wave Klan, though Klan-adjacent paramilitary organizations continued through Reconstruction and redeemer violence would continue through the redemption period. The second-wave Klan of the early twentieth century treated in article six was a distinct organization despite the name continuity.
+The 1870 and 1871 Enforcement Acts [Enforcement Act 1870][ref_us_enforcement_act_1870] and 1871 Ku Klux Klan Act [U.S. Statutes at Large 1871][ref_us_kkk_act_1871] provided the federal legal response to Klan violence. The 1872 federal prosecutions suppressed the first-wave Klan, though Klan-adjacent paramilitary organizations continued through Reconstruction and redeemer violence would continue through the redemption period. The second-wave Klan of the early twentieth century treated in article six was a distinct organization despite the name continuity.
 
 Redemption, the process of white Democratic recapture of Southern state governments from Republican Reconstruction governments, proceeded through the 1869-1877 period producing the end of Reconstruction. Federal troop presence in the former Confederate states declined across the Reconstruction period,
 
@@ -203,7 +203,7 @@ per modern historical reconstruction. The Colfax massacre of 13 April 1873 at Co
 
 The Wilmington coup of 10 November 1898 at Wilmington, North Carolina provided the only successful coup d'état in US history, in which armed white supremacists overthrew the duly-elected biracial Fusionist city government, killed Black residents, destroyed the Alex Manly-edited Daily Record Black newspaper offices, and expelled Black professional and political leadership from the city. The [Zucchino 2020][book_zucchino_2020] Wilmington's Lie and [Cecelski and Tyson 1998][book_cecelski_tyson_1998] Democracy Betrayed provide the standard treatments.
 
-Systematic Black disenfranchisement across the former Confederate states proceeded through the late nineteenth and early twentieth centuries through state constitutional revisions and legislation combining poll taxes, literacy tests, grandfather clauses, white primary systems, and residence requirements. The 1890 [Mississippi Constitutional Convention 1890][ref_mississippi_constitution_1890] provided the model with extensive literacy and understanding clauses, subsequently emulated by South Carolina 1895, Louisiana 1898, Alabama 1901, Virginia 1902, and Texas 1902. The Louisiana 1898 [Louisiana Constitution 1898][ref_louisiana_constitution_1898] contributed the grandfather clause exempting from literacy and property requirements those whose ancestors had voted before 1867, exempting white but not Black voters. Registration effects were dramatic,
+Systematic Black disenfranchisement across the former Confederate states proceeded through the late nineteenth and early twentieth centuries through state constitutional revisions and legislation combining poll taxes, literacy tests, grandfather clauses, white primary systems, and residence requirements. The 1890 [The Mississippi Constitution 1890][ref_mississippi_constitution_1890] provided the model with extensive literacy and understanding clauses, subsequently emulated by South Carolina 1895, Louisiana 1898, Alabama 1901, Virginia 1902, and Texas 1902. The Louisiana 1898 [Louisiana Constitution 1898][ref_louisiana_constitution_1898] contributed the grandfather clause exempting from literacy and property requirements those whose ancestors had voted before 1867, exempting white but not Black voters. Registration effects were dramatic,
 
 $$P_{\text{registered Black voters, Louisiana}}(1896) \approx 1.3 \times 10^5, \quad P_{\text{registered Black voters, Louisiana}}(1904) \approx 1.3 \times 10^3$$
 
@@ -233,7 +233,7 @@ per modern reconstruction, below the proportion of Black population in Southern 
 
 ## Chinese Exclusion 1882
 
-Chinese Exclusion Act of 6 May 1882 [US Chinese Exclusion Act 1882][ref_us_chinese_exclusion_act_1882] marked the first appreciable federal restriction on ethnic-based immigration and provided the model for subsequent restriction legislation. The prior [Burlingame Treaty 1868][ref_burlingame_treaty_1868] had established open Chinese immigration and the [Angell Treaty 1880][ref_angell_treaty_1880] had authorized the US suspension of Chinese labor immigration on which the 1882 Act rested. The [Lee 2003][book_lee_2003] At America's Gates (already cited in A269), [Gyory 1998][book_gyory_1998] Closing the Gate, [Salyer 1995][book_salyer_1995] Laws Harsh as Tigers, and [McKeown 2008][book_mckeown_2008] Melancholy Order provide the treatments.
+Chinese Exclusion Act of 6 May 1882 [Chinese Exclusion Act 1882 1882][ref_us_chinese_exclusion_act_1882] marked the first appreciable federal restriction on ethnic-based immigration and provided the model for subsequent restriction legislation. The prior [Burlingame Treaty 1868][ref_burlingame_treaty_1868] had established open Chinese immigration and the [Angell Treaty 1880][ref_angell_treaty_1880] had authorized the US suspension of Chinese labor immigration on which the 1882 Act rested. The [Lee 2003][book_lee_2003] At America's Gates (already cited in A269), [Gyory 1998][book_gyory_1998] Closing the Gate, [Salyer 1995][book_salyer_1995] Laws Harsh as Tigers, and [McKeown 2008][book_mckeown_2008] Melancholy Order provide the treatments.
 
 The 1882 Chinese Exclusion Act suspended Chinese laborer immigration for ten years, prohibited Chinese naturalization, and required existing Chinese residents to obtain reentry certificates. Amendments extended and expanded the exclusion,
 
@@ -245,7 +245,7 @@ $$\begin{aligned}
 \text{Chinese Exclusion repeal} &: 1943
 \end{aligned}$$
 
-producing the sixty-one-year exclusion period. Primary statutory documents include the [Scott Act 1888][ref_scott_act_1888] and [Geary Act 1892][ref_geary_act_1892] providing the exclusion extensions and enforcement provisions. Landmark Supreme Court cases upholding the exclusion regime included the [Chae Chan Ping v. United States 1889][ref_chae_chan_ping_1889] (upholding the Scott Act's abrogation of reentry certificates), [Fong Yue Ting v. United States 1893][ref_fong_yue_ting_1893] (upholding the Geary Act's registration provisions and summary deportation authority), and [United States v. Wong Kim Ark 1898][ref_wong_kim_ark_1898] (establishing the Fourteenth Amendment birthright citizenship of US-born Chinese Americans despite parental non-eligibility for naturalization). The Chinese American population declined during the exclusion period,
+producing the sixty-one-year exclusion period. Primary statutory documents include the [Scott Act 1888][ref_scott_act_1888] and [Geary Act 1892][ref_geary_act_1892] providing the exclusion extensions and enforcement provisions. Landmark Supreme Court cases upholding the exclusion regime included the [Chae Chan Ping v. 1889][ref_chae_chan_ping_1889] (upholding the Scott Act's abrogation of reentry certificates), [Fong Yue Ting v. 1893][ref_fong_yue_ting_1893] (upholding the Geary Act's registration provisions and summary deportation authority), and [United States v. Wong 1898][ref_wong_kim_ark_1898] (establishing the Fourteenth Amendment birthright citizenship of US-born Chinese Americans despite parental non-eligibility for naturalization). The Chinese American population declined during the exclusion period,
 
 $$P_{\text{Chinese, US}}(1880) \approx 1.05 \times 10^5, \quad P_{\text{Chinese, US}}(1900) \approx 8.9 \times 10^4, \quad P_{\text{Chinese, US}}(1920) \approx 6.2 \times 10^4$$
 
@@ -265,7 +265,7 @@ $$f_{\text{Chinese share, Central Pacific Railroad construction workforce, peak}
 
 with approximately 15,000 to 20,000 Chinese workers deployed at peak construction.
 
-The religious dimensions of Chinese Exclusion included considerable Protestant missionary opposition to Chinese Exclusion (particularly among China missionaries who considered American Chinese populations valuable for eventual China evangelization) and significant mainstream Protestant support for exclusion motivated by labor competition concerns and broader nativism. The [Yong Chen 2000][book_chen_2000] and [Yung 1995][book_yung_1995] (both cited in A269) treatments cover the Chinese American religious response.
+The religious dimensions of Chinese Exclusion included considerable Protestant missionary opposition to Chinese Exclusion (particularly among China missionaries who considered American Chinese populations valuable for eventual China evangelization) and significant mainstream Protestant support for exclusion motivated by labor competition concerns and broader nativism. The [Chen 2000][book_chen_2000] and [Yung 1995][book_yung_1995] (both cited in A269) treatments cover the Chinese American religious response.
 
 ## Scandinavian Lutheran Consolidation and Expansion
 
@@ -297,7 +297,7 @@ with the concentration in the upper Midwest region (Minnesota, Wisconsin, Iowa, 
 
 ## Early Italian Catholic Migration
 
-Italian migration to the United States began in the 1880s and would accelerate through the early twentieth century producing the largest European immigrant stream of that period. The [Mangione and Morreale 1992][book_mangione_morreale_1992] La Storia, [Vecoli 1964][research_vecoli_1964_italians] Contadini in Chicago (already cited in A266 for a different context), [Nelli 1970][book_nelli_1970] The Italians in Chicago, [Gabaccia 2000][book_gabaccia_2000] Italy's Many Diasporas, and [Cinel 1982][book_cinel_1982] From Italy to San Francisco provide the leading treatments.
+Italian migration to the United States began in the 1880s and would accelerate through the early twentieth century producing the largest European immigrant stream of that period. The [Mangione et al. 1992][book_mangione_morreale_1992] La Storia, [Vecoli 1964][research_vecoli_1964_italians] Contadini in Chicago (already cited in A266 for a different context), [Nelli 1970][book_nelli_1970] The Italians in Chicago, [Gabaccia 2000][book_gabaccia_2000] Italy's Many Diasporas, and [Cinel 1982][book_cinel_1982] From Italy to San Francisco provide the leading treatments.
 
 Italian arrivals through 1900 totaled approximately
 
@@ -321,7 +321,7 @@ Italian Protestant populations were smaller than Italian Catholic populations bu
 
 ## Early Eastern European Jewish Migration
 
-Eastern European Jewish migration to the United States began in the 1881 aftermath of the Alexander II assassination and subsequent anti-Jewish pogroms in the Russian Empire, accelerating through the 1890s and early twentieth century. The [Sarna 2004][book_sarna_2004] American Judaism (already cited), [Howe 1976][book_howe_1976] World of Our Fathers, [Diner 2000][book_diner_2000] Lower East Side Memories, [Rischin 1962][book_rischin_1962] The Promised City, and [Sorin 1992][book_sorin_1992] A Time for Building provide the principal treatments.
+Eastern European Jewish migration to the United States began in the 1881 aftermath of the Alexander II assassination and subsequent anti-Jewish pogroms in the Russian Empire, accelerating through the 1890s and early twentieth century. The [Sarna 2004][book_sarna_2004] American Judaism (already cited), [Howe 1976][book_howe_1976] World of Our Fathers, [Diner and Diner 2000][book_diner_2000] Lower East Side Memories, [Rischin 1962][book_rischin_1962] The Promised City, and [Sorin 1992][book_sorin_1992] A Time for Building provide the principal treatments.
 
 Eastern European Jewish arrivals through 1900 totaled approximately
 
@@ -395,7 +395,7 @@ The 1898 [Curtis Act 1898][ref_curtis_act_1898] extended allotment to the Five C
 
 ## Native Boarding Schools and Carlisle
 
-The federal boarding school system for Native children provided the most extensive twentieth-century instrument of Native cultural assimilation. The Carlisle Indian Industrial School, established 1879 at Carlisle, Pennsylvania by Richard Henry Pratt (1840-1924) with the motto "Kill the Indian in him, and save the man" from his 1892 [Pratt 1892][ref_pratt_1892] address at the Nineteenth Annual Conference of Charities and Correction, provided the model for the broader boarding school system. The [Adams 1995][book_adams_1995] Education for Extinction (already cited in A269), [Child 1998][book_child_1998] Boarding School Seasons, [Trafzer Keller and Sisquoc 2006][book_trafzer_keller_sisquoc_2006] Boarding School Blues, and [Fear-Segal 2007][book_fear_segal_2007] White Man's Club provide the treatments. Primary Native student testimony includes Zitkala-Ša (Gertrude Simmons Bonnin) 1900-1902 [Zitkala-Ša 1900][ref_zitkala_sa_1900] Atlantic Monthly essays "Impressions of an Indian Childhood," "The School Days of an Indian Girl," and "An Indian Teacher Among Indians," Luther Standing Bear's 1928 [Standing Bear 1928][ref_standing_bear_1928] My People the Sioux, and Charles Alexander Eastman's 1916 [Eastman 1916][ref_eastman_1916] From the Deep Woods to Civilization. Pratt's own 1964 posthumously-published [Pratt 1964][ref_pratt_1964] Battlefield and Classroom memoir provides the institutional-founder retrospective.
+The federal boarding school system for Native children provided the most extensive twentieth-century instrument of Native cultural assimilation. The Carlisle Indian Industrial School, established 1879 at Carlisle, Pennsylvania by Richard Henry Pratt (1840-1924) with the motto "Kill the Indian in him, and save the man" from his 1892 [Pratt 1892][ref_pratt_1892] address at the Nineteenth Annual Conference of Charities and Correction, provided the model for the broader boarding school system. The [Adams 1995][book_adams_1995] Education for Extinction (already cited in A269), [Child 1998][book_child_1998] Boarding School Seasons, [Trafzer et al. 2006][book_trafzer_keller_sisquoc_2006] Boarding School Blues, and [Fear-Segal 2007][book_fear_segal_2007] White Man's Club provide the treatments. Primary Native student testimony includes Zitkala-Ša (Gertrude Simmons Bonnin) 1900-1902 [Zitkala-Ša 1900][ref_zitkala_sa_1900] Atlantic Monthly essays "Impressions of an Indian Childhood," "The School Days of an Indian Girl," and "An Indian Teacher Among Indians," Luther Standing Bear's 1928 [Standing Bear 1928][ref_standing_bear_1928] My People the Sioux, and Charles Alexander Eastman's 1916 [Eastman 1916][ref_eastman_1916] From the Deep Woods to Civilization. Pratt's own 1964 posthumously-published [Pratt 1964][ref_pratt_1964] Battlefield and Classroom memoir provides the institutional-founder retrospective.
 
 Boarding school enrollment expanded through the late nineteenth and early twentieth centuries. Approximately
 
@@ -541,7 +541,7 @@ The antecedents to the Fundamentalist-Modernist controversy that would divide Am
 
 ## American Protective Association and Late-Century Nativism
 
-The American Protective Association (APA), founded 13 March 1887 at Clinton, Iowa by Henry F. Bowers, provided the most substantial late nineteenth-century anti-Catholic nativist organization, extending the antebellum Know-Nothing framework treated in [A269][related_post_a269_second_awakening_and_reform] into the postbellum immigration wave context. The [Kinzer 1964][book_kinzer_1964] An Episode in Anti-Catholicism and [Higham 1955][book_higham_1955] Strangers in the Land provide the principal treatments.
+The American Protective Association (APA), founded 13 March 1887 at Clinton, Iowa by Henry F. Bowers, provided the most substantial late nineteenth-century anti-Catholic nativist organization, extending the antebellum Know-Nothing framework treated in [A269][related_post_a269_second_awakening_and_reform] into the postbellum immigration wave context. The [Kinzer 1964][book_kinzer_1964] An Episode in Anti-Catholicism and [Higham et al. 1955][book_higham_1955] Strangers in the Land provide the principal treatments.
 
 APA membership peaked at approximately
 
@@ -609,7 +609,7 @@ The religious pluralism affirmation embedded in the Parliament's official framew
 
 The Spanish-American War of April-August 1898 marked the inflection point in American continental-to-overseas empire transition and produced substantial religious dimensions. The war's triggering events included the February 1898 USS Maine explosion at Havana harbor, the "yellow journalism" mobilization under William Randolph Hearst and Joseph Pulitzer, and the President William McKinley's declaration of war under marked Protestant clerical support framing the war in liberationist terms against Spanish Catholic colonial rule in Cuba, Puerto Rico, and the Philippines. The [Musicant 1998][book_musicant_1998] Empire by Default, [Trask 1981][book_trask_1981] The War With Spain in 1898, and [Field 1988][book_field_1988] The Missionary Enterprise treat the war and its religious dimensions.
 
-The 1898 Treaty of Paris [Treaty of Paris 1898][ref_treaty_of_paris_1898] concluding the war transferred Cuba to American protectorate status, Puerto Rico and Guam to direct American possession, and the Philippines to American colonial rule under twenty million dollar payment to Spain. The subsequent Philippine-American War of 1899-1902 produced approximately
+The 1898 Treaty of Paris [Avalon Project 1898][ref_treaty_of_paris_1898] concluding the war transferred Cuba to American protectorate status, Puerto Rico and Guam to direct American possession, and the Philippines to American colonial rule under twenty million dollar payment to Spain. The subsequent Philippine-American War of 1899-1902 produced approximately
 
 $$N_{\text{Filipino dead, Philippine-American War}} \approx 2 \times 10^5 \text{ to } 1 \times 10^6, \quad N_{\text{American dead}} \approx 4.2 \times 10^3$$
 
@@ -654,272 +654,280 @@ This article follows the terminological conventions established in [A266][relate
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Abell 1960 American Catholicism and Social Action][book_abell_1960]
-- [Adams 1995 Education for Extinction][book_adams_1995]
-- [Ahlstrom 1972 A Religious History of the American People][book_ahlstrom_1972]
-- [Anderson 1969 Facing the Pacific][book_anderson_1969]
-- [Anderson 1988 The Education of Blacks in the South][book_anderson_1988]
-- [Andersson 2008 The Lakota Ghost Dance of 1890][book_andersson_2008]
-- [Arrington 1985 Brigham Young][book_arrington_1985]
-- [Azuma 2005 Between Two Empires][book_azuma_2005]
-- [Baltzell 1958 Philadelphia Gentlemen][book_baltzell_1958]
-- [Baltzell 1964 The Protestant Establishment][book_baltzell_1964]
-- [Barnett 1957 Indian Shakers][book_barnett_1957]
-- [Barton 1994 A Folk Divided][book_barton_1994]
-- [Beckford 1975 The Trumpet of Prophecy][book_beckford_1975]
-- [Blackmon 2008 Slavery by Another Name][book_blackmon_2008]
-- [Bordin 1981 Frances Willard][book_bordin_1981]
-- [Braude 1989 Radical Spirits][book_braude_1989]
-- [Bushman 2005 Joseph Smith Rough Stone Rolling][book_bushman_2005]
-- [Butchart 2010 Schooling the Freed People][book_butchart_2010]
-- [Butler 1990 Awash in a Sea of Faith][book_butler_1990]
-- [Cecelski and Tyson 1998 Democracy Betrayed][book_cecelski_tyson_1998]
-- [Chen 2000 Chinese San Francisco][book_chen_2000]
-- [Child 1998 Boarding School Seasons][book_child_1998]
-- [Cimbala 2003 Under the Guardianship of the Nation][book_cimbala_2003]
-- [Cinel 1982 From Italy to San Francisco][book_cinel_1982]
-- [Cone 2011 The Cross and the Lynching Tree][book_cone_2011]
-- [Cornelius 1991 When I Can Read My Title Clear][book_cornelius_1991]
-- [Cross 1958 The Emergence of Liberal Catholicism in America][book_cross_1958]
-- [Curran 2002 Catholic Social Teaching][book_curran_2002]
-- [Daniels 1988 Asian America][book_daniels_1988]
-- [Debo 1940 And Still the Waters Run][book_debo_1940]
-- [Diner 2000 Lower East Side Memories][book_diner_2000]
-- [Dorn 1967 Washington Gladden][book_dorn_1967]
-- [Edwards 2009 Frontier Women and Their Art][book_edwards_2009]
-- [Ellis 1956 American Catholicism][book_ellis_1956]
-- [Evans 2004 The Kingdom Is Always but Coming][book_evans_2004]
-- [Evans 2017 The Social Gospel in American Religion][book_evans_2017]
-- [Faust 1988 The Creation of Confederate Nationalism][book_faust_1988]
-- [Fear-Segal 2007 White Man's Club][book_fear_segal_2007]
-- [Field 1988 The Missionary Enterprise][book_field_1988]
-- [Foner 1988 Reconstruction][book_foner_1988]
-- [Foner 2019 The Second Founding][book_foner_2019]
-- [Gabaccia 2000 Italy's Many Diasporas][book_gabaccia_2000]
-- [Gates 1968 History of Public Land Law Development][book_gates_1968]
-- [Genetin-Pilawa 2012 Crooked Paths to Allotment][book_genetin_pilawa_2012]
-- [Gill 1998 Mary Baker Eddy][book_gill_1998]
-- [Gottschalk 1973 The Emergence of Christian Science][book_gottschalk_1973]
-- [Guelzo 1999 Abraham Lincoln Redeemer President][book_guelzo_1999]
-- [Gyory 1998 Closing the Gate][book_gyory_1998]
-- [Hacker 2011 A Census-Based Count of the Civil War Dead][book_hacker_2011]
-- [Handy 1966 The Social Gospel in America][book_handy_1966]
-- [Harvey 1997 Redeeming the South][book_harvey_1997]
-- [Hasselmo 1976 Amerikasvenska][book_hasselmo_1976]
-- [Higginbotham 1993 Righteous Discontent][book_higginbotham_1993]
-- [Higham 1955 Strangers in the Land][book_higham_1955]
-- [Hopkins 1940 The Rise of the Social Gospel in American Protestantism][book_hopkins_1940]
-- [Howe 1976 World of Our Fathers][book_howe_1976]
-- [Hoxie 2001 A Final Promise][book_hoxie_2001]
-- [Ichioka 1988 The Issei][book_ichioka_1988]
-- [Kaczorowski 2005 The Politics of Judicial Interpretation][book_kaczorowski_2005]
-- [Kamphoefner 1987 The Westfalians][book_kamphoefner_1987]
-- [Karabel 2005 The Chosen][book_karabel_2005]
-- [Kashima 1977 Buddhism in America][book_kashima_1977]
-- [Kerr 1985 Organized for Prohibition][book_kerr_1985]
-- [Kessner 1977 The Golden Door][book_kessner_1977]
-- [Kinzer 1964 An Episode in Anti-Catholicism][book_kinzer_1964]
-- [Kousser 1974 The Shaping of Southern Politics][book_kousser_1974]
-- [Kwantes 1998 Presbyterian Missionaries in the Philippines][book_kwantes_1998]
-- [La Barre 1938 The Peyote Cult][book_labarre_1938]
-- [Ladd and Mathisen 1999 Muscular Christianity][book_ladd_mathisen_1999]
-- [Lakey 1985 The History of the CME Church][book_lakey_1985]
-- [Lane 2008 The Day Freedom Died][book_lane_2008]
-- [Lee 2003 At America's Gates][book_lee_2003]
-- [Leo XIII 1891 Rerum Novarum][book_leo_xiii_1891]
-- [Levine 1986 The American College and the Culture of Aspiration][book_levine_1986]
-- [Lincoln and Mamiya 1990 The Black Church in the African American Experience][book_lincoln_mamiya_1990]
-- [Litwack 1979 Been in the Storm So Long][book_litwack_1979]
-- [Lovoll 1984 The Promise of America][book_lovoll_1984]
-- [Mancini 1996 One Dies Get Another][book_mancini_1996]
-- [Mangione and Morreale 1992 La Storia][book_mangione_morreale_1992]
-- [Maroukis 2010 The Peyote Road][book_maroukis_2010]
-- [Marsden 1980 Fundamentalism and American Culture][book_marsden_1980]
-- [Marty 1970 Righteous Empire][book_marty_1970]
-- [May 1949 Protestant Churches and Industrial America][book_may_1949]
-- [McKeown 2008 Melancholy Order][book_mckeown_2008]
-- [McKinley 1980 Marching to Glory][book_mckinley_1980]
-- [Meyer 1988 Response to Modernity][book_meyer_1988]
-- [Michels 2005 A Fire in Their Hearts][book_michels_2005]
-- [Miller 1982 Benevolent Assimilation][book_miller_1982]
-- [Miller Stout and Wilson 1998 Religion and the American Civil War][book_miller_stout_wilson_1998]
-- [Minus 1988 Walter Rauschenbusch][book_minus_1988]
-- [Montgomery 1993 Under Their Own Vine and Fig Tree][book_montgomery_1993]
-- [Mooney 1896 The Ghost-Dance Religion][book_mooney_1896]
-- [Mortensen 1967 The Danish Lutheran Church in America][book_mortensen_1967]
-- [Musicant 1998 Empire by Default][book_musicant_1998]
-- [Nelli 1970 The Italians in Chicago][book_nelli_1970]
-- [Nelson 1980 The Lutheran Church Among Norwegian-Americans][book_nelson_1980]
-- [Noll 2006 The Civil War as a Theological Crisis][book_noll_2006_civil]
-- [Nuesse 1990 The Catholic University of America][book_nuesse_1990]
-- [Numbers 1992 Prophetess of Health][book_numbers_1992]
-- [O'Brien 1968 American Catholics and Social Reform][book_obrien_1968]
-- [Oshinsky 1996 Worse Than Slavery][book_oshinsky_1996]
-- [Ostergren 1988 A Community Transplanted][book_ostergren_1988]
-- [Ostler 2004 The Plains Sioux and U.S. Colonialism][book_ostler_2004]
-- [Otis 1973 The Dawes Act][book_otis_1973]
-- [O'Toole 2008 The Faithful][book_otoole_2008]
-- [Parsons 2015 Ku-Klux][book_parsons_2015]
-- [Penton 2015 Apocalypse Delayed][book_penton_2015]
-- [Peterson 1994 Lincoln in American Memory][book_peterson_1994]
-- [Prebish 1999 Luminous Passage][book_prebish_1999]
-- [Prucha 1976 American Indian Policy in Crisis][book_prucha_1976]
-- [Putney 2001 Muscular Christianity][book_putney_2001]
-- [Rable 2010 God's Almost Chosen Peoples][book_rable_2010]
-- [Ransom and Sutch 1977 One Kind of Freedom][book_ransom_sutch_1977]
-- [Rischin 1962 The Promised City][book_rischin_1962]
-- [Ruby and Brown 1989 Dreamer-Prophets of the Columbia Plateau][book_ruby_brown_1989]
-- [Rudolph 1962 The American College and University][book_rudolph_1962]
-- [Salyer 1995 Laws Harsh as Tigers][book_salyer_1995]
-- [Sandeen 1970 The Roots of Fundamentalism][book_sandeen_1970]
-- [Sarna 2004 American Judaism][book_sarna_2004]
-- [Schwartz 2000 Abraham Lincoln and the Forge of National Memory][book_schwartz_2000]
-- [Seager 1995 The World's Parliament of Religions][book_seager_1995]
-- [Silva 2004 Aloha Betrayed][book_silva_2004]
-- [Smoak 2006 Ghost Dances and Identity][book_smoak_2006]
-- [Solomon 1956 Ancestors and Immigrants][book_solomon_1956]
-- [Sorin 1992 A Time for Building][book_sorin_1992]
-- [Stewart 1987 Peyote Religion][book_stewart_1987]
-- [Stout 2006 Upon the Altar of the Nation][book_stout_2006]
-- [Tomasi 1975 Piety and Power][book_tomasi_1975]
-- [Trafzer Keller and Sisquoc 2006 Boarding School Blues][book_trafzer_keller_sisquoc_2006]
-- [Trask 1981 The War With Spain in 1898][book_trask_1981]
-- [Trelease 1971 White Terror][book_trelease_1971]
-- [Tyrrell 1991 Woman's World Woman's Empire][book_tyrrell_1991]
-- [Utley 1963 The Last Days of the Sioux Nation][book_utley_1963]
-- [Veysey 1965 The Emergence of the American University][book_veysey_1965]
-- [Warren 2017 God's Red Son][book_warren_2017]
-- [Washington 1985 Frustrated Fellowship][book_washington_1985]
-- [Watts 1996 The Waldensian Way to America][book_watts_1996]
-- [Wertheimer 1997 A People Divided][book_wertheimer_1997]
-- [White and Hopkins 1976 The Social Gospel][book_white_hopkins_1976]
-- [Wilson 1965 Black Codes of the South][book_wilson_1965]
-- [Wilson 1980 Baptized in Blood][book_wilson_1980]
-- [Woodman 1995 New South, New Law][book_woodman_1995]
-- [Woodward 1955 The Strange Career of Jim Crow][book_woodward_1955]
-- [Woodworth 2001 While God Is Marching On][book_woodworth_2001]
-- [Yoo 2000 Growing Up Nisei][book_yoo_2000]
-- [Yung 1995 Unbound Feet][book_yung_1995]
-- [Ziolkowski 1993 A Museum of Faiths][book_ziolkowski_1993]
-- [Zucchino 2020 Wilmington's Lie][book_zucchino_2020]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Wallace, Anthony F. C. 1956. "Revitalization Movements." *American Anthropologist* 58 (2): 264–81. [https://doi.org/10.1525/aa.1956.58.2.02a00040][research_wallace_1956_revitalization]
 
-- [Addams 1902 Democracy and Social Ethics][ref_addams_1902]
-- [Addams 1910 Twenty Years at Hull House][ref_addams_1910]
-- [Angell Treaty 1880][ref_angell_treaty_1880]
-- [Antin 1912 The Promised City][ref_antin_1912]
-- [BAE Ghost Dance and Wounded Knee Documentation][ref_bae_ghost_dance_wounded_knee]
-- [Briggs 1891 Inaugural Address on the Authority of Holy Scripture][ref_briggs_1891_inaugural]
-- [Brown 1953 The Sacred Pipe (Black Elk)][ref_brown_1953]
-- [Burke Act 1906][ref_burke_act_1906]
-- [Burlingame Treaty 1868][ref_burlingame_treaty_1868]
-- [Cahan 1917 The Rise of David Levinsky][ref_cahan_1917]
-- [California Alien Land Law 1913][ref_california_alien_land_law_1913]
-- [Chae Chan Ping v. United States 1889][ref_chae_chan_ping_1889]
-- [Christian Recorder (AME)][ref_christian_recorder]
-- [Civil Rights Act 1866][ref_us_civil_rights_act_1866]
-- [Civil Rights Act 1875][ref_us_civil_rights_act_1875]
-- [Civil Rights Cases 1883][ref_civil_rights_cases_1883]
-- [Congressional Klan Report 1872 Joint Select Committee Report][ref_congressional_klan_report_1872]
-- [CSA Constitution 1861][ref_csa_constitution_1861]
-- [CSA Davis Fast Day Proclamations][ref_csa_davis_fast_day]
-- [Curtis Act 1898][ref_curtis_act_1898]
-- [Dillingham Commission Reports 1911][ref_dillingham_commission_1911]
-- [Du Bois 1899 The Philadelphia Negro][ref_dubois_1899_philadelphia_negro]
-- [Du Bois 1903 The Souls of Black Folk][ref_dubois_1903_souls]
-- [Eastman 1916 From the Deep Woods to Civilization][ref_eastman_1916]
-- [Eddy 1875 Science and Health with Key to the Scriptures][ref_eddy_1875]
-- [Ely 1889 Social Aspects of Christianity][ref_ely_1889]
-- [Enforcement Act 1870][ref_us_enforcement_act_1870]
-- [Frazier 1865 Conversation with Sherman and Stanton][ref_frazier_1865_conversation]
-- [Fong Yue Ting v. United States 1893][ref_fong_yue_ting_1893]
-- [Geary Act 1892][ref_geary_act_1892]
-- [Gentlemen's Agreement 1908][ref_gentlemens_agreement_1908]
-- [Gibbons 1876 The Faith of Our Fathers][ref_gibbons_1876]
-- [Gibbons 1887 Memorial on the Knights of Labor][ref_gibbons_1887]
-- [Gladden 1876 Working People and Their Employers][ref_gladden_1876]
-- [Gladden 1886 Applied Christianity][ref_gladden_1886]
-- [Howard 1907 Autobiography of Oliver Otis Howard][ref_howard_1907]
-- [Howard Freedmen's Bureau Annual Reports][ref_howard_freedmens_bureau_reports]
-- [Lake Mohonk Conference Proceedings][ref_lake_mohonk_proceedings]
-- [Lazarus 1883 The New Colossus][ref_lazarus_1883]
-- [Louisiana Constitution 1898][ref_louisiana_constitution_1898]
-- [Leo XIII 1888 Libertas Praestantissimum][ref_leo_xiii_1888_libertas]
-- [Lincoln 1862 Meditation on the Divine Will][ref_lincoln_1862_meditation]
-- [Lincoln 1863 Emancipation Proclamation][ref_lincoln_1863_emancipation]
-- [Lincoln 1863 Thanksgiving Proclamation][ref_lincoln_1863_thanksgiving]
-- [Lincoln 1865 Second Inaugural Address][ref_lincoln_1865_second_inaugural]
-- [Meriam Report 1928 The Problem of Indian Administration][ref_meriam_report_1928]
-- [Mississippi Black Code 1865][ref_mississippi_black_code_1865]
-- [Mississippi Constitutional Convention 1890][ref_mississippi_constitution_1890]
-- [Neihardt 1932 Black Elk Speaks][ref_neihardt_1932]
-- [Niagara Creed 1878][ref_niagara_creed_1878]
-- [Payne 1888 Recollections of Seventy Years][ref_payne_1888]
-- [Payne 1891 History of the AME Church][ref_payne_1891]
-- [Pittsburgh Platform 1885 Reform Judaism][ref_pittsburgh_platform_1885]
-- [Pius IX 1864 Syllabus of Errors][ref_pius_ix_1864_syllabus]
-- [Plessy v. Ferguson 1896][ref_plessy_1896]
-- [Pollard 1866 The Lost Cause][ref_pollard_1866]
-- [Powderly 1889 Thirty Years of Labor][ref_powderly_1889]
-- [Powderly 1940 The Path I Trod][ref_powderly_1940]
-- [Pratt 1892 Kill the Indian Address][ref_pratt_1892]
-- [Pratt 1964 Battlefield and Classroom][ref_pratt_1964]
-- [Rauschenbusch 1907 Christianity and the Social Crisis][ref_rauschenbusch_1907]
-- [Rauschenbusch 1917 A Theology for the Social Gospel][ref_rauschenbusch_1917]
-- [Scalabrini 1887 L'Emigrazione Italiana in America][ref_scalabrini_1887]
-- [Scott Act 1888][ref_scott_act_1888]
-- [Sherman 1865 Special Field Orders No. 15][ref_sherman_field_order_15]
-- [Sheldon 1897 In His Steps][ref_sheldon_1897]
-- [Slaughter-House Cases 1873][ref_slaughter_house_1873]
-- [Southern Historical Society Papers][ref_southern_historical_society_papers]
-- [Standing Bear 1928 My People the Sioux][ref_standing_bear_1928]
-- [Strong 1885 Our Country][ref_strong_1885]
-- [Testem Benevolentiae 1899 Leo XIII Encyclical][ref_testem_benevolentiae_1899]
-- [The Fundamentals 1910-1915][ref_the_fundamentals_1910]
-- [Third Plenary Council of Baltimore 1884][ref_third_plenary_council_1884]
-- [Thornwell 1861 Address to All Churches][ref_thornwell_1861]
-- [Treaty of Paris 1898][ref_treaty_of_paris_1898]
-- [US 13th Amendment 1865][ref_us_13th_amendment]
-- [US 14th Amendment 1868][ref_us_14th_amendment]
-- [US 15th Amendment 1870][ref_us_15th_amendment]
-- [US Board of Indian Commissioners Annual Reports][ref_us_board_indian_commissioners]
-- [US Chinese Exclusion Act 1882][ref_us_chinese_exclusion_act_1882]
-- [US Dawes Act 1887 General Allotment Act][ref_us_dawes_act_1887]
-- [US DOI 2022 Federal Indian Boarding School Initiative Investigative Report][ref_us_doi_2022]
-- [US Freedmen's Bureau Act 1865][ref_freedmens_bureau_act]
-- [US Homestead Act 1862][ref_us_homestead_act_1862]
-- [US Ku Klux Klan Act 1871][ref_us_kkk_act_1871]
-- [United States v. Cruikshank 1876][ref_us_v_cruikshank_1876]
-- [United States v. Wong Kim Ark 1898][ref_wong_kim_ark_1898]
-- [Vivekananda 1893 Chicago Address][ref_vivekananda_1893]
-- [Washington 1895 Atlanta Compromise Address][ref_washington_1895_atlanta]
-- [Washington 1901 Up from Slavery][ref_washington_1901_up_from_slavery]
-- [Wells 1892 Southern Horrors][ref_wells_1892_southern_horrors]
-- [Wells 1895 A Red Record][ref_wells_1895_red_record]
-- [White 1888 The Great Controversy][ref_white_1888]
-- [Willard 1889 Glimpses of Fifty Years][ref_willard_1889]
-- [Willard 1895 Do Everything][ref_willard_1895]
-- [Wise 1901 Reminiscences][ref_wise_1901]
-- [Zangwill 1908 The Melting Pot][ref_zangwill_1908]
-- [Zitkala-Ša 1900 Atlantic Monthly Essays][ref_zitkala_sa_1900]
+### Primary Sources, Non-Peer-Reviewed
+
+- "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)." 1865. National Archives. Accessed October 25, 2026. [https://www.archives.gov/milestone-documents/13th-amendment][ref_us_13th_amendment]
+- "15th Amendment to the U.S. Constitution: Voting Rights (1870)." 1870. National Archives. Accessed October 25, 2026. [https://www.archives.gov/milestone-documents/15th-amendment][ref_us_15th_amendment]
+- Addams. 1902. "Democracy and Social Ethics." [https://archive.org/details/democracysocia00adda][ref_addams_1902]
+- "Angell Treaty." 1880. [https://www.loc.gov/collections/statutes-at-large/][ref_angell_treaty_1880]
+- "Avalon Project: Treaty of Peace between the United States and Spain; December 10, 1898." 1898. Accessed October 25, 2026. [https://avalon.law.yale.edu/19th\_century/sp1898.asp][ref_treaty_of_paris_1898]
+- Briggs. 1891. "Inaugural Address on the Authority of Holy Scripture." [https://archive.org/details/authorityofholys00brig][ref_briggs_1891_inaugural]
+- "Burke Act." 1906. [https://www.loc.gov/collections/statutes-at-large/][ref_burke_act_1906]
+- "Burlingame Treaty." 1868. [https://history.state.gov/milestones/1866-1898/burlingame-seward-treaty][ref_burlingame_treaty_1868]
+- Cahan. 1917. "The Rise of David Levinsky." [https://archive.org/details/riseofdavidlevin00caha][ref_cahan_1917]
+- "Chae Chan Ping v. United States." 1889. [https://supreme.justia.com/cases/federal/us/130/581/][ref_chae_chan_ping_1889]
+- "Chinese Exclusion Act (1882)." 1882. National Archives. Accessed October 25, 2026. [https://www.archives.gov/milestone-documents/chinese-exclusion-act][ref_us_chinese_exclusion_act_1882]
+- "Civil Rights Act." 1875. [https://www.loc.gov/collections/statutes-at-large/][ref_us_civil_rights_act_1875]
+- "Civil Rights Cases, 109 U.S. 3 (1883)." 1883. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/109/3/][ref_civil_rights_cases_1883]
+- Congressional Klan Report. 1872. "Joint Select Committee Report." [https://www.loc.gov/item/13012207/][ref_congressional_klan_report_1872]
+- CSA Constitution. 1861. "Avalon Project: Constitution of the Confederate States; March 11, 1861." Accessed October 25, 2026. [https://avalon.law.yale.edu/19th\_century/csa\_csa.asp][ref_csa_constitution_1861]
+- "Curtis Act." 1898. [https://www.loc.gov/collections/statutes-at-large/][ref_curtis_act_1898]
+- Eastman. 1916. "From the Deep Woods to Civilization." [https://archive.org/details/fromdeepwoodstoc00east][ref_eastman_1916]
+- Ely. 1889. "Social Aspects of Christianity." [https://archive.org/details/socialaspectsof00elyr][ref_ely_1889]
+- "Enforcement Act." 1870. [https://www.loc.gov/collections/statutes-at-large/][ref_us_enforcement_act_1870]
+- "Fong Yue Ting v. United States, 149 U.S. 698 (1893)." 1893. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/149/698/][ref_fong_yue_ting_1893]
+- "The Fundamentals 1910-." 1915. [https://ccel.org/ccel/torrey/fundamentals][ref_the_fundamentals_1910]
+- "Geary Act." 1892. [https://www.loc.gov/collections/statutes-at-large/][ref_geary_act_1892]
+- "Gentlemen's Agreement." 1908. [https://history.state.gov/milestones/1899-1913/gentlemens-agreement][ref_gentlemens_agreement_1908]
+- Gibbons. 1876. "The Faith of Our Fathers." [https://archive.org/details/faithofourfather00gibb][ref_gibbons_1876]
+- Gladden. 1876. "Working People and Their Employers." [https://archive.org/details/workingpeopleth00gladgoog][ref_gladden_1876]
+- Howard. 1907. "Autobiography of Oliver Otis Howard." [https://archive.org/details/autobiographyof01howa][ref_howard_1907]
+- Leo XIII. 1888. "Libertas (June 20, 1888)." Accessed October 25, 2026. [https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf\_l-xiii\_enc\_20061888\_libertas.html][ref_leo_xiii_1888_libertas]
+- Lincoln. 1863a. "The Emancipation Proclamation." National Archives. Accessed October 25, 2026. [https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation][ref_lincoln_1863_emancipation]
+- Lincoln. 1865. "Transcription: Washington's Inaugural Address." Accessed October 25, 2026. [https://www.archives.gov/exhibits/american\_originals/inaugtxt.html][ref_lincoln_1865_second_inaugural]
+- Payne. 1888. "Recollections of Seventy Years." [https://docsouth.unc.edu/church/payne/menu.html][ref_payne_1888]
+- Pius IX. 1864. "The Syllabus of Errors.", June 9. [https://www.papalencyclicals.net/pius09/p9syll.htm][ref_pius_ix_1864_syllabus]
+- "Plessy v. Ferguson." 1896. [https://supreme.justia.com/cases/federal/us/163/537/][ref_plessy_1896]
+- Pollard. 1866. "The Lost Cause." [https://docsouth.unc.edu/imls/pollard/pollard.html][ref_pollard_1866]
+- Powderly. 1889. "Thirty Years of Labor." [https://archive.org/details/thirtyyearsoflab00powd][ref_powderly_1889]
+- Rauschenbusch. 1907. "Christianity and the Social Crisis." [https://archive.org/details/christianityand00raus][ref_rauschenbusch_1907]
+- Rauschenbusch. 1917. "A Theology for the Social Gospel." [https://archive.org/details/atheologyforsoc00raus][ref_rauschenbusch_1917]
+- "Scott Act." 1888. [https://www.loc.gov/collections/statutes-at-large/][ref_scott_act_1888]
+- "Slaughterhouse Cases, 83 U.S. 36 (1872)." 1873. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/83/36/][ref_slaughter_house_1873]
+- Strong. 1885. "Our Country." [https://archive.org/details/ourcountryitsp00stro][ref_strong_1885]
+- Testem Benevolentiae. 1899. "Leo XIII Encyclical." [https://www.papalencyclicals.net/leo13/l13teste.htm][ref_testem_benevolentiae_1899]
+- Thornwell. 1861. "Address to All Churches." [https://docsouth.unc.edu/church/thornwell/menu.html][ref_thornwell_1861]
+- "U.S. Statutes at Large, Volume 17 (1871-1873), 42nd Congress." 1871. The Library of Congress. Accessed October 25, 2026. [https://www.loc.gov/resource/llsalvol.llsal\_017/?st=gallery][ref_us_kkk_act_1871]
+- "United States v. Cruikshank, 92 U.S. 542 (1875)." 1876. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/92/542/][ref_us_v_cruikshank_1876]
+- "United States v. Wong Kim Ark, 169 U.S. 649 (1898)." 1898. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/169/649/][ref_wong_kim_ark_1898]
+- "US 14th Amendment." 1868. [https://www.archives.gov/milestone-documents/14th-amendment][ref_us_14th_amendment]
+- US Dawes Act. 1887. "General Allotment Act." [https://www.archives.gov/milestone-documents/dawes-act][ref_us_dawes_act_1887]
+- "US Freedmen's Bureau Act." 1865. [https://www.loc.gov/resource/rbpe.16800900/][ref_freedmens_bureau_act]
+- "US Homestead Act." 1862. [https://www.archives.gov/milestone-documents/homestead-act][ref_us_homestead_act_1862]
+- Vecoli, Rudolph J. 1964. "Contadini in Chicago: A Critique of the Uprooted." *Journal of American History* 51 (3): 404. [https://doi.org/10.2307/1894893][research_vecoli_1964_italians]
+- Vecoli, R. J. 1969. "Prelates and Peasants: Italian Immigrants and the Catholic Church." *Journal of Social History* 2 (3): 217–68. [https://doi.org/10.1353/jsh/2.3.217][research_vecoli_1969]
+- Washington. 1895. "Booker T. Washington Delivers the 1895 Atlanta Compromise Speech." Accessed October 25, 2026. [https://historymatters.gmu.edu/d/39/][ref_washington_1895_atlanta]
+- Willard. 1889. "Glimpses of Fifty Years." [https://archive.org/details/glimpsesoffiftyy00will][ref_willard_1889]
+- Wise. 1901. "Reminiscences." [https://archive.org/details/reminiscencesbyi00wise][ref_wise_1901]
+
+### Secondary Sources
+
+- Abell, Aaron Ignatius. 1960. *American Catholicism and Social Action: A Search for Social Justice, 1865-1950*. Hanover House. [https://openlibrary.org/works/OL1193659W][book_abell_1960]
+- Adams, David Wallace. 1995. *Education for Extinction: American Indians and the Boarding School Experience, 1875-1928*. University Press of Kansas. [https://kansaspress.ku.edu/978-0-7006-0735-3.html][book_adams_1995]
+- Addams. 1910. *Twenty Years at Hull House; with Autobiographical Notes by Jane Addams*. [https://www.gutenberg.org/ebooks/1325][ref_addams_1910]
+- Ahlstrom, Sydney E. 1972. *A Religious History of the American People*. Yale University Press. [https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/][book_ahlstrom_1972]
+- Anderson. 1969. *Facing the Pacific*. [https://scholar.google.com/scholar?q=anderson+1969+facing+the+pacific][book_anderson_1969]
+- Anderson, James D. 1988. *Education of Blacks in the South, 1860-1935*. University of North Carolina Press. [https://uncpress.org/book/9780807842218/the-education-of-blacks-in-the-south-1860-1935/][book_anderson_1988]
+- Andersson, Rani-Henrik. 2008. *The Lakota Ghost Dance of 1890*. University of Nebraska Press. [https://www.nebraskapress.unl.edu/nebraska/9780803213432/][book_andersson_2008]
+- Arrington, Leonard J. 1985. *Brigham Young*. Alfred A. Knopf. [https://www.knopfdoubleday.com/book/175089/brigham-young-american-moses/][book_arrington_1985]
+- Azuma, Eiichiro. 2005. *Between Two Empires: Race, History, and Transnationalism in Japanese America*. Oxford University Press. [https://global.oup.com/academic/product/between-two-empires-9780195159400][book_azuma_2005]
+- Baltzell, E. Digby. 1958. *Philadelphia Gentlemen: The Making of a National Upper Class*. Free Press. [https://openlibrary.org/works/OL2938945W][book_baltzell_1958]
+- Baltzell, E. Digby. 1964. *The Protestant Establishment: Aristocracy & Caste in America*. Random House. [https://openlibrary.org/works/OL2938944W][book_baltzell_1964]
+- Barnett, Homer Garner. 1957. *Indian Shakers: A Messianic Cult of the Pacific Northwest*. Southern Illinois University Press. [https://uofmpress.umn.edu/9780809301218/indian-shakers/][book_barnett_1957]
+- Barton, H. Arnold. 1994. *A Folk Divided: Homeland Swedes and Swedish Americans, 1840-1940*. Southern Illinois University Press. [https://uofcpress.com/9780809318681/a-folk-divided/][book_barton_1994]
+- Beckford, James A. 1975. *The Trumpet of Prophecy: A Sociological Study of Jehovah's Witnesses*. Wiley. [https://openlibrary.org/works/OL2723993W][book_beckford_1975]
+- Blackmon, Douglas A. 2008. *Slavery by Another Name: The Re-Enslavement of Black Americans from the Civil War to World War II*. Doubleday. [https://www.penguinrandomhouse.com/books/76800/slavery-by-another-name-by-douglas-a-blackmon/][book_blackmon_2008]
+- Bordin. 1981. *Frances Willard*. [https://uofmpress.umn.edu/9780807841242/frances-willard/][book_bordin_1981]
+- Braude, Ann. 1989. *Radical Spirits: Spiritualism and Women's Rights in Nineteenth-Century America*. Beacon Press. [https://iupress.org/9780253345547/radical-spirits/][book_braude_1989]
+- Bushman. 2005. *Joseph Smith Rough Stone Rolling*. [https://www.penguinrandomhouse.com/books/76931/joseph-smith-by-richard-lyman-bushman/][book_bushman_2005]
+- Butchart, Ronald E. 2010. *Schooling the Freed People: Teaching, Learning, and the Struggle for Black Freedom, 1861-1876*. University of North Carolina Press. [https://uncpress.org/book/9780807833636/schooling-the-freed-people/][book_butchart_2010]
+- Butler, Jon. 1990. *Awash in a Sea of Faith: Christianizing the American People*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674056015][book_butler_1990]
+- Cecelski, David S., and Tyson. 1998. *Democracy Betrayed: The Wilmington Race Riot of 1898 and Its Legacy*. The University of North Carolina Press. [https://uncpress.org/book/9780807847770/democracy-betrayed/][book_cecelski_tyson_1998]
+- Chen, Yong. 2000. *Chinese San Francisco, 1850-1943*. [https://global.oup.com/academic/product/chinese-san-francisco-9780804744492][book_chen_2000]
+- Child, Brenda J. 1998. *Boarding School Seasons: American Indian Families, 1900-1940 (North American Indian Prose Award)*. University of Nebraska Press. [https://www.nebraskapress.unl.edu/nebraska/9780803263949/][book_child_1998]
+- Cimbala, Paul A. 2003. *Under the Guardianship of the Nation: The Freedmen's Bureau and the Reconstruction of Georgia, 1865-1870*. University of Georgia Press. [https://ugapress.org/book/9780820325644/under-the-guardianship-of-the-nation/][book_cimbala_2003]
+- Cinel, Dino. 1982. *From Italy to San Francisco: The Immigrant Experience*. Stanford University Press. [https://sup.org/books/title/?id=2144][book_cinel_1982]
+- Cone, James H. 2011. *The Cross and the Lynching Tree*. Orbis Books. [https://orbisbooks.com/products/the-cross-and-the-lynching-tree][book_cone_2011]
+- Cornelius, Janet Duitsman. 1991. *"When I Can Read My Title Clear": Literacy, Slavery, and Religion in the Antebellum South*. University of South Carolina Press. [https://uscpress.com/When-I-Can-Read-My-Title-Clear][book_cornelius_1991]
+- Cross, Robert D. 1958. *The Emergence of Liberal Catholicism in America*. Harvard University Press. [https://openlibrary.org/works/OL7525593W][book_cross_1958]
+- Curran, Charles E. 2002. *Catholic Social Teaching, 1891-Present: A Historical, Theological, and Ethical Analysis (Moral Traditions Series)*. Georgetown University Press. [https://georgetownupress.georgetown.edu/9781589011113/catholic-social-teaching-1891-present/][book_curran_2002]
+- Daniels, Roger. 1988. *Asian America: Chinese and Japanese in the United States since 1850*. University of Washington Press. [https://openlibrary.org/works/OL2664426W][book_daniels_1988]
+- Debo, Angie. 1940. *And Still the Waters Run: The Betrayal of the Five Civilized Tribes*. Princeton University Press. [https://www.press.princeton.edu/books/paperback/9780691005638/and-still-the-waters-run][book_debo_1940]
+- *Dillingham Commission Reports*. 1911. [https://catalog.hathitrust.org/Record/007068024][ref_dillingham_commission_1911]
+- Diner, Hasia R., and Hasia R. Diner. 2000. *Lower East Side Memories: A Jewish Place in America*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691095455/lower-east-side-memories][book_diner_2000]
+- Dorn, Jacob Henry. 1967. *Washington Gladden: Prophet of the Social Gospel*. Ohio State University. [https://global.oup.com/academic/product/washington-gladden-9780814200377][book_dorn_1967]
+- Du Bois. 1903. *The Souls of Black Folk by W. E. B. Du Bois*. [https://www.gutenberg.org/ebooks/408][ref_dubois_1903_souls]
+- Eddy. 1875. *Science and Health*. [https://www.christianscience.com/read-online/science-and-health][ref_eddy_1875]
+- Edwards. 2009. *Frontier Women and Their Art*. [https://global.oup.com/academic/product/frontier-women-and-their-art-9780815324812][book_edwards_2009]
+- Ellis, John Tracy. 1956. *American Catholicism*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/A/bo3644145.html][book_ellis_1956]
+- Evans, Christopher Hodge. 2004. *The Kingdom Is Always but Coming: A Life of Walter Rauschenbusch (Library of Religious Biography Series)*. Wm. B. Eerdmans Publishing Company. [https://www.eerdmans.com/9780802828958/the-kingdom-is-always-but-coming/][book_evans_2004]
+- Evans, Christopher Hodge. 2017. *The Social Gospel in American Religion: A History*. NYU Press. [https://global.oup.com/academic/product/the-social-gospel-in-american-religion-9781479823246][book_evans_2017]
+- Faust, Drew Gilpin. 1988. *The Creation of Confederate Nationalism: Ideology and Identity in the Civil War South*. Louisiana State University Press. [https://lsupress.org/9780807116517/the-creation-of-confederate-nationalism/][book_faust_1988]
+- Fear-Segal, Jacqueline. 2007. *White Man's Club: Schools, Race, and the Struggle of Indian Acculturation*. University of Nebraska Press. [https://www.nebraskapress.unl.edu/nebraska/9780803269576/][book_fear_segal_2007]
+- Field. 1988. *The Missionary Enterprise*. [https://scholar.google.com/scholar?q=field+1988+missionary+enterprise][book_field_1988]
+- Foner, Eric. 1988. *Reconstruction: America's Unfinished Revolution, 1863-1877*. Harper & Row. [https://www.harpercollins.com/products/reconstruction-eric-foner][book_foner_1988]
+- Foner, Eric. 2019. *The Second Founding*. Norton & Company. [https://wwnorton.com/books/The-Second-Founding][book_foner_2019]
+- Gabaccia, Donna R. 2000. *Italy's Many Diasporas*. University of Washington Press. [https://global.oup.com/academic/product/italys-many-diasporas-9780415950329][book_gabaccia_2000]
+- Gates, Paul Wallace. 1968. *History of Public Land Law Development*. U.S. Government Printing Office. [https://openlibrary.org/works/OL2659521W][book_gates_1968]
+- Genetin-Pilawa, C. Joseph. 2012. *Crooked Paths to Allotment: The Fight over Federal Indian Policy after the Civil War*. University of North Carolina Press. [https://uncpress.org/book/9780807872154/crooked-paths-to-allotment/][book_genetin_pilawa_2012]
+- Gibbons. 1887. *Memorial on the Knights of Labor*. [https://catalog.hathitrust.org/Record/009569063][ref_gibbons_1887]
+- Gill, Gillian. 1998. *Mary Baker Eddy*. Addison Wesley Publishing Company. [https://www.perseusbooks.com/gill-mary-baker-eddy][book_gill_1998]
+- Gladden, Washington, 1836-1918. 1886. *Applied Christianity; Moral Aspects of Social Questions*. London Ward, Lock. [https://archive.org/details/appliedchristian00gladuoft][ref_gladden_1886]
+- Gottschalk, Stephen. 1973. *The Emergence of Christian Science in American Religious Life*. University of California Press. [https://www.ucpress.edu/book/9780520023918/the-emergence-of-christian-science-in-american-religious-life][book_gottschalk_1973]
+- Guelzo, Allen C. 1999. *Abraham Lincoln: Redeemer President*. W.B. Eerdmans. [https://www.eerdmans.com/9780802842930/abraham-lincoln/][book_guelzo_1999]
+- Gyory, Andrew. 1998. *Closing the Gate: Race, Politics, and the Chinese Exclusion Act*. University of North Carolina Press. [https://uncpress.org/book/9780807824283/closing-the-gate/][book_gyory_1998]
+- Hacker. 2011. *A Census-Based Count of the Civil War Dead*. [https://muse.jhu.edu/article/460641][book_hacker_2011]
+- Handy, Robert T. 1966. *The Social Gospel in America, 1870-1920: Gladden, Ely, Rauschenbusch*. Oxford University Press. [https://global.oup.com/academic/product/the-social-gospel-in-america-9780195008715][book_handy_1966]
+- Harvey, Paul. 1997. *Redeeming the South: Religious Cultures and Racial Identities among Southern Baptists, 1865-1925*. University of North Carolina Press. [https://uncpress.org/book/9780807846582/redeeming-the-south/][book_harvey_1997]
+- Hasselmo, Nils. 1976. *Amerikasvenska: En Bok Om Språkutvecklingen i Svensk-Amerika*. Esselte studium. [https://openlibrary.org/works/OL6872761W][book_hasselmo_1976]
+- Higginbotham, Evelyn Brooks. 1993. *Righteous Discontent: The Women's Movement in the Black Baptist Church, 1880-1920*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674769786][book_higginbotham_1993]
+- Higham, John, John Higham, John Higham, and JOhn Higham. 1955. *Strangers in the Land: Patterns of American Nativism, 1860-1925*. Rutgers University Press. [https://rutgersuniversitypress.org/strangers-in-the-land/9780813522104/][book_higham_1955]
+- Hopkins, Charles Howard. 1940. *The Rise of the Social Gospel in American Protestantism, 1865-1915*. Yale University Press. [https://yalebooks.yale.edu/book/9780300010992/the-rise-of-the-social-gospel-in-american-protestantism/][book_hopkins_1940]
+- *Howard Freedmen's Bureau Annual Reports*. n.d. [https://catalog.hathitrust.org/Record/002064321][ref_howard_freedmens_bureau_reports]
+- Howe, Irving. 1976. *World of Our Fathers*. Simon and Schuster. [https://www.hmhbooks.com/shop/books/world-of-our-fathers/9780816156481][book_howe_1976]
+- Hoxie, Frederick E. 2001. *A Final Promise: The Campaign to Assimilate the Indians, 1880-1920*. University of Nebraska Press. [https://www.nebraskapress.unl.edu/nebraska/9780803273276/][book_hoxie_2001]
+- Ichioka, Yuji. 1988. *The Issei: The World of the First Generation Japanese Immigrants, 1885-1924*. Collier Macmillan Publishers. [https://openlibrary.org/works/OL5093234W][book_ichioka_1988]
+- Kaczorowski, Robert J. 2005. *The Politics of Judicial Interpretation: The Federal Courts, Department of Justice, and Civil Rights, 1866-1876*. Fordham University Press. [https://fordhampress.com/9780823225286/the-politics-of-judicial-interpretation/][book_kaczorowski_2005]
+- Kamphoefner, Walter D. 1987. *The Westfalians: From Germany to Missouri*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691633114/the-westfalians][book_kamphoefner_1987]
+- Karabel, Jerome. 2005. *The Chosen: The Hidden History of Admission and Exclusion at Harvard, Yale, and Princeton*. Houghton Mifflin. [https://www.hmhbooks.com/shop/books/the-chosen/9780618773558][book_karabel_2005]
+- Kashima, Tetsuden. 1977. *Buddhism in America: The Social Organization of an Ethnic Religious Institution*. Greenwood Press. [https://greenwood.com/product/buddhism-in-america][book_kashima_1977]
+- Kerr, K. Austin. 1985. *Organized for Prohibition: A New History of the Anti-Saloon League*. Yale University Press. [https://global.oup.com/academic/product/organized-for-prohibition-9780300030266][book_kerr_1985]
+- Kessner, Thomas. 1977. *The Golden Door: Italian and Jewish Immigrant Mobility in New York City, 1880-1915*. Oxford University Press. [https://global.oup.com/academic/product/the-golden-door-9780195028614][book_kessner_1977]
+- Kinzer, Donald Louis. 1964. *An Episode in Anti-Catholicism: The American Protective Association*. University of Washington Press. [https://uwapress.uw.edu/book/9780295739793/an-episode-in-anti-catholicism/][book_kinzer_1964]
+- Kousser, J. Morgan. 1974. *The Shaping of Southern Politics: Suffrage Restriction and the Establishment of the One-Party South, 1880-1910*. Yale University Press. [https://yalebooks.yale.edu/book/9780300019506/the-shaping-of-southern-politics/][book_kousser_1974]
+- Kwantes, Anne C. 1998. *Presbyterian Missionaries in the Philippines: Conduits of Social Change (1899-1910)*. New Day Publishers. [https://openlibrary.org/works/OL4428863W][book_kwantes_1998]
+- La Barre, Weston. 1938. *The Peyote Cult*. Yale University Press. [https://www.oupress.com/9780806121369/the-peyote-cult/][book_labarre_1938]
+- Ladd, Tony, and James A. Mathisen. 1999. *Muscular Christianity: Evangelical Protestants and the Development of American Sport*. Baker Books. [https://bakerpublishinggroup.com/books/muscular-christianity/312690][book_ladd_mathisen_1999]
+- *Lake Mohonk Conference Proceedings*. n.d. [https://catalog.hathitrust.org/Record/000133389][ref_lake_mohonk_proceedings]
+- Lakey, Othal Hawthorne. 1985. *The History of the CME Church*. CME Pub. House. [https://openlibrary.org/works/OL5170821W][book_lakey_1985]
+- Lane, Charles. 2008. *The Day Freedom Died: The Colfax Massacre, the Supreme Court, and the Betrayal of Reconstruction*. Henry Holt and Co. [https://www.hmhbooks.com/shop/books/the-day-freedom-died/9780805089226][book_lane_2008]
+- Lee, Erika. 2003. *At America's Gates*. Stanford University Press. [https://uncpress.org/book/9780807855102/at-americas-gates/][book_lee_2003]
+- Leo XIII. 1891. *Rerum Novarum (May 15, 1891)*. [https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf\_l-xiii\_enc\_15051891\_rerum-novarum.html][book_leo_xiii_1891]
+- Levine, David O. 1986. *The American College and the Culture of Aspiration, 1915-1940*. Cornell University Press. [https://global.oup.com/academic/product/the-american-college-and-the-culture-of-aspiration-9780801495878][book_levine_1986]
+- Lincoln, C. Eric, and Mamiya. 1990. *The Black Church in the African-American Experience*. Duke University Press. [https://www.dukeupress.edu/the-black-church-in-the-african-american-experience][book_lincoln_mamiya_1990]
+- Litwack, Leon F. 1979. *Been in the Storm So Long: The Aftermath of Slavery*. Knopf: distributed by Random House. [https://www.penguinrandomhouse.com/books/38137/been-in-the-storm-so-long-by-leon-f-litwack/][book_litwack_1979]
+- Lovoll. 1984. *The Promise of America*. [https://uofmpress.umn.edu/9780816613212/the-promise-of-america/][book_lovoll_1984]
+- Mancini, Matthew J. 1996. *One Dies, Get Another: Convict Leasing in the American South, 1866-1928*. University of South Carolina Press. [https://uscpress.com/one-dies-get-another][book_mancini_1996]
+- Mangione, Jerre Gerlando, Jerre Mangione, and Ben Morreale. 1992. *La Storia: Five Centuries of the Italian American Experience*. HarperCollins Publishers. [https://www.harpercollins.com/products/la-storia-jerre-mangione][book_mangione_morreale_1992]
+- Maroukis, Thomas Constantine. 2010. *The Peyote Road: Religious Freedom and the Native American Church*. University of Oklahoma Press. [https://www.oupress.com/9780806140902/the-peyote-road/][book_maroukis_2010]
+- Marsden, George M. 1980. *Fundamentalism and American Culture: The Shaping of Twentieth Century Evangelicalism, 1870-1925*. Oxford University Press. [https://global.oup.com/academic/product/fundamentalism-and-american-culture-9780195300475][book_marsden_1980]
+- Marty, Martin E. 1970. *Righteous Empire: The Protestant Experience in America*. Dial Press. [https://openlibrary.org/works/OL1875310W][book_marty_1970]
+- May, Henry Farnham. 1949. *Protestant Churches and Industrial America*. Harper & Brothers. [https://openlibrary.org/works/OL3940054W][book_may_1949]
+- McKeown, Adam Ph. D. 2008. *Melancholy Order: Asian Migration and the Globalization of Borders*. Columbia University Press. [https://cup.columbia.edu/book/melancholy-order/9780231140768][book_mckeown_2008]
+- McKinley, Edward H. 1980. *Marching to Glory*. Harper & Row San Francisco. [https://www.eerdmans.com/9780802835710/marching-to-glory/][book_mckinley_1980]
+- Meriam Report. 1928. *The Problem of Indian Administration*. [https://catalog.hathitrust.org/Record/001292907][ref_meriam_report_1928]
+- Meyer. 1988. *Response to Modernity (Reform Judaism)*. [https://global.oup.com/academic/product/response-to-modernity-9780814326848][book_meyer_1988]
+- Michels, Tony. 2005. *A Fire in Their Hearts: Yiddish Socialists in New York*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674025684][book_michels_2005]
+- Miller, Stuart Creighton. 1982. *Benevolent Assimilation: The American Conquest of the Philippines, 1899-1903*. Yale University Press. [https://yalebooks.yale.edu/book/9780300030815/benevolent-assimilation/][book_miller_1982]
+- Miller, Randall M., Harry S. Stout, and Charles Reagan Wilson. 1998. *Religion and the American Civil War*. Oxford University Press. [https://global.oup.com/academic/product/religion-and-the-american-civil-war-9780195121285][book_miller_stout_wilson_1998]
+- Minus, Paul M. 1988. *Walter Rauschenbusch, American Reformer*. Macmillan. [https://www.mercer.edu/press/minus-walter-rauschenbusch][book_minus_1988]
+- Montgomery, William E. 1993. *Under Their Own Vine and Fig Tree: The African-American Church in the South, 1865-1900*. Louisiana State University Press. [https://lsupress.org/9780807118689/under-their-own-vine-and-fig-tree/][book_montgomery_1993]
+- Mooney, James. 1896. *The Ghost-Dance Religion and the Sioux Outbreak of 1890*. U.S. Govt. Print. Off. [https://archive.org/details/ghostdancereligi00moon][book_mooney_1896]
+- Mortensen, Enok. 1967. *The Danish Lutheran Church in America*. Board of Publication Lutheran Church in America. [https://openlibrary.org/works/OL44108763W][book_mortensen_1967]
+- Musicant, Ivan. 1998. *Empire by Default: The Spanish-American War and the Dawn of the American Century*. H. Holt. [https://henryholt.com/9780805066241][book_musicant_1998]
+- Neihardt, John G. 1932. *Black Elk Speaks: Being the Life Story of a Holy Man of the Oglala Sioux*. Penguin Random House. [https://www.nebraskapress.unl.edu/nebraska/9780803283916/][ref_neihardt_1932]
+- Nelli. 1970. *The Italians in Chicago*. [https://global.oup.com/academic/product/the-italians-in-chicago-9780195029093][book_nelli_1970]
+- Nelson, E. Clifford. 1980. *The Lutheran Church among Norwegian-Americans: A History of the Evangelical Lutheran Church*. Augusburg Pub. House. [https://uofmpress.umn.edu/9780816609314/the-lutheran-church-among-norwegian-americans/][book_nelson_1980]
+- Noll, Mark A. 2006. *The Civil War as a Theological Crisis*. University of North Carolina Press. [https://uncpress.org/book/9780807858998/the-civil-war-as-a-theological-crisis/][book_noll_2006_civil]
+- Nuesse, C. Joseph. 1990. *The Catholic University of America: A Centennial History*. Catholic University of America Press. [https://cuapress.org/9780813207247/the-catholic-university-of-america/][book_nuesse_1990]
+- Numbers, Ronald L. 1992. *Prophetess of Health: Ellen G. White and the Origins of Seventh-Day Adventist Health Reform*. University of Tennessee Press. [https://uofnpress.utenn.edu/9780870499241/prophetess-of-health/][book_numbers_1992]
+- O'Brien, David J. 1968. *American Catholics and Social Reform: The New Deal Years*. Oxford U. P. [https://openlibrary.org/works/OL2559299W][book_obrien_1968]
+- O'Toole, James M. 2008. *The Faithful: A History of Catholics in America*. Belknap Press. [https://www.hup.harvard.edu/books/9780674034686][book_otoole_2008]
+- Oshinsky, David M. 1996. *Worse than Slavery: Parchman Farm and the Ordeal of Jim Crow Justice*. Free Press. [https://www.simonandschuster.com/books/Worse-Than-Slavery/David-M-Oshinsky/9780684830957][book_oshinsky_1996]
+- Ostergren, Robert Clifford. 1988. *A Community Transplanted: The Trans-Atlantic Experience of a Swedish Immigrant Settlement in the Upper Middle West, 1835-1915*. Uppsala. [https://www.wisc.edu/press/books/9780299111342][book_ostergren_1988]
+- Ostler, Jeffrey. 2004. *The Plains Sioux and U.S. Colonialism from Lewis and Clark to Wounded Knee (Studies in North American Indian History)*. Cambridge University Press. [https://www.cambridge.org/9780521605908][book_ostler_2004]
+- Otis. 1973. *The Dawes Act*. [https://www.oupress.com/9780806113166/the-dawes-act/][book_otis_1973]
+- Parsons, Elaine Frantz. 2015. *Ku-Klux: The Birth of the Klan during Reconstruction*. University of North Carolina Press. [https://uncpress.org/book/9781469620251/ku-klux/][book_parsons_2015]
+- Payne, Daniel Alexander, 1811-1893, and Charles Spencer, 1852- ed Smith. 1891. *History of the African Methodist Episcopal Church*. Nashville, Tenn., Publishing house of the A. M. E. Sunday-school union. [https://archive.org/details/historyofafrican00payn][ref_payne_1891]
+- Penton, M. James. 2015. *Apocalypse Delayed: The Story of Jehovah's Witnesses*. University of Toronto Press. [https://utorontopress.com/9781442649552/apocalypse-delayed/][book_penton_2015]
+- Peterson, Merrill D. 1994. *Lincoln in American Memory*. Oxford University Press. [https://global.oup.com/academic/product/lincoln-in-american-memory-9780195096453][book_peterson_1994]
+- Powderly. 1940. *The Path I Trod*. [https://catalog.hathitrust.org/Record/000431195][ref_powderly_1940]
+- Prebish, Charles S. 1999. *Luminous Passage: The Practice and Study of Buddhism in America*. University of California Press. [https://www.ucpress.edu/book/9780520216976/luminous-passage][book_prebish_1999]
+- Prucha, Francis Paul. 1976. *American Indian Policy in Crisis: Christian Reformers and the Indian, 1865-1900*. University of Oklahoma Press. [https://global.oup.com/academic/product/american-indian-policy-in-crisis-9780806117966][book_prucha_1976]
+- Putney, Clifford. 2001. *Muscular Christianity: Manhood and Sports in Protestant America, 1880-1920*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674009882][book_putney_2001]
+- Rable, George C. 2010. *God's Almost Chosen Peoples: A Religious History of the American Civil War*. University of North Carolina Press. [https://uncpress.org/book/9780807834268/gods-almost-chosen-peoples/][book_rable_2010]
+- Ransom, Roger L., and Richard Sutch. 1977. *One Kind of Freedom: The Economic Consequences of Emancipation*. Syndics of the Cambridge University Press. [https://www.cambridge.org/9780521721301][book_ransom_sutch_1977]
+- Rischin, Moses. 1962. *The Promised City: New York's Jews, 1870-1914*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674714809][book_rischin_1962]
+- Ruby, Robert H., and John Arthur Brown. 1989. *Dreamer-Prophets of the Columbia Plateau: Smohalla and Skolaskin*. University of Oklahoma Press. [https://oupress.com/9780806122991/dreamer-prophets-of-the-columbia-plateau/][book_ruby_brown_1989]
+- Rudolph, Frederick. 1962. *The American College and University*. Alfred A Knopf. [https://uga.edu/press/rudolph-american-college-university][book_rudolph_1962]
+- Salyer, Lucy E. 1995. *Laws Harsh as Tigers: Chinese Immigrants and the Shaping of Modern Immigration Law*. University of North Carolina Press. [https://uncpress.org/book/9780807845301/laws-harsh-as-tigers/][book_salyer_1995]
+- Sandeen, Ernest Robert. 1970. *The Roots of Fundamentalism: British and American Millenarianism, 1800-1930*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/R/bo3623648.html][book_sandeen_1970]
+- Sarna, Jonathan D. 2004. *American Judaism: A History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300109764/american-judaism/][book_sarna_2004]
+- Schwartz, Barry. 2000. *Abraham Lincoln and the Forge of National Memory*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/A/bo3629960.html][book_schwartz_2000]
+- Seager, Richard Hughes. 1995. *The World's Parliament of Religions: The East/West Encounter, Chicago, 1893*. Indiana University Press. [https://iupress.org/9780253335005/the-worlds-parliament-of-religions/][book_seager_1995]
+- Sheldon. 1897. *In His Steps by Charles M. Sheldon*. [https://www.gutenberg.org/ebooks/4540][ref_sheldon_1897]
+- Silva, Noenoe K. 2004. *Aloha Betrayed: Native Hawaiian Resistance to American Colonialism*. Duke University Press. [https://www.dukeupress.edu/aloha-betrayed][book_silva_2004]
+- Smoak, Gregory Ellis. 2006. *Ghost Dances and Identity: Prophetic Religion and American Indian Ethnogenesis in the Nineteenth Century*. University of California Press. [https://www.ucpress.edu/book/9780520252554/ghost-dances-and-identity][book_smoak_2006]
+- Solomon, Barbara Miller. 1956. *Ancestors and Immigrants*. Harvard University Press, Cambridge. [https://openlibrary.org/works/OL18488786W][book_solomon_1956]
+- Sorin, Gerald. 1992. *A Time for Building: The Third Migration, 1880-1920*. Johns Hopkins University Press. [https://jhupress.jhu.edu/9780801850691/a-time-for-building/][book_sorin_1992]
+- *Southern Historical Society Papers*. n.d. [https://catalog.hathitrust.org/Record/010346029][ref_southern_historical_society_papers]
+- Stewart, Omer C. 1987. *Peyote Religion: A History (Civilization of the American Indian Series)*. University of Oklahoma Press. [https://www.oupress.com/9780806124575/peyote-religion/][book_stewart_1987]
+- Stout, Harry S. 2006. *Upon the Altar of the Nation: A Moral History of the Civil War*. Viking. [https://www.penguinrandomhouse.com/books/295180/upon-the-altar-of-the-nation-by-harry-s-stout/][book_stout_2006]
+- Tomasi, Silvano M. 1975. *Piety and Power: The Role of the Italian Parishes in the New York Metropolitan Area, 1880-1930*. Center for Migration Studies. [https://openlibrary.org/works/OL4292966W][book_tomasi_1975]
+- Trafzer, Clifford E., Keller, and Sisquoc. 2006. *Boarding School Blues: Revisiting American Indian Educational Experiences*. University of Nebraska Press. [https://www.nebraskapress.unl.edu/nebraska/9780803294585/][book_trafzer_keller_sisquoc_2006]
+- Trask, David F. 1981. *The War with Spain in 1898*. Macmillan. [https://www.nebraskapress.unl.edu/nebraska/9780803294295/][book_trask_1981]
+- Trelease, Allen W., Allen William Trelease, and Allen W. Trelease. 1971. *White Terror: The Ku Klux Klan Conspiracy and Southern Reconstruction*. Harper & Row. [https://lsupress.org/9780807119534/white-terror/][book_trelease_1971]
+- Tyrrell, Ian R. 1991. *Woman's world/Woman's Empire: The Woman's Christian Temperance Union in International Perspective, 1880-1930*. University of North Carolina Press. [https://uncpress.org/book/9780807843031/womans-world-womans-empire/][book_tyrrell_1991]
+- *US Board of Indian Commissioners Annual Reports*. n.d. [https://catalog.hathitrust.org/Record/000497884][ref_us_board_indian_commissioners]
+- Utley, Robert M. 1963. *The Last Days of the Sioux Nation*. Yale University Press. [https://yalebooks.yale.edu/book/9780300000009/the-last-days-of-the-sioux-nation/][book_utley_1963]
+- Veysey, Laurence R. 1965. *The Emergence of the American University*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/E/bo3684045.html][book_veysey_1965]
+- Warren, Louis S. 2017. *God's Red Son: The Ghost Dance Religion and the Making of Modern America*. Basic Books. [https://www.basicbooks.com/titles/louis-s-warren/gods-red-son/9780465015023/][book_warren_2017]
+- Washington. 1901. *Up from Slavery: An Autobiography by Booker T. Washington*. [https://www.gutenberg.org/ebooks/2376][ref_washington_1901_up_from_slavery]
+- Washington, James Melvin. 1985. *Frustrated Fellowship: The Black Baptist Quest for Social Power*. Mercer. [https://openlibrary.org/works/OL5113213W][book_washington_1985]
+- Watts. 1996. *The Waldensian Way to America*. [https://scholar.google.com/scholar?q=watts+1996+waldensian+way+america][book_watts_1996]
+- Wells. 1892. *Southern Horrors: Lynch Law in All Its Phases by Ida B. Wells-Barnett*. [https://www.gutenberg.org/ebooks/14975][ref_wells_1892_southern_horrors]
+- Wells. 1895. *The Red Record by Ida B. Wells-Barnett*. [https://www.gutenberg.org/ebooks/14977][ref_wells_1895_red_record]
+- Wertheimer, Jack. 1997. *A People Divided: Judaism in Contemporary America*. Brandeis Unieversity Press. [https://global.oup.com/academic/product/a-people-divided-9780874518764][book_wertheimer_1997]
+- White, Ronald C., and C. Howard Hopkins. 1976. *The Social Gospel: Religion and Reform in Changing America*. Temple University Press. [https://openlibrary.org/works/OL4803811W][book_white_hopkins_1976]
+- Wilson, Theodore Brantner. 1965. *The Black Codes of the South*. University of Alabama Press. [https://openlibrary.org/works/OL7390515W][book_wilson_1965]
+- Wilson, Charles Reagan. 1980. *Baptized in Blood: The Religion of the Lost Cause, 1865-1920*. University of Georgia Press. [https://uga.edu/press/wilson-baptized-in-blood][book_wilson_1980]
+- Woodman, Harold D. 1995. *New South, New Law: The Legal Foundations of Credit and Labor Relations in the Postbellum Agricultural South*. Louisiana State University Press. [https://lsupress.org/9780807119761/new-south-new-law/][book_woodman_1995]
+- Woodward, C. Vann. 1955. *The Strange Career of Jim Crow*. Oxford University Press. [https://global.oup.com/academic/product/the-strange-career-of-jim-crow-9780195146905][book_woodward_1955]
+- Woodworth, Steven E. 2001. *While God Is Marching On: The Religious World of Civil War Soldiers*. University Press of Kansas. [https://kansaspress.ku.edu/978-0-7006-1085-8.html][book_woodworth_2001]
+- Yoo, David. 2000. *Growing up Nisei: Race, Generation, and Culture among Japanese Americans of California, 1924-49*. University of Illinois Press. [https://global.oup.com/academic/product/growing-up-nisei-9780252068225][book_yoo_2000]
+- Yung, Judy. 1995. *Unbound Feet: A Social History of Chinese Women in San Francisco*. University of California Press. [https://www.ucpress.edu/book/9780520088672/unbound-feet][book_yung_1995]
+- Zangwill. 1908. *The Melting-Pot by Israel Zangwill*. [https://www.gutenberg.org/ebooks/23893][ref_zangwill_1908]
+- Ziolkowski, Eric J. 1993. *A Museum of Faiths: Histories and Legacies of the 1893 World's Parliament of Religions (Classics in Religious Studies)*. Scholars Pr. [https://openlibrary.org/works/OL8833656W][book_ziolkowski_1993]
+- Zucchino, David. 2020. *Wilmington's Lie: The Murderous Coup of 1898 and the Rise of White Supremacy*. Grove/Atlantic, Incorporated. [https://www.hmhbooks.com/shop/books/wilmingtons-lie/9780802157003][book_zucchino_2020]
+
+### Commercial Sources
+
+- "BAE Ghost Dance and Wounded Knee Documentation." n.d. Accessed October 25, 2026. [https://www.si.edu/spotlight/bureau-american-ethnology][ref_bae_ghost_dance_wounded_knee]
+- Frazier. 1865. "Conversation with Sherman and Stanton." [https://www.nps.gov/liho/learn/historyculture/colloquy-with-colored-ministers.htm][ref_frazier_1865_conversation]
+- Lazarus. 1883. "The New Colossus: Statue of Liberty National Monument (U.S. National Park Service)." Accessed October 25, 2026. [https://www.nps.gov/stli/learn/historyculture/colossus.htm][ref_lazarus_1883]
+
+### General Sources
+
+- Antin. 1912. "The Promised City." [https://www.gutenberg.org/ebooks/17959][ref_antin_1912]
+- Brown. 1953. "The Sacred Pipe (Black Elk)." [https://oupress.com/9780806131382/the-sacred-pipe/][ref_brown_1953]
+- "California Alien Land Law." 1913. [https://calisphere.org/item/ark:/13030/hb2s2004v6/][ref_california_alien_land_law_1913]
+- "Christian Recorder (AME)." n.d. Accessed October 25, 2026. [https://www.aaihs.org/the-christian-recorder-history/][ref_christian_recorder]
+- "CSA Davis Fast Day Proclamations." n.d. Accessed October 25, 2026. [https://rcah.msu.edu/csa-fast-days][ref_csa_davis_fast_day]
+- Du Bois. 1899. "The Philadelphia Negro." [https://www.gutenberg.org/ebooks/68076][ref_dubois_1899_philadelphia_negro]
+- Lincoln. 1862. "Meditation on the Divine Will." [https://www.abrahamlincolnonline.org/lincoln/speeches/meditat.htm][ref_lincoln_1862_meditation]
+- Lincoln. 1863b. "Thanksgiving Proclamation." [https://www.abrahamlincolnonline.org/lincoln/speeches/thanks.htm][ref_lincoln_1863_thanksgiving]
+- "Louisiana Constitution." 1898. [https://digitalcommons.law.lsu.edu/la-constitutions/1898/][ref_louisiana_constitution_1898]
+- "Mississippi Black Code." 1865. [https://digitalcommons.msstate.edu/msstate-black-codes-1865][ref_mississippi_black_code_1865]
+- "The Mississippi Constitution of 1890 \| Mississippi History Now." 1890. Accessed October 25, 2026. [https://mshistory.k12.ms.us/articles/103/mississippi-constitution-of-1890][ref_mississippi_constitution_1890]
+- "Niagara Creed." 1878. [https://www.pbministries.org/History/Niagara\_Bible\_Conference/creed.htm][ref_niagara_creed_1878]
+- Pittsburgh Platform. 1885. "Reform Judaism." [https://www.ccarnet.org/rabbinic-voice/platforms/article-declaration-principles/][ref_pittsburgh_platform_1885]
+- Pratt. 1892. "Kill the Indian Address." [https://carlisleindian.dickinson.edu/teach/richard-henry-pratt-kill-indian-and-save-man][ref_pratt_1892]
+- Pratt. 1964. "Battlefield and Classroom." [https://www.oupress.com/9780806135397/battlefield-and-classroom/][ref_pratt_1964]
+- Scalabrini. 1887. "L'Emigrazione Italiana in America." [https://scalabrinians.org/history/founder-scalabrini/][ref_scalabrini_1887]
+- Sherman. 1865. "Special Field Orders No. 15." [https://www.freedmen.umd.edu/sfo15.htm][ref_sherman_field_order_15]
+- Standing Bear. 1928. "My People the Sioux." [https://www.nebraskapress.unl.edu/nebraska/9780803293327/][ref_standing_bear_1928]
+- "Third Plenary Council of Baltimore." 1884. [https://catholicu.libguides.com/thirdplenarycouncil][ref_third_plenary_council_1884]
+- "U.S. Senate: 404 Error Page." 1866. Accessed October 25, 2026. [https://www.senate.gov/artandhistory/history/common/generic/CivilRightsAct1866.htm][ref_us_civil_rights_act_1866]
+- US DOI. 2022. "Federal Indian Boarding School Initiative." Indian Affairs. Accessed October 25, 2026. [https://www.bia.gov/service/federal-indian-boarding-school-initiative][ref_us_doi_2022]
+- Vivekananda. 1893. "Chicago Address." [https://www.ramakrishna.org/activities/message/message8.htm][ref_vivekananda_1893]
+- White. 1888. "The Great Controversy." Accessed October 25, 2026. [https://m.egwwritings.org/en/book/132.0][ref_white_1888]
+- Willard. 1895. "Do Everything." [https://digital.library.pitt.edu/islandora/object/pitt%3A31735068216550][ref_willard_1895]
+- Zitkala-Ša. 1900. "Atlantic Monthly Essays." [https://www.theatlantic.com/magazine/archive/1900/01/impressions-of-an-indian-childhood/632916/][ref_zitkala_sa_1900]
 
 ### Related Posts
 
-- [A266 Ethnoreligion Framing and Three Substrates][related_post_a266_framing]
-- [A267 Ethnoreligion Colonial Folkways and Early Diffusion][related_post_a267_colonial_folkways]
-- [A268 Ethnoreligion Awakening and Founding][related_post_a268_awakening_and_founding]
-- [A269 Ethnoreligion Second Awakening and Reform][related_post_a269_second_awakening_and_reform]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Indigenous, African, and European Ethnoreligious Substrates." *Brendan A R Sechter's Development Blog*, January 3. [https://sgeos.github.io/history/economics/religion/2026/01/03/ethnoreligion\_and\_american\_political\_economy\_framing.html][related_post_a266_framing]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contact, Colonial Folkways, and Early Diffusion 1607-1725." *Brendan A R Sechter's Development Blog*, January 4. [https://sgeos.github.io/history/economics/religion/2026/01/04/ethnoreligion\_and\_american\_political\_economy\_colonial\_folkways.html][related_post_a267_colonial_folkways]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Great Awakening, Revolution, and Founding 1725-1789." *Brendan A R Sechter's Development Blog*, January 5. [https://sgeos.github.io/history/economics/religion/2026/01/05/ethnoreligion\_and\_american\_political\_economy\_awakening\_and\_founding.html][related_post_a268_awakening_and_founding]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Second Great Awakening, Removal, and Antebellum Reform 1789-1861." *Brendan A R Sechter's Development Blog*, January 6. [https://sgeos.github.io/history/economics/religion/2026/01/06/ethnoreligion\_and\_american\_political\_economy\_second\_awakening\_and\_reform.html][related_post_a269_second_awakening_and_reform]
 
-### Research
-
-- [Vecoli 1964 Contadini in Chicago][research_vecoli_1964_italians]
-- [Vecoli 1969 Prelates and Peasants][research_vecoli_1969]
-- [Wallace 1956 Revitalization Movements][research_wallace_1956_revitalization]
-
-[book_abell_1960]: https://scholar.google.com/scholar?q=abell+1960+american+catholicism+social+action
+[book_abell_1960]: https://openlibrary.org/works/OL1193659W
 [book_adams_1995]: https://kansaspress.ku.edu/978-0-7006-0735-3.html
 [book_ahlstrom_1972]: https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/
 [book_anderson_1969]: https://scholar.google.com/scholar?q=anderson+1969+facing+the+pacific
@@ -927,11 +935,11 @@ This article follows the terminological conventions established in [A266][relate
 [book_andersson_2008]: https://www.nebraskapress.unl.edu/nebraska/9780803213432/
 [book_arrington_1985]: https://www.knopfdoubleday.com/book/175089/brigham-young-american-moses/
 [book_azuma_2005]: https://global.oup.com/academic/product/between-two-empires-9780195159400
-[book_baltzell_1958]: https://scholar.google.com/scholar?q=baltzell+1958+philadelphia+gentlemen
-[book_baltzell_1964]: https://scholar.google.com/scholar?q=baltzell+1964+protestant+establishment
+[book_baltzell_1958]: https://openlibrary.org/works/OL2938945W
+[book_baltzell_1964]: https://openlibrary.org/works/OL2938944W
 [book_barnett_1957]: https://uofmpress.umn.edu/9780809301218/indian-shakers/
 [book_barton_1994]: https://uofcpress.com/9780809318681/a-folk-divided/
-[book_beckford_1975]: https://scholar.google.com/scholar?q=beckford+1975+trumpet+of+prophecy
+[book_beckford_1975]: https://openlibrary.org/works/OL2723993W
 [book_blackmon_2008]: https://www.penguinrandomhouse.com/books/76800/slavery-by-another-name-by-douglas-a-blackmon/
 [book_bordin_1981]: https://uofmpress.umn.edu/9780807841242/frances-willard/
 [book_braude_1989]: https://iupress.org/9780253345547/radical-spirits/
@@ -945,9 +953,9 @@ This article follows the terminological conventions established in [A266][relate
 [book_cinel_1982]: https://sup.org/books/title/?id=2144
 [book_cone_2011]: https://orbisbooks.com/products/the-cross-and-the-lynching-tree
 [book_cornelius_1991]: https://uscpress.com/When-I-Can-Read-My-Title-Clear
-[book_cross_1958]: https://scholar.google.com/scholar?q=cross+1958+emergence+liberal+catholicism+america
+[book_cross_1958]: https://openlibrary.org/works/OL7525593W
 [book_curran_2002]: https://georgetownupress.georgetown.edu/9781589011113/catholic-social-teaching-1891-present/
-[book_daniels_1988]: https://scholar.google.com/scholar?q=daniels+1988+asian+america
+[book_daniels_1988]: https://openlibrary.org/works/OL2664426W
 [book_debo_1940]: https://www.press.princeton.edu/books/paperback/9780691005638/and-still-the-waters-run
 [book_diner_2000]: https://press.princeton.edu/books/paperback/9780691095455/lower-east-side-memories
 [book_dorn_1967]: https://global.oup.com/academic/product/washington-gladden-9780814200377
@@ -961,7 +969,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_foner_1988]: https://www.harpercollins.com/products/reconstruction-eric-foner
 [book_foner_2019]: https://wwnorton.com/books/The-Second-Founding
 [book_gabaccia_2000]: https://global.oup.com/academic/product/italys-many-diasporas-9780415950329
-[book_gates_1968]: https://scholar.google.com/scholar?q=gates+1968+history+public+land+law+development
+[book_gates_1968]: https://openlibrary.org/works/OL2659521W
 [book_genetin_pilawa_2012]: https://uncpress.org/book/9780807872154/crooked-paths-to-allotment/
 [book_gill_1998]: https://www.perseusbooks.com/gill-mary-baker-eddy
 [book_gottschalk_1973]: https://www.ucpress.edu/book/9780520023918/the-emergence-of-christian-science-in-american-religious-life
@@ -970,13 +978,13 @@ This article follows the terminological conventions established in [A266][relate
 [book_hacker_2011]: https://muse.jhu.edu/article/460641
 [book_handy_1966]: https://global.oup.com/academic/product/the-social-gospel-in-america-9780195008715
 [book_harvey_1997]: https://uncpress.org/book/9780807846582/redeeming-the-south/
-[book_hasselmo_1976]: https://scholar.google.com/scholar?q=hasselmo+1976+amerikasvenska+swedish+american
+[book_hasselmo_1976]: https://openlibrary.org/works/OL6872761W
 [book_higginbotham_1993]: https://www.hup.harvard.edu/books/9780674769786
 [book_higham_1955]: https://rutgersuniversitypress.org/strangers-in-the-land/9780813522104/
 [book_hopkins_1940]: https://yalebooks.yale.edu/book/9780300010992/the-rise-of-the-social-gospel-in-american-protestantism/
 [book_howe_1976]: https://www.hmhbooks.com/shop/books/world-of-our-fathers/9780816156481
 [book_hoxie_2001]: https://www.nebraskapress.unl.edu/nebraska/9780803273276/
-[book_ichioka_1988]: https://scholar.google.com/scholar?q=ichioka+1988+the+issei
+[book_ichioka_1988]: https://openlibrary.org/works/OL5093234W
 [book_kaczorowski_2005]: https://fordhampress.com/9780823225286/the-politics-of-judicial-interpretation/
 [book_kamphoefner_1987]: https://press.princeton.edu/books/paperback/9780691633114/the-westfalians
 [book_karabel_2005]: https://www.hmhbooks.com/shop/books/the-chosen/9780618773558
@@ -985,10 +993,10 @@ This article follows the terminological conventions established in [A266][relate
 [book_kessner_1977]: https://global.oup.com/academic/product/the-golden-door-9780195028614
 [book_kinzer_1964]: https://uwapress.uw.edu/book/9780295739793/an-episode-in-anti-catholicism/
 [book_kousser_1974]: https://yalebooks.yale.edu/book/9780300019506/the-shaping-of-southern-politics/
-[book_kwantes_1998]: https://scholar.google.com/scholar?q=kwantes+1998+presbyterian+missionaries+philippines
+[book_kwantes_1998]: https://openlibrary.org/works/OL4428863W
 [book_labarre_1938]: https://www.oupress.com/9780806121369/the-peyote-cult/
 [book_ladd_mathisen_1999]: https://bakerpublishinggroup.com/books/muscular-christianity/312690
-[book_lakey_1985]: https://scholar.google.com/scholar?q=lakey+1985+history+cme+church
+[book_lakey_1985]: https://openlibrary.org/works/OL5170821W
 [book_lane_2008]: https://www.hmhbooks.com/shop/books/the-day-freedom-died/9780805089226
 [book_lee_2003]: https://uncpress.org/book/9780807855102/at-americas-gates/
 [book_leo_xiii_1891]: https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html
@@ -1000,8 +1008,8 @@ This article follows the terminological conventions established in [A266][relate
 [book_mangione_morreale_1992]: https://www.harpercollins.com/products/la-storia-jerre-mangione
 [book_maroukis_2010]: https://www.oupress.com/9780806140902/the-peyote-road/
 [book_marsden_1980]: https://global.oup.com/academic/product/fundamentalism-and-american-culture-9780195300475
-[book_marty_1970]: https://scholar.google.com/scholar?q=marty+1970+righteous+empire
-[book_may_1949]: https://scholar.google.com/scholar?q=may+1949+protestant+churches+industrial+america
+[book_marty_1970]: https://openlibrary.org/works/OL1875310W
+[book_may_1949]: https://openlibrary.org/works/OL3940054W
 [book_mckeown_2008]: https://cup.columbia.edu/book/melancholy-order/9780231140768
 [book_mckinley_1980]: https://www.eerdmans.com/9780802835710/marching-to-glory/
 [book_meyer_1988]: https://global.oup.com/academic/product/response-to-modernity-9780814326848
@@ -1011,14 +1019,14 @@ This article follows the terminological conventions established in [A266][relate
 [book_minus_1988]: https://www.mercer.edu/press/minus-walter-rauschenbusch
 [book_montgomery_1993]: https://lsupress.org/9780807118689/under-their-own-vine-and-fig-tree/
 [book_mooney_1896]: https://archive.org/details/ghostdancereligi00moon
-[book_mortensen_1967]: https://scholar.google.com/scholar?q=mortensen+1967+danish+lutheran+church+america
+[book_mortensen_1967]: https://openlibrary.org/works/OL44108763W
 [book_musicant_1998]: https://henryholt.com/9780805066241
 [book_nelli_1970]: https://global.oup.com/academic/product/the-italians-in-chicago-9780195029093
 [book_nelson_1980]: https://uofmpress.umn.edu/9780816609314/the-lutheran-church-among-norwegian-americans/
 [book_noll_2006_civil]: https://uncpress.org/book/9780807858998/the-civil-war-as-a-theological-crisis/
 [book_nuesse_1990]: https://cuapress.org/9780813207247/the-catholic-university-of-america/
 [book_numbers_1992]: https://uofnpress.utenn.edu/9780870499241/prophetess-of-health/
-[book_obrien_1968]: https://scholar.google.com/scholar?q=obrien+1968+american+catholics+social+reform
+[book_obrien_1968]: https://openlibrary.org/works/OL2559299W
 [book_oshinsky_1996]: https://www.simonandschuster.com/books/Worse-Than-Slavery/David-M-Oshinsky/9780684830957
 [book_ostergren_1988]: https://www.wisc.edu/press/books/9780299111342
 [book_ostler_2004]: https://www.cambridge.org/9780521605908
@@ -1042,11 +1050,11 @@ This article follows the terminological conventions established in [A266][relate
 [book_seager_1995]: https://iupress.org/9780253335005/the-worlds-parliament-of-religions/
 [book_silva_2004]: https://www.dukeupress.edu/aloha-betrayed
 [book_smoak_2006]: https://www.ucpress.edu/book/9780520252554/ghost-dances-and-identity
-[book_solomon_1956]: https://scholar.google.com/scholar?q=solomon+1956+ancestors+immigrants+immigration+restriction+league
+[book_solomon_1956]: https://openlibrary.org/works/OL18488786W
 [book_sorin_1992]: https://jhupress.jhu.edu/9780801850691/a-time-for-building/
 [book_stewart_1987]: https://www.oupress.com/9780806124575/peyote-religion/
 [book_stout_2006]: https://www.penguinrandomhouse.com/books/295180/upon-the-altar-of-the-nation-by-harry-s-stout/
-[book_tomasi_1975]: https://scholar.google.com/scholar?q=tomasi+1975+piety+power+scalabrinian
+[book_tomasi_1975]: https://openlibrary.org/works/OL4292966W
 [book_trafzer_keller_sisquoc_2006]: https://www.nebraskapress.unl.edu/nebraska/9780803294585/
 [book_trask_1981]: https://www.nebraskapress.unl.edu/nebraska/9780803294295/
 [book_trelease_1971]: https://lsupress.org/9780807119534/white-terror/
@@ -1054,18 +1062,18 @@ This article follows the terminological conventions established in [A266][relate
 [book_utley_1963]: https://yalebooks.yale.edu/book/9780300000009/the-last-days-of-the-sioux-nation/
 [book_veysey_1965]: https://press.uchicago.edu/ucp/books/book/chicago/E/bo3684045.html
 [book_warren_2017]: https://www.basicbooks.com/titles/louis-s-warren/gods-red-son/9780465015023/
-[book_washington_1985]: https://scholar.google.com/scholar?q=washington+1985+frustrated+fellowship+black+baptist
+[book_washington_1985]: https://openlibrary.org/works/OL5113213W
 [book_watts_1996]: https://scholar.google.com/scholar?q=watts+1996+waldensian+way+america
 [book_wertheimer_1997]: https://global.oup.com/academic/product/a-people-divided-9780874518764
-[book_white_hopkins_1976]: https://scholar.google.com/scholar?q=white+hopkins+1976+social+gospel
-[book_wilson_1965]: https://scholar.google.com/scholar?q=wilson+1965+black+codes+south
+[book_white_hopkins_1976]: https://openlibrary.org/works/OL4803811W
+[book_wilson_1965]: https://openlibrary.org/works/OL7390515W
 [book_wilson_1980]: https://uga.edu/press/wilson-baptized-in-blood
 [book_woodman_1995]: https://lsupress.org/9780807119761/new-south-new-law/
 [book_woodward_1955]: https://global.oup.com/academic/product/the-strange-career-of-jim-crow-9780195146905
 [book_woodworth_2001]: https://kansaspress.ku.edu/978-0-7006-1085-8.html
 [book_yoo_2000]: https://global.oup.com/academic/product/growing-up-nisei-9780252068225
 [book_yung_1995]: https://www.ucpress.edu/book/9780520088672/unbound-feet
-[book_ziolkowski_1993]: https://scholar.google.com/scholar?q=ziolkowski+1993+museum+of+faiths+parliament+religions
+[book_ziolkowski_1993]: https://openlibrary.org/works/OL8833656W
 [book_zucchino_2020]: https://www.hmhbooks.com/shop/books/wilmingtons-lie/9780802157003
 [ref_addams_1902]: https://archive.org/details/democracysocia00adda
 [ref_addams_1910]: https://www.gutenberg.org/ebooks/1325
@@ -1169,6 +1177,6 @@ This article follows the terminological conventions established in [A266][relate
 [related_post_a267_colonial_folkways]: {% post_url 2026-01-04-ethnoreligion_and_american_political_economy_colonial_folkways %}
 [related_post_a268_awakening_and_founding]: {% post_url 2026-01-05-ethnoreligion_and_american_political_economy_awakening_and_founding %}
 [related_post_a269_second_awakening_and_reform]: {% post_url 2026-01-06-ethnoreligion_and_american_political_economy_second_awakening_and_reform %}
-[research_vecoli_1964_italians]: https://www.jstor.org/stable/1901008
-[research_vecoli_1969]: https://www.jstor.org/stable/1846921
-[research_wallace_1956_revitalization]: https://www.jstor.org/stable/665488
+[research_vecoli_1964_italians]: https://doi.org/10.2307/1894893
+[research_vecoli_1969]: https://doi.org/10.1353/jsh/2.3.217
+[research_wallace_1956_revitalization]: https://doi.org/10.1525/aa.1956.58.2.02a00040

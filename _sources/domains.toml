@@ -1158,3 +1158,602 @@ why = "A site with no stake in the subject that is not a periodical, General Sou
 ["de.wikipedia.org"]
 encyclopaedia = true
 why = "The German Wikipedia, an encyclopaedia, Tertiary Sources under rule 2. Its pages are not pinned to revisions, since pinning reads only the English Wikipedia, so the entry carries the last revision date read."
+
+# Judgements made for A200 to A296, 2026-10-25.
+
+["supreme.justia.com"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["law.justia.com"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["cdn.ca9.uscourts.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["courts.delaware.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["www.supremecourt.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["www.uscourts.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["caselaw.findlaw.com"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["www.ca2.uscourts.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["www.uscfc.uscourts.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["delcode.delaware.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["statutes.capitol.texas.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["leginfo.legislature.ca.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["www.gesetze-im-internet.de"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["www.acquisition.gov"]
+primary = true
+why = "A court's or a law publisher's copy of judicial opinions, statutes or regulations, first-hand legal records, which rule 4 places among the primary sources."
+
+["www.ftc.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["docs.fcc.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.unoosa.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.usccb.org"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.vatican.va"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.uscis.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.fpds.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["nodis3.gsfc.nasa.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["www.census.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["science.house.gov"]
+primary = true
+why = "A first-hand record: an official statement, transcript, statute, regulation, statistical release, archival document, patent or disclosure, which rule 4 places among the primary sources."
+
+["avalon.law.yale.edu"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.loc.gov"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["docsouth.unc.edu"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["kinginstitute.stanford.edu"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["historymatters.gmu.edu"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.pcahistory.org"]
+primary = true
+why = "An archive or library publishing original documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["www.papalencyclicals.net"]
+primary = true
+why = "A digital library of historical texts, such as confessions, treatises, encyclicals and classical works, reproducing original documents, which rule 4 places among the primary sources."
+
+["www.ccel.org"]
+primary = true
+why = "A digital library of historical texts, such as confessions, treatises, encyclicals and classical works, reproducing original documents, which rule 4 places among the primary sources."
+
+["www.reformedreader.org"]
+primary = true
+why = "A digital library of historical texts, such as confessions, treatises, encyclicals and classical works, reproducing original documents, which rule 4 places among the primary sources."
+
+["www.perseus.tufts.edu"]
+primary = true
+why = "A digital library of historical texts, such as confessions, treatises, encyclicals and classical works, reproducing original documents, which rule 4 places among the primary sources."
+
+["penelope.uchicago.edu"]
+primary = true
+why = "A digital library of historical texts, such as confessions, treatises, encyclicals and classical works, reproducing original documents, which rule 4 places among the primary sources."
+
+["oll.libertyfund.org"]
+primary = true
+why = "A digital library of historical texts, such as confessions, treatises, encyclicals and classical works, reproducing original documents, which rule 4 places among the primary sources."
+
+["orbitaldebris.jsc.nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.nps.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.defense.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.fcc.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.isro.gov.in"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["global.jaxa.jp"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.cnsa.gov.cn"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["noirlab.edu"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["ag.ny.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.accc.gov.au"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.investor.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.japan.travel"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.whitehouse.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["corp.delaware.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["danishbusinessauthority.dk"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["www.spacex.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.starlink.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.blueorigin.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.rocketlabusa.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.ulalaunch.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.deepmind.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["openai.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["spinningup.openai.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["about.fb.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["support.google.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["developers.google.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.corp.att.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["news.northropgrumman.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.arianespace.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.ibm.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.aboutamazon.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.anthropic.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["transparency.meta.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.eutelsat.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["oneweb.net"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.iridium.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.arianegroup.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.lseg.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.spglobal.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.totousa.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.amd.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.redditinc.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.tiktok.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["help.x.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["help.instagram.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["transparency.twitter.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["transparencyreport.google.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["abc.xyz"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.berkshirehathaway.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.bosch.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["shareholder.ford.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["investor.atmeta.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["news.microsoft.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.novoholdings.dk"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.glasslewis.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.issgovernance.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.aon.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["pitchbook.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["brycetech.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.spacecapital.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.5rb.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.incose.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["gifct.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["globalwellnessinstitute.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.cii.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www.pewresearch.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["dfrlab.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.eff.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["datasociety.net"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.internetsociety.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.conference-board.org"]
+stake = true
+why = "A think tank or research institute, a non-profit with an institutional interest in its subject, which the rules place under Commercial Sources."
+
+["www.bosch-stiftung.de"]
+stake = true
+why = "A foundation's or an endowment's own site, describing its own holdings, grants and purposes, which the rules place under Commercial Sources."
+
+["www.carl-zeiss-stiftung.de"]
+stake = true
+why = "A foundation's or an endowment's own site, describing its own holdings, grants and purposes, which the rules place under Commercial Sources."
+
+["novonordiskfonden.dk"]
+stake = true
+why = "A foundation's or an endowment's own site, describing its own holdings, grants and purposes, which the rules place under Commercial Sources."
+
+["www.nytimes.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.wsj.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.bloomberg.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.washingtonpost.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["arstechnica.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.nasaspaceflight.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["spacepolicyonline.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.thespacereview.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["aviationweek.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.theatlantic.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.reuters.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.nippon.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["payloadspace.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["harvardlawreview.org"]
+periodical = true
+why = "A law review, a student-edited periodical whose articles are selected by its editors rather than refereed, General Sources under rule 7, its name in italics."
+
+["www.yalelawjournal.org"]
+periodical = true
+why = "A law review, a student-edited periodical whose articles are selected by its editors rather than refereed, General Sources under rule 7, its name in italics."
+
+["www.virginialawreview.org"]
+periodical = true
+why = "A law review, a student-edited periodical whose articles are selected by its editors rather than refereed, General Sources under rule 7, its name in italics."
+
+["www.uclawreview.org"]
+periodical = true
+why = "A law review, a student-edited periodical whose articles are selected by its editors rather than refereed, General Sources under rule 7, its name in italics."
+
+["hbr.org"]
+periodical = true
+why = "A magazine published by a university, school or society about the field it serves, a periodical, its name in italics."
+
+["sloanreview.mit.edu"]
+periodical = true
+why = "A magazine published by a university, school or society about the field it serves, a periodical, its name in italics."
+
+["knowledge.wharton.upenn.edu"]
+periodical = true
+why = "A magazine published by a university, school or society about the field it serves, a periodical, its name in italics."
+
+["cacm.acm.org"]
+periodical = true
+why = "A magazine published by a university, school or society about the field it serves, a periodical, its name in italics."
+
+["corpgov.law.harvard.edu"]
+periodical = true
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["www.britannica.com"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["www.worldhistory.org"]
+encyclopaedia = true
+why = "A reference compilation summarising other sources, such as an encyclopaedia, directory or database of aircraft or designations, which rule 2 places under Tertiary Sources."
+
+["www.computerhistory.org"]
+stake = true
+why = "A museum's own exhibit or collection pages, institutional outreach that the rules place under Commercial Sources."
+
+["github.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["amaranth-lang.org"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["www.w3.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["www.itu.int"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["standards.ieee.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["c2pa.org"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["standards.nasa.gov"]
+kind = "standard"
+why = "A published standard or normative specification, which rule 4 places among the primary sources."
+
+["listingcenter.nasdaq.com"]
+primary = true
+why = "The rulebook of a self-regulatory organisation, such as a stock exchange's listing rules, a first-hand record of the rules in force, which rule 4 places among the primary sources."
+
+["nyseguide.srorules.com"]
+primary = true
+why = "The rulebook of a self-regulatory organisation, such as a stock exchange's listing rules, a first-hand record of the rules in force, which rule 4 places among the primary sources."
+
+["crsreports.congress.gov"]
+kind = "report"
+publisher = "Congressional Research Service"
+why = "The Congressional Research Service's reports to Congress, government research reports, which rule 4 places among the primary sources by their kind."
+
+["catalog.hathitrust.org"]
+kind = "book"
+why = "A library catalogue's record of a book, which identifies the book itself, so the entry is the book's."
+
+["oig.nasa.gov"]
+kind = "report"
+publisher = "NASA Office of Inspector General"
+why = "An inspector general's audit and inspection reports, government reports placed under rule 4 by their kind."
+
+["www.hbsp.harvard.edu"]
+kind = "report"
+publisher = "Harvard Business Publishing"
+why = "Harvard Business School's case studies and teaching notes, reports sold by its publishing arm, which rule 4 places under Primary Sources, Non-Peer-Reviewed by their kind."

@@ -27,21 +27,21 @@ The trade-off between model-based and model-free approaches has been an enduring
 
 ## Historical Development
 
-Model-based reinforcement learning has roots that predate the modern reinforcement learning literature. The idea that intelligent behavior depends on internal models of the world traces to [Craik 1943][book_craik_1943] Nature of Explanation, which proposed that organisms carry small-scale models of external reality within their heads. [Tolman 1948][research_tolman_1948] proposed cognitive maps as spatial internal models that support flexible navigation in rats, providing early empirical evidence for internal-model use in biological learning. Cybernetic control theory in the 1940s and 1950s treated learned or hand-specified dynamics models as central objects, and adaptive control theory of the 1970s formalized the estimation-and-control loop. [Werbos 1987][research_werbos_1987] adaptive critic architectures provided the direct precursor to modern actor-critic methods with learned models. The reinforcement learning literature reintroduced the model-based perspective through the Dyna architecture of [Sutton 1990][research_sutton_1990] and [Sutton 1991][research_sutton_1991], which interleaved real environment interaction with simulated interaction from a learned tabular model. Prioritized sweeping of [Moore and Atkeson 1993][research_moore_atkeson_1993] extended the Dyna framework with priority-queue based simulated updates, focusing computation on the parts of the state space with the largest uncertainty. Real-time dynamic programming of [Barto Bradtke and Singh 1995][research_barto_bradtke_singh_1995] combined asynchronous value iteration with actual environment traversal.
+Model-based reinforcement learning has roots that predate the modern reinforcement learning literature. The idea that intelligent behavior depends on internal models of the world traces to [Craik 1943][book_craik_1943] Nature of Explanation, which proposed that organisms carry small-scale models of external reality within their heads. [Tolman 1948][research_tolman_1948] proposed cognitive maps as spatial internal models that support flexible navigation in rats, providing early empirical evidence for internal-model use in biological learning. Cybernetic control theory in the 1940s and 1950s treated learned or hand-specified dynamics models as central objects, and adaptive control theory of the 1970s formalized the estimation-and-control loop. [Werbos 1987][research_werbos_1987] adaptive critic architectures provided the direct precursor to modern actor-critic methods with learned models. The reinforcement learning literature reintroduced the model-based perspective through the Dyna architecture of [Sutton 1990][research_sutton_1990] and [Sutton 1991][research_sutton_1991], which interleaved real environment interaction with simulated interaction from a learned tabular model. Prioritized sweeping of [Moore and Atkeson 1993][research_moore_atkeson_1993] extended the Dyna framework with priority-queue based simulated updates, focusing computation on the parts of the state space with the largest uncertainty. Real-time dynamic programming of [Barto et al. 1995][research_barto_bradtke_singh_1995] combined asynchronous value iteration with actual environment traversal.
 
 The 2000s produced Gaussian-process-based dynamics models and probabilistic model-based methods that improved sample efficiency by orders of magnitude on continuous control tasks. PILCO of [Deisenroth and Rasmussen 2011][research_deisenroth_rasmussen_2011] used Gaussian process regression on dynamics with analytic policy improvement, achieving state-of-the-art sample complexity on cart-pole and related benchmarks. The framework proved influential but scaled poorly to high-dimensional problems.
 
 The deep learning wave of the 2010s produced neural network dynamics models and permitted model-based reinforcement learning on visual and other high-dimensional observation modalities. World Models of [Ha and Schmidhuber 2018][research_ha_schmidhuber_2018] treated a variational autoencoder for state compression, a mixture density recurrent network for latent dynamics, and a compact controller in the latent space, together forming a modular architecture that has become a template for subsequent work.
 
-The Dreamer series of [Hafner et al 2019][research_hafner_et_al_2019], [Hafner et al 2020][research_hafner_et_al_2020], [Hafner et al 2023][research_hafner_et_al_2023] extended the latent-dynamics-plus-controller architecture with progressively more capable recurrent state-space models and actor-critic learning entirely in imagined trajectories. MuZero of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] took a distinct approach in which the learned model produces value and policy targets that support MCTS planning without predicting observations directly.
+The Dreamer series of [Hafner et al. 2019][research_hafner_et_al_2019], [Hafner et al. 2020b][research_hafner_et_al_2020], [Hafner et al. 2023][research_hafner_et_al_2023] extended the latent-dynamics-plus-controller architecture with progressively more capable recurrent state-space models and actor-critic learning entirely in imagined trajectories. MuZero of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020] took a distinct approach in which the learned model produces value and policy targets that support MCTS planning without predicting observations directly.
 
-The 2020s have produced transformer-based world models including IRIS of [Micheli et al 2023][research_micheli_et_al_2023], TWM of [Robine et al 2023][research_robine_et_al_2023], and STORM of [Zhang et al 2023][research_zhang_et_al_2023], each demonstrating that autoregressive sequence modeling of tokenized trajectories provides an effective alternative to the recurrent state-space model. Foundation-model-scale world models including [Bruce et al 2024][research_bruce_et_al_2024] Genie for controllable video generation have extended the account to generative video modeling.
+The 2020s have produced transformer-based world models including IRIS of [Micheli et al. 2023][research_micheli_et_al_2023], TWM of [Robine et al. 2023][research_robine_et_al_2023], and STORM of [Zhang et al. 2023][research_zhang_et_al_2023], each demonstrating that autoregressive sequence modeling of tokenized trajectories provides an effective alternative to the recurrent state-space model. Foundation-model-scale world models including [Bruce et al. 2024][research_bruce_et_al_2024] Genie for controllable video generation have extended the account to generative video modeling.
 
 Predictive coding treated later in this article provides the neuroscience-adjacent parallel line of development, with the [Rao and Ballard 1999][research_rao_ballard_1999] hierarchical predictive coding model providing the canonical treatment. The [Friston 2010][research_friston_2010] free-energy principle and active inference framework extends predictive coding to a broader theory of perception, action, and learning that overlaps considerably with model-based reinforcement learning.
 
 ## Partial Observability and Belief-Based World Models
 
-Real environments frequently violate the full-observability assumption of the Markov decision process. A partially observable Markov decision process (POMDP) extends the MDP with an observation kernel $O(o \mid s)$ that maps hidden states to observations, and the agent must maintain a belief state over hidden states to act optimally. The POMDP formalism traces to [Kaelbling Littman Cassandra 1998][research_kaelbling_littman_cassandra_1998], which established the theoretical framework and initial algorithms.
+Real environments frequently violate the full-observability assumption of the Markov decision process. A partially observable Markov decision process (POMDP) extends the MDP with an observation kernel $O(o \mid s)$ that maps hidden states to observations, and the agent must maintain a belief state over hidden states to act optimally. The POMDP formalism traces to [Kaelbling et al. 1998][research_kaelbling_littman_cassandra_1998], which established the theoretical framework and initial algorithms.
 
 The belief-state MDP formulation replaces the hidden state with the belief
 
@@ -53,9 +53,9 @@ $$b_{t+1}(s') = \frac{O(o_{t+1} \mid s') \sum_s P(s' \mid s, a_t) b_t(s)}{\sum_{
 
 The belief MDP has a fully-observed state space (the space of beliefs) but is generally infinite-dimensional and requires approximation for practical algorithms.
 
-Sample-based belief representations avoid the intractable belief update through particle filtering. POMCP of [Silver and Veness 2010][research_silver_veness_2010] and DESPOT of [Somani Ye Hsu Lee 2013][research_somani_et_al_2013] combined Monte Carlo tree search with particle-based belief updates, achieving state-of-the-art performance on many POMDP benchmarks.
+Sample-based belief representations avoid the intractable belief update through particle filtering. POMCP of [Silver and Veness 2010][research_silver_veness_2010] and DESPOT of [Somani et al. 2013][research_somani_et_al_2013] combined Monte Carlo tree search with particle-based belief updates, achieving state-of-the-art performance on many POMDP benchmarks.
 
-Latent-state world models treated later in this article can be interpreted as belief-based POMDP models with a learned neural belief update replacing the intractable Bayesian one. Deep Variational Reinforcement Learning of [Igl Zintgraf Le Wood Whiteson 2018][research_igl_et_al_2018] provided an explicit variational-inference-based interpretation, training a recurrent model to approximate the belief-state MDP through variational inference on observation likelihood.
+Latent-state world models treated later in this article can be interpreted as belief-based POMDP models with a learned neural belief update replacing the intractable Bayesian one. Deep Variational Reinforcement Learning of [Igl et al. 2018][research_igl_et_al_2018] provided an explicit variational-inference-based interpretation, training a recurrent model to approximate the belief-state MDP through variational inference on observation likelihood.
 
 The recurrent state-space model architectures of the Dreamer family treated below operationalize the belief-based framework at scale, with the recurrent state $h_t$ serving as an approximate sufficient statistic of history that supports subsequent latent-space planning.
 
@@ -141,11 +141,11 @@ with mean and covariance networks jointly trained by maximum likelihood.
 
 Deep neural dynamics models suffer from a compounding-error problem for long rollouts. Small per-step prediction errors accumulate across time steps, producing rollout distributions that diverge substantially from the true environment distribution after many steps. The result is that policies trained against long model-based rollouts often overfit to the model's error patterns rather than to the true environment.
 
-The Wang and Ba 2020 model ensemble approach reduces this failure through model-averaging across an ensemble of dynamics models trained with different random seeds, permitting per-step epistemic uncertainty quantification that constrains rollout usefulness. The [Chua Calandra McAllister Levine 2018][research_chua_calandra_mcallister_levine_2018] Probabilistic Ensembles with Trajectory Sampling (PETS) framework combined ensembles with trajectory sampling to separate epistemic and aleatoric uncertainty in the dynamics model.
+The Wang and Ba 2020 model ensemble approach reduces this failure through model-averaging across an ensemble of dynamics models trained with different random seeds, permitting per-step epistemic uncertainty quantification that constrains rollout usefulness. The [Chua et al. 2018][research_chua_calandra_mcallister_levine_2018] Probabilistic Ensembles with Trajectory Sampling (PETS) framework combined ensembles with trajectory sampling to separate epistemic and aleatoric uncertainty in the dynamics model.
 
-The Model-Based Policy Optimization (MBPO) framework of [Janner Fu Zhang Levine 2019][research_janner_fu_zhang_levine_2019] provides a systematic combination of neural dynamics models with off-policy actor-critic learning. MBPO uses short model-based rollouts from real states rather than long rollouts from initial states, avoiding much of the compounding-error problem while still gaining sample efficiency from the model-based data augmentation.
+The Model-Based Policy Optimization (MBPO) framework of [Janner et al. 2019][research_janner_fu_zhang_levine_2019] provides a systematic combination of neural dynamics models with off-policy actor-critic learning. MBPO uses short model-based rollouts from real states rather than long rollouts from initial states, avoiding much of the compounding-error problem while still gaining sample efficiency from the model-based data augmentation.
 
-Feature-space dynamics models operate in a learned representation rather than the raw observation space, providing scalability to high-dimensional observations. Byravan Boots and Fox 2017 SE3-Nets learned rigid-body dynamics for object manipulation. Deep Variational Bayes Filters of [Karl Soelch Bayer van der Smagt 2017][research_karl_et_al_2017] learned probabilistic latent dynamics through variational inference over sequence models.
+Feature-space dynamics models operate in a learned representation rather than the raw observation space, providing scalability to high-dimensional observations. Byravan Boots and Fox 2017 SE3-Nets learned rigid-body dynamics for object manipulation. Deep Variational Bayes Filters of [Karl Soelch Bayer van 2017][research_karl_et_al_2017] learned probabilistic latent dynamics through variational inference over sequence models.
 
 ## Uncertainty in Learned Models
 
@@ -177,7 +177,7 @@ $$a_t = \arg\max_{a_{t:t+H-1}} \mathbb{E}_{\hat{P}}\!\left[\sum_{k=0}^{H-1} \gam
 
 where the expectation is over model predictions, $H$ is the planning horizon, and $V(s_{t+H})$ is a learned or bootstrapped value function that estimates the return from the horizon.
 
-Sampling-based planners including the cross-entropy method (CEM) of [Rubinstein 1997][research_rubinstein_1997], model predictive path integral (MPPI) of [Williams Aldrich and Theodorou 2017][research_williams_aldrich_theodorou_2017], and their variants sample sequences of actions from a proposal distribution, evaluate them against the model, and refine the proposal distribution based on the top-scoring samples. The CEM update rule for a Gaussian proposal $\mathcal{N}(\mu_i, \sigma_i^2)$ over action sequences is
+Sampling-based planners including the cross-entropy method (CEM) of [Rubinstein 1997][research_rubinstein_1997], model predictive path integral (MPPI) of [Williams et al. 2017][research_williams_aldrich_theodorou_2017], and their variants sample sequences of actions from a proposal distribution, evaluate them against the model, and refine the proposal distribution based on the top-scoring samples. The CEM update rule for a Gaussian proposal $\mathcal{N}(\mu_i, \sigma_i^2)$ over action sequences is
 
 $$\mu_{i+1} = \frac{1}{|\mathcal{E}|} \sum_{a \in \mathcal{E}} a, \quad \sigma_{i+1}^2 = \frac{1}{|\mathcal{E}|} \sum_{a \in \mathcal{E}} (a - \mu_{i+1})^2$$
 
@@ -185,9 +185,9 @@ where $\mathcal{E}$ is the elite set of top-scoring sampled action sequences at 
 
 $$w_j = \frac{\exp(\lambda R_j)}{\sum_{j'} \exp(\lambda R_{j'})}, \quad \mu_{i+1} = \sum_j w_j \, a_j$$
 
-with temperature $\lambda$ controlling the weighting sharpness. The iCEM algorithm of [Pinneri et al 2021][research_pinneri_et_al_2021] provided a widely-used variant with adaptive noise schedules and colored-noise action distributions.
+with temperature $\lambda$ controlling the weighting sharpness. The iCEM algorithm of [Pinneri et al. 2021][research_pinneri_et_al_2021] provided a widely-used variant with adaptive noise schedules and colored-noise action distributions.
 
-Gradient-based planners exploit differentiability of the model to compute analytical gradients of return with respect to action sequences, permitting efficient trajectory optimization when the model is smooth. Methods including iterative linear quadratic regulator (iLQR) of [Todorov and Li 2005][research_todorov_li_2005] and its variants provide efficient trajectory optimization for smooth dynamics through quadratic approximation of value around a reference trajectory. Deep dynamics MPC of [Nagabandi Kahn Fearing Levine 2018][research_nagabandi_et_al_2018] combined learned neural dynamics models with random-shooting MPC and demonstrated marked sample-efficiency gains on locomotion tasks.
+Gradient-based planners exploit differentiability of the model to compute analytical gradients of return with respect to action sequences, permitting efficient trajectory optimization when the model is smooth. Methods including iterative linear quadratic regulator (iLQR) of [Todorov and Li 2005][research_todorov_li_2005] and its variants provide efficient trajectory optimization for smooth dynamics through quadratic approximation of value around a reference trajectory. Deep dynamics MPC of [Nagabandi et al. 2018b][research_nagabandi_et_al_2018] combined learned neural dynamics models with random-shooting MPC and demonstrated marked sample-efficiency gains on locomotion tasks.
 
 Tree-search-based planners including Monte Carlo tree search (MCTS) treat planning as tree exploration over action sequences with the model providing state transitions. MuZero treated below combines learned models with MCTS for board games and Atari.
 
@@ -197,13 +197,13 @@ The horizon-versus-error trade-off is fundamental to model-based planning. Long 
 
 Search-based planning treats the learned model as a simulator over which action-sequence search is performed. The approach dominates on board games and structured domains where the discrete action structure supports efficient tree exploration. Search-based methods complement the sampling and gradient-based planners of the previous section, providing distinct trade-offs on tree-structured problems.
 
-Monte Carlo tree search (MCTS) combined with learned models has produced the most striking results. MuZero of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] treated later achieved state-of-the-art performance on chess, shogi, Go, and Atari using MCTS over a learned model. Each MCTS iteration proceeds by selection, expansion, simulation, and backup phases,
+Monte Carlo tree search (MCTS) combined with learned models has produced the most striking results. MuZero of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020] treated later achieved state-of-the-art performance on chess, shogi, Go, and Atari using MCTS over a learned model. Each MCTS iteration proceeds by selection, expansion, simulation, and backup phases,
 
 $$Q(s_t, a) = \frac{1}{N(s_t, a)} \sum_{i=1}^{N(s_t, a)} G_i^{(a)}$$
 
 with the mean-return statistic accumulating across simulations that pass through the state-action pair. Action selection at internal nodes uses the PUCT rule of article four, combining the model's predicted policy prior with the visit-count-weighted exploration bonus.
 
-Sampled MuZero extended the approach to continuous action spaces by sampling a small set of candidate actions at each node from the learned policy prior. Efficient Zero of [Ye Liu Kurutach Abbeel Gao 2021][research_ye_liu_kurutach_abbeel_gao_2021] improved sample efficiency through several algorithmic refinements including self-supervised consistency losses on the internal state representation.
+Sampled MuZero extended the approach to continuous action spaces by sampling a small set of candidate actions at each node from the learned policy prior. Efficient Zero of [Ye et al. 2021][research_ye_liu_kurutach_abbeel_gao_2021] improved sample efficiency through several algorithmic refinements including self-supervised consistency losses on the internal state representation.
 
 Beyond MCTS, tree-search variants including limited-depth expectimax, alpha-beta with learned evaluators, and several pruning heuristics provide alternative search structures. The choice among search algorithms depends on the structure of the environment (deterministic vs stochastic, discrete vs continuous actions) and the compute budget for planning.
 
@@ -233,9 +233,9 @@ $$a_t = \pi_\vartheta(z_t, h_t)$$
 
 The three-component architecture separates perception (VAE), memory (RNN), and control (policy) into modules that can be trained separately or jointly.
 
-Deep Variational Bayes Filters of Karl et al 2017 provide a related architecture with probabilistic latent state transitions. E2C of [Watter Springenberg Boedecker Riedmiller 2015][research_watter_et_al_2015] jointly learned a latent representation and a locally-linear dynamics model that permitted analytical planning in the latent space.
+Deep Variational Bayes Filters of Karl et al 2017 provide a related architecture with probabilistic latent state transitions. E2C of [Watter et al. 2015][research_watter_et_al_2015] jointly learned a latent representation and a locally-linear dynamics model that permitted analytical planning in the latent space.
 
-The Recurrent State-Space Model (RSSM) of [Hafner Lillicrap Fischer Villegas Ha Lee Davidson 2019][research_hafner_et_al_2019] PlaNet combined stochastic and deterministic components in the latent state,
+The Recurrent State-Space Model (RSSM) of [Hafner et al. 2019][research_hafner_et_al_2019] PlaNet combined stochastic and deterministic components in the latent state,
 
 $$h_t = f_\theta(h_{t-1}, z_{t-1}, a_{t-1}), \quad z_t \sim p_\theta(z_t \mid h_t)$$
 
@@ -249,7 +249,7 @@ with the KL regularizer aligning the belief maintained from observations with th
 
 The Dreamer series of Hafner et al 2019, 2020, 2023 extends the world-model framework with actor-critic learning entirely in imagination through the learned world model. The model has proved among the most successful modern model-based reinforcement learning approaches, achieving competitive or state-of-the-art performance across a wide range of continuous control and discrete action tasks with a single set of hyperparameters.
 
-Dreamer of [Hafner Lillicrap Ba Norouzi 2020][research_hafner_lillicrap_ba_norouzi_2020_dreamer] introduced the imagination-based actor-critic training. The world model produces latent trajectories
+Dreamer of [Hafner et al. 2020a][research_hafner_lillicrap_ba_norouzi_2020_dreamer] introduced the imagination-based actor-critic training. The world model produces latent trajectories
 
 $$\{(z_t, a_t, r_t)\}_{t=0}^{H}$$
 
@@ -263,33 +263,33 @@ $$\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \sum_t \gamma^t r_t + \
 
 which is possible because the model is differentiable and the gradient flows through the model dynamics as well as the reward function. The entropy regularizer with coefficient $\eta$ prevents premature policy collapse.
 
-DreamerV2 of [Hafner Lillicrap Norouzi Ba 2020][research_hafner_lillicrap_norouzi_ba_2020] extended this formulation to Atari with a discrete latent representation and improved training stability. The discrete latent representation
+DreamerV2 of [Hafner et al. 2020b][research_hafner_lillicrap_norouzi_ba_2020] extended this formulation to Atari with a discrete latent representation and improved training stability. The discrete latent representation
 
 $$z_t = \text{OneHot}(\arg\max_i \pi_\theta^{(i)}(h_t))$$
 
 with straight-through estimator gradients enabled markedly larger effective latent space capacity than continuous latents while maintaining differentiability.
 
-DreamerV3 of [Hafner Pasukonis Ba Lillicrap 2023][research_hafner_et_al_2023] provided the mature version of the treatment with domain-general hyperparameter settings, achieving competitive performance across continuous control, discrete action, and video game domains without task-tuning. The paper demonstrated that world models had reached practical maturity as a general-purpose reinforcement learning approach.
+DreamerV3 of [Hafner et al. 2023][research_hafner_et_al_2023] provided the mature version of the treatment with domain-general hyperparameter settings, achieving competitive performance across continuous control, discrete action, and video game domains without task-tuning. The paper demonstrated that world models had reached practical maturity as a general-purpose reinforcement learning approach.
 
-Distributed variants including DayDreamer of [Wu Escontrela Hafner Abbeel Goldberg 2022][research_wu_et_al_2022] scaled world-model learning to real-robot learning with extensive sample efficiency advantages.
+Distributed variants including DayDreamer of [Wu et al. 2022][research_wu_et_al_2022] scaled world-model learning to real-robot learning with extensive sample efficiency advantages.
 
 ## Model-Based Policy Optimization
 
 Model-based policy optimization frameworks combine learned models with policy optimization algorithms rather than direct planning. The approach provides the sample-efficiency advantages of model-based data augmentation while retaining the flexibility of policy-gradient or actor-critic methods.
 
-MBPO of [Janner Fu Zhang Levine 2019][research_janner_fu_zhang_levine_2019] uses ensemble dynamics models to generate short rollouts of length $k \ll H$ starting from real states, then trains a policy (SAC) on the union of real and imagined data. The short-rollout strategy addresses the compounding-error problem while retaining sizable sample-efficiency gains, with rollout length adjusted based on model accuracy.
+MBPO of [Janner et al. 2019][research_janner_fu_zhang_levine_2019] uses ensemble dynamics models to generate short rollouts of length $k \ll H$ starting from real states, then trains a policy (SAC) on the union of real and imagined data. The short-rollout strategy addresses the compounding-error problem while retaining sizable sample-efficiency gains, with rollout length adjusted based on model accuracy.
 
-Model-Value Expansion (MVE) of [Feinberg Wan Stoica Jordan Gonzalez Levine 2018][research_feinberg_et_al_2018] uses fixed-length model rollouts to extend the TD target with model-based multi-step returns,
+Model-Value Expansion (MVE) of [Feinberg et al. 2018][research_feinberg_et_al_2018] uses fixed-length model rollouts to extend the TD target with model-based multi-step returns,
 
 $$y_t^{\text{MVE}} = \sum_{k=0}^{H-1} \gamma^k \hat{r}_{t+k+1} + \gamma^H V(\hat{s}_{t+H})$$
 
-providing improved value function targets for actor-critic learning. Stochastic Ensemble Value Expansion (STEVE) of [Buckman Hafner Tucker Brevdo Zoghlun 2018][research_buckman_et_al_2018] extends MVE by computing multi-step targets at multiple horizons and combining them via inverse-variance weighting,
+providing improved value function targets for actor-critic learning. Stochastic Ensemble Value Expansion (STEVE) of [Buckman et al. 2018][research_buckman_et_al_2018] extends MVE by computing multi-step targets at multiple horizons and combining them via inverse-variance weighting,
 
 $$y_t^{\text{STEVE}} = \frac{\sum_H (1/\sigma_H^2) \, y_t^{\text{MVE}(H)}}{\sum_H (1/\sigma_H^2)}$$
 
 with $\sigma_H^2$ the estimated variance of the $H$-step target from the model ensemble. The mechanism provides an alternative to short rollouts for combining model-based and model-free data sources.
 
-Model-based value gradient methods including SVG of [Heess Wayne Silver Lillicrap Erez Tassa 2015][research_heess_wayne_silver_lillicrap_erez_tassa_2015] compute analytical gradients of return through the model dynamics,
+Model-based value gradient methods including SVG of [Heess et al. 2015][research_heess_wayne_silver_lillicrap_erez_tassa_2015] compute analytical gradients of return through the model dynamics,
 
 $$\nabla_\theta J(\theta) = \mathbb{E}\!\left[\sum_t \gamma^t \left(\nabla_a r(s_t, a_t) + \gamma \nabla_a V(s_{t+1}) \nabla_a f_\zeta(s_t, a_t)\right) \nabla_\theta \pi_\theta(s_t)\right]$$
 
@@ -299,9 +299,9 @@ providing an alternative to policy gradient that has proved effective on continu
 
 Model-based reinforcement learning provides distinctive advantages for meta-learning and rapid adaptation to new tasks, since a world model learned across a distribution of tasks can be quickly specialized to a new task using few real environment interactions. Article nine treats meta-reinforcement learning as its principal subject, this section previews the model-based line.
 
-Deep online adaptation via meta-learning of [Nagabandi Clavera Liu Fearing Abbeel Levine Finn 2018][research_nagabandi_et_al_2018_meta] trains a meta-learned dynamics model that supports rapid on-line adaptation through few-shot gradient updates. This account combines MAML-style meta-learning with model-based planning, achieving appreciable adaptation efficiency on legged robots facing novel terrain.
+Deep online adaptation via meta-learning of [Nagabandi et al. 2018a][research_nagabandi_et_al_2018_meta] trains a meta-learned dynamics model that supports rapid on-line adaptation through few-shot gradient updates. This account combines MAML-style meta-learning with model-based planning, achieving appreciable adaptation efficiency on legged robots facing novel terrain.
 
-Model-based meta-policy optimization of [Clavera Rothfuss Schulman Fujita Asfour Abbeel 2018][research_clavera_et_al_2018] trains an ensemble of dynamics models jointly with a meta-policy that can be quickly specialized to individual ensemble members. The mechanism combines uncertainty-aware planning with policy meta-learning.
+Model-based meta-policy optimization of [Clavera et al. 2018][research_clavera_et_al_2018] trains an ensemble of dynamics models jointly with a meta-policy that can be quickly specialized to individual ensemble members. The mechanism combines uncertainty-aware planning with policy meta-learning.
 
 Latent-variable model-based meta-learning approaches condition the world model on a latent task embedding
 
@@ -317,13 +317,13 @@ Model-based methods have proved particularly effective for offline reinforcement
 
 The core observation is that a learned model can extrapolate beyond the states covered by the offline dataset, producing simulated experience at states the offline data did not visit. This extrapolation is a double-edged sword. It enables policies that improve on the behavior policy that generated the data, but it also amplifies model bias in regions where the model has not been calibrated by data.
 
-Model-Based Offline Policy Optimization (MOPO) of [Yu et al 2020][research_yu_et_al_2020_mopo] and Model-Based Offline Reinforcement Learning (MOReL) of [Kidambi Rajeswaran Netrapalli Joachims 2020][research_kidambi_et_al_2020_morel] address this trade-off by penalizing policies that visit high-uncertainty regions of the learned model. The MOPO reward penalty takes the form
+Model-Based Offline Policy Optimization (MOPO) of [Yu et al. 2020][research_yu_et_al_2020_mopo] and Model-Based Offline Reinforcement Learning (MOReL) of [Kidambi et al. 2020][research_kidambi_et_al_2020_morel] address this trade-off by penalizing policies that visit high-uncertainty regions of the learned model. The MOPO reward penalty takes the form
 
 $$\tilde{r}(s, a) = \hat{r}(s, a) - \lambda \, u(s, a)$$
 
 where $u(s, a)$ is an uncertainty estimate from the model ensemble and $\lambda$ controls the trade-off between exploiting the model and staying within its trustworthy region.
 
-COMBO of [Yu Kumar Rafailov Rajeswaran Levine Finn 2021][research_yu_et_al_2021_combo] and RAMBO of [Rigter Lacerda Hawes 2022][research_rigter_lacerda_hawes_2022] extended the model with conservative Q-learning integration and robust adversarial model training respectively. Each method provides different trade-offs between model exploitation and conservatism.
+COMBO of [Yu et al. 2021][research_yu_et_al_2021_combo] and RAMBO of [Rigter et al. 2022][research_rigter_lacerda_hawes_2022] extended the model with conservative Q-learning integration and robust adversarial model training respectively. Each method provides different trade-offs between model exploitation and conservatism.
 
 Empirical results on the D4RL benchmark treated in article eight show that model-based offline methods often outperform model-free offline methods when the offline dataset is small or narrowly-distributed, providing evidence for the sample-efficiency and out-of-distribution generalization advantages of model-based approaches in the offline setting.
 
@@ -333,13 +333,13 @@ The classical objective for model learning is maximum likelihood on observed tra
 
 $$L_{\text{VE}}(\theta) = \mathbb{E}\!\left[(V(s') - V(\hat{s}'))^2\right] + \eta \, \mathbb{E}\!\left[(r - \hat{r})^2\right]$$
 
-focusing model capacity on aspects of state relevant for value prediction rather than on visual fidelity. The Predictron of [Silver Hasselt Hessel et al 2017][research_silver_hasselt_hessel_2017] and Value Prediction Networks of [Oh Singh Lee 2017][research_oh_singh_lee_2017] provided early demonstrations that a model trained end-to-end for value prediction outperforms models trained for observation prediction on control tasks. The Imagination-Augmented Agent framework of [Racaniere Weber Buchli Buesing et al 2017][research_racaniere_et_al_2017] and the fast generative models of [Buesing Weber Racaniere Rezende Reichert Viola et al 2018][research_buesing_et_al_2018] extended the idea to full generative models optimized for planning rather than reconstruction.
+focusing model capacity on aspects of state relevant for value prediction rather than on visual fidelity. The Predictron of [Silver et al. 2017][research_silver_hasselt_hessel_2017] and Value Prediction Networks of [Oh et al. 2017][research_oh_singh_lee_2017] provided early demonstrations that a model trained end-to-end for value prediction outperforms models trained for observation prediction on control tasks. The Imagination-Augmented Agent framework of [Racanière et al. 2017][research_racaniere_et_al_2017] and the fast generative models of [Buesing et al. 2018][research_buesing_et_al_2018] extended the idea to full generative models optimized for planning rather than reconstruction.
 
-MuZero of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] pursues this approach. Three neural networks parameterize the learned model. A representation function encodes past observations into an internal state, a dynamics function predicts reward and next internal state given an action, and a prediction function predicts policy and value from the internal state. The internal state is never grounded through observation reconstruction, instead the model is trained to produce accurate reward, value, and policy predictions along MCTS-search trajectories. MuZero achieved state-of-the-art performance across board games and Atari.
+MuZero of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020] pursues this approach. Three neural networks parameterize the learned model. A representation function encodes past observations into an internal state, a dynamics function predicts reward and next internal state given an action, and a prediction function predicts policy and value from the internal state. The internal state is never grounded through observation reconstruction, instead the model is trained to produce accurate reward, value, and policy predictions along MCTS-search trajectories. MuZero achieved state-of-the-art performance across board games and Atari.
 
-Sampled MuZero and Efficient MuZero of [Ye Liu Kurutach Abbeel Gao 2021][research_ye_liu_kurutach_abbeel_gao_2021] extended this formulation to continuous action spaces and improved sample efficiency respectively.
+Sampled MuZero and Efficient MuZero of [Ye et al. 2021][research_ye_liu_kurutach_abbeel_gao_2021] extended this formulation to continuous action spaces and improved sample efficiency respectively.
 
-Transformer-based world models including IRIS of [Micheli Alonso Fleuret 2023][research_micheli_et_al_2023], TWM of [Robine Hoftmann Uelwer Harmeling 2023][research_robine_et_al_2023], and STORM of [Zhang et al 2023][research_zhang_et_al_2023] tokenize trajectories and use transformer sequence models as world models. The architectural change from recurrent state-space models to transformer models has proved effective on Atari 100k where sample efficiency is the primary metric.
+Transformer-based world models including IRIS of [Micheli et al. 2023][research_micheli_et_al_2023], TWM of [Robine et al. 2023][research_robine_et_al_2023], and STORM of [Zhang et al. 2023][research_zhang_et_al_2023] tokenize trajectories and use transformer sequence models as world models. The architectural change from recurrent state-space models to transformer models has proved effective on Atari 100k where sample efficiency is the primary metric.
 
 ## Sample Complexity of Model-Based Methods
 
@@ -351,7 +351,7 @@ for producing an $\epsilon$-optimal policy in finite-horizon MDPs of horizon $H$
 
 For linear MDPs and low-rank MDPs, model-based methods with appropriate parametric assumptions achieve polynomial sample complexity bounds. Extensions to function-approximation settings continue as an active research area.
 
-The [Kakade Wang Yang 2020][research_kakade_wang_yang_2020] work on sample efficiency of model-based reinforcement learning provided a modern systematic treatment of the theoretical advantages.
+The [Kakade et al. 2020][research_kakade_wang_yang_2020] work on sample efficiency of model-based reinforcement learning provided a modern systematic treatment of the theoretical advantages.
 
 Empirical sample-complexity gains from model-based methods depend strongly on the quality of the learned model. When the model is accurate, sample efficiency gains can be one or two orders of magnitude over model-free methods. When the model is inaccurate, model-based methods can produce worse policies than model-free baselines due to model bias.
 
@@ -403,15 +403,15 @@ providing a probabilistic action selection that trades off exploration and explo
 
 This account provides a unified account of perception, action, and learning that has proved influential in computational neuroscience. Correspondence to model-based reinforcement learning is not exact but close. Model-based reinforcement learning minimizes expected negative return under the model, while active inference minimizes expected free energy including an information-gain term. Under choices of the generative model and preference structure, the two frameworks coincide.
 
-The [Tschantz Millidge Seth Buckley 2020][research_tschantz_millidge_seth_buckley_2020] and [Millidge Tschantz Buckley 2021][research_millidge_tschantz_buckley_2021] work on active inference for reinforcement learning provides a systematic translation between the frameworks. The [Buckley Kim Ma McGregor 2017][research_buckley_kim_ma_mcgregor_2017] and [Sajid Ball Friston 2021][research_sajid_ball_friston_2021] tutorials provide accessible mathematical introductions to active inference for machine learning audiences.
+The [Tschantz et al. 2020][research_tschantz_millidge_seth_buckley_2020] and [Millidge et al. 2021][research_millidge_tschantz_buckley_2021] work on active inference for reinforcement learning provides a systematic translation between the frameworks. The [Buckley et al. 2017][research_buckley_kim_ma_mcgregor_2017] and [Sajid et al. 2021][research_sajid_ball_friston_2021] tutorials provide accessible mathematical introductions to active inference for machine learning audiences.
 
 ## World Models in Foundation Models
 
 The rise of large language models and multimodal foundation models has produced a class of world-model-like systems that predict future observations conditional on actions or instructions. These systems blur the boundary between model-based reinforcement learning and generative modeling, and have proved effective for tasks including video prediction, controllable simulation, and embodied planning.
 
-Genie of [Bruce et al 2024][research_bruce_et_al_2024] trained a foundation model for controllable video generation from unlabeled internet video. The model learns a discrete latent action space through inverse dynamics and generates future video conditional on these actions, producing a general-purpose interactive world model for videogame-like environments.
+Genie of [Bruce et al. 2024][research_bruce_et_al_2024] trained a foundation model for controllable video generation from unlabeled internet video. The model learns a discrete latent action space through inverse dynamics and generates future video conditional on these actions, producing a general-purpose interactive world model for videogame-like environments.
 
-Video diffusion models including UniSim of [Yang Du Ghasemipour Tenenbaum Schuurmans Abbeel 2023][research_yang_du_ghasemipour_2023] treat action-conditioned video generation as a diffusion problem, generating future frames conditional on past frames and control signals. The framework connects world modeling to the diffusion generative modeling framework.
+Video diffusion models including UniSim of [Yang et al. 2023][research_yang_du_ghasemipour_2023] treat action-conditioned video generation as a diffusion problem, generating future frames conditional on past frames and control signals. The framework connects world modeling to the diffusion generative modeling framework.
 
 LLM-based world models use language models to predict future states or events in language-described environments. Applications include multi-step reasoning in language tasks, embodied planning with natural-language state descriptions, and simulation of social or agentic scenarios.
 
@@ -419,7 +419,7 @@ The scaling behavior of world models across the foundation model regime is an ac
 
 ## Neuroscience of Internal Models
 
-Internal models in biological neural systems have been extensively studied across multiple systems. Motor learning and control research established that the cerebellum learns forward models of the motor apparatus, predicting sensory consequences of motor commands to enable rapid feedback control. Foundational treatments include [Wolpert Ghahramani and Jordan 1995][research_wolpert_ghahramani_jordan_1995] on internal models for motor learning, [Miall and Wolpert 1996][research_miall_wolpert_1996] on the role of forward models, and [Kawato 1999][research_kawato_1999] on internal models as a general principle of motor control. The [Wolpert Miall Kawato 1998][research_wolpert_miall_kawato_1998] framework proposed a hierarchical system of forward and inverse models that supports motor skill learning and adaptation. The forward model predicts the sensory consequences of a motor command,
+Internal models in biological neural systems have been extensively studied across multiple systems. Motor learning and control research established that the cerebellum learns forward models of the motor apparatus, predicting sensory consequences of motor commands to enable rapid feedback control. Foundational treatments include [Wolpert et al. 1995][research_wolpert_ghahramani_jordan_1995] on internal models for motor learning, [Miall and Wolpert 1996][research_miall_wolpert_1996] on the role of forward models, and [Kawato 1999][research_kawato_1999] on internal models as a general principle of motor control. The [Wolpert et al. 1998][research_wolpert_miall_kawato_1998] framework proposed a hierarchical system of forward and inverse models that supports motor skill learning and adaptation. The forward model predicts the sensory consequences of a motor command,
 
 $$\hat{s}_{t+1} = f_{\text{forward}}(s_t, u_t)$$
 
@@ -429,11 +429,11 @@ $$\epsilon_{\text{sensory}} = s_{t+1}^{\text{observed}} - \hat{s}_{t+1}$$
 
 drives adaptation of the forward model and provides the training signal for the inverse controller. The cerebellar prediction-error learning documented at length by [Ito 2008][research_ito_2008] has proved to be one of the clearest neural correspondences to a machine learning algorithm. Optimal feedback control frameworks including [Todorov and Jordan 2002][research_todorov_jordan_2002] and [Todorov 2004][research_todorov_2004] connect internal-model-based motor control to normative optimal control theory, providing the theoretical basis for understanding biological motor behavior as approximate optimal control under learned models.
 
-Hippocampal replay treated in article three extends to model-based planning. The hippocampus generates sequences of previously-visited state representations during both awake rest and sleep, and these replayed sequences correlate with subsequent behavior in ways consistent with mental simulation for planning. The [Pfeiffer Foster 2013][research_pfeiffer_foster_2013] finding of forward hippocampal sequences preceding goal-directed navigation provides direct evidence for a model-based planning role.
+Hippocampal replay treated in article three extends to model-based planning. The hippocampus generates sequences of previously-visited state representations during both awake rest and sleep, and these replayed sequences correlate with subsequent behavior in ways consistent with mental simulation for planning. The [Pfeiffer and Foster 2013][research_pfeiffer_foster_2013] finding of forward hippocampal sequences preceding goal-directed navigation provides direct evidence for a model-based planning role.
 
 The prefrontal cortex is implicated in maintaining task-relevant internal models that support planning and decision-making. Correspondence between prefrontal representations and value predictions from model-based reinforcement learning has been established through both electrophysiology and functional imaging.
 
-The dorsolateral prefrontal cortex versus dorsomedial striatum distinction between goal-directed and habitual behavior treated in article fifteen corresponds directly to the model-based versus model-free reinforcement learning distinction. [Daw Niv Dayan 2005][research_daw_niv_dayan_2005] proposed a computational-level account of the two systems as parallel model-based and model-free learners with an arbitration mechanism that selects between them based on uncertainty.
+The dorsolateral prefrontal cortex versus dorsomedial striatum distinction between goal-directed and habitual behavior treated in article fifteen corresponds directly to the model-based versus model-free reinforcement learning distinction. [Daw et al. 2005][research_daw_niv_dayan_2005] proposed a computational-level account of the two systems as parallel model-based and model-free learners with an arbitration mechanism that selects between them based on uncertainty.
 
 Successor representations of [Dayan 1993][research_dayan_1993] provide an intermediate between fully model-free and fully model-based approaches, encoding expected discounted future state occupancy in a way that supports flexible re-planning when reward changes without requiring full explicit model-based simulation. Article three treated the successor representation and its neural correspondence in the hippocampus, this formulation extends to hierarchical successor representations that connect to hierarchical reinforcement learning treated in article six.
 
@@ -445,21 +445,21 @@ Continuous control benchmarks including MuJoCo, DeepMind Control Suite, and Meta
 
 Real-world robotics benchmarks including DayDreamer's real-robot learning demonstrations provide the ultimate test of sample efficiency. Model-based methods have achieved significant sample-efficiency improvements over model-free baselines in real robot learning, though the sim-to-real gap treated in article four remains a concern.
 
-The [Wang and Ba 2020][research_wang_ba_2020] benchmarking study documented the practical performance of a range of model-based reinforcement learning methods across standard continuous control tasks, providing a systematic empirical comparison. The general finding is that no single model-based method dominates across all tasks, and method selection depends on task-properties.
+The [Wang et al. 2019][research_wang_ba_2020] benchmarking study documented the practical performance of a range of model-based reinforcement learning methods across standard continuous control tasks, providing a systematic empirical comparison. The general finding is that no single model-based method dominates across all tasks, and method selection depends on task-properties.
 
 ## Sim-to-Real Transfer with Learned Models
 
 Real-robot learning presents distinctive challenges for model-based reinforcement learning. Real-world data is expensive to collect, physical damage risks constrain exploration, and reset mechanisms (returning the environment to a known state) may be unavailable or costly. Model-based methods with their sample-efficiency advantages have shown promise in this regime, and techniques have been developed to bridge simulation and reality.
 
-Domain randomization treated in article four extends naturally to the model-based setting. A world model trained across a distribution of simulated environments with randomized dynamics parameters can generalize to real-world dynamics that fall within the training distribution. [Rusu Vecerik Rothorl Heess Pascanu Hadsell 2017][research_rusu_et_al_2017] Sim-to-Real Robotic Reinforcement Learning provided an early demonstration of the treatment applied to model-based methods.
+Domain randomization treated in article four extends naturally to the model-based setting. A world model trained across a distribution of simulated environments with randomized dynamics parameters can generalize to real-world dynamics that fall within the training distribution. [Rusu et al. 2017][research_rusu_et_al_2017] Sim-to-Real Robotic Reinforcement Learning provided an early demonstration of the treatment applied to model-based methods.
 
-Learning agile quadrupedal control of [Hwangbo Lee Dosovitskiy Bellicoso Tsounis Koltun Hutter 2019][research_hwangbo_et_al_2019] combined actuator identification, simulator calibration, and model-based control to achieve robust quadruped locomotion transferred from simulation to physical hardware. The approach demonstrated that careful model calibration greatly reduces the sim-to-real gap.
+Learning agile quadrupedal control of [Hwangbo et al. 2019][research_hwangbo_et_al_2019] combined actuator identification, simulator calibration, and model-based control to achieve robust quadruped locomotion transferred from simulation to physical hardware. The approach demonstrated that careful model calibration greatly reduces the sim-to-real gap.
 
-Domain adaptation via learned dynamics of [Chebotar Handa Makoviichuk Lu Fox Yashchuk Tremblay Birchfield Coste 2019][research_chebotar_et_al_2019] adapted a simulator's parameters to match real-world observations, closing the sim-to-real gap through explicit calibration. This formulation combined simulation-based training with real-world adaptation in an iterative closed loop.
+Domain adaptation via learned dynamics of [Chebotar et al. 2019][research_chebotar_et_al_2019] adapted a simulator's parameters to match real-world observations, closing the sim-to-real gap through explicit calibration. This formulation combined simulation-based training with real-world adaptation in an iterative closed loop.
 
 DayDreamer of Wu et al 2022 treated earlier demonstrated real-robot learning entirely from real-world experience through a learned world model, achieving substantial sample-efficiency gains without any simulation. The result provided evidence that model-based reinforcement learning has reached the sample efficiency required for practical real-robot deployment on select tasks.
 
-Real-world robotic manipulation benchmarks including RRC of [Byravan et al 2022][research_byravan_et_al_2022] and various real-robot demonstrations have shown that model-based methods can achieve competitive performance with considerably less real-robot interaction than model-free baselines require. The gap between simulation-based demonstration and real-world deployment remains a research frontier.
+Real-world robotic manipulation benchmarks including RRC of [Byravan 2022][research_byravan_et_al_2022] and various real-robot demonstrations have shown that model-based methods can achieve competitive performance with considerably less real-robot interaction than model-free baselines require. The gap between simulation-based demonstration and real-world deployment remains a research frontier.
 
 ## Load-Bearing Open Questions
 
@@ -474,103 +474,110 @@ Real-world robotic manipulation benchmarks including RRC of [Byravan et al 2022]
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Craik 1943][book_craik_1943]
-- [Sutton and Barto 2018][book_sutton_barto_2018]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Barto, Andrew G., Steven J. Bradtke, and Satinder P. Singh. 1995. "Learning to Act Using Real-Time Dynamic Programming." *Artificial Intelligence* 72 (1–2): 81–138. [https://doi.org/10.1016/0004-3702(94)00011-o][research_barto_bradtke_singh_1995]
+- Bogacz, Rafal. 2017. "A Tutorial on the Free-Energy Framework for Modelling Perception and Learning." *Journal of Mathematical Psychology* 76: 198–211. [https://doi.org/10.1016/j.jmp.2015.11.003][research_bogacz_2017]
+- Buckley, Christopher L., Chang Sub Kim, Simon McGregor, and Anil K. Seth. 2017. "The Free Energy Principle for Action and Perception: A Mathematical Review." *Journal of Mathematical Psychology* 81: 55–79. [https://doi.org/10.1016/j.jmp.2017.09.004][research_buckley_kim_ma_mcgregor_2017]
+- Daw, Nathaniel D., Yael Niv, and Peter Dayan. 2005. "Uncertainty-Based Competition between Prefrontal and Dorsolateral Striatal Systems for Behavioral Control." *Nature Neuroscience* 8 (12): 1704–11. [https://doi.org/10.1038/nn1560][research_daw_niv_dayan_2005]
+- Friston, Karl. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11 (2): 127–38. [https://doi.org/10.1038/nrn2787][research_friston_2010]
+- Ito, Masao. 2008. "Control of Mental Activities by Internal Models in the Cerebellum." *Nature Reviews Neuroscience* 9 (4): 304–13. [https://doi.org/10.1038/nrn2332][research_ito_2008]
+- Kaelbling, Leslie Pack, Michael L. Littman, and Anthony R. Cassandra. 1998. "Planning and Acting in Partially Observable Stochastic Domains." *Artificial Intelligence* 101 (1–2): 99–134. [https://doi.org/10.1016/s0004-3702(98)00023-x][research_kaelbling_littman_cassandra_1998]
+- Kawato, Mitsuo. 1999. "Internal Models for Motor Control and Trajectory Planning." *Current Opinion in Neurobiology* 9 (6): 718–27. [https://doi.org/10.1016/s0959-4388(99)00028-8][research_kawato_1999]
+- Miall, R. C., and D. M. Wolpert. 1996. "Forward Models for Physiological Motor Control." *Neural Networks* 9 (8): 1265–79. [https://doi.org/10.1016/s0893-6080(96)00035-4][research_miall_wolpert_1996]
+- Moore, Andrew W., and Christopher G. Atkeson. 1993. "Prioritized Sweeping: Reinforcement Learning with Less Data and Less Time." *Machine Learning* 13 (1): 103–30. [https://doi.org/10.1007/bf00993104][research_moore_atkeson_1993]
+- Nagabandi, Anusha, Gregory Kahn, Ronald S. Fearing, and Sergey Levine. 2018b. "Neural Network Dynamics for Model-Based Deep Reinforcement Learning with Model-Free Fine-Tuning." In *2018 IEEE International Conference on Robotics and Automation (ICRA)*. IEEE. [https://doi.org/10.1109/icra.2018.8463189][research_nagabandi_et_al_2018]
+- Pfeiffer, Brad E., and David J. Foster. 2013. "Hippocampal Place-Cell Sequences Depict Future Paths to Remembered Goals." *Nature* 497 (7447): 74–79. [https://doi.org/10.1038/nature12112][research_pfeiffer_foster_2013]
+- Schrittwieser, Julian, Ioannis Antonoglou, Thomas Hubert, et al. 2020. "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model." *Nature* 588 (7839): 604–9. [https://doi.org/10.1038/s41586-020-03051-4][research_schrittwieser_et_al_2020]
+- Todorov, Emanuel. 2004. "Optimality Principles in Sensorimotor Control." *Nature Neuroscience* 7 (9): 907–15. [https://doi.org/10.1038/nn1309][research_todorov_2004]
+- Todorov, Emanuel, and Michael I. Jordan. 2002. "Optimal Feedback Control as a Theory of Motor Coordination." *Nature Neuroscience* 5 (11): 1226–35. [https://doi.org/10.1038/nn963][research_todorov_jordan_2002]
+- Williams, Grady, Andrew Aldrich, and Evangelos A. Theodorou. 2017. "Model Predictive Path Integral Control: From Theory to Parallel Computation." *Journal of Guidance, Control, and Dynamics* 40 (2): 344–57. [https://doi.org/10.2514/1.g001921][research_williams_aldrich_theodorou_2017]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stanford CS234][ref_stanford_cs234]
+### Primary Sources, Non-Peer-Reviewed
+
+- Bruce, Jake, Michael Dennis, Ashley Edwards, et al. 2024. "Genie: Generative Interactive Environments." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2402.15391][research_bruce_et_al_2024]
+- Buesing, Lars, Theophane Weber, Sebastien Racaniere, et al. 2018. "Learning and Querying Fast Generative Models for Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1802.03006][research_buesing_et_al_2018]
+- Byravan. 2022. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Byravan+2022][research_byravan_et_al_2022]
+- Chua, Kurtland, Roberto Calandra, Rowan McAllister, and Sergey Levine. 2018. "Deep Reinforcement Learning in a Handful of Trials Using Probabilistic Dynamics Models." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/3de568f8597b94bda53149c7d7f5958c-Abstract.html][research_chua_calandra_mcallister_levine_2018]
+- Clark, Andy. 2013. "Whatever Next? Predictive Brains, Situated Agents, and the Future of Cognitive Science." *Behavioral and Brain Sciences* 36 (3): 181–204. [https://doi.org/10.1017/s0140525x12000477][research_clark_2013]
+- Clavera, Ignasi, Jonas Rothfuss, John Schulman, Yasuhiro Fujita, Tamim Asfour, and Pieter Abbeel. 2018. "Model-Based Reinforcement Learning via Meta-Policy Optimization." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v87/clavera18a.html][research_clavera_et_al_2018]
+- Feinberg, Vladimir, Alvin Wan, Ion Stoica, Michael I. Jordan, Joseph E. Gonzalez, and Sergey Levine. 2018. "Model-Based Value Estimation for Efficient Model-Free Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1803.00101][research_feinberg_et_al_2018]
+- Ha, David, and Jürgen Schmidhuber. 2018. "Recurrent World Models Facilitate Policy Evolution." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/2de5d16682c3c35007e4e92982f1a2ba-Abstract.html][research_ha_schmidhuber_2018]
+- Hafner, Danijar, Timothy Lillicrap, Ian Fischer, et al. 2019. "Learning Latent Dynamics for Planning from Pixels." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/hafner19a.html][research_hafner_et_al_2019]
+- Hafner, Danijar, Timothy P. Lillicrap, Mohammad Norouzi, and Jimmy Ba. 2020b. "Mastering Atari with Discrete World Models." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=0oabwyZbOu][research_hafner_et_al_2020]
+- Hafner, Danijar, Jurgis Pasukonis, Jimmy Ba, and Timothy Lillicrap. 2023. "Mastering Diverse Domains through World Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2301.04104][research_hafner_et_al_2023]
+- Heess, Nicolas, Gregory Wayne, David Silver, Timothy Lillicrap, Tom Erez, and Yuval Tassa. 2015. "Learning Continuous Control Policies by Stochastic Value Gradients." *Advances in Neural Information Processing Systems* 28. [https://papers.nips.cc/paper/2015/hash/148510031349642de5ca0c544f31b2ef-Abstract.html][research_heess_wayne_silver_lillicrap_erez_tassa_2015]
+- Hwangbo, Jemin, Joonho Lee, Alexey Dosovitskiy, et al. 2019. "Learning Agile and Dynamic Motor Skills for Legged Robots." *Science Robotics* 4 (26): eaau5872. [https://doi.org/10.1126/scirobotics.aau5872][research_hwangbo_et_al_2019]
+- Igl, Maximilian, Luisa Zintgraf, Tuan Anh Le, Frank Wood, and Shimon Whiteson. 2018. "Deep Variational Reinforcement Learning for POMDPs." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/igl18a.html][research_igl_et_al_2018]
+- Janner, Michael, Justin Fu, Marvin Zhang, and Sergey Levine. 2019. "When to Trust Your Model: Model-Based Policy Optimization." *Advances in Neural Information Processing Systems* 32. [https://papers.nips.cc/paper/2019/hash/5faf461eff3099671ad63c6f3f094f7f-Abstract.html][research_janner_fu_zhang_levine_2019]
+- Kakade, Wang, and Yang. 2020. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Kakade+Wang+Yang+2020][research_kakade_wang_yang_2020]
+- Kidambi, Rahul, Aravind Rajeswaran, Praneeth Netrapalli, and Thorsten Joachims. 2020. "MOReL: Model-Based Offline Reinforcement Learning." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2020/hash/f7efa4f864ae9b88d43527f4b14f750f-Abstract.html][research_kidambi_et_al_2020_morel]
+- Knill and Pouget. 2004. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Knill+Pouget+2004][research_knill_pouget_2004]
+- Micheli, Vincent, Eloi Alonso, and François Fleuret. 2023. "Transformers Are Sample-Efficient World Models." In *The Eleventh International Conference on Learning Representations*. [https://openreview.net/forum?id=vhFu1Acb0xb][research_micheli_et_al_2023]
+- Nagabandi, Anusha, Ignasi Clavera, Simin Liu, et al. 2018a. "Learning to Adapt in Dynamic, Real-World Environments through Meta-Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1803.11347][research_nagabandi_et_al_2018_meta]
+- Oh, Junhyuk, Satinder Singh, and Honglak Lee. 2017. "Value Prediction Network." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/ffbd6cbb019a1413183c8d08f2929307-Abstract.html][research_oh_singh_lee_2017]
+- Pinneri, Cristina, Shambhuraj Sawant, Sebastian Blaes, et al. 2021. "Sample-Efficient Cross-Entropy Method for Real-Time Planning." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v155/pinneri21a.html][research_pinneri_et_al_2021]
+- Racanière, Sébastien, Theophane Weber, David Reichert, et al. 2017. "Imagination-Augmented Agents for Deep Reinforcement Learning." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/9e82757e9a1c12cb710ad680db11f6f1-Abstract.html][research_racaniere_et_al_2017]
+- Rubinstein. 1997. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Rubinstein+1997][research_rubinstein_1997]
+- Rusu, Andrei A., Matej Večerík, Thomas Rothörl, Nicolas Heess, Razvan Pascanu, and Raia Hadsell. 2017. "Sim-to-Real Robot Learning from Pixels with Progressive Nets." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v78/rusu17a.html][research_rusu_et_al_2017]
+- Silver, David, Hado Hasselt, Matteo Hessel, et al. 2017. "The Predictron: End-To-End Learning and Planning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/silver17a.html][research_silver_hasselt_hessel_2017]
+- Silver, David, and Joel Veness. 2010. "Monte-Carlo Planning in Large POMDPs." *Advances in Neural Information Processing Systems* 23. [https://papers.nips.cc/paper/2010/hash/edfbe1afcf9246bb0d40eb4d8027d90f-Abstract.html][research_silver_veness_2010]
+- Somani, Adhiraj, Nan Ye, David Hsu, and Wee Sun Lee. 2013. "DESPOT: Online POMDP Planning with Regularization." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2013/hash/c2aee86157b4a40b78132f1e71a9e6f1-Abstract.html][research_somani_et_al_2013]
+- Sutton, Richard S. 1991. "Dyna, an Integrated Architecture for Learning, Planning, and Reacting." *ACM SIGART Bulletin* 2 (4): 160–63. [https://doi.org/10.1145/122344.122377][research_sutton_1991]
+- Tolman, Edward C. 1948. "Cognitive Maps in Rats and Men." *Psychological Review* 55 (4): 189–208. [https://doi.org/10.1037/h0061626][research_tolman_1948]
+- Tschantz, Alexander, Beren Millidge, Anil K. Seth, and Christopher L. Buckley. 2020. "Reinforcement Learning through Active Inference." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2002.12636][research_tschantz_millidge_seth_buckley_2020]
+- Wang, Tingwu, Xuchan Bao, Ignasi Clavera, et al. 2019. "Benchmarking Model-Based Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1907.02057][research_wang_ba_2020]
+- Watter, Manuel, Jost Springenberg, Joschka Boedecker, and Martin Riedmiller. 2015. "Embed to Control: A Locally Linear Latent Dynamics Model for Control from Raw Images." *Advances in Neural Information Processing Systems* 28. [https://papers.nips.cc/paper/2015/hash/a1afc58c6ca9540d057299ec3016d726-Abstract.html][research_watter_et_al_2015]
+- Wolpert, Daniel M., Zoubin Ghahramani, and Michael I. Jordan. 1995. "An Internal Model for Sensorimotor Integration." *Science* 269 (5232): 1880–82. [https://doi.org/10.1126/science.7569931][research_wolpert_ghahramani_jordan_1995]
+- Wu, Philipp, Alejandro Escontrela, Danijar Hafner, Ken Goldberg, and Pieter Abbeel. 2022. "DayDreamer: World Models for Physical Robot Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2206.14176][research_wu_et_al_2022]
+- Yang, Sherry, Yilun Du, Seyed Kamyar Seyed Ghasemipour, et al. 2023. "Learning Interactive Real-World Simulators." In *The Twelfth International Conference on Learning Representations*. [https://openreview.net/forum?id=sFyTZEqmUY][research_yang_du_ghasemipour_2023]
+- Ye, Weirui, Shaohuai Liu, Thanard Kurutach, Pieter Abbeel, and Yang Gao. 2021. "Mastering Atari Games with Limited Data." *Advances in Neural Information Processing Systems* 34: 25476–88. [https://papers.nips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html][research_ye_liu_kurutach_abbeel_gao_2021]
+- Yu, Tianhe, Aviral Kumar, Rafael Rafailov, Aravind Rajeswaran, Sergey Levine, and Chelsea Finn. 2021. "COMBO: Conservative Offline Model-Based Policy Optimization." *Advances in Neural Information Processing Systems* 34: 28954–67. [https://papers.nips.cc/paper/2021/hash/f29a179746902e331572c483c45e5086-Abstract.html][research_yu_et_al_2021_combo]
+- Yu, Tianhe, Garrett Thomas, Lantao Yu, et al. 2020. "MOPO: Model-Based Offline Policy Optimization." *Advances in Neural Information Processing Systems* 33: 14129–42. [https://papers.nips.cc/paper/2020/hash/a322852ce0df73e204b7e67cbbef0d0a-Abstract.html][research_yu_et_al_2020_mopo]
+- Zhang, Weipu, Gang Wang, Jian Sun, Yetian Yuan, and Gao Huang. 2023. "STORM: Efficient Stochastic Transformer Based World Models for Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2310.09615][research_zhang_et_al_2023]
+
+### Secondary Sources
+
+- Craik. 1943. *\[Title not identified\]*. [https://archive.org/details/thenatureofexplanation][book_craik_1943]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- Buckman, Hafner, Tucker, Brevdo, and Zoghlun. 2018. "\[Title not identified\]." Accessed October 25, 2026. [https://papers.nips.cc/paper/2018/hash/f02208a057804ee16ac72ff4d3cec53b-Abstract.html][research_buckman_et_al_2018]
+- Chebotar, Handa, Makoviichuk, et al. 2019. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/8793789][research_chebotar_et_al_2019]
+- Dayan. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/5/4/613/5679][research_dayan_1993]
+- Deisenroth and Rasmussen. 2011. "\[Title not identified\]." Accessed October 25, 2026. [https://icml.cc/Conferences/2011/papers/323\_icmlpaper.pdf][research_deisenroth_rasmussen_2011]
+- Hafner, Lillicrap, Ba, and Norouzi. 2020a. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=S1lOTC4tDS][research_hafner_lillicrap_ba_norouzi_2020_dreamer]
+- "Karl Soelch Bayer van der Smagt." 2017. [https://openreview.net/forum?id=HyTqHL5xg][research_karl_et_al_2017]
+- Millidge, Tschantz, and Buckley. 2021. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/33/3/674/95642][research_millidge_tschantz_buckley_2021]
+- Rao and Ballard. 1999. "\[Title not identified\]." Accessed October 25, 2026. [https://www.nature.com/articles/nn0199\_79][research_rao_ballard_1999]
+- Rigter, Lacerda, and Hawes. 2022. "\[Title not identified\]." Accessed October 25, 2026. [https://papers.nips.cc/paper/2022/hash/c73df2ba1e3d3adbfbf03c78e2eb5e63-Abstract-Conference.html][research_rigter_lacerda_hawes_2022]
+- Robine, Hoftmann, Uelwer, and Harmeling. 2023. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=TdBaDGCpjly][research_robine_et_al_2023]
+- Sajid, Ball, and Friston. 2021. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/33/3/674/95642][research_sajid_ball_friston_2021]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- Sutton. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://dl.acm.org/doi/10.5555/3091622.3091638][research_sutton_1990]
+- Todorov and Li. 2005. "Fuzzy Adaptive Vibration Suppression and Noise Filtering for Flexible Robot Control." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1470154][research_todorov_li_2005]
+- Werbos. 1987. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/6313077][research_werbos_1987]
+- Whittington and Bogacz. 2017. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/29/5/1229/8253][research_whittington_bogacz_2017]
+- Wolpert, Miall, and Kawato. 1998. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S1364661398012211][research_wolpert_miall_kawato_1998]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
-- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
-- [A252 Machines That Learn From Experience Reinforcement Learning Foundations][related_post_a252_rl_foundations]
-- [A253 Machines That Learn From Experience Deep Reinforcement Learning][related_post_a253_deep_rl]
-- [A254 Machines That Learn From Experience Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]
-- [A255 Machines That Learn From Experience Hierarchical Reinforcement Learning][related_post_a255_hierarchical]
-
-### Research
-
-- [Barto Bradtke and Singh 1995][research_barto_bradtke_singh_1995]
-- [Bogacz 2017][research_bogacz_2017]
-- [Bruce et al 2024][research_bruce_et_al_2024]
-- [Buckley Kim Ma McGregor 2017][research_buckley_kim_ma_mcgregor_2017]
-- [Buckman Hafner Tucker Brevdo Zoghlun 2018][research_buckman_et_al_2018]
-- [Buesing Weber Racaniere et al 2018][research_buesing_et_al_2018]
-- [Byravan et al 2022][research_byravan_et_al_2022]
-- [Chebotar et al 2019][research_chebotar_et_al_2019]
-- [Chua Calandra McAllister Levine 2018][research_chua_calandra_mcallister_levine_2018]
-- [Clark 2013][research_clark_2013]
-- [Clavera Rothfuss Schulman Fujita Asfour Abbeel 2018][research_clavera_et_al_2018]
-- [Daw Niv Dayan 2005][research_daw_niv_dayan_2005]
-- [Dayan 1993][research_dayan_1993]
-- [Deisenroth and Rasmussen 2011][research_deisenroth_rasmussen_2011]
-- [Feinberg Wan Stoica Jordan Gonzalez Levine 2018][research_feinberg_et_al_2018]
-- [Friston 2010][research_friston_2010]
-- [Ha and Schmidhuber 2018][research_ha_schmidhuber_2018]
-- [Hafner et al 2019][research_hafner_et_al_2019]
-- [Hafner et al 2020][research_hafner_et_al_2020]
-- [Hafner et al 2023][research_hafner_et_al_2023]
-- [Hafner Lillicrap Ba Norouzi 2020][research_hafner_lillicrap_ba_norouzi_2020_dreamer]
-- [Hafner Lillicrap Norouzi Ba 2020][research_hafner_lillicrap_norouzi_ba_2020]
-- [Heess Wayne Silver Lillicrap Erez Tassa 2015][research_heess_wayne_silver_lillicrap_erez_tassa_2015]
-- [Hwangbo Lee Dosovitskiy Bellicoso Tsounis Koltun Hutter 2019][research_hwangbo_et_al_2019]
-- [Igl Zintgraf Le Wood Whiteson 2018][research_igl_et_al_2018]
-- [Ito 2008][research_ito_2008]
-- [Janner Fu Zhang Levine 2019][research_janner_fu_zhang_levine_2019]
-- [Kaelbling Littman Cassandra 1998][research_kaelbling_littman_cassandra_1998]
-- [Kakade Wang Yang 2020][research_kakade_wang_yang_2020]
-- [Karl Soelch Bayer van der Smagt 2017][research_karl_et_al_2017]
-- [Kawato 1999][research_kawato_1999]
-- [Kidambi Rajeswaran Netrapalli Joachims 2020][research_kidambi_et_al_2020_morel]
-- [Knill and Pouget 2004][research_knill_pouget_2004]
-- [Miall and Wolpert 1996][research_miall_wolpert_1996]
-- [Micheli Alonso Fleuret 2023][research_micheli_et_al_2023]
-- [Millidge Tschantz Buckley 2021][research_millidge_tschantz_buckley_2021]
-- [Moore and Atkeson 1993][research_moore_atkeson_1993]
-- [Nagabandi Clavera Liu Fearing Abbeel Levine Finn 2018][research_nagabandi_et_al_2018_meta]
-- [Nagabandi Kahn Fearing Levine 2018][research_nagabandi_et_al_2018]
-- [Oh Singh Lee 2017][research_oh_singh_lee_2017]
-- [Pfeiffer and Foster 2013][research_pfeiffer_foster_2013]
-- [Pinneri et al 2021][research_pinneri_et_al_2021]
-- [Racaniere et al 2017][research_racaniere_et_al_2017]
-- [Rao and Ballard 1999][research_rao_ballard_1999]
-- [Rigter Lacerda Hawes 2022][research_rigter_lacerda_hawes_2022]
-- [Robine Hoftmann Uelwer Harmeling 2023][research_robine_et_al_2023]
-- [Rubinstein 1997][research_rubinstein_1997]
-- [Rusu Vecerik Rothorl Heess Pascanu Hadsell 2017][research_rusu_et_al_2017]
-- [Sajid Ball Friston 2021][research_sajid_ball_friston_2021]
-- [Schrittwieser et al 2020][research_schrittwieser_et_al_2020]
-- [Silver Hasselt Hessel et al 2017 Predictron][research_silver_hasselt_hessel_2017]
-- [Silver and Veness 2010][research_silver_veness_2010]
-- [Somani Ye Hsu Lee 2013][research_somani_et_al_2013]
-- [Sutton 1990][research_sutton_1990]
-- [Sutton 1991][research_sutton_1991]
-- [Todorov 2004][research_todorov_2004]
-- [Todorov and Jordan 2002][research_todorov_jordan_2002]
-- [Todorov and Li 2005][research_todorov_li_2005]
-- [Tolman 1948][research_tolman_1948]
-- [Tschantz Millidge Seth Buckley 2020][research_tschantz_millidge_seth_buckley_2020]
-- [Wang and Ba 2020][research_wang_ba_2020]
-- [Watter Springenberg Boedecker Riedmiller 2015][research_watter_et_al_2015]
-- [Werbos 1987][research_werbos_1987]
-- [Whittington and Bogacz 2017][research_whittington_bogacz_2017]
-- [Williams Aldrich and Theodorou 2017][research_williams_aldrich_theodorou_2017]
-- [Wolpert Ghahramani and Jordan 1995][research_wolpert_ghahramani_jordan_1995]
-- [Wolpert Miall Kawato 1998][research_wolpert_miall_kawato_1998]
-- [Wu Escontrela Hafner Abbeel Goldberg 2022][research_wu_et_al_2022]
-- [Yang Du Ghasemipour Tenenbaum Schuurmans Abbeel 2023][research_yang_du_ghasemipour_2023]
-- [Ye Liu Kurutach Abbeel Gao 2021][research_ye_liu_kurutach_abbeel_gao_2021]
-- [Yu et al 2020 MOPO][research_yu_et_al_2020_mopo]
-- [Yu Kumar Rafailov Rajeswaran Levine Finn 2021 COMBO][research_yu_et_al_2021_combo]
-- [Zhang et al 2023][research_zhang_et_al_2023]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Bandits and Online Learning." *Brendan A R Sechter's Development Blog*, December 19. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/19/machines\_that\_learn\_from\_experience\_bandits\_and\_online\_learning.html][related_post_a251_bandits]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Reinforcement Learning Foundations." *Brendan A R Sechter's Development Blog*, December 20. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/20/machines\_that\_learn\_from\_experience\_reinforcement\_learning\_foundations.html][related_post_a252_rl_foundations]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Deep Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 21. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/21/machines\_that\_learn\_from\_experience\_deep\_reinforcement\_learning.html][related_post_a253_deep_rl]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Exploration, Intrinsic Motivation, and Curiosity." *Brendan A R Sechter's Development Blog*, December 22. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/22/machines\_that\_learn\_from\_experience\_exploration\_intrinsic\_motivation\_and\_curiosity.html][related_post_a254_exploration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Hierarchical Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 23. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/23/machines\_that\_learn\_from\_experience\_hierarchical\_reinforcement\_learning.html][related_post_a255_hierarchical]
 
 [book_craik_1943]: https://archive.org/details/thenatureofexplanation
 [book_sutton_barto_2018]: http://incompleteideas.net/book/the-book-2nd.html
@@ -585,76 +592,76 @@ Real-world robotic manipulation benchmarks including RRC of [Byravan et al 2022]
 [related_post_a253_deep_rl]: {% post_url 2025-12-21-machines_that_learn_from_experience_deep_reinforcement_learning %}
 [related_post_a254_exploration]: {% post_url 2025-12-22-machines_that_learn_from_experience_exploration_intrinsic_motivation_and_curiosity %}
 [related_post_a255_hierarchical]: {% post_url 2025-12-23-machines_that_learn_from_experience_hierarchical_reinforcement_learning %}
-[research_barto_bradtke_singh_1995]: https://www.sciencedirect.com/science/article/pii/000437029400011O
-[research_bogacz_2017]: https://www.sciencedirect.com/science/article/pii/S0022249615000759
-[research_bruce_et_al_2024]: https://arxiv.org/abs/2402.15391
-[research_buckley_kim_ma_mcgregor_2017]: https://www.sciencedirect.com/science/article/pii/S0022249617300962
+[research_barto_bradtke_singh_1995]: https://doi.org/10.1016/0004-3702(94)00011-o
+[research_bogacz_2017]: https://doi.org/10.1016/j.jmp.2015.11.003
+[research_bruce_et_al_2024]: https://doi.org/10.48550/arxiv.2402.15391
+[research_buckley_kim_ma_mcgregor_2017]: https://doi.org/10.1016/j.jmp.2017.09.004
 [research_buckman_et_al_2018]: https://papers.nips.cc/paper/2018/hash/f02208a057804ee16ac72ff4d3cec53b-Abstract.html
-[research_buesing_et_al_2018]: https://arxiv.org/abs/1802.03006
-[research_byravan_et_al_2022]: https://arxiv.org/abs/2210.15767
+[research_buesing_et_al_2018]: https://doi.org/10.48550/arxiv.1802.03006
+[research_byravan_et_al_2022]: https://scholar.google.com/scholar?q=Byravan+2022
 [research_chebotar_et_al_2019]: https://ieeexplore.ieee.org/document/8793789
 [research_chua_calandra_mcallister_levine_2018]: https://papers.nips.cc/paper/2018/hash/3de568f8597b94bda53149c7d7f5958c-Abstract.html
-[research_clark_2013]: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science/33542C736E17E3D1D44E8D03BE5F4CD9
+[research_clark_2013]: https://doi.org/10.1017/s0140525x12000477
 [research_clavera_et_al_2018]: https://proceedings.mlr.press/v87/clavera18a.html
-[research_daw_niv_dayan_2005]: https://www.nature.com/articles/nn1560
+[research_daw_niv_dayan_2005]: https://doi.org/10.1038/nn1560
 [research_dayan_1993]: https://direct.mit.edu/neco/article/5/4/613/5679
 [research_deisenroth_rasmussen_2011]: https://icml.cc/Conferences/2011/papers/323_icmlpaper.pdf
-[research_feinberg_et_al_2018]: https://arxiv.org/abs/1803.00101
-[research_friston_2010]: https://www.nature.com/articles/nrn2787
+[research_feinberg_et_al_2018]: https://doi.org/10.48550/arxiv.1803.00101
+[research_friston_2010]: https://doi.org/10.1038/nrn2787
 [research_ha_schmidhuber_2018]: https://papers.nips.cc/paper/2018/hash/2de5d16682c3c35007e4e92982f1a2ba-Abstract.html
 [research_hafner_et_al_2019]: https://proceedings.mlr.press/v97/hafner19a.html
 [research_hafner_et_al_2020]: https://openreview.net/forum?id=0oabwyZbOu
-[research_hafner_et_al_2023]: https://arxiv.org/abs/2301.04104
+[research_hafner_et_al_2023]: https://doi.org/10.48550/arxiv.2301.04104
 [research_hafner_lillicrap_ba_norouzi_2020_dreamer]: https://openreview.net/forum?id=S1lOTC4tDS
 [research_hafner_lillicrap_norouzi_ba_2020]: https://openreview.net/forum?id=0oabwyZbOu
 [research_heess_wayne_silver_lillicrap_erez_tassa_2015]: https://papers.nips.cc/paper/2015/hash/148510031349642de5ca0c544f31b2ef-Abstract.html
-[research_hwangbo_et_al_2019]: https://www.science.org/doi/10.1126/scirobotics.aau5872
+[research_hwangbo_et_al_2019]: https://doi.org/10.1126/scirobotics.aau5872
 [research_igl_et_al_2018]: https://proceedings.mlr.press/v80/igl18a.html
-[research_ito_2008]: https://www.nature.com/articles/nrn2332
+[research_ito_2008]: https://doi.org/10.1038/nrn2332
 [research_janner_fu_zhang_levine_2019]: https://papers.nips.cc/paper/2019/hash/5faf461eff3099671ad63c6f3f094f7f-Abstract.html
-[research_kaelbling_littman_cassandra_1998]: https://www.sciencedirect.com/science/article/pii/S000437029800023X
-[research_kakade_wang_yang_2020]: https://arxiv.org/abs/2010.05673
+[research_kaelbling_littman_cassandra_1998]: https://doi.org/10.1016/s0004-3702(98)00023-x
+[research_kakade_wang_yang_2020]: https://scholar.google.com/scholar?q=Kakade+Wang+Yang+2020
 [research_karl_et_al_2017]: https://openreview.net/forum?id=HyTqHL5xg
-[research_kawato_1999]: https://www.sciencedirect.com/science/article/pii/S0959438899000288
-[research_kidambi_et_al_2020_morel]: https://papers.nips.cc/paper/2020/hash/f7efa4f864ae9b88d43527f4b14f750f-Abstract.html
-[research_knill_pouget_2004]: https://www.sciencedirect.com/science/article/pii/S1364661304002165
-[research_miall_wolpert_1996]: https://www.sciencedirect.com/science/article/pii/S0893608096000354
+[research_kawato_1999]: https://doi.org/10.1016/s0959-4388(99)00028-8
+[research_kidambi_et_al_2020_morel]: https://papers.nips.cc/paper_files/paper/2020/hash/f7efa4f864ae9b88d43527f4b14f750f-Abstract.html
+[research_knill_pouget_2004]: https://scholar.google.com/scholar?q=Knill+Pouget+2004
+[research_miall_wolpert_1996]: https://doi.org/10.1016/s0893-6080(96)00035-4
 [research_micheli_et_al_2023]: https://openreview.net/forum?id=vhFu1Acb0xb
 [research_millidge_tschantz_buckley_2021]: https://direct.mit.edu/neco/article/33/3/674/95642
-[research_moore_atkeson_1993]: https://link.springer.com/article/10.1007/BF00993104
-[research_nagabandi_et_al_2018]: https://ieeexplore.ieee.org/document/8463189
-[research_nagabandi_et_al_2018_meta]: https://openreview.net/forum?id=HyztsoC5Y7
+[research_moore_atkeson_1993]: https://doi.org/10.1007/bf00993104
+[research_nagabandi_et_al_2018]: https://doi.org/10.1109/icra.2018.8463189
+[research_nagabandi_et_al_2018_meta]: https://doi.org/10.48550/arxiv.1803.11347
 [research_oh_singh_lee_2017]: https://papers.nips.cc/paper/2017/hash/ffbd6cbb019a1413183c8d08f2929307-Abstract.html
-[research_pfeiffer_foster_2013]: https://www.nature.com/articles/nature12112
+[research_pfeiffer_foster_2013]: https://doi.org/10.1038/nature12112
 [research_pinneri_et_al_2021]: https://proceedings.mlr.press/v155/pinneri21a.html
 [research_racaniere_et_al_2017]: https://papers.nips.cc/paper/2017/hash/9e82757e9a1c12cb710ad680db11f6f1-Abstract.html
 [research_rao_ballard_1999]: https://www.nature.com/articles/nn0199_79
 [research_rigter_lacerda_hawes_2022]: https://papers.nips.cc/paper/2022/hash/c73df2ba1e3d3adbfbf03c78e2eb5e63-Abstract-Conference.html
 [research_robine_et_al_2023]: https://openreview.net/forum?id=TdBaDGCpjly
-[research_rubinstein_1997]: https://link.springer.com/article/10.1007/BF01192140
+[research_rubinstein_1997]: https://scholar.google.com/scholar?q=Rubinstein+1997
 [research_rusu_et_al_2017]: https://proceedings.mlr.press/v78/rusu17a.html
 [research_sajid_ball_friston_2021]: https://direct.mit.edu/neco/article/33/3/674/95642
-[research_schrittwieser_et_al_2020]: https://www.nature.com/articles/s41586-020-03051-4
+[research_schrittwieser_et_al_2020]: https://doi.org/10.1038/s41586-020-03051-4
 [research_silver_hasselt_hessel_2017]: https://proceedings.mlr.press/v70/silver17a.html
 [research_silver_veness_2010]: https://papers.nips.cc/paper/2010/hash/edfbe1afcf9246bb0d40eb4d8027d90f-Abstract.html
-[research_somani_et_al_2013]: https://papers.nips.cc/paper/2013/hash/e2c0be24560d78c5e599c2a9c9d0bbd2-Abstract.html
+[research_somani_et_al_2013]: https://papers.nips.cc/paper_files/paper/2013/hash/c2aee86157b4a40b78132f1e71a9e6f1-Abstract.html
 [research_sutton_1990]: https://dl.acm.org/doi/10.5555/3091622.3091638
-[research_sutton_1991]: https://dl.acm.org/doi/10.1145/122344.122377
-[research_todorov_2004]: https://www.nature.com/articles/nn1309
-[research_todorov_jordan_2002]: https://www.nature.com/articles/nn963
+[research_sutton_1991]: https://doi.org/10.1145/122344.122377
+[research_todorov_2004]: https://doi.org/10.1038/nn1309
+[research_todorov_jordan_2002]: https://doi.org/10.1038/nn963
 [research_todorov_li_2005]: https://ieeexplore.ieee.org/document/1470154
-[research_tolman_1948]: https://psycnet.apa.org/record/1949-00103-001
-[research_tschantz_millidge_seth_buckley_2020]: https://arxiv.org/abs/2002.12636
-[research_wang_ba_2020]: https://arxiv.org/abs/1907.02057
+[research_tolman_1948]: https://doi.org/10.1037/h0061626
+[research_tschantz_millidge_seth_buckley_2020]: https://doi.org/10.48550/arxiv.2002.12636
+[research_wang_ba_2020]: https://doi.org/10.48550/arxiv.1907.02057
 [research_watter_et_al_2015]: https://papers.nips.cc/paper/2015/hash/a1afc58c6ca9540d057299ec3016d726-Abstract.html
 [research_werbos_1987]: https://ieeexplore.ieee.org/document/6313077
 [research_whittington_bogacz_2017]: https://direct.mit.edu/neco/article/29/5/1229/8253
-[research_williams_aldrich_theodorou_2017]: https://arc.aiaa.org/doi/10.2514/1.G001921
-[research_wolpert_ghahramani_jordan_1995]: https://www.science.org/doi/10.1126/science.7569931
+[research_williams_aldrich_theodorou_2017]: https://doi.org/10.2514/1.g001921
+[research_wolpert_ghahramani_jordan_1995]: https://doi.org/10.1126/science.7569931
 [research_wolpert_miall_kawato_1998]: https://www.sciencedirect.com/science/article/pii/S1364661398012211
-[research_wu_et_al_2022]: https://arxiv.org/abs/2206.14176
+[research_wu_et_al_2022]: https://doi.org/10.48550/arxiv.2206.14176
 [research_yang_du_ghasemipour_2023]: https://openreview.net/forum?id=sFyTZEqmUY
 [research_ye_liu_kurutach_abbeel_gao_2021]: https://papers.nips.cc/paper/2021/hash/d5eca8dc3820cad9fe56a3bafda65ca1-Abstract.html
 [research_yu_et_al_2020_mopo]: https://papers.nips.cc/paper/2020/hash/a322852ce0df73e204b7e67cbbef0d0a-Abstract.html
 [research_yu_et_al_2021_combo]: https://papers.nips.cc/paper/2021/hash/f29a179746902e331572c483c45e5086-Abstract.html
-[research_zhang_et_al_2023]: https://arxiv.org/abs/2310.09615
+[research_zhang_et_al_2023]: https://doi.org/10.48550/arxiv.2310.09615

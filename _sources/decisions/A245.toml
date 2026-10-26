@@ -1,0 +1,19 @@
+# Import decisions for A245. Registry caches and page metadata are scratch and are not tracked.
+article = "A245"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a245/sources/wiki_pins.json"
+report_cache = "tmp/sources"
+web_read = "2026-10-25"
+
+# The links are resolved to registry records where their URL or their label's title finds one that
+# agrees with the label, and otherwise read from the page or its archive capture. See _lib/sources_resolve.py.
+resolve_links = true
+
+# No copy of the Wikipedia text read for A245 was saved, so its pins are the revisions current
+# when each link was first committed, and say so in their evidence.
+dated_pins = true
+
+# THE ARTICLE'S NTRS LINK NAMED NO RECORD, NTRS answering 404 on 2026-10-25, so the definition was
+# relinked before conversion to the record found by the work's authors and title.
+[note]
+research_chilenski_miller_1994 = "The article linked NTRS 19950014786, which NTRS does not hold. Chilenski and Miller's 1994 paper is in the Software Engineering Journal, found by its authors and title."

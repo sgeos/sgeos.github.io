@@ -117,7 +117,7 @@ $$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_a Q(s
 
 specifies the off-policy update that provides the convergence guarantees under tabular conditions. The model continues to organize sizable modern research and provides the foundation for deep Q-network approaches.
 
-The policy gradient theorem of [Williams 1992][research_williams_1992] and [Sutton McAllester Singh Mansour 2000][research_sutton_et_al_2000] provides the direct-policy-optimization foundation. The gradient
+The policy gradient theorem of [Williams 1992][research_williams_1992] and [Sutton et al. 1999b][research_sutton_et_al_2000] provides the direct-policy-optimization foundation. The gradient
 
 $$\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} \left[ \sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) \, Q^{\pi_\theta}(s_t, a_t) \right]$$
 
@@ -141,7 +141,7 @@ These foundational formal objects constitute the settled public domain of the fi
 
 The established algorithmic toolkit of experiential learning consolidates the corpus of algorithms whose formal statement, empirical support, and reproducibility permit independent verification. This account provides the canonical algorithms that appear in modern textbooks and open-source implementations.
 
-Bandits and online learning of [A251 Bandits and Online Learning][related_post_a251_bandits] contribute the upper-confidence-bound algorithm of [Auer Cesa-Bianchi Fischer 2002][research_auer_cesa_bianchi_fischer_2002] with its action-selection rule
+Bandits and online learning of [A251 Bandits and Online Learning][related_post_a251_bandits] contribute the upper-confidence-bound algorithm of [Auer et al. 2002][research_auer_cesa_bianchi_fischer_2002] with its action-selection rule
 
 $$a_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \log t}{N_a(t)}} \right]$$
 
@@ -151,37 +151,37 @@ $$\theta_t \sim p(\theta \mid \mathcal{D}_{t-1}), \quad a_t = \arg\max_a \mathbb
 
 and its Bayesian-optimal regret properties, the exponential-weights algorithm for the adversarial setting, and the extensions to contextual bandits including LinUCB and neural contextual bandits. The framework provides the pre-Markov-decision-process foundation for the field.
 
-Reinforcement learning foundations of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations] contribute the classical algorithms including value iteration and policy iteration of [Howard 1960][book_howard_1960], Monte Carlo methods, SARSA of [Rummery and Niranjan 1994][research_rummery_niranjan_1994], Q-learning of [Watkins 1989][research_watkins_1989], expected SARSA of [Van Seijen et al 2009][research_van_seijen_et_al_2009], and the eligibility-trace variants including TD($\lambda$) of [Sutton 1988][research_sutton_1988] and Watkins's Q($\lambda$) of [Watkins and Dayan 1992][research_watkins_dayan_1992]. The account provides the canonical algorithms whose convergence properties have been significantly characterized under tabular and linear function approximation conditions.
+Reinforcement learning foundations of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations] contribute the classical algorithms including value iteration and policy iteration of [Howard 1960][book_howard_1960], Monte Carlo methods, SARSA of [Rummery and Niranjan 1994][research_rummery_niranjan_1994], Q-learning of [Watkins 1989][research_watkins_1989], expected SARSA of [Van Seijen 2009][research_van_seijen_et_al_2009], and the eligibility-trace variants including TD($\lambda$) of [Sutton 1988][research_sutton_1988] and Watkins's Q($\lambda$) of [Watkins and Dayan 1992][research_watkins_dayan_1992]. The account provides the canonical algorithms whose convergence properties have been significantly characterized under tabular and linear function approximation conditions.
 
-Deep reinforcement learning of [A253 Deep Reinforcement Learning][related_post_a253_deep_rl] contributes the canonical algorithms including deep Q-networks of [Mnih et al 2015][research_mnih_et_al_2015] with the target-network loss
+Deep reinforcement learning of [A253 Deep Reinforcement Learning][related_post_a253_deep_rl] contributes the canonical algorithms including deep Q-networks of [Mnih et al. 2015][research_mnih_et_al_2015] with the target-network loss
 
 $$\mathcal{L}(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}} \left[ \left( r + \gamma \max_{a'} Q_{\theta^-}(s', a') - Q_\theta(s, a) \right)^2 \right]$$
 
-the double DQN of [Van Hasselt Guez Silver 2016][research_van_hasselt_guez_silver_2016] and dueling DQN of [Wang et al 2016 Dueling][research_wang_et_al_2016_dueling] refinements, the policy-gradient methods including asynchronous advantage actor-critic of [Mnih et al 2016][research_mnih_et_al_2016], trust region policy optimization of [Schulman et al 2015][research_schulman_et_al_2015], and proximal policy optimization of [Schulman et al 2017][research_schulman_et_al_2017] with the clipped surrogate objective
+the double DQN of [Van et al. 2016][research_van_hasselt_guez_silver_2016] and dueling DQN of [Wang et al 2016 Dueling][research_wang_et_al_2016_dueling] refinements, the policy-gradient methods including asynchronous advantage actor-critic of [Mnih 2016][research_mnih_et_al_2016], trust region policy optimization of [Schulman 2015][research_schulman_et_al_2015], and proximal policy optimization of [Schulman et al. 2017][research_schulman_et_al_2017] with the clipped surrogate objective
 
 $$\mathcal{L}^{\text{CLIP}}(\theta) = \mathbb{E}_t \left[ \min \left( \rho_t(\theta) \hat{A}_t, \, \text{clip}(\rho_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t \right) \right]$$
 
-with $\rho_t(\theta) = \pi_\theta(a_t \mid s_t) / \pi_{\theta_{\text{old}}}(a_t \mid s_t)$, the deterministic-policy-gradient family including the [Silver et al 2014][research_silver_et_al_2014] deterministic policy gradient theorem, DDPG of [Lillicrap et al 2015][research_lillicrap_et_al_2015] and TD3 of [Fujimoto Hoof Meger 2018][research_fujimoto_hoof_meger_2018], the maximum-entropy family including soft actor-critic of [Haarnoja et al 2018][research_haarnoja_et_al_2018] with the entropy-regularized objective
+with $\rho_t(\theta) = \pi_\theta(a_t \mid s_t) / \pi_{\theta_{\text{old}}}(a_t \mid s_t)$, the deterministic-policy-gradient family including the [Silver et al. 2014][research_silver_et_al_2014] deterministic policy gradient theorem, DDPG of [Lillicrap et al. 2015][research_lillicrap_et_al_2015] and TD3 of [Fujimoto Hoof Meger 2018][research_fujimoto_hoof_meger_2018], the maximum-entropy family including soft actor-critic of [Haarnoja et al. 2018][research_haarnoja_et_al_2018] with the entropy-regularized objective
 
 $$J(\pi) = \sum_t \mathbb{E}_{(s_t, a_t) \sim \pi} \left[ r(s_t, a_t) + \alpha \mathcal{H}(\pi(\cdot \mid s_t)) \right]$$
 
-the distributional reinforcement learning framework of [Bellemare Dabney Munos 2017][research_bellemare_dabney_munos_2017] that learns the distribution of the discounted return rather than only its expectation and induces the categorical DQN and quantile-regression DQN of [Dabney et al 2018][research_dabney_et_al_2018_qr_dqn] and the implicit quantile network of [Dabney et al 2018][research_dabney_et_al_2018_iqn], and the self-play framework including AlphaGo of [Silver et al 2016][research_silver_et_al_2016], AlphaZero of [Silver et al 2017][research_silver_et_al_2017] and its journal treatment in [Silver et al 2018][research_silver_et_al_2018], and MuZero of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] that extends the framework to unknown dynamics. The model provides the canonical algorithms that continue to organize modern deep reinforcement learning research.
+the distributional reinforcement learning framework of [Bellemare et al. 2017][research_bellemare_dabney_munos_2017] that learns the distribution of the discounted return rather than only its expectation and induces the categorical DQN and quantile-regression DQN of [Dabney et al. 2018a][research_dabney_et_al_2018_qr_dqn] and the implicit quantile network of [Dabney et al. 2018b][research_dabney_et_al_2018_iqn], and the self-play framework including AlphaGo of [Silver et al. 2016][research_silver_et_al_2016], AlphaZero of [Silver et al. 2017][research_silver_et_al_2017] and its journal treatment in [Silver et al. 2018][research_silver_et_al_2018], and MuZero of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020] that extends the framework to unknown dynamics. The model provides the canonical algorithms that continue to organize modern deep reinforcement learning research.
 
-Exploration, intrinsic motivation, and curiosity of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration] contribute the count-based and pseudocount exploration frameworks including [Bellemare et al 2016][research_bellemare_et_al_2016] with the exploration-bonus reward
+Exploration, intrinsic motivation, and curiosity of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration] contribute the count-based and pseudocount exploration frameworks including [Bellemare et al. 2016][research_bellemare_et_al_2016] with the exploration-bonus reward
 
 $$r^+_t = r_t + \frac{\beta}{\sqrt{\hat{N}(s_t)}}$$
 
-the prediction-error curiosity of [Pathak et al 2017][research_pathak_et_al_2017] with the intrinsic reward
+the prediction-error curiosity of [Pathak et al. 2017][research_pathak_et_al_2017] with the intrinsic reward
 
 $$r^i_t = \eta \left\| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \right\|_2^2$$
 
-the empowerment framework of [Klyubin Polani Nehaniv 2005][research_klyubin_polani_nehaniv_2005] with the channel-capacity objective
+the empowerment framework of [Klyubin et al. 2005][research_klyubin_polani_nehaniv_2005] with the channel-capacity objective
 
 $$\mathfrak{E}(s) = \max_{\omega} I(A_t^n; S_{t+n} \mid s_t = s)$$
 
-and the information-gain frameworks including the [Houthooft et al 2016][research_houthooft_et_al_2016] variational-information-maximizing exploration framework. The treatment provides the canonical exploration methods that continue to organize modern research on hard-exploration problems.
+and the information-gain frameworks including the [Houthooft et al. 2016][research_houthooft_et_al_2016] variational-information-maximizing exploration framework. The treatment provides the canonical exploration methods that continue to organize modern research on hard-exploration problems.
 
-Hierarchical reinforcement learning of [A255 Hierarchical Reinforcement Learning][related_post_a255_hierarchical] contributes the options framework of [Sutton Precup Singh 1999][research_sutton_precup_singh_1999] with the option tuple
+Hierarchical reinforcement learning of [A255 Hierarchical Reinforcement Learning][related_post_a255_hierarchical] contributes the options framework of [Sutton et al. 1999a][research_sutton_precup_singh_1999] with the option tuple
 
 $$o = \langle \mathcal{I}_o, \pi_o, \beta_o \rangle$$
 
@@ -189,15 +189,15 @@ comprising an initiation set, an intra-option policy, and a termination conditio
 
 $$V^\mu(s) = \sum_o \mu(o \mid s) \left[ \sum_{k=1}^\infty \gamma^{k-1} \mathbb{E}[r_{t+k} \mid s, o] + \gamma^k \mathbb{E}[V^\mu(s_{t+k}) \mid s, o] \right]$$
 
-the MAXQ decomposition of [Dietterich 2000][research_dietterich_2000], the feudal networks framework of [Dayan and Hinton 1993][research_dayan_hinton_1993] and its modern extension in [Vezhnevets et al 2017][research_vezhnevets_et_al_2017], and the option-critic hierarchical actor-critic method of [Bacon Harb Precup 2017][research_bacon_harb_precup_2017]. This account provides the canonical hierarchical algorithms that continue to organize modern research on temporally-extended action.
+the MAXQ decomposition of [Dietterich 2000][research_dietterich_2000], the feudal networks framework of [Dayan and Hinton 1992][research_dayan_hinton_1993] and its modern extension in [Vezhnevets et al. 2017][research_vezhnevets_et_al_2017], and the option-critic hierarchical actor-critic method of [Bacon et al. 2017][research_bacon_harb_precup_2017]. This account provides the canonical hierarchical algorithms that continue to organize modern research on temporally-extended action.
 
 World models and predictive model-based adaptation of [A256 World Models and Predictive Model-Based Adaptation][related_post_a256_world_models] contribute the model-based reinforcement learning algorithms including Dyna of [Sutton 1991][research_sutton_1991] with the interleaved update
 
 $$\hat{P}, \hat{R} \leftarrow \text{Learn}(\mathcal{D}); \quad Q \leftarrow Q + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right] \text{ on both real and simulated experience}$$
 
-the PILCO framework of [Deisenroth and Rasmussen 2011][research_deisenroth_rasmussen_2011], the world-model architecture of [Ha and Schmidhuber 2018][research_ha_schmidhuber_2018] with a latent-dynamics model $z_{t+1} \sim p_\psi(z_{t+1} \mid z_t, a_t)$ trained jointly with an observation decoder $p_\phi(o_t \mid z_t)$, and the Dreamer family of algorithms of [Hafner et al 2020][research_hafner_et_al_2020] and [Hafner et al 2023][research_hafner_et_al_2023] that optimize policies through the differentiable rollout of learned latent dynamics. The framework provides the canonical model-based algorithms that continue to organize modern research on sample-efficient learning.
+the PILCO framework of [Deisenroth and Rasmussen 2011][research_deisenroth_rasmussen_2011], the world-model architecture of [Ha and Schmidhuber 2018][research_ha_schmidhuber_2018] with a latent-dynamics model $z_{t+1} \sim p_\psi(z_{t+1} \mid z_t, a_t)$ trained jointly with an observation decoder $p_\phi(o_t \mid z_t)$, and the Dreamer family of algorithms of [Hafner et al. 2019][research_hafner_et_al_2020] and [Hafner et al. 2023][research_hafner_et_al_2023] that optimize policies through the differentiable rollout of learned latent dynamics. The framework provides the canonical model-based algorithms that continue to organize modern research on sample-efficient learning.
 
-Offline and batch reinforcement learning of [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline] contribute the canonical offline algorithms including batch-constrained Q-learning of [Fujimoto Meger Precup 2019][research_fujimoto_meger_precup_2019], conservative Q-learning of [Kumar et al 2020][research_kumar_et_al_2020] with the pessimistic penalty
+Offline and batch reinforcement learning of [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline] contribute the canonical offline algorithms including batch-constrained Q-learning of [Fujimoto Meger Precup 2019][research_fujimoto_meger_precup_2019], conservative Q-learning of [Kumar et al. 2020][research_kumar_et_al_2020] with the pessimistic penalty
 
 $$\mathcal{L}_{\text{CQL}}(\theta) = \alpha \left[ \mathbb{E}_{s \sim \mathcal{D}} \log \sum_a \exp Q_\theta(s, a) - \mathbb{E}_{(s, a) \sim \mathcal{D}} Q_\theta(s, a) \right] + \mathcal{L}_{\text{TD}}(\theta)$$
 
@@ -205,19 +205,19 @@ behavior regularization methods with the policy-constraint objective
 
 $$\pi = \arg\max_\pi \mathbb{E}_{s \sim \mathcal{D}, a \sim \pi} [Q(s, a)] - \lambda \, D(\pi \| \pi_\beta)$$
 
-and the implicit Q-learning approach of [Kostrikov Nair Levine 2022][research_kostrikov_nair_levine_2022] that avoids querying out-of-distribution actions through expectile regression. The account provides the canonical offline algorithms that continue to organize modern research on learning from fixed datasets, and the [Levine et al 2020][research_levine_et_al_2020] tutorial provides the canonical survey.
+and the implicit Q-learning approach of [Kostrikov et al. 2021][research_kostrikov_nair_levine_2022] that avoids querying out-of-distribution actions through expectile regression. The account provides the canonical offline algorithms that continue to organize modern research on learning from fixed datasets, and the [Levine et al. 2020][research_levine_et_al_2020] tutorial provides the canonical survey.
 
 Meta-learning and online adaptation of [A258 Meta-Learning and Online Adaptation][related_post_a258_meta_learning] contribute the canonical meta-learning algorithms including model-agnostic meta-learning of [Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017] with the bi-level objective
 
 $$\theta^* = \arg\min_\theta \sum_{\mathcal{T}_i \sim p(\mathcal{T})} \mathcal{L}_{\mathcal{T}_i} \left( \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}_i}(\theta) \right)$$
 
-the recurrent meta-reinforcement-learning approach of [Wang et al 2016][research_wang_et_al_2016] and [Duan et al 2016][research_duan_et_al_2016] in which the inner-loop learning dynamics are absorbed into a recurrent network's hidden-state update, and the in-context learning frameworks introduced by [Brown et al 2020][research_brown_et_al_2020] in which foundation models perform the implicit adaptation through attention over the context window. The model provides the canonical meta-learning algorithms that continue to organize modern research on fast adaptation.
+the recurrent meta-reinforcement-learning approach of [Wang et al. 2016b][research_wang_et_al_2016] and [Duan et al. 2016][research_duan_et_al_2016] in which the inner-loop learning dynamics are absorbed into a recurrent network's hidden-state update, and the in-context learning frameworks introduced by [Brown 2020][research_brown_et_al_2020] in which foundation models perform the implicit adaptation through attention over the context window. The model provides the canonical meta-learning algorithms that continue to organize modern research on fast adaptation.
 
-Continual and lifelong learning of [A259 Continual and Lifelong Learning][related_post_a259_continual] contribute the canonical continual-learning algorithms including elastic weight consolidation of [Kirkpatrick et al 2017][research_kirkpatrick_et_al_2017] with the Fisher-information-weighted quadratic penalty
+Continual and lifelong learning of [A259 Continual and Lifelong Learning][related_post_a259_continual] contribute the canonical continual-learning algorithms including elastic weight consolidation of [Kirkpatrick et al. 2017][research_kirkpatrick_et_al_2017] with the Fisher-information-weighted quadratic penalty
 
 $$\mathcal{L}(\theta) = \mathcal{L}_B(\theta) + \sum_i \frac{\lambda}{2} F_i (\theta_i - \theta^*_{A, i})^2$$
 
-progressive networks of [Rusu et al 2016][research_rusu_et_al_2016] that freeze prior-task parameters and add lateral adapters, the generative-replay framework of [Shin et al 2017][research_shin_et_al_2017] that uses a learned generator $p_\psi(x, y)$ to rehearse prior tasks, the gradient episodic memory framework of [Lopez-Paz and Ranzato 2017][research_lopez_paz_ranzato_2017], and the averaged gradient episodic memory extension of [Chaudhry et al 2019][research_chaudhry_et_al_2019]. This formulation provides the canonical continual-learning algorithms that continue to organize modern research on catastrophic forgetting.
+progressive networks of [Rusu et al. 2016][research_rusu_et_al_2016] that freeze prior-task parameters and add lateral adapters, the generative-replay framework of [Shin et al. 2017][research_shin_et_al_2017] that uses a learned generator $p_\psi(x, y)$ to rehearse prior tasks, the gradient episodic memory framework of [Lopez-Paz and Ranzato 2017][research_lopez_paz_ranzato_2017], and the averaged gradient episodic memory extension of [Chaudhry et al. 2018][research_chaudhry_et_al_2019]. This formulation provides the canonical continual-learning algorithms that continue to organize modern research on catastrophic forgetting.
 
 Learning from demonstration, preference, and other agents of [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration] contribute the canonical algorithms including behavior cloning with the maximum-likelihood objective
 
@@ -227,17 +227,17 @@ generative adversarial imitation learning of [Ho and Ermon 2016][research_ho_erm
 
 $$\min_\pi \max_D \mathbb{E}_{\pi}[\log D(s, a)] + \mathbb{E}_{\pi_E}[\log(1 - D(s, a))] - \lambda \mathcal{H}(\pi)$$
 
-maximum-entropy inverse reinforcement learning of [Ziebart et al 2008][research_ziebart_et_al_2008] with the trajectory-distribution model
+maximum-entropy inverse reinforcement learning of [Ziebart 2008][research_ziebart_et_al_2008] with the trajectory-distribution model
 
 $$p(\tau) \propto \exp\left( \sum_t r_\phi(s_t, a_t) \right)$$
 
-preference-based reinforcement learning of [Christiano et al 2017][research_christiano_et_al_2017] with the Bradley-Terry preference model
+preference-based reinforcement learning of [Christiano et al. 2017][research_christiano_et_al_2017] with the Bradley-Terry preference model
 
 $$P(\tau^1 \succ \tau^2) = \frac{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t)}{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t) + \exp \sum_t \hat{r}_\phi(s^2_t, a^2_t)}$$
 
-and the reinforcement-learning-from-human-feedback pipelines of [Ouyang et al 2022][research_ouyang_et_al_2022] and [Stiennon et al 2020][research_stiennon_et_al_2020] that operationalize preference-learning at scale for language model alignment. The treatment provides the canonical algorithms that continue to organize modern research on learning from non-reward signals, and the [Ng and Russell 2000][research_ng_russell_2000] and [Abbeel and Ng 2004][research_abbeel_ng_2004] foundational papers establish the inverse-reinforcement-learning framework.
+and the reinforcement-learning-from-human-feedback pipelines of [Ouyang et al. 2022][research_ouyang_et_al_2022] and [Stiennon et al. 2020][research_stiennon_et_al_2020] that operationalize preference-learning at scale for language model alignment. The treatment provides the canonical algorithms that continue to organize modern research on learning from non-reward signals, and the [Ng and Russell 2000][research_ng_russell_2000] and [Abbeel and Ng 2004][research_abbeel_ng_2004] foundational papers establish the inverse-reinforcement-learning framework.
 
-Evolutionary and open-ended adaptation of [A261 Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary] contribute the canonical algorithms including evolutionary strategies of [Salimans et al 2017][research_salimans_et_al_2017] with the natural-evolution-strategies gradient estimator
+Evolutionary and open-ended adaptation of [A261 Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary] contribute the canonical algorithms including evolutionary strategies of [Salimans et al. 2017][research_salimans_et_al_2017] with the natural-evolution-strategies gradient estimator
 
 $$\nabla_\theta \mathbb{E}_{\epsilon \sim \mathcal{N}(0, I)} \left[ F(\theta + \sigma \epsilon) \right] = \frac{1}{\sigma} \mathbb{E}_\epsilon \left[ F(\theta + \sigma \epsilon) \, \epsilon \right]$$
 
@@ -245,9 +245,9 @@ neuroevolution of augmenting topologies of [Stanley and Miikkulainen 2002][resea
 
 $$\mathcal{A}[c] = \arg\max_{x \in \text{Cell}(c)} F(x)$$
 
-the novelty-search framework of [Lehman and Stanley 2011][research_lehman_stanley_2011] that abandons the objective in favor of behavioral novelty, and the POET open-endedness framework of [Wang Lehman Clune Stanley 2019][research_wang_lehman_clune_stanley_2019] that co-evolves agents and environments. This account provides the canonical evolutionary algorithms that continue to organize modern research on population-based and open-ended learning.
+the novelty-search framework of [Lehman and Stanley 2011][research_lehman_stanley_2011] that abandons the objective in favor of behavioral novelty, and the POET open-endedness framework of [Wang et al. 2019][research_wang_lehman_clune_stanley_2019] that co-evolves agents and environments. This account provides the canonical evolutionary algorithms that continue to organize modern research on population-based and open-ended learning.
 
-Embodied cognition and developmental learning of [A262 Embodied Cognition and Developmental Learning][related_post_a262_embodied] contribute the canonical frameworks including sensorimotor contingency theory of [O'Regan and Noë 2001][research_oregan_noe_2001], morphological computation of [Pfeifer and Bongard 2007][book_pfeifer_bongard_2007], developmental robotics of [Weng et al 2001][research_weng_et_al_2001], and the curriculum-and-scaffolding frameworks of [Bengio et al 2009][research_bengio_et_al_2009]. The framework provides the canonical embodied-cognition frameworks that continue to organize modern research on physically-grounded learning.
+Embodied cognition and developmental learning of [A262 Embodied Cognition and Developmental Learning][related_post_a262_embodied] contribute the canonical frameworks including sensorimotor contingency theory of [O'Regan and Noë 2001][research_oregan_noe_2001], morphological computation of [Pfeifer and Bongard 2007][book_pfeifer_bongard_2007], developmental robotics of [Weng et al. 2001][research_weng_et_al_2001], and the curriculum-and-scaffolding frameworks of [Bengio et al. 2009][research_bengio_et_al_2009]. The framework provides the canonical embodied-cognition frameworks that continue to organize modern research on physically-grounded learning.
 
 The consolidated algorithmic toolkit constitutes the settled public domain of the field. Any competent researcher is expected to command the algorithms, and the applications and refinements of subsequent research consume these foundations.
 
@@ -255,19 +255,19 @@ The consolidated algorithmic toolkit constitutes the settled public domain of th
 
 The established empirical findings of experiential learning consolidate the corpus of empirical results whose replication has been substantially confirmed and whose scope of validity has been markedly characterized. The account provides the canonical empirical benchmarks against which subsequent research is evaluated.
 
-The Atari 2600 benchmarks of [Bellemare et al 2013][research_bellemare_et_al_2013] provide the canonical single-agent reinforcement-learning benchmark. The findings including the deep Q-network human-level performance on the fifty-seven-game suite of [Mnih et al 2015][research_mnih_et_al_2015] have been appreciably replicated and continue to organize the benchmark evaluation of subsequent algorithms.
+The Atari 2600 benchmarks of [Bellemare et al. 2013][research_bellemare_et_al_2013] provide the canonical single-agent reinforcement-learning benchmark. The findings including the deep Q-network human-level performance on the fifty-seven-game suite of [Mnih et al. 2015][research_mnih_et_al_2015] have been appreciably replicated and continue to organize the benchmark evaluation of subsequent algorithms.
 
-The MuJoCo continuous-control benchmarks of [Todorov Erez Tassa 2012][research_todorov_erez_tassa_2012] provide the canonical continuous-control benchmark. The findings including the proximal-policy-optimization performance and the soft-actor-critic performance have been greatly replicated and continue to organize the continuous-control literature.
+The MuJoCo continuous-control benchmarks of [Todorov et al. 2012][research_todorov_erez_tassa_2012] provide the canonical continuous-control benchmark. The findings including the proximal-policy-optimization performance and the soft-actor-critic performance have been greatly replicated and continue to organize the continuous-control literature.
 
-The board game benchmarks of Go, chess, and shogi provide the canonical strategic-planning benchmarks. The findings including the AlphaGo and AlphaZero results have been considerably confirmed through subsequent research including the MuZero extension of [Schrittwieser et al 2020][research_schrittwieser_et_al_2020] to unknown-dynamics settings, and continue to organize the game-playing literature.
+The board game benchmarks of Go, chess, and shogi provide the canonical strategic-planning benchmarks. The findings including the AlphaGo and AlphaZero results have been considerably confirmed through subsequent research including the MuZero extension of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020] to unknown-dynamics settings, and continue to organize the game-playing literature.
 
-The dopamine reward-prediction-error finding of [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997] provides the canonical neuroscience-machine-learning correspondence. The findings have been significantly replicated across species, tasks, and recording modalities, and continue to organize the neuroscience-of-reinforcement-learning literature.
+The dopamine reward-prediction-error finding of [Schultz et al. 1997][research_schultz_dayan_montague_1997] provides the canonical neuroscience-machine-learning correspondence. The findings have been significantly replicated across species, tasks, and recording modalities, and continue to organize the neuroscience-of-reinforcement-learning literature.
 
-The hippocampal replay finding of [Wilson and McNaughton 1994][research_wilson_mcnaughton_1994] and its extension in [Foster and Wilson 2006][research_foster_wilson_2006] provides the canonical memory-consolidation correspondence to experience replay in machine learning as introduced in [Lin 1992][research_lin_1992] and deployed at scale in [Mnih et al 2015][research_mnih_et_al_2015]. The findings have been substantially replicated across species and tasks and continue to organize the hippocampal-machine-learning correspondence literature.
+The hippocampal replay finding of [Wilson and McNaughton 1994][research_wilson_mcnaughton_1994] and its extension in [Foster and Wilson 2006][research_foster_wilson_2006] provides the canonical memory-consolidation correspondence to experience replay in machine learning as introduced in [Lin 1992][research_lin_1992] and deployed at scale in [Mnih et al. 2015][research_mnih_et_al_2015]. The findings have been substantially replicated across species and tasks and continue to organize the hippocampal-machine-learning correspondence literature.
 
-The complementary learning systems finding of [McClelland McNaughton O'Reilly 1995][research_mcclelland_mcnaughton_oreilly_1995] provides the canonical dual-memory-system correspondence. The findings have been markedly replicated and provide the bridge between the neuroscience of memory and the machine learning of continual learning.
+The complementary learning systems finding of [McClelland et al. 1995][research_mcclelland_mcnaughton_oreilly_1995] provides the canonical dual-memory-system correspondence. The findings have been markedly replicated and provide the bridge between the neuroscience of memory and the machine learning of continual learning.
 
-The scaling laws of foundation models of [Kaplan et al 2020][research_kaplan_et_al_2020] and [Hoffmann et al 2022][research_hoffmann_et_al_2022] provide the empirical findings on the relationship between model size, compute, and performance. The Chinchilla-form parametric law
+The scaling laws of foundation models of [Kaplan et al. 2020][research_kaplan_et_al_2020] and [Hoffmann et al. 2022][research_hoffmann_et_al_2022] provide the empirical findings on the relationship between model size, compute, and performance. The Chinchilla-form parametric law
 
 $$L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E$$
 
@@ -277,7 +277,7 @@ $$N^*(C) \propto C^a, \quad D^*(C) \propto C^b$$
 
 specifies the allocation of a fixed compute budget $C$ across model size and data that minimizes the achieved loss. The findings have been appreciably replicated across model families and continue to organize the research on the scaling of foundation models. The applicability of scaling laws to interactive experiential learning remains greatly open and constitutes one of the open problems that this article surveys.
 
-The Brain-Score benchmark of [Schrimpf et al 2020][research_schrimpf_et_al_2020] provides the canonical benchmark for comparing artificial neural networks to biological brains. The findings including the ranking of candidate models by their brain-score correspondence continue to organize the NeuroAI benchmarking literature.
+The Brain-Score benchmark of [Schrimpf et al. 2020][research_schrimpf_et_al_2020] provides the canonical benchmark for comparing artificial neural networks to biological brains. The findings including the ranking of candidate models by their brain-score correspondence continue to organize the NeuroAI benchmarking literature.
 
 The replication crisis findings in psychology of [Open Science Collaboration 2015][research_osc_2015] provide the empirical foundation for the modern methodological reforms in psychology. The findings including the approximately thirty-six percent replication rate for strict significance criteria continue to organize the methodological-reform literature.
 
@@ -293,11 +293,11 @@ The objective axis characterizes the quantity the learner optimizes. The axis po
 
 $$\text{CVaR}_\alpha[G] = \mathbb{E}[G \mid G \leq q_\alpha(G)]$$
 
-regret against a reference policy, distributional characteristics of return, and information-theoretic objectives including empowerment. The series treats each position through the corresponding articles. Discounted return is the default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations]. Regret is the subject of [A251 Bandits and Online Learning][related_post_a251_bandits]. Distributional characteristics are the subject of the distributional-reinforcement-learning framework of [Bellemare Dabney Munos 2017][research_bellemare_dabney_munos_2017] treated in [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Information-theoretic objectives are the subject of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]. The settled public baseline identifies the canonical objectives and their algorithmic implementations. The residual open problem is the characterization of the correct objective under real-world safety and alignment constraints.
+regret against a reference policy, distributional characteristics of return, and information-theoretic objectives including empowerment. The series treats each position through the corresponding articles. Discounted return is the default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations]. Regret is the subject of [A251 Bandits and Online Learning][related_post_a251_bandits]. Distributional characteristics are the subject of the distributional-reinforcement-learning framework of [Bellemare et al. 2017][research_bellemare_dabney_munos_2017] treated in [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Information-theoretic objectives are the subject of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]. The settled public baseline identifies the canonical objectives and their algorithmic implementations. The residual open problem is the characterization of the correct objective under real-world safety and alignment constraints.
 
 The structure axis characterizes the form of the environment the learner faces. The axis positions include the flat Markov decision process, the partially observable Markov decision process, the hierarchical decision process with options or sub-policies, the factored state space, the multi-agent stochastic game, and the partially observable stochastic game. The series treats each position through the corresponding articles. The flat Markov decision process is the default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations]. Hierarchical structure is the subject of [A255 Hierarchical Reinforcement Learning][related_post_a255_hierarchical]. Partial observability recurs throughout the series with treatment in the sensorimotor-contingency framework of [A262 Embodied Cognition and Developmental Learning][related_post_a262_embodied]. Multi-agent structure is the subject of the multi-agent extensions treated in [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration]. The settled public baseline identifies the canonical formalisms per structure type. The residual open problem is the unified formal characterization of hierarchical decomposition under bounded computational resources.
 
-The model axis characterizes the role of a learned environment model in the learning system. The axis positions include model-free (using only sample updates), model-based (learning an explicit generative model and planning with it), and model-implicit (using a learned representation that supports planning without an explicit generative model). The series treats each position through the corresponding articles. Model-free is the default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations] and [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Model-based and model-implicit are the subject of [A256 World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]. The correspondence between habitual model-free and goal-directed model-based behavior in animal learning is the subject of [A264 Psychology of Learning][related_post_a264_psychology] through the [Daw Niv Dayan 2005][research_daw_niv_dayan_2005] dual-system framework. The settled public baseline identifies the canonical algorithms per model type. The residual open problem is the optimal integration of model-free and model-based components under sample-complexity constraints.
+The model axis characterizes the role of a learned environment model in the learning system. The axis positions include model-free (using only sample updates), model-based (learning an explicit generative model and planning with it), and model-implicit (using a learned representation that supports planning without an explicit generative model). The series treats each position through the corresponding articles. Model-free is the default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations] and [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Model-based and model-implicit are the subject of [A256 World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]. The correspondence between habitual model-free and goal-directed model-based behavior in animal learning is the subject of [A264 Psychology of Learning][related_post_a264_psychology] through the [Daw et al. 2005][research_daw_niv_dayan_2005] dual-system framework. The settled public baseline identifies the canonical algorithms per model type. The residual open problem is the optimal integration of model-free and model-based components under sample-complexity constraints.
 
 The interaction axis characterizes the relationship between the learner's data source and the learner's policy. The axis positions include online interaction (collecting data from the environment as learning proceeds), offline learning (learning from a fixed prior dataset without further interaction), on-policy learning (using data collected under the current policy), and off-policy learning (using data collected under other policies). The series treats each position through the corresponding articles. Online on-policy is the default of many algorithms in [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations]. Off-policy learning is the subject of much of [A253 Deep Reinforcement Learning][related_post_a253_deep_rl] including the deep-Q-network family. Offline learning is the subject of [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline]. The correspondence to human learning-from-demonstration is the subject of [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration]. The settled public baseline identifies the canonical algorithms per interaction mode. The residual open problem is the characterization of when offline learning admits strong generalization guarantees beyond the coverage of the offline dataset.
 
@@ -309,15 +309,15 @@ The six-axis framework provides the analytical vocabulary through which any expe
 
 The established neuroscience correspondences consolidate the bidirectional exchanges between neuroscience and machine learning that have been considerably validated at the closing of the editorial window. This account was surveyed in detail in [A263 NeuroAI][related_post_a263_neuroai].
 
-The dopamine reward-prediction-error correspondence of [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997] provides the paradigmatic correspondence. The finding that midbrain dopamine neurons encode a reward prediction error mathematically identical to the temporal-difference error
+The dopamine reward-prediction-error correspondence of [Schultz et al. 1997][research_schultz_dayan_montague_1997] provides the paradigmatic correspondence. The finding that midbrain dopamine neurons encode a reward prediction error mathematically identical to the temporal-difference error
 
 $$\text{DA firing rate at } t \propto \delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$$
 
 has been significantly replicated across species, tasks, and recording modalities, and continues to organize the neuroscience-of-reinforcement-learning literature.
 
-The hippocampal-replay-experience-replay correspondence provides the memory-consolidation correspondence. The finding of [Wilson and McNaughton 1994][research_wilson_mcnaughton_1994] that hippocampal place cells replay recent experience during sharp-wave ripples, together with the reverse-replay finding of [Foster and Wilson 2006][research_foster_wilson_2006] and the hypothesis of a common mechanism in [Kumaran McClelland Hassabis 2016][research_kumaran_mcclelland_hassabis_2016], has been substantially replicated and provides the biological correspondence to the experience-replay mechanism that traces to [Lin 1992][research_lin_1992] and has been markedly deployed in modern deep reinforcement learning.
+The hippocampal-replay-experience-replay correspondence provides the memory-consolidation correspondence. The finding of [Wilson and McNaughton 1994][research_wilson_mcnaughton_1994] that hippocampal place cells replay recent experience during sharp-wave ripples, together with the reverse-replay finding of [Foster and Wilson 2006][research_foster_wilson_2006] and the hypothesis of a common mechanism in [Kumaran et al. 2016][research_kumaran_mcclelland_hassabis_2016], has been substantially replicated and provides the biological correspondence to the experience-replay mechanism that traces to [Lin 1992][research_lin_1992] and has been markedly deployed in modern deep reinforcement learning.
 
-The complementary-learning-systems correspondence of [McClelland McNaughton O'Reilly 1995][research_mcclelland_mcnaughton_oreilly_1995] provides the dual-memory-system correspondence. The finding that fast hippocampal learning and slow cortical consolidation constitute complementary memory systems has been appreciably replicated and provides the biological correspondence to the interleaved-training-and-consolidation approaches in machine learning.
+The complementary-learning-systems correspondence of [McClelland et al. 1995][research_mcclelland_mcnaughton_oreilly_1995] provides the dual-memory-system correspondence. The finding that fast hippocampal learning and slow cortical consolidation constitute complementary memory systems has been appreciably replicated and provides the biological correspondence to the interleaved-training-and-consolidation approaches in machine learning.
 
 The predictive-coding correspondence of [Rao and Ballard 1999][research_rao_ballard_1999] provides the perceptual-inference correspondence. The finding that cortical hierarchies implement predictive coding through the top-down expectation and bottom-up prediction-error signaling allows the hierarchical formalization
 
@@ -325,7 +325,7 @@ $$\epsilon_l = x_l - g_l(x_{l+1}), \quad x_l \leftarrow x_l + \eta \left( - \eps
 
 with $x_l$ the representation at level $l$, $g_l$ the top-down generative model, and $\epsilon_l$ the residual prediction error. The framework has been greatly characterized and provides the biological correspondence to the modern generative-model and world-model literature.
 
-The convolutional-network-visual-cortex correspondence provides the representational correspondence. The finding of [Yamins et al 2014][research_yamins_et_al_2014] that convolutional networks trained on object recognition develop representations that match the hierarchical structure of the primate ventral visual stream, together with the representational-similarity analysis framework of [Kriegeskorte Mur Bandettini 2008][research_kriegeskorte_mur_bandettini_2008], has been considerably characterized through the Brain-Score benchmarks of [Schrimpf et al 2020][research_schrimpf_et_al_2020] and provides the representational correspondence between artificial and biological visual processing. The extension to the ventral-stream-and-object-recognition literature by [Khaligh-Razavi and Kriegeskorte 2014][research_khaligh_razavi_kriegeskorte_2014] provides the complementary characterization.
+The convolutional-network-visual-cortex correspondence provides the representational correspondence. The finding of [Yamins et al. 2014][research_yamins_et_al_2014] that convolutional networks trained on object recognition develop representations that match the hierarchical structure of the primate ventral visual stream, together with the representational-similarity analysis framework of [Kriegeskorte et al. 2008][research_kriegeskorte_mur_bandettini_2008], has been considerably characterized through the Brain-Score benchmarks of [Schrimpf et al. 2020][research_schrimpf_et_al_2020] and provides the representational correspondence between artificial and biological visual processing. The extension to the ventral-stream-and-object-recognition literature by [Khaligh-Razavi and Kriegeskorte 2014][research_khaligh_razavi_kriegeskorte_2014] provides the complementary characterization.
 
 The grid-cell-successor-representation correspondence provides the spatial-and-planning correspondence. The successor representation of [Dayan 1993][research_dayan_1993]
 
@@ -335,7 +335,7 @@ factorizes the value function as
 
 $$V^\pi(s) = \sum_{s'} M^\pi(s, s') R(s')$$
 
-and the eigenvector decomposition of $M^\pi$ produces spatial basis functions with the hexagonal-grid structure observed in entorhinal grid cells. The finding of [Stachenfeld Botvinick Gershman 2017][research_stachenfeld_botvinick_gershman_2017] that entorhinal grid cells implement this eigenvector decomposition of the successor representation has been significantly characterized and provides the bridge between the neuroscience of spatial cognition of [O'Keefe and Dostrovsky 1971][research_okeefe_dostrovsky_1971] and [Hafting et al 2005][research_hafting_et_al_2005] and the successor-representation literature in machine learning.
+and the eigenvector decomposition of $M^\pi$ produces spatial basis functions with the hexagonal-grid structure observed in entorhinal grid cells. The finding of [Stachenfeld et al. 2017][research_stachenfeld_botvinick_gershman_2017] that entorhinal grid cells implement this eigenvector decomposition of the successor representation has been significantly characterized and provides the bridge between the neuroscience of spatial cognition of [O'Keefe and Dostrovsky 1971][research_okeefe_dostrovsky_1971] and [Hafting et al. 2005][research_hafting_et_al_2005] and the successor-representation literature in machine learning.
 
 The free-energy correspondence provides the unifying-principle correspondence. The variational free energy
 
@@ -351,7 +351,7 @@ The established psychology correspondences consolidate the bidirectional exchang
 
 The Rescorla-Wagner-temporal-difference correspondence of [Rescorla and Wagner 1972][research_rescorla_wagner_1972] and [Sutton 1988][research_sutton_1988] provides the paradigmatic correspondence. The finding that the Rescorla-Wagner update rule corresponds mathematically to the temporal-difference update rule in the limit of a limiting case has been appreciably characterized and provides the bridge between the psychology of classical conditioning and modern machine learning.
 
-The model-free-model-based-dual-system correspondence of [Daw Niv Dayan 2005][research_daw_niv_dayan_2005] provides the dual-system correspondence. The finding that habitual behavior corresponds to model-free learning and goal-directed behavior corresponds to model-based learning has been greatly characterized in both animal and human experiments and provides the bridge between the psychology of instrumental behavior and modern machine learning.
+The model-free-model-based-dual-system correspondence of [Daw et al. 2005][research_daw_niv_dayan_2005] provides the dual-system correspondence. The finding that habitual behavior corresponds to model-free learning and goal-directed behavior corresponds to model-based learning has been greatly characterized in both animal and human experiments and provides the bridge between the psychology of instrumental behavior and modern machine learning.
 
 The prospect-theory-loss-aversion correspondence of [Kahneman and Tversky 1979][research_kahneman_tversky_1979] provides the decision-making correspondence. The finding that human decision-making under uncertainty exhibits systematic deviations from expected-utility theory supports the formalization through the value function
 
@@ -363,7 +363,7 @@ $$w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}$$
 
 that captures the overweighting of small probabilities and underweighting of moderate-to-large probabilities. This formulation has been considerably replicated and provides the empirical constraints against which candidate models of human decision-making are evaluated.
 
-The Bayesian-cognition correspondence of [Tenenbaum Kemp Griffiths Goodman 2011][research_tenenbaum_et_al_2011] provides the probabilistic-inference correspondence. The finding that many cognitive phenomena including concept learning, causal reasoning, and inductive generalization admit characterization as Bayesian inference over structured hypothesis spaces admits the formalization
+The Bayesian-cognition correspondence of [Tenenbaum et al. 2011][research_tenenbaum_et_al_2011] provides the probabilistic-inference correspondence. The finding that many cognitive phenomena including concept learning, causal reasoning, and inductive generalization admit characterization as Bayesian inference over structured hypothesis spaces admits the formalization
 
 $$p(h \mid d) = \frac{p(d \mid h) \, p(h)}{\sum_{h' \in \mathcal{H}} p(d \mid h') \, p(h')}$$
 
@@ -375,7 +375,7 @@ The spacing-and-retrieval-practice correspondence provides the educational-techn
 
 $$R(t) = R_0 \, e^{-t/\tau}$$
 
-with $R(t)$ retention at time $t$ and $\tau$ a memory-time constant, and the [Cepeda et al 2008][research_cepeda_et_al_2008] distributed-practice power-law form
+with $R(t)$ retention at time $t$ and $\tau$ a memory-time constant, and the [Cepeda et al. 2008][research_cepeda_et_al_2008] distributed-practice power-law form
 
 $$R(t, s) = R_0 \, (1 + t/s)^{-\beta}$$
 
@@ -387,19 +387,19 @@ The consolidated psychology correspondences constitute the settled public domain
 
 The foundation-model turn constitutes the paradigm shift that has appreciably reorganized the field at the closing of the editorial window. This account treats large pre-trained models, trained on broad corpora through self-supervised learning at scale, as the substrate for downstream experiential learning through fine-tuning, reinforcement learning from human feedback, and agentic frameworks. The integration of foundation models with the classical experiential-learning framework has emerged as one of the most active research areas of the field.
 
-The [Bommasani et al 2021][research_bommasani_et_al_2021] report On the Opportunities and Risks of Foundation Models provides the institutional consolidation of the paradigm. The framework treats foundation models as the general-purpose substrate whose downstream deployment through the fine-tuning and reinforcement-learning-from-human-feedback pipelines produces the application-capabilities of the modern deployment landscape.
+The [Bommasani et al. 2021][research_bommasani_et_al_2021] report On the Opportunities and Risks of Foundation Models provides the institutional consolidation of the paradigm. The framework treats foundation models as the general-purpose substrate whose downstream deployment through the fine-tuning and reinforcement-learning-from-human-feedback pipelines produces the application-capabilities of the modern deployment landscape.
 
-The scaling laws of [Kaplan et al 2020][research_kaplan_et_al_2020] and the compute-optimal refinement of [Hoffmann et al 2022][research_hoffmann_et_al_2022] provide the empirical foundation for the paradigm. The findings that model capability follows the parametric relationship
+The scaling laws of [Kaplan et al. 2020][research_kaplan_et_al_2020] and the compute-optimal refinement of [Hoffmann et al. 2022][research_hoffmann_et_al_2022] provide the empirical foundation for the paradigm. The findings that model capability follows the parametric relationship
 
 $$L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E$$
 
 with model size $N$ and training-token count $D$ have greatly shaped the research on the scaling of foundation models and the downstream deployment through experiential learning.
 
-The emergence phenomena of [Wei et al 2022][research_wei_et_al_2022_emergent] identify the capabilities that appear discontinuously with scale, and the chain-of-thought prompting framework of [Wei et al 2022][research_wei_et_al_2022_cot] provides the reasoning-enhancement technique that continues to organize the research on foundation-model reasoning.
+The emergence phenomena of [Wei et al. 2022b][research_wei_et_al_2022_emergent] identify the capabilities that appear discontinuously with scale, and the chain-of-thought prompting framework of [Wei et al. 2022a][research_wei_et_al_2022_cot] provides the reasoning-enhancement technique that continues to organize the research on foundation-model reasoning.
 
-The reinforcement-learning-from-human-feedback pipeline of [Ouyang et al 2022][research_ouyang_et_al_2022] provides the alignment mechanism that has been considerably deployed across the modern foundation-model deployment landscape. The pipeline comprises the three-stage sequence of supervised fine-tuning on demonstrations, reward-model training on human preferences, and reinforcement-learning optimization of the policy against the learned reward model. The integration of the classical policy-gradient framework with the foundation-model substrate has significantly organized the modern alignment literature.
+The reinforcement-learning-from-human-feedback pipeline of [Ouyang et al. 2022][research_ouyang_et_al_2022] provides the alignment mechanism that has been considerably deployed across the modern foundation-model deployment landscape. The pipeline comprises the three-stage sequence of supervised fine-tuning on demonstrations, reward-model training on human preferences, and reinforcement-learning optimization of the policy against the learned reward model. The integration of the classical policy-gradient framework with the foundation-model substrate has significantly organized the modern alignment literature.
 
-The constitutional AI framework of [Bai et al 2022][research_bai_et_al_2022] provides the extension in which the reward-model training uses model-generated preferences guided by a written constitution rather than the direct human preferences. The account has substantially reorganized the scalable-oversight literature and continues to organize the research on foundation-model alignment.
+The constitutional AI framework of [Bai et al. 2022][research_bai_et_al_2022] provides the extension in which the reward-model training uses model-generated preferences guided by a written constitution rather than the direct human preferences. The account has substantially reorganized the scalable-oversight literature and continues to organize the research on foundation-model alignment.
 
 The agentic-frameworks paradigm treats foundation models as the policy substrate for the sequential decision-making tasks that constitute the classical experiential-learning framework. The integration through tool-use, chain-of-thought reasoning, and hierarchical planning provides the research frontier at the intersection of foundation models and reinforcement learning. The empirical performance of agentic foundation models on the benchmarks including SWE-bench, WebArena, and AgentBench remains an active research area whose characterization continues to organize the field.
 
@@ -411,17 +411,17 @@ The position papers and canonical debates that organize the field at the closing
 
 The Bitter Lesson of [Sutton 2019][research_sutton_2019_bitter_lesson] provides the canonical position statement on the relationship between the general-purpose scaling of computation and the incorporation of human-engineered domain knowledge. The claim that the general-purpose methods that leverage the increases in available computation eventually outperform the methods that incorporate domain-human knowledge has significantly organized the research direction of the field and continues to shape the institutional and technical debates.
 
-The Reward is Enough thesis of [Silver Singh Precup Sutton 2021][research_silver_et_al_2021] provides the canonical position statement on the sufficiency of reward maximization as the framework for artificial intelligence. The strong claim
+The Reward is Enough thesis of [Silver et al. 2021][research_silver_et_al_2021] provides the canonical position statement on the sufficiency of reward maximization as the framework for artificial intelligence. The strong claim
 
 $$\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]$$
 
-as the general framework for goal-directed behavior remains substantially contested at the closing of the editorial window, with the critical responses of [Roy Duckett 2022][research_roy_duckett_2022] and the alternative frameworks including preference learning and inverse reinforcement learning providing the empirical alternatives.
+as the general framework for goal-directed behavior remains substantially contested at the closing of the editorial window, with the critical responses of [Roy and Duckett 2022][research_roy_duckett_2022] and the alternative frameworks including preference learning and inverse reinforcement learning providing the empirical alternatives.
 
 The Welcome to the Era of Experience position paper of [Silver and Sutton 2024][research_silver_sutton_2024] provides the canonical position statement on the role of experiential learning at the closing of the era of static-data pre-training. The claim that the next generation of AI systems will markedly depend on experiential learning from environmental interaction rather than on the static-data pre-training paradigm has appreciably organized the research direction of the field.
 
-The Catalyzing NeuroAI grand challenges of [Zador et al 2023][research_zador_et_al_2023] provide the canonical position statement on the research directions in NeuroAI at the closing of the editorial window. The grand challenges including the embodied Turing test, the development of the animal-like AI capabilities, and the bidirectional exchange between neuroscience and machine learning provide the research directions that continue to organize the field.
+The Catalyzing NeuroAI grand challenges of [Zador et al. 2023][research_zador_et_al_2023] provide the canonical position statement on the research directions in NeuroAI at the closing of the editorial window. The grand challenges including the embodied Turing test, the development of the animal-like AI capabilities, and the bidirectional exchange between neuroscience and machine learning provide the research directions that continue to organize the field.
 
-The alignment-problem framing of [Ngo Chan Mindermann 2022][research_ngo_chan_mindermann_2022] The Alignment Problem from a Deep Learning Perspective provides the canonical position statement on the alignment challenges facing modern deep learning systems. The taxonomy of misalignment failure modes and the research directions for their resolution have greatly organized the modern alignment-and-safety literature.
+The alignment-problem framing of [Ngo et al. 2022][research_ngo_chan_mindermann_2022] The Alignment Problem from a Deep Learning Perspective provides the canonical position statement on the alignment challenges facing modern deep learning systems. The taxonomy of misalignment failure modes and the research directions for their resolution have greatly organized the modern alignment-and-safety literature.
 
 The consolidated position papers constitute the field-level context within which the technical research proceeds at the closing of the editorial window. The debates the papers organize continue to shape the research directions of the field, and the resolution of the debates through the empirical developments of subsequent research remains an active research area.
 
@@ -429,13 +429,13 @@ The consolidated position papers constitute the field-level context within which
 
 The open problems in the theoretical foundations of experiential learning identify the residual questions whose resolution would considerably reorganize the field. This formulation identifies the formal questions that remain contested at the closing of the editorial window.
 
-The deadly-triad problem identifies the instability arising from the combination of off-policy learning, function approximation, and bootstrapping. The divergence examples of [Baird 1995][research_baird_1995] and the systematic characterization of [Van Hasselt et al 2018][research_van_hasselt_et_al_2018] establish the empirical scope of the phenomenon. The empirical practice has assembled workarounds through the target-network stabilization, the experience-replay decorrelation, and the double Q-learning bias-correction techniques. The theoretical characterization of when the triad is safe and when it is unstable remains significantly open and constitutes one of the open problems of the field.
+The deadly-triad problem identifies the instability arising from the combination of off-policy learning, function approximation, and bootstrapping. The divergence examples of [Baird 1995][research_baird_1995] and the systematic characterization of [van Hasselt et al. 2018][research_van_hasselt_et_al_2018] establish the empirical scope of the phenomenon. The empirical practice has assembled workarounds through the target-network stabilization, the experience-replay decorrelation, and the double Q-learning bias-correction techniques. The theoretical characterization of when the triad is safe and when it is unstable remains significantly open and constitutes one of the open problems of the field.
 
 The exploration-exploitation-tradeoff problem in high-dimensional structured environments identifies the gap between the tight regret bounds available for bandits and low-dimensional Markov decision processes and the empirical performance of intrinsic-motivation methods in high-dimensional structured environments. The formal characterization of the sample-complexity of exploration in high-dimensional structured environments remains substantially open.
 
 The partial-observability problem identifies the gap between the tractable partially-observable Markov decision process framework and the empirical reality of partially-observable environments at scale. The formal characterization of what representation-learning objectives suffice for near-optimal control under partial observability remains markedly open.
 
-The sample-complexity-versus-computational-complexity problem identifies the tradeoff between sample-efficient algorithms (typically expensive computationally) and computationally-efficient algorithms (typically expensive in samples). The PAC-MDP sample-complexity bounds of [Kakade 2003][research_kakade_2003] and [Strehl Li Littman 2009][research_strehl_li_littman_2009]
+The sample-complexity-versus-computational-complexity problem identifies the tradeoff between sample-efficient algorithms (typically expensive computationally) and computationally-efficient algorithms (typically expensive in samples). The PAC-MDP sample-complexity bounds of [Kakade 2003][research_kakade_2003] and [Strehl et al. 2009][research_strehl_li_littman_2009]
 
 $$\tilde{O}\left( \frac{|\mathcal{S}||\mathcal{A}|}{(1 - \gamma)^3 \epsilon^2} \right)$$
 
@@ -443,7 +443,7 @@ for tabular reinforcement learning provide the worst-case characterization of th
 
 The open-endedness problem identifies the gap between the frameworks of reinforcement learning and evolutionary computation and the open-endedness that human cultures and biological evolution exhibit. The formal characterization of open-endedness and the mechanisms that produce it remain considerably open and provide the research frontier for [A261 Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary].
 
-The reward-hypothesis problem identifies the status of the [Silver Singh Precup Sutton 2021][research_silver_et_al_2021] Reward is Enough thesis. The claim in its strong form is that any goal-directed behavior of interest can be characterized as maximization of a expected cumulative reward
+The reward-hypothesis problem identifies the status of the [Silver et al. 2021][research_silver_et_al_2021] Reward is Enough thesis. The claim in its strong form is that any goal-directed behavior of interest can be characterized as maximization of a expected cumulative reward
 
 $$\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]$$
 
@@ -459,7 +459,7 @@ The open problems in the algorithmic frontiers identify the residual questions i
 
 The credit assignment problem at long horizons identifies the difficulty of assigning credit for delayed rewards at temporal horizons considerably longer than those addressed by the standard algorithms. The eligibility-trace framework and the $n$-step-return framework provide partial solutions, but the credit-assignment problem at very long horizons remains significantly open.
 
-The reward-model-learning problem in reinforcement learning from human feedback identifies the difficulty of learning reward models that generalize to novel behaviors. The findings on reward hacking, specification gaming, and reward-model exploitation surveyed in [Amodei et al 2016][research_amodei_et_al_2016] Concrete Problems in AI Safety, in [Krakovna et al 2020][research_krakovna_et_al_2020], and in the systematic study of RLHF failure modes in [Casper et al 2023][research_casper_et_al_2023] remain substantially uncharacterized and provide the research frontier for [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration].
+The reward-model-learning problem in reinforcement learning from human feedback identifies the difficulty of learning reward models that generalize to novel behaviors. The findings on reward hacking, specification gaming, and reward-model exploitation surveyed in [Amodei et al. 2016][research_amodei_et_al_2016] Concrete Problems in AI Safety, in [Krakovna 2020][research_krakovna_et_al_2020], and in the systematic study of RLHF failure modes in [Casper et al. 2023][research_casper_et_al_2023] remain substantially uncharacterized and provide the research frontier for [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration].
 
 The catastrophic-forgetting problem at scale identifies the difficulty of preventing catastrophic forgetting in modern deep learning systems that must acquire and preserve considerable task suites. The empirical findings on the effectiveness of the modern continual-learning algorithms at scale remain markedly uncharacterized and provide the research frontier for [A259 Continual and Lifelong Learning][related_post_a259_continual].
 
@@ -479,7 +479,7 @@ The open problems in empirical benchmarks identify the residual questions in the
 
 The benchmark-validity problem identifies the gap between the empirical performance on standard benchmarks and the empirical performance on the underlying capabilities the benchmarks are intended to measure. The findings on benchmark saturation, benchmark gaming, and benchmark-versus-transfer divergence remain appreciably uncharacterized.
 
-The evaluation-reproducibility problem identifies the difficulty of reproducing the empirical claims in deep reinforcement learning research. The findings including the [Henderson et al 2018][research_henderson_et_al_2018] characterization of the variance in deep-reinforcement-learning benchmark results have provided the empirical foundation for the modern evaluation-reform movement in the field.
+The evaluation-reproducibility problem identifies the difficulty of reproducing the empirical claims in deep reinforcement learning research. The findings including the [Henderson et al. 2018][research_henderson_et_al_2018] characterization of the variance in deep-reinforcement-learning benchmark results have provided the empirical foundation for the modern evaluation-reform movement in the field.
 
 The compute-and-scale-dependence problem identifies the difficulty of separating the algorithmic contributions from the scale-dependent contributions in modern deep reinforcement learning research. The empirical findings that many algorithmic improvements are contingent on the compute and scale conditions provide the empirical foundation for the modern research on scaling laws in reinforcement learning.
 
@@ -491,7 +491,7 @@ The consolidated empirical-benchmark open problems constitute the research front
 
 The open problems in the neuroscience correspondence identify the residual questions in the bidirectional exchange between neuroscience and machine learning.
 
-The biological-plausibility-of-backpropagation problem identifies the difficulty of reconciling the effectiveness of backpropagation in machine learning with the implausibility of backpropagation as a biological learning rule surveyed in [Crick 1989][research_crick_1989] and [Lillicrap et al 2020][research_lillicrap_et_al_2020]. The candidate biological-learning-rule frameworks including feedback alignment of [Lillicrap et al 2016][research_lillicrap_et_al_2016], predictive coding as a biological learning rule characterized in [Whittington and Bogacz 2017][research_whittington_bogacz_2017], and target propagation of [Lee Zhang Fischer Bengio 2015][research_lee_zhang_fischer_bengio_2015] provide partial solutions, but the correspondence between biological and artificial learning rules remains considerably open.
+The biological-plausibility-of-backpropagation problem identifies the difficulty of reconciling the effectiveness of backpropagation in machine learning with the implausibility of backpropagation as a biological learning rule surveyed in [Crick 1989][research_crick_1989] and [Lillicrap et al. 2020][research_lillicrap_et_al_2020]. The candidate biological-learning-rule frameworks including feedback alignment of [Lillicrap et al. 2016][research_lillicrap_et_al_2016], predictive coding as a biological learning rule characterized in [Whittington and Bogacz 2017][research_whittington_bogacz_2017], and target propagation of [Lee et al. 2015][research_lee_zhang_fischer_bengio_2015] provide partial solutions, but the correspondence between biological and artificial learning rules remains considerably open.
 
 The scale-and-timescale-correspondence problem identifies the gap between the timescales of biological learning (from milliseconds through decades) and the timescales of artificial learning (typically limited to the training-episode timescale). The correspondence between the biological timescales and the artificial timescales remains significantly open.
 
@@ -515,13 +515,13 @@ The consolidated psychological-correspondence open problems constitute the resea
 
 The open problems in alignment, safety, and governance identify the residual questions in the safe deployment of experiential learning systems.
 
-The reward-specification-problem identifies the difficulty of specifying reward functions that produce the intended behavior across the full deployment distribution. The findings of [Amodei et al 2016][research_amodei_et_al_2016] on concrete problems in AI safety, the taxonomies of [Krakovna et al 2020][research_krakovna_et_al_2020] on specification gaming, the characterization of the Goodhart-effect regimes in [Manheim and Garrabrant 2018][research_manheim_garrabrant_2018], and the study of reward-model over-optimization in [Gao Schulman Hilton 2023][research_gao_schulman_hilton_2023] provide the empirical foundation for the research on reward-specification robustness.
+The reward-specification-problem identifies the difficulty of specifying reward functions that produce the intended behavior across the full deployment distribution. The findings of [Amodei et al. 2016][research_amodei_et_al_2016] on concrete problems in AI safety, the taxonomies of [Krakovna 2020][research_krakovna_et_al_2020] on specification gaming, the characterization of the Goodhart-effect regimes in [Manheim and Garrabrant 2018][research_manheim_garrabrant_2018], and the study of reward-model over-optimization in [Gao et al. 2023][research_gao_schulman_hilton_2023] provide the empirical foundation for the research on reward-specification robustness.
 
-The scalable-oversight-problem identifies the difficulty of providing effective human oversight to reinforcement-learning systems at scales where human evaluation cannot cover the full deployment distribution. The candidate frameworks including debate of [Irving Christiano Amodei 2018][research_irving_christiano_amodei_2018], iterated amplification of [Christiano Shlegeris Amodei 2018][research_christiano_shlegeris_amodei_2018], and constitutional AI of [Bai et al 2022][research_bai_et_al_2022] provide partial solutions, but the effectiveness of scalable oversight remains significantly open.
+The scalable-oversight-problem identifies the difficulty of providing effective human oversight to reinforcement-learning systems at scales where human evaluation cannot cover the full deployment distribution. The candidate frameworks including debate of [Irving et al. 2018][research_irving_christiano_amodei_2018], iterated amplification of [Christiano et al. 2018][research_christiano_shlegeris_amodei_2018], and constitutional AI of [Bai et al. 2022][research_bai_et_al_2022] provide partial solutions, but the effectiveness of scalable oversight remains significantly open.
 
-The mesa-optimization-and-inner-alignment problem identifies the difficulty of ensuring that the learned policies do not implement internal optimization processes with objectives that diverge from the outer training objective. The taxonomy of [Hubinger et al 2019][research_hubinger_et_al_2019] Risks from Learned Optimization provides the formal characterization of the problem. The characterization of when mesa-optimization arises and the mechanisms that produce it remain substantially open.
+The mesa-optimization-and-inner-alignment problem identifies the difficulty of ensuring that the learned policies do not implement internal optimization processes with objectives that diverge from the outer training objective. The taxonomy of [Hubinger et al. 2019][research_hubinger_et_al_2019] Risks from Learned Optimization provides the formal characterization of the problem. The characterization of when mesa-optimization arises and the mechanisms that produce it remain substantially open.
 
-The power-seeking-and-instrumental-convergence problem identifies the empirical and theoretical questions about the conditions under which reinforcement-learning agents develop instrumentally-convergent power-seeking behaviors. The formal analysis of [Turner et al 2021][research_turner_et_al_2021] Optimal Policies Tend to Seek Power characterizes the class of environments in which instrumental convergence provably arises. The formal characterization of when instrumental convergence arises in the settings of practical machine learning remains markedly open.
+The power-seeking-and-instrumental-convergence problem identifies the empirical and theoretical questions about the conditions under which reinforcement-learning agents develop instrumentally-convergent power-seeking behaviors. The formal analysis of [Turner et al. 2021][research_turner_et_al_2021] Optimal Policies Tend to Seek Power characterizes the class of environments in which instrumental convergence provably arises. The formal characterization of when instrumental convergence arises in the settings of practical machine learning remains markedly open.
 
 The governance-and-deployment-safety problem identifies the institutional questions about the safe deployment of reinforcement-learning systems in the real-world contexts including healthcare, finance, criminal justice, and autonomous systems. The institutional frameworks for the governance of these deployments remain appreciably open and provide the research frontier for the technical-governance literature.
 
@@ -531,9 +531,9 @@ The consolidated alignment-safety-and-governance open problems constitute the re
 
 The empirical landscape at the closing of the editorial window in the mid 2020s characterizes the state of the field's capabilities, benchmarks, and open questions as of the temporal window of this survey.
 
-Deep reinforcement learning systems have achieved significant performance on the canonical benchmarks including Atari, MuJoCo, Go, chess, and shogi. The empirical performance has greatly saturated on the classical benchmarks, with the human-normalized scores on the fifty-seven-game Atari suite exceeding one hundred percent on the median-game metric for the canonical algorithms, and the MuJoCo continuous-control benchmarks producing the asymptotic performance close to the theoretical maxima for the canonical tasks. The research frontier has considerably shifted to the more challenging benchmarks including the Procgen generalization benchmarks of [Cobbe et al 2020][research_cobbe_et_al_2020], the Meta-World multi-task benchmarks of [Yu et al 2020][research_yu_et_al_2020], the bsuite behavior suite of [Osband et al 2020][research_osband_et_al_2020] for characterizing agent behavior along the dimensions of memory, generalization, and exploration, the complex real-time strategy games as characterized in the OpenAI Five Dota 2 system of [Berner et al 2019][research_berner_et_al_2019] and the AlphaStar StarCraft II system of [Vinyals et al 2019][research_vinyals_et_al_2019], the NetHack learning environment of [Küttler et al 2020][research_kuttler_et_al_2020] as a specifically-difficult exploration benchmark, and the open-ended learning environments including XLand of [Team et al 2021][research_openended_team_2021].
+Deep reinforcement learning systems have achieved significant performance on the canonical benchmarks including Atari, MuJoCo, Go, chess, and shogi. The empirical performance has greatly saturated on the classical benchmarks, with the human-normalized scores on the fifty-seven-game Atari suite exceeding one hundred percent on the median-game metric for the canonical algorithms, and the MuJoCo continuous-control benchmarks producing the asymptotic performance close to the theoretical maxima for the canonical tasks. The research frontier has considerably shifted to the more challenging benchmarks including the Procgen generalization benchmarks of [Cobbe et al. 2020][research_cobbe_et_al_2020], the Meta-World multi-task benchmarks of [Yu et al. 2020][research_yu_et_al_2020], the bsuite behavior suite of [Osband et al. 2020][research_osband_et_al_2020] for characterizing agent behavior along the dimensions of memory, generalization, and exploration, the complex real-time strategy games as characterized in the OpenAI Five Dota 2 system of [OpenAI et al. 2019][research_berner_et_al_2019] and the AlphaStar StarCraft II system of [Vinyals et al. 2019][research_vinyals_et_al_2019], the NetHack learning environment of [Küttler et al. 2020][research_kuttler_et_al_2020] as a specifically-difficult exploration benchmark, and the open-ended learning environments including XLand of [Open-Ended Team 2021][research_openended_team_2021].
 
-Foundation models as characterized in [Bommasani et al 2021][research_bommasani_et_al_2021] have emerged as a new paradigm that significantly reshapes the research landscape. The findings including the scaling laws of [Kaplan et al 2020][research_kaplan_et_al_2020] and [Hoffmann et al 2022][research_hoffmann_et_al_2022], the in-context-learning phenomena of [Brown et al 2020][research_brown_et_al_2020], and the reinforcement-learning-from-human-feedback pipelines of [Ouyang et al 2022][research_ouyang_et_al_2022] have substantially reorganized the field's research agenda. The integration of foundation models with the classical reinforcement-learning framework remains an active and rapidly-moving research area.
+Foundation models as characterized in [Bommasani et al. 2021][research_bommasani_et_al_2021] have emerged as a new paradigm that significantly reshapes the research landscape. The findings including the scaling laws of [Kaplan et al. 2020][research_kaplan_et_al_2020] and [Hoffmann et al. 2022][research_hoffmann_et_al_2022], the in-context-learning phenomena of [Brown 2020][research_brown_et_al_2020], and the reinforcement-learning-from-human-feedback pipelines of [Ouyang et al. 2022][research_ouyang_et_al_2022] have substantially reorganized the field's research agenda. The integration of foundation models with the classical reinforcement-learning framework remains an active and rapidly-moving research area.
 
 Offline reinforcement learning has emerged as a practical framework for the deployment of reinforcement learning in the settings where online interaction is expensive or unsafe. The empirical performance of the canonical offline algorithms has been markedly characterized on the benchmark datasets, and the practical applications to healthcare, robotics, and recommendation systems have appreciably matured.
 
@@ -549,9 +549,9 @@ The consolidated empirical landscape provides the starting point from which the 
 
 The applications of experiential learning have significantly expanded across the corpus of settled-and-emerging deployment contexts.
 
-Established applications include the deployment of reinforcement learning in the domains of game playing (including chess, Go, poker as demonstrated in [Brown and Sandholm 2018][research_brown_sandholm_2018] Libratus and [Moravčík et al 2017][research_moravcik_et_al_2017] DeepStack, video games, and real-time strategy), recommendation systems, dialogue systems, robot control (including manipulation, locomotion, and navigation), datacenter cooling of [Lazic et al 2018][research_lazic_et_al_2018], chip design of [Mirhoseini et al 2021][research_mirhoseini_et_al_2021], and drug discovery. The empirical findings have substantially matured in these domains and continue to organize the practical research on their deployment.
+Established applications include the deployment of reinforcement learning in the domains of game playing (including chess, Go, poker as demonstrated in [Brown and Sandholm 2018][research_brown_sandholm_2018] Libratus and [Moravčík et al. 2017][research_moravcik_et_al_2017] DeepStack, video games, and real-time strategy), recommendation systems, dialogue systems, robot control (including manipulation, locomotion, and navigation), datacenter cooling of [Lazic et al. 2018][research_lazic_et_al_2018], chip design of [Mirhoseini et al. 2021][research_mirhoseini_et_al_2021], and drug discovery. The empirical findings have substantially matured in these domains and continue to organize the practical research on their deployment.
 
-Emerging applications include the deployment of reinforcement learning in the domains of autonomous driving, healthcare (including treatment recommendation, drug dosing, and adaptive clinical trials), education (including personalized instruction and adaptive testing), financial services (including trading, portfolio management, and fraud detection), and scientific discovery (including materials science, protein design as demonstrated in the AlphaFold protein-structure-prediction system of [Jumper et al 2021][research_jumper_et_al_2021], and mathematical proof discovery). The empirical findings continue to organize the practical research on the deployment challenges these domains present.
+Emerging applications include the deployment of reinforcement learning in the domains of autonomous driving, healthcare (including treatment recommendation, drug dosing, and adaptive clinical trials), education (including personalized instruction and adaptive testing), financial services (including trading, portfolio management, and fraud detection), and scientific discovery (including materials science, protein design as demonstrated in the AlphaFold protein-structure-prediction system of [Jumper et al. 2021][research_jumper_et_al_2021], and mathematical proof discovery). The empirical findings continue to organize the practical research on the deployment challenges these domains present.
 
 The bidirectional exchange with foundation models has produced a new family of applications including reinforcement learning from human feedback for language models, agentic-behavior systems, and multi-modal reasoning systems. The integration of the classical experiential-learning framework with the foundation-model framework continues to organize the research on the next generation of experiential-learning applications.
 
@@ -582,185 +582,193 @@ The readers of the series are encouraged to consult the individual survey articl
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Bellman 1957 Dynamic Programming][book_bellman_1957]
-- [Bertsekas and Tsitsiklis 1996 Neuro-Dynamic Programming][book_bertsekas_tsitsiklis_1996]
-- [Ebbinghaus 1885 Memory][book_ebbinghaus_1885]
-- [Howard 1960 Dynamic Programming and Markov Processes][book_howard_1960]
-- [Kahneman 2011 Thinking Fast and Slow][book_kahneman_2011]
-- [Pfeifer and Bongard 2007 How the Body Shapes the Way We Think][book_pfeifer_bongard_2007]
-- [Russell and Norvig 2020 Artificial Intelligence][book_russell_norvig_2020]
-- [Sutton and Barto 2018 Reinforcement Learning][book_sutton_barto_2018]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Auer, Peter, Nicolò Cesa-Bianchi, and Paul Fischer. 2002. "Finite-Time Analysis of the Multiarmed Bandit Problem." *Machine Learning* 47 (2–3): 235–56. [https://doi.org/10.1023/a:1013689704352][research_auer_cesa_bianchi_fischer_2002]
+- Crick, Francis. 1989. "The Recent Excitement about Neural Networks." *Nature* 337 (6203): 129–32. [https://doi.org/10.1038/337129a0][research_crick_1989]
+- Daw, Nathaniel D., Yael Niv, and Peter Dayan. 2005. "Uncertainty-Based Competition between Prefrontal and Dorsolateral Striatal Systems for Behavioral Control." *Nature Neuroscience* 8 (12): 1704–11. [https://doi.org/10.1038/nn1560][research_daw_niv_dayan_2005]
+- Foster, David J., and Matthew A. Wilson. 2006. "Reverse Replay of Behavioural Sequences in Hippocampal Place Cells during the Awake State." *Nature* 440 (7084): 680–83. [https://doi.org/10.1038/nature04587][research_foster_wilson_2006]
+- Friston, Karl. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11 (2): 127–38. [https://doi.org/10.1038/nrn2787][research_friston_2010]
+- Hafting, Torkel, Marianne Fyhn, Sturla Molden, May-Britt Moser, and Edvard I. Moser. 2005. "Microstructure of a Spatial Map in the Entorhinal Cortex." *Nature* 436 (7052): 801–6. [https://doi.org/10.1038/nature03721][research_hafting_et_al_2005]
+- Jumper, John, Richard Evans, Alexander Pritzel, et al. 2021. "Highly Accurate Protein Structure Prediction with AlphaFold." *Nature* 596 (7873): 583–89. [https://doi.org/10.1038/s41586-021-03819-2][research_jumper_et_al_2021]
+- Klyubin, A. S., D. Polani, and C. L. Nehaniv. 2005. "Empowerment: A Universal Agent-Centric Measure of Control." In *2005 IEEE Congress on Evolutionary Computation*, vol. 1. IEEE. [https://doi.org/10.1109/cec.2005.1554676][research_klyubin_polani_nehaniv_2005]
+- Kriegeskorte, Nikolaus, Mur, and Bandettini. 2008. "Representational Similarity Analysis – Connecting the Branches of Systems Neuroscience." *Frontiers in Systems Neuroscience*. [https://doi.org/10.3389/neuro.06.004.2008][research_kriegeskorte_mur_bandettini_2008]
+- Kumaran, Dharshan, Demis Hassabis, and James L. McClelland. 2016. "What Learning Systems Do Intelligent Agents Need? Complementary Learning Systems Theory Updated." *Trends in Cognitive Sciences* 20 (7): 512–34. [https://doi.org/10.1016/j.tics.2016.05.004][research_kumaran_mcclelland_hassabis_2016]
+- Lai, T. L., and Herbert Robbins. 1985. "Asymptotically Efficient Adaptive Allocation Rules." *Advances in Applied Mathematics* 6 (1): 4–22. [https://doi.org/10.1016/0196-8858(85)90002-8][research_lai_robbins_1985]
+- Lee, Dong-Hyun, Saizheng Zhang, Asja Fischer, and Yoshua Bengio. 2015. "Difference Target Propagation." In *Machine Learning and Knowledge Discovery in Databases*. Springer International Publishing. [https://doi.org/10.1007/978-3-319-23528-8\_31][research_lee_zhang_fischer_bengio_2015]
+- Lillicrap, Timothy P., Daniel Cownden, Douglas B. Tweed, and Colin J. Akerman. 2016. "Random Synaptic Feedback Weights Support Error Backpropagation for Deep Learning." *Nature Communications* 7 (1): 13276. [https://doi.org/10.1038/ncomms13276][research_lillicrap_et_al_2016]
+- Lillicrap, Timothy P., Adam Santoro, Luke Marris, Colin J. Akerman, and Geoffrey Hinton. 2020. "Backpropagation and the Brain." *Nature Reviews Neuroscience* 21 (6): 335–46. [https://doi.org/10.1038/s41583-020-0277-3][research_lillicrap_et_al_2020]
+- Lin, Long-Ji. 1992. "Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching." *Machine Learning* 8 (3–4): 293–321. [https://doi.org/10.1007/bf00992699][research_lin_1992]
+- Mirhoseini, Azalia, Anna Goldie, Mustafa Yazgan, et al. 2021. "A Graph Placement Methodology for Fast Chip Design." *Nature* 594 (7862): 207–12. [https://doi.org/10.1038/s41586-021-03544-w][research_mirhoseini_et_al_2021]
+- Mnih, Volodymyr, Koray Kavukcuoglu, David Silver, et al. 2015. "Human-Level Control through Deep Reinforcement Learning." *Nature* 518 (7540): 529–33. [https://doi.org/10.1038/nature14236][research_mnih_et_al_2015]
+- O'Keefe, J., and J. Dostrovsky. 1971. "The Hippocampus as a Spatial Map. Preliminary Evidence from Unit Activity in the Freely-Moving Rat." *Brain Research* 34 (1): 171–75. [https://doi.org/10.1016/0006-8993(71)90358-1][research_okeefe_dostrovsky_1971]
+- Pathak, Deepak, Pulkit Agrawal, Alexei A. Efros, and Trevor Darrell. 2017. "Curiosity-Driven Exploration by Self-Supervised Prediction." In *2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)*. IEEE. [https://doi.org/10.1109/cvprw.2017.70][research_pathak_et_al_2017]
+- Rao, Rajesh P. N., and Dana H. Ballard. 1999. "Predictive Coding in the Visual Cortex: A Functional Interpretation of Some Extra-Classical Receptive-Field Effects." *Nature Neuroscience* 2 (1): 79–87. [https://doi.org/10.1038/4580][research_rao_ballard_1999]
+- Schrimpf, Martin, Jonas Kubilius, Michael J. Lee, N. Apurva Ratan Murty, Robert Ajemian, and James J. DiCarlo. 2020. "Integrative Benchmarking to Advance Neurally Mechanistic Models of Human Intelligence." *Neuron* 108 (3): 413–23. [https://doi.org/10.1016/j.neuron.2020.07.040][research_schrimpf_et_al_2020]
+- Schrittwieser, Julian, Ioannis Antonoglou, Thomas Hubert, et al. 2020. "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model." *Nature* 588 (7839): 604–9. [https://doi.org/10.1038/s41586-020-03051-4][research_schrittwieser_et_al_2020]
+- Silver, David, Aja Huang, Chris J. Maddison, et al. 2016. "Mastering the Game of Go with Deep Neural Networks and Tree Search." *Nature* 529 (7587): 484–89. [https://doi.org/10.1038/nature16961][research_silver_et_al_2016]
+- Silver, David, Julian Schrittwieser, Karen Simonyan, et al. 2017. "Mastering the Game of Go without Human Knowledge." *Nature* 550 (7676): 354–59. [https://doi.org/10.1038/nature24270][research_silver_et_al_2017]
+- Silver, David, Satinder Singh, Doina Precup, and Richard S. Sutton. 2021. "Reward Is Enough." *Artificial Intelligence* 299: 103535. [https://doi.org/10.1016/j.artint.2021.103535][research_silver_et_al_2021]
+- Stachenfeld, Kimberly L., Matthew M. Botvinick, and Samuel J. Gershman. 2017. "The Hippocampus as a Predictive Map." *Nature Neuroscience* 20 (11): 1643–53. [https://doi.org/10.1038/nn.4650][research_stachenfeld_botvinick_gershman_2017]
+- Sutton, Richard S. 1988. "Learning to Predict by the Methods of Temporal Differences." *Machine Learning* 3 (1): 9–44. [https://doi.org/10.1007/bf00115009][research_sutton_1988]
+- Sutton, Richard S., Doina Precup, and Satinder Singh. 1999a. "Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning." *Artificial Intelligence* 112 (1–2): 181–211. [https://doi.org/10.1016/s0004-3702(99)00052-1][research_sutton_precup_singh_1999]
+- Todorov, Emanuel, Tom Erez, and Yuval Tassa. 2012. "MuJoCo: A Physics Engine for Model-Based Control." In *2012 IEEE/RSJ International Conference on Intelligent Robots and Systems*. IEEE. [https://doi.org/10.1109/iros.2012.6386109][research_todorov_erez_tassa_2012]
+- Vinyals, Oriol, Igor Babuschkin, Wojciech M. Czarnecki, et al. 2019. "Grandmaster Level in StarCraft II Using Multi-Agent Reinforcement Learning." *Nature* 575 (7782): 350–54. [https://doi.org/10.1038/s41586-019-1724-z][research_vinyals_et_al_2019]
+- Watkins, Christopher J. C. H., and Peter Dayan. 1992. "Q-Learning." *Machine Learning* 8 (3–4): 279–92. [https://doi.org/10.1007/bf00992698][research_watkins_dayan_1992]
+- Williams, Ronald J. 1992. "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning." *Machine Learning* 8 (3–4): 229–56. [https://doi.org/10.1007/bf00992696][research_williams_1992]
+- Zador, Anthony, Sean Escola, Blake Richards, et al. 2023. "Catalyzing Next-Generation Artificial Intelligence through NeuroAI." *Nature Communications* 14 (1): 1597. [https://doi.org/10.1038/s41467-023-37180-x][research_zador_et_al_2023]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stanford CS234][ref_stanford_cs234]
+### Primary Sources, Non-Peer-Reviewed
+
+- Abbeel, Pieter, and Andrew Y. Ng. 2004. "Apprenticeship Learning via Inverse Reinforcement Learning." In *Twenty-first international conference on Machine learning - ICML '04*. ACM Press. [https://doi.org/10.1145/1015330.1015430][research_abbeel_ng_2004]
+- Amodei, Dario, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and Dan Mané. 2016. "Concrete Problems in AI Safety." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1606.06565][research_amodei_et_al_2016]
+- Bacon, Pierre-Luc, Jean Harb, and Doina Precup. 2017. "The Option-Critic Architecture." *Proceedings of the AAAI Conference on Artificial Intelligence* 31 (1). [https://doi.org/10.1609/aaai.v31i1.10916][research_bacon_harb_precup_2017]
+- Bai, Yuntao, Saurav Kadavath, Sandipan Kundu, et al. 2022. "Constitutional AI: Harmlessness from AI Feedback." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2212.08073][research_bai_et_al_2022]
+- Baird, Leemon. 1995. "Residual Algorithms: Reinforcement Learning with Function Approximation." In *Machine Learning Proceedings 1995*. Elsevier. [https://doi.org/10.1016/b978-1-55860-377-6.50013-x][research_baird_1995]
+- Bellemare, Marc G., Will Dabney, and Rémi Munos. 2017. "A Distributional Perspective on Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/bellemare17a.html][research_bellemare_dabney_munos_2017]
+- Bellemare, M. G., Y. Naddaf, J. Veness, and M. Bowling. 2013. "The Arcade Learning Environment: An Evaluation Platform for General Agents." *Journal of Artificial Intelligence Research* 47: 253–79. [https://doi.org/10.1613/jair.3912][research_bellemare_et_al_2013]
+- Bellemare, Marc, iram Srinivasan Sr., Georg Ostrovski, Tom Schaul, David Saxton, and Remi Munos. 2016. "Unifying Count-Based Exploration and Intrinsic Motivation." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/afda332245e2af431fb7b672a68b659d-Abstract.html][research_bellemare_et_al_2016]
+- Bengio, Yoshua, Jérôme Louradour, Ronan Collobert, and Jason Weston. 2009. "Curriculum Learning." In *Proceedings of the 26th Annual International Conference on Machine Learning*. ACM. [https://doi.org/10.1145/1553374.1553380][research_bengio_et_al_2009]
+- Bommasani, Rishi, Drew A. Hudson, Ehsan Adeli, et al. 2021. "On the Opportunities and Risks of Foundation Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2108.07258][research_bommasani_et_al_2021]
+- Brown, Noam, and Tuomas Sandholm. 2018. "Superhuman AI for Heads-up No-Limit Poker: Libratus Beats Top Professionals." *Science* 359 (6374): 418–24. [https://doi.org/10.1126/science.aao1733][research_brown_sandholm_2018]
+- Casper, Stephen, Xander Davies, Claudia Shi, et al. 2023. "Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2307.15217][research_casper_et_al_2023]
+- Cepeda, Nicholas J., Edward Vul, Doug Rohrer, John T. Wixted, and Harold Pashler. 2008. "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention." *Psychological Science* 19 (11): 1095–1102. [https://doi.org/10.1111/j.1467-9280.2008.02209.x][research_cepeda_et_al_2008]
+- Chaudhry, Arslan, Marc'Aurelio Ranzato, Marcus Rohrbach, and Mohamed Elhoseiny. 2018. "Efficient Lifelong Learning with A-GEM." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1812.00420][research_chaudhry_et_al_2019]
+- Christiano, Paul F., Jan Leike, Tom Brown, Miljan Martic, Shane Legg, and Dario Amodei. 2017. "Deep Reinforcement Learning from Human Preferences." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html][research_christiano_et_al_2017]
+- Christiano, Paul, Buck Shlegeris, and Dario Amodei. 2018. "Supervising Strong Learners by Amplifying Weak Experts." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1810.08575][research_christiano_shlegeris_amodei_2018]
+- Cobbe, Karl, Chris Hesse, Jacob Hilton, and John Schulman. 2020. "Leveraging Procedural Generation to Benchmark Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v119/cobbe20a.html][research_cobbe_et_al_2020]
+- Dabney, Will, Georg Ostrovski, David Silver, and Remi Munos. 2018b. "Implicit Quantile Networks for Distributional Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/dabney18a.html][research_dabney_et_al_2018_iqn]
+- Dabney, Will, Mark Rowland, Marc Bellemare, and Rémi Munos. 2018a. "Distributional Reinforcement Learning with Quantile Regression." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11791][research_dabney_et_al_2018_qr_dqn]
+- Dayan, Peter, and Geoffrey E. Hinton. 1992. "Feudal Reinforcement Learning." *Advances in Neural Information Processing Systems* 5. [https://papers.nips.cc/paper/1992/hash/d14220ee66aeec73c49038385428ec4c-Abstract.html][research_dayan_hinton_1993]
+- Dietterich, T. G. 2000. "Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition." *Journal of Artificial Intelligence Research* 13: 227–303. [https://doi.org/10.1613/jair.639][research_dietterich_2000]
+- Duan, Yan, John Schulman, Xi Chen, Peter L. Bartlett, Ilya Sutskever, and Pieter Abbeel. 2016. "RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1611.02779][research_duan_et_al_2016]
+- Gao, Leo, John Schulman, and Jacob Hilton. 2023. "Scaling Laws for Reward Model Overoptimization." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v202/gao23h.html][research_gao_schulman_hilton_2023]
+- Ha, David, and Jürgen Schmidhuber. 2018. "Recurrent World Models Facilitate Policy Evolution." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/2de5d16682c3c35007e4e92982f1a2ba-Abstract.html][research_ha_schmidhuber_2018]
+- Haarnoja, Tuomas, Aurick Zhou, Pieter Abbeel, and Sergey Levine. 2018. "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/haarnoja18b.html][research_haarnoja_et_al_2018]
+- Hafner, Danijar, Timothy Lillicrap, Jimmy Ba, and Mohammad Norouzi. 2019. "Dream to Control: Learning Behaviors by Latent Imagination." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1912.01603][research_hafner_et_al_2020]
+- Hafner, Danijar, Jurgis Pasukonis, Jimmy Ba, and Timothy Lillicrap. 2023. "Mastering Diverse Domains through World Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2301.04104][research_hafner_et_al_2023]
+- Henderson, Peter, Riashat Islam, Philip Bachman, Joelle Pineau, Doina Precup, and David Meger. 2018. "Deep Reinforcement Learning That Matters." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11694][research_henderson_et_al_2018]
+- Hoffmann, Jordan, Sebastian Borgeaud, Arthur Mensch, et al. 2022. "Training Compute-Optimal Large Language Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2203.15556][research_hoffmann_et_al_2022]
+- Houthooft, Rein, Xi Chen, Xi Chen, et al. 2016. "VIME: Variational Information Maximizing Exploration." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2016/hash/abd815286ba1007abfbb8415b83ae2cf-Abstract.html][research_houthooft_et_al_2016]
+- Hubinger, Evan, Chris van Merwijk, Vladimir Mikulik, Joar Skalse, and Scott Garrabrant. 2019. "Risks from Learned Optimization in Advanced Machine Learning Systems." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1906.01820][research_hubinger_et_al_2019]
+- Irving, Geoffrey, Paul Christiano, and Dario Amodei. 2018. "AI Safety via Debate." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1805.00899][research_irving_christiano_amodei_2018]
+- Kahneman, Daniel, and Amos Tversky. 1979. "Prospect Theory: An Analysis of Decision under Risk." *Econometrica* 47 (2): 263. [https://doi.org/10.2307/1914185][research_kahneman_tversky_1979]
+- Kaplan, Jared, Sam McCandlish, Tom Henighan, et al. 2020. "Scaling Laws for Neural Language Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2001.08361][research_kaplan_et_al_2020]
+- Kemp, Charles, and Joshua B. Tenenbaum. 2008. "The Discovery of Structural Form." *Proceedings of the National Academy of Sciences* 105 (31): 10687–92. [https://doi.org/10.1073/pnas.0802631105][research_kemp_tenenbaum_2008]
+- Khaligh-Razavi, Seyed-Mahdi, and Nikolaus Kriegeskorte. 2014. "Deep Supervised, but Not Unsupervised, Models May Explain IT Cortical Representation." *PLoS Computational Biology* 10 (11): e1003915. [https://doi.org/10.1371/journal.pcbi.1003915][research_khaligh_razavi_kriegeskorte_2014]
+- Kirkpatrick, James, Razvan Pascanu, Neil Rabinowitz, et al. 2017. "Overcoming Catastrophic Forgetting in Neural Networks." *Proceedings of the National Academy of Sciences* 114 (13): 3521–26. [https://doi.org/10.1073/pnas.1611835114][research_kirkpatrick_et_al_2017]
+- Kostrikov, Ilya, Ashvin Nair, and Sergey Levine. 2021. "Offline Reinforcement Learning with Implicit Q-Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2110.06169][research_kostrikov_nair_levine_2022]
+- Kumar, Aviral, Aurick Zhou, George Tucker, and Sergey Levine. 2020. "Conservative Q-Learning for Offline Reinforcement Learning." *Advances in Neural Information Processing Systems* 33: 1179–91. [https://papers.nips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html][research_kumar_et_al_2020]
+- Küttler, Heinrich, Nantas Nardelli, Alexander Miller, et al. 2020. "The NetHack Learning Environment." *Advances in Neural Information Processing Systems* 33: 7671–84. [https://papers.nips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html][research_kuttler_et_al_2020]
+- Lazic, Nevena, Craig Boutilier, Tyler Lu, et al. 2018. "Data Center Cooling Using Model-Predictive Control." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/059fdcd96baeb75112f09fa1dcc740cc-Abstract.html][research_lazic_et_al_2018]
+- Lehman, Joel, and Kenneth O. Stanley. 2011. "Novelty Search and the Problem with Objectives." In *Genetic and Evolutionary Computation*. Springer New York. [https://doi.org/10.1007/978-1-4614-1770-5\_3][research_lehman_stanley_2011]
+- Levine, Sergey, Aviral Kumar, George Tucker, and Justin Fu. 2020. "Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2005.01643][research_levine_et_al_2020]
+- Lillicrap, Timothy P., Jonathan J. Hunt, Alexander Pritzel, et al. 2015. "Continuous Control with Deep Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1509.02971][research_lillicrap_et_al_2015]
+- Lopez-Paz, David, and Marc'Aurelio Ranzato. 2017. "Gradient Episodic Memory for Continual Learning." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/f87522788a2be2d171666752f97ddebb-Abstract.html][research_lopez_paz_ranzato_2017]
+- Manheim, David, and Scott Garrabrant. 2018. "Categorizing Variants of Goodhart's Law." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1803.04585][research_manheim_garrabrant_2018]
+- McClelland, James L., Bruce L. McNaughton, and Randall C. O'Reilly. 1995. "Why There Are Complementary Learning Systems in the Hippocampus and Neocortex: Insights from the Successes and Failures of Connectionist Models of Learning and Memory." *Psychological Review* 102 (3): 419–57. [https://doi.org/10.1037/0033-295x.102.3.419][research_mcclelland_mcnaughton_oreilly_1995]
+- Moravčík, Matej, Martin Schmid, Neil Burch, et al. 2017. "DeepStack: Expert-Level Artificial Intelligence in Heads-up No-Limit Poker." *Science* 356 (6337): 508–13. [https://doi.org/10.1126/science.aam6960][research_moravcik_et_al_2017]
+- Mouret, Jean-Baptiste, and Jeff Clune. 2015. "Illuminating Search Spaces by Mapping Elites." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1504.04909][research_mouret_clune_2015]
+- Ngo, Richard, Lawrence Chan, and Sören Mindermann. 2022. "The Alignment Problem from a Deep Learning Perspective." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2209.00626][research_ngo_chan_mindermann_2022]
+- Nosofsky, Robert M. 1986. "Attention, Similarity, and the Identification–categorization Relationship." *Journal of Experimental Psychology: General* 115 (1): 39–57. [https://doi.org/10.1037/0096-3445.115.1.39][research_nosofsky_1986]
+- Open-Ended Team. 2021. *XLand*. [https://scholar.google.com/scholar?q=XLand+Open-Ended+Team+2021][research_openended_team_2021]
+- OpenAI, Christopher Berner, Greg Brockman, et al. 2019. "Dota 2 with Large Scale Deep Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1912.06680][research_berner_et_al_2019]
+- Osband, Ian, Yotam Doron, Matteo Hessel, et al. 2020. "Behaviour Suite for Reinforcement Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=rygf-kSYwH][research_osband_et_al_2020]
+- Ouyang, Long, Jeffrey Wu, Xu Jiang, et al. 2022. "Training Language Models to Follow Instructions with Human Feedback." In *Advances in Neural Information Processing Systems 35*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/068431-2011][research_ouyang_et_al_2022]
+- Roediger, Henry L., and Jeffrey D. Karpicke. 2006. "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention." *Psychological Science* 17 (3): 249–55. [https://doi.org/10.1111/j.1467-9280.2006.01693.x][research_roediger_karpicke_2006]
+- Rosch, Eleanor. 1975. "Cognitive Representations of Semantic Categories." *Journal of Experimental Psychology: General* 104 (3): 192–233. [https://doi.org/10.1037/0096-3445.104.3.192][research_rosch_1975]
+- Roy and Duckett. 2022. *Reward is Enough Critique*. [https://scholar.google.com/scholar?q=Reward+is+Enough+Critique+Roy+Duckett+2022][research_roy_duckett_2022]
+- Rusu, Andrei A., Neil C. Rabinowitz, Guillaume Desjardins, et al. 2016. "Progressive Neural Networks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1606.04671][research_rusu_et_al_2016]
+- Salimans, Tim, Jonathan Ho, Xi Chen, Szymon Sidor, and Ilya Sutskever. 2017. "Evolution Strategies as a Scalable Alternative to Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1703.03864][research_salimans_et_al_2017]
+- Schulman, John, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. "Proximal Policy Optimization Algorithms." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1707.06347][research_schulman_et_al_2017]
+- Schultz, Wolfram, Peter Dayan, and P. Read Montague. 1997. "A Neural Substrate of Prediction and Reward." *Science* 275 (5306): 1593–99. [https://doi.org/10.1126/science.275.5306.1593][research_schultz_dayan_montague_1997]
+- Shin, Hanul, Jung Kwon Lee, Jaehong Kim, and Jiwon Kim. 2017. "Continual Learning with Deep Generative Replay." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/0efbe98067c6c73dba1250d2beaa81f9-Abstract.html][research_shin_et_al_2017]
+- Silver, David, Thomas Hubert, Julian Schrittwieser, et al. 2018. "A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play." *Science* 362 (6419): 1140–44. [https://doi.org/10.1126/science.aar6404][research_silver_et_al_2018]
+- Silver, David, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, and Martin Riedmiller. 2014. "Deterministic Policy Gradient Algorithms." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v32/silver14.html][research_silver_et_al_2014]
+- Stiennon, Nisan, Long Ouyang, Jeffrey Wu, et al. 2020. "Learning to Summarize with Human Feedback." *Advances in Neural Information Processing Systems* 33: 3008–21. [https://papers.nips.cc/paper/2020/hash/1f89885d556929e98d3ef9b86448f951-Abstract.html][research_stiennon_et_al_2020]
+- Strehl, Alexander L., Lihong Li, and Michael L. Littman. 2009. "Reinforcement Learning in Finite MDPs: PAC Analysis." *Journal of Machine Learning Research* 10: 2413–44. [https://jmlr.org/papers/v10/strehl09a.html][research_strehl_li_littman_2009]
+- Sutton, Richard S. 1991. "Dyna, an Integrated Architecture for Learning, Planning, and Reacting." *ACM SIGART Bulletin* 2 (4): 160–63. [https://doi.org/10.1145/122344.122377][research_sutton_1991]
+- Sutton, Richard S., David McAllester, Satinder Singh, and Yishay Mansour. 1999b. "Policy Gradient Methods for Reinforcement Learning with Function Approximation." *Advances in Neural Information Processing Systems* 12. [https://papers.nips.cc/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html][research_sutton_et_al_2000]
+- Tenenbaum, Joshua B., Charles Kemp, Thomas L. Griffiths, and Noah D. Goodman. 2011. "How to Grow a Mind: Statistics, Structure, and Abstraction." *Science* 331 (6022): 1279–85. [https://doi.org/10.1126/science.1192788][research_tenenbaum_et_al_2011]
+- Turner, Alex, Logan Smith, Rohin Shah, Andrew Critch, and Prasad Tadepalli. 2021. "Optimal Policies Tend to Seek Power." *Advances in Neural Information Processing Systems* 34: 23063–74. [https://papers.nips.cc/paper/2021/hash/c26820b8a4c1b3c2aa868d6d57e14a79-Abstract.html][research_turner_et_al_2021]
+- Van, Hasselt, Guez, and Silver. 2016. *Double DQN*. [https://scholar.google.com/scholar?q=Double+DQN+Van+Hasselt+Guez+2016][research_van_hasselt_guez_silver_2016]
+- van Hasselt, Hado, Yotam Doron, Florian Strub, Matteo Hessel, Nicolas Sonnerat, and Joseph Modayil. 2018. "Deep Reinforcement Learning and the Deadly Triad." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1812.02648][research_van_hasselt_et_al_2018]
+- Vezhnevets, Alexander Sasha, Simon Osindero, Tom Schaul, et al. 2017. "FeUdal Networks for Hierarchical Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/vezhnevets17a.html][research_vezhnevets_et_al_2017]
+- Wang, Jane X., Zeb Kurth-Nelson, Dhruva Tirumala, et al. 2016b. "Learning to Reinforcement Learn." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1611.05763][research_wang_et_al_2016]
+- Wang, Rui, Joel Lehman, Jeff Clune, and Kenneth O. Stanley. 2019. "Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1901.01753][research_wang_lehman_clune_stanley_2019]
+- Wang, Ziyu, Tom Schaul, Matteo Hessel, Hado Hasselt, Marc Lanctot, and Nando Freitas. 2016a. "Dueling Network Architectures for Deep Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v48/wangf16.html][research_wang_et_al_2016_dueling]
+- Wei, Jason, Yi Tay, Rishi Bommasani, et al. 2022b. "Emergent Abilities of Large Language Models." *Transactions on Machine Learning Research*. [https://openreview.net/forum?id=yzkSU5zdwD][research_wei_et_al_2022_emergent]
+- Wei, Jason, Xuezhi Wang, Dale Schuurmans, et al. 2022a. "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models." In *Advances in Neural Information Processing Systems 35*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/068431-1800][research_wei_et_al_2022_cot]
+- Weng, Juyang, James McClelland, Alex Pentland, et al. 2001. "Autonomous Mental Development by Robots and Animals." *Science* 291 (5504): 599–600. [https://doi.org/10.1126/science.291.5504.599][research_weng_et_al_2001]
+- Wilson, Matthew A., and Bruce L. McNaughton. 1994. "Reactivation of Hippocampal Ensemble Memories during Sleep." *Science* 265 (5172): 676–79. [https://doi.org/10.1126/science.8036517][research_wilson_mcnaughton_1994]
+- Yamins, Daniel L. K., Ha Hong, Charles F. Cadieu, Ethan A. Solomon, Darren Seibert, and James J. DiCarlo. 2014. "Performance-Optimized Hierarchical Models Predict Neural Responses in Higher Visual Cortex." *Proceedings of the National Academy of Sciences* 111 (23): 8619–24. [https://doi.org/10.1073/pnas.1403112111][research_yamins_et_al_2014]
+- Yu, Tianhe, Deirdre Quillen, Zhanpeng He, et al. 2020. "Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/yu20a.html][research_yu_et_al_2020]
+
+### Secondary Sources
+
+- Bellman. 1957. *Dynamic Programming Princeton Landmarks in Mathematics*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691146683/dynamic-programming][book_bellman_1957]
+- Bertsekas, Dimitri P., and Tsitsiklis. 1996. *Neuro-Dynamic Programming*. Athena Scientific. [http://www.athenasc.com/ndpbook.html][book_bertsekas_tsitsiklis_1996]
+- Ebbinghaus. 1885. *Memory*. [https://www.taylorfrancis.com/books/mono/10.4324/9781315802749/memory-hermann-ebbinghaus][book_ebbinghaus_1885]
+- Howard, Ronald Arthur. 1960. *Dynamic Programming and Markov Processes*. MIT Press. [https://mitpress.mit.edu/9780262080095/dynamic-programming-and-markov-processes/][book_howard_1960]
+- Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. Penguin Books, Limited. [https://us.macmillan.com/books/9780374533557/thinkingfastandslow][book_kahneman_2011]
+- Pfeifer, Rolf, and Bongard. 2007. *How the Body Shapes the Way We Think: A New View of Intelligence (Bradford Books)*. The MIT Press. [https://mitpress.mit.edu/9780262162395/how-the-body-shapes-the-way-we-think/][book_pfeifer_bongard_2007]
+- Russell, Stuart J., and Peter Norvig. 2020. *Artificial Intelligence: A Modern Approach*. Pearson Education, Limited. [https://aima.cs.berkeley.edu/][book_russell_norvig_2020]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- Brown. 2020. "GPT-3 In-Context Learning." [https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html][research_brown_et_al_2020]
+- Dayan. 1993. "Successor Representation." [https://direct.mit.edu/neco/article-abstract/5/4/613/5786][research_dayan_1993]
+- Deisenroth and Rasmussen. 2011. "PILCO." [https://dl.acm.org/doi/10.5555/3104482.3104541][research_deisenroth_rasmussen_2011]
+- Finn Abbeel Levine. 2017. "MAML." [https://proceedings.mlr.press/v70/finn17a.html][research_finn_abbeel_levine_2017]
+- Fujimoto Hoof Meger. 2018. "TD3." [https://proceedings.mlr.press/v80/fujimoto18a.html][research_fujimoto_hoof_meger_2018]
+- Fujimoto Meger Precup. 2019. "Batch-Constrained Q-Learning." [https://proceedings.mlr.press/v97/fujimoto19a.html][research_fujimoto_meger_precup_2019]
+- Ho and Ermon. 2016. "GAIL." [https://papers.nips.cc/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html][research_ho_ermon_2016]
+- Kakade. 2003. "Sample Complexity of RL." [https://homepages.inf.ed.ac.uk/csutton/publications/kakade-thesis.pdf][research_kakade_2003]
+- Krakovna. 2020. "Specification Gaming: The Flip Side of AI Ingenuity." *Google DeepMind*. Accessed October 25, 2026. [https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/][research_krakovna_et_al_2020]
+- Mnih. 2016. "A3C." [https://proceedings.mlr.press/v48/mniha16.html][research_mnih_et_al_2016]
+- Ng and Russell. 2000. "Inverse Reinforcement Learning." [https://ai.stanford.edu/~ang/papers/icml00-irl.pdf][research_ng_russell_2000]
+- O'Regan and Noë. 2001. "Sensorimotor Contingency." [https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/sensorimotor-account-of-vision-and-visual-consciousness/1B49A6F4EA76ECBD0938815EEE18C7DC][research_oregan_noe_2001]
+- Open Science Collaboration. 2015. "Reproducibility Project." [https://www.science.org/doi/10.1126/science.aac4716][research_osc_2015]
+- Rescorla and Wagner. 1972. "Classical Conditioning." [https://scholar.google.com/scholar?q=rescorla+wagner+1972+theory+pavlovian+conditioning][research_rescorla_wagner_1972]
+- Rummery and Niranjan. 1994. "SARSA." [https://www.researchgate.net/publication/2500611\_On-Line\_Q-Learning\_Using\_Connectionist\_Systems][research_rummery_niranjan_1994]
+- Schulman. 2015. "TRPO." [https://proceedings.mlr.press/v37/schulman15.html][research_schulman_et_al_2015]
+- Silver and Sutton. 2024. "Era of Experience." [https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf][research_silver_sutton_2024]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- Stanley and Miikkulainen. 2002. "NEAT." [https://direct.mit.edu/evco/article/10/2/99/1123][research_stanley_miikkulainen_2002]
+- Sutton. 2019. "The Bitter Lesson." [http://www.incompleteideas.net/IncIdeas/BitterLesson.html][research_sutton_2019_bitter_lesson]
+- Thompson. 1933. "Thompson Sampling." [https://www.jstor.org/stable/2332286][research_thompson_1933]
+- Van Seijen. 2009. "Expected SARSA." [https://ieeexplore.ieee.org/document/4927542][research_van_seijen_et_al_2009]
+- Watkins. 1989. "Q-Learning." [https://www.cs.rhul.ac.uk/~chrisw/new\_thesis.pdf][research_watkins_1989]
+- Whittington and Bogacz. 2017. "Predictive Coding as Biological Learning." [https://direct.mit.edu/neco/article-abstract/29/5/1229/8261][research_whittington_bogacz_2017]
+- Ziebart. 2008. "Maximum Entropy IRL." [https://cdn.aaai.org/AAAI/2008/AAAI08-227.pdf][research_ziebart_et_al_2008]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
-- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
-- [A252 Machines That Learn From Experience Reinforcement Learning Foundations][related_post_a252_rl_foundations]
-- [A253 Machines That Learn From Experience Deep Reinforcement Learning][related_post_a253_deep_rl]
-- [A254 Machines That Learn From Experience Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]
-- [A255 Machines That Learn From Experience Hierarchical Reinforcement Learning][related_post_a255_hierarchical]
-- [A256 Machines That Learn From Experience World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]
-- [A257 Machines That Learn From Experience Offline and Batch Reinforcement Learning][related_post_a257_offline]
-- [A258 Machines That Learn From Experience Meta-Learning and Online Adaptation][related_post_a258_meta_learning]
-- [A259 Machines That Learn From Experience Continual and Lifelong Learning][related_post_a259_continual]
-- [A260 Machines That Learn From Experience Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration]
-- [A261 Machines That Learn From Experience Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary]
-- [A262 Machines That Learn From Experience Embodied Cognition and Developmental Learning][related_post_a262_embodied]
-- [A263 Machines That Learn From Experience NeuroAI][related_post_a263_neuroai]
-- [A264 Machines That Learn From Experience Psychology of Learning][related_post_a264_psychology]
-
-### Research
-
-- [Abbeel and Ng 2004 Apprenticeship Learning][research_abbeel_ng_2004]
-- [Amodei et al 2016 Concrete Problems in AI Safety][research_amodei_et_al_2016]
-- [Auer Cesa-Bianchi Fischer 2002 UCB][research_auer_cesa_bianchi_fischer_2002]
-- [Bacon Harb Precup 2017 Option-Critic][research_bacon_harb_precup_2017]
-- [Bai et al 2022 Constitutional AI][research_bai_et_al_2022]
-- [Baird 1995 Residual Algorithms][research_baird_1995]
-- [Bellemare Dabney Munos 2017 Distributional RL][research_bellemare_dabney_munos_2017]
-- [Bellemare et al 2013 Arcade Learning Environment][research_bellemare_et_al_2013]
-- [Bellemare et al 2016 Pseudocount Exploration][research_bellemare_et_al_2016]
-- [Bengio et al 2009 Curriculum Learning][research_bengio_et_al_2009]
-- [Berner et al 2019 OpenAI Five Dota 2][research_berner_et_al_2019]
-- [Bommasani et al 2021 Foundation Models][research_bommasani_et_al_2021]
-- [Brown et al 2020 GPT-3 In-Context Learning][research_brown_et_al_2020]
-- [Brown and Sandholm 2018 Libratus Poker][research_brown_sandholm_2018]
-- [Casper et al 2023 Open Problems in RLHF][research_casper_et_al_2023]
-- [Cepeda et al 2008 Distributed Practice][research_cepeda_et_al_2008]
-- [Chaudhry et al 2019 Averaged Gradient Episodic Memory][research_chaudhry_et_al_2019]
-- [Christiano et al 2017 Preference Learning][research_christiano_et_al_2017]
-- [Christiano Shlegeris Amodei 2018 Iterated Amplification][research_christiano_shlegeris_amodei_2018]
-- [Cobbe et al 2020 Procgen Benchmark][research_cobbe_et_al_2020]
-- [Crick 1989 Recent Excitement About Neural Networks][research_crick_1989]
-- [Dabney et al 2018 Implicit Quantile Networks][research_dabney_et_al_2018_iqn]
-- [Dabney et al 2018 Quantile Regression DQN][research_dabney_et_al_2018_qr_dqn]
-- [Daw Niv Dayan 2005 Uncertainty Competition][research_daw_niv_dayan_2005]
-- [Dayan 1993 Successor Representation][research_dayan_1993]
-- [Dayan and Hinton 1993 Feudal Reinforcement Learning][research_dayan_hinton_1993]
-- [Deisenroth and Rasmussen 2011 PILCO][research_deisenroth_rasmussen_2011]
-- [Dietterich 2000 MAXQ][research_dietterich_2000]
-- [Duan et al 2016 RL Squared][research_duan_et_al_2016]
-- [Finn Abbeel Levine 2017 MAML][research_finn_abbeel_levine_2017]
-- [Foster and Wilson 2006 Reverse Replay][research_foster_wilson_2006]
-- [Friston 2010 Free Energy Principle][research_friston_2010]
-- [Fujimoto Hoof Meger 2018 TD3][research_fujimoto_hoof_meger_2018]
-- [Fujimoto Meger Precup 2019 Batch-Constrained Q-Learning][research_fujimoto_meger_precup_2019]
-- [Gao Schulman Hilton 2023 Reward Model Over-Optimization][research_gao_schulman_hilton_2023]
-- [Ha and Schmidhuber 2018 World Models][research_ha_schmidhuber_2018]
-- [Haarnoja et al 2018 Soft Actor-Critic][research_haarnoja_et_al_2018]
-- [Hafner et al 2020 Dreamer][research_hafner_et_al_2020]
-- [Hafner et al 2023 DreamerV3][research_hafner_et_al_2023]
-- [Hafting et al 2005 Grid Cells][research_hafting_et_al_2005]
-- [Henderson et al 2018 Deep RL That Matters][research_henderson_et_al_2018]
-- [Ho and Ermon 2016 GAIL][research_ho_ermon_2016]
-- [Hoffmann et al 2022 Chinchilla][research_hoffmann_et_al_2022]
-- [Houthooft et al 2016 VIME][research_houthooft_et_al_2016]
-- [Hubinger et al 2019 Risks From Learned Optimization][research_hubinger_et_al_2019]
-- [Irving Christiano Amodei 2018 AI Safety via Debate][research_irving_christiano_amodei_2018]
-- [Jumper et al 2021 AlphaFold][research_jumper_et_al_2021]
-- [Kahneman and Tversky 1979 Prospect Theory][research_kahneman_tversky_1979]
-- [Kakade 2003 Sample Complexity of RL][research_kakade_2003]
-- [Kaplan et al 2020 Scaling Laws][research_kaplan_et_al_2020]
-- [Kemp and Tenenbaum 2008 Structural Form][research_kemp_tenenbaum_2008]
-- [Khaligh-Razavi and Kriegeskorte 2014 Deep Networks IT Models][research_khaligh_razavi_kriegeskorte_2014]
-- [Kirkpatrick et al 2017 EWC][research_kirkpatrick_et_al_2017]
-- [Klyubin Polani Nehaniv 2005 Empowerment][research_klyubin_polani_nehaniv_2005]
-- [Kostrikov Nair Levine 2022 Implicit Q-Learning][research_kostrikov_nair_levine_2022]
-- [Krakovna et al 2020 Specification Gaming][research_krakovna_et_al_2020]
-- [Kriegeskorte Mur Bandettini 2008 Representational Similarity Analysis][research_kriegeskorte_mur_bandettini_2008]
-- [Kumar et al 2020 Conservative Q-Learning][research_kumar_et_al_2020]
-- [Kumaran McClelland Hassabis 2016 Complementary Learning Systems Update][research_kumaran_mcclelland_hassabis_2016]
-- [Küttler et al 2020 NetHack Learning Environment][research_kuttler_et_al_2020]
-- [Lai and Robbins 1985 Bandit Lower Bound][research_lai_robbins_1985]
-- [Lazic et al 2018 Data Center Cooling][research_lazic_et_al_2018]
-- [Lee Zhang Fischer Bengio 2015 Target Propagation][research_lee_zhang_fischer_bengio_2015]
-- [Lehman and Stanley 2011 Novelty Search][research_lehman_stanley_2011]
-- [Levine et al 2020 Offline RL Tutorial][research_levine_et_al_2020]
-- [Lillicrap et al 2015 DDPG][research_lillicrap_et_al_2015]
-- [Lillicrap et al 2016 Feedback Alignment][research_lillicrap_et_al_2016]
-- [Lillicrap et al 2020 Backpropagation and the Brain][research_lillicrap_et_al_2020]
-- [Lin 1992 Experience Replay][research_lin_1992]
-- [Lopez-Paz and Ranzato 2017 Gradient Episodic Memory][research_lopez_paz_ranzato_2017]
-- [Manheim and Garrabrant 2018 Goodhart's Law][research_manheim_garrabrant_2018]
-- [McClelland McNaughton O'Reilly 1995 Complementary Learning Systems][research_mcclelland_mcnaughton_oreilly_1995]
-- [Mirhoseini et al 2021 Chip Placement][research_mirhoseini_et_al_2021]
-- [Mnih et al 2015 Deep Q-Network][research_mnih_et_al_2015]
-- [Mnih et al 2016 A3C][research_mnih_et_al_2016]
-- [Moravčík et al 2017 DeepStack Poker][research_moravcik_et_al_2017]
-- [Mouret and Clune 2015 MAP-Elites][research_mouret_clune_2015]
-- [Ng and Russell 2000 Inverse Reinforcement Learning][research_ng_russell_2000]
-- [Ngo Chan Mindermann 2022 Alignment Problem][research_ngo_chan_mindermann_2022]
-- [Nosofsky 1986 Generalized Context Model][research_nosofsky_1986]
-- [O'Keefe and Dostrovsky 1971 Place Cells][research_okeefe_dostrovsky_1971]
-- [Open Science Collaboration 2015 Reproducibility Project][research_osc_2015]
-- [Open-Ended Team 2021 XLand][research_openended_team_2021]
-- [Osband et al 2020 Behaviour Suite bsuite][research_osband_et_al_2020]
-- [O'Regan and Noë 2001 Sensorimotor Contingency][research_oregan_noe_2001]
-- [Ouyang et al 2022 InstructGPT][research_ouyang_et_al_2022]
-- [Pathak et al 2017 Curiosity Driven Exploration][research_pathak_et_al_2017]
-- [Rao and Ballard 1999 Predictive Coding][research_rao_ballard_1999]
-- [Rescorla and Wagner 1972 Classical Conditioning][research_rescorla_wagner_1972]
-- [Roediger and Karpicke 2006 Test-Enhanced Learning][research_roediger_karpicke_2006]
-- [Rosch 1975 Prototype Theory][research_rosch_1975]
-- [Roy and Duckett 2022 Reward is Enough Critique][research_roy_duckett_2022]
-- [Rummery and Niranjan 1994 SARSA][research_rummery_niranjan_1994]
-- [Rusu et al 2016 Progressive Networks][research_rusu_et_al_2016]
-- [Salimans et al 2017 Evolutionary Strategies][research_salimans_et_al_2017]
-- [Schrimpf et al 2020 Brain-Score][research_schrimpf_et_al_2020]
-- [Schrittwieser et al 2020 MuZero][research_schrittwieser_et_al_2020]
-- [Schulman et al 2015 TRPO][research_schulman_et_al_2015]
-- [Schulman et al 2017 PPO][research_schulman_et_al_2017]
-- [Schultz Dayan Montague 1997 Reward Prediction Error][research_schultz_dayan_montague_1997]
-- [Shin et al 2017 Generative Replay][research_shin_et_al_2017]
-- [Silver et al 2014 Deterministic Policy Gradient][research_silver_et_al_2014]
-- [Silver et al 2016 AlphaGo][research_silver_et_al_2016]
-- [Silver et al 2017 AlphaZero][research_silver_et_al_2017]
-- [Silver et al 2018 AlphaZero Journal][research_silver_et_al_2018]
-- [Silver Singh Precup Sutton 2021 Reward Is Enough][research_silver_et_al_2021]
-- [Silver and Sutton 2024 Era of Experience][research_silver_sutton_2024]
-- [Stachenfeld Botvinick Gershman 2017 Grid Cells Successor Representation][research_stachenfeld_botvinick_gershman_2017]
-- [Stanley and Miikkulainen 2002 NEAT][research_stanley_miikkulainen_2002]
-- [Stiennon et al 2020 Learning to Summarize with Human Feedback][research_stiennon_et_al_2020]
-- [Strehl Li Littman 2009 PAC-MDP Analysis][research_strehl_li_littman_2009]
-- [Sutton 1988 Temporal-Difference Learning][research_sutton_1988]
-- [Sutton 1991 Dyna][research_sutton_1991]
-- [Sutton 2019 The Bitter Lesson][research_sutton_2019_bitter_lesson]
-- [Sutton McAllester Singh Mansour 2000 Policy Gradient Theorem][research_sutton_et_al_2000]
-- [Sutton Precup Singh 1999 Options][research_sutton_precup_singh_1999]
-- [Tenenbaum Kemp Griffiths Goodman 2011 How to Grow a Mind][research_tenenbaum_et_al_2011]
-- [Thompson 1933 Thompson Sampling][research_thompson_1933]
-- [Todorov Erez Tassa 2012 MuJoCo][research_todorov_erez_tassa_2012]
-- [Turner et al 2021 Optimal Policies Seek Power][research_turner_et_al_2021]
-- [Van Hasselt et al 2018 Deadly Triad Deep RL][research_van_hasselt_et_al_2018]
-- [Van Hasselt Guez Silver 2016 Double DQN][research_van_hasselt_guez_silver_2016]
-- [Van Seijen et al 2009 Expected SARSA][research_van_seijen_et_al_2009]
-- [Vezhnevets et al 2017 FeUdal Networks][research_vezhnevets_et_al_2017]
-- [Vinyals et al 2019 AlphaStar][research_vinyals_et_al_2019]
-- [Wang et al 2016 Meta Reinforcement Learning][research_wang_et_al_2016]
-- [Wang et al 2016 Dueling DQN][research_wang_et_al_2016_dueling]
-- [Wang Lehman Clune Stanley 2019 POET][research_wang_lehman_clune_stanley_2019]
-- [Watkins 1989 Q-Learning][research_watkins_1989]
-- [Watkins and Dayan 1992 Q-Learning Convergence][research_watkins_dayan_1992]
-- [Wei et al 2022 Chain-of-Thought Prompting][research_wei_et_al_2022_cot]
-- [Wei et al 2022 Emergent Abilities][research_wei_et_al_2022_emergent]
-- [Weng et al 2001 Developmental Robotics][research_weng_et_al_2001]
-- [Whittington and Bogacz 2017 Predictive Coding as Biological Learning][research_whittington_bogacz_2017]
-- [Williams 1992 REINFORCE][research_williams_1992]
-- [Wilson and McNaughton 1994 Hippocampal Replay][research_wilson_mcnaughton_1994]
-- [Yamins et al 2014 Ventral Stream Task Optimization][research_yamins_et_al_2014]
-- [Yu et al 2020 Meta-World][research_yu_et_al_2020]
-- [Zador et al 2023 Catalyzing NeuroAI][research_zador_et_al_2023]
-- [Ziebart et al 2008 Maximum Entropy IRL][research_ziebart_et_al_2008]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Bandits and Online Learning." *Brendan A R Sechter's Development Blog*, December 19. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/19/machines\_that\_learn\_from\_experience\_bandits\_and\_online\_learning.html][related_post_a251_bandits]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Reinforcement Learning Foundations." *Brendan A R Sechter's Development Blog*, December 20. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/20/machines\_that\_learn\_from\_experience\_reinforcement\_learning\_foundations.html][related_post_a252_rl_foundations]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Deep Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 21. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/21/machines\_that\_learn\_from\_experience\_deep\_reinforcement\_learning.html][related_post_a253_deep_rl]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Exploration, Intrinsic Motivation, and Curiosity." *Brendan A R Sechter's Development Blog*, December 22. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/22/machines\_that\_learn\_from\_experience\_exploration\_intrinsic\_motivation\_and\_curiosity.html][related_post_a254_exploration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Hierarchical Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 23. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/23/machines\_that\_learn\_from\_experience\_hierarchical\_reinforcement\_learning.html][related_post_a255_hierarchical]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: World Models and Predictive, Model-Based Adaptation." *Brendan A R Sechter's Development Blog*, December 24. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/24/machines\_that\_learn\_from\_experience\_world\_models\_and\_predictive\_model\_based\_adaptation.html][related_post_a256_world_models]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Offline and Batch Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 25. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/25/machines\_that\_learn\_from\_experience\_offline\_and\_batch\_reinforcement\_learning.html][related_post_a257_offline]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Meta-Learning and Online Adaptation." *Brendan A R Sechter's Development Blog*, December 26. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/26/machines\_that\_learn\_from\_experience\_meta\_learning\_and\_online\_adaptation.html][related_post_a258_meta_learning]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Continual and Lifelong Learning." *Brendan A R Sechter's Development Blog*, December 27. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/27/machines\_that\_learn\_from\_experience\_continual\_and\_lifelong\_learning.html][related_post_a259_continual]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Learning From Demonstration, Preference, and Other Agents." *Brendan A R Sechter's Development Blog*, December 28. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/28/machines\_that\_learn\_from\_experience\_learning\_from\_demonstration\_preference\_and\_other\_agents.html][related_post_a260_demonstration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Evolutionary and Open-Ended Adaptation." *Brendan A R Sechter's Development Blog*, December 29. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/29/machines\_that\_learn\_from\_experience\_evolutionary\_and\_open\_ended\_adaptation.html][related_post_a261_evolutionary]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Embodied Cognition and Developmental Learning." *Brendan A R Sechter's Development Blog*, December 30. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/30/machines\_that\_learn\_from\_experience\_embodied\_cognition\_and\_developmental\_learning.html][related_post_a262_embodied]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: NeuroAI, What Neuroscience and Machine Learning Took From Each Other." *Brendan A R Sechter's Development Blog*, December 31. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/31/machines\_that\_learn\_from\_experience\_neuroai.html][related_post_a263_neuroai]
+- Sechter, Brendan. 2026. "Machines That Learn From Experience: From Conditioning to Computation, the Psychology of Learning." *Brendan A R Sechter's Development Blog*, January 1. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2026/01/01/machines\_that\_learn\_from\_experience\_psychology\_of\_learning.html][related_post_a264_psychology]
 
 [book_bellman_1957]: https://press.princeton.edu/books/paperback/9780691146683/dynamic-programming
 [book_bertsekas_tsitsiklis_1996]: http://www.athenasc.com/ndpbook.html
@@ -790,143 +798,143 @@ The readers of the series are encouraged to consult the individual survey articl
 [related_post_a262_embodied]: {% post_url 2025-12-30-machines_that_learn_from_experience_embodied_cognition_and_developmental_learning %}
 [related_post_a263_neuroai]: {% post_url 2025-12-31-machines_that_learn_from_experience_neuroai %}
 [related_post_a264_psychology]: {% post_url 2026-01-01-machines_that_learn_from_experience_psychology_of_learning %}
-[research_abbeel_ng_2004]: https://dl.acm.org/doi/10.1145/1015330.1015430
-[research_amodei_et_al_2016]: https://arxiv.org/abs/1606.06565
-[research_auer_cesa_bianchi_fischer_2002]: https://link.springer.com/article/10.1023/A:1013689704352
-[research_bacon_harb_precup_2017]: https://ojs.aaai.org/index.php/AAAI/article/view/10916
-[research_bai_et_al_2022]: https://arxiv.org/abs/2212.08073
-[research_baird_1995]: https://www.sciencedirect.com/science/article/pii/B9781558603776500337
+[research_abbeel_ng_2004]: https://doi.org/10.1145/1015330.1015430
+[research_amodei_et_al_2016]: https://doi.org/10.48550/arxiv.1606.06565
+[research_auer_cesa_bianchi_fischer_2002]: https://doi.org/10.1023/a:1013689704352
+[research_bacon_harb_precup_2017]: https://doi.org/10.1609/aaai.v31i1.10916
+[research_bai_et_al_2022]: https://doi.org/10.48550/arxiv.2212.08073
+[research_baird_1995]: https://doi.org/10.1016/b978-1-55860-377-6.50013-x
 [research_bellemare_dabney_munos_2017]: https://proceedings.mlr.press/v70/bellemare17a.html
-[research_bellemare_et_al_2013]: https://www.jair.org/index.php/jair/article/view/10819
+[research_bellemare_et_al_2013]: https://doi.org/10.1613/jair.3912
 [research_bellemare_et_al_2016]: https://papers.nips.cc/paper/2016/hash/afda332245e2af431fb7b672a68b659d-Abstract.html
-[research_bengio_et_al_2009]: https://dl.acm.org/doi/10.1145/1553374.1553380
-[research_berner_et_al_2019]: https://arxiv.org/abs/1912.06680
-[research_bommasani_et_al_2021]: https://arxiv.org/abs/2108.07258
+[research_bengio_et_al_2009]: https://doi.org/10.1145/1553374.1553380
+[research_berner_et_al_2019]: https://doi.org/10.48550/arxiv.1912.06680
+[research_bommasani_et_al_2021]: https://doi.org/10.48550/arxiv.2108.07258
 [research_brown_et_al_2020]: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
-[research_brown_sandholm_2018]: https://www.science.org/doi/10.1126/science.aao1733
-[research_casper_et_al_2023]: https://arxiv.org/abs/2307.15217
-[research_cepeda_et_al_2008]: https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02209.x
-[research_chaudhry_et_al_2019]: https://arxiv.org/abs/1812.00420
+[research_brown_sandholm_2018]: https://doi.org/10.1126/science.aao1733
+[research_casper_et_al_2023]: https://doi.org/10.48550/arxiv.2307.15217
+[research_cepeda_et_al_2008]: https://doi.org/10.1111/j.1467-9280.2008.02209.x
+[research_chaudhry_et_al_2019]: https://doi.org/10.48550/arxiv.1812.00420
 [research_christiano_et_al_2017]: https://papers.nips.cc/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html
-[research_christiano_shlegeris_amodei_2018]: https://arxiv.org/abs/1810.08575
+[research_christiano_shlegeris_amodei_2018]: https://doi.org/10.48550/arxiv.1810.08575
 [research_cobbe_et_al_2020]: https://proceedings.mlr.press/v119/cobbe20a.html
-[research_crick_1989]: https://www.nature.com/articles/337129a0
+[research_crick_1989]: https://doi.org/10.1038/337129a0
 [research_dabney_et_al_2018_iqn]: https://proceedings.mlr.press/v80/dabney18a.html
-[research_dabney_et_al_2018_qr_dqn]: https://ojs.aaai.org/index.php/AAAI/article/view/11791
-[research_daw_niv_dayan_2005]: https://www.nature.com/articles/nn1560
+[research_dabney_et_al_2018_qr_dqn]: https://doi.org/10.1609/aaai.v32i1.11791
+[research_daw_niv_dayan_2005]: https://doi.org/10.1038/nn1560
 [research_dayan_1993]: https://direct.mit.edu/neco/article-abstract/5/4/613/5786
 [research_dayan_hinton_1993]: https://papers.nips.cc/paper/1992/hash/d14220ee66aeec73c49038385428ec4c-Abstract.html
 [research_deisenroth_rasmussen_2011]: https://dl.acm.org/doi/10.5555/3104482.3104541
-[research_dietterich_2000]: https://www.jair.org/index.php/jair/article/view/10266
-[research_duan_et_al_2016]: https://arxiv.org/abs/1611.02779
+[research_dietterich_2000]: https://doi.org/10.1613/jair.639
+[research_duan_et_al_2016]: https://doi.org/10.48550/arxiv.1611.02779
 [research_finn_abbeel_levine_2017]: https://proceedings.mlr.press/v70/finn17a.html
-[research_foster_wilson_2006]: https://www.nature.com/articles/nature04587
-[research_friston_2010]: https://www.nature.com/articles/nrn2787
+[research_foster_wilson_2006]: https://doi.org/10.1038/nature04587
+[research_friston_2010]: https://doi.org/10.1038/nrn2787
 [research_fujimoto_hoof_meger_2018]: https://proceedings.mlr.press/v80/fujimoto18a.html
 [research_fujimoto_meger_precup_2019]: https://proceedings.mlr.press/v97/fujimoto19a.html
 [research_gao_schulman_hilton_2023]: https://proceedings.mlr.press/v202/gao23h.html
 [research_ha_schmidhuber_2018]: https://papers.nips.cc/paper/2018/hash/2de5d16682c3c35007e4e92982f1a2ba-Abstract.html
 [research_haarnoja_et_al_2018]: https://proceedings.mlr.press/v80/haarnoja18b.html
-[research_hafner_et_al_2020]: https://arxiv.org/abs/1912.01603
-[research_hafner_et_al_2023]: https://arxiv.org/abs/2301.04104
-[research_hafting_et_al_2005]: https://www.nature.com/articles/nature03721
-[research_henderson_et_al_2018]: https://ojs.aaai.org/index.php/AAAI/article/view/11694
+[research_hafner_et_al_2020]: https://doi.org/10.48550/arxiv.1912.01603
+[research_hafner_et_al_2023]: https://doi.org/10.48550/arxiv.2301.04104
+[research_hafting_et_al_2005]: https://doi.org/10.1038/nature03721
+[research_henderson_et_al_2018]: https://doi.org/10.1609/aaai.v32i1.11694
 [research_ho_ermon_2016]: https://papers.nips.cc/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html
-[research_hoffmann_et_al_2022]: https://arxiv.org/abs/2203.15556
-[research_houthooft_et_al_2016]: https://papers.nips.cc/paper/2016/hash/abd815286ba1007abfbb8415b83ae2cf-Abstract.html
-[research_hubinger_et_al_2019]: https://arxiv.org/abs/1906.01820
-[research_irving_christiano_amodei_2018]: https://arxiv.org/abs/1805.00899
-[research_jumper_et_al_2021]: https://www.nature.com/articles/s41586-021-03819-2
-[research_kahneman_tversky_1979]: https://www.jstor.org/stable/1914185
+[research_hoffmann_et_al_2022]: https://doi.org/10.48550/arxiv.2203.15556
+[research_houthooft_et_al_2016]: https://papers.nips.cc/paper_files/paper/2016/hash/abd815286ba1007abfbb8415b83ae2cf-Abstract.html
+[research_hubinger_et_al_2019]: https://doi.org/10.48550/arxiv.1906.01820
+[research_irving_christiano_amodei_2018]: https://doi.org/10.48550/arxiv.1805.00899
+[research_jumper_et_al_2021]: https://doi.org/10.1038/s41586-021-03819-2
+[research_kahneman_tversky_1979]: https://doi.org/10.2307/1914185
 [research_kakade_2003]: https://homepages.inf.ed.ac.uk/csutton/publications/kakade-thesis.pdf
-[research_kaplan_et_al_2020]: https://arxiv.org/abs/2001.08361
-[research_kemp_tenenbaum_2008]: https://www.pnas.org/doi/10.1073/pnas.0802631105
-[research_khaligh_razavi_kriegeskorte_2014]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003915
-[research_kirkpatrick_et_al_2017]: https://www.pnas.org/doi/10.1073/pnas.1611835114
-[research_klyubin_polani_nehaniv_2005]: https://ieeexplore.ieee.org/document/1554676
-[research_kostrikov_nair_levine_2022]: https://arxiv.org/abs/2110.06169
+[research_kaplan_et_al_2020]: https://doi.org/10.48550/arxiv.2001.08361
+[research_kemp_tenenbaum_2008]: https://doi.org/10.1073/pnas.0802631105
+[research_khaligh_razavi_kriegeskorte_2014]: https://doi.org/10.1371/journal.pcbi.1003915
+[research_kirkpatrick_et_al_2017]: https://doi.org/10.1073/pnas.1611835114
+[research_klyubin_polani_nehaniv_2005]: https://doi.org/10.1109/cec.2005.1554676
+[research_kostrikov_nair_levine_2022]: https://doi.org/10.48550/arxiv.2110.06169
 [research_krakovna_et_al_2020]: https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/
-[research_kriegeskorte_mur_bandettini_2008]: https://www.frontiersin.org/articles/10.3389/neuro.06.004.2008/full
+[research_kriegeskorte_mur_bandettini_2008]: https://doi.org/10.3389/neuro.06.004.2008
 [research_kumar_et_al_2020]: https://papers.nips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html
-[research_kumaran_mcclelland_hassabis_2016]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16)30043-2
+[research_kumaran_mcclelland_hassabis_2016]: https://doi.org/10.1016/j.tics.2016.05.004
 [research_kuttler_et_al_2020]: https://papers.nips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html
-[research_lai_robbins_1985]: https://www.sciencedirect.com/science/article/pii/0196885885900028
+[research_lai_robbins_1985]: https://doi.org/10.1016/0196-8858(85)90002-8
 [research_lazic_et_al_2018]: https://papers.nips.cc/paper/2018/hash/059fdcd96baeb75112f09fa1dcc740cc-Abstract.html
-[research_lee_zhang_fischer_bengio_2015]: https://link.springer.com/chapter/10.1007/978-3-319-23528-8_31
-[research_lehman_stanley_2011]: https://direct.mit.edu/evco/article-abstract/19/2/189/1365
-[research_levine_et_al_2020]: https://arxiv.org/abs/2005.01643
-[research_lillicrap_et_al_2015]: https://arxiv.org/abs/1509.02971
-[research_lillicrap_et_al_2016]: https://www.nature.com/articles/ncomms13276
-[research_lillicrap_et_al_2020]: https://www.nature.com/articles/s41583-020-0277-3
-[research_lin_1992]: https://link.springer.com/article/10.1007/BF00992699
+[research_lee_zhang_fischer_bengio_2015]: https://doi.org/10.1007/978-3-319-23528-8_31
+[research_lehman_stanley_2011]: https://doi.org/10.1007/978-1-4614-1770-5_3
+[research_levine_et_al_2020]: https://doi.org/10.48550/arxiv.2005.01643
+[research_lillicrap_et_al_2015]: https://doi.org/10.48550/arxiv.1509.02971
+[research_lillicrap_et_al_2016]: https://doi.org/10.1038/ncomms13276
+[research_lillicrap_et_al_2020]: https://doi.org/10.1038/s41583-020-0277-3
+[research_lin_1992]: https://doi.org/10.1007/bf00992699
 [research_lopez_paz_ranzato_2017]: https://papers.nips.cc/paper/2017/hash/f87522788a2be2d171666752f97ddebb-Abstract.html
-[research_manheim_garrabrant_2018]: https://arxiv.org/abs/1803.04585
-[research_mcclelland_mcnaughton_oreilly_1995]: https://psycnet.apa.org/doi/10.1037/0033-295X.102.3.419
-[research_mirhoseini_et_al_2021]: https://www.nature.com/articles/s41586-021-03544-w
-[research_mnih_et_al_2015]: https://www.nature.com/articles/nature14236
+[research_manheim_garrabrant_2018]: https://doi.org/10.48550/arxiv.1803.04585
+[research_mcclelland_mcnaughton_oreilly_1995]: https://doi.org/10.1037/0033-295x.102.3.419
+[research_mirhoseini_et_al_2021]: https://doi.org/10.1038/s41586-021-03544-w
+[research_mnih_et_al_2015]: https://doi.org/10.1038/nature14236
 [research_mnih_et_al_2016]: https://proceedings.mlr.press/v48/mniha16.html
-[research_moravcik_et_al_2017]: https://www.science.org/doi/10.1126/science.aam6960
-[research_mouret_clune_2015]: https://arxiv.org/abs/1504.04909
+[research_moravcik_et_al_2017]: https://doi.org/10.1126/science.aam6960
+[research_mouret_clune_2015]: https://doi.org/10.48550/arxiv.1504.04909
 [research_ng_russell_2000]: https://ai.stanford.edu/~ang/papers/icml00-irl.pdf
-[research_ngo_chan_mindermann_2022]: https://arxiv.org/abs/2209.00626
-[research_nosofsky_1986]: https://psycnet.apa.org/doi/10.1037/0096-3445.115.1.39
-[research_okeefe_dostrovsky_1971]: https://www.sciencedirect.com/science/article/pii/0006899371903581
-[research_openended_team_2021]: https://arxiv.org/abs/2107.12808
+[research_ngo_chan_mindermann_2022]: https://doi.org/10.48550/arxiv.2209.00626
+[research_nosofsky_1986]: https://doi.org/10.1037/0096-3445.115.1.39
+[research_okeefe_dostrovsky_1971]: https://doi.org/10.1016/0006-8993(71)90358-1
+[research_openended_team_2021]: https://scholar.google.com/scholar?q=XLand+Open-Ended+Team+2021
 [research_oregan_noe_2001]: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/sensorimotor-account-of-vision-and-visual-consciousness/1B49A6F4EA76ECBD0938815EEE18C7DC
 [research_osband_et_al_2020]: https://openreview.net/forum?id=rygf-kSYwH
 [research_osc_2015]: https://www.science.org/doi/10.1126/science.aac4716
-[research_ouyang_et_al_2022]: https://papers.nips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html
-[research_pathak_et_al_2017]: https://proceedings.mlr.press/v70/pathak17a.html
-[research_rao_ballard_1999]: https://www.nature.com/articles/nn0199_79
+[research_ouyang_et_al_2022]: https://doi.org/10.52202/068431-2011
+[research_pathak_et_al_2017]: https://doi.org/10.1109/cvprw.2017.70
+[research_rao_ballard_1999]: https://doi.org/10.1038/4580
 [research_rescorla_wagner_1972]: https://scholar.google.com/scholar?q=rescorla+wagner+1972+theory+pavlovian+conditioning
-[research_roediger_karpicke_2006]: https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x
-[research_rosch_1975]: https://psycnet.apa.org/doi/10.1037/0096-3445.104.3.192
-[research_roy_duckett_2022]: https://arxiv.org/abs/2103.03356
+[research_roediger_karpicke_2006]: https://doi.org/10.1111/j.1467-9280.2006.01693.x
+[research_rosch_1975]: https://doi.org/10.1037/0096-3445.104.3.192
+[research_roy_duckett_2022]: https://scholar.google.com/scholar?q=Reward+is+Enough+Critique+Roy+Duckett+2022
 [research_rummery_niranjan_1994]: https://www.researchgate.net/publication/2500611_On-Line_Q-Learning_Using_Connectionist_Systems
-[research_rusu_et_al_2016]: https://arxiv.org/abs/1606.04671
-[research_salimans_et_al_2017]: https://arxiv.org/abs/1703.03864
-[research_schrimpf_et_al_2020]: https://www.cell.com/neuron/fulltext/S0896-6273(20)30605-X
-[research_schrittwieser_et_al_2020]: https://www.nature.com/articles/s41586-020-03051-4
+[research_rusu_et_al_2016]: https://doi.org/10.48550/arxiv.1606.04671
+[research_salimans_et_al_2017]: https://doi.org/10.48550/arxiv.1703.03864
+[research_schrimpf_et_al_2020]: https://doi.org/10.1016/j.neuron.2020.07.040
+[research_schrittwieser_et_al_2020]: https://doi.org/10.1038/s41586-020-03051-4
 [research_schulman_et_al_2015]: https://proceedings.mlr.press/v37/schulman15.html
-[research_schulman_et_al_2017]: https://arxiv.org/abs/1707.06347
-[research_schultz_dayan_montague_1997]: https://www.science.org/doi/10.1126/science.275.5306.1593
+[research_schulman_et_al_2017]: https://doi.org/10.48550/arxiv.1707.06347
+[research_schultz_dayan_montague_1997]: https://doi.org/10.1126/science.275.5306.1593
 [research_shin_et_al_2017]: https://papers.nips.cc/paper/2017/hash/0efbe98067c6c73dba1250d2beaa81f9-Abstract.html
 [research_silver_et_al_2014]: https://proceedings.mlr.press/v32/silver14.html
-[research_silver_et_al_2016]: https://www.nature.com/articles/nature16961
-[research_silver_et_al_2017]: https://www.nature.com/articles/nature24270
-[research_silver_et_al_2018]: https://www.science.org/doi/10.1126/science.aar6404
-[research_silver_et_al_2021]: https://www.sciencedirect.com/science/article/pii/S0004370221000862
+[research_silver_et_al_2016]: https://doi.org/10.1038/nature16961
+[research_silver_et_al_2017]: https://doi.org/10.1038/nature24270
+[research_silver_et_al_2018]: https://doi.org/10.1126/science.aar6404
+[research_silver_et_al_2021]: https://doi.org/10.1016/j.artint.2021.103535
 [research_silver_sutton_2024]: https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf
-[research_stachenfeld_botvinick_gershman_2017]: https://www.nature.com/articles/nn.4650
+[research_stachenfeld_botvinick_gershman_2017]: https://doi.org/10.1038/nn.4650
 [research_stanley_miikkulainen_2002]: https://direct.mit.edu/evco/article/10/2/99/1123
 [research_stiennon_et_al_2020]: https://papers.nips.cc/paper/2020/hash/1f89885d556929e98d3ef9b86448f951-Abstract.html
 [research_strehl_li_littman_2009]: https://jmlr.org/papers/v10/strehl09a.html
-[research_sutton_1988]: https://link.springer.com/article/10.1007/BF00115009
-[research_sutton_1991]: https://dl.acm.org/doi/10.1145/122344.122377
+[research_sutton_1988]: https://doi.org/10.1007/bf00115009
+[research_sutton_1991]: https://doi.org/10.1145/122344.122377
 [research_sutton_2019_bitter_lesson]: http://www.incompleteideas.net/IncIdeas/BitterLesson.html
 [research_sutton_et_al_2000]: https://papers.nips.cc/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html
-[research_sutton_precup_singh_1999]: https://www.sciencedirect.com/science/article/pii/S0004370299000521
-[research_tenenbaum_et_al_2011]: https://www.science.org/doi/10.1126/science.1192788
+[research_sutton_precup_singh_1999]: https://doi.org/10.1016/s0004-3702(99)00052-1
+[research_tenenbaum_et_al_2011]: https://doi.org/10.1126/science.1192788
 [research_thompson_1933]: https://www.jstor.org/stable/2332286
-[research_todorov_erez_tassa_2012]: https://ieeexplore.ieee.org/document/6386109
+[research_todorov_erez_tassa_2012]: https://doi.org/10.1109/iros.2012.6386109
 [research_turner_et_al_2021]: https://papers.nips.cc/paper/2021/hash/c26820b8a4c1b3c2aa868d6d57e14a79-Abstract.html
-[research_van_hasselt_et_al_2018]: https://arxiv.org/abs/1812.02648
-[research_van_hasselt_guez_silver_2016]: https://ojs.aaai.org/index.php/AAAI/article/view/10295
+[research_van_hasselt_et_al_2018]: https://doi.org/10.48550/arxiv.1812.02648
+[research_van_hasselt_guez_silver_2016]: https://scholar.google.com/scholar?q=Double+DQN+Van+Hasselt+Guez+2016
 [research_van_seijen_et_al_2009]: https://ieeexplore.ieee.org/document/4927542
 [research_vezhnevets_et_al_2017]: https://proceedings.mlr.press/v70/vezhnevets17a.html
-[research_vinyals_et_al_2019]: https://www.nature.com/articles/s41586-019-1724-z
-[research_wang_et_al_2016]: https://arxiv.org/abs/1611.05763
+[research_vinyals_et_al_2019]: https://doi.org/10.1038/s41586-019-1724-z
+[research_wang_et_al_2016]: https://doi.org/10.48550/arxiv.1611.05763
 [research_wang_et_al_2016_dueling]: https://proceedings.mlr.press/v48/wangf16.html
-[research_wang_lehman_clune_stanley_2019]: https://arxiv.org/abs/1901.01753
+[research_wang_lehman_clune_stanley_2019]: https://doi.org/10.48550/arxiv.1901.01753
 [research_watkins_1989]: https://www.cs.rhul.ac.uk/~chrisw/new_thesis.pdf
-[research_watkins_dayan_1992]: https://link.springer.com/article/10.1007/BF00992698
-[research_wei_et_al_2022_cot]: https://papers.nips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
+[research_watkins_dayan_1992]: https://doi.org/10.1007/bf00992698
+[research_wei_et_al_2022_cot]: https://doi.org/10.52202/068431-1800
 [research_wei_et_al_2022_emergent]: https://openreview.net/forum?id=yzkSU5zdwD
-[research_weng_et_al_2001]: https://www.science.org/doi/10.1126/science.291.5504.599
+[research_weng_et_al_2001]: https://doi.org/10.1126/science.291.5504.599
 [research_whittington_bogacz_2017]: https://direct.mit.edu/neco/article-abstract/29/5/1229/8261
-[research_williams_1992]: https://link.springer.com/article/10.1007/BF00992696
-[research_wilson_mcnaughton_1994]: https://www.science.org/doi/10.1126/science.8036517
-[research_yamins_et_al_2014]: https://www.pnas.org/doi/10.1073/pnas.1403112111
+[research_williams_1992]: https://doi.org/10.1007/bf00992696
+[research_wilson_mcnaughton_1994]: https://doi.org/10.1126/science.8036517
+[research_yamins_et_al_2014]: https://doi.org/10.1073/pnas.1403112111
 [research_yu_et_al_2020]: https://proceedings.mlr.press/v100/yu20a.html
-[research_zador_et_al_2023]: https://www.nature.com/articles/s41467-023-37180-x
+[research_zador_et_al_2023]: https://doi.org/10.1038/s41467-023-37180-x
 [research_ziebart_et_al_2008]: https://cdn.aaai.org/AAAI/2008/AAAI08-227.pdf

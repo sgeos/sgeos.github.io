@@ -57,7 +57,7 @@ Visual system technology developed in parallel with computational technology. Ea
 
 Flight simulation for pilot training addresses the human element of the aviation system. Hardware-in-the-loop testing addresses the equipment element by substituting simulated environments for physical flight conditions during aircraft development and integration. In a hardware-in-the-loop configuration, actual flight-hardware components are connected to a simulation of the surrounding environment that would exercise them in flight. Sensors receive simulated inputs. Actuators drive simulated loads. Computers execute their actual flight software against a simulated aircraft dynamics model rather than a real aircraft.
 
-The value of hardware-in-the-loop testing is that it exercises the actual flight equipment under repeatable conditions that flight test cannot economically or safely provide. Fault conditions that occur once per million operating hours in flight can be induced deliberately in the laboratory. Edge cases in the flight envelope can be exercised without risk to aircraft or crew. Software changes can be validated against exhaustive input sequences before flight test approval. The economics of hardware-in-the-loop testing favor its use for every flight software change on modern aerospace platforms, with flight test reserved for cases where the physical aerodynamics or engine behavior cannot be adequately simulated. The engineering methodology for hardware-in-the-loop testing as a general control-system development technique is treated in [Isermann Schaffnit Sinsel 1999][research_isermann_schaffnit_sinsel_1999] in Control Engineering Practice, focused on engine-control applications but with methodology transferable to essentially all closed-loop control validation.
+The value of hardware-in-the-loop testing is that it exercises the actual flight equipment under repeatable conditions that flight test cannot economically or safely provide. Fault conditions that occur once per million operating hours in flight can be induced deliberately in the laboratory. Edge cases in the flight envelope can be exercised without risk to aircraft or crew. Software changes can be validated against exhaustive input sequences before flight test approval. The economics of hardware-in-the-loop testing favor its use for every flight software change on modern aerospace platforms, with flight test reserved for cases where the physical aerodynamics or engine behavior cannot be adequately simulated. The engineering methodology for hardware-in-the-loop testing as a general control-system development technique is treated in [Isermann et al. 1999][research_isermann_schaffnit_sinsel_1999] in Control Engineering Practice, focused on engine-control applications but with methodology transferable to essentially all closed-loop control validation.
 
 The hardware-in-the-loop configuration imposes strict real-time constraints on the simulation. The simulated dynamics must be updated at rates matching or exceeding the actual sensor and actuator bandwidths, typically hundreds to thousands of Hertz. The Nyquist-Shannon sampling theorem sets a lower bound on the simulation update rate as
 
@@ -103,7 +103,7 @@ $$|t_i - t_j| \le \epsilon_{\text{sync}}$$
 
 for all site pairs $(i, j)$, with $\epsilon_{\text{sync}}$ typically 10 to 100 milliseconds for training exercises and one millisecond or less for engineering evaluation exercises that use the simulation output for control-system analysis.
 
-The SIMNET protocols were standardized as the Distributed Interactive Simulation hereafter DIS standard, published as IEEE 1278 in 1993, and later evolved into the High Level Architecture hereafter HLA standard, published as IEEE 1516 in 2000. The design and initial deployment of HLA is documented in [Dahmann Fujimoto Weatherly 1997][research_dahmann_fujimoto_weatherly_1997] published at the Winter Simulation Conference, the standard primary source on the Department of Defense HLA program. Both standards remain in operational use for defense and civilian distributed simulation, with HLA more common for engineering simulation and DIS more common for legacy training applications. The Simulation Interoperability Standards Organization hereafter SISO maintains both standards and coordinates their continued development.
+The SIMNET protocols were standardized as the Distributed Interactive Simulation hereafter DIS standard, published as IEEE 1278 in 1993, and later evolved into the High Level Architecture hereafter HLA standard, published as IEEE 1516 in 2000. The design and initial deployment of HLA is documented in [Dahmann et al. 1997][research_dahmann_fujimoto_weatherly_1997] published at the Winter Simulation Conference, the standard primary source on the Department of Defense HLA program. Both standards remain in operational use for defense and civilian distributed simulation, with HLA more common for engineering simulation and DIS more common for legacy training applications. The Simulation Interoperability Standards Organization hereafter SISO maintains both standards and coordinates their continued development.
 
 Contemporary distributed simulation integrates flight simulators, ground-combat simulators, command-and-control workstations, and physics-based environment simulators into unified exercises that can span dozens of physical sites and thousands of participating entities. The Live Virtual Constructive framework combines three participant classes into single training or engineering exercises. Live participants are actual aircraft and personnel in the field. Virtual participants are humans operating simulators. Constructive participants are fully computer-generated forces. The engineering requirements of latency management, coordinate reconciliation, and time synchronization across the distributed exercise draw substantially on the SAGE-era distributed computing tradition treated in [A240][related_post_a240_early_cold_war_sage].
 
@@ -131,53 +131,55 @@ The next article in the series treats the Apollo Guidance Computer as the most-s
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Etkin 1996][book_etkin_dynamics_of_flight]
-- [Kelly 1970][book_kelly_pilot_maker]
-- [Kopetz 2011][book_kopetz_real_time_systems]
-- [Rolfe and Staples 1986][book_rolfe_staples_flight_simulation]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- IEEE. 1516. *HLA*. [https://standards.ieee.org/ieee/1516/6156/][research_ieee_1516]
+- *IEEE 1278 DIS*. n.d. [https://standards.ieee.org/ieee/1278.1/6739/][research_ieee_1278]
+- Link. 1930. "Patent." [https://patents.google.com/patent/US1825462][research_link_1930]
+- Rushby, John. 1999. *Partitioning in Avionics Architectures: Requirements, Mechanisms, and Assurance*. NASA/CR-1999-209347. NASA. [https://ntrs.nasa.gov/citations/19990052867][research_rushby_1999]
 
-- [ARINC 653][ref_arinc_653]
-- [Link Trainer Overview][ref_link_trainer_nasm]
-- [SISO][ref_siso]
-- [VxWorks][ref_vxworks]
+### Secondary Sources
+
+- Etkin, Bernard. 1996. *Dynamics of Flight: Stability and Control*. Wiley. [https://openlibrary.org/works/OL2926749W][book_etkin_dynamics_of_flight]
+- Kelly, Lloyd L. 1970. *The Pilot Maker*. Grosset & Dunlap. [https://openlibrary.org/works/OL6600846W][book_kelly_pilot_maker]
+- Kopetz, Hermann. 2011. *Real-Time Systems*. Springer US. [https://doi.org/10.1007/978-1-4419-8237-7][book_kopetz_real_time_systems]
+- *Rolfe and Staples*. 1986. [https://openlibrary.org/works/OL19183737W/Flight\_simulation][book_rolfe_staples_flight_simulation]
+
+### General Sources
+
+- "ARINC 653." n.d. Accessed October 25, 2026. [https://www.aviation-ia.com/products/653p1-5-avionics-application-software-standard-interface-part-1-required-services][ref_arinc_653]
+- Baarspul. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/0376042190900175][research_baarspul_1990]
+- Dahmann, Fujimoto, and Weatherly. 1997. "\[Title not identified\]." Accessed October 25, 2026. [https://dl.acm.org/doi/10.1109/WSC.1997.640388][research_dahmann_fujimoto_weatherly_1997]
+- Isermann, Schaffnit, and Sinsel. 1999. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0967066199001497][research_isermann_schaffnit_sinsel_1999]
+- Miller and Thorpe. 1995. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/406399][research_miller_thorpe_1995]
+- "SISO." n.d. Accessed October 25, 2026. [https://www.sisostds.org/][ref_siso]
+- "VxWorks." n.d. Wind River. Accessed October 25, 2026. [https://www.windriver.com/products/vxworks][ref_vxworks]
+
+### Tertiary Sources
+
+- "Link Trainer." 2026. Wikipedia. Last modified January 29, at 15:51 (UTC). [https://en.wikipedia.org/w/index.php?title=Link\_Trainer&oldid=1335500769][ref_link_trainer_nasm]
 
 ### Related Posts
 
-- [A237 Framing and the Co-Development Mechanism][related_post_a237_framing_co_development]
-- [A238 Pre-War Computing Origins and Ballistics][related_post_a238_pre_war_computing]
-- [A239 Wartime Computing and Code-Breaking][related_post_a239_wartime_computing]
-- [A240 Early Cold War Air Defense and SAGE][related_post_a240_early_cold_war_sage]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Framing and the Co-Development Mechanism." *Brendan A R Sechter's Development Blog*, July 13. [https://sgeos.github.io/history/technology/aerospace/2026/07/13/framing\_and\_the\_co\_development\_mechanism.html][related_post_a237_framing_co_development]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Pre-War Computing Origins and Ballistics." *Brendan A R Sechter's Development Blog*, July 14. [https://sgeos.github.io/history/technology/aerospace/2026/07/14/pre\_war\_computing\_origins\_and\_ballistics.html][related_post_a238_pre_war_computing]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Wartime Computing and Code-Breaking." *Brendan A R Sechter's Development Blog*, July 15. [https://sgeos.github.io/history/technology/aerospace/2026/07/15/wartime\_computing\_and\_code\_breaking.html][related_post_a239_wartime_computing]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Early Cold War Air Defense and SAGE." *Brendan A R Sechter's Development Blog*, July 16. [https://sgeos.github.io/history/technology/aerospace/2026/07/16/early\_cold\_war\_air\_defense\_and\_sage.html][related_post_a240_early_cold_war_sage]
 
-### Research
-
-- [Baarspul 1990][research_baarspul_1990]
-- [Dahmann Fujimoto Weatherly 1997][research_dahmann_fujimoto_weatherly_1997]
-- [IEEE 1278 DIS][research_ieee_1278]
-- [IEEE 1516 HLA][research_ieee_1516]
-- [Isermann Schaffnit Sinsel 1999][research_isermann_schaffnit_sinsel_1999]
-- [Link 1930 Patent][research_link_1930]
-- [Miller and Thorpe 1995][research_miller_thorpe_1995]
-- [Rushby 1999][research_rushby_1999]
-
-[book_etkin_dynamics_of_flight]: https://openlibrary.org/works/OL2926749W/Dynamics_of_flight
-[book_kelly_pilot_maker]: https://openlibrary.org/works/OL6600846W/The_pilot_maker
-[book_kopetz_real_time_systems]: https://link.springer.com/book/10.1007/978-1-4419-8237-7
+[book_etkin_dynamics_of_flight]: https://openlibrary.org/works/OL2926749W
+[book_kelly_pilot_maker]: https://openlibrary.org/works/OL6600846W
+[book_kopetz_real_time_systems]: https://doi.org/10.1007/978-1-4419-8237-7
 [book_rolfe_staples_flight_simulation]: https://openlibrary.org/works/OL19183737W/Flight_simulation
-
 [ref_arinc_653]: https://www.aviation-ia.com/products/653p1-5-avionics-application-software-standard-interface-part-1-required-services
-[ref_link_trainer_nasm]: https://en.wikipedia.org/wiki/Link_Trainer
+[ref_link_trainer_nasm]: https://en.wikipedia.org/w/index.php?title=Link_Trainer&oldid=1335500769
 [ref_siso]: https://www.sisostds.org/
 [ref_vxworks]: https://www.windriver.com/products/vxworks
-
 [related_post_a237_framing_co_development]: {% post_url 2026-07-13-framing_and_the_co_development_mechanism %}
 [related_post_a238_pre_war_computing]: {% post_url 2026-07-14-pre_war_computing_origins_and_ballistics %}
 [related_post_a239_wartime_computing]: {% post_url 2026-07-15-wartime_computing_and_code_breaking %}
 [related_post_a240_early_cold_war_sage]: {% post_url 2026-07-16-early_cold_war_air_defense_and_sage %}
-
 [research_baarspul_1990]: https://www.sciencedirect.com/science/article/pii/0376042190900175
 [research_dahmann_fujimoto_weatherly_1997]: https://dl.acm.org/doi/10.1109/WSC.1997.640388
 [research_ieee_1278]: https://standards.ieee.org/ieee/1278.1/6739/
@@ -185,4 +187,4 @@ The next article in the series treats the Apollo Guidance Computer as the most-s
 [research_isermann_schaffnit_sinsel_1999]: https://www.sciencedirect.com/science/article/pii/S0967066199001497
 [research_link_1930]: https://patents.google.com/patent/US1825462
 [research_miller_thorpe_1995]: https://ieeexplore.ieee.org/document/406399
-[research_rushby_1999]: https://ntrs.nasa.gov/citations/19990053473
+[research_rushby_1999]: https://ntrs.nasa.gov/citations/19990052867

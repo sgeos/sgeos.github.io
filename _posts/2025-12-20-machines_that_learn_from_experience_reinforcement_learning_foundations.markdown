@@ -55,9 +55,9 @@ The MDP formalism traces to [Bellman 1957][book_bellman_1957] work on dynamic pr
 
 The transition from planning under a known model to learning from experience without a model came in stages. [Samuel 1959][research_samuel_1959] checkers program used what would be called temporal-difference learning long before that concept was named. [Michie and Chambers 1968][research_michie_chambers_1968] BOXES system learned pole-balancing control by trial and error. [Klopf 1972][research_klopf_1972] hedonistic-neuron hypothesis connected the reinforcement idea to single-neuron computation.
 
-[Sutton 1988][research_sutton_1988] gave the first systematic treatment of temporal-difference learning as a machine-learning algorithm and proved its convergence for the tabular case, using ideas from stochastic approximation traced to [Robbins and Monro 1951][research_robbins_monro_1951]. The earlier [Sutton 1984][book_sutton_1984_thesis] doctoral thesis introduced the credit-assignment framework that the 1988 paper crystallized. [Watkins 1989][research_watkins_1989] and [Watkins and Dayan 1992][research_watkins_dayan_1992] introduced Q-learning as an off-policy control algorithm and proved its convergence in the tabular case. [Jaakkola Jordan and Singh 1994][research_jaakkola_jordan_singh_1994] provided a unified convergence analysis for tabular TD and Q-learning under the stochastic approximation framework, and [Tsitsiklis 1994][research_tsitsiklis_1994] extended the analysis to asynchronous Q-learning. [Barto Sutton and Anderson 1983][research_barto_sutton_anderson_1983] actor-critic architecture provided the algorithmic template for policy-based methods.
+[Sutton 1988][research_sutton_1988] gave the first systematic treatment of temporal-difference learning as a machine-learning algorithm and proved its convergence for the tabular case, using ideas from stochastic approximation traced to [Robbins and Monro 1951][research_robbins_monro_1951]. The earlier [Sutton 1984][book_sutton_1984_thesis] doctoral thesis introduced the credit-assignment framework that the 1988 paper crystallized. [Watkins 1989][research_watkins_1989] and [Watkins and Dayan 1992][research_watkins_dayan_1992] introduced Q-learning as an off-policy control algorithm and proved its convergence in the tabular case. [Jaakkola et al. 1994][research_jaakkola_jordan_singh_1994] provided a unified convergence analysis for tabular TD and Q-learning under the stochastic approximation framework, and [Tsitsiklis 1994][research_tsitsiklis_1994] extended the analysis to asynchronous Q-learning. [Barto et al. 1983][research_barto_sutton_anderson_1983] actor-critic architecture provided the algorithmic template for policy-based methods.
 
-The policy gradient theorem was proved in its modern form by [Sutton McAllester Singh and Mansour 2000][research_sutton_mcallester_singh_mansour_2000], synthesizing earlier work by [Williams 1992][research_williams_1992] REINFORCE, [Baxter and Bartlett 2001][research_baxter_bartlett_2001] GPOMDP, and others. The synthesis established policy-based methods as a coherent family with a shared analytical apparatus.
+The policy gradient theorem was proved in its modern form by [Sutton et al. 1999][research_sutton_mcallester_singh_mansour_2000], synthesizing earlier work by [Williams 1992][research_williams_1992] REINFORCE, [Baxter and Bartlett 2001][research_baxter_bartlett_2001] GPOMDP, and others. The synthesis established policy-based methods as a coherent family with a shared analytical apparatus.
 
 The 1990s and 2000s produced the systematic mathematical foundations. [Bertsekas and Tsitsiklis 1996][book_bertsekas_tsitsiklis_1996] provided the neuro-dynamic programming perspective on approximate value-based methods. [Puterman 1994][book_puterman_1994] provided the definitive treatment of finite MDPs. [Szepesvari 2010][book_szepesvari_2010] and [Sutton and Barto 2018][book_sutton_barto_2018] became the modern reference textbooks. The deep-learning wave of the 2010s treated in article four extends but does not supersede this classical foundation.
 
@@ -295,11 +295,11 @@ $$V(s) \leftarrow V(s) + \alpha \delta_t e_t(s) \quad \forall s$$
 
 The forward and backward views are equivalent in expectation and produce identical updates over episodes. The backward view is computationally efficient because it operates online with $\mathcal{O}(\lvert \mathcal{S} \rvert)$ storage rather than requiring the full trajectory to be observed before updates begin.
 
-Watkins's Q($\lambda$) and [Peng and Williams 1996][research_peng_williams_1996] Q($\lambda$) provide off-policy variants of TD($\lambda$) for the action-value case, differing in how they handle exploratory actions that break the eligibility trace. [Precup Sutton and Singh 2000][research_precup_sutton_singh_2000] developed the off-policy eligibility-trace framework using importance-sampling corrections, providing the theoretical basis for later off-policy multistep methods.
+Watkins's Q($\lambda$) and [Peng and Williams 1996][research_peng_williams_1996] Q($\lambda$) provide off-policy variants of TD($\lambda$) for the action-value case, differing in how they handle exploratory actions that break the eligibility trace. [Precup et al. 2000][research_precup_sutton_singh_2000] developed the off-policy eligibility-trace framework using importance-sampling corrections, providing the theoretical basis for later off-policy multistep methods.
 
 ## Policy Gradient Methods
 
-Policy gradient methods parameterize the policy directly as $\pi_\theta$ and optimize the expected return $J(\theta)$ by gradient ascent on $\theta$. The policy gradient theorem [Sutton McAllester Singh and Mansour 2000][research_sutton_mcallester_singh_mansour_2000] gives
+Policy gradient methods parameterize the policy directly as $\pi_\theta$ and optimize the expected return $J(\theta)$ by gradient ascent on $\theta$. The policy gradient theorem [Sutton et al. 1999][research_sutton_mcallester_singh_mansour_2000] gives
 
 $$\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta}, a \sim \pi_\theta}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) \, Q^{\pi_\theta}(s, a) \right]$$
 
@@ -321,7 +321,7 @@ The natural policy gradient of [Kakade 2001][research_kakade_2001] preconditions
 
 $$F(\theta) = \mathbb{E}_{s, a}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) \nabla_\theta \log \pi_\theta(a \mid s)^\top \right]$$
 
-yielding the update $\theta \leftarrow \theta + \alpha F(\theta)^{-1} \nabla_\theta J(\theta)$. Natural gradient corrects for the parameterization-dependence of the plain gradient and provides invariance to policy reparameterization. [Peters and Schaal 2008][research_peters_schaal_2008] developed the natural-actor-critic algorithm for robotics applications, and [Bhatnagar Sutton Ghavamzadeh and Lee 2009][research_bhatnagar_et_al_2009] provided convergence-guaranteed natural actor-critic algorithms with function approximation. Trust-region and proximal policy optimization treated in article four build on the natural-gradient framework.
+yielding the update $\theta \leftarrow \theta + \alpha F(\theta)^{-1} \nabla_\theta J(\theta)$. Natural gradient corrects for the parameterization-dependence of the plain gradient and provides invariance to policy reparameterization. [Peters and Schaal 2008][research_peters_schaal_2008] developed the natural-actor-critic algorithm for robotics applications, and [Bhatnagar et al. 2009][research_bhatnagar_et_al_2009] provided convergence-guaranteed natural actor-critic algorithms with function approximation. Trust-region and proximal policy optimization treated in article four build on the natural-gradient framework.
 
 Simulation-based optimization of Markov reward processes by [Marbach and Tsitsiklis 2001][research_marbach_tsitsiklis_2001] provided a parallel formulation and convergence analysis for policy-gradient methods in the average-reward setting. [Kakade and Langford 2002][research_kakade_langford_2002] conservative policy iteration established monotone improvement guarantees for approximate policy iteration under update schemes, connecting policy-gradient theory to approximate dynamic programming.
 
@@ -337,15 +337,15 @@ where the bracketed quantity is a one-step advantage estimate. The critic parame
 
 $$w \leftarrow w + \alpha_w \left[r_{t+1} + \gamma V_w(s_{t+1}) - V_w(s_t)\right] \nabla_w V_w(s_t)$$
 
-The two updates operate on different timescales, with $\alpha_w \gg \alpha_\theta$ ensuring the critic tracks the current policy sufficiently well. [Konda and Tsitsiklis 2000][research_konda_tsitsiklis_2000] proved convergence for linear function-approximation actor-critic under standard timescale-separation and step-size conditions.
+The two updates operate on different timescales, with $\alpha_w \gg \alpha_\theta$ ensuring the critic tracks the current policy sufficiently well. [Konda and Tsitsiklis 1999][research_konda_tsitsiklis_2000] proved convergence for linear function-approximation actor-critic under standard timescale-separation and step-size conditions.
 
-Deterministic policy gradient of [Silver Lever Heess Degris Wierstra Riedmiller 2014][research_silver_et_al_2014] treats continuous action spaces with a deterministic policy $\pi_\theta : \mathcal{S} \to \mathcal{A}$. The deterministic policy gradient theorem gives
+Deterministic policy gradient of [Silver et al. 2014][research_silver_et_al_2014] treats continuous action spaces with a deterministic policy $\pi_\theta : \mathcal{S} \to \mathcal{A}$. The deterministic policy gradient theorem gives
 
 $$\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[ \nabla_\theta \pi_\theta(s) \nabla_a Q^{\pi_\theta}(s, a) \big|_{a = \pi_\theta(s)} \right]$$
 
 avoiding the score-function trick required for stochastic policies. The deterministic policy gradient underlies the DDPG algorithm treated in article four.
 
-Generalized advantage estimation of [Schulman Moritz Levine Jordan Abbeel 2016][research_schulman_moritz_levine_jordan_abbeel_2016] interpolates between one-step and Monte Carlo advantage estimates using a $\lambda$ parameter analogous to TD($\lambda$). The GAE advantage is
+Generalized advantage estimation of [Schulman et al. 2015][research_schulman_moritz_levine_jordan_abbeel_2016] interpolates between one-step and Monte Carlo advantage estimates using a $\lambda$ parameter analogous to TD($\lambda$). The GAE advantage is
 
 $$\hat{A}^{\text{GAE}(\gamma, \lambda)}_t = \sum_{l=0}^{\infty} (\gamma \lambda)^l \delta_{t+l}$$
 
@@ -383,17 +383,17 @@ Nonlinear function approximation with neural networks is the subject of article 
 
 Fitted methods approach reinforcement learning as a sequence of supervised learning problems, applying regression or classification learners to Bellman targets computed from a batch of experience. The framework separates the data-collection phase from the learning phase, permitting the use of any function-approximation method as a black-box regression subroutine.
 
-Fitted value iteration of [Gordon 1995][research_gordon_1995] and [Munos and Szepesvari 2008][research_munos_szepesvari_2008] iteratively fits a value function to targets computed by applying the Bellman optimality operator to samples,
+Fitted value iteration of [Gordon 1995][research_gordon_1995] and [Munos and Szepesvári 2008][research_munos_szepesvari_2008] iteratively fits a value function to targets computed by applying the Bellman optimality operator to samples,
 
 $$V_{k+1} = \arg\min_{V \in \mathcal{F}} \sum_{i=1}^n \left(V(s_i) - (T^* V_k)(s_i)\right)^2$$
 
-for a function class $\mathcal{F}$. Fitted Q iteration of [Ernst Geurts and Wehenkel 2005][research_ernst_geurts_wehenkel_2005] extends the approach to the action-value case,
+for a function class $\mathcal{F}$. Fitted Q iteration of [Ernst et al. 2005][research_ernst_geurts_wehenkel_2005] extends the approach to the action-value case,
 
 $$Q_{k+1} = \arg\min_{Q \in \mathcal{F}} \sum_{i=1}^n \left(Q(s_i, a_i) - (r_i + \gamma \max_{a'} Q_k(s_i', a'))\right)^2$$
 
 using ensemble tree learners as the function class. Neural fitted Q iteration of [Riedmiller 2005][research_riedmiller_2005] used neural networks as the function class and provided a direct precursor to deep Q-networks. The fitted approach cleanly separates the two challenges of reinforcement learning (defining targets and fitting them) at the cost of substantially higher per-iteration computation than online TD updates.
 
-Batch reinforcement learning treats the setting in which all data is collected up front and no further environment interaction is permitted. Distributional shift between the data-generating policy and the target policy is the fundamental obstacle, treated systematically in article eight on offline reinforcement learning. The [Lange Gabel Riedmiller 2012][research_lange_gabel_riedmiller_2012] framework provided an early systematic treatment of batch reinforcement learning as a distinct problem.
+Batch reinforcement learning treats the setting in which all data is collected up front and no further environment interaction is permitted. Distributional shift between the data-generating policy and the target policy is the fundamental obstacle, treated systematically in article eight on offline reinforcement learning. The [Lange et al. 2012][research_lange_gabel_riedmiller_2012] framework provided an early systematic treatment of batch reinforcement learning as a distinct problem.
 
 ## The Deadly Triad and Divergence
 
@@ -401,7 +401,7 @@ Off-policy learning, function approximation, and bootstrapping together constitu
 
 The mathematical cause is that the projected Bellman operator $\Pi_\phi T^{\pi}$ is not necessarily a contraction under off-policy sampling, even though $T^{\pi}$ itself is a $\gamma$-contraction. [Tsitsiklis and Van Roy 1997][research_tsitsiklis_van_roy_1997] proved the formal characterization of when off-policy TD converges and when it diverges.
 
-Gradient-TD methods of [Sutton Maei Precup Bhatnagar Silver Szepesvari Wiewiora 2009][research_sutton_maei_precup_2009] modify the TD update to descend on a true objective function that guarantees convergence in the off-policy linear setting. The mean-squared projected Bellman error
+Gradient-TD methods of [Sutton et al. 2009][research_sutton_maei_precup_2009] modify the TD update to descend on a true objective function that guarantees convergence in the off-policy linear setting. The mean-squared projected Bellman error
 
 $$\text{MSPBE}(w) = \| \Pi_\phi (T^{\pi} V_w - V_w) \|_{D_\mu}^2$$
 
@@ -411,7 +411,7 @@ $$w \leftarrow w + \alpha \left[\delta_t \phi_t - \gamma \phi_{t+1} (\phi_t^\top
 
 where $h$ is an auxiliary weight vector that estimates the linear part of the correction. GTD, TDC, and GTD2 provide alternative gradient corrections, differing in their asymptotic bias and finite-sample behavior.
 
-Emphatic TD of [Sutton Mahmood White 2016][research_sutton_mahmood_white_2016] weights TD updates by an emphasis quantity
+Emphatic TD of [Sutton et al. 2016][research_sutton_mahmood_white_2016] weights TD updates by an emphasis quantity
 
 $$M_t = \lambda I_t + (1 - \lambda) F_t$$
 
@@ -437,7 +437,7 @@ For the on-policy linear function approximation case, TD(0), TD($\lambda$), and 
 
 For nonlinear function approximation, convergence guarantees are substantially weaker. Even the on-policy case can exhibit non-convergence under nonlinear function approximation combined with bootstrapping. Empirical practice manages these hazards through architectural choices and training-procedure interventions treated in article four.
 
-Finite-sample analyses under the Wasserstein-metric framework of [Munos et al 2016][research_munos_stepleton_harutyunyan_bellemare_2016] provide non-asymptotic bounds for various TD variants and connect to the modern theoretical understanding of function-approximation reinforcement learning.
+Finite-sample analyses under the Wasserstein-metric framework of [Munos et al. 2016][research_munos_stepleton_harutyunyan_bellemare_2016] provide non-asymptotic bounds for various TD variants and connect to the modern theoretical understanding of function-approximation reinforcement learning.
 
 ## Sample Complexity and PAC-MDP
 
@@ -449,19 +449,19 @@ $$\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}|^2 |\mathcal{A}|}{\epsilon^3 (1-
 
 for producing an $\epsilon$-optimal policy with probability at least $1 - \delta$. Both algorithms use the principle of optimism in the face of uncertainty. Unknown states are treated as maximally rewarding, encouraging exploration to reduce their uncertainty.
 
-Regret-based analysis of finite MDPs began with the UCRL2 algorithm of [Jaksch Ortner and Auer 2010][research_jaksch_ortner_auer_2010] and its successors, building on [Auer and Ortner 2007][research_auer_ortner_2007] earlier logarithmic regret bounds. UCRL2 maintains confidence sets over transition and reward parameters and follows optimistic policies with respect to those sets. The regret bound
+Regret-based analysis of finite MDPs began with the UCRL2 algorithm of [Jaksch et al. 2010][research_jaksch_ortner_auer_2010] and its successors, building on [Auer and Ortner 2006][research_auer_ortner_2007] earlier logarithmic regret bounds. UCRL2 maintains confidence sets over transition and reward parameters and follows optimistic policies with respect to those sets. The regret bound
 
 $$R_T = \tilde{\mathcal{O}}(D \sqrt{|\mathcal{S}| |\mathcal{A}| T})$$
 
-involves the diameter $D$ of the MDP, the state and action-space sizes, and the horizon $T$. The minimax lower bound of [Azar Osband and Munos 2017][research_azar_osband_munos_2017] establishes $\Omega(\sqrt{H \lvert \mathcal{S} \rvert \lvert \mathcal{A} \rvert T})$ for finite-horizon MDPs, and their UCBVI algorithm matches this bound. Posterior sampling for reinforcement learning of [Osband and Van Roy 2013][research_osband_van_roy_2013] extends Thompson sampling from bandits to MDPs and achieves Bayesian regret bounds of similar order under the Bayesian setting.
+involves the diameter $D$ of the MDP, the state and action-space sizes, and the horizon $T$. The minimax lower bound of [Azar et al. 2017][research_azar_osband_munos_2017] establishes $\Omega(\sqrt{H \lvert \mathcal{S} \rvert \lvert \mathcal{A} \rvert T})$ for finite-horizon MDPs, and their UCBVI algorithm matches this bound. Posterior sampling for reinforcement learning of [Osband et al. 2013][research_osband_van_roy_2013] extends Thompson sampling from bandits to MDPs and achieves Bayesian regret bounds of similar order under the Bayesian setting.
 
-Model-based interval estimation with exploration bonuses of [Strehl Li and Littman 2009][research_strehl_li_littman_2009] provided a unified analysis of several PAC-MDP algorithms under a common framework. Sample complexity results for continuous-state MDPs and for MDPs with function approximation require substantial additional apparatus. Recent work has established polynomial sample complexity for finite-horizon linear MDPs and for MDPs with low-rank transition structure, connecting reinforcement learning theory to the low-rank matrix estimation literature.
+Model-based interval estimation with exploration bonuses of [Strehl et al. 2009][research_strehl_li_littman_2009] provided a unified analysis of several PAC-MDP algorithms under a common framework. Sample complexity results for continuous-state MDPs and for MDPs with function approximation require substantial additional apparatus. Recent work has established polynomial sample complexity for finite-horizon linear MDPs and for MDPs with low-rank transition structure, connecting reinforcement learning theory to the low-rank matrix estimation literature.
 
-Reward shaping can substantially reduce sample complexity when auxiliary reward information is available. Potential-based reward shaping of [Ng Harada and Russell 1999][research_ng_harada_russell_1999] modifies the reward function to
+Reward shaping can substantially reduce sample complexity when auxiliary reward information is available. Potential-based reward shaping of [Ng et al. 1999][research_ng_harada_russell_1999] modifies the reward function to
 
 $$r'(s, a, s') = r(s, a, s') + \gamma \Phi(s') - \Phi(s)$$
 
-for an arbitrary potential function $\Phi : \mathcal{S} \to \mathbb{R}$. The transformation preserves the optimal policy exactly while shaping the effective sparsity of the reward signal, addressing the well-known difficulty of learning under sparse rewards. The theoretical framework and its extensions have proved influential for practical applications where reward-signal engineering meaningfully reduces sample complexity. Hindsight experience replay of [Andrychowicz et al 2017][research_andrychowicz_et_al_2017] extends the reward-shaping idea by relabeling failed goal-reaching episodes with the actually-achieved outcomes, treating each trajectory as an off-policy demonstration for the corresponding hindsight goal.
+for an arbitrary potential function $\Phi : \mathcal{S} \to \mathbb{R}$. The transformation preserves the optimal policy exactly while shaping the effective sparsity of the reward signal, addressing the well-known difficulty of learning under sparse rewards. The theoretical framework and its extensions have proved influential for practical applications where reward-signal engineering meaningfully reduces sample complexity. Hindsight experience replay of [Andrychowicz et al. 2017][research_andrychowicz_et_al_2017] extends the reward-shaping idea by relabeling failed goal-reaching episodes with the actually-achieved outcomes, treating each trajectory as an off-policy demonstration for the corresponding hindsight goal.
 
 ## Off-Policy Learning
 
@@ -495,7 +495,7 @@ and solve for $\hat{\pi}^\*$ using value or policy iteration on $\hat{P}$ and $\
 
 The Dyna architecture of [Sutton 1990][research_sutton_1990] interleaves real environment interaction with simulated interaction from the learned model. After each real transition $(s, a, r, s')$, the algorithm updates $Q$ from the real transition, updates the model $\hat{P}, \hat{R}$ from the transition, and performs $n$ simulated Q-updates by sampling states from the model. The mechanism reuses each real transition multiple times through the model and dramatically improves sample efficiency in tabular problems.
 
-Prioritized sweeping of [Moore and Atkeson 1993][research_moore_atkeson_1993] extends Dyna by prioritizing simulated updates for states whose predecessors have recently seen large TD errors, focusing computation on the parts of the state space where the value estimate is changing most rapidly. Real-time dynamic programming of [Barto Bradtke and Singh 1995][research_barto_bradtke_singh_1995] combines asynchronous value iteration with actual environment traversal, updating only the values along visited trajectories.
+Prioritized sweeping of [Moore and Atkeson 1993][research_moore_atkeson_1993] extends Dyna by prioritizing simulated updates for states whose predecessors have recently seen large TD errors, focusing computation on the parts of the state space where the value estimate is changing most rapidly. Real-time dynamic programming of [Barto et al. 1995][research_barto_bradtke_singh_1995] combines asynchronous value iteration with actual environment traversal, updating only the values along visited trajectories.
 
 Model-based methods offer sample-complexity advantages over model-free methods when the model is expressible in a compact form, at the cost of computational overhead for model fitting and planning. The trade-off between model-based and model-free approaches has been an enduring research topic that article seven treats systematically.
 
@@ -507,7 +507,7 @@ $$Z^{\pi}(s, a) \stackrel{D}{=} R(s, a, s') + \gamma Z^{\pi}(s', a')$$
 
 as a random variable rather than its scalar mean. The distributional Bellman operator applied to a return-distribution estimate produces a target distribution that the estimator regresses against.
 
-The C51 algorithm of [Bellemare Dabney and Munos 2017][research_bellemare_dabney_munos_2017] represents the return distribution as a categorical distribution over a fixed set of atoms and minimizes the KL divergence between predicted and target distributions. Quantile regression DQN of [Dabney Rowland Bellemare Munos 2018][research_dabney_rowland_bellemare_munos_2018] represents the distribution by its quantiles and uses quantile regression loss, providing a more flexible representation. Implicit quantile networks extend the approach to arbitrary quantile levels.
+The C51 algorithm of [Bellemare et al. 2017][research_bellemare_dabney_munos_2017] represents the return distribution as a categorical distribution over a fixed set of atoms and minimizes the KL divergence between predicted and target distributions. Quantile regression DQN of [Dabney et al. 2018][research_dabney_rowland_bellemare_munos_2018] represents the distribution by its quantiles and uses quantile regression loss, providing a more flexible representation. Implicit quantile networks extend the approach to arbitrary quantile levels.
 
 Beyond the immediate algorithmic gains, distributional methods provide the natural setting for risk-sensitive reinforcement learning objectives such as CVaR discussed in article one. The distributional framework also connects to categorical distributional approaches in probabilistic modeling and to quantile-based statistical learning theory.
 
@@ -533,15 +533,15 @@ Average-reward methods are theoretically preferable for continuing tasks where d
 
 ## Neuroscience and Psychology Connections
 
-The reinforcement learning apparatus has striking parallels in neuroscience. [Schultz Dayan and Montague 1997][research_schultz_dayan_montague_1997] identified midbrain dopamine neurons as encoding a temporal-difference reward prediction error
+The reinforcement learning apparatus has striking parallels in neuroscience. [Schultz et al. 1997][research_schultz_dayan_montague_1997] identified midbrain dopamine neurons as encoding a temporal-difference reward prediction error
 
 $$\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$$
 
-with quantitative correspondence between dopamine spike responses and TD error predictions across a range of behavioral tasks. This finding launched the modern field of computational neuroscience of reward learning and provided the empirical foundation for treating temporal-difference learning as a candidate algorithmic account of animal learning. [O'Doherty Dayan Schultz Deichmann Friston and Frackowiak 2004][research_odoherty_et_al_2004] demonstrated the analogous TD-like signals in human ventral striatum using functional magnetic resonance imaging, and [Bayer and Glimcher 2005][research_bayer_glimcher_2005] provided quantitative single-neuron recordings in primates that established the fine-grained correspondence between dopamine firing and the TD prediction error. The [Niv 2009][research_niv_2009] review synthesized the reinforcement-learning-in-the-brain literature at the state of the art of the late 2000s.
+with quantitative correspondence between dopamine spike responses and TD error predictions across a range of behavioral tasks. This finding launched the modern field of computational neuroscience of reward learning and provided the empirical foundation for treating temporal-difference learning as a candidate algorithmic account of animal learning. [O'Doherty et al. 2004][research_odoherty_et_al_2004] demonstrated the analogous TD-like signals in human ventral striatum using functional magnetic resonance imaging, and [Bayer and Glimcher 2005][research_bayer_glimcher_2005] provided quantitative single-neuron recordings in primates that established the fine-grained correspondence between dopamine firing and the TD prediction error. The [Niv 2009][research_niv_2009] review synthesized the reinforcement-learning-in-the-brain literature at the state of the art of the late 2000s.
 
 The actor-critic architecture aligns with the anatomy of the basal ganglia. Striatal medium spiny neurons participate in circuits that separately implement policy (actor) and value (critic) functions, with dopamine as the training signal that updates both. Article fourteen treats the NeuroAI bridge in detail.
 
-Model-free versus model-based control corresponds to the psychological distinction between habitual and goal-directed behavior [Daw Niv and Dayan 2005][research_daw_niv_dayan_2005]. Habits operate through cached values updated by temporal-difference-like learning, goal-directed behavior operates through a learned model and forward planning. Article fifteen treats the model-free versus model-based distinction and its correspondence to habitual versus goal-directed behavior in humans.
+Model-free versus model-based control corresponds to the psychological distinction between habitual and goal-directed behavior [Daw et al. 2005][research_daw_niv_dayan_2005]. Habits operate through cached values updated by temporal-difference-like learning, goal-directed behavior operates through a learned model and forward planning. Article fifteen treats the model-free versus model-based distinction and its correspondence to habitual versus goal-directed behavior in humans.
 
 The Rescorla-Wagner model of classical conditioning corresponds exactly to a single-state TD learning rule, providing a formal bridge between animal learning theory and modern reinforcement learning that has been productive in both directions.
 
@@ -549,7 +549,7 @@ The successor representation of [Dayan 1993][research_dayan_1993] provides a dis
 
 $$M^{\pi}(s, s') = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} \gamma^t \mathbb{1}\{s_t = s'\} \mid s_0 = s\right]$$
 
-giving the expected discounted future visitation of state $s'$ starting from state $s$ under policy $\pi$. The value function factors as $V^{\pi}(s) = \sum_{s'} M^{\pi}(s, s') R(s')$, decomposing value into the state-visitation structure and the reward structure. The factorization is efficient when reward changes but transitions do not, since only $R$ needs to be relearned. Neural evidence for successor-representation-like structure in the hippocampus [Stachenfeld Botvinick Gershman 2017][research_stachenfeld_botvinick_gershman_2017] has made the successor representation a load-bearing bridge concept between reinforcement learning and neuroscience.
+giving the expected discounted future visitation of state $s'$ starting from state $s$ under policy $\pi$. The value function factors as $V^{\pi}(s) = \sum_{s'} M^{\pi}(s, s') R(s')$, decomposing value into the state-visitation structure and the reward structure. The factorization is efficient when reward changes but transitions do not, since only $R$ needs to be relearned. Neural evidence for successor-representation-like structure in the hippocampus [Stachenfeld et al. 2017][research_stachenfeld_botvinick_gershman_2017] has made the successor representation a load-bearing bridge concept between reinforcement learning and neuroscience.
 
 ## Empirical Landscape
 
@@ -559,15 +559,15 @@ Grid-world tasks are the simplest environment class. The learner navigates a two
 
 The Mountain Car problem of [Moore 1990][book_moore_1990] treats an under-powered car in a one-dimensional valley that must reach a hilltop by building momentum through backward-forward motion. The state space is two-dimensional (position and velocity) and continuous, making it a canonical setting for value-based methods with linear function approximation.
 
-The Cart-Pole balancing problem of [Michie and Chambers 1968][research_michie_chambers_1968] and [Barto Sutton and Anderson 1983][research_barto_sutton_anderson_1983] treats a pole balanced on a cart, with actions to push the cart left or right and reward for maintaining balance. Cart-Pole provides the canonical setting for actor-critic and policy-gradient methods with linear function approximation.
+The Cart-Pole balancing problem of [Michie and Chambers 1968][research_michie_chambers_1968] and [Barto et al. 1983][research_barto_sutton_anderson_1983] treats a pole balanced on a cart, with actions to push the cart left or right and reward for maintaining balance. Cart-Pole provides the canonical setting for actor-critic and policy-gradient methods with linear function approximation.
 
 The Acrobot problem treats a two-link pendulum with actuation at the middle joint, requiring energy accumulation to swing the tip to a target height. The problem features continuous states, discrete actions, and delayed sparse rewards.
 
 The Tetris benchmark provides a large discrete state space (approximately $10^{60}$ board configurations) that has served as a challenge problem for value-based methods with hand-engineered features throughout the 1990s and 2000s.
 
-Contemporary benchmarks including the Arcade Learning Environment of [Bellemare Naddaf Veness and Bowling 2013][research_bellemare_naddaf_veness_bowling_2013] and the MuJoCo physics simulator of [Todorov Erez and Tassa 2012][research_todorov_erez_tassa_2012] treated in article four extend the classical benchmark set to higher-dimensional pixel-based and continuous control settings, testing algorithmic scalability and generalization.
+Contemporary benchmarks including the Arcade Learning Environment of [Bellemare et al. 2013][research_bellemare_naddaf_veness_bowling_2013] and the MuJoCo physics simulator of [Todorov et al. 2012][research_todorov_erez_tassa_2012] treated in article four extend the classical benchmark set to higher-dimensional pixel-based and continuous control settings, testing algorithmic scalability and generalization.
 
-Reproducibility concerns in reinforcement learning have received increasing attention. [Henderson et al 2018][research_henderson_et_al_2018] documented that reinforcement learning results are frequently more variable across random seeds, hyperparameters, and implementation details than reported summary statistics suggest. Best-practice guidelines now include reporting seed variance, hyperparameter sensitivity, code and configuration availability, and evaluation across multiple task instances. Open-source implementations including CleanRL, Stable Baselines, and RLlib provide reference algorithm implementations with documented reproducibility characteristics that support empirical comparison.
+Reproducibility concerns in reinforcement learning have received increasing attention. [Henderson et al. 2018][research_henderson_et_al_2018] documented that reinforcement learning results are frequently more variable across random seeds, hyperparameters, and implementation details than reported summary statistics suggest. Best-practice guidelines now include reporting seed variance, hyperparameter sensitivity, code and configuration availability, and evaluation across multiple task instances. Open-source implementations including CleanRL, Stable Baselines, and RLlib provide reference algorithm implementations with documented reproducibility characteristics that support empirical comparison.
 
 ## The Bridge to Deep Reinforcement Learning
 
@@ -575,7 +575,7 @@ The classical reinforcement learning apparatus described in this article provide
 
 The core algorithmic templates persist. Deep Q-networks are Q-learning with neural function approximation. Trust-region policy optimization and proximal policy optimization are policy gradient methods with variance-reduced gradient estimates. Advantage actor-critic and soft actor-critic are actor-critic methods with neural function approximation. The convergence theory does not carry over automatically, but the algorithmic intuitions do.
 
-Two developments enable the transition to deep neural function approximation. Experience replay of [Lin 1992][research_lin_1992] decouples the temporal correlation of successive updates, permitting stochastic-gradient-descent-based optimization to converge in practice. Target networks introduced by [Mnih et al 2015][research_mnih_et_al_2015] stabilize the bootstrapping target by holding a slower-updated copy of the value function. The target network update rule is either a hard periodic copy
+Two developments enable the transition to deep neural function approximation. Experience replay of [Lin 1992][research_lin_1992] decouples the temporal correlation of successive updates, permitting stochastic-gradient-descent-based optimization to converge in practice. Target networks introduced by [Mnih et al. 2015][research_mnih_et_al_2015] stabilize the bootstrapping target by holding a slower-updated copy of the value function. The target network update rule is either a hard periodic copy
 
 $$\theta^{-} \leftarrow \theta \quad \text{every } C \text{ steps}$$
 
@@ -598,114 +598,122 @@ Article four develops the deep reinforcement learning wave that these mechanisms
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Bellman 1957][book_bellman_1957]
-- [Bertsekas 2019][book_bertsekas_2019]
-- [Bertsekas and Tsitsiklis 1996][book_bertsekas_tsitsiklis_1996]
-- [Howard 1960][book_howard_1960]
-- [Kakade 2003 Thesis][book_kakade_thesis_2003]
-- [Kushner and Clark 1978][book_kushner_clark_1978]
-- [Moore 1990][book_moore_1990]
-- [Puterman 1994][book_puterman_1994]
-- [Sutton 1984 Thesis][book_sutton_1984_thesis]
-- [Sutton and Barto 2018][book_sutton_barto_2018]
-- [Szepesvari 2010][book_szepesvari_2010]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Barto, Andrew G., Steven J. Bradtke, and Satinder P. Singh. 1995. "Learning to Act Using Real-Time Dynamic Programming." *Artificial Intelligence* 72 (1–2): 81–138. [https://doi.org/10.1016/0004-3702(94)00011-o][research_barto_bradtke_singh_1995]
+- Bradtke, Steven J., and Andrew G. Barto. 1996. "Linear Least-Squares Algorithms for Temporal Difference Learning." *Machine Learning* 22 (1–3): 33–57. [https://doi.org/10.1007/bf00114723][research_bradtke_barto_1996]
+- Daw, Nathaniel D., Yael Niv, and Peter Dayan. 2005. "Uncertainty-Based Competition between Prefrontal and Dorsolateral Striatal Systems for Behavioral Control." *Nature Neuroscience* 8 (12): 1704–11. [https://doi.org/10.1038/nn1560][research_daw_niv_dayan_2005]
+- Kearns, Michael, and Satinder Singh. 2002. "Near-Optimal Reinforcement Learning in Polynomial Time." *Machine Learning* 49 (2–3): 209–32. [https://doi.org/10.1023/a:1017984413808][research_kearns_singh_2002]
+- Lin, Long-Ji. 1992. "Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching." *Machine Learning* 8 (3–4): 293–321. [https://doi.org/10.1007/bf00992699][research_lin_1992]
+- Mahadevan, Sridhar. 1996. "Average Reward Reinforcement Learning: Foundations, Algorithms, and Empirical Results." *Machine Learning* 22 (1–3): 159–95. [https://doi.org/10.1023/a:1018064306595][research_mahadevan_1996]
+- Mnih, Volodymyr, Koray Kavukcuoglu, David Silver, et al. 2015. "Human-Level Control through Deep Reinforcement Learning." *Nature* 518 (7540): 529–33. [https://doi.org/10.1038/nature14236][research_mnih_et_al_2015]
+- Moore, Andrew W., and Christopher G. Atkeson. 1993. "Prioritized Sweeping: Reinforcement Learning with Less Data and Less Time." *Machine Learning* 13 (1): 103–30. [https://doi.org/10.1007/bf00993104][research_moore_atkeson_1993]
+- Peng, Jing, and Ronald J. Williams. 1996. "Incremental Multi-Step Q-Learning." *Machine Learning* 22 (1–3): 283–90. [https://doi.org/10.1023/a:1018076709321][research_peng_williams_1996]
+- Peters, Jan, and Stefan Schaal. 2008. "Natural Actor-Critic." *Neurocomputing* 71 (7–9): 1180–90. [https://doi.org/10.1016/j.neucom.2007.11.026][research_peters_schaal_2008]
+- Riedmiller, Martin. 2005. "Neural Fitted Q Iteration – First Experiences with a Data Efficient Neural Reinforcement Learning Method." In *Machine Learning: ECML 2005*. Springer Berlin Heidelberg. [https://doi.org/10.1007/11564096\_32][research_riedmiller_2005]
+- Stachenfeld, Kimberly L., Matthew M. Botvinick, and Samuel J. Gershman. 2017. "The Hippocampus as a Predictive Map." *Nature Neuroscience* 20 (11): 1643–53. [https://doi.org/10.1038/nn.4650][research_stachenfeld_botvinick_gershman_2017]
+- Sutton, Richard S. 1988. "Learning to Predict by the Methods of Temporal Differences." *Machine Learning* 3 (1): 9–44. [https://doi.org/10.1007/bf00115009][research_sutton_1988]
+- Tsitsiklis, John N. 1994. "Asynchronous Stochastic Approximation and Q-Learning." *Machine Learning* 16 (3): 185–202. [https://doi.org/10.1007/bf00993306][research_tsitsiklis_1994]
+- Watkins, Christopher J. C. H., and Peter Dayan. 1992. "Q-Learning." *Machine Learning* 8 (3–4): 279–92. [https://doi.org/10.1007/bf00992698][research_watkins_dayan_1992]
+- Williams, Ronald J. 1992. "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning." *Machine Learning* 8 (3–4): 229–56. [https://doi.org/10.1007/bf00992696][research_williams_1992]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stanford CS234][ref_stanford_cs234]
-- [Sutton and Barto Second Edition PDF][ref_sutton_barto_pdf]
+### Primary Sources, Non-Peer-Reviewed
+
+- Andrychowicz, Marcin, Filip Wolski, Alex Ray, et al. 2017. "Hindsight Experience Replay." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/453fadbd8a1a3af50a9df4df899537b5-Abstract.html][research_andrychowicz_et_al_2017]
+- Auer, Peter, and Ronald Ortner. 2006. "Logarithmic Online Regret Bounds for Undiscounted Reinforcement Learning." *Advances in Neural Information Processing Systems* 19. [https://papers.nips.cc/paper/2006/hash/c1b70d965ca504aa751ddb62ad69c63f-Abstract.html][research_auer_ortner_2007]
+- Azar, Mohammad Gheshlaghi, Ian Osband, and Rémi Munos. 2017. "Minimax Regret Bounds for Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/azar17a.html][research_azar_osband_munos_2017]
+- Baxter and Bartlett. 2001. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Baxter+Bartlett+2001][research_baxter_bartlett_2001]
+- Bellemare, Marc G., Will Dabney, and Rémi Munos. 2017. "A Distributional Perspective on Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/bellemare17a.html][research_bellemare_dabney_munos_2017]
+- Bellemare, M. G., Y. Naddaf, J. Veness, and M. Bowling. 2013. "The Arcade Learning Environment: An Evaluation Platform for General Agents." *Journal of Artificial Intelligence Research* 47: 253–79. [https://doi.org/10.1613/jair.3912][research_bellemare_naddaf_veness_bowling_2013]
+- Boyan, Justin A., and Andrew W. Moore. 1995. "Generalization in Reinforcement Learning: Safely Approximating the Value Function." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/1994/hash/ef50c335cca9f340bde656363ebd02fd-Abstract.html][research_boyan_moore_1995]
+- Brafman, Ronen I., and Moshe Tennenholtz. 2002. "R-MAX: A General Polynomial Time Algorithm for near-Optimal Reinforcement Learning." *Journal of Machine Learning Research* 3: 213–31. [https://www.jmlr.org/papers/v3/brafman02a.html][research_brafman_tennenholtz_2002]
+- Dabney, Will, Mark Rowland, Marc Bellemare, and Rémi Munos. 2018. "Distributional Reinforcement Learning with Quantile Regression." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11791][research_dabney_rowland_bellemare_munos_2018]
+- Ernst, Damien, Pierre Geurts, and Louis Wehenkel. 2005. "Tree-Based Batch Mode Reinforcement Learning." *Journal of Machine Learning Research* 6: 503–56. [https://www.jmlr.org/papers/v6/ernst05a.html][research_ernst_geurts_wehenkel_2005]
+- Henderson, Peter, Riashat Islam, Philip Bachman, Joelle Pineau, Doina Precup, and David Meger. 2018. "Deep Reinforcement Learning That Matters." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11694][research_henderson_et_al_2018]
+- Jaakkola, Tommi, Michael I. Jordan, and Satinder P. Singh. 1994. "On the Convergence of Stochastic Iterative Dynamic Programming Algorithms." *Neural Computation* 6 (6): 1185–1201. [https://doi.org/10.1162/neco.1994.6.6.1185][research_jaakkola_jordan_singh_1994]
+- Jaksch, Thomas, Ronald Ortner, and Peter Auer. 2010. "Near-Optimal Regret Bounds for Reinforcement Learning." *Journal of Machine Learning Research* 11: 1563–1600. [https://www.jmlr.org/papers/v11/jaksch10a.html][research_jaksch_ortner_auer_2010]
+- Kakade, Sham M. 2001. "A Natural Policy Gradient." *Advances in Neural Information Processing Systems* 14. [https://papers.nips.cc/paper/2001/hash/4b86abe48d358ecf194c56c69108433e-Abstract.html][research_kakade_2001]
+- Klopf, A. H. 1972. "Brain Function and Adaptive Systems: A Heterostatic Theory." DTIC, March 3. [https://apps.dtic.mil/sti/citations/AD0742259][research_klopf_1972]
+- Konda, Vijay, and John Tsitsiklis. 1999. "Actor-Critic Algorithms." *Advances in Neural Information Processing Systems* 12. [https://papers.nips.cc/paper/1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html][research_konda_tsitsiklis_2000]
+- Lagoudakis, Michail G., and Ronald Parr. 2003. "Least-Squares Policy Iteration." *Journal of Machine Learning Research* 4: 1107–49. [https://www.jmlr.org/papers/v4/lagoudakis03a.html][research_lagoudakis_parr_2003]
+- Lange, Sascha, Thomas Gabel, and Martin Riedmiller. 2012. "Batch Reinforcement Learning." In *Adaptation, Learning, and Optimization*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-27645-3\_2][research_lange_gabel_riedmiller_2012]
+- Munos, Rémi, and Csaba Szepesvári. 2008. "Finite-Time Bounds for Fitted Value Iteration." *Journal of Machine Learning Research* 9: 815–57. [https://www.jmlr.org/papers/v9/munos08a.html][research_munos_szepesvari_2008]
+- Niv. 2009. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Niv+2009][research_niv_2009]
+- O'Doherty, John, Peter Dayan, Johannes Schultz, Ralf Deichmann, Karl Friston, and Raymond J. Dolan. 2004. "Dissociable Roles of Ventral and Dorsal Striatum in Instrumental Conditioning." *Science* 304 (5669): 452–54. [https://doi.org/10.1126/science.1094285][research_odoherty_et_al_2004]
+- Osband, Ian, Daniel Russo, and Benjamin Van Roy. 2013. "(More) Efficient Reinforcement Learning via Posterior Sampling." *Advances in Neural Information Processing Systems* 26. [https://papers.nips.cc/paper/2013/hash/6a5889bb0190d0211a991f47bb19a777-Abstract.html][research_osband_van_roy_2013]
+- Schulman, John, Philipp Moritz, Sergey Levine, Michael Jordan, and Pieter Abbeel. 2015. "High-Dimensional Continuous Control Using Generalized Advantage Estimation." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1506.02438][research_schulman_moritz_levine_jordan_abbeel_2016]
+- Schultz, Wolfram, Peter Dayan, and P. Read Montague. 1997. "A Neural Substrate of Prediction and Reward." *Science* 275 (5306): 1593–99. [https://doi.org/10.1126/science.275.5306.1593][research_schultz_dayan_montague_1997]
+- Silver, David, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, and Martin Riedmiller. 2014. "Deterministic Policy Gradient Algorithms." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v32/silver14.html][research_silver_et_al_2014]
+- Strehl, Alexander L., Lihong Li, and Michael L. Littman. 2009. "Reinforcement Learning in Finite MDPs: PAC Analysis." *Journal of Machine Learning Research* 10: 2413–44. [https://www.jmlr.org/papers/v10/strehl09a.html][research_strehl_li_littman_2009]
+- Sutton, Richard S. 1996. "Generalization in Reinforcement Learning: Successful Examples Using Sparse Coarse Coding." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/1995/hash/8f1d43620bc6bb580df6e80b0dc05c48-Abstract.html][research_sutton_1996]
+- Sutton, Richard S., A. Rupam Mahmood, and Martha White. 2016. "An Emphatic Approach to the Problem of off-Policy Temporal-Difference Learning." *Journal of Machine Learning Research* 17: 1–29. [https://www.jmlr.org/papers/v17/14-488.html][research_sutton_mahmood_white_2016]
+- Sutton, Richard S., David McAllester, Satinder Singh, and Yishay Mansour. 1999. "Policy Gradient Methods for Reinforcement Learning with Function Approximation." *Advances in Neural Information Processing Systems* 12. [https://papers.nips.cc/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html][research_sutton_mcallester_singh_mansour_2000]
+- van Hasselt. 2010. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=van+Hasselt+2010][research_van_hasselt_2010]
+
+### Secondary Sources
+
+- Bellman. 1957. *Dynamic Programming Princeton Landmarks in Mathematics*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691146683/dynamic-programming][book_bellman_1957]
+- Bertsekas. 2019. *\[Title not identified\]*. [http://www.athenasc.com/rlbook.html][book_bertsekas_2019]
+- Bertsekas, Dimitri P., and Tsitsiklis. 1996. *Neuro-Dynamic Programming*. Athena Scientific. [http://www.athenasc.com/ndpbook.html][book_bertsekas_tsitsiklis_1996]
+- Howard, Ronald Arthur. 1960. *Dynamic Programming and Markov Processes*. MIT Press. [https://mitpress.mit.edu/9780262080095/dynamic-programming-and-markov-processes/][book_howard_1960]
+- Kakade. 2003. *Thesis*. [https://homes.cs.washington.edu/~sham/papers/thesis/sham\_thesis.pdf][book_kakade_thesis_2003]
+- Kushner, Harold J., and Dean S. Clark. 1978. *Stochastic Approximation Methods for Constrained and Unconstrained Systems*. Springer New York. [https://doi.org/10.1007/978-1-4684-9352-8][book_kushner_clark_1978]
+- Moore. 1990. *\[Title not identified\]*. [https://www.cs.cmu.edu/~awm/moorethesis.pdf][book_moore_1990]
+- Puterman, Martin L. 1994. *Markov Decision Processes: Discrete Stochastic Dynamic Programming*. Wiley. [https://doi.org/10.1002/9780470316887][book_puterman_1994]
+- Sutton. 1984. *Thesis*. [http://incompleteideas.net/papers/sutton-84.pdf][book_sutton_1984_thesis]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+- Szepesvari. 2010. *\[Title not identified\]*. [https://sites.ualberta.ca/~szepesva/rlbook.html][book_szepesvari_2010]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- Baird. 1995. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/B9781558603776500452][research_baird_1995]
+- Baird. 1999. "\[Title not identified\]." Accessed October 25, 2026. [https://www.leemon.com/papers/1999b.pdf][research_baird_1999]
+- Barto, Sutton, and Anderson. 1983. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/6313077][research_barto_sutton_anderson_1983]
+- Bayer and Glimcher. 2005. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cell.com/neuron/fulltext/S0896-6273(05)00365-4][research_bayer_glimcher_2005]
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- Bhatnagar, Sutton, Ghavamzadeh, and Lee. 2009. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0005109809002628][research_bhatnagar_et_al_2009]
+- Dayan. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/5/4/613/5679][research_dayan_1993]
+- Gordon. 1995. "A Bayesian Analysis of Algorithms for Learning Finite Functions: Machine Learning Proceedings 1995." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/B9781558603776500268][research_gordon_1995]
+- Jiang and Li. 2016. "DR." [https://proceedings.mlr.press/v48/jiang16.html][research_jiang_li_2016]
+- Kakade and Langford. 2002. "\[Title not identified\]." Accessed October 25, 2026. [https://homes.cs.washington.edu/~sham/papers/rl/aoarl.pdf][research_kakade_langford_2002]
+- Marbach and Tsitsiklis. 2001. "Geometric Analysis of Flight Control Command for Tactical Missile Guidance." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/911375][research_marbach_tsitsiklis_2001]
+- Michie and Chambers. 1968. "\[Title not identified\]." Accessed October 25, 2026. [https://scholar.google.com/scholar?q=Michie+Chambers+BOXES+1968][research_michie_chambers_1968]
+- Munos, Stepleton, Harutyunyan, and Bellemare. 2016. "Retrace." [https://papers.nips.cc/paper/2016/hash/c3992e9a68c5ae12bd18488bc579b30d-Abstract.html][research_munos_stepleton_harutyunyan_bellemare_2016]
+- Ng, Harada, and Russell. 1999. "\[Title not identified\]." Accessed October 25, 2026. [https://www.aaai.org/Papers/ICML/1999/ICML99-041.pdf][research_ng_harada_russell_1999]
+- Precup, Sutton, and Singh. 2000. "\[Title not identified\]." Accessed October 25, 2026. [https://proceedings.mlr.press/v98/precup00a.html][research_precup_sutton_singh_2000]
+- Robbins and Monro. 1951. "\[Title not identified\]." Accessed October 25, 2026. [https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full][research_robbins_monro_1951]
+- Rummery and Niranjan. 1994. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cambridge.org/engineering/reports/on-line-q-learning-using-connectionist-systems][research_rummery_niranjan_1994]
+- Samuel. 1959. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/5392560][research_samuel_1959]
+- Schwartz. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/B9781558603073500454][research_schwartz_1993]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- Sutton. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://dl.acm.org/doi/10.5555/3091622.3091638][research_sutton_1990]
+- Sutton, Maei, Precup, et al. 2009. "\[Title not identified\]." Accessed October 25, 2026. [https://icml.cc/Conferences/2009/papers/546.pdf][research_sutton_maei_precup_2009]
+- "Sutton and Barto Second Edition PDF." n.d. Accessed October 25, 2026. [http://incompleteideas.net/book/RLbook2020.pdf][ref_sutton_barto_pdf]
+- Todorov, Erez, and Tassa. 2012. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/6386109][research_todorov_erez_tassa_2012]
+- Tsitsiklis and Van Roy. 1997. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/580874][research_tsitsiklis_van_roy_1997]
+- Watkins. 1989. "Q-Learning." [https://www.cs.rhul.ac.uk/~chrisw/new\_thesis.pdf][research_watkins_1989]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
-- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
-
-### Research
-
-- [Andrychowicz et al 2017][research_andrychowicz_et_al_2017]
-- [Auer and Ortner 2007][research_auer_ortner_2007]
-- [Azar Osband and Munos 2017][research_azar_osband_munos_2017]
-- [Baird 1995][research_baird_1995]
-- [Baird 1999][research_baird_1999]
-- [Barto Bradtke and Singh 1995][research_barto_bradtke_singh_1995]
-- [Barto Sutton Anderson 1983][research_barto_sutton_anderson_1983]
-- [Baxter and Bartlett 2001][research_baxter_bartlett_2001]
-- [Bayer and Glimcher 2005][research_bayer_glimcher_2005]
-- [Bellemare Dabney and Munos 2017][research_bellemare_dabney_munos_2017]
-- [Bellemare Naddaf Veness Bowling 2013][research_bellemare_naddaf_veness_bowling_2013]
-- [Bhatnagar Sutton Ghavamzadeh Lee 2009][research_bhatnagar_et_al_2009]
-- [Boyan and Moore 1995][research_boyan_moore_1995]
-- [Bradtke and Barto 1996][research_bradtke_barto_1996]
-- [Brafman and Tennenholtz 2002][research_brafman_tennenholtz_2002]
-- [Dabney Rowland Bellemare Munos 2018][research_dabney_rowland_bellemare_munos_2018]
-- [Daw Niv and Dayan 2005][research_daw_niv_dayan_2005]
-- [Dayan 1993][research_dayan_1993]
-- [Ernst Geurts and Wehenkel 2005][research_ernst_geurts_wehenkel_2005]
-- [Gordon 1995][research_gordon_1995]
-- [Henderson et al 2018][research_henderson_et_al_2018]
-- [Jaakkola Jordan and Singh 1994][research_jaakkola_jordan_singh_1994]
-- [Jaksch Ortner and Auer 2010][research_jaksch_ortner_auer_2010]
-- [Jiang and Li 2016][research_jiang_li_2016]
-- [Kakade 2001][research_kakade_2001]
-- [Kakade and Langford 2002][research_kakade_langford_2002]
-- [Kearns and Singh 2002][research_kearns_singh_2002]
-- [Klopf 1972][research_klopf_1972]
-- [Konda and Tsitsiklis 2000][research_konda_tsitsiklis_2000]
-- [Lagoudakis and Parr 2003][research_lagoudakis_parr_2003]
-- [Lange Gabel Riedmiller 2012][research_lange_gabel_riedmiller_2012]
-- [Lin 1992][research_lin_1992]
-- [Mahadevan 1996][research_mahadevan_1996]
-- [Marbach and Tsitsiklis 2001][research_marbach_tsitsiklis_2001]
-- [Michie and Chambers 1968][research_michie_chambers_1968]
-- [Mnih et al 2015][research_mnih_et_al_2015]
-- [Moore and Atkeson 1993][research_moore_atkeson_1993]
-- [Munos and Szepesvari 2008][research_munos_szepesvari_2008]
-- [Munos Stepleton Harutyunyan Bellemare 2016][research_munos_stepleton_harutyunyan_bellemare_2016]
-- [Ng Harada and Russell 1999][research_ng_harada_russell_1999]
-- [Niv 2009][research_niv_2009]
-- [O'Doherty et al 2004][research_odoherty_et_al_2004]
-- [Osband and Van Roy 2013][research_osband_van_roy_2013]
-- [Peng and Williams 1996][research_peng_williams_1996]
-- [Peters and Schaal 2008][research_peters_schaal_2008]
-- [Precup Sutton and Singh 2000][research_precup_sutton_singh_2000]
-- [Riedmiller 2005][research_riedmiller_2005]
-- [Robbins and Monro 1951][research_robbins_monro_1951]
-- [Rummery and Niranjan 1994][research_rummery_niranjan_1994]
-- [Samuel 1959][research_samuel_1959]
-- [Schulman Moritz Levine Jordan Abbeel 2016][research_schulman_moritz_levine_jordan_abbeel_2016]
-- [Schultz Dayan Montague 1997][research_schultz_dayan_montague_1997]
-- [Schwartz 1993][research_schwartz_1993]
-- [Silver et al 2014][research_silver_et_al_2014]
-- [Stachenfeld Botvinick Gershman 2017][research_stachenfeld_botvinick_gershman_2017]
-- [Strehl Li and Littman 2009][research_strehl_li_littman_2009]
-- [Sutton 1988][research_sutton_1988]
-- [Sutton 1990][research_sutton_1990]
-- [Sutton 1996][research_sutton_1996]
-- [Sutton Maei Precup 2009][research_sutton_maei_precup_2009]
-- [Sutton Mahmood White 2016][research_sutton_mahmood_white_2016]
-- [Sutton McAllester Singh Mansour 2000][research_sutton_mcallester_singh_mansour_2000]
-- [Todorov Erez and Tassa 2012][research_todorov_erez_tassa_2012]
-- [Tsitsiklis 1994][research_tsitsiklis_1994]
-- [Tsitsiklis and Van Roy 1997][research_tsitsiklis_van_roy_1997]
-- [van Hasselt 2010][research_van_hasselt_2010]
-- [Watkins 1989][research_watkins_1989]
-- [Watkins and Dayan 1992][research_watkins_dayan_1992]
-- [Williams 1992][research_williams_1992]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Bandits and Online Learning." *Brendan A R Sechter's Development Blog*, December 19. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/19/machines\_that\_learn\_from\_experience\_bandits\_and\_online\_learning.html][related_post_a251_bandits]
 
 [book_bellman_1957]: https://press.princeton.edu/books/paperback/9780691146683/dynamic-programming
 [book_bertsekas_2019]: http://www.athenasc.com/rlbook.html
 [book_bertsekas_tsitsiklis_1996]: http://www.athenasc.com/ndpbook.html
 [book_howard_1960]: https://mitpress.mit.edu/9780262080095/dynamic-programming-and-markov-processes/
 [book_kakade_thesis_2003]: https://homes.cs.washington.edu/~sham/papers/thesis/sham_thesis.pdf
-[book_kushner_clark_1978]: https://link.springer.com/book/10.1007/978-1-4684-9352-8
+[book_kushner_clark_1978]: https://doi.org/10.1007/978-1-4684-9352-8
 [book_moore_1990]: https://www.cs.cmu.edu/~awm/moorethesis.pdf
-[book_puterman_1994]: https://onlinelibrary.wiley.com/doi/book/10.1002/9780470316887
+[book_puterman_1994]: https://doi.org/10.1002/9780470316887
 [book_sutton_1984_thesis]: http://incompleteideas.net/papers/sutton-84.pdf
 [book_sutton_barto_2018]: http://incompleteideas.net/book/the-book-2nd.html
 [book_szepesvari_2010]: https://sites.ualberta.ca/~szepesva/rlbook.html
@@ -722,67 +730,67 @@ Article four develops the deep reinforcement learning wave that these mechanisms
 [research_azar_osband_munos_2017]: https://proceedings.mlr.press/v70/azar17a.html
 [research_baird_1995]: https://www.sciencedirect.com/science/article/pii/B9781558603776500452
 [research_baird_1999]: https://www.leemon.com/papers/1999b.pdf
-[research_barto_bradtke_singh_1995]: https://www.sciencedirect.com/science/article/pii/000437029400011O
+[research_barto_bradtke_singh_1995]: https://doi.org/10.1016/0004-3702(94)00011-o
 [research_barto_sutton_anderson_1983]: https://ieeexplore.ieee.org/document/6313077
-[research_baxter_bartlett_2001]: https://www.jair.org/index.php/jair/article/view/10269
+[research_baxter_bartlett_2001]: https://scholar.google.com/scholar?q=Baxter+Bartlett+2001
 [research_bayer_glimcher_2005]: https://www.cell.com/neuron/fulltext/S0896-6273(05)00365-4
 [research_bellemare_dabney_munos_2017]: https://proceedings.mlr.press/v70/bellemare17a.html
-[research_bellemare_naddaf_veness_bowling_2013]: https://www.jair.org/index.php/jair/article/view/10819
+[research_bellemare_naddaf_veness_bowling_2013]: https://doi.org/10.1613/jair.3912
 [research_bhatnagar_et_al_2009]: https://www.sciencedirect.com/science/article/pii/S0005109809002628
-[research_boyan_moore_1995]: https://papers.nips.cc/paper/1994/hash/b6928e9c1cf1a5b8b0e0f1b9a3f6f8f4-Abstract.html
-[research_bradtke_barto_1996]: https://link.springer.com/article/10.1007/BF00114723
+[research_boyan_moore_1995]: https://papers.nips.cc/paper_files/paper/1994/hash/ef50c335cca9f340bde656363ebd02fd-Abstract.html
+[research_bradtke_barto_1996]: https://doi.org/10.1007/bf00114723
 [research_brafman_tennenholtz_2002]: https://www.jmlr.org/papers/v3/brafman02a.html
-[research_dabney_rowland_bellemare_munos_2018]: https://ojs.aaai.org/index.php/AAAI/article/view/11791
-[research_daw_niv_dayan_2005]: https://www.nature.com/articles/nn1560
+[research_dabney_rowland_bellemare_munos_2018]: https://doi.org/10.1609/aaai.v32i1.11791
+[research_daw_niv_dayan_2005]: https://doi.org/10.1038/nn1560
 [research_dayan_1993]: https://direct.mit.edu/neco/article/5/4/613/5679
 [research_ernst_geurts_wehenkel_2005]: https://www.jmlr.org/papers/v6/ernst05a.html
 [research_gordon_1995]: https://www.sciencedirect.com/science/article/pii/B9781558603776500268
-[research_henderson_et_al_2018]: https://ojs.aaai.org/index.php/AAAI/article/view/11694
-[research_jaakkola_jordan_singh_1994]: https://link.springer.com/article/10.1162/neco.1994.6.6.1185
+[research_henderson_et_al_2018]: https://doi.org/10.1609/aaai.v32i1.11694
+[research_jaakkola_jordan_singh_1994]: https://doi.org/10.1162/neco.1994.6.6.1185
 [research_jaksch_ortner_auer_2010]: https://www.jmlr.org/papers/v11/jaksch10a.html
 [research_jiang_li_2016]: https://proceedings.mlr.press/v48/jiang16.html
 [research_kakade_2001]: https://papers.nips.cc/paper/2001/hash/4b86abe48d358ecf194c56c69108433e-Abstract.html
 [research_kakade_langford_2002]: https://homes.cs.washington.edu/~sham/papers/rl/aoarl.pdf
-[research_kearns_singh_2002]: https://link.springer.com/article/10.1023/A:1017984413808
+[research_kearns_singh_2002]: https://doi.org/10.1023/a:1017984413808
 [research_klopf_1972]: https://apps.dtic.mil/sti/citations/AD0742259
 [research_konda_tsitsiklis_2000]: https://papers.nips.cc/paper/1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html
 [research_lagoudakis_parr_2003]: https://www.jmlr.org/papers/v4/lagoudakis03a.html
-[research_lange_gabel_riedmiller_2012]: https://link.springer.com/chapter/10.1007/978-3-642-27645-3_2
-[research_lin_1992]: https://link.springer.com/article/10.1007/BF00992699
-[research_mahadevan_1996]: https://link.springer.com/article/10.1023/A:1018064306595
+[research_lange_gabel_riedmiller_2012]: https://doi.org/10.1007/978-3-642-27645-3_2
+[research_lin_1992]: https://doi.org/10.1007/bf00992699
+[research_mahadevan_1996]: https://doi.org/10.1023/a:1018064306595
 [research_marbach_tsitsiklis_2001]: https://ieeexplore.ieee.org/document/911375
 [research_michie_chambers_1968]: https://scholar.google.com/scholar?q=Michie+Chambers+BOXES+1968
-[research_mnih_et_al_2015]: https://www.nature.com/articles/nature14236
-[research_moore_atkeson_1993]: https://link.springer.com/article/10.1007/BF00993104
+[research_mnih_et_al_2015]: https://doi.org/10.1038/nature14236
+[research_moore_atkeson_1993]: https://doi.org/10.1007/bf00993104
 [research_munos_stepleton_harutyunyan_bellemare_2016]: https://papers.nips.cc/paper/2016/hash/c3992e9a68c5ae12bd18488bc579b30d-Abstract.html
 [research_munos_szepesvari_2008]: https://www.jmlr.org/papers/v9/munos08a.html
 [research_ng_harada_russell_1999]: https://www.aaai.org/Papers/ICML/1999/ICML99-041.pdf
-[research_niv_2009]: https://www.sciencedirect.com/science/article/pii/S0022249608001004
-[research_odoherty_et_al_2004]: https://www.science.org/doi/10.1126/science.1094285
+[research_niv_2009]: https://scholar.google.com/scholar?q=Niv+2009
+[research_odoherty_et_al_2004]: https://doi.org/10.1126/science.1094285
 [research_osband_van_roy_2013]: https://papers.nips.cc/paper/2013/hash/6a5889bb0190d0211a991f47bb19a777-Abstract.html
-[research_peng_williams_1996]: https://link.springer.com/article/10.1023/A:1018076709321
-[research_peters_schaal_2008]: https://www.sciencedirect.com/science/article/pii/S0925231208000532
+[research_peng_williams_1996]: https://doi.org/10.1023/a:1018076709321
+[research_peters_schaal_2008]: https://doi.org/10.1016/j.neucom.2007.11.026
 [research_precup_sutton_singh_2000]: https://proceedings.mlr.press/v98/precup00a.html
-[research_riedmiller_2005]: https://link.springer.com/chapter/10.1007/11564096_32
+[research_riedmiller_2005]: https://doi.org/10.1007/11564096_32
 [research_robbins_monro_1951]: https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full
 [research_rummery_niranjan_1994]: https://www.cambridge.org/engineering/reports/on-line-q-learning-using-connectionist-systems
 [research_samuel_1959]: https://ieeexplore.ieee.org/document/5392560
-[research_schulman_moritz_levine_jordan_abbeel_2016]: https://arxiv.org/abs/1506.02438
-[research_schultz_dayan_montague_1997]: https://www.science.org/doi/10.1126/science.275.5306.1593
+[research_schulman_moritz_levine_jordan_abbeel_2016]: https://doi.org/10.48550/arxiv.1506.02438
+[research_schultz_dayan_montague_1997]: https://doi.org/10.1126/science.275.5306.1593
 [research_schwartz_1993]: https://www.sciencedirect.com/science/article/pii/B9781558603073500454
 [research_silver_et_al_2014]: https://proceedings.mlr.press/v32/silver14.html
-[research_stachenfeld_botvinick_gershman_2017]: https://www.nature.com/articles/nn.4650
+[research_stachenfeld_botvinick_gershman_2017]: https://doi.org/10.1038/nn.4650
 [research_strehl_li_littman_2009]: https://www.jmlr.org/papers/v10/strehl09a.html
-[research_sutton_1988]: https://link.springer.com/article/10.1007/BF00115009
+[research_sutton_1988]: https://doi.org/10.1007/bf00115009
 [research_sutton_1990]: https://dl.acm.org/doi/10.5555/3091622.3091638
-[research_sutton_1996]: https://papers.nips.cc/paper/1995/hash/f9a40a4780f5e1306c46f1c8daecee3b-Abstract.html
+[research_sutton_1996]: https://papers.nips.cc/paper_files/paper/1995/hash/8f1d43620bc6bb580df6e80b0dc05c48-Abstract.html
 [research_sutton_maei_precup_2009]: https://icml.cc/Conferences/2009/papers/546.pdf
 [research_sutton_mahmood_white_2016]: https://www.jmlr.org/papers/v17/14-488.html
 [research_sutton_mcallester_singh_mansour_2000]: https://papers.nips.cc/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html
 [research_todorov_erez_tassa_2012]: https://ieeexplore.ieee.org/document/6386109
-[research_tsitsiklis_1994]: https://link.springer.com/article/10.1007/BF00993306
+[research_tsitsiklis_1994]: https://doi.org/10.1007/bf00993306
 [research_tsitsiklis_van_roy_1997]: https://ieeexplore.ieee.org/document/580874
-[research_van_hasselt_2010]: https://papers.nips.cc/paper/2010/hash/091d584fced301b442654dd8c23b3fc9-Abstract.html
+[research_van_hasselt_2010]: https://scholar.google.com/scholar?q=van+Hasselt+2010
 [research_watkins_1989]: https://www.cs.rhul.ac.uk/~chrisw/new_thesis.pdf
-[research_watkins_dayan_1992]: https://link.springer.com/article/10.1007/BF00992698
-[research_williams_1992]: https://link.springer.com/article/10.1007/BF00992696
+[research_watkins_dayan_1992]: https://doi.org/10.1007/bf00992698
+[research_williams_1992]: https://doi.org/10.1007/bf00992696

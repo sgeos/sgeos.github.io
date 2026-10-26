@@ -1,0 +1,13 @@
+{
+ "research_bauer_et_al_2023_ada": "research_bauer_et_al_2023",
+ "research_duan_et_al_2016_rl2": "research_duan_schulman_chen_2016_rl2",
+ "research_henderson_et_al_2018_reproducibility": "research_henderson_et_al_2018",
+ "research_kuttler_et_al_2020_nle": "research_kuttler_et_al_2020",
+ "research_openai_et_al_2019_rubiks": "research_openai_dactyl_2019",
+ "research_portelas_et_al_2019": "research_portelas_colas_hofmann_oudeyer_2020",
+ "research_reed_et_al_2022_gato": "research_reed_et_al_2022",
+ "research_tobin_et_al_2017_dr": "research_tobin_et_al_2017",
+ "research_wang_et_al_2018_prefrontal": "research_wang_et_al_2018",
+ "research_wang_et_al_2019_poet": "research_wang_lehman_clune_stanley_2019",
+ "research_zintgraf_et_al_2020_varibad": "research_zintgraf_et_al_2020"
+}

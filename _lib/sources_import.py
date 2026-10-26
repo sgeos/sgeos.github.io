@@ -195,17 +195,32 @@ def build_acronyms(cache, dictionary="/usr/share/dict/words"):
 def headline_case(title):
     """A proposed Chicago headline-case title. Review every result."""
     title = normalise_title(title)
+    # `U.s.` IS A REGISTRY'S SENTENCE CASE of `U.S.`, as Crossref gave Levin and Tadelis 2010.
+    title = re.sub(r"\bU\.s\.", "U.S.", title)
+    acr = acronyms()
+
+    def keep(w):
+        k = re.sub(r"[^\w/&-]", "", w).lower()
+        return bool(re.search(r"\d", w)) or k in acr or (
+            "/" in k and all(len(x) == 1 or x in acr for x in k.split("/") if x))
     words = title.split(" ")
     if len(words) >= 3 and title.isupper():
         # A word holding a digit is a designation, as in `Resolution B3`, and keeps
         # its capitals. An acronym such as `IAU` cannot be told from a word here and
         # needs a title decision.
-        acr = acronyms()
-        def keep(w):
-            k = re.sub(r"[^\w/&-]", "", w).lower()
-            return bool(re.search(r"\d", w)) or k in acr or (
-                "/" in k and all(len(x) == 1 or x in acr for x in k.split("/") if x))
         words = [w if keep(w) else w.lower() for w in words]
+    else:
+        # A PART IN CAPITALS before or after a colon, Open Library's `THE ENTREPRENEURIAL
+        # STATE: Debunking Public vs. Private Sector Myths`, is recased as a whole title is.
+        parts, out_parts = title.split(": "), []
+        for part in parts:
+            pw = part.split(" ")
+            # A DESIGNATION IN CAPITALS, `NASA TN D-1600`, holds a digit and is left alone.
+            if len(pw) >= 2 and part.isupper() and not re.search(r"\d", part) and \
+                    any(len(w) >= 5 and not keep(w) for w in pw):
+                pw = [w if keep(w) else w.lower() for w in pw]
+            out_parts.append(" ".join(pw))
+        words = ": ".join(out_parts).split(" ")
     out = []
     for i, w in enumerate(words):
         first = i == 0 or words[i - 1].endswith((":", "?", "!", "\u2014"))
@@ -243,7 +258,7 @@ _ORG = re.compile(r"\b(Cent(er|re)|Laborator(y|ies)|Lab\.|Labs|Univ\.|Universit[
                   r"Corporation|Corp\.|Co\.|Inc\.?|Company|Agency|Administration|Department|Dept\.|"
                   r"Command|Association|Society|Committee|Directorate|Bureau|Council|"
                   r"Establishment|Facility|Aeronautics|Organi[sz]ation|Lab|Academy|Naval|USDOE|"
-                  r"Research)(?!\w)")
+                  r"Research|Commission|Foundation|Project|Board|Service|Ministry|Museum|Library)(?!\w)")
 _PARTICLES = {"de", "del", "della", "der", "van", "von", "da", "di", "du", "le", "la", "dos", "das", "ten", "ter"}
 
 
@@ -296,6 +311,11 @@ def _repair_people(people):
                 and not _ORG.search(p["name"]):
             p = _person(p["name"]) or p
         fam, giv = (p.get("family") or "").strip(), (p.get("given") or "").strip()
+        # GIVEN NAMES FILED AS THE FAMILY NAME, Elsevier's `{Peter R., Huttenlocher}` for
+        # Huttenlocher 1979: a family ending in an initial beside a one-word given swaps.
+        if re.fullmatch(r"[A-Z][a-z]+(?: [A-Z]\.)+", fam) and re.fullmatch(r"[A-Z][a-z'-]+", giv):
+            fam, giv = giv, fam
+            p = {"family": fam, "given": giv}
         # A SUFFIX ALONE AS THE FAMILY NAME belongs to the name before it, as DTIC
         # deposits `{Binion, T. W.}` then `{Jr}`; with no name before it, as AIAA's
         # `{II, J.}`, it names no one.
@@ -883,6 +903,27 @@ def _fold(x):
     return "".join(c for c in unicodedata.normalize("NFKD", x or "") if not unicodedata.combining(c)).lower()
 
 
+def _imprint(pub):
+    """A publisher as Chicago names it, from a catalogue's imprint statement.
+
+    `Published for the Institute of Early American History and Culture by the
+    University of North Carolina Press` is the press, and a catalogue's lower case,
+    `Yale university press`, is recased.
+    """
+    m = re.match(r"^(?:Published|Printed)\s+(?:for\s+.+?,?\s+)?by\s+(?:the\s+)?(.+?)\.?$", pub, re.I)
+    if m:
+        pub = m.group(1)
+    # A SALES NOTE IN BRACKETS, `[For sale by the Supt. of Docs., U.S. Govt. Print. Off.]`,
+    # names the printer that sold it.
+    m = re.match(r"^\[?For sale by the Supt\. of Docs\., (.+?)\]?$", pub)
+    if m:
+        pub = "U.S. Government Printing Office" if "Print" in m.group(1) else m.group(1)
+    pub = re.sub(r"^\[(.+)\]$", r"\1", pub)
+    if re.search(r"\b(university|press|college|institute)\b", pub) and pub != pub.upper():
+        pub = headline_case(pub.lower()) if not re.search(r"[A-Z]{2}", pub) else pub
+    return pub
+
+
 def record_from_openlibrary(anchor, j, ident, label_year=None, label_who=None):
     """A draft record from a cached Open Library work or edition.
 
@@ -901,7 +942,18 @@ def record_from_openlibrary(anchor, j, ident, label_year=None, label_who=None):
     edition, how, year = j, f"edition {ident}", None
     if ident.startswith("works/"):
         eds = [e for e in j.get("_editions") or [] if e.get("publishers")]
+        # AN AUDIOBOOK OR A TRANSLATION is not the edition an English article read:
+        # A266's 2012 *Why Nations Fail* came out as the Spanish edition, and audio
+        # editions list their narrators as authors. Such editions are passed over
+        # where another qualifies.
+        def readable(e):
+            fmt = " ".join([e.get("physical_format") or ""] + (e.get("publishers") or [])).lower()
+            langs = [x.get("key", "") for x in e.get("languages") or []]
+            return "audio" not in fmt and (not langs or "/languages/eng" in langs)
+        eds = [e for e in eds if readable(e)] or eds
+        wt = _fold(j.get("title") or "")
         same = [e for e in eds if label_year and _ol_year(e) == label_year]
+        same.sort(key=lambda e: _fold(e.get("title") or "") != wt)
         dated = sorted((e for e in eds if _ol_year(e)), key=_ol_year)
         if same:
             edition = same[0]
@@ -922,8 +974,16 @@ def record_from_openlibrary(anchor, j, ident, label_year=None, label_who=None):
     title = sources.clean_text(j.get("title") or edition.get("title") or "")
     sub = sources.clean_text(edition.get("subtitle") or j.get("subtitle") or "")
     if sub and sub.lower() not in title.lower():
-        title += ": " + sub
+        # A TITLE THAT ALREADY RUNS INTO ITS SUBTITLE, Open Library's `From Puritan to
+        # Yankee Character and the Social Order` with the subtitle `Character and the
+        # Social Order in Connecticut`, loses the repeated words before the colon.
+        tw, sw = title.split(), sub.split()
+        k = next((n for n in range(min(len(tw), len(sw)) - 1, 1, -1)
+                  if [w.lower() for w in tw[-n:]] == [w.lower() for w in sw[:n]]), 0)
+        title = " ".join(tw[:len(tw) - k]) + ": " + sub
     year = year or _ol_year(edition) or label_year
+    # A NAME LISTED TWICE, as Open Library lists Genovese for Roll, Jordan, Roll, is one author.
+    names = list(dict.fromkeys(names))
     authors = _authors([p for p in (_person(n) for n in names) if p])
     if label_who:
         wanted, _inc = _people_from_label(label_who)
@@ -937,7 +997,7 @@ def record_from_openlibrary(anchor, j, ident, label_year=None, label_who=None):
            "year": year, "note": f"Metadata from Open Library, {how}."}
     pubs = edition.get("publishers") or []
     if pubs:
-        rec["publisher"] = sources.clean_text(pubs[0])
+        rec["publisher"] = _imprint(sources.clean_text(pubs[0]))
     return rec
 
 
@@ -956,7 +1016,7 @@ WEB_KIND = {
     "government-report": "report", "pdf": "report", "web-article": "web-page", "web-page": "web-page",
     "press-release": "web-page", "speech-or-testimony": "web-page", "dataset": "dataset",
     "standard": "standard", "documentation": "documentation", "book": "book", "chapter": "chapter",
-    "legal": "web-page", "patent": "other",
+    "legal": "web-page", "patent": "other", "proceedings-paper": "proceedings-paper",
 }
 DOMAIN_KEYS = {"stake", "primary", "periodical", "container", "publisher", "kind", "encyclopaedia"}
 LEGACY_KIND = {"Government": "report", "Data": "dataset", "Research": "report", "Report": "report",
@@ -1237,13 +1297,17 @@ def record_from_web(anchor, url, meta, label, rule, read_date):
         # included, which the rules place under Commercial Sources.
         if meta and meta.get("doc_type") == "press-release" and "stake" not in rule:
             rec["stake"] = True
-    elif kind in ("journal-article", "chapter"):
+    elif kind in ("journal-article", "chapter", "proceedings-paper"):
         if not container:
             kind = rec["kind"] = "report"
         else:
             rec["container"] = sources.clean_text(container)
-            if kind == "journal-article":
+            if kind in ("journal-article", "proceedings-paper"):
                 rec["venue"] = rec["container"]
+            # VOLUME AND PAGES as the page's own `citation_*` tags state them.
+            for f in ("volume", "pages"):
+                if (meta or {}).get(f) and read:
+                    rec[f] = sources.clean_text(str(meta[f]))
     elif kind == "documentation":
         rec["container"] = sources.clean_text(container or publisher or _host_of(url))
         rec["accessed"] = read_date
@@ -1324,7 +1388,8 @@ def record_from_related_post(anchor, post_stem, locators=None):
 MINOR_UPPER = {w.upper() for w in MINOR} | {"SPACE", "JAPAN", "OF", "THE", "AND"}
 
 DECISION_KEYS = {"article", "crossref_cache", "wiki_pins", "title", "note", "synthesis", "fix",
-                 "dated_pins", "web_metadata", "domain", "web_read", "openalex_bulk", "report_cache"}
+                 "dated_pins", "web_metadata", "domain", "web_read", "openalex_bulk", "report_cache",
+                 "resolve_links"}
 FIX_KEYS = {"note", "drop", "set"}
 NEW_VENUE_BASIS = "Full-paper peer review not established from the venue's own statement; default deny."
 
@@ -1772,12 +1837,19 @@ def page_metadata(html_text):
     title = first("citation_title", "dc.title", "og:title") or re.sub(r"\s+", " ", p.title).strip() or None
     date = first("citation_publication_date", "citation_date", "dc.date", "article:published_time", "date")
     if date:
-        d = re.search(r"(\d{4})(?:[-/](\d{1,2}))?(?:[-/](\d{1,2}))?", date)
+        # A YEAR ONLY IF PLAUSIBLE: the Avalon Project's pages state `ISO 8601` as a date.
+        d = re.search(r"\b((?:1[4-9]|20)\d\d)(?:[-/](\d{1,2}))?(?:[-/](\d{1,2}))?", date)
         date = "-".join(x.zfill(2) if i else x for i, x in enumerate(g for g in d.groups() if g)) if d else None
+    fp, lp = first("citation_firstpage"), first("citation_lastpage")
     return {"title": sources.clean_text(title) if title else None, "authors": authors,
             "container": first("citation_journal_title", "og:site_name"),
             "publisher": first("citation_publisher", "dc.publisher"),
-            "date": date, "doi": first("citation_doi")}
+            "date": date, "doi": first("citation_doi"),
+            # A PROCEEDINGS PAPER names its conference, a journal article its journal;
+            # `og:type` article marks a dated piece on a news or magazine site.
+            "conference": first("citation_conference_title"), "journal": first("citation_journal_title"),
+            "volume": first("citation_volume"), "og_type": first("og:type"),
+            "pages": f"{fp}-{lp}" if fp and lp and fp != lp else fp}
 
 
 def _site_free_title(title, host, site):
@@ -1985,6 +2057,50 @@ def pin_wikipedia(post_path, saved_dirs, pins_path, at=None):
     return pins
 
 
+def listed_anchors(text):
+    """Anchors a legacy reference list names that the body does not cite."""
+    import sources_resolve
+    body = text.split("\n## References\n")[0]
+    refs = text[len(body):]
+    named = {anc for _lab, anc in LEGACY_ITEM.findall(refs)} | set(sources_resolve.title_first_labels(refs))
+    return sorted(named - sources.cited_anchors(body))
+
+
+def _standin(a, target, label, decisions, recs):
+    """Whether a Wikipedia link stands in for the work its label names, recording that work if so.
+
+    WHY. A200 to A238 often link a book or a paper, `Curry, Haskell B. and Feys,
+    Robert, Combinatory Logic, North-Holland, 1958`, to the Wikipedia article on
+    its subject. The label is what the article cites, so the entry is the work's.
+    It is found by title where a registry agrees with the label, and otherwise
+    built from the label and linked to a search for it, since the Wikipedia page
+    is not the work and three works linking one page would merge into one source.
+    """
+    import urllib.parse
+    import sources_resolve
+    lab = sources_resolve.parse_label(label, a)
+    if not (lab["people"] and lab["year"]):
+        return False
+    rcache = decisions.get("report_cache", "tmp/sources")
+    said = f"The article linked the Wikipedia article {target} in place of the work its label names"
+    rec, how = sources_resolve.registry_record(a, target, label, rcache, decisions["crossref_cache"])
+    if rec:
+        rec["note"] = ((rec.get("note") or "") + f" Resolved from the linked {target}, a Wikipedia article "
+                       f"standing in for the work its label names: {how}.").strip()
+        recs[a] = rec
+        return True
+    q = urllib.parse.quote_plus(" ".join([lab["title"], lab["people"][0]["family"], str(lab["year"])]))
+    book = a.startswith("book_") or (not a.startswith(("paper_", "research_")) and lab["venue"]
+                                     and not re.search(r"\d", lab["venue"]))
+    url = f"https://openlibrary.org/search?q={q}" if book else f"https://scholar.google.com/scholar?q={q}"
+    built = sources_resolve.record_from_label(a, url, label, {"kind": "book"} if a.startswith("book_") else {},
+                                              decisions.get("web_read", ""), said)
+    if not built:
+        return False
+    recs[a] = built
+    return True
+
+
 def import_post(post_path, decisions, venues, store=None, article=None):
     """Draft records for every source a post defines, with its decisions applied.
 
@@ -2004,6 +2120,10 @@ def import_post(post_path, decisions, venues, store=None, article=None):
                 continue
             web_meta[m["url"]] = m
     labels = {anc: lab for lab, anc in LEGACY_ITEM.findall(text)}
+    fuller = {}
+    if decisions.get("resolve_links"):
+        import sources_resolve
+        labels, fuller = sources_resolve.article_labels(text)
     # THE YEARS THE PROSE CITES EACH WORK BY. A curated citation in the prose can
     # carry the publication year where the reference list's label carries the
     # harvest's, as `[Theodorsen 1935]` beside `Theodorsen 1979`.
@@ -2034,6 +2154,9 @@ def import_post(post_path, decisions, venues, store=None, article=None):
                     errors.append(f"{a}: {target} in neither registry cache, run fetch-crossref")
             except sources.SourceError as e:
                 errors.append(str(e))
+            continue
+        elif target.startswith("https://en.wikipedia.org/") and decisions.get("resolve_links") and \
+                _standin(a, target, labels.get(a, ""), decisions, recs):
             continue
         elif target.startswith("https://en.wikipedia.org/"):
             p = pins.get(a, {})
@@ -2075,6 +2198,20 @@ def import_post(post_path, decisions, venues, store=None, article=None):
                 if h:
                     recs[a] = record_from_harvest(a, target.split()[0], h, decisions["article"], why)
                     continue
+                if settled and decisions.get("resolve_links"):
+                    # A DEAD REPORT LINK in A200 to A296 is resolved like any other link,
+                    # and failing that built from its label, which may give no title.
+                    import sources_resolve
+                    rec, how = sources_resolve.registry_record(a, target.split()[0], labels.get(a, ""),
+                                                               decisions.get("report_cache", "tmp/sources"),
+                                                               decisions["crossref_cache"])
+                    recs[a] = rec or sources_resolve.record_without_title(
+                        a, target.split()[0], labels.get(a, ""), decisions.get("web_read", ""),
+                        f"The {server.upper()} record the article linked is {why.split(' is ')[-1]}")
+                    if rec:
+                        rec["note"] = ((rec.get("note") or "") + f" The article linked {target.split()[0]}, "
+                                       f"whose record {why.split('record ')[-1]}; resolved by its label: {how}.").strip()
+                    continue
                 if settled and labels.get(a) and split_label(labels[a])[2]:
                     # THE SERVER HOLDS NO READABLE RECORD and no harvest record was kept, so
                     # the entry is built from a label that has a title, and says why.
@@ -2100,15 +2237,83 @@ def import_post(post_path, decisions, venues, store=None, article=None):
             else:
                 people_ok = who and _label_names_people(who, j.get("title"))
                 recs[a] = record_from_openlibrary(a, j, ident, y, who if people_ok else None)
+                if decisions.get("resolve_links"):
+                    import sources_resolve
+                    fixed = sources_resolve.check_openlibrary_link(
+                        a, target.split()[0], j, labels.get(a, ""), decisions.get("report_cache", "tmp/sources"),
+                        domain_rule(target, shared_domains), decisions.get("web_read", ""))
+                    if fixed:
+                        recs[a] = fixed
         elif target.startswith("{% post_url"):
             m = re.match(r"\{% post_url (\S+) %\}(?:#(\S+))?", target)
             related.setdefault(m.group(1), []).append((a, m.group(2)))
         elif target.startswith(("https://", "http://")) and decisions.get("web_read"):
             url = target.split()[0]
+            rule = domain_rule(url, {**shared_domains, **decisions.get("domain", {})})
+            meta = web_meta.get(url)
+            if decisions.get("resolve_links"):
+                # A LINK THAT IS NOT A DOI is resolved to a registry record where its
+                # URL names one or its label's title finds one, and the record is
+                # used only if it agrees with the label. See `sources_resolve`.
+                import sources_resolve
+                rcache = decisions.get("report_cache", "tmp/sources")
+                rec, how = sources_resolve.registry_record(a, url, labels.get(a, ""), rcache,
+                                                           decisions["crossref_cache"], fuller.get(a))
+                if rec:
+                    rec["note"] = ((rec.get("note") or "") + f" Resolved from the linked {url}: {how}.").strip()
+                    recs[a] = rec
+                    continue
+                # A BOOK linked to its publisher's page is a book whatever the page is.
+                if a.startswith("book_") and not rule.get("kind"):
+                    rule = dict(rule, kind="book")
+                wrong = sources_resolve.wrong_link(url, labels.get(a, ""), a, rcache, decisions["crossref_cache"])
+                if wrong:
+                    # THE LINK NAMES ANOTHER WORK, so the entry is the label's, linked to a
+                    # search for it, and its note says where the article's link led.
+                    lab = sources_resolve.search_label(labels.get(a, ""), a)
+                    said = (f"The article linked {url}, which is {wrong[0]!r} by {wrong[1]} and others, not the "
+                            f"work its label names")
+                    at = sources_resolve.search_url(lab, a.startswith("book_"))
+                    recs[a] = (sources_resolve.record_from_label(a, at, labels.get(a, ""), rule,
+                                                                 decisions["web_read"], said)
+                               or sources_resolve.record_without_title(a, at, labels.get(a, ""),
+                                                                      decisions["web_read"], said))
+                    if recs[a]["title"] == sources_resolve.UNIDENTIFIED or recs[a]["kind"] == "web-page":
+                        recs[a]["kind"] = "book" if a.startswith("book_") else "report"
+                    if lab["title"] and not lab.get("hinted") and recs[a]["title"] == sources_resolve.UNIDENTIFIED:
+                        recs[a]["title"] = recs[a]["title_published"] = lab["title"]
+                    continue
+                search = sources_resolve.is_search(url)
+                meta = meta or ({"status": "not-a-document"} if search else
+                                sources_resolve.page_meta(rcache, url, labels.get(a, "")))
+                if meta is None or meta.get("status") == "not-a-document":
+                    why = ("The link is a search or home page, not the document cited" if search
+                           else "The page could not be read (no metadata)")
+                    built = sources_resolve.record_from_label(a, url, labels.get(a, ""), rule,
+                                                              decisions["web_read"], why)
+                    if built:
+                        recs[a] = built
+                        continue
+                    lab = sources_resolve.parse_label(labels.get(a, ""), a)
+                    if lab["people"] and lab["year"] and not lab["title"]:
+                        # `Boehm 1981` UNREAD: the label gives no title to print.
+                        recs[a] = sources_resolve.record_without_title(
+                            a, url, fuller.get(a, labels.get(a, "")), decisions["web_read"], why)
+                        recs[a]["kind"] = rule.get("kind") or ("book" if a.startswith("book_") else "web-page")
+                        if recs[a]["kind"] == "web-page":
+                            recs[a]["accessed"] = decisions["web_read"]
+                        continue
             try:
-                recs[a] = record_from_web(a, url, web_meta.get(url), labels.get(a, ""),
-                                          domain_rule(url, {**shared_domains, **decisions.get("domain", {})}),
-                                          decisions["web_read"])
+                recs[a] = record_from_web(a, url, meta, labels.get(a, ""), rule, decisions["web_read"])
+                if decisions.get("resolve_links") and not sources.creators(recs[a]) and meta and \
+                        meta.get("status") == "read":
+                    # A PAGE NAMING NO AUTHOR takes the label's, the fuller of the list's and the prose's.
+                    people = sources_resolve.parse_label(fuller.get(a, labels.get(a, "")), a)["people"]
+                    if people and recs[a].get("kind") != "web-page" or people and a.startswith(
+                            sources_resolve.PEOPLE_PREFIXES):
+                        recs[a]["authors"] = [dict(p) for p in people]
+                        recs[a]["note"] = ((recs[a].get("note") or "") + " The page names no author; the authors "
+                                           "are the article's label's.").strip()
             except sources.SourceError as e:
                 # A CONVERTED POST NO LONGER CARRIES ITS LEGACY LABELS, so a page that
                 # was built from one is rebuilt from the stored record instead.
@@ -2159,7 +2364,14 @@ def import_post(post_path, decisions, venues, store=None, article=None):
             # THE COMMA FORM ASSUMES A CATEGORY FIRST, `Research, Who 2020, Title`. An
             # X-Planes short-title label, `Technology Demonstrator, Close Air 2023`, has
             # none, and reading it so made `Close Air` an author.
-            if k is not None and parts_l[0] in LEGACY_KIND:
+            if decisions.get("resolve_links"):
+                # THE A200 TO A296 LABELS are parsed by the resolver, which reads the
+                # bibliography form `Family, Given, Title, Publisher, Year` as well.
+                import sources_resolve
+                lab = sources_resolve.parse_label(labels.get(a, ""), a)
+                if lab["people"] and sources_resolve.title_agrees(lab["title"] or r.get("title", ""), r.get("title", "")):
+                    who = " and ".join(p["family"] for p in lab["people"]) + f" {lab['year']}"
+            elif k is not None and parts_l[0] in LEGACY_KIND:
                 who = ", ".join(parts_l[1:k + 1])
             else:
                 # A LABEL IN THE X-PLANES FORMS, `Smith et al 2012` or `Who 2002 Title`,
@@ -2177,6 +2389,43 @@ def import_post(post_path, decisions, venues, store=None, article=None):
                                   for p in people):
                     r["authors"] = people
                     r["note"] = "The registry lists no author; the surnames are from the article's label."
+    if decisions.get("resolve_links"):
+        # A REGISTRY LISTING ONLY SOME OF THE LABEL'S AUTHORS, Crossref's Stulz alone
+        # for Lang and Stulz 1994, takes the label's list, which was checked when the
+        # article was drafted, keeping the registry's full names for those it names.
+        import sources_resolve
+        for a, r in recs.items():
+            if r.get("kind") in ("wikipedia", "related-post") or not r.get("authors"):
+                continue
+            lab = sources_resolve.parse_label(fuller.get(a, labels.get(a, "")), a)
+            fams = [p.get("family") for p in lab["people"] if p.get("family")]
+            have = {sources_resolve._fold(x.get("family") or ""): x for x in r["authors"] if x.get("family")}
+            if lab.get("incomplete") or len(fams) <= len(r["authors"]) or len(have) != len(r["authors"]):
+                continue
+            if all(k in {sources_resolve._fold(f) for f in fams} for k in have):
+                r["authors"] = [have.get(sources_resolve._fold(f)) or {"family": f} for f in fams]
+                r["note"] = ((r.get("note") or "") + f" The registry lists {len(have)} of the label's {len(fams)} "
+                             f"authors; the others are the label's.").strip()
+    if decisions.get("resolve_links"):
+        # A RECORD DATED LONG AFTER THE YEAR THE ARTICLE CITES. A book is a reprint or a
+        # translation, *Phenomenology of Perception* cited as 1945 and linked in its 2002
+        # English edition, which Chicago gives as `(1945) 2002`. Anything else was
+        # registered late, as AAAI deposited ICWSM's 2013 papers in 2021, so the year
+        # is the article's.
+        import sources_resolve
+        for a, r in recs.items():
+            y = sources_resolve.parse_label(labels.get(a, ""), a)["year"]
+            if not (y and r.get("year") and r["year"] > y + 2) or r.get("kind") in ("wikipedia", "related-post"):
+                continue
+            if r.get("kind") in ("book", "chapter"):
+                r["original_year"] = y
+                r["note"] = ((r.get("note") or "") + f" The edition linked is of {r['year']}; the article cites the "
+                             f"work by {y}, its original year.").strip()
+            else:
+                r["note"] = ((r.get("note") or "") + f" The registry dates it {r['year']}, later than the {y} the "
+                             f"article cites it by, which is taken as the year of publication.").strip()
+                r["year"] = y
+                r.pop("published", None)
     for a, f in decisions.get("fix", {}).items():
         for k in f.get("drop", []):
             recs[a].pop(k, None)
@@ -2215,7 +2464,13 @@ def identity(r):
         return ("wikipedia", r.get("title_published"), (r.get("revision") or {}).get("oldid"))
     if r.get("doi"):
         return ("doi", r["doi"].lower())
-    return ("url", r.get("url"))
+    # A PAGE IS NOT A WORK. A262 links Werbos 1987 and Barto, Sutton and Anderson 1983 to
+    # one IEEE page, and A267 two volumes of Cremin's American Education to one
+    # publisher's page, so a work cited by URL is identified by the URL with its year
+    # and first author, and two works sharing a link stay two sources.
+    who = sources.creators(r)[:1]
+    first = re.sub(r"[^a-z]", "", ((who[0].get("family") or who[0].get("name") or "") if who else "").lower())
+    return ("url", r.get("url"), r.get("year"), first)
 
 
 def _renamed(anchor, ident, taken):
@@ -2240,7 +2495,14 @@ def _renamed(anchor, ident, taken):
 _PROVENANCE = re.compile(r"^(Metadata from (the NASA Technical Reports Server|the OSTI|Open Library|OpenAlex)|"
                          r"Not held by Crossref; metadata from OpenAlex\.|"
                          r"The registry lists no author; the surnames are from the article's label\.|"
-                         r"The registry gives no date; \d{4} is the year the article cites it by\.)")
+                         r"The registry gives no date; \d{4} is the year the article cites it by\.|"
+                         # The resolver's and the label fallback's own accounts, A200 to A296.
+                         r"Resolved from the linked |The page could not be read|"
+                         r"The link is a search or home page|The article linked |"
+                         r"Read from (the page|the Internet Archive capture)|NeurIPS files the paper under |"
+                         r"The registry lists \d+ of the label's |The edition linked is of |"
+                         r"The registry dates it \d{4}, later than |"
+                         r"The (NTRS|OSTI|OPENLIBRARY) record the article linked )")
 
 
 def _rebuildable_note(note):
@@ -2700,6 +2962,10 @@ def main(argv):
             sources.save_venues(all_venues)
             sources.save_records(merged)
             sources.save_article_map(map_post, amap)
+            # WORKS THE LIST NAMES AND THE PROSE DOES NOT CITE stay in the list.
+            text = open(a.post, encoding="utf-8").read()
+            if sources.MARKER not in text:
+                sources.save_listed(map_post, listed_anchors(text))
             print("written")
         return 1 if conflicts else 0
     except (sources.SourceError, OSError, ValueError) as e:

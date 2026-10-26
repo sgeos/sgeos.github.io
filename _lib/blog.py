@@ -28,6 +28,7 @@ DISPATCH = {
     "harvest": ("harvest", "the survey pipeline: harvest, select, master, assemble"),
     "sources": ("sources", "validate the source database, render, write or check References"),
     "import": ("sources_import", "fetch-crossref, pin-wiki and import a post into the source database"),
+    "links": ("sources_resolve", "resolve links that are not DOIs to registry records that agree with their labels"),
     "diction": ("diction", "word, phrase, opener, shape and creep checks against the corpus"),
     "numbers": ("numcheck", "recompute every number a claims file names, and prove each can fail"),
     "campaign": ("campaign", "status or run a corpus campaign file, dry run by default"),

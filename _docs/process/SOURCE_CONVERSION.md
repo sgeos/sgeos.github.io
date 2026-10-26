@@ -3,8 +3,9 @@
 > **Navigation**: [Process](./README.md) | [Citation Style](../writing/CITATION_STYLE.md) | [Source Database](../../_sources/README.md)
 
 How an article's legacy reference list is converted to Chicago author-date entries generated from the source
-database. Sixteen articles have been converted this way, A369 to A384, all on 2026-10-24. A384 was converted
-first by hand, and the procedure below is what the other fifteen needed.
+database. A200 to A384 have been converted this way, between 2026-10-24 and 2026-10-25. A384 was converted
+first by hand, and the procedure below is what A369 to A383 needed. The X-Planes series and A200 to A296 each
+needed more, described in their own sections.
 
 ## The Procedure
 
@@ -116,6 +117,54 @@ work differs from a single article in three ways.
   or takes a registry's first-publication year. Statistics stated per cluster other than a median, such as
   `415 were published in 2015 or later`, are not yet checked.
 
+## Links That Are Not DOIs, A200 to A296
+
+A200 to A296 were converted on 2026-10-25. Their links are the pages a reader opens, a publisher's book page,
+a JSTOR stable URL, an arXiv abstract, a proceedings site or a search, and only 215 of about 9,500 were DOIs.
+Reading every page did not scale, so `_lib/sources_resolve.py` resolves each link to a registry record and the
+decision file turns it on with `resolve_links = true`.
+
+- **An identifier in the URL.** A DOI in the path, a JSTOR number as `10.2307/N`, a Nature path, an NBER,
+  SSRN or eLife number, an Elsevier PII, an arXiv number or a checked ISBN. An old Elsevier PII spells its DOI,
+  `0004370289900774` being `10.1016/0004-3702(89)90077-4`. A newer one is asked of Crossref. arXiv numbers are
+  read from DataCite, which registers arXiv's DOIs, since arXiv's own interface refused the first request.
+- **A search by the label's title**, Open Library for books and Crossref for the rest. A label with only an
+  author and a year, `Boehm 1981`, is searched by the title its anchor spells,
+  `book_boehm_software_engineering_economics`, a hint used for searching and never printed.
+- **The page itself**, live for proceedings sites whose pages state `citation_*` metadata, otherwise the
+  Internet Archive capture nearest the article's date. A page's own DOI, as IEEE states in its document
+  metadata, leads to the Crossref record.
+- **A proceedings index.** A NeurIPS or PMLR link that serves no paper is matched to the one paper in that
+  year's or volume's index by exactly the label's authors.
+- **The label.** A label written as a bibliography entry, `Church, Alonzo, The Calculi of Lambda-Conversion,
+  Princeton University Press, 1941`, gives a full entry. A label naming only authors and a year gives an entry
+  whose title is marked `[Title not identified]`, never a surname printed as a title.
+
+**A record is used only when it agrees with the label.** `agrees` states the test. A search result must agree
+on the title, the first author and the year. A record the link itself names must agree on the title, or on the
+first author and the year, or, for a label naming an organisation such as `OpenAI 2019`, on the exact year.
+A disagreeing record is reported by `python3 _lib/sources_resolve.py explain POST` and not used.
+
+**Five things the old lists did that the generator now honours.**
+
+- **A work the list names and the prose does not cite stays in the list.** A207 closes with a bibliography it
+  never cites in the prose, and the generator once kept only cited works. Nine X-Planes articles had lost 156
+  works this way and were regenerated. The import records such works in
+  `_sources/articles/<post stem>.listed.json`.
+- **A Wikipedia article standing in for a work** is replaced by the work its label names. A207 linked Curry
+  and Feys's *Combinatory Logic* to the Wikipedia article on combinatory logic.
+- **A linked Open Library work that is not the label's book** is sought again by title, as `booklinks.py`
+  found nine of ten such links wrong in A345 to A347.
+- **A source cited only in the prose** is checked against the prose's own label.
+- **A dead report link** is resolved like any other. Twelve NTRS identifiers in A237 to A289 named no record.
+  Four were relinked to the records found by their authors and titles, two to the journal publication of the
+  same work, and the rest are entries built from their labels.
+
+**Pace.** Crossref's bibliographic search answered about one query in five seconds, Open Library's ISBN
+endpoint as slowly because it imports a book it lacks before answering, and archive captures took five to
+fifteen seconds each. Open Library's search index is fast but mapped one ISBN to the wrong work, so ISBNs go
+through the slow endpoint. dblp and OpenReview answered with browser challenges and are not used.
+
 ## Registry Habits Found So Far
 
 Each of these is now handled by the importer or recorded as a decision, and each has a test.
@@ -157,6 +206,16 @@ Each of these is now handled by the importer or recorded as a decision, and each
 | Work without its edition | Open Library work records | The edition of the label's year, else the nearest |
 | Incomplete author list | Open Library works list the first author | The label's authors |
 | Dead Wikipedia link | `NASA_Helios_Prototype`, `Kratos_BQM-167_Skeeter` | The link corrected to the page's title |
+| Given names filed as the family name | Elsevier's `{Peter R., Huttenlocher}` | Importer swaps |
+| Some of the authors only | Crossref's Stulz alone for Lang and Stulz 1994 | The label's list, the registry's full names kept |
+| DOI registered long after publication | ICWSM's 2013 papers dated 2021 | The year the article cites |
+| Edition long after the original | *Phenomenology of Perception* 1945 in its 2002 English edition | `(1945) 2002` |
+| Translation or audiobook as the label's edition | A Spanish *Why Nations Fail*, narrators as authors | Passed over for an English print edition |
+| Title running into its subtitle, author listed twice | Open Library's Bushman and Genovese | Importer |
+| Imprint statement as the publisher | `Published for the Institute of Early American History and Culture by the University of North Carolina Press` | The press |
+| Particle omitted by the venue | PMLR's `Herke Hoof` | Kept as the venue prints it |
+| Identifier naming another work | arXiv numbers in A250 to A265, `Barreto et al 2019` naming a paper on string theory | Entry from the label, linked to a search, note names the other work |
+| Dead link | 29 NeurIPS hashes, 12 NTRS identifiers | Matched in the proceedings index, relinked, or built from the label |
 
 **Headline casing is a proposal.** The importer keeps registry capitals in later parts of compounds, as in
 `Spin-Off`. It leaves symbols such as `α` alone, cases each side of an em dash, and lowercases the prepositions

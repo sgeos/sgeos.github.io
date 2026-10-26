@@ -133,13 +133,13 @@ $$C_i^{\text{mission}}(t) = C_i^{\text{market}}(t) + \int_0^t g^{\text{mission}}
 
 with the mission-directed increment beyond the market-directed baseline attributable to the mission articulation. The spinoff-to-anchor ratio $\rho = S / D^{\text{anchor}}$ measures the return to the anchor's investment in the form of subsequent commercial-spinoff capability that transfers beyond the original mission.
 
-The developmental-state tradition traces from [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle through [Amsden 1989][book_amsden_1989] Asia's Next Giant, [Wade 1990][book_wade_1990] Governing the Market, [Evans 1995][book_evans_1995] Embedded Autonomy, [Chang 2002][book_chang_2002] Kicking Away the Ladder, [Woo-Cumings 1999][book_woo_cumings_1999] The Developmental State, [Weiss and Thurbon 2021][research_weiss_thurbon_2021] Developmental State or Economic Statecraft, and [Block 2008][research_block_2008] Swimming Against the Current The Rise of a Hidden Developmental State. The framing treats the anchor-demand property through the state-firm coordination that enables the sustained anchor-demand flow across the multi-decade horizon. The state-firm-coordination coefficient admits the compact index form
+The developmental-state tradition traces from [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle through [Amsden 1989][book_amsden_1989] Asia's Next Giant, [Wade 1990][book_wade_1990] Governing the Market, [Evans 1995][book_evans_1995] Embedded Autonomy, [Chang 2002][book_chang_2002] Kicking Away the Ladder, [Woo-Cumings 1999][book_woo_cumings_1999] The Developmental State, [Weiss and Thurbon 2020][research_weiss_thurbon_2021] Developmental State or Economic Statecraft, and [Block 2008][research_block_2008] Swimming Against the Current The Rise of a Hidden Developmental State. The framing treats the anchor-demand property through the state-firm coordination that enables the sustained anchor-demand flow across the multi-decade horizon. The state-firm-coordination coefficient admits the compact index form
 
 $$\text{SFC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{reg}} \cdot \phi^{\text{reg-alignment}}_i + w^{\text{coord}} \cdot I^{\text{formal-coord}}_i$$
 
 with the three weighted components indexing government-revenue share, regulatory-alignment intensity, and formal-coordination institution presence.
 
-The transaction-cost-economics tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1975][research_williamson_1975] Markets and Hierarchies, [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Williamson 2002][research_williamson_2002] The Theory of the Firm as Governance Structure, [Klein Crawford and Alchian 1978][research_klein_crawford_alchian_1978] Vertical Integration Appropriable Rents and the Competitive Contracting Process, [Hart 1988][research_hart_1988] Incomplete Contracts and the Theory of the Firm, and [Grossman and Hart 1986][research_grossman_hart_1986] The Costs and Benefits of Ownership A Theory of Vertical and Lateral Integration. The framing treats the anchor-demand property through the asset-specificity and hold-up problems that shape the anchor-provider governance structure. The asset-specificity index may be written
+The transaction-cost-economics tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1975][research_williamson_1975] Markets and Hierarchies, [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Williamson 2002][research_williamson_2002] The Theory of the Firm as Governance Structure, [Klein et al. 1978][research_klein_crawford_alchian_1978] Vertical Integration Appropriable Rents and the Competitive Contracting Process, [Hart 1988][research_hart_1988] Incomplete Contracts and the Theory of the Firm, and [Grossman and Hart 1986][research_grossman_hart_1986] The Costs and Benefits of Ownership A Theory of Vertical and Lateral Integration. The framing treats the anchor-demand property through the asset-specificity and hold-up problems that shape the anchor-provider governance structure. The asset-specificity index may be written
 
 $$k^{\text{specificity}}_i = 1 - \frac{V^{\text{alternative-use}}_i}{V^{\text{best-use}}_i}$$
 
@@ -151,25 +151,25 @@ $$V^{\text{joint}} = \alpha \cdot V^{\text{public}} + (1 - \alpha) \cdot V^{\tex
 
 with $\alpha$ the public-value weight, $\lambda$ the public-risk-bearing share, and the risk-premium terms indexing the risk-adjusted return to each partner.
 
-The bilateral-monopoly and bargaining-theory tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982] Perfect Equilibrium in a Bargaining Model, [Binmore Rubinstein and Wolinsky 1986][research_binmore_rubinstein_wolinsky_1986] The Nash Bargaining Solution in Economic Modelling, [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications, and [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets. The framing treats the SpaceX-NASA bilateral-monopoly configuration in which the venture holds capability that NASA requires and NASA holds mission-completion authority that the venture requires, producing the bargaining structure that shapes the contract terms. The Nash bargaining solution for the surplus division between the anchor and the provider takes the form
+The bilateral-monopoly and bargaining-theory tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982] Perfect Equilibrium in a Bargaining Model, [Binmore et al. 1986][research_binmore_rubinstein_wolinsky_1986] The Nash Bargaining Solution in Economic Modelling, [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications, and [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets. The framing treats the SpaceX-NASA bilateral-monopoly configuration in which the venture holds capability that NASA requires and NASA holds mission-completion authority that the venture requires, producing the bargaining structure that shapes the contract terms. The Nash bargaining solution for the surplus division between the anchor and the provider takes the form
 
 $$(x^*_A, x^*_P) = \arg\max_{x_A + x_P \leq S} \left[(x_A - d_A)^{\alpha} \cdot (x_P - d_P)^{1 - \alpha}\right]$$
 
 with $S$ the total surplus, $d_A, d_P$ the disagreement payoffs, and $\alpha$ the bargaining-power weight.
 
-The absorptive-capacity framing traces from [Cohen and Levinthal 1990][research_cohen_levinthal_1990] Absorptive Capacity A New Perspective on Learning and Innovation through the subsequent extension in [Zahra and George 2002][research_zahra_george_2002] Absorptive Capacity A Review Reconceptualization and Extension, [Lane Koka and Pathak 2006][research_lane_koka_pathak_2006] The Reification of Absorptive Capacity A Critical Review, and [Todorova and Durisin 2007][research_todorova_durisin_2007] Absorptive Capacity Valuing a Reconceptualization. The framing treats the anchor-demand property through the firm-level capacity to identify, assimilate, and exploit anchor-imposed technical requirements. The framing captures the role of the SpaceX engineering-team absorptive capacity in converting the NASA COTS, Commercial Crew, and HLS requirements into the vehicle-and-spacecraft configurations across the trajectory. The absorptive-capacity intensity admits the compact operationalization
+The absorptive-capacity framing traces from [Cohen and Levinthal 1990][research_cohen_levinthal_1990] Absorptive Capacity A New Perspective on Learning and Innovation through the subsequent extension in [Zahra and George 2002][research_zahra_george_2002] Absorptive Capacity A Review Reconceptualization and Extension, [Lane et al. 2006][research_lane_koka_pathak_2006] The Reification of Absorptive Capacity A Critical Review, and [Todorova and Durisin 2007][research_todorova_durisin_2007] Absorptive Capacity Valuing a Reconceptualization. The framing treats the anchor-demand property through the firm-level capacity to identify, assimilate, and exploit anchor-imposed technical requirements. The framing captures the role of the SpaceX engineering-team absorptive capacity in converting the NASA COTS, Commercial Crew, and HLS requirements into the vehicle-and-spacecraft configurations across the trajectory. The absorptive-capacity intensity admits the compact operationalization
 
 $$AC_i = f\!\left(R\&D_i, H_i^{\text{human-capital}}, T_i^{\text{network-ties}}\right)$$
 
 with the three inputs indexing internal research-and-development intensity, human-capital stock, and external-network-tie density.
 
-The ecosystem-strategy framing traces from [Adner 2012][book_adner_2012] The Wide Lens through [Adner 2017][research_adner_2017] Ecosystem as Structure An Actionable Construct for Strategy, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, and [Jacobides Cennamo and Gawer 2018][research_jacobides_et_al_2018] Towards a Theory of Ecosystems. The framing treats the anchor-demand property through the coordination among the anchor customer, the provider firm, the subcontractor set, and the parallel-provider set that jointly determine the anchor-demand execution across the multi-year contract periods. The framing captures the ecosystem-value-appropriation
+The ecosystem-strategy framing traces from [Adner 2012][book_adner_2012] The Wide Lens through [Adner 2016][research_adner_2017] Ecosystem as Structure An Actionable Construct for Strategy, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, and [Jacobides et al. 2018][research_jacobides_et_al_2018] Towards a Theory of Ecosystems. The framing treats the anchor-demand property through the coordination among the anchor customer, the provider firm, the subcontractor set, and the parallel-provider set that jointly determine the anchor-demand execution across the multi-year contract periods. The framing captures the ecosystem-value-appropriation
 
 $$V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)$$
 
 with $\phi^{\text{appropriation}}\_i$ the fraction of the ecosystem value the firm captures under the anchor-demand configuration.
 
-The financial-sociology framing traces from [Fligstein 2001][book_fligstein_2001] The Architecture of Markets through [Krippner 2011][book_krippner_2011] Capitalizing on Crisis, [MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera, [Ho 2009][book_ho_2009] Liquidated, [Zaloom 2006][book_zaloom_2006] Out of the Pits, and [Preda 2009][book_preda_2009] Framing Finance. The framing treats the anchor-demand property through the financial-market institutional configuration that shapes the accessible capital-raising terms and the role of the anchor-demand backlog in supporting the private-market capital-raising trajectory. The framing draws attention to the role of the CRS-1 backlog in permitting the Series D private-market capital round of approximately 46 million dollars in August 2009 at substantially higher valuation than would have been possible absent the anchor-demand backlog.
+The financial-sociology framing traces from [Fligstein 2001][book_fligstein_2001] The Architecture of Markets through [Krippner 2011][book_krippner_2011] Capitalizing on Crisis, [MacKenzie and MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera, [Ho 2009][book_ho_2009] Liquidated, [Zaloom 2006][book_zaloom_2006] Out of the Pits, and [Preda 2009][book_preda_2009] Framing Finance. The framing treats the anchor-demand property through the financial-market institutional configuration that shapes the accessible capital-raising terms and the role of the anchor-demand backlog in supporting the private-market capital-raising trajectory. The framing draws attention to the role of the CRS-1 backlog in permitting the Series D private-market capital round of approximately 46 million dollars in August 2009 at substantially higher valuation than would have been possible absent the anchor-demand backlog.
 
 The reliability-engineering framing traces from [O'Connor and Kleyner 2012][book_oconnor_kleyner_2012] Practical Reliability Engineering through the aerospace-reliability literature including [Musa 1998][book_musa_1998] Software Reliability Engineering, [Duane 1964][research_duane_1964] Learning Curve Approach to Reliability Monitoring, and the NASA-standard framework in [NASA Standard 8709.22][ref_nasa_std_8709_22] on safety and mission assurance for human-rated missions. The framing treats the anchor-demand property through the reliability-through-iteration mechanism by which successive flight demonstrations tighten the Bayesian posterior on the underlying reliability parameter and support the certification progression across the anchor-demand programs. The Bayesian reliability-posterior form allows
 
@@ -177,7 +177,7 @@ $$R^{\text{cert}}_i \mid \{n^{\text{flights}}, s^{\text{successes}}\} \sim \text
 
 with successive flight outcomes tightening the posterior distribution and supporting the certification decisions.
 
-The complexity and systems-of-systems framing developed in the [Maier 1998][research_maier_1998] Architecting Principles for Systems-of-Systems and [Sage and Cuppan 2001][research_sage_cuppan_2001] On the Systems Engineering and Management of Systems of Systems literature frames the anchor-demand configuration through the coupling between the launch-vehicle subsystem, the spacecraft subsystem, the ground-infrastructure subsystem, the anchor-customer requirements subsystem, and the regulatory-review subsystem that jointly determine the mission-execution outcomes. The framing captures the complexity of the multi-program anchor-demand portfolio and the system-integration challenges the SpaceX trajectory addressed at each anchor-program rung. The [INCOSE 2015][ref_incose_handbook] Systems Engineering Handbook provides the engineering-process framework within which the anchor-demand execution operates. The Nash bargaining solution for the surplus division between the anchor and the provider can be written as
+The complexity and systems-of-systems framing developed in the [Maier 1998][research_maier_1998] Architecting Principles for Systems-of-Systems and [Sage and Cuppan 2001][research_sage_cuppan_2001] On the Systems Engineering and Management of Systems of Systems literature frames the anchor-demand configuration through the coupling between the launch-vehicle subsystem, the spacecraft subsystem, the ground-infrastructure subsystem, the anchor-customer requirements subsystem, and the regulatory-review subsystem that jointly determine the mission-execution outcomes. The framing captures the complexity of the multi-program anchor-demand portfolio and the system-integration challenges the SpaceX trajectory addressed at each anchor-program rung. The [INCOSE Systems Engineering Handbook 2015][ref_incose_handbook] Systems Engineering Handbook provides the engineering-process framework within which the anchor-demand execution operates. The Nash bargaining solution for the surplus division between the anchor and the provider can be written as
 
 $$(x^*_A, x^*_P) = \arg\max_{x_A + x_P \leq S} \left[(x_A - d_A)^{\alpha} \cdot (x_P - d_P)^{1 - \alpha}\right]$$
 
@@ -277,7 +277,7 @@ which quantifies the transitional-period margin the anchor pays to sustain the r
 
 ## Commercial Crew Program 2014-2026
 
-The Commercial Crew Program constitutes the anchor-demand extension from cargo services to human-rated crew services across the 2010 through 2026 period. The program is documented in the [NASA Commercial Crew Program 2014][ref_nasa_ccp_2014] framework, the [GAO 2019 Commercial Crew Program evaluation][ref_gao_ccp_2019], the [NASA Office of Inspector General 2019 Commercial Crew Program evaluation][ref_nasa_oig_ccp_2019], and the [CRS 2018 Commercial Crew Program report][ref_crs_commercial_crew_2018].
+The Commercial Crew Program constitutes the anchor-demand extension from cargo services to human-rated crew services across the 2010 through 2026 period. The program is documented in the [Commercial Crew Program 2014][ref_nasa_ccp_2014] framework, the [GAO 2019 Commercial Crew Program evaluation][ref_gao_ccp_2019], the [NASA Office of Inspector General 2019 Commercial Crew Program evaluation][ref_nasa_oig_ccp_2019], and the [CRS 2018 Commercial Crew Program report][ref_crs_commercial_crew_2018].
 
 The Commercial Crew Program progression proceeded from the Commercial Crew Development Round 1 CCDev-1 in 2010 through the Commercial Crew Development Round 2 CCDev-2 in 2011, the Commercial Crew Integrated Capability CCiCap in 2012, and the Commercial Crew Transportation Capability CCtCap in 2014. Each program round expanded the development-milestone completion under the Space Act Agreement authority, culminating in the fixed-price operational-services contract that the CCtCap round awarded.
 
@@ -309,11 +309,11 @@ with the successive-mission accumulation tightening the posterior distribution a
 
 ## Human Landing System Artemis 2021-2026
 
-The Human Landing System Artemis Program constitutes the anchor-demand extension from ISS-orbit crew services to lunar-surface crew transportation across the 2019 through 2026 period. The program is documented in the [NASA HLS Option A Award Announcement][ref_nasa_hls_optionA_2021], the subsequent [NASA HLS Sustaining Award Announcement][ref_nasa_hls_sustaining_2023], the [GAO 2022 Human Landing System evaluation][ref_gao_hls_2022], the [NASA Office of Inspector General 2021 Human Landing System evaluation][ref_nasa_oig_hls_2021], and the [GAO 2021 Blue Origin HLS protest decision][ref_gao_blue_origin_hls_protest_2021].
+The Human Landing System Artemis Program constitutes the anchor-demand extension from ISS-orbit crew services to lunar-surface crew transportation across the 2019 through 2026 period. The program is documented in the [NASA HLS Option A Award Announcement][ref_nasa_hls_option_a_2021], the subsequent [NASA HLS Sustaining Award Announcement][ref_nasa_hls_sustaining_2023], the [GAO 2022 Human Landing System evaluation][ref_gao_hls_2022], the [NASA Office of Inspector General 2021 Human Landing System evaluation][ref_nasa_oig_hls_2021], and the [GAO 2021 Blue Origin HLS protest decision][ref_gao_blue_origin_hls_protest_2021].
 
 The HLS solicitation began in 2019 under the Vice President-directed acceleration of the Artemis Program lunar-return timeline to 2024. The solicitation received proposals from SpaceX, Blue Origin, and Dynetics, with the initial ten-month base-period awards announced in 2020 distributing development funding across all three providers.
 
-The HLS Option A award on April 16 2021 documented in the [NASA HLS Option A Award Announcement][ref_nasa_hls_optionA_2021] selected SpaceX as the sole provider for the Artemis III lunar landing at approximately 2.89 billion dollars. The per-provider allocation across the initial ten-month base period has the concise tabulation
+The HLS Option A award on April 16 2021 documented in the [NASA HLS Option A Award Announcement][ref_nasa_hls_option_a_2021] selected SpaceX as the sole provider for the Artemis III lunar landing at approximately 2.89 billion dollars. The per-provider allocation across the initial ten-month base period has the concise tabulation
 
 $$\text{allocation}_j^{\text{HLS base}} = \{\text{SpaceX}: 135 \text{ M}, \, \text{Blue Origin}: 579 \text{ M}, \, \text{Dynetics}: 253 \text{ M}\}$$
 
@@ -325,7 +325,7 @@ $$\Delta C^{\text{litigation-delay}} \approx r \cdot V^{\text{contract}} \cdot \
 
 with the discount-rate approximately 8 percent and the delay approximately 8 months, illustrating the opportunity-cost the protest-and-litigation period imposed on the contract execution.
 
-The [NASA HLS Option B award announcement on November 15 2022][ref_nasa_hls_optionB_2022] provided approximately 1.15 billion dollars additional to SpaceX for the Artemis IV lunar landing configuration, incorporating additional cargo-delivery capability and extended lunar-surface duration.
+The [NASA HLS Option B award announcement on November 15 2022][ref_nasa_hls_option_b_2022] provided approximately 1.15 billion dollars additional to SpaceX for the Artemis IV lunar landing configuration, incorporating additional cargo-delivery capability and extended lunar-surface duration.
 
 The NASA HLS Sustaining lunar transportation announcement on May 19 2023 selected Blue Origin as the second provider for the sustaining lunar-transportation architecture across subsequent Artemis missions at approximately 3.4 billion dollars, providing the provider-diversity that the mission-critical crew-transportation category requires. The inclusion of Blue Origin as a second provider addressed the Government Accountability Office recommendation from the [GAO 2022 Human Landing System evaluation][ref_gao_hls_2022] and the [CRS 2022 Artemis Program report][ref_crs_artemis_2022] that identified single-provider concentration as a risk. The historical HLS-and-lunar-transportation context is developed in the [Bilstein 1996][book_bilstein_1996] Stages to Saturn treatment of the Apollo lunar-transportation architecture and the [Chaikin 2007][book_chaikin_2007] A Man on the Moon treatment of the Apollo mission execution. The multi-provider portfolio-share tabulation after the sustaining award admits the compact form
 
@@ -345,7 +345,7 @@ The Starshield defense-service line announced in December 2022 constitutes the a
 
 The Starshield product structure includes three primary components documented in the [SpaceX Starshield product page][ref_spacex_starshield]. First, the Earth-Observation component provides high-resolution optical and radar-imaging capability for classified customers including the National Reconnaissance Office. Second, the Communications component provides secure end-to-end encrypted communications capability for defense and intelligence customers. Third, the Hosted Payloads component provides platform services for customer-payloads on Starshield satellite buses. The [FCC Starlink Generation 2 authorization of December 2022][ref_fcc_starlink_gen2_2022] and the earlier [FCC Starlink authorization of March 2018][ref_fcc_starlink_2018] provide the spectrum-authorization framework within which the Starshield configuration operates, with the defense-service exemptions and classifications documented in the [FCC filings database][ref_fcc_filings].
 
-The National Reconnaissance Office relationship reportedly includes a contract of approximately 1.8 billion dollars announced in 2021 for the classified satellite constellation that the trade-press coverage has reconstructed as the Starshield Earth-Observation configuration. The classified constellation deployment has proceeded across multiple Falcon 9 missions with mission designation as classified national-security payloads. The [Reuters 2024][research_reuters_starshield_2024] investigation and subsequent [New York Times 2024][ref_nyt_starshield_2024] reporting documented the program structure.
+The National Reconnaissance Office relationship reportedly includes a contract of approximately 1.8 billion dollars announced in 2021 for the classified satellite constellation that the trade-press coverage has reconstructed as the Starshield Earth-Observation configuration. The classified constellation deployment has proceeded across multiple Falcon 9 missions with mission designation as classified national-security payloads. The [Reuters 2024][research_reuters_starshield_2024] investigation and subsequent [New York Times Starshield 2024][ref_nyt_starshield_2024] reporting documented the program structure.
 
 The Space Force National Security Space Launch program certification progression provided the launch-services anchor for the SpaceX firm across the parallel Phase 1A, Phase 2, and Phase 3 Lane 2 award periods. The [Space Force NSSL Phase 1A award of 2018][ref_space_force_nssl_phase1a_2018] added SpaceX to the NSSL Phase 1A provider set alongside the United Launch Alliance incumbent. The [Space Force NSSL Phase 2 award of August 2020][ref_space_force_nssl_phase2_2020] provided approximately 40 percent of the NSSL Phase 2 launch missions to SpaceX with the remaining 60 percent to ULA across the fiscal year 2020 through 2024 mission set. The Phase 2 allocation permits the concise tabulation
 
@@ -421,13 +421,13 @@ The Venetian Arsenal from approximately 1104 through the fall of the Venetian Re
 
 The Bell Laboratories under the AT&T regulated-monopoly funding from 1925 through the 1984 divestiture illustrates the research-and-development anchor-demand configuration in which sustained monopoly-rent-financed research produced the technical capability including the transistor 1947, information theory 1948, the C programming language 1969-1972, and the Unix operating system 1969-1973. The Bell Labs case illustrates the anchor-demand property in a distinct institutional configuration where the anchor is the parent-firm rather than an external state customer, but the sustained-funding-for-generic-capability structure resembles the COTS anchor-demand arrangement. The [Gertner 2012][book_gertner_2012] The Idea Factory documents the trajectory.
 
-The Airbus consortium from the 1970 founding through the A300, A320, A330, A340, A350, and A380 family programs illustrates the multi-national government-consortium-backed anchor-demand configuration that supported the challenger emergence to the incumbent Boeing commercial-aircraft position. The European Space Agency Ariane program from the 1979 first flight through the Ariane 6 introduction illustrates the state-consortium-backed anchor-demand configuration in the space-launch sector. The [McIntyre 1992][book_mcintyre_1992] Airbus Industrie and [Chadeau 1996][book_chadeau_1996] Airbus Industrie History document the Airbus trajectory. The [Krige et al 2000][book_krige_et_al_2000] A History of the European Space Agency documents the ESA trajectory. The comparative Airbus and Ariane cases illustrate the European institutional configuration under which the anchor-demand mechanism operates through the consortium structure rather than the United States NASA-plus-Space-Force procurement structure.
+The Airbus consortium from the 1970 founding through the A300, A320, A330, A340, A350, and A380 family programs illustrates the multi-national government-consortium-backed anchor-demand configuration that supported the challenger emergence to the incumbent Boeing commercial-aircraft position. The European Space Agency Ariane program from the 1979 first flight through the Ariane 6 introduction illustrates the state-consortium-backed anchor-demand configuration in the space-launch sector. The [McIntyre 1992][book_mcintyre_1992] Airbus Industrie and [Chadeau 1996][book_chadeau_1996] Airbus Industrie History document the Airbus trajectory. The [Krige 2000][book_krige_et_al_2000] A History of the European Space Agency documents the ESA trajectory. The comparative Airbus and Ariane cases illustrate the European institutional configuration under which the anchor-demand mechanism operates through the consortium structure rather than the United States NASA-plus-Space-Force procurement structure.
 
 The Human Genome Project from 1990 through 2003 under the National Institutes of Health and Department of Energy joint sponsorship illustrates the state-directed biomedical-research anchor-demand configuration in the non-aerospace domain. The project achieved the reference-genome sequencing at approximately 2.7 billion 2003 dollars over thirteen years, and generated the commercial spinoff across the biotechnology, pharmaceutical, and personalized-medicine sectors. The parallel competing effort by the private firm Celera Genomics under Craig Venter illustrates the private-sector challenger dynamics that emerged from the state-directed program structure. The [Collins 2010][book_collins_2010] The Language of Life documents the trajectory.
 
 The DARPA Grand Challenge autonomous-vehicle competition series from 2004 through 2007 illustrates the challenge-prize anchor-demand mechanism in the autonomous-vehicle sector. The 2004 first Grand Challenge produced no vehicle completing the 240-kilometer desert course. The 2005 second Grand Challenge produced five vehicles completing the course with Stanford Racing Team's Stanley winning in approximately 6 hours 54 minutes. The 2007 Urban Challenge produced six finishing vehicles. The prize mechanism differs from the CRS-1 milestone-payment mechanism but shares the state-directed forcing-function anchor-demand structure. The [Bonvillian 2018][research_bonvillian_2018] DARPA and the Advanced Research Projects Agency documents the DARPA institutional configuration.
 
-The Toyota Production System evolution from the 1948 Ohno-directed initial development through the contemporary lean-production architecture illustrates the anchor-demand configuration in which supplier-firms operated under the Toyota Motor Corporation demand arrangement across the multi-decade horizon. The Toyota-supplier relationship exhibited relational-contracting features that the transaction-cost-economics tradition documents, and the application of the Toyota Production System principles to the SpaceX manufacturing operations at the Hawthorne facility is documented in the [Berger 2024][book_berger_2024] Reentry narrative. The [Womack Jones Roos 1990][book_womack_jones_roos_1990] The Machine That Changed the World and [Liker 2004][book_liker_2004] The Toyota Way document the trajectory.
+The Toyota Production System evolution from the 1948 Ohno-directed initial development through the contemporary lean-production architecture illustrates the anchor-demand configuration in which supplier-firms operated under the Toyota Motor Corporation demand arrangement across the multi-decade horizon. The Toyota-supplier relationship exhibited relational-contracting features that the transaction-cost-economics tradition documents, and the application of the Toyota Production System principles to the SpaceX manufacturing operations at the Hawthorne facility is documented in the [Berger 2024][book_berger_2024] Reentry narrative. The [Womack et al. 1990][book_womack_jones_roos_1990] The Machine That Changed the World and [Liker 2004][book_liker_2004] The Toyota Way document the trajectory.
 
 The International Space Station assembly from the 1998 Zarya first launch through the 2011 completion of the primary configuration illustrates the multi-decade state-directed international-cooperation anchor-demand arrangement. The ISS assembly proceeded through approximately forty individual assembly missions across Space Shuttle, Proton, Soyuz, and subsequent Falcon 9 launches, with each mission adding modules, trusses, solar-array segments, and outfitting hardware. The anchor-demand property was realized through the incremental assembly-milestone completion that the NASA-Roscosmos-ESA-JAXA-CSA coordination supported across the multi-decade period.
 
@@ -439,7 +439,7 @@ The scholarly literature specifically on the SpaceX anchor-demand trajectory rem
 
 ### Primary Source Documentation
 
-The primary source documentation for the CRS-1 anchor-demand transition includes the [NASA CRS-1 Award Announcement][ref_nasa_crs1_press_2008], the [NASA COTS 2011 Program History][ref_nasa_cots_2011], the [NASA COTS Report][ref_nasa_cots_report], the [GAO 2011 Commercial Cargo Program report][ref_gao_cots_2011], the [GAO 2009 COTS Program evaluation][ref_gao_cots_2009], the [NASA Office of Inspector General 2013 COTS Program evaluation][ref_nasa_oig_cots_2013], and the [NASA Office of Inspector General 2018 Commercial Cargo Program evaluation][ref_nasa_oig_ccp_cargo_2018]. The primary source documentation for the Commercial Crew Program includes the [NASA Commercial Crew Program 2014 documentation][ref_nasa_ccp_2014], the [NASA CCtCap Award Announcement][ref_nasa_cctcap_press_2014], the [GAO 2019 Commercial Crew Program evaluation][ref_gao_ccp_2019], the [NASA Office of Inspector General 2019 Commercial Crew Program evaluation][ref_nasa_oig_ccp_2019], and the [CRS 2018 Commercial Crew Program report][ref_crs_commercial_crew_2018]. The primary source documentation for the Human Landing System Program includes the [NASA HLS Option A Award Announcement][ref_nasa_hls_optionA_2021], the [NASA HLS Sustaining Award Announcement][ref_nasa_hls_sustaining_2023], the [GAO 2022 Human Landing System evaluation][ref_gao_hls_2022], the [NASA Office of Inspector General 2021 Human Landing System evaluation][ref_nasa_oig_hls_2021], and the [GAO 2021 Blue Origin HLS protest decision][ref_gao_blue_origin_hls_protest_2021].
+The primary source documentation for the CRS-1 anchor-demand transition includes the [NASA CRS-1 Award Announcement][ref_nasa_crs1_press_2008], the [NASA COTS 2011 Program History][ref_nasa_cots_2011], the [NASA COTS Report][ref_nasa_cots_report], the [GAO 2011 Commercial Cargo Program report][ref_gao_cots_2011], the [GAO 2009 COTS Program evaluation][ref_gao_cots_2009], the [NASA Office of Inspector General 2013 COTS Program evaluation][ref_nasa_oig_cots_2013], and the [NASA Office of Inspector General 2018 Commercial Cargo Program evaluation][ref_nasa_oig_ccp_cargo_2018]. The primary source documentation for the Commercial Crew Program includes the [NASA Commercial Crew Program 2014 documentation][ref_nasa_ccp_2014], the [NASA CCtCap Award Announcement][ref_nasa_cctcap_press_2014], the [GAO 2019 Commercial Crew Program evaluation][ref_gao_ccp_2019], the [NASA Office of Inspector General 2019 Commercial Crew Program evaluation][ref_nasa_oig_ccp_2019], and the [CRS 2018 Commercial Crew Program report][ref_crs_commercial_crew_2018]. The primary source documentation for the Human Landing System Program includes the [NASA HLS Option A Award Announcement][ref_nasa_hls_option_a_2021], the [NASA HLS Sustaining Award Announcement][ref_nasa_hls_sustaining_2023], the [GAO 2022 Human Landing System evaluation][ref_gao_hls_2022], the [NASA Office of Inspector General 2021 Human Landing System evaluation][ref_nasa_oig_hls_2021], and the [GAO 2021 Blue Origin HLS protest decision][ref_gao_blue_origin_hls_protest_2021].
 
 ### Biographical and Case Study Literature
 
@@ -447,7 +447,7 @@ The biographical literature on the anchor-demand trajectory is dominated by the 
 
 ### Procurement-Economics and Public-Administration Literature
 
-The procurement-economics literature treats the COTS milestone-payment fixed-price mechanism as an instance of the general procurement-mechanism-design problem. The [Laffont and Tirole 1993][book_laffont_tirole_1993] theoretical treatment provides the incentive-compatibility framework within which the COTS mechanism allows characterization. The [McAfee and McMillan 1988][book_mcafee_mcmillan_1988] Incentives in Government Contracting treatment provides the applied-procurement-economics framework. Additional treatments include [Bajari and Tadelis 2001][research_bajari_tadelis_2001] Incentives Versus Transaction Costs A Theory of Procurement Contracts, [Bajari McMillan and Tadelis 2009][research_bajari_mcmillan_tadelis_2009] Auctions Versus Negotiations in Procurement An Empirical Analysis, [Che and Chung 1999][research_che_chung_1999] A Dynamic Model of Contract Renegotiation, and [Gagnepain and Ivaldi 2002][research_gagnepain_ivaldi_2002] Incentive Regulatory Policies The Case of Public Transit Systems in France. The public-administration literature treats the COTS procurement-mechanism innovation in journals including [Public Administration Review][ref_public_admin_review] and specialist procurement journals such as the [Journal of Public Procurement][ref_journal_public_procurement].
+The procurement-economics literature treats the COTS milestone-payment fixed-price mechanism as an instance of the general procurement-mechanism-design problem. The [Laffont and Tirole 1993][book_laffont_tirole_1993] theoretical treatment provides the incentive-compatibility framework within which the COTS mechanism allows characterization. The [McAfee and McMillan 1988][book_mcafee_mcmillan_1988] Incentives in Government Contracting treatment provides the applied-procurement-economics framework. Additional treatments include [Bajari and Tadelis 2001][research_bajari_tadelis_2001] Incentives Versus Transaction Costs A Theory of Procurement Contracts, [Bajari et al. 2008][research_bajari_mcmillan_tadelis_2009] Auctions Versus Negotiations in Procurement An Empirical Analysis, [Che and Chung 1999][research_che_chung_1999] A Dynamic Model of Contract Renegotiation, and [Gagnepain and Ivaldi 2002][research_gagnepain_ivaldi_2002] Incentive Regulatory Policies The Case of Public Transit Systems in France. The public-administration literature treats the COTS procurement-mechanism innovation in journals including [Public Administration Review][ref_public_admin_review] and specialist procurement journals such as the [Journal of Public Procurement][ref_journal_public_procurement].
 
 ### Space Policy and Aerospace-Industrial Literature
 
@@ -459,7 +459,7 @@ The contract-design empirical literature that treats the milestone-payment fixed
 
 ### Space Legal Literature
 
-The space-legal literature that treats the regulatory and international-treaty framework within which the anchor-demand configuration operates includes the [Journal of Space Law][ref_journal_space_law], the [Space Legislation Review][ref_space_legislation_review], and the commentary on the [U S Commercial Space Launch Competitiveness Act of 2015][ref_uscsla_2015] that established the celestial-resource-rights framework relevant to the HLS mission architecture. The outer-space-treaty context appears in the [United Nations Outer Space Treaty of 1967][ref_un_outer_space_treaty_1967] and the [United Nations Liability Convention of 1972][ref_un_liability_convention_1972] and [United Nations Registration Convention of 1976][ref_un_registration_convention_1976] treaties that govern the launch-state-registration and international-liability framework.
+The space-legal literature that treats the regulatory and international-treaty framework within which the anchor-demand configuration operates includes the [Journal of Space Law][ref_journal_space_law], the [Space Legislation Review][ref_space_legislation_review], and the commentary on the [U S Commercial Space 2015][ref_uscsla_2015] that established the celestial-resource-rights framework relevant to the HLS mission architecture. The outer-space-treaty context appears in the [United Nations Outer Space 1967][ref_un_outer_space_treaty_1967] and the [United Nations Liability Convention 1972][ref_un_liability_convention_1972] and [United Nations Registration Convention 1976][ref_un_registration_convention_1976] treaties that govern the launch-state-registration and international-liability framework.
 
 ### Comparative-Firm Literature
 
@@ -471,7 +471,7 @@ Several topics have generated distinct emerging scholarly literatures relevant t
 
 ### Public Policy and Space-Governance Literature
 
-The public-policy and space-governance literature that treats the NASA-SpaceX and Space Force-SpaceX institutional configurations includes the [Space Policy Online][ref_space_policy_online] policy-analysis coverage, the [Journal of Space Law][ref_journal_space_law] scholarly treatment, and the [Public Administration Review][ref_public_admin_review] treatment of the COTS procurement-mechanism innovation. The international-treaty context that governs the launch-state-registration and international-liability framework appears in the [United Nations Outer Space Treaty of 1967][ref_un_outer_space_treaty_1967], the [United Nations Liability Convention of 1972][ref_un_liability_convention_1972], and the [United Nations Registration Convention of 1976][ref_un_registration_convention_1976].
+The public-policy and space-governance literature that treats the NASA-SpaceX and Space Force-SpaceX institutional configurations includes the [Space Policy Online][ref_space_policy_online] policy-analysis coverage, the [Journal of Space Law][ref_journal_space_law] scholarly treatment, and the [Public Administration Review][ref_public_admin_review] treatment of the COTS procurement-mechanism innovation. The international-treaty context that governs the launch-state-registration and international-liability framework appears in the [United Nations Outer Space 1967][ref_un_outer_space_treaty_1967], the [United Nations Liability Convention 1972][ref_un_liability_convention_1972], and the [United Nations Registration Convention 1976][ref_un_registration_convention_1976].
 
 ### Trade Press and Journalistic Record
 
@@ -555,9 +555,9 @@ $$V^{\text{anchor-option}}_t = \max\!\left\{V^{\text{exercise}}_t, \, e^{-r \Del
 
 with the anchor customer choosing at each stage between exercising the option through award and deferring for additional information accumulation. The framing complements the milestone-payment framing by treating the award-timing decisions as first-order objects of analysis.
 
-The actor-network-theory framing developed in [Latour 1987][book_latour_1987] Science in Action, [Callon 1986][research_callon_1986] Some Elements of a Sociology of Translation, and [Law 1987][research_law_1987] Technology and Heterogeneous Engineering frames the anchor-demand configuration as a heterogeneous network of human and non-human actors whose alignment constitutes the contract-execution outcomes. The framing treats the translation moves through which the SpaceX firm assembles the network across engineers, launch-vehicle components, regulatory reviewers, NASA program office personnel, Congressional appropriators, and contract-management infrastructure across each successive anchor-program cycle as first-order objects of analysis. The framing complements the mission-oriented-innovation framing by treating the mission-articulation itself as an object of network-building.
+The actor-network-theory framing developed in [Latour 1987][book_latour_1987] Science in Action, [Callon 1984][research_callon_1986] Some Elements of a Sociology of Translation, and [Law 1987][research_law_1987] Technology and Heterogeneous Engineering frames the anchor-demand configuration as a heterogeneous network of human and non-human actors whose alignment constitutes the contract-execution outcomes. The framing treats the translation moves through which the SpaceX firm assembles the network across engineers, launch-vehicle components, regulatory reviewers, NASA program office personnel, Congressional appropriators, and contract-management infrastructure across each successive anchor-program cycle as first-order objects of analysis. The framing complements the mission-oriented-innovation framing by treating the mission-articulation itself as an object of network-building.
 
-The resource-based-view and dynamic-capabilities framing developed in [Wernerfelt 1984][research_wernerfelt_1984] A Resource-Based View of the Firm and [Barney 1991][research_barney_1991] Firm Resources and Sustained Competitive Advantage, extended in [Teece Pisano Shuen 1997][research_teece_pisano_shuen_1997] Dynamic Capabilities and Strategic Management, frames the SpaceX anchor-demand trajectory as an instance of firm-capability accumulation that produced the sustained competitive advantage across the anchor-program competitions. The resource-heterogeneity index has the form
+The resource-based-view and dynamic-capabilities framing developed in [Wernerfelt 1984][research_wernerfelt_1984] A Resource-Based View of the Firm and [Barney 1991][research_barney_1991] Firm Resources and Sustained Competitive Advantage, extended in [Teece et al. 1997][research_teece_pisano_shuen_1997] Dynamic Capabilities and Strategic Management, frames the SpaceX anchor-demand trajectory as an instance of firm-capability accumulation that produced the sustained competitive advantage across the anchor-program competitions. The resource-heterogeneity index has the form
 
 $$H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)$$
 
@@ -619,275 +619,281 @@ The competitive-response timeline under which the alternative launch providers w
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Adner 2012 The Wide Lens][book_adner_2012]
-- [Amsden 1989 Asia's Next Giant][book_amsden_1989]
-- [Anderson 2023 The Space Economy][book_anderson_2023]
-- [Andrewes 1996 The Quest for Longitude][book_andrewes_1996]
-- [Berger 2021 Liftoff][book_berger_2021]
-- [Berger 2024 Reentry][book_berger_2024]
-- [Bilstein 1996 Stages to Saturn][book_bilstein_1996]
-- [Bilstein 2001 Flight in America][book_bilstein_2001]
-- [Bird and Sherwin 2005 American Prometheus][book_bird_sherwin_2005]
-- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
-- [Chadeau 1996 Airbus Industrie History][book_chadeau_1996]
-- [Chaikin 2007 A Man on the Moon][book_chaikin_2007]
-- [Chang 2002 Kicking Away the Ladder][book_chang_2002]
-- [Christensen 1997 The Innovator's Dilemma][book_christensen_1997]
-- [Collins 2010 The Language of Life][book_collins_2010]
-- [Concina 2006 A History of Venetian Architecture][book_concina_2006]
-- [Crouch 2003 Wings A History of Aviation from Kites to the Space Age][book_crouch_2003]
-- [Davenport 2018 The Space Barons][book_davenport_2018]
-- [Dixit and Pindyck 1994 Investment Under Uncertainty][book_dixit_pindyck_1994]
-- [Evans 1995 Embedded Autonomy][book_evans_1995]
-- [Fallows 1981 National Defense][book_fallows_1981]
-- [Fernholz 2018 Rocket Billionaires][book_fernholz_2018]
-- [Fligstein 2001 The Architecture of Markets][book_fligstein_2001]
-- [Gertner 2012 The Idea Factory][book_gertner_2012]
-- [Grimsey and Lewis 2004 Public Private Partnerships][book_grimsey_lewis_2004]
-- [Groves 1962 Now It Can Be Told][book_groves_1962]
-- [Handberg 1994 Reinventing NASA][book_handberg_1994]
-- [Hewlett and Anderson 1962 The New World][book_hewlett_anderson_1962]
-- [Ho 2009 Liquidated][book_ho_2009]
-- [Hosley 1996 Colt The Making of an American Legend][book_hosley_1996]
-- [Hounshell 1984 From the American System to Mass Production 1800-1932][book_hounshell_1984]
-- [Hunter 2016 Creating Strategic Value][book_hunter_2016]
-- [Iansiti and Levien 2004 The Keystone Advantage][book_iansiti_levien_2004]
-- [Isaacson 2023 Elon Musk][book_isaacson_2023]
-- [Johnson 1982 MITI and the Japanese Miracle][book_johnson_1982]
-- [Kaplan 1991 The Wizards of Armageddon][book_kaplan_1991]
-- [Krige et al 2000 A History of the European Space Agency][book_krige_et_al_2000]
-- [Krippner 2011 Capitalizing on Crisis][book_krippner_2011]
-- [Laffont and Tirole 1993 A Theory of Incentives in Procurement and Regulation][book_laffont_tirole_1993]
-- [Lane 1934 Venetian Ships and Shipbuilders of the Renaissance][book_lane_1934]
-- [Latour 1987 Science in Action][book_latour_1987]
-- [Launius 1994 NASA A History of the United States Civil Space Program][book_launius_1994]
-- [Liker 2004 The Toyota Way][book_liker_2004]
-- [Logsdon 2010 John F Kennedy and the Race to the Moon][book_logsdon_2010]
-- [MacKenzie 2006 An Engine Not a Camera][book_mackenzie_2006]
-- [Mazzucato 2013 The Entrepreneurial State][book_mazzucato_2013]
-- [Mazzucato 2021 Mission Economy][book_mazzucato_2021]
-- [McAfee and McMillan 1988 Incentives in Government Contracting][book_mcafee_mcmillan_1988]
-- [McCullough 1977 The Path Between the Seas][book_mccullough_1977]
-- [McDougall 1985 The Heavens and the Earth][book_mcdougall_1985]
-- [McIntyre 1992 Airbus Industrie][book_mcintyre_1992]
-- [Melman 1970 Pentagon Capitalism][book_melman_1970]
-- [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
-- [Milgrom 2004 Putting Auction Theory to Work][book_milgrom_2004]
-- [Miller 1995 Lockheed Skunk Works The First Fifty Years][book_miller_1995]
-- [Mindell 2008 Digital Apollo][book_mindell_2008]
-- [Murray and Cox 1989 Apollo][book_murray_cox_1989]
-- [Musa 1998 Software Reliability Engineering][book_musa_1998]
-- [Muthoo 1999 Bargaining Theory with Applications][book_muthoo_1999]
-- [Nelson and Winter 1982 An Evolutionary Theory of Economic Change][book_nelson_winter_1982]
-- [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995]
-- [Neufeld 2013 Von Braun][book_neufeld_2013]
-- [Newhouse 1982 The Sporty Game][book_newhouse_1982]
-- [O'Connor and Kleyner 2012 Practical Reliability Engineering][book_oconnor_kleyner_2012]
-- [Osborne 2000 Public-Private Partnerships][book_osborne_2000]
-- [Osborne and Rubinstein 1990 Bargaining and Markets][book_osborne_rubinstein_1990]
-- [Preda 2009 Framing Finance][book_preda_2009]
-- [Rhodes 1986 The Making of the Atomic Bomb][book_rhodes_1986]
-- [Rich and Janos 1994 Skunk Works][book_rich_janos_1994]
-- [Ruttan 2006 Is War Necessary for Economic Growth][book_ruttan_2006]
-- [Serling 1992 Legend and Legacy][book_serling_1992]
-- [Sobel 1995 Longitude][book_sobel_1995]
-- [Tirole 1988 The Theory of Industrial Organization][book_tirole_1988]
-- [Trigeorgis 1996 Real Options][book_trigeorgis_1996]
-- [Vance 2015 Elon Musk][book_vance_2015]
-- [Wade 1990 Governing the Market][book_wade_1990]
-- [Weiss 2014 America Inc][book_weiss_2014]
-- [Williamson 1985 The Economic Institutions of Capitalism][book_williamson_1985]
-- [Womack Jones Roos 1990 The Machine That Changed the World][book_womack_jones_roos_1990]
-- [Woo-Cumings 1999 The Developmental State][book_woo_cumings_1999]
-- [Yescombe 2007 Public-Private Partnerships Principles of Policy and Finance][book_yescombe_2007]
-- [Zaloom 2006 Out of the Pits][book_zaloom_2006]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Bajari, Patrick, and Steven Tadelis. 2001. "Incentives versus Transaction Costs: A Theory of Procurement Contracts." *RAND Journal of Economics* 32 (3): 387. [https://doi.org/10.2307/2696361][research_bajari_tadelis_2001]
+- Binmore, Ken, Ariel Rubinstein, and Asher Wolinsky. 1986. "The Nash Bargaining Solution in Economic Modelling." *RAND Journal of Economics* 17 (2): 176. [https://doi.org/10.2307/2555382][research_binmore_rubinstein_wolinsky_1986]
+- Coase, R. H. 1937. "The Nature of the Firm." *Economica* 4 (16): 386–405. [https://doi.org/10.1111/j.1468-0335.1937.tb00002.x][research_coase_1937]
+- Duane, J. T. 1964. "Learning Curve Approach to Reliability Monitoring." *IEEE Transactions on Aerospace* 2 (2): 563–66. [https://doi.org/10.1109/ta.1964.4319640][research_duane_1964]
+- Fuchs, Erica R. H. 2010. "Rethinking the Role of the State in Technology Development: DARPA and the Case for Embedded Network Governance." *Research Policy* 39 (9): 1133–47. [https://doi.org/10.1016/j.respol.2010.07.003][research_fuchs_2010]
+- Gagnepain, Philippe, and Marc Ivaldi. 2002. "Incentive Regulatory Policies: The Case of Public Transit Systems in France." *RAND Journal of Economics* 33 (4): 605. [https://doi.org/10.2307/3087477][research_gagnepain_ivaldi_2002]
+- Hertzfeld, Henry R. 2002. "Measuring the Economic Returns from Successful NASA Life Sciences Technology Transfers." *Journal of Technology Transfer* 27 (4): 311–20. [https://doi.org/10.1023/a:1020207506064][research_hertzfeld_2002]
+- Hodge, Graeme A., and Carsten Greve. 2007. "Public–Private Partnerships: An International Performance Review." *Public Administration Review* 67 (3): 545–58. [https://doi.org/10.1111/j.1540-6210.2007.00736.x][research_hodge_greve_2007]
+- Jacobides, Michael G., Carmelo Cennamo, and Annabelle Gawer. 2018. "Towards a Theory of Ecosystems." *Strategic Management Journal* 39 (8): 2255–76. [https://doi.org/10.1002/smj.2904][research_jacobides_et_al_2018]
+- Maier, Mark W. 1998. "Architecting Principles for Systems-of-Systems." *Systems Engineering* 1 (4): 267–84. [https://doi.org/10.1002/(sici)1520-6858(1998)1:4\<267::aid-sys3\>3.0.co;2-d][research_maier_1998]
+- Teece, David J., Gary Pisano, and Amy Shuen. 1997. "Dynamic Capabilities and Strategic Management." *Strategic Management Journal* 18 (7): 509–33. [https://doi.org/10.1002/(sici)1097-0266(199708)18:7\<509::aid-smj882\>3.0.co;2-z][research_teece_pisano_shuen_1997]
+- Weiss, Linda, and Elizabeth Thurbon. 2020. "Developmental State or Economic Statecraft? Where, Why and How the Difference Matters." *New Political Economy* 26 (3): 472–89. [https://doi.org/10.1080/13563467.2020.1766431][research_weiss_thurbon_2021]
+- Wernerfelt, Birger. 1984. "A Resource-Based View of the Firm." *Strategic Management Journal* 5 (2): 171–80. [https://doi.org/10.1002/smj.4250050207][research_wernerfelt_1984]
 
-- [14 CFR Chapter III FAA Commercial Space Regulations][ref_faa_ast_regulations]
-- [14 CFR Part 450 Launch and Reentry Licensing][ref_faa_ast_licensing_regs_450]
-- [22 CFR 120 through 130 International Traffic in Arms Regulations][ref_itar_22_cfr_120_130]
-- [51 U.S.C. 51302 NASA Space Act Agreement Authority][ref_51_usc_51302_saa]
-- [Ars Technica Space Coverage][ref_arstechnica_space]
-- [Aviation Week Coverage][ref_aviation_week]
-- [Bloomberg Business News][ref_bloomberg]
-- [Boeing Starliner CFT June 2024][ref_boeing_starliner_cft_2024]
-- [Breaking Defense Coverage][ref_breaking_defense]
-- [Congressional Record][ref_congressional_record]
-- [CRS 2018 Commercial Crew Program][ref_crs_commercial_crew_2018]
-- [CRS 2022 Artemis Program][ref_crs_artemis_2022]
-- [CRS Reports Database][ref_crs_reports]
-- [Defense News Coverage][ref_defense_news]
-- [DOD Contract Announcements][ref_dod_contracts]
-- [European Spaceflight Coverage][ref_european_spaceflight]
-- [FAA AST Current Launch Licenses Database][ref_faa_launch_licenses_current]
-- [FAR Part 15 Contracting by Negotiation][ref_far_part_15]
-- [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
-- [FCC Filings Database][ref_fcc_filings]
-- [FCC Starlink Authorization March 2018][ref_fcc_starlink_2018]
-- [FCC Starlink Generation 2 Authorization December 2022][ref_fcc_starlink_gen2_2022]
-- [GAO 2009 COTS Program][ref_gao_cots_2009]
-- [GAO 2011 Commercial Cargo Program][ref_gao_cots_2011]
-- [GAO 2019 Commercial Crew Program][ref_gao_ccp_2019]
-- [GAO 2021 Blue Origin HLS Protest][ref_gao_blue_origin_hls_protest_2021]
-- [GAO 2022 Human Landing System][ref_gao_hls_2022]
-- [GAO Reports Database][ref_gao_reports]
-- [INCOSE Systems Engineering Handbook][ref_incose_handbook]
-- [ITU Radio Regulations 2020][ref_itu_radio_regulations_2020]
-- [Journal of Public Procurement][ref_journal_public_procurement]
-- [Journal of Space Law][ref_journal_space_law]
-- [NASA CCtCap Award Announcement 2014][ref_nasa_cctcap_press_2014]
-- [NASA Commercial Crew Program 2014][ref_nasa_ccp_2014]
-- [NASA COTS 2011 Program History][ref_nasa_cots_2011]
-- [NASA COTS Report][ref_nasa_cots_report]
-- [NASA COTS Round 2 Award to Orbital Sciences 2008][ref_nasa_crs1_press_2008]
-- [NASA COTS Solicitation Announcement 2006][ref_nasa_cots_solicitation_2006]
-- [NASA CRS-2 Award Announcement 2016][ref_nasa_crs2_press_2016]
-- [NASA FAR Supplement][ref_nasa_far_supplement]
-- [NASA History Archives][ref_nasa_history]
-- [NASA HLS Option A Award Announcement 2021][ref_nasa_hls_optionA_2021]
-- [NASA HLS Option B Award Announcement 2022][ref_nasa_hls_optionB_2022]
-- [NASA HLS Sustaining Award Announcement 2023][ref_nasa_hls_sustaining_2023]
-- [NASA News][ref_nasa_news]
-- [NASA OIG 2013 COTS Program][ref_nasa_oig_cots_2013]
-- [NASA OIG 2018 Commercial Cargo Program][ref_nasa_oig_ccp_cargo_2018]
-- [NASA OIG 2019 Commercial Crew Program][ref_nasa_oig_ccp_2019]
-- [NASA OIG 2021 Human Landing System][ref_nasa_oig_hls_2021]
-- [NASA OIG Reports Database][ref_nasa_oig_reports]
-- [NASA Orbital Debris Mitigation Standard Practices][ref_nasa_orbital_debris_mitigation]
-- [NASA Rocketplane Kistler Termination 2007][ref_nasa_rocketplane_kistler_termination_2007]
-- [NASA Standard 8709.22 Safety and Mission Assurance][ref_nasa_std_8709_22]
-- [NASA Technical Reports Server][ref_nasa_ntrs]
-- [NASASpaceflight Coverage][ref_nasaspaceflight]
-- [New York Times][ref_nyt]
-- [New York Times Starshield Coverage 2024][ref_nyt_starshield_2024]
-- [Payload Newsletter][ref_payload]
-- [Payload Research][ref_payload_research]
-- [Public Administration Review][ref_public_admin_review]
-- [Space Force News][ref_space_force_news]
-- [Space Force NSSL Phase 1A Award 2018][ref_space_force_nssl_phase1a_2018]
-- [Space Force NSSL Phase 2 Award 2020][ref_space_force_nssl_phase2_2020]
-- [Space Force NSSL Phase 3 Lane 2 Award 2024][ref_spacenews]
-- [Space Legislation Review][ref_space_legislation_review]
-- [Space Policy Journal][ref_space_policy_journal]
-- [Space Policy Online][ref_space_policy_online]
-- [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide]
-- [SpaceX News Archive][ref_spacex_news_archive]
-- [SpaceX Press Release Crew-1 November 2020][ref_spacex_press_crew1_2020]
-- [SpaceX Press Release CRS-1 October 2012][ref_spacex_press_crs1_2012]
-- [SpaceX Press Release CRS-21 December 2020][ref_spacex_press_crs21_2020]
-- [SpaceX Press Release CRS-7 Loss June 2015][ref_spacex_press_crs7_2015]
-- [SpaceX Press Release Demo-1 March 2019][ref_spacex_press_demo1_2019]
-- [SpaceX Press Release Demo-2 May 2020][ref_spacex_press_dm2_2020]
-- [SpaceX Press Release Dragon C1 December 2010][ref_spacex_press_dragon_c1_2010]
-- [SpaceX Press Release Falcon 1 Flight 4 Success 2008][ref_spacex_press_falcon1_flight4_2008]
-- [SpaceX Starlink Direct-to-Cell T-Mobile Partnership August 2022][ref_spacex_starlink_direct_to_cell_tmobile_2022]
-- [SpaceX Starshield Product Page][ref_spacex_starshield]
-- [SpaceX Starship Program Page][ref_spacex_starship_program]
-- [The Space Review][ref_the_space_review]
-- [U S Commercial Space Launch Competitiveness Act 2015][ref_uscsla_2015]
-- [United Nations Liability Convention 1972][ref_un_liability_convention_1972]
-- [United Nations Outer Space Treaty 1967][ref_un_outer_space_treaty_1967]
-- [United Nations Registration Convention 1976][ref_un_registration_convention_1976]
-- [Wall Street Journal][ref_wsj]
-- [Washington Post][ref_washington_post]
+### Primary Sources, Non-Peer-Reviewed
 
-### Research
+- "14 CFR Chapter III FAA Commercial Space Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III][ref_faa_ast_regulations]
+- "14 CFR Part 450 -- Launch and Reentry License Requirements." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450][ref_faa_ast_licensing_regs_450]
+- "22 CFR Chapter I Subchapter M -- International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M][ref_itar_22_cfr_120_130]
+- "51 U.S. Code § 51302: Commercial Exploration and Commercial Recovery." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/51302][ref_51_usc_51302_saa]
+- Adner, Ron. 2016. "Ecosystem as Structure: An Actionable Construct for Strategy." *Journal of Management* 43 (1): 39–58. [https://doi.org/10.1177/0149206316678451][research_adner_2017]
+- Bajari, P., R. McMillan, and S. Tadelis. 2008. "Auctions versus Negotiations in Procurement: An Empirical Analysis." *Journal of Law, Economics, and Organization* 25 (2): 372–99. [https://doi.org/10.1093/jleo/ewn002][research_bajari_mcmillan_tadelis_2009]
+- Barney, Jay. 1991. "Firm Resources and Sustained Competitive Advantage." *Journal of Management* 17 (1): 99–120. [https://doi.org/10.1177/014920639101700108][research_barney_1991]
+- Block, Fred. 2008. "Swimming against the Current: The Rise of a Hidden Developmental State in the United States." *Politics & Society* 36 (2): 169–206. [https://doi.org/10.1177/0032329208318731][research_block_2008]
+- Bovaird, Tony. 2004. "Public–Private Partnerships: From Contested Concepts to Prevalent Practice." *International Review of Administrative Sciences* 70 (2): 199–215. [https://doi.org/10.1177/0020852304044250][research_bovaird_2004]
+- Callon, Michel. 1984. "Some Elements of a Sociology of Translation: Domestication of the Scallops and the Fishermen of St Brieuc Bay." *Sociological Review* 32 (1\_suppl): 196–233. [https://doi.org/10.1111/j.1467-954x.1984.tb00113.x][research_callon_1986]
+- Cohen, Wesley M., and Daniel A. Levinthal. 1990. "Absorptive Capacity: A New Perspective on Learning and Innovation." *Administrative Science Quarterly* 35 (1): 128. [https://doi.org/10.2307/2393553][research_cohen_levinthal_1990]
+- "Commercial Space Transportation \| Federal Aviation AdministrationLockUnited States Department of Transportation." n.d. Accessed October 25, 2026. [https://www.faa.gov/space][ref_faa_launch_licenses_current]
+- "Congressional Record." n.d. Accessed October 25, 2026. [https://www.congress.gov/congressional-record][ref_congressional_record]
+- *Congressional Research Service Reports Database*. n.d. Congressional Research Service. [https://crsreports.congress.gov/][ref_crs_reports]
+- CRS. 2018. *Commercial Crew Programme Report*. Congressional Research Service. [https://crsreports.congress.gov/product/pdf/R/R45272][ref_crs_commercial_crew_2018]
+- CRS. 2022. *Artemis Program Report*. Congressional Research Service. [https://crsreports.congress.gov/product/pdf/R/R47064][ref_crs_artemis_2022]
+- "FCC Direct-to-Cell Authorization." 2024. [https://docs.fcc.gov/public/attachments/DA-24-208A1.pdf][ref_fcc_direct_to_cell_2024]
+- "FCC Starlink Authorization March." 2018. [https://docs.fcc.gov/public/attachments/FCC-18-38A1.pdf][ref_fcc_starlink_2018]
+- "FCC Starlink Generation 2 Authorization December." 2022. [https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf][ref_fcc_starlink_gen2_2022]
+- "Federal Acquisition Regulation Part 15 Contracting by Negotiation." n.d. Accessed October 25, 2026. [https://www.acquisition.gov/far/part-15][ref_far_part_15]
+- GAO. 2009. "COTS Programme Evaluation." [https://www.gao.gov/products/gao-09-618][ref_gao_cots_2009]
+- GAO. 2011. "Commercial Cargo Programme Evaluation." [https://www.gao.gov/products/gao-11-692t][ref_gao_cots_2011]
+- GAO. 2019. "Commercial Crew Program Evaluation." [https://www.gao.gov/products/gao-19-504][ref_gao_ccp_2019]
+- GAO. 2021. "Human Landing System Protest Decision." [https://www.gao.gov/products/b-419783][ref_gao_blue_origin_hls_protest_2021]
+- GAO. 2022. "Human Landing System Evaluation." [https://www.gao.gov/products/gao-22-105506][ref_gao_hls_2022]
+- "GAO Reports and Testimonies Database." n.d. Accessed October 25, 2026. [https://www.gao.gov/reports-testimonies][ref_gao_reports]
+- Grossman, Sanford J., and Oliver D. Hart. 1986. "The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration." *Journal of Political Economy* 94 (4): 691–719. [https://doi.org/10.1086/261404][research_grossman_hart_1986]
+- Kalnins, A., and Mayer. 2004. "Relationships and Hybrid Contracts: An Analysis of Contract Choice in Information Technology." *Journal of Law, Economics, and Organization* 20 (1): 207–29. [https://doi.org/10.1093/jleo/ewh030][research_kalnins_mayer_2004]
+- Kelly. 2013. *Contract Auctions in Space Launch*. [https://scholar.google.com/scholar?q=Contract+Auctions+in+Space+Launch+Kelly+2013][research_kelly_2013]
+- Klein, Benjamin, Robert G. Crawford, and Armen A. Alchian. 1978. "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process." *Journal of Law and Economics* 21 (2): 297–326. [https://doi.org/10.1086/466922][research_klein_crawford_alchian_1978]
+- Lane, Peter J., Balaji R. Koka, and Seemantini Pathak. 2006. "The Reification of Absorptive Capacity: A Critical Review and Rejuvenation of the Construct." *Academy of Management Review* 31 (4): 833–63. [https://doi.org/10.5465/amr.2006.22527456][research_lane_koka_pathak_2006]
+- Levin, Jonathan, and Steven Tadelis. 2010. "Contracting for Government Services: Theory and Evidence from U.s. Cities." *Journal of Industrial Economics* 58 (3): 507–41. [https://doi.org/10.1111/j.1467-6451.2010.00430.x][research_levin_tadelis_2010]
+- Myerson, Roger B. 1981. "Optimal Auction Design." *Mathematics of Operations Research* 6 (1): 58–73. [https://doi.org/10.1287/moor.6.1.58][research_myerson_1981]
+- NASA COTS. 2011. *\[Title not identified\]*. [https://ntrs.nasa.gov/citations/20120000953][ref_nasa_cots_2011]
+- "NASA FAR Supplement." n.d. Accessed October 25, 2026. [https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf][ref_nasa_far_supplement]
+- "NASA History." n.d. NASA. Accessed October 25, 2026. [https://history.nasa.gov/][ref_nasa_history]
+- *NASA Office of Inspector General Reports Database*. n.d. NASA Office of Inspector General. [https://oig.nasa.gov/audits/][ref_nasa_oig_reports]
+- NASA OIG. 2013. *COTS Program*. NASA Office of Inspector General. [https://oig.nasa.gov/docs/IG-13-016.pdf][ref_nasa_oig_cots_2013]
+- NASA OIG. 2018. *Commercial Cargo Program*. NASA Office of Inspector General. [https://oig.nasa.gov/docs/IG-18-016.pdf][ref_nasa_oig_ccp_cargo_2018]
+- NASA OIG. 2019. *Commercial Crew Program*. NASA Office of Inspector General. [https://oig.nasa.gov/audits/?\_search=Commercial+Crew][ref_nasa_oig_ccp_2019]
+- NASA OIG. 2021. *Human Landing System*. NASA Office of Inspector General. [https://oig.nasa.gov/docs/IG-21-024.pdf][ref_nasa_oig_hls_2021]
+- *NASA Technical Standards System*. n.d. [https://standards.nasa.gov/][ref_nasa_std_8709_22]
+- Nash, John F. 1950. "The Bargaining Problem." *Econometrica* 18 (2): 155. [https://doi.org/10.2307/1907266][research_nash_1950]
+- Nelson, Richard R. 1959. "The Simple Economics of Basic Scientific Research." *Journal of Political Economy* 67 (3): 297–306. [https://doi.org/10.1086/258177][research_nelson_1959]
+- *Radio Regulations*. 2020. [https://www.itu.int/pub/R-REG-RR][ref_itu_radio_regulations_2020]
+- Rubinstein, Ariel. 1982. "Perfect Equilibrium in a Bargaining Model." *Econometrica* 50 (1): 97. [https://doi.org/10.2307/1912531][research_rubinstein_1982]
+- Sage, Andrew P., and Christopher D. Cuppan. 2001. "On the Systems Engineering and Management of Systems of Systems and Federations of Systems." *Information Knowledge Systems Management* 2 (4): 325–45. [https://doi.org/10.3233/iks-2001-00045][research_sage_cuppan_2001]
+- Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
+- Todorova, Gergana, and Boris Durisin. 2007. "Absorptive Capacity: Valuing a Reconceptualization." *Academy of Management Review* 32 (3): 774–86. [https://doi.org/10.5465/amr.2007.25275513][research_todorova_durisin_2007]
+- "U S Commercial Space Launch Competitiveness Act." 2015. [https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf][ref_uscsla_2015]
+- "United Nations Liability Convention." 1972. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
+- "United Nations Outer Space Treaty." 1967. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
+- "United Nations Registration Convention." 1976. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
+- Weinzierl, Matthew. 2018. "Space, the Final Economic Frontier." *Journal of Economic Perspectives* 32 (2): 173–92. [https://doi.org/10.1257/jep.32.2.173][research_weinzierl_2018]
+- Williamson, Oliver E. 2002. "The Theory of the Firm as Governance Structure: From Choice to Contract." *Journal of Economic Perspectives* 16 (3): 171–95. [https://doi.org/10.1257/089533002760278776][research_williamson_2002]
+- Zahra, Shaker A., and Gerard George. 2002. "Absorptive Capacity: A Review, Reconceptualization, and Extension." *Academy of Management Review* 27 (2): 185. [https://doi.org/10.5465/amr.2002.6587995][research_zahra_george_2002]
 
-- [Adner 2017 Ecosystem as Structure An Actionable Construct for Strategy][research_adner_2017]
-- [Anadol Cohen Ferrari 2018 SpaceX Case Study][research_anadol_cohen_2018]
-- [Bajari and Tadelis 2001 Incentives Versus Transaction Costs A Theory of Procurement Contracts][research_bajari_tadelis_2001]
-- [Bajari McMillan and Tadelis 2009 Auctions Versus Negotiations in Procurement An Empirical Analysis][research_bajari_mcmillan_tadelis_2009]
-- [Barney 1991 Firm Resources and Sustained Competitive Advantage][research_barney_1991]
-- [Binmore Rubinstein and Wolinsky 1986 The Nash Bargaining Solution in Economic Modelling][research_binmore_rubinstein_wolinsky_1986]
-- [Block 2008 Swimming Against the Current The Rise of a Hidden Developmental State][research_block_2008]
-- [Bonvillian 2018 DARPA and the Advanced Research Projects Agency][research_bonvillian_2018]
-- [Bovaird 2004 Public-Private Partnerships From Contested Concepts to Prevalent Practice][research_bovaird_2004]
-- [Bower and Christensen 1995 Disruptive Technologies Catching the Wave][research_bower_christensen_1995]
-- [Callon 1986 Some Elements of a Sociology of Translation][research_callon_1986]
-- [Che and Chung 1999 A Dynamic Model of Contract Renegotiation][research_che_chung_1999]
-- [Coase 1937 The Nature of the Firm][research_coase_1937]
-- [Cohen and Levinthal 1990 Absorptive Capacity A New Perspective on Learning and Innovation][research_cohen_levinthal_1990]
-- [Corts and Singh 2004 The Effect of Relationships on the Nature of Contracts][research_corts_singh_2004]
-- [Duane 1964 Learning Curve Approach to Reliability Monitoring][research_duane_1964]
-- [Fuchs 2010 Rethinking the Role of the State in Technology Development][research_fuchs_2010]
-- [Gagnepain and Ivaldi 2002 Incentive Regulatory Policies][research_gagnepain_ivaldi_2002]
-- [Grossman and Hart 1986 The Costs and Benefits of Ownership][research_grossman_hart_1986]
-- [Hart 1988 Incomplete Contracts and the Theory of the Firm][research_hart_1988]
-- [Hertzfeld 2002 Measuring the Economic Returns from Successful NASA Life Sciences Technology Transfer][research_hertzfeld_2002]
-- [Hodge and Greve 2007 Public-Private Partnerships An International Performance Review][research_hodge_greve_2007]
-- [Jacobides Cennamo and Gawer 2018 Towards a Theory of Ecosystems][research_jacobides_et_al_2018]
-- [Kalnins and Mayer 2004 Relationships and Hybrid Contracts An Analysis of Contract Choice][research_kalnins_mayer_2004]
-- [Kelly 2013 Contract Auctions in Space Launch][research_kelly_2013]
-- [Klein Crawford and Alchian 1978 Vertical Integration Appropriable Rents and the Competitive Contracting Process][research_klein_crawford_alchian_1978]
-- [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
-- [Lane Koka Pathak 2006 The Reification of Absorptive Capacity][research_lane_koka_pathak_2006]
-- [Law 1987 Technology and Heterogeneous Engineering][research_law_1987]
-- [Levin and Tadelis 2010 Contracting for Government Services Theory and Evidence][research_levin_tadelis_2010]
-- [Maier 1998 Architecting Principles for Systems-of-Systems][research_maier_1998]
-- [Myerson 1981 Optimal Auction Design][research_myerson_1981]
-- [Nash 1950 The Bargaining Problem][research_nash_1950]
-- [Nelson 1959 The Simple Economics of Basic Scientific Research][research_nelson_1959]
-- [Nelson 1977 The Moon and the Ghetto][research_nelson_1977]
-- [Peeters 2018 Space Commercialization Trends][research_peeters_2018]
-- [Reuters 2024 Starshield Investigation][research_reuters_starshield_2024]
-- [Rubinstein 1982 Perfect Equilibrium in a Bargaining Model][research_rubinstein_1982]
-- [Sage and Cuppan 2001 On the Systems Engineering and Management of Systems of Systems][research_sage_cuppan_2001]
-- [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
-- [Teece Pisano Shuen 1997 Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
-- [Todorova and Durisin 2007 Absorptive Capacity Valuing a Reconceptualization][research_todorova_durisin_2007]
--
-- [Weinzierl 2018 Space the Final Economic Frontier][research_weinzierl_2018]
-- [Weiss and Thurbon 2021 Developmental State or Economic Statecraft][research_weiss_thurbon_2021]
-- [Wernerfelt 1984 A Resource-Based View of the Firm][research_wernerfelt_1984]
-- [Williamson 1975 Markets and Hierarchies][research_williamson_1975]
-- [Williamson 2002 The Theory of the Firm as Governance Structure][research_williamson_2002]
-- [Zahra and George 2002 Absorptive Capacity A Review Reconceptualization and Extension][research_zahra_george_2002]
+### Secondary Sources
 
-### Related Post
+- Adner, Ron. 2012. *The Wide Lens: A New Strategy for Innovation*. Portfolio/Penguin. [https://openlibrary.org/works/OL16191407W][book_adner_2012]
+- Amsden, Alice H. 1989. *Asia's Next Giant: South Korea and Late Industrialization*. Oxford University Press. [https://global.oup.com/academic/product/asias-next-giant-9780195076035][book_amsden_1989]
+- Anderson. 2023. *The Space Economy*. [https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562][book_anderson_2023]
+- Andrewes. 1996. *The Quest for Longitude*. [https://openlibrary.org/search?q=Andrewes+The+Quest+for+Longitude][book_andrewes_1996]
+- Berger, Eric. 2021. *Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX*. HarperCollins Publishers Limited. [https://williammorrow.com/liftoff-eric-berger/][book_berger_2021]
+- Berger, Eric. 2024. *Reentry: SpaceX, Elon Musk, and the Reusable Rockets That Launched a Second Space Age*. BenBella Books, Inc. [https://williammorrow.com/reentry-eric-berger/][book_berger_2024]
+- Bilstein, Roger E. 1996. *Stages to Saturn: A Technological History of the Apollo/Saturn Launch Vehicles*. National Aeronautics and Space Administration, NASA History Office. [https://openlibrary.org/works/OL2856899W][book_bilstein_1996]
+- Bilstein, Roger E. 2001. *Flight in America: From the Wrights to the Astronauts*. Johns Hopkins University Press. [https://jhupbooks.press.jhu.edu/title/flight-america][book_bilstein_2001]
+- Bird, Kai, and Martin J. Sherwin. 2005. *American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer*. A.A. Knopf. [https://openlibrary.org/works/OL1905682W][book_bird_sherwin_2005]
+- Buchanan, James M., and Tullock. 1962. *The Calculus of Consent: Logical Foundations of Constitutional Democracy*. Michigan University Press. [https://www.libertyfund.org/books/the-calculus-of-consent/][book_buchanan_tullock_1962]
+- Chadeau. 1996. *Airbus Industrie History*. [https://openlibrary.org/search?q=Chadeau+Airbus+Industrie+History][book_chadeau_1996]
+- Chaikin, Andrew. 2007. *A Man on the Moon: The Voyages of the Apollo Astronauts*. Penguin Books. [https://openlibrary.org/works/OL3290625W][book_chaikin_2007]
+- Chang, Ha-Joon. 2002. *Kicking Away the Ladder: Development Strategy in Historical Perspective*. Anthem Press. [https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050][book_chang_2002]
+- Christensen, Clayton M. 1997. *The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/1130-HBK-ENG][book_christensen_1997]
+- Collins, Francis S. 2010. *The Language of Life: DNA and the Revolution in Personalized Medicine*. Harper. [https://www.harpercollins.com/products/the-language-of-life-francis-s-collins][book_collins_2010]
+- Concina, Ennio. 2006. *A History of Venetian Architecture*. Cambridge University Press. [https://www.cambridge.org/9780521187459][book_concina_2006]
+- Crouch. 2003. *Wings A History of Aviation from Kites to the Space Age*. [https://wwnorton.com/books/Wings/][book_crouch_2003]
+- Davenport, Christian. 2018. *The Space Barons: Elon Musk, Jeff Bezos, and the Quest to Colonize the Cosmos*. PublicAffairs. [https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/][book_davenport_2018]
+- Dixit, Avinash K., and Pindyck. 1994. *Investment under Uncertainty*. Princeton University Press. [https://openlibrary.org/works/OL2979477W][book_dixit_pindyck_1994]
+- Evans, Peter B. 1995. *Embedded Autonomy: States and Industrial Transformation*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy][book_evans_1995]
+- Fallows, James M. 1981. *National Defense*. Random House. [https://archive.org/details/nationaldefense00fall][book_fallows_1981]
+- Fernholz, Tim. 2018. *Rocket Billionaires: Elon Musk, Jeff Bezos, and the New Space Race*. Houghton Mifflin Harcourt Publishing Company. [https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/][book_fernholz_2018]
+- Fligstein, Neil. 2001. *The Architecture of Markets: An Economic Sociology of Twenty-First-Century Capitalist Societies*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets][book_fligstein_2001]
+- Gertner. 2012. *The Idea Factory*. [https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/][book_gertner_2012]
+- Grimsey, Darrin, and Lewis. 2004. *Public Private Partnerships: The Worldwide Revolution in Infrastructure Provision and Project Finance*. EDWARD ELGAR. [https://www.e-elgar.com/shop/gbp/public-private-partnerships-9781840647112.html][book_grimsey_lewis_2004]
+- Groves, Leslie R. 1962. *Now It Can Be Told: The Story of the Manhattan Project*. Harper. [https://openlibrary.org/works/OL5912728W][book_groves_1962]
+- Handberg. 1994. *Reinventing NASA*. [https://openlibrary.org/search?q=Handberg+Reinventing+NASA][book_handberg_1994]
+- Hewlett, R. G., and Anderson. 1962. *The New World, 1939/1946*. Pennsylvania State U.P. [https://openlibrary.org/works/OL12854869W][book_hewlett_anderson_1962]
+- Ho, Karen Zouwen. 2009. *Liquidated: An Ethnography of Wall Street*. Duke University Press. [https://www.dukeupress.edu/liquidated][book_ho_2009]
+- Hosley. 1996. *Colt The Making of an American Legend*. [https://www.press.jhu.edu/books/title/1799/colt][book_hosley_1996]
+- Hounshell, David A. 1984. *From the American System to Mass Production, 1800-1932: The Development of Manufacturing Technology in the United States*. The Johns Hopkins University Press. [https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932][book_hounshell_1984]
+- Hunter. 2016. *Creating Strategic Value*. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy\_files/files/publication/160930\_Hunter\_CreatingStrategicValue\_Web.pdf][book_hunter_2016]
+- Iansiti, Marco, and Roy Levien. 2004. *The Keystone Advantage: What the New Dynamics of Business Ecosystems Mean for Strategy, Innovation, and Sustainability*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/3921-HBK-ENG][book_iansiti_levien_2004]
+- Isaacson, Walter. 2023. *Elon Musk*. Simon & Schuster. [https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284][book_isaacson_2023]
+- Johnson, Chalmers A. 1982. *MITI and the Japanese Miracle: Growth of Industrial Policy: 1925-1975*. Stanford University Press. [https://www.sup.org/books/title/?id=2143][book_johnson_1982]
+- Kaplan, Fred M. 1991. *The Wizards of Armageddon*. Stanford University Press. [https://openlibrary.org/works/OL4488241W][book_kaplan_1991]
+- Krige, John. 2000. *A History of the European Space Agency 1958-1987*. European Space Agency. [https://www.esa.int/About\_Us/ESA\_history][book_krige_et_al_2000]
+- Krippner. 2011. *Capitalizing on Crisis*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674066199][book_krippner_2011]
+- Laffont, Jean-Jacques, and Tirole. 1993. *A Theory of Incentives in Procurement and Regulation*. MIT Press. [https://mitpress.mit.edu/9780262121743/a-theory-of-incentives-in-procurement-and-regulation/][book_laffont_tirole_1993]
+- Lane, Frederic Chapin. 1934. *Venetian Ships and Shipbuilders of the Renaissance*. The Johns Hopkins Press. [https://jhupbooks.press.jhu.edu/title/venetian-ships-and-shipbuilders-renaissance][book_lane_1934]
+- Latour, Bruno. 1987. *Science in Action: How to Follow Scientists and Engineers through Society*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674792913][book_latour_1987]
+- Launius. 1994. *NASA A History of the United States Civil Space Program*. [https://malabarpubs.com/nasa-history/][book_launius_1994]
+- Liker, Jeffrey K. 2004. *The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer*. McGraw-Hill. [https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html][book_liker_2004]
+- Logsdon, J. 2010. *John F. Kennedy and the Race to the Moon*. Palgrave Macmillan. [https://openlibrary.org/works/OL20786883W][book_logsdon_2010]
+- MacKenzie, Donald A., and Donald MacKenzie. 2006. *An Engine, Not a Camera: How Financial Models Shape Markets*. MIT Press. [https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/][book_mackenzie_2006]
+- Mazzucato, Mariana. 2013. *The Entrepreneurial State: Debunking Public vs. Private Sector Myths*. Anthem Press. [https://marianamazzucato.com/books/the-entrepreneurial-state][book_mazzucato_2013]
+- Mazzucato, Mariana. 2021. *Mission Economy: A Moonshot Guide to Changing Capitalism*. Penguin Books, Limited. [https://marianamazzucato.com/books/mission-economy/][book_mazzucato_2021]
+- McAfee, R. Preston, and McMillan. 1988. *Incentives in Government Contracting*. University of Toronto Press. [https://openlibrary.org/works/OL4361570W][book_mcafee_mcmillan_1988]
+- McCullough, David. 1977. *The Path between the Seas: The Creation of the Panama Canal 1870-1914 by David McCullough*. Simon & Schuster. [https://www.simonandschuster.com/books/The-Path-Between-the-Seas/David-McCullough/9780743201377][book_mccullough_1977]
+- McDougall, Walter A. 1985. *The Heavens and the Earth: A Political History of the Space Age*. Basic Books. [https://jhupbooks.press.jhu.edu/title/heavens-and-earth][book_mcdougall_1985]
+- McIntyre. 1992. *Airbus Industrie*. [https://openlibrary.org/search?q=McIntyre+Airbus+Industrie][book_mcintyre_1992]
+- Melman, Seymour. 1970. *Pentagon Capitalism: The Management of the New Imperialism*. McGraw-Hill. [https://openlibrary.org/works/OL1299274W][book_melman_1970]
+- Metcalfe, J. Stanley. 1998. *Evolutionary Economics and Creative Destruction*. Taylor & Francis Group. [https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671][book_metcalfe_1998]
+- Milgrom. 2004. *Putting Auction Theory to Work*. [https://www.cambridge.org/9780521551847][book_milgrom_2004]
+- Miller. 1995. *Lockheed's Skunk Works: The First Fifty Years*. Aerofax. [https://www.aerofax.com/product-page/lockheed-skunk-works][book_miller_1995]
+- Mindell, David A. 2008. *Digital Apollo: Human and Machine in Spaceflight*. MIT Press. [https://mitpress.mit.edu/9780262516105/digital-apollo/][book_mindell_2008]
+- Murray, Charles A., and Catherine Bly Cox. 1989. *Apollo: The Race to the Moon*. Touchstone Books. [https://www.simonandschuster.com/books/Apollo/Charles-Murray/9780671706258][book_murray_cox_1989]
+- Musa, John D. 1998. *Software Reliability Engineering*. Osborne/McGraw-Hill. [https://www.mheducation.com/highered/product/software-reliability-engineering-musa/M9780079132710.html][book_musa_1998]
+- Muthoo, Abhinay. 1999. *Bargaining Theory with Applications*. Cambridge University Press. [https://www.cambridge.org/9780521576475][book_muthoo_1999]
+- Nelson, Richard R., and Winter. 1982. *An Evolutionary Theory of Economic Change*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674272286][book_nelson_winter_1982]
+- Neufeld, Michael J. 1995. *The Rocket and the Reich: Peenemünde and the Coming of the Ballistic Missile Era*. Free Press. [https://openlibrary.org/works/OL3501503W][book_neufeld_1995]
+- Neufeld, Michael J. 2013. *Von Braun: Dreamer of Space, Engineer of War*. Vintage Books. [https://openlibrary.org/works/OL3501502W][book_neufeld_2013]
+- Newhouse, John. 1982. *The Sporty Game*. Knopf. [https://openlibrary.org/works/OL2625941W][book_newhouse_1982]
+- O'Connor, Patrick D. T., and Kleyner. 2012. *Practical Reliability Engineering*. Wiley. [https://openlibrary.org/works/OL3744715W][book_oconnor_kleyner_2012]
+- Osborne, Stephen. 2000. *Public-Private Partnerships: Theory and Practice in International Perspective*. Taylor & Francis Group. [https://www.routledge.com/Public-Private-Partnerships/Osborne/p/book/9780415225236][book_osborne_2000]
+- Osborne, Martin J., and Rubinstein. 1990. *Bargaining and Markets*. Academic Press. [https://www.sciencedirect.com/book/9780125286329/bargaining-and-markets][book_osborne_rubinstein_1990]
+- Preda, Alex. 2009. *Framing Finance: The Boundaries of Markets and Modern Capitalism*. University of Chicago Press. [https://openlibrary.org/works/OL27824246W][book_preda_2009]
+- Rhodes, Richard. 1986. *The Making of the Atomic Bomb*. Simon & Schuster. [https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614][book_rhodes_1986]
+- Rich, Ben R., and Leo Janos. 1994. *Skunk Works: A Personal Memoir of My Years at Lockheed*. Hachette Book Group. [https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316743006/][book_rich_janos_1994]
+- Ruttan, Vernon W. 2006. *Is War Necessary for Economic Growth?: Military Procurement and Technology Development*. Oxford University Press. [https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042][book_ruttan_2006]
+- Serling, Robert J. 1992. *Legend and Legacy: The Story of Boeing and Its People*. St. Martin's Press. [https://openlibrary.org/works/OL2769360W][book_serling_1992]
+- Sobel, Dava. 1995. *Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time*. Walker. [https://www.bloomsbury.com/us/longitude-9780802715296/][book_sobel_1995]
+- Tirole, Jean. 1988. *The Theory of Industrial Organization*. MIT Press. [https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/][book_tirole_1988]
+- Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
+- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
+- Weiss, Linda. 2014. *America Inc.?: Innovation and Enterprise in the National Security State*. Cornell University Press. [https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/][book_weiss_2014]
+- Williamson, Oliver E. 1985. *The Economic Institutions of Capitalism: Firms, Markets, Relational Contracting*. The Free Press. [https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740][book_williamson_1985]
+- Womack, James P., Daniel T. Jones, and Daniel Roos. 1990. *The Machine That Changed the World: The Story of Lean Production-- Toyota's Secret Weapon in the Global Car Wars That Is Now Revolutionizing World Industry*. Free Press. [https://www.simonandschuster.com/books/The-Machine-That-Changed-the-World/James-P-Womack/9780743299794][book_womack_jones_roos_1990]
+- Woo-Cumings, Meredith. 1999. *The Developmental State*. Cornell University Press. [https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/][book_woo_cumings_1999]
+- Yescombe, E. R. 2007. *Public-Private Partnerships: Principles of Policy and Finance*. Elsevier. [https://www.sciencedirect.com/book/9780750680547/public-private-partnerships][book_yescombe_2007]
+- Zaloom, Caitlin. 2006. *Out of the Pits: Traders and Technology from Chicago to London*. University Of Chicago Press. [https://openlibrary.org/works/OL9250847W][book_zaloom_2006]
 
-- [A90 Introduction to Space Studies][related_post_a90_intro_space_studies]
-- [A96 History of Rocketplanes][related_post_a96_history_rocketplanes]
-- [A132 Introduction to SBIR and STTR][related_post_a132_sbir_intro]
-- [A138 SBIR Phase III and the Valley of Death][related_post_a138_sbir_phase3]
-- [A237 Framing and the Co-Development Mechanism][related_post_a237_aerospace_framing]
-- [A242 Apollo Guidance Computer][related_post_a242_apollo_guidance]
-- [A246 Silicon Valley from Defense Contracting][related_post_a246_silicon_valley_defense]
-- [A247 Software-Defined Aerospace and Autonomy][related_post_a247_software_defined_aerospace]
-- [A248 Contemporary Snapshot and Extrapolation][related_post_a248_contemporary_snapshot]
-- [A281 History of SpaceX Series Framing and the Seven-Plus-Three Forcing-Function Framework][related_post_a281_spacex_framing]
-- [A282 History of SpaceX Value Gradient from Falcon 1 to Falcon 9 to Reusability][related_post_a282_spacex_value_gradient]
+### Commercial Sources
 
-[book_adner_2012]: https://openlibrary.org/search?q=Adner+The+Wide+Lens
+- "Commercial Crew Program." 2014. NASA. Accessed October 25, 2026. [https://www.nasa.gov/commercialcrew][ref_nasa_ccp_2014]
+- "Commercial Resupply Missions." 2008. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/commercial-resupply/][ref_nasa_crs1_press_2008]
+- "CST-100 Starliner." 2024. Accessed October 25, 2026. [https://www.boeing.com/space/starliner][ref_boeing_starliner_cft_2024]
+- "DOD Contract Announcements." n.d. Accessed October 25, 2026. [https://www.defense.gov/News/Contracts/][ref_dod_contracts]
+- "FCC Filings Database." n.d. Accessed October 25, 2026. [https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs][ref_fcc_filings]
+- "INCOSE Systems Engineering Handbook." 2015. Accessed October 25, 2026. [https://www.incose.org/publications/se-handbook][ref_incose_handbook]
+- "Moon to Mars." 2023. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/artemis/][ref_nasa_hls_sustaining_2023]
+- "NASA Awards International Space Station Cargo Transport Contracts." 2016. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/nasa-awards-international-space-station-cargo-transport-contracts/][ref_nasa_crs2_press_2016]
+- "NASA HLS Option A Award Announcement." 2021. [https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/][ref_nasa_hls_option_a_2021]
+- "NASA HLS Option B Award Announcement." 2022. [https://www.nasa.gov/news-release/nasa-provides-update-to-astronaut-moon-lander-plans-under-artemis/][ref_nasa_hls_option_b_2022]
+- "NASA News." 2022. NASA, December 7. [https://www.nasa.gov/news/][ref_nasa_news]
+- "NASA Orbital Debris Mitigation Standard Practices." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
+- "News Release." 2014. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/][ref_nasa_cctcap_press_2014]
+- "News U.S. Air Force Logo." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/][ref_space_force_news]
+- "Space Force NSSL Phase 1A Award." 2018. [https://www.af.mil/News/Article-Display/Article/1671253/][ref_space_force_nssl_phase1a_2018]
+- "Space Force NSSL Phase 2 Award." 2020. [https://www.spaceforce.mil/News/Article/2312953/][ref_space_force_nssl_phase2_2020]
+- "SpaceX Better Than Nothing Beta Press October." 2020. [https://www.spacex.com/updates/][ref_spacex_press_crew1_2020]
+- "SpaceX CRS-1 Mission." 2012. [https://www.spacex.com/updates/][ref_spacex_press_crs1_2012]
+- "SpaceX Demo-2 Crewed Demonstration." 2020. [https://www.spacex.com/updates/dm-2-launch-crewed-flight/][ref_spacex_press_dm2_2020]
+- "SpaceX Direct-to-Cell Partnership Announcement." 2022. [https://www.starlink.com/business/direct-to-cell][ref_spacex_starlink_direct_to_cell_tmobile_2022]
+- "SpaceX Falcon 1 Flight 4." 2008. [https://www.spacex.com/news/2013/02/11/spacex-successfully-launches-falcon-1-orbit][ref_spacex_press_falcon1_flight4_2008]
+- "SpaceX Falcon 9 First Flight." 2010. [https://www.spacex.com/updates/][ref_spacex_press_dragon_c1_2010]
+- "SpaceX Falcon 9 Vehicle Documentation." n.d. Accessed October 25, 2026. [https://www.spacex.com/vehicles/falcon-9/][ref_spacex_falcon9_users_guide]
+- "SpaceX News Archive." n.d. Accessed October 25, 2026. [https://www.spacex.com/updates/][ref_spacex_news_archive]
+- "SpaceX Press Release Starlink First 60 Operational Satellites May." 2019. [https://www.spacex.com/updates/][ref_spacex_press_demo1_2019]
+- "SpaceX Seattle Facility Announcement January." 2015. [https://www.spacex.com/updates/][ref_spacex_press_crs7_2015]
+- "SpaceX Starshield Product Page." n.d. Accessed October 25, 2026. [https://www.spacex.com/starshield/][ref_spacex_starshield]
+- "SpaceX Starship Program Page." n.d. Accessed October 25, 2026. [https://www.spacex.com/vehicles/starship/][ref_spacex_starship_program]
+
+### General Sources
+
+- Anadol Cohen Ferrari. 2018. "SpaceX Case Study." [https://www.hbs.edu/faculty/Pages/item.aspx?num=54001][research_anadol_cohen_2018]
+- "Ars Technica Space Coverage." n.d. Accessed October 25, 2026. [https://arstechnica.com/science/space/][ref_arstechnica_space]
+- "Aviation Week Coverage." n.d. Accessed October 25, 2026. [https://aviationweek.com/][ref_aviation_week]
+- "Bloomberg Business News." n.d. Accessed October 25, 2026. [https://www.bloomberg.com/][ref_bloomberg]
+- Bonvillian. 2018. "DARPA and the Advanced Research Projects Agency." [https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/][research_bonvillian_2018]
+- Bower and Christensen. 1995. "Disruptive Technologies: Catching the Wave." *Harvard Business Review*, January 1. [https://hbr.org/1995/01/disruptive-technologies-catching-the-wave][research_bower_christensen_1995]
+- "Breaking Defense Coverage." n.d. Accessed October 25, 2026. [https://breakingdefense.com/][ref_breaking_defense]
+- Che and Chung. 1999. "Contractual Remedies to the Holdup Problem." [https://academic.oup.com/rand/article-abstract/30/1/97/2701540][research_che_chung_1999]
+- Corts and Singh. 2004. "The Effect of Relationships on the Nature of Contracts." [https://academic.oup.com/jleo/article-abstract/20/1/230/970131][research_corts_singh_2004]
+- "Defense News Coverage." n.d. Accessed October 25, 2026. [https://www.defensenews.com/][ref_defense_news]
+- "European Spaceflight Homepage." n.d. *European Spaceflight*. Accessed October 25, 2026. [https://europeanspaceflight.com/][ref_european_spaceflight]
+- Hart. 1988. "Incomplete Contracts and the Theory of the Firm." [https://www.jstor.org/stable/764953][research_hart_1988]
+- "Journal of Public Procurement." n.d. Emerald Publishing. Accessed October 25, 2026. [https://www.emerald.com/insight/publication/issn/1535-0118][ref_journal_public_procurement]
+- "Journal of Space Law." n.d. Center for Air and Space Law. Accessed October 25, 2026. [https://airandspacelaw.olemiss.edu/journal-of-space-law/][ref_journal_space_law]
+- Krueger. 1974. "The Political Economy of the Rent-Seeking Society." [https://www.jstor.org/stable/1808883][research_krueger_1974]
+- Law. 1987. "Technology and Heterogeneous Engineering." [https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/][research_law_1987]
+- "NASA COTS Programme Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services][ref_nasa_cots_report]
+- "NASA COTS Solicitation Announcement." 2006. [https://ntrs.nasa.gov/search?q=Commercial+Orbital+Transportation+Services+solicitation][ref_nasa_cots_solicitation_2006]
+- "NASA Rocketplane Kistler Termination." 2007. [https://ntrs.nasa.gov/search?q=Rocketplane+Kistler+COTS+termination][ref_nasa_rocketplane_kistler_termination_2007]
+- "NASA Technical Reports Server." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/][ref_nasa_ntrs]
+- "NASASpaceflight Coverage." n.d. Accessed October 25, 2026. [https://www.nasaspaceflight.com/][ref_nasaspaceflight]
+- Nelson. 1977. "The Moon and the Ghetto." [https://www.jstor.org/stable/1817191][research_nelson_1977]
+- "New York Times." n.d. Accessed October 25, 2026. [https://www.nytimes.com/section/science/space][ref_nyt]
+- "New York Times Starshield Coverage." 2024. [https://www.nytimes.com/2024/02/16/us/politics/spacex-us-spy-agency-satellites.html][ref_nyt_starshield_2024]
+- "Payload Newsletter." n.d. Accessed October 25, 2026. [https://payloadspace.com/][ref_payload]
+- Peeters. 2018. "Space Commercialization Trends." [https://www.sciencedirect.com/science/article/pii/S0265964617302175][research_peeters_2018]
+- "Public Administration Review." n.d. Accessed October 25, 2026. [https://onlinelibrary.wiley.com/journal/15406210][ref_public_admin_review]
+- "Research Newsletter." n.d. *Payload*. Accessed October 25, 2026. [https://payloadspace.com/research/][ref_payload_research]
+- Reuters. 2024. "Starshield Investigation." [https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/][research_reuters_starshield_2024]
+- "Space Force NSSL Phase 3 Lane 2 Award." 2024. [https://spacenews.com/][ref_spacenews]
+- "Space Legislation Review." n.d. Accessed October 25, 2026. [https://www.mcgill.ca/iasl/][ref_space_legislation_review]
+- "Space Policy Journal." n.d. Accessed October 25, 2026. [https://www.sciencedirect.com/journal/space-policy][ref_space_policy_journal]
+- "Space Policy Online." n.d. Accessed October 25, 2026. [https://spacepolicyonline.com/][ref_space_policy_online]
+- "The Space Review: Essays and Commentary about the Final Frontier." n.d. Accessed October 25, 2026. [https://www.thespacereview.com/][ref_the_space_review]
+- "Wall Street Journal." n.d. Accessed October 25, 2026. [https://www.wsj.com/tech][ref_wsj]
+- "Washington Post Technology Coverage." n.d. Accessed October 25, 2026. [https://www.washingtonpost.com/business/technology/][ref_washington_post]
+- Williamson. 1975. "Markets and Hierarchies." [https://www.jstor.org/stable/40751236][research_williamson_1975]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Introduction to Space Studies." *Brendan A R Sechter's Development Blog*, February 21. [https://sgeos.github.io/space/math/2026/02/21/introduction\_to\_space\_studies.html][related_post_a90_intro_space_studies]
+- Sechter, Brendan. 2026. "History of Rocketplanes." *Brendan A R Sechter's Development Blog*, February 27. [https://sgeos.github.io/space/history/2026/02/27/history\_of\_rocketplanes.html][related_post_a96_history_rocketplanes]
+- Sechter, Brendan. 2026. "An Introduction to the SBIR and STTR Programs." *Brendan A R Sechter's Development Blog*, June 15. [https://sgeos.github.io/business/funding/sbir/2026/06/15/introduction\_to\_the\_sbir\_and\_sttr\_programs.html][related_post_a132_sbir_intro]
+- Sechter, Brendan. 2026. "Phase III and the Valley of Death for SBIR and STTR." *Brendan A R Sechter's Development Blog*, June 21. [https://sgeos.github.io/business/funding/sbir/2026/06/21/phase\_iii\_and\_the\_valley\_of\_death\_for\_sbir\_and\_sttr.html][related_post_a138_sbir_phase3]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Framing and the Co-Development Mechanism." *Brendan A R Sechter's Development Blog*, July 13. [https://sgeos.github.io/history/technology/aerospace/2026/07/13/framing\_and\_the\_co\_development\_mechanism.html][related_post_a237_aerospace_framing]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: The Apollo Guidance Computer." *Brendan A R Sechter's Development Blog*, July 18. [https://sgeos.github.io/history/technology/aerospace/2026/07/18/apollo\_guidance\_computer.html][related_post_a242_apollo_guidance]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Silicon Valley from Defense Contracting." *Brendan A R Sechter's Development Blog*, July 22. [https://sgeos.github.io/history/technology/aerospace/2026/07/22/silicon\_valley\_from\_defense\_contracting.html][related_post_a246_silicon_valley_defense]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Software-Defined Aerospace and Autonomy." *Brendan A R Sechter's Development Blog*, July 23. [https://sgeos.github.io/history/technology/aerospace/2026/07/23/software\_defined\_aerospace\_and\_autonomy.html][related_post_a247_software_defined_aerospace]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Contemporary Snapshot and Extrapolation." *Brendan A R Sechter's Development Blog*, July 24. [https://sgeos.github.io/history/technology/aerospace/2026/07/24/contemporary\_snapshot\_and\_extrapolation.html][related_post_a248_contemporary_snapshot]
+- Sechter, Brendan. 2026. "History of SpaceX: Series Framing and the Seven-Plus-Three Forcing-Function Framework." *Brendan A R Sechter's Development Blog*, July 25. [https://sgeos.github.io/history/business/aerospace/2026/07/25/spacex\_history\_framing.html][related_post_a281_spacex_framing]
+- Sechter, Brendan. 2026. "History of SpaceX: Value Gradient from Falcon 1 to Falcon 9 to Reusability." *Brendan A R Sechter's Development Blog*, July 26. [https://sgeos.github.io/history/business/aerospace/2026/07/26/spacex\_history\_value\_gradient.html][related_post_a282_spacex_value_gradient]
+
+[book_adner_2012]: https://openlibrary.org/works/OL16191407W
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_anderson_2023]: https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562
 [book_andrewes_1996]: https://openlibrary.org/search?q=Andrewes+The+Quest+for+Longitude
 [book_berger_2021]: https://williammorrow.com/liftoff-eric-berger/
 [book_berger_2024]: https://williammorrow.com/reentry-eric-berger/
-[book_bilstein_1996]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn+Bilstein
+[book_bilstein_1996]: https://openlibrary.org/works/OL2856899W
 [book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
-[book_bird_sherwin_2005]: https://openlibrary.org/search?q=Bird+and+Sherwin+American+Prometheus
+[book_bird_sherwin_2005]: https://openlibrary.org/works/OL1905682W
 [book_buchanan_tullock_1962]: https://www.libertyfund.org/books/the-calculus-of-consent/
 [book_chadeau_1996]: https://openlibrary.org/search?q=Chadeau+Airbus+Industrie+History
-[book_chaikin_2007]: https://openlibrary.org/search?q=Chaikin+A+Man+on+the+Moon
+[book_chaikin_2007]: https://openlibrary.org/works/OL3290625W
 [book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
 [book_collins_2010]: https://www.harpercollins.com/products/the-language-of-life-francis-s-collins
 [book_concina_2006]: https://www.cambridge.org/9780521187459
 [book_crouch_2003]: https://wwnorton.com/books/Wings/
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
-[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/works/OL2979477W
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
 [book_fallows_1981]: https://archive.org/details/nationaldefense00fall
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
 [book_fligstein_2001]: https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
 [book_grimsey_lewis_2004]: https://www.e-elgar.com/shop/gbp/public-private-partnerships-9781840647112.html
-[book_groves_1962]: https://openlibrary.org/search?q=Groves+Now+It+Can+Be+Told
+[book_groves_1962]: https://openlibrary.org/works/OL5912728W
 [book_handberg_1994]: https://openlibrary.org/search?q=Handberg+Reinventing+NASA
-[book_hewlett_anderson_1962]: https://openlibrary.org/search?q=Hewlett+and+Anderson+The+New+World
+[book_hewlett_anderson_1962]: https://openlibrary.org/works/OL12854869W
 [book_ho_2009]: https://www.dukeupress.edu/liquidated
 [book_hosley_1996]: https://www.press.jhu.edu/books/title/1799/colt
 [book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
@@ -895,7 +901,7 @@ The competitive-response timeline under which the alternative launch providers w
 [book_iansiti_levien_2004]: https://www.hbsp.harvard.edu/product/3921-HBK-ENG
 [book_isaacson_2023]: https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284
 [book_johnson_1982]: https://www.sup.org/books/title/?id=2143
-[book_kaplan_1991]: https://openlibrary.org/search?q=Kaplan+The+Wizards+of+Armageddon
+[book_kaplan_1991]: https://openlibrary.org/works/OL4488241W
 [book_krige_et_al_2000]: https://www.esa.int/About_Us/ESA_history
 [book_krippner_2011]: https://www.hup.harvard.edu/books/9780674066199
 [book_laffont_tirole_1993]: https://mitpress.mit.edu/9780262121743/a-theory-of-incentives-in-procurement-and-regulation/
@@ -903,15 +909,15 @@ The competitive-response timeline under which the alternative launch providers w
 [book_latour_1987]: https://www.hup.harvard.edu/books/9780674792913
 [book_launius_1994]: https://malabarpubs.com/nasa-history/
 [book_liker_2004]: https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html
-[book_logsdon_2010]: https://openlibrary.org/search?q=Logsdon+John+F+Kennedy+and+the+Race+to+the+Moon
+[book_logsdon_2010]: https://openlibrary.org/works/OL20786883W
 [book_mackenzie_2006]: https://mitpress.mit.edu/9780262633673/an-engine-not-a-camera/
 [book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
-[book_mcafee_mcmillan_1988]: https://openlibrary.org/search?q=McAfee+and+McMillan+Incentives+in+Government+Contracting
+[book_mcafee_mcmillan_1988]: https://openlibrary.org/works/OL4361570W
 [book_mccullough_1977]: https://www.simonandschuster.com/books/The-Path-Between-the-Seas/David-McCullough/9780743201377
 [book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
 [book_mcintyre_1992]: https://openlibrary.org/search?q=McIntyre+Airbus+Industrie
-[book_melman_1970]: https://openlibrary.org/search?q=Melman+Pentagon+Capitalism
+[book_melman_1970]: https://openlibrary.org/works/OL1299274W
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
 [book_milgrom_2004]: https://www.cambridge.org/9780521551847
 [book_miller_1995]: https://www.aerofax.com/product-page/lockheed-skunk-works
@@ -920,17 +926,17 @@ The competitive-response timeline under which the alternative launch providers w
 [book_musa_1998]: https://www.mheducation.com/highered/product/software-reliability-engineering-musa/M9780079132710.html
 [book_muthoo_1999]: https://www.cambridge.org/9780521576475
 [book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
-[book_neufeld_1995]: https://openlibrary.org/search?q=Neufeld+The+Rocket+and+the+Reich
-[book_neufeld_2013]: https://openlibrary.org/search?q=Neufeld+Von+Braun
-[book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
-[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O+Connor+and+Kleyner+Practical+Reliability+Engineering
+[book_neufeld_1995]: https://openlibrary.org/works/OL3501503W
+[book_neufeld_2013]: https://openlibrary.org/works/OL3501502W
+[book_newhouse_1982]: https://openlibrary.org/works/OL2625941W
+[book_oconnor_kleyner_2012]: https://openlibrary.org/works/OL3744715W
 [book_osborne_2000]: https://www.routledge.com/Public-Private-Partnerships/Osborne/p/book/9780415225236
 [book_osborne_rubinstein_1990]: https://www.sciencedirect.com/book/9780125286329/bargaining-and-markets
-[book_preda_2009]: https://openlibrary.org/search?q=Preda+Framing+Finance
+[book_preda_2009]: https://openlibrary.org/works/OL27824246W
 [book_rhodes_1986]: https://www.simonandschuster.com/books/The-Making-of-the-Atomic-Bomb/Richard-Rhodes/9781451677614
 [book_rich_janos_1994]: https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316743006/
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
-[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
+[book_serling_1992]: https://openlibrary.org/works/OL2769360W
 [book_sobel_1995]: https://www.bloomsbury.com/us/longitude-9780802715296/
 [book_tirole_1988]: https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/
 [book_trigeorgis_1996]: https://mitpress.mit.edu/9780262201025/real-options/
@@ -941,7 +947,7 @@ The competitive-response timeline under which the alternative launch providers w
 [book_womack_jones_roos_1990]: https://www.simonandschuster.com/books/The-Machine-That-Changed-the-World/James-P-Womack/9780743299794
 [book_woo_cumings_1999]: https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/
 [book_yescombe_2007]: https://www.sciencedirect.com/book/9780750680547/public-private-partnerships
-[book_zaloom_2006]: https://openlibrary.org/search?q=Zaloom+Out+of+the+Pits
+[book_zaloom_2006]: https://openlibrary.org/works/OL9250847W
 [ref_51_usc_51302_saa]: https://www.law.cornell.edu/uscode/text/51/51302
 [ref_arstechnica_space]: https://arstechnica.com/science/space/
 [ref_aviation_week]: https://aviationweek.com/
@@ -983,8 +989,8 @@ The competitive-response timeline under which the alternative launch providers w
 [ref_nasa_crs2_press_2016]: https://www.nasa.gov/news-release/nasa-awards-international-space-station-cargo-transport-contracts/
 [ref_nasa_far_supplement]: https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf
 [ref_nasa_history]: https://history.nasa.gov/
-[ref_nasa_hls_optionA_2021]: https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/
-[ref_nasa_hls_optionB_2022]: https://www.nasa.gov/news-release/nasa-provides-update-to-astronaut-moon-lander-plans-under-artemis/
+[ref_nasa_hls_option_a_2021]: https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/
+[ref_nasa_hls_option_b_2022]: https://www.nasa.gov/news-release/nasa-provides-update-to-astronaut-moon-lander-plans-under-artemis/
 [ref_nasa_hls_sustaining_2023]: https://www.nasa.gov/humans-in-space/artemis/
 [ref_nasa_news]: https://www.nasa.gov/news/
 [ref_nasa_ntrs]: https://ntrs.nasa.gov/
@@ -1042,49 +1048,49 @@ The competitive-response timeline under which the alternative launch providers w
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [research_adner_2017]: https://doi.org/10.1177/0149206316678451
 [research_anadol_cohen_2018]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
-[research_bajari_mcmillan_tadelis_2009]: https://academic.oup.com/jleo/article-abstract/25/2/372/845776
-[research_bajari_tadelis_2001]: https://www.jstor.org/stable/2696367
-[research_barney_1991]: https://journals.sagepub.com/doi/10.1177/014920639101700108
-[research_binmore_rubinstein_wolinsky_1986]: https://www.jstor.org/stable/2555382
+[research_bajari_mcmillan_tadelis_2009]: https://doi.org/10.1093/jleo/ewn002
+[research_bajari_tadelis_2001]: https://doi.org/10.2307/2696361
+[research_barney_1991]: https://doi.org/10.1177/014920639101700108
+[research_binmore_rubinstein_wolinsky_1986]: https://doi.org/10.2307/2555382
 [research_block_2008]: https://doi.org/10.1177/0032329208318731
 [research_bonvillian_2018]: https://mitpress.mit.edu/9780262038522/the-darpa-model-for-transformative-technologies/
 [research_bovaird_2004]: https://doi.org/10.1177/0020852304044250
 [research_bower_christensen_1995]: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
-[research_callon_1986]: https://onlinelibrary.wiley.com/doi/10.1111/j.1467-954X.1984.tb00113.x
+[research_callon_1986]: https://doi.org/10.1111/j.1467-954x.1984.tb00113.x
 [research_che_chung_1999]: https://academic.oup.com/rand/article-abstract/30/1/97/2701540
-[research_coase_1937]: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0335.1937.tb00002.x
-[research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
+[research_coase_1937]: https://doi.org/10.1111/j.1468-0335.1937.tb00002.x
+[research_cohen_levinthal_1990]: https://doi.org/10.2307/2393553
 [research_corts_singh_2004]: https://academic.oup.com/jleo/article-abstract/20/1/230/970131
-[research_duane_1964]: https://ieeexplore.ieee.org/document/4051464
-[research_fuchs_2010]: https://direct.mit.edu/rest/article/92/1/168/58109/
-[research_gagnepain_ivaldi_2002]: https://academic.oup.com/rand/article-abstract/33/4/605/2603099
-[research_grossman_hart_1986]: https://www.jstor.org/stable/1833199
+[research_duane_1964]: https://doi.org/10.1109/ta.1964.4319640
+[research_fuchs_2010]: https://doi.org/10.1016/j.respol.2010.07.003
+[research_gagnepain_ivaldi_2002]: https://doi.org/10.2307/3087477
+[research_grossman_hart_1986]: https://doi.org/10.1086/261404
 [research_hart_1988]: https://www.jstor.org/stable/764953
-[research_hertzfeld_2002]: https://www.sciencedirect.com/science/article/abs/pii/S0265964602000188
-[research_hodge_greve_2007]: https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6210.2007.00736.x
-[research_jacobides_et_al_2018]: https://onlinelibrary.wiley.com/doi/10.1002/smj.2904
+[research_hertzfeld_2002]: https://doi.org/10.1023/a:1020207506064
+[research_hodge_greve_2007]: https://doi.org/10.1111/j.1540-6210.2007.00736.x
+[research_jacobides_et_al_2018]: https://doi.org/10.1002/smj.2904
 [research_kalnins_mayer_2004]: https://doi.org/10.1093/jleo/ewh030
-[research_kelly_2013]: https://www.sciencedirect.com/science/article/pii/S0094114X12002042
-[research_klein_crawford_alchian_1978]: https://www.jstor.org/stable/725234
+[research_kelly_2013]: https://scholar.google.com/scholar?q=Contract+Auctions+in+Space+Launch+Kelly+2013
+[research_klein_crawford_alchian_1978]: https://doi.org/10.1086/466922
 [research_krueger_1974]: https://www.jstor.org/stable/1808883
-[research_lane_koka_pathak_2006]: https://journals.aom.org/doi/10.5465/amr.2006.22527456
+[research_lane_koka_pathak_2006]: https://doi.org/10.5465/amr.2006.22527456
 [research_law_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
-[research_levin_tadelis_2010]: https://academic.oup.com/qje/article-abstract/125/3/1103/1903637
-[research_maier_1998]: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6858(1998)1:4%3C267::AID-SYS3%3E3.0.CO;2-D
-[research_myerson_1981]: https://pubsonline.informs.org/doi/10.1287/moor.6.1.58
-[research_nash_1950]: https://www.jstor.org/stable/1907266
-[research_nelson_1959]: https://www.journals.uchicago.edu/doi/10.1086/258177
+[research_levin_tadelis_2010]: https://doi.org/10.1111/j.1467-6451.2010.00430.x
+[research_maier_1998]: https://doi.org/10.1002/(sici)1520-6858(1998)1:4<267::aid-sys3>3.0.co;2-d
+[research_myerson_1981]: https://doi.org/10.1287/moor.6.1.58
+[research_nash_1950]: https://doi.org/10.2307/1907266
+[research_nelson_1959]: https://doi.org/10.1086/258177
 [research_nelson_1977]: https://www.jstor.org/stable/1817191
 [research_peeters_2018]: https://www.sciencedirect.com/science/article/pii/S0265964617302175
 [research_reuters_starshield_2024]: https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/
-[research_rubinstein_1982]: https://www.jstor.org/stable/1912531
+[research_rubinstein_1982]: https://doi.org/10.2307/1912531
 [research_sage_cuppan_2001]: https://doi.org/10.3233/iks-2001-00045
-[research_stigler_1971]: https://www.jstor.org/stable/3003160
-[research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
-[research_todorova_durisin_2007]: https://journals.aom.org/doi/10.5465/amr.2007.25275513
-[research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
+[research_stigler_1971]: https://doi.org/10.2307/3003160
+[research_teece_pisano_shuen_1997]: https://doi.org/10.1002/(sici)1097-0266(199708)18:7<509::aid-smj882>3.0.co;2-z
+[research_todorova_durisin_2007]: https://doi.org/10.5465/amr.2007.25275513
+[research_weinzierl_2018]: https://doi.org/10.1257/jep.32.2.173
 [research_weiss_thurbon_2021]: https://doi.org/10.1080/13563467.2020.1766431
-[research_wernerfelt_1984]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250050207
+[research_wernerfelt_1984]: https://doi.org/10.1002/smj.4250050207
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
-[research_williamson_2002]: https://www.aeaweb.org/articles?id=10.1257/089533002760278776
-[research_zahra_george_2002]: https://journals.aom.org/doi/10.5465/amr.2002.6587995
+[research_williamson_2002]: https://doi.org/10.1257/089533002760278776
+[research_zahra_george_2002]: https://doi.org/10.5465/amr.2002.6587995

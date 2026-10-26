@@ -1,0 +1,21 @@
+# Import decisions for A207. Registry caches and page metadata are scratch and are not tracked.
+article = "A207"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a207/sources/wiki_pins.json"
+report_cache = "tmp/sources"
+web_read = "2026-10-25"
+
+# The links are resolved to registry records where their URL or their label's title finds one that
+# agrees with the label, and otherwise read from the page or its archive capture. See _lib/sources_resolve.py.
+resolve_links = true
+
+# No copy of the Wikipedia text read for A207 was saved, so its pins are the revisions current
+# when each link was first committed, and say so in their evidence.
+dated_pins = true
+
+# The label, `von Neumann, John, First Draft of a Report on the EDVAC, Moore School, University of Pennsylvania,
+# 1945`, names the issuing school as part of the title. The work is a report of the Moore School of Electrical
+# Engineering, University of Pennsylvania, dated 30 June 1945.
+[fix.paper_vonneumann_edvac]
+note = "The label names the issuing school as part of the title; the report is the Moore School of Electrical Engineering's, University of Pennsylvania, 1945."
+set = { kind = "report", title = "First Draft of a Report on the EDVAC", title_published = "First Draft of a Report on the EDVAC", publisher = "Moore School of Electrical Engineering, University of Pennsylvania" }

@@ -1,0 +1,22 @@
+{
+ "book_bertsekas_tsitsiklis_1996": "book_bertsekas_tsitsiklis_1996_709d67",
+ "research_baird_1995": "research_baird_1995_61c825",
+ "research_chen_et_al_2021_dt": "research_chen_et_al_2021",
+ "research_chen_jiang_2019": "research_chen_jiang_2019_f1d798",
+ "research_chi_et_al_2023_diffusion_policy": "research_chi_et_al_2023",
+ "research_christiano_et_al_2017_rlhf": "research_christiano_et_al_2017",
+ "research_driess_et_al_2023_palme": "research_driess_et_al_2023",
+ "research_ernst_geurts_wehenkel_2005_offline": "research_ernst_geurts_wehenkel_2005",
+ "research_gordon_1995": "research_gordon_1995_fcaf35",
+ "research_janner_li_levine_2021_tt": "research_janner_li_levine_2021",
+ "research_jiang_li_2016_offline": "research_jiang_li_2016_a1d46a",
+ "research_munos_et_al_2016_retrace": "research_munos_stepleton_harutyunyan_bellemare_2016",
+ "research_osband_et_al_2016_bootstrapped_dqn": "research_osband_blundell_pritzel_van_roy_2016",
+ "research_ouyang_et_al_2022_instructgpt": "research_ouyang_et_al_2022",
+ "research_precup_sutton_singh_2000_offline": "research_precup_sutton_singh_2000",
+ "research_rafailov_et_al_2023_dpo": "research_rafailov_et_al_2023",
+ "research_reed_et_al_2022_gato_offline": "research_reed_et_al_2022",
+ "research_riedmiller_2005_nfq": "research_riedmiller_2005",
+ "research_sutton_1988_td": "research_sutton_1988_a6ea14",
+ "research_watkins_1989_thesis": "research_watkins_1989"
+}

@@ -49,9 +49,9 @@ The problem was posed in a decision-theoretic form by [Thompson 1933][research_t
 
 The frequentist theory reached its foundational result in [Lai and Robbins 1985][research_lai_robbins_1985], which established an asymptotic lower bound on regret for any consistent algorithm and constructed algorithms that achieve it. The bound provided the theoretical target that subsequent algorithm design has aimed to match.
 
-[Auer Cesa-Bianchi and Fischer 2002][research_auer_cesa_bianchi_fischer_2002] introduced the UCB1 algorithm, providing a simple explicit rule that achieves $\mathcal{O}(\log T)$ regret in the stochastic setting with a small multiplicative constant. In the same year, [Auer Cesa-Bianchi Freund and Schapire 2002][research_auer_cesa_bianchi_freund_schapire_2002] developed the EXP3 algorithm for the adversarial bandit setting, providing $\mathcal{O}(\sqrt{KT \log K})$ regret without stochastic assumptions.
+[Auer et al. 2002a][research_auer_cesa_bianchi_fischer_2002] introduced the UCB1 algorithm, providing a simple explicit rule that achieves $\mathcal{O}(\log T)$ regret in the stochastic setting with a small multiplicative constant. In the same year, [Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002] developed the EXP3 algorithm for the adversarial bandit setting, providing $\mathcal{O}(\sqrt{KT \log K})$ regret without stochastic assumptions.
 
-The 2010s produced substantial refinement. [Chapelle and Li 2011][research_chapelle_li_2011] empirical study demonstrated that Thompson sampling matched or exceeded UCB variants in practice, sparking renewed interest in the Bayesian family. [Bubeck 2012][book_bubeck_2012] monograph and [Bubeck and Cesa-Bianchi 2012][research_bubeck_cesa_bianchi_2012] survey provided comprehensive theoretical treatment of the field circa 2012, and [Lattimore and Szepesvari 2020][book_lattimore_szepesvari_2020] textbook consolidated the field into a modern reference standard.
+The 2010s produced substantial refinement. [Chapelle and Li 2011][research_chapelle_li_2011] empirical study demonstrated that Thompson sampling matched or exceeded UCB variants in practice, sparking renewed interest in the Bayesian family. [Bubeck and Cesa-Bianchi 2012][book_bubeck_2012] monograph and [Bubeck and Cesa-Bianchi 2012][research_bubeck_cesa_bianchi_2012] survey provided comprehensive theoretical treatment of the field circa 2012, and [Lattimore and Szepesvari 2020][book_lattimore_szepesvari_2020] textbook consolidated the field into a modern reference standard.
 
 ## Stochastic Multi-Armed Bandits and Regret
 
@@ -101,7 +101,7 @@ $$\liminf_{T \to \infty} \frac{R_T}{\log T} \geq \sum_{a: \Delta_a > 0} \frac{\D
 
 The bound is tight in the sense that algorithms exist achieving this rate, and it establishes the $\log T$ scaling as unavoidable for any algorithm that adapts sensibly to unknown reward distributions.
 
-For the worst-case adversarial bandit setting, [Auer Cesa-Bianchi Freund and Schapire 2002][research_auer_cesa_bianchi_freund_schapire_2002] and subsequent work established the minimax lower bound
+For the worst-case adversarial bandit setting, [Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002] and subsequent work established the minimax lower bound
 
 $$R_T = \Omega(\sqrt{KT})$$
 
@@ -111,7 +111,7 @@ Instance-dependent and instance-independent bounds correspond to different measu
 
 ## Upper Confidence Bound Methods
 
-The upper confidence bound family of algorithms implements the principle of optimism in the face of uncertainty. At each round, the algorithm plays the arm with the largest upper bound on a confidence interval around its empirical mean. The most widely known variant is UCB1 from [Auer Cesa-Bianchi and Fischer 2002][research_auer_cesa_bianchi_fischer_2002], which selects
+The upper confidence bound family of algorithms implements the principle of optimism in the face of uncertainty. At each round, the algorithm plays the arm with the largest upper bound on a confidence interval around its empirical mean. The most widely known variant is UCB1 from [Auer et al. 2002a][research_auer_cesa_bianchi_fischer_2002], which selects
 
 $$A_t = \arg\max_a \left[ \hat{\mu}_a(N_a(t-1)) + \sqrt{\frac{2 \log t}{N_a(t-1)}} \right]$$
 
@@ -121,17 +121,17 @@ $$R_T \leq \sum_{a: \Delta_a > 0} \frac{8 \log T}{\Delta_a} + \left(1 + \frac{\p
 
 which matches the Lai-Robbins lower bound up to constants.
 
-Refinements of UCB1 tighten the confidence radius by using more sensitive concentration inequalities. UCB-V from [Audibert Munos Szepesvari 2009][research_audibert_munos_szepesvari_2009] incorporates the empirical variance, giving
+Refinements of UCB1 tighten the confidence radius by using more sensitive concentration inequalities. UCB-V from [Audibert et al. 2009][research_audibert_munos_szepesvari_2009] incorporates the empirical variance, giving
 
 $$A_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \hat{V}_a \log t}{N_a}} + \frac{3 \log t}{N_a} \right]$$
 
-which is tighter for arms with low variance. KL-UCB from [Cappé et al 2013][research_cappe_et_al_2013] uses the KL divergence-based confidence set,
+which is tighter for arms with low variance. KL-UCB from [Cappé 2013][research_cappe_et_al_2013] uses the KL divergence-based confidence set,
 
 $$A_t = \arg\max_a \max\left\{ q \in [0, 1] : N_a(t-1) \cdot \text{KL}(\hat{\mu}_a, q) \leq \log t + c \log \log t \right\}$$
 
 and achieves the Lai-Robbins constant exactly.
 
-For linear bandits with feature vectors $x_a \in \mathbb{R}^d$ and unknown parameter $\theta \in \mathbb{R}^d$, the LinUCB algorithm of [Li et al 2010][research_li_et_al_2010] and its predecessors constructs confidence ellipsoids on $\theta$ and plays
+For linear bandits with feature vectors $x_a \in \mathbb{R}^d$ and unknown parameter $\theta \in \mathbb{R}^d$, the LinUCB algorithm of [Li et al. 2010][research_li_et_al_2010] and its predecessors constructs confidence ellipsoids on $\theta$ and plays
 
 $$A_t = \arg\max_a \left[ \hat{\theta}_t^\top x_a + \beta_t \| x_a \|_{V_t^{-1}} \right]$$
 
@@ -147,7 +147,7 @@ Linear UCB achieves regret
 
 $$R_T = \mathcal{O}\!\left(d \sqrt{T} \log T\right)$$
 
-in the linear stochastic setting, replacing the arm count $K$ in the bound with the ambient dimension $d$. [Abbasi-Yadkori Pál and Szepesvári 2011][research_abbasi_yadkori_pal_szepesvari_2011] improved the analysis with self-normalized concentration inequalities, giving the tighter bound $R_T = \mathcal{O}(d \sqrt{T \log T})$ under standard regularity conditions. The minimax-optimal MOSS algorithm of [Audibert and Bubeck 2009][research_audibert_bubeck_2009] achieves the improved bound $R_T = \mathcal{O}(\sqrt{KT})$ in the finite-armed adversarial-adjacent setting.
+in the linear stochastic setting, replacing the arm count $K$ in the bound with the ambient dimension $d$. [Abbasi-yadkori et al. 2011][research_abbasi_yadkori_pal_szepesvari_2011] improved the analysis with self-normalized concentration inequalities, giving the tighter bound $R_T = \mathcal{O}(d \sqrt{T \log T})$ under standard regularity conditions. The minimax-optimal MOSS algorithm of [Audibert and Bubeck 2009][research_audibert_bubeck_2009] achieves the improved bound $R_T = \mathcal{O}(\sqrt{KT})$ in the finite-armed adversarial-adjacent setting.
 
 ## Thompson Sampling
 
@@ -159,7 +159,7 @@ The Bayesian analysis of Thompson sampling due to [Russo and Van Roy 2014][resea
 
 $$R_T^{\text{Bayes}} \leq \sqrt{\frac{1}{2} T H(A^*)}$$
 
-where $H(A^\*)$ is the entropy of the prior over the optimal arm. The frequentist regret analysis of [Agrawal and Goyal 2012][research_agrawal_goyal_2012] shows Thompson sampling achieves $\mathcal{O}(\log T)$ instance-dependent regret with the Lai-Robbins constant asymptotically. [Kaufmann Korda and Munos 2012][research_kaufmann_korda_munos_2012] independently established non-asymptotic finite-time bounds for Thompson sampling on Bernoulli bandits that match the Lai-Robbins constant.
+where $H(A^\*)$ is the entropy of the prior over the optimal arm. The frequentist regret analysis of [Agrawal and Goyal 2012][research_agrawal_goyal_2012] shows Thompson sampling achieves $\mathcal{O}(\log T)$ instance-dependent regret with the Lai-Robbins constant asymptotically. [Kaufmann et al. 2012][research_kaufmann_korda_munos_2012] independently established non-asymptotic finite-time bounds for Thompson sampling on Bernoulli bandits that match the Lai-Robbins constant.
 
 The empirical success of Thompson sampling documented by [Chapelle and Li 2011][research_chapelle_li_2011] extends to structured settings including linear, Gaussian process, and neural network bandits. For linear Thompson sampling, [Agrawal and Goyal 2013][research_agrawal_goyal_2013] established the frequentist regret bound
 
@@ -171,7 +171,7 @@ matching the LinUCB scaling in $T$ but with a worse polynomial dependence on dim
 
 The adversarial bandit setting drops the stochastic assumption. An adversary selects reward sequences without stochastic structure, potentially with knowledge of the learner's algorithm but not its randomization. The setting is the natural model for problems in which stochastic reward assumptions are implausible, such as online advertising against strategic advertisers or repeated games against sophisticated opponents.
 
-The EXP3 algorithm of [Auer Cesa-Bianchi Freund and Schapire 2002][research_auer_cesa_bianchi_freund_schapire_2002] maintains exponentially-weighted probabilities over arms. Let $\eta$ be the learning rate and $\hat{X}\_t(a)$ the importance-weighted reward estimate
+The EXP3 algorithm of [Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002] maintains exponentially-weighted probabilities over arms. Let $\eta$ be the learning rate and $\hat{X}\_t(a)$ the importance-weighted reward estimate
 
 $$\hat{X}_t(a) = \frac{X_t \, \mathbb{1}\{A_t = a\}}{p_t(a)}$$
 
@@ -199,7 +199,7 @@ holds for the adversarial setting, showing that EXP3 is nearly minimax-optimal u
 
 Refinements include EXP3.P, which provides high-probability guarantees rather than expected-regret bounds, and EXP3-IX, which uses implicit exploration through modified importance weights. The follow-the-perturbed-leader family gives an alternative algorithmic strategy for adversarial online learning that generalizes beyond the finite-armed setting.
 
-The best-of-both-worlds family of algorithms achieves near-optimal regret in both stochastic and adversarial settings simultaneously, without prior knowledge of which regime the environment is in. [Bubeck and Slivkins 2012][research_bubeck_slivkins_2012] provided the first such algorithm with $\mathcal{O}(\log^3 T)$ regret in the stochastic setting and $\mathcal{O}(\sqrt{T \log T})$ regret in the adversarial setting. The [Zimmert and Seldin 2019][research_zimmert_seldin_2019] Tsallis-INF algorithm uses a Tsallis entropy regularizer
+The best-of-both-worlds family of algorithms achieves near-optimal regret in both stochastic and adversarial settings simultaneously, without prior knowledge of which regime the environment is in. [Bubeck et al. 2012][research_bubeck_slivkins_2012] provided the first such algorithm with $\mathcal{O}(\log^3 T)$ regret in the stochastic setting and $\mathcal{O}(\sqrt{T \log T})$ regret in the adversarial setting. The [Zimmert and Seldin 2019][research_zimmert_seldin_2019] Tsallis-INF algorithm uses a Tsallis entropy regularizer
 
 $$x_{t+1} = \arg\min_{p \in \Delta_K} \left[ \langle p, \hat{L}_t \rangle - \eta \sum_a \sqrt{p_a} \right]$$
 
@@ -217,7 +217,7 @@ with $\eta_t$ zero-mean. The learner's task is to learn a policy $\pi : \mathcal
 
 For linear contextual bandits, the reward function has the form $f(x, a) = \theta_a^\top x$ for arm-parameters $\theta_a$, or $f(x, a) = \theta^\top \phi(x, a)$ for a shared parameter with joint context-action features. LinUCB and Thompson sampling extend directly, and the regret analyses generalize with the number of arms replaced by an effective dimension parameter.
 
-For general contextual bandits without linear structure, the epoch-greedy family of algorithms of [Langford and Zhang 2007][research_langford_zhang_2007], the exp4 algorithm of [Auer Cesa-Bianchi Freund Schapire 2002][research_auer_cesa_bianchi_freund_schapire_2002], and the exp4.P variant of [Beygelzimer Langford Li Reyzin Schapire 2011][research_beygelzimer_et_al_2011] provide reduction-based algorithms with regret bounds
+For general contextual bandits without linear structure, the epoch-greedy family of algorithms of [Langford and Zhang 2007][research_langford_zhang_2007], the exp4 algorithm of [Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002], and the exp4.P variant of [Beygelzimer et al. 2011][research_beygelzimer_et_al_2011] provide reduction-based algorithms with regret bounds
 
 $$R_T = \mathcal{O}\left(\sqrt{T K \log |\Pi|}\right)$$
 
@@ -233,7 +233,7 @@ $$\mu_a = \theta^\top \phi(a)$$
 
 for unknown parameter $\theta$. The dimension $d$ replaces the number of arms $K$ in regret bounds, which is advantageous when $K \gg d$ or when $K$ is infinite.
 
-Kernel bandits generalize the linear structure to reproducing kernel Hilbert spaces, giving nonparametric algorithms with regret bounds in terms of an information gain quantity of the kernel. The GP-UCB algorithm of [Srinivas et al 2010][research_srinivas_et_al_2010] provides an early treatment, achieving regret
+Kernel bandits generalize the linear structure to reproducing kernel Hilbert spaces, giving nonparametric algorithms with regret bounds in terms of an information gain quantity of the kernel. The GP-UCB algorithm of [Srinivas et al. 2009][research_srinivas_et_al_2010] provides an early treatment, achieving regret
 
 $$R_T = \mathcal{O}\!\left(\sqrt{T \gamma_T \log T}\right)$$
 
@@ -249,7 +249,7 @@ $$R_T = \mathcal{O}(m \sqrt{T \log |\mathcal{A}|})$$
 
 where $m$ is the size of each combinatorial action and $\lvert \mathcal{A} \rvert$ is the combinatorial action set size, exploiting the combinatorial structure to avoid regret bounds that scale linearly with the exponentially large arm set.
 
-Continuum-armed or Lipschitz bandits allow an uncountable action set with rewards Lipschitz-continuous in the action. The [Kleinberg Slivkins and Upfal 2008][research_kleinberg_slivkins_upfal_2008] zooming algorithm achieves regret
+Continuum-armed or Lipschitz bandits allow an uncountable action set with rewards Lipschitz-continuous in the action. The [Kleinberg et al. 2008][research_kleinberg_slivkins_upfal_2008] zooming algorithm achieves regret
 
 $$R_T = \tilde{\mathcal{O}}(T^{(d+1)/(d+2)})$$
 
@@ -261,27 +261,27 @@ The specialized literature includes interval bandits, extreme-value bandits, adv
 
 The classical bandit assumes the learner observes a scalar reward from the chosen arm. Real-world sequential decision problems frequently violate this assumption in structured ways, and the bandit literature has developed specialized algorithms and analyses for the corresponding variants.
 
-Dueling bandits [Yue Broder Kleinberg and Joachims 2012][research_yue_et_al_2012] replace scalar reward feedback with pairwise preference comparisons. At each round the learner selects two arms $A_t^{(1)}, A_t^{(2)}$ and observes a binary preference $X_t \sim \text{Bernoulli}(p_{A_t^{(1)}, A_t^{(2)}})$ where $p_{a, b}$ is the probability that $a$ is preferred to $b$. The regret is measured against the Condorcet winner or Copeland winner of the preference tournament. Regret bounds of $\mathcal{O}(K^2 \log T)$ or better are achievable under standard conditions such as strong stochastic transitivity. Dueling bandits connect to preference-based reinforcement learning treated in article eleven and to the reinforcement learning from human feedback methods used in language model post-training.
+Dueling bandits [Yue et al. 2012][research_yue_et_al_2012] replace scalar reward feedback with pairwise preference comparisons. At each round the learner selects two arms $A_t^{(1)}, A_t^{(2)}$ and observes a binary preference $X_t \sim \text{Bernoulli}(p_{A_t^{(1)}, A_t^{(2)}})$ where $p_{a, b}$ is the probability that $a$ is preferred to $b$. The regret is measured against the Condorcet winner or Copeland winner of the preference tournament. Regret bounds of $\mathcal{O}(K^2 \log T)$ or better are achievable under standard conditions such as strong stochastic transitivity. Dueling bandits connect to preference-based reinforcement learning treated in article eleven and to the reinforcement learning from human feedback methods used in language model post-training.
 
-Delayed feedback bandits observe rewards only after a delay that may depend on the arm played, the environment, or the round. The [Joulani Gyorgy and Szepesvari 2013][research_joulani_gyorgy_szepesvari_2013] queuing-based framework reduces the delayed-feedback problem to a black-box reduction over undelayed algorithms, achieving regret
+Delayed feedback bandits observe rewards only after a delay that may depend on the arm played, the environment, or the round. The [Joulani et al. 2013][research_joulani_gyorgy_szepesvari_2013] queuing-based framework reduces the delayed-feedback problem to a black-box reduction over undelayed algorithms, achieving regret
 
 $$R_T = \mathcal{O}(R_T^{\text{undelayed}} + \bar{D} \sqrt{T})$$
 
 where $\bar{D}$ is the expected delay. The framework covers stochastic, adversarial, and contextual settings uniformly.
 
-Graph-structured feedback [Alon Cesa-Bianchi Gentile Mansour 2013][research_alon_et_al_2013] allows the learner to observe rewards for a subset of arms determined by a feedback graph $G$. Full-information feedback corresponds to the complete graph and bandit feedback to the empty graph (self-loops only). Regret bounds interpolate between these extremes through spectral properties of $G$, giving
+Graph-structured feedback [Alon et al. 2013][research_alon_et_al_2013] allows the learner to observe rewards for a subset of arms determined by a feedback graph $G$. Full-information feedback corresponds to the complete graph and bandit feedback to the empty graph (self-loops only). Regret bounds interpolate between these extremes through spectral properties of $G$, giving
 
 $$R_T = \mathcal{O}(\sqrt{\alpha(G) T \log K})$$
 
 where $\alpha(G)$ is the independence number of the feedback graph. Applications include social-network content recommendation, where selecting one item may reveal preferences for related items.
 
-Bandits with corruption or robust bandits [Lykouris Mirrokni Leme 2018][research_lykouris_mirrokni_leme_2018] allow an adversary to corrupt reward observations subject to a corruption budget $C$. Robust variants of UCB and Thompson sampling achieve regret bounds that gracefully degrade with $C$, of the form $\mathcal{O}(K \log T / \Delta + K C)$ for the stochastic setting with bounded corruption.
+Bandits with corruption or robust bandits [Lykouris et al. 2018][research_lykouris_mirrokni_leme_2018] allow an adversary to corrupt reward observations subject to a corruption budget $C$. Robust variants of UCB and Thompson sampling achieve regret bounds that gracefully degrade with $C$, of the form $\mathcal{O}(K \log T / \Delta + K C)$ for the stochastic setting with bounded corruption.
 
 ## Bandit Convex Optimization
 
 Bandit convex optimization extends the online convex optimization framework of the online learning section to the setting in which the learner observes only the function value at the played point, rather than the gradient. The learner selects $x_t \in \mathcal{K}$ for $\mathcal{K}$ a convex subset of $\mathbb{R}^d$, receives $f_t(x_t)$ for convex $f_t$, and does not observe $\nabla f_t$.
 
-The [Flaxman Kalai and McMahan 2005][research_flaxman_kalai_mcmahan_2005] one-point gradient estimator constructs a stochastic gradient from a perturbation. For a smoothing parameter $\delta$ and a random unit vector $u$, the estimator
+The [Flaxman et al. 2004][research_flaxman_kalai_mcmahan_2005] one-point gradient estimator constructs a stochastic gradient from a perturbation. For a smoothing parameter $\delta$ and a random unit vector $u$, the estimator
 
 $$\hat{g}_t = \frac{d}{\delta} f_t(x_t + \delta u) u$$
 
@@ -289,7 +289,7 @@ is an unbiased estimator of the gradient of a smoothed version of $f_t$. Feeding
 
 $$R_T = \mathcal{O}(T^{3/4})$$
 
-for general convex losses. The bound was subsequently improved to $\mathcal{O}(\sqrt{T})$ under stronger smoothness assumptions by [Bubeck Cesa-Bianchi and Kakade 2012][research_bubeck_cesa_bianchi_kakade_2012] and to matching lower bounds by [Bubeck Eldan and Lee 2017][research_bubeck_eldan_lee_2017] for smooth strongly convex losses.
+for general convex losses. The bound was subsequently improved to $\mathcal{O}(\sqrt{T})$ under stronger smoothness assumptions by [Bubeck and Slivkins 2012][research_bubeck_cesa_bianchi_kakade_2012] and to matching lower bounds by [Bubeck et al. 2015][research_bubeck_eldan_lee_2017] for smooth strongly convex losses.
 
 Bandit convex optimization connects to derivative-free optimization, evolution strategies treated in article twelve, and zeroth-order optimization more broadly. The theoretical framework provides regret bounds that are dimension-independent up to logarithmic factors under strong smoothness assumptions, making it applicable to high-dimensional optimization problems where gradient information is unavailable.
 
@@ -299,7 +299,7 @@ The pure exploration setting replaces the regret minimization objective with an 
 
 The fixed-budget setting fixes the number of arm pulls in advance and analyzes the probability of incorrect identification. The fixed-confidence setting fixes the probability of incorrect identification and analyzes the expected number of pulls. Both settings have well-developed theory including instance-dependent lower bounds and matching algorithms.
 
-The successive elimination algorithm of [Even-Dar Mannor and Mansour 2006][research_even_dar_mannor_mansour_2006] iteratively rules out arms whose empirical means fall too far below the current best. At each round it eliminates any arm $a$ satisfying
+The successive elimination algorithm of [Even-Dar et al. 2006][research_even_dar_mannor_mansour_2006] iteratively rules out arms whose empirical means fall too far below the current best. At each round it eliminates any arm $a$ satisfying
 
 $$\hat{\mu}_{\max}(t) - \hat{\mu}_a(t) > 2 \sqrt{\frac{\log(4 K t^2 / \delta)}{N_a(t)}}$$
 
@@ -337,7 +337,7 @@ Contextual non-stationary bandits combine the context and non-stationarity setti
 
 ## Online Learning Beyond Bandits
 
-The bandit setting is a special case of the broader online learning framework. Prediction with expert advice generalizes the multi-armed bandit to problems in which the learner observes advice from a finite set of experts, selects a distribution over experts, incurs a loss based on the outcome, and observes losses for all experts rather than only the selected one. Foundational treatments include [Vovk 1990][research_vovk_1990] aggregating strategy analysis, [Littlestone and Warmuth 1994][research_littlestone_warmuth_1994] weighted majority algorithm, and [Cesa-Bianchi et al 1997][research_cesa_bianchi_et_al_1997] treatment of prediction with expert advice as a fundamental online-learning primitive.
+The bandit setting is a special case of the broader online learning framework. Prediction with expert advice generalizes the multi-armed bandit to problems in which the learner observes advice from a finite set of experts, selects a distribution over experts, incurs a loss based on the outcome, and observes losses for all experts rather than only the selected one. Foundational treatments include [Vovk 1990][research_vovk_1990] aggregating strategy analysis, [Littlestone and Warmuth 1994][research_littlestone_warmuth_1994] weighted majority algorithm, and [Cesa-Bianchi et al. 1997][research_cesa_bianchi_et_al_1997] treatment of prediction with expert advice as a fundamental online-learning primitive.
 
 The Hedge algorithm of [Freund and Schapire 1997][research_freund_schapire_1997] provides multiplicative weight updates
 
@@ -373,9 +373,9 @@ The bandit framework has deep connections to the psychology and neuroscience of 
 
 Foraging theory in behavioral ecology treats animals as bandit-like decision-makers choosing among patches with unknown reward distributions. The marginal value theorem of [Charnov 1976][research_charnov_1976] gives the optimal patch-departure rule for a foraging animal balancing the reward from the current patch against the expected reward from switching, and its structure parallels the exploration-exploitation trade-off in bandits.
 
-Human bandit experiments have documented systematic departures from optimal bandit strategies. [Daw et al 2006][research_daw_et_al_2006] compared human choice behavior on a four-armed bandit task to model predictions from softmax exploration, epsilon-greedy exploration, and Bayesian exploration policies, finding evidence for softmax-like directed exploration matched by activation in frontopolar cortex and intraparietal sulcus. [Cohen McClure and Yu 2007][research_cohen_mcclure_yu_2007] framed the exploration-exploitation trade-off in terms of neuromodulator function, hypothesizing distinct roles for noradrenaline and dopamine in random and directed exploration.
+Human bandit experiments have documented systematic departures from optimal bandit strategies. [Daw et al. 2006][research_daw_et_al_2006] compared human choice behavior on a four-armed bandit task to model predictions from softmax exploration, epsilon-greedy exploration, and Bayesian exploration policies, finding evidence for softmax-like directed exploration matched by activation in frontopolar cortex and intraparietal sulcus. [Cohen et al. 2007][research_cohen_mcclure_yu_2007] framed the exploration-exploitation trade-off in terms of neuromodulator function, hypothesizing distinct roles for noradrenaline and dopamine in random and directed exploration.
 
-Prefrontal cortex has been identified as a substrate for representing expected value and uncertainty in bandit-like tasks. [Behrens Woolrich Walton and Rushworth 2007][research_behrens_et_al_2007] identified anterior cingulate cortex as tracking volatility of reward contingencies, providing a neural substrate for adaptive learning rates that respond to environmental non-stationarity. The Bayesian bandit interpretation of these findings suggests that human decision-makers maintain approximate posterior distributions over arm parameters and update them in response to observed rewards.
+Prefrontal cortex has been identified as a substrate for representing expected value and uncertainty in bandit-like tasks. [Behrens et al. 2007][research_behrens_et_al_2007] identified anterior cingulate cortex as tracking volatility of reward contingencies, providing a neural substrate for adaptive learning rates that respond to environmental non-stationarity. The Bayesian bandit interpretation of these findings suggests that human decision-makers maintain approximate posterior distributions over arm parameters and update them in response to observed rewards.
 
 The correspondence between animal and human bandit-task performance and algorithmic classes is imperfect. Systematic biases including probability matching, myopic exploration, and reward-magnitude insensitivity all appear in the empirical literature. Article fifteen treats the psychology of learning as a distinct topic and revisits the imperfect algorithmic mapping.
 
@@ -383,7 +383,7 @@ The correspondence between animal and human bandit-task performance and algorith
 
 The bandit framework acquired its practical character through deployment in applied settings and through standardized empirical benchmarks. As with article one, this survey treats the empirical landscape briefly rather than the applications directly, given the series science-and-theory focus.
 
-Recommendation systems have been a major application setting. The [Li et al 2010][research_li_et_al_2010] LinUCB deployment for news recommendation on Yahoo Front Page provided a canonical empirical validation of contextual bandit theory, showing improved click-through rates against non-contextual baselines. Subsequent recommendation-system deployments have used contextual and combinatorial bandit algorithms at scale across content platforms.
+Recommendation systems have been a major application setting. The [Li et al. 2010][research_li_et_al_2010] LinUCB deployment for news recommendation on Yahoo Front Page provided a canonical empirical validation of contextual bandit theory, showing improved click-through rates against non-contextual baselines. Subsequent recommendation-system deployments have used contextual and combinatorial bandit algorithms at scale across content platforms.
 
 Clinical trial design, the original motivation of [Thompson 1933][research_thompson_1933], has seen renewed adoption of adaptive-allocation methods with bandit theoretical foundations. Response-adaptive randomization allocates patients preferentially to treatments with promising interim results, treating patient allocation as a bandit problem while maintaining the statistical validity of the resulting trial.
 
@@ -391,7 +391,7 @@ Online advertising and online auction settings use bandit and adversarial-bandit
 
 A/B testing platforms use adaptive-allocation bandit methods to reduce sample sizes for detecting treatment effects. The pure-exploration and best-arm-identification literatures treated above provide the theoretical foundations for adaptive experimentation frameworks such as Bayesian A/B testing and multi-armed bandit optimization.
 
-Standardized benchmark suites for bandit algorithms include the Contextual Bandit Bakeoff of [Bietti Agarwal and Langford 2021][research_bietti_agarwal_langford_2021], which provides evaluation datasets and standardized protocols for comparing contextual bandit algorithms across hundreds of tasks derived from classification datasets [Vowpal Wabbit][ref_vowpal_wabbit] provides open-source reference implementations of contextual bandit algorithms with production deployment experience.
+Standardized benchmark suites for bandit algorithms include the Contextual Bandit Bakeoff of [Bietti et al. 2021][research_bietti_agarwal_langford_2021], which provides evaluation datasets and standardized protocols for comparing contextual bandit algorithms across hundreds of tasks derived from classification datasets [Vowpal Wabbit][ref_vowpal_wabbit] provides open-source reference implementations of contextual bandit algorithms with production deployment experience.
 
 Non-benchmark empirical practice includes reproducibility guidelines analogous to those for reinforcement learning treated in article one. Bandit algorithm performance is often sensitive to hyperparameter tuning, prior specification for Thompson sampling, and confidence-radius calibration for UCB variants, and reported results should include seed variance and hyperparameter sensitivity analyses.
 
@@ -416,82 +416,86 @@ Sample complexity in bandits versus regret is a subtle distinction. Regret bound
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Bubeck 2012][book_bubeck_2012]
-- [Cesa-Bianchi and Lugosi 2006][book_cesa_bianchi_lugosi_2006]
-- [Gittins Glazebrook Weber 2011][book_gittins_glazebrook_weber_2011]
-- [Hazan 2016][book_hazan_2016]
-- [Lattimore and Szepesvari 2020][book_lattimore_szepesvari_2020]
-- [Slivkins 2019][book_slivkins_2019]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Auer, Peter, Nicolò Cesa-Bianchi, and Paul Fischer. 2002a. "Finite-Time Analysis of the Multiarmed Bandit Problem." *Machine Learning* 47 (2–3): 235–56. [https://doi.org/10.1023/a:1013689704352][research_auer_cesa_bianchi_fischer_2002]
+- Behrens, Timothy E. J., Mark W. Woolrich, Mark E. Walton, and Matthew F. S. Rushworth. 2007. "Learning the Value of Information in an Uncertain World." *Nature Neuroscience* 10 (9): 1214–21. [https://doi.org/10.1038/nn1954][research_behrens_et_al_2007]
+- Cesa-Bianchi and Lugosi. 2012. "Learning with Ordinal-Bounded Memory from Positive Data." *Journal of Computer and System Sciences* 78: 1623–36. [https://www.sciencedirect.com/science/article/pii/S0022000012000876][research_cesa_bianchi_lugosi_2012]
+- Daw, Nathaniel D., John P. O'Doherty, Peter Dayan, Ben Seymour, and Raymond J. Dolan. 2006. "Cortical Substrates for Exploratory Decisions in Humans." *Nature* 441 (7095): 876–79. [https://doi.org/10.1038/nature04766][research_daw_et_al_2006]
+- Freund, Yoav, and Robert E. Schapire. 1997. "A Decision-Theoretic Generalization of on-Line Learning and an Application to Boosting." *Journal of Computer and System Sciences* 55 (1): 119–39. [https://doi.org/10.1006/jcss.1997.1504][research_freund_schapire_1997]
+- Garivier, Aurélien, and Eric Moulines. 2011. "On Upper-Confidence Bound Policies for Switching Bandit Problems." In *Algorithmic Learning Theory*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-24412-4\_16][research_garivier_moulines_2011]
+- Herbster, Mark, and Manfred K. Warmuth. 1998. "Tracking the Best Expert." *Machine Learning* 32 (2): 151–78. [https://doi.org/10.1023/a:1007424614876][research_herbster_warmuth_1998]
+- Kalai, Adam, and Santosh Vempala. 2005. "Efficient Algorithms for Online Decision Problems." *Journal of Computer and System Sciences* 71 (3): 291–307. [https://doi.org/10.1016/j.jcss.2004.10.016][research_kalai_vempala_2005]
+- Kaufmann, Emilie, Nathaniel Korda, and Rémi Munos. 2012. "Thompson Sampling: An Asymptotically Optimal Finite-Time Analysis." In *Algorithmic Learning Theory*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-34106-9\_18][research_kaufmann_korda_munos_2012]
+- Lai, T. L., and Herbert Robbins. 1985. "Asymptotically Efficient Adaptive Allocation Rules." *Advances in Applied Mathematics* 6 (1): 4–22. [https://doi.org/10.1016/0196-8858(85)90002-8][research_lai_robbins_1985]
+- Littlestone, N., and M. K. Warmuth. 1994. "The Weighted Majority Algorithm." *Information and Computation* 108 (2): 212–61. [https://doi.org/10.1006/inco.1994.1009][research_littlestone_warmuth_1994]
+- Yue, Yisong, Josef Broder, Robert Kleinberg, and Thorsten Joachims. 2012. "The K-Armed Dueling Bandits Problem." *Journal of Computer and System Sciences* 78 (5): 1538–56. [https://doi.org/10.1016/j.jcss.2011.12.028][research_yue_et_al_2012]
 
-- [Bandit Algorithms Book][ref_lattimore_book_site]
-- [Berkeley CS294 Bandit Convex Optimization][ref_berkeley_cs294_bco]
-- [Introduction to Online Learning Lecture Notes][ref_hazan_notes]
-- [MSR Bandits Tutorial][ref_msr_bandits]
-- [Vowpal Wabbit][ref_vowpal_wabbit]
+### Primary Sources, Non-Peer-Reviewed
+
+- Abbasi-yadkori, Yasin, Dávid Pál, and Csaba Szepesvári. 2011. "Improved Algorithms for Linear Stochastic Bandits." *Advances in Neural Information Processing Systems* 24. [https://papers.nips.cc/paper/2011/hash/e1d5be1c7f2f456670de3d53c7b54f4a-Abstract.html][research_abbasi_yadkori_pal_szepesvari_2011]
+- Agrawal, Shipra, and Navin Goyal. 2012. "Analysis of Thompson Sampling for the Multi-Armed Bandit Problem." In *Conference on Learning Theory*. [https://proceedings.mlr.press/v23/agrawal12.html][research_agrawal_goyal_2012]
+- Agrawal, Shipra, and Navin Goyal. 2013. "Thompson Sampling for Contextual Bandits with Linear Payoffs." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v28/agrawal13.html][research_agrawal_goyal_2013]
+- Alon, Noga, Nicolò Cesa-Bianchi, Claudio Gentile, and Yishay Mansour. 2013. "From Bandits to Experts: A Tale of Domination and Independence." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1307.4564][research_alon_et_al_2013]
+- Auer, Peter, Nicolò Cesa-Bianchi, Yoav Freund, and Robert E. Schapire. 2002b. "The Nonstochastic Multiarmed Bandit Problem." *SIAM Journal on Computing* 32 (1): 48–77. [https://doi.org/10.1137/s0097539701398375][research_auer_cesa_bianchi_freund_schapire_2002]
+- Beygelzimer, Alina, John Langford, Lihong Li, Lev Reyzin, and Robert Schapire. 2011. "Contextual Bandit Algorithms with Supervised Learning Guarantees." In *Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics*. [https://proceedings.mlr.press/v15/beygelzimer11a.html][research_beygelzimer_et_al_2011]
+- Bietti, Alberto, Alekh Agarwal, and John Langford. 2021. "A Contextual Bandit Bake-off." *Journal of Machine Learning Research* 22: 1–49. [https://www.jmlr.org/papers/v22/18-863.html][research_bietti_agarwal_langford_2021]
+- Bubeck, Sébastien, and Nicolò Cesa-Bianchi. 2012. "Regret Analysis of Stochastic and Nonstochastic Multi-Armed Bandit Problems." *Foundations and Trends® in Machine Learning* 5 (1): 1–122. [https://doi.org/10.1561/2200000024][book_bubeck_2012]
+- Bubeck, Sébastien, Nicoló Cesa-Bianchi, and Sham M. Kakade. 2012. "Towards Minimax Policies for Online Linear Optimization with Bandit Feedback." In *Conference on Learning Theory*. [https://proceedings.mlr.press/v23/bubeck12a.html][research_bubeck_slivkins_2012]
+- Bubeck, Sébastien, Ronen Eldan, and Lee. 2015. "Multi-Scale Exploration of Convex Functions and Bandit Convex Optimization." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1507.06580][research_bubeck_eldan_lee_2017]
+- Bubeck, Sébastien, and Aleksandrs Slivkins. 2012. "The Best of Both Worlds: Stochastic and Adversarial Bandits." In *Conference on Learning Theory*. [https://proceedings.mlr.press/v23/bubeck12b.html][research_bubeck_cesa_bianchi_kakade_2012]
+- Cesa-Bianchi, Nicolò, Yoav Freund, David Haussler, David P. Helmbold, Robert E. Schapire, and Manfred K. Warmuth. 1997. "How to Use Expert Advice." *Journal of the ACM* 44 (3): 427–85. [https://doi.org/10.1145/258128.258179][research_cesa_bianchi_et_al_1997]
+- Chapelle, Olivier, and Lihong Li. 2011. "An Empirical Evaluation of Thompson Sampling." *Advances in Neural Information Processing Systems* 24. [https://papers.nips.cc/paper/2011/hash/e53a0a2978c28872a4505bdb51db06dc-Abstract.html][research_chapelle_li_2011]
+- Cohen, Jonathan D., Samuel M. McClure, and Angela J. Yu. 2007. "Should I Stay or Should I Go? How the Human Brain Manages the Trade-off between Exploitation and Exploration." *Philosophical Transactions of the Royal Society B: Biological Sciences* 362 (1481): 933–42. [https://doi.org/10.1098/rstb.2007.2098][research_cohen_mcclure_yu_2007]
+- Even-Dar, Eyal, Shie Mannor, and Yishay Mansour. 2006. "Action Elimination and Stopping Conditions for the Multi-Armed Bandit and Reinforcement Learning Problems." *Journal of Machine Learning Research* 7: 1079–1105. [https://www.jmlr.org/papers/v7/evendar06a.html][research_even_dar_mannor_mansour_2006]
+- Flaxman, Abraham D., Adam Tauman Kalai, and H. Brendan McMahan. 2004. "Online Convex Optimization in the Bandit Setting: Gradient Descent without a Gradient." Preprint, arXiv. [https://doi.org/10.48550/arxiv.cs/0408007][research_flaxman_kalai_mcmahan_2005]
+- Garivier, Aurélien, and Emilie Kaufmann. 2016. "Optimal Best Arm Identification with Fixed Confidence." In *Conference on Learning Theory*. [https://proceedings.mlr.press/v49/garivier16a.html][research_garivier_kaufmann_2016]
+- Joulani, Pooria, Andras Gyorgy, and Csaba Szepesvari. 2013. "Online Learning under Delayed Feedback." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v28/joulani13.html][research_joulani_gyorgy_szepesvari_2013]
+- Kleinberg, Robert, Aleksandrs Slivkins, and Eli Upfal. 2008. "Multi-Armed Bandits in Metric Spaces." In *Proceedings of the fortieth annual ACM symposium on Theory of computing*. ACM. [https://doi.org/10.1145/1374376.1374475][research_kleinberg_slivkins_upfal_2008]
+- Langford, John, and Tong Zhang. 2007. "The Epoch-Greedy Algorithm for Multi-Armed Bandits with Side Information." *Advances in Neural Information Processing Systems* 20. [https://papers.nips.cc/paper/2007/hash/4b04a686b0ad13dce35fa99fa4161c65-Abstract.html][research_langford_zhang_2007]
+- Li, Lihong, Wei Chu, John Langford, and Robert E. Schapire. 2010. "A Contextual-Bandit Approach to Personalized News Article Recommendation." In *Proceedings of the 19th international conference on World wide web*. ACM. [https://doi.org/10.1145/1772690.1772758][research_li_et_al_2010]
+- Lykouris, Thodoris, Vahab Mirrokni, and Renato Paes Leme. 2018. "Stochastic Bandits Robust to Adversarial Corruptions." In *Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing*. ACM. [https://doi.org/10.1145/3188745.3188918][research_lykouris_mirrokni_leme_2018]
+- Robbins. 1952. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Robbins+1952][research_robbins_1952]
+- Srinivas, Niranjan, Andreas Krause, Sham M. Kakade, and Matthias Seeger. 2009. "Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design." Preprint, arXiv. [https://doi.org/10.48550/arxiv.0912.3995][research_srinivas_et_al_2010]
+- Thompson, William R. 1933. "On the Likelihood That One Unknown Probability Exceeds Another in View of the Evidence of Two Samples." *Biometrika* 25 (3/4): 285. [https://doi.org/10.2307/2332286][research_thompson_1933]
+- Zimmert, Julian, and Yevgeny Seldin. 2019. "An Optimal Algorithm for Stochastic and Adversarial Bandits." In *The 22nd International Conference on Artificial Intelligence and Statistics*. [https://proceedings.mlr.press/v89/zimmert19a.html][research_zimmert_seldin_2019]
+
+### Secondary Sources
+
+- Cesa-Bianchi and Lugosi. 2006. *\[Title not identified\]*. [https://www.cambridge.org/core/books/prediction-learning-and-games/A0552F0DA7B92B2AA4EDB4C6A56F5306][book_cesa_bianchi_lugosi_2006]
+- Gittins, John, Kevin Glazebrook, and Richard Weber. 2011. *Multi-Armed Bandit Allocation Indices*. Wiley. [https://doi.org/10.1002/9780470980033][book_gittins_glazebrook_weber_2011]
+- Hazan. 2016. *\[Title not identified\]*. [https://sites.google.com/view/intro-oco/][book_hazan_2016]
+- Lattimore and Szepesvari. 2020. *\[Title not identified\]*. [https://tor-lattimore.com/downloads/book/book.pdf][book_lattimore_szepesvari_2020]
+- Slivkins, Aleksandrs. 2019. *Introduction to Multi-Armed Bandits*. Now Publishers, Inc. [https://www.nowpublishers.com/article/Details/MAL-068][book_slivkins_2019]
+
+### General Sources
+
+- Audibert and Bubeck. 2009. "\[Title not identified\]." Accessed October 25, 2026. [https://proceedings.mlr.press/v5/audibert09a.html][research_audibert_bubeck_2009]
+- Audibert, Munos, and Szepesvari. 2009. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S030439750900027X][research_audibert_munos_szepesvari_2009]
+- "Bandit Algorithms Book." n.d. Accessed October 25, 2026. [https://tor-lattimore.com/downloads/book/book.pdf][ref_lattimore_book_site]
+- Bellman. 1956. "\[Title not identified\]." Accessed October 25, 2026. [https://www.jstor.org/stable/25049379][research_bellman_1956]
+- "Berkeley CS294 Bandit Convex Optimization." n.d. Accessed October 25, 2026. [https://people.eecs.berkeley.edu/~jordan/bandits.html][ref_berkeley_cs294_bco]
+- Cappé. 2013. "\[Title not identified\]." Accessed October 25, 2026. [https://projecteuclid.org/journals/annals-of-statistics/volume-41/issue-3/Kullback-Leibler-upper-confidence-bounds-for-optimal-sequential-allocation/10.1214/13-AOS1119.full][research_cappe_et_al_2013]
+- Charnov. 1976. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/0040580976900409][research_charnov_1976]
+- Gittins. 1979. "\[Title not identified\]." Accessed October 25, 2026. [https://www.jstor.org/stable/2985029][research_gittins_1979]
+- "Introduction to Online Learning Lecture Notes." n.d. Accessed October 25, 2026. [https://sites.google.com/view/intro-oco/lecture-notes][ref_hazan_notes]
+- "MSR Bandits Tutorial." n.d. Accessed October 25, 2026. [https://www.microsoft.com/en-us/research/publication/introduction-multi-armed-bandits/][ref_msr_bandits]
+- Robbins and Monro. 1951. "\[Title not identified\]." Accessed October 25, 2026. [https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full][research_robbins_monro_1951]
+- Russo and Van Roy. 2014. "\[Title not identified\]." Accessed October 25, 2026. [https://proceedings.mlr.press/v28/russo14.html][research_russo_van_roy_2014]
+- Vovk. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://dl.acm.org/doi/10.5555/92571.92672][research_vovk_1990]
+- "Vowpal Wabbit." n.d. Accessed October 25, 2026. [https://vowpalwabbit.org/][ref_vowpal_wabbit]
+- Whittle. 1988. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cambridge.org/core/journals/journal-of-applied-probability/article/abs/restless-bandits-activity-allocation-in-a-changing-world/1893AA495D3ADC46A08017E4E38C89E0][research_whittle_1988]
+- Zinkevich. 2003. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cs.cmu.edu/~maz/publications/techconvex.pdf][research_zinkevich_2003]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
 
-### Research
-
-- [Abbasi-Yadkori Pál and Szepesvári 2011][research_abbasi_yadkori_pal_szepesvari_2011]
-- [Agrawal and Goyal 2012][research_agrawal_goyal_2012]
-- [Agrawal and Goyal 2013][research_agrawal_goyal_2013]
-- [Alon Cesa-Bianchi Gentile Mansour 2013][research_alon_et_al_2013]
-- [Audibert and Bubeck 2009][research_audibert_bubeck_2009]
-- [Audibert Munos Szepesvari 2009][research_audibert_munos_szepesvari_2009]
-- [Auer Cesa-Bianchi and Fischer 2002][research_auer_cesa_bianchi_fischer_2002]
-- [Auer Cesa-Bianchi Freund and Schapire 2002][research_auer_cesa_bianchi_freund_schapire_2002]
-- [Behrens Woolrich Walton and Rushworth 2007][research_behrens_et_al_2007]
-- [Bellman 1956][research_bellman_1956]
-- [Beygelzimer Langford Li Reyzin Schapire 2011][research_beygelzimer_et_al_2011]
-- [Bietti Agarwal and Langford 2021][research_bietti_agarwal_langford_2021]
-- [Bubeck and Cesa-Bianchi 2012][research_bubeck_cesa_bianchi_2012]
-- [Bubeck and Slivkins 2012][research_bubeck_slivkins_2012]
-- [Bubeck Cesa-Bianchi and Kakade 2012][research_bubeck_cesa_bianchi_kakade_2012]
-- [Bubeck Eldan and Lee 2017][research_bubeck_eldan_lee_2017]
-- [Cappé et al 2013][research_cappe_et_al_2013]
-- [Cesa-Bianchi and Lugosi 2012][research_cesa_bianchi_lugosi_2012]
-- [Cesa-Bianchi et al 1997][research_cesa_bianchi_et_al_1997]
-- [Chapelle and Li 2011][research_chapelle_li_2011]
-- [Charnov 1976][research_charnov_1976]
-- [Cohen McClure and Yu 2007][research_cohen_mcclure_yu_2007]
-- [Daw et al 2006][research_daw_et_al_2006]
-- [Even-Dar Mannor and Mansour 2006][research_even_dar_mannor_mansour_2006]
-- [Flaxman Kalai and McMahan 2005][research_flaxman_kalai_mcmahan_2005]
-- [Freund and Schapire 1997][research_freund_schapire_1997]
-- [Garivier and Kaufmann 2016][research_garivier_kaufmann_2016]
-- [Garivier and Moulines 2011][research_garivier_moulines_2011]
-- [Gittins 1979][research_gittins_1979]
-- [Herbster and Warmuth 1998][research_herbster_warmuth_1998]
-- [Joulani Gyorgy and Szepesvari 2013][research_joulani_gyorgy_szepesvari_2013]
-- [Kalai and Vempala 2005][research_kalai_vempala_2005]
-- [Kaufmann Korda and Munos 2012][research_kaufmann_korda_munos_2012]
-- [Kleinberg Slivkins and Upfal 2008][research_kleinberg_slivkins_upfal_2008]
-- [Lai and Robbins 1985][research_lai_robbins_1985]
-- [Langford and Zhang 2007][research_langford_zhang_2007]
-- [Li et al 2010][research_li_et_al_2010]
-- [Littlestone and Warmuth 1994][research_littlestone_warmuth_1994]
-- [Lykouris Mirrokni Leme 2018][research_lykouris_mirrokni_leme_2018]
-- [Robbins 1952][research_robbins_1952]
-- [Robbins and Monro 1951][research_robbins_monro_1951]
-- [Russo and Van Roy 2014][research_russo_van_roy_2014]
-- [Srinivas et al 2010][research_srinivas_et_al_2010]
-- [Thompson 1933][research_thompson_1933]
-- [Vovk 1990][research_vovk_1990]
-- [Whittle 1988][research_whittle_1988]
-- [Yue Broder Kleinberg and Joachims 2012][research_yue_et_al_2012]
-- [Zimmert and Seldin 2019][research_zimmert_seldin_2019]
-- [Zinkevich 2003][research_zinkevich_2003]
-
-[book_bubeck_2012]: https://www.nowpublishers.com/article/Details/MAL-024
+[book_bubeck_2012]: https://doi.org/10.1561/2200000024
 [book_cesa_bianchi_lugosi_2006]: https://www.cambridge.org/core/books/prediction-learning-and-games/A0552F0DA7B92B2AA4EDB4C6A56F5306
-[book_gittins_glazebrook_weber_2011]: https://onlinelibrary.wiley.com/doi/book/10.1002/9780470980033
+[book_gittins_glazebrook_weber_2011]: https://doi.org/10.1002/9780470980033
 [book_hazan_2016]: https://sites.google.com/view/intro-oco/
 [book_lattimore_szepesvari_2020]: https://tor-lattimore.com/downloads/book/book.pdf
 [book_slivkins_2019]: https://www.nowpublishers.com/article/Details/MAL-068
@@ -504,49 +508,49 @@ Sample complexity in bandits versus regret is a subtle distinction. Regret bound
 [research_abbasi_yadkori_pal_szepesvari_2011]: https://papers.nips.cc/paper/2011/hash/e1d5be1c7f2f456670de3d53c7b54f4a-Abstract.html
 [research_agrawal_goyal_2012]: https://proceedings.mlr.press/v23/agrawal12.html
 [research_agrawal_goyal_2013]: https://proceedings.mlr.press/v28/agrawal13.html
-[research_alon_et_al_2013]: https://papers.nips.cc/paper/2013/hash/f2201f5191c4e92cc5af043eebfd0946-Abstract.html
+[research_alon_et_al_2013]: https://doi.org/10.48550/arxiv.1307.4564
 [research_audibert_bubeck_2009]: https://proceedings.mlr.press/v5/audibert09a.html
 [research_audibert_munos_szepesvari_2009]: https://www.sciencedirect.com/science/article/pii/S030439750900027X
-[research_auer_cesa_bianchi_fischer_2002]: https://link.springer.com/article/10.1023/A:1013689704352
-[research_auer_cesa_bianchi_freund_schapire_2002]: https://epubs.siam.org/doi/10.1137/S0097539701398375
-[research_behrens_et_al_2007]: https://www.nature.com/articles/nn1954
+[research_auer_cesa_bianchi_fischer_2002]: https://doi.org/10.1023/a:1013689704352
+[research_auer_cesa_bianchi_freund_schapire_2002]: https://doi.org/10.1137/s0097539701398375
+[research_behrens_et_al_2007]: https://doi.org/10.1038/nn1954
 [research_bellman_1956]: https://www.jstor.org/stable/25049379
 [research_beygelzimer_et_al_2011]: https://proceedings.mlr.press/v15/beygelzimer11a.html
 [research_bietti_agarwal_langford_2021]: https://www.jmlr.org/papers/v22/18-863.html
-[research_bubeck_cesa_bianchi_2012]: https://www.nowpublishers.com/article/Details/MAL-024
+[research_bubeck_cesa_bianchi_2012]: https://doi.org/10.1561/2200000024
 [research_bubeck_cesa_bianchi_kakade_2012]: https://proceedings.mlr.press/v23/bubeck12b.html
-[research_bubeck_eldan_lee_2017]: https://arxiv.org/abs/1507.06580
+[research_bubeck_eldan_lee_2017]: https://doi.org/10.48550/arxiv.1507.06580
 [research_bubeck_slivkins_2012]: https://proceedings.mlr.press/v23/bubeck12a.html
 [research_cappe_et_al_2013]: https://projecteuclid.org/journals/annals-of-statistics/volume-41/issue-3/Kullback-Leibler-upper-confidence-bounds-for-optimal-sequential-allocation/10.1214/13-AOS1119.full
-[research_cesa_bianchi_et_al_1997]: https://dl.acm.org/doi/10.1145/258128.258179
+[research_cesa_bianchi_et_al_1997]: https://doi.org/10.1145/258128.258179
 [research_cesa_bianchi_lugosi_2012]: https://www.sciencedirect.com/science/article/pii/S0022000012000876
 [research_chapelle_li_2011]: https://papers.nips.cc/paper/2011/hash/e53a0a2978c28872a4505bdb51db06dc-Abstract.html
 [research_charnov_1976]: https://www.sciencedirect.com/science/article/pii/0040580976900409
-[research_cohen_mcclure_yu_2007]: https://royalsocietypublishing.org/doi/10.1098/rstb.2007.2098
-[research_daw_et_al_2006]: https://www.nature.com/articles/nature04766
+[research_cohen_mcclure_yu_2007]: https://doi.org/10.1098/rstb.2007.2098
+[research_daw_et_al_2006]: https://doi.org/10.1038/nature04766
 [research_even_dar_mannor_mansour_2006]: https://www.jmlr.org/papers/v7/evendar06a.html
-[research_flaxman_kalai_mcmahan_2005]: https://dl.acm.org/doi/10.5555/1070432.1070486
-[research_freund_schapire_1997]: https://www.sciencedirect.com/science/article/pii/S002200009791504X
+[research_flaxman_kalai_mcmahan_2005]: https://doi.org/10.48550/arxiv.cs/0408007
+[research_freund_schapire_1997]: https://doi.org/10.1006/jcss.1997.1504
 [research_garivier_kaufmann_2016]: https://proceedings.mlr.press/v49/garivier16a.html
-[research_garivier_moulines_2011]: https://link.springer.com/chapter/10.1007/978-3-642-24412-4_16
+[research_garivier_moulines_2011]: https://doi.org/10.1007/978-3-642-24412-4_16
 [research_gittins_1979]: https://www.jstor.org/stable/2985029
-[research_herbster_warmuth_1998]: https://link.springer.com/article/10.1023/A:1007424614876
+[research_herbster_warmuth_1998]: https://doi.org/10.1023/a:1007424614876
 [research_joulani_gyorgy_szepesvari_2013]: https://proceedings.mlr.press/v28/joulani13.html
-[research_kalai_vempala_2005]: https://www.sciencedirect.com/science/article/pii/S0022000004001394
-[research_kaufmann_korda_munos_2012]: https://link.springer.com/chapter/10.1007/978-3-642-34106-9_18
-[research_kleinberg_slivkins_upfal_2008]: https://dl.acm.org/doi/10.1145/1374376.1374475
-[research_lai_robbins_1985]: https://www.sciencedirect.com/science/article/pii/0196885885900028
+[research_kalai_vempala_2005]: https://doi.org/10.1016/j.jcss.2004.10.016
+[research_kaufmann_korda_munos_2012]: https://doi.org/10.1007/978-3-642-34106-9_18
+[research_kleinberg_slivkins_upfal_2008]: https://doi.org/10.1145/1374376.1374475
+[research_lai_robbins_1985]: https://doi.org/10.1016/0196-8858(85)90002-8
 [research_langford_zhang_2007]: https://papers.nips.cc/paper/2007/hash/4b04a686b0ad13dce35fa99fa4161c65-Abstract.html
-[research_li_et_al_2010]: https://dl.acm.org/doi/10.1145/1772690.1772758
-[research_littlestone_warmuth_1994]: https://www.sciencedirect.com/science/article/pii/S0890540184710091
-[research_lykouris_mirrokni_leme_2018]: https://dl.acm.org/doi/10.1145/3188745.3188918
-[research_robbins_1952]: https://www.jstor.org/stable/2321000
+[research_li_et_al_2010]: https://doi.org/10.1145/1772690.1772758
+[research_littlestone_warmuth_1994]: https://doi.org/10.1006/inco.1994.1009
+[research_lykouris_mirrokni_leme_2018]: https://doi.org/10.1145/3188745.3188918
+[research_robbins_1952]: https://scholar.google.com/scholar?q=Robbins+1952
 [research_robbins_monro_1951]: https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full
 [research_russo_van_roy_2014]: https://proceedings.mlr.press/v28/russo14.html
-[research_srinivas_et_al_2010]: https://arxiv.org/abs/0912.3995
-[research_thompson_1933]: https://www.jstor.org/stable/2332286
+[research_srinivas_et_al_2010]: https://doi.org/10.48550/arxiv.0912.3995
+[research_thompson_1933]: https://doi.org/10.2307/2332286
 [research_vovk_1990]: https://dl.acm.org/doi/10.5555/92571.92672
 [research_whittle_1988]: https://www.cambridge.org/core/journals/journal-of-applied-probability/article/abs/restless-bandits-activity-allocation-in-a-changing-world/1893AA495D3ADC46A08017E4E38C89E0
-[research_yue_et_al_2012]: https://www.sciencedirect.com/science/article/pii/S0022000012000281
+[research_yue_et_al_2012]: https://doi.org/10.1016/j.jcss.2011.12.028
 [research_zimmert_seldin_2019]: https://proceedings.mlr.press/v89/zimmert19a.html
 [research_zinkevich_2003]: https://www.cs.cmu.edu/~maz/publications/techconvex.pdf

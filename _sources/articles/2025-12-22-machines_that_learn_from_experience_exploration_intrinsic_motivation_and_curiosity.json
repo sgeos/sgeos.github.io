@@ -1,0 +1,11 @@
+{
+ "research_andrychowicz_et_al_2017_exploration": "research_andrychowicz_et_al_2017",
+ "research_cohen_mcclure_yu_2007_exploration": "research_cohen_mcclure_yu_2007",
+ "research_daw_odoherty_dayan_seymour_dolan_2006": "research_daw_et_al_2006",
+ "research_friston_2010_active_inference": "research_friston_2010",
+ "research_kakade_langford_2002_exploration": "research_kakade_langford_2002",
+ "research_osband_blundell_pritzel_van_roy_2016_exploration": "research_osband_blundell_pritzel_van_roy_2016",
+ "research_osband_et_al_2020_bsuite": "research_osband_et_al_2020",
+ "research_osband_van_roy_2013_psrl": "research_osband_van_roy_2013",
+ "research_singh_barto_chentanez_2005": "research_chentanez_barto_singh_2005"
+}

@@ -17,7 +17,7 @@ This article opens an eleven-article series that maps ethnoreligious influences 
 
 ## The Ethnoreligious Mapping Problem
 
-The mapping problem for a comprehensive treatment of American political-economic development treats the question of which ethnoreligious factors produced the institutional, economic, and political outcomes that characterize the United States. The problem admits several formalizations depending on the tradition of scholarship consulted. Classical consensus historiography from [Hartz 1955][book_hartz_1955] through [Boorstin 1958][book_boorstin_1958] treated American development as explained by Anglo-Protestant institutional inheritance modified by frontier conditions. Revisionist historiography from [Zinn 1980][book_zinn_1980] and the New Left through [Blackhawk 2023][book_blackhawk_2023] treats American development as explained by conflicts among competing ethnoreligious streams with variable outcomes shaped by power differentials, contingent political choices, and demographic dynamics. The present series adopts the revisionist analytical stance while retaining the consensus historiography's attention to institutional continuity where the empirical record supports the causal claim. The foundational modern religious-history reference for the American formation is [Ahlstrom 1972][book_ahlstrom_1972] A Religious History of the American People, complemented by [Butler 1990][book_butler_1990] Awash in a Sea of Faith, [Hatch 1989][book_hatch_1989] The Democratization of American Christianity, and [Noll 2002][book_noll_2002] America's God. The foundational modern ethnic-studies references are [Glazer and Moynihan 1963][book_glazer_moynihan_1963] Beyond the Melting Pot, [Gordon 1964][book_gordon_1964] Assimilation in American Life, [Sollors 1986][book_sollors_1986] Beyond Ethnicity, and [Hollinger 1995][book_hollinger_1995] Postethnic America. The foundational political-thought references treating American traditions as plural rather than singular include [Tocqueville 1835][book_tocqueville_1835] Democracy in America, [Bellah 1967][research_bellah_1967] Civil Religion in America, [Bellah et al 1985][book_bellah_et_al_1985] Habits of the Heart, [Bercovitch 1978][book_bercovitch_1978] The American Jeremiad, and [Smith 1997][book_smith_1997] Civic Ideals.
+The mapping problem for a comprehensive treatment of American political-economic development treats the question of which ethnoreligious factors produced the institutional, economic, and political outcomes that characterize the United States. The problem admits several formalizations depending on the tradition of scholarship consulted. Classical consensus historiography from [Hartz 1955][book_hartz_1955] through [Boorstin 1958][book_boorstin_1958] treated American development as explained by Anglo-Protestant institutional inheritance modified by frontier conditions. Revisionist historiography from [Zinn 1980][book_zinn_1980] and the New Left through [Blackhawk 2023][book_blackhawk_2023] treats American development as explained by conflicts among competing ethnoreligious streams with variable outcomes shaped by power differentials, contingent political choices, and demographic dynamics. The present series adopts the revisionist analytical stance while retaining the consensus historiography's attention to institutional continuity where the empirical record supports the causal claim. The foundational modern religious-history reference for the American formation is [Ahlstrom 1972][book_ahlstrom_1972] A Religious History of the American People, complemented by [Butler 1990][book_butler_1990] Awash in a Sea of Faith, [Hatch 1989][book_hatch_1989] The Democratization of American Christianity, and [Noll 2002][book_noll_2002] America's God. The foundational modern ethnic-studies references are [Glazer and Moynihan 1963][book_glazer_moynihan_1963] Beyond the Melting Pot, [Gordon 1964][book_gordon_1964] Assimilation in American Life, [Sollors 1986][book_sollors_1986] Beyond Ethnicity, and [Hollinger 1995][book_hollinger_1995] Postethnic America. The foundational political-thought references treating American traditions as plural rather than singular include [Tocqueville 1835][book_tocqueville_1835] Democracy in America, [Bellah 1967][research_bellah_1967] Civil Religion in America, [Bellah et al. 1985][book_bellah_et_al_1985] Habits of the Heart, [Bercovitch 1978][book_bercovitch_1978] The American Jeremiad, and [Smith 1997][book_smith_1997] Civic Ideals.
 
 The mapping problem also permits several formalizations depending on the level of analysis adopted. At the level of individual behavior, ethnoreligious identification shapes patterns of migration, marriage, labor market participation, political mobilization, and consumption. At the level of communal organization, ethnoreligious groupings produce institutions (churches, schools, mutual aid societies, political machines, banks, hospitals) whose accumulation shapes the economic geography. At the level of political coalition, ethnoreligious identification shapes voting behavior, party alignment, and the policies that emerge from democratic bargaining. At the level of legal-institutional structure, ethnoreligious commitments shape constitutional provisions, statutory frameworks, judicial doctrine, and administrative practice. The series treats each level explicitly.
 
@@ -41,7 +41,7 @@ The first commitment is first-class treatment of all ethnoreligious streams. The
 
 The second commitment is explicit rejection of ethnosupremacist framing. The series does not treat any ethnoreligious stream as inherently superior in political, economic, or moral terms. The outcomes that emerged from the American formation reflect the historical processes of demographic mixing, institutional adaptation, and political coalition formation rather than the intrinsic virtues of any stream. Where classical historiography made ethnosupremacist claims (Anglo-Saxonist historiography from [Turner 1893][research_turner_1893] through [Wilson 1902][book_wilson_1902], later revised), the series treats those claims as historiographical artifacts rather than as substantive findings.
 
-The third commitment is explicit rejection of conflict-victor framing. The series does not treat the claims of the winning parties in historical conflicts (English conquest of Native lands, Anglo-American conquest of Mexican territory, Union defeat of the Confederacy, Republican-led Reconstruction and its rollback, Democratic and Republican coalitional victories in subsequent political conflicts) as authoritative accounts of the historical episodes. Where the historical record includes competing accounts, the series presents the accounts as competing and cites the primary sources on each side. The framework applies particularly to episodes where the victors controlled the subsequent documentary and historiographical record. The general theoretical treatment of how power differentials shape the production of historical knowledge is developed in [Trouillot 1995][book_trouillot_1995] Silencing the Past. The classical critique of teleological historiography that reads present arrangements back into the past as inevitable is [Butterfield 1931][book_butterfield_1931] The Whig Interpretation of History. Modern narrative historiography analysis is developed in [White 1973][book_white_1973] Metahistory. The critical treatment of dominant historiographical framings for particular streams is documented in [Berkhofer 1978][book_berkhofer_1978] The White Man's Indian for the Native case, in [Du Bois 1935][book_dubois_1935] Black Reconstruction in America for the African American case, and in [Higham 1955][book_higham_1955] Strangers in the Land for the nativist and anti-immigrant historiography.
+The third commitment is explicit rejection of conflict-victor framing. The series does not treat the claims of the winning parties in historical conflicts (English conquest of Native lands, Anglo-American conquest of Mexican territory, Union defeat of the Confederacy, Republican-led Reconstruction and its rollback, Democratic and Republican coalitional victories in subsequent political conflicts) as authoritative accounts of the historical episodes. Where the historical record includes competing accounts, the series presents the accounts as competing and cites the primary sources on each side. The framework applies particularly to episodes where the victors controlled the subsequent documentary and historiographical record. The general theoretical treatment of how power differentials shape the production of historical knowledge is developed in [Trouillot 1995][book_trouillot_1995] Silencing the Past. The classical critique of teleological historiography that reads present arrangements back into the past as inevitable is [Butterfield 1931][book_butterfield_1931] The Whig Interpretation of History. Modern narrative historiography analysis is developed in [White 1973][book_white_1973] Metahistory. The critical treatment of dominant historiographical framings for particular streams is documented in [Berkhofer 1978][book_berkhofer_1978] The White Man's Indian for the Native case, in [Du Bois and DuBois 1935][book_dubois_1935] Black Reconstruction in America for the African American case, and in [Higham et al. 1955][book_higham_1955] Strangers in the Land for the nativist and anti-immigrant historiography.
 
 The fourth commitment is contested-claim marking. The series identifies the claims that remain contested within contemporary scholarship (the [Grinde and Johansen 1991][book_grinde_johansen_1991] Iroquois-Constitution influence thesis, the proportion of Muslim enslaved Africans, the extent of African religious retention in North America, the causal weight of Weber's Protestant Ethic thesis) and cites the primary sources on each side rather than presenting one position as settled.
 
@@ -67,19 +67,19 @@ $$t_{\text{initial settlement}} \gtrsim 1.5 \times 10^4 \text{ years before pres
 
 with some sites (Monte Verde in Chile, Bluefish Caves in Yukon) suggesting earlier presence. The peoples who established the pre-Columbian civilizations of the continent are the descendants of this initial settlement plus subsequent Beringian migrations (including the Na-Dene expansion approximately five thousand years before present and the Inuit expansion approximately one thousand years before present).
 
-Norse contact with North America occurred approximately 1000 CE at L'Anse aux Meadows on the northern tip of Newfoundland, documented archaeologically and confirmed through the dating in [Kuitems et al 2021][research_kuitems_et_al_2021]. The Norse settlement was brief (perhaps a decade of intermittent occupation) and produced no lasting demographic or ethnoreligious influence, though the Vinland Sagas provide the earliest European written accounts of North American peoples and geography. The [Wallace 2003][research_wallace_2003] treatment consolidates the archaeological evidence.
+Norse contact with North America occurred approximately 1000 CE at L'Anse aux Meadows on the northern tip of Newfoundland, documented archaeologically and confirmed through the dating in [Kuitems et al. 2021][research_kuitems_et_al_2021]. The Norse settlement was brief (perhaps a decade of intermittent occupation) and produced no lasting demographic or ethnoreligious influence, though the Vinland Sagas provide the earliest European written accounts of North American peoples and geography. The [Wallace 2003][research_wallace_2003] treatment consolidates the archaeological evidence.
 
 Spanish colonial presence in North America dates from approximately 1513 (Ponce de León in Florida), with the first permanent European settlement at St. Augustine, Florida in 1565, forty-two years before Jamestown. Spanish New Mexico settlement dates from Oñate's expedition of 1598, with permanent occupation at San Juan de los Caballeros (later moved to Santa Fe in 1610). Spanish missionary activity across Florida, New Mexico, and later California, Arizona, and Texas produced the Catholic-indigenous religious formations that would shape the American Southwest and Southeast. Spanish claims to the New World rested juridically on the 1493 papal bull [Inter Caetera][ref_inter_caetera_1493] granting the newly discovered western lands to Castile, refined territorially through the 1494 [Treaty of Tordesillas][ref_treaty_of_tordesillas_1494] that divided the Atlantic sphere between Castile and Portugal. The doctrinal treatment of the indigenous inhabitants advanced through the 1537 papal bull [Sublimis Deus][ref_sublimis_deus_1537] declaring the peoples of the Americas rational beings capable of receiving the Christian faith. Contemporary Spanish critique of conquest practice appears in the [Las Casas Brief Account of the Destruction of the Indies][ref_las_casas_brief_account_1552] and the earlier [Cortés Letters from Mexico][ref_cortes_letters_1519_1526]. The doctrine-of-discovery framework advanced through these instruments was later incorporated into United States federal common law through the 1823 [Johnson v M'Intosh][ref_johnson_v_mintosh_1823] Supreme Court decision. The [Weber 1992][book_weber_1992] The Spanish Frontier in North America provides the comprehensive treatment. The [Gutiérrez 1991][book_gutierrez_1991] When Jesus Came, the Corn Mothers Went Away treats the Spanish-Pueblo encounter in New Mexico from 1500 through 1846, including the pre-1607 initial contact and mission establishment. The [Milanich 1999][book_milanich_1999] Laboring in the Fields of the Lord treats the Spanish Florida mission system.
 
 French colonial presence in North America dates from Cartier's expeditions of 1534-1542, with the first permanent settlement at Port Royal, Acadia in 1605 (two years before Jamestown) and at Quebec in 1608. French Catholic missionary activity, particularly by the Jesuits (Récollets from 1615, Jesuits from 1625), produced the Franco-Native religious formations documented in the [Jesuit Relations][ref_jesuit_relations] and treated in [Trigger 1976][book_trigger_1976] The Children of Aataentsic and [Axtell 1985][book_axtell_1985] The Invasion Within. The French pattern of contact, characterized by lower settler density and greater emphasis on trade partnerships with Native peoples, produced a different ethnoreligious dynamic than the English pattern. The Franco-Algonquian and Franco-Wendat interactions shaped later syncretic Métis identities in the Great Lakes and Mississippi Valley.
 
-Russian presence in what is now Alaska began with Bering's expeditions of 1728 and 1741, with Russian Orthodox missionary activity established at Kodiak in 1794 and expanded through the nineteenth century. Though Alaska was not part of the United States until 1867, the Russian Orthodox missionary infrastructure produced the Russian Orthodox indigenous congregations (Aleut, Yup'ik, Tlingit) that persist to the present and constitute a distinctive American ethnoreligious formation. The [Oleksa 1992][book_oleksa_1992] Orthodox Alaska provides the treatment.
+Russian presence in what is now Alaska began with Bering's expeditions of 1728 and 1741, with Russian Orthodox missionary activity established at Kodiak in 1794 and expanded through the nineteenth century. Though Alaska was not part of the United States until 1867, the Russian Orthodox missionary infrastructure produced the Russian Orthodox indigenous congregations (Aleut, Yup'ik, Tlingit) that persist to the present and constitute a distinctive American ethnoreligious formation. The [Oleksa and Oleksa 1992][book_oleksa_1992] Orthodox Alaska provides the treatment.
 
 The implication of these pre-1607 and non-Anglo presences is that the Anglo-Jamestown-Plymouth narrative undercounts the European and Native encounter conditions that shaped the eventual American formation. The series adopts 1607 as an organizing starting date while treating the Spanish, French, and Russian presences at their historical dates in later articles, particularly the treatment of the American Southwest in article four (Second Great Awakening and Mexican Catholic incorporation via the 1848 Treaty of Guadalupe Hidalgo) and the treatment of Alaska in later articles.
 
 ## Indigenous North American Ethnoreligious Substrates
 
-The indigenous peoples of North America constitute the first pre-1607 substrate. Recent primary scholarship from [Blackhawk 2023][book_blackhawk_2023] The Rediscovery of America consolidates two generations of revisionist scholarship that treats indigenous political forms, economic systems, and religious traditions as substantive contributors to the American formation rather than as backdrop to European conquest. Earlier revisionist work from [Jennings 1975][book_jennings_1975] The Invasion of America, [Berkhofer 1978][book_berkhofer_1978] The White Man's Indian, [Salisbury 1982][book_salisbury_1982] Manitou and Providence, [Cronon 1983][book_cronon_1983] Changes in the Land, [Axtell 1985][book_axtell_1985] The Invasion Within, [Merrell 1989][book_merrell_1989] The Indians' New World, [Richter 1992][book_richter_1992] The Ordeal of the Longhouse, [White 1991][book_white_1991] The Middle Ground, [Calloway 1997][book_calloway_1997] New Worlds for All, [Richter 2001][book_richter_2001] Facing East from Indian Country, [Taylor 2001][book_taylor_2001] American Colonies, [Mann 2005][book_mann_2005] 1491, [DuVal 2006][book_duval_2006] The Native Ground, [Hämäläinen 2008][book_hamalainen_2008] The Comanche Empire, [DuVal 2015][book_duval_2015] Independence Lost, [Hämäläinen 2019][book_hamalainen_2019] Lakota America, and [Saunt 2020][book_saunt_2020] Unworthy Republic developed the scholarly base that [Blackhawk 2023][book_blackhawk_2023] synthesized. Indigenous-authored scholarly treatments include [Deloria 1969][book_deloria_1969] Custer Died for Your Sins, [Deloria 1973][book_deloria_1973] God Is Red, [Deloria and Lytle 1984][book_deloria_lytle_1984] The Nations Within, [Wilkins and Stark 2018][book_wilkins_stark_2018] American Indian Politics and the American Political System, and [Tinker 1993][book_tinker_1993] Missionary Conquest.
+The indigenous peoples of North America constitute the first pre-1607 substrate. Recent primary scholarship from [Blackhawk 2023][book_blackhawk_2023] The Rediscovery of America consolidates two generations of revisionist scholarship that treats indigenous political forms, economic systems, and religious traditions as substantive contributors to the American formation rather than as backdrop to European conquest. Earlier revisionist work from [Jennings 1975][book_jennings_1975] The Invasion of America, [Berkhofer 1978][book_berkhofer_1978] The White Man's Indian, [Salisbury 1982][book_salisbury_1982] Manitou and Providence, [Cronon 1983][book_cronon_1983] Changes in the Land, [Axtell 1985][book_axtell_1985] The Invasion Within, [Merrell 1989][book_merrell_1989] The Indians' New World, [Richter 1992][book_richter_1992] The Ordeal of the Longhouse, [White and White 1991][book_white_1991] The Middle Ground, [Calloway 1997][book_calloway_1997] New Worlds for All, [Richter 2001][book_richter_2001] Facing East from Indian Country, [Taylor 2001][book_taylor_2001] American Colonies, [Mann 2005][book_mann_2005] 1491, [DuVal 2006][book_duval_2006] The Native Ground, [Hamalainen et al. 2008][book_hamalainen_2008] The Comanche Empire, [DuVal 2015][book_duval_2015] Independence Lost, [Hamalainen 2019][book_hamalainen_2019] Lakota America, and [Saunt 2020][book_saunt_2020] Unworthy Republic developed the scholarly base that [Blackhawk 2023][book_blackhawk_2023] synthesized. Indigenous-authored scholarly treatments include [Deloria 1969][book_deloria_1969] Custer Died for Your Sins, [Deloria 1973][book_deloria_1973] God Is Red, [Deloria and Lytle 1984][book_deloria_lytle_1984] The Nations Within, [Wilkins and Stark 2018][book_wilkins_stark_2018] American Indian Politics and the American Political System, and [Tinker 1993][book_tinker_1993] Missionary Conquest.
 
 The scale of the indigenous substrate is substantial and the estimates remain contested. Pre-Columbian population estimates for the area north of the Rio Grande range across roughly one order of magnitude,
 
@@ -101,7 +101,7 @@ through the [Great Law of Peace][ref_iroquois_great_law] (Kaianere'kó:wa) attri
 
 Religious and cosmological patterns among the indigenous substrate similarly varied. The Algonquian-speaking peoples of the Northeast Woodlands shared the manitou cosmology under which sacred power inhered in places, animals, plants, and phenomena. The Iroquoian peoples shared a related orenda cosmology. The Puebloan peoples had elaborate kachina traditions with masked ceremonial performances tied to agricultural cycles. The Plains peoples developed the Sun Dance ceremonial complex (with distinct regional variations) tied to buffalo hunting and warrior societies. The Pacific Northwest peoples had elaborate winter dance ceremonial complexes tied to secret societies and lineage transmission. The [Hultkrantz 1979][book_hultkrantz_1979] The Religions of the American Indians provides the comprehensive comparative treatment. The [Martin 2001][book_martin_2001] The Land Looks After Us covers the relationship between indigenous religious traditions and land, and the [Deloria 1969][book_deloria_1969] Custer Died for Your Sins and [Deloria 1973][book_deloria_1973] God Is Red provide the indigenous-authored theological reflection.
 
-Economic organization among the indigenous substrate combined agricultural, foraging, and hunting patterns that varied by culture area. The Three Sisters agricultural complex (maize, beans, squash) developed in Mesoamerica had diffused north across the eastern woodlands by approximately 900 CE and provided the agricultural base for the substantial populations of the Iroquois, Muskogean, and later Puebloan peoples. The [Weatherford 1988][book_weatherford_1988] Indian Givers documents the American plant contributions (maize, potato, tomato, chocolate, tobacco, various beans, sunflower) that would reshape global agriculture after 1492. The Pacific Northwest salmon fisheries provided the base for elaborate lineage-based property systems and the potlatch gift-exchange ceremonial complex documented by [Boas 1897][book_boas_1897] and later by [Codere 1950][book_codere_1950] Fighting with Property. The Great Plains buffalo hunting economy (which would intensify after horse acquisition in the seventeenth and eighteenth centuries) provided the mobile band-based economic form documented by [Hämäläinen 2008][book_hamalainen_2008].
+Economic organization among the indigenous substrate combined agricultural, foraging, and hunting patterns that varied by culture area. The Three Sisters agricultural complex (maize, beans, squash) developed in Mesoamerica had diffused north across the eastern woodlands by approximately 900 CE and provided the agricultural base for the substantial populations of the Iroquois, Muskogean, and later Puebloan peoples. The [Weatherford 1988][book_weatherford_1988] Indian Givers documents the American plant contributions (maize, potato, tomato, chocolate, tobacco, various beans, sunflower) that would reshape global agriculture after 1492. The Pacific Northwest salmon fisheries provided the base for elaborate lineage-based property systems and the potlatch gift-exchange ceremonial complex documented by [Boas 1897][book_boas_1897] and later by [Codere 1950][book_codere_1950] Fighting with Property. The Great Plains buffalo hunting economy (which would intensify after horse acquisition in the seventeenth and eighteenth centuries) provided the mobile band-based economic form documented by [Hamalainen et al. 2008][book_hamalainen_2008].
 
 The downstream causal traces of the indigenous substrate on American political-economic development remain contested at several points and settled at others. Among the settled contributions, the American agricultural economy has depended from the colonial period forward on indigenous cultivars and cultivation techniques adopted by European settlers. The [Cronon 1983][book_cronon_1983] Changes in the Land, [Weatherford 1988][book_weatherford_1988] Indian Givers, and [Carney and Rosomoff 2009][book_carney_rosomoff_2009] In the Shadow of Slavery document the dependence. Place names across the United States retain thousands of indigenous-language elements documented by [Stewart 1970][book_stewart_1970] and others. The pharmacopeia adopted from indigenous knowledge (aspirin from willow bark, quinine from cinchona, digitalis, several others) contributed to European and American medicine. The transportation infrastructure from colonial trails through modern highways followed indigenous trail systems documented by [Wallace 1965][book_wallace_1965] Indian Paths of Pennsylvania and other regional treatments.
 
@@ -153,7 +153,7 @@ Religious retention and transformation under the conditions of North American sl
 
 Louisiana Voodoo, distinct from Haitian Vodou but sharing common Fon and Yoruba sources, developed through the French and Spanish colonial period as documented by [Long 2001][book_long_2001] Spiritual Merchants and [Fandrich 2005][book_fandrich_2005] The Mysterious Voodoo Queen. The New Orleans religious landscape combining Catholic, African traditional, and later Spiritualist elements produced a syncretic tradition distinct from either purely Catholic or purely African forms.
 
-The general theoretical vocabulary for characterizing the mixing of ethnoreligious streams was developed in [Ortiz 1940][book_ortiz_1940] Cuban Counterpoint under the concept of transculturation, contrasted with acculturation (which assumes unidirectional adoption by a subordinate group of the dominant culture). Transculturation captures the reality that ethnoreligious mixing produces new formations distinct from any of the source formations. The concept has been applied throughout Caribbean and Latin American religious studies and increasingly to North American cases in works such as [Matory 2005][book_matory_2005] Black Atlantic Religion and [Palmié 2002][book_palmie_2002] Wizards and Scientists. The series adopts transculturation as the general term for the bidirectional cultural exchange treated in the sixth axis of the analytical framework, alongside the more terms syncretism (for religious combination) and creolization (for language and general cultural combination).
+The general theoretical vocabulary for characterizing the mixing of ethnoreligious streams was developed in [Ortiz 1940][book_ortiz_1940] Cuban Counterpoint under the concept of transculturation, contrasted with acculturation (which assumes unidirectional adoption by a subordinate group of the dominant culture). Transculturation captures the reality that ethnoreligious mixing produces new formations distinct from any of the source formations. The concept has been applied throughout Caribbean and Latin American religious studies and increasingly to North American cases in works such as [Matory 2005][book_matory_2005] Black Atlantic Religion and [Palmié and Palmié 2002][book_palmie_2002] Wizards and Scientists. The series adopts transculturation as the general term for the bidirectional cultural exchange treated in the sixth axis of the analytical framework, alongside the more terms syncretism (for religious combination) and creolization (for language and general cultural combination).
 
 The downstream causal traces of the West and Central African substrate on American political-economic development are substantial and increasingly well-documented in scholarship. The [Carney 2001][book_carney_2001] Black Rice documents the West African agricultural knowledge (rice cultivation techniques) that shaped the colonial South Carolina economy. The [Carney and Rosomoff 2009][book_carney_rosomoff_2009] In the Shadow of Slavery documents the broader agricultural contribution including okra, black-eyed peas, watermelon, sesame, sorghum, and culinary traditions. The musical contribution documented by [Southern 1997][book_southern_1997] The Music of Black Americans traces the African foundations of spirituals, blues, jazz, gospel, rock and roll, and hip-hop through the rhythmic, harmonic, and performance-practice patterns retained through several generations. The Gullah creole language documented by [Turner 1949][book_turner_1949] Africanisms in the Gullah Dialect preserves the African language substrate distinct from mainstream English. Louisiana Creole and other Afro-American language varieties preserve additional African elements.
 
@@ -171,9 +171,9 @@ The theological and institutional developments of the Reformation followed sever
 
 English Puritanism, developing within the Anglican Church from the 1560s Elizabethan Settlement forward, sought further reform of Anglican worship, governance, and doctrine along Reformed lines. The [Collinson 1967][book_collinson_1967] The Elizabethan Puritan Movement and [Bremer 2009][book_bremer_2009] Puritanism provide the comprehensive treatments. Puritan separatists, following the 1580s Robert Browne separation, produced the Congregationalist tradition that would shape New England. The 1620 Plymouth Colony (Separatist Pilgrims) under the [Mayflower Compact][ref_mayflower_compact_1620] and 1630 Massachusetts Bay Colony (non-separating Puritans) under the 1629 [Massachusetts Bay Charter][ref_massachusetts_bay_charter_1629] provide the institutional beginnings, complemented by the 1639 [Fundamental Orders of Connecticut][ref_fundamental_orders_of_connecticut_1639] as one of the earliest written constitutional frameworks in the English-speaking colonies. The Anglican Chesapeake settlement rests on the corresponding 1606 [First Charter of Virginia][ref_first_charter_of_virginia_1606]. The [Morgan 1958][book_morgan_1958] The Puritan Dilemma, [Miller 1953][book_miller_1953] The New England Mind, [Bailyn 1955][book_bailyn_1955] The New England Merchants, [Foster 1971][book_foster_1971] Their Solitary Way, and [Hall 1989][book_hall_1989] Worlds of Wonder, Days of Judgment provide the classical scholarly treatments.
 
-Reformed political theology developed during and after the Continental Wars of Religion produced the resistance-theory literature that would shape later constitutional thought. The anonymous [Vindiciae Contra Tyrannos 1579][book_vindiciae_1579], attributed to Duplessis-Mornay or Beza, argued for the covenantal legitimacy of resistance to tyrannical rulers on the basis of a compact between God, the ruler, and the people. The [Buchanan 1579][book_buchanan_1579] De Iure Regni apud Scotos advanced comparable arguments in the Scottish context. The [Althusius 1603][book_althusius_1603] Politica developed the federal constitutional theory joining the covenantal and consociational elements of Reformed political thought. The [Rutherford 1644][book_rutherford_1644] Lex, Rex provided the systematic Presbyterian resistance-theory statement during the English Civil War, produced during the same period that generated the 1646 [Westminster Confession of Faith][ref_westminster_confession_1646] adopted by the Church of Scotland and later by American Presbyterian and Congregational bodies. These works shaped the political theology that would later be transmitted through New England Puritan and Middle Colony Presbyterian streams to the American Revolutionary generation, as documented in [Witte 2007][book_witte_2007] The Reformation of Rights and [Kingdon 1988][book_kingdon_1988] Myths About the St. Bartholomew's Day Massacres.
+Reformed political theology developed during and after the Continental Wars of Religion produced the resistance-theory literature that would shape later constitutional thought. The anonymous [Vindiciae et al. 1579][book_vindiciae_1579], attributed to Duplessis-Mornay or Beza, argued for the covenantal legitimacy of resistance to tyrannical rulers on the basis of a compact between God, the ruler, and the people. The [Buchanan 1579][book_buchanan_1579] De Iure Regni apud Scotos advanced comparable arguments in the Scottish context. The [Althusius 1603][book_althusius_1603] Politica developed the federal constitutional theory joining the covenantal and consociational elements of Reformed political thought. The [Rutherford 1644][book_rutherford_1644] Lex, Rex provided the systematic Presbyterian resistance-theory statement during the English Civil War, produced during the same period that generated the 1646 [Westminster Confession of Faith][ref_westminster_confession_1646] adopted by the Church of Scotland and later by American Presbyterian and Congregational bodies. These works shaped the political theology that would later be transmitted through New England Puritan and Middle Colony Presbyterian streams to the American Revolutionary generation, as documented in [Witte 2007][book_witte_2007] The Reformation of Rights and [Kingdon 1988][book_kingdon_1988] Myths About the St. Bartholomew's Day Massacres.
 
-The Dutch Republic emerged from the Reformation as the European center of religious pluralism and commercial development. The Dutch Reformed Church became the established church while the Dutch Republic tolerated substantial Catholic, Jewish, and dissenting Protestant communities. The [Israel 1995][book_israel_1995] The Dutch Republic and [Israel 1985][book_israel_1985] European Jewry in the Age of Mercantilism document the Dutch commercial development and the role of the Sephardic Jewish community (arriving from Iberia via Ottoman lands) in Dutch trade and finance. Dutch Amsterdam became the center of European Jewish intellectual life through the seventeenth century, producing Spinoza and other figures whose thought would shape later Enlightenment political and religious philosophy. The Dutch pattern would influence the New Netherland (New Amsterdam) colony and the religious-toleration and commercial patterns of the middle colonies that would form the ethnoreligious substrate of New York.
+The Dutch Republic emerged from the Reformation as the European center of religious pluralism and commercial development. The Dutch Reformed Church became the established church while the Dutch Republic tolerated substantial Catholic, Jewish, and dissenting Protestant communities. The [Israel et al. 1995][book_israel_1995] The Dutch Republic and [Israel 1985][book_israel_1985] European Jewry in the Age of Mercantilism document the Dutch commercial development and the role of the Sephardic Jewish community (arriving from Iberia via Ottoman lands) in Dutch trade and finance. Dutch Amsterdam became the center of European Jewish intellectual life through the seventeenth century, producing Spinoza and other figures whose thought would shape later Enlightenment political and religious philosophy. The Dutch pattern would influence the New Netherland (New Amsterdam) colony and the religious-toleration and commercial patterns of the middle colonies that would form the ethnoreligious substrate of New York.
 
 The Continental European Reformation produced sustained religious conflict across the sixteenth and early seventeenth centuries. The French Wars of Religion (1562-1598) between Catholic and Huguenot factions produced the 1598 Edict of Nantes granting limited Huguenot rights, its 1685 revocation by Louis XIV, and the resulting Huguenot diaspora to England, Netherlands, Germany, and North America. The [Diefendorf 1991][book_diefendorf_1991] Beneath the Cross and [Holt 2005][book_holt_2005] The French Wars of Religion provide the scholarly treatments. Huguenot settlement in North America included communities at New Rochelle (New York), Charleston (South Carolina), and elsewhere. The [Butler 1983][book_butler_1983] The Huguenots in America documents the settlement pattern and subsequent substantial assimilation.
 
@@ -199,7 +199,7 @@ The downstream causal traces of the European Reformation substrate on American p
 
 ## Migration and Diffusion Dynamics
 
-The encounter conditions of the three pre-1607 substrates require formalization to characterize the dynamics through which each substrate would contribute to the American formation. The foundational immigration historiography includes [Handlin 1951][book_handlin_1951] The Uprooted (which framed immigration through the lens of individual dislocation and adaptation), [Higham 1955][book_higham_1955] Strangers in the Land (which documented the nativist response), [Gordon 1964][book_gordon_1964] Assimilation in American Life (which characterized the seven-stage assimilation model), [Glazer and Moynihan 1963][book_glazer_moynihan_1963] Beyond the Melting Pot (which documented persistent ethnic distinctiveness in New York), [Vecoli 1964][research_vecoli_1964] Contadini in Chicago (which critiqued Handlin's individualist framing in favor of a community-formation account), [Bodnar 1985][book_bodnar_1985] The Transplanted (which developed the community-formation framework across immigrant streams), and [Sollors 1986][book_sollors_1986] Beyond Ethnicity (which examined the construction of ethnicity as an American cultural practice). The general form of the substrate contribution can be stated as follows. Let $P_{\text{US}}(t)$ denote the total population of the territory that would become the United States at time $t$. The population composition can be decomposed as
+The encounter conditions of the three pre-1607 substrates require formalization to characterize the dynamics through which each substrate would contribute to the American formation. The foundational immigration historiography includes [Handlin 1951][book_handlin_1951] The Uprooted (which framed immigration through the lens of individual dislocation and adaptation), [Higham et al. 1955][book_higham_1955] Strangers in the Land (which documented the nativist response), [Gordon 1964][book_gordon_1964] Assimilation in American Life (which characterized the seven-stage assimilation model), [Glazer and Moynihan 1963][book_glazer_moynihan_1963] Beyond the Melting Pot (which documented persistent ethnic distinctiveness in New York), [Vecoli 1964][research_vecoli_1964] Contadini in Chicago (which critiqued Handlin's individualist framing in favor of a community-formation account), [Bodnar 1985][book_bodnar_1985] The Transplanted (which developed the community-formation framework across immigrant streams), and [Sollors 1986][book_sollors_1986] Beyond Ethnicity (which examined the construction of ethnicity as an American cultural practice). The general form of the substrate contribution can be stated as follows. Let $P_{\text{US}}(t)$ denote the total population of the territory that would become the United States at time $t$. The population composition can be decomposed as
 
 $$P_{\text{US}}(t) = \sum_i w_i(t) \, P_i^0 + \Delta_{\text{admix}}(t)$$
 
@@ -221,7 +221,7 @@ Endogamy rates modulate retention through the intergenerational transmission cha
 
 $$R^{\text{ancestral}}(g) \approx \rho^g$$
 
-with the simplifying assumption of independent within-generation endogamy choice. Documented endogamy rates for early twentieth-century American Jewish communities were near $\rho \approx 0.97$ (declining to approximately $0.50$ by the early twenty-first century per [Pew 2013][ref_pew_jewish_2013]), for Catholic communities near $\rho \approx 0.80$ mid-century declining to approximately $0.60$, and for other groups varying with community size and geographic concentration.
+with the simplifying assumption of independent within-generation endogamy choice. Documented endogamy rates for early twentieth-century American Jewish communities were near $\rho \approx 0.97$ (declining to approximately $0.50$ by the early twenty-first century per [Pew Research 2013][ref_pew_jewish_2013]), for Catholic communities near $\rho \approx 0.80$ mid-century declining to approximately $0.60$, and for other groups varying with community size and geographic concentration.
 
 Chain migration amplifies the arriving population through documented family and kinship networks. Under a chain-migration multiplier $m > 1$, the total arriving population from an initial pioneer of size $N_0$ across $k$ chain-migration cycles follows
 
@@ -301,9 +301,9 @@ Traditional American historiography has under-acknowledged the contributions of 
 
 The classical consensus historiography represented by [Bancroft 1834][book_bancroft_1834] History of the United States, [Turner 1893][research_turner_1893] The Significance of the Frontier in American History, [Beard 1913][book_beard_1913] An Economic Interpretation of the Constitution, [Hartz 1955][book_hartz_1955] The Liberal Tradition in America, and [Boorstin 1958][book_boorstin_1958] The Americans treated the American formation as explained by Anglo-Protestant institutional inheritance, frontier expansion, and economic-liberal-democratic development. The treatment gave substantial attention to the European Reformation substrate but comparably less attention to the indigenous and African substrates.
 
-The revisionist historiography that emerged from the 1960s forward reoriented the scholarly treatment. The [Zinn 1980][book_zinn_1980] A People's History of the United States provided the popularly influential revisionist synthesis. The ethnic-studies scholarship (Native American studies, African American studies, Latino studies, Asian American studies, and their institutional consolidation) produced substantial new primary research and reinterpretation. The new social history from [Bernard Bailyn 1967][book_bailyn_1967] The Ideological Origins of the American Revolution through [Gordon Wood 1969][book_wood_1969] The Creation of the American Republic and their successors reoriented the treatment of the Revolutionary period. The new political history from [Skowronek 1982][book_skowronek_1982] Building a New American State and subsequent work reoriented the treatment of the state formation.
+The revisionist historiography that emerged from the 1960s forward reoriented the scholarly treatment. The [Zinn 1980][book_zinn_1980] A People's History of the United States provided the popularly influential revisionist synthesis. The ethnic-studies scholarship (Native American studies, African American studies, Latino studies, Asian American studies, and their institutional consolidation) produced substantial new primary research and reinterpretation. The new social history from [Bailyn 1967][book_bailyn_1967] The Ideological Origins of the American Revolution through [Wood 1969][book_wood_1969] The Creation of the American Republic and their successors reoriented the treatment of the Revolutionary period. The new political history from [Skowronek 1982][book_skowronek_1982] Building a New American State and subsequent work reoriented the treatment of the state formation.
 
-The twenty-first century synthesis in [Blackhawk 2023][book_blackhawk_2023] The Rediscovery of America, [Saunt 2014][book_saunt_2014] West of the Revolution, [Hämäläinen 2019][book_hamalainen_2019] Lakota America, [Gomez 1998][book_gomez_1998] and [Gomez 2005][book_gomez_2005], and the ongoing digitization of primary sources through projects such as the [Voyages Slave Trade Database 2019][ref_voyages_database], the [Native American Constitution and Law Digitization Project][ref_nacldp], the [Colonial North American Project at Harvard][ref_cnap], the [Library of Congress Religion and the Founding of the American Republic exhibit][ref_loc_religion_and_founding], the [Association of Religion Data Archives][ref_arda], the [Pew Research Center Religion and Public Life program][ref_pew_religion_public_life], the [United States Census Bureau historical statistics on religion][ref_us_census_historical_religion], the [Vatican Apostolic Archive][ref_vatican_apostolic_archive], and the [Maine State Archives collections of Wabanaki treaties][ref_maine_wabanaki_treaties] provides the empirical base for a more comprehensive treatment. The series builds on the twenty-first century synthesis while remaining alert to the ongoing scholarly debates.
+The twenty-first century synthesis in [Blackhawk 2023][book_blackhawk_2023] The Rediscovery of America, [Saunt 2014][book_saunt_2014] West of the Revolution, [Hamalainen 2019][book_hamalainen_2019] Lakota America, [Gomez 1998][book_gomez_1998] and [Gomez 2005][book_gomez_2005], and the ongoing digitization of primary sources through projects such as the [Voyages Slave Trade Database 2019][ref_voyages_database], the [Native American Constitution and Law Digitization Project][ref_nacldp], the [Colonial North American Project at Harvard][ref_cnap], the [Library of Congress Religion and the Founding of the American Republic exhibit][ref_loc_religion_and_founding], the [Association of Religion Data Archives][ref_arda], the [Pew Research Center Religion and Public Life program][ref_pew_religion_public_life], the [United States Census Bureau historical statistics on religion][ref_us_census_historical_religion], the [Vatican Apostolic Archive][ref_vatican_apostolic_archive], and the [Maine State Archives collections of Wabanaki treaties][ref_maine_wabanaki_treaties] provides the empirical base for a more comprehensive treatment. The series builds on the twenty-first century synthesis while remaining alert to the ongoing scholarly debates.
 
 The series treats each substrate through the primary scholarship of both classical and revisionist traditions. Where the two traditions disagree substantively, the series presents both positions and cites the primary sources supporting each. Where the revisionist scholarship has supplanted the classical treatment (particularly for indigenous and African substrates), the series follows the revisionist synthesis while noting the classical position it displaced.
 
@@ -351,246 +351,254 @@ These questions recur throughout the series and are revisited in the closing syn
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Ahlstrom 1972 A Religious History of the American People][book_ahlstrom_1972]
-- [Alford 1977 Prince Among Slaves][book_alford_1977]
-- [Alryyes 2011 A Muslim American Slave][book_alryyes_2011]
-- [Althusius 1603 Politica][book_althusius_1603]
-- [Austin 1984 African Muslims in Antebellum America][book_austin_1984]
-- [Axtell 1985 The Invasion Within][book_axtell_1985]
-- [Bailyn 1955 The New England Merchants][book_bailyn_1955]
-- [Bailyn 1967 Ideological Origins of the American Revolution][book_bailyn_1967]
-- [Bancroft 1834 History of the United States][book_bancroft_1834]
-- [Barbour and Frost 1988 The Quakers][book_barbour_frost_1988]
-- [Bauman 1971 For the Reputation of Truth][book_bauman_1971]
-- [Beard 1913 Economic Interpretation of the Constitution][book_beard_1913]
-- [Bellah et al 1985 Habits of the Heart][book_bellah_et_al_1985]
-- [Bercovitch 1975 The Puritan Origins of the American Self][book_bercovitch_1975]
-- [Bercovitch 1978 The American Jeremiad][book_bercovitch_1978]
-- [Berkhofer 1978 The White Man's Indian][book_berkhofer_1978]
-- [Berlin 1998 Many Thousands Gone][book_berlin_1998]
-- [Berlin 2003 Generations of Captivity][book_berlin_2003]
-- [Berry and Harris 2018 Sexuality and Slavery][book_berry_harris_2018]
-- [Blackhawk 2023 The Rediscovery of America][book_blackhawk_2023]
-- [Blassingame 1972 The Slave Community][book_blassingame_1972]
-- [Boas 1897 Social Organization Kwakiutl][book_boas_1897]
-- [Bodnar 1985 The Transplanted][book_bodnar_1985]
-- [Boorstin 1958 The Americans][book_boorstin_1958]
-- [Botticini and Eckstein 2012 The Chosen Few][book_botticini_eckstein_2012]
-- [Brecht 1993 Geschichte des Pietismus][book_brecht_1993]
-- [Bremer 2009 Puritanism][book_bremer_2009]
-- [Buchanan 1579 De Iure Regni apud Scotos][book_buchanan_1579]
-- [Bushman 1967 From Puritan to Yankee][book_bushman_1967]
-- [Butler 1983 The Huguenots in America][book_butler_1983]
-- [Butler 1990 Awash in a Sea of Faith][book_butler_1990]
-- [Butterfield 1931 The Whig Interpretation of History][book_butterfield_1931]
-- [Calloway 1997 New Worlds for All][book_calloway_1997]
-- [Cameron 2012 The European Reformation][book_cameron_2012]
-- [Canny 2001 Making Ireland British][book_canny_2001]
-- [Carney 2001 Black Rice][book_carney_2001]
-- [Carney and Rosomoff 2009 In the Shadow of Slavery][book_carney_rosomoff_2009]
-- [Chadwick 1964 The Reformation][book_chadwick_1964]
-- [Chireau 2003 Black Magic][book_chireau_2003]
-- [Codere 1950 Fighting with Property][book_codere_1950]
-- [Collinson 1967 The Elizabethan Puritan Movement][book_collinson_1967]
-- [Cronon 1983 Changes in the Land][book_cronon_1983]
-- [Crosby 1972 The Columbian Exchange][book_crosby_1972]
-- [Crosby 1986 Ecological Imperialism][book_crosby_1986]
-- [Curtin 1967 Africa Remembered][book_curtin_1967]
-- [Curtin 1969 The Atlantic Slave Trade][book_curtin_1969]
-- [Deloria 1969 Custer Died for Your Sins][book_deloria_1969]
-- [Deloria 1973 God Is Red][book_deloria_1973]
-- [Deloria and Lytle 1984 The Nations Within][book_deloria_lytle_1984]
-- [Du Bois 1903 The Negro Church][book_dubois_1903]
-- [Du Bois 1935 Black Reconstruction in America][book_dubois_1935]
-- [Diefendorf 1991 Beneath the Cross][book_diefendorf_1991]
-- [Diouf 1998 Servants of Allah][book_diouf_1998]
-- [Duffy 1992 The Stripping of the Altars][book_duffy_1992]
-- [DuVal 2006 The Native Ground][book_duval_2006]
-- [DuVal 2015 Independence Lost][book_duval_2015]
-- [Eltis and Richardson 2010 Atlas of the Transatlantic Slave Trade][book_eltis_richardson_2010]
-- [Fandrich 2005 The Mysterious Voodoo Queen][book_fandrich_2005]
-- [Fenton 1998 The Great Law and the Longhouse][book_fenton_1998]
-- [Fischer 1989 Albion's Seed][book_fischer_1989]
-- [Foster 1971 Their Solitary Way][book_foster_1971]
-- [Frazier 1957 The Negro Family in the United States][book_frazier_1957]
-- [Frazier 1963 The Negro Church in America][book_frazier_1963]
-- [Genovese 1974 Roll Jordan Roll][book_genovese_1974]
-- [Glazer and Moynihan 1963 Beyond the Melting Pot][book_glazer_moynihan_1963]
-- [Gomez 1998 Exchanging Our Country Marks][book_gomez_1998]
-- [Gomez 2005 Black Crescent][book_gomez_2005]
-- [Gordon 1964 Assimilation in American Life][book_gordon_1964]
-- [Grant 1968 The Fortunate Slave][book_grant_1968]
-- [Griffin 2001 The People with No Name][book_griffin_2001]
-- [Grinde and Johansen 1991 Exemplar of Liberty][book_grinde_johansen_1991]
-- [Gutiérrez 1991 When Jesus Came, the Corn Mothers Went Away][book_gutierrez_1991]
-- [Hall 1989 Worlds of Wonder Days of Judgment][book_hall_1989]
-- [Hämäläinen 2008 The Comanche Empire][book_hamalainen_2008]
-- [Hämäläinen 2019 Lakota America][book_hamalainen_2019]
-- [Handlin 1951 The Uprooted][book_handlin_1951]
-- [Harding 1981 There Is a River][book_harding_1981]
-- [Hartz 1955 The Liberal Tradition in America][book_hartz_1955]
-- [Hatch 1989 The Democratization of American Christianity][book_hatch_1989]
-- [Hazzard-Donald 2013 Mojo Workin'][book_hazzard_donald_2013]
-- [Herskovits 1941 The Myth of the Negro Past][book_herskovits_1941]
-- [Heywood and Thornton 2007 Central Africans, Atlantic Creoles][book_heywood_thornton_2007]
-- [Higham 1955 Strangers in the Land][book_higham_1955]
-- [Hill 1958 Puritanism and Revolution][book_hill_1958]
-- [Hill 1972 The World Turned Upside Down][book_hill_1972]
-- [Hollinger 1995 Postethnic America][book_hollinger_1995]
-- [Holt 2005 The French Wars of Religion][book_holt_2005]
-- [Hultkrantz 1979 Religions of the American Indians][book_hultkrantz_1979]
-- [Hurston 1935 Mules and Men][book_hurston_1935]
-- [Israel 1985 European Jewry in the Age of Mercantilism][book_israel_1985]
-- [Israel 1995 The Dutch Republic][book_israel_1995]
-- [Jennings 1975 The Invasion of America][book_jennings_1975]
-- [Kingdon 1956 Geneva and the Coming of the Wars of Religion][book_kingdon_1956]
-- [Kingdon 1988 Myths About the St. Bartholomew's Day Massacres][book_kingdon_1988]
-- [Klein 1999 The Atlantic Slave Trade][book_klein_1999]
-- [La Barre 1938 The Peyote Cult][book_labarre_1938]
-- [Lapidus 2014 A History of Islamic Societies][book_lapidus_2014]
-- [Levtzion 1994 Islam in West Africa][book_levtzion_1994]
-- [Lincoln and Mamiya 1990 The Black Church in the African American Experience][book_lincoln_mamiya_1990]
-- [Lockridge 1974 Literacy in Colonial New England][book_lockridge_1974]
-- [Long 2001 Spiritual Merchants][book_long_2001]
-- [MacCulloch 1996 Thomas Cranmer][book_macculloch_1996]
-- [MacCulloch 2003 The Reformation][book_macculloch_2003]
-- [Mann 2005 1491][book_mann_2005]
-- [Marcus 1970 The Colonial American Jew][book_marcus_1970]
-- [Martin 2001 The Land Looks After Us][book_martin_2001]
-- [Matory 2005 Black Atlantic Religion][book_matory_2005]
-- [Mead 1963 The Lively Experiment][book_mead_1963]
-- [Meltzer 2009 First Peoples in a New World][book_meltzer_2009]
-- [Merrell 1989 The Indians' New World][book_merrell_1989]
-- [Merritt 2003 At the Crossroads][book_merritt_2003]
-- [Milanich 1999 Laboring in the Fields of the Lord][book_milanich_1999]
-- [Miller 1953 The New England Mind][book_miller_1953]
-- [Miller 1956 Errand into the Wilderness][book_miller_1956]
-- [Mintz and Price 1976 The Birth of African-American Culture][book_mintz_price_1976]
-- [Mithun 1999 Languages of Native North America][book_mithun_1999]
-- [Morgan 1958 The Puritan Dilemma][book_morgan_1958]
-- [Muller 2003 Post-Reformation Reformed Dogmatics][book_muller_2003]
-- [Nash 1968 Quakers and Politics][book_nash_1968]
-- [Netanyahu 1995 The Origins of the Inquisition][book_netanyahu_1995]
-- [Nettle and Romaine 2000 Vanishing Voices][book_nettle_romaine_2000]
-- [Noll 2002 America's God][book_noll_2002]
-- [Oleksa 1992 Orthodox Alaska][book_oleksa_1992]
-- [Ortiz 1940 Cuban Counterpoint][book_ortiz_1940]
-- [Ozment 1980 The Age of Reform 1250-1550][book_ozment_1980]
-- [Palmié 2002 Wizards and Scientists][book_palmie_2002]
-- [Pauketat 2004 Ancient Cahokia][book_pauketat_2004]
-- [Pettegree 2005 Reformation and the Culture of Persuasion][book_pettegree_2005]
-- [Puckett 1926 Folk Beliefs of the Southern Negro][book_puckett_1926]
-- [Raboteau 1978 Slave Religion][book_raboteau_1978]
-- [Reich 2018 Who We Are and How We Got Here][book_reich_2018]
-- [Rutherford 1644 Lex Rex][book_rutherford_1644]
-- [Richter 1992 The Ordeal of the Longhouse][book_richter_1992]
-- [Richter 2001 Facing East from Indian Country][book_richter_2001]
-- [Salisbury 1982 Manitou and Providence][book_salisbury_1982]
-- [Samuelsson 1961 Religion and Economic Action][book_samuelsson_1961]
-- [Sarna 2004 American Judaism][book_sarna_2004]
-- [Saunt 2014 West of the Revolution][book_saunt_2014]
-- [Saunt 2020 Unworthy Republic][book_saunt_2020]
-- [Skowronek 1982 Building a New American State][book_skowronek_1982]
-- [Smith 1957 Revivalism and Social Reform][book_smith_1957]
-- [Smith 1997 Civic Ideals][book_smith_1997]
-- [Snow 1994 The Iroquois][book_snow_1994]
-- [Snyder 1995 Anabaptist History and Theology][book_snyder_1995]
-- [Sobel 1988 Trabelin' On][book_sobel_1988]
-- [Sollors 1986 Beyond Ethnicity][book_sollors_1986]
-- [Sombart 1913 The Jews and Modern Capitalism][book_sombart_1913]
-- [Southern 1997 The Music of Black Americans][book_southern_1997]
-- [Stewart 1970 A Concise Dictionary of American Place-Names][book_stewart_1970]
-- [Stewart 1987 Peyote Religion][book_stewart_1987]
-- [Stoeffler 1965 The Rise of Evangelical Pietism][book_stoeffler_1965]
-- [Stuckey 1987 Slave Culture][book_stuckey_1987]
-- [Sturtevant 1978 Handbook of North American Indians][book_sturtevant_1978]
-- [Sweet 2003 Recreating Africa][book_sweet_2003]
-- [Tawney 1926 Religion and the Rise of Capitalism][book_tawney_1926]
-- [Taylor 2001 American Colonies][book_taylor_2001]
-- [Thornton 1987 American Indian Holocaust and Survival][book_thornton_1987]
-- [Thornton 1992 Africa and Africans in the Making of the Atlantic World][book_thornton_1992]
-- [Tinker 1993 Missionary Conquest][book_tinker_1993]
-- [Tocqueville 1835 Democracy in America][book_tocqueville_1835]
-- [Trigger 1976 The Children of Aataentsic][book_trigger_1976]
-- [Trouillot 1995 Silencing the Past][book_trouillot_1995]
-- [Turner 1949 Africanisms in the Gullah Dialect][book_turner_1949]
-- [Vindiciae Contra Tyrannos 1579][book_vindiciae_1579]
-- [Wallace 1965 Indian Paths of Pennsylvania][book_wallace_1965]
-- [Warren 2017 God's Red Son][book_warren_2017]
-- [Weatherford 1988 Indian Givers][book_weatherford_1988]
-- [Weber 1905 The Protestant Ethic and the Spirit of Capitalism][book_weber_1905]
-- [Weber 1992 The Spanish Frontier in North America][book_weber_1992]
-- [White 1973 Metahistory][book_white_1973]
-- [White 1991 The Middle Ground][book_white_1991]
-- [Wilkins and Stark 2018 American Indian Politics][book_wilkins_stark_2018]
-- [Williams 1962 The Radical Reformation][book_williams_1962]
-- [Wilson 1902 A History of the American People][book_wilson_1902]
-- [Wilson 2009 Europe's Tragedy][book_wilson_2009]
-- [Winship 2012 Godly Republicanism][book_winship_2012]
-- [Witte 2007 The Reformation of Rights][book_witte_2007]
-- [Wood 1969 The Creation of the American Republic][book_wood_1969]
-- [Wood 1974 Black Majority][book_wood_1974]
-- [Woodson 1921 The History of the Negro Church][book_woodson_1921]
-- [Yerushalmi 1971 From Spanish Court to Italian Ghetto][book_yerushalmi_1971]
-- [Zinn 1980 A People's History of the United States][book_zinn_1980]
-- [Zuckerman 1970 Peaceable Kingdoms][book_zuckerman_1970]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Denevan, William M. 1992. "The Pristine Myth: The Landscape of the Americas in 1492." *Annals of the Association of American Geographers* 82 (3): 369–85. [https://doi.org/10.1111/j.1467-8306.1992.tb01965.x][research_denevan_1992]
+- Kuitems, Margot, Birgitta L. Wallace, Charles Lindsay, et al. 2021. "Evidence for European Presence in the Americas in Ad 1021." *Nature* 601 (7893): 388–91. [https://doi.org/10.1038/s41586-021-03972-8][research_kuitems_et_al_2021]
 
-- [Association of Religion Data Archives][ref_arda]
-- [Augsburg Confession 1530][ref_augsburg_confession_1530]
-- [Bureau of Indian Affairs][ref_bureau_of_indian_affairs]
-- [California Native American Heritage Commission][ref_native_american_heritage_commission]
-- [Colonial North American Project at Harvard][ref_cnap]
-- [Cortés Letters from Mexico 1519-1526][ref_cortes_letters_1519_1526]
-- [Cugoano Thoughts and Sentiments on the Evil of Slavery 1787][ref_cugoano_thoughts_and_sentiments_1787]
-- [Dum Diversas 1452][ref_dum_diversas_1452]
-- [Equiano Interesting Narrative 1789][ref_equiano_narrative_1789]
-- [First Charter of Virginia 1606][ref_first_charter_of_virginia_1606]
-- [Fundamental Orders of Connecticut 1639][ref_fundamental_orders_of_connecticut_1639]
-- [Handbook of North American Indians Smithsonian][ref_handbook_north_american_indians]
-- [Inter Caetera 1493][ref_inter_caetera_1493]
-- [Iroquois Great Law of Peace][ref_iroquois_great_law]
-- [Jesuit Relations and Allied Documents][ref_jesuit_relations]
-- [Johnson v M'Intosh 1823][ref_johnson_v_mintosh_1823]
-- [Las Casas Brief Account of the Destruction of the Indies 1552][ref_las_casas_brief_account_1552]
-- [Library of Congress Religion and the Founding of the American Republic][ref_loc_religion_and_founding]
-- [Maine State Archives Wabanaki Treaties][ref_maine_wabanaki_treaties]
-- [Massachusetts Bay Charter 1629][ref_massachusetts_bay_charter_1629]
-- [Mayflower Compact 1620][ref_mayflower_compact_1620]
-- [Native American Constitution and Law Digitization Project][ref_nacldp]
-- [Native American Rights Fund][ref_native_american_rights_fund]
-- [Ninety-Five Theses 1517][ref_ninety_five_theses_1517]
-- [Pew Research 2013 A Portrait of Jewish Americans][ref_pew_jewish_2013]
-- [Pew Research Center Religion and Public Life][ref_pew_religion_public_life]
-- [Romanus Pontifex 1455][ref_romanus_pontifex_1455]
-- [Sublimis Deus 1537][ref_sublimis_deus_1537]
-- [Treaty of Tordesillas 1494][ref_treaty_of_tordesillas_1494]
-- [United States Census Bureau Historical Statistics on Religion][ref_us_census_historical_religion]
-- [Vatican Apostolic Archive][ref_vatican_apostolic_archive]
-- [Voyages Slave Trade Database 2019][ref_voyages_database]
-- [Westminster Confession of Faith 1646][ref_westminster_confession_1646]
+### Primary Sources, Non-Peer-Reviewed
 
-### Research
+- "Augsburg Confession." 1530. [https://www.ccel.org/creeds/augsburg-confession.txt][ref_augsburg_confession_1530]
+- "Avalon Project: Fundamental Orders of 1639." 1639. Accessed October 25, 2026. [https://avalon.law.yale.edu/17th\_century/order.asp][ref_fundamental_orders_of_connecticut_1639]
+- Becker, Sascha O., and Ludger Woessmann. 2009. "Was Weber Wrong? A Human Capital Theory of Protestant Economic History." *Quarterly Journal of Economics* 124 (2): 531–96. [https://doi.org/10.1162/qjec.2009.124.2.531][research_becker_woessmann_2009]
+- Dobyns. 1966. *Estimating Aboriginal American Population*. [https://scholar.google.com/scholar?q=Estimating+Aboriginal+American+Population+Dobyns+1966][research_dobyns_1966]
+- "Dum Diversas 1452." n.d. Accessed October 25, 2026. [https://www.papalencyclicals.net/nichol05/dum-diversas.htm][ref_dum_diversas_1452]
+- "Inter Caetera." 1493., May 4. [https://www.papalencyclicals.net/alex06/alex06inter.htm][ref_inter_caetera_1493]
+- "Johnson & Graham's Lessee v. McIntosh, 21 U.S. 543 (1823)." 1823. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/21/543/][ref_johnson_v_mintosh_1823]
+- "Library of Congress Religion and the Founding of the American Republic exhibit." n.d. Accessed October 25, 2026. [https://www.loc.gov/exhibits/religion/][ref_loc_religion_and_founding]
+- MacDonald, John S., and Leatrice D. MacDonald. 1964. "Chain Migration Ethnic Neighborhood Formation and Social Networks." *Milbank Memorial Fund Quarterly* 42 (1): 82. [https://doi.org/10.2307/3348581][research_macdonald_macdonald_1964]
+- "Massachusetts Bay Charter." 1629. [https://avalon.law.yale.edu/17th\_century/mass03.asp][ref_massachusetts_bay_charter_1629]
+- "Mayflower Compact." 1620. [https://avalon.law.yale.edu/17th\_century/mayflower.asp][ref_mayflower_compact_1620]
+- Payne. 1996. *Iroquois Influence Thesis Critique*. [https://scholar.google.com/scholar?q=Iroquois+Influence+Thesis+Critique+Payne+1996][research_payne_1996]
+- "Philip Schaff: Creeds of Christendom, Volume III. the Creeds of the Evangelical Protestant Churches.: Christian Classics Ethereal Library." 1646. Accessed October 25, 2026. [https://www.ccel.org/ccel/schaff/creeds3.iv.i.html][ref_westminster_confession_1646]
+- Reed, T. Edward. 1969. "Caucasian Genes in American Negroes: Measurement of Non-African Ancestry Is Difficult, but It Is Worthwhile for Several Genetic Reasons." *Science* 165 (3895): 762–68. [https://doi.org/10.1126/science.165.3895.762][research_reed_1969]
+- "Romanus Pontifex 1455." n.d. Accessed October 25, 2026. [https://www.papalencyclicals.net/nichol05/romanus-pontifex.htm][ref_romanus_pontifex_1455]
+- "Sublimis Deus." 1537. [https://www.papalencyclicals.net/paul03/p3subli.htm][ref_sublimis_deus_1537]
+- Thornton, John. 1984. "The Development of an African Catholic Church in the Kingdom of Kongo, 1491–1750." *Journal of African History* 25 (2): 147–67. [https://doi.org/10.1017/s0021853700022830][research_thornton_1984]
+- Tooker, Elisabeth. 1988. "The United States Constitution and the Iroquois League." *Ethnohistory* 35 (4): 305. [https://doi.org/10.2307/482139][research_tooker_1988]
+- "Treaty of Tordesillas 1494." n.d. Accessed October 25, 2026. [https://avalon.law.yale.edu/15th\_century/mod001.asp][ref_treaty_of_tordesillas_1494]
+- "United States Census Bureau Historical Statistics on Religion." n.d. Accessed October 25, 2026. [https://www.census.gov/library/publications/1976/compendia/hist\_stats\_colonial-1970.html][ref_us_census_historical_religion]
+- United States Congress. 1988. "Concurrent Resolution 331." [https://www.congress.gov/bill/100th-congress/senate-concurrent-resolution/76][research_congress_1988]
+- "Vatican Apostolic Archive." n.d. Accessed October 25, 2026. [https://www.vatican.va/][ref_vatican_apostolic_archive]
+- Vecoli, Rudolph J. 1964. "Contadini in Chicago: A Critique of the Uprooted." *Journal of American History* 51 (3): 404. [https://doi.org/10.2307/1894893][research_vecoli_1964]
+- "Virginia Charter." 1606. [https://avalon.law.yale.edu/17th\_century/va01.asp][ref_first_charter_of_virginia_1606]
 
-- [Becker and Woessmann 2009 Was Weber Wrong?][research_becker_woessmann_2009]
-- [Bellah 1967 Civil Religion in America][research_bellah_1967]
-- [Denevan 1992 The Pristine Myth][research_denevan_1992]
-- [Dobyns 1966 Estimating Aboriginal American Population][research_dobyns_1966]
-- [Kuitems et al 2021 Evidence for European Presence in Americas 1021][research_kuitems_et_al_2021]
-- [Levy 1996 Iroquois Constitutional Influence][research_levy_1996]
-- [MacDonald and MacDonald 1964 Chain Migration Ethnic Neighborhood Formation][research_macdonald_macdonald_1964]
-- [Payne 1996 Iroquois Influence Thesis Critique][research_payne_1996]
-- [Reed 1969 Caucasian Genes in American Negroes][research_reed_1969]
-- [Thornton 1984 African Catholic Church in the Kingdom of Kongo][research_thornton_1984]
-- [Tooker 1978 The League of the Iroquois][research_tooker_1978]
-- [Tooker 1988 The United States Constitution and the Iroquois League][research_tooker_1988]
-- [Turner 1893 The Significance of the Frontier in American History][research_turner_1893]
-- [United States Congress 1988 Concurrent Resolution 331][research_congress_1988]
-- [Vecoli 1964 Contadini in Chicago][research_vecoli_1964]
-- [Wallace 2003 L'Anse aux Meadows Archaeology][research_wallace_2003]
+### Secondary Sources
+
+- Ahlstrom, Sydney E. 1972. *A Religious History of the American People*. Yale University Press. [https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/][book_ahlstrom_1972]
+- Alford, Terry. 1977. *Prince among Slaves*. Harcourt Brace Jovanovich. [https://global.oup.com/academic/product/prince-among-slaves-9780195320442][book_alford_1977]
+- Alryyes. 2011. *A Muslim American Slave: The Life of Omar Ibn Said*. University of Wisconsin Press. [https://uwapress.uw.edu/book/9780299249540/a-muslim-american-slave/][book_alryyes_2011]
+- Althusius. 1603. *Politica*. [https://oll.libertyfund.org/titles/althusius-politica][book_althusius_1603]
+- Austin, Allan D. 1984. *African Muslims in Antebellum America: Transatlantic Stories and Spiritual Struggles*. Routledge. [https://www.routledge.com/African-Muslims-in-Antebellum-America-A-Sourcebook/Austin/p/book/9780415912709][book_austin_1984]
+- Axtell, James. 1985. *The Invasion Within: The Contest of Cultures in Colonial North America*. Oxford University Press. [https://global.oup.com/academic/product/the-invasion-within-9780195035964][book_axtell_1985]
+- Bailyn, Bernard. 1955. *The New England Merchants in the Seventeenth Century*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674609402][book_bailyn_1955]
+- Bailyn, Bernard. 1967. *The Ideological Origins of the American Revolution*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674443020][book_bailyn_1967]
+- Bancroft, George. 1834. *History of the United States: From the Discovery of the American Continent ..*. Little, Brown and Company. [https://www.gutenberg.org/ebooks/57575][book_bancroft_1834]
+- Barbour, Hugh, and Frost. 1988. *The Quakers*. Greenwood Press. [https://friendsunitedpress.com/product/the-quakers/][book_barbour_frost_1988]
+- Bauman, Richard. 1971. *For the Reputation of Truth: Politics, Religion, and Conflict among the Pennsylvania Quakers, 1750-1800*. Johns Hopkins Press. [https://www.jhupbooks.press.jhu.edu/title/reputation-truth][book_bauman_1971]
+- Beard, Charles Austin. 1913. *An Economic Interpretation of the Constitution of the United States*. Macmillan Co. [https://oll.libertyfund.org/titles/beard-an-economic-interpretation-of-the-constitution-of-the-united-states][book_beard_1913]
+- Bellah. 1967. *Civil Religion in America on JSTOR*. [https://www.jstor.org/stable/20027022][research_bellah_1967]
+- Bellah, Robert Neelly, Robert N. Bellah, Richard Madsen, William M. Sullivan, Ann Swidler, and Steven M. Tipton. 1985. *Habits of the Heart: Individualism and Commitment in American Life*. University of California Press. [https://www.ucpress.edu/book/9780520254190/habits-of-the-heart][book_bellah_et_al_1985]
+- Bercovitch, Sacvan. 1975. *The Puritan Origins of the American Self*. Yale University Press. [https://www.wisc.edu/press/books/9780299067649][book_bercovitch_1975]
+- Bercovitch, Sacvan. 1978. *The American Jeremiad*. University of Wisconsin Press. [https://www.wisc.edu/press/books/9780299074449][book_bercovitch_1978]
+- Berkhofer, Robert F. 1978. *The White Man's Indian: Images of the American Indian from Columbus to the Present*. Knopf. [https://www.penguinrandomhouse.com/books/26906/the-white-mans-indian-by-robert-f-berkhofer-jr/][book_berkhofer_1978]
+- Berlin, Ira. 1998. *Many Thousands Gone: The First Two Centuries of Slavery in North America*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674002111][book_berlin_1998]
+- Berlin, Ira. 2003. *Generations of Captivity: A History of African-American Slaves*. Belknap Press of Harvard U.P. [https://www.hup.harvard.edu/books/9780674016248][book_berlin_2003]
+- Berry, Daina Ramey, and Leslie M. Harris. 2018. *Sexuality and Slavery: Reclaiming Intimate Histories in the Americas*. University of Georgia Press. [https://www.uga.edu/press/books/berry-harris-sexuality-slavery][book_berry_harris_2018]
+- Blackhawk, Ned. 2023. *Rediscovery of America: Native Peoples and the Unmaking of U. S. History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300244052/the-rediscovery-of-america/][book_blackhawk_2023]
+- Blassingame, John W. 1972. *The Slave Community: Plantation Life in the Antebellum South*. OxfordUniversity Press. [https://global.oup.com/academic/product/the-slave-community-9780195025637][book_blassingame_1972]
+- Boas, Franz. 1897. *The Social Organization and the Secret Societies of the Kwakiutl Indians*. Govt. print. off. [https://www.jstor.org/stable/25058080][book_boas_1897]
+- Bodnar, John E. 1985. *The Transplanted: A History of Immigrants in Urban America*. Indiana University Press. [https://iupress.org/9780253203960/the-transplanted/][book_bodnar_1985]
+- Boorstin, Daniel J. 1958. *The Americans: The Colonial Experience. --*. Random House. [https://www.penguinrandomhouse.com/books/163540/the-americans-the-colonial-experience-by-daniel-j-boorstin/][book_boorstin_1958]
+- Botticini, Maristella, and Eckstein. 2012. *The Chosen Few: How Education Shaped Jewish History, 70-1492*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691163512/the-chosen-few][book_botticini_eckstein_2012]
+- Brecht. 1993. *Geschichte des Pietismus*. [https://www.vandenhoeck-ruprecht-verlage.com/themen-entdecken/theologie-und-religion/kirchen-und-theologiegeschichte/17095/geschichte-des-pietismus][book_brecht_1993]
+- Bremer, Francis J. 2009. *Puritanism: A Very Short Introduction*. Oxford University Press. [https://global.oup.com/academic/product/puritanism-9780195334555][book_bremer_2009]
+- Buchanan, George. 1579. *De Iure Regni Apud Scotos: Dialogus*. Apud Iohannem Rosseum, pro Henrico Charteris. [https://oll.libertyfund.org/titles/buchanan-de-iure-regni-apud-scotos][book_buchanan_1579]
+- Bushman, Richard L. 1967. *From Puritan to Yankee: Character and the Social Order in Connecticut, 1690-1765*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674324114][book_bushman_1967]
+- Butler, Jon. 1983. *The Huguenots in America: A Refugee People in New World Society*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674413245][book_butler_1983]
+- Butler, Jon. 1990. *Awash in a Sea of Faith: Christianizing the American People*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674056015][book_butler_1990]
+- Butterfield, Sir Herbert. 1931. *The Whig Interpretation of History: By H. Butterfield*. G. Bell and sons. [https://wwnorton.com/books/9780393003185][book_butterfield_1931]
+- Calloway, Colin G. 1997. *New Worlds for All: Indians, Europeans, and the Remaking of Early America*. Johns Hopkins University Press. [https://uncpress.org/book/9780807846698/new-worlds-for-all/][book_calloway_1997]
+- Cameron, Euan. 2012. *The European Reformation*. Oxford University Press. [https://global.oup.com/academic/product/the-european-reformation-9780199547852][book_cameron_2012]
+- Canny, Nicholas P. 2001. *Making Ireland British, 1580-1650*. Oxford University Press. [https://global.oup.com/academic/product/making-ireland-british-1580-1650-9780199259052][book_canny_2001]
+- Carney, Judith Ann. 2001. *Black Rice: The African Origins of Rice Cultivation in the Americas*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674004528][book_carney_2001]
+- Carney, Judith, and Richard Nicholas Rosomoff. 2009. *In the Shadow of Slavery: Africa's Botanical Legacy in the Atlantic World*. University of California Press. [https://www.ucpress.edu/book/9780520269965/in-the-shadow-of-slavery][book_carney_rosomoff_2009]
+- Chadwick, Owen. 1964. *The Reformation*. Penguin Books. [https://www.penguinrandomhouse.com/books/28632/the-reformation-by-owen-chadwick/][book_chadwick_1964]
+- Chireau, Yvonne P. 2003. *Black Magic: Religion and the African American Conjuring Tradition*. University of California Press. [https://www.ucpress.edu/book/9780520249882/black-magic][book_chireau_2003]
+- Codere, Helen. 1950. *Fighting with Property: A Study of Kwakiutl Potlatching and Warfare 1792-1930*. J. J. Augustin. [https://www.jstor.org/stable/j.ctt1w8h1kq][book_codere_1950]
+- Collinson, Patrick. 1967. *The Elizabethan Puritan Movement*. Cape. [https://global.oup.com/academic/product/the-elizabethan-puritan-movement-9780198228127][book_collinson_1967]
+- Cronon, William. 1983. *Changes in the Land: Indians, Colonists, and the Ecology of New England*. Hill and Wang. [https://us.macmillan.com/books/9780809016341/changesintheland][book_cronon_1983]
+- Crosby, Alfred W. 1972. *The Columbian Exchange: Biological and Cultural Consequences of 1492*. Greenwood Pub. Co. [https://www.abc-clio.com/products/a4020c/][book_crosby_1972]
+- Crosby, Alfred W. 1986. *Ecological Imperialism: The Biological Expansion of Europe, 900-1900*. Cambridge University Press. [https://www.cambridge.org/9781107569874][book_crosby_1986]
+- Cugoano, Thoughts, Sentiments, et al. 1787. *The Trader's Wife by Louis Becke*. [https://www.gutenberg.org/ebooks/24837][ref_cugoano_thoughts_and_sentiments_1787]
+- Curtin, Philip D. 1967. *Africa Remembered: Narratives by West Africans from the Era of the Slave Trade*. Wisconsin University Press. [https://uwpress.wisc.edu/books/0289.htm][book_curtin_1967]
+- Curtin, Philip D. 1969. *The Atlantic Slave Trade: Acensus*. University of Wisconsin Press. [https://uwpress.wisc.edu/books/0086.htm][book_curtin_1969]
+- Deloria, Vine. 1969. *Custer Died for Your Sins: An Indian Manifesto*. Avon. [https://www.oupress.com/9780806131795/custer-died-for-your-sins/][book_deloria_1969]
+- Deloria, Vine. 1973. *God Is Red*. Grosset & Dunlap. [https://fulcrum.org/concern/monographs/god-is-red][book_deloria_1973]
+- Deloria, Vine, and Lytle. 1984. *The Nations Within: The past and Future of American Indian Sovereignty*. Pantheon Books. [https://www.utexas.edu/utpress/books/deloria-nations-within][book_deloria_lytle_1984]
+- Diefendorf, Barbara B. 1991. *Beneath the Cross: Catholics and Huguenots in Sixteenth-Century Paris*. Oxford University Press. [https://global.oup.com/academic/product/beneath-the-cross-9780195070132][book_diefendorf_1991]
+- Diouf, Sylviane A. 1998. *Servants of Allah: African Muslims Enslaved in the Americas*. New York University Press. [https://nyupress.org/9780814719053/servants-of-allah/][book_diouf_1998]
+- Du Bois, W. E. B. 1903. *The Negro Church: Report of a Social Study Made under the Direction of Atlanta University; Together with the Proceedings of the Eighth Conference for the Study of Negro Problems, Held at Atlanta University, May 26th, 1903*. The Atlanta University Press. [https://openlibrary.org/works/OL28589W][book_dubois_1903]
+- Du Bois, W. E. B., and W. E. Burghardt DuBois. 1935. *Black Reconstruction in America, 1860-1880*. rusell & rusell. [https://www.simonandschuster.com/books/Black-Reconstruction-in-America-1860-1880/W-E-B-Du-Bois/9780684856575][book_dubois_1935]
+- Duffy, Eamon. 1992. *The Stripping of the Altars: Traditional Religion in England, c.1400-c.1580*. Yale University Press. [https://yalebooks.yale.edu/book/9780300108286/the-stripping-of-the-altars/][book_duffy_1992]
+- DuVal, Kathleen. 2006. *The Native Ground: Indians and Colonists in the Heart of the Continent / Kathleen DuVal*. University of Pennsylvania Press. [https://www.pennpress.org/9780812219418/the-native-ground/][book_duval_2006]
+- DuVal, Kathleen. 2015. *Independence Lost: Lives on the Edge of the American Revolution*. Random House Publishing Group. [https://www.penguinrandomhouse.com/books/216728/independence-lost-by-kathleen-duval/][book_duval_2015]
+- Eltis and Richardson. 2010. *Atlas of the Transatlantic Slave Trade*. [https://yalebooks.yale.edu/book/9780300218404/atlas-of-the-transatlantic-slave-trade/][book_eltis_richardson_2010]
+- Fandrich, Ina Johanna. 2005. *The Mysterious Voodoo Queen, Marie Laveaux: A Study of Powerful Female Leadership in Nineteenth Century New Orleans (Studies in African American History and Culture)*. Routledge. [https://www.routledge.com/The-Mysterious-Voodoo-Queen-Marie-Laveaux-A-Study-of-Powerful-Female-Leadership/Fandrich/p/book/9780415972505][book_fandrich_2005]
+- Fenton, William Nelson. 1998. *The Great Law and the Longhouse: A Political History of the Iroquois Confederacy*. University of Oklahoma Press. [https://www.oupress.com/9780806130033/the-great-law-and-the-longhouse/][book_fenton_1998]
+- Fischer, David Hackett. 1989. *Albion's Seed: Four British Folkways in America*. Oxford University Press. [https://global.oup.com/academic/product/albions-seed-9780195069051][book_fischer_1989]
+- Foster, Stephen. 1971. *Their Solitary Way: The Puritan Social Ethic in the First Century of Settlement in New England*. Yale University Press. [https://yalebooks.yale.edu/book/9780300012903/their-solitary-way/][book_foster_1971]
+- Frazier, E. Franklin. 1957. *The Negro Family in the United States*. The Dryden Press. [https://openlibrary.org/works/OL269778W][book_frazier_1957]
+- Frazier, E. Franklin. 1963. *The Negro Church in America / E. Franklin Frazier*. Schocken Books. [https://www.penguinrandomhouse.com/books/45094/the-negro-church-in-america-by-e-franklin-frazier/][book_frazier_1963]
+- Genovese, Eugene D. 1974. *Roll, Jordan, Roll: The World the Slaves Made*. Pantheon Books. [https://www.penguinrandomhouse.com/books/38617/roll-jordan-roll-by-eugene-d-genovese/][book_genovese_1974]
+- Glazer, Nathan, and Moynihan. 1963. *Beyond the Melting Pot: The Negroes, Puerto Ricans, Jews, Italians, and Irish of New York City*. M.I.T. Press. [https://mitpress.mit.edu/9780262570220/beyond-the-melting-pot/][book_glazer_moynihan_1963]
+- Gomez, Michael Angelo. 1998. *Exchanging Our Country Marks: The Transformation of African Identities in the Colonial and Antebellum South*. University of North Carolina Press. [https://uncpress.org/book/9780807847947/exchanging-our-country-marks/][book_gomez_1998]
+- Gomez, Michael Angelo. 2005. *Black Crescent: The Experience and Legacy of African Muslims in the Americas*. Cambridge University Press. [https://www.cambridge.org/9780521844024][book_gomez_2005]
+- Gordon, Milton M. 1964. *Assimilation in American Life: The Role of Race, Religion, and National Origins*. Oxford University Press. [https://global.oup.com/academic/product/assimilation-in-american-life-9780195008968][book_gordon_1964]
+- Grant, Douglas. 1968. *The Fortunate Slave: An Illustration of African Slavery in the Early Eighteenth Century*. Oxford University Press. [https://openlibrary.org/works/OL6664831W][book_grant_1968]
+- Griffin, Patrick. 2001. *The People with No Name: Ireland's Ulster Scots, America's Scots Irish, and the Creation of a British Atlantic World, 1689-1764*. Princeton University Press. [https://global.oup.com/academic/product/the-people-with-no-name-9780691074627][book_griffin_2001]
+- Grinde, Donald A., and Johansen. 1991. *Exemplar of Liberty: Native America and the Evolution of Democracy*. American Indian Studies Center, University of California, Los Angeles. [https://uapress.arizona.edu/book/exemplar-of-liberty][book_grinde_johansen_1991]
+- Gutiérrez, Ramón A. 1991. *When Jesus Came, the Corn Mothers Went Away: Marriage, Sexuality, and Power in New Mexico, 1500-1846*. Stanford University Press. [https://www.sup.org/books/title/?id=1913][book_gutierrez_1991]
+- Hall, David D. 1989. *Worlds of Wonder, Days of Judgment: Popular Religious Belief in Early New England*. Knopf. [https://www.hup.harvard.edu/books/9780674961838][book_hall_1989]
+- Hamalainen, Pekka. 2019. *Lakota America: A New History of Indigenous Power*. Yale University Press. [https://yalebooks.yale.edu/book/9780300215953/lakota-america/][book_hamalainen_2019]
+- Hamalainen, Pekka, Pekka Hämäläinen, Pekka Hamalainen, and Pekka Hämäläinen. 2008. *The Comanche Empire*. Yale University Press. [https://yalebooks.yale.edu/book/9780300151176/the-comanche-empire/][book_hamalainen_2008]
+- Handlin, Oscar. 1951. *The Uprooted*. little, brown and company. [https://www.pennpress.org/9780812218602/the-uprooted/][book_handlin_1951]
+- Harding, Vincent. 1981. *There Is a River V148: The Black Struggle for Freedom in America*. Harcourt Brace Jovanovich. [https://www.harcourtbooks.com/harding-there-is-a-river][book_harding_1981]
+- Hartz, Louis. 1955. *The Liberal Tradition in America*. Harcourt, Brace & world inc. [https://www.harvestbooks.com/hartz-liberal-tradition][book_hartz_1955]
+- Hatch, Nathan O. 1989. *The Democratization of American Christianity*. Yale University Press. [https://yalebooks.yale.edu/book/9780300050608/the-democratization-of-american-christianity/][book_hatch_1989]
+- Hazzard-Donald, Katrina. 2013. *Mojo Workin': The Old African American Hoodoo System*. University of Illinois Press. [https://www.press.uillinois.edu/books/?id=p079253][book_hazzard_donald_2013]
+- Herskovits. 1941. *The Myth of the Negro Past*. [https://www.beacon.org/The-Myth-of-the-Negro-Past-P290.aspx][book_herskovits_1941]
+- Heywood, Linda Marinda, and John K. Thornton. 2007. *Central Africans, Atlantic Creoles, and the Making of the Anglo-Dutch Americas, 1585-1660*. Cambridge University Press. [https://www.cambridge.org/9780521777650][book_heywood_thornton_2007]
+- Higham, John, John Higham, John Higham, and JOhn Higham. 1955. *Strangers in the Land: Patterns of American Nativism, 1860-1925*. Rutgers University Press. [https://www.rutgersuniversitypress.org/strangers-in-the-land/9780813513966][book_higham_1955]
+- Hill, Christopher. 1958. *Puritanism and Revolution: Studies in Interpretation of the English Revolution in the 17th Century*. Secker and Warburg. [https://www.penguinrandomhouse.com/books/28720/puritanism-and-revolution-by-christopher-hill/][book_hill_1958]
+- Hill, Christopher. 1972. *The World Turned Upside Down: Radical Ideas during the English Revolution*. Temple Smith. [https://www.penguinrandomhouse.com/books/28723/the-world-turned-upside-down-by-christopher-hill/][book_hill_1972]
+- Hollinger, David A. 1995. *Postethnic America: Beyond Multiculturalism*. BasicBooks. [https://www.basicbooks.com/titles/david-a-hollinger/postethnic-america/9780465030552/][book_hollinger_1995]
+- Holt, Mack P. 2005. *French Wars of Religion, 1562-1629*. CAMBRIDGE UNIV PRESS. [https://www.cambridge.org/9780521547505][book_holt_2005]
+- Hultkrantz, Åke. 1979. *The Religions of the American Indians*. University of California Press. [https://press.uchicago.edu/ucp/books/book/chicago/R/bo3702708.html][book_hultkrantz_1979]
+- Hurston, Zora Neale. 1935. *Mules and Men (P.S.)*. J.B. Lippincott Co. [https://www.harpercollins.com/products/mules-and-men-zora-neale-hurston][book_hurston_1935]
+- *The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa,…*. 1789. [https://www.gutenberg.org/ebooks/15399][ref_equiano_narrative_1789]
+- Israel, Jonathan Irvine. 1985. *European Jewry in the Age of Mercantilism, 1550-1750*. Clarendon Press. [https://global.oup.com/academic/product/european-jewry-in-the-age-of-mercantilism-9780198206811][book_israel_1985]
+- Israel, Jonathan Irvine, Jonathan I. Israel, and Jonathan Israel. 1995. *The Dutch Republic: Its Rise, Greatness and Fall, 1477-1806*. Clarendon Press. [https://global.oup.com/academic/product/the-dutch-republic-9780198207344][book_israel_1995]
+- Jennings, Francis. 1975. *The Invasion of America: Indians, Colonialism, and the Cant of Conquest*. University of North Carolina Press. [https://uncpress.org/book/9780807841143/the-invasion-of-america/][book_jennings_1975]
+- Kingdon, Robert M. 1956. *Geneva and the Coming of the Wars of Religion in France, 1555-1563*. Librairie E. Droz. [https://openlibrary.org/works/OL3474677W][book_kingdon_1956]
+- Kingdon, Robert M. 1988. *Myths about the St. Bartholomew's Day Massacres, 1572-1576*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674598317][book_kingdon_1988]
+- Klein, Herbert S. 1999. *The Atlantic Slave Trade*. Cambridge University Press. [https://www.cambridge.org/9780521469883][book_klein_1999]
+- La Barre, Weston. 1938. *The Peyote Cult*. Yale University Press. [https://www.oupress.com/9780806121369/the-peyote-cult/][book_labarre_1938]
+- Lapidus, Ira M. 2014. *A History of Islamic Societies*. Cambridge University Press. [https://www.cambridge.org/9780521514309][book_lapidus_2014]
+- Levtzion, Nehemia. 1994. *Islam in West Africa: Religion, Society, and Politics to 1800*. Variorum. [https://www.routledge.com/Islam-in-West-Africa/Levtzion/p/book/9780860785323][book_levtzion_1994]
+- Lincoln, C. Eric, and Mamiya. 1990. *The Black Church in the African-American Experience*. Duke University Press. [https://www.dukeupress.edu/the-black-church-in-the-african-american-experience][book_lincoln_mamiya_1990]
+- Lockridge, Kenneth A. 1974. *Literacy in Colonial New England: An Enquiry into the Social Contextof Literacy in the Early Modern West*. Norton. [https://www.wwnorton.com/books/9780393094404][book_lockridge_1974]
+- Long, Carolyn Morrow. 2001. *Spiritual Merchants: Religion, Magic, and Commerce*. University of Tennessee Press. [https://uofupress.lib.utah.edu/spiritual-merchants/][book_long_2001]
+- MacCulloch, Diarmaid. 1996. *Thomas Cranmer: A Life*. Yale University Press. [https://yalebooks.yale.edu/book/9780300074482/thomas-cranmer/][book_macculloch_1996]
+- MacCulloch, Diarmaid. 2003. *The Reformation: Europe's House Divided 1490: 1700*. Viking. [https://www.penguinrandomhouse.com/books/291533/the-reformation-by-diarmaid-macculloch/][book_macculloch_2003]
+- Mann, Charles C. 2005. *1491: New Revelations of the Americas before Columbus*. Knopf. [https://www.penguinrandomhouse.com/books/9780/1491-second-edition-by-charles-c-mann/][book_mann_2005]
+- Marcus, Jacob Rader. 1970. *The Colonial American Jew, 1492-1776*. Wayne State University Press. [https://www.wayneupress.wayne.edu/book/9780814315200/the-colonial-american-jew][book_marcus_1970]
+- Martin, Joel W. 2001. *The Land Looks after Us: A History of Native American Religion*. Oxford University Press, USA. [https://www.hmhbooks.com/shop/books/The-Land-Looks-After-Us/9780195145861][book_martin_2001]
+- Matory, James Lorand. 2005. *Black Atlantic Religion: Tradition, Transnationalism, and Matriarchy in the Afro-Brazilian Candomblʹe*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691140186/black-atlantic-religion][book_matory_2005]
+- Mead, Sidney Earl. 1963. *The Lively Experiment: The Shaping of Christianity in America*. Harper & Row. [https://www.harpercollins.com/products/the-lively-experiment-sidney-e-mead][book_mead_1963]
+- Meltzer, David J. 2009. *First Peoples in a New World: Colonizing Ice Age America*. University of California Press. [https://www.ucpress.edu/book/9780520267992/first-peoples-in-a-new-world][book_meltzer_2009]
+- Merrell, James Hart. 1989. *The Indians' New World: Catawbas and Their Neighbors from European Contact through the Era of Removal*. University of North Carolina Press. [https://uncpress.org/book/9780807842126/the-indians-new-world/][book_merrell_1989]
+- Merritt, Jane T. 2003. *At the Crossroads: Indians and Empires on a Mid-Atlantic Frontier, 1700-1763*. University of North Carolina Press. [https://uncpress.org/book/9780807854853/at-the-crossroads/][book_merritt_2003]
+- Milanich, Jerald T. 1999. *Laboring in the Fields of the Lord: Spanish Missions and Southeastern Indians*. Smithsonian Institution Press. [https://upress.ufl.edu/9780813018188][book_milanich_1999]
+- Miller, Perry. 1953. *The New England Mind: From Colony to Province*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674584044][book_miller_1953]
+- Miller. 1956. *Errand into the Wilderness*. [https://www.hup.harvard.edu/books/9780674267343][book_miller_1956]
+- Mintz and Price. 1976. *The Birth of African-American Culture*. [https://www.beacon.org/The-Birth-of-African-American-Culture-P360.aspx][book_mintz_price_1976]
+- Mithun, Marianne. 1999. *The Languages of Native North America (Cambridge Language Surveys)*. Cambridge University Press. [https://www.cambridge.org/9780521298759][book_mithun_1999]
+- Morgan, Edmund Sears. 1958. *The Puritan Dilemma: The Story of John Winthrop*. Little, Brown. [https://www.pearson.com/store/p/the-puritan-dilemma/P100000178762][book_morgan_1958]
+- Muller, Richard A. 2003. *Post-Reformation Reformed Dogmatics: The Rise and Development of Reformed Orthodoxy, Ca. 1520 to Ca. 1725*. Baker Academics. [https://bakerpublishinggroup.com/books/post-reformation-reformed-dogmatics/354290][book_muller_2003]
+- Nash, Gary B. 1968. *Quakers and Politics: Pennsylvania, 1681-1726*. Princeton University Press. [https://www.hup.harvard.edu/books/9780674701250][book_nash_1968]
+- Netanyahu, B. 1995. *The Origins of the Inquisition in Fifteenth Century Spain*. Random House. [https://www.penguinrandomhouse.com/books/187025/the-origins-of-the-inquisition-in-fifteenth-century-spain-by-benzion-netanyahu/][book_netanyahu_1995]
+- Nettle, Daniel, and Romaine. 2000. *Vanishing Voices: The Extinction of the World's Languages*. Oxford University Press. [https://global.oup.com/academic/product/vanishing-voices-9780195152463][book_nettle_romaine_2000]
+- Noll, Mark A. 2002. *America's God: From Jonathan Edwards to Abraham Lincoln*. Oxford University Press, USA. [https://global.oup.com/academic/product/americas-god-9780195151114][book_noll_2002]
+- Oleksa, Michael, and Michael J. Oleksa. 1992. *Orthodox Alaska: A Theology of Mission*. St. Vladimir's Seminary Press. [https://www.svspress.com/orthodox-alaska/][book_oleksa_1992]
+- Ortiz. 1940. *Duke University Press: Cuban Counterpoint*. [https://www.dukeupress.edu/cuban-counterpoint][book_ortiz_1940]
+- Ozment, Steven. 1980. *The Age of Reform: An Intellectual and Religious History of Late Medieval and Reformation Europe*. Yale University Press. [https://yalebooks.yale.edu/book/9780300027600/the-age-of-reform-1250-1550/][book_ozment_1980]
+- Palmié, Stephan, and Stephan Palmié. 2002. *Wizards and Scientists: Explorations in Afro-Cuban Modernity and Tradition*. Duke University Press. [https://www.dukeupress.edu/wizards-and-scientists][book_palmie_2002]
+- Pauketat, Timothy R. 2004. *Ancient Cahokia and the Mississippians (Case Studies in Early Societies)*. Cambridge University Press. [https://www.cambridge.org/9780521520669][book_pauketat_2004]
+- Pettegree, Andrew. 2005. *Reformation and the Culture of Persuasion*. CAMBRIDGE UNIV PRESS. [https://global.oup.com/academic/product/reformation-and-the-culture-of-persuasion-9780521605649][book_pettegree_2005]
+- Puckett, Newbell Niles. 1926. *Folk Beliefs of the Southern Negro*. The University of North Carolina Press. [https://uncpress.org/book/9780807806586/folk-beliefs-of-the-southern-negro/][book_puckett_1926]
+- Raboteau, Albert J. 1978. *Slave Religion: The "Invisible Institution" in the Antebellum South*. Oxford University Press. [https://global.oup.com/academic/product/slave-religion-9780195174137][book_raboteau_1978]
+- Reich, David. 2018. *Who We Are and How We Got Here: Ancient DNA and the New Science of the Human Past*. Vintage. [https://global.oup.com/academic/product/who-we-are-and-how-we-got-here-9780198821267][book_reich_2018]
+- Richter, Daniel K. 1992. *The Ordeal of the Longhouse: The Peoples of the Iroquois League in the Era of European Colonization*. University of North Carolina Press. [https://uncpress.org/book/9780807820605/the-ordeal-of-the-longhouse/][book_richter_1992]
+- Richter, Daniel K. 2001. *Facing East from Indian Country: A Native History of Early America*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674011175][book_richter_2001]
+- Rutherford, Samuel. 1644. *Lex, Rex: The Law and the Prince: A Dispute for the Just Prerogative of King and People: Containing the Reasons and Causes of the Most Necessary Defensive Wars of the Kingdom of Scotland and of Their Expedition for the Ayd and Help of Their Dear Brethren of England: In Which Their Innocency Is Asserted and a Full Answer Is Given to a Seditious Pamphlet Intituled Sacro-Sancta Regum Majestas, or, the Sacred and Royall Prerogative of Christian Kings, under the Name of J. a. but Penned by Jo. Maxwell the Excommunicate P. Prelat.: With a Scripturall Confutation of the Ruinous Grounds of W. Barclay, H. Grotius, H. Arnisœus, Ant. De Domi P. Bishop of Spalata, and of Other Late Anti-Magistratical Royalists, as the Author of Ossorianum, D. Fern, E. Symmons, the Doctors of Aberdeen, &c.: In XLIV Questions*. Printed for Iohn Field ... [https://oll.libertyfund.org/titles/rutherford-lex-rex-or-the-law-and-the-prince][book_rutherford_1644]
+- Salisbury. 1982. *Manitou and Providence*. [https://global.oup.com/academic/product/manitou-and-providence-9780195031126][book_salisbury_1982]
+- Samuelsson, Kurt. 1961. *Religion and Economic Action*. Basic Books. [https://openlibrary.org/works/OL18526523W][book_samuelsson_1961]
+- Sarna, Jonathan D. 2004. *American Judaism: A History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300109764/american-judaism/][book_sarna_2004]
+- Saunt, Claudio. 2014. *West of the Revolution: An Uncommon History of 1776*. Norton & Company, Incorporated, W. W. [https://wwnorton.com/books/West-of-the-Revolution][book_saunt_2014]
+- Saunt, Claudio. 2020. *Unworthy Republic: The Dispossession of Native Americans and the Road to Indian Territory*. W. W. Norton Company. [https://wwnorton.com/books/9780393609844][book_saunt_2020]
+- Skowronek, Stephen. 1982. *Building a New American State: The Expansion of National Administrative Capacities, 1877-1920*. Cambridge University Press. [https://www.cambridge.org/9780521288651][book_skowronek_1982]
+- Smith, Timothy Lawrence. 1957. *Revivalism and Social Reform in Mid-Nineteenth-Century America*. Abingdon Press. [https://openlibrary.org/works/OL6323058W][book_smith_1957]
+- Smith, Rogers M. 1997. *Civic Ideals: Conflicting Visions of Citizenship in U.S. History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300078770/civic-ideals/][book_smith_1997]
+- Snow, Dean R. 1994. *The Iroquois*. Blackwell. [https://www.wiley.com/en-us/The+Iroquois-p-9781557863379][book_snow_1994]
+- Snyder, C. Arnold. 1995. *Anabaptist History and Theology*. Pandora Press. [https://www.paxbooks.com/anabaptist-history-and-theology][book_snyder_1995]
+- Sobel, Mechal. 1988. *Trabelin' On: The Slave Journey to an Afro-Baptist Faith*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691006376/trabelin-on][book_sobel_1988]
+- Sollors, Werner. 1986. *Beyond Ethnicity: Consent and Descent in American Culture*. Oxford University Press. [https://global.oup.com/academic/product/beyond-ethnicity-9780195051773][book_sollors_1986]
+- Sombart, Werner. 1913. *The Jews and Modern Capitalism*. T.F. Unwin. [https://openlibrary.org/works/OL17100401W][book_sombart_1913]
+- Southern, Eileen. 1997. *The Music of Black Americans: A History*. Norton. [https://wwnorton.com/books/9780393971415][book_southern_1997]
+- Stewart. 1970. *A Concise Dictionary of American Place-Names*. [https://global.oup.com/academic/product/american-place-names-9780195031966][book_stewart_1970]
+- Stewart, Omer C. 1987. *Peyote Religion: A History (Civilization of the American Indian Series)*. University of Oklahoma Press. [https://www.oupress.com/9780806124575/peyote-religion/][book_stewart_1987]
+- Stoeffler, F. Ernest. 1965. *The Rise of Evangelical Pietism*. E. J. Brill. [https://brill.com/display/title/6773][book_stoeffler_1965]
+- Stuckey, Sterling. 1987. *Slave Culture: Nationalist Theory and the Foundations of Black America*. Oxford University Press. [https://global.oup.com/academic/product/slave-culture-9780195372502][book_stuckey_1987]
+- Sturtevant. 1978. *Handbook of North American Indians: California*. Smithsonian Institution. [https://www.si.edu/publications/HNAI][book_sturtevant_1978]
+- Sweet, James H. 2003. *Recreating Africa: Culture, Kinship, and Religion in the African-Portuguese World, 1441-1770*. University of North Carolina Press. [https://uncpress.org/book/9780807854822/recreating-africa/][book_sweet_2003]
+- Tawney, Richard H. 1926. *Religion and the Rise of Capitalism: A Historical Study ..*. Harcourt, Brace and company. [https://www.penguinrandomhouse.com/books/301907/religion-and-the-rise-of-capitalism-by-r-h-tawney/][book_tawney_1926]
+- Taylor, Alan. 2001. *American Colonies*. Viking. [https://www.penguinrandomhouse.com/books/294160/american-colonies-by-alan-taylor/][book_taylor_2001]
+- Thornton, Russell. 1987. *American Indian Holocaust and Survival: A Population History since 1492*. University of Oklahoma Press. [https://www.oupress.com/9780806121758/american-indian-holocaust-and-survival/][book_thornton_1987]
+- Thornton, John K. 1992. *Africa and Africans in the Making of the Atlantic World, 1400-1680*. Camb. U. P. [https://www.cambridge.org/9780521398640][book_thornton_1992]
+- Tinker, George E. 1993. *Missionary Conquest: The Gospel and Native American Cultural Genocide*. Fortress Press. [https://fortresspress.com/product/missionary-conquest-the-gospel-and-native-american-cultural-genocide][book_tinker_1993]
+- Tocqueville. 1835. *Democracy in America*. [https://oll.libertyfund.org/titles/tocqueville-democracy-in-america-historical-critical-edition-vol-1][book_tocqueville_1835]
+- Trigger, Bruce G. 1976. *The Children of Aataentsic: A History of the Huron People to 1660*. McGill-Queen's University Press. [https://www.mqup.ca/children-of-aataentsic-products-9780773524880.php][book_trigger_1976]
+- Trouillot, Michel-Rolph. 1995. *Silencing the Past: Power and the Production of History*. Beacon Press. [https://www.beacon.org/Silencing-the-Past-20th-anniversary-edition-P1088.aspx][book_trouillot_1995]
+- Turner, Lorenzo Dow. 1949. *Africanisms in the Gullah Dialect*. Univ. of Chicago Press. [https://www.press.uchicago.edu/ucp/books/book/chicago/A/bo3644229.html][book_turner_1949]
+- Vindiciae, Contra, and Tyrannos. 1579. *\[Title not identified\]*. [https://www.cambridge.org/9780521348447][book_vindiciae_1579]
+- Wallace, Paul A. W. 1965. *Indian Paths of Pennsylvania*. Pennsylvania Historical and Museum Commission. [https://www.pahistoricalsociety.org/publications/indian-paths-of-pennsylvania][book_wallace_1965]
+- Warren, Louis S. 2017. *God's Red Son: The Ghost Dance Religion and the Making of Modern America*. Basic Books. [https://www.basicbooks.com/titles/louis-s-warren/gods-red-son/9780465015023/][book_warren_2017]
+- Weatherford, Jack. 1988. *Indian Givers: How the Indians of the Americas Transformed the World*. FawcettColumbine. [https://www.penguinrandomhouse.com/books/166093/indian-givers-by-jack-weatherford/][book_weatherford_1988]
+- Weber. 1905. *The Protestant Ethic and the Spirit of Capitalism*. [https://oll.libertyfund.org/titles/weber-the-protestant-ethic-and-the-spirit-of-capitalism][book_weber_1905]
+- Weber, David J. 1992. *The Spanish Frontier in North America*. Yale University Press. [https://yalebooks.yale.edu/book/9780300051988/the-spanish-frontier-in-north-america/][book_weber_1992]
+- White, Hayden V. 1973. *Metahistory: The Historical Imagination in Nineteenth-Century Europe*. Johns Hopkins University Press. [https://www.press.jhu.edu/books/title/1946/metahistory][book_white_1973]
+- White, Richard, and Richard White. 1991. *The Middle Ground: Indians, Empires, and Republics in the Great Lakes Region, 1650-1815*. Cambridge University Press. [https://www.cambridge.org/9780521424608][book_white_1991]
+- Wilkins, David E., and Stark. 2018. *American Indian Politics and the American Political System*. Rowman & Littlefield Publishers, Inc. [https://rowman.com/ISBN/9781442252639/American-Indian-Politics-and-the-American-Political-System-Fourth-Edition][book_wilkins_stark_2018]
+- Williams, George Huntston. 1962. *The Radical Reformation*. Westminster. [https://truman.edu/press/books/the-radical-reformation/][book_williams_1962]
+- Wilson, Woodrow. 1902. *A History of the American People*. Harper and Bros. [https://www.gutenberg.org/ebooks/16960][book_wilson_1902]
+- Wilson, Peter H. 2009. *The Thirty Years War: Europe's Tragedy*. Allen Lane. [https://www.hup.harvard.edu/books/9780674062313][book_wilson_2009]
+- Winship, Michael P. 2012. *Godly Republicanism: Puritans, Pilgrims, and a City on a Hill*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674062146][book_winship_2012]
+- Witte, John. 2007. *The Reformation of Rights: Law, Religion, and Human Rights in Early Modern Calvinism*. Cambridge University Press. [https://www.cambridge.org/9780521521611][book_witte_2007]
+- Wood, Gordon S. 1969. *The Creation of the American Republic, 1776-1787*. University of North Carolina Press. [https://uncpress.org/book/9780807847237/the-creation-of-the-american-republic-1776-1787/][book_wood_1969]
+- Wood, Peter H. 1974. *Black Majority: Negroes in Colonial South Carolina from 1670 through the Stono Rebellion*. Knopf; \[distributed by Random House. [https://wwnorton.com/books/Black-Majority][book_wood_1974]
+- Woodson, Carter Godwin. 1921. *The History of the Negro Church*. 12th Media Services. [https://openlibrary.org/works/OL48133W][book_woodson_1921]
+- Yerushalmi, Yosef Hayim. 1971. *From Spanish Court to Italian Ghetto; Isaac Cardoso: A Study in Seventeenth-Century Marranism and Jewish Apologetics*. Columbia University Press. [https://www.wupj.org/publications/from-spanish-court-to-italian-ghetto/][book_yerushalmi_1971]
+- Zinn, Howard. 1980. *A People's History of the United States: 1492-Present*. Harper & Row. [https://www.harpercollins.com/products/a-peoples-history-of-the-united-states-howard-zinn][book_zinn_1980]
+- Zuckerman, Michael. 1970. *Peaceable Kingdoms: New England Towns in the Eighteenth Century*. Knopf. [https://us.macmillan.com/books/9780394748245][book_zuckerman_1970]
+
+### Commercial Sources
+
+- Pew Research. 2013. "A Portrait of Jewish Americans." [https://www.pewresearch.org/religion/2013/10/01/jewish-american-beliefs-attitudes-culture-survey/][ref_pew_jewish_2013]
+- "Religion: Research and Data from Pew Research Center." n.d. Pew Research Center. Accessed October 25, 2026. [https://www.pewresearch.org/religion/][ref_pew_religion_public_life]
+
+### General Sources
+
+- "The Association of Religion Data Archives." n.d. The Association of Religion Data Archives (the ARDA). Accessed October 25, 2026. [https://www.thearda.com/][ref_arda]
+- "Bureau of Indian Affairs." n.d. Accessed October 25, 2026. [https://www.bia.gov/][ref_bureau_of_indian_affairs]
+- California, State of. n.d. "California Native American Heritage Commission." Accessed October 25, 2026. [https://nahc.ca.gov/][ref_native_american_heritage_commission]
+- "Colonial North America at Harvard Library." n.d. Accessed October 25, 2026. [https://colonialnorthamerican.library.harvard.edu/][ref_cnap]
+- "Cortés Letters from Mexico 1519-." 1526. [https://www.gutenberg.org/ebooks/15255][ref_cortes_letters_1519_1526]
+- "Handbook of North American Indians Smithsonian." n.d. Accessed October 25, 2026. [https://naturalhistory.si.edu/research/anthropology/programs/handbook-north-american-indians][ref_handbook_north_american_indians]
+- "Iroquois Great Law of Peace." n.d. Accessed October 25, 2026. [https://www.ushistory.org/gov/13c.asp][ref_iroquois_great_law]
+- "Jesuit Relations and Allied Documents." n.d. Accessed October 25, 2026. [https://puffin.creighton.edu/jesuit/relations/][ref_jesuit_relations]
+- "Las Casas Brief Account of the Destruction of the Indies." 1552. [https://www.gutenberg.org/ebooks/23466][ref_las_casas_brief_account_1552]
+- Levy. 1996. "Iroquois Constitutional Influence." [https://www.jstor.org/stable/1170072][research_levy_1996]
+- "Maine State Archives Wabanaki Treaties." n.d. Accessed October 25, 2026. [https://www.maine.gov/sos/arc/archives/][ref_maine_wabanaki_treaties]
+- "Native American Constitution and Law Digitization Project." n.d. Accessed October 25, 2026. [https://thorpe.law.ou.edu/][ref_nacldp]
+- "Native American Rights Fund." n.d. Accessed October 25, 2026. [https://narf.org/][ref_native_american_rights_fund]
+- "Ninety-Five Theses." 1517. [https://www.luther.de/en/95thesen.html][ref_ninety_five_theses_1517]
+- Tooker. 1978. "The League of the Iroquois." [https://www.jstor.org/stable/j.ctv1qxgnh7][research_tooker_1978]
+- Turner. 1893. "The Significance of the Frontier in American History." [https://www.historians.org/about-aha-and-membership/aha-history-and-archives/historical-archives/the-significance-of-the-frontier-in-american-history][research_turner_1893]
+- "Voyages Slave Trade Database." 2019. [https://www.slavevoyages.org/][ref_voyages_database]
+- Wallace. 2003. "L'Anse aux Meadows Archaeology." [https://www.jstor.org/stable/40025794][research_wallace_2003]
 
 [book_ahlstrom_1972]: https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/
 [book_alford_1977]: https://global.oup.com/academic/product/prince-among-slaves-9780195320442
@@ -643,7 +651,7 @@ These questions recur throughout the series and are revisited in the closing syn
 [book_deloria_lytle_1984]: https://www.utexas.edu/utpress/books/deloria-nations-within
 [book_diefendorf_1991]: https://global.oup.com/academic/product/beneath-the-cross-9780195070132
 [book_diouf_1998]: https://nyupress.org/9780814719053/servants-of-allah/
-[book_dubois_1903]: https://scholar.google.com/scholar?q=du+bois+1903+the+negro+church+atlanta
+[book_dubois_1903]: https://openlibrary.org/works/OL28589W
 [book_dubois_1935]: https://www.simonandschuster.com/books/Black-Reconstruction-in-America-1860-1880/W-E-B-Du-Bois/9780684856575
 [book_duffy_1992]: https://yalebooks.yale.edu/book/9780300108286/the-stripping-of-the-altars/
 [book_duval_2006]: https://www.pennpress.org/9780812219418/the-native-ground/
@@ -653,14 +661,14 @@ These questions recur throughout the series and are revisited in the closing syn
 [book_fenton_1998]: https://www.oupress.com/9780806130033/the-great-law-and-the-longhouse/
 [book_fischer_1989]: https://global.oup.com/academic/product/albions-seed-9780195069051
 [book_foster_1971]: https://yalebooks.yale.edu/book/9780300012903/their-solitary-way/
-[book_frazier_1957]: https://scholar.google.com/scholar?q=frazier+1957+negro+family+united+states
+[book_frazier_1957]: https://openlibrary.org/works/OL269778W
 [book_frazier_1963]: https://www.penguinrandomhouse.com/books/45094/the-negro-church-in-america-by-e-franklin-frazier/
 [book_genovese_1974]: https://www.penguinrandomhouse.com/books/38617/roll-jordan-roll-by-eugene-d-genovese/
 [book_glazer_moynihan_1963]: https://mitpress.mit.edu/9780262570220/beyond-the-melting-pot/
 [book_gomez_1998]: https://uncpress.org/book/9780807847947/exchanging-our-country-marks/
 [book_gomez_2005]: https://www.cambridge.org/9780521844024
 [book_gordon_1964]: https://global.oup.com/academic/product/assimilation-in-american-life-9780195008968
-[book_grant_1968]: https://scholar.google.com/scholar?q=grant+1968+fortunate+slave+job+ben+solomon
+[book_grant_1968]: https://openlibrary.org/works/OL6664831W
 [book_griffin_2001]: https://global.oup.com/academic/product/the-people-with-no-name-9780691074627
 [book_grinde_johansen_1991]: https://uapress.arizona.edu/book/exemplar-of-liberty
 [book_gutierrez_1991]: https://www.sup.org/books/title/?id=1913
@@ -684,7 +692,7 @@ These questions recur throughout the series and are revisited in the closing syn
 [book_israel_1985]: https://global.oup.com/academic/product/european-jewry-in-the-age-of-mercantilism-9780198206811
 [book_israel_1995]: https://global.oup.com/academic/product/the-dutch-republic-9780198207344
 [book_jennings_1975]: https://uncpress.org/book/9780807841143/the-invasion-of-america/
-[book_kingdon_1956]: https://scholar.google.com/scholar?q=kingdon+geneva+coming+wars+of+religion
+[book_kingdon_1956]: https://openlibrary.org/works/OL3474677W
 [book_kingdon_1988]: https://www.hup.harvard.edu/books/9780674598317
 [book_klein_1999]: https://www.cambridge.org/9780521469883
 [book_labarre_1938]: https://www.oupress.com/9780806121369/the-peyote-cult/
@@ -727,18 +735,18 @@ These questions recur throughout the series and are revisited in the closing syn
 [book_richter_2001]: https://www.hup.harvard.edu/books/9780674011175
 [book_rutherford_1644]: https://oll.libertyfund.org/titles/rutherford-lex-rex-or-the-law-and-the-prince
 [book_salisbury_1982]: https://global.oup.com/academic/product/manitou-and-providence-9780195031126
-[book_samuelsson_1961]: https://scholar.google.com/scholar?q=samuelsson+1961+religion+economic+action
+[book_samuelsson_1961]: https://openlibrary.org/works/OL18526523W
 [book_sarna_2004]: https://yalebooks.yale.edu/book/9780300109764/american-judaism/
 [book_saunt_2014]: https://wwnorton.com/books/West-of-the-Revolution
 [book_saunt_2020]: https://wwnorton.com/books/9780393609844
 [book_skowronek_1982]: https://www.cambridge.org/9780521288651
-[book_smith_1957]: https://scholar.google.com/scholar?q=timothy+smith+1957+revivalism+social+reform
+[book_smith_1957]: https://openlibrary.org/works/OL6323058W
 [book_smith_1997]: https://yalebooks.yale.edu/book/9780300078770/civic-ideals/
 [book_snow_1994]: https://www.wiley.com/en-us/The+Iroquois-p-9781557863379
 [book_snyder_1995]: https://www.paxbooks.com/anabaptist-history-and-theology
 [book_sobel_1988]: https://press.princeton.edu/books/paperback/9780691006376/trabelin-on
 [book_sollors_1986]: https://global.oup.com/academic/product/beyond-ethnicity-9780195051773
-[book_sombart_1913]: https://scholar.google.com/scholar?q=sombart+1913+jews+modern+capitalism
+[book_sombart_1913]: https://openlibrary.org/works/OL17100401W
 [book_southern_1997]: https://wwnorton.com/books/9780393971415
 [book_stewart_1970]: https://global.oup.com/academic/product/american-place-names-9780195031966
 [book_stewart_1987]: https://www.oupress.com/9780806124575/peyote-religion/
@@ -771,7 +779,7 @@ These questions recur throughout the series and are revisited in the closing syn
 [book_witte_2007]: https://www.cambridge.org/9780521521611
 [book_wood_1969]: https://uncpress.org/book/9780807847237/the-creation-of-the-american-republic-1776-1787/
 [book_wood_1974]: https://wwnorton.com/books/Black-Majority
-[book_woodson_1921]: https://scholar.google.com/scholar?q=woodson+1921+history+negro+church
+[book_woodson_1921]: https://openlibrary.org/works/OL48133W
 [book_yerushalmi_1971]: https://www.wupj.org/publications/from-spanish-court-to-italian-ghetto/
 [book_zinn_1980]: https://www.harpercollins.com/products/a-peoples-history-of-the-united-states-howard-zinn
 [book_zuckerman_1970]: https://us.macmillan.com/books/9780394748245
@@ -808,19 +816,19 @@ These questions recur throughout the series and are revisited in the closing syn
 [ref_vatican_apostolic_archive]: https://www.vatican.va/
 [ref_voyages_database]: https://www.slavevoyages.org/
 [ref_westminster_confession_1646]: https://www.ccel.org/ccel/schaff/creeds3.iv.i.html
-[research_becker_woessmann_2009]: https://academic.oup.com/qje/article/124/2/531/1905076
+[research_becker_woessmann_2009]: https://doi.org/10.1162/qjec.2009.124.2.531
 [research_bellah_1967]: https://www.jstor.org/stable/20027022
 [research_congress_1988]: https://www.congress.gov/bill/100th-congress/senate-concurrent-resolution/76
-[research_denevan_1992]: https://www.jstor.org/stable/2563351
-[research_dobyns_1966]: https://www.jstor.org/stable/2739329
-[research_kuitems_et_al_2021]: https://www.nature.com/articles/s41586-021-03972-8
+[research_denevan_1992]: https://doi.org/10.1111/j.1467-8306.1992.tb01965.x
+[research_dobyns_1966]: https://scholar.google.com/scholar?q=Estimating+Aboriginal+American+Population+Dobyns+1966
+[research_kuitems_et_al_2021]: https://doi.org/10.1038/s41586-021-03972-8
 [research_levy_1996]: https://www.jstor.org/stable/1170072
-[research_macdonald_macdonald_1964]: https://www.jstor.org/stable/3348581
-[research_payne_1996]: https://www.jstor.org/stable/2946638
-[research_reed_1969]: https://www.science.org/doi/10.1126/science.165.3895.762
-[research_thornton_1984]: https://www.jstor.org/stable/181862
+[research_macdonald_macdonald_1964]: https://doi.org/10.2307/3348581
+[research_payne_1996]: https://scholar.google.com/scholar?q=Iroquois+Influence+Thesis+Critique+Payne+1996
+[research_reed_1969]: https://doi.org/10.1126/science.165.3895.762
+[research_thornton_1984]: https://doi.org/10.1017/s0021853700022830
 [research_tooker_1978]: https://www.jstor.org/stable/j.ctv1qxgnh7
-[research_tooker_1988]: https://www.jstor.org/stable/670953
+[research_tooker_1988]: https://doi.org/10.2307/482139
 [research_turner_1893]: https://www.historians.org/about-aha-and-membership/aha-history-and-archives/historical-archives/the-significance-of-the-frontier-in-american-history
-[research_vecoli_1964]: https://www.jstor.org/stable/1888984
+[research_vecoli_1964]: https://doi.org/10.2307/1894893
 [research_wallace_2003]: https://www.jstor.org/stable/40025794

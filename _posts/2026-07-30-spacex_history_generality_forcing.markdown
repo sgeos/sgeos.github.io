@@ -17,7 +17,7 @@ This article is the sixth in the History of SpaceX series and treats the general
 
 ## The Generality-Forcing Mapping Problem
 
-The mapping problem for a comprehensive treatment of the generality-forcing condition in the SpaceX case is the question of which Mars-transportation requirements the SpaceX firm adopted as the primary technical-requirement stack, how the requirement stack drove the capability configuration of the launch vehicle, spacecraft, propulsion, and operations subsystems, and how the capability arrangement generalized across the adjacent commercial, government, and defense applications that constitute the realized SpaceX portfolio. The problem can be formalized in several ways depending on the analytical tradition consulted. The requirements-engineering tradition from [Nuseibeh and Easterbrook 2000][research_nuseibeh_easterbrook_2000] Requirements Engineering A Roadmap through the [INCOSE Systems Engineering Handbook][ref_incose_handbook] treats the generality-forcing property as the primary-requirement-selection configuration that determines the downstream capability-arrangement and the application-domain generality. The general-purpose-technology tradition from [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies Engines of Growth through [Lipsey Carlaw Bekar 2005][book_lipsey_carlaw_bekar_2005] Economic Transformations General Purpose Technologies and Long-Term Economic Growth treats the generality-forcing property as the general-purpose-technology configuration that produces the cross-sector spillover through the downstream application enabling. The dominant-design tradition from [Utterback 1994][book_utterback_1994] Mastering the Dynamics of Innovation through [Anderson and Tushman 1990][research_anderson_tushman_1990] Technological Discontinuities and Dominant Designs treats the generality-forcing property as the dominant-design-emergence configuration that consolidates the capability arrangement into the industry-standard baseline. The architectural-innovation tradition from [Henderson and Clark 1990][research_henderson_clark_1990] Architectural Innovation The Reconfiguration of Existing Product Technologies treats the generality-forcing property as the architectural-configuration decision that determines the downstream innovation trajectory. The present article draws on all four traditions while adopting the mission-oriented-innovation framework the [series opener][related_post_a281_spacex_framing] established as the primary organizing structure.
+The mapping problem for a comprehensive treatment of the generality-forcing condition in the SpaceX case is the question of which Mars-transportation requirements the SpaceX firm adopted as the primary technical-requirement stack, how the requirement stack drove the capability configuration of the launch vehicle, spacecraft, propulsion, and operations subsystems, and how the capability arrangement generalized across the adjacent commercial, government, and defense applications that constitute the realized SpaceX portfolio. The problem can be formalized in several ways depending on the analytical tradition consulted. The requirements-engineering tradition from [Nuseibeh and Easterbrook 2000][research_nuseibeh_easterbrook_2000] Requirements Engineering A Roadmap through the [INCOSE Systems Engineering Handbook][ref_incose_handbook] treats the generality-forcing property as the primary-requirement-selection configuration that determines the downstream capability-arrangement and the application-domain generality. The general-purpose-technology tradition from [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies Engines of Growth through [Lipsey et al. 2005][book_lipsey_carlaw_bekar_2005] Economic Transformations General Purpose Technologies and Long-Term Economic Growth treats the generality-forcing property as the general-purpose-technology configuration that produces the cross-sector spillover through the downstream application enabling. The dominant-design tradition from [Utterback 1994][book_utterback_1994] Mastering the Dynamics of Innovation through [Anderson and Tushman 1990][research_anderson_tushman_1990] Technological Discontinuities and Dominant Designs treats the generality-forcing property as the dominant-design-emergence configuration that consolidates the capability arrangement into the industry-standard baseline. The architectural-innovation tradition from [Henderson and Clark 1990][research_henderson_clark_1990] Architectural Innovation The Reconfiguration of Existing Product Technologies treats the generality-forcing property as the architectural-configuration decision that determines the downstream innovation trajectory. The present article draws on all four traditions while adopting the mission-oriented-innovation framework the [series opener][related_post_a281_spacex_framing] established as the primary organizing structure.
 
 The mapping problem permits several formalizations depending on the level of analysis adopted. At the subsystem level, the generality-forcing condition reflects the engine, propellant, structure, and avionics configuration that the Mars-transportation requirement necessitates and that generalizes across the adjacent applications. At the vehicle level, the condition reflects the launch-vehicle and spacecraft configuration that the Mars-transportation requirement necessitates and that generalizes across the commercial, government, and defense applications. At the operations level, the condition reflects the launch-cadence, in-space-refueling, and life-support-integration operational configuration that the Mars-transportation requirement necessitates. At the program level, the condition reflects the mission-architecture configuration that the Mars-transportation requirement necessitates.
 
@@ -141,13 +141,13 @@ $$RC_i = \frac{|R^{\text{configured}}_i \cap R^{\text{application-set}}|}{|R^{\t
 
 with $RC_i$ approaching unity indicating comprehensive requirement-coverage across the application set.
 
-The general-purpose-technology tradition traces from [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies Engines of Growth through [Lipsey Carlaw Bekar 2005][book_lipsey_carlaw_bekar_2005] Economic Transformations General Purpose Technologies and Long-Term Economic Growth, [David 1990][research_david_1990] The Dynamo and the Computer, and [Rosenberg and Trajtenberg 2004][research_rosenberg_trajtenberg_2004] A General-Purpose Technology at Work. The framing treats the generality-forcing property through the general-purpose-technology configuration that produces the cross-sector spillover through the downstream application enabling. The SpaceX Starship configuration approaches the general-purpose-technology profile in the space-transportation domain analogous to the steam-engine, electricity, information-technology, and biotechnology general-purpose-technology profiles in the broader economic history. The general-purpose-technology-index yields the compact form
+The general-purpose-technology tradition traces from [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies Engines of Growth through [Lipsey et al. 2005][book_lipsey_carlaw_bekar_2005] Economic Transformations General Purpose Technologies and Long-Term Economic Growth, [David 1990][research_david_1990] The Dynamo and the Computer, and [Rosenberg and Trajtenberg 2001][research_rosenberg_trajtenberg_2004] A General-Purpose Technology at Work. The framing treats the generality-forcing property through the general-purpose-technology configuration that produces the cross-sector spillover through the downstream application enabling. The SpaceX Starship configuration approaches the general-purpose-technology profile in the space-transportation domain analogous to the steam-engine, electricity, information-technology, and biotechnology general-purpose-technology profiles in the broader economic history. The general-purpose-technology-index yields the compact form
 
 $$GPT_i = f(P^{\text{pervasiveness}}, C^{\text{complementary-innovation}}, I^{\text{improvement-potential}})$$
 
 with the three factor-inputs indexing pervasiveness across applications, complementary-innovation stimulation, and improvement-potential.
 
-The dominant-design tradition traces from [Utterback 1994][book_utterback_1994] Mastering the Dynamics of Innovation through [Anderson and Tushman 1990][research_anderson_tushman_1990] Technological Discontinuities and Dominant Designs, [Suarez and Utterback 1995][research_suarez_utterback_1995] Dominant Designs and the Survival of Firms, and [Murmann and Frenken 2006][research_murmann_frenken_2006] Toward a Systematic Framework for Research on Dominant Designs. The framing treats the generality-forcing property through the dominant-design-emergence configuration that consolidates the capability arrangement into the industry-standard baseline. The design-concentration index takes the form
+The dominant-design tradition traces from [Utterback 1994][book_utterback_1994] Mastering the Dynamics of Innovation through [Anderson and Tushman 1990][research_anderson_tushman_1990] Technological Discontinuities and Dominant Designs, [Suárez and Utterback 1995][research_suarez_utterback_1995] Dominant Designs and the Survival of Firms, and [Murmann and Frenken 2006][research_murmann_frenken_2006] Toward a Systematic Framework for Research on Dominant Designs. The framing treats the generality-forcing property through the dominant-design-emergence configuration that consolidates the capability arrangement into the industry-standard baseline. The design-concentration index takes the form
 
 $$D(t) = \max_{d \in \mathcal{D}} \; \frac{n^{\text{missions}}_d(t)}{\sum_{d' \in \mathcal{D}} n^{\text{missions}}_{d'}(t)}$$
 
@@ -175,15 +175,15 @@ taking the value unity for a requirement that the primary mission demands and th
 
 The military-innovation and dual-use tradition traces from [Ruttan 2006][book_ruttan_2006] Is War Necessary for Economic Growth through [Hartley 2017][book_hartley_2017] The Economics of Arms, [Melman 1970][book_melman_1970] Pentagon Capitalism, [Fallows 1981][book_fallows_1981] National Defense, [Kaplan 1991][book_kaplan_1991] The Wizards of Armageddon, and [Del Monte 2010][research_del_monte_2010] on the defense-innovation relationship. The framing treats the generality-forcing property as the dual-use configuration in which a state-directed mission requirement produces a capability with civilian application. The tradition offers the largest documented body of generality-forcing instances, because the military requirement has historically been the most reliable source of a requirement more demanding than any contemporary commercial requirement. The distinguishing feature of the SpaceX case within the tradition is that the dominating requirement is self-imposed rather than state-imposed, which removes the external funding that accompanies a state requirement and substitutes the self-financing loop the concept-development section formalizes.
 
-The transaction-cost and vertical-integration tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1975][research_williamson_1975] and [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Klein Crawford and Alchian 1978][research_klein_crawford_alchian_1978] Vertical Integration Appropriable Rents and the Competitive Contracting Process, [Monteverde and Teece 1982][research_monteverde_teece_1982] Supplier Switching Costs and Vertical Integration, [Masten 1984][research_masten_1984] The Organization of Production, [Grossman and Hart 1986][research_grossman_hart_1986] The Costs and Benefits of Ownership, [Hart and Moore 1990][research_hart_moore_1990] Property Rights and the Nature of the Firm, and the survey in [Lafontaine and Slade 2007][research_lafontaine_slade_2007] Vertical Integration and Firm Boundaries. The framing treats the firm boundary as the decision variable and asks why a capability configuration general enough to serve many applications is held inside a single firm rather than licensed across many. The answer the tradition gives is that the asset specificity and the contracting hazards attending a novel capability favor internalization, which is the mechanism the [Value Capture article A284][related_post_a284_spacex_value_capture] develops at length.
+The transaction-cost and vertical-integration tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1975][research_williamson_1975] and [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Klein et al. 1978][research_klein_crawford_alchian_1978] Vertical Integration Appropriable Rents and the Competitive Contracting Process, [Monteverde and Teece 1982][research_monteverde_teece_1982] Supplier Switching Costs and Vertical Integration, [Masten 1984][research_masten_1984] The Organization of Production, [Grossman and Hart 1986][research_grossman_hart_1986] The Costs and Benefits of Ownership, [Hart and Moore 1990][research_hart_moore_1990] Property Rights and the Nature of the Firm, and the survey in [Lafontaine and Slade 2007][research_lafontaine_slade_2007] Vertical Integration and Firm Boundaries. The framing treats the firm boundary as the decision variable and asks why a capability configuration general enough to serve many applications is held inside a single firm rather than licensed across many. The answer the tradition gives is that the asset specificity and the contracting hazards attending a novel capability favor internalization, which is the mechanism the [Value Capture article A284][related_post_a284_spacex_value_capture] develops at length.
 
-The organizational-learning tradition traces from [March and Simon 1958][book_march_simon_1958] Organizations and [Cyert and March 1963][book_cyert_march_1963] A Behavioral Theory of the Firm through [Argyris and Schon 1978][book_argyris_schon_1978] Organizational Learning, [Levitt and March 1988][research_levitt_march_1988] Organizational Learning, [Huber 1991][research_huber_1991] Organizational Learning The Contributing Processes, [March 1991][research_march_1991] Exploration and Exploitation in Organizational Learning, [Nonaka 1994][research_nonaka_1994] A Dynamic Theory of Organizational Knowledge Creation, [Nonaka and Takeuchi 1995][book_nonaka_takeuchi_1995] The Knowledge-Creating Company, [Senge 1990][book_senge_1990] The Fifth Discipline, and the empirical treatments in [Argote and Ingram 2000][research_argote_ingram_2000] Knowledge Transfer and [Argote Miron-Spektor 2011][research_argote_miron_spektor_2011] Organizational Learning From Experience to Knowledge. The framing treats the bidirectional capability transfer between applications as an organizational-learning process whose rate depends on the organizational structure rather than on the technical similarity of the applications alone. The exploration-and-exploitation distinction is directly applicable, because the generality-forcing configuration requires an organization to sustain exploration against a primary mission while exploiting the adjacent applications that finance it.
+The organizational-learning tradition traces from [March and Simon 1958][book_march_simon_1958] Organizations and [Cyert and March 1963][book_cyert_march_1963] A Behavioral Theory of the Firm through [Argyris and Schon 1978][book_argyris_schon_1978] Organizational Learning, [Levitt and March 1988][research_levitt_march_1988] Organizational Learning, [Huber 1991][research_huber_1991] Organizational Learning The Contributing Processes, [March 1991][research_march_1991] Exploration and Exploitation in Organizational Learning, [Nonaka 1994][research_nonaka_1994] A Dynamic Theory of Organizational Knowledge Creation, [Nonaka and Takeuchi 1995][book_nonaka_takeuchi_1995] The Knowledge-Creating Company, [Senge and Senge 1990][book_senge_1990] The Fifth Discipline, and the empirical treatments in [Argote and Ingram 2000][research_argote_ingram_2000] Knowledge Transfer and [Argote and Miron-Spektor 2011][research_argote_miron_spektor_2011] Organizational Learning From Experience to Knowledge. The framing treats the bidirectional capability transfer between applications as an organizational-learning process whose rate depends on the organizational structure rather than on the technical similarity of the applications alone. The exploration-and-exploitation distinction is directly applicable, because the generality-forcing configuration requires an organization to sustain exploration against a primary mission while exploiting the adjacent applications that finance it.
 
 The industrial-organization tradition traces from [Bain 1968][book_bain_1968] Industrial Organization through [Scherer and Ross 1990][book_scherer_ross_1990] Industrial Market Structure and Economic Performance, [Tirole 1988][book_tirole_1988] The Theory of Industrial Organization, [Porter 1980][book_porter_1980] Competitive Strategy, [Porter 1985][book_porter_1985] Competitive Advantage, and [Baumol 1977][research_baumol_1977] On the Proper Cost Tests for Natural Monopoly. The framing treats the launch sector as a market whose structure the capability configuration alters, and it yields the concentration and contestability apparatus within which the realized market-share shifts admit interpretation. The natural-monopoly question is live for the sector because the fixed costs are large relative to the market size, and a generality-forcing configuration that spreads those fixed costs across a broader application set intensifies rather than relieves the tendency toward concentration.
 
-The network-economics and standards tradition traces from [Katz and Shapiro 1985][research_katz_shapiro_1985] Network Externalities Competition and Compatibility through [Farrell and Saloner 1985][research_farrell_saloner_1985] Standardization Compatibility and Innovation, [Rochet and Tirole 2003][research_rochet_tirole_2003] Platform Competition in Two-Sided Markets, [Rysman 2009][research_rysman_2009] The Economics of Two-Sided Markets, and [Gawer and Cusumano 2014][research_gawer_cusumano_2014] Industry Platforms and Ecosystem Innovation. The framing treats the capability configuration as a platform whose value to each application increases with the number of other applications it serves. The mechanism is distinct from the cost-sharing mechanism the amortization identity captures, because it operates through the complementary investments that payload developers, ground-segment providers, and regulators make once a configuration attains sufficient adoption.
+The network-economics and standards tradition traces from [Katz and Shapiro 1985][research_katz_shapiro_1985] Network Externalities Competition and Compatibility through [Farrell and Saloner 1985][research_farrell_saloner_1985] Standardization Compatibility and Innovation, [Rochet and Tirole 2003][research_rochet_tirole_2003] Platform Competition in Two-Sided Markets, [Rysman 2009][research_rysman_2009] The Economics of Two-Sided Markets, and [Gawer and Cusumano 2013][research_gawer_cusumano_2014] Industry Platforms and Ecosystem Innovation. The framing treats the capability configuration as a platform whose value to each application increases with the number of other applications it serves. The mechanism is distinct from the cost-sharing mechanism the amortization identity captures, because it operates through the complementary investments that payload developers, ground-segment providers, and regulators make once a configuration attains sufficient adoption.
 
-The science-and-technology-studies tradition traces from [Kuhn 1962][book_kuhn_1962] The Structure of Scientific Revolutions through [Latour and Woolgar 1979][book_latour_woolgar_1979] Laboratory Life, [Latour 1987][book_latour_1987] Science in Action, [MacKenzie 1990][book_mackenzie_1990] Inventing Accuracy, [Bijker Hughes and Pinch 1987][book_bijker_hughes_pinch_1987] The Social Construction of Technological Systems, and the space-domain ethnographies in [Vertesi 2015][book_vertesi_2015] Seeing Like a Rover, [Messeri 2016][book_messeri_2016] Placing Outer Space, and [Redfield 2000][book_redfield_2000] Space in the Tropics. The framing treats the requirement stack as a socially negotiated artifact rather than as a technical derivation, and it contributes the most useful reading of the Space Shuttle union construction the negation-case section develops.
+The science-and-technology-studies tradition traces from [Kuhn 1962][book_kuhn_1962] The Structure of Scientific Revolutions through [Latour and Woolgar 1979][book_latour_woolgar_1979] Laboratory Life, [Latour 1987][book_latour_1987] Science in Action, [MacKenzie 1990][book_mackenzie_1990] Inventing Accuracy, [Bijker et al. 1987][book_bijker_hughes_pinch_1987] The Social Construction of Technological Systems, and the space-domain ethnographies in [Vertesi 2015][book_vertesi_2015] Seeing Like a Rover, [Messeri 2016][book_messeri_2016] Placing Outer Space, and [Redfield 2000][book_redfield_2000] Space in the Tropics. The framing treats the requirement stack as a socially negotiated artifact rather than as a technical derivation, and it contributes the most useful reading of the Space Shuttle union construction the negation-case section develops.
 
 The behavioral and managerial-cognition tradition traces from [Simon 1957][book_simon_1957] Administrative Behavior through [Kahneman and Tversky 1979][research_kahneman_tversky_1979] Prospect Theory, [Tversky and Kahneman 1992][research_tversky_kahneman_1992] Advances in Prospect Theory, [Kahneman 2011][book_kahneman_2011] Thinking Fast and Slow, [Dutton and Thomas 1984][research_dutton_thomas_1984] Treating Progress Functions as a Managerial Opportunity, and [Weick 1979][book_weick_1979] The Social Psychology of Organizing. The framing treats the requirement-selection decision as a judgment under uncertainty subject to documented biases, and it contributes the analytical basis for the escalation-of-commitment reading the Alternative Analytical Frameworks section develops as the principal skeptical alternative.
 
@@ -259,7 +259,7 @@ $$R^{\text{Mars}} = R^{\text{payload}} \cup R^{\text{cost}} \cup R^{\text{cadenc
 
 with the union of the seven requirement categories constituting the comprehensive Mars-transportation requirement configuration.
 
-The velocity-budget basis for the requirement dominance admits treatment through the rocket equation that [Sutton and Biblarz 2016][book_sutton_biblarz_2016] Rocket Propulsion Elements and [Humble Henry and Larson 1995][book_humble_henry_larson_1995] Space Propulsion Analysis and Design develop, and through the mission-analysis apparatus that [Curtis 2013][book_curtis_2013] Orbital Mechanics for Engineering Students, [Prussing and Conway 2013][book_prussing_conway_2013] Orbital Mechanics, and [Larson and Wertz 1999][book_larson_wertz_1999] Space Mission Analysis and Design develop. The ideal velocity increment can be written as
+The velocity-budget basis for the requirement dominance admits treatment through the rocket equation that [Sutton and Biblarz 2016][book_sutton_biblarz_2016] Rocket Propulsion Elements and [Humble et al. 1995][book_humble_henry_larson_1995] Space Propulsion Analysis and Design develop, and through the mission-analysis apparatus that [Curtis 2013][book_curtis_2013] Orbital Mechanics for Engineering Students, [Prussing and Conway 2013][book_prussing_conway_2013] Orbital Mechanics, and [Wertz and Larson 1999][book_larson_wertz_1999] Space Mission Analysis and Design develop. The ideal velocity increment can be written as
 
 $$\Delta v = I_{sp} \, g_0 \ln\!\left(\frac{m_0}{m_f}\right)$$
 
@@ -323,7 +323,7 @@ $$G^{\text{mass-to-orbit}} = \frac{m^{\text{payload}}_{\text{Starship}}}{m^{\tex
 
 reflecting the approximately 5-to-10-fold payload-mass-capability increase from the Falcon 9 to the Starship configuration.
 
-The analytically substantive consequence of the mass-to-orbit-reduction capability is not the increase in the deliverable mass but the relaxation of the mass constraint that has governed spacecraft design across the entire history of the sector. The design-practice literature that [Larson and Wertz 1999][book_larson_wertz_1999] Space Mission Analysis and Design and [Wertz Everett and Puschell 2011][book_wertz_everett_puschell_2011] Space Mission Engineering codify treats the mass budget as the dominant binding constraint against which the structural, thermal, power, propulsion, and payload subsystems are jointly optimized. The relaxation of the constraint permits the substitution of inexpensive mass for expensive engineering, which is a factor substitution rather than a capability addition. The substitution may be written
+The analytically substantive consequence of the mass-to-orbit-reduction capability is not the increase in the deliverable mass but the relaxation of the mass constraint that has governed spacecraft design across the entire history of the sector. The design-practice literature that [Wertz and Larson 1999][book_larson_wertz_1999] Space Mission Analysis and Design and [Wertz et al. 2011][book_wertz_everett_puschell_2011] Space Mission Engineering codify treats the mass budget as the dominant binding constraint against which the structural, thermal, power, propulsion, and payload subsystems are jointly optimized. The relaxation of the constraint permits the substitution of inexpensive mass for expensive engineering, which is a factor substitution rather than a capability addition. The substitution may be written
 
 $$\min_{m, e} \left[ p^{\text{mass}} \cdot m + p^{\text{engineering}} \cdot e \right] \quad \text{subject to} \quad f(m, e) \geq q^{\text{required}}$$
 
@@ -357,7 +357,7 @@ $$\Lambda = \frac{P\!\left( \text{observe } r^{\text{refueling}} \mid H^{\text{m
 
 with the numerator near unity because the mission hypothesis predicts the observation and the denominator near zero because no served market demands the capability. The ratio is the formal content of the identification argument the article relies on, and the structure of the argument is that the discriminating power of an observation comes from the improbability of the observation under the competing hypothesis rather than from its probability under the favored one. The ratio degrades over time if a commercial market for the propellant-transfer capability emerges, because the denominator would then rise.
 
-The technical content of the requirement includes the propellant-settling problem under the microgravity condition, the boil-off management problem across the transfer duration and the subsequent loiter duration, the quick-disconnect and docking-interface problem at the cryogenic temperature, and the mass-gauging problem that determines the transferred quantity. The problem set is documented in the technical literature accessible through the [NASA cryogenic-fluid-management literature][ref_ntrs_cryogenic_fluid_management] and the [NASA Technical Reports Server][ref_nasa_ntrs] and in the propulsion treatments in [Sutton and Biblarz 2016][book_sutton_biblarz_2016] Rocket Propulsion Elements and [Humble Henry and Larson 1995][book_humble_henry_larson_1995] Space Propulsion Analysis and Design. The NASA Tipping Point award of the 2020 period supported the large-scale cryogenic-fluid-transfer flight demonstration, establishing that the anchor customer treated the capability as a program-critical technology rather than as a contractor-internal development. The award mechanism and the technology-portfolio context are documented through the [NASA Space Technology Mission Directorate][ref_nasa_stmd] and the [NASA TechPort technology database][ref_nasa_techport]. The IFT-3 flight of March 14 2024 conducted the internal propellant-transfer demonstration between the vehicle tanks, constituting the first flight-demonstrated increment against the requirement.
+The technical content of the requirement includes the propellant-settling problem under the microgravity condition, the boil-off management problem across the transfer duration and the subsequent loiter duration, the quick-disconnect and docking-interface problem at the cryogenic temperature, and the mass-gauging problem that determines the transferred quantity. The problem set is documented in the technical literature accessible through the [NASA cryogenic-fluid-management literature][ref_ntrs_cryogenic_fluid_management] and the [NASA Technical Reports Server][ref_nasa_ntrs] and in the propulsion treatments in [Sutton and Biblarz 2016][book_sutton_biblarz_2016] Rocket Propulsion Elements and [Humble et al. 1995][book_humble_henry_larson_1995] Space Propulsion Analysis and Design. The NASA Tipping Point award of the 2020 period supported the large-scale cryogenic-fluid-transfer flight demonstration, establishing that the anchor customer treated the capability as a program-critical technology rather than as a contractor-internal development. The award mechanism and the technology-portfolio context are documented through the [NASA Space Technology Mission Directorate][ref_nasa_stmd] and the [NASA TechPort technology database][ref_nasa_techport]. The IFT-3 flight of March 14 2024 conducted the internal propellant-transfer demonstration between the vehicle tanks, constituting the first flight-demonstrated increment against the requirement.
 
 The mission-architecture consequence of the capability takes the form
 
@@ -465,7 +465,7 @@ with the ratio approaching zero when the primary-mission capability covers the a
 
 ## Geostationary Satellite Deployment Application
 
-The geostationary satellite deployment application permits the comprehensive generality-forcing treatment. The Falcon 9 and Falcon Heavy configurations support the commercial and government geostationary satellite missions across the 2013 through drafting-date period with approximately 60 geostationary-transfer-orbit missions completed. The December 3 2013 SES-8 mission constituted the first SpaceX geostationary-transfer-orbit delivery and the entry of the firm into the commercial telecommunications segment that had been served by the Arianespace, International Launch Services, and Sea Launch providers. The mission record is reconstructible from the [SpaceX news archive][ref_spacex_news_archive] and the [FAA current launch licenses][ref_faa_ast]. The orbital-slot and spectrum assignments that govern the segment operate under the [ITU Radio Regulations][ref_itu_radio_regulations_2020], and the launch-state registration and liability framework operates under the [United Nations Outer Space Treaty of 1967][ref_un_outer_space_treaty_1967] and the [United States Commercial Space Launch Competitiveness Act of 2015][ref_uscsla_2015].
+The geostationary satellite deployment application permits the comprehensive generality-forcing treatment. The Falcon 9 and Falcon Heavy configurations support the commercial and government geostationary satellite missions across the 2013 through drafting-date period with approximately 60 geostationary-transfer-orbit missions completed. The December 3 2013 SES-8 mission constituted the first SpaceX geostationary-transfer-orbit delivery and the entry of the firm into the commercial telecommunications segment that had been served by the Arianespace, International Launch Services, and Sea Launch providers. The mission record is reconstructible from the [SpaceX news archive][ref_spacex_news_archive] and the [FAA current launch licenses][ref_faa_ast]. The orbital-slot and spectrum assignments that govern the segment operate under the [ITU Radio Regulations][ref_itu_radio_regulations_2020], and the launch-state registration and liability framework operates under the [United Nations Outer Space 1967][ref_un_outer_space_treaty_1967] and the [U S Commercial Space 2015][ref_uscsla_2015].
 
 The geostationary satellite deployment revenue realizes approximately 3 billion dollars across the commercial and government mission portfolio across the SES, Intelsat, Eutelsat, DirecTV, Arabsat, and other commercial geostationary satellite operators.
 
@@ -507,7 +507,7 @@ The applicability of the case to the SpaceX comparison is direct and allows a fa
 
 ## The Space Launch System Counter-Example
 
-The Space Launch System from the direction in the [NASA Authorization Act of 2010][ref_nasa_auth_2010] through the Artemis I mission of November 16 2022 and the subsequent Artemis manifest constitutes the second canonical generality-forcing negation case. The program documentation is accessible through the [NASA Space Launch System program documentation][ref_nasa_sls_program], the [NASA Artemis Program documentation][ref_nasa_artemis_program], the [Congressional Research Service 2022 Artemis Program report][ref_crs_artemis_2022], the [Government Accountability Office reports database][ref_gao_reports], and the [NASA Office of Inspector General reports database][ref_nasa_oig_reports].
+The Space Launch System from the direction in the [NASA Authorization Act 2010][ref_nasa_auth_2010] through the Artemis I mission of November 16 2022 and the subsequent Artemis manifest constitutes the second canonical generality-forcing negation case. The program documentation is accessible through the [NASA Space Launch System program documentation][ref_nasa_sls_program], the [NASA Artemis Program documentation][ref_nasa_artemis_program], the [Congressional Research Service 2022 Artemis Program report][ref_crs_artemis_2022], the [Government Accountability Office reports database][ref_gao_reports], and the [NASA Office of Inspector General reports database][ref_nasa_oig_reports].
 
 The Space Launch System requirement stack was not derived from a dominating mission. The requirement stack was derived from a statutory direction that specified the vehicle class, the payload capability, and the use of Space Shuttle heritage hardware and existing contracts. The derivation is therefore institutional rather than missional. The configuration uses the RS-25 engines drawn initially from the Space Shuttle inventory, the five-segment solid rocket boosters derived from the Space Shuttle boosters, and the existing industrial base and workforce that the Space Shuttle program had established. The Block 1 configuration delivers approximately 95 metric tons to low Earth orbit and approximately 27 metric tons to trans-lunar injection.
 
@@ -541,7 +541,7 @@ $$S_{\text{Ares I}} = K^{\text{configured}} \setminus K^{\text{necessary}}(\text
 
 with the empty slack set following from the sizing decision rather than from any subsequent execution failure. The case is therefore the cleanest available demonstration that the generality-forcing property is determined at the requirement-selection stage. No quality of engineering execution downstream of a requirement set that coincides with a single application can generate a capability that the requirement set did not ask for.
 
-The program encountered technical difficulties including the specific thrust-oscillation problem inherent to the large solid-motor first stage, and schedule and cost growth that the 2009 review of the United States human spaceflight plans committee documented. The committee concluded that the program was on an unsustainable trajectory under the projected budget. The committee record appears in the [NASA Review of United States Human Spaceflight Plans Committee literature][ref_ntrs_hsf_committee_2009]. The cancellation followed in the February 2010 budget request, and the [NASA Authorization Act of 2010][ref_nasa_auth_2010] subsequently redirected the program elements into the Space Launch System and the Commercial Crew Program that the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats. The expended program cost across the 2005 through 2010 period approximates 9 billion dollars. The institutional dynamics of the period are treated in [Klerkx 2004][book_klerkx_2004] Lost in Space and [McCurdy 1994][book_mccurdy_1994] Inside NASA, and the longer arc of the agency's program-formulation practice is treated in [Launius 2004][book_launius_2004] Frontiers of Space Exploration and [Logsdon 2010][book_logsdon_2010] John F Kennedy and the Race to the Moon.
+The program encountered technical difficulties including the specific thrust-oscillation problem inherent to the large solid-motor first stage, and schedule and cost growth that the 2009 review of the United States human spaceflight plans committee documented. The committee concluded that the program was on an unsustainable trajectory under the projected budget. The committee record appears in the [NASA Review of United States Human Spaceflight Plans Committee literature][ref_ntrs_hsf_committee_2009]. The cancellation followed in the February 2010 budget request, and the [NASA Authorization Act 2010][ref_nasa_auth_2010] subsequently redirected the program elements into the Space Launch System and the Commercial Crew Program that the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats. The expended program cost across the 2005 through 2010 period approximates 9 billion dollars. The institutional dynamics of the period are treated in [Klerkx 2004][book_klerkx_2004] Lost in Space and [McCurdy 1994][book_mccurdy_1994] Inside NASA, and the longer arc of the agency's program-formulation practice is treated in [Launius 2004][book_launius_2004] Frontiers of Space Exploration and [Logsdon 2010][book_logsdon_2010] John F Kennedy and the Race to the Moon.
 
 The three negation cases jointly establish an ordering. The Constellation case exhibits a requirement stack too narrow to generate any adjacent capability. The Space Launch System case exhibits a requirement stack of adequate ambition constrained along the dimensions on which generality depends. The Space Shuttle case exhibits a requirement stack of adequate breadth assembled by union rather than by dominance. The three failure modes are distinct, and the generality-forcing condition requires the avoidance of all three.
 
@@ -559,17 +559,17 @@ The Boeing progression from the B-17 and B-29 wartime bomber contracts through t
 
 The intercontinental-ballistic-missile programs of the 1950s and the subsequent conversion of the Atlas, Titan, and R-7 vehicles into space-launch vehicles constitutes a further positive precedent within the launch domain. The missile requirement for payload delivery across intercontinental range produced a capability that generalized to the entire early space-launch application set, and the derived vehicle families remained operational across multi-decade periods. The [Stumpf 2000][book_stumpf_2000] Titan II and [Launius 2004][book_launius_2004] Frontiers of Space Exploration treatments document the conversion path. The precedent is instructive because the conversion was not anticipated in the original requirement stack, which distinguishes the case from the SpaceX case in which the adjacent applications were explicitly articulated in the 2017 design statement.
 
-The Apollo Guidance Computer and the associated integrated-circuit procurement constitutes a positive precedent in the electronics domain. The guidance requirement demanded a reliability and a mass and power budget that no contemporary commercial requirement demanded, and the resulting procurement volume supported the early integrated-circuit industry through the period in which no commercial market existed at the required price. The [Mindell 2008][book_mindell_2008] Digital Apollo treatment, the retrospective accounts in [Noyce 1976][research_noyce_1976] and [Kilby 1976][research_kilby_1976], and the [Apollo Guidance Computer article A242][related_post_a242_apollo_guidance] document the trajectory. The Silicon Valley industrial substrate that emerged from the defense and space procurement is treated in the [Silicon Valley from Defense Contracting article A246][related_post_a246_silicon_valley_defense].
+The Apollo Guidance Computer and the associated integrated-circuit procurement constitutes a positive precedent in the electronics domain. The guidance requirement demanded a reliability and a mass and power budget that no contemporary commercial requirement demanded, and the resulting procurement volume supported the early integrated-circuit industry through the period in which no commercial market existed at the required price. The [Mindell 2008][book_mindell_2008] Digital Apollo treatment, the retrospective accounts in [Noyce 1977][research_noyce_1976] and [Kilby 1976][research_kilby_1976], and the [Apollo Guidance Computer article A242][related_post_a242_apollo_guidance] document the trajectory. The Silicon Valley industrial substrate that emerged from the defense and space procurement is treated in the [Silicon Valley from Defense Contracting article A246][related_post_a246_silicon_valley_defense].
 
-The IBM System/360 announced in April 1964 constitutes the closest structural analogue to the SpaceX case outside the aerospace domain, and it is the precedent the article treats as most instructive. The decision replaced a portfolio of mutually incompatible product lines with a single architecture spanning the full performance range, at a development cost that approached the annual revenue of the firm. The requirement that forced the generality was compatibility across the range rather than performance at any point in it, and the requirement was not derived from any single customer. The resulting architecture served scientific, commercial, government, and real-time applications that had previously required distinct machines, and the instruction-set architecture persisted across successor generations for decades. The [Pugh Johnson and Palmer 1991][book_pugh_johnson_palmer_1991] IBM's 360 and Early 370 Systems and [Pugh 1995][book_pugh_1995] Building IBM treatments document the program, and the institutional record is accessible through the [IBM archives][ref_ibm_archives]. The parallel to the 2017 Starship articulation is direct, because both cases involve a firm retiring a working product portfolio in favor of a single more demanding configuration on the argument that the unified arrangement would serve every application the portfolio served and additional applications besides.
+The IBM System/360 announced in April 1964 constitutes the closest structural analogue to the SpaceX case outside the aerospace domain, and it is the precedent the article treats as most instructive. The decision replaced a portfolio of mutually incompatible product lines with a single architecture spanning the full performance range, at a development cost that approached the annual revenue of the firm. The requirement that forced the generality was compatibility across the range rather than performance at any point in it, and the requirement was not derived from any single customer. The resulting architecture served scientific, commercial, government, and real-time applications that had previously required distinct machines, and the instruction-set architecture persisted across successor generations for decades. The [Pugh et al. 1991][book_pugh_johnson_palmer_1991] IBM's 360 and Early 370 Systems and [Pugh 1995][book_pugh_1995] Building IBM treatments document the program, and the institutional record is accessible through the [IBM archives][ref_ibm_archives]. The parallel to the 2017 Starship articulation is direct, because both cases involve a firm retiring a working product portfolio in favor of a single more demanding configuration on the argument that the unified arrangement would serve every application the portfolio served and additional applications besides.
 
 The Unix and C development at the Bell Laboratories across the 1969 through 1973 period constitutes a further generality-forcing precedent in the software domain. The portability requirement, which no customer demanded and which the prevailing practice of the period treated as unnecessary, forced an abstraction of the operating system away from the machine architecture. The abstraction generalized to substantially every subsequent computing platform. The [Ritchie and Thompson 1974][research_ritchie_thompson_1974] The UNIX Time-Sharing System paper and [Kernighan and Ritchie 1978][book_kernighan_ritchie_1978] The C Programming Language document the development, and [Gertner 2012][book_gertner_2012] The Idea Factory situates it within the institutional context. The case is instructive because the forcing requirement was self-imposed by an engineering group rather than derived from a mission or a market, which places it at the boundary of the generality-forcing category the article defines.
 
-The mass-production trajectory from the Ford Model T through the Toyota Production System constitutes a manufacturing-domain precedent relevant to the cadence requirement. The Ford configuration achieved a throughput at the cost of a product rigidity that the subsequent Toyota arrangement relaxed, and the relaxation is itself a generality-forcing instance in which a demanding requirement for low-volume variety produced a production system that generalized across industries. The [Ford and Crowther 1922][book_ford_crowther_1922] My Life and Work, [Nevins 1954][book_nevins_1954] Ford, [Ohno 1988][book_ohno_1988] Toyota Production System, [Shingo 1989][book_shingo_1989] A Study of the Toyota Production System, [Womack Jones and Roos 1990][book_womack_jones_roos_1990] The Machine That Changed the World, [Womack and Jones 2003][book_womack_jones_2003] Lean Thinking, and [Liker 2004][book_liker_2004] The Toyota Way document the trajectory. The application of the principles to the SpaceX manufacturing operations is documented in the [Berger 2024][book_berger_2024] Reentry narrative.
+The mass-production trajectory from the Ford Model T through the Toyota Production System constitutes a manufacturing-domain precedent relevant to the cadence requirement. The Ford configuration achieved a throughput at the cost of a product rigidity that the subsequent Toyota arrangement relaxed, and the relaxation is itself a generality-forcing instance in which a demanding requirement for low-volume variety produced a production system that generalized across industries. The [Ford et al. 1922][book_ford_crowther_1922] My Life and Work, [Nevins 1954][book_nevins_1954] Ford, [Ohno 1988][book_ohno_1988] Toyota Production System, [Shingō 1989][book_shingo_1989] A Study of the Toyota Production System, [Womack et al. 1990][book_womack_jones_roos_1990] The Machine That Changed the World, [Womack and Jones 2003][book_womack_jones_2003] Lean Thinking, and [Liker 2004][book_liker_2004] The Toyota Way document the trajectory. The application of the principles to the SpaceX manufacturing operations is documented in the [Berger 2024][book_berger_2024] Reentry narrative.
 
-The semiconductor-industry emergence offers a further instance in which a demanding government requirement created a market that did not otherwise exist at the required price, documented in [Berlin 2005][book_berlin_2005] The Man Behind the Microchip, [Malone 2014][book_malone_2014] The Intel Trinity, [Lecuyer 2006][book_lecuyer_2006] Making Silicon Valley, [Riordan Hoddeson and Kolb 2015][book_riordan_hoddeson_kolb_2015] Tunnel Visions, and [Saxenian 1994][book_saxenian_1994] Regional Advantage. The Apollo and Minuteman procurement volumes carried the integrated-circuit industry through the interval in which no commercial application could justify the unit price, which is the same structural role the anchor customer plays in the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand].
+The semiconductor-industry emergence offers a further instance in which a demanding government requirement created a market that did not otherwise exist at the required price, documented in [Berlin 2005][book_berlin_2005] The Man Behind the Microchip, [Malone 2014][book_malone_2014] The Intel Trinity, [Lécuyer 2006][book_lecuyer_2006] Making Silicon Valley, [Riordan et al. 2015][book_riordan_hoddeson_kolb_2015] Tunnel Visions, and [Saxenian 1994][book_saxenian_1994] Regional Advantage. The Apollo and Minuteman procurement volumes carried the integrated-circuit industry through the interval in which no commercial application could justify the unit price, which is the same structural role the anchor customer plays in the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand].
 
-The ARPANET development from the 1969 initial deployment through the subsequent Internet diffusion constitutes a positive precedent in the networking domain, documented in [Abbate 1999][book_abbate_1999] Inventing the Internet and [Norberg and O'Neill 1996][book_norberg_oneill_1996] Transforming Computer Technology. The transistor development at the Bell Laboratories documented in [Bardeen and Brattain 1948][research_bardeen_brattain_1948], [Shockley 1949][research_shockley_1949], [Riordan and Hoddeson 1997][book_riordan_hoddeson_1997] Crystal Fire, and [Gertner 2012][book_gertner_2012] The Idea Factory constitutes the canonical general-purpose-technology instance in the twentieth century. The electrification trajectory that [Hughes 1983][book_hughes_1983] Networks of Power, [Nye 1990][book_nye_1990] Electrifying America, and [David 1990][research_david_1990] The Dynamo and the Computer analyze constitutes the canonical instance in the preceding period and gives the empirical basis for the delayed-productivity pattern that general-purpose technologies exhibit.
+The ARPANET development from the 1969 initial deployment through the subsequent Internet diffusion constitutes a positive precedent in the networking domain, documented in [Abbate 1999][book_abbate_1999] Inventing the Internet and [Norberg and O'Neill 1996][book_norberg_oneill_1996] Transforming Computer Technology. The transistor development at the Bell Laboratories documented in [Bardeen and Brattain 1948][research_bardeen_brattain_1948], [Shockley 1949][research_shockley_1949], [Riordan and Hoddeson 1997][book_riordan_hoddeson_1997] Crystal Fire, and [Gertner 2012][book_gertner_2012] The Idea Factory constitutes the canonical general-purpose-technology instance in the twentieth century. The electrification trajectory that [Hughes and Hughes 1983][book_hughes_1983] Networks of Power, [Nye 1990][book_nye_1990] Electrifying America, and [David 1990][research_david_1990] The Dynamo and the Computer analyze constitutes the canonical instance in the preceding period and gives the empirical basis for the delayed-productivity pattern that general-purpose technologies exhibit.
 
 The negation precedents establish the complementary point. The Saturn V launch vehicle constitutes the canonical instance of an extraordinarily capable configuration developed against a single mission and terminated with the mission. The vehicle flew thirteen times across the 1967 through 1973 period, the production line closed, the tooling was dispersed, and no adjacent application was served. The [Bilstein 1996][book_bilstein_1996] Stages to Saturn treatment documents the program, and [Kranz 2000][book_kranz_2000] Failure Is Not an Option documents the operational period. The case establishes that technical capability alone does not produce the generality-forcing outcome, because the Saturn V capability substantially exceeded every contemporary adjacent requirement and nonetheless generalized to nothing. The missing element was the cost and cadence configuration that would have permitted any adjacent customer to use it.
 
@@ -579,7 +579,7 @@ The Concorde supersonic transport from the 1962 Anglo-French agreement through t
 
 The Apollo program yields further negation material beyond the Saturn V launch vehicle. The program as a whole produced a capability configuration of extraordinary depth that generalized to remarkably little, because substantially every element was sized to a single mission profile executed a small number of times. The program record appears in [Bilstein 1996][book_bilstein_1996] Stages to Saturn, [Benson and Faherty 1978][book_benson_faherty_1978] Moonport, [Ezell and Ezell 1978][book_ezell_ezell_1978] The Partnership, [Green and Lomask 1970][book_green_lomask_1970] Vanguard, [Murray and Cox 1989][book_murray_cox_1989] Apollo, [Chaikin 1994][book_chaikin_1994] and [Chaikin 2007][book_chaikin_2007] A Man on the Moon, [Logsdon 1970][book_logsdon_1970] The Decision to Go to the Moon, and [Kraemer 2006][book_kraemer_2006] Rocketdyne. The German antecedent that shaped the Saturn development appears in [Neufeld 1995][book_neufeld_1995] The Rocket and the Reich and [Neufeld 2013][book_neufeld_2013] Von Braun. The contrast with the interchangeable-parts precedent is instructive, because both cases involved a state customer imposing a requirement more demanding than any commercial requirement, and only the former produced a configuration that adjacent customers could afford to use.
 
-The European and Soviet institutional configurations supply comparative material on how the generality question is answered under different arrangements. The Ariane program record appears in [Krige et al 2000][book_krige_et_al_2000] A History of the European Space Agency, and the Airbus consortium record appears in [McIntyre 1992][book_mcintyre_1992] Airbus Industrie, [Chadeau 1996][book_chadeau_1996] Airbus Industrie History, [Lawrence 2016][book_lawrence_2016] Airbus versus Boeing, and [Newhouse 2007][book_newhouse_2007] Boeing versus Airbus. The Airbus case is a partial positive instance, because the consortium adopted a common-cockpit and fly-by-wire commonality requirement across the product family that no single customer demanded and that subsequently became a decisive commercial advantage through the pilot-training economics it produced.
+The European and Soviet institutional configurations supply comparative material on how the generality question is answered under different arrangements. The Ariane program record appears in [Krige 2000][book_krige_et_al_2000] A History of the European Space Agency, and the Airbus consortium record appears in [McIntyre 1992][book_mcintyre_1992] Airbus Industrie, [Chadeau 1996][book_chadeau_1996] Airbus Industrie History, [Lawrence 2016][book_lawrence_2016] Airbus versus Boeing, and [Newhouse 2007][book_newhouse_2007] Boeing versus Airbus. The Airbus case is a partial positive instance, because the consortium adopted a common-cockpit and fly-by-wire commonality requirement across the product family that no single customer demanded and that subsequently became a decisive commercial advantage through the pilot-training economics it produced.
 
 The classified-project organizational form contributes a further comparison. The Lockheed Skunk Works trajectory documented in [Rich and Janos 1994][book_rich_janos_1994] Skunk Works and [Miller 1995][book_miller_1995] Lockheed Skunk Works produced a sequence of configurations each sized precisely to a single mission, and the generalization that occurred was organizational rather than technical. The engineering practice generalized across projects while substantially no vehicle did. The case establishes that the unit across which generality is measured is an analytical choice rather than a fact, and that a configuration exhibiting no vehicle-level generality may nonetheless exhibit substantial practice-level generality.
 
@@ -607,7 +607,7 @@ The Mars mission-architecture literature is substantially older than the SpaceX 
 
 ### General-Purpose-Technology and Spillover Literature
 
-The general-purpose-technology literature gives the closest formal apparatus. [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies Engines of Growth establishes the pervasiveness, improvement-potential, and complementary-innovation criteria, [Lipsey Carlaw and Bekar 2005][book_lipsey_carlaw_bekar_2005] Economic Transformations develops the long-run growth-accounting treatment, and [Rosenberg and Trajtenberg 2004][research_rosenberg_trajtenberg_2004] A General-Purpose Technology at Work supplies the historical case treatment. The spillover-measurement literature that [Griliches 1979][research_griliches_1979] Issues in Assessing the Contribution of Research and Development to Productivity Growth established provides the empirical apparatus, and the endogenous-growth treatments in [Romer 1990][research_romer_1990] Endogenous Technological Change and [Aghion and Howitt 1992][research_aghion_howitt_1992] A Model of Growth Through Creative Destruction supply the macroeconomic framing. The innovation-systems literature comprising [Freeman 1987][book_freeman_1987] Technology Policy and Economic Performance, [Lundvall 1992][book_lundvall_1992] National Systems of Innovation, [Nelson 1993][book_nelson_1993] National Innovation Systems, and [Mowery and Rosenberg 1998][book_mowery_rosenberg_1998] Paths of Innovation supplies the institutional framing. The sectoral-pattern taxonomy that [Pavitt 1984][research_pavitt_1984] Sectoral Patterns of Technical Change established and the technological-paradigm treatment in [Dosi 1988][research_dosi_1988] Sources Procedures and Microeconomic Effects of Innovation situate the launch sector within the broader classification. The underinvestment argument that [Nelson 1959][research_nelson_1959] The Simple Economics of Basic Scientific Research and [Arrow 1962][research_arrow_1962] Economic Welfare and the Allocation of Resources for Invention developed offers the rationale for the state-anchored configuration that the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats.
+The general-purpose-technology literature gives the closest formal apparatus. [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies Engines of Growth establishes the pervasiveness, improvement-potential, and complementary-innovation criteria, [Lipsey et al. 2005][book_lipsey_carlaw_bekar_2005] Economic Transformations develops the long-run growth-accounting treatment, and [Rosenberg and Trajtenberg 2001][research_rosenberg_trajtenberg_2004] A General-Purpose Technology at Work supplies the historical case treatment. The spillover-measurement literature that [Griliches 1979][research_griliches_1979] Issues in Assessing the Contribution of Research and Development to Productivity Growth established provides the empirical apparatus, and the endogenous-growth treatments in [Romer 1990][research_romer_1990] Endogenous Technological Change and [Aghion and Howitt 1992][research_aghion_howitt_1992] A Model of Growth Through Creative Destruction supply the macroeconomic framing. The innovation-systems literature comprising [Freeman 1987][book_freeman_1987] Technology Policy and Economic Performance, [Lundvall 1992][book_lundvall_1992] National Systems of Innovation, [Nelson 1993][book_nelson_1993] National Innovation Systems, and [Mowery and Rosenberg 1998][book_mowery_rosenberg_1998] Paths of Innovation supplies the institutional framing. The sectoral-pattern taxonomy that [Pavitt 1984][research_pavitt_1984] Sectoral Patterns of Technical Change established and the technological-paradigm treatment in [Dosi 1988][research_dosi_1988] Sources Procedures and Microeconomic Effects of Innovation situate the launch sector within the broader classification. The underinvestment argument that [Nelson 1959][research_nelson_1959] The Simple Economics of Basic Scientific Research and [Arrow 1962][research_arrow_1962] Economic Welfare and the Allocation of Resources for Invention developed offers the rationale for the state-anchored configuration that the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats.
 
 ### Requirements-Engineering and Systems-Architecture Literature
 
@@ -615,15 +615,15 @@ The requirements-engineering literature comprising [Nuseibeh and Easterbrook 200
 
 ### Space-Policy and Program-Evaluation Literature
 
-The space-policy literature treats the comparative program record that the negation cases develop. The journal literature appears in [Space Policy][ref_space_policy_journal], the [AIAA Journal of Spacecraft and Rockets][ref_aiaa_jsr], the [AIAA Journal of Propulsion and Power][ref_aiaa_jpp], and the [Journal of Space Safety Engineering][ref_jsse_journal]. The space-economics treatments in [Hertzfeld 2002][research_hertzfeld_2002], [Peeters 2018][research_peeters_2018], and [Weinzierl 2018][research_weinzierl_2018] and the sector-level consolidation in [Anderson 2023][book_anderson_2023] The Space Economy supply the economic framing. The program-evaluation record comprising the [Government Accountability Office reports][ref_gao_reports], the [NASA Office of Inspector General reports][ref_nasa_oig_reports], the [Congressional Research Service reports][ref_crs_reports], the [Congressional record][ref_congressional_record], and the [House Science Committee hearing record][ref_house_science_committee_hearings] supplies the documentary basis for the Space Launch System and Constellation cost and schedule claims. The orbital-environment literature comprising [Kessler and Cour-Palais 1978][research_kessler_courpalais_1978] Collision Frequency of Artificial Satellites, [Weeden and Chow 2012][research_weeden_chow_2012], [Adilov et al 2018][research_adilov_et_al_2018], [Walker et al 2020][research_walker_et_al_2020], and the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris] treats the externality that the high-cadence constellation-deployment application generates and that the generality-forcing analysis does not internalize.
+The space-policy literature treats the comparative program record that the negation cases develop. The journal literature appears in [Space Policy][ref_space_policy_journal], the [AIAA Journal of Spacecraft and Rockets][ref_aiaa_jsr], the [AIAA Journal of Propulsion and Power][ref_aiaa_jpp], and the [Journal of Space Safety Engineering][ref_jsse_journal]. The space-economics treatments in [Hertzfeld 2002][research_hertzfeld_2002], [Peeters 2018][research_peeters_2018], and [Weinzierl 2018][research_weinzierl_2018] and the sector-level consolidation in [Anderson 2023][book_anderson_2023] The Space Economy supply the economic framing. The program-evaluation record comprising the [Government Accountability Office reports][ref_gao_reports], the [NASA Office of Inspector General reports][ref_nasa_oig_reports], the [Congressional Research Service reports][ref_crs_reports], the [Congressional record][ref_congressional_record], and the [House Science Committee hearing record][ref_house_science_committee_hearings] supplies the documentary basis for the Space Launch System and Constellation cost and schedule claims. The orbital-environment literature comprising [Kessler and Cour-Palais 1978][research_kessler_courpalais_1978] Collision Frequency of Artificial Satellites, [Weeden and Chow 2012][research_weeden_chow_2012], [Adilov 2018][research_adilov_et_al_2018], [Walker 2020][research_walker_et_al_2020], and the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris] treats the externality that the high-cadence constellation-deployment application generates and that the generality-forcing analysis does not internalize.
 
 ### Comparative-Firm and Case-Study Literature
 
-The business case-study literature on the firm appears in the [Anadol Cohen and Ferrari 2018][research_anadol_cohen_2018] Harvard Business School treatment, the [Stanford Graduate School of Business case collection][ref_stanford_spacex_case], and the [Wharton knowledge repository][ref_wharton_spacex_case]. The biographical literature comprising [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Vance 2015][book_vance_2015] Elon Musk, [Isaacson 2023][book_isaacson_2023] Elon Musk, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires supplies the narrative record of the requirement-articulation sequence. The technical-record literature comprising The Falcon 1 Launch Vehicle Demonstration Flights, [Blackmore 2016][research_blackmore_2016] Autonomous Precision Landing of Space Rockets, and [Acikmese and Ploen 2007][research_acikmese_ploen_2007] Convex Programming Approach to Powered Descent Guidance supplies the engineering documentation of the propulsive-landing capability whose transfer to the lunar and Mars applications the article treats.
+The business case-study literature on the firm appears in the [Anadol et al. 2018][research_anadol_cohen_2018] Harvard Business School treatment, the [Stanford Graduate School of Business case collection][ref_stanford_spacex_case], and the [Wharton knowledge repository][ref_wharton_spacex_case]. The biographical literature comprising [Berger 2021][book_berger_2021] Liftoff, [Berger 2024][book_berger_2024] Reentry, [Vance 2015][book_vance_2015] Elon Musk, [Isaacson 2023][book_isaacson_2023] Elon Musk, [Davenport 2018][book_davenport_2018] The Space Barons, and [Fernholz 2018][book_fernholz_2018] Rocket Billionaires supplies the narrative record of the requirement-articulation sequence. The technical-record literature comprising The Falcon 1 Launch Vehicle Demonstration Flights, [Blackmore 2016][research_blackmore_2016] Autonomous Precision Landing of Space Rockets, and [Acikmese and Ploen 2007][research_acikmese_ploen_2007] Convex Programming Approach to Powered Descent Guidance supplies the engineering documentation of the propulsive-landing capability whose transfer to the lunar and Mars applications the article treats.
 
 ### Recent Scholarship and the Contemporary Debate
 
-The scholarly treatment of the Starship configuration remains substantially thinner than the treatment of the Falcon 9 arrangement, because the vehicle entered flight testing only in the 2023 period and the academic publication cycle lags the operational record by several years. The consequence is that the literature available at the drafting date addresses the generality-forcing question largely by implication rather than directly. The most active current threads comprise the space-economics treatment of launch-cost decline and its downstream effects that [Weinzierl 2018][research_weinzierl_2018] Space the Final Economic Frontier initiated and that [Anderson 2023][book_anderson_2023] The Space Economy consolidates, the new-space definitional literature that [Peeters 2018][research_peeters_2018] Toward a Definition of New Space develops, the orbital-environment sustainability literature that the constellation-deployment application has made urgent, and the procurement-mechanism literature that the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] surveys. The disruptive-innovation framework has been applied to the sector repeatedly, and the applicability is contested. The original statement in [Bower and Christensen 1995][research_bower_christensen_1995] and [Christensen 1997][book_christensen_1997] describes an entrant serving an underserved low end and moving upmarket, whereas the SpaceX entry served the existing high end from the outset at a lower price. The subsequent refinements in [Christensen and Raynor 2003][book_christensen_raynor_2003] The Innovator's Solution, [Christensen Raynor and McDonald 2015][research_christensen_raynor_mcdonald_2015] What Is Disruptive Innovation, and [Rosenbloom and Christensen 1998][research_rosenbloom_christensen_1998] address the boundary conditions under which the framework applies, and the weight of the argument runs against classifying the SpaceX case as disruptive in the technical sense.
+The scholarly treatment of the Starship configuration remains substantially thinner than the treatment of the Falcon 9 arrangement, because the vehicle entered flight testing only in the 2023 period and the academic publication cycle lags the operational record by several years. The consequence is that the literature available at the drafting date addresses the generality-forcing question largely by implication rather than directly. The most active current threads comprise the space-economics treatment of launch-cost decline and its downstream effects that [Weinzierl 2018][research_weinzierl_2018] Space the Final Economic Frontier initiated and that [Anderson 2023][book_anderson_2023] The Space Economy consolidates, the new-space definitional literature that [Peeters 2018][research_peeters_2018] Toward a Definition of New Space develops, the orbital-environment sustainability literature that the constellation-deployment application has made urgent, and the procurement-mechanism literature that the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] surveys. The disruptive-innovation framework has been applied to the sector repeatedly, and the applicability is contested. The original statement in [Bower and Christensen 1995][research_bower_christensen_1995] and [Christensen 1997][book_christensen_1997] describes an entrant serving an underserved low end and moving upmarket, whereas the SpaceX entry served the existing high end from the outset at a lower price. The subsequent refinements in [Christensen and Raynor 2003][book_christensen_raynor_2003] The Innovator's Solution, [Christensen et al. 2015][research_christensen_raynor_mcdonald_2015] What Is Disruptive Innovation, and [Rosenbloom and Christensen 1998][research_rosenbloom_christensen_1998] address the boundary conditions under which the framework applies, and the weight of the argument runs against classifying the SpaceX case as disruptive in the technical sense.
 
 ### Critical and Skeptical Literature
 
@@ -631,11 +631,11 @@ A critical literature treats the firm and the broader sector in registers the pr
 
 ### Comparative-National and Developmental-State Literature
 
-The comparative-national literature treats the institutional arrangements under which other states have pursued mission-directed technology development. The developmental-state tradition comprising [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle, [Amsden 1989][book_amsden_1989] Asia's Next Giant, [Wade 1990][book_wade_1990] Governing the Market, [Evans 1995][book_evans_1995] Embedded Autonomy, [Woo-Cumings 1999][book_woo_cumings_1999] The Developmental State, and [Chang 2002][book_chang_2002] Kicking Away the Ladder supplies the comparative framework, and the contemporary extensions in [Block 2008][research_block_2008] Swimming Against the Current and [Weiss and Thurbon 2021][research_weiss_thurbon_2021] treat the United States case as a hidden developmental state whose instruments are procurement and research funding rather than ownership. The relevance to the generality-forcing condition is direct, because the cross-sectional analysis finds the requirement-dominance and adjacent-yield sub-properties anti-correlated, and the developmental-state arrangements are precisely the institutional attempts to hold both simultaneously. The institutional-economics foundations appear in [North 1990][book_north_1990] Institutions Institutional Change and Economic Performance, [Ostrom 1990][book_ostrom_1990] Governing the Commons, [Greif 2006][book_grief_2006] Institutions and the Path to the Modern Economy, and [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012] Why Nations Fail.
+The comparative-national literature treats the institutional arrangements under which other states have pursued mission-directed technology development. The developmental-state tradition comprising [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle, [Amsden 1989][book_amsden_1989] Asia's Next Giant, [Wade 1990][book_wade_1990] Governing the Market, [Evans 1995][book_evans_1995] Embedded Autonomy, [Woo-Cumings 1999][book_woo_cumings_1999] The Developmental State, and [Chang 2002][book_chang_2002] Kicking Away the Ladder supplies the comparative framework, and the contemporary extensions in [Block 2008][research_block_2008] Swimming Against the Current and [Weiss and Thurbon 2020][research_weiss_thurbon_2021] treat the United States case as a hidden developmental state whose instruments are procurement and research funding rather than ownership. The relevance to the generality-forcing condition is direct, because the cross-sectional analysis finds the requirement-dominance and adjacent-yield sub-properties anti-correlated, and the developmental-state arrangements are precisely the institutional attempts to hold both simultaneously. The institutional-economics foundations appear in [North 1990][book_north_1990] Institutions Institutional Change and Economic Performance, [Ostrom 1990][book_ostrom_1990] Governing the Commons, [Greif 2006][book_grief_2006] Institutions and the Path to the Modern Economy, and [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012] Why Nations Fail.
 
 ### Methodological Literature on Single-Case Inference
 
-The methodological problem the article confronts is that of drawing analytical conclusions from a single case selected on the dependent variable. The case-study methodology literature comprising [Yin 2014][book_yin_2014] Case Study Research and Applications and [Creswell 2014][book_creswell_2014] Research Design supplies the standards against which the article's inferential claims should be evaluated. The standards the article attempts to meet are the explicit statement of the rival explanations, the identification of observations that discriminate among them, and the refusal to generalize from a single case to a population claim. The paradigm and theory-change literature in [Kuhn 1962][book_kuhn_1962] The Structure of Scientific Revolutions and the evolutionary-economics treatments in [Nelson and Winter 1982][book_nelson_winter_1982] and [Metcalfe 1998][book_metcalfe_1998] Evolutionary Economics and Creative Destruction supply the caution about selection that the Alternative Analytical Frameworks section formalizes. The complexity and failure literature in [Kauffman 1993][book_kauffman_1993] The Origins of Order, [Ormerod 2005][book_ormerod_2005] Why Most Things Fail, and [Beinhocker 2006][book_beinhocker_2006] The Origin of Wealth supplies the base-rate framing within which a single survivor should be interpreted.
+The methodological problem the article confronts is that of drawing analytical conclusions from a single case selected on the dependent variable. The case-study methodology literature comprising [Yin 2014][book_yin_2014] Case Study Research and Applications and [Creswell and Creswell 2014][book_creswell_2014] Research Design supplies the standards against which the article's inferential claims should be evaluated. The standards the article attempts to meet are the explicit statement of the rival explanations, the identification of observations that discriminate among them, and the refusal to generalize from a single case to a population claim. The paradigm and theory-change literature in [Kuhn 1962][book_kuhn_1962] The Structure of Scientific Revolutions and the evolutionary-economics treatments in [Nelson and Winter 1982][book_nelson_winter_1982] and [Metcalfe 1998][book_metcalfe_1998] Evolutionary Economics and Creative Destruction supply the caution about selection that the Alternative Analytical Frameworks section formalizes. The complexity and failure literature in [Kauffman 1993][book_kauffman_1993] The Origins of Order, [Ormerod 2005][book_ormerod_2005] Why Most Things Fail, and [Beinhocker 2006][book_beinhocker_2006] The Origin of Wealth supplies the base-rate framing within which a single survivor should be interpreted.
 
 ### Reliability, Safety, and Organizational-Failure Literature
 
@@ -697,7 +697,7 @@ The empirical-record limitations are substantial and are stated explicitly. The 
 
 The generality-forcing framing the article develops is one of several analytical frameworks the surrounding literature applies to the SpaceX capability configuration.
 
-The general-purpose-technology framing developed in [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] and [Lipsey Carlaw and Bekar 2005][book_lipsey_carlaw_bekar_2005] treats the Starship configuration as a candidate general-purpose technology in the space-transportation domain. The framing evaluates the configuration against the pervasiveness, improvement-potential, and complementary-innovation criteria. The criteria admit joint statement as a conjunction
+The general-purpose-technology framing developed in [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] and [Lipsey et al. 2005][book_lipsey_carlaw_bekar_2005] treats the Starship configuration as a candidate general-purpose technology in the space-transportation domain. The framing evaluates the configuration against the pervasiveness, improvement-potential, and complementary-innovation criteria. The criteria admit joint statement as a conjunction
 
 $$\text{GPT} \iff \left[ P^{\text{pervasiveness}} \geq \bar{P} \right] \wedge \left[ I^{\text{improvement-potential}} \geq \bar{I} \right] \wedge \left[ C^{\text{complementary-innovation}} \geq \bar{C} \right]$$
 
@@ -709,7 +709,7 @@ $$L^{\text{platform}} = \frac{\sum_{a \in A} V^{\text{variant}}(a)}{C^{\text{pla
 
 with the leverage increasing in the variant count and decreasing in the platform development cost. The framing captures the Starship variant set comprising the tanker, cargo, crew, and lunar-lander configurations, and understates the mission articulation that determined the platform requirement set.
 
-The dynamic-capabilities framing developed in [Teece Pisano and Shuen 1997][research_teece_pisano_shuen_1997], [Teece 2007][research_teece_2007], [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000], [Helfat and Peteraf 2003][research_helfat_peteraf_2003], and [Winter 2003][research_winter_2003] treats the generality as a sensing, seizing, and reconfiguring capability that permits the firm to redeploy the capability configuration across emergent application opportunities. The framing captures the speed with which the firm entered the constellation-deployment and defense-services applications and understates the ex ante character of the 2017 application articulation.
+The dynamic-capabilities framing developed in [Teece et al. 1997][research_teece_pisano_shuen_1997], [Teece 2007][research_teece_2007], [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000], [Helfat and Peteraf 2003][research_helfat_peteraf_2003], and [Winter 2003][research_winter_2003] treats the generality as a sensing, seizing, and reconfiguring capability that permits the firm to redeploy the capability configuration across emergent application opportunities. The framing captures the speed with which the firm entered the constellation-deployment and defense-services applications and understates the ex ante character of the 2017 application articulation.
 
 The absorptive-capacity and knowledge-transfer framing developed in [Cohen and Levinthal 1990][research_cohen_levinthal_1990], [Kogut and Zander 1992][research_kogut_zander_1992], and [Grant 1996][research_grant_1996] treats the bidirectional capability transfer between the lunar-lander and Mars-transportation configurations as an internal knowledge-transfer process whose efficiency depends on the organizational arrangement. The framing yields the mechanism by which the spillover coefficients the economic-property section defines take nonzero values.
 
@@ -729,17 +729,17 @@ with the persistence explained by the switching cost exceeding the value differe
 
 The escalation-of-commitment framing developed in [Staw 1976][research_staw_1976] Knee-Deep in the Big Muddy and [Ross and Staw 1993][research_ross_staw_1993] Organizational Escalation and Exit supplies the skeptical reading. The framing treats the persistence of the Mars articulation as a commitment escalation whose function is the retrospective justification of a capability configuration that commercial considerations in fact determined. The framing generates the testable prediction that the configuration decisions will track the commercial requirement wherever the commercial and mission requirements diverge. The in-space-refueling development and the extravehicular-suit development are the available divergence cases, and the evidence at the drafting date runs against the skeptical reading on both.
 
-The social-construction framing developed in [Bijker Hughes and Pinch 1987][book_bijker_hughes_pinch_1987] The Social Construction of Technological Systems and [Bijker 1995][book_bijker_1995] Of Bicycles Bakelites and Bulbs treats the requirement stack as a negotiated outcome among relevant social groups rather than as a technical derivation. The framing provides the most useful reading of the Space Shuttle negation case, because the union construction the case exhibits is precisely the outcome the framing predicts when no single group holds interpretive authority over the requirement set.
+The social-construction framing developed in [Bijker et al. 1987][book_bijker_hughes_pinch_1987] The Social Construction of Technological Systems and [Bijker 1995][book_bijker_1995] Of Bicycles Bakelites and Bulbs treats the requirement stack as a negotiated outcome among relevant social groups rather than as a technical derivation. The framing provides the most useful reading of the Space Shuttle negation case, because the union construction the case exhibits is precisely the outcome the framing predicts when no single group holds interpretive authority over the requirement set.
 
-The ecosystem framing developed in [Adner 2012][book_adner_2012] The Wide Lens, [Adner and Kapoor 2010][research_adner_kapoor_2010], and [Jacobides et al 2018][research_jacobides_et_al_2018] treats the application coverage as an ecosystem-construction problem in which the complementary actors comprising the payload developers, the ground-segment providers, and the regulatory authorities must adapt before the capability generalizes. The framing offers the explanation for the lag between the capability availability and the application realization that the mass-to-orbit-reduction section documents.
+The ecosystem framing developed in [Adner 2012][book_adner_2012] The Wide Lens, [Adner and Kapoor 2009][research_adner_kapoor_2010], and [Jacobides et al. 2018][research_jacobides_et_al_2018] treats the application coverage as an ecosystem-construction problem in which the complementary actors comprising the payload developers, the ground-segment providers, and the regulatory authorities must adapt before the capability generalizes. The framing offers the explanation for the lag between the capability availability and the application realization that the mass-to-orbit-reduction section documents.
 
-The transaction-cost framing developed in [Coase 1937][research_coase_1937], [Williamson 1985][book_williamson_1985], and [Klein Crawford and Alchian 1978][research_klein_crawford_alchian_1978] treats the decision to hold the general capability inside a single firm as the object requiring explanation. The framing asks why a configuration general enough to serve many applications does not fragment into a supplier market, and it answers through the asset specificity and contracting hazards attending a novel capability. The framing gives the complement to the generality-forcing analysis, because generality-forcing explains why the capability exists and transaction-cost economics explains why the single firm captures it.
+The transaction-cost framing developed in [Coase 1937][research_coase_1937], [Williamson 1985][book_williamson_1985], and [Klein et al. 1978][research_klein_crawford_alchian_1978] treats the decision to hold the general capability inside a single firm as the object requiring explanation. The framing asks why a configuration general enough to serve many applications does not fragment into a supplier market, and it answers through the asset specificity and contracting hazards attending a novel capability. The framing gives the complement to the generality-forcing analysis, because generality-forcing explains why the capability exists and transaction-cost economics explains why the single firm captures it.
 
-The platform and two-sided-market framing developed in [Rochet and Tirole 2003][research_rochet_tirole_2003], [Parker and Van Alstyne 2005][research_parker_vanalstyne_2005] Two-Sided Network Effects, [Eisenmann et al 2006][research_eisenmann_et_al_2006] Strategies for Two-Sided Markets, [Van Alstyne Parker and Choudary 2016][book_vanalstyne_parker_choudary_2016] Platform Revolution, [Cusumano and Gawer 2002][book_cusumano_gawer_2002] Platform Leadership, [Gawer 2014][research_gawer_2014] Bridging Differing Perspectives on Technological Platforms, and [Boudreau 2010][research_boudreau_2010] Open Platform Strategies treats the launch capability as a platform mediating between payload developers on one side and orbital destinations on the other. The framing captures the complementary investments that payload designers make once a launch configuration attains adoption, and it identifies the mechanism by which the mass-to-orbit relaxation propagates into payload redesign rather than merely into launch-price reduction.
+The platform and two-sided-market framing developed in [Rochet and Tirole 2003][research_rochet_tirole_2003], [Parker and Van Alstyne 2005][research_parker_vanalstyne_2005] Two-Sided Network Effects, [Eisenmann et al. 2006][research_eisenmann_et_al_2006] Strategies for Two-Sided Markets, [Choudary et al. 2016][book_vanalstyne_parker_choudary_2016] Platform Revolution, [Gawer and Cusumano 2002][book_cusumano_gawer_2002] Platform Leadership, [Gawer 2014][research_gawer_2014] Bridging Differing Perspectives on Technological Platforms, and [Boudreau 2010][research_boudreau_2010] Open Platform Strategies treats the launch capability as a platform mediating between payload developers on one side and orbital destinations on the other. The framing captures the complementary investments that payload designers make once a launch configuration attains adoption, and it identifies the mechanism by which the mass-to-orbit relaxation propagates into payload redesign rather than merely into launch-price reduction.
 
 The public-choice and rent-seeking framing developed in [Buchanan and Tullock 1962][book_buchanan_tullock_1962], [Stigler 1971][research_stigler_1971], and [Krueger 1974][research_krueger_1974] treats the state-created contracting opportunities as the operative cause and the capability configuration as substantially incidental. The framing generates the testable implication that the firm's returns should track the political cycle rather than the capability accumulation. The implication is checkable against the commercial revenue share that the [Value Capture article A284][related_post_a284_spacex_value_capture] documents, and the evidence at the drafting date runs against the strong form of the framing while supporting the weaker claim that the early-period survival depended on state procurement.
 
-The developmental-state framing developed in [Johnson 1982][book_johnson_1982], [Amsden 1989][book_amsden_1989], [Wade 1990][book_wade_1990], [Evans 1995][book_evans_1995], [Block 2008][research_block_2008], and [Weiss and Thurbon 2021][research_weiss_thurbon_2021] treats the arrangement as an instance of state-directed development operating through procurement rather than ownership. The framing is the most useful lens on the anti-correlation the cross-sectional analysis identifies, because the developmental-state arrangements are the institutional attempts to combine a state-supplied dominating mission with a commercially disciplined provider.
+The developmental-state framing developed in [Johnson 1982][book_johnson_1982], [Amsden 1989][book_amsden_1989], [Wade 1990][book_wade_1990], [Evans 1995][book_evans_1995], [Block 2008][research_block_2008], and [Weiss and Thurbon 2020][research_weiss_thurbon_2021] treats the arrangement as an instance of state-directed development operating through procurement rather than ownership. The framing is the most useful lens on the anti-correlation the cross-sectional analysis identifies, because the developmental-state arrangements are the institutional attempts to combine a state-supplied dominating mission with a commercially disciplined provider.
 
 The evolutionary-economics framing developed in [Nelson and Winter 1982][book_nelson_winter_1982] An Evolutionary Theory of Economic Change and the industry-life-cycle treatment in [Klepper 1996][research_klepper_1996] Entry Exit Growth and Innovation over the Product Life Cycle treats the sector as a selection environment in which configurations compete and the surviving arrangement is not necessarily the ex ante optimal one. The framing yields the caution against reading the SpaceX outcome as a demonstration that the generality-forcing strategy is generally advisable, because the observed sample contains a single surviving instance and the unobserved sample of failed mission-directed ventures is not available. The inferential error the caution guards against can be stated compactly as the inequality
 
@@ -791,425 +791,432 @@ The article closes with the load-bearing open questions that the generality-forc
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Abbate 1999 Inventing the Internet][book_abbate_1999]
-- [Acemoglu and Robinson 2012 Why Nations Fail][book_acemoglu_robinson_2012]
-- [Adner 2012 The Wide Lens][book_adner_2012]
-- [Amsden 1989 Asia's Next Giant][book_amsden_1989]
-- [Anderson 2023 The Space Economy][book_anderson_2023]
-- [Anthony 2007 Mapping Your Innovation Strategy][book_anthony_2007]
-- [Argote 1999 Organizational Learning][book_argote_1999]
-- [Argyris and Schon 1978 Organizational Learning][book_argyris_schon_1978]
-- [Bain 1968 Industrial Organization][book_bain_1968]
-- [Baldwin and Clark 2000 Design Rules][book_baldwin_clark_2000]
-- [Beinhocker 2006 The Origin of Wealth][book_beinhocker_2006]
-- [Benson and Faherty 1978 Moonport][book_benson_faherty_1978]
-- [Berger 2021 Liftoff][book_berger_2021]
-- [Berger 2024 Reentry][book_berger_2024]
-- [Berlin 2005 The Man Behind the Microchip][book_berlin_2005]
-- [Bijker 1995 Of Bicycles Bakelites and Bulbs][book_bijker_1995]
-- [Bijker Hughes and Pinch 1987 The Social Construction of Technological Systems][book_bijker_hughes_pinch_1987]
-- [Bilstein 1996 Stages to Saturn][book_bilstein_1996]
-- [Bilstein 2001 Flight in America][book_bilstein_2001]
-- [Blanchard and Fabrycky 2011 Systems Engineering and Analysis][book_blanchard_fabrycky_2011]
-- [Bork 1978 The Antitrust Paradox][book_bork_1978]
-- [Buchanan and Tullock 1962 The Calculus of Consent][book_buchanan_tullock_1962]
-- [Buede 2009 The Engineering Design of Systems Models and Methods][book_buede_2009]
-- [Chadeau 1996 Airbus Industrie History][book_chadeau_1996]
-- [Chaikin 1994 A Man on the Moon][book_chaikin_1994]
-- [Chaikin 2007 A Man on the Moon][book_chaikin_2007]
-- [Chang 2002 Kicking Away the Ladder][book_chang_2002]
-- [Christensen 1997 The Innovator's Dilemma][book_christensen_1997]
-- [Christensen and Raynor 2003 The Innovator's Solution][book_christensen_raynor_2003]
-- [Constant 1980 The Origins of the Turbojet Revolution][book_constant_1980]
-- [Creswell 2014 Research Design][book_creswell_2014]
-- [Crouch 2003 Wings A History of Aviation from Kites to the Space Age][book_crouch_2003]
-- [Curtis 2013 Orbital Mechanics for Engineering Students][book_curtis_2013]
-- [Cusumano and Gawer 2002 Platform Leadership][book_cusumano_gawer_2002]
-- [Cyert and March 1963 A Behavioral Theory of the Firm][book_cyert_march_1963]
-- [Davenport 2018 The Space Barons][book_davenport_2018]
-- [Dixit and Pindyck 1994 Investment Under Uncertainty][book_dixit_pindyck_1994]
-- [Evans 1995 Embedded Autonomy][book_evans_1995]
-- [Ezell and Ezell 1978 The Partnership][book_ezell_ezell_1978]
-- [Fallows 1981 National Defense][book_fallows_1981]
-- [Fernholz 2018 Rocket Billionaires][book_fernholz_2018]
-- [Ford and Crowther 1922 My Life and Work][book_ford_crowther_1922]
-- [Foster and McChesney 2011 The Endless Crisis][book_foster_mcchesney_2011]
-- [Freeman 1987 Technology Policy and Economic Performance][book_freeman_1987]
-- [Gertner 2012 The Idea Factory][book_gertner_2012]
-- [Golley 1987 Whittle The True Story][book_golley_1987]
-- [Green and Lomask 1970 Vanguard A History][book_green_lomask_1970]
-- [Greif 2006 Institutions and the Path to the Modern Economy][book_grief_2006]
-- [Hartley 2017 The Economics of Arms][book_hartley_2017]
-- [Hendrickx and Vis 2007 Energiya-Buran The Soviet Space Shuttle][book_hendrickx_vis_2007]
-- [Heppenheimer 1999 The Space Shuttle Decision][book_heppenheimer_1999]
-- [Horwitch 1982 Clipped Wings The American SST Conflict][book_horwitch_1982]
-- [Hounshell 1984 From the American System to Mass Production][book_hounshell_1984]
-- [Hovenkamp 2005 The Antitrust Enterprise][book_hovenkamp_2005]
-- [Hughes 1983 Networks of Power][book_hughes_1983]
-- [Humble Henry and Larson 1995 Space Propulsion Analysis and Design][book_humble_henry_larson_1995]
-- [Hunter 2016 Creating Strategic Value][book_hunter_2016]
-- [Isaacson 2023 Elon Musk][book_isaacson_2023]
-- [Jenkins 2001 Space Shuttle][book_jenkins_2001]
-- [Johnson 1982 MITI and the Japanese Miracle][book_johnson_1982]
-- [Kahn 1988 The Economics of Regulation][book_kahn_1988]
-- [Kahneman 2011 Thinking Fast and Slow][book_kahneman_2011]
-- [Kaplan 1991 The Wizards of Armageddon][book_kaplan_1991]
-- [Kaplan and Norton 2001 The Strategy-Focused Organization][book_kaplan_norton_2001]
-- [Kauffman 1993 The Origins of Order][book_kauffman_1993]
-- [Kernighan and Ritchie 1978 The C Programming Language][book_kernighan_ritchie_1978]
-- [Klerkx 2004 Lost in Space][book_klerkx_2004]
-- [Kraemer 2006 Rocketdyne Powering Humans into Space][book_kraemer_2006]
-- [Kranz 2000 Failure Is Not an Option][book_kranz_2000]
-- [Krige et al 2000 A History of the European Space Agency][book_krige_et_al_2000]
-- [Kuhn 1962 The Structure of Scientific Revolutions][book_kuhn_1962]
-- [Larson and Wertz 1999 Space Mission Analysis and Design][book_larson_wertz_1999]
-- [Latour 1987 Science in Action][book_latour_1987]
-- [Latour and Woolgar 1979 Laboratory Life][book_latour_woolgar_1979]
-- [Launius 1994 NASA A History of the United States Civil Space Program][book_launius_1994]
-- [Launius 2004 Frontiers of Space Exploration][book_launius_2004]
-- [Lawrence 2016 Airbus versus Boeing][book_lawrence_2016]
-- [Lecuyer 2006 Making Silicon Valley][book_lecuyer_2006]
-- [Liker 2004 The Toyota Way][book_liker_2004]
-- [Lipsey Carlaw and Bekar 2005 Economic Transformations General Purpose Technologies and Long-Term Economic Growth][book_lipsey_carlaw_bekar_2005]
-- [Logsdon 1970 The Decision to Go to the Moon][book_logsdon_1970]
-- [Logsdon 2010 John F Kennedy and the Race to the Moon][book_logsdon_2010]
-- [Lundvall 1992 National Systems of Innovation][book_lundvall_1992]
-- [MacKenzie 1990 Inventing Accuracy][book_mackenzie_1990]
-- [Malone 2014 The Intel Trinity][book_malone_2014]
-- [March and Simon 1958 Organizations][book_march_simon_1958]
-- [Mazzucato 2013 The Entrepreneurial State][book_mazzucato_2013]
-- [Mazzucato 2021 Mission Economy][book_mazzucato_2021]
-- [McCurdy 1994 Inside NASA][book_mccurdy_1994]
-- [McDougall 1985 The Heavens and the Earth][book_mcdougall_1985]
-- [McIntyre 1992 Airbus Industrie][book_mcintyre_1992]
-- [Melman 1970 Pentagon Capitalism][book_melman_1970]
-- [Messeri 2016 Placing Outer Space][book_messeri_2016]
-- [Metcalfe 1998 Evolutionary Economics and Creative Destruction][book_metcalfe_1998]
-- [Meyer and Lehnerd 1997 The Power of Product Platforms][book_meyer_lehnerd_1997]
-- [Miller 1995 Lockheed Skunk Works The First Fifty Years][book_miller_1995]
-- [Mindell 2008 Digital Apollo][book_mindell_2008]
-- [Mowery and Rosenberg 1998 Paths of Innovation][book_mowery_rosenberg_1998]
-- [Murray and Cox 1989 Apollo][book_murray_cox_1989]
-- [Musa 1998 Software Reliability Engineering][book_musa_1998]
-- [Nelson 1993 National Innovation Systems][book_nelson_1993]
-- [Nelson and Winter 1982 An Evolutionary Theory of Economic Change][book_nelson_winter_1982]
-- [Neufeld 1995 The Rocket and the Reich][book_neufeld_1995]
-- [Neufeld 2013 Von Braun][book_neufeld_2013]
-- [Nevins 1954 Ford The Times The Man The Company][book_nevins_1954]
-- [Newhouse 1982 The Sporty Game][book_newhouse_1982]
-- [Newhouse 2007 Boeing versus Airbus][book_newhouse_2007]
-- [Nonaka and Takeuchi 1995 The Knowledge-Creating Company][book_nonaka_takeuchi_1995]
-- [Norberg and O'Neill 1996 Transforming Computer Technology][book_norberg_oneill_1996]
-- [North 1990 Institutions Institutional Change and Economic Performance][book_north_1990]
-- [Nye 1990 Electrifying America][book_nye_1990]
-- [O'Connor and Kleyner 2012 Practical Reliability Engineering][book_oconnor_kleyner_2012]
-- [Ohno 1988 Toyota Production System][book_ohno_1988]
-- [Ormerod 2005 Why Most Things Fail][book_ormerod_2005]
-- [Ostrom 1990 Governing the Commons][book_ostrom_1990]
-- [Owen 1997 Concorde The Story of a Supersonic Pioneer][book_owen_1997]
-- [Owen 2001 Concorde and the Americans][book_owen_2001]
-- [Perrow 1984 Normal Accidents][book_perrow_1984]
-- [Porter 1980 Competitive Strategy][book_porter_1980]
-- [Porter 1985 Competitive Advantage][book_porter_1985]
-- [Posner 2001 Antitrust Law][book_posner_2001]
-- [Prussing and Conway 2013 Orbital Mechanics][book_prussing_conway_2013]
-- [Pugh 1995 Building IBM][book_pugh_1995]
-- [Pugh Johnson and Palmer 1991 IBM's 360 and Early 370 Systems][book_pugh_johnson_palmer_1991]
-- [Redfield 2000 Space in the Tropics][book_redfield_2000]
-- [Rich and Janos 1994 Skunk Works][book_rich_janos_1994]
-- [Riordan and Hoddeson 1997 Crystal Fire][book_riordan_hoddeson_1997]
-- [Riordan Hoddeson and Kolb 2015 Tunnel Visions][book_riordan_hoddeson_kolb_2015]
-- [Robertson and Robertson 2012 Mastering the Requirements Process][book_robertson_robertson_2012]
-- [Rosenberg 1976 Perspectives on Technology][book_rosenberg_1976]
-- [Rosenberg 1982 Inside the Black Box][book_rosenberg_1982]
-- [Ruttan 2006 Is War Necessary for Economic Growth][book_ruttan_2006]
-- [Sanderson and Uzumeri 1997 Managing Product Families][book_sanderson_uzumeri_1997]
-- [Saxenian 1994 Regional Advantage][book_saxenian_1994]
-- [Scherer and Ross 1990 Industrial Market Structure and Economic Performance][book_scherer_ross_1990]
-- [Senge 1990 The Fifth Discipline][book_senge_1990]
-- [Serling 1992 Legend and Legacy][book_serling_1992]
-- [Sharkey 1982 The Theory of Natural Monopoly][book_sharkey_1982]
-- [Shingo 1989 A Study of the Toyota Production System][book_shingo_1989]
-- [Simon 1957 Administrative Behavior][book_simon_1957]
-- [Sommerville and Sawyer 1997 Requirements Engineering A Good Practice Guide][book_sommerville_sawyer_1997]
-- [Srnicek 2017 Platform Capitalism][book_srnicek_2017]
-- [Stumpf 2000 Titan II][book_stumpf_2000]
-- [Suh 2001 Axiomatic Design Advances and Applications][book_suh_2001]
-- [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
-- [Tirole 1988 The Theory of Industrial Organization][book_tirole_1988]
-- [Trigeorgis 1996 Real Options][book_trigeorgis_1996]
-- [Trubshaw 2000 Concorde The Inside Story][book_trubshaw_2000]
-- [Utterback 1994 Mastering the Dynamics of Innovation][book_utterback_1994]
-- [Van Alstyne Parker and Choudary 2016 Platform Revolution][book_vanalstyne_parker_choudary_2016]
-- [Vance 2015 Elon Musk][book_vance_2015]
-- [Vaughan 1996 The Challenger Launch Decision][book_vaughan_1996]
-- [Vertesi 2015 Seeing Like a Rover][book_vertesi_2015]
-- [Wade 1990 Governing the Market][book_wade_1990]
-- [Weick 1979 The Social Psychology of Organizing][book_weick_1979]
-- [Weick and Sutcliffe 2007 Managing the Unexpected][book_weick_sutcliffe_2007]
-- [Weiss 2014 America Inc][book_weiss_2014]
-- [Wertz Everett and Puschell 2011 Space Mission Engineering The New SMAD][book_wertz_everett_puschell_2011]
-- [Williamson 1985 The Economic Institutions of Capitalism][book_williamson_1985]
-- [Womack and Jones 2003 Lean Thinking][book_womack_jones_2003]
-- [Womack Jones and Roos 1990 The Machine That Changed the World][book_womack_jones_roos_1990]
-- [Woo-Cumings 1999 The Developmental State][book_woo_cumings_1999]
-- [Wu 2010 The Master Switch][book_wu_2010]
-- [Yin 2014 Case Study Research and Applications][book_yin_2014]
-- [Zuboff 2019 The Age of Surveillance Capitalism][book_zuboff_2019]
-- [Zubrin 1996 The Case for Mars][book_zubrin_1996]
-- [Zubrin 2019 The Case for Space][book_zubrin_2019]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Abernathy, William J., and Kim B. Clark. 1985. "Innovation: Mapping the Winds of Creative Destruction." *Research Policy* 14 (1): 3–22. [https://doi.org/10.1016/0048-7333(85)90021-6][research_abernathy_clark_1985]
+- Acikmese, Behcet, and Scott R. Ploen. 2007. "Convex Programming Approach to Powered Descent Guidance for Mars Landing." *Journal of Guidance, Control, and Dynamics* 30 (5): 1353–66. [https://doi.org/10.2514/1.27553][research_acikmese_ploen_2007]
+- Adner, Ron, and Rahul Kapoor. 2009. "Value Creation in Innovation Ecosystems: How the Structure of Technological Interdependence Affects Firm Performance in New Technology Generations." *Strategic Management Journal* 31 (3): 306–33. [https://doi.org/10.1002/smj.821][research_adner_kapoor_2010]
+- Argote, Linda, and Paul Ingram. 2000. "Knowledge Transfer: A Basis for Competitive Advantage in Firms." *Organizational Behavior and Human Decision Processes* 82 (1): 150–69. [https://doi.org/10.1006/obhd.2000.2893][research_argote_ingram_2000]
+- Bresnahan, Timothy F., and M. Trajtenberg. 1995. "General Purpose Technologies ‘Engines of Growth’?" *Journal of Econometrics* 65 (1): 83–108. [https://doi.org/10.1016/0304-4076(94)01598-t][research_bresnahan_trajtenberg_1995]
+- Christensen, Clayton M., and Richard S. Rosenbloom. 1995. "Explaining the Attacker's Advantage: Technological Paradigms, Organizational Dynamics, and the Value Network." *Research Policy* 24 (2): 233–57. [https://doi.org/10.1016/0048-7333(93)00764-k][research_christensen_rosenbloom_1995]
+- Coase, R. H. 1937. "The Nature of the Firm." *Economica* 4 (16): 386–405. [https://doi.org/10.1111/j.1468-0335.1937.tb00002.x][research_coase_1937]
+- Duane, J. T. 1964. "Learning Curve Approach to Reliability Monitoring." *IEEE Transactions on Aerospace* 2 (2): 563–66. [https://doi.org/10.1109/ta.1964.4319640][research_duane_1964]
+- Eisenhardt, Kathleen M., and Jeffrey A. Martin. 2000. "Dynamic Capabilities: What Are They?" *Strategic Management Journal* 21 (10–11): 1105–21. [https://doi.org/10.1002/1097-0266(200010/11)21:10/11\<1105::aid-smj133\>3.0.co;2-e][research_eisenhardt_martin_2000]
+- Farrell, Joseph, and Garth Saloner. 1985. "Standardization, Compatibility, and Innovation." *RAND Journal of Economics* 16 (1): 70. [https://doi.org/10.2307/2555589][research_farrell_saloner_1985]
+- Gawer, Annabelle. 2014. "Bridging Differing Perspectives on Technological Platforms: Toward an Integrative Framework." *Research Policy* 43 (7): 1239–49. [https://doi.org/10.1016/j.respol.2014.03.006][research_gawer_2014]
+- Gawer, Annabelle, and Michael A. Cusumano. 2013. "Industry Platforms and Ecosystem Innovation." *Journal of Product Innovation Management* 31 (3): 417–33. [https://doi.org/10.1111/jpim.12105][research_gawer_cusumano_2014]
+- Grant, Robert M. 1996. "Toward a Knowledge-Based Theory of the Firm." *Strategic Management Journal* 17 (S2): 109–22. [https://doi.org/10.1002/smj.4250171110][research_grant_1996]
+- Helfat, Constance E., and Margaret A. Peteraf. 2003. "The Dynamic Resource-Based View: Capability Lifecycles." *Strategic Management Journal* 24 (10): 997–1010. [https://doi.org/10.1002/smj.332][research_helfat_peteraf_2003]
+- Hertzfeld, Henry R. 2002. "Measuring the Economic Returns from Successful NASA Life Sciences Technology Transfers." *Journal of Technology Transfer* 27 (4): 311–20. [https://doi.org/10.1023/a:1020207506064][research_hertzfeld_2002]
+- Jacobides, Michael G., Carmelo Cennamo, and Annabelle Gawer. 2018. "Towards a Theory of Ecosystems." *Strategic Management Journal* 39 (8): 2255–76. [https://doi.org/10.1002/smj.2904][research_jacobides_et_al_2018]
+- Kessler, Donald J., and Burton G. Cour-Palais. 1978. "Collision Frequency of Artificial Satellites: The Creation of a Debris Belt." *Journal of Geophysical Research: Space Physics* 83 (A6): 2637–46. [https://doi.org/10.1029/ja083ia06p02637][research_kessler_courpalais_1978]
+- Kilby, J. S. 1976. "Invention of the Integrated Circuit." *IEEE Transactions on Electron Devices* 23 (7): 648–54. [https://doi.org/10.1109/t-ed.1976.18467][research_kilby_1976]
+- Maier, Mark W. 1998. "Architecting Principles for Systems-of-Systems." *Systems Engineering* 1 (4): 267–84. [https://doi.org/10.1002/(sici)1520-6858(1998)1:4\<267::aid-sys3\>3.0.co;2-d][research_maier_1998]
+- Murmann, Johann Peter, and Koen Frenken. 2006. "Toward a Systematic Framework for Research on Dominant Designs, Technological Innovations, and Industrial Change." *Research Policy* 35 (7): 925–52. [https://doi.org/10.1016/j.respol.2006.04.011][research_murmann_frenken_2006]
+- Noyce, Robert N. 1977. "Microelectronics." *Scientific American* 237 (3): 62–69. [https://doi.org/10.1038/scientificamerican0977-62][research_noyce_1976]
+- Pavitt, Keith. 1984. "Sectoral Patterns of Technical Change: Towards a Taxonomy and a Theory." *Research Policy* 13 (6): 343–73. [https://doi.org/10.1016/0048-7333(84)90018-0][research_pavitt_1984]
+- Sanchez, Ron, and Joseph T. Mahoney. 1996. "Modularity, Flexibility, and Knowledge Management in Product and Organization Design." *Strategic Management Journal* 17 (S2): 63–76. [https://doi.org/10.1002/smj.4250171107][research_sanchez_mahoney_1996]
+- Shockley, W. 1949. "The Theory Ofp-nJunctions in Semiconductors Andp-nJunction Transistors." *Bell System Technical Journal* 28 (3): 435–89. [https://doi.org/10.1002/j.1538-7305.1949.tb03645.x][research_shockley_1949]
+- Staw, Barry M. 1976. "Knee-Deep in the Big Muddy: A Study of Escalating Commitment to a Chosen Course of Action." *Organizational Behavior and Human Performance* 16 (1): 27–44. [https://doi.org/10.1016/0030-5073(76)90005-2][research_staw_1976]
+- Suárez, Fernando F., and James M. Utterback. 1995. "Dominant Designs and the Survival of Firms." *Strategic Management Journal* 16 (6): 415–30. [https://doi.org/10.1002/smj.4250160602][research_suarez_utterback_1995]
+- Teece, David J. 1986. "Profiting from Technological Innovation: Implications for Integration, Collaboration, Licensing and Public Policy." *Research Policy* 15 (6): 285–305. [https://doi.org/10.1016/0048-7333(86)90027-2][research_teece_1986]
+- Teece, David J. 2007. "Explicating Dynamic Capabilities: The Nature and Microfoundations of (Sustainable) Enterprise Performance." *Strategic Management Journal* 28 (13): 1319–50. [https://doi.org/10.1002/smj.640][research_teece_2007]
+- Teece, David J., Gary Pisano, and Amy Shuen. 1997. "Dynamic Capabilities and Strategic Management." *Strategic Management Journal* 18 (7): 509–33. [https://doi.org/10.1002/(sici)1097-0266(199708)18:7\<509::aid-smj882\>3.0.co;2-z][research_teece_pisano_shuen_1997]
+- Tversky, Amos, and Daniel Kahneman. 1992. "Advances in Prospect Theory: Cumulative Representation of Uncertainty." *Journal of Risk and Uncertainty* 5 (4): 297–323. [https://doi.org/10.1007/bf00122574][research_tversky_kahneman_1992]
+- Ulrich, Karl. 1995. "The Role of Product Architecture in the Manufacturing Firm." *Research Policy* 24 (3): 419–40. [https://doi.org/10.1016/0048-7333(94)00775-3][research_ulrich_1995]
+- Weeden, Brian C., and Tiffany Chow. 2012. "Taking a Common-Pool Resources Approach to Space Sustainability: A Framework and Potential Policies." *Space Policy* 28 (3): 166–72. [https://doi.org/10.1016/j.spacepol.2012.06.004][research_weeden_chow_2012]
+- Weiss, Linda, and Elizabeth Thurbon. 2020. "Developmental State or Economic Statecraft? Where, Why and How the Difference Matters." *New Political Economy* 26 (3): 472–89. [https://doi.org/10.1080/13563467.2020.1766431][research_weiss_thurbon_2021]
+- Winter, Sidney G. 2003. "Understanding Dynamic Capabilities." *Strategic Management Journal* 24 (10): 991–95. [https://doi.org/10.1002/smj.318][research_winter_2003]
+- Wright, T. P. 1936. "Factors Affecting the Cost of Airplanes." *Journal of the Aeronautical Sciences* 3 (4): 122–28. [https://doi.org/10.2514/8.155][research_wright_1936]
 
-- [AIAA Journal of Propulsion and Power][ref_aiaa_jpp]
-- [AIAA Journal of Spacecraft and Rockets][ref_aiaa_jsr]
-- [Arianespace][ref_arianespace]
-- [Ars Technica Space Coverage][ref_arstechnica_space]
-- [Aviation Week][ref_aviation_week]
-- [Axiom Space][ref_axiom_space]
-- [Bloomberg][ref_bloomberg]
-- [Blue Origin Press Releases][ref_blue_origin_press]
-- [Boeing Historical Archives][ref_boeing_historical_archives]
-- [Boeing Press Releases][ref_boeing_press]
-- [Breaking Defense][ref_breaking_defense]
-- [China Commercial Space Sector Coverage][ref_china_commercial_space]
-- [China National Space Administration][ref_chinese_space_program]
-- [Columbia Accident Investigation Board Report 2003][ref_caib_report_2003]
-- [Congressional Record][ref_congressional_record]
-- [Congressional Research Service Reports Database][ref_crs_reports]
-- [CRS 2022 Artemis Program Report][ref_crs_artemis_2022]
-- [Defense News][ref_defense_news]
-- [Department of Defense Contract Announcements][ref_dod_contracts]
-- [European Spaceflight][ref_european_spaceflight]
-- [FAA 14 CFR Part 450 Launch and Reentry Licensing Requirements][ref_faa_ast_licensing_regs_450]
-- [FAA AST Current Launch Licenses Database][ref_faa_ast]
-- [FAA Commercial Space Transportation Regulations 14 CFR Chapter III][ref_faa_ast_regulations]
-- [FAA SpaceX Starship Environmental Review][ref_faa_starship_ea]
-- [FCC Direct-to-Cell Authorization 2024][ref_fcc_direct_to_cell_2024]
-- [FCC Electronic Comment Filing System][ref_fcc_filings]
-- [FCC Starlink Authorization 2018][ref_fcc_starlink_2018]
-- [FCC Starlink Gen2 Authorization 2022][ref_fcc_starlink_gen2_2022]
-- [Federal Acquisition Regulation Part 15 Contracting by Negotiation][ref_far_part_15]
-- [GAO 2021 Blue Origin Human Landing System Protest Decision][ref_gao_blue_origin_hls_protest_2021]
-- [GAO 2022 Human Landing System Evaluation][ref_gao_hls_2022]
-- [GAO 2023 National Security Space Launch Evaluation][ref_gao_nssl_2023]
-- [GAO Reports and Testimonies Database][ref_gao_reports]
-- [House Science Space and Technology Committee Hearing Record][ref_house_science_committee_hearings]
-- [IBM Archives][ref_ibm_archives]
-- [INCOSE Systems Engineering Handbook][ref_incose_handbook]
-- [ISRO Press Releases][ref_isro_press]
-- [ITAR 22 CFR 120 through 130][ref_itar_22_cfr_120_130]
-- [ITU Radio Regulations][ref_itu_radio_regulations_2020]
-- [JAXA Press Releases][ref_jaxa_press]
-- [Journal of Space Safety Engineering][ref_jsse_journal]
-- [NASA Artemis Program Documentation][ref_nasa_artemis_program]
-- [NASA Authorization Act of 2010][ref_nasa_auth_2010]
-- [NASA Commercial Crew Program Documentation][ref_nasa_ccp_documents]
-- [NASA Constellation Program Documentation][ref_nasa_constellation]
-- [NASA Cryogenic Fluid Management and Propellant Transfer Literature][ref_ntrs_cryogenic_fluid_management]
-- [NASA Design Reference Architecture 5.0 for Mars][ref_nasa_dra_5_0]
-- [NASA Environmental Control and Life Support System Literature][ref_ntrs_eclss]
-- [NASA Exploration Systems Architecture Study Literature][ref_ntrs_esas_2005]
-- [NASA FAR Supplement][ref_nasa_far_supplement]
-- [NASA History Archives][ref_nasa_history]
-- [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021]
-- [NASA HLS Option B Award November 15 2022][ref_nasa_hls_option_b_2022]
-- [NASA HLS Sustaining Lander Award 2023][ref_nasa_hls_sustainable_2023]
-- [NASA Human Landing System Program Documentation][ref_nasa_hls_program]
-- [NASA Human Landing System Solicitation][ref_nasa_hls_solicitation]
-- [NASA International Space Station Documentation][ref_nasa_iss]
-- [NASA Mars Exploration Program][ref_nasa_mars_program]
-- [NASA Mars Science Documentation][ref_nasa_science_mars]
-- [NASA News Releases][ref_nasa_news]
-- [NASA NPR 7120.5 Program and Project Management Requirements][ref_nasa_npr_7120_5f]
-- [NASA Office of Inspector General 2021 Human Landing System Evaluation][ref_nasa_oig_hls_2021]
-- [NASA Office of Inspector General 2022 Artemis Management Evaluation][ref_nasa_oig_artemis_2022]
-- [NASA Office of Inspector General Reports Database][ref_nasa_oig_reports]
-- [NASA Orbital Debris Program Office][ref_nasa_orbital_debris]
-- [NASA Partnerships and Space Act Agreements][ref_nasa_partnerships]
-- [NASA Review of United States Human Spaceflight Plans Committee Literature][ref_ntrs_hsf_committee_2009]
-- [NASA Space Launch System Program Documentation][ref_nasa_sls_program]
-- [NASA Space Shuttle History Documentation][ref_nasa_shuttle_history]
-- [NASA Space Technology Mission Directorate][ref_nasa_stmd]
-- [NASA Supersonic Retropropulsion Literature][ref_ntrs_supersonic_retropropulsion]
-- [NASA Systems Engineering Handbook][ref_nasa_se_handbook]
-- [NASA Technical Reports Server][ref_nasa_ntrs]
-- [NASA Technical Standards System][ref_nasa_std_8709_22]
-- [NASA TechPort Technology Database][ref_nasa_techport]
-- [NASA Vision for Space Exploration Literature][ref_ntrs_vision_space_exploration]
-- [NASASpaceflight][ref_nasaspaceflight]
-- [New York Times 2024 Starshield Coverage][ref_nyt_starshield_2024]
-- [New York Times Space Coverage][ref_nyt]
-- [Northrop Grumman Press Releases][ref_northrop_grumman_press]
-- [Payload][ref_payload]
-- [Payload Research][ref_payload_research]
-- [Polaris Program][ref_polaris_program]
-- [Rocket Lab Press Releases][ref_rocket_lab_press]
-- [Rogers Commission Report 1986][ref_rogers_commission_1986]
-- [Space Force National Security Space Launch][ref_space_force_nssl]
-- [Space Force News][ref_space_force_news]
-- [Space Force NSSL Phase 1A Award 2018][ref_space_force_nssl_phase1a_2018]
-- [Space Force NSSL Phase 2 Award 2020][ref_space_force_nssl_phase2_2020]
-- [Space Policy Journal][ref_space_policy_journal]
-- [Space Policy Online][ref_space_policy_online]
-- [SpaceNews][ref_spacenews]
-- [SpaceNews National Security Space Launch Phase 3 Coverage][ref_spacenews_nssl_phase3]
-- [SpaceX Falcon 9 Vehicle Documentation][ref_spacex_falcon9_vehicle]
-- [SpaceX Falcon Heavy Vehicle Documentation][ref_spacex_falcon_heavy_vehicle]
-- [SpaceX Human Spaceflight Documentation][ref_spacex_human_spaceflight]
-- [SpaceX News Archive][ref_spacex_news_archive]
-- [SpaceX Starshield Documentation][ref_spacex_starshield]
-- [SpaceX Starship Vehicle Documentation][ref_spacex_starship_vehicle]
-- [Stanford Graduate School of Business Case Collection][ref_stanford_spacex_case]
-- [Starlink Service Documentation][ref_spacex_starlink]
-- [The Space Review][ref_the_space_review]
-- [United Launch Alliance News][ref_ula_press]
-- [United Nations Outer Space Treaty of 1967][ref_un_outer_space_treaty_1967]
-- [United States Commercial Space Launch Competitiveness Act of 2015][ref_uscsla_2015]
-- [United States Court of Federal Claims][ref_uscfc]
-- [Wall Street Journal Technology Coverage][ref_wsj]
-- [Washington Post Technology Coverage][ref_washington_post]
-- [Wharton Knowledge Repository][ref_wharton_spacex_case]
+### Primary Sources, Non-Peer-Reviewed
 
-### Research
+- "14 CFR Chapter III FAA Commercial Space Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III][ref_faa_ast_regulations]
+- "14 CFR Part 450 -- Launch and Reentry License Requirements." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450][ref_faa_ast_licensing_regs_450]
+- "22 CFR Chapter I Subchapter M -- International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M][ref_itar_22_cfr_120_130]
+- Aghion, Philippe, and Peter Howitt. 1992. "A Model of Growth through Creative Destruction." *Econometrica* 60 (2): 323. [https://doi.org/10.2307/2951599][research_aghion_howitt_1992]
+- Anderson, Philip, and Michael L. Tushman. 1990. "Technological Discontinuities and Dominant Designs: A Cyclical Model of Technological Change." *Administrative Science Quarterly* 35 (4): 604. [https://doi.org/10.2307/2393511][research_anderson_tushman_1990]
+- Anthony. 2007. *Mapping Your Innovation Strategy*. Harvard Business Publishing. [https://www.hbsp.harvard.edu/product/1793-HBK-ENG][book_anthony_2007]
+- Argote, Linda, and Dennis Epple. 1990. "Learning Curves in Manufacturing." *Science* 247 (4945): 920–24. [https://doi.org/10.1126/science.247.4945.920][research_argote_epple_1990]
+- Argote, Linda, and Ella Miron-Spektor. 2011. "Organizational Learning: From Experience to Knowledge." *Organization Science* 22 (5): 1123–37. [https://doi.org/10.1287/orsc.1100.0621][research_argote_miron_spektor_2011]
+- Arrow, Kenneth J. 1962. "Economic Welfare and the Allocation of Resources for Invention." In *The Rate and Direction of Inventive Activity*. Princeton University Press. [https://doi.org/10.1515/9781400879762-024][research_arrow_1962]
+- Arthur, W. Brian. 1989. "Competing Technologies, Increasing Returns, and Lock-In by Historical Events." *Economic Journal* 99 (394): 116. [https://doi.org/10.2307/2234208][research_arthur_1989]
+- Bardeen, J., and W. H. Brattain. 1948. "The Transistor, a Semi-Conductor Triode." *Physical Review* 74 (2): 230–31. [https://doi.org/10.1103/physrev.74.230][research_bardeen_brattain_1948]
+- Beinhocker. 2006. *The Origin of Wealth*. Harvard Business Publishing. [https://www.hbsp.harvard.edu/product/5062-HBK-ENG][book_beinhocker_2006]
+- Block, Fred. 2008. "Swimming against the Current: The Rise of a Hidden Developmental State in the United States." *Politics & Society* 36 (2): 169–206. [https://doi.org/10.1177/0032329208318731][research_block_2008]
+- Boudreau, Kevin. 2010. "Open Platform Strategies and Innovation: Granting Access vs. Devolving Control." *Management Science* 56 (10): 1849–72. [https://doi.org/10.1287/mnsc.1100.1215][research_boudreau_2010]
+- Cohen, Wesley M., and Daniel A. Levinthal. 1990. "Absorptive Capacity: A New Perspective on Learning and Innovation." *Administrative Science Quarterly* 35 (1): 128. [https://doi.org/10.2307/2393553][research_cohen_levinthal_1990]
+- "Columbia Accident Investigation Board Report." 2003. [https://www.govinfo.gov/app/details/GPO-CAIB][ref_caib_report_2003]
+- "Commercial Space Transportation \| Federal Aviation AdministrationLockUnited States Department of Transportation." n.d. Accessed October 25, 2026. [https://www.faa.gov/space][ref_faa_ast]
+- "Congressional Record." n.d. Accessed October 25, 2026. [https://www.congress.gov/congressional-record][ref_congressional_record]
+- *Congressional Research Service Reports Database*. n.d. Congressional Research Service. [https://crsreports.congress.gov/][ref_crs_reports]
+- CRS. 2022. *Artemis Program Report*. Congressional Research Service. [https://crsreports.congress.gov/product/pdf/R/R47064][ref_crs_artemis_2022]
+- Drake, Bret G. 2009. *Human Exploration of Mars Design Reference Architecture 5.0*. JSC-17778. NASA Johnson Space Center. [https://ntrs.nasa.gov/citations/20090012109][ref_nasa_dra_5_0]
+- Dutton, John M., and Annie Thomas. 1984. "Treating Progress Functions as a Managerial Opportunity." *Academy of Management Review* 9 (2): 235. [https://doi.org/10.2307/258437][research_dutton_thomas_1984]
+- "FAA Starship Programmatic Environmental Assessment." n.d. Accessed October 25, 2026. [https://www.faa.gov/space/stakeholder\_engagement/spacex\_starship][ref_faa_starship_ea]
+- "FCC Direct-to-Cell Authorization." 2024. [https://docs.fcc.gov/public/attachments/DA-24-208A1.pdf][ref_fcc_direct_to_cell_2024]
+- "FCC Starlink Authorization March." 2018. [https://docs.fcc.gov/public/attachments/FCC-18-38A1.pdf][ref_fcc_starlink_2018]
+- "FCC Starlink Generation 2 Authorization December." 2022. [https://docs.fcc.gov/public/attachments/FCC-22-91A1.pdf][ref_fcc_starlink_gen2_2022]
+- "Federal Acquisition Regulation Part 15 Contracting by Negotiation." n.d. Accessed October 25, 2026. [https://www.acquisition.gov/far/part-15][ref_far_part_15]
+- GAO. 2021. "Human Landing System Protest Decision." [https://www.gao.gov/products/b-419783][ref_gao_blue_origin_hls_protest_2021]
+- GAO. 2022. "Human Landing System Evaluation." [https://www.gao.gov/products/gao-22-105506][ref_gao_hls_2022]
+- GAO. 2023. "National Security Space Launch Evaluation." [https://www.gao.gov/products/gao-23-105815][ref_gao_nssl_2023]
+- "GAO Reports and Testimonies Database." n.d. Accessed October 25, 2026. [https://www.gao.gov/reports-testimonies][ref_gao_reports]
+- Griliches, Zvi. 1979. "Issues in Assessing the Contribution of Research and Development to Productivity Growth." *Bell Journal of Economics* 10 (1): 92. [https://doi.org/10.2307/3003321][research_griliches_1979]
+- Grossman, Sanford J., and Oliver D. Hart. 1986. "The Costs and Benefits of Ownership: A Theory of Vertical and Lateral Integration." *Journal of Political Economy* 94 (4): 691–719. [https://doi.org/10.1086/261404][research_grossman_hart_1986]
+- Hart, Oliver, and John Moore. 1990. "Property Rights and the Nature of the Firm." *Journal of Political Economy* 98 (6): 1119–58. [https://doi.org/10.1086/261729][research_hart_moore_1990]
+- Henderson, Rebecca M., and Kim B. Clark. 1990. "Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Established Firms." *Administrative Science Quarterly* 35 (1): 9. [https://doi.org/10.2307/2393549][research_henderson_clark_1990]
+- "House Committee on Science Space & Tech." n.d. House Committee on Science Space & Tech - Republicans. Accessed October 25, 2026. [https://science.house.gov/][ref_house_science_committee_hearings]
+- Huber, George P. 1991. "Organizational Learning: The Contributing Processes and the Literatures." *Organization Science* 2 (1): 88–115. [https://doi.org/10.1287/orsc.2.1.88][research_huber_1991]
+- Kahneman, Daniel, and Amos Tversky. 1979. "Prospect Theory: An Analysis of Decision under Risk." *Econometrica* 47 (2): 263. [https://doi.org/10.2307/1914185][research_kahneman_tversky_1979]
+- Klein, Benjamin, Robert G. Crawford, and Armen A. Alchian. 1978. "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process." *Journal of Law and Economics* 21 (2): 297–326. [https://doi.org/10.1086/466922][research_klein_crawford_alchian_1978]
+- Kogut, Bruce, and Udo Zander. 1992. "Knowledge of the Firm, Combinative Capabilities, and the Replication of Technology." *Organization Science* 3 (3): 383–97. [https://doi.org/10.1287/orsc.3.3.383][research_kogut_zander_1992]
+- Lafontaine, Francine, and Margaret Slade. 2007. "Vertical Integration and Firm Boundaries: The Evidence." *Journal of Economic Literature* 45 (3): 629–85. [https://doi.org/10.1257/jel.45.3.629][research_lafontaine_slade_2007]
+- Levitt, Barbara, and James G. March. 1988. "Organizational Learning." *Annual Review of Sociology* 14 (1): 319–38. [https://doi.org/10.1146/annurev.so.14.080188.001535][research_levitt_march_1988]
+- March, James G. 1991. "Exploration and Exploitation in Organizational Learning." *Organization Science* 2 (1): 71–87. [https://doi.org/10.1287/orsc.2.1.71][research_march_1991]
+- Masten, Scott E. 1984. "The Organization of Production: Evidence from the Aerospace Industry." *Journal of Law and Economics* 27 (2): 403–17. [https://doi.org/10.1086/467071][research_masten_1984]
+- Monteverde, Kirk, and David J. Teece. 1982. "Supplier Switching Costs and Vertical Integration in the Automobile Industry." *Bell Journal of Economics* 13 (1): 206. [https://doi.org/10.2307/3003441][research_monteverde_teece_1982]
+- Musk, Elon. 2017. "Making Humans a Multi-Planetary Species." *New Space* 5 (2): 46–61. [https://doi.org/10.1089/space.2017.29009.emu][research_musk_2017_iac]
+- Musk, Elon. 2018. "Making Life Multi-Planetary." *New Space* 6 (1): 2–11. [https://doi.org/10.1089/space.2018.29013.emu][research_musk_2018_iac]
+- "NASA Authorization Act of." 2010. [https://www.congress.gov/111/plaws/publ267/PLAW-111publ267.pdf][ref_nasa_auth_2010]
+- "NASA FAR Supplement." n.d. Accessed October 25, 2026. [https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf][ref_nasa_far_supplement]
+- "NASA History." n.d. NASA. Accessed October 25, 2026. [https://history.nasa.gov/][ref_nasa_history]
+- "NASA Human Landing System Solicitation." n.d. Accessed October 25, 2026. [https://sam.gov/opp/human-landing-system/][ref_nasa_hls_solicitation]
+- NASA Office of Inspector General. 2021. *Human Landing System Evaluation*. NASA Office of Inspector General. [https://oig.nasa.gov/docs/IG-21-024.pdf][ref_nasa_oig_hls_2021]
+- NASA Office of Inspector General. 2022. *Artemis Management Evaluation*. NASA Office of Inspector General. [https://oig.nasa.gov/docs/IG-22-003.pdf][ref_nasa_oig_artemis_2022]
+- *NASA Office of Inspector General Reports Database*. n.d. NASA Office of Inspector General. [https://oig.nasa.gov/audits/][ref_nasa_oig_reports]
+- "NASA Program and Project Life Cycle Requirements NPR 7120.5F." n.d. Accessed October 25, 2026. [https://nodis3.gsfc.nasa.gov/npg\_img/N\_PR\_7120\_005F\_/N\_PR\_7120\_005F\_.pdf][ref_nasa_npr_7120_5f]
+- "NASA Space Shuttle History Documentation." n.d. Accessed October 25, 2026. [https://history.nasa.gov/shuttlehistory.html][ref_nasa_shuttle_history]
+- *NASA Technical Standards System*. n.d. [https://standards.nasa.gov/][ref_nasa_std_8709_22]
+- Nelson, Richard R. 1959. "The Simple Economics of Basic Scientific Research." *Journal of Political Economy* 67 (3): 297–306. [https://doi.org/10.1086/258177][research_nelson_1959]
+- Nonaka, Ikujiro. 1994. "A Dynamic Theory of Organizational Knowledge Creation." *Organization Science* 5 (1): 14–37. [https://doi.org/10.1287/orsc.5.1.14][research_nonaka_1994]
+- Nuseibeh, Bashar, and Steve Easterbrook. 2000. "Requirements Engineering: A Roadmap." In *Proceedings of the Conference on The Future of Software Engineering*. ACM. [https://doi.org/10.1145/336512.336523][research_nuseibeh_easterbrook_2000]
+- Parker, Geoffrey G., and Marshall W. Van Alstyne. 2005. "Two-Sided Network Effects: A Theory of Information Product Design." *Management Science* 51 (10): 1494–1504. [https://doi.org/10.1287/mnsc.1050.0400][research_parker_vanalstyne_2005]
+- Peeters, Walter. 2018. "Toward a Definition of New Space? The Entrepreneurial Perspective." *New Space* 6 (3): 187–90. [https://doi.org/10.1089/space.2017.0039][research_peeters_2018]
+- *Radio Regulations*. n.d. [https://www.itu.int/pub/R-REG-RR][ref_itu_radio_regulations_2020]
+- Ritchie, Dennis M., and Ken Thompson. 1974. "The UNIX Time-Sharing System." *Communications of the ACM* 17 (7): 365–75. [https://doi.org/10.1145/361011.361061][research_ritchie_thompson_1974]
+- Rochet, Jean-Charles, and Jean Tirole. 2003. "Platform Competition in Two-Sided Markets." *Journal of the European Economic Association* 1 (4): 990–1029. [https://doi.org/10.1162/154247603322493212][research_rochet_tirole_2003]
+- "Rogers Commission Report." 1986. [https://history.nasa.gov/rogersrep/genindex.htm][ref_rogers_commission_1986]
+- Romer, Paul M. 1990. "Endogenous Technological Change." *Journal of Political Economy* 98 (5, Part 2): S71-S102. [https://doi.org/10.1086/261725][research_romer_1990]
+- Rosenberg, Nathan, and Manuel Trajtenberg. 2001. *A General Purpose Technology at Work: The Corliss Steam Engine in the Late 19th Century US*. National Bureau of Economic Research. [https://doi.org/10.3386/w8485][research_rosenberg_trajtenberg_2004]
+- Rosenbloom, Richard S., and Clayton M. Christensen. 1998. "Technological Discontinuities, Organizational Capabilities, and Strategic Commitments." In *Technology, Organization, and Competitiveness*. Oxford University PressOxford. [https://doi.org/10.1093/0198290969.003.0007][research_rosenbloom_christensen_1998]
+- Ross, J., and B. M. Staw. 1993. "Organizational Escalation and Exit: Lessons from the Shoreham Nuclear Power Plant." *Academy of Management Journal* 36 (4): 701–32. [https://doi.org/10.2307/256756][research_ross_staw_1993]
+- Rysman, Marc. 2009. "The Economics of Two-Sided Markets." *Journal of Economic Perspectives* 23 (3): 125–43. [https://doi.org/10.1257/jep.23.3.125][research_rysman_2009]
+- Sage, Andrew P., and Christopher D. Cuppan. 2001. "On the Systems Engineering and Management of Systems of Systems and Federations of Systems." *Information Knowledge Systems Management* 2 (4): 325–45. [https://doi.org/10.3233/iks-2001-00045][research_sage_cuppan_2001]
+- Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
+- "U S Commercial Space Launch Competitiveness Act." 2015. [https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf][ref_uscsla_2015]
+- "United Nations Outer Space Treaty." 1967. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
+- "United States Court of Federal Claims." n.d. Accessed October 25, 2026. [https://www.uscfc.uscourts.gov/][ref_uscfc]
+- Weinzierl, Matthew. 2018. "Space, the Final Economic Frontier." *Journal of Economic Perspectives* 32 (2): 173–92. [https://doi.org/10.1257/jep.32.2.173][research_weinzierl_2018]
 
-- [Abernathy and Clark 1985 Innovation Mapping the Winds of Creative Destruction][research_abernathy_clark_1985]
-- [Acikmese and Ploen 2007 Convex Programming Approach to Powered Descent Guidance for Mars Landing][research_acikmese_ploen_2007]
-- [Adilov et al 2018 An Economic Analysis of Earth Orbit Pollution][research_adilov_et_al_2018]
-- [Adner and Kapoor 2010 Value Creation in Innovation Ecosystems][research_adner_kapoor_2010]
-- [Aghion and Howitt 1992 A Model of Growth Through Creative Destruction][research_aghion_howitt_1992]
-- [Anadol Cohen and Ferrari 2018 SpaceX Case Study][research_anadol_cohen_2018]
-- [Anderson and Tushman 1990 Technological Discontinuities and Dominant Designs][research_anderson_tushman_1990]
-- [Argote and Epple 1990 Learning Curves in Manufacturing][research_argote_epple_1990]
-- [Argote and Ingram 2000 Knowledge Transfer A Basis for Competitive Advantage in Firms][research_argote_ingram_2000]
-- [Argote and Miron-Spektor 2011 Organizational Learning From Experience to Knowledge][research_argote_miron_spektor_2011]
-- [Arrow 1962 Economic Welfare and the Allocation of Resources for Invention][research_arrow_1962]
-- [Arthur 1989 Competing Technologies Increasing Returns and Lock-In by Historical Events][research_arthur_1989]
-- [Bardeen and Brattain 1948 The Transistor A Semi-Conductor Triode][research_bardeen_brattain_1948]
-- [Baumol 1977 On the Proper Cost Tests for Natural Monopoly in a Multiproduct Industry][research_baumol_1977]
--
-- [Blackmore 2016 Autonomous Precision Landing of Space Rockets][research_blackmore_2016]
-- [Block 2008 Swimming Against the Current The Rise of a Hidden Developmental State][research_block_2008]
-- [Boudreau 2010 Open Platform Strategies and Innovation][research_boudreau_2010]
-- [Bower and Christensen 1995 Disruptive Technologies Catching the Wave][research_bower_christensen_1995]
-- [Bresnahan and Trajtenberg 1995 General Purpose Technologies Engines of Growth][research_bresnahan_trajtenberg_1995]
-- [Christensen and Rosenbloom 1995 Explaining the Attackers Advantage][research_christensen_rosenbloom_1995]
-- [Christensen Raynor and McDonald 2015 What Is Disruptive Innovation][research_christensen_raynor_mcdonald_2015]
-- [Coase 1937 The Nature of the Firm][research_coase_1937]
-- [Cohen and Levinthal 1990 Absorptive Capacity A New Perspective on Learning and Innovation][research_cohen_levinthal_1990]
-- [David 1985 Clio and the Economics of QWERTY][research_david_1985]
-- [David 1990 The Dynamo and the Computer][research_david_1990]
-- [Del Monte 2010 Defence Innovation and Technology Transfer][research_del_monte_2010]
-- [Dosi 1988 Sources Procedures and Microeconomic Effects of Innovation][research_dosi_1988]
-- [Duane 1964 Learning Curve Approach to Reliability Monitoring][research_duane_1964]
-- [Dutton and Thomas 1984 Treating Progress Functions as a Managerial Opportunity][research_dutton_thomas_1984]
-- [Eisenhardt and Martin 2000 Dynamic Capabilities What Are They][research_eisenhardt_martin_2000]
-- [Eisenmann Parker and Van Alstyne 2006 Strategies for Two-Sided Markets][research_eisenmann_et_al_2006]
-- [Farrell and Saloner 1985 Standardization Compatibility and Innovation][research_farrell_saloner_1985]
-- [Gawer 2014 Bridging Differing Perspectives on Technological Platforms][research_gawer_2014]
-- [Gawer and Cusumano 2014 Industry Platforms and Ecosystem Innovation][research_gawer_cusumano_2014]
-- [Grant 1996 Toward a Knowledge-Based Theory of the Firm][research_grant_1996]
-- [Griliches 1979 Issues in Assessing the Contribution of Research and Development to Productivity Growth][research_griliches_1979]
-- [Grossman and Hart 1986 The Costs and Benefits of Ownership][research_grossman_hart_1986]
-- [Hart and Moore 1990 Property Rights and the Nature of the Firm][research_hart_moore_1990]
-- [Helfat and Peteraf 2003 The Dynamic Resource-Based View][research_helfat_peteraf_2003]
-- [Henderson and Clark 1990 Architectural Innovation The Reconfiguration of Existing Product Technologies][research_henderson_clark_1990]
-- [Hertzfeld 2002 Measuring the Economic Returns from Successful NASA Life Sciences Technology Transfers][research_hertzfeld_2002]
-- [Huber 1991 Organizational Learning The Contributing Processes][research_huber_1991]
-- [Jacobides Cennamo and Gawer 2018 Towards a Theory of Ecosystems][research_jacobides_et_al_2018]
-- [Kahneman and Tversky 1979 Prospect Theory][research_kahneman_tversky_1979]
-- [Katz and Shapiro 1985 Network Externalities Competition and Compatibility][research_katz_shapiro_1985]
-- [Kessler and Cour-Palais 1978 Collision Frequency of Artificial Satellites][research_kessler_courpalais_1978]
-- [Khan 2017 Amazon's Antitrust Paradox][research_khan_2017]
-- [Kilby 1976 Invention of the Integrated Circuit][research_kilby_1976]
-- [Klein Crawford and Alchian 1978 Vertical Integration Appropriable Rents and the Competitive Contracting Process][research_klein_crawford_alchian_1978]
-- [Klepper 1996 Entry Exit Growth and Innovation over the Product Life Cycle][research_klepper_1996]
-- [Kogut and Zander 1992 Knowledge of the Firm Combinative Capabilities and the Replication of Technology][research_kogut_zander_1992]
-- [Krueger 1974 The Political Economy of the Rent-Seeking Society][research_krueger_1974]
-- [Lafontaine and Slade 2007 Vertical Integration and Firm Boundaries][research_lafontaine_slade_2007]
-- [Levitt and March 1988 Organizational Learning][research_levitt_march_1988]
-- [Maier 1998 Architecting Principles for Systems-of-Systems][research_maier_1998]
-- [March 1991 Exploration and Exploitation in Organizational Learning][research_march_1991]
-- [Masten 1984 The Organization of Production][research_masten_1984]
-- [Monteverde and Teece 1982 Supplier Switching Costs and Vertical Integration][research_monteverde_teece_1982]
-- [Murmann and Frenken 2006 Toward a Systematic Framework for Research on Dominant Designs][research_murmann_frenken_2006]
-- [Musk 2017 IAC Making Humans a Multi-Planetary Species][research_musk_2017_iac]
-- [Musk 2018 IAC Making Life Multi-Planetary][research_musk_2018_iac]
-- [Musk 2024 Starship Update][research_musk_2024_starship_update]
-- [Nelson 1959 The Simple Economics of Basic Scientific Research][research_nelson_1959]
-- [Nonaka 1994 A Dynamic Theory of Organizational Knowledge Creation][research_nonaka_1994]
-- [Noyce 1976 Microelectronics][research_noyce_1976]
-- [Nuseibeh and Easterbrook 2000 Requirements Engineering A Roadmap][research_nuseibeh_easterbrook_2000]
-- [Parker and Van Alstyne 2005 Two-Sided Network Effects][research_parker_vanalstyne_2005]
-- [Pavitt 1984 Sectoral Patterns of Technical Change][research_pavitt_1984]
-- [Peeters 2018 Toward a Definition of New Space][research_peeters_2018]
-- [Pisano 2015 You Need an Innovation Strategy][research_pisano_2015]
-- [Reuters 2024 Starshield Investigation][research_reuters_starshield_2024]
-- [Ritchie and Thompson 1974 The UNIX Time-Sharing System][research_ritchie_thompson_1974]
-- [Robertson and Ulrich 1998 Planning for Product Platforms][research_robertson_ulrich_1998]
-- [Rochet and Tirole 2003 Platform Competition in Two-Sided Markets][research_rochet_tirole_2003]
-- [Romer 1990 Endogenous Technological Change][research_romer_1990]
-- [Rosenberg and Trajtenberg 2004 A General-Purpose Technology at Work][research_rosenberg_trajtenberg_2004]
-- [Rosenbloom and Christensen 1998 Technological Discontinuities Organizational Capabilities and Strategic Commitments][research_rosenbloom_christensen_1998]
-- [Ross and Staw 1993 Organizational Escalation and Exit][research_ross_staw_1993]
-- [Rysman 2009 The Economics of Two-Sided Markets][research_rysman_2009]
-- [Sage and Cuppan 2001 On the Systems Engineering and Management of Systems of Systems][research_sage_cuppan_2001]
-- [Sanchez and Mahoney 1996 Modularity Flexibility and Knowledge Management in Product and Organization Design][research_sanchez_mahoney_1996]
-- [Shockley 1949 The Theory of p-n Junctions in Semiconductors][research_shockley_1949]
-- [Simon 1962 The Architecture of Complexity][research_simon_1962]
-- [Staw 1976 Knee-Deep in the Big Muddy][research_staw_1976]
-- [Stigler 1971 The Theory of Economic Regulation][research_stigler_1971]
-- [Suarez and Utterback 1995 Dominant Designs and the Survival of Firms][research_suarez_utterback_1995]
-- [Teece 1986 Profiting from Technological Innovation][research_teece_1986]
-- [Teece 2007 Explicating Dynamic Capabilities][research_teece_2007]
-- [Teece Pisano and Shuen 1997 Dynamic Capabilities and Strategic Management][research_teece_pisano_shuen_1997]
-- [Tversky and Kahneman 1992 Advances in Prospect Theory][research_tversky_kahneman_1992]
-- [Ulrich 1995 The Role of Product Architecture in the Manufacturing Firm][research_ulrich_1995]
-- [Walker et al 2020 Impact of Satellite Constellations on Optical Astronomy][research_walker_et_al_2020]
-- [Weeden and Chow 2012 Taking a Common-Pool Resources Approach to Space Sustainability][research_weeden_chow_2012]
-- [Weinzierl 2018 Space the Final Economic Frontier][research_weinzierl_2018]
-- [Weiss and Thurbon 2021 Developmental State or Economic Statecraft][research_weiss_thurbon_2021]
-- [Williamson 1975 Markets and Hierarchies][research_williamson_1975]
-- [Winter 2003 Understanding Dynamic Capabilities][research_winter_2003]
-- [Wright 1936 Factors Affecting the Cost of Airplanes][research_wright_1936]
+### Secondary Sources
 
-### Related Post
+- Abbate, Janet. 1999. *Inventing the Internet*. MIT Press. [https://mitpress.mit.edu/9780262511155/inventing-the-internet/][book_abbate_1999]
+- Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity and Poverty*. Profile Books. [https://openlibrary.org/works/OL16568759W][book_acemoglu_robinson_2012]
+- Adner, Ron. 2012. *The Wide Lens: A New Strategy for Innovation*. Portfolio/Penguin. [https://openlibrary.org/works/OL16191407W][book_adner_2012]
+- Amsden, Alice H. 1989. *Asia's Next Giant: South Korea and Late Industrialization*. Oxford University Press. [https://global.oup.com/academic/product/asias-next-giant-9780195076035][book_amsden_1989]
+- Anderson. 2023. *The Space Economy*. [https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562][book_anderson_2023]
+- Argote, Linda. 1999. *Organizational Learning: Creating, Retaining, and Transferring Knowledge*. Kluwer Academic. [https://openlibrary.org/works/OL2002798W][book_argote_1999]
+- Argyris, Chris, and David A. Schon. 1978. *Organizational Learning*. Addison-Wesley Pub. Co. [https://www.pearson.com/en-us/subject-catalog/p/organizational-learning-a-theory-of-action-perspective/P200000005949][book_argyris_schon_1978]
+- Bain, Joe Staten. 1968. *Industrial Organization*. Wiley. [https://openlibrary.org/works/OL1286591W][book_bain_1968]
+- Baldwin, Carliss Y., and Kim B. Clark. 2000. *Design Rules: The Power of Modularity*. MIT Press. [https://mitpress.mit.edu/9780262024662/design-rules/][book_baldwin_clark_2000]
+- Benson, Charles D., and Faherty. 1978. *Moonport: A History of Apollo Launch Facilities and Operations*. NASA. [https://openlibrary.org/works/OL6681768W][book_benson_faherty_1978]
+- Berger, Eric. 2021. *Liftoff: Elon Musk and the Desperate Early Days That Launched SpaceX*. HarperCollins Publishers Limited. [https://www.harpercollins.com/products/liftoff-eric-berger][book_berger_2021]
+- Berger, Eric. 2024. *Reentry: SpaceX, Elon Musk, and the Reusable Rockets That Launched a Second Space Age*. BenBella Books, Inc. [https://openlibrary.org/works/OL37529642W][book_berger_2024]
+- Berlin, Leslie. 2005. *The Man behind the Microchip: Robert Noyce and the Invention of Silicon Valley*. Oxford University Press, USA. [https://global.oup.com/academic/product/the-man-behind-the-microchip-9780195311990][book_berlin_2005]
+- Bijker, Wiebe E. 1995. *Of Bicycles, Bakelites, and Bulbs: Toward a Theory of Sociotechnical Change*. MIT Press. [https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/][book_bijker_1995]
+- Bijker, Wiebe E., Thomas Parke Hughes, and T. J. Pinch. 1987. *The Social Construction of Technological Systems: New Directions in the Sociology and History of Technology*. The MIT Press. [https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/][book_bijker_hughes_pinch_1987]
+- Bilstein, Roger E. 1996. *Stages to Saturn: A Technological History of the Apollo/Saturn Launch Vehicles*. National Aeronautics and Space Administration, NASA History Office. [https://openlibrary.org/works/OL2856899W][book_bilstein_1996]
+- Bilstein, Roger E. 2001. *Flight in America: From the Wrights to the Astronauts*. Johns Hopkins University Press. [https://jhupbooks.press.jhu.edu/title/flight-america][book_bilstein_2001]
+- Blanchard, Benjamin S., and Wolter J. Fabrycky. 2011. *Systems Engineering and Analysis*. Pearson Education, Limited. [https://www.pearson.com/en-us/subject-catalog/p/systems-engineering-and-analysis/P200000003302][book_blanchard_fabrycky_2011]
+- Bork, Robert H. 1978. *The Antitrust Paradox: A Policy at War with Itself*. Basic Books. [https://www.hup.harvard.edu/books/9780674032545][book_bork_1978]
+- Buchanan, James M., and Tullock. 1962. *The Calculus of Consent: Logical Foundations of Constitutional Democracy*. Michigan University Press. [https://www.libertyfund.org/books/the-calculus-of-consent/][book_buchanan_tullock_1962]
+- Buede. 2009. *The Engineering Design of Systems Models and Methods*. [https://openlibrary.org/search?q=Buede+Engineering+Design+of+Systems+Models+and+Methods][book_buede_2009]
+- Chadeau. 1996. *Airbus Industrie History*. [https://openlibrary.org/search?q=Chadeau+Airbus+Industrie+History][book_chadeau_1996]
+- Chaikin, Andrew. 1994. *A Man on the Moon: The Voyages of the Apollo Astronauts*. Viking. [https://www.penguinrandomhouse.com/books/74211/a-man-on-the-moon-by-andrew-chaikin/][book_chaikin_1994]
+- Chaikin, Andrew. 2007. *A Man on the Moon: The Voyages of the Apollo Astronauts*. Penguin Books. [https://openlibrary.org/works/OL3290625W][book_chaikin_2007]
+- Chang, Ha-Joon. 2002. *Kicking Away the Ladder: Development Strategy in Historical Perspective*. Anthem Press. [https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050][book_chang_2002]
+- Choudary, Sangeet Paul, Marshall W. Van Alstyne, and Geoffrey G. Parker. 2016. *Platform Revolution: How Networked Markets Are Transforming the Economy--And How to Make Them Work for You*. Norton & Company, Incorporated, W. W. [https://wwnorton.com/books/Platform-Revolution/][book_vanalstyne_parker_choudary_2016]
+- Christensen, Clayton M. 1997. *The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/1130-HBK-ENG][book_christensen_1997]
+- Christensen, Clayton M., and Raynor. 2003. *The Innovator's Solution: Creating and Sustaining Successful Growth*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/3595-HBK-ENG][book_christensen_raynor_2003]
+- Constant, Edward W. 1980. *The Origins of the Turbojet Revolution*. Johns Hopkins University Press. [https://jhupbooks.press.jhu.edu/title/origins-turbojet-revolution][book_constant_1980]
+- Creswell, John W., and J. David Creswell. 2014. *Research Design: Qualitative, Quantitative and Mixed Methods Approaches*. SAGE Publications. [https://us.sagepub.com/en-us/nam/research-design/book255675][book_creswell_2014]
+- Crouch. 2003. *Wings A History of Aviation from Kites to the Space Age*. [https://wwnorton.com/books/Wings/][book_crouch_2003]
+- Curtis, Howard. 2013. *Orbital Mechanics for Engineering Students*. Elsevier Science & Technology. [https://www.elsevier.com/books/orbital-mechanics-for-engineering-students/curtis/978-0-08-097747-8][book_curtis_2013]
+- Cyert, Richard Michael, and James G. March. 1963. *A Behavioral Theory of the Firm*. Prentice-Hall. [https://openlibrary.org/works/OL2859173W][book_cyert_march_1963]
+- Davenport, Christian. 2018. *The Space Barons: Elon Musk, Jeff Bezos, and the Quest to Colonize the Cosmos*. PublicAffairs. [https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/][book_davenport_2018]
+- Dixit, Avinash K., and Pindyck. 1994. *Investment under Uncertainty*. Princeton University Press. [https://openlibrary.org/works/OL2979477W][book_dixit_pindyck_1994]
+- Evans, Peter B. 1995. *Embedded Autonomy: States and Industrial Transformation*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy][book_evans_1995]
+- Ezell, Edward Clinton, and Linda Neuman Ezell. 1978. *The Partnership: A History of the Apollo-Soyuz Test Project*. National Aeronautics and Space Administration: \[for sale by the Supt. of Docs., U.S. Govt. Print. Off.\]. [https://openlibrary.org/works/OL4631174W][book_ezell_ezell_1978]
+- Fallows, James M. 1981. *National Defense*. Random House. [https://archive.org/details/nationaldefense00fall][book_fallows_1981]
+- Fernholz, Tim. 2018. *Rocket Billionaires: Elon Musk, Jeff Bezos, and the New Space Race*. Houghton Mifflin Harcourt Publishing Company. [https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/][book_fernholz_2018]
+- Ford, Henry, Henry Ford, Samuel Crowther, Henry Ford, Henry, Crowther, Samuel Ford, and Henry Henry Ford. 1922. *My Life and Work*. Doubleday Page & Company. [https://openlibrary.org/works/OL4418043W][book_ford_crowther_1922]
+- Foster, John Bellamy, and Robert W. McChesney. 2011. *The Endless Crisis: How Monopoly-Finance Capital Produces Stagnation and Upheaval from the USA to China*. Monthly Review Press. [https://monthlyreview.org/product/endless\_crisis/][book_foster_mcchesney_2011]
+- Freeman, Christopher. 1987. *Technology, Policy, and Economic Performance: Lessons from Japan*. Pinter Publishers. [https://openlibrary.org/works/OL2642736W][book_freeman_1987]
+- Gawer, Annabelle, and Michael A. Cusumano. 2002. *Platform Leadership: How Intel, Microsoft, and Cisco Drive Industry Innovation*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/6155-HBK-ENG][book_cusumano_gawer_2002]
+- Gertner. 2012. *The Idea Factory*. [https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/][book_gertner_2012]
+- Golley, John. 1987. *Whittle, the True Story*. Smithsonian Institution Press. [https://www.crecy.co.uk/whittle-the-true-story][book_golley_1987]
+- Green, Constance McLaughlin, and Lomask. 1970. *Vanguard: A History*. Smithsonian Institution Press. [https://openlibrary.org/works/OL6831846W][book_green_lomask_1970]
+- Greif, Avner. 2006. *Institutions and Trade during the Late Medieval Commercial Revolution*. Cambridge University Press. [https://www.cambridge.org/9780521671347][book_grief_2006]
+- Hartley. 2017. *The Economics of Arms*. [https://openlibrary.org/search?q=Hartley+The+Economics+of+Arms][book_hartley_2017]
+- Hendrickx and Vis. 2007. *Energiya—Buran*. Praxis. [https://doi.org/10.1007/978-0-387-73984-7][book_hendrickx_vis_2007]
+- Heppenheimer, T. A. 1999. *The Space Shuttle Decision: NASA's Search for a Reusable Space Vehicle*. National Aeronautics and Space Administration, NASA History Office, Office of Policy and Plans. [https://www.si.edu/object/space-shuttle-decision%3Anmah\_1197080][book_heppenheimer_1999]
+- Horwitch. 1982. *Clipped Wings The American SST Conflict*. [https://mitpress.mit.edu/9780262580620/clipped-wings/][book_horwitch_1982]
+- Hounshell, David A. 1984. *From the American System to Mass Production, 1800-1932: The Development of Manufacturing Technology in the United States*. The Johns Hopkins University Press. [https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932][book_hounshell_1984]
+- Hovenkamp, Herbert. 2005. *The Antitrust Enterprise: Principle and Execution*. Harvard University Press. [https://openlibrary.org/works/OL3464674W][book_hovenkamp_2005]
+- Hughes, Thomas Parke, and Thomas Park Hughes. 1983. *Networks of Power: Electrification in Western Society, 1880-1930*. Johns Hopkins University Press. [https://jhupbooks.press.jhu.edu/title/networks-power][book_hughes_1983]
+- Humble, Ronald, Henry, and Larson. 1995. *Space Propulsion Analysis and Design*. McGraw-Hill. [https://www.mheducation.com/highered/product/space-propulsion-analysis-design-humble-henry/M9780070313200.html][book_humble_henry_larson_1995]
+- Hunter. 2016. *Creating Strategic Value*. [https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy\_files/files/publication/160930\_Hunter\_CreatingStrategicValue\_Web.pdf][book_hunter_2016]
+- Isaacson, Walter. 2023. *Elon Musk*. Simon & Schuster. [https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284][book_isaacson_2023]
+- Jenkins, Dennis R. 2001. *Space Shuttle: The History of the National Space Transportation System: The First 100 Missions*. D.R. Jenkins. [https://openlibrary.org/works/OL813312W][book_jenkins_2001]
+- Johnson, Chalmers A. 1982. *MITI and the Japanese Miracle: Growth of Industrial Policy: 1925-1975*. Stanford University Press. [https://www.sup.org/books/title/?id=2143][book_johnson_1982]
+- Kahn, Alfred E. 1988. *The Economics of Regulation: Principles and Institutions*. MIT Press. [https://mitpress.mit.edu/9780262610520/the-economics-of-regulation/][book_kahn_1988]
+- Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. Penguin Books, Limited. [https://us.macmillan.com/books/9780374533557/thinkingfastandslow][book_kahneman_2011]
+- Kaplan, Fred M. 1991. *The Wizards of Armageddon*. Stanford University Press. [https://openlibrary.org/works/OL4488241W][book_kaplan_1991]
+- Kaplan, Robert S., and Norton. 2001. *The Strategy-Focused Organization: How Balanced Scorecard Companies Thrive in the New Business Environment*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/1352-HBK-ENG][book_kaplan_norton_2001]
+- Kauffman, Stuart A. 1993. *The Origins of Order: Self-Organization and Selection in Evolution*. Oxford University Press. [https://global.oup.com/academic/product/the-origins-of-order-9780195079517][book_kauffman_1993]
+- Kernighan, Brian W., and Dennis MacAlistair Ritchie. 1978. *The C Programming Language*. Prentice-Hall. [https://openlibrary.org/works/OL4617640W][book_kernighan_ritchie_1978]
+- Klerkx, Greg. 2004. *Lost in Space*. Secker & Warburg. [https://us.macmillan.com/books/9780375421501/lostinspace][book_klerkx_2004]
+- Kraemer. 2006. *Rocketdyne Powering Humans into Space*. [https://openlibrary.org/search?q=Kraemer+Rocketdyne+Powering+Humans+into+Space][book_kraemer_2006]
+- Kranz, Gene. 2000. *Failure Is Not an Option: Mission Control from Mercury to Apollo 13 and Beyond*. Thorndike Press. [https://www.simonandschuster.com/books/Failure-Is-Not-an-Option/Gene-Kranz/9781439148815][book_kranz_2000]
+- Krige, John. 2000. *A History of the European Space Agency 1958-1987*. European Space Agency. [https://www.esa.int/About\_Us/ESA\_history][book_krige_et_al_2000]
+- Kuhn, Thomas S. 1962. *The Structure of Scientific Revolutions*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html][book_kuhn_1962]
+- Latour, Bruno. 1987. *Science in Action: How to Follow Scientists and Engineers through Society*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674792913][book_latour_1987]
+- Latour, Bruno, and Woolgar. 1979. *Laboratory Life: The Social Construction of Scientific Facts*. Sage Publications. [https://press.princeton.edu/books/paperback/9780691028323/laboratory-life][book_latour_woolgar_1979]
+- Launius. 1994. *NASA A History of the United States Civil Space Program*. [https://openlibrary.org/search?q=Launius+NASA+History+United+States+Civil+Space+Program][book_launius_1994]
+- Launius, Roger D. 2004. *Frontiers of Space Exploration*. Greenwood Press. [https://global.oup.com/academic/product/frontiers-of-space-exploration-9780313325243][book_launius_2004]
+- Lawrence. 2016. *Airbus versus Boeing*. [https://www.routledge.com/Airbus-vs-Boeing/Lawrence/p/book/9781138287884][book_lawrence_2016]
+- Lécuyer, Christophe. 2006. *Making Silicon Valley: Innovation and the Growth of High Tech, 1930-1970 (inside Technology)*. The MIT Press. [https://mitpress.mit.edu/9780262622110/making-silicon-valley/][book_lecuyer_2006]
+- Liker, Jeffrey K. 2004. *The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer*. McGraw-Hill. [https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html][book_liker_2004]
+- Lipsey, Richard G., Carlaw, and Bekar. 2005. *Economic Transformations: General Purpose Technologies and Sustained Economic Growth*. Oxford University Press. [https://global.oup.com/academic/product/economic-transformations-9780199290895][book_lipsey_carlaw_bekar_2005]
+- Logsdon, John M. 1970. *The Decision to Go to the Moon: Project Apollo and the National Interest*. MIT Press. [https://mitpress.mit.edu/9780262620109/the-decision-to-go-to-the-moon/][book_logsdon_1970]
+- Logsdon, J. 2010. *John F. Kennedy and the Race to the Moon*. Palgrave Macmillan. [https://openlibrary.org/works/OL20786883W][book_logsdon_2010]
+- Lundvall, Bengt-Ake. 1992. *National Systems of Innovation: Towards a Theory of Innovation and Interactive Learning*. Pinter Publishers. [https://openlibrary.org/works/OL9010144W][book_lundvall_1992]
+- MacKenzie, Donald. 1990. *Inventing Accuracy: A Historical Sociology of Nuclear Missile Guidance (inside Technology)*. The MIT Press. [https://mitpress.mit.edu/9780262631471/inventing-accuracy/][book_mackenzie_1990]
+- Malone, Michael S. 2014. *The Intel Trinity: How Robert Noyce, Gordon Moore, and Andy Grove Built the World's Most Important Company*. Harper Business, an imprint of HarperCollins Publishers. [https://openlibrary.org/works/OL17762218W][book_malone_2014]
+- March, James G., and Simon. 1958. *Organizations*. Wiley. [https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311][book_march_simon_1958]
+- Mazzucato, Mariana. 2013. *The Entrepreneurial State: Debunking Public vs. Private Sector Myths*. Anthem Press. [https://marianamazzucato.com/books/the-entrepreneurial-state][book_mazzucato_2013]
+- Mazzucato, Mariana. 2021. *Mission Economy: A Moonshot Guide to Changing Capitalism*. Penguin Books, Limited. [https://marianamazzucato.com/books/mission-economy/][book_mazzucato_2021]
+- McCurdy, Howard E. 1994. *Inside NASA: High Technology and Organizational Change in the U.S. Space Program (New Series in NASA History)*. The Johns Hopkins University Press. [https://jhupbooks.press.jhu.edu/title/inside-nasa][book_mccurdy_1994]
+- McDougall, Walter A. 1985. *The Heavens and the Earth: A Political History of the Space Age*. Basic Books. [https://jhupbooks.press.jhu.edu/title/heavens-and-earth][book_mcdougall_1985]
+- McIntyre. 1992. *Airbus Industrie*. [https://openlibrary.org/search?q=McIntyre+Airbus+Industrie][book_mcintyre_1992]
+- Melman, Seymour. 1970. *Pentagon Capitalism: The Management of the New Imperialism*. McGraw-Hill. [https://openlibrary.org/works/OL1299274W][book_melman_1970]
+- Messeri, Lisa. 2016. *Placing Outer Space: An Earthly Ethnography of Other Worlds*. Duke University Press. [https://www.dukeupress.edu/placing-outer-space][book_messeri_2016]
+- Metcalfe, J. Stanley. 1998. *Evolutionary Economics and Creative Destruction*. Taylor & Francis Group. [https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671][book_metcalfe_1998]
+- Meyer, Marc H., and Lehnerd. 1997. *The Power of Product Platforms: Building Value and Cost Leadership*. Free Press. [https://www.simonandschuster.com/books/The-Power-of-Product-Platforms/Marc-H-Meyer/9780684825809][book_meyer_lehnerd_1997]
+- Miller. 1995. *Lockheed's Skunk Works: The First Fifty Years*. Aerofax. [https://openlibrary.org/works/OL7006663W][book_miller_1995]
+- Mindell, David A. 2008. *Digital Apollo: Human and Machine in Spaceflight*. MIT Press. [https://mitpress.mit.edu/9780262516105/digital-apollo/][book_mindell_2008]
+- Mowery, David C., and Nathan Rosenberg. 1998. *Paths of Innovation: Technological Change in 20th-Century America*. Cambridge University Press. [https://openlibrary.org/works/OL21370782W][book_mowery_rosenberg_1998]
+- Murray, Charles A., and Catherine Bly Cox. 1989. *Apollo: The Race to the Moon*. Touchstone Books. [https://www.simonandschuster.com/books/Apollo/Charles-Murray/9780671706258][book_murray_cox_1989]
+- Musa, John D. 1998. *Software Reliability Engineering*. Osborne/McGraw-Hill. [https://openlibrary.org/works/OL4781285W][book_musa_1998]
+- Nelson, Richard R. 1993. *National Innovation Systems: A Comparative Analysis*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/national-innovation-systems-9780195076172][book_nelson_1993]
+- Nelson, Richard R., and Winter. 1982. *An Evolutionary Theory of Economic Change*. Belknap Press of Harvard University Press. [https://www.hup.harvard.edu/books/9780674272286][book_nelson_winter_1982]
+- Neufeld, Michael J. 1995. *The Rocket and the Reich: Peenemünde and the Coming of the Ballistic Missile Era*. Free Press. [https://openlibrary.org/works/OL3501503W][book_neufeld_1995]
+- Neufeld, Michael J. 2013. *Von Braun: Dreamer of Space, Engineer of War*. Vintage Books. [https://openlibrary.org/works/OL3501502W][book_neufeld_2013]
+- Nevins. 1954. *Ford The Times The Man The Company*. [https://openlibrary.org/search?q=Nevins+Ford+The+Times+The+Man+The+Company][book_nevins_1954]
+- Newhouse, John. 1982. *The Sporty Game*. Knopf. [https://openlibrary.org/works/OL2625941W][book_newhouse_1982]
+- Newhouse, John. 2007. *Boeing versus Airbus*. Knopf Doubleday Publishing Group. [https://us.macmillan.com/books/9781400079131/boeingversusairbus][book_newhouse_2007]
+- Nonaka, Ikujirō, and Takeuchi. 1995. *The Knowledge-Creating Company: How Japanese Companies Create the Dynamics of Innovation*. Oxford University Press. [https://global.oup.com/academic/product/the-knowledge-creating-company-9780195092691][book_nonaka_takeuchi_1995]
+- Norberg, Arthur L., and O'Neill. 1996. *Transforming Computer Technology: Information Processing for the Pentagon, 1962-1986*. Johns Hopkins University Press. [https://jhupbooks.press.jhu.edu/title/transforming-computer-technology][book_norberg_oneill_1996]
+- North, Douglass Cecil. 1990. *Institutions, Institutional Change, and Economic Performance*. Cambridge University Press. [https://www.cambridge.org/9780521397346][book_north_1990]
+- Nye, David E. 1990. *Electrifying America: Social Meanings of a New Technology, 1880-1940*. MIT Press. [https://mitpress.mit.edu/9780262640305/electrifying-america/][book_nye_1990]
+- O'Connor, Patrick D. T., and Kleyner. 2012. *Practical Reliability Engineering*. Wiley. [https://openlibrary.org/works/OL3744715W][book_oconnor_kleyner_2012]
+- Ohno, Taiichi. 1988. *Toyota Production System: Beyond Large-Scale Production*. Productivity Press. [https://openlibrary.org/works/OL8681881W][book_ohno_1988]
+- Ormerod, Paul. 2005. *Why Most Things Fail: Evolution, Extinction and Economics*. Faber & Faber, Incorporated. [https://us.macmillan.com/books/9780375421099/whymostthingsfail][book_ormerod_2005]
+- Ostrom, Elinor. 1990. *Die Verfassung Der Allmende: The Evolution of Institutions for Collective Action*. Cambridge University Press. [https://www.cambridge.org/9780521405997][book_ostrom_1990]
+- Owen. 1997. *Concorde The Story of a Supersonic Pioneer*. [https://openlibrary.org/search?q=Owen+Concorde+Story+of+a+Supersonic+Pioneer][book_owen_1997]
+- Owen, Kenneth. 2001. *Concorde and the Americans*. Smithsonian Institution Press. [https://openlibrary.org/works/OL3341689W][book_owen_2001]
+- Perrow, Charles. 1984. *Normal Accidents: Living with High-Risk Technologies*. Basic Books. [https://press.princeton.edu/books/paperback/9780691004129/normal-accidents][book_perrow_1984]
+- Porter, Michael E. 1980. *Competitive Strategy: Techniques for Analyzing Industries and Competitors*. Free Press. [https://www.simonandschuster.com/books/Competitive-Strategy/Michael-E-Porter/9780684841489][book_porter_1980]
+- Porter, Michael E. 1985. *Competitive Advantage: Creating and Sustaining Superior Performance*. Free Press. [https://www.simonandschuster.com/books/Competitive-Advantage/Michael-E-Porter/9780684841465][book_porter_1985]
+- Posner, Richard A. 2001. *Antitrust Law: An Economic Perspective*. University of Chicago Press. [https://openlibrary.org/works/OL1924317W][book_posner_2001]
+- Prussing, John E., and Conway. 2013. *Orbital Mechanics*. Oxford University Press, Incorporated. [https://global.oup.com/academic/product/orbital-mechanics-9780199837700][book_prussing_conway_2013]
+- Pugh, Emerson W. 1995. *Building IBM: Shaping an Industry and Its Technology*. MIT Press. [https://mitpress.mit.edu/9780262161473/building-ibm/][book_pugh_1995]
+- Pugh, Emerson W., Johnson, and Palmer. 1991. *IBM's 360 and Early 370 Systems*. MIT Press. [https://mitpress.mit.edu/9780262161237/ibms-360-and-early-370-systems/][book_pugh_johnson_palmer_1991]
+- Redfield, Peter. 2000. *Space in the Tropics: From Convicts to Rockets in French Guiana*. University of California Press. [https://www.ucpress.edu/book/9780520219854/space-in-the-tropics][book_redfield_2000]
+- Rich, Ben R., and Leo Janos. 1994. *Skunk Works: A Personal Memoir of My Years at Lockheed*. Hachette Book Group. [https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316743006/][book_rich_janos_1994]
+- Riordan, Michael, and Hoddeson. 1997. *Crystal Fire: The Birth of the Information Age*. Norton. [https://wwnorton.com/books/Crystal-Fire/][book_riordan_hoddeson_1997]
+- Riordan, Michael, Lillian Hoddeson, and Adrienne W. Kolb. 2015. *Tunnel Visions: The Rise and Fall of the Superconducting Super Collider*. University of Chicago Press. [https://openlibrary.org/works/OL20186122W][book_riordan_hoddeson_kolb_2015]
+- Robertson, Suzanne, and Suzanne Robertson. 2012. *Mastering the Requirements Process: Getting Requirements Right*. Addison-Wesley. [https://www.pearson.com/en-us/subject-catalog/p/mastering-the-requirements-process/P200000009250][book_robertson_robertson_2012]
+- Rosenberg, Nathan. 1976. *Perspectives on Technology*. Cambridge University Press. [https://www.cambridge.org/9780521290111][book_rosenberg_1976]
+- Rosenberg, Nathan. 1982. *Inside the Black Box: Technology and Economics*. Cambridge University Press. [https://www.cambridge.org/9780521273671][book_rosenberg_1982]
+- Ruttan, Vernon W. 2006. *Is War Necessary for Economic Growth?: Military Procurement and Technology Development*. Oxford University Press. [https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042][book_ruttan_2006]
+- Sanderson and Uzumeri. 1997. *Managing Product Families*. McGraw-Hill Publishing Co. [https://openlibrary.org/works/OL33995941W][book_sanderson_uzumeri_1997]
+- Saxenian, AnnaLee. 1994. *Regional Advantage: Culture and Competition in Silicon Valley and Route 128*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674753402][book_saxenian_1994]
+- Scherer, F. M., and Ross. 1990. *Industrial Market Structure and Economic Performance*. Houghton Mifflin. [https://openlibrary.org/works/OL2965680W][book_scherer_ross_1990]
+- Senge, Peter, and Peter M. Senge. 1990. *The Fifth Discipline: The Art and Practice of the Learning Organization*. Doubleday/Currency. [https://www.penguinrandomhouse.com/books/163984/the-fifth-discipline-by-peter-m-senge/][book_senge_1990]
+- Serling, Robert J. 1992. *Legend and Legacy: The Story of Boeing and Its People*. St. Martin's Press. [https://openlibrary.org/works/OL2769360W][book_serling_1992]
+- Sharkey, William W. 1982. *The Theory of Natural Monopoly*. Cambridge University Press. [https://www.cambridge.org/9780521271943][book_sharkey_1982]
+- Shingō, Shigeo. 1989. *A Study of the Toyota Production System from an Industrial Engineering Viewpoint*. Productivity Press. [https://openlibrary.org/works/OL4111563W][book_shingo_1989]
+- Simon, Herbert Alexander. 1957. *Administrative Behavior: A Study of Decision-Making Processes in Administrative Organization*. Macmillan. [https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218][book_simon_1957]
+- Sommerville, Ian, and Sawyer. 1997. *Requirements Engineering: A Good Practice Guide*. Wiley. [https://www.wiley.com/en-us/Requirements+Engineering%3A+A+Good+Practice+Guide-p-9780471974444][book_sommerville_sawyer_1997]
+- Srnicek, Nick. 2017. *Platform Capitalism*. Polity Press. [https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879][book_srnicek_2017]
+- Stumpf. 2000. *Titan II*. [https://openlibrary.org/search?q=Stumpf+Titan+II+History+Cold+War+Missile][book_stumpf_2000]
+- Suh, Nam Pyo. 2001. *Axiomatic Design: Advances and Applications (the Oxford Series on Advanced Manufacturing)*. Oxford University Press, USA. [https://global.oup.com/academic/product/axiomatic-design-9780195134667][book_suh_2001]
+- Sutton, George P., and Oscar Biblarz. 2016. *Rocket Propulsion Elements: 9. Edicion*. John Wiley & Sons. [https://www.wiley.com/en-us/Rocket+Propulsion+Elements%2C+9th+Edition-p-9781118753651][book_sutton_biblarz_2016]
+- Tirole, Jean. 1988. *The Theory of Industrial Organization*. MIT Press. [https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/][book_tirole_1988]
+- Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
+- Trubshaw. 2000. *Concorde The Inside Story*. [https://openlibrary.org/search?q=Trubshaw+Concorde+Inside+Story][book_trubshaw_2000]
+- Utterback, James M. 1994. *Mastering the Dynamics of Innovation: How Companies Can Seize Opportunities in the Face of Technological Change*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/4855-HBK-ENG][book_utterback_1994]
+- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vaughan, Diane. 1996. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html][book_vaughan_1996]
+- Vertesi, Janet. 2015. *Seeing like a Rover*. University of Chicago Press. [https://openlibrary.org/works/OL20016535W][book_vertesi_2015]
+- Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
+- Weick, Karl E. 1979. *Social Psychology of Organizing*. McGraw-Hill Humanities/Social Sciences/Languages. [https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html][book_weick_1979]
+- Weick, Karl E., and Kathleen M. Sutcliffe. 2007. *Managing the Unexpected*. John Wiley & Sons, Ltd. [https://openlibrary.org/works/OL3749104W][book_weick_sutcliffe_2007]
+- Weiss, Linda. 2014. *America Inc.?: Innovation and Enterprise in the National Security State*. Cornell University Press. [https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/][book_weiss_2014]
+- Wertz, Everett, and Puschell. 2011. *Space Mission Engineering The New SMAD*. [https://openlibrary.org/search?q=Wertz+Everett+Puschell+Space+Mission+Engineering+New+SMAD][book_wertz_everett_puschell_2011]
+- Wertz, J. R., and Wiley J. Larson. 1999. *Space Mission Analysis and Design*. Microcosm. [https://openlibrary.org/works/OL19903182W][book_larson_wertz_1999]
+- Williamson, Oliver E. 1985. *The Economic Institutions of Capitalism: Firms, Markets, Relational Contracting*. The Free Press. [https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740][book_williamson_1985]
+- Womack, James P., and Jones. 2003. *Lean Thinking: Banish Waste and Create Wealth in Your Corporation*. Free Press. [https://www.simonandschuster.com/books/Lean-Thinking/James-P-Womack/9780743249270][book_womack_jones_2003]
+- Womack, James P., Daniel T. Jones, and Daniel Roos. 1990. *The Machine That Changed the World: The Story of Lean Production-- Toyota's Secret Weapon in the Global Car Wars That Is Now Revolutionizing World Industry*. Free Press. [https://www.simonandschuster.com/books/The-Machine-That-Changed-the-World/James-P-Womack/9780743299794][book_womack_jones_roos_1990]
+- Woo-Cumings, Meredith. 1999. *The Developmental State*. Cornell University Press. [https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/][book_woo_cumings_1999]
+- Wu, Tim. 2010. *The Master Switch: The Rise and Fall of Information Empires*. Alfred A. Knopf. [https://openlibrary.org/works/OL15118227W][book_wu_2010]
+- Yin. 2014. *Case Study Research and Applications*. [https://us.sagepub.com/en-us/nam/case-study-research-and-applications/book250150][book_yin_2014]
+- Zuboff, Shoshana. 2019. *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. Profile Books Ltd. [https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/][book_zuboff_2019]
+- Zubrin, Robert. 1996. *The Case for Mars: The Plan to Settle the Red Planet and Why We Must*. Free Press. [https://www.simonandschuster.com/books/The-Case-for-Mars/Robert-Zubrin/9781451608113][book_zubrin_1996]
+- Zubrin, Robert. 2019. *The Case for Space: How the Revolution in Spaceflight Opens up a Future of Limitless Possibility*. Prometheus. [https://openlibrary.org/works/OL20895320W][book_zubrin_2019]
 
-- [A90 Introduction to Space Studies][related_post_a90_intro_space_studies]
-- [A96 History of Rocketplanes][related_post_a96_history_rocketplanes]
-- [A97 What Does the United States Space Force Do][related_post_a97_us_space_force]
-- [A237 Framing and the Co-Development Mechanism][related_post_a237_aerospace_framing]
-- [A242 Apollo Guidance Computer][related_post_a242_apollo_guidance]
-- [A244 Space Shuttle Software as Engineering Landmark][related_post_a244_space_shuttle_software]
-- [A246 Silicon Valley from Defense Contracting][related_post_a246_silicon_valley_defense]
-- [A247 Software-Defined Aerospace and Autonomy][related_post_a247_software_defined_aerospace]
-- [A248 Contemporary Snapshot and Extrapolation][related_post_a248_contemporary_snapshot]
-- [A281 History of SpaceX Series Framing and the Seven-Plus-Three Forcing-Function Framework][related_post_a281_spacex_framing]
-- [A282 History of SpaceX Value Gradient from Falcon 1 to Falcon 9 to Reusability][related_post_a282_spacex_value_gradient]
-- [A283 History of SpaceX Anchor Demand from COTS-1 Salvation Through Commercial Crew, HLS, and Starshield][related_post_a283_spacex_anchor_demand]
-- [A284 History of SpaceX Value Capture from Launch-Service Pricing and Vertical Integration into Starlink][related_post_a284_spacex_value_capture]
-- [A285 History of SpaceX Decomposability of Falcon, Dragon, Heavy, and Starship as Independently Valuable Rungs][related_post_a285_spacex_decomposability]
+### Commercial Sources
+
+- "ARES \| Orbital Debris Program Office." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/][ref_nasa_orbital_debris]
+- "Arianespace." n.d. Accessed October 25, 2026. [https://www.arianespace.com/][ref_arianespace]
+- "Artemis III." 2022. NASA. Accessed October 25, 2026. [https://www.nasa.gov/mission/artemis-iii/][ref_nasa_hls_option_b_2022]
+- "Blue Origin Press Releases." n.d. Accessed October 25, 2026. [https://www.blueorigin.com/news/][ref_blue_origin_press]
+- "Boeing Historical Archives." n.d. Accessed October 25, 2026. [https://www.boeing.com/history/][ref_boeing_historical_archives]
+- "Boeing Press Releases." n.d. Accessed October 25, 2026. [https://boeing.mediaroom.com/][ref_boeing_press]
+- "Chinese Space Program Documentation." n.d. Accessed October 25, 2026. [https://www.cnsa.gov.cn/english/][ref_chinese_space_program]
+- "Commercial Crew Program." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/commercialcrew/][ref_nasa_ccp_documents]
+- "DOD Contract Announcements." n.d. Accessed October 25, 2026. [https://www.defense.gov/News/Contracts/][ref_dod_contracts]
+- "FCC Filings Database." n.d. Accessed October 25, 2026. [https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs][ref_fcc_filings]
+- "Human Landing System." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/human-landing-system/][ref_nasa_hls_program]
+- "IBM Archives." n.d. Accessed October 25, 2026. [https://www.ibm.com/history/][ref_ibm_archives]
+- "Indian Space Research Organisation Press Releases." n.d. Accessed October 25, 2026. [https://www.isro.gov.in/][ref_isro_press]
+- "International Space Station." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/][ref_nasa_iss]
+- "Japanese Aerospace Exploration Agency Press Releases." n.d. Accessed October 25, 2026. [https://global.jaxa.jp/press/][ref_jaxa_press]
+- "Mars: NASA Science." 2023b. NASA Science, May 31. [https://science.nasa.gov/mars/][ref_nasa_science_mars]
+- "Moon to Mars." 2021. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/artemis/][ref_nasa_hls_option_a_2021]
+- Musk. 2024. "Starship Update." [https://www.spacex.com/updates/][research_musk_2024_starship_update]
+- "NASA Artemis Program Documentation." n.d. Accessed October 25, 2026. [https://www.nasa.gov/artemis/][ref_nasa_artemis_program]
+- "NASA Constellation Program Documentation." n.d. Accessed October 25, 2026. [https://www.nasa.gov/history/history-publications-and-resources/nasa-history-series/][ref_nasa_constellation]
+- "NASA News." 2022. NASA, December 7. [https://www.nasa.gov/news/][ref_nasa_news]
+- "NASA Partnerships." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/partnerships/][ref_nasa_partnerships]
+- "NASA Selects Blue Origin as Second Artemis Lunar Lander Provider." 2023. NASA. Accessed October 25, 2026. [https://www.nasa.gov/press-release/nasa-selects-blue-origin-as-second-artemis-lunar-lander-provider/][ref_nasa_hls_sustainable_2023]
+- "News U.S. Air Force Logo." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/][ref_space_force_news]
+- "News \| Rocket Lab." n.d. Rocket Lab. Accessed October 25, 2026. [https://www.rocketlabusa.com/updates/][ref_rocket_lab_press]
+- "Northrop Grumman Press Releases." n.d. Accessed October 25, 2026. [https://news.northropgrumman.com/][ref_northrop_grumman_press]
+- "Space Force National Security Space Launch." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/Fact-Sheets][ref_space_force_nssl]
+- "Space Force NSSL Phase 1A Award." 2018. [https://www.af.mil/News/Article-Display/Article/1671253/][ref_space_force_nssl_phase1a_2018]
+- "Space Force NSSL Phase 2 Award." 2020. [https://www.spaceforce.mil/News/Article/2312953/][ref_space_force_nssl_phase2_2020]
+- "Space Launch System (SLS)." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/space-launch-system/][ref_nasa_sls_program]
+- "Space Technology Mission Directorate." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/space-technology-mission-directorate/][ref_nasa_stmd]
+- "SpaceX Falcon 9 Vehicle Documentation." n.d. Accessed October 25, 2026. [https://www.spacex.com/vehicles/falcon-9/][ref_spacex_falcon9_vehicle]
+- "SpaceX Falcon Heavy Vehicle Documentation." n.d. Accessed October 25, 2026. [https://www.spacex.com/vehicles/falcon-heavy/][ref_spacex_falcon_heavy_vehicle]
+- "SpaceX Human Spaceflight." n.d. Accessed October 25, 2026. [https://www.spacex.com/humanspaceflight/][ref_spacex_human_spaceflight]
+- "SpaceX News Archive." n.d. Accessed October 25, 2026. [https://www.spacex.com/updates/][ref_spacex_news_archive]
+- "SpaceX Starlink Program Page." n.d. Accessed October 25, 2026. [https://www.starlink.com/][ref_spacex_starlink]
+- "SpaceX Starshield Product Page." n.d. Accessed October 25, 2026. [https://www.spacex.com/starshield/][ref_spacex_starshield]
+- "SpaceX Starship Program Page." n.d. Accessed October 25, 2026. [https://www.spacex.com/vehicles/starship/][ref_spacex_starship_vehicle]
+- "Systems Engineering Handbook." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/reference/systems-engineering-handbook/][ref_nasa_se_handbook]
+- "The Trusted Authority in Systems Engineering." n.d. INCOSE. Accessed October 25, 2026. [https://www.incose.org/products-and-publications/se-handbook][ref_incose_handbook]
+- "United Launch Alliance Press Releases." n.d. Accessed October 25, 2026. [https://www.ulalaunch.com/about/news][ref_ula_press]
+- Walker. 2020. "Impact of Satellite Constellations on Optical Astronomy." [https://noirlab.edu/public/products/techdocs/techdoc003/][research_walker_et_al_2020]
+
+### General Sources
+
+- Adilov. 2018. "An Economic Analysis of Earth Orbit Pollution." [https://www.sciencedirect.com/science/article/abs/pii/S0921800917305591][research_adilov_et_al_2018]
+- "AIAA Journal of Propulsion and Power." n.d. Accessed October 25, 2026. [https://arc.aiaa.org/journal/jpp][ref_aiaa_jpp]
+- "AIAA Journal of Spacecraft and Rockets." n.d. Accessed October 25, 2026. [https://arc.aiaa.org/journal/jsr][ref_aiaa_jsr]
+- Anadol, Cohen, and Ferrari. 2018. "SpaceX Case Study." [https://www.hbs.edu/faculty/Pages/item.aspx?num=54001][research_anadol_cohen_2018]
+- "Ars Technica Space Coverage." n.d. Accessed October 25, 2026. [https://arstechnica.com/science/space/][ref_arstechnica_space]
+- "Aviation Week Coverage." n.d. Accessed October 25, 2026. [https://aviationweek.com/][ref_aviation_week]
+- Baumol. 1977. "On the Proper Cost Tests for Natural Monopoly in a Multiproduct Industry." [https://www.jstor.org/stable/1807012][research_baumol_1977]
+- Blackmore. 2016. "Autonomous Precision Landing of Space Rockets." [https://ieeexplore.ieee.org/document/7735311][research_blackmore_2016]
+- "Bloomberg Business News." n.d. Accessed October 25, 2026. [https://www.bloomberg.com/][ref_bloomberg]
+- Bower and Christensen. 1995. "Disruptive Technologies: Catching the Wave." *Harvard Business Review*, January 1. [https://hbr.org/1995/01/disruptive-technologies-catching-the-wave][research_bower_christensen_1995]
+- "Breaking Defense Coverage." n.d. Accessed October 25, 2026. [https://breakingdefense.com/][ref_breaking_defense]
+- "Building Era-Defining Space Infrastructure." n.d. Accessed October 25, 2026. [https://www.axiomspace.com/][ref_axiom_space]
+- "China Commercial Space Industry Analysis." n.d. Accessed October 25, 2026. [https://spacenews.com/topic/china/][ref_china_commercial_space]
+- Christensen, Raynor, and McDonald. 2015. "What Is Disruptive Innovation." [https://hbr.org/2015/12/what-is-disruptive-innovation][research_christensen_raynor_mcdonald_2015]
+- David. 1985. "Clio and the Economics of QWERTY." [https://www.jstor.org/stable/1805621][research_david_1985]
+- David. 1990. "The Dynamo and the Computer." [https://www.jstor.org/stable/2006600][research_david_1990]
+- "Defense News Coverage." n.d. Accessed October 25, 2026. [https://www.defensenews.com/][ref_defense_news]
+- Del Monte. 2010. "Defence Innovation and Technology Transfer." [https://www.sciencedirect.com/science/article/pii/S0265964610000160][research_del_monte_2010]
+- Dosi. 1988. "Sources Procedures and Microeconomic Effects of Innovation." [https://www.jstor.org/stable/2726526][research_dosi_1988]
+- Eisenmann, Parker, and Van Alstyne. 2006. "Strategies for Two-Sided Markets." [https://hbr.org/2006/10/strategies-for-two-sided-markets][research_eisenmann_et_al_2006]
+- "European Spaceflight Homepage." n.d. *European Spaceflight*. Accessed October 25, 2026. [https://europeanspaceflight.com/][ref_european_spaceflight]
+- "Journal of Space Safety Engineering." n.d. Accessed October 25, 2026. [https://www.sciencedirect.com/journal/journal-of-space-safety-engineering][ref_jsse_journal]
+- Katz and Shapiro. 1985. "Network Externalities Competition and Compatibility." [https://www.jstor.org/stable/1814809][research_katz_shapiro_1985]
+- Khan. 2017. "Amazon’s Antitrust Paradox." *Yale Law Journal*, January 31. [https://www.yalelawjournal.org/note/amazons-antitrust-paradox][research_khan_2017]
+- Klepper. 1996. "Entry Exit Growth and Innovation over the Product Life Cycle." [https://www.jstor.org/stable/2118211][research_klepper_1996]
+- Krueger. 1974. "The Political Economy of the Rent-Seeking Society." [https://www.jstor.org/stable/1808883][research_krueger_1974]
+- "Mars: NASA Science." 2023a. NASA Science, May 31. [https://mars.nasa.gov/][ref_nasa_mars_program]
+- "NASA Cryogenic Fluid Management and Propellant Transfer Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=cryogenic%20fluid%20management%20propellant%20transfer][ref_ntrs_cryogenic_fluid_management]
+- "NASA Environmental Control and Life Support System Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=environmental%20control%20and%20life%20support%20system][ref_ntrs_eclss]
+- "NASA Exploration Systems Architecture Study Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=Exploration%20Systems%20Architecture%20Study][ref_ntrs_esas_2005]
+- "NASA Review of United States Human Spaceflight Plans Committee Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=Review%20of%20U.S.%20Human%20Spaceflight%20Plans%20Committee][ref_ntrs_hsf_committee_2009]
+- "NASA Supersonic Retropropulsion Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=supersonic%20retropropulsion][ref_ntrs_supersonic_retropropulsion]
+- "NASA Technical Reports Server." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/][ref_nasa_ntrs]
+- "NASA TechPort Technology Database." n.d. Accessed October 25, 2026. [https://techport.nasa.gov/][ref_nasa_techport]
+- "NASA Vision for Space Exploration Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=Vision%20for%20Space%20Exploration][ref_ntrs_vision_space_exploration]
+- "NASASpaceflight Coverage." n.d. Accessed October 25, 2026. [https://www.nasaspaceflight.com/][ref_nasaspaceflight]
+- "New York Times." n.d. Accessed October 25, 2026. [https://www.nytimes.com/section/science/space][ref_nyt]
+- New York Times. 2024. "Starshield Coverage." [https://www.nytimes.com/2024/02/16/us/politics/spacex-us-spy-agency-satellites.html][ref_nyt_starshield_2024]
+- "Payload Newsletter." n.d. Accessed October 25, 2026. [https://payloadspace.com/][ref_payload]
+- Pisano. 2015. "You Need an Innovation Strategy." [https://hbr.org/2015/06/you-need-an-innovation-strategy][research_pisano_2015]
+- "Polaris Program." n.d. Accessed October 25, 2026. [https://polarisprogram.com/][ref_polaris_program]
+- "Research Newsletter." n.d. *Payload*. Accessed October 25, 2026. [https://payloadspace.com/research/][ref_payload_research]
+- Reuters. 2024. "Starshield Investigation." [https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/][research_reuters_starshield_2024]
+- Robertson and Ulrich. 1998. "Planning for Product Platforms." [https://sloanreview.mit.edu/article/planning-for-product-platforms/][research_robertson_ulrich_1998]
+- Simon. 1962. "The Architecture of Complexity." [https://www.jstor.org/stable/985254][research_simon_1962]
+- "Space Policy Journal." n.d. Accessed October 25, 2026. [https://www.sciencedirect.com/journal/space-policy][ref_space_policy_journal]
+- "Space Policy Online." n.d. Accessed October 25, 2026. [https://spacepolicyonline.com/][ref_space_policy_online]
+- "The Space Review: Essays and Commentary about the Final Frontier." n.d. Accessed October 25, 2026. [https://www.thespacereview.com/][ref_the_space_review]
+- "SpaceNews." n.d. Accessed October 25, 2026. [https://spacenews.com/][ref_spacenews]
+- "SpaceNews National Security Space Launch Phase 3 Coverage." n.d. Accessed October 25, 2026. [https://spacenews.com/?s=NSSL+Phase+3][ref_spacenews_nssl_phase3]
+- "Stanford Graduate School of Business SpaceX Case." n.d. Accessed October 25, 2026. [https://www.gsb.stanford.edu/faculty-research/case-studies][ref_stanford_spacex_case]
+- "Wall Street Journal." n.d. Accessed October 25, 2026. [https://www.wsj.com/tech][ref_wsj]
+- "Washington Post Technology Coverage." n.d. Accessed October 25, 2026. [https://www.washingtonpost.com/business/technology/][ref_washington_post]
+- "Wharton SpaceX Case." n.d. Accessed October 25, 2026. [https://knowledge.wharton.upenn.edu/][ref_wharton_spacex_case]
+- Williamson. 1975. "Markets and Hierarchies." [https://www.jstor.org/stable/40751236][research_williamson_1975]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "Introduction to Space Studies." *Brendan A R Sechter's Development Blog*, February 21. [https://sgeos.github.io/space/math/2026/02/21/introduction\_to\_space\_studies.html][related_post_a90_intro_space_studies]
+- Sechter, Brendan. 2026. "History of Rocketplanes." *Brendan A R Sechter's Development Blog*, February 27. [https://sgeos.github.io/space/history/2026/02/27/history\_of\_rocketplanes.html][related_post_a96_history_rocketplanes]
+- Sechter, Brendan. 2026. "What Does the United States Space Force Do?" *Brendan A R Sechter's Development Blog*, February 28. [https://sgeos.github.io/space/military/2026/02/28/what\_does\_united\_states\_space\_force\_do.html][related_post_a97_us_space_force]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Framing and the Co-Development Mechanism." *Brendan A R Sechter's Development Blog*, July 13. [https://sgeos.github.io/history/technology/aerospace/2026/07/13/framing\_and\_the\_co\_development\_mechanism.html][related_post_a237_aerospace_framing]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: The Apollo Guidance Computer." *Brendan A R Sechter's Development Blog*, July 18. [https://sgeos.github.io/history/technology/aerospace/2026/07/18/apollo\_guidance\_computer.html][related_post_a242_apollo_guidance]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Space Shuttle Software as Engineering Landmark." *Brendan A R Sechter's Development Blog*, July 20. [https://sgeos.github.io/history/technology/aerospace/2026/07/20/space\_shuttle\_software\_as\_engineering\_landmark.html][related_post_a244_space_shuttle_software]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Silicon Valley from Defense Contracting." *Brendan A R Sechter's Development Blog*, July 22. [https://sgeos.github.io/history/technology/aerospace/2026/07/22/silicon\_valley\_from\_defense\_contracting.html][related_post_a246_silicon_valley_defense]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Software-Defined Aerospace and Autonomy." *Brendan A R Sechter's Development Blog*, July 23. [https://sgeos.github.io/history/technology/aerospace/2026/07/23/software\_defined\_aerospace\_and\_autonomy.html][related_post_a247_software_defined_aerospace]
+- Sechter, Brendan. 2026. "Aerospace, Programming Languages, and Information Technology Co-Development: Contemporary Snapshot and Extrapolation." *Brendan A R Sechter's Development Blog*, July 24. [https://sgeos.github.io/history/technology/aerospace/2026/07/24/contemporary\_snapshot\_and\_extrapolation.html][related_post_a248_contemporary_snapshot]
+- Sechter, Brendan. 2026. "History of SpaceX: Series Framing and the Seven-Plus-Three Forcing-Function Framework." *Brendan A R Sechter's Development Blog*, July 25. [https://sgeos.github.io/history/business/aerospace/2026/07/25/spacex\_history\_framing.html][related_post_a281_spacex_framing]
+- Sechter, Brendan. 2026. "History of SpaceX: Value Gradient from Falcon 1 to Falcon 9 to Reusability." *Brendan A R Sechter's Development Blog*, July 26. [https://sgeos.github.io/history/business/aerospace/2026/07/26/spacex\_history\_value\_gradient.html][related_post_a282_spacex_value_gradient]
+- Sechter, Brendan. 2026. "History of SpaceX: Anchor Demand from COTS-1 Salvation Through Commercial Crew, HLS, and Starshield." *Brendan A R Sechter's Development Blog*, July 27. [https://sgeos.github.io/history/business/aerospace/2026/07/27/spacex\_history\_anchor\_demand.html][related_post_a283_spacex_anchor_demand]
+- Sechter, Brendan. 2026. "History of SpaceX: Value Capture from Launch-Service Pricing and Vertical Integration into Starlink." *Brendan A R Sechter's Development Blog*, July 28. [https://sgeos.github.io/history/business/aerospace/2026/07/28/spacex\_history\_value\_capture.html][related_post_a284_spacex_value_capture]
+- Sechter, Brendan. 2026. "History of SpaceX: Decomposability of Falcon, Dragon, Heavy, and Starship as Independently Valuable Rungs." *Brendan A R Sechter's Development Blog*, July 29. [https://sgeos.github.io/history/business/aerospace/2026/07/29/spacex\_history\_decomposability.html][related_post_a285_spacex_decomposability]
 
 [book_abbate_1999]: https://mitpress.mit.edu/9780262511155/inventing-the-internet/
-[book_acemoglu_robinson_2012]: https://openlibrary.org/search?q=Acemoglu+and+Robinson+Why+Nations+Fail
-[book_adner_2012]: https://openlibrary.org/search?q=Adner+The+Wide+Lens
+[book_acemoglu_robinson_2012]: https://openlibrary.org/works/OL16568759W
+[book_adner_2012]: https://openlibrary.org/works/OL16191407W
 [book_amsden_1989]: https://global.oup.com/academic/product/asias-next-giant-9780195076035
 [book_anderson_2023]: https://www.wiley.com/en-us/The+Space+Economy-p-9781119911562
 [book_anthony_2007]: https://www.hbsp.harvard.edu/product/1793-HBK-ENG
-[book_argote_1999]: https://openlibrary.org/search?q=Argote+Organizational+Learning+Creating+Retaining+Transferring+Knowledge
+[book_argote_1999]: https://openlibrary.org/works/OL2002798W
 [book_argyris_schon_1978]: https://www.pearson.com/en-us/subject-catalog/p/organizational-learning-a-theory-of-action-perspective/P200000005949
-[book_bain_1968]: https://openlibrary.org/search?q=Bain+Industrial+Organization+1968
+[book_bain_1968]: https://openlibrary.org/works/OL1286591W
 [book_baldwin_clark_2000]: https://mitpress.mit.edu/9780262024662/design-rules/
 [book_beinhocker_2006]: https://www.hbsp.harvard.edu/product/5062-HBK-ENG
-[book_benson_faherty_1978]: https://ntrs.nasa.gov/search?q=Moonport+History+of+Apollo+Launch+Facilities
+[book_benson_faherty_1978]: https://openlibrary.org/works/OL6681768W
 [book_berger_2021]: https://www.harpercollins.com/products/liftoff-eric-berger
-[book_berger_2024]: https://openlibrary.org/search?q=Berger+Reentry+SpaceX
+[book_berger_2024]: https://openlibrary.org/works/OL37529642W
 [book_berlin_2005]: https://global.oup.com/academic/product/the-man-behind-the-microchip-9780195311990
 [book_bijker_1995]: https://mitpress.mit.edu/9780262522274/of-bicycles-bakelites-and-bulbs/
 [book_bijker_hughes_pinch_1987]: https://mitpress.mit.edu/9780262521376/the-social-construction-of-technological-systems/
-[book_bilstein_1996]: https://ntrs.nasa.gov/search?q=Stages+to+Saturn+Bilstein
+[book_bilstein_1996]: https://openlibrary.org/works/OL2856899W
 [book_bilstein_2001]: https://jhupbooks.press.jhu.edu/title/flight-america
 [book_blanchard_fabrycky_2011]: https://www.pearson.com/en-us/subject-catalog/p/systems-engineering-and-analysis/P200000003302
 [book_bork_1978]: https://www.hup.harvard.edu/books/9780674032545
@@ -1217,7 +1224,7 @@ The article closes with the load-bearing open questions that the generality-forc
 [book_buede_2009]: https://openlibrary.org/search?q=Buede+Engineering+Design+of+Systems+Models+and+Methods
 [book_chadeau_1996]: https://openlibrary.org/search?q=Chadeau+Airbus+Industrie+History
 [book_chaikin_1994]: https://www.penguinrandomhouse.com/books/74211/a-man-on-the-moon-by-andrew-chaikin/
-[book_chaikin_2007]: https://openlibrary.org/search?q=Chaikin+A+Man+on+the+Moon
+[book_chaikin_2007]: https://openlibrary.org/works/OL3290625W
 [book_chang_2002]: https://www.penguin.co.uk/books/56082/kicking-away-the-ladder/9780857281050
 [book_christensen_1997]: https://www.hbsp.harvard.edu/product/1130-HBK-ENG
 [book_christensen_raynor_2003]: https://www.hbsp.harvard.edu/product/3595-HBK-ENG
@@ -1226,44 +1233,44 @@ The article closes with the load-bearing open questions that the generality-forc
 [book_crouch_2003]: https://wwnorton.com/books/Wings/
 [book_curtis_2013]: https://www.elsevier.com/books/orbital-mechanics-for-engineering-students/curtis/978-0-08-097747-8
 [book_cusumano_gawer_2002]: https://www.hbsp.harvard.edu/product/6155-HBK-ENG
-[book_cyert_march_1963]: https://openlibrary.org/search?q=Cyert+March+Behavioral+Theory+Firm
+[book_cyert_march_1963]: https://openlibrary.org/works/OL2859173W
 [book_davenport_2018]: https://www.hachettebookgroup.com/titles/christian-davenport/the-space-barons/9781610398299/
-[book_dixit_pindyck_1994]: https://openlibrary.org/search?q=Dixit+and+Pindyck+Investment+Under+Uncertainty
+[book_dixit_pindyck_1994]: https://openlibrary.org/works/OL2979477W
 [book_evans_1995]: https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy
-[book_ezell_ezell_1978]: https://ntrs.nasa.gov/search?q=On+Mars+Exploration+of+the+Red+Planet
+[book_ezell_ezell_1978]: https://openlibrary.org/works/OL4631174W
 [book_fallows_1981]: https://archive.org/details/nationaldefense00fall
 [book_fernholz_2018]: https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/
-[book_ford_crowther_1922]: https://openlibrary.org/search?q=Ford+My+Life+and+Work
+[book_ford_crowther_1922]: https://openlibrary.org/works/OL4418043W
 [book_foster_mcchesney_2011]: https://monthlyreview.org/product/endless_crisis/
-[book_freeman_1987]: https://openlibrary.org/search?q=Freeman+Technology+Policy+and+Economic+Performance
+[book_freeman_1987]: https://openlibrary.org/works/OL2642736W
 [book_gertner_2012]: https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/
 [book_golley_1987]: https://www.crecy.co.uk/whittle-the-true-story
-[book_green_lomask_1970]: https://ntrs.nasa.gov/search?q=Vanguard+a+History
+[book_green_lomask_1970]: https://openlibrary.org/works/OL6831846W
 [book_grief_2006]: https://www.cambridge.org/9780521671347
 [book_hartley_2017]: https://openlibrary.org/search?q=Hartley+The+Economics+of+Arms
-[book_hendrickx_vis_2007]: https://link.springer.com/book/10.1007/978-0-387-73984-7
+[book_hendrickx_vis_2007]: https://doi.org/10.1007/978-0-387-73984-7
 [book_heppenheimer_1999]: https://www.si.edu/object/space-shuttle-decision%3Anmah_1197080
 [book_horwitch_1982]: https://mitpress.mit.edu/9780262580620/clipped-wings/
 [book_hounshell_1984]: https://jhupbooks.press.jhu.edu/title/american-system-mass-production-1800-1932
-[book_hovenkamp_2005]: https://openlibrary.org/search?q=Hovenkamp+The+Antitrust+Enterprise
+[book_hovenkamp_2005]: https://openlibrary.org/works/OL3464674W
 [book_hughes_1983]: https://jhupbooks.press.jhu.edu/title/networks-power
 [book_humble_henry_larson_1995]: https://www.mheducation.com/highered/product/space-propulsion-analysis-design-humble-henry/M9780070313200.html
 [book_hunter_2016]: https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/160930_Hunter_CreatingStrategicValue_Web.pdf
 [book_isaacson_2023]: https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284
-[book_jenkins_2001]: https://ntrs.nasa.gov/search?q=Space+Shuttle+History+of+the+National+Space+Transportation+System
+[book_jenkins_2001]: https://openlibrary.org/works/OL813312W
 [book_johnson_1982]: https://www.sup.org/books/title/?id=2143
 [book_kahn_1988]: https://mitpress.mit.edu/9780262610520/the-economics-of-regulation/
 [book_kahneman_2011]: https://us.macmillan.com/books/9780374533557/thinkingfastandslow
-[book_kaplan_1991]: https://openlibrary.org/search?q=Kaplan+The+Wizards+of+Armageddon
+[book_kaplan_1991]: https://openlibrary.org/works/OL4488241W
 [book_kaplan_norton_2001]: https://www.hbsp.harvard.edu/product/1352-HBK-ENG
 [book_kauffman_1993]: https://global.oup.com/academic/product/the-origins-of-order-9780195079517
-[book_kernighan_ritchie_1978]: https://openlibrary.org/search?q=C+Programming+Language+Kernighan+Ritchie
+[book_kernighan_ritchie_1978]: https://openlibrary.org/works/OL4617640W
 [book_klerkx_2004]: https://us.macmillan.com/books/9780375421501/lostinspace
 [book_kraemer_2006]: https://openlibrary.org/search?q=Kraemer+Rocketdyne+Powering+Humans+into+Space
 [book_kranz_2000]: https://www.simonandschuster.com/books/Failure-Is-Not-an-Option/Gene-Kranz/9781439148815
 [book_krige_et_al_2000]: https://www.esa.int/About_Us/ESA_history
 [book_kuhn_1962]: https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html
-[book_larson_wertz_1999]: https://openlibrary.org/search?q=Wertz+Larson+Space+Mission+Analysis+and+Design
+[book_larson_wertz_1999]: https://openlibrary.org/works/OL19903182W
 [book_latour_1987]: https://www.hup.harvard.edu/books/9780674792913
 [book_latour_woolgar_1979]: https://press.princeton.edu/books/paperback/9780691028323/laboratory-life
 [book_launius_1994]: https://openlibrary.org/search?q=Launius+NASA+History+United+States+Civil+Space+Program
@@ -1273,64 +1280,64 @@ The article closes with the load-bearing open questions that the generality-forc
 [book_liker_2004]: https://www.mheducation.com/highered/product/toyota-way-liker/M9780071392310.html
 [book_lipsey_carlaw_bekar_2005]: https://global.oup.com/academic/product/economic-transformations-9780199290895
 [book_logsdon_1970]: https://mitpress.mit.edu/9780262620109/the-decision-to-go-to-the-moon/
-[book_logsdon_2010]: https://openlibrary.org/search?q=Logsdon+John+F+Kennedy+and+the+Race+to+the+Moon
-[book_lundvall_1992]: https://openlibrary.org/search?q=Lundvall+National+Systems+of+Innovation
+[book_logsdon_2010]: https://openlibrary.org/works/OL20786883W
+[book_lundvall_1992]: https://openlibrary.org/works/OL9010144W
 [book_mackenzie_1990]: https://mitpress.mit.edu/9780262631471/inventing-accuracy/
-[book_malone_2014]: https://openlibrary.org/search?q=Malone+The+Intel+Trinity
+[book_malone_2014]: https://openlibrary.org/works/OL17762218W
 [book_march_simon_1958]: https://www.wiley.com/en-us/Organizations%2C+2nd+Edition-p-9780631186311
 [book_mazzucato_2013]: https://marianamazzucato.com/books/the-entrepreneurial-state
 [book_mazzucato_2021]: https://marianamazzucato.com/books/mission-economy/
 [book_mccurdy_1994]: https://jhupbooks.press.jhu.edu/title/inside-nasa
 [book_mcdougall_1985]: https://jhupbooks.press.jhu.edu/title/heavens-and-earth
 [book_mcintyre_1992]: https://openlibrary.org/search?q=McIntyre+Airbus+Industrie
-[book_melman_1970]: https://openlibrary.org/search?q=Melman+Pentagon+Capitalism
+[book_melman_1970]: https://openlibrary.org/works/OL1299274W
 [book_messeri_2016]: https://www.dukeupress.edu/placing-outer-space
 [book_metcalfe_1998]: https://www.routledge.com/Evolutionary-Economics-and-Creative-Destruction/Metcalfe/p/book/9780415158671
 [book_meyer_lehnerd_1997]: https://www.simonandschuster.com/books/The-Power-of-Product-Platforms/Marc-H-Meyer/9780684825809
-[book_miller_1995]: https://openlibrary.org/search?q=Miller+Lockheed+Skunk+Works+First+Fifty+Years
+[book_miller_1995]: https://openlibrary.org/works/OL7006663W
 [book_mindell_2008]: https://mitpress.mit.edu/9780262516105/digital-apollo/
-[book_mowery_rosenberg_1998]: https://openlibrary.org/search?q=Mowery+Rosenberg+Paths+of+Innovation
+[book_mowery_rosenberg_1998]: https://openlibrary.org/works/OL21370782W
 [book_murray_cox_1989]: https://www.simonandschuster.com/books/Apollo/Charles-Murray/9780671706258
-[book_musa_1998]: https://openlibrary.org/search?q=Musa+Software+Reliability+Engineering
+[book_musa_1998]: https://openlibrary.org/works/OL4781285W
 [book_nelson_1993]: https://global.oup.com/academic/product/national-innovation-systems-9780195076172
 [book_nelson_winter_1982]: https://www.hup.harvard.edu/books/9780674272286
-[book_neufeld_1995]: https://openlibrary.org/search?q=Neufeld+The+Rocket+and+the+Reich
-[book_neufeld_2013]: https://openlibrary.org/search?q=Neufeld+Von+Braun
+[book_neufeld_1995]: https://openlibrary.org/works/OL3501503W
+[book_neufeld_2013]: https://openlibrary.org/works/OL3501502W
 [book_nevins_1954]: https://openlibrary.org/search?q=Nevins+Ford+The+Times+The+Man+The+Company
-[book_newhouse_1982]: https://openlibrary.org/search?q=Newhouse+The+Sporty+Game
+[book_newhouse_1982]: https://openlibrary.org/works/OL2625941W
 [book_newhouse_2007]: https://us.macmillan.com/books/9781400079131/boeingversusairbus
 [book_nonaka_takeuchi_1995]: https://global.oup.com/academic/product/the-knowledge-creating-company-9780195092691
 [book_norberg_oneill_1996]: https://jhupbooks.press.jhu.edu/title/transforming-computer-technology
 [book_north_1990]: https://www.cambridge.org/9780521397346
 [book_nye_1990]: https://mitpress.mit.edu/9780262640305/electrifying-america/
-[book_oconnor_kleyner_2012]: https://openlibrary.org/search?q=O+Connor+and+Kleyner+Practical+Reliability+Engineering
-[book_ohno_1988]: https://openlibrary.org/search?q=Ohno+Toyota+Production+System
+[book_oconnor_kleyner_2012]: https://openlibrary.org/works/OL3744715W
+[book_ohno_1988]: https://openlibrary.org/works/OL8681881W
 [book_ormerod_2005]: https://us.macmillan.com/books/9780375421099/whymostthingsfail
 [book_ostrom_1990]: https://www.cambridge.org/9780521405997
 [book_owen_1997]: https://openlibrary.org/search?q=Owen+Concorde+Story+of+a+Supersonic+Pioneer
-[book_owen_2001]: https://openlibrary.org/search?q=Owen+Concorde+and+the+Americans
+[book_owen_2001]: https://openlibrary.org/works/OL3341689W
 [book_perrow_1984]: https://press.princeton.edu/books/paperback/9780691004129/normal-accidents
 [book_porter_1980]: https://www.simonandschuster.com/books/Competitive-Strategy/Michael-E-Porter/9780684841489
 [book_porter_1985]: https://www.simonandschuster.com/books/Competitive-Advantage/Michael-E-Porter/9780684841465
-[book_posner_2001]: https://openlibrary.org/search?q=Posner+Antitrust+Law
+[book_posner_2001]: https://openlibrary.org/works/OL1924317W
 [book_prussing_conway_2013]: https://global.oup.com/academic/product/orbital-mechanics-9780199837700
 [book_pugh_1995]: https://mitpress.mit.edu/9780262161473/building-ibm/
 [book_pugh_johnson_palmer_1991]: https://mitpress.mit.edu/9780262161237/ibms-360-and-early-370-systems/
 [book_redfield_2000]: https://www.ucpress.edu/book/9780520219854/space-in-the-tropics
 [book_rich_janos_1994]: https://www.hachettebookgroup.com/titles/ben-r-rich/skunk-works/9780316743006/
 [book_riordan_hoddeson_1997]: https://wwnorton.com/books/Crystal-Fire/
-[book_riordan_hoddeson_kolb_2015]: https://openlibrary.org/search?q=Riordan+Hoddeson+Kolb+Tunnel+Visions
+[book_riordan_hoddeson_kolb_2015]: https://openlibrary.org/works/OL20186122W
 [book_robertson_robertson_2012]: https://www.pearson.com/en-us/subject-catalog/p/mastering-the-requirements-process/P200000009250
 [book_rosenberg_1976]: https://www.cambridge.org/9780521290111
 [book_rosenberg_1982]: https://www.cambridge.org/9780521273671
 [book_ruttan_2006]: https://global.oup.com/academic/product/is-war-necessary-for-economic-growth-9780195188042
-[book_sanderson_uzumeri_1997]: https://openlibrary.org/search?q=Sanderson+and+Uzumeri+Managing+Product+Families
+[book_sanderson_uzumeri_1997]: https://openlibrary.org/works/OL33995941W
 [book_saxenian_1994]: https://www.hup.harvard.edu/books/9780674753402
-[book_scherer_ross_1990]: https://openlibrary.org/search?q=Scherer+Ross+Industrial+Market+Structure
+[book_scherer_ross_1990]: https://openlibrary.org/works/OL2965680W
 [book_senge_1990]: https://www.penguinrandomhouse.com/books/163984/the-fifth-discipline-by-peter-m-senge/
-[book_serling_1992]: https://openlibrary.org/search?q=Serling+Legend+and+Legacy
+[book_serling_1992]: https://openlibrary.org/works/OL2769360W
 [book_sharkey_1982]: https://www.cambridge.org/9780521271943
-[book_shingo_1989]: https://openlibrary.org/search?q=Shingo+A+Study+of+the+Toyota+Production+System
+[book_shingo_1989]: https://openlibrary.org/works/OL4111563W
 [book_simon_1957]: https://www.simonandschuster.com/books/Administrative-Behavior-4th-Edition/Herbert-A-Simon/9781439136218
 [book_sommerville_sawyer_1997]: https://www.wiley.com/en-us/Requirements+Engineering%3A+A+Good+Practice+Guide-p-9780471974444
 [book_srnicek_2017]: https://www.wiley.com/en-us/Platform+Capitalism-p-9781509504879
@@ -1344,21 +1351,21 @@ The article closes with the load-bearing open questions that the generality-forc
 [book_vanalstyne_parker_choudary_2016]: https://wwnorton.com/books/Platform-Revolution/
 [book_vance_2015]: https://www.harpercollins.com/products/elon-musk-ashlee-vance
 [book_vaughan_1996]: https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html
-[book_vertesi_2015]: https://openlibrary.org/search?q=Vertesi+Seeing+Like+a+Rover
+[book_vertesi_2015]: https://openlibrary.org/works/OL20016535W
 [book_wade_1990]: https://press.princeton.edu/books/paperback/9780691117294/governing-the-market
 [book_weick_1979]: https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html
-[book_weick_sutcliffe_2007]: https://openlibrary.org/search?q=Weick+and+Sutcliffe+Managing+the+Unexpected
+[book_weick_sutcliffe_2007]: https://openlibrary.org/works/OL3749104W
 [book_weiss_2014]: https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/
 [book_wertz_everett_puschell_2011]: https://openlibrary.org/search?q=Wertz+Everett+Puschell+Space+Mission+Engineering+New+SMAD
 [book_williamson_1985]: https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740
 [book_womack_jones_2003]: https://www.simonandschuster.com/books/Lean-Thinking/James-P-Womack/9780743249270
 [book_womack_jones_roos_1990]: https://www.simonandschuster.com/books/The-Machine-That-Changed-the-World/James-P-Womack/9780743299794
 [book_woo_cumings_1999]: https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/
-[book_wu_2010]: https://openlibrary.org/search?q=Wu+The+Master+Switch
+[book_wu_2010]: https://openlibrary.org/works/OL15118227W
 [book_yin_2014]: https://us.sagepub.com/en-us/nam/case-study-research-and-applications/book250150
 [book_zuboff_2019]: https://www.hachettebookgroup.com/titles/shoshana-zuboff/the-age-of-surveillance-capitalism/9781610395694/
 [book_zubrin_1996]: https://www.simonandschuster.com/books/The-Case-for-Mars/Robert-Zubrin/9781451608113
-[book_zubrin_2019]: https://openlibrary.org/search?q=Zubrin+The+Case+for+Space
+[book_zubrin_2019]: https://openlibrary.org/works/OL20895320W
 [ref_aiaa_jpp]: https://arc.aiaa.org/journal/jpp
 [ref_aiaa_jsr]: https://arc.aiaa.org/journal/jsr
 [ref_arianespace]: https://www.arianespace.com/
@@ -1482,101 +1489,101 @@ The article closes with the load-bearing open questions that the generality-forc
 [related_post_a90_intro_space_studies]: {% post_url 2026-02-21-introduction_to_space_studies %}
 [related_post_a96_history_rocketplanes]: {% post_url 2026-02-27-history_of_rocketplanes %}
 [related_post_a97_us_space_force]: {% post_url 2026-02-28-what_does_united_states_space_force_do %}
-[research_abernathy_clark_1985]: https://www.sciencedirect.com/science/article/abs/pii/0048733385900217
-[research_acikmese_ploen_2007]: https://arc.aiaa.org/doi/10.2514/1.27553
+[research_abernathy_clark_1985]: https://doi.org/10.1016/0048-7333(85)90021-6
+[research_acikmese_ploen_2007]: https://doi.org/10.2514/1.27553
 [research_adilov_et_al_2018]: https://www.sciencedirect.com/science/article/abs/pii/S0921800917305591
-[research_adner_kapoor_2010]: https://onlinelibrary.wiley.com/doi/10.1002/smj.821
-[research_aghion_howitt_1992]: https://www.jstor.org/stable/2951599
+[research_adner_kapoor_2010]: https://doi.org/10.1002/smj.821
+[research_aghion_howitt_1992]: https://doi.org/10.2307/2951599
 [research_anadol_cohen_2018]: https://www.hbs.edu/faculty/Pages/item.aspx?num=54001
-[research_anderson_tushman_1990]: https://www.jstor.org/stable/2393511
-[research_argote_epple_1990]: https://www.science.org/doi/10.1126/science.247.4945.920
-[research_argote_ingram_2000]: https://www.sciencedirect.com/science/article/abs/pii/S0749597800928930
-[research_argote_miron_spektor_2011]: https://pubsonline.informs.org/doi/10.1287/orsc.1100.0621
-[research_arrow_1962]: https://www.nber.org/system/files/chapters/c2144/c2144.pdf
-[research_arthur_1989]: https://www.jstor.org/stable/2234208
-[research_bardeen_brattain_1948]: https://journals.aps.org/pr/abstract/10.1103/PhysRev.74.230
+[research_anderson_tushman_1990]: https://doi.org/10.2307/2393511
+[research_argote_epple_1990]: https://doi.org/10.1126/science.247.4945.920
+[research_argote_ingram_2000]: https://doi.org/10.1006/obhd.2000.2893
+[research_argote_miron_spektor_2011]: https://doi.org/10.1287/orsc.1100.0621
+[research_arrow_1962]: https://doi.org/10.1515/9781400879762-024
+[research_arthur_1989]: https://doi.org/10.2307/2234208
+[research_bardeen_brattain_1948]: https://doi.org/10.1103/physrev.74.230
 [research_baumol_1977]: https://www.jstor.org/stable/1807012
 [research_blackmore_2016]: https://ieeexplore.ieee.org/document/7735311
 [research_block_2008]: https://doi.org/10.1177/0032329208318731
-[research_boudreau_2010]: https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1215
+[research_boudreau_2010]: https://doi.org/10.1287/mnsc.1100.1215
 [research_bower_christensen_1995]: https://hbr.org/1995/01/disruptive-technologies-catching-the-wave
-[research_bresnahan_trajtenberg_1995]: https://www.sciencedirect.com/science/article/abs/pii/030440769401598T
+[research_bresnahan_trajtenberg_1995]: https://doi.org/10.1016/0304-4076(94)01598-t
 [research_christensen_raynor_mcdonald_2015]: https://hbr.org/2015/12/what-is-disruptive-innovation
-[research_christensen_rosenbloom_1995]: https://www.sciencedirect.com/science/article/abs/pii/004873339400794D
-[research_coase_1937]: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0335.1937.tb00002.x
-[research_cohen_levinthal_1990]: https://www.jstor.org/stable/2393553
+[research_christensen_rosenbloom_1995]: https://doi.org/10.1016/0048-7333(93)00764-k
+[research_coase_1937]: https://doi.org/10.1111/j.1468-0335.1937.tb00002.x
+[research_cohen_levinthal_1990]: https://doi.org/10.2307/2393553
 [research_david_1985]: https://www.jstor.org/stable/1805621
 [research_david_1990]: https://www.jstor.org/stable/2006600
 [research_del_monte_2010]: https://www.sciencedirect.com/science/article/pii/S0265964610000160
 [research_dosi_1988]: https://www.jstor.org/stable/2726526
-[research_duane_1964]: https://ieeexplore.ieee.org/document/4051464
+[research_duane_1964]: https://doi.org/10.1109/ta.1964.4319640
 [research_dutton_thomas_1984]: https://doi.org/10.2307/258437
-[research_eisenhardt_martin_2000]: https://onlinelibrary.wiley.com/doi/10.1002/1097-0266%28200010/11%2921%3A10/11%3C1105%3A%3AAID-SMJ133%3E3.0.CO%3B2-E
+[research_eisenhardt_martin_2000]: https://doi.org/10.1002/1097-0266(200010/11)21:10/11<1105::aid-smj133>3.0.co;2-e
 [research_eisenmann_et_al_2006]: https://hbr.org/2006/10/strategies-for-two-sided-markets
-[research_farrell_saloner_1985]: https://www.jstor.org/stable/2555277
-[research_gawer_2014]: https://www.sciencedirect.com/science/article/abs/pii/S0048733314001292
-[research_gawer_cusumano_2014]: https://onlinelibrary.wiley.com/doi/10.1111/jpim.12105
-[research_grant_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171110
-[research_griliches_1979]: https://www.jstor.org/stable/3003318
-[research_grossman_hart_1986]: https://www.jstor.org/stable/1833199
-[research_hart_moore_1990]: https://www.jstor.org/stable/2937861
-[research_helfat_peteraf_2003]: https://onlinelibrary.wiley.com/doi/10.1002/smj.332
-[research_henderson_clark_1990]: https://www.jstor.org/stable/2393549
-[research_hertzfeld_2002]: https://www.sciencedirect.com/science/article/abs/pii/S0265964602000188
-[research_huber_1991]: https://pubsonline.informs.org/doi/10.1287/orsc.2.1.88
-[research_jacobides_et_al_2018]: https://onlinelibrary.wiley.com/doi/10.1002/smj.2904
-[research_kahneman_tversky_1979]: https://www.jstor.org/stable/1914185
+[research_farrell_saloner_1985]: https://doi.org/10.2307/2555589
+[research_gawer_2014]: https://doi.org/10.1016/j.respol.2014.03.006
+[research_gawer_cusumano_2014]: https://doi.org/10.1111/jpim.12105
+[research_grant_1996]: https://doi.org/10.1002/smj.4250171110
+[research_griliches_1979]: https://doi.org/10.2307/3003321
+[research_grossman_hart_1986]: https://doi.org/10.1086/261404
+[research_hart_moore_1990]: https://doi.org/10.1086/261729
+[research_helfat_peteraf_2003]: https://doi.org/10.1002/smj.332
+[research_henderson_clark_1990]: https://doi.org/10.2307/2393549
+[research_hertzfeld_2002]: https://doi.org/10.1023/a:1020207506064
+[research_huber_1991]: https://doi.org/10.1287/orsc.2.1.88
+[research_jacobides_et_al_2018]: https://doi.org/10.1002/smj.2904
+[research_kahneman_tversky_1979]: https://doi.org/10.2307/1914185
 [research_katz_shapiro_1985]: https://www.jstor.org/stable/1814809
-[research_kessler_courpalais_1978]: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/JA083iA06p02637
+[research_kessler_courpalais_1978]: https://doi.org/10.1029/ja083ia06p02637
 [research_khan_2017]: https://www.yalelawjournal.org/note/amazons-antitrust-paradox
-[research_kilby_1976]: https://ieeexplore.ieee.org/document/1454570
-[research_klein_crawford_alchian_1978]: https://www.jstor.org/stable/725234
+[research_kilby_1976]: https://doi.org/10.1109/t-ed.1976.18467
+[research_klein_crawford_alchian_1978]: https://doi.org/10.1086/466922
 [research_klepper_1996]: https://www.jstor.org/stable/2118211
-[research_kogut_zander_1992]: https://pubsonline.informs.org/doi/10.1287/orsc.3.3.383
+[research_kogut_zander_1992]: https://doi.org/10.1287/orsc.3.3.383
 [research_krueger_1974]: https://www.jstor.org/stable/1808883
-[research_lafontaine_slade_2007]: https://www.aeaweb.org/articles?id=10.1257/jel.45.3.629
-[research_levitt_march_1988]: https://www.annualreviews.org/doi/10.1146/annurev.so.14.080188.001535
-[research_maier_1998]: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6858(1998)1:4%3C267::AID-SYS3%3E3.0.CO;2-D
-[research_march_1991]: https://pubsonline.informs.org/doi/10.1287/orsc.2.1.71
-[research_masten_1984]: https://www.jstor.org/stable/725228
-[research_monteverde_teece_1982]: https://www.jstor.org/stable/3003400
-[research_murmann_frenken_2006]: https://www.sciencedirect.com/science/article/abs/pii/S0048733306000631
-[research_musk_2017_iac]: https://www.liebertpub.com/doi/10.1089/space.2017.29009.emu
-[research_musk_2018_iac]: https://www.liebertpub.com/doi/10.1089/space.2018.29013.emu
+[research_lafontaine_slade_2007]: https://doi.org/10.1257/jel.45.3.629
+[research_levitt_march_1988]: https://doi.org/10.1146/annurev.so.14.080188.001535
+[research_maier_1998]: https://doi.org/10.1002/(sici)1520-6858(1998)1:4<267::aid-sys3>3.0.co;2-d
+[research_march_1991]: https://doi.org/10.1287/orsc.2.1.71
+[research_masten_1984]: https://doi.org/10.1086/467071
+[research_monteverde_teece_1982]: https://doi.org/10.2307/3003441
+[research_murmann_frenken_2006]: https://doi.org/10.1016/j.respol.2006.04.011
+[research_musk_2017_iac]: https://doi.org/10.1089/space.2017.29009.emu
+[research_musk_2018_iac]: https://doi.org/10.1089/space.2018.29013.emu
 [research_musk_2024_starship_update]: https://www.spacex.com/updates/
-[research_nelson_1959]: https://www.journals.uchicago.edu/doi/10.1086/258177
-[research_nonaka_1994]: https://pubsonline.informs.org/doi/10.1287/orsc.5.1.14
-[research_noyce_1976]: https://ieeexplore.ieee.org/document/1454572
-[research_nuseibeh_easterbrook_2000]: https://dl.acm.org/doi/10.1145/336512.336523
-[research_parker_vanalstyne_2005]: https://pubsonline.informs.org/doi/10.1287/mnsc.1050.0400
-[research_pavitt_1984]: https://www.sciencedirect.com/science/article/abs/pii/0048733384900215
-[research_peeters_2018]: https://www.sciencedirect.com/science/article/pii/S0265964617302175
+[research_nelson_1959]: https://doi.org/10.1086/258177
+[research_nonaka_1994]: https://doi.org/10.1287/orsc.5.1.14
+[research_noyce_1976]: https://doi.org/10.1038/scientificamerican0977-62
+[research_nuseibeh_easterbrook_2000]: https://doi.org/10.1145/336512.336523
+[research_parker_vanalstyne_2005]: https://doi.org/10.1287/mnsc.1050.0400
+[research_pavitt_1984]: https://doi.org/10.1016/0048-7333(84)90018-0
+[research_peeters_2018]: https://doi.org/10.1089/space.2017.0039
 [research_pisano_2015]: https://hbr.org/2015/06/you-need-an-innovation-strategy
 [research_reuters_starshield_2024]: https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/
-[research_ritchie_thompson_1974]: https://dl.acm.org/doi/10.1145/361011.361061
+[research_ritchie_thompson_1974]: https://doi.org/10.1145/361011.361061
 [research_robertson_ulrich_1998]: https://sloanreview.mit.edu/article/planning-for-product-platforms/
-[research_rochet_tirole_2003]: https://www.jstor.org/stable/40007911
-[research_romer_1990]: https://www.journals.uchicago.edu/doi/10.1086/261725
-[research_rosenberg_trajtenberg_2004]: https://www.nber.org/papers/w8485
-[research_rosenbloom_christensen_1998]: https://academic.oup.com/icc/article-abstract/7/2/173/661731
+[research_rochet_tirole_2003]: https://doi.org/10.1162/154247603322493212
+[research_romer_1990]: https://doi.org/10.1086/261725
+[research_rosenberg_trajtenberg_2004]: https://doi.org/10.3386/w8485
+[research_rosenbloom_christensen_1998]: https://doi.org/10.1093/0198290969.003.0007
 [research_ross_staw_1993]: https://doi.org/10.2307/256756
-[research_rysman_2009]: https://www.aeaweb.org/articles?id=10.1257/jep.23.3.125
+[research_rysman_2009]: https://doi.org/10.1257/jep.23.3.125
 [research_sage_cuppan_2001]: https://doi.org/10.3233/iks-2001-00045
-[research_sanchez_mahoney_1996]: https://onlinelibrary.wiley.com/doi/10.1002/smj.4250171107
-[research_shockley_1949]: https://onlinelibrary.wiley.com/doi/10.1002/j.1538-7305.1949.tb03645.x
+[research_sanchez_mahoney_1996]: https://doi.org/10.1002/smj.4250171107
+[research_shockley_1949]: https://doi.org/10.1002/j.1538-7305.1949.tb03645.x
 [research_simon_1962]: https://www.jstor.org/stable/985254
-[research_staw_1976]: https://www.sciencedirect.com/science/article/abs/pii/003050737690005X
-[research_stigler_1971]: https://www.jstor.org/stable/3003160
+[research_staw_1976]: https://doi.org/10.1016/0030-5073(76)90005-2
+[research_stigler_1971]: https://doi.org/10.2307/3003160
 [research_suarez_utterback_1995]: https://doi.org/10.1002/smj.4250160602
-[research_teece_1986]: https://www.sciencedirect.com/science/article/abs/pii/0048733386900272
-[research_teece_2007]: https://onlinelibrary.wiley.com/doi/10.1002/smj.640
-[research_teece_pisano_shuen_1997]: https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-0266%28199708%2918%3A7%3C509%3A%3AAID-SMJ882%3E3.0.CO%3B2-Z
-[research_tversky_kahneman_1992]: https://link.springer.com/article/10.1007/BF00122574
-[research_ulrich_1995]: https://www.sciencedirect.com/science/article/abs/pii/0048733394000513
+[research_teece_1986]: https://doi.org/10.1016/0048-7333(86)90027-2
+[research_teece_2007]: https://doi.org/10.1002/smj.640
+[research_teece_pisano_shuen_1997]: https://doi.org/10.1002/(sici)1097-0266(199708)18:7<509::aid-smj882>3.0.co;2-z
+[research_tversky_kahneman_1992]: https://doi.org/10.1007/bf00122574
+[research_ulrich_1995]: https://doi.org/10.1016/0048-7333(94)00775-3
 [research_walker_et_al_2020]: https://noirlab.edu/public/products/techdocs/techdoc003/
-[research_weeden_chow_2012]: https://www.sciencedirect.com/science/article/abs/pii/S0265964612000513
-[research_weinzierl_2018]: https://www.aeaweb.org/articles?id=10.1257/jep.32.2.173
+[research_weeden_chow_2012]: https://doi.org/10.1016/j.spacepol.2012.06.004
+[research_weinzierl_2018]: https://doi.org/10.1257/jep.32.2.173
 [research_weiss_thurbon_2021]: https://doi.org/10.1080/13563467.2020.1766431
 [research_williamson_1975]: https://www.jstor.org/stable/40751236
-[research_winter_2003]: https://onlinelibrary.wiley.com/doi/10.1002/smj.318
-[research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
+[research_winter_2003]: https://doi.org/10.1002/smj.318
+[research_wright_1936]: https://doi.org/10.2514/8.155

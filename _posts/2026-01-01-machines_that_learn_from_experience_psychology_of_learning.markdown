@@ -41,17 +41,17 @@ The Law of Effect of [Thorndike 1911][book_thorndike_1911] Animal Intelligence i
 
 Behaviorism as a distinct research program was systematically launched by the [Watson 1913][research_watson_1913] Psychology as the Behaviorist Views It manifesto, which argued that psychology should restrict itself to the study of observable behavior rather than the introspective study of consciousness. The model markedly shaped subsequent American psychology through the commitment to behavioral measurement.
 
-The [Skinner 1938][book_skinner_1938] Behavior of Organisms extended the behaviorist framework through the systematic study of operant conditioning and identified the reinforcement schedules that produce distinctive patterns of behavioral acquisition and maintenance. This formulation has appreciably shaped subsequent behavior analysis and continues to organize marked applied psychology research. Purposive Behavior in Animals and Men of [Tolman 1932][book_tolman_1932] provided the systematic early alternative to strict behaviorism through the proposal that animal behavior is oriented toward goals and mediated by cognitive representations. Principles of Behavior of [Hull 1943][book_hull_1943] provided the alternative systematic neo-behaviorist framework through the hypothetico-deductive formulation of learning as a function of habit strength and drive. Stochastic Models for Learning of [Bush and Mosteller 1955][book_bush_mosteller_1955] introduced the formal probabilistic framework for learning that provided the systematic mathematical foundation for the subsequent computational learning theories, and Skinner's [Verbal Behavior 1957][book_skinner_1957] extended the operant framework to language behavior in the treatment that Chomsky subsequently critiqued.
+The [Skinner 1938][book_skinner_1938] Behavior of Organisms extended the behaviorist framework through the systematic study of operant conditioning and identified the reinforcement schedules that produce distinctive patterns of behavioral acquisition and maintenance. This formulation has appreciably shaped subsequent behavior analysis and continues to organize marked applied psychology research. Purposive Behavior in Animals and Men of [Tolman 1932][book_tolman_1932] provided the systematic early alternative to strict behaviorism through the proposal that animal behavior is oriented toward goals and mediated by cognitive representations. Principles of Behavior of [Hull 1943][book_hull_1943] provided the alternative systematic neo-behaviorist framework through the hypothetico-deductive formulation of learning as a function of habit strength and drive. Stochastic Models for Learning of [Bush and Mosteller 1955][book_bush_mosteller_1955] introduced the formal probabilistic framework for learning that provided the systematic mathematical foundation for the subsequent computational learning theories, and Skinner's [Skinner 1957][book_skinner_1957] extended the operant framework to language behavior in the treatment that Chomsky subsequently critiqued.
 
 Stimulus sampling theory of [Estes 1950][research_estes_1950] provided the formal alternative in which learning is characterized as the systematic sampling of stimulus elements associated with responses. The treatment provided one of the earliest systematic mathematical treatments of learning and continues to shape the modern probabilistic treatment through the quantitative predictions it produces.
 
-The cognitive revolution emerged in the 1950s through the combination of information-theoretic frameworks, empirical challenges to strict behaviorism, and the emergence of computer science as a source of computational vocabulary for mental processes. The [Miller 1956][research_miller_1956] Magical Number Seven paper introduced the information-processing framework for the study of short-term memory. The [Chomsky 1959][research_chomsky_1959] Review of Verbal Behavior provided the systematic linguistic critique of the behaviorist account of language acquisition. The [Bruner Goodnow Austin 1956][book_bruner_goodnow_austin_1956] Study of Thinking provided the cognitive-psychological alternative to behaviorism through the study of concept attainment.
+The cognitive revolution emerged in the 1950s through the combination of information-theoretic frameworks, empirical challenges to strict behaviorism, and the emergence of computer science as a source of computational vocabulary for mental processes. The [Miller 1956][research_miller_1956] Magical Number Seven paper introduced the information-processing framework for the study of short-term memory. The [Chomsky 1959][research_chomsky_1959] Review of Verbal Behavior provided the systematic linguistic critique of the behaviorist account of language acquisition. The [Bruner et al. 1956][book_bruner_goodnow_austin_1956] Study of Thinking provided the cognitive-psychological alternative to behaviorism through the study of concept attainment.
 
 The Rescorla-Wagner model of [Rescorla and Wagner 1972][research_rescorla_wagner_1972] introduced the formal model of classical conditioning that provided the modern quantitative framework for the study of associative learning. This account has been greatly extended and refined through subsequent work but continues to provide the quantitative foundation for the field.
 
 Modern computational cognitive science emerged in the 1980s and 1990s through the combination of connectionist modeling, Bayesian frameworks, and the increasing empirical grounding of computational theories. The [Anderson 1990][book_anderson_1990] Adaptive Character of Thought framework and the extensive subsequent work has considerably reshaped modern psychology through the commitment to computational-cognitive-model-fitting to empirical data.
 
-The 2000s and 2010s produced the integration of reinforcement learning frameworks with the psychology of learning through the work of [Daw Niv Dayan 2005][research_daw_niv_dayan_2005] and the sizable subsequent literature. The framework provides the bridge between modern machine learning and the classical psychology of learning literature. The modern Bayesian cognitive science framework of [Tenenbaum Kemp Griffiths Goodman 2011][research_tenenbaum_et_al_2011] provided the complementary probabilistic framework that continues to organize appreciable modern computational cognitive science.
+The 2000s and 2010s produced the integration of reinforcement learning frameworks with the psychology of learning through the work of [Daw et al. 2005][research_daw_niv_dayan_2005] and the sizable subsequent literature. The framework provides the bridge between modern machine learning and the classical psychology of learning literature. The modern Bayesian cognitive science framework of [Tenenbaum et al. 2011][research_tenenbaum_et_al_2011] provided the complementary probabilistic framework that continues to organize appreciable modern computational cognitive science.
 
 ## Classical Pavlovian Conditioning
 
@@ -209,7 +209,7 @@ Modern reinforcement learning provides the formal framework through which the cl
 
 The [Sutton and Barto 1990][research_sutton_barto_1990] Time-Derivative Models of Pavlovian Reinforcement framework introduced the proposal that classical conditioning implements a temporal-difference learning algorithm. The model provides the unification of Pavlovian conditioning with the modern reinforcement learning framework and has been significantly developed through subsequent work.
 
-The [Daw Niv Dayan 2005][research_daw_niv_dayan_2005_a264] Uncertainty-Based Competition framework introduced the proposal that the brain implements both model-based and model-free reinforcement learning systems that compete for behavioral control based on the uncertainty properties of the current situation. This formulation combines the two value estimates through an uncertainty-weighted average
+The [Daw et al. 2005][research_daw_niv_dayan_2005_a264] Uncertainty-Based Competition framework introduced the proposal that the brain implements both model-based and model-free reinforcement learning systems that compete for behavioral control based on the uncertainty properties of the current situation. This formulation combines the two value estimates through an uncertainty-weighted average
 
 $$V(s, a) = w_{\text{MB}}(s, a) \, V_{\text{MB}}(s, a) + (1 - w_{\text{MB}}(s, a)) \, V_{\text{MF}}(s, a)$$
 
@@ -219,11 +219,11 @@ The correspondence between habit versus goal-directed behavior and model-free ve
 
 Dopaminergic reward-prediction-error signals treated in article fourteen provide the neurobiological instantiation of the temporal-difference learning framework, connecting the psychological learning theory to the neurobiological mechanisms. The bidirectional exchange has substantially advanced both fields through the shared computational vocabulary.
 
-The [Doll Simon Daw 2012][research_doll_simon_daw_2012] Ubiquity of Model-Based Reinforcement Learning framework consolidated the modern understanding of model-based versus model-free reinforcement learning in psychological research and identified the research directions that continue to organize the field.
+The [Doll et al. 2012][research_doll_simon_daw_2012] Ubiquity of Model-Based Reinforcement Learning framework consolidated the modern understanding of model-based versus model-free reinforcement learning in psychological research and identified the research directions that continue to organize the field.
 
 The extensions of reinforcement learning to psychological phenomena beyond direct reward learning include the successor-representation framework treated in article fourteen, the application of hierarchical reinforcement learning to human behavior, and the application of meta-reinforcement learning to cognitive flexibility and rapid task adaptation.
 
-The [Gläscher Daw Dayan O'Doherty 2010][research_glascher_et_al_2010] States Rewards and the Basis of Habitual and Goal-Directed Control framework provided the systematic empirical fMRI dissociation of the neural substrates of the model-based and model-free reinforcement learning systems, providing the empirical validation of the Daw et al 2005 dual-system proposal. The [Balleine Daw O'Doherty 2008][research_balleine_daw_odoherty_2008] Multiple Forms of Value Learning framework consolidated the modern understanding of the value-learning mechanisms in the human brain and identified the behavioral and neural signatures of the multiple learning systems.
+The [Gläscher et al. 2010][research_glascher_et_al_2010] States Rewards and the Basis of Habitual and Goal-Directed Control framework provided the systematic empirical fMRI dissociation of the neural substrates of the model-based and model-free reinforcement learning systems, providing the empirical validation of the Daw et al 2005 dual-system proposal. The [Balleine et al. 2008][research_balleine_daw_odoherty_2008] Multiple Forms of Value Learning framework consolidated the modern understanding of the value-learning mechanisms in the human brain and identified the behavioral and neural signatures of the multiple learning systems.
 
 The cost of control framework of [Kool Cushman Gershman 2018][research_kool_cushman_gershman_2018] extended the account with the proposal that model-based control is subjectively costly and therefore avoided when the reward advantages do not exceed the cost. The framework provides the rational account of the empirical patterns of habit versus goal-directed control observed across many experimental paradigms.
 
@@ -259,7 +259,7 @@ $$a_i^{\text{exemplar}} = \exp\!\left(-c \, \left[\sum_j \alpha_j \, |x_j^* - x_
 
 with $\alpha_j$ the learned attention weight for dimension $j$ and $c, q, r$ model hyperparameters. The model has been considerably influential in modern categorization research.
 
-The rational analysis of categorization of [Anderson 1991][research_anderson_1991] introduced the Bayesian nonparametric framework in which category structure is inferred from observed examples through Dirichlet process priors over category-count distributions. This formulation provides the rational account of category learning that continues to shape modern Bayesian categorization research. The [Ashby Alfonso-Reese Turken Waldron 1998][research_ashby_et_al_1998_covis] COVIS framework provided the neurally-motivated dual-system model of category learning that identifies distinct rule-based and information-integration category-learning systems. SUSTAIN of [Love Medin Gureckis 2004][research_love_medin_gureckis_2004] introduced the network model of category learning that dynamically recruits new category clusters as needed, providing the alternative to fixed-prototype and fixed-exemplar frameworks.
+The rational analysis of categorization of [Anderson 1991][research_anderson_1991] introduced the Bayesian nonparametric framework in which category structure is inferred from observed examples through Dirichlet process priors over category-count distributions. This formulation provides the rational account of category learning that continues to shape modern Bayesian categorization research. The [Ashby et al. 1998][research_ashby_et_al_1998_covis] COVIS framework provided the neurally-motivated dual-system model of category learning that identifies distinct rule-based and information-integration category-learning systems. SUSTAIN of [Love et al. 2004][research_love_medin_gureckis_2004] introduced the network model of category learning that dynamically recruits new category clusters as needed, providing the alternative to fixed-prototype and fixed-exemplar frameworks.
 
 Modern computational treatments of categorization increasingly connect to the representation-learning frameworks of modern deep learning. The [Kemp and Tenenbaum 2008][research_kemp_tenenbaum_2008] Discovery of Structural Form framework extended the Bayesian framework to the learning of the structural form (chain, tree, ring, grid) that best organizes a domain of categories, providing the systematic bridge between the classical categorization literature and modern computational structure learning. The treatment continues to organize appreciable research on the computational mechanisms underlying category learning.
 
@@ -281,7 +281,7 @@ $$m^* = \arg\max_m \, \text{StructuralConsistency}(m) + \text{Systematicity}(m)$
 
 with the preference for mappings that preserve relational structure over surface similarity and for mappings that connect to higher-order relations. The treatment provides quantitative fits to human analogical-reasoning behavior across many domains.
 
-The Structure-Mapping Engine of [Falkenhainer Forbus Gentner 1989][research_falkenhainer_forbus_gentner_1989] provided the computational implementation of structure-mapping theory that has been extensively applied in cognitive-science research. This account has been substantially extended through subsequent work and continues to provide the computational foundation for the analogical-reasoning literature.
+The Structure-Mapping Engine of [Falkenhainer et al. 1989][research_falkenhainer_forbus_gentner_1989] provided the computational implementation of structure-mapping theory that has been extensively applied in cognitive-science research. This account has been substantially extended through subsequent work and continues to provide the computational foundation for the analogical-reasoning literature.
 
 Problem solving as search of [Newell and Simon 1972][book_newell_simon_1972] treated in the Cognitive Revolution section provided the systematic modern framework for problem solving as heuristic search through problem spaces. The framework has been markedly extended through subsequent work on the patterns of problem-solving behavior and provides the bridge to modern AI research on problem solving.
 
@@ -293,7 +293,7 @@ Social learning treats the class of learning phenomena in which behavioral acqui
 
 Bandura's social learning theory treated in article eleven provided the systematic modern framework for observational learning. This formulation identifies the attentional, retention, reproduction, and motivational processes that support the acquisition of behaviors through observation of models.
 
-The empirical demonstration of observational learning through the [Bandura Ross Ross 1961][research_bandura_ross_ross_1961] Bobo Doll experiments documented that children spontaneously acquire aggressive behaviors through observation of adult models, providing the empirical foundation for the observational-learning framework.
+The empirical demonstration of observational learning through the [Bandura et al. 1961][research_bandura_ross_ross_1961] Bobo Doll experiments documented that children spontaneously acquire aggressive behaviors through observation of adult models, providing the empirical foundation for the observational-learning framework.
 
 Vicarious reinforcement is the phenomenon in which observed reinforcement of a model affects the observer's likelihood of performing similar behavior. The update integrates observed and direct reinforcement through
 
@@ -331,7 +331,7 @@ $$T = a + b \, \log_2\!\left(\frac{2 D}{W}\right)$$
 
 with $T$ the movement time, $D$ the movement distance, $W$ the target width, and $a, b$ device- and task-constants. The framework has significant empirical support and has been extensively applied in human-computer interaction design.
 
-Deliberate practice of [Ericsson Krampe Tesch-Römer 1993][research_ericsson_krampe_tesch_romer_1993] introduced the proposal that expert-level performance is acquired through extensive deliberate practice rather than through generic experience. The account identifies the characteristics of deliberate practice including focused effort, feedback, and progressive difficulty adjustment. The model has considerably shaped both practical training methodology and theoretical accounts of expertise.
+Deliberate practice of [Ericsson et al. 1993][research_ericsson_krampe_tesch_romer_1993] introduced the proposal that expert-level performance is acquired through extensive deliberate practice rather than through generic experience. The account identifies the characteristics of deliberate practice including focused effort, feedback, and progressive difficulty adjustment. The model has considerably shaped both practical training methodology and theoretical accounts of expertise.
 
 Automaticity is the end-state of skill acquisition in which performance becomes fast, effortless, and resistant to interference. The [Shiffrin and Schneider 1977][research_shiffrin_schneider_1977] automaticity framework provided the systematic empirical characterization of the developmental progression from controlled to automatic processing. This formulation has been significantly extended to modern cognitive control and executive function research.
 
@@ -425,11 +425,11 @@ $$p(h \mid d) = \frac{p(d \mid h) \, p(h)}{p(d)}$$
 
 with $h$ a candidate hypothesis, $d$ observed data, $p(h)$ the prior, $p(d \mid h)$ the likelihood, and $p(h \mid d)$ the posterior. The framework provides the systematic formal treatment of many cognitive phenomena.
 
-The [Griffiths Chater Kemp Perfors Tenenbaum 2010][research_griffiths_et_al_2010] Probabilistic Models of Cognition tutorial consolidated the modern Bayesian cognitive science literature and provided the methodological framework for the systematic application of Bayesian modeling to psychological phenomena.
+The [Steyvers and Griffiths 2010][research_griffiths_et_al_2010] Probabilistic Models of Cognition tutorial consolidated the modern Bayesian cognitive science literature and provided the methodological framework for the systematic application of Bayesian modeling to psychological phenomena.
 
 Concept learning as Bayesian inference of Tenenbaum 1999 provided the paradigmatic application. The account treats concept acquisition as inference over a hypothesis space of candidate concepts given observed examples, and produces quantitative fits to human categorization data across many concept domains.
 
-Causal reasoning as Bayesian inference of [Gopnik Glymour Sobel Schulz Kushnir Danks 2004][research_gopnik_et_al_2004] extended the treatment to the study of causal learning in children and adults. The model treats causal learning as inference over causal-graph structures given observed evidence,
+Causal reasoning as Bayesian inference of [Gopnik et al. 2004][research_gopnik_et_al_2004] extended the treatment to the study of causal learning in children and adults. The model treats causal learning as inference over causal-graph structures given observed evidence,
 
 $$p(G \mid D) \propto p(D \mid G) \, p(G) = \prod_i p(x_i \mid \text{Pa}_G(x_i)) \, p(G)$$
 
@@ -491,7 +491,7 @@ with $m$ the word-referent mapping, $W$ the observed words, and $R$ the observed
 
 Modern large language models treated in articles four and fourteen provide the computational demonstration that appreciable linguistic competence can be acquired from massive text exposure through the mechanisms of gradient-based learning on next-word-prediction objectives. The account has markedly reshaped debates about the role of innate versus experience-driven mechanisms in language acquisition.
 
-Early language acquisition was systematically reviewed by [Kuhl 2004][research_kuhl_2004] through the empirical framework identifying the perceptual-narrowing patterns and social-interaction requirements that support language learning. Rule learning by 7-month-old infants of [Marcus Vijayan Rao Vishton 1999][research_marcus_et_al_1999] documented the abstract-rule-learning capabilities of infants that go beyond statistical learning, providing evidence for the structural-representation capacity that computational models must accommodate.
+Early language acquisition was systematically reviewed by [Kuhl 2004][research_kuhl_2004] through the empirical framework identifying the perceptual-narrowing patterns and social-interaction requirements that support language learning. Rule learning by 7-month-old infants of [Marcus et al. 1999][research_marcus_et_al_1999] documented the abstract-rule-learning capabilities of infants that go beyond statistical learning, providing evidence for the structural-representation capacity that computational models must accommodate.
 
 ## Predictive Processing and Free Energy in Psychology
 
@@ -503,7 +503,7 @@ $$F = D_{\text{KL}}(q(s) \, \| \, p(s \mid o)) - \log p(o)$$
 
 with $q(s)$ the approximate posterior over hidden states and $p(o)$ the evidence. The psychological implications include the systematic account of perception as active inference, emotion as interoceptive inference, and cognitive development as the progressive refinement of the generative model.
 
-Interoceptive predictive processing of [Seth 2013][research_seth_2013] extended this formulation to the account of emotion and subjective experience through the proposal that emotions arise from the interoceptive predictive processing of bodily states,
+Interoceptive predictive processing of [Seth et al. 2012][research_seth_2013] extended this formulation to the account of emotion and subjective experience through the proposal that emotions arise from the interoceptive predictive processing of bodily states,
 
 $$\text{emotion}(t) = f_{\text{cat}}\!\left(\text{PE}_{\text{interoceptive}}(t), \, \text{context}(t)\right)$$
 
@@ -537,7 +537,7 @@ Article sixteen returns to the research directions and open questions that will 
 
 ## Applications
 
-Educational applications of the psychology of learning have been significantly developed across many decades. The findings on spaced practice, retrieval practice, interleaving, and elaborative encoding provide the evidence-based practices that improve learning outcomes. The [Roediger and Karpicke 2006][research_roediger_karpicke_2006] Test-Enhanced Learning framework provided the systematic modern treatment of retrieval practice effects on long-term retention. The [Cepeda Pashler Vul Wixted Rohrer 2008][research_cepeda_et_al_2008] Distributed Practice framework provided the systematic meta-analytic quantitative characterization of the spacing effects that continue to shape modern educational practice. The spaced-practice benefit follows the power law characterization
+Educational applications of the psychology of learning have been significantly developed across many decades. The findings on spaced practice, retrieval practice, interleaving, and elaborative encoding provide the evidence-based practices that improve learning outcomes. The [Roediger and Karpicke 2006][research_roediger_karpicke_2006] Test-Enhanced Learning framework provided the systematic modern treatment of retrieval practice effects on long-term retention. The [Cepeda et al. 2008][research_cepeda_et_al_2008] Distributed Practice framework provided the systematic meta-analytic quantitative characterization of the spacing effects that continue to shape modern educational practice. The spaced-practice benefit follows the power law characterization
 
 $$R(t, s) = R_0 \cdot (1 + t/s)^{-\beta}$$
 
@@ -559,11 +559,11 @@ Reproducibility and methodological reform in the psychology of learning treat th
 
 The [Open Science Collaboration 2015][research_osc_2015] Estimating the Reproducibility of Psychological Science project provided the systematic empirical assessment of reproducibility across one hundred experimental and correlational studies published in top psychology journals. The account documented the rate at which original findings replicated (approximately thirty six percent for the strict-significance criterion) and provided the empirical foundation for the modern methodological reform movement.
 
-The [Simmons Nelson Simonsohn 2011][research_simmons_nelson_simonsohn_2011] False-Positive Psychology framework provided the systematic modern treatment of the researcher-degrees-of-freedom problem in which flexibility in data analysis inflates false-positive rates. The model has appreciably influenced the movement toward preregistration and statistical-transparency standards.
+The [Simmons et al. 2011][research_simmons_nelson_simonsohn_2011] False-Positive Psychology framework provided the systematic modern treatment of the researcher-degrees-of-freedom problem in which flexibility in data analysis inflates false-positive rates. The model has appreciably influenced the movement toward preregistration and statistical-transparency standards.
 
 Preregistration and registered reports have emerged as the methodological responses to reproducibility concerns. This formulation requires researchers to specify hypotheses, methods, and analyses prior to data collection, and provides the structural safeguard against the hypothesizing-after-results-known problem. The treatment has been greatly adopted across psychology and cognitive science.
 
-Effect-size reporting and meta-analytic thinking have become the standards for empirical psychology research through the systematic movement to report effect sizes with confidence intervals rather than only null-hypothesis significance tests. The [Cumming 2014][research_cumming_2014] New Statistics framework provided the systematic modern treatment of effect-size-based inference and has considerably influenced modern statistical practice.
+Effect-size reporting and meta-analytic thinking have become the standards for empirical psychology research through the systematic movement to report effect sizes with confidence intervals rather than only null-hypothesis significance tests. The [Cumming 2013][research_cumming_2014] New Statistics framework provided the systematic modern treatment of effect-size-based inference and has considerably influenced modern statistical practice.
 
 Sample-size determination through the power analysis has become the standard preliminary step for empirical psychology research. The finding that the classical psychology literature was significantly underpowered (with median statistical power around fifty percent) provided the empirical foundation for the modern movement toward larger sample sizes and multi-site collaborations.
 
@@ -586,171 +586,179 @@ Modern computational treatments of reproducibility include the frameworks for au
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Anderson 1990 Adaptive Character][book_anderson_1990]
-- [Bruner Goodnow Austin 1956 Study of Thinking][book_bruner_goodnow_austin_1956]
-- [Bush and Mosteller 1955 Stochastic Models][book_bush_mosteller_1955]
-- [Chomsky 1965 Aspects of the Theory of Syntax][book_chomsky_1965]
-- [Craik and Salthouse 2008 Handbook of Aging and Cognition][book_craik_salthouse_2008]
-- [Cronbach and Snow 1977 Aptitudes and Instructional Methods][book_cronbach_snow_1977]
-- [Duncker 1945 On Problem Solving][book_duncker_1945]
-- [Ebbinghaus 1885 Memory][book_ebbinghaus_1885]
-- [Fitts and Posner 1967 Human Performance][book_fitts_posner_1967]
-- [Gigerenzer and Todd 1999 Simple Heuristics][book_gigerenzer_todd_1999]
-- [Hull 1943 Principles of Behavior][book_hull_1943]
-- [Kahneman 2011 Thinking Fast and Slow][book_kahneman_2011]
-- [Köhler 1925 Mentality of Apes][book_kohler_1925]
-- [Newell and Simon 1972 Human Problem Solving][book_newell_simon_1972]
-- [Pavlov 1927 Conditioned Reflexes][book_pavlov_1927]
-- [Piaget 1952 Origins of Intelligence in Children][book_piaget_1952]
-- [Skinner 1938 Behavior of Organisms][book_skinner_1938]
-- [Skinner 1957 Verbal Behavior][book_skinner_1957]
-- [Sutton and Barto 2018][book_sutton_barto_2018]
-- [Thaler and Sunstein 2008 Nudge][book_thaler_sunstein_2008]
-- [Thorndike 1911 Animal Intelligence][book_thorndike_1911]
-- [Tolman 1932 Purposive Behavior][book_tolman_1932]
-- [Vygotsky 1978 Mind in Society][book_vygotsky_1978]
-- [Wallas 1926 Art of Thought][book_wallas_1926]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Balleine, Bernard W., and Anthony Dickinson. 1998. "Goal-Directed Instrumental Action: Contingency and Incentive Learning and Their Cortical Substrates." *Neuropharmacology* 37 (4–5): 407–19. [https://doi.org/10.1016/s0028-3908(98)00033-1][research_balleine_dickinson_1998]
+- Beck, Aaron T. 1970. "Cognitive Therapy: Nature and Relation to Behavior Therapy." *Behavior Therapy* 1 (2): 184–200. [https://doi.org/10.1016/s0005-7894(70)80030-2][research_beck_1970]
+- Berridge, Kent C., and Terry E. Robinson. 1998. "What Is the Role of Dopamine in Reward: Hedonic Impact, Reward Learning, or Incentive Salience?" *Brain Research Reviews* 28 (3): 309–69. [https://doi.org/10.1016/s0165-0173(98)00019-8][research_berridge_robinson_1998]
+- Bliss, T. V. P., and T. Lømo. 1973. "Long-Lasting Potentiation of Synaptic Transmission in the Dentate Area of the Anaesthetized Rabbit Following Stimulation of the Perforant Path." *Journal of Physiology* 232 (2): 331–56. [https://doi.org/10.1113/jphysiol.1973.sp010273][research_bliss_lomo_1973]
+- Chase, William G., and Herbert A. Simon. 1973. "Perception in Chess." *Cognitive Psychology* 4 (1): 55–81. [https://doi.org/10.1016/0010-0285(73)90004-2][research_chase_simon_1973]
+- Corkin, Suzanne. 2002. "What's New with the Amnesic Patient H.M.?" *Nature Reviews Neuroscience* 3 (2): 153–60. [https://doi.org/10.1038/nrn726][research_corkin_2002]
+- Craik, Fergus I. M., and Robert S. Lockhart. 1972. "Levels of Processing: A Framework for Memory Research." *Journal of Verbal Learning and Verbal Behavior* 11 (6): 671–84. [https://doi.org/10.1016/s0022-5371(72)80001-x][research_craik_lockhart_1972]
+- Daw, Nathaniel D., Yael Niv, and Peter Dayan. 2005. "Uncertainty-Based Competition between Prefrontal and Dorsolateral Striatal Systems for Behavioral Control." *Nature Neuroscience* 8 (12): 1704–11. [https://doi.org/10.1038/nn1560][research_daw_niv_dayan_2005]
+- Doll, Bradley B., Dylan A. Simon, and Nathaniel D. Daw. 2012. "The Ubiquity of Model-Based Reinforcement Learning." *Current Opinion in Neurobiology* 22 (6): 1075–81. [https://doi.org/10.1016/j.conb.2012.08.003][research_doll_simon_daw_2012]
+- Falkenhainer, Brian, Kenneth D. Forbus, and Dedre Gentner. 1989. "The Structure-Mapping Engine: Algorithm and Examples." *Artificial Intelligence* 41 (1): 1–63. [https://doi.org/10.1016/0004-3702(89)90077-5][research_falkenhainer_forbus_gentner_1989]
+- Gentner, Dedre. 1983. "Structure-Mapping: A Theoretical Framework for Analogy." *Cognitive Science* 7 (2): 155–70. [https://doi.org/10.1207/s15516709cog0702\_3][research_gentner_1983]
+- Gläscher, Jan, Nathaniel Daw, Peter Dayan, and John P. O'Doherty. 2010. "States versus Rewards: Dissociable Neural Prediction Error Signals Underlying Model-Based and Model-Free Reinforcement Learning." *Neuron* 66 (4): 585–95. [https://doi.org/10.1016/j.neuron.2010.04.016][research_glascher_et_al_2010]
+- Herrnstein, R. J. 1961. "Relative and Absolute Strength of Response as a Function of Frequency of Reinforcement 1, 2." *Journal of the Experimental Analysis of Behavior* 4 (3): 267–72. [https://doi.org/10.1901/jeab.1961.4-267][research_herrnstein_1961]
+- Kuhl, Patricia K. 2004. "Early Language Acquisition: Cracking the Speech Code." *Nature Reviews Neuroscience* 5 (11): 831–43. [https://doi.org/10.1038/nrn1533][research_kuhl_2004]
+- Laland, Kevin N. 2004. "Social Learning Strategies." *Learning & Behavior* 32 (1): 4–14. [https://doi.org/10.3758/bf03196002][research_laland_2004]
+- Sanborn, Adam N., and Nick Chater. 2016. "Bayesian Brains without Probabilities." *Trends in Cognitive Sciences* 20 (12): 883–93. [https://doi.org/10.1016/j.tics.2016.10.003][research_sanborn_chater_2016]
+- Seth, Anil K., Keisuke Suzuki, and Hugo D. Critchley. 2012. "An Interoceptive Predictive Coding Model of Conscious Presence." *Frontiers in Psychology* 2. [https://doi.org/10.3389/fpsyg.2011.00395][research_seth_2013]
+- Squire, Larry R. 2004. "Memory Systems of the Brain: A Brief History and Current Perspective." *Neurobiology of Learning and Memory* 82 (3): 171–77. [https://doi.org/10.1016/j.nlm.2004.06.005][research_squire_2004]
+- Tversky, Amos, and Daniel Kahneman. 1992. "Advances in Prospect Theory: Cumulative Representation of Uncertainty." *Journal of Risk and Uncertainty* 5 (4): 297–323. [https://doi.org/10.1007/bf00122574][research_tversky_kahneman_1992]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stanford CS234][ref_stanford_cs234]
+### Primary Sources, Non-Peer-Reviewed
+
+- Adams, Christopher D. 1982. "Variations in the Sensitivity of Instrumental Responding to Reinforcer Devaluation." *Quarterly Journal of Experimental Psychology Section B* 34 (2b): 77–98. [https://doi.org/10.1080/14640748208400878][research_adams_1982]
+- Anderson, John R. 1991. "The Adaptive Nature of Human Categorization." *Psychological Review* 98 (3): 409–29. [https://doi.org/10.1037/0033-295x.98.3.409][research_anderson_1991]
+- Ashby, F. Gregory, Leola A. Alfonso-Reese, And U. Turken, and Elliott M. Waldron. 1998. "A Neuropsychological Theory of Multiple Systems in Category Learning." *Psychological Review* 105 (3): 442–81. [https://doi.org/10.1037/0033-295x.105.3.442][research_ashby_et_al_1998_covis]
+- Baddeley, Alan D., and Graham Hitch. 1974. "Working Memory." In *Psychology of Learning and Motivation*. Elsevier. [https://doi.org/10.1016/s0079-7421(08)60452-1][research_baddeley_hitch_1974]
+- Baillargeon, Renée. 1987. "Object Permanence in 3½- and 4½-Month-Old Infants." *Developmental Psychology* 23 (5): 655–64. [https://doi.org/10.1037/0012-1649.23.5.655][research_baillargeon_1987]
+- Balleine, Daw, and O'Doherty. 2008. *Multiple Values*. [https://scholar.google.com/scholar?q=Multiple+Values+Balleine+Daw+O%27Doherty+2008][research_balleine_daw_odoherty_2008]
+- Baltes, Paul B. 1987. "Theoretical Propositions of Life-Span Developmental Psychology: On the Dynamics between Growth and Decline." *Developmental Psychology* 23 (5): 611–26. [https://doi.org/10.1037/0012-1649.23.5.611][research_baltes_1987]
+- Bandura, Albert, Dorothea Ross, and Sheila A. Ross. 1961. "Transmission of Aggression through Imitation of Aggressive Models." *Journal of Abnormal and Social Psychology* 63 (3): 575–82. [https://doi.org/10.1037/h0045925][research_bandura_ross_ross_1961]
+- Bi, Guo-qiang, and Mu-ming Poo. 1998. "Synaptic Modifications in Cultured Hippocampal Neurons: Dependence on Spike Timing, Synaptic Strength, and Postsynaptic Cell Type." *Journal of Neuroscience* 18 (24): 10464–72. [https://doi.org/10.1523/jneurosci.18-24-10464.1998][research_bi_poo_1998]
+- Bouton, Mark E. 1993. "Context, Time, and Memory Retrieval in the Interference Paradigms of Pavlovian Learning." *Psychological Bulletin* 114 (1): 80–99. [https://doi.org/10.1037/0033-2909.114.1.80][research_bouton_1993]
+- Cattell, Raymond B. 1963. "Theory of Fluid and Crystallized Intelligence: A Critical Experiment." *Journal of Educational Psychology* 54 (1): 1–22. [https://doi.org/10.1037/h0046743][research_cattell_1963]
+- Cepeda, Nicholas J., Edward Vul, Doug Rohrer, John T. Wixted, and Harold Pashler. 2008. "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention." *Psychological Science* 19 (11): 1095–1102. [https://doi.org/10.1111/j.1467-9280.2008.02209.x][research_cepeda_et_al_2008]
+- Chomsky, Noam. 1959. "Verbal Behavior. by B. F. Skinner. (the Century Psychology Series.) Pp. Viii, 478. New York: Appleton-Century-Crofts, Inc., 1957." *Language* 35 (1): 26–58. [https://doi.org/10.2307/411334][research_chomsky_1959]
+- Clark, Andy. 2013. "Whatever Next? Predictive Brains, Situated Agents, and the Future of Cognitive Science." *Behavioral and Brain Sciences* 36 (3): 181–204. [https://doi.org/10.1017/s0140525x12000477][research_clark_2013]
+- Cohen, Neal J., and Larry R. Squire. 1980. "Preserved Learning and Retention of Pattern-Analyzing Skill in Amnesia: Dissociation of Knowing How and Knowing That." *Science* 210 (4466): 207–10. [https://doi.org/10.1126/science.7414331][research_cohen_squire_1980]
+- Cumming, Geoff. 2013. "The New Statistics: Why and How." *Psychological Science* 25 (1): 7–29. [https://doi.org/10.1177/0956797613504966][research_cumming_2014]
+- Deci, Edward L. 1971. "Effects of Externally Mediated Rewards on Intrinsic Motivation." *Journal of Personality and Social Psychology* 18 (1): 105–15. [https://doi.org/10.1037/h0030644][research_deci_1971]
+- Dickinson, A. 1985. "Actions and Habits: The Development of Behavioural Autonomy." *Philosophical Transactions of the Royal Society of London. B, Biological Sciences* 308 (1135): 67–78. [https://doi.org/10.1098/rstb.1985.0010][research_dickinson_1985]
+- Duncker, Karl. 1945. "On Problem-Solving." *Psychological Monographs* 58 (5): i-113. [https://doi.org/10.1037/h0093599][book_duncker_1945]
+- Engle, Randall W. 2002. "Working Memory Capacity as Executive Attention." *Current Directions in Psychological Science* 11 (1): 19–23. [https://doi.org/10.1111/1467-8721.00160][research_engle_2002]
+- Ericsson, K. Anders, Ralf T. Krampe, and Clemens Tesch-Römer. 1993. "The Role of Deliberate Practice in the Acquisition of Expert Performance." *Psychological Review* 100 (3): 363–406. [https://doi.org/10.1037/0033-295x.100.3.363][research_ericsson_krampe_tesch_romer_1993]
+- Estes. 1950. *Stimulus Sampling*. [https://scholar.google.com/scholar?q=Stimulus+Sampling+Estes+1950][research_estes_1950]
+- Fitts, Paul M. 1954. "The Information Capacity of the Human Motor System in Controlling the Amplitude of Movement." *Journal of Experimental Psychology* 47 (6): 381–91. [https://doi.org/10.1037/h0055392][research_fitts_1954]
+- Flavell, John H. 1979. "Metacognition and Cognitive Monitoring: A New Area of Cognitive–developmental Inquiry." *American Psychologist* 34 (10): 906–11. [https://doi.org/10.1037/0003-066x.34.10.906][research_flavell_1979]
+- Gallistel, C. R., and John Gibbon. 2000. "Time, Rate, and Conditioning." *Psychological Review* 107 (2): 289–344. [https://doi.org/10.1037/0033-295x.107.2.289][research_gallistel_gibbon_2000]
+- Gopnik, Alison, Clark Glymour, David M. Sobel, Laura E. Schulz, Tamar Kushnir, and David Danks. 2004. "A Theory of Causal Learning in Children: Causal Maps and Bayes Nets." *Psychological Review* 111 (1): 3–32. [https://doi.org/10.1037/0033-295x.111.1.3][research_gopnik_et_al_2004]
+- Harlow, Harry F. 1949. "The Formation of Learning Sets." *Psychological Review* 56 (1): 51–65. [https://doi.org/10.1037/h0062474][research_harlow_1949]
+- Higgins, E. Tory. 1997. "Beyond Pleasure and Pain." *American Psychologist* 52 (12): 1280–1300. [https://doi.org/10.1037/0003-066x.52.12.1280][research_higgins_1997]
+- Kahneman, Daniel, and Amos Tversky. 1979. "Prospect Theory: An Analysis of Decision under Risk." *Econometrica* 47 (2): 263. [https://doi.org/10.2307/1914185][research_kahneman_tversky_1979]
+- Kemp, Charles, and Joshua B. Tenenbaum. 2008. "The Discovery of Structural Form." *Proceedings of the National Academy of Sciences* 105 (31): 10687–92. [https://doi.org/10.1073/pnas.0802631105][research_kemp_tenenbaum_2008]
+- Kruschke, John K. 1992. "ALCOVE: An Exemplar-Based Connectionist Model of Category Learning." *Psychological Review* 99 (1): 22–44. [https://doi.org/10.1037/0033-295x.99.1.22][research_kruschke_1992_alcove]
+- Love, Bradley C., Douglas L. Medin, and Todd M. Gureckis. 2004. "SUSTAIN: A Network Model of Category Learning." *Psychological Review* 111 (2): 309–32. [https://doi.org/10.1037/0033-295x.111.2.309][research_love_medin_gureckis_2004]
+- Mackintosh, N. J. 1975. "A Theory of Attention: Variations in the Associability of Stimuli with Reinforcement." *Psychological Review* 82 (4): 276–98. [https://doi.org/10.1037/h0076778][research_mackintosh_1975]
+- Marcus, G. F., S. Vijayan, S. Bandi Rao, and P. M. Vishton. 1999. "Rule Learning by Seven-Month-Old Infants." *Science* 283 (5398): 77–80. [https://doi.org/10.1126/science.283.5398.77][research_marcus_et_al_1999]
+- McGaugh, James L. 2000. "Memory--a Century of Consolidation." *Science* 287 (5451): 248–51. [https://doi.org/10.1126/science.287.5451.248][research_mcgaugh_2000]
+- Meltzoff, Andrew N., and M. Keith Moore. 1977. "Imitation of Facial and Manual Gestures by Human Neonates." *Science* 198 (4312): 75–78. [https://doi.org/10.1126/science.198.4312.75][research_meltzoff_moore_1977]
+- Miller, George A. 1956. "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information." *Psychological Review* 63 (2): 81–97. [https://doi.org/10.1037/h0043158][research_miller_1956]
+- Nelson, Thomas O., and Narens. 1990. "Metamemory: A Theoretical Framework and New Findings." In *Psychology of Learning and Motivation*. Elsevier. [https://doi.org/10.1016/s0079-7421(08)60053-5][research_nelson_narens_1990]
+- Nosofsky, Robert M. 1986. "Attention, Similarity, and the Identification–categorization Relationship." *Journal of Experimental Psychology: General* 115 (1): 39–57. [https://doi.org/10.1037/0096-3445.115.1.39][research_nosofsky_1986]
+- Pearce, John M., and Geoffrey Hall. 1980. "A Model for Pavlovian Learning: Variations in the Effectiveness of Conditioned but Not of Unconditioned Stimuli." *Psychological Review* 87 (6): 532–52. [https://doi.org/10.1037/0033-295x.87.6.532][research_pearce_hall_1980]
+- Rescorla, Robert A. 1968. "Probability of Shock in the Presence and Absence of Cs in Fear Conditioning." *Journal of Comparative and Physiological Psychology* 66 (1): 1–5. [https://doi.org/10.1037/h0025984][research_rescorla_1968]
+- Roediger, Henry L., and Jeffrey D. Karpicke. 2006. "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention." *Psychological Science* 17 (3): 249–55. [https://doi.org/10.1111/j.1467-9280.2006.01693.x][research_roediger_karpicke_2006]
+- Rosch, Eleanor. 1975. "Cognitive Representations of Semantic Categories." *Journal of Experimental Psychology: General* 104 (3): 192–233. [https://doi.org/10.1037/0096-3445.104.3.192][research_rosch_1975]
+- Ryan, Richard M., and Edward L. Deci. 2000. "Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being." *American Psychologist* 55 (1): 68–78. [https://doi.org/10.1037/0003-066x.55.1.68][research_ryan_deci_2000]
+- Salthouse, Timothy A. 1996. "The Processing-Speed Theory of Adult Age Differences in Cognition." *Psychological Review* 103 (3): 403–28. [https://doi.org/10.1037/0033-295x.103.3.403][research_salthouse_1996]
+- Shiffrin, Richard M., and Walter Schneider. 1977. "Controlled and Automatic Human Information Processing: II. Perceptual Learning, Automatic Attending and a General Theory." *Psychological Review* 84 (2): 127–90. [https://doi.org/10.1037/0033-295x.84.2.127][research_shiffrin_schneider_1977]
+- Simmons, Joseph P., Leif D. Nelson, and Uri Simonsohn. 2011. "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant." *Psychological Science* 22 (11): 1359–66. [https://doi.org/10.1177/0956797611417632][research_simmons_nelson_simonsohn_2011]
+- Simon, Herbert A. 1955. "A Behavioral Model of Rational Choice." *Quarterly Journal of Economics* 69 (1): 99. [https://doi.org/10.2307/1884852][research_simon_1955]
+- Spearman, C. 1904. "'General Intelligence,' Objectively Determined and Measured." *American Journal of Psychology* 15 (2): 201. [https://doi.org/10.2307/1412107][research_spearman_1904]
+- Steyvers, Mark, and Tom Griffiths. 2010. "Probabilistic Topic Models." In *Handbook of Latent Semantic Analysis*. Routledge. [https://doi.org/10.4324/9780203936399.ch21][research_griffiths_et_al_2010]
+- Tenenbaum, Joshua B., Charles Kemp, Thomas L. Griffiths, and Noah D. Goodman. 2011. "How to Grow a Mind: Statistics, Structure, and Abstraction." *Science* 331 (6022): 1279–85. [https://doi.org/10.1126/science.1192788][research_tenenbaum_et_al_2011]
+- Tolman, Edward C. 1948. "Cognitive Maps in Rats and Men." *Psychological Review* 55 (4): 189–208. [https://doi.org/10.1037/h0061626][research_tolman_1948_cognitive_maps]
+- Tulving, Endel, and Donald M. Thomson. 1973. "Encoding Specificity and Retrieval Processes in Episodic Memory." *Psychological Review* 80 (5): 352–73. [https://doi.org/10.1037/h0020071][research_tulving_thomson_1973]
+- Tversky, Amos, and Daniel Kahneman. 1974. "Judgment under Uncertainty: Heuristics and Biases: Biases in Judgments Reveal Some Heuristics of Thinking under Uncertainty." *Science* 185 (4157): 1124–31. [https://doi.org/10.1126/science.185.4157.1124][research_tversky_kahneman_1974]
+- Watson, John B. 1913. "Psychology as the Behaviorist Views It." *Psychological Review* 20 (2): 158–77. [https://doi.org/10.1037/h0074428][research_watson_1913]
+- Xu, Fei, and Joshua B. Tenenbaum. 2007. "Word Learning as Bayesian Inference." *Psychological Review* 114 (2): 245–72. [https://doi.org/10.1037/0033-295x.114.2.245][research_xu_tenenbaum_2007_a264]
+
+### Secondary Sources
+
+- Anderson, John Robert. 1990. *The Adaptive Character of Thought*. L. Erlbaum Associates. [https://www.taylorfrancis.com/books/mono/10.4324/9780203771730/adaptive-character-thought-john-anderson][book_anderson_1990]
+- Bruner, Jerome S., Goodnow, and Austin. 1956. *A Study of Thinking*. Wiley. [https://www.taylorfrancis.com/books/mono/10.4324/9781315082707/study-thinking-jerome-bruner-jacqueline-goodnow-george-austin][book_bruner_goodnow_austin_1956]
+- Bush, Robert R., and Mosteller. 1955. *Stochastic Models for Learning*. Wiley. [https://openlibrary.org/works/OL10362944W][book_bush_mosteller_1955]
+- Chomsky, Noam. 1965. *Aspects of the Theory of Syntax*. Massachusetts Institute of Technology. [https://mitpress.mit.edu/9780262530071/aspects-of-the-theory-of-syntax/][book_chomsky_1965]
+- Craik, Fergus I. M., and Timothy A. Salthouse. 2008. *The Handbook of Aging and Cognition: Third Edition*. Taylor & Francis Group. [https://www.taylorfrancis.com/books/edit/10.4324/9780203837665/handbook-aging-cognition-fergus-craik-timothy-salthouse][book_craik_salthouse_2008]
+- Cronbach, Lee J., and Snow. 1977. *Aptitudes and Instructional Methods: A Handbook for Research on Interactions*. Irvington Publishers: distributed by Halsted Press. [https://openlibrary.org/works/OL4791566W][book_cronbach_snow_1977]
+- Ebbinghaus. 1885. *Memory*. [https://www.taylorfrancis.com/books/mono/10.4324/9781315802749/memory-hermann-ebbinghaus][book_ebbinghaus_1885]
+- Fitts, Paul Morris, and Posner. 1967. *Human Performance: \[By\] Paul M. Fitts \[and\] Michael I. Posner*. Brooks/Cole Pub. Co. [https://openlibrary.org/works/OL6554807W][book_fitts_posner_1967]
+- Gigerenzer, Gerd, and Todd. 1999. *Simple Heuristics That Make Us Smart*. Oxford University Press, USA. [https://global.oup.com/academic/product/simple-heuristics-that-make-us-smart-9780195143812][book_gigerenzer_todd_1999]
+- Hull, Clark Leonard. 1943. *Principles of Behavior: An Introduction to Behavior Theory*. D. Appleton-Century Company, incorporated. [https://openlibrary.org/works/OL5357926W][book_hull_1943]
+- Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. Penguin Books, Limited. [https://us.macmillan.com/books/9780374533557/thinkingfastandslow][book_kahneman_2011]
+- Köhler. 1925. *Mentality of Apes*. [https://www.taylorfrancis.com/books/mono/10.4324/9781315010311/mentality-apes-wolfgang-kohler][book_kohler_1925]
+- Newell, Allen, and Herbert Alexander Simon. 1972. *Human Problem Solving*. Prentice-Hall. [https://openlibrary.org/works/OL4465098W][book_newell_simon_1972]
+- Pavlov, Ivan Petrovich. 1927. *Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex*. O.U.P. [https://www.taylorfrancis.com/books/mono/10.4324/9780203010457/conditioned-reflexes-ivan-pavlov][book_pavlov_1927]
+- Piaget, Jean. 1952. *The Origins of Intelligence in Children*. W W Norton & Co. [https://doi.org/10.1037/11494-000][book_piaget_1952]
+- Skinner, B. F. 1938. *The Behavior of Organisms, an Experimental Analysis*. Appleton-Century-Crofts. [https://openlibrary.org/works/OL1725489W][book_skinner_1938]
+- Skinner, B. F. 1957. *Verbal Behavior*. Prentice-Hall, Inc. [https://openlibrary.org/works/OL1725499W][book_skinner_1957]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+- Thaler, Richard H., and Cass R. Sunstein. 2008. *Nudge: Improving Decisions about Health, Wealth and Happiness*. Yale University Press. [https://yalebooks.yale.edu/book/9780300262285/nudge/][book_thaler_sunstein_2008]
+- Thorndike, Edward L. 1911. *Animal Intelligence: Experimental Studies*. Macmillan. [https://openlibrary.org/works/OL1193057W][book_thorndike_1911]
+- Tolman, Edward Chace. 1932. *Purposive Behavior in Animals and Men*. The Century Co. [https://openlibrary.org/works/OL1145561W][book_tolman_1932]
+- Vygotsky. 1978. *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674576292][book_vygotsky_1978]
+- Wallas, Graham. 1926. *The Art of Thought*. Harcourt, Brace and Company. [https://openlibrary.org/works/OL1117716W][book_wallas_1926]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- Atkinson and Shiffrin. 1968. "Multi-Store." [https://www.sciencedirect.com/science/article/pii/S0079742108604223][research_atkinson_shiffrin_1968]
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- Kamin. 1968. "Blocking." [https://scholar.google.com/scholar?q=kamin+1968+predictability+surprise+attention+conditioning][research_kamin_1968]
+- Kool Cushman Gershman. 2018. "Cost of Control." [https://link.springer.com/chapter/10.1007/978-3-319-98561-1\_7][research_kool_cushman_gershman_2018]
+- Newell and Rosenbloom. 1981. "Power Law." [https://scholar.google.com/scholar?q=newell+rosenbloom+1981+mechanisms+of+skill+acquisition][research_newell_rosenbloom_1981]
+- Open Science Collaboration. 2015. "Reproducibility Project." [https://www.science.org/doi/10.1126/science.aac4716][research_osc_2015]
+- Rescorla and Wagner. 1972. "Classical Conditioning." [https://scholar.google.com/scholar?q=rescorla+wagner+1972+theory+pavlovian+conditioning][research_rescorla_wagner_1972]
+- Scoville and Milner. 1957. "HM." [https://jnnp.bmj.com/content/20/1/11][research_scoville_milner_1957]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- Sutton and Barto. 1990. "TD Pavlovian." [https://scholar.google.com/scholar?q=sutton+barto+1990+time+derivative+models+pavlovian][research_sutton_barto_1990]
+- Tenenbaum. 1999. "Concept Learning." [https://papers.nips.cc/paper/1999/hash/f515efb8a3d9c9f5faf1a6cd3c7cf95c-Abstract.html][research_tenenbaum_1999]
+- Tolman and Honzik. 1930. "Latent Learning." [https://scholar.google.com/scholar?q=tolman+honzik+1930+introduction+removal+reward+maze][research_tolman_honzik_1930]
+- Tulving. 1972. "Episodic Semantic." [https://scholar.google.com/scholar?q=tulving+1972+episodic+semantic+memory][research_tulving_1972]
+- Wagner. 1981. "SOP." [https://scholar.google.com/scholar?q=wagner+1981+sop+model+behavior][research_wagner_1981_sop]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
-- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
-- [A252 Machines That Learn From Experience Reinforcement Learning Foundations][related_post_a252_rl_foundations]
-- [A253 Machines That Learn From Experience Deep Reinforcement Learning][related_post_a253_deep_rl]
-- [A254 Machines That Learn From Experience Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]
-- [A255 Machines That Learn From Experience Hierarchical Reinforcement Learning][related_post_a255_hierarchical]
-- [A256 Machines That Learn From Experience World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]
-- [A257 Machines That Learn From Experience Offline and Batch Reinforcement Learning][related_post_a257_offline]
-- [A258 Machines That Learn From Experience Meta-Learning and Online Adaptation][related_post_a258_meta_learning]
-- [A259 Machines That Learn From Experience Continual and Lifelong Learning][related_post_a259_continual]
-- [A260 Machines That Learn From Experience Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration]
-- [A261 Machines That Learn From Experience Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary]
-- [A262 Machines That Learn From Experience Embodied Cognition and Developmental Learning][related_post_a262_embodied]
-- [A263 Machines That Learn From Experience NeuroAI][related_post_a263_neuroai]
-
-### Research
-
-- [Adams 1982 Outcome Devaluation][research_adams_1982]
-- [Anderson 1991 Rational Categorization][research_anderson_1991]
-- [Ashby et al 1998 COVIS][research_ashby_et_al_1998_covis]
-- [Atkinson and Shiffrin 1968 Multi-Store][research_atkinson_shiffrin_1968]
-- [Baddeley and Hitch 1974 Working Memory][research_baddeley_hitch_1974]
-- [Baillargeon 1987 Object Permanence][research_baillargeon_1987]
-- [Balleine Daw O'Doherty 2008 Multiple Values][research_balleine_daw_odoherty_2008]
-- [Balleine and Dickinson 1998 Goal-Directed][research_balleine_dickinson_1998]
-- [Baltes 1987 Lifespan Development][research_baltes_1987]
-- [Bandura Ross Ross 1961 Bobo Doll][research_bandura_ross_ross_1961]
-- [Beck 1970 Cognitive Therapy][research_beck_1970]
-- [Berridge and Robinson 1998 Wanting and Liking][research_berridge_robinson_1998]
-- [Bi and Poo 1998 STDP][research_bi_poo_1998]
-- [Bliss and Lømo 1973 LTP][research_bliss_lomo_1973]
-- [Bouton 1993 Extinction Context][research_bouton_1993]
-- [Cattell 1963 Fluid and Crystallized Intelligence][research_cattell_1963]
-- [Cepeda et al 2008 Distributed Practice][research_cepeda_et_al_2008]
-- [Chase and Simon 1973 Chess Expertise][research_chase_simon_1973]
-- [Chomsky 1959 Review Verbal Behavior][research_chomsky_1959]
-- [Clark 2013 Whatever Next][research_clark_2013]
-- [Cohen and Squire 1980 Procedural Declarative][research_cohen_squire_1980]
-- [Corkin 2002 HM][research_corkin_2002]
-- [Craik and Lockhart 1972 Levels of Processing][research_craik_lockhart_1972]
-- [Cumming 2014 New Statistics][research_cumming_2014]
-- [Daw Niv Dayan 2005 Uncertainty Competition][research_daw_niv_dayan_2005_a264]
-- [Deci 1971 Intrinsic Motivation][research_deci_1971]
-- [Dickinson 1985 Actions Habits][research_dickinson_1985]
-- [Doll Simon Daw 2012 Ubiquity Model-Based][research_doll_simon_daw_2012]
-- [Engle 2002 Working Memory Capacity][research_engle_2002]
-- [Ericsson Krampe Tesch-Römer 1993 Deliberate Practice][research_ericsson_krampe_tesch_romer_1993]
-- [Estes 1950 Stimulus Sampling][research_estes_1950]
-- [Falkenhainer Forbus Gentner 1989 Structure-Mapping Engine][research_falkenhainer_forbus_gentner_1989]
-- [Fitts 1954 Speed-Accuracy][research_fitts_1954]
-- [Flavell 1979 Metacognition][research_flavell_1979]
-- [Gallistel and Gibbon 2000 Time Rate][research_gallistel_gibbon_2000]
-- [Gentner 1983 Structure-Mapping][research_gentner_1983]
-- [Gläscher et al 2010 States Rewards][research_glascher_et_al_2010]
-- [Gopnik et al 2004 Causal Reasoning][research_gopnik_et_al_2004]
-- [Griffiths et al 2010 Probabilistic Models][research_griffiths_et_al_2010]
-- [Harlow 1949 Learning Sets][research_harlow_1949]
-- [Herrnstein 1961 Matching Law][research_herrnstein_1961]
-- [Higgins 1997 Regulatory Focus][research_higgins_1997]
-- [Kahneman and Tversky 1979 Prospect Theory][research_kahneman_tversky_1979]
-- [Kamin 1968 Blocking][research_kamin_1968]
-- [Kemp and Tenenbaum 2008 Structural Form][research_kemp_tenenbaum_2008]
-- [Kool Cushman Gershman 2018 Cost of Control][research_kool_cushman_gershman_2018]
-- [Kruschke 1992 ALCOVE][research_kruschke_1992_alcove]
-- [Kuhl 2004 Early Language][research_kuhl_2004]
-- [Laland 2004 Social Learning Strategies][research_laland_2004]
-- [Love Medin Gureckis 2004 SUSTAIN][research_love_medin_gureckis_2004]
-- [Mackintosh 1975 Attention Theory][research_mackintosh_1975]
-- [Marcus et al 1999 Infant Rule Learning][research_marcus_et_al_1999]
-- [McGaugh 2000 Consolidation][research_mcgaugh_2000]
-- [Meltzoff and Moore 1977 Neonatal Imitation][research_meltzoff_moore_1977]
-- [Miller 1956 Magical Number Seven][research_miller_1956]
-- [Nelson and Narens 1990 Metamemory][research_nelson_narens_1990]
-- [Newell and Rosenbloom 1981 Power Law][research_newell_rosenbloom_1981]
-- [Nosofsky 1986 Generalized Context][research_nosofsky_1986]
-- [Open Science Collaboration 2015 Reproducibility Project][research_osc_2015]
-- [Pearce and Hall 1980 Attention Model][research_pearce_hall_1980]
-- [Rescorla 1968 Contingency][research_rescorla_1968]
-- [Rescorla and Wagner 1972][research_rescorla_wagner_1972]
-- [Roediger and Karpicke 2006 Test-Enhanced][research_roediger_karpicke_2006]
-- [Rosch 1975 Prototype][research_rosch_1975]
-- [Ryan and Deci 2000 Self-Determination Theory][research_ryan_deci_2000]
-- [Salthouse 1996 Processing Speed Theory][research_salthouse_1996]
-- [Sanborn and Chater 2016 Bayesian Brains][research_sanborn_chater_2016]
-- [Scoville and Milner 1957 HM][research_scoville_milner_1957]
-- [Seth 2013 Interoceptive Predictive][research_seth_2013]
-- [Shiffrin and Schneider 1977 Automaticity][research_shiffrin_schneider_1977]
-- [Simmons Nelson Simonsohn 2011 False-Positive Psychology][research_simmons_nelson_simonsohn_2011]
-- [Simon 1955 Bounded Rationality][research_simon_1955]
-- [Spearman 1904 Two-Factor Theory][research_spearman_1904]
-- [Squire 2004 Memory Systems][research_squire_2004]
-- [Sutton and Barto 1990 TD Pavlovian][research_sutton_barto_1990]
-- [Tenenbaum 1999 Concept Learning][research_tenenbaum_1999]
-- [Tenenbaum Kemp Griffiths Goodman 2011 How to Grow a Mind][research_tenenbaum_et_al_2011]
-- [Tolman 1948 Cognitive Maps][research_tolman_1948_cognitive_maps]
-- [Tolman and Honzik 1930 Latent Learning][research_tolman_honzik_1930]
-- [Tulving 1972 Episodic Semantic][research_tulving_1972]
-- [Tulving and Thomson 1973 Encoding Specificity][research_tulving_thomson_1973]
-- [Tversky and Kahneman 1974 Heuristics][research_tversky_kahneman_1974]
-- [Tversky and Kahneman 1992 Cumulative Prospect][research_tversky_kahneman_1992]
-- [Wagner 1981 SOP][research_wagner_1981_sop]
-- [Watson 1913 Behaviorist Manifesto][research_watson_1913]
-- [Xu and Tenenbaum 2007 A264][research_xu_tenenbaum_2007_a264]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Bandits and Online Learning." *Brendan A R Sechter's Development Blog*, December 19. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/19/machines\_that\_learn\_from\_experience\_bandits\_and\_online\_learning.html][related_post_a251_bandits]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Reinforcement Learning Foundations." *Brendan A R Sechter's Development Blog*, December 20. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/20/machines\_that\_learn\_from\_experience\_reinforcement\_learning\_foundations.html][related_post_a252_rl_foundations]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Deep Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 21. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/21/machines\_that\_learn\_from\_experience\_deep\_reinforcement\_learning.html][related_post_a253_deep_rl]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Exploration, Intrinsic Motivation, and Curiosity." *Brendan A R Sechter's Development Blog*, December 22. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/22/machines\_that\_learn\_from\_experience\_exploration\_intrinsic\_motivation\_and\_curiosity.html][related_post_a254_exploration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Hierarchical Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 23. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/23/machines\_that\_learn\_from\_experience\_hierarchical\_reinforcement\_learning.html][related_post_a255_hierarchical]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: World Models and Predictive, Model-Based Adaptation." *Brendan A R Sechter's Development Blog*, December 24. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/24/machines\_that\_learn\_from\_experience\_world\_models\_and\_predictive\_model\_based\_adaptation.html][related_post_a256_world_models]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Offline and Batch Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 25. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/25/machines\_that\_learn\_from\_experience\_offline\_and\_batch\_reinforcement\_learning.html][related_post_a257_offline]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Meta-Learning and Online Adaptation." *Brendan A R Sechter's Development Blog*, December 26. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/26/machines\_that\_learn\_from\_experience\_meta\_learning\_and\_online\_adaptation.html][related_post_a258_meta_learning]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Continual and Lifelong Learning." *Brendan A R Sechter's Development Blog*, December 27. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/27/machines\_that\_learn\_from\_experience\_continual\_and\_lifelong\_learning.html][related_post_a259_continual]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Learning From Demonstration, Preference, and Other Agents." *Brendan A R Sechter's Development Blog*, December 28. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/28/machines\_that\_learn\_from\_experience\_learning\_from\_demonstration\_preference\_and\_other\_agents.html][related_post_a260_demonstration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Evolutionary and Open-Ended Adaptation." *Brendan A R Sechter's Development Blog*, December 29. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/29/machines\_that\_learn\_from\_experience\_evolutionary\_and\_open\_ended\_adaptation.html][related_post_a261_evolutionary]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Embodied Cognition and Developmental Learning." *Brendan A R Sechter's Development Blog*, December 30. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/30/machines\_that\_learn\_from\_experience\_embodied\_cognition\_and\_developmental\_learning.html][related_post_a262_embodied]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: NeuroAI, What Neuroscience and Machine Learning Took From Each Other." *Brendan A R Sechter's Development Blog*, December 31. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/31/machines\_that\_learn\_from\_experience\_neuroai.html][related_post_a263_neuroai]
 
 [book_anderson_1990]: https://www.taylorfrancis.com/books/mono/10.4324/9780203771730/adaptive-character-thought-john-anderson
 [book_bruner_goodnow_austin_1956]: https://www.taylorfrancis.com/books/mono/10.4324/9781315082707/study-thinking-jerome-bruner-jacqueline-goodnow-george-austin
-[book_bush_mosteller_1955]: https://scholar.google.com/scholar?q=bush+mosteller+1955+stochastic+models+for+learning
+[book_bush_mosteller_1955]: https://openlibrary.org/works/OL10362944W
 [book_chomsky_1965]: https://mitpress.mit.edu/9780262530071/aspects-of-the-theory-of-syntax/
 [book_craik_salthouse_2008]: https://www.taylorfrancis.com/books/edit/10.4324/9780203837665/handbook-aging-cognition-fergus-craik-timothy-salthouse
-[book_cronbach_snow_1977]: https://scholar.google.com/scholar?q=cronbach+snow+1977+aptitudes+instructional+methods
-[book_duncker_1945]: https://psycnet.apa.org/doi/10.1037/h0093599
+[book_cronbach_snow_1977]: https://openlibrary.org/works/OL4791566W
+[book_duncker_1945]: https://doi.org/10.1037/h0093599
 [book_ebbinghaus_1885]: https://www.taylorfrancis.com/books/mono/10.4324/9781315802749/memory-hermann-ebbinghaus
-[book_fitts_posner_1967]: https://scholar.google.com/scholar?q=fitts+posner+1967+human+performance
+[book_fitts_posner_1967]: https://openlibrary.org/works/OL6554807W
 [book_gigerenzer_todd_1999]: https://global.oup.com/academic/product/simple-heuristics-that-make-us-smart-9780195143812
-[book_hull_1943]: https://scholar.google.com/scholar?q=hull+1943+principles+of+behavior
+[book_hull_1943]: https://openlibrary.org/works/OL5357926W
 [book_kahneman_2011]: https://us.macmillan.com/books/9780374533557/thinkingfastandslow
 [book_kohler_1925]: https://www.taylorfrancis.com/books/mono/10.4324/9781315010311/mentality-apes-wolfgang-kohler
-[book_newell_simon_1972]: https://scholar.google.com/scholar?q=newell+simon+1972+human+problem+solving
+[book_newell_simon_1972]: https://openlibrary.org/works/OL4465098W
 [book_pavlov_1927]: https://www.taylorfrancis.com/books/mono/10.4324/9780203010457/conditioned-reflexes-ivan-pavlov
-[book_piaget_1952]: https://psycnet.apa.org/doi/10.1037/11494-000
-[book_skinner_1938]: https://scholar.google.com/scholar?q=skinner+1938+behavior+of+organisms
-[book_skinner_1957]: https://scholar.google.com/scholar?q=skinner+1957+verbal+behavior
+[book_piaget_1952]: https://doi.org/10.1037/11494-000
+[book_skinner_1938]: https://openlibrary.org/works/OL1725489W
+[book_skinner_1957]: https://openlibrary.org/works/OL1725499W
 [book_sutton_barto_2018]: http://incompleteideas.net/book/the-book-2nd.html
 [book_thaler_sunstein_2008]: https://yalebooks.yale.edu/book/9780300262285/nudge/
-[book_thorndike_1911]: https://scholar.google.com/scholar?q=thorndike+1911+animal+intelligence
-[book_tolman_1932]: https://scholar.google.com/scholar?q=tolman+1932+purposive+behavior+animals+men
+[book_thorndike_1911]: https://openlibrary.org/works/OL1193057W
+[book_tolman_1932]: https://openlibrary.org/works/OL1145561W
 [book_vygotsky_1978]: https://www.hup.harvard.edu/books/9780674576292
-[book_wallas_1926]: https://scholar.google.com/scholar?q=wallas+1926+art+of+thought
+[book_wallas_1926]: https://openlibrary.org/works/OL1117716W
 [ref_berkeley_cs285]: https://rail.eecs.berkeley.edu/deeprlcourse/
 [ref_deepmind_ucl_rl]: https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021
 [ref_openai_spinning_up]: https://spinningup.openai.com/
@@ -770,91 +778,91 @@ Modern computational treatments of reproducibility include the frameworks for au
 [related_post_a261_evolutionary]: {% post_url 2025-12-29-machines_that_learn_from_experience_evolutionary_and_open_ended_adaptation %}
 [related_post_a262_embodied]: {% post_url 2025-12-30-machines_that_learn_from_experience_embodied_cognition_and_developmental_learning %}
 [related_post_a263_neuroai]: {% post_url 2025-12-31-machines_that_learn_from_experience_neuroai %}
-[research_adams_1982]: https://www.tandfonline.com/doi/abs/10.1080/14640748208400878
-[research_anderson_1991]: https://psycnet.apa.org/doi/10.1037/0033-295X.98.3.409
-[research_ashby_et_al_1998_covis]: https://psycnet.apa.org/doi/10.1037/0033-295X.105.3.442
+[research_adams_1982]: https://doi.org/10.1080/14640748208400878
+[research_anderson_1991]: https://doi.org/10.1037/0033-295x.98.3.409
+[research_ashby_et_al_1998_covis]: https://doi.org/10.1037/0033-295x.105.3.442
 [research_atkinson_shiffrin_1968]: https://www.sciencedirect.com/science/article/pii/S0079742108604223
-[research_baddeley_hitch_1974]: https://www.sciencedirect.com/science/article/abs/pii/S0079742108604521
-[research_baillargeon_1987]: https://psycnet.apa.org/doi/10.1037/0012-1649.23.5.655
-[research_balleine_daw_odoherty_2008]: https://www.nature.com/articles/nrn2357
-[research_balleine_dickinson_1998]: https://www.sciencedirect.com/science/article/pii/S0028390898000330
-[research_baltes_1987]: https://psycnet.apa.org/doi/10.1037/0012-1649.23.5.611
-[research_bandura_ross_ross_1961]: https://psycnet.apa.org/doi/10.1037/h0045925
-[research_beck_1970]: https://www.sciencedirect.com/science/article/pii/S0005789470800304
-[research_berridge_robinson_1998]: https://www.sciencedirect.com/science/article/abs/pii/S0165017398000198
-[research_bi_poo_1998]: https://www.jneurosci.org/content/18/24/10464
-[research_bliss_lomo_1973]: https://physoc.onlinelibrary.wiley.com/doi/10.1113/jphysiol.1973.sp010273
-[research_bouton_1993]: https://psycnet.apa.org/doi/10.1037/0033-2909.114.1.80
-[research_cattell_1963]: https://psycnet.apa.org/doi/10.1037/h0046743
-[research_cepeda_et_al_2008]: https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02209.x
-[research_chase_simon_1973]: https://www.sciencedirect.com/science/article/pii/0010028573900042
-[research_chomsky_1959]: https://www.jstor.org/stable/411334
-[research_clark_2013]: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science/33542C736E17E3D1D44E8D03BE5F4CD9
-[research_cohen_squire_1980]: https://www.science.org/doi/10.1126/science.7414331
-[research_corkin_2002]: https://www.nature.com/articles/nrn726
-[research_craik_lockhart_1972]: https://www.sciencedirect.com/science/article/pii/S002253717280001X
-[research_cumming_2014]: https://journals.sagepub.com/doi/10.1177/0956797613504966
-[research_daw_niv_dayan_2005]: https://www.nature.com/articles/nn1560
-[research_daw_niv_dayan_2005_a264]: https://www.nature.com/articles/nn1560
-[research_deci_1971]: https://psycnet.apa.org/doi/10.1037/h0030644
-[research_dickinson_1985]: https://royalsocietypublishing.org/doi/10.1098/rstb.1985.0010
-[research_doll_simon_daw_2012]: https://www.sciencedirect.com/science/article/pii/S0959438812001304
-[research_engle_2002]: https://journals.sagepub.com/doi/10.1111/1467-8721.00160
-[research_ericsson_krampe_tesch_romer_1993]: https://psycnet.apa.org/doi/10.1037/0033-295X.100.3.363
-[research_estes_1950]: https://psycnet.apa.org/doi/10.1037/h0060563
-[research_falkenhainer_forbus_gentner_1989]: https://www.sciencedirect.com/science/article/abs/pii/0004370289900774
-[research_fitts_1954]: https://psycnet.apa.org/doi/10.1037/h0055392
-[research_flavell_1979]: https://psycnet.apa.org/doi/10.1037/0003-066X.34.10.906
-[research_gallistel_gibbon_2000]: https://psycnet.apa.org/doi/10.1037/0033-295X.107.2.289
-[research_gentner_1983]: https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog0702_3
-[research_glascher_et_al_2010]: https://www.cell.com/neuron/fulltext/S0896-6273(10)00287-4
-[research_gopnik_et_al_2004]: https://psycnet.apa.org/doi/10.1037/0033-295X.111.1.3
-[research_griffiths_et_al_2010]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(10)00113-X
-[research_harlow_1949]: https://psycnet.apa.org/doi/10.1037/h0062474
-[research_herrnstein_1961]: https://onlinelibrary.wiley.com/doi/10.1901/jeab.1961.4-267
-[research_higgins_1997]: https://psycnet.apa.org/doi/10.1037/0003-066X.52.12.1280
-[research_kahneman_tversky_1979]: https://www.jstor.org/stable/1914185
+[research_baddeley_hitch_1974]: https://doi.org/10.1016/s0079-7421(08)60452-1
+[research_baillargeon_1987]: https://doi.org/10.1037/0012-1649.23.5.655
+[research_balleine_daw_odoherty_2008]: https://scholar.google.com/scholar?q=Multiple+Values+Balleine+Daw+O%27Doherty+2008
+[research_balleine_dickinson_1998]: https://doi.org/10.1016/s0028-3908(98)00033-1
+[research_baltes_1987]: https://doi.org/10.1037/0012-1649.23.5.611
+[research_bandura_ross_ross_1961]: https://doi.org/10.1037/h0045925
+[research_beck_1970]: https://doi.org/10.1016/s0005-7894(70)80030-2
+[research_berridge_robinson_1998]: https://doi.org/10.1016/s0165-0173(98)00019-8
+[research_bi_poo_1998]: https://doi.org/10.1523/jneurosci.18-24-10464.1998
+[research_bliss_lomo_1973]: https://doi.org/10.1113/jphysiol.1973.sp010273
+[research_bouton_1993]: https://doi.org/10.1037/0033-2909.114.1.80
+[research_cattell_1963]: https://doi.org/10.1037/h0046743
+[research_cepeda_et_al_2008]: https://doi.org/10.1111/j.1467-9280.2008.02209.x
+[research_chase_simon_1973]: https://doi.org/10.1016/0010-0285(73)90004-2
+[research_chomsky_1959]: https://doi.org/10.2307/411334
+[research_clark_2013]: https://doi.org/10.1017/s0140525x12000477
+[research_cohen_squire_1980]: https://doi.org/10.1126/science.7414331
+[research_corkin_2002]: https://doi.org/10.1038/nrn726
+[research_craik_lockhart_1972]: https://doi.org/10.1016/s0022-5371(72)80001-x
+[research_cumming_2014]: https://doi.org/10.1177/0956797613504966
+[research_daw_niv_dayan_2005]: https://doi.org/10.1038/nn1560
+[research_daw_niv_dayan_2005_a264]: https://doi.org/10.1038/nn1560
+[research_deci_1971]: https://doi.org/10.1037/h0030644
+[research_dickinson_1985]: https://doi.org/10.1098/rstb.1985.0010
+[research_doll_simon_daw_2012]: https://doi.org/10.1016/j.conb.2012.08.003
+[research_engle_2002]: https://doi.org/10.1111/1467-8721.00160
+[research_ericsson_krampe_tesch_romer_1993]: https://doi.org/10.1037/0033-295x.100.3.363
+[research_estes_1950]: https://scholar.google.com/scholar?q=Stimulus+Sampling+Estes+1950
+[research_falkenhainer_forbus_gentner_1989]: https://doi.org/10.1016/0004-3702(89)90077-5
+[research_fitts_1954]: https://doi.org/10.1037/h0055392
+[research_flavell_1979]: https://doi.org/10.1037/0003-066x.34.10.906
+[research_gallistel_gibbon_2000]: https://doi.org/10.1037/0033-295x.107.2.289
+[research_gentner_1983]: https://doi.org/10.1207/s15516709cog0702_3
+[research_glascher_et_al_2010]: https://doi.org/10.1016/j.neuron.2010.04.016
+[research_gopnik_et_al_2004]: https://doi.org/10.1037/0033-295x.111.1.3
+[research_griffiths_et_al_2010]: https://doi.org/10.4324/9780203936399.ch21
+[research_harlow_1949]: https://doi.org/10.1037/h0062474
+[research_herrnstein_1961]: https://doi.org/10.1901/jeab.1961.4-267
+[research_higgins_1997]: https://doi.org/10.1037/0003-066x.52.12.1280
+[research_kahneman_tversky_1979]: https://doi.org/10.2307/1914185
 [research_kamin_1968]: https://scholar.google.com/scholar?q=kamin+1968+predictability+surprise+attention+conditioning
-[research_kemp_tenenbaum_2008]: https://www.pnas.org/doi/10.1073/pnas.0802631105
+[research_kemp_tenenbaum_2008]: https://doi.org/10.1073/pnas.0802631105
 [research_kool_cushman_gershman_2018]: https://link.springer.com/chapter/10.1007/978-3-319-98561-1_7
-[research_kruschke_1992_alcove]: https://psycnet.apa.org/doi/10.1037/0033-295X.99.1.22
-[research_kuhl_2004]: https://www.nature.com/articles/nrn1533
-[research_laland_2004]: https://link.springer.com/article/10.3758/BF03196002
-[research_love_medin_gureckis_2004]: https://psycnet.apa.org/doi/10.1037/0033-295X.111.2.309
-[research_mackintosh_1975]: https://psycnet.apa.org/doi/10.1037/h0076778
-[research_marcus_et_al_1999]: https://www.science.org/doi/10.1126/science.283.5398.77
-[research_mcgaugh_2000]: https://www.science.org/doi/10.1126/science.287.5451.248
-[research_meltzoff_moore_1977]: https://www.science.org/doi/10.1126/science.198.4312.75
-[research_miller_1956]: https://psycnet.apa.org/doi/10.1037/h0043158
-[research_nelson_narens_1990]: https://www.sciencedirect.com/science/article/pii/S0079742108604468
+[research_kruschke_1992_alcove]: https://doi.org/10.1037/0033-295x.99.1.22
+[research_kuhl_2004]: https://doi.org/10.1038/nrn1533
+[research_laland_2004]: https://doi.org/10.3758/bf03196002
+[research_love_medin_gureckis_2004]: https://doi.org/10.1037/0033-295x.111.2.309
+[research_mackintosh_1975]: https://doi.org/10.1037/h0076778
+[research_marcus_et_al_1999]: https://doi.org/10.1126/science.283.5398.77
+[research_mcgaugh_2000]: https://doi.org/10.1126/science.287.5451.248
+[research_meltzoff_moore_1977]: https://doi.org/10.1126/science.198.4312.75
+[research_miller_1956]: https://doi.org/10.1037/h0043158
+[research_nelson_narens_1990]: https://doi.org/10.1016/s0079-7421(08)60053-5
 [research_newell_rosenbloom_1981]: https://scholar.google.com/scholar?q=newell+rosenbloom+1981+mechanisms+of+skill+acquisition
-[research_nosofsky_1986]: https://psycnet.apa.org/doi/10.1037/0096-3445.115.1.39
+[research_nosofsky_1986]: https://doi.org/10.1037/0096-3445.115.1.39
 [research_osc_2015]: https://www.science.org/doi/10.1126/science.aac4716
-[research_pearce_hall_1980]: https://psycnet.apa.org/doi/10.1037/0033-295X.87.6.532
-[research_rescorla_1968]: https://psycnet.apa.org/doi/10.1037/h0025984
+[research_pearce_hall_1980]: https://doi.org/10.1037/0033-295x.87.6.532
+[research_rescorla_1968]: https://doi.org/10.1037/h0025984
 [research_rescorla_wagner_1972]: https://scholar.google.com/scholar?q=rescorla+wagner+1972+theory+pavlovian+conditioning
-[research_roediger_karpicke_2006]: https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01693.x
-[research_rosch_1975]: https://psycnet.apa.org/doi/10.1037/0096-3445.104.3.192
-[research_ryan_deci_2000]: https://psycnet.apa.org/doi/10.1037/0003-066X.55.1.68
-[research_ryan_deci_2000_a264]: https://psycnet.apa.org/doi/10.1037/0003-066X.55.1.68
-[research_salthouse_1996]: https://psycnet.apa.org/doi/10.1037/0033-295X.103.3.403
-[research_sanborn_chater_2016]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(16)30126-7
+[research_roediger_karpicke_2006]: https://doi.org/10.1111/j.1467-9280.2006.01693.x
+[research_rosch_1975]: https://doi.org/10.1037/0096-3445.104.3.192
+[research_ryan_deci_2000]: https://doi.org/10.1037/0003-066x.55.1.68
+[research_ryan_deci_2000_a264]: https://doi.org/10.1037/0003-066x.55.1.68
+[research_salthouse_1996]: https://doi.org/10.1037/0033-295x.103.3.403
+[research_sanborn_chater_2016]: https://doi.org/10.1016/j.tics.2016.10.003
 [research_scoville_milner_1957]: https://jnnp.bmj.com/content/20/1/11
-[research_seth_2013]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(13)00219-3
-[research_shiffrin_schneider_1977]: https://psycnet.apa.org/doi/10.1037/0033-295X.84.2.127
-[research_simmons_nelson_simonsohn_2011]: https://journals.sagepub.com/doi/10.1177/0956797611417632
-[research_simon_1955]: https://www.jstor.org/stable/1884852
-[research_spearman_1904]: https://www.jstor.org/stable/1412107
-[research_squire_2004]: https://www.sciencedirect.com/science/article/pii/S0301008204000188
+[research_seth_2013]: https://doi.org/10.3389/fpsyg.2011.00395
+[research_shiffrin_schneider_1977]: https://doi.org/10.1037/0033-295x.84.2.127
+[research_simmons_nelson_simonsohn_2011]: https://doi.org/10.1177/0956797611417632
+[research_simon_1955]: https://doi.org/10.2307/1884852
+[research_spearman_1904]: https://doi.org/10.2307/1412107
+[research_squire_2004]: https://doi.org/10.1016/j.nlm.2004.06.005
 [research_sutton_barto_1990]: https://scholar.google.com/scholar?q=sutton+barto+1990+time+derivative+models+pavlovian
 [research_tenenbaum_1999]: https://papers.nips.cc/paper/1999/hash/f515efb8a3d9c9f5faf1a6cd3c7cf95c-Abstract.html
-[research_tenenbaum_et_al_2011]: https://www.science.org/doi/10.1126/science.1192788
-[research_tolman_1948_cognitive_maps]: https://psycnet.apa.org/doi/10.1037/h0061626
+[research_tenenbaum_et_al_2011]: https://doi.org/10.1126/science.1192788
+[research_tolman_1948_cognitive_maps]: https://doi.org/10.1037/h0061626
 [research_tolman_honzik_1930]: https://scholar.google.com/scholar?q=tolman+honzik+1930+introduction+removal+reward+maze
 [research_tulving_1972]: https://scholar.google.com/scholar?q=tulving+1972+episodic+semantic+memory
-[research_tulving_thomson_1973]: https://psycnet.apa.org/doi/10.1037/h0020071
-[research_tversky_kahneman_1974]: https://www.science.org/doi/10.1126/science.185.4157.1124
-[research_tversky_kahneman_1992]: https://link.springer.com/article/10.1007/BF00122574
+[research_tulving_thomson_1973]: https://doi.org/10.1037/h0020071
+[research_tversky_kahneman_1974]: https://doi.org/10.1126/science.185.4157.1124
+[research_tversky_kahneman_1992]: https://doi.org/10.1007/bf00122574
 [research_wagner_1981_sop]: https://scholar.google.com/scholar?q=wagner+1981+sop+model+behavior
-[research_watson_1913]: https://psycnet.apa.org/doi/10.1037/h0074428
-[research_xu_tenenbaum_2007_a264]: https://psycnet.apa.org/doi/10.1037/0033-295X.114.2.245
+[research_watson_1913]: https://doi.org/10.1037/h0074428
+[research_xu_tenenbaum_2007_a264]: https://doi.org/10.1037/0033-295x.114.2.245

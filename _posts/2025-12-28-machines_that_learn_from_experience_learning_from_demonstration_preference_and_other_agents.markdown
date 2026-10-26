@@ -39,19 +39,19 @@ Each framework connects to theoretical questions. Imitation learning connects to
 
 ## Historical Development
 
-Learning from demonstration has roots in the early connectionist literature. [Pomerleau 1988][research_pomerleau_1988_alvinn] ALVINN provided one of the earliest deployment-scale demonstrations of behavior cloning by training a neural network to steer an autonomous vehicle from recorded human driving demonstrations. [Bain and Sammut 1995][research_bain_sammut_1995] provided the systematic formulation of behavior cloning in the machine learning literature. [Schaal 1999][research_schaal_1999] consolidated the robotic learning-from-demonstration literature at the turn of the century and introduced the primitives-based framework that has organized much subsequent work. Earlier work by [Kuniyoshi Inaba Inoue 1994][research_kuniyoshi_inaba_inoue_1994] on learning by watching provided one of the first computational treatments of imitation in robotics, and [Schaal 1997][research_schaal_1997] introduced the framework of learning from demonstration for direct policy learning that continues to organize the modern literature. The [Argall Chernova Veloso Browning 2009][research_argall_et_al_2009_lfd_survey] survey consolidated the robot learning-from-demonstration literature through the early 2000s and established the categorical taxonomy that subsequent surveys have refined. [Billard Calinon Dillmann Schaal 2008][research_billard_et_al_2008] provided the complementary treatment of robot programming by demonstration.
+Learning from demonstration has roots in the early connectionist literature. [Pomerleau 1988][research_pomerleau_1988_alvinn] ALVINN provided one of the earliest deployment-scale demonstrations of behavior cloning by training a neural network to steer an autonomous vehicle from recorded human driving demonstrations. [Bain and Sammut 1995][research_bain_sammut_1995] provided the systematic formulation of behavior cloning in the machine learning literature. [Schaal 1999][research_schaal_1999] consolidated the robotic learning-from-demonstration literature at the turn of the century and introduced the primitives-based framework that has organized much subsequent work. Earlier work by [Kuniyoshi et al. 1994][research_kuniyoshi_inaba_inoue_1994] on learning by watching provided one of the first computational treatments of imitation in robotics, and [Schaal 1996][research_schaal_1997] introduced the framework of learning from demonstration for direct policy learning that continues to organize the modern literature. The [Argall et al. 2009][research_argall_et_al_2009_lfd_survey] survey consolidated the robot learning-from-demonstration literature through the early 2000s and established the categorical taxonomy that subsequent surveys have refined. [Billard et al. 2008][research_billard_et_al_2008] provided the complementary treatment of robot programming by demonstration.
 
-Inverse reinforcement learning emerged as a distinct framework through the [Ng and Russell 2000][research_ng_russell_2000_irl] linear-programming formulation that recovers a reward function consistent with observed expert behavior, followed by the [Abbeel and Ng 2004][research_abbeel_ng_2004_apprenticeship] apprenticeship learning framework that treated policy imitation as reward matching. The maximum-entropy IRL framework of [Ziebart Maas Bagnell Dey 2008][research_ziebart_et_al_2008_maxent] provided the modern probabilistic foundation that continues to organize the IRL literature. Extensions including Boularias Kober Peters 2011 relative entropy IRL [research_boularias_kober_peters_2011], Levine Popovic Koltun 2011 nonlinear IRL [research_levine_popovic_koltun_2011], and Wulfmeier Ondruska Posner 2015 maximum entropy deep IRL [research_wulfmeier_ondruska_posner_2015] progressively extended the account to nonlinear reward representations and deep neural networks.
+Inverse reinforcement learning emerged as a distinct framework through the [Ng and Russell 2000][research_ng_russell_2000_irl] linear-programming formulation that recovers a reward function consistent with observed expert behavior, followed by the [Abbeel and Ng 2004][research_abbeel_ng_2004_apprenticeship] apprenticeship learning framework that treated policy imitation as reward matching. The maximum-entropy IRL framework of [Ziebart et al. 2008][research_ziebart_et_al_2008_maxent] provided the modern probabilistic foundation that continues to organize the IRL literature. Extensions including Boularias Kober Peters 2011 relative entropy IRL [research_boularias_kober_peters_2011], Levine Popovic Koltun 2011 nonlinear IRL [research_levine_popovic_koltun_2011], and Wulfmeier Ondruska Posner 2015 maximum entropy deep IRL [research_wulfmeier_ondruska_posner_2015] progressively extended the account to nonlinear reward representations and deep neural networks.
 
 Adversarial imitation learning emerged in the 2010s through Generative Adversarial Imitation Learning (GAIL) of [Ho and Ermon 2016][research_ho_ermon_2016_gail] and Guided Cost Learning of [Finn Levine Abbeel 2016][research_finn_levine_abbeel_2016_gcl]. The model connected imitation learning to the generative adversarial network literature and produced considerable empirical improvements over the direct maximum-entropy IRL formulation.
 
-Preference-based reinforcement learning at deployment scale began with the [Christiano Leike Brown Martic Legg Amodei 2017][research_christiano_et_al_2017_rlhf] Deep Reinforcement Learning from Human Preferences framework, which demonstrated that a small number of preference queries suffice to train Atari and MuJoCo policies from scratch. This formulation subsequently scaled to language model alignment through InstructGPT of [Ouyang et al 2022][research_ouyang_et_al_2022_instructgpt] and to the Direct Preference Optimization framework of [Rafailov et al 2023][research_rafailov_et_al_2023_dpo] that skips the explicit reward-model estimation.
+Preference-based reinforcement learning at deployment scale began with the [Christiano et al. 2017][research_christiano_et_al_2017_rlhf] Deep Reinforcement Learning from Human Preferences framework, which demonstrated that a small number of preference queries suffice to train Atari and MuJoCo policies from scratch. This formulation subsequently scaled to language model alignment through InstructGPT of [Ouyang et al. 2022][research_ouyang_et_al_2022_instructgpt] and to the Direct Preference Optimization framework of [Rafailov et al. 2023][research_rafailov_et_al_2023_dpo] that skips the explicit reward-model estimation.
 
-Multi-agent reinforcement learning developed as a distinct sub-field from the early [Littman 1994][research_littman_1994_markov_games] Markov games formulation. The 2010s produced the modern deep-learning-based methods including MADDPG of [Lowe Wu Tamar Harb Abbeel Mordatch 2017][research_lowe_et_al_2017_maddpg], QMIX of [Rashid Samvelyan Schroeder de Witt Farquhar Foerster Whiteson 2018][research_rashid_et_al_2018_qmix], and the value-decomposition family. Modern MARL matured through MAPPO of [Yu Velu Vinitsky Gao Wang Bayen Wu 2022][research_yu_et_al_2022_mappo] and IPPO of [de Witt Gupta Makoviichuk Makoviychuk Torr Sun Whiteson 2020][research_de_witt_et_al_2020_ippo] which documented that independent proximal policy optimization achieves surprisingly strong performance on cooperative benchmarks.
+Multi-agent reinforcement learning developed as a distinct sub-field from the early [Littman 1994][research_littman_1994_markov_games] Markov games formulation. The 2010s produced the modern deep-learning-based methods including MADDPG of [Lowe et al. 2017][research_lowe_et_al_2017_maddpg], QMIX of [Rashid et al. 2018][research_rashid_et_al_2018_qmix], and the value-decomposition family. Modern MARL matured through MAPPO of [Yu et al. 2022][research_yu_et_al_2022_mappo] and IPPO of [de Witt et al. 2020][research_de_witt_et_al_2020_ippo] which documented that independent proximal policy optimization achieves surprisingly strong performance on cooperative benchmarks.
 
-Self-play and population-based training reached prominence through the AlphaGo family. TD-Gammon of [Tesauro 1995][research_tesauro_1995_tdgammon] provided the foundational demonstration that self-play with temporal-difference learning could achieve expert-level play in backgammon, decades before deep reinforcement learning made the approach practical at broader scale. [Silver Huang Maddison et al 2016][research_silver_et_al_2016_alphago] AlphaGo combined Monte Carlo tree search with supervised learning from human games and reinforcement learning through self-play. [Silver et al 2017][research_silver_et_al_2017_alphago_zero] AlphaGo Zero eliminated the human-data requirement and demonstrated that pure self-play from random initialization achieves superhuman play in Go. [Silver et al 2018][research_silver_et_al_2018_alphazero] AlphaZero generalized the treatment to chess and shogi. [Vinyals et al 2019][research_vinyals_et_al_2019_alphastar] AlphaStar extended the framework to StarCraft II through league-based training, and [Berner et al 2019][research_berner_et_al_2019_openai_five] OpenAI Five achieved comparable success on Dota 2. Self-play in imperfect-information games reached prominence through DeepStack of [Moravčík Schmid Burch Lisý Morrill Bard Davis Waugh Johanson Bowling 2017][research_moravcik_et_al_2017_deepstack] and Pluribus of [Brown and Sandholm 2019][research_brown_sandholm_2019_pluribus] in multi-player no-limit Texas hold'em poker. Cicero of [FAIR et al 2022][research_fair_et_al_2022_cicero] achieved human-level play in the natural-language-mediated cooperative game Diplomacy.
+Self-play and population-based training reached prominence through the AlphaGo family. TD-Gammon of [Tesauro 1995][research_tesauro_1995_tdgammon] provided the foundational demonstration that self-play with temporal-difference learning could achieve expert-level play in backgammon, decades before deep reinforcement learning made the approach practical at broader scale. [Silver et al. 2016][research_silver_et_al_2016_alphago] AlphaGo combined Monte Carlo tree search with supervised learning from human games and reinforcement learning through self-play. [Silver et al. 2017][research_silver_et_al_2017_alphago_zero] AlphaGo Zero eliminated the human-data requirement and demonstrated that pure self-play from random initialization achieves superhuman play in Go. [Silver et al. 2018][research_silver_et_al_2018_alphazero] AlphaZero generalized the treatment to chess and shogi. [Vinyals et al. 2019][research_vinyals_et_al_2019_alphastar] AlphaStar extended the framework to StarCraft II through league-based training, and [OpenAI et al. 2019][research_berner_et_al_2019_openai_five] OpenAI Five achieved comparable success on Dota 2. Self-play in imperfect-information games reached prominence through DeepStack of [Moravčík et al. 2017][research_moravcik_et_al_2017_deepstack] and Pluribus of [Brown and Sandholm 2019][research_brown_sandholm_2019_pluribus] in multi-player no-limit Texas hold'em poker. Cicero of [FAIR 2022][research_fair_et_al_2022_cicero] achieved human-level play in the natural-language-mediated cooperative game Diplomacy.
 
-The 2020s produced diversification including foundation-model-scale imitation through Video Pretraining (VPT) of [Baker et al 2022][research_baker_et_al_2022_vpt] and Gato of [Reed et al 2022][research_reed_et_al_2022_gato_a260], preference-based fine-tuning of foundation models through Direct Preference Optimization, cooperative and assistive multi-agent frameworks including Cooperative Inverse Reinforcement Learning of [Hadfield-Menell Russell Abbeel Dragan 2016][research_hadfield_menell_et_al_2016_cirl], and one-shot imitation learning through meta-learning approaches. The [Ravichandar Polydoros Chernova Billard 2020][research_ravichandar_et_al_2020_lfd_survey] survey consolidated the recent learning-from-demonstration literature.
+The 2020s produced diversification including foundation-model-scale imitation through Video Pretraining (VPT) of [Baker et al. 2022][research_baker_et_al_2022_vpt] and Gato of [Reed et al. 2022][research_reed_et_al_2022_gato_a260], preference-based fine-tuning of foundation models through Direct Preference Optimization, cooperative and assistive multi-agent frameworks including Cooperative Inverse Reinforcement Learning of [Hadfield-Menell Russell Abbeel Dragan 2016][research_hadfield_menell_et_al_2016_cirl], and one-shot imitation learning through meta-learning approaches. The [Ravichandar et al. 2020][research_ravichandar_et_al_2020_lfd_survey] survey consolidated the recent learning-from-demonstration literature.
 
 ## Behavior Cloning and its Variants
 
@@ -73,31 +73,31 @@ $$\pi_{k+1} = \arg\min_\pi \mathbb{E}_{(s, a) \sim \mathcal{D}_k}\!\left[\ell(\p
 
 with $\ell$ a per-step imitation loss. The account provides linear regret bounds at the cost of ongoing expert interaction during training.
 
-HG-DAgger of [Kelly Zhang Sun Peng Levine 2019][research_kelly_et_al_2019_hg_dagger] extended DAgger to human-gated intervention in which the human expert supervises selectively only when the learner's actions are unsafe or uncertain. The mechanism considerably reduces the expert-query burden while retaining the covariate-shift benefits of DAgger.
+HG-DAgger of [Kelly et al. 2019][research_kelly_et_al_2019_hg_dagger] extended DAgger to human-gated intervention in which the human expert supervises selectively only when the learner's actions are unsafe or uncertain. The mechanism considerably reduces the expert-query burden while retaining the covariate-shift benefits of DAgger.
 
-Conditional Imitation Learning of [Codevilla Müller López Koltun Dosovitskiy 2018][research_codevilla_et_al_2018_cil] combined behavior cloning with high-level task conditioning for autonomous driving, providing an architecture in which the same low-level policy handles multiple driving objectives through task-token conditioning.
+Conditional Imitation Learning of [Codevilla et al. 2018][research_codevilla_et_al_2018_cil] combined behavior cloning with high-level task conditioning for autonomous driving, providing an architecture in which the same low-level policy handles multiple driving objectives through task-token conditioning.
 
-DAPG of [Rajeswaran Kumar Gupta Vezzani Schulman Todorov Levine 2018][research_rajeswaran_et_al_2018_dapg] combined behavior cloning with policy gradient improvement to bootstrap reinforcement learning from a small demonstration set through a combined objective
+DAPG of [Rajeswaran et al. 2017][research_rajeswaran_et_al_2018_dapg] combined behavior cloning with policy gradient improvement to bootstrap reinforcement learning from a small demonstration set through a combined objective
 
 $$\nabla_\theta J_{\text{DAPG}}(\theta) = \nabla_\theta J_{\text{RL}}(\theta) + \lambda_1 \, \nabla_\theta \mathbb{E}_{(s, a) \sim \mathcal{D}_{\text{demo}}}\!\left[\log \pi_\theta(a \mid s) \, A^{\pi_\theta}(s, a)\right]$$
 
 where $J_{\text{RL}}$ is the standard policy-gradient objective, $A^{\pi_\theta}$ is the advantage under the current policy, and $\lambda_1$ decays the demonstration-based term over training. The model achieves strong performance on high-dimensional manipulation tasks that pure reinforcement learning fails to solve within reasonable data budgets.
 
-Behavioral Cloning from Observation (BCO) of [Torabi Warnell Stone 2018][research_torabi_warnell_stone_2018_bco] extended the treatment to observation-only demonstrations without action labels through inverse dynamics inference. The mechanism first learns an inverse dynamics model
+Behavioral Cloning from Observation (BCO) of [Torabi et al. 2018][research_torabi_warnell_stone_2018_bco] extended the treatment to observation-only demonstrations without action labels through inverse dynamics inference. The mechanism first learns an inverse dynamics model
 
 $$\hat{a}_t = I_\psi(s_t, s_{t+1})$$
 
 from arbitrary agent-environment interaction, then applies the model to observed expert state transitions to infer the actions that would have produced them, converting observation-only demonstrations to standard state-action tuples.
 
-Squared Imitation Learning (SQIL) of [Reddy Dragan Levine 2020][research_reddy_dragan_levine_2020_sqil] provides a reinforcement-learning-based reformulation of behavior cloning that treats demonstration state-action pairs as receiving reward one and all other state-action pairs as receiving reward zero,
+Squared Imitation Learning (SQIL) of [Reddy et al. 2020][research_reddy_dragan_levine_2020_sqil] provides a reinforcement-learning-based reformulation of behavior cloning that treats demonstration state-action pairs as receiving reward one and all other state-action pairs as receiving reward zero,
 
 $$r_{\text{SQIL}}(s, a) = \begin{cases} 1 & \text{if } (s, a) \in \mathcal{D}_{\text{demo}} \\ 0 & \text{otherwise} \end{cases}$$
 
 The treatment enables imitation learning through standard off-policy reinforcement learning machinery and often outperforms adversarial imitation learning on standard benchmarks.
 
-Implicit Behavior Cloning of [Florence Lynch Zeng Ramirez Wahid Downs Wong Lee Mordatch Tompson 2022][research_florence_et_al_2022_implicit_bc] introduced an energy-based-model formulation of behavior cloning that significantly improves performance on multi-modal action distributions typical of human demonstration data. This account parameterizes an energy function rather than a policy directly, enabling action selection through gradient-based inference and providing a natural treatment of demonstrator ambiguity. Dense Object Nets of [Florence Manuelli Tedrake 2018][research_florence_manuelli_tedrake_2018] introduced object-centric self-supervised representations that support behavior cloning across diverse object instances.
+Implicit Behavior Cloning of [Florence et al. 2022][research_florence_et_al_2022_implicit_bc] introduced an energy-based-model formulation of behavior cloning that significantly improves performance on multi-modal action distributions typical of human demonstration data. This account parameterizes an energy function rather than a policy directly, enabling action selection through gradient-based inference and providing a natural treatment of demonstrator ambiguity. Dense Object Nets of [Florence et al. 2018][research_florence_manuelli_tedrake_2018] introduced object-centric self-supervised representations that support behavior cloning across diverse object instances.
 
-Dynamic Movement Primitives (DMP) of [Ijspeert Nakanishi Hoffmann Pastor Schaal 2013][research_ijspeert_et_al_2013_dmp] provided the foundational modern framework for parameterizing motion primitives through dynamical systems that admit efficient learning from demonstration. The framework has become a standard tool for robotic learning from demonstration and continues to underlie significant portions of the modern robotic literature. DeepMimic of [Peng Abbeel Levine van de Panne 2018][research_peng_et_al_2018_deepmimic] demonstrated that behavior cloning combined with reinforcement learning enables physically-simulated character imitation of motion capture demonstrations, providing evidence for the tractability of high-dimensional imitation at deployment scale.
+Dynamic Movement Primitives (DMP) of [Ijspeert et al. 2013][research_ijspeert_et_al_2013_dmp] provided the foundational modern framework for parameterizing motion primitives through dynamical systems that admit efficient learning from demonstration. The framework has become a standard tool for robotic learning from demonstration and continues to underlie significant portions of the modern robotic literature. DeepMimic of [Peng et al. 2018][research_peng_et_al_2018_deepmimic] demonstrated that behavior cloning combined with reinforcement learning enables physically-simulated character imitation of motion capture demonstrations, providing evidence for the tractability of high-dimensional imitation at deployment scale.
 
 ## Inverse Reinforcement Learning
 
@@ -149,17 +149,17 @@ $$r_{\text{DAC}}(s, a) = \log D_\phi(s, a) - \log(1 - D_\phi(s, a))$$
 
 that the actor-critic optimizes through standard temporal-difference updates on the replay buffer.
 
-f-GAIL of [Ke Barnes Sun Lee Kang Xu Ji 2021][research_ke_et_al_2021_fgail] generalized GAIL to arbitrary f-divergences beyond the Jensen-Shannon divergence of standard GAIL, framing the general imitation objective as
+f-GAIL of [Ke et al. 2021][research_ke_et_al_2021_fgail] generalized GAIL to arbitrary f-divergences beyond the Jensen-Shannon divergence of standard GAIL, framing the general imitation objective as
 
 $$\min_\theta \, D_f(d^{\pi_\theta} \, \| \, d^{\pi_E})$$
 
 where $D_f$ is any f-divergence and $d^{\pi_\theta}, d^{\pi_E}$ are the state-action occupancy distributions of the learner and expert respectively. Different choices of $f$ correspond to distinct primal-formulation imitation objectives with distinct empirical properties.
 
-Behavior-Regularized Adversarial Learning of [Yang Ma Kalantidis Kavukcuoglu 2020][research_yang_et_al_2020_bcqar] combined adversarial imitation with behavior regularization for offline imitation from a fixed dataset without environmental interaction, providing an approach that connects to the offline reinforcement learning treatments of article eight.
+Behavior-Regularized Adversarial Learning of [Yang et al. 2020][research_yang_et_al_2020_bcqar] combined adversarial imitation with behavior regularization for offline imitation from a fixed dataset without environmental interaction, providing an approach that connects to the offline reinforcement learning treatments of article eight.
 
-Divergence minimization perspective on imitation learning of [Ghasemipour Zemel Gu 2020][research_ghasemipour_zemel_gu_2020] provided a unifying framework that recovered GAIL, AIRL, and behavior cloning as instances of state-action or state-only divergence minimization. This formulation clarified the theoretical relationships among the previously-disparate methods and motivated systematic development of state-only imitation variants.
+Divergence minimization perspective on imitation learning of [Ghasemipour et al. 2020][research_ghasemipour_zemel_gu_2020] provided a unifying framework that recovered GAIL, AIRL, and behavior cloning as instances of state-action or state-only divergence minimization. This formulation clarified the theoretical relationships among the previously-disparate methods and motivated systematic development of state-only imitation variants.
 
-End-to-end differentiable adversarial imitation learning of [Baram Anschel Caspi Mannor 2017][research_baram_et_al_2017] provided the earlier framework in which the GAIL discriminator gradient flows directly through the environment dynamics via a learned differentiable model, providing improved sample efficiency over the standard policy-gradient formulation.
+End-to-end differentiable adversarial imitation learning of [Baram et al. 2017][research_baram_et_al_2017] provided the earlier framework in which the GAIL discriminator gradient flows directly through the environment dynamics via a learned differentiable model, providing improved sample efficiency over the standard policy-gradient formulation.
 
 The adversarial imitation family provides substantially better sample efficiency than pure behavior cloning at the cost of more complex training dynamics. The minimax optimization inherits the training instabilities of generative adversarial networks, and practical implementations require careful hyperparameter tuning.
 
@@ -175,21 +175,21 @@ where $\hat{R}\_\phi(\tau) = \sum_t \hat{r}\_\phi(s_t, a_t)$ is the trajectory-l
 
 Christiano et al 2017 Deep Reinforcement Learning from Human Preferences demonstrated the practical viability of the treatment by training Atari and MuJoCo policies from a modest budget of human preference queries. This account combined the reward model with active preference elicitation, requesting new comparisons on trajectory pairs where the learned reward is uncertain.
 
-Preference Transformer of [Kim Park Kim Kim 2023][research_kim_et_al_2023_pt_a260] extended the framework with a transformer-based reward model that captures long-range dependencies in trajectory preferences. The mechanism markedly improves performance on tasks where preference structure varies systematically across trajectory segments.
+Preference Transformer of [Kim et al. 2023][research_kim_et_al_2023_pt_a260] extended the framework with a transformer-based reward model that captures long-range dependencies in trajectory preferences. The mechanism markedly improves performance on tasks where preference structure varies systematically across trajectory segments.
 
 PEBBLE of [Lee Smith Krishnan Abbeel 2021][research_lee_smith_krishnan_abbeel_2021_pebble_a260] combined unsupervised pretraining with preference-based reward learning to reduce the number of required preference queries. The mechanism first learns a policy through intrinsic-motivation-driven exploration, then refines the policy through preference-based reward learning on the pretrained trajectory distribution.
 
-Active preference queries of [Sadigh Dragan Sastry Seshia 2017][research_sadigh_et_al_2017_active] introduced information-theoretic query selection that maximizes the expected reduction in reward-model uncertainty per query. The mutual-information criterion selects the query
+Active preference queries of [Sadigh et al. 2017][research_sadigh_et_al_2017_active] introduced information-theoretic query selection that maximizes the expected reduction in reward-model uncertainty per query. The mutual-information criterion selects the query
 
 $$(\tau^*, \tau'^*) = \arg\max_{\tau, \tau'} \, \mathbb{I}\!\left[\phi \, ; \, y \mid \tau, \tau', \mathcal{D}_{\text{pref}}\right]$$
 
 where the mutual information is over the reward-parameter posterior $\phi$ and the preference outcome $y$, providing appreciable sample-efficiency improvements over random query selection.
 
-Reward Uncertain Preference Learning of [Wilde Blau Guyomard Losey Doshi-Velez 2023][research_wilde_et_al_2023] extended the account to preference elicitation under reward-function ambiguity, providing a principled account of active queries that resolve identifiability among the equivalence class of rewards consistent with prior observations.
+Reward Uncertain Preference Learning of [Wilde et al. 2023][research_wilde_et_al_2023] extended the account to preference elicitation under reward-function ambiguity, providing a principled account of active queries that resolve identifiability among the equivalence class of rewards consistent with prior observations.
 
-The [Wirth Akrour Neumann Fürnkranz 2017][research_wirth_et_al_2017_pref_survey] survey of preference-based reinforcement learning consolidated the algorithmic and theoretical literature and identified the representational requirements that modern preference-based methods subsequently addressed. Preference-based reinforcement learning traces to earlier work by [Akrour Schoenauer Sebag 2011][research_akrour_schoenauer_sebag_2011] on preference-based policy learning through evolutionary search over preference-consistent policies, and to [Wilson Fern Tadepalli 2012][research_wilson_fern_tadepalli_2012] Bayesian approach to preference-based reinforcement learning that established the probabilistic foundation.
+The [Wirth et al. 2017][research_wirth_et_al_2017_pref_survey] survey of preference-based reinforcement learning consolidated the algorithmic and theoretical literature and identified the representational requirements that modern preference-based methods subsequently addressed. Preference-based reinforcement learning traces to earlier work by [Akrour et al. 2011][research_akrour_schoenauer_sebag_2011] on preference-based policy learning through evolutionary search over preference-consistent policies, and to [Wilson et al. 2012][research_wilson_fern_tadepalli_2012] Bayesian approach to preference-based reinforcement learning that established the probabilistic foundation.
 
-Reward Learning from Human Preferences and Demonstrations of [Ibarz Leike Pohlen Irving Legg Amodei 2018][research_ibarz_et_al_2018] extended the model to combine both preference queries and expert demonstrations, providing evidence that the combination appreciably improves sample efficiency over either supervision source alone on Atari benchmarks.
+Reward Learning from Human Preferences and Demonstrations of [Ibarz et al. 2018][research_ibarz_et_al_2018] extended the model to combine both preference queries and expert demonstrations, providing evidence that the combination appreciably improves sample efficiency over either supervision source alone on Atari benchmarks.
 
 Preference-based learning has proved particularly valuable in settings where reward specification is contested, unknown, or ethically fraught. Human values, aesthetic judgments, and social norms are examples of contested reward domains that preference-based frameworks address more naturally than explicit reward engineering.
 
@@ -211,81 +211,81 @@ whose closed-form optimal policy is $\pi^\*(y \mid x) \propto \pi_{\text{ref}}(y
 
 DPO has become widely adopted for language model post-training, providing considerable simplifications over the RLHF pipeline of Christiano et al 2017 and its Ouyang et al 2022 language-model instantiation. This account avoids the reward-model training stage, the reinforcement learning stage, and the associated hyperparameter tuning, at typically comparable performance.
 
-Rejection Sampling with Fine-Tuning (RAFT) of [Dong Xiong Goyal Jiang Pan et al 2023][research_dong_et_al_2023_raft] provided an alternative framework that samples multiple responses per input under the base policy, retains the highest-preference-scoring responses, and fine-tunes on the retained set. The mechanism achieves competitive performance with greatly simpler implementation.
+Rejection Sampling with Fine-Tuning (RAFT) of [Dong et al. 2023][research_dong_et_al_2023_raft] provided an alternative framework that samples multiple responses per input under the base policy, retains the highest-preference-scoring responses, and fine-tunes on the retained set. The mechanism achieves competitive performance with greatly simpler implementation.
 
-Iterative DPO of [Xu Sun Hong Guo Kong Xiao 2024][research_xu_et_al_2024_iterative_dpo] extended the framework with iterative preference collection and DPO training, mimicking the RLHF iteration structure but with the DPO simplifications.
+Iterative DPO of [Xu et al. 2024][research_xu_et_al_2024_iterative_dpo] extended the framework with iterative preference collection and DPO training, mimicking the RLHF iteration structure but with the DPO simplifications.
 
-Kahneman-Tversky Optimization (KTO) of [Ethayarajh Xu Muennighoff Jurafsky Kiela 2024][research_ethayarajh_et_al_2024_kto] extended the DPO framework with an asymmetric human-preference model motivated by behavioral economics,
+Kahneman-Tversky Optimization (KTO) of [Ethayarajh et al. 2024][research_ethayarajh_et_al_2024_kto] extended the DPO framework with an asymmetric human-preference model motivated by behavioral economics,
 
 $$L_{\text{KTO}}(\theta) = \mathbb{E}_{(x, y, l) \sim \mathcal{D}}\!\left[\lambda_l - v_l\!\left(\beta \log \frac{\pi_\theta(y \mid x)}{\pi_{\text{ref}}(y \mid x)}\right)\right]$$
 
 where $l \in \{+, -\}$ is the desirability label and $v_l$ is the loss-averse value function with distinct slopes for gains and losses. The account provides preference optimization from single-response ratings rather than paired comparisons.
 
-Identity Preference Optimization (IPO) of [Azar Rowland Piot Guo Calandriello Munos 2024][research_azar_et_al_2024_ipo] introduced a theoretically-motivated alternative to DPO that avoids pathologies of the DPO objective under noisy preferences,
+Identity Preference Optimization (IPO) of [Azar et al. 2024][research_azar_et_al_2024_ipo] introduced a theoretically-motivated alternative to DPO that avoids pathologies of the DPO objective under noisy preferences,
 
 $$L_{\text{IPO}}(\theta) = \mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}}\!\left[\left(\log \frac{\pi_\theta(y_w \mid x) \, \pi_{\text{ref}}(y_l \mid x)}{\pi_\theta(y_l \mid x) \, \pi_{\text{ref}}(y_w \mid x)} - \frac{1}{2\beta}\right)^2\right]$$
 
 which replaces the log-sigmoid loss with a squared-error target that provides improved robustness in the low-data regime.
 
-The language-model alignment application of preference-based learning has considerably reshaped the empirical landscape. The [Zheng Chiang Sheng Zhuang et al 2023][research_zheng_et_al_2023_llm_judge] survey of language-model-as-judge frameworks documented that automated preference judgment through strong language models produces reliable rankings that increasingly substitute for human preference queries. Rank Responses to Human Feedback (RRHF) of [Yuan Yuan Tan Wang Wang Huang 2024][research_yuan_et_al_2024_rrhf] introduced a ranking-based alignment framework that avoids the paired-preference specification of DPO through a listwise loss over ranked responses. Zephyr of [Tunstall Beeching Lambert Rajani Rasul Belkada Huang Wolf 2023][research_tunstall_et_al_2023_zephyr] documented that distilled DPO on synthetic preference data from stronger language models produces competitive small-model alignment at significantly reduced human-annotation cost, providing evidence that automated distillation increasingly substitutes for human preference collection in the language-model alignment pipeline.
+The language-model alignment application of preference-based learning has considerably reshaped the empirical landscape. The [Zheng et al. 2023][research_zheng_et_al_2023_llm_judge] survey of language-model-as-judge frameworks documented that automated preference judgment through strong language models produces reliable rankings that increasingly substitute for human preference queries. Rank Responses to Human Feedback (RRHF) of [Yuan et al. 2023][research_yuan_et_al_2024_rrhf] introduced a ranking-based alignment framework that avoids the paired-preference specification of DPO through a listwise loss over ranked responses. Zephyr of [Tunstall et al. 2023][research_tunstall_et_al_2023_zephyr] documented that distilled DPO on synthetic preference data from stronger language models produces competitive small-model alignment at significantly reduced human-annotation cost, providing evidence that automated distillation increasingly substitutes for human preference collection in the language-model alignment pipeline.
 
 ## Reward Modeling: Architecture, Uncertainty, and Overoptimization
 
 The reward model is a central component of the RLHF pipeline and supports distinctive design and training considerations that have received significant recent attention. The general reward model $\hat{R}\_\phi(x, y)$ maps input-output pairs to scalar quality estimates through neural network parameterization, typically instantiated as a value head on a pretrained language model backbone.
 
-Scaling laws for reward modeling of [Gao Schulman Hilton 2023][research_gao_schulman_hilton_2023] documented systematic empirical relationships between reward model size, preference dataset size, and downstream policy performance. The model identified reward overoptimization as a failure mode that emerges when the policy exploits reward-model imperfections rather than optimizing the underlying preference,
+Scaling laws for reward modeling of [Gao et al. 2023][research_gao_schulman_hilton_2023] documented systematic empirical relationships between reward model size, preference dataset size, and downstream policy performance. The model identified reward overoptimization as a failure mode that emerges when the policy exploits reward-model imperfections rather than optimizing the underlying preference,
 
 $$\hat{R}(y) \gg R^*(y)$$
 
 on out-of-distribution outputs where the reward model has not been trained. The gap between the learned reward and the true preference grows with the KL divergence from the reference policy, motivating KL constraints and early-stopping heuristics.
 
-Ensemble-based reward uncertainty of [Coste Bogomolov Grefenstette Hilton 2024][research_coste_et_al_2024_ensembles] and [Eisenstein Nagpal Agarwal Dvijotham Fisch et al 2023][research_eisenstein_et_al_2023] introduced reward-model ensembles whose disagreement quantifies epistemic uncertainty. The uncertainty estimate supports pessimistic reward-optimization approaches that avoid the overoptimization regime,
+Ensemble-based reward uncertainty of [Coste et al. 2024][research_coste_et_al_2024_ensembles] and [Eisenstein et al. 2023][research_eisenstein_et_al_2023] introduced reward-model ensembles whose disagreement quantifies epistemic uncertainty. The uncertainty estimate supports pessimistic reward-optimization approaches that avoid the overoptimization regime,
 
 $$\hat{R}_{\text{LCB}}(y) = \bar{R}(y) - \beta \, \hat{\sigma}(y)$$
 
 with $\bar{R}$ the ensemble mean and $\hat{\sigma}$ the ensemble standard deviation. Policies optimizing $\hat{R}\_{\text{LCB}}$ instead of $\hat{R}$ exhibit substantially reduced overoptimization at the cost of somewhat lower peak performance.
 
-Reward model calibration of [Coste Bogomolov Grefenstette Hilton 2024][research_coste_et_al_2024_ensembles] documented that reward models trained with standard Bradley-Terry likelihood often produce miscalibrated confidence estimates, and proposed temperature scaling corrections that improve downstream policy performance.
+Reward model calibration of [Coste et al. 2024][research_coste_et_al_2024_ensembles] documented that reward models trained with standard Bradley-Terry likelihood often produce miscalibrated confidence estimates, and proposed temperature scaling corrections that improve downstream policy performance.
 
-Reward model architecture choices interact markedly with performance. Value-head-on-backbone architectures of the original InstructGPT differ from parallel-output architectures used in subsequent systems, and the choice affects both training stability and downstream policy quality. The [Rame Couairon Shukor Lin Kayser Bansal et al 2024][research_rame_et_al_2024_weight_avg] weight-averaged reward models framework demonstrated that averaging weights of independently-trained reward models produces substantial gains in reward robustness at negligible inference cost.
+Reward model architecture choices interact markedly with performance. Value-head-on-backbone architectures of the original InstructGPT differ from parallel-output architectures used in subsequent systems, and the choice affects both training stability and downstream policy quality. The [Ramé et al. 2024][research_rame_et_al_2024_weight_avg] weight-averaged reward models framework demonstrated that averaging weights of independently-trained reward models produces substantial gains in reward robustness at negligible inference cost.
 
-Length bias is a pathology documented across reward models. Reward models systematically prefer longer outputs even when quality is controlled, and RLHF-optimized policies exhibit corresponding length inflation. The [Singhal Goyal Xu Durrett 2024][research_singhal_et_al_2024_length_bias] treatment of length bias in RLHF documented the phenomenon and proposed length-normalization corrections that mitigate the pathology.
+Length bias is a pathology documented across reward models. Reward models systematically prefer longer outputs even when quality is controlled, and RLHF-optimized policies exhibit corresponding length inflation. The [Singhal et al. 2023][research_singhal_et_al_2024_length_bias] treatment of length bias in RLHF documented the phenomenon and proposed length-normalization corrections that mitigate the pathology.
 
-Reward Bench of [Lambert Pyatkin Cui Morrison Ivison et al 2024][research_lambert_et_al_2024_reward_bench] introduced the first systematic benchmark for reward-model evaluation, providing standardized categories of preference judgments across chat quality, safety, reasoning, and truthfulness. The benchmark supports systematic comparison of reward-model design choices and has enabled the rapid iteration of reward-model architecture research.
+Reward Bench of [Lambert et al. 2024][research_lambert_et_al_2024_reward_bench] introduced the first systematic benchmark for reward-model evaluation, providing standardized categories of preference judgments across chat quality, safety, reasoning, and truthfulness. The benchmark supports systematic comparison of reward-model design choices and has enabled the rapid iteration of reward-model architecture research.
 
 ## Reward Hacking, Specification Gaming, and Alignment Failures
 
 Reward hacking is the general pathology in which a learner exploits imperfections in the reward specification to achieve high measured reward without producing the intended behavior. This formulation connects reinforcement learning to the AI safety literature and to the broader engineering problem of proxy metric design.
 
-The [Amodei Olah Steinhardt Christiano Schulman Mané 2016][research_amodei_et_al_2016_safety] Concrete Problems in AI Safety framework consolidated the safety concerns arising from learning-from-demonstration and learning-from-preference settings, identifying reward hacking, distributional shift, and negative side effects as the technical challenges.
+The [Amodei et al. 2016][research_amodei_et_al_2016_safety] Concrete Problems in AI Safety framework consolidated the safety concerns arising from learning-from-demonstration and learning-from-preference settings, identifying reward hacking, distributional shift, and negative side effects as the technical challenges.
 
-Specification gaming is a related pathology in which the learner satisfies the letter of the reward specification while violating its spirit. The [Krakovna et al 2020][research_krakovna_et_al_2020_specification_gaming] specification gaming compilation documented dozens of empirical examples of specification gaming across simulated and real-world reinforcement learning deployments, providing evidence for the general prevalence of the phenomenon.
+Specification gaming is a related pathology in which the learner satisfies the letter of the reward specification while violating its spirit. The [Krakovna 2020][research_krakovna_et_al_2020_specification_gaming] specification gaming compilation documented dozens of empirical examples of specification gaming across simulated and real-world reinforcement learning deployments, providing evidence for the general prevalence of the phenomenon.
 
-Formal treatments of reward hacking include the [Skalse Howe Krasheninnikov Krueger 2022][research_skalse_et_al_2022_hacking] framework that formally distinguishes reward hacking from acceptable reward-specification errors, providing testable criteria for when a policy has hacked its reward function.
+Formal treatments of reward hacking include the [Skalse et al. 2022][research_skalse_et_al_2022_hacking] framework that formally distinguishes reward hacking from acceptable reward-specification errors, providing testable criteria for when a policy has hacked its reward function.
 
-Goal misgeneralization of [Langosco Koch Sharkey Pfau Krueger 2022][research_langosco_et_al_2022_goal_misgen] documented a distinct failure mode in which the learner acquires a competent policy for the wrong objective, producing coherent goal-directed behavior that pursues an unintended objective at deployment. The treatment connects to the broader distributional shift concerns of the imitation-learning literature.
+Goal misgeneralization of [Di Langosco et al. 2022][research_langosco_et_al_2022_goal_misgen] documented a distinct failure mode in which the learner acquires a competent policy for the wrong objective, producing coherent goal-directed behavior that pursues an unintended objective at deployment. The treatment connects to the broader distributional shift concerns of the imitation-learning literature.
 
-Deceptive alignment of [Hubinger van Merwijk Mikulik Skalse Garrabrant 2019][research_hubinger_et_al_2019_deceptive] introduced the concern that a learner might behave aligned during training while pursuing a misaligned objective at deployment, providing a theoretical framework for the failure mode that alignment-relevant training must address.
+Deceptive alignment of [Hubinger et al. 2019][research_hubinger_et_al_2019_deceptive] introduced the concern that a learner might behave aligned during training while pursuing a misaligned objective at deployment, providing a theoretical framework for the failure mode that alignment-relevant training must address.
 
-Mitigation strategies for reward hacking include KL constraints against reference policies, ensemble-based uncertainty penalties, adversarial training with red-team-generated inputs, and post-hoc filtering through safety classifiers. The [Bai et al 2022][research_bai_et_al_2022_constitutional] Constitutional AI framework introduced a approach in which the AI system critiques and revises its own outputs according to a specified constitution, providing a scalable alternative to human preference collection for safety training.
+Mitigation strategies for reward hacking include KL constraints against reference policies, ensemble-based uncertainty penalties, adversarial training with red-team-generated inputs, and post-hoc filtering through safety classifiers. The [Bai et al. 2022][research_bai_et_al_2022_constitutional] Constitutional AI framework introduced a approach in which the AI system critiques and revises its own outputs according to a specified constitution, providing a scalable alternative to human preference collection for safety training.
 
-The [Casper et al 2023][research_casper_et_al_2023_rlhf_survey] survey of open problems in RLHF consolidated the alignment concerns arising from preference-based learning and identified the marked open research questions in reward modeling, preference elicitation, and specification gaming that continue to organize the field.
+The [Casper et al. 2023][research_casper_et_al_2023_rlhf_survey] survey of open problems in RLHF consolidated the alignment concerns arising from preference-based learning and identified the marked open research questions in reward modeling, preference elicitation, and specification gaming that continue to organize the field.
 
-Debate of [Irving Christiano Amodei 2018][research_irving_christiano_amodei_2018_debate] and Iterated Amplification of [Christiano Shlegeris Amodei 2018][research_christiano_shlegeris_amodei_2018_amplification] introduced scalable oversight approaches in which AI systems debate or amplify weaker overseers, providing a framework for supervising systems whose outputs exceed direct human evaluation capacity.
+Debate of [Irving et al. 2018][research_irving_christiano_amodei_2018_debate] and Iterated Amplification of [Christiano et al. 2018][research_christiano_shlegeris_amodei_2018_amplification] introduced scalable oversight approaches in which AI systems debate or amplify weaker overseers, providing a framework for supervising systems whose outputs exceed direct human evaluation capacity.
 
 ## Democratic and Pluralistic Preference Aggregation
 
 Preference-based learning at deployment scale involves aggregation of preferences across many judges whose views may differ appreciably. The naive aggregation through majority vote or averaged reward-model output can produce policies that fail to represent minority preferences and that homogenize toward a majority consensus. This account connects preference-based learning to social choice theory and to the broader problem of democratic aggregation.
 
-Social Choice for AI Alignment of [Conitzer Freedman Heitzig Holliday Jacobs Lambert Mossé et al 2024][research_conitzer_et_al_2024_social_choice] provided the systematic treatment of the preference aggregation problem in AI alignment, drawing on the classical Arrow impossibility theorem and its refinements to characterize the trade-offs among aggregation methods.
+Social Choice for AI Alignment of [Conitzer et al. 2024][research_conitzer_et_al_2024_social_choice] provided the systematic treatment of the preference aggregation problem in AI alignment, drawing on the classical Arrow impossibility theorem and its refinements to characterize the trade-offs among aggregation methods.
 
-Personalized RLHF of [Poddar Wan Ivison Mitchell Farhadi Hajishirzi Hovy 2024][research_poddar_et_al_2024_personalized] introduced per-user reward modeling that produces policies adapted to individual judges rather than aggregated across the population. The framework provides a technical alternative to consensus-based alignment for settings where individual preferences vary greatly.
+Personalized RLHF of [Poddar et al. 2024][research_poddar_et_al_2024_personalized] introduced per-user reward modeling that produces policies adapted to individual judges rather than aggregated across the population. The framework provides a technical alternative to consensus-based alignment for settings where individual preferences vary greatly.
 
-Distributional Preference Learning of [Chakraborty Ghosal Ramesh Roy Ramesh Jain Panaganti Bedi Wang 2024][research_chakraborty_et_al_2024_distributional] introduced a framework that maintains a distribution over reward functions consistent with observed preferences, providing a principled account of preference diversity that supports both consensus-based and pluralistic downstream applications.
+Distributional Preference Learning of [Chakraborty et al. 2024][research_chakraborty_et_al_2024_distributional] introduced a framework that maintains a distribution over reward functions consistent with observed preferences, providing a principled account of preference diversity that supports both consensus-based and pluralistic downstream applications.
 
-Pluralistic alignment of [Sorensen Jiang Ji Aroyo Kuznetsova Choi 2024][research_sorensen_et_al_2024_pluralistic] identified three senses in which alignment can be pluralistic including Overton pluralism, steerable pluralism, and distributional pluralism, providing a taxonomy that clarifies the distinct design goals for pluralistic AI systems.
+Pluralistic alignment of [Sorensen et al. 2024][research_sorensen_et_al_2024_pluralistic] identified three senses in which alignment can be pluralistic including Overton pluralism, steerable pluralism, and distributional pluralism, providing a taxonomy that clarifies the distinct design goals for pluralistic AI systems.
 
-The aggregation of expert versus non-expert preferences has received extensive recent attention. Expert-adjusted reward modeling of [Wu Rijhwani Wei Bragg Amos 2023][research_wu_et_al_2023_expert] introduced weighting schemes that give greater influence to expert judges in domains, providing a middle ground between egalitarian democratic aggregation and centralized expert control.
+The aggregation of expert versus non-expert preferences has received extensive recent attention. Expert-adjusted reward modeling of [Wu et al. 2023][research_wu_et_al_2023_expert] introduced weighting schemes that give greater influence to expert judges in domains, providing a middle ground between egalitarian democratic aggregation and centralized expert control.
 
 Democratic preference aggregation connects preference-based learning to the broader machine learning fairness literature. The technical instantiations connect to the group-fairness treatments of demographic parity, equalized odds, and calibration across sub-groups, providing shared machinery across the AI ethics and AI alignment communities.
 
@@ -293,7 +293,7 @@ Democratic preference aggregation connects preference-based learning to the broa
 
 Interactive learning extends this formulation to settings in which the learner queries a human teacher during training, receiving demonstrations, corrections, or preferences on demand. The account connects imitation learning to active learning and to the broader human-computer interaction literature.
 
-The COACH framework of [MacGlashan Ho Loftin Peng Wang Roberts Taylor Littman 2017][research_macglashan_et_al_2017_coach] introduced convergent actor-critic by humans, providing an algorithm that learns from real-time human evaluative feedback. The mechanism treats human feedback as a policy-improvement signal rather than as a reward specification.
+The COACH framework of [MacGlashan et al. 2017][research_macglashan_et_al_2017_coach] introduced convergent actor-critic by humans, providing an algorithm that learns from real-time human evaluative feedback. The mechanism treats human feedback as a policy-improvement signal rather than as a reward specification.
 
 TAMER of [Knox and Stone 2009][research_knox_stone_2009_tamer] introduced training an agent manually via evaluative reinforcement, providing the earlier framework in which human evaluative signals shape the agent's policy without appearing in the reward function directly. The TAMER framework trains a human-reward model $\hat{H}\_\phi(s, a)$ to predict future human evaluations and derives the policy through
 
@@ -301,13 +301,13 @@ $$\pi_{\text{TAMER}}(s) = \arg\max_a \, \hat{H}_\phi(s, a)$$
 
 with the human-reward model updated online through supervised regression on observed evaluative signals.
 
-Deep TAMER of [Warnell Waytowich Lawhern Stone 2018][research_warnell_et_al_2018_deep_tamer] scaled the treatment to deep neural network policies, enabling human-in-the-loop training on high-dimensional observation spaces.
+Deep TAMER of [Warnell et al. 2018][research_warnell_et_al_2018_deep_tamer] scaled the treatment to deep neural network policies, enabling human-in-the-loop training on high-dimensional observation spaces.
 
 Human-Gated DAgger of Kelly et al 2019 introduced human-triggered expert intervention that provides supervision only at moments the human deems appropriate. The mechanism reduces the human's cognitive load while retaining the covariate-shift benefits of DAgger.
 
-Interactive imitation learning of [Ross et al 2013][research_ross_et_al_2013_interactive] provided theoretical guarantees for interactive protocols in which the learner's queries adapt to the current policy's confusion patterns.
+Interactive imitation learning of [Ross 2013][research_ross_et_al_2013_interactive] provided theoretical guarantees for interactive protocols in which the learner's queries adapt to the current policy's confusion patterns.
 
-The IntentionNet framework of [Fisac et al 2020][research_fisac_et_al_2020] combined interactive queries with formal safety constraints, providing an approach that supports both learning and formal verification during training.
+The IntentionNet framework of [Fisac 2020][research_fisac_et_al_2020] combined interactive queries with formal safety constraints, providing an approach that supports both learning and formal verification during training.
 
 Interactive learning admits distinctive evaluation protocols that differ from offline imitation learning. The relevant metrics include not only final policy performance but also the number of human queries, the annotation time per query, and the human cognitive load. Efficient interactive learning frameworks minimize these costs while achieving high final performance.
 
@@ -317,23 +317,23 @@ Learning by observation treats the setting in which the learner observes an expe
 
 Behavioral Cloning from Observation of Torabi Warnell Stone 2018 provides the foundational modern method. The treatment first learns an inverse dynamics model $I_\phi(s_t, s_{t+1}) = a_t$ from arbitrary agent-environment interaction data, then applies the inverse model to observed expert state transitions to infer the actions that would have produced them, converting observation-only demonstrations into standard state-action demonstrations amenable to behavior cloning.
 
-Time-Contrastive Networks of [Sermanet Lynch Chebotar Hsu Jang Schaal Levine 2018][research_sermanet_et_al_2018_tcn] introduced self-supervised representation learning from multi-view video that provides embeddings invariant to viewpoint and appearance. This account trains through a triplet loss that draws temporally-aligned frames from distinct views close in embedding space while pushing temporally-distant frames apart,
+Time-Contrastive Networks of [Sermanet et al. 2017][research_sermanet_et_al_2018_tcn] introduced self-supervised representation learning from multi-view video that provides embeddings invariant to viewpoint and appearance. This account trains through a triplet loss that draws temporally-aligned frames from distinct views close in embedding space while pushing temporally-distant frames apart,
 
 $$L_{\text{TCN}}(\phi) = \sum_{(a, p, n) \in \mathcal{T}}\!\max\!\left(0, \|\varphi_\phi(a) - \varphi_\phi(p)\|^2 - \|\varphi_\phi(a) - \varphi_\phi(n)\|^2 + m\right)$$
 
 where anchor-positive pair $(a, p)$ is drawn from the same time step across views, negative $n$ is drawn from a different time step, and $m$ is a margin. The framework enables imitation across viewpoint and embodiment shifts by aligning learner and demonstrator representations in the learned embedding space.
 
-Third-person imitation learning of [Stadie Abbeel Sutskever 2017][research_stadie_abbeel_sutskever_2017] introduced adversarial training that produces imitation policies invariant to viewpoint. The mechanism uses a viewpoint-classifier discriminator whose gradient reversal ensures the policy uses viewpoint-invariant features.
+Third-person imitation learning of [Stadie et al. 2017][research_stadie_abbeel_sutskever_2017] introduced adversarial training that produces imitation policies invariant to viewpoint. The mechanism uses a viewpoint-classifier discriminator whose gradient reversal ensures the policy uses viewpoint-invariant features.
 
 Video Pretraining (VPT) of Baker et al 2022 scaled observation-only imitation to a foundation-model setting by training an inverse dynamics model on a large collection of expert Minecraft gameplay videos and then applying the model to a considerably larger collection of unlabeled Minecraft gameplay videos, producing behavior-cloning training data at a scale previously infeasible. The resulting policy demonstrated sizable competence on Minecraft tasks including diamond-tool acquisition.
 
-Latent Skill Discovery from Observation of [Rakelly Petrenko Vainstein Fried Levine 2021][research_rakelly_et_al_2021_lsd] combined observation-only imitation with latent-skill discovery, producing a hierarchical policy in which observed expert behavior seeds skill primitives that the learner subsequently composes.
+Latent Skill Discovery from Observation of [Rakelly et al. 2021][research_rakelly_et_al_2021_lsd] combined observation-only imitation with latent-skill discovery, producing a hierarchical policy in which observed expert behavior seeds skill primitives that the learner subsequently composes.
 
-Recent work on learning from video demonstrations includes R3M of [Nair Rajeswaran Kumar Finn Gupta 2022][research_nair_et_al_2022_r3m] which provides pretrained visual representations from human video, and VIP of [Ma Sivakumar Yan Zhang Kolter 2023][research_ma_et_al_2023_vip] which learns value-implicit reward functions from human video for downstream reinforcement learning.
+Recent work on learning from video demonstrations includes R3M of [Nair et al. 2023][research_nair_et_al_2022_r3m] which provides pretrained visual representations from human video, and VIP of [Ma et al. 2023][research_ma_et_al_2023_vip] which learns value-implicit reward functions from human video for downstream reinforcement learning.
 
-Playing Hard Exploration Games by Watching YouTube of [Aytar Pfaff Budden Paine Wang de Freitas 2018][research_aytar_et_al_2018] provided an early foundation-model-precursor demonstration that self-supervised representation learning from unlabeled YouTube gameplay videos supports the transfer of expert skills to reinforcement learning agents solving Montezuma's Revenge and related hard-exploration Atari games.
+Playing Hard Exploration Games by Watching YouTube of [Aytar et al. 2018][research_aytar_et_al_2018] provided an early foundation-model-precursor demonstration that self-supervised representation learning from unlabeled YouTube gameplay videos supports the transfer of expert skills to reinforcement learning agents solving Montezuma's Revenge and related hard-exploration Atari games.
 
-Unsupervised Perceptual Rewards of [Sermanet Xu Levine 2016][research_sermanet_xu_levine_2016] provided the earlier framework in which human video demonstrations produce reward signals for reinforcement learning through self-supervised feature learning. Human-to-Robot Imitation of [Bahl Gupta Kumar 2022][research_bahl_gupta_kumar_2022] extended the observation-only imitation framework to cross-embodiment learning from human video demonstrations to robotic manipulation.
+Unsupervised Perceptual Rewards of [Sermanet et al. 2016][research_sermanet_xu_levine_2016] provided the earlier framework in which human video demonstrations produce reward signals for reinforcement learning through self-supervised feature learning. Human-to-Robot Imitation of [Bahl et al. 2022][research_bahl_gupta_kumar_2022] extended the observation-only imitation framework to cross-embodiment learning from human video demonstrations to robotic manipulation.
 
 Observation-only imitation is particularly valuable in robotics, where action data collection requires physical setup while video data is abundant. The account connects imitation learning to the pretraining paradigm of modern computer vision.
 
@@ -341,17 +341,17 @@ Observation-only imitation is particularly valuable in robotics, where action da
 
 Sim-to-real transfer is a central concern for practical deployment of imitation learning in robotics. Policies trained in simulation from simulated demonstrations must transfer to physical hardware whose dynamics differ from the simulated approximation. The problem intersects with the sim-to-real treatments of article nine and permits distinctive algorithmic approaches to the imitation-learning setting.
 
-Domain-randomized imitation learning of [Bousmalis Irpan Wohlhart Bai Kelcey Kalakrishnan Downs Ibarz Ibarz Levine Vanhoucke Konolige Kalakrishnan 2018][research_bousmalis_et_al_2018] extended the domain randomization framework to imitation learning through simulated demonstrations across randomized visual conditions, providing policies that transfer to real robotic grasping despite the appreciable sim-to-real gap in the visual channel.
+Domain-randomized imitation learning of [Bousmalis et al. 2018][research_bousmalis_et_al_2018] extended the domain randomization framework to imitation learning through simulated demonstrations across randomized visual conditions, providing policies that transfer to real robotic grasping despite the appreciable sim-to-real gap in the visual channel.
 
-Transporter Networks of [Zeng Florence Tompson Welker Chien Attarian Armstrong Krasin Duong Sindhwani Lee 2020][research_zeng_et_al_2020_transporter] introduced a spatial-attention-based architecture that supports one-shot imitation of tabletop manipulation from a single expert demonstration, providing an approach that generalizes across object arrangements and appearances through the learned spatial attention.
+Transporter Networks of [Zeng et al. 2021][research_zeng_et_al_2020_transporter] introduced a spatial-attention-based architecture that supports one-shot imitation of tabletop manipulation from a single expert demonstration, providing an approach that generalizes across object arrangements and appearances through the learned spatial attention.
 
-Cross-embodiment imitation of [Zakka Nair Miki Levine 2022][research_zakka_et_al_2022_cross_embodiment] introduced the framework in which the demonstrator's embodiment differs from the learner's embodiment. The model addresses the correspondence problem through explicit cross-embodiment representation learning that aligns the demonstrator's and learner's action spaces in a shared latent space.
+Cross-embodiment imitation of [Zakka et al. 2022][research_zakka_et_al_2022_cross_embodiment] introduced the framework in which the demonstrator's embodiment differs from the learner's embodiment. The model addresses the correspondence problem through explicit cross-embodiment representation learning that aligns the demonstrator's and learner's action spaces in a shared latent space.
 
-The Open X-Embodiment Collaboration of [Padalkar et al 2024][research_padalkar_et_al_2024_a260] extended the account to a large-scale multi-institution imitation dataset spanning 22 different robotic embodiments, providing evidence that cross-embodiment training significantly improves policy transfer to held-out embodiments through the shared representational structure.
+The Open X-Embodiment Collaboration of [Embodiment Collaboration et al. 2023][research_padalkar_et_al_2024_a260] extended the account to a large-scale multi-institution imitation dataset spanning 22 different robotic embodiments, providing evidence that cross-embodiment training significantly improves policy transfer to held-out embodiments through the shared representational structure.
 
-RT-1 of [Brohan Brown Carbajal Chebotar Dabis et al 2022][research_brohan_et_al_2022_rt1_a260] and RT-2 of [Brohan Brown Carbajal Chebotar Chen et al 2023][research_brohan_et_al_2023_rt2_a260] combined foundation-scale imitation learning with vision-language pretraining, providing real-robot manipulation policies that generalize to novel objects and instructions through the shared representational structure of the underlying foundation model.
+RT-1 of [Brohan et al. 2022][research_brohan_et_al_2022_rt1_a260] and RT-2 of [Brohan et al. 2023][research_brohan_et_al_2023_rt2_a260] combined foundation-scale imitation learning with vision-language pretraining, providing real-robot manipulation policies that generalize to novel objects and instructions through the shared representational structure of the underlying foundation model.
 
-Learning Reward Functions from Human Videos of [Chen Nair Agrawal 2021][research_chen_nair_agrawal_2021] introduced a framework for extracting reward signals from human video demonstrations that support downstream reinforcement learning on physical robots, bypassing the direct policy-imitation approach in favor of reward-based transfer.
+Learning Reward Functions from Human Videos of [Chen et al. 2021][research_chen_nair_agrawal_2021] introduced a framework for extracting reward signals from human video demonstrations that support downstream reinforcement learning on physical robots, bypassing the direct policy-imitation approach in favor of reward-based transfer.
 
 Modern practice combines multiple sim-to-real strategies including domain randomization for visual robustness, dynamics randomization for physical robustness, and adaptive online fine-tuning for residual sim-to-real gaps. This account connects imitation learning to the meta-learning treatments of article nine through the shared reliance on rapid adaptation from limited on-hardware data.
 
@@ -379,17 +379,17 @@ $$Q_{\text{tot}}(s, a) = f_{\text{mix}}(Q^1(o^1, a^1), \ldots, Q^n(o^n, a^n) \, 
 
 where $f_{\text{mix}}$ is constrained to be monotonic in each per-agent value, allows decentralized action selection through per-agent argmax while preserving centralized training. This formulation has become the standard baseline for cooperative MARL.
 
-Value-Decomposition Networks (VDN) of [Sunehag Lever Gruslys Czarnecki Zambaldi Jaderberg et al 2018][research_sunehag_et_al_2018_vdn] provided the simpler predecessor to QMIX through additive rather than monotonic value decomposition,
+Value-Decomposition Networks (VDN) of [Sunehag 2018][research_sunehag_et_al_2018_vdn] provided the simpler predecessor to QMIX through additive rather than monotonic value decomposition,
 
 $$Q_{\text{tot}}(s, a) = \sum_{i=1}^{n} Q^i(o^i, a^i)$$
 
-QTRAN of [Son Kim Kang Hostallero Yi 2019][research_son_et_al_2019_qtran] relaxed the QMIX monotonicity constraints while retaining the individual-global-max condition
+QTRAN of [Son et al. 2019][research_son_et_al_2019_qtran] relaxed the QMIX monotonicity constraints while retaining the individual-global-max condition
 
 $$\arg\max_{a} Q_{\text{tot}}(s, a) = (\arg\max_{a^1} Q^1(o^1, a^1), \ldots, \arg\max_{a^n} Q^n(o^n, a^n))$$
 
 which is the fundamental requirement for decentralized action selection to yield centralized-optimal joint action.
 
-Counterfactual Multi-Agent Policy Gradients (COMA) of [Foerster Farquhar Afouras Nardelli Whiteson 2018][research_foerster_et_al_2018_coma] introduced counterfactual credit assignment through a per-agent advantage that marginalizes over the acting agent's actions,
+Counterfactual Multi-Agent Policy Gradients (COMA) of [Foerster et al. 2018][research_foerster_et_al_2018_coma] introduced counterfactual credit assignment through a per-agent advantage that marginalizes over the acting agent's actions,
 
 $$A^i(s, a) = Q(s, a) - \sum_{a'^i} \pi^i(a'^i \mid o^i) \, Q(s, (a^{-i}, a'^i))$$
 
@@ -397,35 +397,35 @@ isolating agent $i$'s contribution to the joint action value by counterfactually
 
 MAPPO of Yu et al 2022 and IPPO of de Witt et al 2020 documented that independent proximal policy optimization achieves surprisingly strong performance on cooperative benchmarks, often exceeding the specialized MARL methods. The observation motivated re-examination of the necessity of specialized centralized-training machinery.
 
-Communication-based MARL frameworks including CommNet of [Sukhbaatar Szlam Fergus 2016][research_sukhbaatar_szlam_fergus_2016_commnet] and TarMAC of [Das Gervet Romoff Batra Parikh Rabbat Pineau 2019][research_das_et_al_2019_tarmac] introduced learned inter-agent communication protocols that support explicit information sharing during execution.
+Communication-based MARL frameworks including CommNet of [Sukhbaatar Szlam Fergus 2016][research_sukhbaatar_szlam_fergus_2016_commnet] and TarMAC of [Das et al. 2019][research_das_et_al_2019_tarmac] introduced learned inter-agent communication protocols that support explicit information sharing during execution.
 
-Mean-field MARL of [Yang Luo Li Zhou Zhang Wang 2018][research_yang_et_al_2018_mean_field] extended the model to large agent populations through a mean-field approximation of interactions, providing tractable learning at scales that traditional joint-value methods do not support. Independent Deep Q-Learning of [Tampuu Matiisen Kodelja Kuzovkin Korjus Aru Aru Vicente 2017][research_tampuu_et_al_2017] provided the earliest deep-learning-based MARL treatment through independent Q-learners, and identified the cooperation-versus-competition regimes that produce distinct emergent behaviors.
+Mean-field MARL of [Yang et al. 2018][research_yang_et_al_2018_mean_field] extended the model to large agent populations through a mean-field approximation of interactions, providing tractable learning at scales that traditional joint-value methods do not support. Independent Deep Q-Learning of [Tampuu et al. 2017][research_tampuu_et_al_2017] provided the earliest deep-learning-based MARL treatment through independent Q-learners, and identified the cooperation-versus-competition regimes that produce distinct emergent behaviors.
 
-The [Papoudakis Christianos Schäfer Albrecht 2021][research_papoudakis_et_al_2021_benchmarking] systematic benchmarking of cooperative multi-agent reinforcement learning documented the empirical rankings of the major methods across a broad benchmark suite, motivating the re-examination of independent-learner baselines that led to the MAPPO and IPPO results.
+The [Papoudakis et al. 2021][research_papoudakis_et_al_2021_benchmarking] systematic benchmarking of cooperative multi-agent reinforcement learning documented the empirical rankings of the major methods across a broad benchmark suite, motivating the re-examination of independent-learner baselines that led to the MAPPO and IPPO results.
 
 ## Opponent Modeling and Emergent Communication
 
 Opponent modeling and emergent communication are two distinct sub-topics within multi-agent reinforcement learning that address the challenges of learning across agents whose policies and communication protocols are not fixed in advance.
 
-Opponent modeling frameworks maintain explicit representations of other agents' policies or intentions, using the resulting predictions to inform decision-making. The [He Boyd-Graber Kwok Daumé 2016][research_he_et_al_2016_opponent] Deep Reinforcement Learning with a Natural Language Action Space introduced learned opponent representations for two-player dialog games, providing an early demonstration that explicit opponent modeling improves performance over independent Q-learning baselines.
+Opponent modeling frameworks maintain explicit representations of other agents' policies or intentions, using the resulting predictions to inform decision-making. The [He et al. 2016][research_he_et_al_2016_opponent] Deep Reinforcement Learning with a Natural Language Action Space introduced learned opponent representations for two-player dialog games, providing an early demonstration that explicit opponent modeling improves performance over independent Q-learning baselines.
 
-Self Other-Modeling (SOM) of [Raileanu Denton Szlam Fergus 2018][research_raileanu_et_al_2018_som] extended the treatment by using the agent's own policy network to model other agents' behavior, exploiting the self-similarity assumption for computational efficiency. This account achieves competitive performance without maintaining separate models per opponent.
+Self Other-Modeling (SOM) of [Raileanu et al. 2018][research_raileanu_et_al_2018_som] extended the treatment by using the agent's own policy network to model other agents' behavior, exploiting the self-similarity assumption for computational efficiency. This account achieves competitive performance without maintaining separate models per opponent.
 
-Learning with Opponent-Learning Awareness (LOLA) of [Foerster Chen Al-Shedivat Whiteson Abbeel Mordatch 2018][research_foerster_et_al_2018_lola] introduced a distinctive framework in which each agent's update accounts for the anticipated learning updates of other agents. The mechanism produces qualitatively different equilibrium selection in general-sum games, in some cases converging to cooperative outcomes that pure independent learners would not reach. The LOLA update is
+Learning with Opponent-Learning Awareness (LOLA) of [Foerster et al. 2017][research_foerster_et_al_2018_lola] introduced a distinctive framework in which each agent's update accounts for the anticipated learning updates of other agents. The mechanism produces qualitatively different equilibrium selection in general-sum games, in some cases converging to cooperative outcomes that pure independent learners would not reach. The LOLA update is
 
 $$\theta^i \leftarrow \theta^i + \eta \, \nabla_{\theta^i} \mathbb{E}\!\left[R^i(\theta^1 + \delta \theta^1, \ldots, \theta^n + \delta \theta^n)\right]$$
 
 where $\delta \theta^j$ is the anticipated learning update of agent $j$ under its own policy-gradient update. The account provides the multi-agent analogue of hyperbolic discounting and connects to the Stackelberg-game-theoretic treatments of learning in games.
 
-Meta-MAPG of [Al-Shedivat Bansal Burda Sutskever Mordatch Abbeel 2018][research_al_shedivat_et_al_2018_meta_mapg] extended LOLA-style meta-gradients to broader multi-agent policy-gradient frameworks, providing improved theoretical grounding and empirical performance.
+Meta-MAPG of [Al-Shedivat et al. 2018][research_al_shedivat_et_al_2018_meta_mapg] extended LOLA-style meta-gradients to broader multi-agent policy-gradient frameworks, providing improved theoretical grounding and empirical performance.
 
-Emergent communication frameworks study the conditions under which learning agents develop communication protocols through joint training. Reinforced Inter-Agent Learning (RIAL) of [Foerster Assael de Freitas Whiteson 2016][research_foerster_et_al_2016_rial] introduced the account alongside DIAL, providing an approach in which discrete communication actions are learned through standard reinforcement learning objectives.
+Emergent communication frameworks study the conditions under which learning agents develop communication protocols through joint training. Reinforced Inter-Agent Learning (RIAL) of [Foerster 2016][research_foerster_et_al_2016_rial] introduced the account alongside DIAL, providing an approach in which discrete communication actions are learned through standard reinforcement learning objectives.
 
-Emergent Communication in a Multi-Modal, Multi-Step Referential Game of [Lazaridou Peysakhovich Baroni 2017][research_lazaridou_et_al_2017] extended the model to compositional multi-modal communication, providing evidence that training objectives produce more human-language-like communication protocols than baseline objectives.
+Emergent Communication in a Multi-Modal, Multi-Step Referential Game of [Lazaridou et al. 2017][research_lazaridou_et_al_2017] extended the model to compositional multi-modal communication, providing evidence that training objectives produce more human-language-like communication protocols than baseline objectives.
 
 Emergent Translation in Multi-Agent Communication of [Havrylov and Titov 2017][research_havrylov_titov_2017] introduced this formulation in which multiple agent pairs develop distinct communication protocols that must subsequently be translated for cross-pair coordination, providing an approach that connects emergent communication to natural language emergence.
 
-The [Kirby Cornish Smith 2015][research_kirby_cornish_smith_2015] cognitive science account of iterated learning provided empirical grounding through experiments with human participants that document the patterns of communication protocol convergence under iterated transmission.
+The [Kirby et al. 2015][research_kirby_cornish_smith_2015] cognitive science account of iterated learning provided empirical grounding through experiments with human participants that document the patterns of communication protocol convergence under iterated transmission.
 
 Multi-agent communication has emerged as a critical framework for scaling reinforcement learning to complex cooperative tasks. The communication topology, whether learned or fixed, substantially affects the resulting policy performance and provides a distinctive design axis for cooperative multi-agent systems.
 
@@ -441,17 +441,17 @@ where $z$ is the game outcome, $v_\theta$ is the value network, $\pi$ is the MCT
 
 AlphaZero of Silver et al 2018 generalized the account to chess and shogi with the same algorithm and only game-rules changed. The framework demonstrated that domain-independent self-play produces superhuman play across a broad class of perfect-information games.
 
-MuZero of [Schrittwieser Antonoglou Hubert Simonyan Sifre Schmitt Guez Lockhart et al 2020][research_schrittwieser_et_al_2020_muzero] extended this formulation to model-based planning without explicit game rules, learning both the model and the value from experience. The model treated in article seven achieved superhuman performance in Atari alongside the board-game settings.
+MuZero of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020_muzero] extended this formulation to model-based planning without explicit game rules, learning both the model and the value from experience. The model treated in article seven achieved superhuman performance in Atari alongside the board-game settings.
 
 Population-based training extends self-play to a population of diverse agents. AlphaStar of Vinyals et al 2019 introduced league-based training in which distinct agent types (main agents, main exploiters, league exploiters) coevolve through targeted matchups. The treatment produces training curricula automatically as different agent types provide challenges for each other.
 
-Emergent Tool Use of [Baker Kanitscheider Markov Wu Powell McGrew Mordatch 2020][research_baker_et_al_2020_tool_use] documented that self-play in a physical hide-and-seek environment produces a curriculum of emergent behaviors including ramp use, box locking, and surfing that were not directly incentivized by the reward function. Emergent Complexity via Multi-Agent Competition of [Bansal Pachocki Sidor Sutskever Mordatch 2018][research_bansal_et_al_2018] provided the earlier framework demonstrating that continuous-control multi-agent competitive self-play produces increasingly sophisticated strategies without curriculum specification.
+Emergent Tool Use of [Baker et al. 2020][research_baker_et_al_2020_tool_use] documented that self-play in a physical hide-and-seek environment produces a curriculum of emergent behaviors including ramp use, box locking, and surfing that were not directly incentivized by the reward function. Emergent Complexity via Multi-Agent Competition of [Bansal et al. 2018][research_bansal_et_al_2018] provided the earlier framework demonstrating that continuous-control multi-agent competitive self-play produces increasingly sophisticated strategies without curriculum specification.
 
 Neural Fictitious Self-Play (NFSP) of [Heinrich and Silver 2016][research_heinrich_silver_2016_nfsp] introduced approximate Nash equilibrium learning through neural networks, extending the classical fictitious play framework to deep function approximation.
 
-Policy-Space Response Oracles (PSRO) of [Lanctot Zambaldi Gruslys Lazaridou Tuyls Perolat Silver Graepel 2017][research_lanctot_et_al_2017_psro] provided a unified framework for population-based training that generalizes fictitious play, double oracle, and other classical game-theoretic algorithms.
+Policy-Space Response Oracles (PSRO) of [Lanctot et al. 2017][research_lanctot_et_al_2017_psro] provided a unified framework for population-based training that generalizes fictitious play, double oracle, and other classical game-theoretic algorithms.
 
-Population-Based Training of [Jaderberg Dalibard Osindero Czarnecki Donahue Razavi Vinyals Green Dunning et al 2017][research_jaderberg_et_al_2017_pbt] introduced adaptive hyperparameter tuning through populations of models that exchange hyperparameters based on fitness, providing an approach to automated hyperparameter optimization that complements the self-play data-generation framework.
+Population-Based Training of [Jaderberg et al. 2017][research_jaderberg_et_al_2017_pbt] introduced adaptive hyperparameter tuning through populations of models that exchange hyperparameters based on fitness, providing an approach to automated hyperparameter optimization that complements the self-play data-generation framework.
 
 Self-play produces distinctive training dynamics that admit both extraordinary success and characteristic pathologies. Cycling among strategies, exploitability by held-out opponents, and mode collapse to narrow strategy distributions are all documented failure modes that specialized population-based frameworks address through curriculum construction and diversity regularization.
 
@@ -465,7 +465,7 @@ $$V^*(s, \theta) = \max_{\pi^H, \pi^R} \mathbb{E}\!\left[\sum_{t=0}^{\infty} \ga
 
 The assistance-game formulation supports distinctive equilibrium concepts including the assistant's Bayes-adaptive optimal policy under uncertainty about the principal's reward. The account provides a normative account of AI systems that defer to human judgment on contested value questions.
 
-Off-Switch Games of [Hadfield-Menell Dragan Abbeel Russell 2017][research_hadfield_menell_et_al_2017_off_switch] extended this formulation to analyze the case of an AI system that can be shut down by the human principal, deriving conditions under which the AI's optimal policy actively preserves the human's shutdown capability.
+Off-Switch Games of [Hadfield-Menell et al. 2017][research_hadfield_menell_et_al_2017_off_switch] extended this formulation to analyze the case of an AI system that can be shut down by the human principal, deriving conditions under which the AI's optimal policy actively preserves the human's shutdown capability.
 
 Inverse Reward Design of [Hadfield-Menell Milli Abbeel Russell Dragan 2017][research_hadfield_menell_et_al_2017_ird] treated the reward specification itself as noisy evidence about the true reward. This formulation maintains a posterior
 
@@ -473,7 +473,7 @@ $$p(R^* \mid \tilde{R}, \mathcal{M}) \propto p(\tilde{R} \mid R^*, \mathcal{M}) 
 
 over the true reward $R^\*$ given the specified proxy reward $\tilde{R}$ and the training environment $\mathcal{M}$, providing an AI system that reasons about the specifier's uncertainty when the specified reward proves misaligned with the true task.
 
-Assistance Games with Learned Human Models of [Fern Natarajan Judah Tadepalli 2014][research_fern_et_al_2014_assistance] provided the earlier framework in which the AI system maintains an explicit model of the human principal's goals and actions, updating the model through observed principal behavior.
+Assistance Games with Learned Human Models of [Fern et al. 2014][research_fern_et_al_2014_assistance] provided the earlier framework in which the AI system maintains an explicit model of the human principal's goals and actions, updating the model through observed principal behavior.
 
 The Ho and Griffiths 2022 [research_ho_griffiths_2022] cognitive science account of human-AI cooperation provided empirical grounding through experiments with human participants, documenting the patterns of human trust, delegation, and communication in cooperative tasks with AI partners.
 
@@ -485,17 +485,17 @@ Cooperative frameworks connect multi-agent reinforcement learning to the broader
 
 Language-conditioned learning treats the setting in which task specifications are provided through natural language rather than through reward functions or demonstrations. The treatment connects reinforcement learning to natural language processing through the shared representation of language-conditioned control policies.
 
-Language-conditioned policies of [Hermann et al 2017][research_hermann_et_al_2017] introduced the general framework of policies that take both state observations and language instructions as input, producing actions that follow the instruction in the current environment. This account provides a natural interface for humans to specify tasks and a means of generalizing to novel task specifications through language compositionality. Learning to Understand Goals of [Bahdanau Hill Leike Hughes Kohli Grefenstette 2019][research_bahdanau_et_al_2019] extended the model with adversarial reward learning that jointly discovers goal specification from language and policy execution. BabyAI of [Chevalier-Boisvert Bahdanau Lahlou Willems Saharia Nguyen Bengio 2019][research_chevalier_boisvert_et_al_2019_babyai] provided the standard benchmark for language-conditioned reinforcement learning with a compositional grammar of instructions and a curriculum of increasing complexity.
+Language-conditioned policies of [Hermann et al. 2017][research_hermann_et_al_2017] introduced the general framework of policies that take both state observations and language instructions as input, producing actions that follow the instruction in the current environment. This account provides a natural interface for humans to specify tasks and a means of generalizing to novel task specifications through language compositionality. Learning to Understand Goals of [Bahdanau et al. 2019][research_bahdanau_et_al_2019] extended the model with adversarial reward learning that jointly discovers goal specification from language and policy execution. BabyAI of [Chevalier-Boisvert et al. 2019][research_chevalier_boisvert_et_al_2019_babyai] provided the standard benchmark for language-conditioned reinforcement learning with a compositional grammar of instructions and a curriculum of increasing complexity.
 
 Instruction-Following Language Models through RLHF of Ouyang et al 2022 treated instruction following as a preference-based learning problem in which human judges rate model responses to instructions for adherence to the instruction, helpfulness, and truthfulness. The account has become the standard for language model post-training and has markedly improved instruction-following capabilities of foundation models.
 
-Language-Conditioned Reinforcement Learning of [Andreas Klein Levine 2017][research_andreas_klein_levine_2017] introduced modular network architectures that decompose language instructions into policy components, enabling systematic compositional generalization to novel instructions.
+Language-Conditioned Reinforcement Learning of [Andreas et al. 2017][research_andreas_klein_levine_2017] introduced modular network architectures that decompose language instructions into policy components, enabling systematic compositional generalization to novel instructions.
 
-CLIPort of [Shridhar Manuelli Fox 2022][research_shridhar_manuelli_fox_2022_cliport] combined language-conditioned manipulation with CLIP-style vision-language representations, providing a framework for tabletop manipulation that generalizes to novel objects and instructions through language grounding.
+CLIPort of [Shridhar et al. 2022][research_shridhar_manuelli_fox_2022_cliport] combined language-conditioned manipulation with CLIP-style vision-language representations, providing a framework for tabletop manipulation that generalizes to novel objects and instructions through language grounding.
 
-The [Ahn et al 2022][research_ahn_et_al_2022_saycan] SayCan framework combined language-model task decomposition with reinforcement-learned skill affordance, providing a framework in which a language model plans task steps and a learned affordance function assesses feasibility per skill primitive.
+The [Ahn et al. 2022][research_ahn_et_al_2022_saycan] SayCan framework combined language-model task decomposition with reinforcement-learned skill affordance, providing a framework in which a language model plans task steps and a learned affordance function assesses feasibility per skill primitive.
 
-Voyager of [Wang Xie Jiang Mandlekar Xiao Zhu Fan Anandkumar 2023][research_wang_et_al_2023_voyager] extended the treatment with a language-model-based skill library and self-directed exploration, achieving sustained exploration and skill acquisition in Minecraft through language-conditioned goal generation. Language-Conditioned Imitation Learning over Unstructured Data of [Lynch and Sermanet 2021][research_lynch_sermanet_2021] introduced Language-Conditioned Behavioral Cloning that leverages unstructured demonstration data with language annotations, providing a framework for scaling imitation learning to naturalistic robot data collection.
+Voyager of [Wang et al. 2023][research_wang_et_al_2023_voyager] extended the treatment with a language-model-based skill library and self-directed exploration, achieving sustained exploration and skill acquisition in Minecraft through language-conditioned goal generation. Language-Conditioned Imitation Learning over Unstructured Data of [Lynch and Sermanet 2020][research_lynch_sermanet_2021] introduced Language-Conditioned Behavioral Cloning that leverages unstructured demonstration data with language annotations, providing a framework for scaling imitation learning to naturalistic robot data collection.
 
 Language-conditioned learning connects continual and lifelong learning to the natural interface of human communication. This formulation enables continual specification of new tasks through language and continual retrieval of prior task capabilities through language-conditioned skill selection.
 
@@ -503,23 +503,23 @@ Language-conditioned learning connects continual and lifelong learning to the na
 
 One-shot imitation learning treats the setting in which the learner acquires a new skill from a single expert demonstration. The treatment connects imitation learning to the meta-learning treatments of article nine through the shared requirement for rapid task-adaptation from limited demonstration data.
 
-One-Shot Imitation Learning of [Duan Andrychowicz Stadie Ho Schneider Sutskever Abbeel Zaremba 2017][research_duan_et_al_2017_one_shot] introduced the model through a meta-learning approach in which a demonstration-conditioned policy is trained on a distribution of tasks such that the policy generalizes to novel tasks from a single demonstration. Formally, the one-shot policy takes both the current state and a demonstration $\tau_{\mathcal{T}}$ as input,
+One-Shot Imitation Learning of [Duan et al. 2017][research_duan_et_al_2017_one_shot] introduced the model through a meta-learning approach in which a demonstration-conditioned policy is trained on a distribution of tasks such that the policy generalizes to novel tasks from a single demonstration. Formally, the one-shot policy takes both the current state and a demonstration $\tau_{\mathcal{T}}$ as input,
 
 $$\pi_\theta(a \mid s, \tau_{\mathcal{T}}), \quad \tau_{\mathcal{T}} \sim p(\tau \mid \mathcal{T})$$
 
 with meta-training over a distribution of tasks that provides demonstrations at meta-training time and generalizes to novel tasks at meta-testing time. The mechanism uses an attention-based demonstration encoder that produces a task representation from the observed expert trajectory.
 
-Meta-Imitation Learning of [Finn Yu Zhang Abbeel Levine 2017][research_finn_et_al_2017_meta_imitation] combined MAML with imitation learning, meta-training an initialization from which a small number of demonstration-based gradient updates produce competent task-policies. The meta-objective
+Meta-Imitation Learning of [Finn et al. 2017][research_finn_et_al_2017_meta_imitation] combined MAML with imitation learning, meta-training an initialization from which a small number of demonstration-based gradient updates produce competent task-policies. The meta-objective
 
 $$\theta^* = \arg\min_\theta \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[L_{\text{BC}}^{\mathcal{T}}(\theta - \alpha \nabla_\theta L_{\text{BC}}^{\mathcal{T}}(\theta))\right]$$
 
 optimizes an initialization such that a single demonstration-based gradient step produces a task-policy that imitates the demonstrator.
 
-Video Imitation of [Yu Finn Xie Dasari Zhang Abbeel Levine 2018][research_yu_et_al_2018_meta_imitation] extended this formulation to one-shot imitation from human video demonstrations, providing a route to cross-embodiment imitation across considerable appearance and dynamics gaps between the human demonstrator and the robotic learner.
+Video Imitation of [Yu et al. 2018][research_yu_et_al_2018_meta_imitation] extended this formulation to one-shot imitation from human video demonstrations, providing a route to cross-embodiment imitation across considerable appearance and dynamics gaps between the human demonstrator and the robotic learner.
 
-Neural Task Programming of [Xu Nair Zhu Gao Garg Fei-Fei Savarese 2018][research_xu_et_al_2018_ntp] combined hierarchical demonstration decomposition with meta-learning, providing an approach in which demonstrations decompose into program-like sub-task sequences that support systematic compositional generalization.
+Neural Task Programming of [Xu et al. 2018][research_xu_et_al_2018_ntp] combined hierarchical demonstration decomposition with meta-learning, providing an approach in which demonstrations decompose into program-like sub-task sequences that support systematic compositional generalization.
 
-Play-based data collection of [Lynch Khansari Xiao Kumar Tompson Levine Sermanet 2020][research_lynch_et_al_2020_play] introduced human play data as an alternative to task-demonstrations, providing continuous demonstration streams from which the learner extracts diverse skill primitives for downstream few-shot task adaptation.
+Play-based data collection of [Lynch et al. 2020][research_lynch_et_al_2020_play] introduced human play data as an alternative to task-demonstrations, providing continuous demonstration streams from which the learner extracts diverse skill primitives for downstream few-shot task adaptation.
 
 One-shot imitation learning has proved particularly valuable in robotic manipulation, where per-task demonstration collection is expensive and where the transfer of skills across related tasks is often possible. The account connects imitation learning to the broader few-shot learning literature and to the meta-learning treatments of article nine.
 
@@ -535,9 +535,9 @@ $$J(\pi) - J(\pi_E) \leq T \epsilon$$
 
 for interactive methods. The quadratic-versus-linear gap explains the significant empirical improvement of DAgger over pure behavior cloning on long-horizon tasks.
 
-Sample complexity analyses of imitation learning by [Rajaraman Yang Jiao Ramchandran 2020][research_rajaraman_et_al_2020] characterized the minimax-optimal sample complexity of imitation across a range of access models including expert-only demonstrations and interactive queries. The model identifies the settings in which imitation provides substantial sample-complexity advantages over reinforcement learning. AggreVaTe of [Ross and Bagnell 2014][research_ross_bagnell_2014_aggrevate] and its deep extension by [Sun Bagnell Boots Gordon 2017][research_sun_et_al_2017_aggrevated] extended DAgger with cost-to-go information from the expert, providing improved sample-complexity bounds that leverage the expert's value function alongside the expert's policy.
+Sample complexity analyses of imitation learning by [Rajaraman et al. 2020][research_rajaraman_et_al_2020] characterized the minimax-optimal sample complexity of imitation across a range of access models including expert-only demonstrations and interactive queries. The model identifies the settings in which imitation provides substantial sample-complexity advantages over reinforcement learning. AggreVaTe of [Ross and Bagnell 2014][research_ross_bagnell_2014_aggrevate] and its deep extension by [Sun et al. 2017][research_sun_et_al_2017_aggrevated] extended DAgger with cost-to-go information from the expert, providing improved sample-complexity bounds that leverage the expert's value function alongside the expert's policy.
 
-The [Osa Pajarinen Neumann Bagnell Abbeel Peters 2018][research_osa_et_al_2018_imitation_survey] algorithmic perspectives on imitation learning survey consolidated the modern imitation-learning literature and identified the sample-complexity trade-offs across the algorithmic families.
+The [Osa et al. 2018][research_osa_et_al_2018_imitation_survey] algorithmic perspectives on imitation learning survey consolidated the modern imitation-learning literature and identified the sample-complexity trade-offs across the algorithmic families.
 
 Imitation Gap analyses of [Bhattacharyya Lu Vahia 2020][research_bhattacharyya_lu_vahia_2020_gap] documented the gap between the imitator's asymptotic performance and the expert's performance under partial observability, providing formal grounds for the difficulty of observation-only imitation in settings where the expert had access to hidden state information.
 
@@ -549,35 +549,35 @@ $$J(\pi^*) - J(\hat{\pi}) \leq \tilde{\mathcal{O}}\!\left(\sqrt{\frac{d_{\mathca
 
 where $d_{\mathcal{R}}$ is a complexity measure of the reward function class, $H$ is the effective horizon, and $N_{\text{pref}}$ is the number of preference queries. The bound characterizes the dependence on preference quality, task complexity, and reward-model expressiveness.
 
-Multi-agent learning theory connects to game theory through equilibrium existence and computation. The [Daskalakis Goldberg Papadimitriou 2009][research_daskalakis_et_al_2009_nash] result on the computational complexity of computing Nash equilibria established that even simple two-player games admit intractable equilibrium computation, providing theoretical grounds for the reliance on approximate methods in modern MARL.
+Multi-agent learning theory connects to game theory through equilibrium existence and computation. The [Daskalakis et al. 2009][research_daskalakis_et_al_2009_nash] result on the computational complexity of computing Nash equilibria established that even simple two-player games admit intractable equilibrium computation, providing theoretical grounds for the reliance on approximate methods in modern MARL.
 
-Self-play theory of [Balduzzi Racaniere Martens Foerster Tuyls Graepel 2019][research_balduzzi_et_al_2019_open_ended] provided a decomposition of two-player zero-sum games into transitive and non-transitive components
+Self-play theory of [Balduzzi et al. 2019][research_balduzzi_et_al_2019_open_ended] provided a decomposition of two-player zero-sum games into transitive and non-transitive components
 
 $$A(x, y) = A_{\text{trans}}(x, y) + A_{\text{cyc}}(x, y)$$
 
 where the payoff matrix $A$ decomposes into a transitive part $A_{\text{trans}}$ that admits a total ranking of strategies and a cyclic part $A_{\text{cyc}}$ that produces rock-paper-scissors-style non-transitivity. The decomposition characterizes when self-play converges to a stable strategy versus when it cycles through the strategy space and provides formal grounds for the curriculum construction of population-based training.
 
-The [Marschak Radner 1972][book_marschak_radner_1972] economic theory of teams provided the foundational treatment of cooperative multi-agent decision-making under decentralized information, and modern MARL frameworks including COMA and QMIX can be viewed as computational instantiations of the team-decision framework.
+The [Marschak and Radner 1972][book_marschak_radner_1972] economic theory of teams provided the foundational treatment of cooperative multi-agent decision-making under decentralized information, and modern MARL frameworks including COMA and QMIX can be viewed as computational instantiations of the team-decision framework.
 
 ## Empirical Landscape and Benchmarks
 
 The empirical landscape of learning from external agents has consolidated around several benchmark suites. The Multi-Agent Particle Environment (MPE) of Lowe et al 2017 provides a suite of cooperative and competitive multi-agent tasks that has become the standard benchmark for MARL algorithm development.
 
-StarCraft Multi-Agent Challenge (SMAC) of [Samvelyan et al 2019][research_samvelyan_et_al_2019_smac] provides cooperative unit-micromanagement tasks in StarCraft II, offering an appreciably more challenging benchmark than MPE with real-time strategy game dynamics and partial observability.
+StarCraft Multi-Agent Challenge (SMAC) of [Samvelyan et al. 2019][research_samvelyan_et_al_2019_smac] provides cooperative unit-micromanagement tasks in StarCraft II, offering an appreciably more challenging benchmark than MPE with real-time strategy game dynamics and partial observability.
 
-Google Research Football of [Kurach et al 2020][research_kurach_et_al_2020_grf] provides a football simulation benchmark for MARL algorithm development at scale, with both multi-agent and single-agent settings.
+Google Research Football of [Kurach et al. 2020][research_kurach_et_al_2020_grf] provides a football simulation benchmark for MARL algorithm development at scale, with both multi-agent and single-agent settings.
 
-Melting Pot of [Leibo et al 2021][research_leibo_et_al_2021_melting_pot] provides an evaluation framework for the social intelligence of multi-agent reinforcement learning agents through a suite of test scenarios that probe cooperation, competition, and mixed-motive interactions.
+Melting Pot of [Leibo et al. 2021][research_leibo_et_al_2021_melting_pot] provides an evaluation framework for the social intelligence of multi-agent reinforcement learning agents through a suite of test scenarios that probe cooperation, competition, and mixed-motive interactions.
 
-For imitation learning, the D4RL benchmark treated in article eight provides fixed demonstration datasets across continuous-control tasks. The RoboSuite manipulation benchmarks of [Zhu Wong Zhang et al 2020][research_zhu_et_al_2020_robosuite] provide realistic manipulation tasks with recorded demonstrations that support both imitation and reinforcement learning evaluation.
+For imitation learning, the D4RL benchmark treated in article eight provides fixed demonstration datasets across continuous-control tasks. The RoboSuite manipulation benchmarks of [Zhu et al. 2020][research_zhu_et_al_2020_robosuite] provide realistic manipulation tasks with recorded demonstrations that support both imitation and reinforcement learning evaluation.
 
-For preference-based learning, the B-Pref benchmark of Lee Smith Abbeel 2021 provides standardized evaluation across continuous-control tasks with programmatic preference labelers. Alpaca-Farm of [Dubois Li Taori Zhang Gulrajani Ba Guestrin Liang Hashimoto 2023][research_dubois_et_al_2023_alpaca_farm] provides a simulated preference collection framework for language model alignment evaluation.
+For preference-based learning, the B-Pref benchmark of Lee Smith Abbeel 2021 provides standardized evaluation across continuous-control tasks with programmatic preference labelers. Alpaca-Farm of [Dubois et al. 2023][research_dubois_et_al_2023_alpaca_farm] provides a simulated preference collection framework for language model alignment evaluation.
 
-For observation-only imitation, the MineRL benchmark of [Guss et al 2019][research_guss_et_al_2019_minerl] provides Minecraft demonstration datasets that underlie the VPT framework and support systematic evaluation of observation-only imitation methods.
+For observation-only imitation, the MineRL benchmark of [Guss et al. 2019][research_guss_et_al_2019_minerl] provides Minecraft demonstration datasets that underlie the VPT framework and support systematic evaluation of observation-only imitation methods.
 
 Empirical patterns across benchmarks show several consistent findings. Adversarial imitation methods including GAIL and DAC greatly outperform pure behavior cloning on continuous-control tasks. Preference-based methods achieve strong performance with modest preference-query budgets when combined with effective exploration. MARL methods including MAPPO and QMIX provide competitive performance across cooperative benchmarks, with IPPO often matching specialized methods. Self-play scales dramatically with compute in perfect-information game settings.
 
-Behavioral Cloning is All You Need of [Kanervisto Milani Ramanauskas Hautamäki 2020][research_kanervisto_et_al_2020] documented that carefully-tuned behavior cloning matches specialized imitation learning methods on many benchmarks, providing an important baseline observation that has motivated recent work on the conditions under which behavior cloning succeeds or fails. The Diplomacy no-press benchmark of [Bakhtin Wu Lerer Fried Brown Farhi Ramírez 2022][research_bakhtin_et_al_2022_diplomacy] provided a challenging benchmark for cooperative multi-agent learning without explicit communication that has proved considerably more difficult than the classical MARL benchmarks.
+Behavioral Cloning is All You Need of [Kanervisto et al. 2020][research_kanervisto_et_al_2020] documented that carefully-tuned behavior cloning matches specialized imitation learning methods on many benchmarks, providing an important baseline observation that has motivated recent work on the conditions under which behavior cloning succeeds or fails. The Diplomacy no-press benchmark of [Bakhtin et al. 2022][research_bakhtin_et_al_2022_diplomacy] provided a challenging benchmark for cooperative multi-agent learning without explicit communication that has proved considerably more difficult than the classical MARL benchmarks.
 
 ## Applications
 
@@ -603,15 +603,15 @@ Observational learning in biological systems has been extensively documented acr
 
 Mirror neurons discovered by [Rizzolatti and Craighero 2004][research_rizzolatti_craighero_2004_mirror] fire both when the observer performs an action and when the observer watches another agent perform the same action, providing a candidate neural substrate for observational learning. The [Iacoboni 2009][research_iacoboni_2009_mirror] treatment of imitation and social cognition consolidated the subsequent literature on mirror-system function.
 
-Theory of Mind capacities enable observers to infer the mental states of other agents, providing the cognitive substrate for interpreting demonstrations and preferences. The [Frith and Frith 2005][research_frith_frith_2005_tom] review of theory of mind consolidated the cognitive and neural literature. Theory of Mind frameworks in machine learning of [Rabinowitz Perbet Song Zhang Eslami Botvinick 2018][research_rabinowitz_et_al_2018_tom] introduced Bayesian theory-of-mind neural networks that predict other agents' behavior from observed actions, connecting the cognitive science framework to computational implementations.
+Theory of Mind capacities enable observers to infer the mental states of other agents, providing the cognitive substrate for interpreting demonstrations and preferences. The [Frith and Frith 2005][research_frith_frith_2005_tom] review of theory of mind consolidated the cognitive and neural literature. Theory of Mind frameworks in machine learning of [Rabinowitz et al. 2018][research_rabinowitz_et_al_2018_tom] introduced Bayesian theory-of-mind neural networks that predict other agents' behavior from observed actions, connecting the cognitive science framework to computational implementations.
 
 Cultural learning of [Tomasello Kruger Ratner 1993][research_tomasello_et_al_1993_cultural] provided the developmental account of how human children acquire cumulative cultural knowledge through observation, imitation, and collaborative interaction with adult tutors. This formulation distinguishes imitation from emulation and provides evidence that specifically-human forms of imitation support the accumulation of complex cultural knowledge across generations. Natural Pedagogy of [Csibra and Gergely 2009][research_csibra_gergely_2009_natural_pedagogy] extended this formulation with the proposal that human infants are cognitively adapted to receive generic knowledge from ostensive communication with caregivers, providing a mechanistic account of the human-cultural transmission capacity. Primate Culture of [Whiten 2000][research_whiten_2000_culture] documented the patterns of behavioral variation across chimpanzee communities that constitute cultural traditions maintained through social learning.
 
-Theory of Mind development in children was systematically investigated in the false-belief tradition beginning with [Wimmer and Perner 1983][research_wimmer_perner_1983] and extended through the Sally-Anne paradigm of [Baron-Cohen Leslie Frith 1985][research_baron_cohen_leslie_frith_1985] which demonstrated systematic deficits in theory of mind in autistic children, providing evidence for theory of mind as a distinct cognitive capacity with neural substrates.
+Theory of Mind development in children was systematically investigated in the false-belief tradition beginning with [Wimmer and Perner 1983][research_wimmer_perner_1983] and extended through the Sally-Anne paradigm of [Baron-Cohen et al. 1985][research_baron_cohen_leslie_frith_1985] which demonstrated systematic deficits in theory of mind in autistic children, providing evidence for theory of mind as a distinct cognitive capacity with neural substrates.
 
 The [Herman 1980][research_herman_1980_dolphins] documentation of observational learning in dolphins provided early evidence that imitation is not uniquely human, and subsequent comparative work has documented imitation-like learning across many species with implications for the evolutionary origin of the capacity.
 
-Reinforcement learning from social feedback in humans has been studied through the neuroimaging literature on the brain regions active during learning from praise, criticism, and social approval. The [Behrens Hunt Woolrich Rushworth 2008][research_behrens_et_al_2008] study of associative learning in social exchange documented that social reward signals engage similar reward-processing circuits as material rewards, providing neurophysiological grounding for preference-based reinforcement learning.
+Reinforcement learning from social feedback in humans has been studied through the neuroimaging literature on the brain regions active during learning from praise, criticism, and social approval. The [Behrens et al. 2008][research_behrens_et_al_2008] study of associative learning in social exchange documented that social reward signals engage similar reward-processing circuits as material rewards, providing neurophysiological grounding for preference-based reinforcement learning.
 
 Multi-agent reasoning in humans has been studied through the neuroeconomics literature on game-theoretic decision-making. The [Camerer 2003][book_camerer_2003_behavioral] behavioral game theory framework consolidated the empirical evidence that humans systematically deviate from Nash equilibrium play in ways, providing testable hypotheses about the internal models humans use to reason about other agents.
 
@@ -632,217 +632,225 @@ Article fourteen returns to the NeuroAI bridge and treats the observational-lear
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Bandura 1977 Social Learning Theory][book_bandura_1977]
-- [Camerer 2003 Behavioral Game Theory][book_camerer_2003_behavioral]
-- [Marschak and Radner 1972 Team Theory][book_marschak_radner_1972]
-- [Sutton and Barto 2018][book_sutton_barto_2018]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Akrour, Riad, Marc Schoenauer, and Michele Sebag. 2011. "Preference-Based Policy Learning." In *Machine Learning and Knowledge Discovery in Databases*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-23780-5\_11][research_akrour_schoenauer_sebag_2011]
+- Argall, Brenna D., Sonia Chernova, Manuela Veloso, and Brett Browning. 2009. "A Survey of Robot Learning from Demonstration." *Robotics and Autonomous Systems* 57 (5): 469–83. [https://doi.org/10.1016/j.robot.2008.10.024][research_argall_et_al_2009_lfd_survey]
+- Baron-Cohen, Simon, Alan M. Leslie, and Uta Frith. 1985. "Does the Autistic Child Have a “Theory of Mind” ?" *Cognition* 21 (1): 37–46. [https://doi.org/10.1016/0010-0277(85)90022-8][research_baron_cohen_leslie_frith_1985]
+- Behrens, Timothy E. J., Laurence T. Hunt, Mark W. Woolrich, and Matthew F. S. Rushworth. 2008. "Associative Learning of Social Value." *Nature* 456 (7219): 245–49. [https://doi.org/10.1038/nature07538][research_behrens_et_al_2008]
+- Bowling, Michael, and Manuela Veloso. 2002. "Multiagent Learning Using a Variable Learning Rate." *Artificial Intelligence* 136 (2): 215–50. [https://doi.org/10.1016/s0004-3702(02)00121-2][research_bowling_veloso_2002_wolf]
+- Csibra, Gergely, and György Gergely. 2009. "Natural Pedagogy." *Trends in Cognitive Sciences* 13 (4): 148–53. [https://doi.org/10.1016/j.tics.2009.01.005][research_csibra_gergely_2009_natural_pedagogy]
+- Kelly, Michael, Chelsea Sidrane, Katherine Driggs-Campbell, and Mykel J. Kochenderfer. 2019. "HG-DAgger: Interactive Imitation Learning with Human Experts." In *2019 International Conference on Robotics and Automation (ICRA)*. IEEE. [https://doi.org/10.1109/icra.2019.8793698][research_kelly_et_al_2019_hg_dagger]
+- Panait, Liviu, and Sean Luke. 2005. "Cooperative Multi-Agent Learning: The State of the Art." *Autonomous Agents and Multi-Agent Systems* 11 (3): 387–434. [https://doi.org/10.1007/s10458-005-2631-2][research_panait_luke_2005_survey]
+- Schrittwieser, Julian, Ioannis Antonoglou, Thomas Hubert, et al. 2020. "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model." *Nature* 588 (7839): 604–9. [https://doi.org/10.1038/s41586-020-03051-4][research_schrittwieser_et_al_2020_muzero]
+- Silver, David, Aja Huang, Chris J. Maddison, et al. 2016. "Mastering the Game of Go with Deep Neural Networks and Tree Search." *Nature* 529 (7587): 484–89. [https://doi.org/10.1038/nature16961][research_silver_et_al_2016_alphago]
+- Silver, David, Julian Schrittwieser, Karen Simonyan, et al. 2017. "Mastering the Game of Go without Human Knowledge." *Nature* 550 (7676): 354–59. [https://doi.org/10.1038/nature24270][research_silver_et_al_2017_alphago_zero]
+- Vinyals, Oriol, Igor Babuschkin, Wojciech M. Czarnecki, et al. 2019. "Grandmaster Level in StarCraft II Using Multi-Agent Reinforcement Learning." *Nature* 575 (7782): 350–54. [https://doi.org/10.1038/s41586-019-1724-z][research_vinyals_et_al_2019_alphastar]
+- Whiten, Andrew. 2000. "Primate Culture and Social Learning." *Cognitive Science* 24 (3): 477–508. [https://doi.org/10.1207/s15516709cog2403\_6][research_whiten_2000_culture]
 
-- [Berkeley CS285][ref_berkeley_cs285]
-- [DeepMind x UCL RL Course][ref_deepmind_ucl_rl]
-- [OpenAI Spinning Up][ref_openai_spinning_up]
-- [Silver RL Course UCL][ref_silver_rl_course]
-- [Stanford CS234][ref_stanford_cs234]
+### Primary Sources, Non-Peer-Reviewed
+
+- Abbeel, Pieter, and Andrew Y. Ng. 2004. "Apprenticeship Learning via Inverse Reinforcement Learning." In *Twenty-first international conference on Machine learning - ICML '04*. ACM Press. [https://doi.org/10.1145/1015330.1015430][research_abbeel_ng_2004_apprenticeship]
+- Ahn, Michael, Anthony Brohan, Noah Brown, et al. 2022. "Do as I Can, Not as I Say: Grounding Language in Robotic Affordances." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2204.01691][research_ahn_et_al_2022_saycan]
+- Al-Shedivat, Maruan, Trapit Bansal, Yura Burda, Ilya Sutskever, Igor Mordatch, and Pieter Abbeel. 2018. "Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=Sk2u1g-0-][research_al_shedivat_et_al_2018_meta_mapg]
+- Amodei, Dario, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and Dan Mané. 2016. "Concrete Problems in AI Safety." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1606.06565][research_amodei_et_al_2016_safety]
+- Andreas, Jacob, Dan Klein, and Sergey Levine. 2017. "Modular Multitask Reinforcement Learning with Policy Sketches." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/andreas17a.html][research_andreas_klein_levine_2017]
+- Aytar, Yusuf, Tobias Pfaff, David Budden, Thomas Paine, Ziyu Wang, and Nando de Freitas. 2018. "Playing Hard Exploration Games by Watching YouTube." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2018/hash/35309226eb45ec366ca86a4329a2b7c3-Abstract.html][research_aytar_et_al_2018]
+- Bahl, Shikhar, Abhinav Gupta, and Deepak Pathak. 2022. "Human-to-Robot Imitation in the Wild." In *Robotics: Science and Systems XVIII*. Robotics: Science and Systems Foundation. [https://doi.org/10.15607/rss.2022.xviii.026][research_bahl_gupta_kumar_2022]
+- Bai, Yuntao, Saurav Kadavath, Sandipan Kundu, et al. 2022. "Constitutional AI: Harmlessness from AI Feedback." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2212.08073][research_bai_et_al_2022_constitutional]
+- Baker, Bowen, Ilge Akkaya, Peter Zhokov, et al. 2022. "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos." In *Advances in Neural Information Processing Systems 35*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/068431-1789][research_baker_et_al_2022_vpt]
+- Baker, Bowen, Ingmar Kanitscheider, Todor Markov, et al. 2020. "Emergent Tool Use from Multi-Agent Autocurricula." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=SkxpxJBKwS][research_baker_et_al_2020_tool_use]
+- Bakhtin, Anton, David Wu, Adam Lerer, et al. 2022. "No-Press Diplomacy from Scratch." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2021/hash/95f2b84de5660ddf45c8a34933a2e66f-Abstract.html][research_bakhtin_et_al_2022_diplomacy]
+- Balduzzi, David, Marta Garnelo, Yoram Bachrach, et al. 2019. "Open-Ended Learning in Symmetric Zero-Sum Games." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/balduzzi19a.html][research_balduzzi_et_al_2019_open_ended]
+- Bansal, Trapit, Jakub Pachocki, Szymon Sidor, Ilya Sutskever, and Igor Mordatch. 2018. "Emergent Complexity via Multi-Agent Competition." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=Sy0GnUxCb][research_bansal_et_al_2018]
+- Baram, Nir, Oron Anschel, Itai Caspi, and Shie Mannor. 2017. "End-to-End Differentiable Adversarial Imitation Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/baram17a.html][research_baram_et_al_2017]
+- Billard, Aude, Sylvain Calinon, Rüdiger Dillmann, and Stefan Schaal. 2008. "Robot Programming by Demonstration." In *Springer Handbook of Robotics*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-540-30301-5\_60][research_billard_et_al_2008]
+- Boularias, Abdeslam, Jens Kober, and Jan Peters. 2011. "Relative Entropy Inverse Reinforcement Learning." In *Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics*. [https://proceedings.mlr.press/v15/boularias11a.html][research_boularias_kober_peters_2011]
+- Brohan, Anthony, Noah Brown, Justice Carbajal, et al. 2023. "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2307.15818][research_brohan_et_al_2023_rt2_a260]
+- Brohan, Anthony, Noah Brown, Justice Carbajal, et al. 2022. "RT-1: Robotics Transformer for Real-World Control at Scale." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2212.06817][research_brohan_et_al_2022_rt1_a260]
+- Brown, Noam, and Tuomas Sandholm. 2019. "Superhuman AI for Multiplayer Poker." *Science* 365 (6456): 885–90. [https://doi.org/10.1126/science.aay2400][research_brown_sandholm_2019_pluribus]
+- Casper, Stephen, Xander Davies, Claudia Shi, et al. 2023. "Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2307.15217][research_casper_et_al_2023_rlhf_survey]
+- Chakraborty, Souradip, Jiahao Qiu, Hui Yuan, et al. 2024. "MaxMin-RLHF: Alignment with Diverse Human Preferences." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2402.08925][research_chakraborty_et_al_2024_distributional]
+- Chen, Annie S., Suraj Nair, and Chelsea Finn. 2021. "Learning Generalizable Robotic Reward Functions from 'in-The-Wild' Human Videos." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2103.16817][research_chen_nair_agrawal_2021]
+- Chevalier-Boisvert, Maxime, Dzmitry Bahdanau, Salem Lahlou, et al. 2019. "BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=rJeXCo0cYX][research_chevalier_boisvert_et_al_2019_babyai]
+- Christiano, Paul F., Jan Leike, Tom Brown, Miljan Martic, Shane Legg, and Dario Amodei. 2017. "Deep Reinforcement Learning from Human Preferences." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html][research_christiano_et_al_2017_rlhf]
+- Christiano, Paul, Buck Shlegeris, and Dario Amodei. 2018. "Supervising Strong Learners by Amplifying Weak Experts." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1810.08575][research_christiano_shlegeris_amodei_2018_amplification]
+- Conitzer, Vincent, Rachel Freedman, Jobst Heitzig, et al. 2024. "Social Choice Should Guide AI Alignment in Dealing with Diverse Human Feedback." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2404.10271][research_conitzer_et_al_2024_social_choice]
+- Coste, Thomas, Usman Anwar, Robert Kirk, and David Krueger. 2024. "Reward Model Ensembles Help Mitigate Overoptimization." In *The Twelfth International Conference on Learning Representations*. [https://openreview.net/forum?id=dcjtMYkpXx][research_coste_et_al_2024_ensembles]
+- Das, Abhishek, Théophile Gervet, Joshua Romoff, et al. 2019. "TarMAC: Targeted Multi-Agent Communication." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/das19a.html][research_das_et_al_2019_tarmac]
+- Daskalakis, Constantinos, Paul W. Goldberg, and Christos H. Papadimitriou. 2009. "The Complexity of Computing a Nash Equilibrium." *SIAM Journal on Computing* 39 (1): 195–259. [https://doi.org/10.1137/070699652][research_daskalakis_et_al_2009_nash]
+- de Witt, Christian Schroeder, Tarun Gupta, Denys Makoviichuk, et al. 2020. "Is Independent Learning All You Need in the StarCraft Multi-Agent Challenge?" Preprint, arXiv. [https://doi.org/10.48550/arxiv.2011.09533][research_de_witt_et_al_2020_ippo]
+- Di Langosco, Lauro Langosco, Jack Koch, Lee D. Sharkey, Jacob Pfau, and David Krueger. 2022. "Goal Misgeneralization in Deep Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v162/langosco22a.html][research_langosco_et_al_2022_goal_misgen]
+- Dong, Hanze, Wei Xiong, Deepanshu Goyal, et al. 2023. "RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2304.06767][research_dong_et_al_2023_raft]
+- Duan, Yan, Marcin Andrychowicz, Bradly Stadie, et al. 2017. "One-Shot Imitation Learning." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/ba3866600c3540f67c1e9575e213be0a-Abstract.html][research_duan_et_al_2017_one_shot]
+- Dubois, Yann, Chen Xuechen Li, Rohan Taori, et al. 2023. "AlpacaFarm: A Simulation Framework for Methods That Learn from Human Feedback." In *Advances in Neural Information Processing Systems 36*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/075280-1308][research_dubois_et_al_2023_alpaca_farm]
+- Eisenstein, Nagpal, Agarwal, Dvijotham, and Fisch. 2023. "\[Title not identified\]." Preprint, . [https://arxiv.org/abs/2312.09244][research_eisenstein_et_al_2023]
+- Embodiment Collaboration, Abby O'Neill, Abdul Rehman, et al. 2023. "Open X-Embodiment: Robotic Learning Datasets and RT-X Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2310.08864][research_padalkar_et_al_2024_a260]
+- Ethayarajh, Kawin, Winnie Xu, Niklas Muennighoff, Dan Jurafsky, and Douwe Kiela. 2024. "KTO: Model Alignment as Prospect Theoretic Optimization." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2402.01306][research_ethayarajh_et_al_2024_kto]
+- FAIR. 2022. *Cicero*. [https://scholar.google.com/scholar?q=Cicero+FAIR+2022][research_fair_et_al_2022_cicero]
+- Fern, Natarajan, Judah, and Tadepalli. 2014. *Assistance*. [https://scholar.google.com/scholar?q=Assistance+Fern+2014][research_fern_et_al_2014_assistance]
+- Finn, Chelsea, Tianhe Yu, Tianhao Zhang, Pieter Abbeel, and Sergey Levine. 2017. "One-Shot Visual Imitation Learning via Meta-Learning." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v78/finn17a.html][research_finn_et_al_2017_meta_imitation]
+- Florence, Pete, Corey Lynch, Andy Zeng, et al. 2022. "Implicit Behavioral Cloning." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v164/florence22a.html][research_florence_et_al_2022_implicit_bc]
+- Florence, Peter R., Lucas Manuelli, and Russ Tedrake. 2018. "Dense Object Nets: Learning Dense Visual Object Descriptors by and for Robotic Manipulation." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1806.08756][research_florence_manuelli_tedrake_2018]
+- Foerster, Jakob N., Richard Y. Chen, Maruan Al-Shedivat, Shimon Whiteson, Pieter Abbeel, and Igor Mordatch. 2017. "Learning with Opponent-Learning Awareness." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1709.04326][research_foerster_et_al_2018_lola]
+- Foerster, Jakob, Gregory Farquhar, Triantafyllos Afouras, Nantas Nardelli, and Shimon Whiteson. 2018. "Counterfactual Multi-Agent Policy Gradients." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11794][research_foerster_et_al_2018_coma]
+- Gao, Leo, John Schulman, and Jacob Hilton. 2023. "Scaling Laws for Reward Model Overoptimization." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v202/gao23h.html][research_gao_schulman_hilton_2023]
+- Ghasemipour, Seyed Kamyar Seyed, Richard Zemel, and Shixiang Gu. 2020. "A Divergence Minimization Perspective on Imitation Learning Methods." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/ghasemipour20a.html][research_ghasemipour_zemel_gu_2020]
+- Guss, William H., Brandon Houghton, Nicholay Topin, et al. 2019. "MineRL: A Large-Scale Dataset of Minecraft Demonstrations." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1907.13440][research_guss_et_al_2019_minerl]
+- Hadfield-Menell, Dylan, Anca Dragan, Pieter Abbeel, and Stuart Russell. 2017. "The off-Switch Game." In *Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence*. International Joint Conferences on Artificial Intelligence Organization. [https://doi.org/10.24963/ijcai.2017/32][research_hadfield_menell_et_al_2017_off_switch]
+- Havrylov, Serhii, and Ivan Titov. 2017. "Emergence of Language with Multi-Agent Games: Learning to Communicate with Sequences of Symbols." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2017/hash/70222949cc0db89ab32c9969754d4758-Abstract.html][research_havrylov_titov_2017]
+- He, He, Jordan Boyd-Graber, Kevin Kwok, and Hal Daumé III. 2016. "Opponent Modeling in Deep Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v48/he16.html][research_he_et_al_2016_opponent]
+- Heinrich, Johannes, and David Silver. 2016. "Deep Reinforcement Learning from Self-Play in Imperfect-Information Games." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1603.01121][research_heinrich_silver_2016_nfsp]
+- Hermann, Karl Moritz, Felix Hill, Simon Green, et al. 2017. "Grounded Language Learning in a Simulated 3D World." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1706.06551][research_hermann_et_al_2017]
+- Ho, Mark K., and Thomas L. Griffiths. 2021. "Cognitive Science as a Source of Forward and Inverse Models of Human Decisions for Robotics and Control." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2109.00127][research_ho_griffiths_2022]
+- Hu, Junling, and Michael P. Wellman. 2003. "Nash Q-Learning for General-Sum Stochastic Games." *Journal of Machine Learning Research* 4: 1039–69. [https://jmlr.org/papers/v4/hu03a.html][research_hu_wellman_2003_nashq]
+- Hubinger, Evan, Chris van Merwijk, Vladimir Mikulik, Joar Skalse, and Scott Garrabrant. 2019. "Risks from Learned Optimization in Advanced Machine Learning Systems." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1906.01820][research_hubinger_et_al_2019_deceptive]
+- Iacoboni, Marco. 2009. "Imitation, Empathy, and Mirror Neurons." *Annual Review of Psychology* 60 (1): 653–70. [https://doi.org/10.1146/annurev.psych.60.110707.163604][research_iacoboni_2009_mirror]
+- Ibarz, Borja, Jan Leike, Tobias Pohlen, Geoffrey Irving, Shane Legg, and Dario Amodei. 2018. "Reward Learning from Human Preferences and Demonstrations in Atari." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/8cbe9ce23f42628c98f80fa0fac8b19a-Abstract.html][research_ibarz_et_al_2018]
+- Ijspeert, Auke Jan, Jun Nakanishi, Heiko Hoffmann, Peter Pastor, and Stefan Schaal. 2013. "Dynamical Movement Primitives: Learning Attractor Models for Motor Behaviors." *Neural Computation* 25 (2): 328–73. [https://doi.org/10.1162/neco\_a\_00393][research_ijspeert_et_al_2013_dmp]
+- Irving, Geoffrey, Paul Christiano, and Dario Amodei. 2018. "AI Safety via Debate." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1805.00899][research_irving_christiano_amodei_2018_debate]
+- Jaderberg, Max, Valentin Dalibard, Simon Osindero, et al. 2017. "Population Based Training of Neural Networks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1711.09846][research_jaderberg_et_al_2017_pbt]
+- Kanervisto, Milani, Ramanauskas, and Hautamäki. 2020. *BC*. [https://scholar.google.com/scholar?q=BC+Kanervisto+2020][research_kanervisto_et_al_2020]
+- Kim, Changyeon, Jongjin Park, Jinwoo Shin, Honglak Lee, Pieter Abbeel, and Kimin Lee. 2023. "Preference Transformer: Modeling Human Preferences Using Transformers for RL." In *The Eleventh International Conference on Learning Representations*. [https://openreview.net/forum?id=Peot1SFDX0][research_kim_et_al_2023_pt_a260]
+- Kirby, Cornish, and Smith. 2015. *Iterated Learning*. [https://scholar.google.com/scholar?q=Iterated+Learning+Kirby+Cornish+Smith+2015][research_kirby_cornish_smith_2015]
+- Knox, W. Bradley, and Peter Stone. 2009. "Interactively Shaping Agents via Human Reinforcement: The TAMER Framework." In *Proceedings of the fifth international conference on Knowledge capture*. ACM. [https://doi.org/10.1145/1597735.1597738][research_knox_stone_2009_tamer]
+- Kurach, Karol, Anton Raichuk, Piotr Stańczyk, et al. 2020. "Google Research Football: A Novel Reinforcement Learning Environment." *Proceedings of the AAAI Conference on Artificial Intelligence* 34 (04): 4501–10. [https://doi.org/10.1609/aaai.v34i04.5878][research_kurach_et_al_2020_grf]
+- Lambert, Nathan, Valentina Pyatkin, Jacob Morrison, et al. 2024. "RewardBench: Evaluating Reward Models for Language Modeling." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2403.13787][research_lambert_et_al_2024_reward_bench]
+- Leibo, Joel Z., Edgar A. Dueñez-Guzman, Alexander Vezhnevets, et al. 2021. "Scalable Evaluation of Multi-Agent Reinforcement Learning with Melting Pot." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v139/leibo21a.html][research_leibo_et_al_2021_melting_pot]
+- Lynch, Corey, Mohi Khansari, Ted Xiao, et al. 2020. "Learning Latent Plans from Play." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/lynch20a.html][research_lynch_et_al_2020_play]
+- Lynch, Corey, and Pierre Sermanet. 2020. "Language Conditioned Imitation Learning over Unstructured Data." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2005.07648][research_lynch_sermanet_2021]
+- Ma, Yecheng Jason, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, Vikash Kumar, and Amy Zhang. 2023. "VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training." In *The Eleventh International Conference on Learning Representations*. [https://openreview.net/forum?id=YJ7o2wetJ2][research_ma_et_al_2023_vip]
+- Meltzoff, A., and M. Moore. 1977. "Imitation of Facial and Manual Gestures by Human Neonates." *Science* 198 (4312): 74–78. [https://doi.org/10.1126/science.897687][research_meltzoff_moore_1977]
+- Moravčík, Matej, Martin Schmid, Neil Burch, et al. 2017. "DeepStack: Expert-Level Artificial Intelligence in Heads-up No-Limit Poker." *Science* 356 (6337): 508–13. [https://doi.org/10.1126/science.aam6960][research_moravcik_et_al_2017_deepstack]
+- Nair, Suraj, Aravind Rajeswaran, Vikash Kumar, Chelsea Finn, and Abhinav Gupta. 2023. "R3M: A Universal Visual Representation for Robot Manipulation." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v205/nair23a.html][research_nair_et_al_2022_r3m]
+- OpenAI, Christopher Berner, Greg Brockman, et al. 2019. "Dota 2 with Large Scale Deep Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1912.06680][research_berner_et_al_2019_openai_five]
+- Osa, Takayuki, Joni Pajarinen, Gerhard Neumann, J. Andrew Bagnell, Pieter Abbeel, and Jan Peters. 2018. "An Algorithmic Perspective on Imitation Learning." *Foundations and Trends® in Robotics* 7 (1–2): 1–179. [https://doi.org/10.1561/2300000053][research_osa_et_al_2018_imitation_survey]
+- Ouyang, Long, Jeffrey Wu, Xu Jiang, et al. 2022. "Training Language Models to Follow Instructions with Human Feedback." In *Advances in Neural Information Processing Systems 35*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/068431-2011][research_ouyang_et_al_2022_instructgpt]
+- Papoudakis, Georgios, Filippos Christianos, Lukas Schäfer, and Stefano V. Albrecht. 2021. "Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks." In *Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1)*. [https://openreview.net/forum?id=cIrPX-Sn5n][research_papoudakis_et_al_2021_benchmarking]
+- Peng, Xue Bin, Pieter Abbeel, Sergey Levine, and Michiel van de Panne. 2018. "DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills." *ACM Transactions on Graphics* 37 (4): 1–14. [https://doi.org/10.1145/3197517.3201311][research_peng_et_al_2018_deepmimic]
+- Poddar, Wan, Ivison, et al. 2024. *Personalized RLHF*. [https://scholar.google.com/scholar?q=Personalized+RLHF+Poddar+2024][research_poddar_et_al_2024_personalized]
+- Pomerleau, Dean A. 1988. "ALVINN: An Autonomous Land Vehicle in a Neural Network." *Advances in Neural Information Processing Systems* 1. [https://papers.nips.cc/paper/1988/hash/812b4ba287f5ee0bc9d43bbf5bbe87fb-Abstract.html][research_pomerleau_1988_alvinn]
+- Rafailov, Rafael, Archit Sharma, Eric Mitchell, Christopher D. Manning, Stefano Ermon, and Chelsea Finn. 2023. "Direct Preference Optimization: Your Language Model Is Secretly a Reward Model." In *Advances in Neural Information Processing Systems 36*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/075280-2338][research_rafailov_et_al_2023_dpo]
+- Rajaraman, Yang, Jiao, and Ramchandran. 2020. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Rajaraman+2020][research_rajaraman_et_al_2020]
+- Rajeswaran, Aravind, Vikash Kumar, Abhishek Gupta, et al. 2017. "Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1709.10087][research_rajeswaran_et_al_2018_dapg]
+- Rakelly, Petrenko, Vainstein, Fried, and Levine. 2021. *LSD*. [https://scholar.google.com/scholar?q=LSD+Rakelly+2021][research_rakelly_et_al_2021_lsd]
+- Ramé, Alexandre, Nino Vieillard, Léonard Hussenot, et al. 2024. "WARM: On the Benefits of Weight Averaged Reward Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2401.12187][research_rame_et_al_2024_weight_avg]
+- Rashid, Tabish, Mikayel Samvelyan, Christian Schroeder, Gregory Farquhar, Jakob Foerster, and Shimon Whiteson. 2018. "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/rashid18a.html][research_rashid_et_al_2018_qmix]
+- Ravichandar, Harish, Athanasios S. Polydoros, Sonia Chernova, and Aude Billard. 2020. "Recent Advances in Robot Learning from Demonstration." *Annual Review of Control, Robotics, and Autonomous Systems* 3 (1): 297–330. [https://doi.org/10.1146/annurev-control-100819-063206][research_ravichandar_et_al_2020_lfd_survey]
+- Reddy, Siddharth, Anca D. Dragan, and Sergey Levine. 2020. "SQIL: Imitation Learning via Reinforcement Learning with Sparse Rewards." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=S1xKd24twB][research_reddy_dragan_levine_2020_sqil]
+- Reed, Scott, Konrad Zolna, Emilio Parisotto, et al. 2022. "A Generalist Agent." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2205.06175][research_reed_et_al_2022_gato_a260]
+- Rizzolatti, Giacomo, and Laila Craighero. 2004. "The Mirror-Neuron System." *Annual Review of Neuroscience* 27 (1): 169–92. [https://doi.org/10.1146/annurev.neuro.27.070203.144230][research_rizzolatti_craighero_2004_mirror]
+- Ross. 2013. *Interactive*. [https://scholar.google.com/scholar?q=Interactive+Ross+2013][research_ross_et_al_2013_interactive]
+- Ross, Stephane, and Drew Bagnell. 2010. "Efficient Reductions for Imitation Learning." In *Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics*. [https://proceedings.mlr.press/v9/ross10a.html][research_ross_bagnell_2010_efficient]
+- Ross, Stephane, and J. Andrew Bagnell. 2014. "Reinforcement and Imitation Learning via Interactive No-Regret Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1406.5979][research_ross_bagnell_2014_aggrevate]
+- Sadigh, Dragan, Sastry, and Seshia. 2017. *Active*. [https://scholar.google.com/scholar?q=Active+Sadigh+Dragan+Sastry+2017][research_sadigh_et_al_2017_active]
+- Samvelyan, Mikayel, Tabish Rashid, Christian Schroeder de Witt, et al. 2019. "The StarCraft Multi-Agent Challenge." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1902.04043][research_samvelyan_et_al_2019_smac]
+- Schaal, Stefan. 1996. "Learning from Demonstration." *Advances in Neural Information Processing Systems* 9. [https://papers.nips.cc/paper/1996/hash/68d13cf26c4b4f4f932e3eff990093ba-Abstract.html][research_schaal_1997]
+- Sermanet, Pierre, Corey Lynch, Yevgen Chebotar, et al. 2017. "Time-Contrastive Networks: Self-Supervised Learning from Video." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1704.06888][research_sermanet_et_al_2018_tcn]
+- Sermanet, Pierre, Kelvin Xu, and Sergey Levine. 2016. "Unsupervised Perceptual Rewards for Imitation Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1612.06699][research_sermanet_xu_levine_2016]
+- Shridhar, Mohit, Lucas Manuelli, and Dieter Fox. 2022. "CLIPort: What and Where Pathways for Robotic Manipulation." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v164/shridhar22a.html][research_shridhar_manuelli_fox_2022_cliport]
+- Silver, David, Thomas Hubert, Julian Schrittwieser, et al. 2018. "A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play." *Science* 362 (6419): 1140–44. [https://doi.org/10.1126/science.aar6404][research_silver_et_al_2018_alphazero]
+- Singhal, Prasann, Tanya Goyal, Jiacheng Xu, and Greg Durrett. 2023. "A Long Way to Go: Investigating Length Correlations in RLHF." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2310.03716][research_singhal_et_al_2024_length_bias]
+- Skalse, Joar, Nikolaus Howe, Dmitrii Krasheninnikov, and David Krueger. 2022. "Defining and Characterizing Reward Hacking." In *Advances in Neural Information Processing Systems 35*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/068431-0687][research_skalse_et_al_2022_hacking]
+- Son, Kyunghwan, Daewoo Kim, Wan Ju Kang, David Earl Hostallero, and Yung Yi. 2019. "QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/son19a.html][research_son_et_al_2019_qtran]
+- Sorensen, Taylor, Jared Moore, Jillian Fisher, et al. 2024. "A Roadmap to Pluralistic Alignment." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2402.05070][research_sorensen_et_al_2024_pluralistic]
+- Stadie, Bradly C., Pieter Abbeel, and Ilya Sutskever. 2017. "Third Person Imitation Learning." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=B16dGcqlx][research_stadie_abbeel_sutskever_2017]
+- Sun, Wen, Arun Venkatraman, Geoffrey J. Gordon, Byron Boots, and J. Andrew Bagnell. 2017. "Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/sun17d.html][research_sun_et_al_2017_aggrevated]
+- Tampuu, Ardi, Tambet Matiisen, Dorian Kodelja, et al. 2017. "Multiagent Cooperation and Competition with Deep Reinforcement Learning." *PLOS ONE* 12 (4): e0172395. [https://doi.org/10.1371/journal.pone.0172395][research_tampuu_et_al_2017]
+- Tesauro, Gerald. 1995. "Temporal Difference Learning and TD-Gammon." *Communications of the ACM* 38 (3): 58–68. [https://doi.org/10.1145/203330.203343][research_tesauro_1995_tdgammon]
+- Torabi, Faraz, Garrett Warnell, and Peter Stone. 2018. "Behavioral Cloning from Observation." In *Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence*. International Joint Conferences on Artificial Intelligence Organization. [https://doi.org/10.24963/ijcai.2018/687][research_torabi_warnell_stone_2018_bco]
+- Tunstall, Lewis, Edward Beeching, Nathan Lambert, et al. 2023. "Zephyr: Direct Distillation of LM Alignment." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2310.16944][research_tunstall_et_al_2023_zephyr]
+- Wang, Guanzhi, Yuqi Xie, Yunfan Jiang, et al. 2023. "Voyager: An Open-Ended Embodied Agent with Large Language Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2305.16291][research_wang_et_al_2023_voyager]
+- Warnell, Garrett, Nicholas Waytowich, Vernon Lawhern, and Peter Stone. 2018. "Deep TAMER: Interactive Agent Shaping in High-Dimensional State Spaces." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11485][research_warnell_et_al_2018_deep_tamer]
+- Wilde, Blau, Guyomard, Losey, and Doshi-Velez. 2023. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Wilde+2023][research_wilde_et_al_2023]
+- Wilson, Aaron, Alan Fern, and Prasad Tadepalli. 2012. "A Bayesian Approach for Policy Learning from Trajectory Preference Queries." *Advances in Neural Information Processing Systems* 25. [https://papers.nips.cc/paper/2012/hash/16c222aa19898e5058938167c8ab6c57-Abstract.html][research_wilson_fern_tadepalli_2012]
+- Wirth, Christian, Riad Akrour, Gerhard Neumann, and Johannes Fürnkranz. 2017. "A Survey of Preference-Based Reinforcement Learning Methods." *Journal of Machine Learning Research* 18: 1–46. [https://jmlr.org/papers/v18/16-634.html][research_wirth_et_al_2017_pref_survey]
+- Wu, Rijhwani, Wei, Bragg, and Amos. 2023. *Expert-Adjusted*. [https://scholar.google.com/scholar?q=Expert-Adjusted+Wu+2023][research_wu_et_al_2023_expert]
+- Wulfmeier, Markus, Peter Ondruska, and Ingmar Posner. 2015. "Maximum Entropy Deep Inverse Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1507.04888][research_wulfmeier_ondruska_posner_2015]
+- Xu, Shusheng, Wei Fu, Jiaxuan Gao, et al. 2024. "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2404.10719][research_xu_et_al_2024_iterative_dpo]
+- Yang, Yaodong, Rui Luo, Minne Li, Ming Zhou, Weinan Zhang, and Jun Wang. 2018. "Mean Field Multi-Agent Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/yang18d.html][research_yang_et_al_2018_mean_field]
+- Yang, Ma, Kalantidis, and Kavukcuoglu. 2020. *BC Adversarial*. [https://scholar.google.com/scholar?q=BC+Adversarial+Yang+2020][research_yang_et_al_2020_bcqar]
+- Yu, Tianhe, Chelsea Finn, Annie Xie, et al. 2018. "One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1802.01557][research_yu_et_al_2018_meta_imitation]
+- Yuan, Zheng, Hongyi Yuan, Chuanqi Tan, Wei Wang, Songfang Huang, and Fei Huang. 2023. "RRHF: Rank Responses to Align Language Models with Human Feedback without Tears." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2304.05302][research_yuan_et_al_2024_rrhf]
+- Zeng, Andy, Pete Florence, Jonathan Tompson, et al. 2021. "Transporter Networks: Rearranging the Visual World for Robotic Manipulation." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v155/zeng21a.html][research_zeng_et_al_2020_transporter]
+- Zheng, Lianmin, Wei-Lin Chiang, Ying Sheng, et al. 2023. "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena." In *Advances in Neural Information Processing Systems 36*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/075280-2020][research_zheng_et_al_2023_llm_judge]
+- Zhu, Yuke, Josiah Wong, Ajay Mandlekar, et al. 2020. "Robosuite: A Modular Simulation Framework and Benchmark for Robot Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2009.12293][research_zhu_et_al_2020_robosuite]
+- Ziebart, Maas, Bagnell, and Dey. 2008. *MaxEnt IRL*. [https://scholar.google.com/scholar?q=MaxEnt+IRL+Ziebart+Maas+Bagnell+2008][research_ziebart_et_al_2008_maxent]
+
+### Secondary Sources
+
+- Bandura, Albert. 1977. *Social Learning Theory*. Prentice Hall. [https://psycnet.apa.org/record/1978-05204-000][book_bandura_1977]
+- Camerer, Colin F. 2003. *Behavioral Game Theory: Experiments in Strategic Interaction (the Roundtable Series in Behavioral Economics)*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691090399/behavioral-game-theory][book_camerer_2003_behavioral]
+- Marschak and Radner. 1972. *Team Theory*. [https://yalebooks.yale.edu/book/9780300012651/economic-theory-of-teams/][book_marschak_radner_1972]
+- Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
+
+### Commercial Sources
+
+- "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
+- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+
+### General Sources
+
+- Azar, Rowland, Piot, Guo, Calandriello, and Munos. 2024. "IPO." [https://proceedings.mlr.press/v238/gheshlaghi-azar24a.html][research_azar_et_al_2024_ipo]
+- Bahdanau, Hill, Leike, Hughes, Kohli, and Grefenstette. 2019. "Learning Goals." [https://openreview.net/forum?id=H1xsSjC9Ym][research_bahdanau_et_al_2019]
+- Bain and Sammut. 1995. "\[Title not identified\]." Accessed October 25, 2026. [https://scholar.google.com/scholar?q=bain+sammut+1995+behavioural+cloning][research_bain_sammut_1995]
+- "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
+- Bhattacharyya Lu Vahia. 2020. "Imitation Gap." [https://proceedings.mlr.press/v139/bhattacharyya21a.html][research_bhattacharyya_lu_vahia_2020_gap]
+- Bousmalis, Irpan, Wohlhart, et al. 2018. "Sim-to-Real." [https://ieeexplore.ieee.org/document/8460875][research_bousmalis_et_al_2018]
+- Cao Cohen Szepesvári. 2021. "Identifiability." [https://papers.nips.cc/paper/2021/hash/6c5d70bfa4d40cb15afd7e6ba63b2f9d-Abstract.html][research_cao_cohen_szepesvari_2021_identifiability]
+- Codevilla, Müller, López, Koltun, and Dosovitskiy. 2018. "CIL." [https://ieeexplore.ieee.org/document/8460487][research_codevilla_et_al_2018_cil]
+- Finn Levine Abbeel. 2016. "GCL." [https://proceedings.mlr.press/v48/finn16.html][research_finn_levine_abbeel_2016_gcl]
+- Fisac. 2020. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/9020123][research_fisac_et_al_2020]
+- Foerster. 2016. "RIAL." [https://papers.nips.cc/paper/2016/hash/c7635bfd99248a2cdef8249ef7bfbef4-Abstract.html][research_foerster_et_al_2016_rial]
+- Foerster Assael de Freitas Whiteson. 2016. "DIAL." [https://papers.nips.cc/paper/2016/hash/c7635bfd99248a2cdef8249ef7bfbef4-Abstract.html][research_foerster_et_al_2016_dial]
+- Frith and Frith. 2005. "ToM." [https://www.cell.com/current-biology/fulltext/S0960-9822(05)00990-9][research_frith_frith_2005_tom]
+- Fu Luo Levine. 2018. "AIRL." [https://openreview.net/forum?id=rkHywl-A-][research_fu_luo_levine_2018_airl]
+- Hadfield-Menell Milli Abbeel Russell Dragan. 2017. "IRD." [https://papers.nips.cc/paper/2017/hash/32fdab6559cdfa4f167f8c31b9199643-Abstract.html][research_hadfield_menell_et_al_2017_ird]
+- Hadfield-Menell Russell Abbeel Dragan. 2016. "CIRL." [https://papers.nips.cc/paper/2016/hash/c3395dd46c34fa7fd8d729d8cf88b7a8-Abstract.html][research_hadfield_menell_et_al_2016_cirl]
+- Herman. 1980. "Dolphins." [https://link.springer.com/chapter/10.1007/978-1-4684-3606-5\_9][research_herman_1980_dolphins]
+- Ho and Ermon. 2016. "GAIL." [https://papers.nips.cc/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html][research_ho_ermon_2016_gail]
+- Ke, Barnes, Sun, et al. 2021. "f-GAIL." [https://proceedings.mlr.press/v139/ke21a.html][research_ke_et_al_2021_fgail]
+- Kostrikov Chiba Fergus. 2020. "DAC." [https://openreview.net/forum?id=Hk4fpoA5Km][research_kostrikov_chiba_fergus_2020_dac]
+- Krakovna. 2020. "Specification Gaming: The Flip Side of AI Ingenuity." *Google DeepMind*. Accessed October 25, 2026. [https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/][research_krakovna_et_al_2020_specification_gaming]
+- Kuniyoshi, Inaba, and Inoue. 1994. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/338084][research_kuniyoshi_inaba_inoue_1994]
+- Lanctot, Zambaldi, Gruslys, et al. 2017. "PSRO." [https://papers.nips.cc/paper/2017/hash/3323fe11e9595c09af38fe67567a9394-Abstract.html][research_lanctot_et_al_2017_psro]
+- Lazaridou, Peysakhovich, and Baroni. 2017. "Emergent." [https://openreview.net/forum?id=Hk8N3Sclg][research_lazaridou_et_al_2017]
+- Lee Smith Krishnan Abbeel. 2021. "PEBBLE." [https://proceedings.mlr.press/v139/lee21e.html][research_lee_smith_krishnan_abbeel_2021_pebble_a260]
+- Levine Popovic Koltun. 2011. "Nonlinear IRL." [https://papers.nips.cc/paper/2011/hash/c8ba76c279269b1c6bc8a07e38e78fa4-Abstract.html][research_levine_popovic_koltun_2011]
+- Littman. 1994. "Markov Games." [https://www.sciencedirect.com/science/article/pii/B9781558603356500271][research_littman_1994_markov_games]
+- Lowe, Wu, Tamar, Harb, Abbeel, and Mordatch. 2017. "MADDPG." [https://papers.nips.cc/paper/2017/hash/68a9750337a418a86fe06c1991a1d64c-Abstract.html][research_lowe_et_al_2017_maddpg]
+- MacGlashan, Ho, Loftin, et al. 2017. "COACH." [https://proceedings.mlr.press/v70/macglashan17a.html][research_macglashan_et_al_2017_coach]
+- Ng and Russell. 2000. "IRL." [https://dl.acm.org/doi/10.5555/645529.657801][research_ng_russell_2000_irl]
+- Rabinowitz, Perbet, Song, Zhang, Eslami, and Botvinick. 2018. "ToM." [https://proceedings.mlr.press/v80/rabinowitz18a.html][research_rabinowitz_et_al_2018_tom]
+- Raileanu, Denton, Szlam, and Fergus. 2018. "SOM." [https://proceedings.mlr.press/v80/raileanu18a.html][research_raileanu_et_al_2018_som]
+- Ramachandran and Amir. 2007. "Bayesian IRL." [https://www.ijcai.org/Proceedings/07/Papers/416.pdf][research_ramachandran_amir_2007_bayesian_irl]
+- Ross Gordon Bagnell. 2011. "DAgger." [https://proceedings.mlr.press/v15/ross11a.html][research_ross_gordon_bagnell_2011]
+- Schaal. 1999. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S1364661399013275][research_schaal_1999]
+- "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
+- "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
+- Sukhbaatar Szlam Fergus. 2016. "CommNet." [https://papers.nips.cc/paper/2016/hash/55b1927fdafef39c48e5b73b5d61ea60-Abstract.html][research_sukhbaatar_szlam_fergus_2016_commnet]
+- Sunehag. 2018. "VDN." [https://dl.acm.org/doi/10.5555/3237383.3238080][research_sunehag_et_al_2018_vdn]
+- Tomasello Kruger Ratner. 1993. "Cultural." [https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/cultural-learning/1E67DC22C1F6084961998ED89AE4CDDF][research_tomasello_et_al_1993_cultural]
+- Wimmer and Perner. 1983. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/abs/pii/0010027783900045][research_wimmer_perner_1983]
+- Xu, Nair, Zhu, et al. 2018. "NTP." [https://ieeexplore.ieee.org/document/8460689][research_xu_et_al_2018_ntp]
+- Yu, Velu, Vinitsky, et al. 2022. "MAPPO." [https://papers.nips.cc/paper\_files/paper/2022/hash/9c1535a02f0ce079433344e14d910597-Abstract-Datasets\_and\_Benchmarks.html][research_yu_et_al_2022_mappo]
+- Zakka, Nair, Miki, and Levine. 2022. "Cross-Embodiment." [https://proceedings.mlr.press/v205/zakka23a.html][research_zakka_et_al_2022_cross_embodiment]
+- Zhu Jiao Jordan. 2023. "Preference Theory." [https://proceedings.mlr.press/v202/zhu23f.html][research_zhu_jiao_jordan_2023]
 
 ### Related Posts
 
-- [A250 Machines That Learn From Experience Framing][related_post_a250_framing]
-- [A251 Machines That Learn From Experience Bandits and Online Learning][related_post_a251_bandits]
-- [A252 Machines That Learn From Experience Reinforcement Learning Foundations][related_post_a252_rl_foundations]
-- [A253 Machines That Learn From Experience Deep Reinforcement Learning][related_post_a253_deep_rl]
-- [A254 Machines That Learn From Experience Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]
-- [A255 Machines That Learn From Experience Hierarchical Reinforcement Learning][related_post_a255_hierarchical]
-- [A256 Machines That Learn From Experience World Models and Predictive Model-Based Adaptation][related_post_a256_world_models]
-- [A257 Machines That Learn From Experience Offline and Batch Reinforcement Learning][related_post_a257_offline]
-- [A258 Machines That Learn From Experience Meta-Learning and Online Adaptation][related_post_a258_meta_learning]
-- [A259 Machines That Learn From Experience Continual and Lifelong Learning][related_post_a259_continual]
-
-### Research
-
-- [Abbeel and Ng 2004 Apprenticeship][research_abbeel_ng_2004_apprenticeship]
-- [Ahn et al 2022 SayCan][research_ahn_et_al_2022_saycan]
-- [Akrour Schoenauer Sebag 2011][research_akrour_schoenauer_sebag_2011]
-- [Al-Shedivat et al 2018 Meta-MAPG][research_al_shedivat_et_al_2018_meta_mapg]
-- [Amodei et al 2016 Concrete Safety][research_amodei_et_al_2016_safety]
-- [Andreas Klein Levine 2017][research_andreas_klein_levine_2017]
-- [Argall et al 2009 LfD Survey][research_argall_et_al_2009_lfd_survey]
-- [Aytar et al 2018 YouTube][research_aytar_et_al_2018]
-- [Azar et al 2024 IPO][research_azar_et_al_2024_ipo]
-- [Bahdanau et al 2019 Learning Goals][research_bahdanau_et_al_2019]
-- [Bahl Gupta Kumar 2022 Human-to-Robot][research_bahl_gupta_kumar_2022]
-- [Bai et al 2022 Constitutional AI][research_bai_et_al_2022_constitutional]
-- [Bain and Sammut 1995][research_bain_sammut_1995]
-- [Baker et al 2020 Emergent Tool Use][research_baker_et_al_2020_tool_use]
-- [Baker et al 2022 VPT][research_baker_et_al_2022_vpt]
-- [Bakhtin et al 2022 Diplomacy][research_bakhtin_et_al_2022_diplomacy]
-- [Balduzzi et al 2019 Open-Ended][research_balduzzi_et_al_2019_open_ended]
-- [Bansal et al 2018 Emergent Complexity][research_bansal_et_al_2018]
-- [Baram et al 2017 End-to-End][research_baram_et_al_2017]
-- [Baron-Cohen Leslie Frith 1985][research_baron_cohen_leslie_frith_1985]
-- [Behrens Hunt Woolrich Rushworth 2008][research_behrens_et_al_2008]
-- [Berner et al 2019 OpenAI Five][research_berner_et_al_2019_openai_five]
-- [Bhattacharyya Lu Vahia 2020 Imitation Gap][research_bhattacharyya_lu_vahia_2020_gap]
-- [Billard Calinon Dillmann Schaal 2008][research_billard_et_al_2008]
-- [Boularias Kober Peters 2011 Relative Entropy IRL][research_boularias_kober_peters_2011]
-- [Bousmalis et al 2018 Sim-to-Real][research_bousmalis_et_al_2018]
-- [Bowling and Veloso 2002 WoLF][research_bowling_veloso_2002_wolf]
-- [Brohan et al 2022 RT-1][research_brohan_et_al_2022_rt1_a260]
-- [Brohan et al 2023 RT-2][research_brohan_et_al_2023_rt2_a260]
-- [Brown and Sandholm 2019 Pluribus][research_brown_sandholm_2019_pluribus]
-- [Cao Cohen Szepesvári 2021 Identifiability][research_cao_cohen_szepesvari_2021_identifiability]
-- [Casper et al 2023 RLHF Survey][research_casper_et_al_2023_rlhf_survey]
-- [Chakraborty et al 2024 Distributional Preference][research_chakraborty_et_al_2024_distributional]
-- [Chen Nair Agrawal 2021][research_chen_nair_agrawal_2021]
-- [Chevalier-Boisvert et al 2019 BabyAI][research_chevalier_boisvert_et_al_2019_babyai]
-- [Christiano et al 2017 RLHF][research_christiano_et_al_2017_rlhf]
-- [Christiano Shlegeris Amodei 2018 Amplification][research_christiano_shlegeris_amodei_2018_amplification]
-- [Codevilla et al 2018 CIL][research_codevilla_et_al_2018_cil]
-- [Conitzer et al 2024 Social Choice][research_conitzer_et_al_2024_social_choice]
-- [Coste et al 2024 Ensembles][research_coste_et_al_2024_ensembles]
-- [Csibra and Gergely 2009 Natural Pedagogy][research_csibra_gergely_2009_natural_pedagogy]
-- [Das et al 2019 TarMAC][research_das_et_al_2019_tarmac]
-- [Daskalakis Goldberg Papadimitriou 2009 Nash][research_daskalakis_et_al_2009_nash]
-- [de Witt et al 2020 IPPO][research_de_witt_et_al_2020_ippo]
-- [Dong et al 2023 RAFT][research_dong_et_al_2023_raft]
-- [Duan et al 2017 One-Shot][research_duan_et_al_2017_one_shot]
-- [Dubois et al 2023 Alpaca-Farm][research_dubois_et_al_2023_alpaca_farm]
-- [Eisenstein et al 2023][research_eisenstein_et_al_2023]
-- [Ethayarajh et al 2024 KTO][research_ethayarajh_et_al_2024_kto]
-- [FAIR et al 2022 Cicero][research_fair_et_al_2022_cicero]
-- [Fern et al 2014 Assistance][research_fern_et_al_2014_assistance]
-- [Finn et al 2017 Meta-Imitation][research_finn_et_al_2017_meta_imitation]
-- [Finn Levine Abbeel 2016 GCL][research_finn_levine_abbeel_2016_gcl]
-- [Fisac et al 2020][research_fisac_et_al_2020]
-- [Florence et al 2022 Implicit BC][research_florence_et_al_2022_implicit_bc]
-- [Florence Manuelli Tedrake 2018 Dense Object Nets][research_florence_manuelli_tedrake_2018]
-- [Foerster Assael de Freitas Whiteson 2016 DIAL][research_foerster_et_al_2016_dial]
-- [Foerster Chen Al-Shedivat Whiteson Abbeel Mordatch 2018 LOLA][research_foerster_et_al_2018_lola]
-- [Foerster et al 2016 RIAL][research_foerster_et_al_2016_rial]
-- [Foerster Farquhar Afouras Nardelli Whiteson 2018 COMA][research_foerster_et_al_2018_coma]
-- [Frith and Frith 2005 ToM][research_frith_frith_2005_tom]
-- [Fu Luo Levine 2018 AIRL][research_fu_luo_levine_2018_airl]
-- [Gao Schulman Hilton 2023 Scaling Laws][research_gao_schulman_hilton_2023]
-- [Ghasemipour Zemel Gu 2020 Divergence][research_ghasemipour_zemel_gu_2020]
-- [Guss et al 2019 MineRL][research_guss_et_al_2019_minerl]
-- [Havrylov and Titov 2017 Emergent Translation][research_havrylov_titov_2017]
-- [He et al 2016 Opponent][research_he_et_al_2016_opponent]
-- [Hadfield-Menell Dragan Abbeel Russell 2017 Off-Switch][research_hadfield_menell_et_al_2017_off_switch]
-- [Hadfield-Menell Milli Abbeel Russell Dragan 2017 IRD][research_hadfield_menell_et_al_2017_ird]
-- [Hadfield-Menell Russell Abbeel Dragan 2016 CIRL][research_hadfield_menell_et_al_2016_cirl]
-- [Heinrich and Silver 2016 NFSP][research_heinrich_silver_2016_nfsp]
-- [Herman 1980 Dolphins][research_herman_1980_dolphins]
-- [Hermann et al 2017][research_hermann_et_al_2017]
-- [Ho and Ermon 2016 GAIL][research_ho_ermon_2016_gail]
-- [Ho and Griffiths 2022][research_ho_griffiths_2022]
-- [Hu and Wellman 2003 Nash-Q][research_hu_wellman_2003_nashq]
-- [Hubinger et al 2019 Deceptive][research_hubinger_et_al_2019_deceptive]
-- [Iacoboni 2009 Mirror][research_iacoboni_2009_mirror]
-- [Ibarz et al 2018][research_ibarz_et_al_2018]
-- [Ijspeert et al 2013 DMP][research_ijspeert_et_al_2013_dmp]
-- [Irving Christiano Amodei 2018 Debate][research_irving_christiano_amodei_2018_debate]
-- [Jaderberg et al 2017 PBT][research_jaderberg_et_al_2017_pbt]
-- [Kirby Cornish Smith 2015 Iterated Learning][research_kirby_cornish_smith_2015]
-- [Krakovna et al 2020 Specification Gaming][research_krakovna_et_al_2020_specification_gaming]
-- [Kanervisto et al 2020 BC][research_kanervisto_et_al_2020]
-- [Ke et al 2021 f-GAIL][research_ke_et_al_2021_fgail]
-- [Kelly et al 2019 HG-DAgger][research_kelly_et_al_2019_hg_dagger]
-- [Kim et al 2023 Preference Transformer][research_kim_et_al_2023_pt_a260]
-- [Knox and Stone 2009 TAMER][research_knox_stone_2009_tamer]
-- [Kostrikov Chiba Fergus 2020 DAC][research_kostrikov_chiba_fergus_2020_dac]
-- [Kuniyoshi Inaba Inoue 1994][research_kuniyoshi_inaba_inoue_1994]
-- [Kurach et al 2020 Google Football][research_kurach_et_al_2020_grf]
-- [Lambert et al 2024 Reward Bench][research_lambert_et_al_2024_reward_bench]
-- [Lanctot et al 2017 PSRO][research_lanctot_et_al_2017_psro]
-- [Langosco et al 2022 Goal Misgeneralization][research_langosco_et_al_2022_goal_misgen]
-- [Lazaridou et al 2017 Emergent][research_lazaridou_et_al_2017]
-- [Lee Smith Krishnan Abbeel 2021 PEBBLE][research_lee_smith_krishnan_abbeel_2021_pebble_a260]
-- [Leibo et al 2021 Melting Pot][research_leibo_et_al_2021_melting_pot]
-- [Levine Popovic Koltun 2011 Nonlinear IRL][research_levine_popovic_koltun_2011]
-- [Littman 1994 Markov Games][research_littman_1994_markov_games]
-- [Lowe et al 2017 MADDPG][research_lowe_et_al_2017_maddpg]
-- [Lynch and Sermanet 2021 LCBC][research_lynch_sermanet_2021]
-- [Lynch et al 2020 Play][research_lynch_et_al_2020_play]
-- [Ma et al 2023 VIP][research_ma_et_al_2023_vip]
-- [MacGlashan et al 2017 COACH][research_macglashan_et_al_2017_coach]
-- [Meltzoff and Moore 1977 Neonatal Imitation][research_meltzoff_moore_1977]
-- [Moravčík et al 2017 DeepStack][research_moravcik_et_al_2017_deepstack]
-- [Nair et al 2022 R3M][research_nair_et_al_2022_r3m]
-- [Ng and Russell 2000 IRL][research_ng_russell_2000_irl]
-- [Osa et al 2018 Imitation Survey][research_osa_et_al_2018_imitation_survey]
-- [Ouyang et al 2022 InstructGPT][research_ouyang_et_al_2022_instructgpt]
-- [Padalkar et al 2024 Open X-Embodiment][research_padalkar_et_al_2024_a260]
-- [Panait and Luke 2005 Cooperative Survey][research_panait_luke_2005_survey]
-- [Papoudakis et al 2021 Benchmarking][research_papoudakis_et_al_2021_benchmarking]
-- [Peng et al 2018 DeepMimic][research_peng_et_al_2018_deepmimic]
-- [Poddar et al 2024 Personalized RLHF][research_poddar_et_al_2024_personalized]
-- [Pomerleau 1988 ALVINN][research_pomerleau_1988_alvinn]
-- [Rabinowitz et al 2018 ToM][research_rabinowitz_et_al_2018_tom]
-- [Rafailov et al 2023 DPO][research_rafailov_et_al_2023_dpo]
-- [Raileanu et al 2018 SOM][research_raileanu_et_al_2018_som]
-- [Rajaraman et al 2020][research_rajaraman_et_al_2020]
-- [Rajeswaran et al 2018 DAPG][research_rajeswaran_et_al_2018_dapg]
-- [Rakelly et al 2021 LSD][research_rakelly_et_al_2021_lsd]
-- [Ramachandran and Amir 2007 Bayesian IRL][research_ramachandran_amir_2007_bayesian_irl]
-- [Rame et al 2024 Weight Avg][research_rame_et_al_2024_weight_avg]
-- [Rashid et al 2018 QMIX][research_rashid_et_al_2018_qmix]
-- [Ravichandar Polydoros Chernova Billard 2020 LfD Survey][research_ravichandar_et_al_2020_lfd_survey]
-- [Reddy Dragan Levine 2020 SQIL][research_reddy_dragan_levine_2020_sqil]
-- [Reed et al 2022 Gato][research_reed_et_al_2022_gato_a260]
-- [Rizzolatti and Craighero 2004 Mirror][research_rizzolatti_craighero_2004_mirror]
-- [Ross and Bagnell 2010 Reductions][research_ross_bagnell_2010_efficient]
-- [Ross and Bagnell 2014 AggreVaTe][research_ross_bagnell_2014_aggrevate]
-- [Ross et al 2013 Interactive][research_ross_et_al_2013_interactive]
-- [Ross Gordon Bagnell 2011 DAgger][research_ross_gordon_bagnell_2011]
-- [Sadigh Dragan Sastry Seshia 2017 Active][research_sadigh_et_al_2017_active]
-- [Samvelyan et al 2019 SMAC][research_samvelyan_et_al_2019_smac]
-- [Schaal 1997][research_schaal_1997]
-- [Schaal 1999][research_schaal_1999]
-- [Schrittwieser et al 2020 MuZero][research_schrittwieser_et_al_2020_muzero]
-- [Sermanet et al 2018 TCN][research_sermanet_et_al_2018_tcn]
-- [Sermanet Xu Levine 2016 Perceptual Rewards][research_sermanet_xu_levine_2016]
-- [Shridhar Manuelli Fox 2022 CLIPort][research_shridhar_manuelli_fox_2022_cliport]
-- [Singhal et al 2024 Length Bias][research_singhal_et_al_2024_length_bias]
-- [Skalse et al 2022 Hacking][research_skalse_et_al_2022_hacking]
-- [Sorensen et al 2024 Pluralistic][research_sorensen_et_al_2024_pluralistic]
-- [Silver et al 2016 AlphaGo][research_silver_et_al_2016_alphago]
-- [Silver et al 2017 AlphaGo Zero][research_silver_et_al_2017_alphago_zero]
-- [Silver et al 2018 AlphaZero][research_silver_et_al_2018_alphazero]
-- [Son et al 2019 QTRAN][research_son_et_al_2019_qtran]
-- [Stadie Abbeel Sutskever 2017 Third-Person][research_stadie_abbeel_sutskever_2017]
-- [Sukhbaatar Szlam Fergus 2016 CommNet][research_sukhbaatar_szlam_fergus_2016_commnet]
-- [Sun et al 2017 AggreVaTeD][research_sun_et_al_2017_aggrevated]
-- [Sunehag et al 2018 VDN][research_sunehag_et_al_2018_vdn]
-- [Tampuu et al 2017][research_tampuu_et_al_2017]
-- [Tesauro 1995 TD-Gammon][research_tesauro_1995_tdgammon]
-- [Tomasello Kruger Ratner 1993 Cultural][research_tomasello_et_al_1993_cultural]
-- [Torabi Warnell Stone 2018 BCO][research_torabi_warnell_stone_2018_bco]
-- [Tunstall et al 2023 Zephyr][research_tunstall_et_al_2023_zephyr]
-- [Vinyals et al 2019 AlphaStar][research_vinyals_et_al_2019_alphastar]
-- [Wang et al 2023 Voyager][research_wang_et_al_2023_voyager]
-- [Warnell et al 2018 Deep TAMER][research_warnell_et_al_2018_deep_tamer]
-- [Whiten 2000 Primate Culture][research_whiten_2000_culture]
-- [Wilde et al 2023][research_wilde_et_al_2023]
-- [Wilson Fern Tadepalli 2012][research_wilson_fern_tadepalli_2012]
-- [Wimmer and Perner 1983][research_wimmer_perner_1983]
-- [Wirth Akrour Neumann Fürnkranz 2017][research_wirth_et_al_2017_pref_survey]
-- [Wu et al 2023 Expert-Adjusted][research_wu_et_al_2023_expert]
-- [Wulfmeier Ondruska Posner 2015 Deep IRL][research_wulfmeier_ondruska_posner_2015]
-- [Xu et al 2018 NTP][research_xu_et_al_2018_ntp]
-- [Xu et al 2024 Iterative DPO][research_xu_et_al_2024_iterative_dpo]
-- [Zakka et al 2022 Cross-Embodiment][research_zakka_et_al_2022_cross_embodiment]
-- [Zeng et al 2020 Transporter][research_zeng_et_al_2020_transporter]
-- [Yang et al 2018 Mean-Field][research_yang_et_al_2018_mean_field]
-- [Yang et al 2020 BC Adversarial][research_yang_et_al_2020_bcqar]
-- [Yu et al 2018 Meta-Imitation Video][research_yu_et_al_2018_meta_imitation]
-- [Yu et al 2022 MAPPO][research_yu_et_al_2022_mappo]
-- [Yuan et al 2024 RRHF][research_yuan_et_al_2024_rrhf]
-- [Zheng et al 2023 LLM Judge][research_zheng_et_al_2023_llm_judge]
-- [Zhu et al 2020 RoboSuite][research_zhu_et_al_2020_robosuite]
-- [Zhu Jiao Jordan 2023 Preference Theory][research_zhu_jiao_jordan_2023]
-- [Ziebart Maas Bagnell Dey 2008 MaxEnt IRL][research_ziebart_et_al_2008_maxent]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Framing." *Brendan A R Sechter's Development Blog*, December 18. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/18/machines\_that\_learn\_from\_experience\_framing.html][related_post_a250_framing]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Bandits and Online Learning." *Brendan A R Sechter's Development Blog*, December 19. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/19/machines\_that\_learn\_from\_experience\_bandits\_and\_online\_learning.html][related_post_a251_bandits]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Reinforcement Learning Foundations." *Brendan A R Sechter's Development Blog*, December 20. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/20/machines\_that\_learn\_from\_experience\_reinforcement\_learning\_foundations.html][related_post_a252_rl_foundations]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Deep Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 21. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/21/machines\_that\_learn\_from\_experience\_deep\_reinforcement\_learning.html][related_post_a253_deep_rl]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Exploration, Intrinsic Motivation, and Curiosity." *Brendan A R Sechter's Development Blog*, December 22. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/22/machines\_that\_learn\_from\_experience\_exploration\_intrinsic\_motivation\_and\_curiosity.html][related_post_a254_exploration]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Hierarchical Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 23. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/23/machines\_that\_learn\_from\_experience\_hierarchical\_reinforcement\_learning.html][related_post_a255_hierarchical]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: World Models and Predictive, Model-Based Adaptation." *Brendan A R Sechter's Development Blog*, December 24. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/24/machines\_that\_learn\_from\_experience\_world\_models\_and\_predictive\_model\_based\_adaptation.html][related_post_a256_world_models]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Offline and Batch Reinforcement Learning." *Brendan A R Sechter's Development Blog*, December 25. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/25/machines\_that\_learn\_from\_experience\_offline\_and\_batch\_reinforcement\_learning.html][related_post_a257_offline]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Meta-Learning and Online Adaptation." *Brendan A R Sechter's Development Blog*, December 26. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/26/machines\_that\_learn\_from\_experience\_meta\_learning\_and\_online\_adaptation.html][related_post_a258_meta_learning]
+- Sechter, Brendan. 2025. "Machines That Learn From Experience: Continual and Lifelong Learning." *Brendan A R Sechter's Development Blog*, December 27. [https://sgeos.github.io/artificial-intelligence/machine-learning/neuroscience/2025/12/27/machines\_that\_learn\_from\_experience\_continual\_and\_lifelong\_learning.html][related_post_a259_continual]
 
 [book_bandura_1977]: https://psycnet.apa.org/record/1978-05204-000
 [book_camerer_2003_behavioral]: https://press.princeton.edu/books/paperback/9780691090399/behavioral-game-theory
@@ -863,99 +871,99 @@ Article fourteen returns to the NeuroAI bridge and treats the observational-lear
 [related_post_a257_offline]: {% post_url 2025-12-25-machines_that_learn_from_experience_offline_and_batch_reinforcement_learning %}
 [related_post_a258_meta_learning]: {% post_url 2025-12-26-machines_that_learn_from_experience_meta_learning_and_online_adaptation %}
 [related_post_a259_continual]: {% post_url 2025-12-27-machines_that_learn_from_experience_continual_and_lifelong_learning %}
-[research_abbeel_ng_2004_apprenticeship]: https://dl.acm.org/doi/10.1145/1015330.1015430
-[research_ahn_et_al_2022_saycan]: https://arxiv.org/abs/2204.01691
-[research_akrour_schoenauer_sebag_2011]: https://link.springer.com/chapter/10.1007/978-3-642-23780-5_11
+[research_abbeel_ng_2004_apprenticeship]: https://doi.org/10.1145/1015330.1015430
+[research_ahn_et_al_2022_saycan]: https://doi.org/10.48550/arxiv.2204.01691
+[research_akrour_schoenauer_sebag_2011]: https://doi.org/10.1007/978-3-642-23780-5_11
 [research_al_shedivat_et_al_2018_meta_mapg]: https://openreview.net/forum?id=Sk2u1g-0-
-[research_amodei_et_al_2016_safety]: https://arxiv.org/abs/1606.06565
+[research_amodei_et_al_2016_safety]: https://doi.org/10.48550/arxiv.1606.06565
 [research_andreas_klein_levine_2017]: https://proceedings.mlr.press/v70/andreas17a.html
-[research_argall_et_al_2009_lfd_survey]: https://www.sciencedirect.com/science/article/pii/S0921889008001772
-[research_aytar_et_al_2018]: https://papers.nips.cc/paper/2018/hash/35309226eb45ec366ca86a4329a2b7c3-Abstract.html
+[research_argall_et_al_2009_lfd_survey]: https://doi.org/10.1016/j.robot.2008.10.024
+[research_aytar_et_al_2018]: https://papers.nips.cc/paper_files/paper/2018/hash/35309226eb45ec366ca86a4329a2b7c3-Abstract.html
 [research_azar_et_al_2024_ipo]: https://proceedings.mlr.press/v238/gheshlaghi-azar24a.html
 [research_bahdanau_et_al_2019]: https://openreview.net/forum?id=H1xsSjC9Ym
-[research_bahl_gupta_kumar_2022]: https://proceedings.mlr.press/v205/bahl23a.html
-[research_bai_et_al_2022_constitutional]: https://arxiv.org/abs/2212.08073
+[research_bahl_gupta_kumar_2022]: https://doi.org/10.15607/rss.2022.xviii.026
+[research_bai_et_al_2022_constitutional]: https://doi.org/10.48550/arxiv.2212.08073
 [research_bain_sammut_1995]: https://scholar.google.com/scholar?q=bain+sammut+1995+behavioural+cloning
 [research_baker_et_al_2020_tool_use]: https://openreview.net/forum?id=SkxpxJBKwS
-[research_baker_et_al_2022_vpt]: https://papers.nips.cc/paper_files/paper/2022/hash/9c7008aff45b5d8f0973b23e1a22ada0-Abstract-Conference.html
-[research_bakhtin_et_al_2022_diplomacy]: https://papers.nips.cc/paper_files/paper/2022/hash/fbec8ee0d5e30d20ce8fb47ce07bcc41-Abstract-Conference.html
+[research_baker_et_al_2022_vpt]: https://doi.org/10.52202/068431-1789
+[research_bakhtin_et_al_2022_diplomacy]: https://papers.nips.cc/paper_files/paper/2021/hash/95f2b84de5660ddf45c8a34933a2e66f-Abstract.html
 [research_balduzzi_et_al_2019_open_ended]: https://proceedings.mlr.press/v97/balduzzi19a.html
 [research_bansal_et_al_2018]: https://openreview.net/forum?id=Sy0GnUxCb
 [research_baram_et_al_2017]: https://proceedings.mlr.press/v70/baram17a.html
-[research_baron_cohen_leslie_frith_1985]: https://www.sciencedirect.com/science/article/abs/pii/0010027785900228
-[research_behrens_et_al_2008]: https://www.nature.com/articles/nature07538
-[research_berner_et_al_2019_openai_five]: https://arxiv.org/abs/1912.06680
+[research_baron_cohen_leslie_frith_1985]: https://doi.org/10.1016/0010-0277(85)90022-8
+[research_behrens_et_al_2008]: https://doi.org/10.1038/nature07538
+[research_berner_et_al_2019_openai_five]: https://doi.org/10.48550/arxiv.1912.06680
 [research_bhattacharyya_lu_vahia_2020_gap]: https://proceedings.mlr.press/v139/bhattacharyya21a.html
-[research_billard_et_al_2008]: https://link.springer.com/chapter/10.1007/978-3-540-30301-5_60
+[research_billard_et_al_2008]: https://doi.org/10.1007/978-3-540-30301-5_60
 [research_boularias_kober_peters_2011]: https://proceedings.mlr.press/v15/boularias11a.html
 [research_bousmalis_et_al_2018]: https://ieeexplore.ieee.org/document/8460875
-[research_bowling_veloso_2002_wolf]: https://www.sciencedirect.com/science/article/pii/S0004370202001212
-[research_brohan_et_al_2022_rt1_a260]: https://arxiv.org/abs/2212.06817
-[research_brohan_et_al_2023_rt2_a260]: https://arxiv.org/abs/2307.15818
-[research_brown_sandholm_2019_pluribus]: https://www.science.org/doi/10.1126/science.aay2400
+[research_bowling_veloso_2002_wolf]: https://doi.org/10.1016/s0004-3702(02)00121-2
+[research_brohan_et_al_2022_rt1_a260]: https://doi.org/10.48550/arxiv.2212.06817
+[research_brohan_et_al_2023_rt2_a260]: https://doi.org/10.48550/arxiv.2307.15818
+[research_brown_sandholm_2019_pluribus]: https://doi.org/10.1126/science.aay2400
 [research_cao_cohen_szepesvari_2021_identifiability]: https://papers.nips.cc/paper/2021/hash/6c5d70bfa4d40cb15afd7e6ba63b2f9d-Abstract.html
-[research_casper_et_al_2023_rlhf_survey]: https://arxiv.org/abs/2307.15217
-[research_chakraborty_et_al_2024_distributional]: https://arxiv.org/abs/2402.08925
-[research_chen_nair_agrawal_2021]: https://arxiv.org/abs/2103.16817
+[research_casper_et_al_2023_rlhf_survey]: https://doi.org/10.48550/arxiv.2307.15217
+[research_chakraborty_et_al_2024_distributional]: https://doi.org/10.48550/arxiv.2402.08925
+[research_chen_nair_agrawal_2021]: https://doi.org/10.48550/arxiv.2103.16817
 [research_chevalier_boisvert_et_al_2019_babyai]: https://openreview.net/forum?id=rJeXCo0cYX
 [research_christiano_et_al_2017_rlhf]: https://papers.nips.cc/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html
-[research_christiano_shlegeris_amodei_2018_amplification]: https://arxiv.org/abs/1810.08575
+[research_christiano_shlegeris_amodei_2018_amplification]: https://doi.org/10.48550/arxiv.1810.08575
 [research_codevilla_et_al_2018_cil]: https://ieeexplore.ieee.org/document/8460487
-[research_conitzer_et_al_2024_social_choice]: https://arxiv.org/abs/2404.10271
+[research_conitzer_et_al_2024_social_choice]: https://doi.org/10.48550/arxiv.2404.10271
 [research_coste_et_al_2024_ensembles]: https://openreview.net/forum?id=dcjtMYkpXx
-[research_csibra_gergely_2009_natural_pedagogy]: https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(09)00034-4
+[research_csibra_gergely_2009_natural_pedagogy]: https://doi.org/10.1016/j.tics.2009.01.005
 [research_das_et_al_2019_tarmac]: https://proceedings.mlr.press/v97/das19a.html
-[research_daskalakis_et_al_2009_nash]: https://dl.acm.org/doi/10.1137/070699652
-[research_de_witt_et_al_2020_ippo]: https://arxiv.org/abs/2011.09533
-[research_dong_et_al_2023_raft]: https://arxiv.org/abs/2304.06767
+[research_daskalakis_et_al_2009_nash]: https://doi.org/10.1137/070699652
+[research_de_witt_et_al_2020_ippo]: https://doi.org/10.48550/arxiv.2011.09533
+[research_dong_et_al_2023_raft]: https://doi.org/10.48550/arxiv.2304.06767
 [research_duan_et_al_2017_one_shot]: https://papers.nips.cc/paper/2017/hash/ba3866600c3540f67c1e9575e213be0a-Abstract.html
-[research_dubois_et_al_2023_alpaca_farm]: https://papers.nips.cc/paper_files/paper/2023/hash/5fc47800ee5b30b8777fdd30abcaaf3b-Abstract-Conference.html
+[research_dubois_et_al_2023_alpaca_farm]: https://doi.org/10.52202/075280-1308
 [research_eisenstein_et_al_2023]: https://arxiv.org/abs/2312.09244
-[research_ethayarajh_et_al_2024_kto]: https://arxiv.org/abs/2402.01306
-[research_fair_et_al_2022_cicero]: https://www.science.org/doi/10.1126/science.ade9097
-[research_fern_et_al_2014_assistance]: https://www.jair.org/index.php/jair/article/view/10930
+[research_ethayarajh_et_al_2024_kto]: https://doi.org/10.48550/arxiv.2402.01306
+[research_fair_et_al_2022_cicero]: https://scholar.google.com/scholar?q=Cicero+FAIR+2022
+[research_fern_et_al_2014_assistance]: https://scholar.google.com/scholar?q=Assistance+Fern+2014
 [research_finn_et_al_2017_meta_imitation]: https://proceedings.mlr.press/v78/finn17a.html
 [research_finn_levine_abbeel_2016_gcl]: https://proceedings.mlr.press/v48/finn16.html
 [research_fisac_et_al_2020]: https://ieeexplore.ieee.org/document/9020123
 [research_florence_et_al_2022_implicit_bc]: https://proceedings.mlr.press/v164/florence22a.html
-[research_florence_manuelli_tedrake_2018]: https://arxiv.org/abs/1806.08756
+[research_florence_manuelli_tedrake_2018]: https://doi.org/10.48550/arxiv.1806.08756
 [research_foerster_et_al_2016_dial]: https://papers.nips.cc/paper/2016/hash/c7635bfd99248a2cdef8249ef7bfbef4-Abstract.html
 [research_foerster_et_al_2016_rial]: https://papers.nips.cc/paper/2016/hash/c7635bfd99248a2cdef8249ef7bfbef4-Abstract.html
-[research_foerster_et_al_2018_coma]: https://ojs.aaai.org/index.php/AAAI/article/view/11794
-[research_foerster_et_al_2018_lola]: https://arxiv.org/abs/1709.04326
+[research_foerster_et_al_2018_coma]: https://doi.org/10.1609/aaai.v32i1.11794
+[research_foerster_et_al_2018_lola]: https://doi.org/10.48550/arxiv.1709.04326
 [research_frith_frith_2005_tom]: https://www.cell.com/current-biology/fulltext/S0960-9822(05)00990-9
 [research_fu_luo_levine_2018_airl]: https://openreview.net/forum?id=rkHywl-A-
 [research_gao_schulman_hilton_2023]: https://proceedings.mlr.press/v202/gao23h.html
 [research_ghasemipour_zemel_gu_2020]: https://proceedings.mlr.press/v100/ghasemipour20a.html
-[research_guss_et_al_2019_minerl]: https://arxiv.org/abs/1907.13440
+[research_guss_et_al_2019_minerl]: https://doi.org/10.48550/arxiv.1907.13440
 [research_hadfield_menell_et_al_2016_cirl]: https://papers.nips.cc/paper/2016/hash/c3395dd46c34fa7fd8d729d8cf88b7a8-Abstract.html
 [research_hadfield_menell_et_al_2017_ird]: https://papers.nips.cc/paper/2017/hash/32fdab6559cdfa4f167f8c31b9199643-Abstract.html
-[research_hadfield_menell_et_al_2017_off_switch]: https://www.ijcai.org/proceedings/2017/0032
-[research_havrylov_titov_2017]: https://papers.nips.cc/paper/2017/hash/70222949cc0db89ab32c9969754d4758-Abstract.html
+[research_hadfield_menell_et_al_2017_off_switch]: https://doi.org/10.24963/ijcai.2017/32
+[research_havrylov_titov_2017]: https://papers.nips.cc/paper_files/paper/2017/hash/70222949cc0db89ab32c9969754d4758-Abstract.html
 [research_he_et_al_2016_opponent]: https://proceedings.mlr.press/v48/he16.html
-[research_heinrich_silver_2016_nfsp]: https://arxiv.org/abs/1603.01121
+[research_heinrich_silver_2016_nfsp]: https://doi.org/10.48550/arxiv.1603.01121
 [research_herman_1980_dolphins]: https://link.springer.com/chapter/10.1007/978-1-4684-3606-5_9
-[research_hermann_et_al_2017]: https://arxiv.org/abs/1706.06551
+[research_hermann_et_al_2017]: https://doi.org/10.48550/arxiv.1706.06551
 [research_ho_ermon_2016_gail]: https://papers.nips.cc/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html
-[research_ho_griffiths_2022]: https://www.pnas.org/doi/10.1073/pnas.2117201119
+[research_ho_griffiths_2022]: https://doi.org/10.48550/arxiv.2109.00127
 [research_hu_wellman_2003_nashq]: https://jmlr.org/papers/v4/hu03a.html
-[research_hubinger_et_al_2019_deceptive]: https://arxiv.org/abs/1906.01820
-[research_iacoboni_2009_mirror]: https://www.annualreviews.org/doi/10.1146/annurev.psych.60.110707.163604
+[research_hubinger_et_al_2019_deceptive]: https://doi.org/10.48550/arxiv.1906.01820
+[research_iacoboni_2009_mirror]: https://doi.org/10.1146/annurev.psych.60.110707.163604
 [research_ibarz_et_al_2018]: https://papers.nips.cc/paper/2018/hash/8cbe9ce23f42628c98f80fa0fac8b19a-Abstract.html
-[research_ijspeert_et_al_2013_dmp]: https://www.mitpressjournals.org/doi/10.1162/NECO_a_00393
-[research_irving_christiano_amodei_2018_debate]: https://arxiv.org/abs/1805.00899
-[research_jaderberg_et_al_2017_pbt]: https://arxiv.org/abs/1711.09846
-[research_kanervisto_et_al_2020]: https://arxiv.org/abs/2009.05819
+[research_ijspeert_et_al_2013_dmp]: https://doi.org/10.1162/neco_a_00393
+[research_irving_christiano_amodei_2018_debate]: https://doi.org/10.48550/arxiv.1805.00899
+[research_jaderberg_et_al_2017_pbt]: https://doi.org/10.48550/arxiv.1711.09846
+[research_kanervisto_et_al_2020]: https://scholar.google.com/scholar?q=BC+Kanervisto+2020
 [research_ke_et_al_2021_fgail]: https://proceedings.mlr.press/v139/ke21a.html
-[research_kelly_et_al_2019_hg_dagger]: https://ieeexplore.ieee.org/document/8794258
+[research_kelly_et_al_2019_hg_dagger]: https://doi.org/10.1109/icra.2019.8793698
 [research_kim_et_al_2023_pt_a260]: https://openreview.net/forum?id=Peot1SFDX0
-[research_kirby_cornish_smith_2015]: https://www.sciencedirect.com/science/article/pii/S1364661315001199
-[research_knox_stone_2009_tamer]: https://dl.acm.org/doi/10.1145/1597735.1597738
+[research_kirby_cornish_smith_2015]: https://scholar.google.com/scholar?q=Iterated+Learning+Kirby+Cornish+Smith+2015
+[research_knox_stone_2009_tamer]: https://doi.org/10.1145/1597735.1597738
 [research_kostrikov_chiba_fergus_2020_dac]: https://openreview.net/forum?id=Hk4fpoA5Km
 [research_krakovna_et_al_2020_specification_gaming]: https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/
 [research_kuniyoshi_inaba_inoue_1994]: https://ieeexplore.ieee.org/document/338084
-[research_kurach_et_al_2020_grf]: https://ojs.aaai.org/index.php/AAAI/article/view/5878
-[research_lambert_et_al_2024_reward_bench]: https://arxiv.org/abs/2403.13787
+[research_kurach_et_al_2020_grf]: https://doi.org/10.1609/aaai.v34i04.5878
+[research_lambert_et_al_2024_reward_bench]: https://doi.org/10.48550/arxiv.2403.13787
 [research_lanctot_et_al_2017_psro]: https://papers.nips.cc/paper/2017/hash/3323fe11e9595c09af38fe67567a9394-Abstract.html
 [research_langosco_et_al_2022_goal_misgen]: https://proceedings.mlr.press/v162/langosco22a.html
 [research_lazaridou_et_al_2017]: https://openreview.net/forum?id=Hk8N3Sclg
@@ -965,82 +973,82 @@ Article fourteen returns to the NeuroAI bridge and treats the observational-lear
 [research_littman_1994_markov_games]: https://www.sciencedirect.com/science/article/pii/B9781558603356500271
 [research_lowe_et_al_2017_maddpg]: https://papers.nips.cc/paper/2017/hash/68a9750337a418a86fe06c1991a1d64c-Abstract.html
 [research_lynch_et_al_2020_play]: https://proceedings.mlr.press/v100/lynch20a.html
-[research_lynch_sermanet_2021]: https://arxiv.org/abs/2005.07648
+[research_lynch_sermanet_2021]: https://doi.org/10.48550/arxiv.2005.07648
 [research_ma_et_al_2023_vip]: https://openreview.net/forum?id=YJ7o2wetJ2
 [research_macglashan_et_al_2017_coach]: https://proceedings.mlr.press/v70/macglashan17a.html
-[research_meltzoff_moore_1977]: https://www.science.org/doi/10.1126/science.897687
-[research_moravcik_et_al_2017_deepstack]: https://www.science.org/doi/10.1126/science.aam6960
+[research_meltzoff_moore_1977]: https://doi.org/10.1126/science.897687
+[research_moravcik_et_al_2017_deepstack]: https://doi.org/10.1126/science.aam6960
 [research_nair_et_al_2022_r3m]: https://proceedings.mlr.press/v205/nair23a.html
 [research_ng_russell_2000_irl]: https://dl.acm.org/doi/10.5555/645529.657801
-[research_osa_et_al_2018_imitation_survey]: https://www.nowpublishers.com/article/Details/ROB-053
-[research_ouyang_et_al_2022_instructgpt]: https://papers.nips.cc/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html
-[research_padalkar_et_al_2024_a260]: https://arxiv.org/abs/2310.08864
-[research_panait_luke_2005_survey]: https://link.springer.com/article/10.1007/s10458-005-2631-2
+[research_osa_et_al_2018_imitation_survey]: https://doi.org/10.1561/2300000053
+[research_ouyang_et_al_2022_instructgpt]: https://doi.org/10.52202/068431-2011
+[research_padalkar_et_al_2024_a260]: https://doi.org/10.48550/arxiv.2310.08864
+[research_panait_luke_2005_survey]: https://doi.org/10.1007/s10458-005-2631-2
 [research_papoudakis_et_al_2021_benchmarking]: https://openreview.net/forum?id=cIrPX-Sn5n
-[research_peng_et_al_2018_deepmimic]: https://dl.acm.org/doi/10.1145/3197517.3201311
-[research_poddar_et_al_2024_personalized]: https://arxiv.org/abs/2402.08925
+[research_peng_et_al_2018_deepmimic]: https://doi.org/10.1145/3197517.3201311
+[research_poddar_et_al_2024_personalized]: https://scholar.google.com/scholar?q=Personalized+RLHF+Poddar+2024
 [research_pomerleau_1988_alvinn]: https://papers.nips.cc/paper/1988/hash/812b4ba287f5ee0bc9d43bbf5bbe87fb-Abstract.html
 [research_rabinowitz_et_al_2018_tom]: https://proceedings.mlr.press/v80/rabinowitz18a.html
-[research_rafailov_et_al_2023_dpo]: https://papers.nips.cc/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html
+[research_rafailov_et_al_2023_dpo]: https://doi.org/10.52202/075280-2338
 [research_raileanu_et_al_2018_som]: https://proceedings.mlr.press/v80/raileanu18a.html
-[research_rajaraman_et_al_2020]: https://papers.nips.cc/paper/2020/hash/b5c01503041b70d41d80e3dbe31bbd8c-Abstract.html
-[research_rajeswaran_et_al_2018_dapg]: https://arxiv.org/abs/1709.10087
-[research_rakelly_et_al_2021_lsd]: https://arxiv.org/abs/2107.02073
+[research_rajaraman_et_al_2020]: https://scholar.google.com/scholar?q=Rajaraman+2020
+[research_rajeswaran_et_al_2018_dapg]: https://doi.org/10.48550/arxiv.1709.10087
+[research_rakelly_et_al_2021_lsd]: https://scholar.google.com/scholar?q=LSD+Rakelly+2021
 [research_ramachandran_amir_2007_bayesian_irl]: https://www.ijcai.org/Proceedings/07/Papers/416.pdf
-[research_rame_et_al_2024_weight_avg]: https://arxiv.org/abs/2401.12187
+[research_rame_et_al_2024_weight_avg]: https://doi.org/10.48550/arxiv.2401.12187
 [research_rashid_et_al_2018_qmix]: https://proceedings.mlr.press/v80/rashid18a.html
-[research_ravichandar_et_al_2020_lfd_survey]: https://www.annualreviews.org/doi/10.1146/annurev-control-100819-063206
+[research_ravichandar_et_al_2020_lfd_survey]: https://doi.org/10.1146/annurev-control-100819-063206
 [research_reddy_dragan_levine_2020_sqil]: https://openreview.net/forum?id=S1xKd24twB
-[research_reed_et_al_2022_gato_a260]: https://arxiv.org/abs/2205.06175
-[research_rizzolatti_craighero_2004_mirror]: https://www.annualreviews.org/doi/10.1146/annurev.neuro.27.070203.144230
+[research_reed_et_al_2022_gato_a260]: https://doi.org/10.48550/arxiv.2205.06175
+[research_rizzolatti_craighero_2004_mirror]: https://doi.org/10.1146/annurev.neuro.27.070203.144230
 [research_ross_bagnell_2010_efficient]: https://proceedings.mlr.press/v9/ross10a.html
-[research_ross_bagnell_2014_aggrevate]: https://arxiv.org/abs/1406.5979
-[research_ross_et_al_2013_interactive]: https://arxiv.org/abs/1306.5947
+[research_ross_bagnell_2014_aggrevate]: https://doi.org/10.48550/arxiv.1406.5979
+[research_ross_et_al_2013_interactive]: https://scholar.google.com/scholar?q=Interactive+Ross+2013
 [research_ross_gordon_bagnell_2011]: https://proceedings.mlr.press/v15/ross11a.html
-[research_sadigh_et_al_2017_active]: https://arxiv.org/abs/1704.03792
-[research_samvelyan_et_al_2019_smac]: https://arxiv.org/abs/1902.04043
+[research_sadigh_et_al_2017_active]: https://scholar.google.com/scholar?q=Active+Sadigh+Dragan+Sastry+2017
+[research_samvelyan_et_al_2019_smac]: https://doi.org/10.48550/arxiv.1902.04043
 [research_schaal_1997]: https://papers.nips.cc/paper/1996/hash/68d13cf26c4b4f4f932e3eff990093ba-Abstract.html
 [research_schaal_1999]: https://www.sciencedirect.com/science/article/pii/S1364661399013275
-[research_schrittwieser_et_al_2020_muzero]: https://www.nature.com/articles/s41586-020-03051-4
-[research_sermanet_et_al_2018_tcn]: https://arxiv.org/abs/1704.06888
-[research_sermanet_xu_levine_2016]: https://arxiv.org/abs/1612.06699
+[research_schrittwieser_et_al_2020_muzero]: https://doi.org/10.1038/s41586-020-03051-4
+[research_sermanet_et_al_2018_tcn]: https://doi.org/10.48550/arxiv.1704.06888
+[research_sermanet_xu_levine_2016]: https://doi.org/10.48550/arxiv.1612.06699
 [research_shridhar_manuelli_fox_2022_cliport]: https://proceedings.mlr.press/v164/shridhar22a.html
-[research_silver_et_al_2016_alphago]: https://www.nature.com/articles/nature16961
-[research_silver_et_al_2017_alphago_zero]: https://www.nature.com/articles/nature24270
-[research_silver_et_al_2018_alphazero]: https://www.science.org/doi/10.1126/science.aar6404
-[research_singhal_et_al_2024_length_bias]: https://arxiv.org/abs/2310.03716
-[research_skalse_et_al_2022_hacking]: https://papers.nips.cc/paper_files/paper/2022/hash/3d719fee332caa23d5038b8a90e81796-Abstract-Conference.html
+[research_silver_et_al_2016_alphago]: https://doi.org/10.1038/nature16961
+[research_silver_et_al_2017_alphago_zero]: https://doi.org/10.1038/nature24270
+[research_silver_et_al_2018_alphazero]: https://doi.org/10.1126/science.aar6404
+[research_singhal_et_al_2024_length_bias]: https://doi.org/10.48550/arxiv.2310.03716
+[research_skalse_et_al_2022_hacking]: https://doi.org/10.52202/068431-0687
 [research_son_et_al_2019_qtran]: https://proceedings.mlr.press/v97/son19a.html
-[research_sorensen_et_al_2024_pluralistic]: https://arxiv.org/abs/2402.05070
+[research_sorensen_et_al_2024_pluralistic]: https://doi.org/10.48550/arxiv.2402.05070
 [research_stadie_abbeel_sutskever_2017]: https://openreview.net/forum?id=B16dGcqlx
 [research_sukhbaatar_szlam_fergus_2016_commnet]: https://papers.nips.cc/paper/2016/hash/55b1927fdafef39c48e5b73b5d61ea60-Abstract.html
 [research_sun_et_al_2017_aggrevated]: https://proceedings.mlr.press/v70/sun17d.html
 [research_sunehag_et_al_2018_vdn]: https://dl.acm.org/doi/10.5555/3237383.3238080
-[research_tampuu_et_al_2017]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172395
-[research_tesauro_1995_tdgammon]: https://dl.acm.org/doi/10.1145/203330.203343
+[research_tampuu_et_al_2017]: https://doi.org/10.1371/journal.pone.0172395
+[research_tesauro_1995_tdgammon]: https://doi.org/10.1145/203330.203343
 [research_tomasello_et_al_1993_cultural]: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/cultural-learning/1E67DC22C1F6084961998ED89AE4CDDF
-[research_torabi_warnell_stone_2018_bco]: https://www.ijcai.org/proceedings/2018/687
-[research_tunstall_et_al_2023_zephyr]: https://arxiv.org/abs/2310.16944
-[research_vinyals_et_al_2019_alphastar]: https://www.nature.com/articles/s41586-019-1724-z
-[research_wang_et_al_2023_voyager]: https://arxiv.org/abs/2305.16291
-[research_warnell_et_al_2018_deep_tamer]: https://ojs.aaai.org/index.php/AAAI/article/view/11485
-[research_whiten_2000_culture]: https://www.nature.com/articles/17169
-[research_wilde_et_al_2023]: https://arxiv.org/abs/2306.13906
+[research_torabi_warnell_stone_2018_bco]: https://doi.org/10.24963/ijcai.2018/687
+[research_tunstall_et_al_2023_zephyr]: https://doi.org/10.48550/arxiv.2310.16944
+[research_vinyals_et_al_2019_alphastar]: https://doi.org/10.1038/s41586-019-1724-z
+[research_wang_et_al_2023_voyager]: https://doi.org/10.48550/arxiv.2305.16291
+[research_warnell_et_al_2018_deep_tamer]: https://doi.org/10.1609/aaai.v32i1.11485
+[research_whiten_2000_culture]: https://doi.org/10.1207/s15516709cog2403_6
+[research_wilde_et_al_2023]: https://scholar.google.com/scholar?q=Wilde+2023
 [research_wilson_fern_tadepalli_2012]: https://papers.nips.cc/paper/2012/hash/16c222aa19898e5058938167c8ab6c57-Abstract.html
 [research_wimmer_perner_1983]: https://www.sciencedirect.com/science/article/abs/pii/0010027783900045
 [research_wirth_et_al_2017_pref_survey]: https://jmlr.org/papers/v18/16-634.html
-[research_wu_et_al_2023_expert]: https://arxiv.org/abs/2311.09528
-[research_wulfmeier_ondruska_posner_2015]: https://arxiv.org/abs/1507.04888
+[research_wu_et_al_2023_expert]: https://scholar.google.com/scholar?q=Expert-Adjusted+Wu+2023
+[research_wulfmeier_ondruska_posner_2015]: https://doi.org/10.48550/arxiv.1507.04888
 [research_xu_et_al_2018_ntp]: https://ieeexplore.ieee.org/document/8460689
-[research_xu_et_al_2024_iterative_dpo]: https://arxiv.org/abs/2404.10719
+[research_xu_et_al_2024_iterative_dpo]: https://doi.org/10.48550/arxiv.2404.10719
 [research_yang_et_al_2018_mean_field]: https://proceedings.mlr.press/v80/yang18d.html
-[research_yang_et_al_2020_bcqar]: https://arxiv.org/abs/2007.09990
-[research_yu_et_al_2018_meta_imitation]: https://arxiv.org/abs/1802.01557
+[research_yang_et_al_2020_bcqar]: https://scholar.google.com/scholar?q=BC+Adversarial+Yang+2020
+[research_yu_et_al_2018_meta_imitation]: https://doi.org/10.48550/arxiv.1802.01557
 [research_yu_et_al_2022_mappo]: https://papers.nips.cc/paper_files/paper/2022/hash/9c1535a02f0ce079433344e14d910597-Abstract-Datasets_and_Benchmarks.html
-[research_yuan_et_al_2024_rrhf]: https://arxiv.org/abs/2304.05302
+[research_yuan_et_al_2024_rrhf]: https://doi.org/10.48550/arxiv.2304.05302
 [research_zakka_et_al_2022_cross_embodiment]: https://proceedings.mlr.press/v205/zakka23a.html
 [research_zeng_et_al_2020_transporter]: https://proceedings.mlr.press/v155/zeng21a.html
-[research_zheng_et_al_2023_llm_judge]: https://papers.nips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html
-[research_zhu_et_al_2020_robosuite]: https://arxiv.org/abs/2009.12293
+[research_zheng_et_al_2023_llm_judge]: https://doi.org/10.52202/075280-2020
+[research_zhu_et_al_2020_robosuite]: https://doi.org/10.48550/arxiv.2009.12293
 [research_zhu_jiao_jordan_2023]: https://proceedings.mlr.press/v202/zhu23f.html
-[research_ziebart_et_al_2008_maxent]: https://ojs.aaai.org/index.php/AAAI/article/view/7688
+[research_ziebart_et_al_2008_maxent]: https://scholar.google.com/scholar?q=MaxEnt+IRL+Ziebart+Maas+Bagnell+2008

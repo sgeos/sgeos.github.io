@@ -1,0 +1,16 @@
+[
+ "ref_amaranth",
+ "ref_bluespec",
+ "ref_chisel",
+ "ref_clash",
+ "ref_hls",
+ "ref_myhdl",
+ "ref_psl",
+ "ref_spinalhdl",
+ "ref_systemc",
+ "ref_systemverilog",
+ "ref_uvm",
+ "ref_verilog",
+ "ref_vhdl",
+ "ref_yosys"
+]

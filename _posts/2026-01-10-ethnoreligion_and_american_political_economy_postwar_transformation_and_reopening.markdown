@@ -60,9 +60,9 @@ per institutional records. The [Divine 1957][book_divine_1957] American Immigrat
 
 ## Cold War Religious Mobilization
 
-Cold War religious mobilization shaped American national religious framework through the 1946-1989 period. Primary Cold War era religious-political texts include [Truman 1947 Truman Doctrine][ref_truman_doctrine_1947] speech of 12 March 1947 to Congress, [Eisenhower 1953 First Inaugural][ref_eisenhower_1953_inaugural] address of 20 January 1953 opening with extemporaneous prayer, and [Eisenhower 1955 Religion Statement][ref_eisenhower_1955_religion] "Our form of government has no sense unless it is founded in a deeply felt religious faith" declaration. The 1949 NATO founding, 1950-1953 Korean War, 1961 Cuban Missile Crisis, and ongoing US-Soviet strategic competition combined with religious framing distinguishing "godly America" from "atheistic Communism." The [Preston 2012][book_preston_2012] Sword of the Spirit, Shield of Faith (already cited in A271), [Herzog 2011][book_herzog_2011] The Spiritual-Industrial Complex, [Kruse 2015][book_kruse_2015] One Nation Under God, and [Whitfield 1996][book_whitfield_1996] The Culture of the Cold War provide the treatments.
+Cold War religious mobilization shaped American national religious framework through the 1946-1989 period. Primary Cold War era religious-political texts include [Truman 1947 Truman Doctrine][ref_truman_doctrine_1947] speech of 12 March 1947 to Congress, [Eisenhower 1953 First Inaugural][ref_eisenhower_1953_inaugural] address of 20 January 1953 opening with extemporaneous prayer, and [Eisenhower 1955 Religion Statement][ref_eisenhower_1955_religion] "Our form of government has no sense unless it is founded in a deeply felt religious faith" declaration. The 1949 NATO founding, 1950-1953 Korean War, 1961 Cuban Missile Crisis, and ongoing US-Soviet strategic competition combined with religious framing distinguishing "godly America" from "atheistic Communism." The [Preston 2012][book_preston_2012] Sword of the Spirit, Shield of Faith (already cited in A271), [Herzog 2011][book_herzog_2011] The Spiritual-Industrial Complex, [Kruse and Kruse 2015][book_kruse_2015] One Nation Under God, and [Whitfield 1996][book_whitfield_1996] The Culture of the Cold War provide the treatments.
 
-Institutional Cold War religious symbolic acts included 1954 [Pledge of Allegiance Amendment 1954][ref_pledge_amendment_1954] addition of "under God" to Pledge of Allegiance (June 14, 1954 signature by President Eisenhower), 1956 [In God We Trust Motto Act 1956][ref_in_god_we_trust_1956] establishing "In God We Trust" as national motto and mandating inclusion on paper currency (1957 initial implementation), and 1954 Internal Revenue Code section 501(c)(3) religious tax exemption codification expanding pre-existing religious exemption framework. Counterbalancing Supreme Court establishment clause jurisprudence emerged through 1947 [Everson v. Board of Education 1947][ref_everson_v_board_1947] Everson v. Board of Education (establishment clause incorporation to state action), 1962 [Engel v. Vitale 1962][ref_engel_v_vitale_1962] Engel v. Vitale (state-composed prayer prohibition in public schools), 1963 [Abington v. Schempp 1963][ref_abington_v_schempp_1963] Abington School District v. Schempp (Bible reading in public schools prohibition), and 1971 [Lemon v. Kurtzman 1971][ref_lemon_v_kurtzman_1971] Lemon v. Kurtzman (establishment clause "Lemon test" three-prong framework). Approximate ritual religious observance in American government contexts expanded considerably,
+Institutional Cold War religious symbolic acts included 1954 [Pledge of Allegiance Amendment 1954][ref_pledge_amendment_1954] addition of "under God" to Pledge of Allegiance (June 14, 1954 signature by President Eisenhower), 1956 [In God We Trust 1956][ref_in_god_we_trust_1956] establishing "In God We Trust" as national motto and mandating inclusion on paper currency (1957 initial implementation), and 1954 Internal Revenue Code section 501(c)(3) religious tax exemption codification expanding pre-existing religious exemption framework. Counterbalancing Supreme Court establishment clause jurisprudence emerged through 1947 [Everson v. Board 1947][ref_everson_v_board_1947] Everson v. Board of Education (establishment clause incorporation to state action), 1962 [Engel v. Vitale 1962][ref_engel_v_vitale_1962] Engel v. Vitale (state-composed prayer prohibition in public schools), 1963 [Abington v. Schempp 1963][ref_abington_v_schempp_1963] Abington School District v. Schempp (Bible reading in public schools prohibition), and 1971 [Lemon v. Kurtzman 1971][ref_lemon_v_kurtzman_1971] Lemon v. Kurtzman (establishment clause "Lemon test" three-prong framework). Approximate ritual religious observance in American government contexts expanded considerably,
 
 $$N_{\text{Congressional prayer breakfasts and related meetings, 1946 to 1980}} \gtrsim 5 \times 10^3, \quad C_{\text{federal military chaplaincy annual budget}}(1950) \approx 3 \times 10^7 \text{ USD nominal}, \quad C_{\text{same}}(1980) \approx 3 \times 10^8 \text{ USD nominal}$$
 
@@ -76,7 +76,7 @@ per Federal Communications Commission and National Religious Broadcasters record
 
 ## National and World Council of Churches Ecumenical Consolidation
 
-The 1948-1950 window produced sizable ecumenical Protestant institutional consolidation extending the Federal Council of Churches framework documented in [A272][related_post_a272_depression_war_and_refuge]. The World Council of Churches (WCC), founded 23 August 1948 at Amsterdam with 147 founding member denominations from 44 countries under Willem Visser 't Hooft's General Secretary leadership, provided the most substantial twentieth-century global ecumenical institutional formation. The [Cracknell and White 2005][book_cracknell_white_2005] An Introduction to World Christianity, [Fitzgerald 2004][book_fitzgerald_2004] The Ecumenical Movement, and [Kinnamon 2014][book_kinnamon_2014] Can a Renewal Movement Be Renewed provide the detailed treatments.
+The 1948-1950 window produced sizable ecumenical Protestant institutional consolidation extending the Federal Council of Churches framework documented in [A272][related_post_a272_depression_war_and_refuge]. The World Council of Churches (WCC), founded 23 August 1948 at Amsterdam with 147 founding member denominations from 44 countries under Willem Visser 't Hooft's General Secretary leadership, provided the most substantial twentieth-century global ecumenical institutional formation. The [Cracknell and White 2005][book_cracknell_white_2005] An Introduction to World Christianity, [FitzGerald 2004][book_fitzgerald_2004] The Ecumenical Movement, and [Kinnamon 2014][book_kinnamon_2014] Can a Renewal Movement Be Renewed provide the detailed treatments.
 
 WCC founding institutional composition combined mainline Protestant, Orthodox, and various historic Peace Church traditions. Roman Catholic official participation followed Vatican II Council through 1965 Joint Working Group formation while Catholic Church has not become full WCC member. Contemporary WCC membership reaches approximately
 
@@ -162,7 +162,7 @@ Puerto Rican religious composition shifted through the twentieth century,
 
 $$f_{\text{Catholic among mainland Puerto Ricans}}\bigg|_{1950} \approx 0.80, \quad f\bigg|_{1990} \approx 0.65, \quad f\bigg|_{2020} \approx 0.55, \quad f_{\text{Pentecostal/Protestant among mainland Puerto Ricans}}\bigg|_{1990} \approx 0.25, \quad f\bigg|_{2020} \approx 0.35$$
 
-per Pew Research and American Religious Identification Survey reconstruction, with persistent Espiritismo and Santería syncretic practices particularly among Afro-Puerto Rican populations. The [Diaz-Stevens 1993][book_diaz_stevens_1993] Oxcart Catholicism on Fifth Avenue treats the New York Puerto Rican Catholic community.
+per Pew Research and American Religious Identification Survey reconstruction, with persistent Espiritismo and Santería syncretic practices particularly among Afro-Puerto Rican populations. The [Díaz-Stevens 1993][book_diaz_stevens_1993] Oxcart Catholicism on Fifth Avenue treats the New York Puerto Rican Catholic community.
 
 Institutional Puerto Rican religious formation faced substantial tensions with Irish-Italian dominated New York Catholic hierarchy. The 1950s Archdiocese of New York under Cardinal Francis Spellman expanded Spanish-language pastoral care through Fiesta de San Juan (1953 annual celebration, first marked New York Catholic ethnic-Latino public observance), expanded Spanish-language priest recruitment, and parish-based ministry to Puerto Rican populations. Concurrent Pentecostal expansion proceeded through storefront church formation in Puerto Rican neighborhoods, producing what historians have characterized as "primera oleada" (first wave) of US Latino Pentecostal formation. The 1961 Migration Division of the Commonwealth of Puerto Rico Government (established 1948 as Bureau of Employment and Migration) provided state-linked institutional support for mainland Puerto Rican community formation.
 
@@ -184,7 +184,7 @@ per Nielsen ratings and historical reconstruction. Subsequent American religious
 
 ## Civil Rights Movement and Religious Institutional Mobilization
 
-The Civil Rights Movement's 1954-1968 window produced considerable religious institutional mobilization anchored in Black Protestant church infrastructure documented in [A270][related_post_a270_civil_war_and_reconstruction], [A271][related_post_a271_mass_immigration_and_closure], and [A272][related_post_a272_depression_war_and_refuge]. Major events and institutional formations included 1954 [Brown v. Board of Education 1954][ref_brown_v_board_1954], 1955-1956 Montgomery Bus Boycott, 1957 [Southern Christian Leadership Conference formation 1957][ref_sclc_formation_1957], 1960 sit-in movement beginning at Greensboro, 1961 Freedom Rides, 1963 March on Washington, 1964 [Civil Rights Act 1964][ref_civil_rights_act_1964], 1965 [Voting Rights Act 1965][ref_voting_rights_act_1965], and 1968 [Fair Housing Act 1968][ref_fair_housing_act_1968]. The [Branch 1988][book_branch_1988] Parting the Waters, [Branch 1998][book_branch_1998] Pillar of Fire, [Branch 2006][book_branch_2006] At Canaan's Edge, [Chappell 2004][book_chappell_2004] A Stone of Hope, [Findlay 1993][book_findlay_1993] Church People in the Struggle, and [Marsh 2005][book_marsh_2005] The Beloved Community provide the detailed treatments.
+The Civil Rights Movement's 1954-1968 window produced considerable religious institutional mobilization anchored in Black Protestant church infrastructure documented in [A270][related_post_a270_civil_war_and_reconstruction], [A271][related_post_a271_mass_immigration_and_closure], and [A272][related_post_a272_depression_war_and_refuge]. Major events and institutional formations included 1954 [Brown v. Board 1954][ref_brown_v_board_1954], 1955-1956 Montgomery Bus Boycott, 1957 [Southern Christian Leadership Conference formation 1957][ref_sclc_formation_1957], 1960 sit-in movement beginning at Greensboro, 1961 Freedom Rides, 1963 March on Washington, 1964 [Civil Rights Act 1964 1964][ref_civil_rights_act_1964], 1965 [Voting Rights Act 1965 1965][ref_voting_rights_act_1965], and 1968 [Fair Housing Act 1968][ref_fair_housing_act_1968]. The [Branch 1988][book_branch_1988] Parting the Waters, [Branch 1998][book_branch_1998] Pillar of Fire, [Branch 2006][book_branch_2006] At Canaan's Edge, [Chappell 2004][book_chappell_2004] A Stone of Hope, [Findlay 1993][book_findlay_1993] Church People in the Struggle, and [Marsh 2005][book_marsh_2005] The Beloved Community provide the detailed treatments.
 
 Movement religious institutional dimensions were significant. Black church infrastructure provided meeting space, communications networks, organizational logistics, and moral-theological framing throughout the movement's twelve-year peak period. Ecumenical Protestant, Jewish, and Catholic institutional support mobilized through National Council of Churches (successor to Federal Council of Churches, formed 1950), American Jewish Committee, Anti-Defamation League, Union of American Hebrew Congregations, Union of Orthodox Congregations of America, US Conference of Catholic Bishops, and assorted denominational agencies.
 
@@ -215,7 +215,7 @@ Martin Luther King Jr. (1929-1968) provided the most pronounced American Civil R
 
 $$t_{\text{King public ministry, 1955 to 1968}} \approx 13 \text{ years}, \quad N_{\text{King documented arrests}} \approx 29, \quad N_{\text{King books published lifetime}} = 5, \quad N_{\text{King published sermons and speeches, cumulative}} \gtrsim 3 \times 10^3$$
 
-per Martin Luther King Jr. Papers Project reconstruction. The [Garrow 1986][book_garrow_1986] Bearing the Cross, [Oates 1982][book_oates_1982] Let the Trumpet Sound, [Baldwin 1991][book_baldwin_1991] There Is a Balm in Gilead, and [Marsh 2005][book_marsh_2005] The Beloved Community (already cited) provide the comprehensive biographical treatments.
+per Martin Luther King Jr. Papers Project reconstruction. The [Garrow et al. 1986][book_garrow_1986] Bearing the Cross, [Oates 1982][book_oates_1982] Let the Trumpet Sound, [Baldwin 1991][book_baldwin_1991] There Is a Balm in Gilead, and [Marsh 2005][book_marsh_2005] The Beloved Community (already cited) provide the comprehensive biographical treatments.
 
 Primary King sources include [King 1958][ref_king_1958_stride] Stride Toward Freedom (Montgomery Boycott memoir), [King 1963 Letter from Birmingham Jail][ref_king_1963_letter_birmingham] (16 April 1963 open letter to eight Birmingham clergy providing systematic articulation of nonviolent direct action framework), [King 1963 I Have a Dream][ref_king_1963_dream] speech (28 August 1963 March on Washington address), [King 1964 Nobel Lecture][ref_king_1964_nobel] (10 December 1964 Oslo address), [King 1967 Beyond Vietnam][ref_king_1967_beyond_vietnam] Riverside Church address (4 April 1967 anti-Vietnam War declaration), [King 1968 Mountaintop][ref_king_1968_mountaintop] final address (3 April 1968 Memphis Mason Temple address), and extensive [King Papers Project][ref_king_papers_project] archive.
 
@@ -229,7 +229,7 @@ Vatican II produced sixteen documents across four conciliar sessions,
 
 $$N_{\text{Vatican II conciliar documents}} = 16, \quad N_{\text{Constitutions}} = 4, \quad N_{\text{Decrees}} = 9, \quad N_{\text{Declarations}} = 3, \quad N_{\text{Council Fathers voting}} \approx 2540$$
 
-per institutional records. Key documents included [Sacrosanctum Concilium 1963][ref_sacrosanctum_concilium_1963] (Constitution on the Sacred Liturgy, vernacular Mass authorization), [Lumen Gentium 1964][ref_lumen_gentium_1964] (Dogmatic Constitution on the Church), [Gaudium et Spes 1965][ref_gaudium_et_spes_1965] (Pastoral Constitution on the Church in the Modern World), [Dei Verbum 1965][ref_dei_verbum_1965] (Dogmatic Constitution on Divine Revelation), [Nostra Aetate 1965][ref_nostra_aetate_1965] (Declaration on the Relation of the Church to Non-Christian Religions, rejection of "deicide" charge against Jews), [Dignitatis Humanae 1965][ref_dignitatis_humanae_1965] (Declaration on Religious Freedom, drafted by American John Courtney Murray SJ), and [Ad Gentes 1965][ref_ad_gentes_1965] (Decree on Missionary Activity). Related conciliar and papal documents include 11 October 1962 [John XXIII Opening Address 1962][ref_john_xxiii_opening_1962] Gaudet Mater Ecclesia opening address of Vatican II by John XXIII, 11 April 1963 [Pacem in Terris 1963][ref_pacem_in_terris_1963] John XXIII encyclical on peace, 26 March 1967 [Populorum Progressio 1967][ref_populorum_progressio_1967] Paul VI encyclical on integral human development, and 25 July 1968 [Humanae Vitae 1968][ref_humanae_vitae_1968] Paul VI encyclical on artificial contraception reaffirming Catholic prohibition and producing considerable American Catholic dissent.
+per institutional records. Key documents included [Sacrosanctum Concilium 1963][ref_sacrosanctum_concilium_1963] (Constitution on the Sacred Liturgy, vernacular Mass authorization), [Lumen Gentium 1964][ref_lumen_gentium_1964] (Dogmatic Constitution on the Church), [Gaudium et Spes 1965][ref_gaudium_et_spes_1965] (Pastoral Constitution on the Church in the Modern World), [Dei Verbum 1965][ref_dei_verbum_1965] (Dogmatic Constitution on Divine Revelation), [Nostra Aetate 1965][ref_nostra_aetate_1965] (Declaration on the Relation of the Church to Non-Christian Religions, rejection of "deicide" charge against Jews), [Dignitatis Humanae 1965][ref_dignitatis_humanae_1965] (Declaration on Religious Freedom, drafted by American John Courtney Murray SJ), and [Ad Gentes 1965][ref_ad_gentes_1965] (Decree on Missionary Activity). Related conciliar and papal documents include 11 October 1962 [John XXIII 1962][ref_john_xxiii_opening_1962] Gaudet Mater Ecclesia opening address of Vatican II by John XXIII, 11 April 1963 [Pacem in Terris 1963][ref_pacem_in_terris_1963] John XXIII encyclical on peace, 26 March 1967 [Populorum Progressio 1967][ref_populorum_progressio_1967] Paul VI encyclical on integral human development, and 25 July 1968 [Humanae Vitae 1968][ref_humanae_vitae_1968] Paul VI encyclical on artificial contraception reaffirming Catholic prohibition and producing considerable American Catholic dissent.
 
 American Catholic implementation of Vatican II reforms proceeded rapidly. Approximate liturgical transformation reached completion by 1970,
 
@@ -277,7 +277,7 @@ N_{\text{Cuban arrivals, Balsero crisis 1994}} &\approx 3.5 \times 10^4 \\
 N_{\text{Cuban American total population}}\bigg|_{1980} &\approx 8 \times 10^5, \quad N\bigg|_{2020} \approx 2.4 \times 10^6
 \end{aligned}$$
 
-per US Immigration and Naturalization Service records. The [Garcia 1996][book_garcia_1996] Havana USA, [Perez 1999][book_perez_1999] On Becoming Cuban, [Grenier and Perez 2003][book_grenier_perez_2003] The Legacy of Exile, and [Torres 1999][book_torres_1999] In the Land of Mirrors provide the most complete treatments.
+per US Immigration and Naturalization Service records. The [García and Garcia 1996][book_garcia_1996] Havana USA, [Pérez 1999][book_perez_1999] On Becoming Cuban, [Grenier and Pérez 2003][book_grenier_perez_2003] The Legacy of Exile, and [Torres and Torres 1999][book_torres_1999] In the Land of Mirrors provide the most complete treatments.
 
 Religious composition of Cuban refugee populations combined sizable Catholic majority (approximately 70% Catholic identification through mid-twentieth century), Cuban Santería syncretic religious practices particularly among Afro-Cuban populations, Protestant minority (approximately 5% pre-1959, expanding through twentieth-century Pentecostal expansion), and Jewish minority (approximately 10,000 Cuban Jewish refugees admitted through 1960s). The Miami Cuban American community formation produced distinctive religious institutional structure combining transplanted Cuban Catholic parish tradition with American Catholic institutional framework. The [De La Torre 2003][book_de_la_torre_2003] La Lucha for Cuba treats the Cuban American religious formation.
 
@@ -374,7 +374,7 @@ American Indian Movement (AIM), founded 1968 at Minneapolis by Dennis Banks, Cly
 
 Major AIM actions included 20 November 1969 to 11 June 1971 Alcatraz Island occupation by "Indians of All Tribes" (initial 89 person occupation extending to approximately 400 participants at peak) producing [Alcatraz Proclamation 1969][ref_alcatraz_proclamation_1969] "We Hold The Rock" proclamation of 20 November 1969 authored by Adam Fortunate Eagle and colleagues, 1972 Trail of Broken Treaties producing [Twenty-Point Position Paper 1972][ref_twenty_point_position_1972] programmatic document and occupation of Bureau of Indian Affairs headquarters at Washington DC, 27 February to 8 May 1973 Wounded Knee occupation at Pine Ridge Reservation, and assorted fishing rights, religious practice, and tribal sovereignty campaigns.
 
-Legislative outcomes included 1975 [Indian Self-Determination and Education Assistance Act 1975][ref_indian_self_determination_1975], 1978 [American Indian Religious Freedom Act 1978][ref_airfa_1978] (already cited in A272), 1978 Indian Child Welfare Act, and 1988 Indian Gaming Regulatory Act treated in subsequent articles. Native American Church legal protection under AIRFA subsequently faced appreciable 1990 [Employment Division v. Smith 1990][ref_employment_division_v_smith_1990] Supreme Court decision reducing religious practice protection, subsequently addressed through 1993 [Religious Freedom Restoration Act 1993][ref_rfra_1993] and 1994 [AIRFA Amendment 1994][ref_airfa_amendment_1994] peyote sacramental use protection.
+Legislative outcomes included 1975 [Indian et al. 1975][ref_indian_self_determination_1975], 1978 [AIRFA 1978][ref_airfa_1978] (already cited in A272), 1978 Indian Child Welfare Act, and 1988 Indian Gaming Regulatory Act treated in subsequent articles. Native American Church legal protection under AIRFA subsequently faced appreciable 1990 [Employment Division v. Smith 1990][ref_employment_division_v_smith_1990] Supreme Court decision reducing religious practice protection, subsequently addressed through 1993 [Religious Freedom Restoration Act 1993][ref_rfra_1993] and 1994 [AIRFA Amendment 1994][ref_airfa_amendment_1994] peyote sacramental use protection.
 
 Native American population recovery through the twentieth century was considerable,
 
@@ -384,7 +384,7 @@ per US Census data, reflecting significant twentieth-century demographic recover
 
 ## Wisconsin v. Yoder 1972 and Amish Religious Freedom
 
-The 15 May 1972 [Wisconsin v. Yoder 1972][ref_wisconsin_v_yoder_1972] Supreme Court decision provided the most substantial twentieth-century religious free exercise expansion, exempting Old Order Amish and Conservative Mennonite parents from Wisconsin compulsory school attendance beyond eighth grade under religious free exercise framework. The [Peters 2003][book_peters_2003] The Yoder Case, [Kraybill 2001][book_kraybill_2001] The Riddle of Amish Culture, and [Nolt 2016][book_nolt_2016_amish] Amish provide the principal treatments.
+The 15 May 1972 [Wisconsin v. Yoder 406 1972][ref_wisconsin_v_yoder_1972] Supreme Court decision provided the most substantial twentieth-century religious free exercise expansion, exempting Old Order Amish and Conservative Mennonite parents from Wisconsin compulsory school attendance beyond eighth grade under religious free exercise framework. The [Peters 2003][book_peters_2003] The Yoder Case, [Kraybill 2001][book_kraybill_2001] The Riddle of Amish Culture, and [Nolt 2016][book_nolt_2016_amish] Amish provide the principal treatments.
 
 Chief Justice Warren Burger's majority opinion articulated "balancing test" framework weighing state interest in compulsory education against religious free exercise rights. Decision vote reflected marked consensus,
 
@@ -439,7 +439,7 @@ per American Jewish Year Book demographic reconstruction. Denominational composi
 
 ## Soviet Jewish Refugee Movement and Jackson-Vanik 1974
 
-Soviet Jewish emigration movement from mid-1960s forward mobilized American Jewish institutional support producing 1974 [Jackson-Vanik Amendment 1974][ref_jackson_vanik_1974] to Trade Act linking US-Soviet Most Favored Nation trade status to Soviet emigration liberalization. The [Beckerman 2010][book_beckerman_2010] When They Come for Us, [Feingold 2007][book_feingold_2007] Silent No More, and [Lazin 2005][book_lazin_2005] The Struggle for Soviet Jewry provide the fullest treatments.
+Soviet Jewish emigration movement from mid-1960s forward mobilized American Jewish institutional support producing 1974 [Jackson-Vanik Amendment 1974][ref_jackson_vanik_1974] to Trade Act linking US-Soviet Most Favored Nation trade status to Soviet emigration liberalization. The [Beckerman 2010][book_beckerman_2010] When They Come for Us, [Feingold 2007][book_feingold_2007] Silent No More, and [Lazin et al. 2005][book_lazin_2005] The Struggle for Soviet Jewry provide the fullest treatments.
 
 American Jewish institutional mobilization proceeded through Union of Councils for Soviet Jews (founded 1970), Student Struggle for Soviet Jewry (founded 1964 by Jacob Birnbaum at Yeshiva University), National Conference on Soviet Jewry (founded 1971 as coordinating body for major American Jewish organizations), and several regional and college-based organizations. Approximate mobilization scales included
 
@@ -462,7 +462,7 @@ per US Office of Refugee Resettlement records.
 
 ## Camp David Accords 1978 and American Religious Politics
 
-The 17 September 1978 Camp David Accords, negotiated at Camp David under President Jimmy Carter's mediation between Egyptian President Anwar Sadat and Israeli Prime Minister Menachem Begin over 12 days beginning 5 September 1978, produced the first sizable Arab-Israeli peace agreement. The subsequent 26 March 1979 [Egypt-Israel Peace Treaty 1979][ref_egypt_israel_peace_treaty_1979] provided the formal treaty framework. The [Quandt 1986][book_quandt_1986] Camp David, [Carter 1982][book_carter_1982] Keeping Faith, and [Wright 2014][book_wright_2014] Thirteen Days in September provide the treatments.
+The 17 September 1978 Camp David Accords, negotiated at Camp David under President Jimmy Carter's mediation between Egyptian President Anwar Sadat and Israeli Prime Minister Menachem Begin over 12 days beginning 5 September 1978, produced the first sizable Arab-Israeli peace agreement. The subsequent 26 March 1979 [Separation of Forces Agreement 1979][ref_egypt_israel_peace_treaty_1979] provided the formal treaty framework. The [Quandt 1986][book_quandt_1986] Camp David, [Carter 1982][book_carter_1982] Keeping Faith, and [Wright 2014][book_wright_2014] Thirteen Days in September provide the treatments.
 
 The religious dimensions of Camp David included appreciable American Christian evangelical support for Israel-Egypt peace framework combining dispensationalist theological framework identifying Israel restoration with eschatological expectation, mainstream American Jewish institutional support, American Catholic support through ecumenical prayers and a range of institutional engagement, and American Muslim divisions between Sadat supporters and rejectionists. Carter's Southern Baptist religious identification and extensive personal engagement in negotiations shaped process framework.
 
@@ -509,7 +509,7 @@ per US Office of Refugee Resettlement records. The [Chan 2006][book_chan_2006] T
 
 Religious composition of Southeast Asian refugees varied by national origin. Vietnamese populations combined approximately 30% Catholic (reflecting French colonial Catholic evangelization concentrated in northern Vietnam), approximately 50% Buddhist (Mahayana tradition), approximately 10% Cao Dai and Hoa Hao syncretic religions, and a number of traditional practices. Cambodian populations were approximately 95% Theravada Buddhist. Laotian populations combined approximately 85% Theravada Buddhist with differing animist and Christian minorities. Hmong populations combined traditional shamanistic practices (approximately 50% of pre-1975 population) with significant Christian conversion (approximately 40% Christian identification among US Hmong populations by 2000).
 
-Institutional refugee resettlement combined federal [Indochina Migration and Refugee Assistance Act 1975][ref_indochina_migration_act_1975] framework of 23 May 1975, subsequent federal Office of Refugee Resettlement (established 1980 as part of Refugee Act treated below) with extensive religious voluntary agency (VOLAG) participation. Major VOLAGs included US Catholic Conference Migration and Refugee Services, Church World Service (mainline Protestant ecumenical agency), Hebrew Immigrant Aid Society (HIAS), Lutheran Immigration and Refugee Service, International Rescue Committee, World Relief (evangelical Protestant), several denominational and secular agencies. Approximate VOLAG resettlement placements reached
+Institutional refugee resettlement combined federal [Indochina et al. 1975][ref_indochina_migration_act_1975] framework of 23 May 1975, subsequent federal Office of Refugee Resettlement (established 1980 as part of Refugee Act treated below) with extensive religious voluntary agency (VOLAG) participation. Major VOLAGs included US Catholic Conference Migration and Refugee Services, Church World Service (mainline Protestant ecumenical agency), Hebrew Immigrant Aid Society (HIAS), Lutheran Immigration and Refugee Service, International Rescue Committee, World Relief (evangelical Protestant), several denominational and secular agencies. Approximate VOLAG resettlement placements reached
 
 $$f_{\text{Catholic sponsorship among Southeast Asian refugees resettled}} \approx 0.30, \quad f_{\text{Protestant ecumenical sponsorship}} \approx 0.25, \quad f_{\text{Lutheran sponsorship}} \approx 0.15, \quad f_{\text{Jewish HIAS sponsorship}} \approx 0.05$$
 
@@ -534,7 +534,7 @@ P_{\text{Japanese American}}(1965) &\approx 5 \times 10^5, \quad P\bigg|_{2020} 
 
 per US Census data. The [Lee 2015][book_lee_2015] The Making of Asian America, [Espiritu 1992][book_espiritu_1992] Asian American Panethnicity, and [Chan 1991][book_chan_1991] Asian Americans provide the principal treatments.
 
-Religious composition of post-1965 Asian immigrant populations varied by national origin. Chinese immigrants combined traditional Chinese religion (approximately 50%), Buddhist identification (approximately 15%), Christian identification (approximately 30% by 2020, reflecting marked American immigrant conversion), and a range of other traditions. Filipino immigrants were Catholic (approximately 85%). Indian immigrants combined Hindu (approximately 55%), Muslim (approximately 15%), Sikh (approximately 5%), Christian (approximately 15%), and other (approximately 10%). Korean immigrants were Christian (approximately 70% Christian identification, primarily Presbyterian and Methodist, reflecting twentieth-century Korean Protestant expansion). Japanese immigrants combined Buddhist (approximately 40%) and Christian (approximately 25%) identifications with various other traditions. The [Min 1992][book_min_1992] Structure and Social Functions of Korean Immigrant Churches and [Kwon Kim and Warner 2001][book_kwon_kim_warner_2001] Korean Americans and Their Religions provide the most complete treatments.
+Religious composition of post-1965 Asian immigrant populations varied by national origin. Chinese immigrants combined traditional Chinese religion (approximately 50%), Buddhist identification (approximately 15%), Christian identification (approximately 30% by 2020, reflecting marked American immigrant conversion), and a range of other traditions. Filipino immigrants were Catholic (approximately 85%). Indian immigrants combined Hindu (approximately 55%), Muslim (approximately 15%), Sikh (approximately 5%), Christian (approximately 15%), and other (approximately 10%). Korean immigrants were Christian (approximately 70% Christian identification, primarily Presbyterian and Methodist, reflecting twentieth-century Korean Protestant expansion). Japanese immigrants combined Buddhist (approximately 40%) and Christian (approximately 25%) identifications with various other traditions. The [Min 1992][book_min_1992] Structure and Social Functions of Korean Immigrant Churches and [Kwon et al. 2001][book_kwon_kim_warner_2001] Korean Americans and Their Religions provide the most complete treatments.
 
 Institutional religious formation among post-1965 Asian populations produced extensive expansion. By 2020 approximate institutional counts reached
 
@@ -555,7 +555,7 @@ P_{\text{Dominican American, US}}(1970) &\approx 6 \times 10^4, \quad P\bigg|_{2
 P_{\text{Salvadoran American, US}}(1970) &\approx 1 \times 10^4, \quad P\bigg|_{2020} \approx 2.4 \times 10^6
 \end{aligned}$$
 
-per US Census data. The [Suarez-Orozco 2007][book_suarez_orozco_2007] Learning a New Land, [Portes and Rumbaut 2014][book_portes_rumbaut_2014] Immigrant America, and [Massey Durand and Malone 2002][book_massey_durand_malone_2002] Beyond Smoke and Mirrors provide the standard treatments.
+per US Census data. The [Suárez-Orozco and Suárez-Orozco 2007][book_suarez_orozco_2007] Learning a New Land, [Portes and Rumbaut 2014][book_portes_rumbaut_2014] Immigrant America, and [Massey et al. 2002][book_massey_durand_malone_2002] Beyond Smoke and Mirrors provide the standard treatments.
 
 Central American refugee flows accelerated through 1980s Salvadoran and Guatemalan civil wars. Total Central American refugee arrivals through 1980-1990 window reached approximately
 
@@ -569,7 +569,7 @@ $$N_{\text{congregations declaring Sanctuary status by 1988}} \approx 5 \times 1
 
 per institutional records. The 1985-1986 federal prosecution of 16 Sanctuary Movement participants under alien smuggling charges (11 convictions, subsequently reversed on a number of grounds) provided the institutional confrontation. The [Golden and McConnell 1986][book_golden_mcconnell_1986] Sanctuary and [Bau 1985][book_bau_1985] This Ground Is Holy treat the Sanctuary Movement.
 
-Latino religious composition combined appreciable Catholic majority (approximately 65% Catholic identification through late twentieth century), rapidly expanding Pentecostal populations (approximately 20% by 2020), mainline Protestant minorities, and differing traditional and syncretic religious practices. The [Espinosa Elizondo and Miranda 2003][book_espinosa_elizondo_miranda_2003] Hispanic Churches in American Public Life treats the Latino religious institutional formation.
+Latino religious composition combined appreciable Catholic majority (approximately 65% Catholic identification through late twentieth century), rapidly expanding Pentecostal populations (approximately 20% by 2020), mainline Protestant minorities, and differing traditional and syncretic religious practices. The [Espinosa et al. 2003][book_espinosa_elizondo_miranda_2003] Hispanic Churches in American Public Life treats the Latino religious institutional formation.
 
 ## Iranian Revolution 1979 and Middle Eastern Refugees
 
@@ -616,11 +616,11 @@ $$P_{\text{Southern Baptist Convention membership}}(1979) \approx 1.32 \times 10
 
 per institutional records.
 
-The institutional consequences included systematic replacement of moderate faculty at six SBC seminaries (Southern, Southwestern, New Orleans, Southeastern, Golden Gate, Midwestern) with fundamentalist faculty, reorganization of SBC agencies, 2000 [Baptist Faith and Message 2000][ref_baptist_faith_message_2000] revision tightening denominational doctrinal framework including male-only pastoral ordination, and approximately 2,000 congregation withdrawals from SBC through Cooperative Baptist Fellowship (formed 1991) and Alliance of Baptists (formed 1987) alternative frameworks. Mainline-to-evangelical denominational transformation preceded broader Religious Right consolidation treated below.
+The institutional consequences included systematic replacement of moderate faculty at six SBC seminaries (Southern, Southwestern, New Orleans, Southeastern, Golden Gate, Midwestern) with fundamentalist faculty, reorganization of SBC agencies, 2000 [Baptist et al. 2000][ref_baptist_faith_message_2000] revision tightening denominational doctrinal framework including male-only pastoral ordination, and approximately 2,000 congregation withdrawals from SBC through Cooperative Baptist Fellowship (formed 1991) and Alliance of Baptists (formed 1987) alternative frameworks. Mainline-to-evangelical denominational transformation preceded broader Religious Right consolidation treated below.
 
 ## Religious Right Emergence and Moral Majority 1979
 
-Religious Right emergence through 1970s produced sizable American Protestant institutional political mobilization. Major institutional formations included 1971 Focus on the Family founding by James Dobson, 1976 Christian Voice, 1978 Christian Broadcasting Network national expansion under Pat Robertson, 1978 Roundtable convening evangelical Republican fundraisers, and 4 June 1979 [Moral Majority formation 1979][ref_moral_majority_1979] Moral Majority organization founded at Lynchburg, Virginia by Jerry Falwell, Ed McAteer, Paul Weyrich, Howard Phillips, and others. The [Williams 2010][book_williams_2010] God's Own Party (already cited), [Marsden 2006][book_marsden_2006] Fundamentalism and American Culture (revised edition of 1980 first edition cited in [A271][related_post_a271_mass_immigration_and_closure]), [Balmer 2006][book_balmer_2006] Thy Kingdom Come, and [Fitzgerald 2017][book_fitzgerald_2017] The Evangelicals provide the leading treatments.
+Religious Right emergence through 1970s produced sizable American Protestant institutional political mobilization. Major institutional formations included 1971 Focus on the Family founding by James Dobson, 1976 Christian Voice, 1978 Christian Broadcasting Network national expansion under Pat Robertson, 1978 Roundtable convening evangelical Republican fundraisers, and 4 June 1979 [Moral Majority Formation 1979][ref_moral_majority_1979] Moral Majority organization founded at Lynchburg, Virginia by Jerry Falwell, Ed McAteer, Paul Weyrich, Howard Phillips, and others. The [Williams 2010][book_williams_2010] God's Own Party (already cited), [Marsden 2006][book_marsden_2006] Fundamentalism and American Culture (revised edition of 1980 first edition cited in [A271][related_post_a271_mass_immigration_and_closure]), [Balmer 2006][book_balmer_2006] Thy Kingdom Come, and [FitzGerald 2017][book_fitzgerald_2017] The Evangelicals provide the leading treatments.
 
 Moral Majority membership expansion was appreciable,
 
@@ -667,228 +667,232 @@ This article follows the terminological conventions established in [A266][relate
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Ahlstrom 1972 A Religious History of the American People][book_ahlstrom_1972]
-- [Ammerman 1990 Baptist Battles][book_ammerman_1990]
-- [Baldwin 1991 There Is a Balm in Gilead][book_baldwin_1991]
-- [Balmer 2006 Thy Kingdom Come][book_balmer_2006]
-- [Bau 1985 This Ground Is Holy][book_bau_1985]
-- [Beckerman 2010 When They Come for Us][book_beckerman_2010]
-- [Bendroth 1993 Fundamentalism and Gender][book_bendroth_1993]
-- [Bon Tempo 2008 Americans at the Gate][book_bon_tempo_2008]
-- [Branch 1988 Parting the Waters][book_branch_1988]
-- [Branch 1998 Pillar of Fire][book_branch_1998]
-- [Branch 2006 At Canaan's Edge][book_branch_2006]
-- [Braude 2004 Transforming the Faiths of Our Fathers][book_braude_2004]
-- [Brockman 1989 Romero][book_brockman_1989]
-- [Carter 1982 Keeping Faith][book_carter_1982]
-- [Casey 2009 The Making of a Catholic President][book_casey_2009]
-- [Cavert 1968 The American Churches in the Ecumenical Movement][book_cavert_1968]
-- [Chan 1991 Asian Americans][book_chan_1991]
-- [Chan 2006 The Vietnamese American 1.5 Generation][book_chan_2006]
-- [Chapman 2008 Selling Southern Baptists][book_chapman_2008]
-- [Chappell 2004 A Stone of Hope][book_chappell_2004]
-- [Chin 1996 The Civil Rights Revolution Comes to Immigration Law][book_chin_1996]
-- [Chryssides 2001 Historical Dictionary of New Religious Movements][book_chryssides_2001]
-- [Cobb 2008 Native Activism in Cold War America][book_cobb_2008]
-- [Cohen 2012 In War's Wake (Displaced Persons)][book_cohen_2012_survivors]
-- [Cone 1991 Martin and Malcolm and America][book_cone_1991]
-- [Cornell 1988 The Return of the Native][book_cornell_1988]
-- [Cox 1977 Turning East][book_cox_1977]
-- [Cracknell and White 2005 An Introduction to World Christianity][book_cracknell_white_2005]
-- [Cuneo 1997 The Smoke of Satan][book_cuneo_1997]
-- [Curtis 2006 Black Muslim Religion][book_curtis_2006]
-- [De La Torre 2003 La Lucha for Cuba][book_de_la_torre_2003]
-- [Diaz-Stevens 1993 Oxcart Catholicism on Fifth Avenue][book_diaz_stevens_1993]
-- [Dinnerstein 1982 America and the Survivors of the Holocaust][book_dinnerstein_1982]
-- [Divine 1957 American Immigration Policy][book_divine_1957]
-- [Dolan 1985 The American Catholic Experience][book_dolan_1985]
-- [Ellwood 1994 The Sixties Spiritual Awakening][book_ellwood_1994]
-- [Espinosa Elizondo and Miranda 2003 Hispanic Churches in American Public Life][book_espinosa_elizondo_miranda_2003]
-- [Espiritu 1992 Asian American Panethnicity][book_espiritu_1992]
-- [Faderman 1998 I Begin My Life All Over][book_faderman_1998]
-- [Fein 1988 Where Are We?][book_fein_1988]
-- [Feingold 1992 A Time for Searching][book_feingold_1992]
-- [Feingold 2007 Silent No More][book_feingold_2007]
-- [Findlay 1993 Church People in the Struggle][book_findlay_1993]
-- [Fitzgerald 2004 The Ecumenical Movement][book_fitzgerald_2004]
-- [Fitzgerald 2017 The Evangelicals][book_fitzgerald_2017]
-- [Fuchs 1967 John F. Kennedy and American Catholicism][book_fuchs_1967]
-- [Garcia 1996 Havana USA][book_garcia_1996]
-- [Gardell 1996 In the Name of Elijah Muhammad][book_gardell_1996]
-- [Garrow 1986 Bearing the Cross][book_garrow_1986]
-- [Genizi 1993 America's Fair Share][book_genizi_1993]
-- [Golden and McConnell 1986 Sanctuary][book_golden_mcconnell_1986]
-- [Graham 2004 Not Peace but a Sword (Bob Pierce)][book_graham_2004_pierce]
-- [Grenier and Perez 2003 The Legacy of Exile][book_grenier_perez_2003]
-- [Hall 1990 Because of Their Faith][book_hall_1990]
-- [Herberg 1955 Protestant-Catholic-Jew][book_herberg_1955]
-- [Hernández 2010 Migra!][book_hernandez_2010]
-- [Herzog 2011 The Spiritual-Industrial Complex][book_herzog_2011]
-- [Jelen 1995 Perspectives on the Politics of Abortion][book_jelen_1995]
-- [King 2019 God's Internationalists (World Vision)][book_king_2019]
-- [Kinnamon 2014 Can a Renewal Movement Be Renewed][book_kinnamon_2014]
-- [Kraybill 2001 The Riddle of Amish Culture][book_kraybill_2001]
-- [Kruse 2015 One Nation Under God][book_kruse_2015]
-- [Kwon Kim and Warner 2001 Korean Americans and Their Religions][book_kwon_kim_warner_2001]
-- [Lazin 2005 The Struggle for Soviet Jewry][book_lazin_2005]
-- [Lee 2015 The Making of Asian America][book_lee_2015]
-- [Levy 2007 Cesar Chavez][book_levy_2007]
-- [Loescher and Scanlan 1986 Calculated Kindness][book_loescher_scanlan_1986]
-- [Marable 2011 Malcolm X][book_marable_2011]
-- [Marsden 2006 Fundamentalism and American Culture (revised)][book_marsden_2006]
-- [Marsh 2005 The Beloved Community][book_marsh_2005]
-- [Martin 1991 A Prophet with Honor (Graham)][book_martin_1991]
-- [Marty 1985 Modern American Religion][book_marty_1985]
-- [Massa 1997 Anti-Catholicism in America][book_massa_1997]
-- [Massa 1999 Catholics and American Culture][book_massa_1999]
-- [Massey Durand and Malone 2002 Beyond Smoke and Mirrors][book_massey_durand_malone_2002]
-- [McGreevy 2003 Catholicism and American Freedom][book_mcgreevy_2003]
-- [Meconis 1979 With Clumsy Grace (Catholic Left)][book_meconis_1979]
-- [Melton 2003 Encyclopedia of American Religions][book_melton_2003]
-- [Min 1992 Korean Immigrant Churches][book_min_1992]
-- [Mostofi 2003 Iranian Americans][book_mostofi_2003]
-- [Ngai 2004 Impossible Subjects][book_ngai_2004]
-- [Nickoloff 1996 Gustavo Gutierrez][book_nickoloff_1996]
-- [Nolt 2016 Amish (revised)][book_nolt_2016_amish]
-- [Oates 1982 Let the Trumpet Sound][book_oates_1982]
-- [O'Malley 2008 What Happened at Vatican II][book_omalley_2008]
-- [Pawel 2014 The Crusades of Cesar Chavez][book_pawel_2014]
-- [Perez 1999 On Becoming Cuban][book_perez_1999]
-- [Perry 1991 Malcolm][book_perry_1991]
-- [Peters 2003 The Yoder Case][book_peters_2003]
-- [Polner and O'Grady 1997 Disarmed and Dangerous (Berrigans)][book_polner_ogrady_1997]
-- [Portes and Rumbaut 2014 Immigrant America][book_portes_rumbaut_2014]
-- [Preston 2012 Sword of the Spirit, Shield of Faith][book_preston_2012]
-- [Prouty 2006 Cesar Chavez, the Catholic Bishops][book_prouty_2006]
-- [Quandt 1986 Camp David][book_quandt_1986]
-- [Robinson 1998 Terms of Refuge][book_robinson_1998]
-- [Rodriguez 1989 Puerto Ricans][book_rodriguez_1989]
-- [Rosenberg 1996 The Southern Baptists][book_rosenberg_1996]
-- [Ruether 2003 Women and Redemption][book_ruether_2003]
-- [Sanasarian 2000 Religious Minorities in Iran][book_sanasarian_2000]
-- [Sanchez Korrol 1994 From Colonia to Community][book_sanchez_korrol_1994]
-- [Sarna 2004 American Judaism][book_sarna_2004]
-- [Sharlet 2008 The Family][book_sharlet_2008]
-- [Sigmund 1990 Liberation Theology at the Crossroads][book_sigmund_1990]
-- [Smith 1991 The Emergence of Liberation Theology][book_smith_1991]
-- [Smith and Warrior 1996 Like a Hurricane][book_smith_warrior_1996]
-- [Suarez-Orozco 2007 Learning a New Land][book_suarez_orozco_2007]
-- [Sutton 2000 The Baptists in Alabama][book_sutton_2000]
-- [Tichenor 2002 Dividing Lines][book_tichenor_2002]
-- [Torres 1999 In the Land of Mirrors][book_torres_1999]
-- [Wacker 2014 America's Pastor (Graham)][book_wacker_2014]
-- [Whalen and Vazquez-Hernandez 2005 The Puerto Rican Diaspora][book_whalen_vazquez_2005]
-- [Whitfield 1994 Paying the Price][book_whitfield_1994]
-- [Whitfield 1996 The Culture of the Cold War][book_whitfield_1996]
-- [Williams 2010 God's Own Party][book_williams_2010]
-- [Wilmore and Cone 1979 Black Theology][book_wilmore_cone_1979]
-- [Wright 2014 Thirteen Days in September (Camp David)][book_wright_2014]
-- [Wuthnow 1988 The Restructuring of American Religion][book_wuthnow_1988]
-- [Yang 2008 Diverse Traditions][book_yang_2008]
-- [Zolberg 2006 A Nation by Design][book_zolberg_2006]
+### Primary Sources, Non-Peer-Reviewed
 
-### Reference
+- "Abington School District v. Schempp, 374 U.S. 203 (1963)." 1963. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/374/203/][ref_abington_v_schempp_1963]
+- Ad Gentes. 1965. "Vatican II Decree on Missionary Activity." [https://www.vatican.va/archive/hist\_councils/ii\_vatican\_council/documents/vat-ii\_decree\_19651207\_ad-gentes\_en.html][ref_ad_gentes_1965]
+- AIRFA. 1978. *American Indian Religious Freedom Act*. [https://scholar.google.com/scholar?q=American+Indian+Religious+Freedom+Act+AIRFA+1978][ref_airfa_1978]
+- AIRFA Amendment. 1994. "Peyote Protection." [https://www.congress.gov/bill/103rd-congress/house-bill/4230][ref_airfa_amendment_1994]
+- "Bob Jones Univ. v. United States, 461 U.S. 574 (1983)." 1983. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/461/574/][ref_bob_jones_v_us_1983]
+- "Brown v. Board of Education of Topeka, 347 U.S. 483 (1954)." 1954. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/347/483/][ref_brown_v_board_1954]
+- "Civil Rights Act (1964)." 1964. National Archives. Accessed October 25, 2026. [https://www.archives.gov/milestone-documents/civil-rights-act][ref_civil_rights_act_1964]
+- "Cuban Adjustment Act." 1966. [https://www.uscis.gov/laws-and-policy/legislation/cuban-adjustment-act][ref_cuban_adjustment_act_1966]
+- Dei Verbum. 1965. "Vatican II Constitution on Divine Revelation." [https://www.vatican.va/archive/hist\_councils/ii\_vatican\_council/documents/vat-ii\_const\_19651118\_dei-verbum\_en.html][ref_dei_verbum_1965]
+- Dignitatis Humanae. 1965. "Declaration on Religious Freedom." [https://www.vatican.va/archive/hist\_councils/ii\_vatican\_council/documents/vat-ii\_decl\_19651207\_dignitatis-humanae\_en.html][ref_dignitatis_humanae_1965]
+- "Displaced Persons Act." 1948. [https://www.uscis.gov/history-and-genealogy/our-history/agency-history/displaced-persons-act][ref_displaced_persons_act_1948]
+- Eisenhower. 1953. "First Inaugural Address." [https://avalon.law.yale.edu/20th\_century/eisen1.asp][ref_eisenhower_1953_inaugural]
+- "Employment Division v. Smith, 494 U.S. 872 (1990)." 1990. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/494/872/][ref_employment_division_v_smith_1990]
+- "Engel v. Vitale." 1962. [https://supreme.justia.com/cases/federal/us/370/421/][ref_engel_v_vitale_1962]
+- "Everson v. Board of Education, 330 U.S. 1 (1947)." 1947. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/330/1/][ref_everson_v_board_1947]
+- "Fair Housing Act." 1968. [https://www.archives.gov/milestone-documents/fair-housing-act][ref_fair_housing_act_1968]
+- Gaudium et Spes. 1965. "Vatican II Pastoral Constitution." [https://www.vatican.va/archive/hist\_councils/ii\_vatican\_council/documents/vat-ii\_const\_19651207\_gaudium-et-spes\_en.html][ref_gaudium_et_spes_1965]
+- "Green v. Connally." 1971. [https://law.justia.com/cases/federal/district-courts/FSupp/330/1150/][ref_green_v_connally_1971]
+- "Green v. Kennedy." 1970. [https://law.justia.com/cases/federal/district-courts/FSupp/309/1127/][ref_green_v_kennedy_1970]
+- Hart-Celler Act. 1965. "Immigration and Nationality Act." [https://history.state.gov/milestones/1961-1968/immigration-act][ref_hart_celler_act_1965]
+- Humanae Vitae. 1968. "Paul VI Encyclical." [https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf\_p-vi\_enc\_25071968\_humanae-vitae.html][ref_humanae_vitae_1968]
+- "In God We Trust Motto Act." 1956. [https://www.archives.gov/milestone-documents/in-god-we-trust][ref_in_god_we_trust_1956]
+- Indian, Self-Determination, Education, Assistance, and Act. 1975. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Indian+Self-Determination+Education+1975][ref_indian_self_determination_1975]
+- "Jackson-Vanik Amendment." 1974. [https://www.congress.gov/bill/93rd-congress/house-bill/10710][ref_jackson_vanik_1974]
+- John XXIII. 1962. "Opening Address (Gaudet Mater Ecclesia)." [https://www.vatican.va/content/john-xxiii/en/speeches/1962/documents/hf\_j-xxiii\_spe\_19621011\_opening-council.html][ref_john_xxiii_opening_1962]
+- Johnson. 1965. "Remarks at the Signing of the Immigration Bill, Liberty Island, New York \| the American Presidency Project." Accessed October 25, 2026. [https://www.presidency.ucsb.edu/documents/remarks-the-signing-the-immigration-bill-liberty-island-new-york][ref_johnson_1965_liberty_island]
+- King. 1963a. "I Have a Dream." [https://www.archives.gov/press/press-kits/1963-march-on-washington-press-kit/dr-martin-luther-king-jr-i-have-a-dream-speech.pdf][ref_king_1963_dream]
+- King. 1963b. "Letter from Birmingham Jail." [https://kinginstitute.stanford.edu/king-papers/documents/letter-birmingham-jail][ref_king_1963_letter_birmingham]
+- King. 1967. "Beyond Vietnam." [https://kinginstitute.stanford.edu/beyond-vietnam][ref_king_1967_beyond_vietnam]
+- King. 1968. "'I've Been to the Mountaintop'." The Martin Luther King, Jr. Research and Education Institute. Accessed October 25, 2026. [https://kinginstitute.stanford.edu/ive-been-mountaintop][ref_king_1968_mountaintop]
+- "King Papers Project." n.d. Accessed October 25, 2026. [https://kinginstitute.stanford.edu/king-papers][ref_king_papers_project]
+- "Lemon v. Kurtzman." 1971. [https://supreme.justia.com/cases/federal/us/403/602/][ref_lemon_v_kurtzman_1971]
+- Lumen Gentium. 1964. "Dogmatic Constitution on the Church." [https://www.vatican.va/archive/hist\_councils/ii\_vatican\_council/documents/vat-ii\_const\_19641121\_lumen-gentium\_en.html][ref_lumen_gentium_1964]
+- McCarran-Walter Act. 1952. "Milestones in the History of U.S. Foreign Relations: Office of the Historian." Accessed October 25, 2026. [https://history.state.gov/milestones/1945-1952/immigration-act][ref_mccarran_walter_act_1952]
+- Nostra Aetate. 1965. "Declaration on Relation to Non-Christian Religions." [https://www.vatican.va/archive/hist\_councils/ii\_vatican\_council/documents/vat-ii\_decl\_19651028\_nostra-aetate\_en.html][ref_nostra_aetate_1965]
+- Pacem in Terris. 1963. "John XXIII Encyclical." [https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf\_j-xxiii\_enc\_11041963\_pacem.html][ref_pacem_in_terris_1963]
+- Pledge of Allegiance Amendment. 1954. "(Under God)." [https://www.congress.gov/bill/83rd-congress/house-joint-resolution/243][ref_pledge_amendment_1954]
+- Populorum Progressio. 1967. "Paul VI Encyclical." [https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf\_p-vi\_enc\_26031967\_populorum.html][ref_populorum_progressio_1967]
+- Ratzinger. 1984. "Instruction on Certain Aspects of the 'Theology of Liberation'." Accessed October 25, 2026. [https://www.vatican.va/roman\_curia/congregations/cfaith/documents/rc\_con\_cfaith\_doc\_19840806\_theology-liberation\_en.html][ref_ratzinger_1984_liberation]
+- "Refugee Act." 1980. [https://www.congress.gov/bill/96th-congress/senate-bill/643][ref_refugee_act_1980]
+- "Religious Freedom Restoration Act." 1993. [https://www.congress.gov/bill/103rd-congress/house-bill/1308][ref_rfra_1993]
+- "Roe v. Wade." 1973. [https://supreme.justia.com/cases/federal/us/410/113/][ref_roe_v_wade_1973]
+- Sacrosanctum Concilium. 1963. "Constitution on the Sacred Liturgy." [https://www.vatican.va/archive/hist\_councils/ii\_vatican\_council/documents/vat-ii\_const\_19631204\_sacrosanctum-concilium\_en.html][ref_sacrosanctum_concilium_1963]
+- SCLC Formation. 1957. "Southern Christian Leadership Conference (SCLC)." The Martin Luther King, Jr. Research and Education Institute. Accessed October 25, 2026. [https://kinginstitute.stanford.edu/southern-christian-leadership-conference-sclc][ref_sclc_formation_1957]
+- "Separation of Forces Agreement between Israel and Syria; May 31, 1974." 1979. Accessed October 25, 2026. [https://avalon.law.yale.edu/20th\_century/pal04.asp][ref_egypt_israel_peace_treaty_1979]
+- Truman. 1947. "Avalon Project: Truman Doctrine." Accessed October 25, 2026. [https://avalon.law.yale.edu/20th\_century/trudoc.asp][ref_truman_doctrine_1947]
+- "Voting Rights Act (1965)." 1965. National Archives. Accessed October 25, 2026. [https://www.archives.gov/milestone-documents/voting-rights-act][ref_voting_rights_act_1965]
+- "Wisconsin v. Yoder, 406 U.S. 205 (1972)." 1972. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/406/205/][ref_wisconsin_v_yoder_1972]
 
-- [Abington v. Schempp 1963][ref_abington_v_schempp_1963]
-- [Ad Gentes 1965 Vatican II Decree on Missionary Activity][ref_ad_gentes_1965]
-- [AIRFA 1978 American Indian Religious Freedom Act][ref_airfa_1978]
-- [AIRFA Amendment 1994 Peyote Protection][ref_airfa_amendment_1994]
-- [Alcatraz Proclamation 1969 (We Hold The Rock)][ref_alcatraz_proclamation_1969]
-- [Baptist Faith and Message 2000 (SBC)][ref_baptist_faith_message_2000]
-- [Berrigan 1970 The Trial of the Catonsville Nine][ref_berrigan_1970_prison]
-- [Bob Jones University v. United States 1983][ref_bob_jones_v_us_1983]
-- [Brown v. Board of Education 1954][ref_brown_v_board_1954]
-- [California ALRA 1975 Agricultural Labor Relations Act][ref_california_alra_1975]
-- [Chavez 1975 Autobiography Interview][ref_chavez_1975]
-- [Christianity Today Magazine Founding 1956][ref_christianity_today_1956]
-- [Civil Rights Act 1964][ref_civil_rights_act_1964]
-- [Cone 1969 Black Theology and Black Power][ref_cone_1969_black_theology]
-- [Cone 1970 A Black Theology of Liberation][ref_cone_1970_liberation]
-- [Cone 1975 God of the Oppressed][ref_cone_1975_god_of_oppressed]
-- [Cuban Adjustment Act 1966][ref_cuban_adjustment_act_1966]
-- [Dei Verbum 1965 Vatican II Constitution on Divine Revelation][ref_dei_verbum_1965]
-- [Dignitatis Humanae 1965 Declaration on Religious Freedom][ref_dignitatis_humanae_1965]
-- [Displaced Persons Act 1948][ref_displaced_persons_act_1948]
-- [Eisenhower 1953 First Inaugural Address][ref_eisenhower_1953_inaugural]
-- [Eisenhower 1955 Religion Statement][ref_eisenhower_1955_religion]
-- [Egypt-Israel Peace Treaty 1979][ref_egypt_israel_peace_treaty_1979]
-- [Employment Division v. Smith 1990][ref_employment_division_v_smith_1990]
-- [Engel v. Vitale 1962][ref_engel_v_vitale_1962]
-- [Everson v. Board of Education 1947][ref_everson_v_board_1947]
-- [Fair Housing Act 1968][ref_fair_housing_act_1968]
-- [Farrakhan 1978 Restoration Statement][ref_farrakhan_1978_restoration]
-- [Friedan 1963 The Feminine Mystique][ref_friedan_1963_feminine_mystique]
-- [Gaudium et Spes 1965 Vatican II Pastoral Constitution][ref_gaudium_et_spes_1965]
-- [Graham 1997 Just As I Am (Autobiography)][ref_graham_1997_autobiography]
-- [Green v. Connally 1971][ref_green_v_connally_1971]
-- [Green v. Kennedy 1970][ref_green_v_kennedy_1970]
-- [Gutierrez 1971 Teologia de la Liberacion][ref_gutierrez_1971_teologia]
-- [Hart-Celler Act 1965 Immigration and Nationality Act][ref_hart_celler_act_1965]
-- [Herberg 1955 Protestant-Catholic-Jew Book][ref_herberg_1955_book]
-- [Humanae Vitae 1968 Paul VI Encyclical][ref_humanae_vitae_1968]
-- [In God We Trust Motto Act 1956][ref_in_god_we_trust_1956]
-- [Indian Self-Determination and Education Assistance Act 1975][ref_indian_self_determination_1975]
-- [Indochina Migration and Refugee Assistance Act 1975][ref_indochina_migration_act_1975]
-- [Jackson-Vanik Amendment 1974][ref_jackson_vanik_1974]
-- [John XXIII 1962 Opening Address (Gaudet Mater Ecclesia)][ref_john_xxiii_opening_1962]
-- [Johnson 1965 Liberty Island Signing Address][ref_johnson_1965_liberty_island]
-- [Kennedy 1960 Houston Ministers Address][ref_kennedy_1960_houston]
-- [Jonestown 1978 Peoples Temple Massacre][ref_jonestown_1978]
-- [King 1958 Stride Toward Freedom][ref_king_1958_stride]
-- [King 1963 I Have a Dream][ref_king_1963_dream]
-- [King 1963 Letter from Birmingham Jail][ref_king_1963_letter_birmingham]
-- [King 1964 Nobel Lecture][ref_king_1964_nobel]
-- [King 1967 Beyond Vietnam][ref_king_1967_beyond_vietnam]
-- [King 1968 Mountaintop Speech][ref_king_1968_mountaintop]
-- [King Papers Project][ref_king_papers_project]
-- [Lemon v. Kurtzman 1971][ref_lemon_v_kurtzman_1971]
-- [Lumen Gentium 1964 Dogmatic Constitution on the Church][ref_lumen_gentium_1964]
-- [Malcolm X 1965 The Autobiography of Malcolm X][ref_malcolm_x_1965_autobiography]
-- [Malcolm X Archive][ref_malcolm_x_archive]
-- [Malcolm X Speaks][ref_malcolm_x_speaks]
-- [McCarran-Walter Act 1952][ref_mccarran_walter_act_1952]
-- [Moral Majority Formation 1979][ref_moral_majority_1979]
-- [Muhammad 1957 Supreme Wisdom (Elijah)][ref_muhammad_1957_supreme_wisdom]
-- [Nostra Aetate 1965 Declaration on Relation to Non-Christian Religions][ref_nostra_aetate_1965]
-- [Pacem in Terris 1963 John XXIII Encyclical][ref_pacem_in_terris_1963]
-- [Plan of Delano 1966 (UFW)][ref_plan_of_delano_1966]
-- [Pledge of Allegiance Amendment 1954 (Under God)][ref_pledge_amendment_1954]
-- [Populorum Progressio 1967 Paul VI Encyclical][ref_populorum_progressio_1967]
-- [Ratzinger 1984 Instruction on Liberation Theology][ref_ratzinger_1984_liberation]
-- [Refugee Act 1980][ref_refugee_act_1980]
-- [Religious Freedom Restoration Act 1993][ref_rfra_1993]
-- [Roe v. Wade 1973][ref_roe_v_wade_1973]
-- [Sacrosanctum Concilium 1963 Constitution on the Sacred Liturgy][ref_sacrosanctum_concilium_1963]
-- [SCLC Formation 1957][ref_sclc_formation_1957]
-- [Truman 1947 Truman Doctrine Speech][ref_truman_doctrine_1947]
-- [Truman 1952 Veto Message (McCarran-Walter)][ref_truman_1952_veto_message]
-- [Truman Migratory Labor Commission 1951 Report][ref_truman_migratory_labor_1951]
-- [Twenty-Point Position Paper 1972 (Trail of Broken Treaties)][ref_twenty_point_position_1972]
-- [Voting Rights Act 1965][ref_voting_rights_act_1965]
-- [Waco Branch Davidian 1993][ref_waco_branch_davidian_1993]
-- [Walker 1983 In Search of Our Mothers' Gardens (Womanism)][ref_walker_1983_womanism]
-- [Williams 1993 Sisters in the Wilderness][ref_williams_1993_sisters]
-- [Wisconsin v. Yoder 1972][ref_wisconsin_v_yoder_1972]
-- [Warith Deen Muhammad 1975 Succession Statement][ref_warith_deen_1975]
-- [Warith Deen Muhammad Papers Archive][ref_warith_deen_papers]
+### Secondary Sources
+
+- Ahlstrom, Sydney E. 1972. *A Religious History of the American People*. Yale University Press. [https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/][book_ahlstrom_1972]
+- Ammerman, Nancy Tatom. 1990. *Baptist Battles: Social Change and Religious Conflict in the Southern Baptist Convention*. Rutgers University Press. [https://uofnpress.utenn.edu/9780813515557/baptist-battles/][book_ammerman_1990]
+- Baldwin, Lewis V. 1991. *There Is a Balm in Gilead: The Cultural Roots of Martin Luther King, Jr*. Fortress Press. [https://www.wjkbooks.com/9780664251413/there-is-a-balm-in-gilead/][book_baldwin_1991]
+- Balmer, Randall. 2006. *Thy Kingdom Come: How the Religious Right Distorts the Faith and Threatens America*. Basic Books. [https://www.basicbooks.com/titles/randall-balmer/thy-kingdom-come/9780465005185/][book_balmer_2006]
+- Bau, Ignatius. 1985. *This Ground Is Holy: Church Sanctuary and Central American Refugees*. Paulist Press. [https://openlibrary.org/works/OL5118229W][book_bau_1985]
+- Beckerman, Gal. 2010. *When They Come for Us We'll Be Gone: The Epic Struggle to Save Soviet Jewry*. Houghton Mifflin Harcourt. [https://www.hmhbooks.com/shop/books/when-they-come-for-us-well-be-gone/9780618573097][book_beckerman_2010]
+- Bendroth, Margaret Lamberts. 1993. *Fundamentalism and Gender, 1875 to the Present*. Yale University Press. [https://yalebooks.yale.edu/book/9780300055412/fundamentalism-and-gender/][book_bendroth_1993]
+- Berrigan. 1970. *The Trial of the Catonsville Nine*. [https://catalog.hathitrust.org/Record/000450127][ref_berrigan_1970_prison]
+- Bon Tempo. 2008. *Americans at the Gate*. [https://press.princeton.edu/books/paperback/9780691138114/americans-at-the-gate][book_bon_tempo_2008]
+- Branch, Taylor. 1988. *Parting the Waters: America in the King Years, 1954-1963*. Simon and Schuster. [https://www.simonandschuster.com/books/Parting-the-Waters/Taylor-Branch/9780671687427][book_branch_1988]
+- Branch, Taylor. 1998. *Pillar of Fire: America in the King Years, 1963-65*. Simon & Schuster. [https://www.simonandschuster.com/books/Pillar-of-Fire/Taylor-Branch/9780684848099][book_branch_1998]
+- Branch, Taylor. 2006. *At Canaan's Edge: America in the King Years, 1965-68*. Simon & Schuster. [https://www.simonandschuster.com/books/At-Canaans-Edge/Taylor-Branch/9780684857138][book_branch_2006]
+- Braude, Ann. 2004. *Transforming the Faiths of Our Fathers: Women Who Changed American Religion*. Palgrave Macmillan. [https://global.oup.com/academic/product/transforming-the-faiths-of-our-fathers-9781403963116][book_braude_2004]
+- Brockman, James R. 1989. *Romero: A Life*. Orbis Books. [https://orbisbooks.com/products/romero][book_brockman_1989]
+- Carter, Jimmy. 1982. *Keeping Faith*. Easton Press. [https://global.oup.com/academic/product/keeping-faith-9781557282996][book_carter_1982]
+- Casey, Shaun. 2009. *The Making of a Catholic President: Kennedy versus Nixon 1960*. Oxford University Press. [https://global.oup.com/academic/product/the-making-of-a-catholic-president-9780199843404][book_casey_2009]
+- Cavert, Samuel McCrea. 1968. *The American Churches in the Ecumenical Movement 1900-1968*. Association Press. [https://catalog.hathitrust.org/Record/001191668][book_cavert_1968]
+- Chan, Sucheng. 1991. *Asian Americans: An Interpretive History*. Twayne. [https://www.twaynepublishers.com/chan-asian-americans][book_chan_1991]
+- Chan, Sucheng. 2006. *The Vietnamese American 1.5 Generation: Stories of War, Revolution, Flight and New Beginnings (Asian American History & Cultu)*. Temple University Press. [https://www.temple.edu/tempress/titles/1748\_reg.html][book_chan_2006]
+- Chapman. 2008. *Selling Southern Baptists*. [https://global.oup.com/academic/product/selling-southern-baptists-9780199842452][book_chapman_2008]
+- Chappell, David L. 2004. *A Stone of Hope: Prophetic Religion and the Death of Jim Crow*. University of North Carolina Press. [https://uncpress.org/book/9780807855058/a-stone-of-hope/][book_chappell_2004]
+- Chin. 1996. *The Civil Rights Revolution Comes to Immigration Law*. [https://scholar.google.com/scholar?q=chin+1996+civil+rights+revolution+immigration+law][book_chin_1996]
+- Chryssides, George D. 2001. *Historical Dictionary of New Religious Movements*. The Scarecrow Press, Inc. [https://rowman.com/ISBN/9780810840959/Historical-Dictionary-of-New-Religious-Movements][book_chryssides_2001]
+- Cobb, Daniel M. 2008. *Native Activism in Cold War America*. University Press of Kansas. [https://kansaspress.ku.edu/978-0-7006-1596-9.html][book_cobb_2008]
+- Cohen. 2012. *In War's Wake (Displaced Persons)*. [https://global.oup.com/academic/product/in-wars-wake-9780199791385][book_cohen_2012_survivors]
+- Cone. 1991. *Martin and Malcolm and America*. [https://orbisbooks.com/products/martin-and-malcolm-and-america][book_cone_1991]
+- Cornell, Stephen E. 1988. *The Return of the Native: American Indian Political Resurgence*. Oxford University Press. [https://global.oup.com/academic/product/the-return-of-the-native-9780195055962][book_cornell_1988]
+- Cox, Harvey. 1977. *Turning East: Why Americans Look to the Orient for Spirituallity-And What That Search Can Mean to the West*. Simon & Schuster (Paper). [https://www.simonandschuster.com/books/Turning-East/Harvey-Cox/9780671227234][book_cox_1977]
+- Cracknell and White. 2005. *An Introduction to World Christianity*. [https://www.cambridge.org/9780521545150][book_cracknell_white_2005]
+- Cuneo, Michael W. 1997. *The Smoke of Satan: Conservative and Traditionalist Dissent in Contemporary American Catholicism*. Oxford University Press. [https://global.oup.com/academic/product/the-smoke-of-satan-9780195095517][book_cuneo_1997]
+- Curtis, Edward E. 2006. *Black Muslim Religion in the Nation of Islam, 1960-1975*. The University of North Carolina Press. [https://uncpress.org/book/9780807857717/black-muslim-religion-in-the-nation-of-islam/][book_curtis_2006]
+- De La Torre. 2003. *La Lucha for Cuba*. [https://www.uwpress.wisc.edu/9780299194642/la-lucha-for-cuba/][book_de_la_torre_2003]
+- Díaz-Stevens, Ana María. 1993. *Oxcart Catholicism on Fifth Avenue: The Impact of the Puerto Rican Migration upon the Archdiocese of New York*. University of Notre Dame Press. [https://uofnpress.utenn.edu/9780268037208/oxcart-catholicism-on-fifth-avenue/][book_diaz_stevens_1993]
+- Dinnerstein, Leonard. 1982. *America and the Survivors of the Holocaust*. Columbia University Press. [https://cup.columbia.edu/book/america-and-the-survivors-of-the-holocaust/9780231052212][book_dinnerstein_1982]
+- Divine, Robert A. 1957. *American Immigration Policy, 1924-1952*. Yale University Press. [https://yalebooks.yale.edu/book/9780300000399/american-immigration-policy/][book_divine_1957]
+- Dolan, Jay P. 1985. *The American Catholic Experience: A History from Colonial Times to the Present*. Doubleday. [https://uofnpress.utenn.edu/9780268006709/the-american-catholic-experience/][book_dolan_1985]
+- Ellwood, Robert S. 1994. *The Sixties Spiritual Awakening: American Religion Moving from Modern to Postmodern*. Rutgers University Press. [https://rutgersuniversitypress.org/the-sixties-spiritual-awakening/9780813520094/][book_ellwood_1994]
+- Espinosa, Gaston, Elizondo, and Miranda. 2003. *Hispanic Churches in American Public Life: Summary of Findings*. Institute for Latino Studies, University of Notre Dame. [https://global.oup.com/academic/product/hispanic-churches-in-american-public-life-9780268030651][book_espinosa_elizondo_miranda_2003]
+- Espiritu. 1992. *Asian American Panethnicity: Bridging Institutions and Identities*. Temple University Press. [https://www.temple.edu/tempress/titles/929\_reg.html][book_espiritu_1992]
+- Faderman, Lillian. 1998. *I Begin My Life All Over: The Hmong and the American Immigrant Experience*. Beacon Press. [https://www.beacon.org/I-Begin-My-Life-All-Over-P1245.aspx][book_faderman_1998]
+- Fein, Leonard J. 1988. *Where Are We?: The Inner Life of America's Jews*. Harper & Row. [https://openlibrary.org/works/OL4987965W][book_fein_1988]
+- Feingold. 1992. *A Time for Searching*. [https://jhupress.jhu.edu/9780801844980/a-time-for-searching/][book_feingold_1992]
+- Feingold, Henry L. 2007. *Silent No More: Saving the Jews of Russia, the American Jewish Effort, 1967-1989 (Modern Jewish History)*. Syracuse University Press. [https://openlibrary.org/works/OL2915485W][book_feingold_2007]
+- Findlay, James F. 1993. *Church People in the Struggle: The National Council of Churches and the Black Freedom Movement, 1950-1970*. Oxford University Press. [https://global.oup.com/academic/product/church-people-in-the-struggle-9780195082944][book_findlay_1993]
+- FitzGerald, Thomas E. 2004. *The Ecumenical Movement: An Introductory History*. Praeger Conn. [https://www.wjkbooks.com/9780664224202/the-ecumenical-movement/][book_fitzgerald_2004]
+- FitzGerald, Frances. 2017. *The Evangelicals: The Struggle to Shape America*. Simon & Schuster. [https://www.simonandschuster.com/books/The-Evangelicals/Frances-FitzGerald/9781439131336][book_fitzgerald_2017]
+- Friedan, Betty. 1963. *The Feminine Mystique*. penguin books ltd. [https://wwnorton.com/books/9780393322576][ref_friedan_1963_feminine_mystique]
+- Fuchs, Lawrence H. 1967. *John F. Kennedy and American Catholicism*. Meredith Press. [https://catalog.hathitrust.org/Record/001191670][book_fuchs_1967]
+- García, María Cristina, and Maria Cristina Garcia. 1996. *Havana USA: Cuban Exiles and Cuban Americans in South Florida, 1959-1994*. University of California Press. [https://www.ucpress.edu/book/9780520211155/havana-usa][book_garcia_1996]
+- Gardell, Mattias. 1996. *In the Name of Elijah Muhammad: Louis Farrakhan and the Nation of Islam*. Duke University Press. [https://www.dukeupress.edu/in-the-name-of-elijah-muhammad][book_gardell_1996]
+- Garrow, David J., David J. Garrow, and David Garrow. 1986. *Bearing the Cross: Martin Luther King, Jr., and the Southern Christian Leadership Conference*. W. Morrow. [https://www.harpercollins.com/products/bearing-the-cross-david-j-garrow][book_garrow_1986]
+- Genizi, Haim. 1993. *America's Fair Share: The Admission and Resettlement of Displaced Persons, 1945-1952*. Wayne State University Press. [https://wayne.edu/wsu-press/genizi-americas-fair-share][book_genizi_1993]
+- Golden, Renny, and McConnell. 1986. *Sanctuary: The New Underground Railroad*. Orbis Books. [https://orbisbooks.com/products/sanctuary-golden-mcconnell][book_golden_mcconnell_1986]
+- Graham. 2004. *Not Peace but a Sword (Bob Pierce)*. [https://www.regentcollegepublishing.com/graham-not-peace-but-a-sword][book_graham_2004_pierce]
+- Grenier, Guillermo J., and Lisandro Pérez. 2003. *The Legacy of Exile: Cubans in the United States*. Allyn and Bacon. [https://www.temple.edu/tempress/titles/1720\_reg.html][book_grenier_perez_2003]
+- Hall, Mitchell K. 1990. *Because of Their Faith: CALCAV and Religious Opposition to the Vietnam War*. Columbia University Press. [https://cornellpress.cornell.edu/book/9780231073509/because-of-their-faith/][book_hall_1990]
+- Hernández, Kelly Lytle. 2010. *Migra!: A History of the U.S. Border Patrol*. University of California Press. [https://www.ucpress.edu/book/9780520266414/migra][book_hernandez_2010]
+- Herzog, Jonathan P. 2011. *The Spiritual-Industrial Complex: America's Religious Battle against Communism in the Early Cold War*. Oxford University Press. [https://global.oup.com/academic/product/the-spiritual-industrial-complex-9780199797608][book_herzog_2011]
+- Jelen, Ted G. 1995. *Perspectives on the Politics of Abortion*. ABC-CLIO, LLC. [https://uofnpress.utenn.edu/9780791423457/perspectives-on-the-politics-of-abortion/][book_jelen_1995]
+- King. 2019. *God's Internationalists (World Vision)*. [https://www.hup.harvard.edu/books/9780674983656][book_king_2019]
+- Kinnamon, Michael. 2014. *Can a Renewal Movement Be Renewed?: Questions for the Future of Ecumenism*. Eerdmans Publishing Company, William B. [https://www.wjkbooks.com/9780802871183/can-a-renewal-movement-be-renewed/][book_kinnamon_2014]
+- Kraybill, Donald B. 2001. *The Riddle of Amish Culture*. Johns Hopkins University Press. [https://jhupress.jhu.edu/9780801867712/the-riddle-of-amish-culture/][book_kraybill_2001]
+- Kruse, Kevin Michael, and Kevin M. Kruse. 2015. *One Nation under God*. Basic Books. [https://www.basicbooks.com/titles/kevin-m-kruse/one-nation-under-god/9780465049493/][book_kruse_2015]
+- Kwon, Ho-Youn, Kwang Chung Kim, and R. Stephen Warner. 2001. *Korean Americans and Their Religions: Pilgrams and Missionaries from a Different Shore*. Pennsylvania State University Press. [https://www.psupress.org/books/titles/0-271-02074-2.html][book_kwon_kim_warner_2001]
+- Lazin, Frederick A., Fred Lazin, and Fred A. Lazin. 2005. *The Struggle for Soviet Jewry in American Politics: Israel versus the American Jewish Establishment*. Lexington Books. [https://global.oup.com/academic/product/the-struggle-for-soviet-jewry-9780739110430][book_lazin_2005]
+- Lee, Erika. 2015. *The Making of Asian America: A History*. Simon & Schuster. [https://www.simonandschuster.com/books/The-Making-of-Asian-America/Erika-Lee/9781476739403][book_lee_2015]
+- Levy, Jacques E. 2007. *Cesar Chavez: Autobiography of La Causa*. Norton. [https://global.oup.com/academic/product/cesar-chavez-9780816653249][book_levy_2007]
+- Loescher, Gil, and Scanlan. 1986. *Calculated Kindness: Refugees and America's Half-Open Door, 1945 to the Present*. Free Press. [https://openlibrary.org/works/OL3493119W][book_loescher_scanlan_1986]
+- *Malcolm X Speaks*. n.d. [https://catalog.hathitrust.org/Record/000450131][ref_malcolm_x_speaks]
+- Marable, Manning. 2011. *Malcolm X: A Life of Reinvention*. Penguin Books, Limited. [https://www.penguinrandomhouse.com/books/122032/malcolm-x-by-manning-marable/][book_marable_2011]
+- Marsden, George M. 2006. *Fundamentalism and American Culture*. Oxford University Press. [https://global.oup.com/academic/product/fundamentalism-and-american-culture-9780195300475][book_marsden_2006]
+- Marsh, Charles. 2005. *The Beloved Community: How Faith Shapes Social Justice, from the Civil Rights Movement to Today*. Basic Books. [https://global.oup.com/academic/product/the-beloved-community-9780465044160][book_marsh_2005]
+- Martin. 1991. *A Prophet with Honor (Graham)*. [https://global.oup.com/academic/product/a-prophet-with-honor-9780688168353][book_martin_1991]
+- Marty, Martin E. 1985. *Modern American Religion*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/M/bo3617648.html][book_marty_1985]
+- Massa. 1997. *Anti-Catholicism in America*. [https://global.oup.com/academic/product/anti-catholicism-in-america-9780824520610][book_massa_1997]
+- Massa, Mark Stephen. 1999. *Catholics and American Culture: Fulton Sheen, Dorothy Day, and the Notre Dame Football Team*. Crossroad Pub. Co. [https://global.oup.com/academic/product/catholics-and-american-culture-9780824517724][book_massa_1999]
+- Massey, Douglas S., Jorge Durand, and Nolan J. Malone. 2002. *Beyond Smoke and Mirrors: Mexican Immigration in an Era of Economic Integration*. Russell Sage Foundation Publications. [https://www.russellsage.org/publications/beyond-smoke-and-mirrors][book_massey_durand_malone_2002]
+- McGreevy, John T. 2003. *Catholicism and American Freedom: A History*. W. W. Norton & Company. [https://wwnorton.com/books/Catholicism-and-American-Freedom][book_mcgreevy_2003]
+- Meconis. 1979. *With Clumsy Grace (Catholic Left)*. [https://scholar.google.com/scholar?q=meconis+1979+with+clumsy+grace+catholic+left][book_meconis_1979]
+- Melton, J. Gordon. 2003. *Encyclopedia of American Religions*. Thomson Gale. [https://cengage.com/melton-encyclopedia-american-religions][book_melton_2003]
+- Min. 1992. *Korean Immigrant Churches*. [https://catalog.hathitrust.org/Record/002734106][book_min_1992]
+- *Moral Majority Formation*. 1979. [https://catalog.hathitrust.org/Record/000646184][ref_moral_majority_1979]
+- Mostofi. 2003. *Iranian Americans*. [https://scholar.google.com/scholar?q=mostofi+2003+iranian+americans][book_mostofi_2003]
+- Muhammad. 1957. *Supreme Wisdom (Elijah)*. [https://catalog.hathitrust.org/Record/000450128][ref_muhammad_1957_supreme_wisdom]
+- Ngai, Mae M. 2004. *Impossible Subjects: Illegal Aliens and the Making of Modern America*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691160825/impossible-subjects][book_ngai_2004]
+- Nickoloff, James B. 1996. *Gustavo Gutierrez: Theologian of Liberation and Life: Essential Writings*. Hymns Ancient & Modern Ltd. [https://orbisbooks.com/products/gustavo-gutierrez-essential-writings][book_nickoloff_1996]
+- Nolt, Steven M. 2016. *A History of the Amish, Revised and Updated!*. Good Books. [https://jhupress.jhu.edu/9781421419534/amish/][book_nolt_2016_amish]
+- O'Malley, John W. 2008. *What Happened at Vatican II*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674047495][book_omalley_2008]
+- Oates, Stephen B. 1982. *Let the Trumpet Sound: The Life of Martin Luther King, Jr.*. Search Press. [https://openlibrary.org/works/OL2752529W][book_oates_1982]
+- Pawel, Miriam. 2014. *The Crusades of Cesar Chavez: A Biography*. Bloomsbury Press. [https://www.bloomsbury.com/us/crusades-of-cesar-chavez-9781608197118/][book_pawel_2014]
+- Pérez, Louis A. 1999. *On Becoming Cuban: Identity, Nationality, and Culture*. University of North Carolina Press. [https://uncpress.org/book/9780807848081/on-becoming-cuban/][book_perez_1999]
+- Perry, Bruce. 1991. *Malcolm: The Life of a Man Who Changed Black America*. Station Hill Pr. [https://openlibrary.org/works/OL4455819W][book_perry_1991]
+- Peters, Shawn Francis. 2003. *The Yoder Case: Religious Freedom, Education, and Parental Rights*. University Press of Kansas. [https://kansaspress.ku.edu/978-0-7006-1236-4.html][book_peters_2003]
+- Polner and O'Grady. 1997. *Disarmed and Dangerous (Berrigans)*. [https://catalog.hathitrust.org/Record/003486081][book_polner_ogrady_1997]
+- Portes, Alejandro, and Rumbaut. 2014. *Immigrant America: A Portrait*. University of California Press. [https://www.ucpress.edu/book/9780520274020/immigrant-america][book_portes_rumbaut_2014]
+- Preston, Andrew. 2012. *Sword of the Spirit, Shield of Faith: Religion in American War and Diplomacy*. Alfred A. Knopf. [https://www.penguinrandomhouse.com/books/298018/sword-of-the-spirit-shield-of-faith-by-andrew-preston/][book_preston_2012]
+- Prouty, Marco G. 2006. *Cesar Chavez, the Catholic Bishops, and the Farmworkers' Struggle for Social Justice*. University of Arizona Press. [https://global.oup.com/academic/product/cesar-chavez-the-catholic-bishops-9780814655672][book_prouty_2006]
+- Quandt, William B. 1986. *Camp David: Peacemaking and Politics*. Brookings Institution. [https://brookings.edu/book/camp-david/][book_quandt_1986]
+- Robinson, Court. 1998. *Terms of Refuge: The Indochinese Exodus & the International Response*. Zed Books. [https://www.zedbooks.net/shop/book/terms-of-refuge][book_robinson_1998]
+- Rodriguez, Clara E. 1989. *Puerto Ricans: Born in the U.S.A.*. Unwin Hyman. [https://global.oup.com/academic/product/puerto-ricans-9780415011662][book_rodriguez_1989]
+- Rosenberg, Ellen MacGilvra. 1996. *The Southern Baptists: A Subculture in Transition*. University of Tennessee Press. [https://uofnpress.utenn.edu/9780807855577/the-southern-baptists/][book_rosenberg_1996]
+- Ruether, Rosemary Radford. 2003. *Women and Redemption: A Theological History*. S.C.M. Press. [https://www.wjkbooks.com/9780664224660/women-and-redemption/][book_ruether_2003]
+- Sanasarian, Eliz. 2000. *Religious Minorities in Iran (Cambridge Middle East Studies)*. Cambridge University Press. [https://www.cambridge.org/9780521770735][book_sanasarian_2000]
+- Sanchez Korrol. 1994. *From Colonia to Community*. [https://www.ucpress.edu/book/9780520203204/from-colonia-to-community][book_sanchez_korrol_1994]
+- Sarna, Jonathan D. 2004. *American Judaism: A History*. Yale University Press. [https://yalebooks.yale.edu/book/9780300109764/american-judaism/][book_sarna_2004]
+- Sharlet, Jeff. 2008. *The Family: The Secret Fundamentalism at the Heart of American Power*. Harper. [https://www.harpercollins.com/products/the-family-jeff-sharlet][book_sharlet_2008]
+- Sigmund, Paul E. 1990. *Liberation Theology at the Crossroads: Democracy or Revolution?*. Oxford University Press. [https://global.oup.com/academic/product/liberation-theology-at-the-crossroads-9780195080704][book_sigmund_1990]
+- Smith, Christian. 1991. *The Emergence of Liberation Theology: Radical Religion and Social Movement Theory*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/E/bo3618617.html][book_smith_1991]
+- Smith, Paul Chaat, and Robert Allen Warrior. 1996. *Like a Hurricane: The Indian Movement from Alcatraz to Wounded Knee*. The New Press. [https://www.perseusbooks.com/smith-warrior-like-a-hurricane][book_smith_warrior_1996]
+- Suárez-Orozco, Carola, and Marcelo M. Suárez-Orozco. 2007. *Learning a New Land: Immigrant Students in American Society*. Belknap Press. [https://www.hup.harvard.edu/books/9780674046252][book_suarez_orozco_2007]
+- Sutton. 2000. *The Baptists in Alabama*. [https://uabpress.ua.edu/product/The-Baptists-in-Alabama,7078.aspx][book_sutton_2000]
+- Tichenor, Daniel J. 2002. *Dividing Lines: The Politics of Immigration Control in America*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691088051/dividing-lines][book_tichenor_2002]
+- Torres, María de los Angeles, and Maria de los Angeles Torres. 1999. *In the Land of Mirrors: Cuban Exile Politics in the United States*. University of Michigan Press. [https://global.oup.com/academic/product/in-the-land-of-mirrors-9780472066193][book_torres_1999]
+- Truman Migratory Labor Commission. 1951. *Report*. [https://catalog.hathitrust.org/Record/000640215][ref_truman_migratory_labor_1951]
+- Wacker. 2014. *America’s Pastor*. [https://www.hup.harvard.edu/books/9780674052185][book_wacker_2014]
+- *Warith Deen Muhammad Papers Archive*. n.d. [https://catalog.hathitrust.org/Record/012452871][ref_warith_deen_papers]
+- Whalen, Carmen Teresa, and Vazquez-Hernandez. 2005. *The Puerto Rican Diaspora: Historical Perspectives*. Temple University Press. [https://www.temple.edu/tempress/titles/1855\_reg.html][book_whalen_vazquez_2005]
+- Whitfield, Teresa. 1994. *Paying the Price: Ignacio Ellacuría and the Murdered Jesuits of El Salvador*. Temple University Press. [https://global.oup.com/academic/product/paying-the-price-9781566391207][book_whitfield_1994]
+- Whitfield, Stephen J. 1996. *The Culture of the Cold War*. Johns Hopkins University Press. [https://jhupress.jhu.edu/9780801853951/the-culture-of-the-cold-war/][book_whitfield_1996]
+- Williams, Daniel K. 2010. *God's Own Party: The Making of the Christian Right*. Oxford University Press. [https://global.oup.com/academic/product/gods-own-party-9780199754373][book_williams_2010]
+- Wilmore, Gayraud S., and James H. Cone. 1979. *Black Theology: A Documentary History*. Orbis Books. [https://orbisbooks.com/products/black-theology-a-documentary-history][book_wilmore_cone_1979]
+- Wright. 2014. *Thirteen Days in September (Camp David)*. [https://www.penguinrandomhouse.com/books/207994/thirteen-days-in-september-by-lawrence-wright/][book_wright_2014]
+- Wuthnow, Robert. 1988. *The Restructuring of American Religion: Society and Faith since World War II*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691073682/the-restructuring-of-american-religion][book_wuthnow_1988]
+- Yang. 2008. *Diverse Traditions*. [https://global.oup.com/academic/product/diverse-traditions-9780788015205][book_yang_2008]
+- Zolberg, Aristide R. 2006. *A Nation by Design: Immigration Policy in the Fashioning of America*. Russell Sage Foundation. [https://www.hup.harvard.edu/books/9780674022188][book_zolberg_2006]
+
+### General Sources
+
+- Alcatraz Proclamation. 1969. "(We Hold The Rock)." [https://libguides.usfca.edu/alcatraz/proclamation][ref_alcatraz_proclamation_1969]
+- Baptist, Faith, and Message. 2000. "(SBC)." [https://bfm.sbc.net/bfm2000/][ref_baptist_faith_message_2000]
+- California ALRA. 1975. "Agricultural Labor Relations Act." [https://www.alrb.ca.gov/laws-and-regulations/agricultural-labor-relations-act/][ref_california_alra_1975]
+- Chavez. 1975. "Autobiography Interview." [https://scholar.google.com/scholar?q=chavez+1975+autobiography][ref_chavez_1975]
+- Cone. 1969. "Black Theology and Black Power." [https://orbisbooks.com/products/black-theology-and-black-power][ref_cone_1969_black_theology]
+- Cone. 1970. "A Black Theology of Liberation." [https://orbisbooks.com/products/a-black-theology-of-liberation][ref_cone_1970_liberation]
+- Cone. 1975. "God of the Oppressed." Orbis Books. Accessed October 25, 2026. [https://orbisbooks.com/products/god-of-the-oppressed][ref_cone_1975_god_of_oppressed]
+- Eisenhower. 1955. "Religion Statement." [https://www.eisenhowerlibrary.gov/research/online-documents/religion][ref_eisenhower_1955_religion]
+- Farrakhan. 1978. "Restoration Statement." [https://www.finalcall.com/history-of-noi][ref_farrakhan_1978_restoration]
+- Graham. 1997. "Just as I Am." HarperCollins. Accessed October 25, 2026. [https://www.harpercollins.com/products/just-as-i-am-billy-graham][ref_graham_1997_autobiography]
+- Gutierrez. 1971. "Teologia de la Liberacion." [https://orbisbooks.com/products/a-theology-of-liberation][ref_gutierrez_1971_teologia]
+- Herberg. 1955. "Protestant-Catholic-Jew Book." [https://press.uchicago.edu/ucp/books/book/chicago/P/bo3629956.html][book_herberg_1955]
+- "History: Christianity Today." 1956. *Christianity Today*. Accessed October 25, 2026. [https://www.christianitytoday.com/history/][ref_christianity_today_1956]
+- Indochina, Migration, Refugee, Assistance, and Act. 1975. "\[Title not identified\]." Accessed October 25, 2026. [https://www.congress.gov/bill/94th-congress/house-bill/6755][ref_indochina_migration_act_1975]
+- "Jonestown & Peoples Temple – a Digital Archive." 1978. Accessed October 25, 2026. [https://jonestown.sdsu.edu/][ref_jonestown_1978]
+- Kennedy. 1960. "Houston Ministers Address." [https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/houston-ministerial-association-19600912][ref_kennedy_1960_houston]
+- King. 1958. "Stride Toward Freedom." [https://www.beacon.org/Stride-Toward-Freedom-P1180.aspx][ref_king_1958_stride]
+- King. 1964. "Nobel Peace Prize 1964." NobelPrize.org. Accessed October 25, 2026. [https://www.nobelprize.org/prizes/peace/1964/king/lecture/][ref_king_1964_nobel]
+- Malcolm X. 1965. "The Autobiography of Malcolm X." [https://www.penguinrandomhouse.com/books/171708/the-autobiography-of-malcolm-x-by-malcolm-x-and-alex-haley/][ref_malcolm_x_1965_autobiography]
+- "Malcolm X Archive." n.d. Accessed October 25, 2026. [https://malcolmx.com/][ref_malcolm_x_archive]
+- Plan of Delano. 1966. "(UFW)." [https://libraries.ucsd.edu/farmworkermovement/media/oral\_history/Plan\_of\_Delano.pdf][ref_plan_of_delano_1966]
+- Truman. 1952. "Veto Message (McCarran-Walter)." [https://www.trumanlibrary.gov/library/public-papers/182/veto-message-immigration-bill][ref_truman_1952_veto_message]
+- Twenty-Point Position Paper. 1972. "(Trail of Broken Treaties)." [https://aimovement.org/archives/twenty-point-position-paper][ref_twenty_point_position_1972]
+- "Waco DOJ Report." 1993. [https://www.justice.gov/publications/waco-report][ref_waco_branch_davidian_1993]
+- Walker. 1983. "In Search of Our Mothers' Gardens (Womanism)." [https://www.harcourtbooks.com/walker-in-search-of-our-mothers-gardens][ref_walker_1983_womanism]
+- Warith Deen Muhammad. 1975. "Succession Statement." [https://www.masjidalislam.com/warith-deen-succession-1975][ref_warith_deen_1975]
+- Williams. 1993. "Sisters in the Wilderness." Orbis Books. Accessed October 25, 2026. [https://orbisbooks.com/products/sisters-in-the-wilderness][ref_williams_1993_sisters]
 
 ### Related Posts
 
-- [A266 Ethnoreligion Framing and Three Substrates][related_post_a266_framing]
-- [A267 Ethnoreligion Colonial Folkways and Early Diffusion][related_post_a267_colonial_folkways]
-- [A268 Ethnoreligion Awakening and Founding][related_post_a268_awakening_and_founding]
-- [A269 Ethnoreligion Second Awakening and Reform][related_post_a269_second_awakening_and_reform]
-- [A270 Ethnoreligion Civil War and Reconstruction][related_post_a270_civil_war_and_reconstruction]
-- [A271 Ethnoreligion Mass Immigration and Closure][related_post_a271_mass_immigration_and_closure]
-- [A272 Ethnoreligion Depression War and Refuge][related_post_a272_depression_war_and_refuge]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Indigenous, African, and European Ethnoreligious Substrates." *Brendan A R Sechter's Development Blog*, January 3. [https://sgeos.github.io/history/economics/religion/2026/01/03/ethnoreligion\_and\_american\_political\_economy\_framing.html][related_post_a266_framing]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Contact, Colonial Folkways, and Early Diffusion 1607-1725." *Brendan A R Sechter's Development Blog*, January 4. [https://sgeos.github.io/history/economics/religion/2026/01/04/ethnoreligion\_and\_american\_political\_economy\_colonial\_folkways.html][related_post_a267_colonial_folkways]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Great Awakening, Revolution, and Founding 1725-1789." *Brendan A R Sechter's Development Blog*, January 5. [https://sgeos.github.io/history/economics/religion/2026/01/05/ethnoreligion\_and\_american\_political\_economy\_awakening\_and\_founding.html][related_post_a268_awakening_and_founding]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Second Great Awakening, Removal, and Antebellum Reform 1789-1861." *Brendan A R Sechter's Development Blog*, January 6. [https://sgeos.github.io/history/economics/religion/2026/01/06/ethnoreligion\_and\_american\_political\_economy\_second\_awakening\_and\_reform.html][related_post_a269_second_awakening_and_reform]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Civil War, Reconstruction, and Continental Consolidation 1861-1900." *Brendan A R Sechter's Development Blog*, January 7. [https://sgeos.github.io/history/economics/religion/2026/01/07/ethnoreligion\_and\_american\_political\_economy\_civil\_war\_and\_reconstruction.html][related_post_a270_civil_war_and_reconstruction]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Mass Immigration and Restrictionist Closure 1900-1924." *Brendan A R Sechter's Development Blog*, January 8. [https://sgeos.github.io/history/economics/religion/2026/01/08/ethnoreligion\_and\_american\_political\_economy\_mass\_immigration\_and\_closure.html][related_post_a271_mass_immigration_and_closure]
+- Sechter, Brendan. 2026. "Ethnoreligion and American Political Economy: Depression, War, and Refuge 1924-1945." *Brendan A R Sechter's Development Blog*, January 9. [https://sgeos.github.io/history/economics/religion/2026/01/09/ethnoreligion\_and\_american\_political\_economy\_depression\_war\_and\_refuge.html][related_post_a272_depression_war_and_refuge]
 
 [book_ahlstrom_1972]: https://yalebooks.yale.edu/book/9780300100129/a-religious-history-of-the-american-people/
 [book_ammerman_1990]: https://uofnpress.utenn.edu/9780813515557/baptist-battles/
 [book_baldwin_1991]: https://www.wjkbooks.com/9780664251413/there-is-a-balm-in-gilead/
 [book_balmer_2006]: https://www.basicbooks.com/titles/randall-balmer/thy-kingdom-come/9780465005185/
-[book_bau_1985]: https://scholar.google.com/scholar?q=bau+1985+this+ground+is+holy+sanctuary
+[book_bau_1985]: https://openlibrary.org/works/OL5118229W
 [book_beckerman_2010]: https://www.hmhbooks.com/shop/books/when-they-come-for-us-well-be-gone/9780618573097
 [book_bendroth_1993]: https://yalebooks.yale.edu/book/9780300055412/fundamentalism-and-gender/
 [book_bon_tempo_2008]: https://press.princeton.edu/books/paperback/9780691138114/americans-at-the-gate
@@ -923,9 +927,9 @@ This article follows the terminological conventions established in [A266][relate
 [book_espinosa_elizondo_miranda_2003]: https://global.oup.com/academic/product/hispanic-churches-in-american-public-life-9780268030651
 [book_espiritu_1992]: https://www.temple.edu/tempress/titles/929_reg.html
 [book_faderman_1998]: https://www.beacon.org/I-Begin-My-Life-All-Over-P1245.aspx
-[book_fein_1988]: https://scholar.google.com/scholar?q=fein+1988+where+are+we+jewish+identity
+[book_fein_1988]: https://openlibrary.org/works/OL4987965W
 [book_feingold_1992]: https://jhupress.jhu.edu/9780801844980/a-time-for-searching/
-[book_feingold_2007]: https://scholar.google.com/scholar?q=feingold+2007+silent+no+more
+[book_feingold_2007]: https://openlibrary.org/works/OL2915485W
 [book_findlay_1993]: https://global.oup.com/academic/product/church-people-in-the-struggle-9780195082944
 [book_fitzgerald_2004]: https://www.wjkbooks.com/9780664224202/the-ecumenical-movement/
 [book_fitzgerald_2017]: https://www.simonandschuster.com/books/The-Evangelicals/Frances-FitzGerald/9781439131336
@@ -950,7 +954,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_lazin_2005]: https://global.oup.com/academic/product/the-struggle-for-soviet-jewry-9780739110430
 [book_lee_2015]: https://www.simonandschuster.com/books/The-Making-of-Asian-America/Erika-Lee/9781476739403
 [book_levy_2007]: https://global.oup.com/academic/product/cesar-chavez-9780816653249
-[book_loescher_scanlan_1986]: https://scholar.google.com/scholar?q=loescher+scanlan+1986+calculated+kindness
+[book_loescher_scanlan_1986]: https://openlibrary.org/works/OL3493119W
 [book_marable_2011]: https://www.penguinrandomhouse.com/books/122032/malcolm-x-by-manning-marable/
 [book_marsden_2006]: https://global.oup.com/academic/product/fundamentalism-and-american-culture-9780195300475
 [book_marsh_2005]: https://global.oup.com/academic/product/the-beloved-community-9780465044160
@@ -967,11 +971,11 @@ This article follows the terminological conventions established in [A266][relate
 [book_ngai_2004]: https://press.princeton.edu/books/paperback/9780691160825/impossible-subjects
 [book_nickoloff_1996]: https://orbisbooks.com/products/gustavo-gutierrez-essential-writings
 [book_nolt_2016_amish]: https://jhupress.jhu.edu/9781421419534/amish/
-[book_oates_1982]: https://scholar.google.com/scholar?q=oates+1982+let+the+trumpet+sound
+[book_oates_1982]: https://openlibrary.org/works/OL2752529W
 [book_omalley_2008]: https://www.hup.harvard.edu/books/9780674047495
 [book_pawel_2014]: https://www.bloomsbury.com/us/crusades-of-cesar-chavez-9781608197118/
 [book_perez_1999]: https://uncpress.org/book/9780807848081/on-becoming-cuban/
-[book_perry_1991]: https://scholar.google.com/scholar?q=perry+1991+malcolm
+[book_perry_1991]: https://openlibrary.org/works/OL4455819W
 [book_peters_2003]: https://kansaspress.ku.edu/978-0-7006-1236-4.html
 [book_polner_ogrady_1997]: https://catalog.hathitrust.org/Record/003486081
 [book_portes_rumbaut_2014]: https://www.ucpress.edu/book/9780520274020/immigrant-america
@@ -1005,7 +1009,7 @@ This article follows the terminological conventions established in [A266][relate
 [book_zolberg_2006]: https://www.hup.harvard.edu/books/9780674022188
 [ref_abington_v_schempp_1963]: https://supreme.justia.com/cases/federal/us/374/203/
 [ref_ad_gentes_1965]: https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651207_ad-gentes_en.html
-[ref_airfa_1978]: https://www.congress.gov/bill/95th-congress/senate-joint-resolution/102
+[ref_airfa_1978]: https://scholar.google.com/scholar?q=American+Indian+Religious+Freedom+Act+AIRFA+1978
 [ref_airfa_amendment_1994]: https://www.congress.gov/bill/103rd-congress/house-bill/4230
 [ref_alcatraz_proclamation_1969]: https://libguides.usfca.edu/alcatraz/proclamation
 [ref_baptist_faith_message_2000]: https://bfm.sbc.net/bfm2000/
@@ -1041,7 +1045,7 @@ This article follows the terminological conventions established in [A266][relate
 [ref_herberg_1955_book]: https://press.uchicago.edu/ucp/books/book/chicago/P/bo3629956.html
 [ref_humanae_vitae_1968]: https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html
 [ref_in_god_we_trust_1956]: https://www.archives.gov/milestone-documents/in-god-we-trust
-[ref_indian_self_determination_1975]: https://www.congress.gov/bill/93rd-congress/senate-bill/1017
+[ref_indian_self_determination_1975]: https://scholar.google.com/scholar?q=Indian+Self-Determination+Education+1975
 [ref_indochina_migration_act_1975]: https://www.congress.gov/bill/94th-congress/house-bill/6755
 [ref_jackson_vanik_1974]: https://www.congress.gov/bill/93rd-congress/house-bill/10710
 [ref_john_xxiii_opening_1962]: https://www.vatican.va/content/john-xxiii/en/speeches/1962/documents/hf_j-xxiii_spe_19621011_opening-council.html

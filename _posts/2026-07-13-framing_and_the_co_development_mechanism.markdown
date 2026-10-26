@@ -49,7 +49,7 @@ with $T_M$ approximately 18 to 24 months for transistor density over the four de
 
 ## The Substrate: Semiconductor Manufacturing Under Defense Demand
 
-Any physical substantiation of $S(t)$ requires a physical medium in which computation happens. Between roughly 1946 and 1965 the medium was vacuum tubes, later transistors, later integrated circuits. Each transition was driven partly by aerospace and defense requirements. Vacuum tube computers reached hundreds of kilowatts of power consumption and mean times between failure measured in hours, which was unacceptable for airborne or spaceborne use. The stored-program architecture that vacuum-tube and later solid-state computers all implemented was established in [von Neumann 1945][research_von_neumann_edvac_1945], the First Draft of a Report on the EDVAC, which became the reference document for essentially every general-purpose computer design that followed. The transistor, invented at Bell Telephone Laboratories in December 1947 per [Bardeen Brattain Shockley 1948][research_bardeen_brattain_shockley_1948], reduced power consumption by three orders of magnitude and reliability by comparable factors. The integrated circuit followed in 1958 at Texas Instruments under [Kilby][ref_kilby_ic_patent] and independently at Fairchild Semiconductor under [Noyce][ref_noyce_ic_patent], whose 1961 patent for the unitary planar-process integrated circuit provided the manufacturing template that the subsequent industry followed.
+Any physical substantiation of $S(t)$ requires a physical medium in which computation happens. Between roughly 1946 and 1965 the medium was vacuum tubes, later transistors, later integrated circuits. Each transition was driven partly by aerospace and defense requirements. Vacuum tube computers reached hundreds of kilowatts of power consumption and mean times between failure measured in hours, which was unacceptable for airborne or spaceborne use. The stored-program architecture that vacuum-tube and later solid-state computers all implemented was established in [von Neumann 1945][research_von_neumann_edvac_1945], the First Draft of a Report on the EDVAC, which became the reference document for essentially every general-purpose computer design that followed. The transistor, invented at Bell Telephone Laboratories in December 1947 per [Bardeen and Brattain 1948][research_bardeen_brattain_shockley_1948], reduced power consumption by three orders of magnitude and reliability by comparable factors. The integrated circuit followed in 1958 at Texas Instruments under [Kilby][ref_kilby_ic_patent] and independently at Fairchild Semiconductor under [Noyce][ref_noyce_ic_patent], whose 1961 patent for the unitary planar-process integrated circuit provided the manufacturing template that the subsequent industry followed.
 
 The Apollo Guidance Computer used integrated circuits from a market that consisted almost entirely of the Apollo program itself between 1962 and 1965, per [Mindell 2008][book_mindell_digital_apollo]. Fairchild sold Apollo the entire early production run of its three-input logical NOR gate at prices that would not have been sustainable without government commitment. The Minuteman intermediate range ballistic missile likewise absorbed early integrated circuit production for its guidance computer. The commercial personal computing wave of the late 1970s and early 1980s inherited a mature semiconductor manufacturing base that had been paid for by aerospace and defense programs of the preceding two decades. This is one of the coupling artifacts the series will name repeatedly.
 
@@ -57,7 +57,7 @@ The Wright learning-curve mechanism, formalized in [Wright 1936][research_wright
 
 $$C(N) = C_0 \cdot N^{-\lambda}$$
 
-with learning-curve exponent $\lambda$ empirically in the range 0.15 to 0.30 for semiconductor manufacturing over the 1960s and 1970s, corresponding to a 15 to 30 percent unit-cost reduction per doubling of cumulative volume, per [Nagy Farmer Bui Trancik 2013][research_nagy_farmer_bui_trancik_2013]. Defense procurement absorbed the first several orders of magnitude of cumulative production at prices that would have been prohibitive for commercial buyers. By the time commercial demand emerged, cumulative volume had already reduced unit cost enough to open the personal computer market. The mechanism is not accidental. Every subsequent generation of semiconductor manufacturing has passed through a similar sequence in which government or aerospace procurement absorbs the high-cost early volume and commercial markets inherit a mature manufacturing base.
+with learning-curve exponent $\lambda$ empirically in the range 0.15 to 0.30 for semiconductor manufacturing over the 1960s and 1970s, corresponding to a 15 to 30 percent unit-cost reduction per doubling of cumulative volume, per [Nagy et al. 2013][research_nagy_farmer_bui_trancik_2013]. Defense procurement absorbed the first several orders of magnitude of cumulative production at prices that would have been prohibitive for commercial buyers. By the time commercial demand emerged, cumulative volume had already reduced unit cost enough to open the personal computer market. The mechanism is not accidental. Every subsequent generation of semiconductor manufacturing has passed through a similar sequence in which government or aerospace procurement absorbs the high-cost early volume and commercial markets inherit a mature manufacturing base.
 
 Combining Moore's density law with the Wright learning curve gives the empirical cost-per-transistor trajectory observed across the digital era. If cumulative transistor volume grows in step with density such that $N(t) = N_0 \cdot 2^{t/T_M}$, then unit cost per transistor obeys
 
@@ -65,7 +65,7 @@ $$C_{\text{transistor}}(t) = C_0 \cdot 2^{-\lambda \cdot t / T_M}$$
 
 which for $\lambda \approx 0.25$ and $T_M \approx 2$ years yields approximately an 8.5 percent annual cost reduction per transistor over the four decades of interest. This trajectory is what turned computing from a capital-intensive institutional resource into a commodity available to individual consumers, and it is what allowed aerospace to progressively substitute software for mechanical and hydraulic subsystems as the article's later chapters describe.
 
-The physical basis for Moore's density scaling is the metal-oxide-semiconductor field-effect transistor scaling rule established in [Dennard Gaensslen Yu Rideout Bassous LeBlanc 1974][research_dennard_1974]. Under Dennard scaling, reducing device dimensions by a factor $\kappa$ while holding electric field constant reduces gate delay by the same factor, doubles device density per unit area for $\kappa^2$, and holds power density constant across generations. Dennard scaling held from the mid-1970s through roughly 2005 when leakage currents at very small feature sizes broke the constant-field assumption, forcing the industry into the multi-core era. The constant-power-density breakdown of Dennard scaling is one of the transitions that separates the early digital era from the contemporary computing regime, and it is one of the pressures the contemporary snapshot article treats.
+The physical basis for Moore's density scaling is the metal-oxide-semiconductor field-effect transistor scaling rule established in [Dennard et al. 1974][research_dennard_1974]. Under Dennard scaling, reducing device dimensions by a factor $\kappa$ while holding electric field constant reduces gate delay by the same factor, doubles device density per unit area for $\kappa^2$, and holds power density constant across generations. Dennard scaling held from the mid-1970s through roughly 2005 when leakage currents at very small feature sizes broke the constant-field assumption, forcing the industry into the multi-core era. The constant-power-density breakdown of Dennard scaling is one of the transitions that separates the early digital era from the contemporary computing regime, and it is one of the pressures the contemporary snapshot article treats.
 
 ## The Real-Time Constraint
 
@@ -75,7 +75,7 @@ $$T_{\text{response}} \le T_{\text{dynamics}}$$
 
 For a fixed-wing aircraft with pitch dynamics timescale of order 200 milliseconds, the loop must close within about 20 milliseconds to avoid pilot-induced or software-induced oscillation, giving one order of magnitude of margin. For a launch vehicle with roll dynamics measured in tens of milliseconds, the loop must close within a few milliseconds. For an atmospheric reentry vehicle, both the dynamics and the response requirement are still tighter. Missing the deadline is not a performance degradation. It is a catastrophic failure mode.
 
-This constraint drove several early computing developments. Interrupt-driven scheduling, first fielded at scale in the [Whirlwind][research_everett_whirlwind_1951] computer at the Massachusetts Institute of Technology hereafter MIT under Forrester and Everett, was invented specifically to handle radar returns at deterministic latency. Real-time operating systems as a distinct discipline emerged from air defense and aerospace applications, per [Liu 2000][book_liu_realtime_systems] and the treatment in [Redmond and Smith 2000][book_redmond_smith_sage] of the SAGE architecture. The primary architectural description of the SAGE data-processing system was published in [Everett Zraket Benington 1957][research_everett_zraket_benington_1957] at the Eastern Joint Computer Conference and remains the canonical technical account. Priority-based scheduling algorithms, deadline monotonic analysis, and rate monotonic analysis were all developed in a research thread that traces directly to aerospace requirements. Software Version 1 of the Apollo Guidance Computer executive system, described in [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965], implemented cooperative multitasking specifically because guidance and navigation loops had to close at rates from 1 to 10 Hz with hard deadlines under strict memory and instruction-count budgets.
+This constraint drove several early computing developments. Interrupt-driven scheduling, first fielded at scale in the [Whirlwind][research_everett_whirlwind_1951] computer at the Massachusetts Institute of Technology hereafter MIT under Forrester and Everett, was invented specifically to handle radar returns at deterministic latency. Real-time operating systems as a distinct discipline emerged from air defense and aerospace applications, per [Liu 2000][book_liu_realtime_systems] and the treatment in [Redmond and Smith 2000][book_redmond_smith_sage] of the SAGE architecture. The primary architectural description of the SAGE data-processing system was published in [Everett et al. 1957][research_everett_zraket_benington_1957] at the Eastern Joint Computer Conference and remains the canonical technical account. Priority-based scheduling algorithms, deadline monotonic analysis, and rate monotonic analysis were all developed in a research thread that traces directly to aerospace requirements. Software Version 1 of the Apollo Guidance Computer executive system, described in [Hopkins et al. 1965][research_hopkins_alonso_adcock_1965], implemented cooperative multitasking specifically because guidance and navigation loops had to close at rates from 1 to 10 Hz with hard deadlines under strict memory and instruction-count budgets.
 
 Rate monotonic scheduling, first formalized by [Liu and Layland 1973][research_liu_layland_1973], provides an admission control test for hard real-time systems and became the standard approach for aerospace flight software. The utilization bound
 
@@ -83,19 +83,19 @@ $$U_n = n \left(2^{1/n} - 1\right)$$
 
 approaches $\ln 2 \approx 0.693$ as the number of periodic tasks $n$ grows large. Below this utilization, rate monotonic scheduling guarantees that all deadlines will be met. This result, though modest in appearance, became a load-bearing tool for aerospace software architecture and remains cited in contemporary avionics design.
 
-Rate monotonic scheduling gives a sufficient but not necessary admission-control test. Where the utilization bound rejects a task set that is in fact schedulable, response time analysis per [Joseph and Pandya 1986][research_joseph_pandya_1986] and [Audsley Burns Richardson Tindell Wellings 1993][research_audsley_burns_richardson_tindell_wellings_1993] gives an exact test. For a task $i$ with computation time $C_i$ and period $T_i$ preempted by higher-priority tasks, the worst-case response time $R_i$ is the smallest fixed point of
+Rate monotonic scheduling gives a sufficient but not necessary admission-control test. Where the utilization bound rejects a task set that is in fact schedulable, response time analysis per [Joseph and Pandya 1986][research_joseph_pandya_1986] and [Audsley et al. 1993][research_audsley_burns_richardson_tindell_wellings_1993] gives an exact test. For a task $i$ with computation time $C_i$ and period $T_i$ preempted by higher-priority tasks, the worst-case response time $R_i$ is the smallest fixed point of
 
 $$R_i = C_i + \sum_{j \in \text{hp}(i)} \left\lceil \frac{R_i}{T_j} \right\rceil C_j$$
 
 where $\text{hp}(i)$ is the set of tasks with higher priority than $i$. Task $i$ meets its deadline $D_i$ if and only if $R_i \le D_i$. Response time analysis is the standard admission-control tool for modern avionics scheduling and remains cited in contemporary safety-critical software standards.
 
-Both rate monotonic and response time analysis assume that a higher-priority task preempts a lower-priority task at every opportunity. When a lower-priority task holds a shared resource that a higher-priority task needs, the higher-priority task blocks and the intended priority ordering inverts, producing the priority-inversion pathology that the [Mars Pathfinder][ref_mars_pathfinder_priority_inversion] mission famously encountered in 1997. The priority inheritance protocols per [Sha Rajkumar Lehoczky 1990][research_sha_rajkumar_lehoczky_1990] resolve the pathology by raising the priority of the resource holder to that of the highest-priority blocked task, bounding the blocking time and restoring predictable scheduling behavior. Priority inheritance is now standard in aerospace real-time kernels and is one of the engineering practices the co-development coupling produced.
+Both rate monotonic and response time analysis assume that a higher-priority task preempts a lower-priority task at every opportunity. When a lower-priority task holds a shared resource that a higher-priority task needs, the higher-priority task blocks and the intended priority ordering inverts, producing the priority-inversion pathology that the [Mars Pathfinder][ref_mars_pathfinder_priority_inversion] mission famously encountered in 1997. The priority inheritance protocols per [Sha et al. 1990][research_sha_rajkumar_lehoczky_1990] resolve the pathology by raising the priority of the resource holder to that of the highest-priority blocked task, bounding the blocking time and restoring predictable scheduling behavior. Priority inheritance is now standard in aerospace real-time kernels and is one of the engineering practices the co-development coupling produced.
 
 ## The Reliability Constraint
 
 Aerospace applications also introduce reliability requirements that consumer computing did not adopt until decades later. A ground-based commercial computer that fails once per week is an inconvenience. A guidance computer that fails once per mission destroys the mission and possibly the crew. This requirement produced several distinct engineering responses that later diffused into general computing practice.
 
-Hardware redundancy at the module level was fielded first in aerospace. The Space Shuttle avionics used four primary General Purpose Computers running the primary avionics software in a majority-voting configuration among themselves, with a fifth Backup Flight System computer running dissimilar software developed by a separate contractor as protection against common-mode software faults, per [Madden and Rone 1984][research_madden_rone_1984] and the treatment in [Tomayko 1988][book_tomayko_shuttle_software]. Error detection and correction in memory circuits was fielded in aerospace applications a decade before it appeared in commercial mainframes. Verification and validation as a distinct engineering discipline emerged from safety-critical aerospace, per [Boehm 1981][book_boehm_software_engineering_economics], and the notation and tooling developed for these programs later became the foundation of formal verification as it appears in the contemporary literature.
+Hardware redundancy at the module level was fielded first in aerospace. The Space Shuttle avionics used four primary General Purpose Computers running the primary avionics software in a majority-voting configuration among themselves, with a fifth Backup Flight System computer running dissimilar software developed by a separate contractor as protection against common-mode software faults, per [Madden and Rone 1984][research_madden_rone_1984] and the treatment in [Tomayko 1987][book_tomayko_shuttle_software]. Error detection and correction in memory circuits was fielded in aerospace applications a decade before it appeared in commercial mainframes. Verification and validation as a distinct engineering discipline emerged from safety-critical aerospace, per [Boehm 1981][book_boehm_software_engineering_economics], and the notation and tooling developed for these programs later became the foundation of formal verification as it appears in the contemporary literature.
 
 The reliability of a triple modular redundancy configuration under majority voting, per [von Neumann 1956][research_von_neumann_1956] and the earlier [Moore and Shannon 1956][research_moore_shannon_1956] treatment of relay circuits, is
 
@@ -211,77 +211,88 @@ The next article in the series covers pre-war computing origins and ballistics w
 
 ## References
 
-### Books
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
-- [Boehm 1981][book_boehm_software_engineering_economics]
-- [Bowen 1998][book_bowen_radar_days]
-- [Brooks 1975][book_brooks_mythical_man_month]
-- [Ceruzzi 2003][book_ceruzzi_history_modern_computing]
-- [Grier 2005][book_grier_when_computers_were_human]
-- [Leslie 1993][book_leslie_cold_war_and_american_science]
-- [Liu 2000][book_liu_realtime_systems]
-- [Mindell 2008][book_mindell_digital_apollo]
-- [Redmond and Smith 2000][book_redmond_smith_sage]
-- [Skolnik 1962][book_skolnik_radar]
-- [Small 2001][book_small_analog_computing]
-- [Tomayko 1988][book_tomayko_shuttle_software]
+### Primary Sources, Peer-Reviewed
 
-### Reference
+- Lehman, M. M. 1980. "Programs, Life Cycles, and Laws of Software Evolution." *Proceedings of the IEEE* 68 (9): 1060–76. [https://doi.org/10.1109/proc.1980.11805][research_lehman_1980]
+- Wright, T. P. 1936. "Factors Affecting the Cost of Airplanes." *Journal of the Aeronautical Sciences* 3 (4): 122–28. [https://doi.org/10.2514/8.155][research_wright_1936]
 
-- [Boeing 777 Avionics][ref_boeing_777_avionics]
-- [Draper Instrumentation Laboratory][ref_draper_iag]
-- [F-35 Software][ref_f35_software]
-- [Flowers Colossus][ref_flowers_colossus]
-- [Ford Instrument Mark 1][ref_ford_instrument_mk1]
-- [Hollerith 1889 Patent][ref_hollerith_1889]
-- [Kilby Integrated Circuit Patent][ref_kilby_ic_patent]
-- [Mars Pathfinder Priority Inversion][ref_mars_pathfinder_priority_inversion]
-- [Moore 1965][ref_moore_1965]
-- [Noyce Integrated Circuit Patent][ref_noyce_ic_patent]
-- [RTCA][ref_rtca]
-- [Turing at Bletchley][ref_turing_bletchley]
-- [Wright Brothers 1903][ref_wright_brothers_1903]
+### Primary Sources, Non-Peer-Reviewed
+
+- Bardeen, J., and W. H. Brattain. 1948. "The Transistor, a Semi-Conductor Triode." *Physical Review* 74 (2): 230–31. [https://doi.org/10.1103/physrev.74.230][research_bardeen_brattain_shockley_1948]
+- Everett, Zraket, and Benington. 1957. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Everett+Zraket+Benington+1957][research_everett_zraket_benington_1957]
+- Hollerith. 1889. "Patent." [https://patents.google.com/patent/US395782][ref_hollerith_1889]
+- Hopkins, Alonso, and Adcock. 1965. *\[Title not identified\]*. [https://ntrs.nasa.gov/citations/19660007349][research_hopkins_alonso_adcock_1965]
+- "Kilby Integrated Circuit Patent." n.d. Accessed October 25, 2026. [https://patents.google.com/patent/US3138743][ref_kilby_ic_patent]
+- Liu, C. L., and James W. Layland. 1973. "Scheduling Algorithms for Multiprogramming in a Hard-Real-Time Environment." *Journal of the ACM* 20 (1): 46–61. [https://doi.org/10.1145/321738.321743][research_liu_layland_1973]
+- Madden, William A., and Kyle Y. Rone. 1984. "Design, Development, Integration: Space Shuttle Primary Flight Software System." *Communications of the ACM* 27 (9): 914–25. [https://doi.org/10.1145/358234.358254][research_madden_rone_1984]
+- Nagy, Béla, J. Doyne Farmer, Quan M. Bui, and Jessika E. Trancik. 2013. "Statistical Basis for Predicting Technological Progress." *PLoS ONE* 8 (2): e52669. [https://doi.org/10.1371/journal.pone.0052669][research_nagy_farmer_bui_trancik_2013]
+- "Noyce Integrated Circuit Patent." n.d. Accessed October 25, 2026. [https://patents.google.com/patent/US2981877][ref_noyce_ic_patent]
+- Parnas, D. L. 1972. "On the Criteria to Be Used in Decomposing Systems into Modules." *Communications of the ACM* 15 (12): 1053–58. [https://doi.org/10.1145/361598.361623][research_parnas_1972]
+- Roberts, Lawrence G., and Barry D. Wessler. 1970. "Computer Network Development to Achieve Resource Sharing." In *Proceedings of the May 5-7, 1970, spring joint computer conference on - AFIPS '70 (Spring)*. ACM Press. [https://doi.org/10.1145/1476936.1477020][research_roberts_wessler_1970]
+- Tomayko, James E. 1987. *Computers in Spaceflight: The NASA Experience*. NASA-CR-182505. NASA. [https://ntrs.nasa.gov/citations/19880069935][book_tomayko_shuttle_software]
+
+### Secondary Sources
+
+- Boehm, Barry W. 1981. *Software Engineering Economics*. Prentice-Hall. [https://www.pearson.com/en-us/subject-catalog/p/software-engineering-economics/P200000003444][book_boehm_software_engineering_economics]
+- Bowen, E. G. 1998. *Radar Days*. A. Hilger. [https://openlibrary.org/works/OL5027554W][book_bowen_radar_days]
+- Brooks, Frederick P. 1975. *The Mythical Man-Month: Essays on Software Engineering*. Addison-Wesley Pub. Co. [https://www.pearson.com/en-us/subject-catalog/p/mythical-man-month-the-essays-on-software-engineering-anniversary-edition/P200000009261][book_brooks_mythical_man_month]
+- Ceruzzi, Paul E. 2003. *A History of Modern Computing, 2nd Edition (History of Computing)*. The MIT Press. [https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/][book_ceruzzi_history_modern_computing]
+- Grier, David Alan. 2005. *When Computers Were Human*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691133829/when-computers-were-human][book_grier_when_computers_were_human]
+- Leslie, Stuart W. 1993. *The Cold War and American Science: The Military-Industrial-Academic Complex at MIT and Stanford*. Columbia University Press. [http://cup.columbia.edu/book/the-cold-war-and-american-science/9780231079587][book_leslie_cold_war_and_american_science]
+- Liu, Jane W. S. 2000. *Real-Time Systems*. Prentice Hall. [https://www.pearson.com/en-us/subject-catalog/p/real-time-systems/P200000003296][book_liu_realtime_systems]
+- Mindell, David A. 2008. *Digital Apollo: Human and Machine in Spaceflight*. MIT Press. [https://mitpress.mit.edu/9780262516105/digital-apollo/][book_mindell_digital_apollo]
+- Moulton, Forest Ray. 1926. *New Methods in Exterior Ballistics*. The University of Chicago Press. [https://openlibrary.org/works/OL2588607W][research_moulton_1926]
+- Redmond, Kent C., and Thomas M. Smith. 2000. *From Whirlwind to MITRE: The R&d Story of the SAGE Air Defense Computer*. MIT Press. [https://mitpress.mit.edu/9780262182010/from-whirlwind-to-mitre/][book_redmond_smith_sage]
+- Skolnik, Merrill I. 1962. *Introduction to Radar Systems*. McGraw-Hill Book Company. [https://openlibrary.org/works/OL221640W][book_skolnik_radar]
+- Small. 2001. *\[Title not identified\]*. [https://www.press.jhu.edu/books/title/2210/analogue-alternative][book_small_analog_computing]
+
+### Commercial Sources
+
+- Baran, Paul. 1964. "On Distributed Communications: I. Introduction to Distributed Communications Networks.", January 1. [https://www.rand.org/pubs/research\_memoranda/RM3420.html][research_baran_1964]
+- "Boeing 777 Avionics." n.d. Accessed October 25, 2026. [https://www.boeing.com/commercial/777][ref_boeing_777_avionics]
+- Davies. 1966. "A Brief History of the Internet." Internet Society. Accessed October 25, 2026. [https://www.internetsociety.org/internet/history-internet/brief-history-internet/][research_davies_1966]
+- "F-35 Software." n.d. Accessed October 25, 2026. [https://www.lockheedmartin.com/en-us/products/f-35.html][ref_f35_software]
+- Wright Brothers. 1903. "1903 Wright Flyer." Accessed October 25, 2026. [https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm\_A19610048000][ref_wright_brothers_1903]
+
+### General Sources
+
+- Audsley, Burns, Richardson, Tindell, and Wellings. 1993. "Electric Machine Design for Traction Applications Considering Recycling Aspects-Review and New Solution." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/6119585][research_audsley_burns_richardson_tindell_wellings_1993]
+- Bromley. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4638384][research_bromley_1990]
+- Bush. 1931. "\[Title not identified\]." Accessed October 25, 2026. [https://www.jstor.org/stable/24537568][research_bush_1931]
+- "Colossus — The National Museum of Computing." n.d. The National Museum of Computing. Accessed October 25, 2026. [https://www.tnmoc.org/colossus][ref_flowers_colossus]
+- Dennard, Gaensslen, Yu, Rideout, Bassous, and LeBlanc. 1974. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1050511][research_dennard_1974]
+- Everett Whirlwind. 1951. "\[Title not identified\]." Accessed October 25, 2026. [https://apps.dtic.mil/sti/citations/AD0625649][research_everett_whirlwind_1951]
+- "Ford Instrument Mark 1." n.d. Accessed October 25, 2026. [https://maritime.org/doc/computermk1/][ref_ford_instrument_mk1]
+- Joseph and Pandya. 1986. "\[Title not identified\]." Accessed October 25, 2026. [https://academic.oup.com/comjnl/article/29/5/390/533018][research_joseph_pandya_1986]
+- Kleinrock. 1961. "\[Title not identified\]." Accessed October 25, 2026. [https://dspace.mit.edu/handle/1721.1/11562][research_kleinrock_1961]
+- Knight and Leveson. 1986. "Call for Papers." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1702093][research_knight_leveson_1986]
+- Moore. 1965. "\[Title not identified\]." Accessed October 25, 2026. [https://www.computerhistory.org/collections/catalog/102770822][ref_moore_1965]
+- Moore and Shannon. 1956. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/0016003256905598][research_moore_shannon_1956]
+- "RTCA." n.d. Accessed October 25, 2026. [https://www.rtca.org/][ref_rtca]
+- Sha, Rajkumar, and Lehoczky. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/57058][research_sha_rajkumar_lehoczky_1990]
+- Shannon. 1948. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/6773024][research_shannon_1948]
+- Shannon. 1949. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1697831][research_shannon_1949]
+- "Turing at Bletchley." n.d. Accessed October 25, 2026. [https://bletchleypark.org.uk/our-story/people/alan-turing][ref_turing_bletchley]
+- von Neumann. 1945. "\[Title not identified\]." Accessed October 25, 2026. [https://web.mit.edu/STS.035/www/PDFs/edvac.pdf][research_von_neumann_edvac_1945]
+- von Neumann. 1956. "\[Title not identified\]." Accessed October 25, 2026. [https://www.dna.caltech.edu/courses/cs191/paperscs191/VonNeumann56.pdf][research_von_neumann_1956]
+- "What Really Happened to the Software on the Mars Pathfinder Spacecraft?" n.d. Accessed October 25, 2026. [https://www.rapitasystems.com/blog/what-really-happened-software-mars-pathfinder-spacecraft][ref_mars_pathfinder_priority_inversion]
+
+### Tertiary Sources
+
+- "Draper Laboratory." 2026. Wikipedia. Last modified June 29, at 18:22 (UTC). [https://en.wikipedia.org/w/index.php?title=Draper\_Laboratory&oldid=1361725067][ref_draper_iag]
 
 ### Related Posts
 
-- [A112 Fixed-Wing UAV Airframe][related_post_a112_fixed_wing_uav]
-- [A200 A History of Hardware Description Languages][related_post_a200_hdl_history]
-- [A203 Hardware Description Languages, the State of the Practice][related_post_a203_hdl_state_of_practice]
-- [A206 Developments in Programming Language Theory as a Historical Arc][related_post_a206_programming_language_theory]
-- [A215 The 2020s to mid-2026][related_post_a215_2020s]
-
-### Research
-
-- [Audsley Burns Richardson Tindell Wellings 1993][research_audsley_burns_richardson_tindell_wellings_1993]
-- [Baran 1964][research_baran_1964]
-- [Bardeen Brattain Shockley 1948][research_bardeen_brattain_shockley_1948]
-- [Bromley 1990][research_bromley_1990]
-- [Bush 1931][research_bush_1931]
-- [Davies 1966][research_davies_1966]
-- [Dennard Gaensslen Yu Rideout Bassous LeBlanc 1974][research_dennard_1974]
-- [Everett Whirlwind 1951][research_everett_whirlwind_1951]
-- [Everett Zraket Benington 1957][research_everett_zraket_benington_1957]
-- [Hopkins Alonso Adcock 1965][research_hopkins_alonso_adcock_1965]
-- [Joseph and Pandya 1986][research_joseph_pandya_1986]
-- [Kleinrock 1961][research_kleinrock_1961]
-- [Knight and Leveson 1986][research_knight_leveson_1986]
-- [Lehman 1980][research_lehman_1980]
-- [Liu and Layland 1973][research_liu_layland_1973]
-- [Madden and Rone 1984][research_madden_rone_1984]
-- [Moore and Shannon 1956][research_moore_shannon_1956]
-- [Moulton 1926][research_moulton_1926]
-- [Nagy Farmer Bui Trancik 2013][research_nagy_farmer_bui_trancik_2013]
-- [Parnas 1972][research_parnas_1972]
-- [Roberts and Wessler 1970][research_roberts_wessler_1970]
-- [Sha Rajkumar Lehoczky 1990][research_sha_rajkumar_lehoczky_1990]
-- [Shannon 1948][research_shannon_1948]
-- [Shannon 1949][research_shannon_1949]
-- [von Neumann 1945][research_von_neumann_edvac_1945]
-- [von Neumann 1956][research_von_neumann_1956]
-- [Wright 1936][research_wright_1936]
+- Sechter, Brendan. 2026. "A History of Hardware Description Languages." *Brendan A R Sechter's Development Blog*, March 13. [https://sgeos.github.io/hdl/hardware/history/2026/03/13/history\_of\_hardware\_description\_languages.html][related_post_a200_hdl_history]
+- Sechter, Brendan. 2026. "Developments in Programming Language Theory, A Historical Arc." *Brendan A R Sechter's Development Blog*, March 27. [https://sgeos.github.io/programming-languages/theory/history/2026/03/27/programming\_language\_theory\_as\_a\_historical\_arc.html][related_post_a206_programming_language_theory]
+- Sechter, Brendan. 2026. "Developments in Programming Language Theory, The 2020s to Mid-2026." *Brendan A R Sechter's Development Blog*, April 5. [https://sgeos.github.io/programming-languages/theory/history/2026/04/05/the\_2020s\_to\_mid\_2026.html][related_post_a215_2020s]
+- Sechter, Brendan. 2026. "Prototyping Fixed-Wing Aircraft with Lightweight PLA and Fiberglass." *Brendan A R Sechter's Development Blog*, May 30. [https://sgeos.github.io/aerospace/engineering/3d-printing/2026/05/30/prototyping\_fixed\_wing\_aircraft\_with\_lightweight\_pla\_and\_fiberglass.html][related_post_a112_fixed_wing_uav]
+- Sechter, Brendan. 2026. "Hardware Description Languages, the State of the Practice." *Brendan A R Sechter's Development Blog*, July 9. [https://sgeos.github.io/hdl/hardware/adoption/2026/07/09/hardware\_description\_languages\_state\_of\_the\_practice.html][related_post_a203_hdl_state_of_practice]
 
 [book_boehm_software_engineering_economics]: https://www.pearson.com/en-us/subject-catalog/p/software-engineering-economics/P200000003444
-[book_bowen_radar_days]: https://openlibrary.org/works/OL5027554W/Radar_days
+[book_bowen_radar_days]: https://openlibrary.org/works/OL5027554W
 [book_brooks_mythical_man_month]: https://www.pearson.com/en-us/subject-catalog/p/mythical-man-month-the-essays-on-software-engineering-anniversary-edition/P200000009261
 [book_ceruzzi_history_modern_computing]: https://mitpress.mit.edu/9780262532037/a-history-of-modern-computing/
 [book_grier_when_computers_were_human]: https://press.princeton.edu/books/paperback/9780691133829/when-computers-were-human
@@ -289,12 +300,11 @@ The next article in the series covers pre-war computing origins and ballistics w
 [book_liu_realtime_systems]: https://www.pearson.com/en-us/subject-catalog/p/real-time-systems/P200000003296
 [book_mindell_digital_apollo]: https://mitpress.mit.edu/9780262516105/digital-apollo/
 [book_redmond_smith_sage]: https://mitpress.mit.edu/9780262182010/from-whirlwind-to-mitre/
-[book_skolnik_radar]: https://openlibrary.org/works/OL221640W/Introduction_to_radar_systems
+[book_skolnik_radar]: https://openlibrary.org/works/OL221640W
 [book_small_analog_computing]: https://www.press.jhu.edu/books/title/2210/analogue-alternative
 [book_tomayko_shuttle_software]: https://ntrs.nasa.gov/citations/19880069935
-
 [ref_boeing_777_avionics]: https://www.boeing.com/commercial/777
-[ref_draper_iag]: https://en.wikipedia.org/wiki/Charles_Stark_Draper_Laboratory
+[ref_draper_iag]: https://en.wikipedia.org/w/index.php?title=Draper_Laboratory&oldid=1361725067
 [ref_f35_software]: https://www.lockheedmartin.com/en-us/products/f-35.html
 [ref_flowers_colossus]: https://www.tnmoc.org/colossus
 [ref_ford_instrument_mk1]: https://maritime.org/doc/computermk1/
@@ -306,37 +316,35 @@ The next article in the series covers pre-war computing origins and ballistics w
 [ref_rtca]: https://www.rtca.org/
 [ref_turing_bletchley]: https://bletchleypark.org.uk/our-story/people/alan-turing
 [ref_wright_brothers_1903]: https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000
-
 [related_post_a112_fixed_wing_uav]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_a200_hdl_history]: {% post_url 2026-03-13-history_of_hardware_description_languages %}
 [related_post_a203_hdl_state_of_practice]: {% post_url 2026-07-09-hardware_description_languages_state_of_the_practice %}
 [related_post_a206_programming_language_theory]: {% post_url 2026-03-27-programming_language_theory_as_a_historical_arc %}
 [related_post_a215_2020s]: {% post_url 2026-04-05-the_2020s_to_mid_2026 %}
-
 [research_audsley_burns_richardson_tindell_wellings_1993]: https://ieeexplore.ieee.org/document/6119585
 [research_baran_1964]: https://www.rand.org/pubs/research_memoranda/RM3420.html
-[research_bardeen_brattain_shockley_1948]: https://journals.aps.org/pr/abstract/10.1103/PhysRev.74.230
+[research_bardeen_brattain_shockley_1948]: https://doi.org/10.1103/physrev.74.230
 [research_bromley_1990]: https://ieeexplore.ieee.org/document/4638384
 [research_bush_1931]: https://www.jstor.org/stable/24537568
 [research_davies_1966]: https://www.internetsociety.org/internet/history-internet/brief-history-internet/
 [research_dennard_1974]: https://ieeexplore.ieee.org/document/1050511
 [research_everett_whirlwind_1951]: https://apps.dtic.mil/sti/citations/AD0625649
-[research_everett_zraket_benington_1957]: https://dl.acm.org/doi/10.1145/1455567.1455575
+[research_everett_zraket_benington_1957]: https://scholar.google.com/scholar?q=Everett+Zraket+Benington+1957
 [research_hopkins_alonso_adcock_1965]: https://ntrs.nasa.gov/citations/19660007349
 [research_joseph_pandya_1986]: https://academic.oup.com/comjnl/article/29/5/390/533018
 [research_kleinrock_1961]: https://dspace.mit.edu/handle/1721.1/11562
 [research_knight_leveson_1986]: https://ieeexplore.ieee.org/document/1702093
-[research_lehman_1980]: https://ieeexplore.ieee.org/document/1456074
-[research_liu_layland_1973]: https://dl.acm.org/doi/10.1145/321738.321743
-[research_madden_rone_1984]: https://ntrs.nasa.gov/citations/19850002440
+[research_lehman_1980]: https://doi.org/10.1109/proc.1980.11805
+[research_liu_layland_1973]: https://doi.org/10.1145/321738.321743
+[research_madden_rone_1984]: https://doi.org/10.1145/358234.358254
 [research_moore_shannon_1956]: https://www.sciencedirect.com/science/article/pii/0016003256905598
-[research_moulton_1926]: https://openlibrary.org/works/OL2588607W/New_methods_in_exterior_ballistics
-[research_nagy_farmer_bui_trancik_2013]: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669
-[research_parnas_1972]: https://dl.acm.org/doi/10.1145/361598.361623
-[research_roberts_wessler_1970]: https://dl.acm.org/doi/10.1145/1476936.1477020
+[research_moulton_1926]: https://openlibrary.org/works/OL2588607W
+[research_nagy_farmer_bui_trancik_2013]: https://doi.org/10.1371/journal.pone.0052669
+[research_parnas_1972]: https://doi.org/10.1145/361598.361623
+[research_roberts_wessler_1970]: https://doi.org/10.1145/1476936.1477020
 [research_sha_rajkumar_lehoczky_1990]: https://ieeexplore.ieee.org/document/57058
 [research_shannon_1948]: https://ieeexplore.ieee.org/document/6773024
 [research_shannon_1949]: https://ieeexplore.ieee.org/document/1697831
 [research_von_neumann_1956]: https://www.dna.caltech.edu/courses/cs191/paperscs191/VonNeumann56.pdf
 [research_von_neumann_edvac_1945]: https://web.mit.edu/STS.035/www/PDFs/edvac.pdf
-[research_wright_1936]: https://arc.aiaa.org/doi/10.2514/8.155
+[research_wright_1936]: https://doi.org/10.2514/8.155
