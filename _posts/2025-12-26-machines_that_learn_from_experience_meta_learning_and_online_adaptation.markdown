@@ -43,7 +43,7 @@ The distinction between meta-learning and multi-task learning is subtle. A pure 
 
 ## Historical Development
 
-The idea of learning to learn has a long history. [Schmidhuber 1987][research_schmidhuber_1987_metalearning] doctoral thesis proposed evolutionary meta-learning in which the learning algorithm itself is evolved across generations of tasks. [Naik and Mammone 1992][research_naik_mammone_1992] independently introduced meta-neural-networks in the connectionist learning literature. [Bengio et al. 1990][research_bengio_bengio_cloutier_1990] proposed learning a synaptic update rule as an alternative to backpropagation. [Schmidhuber et al. 1996][research_schmidhuber_zhao_wiering_1996] developed the meta-learning framework further with bias learning. The [Thrun and Pratt 1998][book_thrun_pratt_1998] Learning to Learn edited volume consolidated the field at the turn of the century, and the [Vilalta and Drazdil 2002][research_vilalta_drazdil_2002] survey provided a systematic taxonomy of meta-learning approaches. The [Hospedales et al. 2022][research_hospedales_et_al_2022] modern survey reviews the field circa the early 2020s.
+The idea of learning to learn has a long history. [Schmidhuber 1987][research_schmidhuber_1987_metalearning] doctoral thesis proposed evolutionary meta-learning in which the learning algorithm itself is evolved across generations of tasks. [Naik and Mammone 1992][research_naik_mammone_1992] independently introduced meta-neural-networks in the connectionist learning literature. [Bengio et al. 1990][research_bengio_bengio_cloutier_1990] proposed learning a synaptic update rule as an alternative to backpropagation. [Schmidhuber et al. 1996][research_schmidhuber_zhao_wiering_1996] developed the meta-learning framework further with bias learning. The [Thrun and Pratt 1998][book_thrun_pratt_1998] Learning to Learn edited volume consolidated the field at the turn of the century, and the [Vilalta and Drissi 2002][research_vilalta_drazdil_2002] survey provided a systematic taxonomy of meta-learning approaches. The [Hospedales et al. 2022][research_hospedales_et_al_2022] modern survey reviews the field circa the early 2020s.
 
 The neural network meta-learning of [Hochreiter et al. 2001][research_hochreiter_younger_conwell_2001] used LSTMs as universal learning algorithms, training a recurrent network to solve a sequence of related regression tasks by taking the training data as input and producing predictions. The framework provided the direct precursor to the modern recurrent meta-reinforcement learning approaches. The Bayes-adaptive MDP framework treated later has roots in the [Duff 2002][book_duff_2002] doctoral thesis on optimal exploration under uncertainty, and the [Poupart et al. 2006][research_poupart_et_al_2006] analytical treatment of Bayes-adaptive MDPs provided the algorithmic foundation for tractable Bayes-optimal reinforcement learning.
 
@@ -53,7 +53,7 @@ Meta-reinforcement learning emerged as a distinct research area in the mid 2010s
 
 The 2018-2020 period produced considerable algorithmic diversification. Reptile of [Nichol et al. 2018][research_nichol_achiam_schulman_2018] provided a simpler first-order approximation to MAML. Probabilistic Meta-Reinforcement Learning (PEARL) of [Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl] combined off-policy meta-learning with variational task inference. Variational Bayes-Adaptive Deep RL (VariBAD) of [Zintgraf et al. 2020][research_zintgraf_et_al_2020_varibad] introduced Bayes-optimal meta-reinforcement learning through variational task inference.
 
-Meta-gradient methods matured in parallel through [Xu van Hasselt Silver 2018][research_xu_van_hasselt_silver_2018] meta-gradient RL and subsequent work on learning hyperparameters, auxiliary rewards, and discount factors through outer-loop gradients.
+Meta-gradient methods matured in parallel through [Xu et al. 2018][research_xu_van_hasselt_silver_2018] meta-gradient RL and subsequent work on learning hyperparameters, auxiliary rewards, and discount factors through outer-loop gradients.
 
 In-context reinforcement learning emerged in the 2020s. Algorithm Distillation of [Laskin et al. 2023][research_laskin_et_al_2023] demonstrated that transformer sequence models trained on learning-algorithm outputs could produce in-context learning behavior at test time. Adaptive Agent of [Adaptive Agent Team et al. 2023][research_bauer_et_al_2023_ada] combined meta-learning with foundation-model-scale training to achieve rapid adaptation across a vast distribution of tasks.
 
@@ -307,7 +307,7 @@ $$Q(s, a; \phi_{\text{shared}}, \phi_{\text{task}}) = h_{\phi_{\text{task}}}(f_{
 
 with shared parameters $\phi_{\text{shared}}$ trained on all tasks and task-parameters $\phi_{\text{task}}$ trained only on the corresponding task. The mechanism supports positive transfer through shared representations while allowing task-specialization. Progressive Networks of [Rusu et al. 2016][research_rusu_et_al_2016_progressive] provided an alternative that avoids negative transfer by adding new columns for each task while freezing prior columns. Actor-Mimic of [Parisotto et al. 2015][research_parisotto_ba_salakhutdinov_2016] used policy distillation from single-task expert policies to a multi-task student policy, providing an alternative multi-task learning framework grounded in imitation learning. The [Sener and Koltun 2018][research_sener_koltun_2018] treatment of multi-task learning as multi-objective optimization provided a principled framework based on Pareto-optimality of the multi-task loss.
 
-Multi-task actor-critic frameworks including [Teh Bapst Czarnecki Quan Kirkpatrick Hadsell de Freitas Heess 2017][research_teh_et_al_2017] Distral use distillation between task-and shared policies to encourage transferable behavior. Distral's task-policies are trained with a KL regularizer toward the shared distilled policy,
+Multi-task actor-critic frameworks including [Teh et al. 2017][research_teh_et_al_2017] Distral use distillation between task-and shared policies to encourage transferable behavior. Distral's task-policies are trained with a KL regularizer toward the shared distilled policy,
 
 $$L_{\text{Distral}}(\pi_{\mathcal{T}}, \pi_0) = -J_{\mathcal{T}}(\pi_{\mathcal{T}}) + \alpha \, D_{\text{KL}}(\pi_{\mathcal{T}} \, \| \, \pi_0) - \beta \, H(\pi_{\mathcal{T}})$$
 
@@ -538,6 +538,7 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 
 - Botvinick, Matthew, Sam Ritter, Jane X. Wang, Zeb Kurth-Nelson, Charles Blundell, and Demis Hassabis. 2019. "Reinforcement Learning, Fast and Slow." *Trends in Cognitive Sciences* 23 (5): 408–22. [https://doi.org/10.1016/j.tics.2019.02.006][research_botvinick_et_al_2019_meta]
 - Hochreiter, Sepp, A. Steven Younger, and Peter R. Conwell. 2001. "Learning to Learn Using Gradient Descent." In *Artificial Neural Networks — ICANN 2001*. Springer Berlin Heidelberg. [https://doi.org/10.1007/3-540-44668-0\_13][research_hochreiter_younger_conwell_2001]
+- Vilalta, Ricardo, and Youssef Drissi. 2002. "A Perspective View and Survey of Meta-Learning." *Artificial Intelligence Review* 18: 77–95. [https://link.springer.com/article/10.1023/A:1019956318069][research_vilalta_drazdil_2002]
 - Wang, Jane X., Zeb Kurth-Nelson, Dharshan Kumaran, et al. 2018. "Prefrontal Cortex as a Meta-Reinforcement Learning System." *Nature Neuroscience* 21 (6): 860–68. [https://doi.org/10.1038/s41593-018-0147-8][research_wang_et_al_2018_prefrontal]
 
 ### Primary Sources, Non-Peer-Reviewed
@@ -606,6 +607,7 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 - Sung, Flood, Yongxin Yang, Li Zhang, Tao Xiang, Philip H. S. Torr, and Timothy M. Hospedales. 2018. "Learning to Compare: Relation Network for Few-Shot Learning." In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition*. [https://openaccess.thecvf.com/content\_cvpr\_2018/html/Sung\_Learning\_to\_Compare\_CVPR\_2018\_paper.html][research_sung_et_al_2018]
 - Sæmundsson, Steindór, Katja Hofmann, and Marc Peter Deisenroth. 2018. "Meta Reinforcement Learning with Latent Variable Gaussian Processes." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1803.07551][research_saemundsson_hofmann_deisenroth_2018]
 - Team. 2021. "XLand." Preprint, . [https://arxiv.org/abs/2107.12808][research_team_et_al_2021_xland]
+- Teh, Yee, Victor Bapst, Wojciech M. Czarnecki, et al. 2017. "Distral: Robust Multitask Reinforcement Learning." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/0abdc563a06105aee3c6136871c9f4d1-Abstract.html][research_teh_et_al_2017]
 - Tobin, Josh, Rachel Fong, Alex Ray, Jonas Schneider, Wojciech Zaremba, and Pieter Abbeel. 2017. "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1703.06907][research_tobin_et_al_2017_dr]
 - Vinyals, Oriol, Charles Blundell, Timothy Lillicrap, koray Kavukcuoglu, and Daan Wierstra. 2016. "Matching Networks for One Shot Learning." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/90e1357833654983612fb05e3ec9148c-Abstract.html][research_vinyals_et_al_2016_matching]
 - Wang, Jane X., Michael King, Nicolas Porcel, et al. 2021. "Alchemy: A Benchmark and Analysis Toolkit for Meta-Reinforcement Learning Agents." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2102.02926][research_wang_et_al_2021_alchemy]
@@ -613,6 +615,7 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 - Wang, Rui, Joel Lehman, Jeff Clune, and Kenneth O. Stanley. 2019. "Paired Open-Ended Trailblazer (POET): Endlessly Generating Increasingly Complex and Diverse Learning Environments and Their Solutions." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1901.01753][research_wang_et_al_2019_poet]
 - Wichrowska, Olga, Niru Maheswaranathan, Matthew W. Hoffman, et al. 2017. "Learned Optimizers That Scale and Generalize." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/wichrowska17a.html][research_wichrowska_et_al_2017]
 - Xu. 2020. *Meta-A2C*. [https://scholar.google.com/scholar?q=Meta-A2C+Xu+2020][research_xu_et_al_2020_meta_a2c]
+- Xu, Zhongwen, Hado van Hasselt, and David Silver. 2018. "Meta-Gradient Reinforcement Learning." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/2715518c875999308842e3455eda2fe3-Abstract.html][research_xu_van_hasselt_silver_2018]
 - Yao, Huaxiu, Long-Kai Huang, Linjun Zhang, et al. 2021. "Improving Generalization in Meta-Learning via Task Augmentation." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v139/yao21b.html][research_yao_et_al_2021_task_augmentation]
 - Yu, Tianhe, Deirdre Quillen, Zhanpeng He, et al. 2020. "Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/yu20a.html][research_yu_et_al_2020_metaworld]
 - Yu, Tan, Bai, Xu, and Liu. 2017. *SysID*. [https://scholar.google.com/scholar?q=SysID+Yu+Tan+Bai+2017][research_yu_et_al_2017_sysid]
@@ -628,7 +631,7 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -654,9 +657,6 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 - Schmidhuber, Zhao, and Wiering. 1996. "\[Title not identified\]." Accessed October 25, 2026. [https://link.springer.com/article/10.1023/A:1018909723456][research_schmidhuber_zhao_wiering_1996]
 - "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
 - "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
-- Teh Bapst Czarnecki Quan Kirkpatrick Hadsell de Freitas Heess. 2017. "Distral." [https://papers.nips.cc/paper/2017/hash/0abdc563a06105aee3c6136871c9f4d1-Abstract.html][research_teh_et_al_2017]
-- Vilalta and Drazdil. 2002. "\[Title not identified\]." Accessed October 25, 2026. [https://link.springer.com/article/10.1023/A:1019956318069][research_vilalta_drazdil_2002]
-- Xu van Hasselt Silver. 2018. "Meta-Gradient RL." [https://papers.nips.cc/paper/2018/hash/2715518c875999308842e3455eda2fe3-Abstract.html][research_xu_van_hasselt_silver_2018]
 - Yin Tucker Zhou Levine Finn. 2020. "Memorization." [https://openreview.net/forum?id=BklEFpEYwS][research_yin_et_al_2020_memorization]
 - Yu Kumar Gupta Hausman Levine Finn. 2020. "PCGrad." [https://papers.nips.cc/paper/2020/hash/3fe78a8acf5fda99de95303940a2420c-Abstract.html][research_yu_et_al_2020_pcgrad]
 - Zheng. 2020. "Learning Reward." [https://papers.nips.cc/paper/2020/hash/e8fd4a8a5bab2b3785d794ab51fef55c-Abstract.html][research_zheng_et_al_2020_learning_reward]

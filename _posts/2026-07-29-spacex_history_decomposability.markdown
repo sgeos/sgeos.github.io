@@ -81,7 +81,7 @@ The third commitment is primary-source anchoring. The article cites primary sour
 
 The fourth commitment is contested-claim marking, with attention to the Starship development-cost and reusability-cadence estimates that the private-firm status renders substantially reconstructive rather than directly documented.
 
-The fifth commitment is temporal indexing as a mid-2026 snapshot. The broader institutional-context documents relevant to the decomposability configuration include the [NASA Space Act Agreements Guide][ref_nasa_saa_guide], the [ITAR 22 CFR 120 through 130][ref_itar_22_cfr_120_130], the [Radio Regulations 2020][ref_itu_radio_regulations_2020], the [Space Force National Security Space Launch][ref_space_force_nssl] framework, the [FAA Office of Commercial Space Transportation][ref_faa_ast] licensing regime, the [51 U.S.C. Chapter 509 1984][ref_csla_1984], the [Commercial Space Launch Amendments 2004][ref_csla_amendments_2004], and the [U S Commercial Space 2015][ref_uscsla_2015].
+The fifth commitment is temporal indexing as a mid-2026 snapshot. The broader institutional-context documents relevant to the decomposability configuration include the [NASA Space Act Agreements Guide][ref_nasa_saa_guide], the [ITAR 22 CFR 120 through 130][ref_itar_22_cfr_120_130], the [Radio Regulations 2020][ref_itu_radio_regulations_2020], the [Space Force National Security Space Launch][ref_space_force_nssl] framework, the [FAA Office of Commercial Space Transportation][ref_faa_ast] licensing regime, the [51 U.S. Code Subtitle 1984][ref_csla_1984], the [Commercial Space Launch Amendments 2004][ref_csla_amendments_2004], and the [U S Commercial Space 2015][ref_uscsla_2015].
 
 The sixth commitment is terminological transparency with the Terminological Note section below.
 
@@ -723,7 +723,7 @@ The article closes with the load-bearing open questions that the decomposability
 ### Primary Sources, Non-Peer-Reviewed
 
 - "22 CFR Chapter I Subchapter M -- International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M][ref_itar_22_cfr_120_130]
-- "51 U.S.C. Chapter 509 Commercial Space Launch Act." 1984. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
+- "51 U.S. Code Subtitle V Chapter 509: Commercial Space Launch Activities." 1984. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - Adner, Ron. 2016. "Ecosystem as Structure: An Actionable Construct for Strategy." *Journal of Management* 43 (1): 39–58. [https://doi.org/10.1177/0149206316678451][research_adner_2017]
 - Argote, Linda, and Ella Miron-Spektor. 2011. "Organizational Learning: From Experience to Knowledge." *Organization Science* 22 (5): 1123–37. [https://doi.org/10.1287/orsc.1100.0621][research_argote_miron_spektor_2011]
 - Baldwin, Carliss Y., and C. Jason Woodard. 2009. "The Architecture of Platforms: A Unified View." In *Platforms, Markets and Innovation*. Edward Elgar Publishing. [https://doi.org/10.4337/9781849803311.00008][research_baldwin_woodard_2009]
@@ -754,6 +754,7 @@ The article closes with the load-bearing open questions that the decomposability
 - Nonaka, Ikujiro. 1994. "A Dynamic Theory of Organizational Knowledge Creation." *Organization Science* 5 (1): 14–37. [https://doi.org/10.1287/orsc.5.1.14][research_nonaka_1994]
 - *Radio Regulations*. 2020. [https://www.itu.int/pub/R-REG-RR][ref_itu_radio_regulations_2020]
 - Rivkin, Jan W., and Nicolaj Siggelkow. 2003. "Balancing Search and Stability: Interdependencies among Elements of Organizational Design." *Management Science* 49 (3): 290–311. [https://doi.org/10.1287/mnsc.49.3.290.12740][research_rivkin_siggelkow_2003]
+- Robertson, David, and Karl Ulrich. 1998. "Planning for Product Platforms." *MIT Sloan Management Review*. [https://sloanreview.mit.edu/article/planning-for-product-platforms/][research_robertson_ulrich_1998]
 - Sage, Andrew P., and Christopher D. Cuppan. 2001. "On the Systems Engineering and Management of Systems of Systems and Federations of Systems." *Information Knowledge Systems Management* 2 (4): 325–45. [https://doi.org/10.3233/iks-2001-00045][research_sage_cuppan_2001]
 - Sosa, Manuel E., Steven D. Eppinger, and Craig M. Rowles. 2003. "Identifying Modular and Integrative Systems and Their Impact on Design Team Interactions." *Journal of Mechanical Design* 125 (2): 240–52. [https://doi.org/10.1115/1.1564074][research_sosa_eppinger_rowles_2003]
 - Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
@@ -861,7 +862,7 @@ The article closes with the load-bearing open questions that the decomposability
 - Trubshaw. 2000. *Concorde The Inside Story*. [https://openlibrary.org/search?q=Trubshaw+Concorde+Inside+Story][book_trubshaw_2000]
 - Turner. 2009. *Rocket and Spacecraft Propulsion*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-540-69203-4][book_turner_2008]
 - Utterback, James M. 1994. *Mastering the Dynamics of Innovation: How Companies Can Seize Opportunities in the Face of Technological Change*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/4855-HBK-ENG][book_utterback_1994]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Weiss, Linda. 2014. *America Inc.?: Innovation and Enterprise in the National Security State*. Cornell University Press. [https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/][book_weiss_2014]
 - Wertz, J. R., and Wiley J. Larson. 1999. *Space Mission Analysis and Design*. Microcosm. [https://link.springer.com/book/9780792359012][book_wertz_larson_1999]
 - Womack, James P., and Jones. 2003. *Lean Thinking: Banish Waste and Create Wealth in Your Corporation*. Free Press. [https://www.simonandschuster.com/books/Lean-Thinking/James-P-Womack/9780743249270][book_womack_jones_2003]
@@ -885,7 +886,7 @@ The article closes with the load-bearing open questions that the decomposability
 - "IBM Archives." n.d. Accessed October 25, 2026. [https://www.ibm.com/history/][ref_ibm_archives]
 - "Indian Space Research Organisation Press Releases." n.d. Accessed October 25, 2026. [https://www.isro.gov.in/][ref_isro_press]
 - "Japanese Aerospace Exploration Agency Press Releases." n.d. Accessed October 25, 2026. [https://global.jaxa.jp/press/][ref_jaxa_press]
-- "KSC LC-39A Lease Agreement." n.d. Accessed October 25, 2026. [https://www.nasa.gov/kennedy/][ref_ksc_lc39a_lease]
+- "Kennedy Space Center." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/kennedy/][ref_ksc_lc39a_lease]
 - "Kwajalein Atoll Range Documentation." n.d. Accessed October 25, 2026. [https://www.army.mil/usakwajalein][ref_kwajalein_atoll_documentation]
 - "Moon to Mars." 2021. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/artemis/][ref_nasa_hls_option_a_2021]
 - Musk. 2018. "IAC Making Life Multi-Planetary." [https://www.spacex.com/updates/][research_musk_2018_iac]
@@ -930,7 +931,6 @@ The article closes with the load-bearing open questions that the decomposability
 - Pisano. 2015. "You Need an Innovation Strategy." [https://hbr.org/2015/06/you-need-an-innovation-strategy][research_pisano_2015]
 - "Public Administration Review." n.d. Accessed October 25, 2026. [https://onlinelibrary.wiley.com/journal/15406210][ref_public_admin_review]
 - "Research Newsletter." n.d. *Payload*. Accessed October 25, 2026. [https://payloadspace.com/research/][ref_payload_research]
-- Robertson and Ulrich. 1998. "Planning for Product Platforms." [https://sloanreview.mit.edu/article/planning-for-product-platforms/][research_robertson_ulrich_1998]
 - Simon. 1962. "The Architecture of Complexity." [https://www.jstor.org/stable/985254][research_simon_1962]
 - "Soviet RD-270 Engine Documentation." n.d. Accessed October 25, 2026. [https://www.energomash.ru/][ref_rd270_documentation]
 - "Space Policy Journal." n.d. Accessed October 25, 2026. [https://www.sciencedirect.com/journal/space-policy][ref_space_policy_journal]

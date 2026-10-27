@@ -669,24 +669,24 @@ mission-critical scripting requirements.
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- "Compilation and Code Loading." n.d. www.erlang.org. Accessed October 25, 2026. [https://www.erlang.org/doc/system/code\_loading.html][reference_erlang_code_loading]
 - "Elixir Programming Language." n.d. elixir-lang.org. Accessed October 25, 2026. [https://elixir-lang.org/][reference_elixir]
-- "Erlang/OTP Code Loading." n.d. www.erlang.org. Accessed October 25, 2026. [https://www.erlang.org/doc/system/code\_loading.html][reference_erlang_code_loading]
 - "The Implementation of Lua 5.0." n.d. www.lua.org. Accessed October 25, 2026. [https://www.lua.org/doc/jucs05.pdf][reference_lua_impl]
 - "JVM Specification." n.d. docs.oracle.com. Accessed October 25, 2026. [https://docs.oracle.com/javase/specs/jvms/se21/html/index.html][reference_jvm_spec]
-- "Lua Programming Language." n.d. www.lua.org. Accessed October 25, 2026. [https://www.lua.org/][reference_lua]
 - Perez, Ivan, Frank Dedden, and Alwyn Goodloe. 2020. *Copilot 3*. NASA/TM–2020–220587. NASA. [https://ntrs.nasa.gov/citations/20200003164][reference_copilot_nasa]
-- *WebAssembly Core Specification*. n.d. [https://webassembly.github.io/spec/core/][reference_wasm_spec]
+- "The Programming Language Lua." n.d. www.lua.org. Accessed October 25, 2026. [https://www.lua.org/][reference_lua]
+- *WebAssembly Specification — WebAssembly 3.0 (2026-02-16)*. n.d. [https://webassembly.github.io/spec/core/][reference_wasm_spec]
 
 ### General Sources
 
 - "Copilot Runtime Verification Framework." n.d. Accessed October 25, 2026. [https://copilot-language.github.io/][reference_copilot]
+- "Embedded Scripting for Rust." n.d. Accessed October 25, 2026. [https://rhai.rs/][reference_rhai]
 - "Gleam Programming Language." n.d. Accessed October 25, 2026. [https://gleam.run/][reference_gleam]
 - "Ivory Embedded DSL." n.d. Accessed October 25, 2026. [https://ivorylang.org/][reference_ivory]
-- "Koka Language." n.d. Accessed October 25, 2026. [https://koka-lang.github.io/koka/doc/book.html][reference_koka]
+- "The Koka Programming Language." n.d. Accessed October 25, 2026. [https://koka-lang.github.io/koka/doc/book.html][reference_koka]
 - "Lustre Synchronous Dataflow Language." n.d. Accessed October 25, 2026. [https://www-verimag.imag.fr/The-Lustre-Programming-Language-and][reference_lustre]
-- "Rhai Embedded Scripting for Rust." n.d. Accessed October 25, 2026. [https://rhai.rs/][reference_rhai]
-- "Roc Programming Language." n.d. Accessed October 25, 2026. [https://www.roc-lang.org/][reference_roc]
-- "WebAssembly Security Model." n.d. Accessed October 25, 2026. [https://webassembly.org/docs/security/][reference_wasm_security]
+- "The Roc Programming LanguageReturn to Roc HomeThe Roc Logo." n.d. Accessed October 25, 2026. [https://www.roc-lang.org/][reference_roc]
+- "Security: WebAssembly." n.d. Accessed October 25, 2026. [https://webassembly.org/docs/security/][reference_wasm_security]
 
 ### Tertiary Sources
 

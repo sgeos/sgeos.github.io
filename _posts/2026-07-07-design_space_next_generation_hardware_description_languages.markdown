@@ -1553,7 +1553,7 @@ answer.
 - "OpenSCAD programmatic solid computer-aided-design language." n.d. Accessed October 25, 2026. [https://openscad.org/][ref_openscad]
 - "Quartus® Prime Design Software \| Altera® FPGA." n.d. Accessed October 25, 2026. [https://www.intel.com/content/www/us/en/products/details/fpga/development-tools/quartus-prime.html][ref_quartus]
 - "SpinalHDL hardware description language." n.d. Accessed October 25, 2026. [https://spinalhdl.github.io/SpinalDoc-RTD/][ref_spinalhdl]
-- "Synopsys Synplify Pro." n.d. Accessed October 25, 2026. [https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify-pro.html][ref_synplify]
+- "Synplify \| Logic Synthesis for FPGA Design." n.d. Accessed October 25, 2026. [https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify-pro.html][ref_synplify]
 - "Yosys Open SYnthesis Suite:: About." n.d. Accessed October 25, 2026. [https://yosyshq.net/yosys/][ref_yosys]
 
 ### Tertiary Sources

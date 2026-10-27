@@ -972,23 +972,23 @@ and reentry.
 
 ### Commercial Sources
 
+- "The Apollo Program." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/the-apollo-program/][ref_nasa_apollo]
 - "Commercial Space." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/commercial-space/][ref_nasa_commercial]
+- "Dawn of the Space Age." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/history/dawn-of-the-space-age/][ref_nasa_dawn]
+- "Global Positioning System History." 2012. NASA, October 27. [https://www.nasa.gov/general/global-positioning-system-history/][ref_nasa_gps]
+- "Hohmann Transfer Orbit." 2014. NASA Science, February 27. [https://mars.nasa.gov/resources/6042/hohmann-transfer-orbit/][ref_nasa_hohmann]
 - "International Space Station." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/][ref_nasa_iss]
+- "Mars 2020: Perseverance Rover." 2017. NASA Science, December 5. [https://science.nasa.gov/mission/mars-2020-perseverance/][ref_nasa_mars]
 - "The Military Rockets That Launched the Space Age." 2023. [https://airandspace.si.edu/stories/editorial/military-rockets-launched-space-age][ref_nasm_military_rockets]
 - "NASA Artemis Program." n.d. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/artemis/][ref_nasa_artemis]
 - "NASA Basics of Space Flight." n.d. Accessed October 25, 2026. [https://science.nasa.gov/learn/basics-of-space-flight/][ref_nasa_basics]
-- "NASA Dawn of the Space Age." n.d. Accessed October 25, 2026. [https://www.nasa.gov/history/dawn-of-the-space-age/][ref_nasa_dawn]
-- "NASA Global Positioning System History." n.d. Accessed October 25, 2026. [https://www.nasa.gov/general/global-positioning-system-history/][ref_nasa_gps]
-- "NASA Hohmann Transfer Orbit." n.d. Accessed October 25, 2026. [https://mars.nasa.gov/resources/6042/hohmann-transfer-orbit/][ref_nasa_hohmann]
-- "NASA Mars 2020 Perseverance Rover." 2020. Accessed October 25, 2026. [https://science.nasa.gov/mission/mars-2020-perseverance/][ref_nasa_mars]
-- "NASA The Apollo Program." n.d. Accessed October 25, 2026. [https://www.nasa.gov/the-apollo-program/][ref_nasa_apollo]
 - "Project Paperclip and American Rocketry after World War II." 2023. [https://airandspace.si.edu/stories/editorial/project-paperclip-and-american-rocketry-after-world-war-ii][ref_nasm_paperclip]
 - "What Was the Space Race?" 2023. [https://airandspace.si.edu/stories/editorial/what-was-space-race][ref_nasm_space_race]
 
 ### General Sources
 
+- "History \| Landsat Science." 2021. Landsat Science \| A joint NASA/USGS Earth observation program., November 30. [https://landsat.gsfc.nasa.gov/satellites/history/][ref_nasa_landsat]
 - "NASA Glenn Research Center Beginner's Guide to Aeronautics." n.d. Accessed October 25, 2026. [https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/][ref_nasa_glenn]
-- "NASA Landsat History." n.d. Accessed October 25, 2026. [https://landsat.gsfc.nasa.gov/satellites/history/][ref_nasa_landsat]
 - "Orbital Mechanics for Engineering Students." n.d. Accessed October 25, 2026. [https://orbital-mechanics.space/][ref_orbital_mechanics]
 
 ### Related Posts

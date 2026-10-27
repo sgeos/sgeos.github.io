@@ -465,19 +465,19 @@ For deployment, [edeliver][edeliver] is worth looking at.
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- "Bitwalker/conform." n.d. GitHub. Accessed October 25, 2026. [https://github.com/bitwalker/conform][conform]
+- "Bitwalker/distillery: A Pure Elixir Implementation of Release Packaging Functionality for the Erlang VM." n.d. github.com. Accessed October 25, 2026. [https://github.com/bitwalker/distillery][distillery]
 - "Boldpoker/edeliver." n.d. GitHub. Accessed October 25, 2026. [https://github.com/boldpoker/edeliver][edeliver]
-- "Distillery." n.d. github.com. Accessed October 25, 2026. [https://github.com/bitwalker/distillery][distillery]
-- "Distillery, Runtime Configuration." n.d. hexdocs.pm. Accessed October 25, 2026. [https://hexdocs.pm/distillery/runtime-configuration.html][distillery_config]
+- "Dynamic\_dispatch.ex." n.d. Gist. Accessed October 25, 2026. [https://gist.github.com/chrismccord/e0eaefe30d2ecd85b4ac][phoenix_dynamic_gist]
 - "Elixir exrm Release Configuration." n.d. exrm.readme.io. Accessed October 25, 2026. [https://exrm.readme.io/docs/release-configuration][exrm_config]
 - "Elixir Release Manager." n.d. github.com. Accessed October 25, 2026. [https://github.com/bitwalker/exrm][exrm]
 - "Elixir Release Manager, How to run Ecto migrations from an exrm release." n.d. gist.github.com. Accessed October 25, 2026. [https://gist.github.com/antipax/90cc36d29c2a2a5d4629][exrm_migration_gist]
-- "Elixir, conform." n.d. github.com. Accessed October 25, 2026. [https://github.com/bitwalker/conform][conform]
-- "Elixir, Useful Config Wrapper Gist." n.d. gist.github.com. Accessed October 25, 2026. [https://gist.github.com/bitwalker/a4f73b33aea43951fe19b242d06da7b9][config_gist]
 - "Erlang -- Config." n.d. erlang.org. Accessed October 25, 2026. [http://erlang.org/doc/man/config.html][erlang_man_config]
 - "Erlang -- Erl." n.d. erlang.org. Accessed October 25, 2026. [http://erlang.org/doc/man/erl.html][erlang_man_erl]
+- "Exrm PostgreSQL/MySQL Release Equivalents for \`Mix Ecto.create\` and \`Mix Ecto.drop\`." n.d. Gist. Accessed October 25, 2026. [https://gist.github.com/sgeos/1fed5eb24d80b97a338249dd95d55082][mix_ecto_gist]
 - "Mix, Accessing Mix tasks from release." n.d. github.com. Accessed October 25, 2026. [https://github.com/bitwalker/exrm/issues/67\#issuecomment-183457937][mix_release]
-- "Mix, exrm PostgreSQL/MySQL release equivalents for mix ecto.create and mix ecto.drop." n.d. gist.github.com. Accessed October 25, 2026. [https://gist.github.com/sgeos/1fed5eb24d80b97a338249dd95d55082][mix_ecto_gist]
-- "Phoenix, Dynamic Dispatch Gist." n.d. gist.github.com. Accessed October 25, 2026. [https://gist.github.com/chrismccord/e0eaefe30d2ecd85b4ac][phoenix_dynamic_gist]
+- "Runtime Configuration – Distillery v1.4.1." n.d. hexdocs.pm. Accessed October 25, 2026. [https://hexdocs.pm/distillery/runtime-configuration.html][distillery_config]
+- "Useful Config Wrapper for Elixir." n.d. Gist. Accessed October 25, 2026. [https://gist.github.com/bitwalker/a4f73b33aea43951fe19b242d06da7b9][config_gist]
 
 ### Commercial Sources
 

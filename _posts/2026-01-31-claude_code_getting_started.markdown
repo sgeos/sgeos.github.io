@@ -663,7 +663,7 @@ that prevent "runaway" agentic loops.
 ### General Sources
 
 - "Claude Code allows you double tap esc key to edit previous messages." n.d. Accessed October 25, 2026. [https://www.reddit.com/r/ClaudeAI/comments/1ln8d6z/claude\_code\_allows\_you\_double\_tap\_esc\_key\_to\_edit/][claude_edit]
-- "Claude Code Limits Explained (2026 Edition)." n.d. Accessed October 25, 2026. [https://www.truefoundry.com/blog/claude-code-limits-explained][claude_limits]
+- "Claude Code Limits: Quotas & Rate Limits Guide." n.d. Accessed October 25, 2026. [https://www.truefoundry.com/blog/claude-code-limits-explained][claude_limits]
 - "Claude Code Official Documentation." n.d. Accessed October 25, 2026. [https://platform.claude.com/docs/en/home][claude_docs]
 - "Claude Code Tutorial for Beginners, Video." n.d. Accessed October 25, 2026. [https://www.youtube.com/watch?v=eMZmDH3T2bY][claude_tutorial_video]
 - "Claude, Login." n.d. Accessed October 25, 2026. [https://claude.ai/login][claude_login]

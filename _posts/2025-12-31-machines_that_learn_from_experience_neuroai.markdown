@@ -447,7 +447,7 @@ The [Yamins and DiCarlo 2016][research_yamins_dicarlo_2016] Using Goal-Driven De
 
 The [Richards et al. 2019][research_richards_et_al_2019] Deep Learning Framework for Neuroscience framework provided the systematic modern statement of the deep learning approach to computational neuroscience. The account identifies the ways in which deep learning provides the computational vocabulary through which neural circuit function can be understood and predicted.
 
-The Brain-Score benchmark of [Schrimpf 2020][research_schrimpf_et_al_2020_brainscore] provided the evaluation framework through which candidate deep learning models can be systematically compared to biological data. The model combines neural response prediction, behavioral prediction, and other measures into a unified benchmark that enables systematic model comparison. Model performance on Brain-Score is measured as an aggregate score across brain regions and tasks
+The Brain-Score benchmark of [Schrimpf et al. 2020][research_schrimpf_et_al_2020_brainscore] provided the evaluation framework through which candidate deep learning models can be systematically compared to biological data. The model combines neural response prediction, behavioral prediction, and other measures into a unified benchmark that enables systematic model comparison. Model performance on Brain-Score is measured as an aggregate score across brain regions and tasks
 
 $$S(M) = \sum_{r} w_r \cdot \text{fit}(M, r)$$
 
@@ -704,6 +704,7 @@ The research program on beneficial NeuroAI development includes the efforts to a
 - Rosenblatt, F. 1958. "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain." *Psychological Review* 65 (6): 386–408. [https://doi.org/10.1037/h0042519][research_rosenblatt_1958]
 - Sacramento, João, Rui Ponte Costa, Yoshua Bengio, and Walter Senn. 2018. "Dendritic Cortical Microcircuits Approximate the Backpropagation Algorithm." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/1dc3a89d0d440ba31729b0ba74b93a33-Abstract.html][research_sacramento_et_al_2018]
 - Schrimpf, Martin, Idan Asher Blank, Greta Tuckute, et al. 2021. "The Neural Architecture of Language: Integrative Modeling Converges on Predictive Processing." *Proceedings of the National Academy of Sciences* 118 (45): e2105646118. [https://doi.org/10.1073/pnas.2105646118][research_schrimpf_et_al_2021_language]
+- Schrimpf, Martin, Jonas Kubilius, Ha Hong, et al. 2020. "Brain-Score: Which Artificial Neural Network for Object Recognition Is Most Brain-Like?" *bioRxiv*: 407007. [https://www.biorxiv.org/content/10.1101/407007v2][research_schrimpf_et_al_2020_brainscore]
 - Schultz, Wolfram, Peter Dayan, and P. Read Montague. 1997. "A Neural Substrate of Prediction and Reward." *Science* 275 (5306): 1593–99. [https://doi.org/10.1126/science.275.5306.1593][research_schultz_dayan_montague_1997]
 - Sejnowski and Rosenberg. 1987. *NETtalk*. [https://scholar.google.com/scholar?q=NETtalk+Sejnowski+Rosenberg+1987][research_sejnowski_rosenberg_1987]
 - Simoncelli, Eero P., and Bruno A. Olshausen. 2001. "Natural Image Statistics and Neural Representation." *Annual Review of Neuroscience* 24 (1): 1193–1216. [https://doi.org/10.1146/annurev.neuro.24.1.1193][research_simoncelli_olshausen_2001]
@@ -738,7 +739,7 @@ The research program on beneficial NeuroAI development includes the efforts to a
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -753,7 +754,6 @@ The research program on beneficial NeuroAI development includes the efforts to a
 - King and Dehaene. 2014. "Decoding." [https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(14)00047-X][research_king_dehaene_2014]
 - Neftci Mostafa Zenke. 2019. "Surrogate." [https://ieeexplore.ieee.org/document/8891809][research_neftci_mostafa_zenke_2019]
 - OECD. 2019. "Neurotechnology." [https://www.oecd.org/en/topics/sub-issues/emerging-technologies/neurotechnology.html][research_oecd_neurotechnology_2019]
-- Schrimpf. 2020. "Brain-Score." [https://www.biorxiv.org/content/10.1101/407007v2][research_schrimpf_et_al_2020_brainscore]
 - "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
 - Song, Millidge, Salvatori, Lukasiewicz, Xu, and Bogacz. 2020. "PC Backprop." [https://papers.nips.cc/paper/2020/hash/fec87a37cdeec1c6ecf8181c0aa2d3bf-Abstract.html][research_song_et_al_2020_pc_backprop]
 - "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]

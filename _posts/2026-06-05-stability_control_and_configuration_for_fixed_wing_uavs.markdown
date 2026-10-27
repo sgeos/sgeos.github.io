@@ -320,7 +320,7 @@ mission wants, with the static margin as the number that says which.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- *Aircraft Stability and Control (Embry-Riddle)*. n.d. [https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/aircraft-stability-control/][research_erau_stability]
+- "Aircraft Stability & Control." 2022. In *Introduction to Aerospace Flight Vehicles*. Embry-Riddle Aeronautical University. [https://doi.org/10.15394/eaglepub.2022.1066.n42][research_erau_stability]
 - *Review of Thrust Vectoring Technology Applications in UAVs (MDPI Drones)*. n.d. [https://www.mdpi.com/2504-446X/9/10/689][research_mdpi_tvc]
 
 ### Tertiary Sources
@@ -417,5 +417,5 @@ mission wants, with the static margin as the number that says which.
 [related_post_lwpla]: {% post_url 2026-05-30-prototyping_fixed_wing_aircraft_with_lightweight_pla_and_fiberglass %}
 [related_post_propulsion]: {% post_url 2026-06-02-propulsion_and_power_sizing_for_fixed_wing_uavs %}
 [related_post_runway]: {% post_url 2026-05-31-runway_sizing_for_fixed_wing_uavs %}
-[research_erau_stability]: https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/aircraft-stability-control/
+[research_erau_stability]: https://doi.org/10.15394/eaglepub.2022.1066.n42
 [research_mdpi_tvc]: https://www.mdpi.com/2504-446X/9/10/689

@@ -265,10 +265,10 @@ This script could be customized to work with other APIs.
 
 - Baird, Jeffrey. n.d. "Building a JSON API with Phoenix." Accessed October 25, 2026. [http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/][phoenix_json]
 - Barnett, Bruce. n.d. "Bourne Shell Tutorial." Accessed October 25, 2026. [http://www.grymoire.com/Unix/Sh.html][sh_tutorial]
+- "Building a Versioned REST API with Phoenix Framework." 2015. *Renato Moya*, May 9. [https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html][phoenix_versioned_rest]
 - "Http: REST API PATCH or PUT." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/24241893/rest-api-patch-or-put][rest_patch_put]
+- "Installing PostgreSQL on FreeBSD." 2010. *JasonK's Blog*, January 11. [https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/][postgresql_install]
 - "Linux: Turning Multiple Lines into One Line with Comma Separated (Perl/Sed/AWK)." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/15758814/turning-multiple-lines-into-one-line-with-comma-separated-perl-sed-awk][sh_comma]
-- "Phoenix, Building a versioned REST API with Phoenix Framework." n.d. Accessed October 25, 2026. [https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html][phoenix_versioned_rest]
-- "PostgreSQL, Installing PostgreSQL on FreeBSD." n.d. Accessed October 25, 2026. [https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/][postgresql_install]
 - "sh, Handling Command Line Arguments." n.d. Accessed October 25, 2026. [http://www.shelldorado.com/goodcoding/cmdargs.html][sh_getopts]
 
 ### Related Posts

@@ -107,7 +107,7 @@ mix main arg_a arg_b arg_c
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "Erlang escript." n.d. erlang.org. Accessed October 25, 2026. [http://erlang.org/doc/man/escript.html][erlang_escript]
+- "Erlang -- Escript." n.d. erlang.org. Accessed October 25, 2026. [http://erlang.org/doc/man/escript.html][erlang_escript]
 
 ### General Sources
 

@@ -169,12 +169,12 @@ chmod +x character_count.sh
 ### General Sources
 
 - Barnett, Bruce. n.d. "Bourne Shell Tutorial." Accessed October 25, 2026. [http://www.grymoire.com/Unix/Sh.html][unix_sh]
+- "Bourne Shell Scripting/Control Flow." n.d. Accessed October 25, 2026. [https://en.wikibooks.org/wiki/Bourne\_Shell\_Scripting/Control\_flow][unix_sh_flow]
 - "How to Perform a for Loop on Each Character in a String in BASH?" n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/10551981/how-to-perform-a-for-loop-on-each-character-in-a-string-in-bash][unix_charloop]
 - "Linux: Count Occurrences of a Char in Plain Text File." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/1603566/count-occurrences-of-a-char-in-plain-text-file][unix_count2]
 - "Osx: Replace Comma with Newline in Sed." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/10748453/replace-comma-with-newline-in-sed][unix_replace]
 - "Shell: How Do I Insert a Space Every Four Characters in a Long Line?" n.d. Accessed October 25, 2026. [http://unix.stackexchange.com/questions/5980/how-do-i-insert-a-space-every-four-characters-in-a-long-line][unix_space]
 - "UNIX, Bourne Shell Exit Status Examples." n.d. Accessed October 25, 2026. [http://www.cyberciti.biz/faq/bourne-shell-exit-status-examples/][unix_exit]
-- "UNIX, Bourne Shell Scripting/Control flow." n.d. Accessed October 25, 2026. [https://en.wikibooks.org/wiki/Bourne\_Shell\_Scripting/Control\_flow][unix_sh_flow]
 - "UNIX, count occurences of specific character in the file." n.d. Accessed October 25, 2026. [http://www.unix.com/hp-ux/19176-count-occurences-specific-character-file.html][unix_count]
 
 [freebsd_man_getopt]: https://www.freebsd.org/cgi/man.cgi?query=getopt

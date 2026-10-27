@@ -1727,7 +1727,7 @@ was constructed to establish.
 
 - "HOPL IV." 2021. Accessed October 25, 2026. [https://hopl4.sigplan.org/][ref_hopl_iv]
 - OCaml 5.0 Release Notes. 2022. "INRIA and OCaml community." [https://ocaml.org/changelog/2022-12-16-ocaml-5.0][ref_ocaml_5]
-- Rocq Prover 9.0 Release Notes. 2025. "Inria." [https://rocq-prover.org/releases/9.0.0][ref_rocq]
+- "Rocq Prover 9.0.0 Release Notes." 2025. Rocq. Accessed October 25, 2026. [https://rocq-prover.org/releases/9.0.0][ref_rocq]
 
 ### Related Posts
 

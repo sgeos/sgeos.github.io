@@ -2649,10 +2649,10 @@ the topics discussed in this article.
 
 ### General Sources
 
-- A Self-Reproducing Interstellar Probe (Journal of the British Interplanetary Society). 1980. "Freitas." [https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm][research_freitas_1980]
 - Computing: A Concise History. 2012. "Campbell-Kelly." [https://en.wikipedia.org/wiki/Computing:\_A\_Concise\_History][future_campbell_kelly]
+- Freitas, Robert A., Jr. 1980. "A Self-Reproducing Interstellar Probe." Accessed October 25, 2026. [https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm][research_freitas_1980]
 - Kinematic Self-Replicating Machines. 2004. "Freitas and Merkle." [http://www.molecularassembler.com/KSRM.htm][future_freitas_merkle]
-- "Neuromorphic Computing and Engineering (Journal), IOP Publishing." n.d. Accessed October 25, 2026. [https://iopscience.iop.org/journal/2634-4386][future_neuromorphic]
+- "Neuromorphic Computing and Engineering." n.d. Accessed October 25, 2026. [https://iopscience.iop.org/journal/2634-4386][future_neuromorphic]
 - The Computer from Pascal to von Neumann. 1972. "Goldstine." [https://en.wikipedia.org/wiki/The\_Computer\_from\_Pascal\_to\_von\_Neumann][future_goldstine]
 - The Theory of Self-Reproducing Automata. 1966. "Von Neumann (ed. Burks)." [https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf][research_von_neumann_automata]
 

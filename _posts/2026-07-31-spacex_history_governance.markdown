@@ -922,7 +922,7 @@ The article closes with the load-bearing open questions the governance treatment
 - Thiel, Peter A. 2014. *Zero to One: Notes on Startups, or How to Build the Future*. Penguin Random House USA Ex. [https://www.penguinrandomhouse.com/books/226845/zero-to-one-by-peter-thiel-with-blake-masters/][book_thiel_2014]
 - Tirole, Jean. 2006. *The Theory of Corporate Finance*. Princeton University Press. [https://press.princeton.edu/books/hardcover/9780691125565/the-theory-of-corporate-finance][book_tirole_2006]
 - Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
 - Weiss, Linda. 2014. *America Inc.?: Innovation and Enterprise in the National Security State*. Cornell University Press. [https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/][book_weiss_2014]
 - Williamson, Oliver E. 1985. *The Economic Institutions of Capitalism: Firms, Markets, Relational Contracting*. The Free Press. [https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740][book_williamson_1985]
@@ -936,22 +936,21 @@ The article closes with the load-bearing open questions the governance treatment
 ### Commercial Sources
 
 - "Alphabet Investor Relations: Investors." n.d. Accessed October 25, 2026. [https://abc.xyz/investor/][ref_alphabet_ir]
-- "Anthropic Long-Term Benefit Trust." n.d. Accessed October 25, 2026. [https://www.anthropic.com/news/the-long-term-benefit-trust][ref_anthropic_ltbt]
 - "Berkshire Hathaway Shareholder Materials." n.d. Accessed October 25, 2026. [https://www.berkshirehathaway.com/][ref_berkshire]
 - "Blue Origin Press Releases." n.d. Accessed October 25, 2026. [https://www.blueorigin.com/news/][ref_blue_origin_press]
 - "Bosch Annual Reporting." n.d. Accessed October 25, 2026. [https://www.bosch.com/company/annual-report/][ref_bosch_annual_report]
 - "Bosch Corporate Record." n.d. Accessed October 25, 2026. [https://www.bosch.com/company/][ref_bosch_company]
-- "Carl Zeiss Stiftung Statute." n.d. Accessed October 25, 2026. [https://www.carl-zeiss-stiftung.de/en/][ref_carl_zeiss_stiftung]
 - "The Conference Board." n.d. Accessed October 25, 2026. [https://www.conference-board.org/][ref_conference_board]
 - "Council of Institutional Investors Dual-Class Policy." n.d.-a. Accessed October 25, 2026. [https://www.cii.org/dualclass\_stock][ref_cii_dual_class]
 - "Council of Institutional Investors: The Voice of Corporate Governance." n.d.-b. Accessed October 25, 2026. [https://www.cii.org/][ref_cii]
 - "Danish Business Authority." n.d. Accessed October 25, 2026. [https://danishbusinessauthority.dk/][ref_danish_business_authority]
 - "Delaware Division of Corporations." n.d. Accessed October 25, 2026. [https://corp.delaware.gov/][ref_delaware_division_corporations]
-- "Ford Investor Relations." n.d. Accessed October 25, 2026. [https://shareholder.ford.com/][ref_ford_ir]
+- "Ford Motor Company: Home." n.d. Accessed October 25, 2026. [https://shareholder.ford.com/][ref_ford_ir]
 - "FTSE Russell Indices, Insights & Data." n.d. Accessed October 25, 2026. [https://www.lseg.com/en/ftse-russell][ref_ftse_russell]
 - "Glass Lewis Proxy Voting Guidelines." n.d. Accessed October 25, 2026. [https://www.glasslewis.com/][ref_glass_lewis]
 - "IBM Archives." n.d. Accessed October 25, 2026. [https://www.ibm.com/history/][ref_ibm_archives]
 - "Institutional Shareholder Services Governance." n.d. Accessed October 25, 2026. [https://www.issgovernance.com/][ref_iss_governance]
+- "The Long-Term Benefit Trust." n.d. Accessed October 25, 2026. [https://www.anthropic.com/news/the-long-term-benefit-trust][ref_anthropic_ltbt]
 - "Meta Investor Relations." n.d. Accessed October 25, 2026. [https://investor.atmeta.com/][ref_meta_ir]
 - "Microsoft Source." n.d. Source. Accessed October 25, 2026. [https://news.microsoft.com/][ref_microsoft_news]
 - "News \| Rocket Lab." n.d. Rocket Lab. Accessed October 25, 2026. [https://www.rocketlabusa.com/updates/][ref_rocket_lab_press]
@@ -965,6 +964,7 @@ The article closes with the load-bearing open questions the governance treatment
 - "SpaceX Corporate Site." n.d. Accessed October 25, 2026. [https://www.spacex.com/][ref_spacex_company]
 - "SpaceX News Archive." n.d. Accessed October 25, 2026. [https://www.spacex.com/updates/][ref_spacex_news_archive]
 - "United Launch Alliance Press Releases." n.d. Accessed October 25, 2026. [https://www.ulalaunch.com/about/news][ref_ula_press]
+- "Welcome \| Carl-Zeiss-Stiftung." n.d. Carl-Zeiss-Stiftung - https://www.carl-zeiss-stiftung.de. Accessed October 25, 2026. [https://www.carl-zeiss-stiftung.de/en/][ref_carl_zeiss_stiftung]
 
 ### General Sources
 

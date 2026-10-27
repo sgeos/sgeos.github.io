@@ -498,7 +498,6 @@ a builder can defend with numbers rather than guess at.
 - Accelerated Performance. n.d. *Takeoff and Landing*. [https://pressbooks.lib.vt.edu/aerodynamics/chapter/chapter-7-accelerated-performance-takeoff-and-landing/][research_vt_to]
 - *Density Altitude (FAA)*. n.d. [https://www.faasafety.gov/files/events/NM/NM07/2023/NM07120280/FAA-P-8740-02-DensityAltitude.pdf][research_faa_da]
 - "Part 107 Night Operations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.29][research_part107_29]
-- *Precision Runway Landing for UAVs*. n.d. [https://www.uavnavigation.com/company/blog/uav-navigation-depth-precision-runway-landing-without-dgpsrtk][research_uav_landing]
 - *Square-Cube Law and Scaling for RC Sailplanes*. n.d. [https://www.rcsoaringdigest.com/SquareCube.html][research_rcsd_scaling]
 - *Takeoff and Landing Performance*. n.d. [https://eaglepubs.erau.edu/introductiontoaerospaceflightvehicles/chapter/takeoff-landing-performance/][research_erau_to]
 
@@ -506,9 +505,10 @@ a builder can defend with numbers rather than guess at.
 
 - "Crosswind Calculator." 2020. *AeroToolbox*, January 11. [https://aerotoolbox.com/crosswind/][ref_crosswind]
 - "Expeditionary Airfield Lighting System." n.d. Accessed October 25, 2026. [https://www.avlite.com/product/expeditionary-airfield-lighting-system-eals/][ref_eals]
+- "How Runway Surface and Slope Affect Your Airplane's Performance." n.d. Accessed October 25, 2026. [https://www.boldmethod.com/learn-to-fly/performance/runway-surface-and-slope/][ref_slope_surface]
 - "Retroreflective Runway Markers." n.d. Accessed October 25, 2026. [https://flightlight.com/products/runway-taxiway-retroreflective-markers-faa-l-853/][ref_retroreflective]
 - "Runway Lighting." n.d. Accessed October 25, 2026. [https://skybrary.aero/articles/runway-lighting][ref_runway_lighting]
-- "Runway Slope and Surface." n.d. Accessed October 25, 2026. [https://www.boldmethod.com/learn-to-fly/performance/runway-surface-and-slope/][ref_slope_surface]
+- "UAV Navigation in Depth: Precision Runway Landing without DGPS/RTK." n.d. Accessed October 25, 2026. [https://www.uavnavigation.com/company/blog/uav-navigation-depth-precision-runway-landing-without-dgpsrtk][research_uav_landing]
 
 ### Tertiary Sources
 

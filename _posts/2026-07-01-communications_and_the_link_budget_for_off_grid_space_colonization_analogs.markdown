@@ -1507,9 +1507,9 @@ that the survey opener identified.
 ### General Sources
 
 - "Consultative Committee for Space Data Systems." n.d. Accessed October 25, 2026. [https://public.ccsds.org/][ref_ccsds]
+- "Global Communications \| Services, Solutions & Satellite Internet." n.d. Viasat.com. Accessed October 25, 2026. [https://www.viasat.com/][ref_viasat]
 - "HughesNet Geostationary Satellite Internet." n.d. Accessed October 25, 2026. [https://www.hughesnet.com/][ref_hughesnet]
 - "Mars: NASA Science." 2023. NASA Science, May 31. [https://mars.nasa.gov/][ref_mars_program]
-- "Viasat Geostationary Satellite Internet." n.d. Accessed October 25, 2026. [https://www.viasat.com/][ref_viasat]
 - "Voyager 1 Deep Space Mission." n.d. Accessed October 25, 2026. [https://voyager.jpl.nasa.gov/][ref_voyager]
 
 ### Tertiary Sources

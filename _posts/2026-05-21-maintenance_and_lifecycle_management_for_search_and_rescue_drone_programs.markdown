@@ -2974,17 +2974,17 @@ the multi-year programme cycle imposes.
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- "Aircraft Certification \| Federal Aviation AdministrationLockUnited States Department of Transportation." n.d. Accessed October 25, 2026. [https://www.faa.gov/aircraft/air\_cert][ref_faa_airworthiness]
 - "Department of State Directorate of Defense Trade Controls." n.d. Accessed October 25, 2026. [https://www.pmddtc.state.gov/][ref_ddtc]
 - "Department of Transportation 49 CFR Part 173 Hazardous Materials Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-E/section-173.185][ref_49_cfr_173]
-- "FAA Airworthiness Certification." n.d. Accessed October 25, 2026. [https://www.faa.gov/aircraft/air\_cert][ref_faa_airworthiness]
 - "FAA Part 107.49 Preflight Inspection." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-B/section-107.49][ref_faa_part_107_49]
 - "International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.pmddtc.state.gov/ddtc\_public?id=ddtc\_public\_portal\_itar\_landing][ref_itar_a151]
-- *ISO IEC 17025 Calibration Laboratory Accreditation*. n.d. [https://www.iso.org/standard/66912.html][ref_iso_17025_a151]
+- *ISO/IEC 17025:2017*. n.d. [https://www.iso.org/standard/66912.html][ref_iso_17025_a151]
 
 ### Commercial Sources
 
 - "DJI Care Enterprise Service Plan." n.d. Accessed October 25, 2026. [https://www.dji.com/support/service][ref_dji_care]
-- "DJI Care Refresh Replacement Programme." n.d. Accessed October 25, 2026. [https://www.dji.com/support/service/djicare-refresh][ref_dji_care_refresh]
+- "DJI Care Refresh: Support." n.d. DJI. Accessed October 25, 2026. [https://www.dji.com/support/service/djicare-refresh][ref_dji_care_refresh]
 - "NIST Traceability Chain for Calibration." n.d. Accessed October 25, 2026. [https://www.nist.gov/pml/owm/metrology/nist-traceability][ref_nist_traceability_a151]
 - "Skydio Security Trust Center." n.d. Accessed October 25, 2026. [https://www.skydio.com/security-trust-center][ref_skydio_trust]
 
@@ -2995,8 +2995,8 @@ the multi-year programme cycle imposes.
 - "DJI Battery Maintenance Documentation." n.d. Accessed October 25, 2026. [https://support.dji.com/help/content?customId=en-us03400006549][ref_dji_battery]
 - "DJI Security Trust Center." n.d. Accessed October 25, 2026. [https://security.dji.com/][ref_dji_security]
 - "Electronics TakeBack Coalition." n.d. Accessed October 25, 2026. [https://www.electronicstakeback.com/][ref_etbc]
+- "Extended Security Updates (ESU) Program for Windows 10." n.d. Accessed October 25, 2026. [https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates][ref_microsoft_esu]
 - "International Air Transport Association Dangerous Goods Regulations." n.d. Accessed October 25, 2026. [https://www.iata.org/en/programs/cargo/dgr/][ref_iata_dgr]
-- "Microsoft Extended Security Update Programme." n.d. Accessed October 25, 2026. [https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates][ref_microsoft_esu]
 - "PHMSA Lithium Battery Guide for Shippers." n.d. Accessed October 25, 2026. [https://www.phmsa.dot.gov/lithiumbatteries][ref_phmsa_lithium]
 - "United Nations Manual of Tests and Criteria Section 38.3 Lithium Battery Transport." n.d. Accessed October 25, 2026. [https://unece.org/transport/dangerous-goods/un-manual-tests-and-criteria-rev7][ref_un_38_3]
 

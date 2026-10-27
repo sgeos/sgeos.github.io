@@ -8582,12 +8582,12 @@ Seventy-one articles follow. The next one takes the aircraft that started it, th
 
 ### Commercial Sources
 
+- "Armstrong Flight Research Center." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - Banke, Jim. 2016. "NASA Aeronautics Budget Proposes Return of X-Planes." National Aeronautics and Space Administration, February 18. [https://www.nasa.gov/centers-and-facilities/ames/nasa-aeronautics-budget-proposes-return-of-x-planes/][ref_nasa_aeronautics_2016]
 - "Bell X-1 Glamorous Glennis." n.d. Smithsonian National Air and Space Museum. Accessed October 24, 2026. [https://airandspace.si.edu/collection-objects/bell-x-1-glamorous-glennis/nasm\_A19510007000][ref_nasm_x1]
 - Benson, Tom. n.d. "Viscosity." Beginner's Guide to Hypersonics. Accessed October 24, 2026. [https://www.grc.nasa.gov/www/BGH/viscosity.html][ref_nasa_grc_viscosity]
 - "DARPA Official Site." n.d. Accessed October 24, 2026. [https://www.darpa.mil/][ref_darpa_official]
 - Defense Advanced Research Projects Agency. 2026. "DARPA’s New X-76: The Speed of a Jet, the Freedom of a Helicopter: SPRINT X-76 Enters Build Phase to Demonstrate Runway-Independent, High-Speed Flight." Defense Advanced Research Projects Agency, March 9. [https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter][ref_darpa_x76]
-- "NASA Armstrong Flight Research Center." n.d. Accessed October 24, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - "NASA History Office." n.d. Accessed October 24, 2026. [https://www.nasa.gov/history/][ref_nasa_history]
 
 ### General Sources

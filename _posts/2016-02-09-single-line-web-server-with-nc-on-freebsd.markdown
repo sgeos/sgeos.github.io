@@ -151,12 +151,12 @@ They may trip up clients that do not close the connection.
 - "Command Substitution." n.d. Accessed October 25, 2026. [http://www.tldp.org/LDP/abs/html/commandsub.html][bash_command_sub]
 - "How to Assign a Heredoc Value to a Variable in Bash?" n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/1167746/how-to-assign-a-heredoc-value-to-a-variable-in-bash][bash_heredoc]
 - "HTML, Coding An HTML 5 Layout From Scratch." n.d. Accessed October 25, 2026. [https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/][html_template]
-- "HTML, W3C Markup Validation Service." n.d. Accessed October 25, 2026. [https://validator.w3.org][html_validator]
 - "MIME Types: The Complete List." n.d. *SitePoint*. Accessed October 25, 2026. [http://www.sitepoint.com/web-foundations/mime-types-complete-list/][html_mime_types]
 - "Nc Server Not Disconnecting." n.d. The FreeBSD Forums. Accessed October 25, 2026. [https://forums.freebsd.org/threads/nc-server-not-disconnecting.55033/][freebsd_forum_nc]
 - "Simple Command Line Http Server." n.d. Accessed October 25, 2026. [http://unix.stackexchange.com/questions/32182/simple-command-line-http-server][unix_single_line_server]
 - "UNIX, Faking Services using Netcat (For Testing Nagios)." n.d. Accessed October 25, 2026. [http://notes.rioastamal.net/2014/02/faking-services-using-netcat-for-nagios-testing.html][unix_faking_services]
 - "Variables: Length of String in Bash." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/17368067/length-of-string-in-bash][bash_string_length]
+- "The W3C Markup Validation Service." n.d. Accessed October 25, 2026. [https://validator.w3.org][html_validator]
 - "The While Loop." n.d. Accessed October 25, 2026. [http://tldp.org/LDP/Bash-Beginners-Guide/html/sect\_09\_02.html][bash_while]
 - Winterbottom, David. n.d. "One Command Line Web Server on Port 80 Using Nc (Netcat)." Accessed October 25, 2026. [http://www.commandlinefu.com/commands/view/9164/one-command-line-web-server-on-port-80-using-nc-netcat][unix_one_command_server]
 

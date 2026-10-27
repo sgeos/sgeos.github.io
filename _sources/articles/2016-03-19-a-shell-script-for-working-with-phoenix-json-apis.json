@@ -1,4 +1,6 @@
 {
  "elixir_service": "freebsd_elixir",
+ "phoenix_versioned_rest": "phoenix_versioned_rest_352808",
+ "postgresql_install": "postgresql_install_f08251",
  "sh_tutorial": "unix_bourne_shell"
 }

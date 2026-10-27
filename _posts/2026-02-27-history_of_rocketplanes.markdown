@@ -1473,7 +1473,6 @@ what was once extraordinary.
 ### Primary Sources, Non-Peer-Reviewed
 
 - *NASA SP-60 X-15 Research Results*. n.d. [https://ntrs.nasa.gov/citations/19720005025][research_x15_results]
-- *NASA X-15 Space Pioneers Honored as Astronauts*. n.d. [https://www.nasa.gov/news-release/x-15-space-pioneers-now-honored-as-astronauts/][research_x15_astronauts]
 - Sutton, K., and R. A. Graves Jr. 1971. *A General Stagnation-Point Convective Heating Equation for Arbitrary Gas Mixtures*. NASA-TR-R-376. NASA. [https://ntrs.nasa.gov/citations/19720003329][research_sutton_graves]
 
 ### Secondary Sources
@@ -1484,11 +1483,12 @@ what was once extraordinary.
 
 ### Commercial Sources
 
-- "NASA Armstrong Flight Research Center." n.d. Accessed October 24, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
+- "Armstrong Flight Research Center." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - "Project Paperclip and American Rocketry after World War II." 2023. [https://airandspace.si.edu/stories/editorial/project-paperclip-and-american-rocketry-after-world-war-ii][research_nasm_paperclip]
 - "Smithsonian NASM." n.d. Accessed October 25, 2026. [https://airandspace.si.edu/][ref_nasm]
 - "Smithsonian NASM Buran." n.d. Accessed October 25, 2026. [https://airandspace.si.edu/stories/editorial/soviet-buran-shuttle-one-flight-long-history][ref_buran_nasm]
 - "Smithsonian NASM Me 163." n.d. Accessed October 25, 2026. [https://airandspace.si.edu/collection-objects/messerschmitt-me-163b-1a-komet/nasm\_A19530072000][ref_nasm_me163]
+- "X-15 Space Pioneers Now Honored as Astronauts." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/x-15-space-pioneers-now-honored-as-astronauts/][research_x15_astronauts]
 
 ### Tertiary Sources
 

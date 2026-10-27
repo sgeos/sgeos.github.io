@@ -107,9 +107,9 @@ $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}}
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- "Front Matter." 2016. Jekyll • Simple, blog-aware, static sites. Accessed October 25, 2026. [http://jekyllrb.com/docs/frontmatter/][jekyll_frontmatter]
 - "GitHub Pages." n.d. pages.github.com. Accessed October 25, 2026. [https://pages.github.com][github_pages]
 - "Jekyll." n.d. jekyllrb.com. Accessed October 25, 2026. [https://jekyllrb.com][jekyll]
-- "Jekyll, YAML Front Matter." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/frontmatter/][jekyll_frontmatter]
 
 ### Commercial Sources
 

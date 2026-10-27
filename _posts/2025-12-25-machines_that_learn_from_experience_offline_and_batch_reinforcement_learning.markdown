@@ -243,7 +243,7 @@ The sequence modeling approach avoids the distributional shift problem entirely 
 
 Trajectory Transformer of [Janner et al. 2021][research_janner_li_levine_2021_tt] tokenizes state, action, and reward and uses beam search over the model to plan action sequences that maximize predicted return, providing a more explicit optimization step that can in principle exceed training-distribution returns.
 
-Multi-Game Decision Transformer of [Lee 2022][research_lee_et_al_2022_mgdt] extended the model to a multi-task setting, and Gato of [Reed et al. 2022][research_reed_et_al_2022_gato_offline] to general-purpose multi-modal agents. Elastic Decision Transformer of [Wu Wang Reed Lee 2023][research_wu_wang_reed_lee_2023_edt] introduced adaptive context-length selection at inference time, enabling trajectory stitching that produces policies exceeding the best training trajectories in favorable regimes. Online Decision Transformer of [Zheng et al. 2022][research_zheng_zhang_grover_2022_odt] extended this formulation to the offline-to-online setting through a stochastic-policy formulation of return conditioning. Generalized Decision Transformer of [Furuta et al. 2022][research_furuta_matsuo_gu_2022_gdt] unified the family under the hindsight information matching framework, providing a principled account of the choice of return-to-go conditioning. Q-Transformer of [Chebotar et al. 2023][research_chebotar_et_al_2023_q_transformer] combined discrete action tokenization with autoregressive Q-value prediction to scale Q-learning to transformer-based architectures on real-robot manipulation tasks.
+Multi-Game Decision Transformer of [Lee 2022][research_lee_et_al_2022_mgdt] extended the model to a multi-task setting, and Gato of [Reed et al. 2022][research_reed_et_al_2022_gato_offline] to general-purpose multi-modal agents. Elastic Decision Transformer of [Wu Wang Reed Lee 2023][research_wu_wang_reed_lee_2023_edt] introduced adaptive context-length selection at inference time, enabling trajectory stitching that produces policies exceeding the best training trajectories in favorable regimes. Online Decision Transformer of [Zheng Zhang Grover 2022][research_zheng_zhang_grover_2022_odt] extended this formulation to the offline-to-online setting through a stochastic-policy formulation of return conditioning. Generalized Decision Transformer of [Furuta et al. 2022][research_furuta_matsuo_gu_2022_gdt] unified the family under the hindsight information matching framework, providing a principled account of the choice of return-to-go conditioning. Q-Transformer of [Chebotar et al. 2023][research_chebotar_et_al_2023_q_transformer] combined discrete action tokenization with autoregressive Q-value prediction to scale Q-learning to transformer-based architectures on real-robot manipulation tasks.
 
 The relationship between sequence modeling and traditional value-based offline reinforcement learning remains an active research area. Empirical comparisons on D4RL benchmarks show comparable performance between the two families for tasks with marked data, with the sequence modeling family often outperforming on tasks with narrow data distributions where policy constraints are difficult to specify correctly.
 
@@ -510,6 +510,7 @@ Article fourteen returns to the NeuroAI bridge and treats the relationship betwe
 - Jang, Eric, Alex Irpan, Mohi Khansari, et al. 2022. "BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v164/jang22a.html][research_jang_et_al_2022_bcz]
 - Janner, Michael, Qiyang Li, and Sergey Levine. 2021. "Offline Reinforcement Learning as One Big Sequence Modeling Problem." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html][research_janner_li_levine_2021_tt]
 - Jaques, Natasha, Asma Ghandeharioun, Judy Hanwen Shen, et al. 2019. "Way off-Policy Batch Deep Reinforcement Learning of Implicit Human Preferences in Dialog." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1907.00456][research_jaques_et_al_2019]
+- Jiang, Nan, and Lihong Li. 2016. "Doubly Robust off-Policy Value Evaluation for Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v48/jiang16.html][research_jiang_li_2016_offline]
 - Jin, Ying, Zhuoran Yang, and Zhaoran Wang. 2021. "Is Pessimism Provably Efficient for Offline RL?" In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v139/jin21e.html][research_jin_yang_wang_2021]
 - Kallus, Nathan, and Masatoshi Uehara. 2020. "Double Reinforcement Learning for Efficient off-Policy Evaluation in Markov Decision Processes." *Journal of Machine Learning Research* 21: 1–63. [https://jmlr.org/papers/v21/19-827.html][research_kallus_uehara_2020]
 - Kang, Bingyi, Xiao Ma, Chao Du, Tianyu Pang, and Shuicheng Yan. 2023. "Efficient Diffusion Policies for Offline Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2305.20081][research_kang_yang_wang_2023_efficient_diffusion]
@@ -528,6 +529,7 @@ Article fourteen returns to the NeuroAI bridge and treats the relationship betwe
 - Liu, Qiang, Lihong Li, Ziyang Tang, and Dengyong Zhou. 2018. "Breaking the Curse of Horizon: Infinite-Horizon off-Policy Estimation." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/dda04f9d634145a9c68d5dfe53b21272-Abstract.html][research_liu_li_tang_zhou_2018]
 - Lu, Cong, Philip J. Ball, Jack Parker-Holder, Michael A. Osborne, and Stephen J. Roberts. 2021. "Revisiting Design Choices in Offline Model-Based Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2110.04135][research_lu_et_al_2022_design]
 - Lu, Cheng, Huayu Chen, Jianfei Chen, Hang Su, Chongxuan Li, and Jun Zhu. 2023. "Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2304.12824][research_lu_et_al_2023_cep]
+- Munos, Remi, Tom Stepleton, Anna Harutyunyan, and Marc Bellemare. 2016. "Safe and Efficient off-Policy Reinforcement Learning." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/c3992e9a68c5ae12bd18488bc579b30d-Abstract.html][research_munos_et_al_2016_retrace]
 - Nachum, Ofir, Yinlam Chow, Bo Dai, and Lihong Li. 2019. "DualDICE: Behavior-Agnostic Estimation of Discounted Stationary Distribution Corrections." *Advances in Neural Information Processing Systems* 32. [https://papers.nips.cc/paper/2019/hash/cf9a242b70f45317ffd281241fa66502-Abstract.html][research_nachum_et_al_2019_dualdice]
 - Nair, Ashvin, Abhishek Gupta, Murtaza Dalal, and Sergey Levine. 2020. "AWAC: Accelerating Online Reinforcement Learning with Offline Datasets." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2006.09359][research_nair_et_al_2020_awac]
 - Nair, Rajeswaran, Kumar, Finn, and Gupta. 2022. *Robotic RL at Scale*. [https://scholar.google.com/scholar?q=Robotic+RL+at+Scale+Nair+2022][research_nair_et_al_2022_rrl]
@@ -567,17 +569,16 @@ Article fourteen returns to the NeuroAI bridge and treats the relationship betwe
 - Yu, Tianhe, Garrett Thomas, Lantao Yu, et al. 2020. "MOPO: Model-Based Offline Policy Optimization." *Advances in Neural Information Processing Systems* 33: 14129–42. [https://papers.nips.cc/paper/2020/hash/a322852ce0df73e204b7e67cbbef0d0a-Abstract.html][research_yu_et_al_2020_mopo]
 - Zhang, Haichao, We Xu, and Haonan Yu. 2023. "Policy Expansion for Bridging Offline-to-Online Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2302.00935][research_zhang_et_al_2023_policy_expansion]
 - Zheng. 2023. *Online Finetune*. [https://scholar.google.com/scholar?q=Online+Finetune+Zheng+2023][research_zheng_et_al_2023_finetune]
-- Zheng, Qinqing, Amy Zhang, and Aditya Grover. 2022. "Online Decision Transformer." In *Proceedings of the 39th International Conference on Machine Learning*. [https://proceedings.mlr.press/v162/zheng22c.html][research_zheng_zhang_grover_2022_odt]
 
 ### Secondary Sources
 
-- Bertsekas and Tsitsiklis. 1996. *\[Title not identified\]*. [http://athenasc.com/ndpbook.html][book_bertsekas_tsitsiklis_1996]
+- Bertsekas and Tsitsiklis. 1996. *Textbook: Neuro-Dynamic Programming*. [http://athenasc.com/ndpbook.html][book_bertsekas_tsitsiklis_1996]
 - Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
 
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -599,7 +600,6 @@ Article fourteen returns to the NeuroAI bridge and treats the relationship betwe
 - Ho and Ermon. 2016. "GAIL." [https://papers.nips.cc/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html][research_ho_ermon_2016_gail]
 - Ho Jain Abbeel. 2020. "DDPM." [https://papers.nips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html][research_ho_jain_abbeel_2020_ddpm]
 - Janner, Du, and Song. 2022. "Diffuser." [https://proceedings.mlr.press/v162/janner22a.html][research_janner_du_song_2022]
-- Jiang and Li. 2016. "DR." [https://proceedings.mlr.press/v48/jiang16.html][research_jiang_li_2016_offline]
 - Kalashnikov. 2018. "QT-Opt." [https://proceedings.mlr.press/v87/kalashnikov18a.html][research_kalashnikov_et_al_2018]
 - Kostrikov Nair Levine. 2022. "IQL." [https://openreview.net/forum?id=68n2s9ZJWF8][research_kostrikov_nair_levine_2022]
 - Kumar, Hong, Levine, and Tucker. 2022. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=WwbSsEO5tKI][research_kumar_hong_levine_tucker_2022]
@@ -611,7 +611,6 @@ Article fourteen returns to the NeuroAI bridge and treats the relationship betwe
 - Lee Seo Lee Abbeel Shin. 2022. "Balanced Replay." [https://openreview.net/forum?id=Xd4-6HQY\_C\_][research_lee_et_al_2022_balanced_replay]
 - Lee Smith Krishnan Abbeel. 2021. "PEBBLE." [https://proceedings.mlr.press/v139/lee21e.html][research_lee_smith_krishnan_abbeel_2021_pebble]
 - Matsushima, Furuta, Matsuo, Nachum, and Gu. 2021. "BREMEN." [https://openreview.net/forum?id=3hGNqpI4WS][research_matsushima_et_al_2021_bremen]
-- Munos, Stepleton, Harutyunyan, and Bellemare. 2016. "Retrace." [https://papers.nips.cc/paper/2016/hash/c3992e9a68c5ae12bd18488bc579b30d-Abstract.html][research_munos_et_al_2016_retrace]
 - O'Neill, Pleydell-Bouverie, Dupret, and Csicsvari. 2010. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cell.com/trends/neurosciences/fulltext/S0166-2236(10)00003-3][research_oneill_et_al_2010]
 - Ólafsdóttir, Bush, and Barry. 2018. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cell.com/current-biology/fulltext/S0960-9822(17)31517-5][research_olafsdottir_bush_barry_2018]
 - Pearce, Rashid, Kanervisto, et al. 2023. "Human Diffusion." [https://openreview.net/forum?id=Pv1GPQzRrC8][research_pearce_et_al_2023]
@@ -634,6 +633,7 @@ Article fourteen returns to the NeuroAI bridge and treats the relationship betwe
 - Yin and Wang. 2021. "\[Title not identified\]." Accessed October 25, 2026. [https://proceedings.mlr.press/v139/yin21b.html][research_yin_wang_2021]
 - Yu, Kumar, Chebotar, Hausman, Finn, and Levine. 2022. "UDS." [https://openreview.net/forum?id=5R6qHYqhHIS][research_yu_et_al_2022_uds]
 - Zhan, Ren, Yin, and Zhu. 2022. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=Cw5uJx8XLU][research_zhan_ren_yin_zhu_2022]
+- Zheng Zhang Grover. 2022. "ODT." [https://proceedings.mlr.press/v162/zheng22c.html][research_zheng_zhang_grover_2022_odt]
 
 ### Related Posts
 

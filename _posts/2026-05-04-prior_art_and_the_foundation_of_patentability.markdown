@@ -510,8 +510,8 @@ and what it takes
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- United States Code Title 35 Section 102. n.d. *Novelty*. [https://www.law.cornell.edu/uscode/text/35/102][research_35_usc_102]
-- United States Code Title 35 Section 103. n.d. *Non-Obvious Subject Matter*. [https://www.law.cornell.edu/uscode/text/35/103][research_35_usc_103]
+- "35 U.S. Code § 102: Conditions for Patentability; Novelty." n.d.-a. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/35/102][research_35_usc_102]
+- "35 U.S. Code § 103: Conditions for Patentability; Non-Obvious Subject Matter." n.d.-b. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/35/103][research_35_usc_103]
 
 ### Tertiary Sources
 

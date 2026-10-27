@@ -97,7 +97,7 @@ The three capital-formation legs are the government-anchor leg the [Government-A
 
 $$K^{\text{external}}(t) = B(t) - K^{\text{government}}(t) - R^{\text{retained}}(t)$$
 
-with the residual met by the private leg, and the sequence in which the legs arrived being the sequence in which each became available. The instruments are the Space Act Agreement authority at [Title 51 Section 51302][ref_51_usc_51302_saa] and the other-transaction authorities at [10 United States Code n.d.][ref_10_usc_2371b] for the first leg, the exempt-offering regime at [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], and the [Form D notices][ref_sec_form_d] for the second, and the operating record at [Starlink][ref_spacex_starlink] for the third. The sequence is not arbitrary and takes the compact ordering
+with the residual met by the private leg, and the sequence in which the legs arrived being the sequence in which each became available. The instruments are the Space Act Agreement authority at [Title 51 Section 51302][ref_51_usc_51302_saa] and the other-transaction authorities at [10 United States Code 2371b][ref_10_usc_2371b] for the first leg, the exempt-offering regime at [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], and the [Form D notices][ref_sec_form_d] for the second, and the operating record at [Starlink][ref_spacex_starlink] for the third. The sequence is not arbitrary and takes the compact ordering
 
 $$t^{\text{government}} \; < \; t^{\text{private}} \; < \; t^{\text{retained}}$$
 
@@ -547,7 +547,7 @@ The primary record the series rests upon is strongest on regulation and governme
 
 The regulatory layer is complete and authoritative. It comprises the [Federal Communications Commission filing system][ref_fcc_filings] with the [initial][ref_fcc_starlink_2018], [second-generation][ref_fcc_starlink_gen2_2022], and [direct-to-cell][ref_fcc_direct_to_cell_2024] authorizations, the [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020], the [Office of Commercial Space Transportation][ref_faa_ast] with its [regulations][ref_faa_ast_regulations], [Part 450 rule][ref_faa_ast_licensing_regs_450], and [financial responsibility regime][ref_faa_financial_responsibility], the statutory chain at the [Commercial Space Launch Act][ref_csla_1984], its [amendments][ref_csla_amendments_2004], and the [current provisions][ref_uscsla_2015], the agency authority at [Title 51 Section 20113][ref_51_usc_20113], the [export-control regime][ref_itar_22_cfr_120_130], the debris regime at the [NASA Orbital Debris Program Office][ref_nasa_orbital_debris], the [mitigation standard practices][ref_nasa_orbital_debris_mitigation], and the [Inter-Agency Space Debris Coordination Committee guidelines][ref_iadc_guidelines], and the treaty framework at the [Outer Space Treaty][ref_un_outer_space_treaty_1967], the [Liability Convention][ref_un_liability_convention_1972], and the [Registration Convention][ref_un_registration_convention_1976].
 
-The government-contracting layer is substantially complete. It comprises the programme records at [NASA history][ref_nasa_history], the [commercial space office][ref_nasa_commercial_space], the [Commercial Resupply Services programme][ref_nasa_crs_program], the [Commercial Crew documents][ref_nasa_ccp_documents], the [Human Landing System programme][ref_nasa_hls_program], and the [Space Force National Security Space Launch programme][ref_space_force_nssl], the instrument authorities at [Title 51 Section 51302][ref_51_usc_51302_saa] and [10 United States Code n.d.][ref_10_usc_2371b] with the [Department of Defense other-transaction guidance][ref_dod_other_transactions], the acquisition regime at [Federal Acquisition Regulation Part 12][ref_far_part_12], [Part 15][ref_far_part_15], and [Part 16][ref_far_part_16], the oversight record at the [Government Accountability Office][ref_gao_reports] including the [COTS review][ref_gao_cots_2011] and the [National Security Space Launch review][ref_gao_nssl_2023], and the obligation-level data at [USAspending][ref_usaspending], the [Federal Procurement Data System][ref_fpds], and the [Department of Defense contract announcements][ref_dod_contracts].
+The government-contracting layer is substantially complete. It comprises the programme records at [NASA history][ref_nasa_history], the [commercial space office][ref_nasa_commercial_space], the [Commercial Resupply Services programme][ref_nasa_crs_program], the [Commercial Crew documents][ref_nasa_ccp_documents], the [Human Landing System programme][ref_nasa_hls_program], and the [Space Force National Security Space Launch programme][ref_space_force_nssl], the instrument authorities at [Title 51 Section 51302][ref_51_usc_51302_saa] and [10 United States Code 2371b][ref_10_usc_2371b] with the [Department of Defense other-transaction guidance][ref_dod_other_transactions], the acquisition regime at [Federal Acquisition Regulation Part 12][ref_far_part_12], [Part 15][ref_far_part_15], and [Part 16][ref_far_part_16], the oversight record at the [Government Accountability Office][ref_gao_reports] including the [COTS review][ref_gao_cots_2011] and the [National Security Space Launch review][ref_gao_nssl_2023], and the obligation-level data at [USAspending][ref_usaspending], the [Federal Procurement Data System][ref_fpds], and the [Department of Defense contract announcements][ref_dod_contracts].
 
 The securities and corporate layer establishes the legal framework and almost nothing about the particular transactions. It comprises the exemption regime at the [Securities Act private-placement exemption][ref_securities_act_4a2], [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], [Rule 701][ref_rule_701], and [Rule 144][ref_rule_144], the tender provisions at [Rule 13e-4][ref_rule_13e4] and [Regulation 14E][ref_reg_14e], the registration threshold at [Exchange Act Section 12][ref_exchange_act_12g] as raised by the [Jumpstart Our Business Startups Act][ref_jobs_act_2012], the disclosure regime at [Regulation S-K][ref_sec_regulation_sk] and the post-crisis statutes at [Sarbanes-Oxley][ref_sarbanes_oxley_2002] and [Dodd-Frank][ref_dodd_frank_2010], the beneficial-ownership channel at [Schedule 13D][ref_schedule_13d], the entity law at the [Delaware General Corporation Law][ref_dgcl], the [Delaware Revised Uniform Limited Partnership Act][ref_delaware_lp_act], and the [Texas Business Organizations Code][ref_texas_boc], the fund regime at the [Investment Company Act][ref_investment_company_act] and [Investment Advisers Act][ref_investment_advisers_act] with the limited-partner standards at the [Institutional Limited Partners Association][ref_ilpa] and the industry structures at the [National Venture Capital Association][ref_nvca], and the filing record at [Securities and Exchange Commission EDGAR][ref_sec_edgar] and the [Form D notices][ref_sec_form_d].
 
@@ -784,15 +784,15 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "10 United States Code 2371b Other Transaction Authority." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
+- "10 U.S. Code § 2371b: Renumbered § 4022\]." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
 - "11 U.S. Code Chapter 11: REORGANIZATION." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/11/chapter-11][ref_bankruptcy_code_ch11]
 - "14 CFR Chapter III FAA Commercial Space Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III][ref_faa_ast_regulations]
 - "14 CFR Part 450 -- Launch and Reentry License Requirements." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450][ref_faa_ast_licensing_regs_450]
 - "15 U.S. Code § 80a-3: Definition of Investment Company." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/80a-3][ref_investment_company_act]
 - "17 CFR 230.701 -- Exemption for Offers and Sales of Securities Pursuant to Certain Compensatory Benefit Plans and Contracts Relating to Compensation." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-17/section-230.701][ref_rule_701]
 - "22 CFR Chapter I Subchapter M -- International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M][ref_itar_22_cfr_120_130]
+- "51 U.S. Code Subtitle V Chapter 509: Commercial Space Launch Activities." 1984. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - "51 U.S. Code § 51302: Commercial Exploration and Commercial Recovery." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/51302][ref_51_usc_51302_saa]
-- "51 U.S.C. Chapter 509 Commercial Space Launch Act." 1984. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - Amihud, Yakov, and Baruch Lev. 1981. "Risk Reduction as a Managerial Motive for Conglomerate Mergers." *Bell Journal of Economics* 12 (2): 605. [https://doi.org/10.2307/3003575][research_amihud_lev_1981]
 - Anderson, Philip, and Michael L. Tushman. 1990. "Technological Discontinuities and Dominant Designs: A Cyclical Model of Technological Change." *Administrative Science Quarterly* 35 (4): 604. [https://doi.org/10.2307/2393511][research_anderson_tushman_1990]
 - Arrow, Kenneth J. 1962. "The Economic Implications of Learning by Doing." *Review of Economic Studies* 29 (3): 155. [https://doi.org/10.2307/2295952][research_arrow_1962]
@@ -848,6 +848,7 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 - Levin, Jonathan, and Steven Tadelis. 2010. "Contracting for Government Services: Theory and Evidence from U.s. Cities." *Journal of Industrial Economics* 58 (3): 507–41. [https://doi.org/10.1111/j.1467-6451.2010.00430.x][research_levin_tadelis_2010]
 - Levitt, Barbara, and James G. March. 1988. "Organizational Learning." *Annual Review of Sociology* 14 (1): 319–38. [https://doi.org/10.1146/annurev.so.14.080188.001535][research_levitt_march_1988]
 - Lewellen, Wilbur G. 1971. "A Pure Financial Rationale for the Conglomerate Merger." *Journal of Finance* 26 (2): 521–37. [https://doi.org/10.1111/j.1540-6261.1971.tb00912.x][research_lewellen_1971]
+- "Liability Convention." 1972. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
 - Lintner, John. 1965. "The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolios and Capital Budgets." *Review of Economics and Statistics* 47 (1): 13. [https://doi.org/10.2307/1924119][research_lintner_1965]
 - Manne, Henry G. 1965. "Mergers and the Market for Corporate Control." *Journal of Political Economy* 73 (4): 351–351. [https://doi.org/10.1086/259036][research_manne_1965]
 - March, James G. 1991. "Exploration and Exploitation in Organizational Learning." *Organization Science* 2 (1): 71–87. [https://doi.org/10.1287/orsc.2.1.71][research_march_1991]
@@ -864,11 +865,13 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 - Nelson, Richard R. 1959. "The Simple Economics of Basic Scientific Research." *Journal of Political Economy* 67 (3): 297–306. [https://doi.org/10.1086/258177][research_nelson_1959]
 - "NYSE Listed Company Manual." n.d. Accessed October 25, 2026. [https://nyseguide.srorules.com/listed-company-manual][ref_nyse_listed_company_manual]
 - "Opinions: Delaware Courts." n.d. Accessed October 25, 2026. [https://courts.delaware.gov/opinions/][ref_delaware_opinions]
+- "Outer Space Treaty." 1967. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
 - Parker, Geoffrey G., and Marshall W. Van Alstyne. 2005. "Two-Sided Network Effects: A Theory of Information Product Design." *Management Science* 51 (10): 1494–1504. [https://doi.org/10.1287/mnsc.1050.0400][research_parker_vanalstyne_2005]
 - "Part 12: Acquisition of Commercial Products and Commercial Services." n.d. Accessed October 25, 2026. [https://www.acquisition.gov/far/part-12][ref_far_part_12]
 - "Part 16: Types of Contracts." n.d. Accessed October 25, 2026. [https://www.acquisition.gov/far/part-16][ref_far_part_16]
 - *Radio Regulations*. 2020. [https://www.itu.int/pub/R-REG-RR][ref_itu_radio_regulations_2020]
 - Rajan, Raghuram, Henri Servaes, and Luigi Zingales. 2000. "The Cost of Diversity: The Diversification Discount and Inefficient Investment." *Journal of Finance* 55 (1): 35–80. [https://doi.org/10.1111/0022-1082.00200][research_rajan_servaes_zingales_2000]
+- "Registration Convention." 1976. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
 - Rochet, Jean-Charles, and Jean Tirole. 2003. "Platform Competition in Two-Sided Markets." *Journal of the European Economic Association* 1 (4): 990–1029. [https://doi.org/10.1162/154247603322493212][research_rochet_tirole_2003]
 - "Rogers Commission Report." 1986. [https://history.nasa.gov/rogersrep/genindex.htm][ref_rogers_commission_1986]
 - Romer, Paul M. 1990. "Endogenous Technological Change." *Journal of Political Economy* 98 (5, Part 2): S71-S102. [https://doi.org/10.1086/261725][research_romer_1990]
@@ -896,9 +899,6 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 - Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
 - "Texas Business Organizations Code." n.d. Accessed October 25, 2026. [https://statutes.capitol.texas.gov/Docs/BO/htm/BO.21.htm][ref_texas_boc]
 - "U S Commercial Space Launch Competitiveness Act." 2015. [https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf][ref_uscsla_2015]
-- "United Nations Liability Convention." 1972. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
-- "United Nations Outer Space Treaty." 1967. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
-- "United Nations Registration Convention." 1976. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
 - "United States Bankruptcy Courts." n.d. Accessed October 25, 2026. [https://www.uscourts.gov/court-programs/bankruptcy][ref_uscourts_bankruptcy]
 - "USAspending Federal Award Data." n.d. Accessed October 25, 2026. [https://www.usaspending.gov/][ref_usaspending]
 - Weinzierl, Matthew. 2018. "Space, the Final Economic Frontier." *Journal of Economic Perspectives* 32 (2): 173–92. [https://doi.org/10.1257/jep.32.2.173][research_weinzierl_2018]
@@ -1007,7 +1007,7 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 - Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
 - Utterback, James M. 1994. *Mastering the Dynamics of Innovation: How Companies Can Seize Opportunities in the Face of Technological Change*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/4855-HBK-ENG][book_utterback_1994]
 - Van Alstyne Parker Choudary. 2016. *Platform Revolution*. [https://wwnorton.com/books/Platform-Revolution/][book_vanalstyne_parker_choudary_2016]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Vaughan, Diane. 1996. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html][book_vaughan_1996]
 - Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
 - Weick, Karl E., and Kathleen M. Sutcliffe. 2007. *Managing the Unexpected*. John Wiley & Sons, Ltd. [https://openlibrary.org/works/OL3749104W][book_weick_sutcliffe_2007]
@@ -1021,15 +1021,14 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 
 - 1956. 1956. "AT&T Consent Decree." [https://www.corp.att.com/history/nethistory/consent-decree.html][ref_att_consent_decree_1956]
 - 1984. 1984. "AT&T Divestiture Modification of Final Judgment." [https://www.corp.att.com/history/nethistory/divestiture.html][ref_att_divestiture_1984]
-- "Anthropic Long-Term Benefit Trust." n.d. Accessed October 25, 2026. [https://www.anthropic.com/news/the-long-term-benefit-trust][ref_anthropic_ltbt]
 - "Aon Space and Aviation Risk Brokerage." n.d. Accessed October 25, 2026. [https://www.aon.com/][ref_aon_space_insurance]
-- "ARES \| Orbital Debris Program Office." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/][ref_nasa_orbital_debris]
+- "ARES \| Orbital Debris Program Office." n.d.-a. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/][ref_nasa_orbital_debris]
+- "ARES \| Orbital Debris Program Office \| Debris Mitigation." n.d.-b. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
 - "ArianeGroup Press Releases." n.d. Accessed October 25, 2026. [https://www.arianegroup.com/en/news/press-releases/][ref_arianegroup_press]
 - "Arianespace." n.d. Accessed October 25, 2026. [https://www.arianespace.com/][ref_arianespace]
 - "Blue Origin Press Releases." n.d. Accessed October 25, 2026. [https://www.blueorigin.com/news/][ref_blue_origin_press]
 - "Boeing Historical Archives." n.d. Accessed October 25, 2026. [https://www.boeing.com/history/][ref_boeing_historical_archives]
 - "BryceTech Sector Reports." n.d. Accessed October 25, 2026. [https://brycetech.com/reports][ref_bryce_tech]
-- "Carl Zeiss Stiftung Statute." n.d. Accessed October 25, 2026. [https://www.carl-zeiss-stiftung.de/en/][ref_carl_zeiss_stiftung]
 - "Chinese Space Program Documentation." n.d. Accessed October 25, 2026. [https://www.cnsa.gov.cn/english/][ref_chinese_space_program]
 - "Commercial Crew Program." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/commercialcrew/][ref_nasa_ccp_documents]
 - "Commercial Resupply Missions." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/commercial-resupply/][ref_nasa_crs_program]
@@ -1041,15 +1040,15 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 - "DOD Contract Announcements." n.d. Accessed October 25, 2026. [https://www.defense.gov/News/Contracts/][ref_dod_contracts]
 - "Eutelsat Corporate Record." n.d. Accessed October 25, 2026. [https://www.eutelsat.com/][ref_eutelsat_oneweb]
 - "FCC Filings Database." n.d. Accessed October 25, 2026. [https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs][ref_fcc_filings]
-- "Ford Investor Relations." n.d. Accessed October 25, 2026. [https://shareholder.ford.com/][ref_ford_ir]
+- "Ford Motor Company: Home." n.d. Accessed October 25, 2026. [https://shareholder.ford.com/][ref_ford_ir]
 - "FTSE Russell Indices, Insights & Data." n.d. Accessed October 25, 2026. [https://www.lseg.com/en/ftse-russell][ref_ftse_russell]
 - "Glass Lewis Proxy Voting Guidelines." n.d. Accessed October 25, 2026. [https://www.glasslewis.com/][ref_glass_lewis]
 - "Homepage: Lloyd's." n.d. Accessed October 25, 2026. [https://www.lloyds.com/][ref_lloyds_market]
 - "Human Landing System." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/human-landing-system/][ref_nasa_hls_program]
 - "Institutional Shareholder Services Governance." n.d. Accessed October 25, 2026. [https://www.issgovernance.com/][ref_iss_governance]
 - "International Space Station." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/][ref_nasa_iss]
+- "The Long-Term Benefit Trust." n.d. Accessed October 25, 2026. [https://www.anthropic.com/news/the-long-term-benefit-trust][ref_anthropic_ltbt]
 - "Microsoft Source." n.d. Source. Accessed October 25, 2026. [https://news.microsoft.com/][ref_microsoft_news]
-- "NASA Orbital Debris Mitigation Standard Practices." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
 - "News \| Rocket Lab." n.d. Rocket Lab. Accessed October 25, 2026. [https://www.rocketlabusa.com/updates/][ref_rocket_lab_press]
 - "Novo Holdings." n.d. Accessed October 25, 2026. [https://www.novoholdings.dk/][ref_novo_holdings]
 - "Novo Nordisk Foundation." n.d. Accessed October 25, 2026. [https://novonordiskfonden.dk/en/][ref_novo_nordisk_foundation]
@@ -1075,6 +1074,7 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 - "SpaceX Starship Program Page." n.d. Accessed October 25, 2026. [https://www.spacex.com/vehicles/starship/][ref_spacex_starship_program]
 - "Starlink Technology." n.d. Accessed October 25, 2026. [https://www.starlink.com/technology][ref_starlink_technology]
 - "United Launch Alliance Press Releases." n.d. Accessed October 25, 2026. [https://www.ulalaunch.com/about/news][ref_ula_press]
+- "Welcome \| Carl-Zeiss-Stiftung." n.d. Carl-Zeiss-Stiftung - https://www.carl-zeiss-stiftung.de. Accessed October 25, 2026. [https://www.carl-zeiss-stiftung.de/en/][ref_carl_zeiss_stiftung]
 
 ### General Sources
 
@@ -1104,7 +1104,7 @@ Eighth, the orbital-commons and accountability concerns the critical literature 
 - "Montes Calcados: A Step Ahead: Case: Faculty & Research: Harvard Business School." n.d. Accessed October 25, 2026. [https://www.hbs.edu/faculty/Pages/item.aspx?num=54001][ref_hbs_spacex_case]
 - "NASASpaceflight Coverage." n.d. Accessed October 25, 2026. [https://www.nasaspaceflight.com/][ref_nasaspaceflight]
 - National Aeronautics, Space, Act, and of. 1958. "\[Title not identified\]." Accessed October 25, 2026. [https://history.nasa.gov/spaceact.html][ref_nasa_act_1958]
-- "National Venture Capital Association." n.d. Accessed October 25, 2026. [https://nvca.org/][ref_nvca]
+- "National Venture Capital Association." n.d. National Venture Capital Association - NVCA -. Accessed October 25, 2026. [https://nvca.org/][ref_nvca]
 - "New York Times." n.d. Accessed October 25, 2026. [https://www.nytimes.com/section/science/space][ref_nyt]
 - "Palantir Investor Materials." n.d. Accessed October 25, 2026. [https://investors.palantir.com/][ref_palantir_ir]
 - "Payload Newsletter." n.d. Accessed October 25, 2026. [https://payloadspace.com/][ref_payload]

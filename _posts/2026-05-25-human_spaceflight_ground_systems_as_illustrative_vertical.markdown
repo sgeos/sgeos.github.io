@@ -1872,11 +1872,12 @@ or vertical discovery.
 - *C2PA Coalition for Content Provenance and Authenticity*. n.d. [https://c2pa.org/][ref_c2pa]
 - "International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.pmddtc.state.gov/ddtc\_public?id=ddtc\_public\_portal\_itar\_landing][ref_itar]
 - Keyser, L. W. 1974. *Apollo Experience Report: The Role of Flight Mission Rules in Mission Preparation and Conduct*. NASA-TN-D-7822. NASA. [https://ntrs.nasa.gov/citations/19750002893][ref_apollo_flight_rules]
-- "Model Context Protocol." n.d. modelcontextprotocol.io. Accessed October 25, 2026. [https://modelcontextprotocol.io/][ref_mcp]
 - "NASA Human-Rating Requirements for Space Systems NPR 8705.2." n.d. Accessed October 25, 2026. [https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=8705&s=2C][ref_npr_8705]
 - "NASA Software Engineering Requirements NPR 7150.2." n.d. Accessed October 25, 2026. [https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal\_ID=N\_PR\_7150\_002D\_&page\_name=Preface][ref_npr_7150]
 - *NASA Software Safety Standard NASA-STD-8719.13*. n.d. [https://standards.nasa.gov/standard/NASA/NASA-STD-871913][ref_nasa_std_8719]
+- NIST, AI, Risk, et al. 2024. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=NIST+AI+Risk+2024][research_nist_ai_rmf]
 - "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma_repo]
+- "What Is the Model Context Protocol (MCP)?" n.d. Model Context Protocol. Accessed October 25, 2026. [https://modelcontextprotocol.io/][ref_mcp]
 - Woodling, C. H., S. Faber, J. J. Vanbockel, et al. 1973. *Apollo Experience Report: Simulation of Manned Space Flight for Crew Training*. NASA-TN-D-7112. NASA. [https://ntrs.nasa.gov/citations/19730011149][ref_apollo_simulators]
 
 ### Commercial Sources
@@ -1890,7 +1891,6 @@ or vertical discovery.
 
 - "Consultative Committee for Space Data Systems." n.d. Accessed October 25, 2026. [https://ccsds.org/][ref_ccsds]
 - "NASA Technical Reports Server." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/][ref_ntrs]
-- NIST, AI, Risk, et al. 2024. "\[Title not identified\]." Accessed October 25, 2026. [https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence][research_nist_ai_rmf]
 - "Slint User Interface Toolkit." n.d. Accessed October 25, 2026. [https://slint.dev/][ref_slint]
 
 ### Tertiary Sources
@@ -1957,4 +1957,4 @@ or vertical discovery.
 [ref_slint]: https://slint.dev/
 [related_post_btron_hypermedia]: {% post_url 2026-05-23-btron_hypermedia_and_real_time_desktop %}
 [related_post_keleusma_substrate]: {% post_url 2026-05-24-keleusma_as_substrate_for_real_time_hypermedia_desktop %}
-[research_nist_ai_rmf]: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+[research_nist_ai_rmf]: https://scholar.google.com/scholar?q=NIST+AI+Risk+2024

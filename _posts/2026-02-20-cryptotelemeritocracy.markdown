@@ -1619,16 +1619,16 @@ that informs telemeritocratic authority distribution.
 
 ### General Sources
 
-- "Cryptocracy." n.d. Accessed October 25, 2026. [https://en.wiktionary.org/wiki/cryptocracy][ref_cryptocracy]
+- "Cryptocracy." n.d. Wiktionary. Accessed October 25, 2026. [https://en.wiktionary.org/wiki/cryptocracy][ref_cryptocracy]
 - "Inspector General Act of." 1978. [https://www.ignet.gov/content/ig-act][ref_ig_act]
-- "Sarbanes-Oxley Whistleblower Provisions." n.d. Accessed October 25, 2026. [https://www.whistleblowers.gov/statutes/sox\_amended][ref_sox]
+- "Sarbanes-Oxley Act (SOX) \| Whistleblower Protection Program." n.d. Accessed October 25, 2026. [https://www.whistleblowers.gov/statutes/sox\_amended][ref_sox]
 
 ### Tertiary Sources
 
 - "Compartmentalization (Information Security)." 2025. Wikipedia. Last modified November 15, at 15:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Compartmentalization\_(information\_security)&oldid=1322311833][ref_compartmentalization]
 - "Council of Ten." 2025. Wikipedia. Last modified December 24, at 22:47 (UTC). [https://en.wikipedia.org/w/index.php?title=Council\_of\_Ten&oldid=1329273252][ref_council_ten]
 - "Counterintelligence." 2025. Wikipedia. Last modified December 28, at 15:40 (UTC). [https://en.wikipedia.org/w/index.php?title=Counterintelligence&oldid=1329910865][ref_counterintelligence]
-- "Devil's Advocate." n.d. Accessed October 25, 2026. [https://www.britannica.com/topic/devils-advocate][ref_devils_advocate]
+- "Devil’s Advocate \| Definition, Meaning, Catholicism, Role, & Facts." n.d. Encyclopedia Britannica. Accessed October 25, 2026. [https://www.britannica.com/topic/devils-advocate][ref_devils_advocate]
 - "Ostracism." 2026. Wikipedia. Last modified January 17, at 16:36 (UTC). [https://en.wikipedia.org/w/index.php?title=Ostracism&oldid=1333410669][ref_ostracism]
 - "Philip Selznick." 2026. Wikipedia. Last modified January 17, at 21:00 (UTC). [https://en.wikipedia.org/w/index.php?title=Philip\_Selznick&oldid=1333446475][book_tva]
 - "Political Parties." 2025. Wikipedia. Last modified December 21, at 02:26 (UTC). [https://en.wikipedia.org/w/index.php?title=Political\_Parties&oldid=1328654484][book_political_parties]

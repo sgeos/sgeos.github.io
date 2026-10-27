@@ -916,9 +916,9 @@ on which all other measurements depend.
 ### Commercial Sources
 
 - "ESA Space Science." n.d. Accessed October 25, 2026. [https://www.esa.int/Science\_Exploration/Space\_Science][reference_esa]
-- "NASA Moons." n.d. Accessed October 25, 2026. [https://science.nasa.gov/solar-system/moons/][reference_nasa_moons]
-- "NASA Solar System Exploration." n.d. Accessed October 25, 2026. [https://science.nasa.gov/solar-system/][reference_nasa_solar_system]
-- "NASA Sun Overview." n.d. Accessed October 25, 2026. [https://science.nasa.gov/sun/][reference_nasa_sun]
+- "Moons." 2023. NASA Science, May 31. [https://science.nasa.gov/solar-system/moons/][reference_nasa_moons]
+- "Solar System Exploration." 2023. NASA Science, June 8. [https://science.nasa.gov/solar-system/][reference_nasa_solar_system]
+- "Sun: NASA Science." 2023. NASA Science, May 31. [https://science.nasa.gov/sun/][reference_nasa_sun]
 
 ### General Sources
 

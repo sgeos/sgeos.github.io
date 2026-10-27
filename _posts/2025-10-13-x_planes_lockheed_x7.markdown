@@ -8191,7 +8191,7 @@ The next article takes the [Aerojet X-8][ref_list_of_x_planes], the Aerobee soun
 
 ### Commercial Sources
 
-- "NASA Armstrong Flight Research Center." n.d. Accessed October 24, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
+- "Armstrong Flight Research Center." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 
 ### General Sources
 

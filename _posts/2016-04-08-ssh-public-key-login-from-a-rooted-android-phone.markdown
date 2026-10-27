@@ -301,10 +301,10 @@ echo "Done."
 - "Mac Osx: How to Start/stop/restart Launchd Services from the Command Line?" n.d. Accessed October 25, 2026. [http://serverfault.com/questions/194832/how-to-start-stop-restart-launchd-services-from-the-command-line][ssh_osx_restart]
 - "Make a Passwordless SSH Connection between OSX 10.10 Yosemite and Linux." 2014. *Coolestguidesontheplanet.com \| Neil Gee*, October 27. [https://coolestguidesontheplanet.com/make-passwordless-ssh-connection-osx-10-9-mavericks-linux/][ssh_key_connection]
 - "Mksh: Can I Update the Adb Shell's Environment Variables?" n.d. Accessed October 25, 2026. [http://android.stackexchange.com/questions/53389/can-i-update-the-adb-shells-environment-variables][android_mkshrc]
+- "Newline: Bash: Strip Trailing Linebreak from Output." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/12524308/bash-strip-trailing-linebreak-from-output][unix_newline]
 - "Sshd: How Do I Force SSH to Only Allow Uses with a Key to Log In?" n.d. Accessed October 25, 2026. [http://askubuntu.com/questions/346857/how-do-i-force-ssh-to-only-allow-uses-with-a-key-to-log-in][ssh_force_key]
 - "A Terminal Command for a Rooted Android to Remount /System as Read/write." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/5467881/a-terminal-command-for-a-rooted-android-to-remount-system-as-read-write][android_remount]
 - "Terminal: Disable Password Authentication on SSH Server on OS X Server 10.8: Ask Different." n.d. Accessed October 25, 2026. [http://apple.stackexchange.com/questions/84523/disable-password-authentication-on-ssh-server-on-os-x-server-10-8][ssh_osx_disable]
-- "UNIX, Bash: Strip trailing linebreak from output." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/12524308/bash-strip-trailing-linebreak-from-output][unix_newline]
 - "UNIX, Find and Replace Inside a Text File from a ash Command." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/16974797/find-and-replace-inside-a-text-file-from-a-ash-command][unix_replace]
 - "UNIX, Linux Delete Symbolic Link ( Softlink )." n.d. Accessed October 25, 2026. [http://www.cyberciti.biz/faq/linux-remove-delete-symbolic-softlink-command/][unix_unlink]
 

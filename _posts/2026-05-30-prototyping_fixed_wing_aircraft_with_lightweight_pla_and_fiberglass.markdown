@@ -670,21 +670,21 @@ applied in proportion to how much each one cares about weight.
 
 ### General Sources
 
-- "Best Foam for RC Airplane Building." n.d. Accessed October 25, 2026. [https://rcplanediy.com/2026/02/22/best-foam-rc-airplane-building/][ref_foam_rc]
-- "Composite Materials in Unmanned Aerial Vehicles." n.d. Accessed October 25, 2026. [https://www.azom.com/article.aspx?ArticleID=12234][ref_uav_composites]
+- "3D Printed Flying Wing." n.d. eclipson. Accessed October 25, 2026. [https://www.eclipson-airplanes.com/ebw-160-rc][project_eclipson_ebw]
+- "3D Printing Carbon Fiber and Other Composites." n.d. Markforged. Accessed October 25, 2026. [https://markforged.com/resources/learn/design-for-additive-manufacturing-plastics-composites/understanding-3d-printing-strength/3d-printing-carbon-fiber-and-other-composites][material_markforged]
+- "Best Foam for RC Airplane Building: EPP, Depron, XPS & Foamboard (2025)." 2026. *RC Plane DIY*, February 22. [https://rcplanediy.com/2026/02/22/best-foam-rc-airplane-building/][ref_foam_rc]
+- "A Guide to 3D Printing Model Aircraft Wings." 2022. *Hackaday*, August 26. [https://hackaday.com/2022/08/26/a-guide-to-3d-printing-model-aircraft-wings/][project_hackaday_wings]
+- "How to Vacuum Bag a Wing Instructions: CST the Composites Store, Inc.Vacuum Bag a Wing." n.d. Accessed October 25, 2026. [https://www.cstsales.com/vac\_wing.html][ref_vacuum_bag]
 - "Material, CNC Kitchen, Testing Foaming LW-PLA." n.d. Accessed October 25, 2026. [https://www.cnckitchen.com/blog/colorfabb-lw-pla-testing-foaming-pla][material_cnckitchen]
-- "Material, Markforged, 3D Printing Carbon Fiber and Other Composites." n.d. Accessed October 25, 2026. [https://markforged.com/resources/learn/design-for-additive-manufacturing-plastics-composites/understanding-3d-printing-strength/3d-printing-carbon-fiber-and-other-composites][material_markforged]
 - "Materials for 3D Printing Planes." n.d. *3DLabPrint*. Accessed October 25, 2026. [https://3dlabprint.com/faq/materials-for-3d-printing-planes/][material_3dlabprint]
 - "PLA Temperature Resistance." n.d. Accessed October 25, 2026. [https://www.wevolver.com/article/pla-temperature-resistance][ref_pla_temp]
-- "Preventing Overexposure to Epoxy." n.d. Accessed October 25, 2026. [https://www.westsystem.com/safety/preventing-overexposure/][ref_epoxy_safety]
-- "Project, Eclipson, EBW-160 Printed Flying Wing." n.d. Accessed October 25, 2026. [https://www.eclipson-airplanes.com/ebw-160-rc][project_eclipson_ebw]
+- "Preventing Overexposure." n.d. Accessed October 25, 2026. [https://www.westsystem.com/safety/preventing-overexposure/][ref_epoxy_safety]
 - "Project, Flite Test." n.d. Accessed October 25, 2026. [https://www.flitetest.com/][project_flitetest]
 - "Project, FliteTest, Fiberglass over 3D Printed Foam." n.d. Accessed October 25, 2026. [https://forum.flitetest.com/index.php?threads/revenant-mk-iv-fiberglass-over-3d-printed-foam.61913/][project_flitetest_glass]
-- "Project, Hackaday, A Guide to 3D Printing Model Aircraft Wings." n.d. Accessed October 25, 2026. [https://hackaday.com/2022/08/26/a-guide-to-3d-printing-model-aircraft-wings/][project_hackaday_wings]
 - "RC Airplane Covering Film." n.d. Accessed October 25, 2026. [https://rcplanediy.com/2026/03/09/rc-airplane-covering-film/][ref_covering_film]
 - "Repairing Composite Surfaces." n.d. Accessed October 25, 2026. [https://www.eaa.org/eaa/aircraft-building/builderresources/while-youre-building/building-articles/composite/repairing-composite-surfaces][ref_composite_repair]
 - "Turbulators." n.d. Accessed October 25, 2026. [https://www.mh-aerotools.de/airfoils/turbulat.htm][ref_turbulators]
-- "Vacuum Bagging a Composite Wing." n.d. Accessed October 25, 2026. [https://www.cstsales.com/vac\_wing.html][ref_vacuum_bag]
+- "The Use of Composite Materials in Unmanned Aerial Vehicles (UAVs)." 2015. *AZoM*, July 20. [https://www.azom.com/article.aspx?ArticleID=12234][ref_uav_composites]
 - "Wing Cube Loading." n.d. Accessed October 25, 2026. [https://www.sefsd.org/general-interest/wing-cube-loading-wcl/][ref_wcl]
 
 ### Tertiary Sources

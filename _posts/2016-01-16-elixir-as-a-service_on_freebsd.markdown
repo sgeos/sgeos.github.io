@@ -438,7 +438,7 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - "Sh Scripting Cheat Sheet • JoeDog." n.d. *JoeDog*. Accessed October 25, 2026. [https://www.joedog.org/articles-cheat-sheet/][sh_cheat_sheet]
 - "Shell: Configurable Rc.d Script Template?" n.d. The FreeBSD Forums. Accessed October 25, 2026. [https://forums.freebsd.org/threads/configurable-rc-d-script-template.53308/][freebsd_rc_template]
 - "String Contains in Bash." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/229551/string-contains-in-bash/229585\#229585][unix_shell_contains]
-- "UNIX, How can I make chown work recursively?" n.d. Accessed October 25, 2026. [http://superuser.com/questions/260925/how-can-i-make-chown-work-recursively][unix_chown]
+- "Unix: How Can I Make Chown Work Recursively?" n.d. Accessed October 25, 2026. [http://superuser.com/questions/260925/how-can-i-make-chown-work-recursively][unix_chown]
 - "Using Case Statements." n.d. Accessed October 25, 2026. [http://tldp.org/LDP/Bash-Beginners-Guide/html/sect\_07\_03.html][unix_shell_case]
 
 [bash_arg]: http://stackoverflow.com/questions/1537673/how-do-i-forward-parameters-to-other-command-in-bash-script

@@ -286,8 +286,8 @@ Any user can use find out if **iondtn** is running with `service iondtn status`.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "FreeBSD, Directory Structure." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/dirstructure.html][freebsd_dir]
-- "FreeBSD, Giving more flexibility to an rc.d script." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/en/articles/rc-scripting/rcng-args.html][freebsd_rc]
+- "3.5. Directory Structure." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/dirstructure.html][freebsd_dir]
+- "8. Giving More Flexibility to an Rc.d Script." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/en/articles/rc-scripting/rcng-args.html][freebsd_rc]
 - "Run Control Scripts (System Administration Guide, Volume 1)." n.d. docs.oracle.com. Accessed October 25, 2026. [https://docs.oracle.com/cd/E19455-01/805-7228/6j6q7uepi/index.html][unix_rc]
 
 ### Secondary Sources

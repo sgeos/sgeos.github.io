@@ -503,7 +503,7 @@ Several topics have generated distinct emerging scholarly literatures relevant t
 
 The SpaceX trajectory operates within a regulatory and legal framework that constrains and enables the firm's activities. The framework is treated here at framing level and revisited in the-mechanic articles where the constraints become load-bearing.
 
-The [51 U.S.C. Chapter 509 1984][ref_csla_1984] codified at 51 U.S.C. Chapter 509 established the Federal Aviation Administration's authority to license commercial launches from United States soil and to regulate the safety of commercial launch activities. The Act was amended by the [Commercial Space Launch Amendments 2004][ref_csla_amendments_2004] that extended the licensing regime to human spaceflight participants under an informed-consent framework, by the [U S Commercial Space 2015][ref_uscsla_2015] that established the resource-utilization rights framework for celestial resources, and by subsequent authorizations that maintained the FAA's licensing authority. The [FAA AST][ref_faa_ast] licensing record and the [FAA AST current licenses database][ref_faa_ast] document the SpaceX launch licenses across the trajectory. The corresponding regulatory implementation appears in [14 CFR Part 450][ref_faa_ast_licensing_regs_450] for launch and reentry licensing and in the broader [14 CFR Chapter III][ref_faa_ast_regulations] for FAA commercial space regulations.
+The [51 U.S. Code Subtitle 1984][ref_csla_1984] codified at 51 U.S.C. Chapter 509 established the Federal Aviation Administration's authority to license commercial launches from United States soil and to regulate the safety of commercial launch activities. The Act was amended by the [Commercial Space Launch Amendments 2004][ref_csla_amendments_2004] that extended the licensing regime to human spaceflight participants under an informed-consent framework, by the [U S Commercial Space 2015][ref_uscsla_2015] that established the resource-utilization rights framework for celestial resources, and by subsequent authorizations that maintained the FAA's licensing authority. The [FAA AST][ref_faa_ast] licensing record and the [FAA AST current licenses database][ref_faa_ast] document the SpaceX launch licenses across the trajectory. The corresponding regulatory implementation appears in [14 CFR Part 450][ref_faa_ast_licensing_regs_450] for launch and reentry licensing and in the broader [14 CFR Chapter III][ref_faa_ast_regulations] for FAA commercial space regulations.
 
 The [National Aeronautics et al. 1958][ref_nasa_act_1958] established NASA's authority to conduct space activities and included the Space Act Agreement authority under which the Commercial Orbital Transportation Services program was structured. The Space Act Agreement authority codified at [51 U.S.C. 51302][ref_51_usc_51302_saa] permits NASA to enter into agreements outside the Federal Acquisition Regulation framework, which permitted the fixed-price milestone-payment structure the COTS program adopted. The [NASA Space Act Agreements guide][ref_nasa_saa_guide] documents the authority. The complementary Other Transaction Authority for the Department of Defense codified at [10 U.S.C. 2371b][ref_10_usc_2371b] permits comparable non-FAR procurement mechanisms for defense agencies.
 
@@ -726,12 +726,12 @@ for each alternative case $j$, with the unclosed conditions identifying the mech
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "10 United States Code 2371b Other Transaction Authority." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
+- "10 U.S. Code § 2371b: Renumbered § 4022\]." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
 - "14 CFR Chapter III FAA Commercial Space Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III][ref_faa_ast_regulations]
 - "14 CFR Part 450 -- Launch and Reentry License Requirements." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450][ref_faa_ast_licensing_regs_450]
 - "22 CFR Chapter I Subchapter M -- International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M][ref_itar_22_cfr_120_130]
+- "51 U.S. Code Subtitle V Chapter 509: Commercial Space Launch Activities." 1984. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - "51 U.S. Code § 51302: Commercial Exploration and Commercial Recovery." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/51302][ref_51_usc_51302_saa]
-- "51 U.S.C. Chapter 509 Commercial Space Launch Act." 1984. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - Adner, Ron, and Daniel A. Levinthal. 2004. "What Is Not a Real Option: Considering Boundaries for the Application of Real Options to Business Strategy." *Academy of Management Review* 29 (1): 74. [https://doi.org/10.5465/amr.2004.11851715][research_adner_levinthal_2004]
 - Aghion, Philippe, and Peter Howitt. 1992. "A Model of Growth through Creative Destruction." *Econometrica* 60 (2): 323. [https://doi.org/10.2307/2951599][research_aghion_howitt_1992]
 - Argote, Linda, and Dennis Epple. 1990. "Learning Curves in Manufacturing." *Science* 247 (4945): 920–24. [https://doi.org/10.1126/science.247.4945.920][research_argote_epple_1990]
@@ -908,7 +908,7 @@ for each alternative case $j$, with the unclosed conditions identifying the mech
 - Steensgaard, Niels. 1974. *Asian Trade Revolution of the Seventeenth Century*. University of Chicago Press. [https://openlibrary.org/works/OL7009029W][book_steensgaard_1974]
 - Thiel, Peter A. 2014. *Zero to One: Notes on Startups, or How to Build the Future*. Penguin Random House USA Ex. [https://www.penguinrandomhouse.com/books/226845/zero-to-one-by-peter-thiel-with-blake-masters/][book_thiel_2014]
 - Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Vaughan, Diane. 1996. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html][book_vaughan_1996]
 - Vertesi, Janet. 2015. *Seeing like a Rover*. University of Chicago Press. [https://openlibrary.org/works/OL20016535W][book_vertesi_2015]
 - Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
@@ -923,13 +923,13 @@ for each alternative case $j$, with the unclosed conditions identifying the mech
 
 ### Commercial Sources
 
+- "ARES \| Orbital Debris Program Office \| Debris Mitigation." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
 - "Commercial Crew Program." 2014. NASA. Accessed October 25, 2026. [https://www.nasa.gov/commercialcrew][ref_nasa_ccp_2014]
 - "Commercial Resupply Missions." 2008. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/commercial-resupply/][ref_nasa_crs1_press_2008]
 - "DOD Contract Announcements." n.d. Accessed October 25, 2026. [https://www.defense.gov/News/Contracts/][ref_dod_contracts]
 - "FCC Filings Database." n.d. Accessed October 25, 2026. [https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs][ref_fcc_filings]
 - "Heilmeier Catechism." 1975. [https://www.darpa.mil/about-us/heilmeier-catechism][ref_heilmeier_catechism]
 - "Moon to Mars." 2023. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/artemis/][ref_nasa_hls_sustaining_2023]
-- "NASA Orbital Debris Mitigation Standard Practices." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
 - "News Release." 2014. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/][ref_nasa_cctcap_press_2014]
 - "News U.S. Air Force Logo." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/][ref_space_force_news]
 - "Space Force National Security Space Launch." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/Fact-Sheets][ref_space_force_nssl]

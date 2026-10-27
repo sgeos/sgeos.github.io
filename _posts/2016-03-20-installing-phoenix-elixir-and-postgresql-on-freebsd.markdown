@@ -227,17 +227,17 @@ curl -H 'Content-Type: application/json' -X DELETE http://localhost:4000/api/mem
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "FreeBSD, Installing FreeBSD." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/bsdinstall.html][freebsd_install]
+- "Chapter 2. Installing FreeBSD." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/bsdinstall.html][freebsd_install]
 - "Phoenix, Deployment." n.d. www.phoenixframework.org. Accessed October 25, 2026. [http://www.phoenixframework.org/docs/deployment][phoenix_deployment]
 
 ### General Sources
 
 - Baird, Jeffrey. n.d. "Building a JSON API with Phoenix." Accessed October 25, 2026. [http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/][phoenix_json]
 - Barnett, Bruce. n.d. "Bourne Shell Tutorial." Accessed October 25, 2026. [http://www.grymoire.com/Unix/Sh.html][sh_tutorial]
+- "Building a Versioned REST API with Phoenix Framework." 2015. *Renato Moya*, May 9. [https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html][phoenix_versioned_rest]
 - "Installation and Configuration." n.d. Accessed October 25, 2026. [http://www.freebsddiary.org/postgresql.php][postgresql_install3]
 - "Installing and Using Postgresql on FreeBSD." 2010. *Rhyous*, August 28. [http://www.rhyous.com/2010/08/27/installing-and-using-postgresql-on-freebsd/][postgresql_install2]
-- "Phoenix, Building a versioned REST API with Phoenix Framework." n.d. Accessed October 25, 2026. [https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html][phoenix_versioned_rest]
-- "PostgreSQL, Installing PostgreSQL on FreeBSD." n.d. Accessed October 25, 2026. [https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/][postgresql_install]
+- "Installing PostgreSQL on FreeBSD." 2010. *JasonK's Blog*, January 11. [https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/][postgresql_install]
 
 ### Related Posts
 

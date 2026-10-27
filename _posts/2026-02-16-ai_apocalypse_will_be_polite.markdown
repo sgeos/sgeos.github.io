@@ -400,7 +400,7 @@ have to raise its voice.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- *Automation Bias: A Systematic Review*. n.d. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/][reference_automation_bias]
+- Goddard, Kate, Abdul Roudsari, and Jeremy C. Wyatt. 2011. "Automation Bias: A Systematic Review of Frequency, Effect Mediators, and Mitigators." *Journal of the American Medical Informatics Association: JAMIA* 19: 121. [https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/][reference_automation_bias]
 - *Human Compatible: Artificial Intelligence and the Problem of Control*. n.d. [https://people.eecs.berkeley.edu/~russell/papers/mi19book-hcai.pdf][reference_russell]
 - Jarrahi, Mohammad Hossein, Gemma Newlands, Min Kyung Lee, Christine T. Wolf, Eliscia Kinder, and Will Sutherland. 2021. "Algorithmic Management in a Work Context." *Big Data & Society* 8 (2): 20539517211020332. [https://doi.org/10.1177/20539517211020332][reference_algorithmic_management]
 - *On the Conversational Persuasiveness of Large Language Models*. n.d. [https://www.nature.com/articles/s41562-025-02194-6][reference_persuasion]

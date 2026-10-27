@@ -586,7 +586,7 @@ This post is based on the
 - "ARM Cortext-M7 Processor Technical Reference Manual." n.d. Accessed October 25, 2026. [https://developer.arm.com/documentation/ddi0489/f/introduction/about-the-cortex-m7-processor/features][arm_cortex_m7]
 - "ARMv8 A64 Quick Reference." n.d. Accessed October 25, 2026. [https://courses.cs.washington.edu/courses/cse469/19wi/arm64.pdf][arm_armv8_card]
 - "Playdate Developer Forum." n.d. Accessed October 25, 2026. [https://devforum.play.date/][playdate_dev_forum]
-- "X86 and AMD64 Instruction Reference." n.d. Accessed October 25, 2026. [https://www.felixcloutier.com/x86/][x86_reference]
+- "x86 and amd64 Instruction Reference." n.d. Accessed October 25, 2026. [https://www.felixcloutier.com/x86/][x86_reference]
 
 [arm_armv8_card]: https://courses.cs.washington.edu/courses/cse469/19wi/arm64.pdf
 [arm_cortex_m7]: https://developer.arm.com/documentation/ddi0489/f/introduction/about-the-cortex-m7-processor/features

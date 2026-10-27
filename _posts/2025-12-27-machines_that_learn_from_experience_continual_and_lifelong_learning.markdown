@@ -624,6 +624,7 @@ Article fourteen returns to the NeuroAI bridge and treats the continual learning
 - van de Ven, Gido M., and Andreas S. Tolias. 2019. "Three Scenarios for Continual Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1904.07734][research_van_de_ven_tolias_2019]
 - von Oswald, Johannes, Christian Henning, Benjamin F. Grewe, and João Sacramento. 2020. "Continual Learning with Hypernetworks." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=SJgwNerKvB][research_von_oswald_et_al_2020_hnet]
 - Wang, Zifeng, Zizhao Zhang, Sayna Ebrahimi, et al. 2022a. "DualPrompt: Complementary Prompting for Rehearsal-Free Continual Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2204.04799][research_wang_et_al_2022_dualprompt]
+- Wortsman, Mitchell, Vivek Ramanujan, Rosanne Liu, et al. 2020. "Supermasks in Superposition." *Advances in Neural Information Processing Systems* 33: 15173–84. [https://papers.nips.cc/paper/2020/hash/ad1f8bb9b51f023cdc80cf94bb615aa9-Abstract.html][research_wortsman_et_al_2020_supsup]
 - Wołczyk, Kurcyusz, Zajac, Bortkiewicz, Pascanu, and Miłos. 2022. *Finetuning*. [https://scholar.google.com/scholar?q=Finetuning+Wo%C5%82czyk+Kurcyusz+Zajac+2022][research_wolczyk_et_al_2022_finetuning]
 - Yan, Chen, Ji, Yin, and Chen. 2022. *Cross-Modal*. [https://scholar.google.com/scholar?q=Cross-Modal+Yan+Chen+Ji+2022][research_yan_et_al_2022_cross_modal]
 - Yan, Shipeng, Jiangwei Xie, and Xuming He. 2021. "DER: Dynamically Expandable Representation for Class Incremental Learning." In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*. [https://openaccess.thecvf.com/content/CVPR2021/html/Yan\_DER\_Dynamically\_Expandable\_Representation\_for\_Class\_Incremental\_Learning\_CVPR\_2021\_paper.html][research_yan_xie_he_2021_der]
@@ -638,7 +639,7 @@ Article fourteen returns to the NeuroAI bridge and treats the continual learning
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -677,7 +678,6 @@ Article fourteen returns to the NeuroAI bridge and treats the continual learning
 - Titsias. 2020. "FRCL." [https://openreview.net/forum?id=SkxCzeHFDB][research_titsias_et_al_2020_frcl]
 - Veniat Denoyer Ranzato. 2021. "MNTDP." [https://openreview.net/forum?id=EKV158tSfwv][research_veniat_denoyer_ranzato_2021_mntdp]
 - Wang, Zhang, Ebrahimi, et al. 2022b. "L2P." [https://openaccess.thecvf.com/content/CVPR2022/html/Wang\_Learning\_To\_Prompt\_for\_Continual\_Learning\_CVPR\_2022\_paper.html][research_wang_et_al_2022_l2p]
-- Wortsman, Ramanujan, Raghu, et al. 2020. "Supermasks." [https://papers.nips.cc/paper/2020/hash/ad1f8bb9b51f023cdc80cf94bb615aa9-Abstract.html][research_wortsman_et_al_2020_supsup]
 - Wołczyk Zajac Pascanu Miłos. 2021. "Continual World." [https://papers.nips.cc/paper/2021/hash/e6c58bcdca67f0d0f00a2c1f8b21e34c-Abstract.html][research_wolczyk_et_al_2021_continual_world]
 - Wu Chen Wang Ye Liu Guo Fu. 2019. "BiC." [https://openaccess.thecvf.com/content\_CVPR\_2019/html/Wu\_Large\_Scale\_Incremental\_Learning\_CVPR\_2019\_paper.html][research_wu_et_al_2019_bic]
 - Yoon, Jeong, Kim, Nang, and Hwang. 2021. "FedWeIT." [https://proceedings.mlr.press/v139/yoon21b.html][research_yoon_et_al_2021_fedweit]

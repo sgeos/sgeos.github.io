@@ -500,20 +500,20 @@ It will simply comply.
 
 - Karwowski, Jacek, Oliver Hayman, Xingjian Bai, Klaus Kiendlhofer, Charlie Griffin, and Joar Skalse. 2023. "Goodhart's Law in Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2310.09144][reference_goodhart]
 - "Mad Libs Are All You Need." n.d. Preprint, . [https://arxiv.org/abs/2403.03304][reference_mad_libs]
-- *Reward Hacking in Reinforcement Learning*. n.d. [https://lilianweng.github.io/posts/2024-11-28-reward-hacking/][reference_reward_hacking]
 - Shapira, Itai, Gerdus Benade, and Ariel D. Procaccia. 2026. "How RLHF Amplifies Sycophancy." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2602.01002][reference_rlhf_sycophancy]
 - Sharma, Mrinank, Meg Tong, Tomasz Korbak, et al. 2023. "Towards Understanding Sycophancy in Language Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2310.13548][reference_sycophancy]
-- *Specification Gaming: The Flip Side of AI Ingenuity*. n.d. [https://www.alignmentforum.org/posts/7b2RJJQ76hjZwarnj/specification-gaming-the-flip-side-of-ai-ingenuity][reference_specification_gaming]
 - Wallace, Eric, Kai Xiao, Reimar Leike, Lilian Weng, Johannes Heidecke, and Alex Beutel. 2024. "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2404.13208][reference_instruction_hierarchy]
 
 ### Commercial Sources
 
-- "Anthropic Claude Constitution." n.d. Accessed October 25, 2026. [https://www.anthropic.com/constitution][reference_constitution]
+- "Claude's Constitution." n.d. Accessed October 25, 2026. [https://www.anthropic.com/constitution][reference_constitution]
 
 ### General Sources
 
 - "Holistic Evaluation of Language Models (HELM)." n.d. Accessed October 25, 2026. [https://crfm.stanford.edu/helm/][reference_helm]
+- Mikulik, Vlad, Matthew Rahtz, and Zac Kenton. n.d. "Specification Gaming: The Flip Side of AI Ingenuity." Accessed October 25, 2026. [https://www.alignmentforum.org/posts/7b2RJJQ76hjZwarnj/specification-gaming-the-flip-side-of-ai-ingenuity][reference_specification_gaming]
 - "OWASP Top 10 for LLM Applications: Prompt Injection." n.d. Accessed October 25, 2026. [https://genai.owasp.org/llmrisk/llm01-prompt-injection/][reference_owasp]
+- Weng, Lilian. 2024. "Reward Hacking in Reinforcement Learning.", November 28. [https://lilianweng.github.io/posts/2024-11-28-reward-hacking/][reference_reward_hacking]
 
 [reference_constitution]: https://www.anthropic.com/constitution
 [reference_goodhart]: https://doi.org/10.48550/arxiv.2310.09144

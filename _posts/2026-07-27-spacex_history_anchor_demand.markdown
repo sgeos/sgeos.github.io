@@ -459,7 +459,7 @@ The contract-design empirical literature that treats the milestone-payment fixed
 
 ### Space Legal Literature
 
-The space-legal literature that treats the regulatory and international-treaty framework within which the anchor-demand configuration operates includes the [Journal of Space Law][ref_journal_space_law], the [Space Legislation Review][ref_space_legislation_review], and the commentary on the [U S Commercial Space 2015][ref_uscsla_2015] that established the celestial-resource-rights framework relevant to the HLS mission architecture. The outer-space-treaty context appears in the [United Nations Outer Space 1967][ref_un_outer_space_treaty_1967] and the [United Nations Liability Convention 1972][ref_un_liability_convention_1972] and [United Nations Registration Convention 1976][ref_un_registration_convention_1976] treaties that govern the launch-state-registration and international-liability framework.
+The space-legal literature that treats the regulatory and international-treaty framework within which the anchor-demand configuration operates includes the [Journal of Space Law][ref_journal_space_law], the [Space Legislation Review][ref_space_legislation_review], and the commentary on the [U S Commercial Space 2015][ref_uscsla_2015] that established the celestial-resource-rights framework relevant to the HLS mission architecture. The outer-space-treaty context appears in the [Outer Space Treaty 1967][ref_un_outer_space_treaty_1967] and the [Liability Convention 1972][ref_un_liability_convention_1972] and [Registration Convention 1976][ref_un_registration_convention_1976] treaties that govern the launch-state-registration and international-liability framework.
 
 ### Comparative-Firm Literature
 
@@ -471,7 +471,7 @@ Several topics have generated distinct emerging scholarly literatures relevant t
 
 ### Public Policy and Space-Governance Literature
 
-The public-policy and space-governance literature that treats the NASA-SpaceX and Space Force-SpaceX institutional configurations includes the [Space Policy Online][ref_space_policy_online] policy-analysis coverage, the [Journal of Space Law][ref_journal_space_law] scholarly treatment, and the [Public Administration Review][ref_public_admin_review] treatment of the COTS procurement-mechanism innovation. The international-treaty context that governs the launch-state-registration and international-liability framework appears in the [United Nations Outer Space 1967][ref_un_outer_space_treaty_1967], the [United Nations Liability Convention 1972][ref_un_liability_convention_1972], and the [United Nations Registration Convention 1976][ref_un_registration_convention_1976].
+The public-policy and space-governance literature that treats the NASA-SpaceX and Space Force-SpaceX institutional configurations includes the [Space Policy Online][ref_space_policy_online] policy-analysis coverage, the [Journal of Space Law][ref_journal_space_law] scholarly treatment, and the [Public Administration Review][ref_public_admin_review] treatment of the COTS procurement-mechanism innovation. The international-treaty context that governs the launch-state-registration and international-liability framework appears in the [Outer Space Treaty 1967][ref_un_outer_space_treaty_1967], the [Liability Convention 1972][ref_un_liability_convention_1972], and the [Registration Convention 1976][ref_un_registration_convention_1976].
 
 ### Trade Press and Journalistic Record
 
@@ -671,6 +671,7 @@ The competitive-response timeline under which the alternative launch providers w
 - Klein, Benjamin, Robert G. Crawford, and Armen A. Alchian. 1978. "Vertical Integration, Appropriable Rents, and the Competitive Contracting Process." *Journal of Law and Economics* 21 (2): 297–326. [https://doi.org/10.1086/466922][research_klein_crawford_alchian_1978]
 - Lane, Peter J., Balaji R. Koka, and Seemantini Pathak. 2006. "The Reification of Absorptive Capacity: A Critical Review and Rejuvenation of the Construct." *Academy of Management Review* 31 (4): 833–63. [https://doi.org/10.5465/amr.2006.22527456][research_lane_koka_pathak_2006]
 - Levin, Jonathan, and Steven Tadelis. 2010. "Contracting for Government Services: Theory and Evidence from U.s. Cities." *Journal of Industrial Economics* 58 (3): 507–41. [https://doi.org/10.1111/j.1467-6451.2010.00430.x][research_levin_tadelis_2010]
+- "Liability Convention." 1972. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
 - Myerson, Roger B. 1981. "Optimal Auction Design." *Mathematics of Operations Research* 6 (1): 58–73. [https://doi.org/10.1287/moor.6.1.58][research_myerson_1981]
 - NASA COTS. 2011. *\[Title not identified\]*. [https://ntrs.nasa.gov/citations/20120000953][ref_nasa_cots_2011]
 - "NASA FAR Supplement." n.d. Accessed October 25, 2026. [https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf][ref_nasa_far_supplement]
@@ -683,15 +684,14 @@ The competitive-response timeline under which the alternative launch providers w
 - *NASA Technical Standards System*. n.d. [https://standards.nasa.gov/][ref_nasa_std_8709_22]
 - Nash, John F. 1950. "The Bargaining Problem." *Econometrica* 18 (2): 155. [https://doi.org/10.2307/1907266][research_nash_1950]
 - Nelson, Richard R. 1959. "The Simple Economics of Basic Scientific Research." *Journal of Political Economy* 67 (3): 297–306. [https://doi.org/10.1086/258177][research_nelson_1959]
+- "Outer Space Treaty." 1967. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
 - *Radio Regulations*. 2020. [https://www.itu.int/pub/R-REG-RR][ref_itu_radio_regulations_2020]
+- "Registration Convention." 1976. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
 - Rubinstein, Ariel. 1982. "Perfect Equilibrium in a Bargaining Model." *Econometrica* 50 (1): 97. [https://doi.org/10.2307/1912531][research_rubinstein_1982]
 - Sage, Andrew P., and Christopher D. Cuppan. 2001. "On the Systems Engineering and Management of Systems of Systems and Federations of Systems." *Information Knowledge Systems Management* 2 (4): 325–45. [https://doi.org/10.3233/iks-2001-00045][research_sage_cuppan_2001]
 - Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
 - Todorova, Gergana, and Boris Durisin. 2007. "Absorptive Capacity: Valuing a Reconceptualization." *Academy of Management Review* 32 (3): 774–86. [https://doi.org/10.5465/amr.2007.25275513][research_todorova_durisin_2007]
 - "U S Commercial Space Launch Competitiveness Act." 2015. [https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf][ref_uscsla_2015]
-- "United Nations Liability Convention." 1972. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
-- "United Nations Outer Space Treaty." 1967. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
-- "United Nations Registration Convention." 1976. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
 - Weinzierl, Matthew. 2018. "Space, the Final Economic Frontier." *Journal of Economic Perspectives* 32 (2): 173–92. [https://doi.org/10.1257/jep.32.2.173][research_weinzierl_2018]
 - Williamson, Oliver E. 2002. "The Theory of the Firm as Governance Structure: From Choice to Contract." *Journal of Economic Perspectives* 16 (3): 171–95. [https://doi.org/10.1257/089533002760278776][research_williamson_2002]
 - Zahra, Shaker A., and Gerard George. 2002. "Absorptive Capacity: A Review, Reconceptualization, and Extension." *Academy of Management Review* 27 (2): 185. [https://doi.org/10.5465/amr.2002.6587995][research_zahra_george_2002]
@@ -772,7 +772,7 @@ The competitive-response timeline under which the alternative launch providers w
 - Sobel, Dava. 1995. *Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time*. Walker. [https://www.bloomsbury.com/us/longitude-9780802715296/][book_sobel_1995]
 - Tirole, Jean. 1988. *The Theory of Industrial Organization*. MIT Press. [https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/][book_tirole_1988]
 - Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
 - Weiss, Linda. 2014. *America Inc.?: Innovation and Enterprise in the National Security State*. Cornell University Press. [https://www.cornellpress.cornell.edu/book/9780801479922/america-inc/][book_weiss_2014]
 - Williamson, Oliver E. 1985. *The Economic Institutions of Capitalism: Firms, Markets, Relational Contracting*. The Free Press. [https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740][book_williamson_1985]
@@ -783,6 +783,8 @@ The competitive-response timeline under which the alternative launch providers w
 
 ### Commercial Sources
 
+- "ARES \| Orbital Debris Program Office \| Debris Mitigation." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
+- "As Artemis Moves Forward, NASA Picks SpaceX to Land Next Americans on Moon." 2021. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/][ref_nasa_hls_option_a_2021]
 - "Commercial Crew Program." 2014. NASA. Accessed October 25, 2026. [https://www.nasa.gov/commercialcrew][ref_nasa_ccp_2014]
 - "Commercial Resupply Missions." 2008. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/commercial-resupply/][ref_nasa_crs1_press_2008]
 - "CST-100 Starliner." 2024. Accessed October 25, 2026. [https://www.boeing.com/space/starliner][ref_boeing_starliner_cft_2024]
@@ -791,10 +793,8 @@ The competitive-response timeline under which the alternative launch providers w
 - "INCOSE Systems Engineering Handbook." 2015. Accessed October 25, 2026. [https://www.incose.org/publications/se-handbook][ref_incose_handbook]
 - "Moon to Mars." 2023. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/artemis/][ref_nasa_hls_sustaining_2023]
 - "NASA Awards International Space Station Cargo Transport Contracts." 2016. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/nasa-awards-international-space-station-cargo-transport-contracts/][ref_nasa_crs2_press_2016]
-- "NASA HLS Option A Award Announcement." 2021. [https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/][ref_nasa_hls_option_a_2021]
-- "NASA HLS Option B Award Announcement." 2022. [https://www.nasa.gov/news-release/nasa-provides-update-to-astronaut-moon-lander-plans-under-artemis/][ref_nasa_hls_option_b_2022]
 - "NASA News." 2022. NASA, December 7. [https://www.nasa.gov/news/][ref_nasa_news]
-- "NASA Orbital Debris Mitigation Standard Practices." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
+- "NASA Provides Update to Astronaut Moon Lander Plans under Artemis." 2022. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/nasa-provides-update-to-astronaut-moon-lander-plans-under-artemis/][ref_nasa_hls_option_b_2022]
 - "News Release." 2014. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/][ref_nasa_cctcap_press_2014]
 - "News U.S. Air Force Logo." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/][ref_space_force_news]
 - "Space Force NSSL Phase 1A Award." 2018. [https://www.af.mil/News/Article-Display/Article/1671253/][ref_space_force_nssl_phase1a_2018]

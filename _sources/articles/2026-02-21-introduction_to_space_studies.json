@@ -1,4 +1,8 @@
 {
  "ref_nasa_commercial": "ref_nasa_cots_saa_2006",
+ "ref_nasa_gps": "ref_nasa_gps_df3e41",
+ "ref_nasa_hohmann": "ref_nasa_hohmann_4cd80b",
+ "ref_nasa_landsat": "ref_nasa_landsat_2d1bf9",
+ "ref_nasa_mars": "ref_nasa_mars_555ab6",
  "research_sutton_graves": "research_sutton_graves_1971"
 }

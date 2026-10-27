@@ -169,7 +169,7 @@ operations
 of small unmanned aircraft
 over human beings.
 The
-[Operations Over People Final 2021][ref_oop_final_rule]
+[Operations Over People final rule of 2021][ref_oop_final_rule]
 established
 four categories
 that admit
@@ -1595,41 +1595,41 @@ of 2026.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "CDC NCHS Urban-Rural Classification Scheme for Counties." n.d. Accessed October 25, 2026. [https://www.cdc.gov/nchs/data-analysis-tools/urban-rural.html][ref_cdc_nchs]
+- "14 CFR Part 107 Subpart D -- Operations over Human Beings." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D][ref_part_107_subpart_d]
 - "FAA Air Traffic Organization." n.d. Accessed October 25, 2026. [https://www.faa.gov/about/office\_org/headquarters\_offices/ato][ref_faa_ato]
 - "FAA Airspace Class D." n.d. Accessed October 25, 2026. [https://www.faa.gov/air\_traffic/publications/atpubs/aim\_html/chap3\_section\_2.html][ref_class_b]
 - "FAA Airspace Class G." n.d. Accessed October 25, 2026. [https://www.faa.gov/air\_traffic/publications/atpubs/aim\_html/chap3\_section\_3.html][ref_class_g]
 - "FAA B4UFLY Application." n.d. Accessed October 25, 2026. [https://www.faa.gov/uas/getting\_started/b4ufly][ref_b4ufly]
 - "FAA Centres of Excellence for UAS." n.d. Accessed October 25, 2026. [https://www.faa.gov/about/office\_org/headquarters\_offices/ang/grants/coe\_uas][ref_faa_coe_uas]
 - "FAA UAS Operations." n.d. Accessed October 25, 2026. [https://www.faa.gov/uas/commercial\_operators][ref_faa_uas_operations]
+- "Frontier and Remote Area Codes \| Economic Research ServiceLock." n.d. Accessed October 25, 2026. [https://www.ers.usda.gov/data-products/frontier-and-remote-area-codes][ref_far]
 - "Low Altitude Authorization and Notification Capability." n.d. Accessed October 25, 2026. [https://www.faa.gov/uas/getting\_started/laanc][ref_laanc]
+- "NCHS Urban-Rural Classification Scheme for Counties." 2025. National Center for Health Statistics, July 15. [https://www.cdc.gov/nchs/data-analysis-tools/urban-rural.html][ref_cdc_nchs]
 - "Operations Over People Categories." n.d. Accessed October 25, 2026. [https://www.faa.gov/uas/commercial\_operators/operations\_over\_people][ref_oop_categories]
-- "Operations Over People Final Rule of." 2021. [https://www.federalregister.gov/documents/2021/01/15/2020-28947/operation-of-small-unmanned-aircraft-systems-over-people][ref_oop_final_rule]
-- "Part 107 Subpart D Operations Over Human Beings." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107/subpart-D][ref_part_107_subpart_d]
 - "Part 108 Beyond Visual Line of Sight Rule." n.d. Accessed October 25, 2026. [https://www.federalregister.gov/documents/2025/08/07/2025-14837/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations][ref_part_108]
+- "Request Access." 2021. Accessed October 25, 2026. [https://www.federalregister.gov/documents/2021/01/15/2020-28947/operation-of-small-unmanned-aircraft-systems-over-people][ref_oop_final_rule]
+- "Rural-Urban Commuting Area Codes \| Economic Research ServiceLock." n.d. Accessed October 25, 2026. [https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes][ref_ruca]
+- "Rural-Urban Continuum Codes \| Economic Research ServiceLock." n.d. Accessed October 25, 2026. [https://www.ers.usda.gov/data-products/rural-urban-continuum-codes][ref_rucc]
 - "Section 44807 of Title 49 United States Code." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/49/44807][ref_section_44807]
-- "USDA Economic Research Service Frontier and Remote Area Codes." n.d.-a. Accessed October 25, 2026. [https://www.ers.usda.gov/data-products/frontier-and-remote-area-codes][ref_far]
-- "USDA Economic Research Service Rural-Urban Commuting Area Codes." n.d.-b. Accessed October 25, 2026. [https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes][ref_ruca]
-- "USDA Economic Research Service Rural-Urban Continuum Codes." n.d.-c. Accessed October 25, 2026. [https://www.ers.usda.gov/data-products/rural-urban-continuum-codes][ref_rucc]
 
 ### Commercial Sources
 
+- "Assistance to Firefighters Grants Program." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/firefighters][ref_fema_afg]
 - "DARPA OFFSET Program." n.d. Accessed October 25, 2026. [https://www.darpa.mil/research/programs/offensive-swarm-enabled-tactics][ref_darpa_offset_legacy]
-- "Department of Homeland Security." n.d. Accessed October 25, 2026. [https://www.dhs.gov/][ref_dhs]
-- "DHS Homeland Security Grant Program." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/homeland-security][ref_dhs_hsgp]
 - "DHS State Homeland Security Program." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/homeland-security/state-shsp][ref_shsp]
 - "DHS Urban Area Security Initiative." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/homeland-security/uasi][ref_uasi]
 - "DJI FlightHub 2 Multi-Drone Management." n.d. Accessed October 25, 2026. [https://enterprise.dji.com/flighthub-2][ref_dji_flighthub]
-- "DRONERESPONDERS UNITE Program." n.d. Accessed October 25, 2026. [https://www.droneresponders.org/unite][ref_droneresponders_unite]
 - "Edge Autonomy Penguin C Mk2." n.d. Accessed October 25, 2026. [https://edgeautonomy.io/uncrewed-systems/penguin-c-mk2/][ref_penguin_c]
-- "FEMA Assistance to Firefighters Grant Program." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/firefighters][ref_fema_afg]
-- "FEMA State Administrative Agency." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/state-administrative-agency-contacts][ref_state_admin_agency]
-- "FEMA Tribal Homeland Security Grant Program." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/tribal-homeland-security][ref_thsgp]
+- "Homeland Security." n.d. U.S. Department of Homeland Security. Accessed October 25, 2026. [https://www.dhs.gov/][ref_dhs]
+- "Homeland Security Grant Program." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/homeland-security][ref_dhs_hsgp]
 - "Iridium Certus Satellite Communications." n.d. Accessed October 25, 2026. [https://www.iridium.com/markets/uav/][ref_iridium_certus]
-- "National Incident Management System Framework." n.d. Accessed October 25, 2026. [https://www.fema.gov/emergency-managers/nims][ref_nims_framework]
-- "National Park Service Unmanned Aircraft Systems." n.d. Accessed October 25, 2026. [https://www.nps.gov/subjects/aviation/aviation-search-rescue.htm][ref_nps_uas]
+- "National Incident Management System." n.d. Accessed October 25, 2026. [https://www.fema.gov/emergency-managers/nims][ref_nims_framework]
+- "Search and Rescue: Aviation (U.S. National Park Service)." n.d. Accessed October 25, 2026. [https://www.nps.gov/subjects/aviation/aviation-search-rescue.htm][ref_nps_uas]
 - "Skydio Dock Persistent Operations." n.d. Accessed October 25, 2026. [https://www.skydio.com/dock][ref_skydio_dock]
 - "Starlink Satellite Internet Service." n.d. Accessed October 25, 2026. [https://www.starlink.com/business][ref_starlink]
+- "State Administrative Agency (SAA) Contacts." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/state-administrative-agency-contacts][ref_state_admin_agency]
+- "Tribal Homeland Security Grant Program." n.d. Accessed October 25, 2026. [https://www.fema.gov/grants/preparedness/tribal-homeland-security][ref_thsgp]
+- "UNITE Training Initiative." n.d. DRONERESPONDERS. Accessed October 25, 2026. [https://www.droneresponders.org/unite][ref_droneresponders_unite]
 
 ### General Sources
 

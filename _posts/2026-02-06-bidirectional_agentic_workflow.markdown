@@ -505,21 +505,21 @@ structured enough to prevent drift, lightweight enough to avoid ceremony.
 ### Commercial Sources
 
 - "Anthropic, Effective Context Engineering for AI Agents." n.d. Accessed October 25, 2026. [https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents][ai_context_engineering]
-- "GitHub, Spec-Driven Development with AI: GitHub Spec Kit." n.d. Accessed October 25, 2026. [https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/][github_spec_kit]
+- Delimarsky, Den. 2025. "Spec-Driven Development with AI: Get Started with a New Open Source Toolkit." The GitHub Blog, September 2. [https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/][github_spec_kit]
 
 ### General Sources
 
+- "Agent Client Protocol." n.d. Zed. Accessed October 25, 2026. [https://zed.dev/acp][protocol_acp]
 - "AI Pair Programming in Your Terminal." n.d. Accessed October 25, 2026. [https://aider.chat/][aider_pair_programming]
 - "AI, Agentic AI Course." n.d. Accessed October 25, 2026. [https://www.deeplearning.ai/courses/agentic-ai/][ai_agentic_course]
-- "AI, Human-in-the-Loop vs Autonomous Development for Enterprise Software." n.d. Accessed October 25, 2026. [https://securityboulevard.com/2026/01/human-in-the-loop-vs-autonomous-development-for-enterprise-software/][ai_hitl_vs_auto]
 - Claude Code. 2026. "Eight Trends Defining How Software Gets Built in 2026." Accessed October 25, 2026. [https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026][cc_eight_trends]
-- "Claude Code, Inside the Development Workflow of Claude Code's Creator." n.d. Accessed October 25, 2026. [https://www.infoq.com/news/2026/01/claude-code-creator-workflow/][cc_creator_workflow]
-- "Claude Code, Understanding Claude Code Plan Mode and the Architecture of Intent." n.d. Accessed October 25, 2026. [https://lord.technology/2025/07/03/understanding-claude-code-plan-mode-and-the-architecture-of-intent.html][cc_plan_mode]
-- "Devin, Coding Agents 101: The Art of Actually Getting Things Done." n.d. Accessed October 25, 2026. [https://devin.ai/agents101][devin_agents_101]
+- "Coding Agents 101: The Art of Actually Getting Things Done." n.d. Accessed October 25, 2026. [https://devin.ai/agents101][devin_agents_101]
+- "Inside the Development Workflow of Claude Code's Creator." n.d. InfoQ. Accessed October 25, 2026. [https://www.infoq.com/news/2026/01/claude-code-creator-workflow/][cc_creator_workflow]
 - Osmani, Addy. 2026. "My LLM Coding Workflow Going into 2026." Accessed October 25, 2026. [https://addyosmani.com/blog/ai-coding-workflow/][ai_llm_workflow]
-- "Protocol, Agent Client Protocol." n.d. Accessed October 25, 2026. [https://zed.dev/acp][protocol_acp]
+- Parihar, Maneesh. 2026. "Human-in-the-Loop vs Autonomous Development for Enterprise Software." *Security Boulevard*, January 7. [https://securityboulevard.com/2026/01/human-in-the-loop-vs-autonomous-development-for-enterprise-software/][ai_hitl_vs_auto]
 - "Protocol, AGENTS.md: A New Standard for Unified Coding Agent Instructions." n.d. Accessed October 25, 2026. [https://addozhang.medium.com/agents-md-a-new-standard-for-unified-coding-agent-instructions-0635fc5cb759][protocol_agents_md_article]
 - "Protocol, From Prompts to AGENTS.md: What Survives Across Thousands of Runs." n.d. Accessed October 25, 2026. [https://tessl.io/blog/from-prompts-to-agents-md-what-survives-across-thousands-of-runs/][protocol_agents_md_tessl]
+- "Understanding Claude Code Plan Mode and the Architecture of Intent." 2025. *Jamie Lord*, July 3. [https://lord.technology/2025/07/03/understanding-claude-code-plan-mode-and-the-architecture-of-intent.html][cc_plan_mode]
 - Wijesiriwardena, Dasith. 2025. "Structured Workflows for Coding with AI Agents Using the Breadcrumb Protocol." *Dasith's Gossip Protocol - Adventures in a \#distributed world*, April 2. [https://dasith.me/2025/04/02/vibe-coding-breadcrumbs/][protocol_breadcrumb]
 
 [ai_agentic_course]: https://www.deeplearning.ai/courses/agentic-ai/

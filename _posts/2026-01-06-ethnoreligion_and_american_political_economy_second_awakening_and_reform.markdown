@@ -671,7 +671,7 @@ This article follows the terminological conventions established in [A266][relate
 - "Turner Confessions of Nat Turner." 1831. [https://docsouth.unc.edu/neh/turner/turner.html][ref_turner_confessions_1831]
 - "Walker Appeal to the Coloured Citizens." 1829. [https://docsouth.unc.edu/church/walker/walker.html][ref_walker_appeal_1829]
 - "Weld American Slavery As It Is." 1839. [https://archive.org/details/americanslaveryw00weld][ref_weld_american_slavery_as_it_is_1839]
-- "Worcester v. Georgia." 1832. [https://supreme.justia.com/cases/federal/us/31/515/][ref_worcester_v_georgia_1832]
+- "Worcester v. Georgia, 31 U.S. 515 (1832)." 1832. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/31/515/][ref_worcester_v_georgia_1832]
 - "Work Info: Lectures on Revivals of Religion: Christian Classics Ethereal Library." 1835. Accessed October 25, 2026. [https://www.ccel.org/ccel/finney/revivals.html][ref_finney_lectures_on_revivals_1835]
 
 ### Secondary Sources
@@ -963,7 +963,6 @@ This article follows the terminological conventions established in [A266][relate
 - "Cane Ridge Revival." 1801. [https://www.wku.edu/library/dlsc/manuscripts/canridge.php][ref_cane_ridge_revival_1801]
 - "Charlestown Ursuline Convent burning." 1834. [https://www.masshist.org/features/ursuline][ref_charlestown_ursuline_convent_burning_1834]
 - "Doctrine and Covenants." n.d. Accessed October 25, 2026. [https://www.churchofjesuschrist.org/study/scriptures/dc-testament][ref_doctrine_and_covenants]
-- "Douglass Fourth of July address." 1852. [https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/][ref_douglass_fourth_of_july_1852]
 - "Fugitive Slave Act." 1793. [https://guides.loc.gov/slavery-laws/fugitive-slave-act-of-1793][ref_fugitive_slave_act_1793]
 - "Grimké Letters on the Equality of the Sexes." 1838. [https://digital.library.upenn.edu/women/grimke/equality/equality.html][ref_grimke_letters_on_equality_1838]
 - "Grimke's Appeal." 1836. Accessed October 25, 2026. [https://utc.iath.virginia.edu/abolitn/abesaegat.html][ref_grimke_appeal_1836]
@@ -980,6 +979,7 @@ This article follows the terminological conventions established in [A266][relate
 - "Southern Baptist Convention founding." 1845. [https://www.sbc.net/about/what-we-do/heritage-and-history/][ref_southern_baptist_convention_1845]
 - Stone, Last, Will, et al. 1804. "\[Title not identified\]." Accessed October 25, 2026. [https://www.mun.ca/rels/restmov/texts/bwstone/LWT.HTM][ref_stone_last_will_and_testament_1804]
 - Wentworth Letter. 1842. "“Church History,” 1 March 1842, Page 706." Accessed October 25, 2026. [https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/1][ref_wentworth_letter_1842]
+- "What to the Slave Is the Fourth of July?" 1852. *Teaching American History*. Accessed October 25, 2026. [https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/][ref_douglass_fourth_of_july_1852]
 
 ### Related Posts
 

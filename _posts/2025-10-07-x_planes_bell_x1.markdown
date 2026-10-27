@@ -5763,8 +5763,8 @@ The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approa
 
 ### Commercial Sources
 
+- "Armstrong Flight Research Center." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - "Bell X-1 Glamorous Glennis." n.d. Smithsonian National Air and Space Museum. Accessed October 24, 2026. [https://airandspace.si.edu/collection-objects/bell-x-1][ref_nasm_x1]
-- "NASA Armstrong Flight Research Center." n.d. Accessed October 24, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - "NASA History Office." n.d. Accessed October 24, 2026. [https://www.nasa.gov/history/][ref_nasa_history]
 
 ### General Sources

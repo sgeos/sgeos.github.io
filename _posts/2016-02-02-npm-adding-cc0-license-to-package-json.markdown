@@ -52,9 +52,9 @@ SPDX maintains a [list of valid license identifiers][spdx_list].
 
 ### General Sources
 
+- "Creative Commons Zero v1.0 Universal." n.d. Accessed October 25, 2026. [https://spdx.org/licenses/CC0-1.0.html][spdx_cc0]
 - "Package.json \| Npm Documentation." n.d. Accessed October 25, 2026. [https://docs.npmjs.com/files/package.json][npm_package]
-- "SPDX, CC0 v1.0." n.d. Accessed October 25, 2026. [https://spdx.org/licenses/CC0-1.0.html][spdx_cc0]
-- "SPDX, License List." n.d. Accessed October 25, 2026. [https://spdx.org/licenses/][spdx_list]
+- "SPDX License List." n.d. Accessed October 25, 2026. [https://spdx.org/licenses/][spdx_list]
 
 [npm_package]: https://docs.npmjs.com/files/package.json
 [spdx_cc0]: https://spdx.org/licenses/CC0-1.0.html

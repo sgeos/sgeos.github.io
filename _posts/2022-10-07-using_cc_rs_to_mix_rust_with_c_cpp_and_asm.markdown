@@ -300,13 +300,13 @@ hello_asm:                              // @hello_asm
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- "Rust Programming Language." n.d. www.rust-lang.org. Accessed October 25, 2026. [https://www.rust-lang.org][rust]
 - "Rust, cargo-show-asm Subcommand." n.d. crates.io. Accessed October 25, 2026. [https://crates.io/crates/cargo-show-asm][rust_cargo_show_asm]
 - "Rust, cc-rs Crate." n.d. crates.io. Accessed October 25, 2026. [https://crates.io/crates/cc][rust_cc_rs]
-- "Rust, Home Page." n.d. www.rust-lang.org. Accessed October 25, 2026. [https://www.rust-lang.org][rust]
 
 ### General Sources
 
-- "Godbolt Compiler Explorer." n.d. Accessed October 25, 2026. [https://godbolt.org][godbolt]
+- Godbolt, Matt. n.d. "Compiler Explorer." Accessed October 25, 2026. [https://godbolt.org][godbolt]
 
 [godbolt]: https://godbolt.org
 [rust]: https://www.rust-lang.org

@@ -465,7 +465,7 @@ with the ratio approaching zero when the primary-mission capability covers the a
 
 ## Geostationary Satellite Deployment Application
 
-The geostationary satellite deployment application permits the comprehensive generality-forcing treatment. The Falcon 9 and Falcon Heavy configurations support the commercial and government geostationary satellite missions across the 2013 through drafting-date period with approximately 60 geostationary-transfer-orbit missions completed. The December 3 2013 SES-8 mission constituted the first SpaceX geostationary-transfer-orbit delivery and the entry of the firm into the commercial telecommunications segment that had been served by the Arianespace, International Launch Services, and Sea Launch providers. The mission record is reconstructible from the [SpaceX news archive][ref_spacex_news_archive] and the [FAA current launch licenses][ref_faa_ast]. The orbital-slot and spectrum assignments that govern the segment operate under the [ITU Radio Regulations][ref_itu_radio_regulations_2020], and the launch-state registration and liability framework operates under the [United Nations Outer Space 1967][ref_un_outer_space_treaty_1967] and the [U S Commercial Space 2015][ref_uscsla_2015].
+The geostationary satellite deployment application permits the comprehensive generality-forcing treatment. The Falcon 9 and Falcon Heavy configurations support the commercial and government geostationary satellite missions across the 2013 through drafting-date period with approximately 60 geostationary-transfer-orbit missions completed. The December 3 2013 SES-8 mission constituted the first SpaceX geostationary-transfer-orbit delivery and the entry of the firm into the commercial telecommunications segment that had been served by the Arianespace, International Launch Services, and Sea Launch providers. The mission record is reconstructible from the [SpaceX news archive][ref_spacex_news_archive] and the [FAA current launch licenses][ref_faa_ast]. The orbital-slot and spectrum assignments that govern the segment operate under the [ITU Radio Regulations][ref_itu_radio_regulations_2020], and the launch-state registration and liability framework operates under the [Outer Space Treaty 1967][ref_un_outer_space_treaty_1967] and the [U S Commercial Space 2015][ref_uscsla_2015].
 
 The geostationary satellite deployment revenue realizes approximately 3 billion dollars across the commercial and government mission portfolio across the SES, Intelsat, Eutelsat, DirecTV, Arabsat, and other commercial geostationary satellite operators.
 
@@ -888,15 +888,16 @@ The article closes with the load-bearing open questions that the generality-forc
 - NASA Office of Inspector General. 2022. *Artemis Management Evaluation*. NASA Office of Inspector General. [https://oig.nasa.gov/docs/IG-22-003.pdf][ref_nasa_oig_artemis_2022]
 - *NASA Office of Inspector General Reports Database*. n.d. NASA Office of Inspector General. [https://oig.nasa.gov/audits/][ref_nasa_oig_reports]
 - "NASA Program and Project Life Cycle Requirements NPR 7120.5F." n.d. Accessed October 25, 2026. [https://nodis3.gsfc.nasa.gov/npg\_img/N\_PR\_7120\_005F\_/N\_PR\_7120\_005F\_.pdf][ref_nasa_npr_7120_5f]
-- "NASA Space Shuttle History Documentation." n.d. Accessed October 25, 2026. [https://history.nasa.gov/shuttlehistory.html][ref_nasa_shuttle_history]
 - *NASA Technical Standards System*. n.d. [https://standards.nasa.gov/][ref_nasa_std_8709_22]
 - Nelson, Richard R. 1959. "The Simple Economics of Basic Scientific Research." *Journal of Political Economy* 67 (3): 297–306. [https://doi.org/10.1086/258177][research_nelson_1959]
 - Nonaka, Ikujiro. 1994. "A Dynamic Theory of Organizational Knowledge Creation." *Organization Science* 5 (1): 14–37. [https://doi.org/10.1287/orsc.5.1.14][research_nonaka_1994]
 - Nuseibeh, Bashar, and Steve Easterbrook. 2000. "Requirements Engineering: A Roadmap." In *Proceedings of the Conference on The Future of Software Engineering*. ACM. [https://doi.org/10.1145/336512.336523][research_nuseibeh_easterbrook_2000]
+- "Outer Space Treaty." 1967. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
 - Parker, Geoffrey G., and Marshall W. Van Alstyne. 2005. "Two-Sided Network Effects: A Theory of Information Product Design." *Management Science* 51 (10): 1494–1504. [https://doi.org/10.1287/mnsc.1050.0400][research_parker_vanalstyne_2005]
 - Peeters, Walter. 2018. "Toward a Definition of New Space? The Entrepreneurial Perspective." *New Space* 6 (3): 187–90. [https://doi.org/10.1089/space.2017.0039][research_peeters_2018]
 - *Radio Regulations*. n.d. [https://www.itu.int/pub/R-REG-RR][ref_itu_radio_regulations_2020]
 - Ritchie, Dennis M., and Ken Thompson. 1974. "The UNIX Time-Sharing System." *Communications of the ACM* 17 (7): 365–75. [https://doi.org/10.1145/361011.361061][research_ritchie_thompson_1974]
+- Robertson, David, and Karl Ulrich. 1998. "Planning for Product Platforms." *MIT Sloan Management Review*. [https://sloanreview.mit.edu/article/planning-for-product-platforms/][research_robertson_ulrich_1998]
 - Rochet, Jean-Charles, and Jean Tirole. 2003. "Platform Competition in Two-Sided Markets." *Journal of the European Economic Association* 1 (4): 990–1029. [https://doi.org/10.1162/154247603322493212][research_rochet_tirole_2003]
 - "Rogers Commission Report." 1986. [https://history.nasa.gov/rogersrep/genindex.htm][ref_rogers_commission_1986]
 - Romer, Paul M. 1990. "Endogenous Technological Change." *Journal of Political Economy* 98 (5, Part 2): S71-S102. [https://doi.org/10.1086/261725][research_romer_1990]
@@ -905,9 +906,9 @@ The article closes with the load-bearing open questions that the generality-forc
 - Ross, J., and B. M. Staw. 1993. "Organizational Escalation and Exit: Lessons from the Shoreham Nuclear Power Plant." *Academy of Management Journal* 36 (4): 701–32. [https://doi.org/10.2307/256756][research_ross_staw_1993]
 - Rysman, Marc. 2009. "The Economics of Two-Sided Markets." *Journal of Economic Perspectives* 23 (3): 125–43. [https://doi.org/10.1257/jep.23.3.125][research_rysman_2009]
 - Sage, Andrew P., and Christopher D. Cuppan. 2001. "On the Systems Engineering and Management of Systems of Systems and Federations of Systems." *Information Knowledge Systems Management* 2 (4): 325–45. [https://doi.org/10.3233/iks-2001-00045][research_sage_cuppan_2001]
+- "Space Shuttle." n.d. NASA. Accessed October 25, 2026. [https://history.nasa.gov/shuttlehistory.html][ref_nasa_shuttle_history]
 - Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
 - "U S Commercial Space Launch Competitiveness Act." 2015. [https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf][ref_uscsla_2015]
-- "United Nations Outer Space Treaty." 1967. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
 - "United States Court of Federal Claims." n.d. Accessed October 25, 2026. [https://www.uscfc.uscourts.gov/][ref_uscfc]
 - Weinzierl, Matthew. 2018. "Space, the Final Economic Frontier." *Journal of Economic Perspectives* 32 (2): 173–92. [https://doi.org/10.1257/jep.32.2.173][research_weinzierl_2018]
 
@@ -1060,7 +1061,7 @@ The article closes with the load-bearing open questions that the generality-forc
 - Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
 - Trubshaw. 2000. *Concorde The Inside Story*. [https://openlibrary.org/search?q=Trubshaw+Concorde+Inside+Story][book_trubshaw_2000]
 - Utterback, James M. 1994. *Mastering the Dynamics of Innovation: How Companies Can Seize Opportunities in the Face of Technological Change*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/4855-HBK-ENG][book_utterback_1994]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Vaughan, Diane. 1996. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html][book_vaughan_1996]
 - Vertesi, Janet. 2015. *Seeing like a Rover*. University of Chicago Press. [https://openlibrary.org/works/OL20016535W][book_vertesi_2015]
 - Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
@@ -1159,7 +1160,7 @@ The article closes with the load-bearing open questions that the generality-forc
 - "NASA Review of United States Human Spaceflight Plans Committee Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=Review%20of%20U.S.%20Human%20Spaceflight%20Plans%20Committee][ref_ntrs_hsf_committee_2009]
 - "NASA Supersonic Retropropulsion Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=supersonic%20retropropulsion][ref_ntrs_supersonic_retropropulsion]
 - "NASA Technical Reports Server." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/][ref_nasa_ntrs]
-- "NASA TechPort Technology Database." n.d. Accessed October 25, 2026. [https://techport.nasa.gov/][ref_nasa_techport]
+- "NASA TechPort." n.d. Accessed October 25, 2026. [https://techport.nasa.gov/][ref_nasa_techport]
 - "NASA Vision for Space Exploration Literature." n.d. Accessed October 25, 2026. [https://ntrs.nasa.gov/search?q=Vision%20for%20Space%20Exploration][ref_ntrs_vision_space_exploration]
 - "NASASpaceflight Coverage." n.d. Accessed October 25, 2026. [https://www.nasaspaceflight.com/][ref_nasaspaceflight]
 - "New York Times." n.d. Accessed October 25, 2026. [https://www.nytimes.com/section/science/space][ref_nyt]
@@ -1169,7 +1170,6 @@ The article closes with the load-bearing open questions that the generality-forc
 - "Polaris Program." n.d. Accessed October 25, 2026. [https://polarisprogram.com/][ref_polaris_program]
 - "Research Newsletter." n.d. *Payload*. Accessed October 25, 2026. [https://payloadspace.com/research/][ref_payload_research]
 - Reuters. 2024. "Starshield Investigation." [https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/][research_reuters_starshield_2024]
-- Robertson and Ulrich. 1998. "Planning for Product Platforms." [https://sloanreview.mit.edu/article/planning-for-product-platforms/][research_robertson_ulrich_1998]
 - Simon. 1962. "The Architecture of Complexity." [https://www.jstor.org/stable/985254][research_simon_1962]
 - "Space Policy Journal." n.d. Accessed October 25, 2026. [https://www.sciencedirect.com/journal/space-policy][ref_space_policy_journal]
 - "Space Policy Online." n.d. Accessed October 25, 2026. [https://spacepolicyonline.com/][ref_space_policy_online]

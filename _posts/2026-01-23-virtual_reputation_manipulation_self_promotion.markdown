@@ -107,7 +107,7 @@ The academic detection literature for individual fabrication traces to [Jindal a
 
 $$\mathbf{f}_r = (\text{POS-ratios}, \text{n-gram distributions}, \text{lexical richness}, \text{sentiment intensity}, \text{first-person ratio}, \text{superlative rate})$$
 
-with each component estimated on the review text $r$ and fed to a downstream classifier. The [Ott et al. 2011][research_ott_et_al_2011] Finding Deceptive Opinion Spam by Any Stretch of the Imagination treatment introduced the labeled-corpus methodology by crowdsourcing production of deceptive reviews and training classifiers on the resulting distribution. The [Ott 2013][research_ott_et_al_2013] Negative Deceptive Opinion Spam extended the framework. The [Feng 2012][research_feng_et_al_2012] Syntactic Stylometry for Deception Detection treatment introduced the syntactic-features detection approach. The [Li et al. 2014][research_li_et_al_2014] Towards a General Rule for Identifying Deceptive Opinion Spam introduced the cross-domain generalization framework.
+with each component estimated on the review text $r$ and fed to a downstream classifier. The [Ott et al. 2011][research_ott_et_al_2011] Finding Deceptive Opinion Spam by Any Stretch of the Imagination treatment introduced the labeled-corpus methodology by crowdsourcing production of deceptive reviews and training classifiers on the resulting distribution. The [Ott et al. 2013][research_ott_et_al_2013] Negative Deceptive Opinion Spam extended the framework. The [Feng 2012][research_feng_et_al_2012] Syntactic Stylometry for Deception Detection treatment introduced the syntactic-features detection approach. The [Li et al. 2014][research_li_et_al_2014] Towards a General Rule for Identifying Deceptive Opinion Spam introduced the cross-domain generalization framework.
 
 The empirical prevalence of individual review fabrication varies by platform and category. The [Luca and Zervas 2016][research_luca_zervas_2016] Yelp analysis estimates approximately sixteen percent of Yelp restaurant reviews are filtered as suspicious by Yelp's internal classifier, with the filtered rate rising to approximately twenty percent for restaurants in competitive market segments and rising further under competitive conditions. The [Luca 2016][research_luca_2016] Reviews Reputation and Revenue Yelp treatment estimates the causal impact of a one-star rating increase as approximately five to nine percent revenue increase, which sets the direct commercial incentive for review manipulation. The empirical rating-shift model takes the form
 
@@ -721,6 +721,7 @@ These questions recur throughout the miniseries and are revisited in the closing
 - Miramirkhani, Najmeh, Oleksii Starov, and Nick Nikiforakis. 2017. "Dial One for Scam: A Large-Scale Analysis of Technical Support Scams." In *Proceedings 2017 Network and Distributed System Security Symposium*. Internet Society. [https://doi.org/10.14722/ndss.2017.23163][research_miramirkhani_et_al_2016]
 - Mukherjee. 2013. *What Yelp Fake Review Filter Might Be Doing*. [https://scholar.google.com/scholar?q=What+Yelp+Fake+Review+Filter+Might+Be+Doing+Mukherjee+2013][research_mukherjee_et_al_2013]
 - Ntoulas, Alexandros, Marc Najork, Mark Manasse, and Dennis Fetterly. 2006. "Detecting Spam Web Pages through Content Analysis." In *Proceedings of the 15th international conference on World Wide Web*. ACM. [https://doi.org/10.1145/1135777.1135794][research_ntoulas_et_al_2006]
+- Ott, Myle, Claire Cardie, and Jeffrey T. Hancock. 2013. "Negative Deceptive Opinion Spam." In *Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*. [https://aclanthology.org/N13-1053/][research_ott_et_al_2013]
 - Ott, Myle, Yejin Choi, Claire Cardie, and Jeffrey T. Hancock. 2011. "Finding Deceptive Opinion Spam by Any Stretch of the Imagination." In *Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*. [https://aclanthology.org/P11-1032/][research_ott_et_al_2011]
 - Pearce, Paul, Vacha Dave, Chris Grier, et al. 2014. "Characterizing Large-Scale Click Fraud in ZeroAccess." In *Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security*. ACM. [https://doi.org/10.1145/2660267.2660369][research_pearce_et_al_2014]
 - Petty, Ross D., and J. Craig Andrews. 2008. "Covert Marketing Unmasked: A Legal and Regulatory Guide for Practices That Mask Marketing Messages." *Journal of Public Policy & Marketing* 27 (1): 7–18. [https://doi.org/10.1509/jppm.27.1.7][research_petty_andrews_2008]
@@ -818,9 +819,9 @@ These questions recur throughout the miniseries and are revisited in the closing
 - OpenAI GPT-4. 2023. "GPT-4." Accessed October 25, 2026. [https://openai.com/index/gpt-4-research/][ref_openai_gpt4_2023]
 - "Our Approach to Labeling AI-Generated Content and Manipulated Media." 2024. Meta Newsroom, April 5. [https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/][ref_meta_ai_content_labeling]
 - "Twitter Verification Legacy Program Documentation." n.d. Accessed October 25, 2026. [https://help.x.com/en/managing-your-account/legacy-verification-policy][ref_twitter_verification_legacy]
+- "Verification Badges on Channels: YouTube Help." n.d. Accessed October 25, 2026. [https://support.google.com/youtube/answer/3046484][ref_youtube_verification]
 - "X Blue Paid Verification." n.d. Accessed October 25, 2026. [https://help.x.com/en/using-x/x-blue][ref_x_blue]
 - "X Platform Manipulation and Spam Policy." n.d. Accessed October 25, 2026. [https://help.x.com/en/rules-and-policies/platform-manipulation][ref_x_platform_manipulation_policy]
-- "YouTube Channel Verification Documentation." n.d. Accessed October 25, 2026. [https://support.google.com/youtube/answer/3046484][ref_youtube_verification]
 - "YouTube View-Count Manipulation Policy." n.d. Accessed October 25, 2026. [https://support.google.com/youtube/answer/2801973][ref_youtube_view_manipulation_policy]
 
 ### General Sources
@@ -844,12 +845,13 @@ These questions recur throughout the miniseries and are revisited in the closing
 - Cushing. 2013. "Wired Bangladesh Click Farm Investigation." [https://www.wired.com/2013/08/click-farms/][ref_cushing_2013_click_farm]
 - "Cutts Google Webmaster Central Blog Archives." n.d. Accessed October 25, 2026. [https://www.mattcutts.com/blog/][ref_cutts_google_blog]
 - Danezis and Mittal. 2009. "SybilInfer." [https://www.ndss-symposium.org/wp-content/uploads/2017/09/sybilinfer-detecting-sybil-nodes-using-social-networks.pdf][research_danezis_mittal_2009]
+- "Deceptive Opinion Spam Corpus Myle Ott." n.d. Myle Ott. Accessed October 25, 2026. [https://myleott.com/op-spam.html][ref_ott_deceptive_corpus]
 - "Developer Policy Center." n.d. Accessed October 25, 2026. [https://play.google.com/about/developer-content-policy/][ref_google_play_developer_policy]
 - DiResta, Renee, Kris Shaffer, Becky Ruppel, et al. 2019. "The Tactics & Tropes of the Internet Research Agency." DigitalCommons@University of Nebraska - Lincoln. Accessed October 25, 2026. [https://digitalcommons.unl.edu/senatedocs/2/][research_diresta_et_al_2019]
 - Ellis Ott. 2018. "Atlantic Instagram Pods." [https://www.theatlantic.com/technology/archive/2018/06/instagram-pods-explained/564237/][ref_ellis_ott_2018_pods]
 - "Fakespot Consumer Reports." n.d. Accessed October 25, 2026. [https://www.fakespot.com/][ref_fakespot_consumer_reports]
 - Fang. 2013. "Koch Network Investigation." [https://www.thenation.com/article/archive/koch-brothers-secret-bank/][ref_fang_2013_koch]
-- "FIDO Alliance Authentication Standards." n.d. Accessed October 25, 2026. [https://fidoalliance.org/specifications/][ref_fido_alliance]
+- "FIDO User Authentication Specifications." 2018. *FIDO Alliance*, November 14. [https://fidoalliance.org/specifications/][ref_fido_alliance]
 - FTC v Nutrilite Products. 1951. "Order." [https://scholar.google.com/scholar?q=ftc+nutrilite+products+1951][ref_ftc_nutrilite_1951]
 - Gyongyi and Garcia-Molina. 2005. "Web Spam Taxonomy." [http://ilpubs.stanford.edu:8090/771/][research_gyongyi_garciamolina_2005]
 - Gyongyi Garcia-Molina Pedersen. 2004. "Combating Web Spam with TrustRank." [https://ilpubs.stanford.edu:8090/645/][ref_gyongyi_2004_trustrank_paper]
@@ -868,8 +870,6 @@ These questions recur throughout the miniseries and are revisited in the closing
 - "MRC Media Rating Council Viewability Standards." n.d. Accessed October 25, 2026. [https://mediaratingcouncil.org/standards][ref_mrc_viewability_standards]
 - Mueller Report. 2019. "Volume One." [https://www.justice.gov/archives/sco/file/1373816/download][ref_mueller_report_2019]
 - "Nielsen Trust in Advertising Global Report." n.d. Accessed October 25, 2026. [https://www.nielsen.com/insights/2021/trust-in-advertising-2021/][ref_nielsen_trust_advertising]
-- Ott. 2013. "Negative Deceptive Opinion Spam." [https://aclanthology.org/N13-1053/][research_ott_et_al_2013]
-- "Ott Deceptive Opinion Spam Corpus." n.d. Accessed October 25, 2026. [https://myleott.com/op-spam.html][ref_ott_deceptive_corpus]
 - Page Brin Motwani Winograd. 1999. "PageRank Extended Technical Report." [http://ilpubs.stanford.edu:8090/422/][research_page_brin_motwani_winograd_1999]
 - "PMI Professional Certification Fraud Detection." n.d. Accessed October 25, 2026. [https://www.pmi.org/certifications/ethics][ref_pmi_fraud]
 - "PRSA Code of Ethics." 1906. www. Accessed October 25, 2026. [https://www.prsa.org/about/ethics/][ref_ivy_lee_declaration_1906]

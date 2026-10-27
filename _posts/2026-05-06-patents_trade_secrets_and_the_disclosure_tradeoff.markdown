@@ -498,7 +498,7 @@ and [what enforcing one actually requires][related_post_patent_enforcement].
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- United States Code Title 35 Section 273. n.d. *Prior Commercial Use Defense*. [https://www.law.cornell.edu/uscode/text/35/273][research_35_usc_273]
+- "35 U.S. Code § 273: Defense to Infringement Based on Prior Commercial Use." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/35/273][research_35_usc_273]
 
 ### Tertiary Sources
 

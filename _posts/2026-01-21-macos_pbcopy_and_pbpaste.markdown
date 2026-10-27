@@ -324,8 +324,8 @@ Despite these efforts, clipboard semantics remain fundamentally OS-dependent.
 
 ### General Sources
 
-- "Man Page, pbcopy." n.d. Accessed October 25, 2026. [https://ss64.com/mac/pbcopy.html][man_pbcopy]
-- "Man Page, pbpaste." n.d. Accessed October 25, 2026. [https://ss64.com/mac/pbpaste.html][man_pbpaste]
+- "Pbcopy Man Page: macOS." n.d. Accessed October 25, 2026. [https://ss64.com/mac/pbcopy.html][man_pbcopy]
+- "Pbpaste Man Page: macOS." n.d. Accessed October 25, 2026. [https://ss64.com/mac/pbpaste.html][man_pbpaste]
 
 [man_pbcopy]: https://ss64.com/mac/pbcopy.html
 [man_pbpaste]: https://ss64.com/mac/pbpaste.html

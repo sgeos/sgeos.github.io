@@ -537,7 +537,7 @@ The business press coverage of the value-gradient trajectory in the [New York Ti
 
 The value-gradient trajectory operates within a regulatory and technical framework that constrains and enables the value-realization mechanisms across the trajectory. The framework includes the FAA launch-licensing regime, the NASA Space Act Agreement authority, the Federal Communications Commission spectrum-allocation regime, the National Environmental Policy Act environmental-review requirements, and the technical standards that govern the launch-vehicle certification.
 
-The FAA Office of Commercial Space Transportation launch-licensing regime under 51 U.S.C. Chapter 509 as codified through the [51 U.S.C. Chapter 509 1984][ref_csla_1984] and subsequent [Commercial Space Launch Amendments 2004][ref_csla_amendments_2004] and [U S Commercial Space 2015][ref_uscsla_2015] governs the launch-license requirements for each SpaceX mission. The launch-license process requires the FAA to determine that the launch operation meets the public-safety, national-security, and financial-responsibility requirements the Act specifies. The regulatory implementation appears in [14 CFR Part 450][ref_faa_ast_licensing_regs_450] for launch and reentry licensing and in the broader [14 CFR Chapter III][ref_faa_ast_regulations] for FAA commercial space regulations. The launch licenses for the Falcon 1 flights, the Falcon 9 flights, and the reusability-relevant recovery operations are documented in the [FAA AST current licenses database][ref_faa_ast].
+The FAA Office of Commercial Space Transportation launch-licensing regime under 51 U.S.C. Chapter 509 as codified through the [51 U.S. Code Subtitle 1984][ref_csla_1984] and subsequent [Commercial Space Launch Amendments 2004][ref_csla_amendments_2004] and [U S Commercial Space 2015][ref_uscsla_2015] governs the launch-license requirements for each SpaceX mission. The launch-license process requires the FAA to determine that the launch operation meets the public-safety, national-security, and financial-responsibility requirements the Act specifies. The regulatory implementation appears in [14 CFR Part 450][ref_faa_ast_licensing_regs_450] for launch and reentry licensing and in the broader [14 CFR Chapter III][ref_faa_ast_regulations] for FAA commercial space regulations. The launch licenses for the Falcon 1 flights, the Falcon 9 flights, and the reusability-relevant recovery operations are documented in the [FAA AST current licenses database][ref_faa_ast].
 
 The NASA Space Act Agreement authority under [51 U.S.C. 51302][ref_51_usc_51302_saa] enabled the milestone-payment fixed-price COTS Round 1 agreement that provided the anchor demand for the Falcon 9 development. The Space Act Agreement authority differs from the standard Federal Acquisition Regulation procurement mechanism by permitting the payment structure to be contingent on demonstrated milestone completion rather than on cost incurrence, providing the residual-claim incentive that the value-gradient trajectory exploited. The [NASA Space Act Agreements Guide][ref_nasa_saa_guide] documents the authority. The complementary Other Transaction Authority available to the Department of Defense under [10 U.S.C. 2371b][ref_10_usc_2371b] provides the analog procurement mechanism for defense-agency use. The [NASA Authorization Act 2010][ref_nasa_auth_2010] confirmed the NASA transition from Space Shuttle operations to the mixed-provider portfolio the value-gradient trajectory subsequently developed. The [National Aeronautics et al. 1958][ref_nasa_act_1958] established the original NASA authority within which the Space Act Agreement mechanism operates.
 
@@ -771,12 +771,12 @@ The Iridium-successor question asks the extent to which the Iridium-successor tr
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "10 United States Code 2371b Other Transaction Authority." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
+- "10 U.S. Code § 2371b: Renumbered § 4022\]." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
 - "14 CFR Chapter III FAA Commercial Space Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III][ref_faa_ast_regulations]
 - "14 CFR Part 450 -- Launch and Reentry License Requirements." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450][ref_faa_ast_licensing_regs_450]
 - "22 CFR Chapter I Subchapter M -- International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M][ref_itar_22_cfr_120_130]
+- "51 U.S. Code Subtitle V Chapter 509: Commercial Space Launch Activities." 1984. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - "51 U.S. Code § 51302: Commercial Exploration and Commercial Recovery." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/51302][ref_51_usc_51302_saa]
-- "51 U.S.C. Chapter 509 Commercial Space Launch Act." 1984. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - Adler, Paul S., and Kim B. Clark. 1991. "Behind the Learning Curve: A Sketch of the Learning Process." *Management Science* 37 (3): 267–81. [https://doi.org/10.1287/mnsc.37.3.267][research_adler_clark_1991]
 - Adner, Ron. 2016. "Ecosystem as Structure: An Actionable Construct for Strategy." *Journal of Management* 43 (1): 39–58. [https://doi.org/10.1177/0149206316678451][research_adner_2017]
 - Adner, Ron, and Daniel A. Levinthal. 2004. "What Is Not a Real Option: Considering Boundaries for the Application of Real Options to Business Strategy." *Academy of Management Review* 29 (1): 74. [https://doi.org/10.5465/amr.2004.11851715][research_adner_levinthal_2004]
@@ -861,7 +861,7 @@ The Iridium-successor question asks the extent to which the Iridium-successor tr
 - Evans, Peter B. 1995. *Embedded Autonomy: States and Industrial Transformation*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691037363/embedded-autonomy][book_evans_1995]
 - Fernholz, Tim. 2018. *Rocket Billionaires: Elon Musk, Jeff Bezos, and the New Space Race*. Houghton Mifflin Harcourt Publishing Company. [https://www.hachettebookgroup.com/titles/tim-fernholz/rocket-billionaires/9781328662231/][book_fernholz_2018]
 - Fligstein, Neil. 2001. *The Architecture of Markets: An Economic Sociology of Twenty-First-Century Capitalist Societies*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691102542/the-architecture-of-markets][book_fligstein_2001]
-- Foster. 1986. *Innovation The Attacker's Advantage*. [https://archive.org/details/innovationattack00fost][book_foster_1986]
+- Foster, Richard N. 1986. *Innovation: The Attacker's Advantage*. New York: Summit Books. [https://archive.org/details/innovationattack00fost][book_foster_1986]
 - Foster, John Bellamy, and Robert W. McChesney. 2011. *The Endless Crisis: How Monopoly-Finance Capital Produces Stagnation and Upheaval from the USA to China*. Monthly Review Press. [https://monthlyreview.org/product/endless\_crisis/][book_foster_mcchesney_2011]
 - Gertner. 2012. *The Idea Factory*. [https://www.penguinrandomhouse.com/books/206061/the-idea-factory-by-jon-gertner/][book_gertner_2012]
 - Golley, John. 1987. *Whittle, the True Story*. Smithsonian Institution Press. [https://www.crecy.co.uk/whittle-the-true-story][book_golley_1987]
@@ -908,7 +908,7 @@ The Iridium-successor question asks the extent to which the Iridium-successor tr
 - Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
 - Turner. 2009. *Rocket and Spacecraft Propulsion*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-540-69203-4][book_turner_2008]
 - Utterback, James M. 1994. *Mastering the Dynamics of Innovation: How Companies Can Seize Opportunities in the Face of Technological Change*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/4855-HBK-ENG][book_utterback_1994]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Vaughan, Diane. 1996. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html][book_vaughan_1996]
 - Vertesi, Janet. 2015. *Seeing like a Rover*. University of Chicago Press. [https://openlibrary.org/works/OL20016535W][book_vertesi_2015]
 - Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
@@ -923,15 +923,15 @@ The Iridium-successor question asks the extent to which the Iridium-successor tr
 
 ### Commercial Sources
 
+- "ARES \| Orbital Debris Program Office \| Debris Mitigation." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
 - "Commercial Crew Program." 2014. NASA. Accessed October 25, 2026. [https://www.nasa.gov/commercialcrew][ref_nasa_ccp_2014]
 - "Commercial Resupply Missions." 2008. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/commercial-resupply/][ref_nasa_crs1_press_2008]
 - "DOD Contract Announcements." n.d. Accessed October 25, 2026. [https://www.defense.gov/News/Contracts/][ref_dod_contracts]
 - "FCC Filings Database." n.d. Accessed October 25, 2026. [https://www.fcc.gov/wireless/systems-utilities/electronic-comment-filing-system-ecfs][ref_fcc_filings]
 - INCOSE. 2015. "Systems Engineering Handbook." [https://www.incose.org/publications/se-handbook][ref_incose_handbook]
-- "Iridium World Communications Press Release Archive." 1998. [https://www.iridium.com/][ref_iridium_press_archive_1998]
 - "Moon to Mars." 2023. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/artemis/][ref_nasa_hls_sustaining_2023]
-- "NASA Orbital Debris Mitigation Standard Practices." n.d. Accessed October 25, 2026. [https://orbitaldebris.jsc.nasa.gov/mitigation/][ref_nasa_orbital_debris_mitigation]
 - "News U.S. Air Force Logo." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/][ref_space_force_news]
+- "The Only Truly Global Network." 1998. Accessed October 25, 2026. [https://www.iridium.com/][ref_iridium_press_archive_1998]
 - "Space Force National Security Space Launch." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/Fact-Sheets][ref_space_force_nssl]
 - "Space Force NSSL Phase 1A Award." 2018. [https://www.af.mil/News/Article-Display/Article/1671253/][ref_space_force_nssl_phase1a_2018]
 - "Space Force NSSL Phase 2 Award." 2020. [https://www.spaceforce.mil/News/Article/2312953/][ref_space_force_nssl_phase2_2020]

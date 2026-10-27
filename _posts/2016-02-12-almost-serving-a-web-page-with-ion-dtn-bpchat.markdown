@@ -412,8 +412,8 @@ The HTML document is served without issue.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "FreeBSD Handbook, Bridging." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/network-bridging.html][freebsd_bridging]
-- "UNIX, In Unix, how can I display the last lines of a file?" n.d. kb.iu.edu. Accessed October 25, 2026. [https://kb.iu.edu/d/acrj][unix_last_lines]
+- "30.6. Bridging." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/network-bridging.html][freebsd_bridging]
+- "In Unix, How Can I Display the Last Lines of a File?" n.d. kb.iu.edu. Accessed October 25, 2026. [https://kb.iu.edu/d/acrj][unix_last_lines]
 - "Writing Posts." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/posts/][jekyll_posts]
 
 ### General Sources
@@ -422,6 +422,7 @@ The HTML document is served without issue.
 - Barnett, Bruce. n.d. "Bourne Shell Tutorial." Accessed October 25, 2026. [http://www.grymoire.com/Unix/Sh.html][unix_bourne_shell]
 - "Bash: Change Terminal Title." n.d.-a. Accessed October 25, 2026. [http://unix.stackexchange.com/questions/11223/change-terminal-title][unix_terminal_title]
 - "Bash: Sed and UTF-8 Encoding." n.d.-b. Accessed October 25, 2026. [http://stackoverflow.com/questions/27072558/sed-and-utf-8-encoding][unix_sed_utf8]
+- "Bourne Shell Scripting/Debugging and Signal Handling." n.d. Accessed October 25, 2026. [https://en.wikibooks.org/wiki/Bourne\_Shell\_Scripting/Debugging\_and\_signal\_handling][unix_sh]
 - "Can Sed Remove 'Double' Newline Characters?" n.d. Accessed October 25, 2026. [http://unix.stackexchange.com/questions/76061/can-sed-remove-double-newline-characters][unix_sed_newline]
 - "How Can I Trap Interrupts in My Shell Script?: IS&T Contributions: Hermes." n.d. Accessed October 25, 2026. [http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907156][unix_trap]
 - "In Bash Does Control-c = SIGINT or SIGTERM?" n.d. Accessed October 25, 2026. [http://www.linuxquestions.org/questions/linux-general-1/in-bash-does-control-c-%3D-sigint-or-sigterm-443130/][unix_sigint]
@@ -433,11 +434,10 @@ The HTML document is served without issue.
 - "Regex: How Can I Get Sed to Quit after the First Matching Address Range?" n.d.-a. Accessed October 25, 2026. [http://stackoverflow.com/questions/20943025/how-can-i-get-sed-to-quit-after-the-first-matching-address-range][unix_sed_match_quit]
 - "Regex: How to Replace Whole Line with Sed?" n.d.-b. Accessed October 25, 2026. [http://stackoverflow.com/questions/8822097/how-to-replace-whole-line-with-sed][unix_sed_whole_line]
 - "Superscript in Markdown (Github Flavored)?" n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/15155778/superscript-in-markdown-github-flavored][jekyll_subscript1]
+- "Trouble with Piping through Sed." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/2427338/trouble-with-piping-through-sed][unix_sed_unbuffered]
 - "UNIX, ASCII Table and Description." n.d. Accessed October 25, 2026. [http://www.asciitable.com][unix_ascii]
-- "UNIX, Bourne Shell Scripting/Debugging and signal handling." n.d. Accessed October 25, 2026. [https://en.wikibooks.org/wiki/Bourne\_Shell\_Scripting/Debugging\_and\_signal\_handling][unix_sh]
 - "UNIX, Linux: Block until a string is matched in a file (“tail + grep with blocking”)." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/6454915/linux-block-until-a-string-is-matched-in-a-file-tail-grep-with-blocking][unix_match_block]
 - "UNIX, sed Find and Replace ASCII Control Codes / Nonprintable Characters." n.d. Accessed October 25, 2026. [http://www.cyberciti.biz/faq/unix-linux-sed-ascii-control-codes-nonprintable/][unix_sed_control]
-- "UNIX, Trouble with piping through sed." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/2427338/trouble-with-piping-through-sed][unix_sed_unbuffered]
 - "Using Netcat to Build a Simple TCP Proxy in Linux: Notes: Tweakblogs: Tweakers." n.d. Accessed October 25, 2026. [http://notes.tweakblogs.net/blog/7955/using-netcat-to-build-a-simple-tcp-proxy-in-linux.html][unix_netcat_proxy]
 - "Webserver: Difference between Proxy Server and Reverse Proxy Server." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server][networking_proxy2]
 - "Why There Is No Syntax for Subscript and Supscript?" n.d. CommonMark Discussion. Accessed October 25, 2026. [http://talk.commonmark.org/t/why-there-is-no-syntax-for-subscript-and-supscript/586][jekyll_subscript2]

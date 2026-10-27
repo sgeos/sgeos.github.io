@@ -546,30 +546,30 @@ from the first session.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- *The /llms.txt File*. n.d. [https://llmstxt.org/][standard_llms_txt]
 - "AGENTS.md." n.d. agents.md. Accessed October 25, 2026. [https://agents.md/][protocol_agents_md]
 - Chatlatanagulchai, Worawalan, Hao Li, Yutaro Kashiwa, et al. 2025a. "Agent READMEs: An Empirical Study of Context Files for Agentic Coding." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2511.12884][research_agent_readmes]
 - Chatlatanagulchai, Worawalan, Kundjanasith Thonglek, Brittany Reid, et al. 2025b. "On the Use of Agentic Coding Manifests: An Empirical Study of Claude Code." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2509.14744][research_agentic_manifests]
 - Lulla, Jai Lal, Seyedmoein Mohsenimofidi, Matthias Galster, Jie M. Zhang, Sebastian Baltes, and Christoph Treude. 2026. "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2601.20404][research_agents_md_impact]
 - "Manage Claude's Memory." n.d. Claude Code Docs. Accessed October 25, 2026. [https://code.claude.com/docs/en/memory][cc_memory]
 - Santos, Helio Victor F., Vitor Costa, Joao Eduardo Montandon, and Marco Tulio Valente. 2025. "Decoding the Configuration of AI Coding Agents: Insights from Claude Code Projects." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2511.09268][research_santos_config]
-- *ThoughtWorks Technology Radar: AGENTS.md*. n.d. [https://www.thoughtworks.com/en-us/radar/techniques/agents-md][standard_thoughtworks_radar]
 
 ### Commercial Sources
 
+- "AGENTS.md \| Technology Radar." n.d. Thoughtworks. Accessed October 25, 2026. [https://www.thoughtworks.com/en-us/radar/techniques/agents-md][standard_thoughtworks_radar]
 - "Anthropic, Effective Context Engineering for AI Agents." n.d. Accessed October 25, 2026. [https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents][anthropic_context_engineering]
 - "Anthropic, Equipping Agents for the Real World with Agent Skills." n.d. Accessed October 25, 2026. [https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills][anthropic_agent_skills]
 
 ### General Sources
 
 - "AGENTS.md May Trick Us into Writing Better Docs." n.d. Accessed October 25, 2026. [https://blog.kilo.ai/p/agentsmd-may-trick-us-into-writing][industry_kilo_docs]
+- Bruggmann, Max Charas and Marc. n.d. "Background Coding Agents: Context Engineering (Part 2)." *Spotify Engineering*. Accessed October 25, 2026. [https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2][industry_spotify_context]
 - "Building a Personal AI Infrastructure (PAI)." n.d. Accessed October 25, 2026. [https://danielmiessler.com/blog/personal-ai-infrastructure][industry_miessler_pai]
 - "Fixing Claude Code's Amnesia." n.d. Accessed October 25, 2026. [https://blog.fsck.com/2025/10/23/episodic-memory/][industry_episodic_memory]
+- Howard, Jeremy. n.d. "The /Llms.txt File." llms-txt. Accessed October 25, 2026. [https://llmstxt.org/][standard_llms_txt]
 - "Industry, Context Engineering for Coding Agents." n.d. Accessed October 25, 2026. [https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html][industry_fowler_context]
 - "Industry, Mastering Project Context Files for AI Coding Agents." n.d. Accessed October 25, 2026. [https://eclipsesource.com/blogs/2025/11/20/mastering-project-context-files-for-ai-coding-agents/][industry_eclipsesource]
-- "Industry, Spotify Background Coding Agents Part 2: Context Engineering." n.d. Accessed October 25, 2026. [https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2][industry_spotify_context]
-- "Industry, Writing a Good CLAUDE.md." n.d. Accessed October 25, 2026. [https://www.humanlayer.dev/blog/writing-a-good-claude-md][industry_humanlayer]
 - "Tool, GraphMD: Turning Markdown into Knowledge Graphs." n.d. Accessed October 25, 2026. [https://medium.com/generative-ai-revolution-ai-native-transformation/introducing-graphmd-turning-markdown-documents-into-executable-knowledge-graphs-6925d936423f][tool_graphmd]
+- "Writing a Good CLAUDE.md." 2025. [https://www.humanlayer.dev/blog/writing-a-good-claude-md][industry_humanlayer]
 
 ### Related Posts
 

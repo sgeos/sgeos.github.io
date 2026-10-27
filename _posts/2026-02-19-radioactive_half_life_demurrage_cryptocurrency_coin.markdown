@@ -647,7 +647,7 @@ for verifiable computation using zero-knowledge proofs.
 
 ### General Sources
 
-- "Economics of Bitcoin Halving." n.d. Accessed October 25, 2026. [https://www.fidelitydigitalassets.com/research-and-insights/economics-bitcoin-halvinga-miners-perspective][ref_economics_halving]
+- "The Economics of a Bitcoin Halving:A Miner’s Perspective." n.d. Fidelity Digital Assets. Accessed October 25, 2026. [https://www.fidelitydigitalassets.com/research-and-insights/economics-bitcoin-halvinga-miners-perspective][ref_economics_halving]
 - "Freicoin." n.d. Accessed October 25, 2026. [https://en.bitcoin.it/wiki/Freicoin][ref_freicoin]
 - "RISC Zero." n.d. Accessed October 25, 2026. [https://risczero.com/][ref_risc_zero]
 

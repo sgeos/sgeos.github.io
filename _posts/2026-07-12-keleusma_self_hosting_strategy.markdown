@@ -1589,13 +1589,13 @@ is being realized.
 - Brinch Hansen, Per. 1985. *Brinch Hansen on Pascal Compilers*. Prentice-Hall. [https://openlibrary.org/search?q=Brinch+Hansen+on+Pascal+Compilers+Brinch+Hansen+1985][ref_brinch_hansen_book]
 - Fraser, Christopher W., and David R. Hanson. 1995. *A Retargetable C Compiler: Design and Implementation*. Benjamin/Cummings Pub. Co. [https://openlibrary.org/works/OL3492370W][ref_lcc]
 - Wirth, Niklaus. 1996. *Compiler Construction*. Addison-Wesley Pub. Co. [https://people.inf.ethz.ch/wirth/CompilerConstruction/index.html][ref_wirth_compiler_construction]
+- Wirth, Niklaus, and Jürg Gutknecht. 1992. *Project Oberon: The Design of an Operating System and Compilers*. ACM Press. [https://people.inf.ethz.ch/wirth/ProjectOberon/index.html][ref_project_oberon]
 
 ### General Sources
 
 - "CakeML Verified Bootstrapped Compiler." n.d. Accessed October 25, 2026. [https://cakeml.org/][ref_cakeml]
 - "Fowler, Martin, Strangler Fig Application." n.d. Accessed October 25, 2026. [https://martinfowler.com/bliki/StranglerFigApplication.html][ref_strangler_fig]
 - "Reproducible Builds." n.d. Accessed October 25, 2026. [https://reproducible-builds.org/][ref_reproducible_builds]
-- Wirth, Niklaus, Gutknecht, Jürg, Project Oberon, and Addison-Wesley. 1992. "revised 2013." [https://people.inf.ethz.ch/wirth/ProjectOberon/index.html][ref_project_oberon]
 
 ### Tertiary Sources
 

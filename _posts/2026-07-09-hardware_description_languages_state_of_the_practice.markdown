@@ -1737,7 +1737,7 @@ engage with.
 - "FireSim field-programmable-gate-array-accelerated simulation." n.d. Accessed October 25, 2026. [https://fires.im/][ref_firesim]
 - "Quartus® Prime Design Software \| Altera® FPGA." n.d. Accessed October 25, 2026. [https://www.intel.com/content/www/us/en/products/details/fpga/development-tools/quartus-prime.html][ref_quartus]
 - "Siemens Electronic-Design-Automation." n.d. Accessed October 25, 2026. [https://eda.sw.siemens.com/][ref_siemens_eda]
-- "Synopsys Synplify Pro." n.d. Accessed October 25, 2026. [https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify-pro.html][ref_synplify]
+- "Synplify \| Logic Synthesis for FPGA Design." n.d. Accessed October 25, 2026. [https://www.synopsys.com/implementation-and-signoff/fpga-based-design/synplify-pro.html][ref_synplify]
 - "Twenty Twenty-Four Wilson Research Group Integrated-Circuit and Application-Specific-Integrated-Circuit Functional Verification Trend Report." n.d. Accessed October 25, 2026. [https://resources.sw.siemens.com/en-US/white-paper-2024-wilson-research-group-ic-asic-functional-verification-trend-report/][research_wilson_2024]
 
 [ref_amaranth]: https://amaranth-lang.org/

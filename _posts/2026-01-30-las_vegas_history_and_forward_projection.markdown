@@ -255,7 +255,7 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 - Denton and Morris. 2001. *\[Title not identified\]*. [https://www.penguinrandomhouse.com/books/59015/the-money-and-the-power-by-sally-denton-and-roger-morris/][book_denton_morris_2001]
 - Earley. 2000. *\[Title not identified\]*. [https://www.penguinrandomhouse.com/books/59014/super-casino-by-pete-earley/][book_earley_2000]
 - Findlay. 1986. *\[Title not identified\]*. [https://global.oup.com/academic/product/people-of-chance-9780195055016][book_findlay_1986]
-- Fleck. 2016. *\[Title not identified\]*. [https://islandpress.org/books/water-fighting-over][book_fleck_2016]
+- Fleck. 2016. *Water Is for Fighting Over*. [https://islandpress.org/books/water-fighting-over][book_fleck_2016]
 - Moehring, Eugene P. 2000. *Resort City in the Sunbelt: Las Vegas, 1930-2000*. University of Nevada Press. [https://unpress.nevada.edu/9780874173567/resort-city-in-the-sunbelt-second-edition/][book_moehring_2000]
 - Reid and Demaris. 1963. *\[Title not identified\]*. [https://www.worldcat.org/title/green-felt-jungle/oclc/577895][book_reid_demaris_1963]
 - Reisner. 1986. *\[Title not identified\]*. [https://www.penguinrandomhouse.com/books/56276/cadillac-desert-by-marc-reisner/][book_reisner_1986]
@@ -267,12 +267,12 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 ### General Sources
 
 - "Asia Gaming Brief." n.d. Accessed October 25, 2026. [https://agbrief.com/][ref_agb_briefings]
-- "Attom Foreclosure Data." n.d. Accessed October 25, 2026. [https://www.attomdata.com/data/foreclosure-data/][ref_attom_foreclosure]
 - Borg, Mason, and Shapiro. 2015. "\[Title not identified\]." Accessed October 25, 2026. [https://onlinelibrary.wiley.com/doi/10.1111/ajes.12123][research_borg_2015]
 - "Brightline West." n.d. Accessed October 25, 2026. [https://www.gobrightline.com/west][ref_brightline_west]
 - "CBRE Las Vegas." n.d. Accessed October 25, 2026. [https://www.cbre.com/insights/figures/las-vegas-office-figures][ref_cbre_las_vegas]
 - "Colorado River Compact." 1922. [https://www.usbr.gov/lc/region/pao/pdfiles/crcompct.pdf][ref_colorado_compact_1922]
 - "Culinary Workers Union Local 226." n.d. Culinary Union Local 226. Accessed October 25, 2026. [https://www.culinaryunion226.org/][ref_culinary_226]
+- "Foreclosure Data." n.d. *ATTOM*. Accessed October 25, 2026. [https://www.attomdata.com/data/foreclosure-data/][ref_attom_foreclosure]
 - "Gambling Participation Survey." n.d. Accessed October 25, 2026. [https://nationalcouncilonproblemgambling.org/][ref_agrs_survey]
 - "Gigafactory Nevada." n.d. Tesla. Accessed October 25, 2026. [https://www.tesla.com/gigafactory][ref_tesla_nevada]
 - "Harry Reid International Airport." n.d. Accessed October 25, 2026. [https://www.harryreidairport.com/][ref_lasairport]

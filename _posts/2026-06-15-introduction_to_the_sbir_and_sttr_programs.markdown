@@ -248,7 +248,7 @@ money.
 
 - *America's Seed Fund (the National Science Foundation portal)*. n.d. [https://seedfund.nsf.gov/][research_seedfund]
 - "SBIR and STTR Programme Portal." n.d. Accessed October 25, 2026. [https://www.sbir.gov/][research_sbir_gov]
-- Small Business Research Programs. n.d. *Overview and Issues for Reauthorization (Congressional Research Service)*. [https://www.congress.gov/crs-product/IF12874][research_crs]
+- "Small Business Research Programs: Overview and Issues for Reauthorization in the 119th Congress." n.d. Accessed October 25, 2026. [https://www.congress.gov/crs-product/IF12874][research_crs]
 
 ### Tertiary Sources
 

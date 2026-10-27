@@ -1714,7 +1714,7 @@ and budgets accordingly.
 ### Primary Sources, Non-Peer-Reviewed
 
 - "Commercial Drone Liability Insurance Overview." n.d. Accessed October 25, 2026. [https://www.faa.gov/uas/getting\_started/registered\_drones/uas\_insurance][ref_drone_insurance]
-- "EASA Open Specific and Certified Categories for UAS." n.d. Accessed October 25, 2026. [https://www.easa.europa.eu/en/domains/civil-drones/drones-regulatory-framework-background][ref_easa_uas]
+- "Drones: Regulatory Framework Background." n.d. EASA. Accessed October 25, 2026. [https://www.easa.europa.eu/en/domains/civil-drones/drones-regulatory-framework-background][ref_easa_uas]
 - "FAA Certificate of Waiver or Authorization." n.d. Accessed October 25, 2026. [https://www.faa.gov/uas/advanced\_operations/certification][ref_part_91_exemption]
 - "FAA Part 107 Small Unmanned Aircraft Rule." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107][ref_faa_part_107]
 - "FAA Part 137 Agricultural Aircraft Operations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-137][ref_part_137]
@@ -1727,15 +1727,15 @@ and budgets accordingly.
 
 - "AeroVironment Puma 3 AE." n.d. Accessed October 25, 2026. [https://www.avinc.com/uas/puma-3-ae][ref_puma_3_ae]
 - "AeroVironment Training Programs." n.d. Accessed October 25, 2026. [https://www.avinc.com/uas/training][ref_aerovironment_training]
+- "Blue UAS Cleared Drone List." n.d. Accessed October 25, 2026. [https://www.diu.mil/blue-uas-cleared-list][ref_blue_uas]
 - "DJI Academy." n.d. Accessed October 25, 2026. [https://enterprise.dji.com/training][ref_dji_academy]
 - "DJI Battery Care." n.d. Accessed October 25, 2026. [https://enterprise.dji.com/news/detail/best-practices-for-dji-enterprise-drone-batteries][ref_dji_battery_care]
 - "DJI Matrice 30T." n.d. Accessed October 25, 2026. [https://enterprise.dji.com/matrice-30][ref_matrice_30t]
-- "DJI Matrice 350 RTK." n.d. Accessed October 25, 2026. [https://enterprise.dji.com/matrice-350-rtk][ref_matrice_350]
 - "DRONERESPONDERS." n.d. Accessed October 25, 2026. [https://www.droneresponders.org/][ref_droneresponders]
 - "Edge Autonomy Penguin C Mk2." n.d. Accessed October 25, 2026. [https://edgeautonomy.io/uncrewed-systems/penguin-c-mk2/][ref_penguin_c]
 - "FCC Part 90 Private Land Mobile Radio Services." n.d. Accessed October 25, 2026. [https://www.fcc.gov/private-land-mobile-radio-services][ref_fcc_part_90]
+- "Matrice 350 RTK." n.d. DJI. Accessed October 25, 2026. [https://enterprise.dji.com/matrice-350-rtk][ref_matrice_350]
 - "National Association for Search and Rescue." n.d. Accessed October 25, 2026. [https://nasar.org/][ref_nasar]
-- "NDAA Section 848 Compliant Components." n.d. Accessed October 25, 2026. [https://www.diu.mil/blue-uas-cleared-list][ref_blue_uas]
 - "NIST Standard Test Methods for Small Unmanned Aircraft Systems." n.d. Accessed October 25, 2026. [https://www.nist.gov/el/intelligent-systems-division-73500/cooperative-systems/standard-test-methods-response-robots][ref_nist_tests]
 - "Quantum Systems Training Programs." n.d. Accessed October 25, 2026. [https://quantum-systems.com/services/][ref_quantum_training]
 - "Quantum Systems Trinity F90+." n.d. Accessed October 25, 2026. [https://quantum-systems.com/trinity-f90-plus/][ref_trinity_f90]
@@ -1747,12 +1747,12 @@ and budgets accordingly.
 ### General Sources
 
 - "Autel EVO Max 4T." n.d. Accessed October 25, 2026. [https://www.autelrobotics.com/productdetail/evo-max-4t/][ref_autel_max_4t]
+- "Drone Delivery for Food, Groceries, and Medicine." n.d. Zipline. Accessed October 25, 2026. [https://www.flyzipline.com/][ref_zipline]
 - "King Schools Drone Pilot Test Preparation." n.d. Accessed October 25, 2026. [https://www.kingschools.com/courses/drone][ref_king_schools]
 - "Matternet Drone Delivery Network." n.d. Accessed October 25, 2026. [https://mttr.net/][ref_matternet]
 - "Pilot Institute Drone Training." n.d. Accessed October 25, 2026. [https://pilotinstitute.com/][ref_pilot_institute]
 - "Search and Rescue Society of British Columbia." n.d. Accessed October 25, 2026. [https://www.bcsara.com/][ref_sarbc]
 - "Texas A&M Engineering Extension Service Drone Programs." n.d. Accessed October 25, 2026. [https://teex.org/program/utap/][ref_teex]
-- "Zipline Drone Delivery System." n.d. Accessed October 25, 2026. [https://www.flyzipline.com/][ref_zipline]
 
 ### Tertiary Sources
 

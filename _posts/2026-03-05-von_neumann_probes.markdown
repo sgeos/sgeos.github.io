@@ -2416,12 +2416,16 @@ with the subject.
 - Cotta, Carlos, and Álvaro Morales. 2009. "A Computational Analysis of Galactic Exploration with Space Probes: Implications for the Fermi Paradox." Preprint, arXiv. [https://doi.org/10.48550/arxiv.0907.0345][research_cotta]
 - Ellery, Alex A. 2015. "Are Self-Replicating Machines Feasible?" In *AIAA SPACE 2015 Conference and Exposition*. AIAA 2015-4653. American Institute of Aeronautics and Astronautics. [https://doi.org/10.2514/6.2015-4653][future_ellery_feasible]
 - Ellery, Alex. 2017. "Building Physical Self-Replicating Machines." In *Proceedings of the 14th European Conference on Artificial Life ECAL 2017*. MIT Press. [https://doi.org/10.7551/ecal\_a\_026][future_ellery_lunar]
+- Ellery, Alex. 2022. "Self-Replicating Probes Are Imminent – Implications for SETI." *International Journal of Astrobiology* 21: 212–42. [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/selfreplicating-probes-are-imminent-implications-for-seti/2CB214D26020D497D48AE489756BEE77][research_eckersley]
 - Ellery, Alex. 2025. "Technosignatures of Self-Replicating Probes in the Solar System." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2510.00082][research_ellery_technosignatures]
+- Haliki, Emir. 2020. "Dyson Swarms of Von Neumann Probes: Prospects and Predictions." *International Journal of Astrobiology* 19: 474–81. [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/abs/dyson-swarms-of-von-neumann-probes-prospects-and-predictions/F974CC6EF4F32ED5040EBCFD50631764][research_osmanov_dyson]
 - Hart, Michael H. (1975) 1995. "An Explanation for the Absence of Extraterrestrials on Earth." In *Extraterrestrials*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511564970.003][research_hart]
 - Hein, Andreas M., and Stephen Baxter. 2018. "Artificial Intelligence for Interstellar Travel." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1811.06526][future_hein_ai]
 - Jones, Rhys, Patrick Haufe, Edward Sells, et al. 2011. "RepRap – the Replicating Rapid Prototyper." *Robotica* 29 (1): 177–91. [https://doi.org/10.1017/s026357471000069x][research_reprap_jones]
 - Lubin, Philip. 2016. "A Roadmap to Interstellar Flight." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1604.01356][research_lubin]
+- Matloff, Gregory L. 2022. "Von Neumann Probes: Rationale, Propulsion, Interstellar Transfer Timing." *International Journal of Astrobiology* 21: 205–11. [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/abs/von-neumann-probes-rationale-propulsion-interstellar-transfer-timing/5202679D74645D3707248FE5D5FA0124][research_vn_rationale]
 - Nicholson, Arwen, and Duncan Forgan. 2013. "Slingshot Dynamics for Self-Replicating Probes and the Effect on Exploration Timescales." *International Journal of Astrobiology* 12 (4): 337–44. [https://doi.org/10.1017/s1473550413000244][future_nicholson]
+- Osmanov, Z. 2020. "On the Interstellar Von Neumann Micro Self-Reproducing Probes." *International Journal of Astrobiology* 19: 220–23. [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/on-the-interstellar-von-neumann-micro-selfreproducing-probes/654B1F254BA4F328E52AD748158A59F5][research_osmanov]
 - Parkin, Kevin L. G. 2018. "The Breakthrough Starshot System Model." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1805.01306][research_parkin]
 - "Replicating Systems Concepts: Self-Replicating Lunar Factory and Demonstration." 1982. In *Advan. Automation for Space Missions*. [https://ntrs.nasa.gov/citations/19830007081][research_nasa_cp2255]
 - Sipper, Moshe. 1998. "Fifty Years of Research on Self-Replication: An Overview." *Artificial Life* 4 (3): 237–57. [https://doi.org/10.1162/106454698568576][research_sipper]
@@ -2436,18 +2440,15 @@ with the subject.
 - "Deep Space Optical Communications Experiment." n.d. Accessed October 25, 2026. [https://www.nasa.gov/mission/deep-space-optical-communications-dsoc/][ref_dsoc]
 - "Fission Surface Power, NASA." n.d. Accessed October 25, 2026. [https://www.nasa.gov/exploration-systems-development-mission-directorate/fission-surface-power/][ref_fission_surface_power]
 - "In-Situ Resource Utilization (ISRU), NASA." n.d. Accessed October 25, 2026. [https://www.nasa.gov/mission/in-situ-resource-utilization-isru/][ref_isru]
-- "Kilopower, NASA." n.d. Accessed October 25, 2026. [https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/kilopower-hmqzw/][ref_kilopower]
+- "Kilopower." 2017. NASA, December 12. [https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/kilopower-hmqzw/][ref_kilopower]
 
 ### General Sources
 
-- A Self-Reproducing Interstellar Probe (JBIS). 1980. "Freitas." [https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm][research_freitas]
 - "CogniSAT-6 Autonomous AI CubeSat, Ubotica." n.d. Accessed October 25, 2026. [https://ubotica.com/project/https-gadgetbond-com-nasa-cognisat6-cubesat-ai-autonomous-satellite/][ref_cognisat]
 - David Brin. 1983. "'The Great Silence,' QJRAS." [https://www.researchgate.net/publication/234496344\_The\_'Great\_Silence'\_The\_Controversy\_Concerning\_Extraterrestrial\_Intelligent\_Life][research_brin]
 - Deep, Space, Probes:, et al. 2005. "Matloff." [https://link.springer.com/book/10.1007/b104370][future_matloff]
-- Dyson, Swarms, of, et al. 2020. "Osmanov." [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/abs/dyson-swarms-of-von-neumann-probes-prospects-and-predictions/F974CC6EF4F32ED5040EBCFD50631764][research_osmanov_dyson]
-- On the Interstellar Von Neumann Micro Self-Reproducing Probes. 2023. "Osmanov." [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/on-the-interstellar-von-neumann-micro-selfreproducing-probes/654B1F254BA4F328E52AD748158A59F5][research_osmanov]
+- Freitas, Robert A., Jr. 1980. "A Self-Reproducing Interstellar Probe." Accessed October 25, 2026. [https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm][research_freitas]
 - "The Quiet Demise of Breakthrough Starshot, Scientific American." n.d. Accessed October 25, 2026. [https://www.scientificamerican.com/article/the-quiet-demise-of-breakthrough-starshot-a-billionaires-interstellar-mission-to-alpha-centauri/][research_starshot_demise]
-- Self-Replicating Probes Are Imminent: Implications for SETI. 2022. "Eckersley." [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/selfreplicating-probes-are-imminent-implications-for-seti/2CB214D26020D497D48AE489756BEE77][research_eckersley]
 - "Sustainable Lunar Exploration Through Self-Replicating Robots, Ellery." n.d. Accessed October 25, 2026. [https://www.researchgate.net/profile/Alex-Ellery][research_ellery_motor]
 - The Case for Interstellar Probes (JBIS). 1983. "Freitas." [https://www.rfreitas.com/Astro/ProbesJBIS1983.htm][future_freitas_case]
 - The Solipsist Approach to Extraterrestrial Intelligence (QJRAS). 1983. "Sagan and Newman." [https://ui.adsabs.harvard.edu/abs/1983QJRAS..24..113S][research_sagan]
@@ -2455,7 +2456,6 @@ with the subject.
 - Theory of Self-Reproducing Automata. 1966. "Von Neumann (ed. Burks)." [https://cba.mit.edu/events/03.11.ASE/docs/VonNeumann.pdf][research_von_neumann]
 - Tipler, Frank J. 1981. "Extraterrestrial Intelligent Beings Do Not Exist." *Physics Today* 34 (4): 9–71. [https://doi.org/10.1063/1.2914542][research_tipler]
 - "Total Ionizing Dose, Wikipedia." n.d. Accessed October 25, 2026. [https://en.wikipedia.org/wiki/Total\_ionizing\_dose][ref_total_ionizing_dose]
-- Von Neumann Probes: Rationale. 2022. "Propulsion, Interstellar Transfer Timing, Cambridge." [https://www.cambridge.org/core/journals/international-journal-of-astrobiology/article/abs/von-neumann-probes-rationale-propulsion-interstellar-transfer-timing/5202679D74645D3707248FE5D5FA0124][research_vn_rationale]
 
 ### Tertiary Sources
 

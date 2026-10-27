@@ -476,7 +476,6 @@ This article follows the terminological conventions established in [A266][relate
 - "The Constitution of the United States: A Transcription." 1787. National Archives. Accessed October 25, 2026. [https://www.archives.gov/founding-docs/constitution-transcript][ref_us_constitution_1787]
 - "Declaration of Independence: A Transcription." 1776. National Archives. Accessed October 25, 2026. [https://www.archives.gov/founding-docs/declaration-transcript][ref_declaration_of_independence_1776]
 - Delaware Constitution. 1776. "The Federal and State Constitutions, Colonial Charters, and Other Organic Laws of the State\[s\], Territories, and Colonies Now or Heretofore Forming the United States of America /Compiled and Edited under the Act of Congress of June 30, 1906." Washington, DC: Government Printing Office, 1909. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/de02.asp][ref_delaware_constitution_1776]
-- Edwards Faithful Narrative. 1737. "primary text." [https://www.ccel.org/ccel/edwards/works1.html][ref_edwards_faithful_narrative_1737]
 - "Everson v. Board of Education, 330 U.S. 1 (1947)." 1947. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/330/1/][ref_everson_v_board_of_education_1947]
 - "Federalist 10 primary text." n.d. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/fed10.asp][ref_federalist_10]
 - "Federalist 51 primary text." n.d. Accessed October 25, 2026. [https://avalon.law.yale.edu/18th\_century/fed51.asp][ref_federalist_51]
@@ -500,6 +499,7 @@ This article follows the terminological conventions established in [A266][relate
 - "Whitefield Journals primary source." n.d. Accessed October 25, 2026. [https://www.ccel.org/ccel/whitefield/journals.html][ref_whitefield_journals]
 - Whittenburg, James P. 1977. "Planters, Merchants, and Lawyers: Social Change and the Origins of the North Carolina Regulation." *William and Mary Quarterly* 34 (2): 215. [https://doi.org/10.2307/1925314][research_whittenburg_1977]
 - "Work Info: Religious Affections: Christian Classics Ethereal Library." 1746. Accessed October 25, 2026. [https://www.ccel.org/ccel/edwards/affections.html][ref_edwards_religious_affections_1746]
+- "Work Info: Works of Jonathan Edwards, Volume One: Christian Classics Ethereal Library." 1737. Accessed October 25, 2026. [https://www.ccel.org/ccel/edwards/works1.html][ref_edwards_faithful_narrative_1737]
 
 ### Secondary Sources
 

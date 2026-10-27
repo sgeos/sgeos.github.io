@@ -113,7 +113,7 @@ with reviewers exhibiting anomalously high $C^{\text{neg}}$ triggering attack-or
 
 $$C_{\text{reviewer}}^{\text{target}}(R, T) = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{target}(r) = T \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}$$
 
-with anomalously high values across a target-and-competitor set triggering coordinated-attack classification. The [Ott 2013][research_ott_et_al_2013] Negative Deceptive Opinion Spam treatment establishes the negative-review detection framework.
+with anomalously high values across a target-and-competitor set triggering coordinated-attack classification. The [Ott et al. 2013][research_ott_et_al_2013] Negative Deceptive Opinion Spam treatment establishes the negative-review detection framework.
 
 ### Coordinated Review Bombing
 
@@ -736,6 +736,7 @@ These questions recur throughout the miniseries and are revisited in the closing
 - "Nemet Chevrolet v Consumeraffairs.com." 2009. [https://law.justia.com/cases/federal/appellate-courts/ca4/08-2097/08-2097-2009-12-29.html][ref_nemet_v_consumeraffairs_2009]
 - "NetzDG: Nichtamtliches Inhaltsverzeichnis." 2017. Accessed October 25, 2026. [https://www.gesetze-im-internet.de/netzdg/][ref_germany_netzdg_2017]
 - "New York Times v Sullivan." 1964. [https://supreme.justia.com/cases/federal/us/376/254/][ref_ny_times_sullivan_1964]
+- Ott, Myle, Claire Cardie, and Jeffrey T. Hancock. 2013. "Negative Deceptive Opinion Spam." In *Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*. [https://aclanthology.org/N13-1053/][research_ott_et_al_2013]
 - Ott, Myle, Yejin Choi, Claire Cardie, and Jeffrey T. Hancock. 2011. "Finding Deceptive Opinion Spam by Any Stretch of the Imagination." In *Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*. [https://aclanthology.org/P11-1032/][research_ott_et_al_2011]
 - Papernot, Nicolas, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z. Berkay Celik, and Ananthram Swami. 2016. "Practical Black-Box Attacks against Machine Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1602.02697][research_papernot_et_al_2016]
 - "Perfect 10 v CCBill." 2007. [https://caselaw.findlaw.com/court/us-9th-circuit/1050063.html][ref_perfect_10_v_ccbill_2007]
@@ -826,7 +827,7 @@ These questions recur throughout the miniseries and are revisited in the closing
 - "4chan Raid Coordination Documentation." n.d. Accessed October 25, 2026. [https://knowyourmeme.com/memes/subcultures/4chan][ref_4chan_raid_documentation]
 - "ABC News 20/20 BBB Investigation." 2010. [https://abcnews.go.com/Blotter/business-bureau-best-ratings-money-buy/story?id=12123843][ref_abc_2020_bbb_2010]
 - "AI-Powered Reputation Management Platform." n.d. Accessed October 25, 2026. [https://www.reputation.com/][ref_reputation_com]
-- "Amazon Brand Registry." n.d. Accessed October 25, 2026. [https://brandservices.amazon.com/][ref_amazon_brand_registry]
+- "Amazon Brand Registry." n.d. Sell on Amazon. Accessed October 25, 2026. [https://brandservices.amazon.com/][ref_amazon_brand_registry]
 - "Amazon Community Guidelines." n.d. Accessed October 25, 2026. [https://www.amazon.com/gp/help/customer/display.html?nodeId=GLHXEX85MENUE4XF][ref_amazon_community_guidelines]
 - "Amber Heard v Depp." 2022. [https://www.courts.state.va.us/opinions/opncavwp/1602222.pdf][ref_heard_v_depp_2022]
 - Anderson. 1991. "Reputation Compensation Punishment Suppression." [https://scholar.google.com/scholar?q=anderson+1991+reputation+compensation+punishment+suppression][research_anderson_1991]
@@ -857,7 +858,7 @@ These questions recur throughout the miniseries and are revisited in the closing
 - Jane. 2014. "Your a Ugly Whorish Slut Gendered Online Harassment." [https://journals.sagepub.com/doi/10.1177/1367877913513494][research_jane_2014]
 - "Klayman v Zuckerberg." 2014. [https://www.cadc.uscourts.gov/internet/opinions.nsf/E5C3EB0E1F9EF8E185257CEC004E3AC0/\$file/13-7017-1493974.pdf][ref_klayman_v_zuckerberg_2014]
 - Klonick. 2018. "The New Governors." [https://harvardlawreview.org/2018/04/the-new-governors-the-people-rules-and-processes-governing-online-speech/][research_klonick_2018]
-- "Lumen Database." n.d. Accessed October 25, 2026. [https://lumendatabase.org/][ref_lumen_database]
+- "Lumen." n.d. Accessed October 25, 2026. [https://lumendatabase.org/][ref_lumen_database]
 - Marwick and Caplan. 2018. "Drinking Male Tears Language Harassment and Trolls." [https://journals.sagepub.com/doi/10.1177/0163443718772107][research_marwick_caplan_2018]
 - Massaro and Stryker. 2013. "Freedom of Speech Liberal Democracy and Emerging Evidence." [https://arizonalawreview.org/pdf/54-4/54arizlrev1287.pdf][research_massaro_stryker_2013]
 - Melamed. 2006. "Exclusionary Conduct Under the Antitrust Laws." [https://scholar.google.com/scholar?q=melamed+2006+exclusionary+conduct+antitrust][research_melamed_2006]
@@ -865,7 +866,6 @@ These questions recur throughout the miniseries and are revisited in the closing
 - "Moz Spam Score Methodology." n.d. Accessed October 25, 2026. [https://moz.com/help/moz-data/spam-score-methodology][ref_moz_spam_score]
 - "NetReputation.com." n.d. Accessed October 25, 2026. [https://www.netreputation.com/][ref_netreputation_com]
 - "Online Policy Group v Diebold." 2004. [https://cyberlaw.stanford.edu/case/online-policy-group-v-diebold-inc][ref_diebold_2004]
-- Ott. 2013. "Negative Deceptive Opinion Spam." [https://aclanthology.org/N13-1053/][research_ott_et_al_2013]
 - "Ouellette v Viacom." 2013. [https://scholar.google.com/scholar\_case?case=17232987395091854023][ref_ouellette_v_viacom_2013]
 - "Ponemon Institute Enterprise Reputation Research." n.d. Accessed October 25, 2026. [https://www.ponemon.org/][ref_ponemon_institute]
 - "Public Expression Protection Act: Uniform Law Commission." n.d. Accessed October 25, 2026. [https://www.uniformlaws.org/committees/community-home?CommunityKey=4f486460-199c-49d7-9fac-05570be1e7b1][ref_upepa]

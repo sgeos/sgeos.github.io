@@ -64,7 +64,7 @@ You can download the PDF [here]({{ site.url }}/assets/pdf/post_adding_images_and
 
 - "GitHub Pages." n.d. pages.github.com. Accessed October 25, 2026. [https://pages.github.com][github_pages]
 - "Jekyll." n.d. jekyllrb.com. Accessed October 25, 2026. [https://jekyllrb.com][jekyll]
-- "Jekyll, Writing posts." n.d. jekyllrb.com. Accessed October 25, 2026. [https://jekyllrb.com/docs/posts/][jekyll_posts]
+- "Writing Posts." n.d. jekyllrb.com. Accessed October 25, 2026. [https://jekyllrb.com/docs/posts/][jekyll_posts]
 
 [github_pages]: https://pages.github.com
 [jekyll]: https://jekyllrb.com

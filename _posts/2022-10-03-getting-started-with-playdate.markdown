@@ -163,18 +163,18 @@ Consider visiting the [Playdate Developer Page][playdate_dev] and
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "Lua Home Page." n.d. www.lua.org. Accessed October 25, 2026. [https://www.lua.org][lua]
-- "Playdate C API Documentation." n.d. sdk.play.date. Accessed October 25, 2026. [https://sdk.play.date/inside-playdate-with-c][playdate_c_api_docs]
+- Copyright © Panic Inc. n.d. "Inside Playdate with C." sdk.play.date. Accessed October 25, 2026. [https://sdk.play.date/inside-playdate-with-c][playdate_c_api_docs]
 - "Playdate Lua Documentation." n.d. sdk.play.date. Accessed October 25, 2026. [https://sdk.play.date/Inside%20Playdate.html\#developing-in-lua][playdate_lua_docs]
+- "The Programming Language Lua." n.d. www.lua.org. Accessed October 25, 2026. [https://www.lua.org][lua]
 
 ### Commercial Sources
 
-- "Playdate Developer Page." n.d. Accessed October 25, 2026. [https://play.date/dev/][playdate_dev]
+- "Develop for Playdate." n.d. Accessed October 25, 2026. [https://play.date/dev/][playdate_dev]
 - "Playdate Homepage." n.d. Accessed October 25, 2026. [https://play.date/][playdate]
-- "Playdate Pulp." n.d. Accessed October 25, 2026. [https://play.date/pulp/][playdate_pulp]
-- "Playdate Pulp Documentation." n.d. Accessed October 25, 2026. [https://play.date/pulp/docs/][playdate_pulp_docs]
+- "Playdate Pulp." n.d.-a. Accessed October 25, 2026. [https://play.date/pulp/][playdate_pulp]
+- "Playdate Pulp." n.d.-b. Accessed October 25, 2026. [https://play.date/pulp/docs/][playdate_pulp_docs]
+- "Playdate Pulp." n.d.-c. Accessed October 25, 2026. [https://play.date/pulp/docs/pulpscript/][playdate_pulpscript_docs]
 - "Playdate Pulp Tutorials." n.d. Accessed October 25, 2026. [https://play.date/dev/links/\#devLinksCategorySDKPulp][playdate_pulp_tutorials]
-- "Playdate PulpScript Documentation." n.d. Accessed October 25, 2026. [https://play.date/pulp/docs/pulpscript/][playdate_pulpscript_docs]
 - "Playdate SDK, All Downloads." n.d. Accessed October 25, 2026. [https://download.panic.com/playdate\_sdk/][playdate_sdk_all]
 - "Playdate SDK, Latest." n.d. Accessed October 25, 2026. [https://download.panic.com/playdate\_sdk/PlaydateSDK-latest.zip][playdate_sdk_latest]
 

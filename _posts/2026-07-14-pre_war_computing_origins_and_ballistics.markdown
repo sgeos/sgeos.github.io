@@ -169,10 +169,10 @@ The next article in the series treats the wartime computing efforts that ran in 
 
 - "Adele Goldstine ENIAC Manual." n.d. Accessed October 25, 2026. [https://www.seas.upenn.edu/about/history-heritage/eniac/][ref_adele_goldstine]
 - Aiken and Hopper. 1946. "Similarity Degree-Based Mobility Pattern Aware Routing in DTNs." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/5222878][research_aiken_hopper_1946]
-- Bromley. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4638384][research_bromley_1990]
+- Bromley. 1990. "Robust Control of a Manufacturing System: Flow-Quality Approach." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4638384][research_bromley_1990]
 - Bush. 1931. "\[Title not identified\]." Accessed October 25, 2026. [https://www.jstor.org/stable/24537568][research_bush_1931]
 - Bush and Caldwell. 1945. "\[Title not identified\]." Accessed October 25, 2026. [https://www.jstor.org/stable/24540537][research_bush_caldwell_1945]
-- "Ford Instrument Mark 1." n.d. Accessed October 25, 2026. [https://maritime.org/doc/computermk1/][ref_ford_instrument_mk1]
+- "Computer Mark 1 and Mark 1A." n.d. Accessed October 25, 2026. [https://maritime.org/doc/computermk1/][ref_ford_instrument_mk1]
 - "Kerrison Predictor." n.d. Accessed October 25, 2026. [https://collection.sciencemuseumgroup.org.uk/objects/co51067/predictor-no-3-mk-i-kerrison-anti-aircraft-fire-control-predictor][ref_kerrison_predictor]
 - Metropolis and Nelson. 1982. "Meetings in Retrospect." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4640726][research_metropolis_nelson_1982]
 - Rojas. 1997. "Anecdotes." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/586074][research_rojas_1997]

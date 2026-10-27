@@ -217,7 +217,7 @@ per Tuskegee Institute records maintained by Monroe Work through the early twent
 
 ## The Homestead Act and Continental Anglo-Protestant Settlement
 
-The Homestead Act of 20 May 1862 [US Homestead Act 1862][ref_us_homestead_act_1862], enacted during the Civil War with significant Republican support and Southern absence from Congress, provided the federal legal framework transferring approximately
+The Homestead Act of 20 May 1862 [Homestead Act 1862 1862][ref_us_homestead_act_1862], enacted during the Civil War with significant Republican support and Southern absence from Congress, provided the federal legal framework transferring approximately
 
 $$A_{\text{Homestead Act patents issued, 1862 to 1934}} \approx 2.7 \times 10^8 \text{ acres}, \quad N_{\text{Homestead patents}} \approx 1.6 \times 10^6$$
 
@@ -687,6 +687,7 @@ This article follows the terminological conventions established in [A266][relate
 - "Gentlemen's Agreement." 1908. [https://history.state.gov/milestones/1899-1913/gentlemens-agreement][ref_gentlemens_agreement_1908]
 - Gibbons. 1876. "The Faith of Our Fathers." [https://archive.org/details/faithofourfather00gibb][ref_gibbons_1876]
 - Gladden. 1876. "Working People and Their Employers." [https://archive.org/details/workingpeopleth00gladgoog][ref_gladden_1876]
+- "Homestead Act (1862)." 1862. National Archives. Accessed October 25, 2026. [https://www.archives.gov/milestone-documents/homestead-act][ref_us_homestead_act_1862]
 - Howard. 1907. "Autobiography of Oliver Otis Howard." [https://archive.org/details/autobiographyof01howa][ref_howard_1907]
 - Leo XIII. 1888. "Libertas (June 20, 1888)." Accessed October 25, 2026. [https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf\_l-xiii\_enc\_20061888\_libertas.html][ref_leo_xiii_1888_libertas]
 - Lincoln. 1863a. "The Emancipation Proclamation." National Archives. Accessed October 25, 2026. [https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation][ref_lincoln_1863_emancipation]
@@ -709,11 +710,9 @@ This article follows the terminological conventions established in [A266][relate
 - "US 14th Amendment." 1868. [https://www.archives.gov/milestone-documents/14th-amendment][ref_us_14th_amendment]
 - US Dawes Act. 1887. "General Allotment Act." [https://www.archives.gov/milestone-documents/dawes-act][ref_us_dawes_act_1887]
 - "US Freedmen's Bureau Act." 1865. [https://www.loc.gov/resource/rbpe.16800900/][ref_freedmens_bureau_act]
-- "US Homestead Act." 1862. [https://www.archives.gov/milestone-documents/homestead-act][ref_us_homestead_act_1862]
 - Vecoli, Rudolph J. 1964. "Contadini in Chicago: A Critique of the Uprooted." *Journal of American History* 51 (3): 404. [https://doi.org/10.2307/1894893][research_vecoli_1964_italians]
 - Vecoli, R. J. 1969. "Prelates and Peasants: Italian Immigrants and the Catholic Church." *Journal of Social History* 2 (3): 217–68. [https://doi.org/10.1353/jsh/2.3.217][research_vecoli_1969]
 - Washington. 1895. "Booker T. Washington Delivers the 1895 Atlanta Compromise Speech." Accessed October 25, 2026. [https://historymatters.gmu.edu/d/39/][ref_washington_1895_atlanta]
-- Willard. 1889. "Glimpses of Fifty Years." [https://archive.org/details/glimpsesoffiftyy00will][ref_willard_1889]
 - Wise. 1901. "Reminiscences." [https://archive.org/details/reminiscencesbyi00wise][ref_wise_1901]
 
 ### Secondary Sources
@@ -812,7 +811,7 @@ This article follows the terminological conventions established in [A266][relate
 - McKeown, Adam Ph. D. 2008. *Melancholy Order: Asian Migration and the Globalization of Borders*. Columbia University Press. [https://cup.columbia.edu/book/melancholy-order/9780231140768][book_mckeown_2008]
 - McKinley, Edward H. 1980. *Marching to Glory*. Harper & Row San Francisco. [https://www.eerdmans.com/9780802835710/marching-to-glory/][book_mckinley_1980]
 - Meriam Report. 1928. *The Problem of Indian Administration*. [https://catalog.hathitrust.org/Record/001292907][ref_meriam_report_1928]
-- Meyer. 1988. *Response to Modernity (Reform Judaism)*. [https://global.oup.com/academic/product/response-to-modernity-9780814326848][book_meyer_1988]
+- Meyer, Michael A. 1988. *Response to Modernity: A History of the Reform Movement in Judaism*. Oxford University Press. [https://global.oup.com/academic/product/response-to-modernity-9780814326848][book_meyer_1988]
 - Michels, Tony. 2005. *A Fire in Their Hearts: Yiddish Socialists in New York*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674025684][book_michels_2005]
 - Miller, Stuart Creighton. 1982. *Benevolent Assimilation: The American Conquest of the Philippines, 1899-1903*. Yale University Press. [https://yalebooks.yale.edu/book/9780300030815/benevolent-assimilation/][book_miller_1982]
 - Miller, Randall M., Harry S. Stout, and Charles Reagan Wilson. 1998. *Religion and the American Civil War*. Oxford University Press. [https://global.oup.com/academic/product/religion-and-the-american-civil-war-9780195121285][book_miller_stout_wilson_1998]
@@ -875,6 +874,7 @@ This article follows the terminological conventions established in [A266][relate
 - Wells. 1895. *The Red Record by Ida B. Wells-Barnett*. [https://www.gutenberg.org/ebooks/14977][ref_wells_1895_red_record]
 - Wertheimer, Jack. 1997. *A People Divided: Judaism in Contemporary America*. Brandeis Unieversity Press. [https://global.oup.com/academic/product/a-people-divided-9780874518764][book_wertheimer_1997]
 - White, Ronald C., and C. Howard Hopkins. 1976. *The Social Gospel: Religion and Reform in Changing America*. Temple University Press. [https://openlibrary.org/works/OL4803811W][book_white_hopkins_1976]
+- Willard, Frances Elizabeth, 1839-1898. 1889. *Glimpses of Fifty Years; the Autobiography of an American Woman*. Chicago, H. J. Smith. [https://archive.org/details/glimpsesoffiftyy00will][ref_willard_1889]
 - Wilson, Theodore Brantner. 1965. *The Black Codes of the South*. University of Alabama Press. [https://openlibrary.org/works/OL7390515W][book_wilson_1965]
 - Wilson, Charles Reagan. 1980. *Baptized in Blood: The Religion of the Lost Cause, 1865-1920*. University of Georgia Press. [https://uga.edu/press/wilson-baptized-in-blood][book_wilson_1980]
 - Woodman, Harold D. 1995. *New South, New Law: The Legal Foundations of Credit and Labor Relations in the Postbellum Agricultural South*. Louisiana State University Press. [https://lsupress.org/9780807119761/new-south-new-law/][book_woodman_1995]
@@ -900,7 +900,7 @@ This article follows the terminological conventions established in [A266][relate
 - "Christian Recorder (AME)." n.d. Accessed October 25, 2026. [https://www.aaihs.org/the-christian-recorder-history/][ref_christian_recorder]
 - "CSA Davis Fast Day Proclamations." n.d. Accessed October 25, 2026. [https://rcah.msu.edu/csa-fast-days][ref_csa_davis_fast_day]
 - Du Bois. 1899. "The Philadelphia Negro." [https://www.gutenberg.org/ebooks/68076][ref_dubois_1899_philadelphia_negro]
-- Lincoln. 1862. "Meditation on the Divine Will." [https://www.abrahamlincolnonline.org/lincoln/speeches/meditat.htm][ref_lincoln_1862_meditation]
+- Lincoln. 1862. "Abraham Lincoln's Meditation on the Divine Will." Accessed October 25, 2026. [https://www.abrahamlincolnonline.org/lincoln/speeches/meditat.htm][ref_lincoln_1862_meditation]
 - Lincoln. 1863b. "Thanksgiving Proclamation." [https://www.abrahamlincolnonline.org/lincoln/speeches/thanks.htm][ref_lincoln_1863_thanksgiving]
 - "Louisiana Constitution." 1898. [https://digitalcommons.law.lsu.edu/la-constitutions/1898/][ref_louisiana_constitution_1898]
 - "Mississippi Black Code." 1865. [https://digitalcommons.msstate.edu/msstate-black-codes-1865][ref_mississippi_black_code_1865]

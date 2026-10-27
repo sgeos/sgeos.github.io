@@ -149,7 +149,7 @@ The next article in the series treats the Apollo Guidance Computer as the most-s
 
 ### General Sources
 
-- "ARINC 653." n.d. Accessed October 25, 2026. [https://www.aviation-ia.com/products/653p1-5-avionics-application-software-standard-interface-part-1-required-services][ref_arinc_653]
+- "ARINC Ia \| SAE Itc." n.d. Accessed October 25, 2026. [https://www.aviation-ia.com/products/653p1-5-avionics-application-software-standard-interface-part-1-required-services][ref_arinc_653]
 - Baarspul. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/0376042190900175][research_baarspul_1990]
 - Dahmann, Fujimoto, and Weatherly. 1997. "\[Title not identified\]." Accessed October 25, 2026. [https://dl.acm.org/doi/10.1109/WSC.1997.640388][research_dahmann_fujimoto_weatherly_1997]
 - Isermann, Schaffnit, and Sinsel. 1999. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0967066199001497][research_isermann_schaffnit_sinsel_1999]

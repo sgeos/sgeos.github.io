@@ -644,24 +644,24 @@ on mission command and is freely available as a PDF.
 ### Primary Sources, Non-Peer-Reviewed
 
 - *Auftragstaktik and Innere Fuhrung*. n.d. [https://www.armyupress.army.mil/Portals/7/Hot-Spots/docs/MC/MR-Sep-Oct-2002-Widder.pdf][research_widder]
-- *The Auftragstaktik Infatuation*. n.d. [https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/July-August-2022/Herrera/][research_herrera]
-- *Leadership That Gets Results*. n.d. [https://hbr.org/2000/03/leadership-that-gets-results][research_goleman]
 - *The Trouble with Mission Command*. n.d. [https://ndupress.ndu.edu/Portals/68/Documents/jfq/jfq-86/jfq-86\_94-100\_Hill-Niemi.pdf][research_hill_niemi]
 
 ### Secondary Sources
 
 - *The Art of Action*. n.d. [https://www.stephenbungay.com/Books.ink][book_art_of_action]
-- *Moltke on the Art of War*. n.d. [https://www.penguinrandomhouse.com/books/83978/moltke-on-the-art-of-war-by-daniel-hughes/][book_moltke]
+- *Moltke on the Art of War: 9780891415756*. n.d. [https://www.penguinrandomhouse.com/books/83978/moltke-on-the-art-of-war-by-daniel-hughes/][book_moltke]
 - *On War*. n.d. [https://press.princeton.edu/books/paperback/9780691018546/on-war][book_on_war]
-- *Team of Teams*. n.d. [https://www.penguinrandomhouse.com/books/317066/team-of-teams-by-general-stanley-mcchrystal-tantum-collins-david-silverman-and-chris-fussell/][book_team_of_teams]
+- *Team of Teams by General Stanley McChrystal, Tantum Collins, David Silverman, Chris Fussell: 9781591847489*. n.d. [https://www.penguinrandomhouse.com/books/317066/team-of-teams-by-general-stanley-mcchrystal-tantum-collins-david-silverman-and-chris-fussell/][book_team_of_teams]
 - *Turn the Ship Around!*. n.d. [https://davidmarquet.com/books/turn-the-ship-around-book/][book_turn_ship]
 - Vandergriff, Donald E. 2019. *Adopting Mission Command: Developing Leaders for a Superior Command Culture*. Naval Institute Press. [https://www.amazon.com/Adopting-Mission-Command-Developing-Superior/dp/1682471055][book_adopting_mc]
 
 ### General Sources
 
 - "ADP 6-0 Mission Command." n.d. Accessed October 25, 2026. [https://armypubs.army.mil/epubs/DR\_pubs/DR\_a/ARN34403-ADP\_6-0-000-WEB-3.pdf][ref_adp_6_0]
+- "History, Mission Command, and the Auftragstaktik Infatuation." n.d. Army University Press. Accessed October 25, 2026. [https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/July-August-2022/Herrera/][research_herrera]
+- "Leadership That Gets Results." 2000. *Harvard Business Review*, March 1. [https://hbr.org/2000/03/leadership-that-gets-results][research_goleman]
 - "Mission Command White Paper." n.d. Accessed October 25, 2026. [https://www.jcs.mil/Portals/36/Documents/Publications/missioncommandwhitepaper2012.pdf][ref_mc_white_paper]
-- "Netflix Culture." n.d. Accessed October 25, 2026. [https://jobs.netflix.com/culture][ref_netflix_culture]
+- "Netflix Culture Memo." n.d. Accessed October 25, 2026. [https://jobs.netflix.com/culture][ref_netflix_culture]
 - "Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds." 2012. *Crisp's Blog*, November 14. [https://blog.crisp.se/2012/11/14/henrikkniberg/scaling-agile-at-spotify][ref_spotify]
 
 [book_adopting_mc]: https://www.amazon.com/Adopting-Mission-Command-Developing-Superior/dp/1682471055

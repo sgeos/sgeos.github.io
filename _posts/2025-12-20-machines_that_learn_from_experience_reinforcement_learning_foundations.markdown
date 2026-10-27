@@ -634,15 +634,18 @@ Article four develops the deep reinforcement learning wave that these mechanisms
 - Henderson, Peter, Riashat Islam, Philip Bachman, Joelle Pineau, Doina Precup, and David Meger. 2018. "Deep Reinforcement Learning That Matters." *Proceedings of the AAAI Conference on Artificial Intelligence* 32 (1). [https://doi.org/10.1609/aaai.v32i1.11694][research_henderson_et_al_2018]
 - Jaakkola, Tommi, Michael I. Jordan, and Satinder P. Singh. 1994. "On the Convergence of Stochastic Iterative Dynamic Programming Algorithms." *Neural Computation* 6 (6): 1185–1201. [https://doi.org/10.1162/neco.1994.6.6.1185][research_jaakkola_jordan_singh_1994]
 - Jaksch, Thomas, Ronald Ortner, and Peter Auer. 2010. "Near-Optimal Regret Bounds for Reinforcement Learning." *Journal of Machine Learning Research* 11: 1563–1600. [https://www.jmlr.org/papers/v11/jaksch10a.html][research_jaksch_ortner_auer_2010]
+- Jiang, Nan, and Lihong Li. 2016. "Doubly Robust off-Policy Value Evaluation for Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v48/jiang16.html][research_jiang_li_2016]
 - Kakade, Sham M. 2001. "A Natural Policy Gradient." *Advances in Neural Information Processing Systems* 14. [https://papers.nips.cc/paper/2001/hash/4b86abe48d358ecf194c56c69108433e-Abstract.html][research_kakade_2001]
 - Klopf, A. H. 1972. "Brain Function and Adaptive Systems: A Heterostatic Theory." DTIC, March 3. [https://apps.dtic.mil/sti/citations/AD0742259][research_klopf_1972]
 - Konda, Vijay, and John Tsitsiklis. 1999. "Actor-Critic Algorithms." *Advances in Neural Information Processing Systems* 12. [https://papers.nips.cc/paper/1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html][research_konda_tsitsiklis_2000]
 - Lagoudakis, Michail G., and Ronald Parr. 2003. "Least-Squares Policy Iteration." *Journal of Machine Learning Research* 4: 1107–49. [https://www.jmlr.org/papers/v4/lagoudakis03a.html][research_lagoudakis_parr_2003]
 - Lange, Sascha, Thomas Gabel, and Martin Riedmiller. 2012. "Batch Reinforcement Learning." In *Adaptation, Learning, and Optimization*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-27645-3\_2][research_lange_gabel_riedmiller_2012]
+- Munos, Remi, Tom Stepleton, Anna Harutyunyan, and Marc Bellemare. 2016. "Safe and Efficient off-Policy Reinforcement Learning." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/c3992e9a68c5ae12bd18488bc579b30d-Abstract.html][research_munos_stepleton_harutyunyan_bellemare_2016]
 - Munos, Rémi, and Csaba Szepesvári. 2008. "Finite-Time Bounds for Fitted Value Iteration." *Journal of Machine Learning Research* 9: 815–57. [https://www.jmlr.org/papers/v9/munos08a.html][research_munos_szepesvari_2008]
 - Niv. 2009. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Niv+2009][research_niv_2009]
 - O'Doherty, John, Peter Dayan, Johannes Schultz, Ralf Deichmann, Karl Friston, and Raymond J. Dolan. 2004. "Dissociable Roles of Ventral and Dorsal Striatum in Instrumental Conditioning." *Science* 304 (5669): 452–54. [https://doi.org/10.1126/science.1094285][research_odoherty_et_al_2004]
 - Osband, Ian, Daniel Russo, and Benjamin Van Roy. 2013. "(More) Efficient Reinforcement Learning via Posterior Sampling." *Advances in Neural Information Processing Systems* 26. [https://papers.nips.cc/paper/2013/hash/6a5889bb0190d0211a991f47bb19a777-Abstract.html][research_osband_van_roy_2013]
+- Robbins, Herbert, and Sutton Monro. 1951. "A Stochastic Approximation Method." *The Annals of Mathematical Statistics* 22: 400–407. [https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full][research_robbins_monro_1951]
 - Schulman, John, Philipp Moritz, Sergey Levine, Michael Jordan, and Pieter Abbeel. 2015. "High-Dimensional Continuous Control Using Generalized Advantage Estimation." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1506.02438][research_schulman_moritz_levine_jordan_abbeel_2016]
 - Schultz, Wolfram, Peter Dayan, and P. Read Montague. 1997. "A Neural Substrate of Prediction and Reward." *Science* 275 (5306): 1593–99. [https://doi.org/10.1126/science.275.5306.1593][research_schultz_dayan_montague_1997]
 - Silver, David, Guy Lever, Nicolas Heess, Thomas Degris, Daan Wierstra, and Martin Riedmiller. 2014. "Deterministic Policy Gradient Algorithms." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v32/silver14.html][research_silver_et_al_2014]
@@ -664,12 +667,12 @@ Article four develops the deep reinforcement learning wave that these mechanisms
 - Puterman, Martin L. 1994. *Markov Decision Processes: Discrete Stochastic Dynamic Programming*. Wiley. [https://doi.org/10.1002/9780470316887][book_puterman_1994]
 - Sutton. 1984. *Thesis*. [http://incompleteideas.net/papers/sutton-84.pdf][book_sutton_1984_thesis]
 - Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
-- Szepesvari. 2010. *\[Title not identified\]*. [https://sites.ualberta.ca/~szepesva/rlbook.html][book_szepesvari_2010]
+- Szepesvari. 2010. *Algorithms of Reinforcement Learning*. [https://sites.ualberta.ca/~szepesva/rlbook.html][book_szepesvari_2010]
 
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -681,14 +684,11 @@ Article four develops the deep reinforcement learning wave that these mechanisms
 - Bhatnagar, Sutton, Ghavamzadeh, and Lee. 2009. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0005109809002628][research_bhatnagar_et_al_2009]
 - Dayan. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/5/4/613/5679][research_dayan_1993]
 - Gordon. 1995. "A Bayesian Analysis of Algorithms for Learning Finite Functions: Machine Learning Proceedings 1995." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/B9781558603776500268][research_gordon_1995]
-- Jiang and Li. 2016. "DR." [https://proceedings.mlr.press/v48/jiang16.html][research_jiang_li_2016]
 - Kakade and Langford. 2002. "\[Title not identified\]." Accessed October 25, 2026. [https://homes.cs.washington.edu/~sham/papers/rl/aoarl.pdf][research_kakade_langford_2002]
 - Marbach and Tsitsiklis. 2001. "Geometric Analysis of Flight Control Command for Tactical Missile Guidance." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/911375][research_marbach_tsitsiklis_2001]
 - Michie and Chambers. 1968. "\[Title not identified\]." Accessed October 25, 2026. [https://scholar.google.com/scholar?q=Michie+Chambers+BOXES+1968][research_michie_chambers_1968]
-- Munos, Stepleton, Harutyunyan, and Bellemare. 2016. "Retrace." [https://papers.nips.cc/paper/2016/hash/c3992e9a68c5ae12bd18488bc579b30d-Abstract.html][research_munos_stepleton_harutyunyan_bellemare_2016]
 - Ng, Harada, and Russell. 1999. "\[Title not identified\]." Accessed October 25, 2026. [https://www.aaai.org/Papers/ICML/1999/ICML99-041.pdf][research_ng_harada_russell_1999]
 - Precup, Sutton, and Singh. 2000. "\[Title not identified\]." Accessed October 25, 2026. [https://proceedings.mlr.press/v98/precup00a.html][research_precup_sutton_singh_2000]
-- Robbins and Monro. 1951. "\[Title not identified\]." Accessed October 25, 2026. [https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full][research_robbins_monro_1951]
 - Rummery and Niranjan. 1994. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cambridge.org/engineering/reports/on-line-q-learning-using-connectionist-systems][research_rummery_niranjan_1994]
 - Samuel. 1959. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/5392560][research_samuel_1959]
 - Schwartz. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/B9781558603073500454][research_schwartz_1993]

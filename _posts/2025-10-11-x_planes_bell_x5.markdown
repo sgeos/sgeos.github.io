@@ -5009,8 +5009,8 @@ The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][
 
 ### Commercial Sources
 
+- "Armstrong Flight Research Center." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - Dinius, Dede. 2014. "X-5 Research Aircraft." National Aeronautics and Space Administration, February 28. [https://www.nasa.gov/centers-and-facilities/armstrong/nasa-armstrong-fact-sheet-x-5-research-aircraft/][ref_nasa_x5_factsheet]
-- "NASA Armstrong Flight Research Center." n.d. Accessed October 24, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - "NASA History Office." n.d. Accessed October 24, 2026. [https://www.nasa.gov/history/][ref_nasa_x3_factsheet]
 
 ### General Sources

@@ -349,7 +349,7 @@ $$\Theta^{\text{stress}} = \frac{C(t)}{\dot{C}^{\text{burn}} - \theta \cdot r^{\
 
 with the denominator the net burn under the grounding scenario and with the runway becoming unbounded when the surviving revenue exceeds the burn. The transition from a bounded to an unbounded stressed runway is the discrete event that the portfolio-patience condition is designed to produce, and it is the event that distinguishes the configuration at the drafting date from the arrangement in the 2008 period that the [series opener][related_post_a281_spacex_framing] treats.
 
-The portfolio is not the only instrument available for managing the tail, and the article would be incomplete without stating the alternatives. The launch-insurance market that the [Lloyd's market][ref_lloyds_market] and the specialist brokers including [Aon][ref_aon_space_insurance] intermediate transfers a portion of the per-mission risk to an external party for a premium. The United States regulatory regime requires a financial-responsibility demonstration under the [FAA financial responsibility requirements][ref_faa_financial_responsibility], and the international liability framework operates under the [United Nations Liability Convention 1972][ref_un_liability_convention_1972], the [United Nations Outer Space 1967][ref_un_outer_space_treaty_1967], and the [United Nations Registration Convention 1976][ref_un_registration_convention_1976].
+The portfolio is not the only instrument available for managing the tail, and the article would be incomplete without stating the alternatives. The launch-insurance market that the [Lloyd's market][ref_lloyds_market] and the specialist brokers including [Aon][ref_aon_space_insurance] intermediate transfers a portion of the per-mission risk to an external party for a premium. The United States regulatory regime requires a financial-responsibility demonstration under the [FAA financial responsibility requirements][ref_faa_financial_responsibility], and the international liability framework operates under the [Liability Convention 1972][ref_un_liability_convention_1972], the [Outer Space Treaty 1967][ref_un_outer_space_treaty_1967], and the [Registration Convention 1976][ref_un_registration_convention_1976].
 
 The instruments are complements to the portfolio rather than substitutes for it, and the reason is analytically important. Insurance transfers a per-mission loss whose magnitude is bounded by the insured value. It does not transfer the consequential loss that an extended grounding imposes on the dependent lines, and it does not transfer the loss of a development programme. The coverage gap can be stated as
 
@@ -821,6 +821,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - Lang, Larry H. P., and René M. Stulz. 1994. "Tobin's q, Corporate Diversification, and Firm Performance." *Journal of Political Economy* 102 (6): 1248–80. [https://doi.org/10.1086/261970][research_lang_stulz_1994]
 - Levitt, Barbara, and James G. March. 1988. "Organizational Learning." *Annual Review of Sociology* 14 (1): 319–38. [https://doi.org/10.1146/annurev.so.14.080188.001535][research_levitt_march_1988]
 - Lewellen, Wilbur G. 1971. "A Pure Financial Rationale for the Conglomerate Merger." *Journal of Finance* 26 (2): 521–37. [https://doi.org/10.1111/j.1540-6261.1971.tb00912.x][research_lewellen_1971]
+- "Liability Convention." 1972. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
 - Lintner, John. 1965. "The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolios and Capital Budgets." *Review of Economics and Statistics* 47 (1): 13. [https://doi.org/10.2307/1924119][research_lintner_1965]
 - March, James G. 1991. "Exploration and Exploitation in Organizational Learning." *Organization Science* 2 (1): 71–87. [https://doi.org/10.1287/orsc.2.1.71][research_march_1991]
 - Markowitz, Harry. 1952. "Portfolio Selection." *Journal of Finance* 7 (1): 77. [https://doi.org/10.2307/2975974][research_markowitz_1952]
@@ -833,11 +834,14 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - NASA Office of Inspector General. 2021. *Human Landing System Evaluation*. NASA Office of Inspector General. [https://oig.nasa.gov/docs/IG-21-024.pdf][ref_nasa_oig_hls_2021]
 - Nonaka, Ikujiro. 1994. "A Dynamic Theory of Organizational Knowledge Creation." *Organization Science* 5 (1): 14–37. [https://doi.org/10.1287/orsc.5.1.14][research_nonaka_1994]
 - Novak, Sharon, and Steven D. Eppinger. 2001. "Sourcing by Design: Product Complexity and the Supply Chain." *Management Science* 47 (1): 189–204. [https://doi.org/10.1287/mnsc.47.1.189.10662][research_novak_eppinger_2001]
+- "Outer Space Treaty." 1967. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
 - Peeters, Walter. 2018. "Toward a Definition of New Space? The Entrepreneurial Perspective." *New Space* 6 (3): 187–90. [https://doi.org/10.1089/space.2017.0039][research_peeters_2018]
 - *Radio Regulations*. n.d. [https://www.itu.int/pub/R-REG-RR][ref_itu_radio_regulations_2020]
 - Rajan, Raghuram, Henri Servaes, and Luigi Zingales. 2000. "The Cost of Diversity: The Diversification Discount and Inefficient Investment." *Journal of Finance* 55 (1): 35–80. [https://doi.org/10.1111/0022-1082.00200][research_rajan_servaes_zingales_2000]
 - Rapping, Leonard. 1965. "Learning and World War II Production Functions." *Review of Economics and Statistics* 47 (1): 81. [https://doi.org/10.2307/1924126][research_rapping_1965]
+- "Registration Convention." 1976. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
 - Rivkin, Jan W., and Nicolaj Siggelkow. 2003. "Balancing Search and Stability: Interdependencies among Elements of Organizational Design." *Management Science* 49 (3): 290–311. [https://doi.org/10.1287/mnsc.49.3.290.12740][research_rivkin_siggelkow_2003]
+- Robertson, David, and Karl Ulrich. 1998. "Planning for Product Platforms." *MIT Sloan Management Review*. [https://sloanreview.mit.edu/article/planning-for-product-platforms/][research_robertson_ulrich_1998]
 - Ross, J., and B. M. Staw. 1993. "Organizational Escalation and Exit: Lessons from the Shoreham Nuclear Power Plant." *Academy of Management Journal* 36 (4): 701–32. [https://doi.org/10.2307/256756][research_ross_staw_1993]
 - Scharfstein, David S., and Jeremy C. Stein. 2000. "The Dark Side of Internal Capital Markets: Divisional Rent-Seeking and Inefficient Investment." *Journal of Finance* 55 (6): 2537–64. [https://doi.org/10.1111/0022-1082.00299][research_scharfstein_stein_2000]
 - "SEC EDGAR Company Search." n.d. Accessed October 25, 2026. [https://www.sec.gov/edgar/searchedgar/companysearch][ref_sec_edgar]
@@ -848,9 +852,6 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - Sosa, Manuel E., Steven D. Eppinger, and Craig M. Rowles. 2003. "Identifying Modular and Integrative Systems and Their Impact on Design Team Interactions." *Journal of Mechanical Design* 125 (2): 240–52. [https://doi.org/10.1115/1.1564074][research_sosa_eppinger_rowles_2003]
 - Stein, Jeremy C. 1997. "Internal Capital Markets and the Competition for Corporate Resources." *Journal of Finance* 52 (1): 111–33. [https://doi.org/10.1111/j.1540-6261.1997.tb03810.x][research_stein_1997]
 - Todorova, Gergana, and Boris Durisin. 2007. "Absorptive Capacity: Valuing a Reconceptualization." *Academy of Management Review* 32 (3): 774–86. [https://doi.org/10.5465/amr.2007.25275513][research_todorova_durisin_2007]
-- "United Nations Liability Convention." 1972. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
-- "United Nations Outer Space Treaty." 1967. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
-- "United Nations Registration Convention." 1976. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
 - "United States Bankruptcy Courts." n.d. Accessed October 25, 2026. [https://www.uscourts.gov/court-programs/bankruptcy][ref_uscourts_bankruptcy]
 - Villalonga, Belen. 2000. "Does Diversification Cause the 'Diversification Discount'?" Preprint, . [https://doi.org/10.2139/ssrn.227828][research_villalonga_2004]
 - Volberda, Henk W., Nicolai J. Foss, and Marjorie A. Lyles. 2010. "PERSPECTIVE—Absorbing the Concept of Absorptive Capacity: How to Realize Its Potential in the Organization Field." *Organization Science* 21 (4): 931–51. [https://doi.org/10.1287/orsc.1090.0503][research_volberda_foss_lyles_2010]
@@ -963,7 +964,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
 - Trubshaw. 2000. *Concorde The Inside Story*. [https://openlibrary.org/search?q=Trubshaw+Concorde+Inside+Story][book_trubshaw_2000]
 - Utterback, James M. 1994. *Mastering the Dynamics of Innovation: How Companies Can Seize Opportunities in the Face of Technological Change*. Harvard Business School Press. [https://www.hbsp.harvard.edu/product/4855-HBK-ENG][book_utterback_1994]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Vaughan, Diane. 1996. *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press. [https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html][book_vaughan_1996]
 - Weick, Karl E. 1979. *Social Psychology of Organizing*. McGraw-Hill Humanities/Social Sciences/Languages. [https://www.mheducation.com/highered/product/social-psychology-organizing-weick/M9780075548089.html][book_weick_1979]
 - Weick, Karl E., and Kathleen M. Sutcliffe. 2007. *Managing the Unexpected*. John Wiley & Sons, Ltd. [https://openlibrary.org/works/OL3749104W][book_weick_sutcliffe_2007]
@@ -1040,6 +1041,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Columbia Law School Blue Sky Blog." n.d. Accessed October 25, 2026. [https://clsbluesky.law.columbia.edu/][ref_columbia_blue_sky]
 - "Defense News Coverage." n.d. Accessed October 25, 2026. [https://www.defensenews.com/][ref_defense_news]
 - "Department of Energy Office of Science." n.d. Accessed October 25, 2026. [https://science.osti.gov/][ref_doe_office_of_science]
+- "District of Delaware \| United States Bankruptcy Court." n.d. Accessed October 25, 2026. [https://www.deb.uscourts.gov/][ref_virgin_orbit_court]
 - "European Corporate Governance Institute." n.d. Accessed October 25, 2026. [https://www.ecgi.global/][ref_ecgi]
 - "European Spaceflight Homepage." n.d. *European Spaceflight*. Accessed October 25, 2026. [https://europeanspaceflight.com/][ref_european_spaceflight]
 - "Financial Accounting Standards Board." n.d. Accessed October 25, 2026. [https://www.fasb.org/][ref_fasb_asc280]
@@ -1059,7 +1061,6 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Payload Newsletter." n.d. Accessed October 25, 2026. [https://payloadspace.com/][ref_payload]
 - "Research Newsletter." n.d. *Payload*. Accessed October 25, 2026. [https://payloadspace.com/research/][ref_payload_research]
 - Reuters. 2024. "Starshield Investigation." [https://www.reuters.com/technology/space/musks-spacex-is-building-spy-satellite-network-us-intelligence-agency-sources-2024-03-16/][research_reuters_starshield_2024]
-- Robertson and Ulrich. 1998. "Planning for Product Platforms." [https://sloanreview.mit.edu/article/planning-for-product-platforms/][research_robertson_ulrich_1998]
 - Simon. 1962. "The Architecture of Complexity." [https://www.jstor.org/stable/985254][research_simon_1962]
 - "Social Science Research Network." n.d. Accessed October 25, 2026. [https://www.ssrn.com/][ref_ssrn]
 - "Space Policy Journal." n.d. Accessed October 25, 2026. [https://www.sciencedirect.com/journal/space-policy][ref_space_policy_journal]
@@ -1068,7 +1069,6 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "SpaceNews." n.d. Accessed October 25, 2026. [https://spacenews.com/][ref_spacenews]
 - "SpaceNews National Security Space Launch Phase 3 Coverage." n.d. Accessed October 25, 2026. [https://spacenews.com/?s=NSSL+Phase+3][ref_spacenews_nssl_phase3]
 - "Stanford Graduate School of Business SpaceX Case." n.d. Accessed October 25, 2026. [https://www.gsb.stanford.edu/faculty-research/case-studies][ref_stanford_spacex_case]
-- "Virgin Orbit Court Record." n.d. Accessed October 25, 2026. [https://www.deb.uscourts.gov/][ref_virgin_orbit_court]
 - "Wall Street Journal." n.d. Accessed October 25, 2026. [https://www.wsj.com/tech][ref_wsj]
 - "Washington Post Technology Coverage." n.d. Accessed October 25, 2026. [https://www.washingtonpost.com/business/technology/][ref_washington_post]
 - "Wharton SpaceX Case." n.d. Accessed October 25, 2026. [https://knowledge.wharton.upenn.edu/][ref_wharton_spacex_case]

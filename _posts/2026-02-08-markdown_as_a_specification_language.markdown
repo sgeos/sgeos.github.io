@@ -452,23 +452,23 @@ than either unstructured English or a formal language alone.
 ### Commercial Sources
 
 - "Anthropic, Effective Context Engineering for AI Agents." n.d. Accessed October 25, 2026. [https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents][ai_context_engineering]
-- "GitHub, Spec-Driven Development with AI: GitHub Spec Kit." n.d.-a. Accessed October 25, 2026. [https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/][github_spec_kit]
-- "GitHub, Spec-Driven Development: Using Markdown as a Programming Language." n.d.-b. Accessed October 25, 2026. [https://github.blog/ai-and-ml/generative-ai/spec-driven-development-using-markdown-as-a-programming-language-when-building-with-ai/][github_sdd_markdown]
-- "Industry, Spec-Driven Development: Unpacking 2025's Key New Practices." n.d.-b. Accessed October 25, 2026. [https://www.thoughtworks.com/en-us/insights/blog/agile-engineering-practices/spec-driven-development-unpacking-2025-new-engineering-practices][industry_sdd_thoughtworks]
+- Delimarsky, Den. 2025. "Spec-Driven Development with AI: Get Started with a New Open Source Toolkit." The GitHub Blog, September 2. [https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/][github_spec_kit]
+- "Spec-Driven Development: Unpacking One of 2025’s Key New AI-Assisted Engineering Practices." n.d. Thoughtworks. Accessed October 25, 2026. [https://www.thoughtworks.com/en-us/insights/blog/agile-engineering-practices/spec-driven-development-unpacking-2025-new-engineering-practices][industry_sdd_thoughtworks]
+- Vesely, Tomas. 2025. "Spec-Driven Development: Using Markdown as a Programming Language When Building with AI." The GitHub Blog, September 30. [https://github.blog/ai-and-ml/generative-ai/spec-driven-development-using-markdown-as-a-programming-language-when-building-with-ai/][github_sdd_markdown]
 
 ### General Sources
 
 - "AI, Agentic AI Course." n.d. Accessed October 25, 2026. [https://www.deeplearning.ai/courses/agentic-ai/][ai_agentic_course]
-- "AI, English is a Terrible Programming Language." n.d. Accessed October 25, 2026. [https://www.lesswrong.com/posts/GidPzba7Qj8B5Guiw/english-is-a-terrible-programming-language-and-other-reasons][ai_english_terrible]
 - "AI, The End of Programming." n.d. Accessed October 25, 2026. [https://m-cacm.acm.org/magazines/2023/1/267976-the-end-of-programming/fulltext][ai_end_of_programming]
 - "AI, The Hottest New Programming Language Is English." n.d. Accessed October 25, 2026. [https://x.com/karpathy/status/1617979122625712128][ai_karpathy_tweet]
 - Brooker, Marc. n.d. "On the Success of 'Natural Language Programming': Marc's Blog." Accessed October 25, 2026. [https://brooker.co.za/blog/2025/12/16/natural-language.html][ai_brooker_nl_programming]
 - "Claude Code, Agent Skills Specification." n.d. Accessed October 25, 2026. [https://agentskills.io][cc_agent_skills]
-- "Industry, Spec-Driven Development: The Waterfall Strikes Back." n.d.-a. Accessed October 25, 2026. [https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html][industry_sdd_waterfall]
+- "English Is a Terrible Programming Language—and Other Reasons AI Won't Displace Programmers." n.d. Accessed October 25, 2026. [https://www.lesswrong.com/posts/GidPzba7Qj8B5Guiw/english-is-a-terrible-programming-language-and-other-reasons][ai_english_terrible]
 - "Industry, Understanding Spec-Driven Development: Kiro, Spec Kit, and Tessl." n.d. Accessed October 25, 2026. [https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html][industry_sdd_tools]
 - "Nvidia's Huang: 'The New Programming Language Is Human'." 2025. *Digital Watch Observatory*, June 15. [https://dig.watch/updates/nvidias-huang-the-new-programming-language-is-human][industry_huang_human]
 - Osmani, Addy. n.d. "How to Write a Good Spec for AI Agents." Accessed October 25, 2026. [https://addyosmani.com/blog/good-spec/][ai_good_spec]
 - Osmani, Addy. 2026. "My LLM Coding Workflow Going into 2026." Accessed October 25, 2026. [https://addyosmani.com/blog/ai-coding-workflow/][ai_llm_workflow]
+- Zaninotto, François. n.d. "Spec-Driven Development: The Waterfall Strikes Back." *Marmelab*. Accessed October 25, 2026. [https://marmelab.com/blog/2025/11/12/spec-driven-development-waterfall-strikes-back.html][industry_sdd_waterfall]
 
 ### Related Posts
 

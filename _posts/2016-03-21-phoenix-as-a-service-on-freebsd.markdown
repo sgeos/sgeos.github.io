@@ -533,21 +533,21 @@ Elixir and Erlang applications and perform hot-code upgrades."
 - "Boldpoker/edeliver." n.d. GitHub. Accessed October 25, 2026. [https://github.com/boldpoker/edeliver][elixir_edeliver]
 - "Elixir exrm Release Configuration." n.d. exrm.readme.io. Accessed October 25, 2026. [https://exrm.readme.io/docs/release-configuration][elixir_exrm_release_config]
 - "Elixir Release Manager." n.d. github.com. Accessed October 25, 2026. [https://github.com/bitwalker/exrm][elixir_exrm]
-- "Elixir, exrm, Where should I place app.conf and vm.args." n.d. github.com. Accessed October 25, 2026. [https://github.com/bitwalker/exrm/issues/42][elixir_exrm_vm_args]
 - "Mix.Config – Mix v1.2.3." n.d. elixir-lang.org. Accessed October 25, 2026. [http://elixir-lang.org/docs/stable/mix/Mix.Config.html][elixir_mix_config]
+- "Phoenix Does Not Evaluate Env Config Overrides at Runtime · Issue \#354 · Phoenixframework/phoenix." n.d. GitHub. Accessed October 25, 2026. [https://github.com/phoenixframework/phoenix/issues/354][phoenix_runtime_env]
 - "Phoenix, Default (4000) port busy." n.d. github.com. Accessed October 25, 2026. [https://github.com/phoenixframework/phoenix/issues/962][phoenix_default_port]
 - "Phoenix, Deployment." n.d. www.phoenixframework.org. Accessed October 25, 2026. [http://www.phoenixframework.org/docs/deployment][phoenix_deployment]
-- "Phoenix, does not evaluate Env config overrides at runtime." n.d. github.com. Accessed October 25, 2026. [https://github.com/phoenixframework/phoenix/issues/354][phoenix_runtime_env]
 - "Ruby, adamkittelson's Cap File." n.d. github.com. Accessed October 25, 2026. [https://github.com/adamkittelson/apathy-drive-ex/blob/master/config/deploy.rb][ruby_adamkittelson_cap]
+- "Where Should I Place \`App.conf\` and \`Vm.args\` · Issue \#42 · Bitwalker/exrm." n.d. GitHub. Accessed October 25, 2026. [https://github.com/bitwalker/exrm/issues/42][elixir_exrm_vm_args]
 
 ### General Sources
 
 - Baird, Jeffrey. n.d. "Building a JSON API with Phoenix." Accessed October 25, 2026. [http://learnwithjeff.com/blog/2015/10/03/building-a-json-api-with-phoenix/][phoenix_json]
 - Barnett, Bruce. n.d. "Bourne Shell Tutorial." Accessed October 25, 2026. [http://www.grymoire.com/Unix/Sh.html][sh_tutorial]
+- "Building a Versioned REST API with Phoenix Framework." 2015. *Renato Moya*, May 9. [https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html][phoenix_versioned_rest]
 - "Elixir, exrm, Packages on Hex." n.d. Accessed October 25, 2026. [https://hex.pm/packages?search=exrm][elixir_exrm_hex]
 - "FreeBSD, KDE4 localization." n.d. Accessed October 25, 2026. [https://forums.freebsd.org/threads/9120/][freebsd_locale]
-- "Phoenix, Building a versioned REST API with Phoenix Framework." n.d. Accessed October 25, 2026. [https://renatomoya.github.io/2015/05/09/Building-a-versioned-REST-API-with-Phoenix-Framework.html][phoenix_versioned_rest]
-- "PostgreSQL, Installing PostgreSQL on FreeBSD." n.d. Accessed October 25, 2026. [https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/][postgresql_install]
+- "Installing PostgreSQL on FreeBSD." 2010. *JasonK's Blog*, January 11. [https://jasonk2600.wordpress.com/2010/01/11/installing-postgresql-on-freebsd/][postgresql_install]
 - "Start Phoenix App with Cowboy Server on Different Port." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/30540466/start-phoenix-app-with-cowboy-server-on-different-port][phoenix_custom_port]
 
 ### Related Posts

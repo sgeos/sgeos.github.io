@@ -498,6 +498,7 @@ Real-world robotic manipulation benchmarks including RRC of [Byravan 2022][resea
 ### Primary Sources, Non-Peer-Reviewed
 
 - Bruce, Jake, Michael Dennis, Ashley Edwards, et al. 2024. "Genie: Generative Interactive Environments." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2402.15391][research_bruce_et_al_2024]
+- Buckman, Jacob, Danijar Hafner, George Tucker, Eugene Brevdo, and Honglak Lee. 2018. "Sample-Efficient Reinforcement Learning with Stochastic Ensemble Value Expansion." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/f02208a057804ee16ac72ff4d3cec53b-Abstract.html][research_buckman_et_al_2018]
 - Buesing, Lars, Theophane Weber, Sebastien Racaniere, et al. 2018. "Learning and Querying Fast Generative Models for Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1802.03006][research_buesing_et_al_2018]
 - Byravan. 2022. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Byravan+2022][research_byravan_et_al_2022]
 - Chua, Kurtland, Roberto Calandra, Rowan McAllister, and Sergey Levine. 2018. "Deep Reinforcement Learning in a Handful of Trials Using Probabilistic Dynamics Models." *Advances in Neural Information Processing Systems* 31. [https://papers.nips.cc/paper/2018/hash/3de568f8597b94bda53149c7d7f5958c-Abstract.html][research_chua_calandra_mcallister_levine_2018]
@@ -546,12 +547,11 @@ Real-world robotic manipulation benchmarks including RRC of [Byravan 2022][resea
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
 - "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
-- Buckman, Hafner, Tucker, Brevdo, and Zoghlun. 2018. "\[Title not identified\]." Accessed October 25, 2026. [https://papers.nips.cc/paper/2018/hash/f02208a057804ee16ac72ff4d3cec53b-Abstract.html][research_buckman_et_al_2018]
 - Chebotar, Handa, Makoviichuk, et al. 2019. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/8793789][research_chebotar_et_al_2019]
 - Dayan. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/5/4/613/5679][research_dayan_1993]
 - Deisenroth and Rasmussen. 2011. "\[Title not identified\]." Accessed October 25, 2026. [https://icml.cc/Conferences/2011/papers/323\_icmlpaper.pdf][research_deisenroth_rasmussen_2011]

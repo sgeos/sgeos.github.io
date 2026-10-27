@@ -226,18 +226,18 @@ from the [Playdate Developer Forum][playdate_dev_forum].
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "crank, cargo wrapper for building and running Playdate software." n.d. github.com. Accessed October 25, 2026. [https://github.com/pd-rs/crank][crank]
-- "crankstart, Klondike Solitaire." n.d. github.com. Accessed October 25, 2026. [https://github.com/pd-rs/crankstart-klondike][crankstart_klondike]
+- Copyright © Panic Inc. n.d. "Inside Playdate with C." sdk.play.date. Accessed October 25, 2026. [https://sdk.play.date/inside-playdate-with-c][playdate_c_api_docs]
 - "crankstart, Nine Lives." n.d. github.com. Accessed October 25, 2026. [https://github.com/bravely/nine\_lives][crankstart_ninelives]
 - "crankstart, Rust crate for Playdate application development." n.d. github.com. Accessed October 25, 2026. [https://github.com/pd-rs/crankstart][crankstart]
-- "Playdate C API Documentation." n.d. sdk.play.date. Accessed October 25, 2026. [https://sdk.play.date/inside-playdate-with-c][playdate_c_api_docs]
+- "Pd-Rs/crank: A Wrapper for Cargo to Use Creating Games for the Playdate Handheld Gaming System." n.d. GitHub. Accessed October 25, 2026. [https://github.com/pd-rs/crank][crank]
+- "Pd-Rs/crankstart-Klondike: An Example of How to Use the Crankstart Crate to Write Games for the Playdate Handheld Gaming System in Rust." n.d. GitHub. Accessed October 25, 2026. [https://github.com/pd-rs/crankstart-klondike][crankstart_klondike]
 - "Playdate Lua Documentation." n.d. sdk.play.date. Accessed October 25, 2026. [https://sdk.play.date/Inside%20Playdate.html][playdate_lua_docs]
+- "Rust Programming Language." n.d. www.rust-lang.org. Accessed October 25, 2026. [https://www.rust-lang.org][rust]
 - "Rust, cargo-xbuild." n.d. docs.rs. Accessed October 25, 2026. [https://docs.rs/crate/cargo-xbuild/latest][rust_cargo_xbuild]
-- "Rust, Home Page." n.d. www.rust-lang.org. Accessed October 25, 2026. [https://www.rust-lang.org][rust]
 
 ### Commercial Sources
 
-- "Playdate Developer Page." n.d. Accessed October 25, 2026. [https://play.date/dev/][playdate_dev]
+- "Develop for Playdate." n.d. Accessed October 25, 2026. [https://play.date/dev/][playdate_dev]
 - "Playdate Homepage." n.d. Accessed October 25, 2026. [https://play.date/][playdate]
 - "Playdate SDK, Latest." n.d. Accessed October 25, 2026. [https://download.panic.com/playdate\_sdk/PlaydateSDK-latest.zip][playdate_sdk_latest]
 
@@ -245,7 +245,7 @@ from the [Playdate Developer Forum][playdate_dev_forum].
 
 - "Playdate Developer Forum." n.d. Accessed October 25, 2026. [https://devforum.play.date][playdate_dev_forum]
 - "Rust Development Thread." 2022. Playdate Developer Forum, March 13. [https://devforum.play.date/t/rust-development-thread/3999][playdate_dev_forum_rust]
-- "Rust, rustup." n.d. Accessed October 25, 2026. [https://rustup.rs][rustup]
+- "The Rust Toolchain Installer." n.d. Accessed October 25, 2026. [https://rustup.rs][rustup]
 
 ### Related Posts
 

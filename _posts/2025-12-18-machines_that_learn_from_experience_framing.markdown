@@ -382,23 +382,23 @@ These questions recur throughout the series and are revisited in the closing syn
 - Bertsekas. 2019. *\[Title not identified\]*. [http://www.athenasc.com/rlbook.html][book_bertsekas_2019]
 - Bertsekas, Dimitri P., and Tsitsiklis. 1996. *Neuro-Dynamic Programming*. Athena Scientific. [http://www.athenasc.com/ndpbook.html][book_bertsekas_tsitsiklis_1996]
 - Dayan, Peter, and L. F. Abbott. 2001. *Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems*. Massachusetts Institute of Technology Press. [https://mitpress.mit.edu/9780262541855/theoretical-neuroscience/][book_dayan_abbott_2001]
-- Hebb. 1949. *\[Title not identified\]*. [https://psycnet.apa.org/record/1950-02200-000][book_hebb_1949]
+- Hebb, D. O. 1949. *The Organization of Behavior; a Neuropsychological Theory*. Wiley. [https://psycnet.apa.org/record/1950-02200-000][book_hebb_1949]
 - Howard, Ronald Arthur. 1960. *Dynamic Programming and Markov Processes*. MIT Press. [https://mitpress.mit.edu/9780262080095/dynamic-programming-and-markov-processes/][book_howard_1960]
 - Newell, Allen. 1990. *Unified Theories of Cognition (the William James Lectures)*. Harvard University Press. [https://www.hup.harvard.edu/books/9780674921016][book_newell_1990]
-- Pavlov. 1927. *\[Title not identified\]*. [https://archive.org/details/conditionedrefle00pavl][book_pavlov_1927]
+- Pavlov. 1927. *\[Title not identified\]*. [https://openlibrary.org/search?q=Pavlov+1927][book_pavlov_1927]
 - Piaget. 1936. *\[Title not identified\]*. [https://www.routledge.com/The-Origin-of-Intelligence-in-the-Child/Piaget/p/book/9780415846394][book_piaget_1936]
 - Puterman, Martin L. 1994. *Markov Decision Processes: Discrete Stochastic Dynamic Programming*. Wiley. [https://doi.org/10.1002/9780470316887][book_puterman_1994]
 - Simon, Herbert Alexander. 1969. *The Sciences of the Artificial*. M.I.T. Press. [https://mitpress.mit.edu/9780262691918/the-sciences-of-the-artificial/][book_simon_1969]
-- Skinner. 1938. *\[Title not identified\]*. [https://www.bfskinner.org/product/the-behavior-of-organisms/][book_skinner_1938]
+- Skinner. 1938. *Behavior of Organisms (1991 Edition)*. [https://www.bfskinner.org/product/the-behavior-of-organisms/][book_skinner_1938]
 - Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
-- Szepesvari. 2010. *\[Title not identified\]*. [https://sites.ualberta.ca/~szepesva/rlbook.html][book_szepesvari_2010]
-- Thorndike. 1911. *\[Title not identified\]*. [https://archive.org/details/animalintelligen00thor][book_thorndike_1911]
+- Szepesvari. 2010. *Algorithms of Reinforcement Learning*. [https://sites.ualberta.ca/~szepesva/rlbook.html][book_szepesvari_2010]
+- Thorndike, Edward L. , 1874-1949. 1911. *Animal Intelligence; Experimental Studies*. New York, The Macmillan company. [https://archive.org/details/animalintelligen00thor][book_thorndike_1911]
 - Wiener, Norbert. 1948. *Cybernetics, or Control and Communication in the Animal and the Machine*. The M.i.t. Press. [https://mitpress.mit.edu/9780262730099/cybernetics/][book_wiener_1948]
 
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -427,7 +427,7 @@ These questions recur throughout the series and are revisited in the closing syn
 [book_hebb_1949]: https://psycnet.apa.org/record/1950-02200-000
 [book_howard_1960]: https://mitpress.mit.edu/9780262080095/dynamic-programming-and-markov-processes/
 [book_newell_1990]: https://www.hup.harvard.edu/books/9780674921016
-[book_pavlov_1927]: https://archive.org/details/conditionedrefle00pavl
+[book_pavlov_1927]: https://openlibrary.org/search?q=Pavlov+1927
 [book_piaget_1936]: https://www.routledge.com/The-Origin-of-Intelligence-in-the-Child/Piaget/p/book/9780415846394
 [book_puterman_1994]: https://doi.org/10.1002/9780470316887
 [book_simon_1969]: https://mitpress.mit.edu/9780262691918/the-sciences-of-the-artificial/

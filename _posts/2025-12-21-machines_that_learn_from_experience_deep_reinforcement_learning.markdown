@@ -113,7 +113,7 @@ Transformer-based sequence models provide an alternative to recurrent networks f
 
 Auxiliary loss functions provide additional training signal beyond the main reinforcement learning objective, often improving representation quality and sample efficiency. UNREAL of [Jaderberg et al. 2017][research_jaderberg_et_al_2017] added auxiliary tasks including pixel control, reward prediction, and value function replay to A3C, achieving substantial gains on the DMLab benchmark.
 
-Self-predictive representations of [Schwarzer 2021][research_schwarzer_et_al_2021] and its successors use a self-supervised objective that predicts future latent states from current representation and actions,
+Self-predictive representations of [Schwarzer et al. 2021][research_schwarzer_et_al_2021] and its successors use a self-supervised objective that predicts future latent states from current representation and actions,
 
 $$L_{\text{SPR}}(\theta) = \sum_k \left\| f_{\text{proj}}(g_\theta(\phi_\theta(s_t), a_{t:t+k-1})) - \text{sg}\!\left(f_{\text{proj}}(\phi_\theta(s_{t+k}))\right) \right\|^2$$
 
@@ -125,7 +125,7 @@ The auxiliary-task framework connects to broader trends in self-supervised learn
 
 The policy gradient methods of article three extend directly to deep neural policies but require modifications to remain stable at scale. The naive REINFORCE update on a deep policy exhibits catastrophic variance and step-size sensitivity, and the practical algorithms of the deep reinforcement learning era all involve mechanisms to control the effective policy update magnitude.
 
-Trust-region policy optimization of [Schulman 2015][research_schulman_levine_moritz_jordan_abbeel_2015] enforces a Kullback-Leibler constraint on the policy update. The optimization problem is
+Trust-region policy optimization of [Schulman et al. 2015][research_schulman_levine_moritz_jordan_abbeel_2015] enforces a Kullback-Leibler constraint on the policy update. The optimization problem is
 
 $$\max_\theta \; \mathbb{E}_{s, a \sim \pi_{\theta_{\text{old}}}}\!\left[\frac{\pi_\theta(a \mid s)}{\pi_{\theta_{\text{old}}}(a \mid s)} A^{\pi_{\theta_{\text{old}}}}(s, a)\right] \quad \text{subject to} \quad \mathbb{E}_{s}\!\left[D_{\text{KL}}(\pi_{\theta_{\text{old}}}(\cdot \mid s) \,\|\, \pi_\theta(\cdot \mid s))\right] \leq \delta$$
 
@@ -147,7 +147,7 @@ with coefficients $c_1$ and $c_2$ balancing the three terms. The simplicity of P
 
 ## Asynchronous and Distributed Actor-Critic
 
-The Asynchronous Advantage Actor-Critic (A3C) algorithm of [Mnih 2016][research_mnih_et_al_2016] introduced distributed training for deep reinforcement learning. Multiple parallel workers each interact with independent copies of the environment, compute policy and value updates from local rollouts, and asynchronously apply the updates to a shared parameter server. The asynchronous parallelism produces effective batching of gradient updates and provides a diverse experience distribution that stabilizes learning.
+The Asynchronous Advantage Actor-Critic (A3C) algorithm of [Mnih et al. 2016][research_mnih_et_al_2016] introduced distributed training for deep reinforcement learning. Multiple parallel workers each interact with independent copies of the environment, compute policy and value updates from local rollouts, and asynchronously apply the updates to a shared parameter server. The asynchronous parallelism produces effective batching of gradient updates and provides a diverse experience distribution that stabilizes learning.
 
 The synchronous variant A2C waits for all workers to complete their rollouts before applying updates, sacrificing some asynchrony for reduced variance and easier reproducibility. Both variants demonstrated that policy-gradient methods could compete with DQN on Atari while extending naturally to continuous action spaces.
 
@@ -408,7 +408,7 @@ Despite these correspondences, deep RL agents differ from biological learners in
 - Andrychowicz, Marcin, Anton Raichuk, Piotr Stańczyk, et al. 2021. "What Matters for on-Policy Deep Actor-Critic Methods? A Large-Scale Study." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=nIAxjsniDzg][research_andrychowicz_et_al_2021]
 - Bai, Yuntao, Andy Jones, Kamal Ndousse, et al. 2022b. "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2204.05862][research_bai_et_al_2022b]
 - Bai, Yuntao, Saurav Kadavath, Sandipan Kundu, et al. 2022a. "Constitutional AI: Harmlessness from AI Feedback." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2212.08073][research_bai_et_al_2022a]
-- Baker, Bowen, Ilge Akkaya, Peter Zhokov, et al. 2022. "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2022/hash/9c7008aff45b5d8f0973b23e1a22ada0-Abstract-Conference.html][research_baker_et_al_2022]
+- Baker, Bowen, Ilge Akkaya, Peter Zhokov, et al. 2022. "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos." In *Advances in Neural Information Processing Systems 35*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/068431-1789][research_baker_et_al_2022]
 - Bellemare, Marc G., Will Dabney, and Rémi Munos. 2017. "A Distributional Perspective on Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/bellemare17a.html][research_bellemare_dabney_munos_2017]
 - Bellemare, M. G., Y. Naddaf, J. Veness, and M. Bowling. 2013. "The Arcade Learning Environment: An Evaluation Platform for General Agents." *Journal of Artificial Intelligence Research* 47: 253–79. [https://doi.org/10.1613/jair.3912][research_bellemare_naddaf_veness_bowling_2013]
 - Cadieu, Charles F., Ha Hong, Daniel L. K. Yamins, et al. 2014. "Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition." *PLoS Computational Biology* 10 (12): e1003963. [https://doi.org/10.1371/journal.pcbi.1003963][research_cadieu_et_al_2014]
@@ -441,6 +441,8 @@ Despite these correspondences, deep RL agents differ from biological learners in
 - Küttler, Heinrich, Nantas Nardelli, Alexander Miller, et al. 2020. "The NetHack Learning Environment." *Advances in Neural Information Processing Systems* 33: 7671–84. [https://papers.nips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html][research_kuttler_et_al_2020]
 - Laskin, Michael, Aravind Srinivas, and Pieter Abbeel. 2020. "CURL: Contrastive Unsupervised Representations for Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v119/laskin20a.html][research_laskin_srinivas_abbeel_2020]
 - Lillicrap, Timothy P., Jonathan J. Hunt, Alexander Pritzel, et al. 2015. "Continuous Control with Deep Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1509.02971][research_lillicrap_et_al_2016]
+- Lowe, Ryan, Yi Wu, Aviv Tamar, Jean Harb, OpenAI Pieter Abbeel, and Igor Mordatch. 2017. "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/68a9750337a418a86fe06c1991a1d64c-Abstract.html][research_lowe_et_al_2017]
+- Mnih, Volodymyr, Adria Puigdomenech Badia, Mehdi Mirza, et al. 2016. "Asynchronous Methods for Deep Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v48/mniha16.html][research_mnih_et_al_2016]
 - Mnih, Volodymyr, Koray Kavukcuoglu, David Silver, et al. 2013. "Playing Atari with Deep Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1312.5602][research_mnih_et_al_2013]
 - OpenAI, Ilge Akkaya, Marcin Andrychowicz, et al. 2019b. "Solving Rubik's Cube with a Robot Hand." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1910.07113][research_openai_dactyl_2019]
 - OpenAI, Christopher Berner, Greg Brockman, et al. 2019a. "Dota 2 with Large Scale Deep Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1912.06680][research_openai_five_2019]
@@ -452,7 +454,9 @@ Despite these correspondences, deep RL agents differ from biological learners in
 - Rashid, Tabish, Mikayel Samvelyan, Christian Schroeder, Gregory Farquhar, Jakob Foerster, and Shimon Whiteson. 2018. "QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/rashid18a.html][research_rashid_et_al_2018]
 - Reed, Scott, Konrad Zolna, Emilio Parisotto, et al. 2022. "A Generalist Agent." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2205.06175][research_reed_et_al_2022]
 - Schaul, Tom, John Quan, Ioannis Antonoglou, and David Silver. 2015. "Prioritized Experience Replay." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1511.05952][research_schaul_et_al_2016]
+- Schulman, John, Sergey Levine, Pieter Abbeel, Michael Jordan, and Philipp Moritz. 2015. "Trust Region Policy Optimization." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v37/schulman15.html][research_schulman_levine_moritz_jordan_abbeel_2015]
 - Schulman, John, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. "Proximal Policy Optimization Algorithms." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1707.06347][research_schulman_wolski_dhariwal_radford_klimov_2017]
+- Schwarzer, Max, Ankesh Anand, Rishab Goel, R. Devon Hjelm, Aaron Courville, and Philip Bachman. 2021. "Data-Efficient Reinforcement Learning with Self-Predictive Representations." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=uCQfPZwRaUu][research_schwarzer_et_al_2021]
 - Silver, David, Thomas Hubert, Julian Schrittwieser, et al. 2018. "A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go through Self-Play." *Science* 362 (6419): 1140–44. [https://doi.org/10.1126/science.aar6404][research_silver_et_al_2018]
 - Son, Kyunghwan, Daewoo Kim, Wan Ju Kang, David Earl Hostallero, and Yung Yi. 2019. "QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/son19a.html][research_son_et_al_2019]
 - Stiennon, Nisan, Long Ouyang, Jeffrey Wu, et al. 2020. "Learning to Summarize with Human Feedback." *Advances in Neural Information Processing Systems* 33: 3008–21. [https://papers.nips.cc/paper/2020/hash/1f89885d556929e98d3ef9b86448f951-Abstract.html][research_stiennon_et_al_2020]
@@ -464,12 +468,12 @@ Despite these correspondences, deep RL agents differ from biological learners in
 
 ### Secondary Sources
 
-- Goodfellow, Bengio, and Courville. 2016. *\[Title not identified\]*. [https://www.deeplearningbook.org/][book_goodfellow_bengio_courville_2016]
+- Goodfellow, Bengio, and Courville. 2016. *Deep Learning*. [https://www.deeplearningbook.org/][book_goodfellow_bengio_courville_2016]
 - Sutton, Richard S., and Barto. 2018. *Reinforcement Learning: An Introduction*. MIT Press. [http://incompleteideas.net/book/the-book-2nd.html][book_sutton_barto_2018]
 
 ### Commercial Sources
 
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -478,11 +482,7 @@ Despite these correspondences, deep RL agents differ from biological learners in
 - "CleanRL." n.d. Accessed October 25, 2026. [https://docs.cleanrl.dev/][ref_cleanrl]
 - "Farama Foundation Gymnasium." n.d. Accessed October 25, 2026. [https://gymnasium.farama.org/][ref_farama_gymnasium]
 - Horgan. 2018. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=H1Dy---0Z][research_horgan_et_al_2018]
-- Lowe, Wu, Tamar, Harb, Abbeel, and Mordatch. 2017. "MADDPG." [https://papers.nips.cc/paper/2017/hash/68a9750337a418a86fe06c1991a1d64c-Abstract.html][research_lowe_et_al_2017]
-- Mnih. 2016. "A3C." [https://proceedings.mlr.press/v48/mniha16.html][research_mnih_et_al_2016]
 - Rao and Ballard. 1999. "\[Title not identified\]." Accessed October 25, 2026. [https://www.nature.com/articles/nn0199\_79][research_rao_ballard_1999]
-- Schulman. 2015. "TRPO." [https://proceedings.mlr.press/v37/schulman15.html][research_schulman_levine_moritz_jordan_abbeel_2015]
-- Schwarzer. 2021. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=uCQfPZwRaUu][research_schwarzer_et_al_2021]
 - "Stable-Baselines3 Docs: Reliable Reinforcement Learning Implementations — Stable Baselines3 2.8.0a1 Documentation." n.d. Accessed October 25, 2026. [https://stable-baselines3.readthedocs.io/][ref_stable_baselines]
 - "Sutton and Barto Second Edition PDF." n.d. Accessed October 25, 2026. [http://incompleteideas.net/book/RLbook2020.pdf][ref_sutton_barto_pdf]
 - Todorov, Erez, and Tassa. 2012. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/6386109][research_todorov_erez_tassa_2012]
@@ -508,7 +508,7 @@ Despite these correspondences, deep RL agents differ from biological learners in
 [research_andrychowicz_et_al_2021]: https://openreview.net/forum?id=nIAxjsniDzg
 [research_bai_et_al_2022a]: https://doi.org/10.48550/arxiv.2212.08073
 [research_bai_et_al_2022b]: https://doi.org/10.48550/arxiv.2204.05862
-[research_baker_et_al_2022]: https://papers.nips.cc/paper_files/paper/2022/hash/9c7008aff45b5d8f0973b23e1a22ada0-Abstract-Conference.html
+[research_baker_et_al_2022]: https://doi.org/10.52202/068431-1789
 [research_bauer_et_al_2023]: https://doi.org/10.48550/arxiv.2301.07608
 [research_bellemare_dabney_munos_2017]: https://proceedings.mlr.press/v70/bellemare17a.html
 [research_bellemare_naddaf_veness_bowling_2013]: https://doi.org/10.1613/jair.3912

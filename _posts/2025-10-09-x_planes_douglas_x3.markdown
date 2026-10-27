@@ -6289,8 +6289,8 @@ The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-taille
 
 ### Commercial Sources
 
+- "Armstrong Flight Research Center." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - Dinius, Dede. 2014. "X-3 Stiletto." National Aeronautics and Space Administration, February 28. [https://www.nasa.gov/aeronautics/x-3-stiletto/][ref_nasa_x3_stiletto]
-- "NASA Armstrong Flight Research Center." n.d. Accessed October 24, 2026. [https://www.nasa.gov/centers-and-facilities/armstrong/][ref_nasa_armstrong]
 - "NASA History Office." n.d. Accessed October 24, 2026. [https://www.nasa.gov/history/][ref_nasa_x3_factsheet]
 
 ### General Sources

@@ -253,18 +253,18 @@ The next article in the series covers pre-war computing origins and ballistics w
 - Baran, Paul. 1964. "On Distributed Communications: I. Introduction to Distributed Communications Networks.", January 1. [https://www.rand.org/pubs/research\_memoranda/RM3420.html][research_baran_1964]
 - "Boeing 777 Avionics." n.d. Accessed October 25, 2026. [https://www.boeing.com/commercial/777][ref_boeing_777_avionics]
 - Davies. 1966. "A Brief History of the Internet." Internet Society. Accessed October 25, 2026. [https://www.internetsociety.org/internet/history-internet/brief-history-internet/][research_davies_1966]
-- "F-35 Software." n.d. Accessed October 25, 2026. [https://www.lockheedmartin.com/en-us/products/f-35.html][ref_f35_software]
+- "F-35 Lightning II." n.d. Lockheed Martin. Accessed October 25, 2026. [https://www.lockheedmartin.com/en-us/products/f-35.html][ref_f35_software]
 - Wright Brothers. 1903. "1903 Wright Flyer." Accessed October 25, 2026. [https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm\_A19610048000][ref_wright_brothers_1903]
 
 ### General Sources
 
 - Audsley, Burns, Richardson, Tindell, and Wellings. 1993. "Electric Machine Design for Traction Applications Considering Recycling Aspects-Review and New Solution." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/6119585][research_audsley_burns_richardson_tindell_wellings_1993]
-- Bromley. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4638384][research_bromley_1990]
+- Bromley. 1990. "Robust Control of a Manufacturing System: Flow-Quality Approach." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4638384][research_bromley_1990]
 - Bush. 1931. "\[Title not identified\]." Accessed October 25, 2026. [https://www.jstor.org/stable/24537568][research_bush_1931]
 - "Colossus — The National Museum of Computing." n.d. The National Museum of Computing. Accessed October 25, 2026. [https://www.tnmoc.org/colossus][ref_flowers_colossus]
+- "Computer Mark 1 and Mark 1A." n.d. Accessed October 25, 2026. [https://maritime.org/doc/computermk1/][ref_ford_instrument_mk1]
 - Dennard, Gaensslen, Yu, Rideout, Bassous, and LeBlanc. 1974. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1050511][research_dennard_1974]
 - Everett Whirlwind. 1951. "\[Title not identified\]." Accessed October 25, 2026. [https://apps.dtic.mil/sti/citations/AD0625649][research_everett_whirlwind_1951]
-- "Ford Instrument Mark 1." n.d. Accessed October 25, 2026. [https://maritime.org/doc/computermk1/][ref_ford_instrument_mk1]
 - Joseph and Pandya. 1986. "\[Title not identified\]." Accessed October 25, 2026. [https://academic.oup.com/comjnl/article/29/5/390/533018][research_joseph_pandya_1986]
 - Kleinrock. 1961. "\[Title not identified\]." Accessed October 25, 2026. [https://dspace.mit.edu/handle/1721.1/11562][research_kleinrock_1961]
 - Knight and Leveson. 1986. "Call for Papers." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1702093][research_knight_leveson_1986]

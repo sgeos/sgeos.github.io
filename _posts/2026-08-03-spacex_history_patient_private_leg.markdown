@@ -481,7 +481,7 @@ The investor set that funded the venture across its early period subsequently ar
 
 The thesis holds that ventures addressing national-security and hard-technology requirements had been systematically underfunded by a venture industry oriented toward software, and that the SpaceX outcome demonstrated the category was investable. The articulation appears in the [Andreessen Horowitz American Dynamism][ref_a16z_american_dynamism] practice, the [Founders Fund][ref_founders_fund] positioning, the [Lux Capital][ref_lux_capital] thesis, the [8VC][ref_8vc] positioning, and the [Shield Capital][ref_shield_capital] focus. The sector reporting against which the thesis can be checked appears at [Breaking Defense][ref_breaking_defense], [Defense News][ref_defense_news], and [Aviation Week][ref_aviation_week].
 
-The demand side of the thesis is measurable in a way the supply side is not, and the article notes that the advocacy rarely cites it. Award-level obligations are published through [USAspending][ref_usaspending] and the [Federal Procurement Data System][ref_fpds], the daily award record at the [Department of Defense contract announcements][ref_dod_contracts], and the flexible instruments on which the category most depends are the other-transaction authorities at [10 United States Code n.d.][ref_10_usc_2371b] described in the [Department of Defense other-transaction guidance][ref_dod_other_transactions], which the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] treats at length. A category thesis asserting that a government customer will fund a class of ventures is testable against those records, and the article's position is that the test is available and is not generally performed.
+The demand side of the thesis is measurable in a way the supply side is not, and the article notes that the advocacy rarely cites it. Award-level obligations are published through [USAspending][ref_usaspending] and the [Federal Procurement Data System][ref_fpds], the daily award record at the [Department of Defense contract announcements][ref_dod_contracts], and the flexible instruments on which the category most depends are the other-transaction authorities at [10 United States Code 2371b][ref_10_usc_2371b] described in the [Department of Defense other-transaction guidance][ref_dod_other_transactions], which the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] treats at length. A category thesis asserting that a government customer will fund a class of ventures is testable against those records, and the article's position is that the test is available and is not generally performed.
 
 The analytical question the article poses about the wave is whether the structural conditions that made the original case work are present in the subsequent ones. The conditions the article identifies are a realization path independent of company exit, an investor base weighted toward vehicles without a fund-life clock, and a government relationship supplying non-dilutive capital and credit enhancement at the early stage. The first condition requires a secondary market, which requires in turn a continuing supply of incoming buyers at a rising price, which is available to a small number of ventures at any time. The condition is stated compactly as
 
@@ -788,7 +788,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "10 United States Code 2371b Other Transaction Authority." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
+- "10 U.S. Code § 2371b: Renumbered § 4022\]." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
 - "11 U.S. Code Chapter 11: REORGANIZATION." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/11/chapter-11][ref_bankruptcy_code_ch11]
 - "15 U.S. Code § 80a-3: Definition of Investment Company." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/15/80a-3][ref_investment_company_act]
 - "17 CFR 230.701 -- Exemption for Offers and Sales of Securities Pursuant to Certain Compensatory Benefit Plans and Contracts Relating to Compensation." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-17/section-230.701][ref_rule_701]
@@ -967,7 +967,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - Tirole, Jean. 1988. *The Theory of Industrial Organization*. MIT Press. [https://mitpress.mit.edu/9780262200714/the-theory-of-industrial-organization/][book_tirole_1988]
 - Tirole, Jean. 2006. *The Theory of Corporate Finance*. Princeton University Press. [https://press.princeton.edu/books/hardcover/9780691125565/the-theory-of-corporate-finance][book_tirole_2006]
 - Trigeorgis, Lenos. 1996. *Real Options: Managerial Flexibility and Strategy in Resource Allocation*. MIT Press. [https://mitpress.mit.edu/9780262201025/real-options/][book_trigeorgis_1996]
-- Vance. 2015. *Elon Musk Tesla SpaceX and the Quest for a Fantastic Future*. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
+- Vance, Ashlee. 2015. *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*. HarperCollins Publishers. [https://www.harpercollins.com/products/elon-musk-ashlee-vance][book_vance_2015]
 - Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_1990]
 - Williamson, Oliver E. 1985. *The Economic Institutions of Capitalism: Firms, Markets, Relational Contracting*. The Free Press. [https://www.simonandschuster.com/books/The-Economic-Institutions-of-Capitalism/Oliver-E-Williamson/9780684863740][book_williamson_1985]
 - Woo-Cumings, Meredith. 1999. *The Developmental State*. Cornell University Press. [https://www.cornellpress.cornell.edu/book/9780801485664/the-developmental-state/][book_woo_cumings_1999]
@@ -981,7 +981,6 @@ The article closes with the load-bearing open questions the treatment leaves unr
 ### Commercial Sources
 
 - "Alphabet Investor Relations: Investors." n.d. Accessed October 25, 2026. [https://abc.xyz/investor/][ref_alphabet_ir]
-- "Anthropic Long-Term Benefit Trust." n.d. Accessed October 25, 2026. [https://www.anthropic.com/news/the-long-term-benefit-trust][ref_anthropic_ltbt]
 - "Arianespace." n.d. Accessed October 25, 2026. [https://www.arianespace.com/][ref_arianespace]
 - "Berkshire Hathaway Shareholder Materials." n.d. Accessed October 25, 2026. [https://www.berkshirehathaway.com/][ref_berkshire]
 - "Blue Origin Press Releases." n.d. Accessed October 25, 2026. [https://www.blueorigin.com/news/][ref_blue_origin_press]
@@ -989,7 +988,6 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Boeing Press Releases." n.d. Accessed October 25, 2026. [https://boeing.mediaroom.com/][ref_boeing_press]
 - "Bosch Corporate Record." n.d. Accessed October 25, 2026. [https://www.bosch.com/company/][ref_bosch_company]
 - "BryceTech Sector Reports." n.d. Accessed October 25, 2026. [https://brycetech.com/reports][ref_bryce_tech]
-- "Carl Zeiss Stiftung Statute." n.d. Accessed October 25, 2026. [https://www.carl-zeiss-stiftung.de/en/][ref_carl_zeiss_stiftung]
 - "Commercial Resupply Missions." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/international-space-station/commercial-resupply/][ref_nasa_crs_program]
 - "Commercial Space." n.d.-a. NASA. Accessed October 25, 2026. [https://www.nasa.gov/commercial-space/][ref_nasa_commercial_space]
 - "Commercial Space." n.d.-b. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/commercial-space/][ref_nasa_commercial_space_programs]
@@ -1000,12 +998,13 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Delaware Division of Corporations." n.d. Accessed October 25, 2026. [https://corp.delaware.gov/][ref_delaware_division_corporations]
 - "DOD Contract Announcements." n.d. Accessed October 25, 2026. [https://www.defense.gov/News/Contracts/][ref_dod_contracts]
 - "Eutelsat Corporate Record." n.d. Accessed October 25, 2026. [https://www.eutelsat.com/][ref_eutelsat_oneweb]
-- "Ford Investor Relations." n.d. Accessed October 25, 2026. [https://shareholder.ford.com/][ref_ford_ir]
+- "Ford Motor Company: Home." n.d. Accessed October 25, 2026. [https://shareholder.ford.com/][ref_ford_ir]
 - "FTSE Russell Indices, Insights & Data." n.d. Accessed October 25, 2026. [https://www.lseg.com/en/ftse-russell][ref_ftse_russell]
 - "Glass Lewis Proxy Voting Guidelines." n.d. Accessed October 25, 2026. [https://www.glasslewis.com/][ref_glass_lewis]
 - "IBM Archives." n.d. Accessed October 25, 2026. [https://www.ibm.com/history/][ref_ibm_archives]
 - "Institutional Shareholder Services Governance." n.d. Accessed October 25, 2026. [https://www.issgovernance.com/][ref_iss_governance]
 - "Iridium Corporate News Archive." n.d. Accessed October 25, 2026. [https://www.iridium.com/][ref_iridium_press_archive_1998]
+- "The Long-Term Benefit Trust." n.d. Accessed October 25, 2026. [https://www.anthropic.com/news/the-long-term-benefit-trust][ref_anthropic_ltbt]
 - "Meta Investor Relations." n.d. Accessed October 25, 2026. [https://investor.atmeta.com/][ref_meta_ir]
 - "Microsoft Source." n.d. Source. Accessed October 25, 2026. [https://news.microsoft.com/][ref_microsoft_news]
 - "News \| Rocket Lab." n.d. Rocket Lab. Accessed October 25, 2026. [https://www.rocketlabusa.com/updates/][ref_rocket_lab_press]
@@ -1035,6 +1034,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "SpaceX Starshield Product Page." n.d. Accessed October 25, 2026. [https://www.spacex.com/starshield/][ref_spacex_starshield]
 - "SpaceX Starship Program Page." n.d. Accessed October 25, 2026. [https://www.spacex.com/vehicles/starship/][ref_spacex_starship_program]
 - "United Launch Alliance Press Releases." n.d. Accessed October 25, 2026. [https://www.ulalaunch.com/about/news][ref_ula_press]
+- "Welcome \| Carl-Zeiss-Stiftung." n.d. Carl-Zeiss-Stiftung - https://www.carl-zeiss-stiftung.de. Accessed October 25, 2026. [https://www.carl-zeiss-stiftung.de/en/][ref_carl_zeiss_stiftung]
 
 ### General Sources
 
@@ -1054,6 +1054,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Building Era-Defining Space Infrastructure." n.d. Accessed October 25, 2026. [https://www.axiomspace.com/][ref_axiom_space]
 - "Cambridge Associates Benchmark Data." n.d. Accessed October 25, 2026. [https://www.cambridgeassociates.com/][ref_cambridge_associates]
 - "Defense News Coverage." n.d. Accessed October 25, 2026. [https://www.defensenews.com/][ref_defense_news]
+- "District of Delaware \| United States Bankruptcy Court." n.d. Accessed October 25, 2026. [https://www.deb.uscourts.gov/][ref_virgin_orbit_court]
 - Dodd-Frank, Wall, Street, et al. 2010. "\[Title not identified\]." Accessed October 25, 2026. [https://www.congress.gov/111/plaws/publ203/PLAW-111publ203.pdf][ref_dodd_frank_2010]
 - "Draper Fisher Jurvetson Archive." n.d. Accessed October 25, 2026. [https://www.dfj.com/][ref_dfj]
 - "European Corporate Governance Institute." n.d. Accessed October 25, 2026. [https://www.ecgi.global/][ref_ecgi]
@@ -1069,7 +1070,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Lux Capital." n.d. Accessed October 25, 2026. [https://www.luxcapital.com/][ref_lux_capital]
 - "NASASpaceflight Coverage." n.d. Accessed October 25, 2026. [https://www.nasaspaceflight.com/][ref_nasaspaceflight]
 - "National Bureau of Economic Research." n.d. NBER. Accessed October 25, 2026. [https://www.nber.org/][ref_nber]
-- "National Venture Capital Association." n.d. Accessed October 25, 2026. [https://nvca.org/][ref_nvca]
+- "National Venture Capital Association." n.d. National Venture Capital Association - NVCA -. Accessed October 25, 2026. [https://nvca.org/][ref_nvca]
 - "New York Times." n.d. Accessed October 25, 2026. [https://www.nytimes.com/section/science/space][ref_nyt]
 - "Palantir Investor Materials." n.d. Accessed October 25, 2026. [https://investors.palantir.com/][ref_palantir_ir]
 - "Payload Newsletter." n.d. Accessed October 25, 2026. [https://payloadspace.com/][ref_payload]
@@ -1082,7 +1083,6 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Stanford Graduate School of Business SpaceX Case." n.d. Accessed October 25, 2026. [https://www.gsb.stanford.edu/faculty-research/case-studies][ref_stanford_spacex_case]
 - "Tesla Investor Relations." n.d. Accessed October 25, 2026. [https://ir.tesla.com/][ref_tesla_ir]
 - "Valor Equity Partners." n.d. Accessed October 25, 2026. [https://www.valorep.com/][ref_valor_equity]
-- "Virgin Orbit Court Record." n.d. Accessed October 25, 2026. [https://www.deb.uscourts.gov/][ref_virgin_orbit_court]
 - "Wall Street Journal." n.d. Accessed October 25, 2026. [https://www.wsj.com/tech][ref_wsj]
 - "Washington Post Technology Coverage." n.d. Accessed October 25, 2026. [https://www.washingtonpost.com/business/technology/][ref_washington_post]
 - "Wharton SpaceX Case." n.d. Accessed October 25, 2026. [https://knowledge.wharton.upenn.edu/][ref_wharton_spacex_case]

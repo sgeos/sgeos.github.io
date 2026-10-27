@@ -153,7 +153,7 @@ The tenth article of the series treats India and other late arrivals whose post-
 ### Secondary Sources
 
 - Amsden, Alice H. 1989. *Asia's Next Giant: South Korea and Late Industrialization*. Oxford University Press. [https://global.oup.com/academic/product/asias-next-giant-9780195076035][book_amsden_asias_next_giant]
-- Studwell, Joe. 2013. *How Asia Works, Success and Failure in the World's Most Dynamic Region*. Grove Press. [https://groveatlantic.com/book/how-asia-works/][book_studwell_how_asia_works]
+- Studwell. 2013. *How Asia Works*. [https://groveatlantic.com/book/how-asia-works/][book_studwell_how_asia_works]
 - Wade, Robert. 1990. *Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization*. Princeton University Press. [https://press.princeton.edu/books/paperback/9780691117294/governing-the-market][book_wade_governing_market]
 
 ### Related Posts

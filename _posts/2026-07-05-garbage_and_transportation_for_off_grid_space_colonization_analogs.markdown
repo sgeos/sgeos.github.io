@@ -1371,8 +1371,8 @@ in the analog tradition.
 
 ### Commercial Sources
 
+- "Mars Sample Return." 2023. NASA Science, June 15. [https://science.nasa.gov/mission/mars-sample-return/][ref_msr]
 - "NASA Mars Rover Programme." n.d. Accessed October 25, 2026. [https://mars.nasa.gov/mer/][ref_mars_rovers]
-- "NASA Mars Sample Return." n.d. Accessed October 25, 2026. [https://science.nasa.gov/mission/mars-sample-return/][ref_msr]
 
 ### General Sources
 

@@ -252,22 +252,22 @@ vlc dvd://
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "FreeBSD Handbook, Browsers." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/desktop-browsers.html][freebsd_browsers]
+- "5.5. Using Fonts in Xorg." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/x-fonts.html][freebsd_fonts]
+- "6.2. Browsers." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/desktop-browsers.html][freebsd_browsers]
 - "FreeBSD Handbook, The X Display Manager." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/x-xdm.html][freebsd_display_manager]
-- "FreeBSD Handbook, Using Fonts in Xorg." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/x-fonts.html][freebsd_fonts]
 - "FreeBSD Handbook, Video Playback." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/video-playback.html][freebsd_video_playback]
 
 ### General Sources
 
 - "1. デスクトップ環境構築/Lumina/インストール." n.d. Accessed October 25, 2026. [http://freebsd.sing.ne.jp/desktop/08/01.html][freebsd_japanese_lumina]
+- "\[SOLVED\] DVD Won't Play in VLC or MPlayer \[Archive\]." n.d. Accessed October 25, 2026. [https://ubuntuforums.org/archive/index.php/t-1536685.html][dvd_fs]
+- "Documentation:Command Line." n.d. Accessed October 25, 2026. [https://wiki.videolan.org/Documentation:Command\_line/\#Opening\_a\_DVD\_or\_VCD.2C\_or\_an\_audio\_CD][vlc_cli]
+- "DragonFlyBSD: How to Get to the Desktop." n.d. Accessed October 25, 2026. [https://www.dragonflybsd.org/docs/how\_to\_get\_to\_the\_desktop/][xorg_desktop]
 - "FreeBSD での DVD の再生やバックアップなど." n.d. Accessed October 25, 2026. [https://ryogan.org/blog/2012/12/08/freebsd-での-dvd-の再生やバックアップなど/][freebsd_dvd_backup]
 - "FreeBSD, デスクトップ環境の構築(Mate 1.12.0 on FreeBSD 10." n.d. Accessed October 25, 2026. [http://silversack.my.coocan.jp/bsd/mate10x-buildmate.htm][freebsd_mate]
 - "FreeBSDで遊ぼうのこーな." n.d. Accessed October 25, 2026. [http://legacyos.ichmy.0t0.jp/virtualbsd/][freebsd_play]
 - "FS\#13755: Xorg-Xdm Uses the Depreceated Xsm as Default Session Management." n.d. Accessed October 25, 2026. [https://bugs.archlinux.org/task/13755][xdm_xsm]
 - "pkg, Operation timed out." n.d. Accessed October 25, 2026. [https://forums.freebsd.org/threads/51501/][freebsd_pkg_timeout]
-- "VLC, Documentation:Command line." n.d. Accessed October 25, 2026. [https://wiki.videolan.org/Documentation:Command\_line/\#Opening\_a\_DVD\_or\_VCD.2C\_or\_an\_audio\_CD][vlc_cli]
-- "VLC, DVD won't play in VLC or MPlayer." n.d. Accessed October 25, 2026. [https://ubuntuforums.org/archive/index.php/t-1536685.html][dvd_fs]
-- "xorg, How to get a desktop on DragonFly." n.d. Accessed October 25, 2026. [https://www.dragonflybsd.org/docs/how\_to\_get\_to\_the\_desktop/][xorg_desktop]
 - "Xorg: What Is '.Xsession' For?" n.d. Accessed October 25, 2026. [http://unix.stackexchange.com/questions/47359/what-is-xsession-for][xdm_xsession]
 - "YouTube video." n.d. Accessed October 25, 2026. [https://www.youtube.com/watch?v=CynsucGqMtI][youtube_video]
 - "¡ÚFreeBSD¡ÛÆüËÜ¸ìÆþÎÏ´Ä¶­¤ò¹½ÃÛ¤¹¤ë¡Êscim/anthy¡Ë." n.d. Accessed October 25, 2026. [http://www.kishiro.com/FreeBSD/scim-anthy.html][freebsd_scim_anthy]

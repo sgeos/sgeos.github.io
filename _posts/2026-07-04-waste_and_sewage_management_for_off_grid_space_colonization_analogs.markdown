@@ -1461,16 +1461,16 @@ that the survey opener identified.
 ### Primary Sources, Non-Peer-Reviewed
 
 - *NASA Trace Contaminant Control System*. n.d. [https://ntrs.nasa.gov/citations/20140002884][ref_tccs]
-- "United States Environmental Protection Agency." n.d. Accessed October 25, 2026. [https://www.epa.gov/][ref_epa]
-- "United States Resource Conservation and Recovery Act." n.d. Accessed October 25, 2026. [https://www.epa.gov/rcra][ref_rcra]
+- Us Epa, Oa. 2013. "U.S. Environmental Protection Agency." US EPA, March 20. [https://www.epa.gov/][ref_epa]
+- Us Epa, Olem. 2015. "Resource Conservation and Recovery Act (RCRA) Laws and Regulations." US EPA, June 19. [https://www.epa.gov/rcra][ref_rcra]
 
 ### Commercial Sources
 
-- "NASA Heat Melt Compactor." n.d. Accessed October 25, 2026. [https://www.nasa.gov/ames/space-biosciences/what-is-nasas-heat-melt-compactor/][ref_hmc]
+- "What Is NASA’s Heat Melt Compactor?" n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/ames/space-biosciences/what-is-nasas-heat-melt-compactor/][ref_hmc]
 
 ### General Sources
 
-- "International Atomic Energy Agency Safety Standards." n.d. Accessed October 25, 2026. [https://www.iaea.org/][ref_iaea]
+- "International Atomic Energy Agency \| Atoms for Peace and Development." n.d. Accessed October 25, 2026. [https://www.iaea.org/][ref_iaea]
 - "NSF Standard 350 Greywater Treatment Systems." n.d. Accessed October 25, 2026. [https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-350][ref_nsf_350]
 - "NSF Standard 40 Aerobic Treatment Units." n.d. Accessed October 25, 2026. [https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-40][ref_nsf_40]
 - "NSF/ANSI 41 Non-Liquid Saturated Treatment Systems." n.d. Accessed October 25, 2026. [https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-41][ref_nsf_41]

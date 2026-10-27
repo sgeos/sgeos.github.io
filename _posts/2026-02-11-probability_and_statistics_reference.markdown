@@ -530,7 +530,7 @@ when each method can and cannot be trusted.
 
 ### Secondary Sources
 
-- *Practical Statistics for Data Scientists*. n.d. [https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/][book_bruce]
+- Peter Bruce, Andrew Bruce, Peter Gedeck. n.d. *Practical Statistics for Data Scientists, 2nd Edition*. [https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/][book_bruce]
 - Ross, Sheldon M. 2004. *Introduction to Probability and Statistics for Engineers and Scientists*. Elsevier Science & Technology Books. [https://shop.elsevier.com/books/introduction-to-probability-and-statistics-for-engineers-and-scientists/ross/978-0-12-824346-6][book_ross]
 - Wasserman, Larry. 2004. *All of Statistics: A Concise Course in Statistical Inference*. Springer New York. [https://doi.org/10.1007/978-0-387-21736-9][book_wasserman]
 
@@ -539,8 +539,8 @@ when each method can and cannot be trusted.
 - "Khan Academy Statistics and Probability." n.d. Accessed October 25, 2026. [https://www.khanacademy.org/math/statistics-probability][reference_khan]
 - "NIST Engineering Statistics Handbook." n.d. Accessed October 25, 2026. [https://www.itl.nist.gov/div898/handbook/][reference_nist]
 - "Seeing Theory." n.d. Accessed October 25, 2026. [https://seeing-theory.brown.edu/][reference_seeing_theory]
+- "Standard Normal Table." n.d. Accessed October 25, 2026. [https://www.sjsu.edu/faculty/gerstman/EpiInfo/z-table.htm][tool_z_table]
 - "Tool, Binomial Distribution Calculator." n.d. Accessed October 25, 2026. [https://stattrek.com/online-calculator/binomial][tool_binomial]
-- "Tool, Standard Normal Z-Table." n.d. Accessed October 25, 2026. [https://www.sjsu.edu/faculty/gerstman/EpiInfo/z-table.htm][tool_z_table]
 
 ### Tertiary Sources
 

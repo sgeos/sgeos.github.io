@@ -698,20 +698,19 @@ an AI agent that helps and one that hinders.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- *The /llms.txt File*. n.d. [https://llmstxt.org/][standard_llms_txt]
+- "Advanced-Context-Engineering-for-Coding-Agents/ace-Fca.md at Main · Humanlayer/advanced-Context-Engineering-for-Coding-Agents." n.d. GitHub. Accessed October 25, 2026. [https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md][industry_humanlayer]
 - "AGENTS.md." n.d. agents.md. Accessed October 25, 2026. [https://agents.md/][protocol_agents_md]
 - Chatlatanagulchai, Worawalan, Hao Li, Yutaro Kashiwa, et al. 2025a. "Agent READMEs: An Empirical Study of Context Files for Agentic Coding." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2511.12884][research_agent_readmes]
 - Chatlatanagulchai, Worawalan, Kundjanasith Thonglek, Brittany Reid, et al. 2025b. "On the Use of Agentic Coding Manifests: An Empirical Study of Claude Code." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2509.14744][research_agentic_manifests]
 - Haseeb, Muhammad. 2025. "Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2508.08322][research_multi_agent]
-- "Industry, Advanced Context Engineering for Coding Agents." n.d. github.com. Accessed October 25, 2026. [https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md][industry_humanlayer]
 - Lulla, Jai Lal, Seyedmoein Mohsenimofidi, Matthias Galster, Jie M. Zhang, Sebastian Baltes, and Christoph Treude. 2026. "On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2601.20404][research_agents_md_impact]
 - "Manage Claude's Memory." n.d. Claude Code Docs. Accessed October 25, 2026. [https://code.claude.com/docs/en/memory][cc_memory]
 - Mohsenimofidi, Seyedmoein, Matthias Galster, Christoph Treude, and Sebastian Baltes. 2025. "Context Engineering for AI Agents in Open-Source Software." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2510.21413][research_oss_context]
 - Santos, Helio Victor F., Vitor Costa, Joao Eduardo Montandon, and Marco Tulio Valente. 2025. "Decoding the Configuration of AI Coding Agents: Insights from Claude Code Projects." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2511.09268][research_santos_config]
-- *ThoughtWorks Technology Radar: AGENTS.md*. n.d. [https://www.thoughtworks.com/en-us/radar/techniques/agents-md][standard_thoughtworks_radar]
 
 ### Commercial Sources
 
+- "AGENTS.md \| Technology Radar." n.d. Thoughtworks. Accessed October 25, 2026. [https://www.thoughtworks.com/en-us/radar/techniques/agents-md][standard_thoughtworks_radar]
 - "Anthropic, Effective Context Engineering for AI Agents." n.d. Accessed October 25, 2026. [https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents][anthropic_context_engineering]
 - "Anthropic, Equipping Agents for the Real World with Agent Skills." n.d. Accessed October 25, 2026. [https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills][anthropic_agent_skills]
 - "Anthropic, Introducing the Model Context Protocol." n.d. Accessed October 25, 2026. [https://www.anthropic.com/news/model-context-protocol][anthropic_mcp]
@@ -719,15 +718,16 @@ an AI agent that helps and one that hinders.
 ### General Sources
 
 - Anthropic. 2026. "Agentic Coding Trends Report." [https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026][anthropic_trends_report]
-- Blog. 2025. "Year in Review." [https://karpathy.bearblog.dev/year-in-review-2025/][blog_karpathy]
+- Blog. 2025. "2025 LLM Year in Review." *karpathy*. Accessed October 25, 2026. [https://karpathy.bearblog.dev/year-in-review-2025/][blog_karpathy]
 - "Blog, Context Engineering." n.d. Accessed October 25, 2026. [https://simonwillison.net/2025/jun/27/context-engineering/][blog_willison]
+- Bruggmann, Max Charas and Marc. n.d. "Background Coding Agents: Context Engineering (Part 2)." *Spotify Engineering*. Accessed October 25, 2026. [https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2][industry_spotify_context]
 - "Building a Personal AI Infrastructure (PAI)." n.d. Accessed October 25, 2026. [https://danielmiessler.com/blog/personal-ai-infrastructure][industry_miessler_pai]
 - "Context Engineering." 2025. *LangChain Blog*, July 2. [https://blog.langchain.com/context-engineering-for-agents/][industry_langchain]
+- "Context Engineering for AI Agents: Lessons from Building Manus." n.d. Accessed October 25, 2026. [https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus][industry_manus]
+- "The Context Window Problem: Scaling Agents beyond Token Limits." n.d. *Factory.ai*. Accessed October 25, 2026. [https://factory.ai/news/context-window-problem][industry_factory_context]
 - "Fixing Claude Code's Amnesia." n.d. Accessed October 25, 2026. [https://blog.fsck.com/2025/10/23/episodic-memory/][industry_episodic_memory]
-- "Industry, Context Engineering for AI Agents: Lessons from Building Manus." n.d.-a. Accessed October 25, 2026. [https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus][industry_manus]
-- "Industry, Context Engineering for Coding Agents." n.d.-b. Accessed October 25, 2026. [https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html][industry_fowler_context]
-- "Industry, Spotify Background Coding Agents Part 2: Context Engineering." n.d. Accessed October 25, 2026. [https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2][industry_spotify_context]
-- "Industry, The Context Window Problem." n.d. Accessed October 25, 2026. [https://factory.ai/news/context-window-problem][industry_factory_context]
+- Howard, Jeremy. n.d. "The /Llms.txt File." llms-txt. Accessed October 25, 2026. [https://llmstxt.org/][standard_llms_txt]
+- "Industry, Context Engineering for Coding Agents." n.d. Accessed October 25, 2026. [https://martinfowler.com/articles/exploring-gen-ai/context-engineering-coding-agents.html][industry_fowler_context]
 - "Industry, Why AI Coding Agents Aren't Production-Ready." n.d. Accessed October 25, 2026. [https://venturebeat.com/ai/why-ai-coding-agents-arent-production-ready-brittle-context-windows-broken][industry_venturebeat]
 - Osmani, Addy. n.d. "Context Engineering: Bringing Engineering Discipline to Prompts." Accessed October 25, 2026. [https://addyo.substack.com/p/context-engineering-bringing-engineering][industry_osmani]
 - "Set up a Context Engineering Flow in VS Code." n.d. Accessed October 25, 2026. [https://code.visualstudio.com/docs/copilot/guides/context-engineering-guide][tool_vscode]

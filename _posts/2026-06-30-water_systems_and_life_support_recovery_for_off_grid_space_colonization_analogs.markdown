@@ -1661,7 +1661,7 @@ that the survey opener identified.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "Environmental Protection Agency Safe Drinking Water Act." n.d. Accessed October 25, 2026. [https://www.epa.gov/sdwa][ref_epa_sdwa]
+- Us Epa, Ow. 2015. "Safe Drinking Water Act (SDWA)." US EPA, March 25. [https://www.epa.gov/sdwa][ref_epa_sdwa]
 - *Water Vapor Adsorption Reactor WAVAR Concept*. n.d. [https://ntrs.nasa.gov/citations/19990033319][ref_wavar]
 
 ### Commercial Sources
@@ -1670,12 +1670,12 @@ that the survey opener identified.
 
 ### General Sources
 
-- "ASHRAE Standard 188 Legionellosis Risk Management." n.d. Accessed October 25, 2026. [https://www.ashrae.org/technical-resources/bookstore/ansi-ashrae-standard-188-2021-legionellosis-risk-management-for-building-water-systems][ref_ashrae_188]
+- "ANSI/ASHRAE Standard 188-2021, Legionellosis: Risk Management for Building Water Systems." n.d. Accessed October 25, 2026. [https://www.ashrae.org/technical-resources/bookstore/ansi-ashrae-standard-188-2021-legionellosis-risk-management-for-building-water-systems][ref_ashrae_188]
+- "Guidelines for Drinking-Water Quality: Fourth Edition Incorporating the First and Second Addenda." n.d. Accessed October 25, 2026. [https://www.who.int/publications/i/item/9789240045064][ref_who_dwg]
 - "International Plumbing Code." n.d. Accessed October 25, 2026. [https://www.iccsafe.org/products-and-services/i-codes/2024-i-codes/ipc/][ref_ipc]
 - "NSF Standard 53 Drinking Water Treatment Health Effects." n.d. Accessed October 25, 2026. [https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-53][ref_nsf_53]
 - "NSF Standard 55 Ultraviolet Microbiological Water Treatment." n.d. Accessed October 25, 2026. [https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-55][ref_nsf_55]
 - "NSF Standard 61 Drinking Water System Components." n.d. Accessed October 25, 2026. [https://www.nsf.org/standards-development/standards-portfolio/water-treatment-distribution-systems/nsf-ansi-61][ref_nsf_61]
-- "World Health Organization Drinking-Water Guidelines." n.d. Accessed October 25, 2026. [https://www.who.int/publications/i/item/9789240045064][ref_who_dwg]
 
 ### Tertiary Sources
 

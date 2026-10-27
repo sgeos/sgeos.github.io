@@ -4,6 +4,33 @@
 
 ## Last Updated
 
+**Date**: 2026-10-26 (second entry)
+**Task**: **The unread pages of A1 to A296 were read again and their articles reconverted, so fewer entries rest on labels. Pushed on the pilot's instruction.** `6ebf62d` deployed successfully first.
+
+**What the second reading found.** The Internet Archive served this address again, at about twelve seconds a page, and both ranges were read in full in two paced processes.
+
+| | A1 to A199 | A200 to A296 |
+|---|---|---|
+| Entries | 4,171 | 10,042 |
+| Distinct records | 3,252 | 6,052 |
+| Records built from labels | 822, was 1,140 | 1,827, was 1,935 |
+| Untitled records | 1, was 2 | 230, was 251 |
+| Pages planned | 1,448 | 3,694 |
+| Read | 1,036, was 444 | 1,622, was 1,306 |
+| No capture in the archive | 151 | 1,725 |
+| Still refused | 261 | 347 |
+
+All 284 articles were reconverted from their copies taken before conversion, and all 372 converted articles were regenerated and pass `sources.py check`. 125 records that the reconversion superseded, under names no article uses any more, were removed. The store holds 238,977 records and 27,577 venues, 12,547 credited.
+
+**Verification.** `test_sources.py` 91 of 91, `test_lib.py` 165 of 165, `sources.py validate` 238,977 records and 27,577 venues valid, and `./_check.sh --weights` passed, with `_verify.py` at 0 errors and 0 warnings over 384 posts, a clean build, and the rendered audit clean over 551 pages. The site is 224.7 MB.
+
+**Open, each a decision for the pilot rather than unfinished conversion.**
+- 608 pages are still refused and 1,876 have no capture. Their entries are built from their labels and say so.
+- Hopkins, Alonso and Adcock 1965 and Newkirk 1971 could not be found anywhere, and may not exist.
+- Thirteen Wikipedia links name pages that do not exist and are built from their labels.
+
+## Previous Report (2026-10-26, first entry)
+
 **Date**: 2026-10-26 (first entry)
 **Task**: **A1 to A199 converted to Chicago author-date from the source database, so all of A1 to A384 are converted. Pushed on the pilot's instruction.** The previous entry's commit, `5d58e27`, deployed successfully first.
 

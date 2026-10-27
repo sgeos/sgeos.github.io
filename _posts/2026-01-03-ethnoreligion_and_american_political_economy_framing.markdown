@@ -221,7 +221,7 @@ Endogamy rates modulate retention through the intergenerational transmission cha
 
 $$R^{\text{ancestral}}(g) \approx \rho^g$$
 
-with the simplifying assumption of independent within-generation endogamy choice. Documented endogamy rates for early twentieth-century American Jewish communities were near $\rho \approx 0.97$ (declining to approximately $0.50$ by the early twenty-first century per [Pew Research 2013][ref_pew_jewish_2013]), for Catholic communities near $\rho \approx 0.80$ mid-century declining to approximately $0.60$, and for other groups varying with community size and geographic concentration.
+with the simplifying assumption of independent within-generation endogamy choice. Documented endogamy rates for early twentieth-century American Jewish communities were near $\rho \approx 0.97$ (declining to approximately $0.50$ by the early twenty-first century per [Author 2013][ref_pew_jewish_2013]), for Catholic communities near $\rho \approx 0.80$ mid-century declining to approximately $0.60$, and for other groups varying with community size and geographic concentration.
 
 Chain migration amplifies the arriving population through documented family and kinship networks. Under a chain-migration multiplier $m > 1$, the total arriving population from an initial pioneer of size $N_0$ across $k$ chain-migration cycles follows
 
@@ -378,7 +378,7 @@ These questions recur throughout the series and are revisited in the closing syn
 - "Sublimis Deus." 1537. [https://www.papalencyclicals.net/paul03/p3subli.htm][ref_sublimis_deus_1537]
 - Thornton, John. 1984. "The Development of an African Catholic Church in the Kingdom of Kongo, 1491–1750." *Journal of African History* 25 (2): 147–67. [https://doi.org/10.1017/s0021853700022830][research_thornton_1984]
 - Tooker, Elisabeth. 1988. "The United States Constitution and the Iroquois League." *Ethnohistory* 35 (4): 305. [https://doi.org/10.2307/482139][research_tooker_1988]
-- "Treaty of Tordesillas 1494." n.d. Accessed October 25, 2026. [https://avalon.law.yale.edu/15th\_century/mod001.asp][ref_treaty_of_tordesillas_1494]
+- "Treaty between Spain and Portugal Concluded at Tordesillas; June 7, 1494." 1998. Washington, DC: The Carnegie Institution of Washington, 1917, December. [https://avalon.law.yale.edu/15th\_century/mod001.asp][ref_treaty_of_tordesillas_1494]
 - "United States Census Bureau Historical Statistics on Religion." n.d. Accessed October 25, 2026. [https://www.census.gov/library/publications/1976/compendia/hist\_stats\_colonial-1970.html][ref_us_census_historical_religion]
 - United States Congress. 1988. "Concurrent Resolution 331." [https://www.congress.gov/bill/100th-congress/senate-concurrent-resolution/76][research_congress_1988]
 - "Vatican Apostolic Archive." n.d. Accessed October 25, 2026. [https://www.vatican.va/][ref_vatican_apostolic_archive]
@@ -549,7 +549,7 @@ These questions recur throughout the series and are revisited in the closing syn
 - Thornton, Russell. 1987. *American Indian Holocaust and Survival: A Population History since 1492*. University of Oklahoma Press. [https://www.oupress.com/9780806121758/american-indian-holocaust-and-survival/][book_thornton_1987]
 - Thornton, John K. 1992. *Africa and Africans in the Making of the Atlantic World, 1400-1680*. Camb. U. P. [https://www.cambridge.org/9780521398640][book_thornton_1992]
 - Tinker, George E. 1993. *Missionary Conquest: The Gospel and Native American Cultural Genocide*. Fortress Press. [https://fortresspress.com/product/missionary-conquest-the-gospel-and-native-american-cultural-genocide][book_tinker_1993]
-- Tocqueville. 1835. *Democracy in America*. [https://oll.libertyfund.org/titles/tocqueville-democracy-in-america-historical-critical-edition-vol-1][book_tocqueville_1835]
+- Tocqueville. 1835. *Democracy in America: Historical-Critical Edition, Vol. 1 \| Online Library of Liberty*. [https://oll.libertyfund.org/titles/tocqueville-democracy-in-america-historical-critical-edition-vol-1][book_tocqueville_1835]
 - Trigger, Bruce G. 1976. *The Children of Aataentsic: A History of the Huron People to 1660*. McGill-Queen's University Press. [https://www.mqup.ca/children-of-aataentsic-products-9780773524880.php][book_trigger_1976]
 - Trouillot, Michel-Rolph. 1995. *Silencing the Past: Power and the Production of History*. Beacon Press. [https://www.beacon.org/Silencing-the-Past-20th-anniversary-edition-P1088.aspx][book_trouillot_1995]
 - Turner, Lorenzo Dow. 1949. *Africanisms in the Gullah Dialect*. Univ. of Chicago Press. [https://www.press.uchicago.edu/ucp/books/book/chicago/A/bo3644229.html][book_turner_1949]
@@ -576,7 +576,7 @@ These questions recur throughout the series and are revisited in the closing syn
 
 ### Commercial Sources
 
-- Pew Research. 2013. "A Portrait of Jewish Americans." [https://www.pewresearch.org/religion/2013/10/01/jewish-american-beliefs-attitudes-culture-survey/][ref_pew_jewish_2013]
+- Author, No. 2013. "A Portrait of Jewish Americans." Pew Research Center, October 1. [https://www.pewresearch.org/religion/2013/10/01/jewish-american-beliefs-attitudes-culture-survey/][ref_pew_jewish_2013]
 - "Religion: Research and Data from Pew Research Center." n.d. Pew Research Center. Accessed October 25, 2026. [https://www.pewresearch.org/religion/][ref_pew_religion_public_life]
 
 ### General Sources
@@ -594,7 +594,7 @@ These questions recur throughout the series and are revisited in the closing syn
 - "Maine State Archives Wabanaki Treaties." n.d. Accessed October 25, 2026. [https://www.maine.gov/sos/arc/archives/][ref_maine_wabanaki_treaties]
 - "Native American Constitution and Law Digitization Project." n.d. Accessed October 25, 2026. [https://thorpe.law.ou.edu/][ref_nacldp]
 - "Native American Rights Fund." n.d. Accessed October 25, 2026. [https://narf.org/][ref_native_american_rights_fund]
-- "Ninety-Five Theses." 1517. [https://www.luther.de/en/95thesen.html][ref_ninety_five_theses_1517]
+- Ninety-Five Theses. 1517. "Martin Luther's 95 Theses." Accessed October 25, 2026. [https://www.luther.de/en/95thesen.html][ref_ninety_five_theses_1517]
 - Tooker. 1978. "The League of the Iroquois." [https://www.jstor.org/stable/j.ctv1qxgnh7][research_tooker_1978]
 - Turner. 1893. "The Significance of the Frontier in American History." [https://www.historians.org/about-aha-and-membership/aha-history-and-archives/historical-archives/the-significance-of-the-frontier-in-american-history][research_turner_1893]
 - "Voyages Slave Trade Database." 2019. [https://www.slavevoyages.org/][ref_voyages_database]

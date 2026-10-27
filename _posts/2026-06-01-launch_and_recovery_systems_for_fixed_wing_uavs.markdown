@@ -429,16 +429,19 @@ with numbers rather than guess at.
 
 ### Primary Sources, Peer-Reviewed
 
+- Liu, Yunxiao, Yiming Wang, Han Li, and Jianliang Ai. 2024. "Runway-Free Recovery Methods for Fixed-Wing UAVs: A Comprehensive Review." *Drones* 8: 463. [https://www.mdpi.com/2504-446X/8/9/463][research_mdpi_recovery]
 - Mathisen, Siri, Kristoffer Gryte, Sebastien Gros, and Tor Arne Johansen. 2020. "Precision Deep-Stall Landing of Fixed-Wing UAVs Using Nonlinear Model Predictive Control." *Journal of Intelligent & Robotic Systems* 101 (1): 24. [https://doi.org/10.1007/s10846-020-01264-3][research_deepstall]
 
 ### Primary Sources, Non-Peer-Reviewed
 
 - *Parachute Recovery System Selection and Qualification (Butler Parachutes)*. n.d. [https://www.butlerparachutes.com/wp-content/uploads/BUPS-Recovery-System-Qualification.pdf][research_butler_parachute]
 - *Post-Stall Perching with a Fixed-Wing Glider (MIT)*. n.d. [https://groups.csail.mit.edu/robotics-center/public\_papers/Moore14a.pdf][research_perching]
-- Runway-Free Recovery Methods for Fixed-Wing UAVs. n.d. *A Comprehensive Review*. [https://www.mdpi.com/2504-446X/8/9/463][research_mdpi_recovery]
 - *UAS Parachute Recovery Tutorial (Fruity Chutes)*. n.d. [https://fruitychutes.com/uav\_rpv\_drone\_recovery\_parachutes/uas-parachute-recovery-tutorial][research_fruity_chutes]
-- *Velocity During Recovery (NASA Glenn)*. n.d. [https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/rktvrecv.html][research_nasa_descent]
 - Xu, Wei, and Fu Zhang. 2019. "Learning Pugachev's Cobra Maneuver for Tail-Sitter UAVs Using Acceleration Model." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1906.02596][research_cobra_tailsitter]
+
+### Commercial Sources
+
+- "Velocity during Recovery." n.d. Accessed October 25, 2026. [https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/rktvrecv.html][research_nasa_descent]
 
 ### Tertiary Sources
 

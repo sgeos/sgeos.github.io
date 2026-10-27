@@ -1,3 +1,6 @@
 {
- "ref_aeroelasticity": "ref_aeroelasticity_746c50"
+ "project_hackaday_wings": "project_hackaday_wings_f837bb",
+ "ref_aeroelasticity": "ref_aeroelasticity_746c50",
+ "ref_foam_rc": "ref_foam_rc_d27357",
+ "ref_uav_composites": "ref_uav_composites_19be29"
 }

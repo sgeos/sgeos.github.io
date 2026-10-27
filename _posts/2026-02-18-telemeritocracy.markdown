@@ -684,12 +684,10 @@ that is structurally telemeritocratic.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- *The Dangers of Teleocratic Politics*. n.d. [https://theconstitutionalist.org/2020/12/10/the-dangers-of-teleocratic-politics/][research_weiner]
+- Cheang, Bryan. 2024. "Why Mission-Directed Governance Risks Authoritarianism: Lessons from East Asia." *Journal of Institutional Economics* 20: e43. [https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/why-missiondirected-governance-risks-authoritarianism-lessons-from-east-asia/E0254D7CFB996C52FC24FDFE768DD925][research_cheang]
 - *Hayek on Nomocracy and Teleocracy*. n.d. [https://cosmosandtaxis.org/wp-content/uploads/2014/11/ct\_1\_2\_cheung.pdf][research_cheung_hayek]
 - *Levels without Bosses at Valve*. n.d. [https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=3884844][research_moller_valve]
-- *Mission-Directed Governance Risks Authoritarianism*. n.d. [https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/why-missiondirected-governance-risks-authoritarianism-lessons-from-east-asia/E0254D7CFB996C52FC24FDFE768DD925][research_cheang]
 - *RFC 7282: On Consensus and Humming in the IETF*. n.d. [https://datatracker.ietf.org/doc/rfc7282/][ref_rfc_7282]
-- *The Tyranny of Structurelessness*. n.d. [https://www.jofreeman.com/joreen/tyranny.htm][research_freeman]
 
 ### Secondary Sources
 
@@ -699,6 +697,8 @@ that is structurally telemeritocratic.
 ### General Sources
 
 - "Apache Software Foundation Governance." n.d. Accessed October 25, 2026. [https://www.apache.org/foundation/how-it-works/][ref_apache]
+- "The Tyranny of Stuctureless." n.d. Accessed October 25, 2026. [https://www.jofreeman.com/joreen/tyranny.htm][research_freeman]
+- Weiner, Greg. 2020. "The Dangers of Telocratic Politics." *The Constitutionalist*, December 10. [https://theconstitutionalist.org/2020/12/10/the-dangers-of-teleocratic-politics/][research_weiner]
 
 ### Tertiary Sources
 

@@ -458,6 +458,7 @@ Sample complexity in bandits versus regret is a subtle distinction. Regret bound
 - Li, Lihong, Wei Chu, John Langford, and Robert E. Schapire. 2010. "A Contextual-Bandit Approach to Personalized News Article Recommendation." In *Proceedings of the 19th international conference on World wide web*. ACM. [https://doi.org/10.1145/1772690.1772758][research_li_et_al_2010]
 - Lykouris, Thodoris, Vahab Mirrokni, and Renato Paes Leme. 2018. "Stochastic Bandits Robust to Adversarial Corruptions." In *Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing*. ACM. [https://doi.org/10.1145/3188745.3188918][research_lykouris_mirrokni_leme_2018]
 - Robbins. 1952. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Robbins+1952][research_robbins_1952]
+- Robbins, Herbert, and Sutton Monro. 1951. "A Stochastic Approximation Method." *The Annals of Mathematical Statistics* 22: 400–407. [https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full][research_robbins_monro_1951]
 - Srinivas, Niranjan, Andreas Krause, Sham M. Kakade, and Matthias Seeger. 2009. "Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design." Preprint, arXiv. [https://doi.org/10.48550/arxiv.0912.3995][research_srinivas_et_al_2010]
 - Thompson, William R. 1933. "On the Likelihood That One Unknown Probability Exceeds Another in View of the Evidence of Two Samples." *Biometrika* 25 (3/4): 285. [https://doi.org/10.2307/2332286][research_thompson_1933]
 - Zimmert, Julian, and Yevgeny Seldin. 2019. "An Optimal Algorithm for Stochastic and Adversarial Bandits." In *The 22nd International Conference on Artificial Intelligence and Statistics*. [https://proceedings.mlr.press/v89/zimmert19a.html][research_zimmert_seldin_2019]
@@ -466,7 +467,7 @@ Sample complexity in bandits versus regret is a subtle distinction. Regret bound
 
 - Cesa-Bianchi and Lugosi. 2006. *\[Title not identified\]*. [https://www.cambridge.org/core/books/prediction-learning-and-games/A0552F0DA7B92B2AA4EDB4C6A56F5306][book_cesa_bianchi_lugosi_2006]
 - Gittins, John, Kevin Glazebrook, and Richard Weber. 2011. *Multi-Armed Bandit Allocation Indices*. Wiley. [https://doi.org/10.1002/9780470980033][book_gittins_glazebrook_weber_2011]
-- Hazan. 2016. *\[Title not identified\]*. [https://sites.google.com/view/intro-oco/][book_hazan_2016]
+- Hazan. 2016. *Introduction to OCO*. [https://sites.google.com/view/intro-oco/][book_hazan_2016]
 - Lattimore and Szepesvari. 2020. *\[Title not identified\]*. [https://tor-lattimore.com/downloads/book/book.pdf][book_lattimore_szepesvari_2020]
 - Slivkins, Aleksandrs. 2019. *Introduction to Multi-Armed Bandits*. Now Publishers, Inc. [https://www.nowpublishers.com/article/Details/MAL-068][book_slivkins_2019]
 
@@ -482,7 +483,6 @@ Sample complexity in bandits versus regret is a subtle distinction. Regret bound
 - Gittins. 1979. "\[Title not identified\]." Accessed October 25, 2026. [https://www.jstor.org/stable/2985029][research_gittins_1979]
 - "Introduction to Online Learning Lecture Notes." n.d. Accessed October 25, 2026. [https://sites.google.com/view/intro-oco/lecture-notes][ref_hazan_notes]
 - "MSR Bandits Tutorial." n.d. Accessed October 25, 2026. [https://www.microsoft.com/en-us/research/publication/introduction-multi-armed-bandits/][ref_msr_bandits]
-- Robbins and Monro. 1951. "\[Title not identified\]." Accessed October 25, 2026. [https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full][research_robbins_monro_1951]
 - Russo and Van Roy. 2014. "\[Title not identified\]." Accessed October 25, 2026. [https://proceedings.mlr.press/v28/russo14.html][research_russo_van_roy_2014]
 - Vovk. 1990. "\[Title not identified\]." Accessed October 25, 2026. [https://dl.acm.org/doi/10.5555/92571.92672][research_vovk_1990]
 - "Vowpal Wabbit." n.d. Accessed October 25, 2026. [https://vowpalwabbit.org/][ref_vowpal_wabbit]

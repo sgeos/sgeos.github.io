@@ -365,15 +365,15 @@ The [Embedonomicon][rust_embedonomicon] and the
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- "Embedded Rust Documentation." n.d. docs.rust-embedded.org. Accessed October 25, 2026. [https://docs.rust-embedded.org][rust_embedded]
 - "Introduction: The Embedded Rust Book." n.d. docs.rust-embedded.org. Accessed October 25, 2026. [https://docs.rust-embedded.org/book/index.html][rust_embedded_book]
 - "Preface: The Embedonomicon." n.d. docs.rust-embedded.org. Accessed October 25, 2026. [https://docs.rust-embedded.org/embedonomicon/][rust_embedonomicon]
-- "Rust, Embedded Rust Documentation." n.d. docs.rust-embedded.org. Accessed October 25, 2026. [https://docs.rust-embedded.org][rust_embedded]
-- "Rust, Home Page." n.d. www.rust-lang.org. Accessed October 25, 2026. [https://www.rust-lang.org][rust]
+- "Rust Programming Language." n.d. www.rust-lang.org. Accessed October 25, 2026. [https://www.rust-lang.org][rust]
 - "Rust, Rust Embedded Workgroup." n.d. github.com. Accessed October 25, 2026. [https://github.com/rust-embedded][rust_embedded_workgroup]
 
 ### General Sources
 
-- "Rust, A Freestanding Rust Binary." n.d. Accessed October 25, 2026. [https://os.phil-opp.com/freestanding-rust-binary/\#macos][rust_freestanding]
+- Oppermann, Philipp. n.d. "A Freestanding Rust Binary \| Writing an OS in Rust." Accessed October 25, 2026. [https://os.phil-opp.com/freestanding-rust-binary/\#macos][rust_freestanding]
 
 [rust]: https://www.rust-lang.org
 [rust_embedded]: https://docs.rust-embedded.org

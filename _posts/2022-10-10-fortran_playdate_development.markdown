@@ -609,7 +609,7 @@ This post is based on the
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "Fortran, gcc Interoperability with C." n.d. gcc.gnu.org. Accessed October 25, 2026. [https://gcc.gnu.org/onlinedocs/gfortran/Interoperability-with-C.html][fortran_gcc_c_interop]
+- "Interoperability with C (the GNU Fortran Compiler)." n.d. gcc.gnu.org. Accessed October 25, 2026. [https://gcc.gnu.org/onlinedocs/gfortran/Interoperability-with-C.html][fortran_gcc_c_interop]
 
 ### Commercial Sources
 
@@ -617,10 +617,10 @@ This post is based on the
 
 ### General Sources
 
-- "ARM GNU Toolchain Downloads Page." n.d. Accessed October 25, 2026. [https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads][arm_gnu_toolchain_downloads]
 - "ARM GNU Toolchain, macOS Hosted Bare-Metal Target (arm-none-eabi) 11.3.rel1." n.d. Accessed October 25, 2026. [https://developer.arm.com/-/media/Files/downloads/gnu/11.3.rel1/binrel/arm-gnu-toolchain-11.3.rel1-darwin-x86\_64-arm-none-eabi.pkg][arm_gnu_toolchain_macos_11_3_rel1]
+- "Derived Types — Fortran Programming Language." n.d. Accessed October 25, 2026. [https://fortran-lang.org/en/learn/quickstart/derived\_types/][fortran_tutorial_derived_types]
 - "Fortran Homepage." n.d. Accessed October 25, 2026. [https://fortran-lang.org/][fortran]
-- "Fortran Quickstart Tutorial, Derived Types." n.d. Accessed October 25, 2026. [https://fortran-lang.org/en/learn/quickstart/derived\_types/][fortran_tutorial_derived_types]
+- Ltd, Arm. n.d. "Arm GNU Toolchain Downloads." Arm Developer. Accessed October 25, 2026. [https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads][arm_gnu_toolchain_downloads]
 - "Playdate Developer Forum." n.d. Accessed October 25, 2026. [https://devforum.play.date/][playdate_dev_forum]
 - "Playdate Developer Forum, Fortran on Playdate." n.d. Accessed October 25, 2026. [https://devforum.play.date/t/fortran-on-playdate/4238][playdate_dev_forum_fortran]
 

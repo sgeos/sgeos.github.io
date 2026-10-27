@@ -736,17 +736,17 @@ in complex systems.
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- Brand, Stewart. 2018. "Pace Layering: How Complex Systems Learn and Keep Learning." *Journal of Design and Science*. [https://jods.mitpress.mit.edu/pub/issue3-brand][research_pace_layering]
 - *DORA State of DevOps*. n.d. [https://dora.dev/research/][research_dora]
-- *Stewart Brand on Information*. n.d. [https://jods.mitpress.mit.edu/pub/issue3-brand][research_pace_layering]
 
 ### Secondary Sources
 
-- *Engineering a Safer World*. n.d. [https://direct.mit.edu/books/oa-monograph/2908/Engineering-a-Safer-WorldSystems-Thinking-Applied][book_leveson]
+- Leveson, Nancy G. 2012. *Engineering a Safer World: Systems Thinking Applied to Safety*. The MIT Press. [https://direct.mit.edu/books/oa-monograph/2908/Engineering-a-Safer-WorldSystems-Thinking-Applied][book_leveson]
 - Perrow, Charles. 1984. *Normal Accidents: Living with High-Risk Technologies*. Basic Books. [https://press.princeton.edu/books/paperback/9780691004129/normal-accidents][book_normal_accidents]
 
 ### General Sources
 
-- "Bimodal IT." n.d. Accessed October 25, 2026. [https://www.gartner.com/en/information-technology/glossary/bimodal][ref_bimodal_it]
+- "Definition of Bimodal." n.d. Gartner. Accessed October 25, 2026. [https://www.gartner.com/en/information-technology/glossary/bimodal][ref_bimodal_it]
 
 ### Tertiary Sources
 

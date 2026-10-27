@@ -224,9 +224,12 @@ proposal that the rest of the series takes up.
 
 - *The Defense SBIR and STTR Innovation Portal*. n.d. [https://www.dodsbirsttr.mil/][research_dod]
 - *Login.gov*. n.d. [https://login.gov/][research_login]
-- *SBA Size Standards*. n.d. [https://www.sba.gov/size-standards][research_size]
 - "SBIR and STTR Programme Portal." n.d. Accessed October 25, 2026. [https://www.sbir.gov/][research_sbir_gov]
 - *System for Award Management (SAM.gov)*. n.d. [https://sam.gov/][research_sam]
+
+### General Sources
+
+- "Size Standards Tool \| U.S. Small Business AdministrationLock." n.d. Accessed October 25, 2026. [https://www.sba.gov/size-standards][research_size]
 
 ### Tertiary Sources
 

@@ -1826,16 +1826,13 @@ to the present.
 
 - Brady, Edwin C. 2011. "IDRIS, Systems Programming Meets Full Dependent Types." In *Workshop on Programming Languages Meets Program Verification*. [https://www.type-driven.org.uk/edwinb/papers/plpv11.pdf][paper_brady_idris]
 - Cohen, Cyril, Thierry Coquand, Simon Huber, and Anders Mörtberg. 2016. "Cubical Type Theory: A Constructive Interpretation of the Univalence Axiom." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1611.02108][paper_cubical]
+- MSR-TR-2011-37. 2011. *Swamy, Nikhil et al., Secure Distributed Programming with Value-Dependent Types*. [https://scholar.google.com/scholar?q=Swamy%2C+Nikhil+et+al.%2C+Secure+Distributed+Programming+with+Value-Dependent+Types+MSR-TR-2011-37+2011][paper_fstar_initial]
 - Plotkin, Gordon D., and Matija Pretnar. 2013. "Handling Algebraic Effects." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1312.1399][paper_plotkin_pretnar_lmcs]
 - Wadler, Philip. 1990. "Linear Types Can Change the World." In *IFIP TC 2 Working Conference on Programming Concepts and Methods*. [https://homepages.inf.ed.ac.uk/wadler/topics/linear-logic.html][paper_wadler_linear]
 
 ### Secondary Sources
 
 - Univalent Foundations Program. 2013. *Homotopy Type Theory, Univalent Foundations of Mathematics, Institute for Advanced Study*. [https://homotopytypetheory.org/book/][book_hott]
-
-### General Sources
-
-- Swamy, Nikhil, Juan Chen, Cédric Fournet, Pierre-Yves Strub, Karthikeyan Bharagavan, and Jean Yang. 2011. "Secure Distributed Programming with Value-Dependent Types." *Microsoft Research*, March 24. [https://www.microsoft.com/en-us/research/publication/secure-distributed-programming-with-value-dependent-types/][paper_fstar_initial]
 
 ### Related Posts
 
@@ -1852,7 +1849,7 @@ to the present.
 [book_hott]: https://homotopytypetheory.org/book/
 [paper_brady_idris]: https://www.type-driven.org.uk/edwinb/papers/plpv11.pdf
 [paper_cubical]: https://doi.org/10.48550/arxiv.1611.02108
-[paper_fstar_initial]: https://www.microsoft.com/en-us/research/publication/secure-distributed-programming-with-value-dependent-types/
+[paper_fstar_initial]: https://scholar.google.com/scholar?q=Swamy%2C+Nikhil+et+al.%2C+Secure+Distributed+Programming+with+Value-Dependent+Types+MSR-TR-2011-37+2011
 [paper_multiparty_session]: https://doi.org/10.1145/1328897.1328472
 [paper_plotkin_pretnar_esop]: https://doi.org/10.1007/978-3-642-00590-9_7
 [paper_plotkin_pretnar_lmcs]: https://doi.org/10.48550/arxiv.1312.1399

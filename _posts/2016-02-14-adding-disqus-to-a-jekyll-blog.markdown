@@ -114,10 +114,10 @@ The [Disqus Migration Tools][disqus_migrate] can be used move comments to the ne
 ### Primary Sources, Non-Peer-Reviewed
 
 - "Disqus, Jekyll Installation Instructions." n.d. help.disqus.com. Accessed October 25, 2026. [https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions][disqus_jekyll_install]
-- "Disqus, Migration Tools." n.d. help.disqus.com. Accessed October 25, 2026. [https://help.disqus.com/customer/portal/articles/286778-migration-tools][disqus_migrate]
 - "Disqus, Use Configuration Variables to Avoid Split Threads and 'Missing' Comments." n.d. help.disqus.com. Accessed October 25, 2026. [https://help.disqus.com/customer/en/portal/articles/2158629][disqus_install_config]
+- "Front Matter." 2016. Jekyll • Simple, blog-aware, static sites. Accessed October 25, 2026. [http://jekyllrb.com/docs/frontmatter/][jekyll_frontmatter]
 - "Jekyll." n.d. jekyllrb.com. Accessed October 25, 2026. [https://jekyllrb.com][jekyll]
-- "Jekyll, YAML Front Matter." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/frontmatter/][jekyll_frontmatter]
+- "Migration Tools." n.d. DISQUS. Accessed October 25, 2026. [https://help.disqus.com/customer/portal/articles/286778-migration-tools][disqus_migrate]
 - "Templates." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/templates/][jekyll_templates]
 - "Variables." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/variables/][jekyll_variables]
 
@@ -125,8 +125,8 @@ The [Disqus Migration Tools][disqus_migrate] can be used move comments to the ne
 
 - "Disqus." n.d. Accessed October 25, 2026. [https://disqus.com][disqus]
 - "Disqus, Set Up Disqus On a New Site." n.d. Accessed October 25, 2026. [https://disqus.com/admin/create/][disqus_registration]
-- "Google, Use canonical URLs." n.d. Accessed October 25, 2026. [https://support.google.com/webmasters/answer/139066?hl=en][google_canonical]
 - "Install Instructions for Universal Code." n.d. Accessed October 25, 2026. [https://disqus.com/admin/universalcode/][disqus_embed]
+- "Use Canonical URLs: Search Console Help." n.d. Accessed October 25, 2026. [https://support.google.com/webmasters/answer/139066?hl=en][google_canonical]
 
 ### General Sources
 

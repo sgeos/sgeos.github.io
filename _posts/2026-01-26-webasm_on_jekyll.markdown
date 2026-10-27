@@ -360,11 +360,11 @@ optimizing for WASM loading can be found in the
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "Jekyll Assets." n.d. jekyllrb.com. Accessed October 25, 2026. [https://jekyllrb.com/docs/assets/][jekyll_assets]
+- "Assets." 2025. Jekyll • Simple, blog-aware, static sites. Accessed October 25, 2026. [https://jekyllrb.com/docs/assets/][jekyll_assets]
 
 ### General Sources
 
-- "Rust and WebAssembly Book." n.d. Accessed October 25, 2026. [https://rustwasm.github.io/docs/book/][rust_wasm_book]
+- "Introduction: Rust and WebAssembly." n.d. Accessed October 25, 2026. [https://rustwasm.github.io/docs/book/][rust_wasm_book]
 
 [jekyll_assets]: https://jekyllrb.com/docs/assets/
 [rust_wasm_book]: https://rustwasm.github.io/docs/book/

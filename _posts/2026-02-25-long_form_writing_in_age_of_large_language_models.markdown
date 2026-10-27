@@ -1379,7 +1379,10 @@ does not change.
 - "FineWeb Datasets for Large Language Models." n.d. Preprint, . [https://arxiv.org/abs/2406.17557][research_fineweb]
 - *Stewart Brand on Information*. n.d. [https://jods.mitpress.mit.edu/pub/issue3-brand][research_brand]
 - Villalobos, Pablo, Anson Ho, Jaime Sevilla, Tamay Besiroglu, Lennart Heim, and Marius Hobbhahn. 2022. "Will We Run out of Data? Limits of LLM Scaling Based on Human-Generated Data." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2211.04325][research_villalobos]
-- *When Online Content Disappears*. n.d. [https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/][research_pew_link_rot]
+
+### Commercial Sources
+
+- Athena Chapekis, Samuel Bestvater, Emma Remy and Gonzalo Rivero. 2024. "When Online Content Disappears." Pew Research Center, May 17. [https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/][research_pew_link_rot]
 
 ### General Sources
 

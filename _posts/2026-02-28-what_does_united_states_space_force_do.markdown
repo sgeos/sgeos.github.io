@@ -1100,11 +1100,8 @@ defends, and sustains.
 ### Primary Sources, Non-Peer-Reviewed
 
 - *AFA Opposes Space Force*. n.d. [https://spacenews.com/air-force-association-opposes-establishment-of-a-space-force-says-air-and-space-are-indivisible/][research_afa_opposition]
-- *Air Force Founding*. n.d. [https://www.heritage.org/defense/commentary/how-the-air-force-got-its-start-72-years-ago][ref_af_founding]
 - *DoD Executive Agent for Space*. n.d. [https://www.dafhistory.af.mil/About-Us/Fact-Sheets/Display/Article/433549/air-force-space-command-usaf/][ref_dod_space]
 - *RAND Fighter Pilot Culture Study*. n.d. [https://www.rand.org/pubs/research\_reports/RR1936.html][research_rand_fighter_culture]
-- *Rogers Warns Air Force*. n.d. [https://spacepolicyonline.com/news/rogers-warns-air-force-not-to-resist-space-corps-proposal/][research_rogers_warning]
-- *Rumsfeld Commission Report*. n.d. [https://spp.fas.org/military/commission/report.htm][research_rumsfeld_commission]
 - *Space Corps Proposal*. n.d. [https://spacenews.com/house-armed-services-committee-votes-to-create-a-u-s-space-corps/][research_space_corps_proposal]
 - *Space Officer Promotion*. n.d. [https://spacenews.com/space-officers-could-have-a-better-chance-of-promotion-under-new-proposed-guidelines/][research_space_promotion]
 - *Space Warfighting Framework*. n.d. [https://www.airandspaceforces.com/new-doc-spells-out-how-ussf-will-use-space-control-to-gain-space-superiority/][research_warfighting_framework]
@@ -1112,13 +1109,16 @@ defends, and sustains.
 
 ### Commercial Sources
 
-- "Combat Forces Command." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/News/Article-Display/Article/4337269/us-space-force-establishes-combat-forces-command-welcomes-new-fldcom-commander/][ref_cfc]
-- "USSF Organization." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/About-Us/About-Space-Force/Space-Force-Organization/][ref_ussf_organization]
+- "Report of the Commission to Assess United States National Security, Space Management and Organization." n.d. Accessed October 25, 2026. [https://spp.fas.org/military/commission/report.htm][research_rumsfeld_commission]
+- "Space Force Organization U.S. Air Force LogoU.S. Air Force Logo." n.d. Accessed October 25, 2026. [https://www.spaceforce.mil/About-Us/About-Space-Force/Space-Force-Organization/][ref_ussf_organization]
+- "US Space Force Establishes Combat Forces Command, Welcomes New FLDCOM Commander." n.d. United States Space Force. Accessed October 25, 2026. [https://www.spaceforce.mil/News/Article-Display/Article/4337269/us-space-force-establishes-combat-forces-command-welcomes-new-fldcom-commander/][ref_cfc]
+- Venable, John. n.d. "How the Air Force Got Its Start 72 Years Ago." The Heritage Foundation. Accessed October 25, 2026. [https://www.heritage.org/defense/commentary/how-the-air-force-got-its-start-72-years-ago][ref_af_founding]
 
 ### General Sources
 
 - Kari A. Bingen, Kaitlyn Johnson, John Dylan Bustillo, Marie Villarreal Dean. 2022. "U.S. Space Force Primer." *Aerospace Security*, December 22. [https://aerospace.csis.org/us-space-force-primer/][research_csis_primer]
-- "Space Policy Directive 4." n.d. Accessed October 25, 2026. [https://trumpwhitehouse.archives.gov/presidential-actions/text-space-policy-directive-4-establishment-united-states-space-force/][ref_spd4]
+- "Rogers Warns Air Force Not to Resist Space Corps Proposal." n.d. Accessed October 25, 2026. [https://spacepolicyonline.com/news/rogers-warns-air-force-not-to-resist-space-corps-proposal/][research_rogers_warning]
+- "Text of Space Policy Directive-4: Establishment of the United States Space Force – the White HouseOpen MenuWhiteHouse.govCopy URL to Your clipboardOpen SearchShare on FacebookShare on TwitterCopy URL to Your clipboardWhiteHouse.govTwitterFacebookInstagramYouTube." n.d. Accessed October 25, 2026. [https://trumpwhitehouse.archives.gov/presidential-actions/text-space-policy-directive-4-establishment-united-states-space-force/][ref_spd4]
 
 ### Tertiary Sources
 

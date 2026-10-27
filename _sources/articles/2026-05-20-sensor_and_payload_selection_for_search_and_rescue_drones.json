@@ -4,11 +4,16 @@
  "ref_cmmc": "ref_cmmc_849c4e",
  "ref_darpa_offset": "ref_darpa_offset_legacy",
  "ref_dji_flighthub": "ref_dji_flighthub_f69ec1",
+ "ref_droneaudioset": "ref_droneaudioset_6d3498",
  "ref_droneresponders_a150": "ref_droneresponders",
  "ref_easa_uas_a150": "ref_easa_uas",
+ "ref_federal_records_act": "ref_federal_records_act_ffc6ba",
+ "ref_foia": "ref_foia_ed1ee2",
  "ref_lightware": "ref_lightware_lidar",
+ "ref_ndaa_848": "ref_ndaa_848_b41315",
  "ref_nist_800_53": "ref_nist_800_53_6cccb3",
  "ref_sierra_olympia": "ref_sierra_olympia_vinden",
+ "ref_sony_starvis": "ref_sony_starvis_42ec02",
  "ref_teledyne_flir": "ref_teledyne_flir_a27152",
  "ref_workswell_wiris": "ref_workswell_wiris_73a3d8"
 }

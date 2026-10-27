@@ -805,7 +805,7 @@ This article follows the terminological conventions established in [A266][relate
 - McNaughton, James C. 2006. *Nisei Linguists: Japanese Americans in the Military Intelligence Service during World War II*. Department of the Army. [https://www.army.mil/csm/mihi/][book_mcnaughton_2006]
 - Meadows, William C. 2002. *The Comanche Code Talkers of World War II*. University of Texas Press. [https://www.oupress.com/9780806133904/the-comanche-code-talkers-of-world-war-ii/][book_meadows_2002]
 - Meier and Rudwick. 1975. *CORE*. [https://global.oup.com/academic/product/core-9780252012259][book_meier_rudwick_1975]
-- Meyer. 1988. *Response to Modernity (Reform Judaism)*. [https://global.oup.com/academic/product/response-to-modernity-9780814326848][book_meyer_1988_response]
+- Meyer, Michael A. 1988. *Response to Modernity: A History of the Reform Movement in Judaism*. Oxford University Press. [https://global.oup.com/academic/product/response-to-modernity-9780814326848][book_meyer_1988_response]
 - Milkis, Sidney M. 1993. *The President and the Parties: The Transformation of the American Party System since the New Deal*. Oxford University Press. [https://global.oup.com/academic/product/the-president-and-the-parties-9780195088243][book_milkis_1993]
 - Miller, William D. 1982. *Dorothy Day: A Biography*. Harper & Row. [https://global.oup.com/academic/product/dorothy-day-9781570753893][book_miller_1982_dorothy_day]
 - Miller. 2003. *The Depression and the New Deal*. [https://scholar.google.com/scholar?q=miller+2003+depression+new+deal][book_miller_2003]
@@ -869,7 +869,7 @@ This article follows the terminological conventions established in [A266][relate
 
 - Biltmore Program. 1942. "(American Zionist Declaration)." [https://www.jewishvirtuallibrary.org/the-biltmore-program][ref_biltmore_program_1942]
 - Collier. 1947. "The Indians of the Americas." [https://www.penguinrandomhouse.com/books/50133/the-indians-of-the-americas-by-john-collier/][ref_collier_1947]
-- Columbus Platform. 1937. "(Reform Judaism)." [https://www.ccarnet.org/rabbinic-voice/platforms/article-guiding-principles-reform-judaism/][ref_columbus_platform_1937]
+- Columbus Platform. 1937. "Article the Guiding Principles of Reform Judaism." *Central Conference of American Rabbis*. Accessed October 25, 2026. [https://www.ccarnet.org/rabbinic-voice/platforms/article-guiding-principles-reform-judaism/][ref_columbus_platform_1937]
 - Day. 1952. "The Long Loneliness." HarperCollins. Accessed October 25, 2026. [https://harpercollins.com/products/the-long-loneliness-dorothy-day][ref_day_1952]
 - "Day Selected Writings." n.d. Accessed October 25, 2026. [https://catholicworker.org/dorothyday/writings.html][ref_day_selected_writings]
 - Evian Conference. 1938. "Proceedings." [https://encyclopedia.ushmm.org/content/en/article/the-evian-conference][ref_evian_conference_1938]

@@ -658,6 +658,7 @@ Article fourteen returns to the NeuroAI bridge and treats the observational-lear
 - Amodei, Dario, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and Dan Mané. 2016. "Concrete Problems in AI Safety." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1606.06565][research_amodei_et_al_2016_safety]
 - Andreas, Jacob, Dan Klein, and Sergey Levine. 2017. "Modular Multitask Reinforcement Learning with Policy Sketches." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/andreas17a.html][research_andreas_klein_levine_2017]
 - Aytar, Yusuf, Tobias Pfaff, David Budden, Thomas Paine, Ziyu Wang, and Nando de Freitas. 2018. "Playing Hard Exploration Games by Watching YouTube." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2018/hash/35309226eb45ec366ca86a4329a2b7c3-Abstract.html][research_aytar_et_al_2018]
+- Bahdanau, Dzmitry, Felix Hill, Jan Leike, et al. 2019. "Learning to Understand Goal Specifications by Modelling Reward." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=H1xsSjC9Ym][research_bahdanau_et_al_2019]
 - Bahl, Shikhar, Abhinav Gupta, and Deepak Pathak. 2022. "Human-to-Robot Imitation in the Wild." In *Robotics: Science and Systems XVIII*. Robotics: Science and Systems Foundation. [https://doi.org/10.15607/rss.2022.xviii.026][research_bahl_gupta_kumar_2022]
 - Bai, Yuntao, Saurav Kadavath, Sandipan Kundu, et al. 2022. "Constitutional AI: Harmlessness from AI Feedback." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2212.08073][research_bai_et_al_2022_constitutional]
 - Baker, Bowen, Ilge Akkaya, Peter Zhokov, et al. 2022. "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos." In *Advances in Neural Information Processing Systems 35*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/068431-1789][research_baker_et_al_2022_vpt]
@@ -686,7 +687,7 @@ Article fourteen returns to the NeuroAI bridge and treats the observational-lear
 - Dong, Hanze, Wei Xiong, Deepanshu Goyal, et al. 2023. "RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2304.06767][research_dong_et_al_2023_raft]
 - Duan, Yan, Marcin Andrychowicz, Bradly Stadie, et al. 2017. "One-Shot Imitation Learning." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/ba3866600c3540f67c1e9575e213be0a-Abstract.html][research_duan_et_al_2017_one_shot]
 - Dubois, Yann, Chen Xuechen Li, Rohan Taori, et al. 2023. "AlpacaFarm: A Simulation Framework for Methods That Learn from Human Feedback." In *Advances in Neural Information Processing Systems 36*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/075280-1308][research_dubois_et_al_2023_alpaca_farm]
-- Eisenstein, Nagpal, Agarwal, Dvijotham, and Fisch. 2023. "\[Title not identified\]." Preprint, . [https://arxiv.org/abs/2312.09244][research_eisenstein_et_al_2023]
+- Eisenstein, Jacob, Chirag Nagpal, Alekh Agarwal, et al. 2023. "Helping or Herding? Reward Model Ensembles Mitigate but Do Not Eliminate Reward Hacking." Preprint, . [https://arxiv.org/abs/2312.09244][research_eisenstein_et_al_2023]
 - Embodiment Collaboration, Abby O'Neill, Abdul Rehman, et al. 2023. "Open X-Embodiment: Robotic Learning Datasets and RT-X Models." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2310.08864][research_padalkar_et_al_2024_a260]
 - Ethayarajh, Kawin, Winnie Xu, Niklas Muennighoff, Dan Jurafsky, and Douwe Kiela. 2024. "KTO: Model Alignment as Prospect Theoretic Optimization." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2402.01306][research_ethayarajh_et_al_2024_kto]
 - FAIR. 2022. *Cicero*. [https://scholar.google.com/scholar?q=Cicero+FAIR+2022][research_fair_et_al_2022_cicero]
@@ -719,6 +720,7 @@ Article fourteen returns to the NeuroAI bridge and treats the observational-lear
 - Kurach, Karol, Anton Raichuk, Piotr Stańczyk, et al. 2020. "Google Research Football: A Novel Reinforcement Learning Environment." *Proceedings of the AAAI Conference on Artificial Intelligence* 34 (04): 4501–10. [https://doi.org/10.1609/aaai.v34i04.5878][research_kurach_et_al_2020_grf]
 - Lambert, Nathan, Valentina Pyatkin, Jacob Morrison, et al. 2024. "RewardBench: Evaluating Reward Models for Language Modeling." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2403.13787][research_lambert_et_al_2024_reward_bench]
 - Leibo, Joel Z., Edgar A. Dueñez-Guzman, Alexander Vezhnevets, et al. 2021. "Scalable Evaluation of Multi-Agent Reinforcement Learning with Melting Pot." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v139/leibo21a.html][research_leibo_et_al_2021_melting_pot]
+- Lowe, Ryan, Yi Wu, Aviv Tamar, Jean Harb, OpenAI Pieter Abbeel, and Igor Mordatch. 2017. "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/68a9750337a418a86fe06c1991a1d64c-Abstract.html][research_lowe_et_al_2017_maddpg]
 - Lynch, Corey, Mohi Khansari, Ted Xiao, et al. 2020. "Learning Latent Plans from Play." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/lynch20a.html][research_lynch_et_al_2020_play]
 - Lynch, Corey, and Pierre Sermanet. 2020. "Language Conditioned Imitation Learning over Unstructured Data." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2005.07648][research_lynch_sermanet_2021]
 - Ma, Yecheng Jason, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, Vikash Kumar, and Amy Zhang. 2023. "VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training." In *The Eleventh International Conference on Learning Representations*. [https://openreview.net/forum?id=YJ7o2wetJ2][research_ma_et_al_2023_vip]
@@ -789,12 +791,11 @@ Article fourteen returns to the NeuroAI bridge and treats the observational-lear
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
 - Azar, Rowland, Piot, Guo, Calandriello, and Munos. 2024. "IPO." [https://proceedings.mlr.press/v238/gheshlaghi-azar24a.html][research_azar_et_al_2024_ipo]
-- Bahdanau, Hill, Leike, Hughes, Kohli, and Grefenstette. 2019. "Learning Goals." [https://openreview.net/forum?id=H1xsSjC9Ym][research_bahdanau_et_al_2019]
 - Bain and Sammut. 1995. "\[Title not identified\]." Accessed October 25, 2026. [https://scholar.google.com/scholar?q=bain+sammut+1995+behavioural+cloning][research_bain_sammut_1995]
 - "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
 - Bhattacharyya Lu Vahia. 2020. "Imitation Gap." [https://proceedings.mlr.press/v139/bhattacharyya21a.html][research_bhattacharyya_lu_vahia_2020_gap]
@@ -820,7 +821,6 @@ Article fourteen returns to the NeuroAI bridge and treats the observational-lear
 - Lee Smith Krishnan Abbeel. 2021. "PEBBLE." [https://proceedings.mlr.press/v139/lee21e.html][research_lee_smith_krishnan_abbeel_2021_pebble_a260]
 - Levine Popovic Koltun. 2011. "Nonlinear IRL." [https://papers.nips.cc/paper/2011/hash/c8ba76c279269b1c6bc8a07e38e78fa4-Abstract.html][research_levine_popovic_koltun_2011]
 - Littman. 1994. "Markov Games." [https://www.sciencedirect.com/science/article/pii/B9781558603356500271][research_littman_1994_markov_games]
-- Lowe, Wu, Tamar, Harb, Abbeel, and Mordatch. 2017. "MADDPG." [https://papers.nips.cc/paper/2017/hash/68a9750337a418a86fe06c1991a1d64c-Abstract.html][research_lowe_et_al_2017_maddpg]
 - MacGlashan, Ho, Loftin, et al. 2017. "COACH." [https://proceedings.mlr.press/v70/macglashan17a.html][research_macglashan_et_al_2017_coach]
 - Ng and Russell. 2000. "IRL." [https://dl.acm.org/doi/10.5555/645529.657801][research_ng_russell_2000_irl]
 - Rabinowitz, Perbet, Song, Zhang, Eslami, and Botvinick. 2018. "ToM." [https://proceedings.mlr.press/v80/rabinowitz18a.html][research_rabinowitz_et_al_2018_tom]

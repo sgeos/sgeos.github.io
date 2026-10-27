@@ -229,15 +229,15 @@ android:id="@+id/message"
 - "Building Apps with over 65K Methods." n.d. developer.android.com. Accessed October 25, 2026. [http://developer.android.com/tools/building/multidex.html][android_dex_limit]
 - "ContactsContract.Profile." n.d. developer.android.com. Accessed October 25, 2026. [http://developer.android.com/reference/android/provider/ContactsContract.Profile.html][android_contacts_profile]
 - "Content Provider Basics." n.d. developer.android.com. Accessed October 25, 2026. [http://developer.android.com/guide/topics/providers/content-provider-basics.html\#Permissions][android_content_permissions]
+- "Getting Started with Android and Kotlin: Kotlin Programming Language." n.d. kotlinlang.org. Accessed October 25, 2026. [https://kotlinlang.org/docs/tutorials/kotlin-android.html][kotlin_android]
 - "Kotlin, Getting Started." n.d. kotlinlang.org. Accessed October 25, 2026. [https://kotlinlang.org/docs/reference/basic-syntax.html][kotlin_getting_started]
-- "Kotlin, Getting started with Android and Kotlin." n.d. kotlinlang.org. Accessed October 25, 2026. [https://kotlinlang.org/docs/tutorials/kotlin-android.html][kotlin_android]
 - "Kotlin, Statically typed programming language for the JVM, Android and the browser." n.d. kotlinlang.org. Accessed October 25, 2026. [https://kotlinlang.org][kotlin]
-- "Kotlin, Using Gradle." n.d. kotlinlang.org. Accessed October 25, 2026. [https://kotlinlang.org/docs/reference/using-gradle.html][kotlin_gradle]
+- "Using Gradle." n.d. Kotlin. Accessed October 25, 2026. [https://kotlinlang.org/docs/reference/using-gradle.html][kotlin_gradle]
 
 ### Commercial Sources
 
-- "IntelliJ IDEA, Working with IntelliJ IDEA Features from Command Line." n.d. Accessed October 25, 2026. [https://www.jetbrains.com/idea/help/working-with-intellij-idea-features-from-command-line.html][idea_eap_command]
-- "JetBrains." n.d. Accessed October 25, 2026. [https://www.jetbrains.com][jetbrains]
+- "How to Use the IntelliJ IDEA Features from the Command Line." n.d. Accessed October 25, 2026. [https://www.jetbrains.com/idea/help/working-with-intellij-idea-features-from-command-line.html][idea_eap_command]
+- "JetBrains: Development Tools for Professionals and Teams." n.d. JetBrains. Accessed October 25, 2026. [https://www.jetbrains.com][jetbrains]
 
 ### General Sources
 

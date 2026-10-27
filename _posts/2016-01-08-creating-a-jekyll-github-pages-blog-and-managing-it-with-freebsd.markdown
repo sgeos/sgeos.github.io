@@ -104,20 +104,20 @@ git push
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "FreeBSD Handbook Using the Ports Collection." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/ports-using.html][ref_freebsd_handbook_using_the_ports_collection]
+- "4.5. Using the Ports Collection." n.d. www.freebsd.org. Accessed October 25, 2026. [https://www.freebsd.org/doc/handbook/ports-using.html][ref_freebsd_handbook_using_the_ports_collection]
 - "GitHub Add Existing Project." n.d. help.github.com. Accessed October 25, 2026. [https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/][ref_github_add_existing_project]
 - "GitHub Generating SSH Keys." n.d. help.github.com. Accessed October 25, 2026. [https://help.github.com/articles/generating-ssh-keys/][ref_github_generating_ssh_keys]
-- "GitHub Markdown Basics." n.d. help.github.com. Accessed October 25, 2026. [https://help.github.com/articles/markdown-basics/][ref_github_markdown_basics]
 - "GitHub Pages." n.d. pages.github.com. Accessed October 25, 2026. [https://pages.github.com][ref_github_pages_setup_instructions]
 - "Jekyll Configuration." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/configuration/][ref_jekyll_configuration]
+- "Markdown Basics: User Documentation." n.d. help.github.com. Accessed October 25, 2026. [https://help.github.com/articles/markdown-basics/][ref_github_markdown_basics]
 - "Quick-Start Guide." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/quickstart/][ref_jekyll_quick_start_guide]
 - "Working with Drafts." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/drafts/][ref_jekyll_working_with_drafts]
 - "Writing Posts." n.d. jekyllrb.com. Accessed October 25, 2026. [http://jekyllrb.com/docs/posts/][ref_jekyll_writing_posts]
 
 ### General Sources
 
+- "Build a Blog with Jekyll and GitHub Pages." 2014. *Smashing Magazine*, August 1. [https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/][ref_jekyll_build_a_blog_with_jekyll_and_github_pages]
 - "Jekyll Bug: Tag Was Never Closed." n.d. Accessed October 25, 2026. [http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed/][ref_jekyll_bug_tag_was_never_closed]
-- "Jekyll, Build A Blog With Jekyll And GitHub Pages." n.d. Accessed October 25, 2026. [https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/][ref_jekyll_build_a_blog_with_jekyll_and_github_pages]
 
 [ref_freebsd_handbook_using_the_ports_collection]: https://www.freebsd.org/doc/handbook/ports-using.html
 [ref_github_add_existing_project]: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/

@@ -93,7 +93,7 @@ $$J_{\text{ent}}(\theta) = J(\theta) + \beta \, \mathbb{E}_{s \sim d^{\pi_\theta
 
 with weighting coefficient $\beta$, encouraging the policy to maintain stochasticity that supports exploration. Maximum-entropy reinforcement learning of [Ziebart 2010][book_ziebart_2010_thesis] extends the objective to a full information-theoretic formulation in which the policy trades off reward against entropy at every state, and Soft Actor-Critic treated in article four provides the deep-learning implementation. The maximum-entropy objective has close ties to the Boltzmann exploration formulation and to the principle of maximum entropy inference.
 
-Parameter space noise provides an alternative to action-space stochasticity. [Plappert 2018][research_plappert_et_al_2018] adds noise directly to policy parameters,
+Parameter space noise provides an alternative to action-space stochasticity. [Plappert et al. 2018][research_plappert_et_al_2018] adds noise directly to policy parameters,
 
 $$\tilde{\theta} = \theta + \sigma \cdot \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)$$
 
@@ -474,6 +474,7 @@ Empirical practice for exploration research includes reporting results on multip
 - Guo, Zhaohan, Shantanu Thakoor, Miruna Pislar, et al. 2022. "BYOL-Explore: Exploration by Bootstrapped Prediction." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2022/hash/ced0d3b92bb83b15c43ee32c7f57d867-Abstract-Conference.html][research_guo_et_al_2022_byol_explore]
 - Gupta, Abhishek, Russell Mendonca, YuXuan Liu, Pieter Abbeel, and Sergey Levine. 2018. "Meta-Reinforcement Learning of Structured Exploration Strategies." In *Advances in Neural Information Processing Systems*. [https://papers.nips.cc/paper\_files/paper/2018/hash/4de754248c196c85ee4fbdcee89179bd-Abstract.html][research_gupta_mendonca_liu_2018]
 - Guss, William H., Brandon Houghton, Nicholay Topin, et al. 2019. "MineRL: A Large-Scale Dataset of Minecraft Demonstrations." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1907.13440][research_guss_et_al_2019]
+- Houthooft, Rein, Xi Chen, Xi Chen, et al. 2016. "VIME: Variational Information Maximizing Exploration." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/abd815286ba1007abfbb8415b83ae2cf-Abstract.html][research_houthooft_et_al_2016]
 - Iqbal, Shariq, and Fei Sha. 2019. "Actor-Attention-Critic for Multi-Agent Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/iqbal19a.html][research_iqbal_sha_2019]
 - Jaksch, Thomas, Ronald Ortner, and Peter Auer. 2010. "Near-Optimal Regret Bounds for Reinforcement Learning." *Journal of Machine Learning Research* 11: 1563–1600. [https://www.jmlr.org/papers/v11/jaksch10a.html][research_jaksch_ortner_auer_2010]
 - Janz, Hron, Mazur, Kingma, and Hernandez-Lobato. 2019. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Janz+Hron+Mazur+2019][research_janz_et_al_2019]
@@ -490,6 +491,7 @@ Empirical practice for exploration research includes reporting results on multip
 - Osband, Ian, Daniel Russo, and Benjamin Van Roy. 2013. "(More) Efficient Reinforcement Learning via Posterior Sampling." *Advances in Neural Information Processing Systems* 26. [https://papers.nips.cc/paper/2013/hash/6a5889bb0190d0211a991f47bb19a777-Abstract.html][research_osband_van_roy_2013_psrl]
 - Pathak, Deepak, Pulkit Agrawal, Alexei A. Efros, and Trevor Darrell. 2017. "Curiosity-Driven Exploration by Self-Supervised Prediction." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v70/pathak17a.html][research_pathak_et_al_2017]
 - Pathak, Deepak, Dhiraj Gandhi, and Abhinav Gupta. 2019. "Self-Supervised Exploration via Disagreement." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v97/pathak19a.html][research_pathak_gandhi_gupta_2019]
+- Plappert, Matthias, Rein Houthooft, Prafulla Dhariwal, et al. 2018. "Parameter Space Noise for Exploration." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=ByBAl2eAZ][research_plappert_et_al_2018]
 - Pong, Vitchyr, Murtaza Dalal, Steven Lin, Ashvin Nair, Shikhar Bahl, and Sergey Levine. 2020. "Skew-Fit: State-Covering Self-Supervised Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v119/pong20a.html][research_pong_dalal_lin_2020]
 - Portelas, Rémy, Cédric Colas, Katja Hofmann, and Pierre-Yves Oudeyer. 2020. "Teacher Algorithms for Curriculum Learning of Deep RL in Continuously Parameterized Environments." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/portelas20a.html][research_portelas_colas_hofmann_oudeyer_2020]
 - Schaul, Tom, Daniel Horgan, Karol Gregor, and David Silver. 2015. "Universal Value Function Approximators." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v37/schaul15.html][research_schaul_horgan_gregor_silver_2015]
@@ -516,24 +518,22 @@ Empirical practice for exploration research includes reporting results on multip
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
 - Barto, Singh, and Chentanez. 2004. "\[Title not identified\]." Accessed October 25, 2026. [https://all.cs.umass.edu/pubs/2004/barto\_sc\_ICDL04.pdf][research_barto_singh_chentanez_2004]
 - "Berkeley CS285." n.d. Accessed October 25, 2026. [https://rail.eecs.berkeley.edu/deeprlcourse/][ref_berkeley_cs285]
 - Bunzeck and Duzel. 2006. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cell.com/neuron/fulltext/S0896-6273(06)00475-6][research_bunzeck_duzel_2006]
-- Houthooft, Chen, Duan, et al. 2016. "\[Title not identified\]." Accessed October 25, 2026. [https://papers.nips.cc/paper/2016/hash/abd815286ba1007abfbb8415b83ae2cf-Abstract.html][research_houthooft_et_al_2016]
 - Kakade and Langford. 2002. "\[Title not identified\]." Accessed October 25, 2026. [https://homes.cs.washington.edu/~sham/papers/rl/aoarl.pdf][research_kakade_langford_2002_exploration]
 - Kidd and Hayden. 2015. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cell.com/neuron/fulltext/S0896-6273(15)00949-8][research_kidd_hayden_2015]
 - Klyubin, Polani, and Nehaniv. 2005. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1554676][research_klyubin_polani_nehaniv_2005]
 - Loewenstein. 1994. "\[Title not identified\]." Accessed October 25, 2026. [https://psycnet.apa.org/record/1995-02277-001][research_loewenstein_1994]
 - Matiisen, Oliver, Cohen, and Schulman. 2019. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/8827566][research_matiisen_et_al_2019]
 - Oudeyer, Kaplan, and Hafner. 2007. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4141061][research_oudeyer_kaplan_hafner_2007]
-- Plappert. 2018. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=ByBAl2eAZ][research_plappert_et_al_2018]
 - Salge, Glackin, and Polani. 2014. "\[Title not identified\]." Accessed October 25, 2026. [https://link.springer.com/chapter/10.1007/978-3-319-03326-2\_4][research_salge_glackin_polani_2014]
 - Schmidhuber. 1991. "\[Title not identified\]." Accessed October 25, 2026. [https://mediatum.ub.tum.de/doc/814765/file.pdf][research_schmidhuber_1991]
-- Schmidhuber. 2010. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/5508364][research_schmidhuber_2010]
+- Schmidhuber. 2010. "Formal Theory of Creativity, Fun, and Intrinsic Motivation (1990–2010)." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/5508364][research_schmidhuber_2010]
 - "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
 - "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]
 - Storck, Hochreiter, and Schmidhuber. 1995. "\[Title not identified\]." Accessed October 25, 2026. [https://mediatum.ub.tum.de/doc/814968/file.pdf][research_storck_hochreiter_schmidhuber_1995]

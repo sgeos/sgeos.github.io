@@ -137,7 +137,7 @@ The next article in the series treats Silicon Valley from its defense-contractin
 
 ### General Sources
 
-- Clarke and Emerson. 1981. "\[Title not identified\]." Accessed October 25, 2026. [https://link.springer.com/chapter/10.1007/BFb0025774][research_clarke_emerson_1981]
+- Clarke and Emerson. 1981. "Client Challenge." Accessed October 25, 2026. [https://link.springer.com/chapter/10.1007/BFb0025774][research_clarke_emerson_1981]
 - Halbwachs. 1991. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/97376][research_halbwachs_et_al_1991]
 - Leveson. 2004. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0925753503000476][research_leveson_2004]
 - Leveson and Turner. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/274940][research_leveson_turner_1993]

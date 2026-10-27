@@ -604,10 +604,10 @@ over AI-assisted development.
 - *AlphaProof in Nature*. n.d. [https://www.nature.com/articles/s41586-025-09833-y][research_alphaproof_nature]
 - "APOLLO: Automated LLM-Based Framework for Proof Generation." n.d. Preprint, . [https://arxiv.org/abs/2505.05758][research_apollo]
 - *Hilbert: A Lean 4 Agentic Proof Framework*. n.d. [https://machinelearning.apple.com/research/hilbert][research_hilbert]
+- "Lean-dojo/LeanCopilot: LLMs as Copilots for Theorem Proving in Lean." n.d. GitHub. Accessed October 25, 2026. [https://github.com/lean-dojo/LeanCopilot][tool_lean_copilot]
 - Liu, Chengwu, Ye Yuan, Yichun Yin, et al. 2025. "Safe: Enhancing Mathematical Reasoning in Large Language Models via Retrospective Step-Aware Formal Verification." Preprint, . [https://arxiv.org/abs/2506.04592][research_safe]
+- Miranda, Brando, Zhanke Zhou, Allen Nie, et al. n.d. "VeriBench: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4." In *2nd AI for Math Workshop @ ICML 2025*. [https://openreview.net/forum?id=rWkGFmnSNl][research_veribench]
 - *Propositions as Types*. n.d. [https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-types/propositions-as-types.pdf][research_wadler]
-- "Tool, Lean Copilot." n.d. github.com. Accessed October 25, 2026. [https://github.com/lean-dojo/LeanCopilot][tool_lean_copilot]
-- *VeriBench: Benchmarking Verified Code Generation*. n.d. [https://openreview.net/forum?id=rWkGFmnSNl][research_veribench]
 
 ### Secondary Sources
 

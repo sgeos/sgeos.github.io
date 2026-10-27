@@ -562,11 +562,11 @@ and which become bulk junk.
 
 ### General Sources
 
-- "Industry, Magic: The Gathering Creator Richard Garfield Talks Game Design." n.d. Accessed October 25, 2026. [https://www.gamesradar.com/tabletop-gaming/magic-the-gathering-creator-richard-garfield-talks-game-design-players-look-back-now-and-see-a-bunch-of-broken-cards/][industry_gamesradar]
-- "Industry, What Magic: The Gathering Can Teach Us." n.d. Accessed October 25, 2026. [https://www.gamedeveloper.com/design/what-magic-the-gathering-can-teach-us][industry_gamedeveloper]
-- "Information Below the Text Box." n.d. Accessed October 25, 2026. [https://mtg.fandom.com/wiki/Information\_below\_the\_text\_box][reference_mtg_wiki_footer]
-- "Parts of a Magic Card." n.d. Accessed October 25, 2026. [https://mtg.fandom.com/wiki/Parts\_of\_a\_card][reference_mtg_wiki_parts]
+- "Information below the Text Box." n.d. *MTG Wiki*. Accessed October 25, 2026. [https://mtg.fandom.com/wiki/Information\_below\_the\_text\_box][reference_mtg_wiki_footer]
+- "Magic: The Gathering Creator Richard Garfield Talks Game Design: 'Players Look Back Now and See a Bunch of Broken Cards'." 2024. *gamesradar*, October 25. [https://www.gamesradar.com/tabletop-gaming/magic-the-gathering-creator-richard-garfield-talks-game-design-players-look-back-now-and-see-a-bunch-of-broken-cards/][industry_gamesradar]
+- "Parts of a Card." n.d. *MTG Wiki*. Accessed October 25, 2026. [https://mtg.fandom.com/wiki/Parts\_of\_a\_card][reference_mtg_wiki_parts]
 - "Tool, Scryfall Card Database and API." n.d. Accessed October 25, 2026. [https://scryfall.com/][tool_scryfall]
+- "What Magic: The Gathering Can Teach Us." n.d. Accessed October 25, 2026. [https://www.gamedeveloper.com/design/what-magic-the-gathering-can-teach-us][industry_gamedeveloper]
 
 ### Tertiary Sources
 

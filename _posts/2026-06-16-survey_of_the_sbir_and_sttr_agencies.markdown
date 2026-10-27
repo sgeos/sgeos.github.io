@@ -253,10 +253,13 @@ choice into an award.
 
 - *America's Seed Fund (the National Science Foundation portal)*. n.d. [https://seedfund.nsf.gov/][research_nsf]
 - *The Defense SBIR and STTR Innovation Portal*. n.d. [https://www.dodsbirsttr.mil/][research_dod]
-- *NASA SBIR and STTR*. n.d. [https://www.nasa.gov/sbir\_sttr/][research_nasa]
 - NIH SEED. n.d. *the Small Business Education and Entrepreneurial Development Office*. [https://seed.nih.gov/][research_nih]
 - *SBIR and STTR at the Department of Energy*. n.d. [https://science.osti.gov/sbir][research_doe]
 - "SBIR and STTR Programme Portal." n.d. Accessed October 25, 2026. [https://www.sbir.gov/][research_sbir_gov]
+
+### Commercial Sources
+
+- "Small Business Innovation Research (SBIR) / Small Business Technology Transfer (STTR)." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/sbir\_sttr/][research_nasa]
 
 ### Tertiary Sources
 

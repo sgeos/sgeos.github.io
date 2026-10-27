@@ -107,7 +107,7 @@ which converges slowly but is dimension-independent, making Monte Carlo the pref
 
 The combined wartime computing effort involved several thousand human computers, several hundred electromechanical and electronic machines, and cross-organizational personnel networks that included essentially every trained American, British, and refugee European mathematician, physicist, and engineer of relevant age. The personnel who developed wartime computing infrastructure supplied the founding cadre for the postwar computing industry. Mauchly and Eckert of the ENIAC founded the Eckert-Mauchly Computer Corporation that produced the UNIVAC. Aiken continued the Harvard Mark series. Stibitz continued at Bell Labs. Turing continued at the National Physical Laboratory in the United Kingdom on the Automatic Computing Engine design and later at Manchester on the Manchester Mark 1. Von Neumann continued at the Institute for Advanced Study on the IAS machine and its many copies.
 
-The wartime problems also produced postwar research programs. Cryptanalysis matured into modern computer security. Ballistic-table computation matured into scientific and engineering computing. Manhattan Project hydrodynamics matured into computational fluid dynamics. Numerical weather prediction, begun as a wartime problem for bombing meteorology, matured into contemporary numerical modeling of atmospheric and oceanic systems following the seminal [Charney Fjørtoft von Neumann 1950][research_charney_fjortoft_vonneumann_1950] barotropic vorticity integration on ENIAC. Each of these fields inherited both the computing techniques the wartime programs developed and the general recognition that large-scale computation had become an essential component of scientific and engineering work.
+The wartime problems also produced postwar research programs. Cryptanalysis matured into modern computer security. Ballistic-table computation matured into scientific and engineering computing. Manhattan Project hydrodynamics matured into computational fluid dynamics. Numerical weather prediction, begun as a wartime problem for bombing meteorology, matured into contemporary numerical modeling of atmospheric and oceanic systems following the seminal [Charney et al. 1950][research_charney_fjortoft_vonneumann_1950] barotropic vorticity integration on ENIAC. Each of these fields inherited both the computing techniques the wartime programs developed and the general recognition that large-scale computation had become an essential component of scientific and engineering work.
 
 The secrecy imposed on the cryptanalytic effort had consequences for the historical record. The Colossus was unknown until the mid-1970s. The Polish contribution to Enigma cryptanalysis was not publicly acknowledged until similar declassifications. The role of the American cryptanalytic effort in the Pacific war was incompletely documented until decades after the war. These gaps produced a distorted early history of computing in which the ENIAC received disproportionate credit as the first electronic digital computer, when in fact Colossus preceded it by roughly two years for a narrower but nonetheless substantial computational scope.
 
@@ -141,6 +141,10 @@ The next article in the series treats the transition from wartime to peacetime c
 
 - Shannon, C. E. 1949. "Communication Theory of Secrecy Systems." *Bell System Technical Journal* 28 (4): 656–715. [https://doi.org/10.1002/j.1538-7305.1949.tb00928.x][research_shannon_secrecy_1949]
 
+### Primary Sources, Non-Peer-Reviewed
+
+- Charney, J. G., R. FjÖRtoft, and J. Von NEUMANN. 1950. "Numerical Integration of the Barotropic Vorticity Equation." *Tellus* 2: 237–54. [https://onlinelibrary.wiley.com/doi/10.1111/j.2153-3490.1950.tb00336.x][research_charney_fjortoft_vonneumann_1950]
+
 ### Secondary Sources
 
 - Copeland, Jack. 2004. *The Essential Turing*. Oxford University Press. [https://global.oup.com/academic/product/the-essential-turing-9780198250807][book_copeland_essential_turing]
@@ -154,9 +158,8 @@ The next article in the series treats the transition from wartime to peacetime c
 
 ### General Sources
 
-- "Charney Fjørtoft von Neumann." 1950. [https://onlinelibrary.wiley.com/doi/10.1111/j.2153-3490.1950.tb00336.x][research_charney_fjortoft_vonneumann_1950]
 - "Colossus — The National Museum of Computing." n.d. The National Museum of Computing. Accessed October 25, 2026. [https://www.tnmoc.org/colossus][ref_flowers_colossus]
-- Flowers. 1983. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4640571][research_flowers_1983]
+- Flowers. 1983. "Happenings." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4640571][research_flowers_1983]
 - Good Michie Timms. 1945. "General Report on Tunny." [https://www.alanturing.net/turing\_archive/archive/index/tunnyreportindex.html][research_good_michie_timms_1945]
 - Metropolis. 1987. "\[Title not identified\]." Accessed October 25, 2026. [https://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-88-9067][research_metropolis_1987]
 - Metropolis and Nelson. 1982. "Meetings in Retrospect." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/4640726][research_metropolis_nelson_1982]

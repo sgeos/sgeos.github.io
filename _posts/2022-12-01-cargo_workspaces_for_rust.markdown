@@ -318,9 +318,9 @@ no_std Rust.
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- "No\_std: The Embedded Rust Book." n.d. docs.rust-embedded.org. Accessed October 25, 2026. [https://docs.rust-embedded.org/book/intro/no-std.html][rust_embedded]
+- Rust, Rust Programming Language. n.d. "Cargo Workspaces: The Rust Programming Language." doc.rust-lang.org. Accessed October 25, 2026. [https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html][rust_programming_workspaces]
 - "Rust, Cargo Book, 3.3 Workspaces." n.d. doc.rust-lang.org. Accessed October 25, 2026. [https://doc.rust-lang.org/cargo/reference/workspaces.html][rust_cargo_workspaces]
-- "Rust, Embedded Rust Book." n.d. docs.rust-embedded.org. Accessed October 25, 2026. [https://docs.rust-embedded.org/book/intro/no-std.html][rust_embedded]
-- "Rust, Rust Programming Language, 14.3 Cargo Workspaces." n.d. doc.rust-lang.org. Accessed October 25, 2026. [https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html][rust_programming_workspaces]
 - "Std::ffi: Rust." n.d. doc.rust-lang.org. Accessed October 25, 2026. [https://doc.rust-lang.org/std/ffi/index.html][rust_std_ffi]
 
 [rust_cargo_workspaces]: https://doc.rust-lang.org/cargo/reference/workspaces.html

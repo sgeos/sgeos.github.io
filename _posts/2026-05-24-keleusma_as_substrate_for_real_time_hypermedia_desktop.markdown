@@ -1617,18 +1617,18 @@ to the program.
 - "Automerge Conflict-Free Replicated Data Type Library." n.d. automerge.org. Accessed October 25, 2026. [https://automerge.org/][ref_automerge]
 - *C2PA Coalition for Content Provenance and Authenticity*. n.d. [https://c2pa.org/][ref_c2pa]
 - "Cap'n Proto: Introduction." n.d. Cap'n Proto. Accessed October 24, 2026. [https://capnproto.org/][ref_capn_proto]
-- "Chromium Embedded Framework." n.d. github.com. Accessed October 25, 2026. [https://github.com/chromiumembedded/cef][ref_cef]
+- "Chromiumembedded/cef: Chromium Embedded Framework (CEF). a Simple Framework for Embedding Chromium-Based Browsers in Other Applications." n.d. GitHub. Accessed October 25, 2026. [https://github.com/chromiumembedded/cef][ref_cef]
 - "Genode Operating System Framework." n.d. genode.org. Accessed October 25, 2026. [https://genode.org/][ref_genode]
 - "Hypercore Protocol." n.d. github.com. Accessed October 25, 2026. [https://github.com/holepunchto/hypercore][ref_hypercore]
 - "Keleusma on docs.rs." n.d. docs.rs. Accessed October 25, 2026. [https://docs.rs/keleusma][ref_keleusma_docs]
 - "LLVM Compiler Infrastructure." n.d. llvm.org. Accessed October 25, 2026. [https://llvm.org/][ref_llvm]
 - "Loro CRDT Library." n.d. github.com. Accessed October 25, 2026. [https://github.com/loro-dev/loro][ref_loro]
-- "Model Context Protocol." n.d. modelcontextprotocol.io. Accessed October 25, 2026. [https://modelcontextprotocol.io/][ref_mcp]
 - "PROV-AGENT Unified Provenance for AI Agent Interactions, IEEE eScience." 2025. Preprint, . [https://arxiv.org/abs/2508.02866][research_prov_agent]
-- "seL4 Microkernel." n.d. sel4.systems. Accessed October 25, 2026. [https://sel4.systems/][ref_sel4]
+- seL4 Foundation. n.d. "The seL4 Microkernel." sel4.systems. Accessed October 25, 2026. [https://sel4.systems/][ref_sel4]
 - "Servo Browser Engine." n.d. servo.org. Accessed October 25, 2026. [https://servo.org/][ref_servo]
 - "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma_repo]
 - "WebAssembly Component Model." n.d. component-model.bytecodealliance.org. Accessed October 25, 2026. [https://component-model.bytecodealliance.org/][ref_wasm_component_model]
+- "What Is the Model Context Protocol (MCP)?" n.d. Model Context Protocol. Accessed October 25, 2026. [https://modelcontextprotocol.io/][ref_mcp]
 
 ### Commercial Sources
 
@@ -1637,12 +1637,13 @@ to the program.
 ### General Sources
 
 - "Cairo Graphics 2D Library." n.d. Accessed October 25, 2026. [https://www.cairographics.org/][ref_cairo_graphics]
-- "Capsicum." n.d. Accessed October 25, 2026. [https://papers.freebsd.org/2010/rwatson-capsicum/][ref_capsicum]
+- "Capsicum: Practical Capabilities for UNIX." n.d. Accessed October 25, 2026. [https://papers.freebsd.org/2010/rwatson-capsicum/][ref_capsicum]
 - "CodeMirror." n.d. Accessed October 25, 2026. [https://codemirror.net/][ref_codemirror]
 - "Content Credentials." n.d. Accessed October 25, 2026. [https://contentcredentials.org/][ref_content_credentials]
 - "Crates.io: Rust Package Registry." n.d. Accessed October 25, 2026. [https://crates.io/crates/keleusma][ref_keleusma_crates]
+- "Dev Toolkit Editor Suite." n.d. Accessed October 25, 2026. [https://tiptap.dev/][ref_tiptap]
 - "FreeType." n.d. Accessed October 25, 2026. [https://freetype.org/][ref_freetype]
-- "HarfBuzz." n.d. Accessed October 25, 2026. [https://harfbuzz.github.io/][ref_harfbuzz]
+- "HarfBuzz Manual: HarfBuzz Manual." n.d. Accessed October 25, 2026. [https://harfbuzz.github.io/][ref_harfbuzz]
 - "InterPlanetary File System." n.d. Accessed October 25, 2026. [https://ipfs.tech/][ref_ipfs]
 - "Iroh." n.d. Accessed October 25, 2026. [https://www.iroh.computer/][ref_iroh]
 - "Lexical Editor Framework." n.d. Accessed October 25, 2026. [https://lexical.dev/][ref_lexical]
@@ -1652,7 +1653,6 @@ to the program.
 - "Same-Origin Policy: Security." n.d. MDN Web Docs. Accessed October 25, 2026. [https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin\_policy][ref_same_origin_policy]
 - "Skia Graphics Library." n.d. Accessed October 25, 2026. [https://skia.org/][ref_skia]
 - "Slint User Interface Toolkit." n.d. Accessed October 25, 2026. [https://slint.dev/][ref_slint]
-- "TipTap Editor." n.d. Accessed October 25, 2026. [https://tiptap.dev/][ref_tiptap]
 - "WebKit." n.d. Accessed October 25, 2026. [https://webkit.org/][ref_webkit]
 - "Yjs CRDT Library." n.d. Accessed October 25, 2026. [https://yjs.dev/][ref_yjs]
 

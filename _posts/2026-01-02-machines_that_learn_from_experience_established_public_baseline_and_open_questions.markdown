@@ -157,7 +157,7 @@ Deep reinforcement learning of [A253 Deep Reinforcement Learning][related_post_a
 
 $$\mathcal{L}(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}} \left[ \left( r + \gamma \max_{a'} Q_{\theta^-}(s', a') - Q_\theta(s, a) \right)^2 \right]$$
 
-the double DQN of [Van et al. 2016][research_van_hasselt_guez_silver_2016] and dueling DQN of [Wang et al 2016 Dueling][research_wang_et_al_2016_dueling] refinements, the policy-gradient methods including asynchronous advantage actor-critic of [Mnih 2016][research_mnih_et_al_2016], trust region policy optimization of [Schulman 2015][research_schulman_et_al_2015], and proximal policy optimization of [Schulman et al. 2017][research_schulman_et_al_2017] with the clipped surrogate objective
+the double DQN of [Van et al. 2016][research_van_hasselt_guez_silver_2016] and dueling DQN of [Wang et al 2016 Dueling][research_wang_et_al_2016_dueling] refinements, the policy-gradient methods including asynchronous advantage actor-critic of [Mnih et al. 2016][research_mnih_et_al_2016], trust region policy optimization of [Schulman et al. 2015][research_schulman_et_al_2015], and proximal policy optimization of [Schulman et al. 2017][research_schulman_et_al_2017] with the clipped surrogate objective
 
 $$\mathcal{L}^{\text{CLIP}}(\theta) = \mathbb{E}_t \left[ \min \left( \rho_t(\theta) \hat{A}_t, \, \text{clip}(\rho_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t \right) \right]$$
 
@@ -669,6 +669,7 @@ The readers of the series are encouraged to consult the individual survey articl
 - Lopez-Paz, David, and Marc'Aurelio Ranzato. 2017. "Gradient Episodic Memory for Continual Learning." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/f87522788a2be2d171666752f97ddebb-Abstract.html][research_lopez_paz_ranzato_2017]
 - Manheim, David, and Scott Garrabrant. 2018. "Categorizing Variants of Goodhart's Law." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1803.04585][research_manheim_garrabrant_2018]
 - McClelland, James L., Bruce L. McNaughton, and Randall C. O'Reilly. 1995. "Why There Are Complementary Learning Systems in the Hippocampus and Neocortex: Insights from the Successes and Failures of Connectionist Models of Learning and Memory." *Psychological Review* 102 (3): 419–57. [https://doi.org/10.1037/0033-295x.102.3.419][research_mcclelland_mcnaughton_oreilly_1995]
+- Mnih, Volodymyr, Adria Puigdomenech Badia, Mehdi Mirza, et al. 2016. "Asynchronous Methods for Deep Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v48/mniha16.html][research_mnih_et_al_2016]
 - Moravčík, Matej, Martin Schmid, Neil Burch, et al. 2017. "DeepStack: Expert-Level Artificial Intelligence in Heads-up No-Limit Poker." *Science* 356 (6337): 508–13. [https://doi.org/10.1126/science.aam6960][research_moravcik_et_al_2017]
 - Mouret, Jean-Baptiste, and Jeff Clune. 2015. "Illuminating Search Spaces by Mapping Elites." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1504.04909][research_mouret_clune_2015]
 - Ngo, Richard, Lawrence Chan, and Sören Mindermann. 2022. "The Alignment Problem from a Deep Learning Perspective." Preprint, arXiv. [https://doi.org/10.48550/arxiv.2209.00626][research_ngo_chan_mindermann_2022]
@@ -682,6 +683,7 @@ The readers of the series are encouraged to consult the individual survey articl
 - Roy and Duckett. 2022. *Reward is Enough Critique*. [https://scholar.google.com/scholar?q=Reward+is+Enough+Critique+Roy+Duckett+2022][research_roy_duckett_2022]
 - Rusu, Andrei A., Neil C. Rabinowitz, Guillaume Desjardins, et al. 2016. "Progressive Neural Networks." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1606.04671][research_rusu_et_al_2016]
 - Salimans, Tim, Jonathan Ho, Xi Chen, Szymon Sidor, and Ilya Sutskever. 2017. "Evolution Strategies as a Scalable Alternative to Reinforcement Learning." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1703.03864][research_salimans_et_al_2017]
+- Schulman, John, Sergey Levine, Pieter Abbeel, Michael Jordan, and Philipp Moritz. 2015. "Trust Region Policy Optimization." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v37/schulman15.html][research_schulman_et_al_2015]
 - Schulman, John, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. 2017. "Proximal Policy Optimization Algorithms." Preprint, arXiv. [https://doi.org/10.48550/arxiv.1707.06347][research_schulman_et_al_2017]
 - Schultz, Wolfram, Peter Dayan, and P. Read Montague. 1997. "A Neural Substrate of Prediction and Reward." *Science* 275 (5306): 1593–99. [https://doi.org/10.1126/science.275.5306.1593][research_schultz_dayan_montague_1997]
 - Shin, Hanul, Jung Kwon Lee, Jaehong Kim, and Jiwon Kim. 2017. "Continual Learning with Deep Generative Replay." *Advances in Neural Information Processing Systems* 30. [https://papers.nips.cc/paper/2017/hash/0efbe98067c6c73dba1250d2beaa81f9-Abstract.html][research_shin_et_al_2017]
@@ -720,7 +722,7 @@ The readers of the series are encouraged to consult the individual survey articl
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -734,13 +736,11 @@ The readers of the series are encouraged to consult the individual survey articl
 - Ho and Ermon. 2016. "GAIL." [https://papers.nips.cc/paper/2016/hash/cc7e2b878868cbae992d1fb743995d8f-Abstract.html][research_ho_ermon_2016]
 - Kakade. 2003. "Sample Complexity of RL." [https://homepages.inf.ed.ac.uk/csutton/publications/kakade-thesis.pdf][research_kakade_2003]
 - Krakovna. 2020. "Specification Gaming: The Flip Side of AI Ingenuity." *Google DeepMind*. Accessed October 25, 2026. [https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/][research_krakovna_et_al_2020]
-- Mnih. 2016. "A3C." [https://proceedings.mlr.press/v48/mniha16.html][research_mnih_et_al_2016]
 - Ng and Russell. 2000. "Inverse Reinforcement Learning." [https://ai.stanford.edu/~ang/papers/icml00-irl.pdf][research_ng_russell_2000]
 - O'Regan and Noë. 2001. "Sensorimotor Contingency." [https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/sensorimotor-account-of-vision-and-visual-consciousness/1B49A6F4EA76ECBD0938815EEE18C7DC][research_oregan_noe_2001]
 - Open Science Collaboration. 2015. "Reproducibility Project." [https://www.science.org/doi/10.1126/science.aac4716][research_osc_2015]
 - Rescorla and Wagner. 1972. "Classical Conditioning." [https://scholar.google.com/scholar?q=rescorla+wagner+1972+theory+pavlovian+conditioning][research_rescorla_wagner_1972]
 - Rummery and Niranjan. 1994. "SARSA." [https://www.researchgate.net/publication/2500611\_On-Line\_Q-Learning\_Using\_Connectionist\_Systems][research_rummery_niranjan_1994]
-- Schulman. 2015. "TRPO." [https://proceedings.mlr.press/v37/schulman15.html][research_schulman_et_al_2015]
 - Silver and Sutton. 2024. "Era of Experience." [https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf][research_silver_sutton_2024]
 - "Silver RL Course UCL." n.d. Accessed October 25, 2026. [https://www.davidsilver.uk/teaching/][ref_silver_rl_course]
 - "Stanford CS234." n.d. Accessed October 25, 2026. [https://web.stanford.edu/class/cs234/][ref_stanford_cs234]

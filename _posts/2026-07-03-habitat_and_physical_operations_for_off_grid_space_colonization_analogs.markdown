@@ -1530,8 +1530,8 @@ that the survey opener identified.
 
 ### General Sources
 
-- "ICON Vulcan Construction System." n.d. Accessed October 25, 2026. [https://www.iconbuild.com/][ref_icon_vulcan]
-- "International Building Code." n.d. Accessed October 25, 2026. [https://www.iccsafe.org/products-and-services/i-codes/2024-i-codes/ibc/][ref_ibc]
+- "ICON: Architecture for Humanity and Building Technology." n.d. Accessed October 25, 2026. [https://www.iconbuild.com/][ref_icon_vulcan]
+- "The International Building Code." 2015. *ICC*, March 20. [https://www.iccsafe.org/products-and-services/i-codes/2024-i-codes/ibc/][ref_ibc]
 - "Sierra Space LIFE Inflatable Habitat." n.d. Accessed October 25, 2026. [https://www.sierraspace.com/space-stations/life-habitat/][ref_life]
 
 ### Tertiary Sources

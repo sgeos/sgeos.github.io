@@ -189,7 +189,7 @@ The legal instrument under which the COTS development capital was extended deser
 
 The [National Aeronautics and Space Act][ref_nasa_act_1958] confers on the agency an authority to enter into agreements other than contracts, grants, and cooperative agreements, codified at the [51 USC 20113 provisions][ref_51_usc_20113] and described in the [NASA partnerships and Space Act Agreements guidance][ref_nasa_partnerships]. The authority is the civil-agency analogue of the other-transaction authority that the defense agencies hold at the [10 USC 2371b provisions][ref_10_usc_2371b] and that the [Department of Defense other-transactions resources][ref_dod_other_transactions] describe. The related commercial-space authority appears at the [51 USC 51302 provisions][ref_51_usc_51302_saa], and the agency's internal programme-management framework at the [NASA programme and project management requirements][ref_nasa_npr_7120_5f].
 
-The consequence of proceeding under the authority rather than under the [Federal Acquisition Regulation][ref_far_part_15] is that substantially the entire regulatory apparatus governing specific federal procurement does not apply. The cost-accounting standards do not apply. The certified cost-or-pricing-data requirements do not apply. The contract-type framework that the [Federal Acquisition Regulation Part 16][ref_far_part_16] establishes does not apply, nor do the commercial-item procedures at [Part 12][ref_far_part_12] or the research-and-development contracting provisions at [Part 35][ref_far_part_35]. The intellectual-property allocation is negotiated rather than prescribed, which the [Data Rights and Intellectual Property article A164][related_post_a164_patents_trade_secrets] treats in the adjacent context. The bid-protest jurisdiction is substantially narrower. The international framework within which the resulting launches operate is unaffected by the instrument choice and comprises the [United Nations Outer Space 1967][ref_un_outer_space_treaty_1967], the [United Nations Liability Convention 1972][ref_un_liability_convention_1972], and the [United Nations Registration Convention 1976][ref_un_registration_convention_1976], with the scholarly treatment in the [Journal of Space Law][ref_journal_space_law].
+The consequence of proceeding under the authority rather than under the [Federal Acquisition Regulation][ref_far_part_15] is that substantially the entire regulatory apparatus governing specific federal procurement does not apply. The cost-accounting standards do not apply. The certified cost-or-pricing-data requirements do not apply. The contract-type framework that the [Federal Acquisition Regulation Part 16][ref_far_part_16] establishes does not apply, nor do the commercial-item procedures at [Part 12][ref_far_part_12] or the research-and-development contracting provisions at [Part 35][ref_far_part_35]. The intellectual-property allocation is negotiated rather than prescribed, which the [Data Rights and Intellectual Property article A164][related_post_a164_patents_trade_secrets] treats in the adjacent context. The bid-protest jurisdiction is substantially narrower. The international framework within which the resulting launches operate is unaffected by the instrument choice and comprises the [Outer Space Treaty 1967][ref_un_outer_space_treaty_1967], the [Liability Convention 1972][ref_un_liability_convention_1972], and the [Registration Convention 1976][ref_un_registration_convention_1976], with the scholarly treatment in the [Journal of Space Law][ref_journal_space_law].
 
 The regulatory burden removed permits compact statement as the difference in the compliance cost a provider must bear
 
@@ -720,10 +720,11 @@ The article closes with the load-bearing open questions the treatment leaves unr
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- "10 United States Code 2371b Other Transaction Authority." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
+- "10 U.S. Code § 2371b: Renumbered § 4022\]." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/10/2371b][ref_10_usc_2371b]
 - "14 CFR Chapter III FAA Commercial Space Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III][ref_faa_ast_regulations]
 - "14 CFR Part 450 -- Launch and Reentry License Requirements." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-14/chapter-III/subchapter-C/part-450][ref_faa_ast_licensing_regs_450]
 - "22 CFR Chapter I Subchapter M -- International Traffic in Arms Regulations." n.d. Accessed October 25, 2026. [https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M][ref_itar_22_cfr_120_130]
+- "51 U.S. Code Subtitle V Chapter 509: Commercial Space Launch Activities." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - "51 U.S. Code § 51302: Commercial Exploration and Commercial Recovery." n.d. LII / Legal Information Institute. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/51302][ref_51_usc_51302_saa]
 - "About." n.d. SBIR.gov. Accessed October 24, 2026. [https://www.sbir.gov/about][ref_sba_sbir_policy_directive]
 - Adler, Paul S., and Kim B. Clark. 1991. "Behind the Learning Curve: A Sketch of the Learning Process." *Management Science* 37 (3): 267–81. [https://doi.org/10.1287/mnsc.37.3.267][research_adler_clark_1991]
@@ -738,7 +739,6 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - Bovaird, Tony. 2004. "Public–Private Partnerships: From Contested Concepts to Prevalent Practice." *International Review of Administrative Sciences* 70 (2): 199–215. [https://doi.org/10.1177/0020852304044250][research_bovaird_2004]
 - Cohen, Wesley M., and Daniel A. Levinthal. 1990. "Absorptive Capacity: A New Perspective on Learning and Innovation." *Administrative Science Quarterly* 35 (1): 128. [https://doi.org/10.2307/2393553][research_cohen_levinthal_1990]
 - "Columbia Accident Investigation Board Report." 2003. [https://www.govinfo.gov/app/details/GPO-CAIB][ref_caib_report_2003]
-- "Commercial Space Launch Act." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/subtitle-V/chapter-509][ref_csla_1984]
 - "Commercial Space Launch Amendments Act." 2004. [https://www.congress.gov/108/plaws/publ492/PLAW-108publ492.pdf][ref_csla_amendments_2004]
 - "Commercial Space Transportation \| Federal Aviation AdministrationLockUnited States Department of Transportation." n.d. Accessed October 25, 2026. [https://www.faa.gov/space][ref_faa_launch_licenses_current]
 - "Congressional Record." n.d. Accessed October 25, 2026. [https://www.congress.gov/congressional-record][ref_congressional_record]
@@ -778,12 +778,13 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - Lerner, Josh. 1996. *The Government as Venture Capitalist: The Long-Run Effects of the SBIR Program*. National Bureau of Economic Research. [https://doi.org/10.3386/w5753][research_lerner_1996_government_program]
 - Levin, Jonathan, and Steven Tadelis. 2010. "Contracting for Government Services: Theory and Evidence from U.s. Cities." *Journal of Industrial Economics* 58 (3): 507–41. [https://doi.org/10.1111/j.1467-6451.2010.00430.x][research_levin_tadelis_2010]
 - Levitt, Barbara, and James G. March. 1988. "Organizational Learning." *Annual Review of Sociology* 14 (1): 319–38. [https://doi.org/10.1146/annurev.so.14.080188.001535][research_levitt_march_1988]
+- "Liability Convention." 1972. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
 - March, James G. 1991. "Exploration and Exploitation in Organizational Learning." *Organization Science* 2 (1): 71–87. [https://doi.org/10.1287/orsc.2.1.71][research_march_1991]
 - Masten, Scott E. 1984. "The Organization of Production: Evidence from the Aerospace Industry." *Journal of Law and Economics* 27 (2): 403–17. [https://doi.org/10.1086/467071][research_masten_1984]
 - Monteverde, Kirk, and David J. Teece. 1982. "Supplier Switching Costs and Vertical Integration in the Automobile Industry." *Bell Journal of Economics* 13 (1): 206. [https://doi.org/10.2307/3003441][research_monteverde_teece_1982]
 - Myerson, Roger B. 1981. "Optimal Auction Design." *Mathematics of Operations Research* 6 (1): 58–73. [https://doi.org/10.1287/moor.6.1.58][research_myerson_1981]
 - "NASA Authorization Act of." 2010. [https://www.congress.gov/111/plaws/publ267/PLAW-111publ267.pdf][ref_nasa_auth_2010]
-- *NASA COTS Programme History 2011*. 2011. [https://ntrs.nasa.gov/citations/20120000953][ref_nasa_cots_2011]
+- *NASA COTS Programme History*. 2011. [https://ntrs.nasa.gov/citations/20120000953][ref_nasa_cots_2011]
 - "NASA FAR Supplement." n.d. Accessed October 25, 2026. [https://www.hq.nasa.gov/office/procurement/regs/NFS.pdf][ref_nasa_far_supplement]
 - "NASA History." n.d. NASA. Accessed October 25, 2026. [https://history.nasa.gov/][ref_nasa_history]
 - "NASA Human Landing System Solicitation." n.d. Accessed October 25, 2026. [https://sam.gov/opp/human-landing-system/][ref_nasa_hls_solicitation]
@@ -796,9 +797,11 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - *NASA Technical Standards System*. n.d. [https://standards.nasa.gov/][ref_nasa_std_8709_22]
 - Nelson, Richard R. 1959. "The Simple Economics of Basic Scientific Research." *Journal of Political Economy* 67 (3): 297–306. [https://doi.org/10.1086/258177][research_nelson_1959]
 - Nonaka, Ikujiro. 1994. "A Dynamic Theory of Organizational Knowledge Creation." *Organization Science* 5 (1): 14–37. [https://doi.org/10.1287/orsc.5.1.14][research_nonaka_1994]
+- "Outer Space Treaty." 1967. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
 - "Part 12: Acquisition of Commercial Products and Commercial Services." n.d. Accessed October 25, 2026. [https://www.acquisition.gov/far/part-12][ref_far_part_12]
 - "Part 16: Types of Contracts." n.d. Accessed October 25, 2026. [https://www.acquisition.gov/far/part-16][ref_far_part_16]
 - Rapping, Leonard. 1965. "Learning and World War II Production Functions." *Review of Economics and Statistics* 47 (1): 81. [https://doi.org/10.2307/1924126][research_rapping_1965]
+- "Registration Convention." 1976. Accessed October 25, 2026. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
 - "Rogers Commission Report." 1986. [https://history.nasa.gov/rogersrep/genindex.htm][ref_rogers_commission_1986]
 - Romer, Paul M. 1990. "Endogenous Technological Change." *Journal of Political Economy* 98 (5, Part 2): S71-S102. [https://doi.org/10.1086/261725][research_romer_1990]
 - Ross, J., and B. M. Staw. 1993. "Organizational Escalation and Exit: Lessons from the Shoreham Nuclear Power Plant." *Academy of Management Journal* 36 (4): 701–32. [https://doi.org/10.2307/256756][research_ross_staw_1993]
@@ -809,9 +812,6 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Space Act Agreement Authority 51 USC 20113." n.d. Accessed October 25, 2026. [https://www.law.cornell.edu/uscode/text/51/20113][ref_51_usc_20113]
 - Stigler, George J. 1971. "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science* 2 (1): 3. [https://doi.org/10.2307/3003160][research_stigler_1971]
 - "U S Commercial Space Launch Competitiveness Act." 2015. [https://www.congress.gov/114/plaws/publ90/PLAW-114publ90.pdf][ref_uscsla_2015]
-- "United Nations Liability Convention." 1972. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/liability-convention.html][ref_un_liability_convention_1972]
-- "United Nations Outer Space Treaty." 1967. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html][ref_un_outer_space_treaty_1967]
-- "United Nations Registration Convention." 1976. [https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/registration-convention.html][ref_un_registration_convention_1976]
 - "United States Court of Federal Claims." n.d. Accessed October 25, 2026. [https://www.uscfc.uscourts.gov/][ref_uscfc]
 - "USAspending Federal Award Data." n.d. Accessed October 25, 2026. [https://www.usaspending.gov/][ref_usaspending]
 - "Vandenberg SLC-4E Environmental Assessment." n.d. Accessed October 25, 2026. [https://www.faa.gov/space/environmental][ref_vandenberg_slc4e_ea]
@@ -961,7 +961,7 @@ The article closes with the load-bearing open questions the treatment leaves unr
 - "Human Landing System." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/human-landing-system/][ref_nasa_hls_program]
 - "Indian Space Research Organisation Press Releases." n.d. Accessed October 25, 2026. [https://www.isro.gov.in/][ref_isro_press]
 - "Japanese Aerospace Exploration Agency Press Releases." n.d. Accessed October 25, 2026. [https://global.jaxa.jp/press/][ref_jaxa_press]
-- "KSC LC-39A Lease Agreement." n.d. Accessed October 25, 2026. [https://www.nasa.gov/kennedy/][ref_ksc_lc39a_lease]
+- "Kennedy Space Center." n.d. NASA. Accessed October 25, 2026. [https://www.nasa.gov/kennedy/][ref_ksc_lc39a_lease]
 - "Kwajalein Atoll Range Documentation." n.d. Accessed October 25, 2026. [https://www.army.mil/usakwajalein][ref_kwajalein_atoll_documentation]
 - "Moon to Mars." 2021. NASA. Accessed October 25, 2026. [https://www.nasa.gov/humans-in-space/artemis/][ref_nasa_hls_option_a_2021]
 - "NASA Awards International Space Station Cargo Transport Contracts." 2016. NASA. Accessed October 25, 2026. [https://www.nasa.gov/news-release/nasa-awards-international-space-station-cargo-transport-contracts/][ref_nasa_crs2_press_2016]

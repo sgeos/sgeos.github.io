@@ -2541,6 +2541,7 @@ over the civilization that waits.
 
 ### Primary Sources, Peer-Reviewed
 
+- Armstrong, Stuart, and Anders Sandberg. 2013. "Eternity in Six Hours: Intergalactic Spreading of Intelligent Life and Sharpening the Fermi Paradox." *Acta Astronautica* 89: 1–13. [https://doi.org/10.1016/j.actaastro.2013.04.002][research_eternity]
 - Hsiao, Tiger Yu-Yang, Tomotsugu Goto, Tetsuya Hashimoto, et al. 2021. "A Dyson Sphere around a Black Hole." *Monthly Notices of the Royal Astronomical Society* 506: 1723–32. [https://academic.oup.com/mnras/article/506/2/1723/6312510][ref_dyson_black_hole]
 - Scoggins, Matthew T., and David Kipping. 2023. "Lazarus Stars: Numerical Investigations of Stellar Evolution with Star-Lifting as a Life Extension Strategy." *Monthly Notices of the Royal Astronomical Society* 523: 3251–57. [https://academic.oup.com/mnras/article/523/3/3251/7188305][ref_lazarus_stars]
 
@@ -2551,9 +2552,6 @@ over the civilization that waits.
 - Balbi and Lingam. n.d. "Waste Heat and Habitability." Preprint, . [https://arxiv.org/html/2409.06737][ref_waste_heat_habitability]
 - Carroll-Nellenback, Jonathan, Adam Frank, Jason Wright, and Caleb Scharf. 2019. "The Fermi Paradox and the Aurora Effect: Exo-Civilization Settlement, Expansion and Steady States." Preprint, . [https://arxiv.org/abs/1902.04450][ref_aurora_effect]
 - Carter, Brandon. 2008. "Five- or Six-Step Scenario for Evolution?" *International Journal of Astrobiology* 7 (2): 177–82. [https://doi.org/10.1017/s1473550408004023][ref_carter_hard_steps]
-- Drake Equation. n.d. *SETI Institute*. [https://www.seti.org/research/seti-101/drake-equation/][research_drake_seti]
-- *Earliest Known Wildfires*. n.d. [https://www.sciencenews.org/article/earth-oldest-wildfire-430-million-years-ago-fossil-charcoal][research_earliest_wildfires]
-- *Eternity in Six Hours*. n.d. [https://ui.adsabs.harvard.edu/abs/2013AcAau..89....1A/abstract][research_eternity]
 - Galactic-Scale Energy. n.d. *Do the Math*. [https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/][research_galactic_energy]
 - *Glimpsing Heat from Alien Technologies Survey*. n.d. [https://sites.psu.edu/astrowright/the-g-hat-search-for-kardashev-civilizations/][research_ghat]
 - *Grabby Aliens*. n.d. [https://grabbyaliens.com/][research_grabby_aliens]
@@ -2561,7 +2559,7 @@ over the civilization that waits.
 - Griffith. n.d. "G-hat Survey Paper III." Preprint, . [https://arxiv.org/abs/1504.03418][ref_ghat_paper_iii]
 - Hanson, Robin, Daniel Martin, Calvin McCarter, and Jonathan Paulson. 2021. "If Loud Aliens Explain Human Earliness, Quiet Aliens Are Also Rare." Preprint, . [https://arxiv.org/abs/2102.01522][ref_grabby_aliens]
 - Jiang, Jonathan H., Fuyang Feng, Philip E. Rosen, et al. 2022. "Avoiding the Great Filter: Predicting the Timeline for Humanity to Reach Kardashev Type I Civilization." Preprint, . [https://arxiv.org/abs/2204.07070][ref_jiang_great_filter]
-- Kaku. n.d. *The Physics of Extraterrestrial Civilizations*. [https://mkaku.org/home/articles/the-physics-of-extraterrestrial-civilizations/][research_kaku_physics]
+- Laughlin, Gregory, Peter Bodenheimer, and Fred C. Adams. 1997. "The End of the Main Sequence." *The Astrophysical Journal* 482: 420–32. [https://ui.adsabs.harvard.edu/abs/1997ApJ...482..420L/abstract][ref_adams_red_dwarfs]
 - Lazarus Stars, Scoggins. n.d. *Kipping*. [https://scholar.google.com/scholar?q=Kipping+Lazarus+Stars][research_lazarus_stars]
 - Loeb. n.d. "Batista, and Sloan, Relative Likelihood for Life." Preprint, . [https://arxiv.org/abs/1606.08448][ref_loeb_cosmic_time]
 - Murphy. n.d. *Galactic-Scale Energy*. [https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/][research_murphy_energy]
@@ -2574,12 +2572,14 @@ over the civilization that waits.
 
 ### General Sources
 
-- Adams and Laughlin. n.d. "Bodenheimer, and Laughlin, Red Dwarfs and the End of the Main Sequence." Accessed October 25, 2026. [https://ui.adsabs.harvard.edu/abs/1997ApJ...482..420L/abstract][ref_adams_red_dwarfs]
 - Balbi and Frank. n.d. "The Oxygen Bottleneck for Technospheres." Accessed October 25, 2026. [https://www.nature.com/articles/s41550-023-02112-8][ref_oxygen_bottleneck]
 - Berut. n.d. "Experimental Verification of Landauer's Principle." Accessed October 25, 2026. [https://www.nature.com/articles/nature10872][ref_landauer_experimental]
 - Bradbury. n.d. "Matrioshka Brains." Accessed October 25, 2026. [https://gwern.net/doc/ai/scaling/hardware/1999-bradbury-matrioshkabrains.pdf][ref_matrioshka_brains]
 - Catling. n.d. "Why O2 Is Required by Complex Life." Accessed October 25, 2026. [https://www.liebertpub.com/doi/10.1089/ast.2005.5.415][ref_catling_oxygen]
+- "Drake Equation." n.d. Accessed October 25, 2026. [https://www.seti.org/research/seti-101/drake-equation/][research_drake_seti]
+- "Earth’s Oldest Known Wildfires Raged 430 Million Years Ago." 2022. *Science News*, June 24. [https://www.sciencenews.org/article/earth-oldest-wildfire-430-million-years-ago-fossil-charcoal][research_earliest_wildfires]
 - Hart. n.d. "Explanation for the Absence of Extraterrestrials on Earth." Accessed October 25, 2026. [https://adsabs.harvard.edu/full/1975QJRAS..16..128H][ref_hart_absence]
+- "The Physics of Extraterrestrial Civilizations: Official Website of Dr. Michio Kaku." n.d. Accessed October 25, 2026. [https://mkaku.org/home/articles/the-physics-of-extraterrestrial-civilizations/][research_kaku_physics]
 - Suazo. n.d. "Project Hephaistos." Accessed October 25, 2026. [https://academic.oup.com/mnras/article/531/1/695/7665761][ref_project_hephaistos]
 - Veres. n.d. "The Solitude Zone." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/S0094576525006599][ref_solitude_zone]
 - Wright. n.d.-b. "G-hat Survey Paper II." Accessed October 25, 2026. [https://iopscience.iop.org/article/10.1088/0004-637X/792/1/27][ref_ghat_paper_ii]
@@ -2661,7 +2661,7 @@ over the civilization that waits.
 [research_andromeda]: https://en.wikipedia.org/w/index.php?title=Andromeda_Galaxy&oldid=1339332569
 [research_drake_seti]: https://www.seti.org/research/seti-101/drake-equation/
 [research_earliest_wildfires]: https://www.sciencenews.org/article/earth-oldest-wildfire-430-million-years-ago-fossil-charcoal
-[research_eternity]: https://ui.adsabs.harvard.edu/abs/2013AcAau..89....1A/abstract
+[research_eternity]: https://doi.org/10.1016/j.actaastro.2013.04.002
 [research_galactic_energy]: https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/
 [research_ghat]: https://sites.psu.edu/astrowright/the-g-hat-search-for-kardashev-civilizations/
 [research_grabby_aliens]: https://grabbyaliens.com/

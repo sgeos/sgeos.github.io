@@ -2905,14 +2905,14 @@ GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)
 
 ### General Sources
 
-- A Self-Reproducing Interstellar Probe (Journal of the British Interplanetary Society). 1980. "Freitas." [https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm][research_freitas_1980]
 - "Aerosol Jet Printing, Wikipedia." n.d. Accessed October 25, 2026. [https://en.wikipedia.org/wiki/Aerosol\_jet\_printing][ref_aerosol_jet]
 - Analog, VLSI, Neural, Systems, and (Addison-Wesley). 1989. "Mead." [https://en.wikipedia.org/wiki/Analog\_VLSI\_and\_Neural\_Systems][future_mead_1989]
 - "BrainScaleS, Wikipedia." n.d. Accessed October 25, 2026. [https://en.wikipedia.org/wiki/BrainScaleS][ref_brainscales]
 - Computing with Memristive Devices (Synthesis Lectures on Emerging Engineering Technologies). 2021. "James." [https://link.springer.com/book/10.1007/978-3-031-79777-0][future_james_2021]
 - "Electronics Resurgence Initiative, Wikipedia." n.d. Accessed October 25, 2026. [https://en.wikipedia.org/wiki/Electronics\_Resurgence\_Initiative][ref_eri]
+- Freitas, Robert A., Jr. 1980. "A Self-Reproducing Interstellar Probe." Accessed October 25, 2026. [https://www.rfreitas.com/Astro/ReproJBISJuly1980.htm][research_freitas_1980]
 - "Loihi, Wikipedia." n.d. Accessed October 25, 2026. [https://en.wikipedia.org/wiki/Loihi\_(chip)][ref_loihi]
-- Nature, Neuromorphic, Hardware, Computing, and Collection. 2024. "\[Title not identified\]." Accessed October 25, 2026. [https://www.nature.com/collections/jaidjgeceb][future_nature_neuro_2024]
+- Nature, Neuromorphic, Hardware, Computing, and Collection. 2024. "Client Challenge." Accessed October 25, 2026. [https://www.nature.com/collections/jaidjgeceb][future_nature_neuro_2024]
 - Neuromorphic Photonics (CRC Press). 2017. "Prucnal and Shastri." [https://www.cambridge.org/core/books/neuromorphic-photonics/3A5A0EA7A5A99A1CDA03B57B2E22B908][future_prucnal_2017]
 - Organic Electronics: Materials. 2010. "Processing, Devices and Applications (CRC Press), So." [https://www.routledge.com/Organic-Electronics-Materials-Processing-Devices-and-Applications/So/p/book/9780367383596][future_so_2010]
 

@@ -76,22 +76,22 @@ A Raspberry Pi (or other Linux box) with a Bluetooth LE dongle can
 - Apple Inc. n.d.-a. "iBeacon for Developers." developer.apple.com. Accessed October 25, 2026. [https://developer.apple.com/ibeacon/][apple_ibeacon]
 - Apple Inc. n.d.-b. "Maps for Developers." developer.apple.com. Accessed October 25, 2026. [https://developer.apple.com/maps/][apple_maps]
 - "Apple, Getting Started with iBeacon." n.d. developer.apple.com. Accessed October 25, 2026. [https://developer.apple.com/ibeacon/Getting-Started-with-iBeacon.pdf][apple_ibeacon_getting_started]
-- "Cordova, iBeacon Plugin." n.d. github.com. Accessed October 25, 2026. [https://github.com/petermetz/cordova-plugin-ibeacon][cordova_ibeacon]
 - "iOS, Core Location Framework." n.d. developer.apple.com. Accessed October 25, 2026. [https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CoreLocation\_Framework/index.htm://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CoreLocation\_Framework/index.html][ios_core_location]
 - "OSX, Beacon Scanner." n.d. github.com. Accessed October 25, 2026. [https://github.com/mlwelles/BeaconScanner][osx_beacon_scanner]
 - "OSX, MactsAsBeacon." n.d. github.com. Accessed October 25, 2026. [https://github.com/timd/MactsAsBeacon][osx_beacon_mactsasbeacon]
+- "Petermetz/cordova-Plugin-Ibeacon." n.d. GitHub. Accessed October 25, 2026. [https://github.com/petermetz/cordova-plugin-ibeacon][cordova_ibeacon]
 
 ### General Sources
 
 - "Android, Beacon Layouts." n.d. Accessed October 25, 2026. [https://beaconlayout.wordpress.com][android_beacon_layouts]
 - "Android, Locate Beacon App." n.d. Accessed October 25, 2026. [https://play.google.com/store/apps/details?id=com.radiusnetworks.locate][android_locate_beacon]
-- "Article, The Realities of Installing iBeacon to Scale." n.d. Accessed October 25, 2026. [https://www.brooklynmuseum.org/community/blogosphere/2015/02/04/the-realities-of-installing-ibeacon-to-scale/][article_beacons_at_scale]
 - "Beacons in 2016: What to Expect from iBeacon, Eddystone and More." n.d. Accessed October 25, 2026. [http://blog.beaconstac.com/2016/02/beacons-in-2016-what-to-expect-from-ibeacon-eddystone-and-more/][article_beacons_2016]
 - "Bluetooth: Can an Android Device Act as an iBeacon?" n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/19602913/can-an-android-device-act-as-an-ibeacon][android_ibeacon_transmit]
-- "iOS, Locate Beacon App." n.d. Accessed October 25, 2026. [https://itunes.apple.com/us/app/locate-beacon/id738709014?mt=8][ios_locate_beacon]
+- "Locate Beacon on the App Store." n.d. App Store. Accessed October 25, 2026. [https://itunes.apple.com/us/app/locate-beacon/id738709014?mt=8][ios_locate_beacon]
 - "Osx: Turn Macbook into iBeacon." n.d. Accessed October 25, 2026. [http://stackoverflow.com/questions/19410398/turn-macbook-into-ibeacon][osx_macbook_ibeacon]
+- "Overview \| piBeacon: DIY Beacon with a Raspberry Pi." n.d. Accessed October 25, 2026. [https://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/overview][rpi_beacon]
 - "Quora, How much do iBeacons cost?" n.d. Accessed October 25, 2026. [https://www.quora.com/How-much-do-ibeacons-cost][quora_beacon_cost]
-- "RaspberryPi, piBeacon - DIY Beacon with a Raspberry Pi." n.d. Accessed October 25, 2026. [https://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/overview][rpi_beacon]
+- "The Realities of Installing iBeacon to Scale: BKM TECH." n.d. Accessed October 25, 2026. [https://www.brooklynmuseum.org/community/blogosphere/2015/02/04/the-realities-of-installing-ibeacon-to-scale/][article_beacons_at_scale]
 - "Unity 3D, iBeacon Asset." n.d. Accessed October 25, 2026. [https://www.assetstore.unity3d.com/en/\#!/content/15260][unity3d_ibeacon]
 
 ### Tertiary Sources

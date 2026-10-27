@@ -1246,37 +1246,37 @@ take up.
 ### Primary Sources, Non-Peer-Reviewed
 
 - "Automerge Conflict-Free Replicated Data Type Library." n.d. automerge.org. Accessed October 25, 2026. [https://automerge.org/][ref_automerge]
-- "Cargo Rust Package Manager." n.d. doc.rust-lang.org. Accessed October 25, 2026. [https://doc.rust-lang.org/cargo/][ref_cargo]
-- "Federal Aviation Administration." n.d. Accessed October 25, 2026. [https://www.faa.gov/][ref_faa]
+- "Federal Aviation AdministrationLockUnited States Department of Transportation." n.d. Accessed October 25, 2026. [https://www.faa.gov/][ref_faa]
 - "Food and Drug Administration." n.d. Accessed October 25, 2026. [https://www.fda.gov/][ref_fda]
 - "Genode Operating System Framework." n.d. genode.org. Accessed October 25, 2026. [https://genode.org/][ref_genode]
 - "Human Interface Guidelines." n.d. Apple Developer Documentation. Accessed October 25, 2026. [https://developer.apple.com/design/human-interface-guidelines/][ref_apple_hig]
-- "seL4 Microkernel." n.d. sel4.systems. Accessed October 25, 2026. [https://sel4.systems/][ref_sel4]
+- "Introduction: The Cargo Book." n.d. doc.rust-lang.org. Accessed October 25, 2026. [https://doc.rust-lang.org/cargo/][ref_cargo]
+- seL4 Foundation. n.d. "The seL4 Microkernel." sel4.systems. Accessed October 25, 2026. [https://sel4.systems/][ref_sel4]
 - "Servo Browser Engine." n.d. servo.org. Accessed October 25, 2026. [https://servo.org/][ref_servo]
 - "WebAssembly Component Model." n.d. component-model.bytecodealliance.org. Accessed October 25, 2026. [https://component-model.bytecodealliance.org/][ref_wasm_component_model]
 
 ### Commercial Sources
 
 - "National Aeronautics and Space Administration." n.d. Accessed October 25, 2026. [https://www.nasa.gov/][ref_nasa]
-- "Palantir Foundry." n.d. Accessed October 25, 2026. [https://www.palantir.com/platforms/foundry/][ref_palantir_foundry]
+- "Palantir Foundry." n.d. Palantir. Accessed October 25, 2026. [https://www.palantir.com/platforms/foundry/][ref_palantir_foundry]
 
 ### General Sources
 
 - "Abnormal Situation Management Consortium." n.d. Accessed October 25, 2026. [https://www.asmconsortium.net/][ref_asm_consortium]
-- "Emacs Text Editor." n.d. Accessed October 25, 2026. [https://www.gnu.org/software/emacs/][ref_emacs]
 - "Eurocontrol." n.d. Accessed October 25, 2026. [https://www.eurocontrol.int/][ref_eurocontrol]
 - "Git Version Control System." n.d. Accessed October 25, 2026. [https://git-scm.com/][ref_git]
 - "GNOME Human Interface GuidelinesContentsMenuExpandLight modeDark modeAuto Light/dark Mode." n.d. Accessed October 25, 2026. [https://developer.gnome.org/hig/][ref_gnome_hig]
+- "GNU Emacs." n.d. Accessed October 25, 2026. [https://www.gnu.org/software/emacs/][ref_emacs]
+- "Human-System Interface Design Review Guidelines (NUREG-0700)." n.d. NRC Web. Accessed October 25, 2026. [https://www.nrc.gov/reading-rm/doc-collections/nuregs/staff/sr0700/][ref_nureg_0700]
 - "iManage Work." n.d. Accessed October 25, 2026. [https://imanage.com/product/imanage-work/][ref_imanage]
 - "ISA-101 Human Machine Interfaces for Process Automation Systems." n.d. Accessed October 25, 2026. [https://www.isa.org/standards-and-publications/isa-standards/isa-101-standards][ref_isa_101]
-- "KDE Human Interface Guidelines." n.d. Accessed October 25, 2026. [https://develop.kde.org/hig/][ref_kde_hig]
+- "KDE Human Interface Guidelines." n.d. Developer. Accessed October 25, 2026. [https://develop.kde.org/hig/][ref_kde_hig]
 - "Microsoft Windows User Experience Guidelines." n.d. Accessed October 25, 2026. [https://learn.microsoft.com/en-us/windows/apps/design/][ref_msft_uxg]
 - "npm Node Package Manager." n.d. Accessed October 25, 2026. [https://www.npmjs.com/][ref_npm]
-- "NUREG-0700 Human-System Interface Design Review Guidelines." n.d. Accessed October 25, 2026. [https://www.nrc.gov/reading-rm/doc-collections/nuregs/staff/sr0700/][ref_nureg_0700]
 - "Pip Python Package Installer." n.d. Accessed October 25, 2026. [https://pip.pypa.io/][ref_pip]
 - "Relativity Electronic Discovery Platform." n.d. Accessed October 25, 2026. [https://www.relativity.com/data-solutions/ediscovery/][ref_relativity]
-- "Vim Text Editor." n.d. Accessed October 25, 2026. [https://www.vim.org/][ref_vim]
 - "Visual Studio Code." n.d. Accessed October 25, 2026. [https://code.visualstudio.com/][ref_vscode]
+- "Welcome Home: Vim Online." n.d. Accessed October 25, 2026. [https://www.vim.org/][ref_vim]
 
 ### Tertiary Sources
 

@@ -1379,12 +1379,10 @@ and the ongoing search for technosignatures.
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- *The Great Filter*. n.d. [https://mason.gmu.edu/~rhanson/greatfilter.html][research_great_filter]
-- *Mass Extinctions in the Marine Fossil Record*. n.d. [https://pubmed.ncbi.nlm.nih.gov/17788674/][research_raup_sepkoski]
+- Mills, Daniel B., Jennifer L. Macalady, Adam Frank, and Jason T. Wright. 2025. "A Reassessment of the “Hard-Steps” Model for the Evolution of Intelligent Life." *Science Advances* 11: eads5698. [https://pmc.ncbi.nlm.nih.gov/articles/PMC11827626/][research_hard_steps_2025]
 - *The Nature of LUCA*. n.d. [https://www.nature.com/articles/s41559-024-02461-1][research_luca_2024]
 - *An Objective Bayesian Analysis of Life's Early Start*. n.d. [https://pmc.ncbi.nlm.nih.gov/articles/PMC7997718/][research_kipping]
-- *A Reassessment of the Hard Steps Model*. n.d. [https://pmc.ncbi.nlm.nih.gov/articles/PMC11827626/][research_hard_steps_2025]
-- *Where Are They?*. n.d. [https://nickbostrom.com/papers/where-are-they/][research_bostrom]
+- Raup, D. M., and J. J. Sepkoski Jr. 1982. "Mass Extinctions in the Marine Fossil Record." *Science (New York, N.Y.)* 215: 1501–3. [https://pubmed.ncbi.nlm.nih.gov/17788674/][research_raup_sepkoski]
 
 ### Secondary Sources
 
@@ -1392,8 +1390,10 @@ and the ongoing search for technosignatures.
 
 ### General Sources
 
+- Bostrom, Nick. n.d. "Where Are They?: Why I Hope the Search for Extraterrestrial Life Finds Nothing." Accessed October 25, 2026. [https://nickbostrom.com/papers/where-are-they/][research_bostrom]
+- original. n.d. "The Great Filter." Accessed October 25, 2026. [https://mason.gmu.edu/~rhanson/greatfilter.html][research_great_filter]
 - "Search for Extraterrestrial Intelligence." n.d. Accessed October 25, 2026. [https://www.seti.org/][ref_seti]
-- "Smithsonian Human Origins." n.d. Accessed October 25, 2026. [https://humanorigins.si.edu/][ref_smithsonian]
+- "The Smithsonian's Human Origins Program \| the Smithsonian Institution's Human Origins Program." n.d. Accessed October 25, 2026. [https://humanorigins.si.edu/][ref_smithsonian]
 
 ### Tertiary Sources
 

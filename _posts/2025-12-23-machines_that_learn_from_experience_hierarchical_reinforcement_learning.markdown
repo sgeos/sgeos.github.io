@@ -251,7 +251,7 @@ which is approximated by searching over a small set of candidate goals around th
 
 HIRO demonstrated state-of-the-art performance on hierarchical continuous control benchmarks including ant maze navigation and simulated manipulation tasks, providing evidence that sample-efficient hierarchical learning is feasible with off-policy methods.
 
-Related methods include HAC (Hierarchical Actor-Critic) of [Levy 2018][research_levy_et_al_2018] which uses subgoal testing to handle the moving-target problem in hierarchical off-policy learning, and Data-Efficient Hierarchical RL of [Nachum et al. 2019b][research_nachum_et_al_2019] which further refines the sub-goal representation using learned representations.
+Related methods include HAC (Hierarchical Actor-Critic) of [Levy et al. 2018][research_levy_et_al_2018] which uses subgoal testing to handle the moving-target problem in hierarchical off-policy learning, and Data-Efficient Hierarchical RL of [Nachum et al. 2019b][research_nachum_et_al_2019] which further refines the sub-goal representation using learned representations.
 
 ## Goal-Conditioned Hierarchies
 
@@ -461,6 +461,7 @@ Reproducibility challenges in hierarchical reinforcement learning are similar to
 - Konidaris, George, Leslie Pack Kaelbling, and Tomas Lozano-Perez. 2018. "From Skills to Symbols: Learning Symbolic Representations for Abstract High-Level Planning." *Journal of Artificial Intelligence Research* 61: 215–89. [https://doi.org/10.1613/jair.5575][research_konidaris_kaelbling_lozano_perez_2018]
 - Kulkarni, Tejas D., Karthik Narasimhan, Ardavan Saeedi, and Josh Tenenbaum. 2016. "Hierarchical Deep Reinforcement Learning: Integrating Temporal Abstraction and Intrinsic Motivation." *Advances in Neural Information Processing Systems* 29. [https://papers.nips.cc/paper/2016/hash/f442d33fa06832082290ad8544a8da27-Abstract.html][research_kulkarni_et_al_2016]
 - Le, Hoang, Nan Jiang, Alekh Agarwal, Miroslav Dudik, Yisong Yue, and Hal Daumé III. 2018. "Hierarchical Imitation and Reinforcement Learning." In *International Conference on Machine Learning*. [https://proceedings.mlr.press/v80/le18a.html][research_le_et_al_2018]
+- Levy, Andrew, George Konidaris, Robert Platt, and Kate Saenko. 2018. "Learning Multi-Level Hierarchies with Hindsight." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=ryzECoAcY7][research_levy_et_al_2018]
 - Lynch, Corey, Mohi Khansari, Ted Xiao, et al. 2020. "Learning Latent Plans from Play." In *Conference on Robot Learning*. [https://proceedings.mlr.press/v100/lynch20a.html][research_lynch_et_al_2020]
 - Machado, Bellemare, and Bowling. 2018. *\[Title not identified\]*. [https://scholar.google.com/scholar?q=Machado+Bellemare+Bowling+2018][research_machado_bellemare_bowling_2018_eigenoptions]
 - Merel, Josh, Leonard Hasenclever, Alexandre Galashov, et al. 2019. "Neural Probabilistic Motor Primitives for Humanoid Control." In *International Conference on Learning Representations*. [https://openreview.net/forum?id=BJl6TjRcY7][research_merel_et_al_2019]
@@ -485,7 +486,7 @@ Reproducibility challenges in hierarchical reinforcement learning are similar to
 ### Commercial Sources
 
 - "DeepMind x UCL RL Course." n.d. Accessed October 25, 2026. [https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021][ref_deepmind_ucl_rl]
-- "OpenAI Spinning Up." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
+- "Welcome to Spinning up in Deep RL! — Spinning up Documentation." n.d. Accessed October 25, 2026. [https://spinningup.openai.com/][ref_openai_spinning_up]
 
 ### General Sources
 
@@ -496,7 +497,6 @@ Reproducibility challenges in hierarchical reinforcement learning are similar to
 - Brooks. 1986. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1087032][research_brooks_1986]
 - Dayan. 1993. "\[Title not identified\]." Accessed October 25, 2026. [https://direct.mit.edu/neco/article/5/4/613/5679][research_dayan_1993_hrl]
 - Klissarov and Precup. 2021. "\[Title not identified\]." Accessed October 25, 2026. [https://papers.nips.cc/paper/2021/hash/2ab3e4b0e69cf49c26f0c98d7f5ef8ba-Abstract.html][research_klissarov_precup_2021]
-- Levy. 2018. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=ryzECoAcY7][research_levy_et_al_2018]
 - McGovern and Barto. 2001. "\[Title not identified\]." Accessed October 25, 2026. [https://scholarworks.umass.edu/cs\_faculty\_pubs/8/][research_mcgovern_barto_2001]
 - Nachum, Tang, Lee, Gu, and Levine. 2019a. "\[Title not identified\]." Accessed October 25, 2026. [https://openreview.net/forum?id=SkljlBEtvS][research_nachum_tang_lee_2019]
 - Ribas-Fernandes, Solway, Diuk, et al. 2011. "\[Title not identified\]." Accessed October 25, 2026. [https://www.cell.com/neuron/fulltext/S0896-6273(11)00559-X][research_ribas_fernandes_et_al_2011]
