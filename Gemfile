@@ -13,13 +13,13 @@ gem "jekyll", "~> 4.3"
 # against, and keep the libsass-based Sass converter that compiles this
 # site's existing SCSS. Both are the versions verified to build the site
 # with correct Keleusma highlighting.
-gem "rouge", "~> 3.30"
+gem "rouge", "~> 4.7"
 gem "jekyll-sass-converter", "~> 3.0"
 
 # Plugins the stock github-pages build used to auto-enable. Only the ones
 # that produce artifacts this site relies on are kept.
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"     # generates /feed.xml (linked from the index)
+  gem "jekyll-feed", "~> 0.18"     # generates /feed.xml (linked from the index)
   gem "jekyll-sitemap", "~> 1.4"   # generates /sitemap.xml
   gem "jekyll-archives", "~> 2.3"  # generates /categories/:name/ archive pages
 end
