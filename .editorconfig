@@ -1,0 +1,24 @@
+# Settings every file type shares. Indentation is set only where the convention does not
+# depend on the language.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{json,jsonl,toml,yaml,yml,scss}]
+indent_style = space
+indent_size = 2
+
+[*.{sh,py}]
+indent_style = space
+indent_size = 4
+
+# Markdown uses trailing spaces for line breaks, and posts are Markdown.
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab

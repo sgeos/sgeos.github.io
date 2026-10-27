@@ -153,6 +153,20 @@ A knowledge graph is maintained in `_docs/`. Start at [`_docs/README.md`](_docs/
 | Process | [`_docs/process/`](_docs/process/README.md) | Content workflow, communication protocol, and task tracking |
 | Reference | [`_docs/reference/`](_docs/reference/README.md) | Glossary and supplementary reference material |
 
+## Licensing and Community Files
+
+**Prose is CC0 and code is 0BSD.** `LICENSE` dedicates the posts, drafts, documentation and
+other writing and media to the public domain under CC0 1.0 Universal. `LICENSE-0BSD` covers
+the code, meaning layouts, includes, styles, plugins, scripts, workflows, tooling and the
+code samples in posts. A new file of either kind needs no header.
+
+The community files, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, `AGENTS.md`,
+`.github/` and `llms.txt`, are adapted from
+[`sgeos/project-template`](https://github.com/sgeos/project-template). The Markdown ones are
+excluded from the Jekyll build in `_config.yml`, and `llms.txt` is published at the site
+root. A rule that arrives through a template sync and changes a rule this file states is
+confirmed with the pilot in session before it is adopted.
+
 ## Commit Convention
 
 Use scoped conventional commits: `<scope>: <imperative summary>`. Common scopes: `feat`, `fix`, `docs`, `refactor`, `chore`, `draft`. Include `Co-Authored-By: Claude <noreply@anthropic.com>` when AI-assisted. See [`_docs/process/GIT_STRATEGY.md`](_docs/process/GIT_STRATEGY.md) for full details.

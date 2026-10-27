@@ -4,6 +4,30 @@
 
 ## Last Updated
 
+**Date**: 2026-10-27 (first entry)
+**Task**: **The repository was synced with `sgeos/project-template`, its GitHub settings put in order, and the template audited. Pushed on the pilot's instruction.**
+
+**Adopted from the template, adapted to a blog.**
+- `CODE_OF_CONDUCT.md`, the priority item, with the comments on posts named among the project's spaces.
+- `SECURITY.md`, scoped to the live site, the workflow and `_lib/`, with the private advisory link.
+- `CONTRIBUTING.md`, written for corrections, with `./_check.sh` as the gate and the redirect rule for moved posts.
+- `AGENTS.md`, `llms.txt` published at the site root, `.editorconfig` with Markdown posts exempt from whitespace trimming, and `.gitattributes`.
+- `.github/`: `CODEOWNERS`, `dependabot.yml` for actions and Ruby gems, two issue templates for corrections and site problems, a security contact link, a pull request template, and the ruleset file.
+- The workflow's actions are pinned to commit hashes with their tags in comments.
+- The README now carries the build badge and the licence statement.
+
+**Licence.** Prose is CC0 1.0 Universal in `LICENSE`, and code, including code samples in posts, is 0BSD in `LICENSE-0BSD`, as the pilot directed. `CLAUDE.md` records the split.
+
+**Not adopted, deliberately.** `scripts/check.sh`, its hook and `scripts/worktree.sh`, since `_check.sh` and the existing hook are the blog's gate. `CHANGELOG.md`, `CITATION.cff` and `.github/release.yml`, since the blog has no releases. The template's `docs/` layout, since `_docs/` exists. The template's rule that commits carry no `Co-Authored-By` trailer conflicts with this repository's rule, and the template's own sync rule asks that such a change be confirmed with the pilot first, so the blog keeps its rule until the pilot decides.
+
+**Repository settings applied.** Wiki and Projects off, which held nothing. Merge commits only, branches deleted on merge, the homepage corrected to `https://sgeos.github.io`, six topics, secret scanning and push protection on, vulnerability alerts on, Dependabot security updates on and unpaused, private vulnerability reporting on, and a ruleset forbidding deletion of and force-pushes to the default branch. Discussions stay on, because the comments use them.
+
+**Template audit.** Six findings, in `tmp/template_audit_message.md` as a draft for `Op55-admin-polysabite`. The pre-push hook's `CHECK_ARGS` example cannot pass a quoted argument, reproduced. Security updates can stay paused after the checklist's command, observed here. The link check misses reference-style links, from reading the code. Several files assume a `main` branch. The trailer ruling cannot be verified downstream. The author's name differs between `LICENSE` and `CITATION.cff`.
+
+**Verification.** `test_sources.py` 91 of 91, `test_lib.py` 165 of 165, a production build and the rendered audit clean over 551 pages, with `llms.txt` published and the Markdown community files excluded. The pre-push hook runs `_verify.py`.
+
+## Previous Report (2026-10-26, second entry)
+
 **Date**: 2026-10-26 (second entry)
 **Task**: **The unread pages of A1 to A296 were read again and their articles reconverted, so fewer entries rest on labels. Pushed on the pilot's instruction.** `6ebf62d` deployed successfully first.
 

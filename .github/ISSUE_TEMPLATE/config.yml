@@ -1,0 +1,7 @@
+# Routes security reports away from public issues. Blank issues stay allowed for
+# anything the two templates do not fit, such as a question about a post.
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/sgeos/sgeos.github.io/security/advisories/new
+    about: Report privately, as SECURITY.md describes. Do not open a public issue.

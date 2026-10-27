@@ -1,0 +1,27 @@
+# Proposes updates to the pinned actions and to the site's Ruby gems. Each proposal is a
+# pull request for the operator to review. The deploy workflow runs only on pushes to
+# master, so no build checks a proposal automatically: check one out and run
+# ./_check.sh before merging it. The
+# cooldown keeps a release out until it has had a week to be noticed if it is bad.
+# Grouping puts every update of one ecosystem and one week into a single pull request,
+# which keeps review and build load to one run a week each.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns: ["*"]
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      gems:
+        patterns: ["*"]

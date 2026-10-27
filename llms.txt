@@ -1,0 +1,26 @@
+# sgeos.github.io
+
+> Brendan Sechter's technical blog, a personal notebook on systems programming,
+> compilation and language design, hardware description, aerospace systems, mathematics
+> and research funding, with long-form series and cited references in Chicago
+> author-date style.
+
+This file follows the llms.txt convention. It is an index for language models and agents
+that read the site or its repository from outside. Links are absolute, so the file works
+when fetched on its own.
+
+## Start Here
+
+- [About](https://sgeos.github.io/about/): who writes the blog and what it covers.
+- [Categories](https://sgeos.github.io/categories.html): every post, grouped by subject.
+- [Feed](https://sgeos.github.io/feed.json): recent posts in JSON Feed form.
+
+## Repository
+
+- [README](https://github.com/sgeos/sgeos.github.io/blob/master/README.md): what the repository holds and how to build it.
+- [AGENTS.md](https://github.com/sgeos/sgeos.github.io/blob/master/AGENTS.md): onboarding for any AI assistant.
+- [CLAUDE.md](https://github.com/sgeos/sgeos.github.io/blob/master/CLAUDE.md): authoritative project context and conventions.
+
+## License
+
+Prose is CC0 1.0 Universal, and code, including code samples in posts, is 0BSD.

@@ -75,6 +75,10 @@ jekyll-archives:
 # must be listed explicitly to keep them out of the generated site.
 exclude:
   - CLAUDE.md
+  - AGENTS.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - SECURITY.md
   - Gemfile
   - Gemfile.lock
   - vendor

@@ -1,0 +1,13 @@
+# Normalise line endings to LF for text files, matching .editorconfig.
+* text=auto eol=lf
+
+# Scripts must keep LF endings to run, whatever a contributor's git settings are.
+*.sh text eol=lf
+
+# Generated WebAssembly modules are binary build output.
+*.wasm binary
+
+# Documentation does not count toward the repository's language statistics, and the
+# wasm-bindgen glue is generated.
+_docs/** linguist-documentation
+assets/wasm/** linguist-generated
