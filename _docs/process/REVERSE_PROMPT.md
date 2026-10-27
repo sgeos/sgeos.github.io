@@ -24,10 +24,11 @@ All 284 articles were reconverted from their copies taken before conversion, and
 
 **Verification.** `test_sources.py` 91 of 91, `test_lib.py` 165 of 165, `sources.py validate` 238,977 records and 27,577 venues valid, and `./_check.sh --weights` passed, with `_verify.py` at 0 errors and 0 warnings over 384 posts, a clean build, and the rendered audit clean over 551 pages. The site is 224.7 MB.
 
-**Open, each a decision for the pilot rather than unfinished conversion.**
-- 608 pages are still refused and 1,876 have no capture. Their entries are built from their labels and say so.
-- Hopkins, Alonso and Adcock 1965 and Newkirk 1971 could not be found anywhere, and may not exist.
-- Thirteen Wikipedia links name pages that do not exist and are built from their labels.
+**Resolved by the house rules in `_docs/writing/CITATION_STYLE.md`, recorded here for review.**
+- 608 pages refused and 1,876 never archived cannot be read. Their entries are complete Chicago entries built from the article's label, which is the rule for a source no record agrees with, and each note says the page was not read.
+- Hopkins, Alonso and Adcock 1965 and Newkirk 1971 could not be found anywhere. They keep the label's authors and year with the title marked `[Title not identified]`, the rule for such a label, rather than an invented title. Removing them from the prose would be an editorial change the pilot may choose.
+- Thirteen Wikipedia links name pages that do not exist. They are built from their labels and their notes name the missing page, the rule for a dead link with no agreeing record.
+- `.codex/`, local agent configuration that is never committed, is now in `.gitignore`.
 
 ## Previous Report (2026-10-26, first entry)
 

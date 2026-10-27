@@ -31,3 +31,6 @@ tmp/*
 # removing tracked files is a separate decision.
 __pycache__/
 *.pyc
+
+# Local agent configuration (Codex), never committed.
+.codex/
