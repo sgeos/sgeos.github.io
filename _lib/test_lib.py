@@ -26,6 +26,7 @@ import booklinks
 import diction
 import homonyms
 import edits
+import equations
 import fetch
 import gate
 import harvest
@@ -3326,6 +3327,127 @@ def t_blog_dispatches_every_listed_command():
             "__main__" in open(os.path.join(_ROOT, "_lib", mod + ".py")).read(), name
     for name in blog.LOCAL:
         assert callable(getattr(blog, f"cmd_{name}", None)), name
+
+# ---------------------------------------------------------------- equations
+
+# NOT A SHIPPED DEFECT. These guard a generator added with its check, against the
+# three ways an equations index can drift from its article: an equation renumbered
+# in the body and not in the index, an index equation that no longer matches the
+# body character for character, and a classification written for an equation that
+# has since changed.
+
+_EQ_POST = (FM + "\n<!-- A9999 -->\n\nOpening [Kepler][ref_kepler].\n\n$$\nE = mc^{2}\n$$\n\n"
+            "```\n$$\nnot = an equation\n$$\n```\n\n$$\nF = ma\n$$\n\n## References\n\n"
+            "- [Kepler][ref_kepler]\n\n[ref_kepler]: https://example.org/kepler\n")
+
+
+def _eq_data(text):
+    tagged = equations.tagged(text)
+    return tagged, {
+        "caution": "Units are SI throughout.",
+        "equation": [
+            {"tag": 1, "class": "standard", "title": "Mass-Energy Equivalence", "gloss": "Rest energy.",
+             "cite": ["ref_kepler"], "digest": equations.digest("E = mc^{2}")},
+            {"tag": 2, "class": "bespoke", "title": "Bespoke Force Law", "gloss": "A force.",
+             "digest": equations.digest("F = ma")},
+        ],
+        "symbol": [{"tex": "m", "meaning": "a mass"}],
+    }
+
+
+def t_equations_ignore_code_and_tag_in_order():
+    """A `$$` inside a code fence is displayed syntax, not an equation, and tags run 1 to N."""
+    tagged, _ = _eq_data(_EQ_POST)
+    got = equations.blocks(tagged)
+    assert [l for _, l in got] == ["E = mc^{2}\n\\tag{1}", "F = ma\n\\tag{2}"], got
+    assert equations.tagged(tagged) == tagged, "tagging is not idempotent"
+    stale = tagged.replace("\\tag{2}", "\\tag{7}")
+    assert equations.tagged(stale) == tagged, "a stale tag is not renumbered"
+
+
+def t_equations_written_section_is_consistent():
+    tagged, data = _eq_data(_EQ_POST)
+    out = equations.written(tagged, data)
+    assert equations.check(out, data) == [], equations.check(out, data)
+    assert "**Equation 1, Mass-Energy Equivalence.**" in out
+    assert "*Equation 2, Bespoke Force Law.*" in out
+    assert "Of the 2, 1 are established and 1 are bespoke." in out
+    assert "[Kepler][ref_kepler]" in out.split("## Equations")[1]
+    assert out.index("## Equations") < out.index("## References")
+    assert equations.written(out, data) == out, "regenerating is not idempotent"
+
+
+def t_equations_drift_is_reported():
+    """Each kind of drift fails, so a passing check is evidence and not merely silence."""
+    tagged, data = _eq_data(_EQ_POST)
+    out = equations.written(tagged, data)
+    changed = out.replace("F = ma\n\\tag{2}", "F = mg\n\\tag{2}", 1)
+    assert any("changed since it was classified" in p for p in equations.check(changed, data))
+    untag = out.replace("E = mc^{2}\n\\tag{1}", "E = mc^{2}", 1)
+    assert any("carries tags []" in p for p in equations.check(untag, data))
+    hand = out.replace("Rest energy.", "Rest energy, edited.")
+    assert any("regenerate" in p for p in equations.check(hand, data))
+    extra = out.replace("## Equations", "$$\nG = 1\n\\tag{3}\n$$\n\n## Equations", 1)
+    assert any("3 display equations and the data file 2" in p for p in equations.check(extra, data))
+    bad_cite = {**data, "equation": [{**data["equation"][0], "cite": ["ref_absent"]}, data["equation"][1]]}
+    assert any("never cites" in p for p in equations.check(out, bad_cite))
+    bad_sym = {**data, "symbol": [{"tex": "\\Omega", "meaning": "absent"}]}
+    assert any("appears in no equation" in p for p in equations.check(out, bad_sym))
+
+
+def t_equations_validate_rejects_bad_data():
+    _, data = _eq_data(_EQ_POST)
+    for mutate, needle in (
+            (lambda d: d["equation"][1].update(title="Force Law"), "must begin with `Bespoke `"),
+            (lambda d: d["equation"][0].update(title="Bespoke Energy"), "must not begin with `Bespoke`"),
+            (lambda d: d["equation"][0].update({"class": "novel"}), "`class` must be one of"),
+            (lambda d: d["equation"][0].update(tag=2), "tagged 1 to 2 in order"),
+            (lambda d: d["equation"][0].update(colour="red"), "unknown key `colour`"),
+            (lambda d: d["equation"][0].pop("digest"), "missing `digest`"),
+            (lambda d: d.update(caution=""), "`caution` must be"),
+    ):
+        d = {**data, "equation": [dict(e) for e in data["equation"]]}
+        mutate(d)
+        try:
+            equations.validate(d)
+        except equations.EquationError as e:
+            assert needle in str(e), (needle, str(e))
+        else:
+            raise AssertionError(f"accepted data that should fail with {needle!r}")
+    equations.validate(data)
+
+
+def t_equations_unclosed_block_raises():
+    try:
+        equations.blocks(FM + "\n$$\nE = mc^{2}\n\n## References\n")
+    except equations.EquationError as e:
+        assert "never closes" in str(e)
+    else:
+        raise AssertionError("an unclosed display equation was accepted")
+
+
+def t_equations_stamp_rewrites_digests():
+    tagged, _ = _eq_data(_EQ_POST)
+    path = os.path.join(_ROOT, "tmp", "test_equations_stamp.toml")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write('caution = "c"\n\n[[equation]]\ntag = 1\ndigest = "old"\n\n'
+                 '[[equation]]\ntag = 2\ndigest = "old"\n')
+    try:
+        out = equations.stamped(path, tagged)
+    finally:
+        os.remove(path)
+    assert f'digest = "{equations.digest("E = mc^{2}")}"' in out, out
+    assert f'digest = "{equations.digest("F = ma")}"' in out, out
+
+
+def t_equations_gate_skips_posts_outside_the_convention_and_passes_a384():
+    """The gate applies only where a post opts in, and the first adopter is consistent."""
+    plain = os.path.join(_ROOT, "_posts", "2016-01-07-hello-world.markdown")
+    assert equations.check_article(plain) == []
+    a384 = os.path.join(_ROOT, "_posts", "2026-08-20-mercury_as_colony_and_launch_site.markdown")
+    assert equations.check_article(a384) == [], equations.check_article(a384)
+
 
 for name, fn in sorted(list(globals().items())):
     if name.startswith("t_") and callable(fn):

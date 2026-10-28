@@ -17,6 +17,7 @@ Style guidance and structural conventions for blog posts.
 | [MathJax Conventions](./MATHJAX_CONVENTIONS.md) | Math density targets by genre, worked examples, numerical sanity checks |
 | [Acronym Handling](./ACRONYM_HANDLING.md) | Spell-out rule, format, and exemption list |
 | [Citation Style](./CITATION_STYLE.md) | Chicago author-date entries, the seven reliability-ranked reference sections, and the source database |
+| [Equations Section](./EQUATIONS_SECTION.md) | The generated index of display equations, classified as standard or bespoke, and its drift check |
 
 ## Related Sections
 

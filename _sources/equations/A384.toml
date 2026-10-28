@@ -1,0 +1,293 @@
+# Equation classification for A384, Mercury as a Colony and a Launch Site.
+# Reviewed 2026-10-28. Read by `python3 _lib/equations.py`, which regenerates the
+# post's Equations section from this file and the body. A digest records the
+# equation an entry was written for. When `check` reports one changed, review the
+# entry against the new equation, then run `equations.py stamp`.
+
+caution = "Each equation takes the units of the section in which it appears, so a distance stated in astronomical units must be converted to metres before it enters a speed, an energy or a temperature."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Inverse-Square Flux, Circular Speed, Escape Increment and Equilibrium Temperature"
+gloss = "Sunlight falls as the inverse square of distance, the circular and escape speeds follow from the Sun's gravitational parameter, and a rapidly rotating black body settles at the temperature at which it radiates what it absorbs."
+digest = "c9e67f03005772dc"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Perihelion and Aphelion Flux of an Eccentric Orbit"
+gloss = "The inverse-square law evaluated at the nearest and farthest points of an ellipse gives the extremes of sunlight and a ratio that depends on the eccentricity alone."
+digest = "59e0edf0d71f9015"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Hohmann Transfer Excess Speeds and Flight Time"
+gloss = "The vis-viva equation gives the speed on the transfer ellipse at each end, its difference from the circular speed there is the excess speed, and half the period of the ellipse is the flight time."
+cite = ["ref_hohmann_transfer_orbit"]
+digest = "864c04f7c96ecdde"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Departure and Capture Burns Deep in a Gravity Well"
+gloss = "Energy conservation between the burn point and a great distance gives the burn that produces or absorbs an excess speed, which is the Oberth effect in the form used by the companion article."
+cite = ["ref_oberth_effect", "related_post_orbital_manoeuvres_departure"]
+digest = "aa79ef9481e00ff3"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Delta-v Budget from Low Earth Orbit to a Landing"
+gloss = "The budget sums a departure from low Earth orbit, a capture into a low circular orbit at the destination and a propulsive landing that removes the whole orbital speed, which assumes an airless body and no losses."
+cite = ["ref_delta_v_budget"]
+digest = "b16ffe3488426acb"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Subsolar Temperature of a Black Surface"
+gloss = "A black surface facing the Sun that conducts no heat downward radiates from one face at the rate it absorbs sunlight."
+digest = "c18059ab0ebfcf67"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Speed of the Terminator at the Equator"
+gloss = "The line between day and night crosses the equatorial circumference once per solar day."
+digest = "f690f049f7c89936"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Radial Power-Law Scaling of Solar Energetic Particle Events"
+gloss = "Fluences and peak intensities of solar proton events are fitted as a power of heliocentric distance, so the factor relative to 1 AU depends on the fitted exponent alone."
+cite = ["research_lario_et_al_2006"]
+digest = "59b57e5de60e64ba"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Track Length and Launch Energy at Constant Acceleration"
+gloss = "Constant acceleration to a final speed fixes the length of the track, and the kinetic energy delivered to each kilogram is half the square of that speed."
+cite = ["ref_mass_driver"]
+digest = "89c3a0594aaf25e2"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Speed Retained Through an Atmospheric Column"
+gloss = "Integrating the drag law for a vertical exit over the whole air column gives an exponential loss of speed, under the stated neglect of gravity and heating during the passage."
+digest = "aeb53e3eac6dabfc"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Lunar Departure Through Earth's Gravity Well"
+gloss = "The excess speed relative to Earth is carried in to the Moon's orbital radius, the Moon's orbital speed is credited in full, and the remainder is carried down to the lunar surface, which assumes a departure along the Moon's direction of motion."
+cite = ["related_post_mass_drivers_parent"]
+digest = "d99fa9b168259d96"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The ratio of initial to final mass grows exponentially with the delta-v measured in units of the exhaust speed."
+cite = ["ref_tsiolkovsky_rocket_equation", "related_post_orbital_manoeuvres_rocket"]
+digest = "d9b49d5a54091191"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Collector Time per Kilogram Launched"
+gloss = "The launch energy per kilogram divided by the electrical power each square metre of collector supplies gives a figure of merit in square metre hours per kilogram, which the article introduces to compare launch sites powered by local sunlight."
+digest = "75a347b4bf7c2616"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Scaling of Collector Time with Stellar Mass and Distance"
+gloss = "When the launch energy scales with the orbital term and the sunlight with the inverse square of distance, the collector time grows with the star's mass and the distance and falls with its luminosity."
+digest = "f1aad17d84cb2bc5"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Normal Acceleration on a Curved Track"
+gloss = "A payload moving along a track that curves with the planet's surface needs the centripetal acceleration less local gravity to hold it down."
+cite = ["related_post_mass_drivers_curvature"]
+digest = "d6b9098a820ffeae"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Rotation Relative to the Direction of Orbital Motion"
+gloss = "A body spinning in the same sense as it orbits turns relative to its direction of motion at the difference of the two rates, which sets how often a fixed track points along a given heading."
+digest = "4a0133cad40fe743"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Synodic Period"
+gloss = "Two bodies on circular orbits return to the same relative alignment at the reciprocal of the difference of their orbital rates."
+digest = "8d04b1284443dd71"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Solar Oberth Manoeuvre"
+gloss = "A burn at perihelion adds to a speed that is already large, and energy conservation from perihelion to a great distance gives the resulting excess speed."
+cite = ["ref_oberth_effect"]
+digest = "4c7da139ed9d4c2a"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Lightness Number and Critical Sail Loading"
+gloss = "The ratio of radiation force to solar gravity on a perfectly reflecting sail facing the Sun is independent of distance and equals one at a characteristic mass per unit area."
+cite = ["ref_solar_sail", "related_post_solar_sailing_lightness"]
+digest = "f166c51ba185356f"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Escape Speed of a Sail Opened on a Circular Orbit"
+gloss = "Opening the sail reduces the effective solar gravity by the factor one minus the lightness number, and energy conservation then gives the speed far from the Sun."
+cite = ["ref_solar_sail"]
+digest = "8d886f293c75a3a5"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Ceiling on a Pumped Sail Orbit"
+gloss = "A sail that falls to a perihelion and turns face-on there leaves with an excess speed that rises toward a ceiling as the orbit is pumped toward escape, a simple reference case the article constructs for the repeated-pass strategy."
+digest = "f680536ea65778f9"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Collector Area for an Electrical Power"
+gloss = "The collector area is the electrical power divided by the electrical yield of each square metre, which is the conversion efficiency times the local flux."
+digest = "ea34753ff76bac2f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Maximum Elongation of an Inner Body"
+gloss = "A body on a circular orbit seen from a greater distance never appears farther from the Sun than the angle whose sine is the ratio of the two distances."
+digest = "c53b53fdd8e26f31"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Sail Speed Ceiling Around Another Star"
+gloss = "Setting the closest perihelion by the largest flux the sail tolerates and writing the lightness number in terms of the star's luminosity cancels the stellar mass from the ceiling of Equation 21."
+digest = "441377f16d5f5e65"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Temperature of a Two-Sided Panel"
+gloss = "Absorbed sunlight less the fraction converted to electricity is balanced against emission from both faces, a simple model that ignores conduction and the panel's tilt."
+digest = "84e44894856304bd"
+
+[[symbol]]
+tex = 'S(r)'
+meaning = "the flux of sunlight at distance $r$ from the Sun, written $S$ where the distance is understood"
+
+[[symbol]]
+tex = 'S_{0}'
+meaning = "the solar constant, the flux of sunlight at 1 AU"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the Sun's gravitational parameter, with $\\mu_{\\oplus}$ for Earth's and $\\mu_{M}$ for the Moon's"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant, distinct from the sail loading $\\sigma_{s}$"
+
+[[symbol]]
+tex = 'v_{c}(r)'
+meaning = "the circular orbital speed around the Sun at distance $r$"
+
+[[symbol]]
+tex = 'v_{\infty}'
+meaning = "the hyperbolic excess speed, the speed that remains far from the body being left or approached"
+
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the local escape speed at the surface or in the parking orbit where a burn takes place"
+
+[[symbol]]
+tex = 'v_{\mathrm{orb}}'
+meaning = "the circular speed of the low orbit at the destination"
+
+[[symbol]]
+tex = 'a'
+meaning = "the semi-major axis of an orbit, except in Equation 9, where it is the acceleration along the track"
+
+[[symbol]]
+tex = 'e'
+meaning = "the eccentricity of an orbit"
+
+[[symbol]]
+tex = 'k'
+meaning = "the exponent fitted to the radial dependence of solar energetic particle events"
+
+[[symbol]]
+tex = 'B'
+meaning = "the ballistic coefficient of a projectile, its mass divided by its drag coefficient and frontal area"
+
+[[symbol]]
+tex = '\Sigma'
+meaning = "the mass of the air column per unit area, the surface pressure divided by surface gravity"
+
+[[symbol]]
+tex = 'R'
+meaning = "Mercury's radius in Equation 7, the mass ratio in Equation 12 and the radius of curvature of the track in Equation 15"
+
+[[symbol]]
+tex = 'I_{\mathrm{sp}}'
+meaning = "the specific impulse of a rocket engine, with standard gravity $g_{0}$"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the efficiency of conversion from sunlight to launch energy or to electricity"
+
+[[symbol]]
+tex = 'A'
+meaning = "the area of a solar collector"
+
+[[symbol]]
+tex = 'L'
+meaning = "the length of the track in Equation 9 and a star's luminosity in solar units in Equations 14 and 24"
+
+[[symbol]]
+tex = 'M'
+meaning = "a star's mass in solar units"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the lightness number of a sail, the ratio of radiation force to solar gravity"
+
+[[symbol]]
+tex = '\sigma_{s}'
+meaning = "the sail's mass per unit area, with $\\sigma^{*}$ the loading at which the lightness number equals one"
+
+[[symbol]]
+tex = 'q'
+meaning = "the perihelion distance of a sail"
+
+[[symbol]]
+tex = 'F_{\max}'
+meaning = "the largest flux a sail tolerates"
+
+[[symbol]]
+tex = 'r_{h}'
+meaning = "the distance of the home base from the Sun, seen by a probe at distance $d$"
+
+[[symbol]]
+tex = '\alpha_{p}'
+meaning = "the absorptance of a solar panel, with $\\varepsilon_{p}$ its emissivity"

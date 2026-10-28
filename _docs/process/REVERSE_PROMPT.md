@@ -4,6 +4,30 @@
 
 ## Last Updated
 
+**Date**: 2026-10-28 (first entry)
+**Task**: **A generated Equations section, classifying each display equation as standard or bespoke, was added to the library and applied to A384. Committed, not pushed, awaiting the pilot's instruction.**
+
+**What was built.** `_lib/equations.py`, also run as `python3 _lib/blog.py equations`, has five commands.
+- `tag` numbers the body's display equations `\tag{1}` to `\tag{N}`, ignoring any inside code fences.
+- `skeleton` prints a data file to fill in.
+- `write` generates `## Equations` immediately before References.
+- `check` reports drift.
+- `stamp` records new equation digests after a changed entry is reviewed.
+
+The section repeats each body equation character for character under its number. A bold title marks an established result and an italic title beginning Bespoke marks a construction made for the analysis. Each entry carries a one-sentence gloss and optional citations, and the section ends with a notation key. The counts in its opening are computed on generation. The data is `_sources/equations/<article>.toml`. The convention is documented in `_docs/writing/EQUATIONS_SECTION.md`.
+
+**Drift check.** `_verify.py` runs it as `equations-drift`, only on posts that carry the section or a data file. It fails on missing or misordered tags, a count mismatch between equations and entries, an equation changed since its entry was written, a citation the body does not already make, a notation symbol found in no equation, and a hand edit to the section.
+
+**A384.** 25 equations, 17 standard and 8 bespoke, with 25 notation entries. The body changed only by the 25 tag lines. The classifications and glosses are judgements for the pilot to review. The least certain are Equation 10, the drag integration, marked bespoke, and Equation 22, the collector area, marked standard.
+
+**Open items.**
+- That MathJax displays `\tag{n}` under the site's configuration is expected from its source but has not been checked in a browser.
+- The section repeats every equation on the page, which adds page weight.
+
+**Verification.** `test_lib.py` 172 of 172, with seven new tests that are mostly negative cases, and `test_sources.py` 91 of 91. `./_check.sh` passed, with `_verify.py` at 0 errors and 0 warnings over 384 posts, a clean production build, and the rendered audit clean over 551 pages.
+
+## Previous Report (2026-10-27, first entry)
+
 **Date**: 2026-10-27 (first entry)
 **Task**: **The repository was synced with `sgeos/project-template`, its GitHub settings put in order, and the template audited. Pushed on the pilot's instruction.**
 

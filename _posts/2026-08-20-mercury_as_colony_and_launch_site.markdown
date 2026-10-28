@@ -109,6 +109,7 @@ S(r) = \frac{S_{0}}{r^{2}}, \qquad
 v_{c}(r) = \sqrt{\frac{\mu}{r}}, \qquad
 \Delta v_{\mathrm{esc}}(r) = \left(\sqrt{2} - 1\right) v_{c}(r), \qquad
 T_{\mathrm{eq}}(r) = \left(\frac{S(r)}{4\,\sigma}\right)^{1/4}
+\tag{1}
 $$
 
 The escape delta-v is the difference between the escape speed $\sqrt{2}\,v_{c}$ and the circular speed $v_{c}$.
@@ -140,6 +141,7 @@ $$
 S_{\mathrm{peri}} = \frac{S_{0}}{\left[a(1-e)\right]^{2}}, \qquad
 S_{\mathrm{aph}} = \frac{S_{0}}{\left[a(1+e)\right]^{2}}, \qquad
 \frac{S_{\mathrm{peri}}}{S_{\mathrm{aph}}} = \left(\frac{1+e}{1-e}\right)^{2}
+\tag{2}
 $$
 The same closeness that supplies the light also places Mercury deepest in the Sun's gravity well.
 Leaving the solar system from a circular orbit at Mercury's distance costs 19.83 kilometres per second,
@@ -165,6 +167,7 @@ $$
 v_{\infty,1} = \left|\sqrt{\mu\left(\frac{2}{r_{1}} - \frac{1}{a}\right)} - \sqrt{\frac{\mu}{r_{1}}}\right|, \qquad
 v_{\infty,2} = \left|\sqrt{\frac{\mu}{r_{2}}} - \sqrt{\mu\left(\frac{2}{r_{2}} - \frac{1}{a}\right)}\right|, \qquad
 t = \pi\sqrt{\frac{a^{3}}{\mu}}
+\tag{3}
 $$
 
 A burn deep in a planet's gravity well converts more efficiently into excess speed than a burn far from it,
@@ -179,6 +182,7 @@ the burns that produce or absorb an excess speed $v_{\infty}$ are the following.
 $$
 \Delta v_{\mathrm{surface}} = \sqrt{v_{\infty}^{2} + v_{e}^{2}}, \qquad
 \Delta v_{\mathrm{orbit}} = \sqrt{v_{\infty}^{2} + v_{e}^{2}} - v_{\mathrm{orb}}
+\tag{4}
 $$
 
 Applying these to a departure from a 300 kilometre low Earth orbit,
@@ -208,6 +212,7 @@ and a propulsive landing that removes $v_{\mathrm{orb}}$ on an airless body.
 
 $$
 \Delta v_{\mathrm{LEO\to surface}} = \left(\sqrt{v_{\infty,1}^{2} + v_{e,\mathrm{LEO}}^{2}} - v_{\mathrm{LEO}}\right) + \left(\sqrt{v_{\infty,2}^{2} + v_{e}^{2}} - v_{\mathrm{orb}}\right) + v_{\mathrm{orb}}
+\tag{5}
 $$
 
 The departure from Earth is moderate,
@@ -261,6 +266,7 @@ where $S$ is the local flux.
 
 $$
 T_{\mathrm{subsolar}} = \left(\frac{S}{\sigma}\right)^{1/4}
+\tag{6}
 $$
 
 This gives 710 K at perihelion and 576 K at aphelion.
@@ -276,6 +282,7 @@ The line between day and night moves across the equator at the following speed.
 
 $$
 v_{\mathrm{terminator}} = \frac{2\pi R}{P_{\mathrm{solar}}} = \frac{2\pi \times 2{,}439.7\ \mathrm{km}}{175.94 \times 24\ \mathrm{h}} \approx 3.63\ \mathrm{km/h}
+\tag{7}
 $$
 
 That is walking pace.
@@ -346,6 +353,7 @@ the factor relative to 1 AU at a distance $r$ in AU is the following.
 
 $$
 \frac{F(r)}{F(1\ \mathrm{AU})} = r^{-k}
+\tag{8}
 $$
 
 They also found that the longitudinal separation between the parent active region and the magnetic footpoint of the spacecraft matters more than distance,
@@ -434,6 +442,7 @@ the track length and the kinetic energy per kilogram are the following.
 $$
 L = \frac{v^{2}}{2a}, \qquad
 \frac{E}{m} = \frac{v^{2}}{2}
+\tag{9}
 $$
 
 Reaching Mercury's escape speed requires a track of 9.21 kilometres at 100 times standard gravity,
@@ -457,6 +466,7 @@ neglecting gravity during the passage through the air and the heating of the pro
 
 $$
 \frac{v_{\mathrm{out}}}{v_{\mathrm{in}}} = \exp\left(-\frac{\Sigma}{2B}\right)
+\tag{10}
 $$
 
 For a dense projectile with $B = 10{,}000$ kilograms per square metre the results are as follows.
@@ -499,6 +509,7 @@ the two-body launch geometry treated in the companion article on mass drivers
 $$
 v_{\mathrm{rel}} = \sqrt{v_{\infty}^{2} + \frac{2\mu_{\oplus}}{a_{M}}} - V_{M}, \qquad
 v_{\mathrm{surface}} = \sqrt{v_{\mathrm{rel}}^{2} + \frac{2\mu_{M}}{R_{M}}}
+\tag{11}
 $$
 
 <div style="overflow-x: auto;" markdown="1">
@@ -534,6 +545,7 @@ the ratio of initial to final mass is the following.
 
 $$
 R = \exp\left(\frac{\Delta v}{g_{0}\, I_{\mathrm{sp}}}\right)
+\tag{12}
 $$
 
 <div style="overflow-x: auto;" markdown="1">
@@ -566,6 +578,7 @@ that collector time per kilogram is the following.
 
 $$
 \frac{A\,t}{m} = \frac{v^{2}}{2\,\eta\,S(r)}
+\tag{13}
 $$
 
 The table applies this to three airless origins and four kinds of launch,
@@ -611,6 +624,7 @@ with $M$ the star's mass.
 
 $$
 \frac{A\,t}{m} \propto \frac{\mu / r}{L / r^{2}} \propto \frac{M\,r}{L}
+\tag{14}
 $$
 
 For escape from a circular orbit around the Sun,
@@ -644,6 +658,7 @@ which for the 20.28 kilometre per second escape from the Sun is 165 metres per s
 
 $$
 a_{n} = \frac{v^{2}}{R} - g
+\tag{15}
 $$
 
 Third,
@@ -663,6 +678,7 @@ with $P_{\mathrm{sid}}$ the sidereal rotation period and $P_{\mathrm{orb}}$ the 
 
 $$
 P_{\mathrm{align}} = \left|\frac{1}{P_{\mathrm{sid}}} - \frac{1}{P_{\mathrm{orb}}}\right|^{-1}
+\tag{16}
 $$
 
 Mercury's rotation period of 58.646 days
@@ -685,6 +701,7 @@ which for orbital periods $P_{1}$ and $P_{2}$ is the following.
 
 $$
 P_{\mathrm{syn}} = \left|\frac{1}{P_{1}} - \frac{1}{P_{2}}\right|^{-1}
+\tag{17}
 $$
 
 <div style="overflow-x: auto;" markdown="1">
@@ -785,6 +802,7 @@ and burns $\Delta v$ there leaves the solar system with the following excess spe
 
 $$
 v_{\infty} = \sqrt{\left(v_{p} + \Delta v\right)^{2} - \frac{2\mu}{r_{p}}}
+\tag{18}
 $$
 
 The perihelion speed is larger when the fall begins farther out,
@@ -847,6 +865,7 @@ the lightness number and the loading at which it equals one are the following.
 $$
 \beta = \frac{L_{\odot}}{2\pi c\,\mu\,\sigma_{s}}, \qquad
 \sigma^{*} = \frac{L_{\odot}}{2\pi c\,\mu} \approx 1.53\ \mathrm{g/m^{2}}
+\tag{19}
 $$
 
 A sail opened on a circular orbit of radius $r_{0}$ feels an effective solar gravity reduced by the factor $1 - \beta$,
@@ -854,6 +873,7 @@ so energy conservation gives the following speed far from the Sun when $\beta > 
 
 $$
 v_{\infty} = v_{c}(r_{0})\sqrt{2\beta - 1}
+\tag{20}
 $$
 
 Opening the sail at Mercury's distance gives $1/\sqrt{0.387} = 1.61$ times the final speed of the same sail opened at Earth's distance,
@@ -904,6 +924,7 @@ $$
 v_{\infty} = \sqrt{\frac{2\beta\mu}{q} - \frac{\mu}{a}}
 \;\longrightarrow\;
 \sqrt{\frac{2\beta\mu}{q}} \quad \text{as} \quad a \to \infty
+\tag{21}
 $$
 
 The ceiling depends only on the sail's lightness number and on the perihelion it can survive.
@@ -1013,6 +1034,7 @@ by the collector area needed for an electrical power $P$ at conversion efficienc
 
 $$
 A = \frac{P}{\eta\,S(r)}
+\tag{22}
 $$
 
 Mercury's vacuum also removes atmospheric absorption and turbulence from the beam path.
@@ -1043,6 +1065,7 @@ where $r_{h}$ is the home's distance from the Sun and $d$ is the probe's distanc
 
 $$
 \theta_{\max} = \arcsin\left(\frac{r_{h}}{d}\right)
+\tag{23}
 $$
 
 Using Mercury's aphelion distance,
@@ -1121,6 +1144,7 @@ where $\sigma_{s}$ is the sail's mass per unit area.
 
 $$
 v_{\mathrm{ceiling}}^{2} = \frac{2\beta G M}{q} = \frac{2}{c\,\sigma_{s}}\sqrt{\frac{F_{\max}\,L}{\pi}}
+\tag{24}
 $$
 
 The stellar mass cancels,
@@ -1236,6 +1260,7 @@ with absorptance $\alpha_{p}$ and emissivity $\varepsilon_{p}$.
 
 $$
 T_{\mathrm{panel}} = \left[\frac{\left(\alpha_{p} - \eta\right) S}{2\,\varepsilon_{p}\,\sigma}\right]^{1/4}
+\tag{25}
 $$
 
 MESSENGER met this problem by interleaving its solar cells with optical solar reflector mirrors at one cell to two mirrors,
@@ -1610,6 +1635,272 @@ and around a star whose innermost planet is a gas giant there is no surface to b
 Self-replicating probes of the kind discussed in an earlier article on this site
 [Von Neumann Probes][related_post_von_neumann_probes]
 would face the same choice of origin.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 25 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 25, 17 are established and 8 are bespoke.
+Each equation takes the units of the section in which it appears, so a distance stated in astronomical units must be converted to metres before it enters a speed, an energy or a temperature.
+
+**Equation 1, Inverse-Square Flux, Circular Speed, Escape Increment and Equilibrium Temperature.**
+Sunlight falls as the inverse square of distance, the circular and escape speeds follow from the Sun's gravitational parameter, and a rapidly rotating black body settles at the temperature at which it radiates what it absorbs.
+
+$$
+S(r) = \frac{S_{0}}{r^{2}}, \qquad
+v_{c}(r) = \sqrt{\frac{\mu}{r}}, \qquad
+\Delta v_{\mathrm{esc}}(r) = \left(\sqrt{2} - 1\right) v_{c}(r), \qquad
+T_{\mathrm{eq}}(r) = \left(\frac{S(r)}{4\,\sigma}\right)^{1/4}
+\tag{1}
+$$
+
+**Equation 2, Perihelion and Aphelion Flux of an Eccentric Orbit.**
+The inverse-square law evaluated at the nearest and farthest points of an ellipse gives the extremes of sunlight and a ratio that depends on the eccentricity alone.
+
+$$
+S_{\mathrm{peri}} = \frac{S_{0}}{\left[a(1-e)\right]^{2}}, \qquad
+S_{\mathrm{aph}} = \frac{S_{0}}{\left[a(1+e)\right]^{2}}, \qquad
+\frac{S_{\mathrm{peri}}}{S_{\mathrm{aph}}} = \left(\frac{1+e}{1-e}\right)^{2}
+\tag{2}
+$$
+
+**Equation 3, Hohmann Transfer Excess Speeds and Flight Time.**
+The vis-viva equation gives the speed on the transfer ellipse at each end, its difference from the circular speed there is the excess speed, and half the period of the ellipse is the flight time.
+[Hohmann Transfer Orbit][ref_hohmann_transfer_orbit]
+
+$$
+v_{\infty,1} = \left|\sqrt{\mu\left(\frac{2}{r_{1}} - \frac{1}{a}\right)} - \sqrt{\frac{\mu}{r_{1}}}\right|, \qquad
+v_{\infty,2} = \left|\sqrt{\frac{\mu}{r_{2}}} - \sqrt{\mu\left(\frac{2}{r_{2}} - \frac{1}{a}\right)}\right|, \qquad
+t = \pi\sqrt{\frac{a^{3}}{\mu}}
+\tag{3}
+$$
+
+**Equation 4, Departure and Capture Burns Deep in a Gravity Well.**
+Energy conservation between the burn point and a great distance gives the burn that produces or absorbs an excess speed, which is the Oberth effect in the form used by the companion article.
+[Oberth Effect][ref_oberth_effect]
+[Orbital Manoeuvres in Terms of Delta-v, Departure][related_post_orbital_manoeuvres_departure]
+
+$$
+\Delta v_{\mathrm{surface}} = \sqrt{v_{\infty}^{2} + v_{e}^{2}}, \qquad
+\Delta v_{\mathrm{orbit}} = \sqrt{v_{\infty}^{2} + v_{e}^{2}} - v_{\mathrm{orb}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Delta-v Budget from Low Earth Orbit to a Landing.*
+The budget sums a departure from low Earth orbit, a capture into a low circular orbit at the destination and a propulsive landing that removes the whole orbital speed, which assumes an airless body and no losses.
+[Delta-v Budget][ref_delta_v_budget]
+
+$$
+\Delta v_{\mathrm{LEO\to surface}} = \left(\sqrt{v_{\infty,1}^{2} + v_{e,\mathrm{LEO}}^{2}} - v_{\mathrm{LEO}}\right) + \left(\sqrt{v_{\infty,2}^{2} + v_{e}^{2}} - v_{\mathrm{orb}}\right) + v_{\mathrm{orb}}
+\tag{5}
+$$
+
+**Equation 6, Subsolar Temperature of a Black Surface.**
+A black surface facing the Sun that conducts no heat downward radiates from one face at the rate it absorbs sunlight.
+
+$$
+T_{\mathrm{subsolar}} = \left(\frac{S}{\sigma}\right)^{1/4}
+\tag{6}
+$$
+
+**Equation 7, Speed of the Terminator at the Equator.**
+The line between day and night crosses the equatorial circumference once per solar day.
+
+$$
+v_{\mathrm{terminator}} = \frac{2\pi R}{P_{\mathrm{solar}}} = \frac{2\pi \times 2{,}439.7\ \mathrm{km}}{175.94 \times 24\ \mathrm{h}} \approx 3.63\ \mathrm{km/h}
+\tag{7}
+$$
+
+**Equation 8, Radial Power-Law Scaling of Solar Energetic Particle Events.**
+Fluences and peak intensities of solar proton events are fitted as a power of heliocentric distance, so the factor relative to 1 AU depends on the fitted exponent alone.
+[Lario et al. 2006][research_lario_et_al_2006]
+
+$$
+\frac{F(r)}{F(1\ \mathrm{AU})} = r^{-k}
+\tag{8}
+$$
+
+**Equation 9, Track Length and Launch Energy at Constant Acceleration.**
+Constant acceleration to a final speed fixes the length of the track, and the kinetic energy delivered to each kilogram is half the square of that speed.
+[Mass Driver][ref_mass_driver]
+
+$$
+L = \frac{v^{2}}{2a}, \qquad
+\frac{E}{m} = \frac{v^{2}}{2}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Speed Retained Through an Atmospheric Column.*
+Integrating the drag law for a vertical exit over the whole air column gives an exponential loss of speed, under the stated neglect of gravity and heating during the passage.
+
+$$
+\frac{v_{\mathrm{out}}}{v_{\mathrm{in}}} = \exp\left(-\frac{\Sigma}{2B}\right)
+\tag{10}
+$$
+
+*Equation 11, Bespoke Lunar Departure Through Earth's Gravity Well.*
+The excess speed relative to Earth is carried in to the Moon's orbital radius, the Moon's orbital speed is credited in full, and the remainder is carried down to the lunar surface, which assumes a departure along the Moon's direction of motion.
+[Mass Drivers, From the Launching Body to the Parent][related_post_mass_drivers_parent]
+
+$$
+v_{\mathrm{rel}} = \sqrt{v_{\infty}^{2} + \frac{2\mu_{\oplus}}{a_{M}}} - V_{M}, \qquad
+v_{\mathrm{surface}} = \sqrt{v_{\mathrm{rel}}^{2} + \frac{2\mu_{M}}{R_{M}}}
+\tag{11}
+$$
+
+**Equation 12, Tsiolkovsky Rocket Equation.**
+The ratio of initial to final mass grows exponentially with the delta-v measured in units of the exhaust speed.
+[Tsiolkovsky Rocket Equation][ref_tsiolkovsky_rocket_equation]
+[Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
+
+$$
+R = \exp\left(\frac{\Delta v}{g_{0}\, I_{\mathrm{sp}}}\right)
+\tag{12}
+$$
+
+*Equation 13, Bespoke Collector Time per Kilogram Launched.*
+The launch energy per kilogram divided by the electrical power each square metre of collector supplies gives a figure of merit in square metre hours per kilogram, which the article introduces to compare launch sites powered by local sunlight.
+
+$$
+\frac{A\,t}{m} = \frac{v^{2}}{2\,\eta\,S(r)}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Scaling of Collector Time with Stellar Mass and Distance.*
+When the launch energy scales with the orbital term and the sunlight with the inverse square of distance, the collector time grows with the star's mass and the distance and falls with its luminosity.
+
+$$
+\frac{A\,t}{m} \propto \frac{\mu / r}{L / r^{2}} \propto \frac{M\,r}{L}
+\tag{14}
+$$
+
+**Equation 15, Normal Acceleration on a Curved Track.**
+A payload moving along a track that curves with the planet's surface needs the centripetal acceleration less local gravity to hold it down.
+[Mass Drivers, The Curvature Limit][related_post_mass_drivers_curvature]
+
+$$
+a_{n} = \frac{v^{2}}{R} - g
+\tag{15}
+$$
+
+**Equation 16, Rotation Relative to the Direction of Orbital Motion.**
+A body spinning in the same sense as it orbits turns relative to its direction of motion at the difference of the two rates, which sets how often a fixed track points along a given heading.
+
+$$
+P_{\mathrm{align}} = \left|\frac{1}{P_{\mathrm{sid}}} - \frac{1}{P_{\mathrm{orb}}}\right|^{-1}
+\tag{16}
+$$
+
+**Equation 17, Synodic Period.**
+Two bodies on circular orbits return to the same relative alignment at the reciprocal of the difference of their orbital rates.
+
+$$
+P_{\mathrm{syn}} = \left|\frac{1}{P_{1}} - \frac{1}{P_{2}}\right|^{-1}
+\tag{17}
+$$
+
+**Equation 18, Solar Oberth Manoeuvre.**
+A burn at perihelion adds to a speed that is already large, and energy conservation from perihelion to a great distance gives the resulting excess speed.
+[Oberth Effect][ref_oberth_effect]
+
+$$
+v_{\infty} = \sqrt{\left(v_{p} + \Delta v\right)^{2} - \frac{2\mu}{r_{p}}}
+\tag{18}
+$$
+
+**Equation 19, Lightness Number and Critical Sail Loading.**
+The ratio of radiation force to solar gravity on a perfectly reflecting sail facing the Sun is independent of distance and equals one at a characteristic mass per unit area.
+[Solar Sail][ref_solar_sail]
+[Solar Sailing, Lightness Number for Any Star][related_post_solar_sailing_lightness]
+
+$$
+\beta = \frac{L_{\odot}}{2\pi c\,\mu\,\sigma_{s}}, \qquad
+\sigma^{*} = \frac{L_{\odot}}{2\pi c\,\mu} \approx 1.53\ \mathrm{g/m^{2}}
+\tag{19}
+$$
+
+**Equation 20, Escape Speed of a Sail Opened on a Circular Orbit.**
+Opening the sail reduces the effective solar gravity by the factor one minus the lightness number, and energy conservation then gives the speed far from the Sun.
+[Solar Sail][ref_solar_sail]
+
+$$
+v_{\infty} = v_{c}(r_{0})\sqrt{2\beta - 1}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Ceiling on a Pumped Sail Orbit.*
+A sail that falls to a perihelion and turns face-on there leaves with an excess speed that rises toward a ceiling as the orbit is pumped toward escape, a simple reference case the article constructs for the repeated-pass strategy.
+
+$$
+v_{\infty} = \sqrt{\frac{2\beta\mu}{q} - \frac{\mu}{a}}
+\;\longrightarrow\;
+\sqrt{\frac{2\beta\mu}{q}} \quad \text{as} \quad a \to \infty
+\tag{21}
+$$
+
+**Equation 22, Collector Area for an Electrical Power.**
+The collector area is the electrical power divided by the electrical yield of each square metre, which is the conversion efficiency times the local flux.
+
+$$
+A = \frac{P}{\eta\,S(r)}
+\tag{22}
+$$
+
+**Equation 23, Maximum Elongation of an Inner Body.**
+A body on a circular orbit seen from a greater distance never appears farther from the Sun than the angle whose sine is the ratio of the two distances.
+
+$$
+\theta_{\max} = \arcsin\left(\frac{r_{h}}{d}\right)
+\tag{23}
+$$
+
+*Equation 24, Bespoke Sail Speed Ceiling Around Another Star.*
+Setting the closest perihelion by the largest flux the sail tolerates and writing the lightness number in terms of the star's luminosity cancels the stellar mass from the ceiling of Equation 21.
+
+$$
+v_{\mathrm{ceiling}}^{2} = \frac{2\beta G M}{q} = \frac{2}{c\,\sigma_{s}}\sqrt{\frac{F_{\max}\,L}{\pi}}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Temperature of a Two-Sided Panel.*
+Absorbed sunlight less the fraction converted to electricity is balanced against emission from both faces, a simple model that ignores conduction and the panel's tilt.
+
+$$
+T_{\mathrm{panel}} = \left[\frac{\left(\alpha_{p} - \eta\right) S}{2\,\varepsilon_{p}\,\sigma}\right]^{1/4}
+\tag{25}
+$$
+
+### Notation
+
+- $S(r)$, the flux of sunlight at distance $r$ from the Sun, written $S$ where the distance is understood
+- $S_{0}$, the solar constant, the flux of sunlight at 1 AU
+- $\mu$, the Sun's gravitational parameter, with $\mu_{\oplus}$ for Earth's and $\mu_{M}$ for the Moon's
+- $\sigma$, the Stefan-Boltzmann constant, distinct from the sail loading $\sigma_{s}$
+- $v_{c}(r)$, the circular orbital speed around the Sun at distance $r$
+- $v_{\infty}$, the hyperbolic excess speed, the speed that remains far from the body being left or approached
+- $v_{e}$, the local escape speed at the surface or in the parking orbit where a burn takes place
+- $v_{\mathrm{orb}}$, the circular speed of the low orbit at the destination
+- $a$, the semi-major axis of an orbit, except in Equation 9, where it is the acceleration along the track
+- $e$, the eccentricity of an orbit
+- $k$, the exponent fitted to the radial dependence of solar energetic particle events
+- $B$, the ballistic coefficient of a projectile, its mass divided by its drag coefficient and frontal area
+- $\Sigma$, the mass of the air column per unit area, the surface pressure divided by surface gravity
+- $R$, Mercury's radius in Equation 7, the mass ratio in Equation 12 and the radius of curvature of the track in Equation 15
+- $I_{\mathrm{sp}}$, the specific impulse of a rocket engine, with standard gravity $g_{0}$
+- $\eta$, the efficiency of conversion from sunlight to launch energy or to electricity
+- $A$, the area of a solar collector
+- $L$, the length of the track in Equation 9 and a star's luminosity in solar units in Equations 14 and 24
+- $M$, a star's mass in solar units
+- $\beta$, the lightness number of a sail, the ratio of radiation force to solar gravity
+- $\sigma_{s}$, the sail's mass per unit area, with $\sigma^{*}$ the loading at which the lightness number equals one
+- $q$, the perihelion distance of a sail
+- $F_{\max}$, the largest flux a sail tolerates
+- $r_{h}$, the distance of the home base from the Sun, seen by a probe at distance $d$
+- $\alpha_{p}$, the absorptance of a solar panel, with $\varepsilon_{p}$ its emissivity
 
 ## References
 

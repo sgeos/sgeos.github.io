@@ -28,6 +28,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "_li
 import progress  # noqa: E402
 import survey  # noqa: E402
 import sources  # noqa: E402
+import equations  # noqa: E402
 
 POSTS = "_posts"
 DRAFTS = "_drafts"
@@ -365,6 +366,13 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
     if sources.MARKER in text:
         for problem in sources.check_article(path):
             rep.error("sources-drift", f"{name}: {problem}")
+
+    # A generated Equations section must reproduce the body's display equations
+    # exactly, and its classification data must still describe them. A post that
+    # carries neither the section nor a `_sources/equations/` file is not checked.
+    # See _docs/writing/EQUATIONS_SECTION.md.
+    for problem in equations.check_article(path, text):
+        rep.error("equations-drift", f"{name}: {problem}")
 
     # kramdown reads a paragraph whose FIRST line contains `|` as a table, so
     # inline math carrying a cardinality bar such as `$|S| = 39$` at the start

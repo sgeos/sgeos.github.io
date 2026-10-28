@@ -42,6 +42,7 @@ article-specific content alone.
 | `sources_import.py` | Draft source records from Crossref, pinned Wikipedia revisions and related posts, review them against the article's legacy labels with second opinions from OpenAlex and saved wikitext, and import a whole post from a TOML decision file, merging by source identity | hand-typed reference labels, the A384 prototype scripts |
 | `sources_resolve.py` | Resolution of links that are not DOIs, publisher pages, JSTOR, arXiv, PIIs, ISBNs, proceedings sites and searches, to registry records that agree with the article's label, with the label parser for every legacy form | per-batch page-reading agents, `tmp/web/meta*.json` |
 | `diction.py` | Word, phrase, sentence-opener, construction-shape and creep measurements against the published corpus, with collocation and keyword-in-context evidence | 4 `diction.py`, `wordcheck`, `phrases`, `corpus_tics`, `series_words`, `series_phrases`, `tics`, `ngram_diff`, `words_count` |
+| `equations.py` | Body equation tagging, the generated Equations section classified as standard or bespoke, and its drift check. See `_docs/writing/EQUATIONS_SECTION.md` | |
 | `audit.py` | Equation gaps, citation gaps, thin sections, primary count and fraction | 13 `ref_audit`, 8 `eqn_scan` |
 | `numcheck.py` | Harness for re-deriving stated values independently, and a claims runner that recomputes every number a claims file names, reads it from the prose and proves each check can fail | 18 `verify_numbers`, the print-only `numbers.py` of A378 to A384 |
 | `campaign.py` | The strategy of the corpus campaigns: targets, stages that propose changes, gates before and after, snapshots, a resumable ledger, seeded sampling with Wilson escalation, strict verdict files, quote relocation and mutation checks | the fix5, fix6, retrofit, audit, cite, word and decide passes |
@@ -122,6 +123,7 @@ own command line is the same command, so `python3 _lib/edits.py apply ...` also 
 | `python3 _lib/sources_import.py credit-venues` | `_sources/publishers.toml`, publishers' own statements of peer review, with quotes |
 | `python3 _lib/sources_resolve.py plan`, `fetch STEP`, `explain` and `normalise` | Posts; caches under `tmp/sources/` for PIIs, DataCite, ISBNs, searches, proceedings indexes and pages |
 | `python3 _lib/sources.py fix-labels POST` and `diff-labels PRE POST` | The article and its map in `_sources/articles/`, including link text that is not a label |
+| `python3 _lib/equations.py tag POST`, `skeleton`, `write`, `check` and `stamp` | The post and `_sources/equations/<article>.toml`, the titles, classes, glosses and digests |
 | `python3 _lib/textscan.py ctx FILE REGEX` and `strip-wikitext` | A saved source file |
 | `python3 _lib/numcheck.py check CLAIMS.py [--inject]` | A claims file, one `Claim` per stated number, with its computation |
 | `python3 _lib/campaign.py status FILE` and `run FILE [--apply]` | A campaign file whose stages and gates are functions |

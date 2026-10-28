@@ -18,6 +18,7 @@ belong to the reference surveys of A297 to A373. Sources the articles share are 
 | `records/<c>.jsonl` | Source records, one JSON object per line, sorted by anchor. `<c>` is the first character of the anchor after any legacy prefix such as `research_` or `ref_` |
 | `venues.jsonl` | Whether each journal or proceedings referees full papers, with the basis and the evidence read |
 | `decisions/<article>.toml` | The human decisions made when an article was imported, read by `sources_import.py import` |
+| `equations/<article>.toml` | The classification of an article's display equations as standard or bespoke, with titles, glosses and digests, read by `_lib/equations.py`. See `_docs/writing/EQUATIONS_SECTION.md` |
 | `articles/<post stem>.json` | For an article that names a source differently from the store, its names mapped to canonical anchors |
 | `articles/<post stem>.links.json` | Link text in an article that is not a citation label, left alone by `fix-labels` |
 | `articles/<post stem>.listed.json` | Works the article's reference list names and its prose does not cite, kept in the generated list. Written by the import from the legacy list |
