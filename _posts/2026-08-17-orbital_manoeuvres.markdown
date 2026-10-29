@@ -75,6 +75,7 @@ the speed $v$ at distance $r$ on an orbit of semi-major axis $a$ is given by the
 
 $$
 v^{2} = \mu\left(\frac{2}{r} - \frac{1}{a}\right)
+\tag{1}
 $$
 
 Setting $a = r$ gives the circular speed,
@@ -83,6 +84,7 @@ and letting $a$ grow without bound gives the escape speed.
 $$
 v_{c} = \sqrt{\frac{\mu}{r}}, \qquad
 v_{\mathrm{esc}} = \sqrt{\frac{2\mu}{r}} = \sqrt{2}\,v_{c}
+\tag{2}
 $$
 
 In a circular low Earth orbit,
@@ -106,6 +108,7 @@ $$
 \varepsilon = \frac{v^{2}}{2} - \frac{\mu}{r} = -\frac{\mu}{2a}, \qquad
 h = r\,v\cos\gamma, \qquad
 T = 2\pi\sqrt{\frac{a^{3}}{\mu}}
+\tag{3}
 $$
 
 The periods of 90.5 minutes and 23.934 hours above come from the last of these.
@@ -124,6 +127,7 @@ and integrating from an initial mass $m_{0}$ to a final mass $m_{f}$ gives the f
 $$
 \Delta v = v_{e}\ln\frac{m_{0}}{m_{f}}, \qquad
 \frac{m_{0}}{m_{f}} = \exp\left(\frac{\Delta v}{v_{e}}\right)
+\tag{4}
 $$
 
 The equation is named after Konstantin Tsiolkovsky,
@@ -166,6 +170,7 @@ as in the last column of the table.
 $$
 v_{e} = g_{0}\,I_{\mathrm{sp}}, \qquad
 \frac{m_{p}}{m_{0}} = 1 - \exp\left(-\frac{\Delta v}{v_{e}}\right)
+\tag{5}
 $$
 
 ### Staging
@@ -181,6 +186,7 @@ A single stage carrying no payload then reaches at most the following.
 
 $$
 \Delta v_{\max} = v_{e}\ln\frac{1}{\varepsilon}
+\tag{6}
 $$
 
 With $v_{e} = 3.5$ kilometres per second,
@@ -207,6 +213,7 @@ the payload fraction of the whole vehicle is the following.
 
 $$
 \frac{m_{\mathrm{payload}}}{m_{0}} = \left[\frac{e^{-\Delta v/(N v_{e})} - \varepsilon}{1 - \varepsilon}\right]^{N}
+\tag{7}
 $$
 
 The table applies this to a delta-v of 9.4 kilometres per second with the same assumptions.
@@ -237,6 +244,7 @@ and the following result replaces the rocket equation.
 
 $$
 \Delta v = v_{e}\,(1-\varepsilon)\ln\frac{m_{0}}{m_{f}}
+\tag{8}
 $$
 
 Continuous shedding behaves like a single stage with no structure at a reduced exhaust speed $(1-\varepsilon)v_{e}$.
@@ -263,6 +271,7 @@ which exceeds the single-burn value $v_{e}\ln(m_{0}/(m_{f}+m_{d}))$ obtained by 
 
 $$
 \Delta v = v_{e}\ln\frac{m_{0}}{m_{1}} + v_{e}\ln\frac{m_{1} - m_{d}}{m_{f}}
+\tag{9}
 $$
 
 ### Losses
@@ -282,6 +291,7 @@ which for a vertical climb at constant gravity reduces to $g\,t_{b}$.
 
 $$
 \Delta v_{g} = \int_{0}^{t_{b}} g\sin\gamma\,dt
+\tag{10}
 $$
 
 The launch budget of 9.3 to 10 kilometres per second to low Earth orbit exceeds the circular speed of 7.73 by 1.57 to 2.27,
@@ -303,6 +313,7 @@ the vis-viva equation gives the following.
 
 $$
 \Delta v = \sqrt{\mu\left(\frac{2}{r_{1}} - \frac{1}{a'}\right)} - \sqrt{\mu\left(\frac{2}{r_{1}} - \frac{1}{a}\right)}
+\tag{11}
 $$
 
 Circularization is the special case that sets $a' = r_{1}$,
@@ -316,6 +327,7 @@ which for an unchanged speed $v$ is the following.
 
 $$
 \Delta v = 2v\sin\frac{\Delta i}{2}
+\tag{12}
 $$
 
 The cost is proportional to speed,
@@ -340,6 +352,7 @@ a burn at true anomaly $f$ that changes the inclination by $\Delta i$ costs the 
 
 $$
 \Delta v_{i} = \frac{2\sin\left(\Delta i/2\right)\left(1 + e\cos f\right) n\,a}{\sqrt{1 - e^{2}}\,\cos\left(\omega + f\right)}
+\tag{13}
 $$
 
 For a circular orbit this reduces to $2v\sin(\Delta i/2)$.
@@ -352,6 +365,7 @@ given by the law of cosines.
 
 $$
 \Delta v = \sqrt{v_{1}^{2} + v_{2}^{2} - 2 v_{1} v_{2}\cos\Delta i}
+\tag{14}
 $$
 
 This is always less than doing the speed change and the plane change separately,
@@ -372,6 +386,7 @@ $$
 \Delta v_{1} = \sqrt{\frac{\mu}{r_{1}}}\left(\sqrt{\frac{2 r_{2}}{r_{1}+r_{2}}} - 1\right), \qquad
 \Delta v_{2} = \sqrt{\frac{\mu}{r_{2}}}\left(1 - \sqrt{\frac{2 r_{1}}{r_{1}+r_{2}}}\right), \qquad
 t = \pi\sqrt{\frac{a_{t}^{3}}{\mu}}
+\tag{15}
 $$
 
 From the 300 kilometre orbit to geostationary orbit in the same plane,
@@ -403,6 +418,7 @@ the normalized cost and the condition for its maximum are the following.
 $$
 \frac{\Delta v_{H}}{v_{1}} = \sqrt{\frac{2R}{1+R}} - 1 + \frac{1}{\sqrt{R}} - \sqrt{\frac{2}{R\,(1+R)}}, \qquad
 R^{3} - 15R^{2} - 9R - 1 = 0 \ \text{at the maximum}
+\tag{16}
 $$
 
 ### General Two-Impulse Transfers and Lambert's Problem
@@ -458,6 +474,7 @@ $$
 \Delta v_{1} = \sqrt{\mu\left(\frac{2}{r_{1}} - \frac{1}{a_{1}}\right)} - \sqrt{\frac{\mu}{r_{1}}}, \quad
 \Delta v_{2} = \sqrt{\mu\left(\frac{2}{r_{b}} - \frac{1}{a_{2}}\right)} - \sqrt{\mu\left(\frac{2}{r_{b}} - \frac{1}{a_{1}}\right)}, \quad
 \Delta v_{3} = \sqrt{\mu\left(\frac{2}{r_{2}} - \frac{1}{a_{2}}\right)} - \sqrt{\frac{\mu}{r_{2}}}
+\tag{17}
 $$
 
 The second burn is cheap because it happens far out,
@@ -467,6 +484,7 @@ and its total cost in units of $v_{1}$ is the following.
 
 $$
 \frac{\Delta v_{\mathrm{biparabolic}}}{v_{1}} = \left(\sqrt{2} - 1\right)\left(1 + \frac{1}{\sqrt{R}}\right)
+\tag{18}
 $$
 
 Bisecting for the ratio at which this equals the Hohmann cost gives $R = 11.939$.
@@ -498,6 +516,7 @@ which grows quickly with the intermediate radius.
 
 $$
 t_{\mathrm{bi}} = \pi\sqrt{\frac{a_{1}^{3}}{\mu}} + \pi\sqrt{\frac{a_{2}^{3}}{\mu}}
+\tag{19}
 $$
 
 That tradeoff is why the bi-elliptic transfer is a textbook staple and a rarity in practice.
@@ -567,6 +586,7 @@ where $T$ is the period of the original orbit.
 
 $$
 T_{\mathrm{ph}} = T\left(1 - \frac{\theta}{2\pi k}\right)
+\tag{20}
 $$
 
 A target ahead needs a smaller and faster phasing orbit,
@@ -586,7 +606,9 @@ the total cost is twice the speed difference there.
 $$
 a_{\mathrm{ph}} = \left[\mu\left(\frac{T_{\mathrm{ph}}}{2\pi}\right)^{2}\right]^{1/3}, \qquad
 \Delta v_{\mathrm{ph}} = 2\left|v_{c} - \sqrt{\mu\left(\frac{2}{r} - \frac{1}{a_{\mathrm{ph}}}\right)}\right|
+\tag{21}
 $$
+
 Phasing trades time for delta-v,
 and the trade is often forced by the planet's surface or atmosphere.
 
@@ -614,6 +636,7 @@ $$
 \ddot{x} - 3n^{2}x - 2n\dot{y} = 0, \qquad
 \ddot{y} + 2n\dot{x} = 0, \qquad
 \ddot{z} + n^{2}z = 0
+\tag{22}
 $$
 
 They explain the counterintuitive behaviour of orbital rendezvous.
@@ -627,6 +650,7 @@ and over one period $2\pi/n$ the along-track separation $\Delta y$ grows as foll
 $$
 \Delta n = -\frac{3}{2}\,n\,\frac{\Delta r}{r}, \qquad
 \Delta y_{\mathrm{orbit}} = -3\pi\,\Delta r
+\tag{23}
 $$
 
 Thrusting toward a target raises the chaser's orbit and makes it fall behind.
@@ -645,6 +669,7 @@ A single burn in a circular parking orbit of radius $r$ provides it at the follo
 
 $$
 \Delta v = \sqrt{v_{\infty}^{2} + \frac{2\mu}{r}} - \sqrt{\frac{\mu}{r}}
+\tag{24}
 $$
 
 Leaving the 300 kilometre orbit with an excess of 2.94 kilometres per second,
@@ -665,6 +690,7 @@ The reason is the following identity for the change in kinetic energy per unit m
 
 $$
 \Delta\left(\frac{v^{2}}{2}\right) = v\,\Delta v + \frac{\Delta v^{2}}{2}
+\tag{25}
 $$
 
 A burn of 1 kilometre per second at the low orbit's 7.726 kilometres per second adds 8.23 megajoules per kilogram,
@@ -685,6 +711,7 @@ where the cost is also given.
 $$
 r_{p,\mathrm{opt}} = \frac{2\mu}{v_{\infty}^{2}}\,\frac{1-e}{1+e}, \qquad
 \Delta v_{\min} = v_{\infty}\sqrt{\frac{1-e}{2}}
+\tag{26}
 $$
 
 For Mars,
@@ -726,6 +753,7 @@ $$
 r_{\mathrm{SOI}} \approx a\left(\frac{m}{M}\right)^{2/5}, \qquad
 T_{\mathrm{syn}} = \left|\frac{1}{T_{1}} - \frac{1}{T_{2}}\right|^{-1}, \qquad
 \theta_{H} = \pi\left[1 - \left(\frac{r_{1}+r_{2}}{2r_{2}}\right)^{3/2}\right]
+\tag{27}
 $$
 
 For Mars the sphere of influence is about 577,000 kilometres,
@@ -745,6 +773,7 @@ For a flyby with periapsis radius $r_{p}$ the turn angle $\delta$ and the result
 $$
 \sin\frac{\delta}{2} = \frac{1}{1 + r_{p}v_{\infty}^{2}/\mu}, \qquad
 \left|\Delta\vec{v}\right| = 2v_{\infty}\sin\frac{\delta}{2}
+\tag{28}
 $$
 
 <div style="overflow-x: auto;" markdown="1">
@@ -768,6 +797,7 @@ the outgoing excess speed is the following.
 $$
 v_{p} = \sqrt{v_{\infty}^{2} + \frac{2\mu}{r_{p}}}, \qquad
 v_{\infty,\mathrm{out}} = \sqrt{\left(v_{p} + \Delta v\right)^{2} - \frac{2\mu}{r_{p}}}
+\tag{29}
 $$
 
 At Jupiter with a periapsis at 2 Jupiter radii,
@@ -787,6 +817,7 @@ and the delta-v for the whole spiral is simply the difference of circular speeds
 
 $$
 \Delta v_{\mathrm{spiral}} = \left|v_{c1} - v_{c2}\right|
+\tag{30}
 $$
 
 From the 300 kilometre orbit to geostationary orbit this is 4.651 kilometres per second,
@@ -799,6 +830,7 @@ which for 1 millimetre per second squared from the low orbit to geostationary or
 
 $$
 t_{\mathrm{spiral}} = \frac{\left|v_{c1} - v_{c2}\right|}{a}
+\tag{31}
 $$
 
 Edelbaum found minimum-fuel manoeuvres for high and low thrust,
@@ -1105,6 +1137,331 @@ sails,
 mass drivers
 and gravity assists.
 
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 31 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 31, 29 are established and 2 are bespoke.
+The worked numbers state speeds in kilometres per second and distances in kilometres, so the gravitational parameter must be expressed in matching units, and every delta-v assumes an instantaneous burn without losses unless the equation itself integrates over the burn.
+
+**Equation 1, Vis-Viva Equation.**
+Conservation of energy on a conic orbit fixes the speed at any distance from the semi-major axis and the gravitational parameter alone.
+[Vis-viva Equation][ref_vis_viva_equation]
+
+$$
+v^{2} = \mu\left(\frac{2}{r} - \frac{1}{a}\right)
+\tag{1}
+$$
+
+**Equation 2, Circular and Escape Speeds.**
+Setting the semi-major axis equal to the radius gives the circular speed, and letting it grow without bound gives an escape speed larger by the square root of two.
+
+$$
+v_{c} = \sqrt{\frac{\mu}{r}}, \qquad
+v_{\mathrm{esc}} = \sqrt{\frac{2\mu}{r}} = \sqrt{2}\,v_{c}
+\tag{2}
+$$
+
+**Equation 3, Specific Orbital Energy, Angular Momentum and Period.**
+The specific energy depends on the semi-major axis alone, the specific angular momentum on the speed and flight path angle, and the period on the semi-major axis alone.
+
+$$
+\varepsilon = \frac{v^{2}}{2} - \frac{\mu}{r} = -\frac{\mu}{2a}, \qquad
+h = r\,v\cos\gamma, \qquad
+T = 2\pi\sqrt{\frac{a^{3}}{\mu}}
+\tag{3}
+$$
+
+**Equation 4, Tsiolkovsky Rocket Equation.**
+The ratio of initial to final mass grows exponentially with the delta-v measured in units of the exhaust speed.
+[Tsiolkovsky Rocket Equation][ref_tsiolkovsky_rocket_equation]
+
+$$
+\Delta v = v_{e}\ln\frac{m_{0}}{m_{f}}, \qquad
+\frac{m_{0}}{m_{f}} = \exp\left(\frac{\Delta v}{v_{e}}\right)
+\tag{4}
+$$
+
+**Equation 5, Exhaust Speed from Specific Impulse and the Propellant Fraction.**
+The exhaust speed is the specific impulse times standard gravity, and the fraction of the starting mass that is propellant follows from the mass ratio of the rocket equation.
+
+$$
+v_{e} = g_{0}\,I_{\mathrm{sp}}, \qquad
+\frac{m_{p}}{m_{0}} = 1 - \exp\left(-\frac{\Delta v}{v_{e}}\right)
+\tag{5}
+$$
+
+**Equation 6, Delta-v Limit of a Single Stage Without Payload.**
+A stage that carries no payload ends its burn with only its structure, so the structural ratio caps the mass ratio and therefore the delta-v.
+[Multistage Rocket][ref_multistage_rocket]
+
+$$
+\Delta v_{\max} = v_{e}\ln\frac{1}{\varepsilon}
+\tag{6}
+$$
+
+**Equation 7, Payload Fraction of Identical Stages.**
+Stages of equal exhaust speed and structural ratio that share the total delta-v equally each contribute the same factor, so the payload fraction is that factor raised to the number of stages.
+[Multistage Rocket][ref_multistage_rocket]
+
+$$
+\frac{m_{\mathrm{payload}}}{m_{0}} = \left[\frac{e^{-\Delta v/(N v_{e})} - \varepsilon}{1 - \varepsilon}\right]^{N}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Rocket Equation with Continuous Shedding of Structure.*
+Dropping structure continuously in a fixed proportion to the propellant burned reduces the effective exhaust speed by the factor one minus the structural ratio, which is the limit of infinitely many stages under the stated assumption.
+
+$$
+\Delta v = v_{e}\,(1-\varepsilon)\ln\frac{m_{0}}{m_{f}}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Delta-v of Two Burns Separated by a Mass Drop.*
+The rocket equation applied to a burn, the release of a dead mass and a second burn shows that shedding mass adds delta-v only through the later burn.
+
+$$
+\Delta v = v_{e}\ln\frac{m_{0}}{m_{1}} + v_{e}\ln\frac{m_{1} - m_{d}}{m_{f}}
+\tag{9}
+$$
+
+**Equation 10, Gravity Loss During a Finite Burn.**
+The component of gravity along the flight path, integrated over the burn, is the delta-v spent holding the vehicle up rather than accelerating it.
+[Gravity Loss][ref_gravity_loss]
+
+$$
+\Delta v_{g} = \int_{0}^{t_{b}} g\sin\gamma\,dt
+\tag{10}
+$$
+
+**Equation 11, Single Burn to Raise or Lower the Opposite Apsis.**
+The vis-viva equation evaluated before and after a burn at a fixed radius gives the change in speed that moves the orbit from one semi-major axis to another.
+
+$$
+\Delta v = \sqrt{\mu\left(\frac{2}{r_{1}} - \frac{1}{a'}\right)} - \sqrt{\mu\left(\frac{2}{r_{1}} - \frac{1}{a}\right)}
+\tag{11}
+$$
+
+**Equation 12, Plane Change at Constant Speed.**
+Rotating a velocity vector of unchanged magnitude through the plane change angle costs the chord of that rotation, which is proportional to the speed.
+[Orbital Inclination Change][ref_orbital_inclination_change]
+
+$$
+\Delta v = 2v\sin\frac{\Delta i}{2}
+\tag{12}
+$$
+
+**Equation 13, Plane Change on an Elliptical Orbit.**
+The cost of an inclination change at a node of an elliptical orbit depends on the eccentricity, the true anomaly and the argument of periapsis, and it reduces to the circular case when the eccentricity vanishes.
+[Orbital Inclination Change][ref_orbital_inclination_change]
+
+$$
+\Delta v_{i} = \frac{2\sin\left(\Delta i/2\right)\left(1 + e\cos f\right) n\,a}{\sqrt{1 - e^{2}}\,\cos\left(\omega + f\right)}
+\tag{13}
+$$
+
+**Equation 14, Combined Plane and Speed Change.**
+The law of cosines gives the magnitude of the vector difference between the velocities before and after a burn that changes both speed and direction.
+[Geostationary Transfer Orbit][ref_geostationary_transfer_orbit]
+
+$$
+\Delta v = \sqrt{v_{1}^{2} + v_{2}^{2} - 2 v_{1} v_{2}\cos\Delta i}
+\tag{14}
+$$
+
+**Equation 15, Hohmann Transfer Burns and Flight Time.**
+An ellipse tangent to two coplanar circular orbits needs one burn at each end, and half its period is the flight time.
+[Hohmann Transfer Orbit][ref_hohmann_transfer_orbit]
+
+$$
+\Delta v_{1} = \sqrt{\frac{\mu}{r_{1}}}\left(\sqrt{\frac{2 r_{2}}{r_{1}+r_{2}}} - 1\right), \qquad
+\Delta v_{2} = \sqrt{\frac{\mu}{r_{2}}}\left(1 - \sqrt{\frac{2 r_{1}}{r_{1}+r_{2}}}\right), \qquad
+t = \pi\sqrt{\frac{a_{t}^{3}}{\mu}}
+\tag{15}
+$$
+
+**Equation 16, Normalized Hohmann Cost and the Ratio of Its Maximum.**
+Measured in units of the starting circular speed, the Hohmann cost depends on the ratio of the radii alone and is greatest at the positive root of a cubic.
+[Hohmann Transfer Orbit][ref_hohmann_transfer_orbit]
+
+$$
+\frac{\Delta v_{H}}{v_{1}} = \sqrt{\frac{2R}{1+R}} - 1 + \frac{1}{\sqrt{R}} - \sqrt{\frac{2}{R\,(1+R)}}, \qquad
+R^{3} - 15R^{2} - 9R - 1 = 0 \ \text{at the maximum}
+\tag{16}
+$$
+
+**Equation 17, Bi-elliptic Transfer Burns.**
+Two half-ellipses meeting at an intermediate radius beyond the target need three burns, each the difference of two speeds given by the vis-viva equation.
+[Bi-elliptic Transfer][ref_bi_elliptic_transfer]
+
+$$
+\Delta v_{1} = \sqrt{\mu\left(\frac{2}{r_{1}} - \frac{1}{a_{1}}\right)} - \sqrt{\frac{\mu}{r_{1}}}, \quad
+\Delta v_{2} = \sqrt{\mu\left(\frac{2}{r_{b}} - \frac{1}{a_{2}}\right)} - \sqrt{\mu\left(\frac{2}{r_{b}} - \frac{1}{a_{1}}\right)}, \quad
+\Delta v_{3} = \sqrt{\mu\left(\frac{2}{r_{2}} - \frac{1}{a_{2}}\right)} - \sqrt{\frac{\mu}{r_{2}}}
+\tag{17}
+$$
+
+**Equation 18, Bi-parabolic Transfer Cost.**
+In the limit of an infinitely distant intermediate radius the middle burn vanishes and the total cost reduces to an escape from the inner orbit and a capture into the outer one.
+[Bi-elliptic Transfer][ref_bi_elliptic_transfer]
+
+$$
+\frac{\Delta v_{\mathrm{biparabolic}}}{v_{1}} = \left(\sqrt{2} - 1\right)\left(1 + \frac{1}{\sqrt{R}}\right)
+\tag{18}
+$$
+
+**Equation 19, Bi-elliptic Flight Time.**
+The flight time is the sum of the half-periods of the two transfer ellipses, which grows quickly with the intermediate radius.
+
+$$
+t_{\mathrm{bi}} = \pi\sqrt{\frac{a_{1}^{3}}{\mu}} + \pi\sqrt{\frac{a_{2}^{3}}{\mu}}
+\tag{19}
+$$
+
+**Equation 20, Period of a Phasing Orbit.**
+A chaser that must close a phase angle in a whole number of revolutions needs an orbit whose period differs from the original by that fraction of a revolution shared among the revolutions.
+[Orbit Phasing][ref_orbit_phasing]
+
+$$
+T_{\mathrm{ph}} = T\left(1 - \frac{\theta}{2\pi k}\right)
+\tag{20}
+$$
+
+**Equation 21, Semi-Major Axis and Cost of a Phasing Orbit.**
+Kepler's third law gives the semi-major axis from the period, and because both burns occur at the same point of a circular orbit the cost is twice the speed difference there.
+[Orbit Phasing][ref_orbit_phasing]
+
+$$
+a_{\mathrm{ph}} = \left[\mu\left(\frac{T_{\mathrm{ph}}}{2\pi}\right)^{2}\right]^{1/3}, \qquad
+\Delta v_{\mathrm{ph}} = 2\left|v_{c} - \sqrt{\mu\left(\frac{2}{r} - \frac{1}{a_{\mathrm{ph}}}\right)}\right|
+\tag{21}
+$$
+
+**Equation 22, Clohessy-Wiltshire Equations.**
+The linearized motion of a chaser relative to a target on a circular orbit couples the radial and along-track directions and leaves the out-of-plane motion a simple oscillation.
+[Clohessy-Wiltshire Equations][ref_clohessy_wiltshire_equations]
+[Clohessy and Wiltshire 1960][research_clohessy_wiltshire_1960]
+
+$$
+\ddot{x} - 3n^{2}x - 2n\dot{y} = 0, \qquad
+\ddot{y} + 2n\dot{x} = 0, \qquad
+\ddot{z} + n^{2}z = 0
+\tag{22}
+$$
+
+**Equation 23, Along-Track Drift from a Small Change in Radius.**
+A small change in radius changes the mean motion, and over one period the chaser gains or loses three pi times the radial offset along the orbit.
+
+$$
+\Delta n = -\frac{3}{2}\,n\,\frac{\Delta r}{r}, \qquad
+\Delta y_{\mathrm{orbit}} = -3\pi\,\Delta r
+\tag{23}
+$$
+
+**Equation 24, Departure Burn from a Circular Parking Orbit.**
+Energy conservation between the parking orbit and a great distance gives the single burn that leaves the planet with a chosen hyperbolic excess speed.
+[Hyperbolic Trajectory][ref_hyperbolic_trajectory]
+
+$$
+\Delta v = \sqrt{v_{\infty}^{2} + \frac{2\mu}{r}} - \sqrt{\frac{\mu}{r}}
+\tag{24}
+$$
+
+**Equation 25, Kinetic Energy Gained from a Burn Along the Velocity.**
+The specific kinetic energy a burn adds grows with the speed at which it is made, which is the origin of the Oberth effect.
+[Oberth Effect][ref_oberth_effect]
+
+$$
+\Delta\left(\frac{v^{2}}{2}\right) = v\,\Delta v + \frac{\Delta v^{2}}{2}
+\tag{25}
+$$
+
+**Equation 26, Optimal Periapsis and Minimum Cost of Capture.**
+Capture into an ellipse of given eccentricity is cheapest at a periapsis radius set by the arrival excess speed, and the minimum cost is then proportional to that speed.
+
+$$
+r_{p,\mathrm{opt}} = \frac{2\mu}{v_{\infty}^{2}}\,\frac{1-e}{1+e}, \qquad
+\Delta v_{\min} = v_{\infty}\sqrt{\frac{1-e}{2}}
+\tag{26}
+$$
+
+**Equation 27, Sphere of Influence, Synodic Period and Hohmann Phase Angle.**
+The patched conic method rests on the approximate radius within which a planet dominates, the interval between alignments of two orbits and the lead the target needs at departure for a Hohmann transfer.
+[Sphere of Influence][ref_sphere_of_influence]
+
+$$
+r_{\mathrm{SOI}} \approx a\left(\frac{m}{M}\right)^{2/5}, \qquad
+T_{\mathrm{syn}} = \left|\frac{1}{T_{1}} - \frac{1}{T_{2}}\right|^{-1}, \qquad
+\theta_{H} = \pi\left[1 - \left(\frac{r_{1}+r_{2}}{2r_{2}}\right)^{3/2}\right]
+\tag{27}
+$$
+
+**Equation 28, Turn Angle and Velocity Change of an Unpowered Flyby.**
+The hyperbolic excess velocity keeps its magnitude in the planet's frame and is rotated through a turn angle set by the periapsis radius, so the velocity change is the chord of that rotation.
+[Gravity Assist][ref_gravity_assist]
+
+$$
+\sin\frac{\delta}{2} = \frac{1}{1 + r_{p}v_{\infty}^{2}/\mu}, \qquad
+\left|\Delta\vec{v}\right| = 2v_{\infty}\sin\frac{\delta}{2}
+\tag{28}
+$$
+
+**Equation 29, Powered Flyby with a Burn at Periapsis.**
+A burn added to the periapsis speed of a flyby is carried out to a great distance by energy conservation, which is the Oberth effect applied to a gravity assist.
+[Oberth Effect][ref_oberth_effect]
+
+$$
+v_{p} = \sqrt{v_{\infty}^{2} + \frac{2\mu}{r_{p}}}, \qquad
+v_{\infty,\mathrm{out}} = \sqrt{\left(v_{p} + \Delta v\right)^{2} - \frac{2\mu}{r_{p}}}
+\tag{29}
+$$
+
+**Equation 30, Delta-v of a Slow Spiral Between Circular Orbits.**
+Thrust along the velocity on an orbit that stays nearly circular changes the energy at a rate that makes the total delta-v the difference of the two circular speeds.
+
+$$
+\Delta v_{\mathrm{spiral}} = \left|v_{c1} - v_{c2}\right|
+\tag{30}
+$$
+
+**Equation 31, Duration of a Spiral at Constant Acceleration.**
+At a constant thrust acceleration the time of the spiral is its delta-v divided by that acceleration.
+
+$$
+t_{\mathrm{spiral}} = \frac{\left|v_{c1} - v_{c2}\right|}{a}
+\tag{31}
+$$
+
+### Notation
+
+- $\mu$, the gravitational parameter of the central body
+- $a$, the semi-major axis of an orbit, except in Equation 31, where it is the thrust acceleration
+- $v_{c}$, the circular orbital speed, with $v_{c1}$ and $v_{c2}$ for the starting and final orbits of a spiral
+- $v_{\mathrm{esc}}$, the local escape speed
+- $\varepsilon$, the specific orbital energy in Equation 3 and the structural ratio of a stage in Equations 6 to 8
+- $\gamma$, the flight path angle measured from the local horizontal
+- $h$, the specific angular momentum of an orbit
+- $T$, the period of an orbit, with $T_{\mathrm{ph}}$ for a phasing orbit and $T_{\mathrm{syn}}$ for the synodic period
+- $v_{e}$, the exhaust speed of a rocket relative to the vehicle
+- $m_{0}$, the initial mass of a vehicle, with $m_{f}$ its final mass, $m_{p}$ the propellant and $m_{d}$ a dead mass that is dropped
+- $I_{\mathrm{sp}}$, the specific impulse of a rocket engine, with standard gravity $g_{0}$
+- $N$, the number of identical stages
+- $\Delta i$, the change in inclination of the orbital plane
+- $e$, the eccentricity of an orbit
+- $n$, the mean motion of an orbit
+- $\omega$, the argument of periapsis, with $f$ the true anomaly of the burn
+- $R$, the ratio $r_{2}/r_{1}$ of the outer to the inner orbital radius
+- $r_{b}$, the intermediate radius of a bi-elliptic transfer
+- $\theta$, the phase angle by which a target leads, with $k$ the number of phasing revolutions and $\theta_{H}$ the lead a Hohmann transfer requires
+- $v_{\infty}$, the hyperbolic excess speed, the speed that remains far from the body being left or approached
+- $r_{p}$, the periapsis radius of a hyperbolic or elliptical orbit, with $v_{p}$ the speed there
+- $\delta$, the angle through which a flyby turns the excess velocity
+- $r_{\mathrm{SOI}}$, the radius of a planet's sphere of influence, for a planet of mass $m$ orbiting a star of mass $M$
 
 ## References
 

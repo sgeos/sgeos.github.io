@@ -78,6 +78,7 @@ so the horizon is a product of two stated quantities.
 
 $$
 6 \ \text{turns} \times 3.5 \ \text{days per turn} = 21 \ \text{days}
+\tag{1}
 $$
 
 Writing $T_g$ for the modelled horizon and $T_w$ for the war the same report describes,
@@ -87,6 +88,7 @@ $$
 T_g \approx 21 \ \text{days},
 \qquad
 T_w \gg T_g
+\tag{2}
 $$
 
 [Gompert et al. 2016][research_gompert_2016_war_with_china]
@@ -152,6 +154,7 @@ The gap is one twelfth of the count.
 
 $$
 \frac{24 - 22}{24} \approx 0.083
+\tag{3}
 $$
 
 ### The single paragraph on rebuilding
@@ -187,6 +190,7 @@ Replacement time is the quotient.
 
 $$
 T = \frac{L}{\dot{q}}
+\tag{4}
 $$
 
 With the report's own figures the bracket follows.
@@ -195,6 +199,7 @@ $$
 \frac{200}{120} \approx 1.7 \ \text{years},
 \qquad
 \frac{500}{120} \approx 4.2 \ \text{years}
+\tag{5}
 $$
 
 That reproduces the published two to four years,
@@ -210,6 +215,7 @@ at over 250 combat aircraft per year through 2027.
 
 $$
 \frac{250}{120} \approx 2.1
+\tag{6}
 $$
 
 The replacement rate available to one side is about twice that available to the other,
@@ -256,6 +262,7 @@ duration has lengthened by half again within a generation.
 
 $$
 \frac{8.5}{5.5} \approx 1.55
+\tag{7}
 $$
 
 The CSIS passage names two yards for large surface combatants
@@ -272,6 +279,7 @@ $$
 \frac{8}{2} = 4,
 \qquad
 \frac{30}{7} \approx 4.3
+\tag{8}
 $$
 
 Two independent sectors lost about three quarters of their prime contractors,
@@ -284,6 +292,7 @@ a first-order replacement time under serial construction is as follows.
 
 $$
 T \approx \frac{L}{n} \times \frac{B}{k}
+\tag{9}
 $$
 
 Here $k$ is the number of hulls a yard carries concurrently,
@@ -296,6 +305,7 @@ $$
 \frac{12}{2} \times \frac{8.5}{1} = 51 \ \text{years},
 \qquad
 \frac{12}{2} \times \frac{8.5}{2} \approx 26 \ \text{years}
+\tag{10}
 $$
 
 Even two hulls at a time in each of two yards,
@@ -316,6 +326,7 @@ $$
 \dot{q}_{\text{net}} = 0
 \quad \Rightarrow \quad
 T = \frac{L}{\dot{q}_{\text{net}}} \ \text{is undefined}
+\tag{11}
 $$
 
 A quantity that does not exist is a different kind of finding from a long one.
@@ -332,6 +343,7 @@ The Navy is working toward 2.0 and subsequently 2.33 per year.
 
 $$
 \frac{2.33}{1.2} \approx 1.9
+\tag{12}
 $$
 
 Reaching the planned rate requires almost doubling output before any wartime loss is replaced.
@@ -340,6 +352,7 @@ the gap is more than a boat a year.
 
 $$
 2.33 - 1.2 = 1.13 \ \text{boats per year}
+\tag{13}
 $$
 
 [Oakley 2026][research_oakley_2026_gao_shipbuilding]
@@ -364,6 +377,7 @@ and 11 months to complete the lot.
 
 $$
 6 + 36 + 11 = 53 \ \text{months} \approx 4.4 \ \text{years}
+\tag{14}
 $$
 
 The two figures agree,
@@ -380,6 +394,7 @@ against United States procurement averaging 225 a year over the past decade.
 
 $$
 \frac{2{,}000}{225} \approx 8.9
+\tag{15}
 $$
 
 Reaching the surge rate is close to a ninefold step up from the decade average,
@@ -389,6 +404,7 @@ the step is smaller and still large.
 
 $$
 \frac{2{,}000}{650} \approx 3.1
+\tag{16}
 $$
 
 For the Tomahawk the same comparison uses expenditure against production.
@@ -396,6 +412,7 @@ More than 1,000 were expended and recent annual production is below 200.
 
 $$
 \frac{1{,}000}{200} = 5 \ \text{years}
+\tag{17}
 $$
 
 That is the replacement time at the recent rate,
@@ -458,6 +475,7 @@ $$
 \frac{51}{5} \approx 10.2,
 \qquad
 \frac{6}{2} = 3
+\tag{18}
 $$
 
 A base that has contracted by a factor of ten
@@ -472,6 +490,7 @@ and that all seven shipbuilders face workforce limitations.
 
 $$
 \frac{174{,}000}{10} = 17{,}400 \ \text{workers per year}
+\tag{19}
 $$
 
 **That requirement is larger than the workforce that exists.**
@@ -485,6 +504,7 @@ directly employed 105,652 people.
 
 $$
 \frac{174{,}000}{105{,}652} \approx 1.65
+\tag{20}
 $$
 
 The two figures measure different things and are reported together for that reason.
@@ -513,6 +533,7 @@ against 13.8 years at peacetime efficiency rates.
 
 $$
 \frac{13.8}{8.4} \approx 1.64
+\tag{21}
 $$
 
 Surging buys a factor of about 1.6,
@@ -522,6 +543,7 @@ and the mismatch between the two literatures becomes a single number.
 
 $$
 \frac{8.4 \times 365}{21} \approx 146
+\tag{22}
 $$
 
 The replacement clock runs about a hundred and fifty times longer than the clock the games run on.
@@ -562,6 +584,7 @@ gives the cumulative fall.
 
 $$
 (1 - 0.014)^{7} \approx 0.906
+\tag{23}
 $$
 
 **Manufacturing productivity was about nine percent lower in 1948 than in 1941**,
@@ -585,6 +608,7 @@ against under 100,000 tons for the United States.
 
 $$
 \frac{23{,}250{,}000}{100{,}000} \approx 232
+\tag{24}
 $$
 
 The Navy confirmed the slide's authenticity and simultaneously limited it.
@@ -623,6 +647,7 @@ The tonnage share rose by an order of magnitude in a generation.
 
 $$
 \frac{50}{5} = 10
+\tag{25}
 $$
 
 That is a finding of an administrative proceeding
@@ -637,6 +662,7 @@ while United States output was 0.11 percent in 2024 and effectively none in 2025
 
 $$
 \frac{53}{0.11} \approx 482
+\tag{26}
 $$
 
 That ratio is larger than the slide's,
@@ -666,6 +692,7 @@ studied 303 Japanese cities of which 66 were bombed.
 
 $$
 \frac{66}{303} \approx 0.218
+\tag{27}
 $$
 
 About a fifth of the sample took the damage and the rest serve as the control.
@@ -686,6 +713,7 @@ against the paper's 2.2 million.
 
 $$
 \frac{2{,}510}{2{,}200} \approx 1.14
+\tag{28}
 $$
 
 The survey gives civilian casualties of "approximately 806,000"
@@ -734,6 +762,7 @@ $$
 100 - 70 = 30 \ \text{percent},
 \qquad
 100 - 50 = 50 \ \text{percent}
+\tag{29}
 $$
 
 Between a third and a half of cities never came back to their path,
@@ -759,6 +788,7 @@ $$
 Y_{1948} = 64,
 \qquad
 K_{1948} = 113
+\tag{30}
 $$
 
 Output stood 36 percent below its 1938 level
@@ -784,6 +814,7 @@ and those damaged an additional 30 percent."
 
 $$
 \frac{50}{12} \approx 4.2
+\tag{31}
 $$
 
 Buildings were destroyed at roughly four times the rate of the machine tools they housed.
@@ -805,6 +836,7 @@ which it gives as 2,164,800 out of 5,554,500.
 
 $$
 \frac{2{,}164{,}800}{5{,}554{,}500} \approx 0.390
+\tag{32}
 $$
 
 **Two wars, measured by the same organisation, give the same shape,
@@ -836,6 +868,7 @@ because it is what gives the study its statistical power.
 
 $$
 \frac{70 \ \text{percent of tonnage}}{10 \ \text{percent of districts}} = 7
+\tag{33}
 $$
 
 ### The phoenix factor
@@ -878,6 +911,7 @@ and $350 billion of investment in what would be an unprecedented effort".
 
 $$
 \frac{350}{3} \approx 117 \ \text{billion dollars per year}
+\tag{34}
 $$
 
 The asymmetry between the lost revenue and the damage it causes is the point.
@@ -886,6 +920,7 @@ and costs electronic device makers 490 billion dollars.
 
 $$
 \frac{490}{42} \approx 11.7
+\tag{35}
 $$
 
 The published figure is twelve times,
@@ -901,6 +936,7 @@ since one replaces Taiwan and the other replaces the trading system.
 
 $$
 \frac{1{,}000}{350} \approx 2.9
+\tag{36}
 $$
 
 Full regional self-sufficiency costs about three times what replacing Taiwanese capacity costs.
@@ -942,6 +978,7 @@ a threshold of 5,000,523 against an electorate of 20,002,091.
 
 $$
 5{,}000{,}523 - 4{,}341{,}432 = 659{,}091 \ \text{votes short}
+\tag{37}
 $$
 
 A proposal carried by nearly three to one
@@ -961,6 +998,7 @@ $$
 \frac{T_g}{T_{\text{LNG}}} = \frac{21}{20} \approx 1.05,
 \qquad
 \frac{T_{\text{coal}}}{T_g} = \frac{42}{21} = 2
+\tag{38}
 $$
 
 **The modelled war ends at about the moment the island's gas runs out.**
@@ -991,6 +1029,7 @@ with the government holding a further 30 days through the Petroleum Fund.
 
 $$
 60 + 30 = 90 \ \text{days of statutory petroleum stock}
+\tag{39}
 $$
 
 **Petroleum has a 90-day statutory reserve.
@@ -1013,6 +1052,7 @@ against 57.16 percent measured by value.
 
 $$
 \frac{57.16}{30.36} \approx 1.88
+\tag{40}
 $$
 
 **The island is nearly twice as self-sufficient in the value of its food
@@ -1023,6 +1063,7 @@ Gas runs about 20 days, coal about 42, and food about 180.
 
 $$
 20 : 42 : 180
+\tag{41}
 $$
 
 **The binding constraint in a long blockade is energy and not food**,
@@ -1053,6 +1094,7 @@ The contemporaneous coefficient is $-1.78$.
 
 $$
 1 - e^{-1.78} \approx 0.83
+\tag{42}
 $$
 
 Trade between adversaries falls by over 80 percent,
@@ -1067,6 +1109,7 @@ and nine years in the 1939 to 1997 subperiod.
 
 $$
 \frac{9}{4} = 2.25
+\tag{43}
 $$
 
 The modern, more integrated economy repaired its trade relationships
@@ -1078,6 +1121,7 @@ $$
 1 - e^{-3.02} \approx 0.951,
 \qquad
 1 - e^{-2.74} \approx 0.935
+\tag{44}
 $$
 
 Trade between adversaries fell about 95 percent in the first
@@ -1112,6 +1156,7 @@ $$
 \frac{13.2}{4} = 3.3 \ \text{billion dollars per year},
 \qquad
 \frac{2.5}{7.5} \approx 0.33
+\tag{45}
 $$
 
 Aid covering about a third of an excess demand gap
@@ -1150,6 +1195,7 @@ of which 12.2 billion had been obligated and 10.7 billion expended.
 
 $$
 \frac{10.7}{12.3} \approx 0.87
+\tag{46}
 $$
 
 Thirteen percent of the money made available had not been spent
@@ -1178,6 +1224,7 @@ because recovery is not the same thing as repair.
 
 $$
 \frac{524.6}{176.1} \approx 2.98
+\tag{47}
 $$
 
 That ratio travels between cases better than any other quantity here,
@@ -1185,6 +1232,7 @@ because it is dimensionless.
 
 $$
 \frac{\text{reconstruction needs}}{\text{annual output}} \approx 2.8
+\tag{48}
 $$
 
 **The sector detail is where the assessment speaks to the thesis above.**
@@ -1194,6 +1242,7 @@ the largest sectoral share at about 16 percent of the total.
 
 $$
 \frac{83.7}{57.6} \approx 1.45
+\tag{49}
 $$
 
 Housing is the most nearly physical category in the assessment
@@ -1215,6 +1264,7 @@ the two quantities have moved by different amounts in the same direction.
 
 $$
 K \ge 87, \qquad Y \approx 78
+\tag{50}
 $$
 
 The inequality is deliberate.
@@ -1237,6 +1287,7 @@ which the report gives as 15.5 percent.
 
 $$
 \frac{176.1 - 152.5}{152.5} \approx 0.155
+\tag{51}
 $$
 
 A war that is being assessed while it continues
@@ -1254,6 +1305,7 @@ Expenditure of 53.26 billion dollars across nine years gives the daily rate.
 
 $$
 \frac{53.26 \times 10^{9}}{9 \times 365} \approx 16.2 \ \text{million dollars per day}
+\tag{52}
 $$
 
 **Occupation-era aid to Japan is quantified in the official record
@@ -1271,6 +1323,7 @@ Japan settled that claim for 490 million dollars over fifteen years.
 
 $$
 \frac{490}{1{,}800} \approx 0.27
+\tag{53}
 $$
 
 Japan repaid a bit over a quarter of the claimed sum.
@@ -1411,6 +1464,7 @@ because an unexplained sum is how a transcription error hides.
 
 $$
 20 + 41 + 22 + 18 = 101
+\tag{54}
 $$
 
 The conditional result is the one that matters,
@@ -1426,6 +1480,7 @@ $$
 \Delta_{\text{defeat}} \approx +3 \ \text{points},
 \qquad
 27 \rightarrow 14 \ \text{for a draw}
+\tag{55}
 $$
 
 [Goemans et al. 2009][journal_goemans_2009_archigos]
@@ -1440,6 +1495,7 @@ which is the check the previous figures invite.
 
 $$
 64.63 + 19.07 + 6.08 + 1.98 + 0.17 + 2.38 + 5.59 + 0.10 = 100.00
+\tag{56}
 $$
 
 The [dataset behind that paper][data_archigos_2016_leader_dataset]
@@ -1469,6 +1525,7 @@ That is the opposite of gambling for resurrection.
 
 $$
 \frac{17}{23} \approx 0.74
+\tag{57}
 $$
 
 Roughly three quarters of the disputes were settled,
@@ -1538,6 +1595,7 @@ the requirement follows.
 
 $$
 F = \rho \times \frac{P}{1000} = 20 \times 23{,}299 = 465{,}980 \ \text{personnel}
+\tag{58}
 $$
 
 Quinlivan also states a rule of five for sustainment,
@@ -1545,6 +1603,7 @@ five personnel in the force for each one deployed on a six-month rotation.
 
 $$
 5 \times 465{,}980 \approx 2{,}330{,}000 \ \text{personnel}
+\tag{59}
 $$
 
 **The population is falling, so the requirement falls with it.**
@@ -1572,6 +1631,7 @@ the garrison requirement is larger than the invasion.
 
 $$
 \frac{465{,}980}{262{,}000} \approx 1.78
+\tag{60}
 $$
 
 Against the actual deployment in Iraq in 2003,
@@ -1580,6 +1640,7 @@ the required ratio is more than three times what was fielded.
 
 $$
 \frac{20}{6.1} \approx 3.3
+\tag{61}
 $$
 
 The two operations that did reach the ratio were Bosnia at 22.6 and Kosovo at 23.7 per thousand,
@@ -1640,6 +1701,7 @@ $$
 \frac{255}{27} \approx 9.4 \ \text{at 5 Tg},
 \qquad
 \frac{5{,}341}{360} \approx 14.8 \ \text{at 150 Tg}
+\tag{62}
 $$
 
 Two further ratios describe how the scenarios scale.
@@ -1652,6 +1714,7 @@ $$
 \frac{360}{27} \approx 13.3,
 \qquad
 \frac{5{,}341}{255} \approx 20.9
+\tag{63}
 $$
 
 The indirect toll grows faster than the direct one,
@@ -1669,6 +1732,7 @@ and 99.5 percent at 150 teragrams against a global 81.3 percent.
 
 $$
 \frac{14.1}{8.2} \approx 1.72
+\tag{64}
 $$
 
 China loses over 70 percent more of its food calories than the world average
@@ -1697,6 +1761,7 @@ and seed availability as the binding bottleneck.
 
 $$
 \frac{80}{7} \approx 11.4
+\tag{65}
 $$
 
 The crop loss scales more steeply than the soot does at the low end.
@@ -1724,6 +1789,7 @@ and, far more consequentially,
 
 $$
 \frac{3.7}{5.0} = 0.74
+\tag{66}
 $$
 
 A quarter less soot produced would matter little.
@@ -1883,6 +1949,7 @@ and 67 percent preferring that to redeployed United States weapons when forced t
 
 $$
 \frac{67}{9} \approx 7.4
+\tag{67}
 $$
 
 The preference for an indigenous arsenal runs more than seven to one
@@ -1896,6 +1963,7 @@ against roughly 295 for the United States in 2025.
 
 $$
 \frac{395}{295} \approx 1.34
+\tag{68}
 $$
 
 **Checking that ratio against the primary documents changed what it means.**
@@ -1932,6 +2000,7 @@ the ratio is smaller and rests on quantities three years apart.
 
 $$
 \frac{370}{291} \approx 1.27
+\tag{69}
 $$
 
 Either way the direction holds and the precision does not,
@@ -2011,6 +2080,7 @@ unless an outside power stepped in to guarantee a peace agreement".
 
 $$
 \frac{55}{20} = 2.75
+\tag{70}
 $$
 
 Interstate wars settled at nearly three times the rate of civil wars,
@@ -2114,6 +2184,7 @@ and did not persist.
 
 $$
 \frac{0.2}{0.05} = 4
+\tag{71}
 $$
 
 **The human-capital shock was four times larger in effect and, unlike the physical one, lasted.**
@@ -2236,6 +2307,7 @@ black carbon reaches the stratosphere and the surface cools.
 
 $$
 \frac{16}{1} = 16
+\tag{72}
 $$
 
 **A sixteenfold range in one input spans the entire distance
@@ -2404,6 +2476,7 @@ between 1939 and 2012 and only ten acquired arsenals.
 
 $$
 \frac{10}{31} \approx 0.32
+\tag{73}
 $$
 
 Under a third of latent states ever built an arsenal.
@@ -2499,6 +2572,7 @@ $$
 \frac{5}{10} = 0.5,
 \qquad
 \frac{8}{25} = 0.32
+\tag{74}
 $$
 
 **Learning is running at between a third and a half of the assumed rate.**
@@ -2675,6 +2749,7 @@ the assumption that produced the magnitude.**
 
 $$
 \frac{15}{4.7} \approx 3.2
+\tag{75}
 $$
 
 The highest and lowest headline welfare estimates differ by about threefold
@@ -3360,6 +3435,752 @@ and the following twenty years in one conditional clause
 is not describing a war.
 It is describing a battle,
 and then stopping where the hard part starts.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 75 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 75, 67 are established and 8 are bespoke.
+Replacement and exhaustion times are in years unless an equation names days or months, and sums of money are in the nominal United States dollars of the year each source reports. Several ratios divide figures drawn from different sources, years or definitions, and the text beside each one states when the two quantities are not strictly comparable.
+
+**Equation 1, Campaign Horizon of the Invasion Game.**
+Six turns of three and a half days each give the 21 days of campaign time the report states.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+6 \ \text{turns} \times 3.5 \ \text{days per turn} = 21 \ \text{days}
+\tag{1}
+$$
+
+**Equation 2, Modelled Horizon Against the War Described.**
+The war the report describes lasts far longer than the 21 days its game models, a relation the authors assert rather than measure.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+T_g \approx 21 \ \text{days},
+\qquad
+T_w \gg T_g
+\tag{2}
+$$
+
+**Equation 3, Relative Discrepancy in the Iteration Count.**
+The difference between the 24 iterations the report states and the 22 a commentator attributes to it is one twelfth of the count.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+[Heath 2023][commentary_heath_2023_wargames_deterrence]
+
+$$
+\frac{24 - 22}{24} \approx 0.083
+\tag{3}
+$$
+
+**Equation 4, Replacement Time at a Constant Procurement Rate.**
+The time to replace a loss is the number lost divided by the annual rate of procurement, under the report's stated assumption of no further attrition and no retirements.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+T = \frac{L}{\dot{q}}
+\tag{4}
+$$
+
+**Equation 5, Replacement Time for Lost Aircraft.**
+The replacement time evaluated at losses of 200 and 500 aircraft and a procurement rate of 120 a year reproduces the published two to four years.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\frac{200}{120} \approx 1.7 \ \text{years},
+\qquad
+\frac{500}{120} \approx 4.2 \ \text{years}
+\tag{5}
+$$
+
+**Equation 6, Ratio of Chinese to American Combat Aircraft Procurement.**
+The estimated annual procurement of the People's Liberation Army Air Force divided by the American rate shows the other side replacing aircraft about twice as fast.
+[Gunzinger and Penney 2026][research_gunzinger_2026_rebuilding_air_force]
+
+$$
+\frac{250}{120} \approx 2.1
+\tag{6}
+$$
+
+*Equation 7, Bespoke Lengthening of Warship Build Duration.*
+The midpoint of the current build bracket divided by the midpoint of the bracket for the 2000s shows durations lengthening by half again, with each bracket reduced to its midpoint as the article chose.
+[Labs 2025][research_labs_2025_cbo_shipbuilding]
+
+$$
+\frac{8.5}{5.5} \approx 1.55
+\tag{7}
+$$
+
+**Equation 8, Consolidation of Prime Contractors.**
+The counts of prime contractors for surface ships and for missiles three decades ago divided by the counts today show a fall of about three quarters in each sector.
+[State of Competition within the Defense Industrial Base][government_dod_2022_competition]
+
+$$
+\frac{8}{2} = 4,
+\qquad
+\frac{30}{7} \approx 4.3
+\tag{8}
+$$
+
+*Equation 9, Bespoke Serial Replacement Time for Lost Hulls.*
+Hulls lost are shared among the building yards and each yard completes a hull every build duration divided by the hulls it carries at once, a first-order model of serial construction in which the concurrency is not stated by any public source.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+[Labs 2025][research_labs_2025_cbo_shipbuilding]
+
+$$
+T \approx \frac{L}{n} \times \frac{B}{k}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Replacement Time for Twelve Surface Combatants.*
+The serial construction model evaluated for twelve hulls, two yards and a build of eight and a half years gives half a century at one hull per yard and a quarter century at two.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+[Labs 2025][research_labs_2025_cbo_shipbuilding]
+
+$$
+\frac{12}{2} \times \frac{8.5}{1} = 51 \ \text{years},
+\qquad
+\frac{12}{2} \times \frac{8.5}{2} \approx 26 \ \text{years}
+\tag{10}
+$$
+
+**Equation 11, Undefined Replacement Time for Carriers.**
+A capacity sufficient only to maintain the current force makes the net replacement rate zero, so the replacement time has no value.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\dot{q}_{\text{net}} = 0
+\quad \Rightarrow \quad
+T = \frac{L}{\dot{q}_{\text{net}}} \ \text{is undefined}
+\tag{11}
+$$
+
+**Equation 12, Required Growth in Submarine Production.**
+The target rate of 2.33 boats a year divided by the current rate of 1.2 shows that output must almost double.
+[O'Rourke 2026][research_orourke_2026_virginia_class]
+
+$$
+\frac{2.33}{1.2} \approx 1.9
+\tag{12}
+$$
+
+**Equation 13, Annual Shortfall in Submarine Production.**
+The target rate less the current rate leaves a shortfall of more than one boat a year.
+[O'Rourke 2026][research_orourke_2026_virginia_class]
+
+$$
+2.33 - 1.2 = 1.13 \ \text{boats per year}
+\tag{13}
+$$
+
+**Equation 14, Production Cycle of a Missile Lot.**
+Administrative lead time, manufacturing lead time and lot completion sum to a cycle of more than four years.
+[Cancian and Park 2026a][research_cancian_2026_last_rounds]
+
+$$
+6 + 36 + 11 = 53 \ \text{months} \approx 4.4 \ \text{years}
+\tag{14}
+$$
+
+**Equation 15, Surge Rate Relative to Average Procurement.**
+The surge rate for Patriot interceptors divided by the average procurement of the past decade gives close to a ninefold step.
+[Cancian and Park 2026b][research_cancian_2026_missile_rebuild]
+
+$$
+\frac{2{,}000}{225} \approx 8.9
+\tag{15}
+$$
+
+**Equation 16, Surge Rate Relative to Baseline Production.**
+The same surge rate divided by the current baseline production gives a step of about three.
+[Cancian and Park 2026b][research_cancian_2026_missile_rebuild]
+
+$$
+\frac{2{,}000}{650} \approx 3.1
+\tag{16}
+$$
+
+**Equation 17, Replacement Time for Expended Tomahawk Missiles.**
+The number expended divided by recent annual production gives the replacement time of five years at the recent rate.
+[Cancian and Park 2026b][research_cancian_2026_missile_rebuild]
+
+$$
+\frac{1{,}000}{200} = 5 \ \text{years}
+\tag{17}
+$$
+
+**Equation 18, Consolidation of Aerospace Primes and Rocket Motor Suppliers.**
+The counts before and after consolidation show prime contractors falling by a factor of about ten and solid rocket motor suppliers by a factor of three.
+[State of Competition within the Defense Industrial Base][government_dod_2022_competition]
+[Rumbaugh 2026][research_rumbaugh_2026_solid_rocket_motors]
+
+$$
+\frac{51}{5} \approx 10.2,
+\qquad
+\frac{6}{2} = 3
+\tag{18}
+$$
+
+**Equation 19, Annual Shipbuilding Hiring Requirement.**
+The requirement for new workers over a decade divided by ten years gives the average number to be hired each year.
+[U.S. Government Accountability Office 2025][research_gao_2025_shipbuilding_workforce]
+
+$$
+\frac{174{,}000}{10} = 17{,}400 \ \text{workers per year}
+\tag{19}
+$$
+
+**Equation 20, Hiring Requirement Against Current Employment.**
+The decade's requirement for new workers divided by the industry's direct employment in 2023 compares two different quantities, which is why the text reports them together.
+[U.S. Government Accountability Office 2025][research_gao_2025_shipbuilding_workforce]
+[Office of the United States Trade Representative's report][data_ustr_2025_maritime]
+
+$$
+\frac{174{,}000}{105{,}652} \approx 1.65
+\tag{20}
+$$
+
+**Equation 21, Ratio of Peacetime to Surge Replacement Times.**
+The average replacement time at peacetime rates divided by that at surge rates shows that surging buys a factor of about 1.6.
+[Cancian 2021][research_cancian_2021_industrial_mobilization]
+
+$$
+\frac{13.8}{8.4} \approx 1.64
+\tag{21}
+$$
+
+*Equation 22, Bespoke Ratio of Replacement Time to Modelled Horizon.*
+The average surge replacement time converted to days and divided by the 21 days of the invasion game is a figure the article introduces to state the mismatch between the industrial and the wargaming literatures as one number.
+[Cancian 2021][research_cancian_2021_industrial_mobilization]
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\frac{8.4 \times 365}{21} \approx 146
+\tag{22}
+$$
+
+**Equation 23, Compounded Decline in Manufacturing Productivity.**
+Compounding the stated annual fall in total factor productivity over seven years gives a level about nine percent lower in 1948 than in 1941.
+[Field 2023][journal_field_2023_manufacturing_productivity]
+
+$$
+(1 - 0.014)^{7} \approx 0.906
+\tag{23}
+$$
+
+**Equation 24, Ratio of Chinese to American Shipbuilding Capacity.**
+The tonnage of Chinese capacity on the intelligence slide divided by the American tonnage gives a ratio of about 232.
+[The War Zone in 2023][commentary_twz_2023_oni_slide]
+
+$$
+\frac{23{,}250{,}000}{100{,}000} \approx 232
+\tag{24}
+$$
+
+**Equation 25, Growth of the Chinese Share of Global Tonnage.**
+The Chinese share of global commercial tonnage in 2023 divided by its share in 1999 gives a tenfold rise.
+[Office of the United States Trade Representative's report][data_ustr_2025_maritime]
+
+$$
+\frac{50}{5} = 10
+\tag{25}
+$$
+
+**Equation 26, Ratio of Chinese to American Shipbuilding Output Shares.**
+The Chinese share of global output divided by the American share gives a ratio of commercial output rather than of warship-building capacity.
+[Funaiole 2026][research_funaiole_2026_testimony]
+
+$$
+\frac{53}{0.11} \approx 482
+\tag{26}
+$$
+
+**Equation 27, Share of Bombed Cities in the Japanese Sample.**
+The 66 bombed cities divided by the 303 in the sample show that about a fifth took the damage.
+[Davis and Weinstein 2002][journal_davis_weinstein_2002]
+
+$$
+\frac{66}{303} \approx 0.218
+\tag{27}
+$$
+
+**Equation 28, Ratio of Two Counts of Buildings Destroyed.**
+The survey's count of buildings destroyed divided by the paper's count shows the survey figure about fourteen percent higher.
+[United States Strategic Bombing Survey's summary report on the Pacific war][government_ussbs_1946_pacific_summary]
+[Davis and Weinstein 2002][journal_davis_weinstein_2002]
+
+$$
+\frac{2{,}510}{2{,}200} \approx 1.14
+\tag{28}
+$$
+
+**Equation 29, Share of West German Cities Never Returning to Trend.**
+The complement of the share of cities that reverted to trend gives between thirty and fifty percent that did not.
+[Nguyen et al. 2025][journal_nguyen_2025_german_cities]
+
+$$
+100 - 70 = 30 \ \text{percent},
+\qquad
+100 - 50 = 50 \ \text{percent}
+\tag{29}
+$$
+
+**Equation 30, German Output and Capacity Indexed to Prewar Years.**
+Output in 1948 stood at 64 on a prewar base of 100 while industrial capacity stood at 113, so the two moved in opposite directions.
+[Eichengreen et al. 2009][journal_eichengreen_ritschl_2009]
+
+$$
+Y_{1948} = 64,
+\qquad
+K_{1948} = 113
+\tag{30}
+$$
+
+**Equation 31, Destruction of Buildings Relative to Machine Tools.**
+The share of floor space destroyed divided by the share of machine tools destroyed shows buildings lost at about four times the rate of the tools inside them.
+[Over-all Report on the European war][government_ussbs_1945_overall_report]
+
+$$
+\frac{50}{12} \approx 4.2
+\tag{31}
+$$
+
+**Equation 32, Share of Dwelling Units Destroyed or Seriously Damaged.**
+The dwelling units destroyed or seriously damaged divided by all units in the 49 larger cities reproduce the survey's 39 percent.
+[Over-all Report on the European war][government_ussbs_1945_overall_report]
+
+$$
+\frac{2{,}164{,}800}{5{,}554{,}500} \approx 0.390
+\tag{32}
+$$
+
+**Equation 33, Concentration of Bombing Tonnage.**
+Seventy percent of the tonnage falling on ten percent of districts gives a concentration of seven times the uniform share.
+[Miguel and Roland 2011][journal_miguel_roland_2011]
+
+$$
+\frac{70 \ \text{percent of tonnage}}{10 \ \text{percent of districts}} = 7
+\tag{33}
+$$
+
+**Equation 34, Annual Investment to Replace Taiwanese Foundry Capacity.**
+The estimated investment divided by the minimum of three years gives the average annual spending.
+[Varas et al. 2021][data_bcg_sia_2021_value_chain]
+
+$$
+\frac{350}{3} \approx 117 \ \text{billion dollars per year}
+\tag{34}
+$$
+
+**Equation 35, Downstream Loss Relative to Foundry Revenue.**
+The loss to electronic device makers divided by the lost foundry revenue reproduces the published factor of twelve.
+[Varas et al. 2021][data_bcg_sia_2021_value_chain]
+
+$$
+\frac{490}{42} \approx 11.7
+\tag{35}
+$$
+
+**Equation 36, Self-Sufficiency Relative to Replacing Taiwan.**
+The investment for fully self-sufficient regional supply chains divided by the investment to replace Taiwanese capacity gives a factor of about three.
+[Varas et al. 2021][data_bcg_sia_2021_value_chain]
+
+$$
+\frac{1{,}000}{350} \approx 2.9
+\tag{36}
+$$
+
+**Equation 37, Shortfall Against the Referendum Threshold.**
+The participation threshold less the affirmative votes gives the number by which the referendum fell short.
+[Central Election Commission's results][data_roc_cec_referendums]
+
+$$
+5{,}000{,}523 - 4{,}341{,}432 = 659{,}091 \ \text{votes short}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Ratio of Modelled Horizon to Energy Stocks.*
+Dividing the 21-day horizon of the invasion game by the days of liquefied natural gas held, and the days of coal by that horizon, is a comparison the article constructs between a wargame and a blockade it does not model.
+[U.S.-China Economic and Security Review Commission 2025][government_uscc_2025_taiwan_chapter]
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\frac{T_g}{T_{\text{LNG}}} = \frac{21}{20} \approx 1.05,
+\qquad
+\frac{T_{\text{coal}}}{T_g} = \frac{42}{21} = 2
+\tag{38}
+$$
+
+**Equation 39, Statutory Petroleum Reserve.**
+The stock held by refiners and importers and the stock held by the government sum to the ninety days the act requires.
+[Petroleum Administration Act][government_roc_petroleum_act]
+
+$$
+60 + 30 = 90 \ \text{days of statutory petroleum stock}
+\tag{39}
+$$
+
+**Equation 40, Food Self-Sufficiency by Value Relative to Calories.**
+The self-sufficiency ratio measured by value divided by the ratio measured in calories shows Taiwan nearly twice as self-sufficient in the value of its food.
+
+$$
+\frac{57.16}{30.36} \approx 1.88
+\tag{40}
+$$
+
+**Equation 41, Horizons of Gas, Coal and Food.**
+The days for which gas, coal and food last under a blockade are set in proportion to show that energy, rather than food, binds first.
+[U.S.-China Economic and Security Review Commission 2025][government_uscc_2025_taiwan_chapter]
+[Ferreira and Critelli 2023][journal_ferreira_critelli_2023_food_resiliency]
+
+$$
+20 : 42 : 180
+\tag{41}
+$$
+
+**Equation 42, Proportional Effect of a Log-Linear Coefficient.**
+In a gravity model of the logarithm of trade, a coefficient converts to a proportional fall of one less the exponential of the coefficient.
+[Glick and Taylor 2010][journal_glick_taylor_2010]
+
+$$
+1 - e^{-1.78} \approx 0.83
+\tag{42}
+$$
+
+**Equation 43, Ratio of Durations of the Trade Effect in Two Eras.**
+The years of significant effect in the later subperiod divided by those in the earlier show that recovery took more than twice as long.
+[Glick and Taylor 2010][journal_glick_taylor_2010]
+
+$$
+\frac{9}{4} = 2.25
+\tag{43}
+$$
+
+**Equation 44, Proportional Fall in Trade in the Two World Wars.**
+The conversion of a log-linear coefficient evaluated for each world war gives falls in trade of about 95 and 94 percent.
+[Glick and Taylor 2010][journal_glick_taylor_2010]
+
+$$
+1 - e^{-3.02} \approx 0.951,
+\qquad
+1 - e^{-2.74} \approx 0.935
+\tag{44}
+$$
+
+**Equation 45, Annual Marshall Plan Flow and Share of the Gap Closed.**
+The total aid divided by four years gives the annual flow, and aid as a share of output divided by the midpoint of the excess demand gap gives the fraction of the gap it closed.
+[De Long and Eichengreen 1991][research_delong_eichengreen_1991_marshall]
+
+$$
+\frac{13.2}{4} = 3.3 \ \text{billion dollars per year},
+\qquad
+\frac{2.5}{7.5} \approx 0.33
+\tag{45}
+$$
+
+**Equation 46, Share of Marshall Plan Funds Expended.**
+The sum expended divided by the sum made available shows that thirteen percent remained unspent at the final report.
+[thirteenth and last report of the Economic Cooperation Administration][government_eca_1951_thirteenth_report]
+
+$$
+\frac{10.7}{12.3} \approx 0.87
+\tag{46}
+$$
+
+**Equation 47, Reconstruction Needs Relative to Direct Damage.**
+Total reconstruction and recovery needs divided by direct damage give a dimensionless multiple near three.
+[Fourth Rapid Damage and Needs Assessment][research_world_bank_2025_rdna4]
+
+$$
+\frac{524.6}{176.1} \approx 2.98
+\tag{47}
+$$
+
+**Equation 48, Reconstruction Needs Relative to Annual Output.**
+The assessment states the needs as about 2.8 times the nominal gross domestic product of Ukraine for 2024.
+[Fourth Rapid Damage and Needs Assessment][research_world_bank_2025_rdna4]
+
+$$
+\frac{\text{reconstruction needs}}{\text{annual output}} \approx 2.8
+\tag{48}
+$$
+
+**Equation 49, Housing Needs Relative to Housing Damage.**
+Housing needs divided by housing damage give a multiple roughly half the economy-wide figure.
+[Fourth Rapid Damage and Needs Assessment][research_world_bank_2025_rdna4]
+
+$$
+\frac{83.7}{57.6} \approx 1.45
+\tag{49}
+$$
+
+**Equation 50, Housing Stock and Output Against Their Baselines.**
+The share of housing still standing is at least 87 percent because the 13 percent lost includes repairable units, while real output stands near 78 percent of its 2021 level.
+[Fourth Rapid Damage and Needs Assessment][research_world_bank_2025_rdna4]
+
+$$
+K \ge 87, \qquad Y \approx 78
+\tag{50}
+$$
+
+**Equation 51, Growth of Direct Damage Between Assessments.**
+The change in direct damage divided by the earlier assessment reproduces the reported growth of 15.5 percent.
+[Fourth Rapid Damage and Needs Assessment][research_world_bank_2025_rdna4]
+
+$$
+\frac{176.1 - 152.5}{152.5} \approx 0.155
+\tag{51}
+$$
+
+**Equation 52, Average Daily Rate of Reconstruction Expenditure.**
+Expenditure divided by the days in nine years gives the average daily rate of reconstruction spending in Iraq.
+[recorded in its 2013 final report][research_sigir_2013_learning_from_iraq]
+
+$$
+\frac{53.26 \times 10^{9}}{9 \times 365} \approx 16.2 \ \text{million dollars per day}
+\tag{52}
+$$
+
+**Equation 53, Share of the Aid Claim Repaid by Japan.**
+The settlement divided by the claim after deductions shows that Japan repaid a little over a quarter.
+[State Department paper of March 1962][government_frus_1962_garioa_settlement]
+
+$$
+\frac{490}{1{,}800} \approx 0.27
+\tag{53}
+$$
+
+**Equation 54, Sum of Post-Tenure Fates After Irregular Removal.**
+The four published shares sum to 101 rather than 100, which the paper attributes to rounding.
+[Goemans 2008][journal_goemans_2008_which_way_out]
+
+$$
+20 + 41 + 22 + 18 = 101
+\tag{54}
+$$
+
+**Equation 55, Change in the Risk of Irregular Removal.**
+Defeat raises the chance of irregular removal by about three percentage points, while a draw lowers it from 27 percent to 14 percent.
+[Goemans 2008][journal_goemans_2008_which_way_out]
+
+$$
+\Delta_{\text{defeat}} \approx +3 \ \text{points},
+\qquad
+27 \rightarrow 14 \ \text{for a draw}
+\tag{55}
+$$
+
+**Equation 56, Sum of Exit Categories in the Leader Dataset.**
+The published shares of each manner of exit from office sum to 100 percent.
+[Goemans et al. 2009][journal_goemans_2009_archigos]
+
+$$
+64.63 + 19.07 + 6.08 + 1.98 + 0.17 + 2.38 + 5.59 + 0.10 = 100.00
+\tag{56}
+$$
+
+**Equation 57, Share of Territorial Disputes Settled by China.**
+Seventeen disputes settled out of 23 give a share of about three quarters.
+[Fravel 2005][journal_fravel_2005_regime_insecurity]
+
+$$
+\frac{17}{23} \approx 0.74
+\tag{57}
+$$
+
+*Equation 58, Bespoke Garrison Requirement for Taiwan.*
+The force ratio of twenty security personnel per thousand inhabitants is applied to Taiwan's registered population, which assumes a garrison model and transfers a ratio drawn from much smaller cases.
+[Quinlivan 2003][research_quinlivan_2003_burden_of_victory]
+[Ministry of the Interior's monthly bulletin of interior statistics][data_moi_2026_taiwan_population]
+
+$$
+F = \rho \times \frac{P}{1000} = 20 \times 23{,}299 = 465{,}980 \ \text{personnel}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Total Force to Sustain the Garrison.*
+The rule of five personnel in the force for each one deployed is applied to the garrison requirement of the article's own calculation.
+[Quinlivan 2003][research_quinlivan_2003_burden_of_victory]
+
+$$
+5 \times 465{,}980 \approx 2{,}330{,}000 \ \text{personnel}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Garrison Requirement Relative to the Invasion Force.*
+The garrison requirement of the article's own calculation divided by the troops landed in a public campaign model shows the occupation needing more personnel than the invasion.
+[Stewart 2023][research_stewart_2023_island_blitz]
+
+$$
+\frac{465{,}980}{262{,}000} \approx 1.78
+\tag{60}
+$$
+
+**Equation 61, Required Force Ratio Relative to Iraq in 2003.**
+The required ratio of twenty per thousand divided by the 6.1 per thousand fielded in Iraq gives a factor of more than three.
+[Quinlivan 2003][research_quinlivan_2003_burden_of_victory]
+
+$$
+\frac{20}{6.1} \approx 3.3
+\tag{61}
+$$
+
+**Equation 62, Indirect Relative to Direct Toll of a Nuclear War.**
+People without food at the end of year two divided by direct fatalities give the ratio of the indirect to the direct toll in each soot scenario.
+[Xia et al. 2022][journal_xia_2022_nature_food]
+
+$$
+\frac{255}{27} \approx 9.4 \ \text{at 5 Tg},
+\qquad
+\frac{5{,}341}{360} \approx 14.8 \ \text{at 150 Tg}
+\tag{62}
+$$
+
+**Equation 63, Scaling of the Toll with the Soot Load.**
+The ratios of soot, direct deaths and people without food between the largest and smallest scenarios show the indirect toll growing faster than the direct one.
+[Xia et al. 2022][journal_xia_2022_nature_food]
+
+$$
+\frac{150}{5} = 30,
+\qquad
+\frac{360}{27} \approx 13.3,
+\qquad
+\frac{5{,}341}{255} \approx 20.9
+\tag{63}
+$$
+
+**Equation 64, Chinese Calorie Loss Relative to the Global Average.**
+The fall in Chinese food calorie availability divided by the global average fall at five teragrams shows China losing over seventy percent more.
+[Xia et al. 2022][journal_xia_2022_nature_food]
+
+$$
+\frac{14.1}{8.2} \approx 1.72
+\tag{64}
+$$
+
+**Equation 65, Scaling of Maize Loss with the Soot Load.**
+The fall in maize production at 150 teragrams divided by the fall at five teragrams gives a factor of about eleven.
+[Shi et al. 2025][journal_shi_2025_adapting_agriculture]
+
+$$
+\frac{80}{7} \approx 11.4
+\tag{65}
+$$
+
+**Equation 66, Simulated Black Carbon Relative to the Assumed Load.**
+The black carbon produced in the firestorm simulations divided by the load the earlier scenario injects gives a ratio of about three quarters.
+[Reisner et al. 2018][journal_reisner_2018]
+
+$$
+\frac{3.7}{5.0} = 0.74
+\tag{66}
+$$
+
+**Equation 67, Preference for an Indigenous Arsenal.**
+The share of South Koreans preferring an indigenous weapon divided by the share preferring redeployed American weapons gives a ratio of more than seven to one.
+[Dalton et al. 2022][data_chicago_council_2022_south_korea]
+
+$$
+\frac{67}{9} \approx 7.4
+\tag{67}
+$$
+
+**Equation 68, Ratio of Chinese to American Battle Force Ships.**
+The cited Chinese battle force count divided by the American count gives a ratio that the text shows rests on a 2023 projection.
+[Nemeth 2026][journal_nemeth_2026_suez_moment]
+
+$$
+\frac{395}{295} \approx 1.34
+\tag{68}
+$$
+
+**Equation 69, Recomputed Ratio of Battle Force Ships.**
+The 2023 measurement of the Chinese fleet divided by the 2026 American count gives a smaller ratio on quantities three years apart.
+[Department of Defense annual report to Congress][government_dod_2023_china_report]
+[Navy's shipbuilding plan for fiscal year 2027][government_navy_2026_shipbuilding_plan]
+
+$$
+\frac{370}{291} \approx 1.27
+\tag{69}
+$$
+
+**Equation 70, Settlement Rates of Interstate and Civil Wars.**
+The share of interstate wars resolved by negotiation divided by the share of civil wars gives a factor of nearly three.
+[Walter 1997][journal_walter_1997_critical_barrier]
+
+$$
+\frac{55}{20} = 2.75
+\tag{70}
+$$
+
+**Equation 71, Human Relative to Physical Capital Shocks.**
+The effect of a human-capital shock on scientific output divided by that of a physical-capital shock of the same size gives a factor of four.
+[Waldinger 2016][journal_waldinger_2016_bombs_brains]
+
+$$
+\frac{0.2}{0.05} = 4
+\tag{71}
+$$
+
+**Equation 72, Range in Fuel Loading.**
+The fuel loading at which black carbon reaches the stratosphere divided by the loading that produces no forcing gives a sixteenfold range.
+[Wagman et al. 2020][journal_wagman_2020_multiscale]
+
+$$
+\frac{16}{1} = 16
+\tag{72}
+$$
+
+**Equation 73, Share of Latent Nuclear States That Built Arsenals.**
+Ten arsenals among 31 states with the capacity to build them give a share under one third.
+[Fuhrmann and Tkach 2015][journal_fuhrmann_tkach_2015_nuclear_latency]
+
+$$
+\frac{10}{31} \approx 0.32
+\tag{73}
+$$
+
+**Equation 74, Measured Relative to Assumed Learning Rates.**
+The low and high ends of the measured learning rate divided by the matching ends of the assumed rate give between a third and a half.
+[Knežević 2026][journal_knezevic_2026_capacity_gap]
+
+$$
+\frac{5}{10} = 0.5,
+\qquad
+\frac{8}{25} = 0.32
+\tag{74}
+$$
+
+**Equation 75, Spread of Headline Welfare Loss Estimates.**
+The highest headline welfare loss divided by the lowest gives a spread of about three before any disagreement about scenario.
+[Goes and Bekkers 2022][journal_goes_bekkers_2022_geopolitical_conflicts]
+[Javorcik et al. 2024][journal_javorcik_2024_friendshoring]
+
+$$
+\frac{15}{4.7} \approx 3.2
+\tag{75}
+$$
+
+### Notation
+
+- $T_g$, the campaign horizon the invasion game models, with $T_w$ the duration of the war the report describes
+- $T$, a replacement or exhaustion time
+- $L$, the number of aircraft or hulls lost
+- $\dot{q}$, the annual procurement rate, with $\dot{q}_{\text{net}}$ the rate net of programmed construction
+- $n$, the number of yards building a class of ship
+- $B$, the build duration of one hull in years
+- $k$, the number of hulls a yard builds concurrently, which no public source states
+- $Y_{1948}$, German output in 1948 indexed to 1938, written $Y$ for Ukrainian real output as a percentage of 2021 in Equation 50
+- $K_{1948}$, German industrial capacity in 1948 indexed to 1936, written $K$ for the Ukrainian housing stock as a percentage of its baseline in Equation 50
+- $T_{\text{LNG}}$, the days of liquefied natural gas held by Taiwan, with $T_{\text{coal}}$ the days of coal
+- $\Delta_{\text{defeat}}$, the change in the chance of irregular removal from office that follows defeat
+- $F$, the number of security personnel required to garrison Taiwan
+- $\rho$, the required force ratio in security personnel per thousand inhabitants
+- $P$, the registered population of Taiwan
 
 ## References
 

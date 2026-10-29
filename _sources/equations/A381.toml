@@ -1,0 +1,343 @@
+# Equation classification for A381, Orbital Manoeuvres in Terms of Delta-v.
+
+caution = "The worked numbers state speeds in kilometres per second and distances in kilometres, so the gravitational parameter must be expressed in matching units, and every delta-v assumes an instantaneous burn without losses unless the equation itself integrates over the burn."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Vis-Viva Equation"
+gloss = "Conservation of energy on a conic orbit fixes the speed at any distance from the semi-major axis and the gravitational parameter alone."
+cite = ["ref_vis_viva_equation"]
+digest = "1bcd33bcfa4022f9"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Circular and Escape Speeds"
+gloss = "Setting the semi-major axis equal to the radius gives the circular speed, and letting it grow without bound gives an escape speed larger by the square root of two."
+cite = []
+digest = "bb6326079d20335d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Specific Orbital Energy, Angular Momentum and Period"
+gloss = "The specific energy depends on the semi-major axis alone, the specific angular momentum on the speed and flight path angle, and the period on the semi-major axis alone."
+cite = []
+digest = "81de382b6633d68b"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The ratio of initial to final mass grows exponentially with the delta-v measured in units of the exhaust speed."
+cite = ["ref_tsiolkovsky_rocket_equation"]
+digest = "2b469b5984e427b2"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Exhaust Speed from Specific Impulse and the Propellant Fraction"
+gloss = "The exhaust speed is the specific impulse times standard gravity, and the fraction of the starting mass that is propellant follows from the mass ratio of the rocket equation."
+cite = []
+digest = "760296dcd7ab2116"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Delta-v Limit of a Single Stage Without Payload"
+gloss = "A stage that carries no payload ends its burn with only its structure, so the structural ratio caps the mass ratio and therefore the delta-v."
+cite = ["ref_multistage_rocket"]
+digest = "e50d060e55b9b191"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Payload Fraction of Identical Stages"
+gloss = "Stages of equal exhaust speed and structural ratio that share the total delta-v equally each contribute the same factor, so the payload fraction is that factor raised to the number of stages."
+cite = ["ref_multistage_rocket"]
+digest = "13900899122f94dc"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Rocket Equation with Continuous Shedding of Structure"
+gloss = "Dropping structure continuously in a fixed proportion to the propellant burned reduces the effective exhaust speed by the factor one minus the structural ratio, which is the limit of infinitely many stages under the stated assumption."
+cite = []
+digest = "42f106f300cdd5eb"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Delta-v of Two Burns Separated by a Mass Drop"
+gloss = "The rocket equation applied to a burn, the release of a dead mass and a second burn shows that shedding mass adds delta-v only through the later burn."
+cite = []
+digest = "3fbf4f06df95cbe8"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Gravity Loss During a Finite Burn"
+gloss = "The component of gravity along the flight path, integrated over the burn, is the delta-v spent holding the vehicle up rather than accelerating it."
+cite = ["ref_gravity_loss"]
+digest = "ee383eb6d8a12ff4"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Single Burn to Raise or Lower the Opposite Apsis"
+gloss = "The vis-viva equation evaluated before and after a burn at a fixed radius gives the change in speed that moves the orbit from one semi-major axis to another."
+cite = []
+digest = "5b19e362e976302f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Plane Change at Constant Speed"
+gloss = "Rotating a velocity vector of unchanged magnitude through the plane change angle costs the chord of that rotation, which is proportional to the speed."
+cite = ["ref_orbital_inclination_change"]
+digest = "acb7f3b8c9f0d17f"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Plane Change on an Elliptical Orbit"
+gloss = "The cost of an inclination change at a node of an elliptical orbit depends on the eccentricity, the true anomaly and the argument of periapsis, and it reduces to the circular case when the eccentricity vanishes."
+cite = ["ref_orbital_inclination_change"]
+digest = "57b489589e098ee5"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Combined Plane and Speed Change"
+gloss = "The law of cosines gives the magnitude of the vector difference between the velocities before and after a burn that changes both speed and direction."
+cite = ["ref_geostationary_transfer_orbit"]
+digest = "2e4f02f47ab992b3"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Hohmann Transfer Burns and Flight Time"
+gloss = "An ellipse tangent to two coplanar circular orbits needs one burn at each end, and half its period is the flight time."
+cite = ["ref_hohmann_transfer_orbit"]
+digest = "f45cc3bb3d3fcb46"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Normalized Hohmann Cost and the Ratio of Its Maximum"
+gloss = "Measured in units of the starting circular speed, the Hohmann cost depends on the ratio of the radii alone and is greatest at the positive root of a cubic."
+cite = ["ref_hohmann_transfer_orbit"]
+digest = "5300c3aadba182d9"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Bi-elliptic Transfer Burns"
+gloss = "Two half-ellipses meeting at an intermediate radius beyond the target need three burns, each the difference of two speeds given by the vis-viva equation."
+cite = ["ref_bi_elliptic_transfer"]
+digest = "53112f15f44af67b"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Bi-parabolic Transfer Cost"
+gloss = "In the limit of an infinitely distant intermediate radius the middle burn vanishes and the total cost reduces to an escape from the inner orbit and a capture into the outer one."
+cite = ["ref_bi_elliptic_transfer"]
+digest = "9fa61b772b27e126"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Bi-elliptic Flight Time"
+gloss = "The flight time is the sum of the half-periods of the two transfer ellipses, which grows quickly with the intermediate radius."
+cite = []
+digest = "50794fd8802f0cd6"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Period of a Phasing Orbit"
+gloss = "A chaser that must close a phase angle in a whole number of revolutions needs an orbit whose period differs from the original by that fraction of a revolution shared among the revolutions."
+cite = ["ref_orbit_phasing"]
+digest = "90307106f4fd8f9b"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Semi-Major Axis and Cost of a Phasing Orbit"
+gloss = "Kepler's third law gives the semi-major axis from the period, and because both burns occur at the same point of a circular orbit the cost is twice the speed difference there."
+cite = ["ref_orbit_phasing"]
+digest = "06459b51fffdc61e"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Clohessy-Wiltshire Equations"
+gloss = "The linearized motion of a chaser relative to a target on a circular orbit couples the radial and along-track directions and leaves the out-of-plane motion a simple oscillation."
+cite = ["ref_clohessy_wiltshire_equations", "research_clohessy_wiltshire_1960"]
+digest = "c7d385ee62bdbe2a"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Along-Track Drift from a Small Change in Radius"
+gloss = "A small change in radius changes the mean motion, and over one period the chaser gains or loses three pi times the radial offset along the orbit."
+cite = []
+digest = "4373ad5d55a9e9b8"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Departure Burn from a Circular Parking Orbit"
+gloss = "Energy conservation between the parking orbit and a great distance gives the single burn that leaves the planet with a chosen hyperbolic excess speed."
+cite = ["ref_hyperbolic_trajectory"]
+digest = "e49f4f9c51a009b2"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Kinetic Energy Gained from a Burn Along the Velocity"
+gloss = "The specific kinetic energy a burn adds grows with the speed at which it is made, which is the origin of the Oberth effect."
+cite = ["ref_oberth_effect"]
+digest = "cc404b4ae424319c"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Optimal Periapsis and Minimum Cost of Capture"
+gloss = "Capture into an ellipse of given eccentricity is cheapest at a periapsis radius set by the arrival excess speed, and the minimum cost is then proportional to that speed."
+cite = []
+digest = "3df70a0282e61fb2"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Sphere of Influence, Synodic Period and Hohmann Phase Angle"
+gloss = "The patched conic method rests on the approximate radius within which a planet dominates, the interval between alignments of two orbits and the lead the target needs at departure for a Hohmann transfer."
+cite = ["ref_sphere_of_influence"]
+digest = "cb042fbef314bae8"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Turn Angle and Velocity Change of an Unpowered Flyby"
+gloss = "The hyperbolic excess velocity keeps its magnitude in the planet's frame and is rotated through a turn angle set by the periapsis radius, so the velocity change is the chord of that rotation."
+cite = ["ref_gravity_assist"]
+digest = "0f493ed51685f7be"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Powered Flyby with a Burn at Periapsis"
+gloss = "A burn added to the periapsis speed of a flyby is carried out to a great distance by energy conservation, which is the Oberth effect applied to a gravity assist."
+cite = ["ref_oberth_effect"]
+digest = "9f5dce33aad542e5"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Delta-v of a Slow Spiral Between Circular Orbits"
+gloss = "Thrust along the velocity on an orbit that stays nearly circular changes the energy at a rate that makes the total delta-v the difference of the two circular speeds."
+cite = []
+digest = "aa53b11b5df0db8a"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Duration of a Spiral at Constant Acceleration"
+gloss = "At a constant thrust acceleration the time of the spiral is its delta-v divided by that acceleration."
+cite = []
+digest = "8c22c953087e0690"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the central body"
+
+[[symbol]]
+tex = 'a'
+meaning = "the semi-major axis of an orbit, except in Equation 31, where it is the thrust acceleration"
+
+[[symbol]]
+tex = 'v_{c}'
+meaning = "the circular orbital speed, with $v_{c1}$ and $v_{c2}$ for the starting and final orbits of a spiral"
+
+[[symbol]]
+tex = 'v_{\mathrm{esc}}'
+meaning = "the local escape speed"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the specific orbital energy in Equation 3 and the structural ratio of a stage in Equations 6 to 8"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the flight path angle measured from the local horizontal"
+
+[[symbol]]
+tex = 'h'
+meaning = "the specific angular momentum of an orbit"
+
+[[symbol]]
+tex = 'T'
+meaning = "the period of an orbit, with $T_{\\mathrm{ph}}$ for a phasing orbit and $T_{\\mathrm{syn}}$ for the synodic period"
+
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the exhaust speed of a rocket relative to the vehicle"
+
+[[symbol]]
+tex = 'm_{0}'
+meaning = "the initial mass of a vehicle, with $m_{f}$ its final mass, $m_{p}$ the propellant and $m_{d}$ a dead mass that is dropped"
+
+[[symbol]]
+tex = 'I_{\mathrm{sp}}'
+meaning = "the specific impulse of a rocket engine, with standard gravity $g_{0}$"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of identical stages"
+
+[[symbol]]
+tex = '\Delta i'
+meaning = "the change in inclination of the orbital plane"
+
+[[symbol]]
+tex = 'e'
+meaning = "the eccentricity of an orbit"
+
+[[symbol]]
+tex = 'n'
+meaning = "the mean motion of an orbit"
+
+[[symbol]]
+tex = '\omega'
+meaning = "the argument of periapsis, with $f$ the true anomaly of the burn"
+
+[[symbol]]
+tex = 'R'
+meaning = "the ratio $r_{2}/r_{1}$ of the outer to the inner orbital radius"
+
+[[symbol]]
+tex = 'r_{b}'
+meaning = "the intermediate radius of a bi-elliptic transfer"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the phase angle by which a target leads, with $k$ the number of phasing revolutions and $\\theta_{H}$ the lead a Hohmann transfer requires"
+
+[[symbol]]
+tex = 'v_{\infty}'
+meaning = "the hyperbolic excess speed, the speed that remains far from the body being left or approached"
+
+[[symbol]]
+tex = 'r_{p}'
+meaning = "the periapsis radius of a hyperbolic or elliptical orbit, with $v_{p}$ the speed there"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the angle through which a flyby turns the excess velocity"
+
+[[symbol]]
+tex = 'r_{\mathrm{SOI}}'
+meaning = "the radius of a planet's sphere of influence, for a planet of mass $m$ orbiting a star of mass $M$"

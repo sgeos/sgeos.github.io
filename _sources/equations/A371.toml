@@ -1,0 +1,339 @@
+# Equation classification for A371. Read by `python3 _lib/equations.py`.
+
+caution = "Bytecode time bounds are in the units of the verifier's calibrated cost table and native time is in processor cycles, while memory is counted in eight-byte operand slots unless an equation states bytes, so a ratio between a bytecode quantity and a native quantity has no meaning until those units are reconciled."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Transfer Schema"
+gloss = "The article's schema for the inference under examination, in which a property established about one artefact is claimed for its transformed form without any argument about the transformation."
+cite = []
+digest = "52ed2981dd6fba37"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Worst-Case Path Cost"
+gloss = "The worst-case time of a unit of code is the largest sum of per-instruction costs over all paths through it, which is the usual path formulation of worst-case execution time."
+cite = []
+digest = "e7514ded11cb1434"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Verifier Memory Bound"
+gloss = "The verifier's memory bound is assembled from the deepest operand stack multiplied by the slot width and a separately computed arena requirement, a construction particular to this language."
+cite = []
+digest = "0bf94700d5f42d42"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Notation for the Verifier's Bounds"
+gloss = "The time and memory bounds of Equations 2 and 3 are written for a whole program, and they inherit the construction of the memory bound."
+cite = []
+digest = "e77a78f51ebfdc4d"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Notation for the Native Worst Case"
+gloss = "The true worst-case time and memory of the compiled artefact on its target are named so that they can be compared with the bytecode bounds."
+cite = []
+digest = "7ba0bfecd3999b6f"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Transfer Claim with Program-Independent Constants"
+gloss = "The claim under examination is that native time and memory are each bounded by a constant multiple of the bytecode bound, with constants that do not depend on the program."
+cite = []
+digest = "c8254eac0e779e28"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Verifier Memory Bound in Bytes"
+gloss = "Equation 3 is evaluated with a slot width of eight bytes for the target examined."
+cite = []
+digest = "edcd5bcbd7691fa0"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Unoptimised Frame Model"
+gloss = "The unoptimised frame is modelled as the backend's fixed reservation of sixty-four slots plus one slot per named variable, with the callee-saved registers and alignment that the calling convention adds, and the proven depth appears nowhere in it."
+cite = ["ref_llvm_langref", "ref_sysv_amd64", "ref_aapcs64"]
+digest = "feaf2450a34be3b9"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Count of Unoptimised Stack Allocations"
+gloss = "Summing the backend's fixed reservation and the named variables over every function predicts the number of stack allocation instructions, which matches the measured corpus exactly."
+cite = []
+digest = "f05b66a91c5c2f62"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Count of Stack Allocations After Promotion"
+gloss = "The measured count of stack allocation instructions that survive the shipped optimisation pipeline is zero, a fact about the intermediate representation rather than about the final frame."
+cite = []
+digest = "5300bb6f1ccd401e"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Dependence of the Optimised Frame on the Register Allocator"
+gloss = "The shipped frame is stated to be a function of the spilling decisions of the register allocator, which depend on the target, the pass pipeline, the compiler version and the surrounding code, and not on the bytecode bound."
+cite = ["ref_llvm_codegen"]
+digest = "b95b42f60cd86aa0"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Per-Instruction Domination Premise"
+gloss = "The premise assumes a correspondence from each bytecode instruction to the machine instructions derived from it and requires their native time to stay within a constant multiple of the modelled cost, a correspondence that optimisation routinely destroys."
+cite = []
+digest = "0b48af6d9e5b39dd"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Domination Along the Worst Path"
+gloss = "Summing the premise of Equation 12 along the most expensive path bounds the native time by the same constant multiple of the bytecode bound."
+cite = []
+digest = "bcf55b50a34c2276"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Count of Discordant Pairs"
+gloss = "An inversion is a pair of code units that the bytecode bound and the native instruction count order oppositely, which is the discordant pair of rank correlation."
+cite = ["research_kendall_1938"]
+digest = "d7b87b5841182987"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Count of Pairs Strictly Ordered by the Bound"
+gloss = "Only pairs that the bound orders strictly can invert, and their number cannot exceed the number of unordered pairs in the sample."
+cite = ["research_kendall_1938"]
+digest = "3f2d8cfd44faa19e"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Rank Correlation over Strictly Ordered Pairs"
+gloss = "The inversion count is normalised by the pairs the bound strictly orders rather than by all pairs, a choice that departs from the classical form of Kendall's coefficient and coincides with it only when the bound has no ties."
+cite = ["research_kendall_1938"]
+digest = "ef6b9d1298f20218"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Pairs Remaining After Removing Ties"
+gloss = "The strictly ordered pairs are all pairs less the pairs within each group of equal bound, evaluated here for nine units of which seven share one bound."
+cite = []
+digest = "b57eb10ebb2a735a"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Resolution of the Ordering Test"
+gloss = "The article introduces the fraction of all pairs that the sample can actually compare as a measure of how much the zero inversion count is able to say."
+cite = []
+digest = "7b62fc5ef17b2a73"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Status of the Two Transfer Constants"
+gloss = "Equation 6 is restated with the memory constant observed to equal one on this corpus without proof and the time constant asserted to exist without calibration."
+cite = []
+digest = "1394da7394f14961"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Execution Time from Instruction Count and Cycles per Instruction"
+gloss = "Native execution time is bounded by the instruction count multiplied by the largest number of cycles per instruction, which is the usual decomposition of processor time."
+cite = []
+digest = "7ca7e91c293795bc"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Semantic Preservation by a Verified Compiler"
+gloss = "A verified compiler guarantees that the compiled program has the same observable meaning as the source program and guarantees nothing about its resource use."
+cite = ["research_leroy_2009_cacm", "research_leroy_2009_jar"]
+digest = "fd6f32ddb52bcf67"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Resource Preservation Inequality"
+gloss = "The property the article requires of a compiler is that a resource measure of the compiled program stays within a constant multiple of the same measure of the source, which semantic preservation does not imply."
+cite = []
+digest = "5e484b5cdc353d56"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Contrast Between Transfer and Lifting"
+gloss = "The article sets the assumed transfer of a bound onto the artefact against the lifting of a cost computed from the artefact back onto the source, the approach the certified cost-annotating compiler takes."
+cite = ["research_amadio_2012", "research_ayache_2012"]
+digest = "acb89734e93f0c85"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Schema for Fixing a Contract"
+gloss = "The first deployed shape fixes a property in advance and builds the transformation so that the property holds of its output by construction."
+cite = []
+digest = "47dd1297afaf425f"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Schema for Recomputing on the Artefact"
+gloss = "The second deployed shape measures the property on the transformed artefact itself, so that the property of the original plays no part."
+cite = []
+digest = "7349a9f8e7bd99c0"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Schema for Unsupported Transfer"
+gloss = "The third shape, the one the project had assumed, proves a property of the original and claims it for the transformed artefact while saying nothing about the transformation."
+cite = []
+digest = "f098125e6a221ed6"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "any property, with a subscript zero for a property fixed in advance as a contract"
+
+[[symbol]]
+tex = '\mathcal{T}'
+meaning = "any transformation of an artefact"
+
+[[symbol]]
+tex = 'A'
+meaning = "the artefact a property was established about"
+
+[[symbol]]
+tex = 'T_{\mathrm{vm}}'
+meaning = "the verifier's worst-case time bound computed from bytecode"
+
+[[symbol]]
+tex = 'M_{\mathrm{vm}}'
+meaning = "the verifier's worst-case memory bound computed from bytecode"
+
+[[symbol]]
+tex = 'T_{\mathrm{nat}}'
+meaning = "the true worst-case time of the native artefact on its target"
+
+[[symbol]]
+tex = 'M_{\mathrm{nat}}'
+meaning = "the true worst-case memory of the native artefact, with a superscript naming the optimisation level"
+
+[[symbol]]
+tex = '\Pi(k)'
+meaning = "the set of paths through a unit of code $k$"
+
+[[symbol]]
+tex = 'c(\iota)'
+meaning = "the calibrated cost of bytecode instruction $\\iota$ in the verifier's cost table"
+
+[[symbol]]
+tex = 'w'
+meaning = "the width of one operand slot, eight bytes on the target examined"
+
+[[symbol]]
+tex = '\mathrm{depth}'
+meaning = "the operand stack depth of a unit of code at instruction position $ip$"
+
+[[symbol]]
+tex = '\mathrm{arena}(k)'
+meaning = "the arena allocation requirement of a unit of code"
+
+[[symbol]]
+tex = '\mathcal{B}(P)'
+meaning = "the bytecode of program $P$"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the program-independent constant relating native time to the bytecode time bound"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the program-independent constant relating native memory to the bytecode memory bound"
+
+[[symbol]]
+tex = '\mathrm{locals}(f)'
+meaning = "the number of named variables in function $f$"
+
+[[symbol]]
+tex = '\mathrm{MAX\_STACK}'
+meaning = "the fixed reservation of sixty-four operand slots the backend makes for every function"
+
+[[symbol]]
+tex = '\mathrm{allocs}'
+meaning = "the number of stack allocation instructions in the intermediate representation"
+
+[[symbol]]
+tex = '\mathrm{spill}'
+meaning = "the frame size the register allocator decides for a function"
+
+[[symbol]]
+tex = '\phi^{-1}'
+meaning = "the inverse of the correspondence from machine instructions to the bytecode instruction they came from"
+
+[[symbol]]
+tex = 't_{\mathrm{nat}}'
+meaning = "the native execution time of one machine instruction"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the per-instruction constant of the domination premise"
+
+[[symbol]]
+tex = '\pi^{*}'
+meaning = "the most expensive path through the bytecode"
+
+[[symbol]]
+tex = '\mathrm{inv}'
+meaning = "the number of inversions between the bytecode bound and the native instruction count"
+
+[[symbol]]
+tex = 'N_{\prec}'
+meaning = "the number of pairs that the bytecode bound orders strictly"
+
+[[symbol]]
+tex = 'n_{g}'
+meaning = "the size of a group of code units sharing one bound, out of $n$ units in all"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the rank correlation between the bytecode bound and the native instruction count"
+
+[[symbol]]
+tex = 'S(f)'
+meaning = "the number of machine instructions emitted for a unit of code"
+
+[[symbol]]
+tex = '\mathrm{CPI}_{\max}'
+meaning = "the largest number of processor cycles per instruction"
+
+[[symbol]]
+tex = '\mathcal{C}'
+meaning = "a compiler, the particular transformation the article examines"
+
+[[symbol]]
+tex = '\mathcal{R}'
+meaning = "a resource measure, with superscripts naming the frame, operand slots or time"
+
+[[symbol]]
+tex = '\llbracket P \rrbracket'
+meaning = "the observable meaning of program $P$"

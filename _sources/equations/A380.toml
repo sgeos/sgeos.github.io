@@ -1,0 +1,74 @@
+# Equation classification for A380. Read by `python3 _lib/equations.py`.
+
+caution = "All values are in the same money units, true values and market values are distinguished throughout, and the option inputs take rates and volatilities per year with the time to maturity in years."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Shareholder Wealth After a Pro-Rata Spin-off"
+gloss = "A shareholder who owns the same fraction of both companies after a pro-rata distribution holds that fraction of their combined value, so the distribution itself moves no value between shareholders."
+digest = "f4648786d57aebe6"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Shares Retired and Gain to Tendering Shareholders in a Split-off"
+gloss = "The article constructs the exchange so that each tendered parent share receives subsidiary shares worth the market price plus a premium, which fixes the shares retired and the true gain to those who tender."
+cite = ["ref_exchange_offer"]
+digest = "482b4cbfa7dc0494"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Condition for Remaining Shareholders to Gain from a Split-off"
+gloss = "Substituting the ratios of market to true value into the gain of Equation 2 shows that those who stay gain only when the market overvalues the subsidiary relative to the parent by more than the premium, an exchange-offer form of the repurchase result."
+cite = ["ref_share_repurchase"]
+digest = "b251a74b264ef498"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Limited-Liability Put Valued by the Black and Scholes Formula"
+gloss = "The value shareholders shed onto the holders of a liability assigned to a limited-liability company is a European put on its assets struck at the liability, priced by the Black and Scholes formula."
+cite = ["research_galai_masulis_1976"]
+digest = "937ef9a8dfc48ae4"
+
+[[symbol]]
+tex = 'w'
+meaning = "the fraction of the parent a shareholder owns before the spin-off"
+
+[[symbol]]
+tex = 'V_{C}'
+meaning = "the true value of the core after the separation, with $V_{S}$ the true value of the spun-off company or subsidiary"
+
+[[symbol]]
+tex = 'V_{S}^{m}'
+meaning = "the market value of all the subsidiary shares offered in the exchange"
+
+[[symbol]]
+tex = 'p'
+meaning = "the market price of a parent share, with $v$ its true value"
+
+[[symbol]]
+tex = '\pi'
+meaning = "the premium offered to induce tendering, as a fraction of the market price"
+
+[[symbol]]
+tex = 'n'
+meaning = "the number of parent shares retired in the exchange, with $G$ the true gain to the shareholders who tender"
+
+[[symbol]]
+tex = 'm_{S}'
+meaning = "the ratio of market to true value of the subsidiary, with $m_{P}$ the same ratio for the parent"
+
+[[symbol]]
+tex = 'A'
+meaning = "the value of the spun-off company's assets today, with $\\sigma$ their volatility"
+
+[[symbol]]
+tex = 'L'
+meaning = "the face value of the liability, due at time $T$"
+
+[[symbol]]
+tex = 'd_{1}'
+meaning = "the standardised argument of the option formula, with $d_{2}$ its companion, $N$ the standard normal distribution function and $r$ the risk-free rate"

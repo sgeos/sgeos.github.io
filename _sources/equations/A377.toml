@@ -1,0 +1,443 @@
+# Equation classification for A377. Read by `python3 _lib/equations.py`.
+
+caution = "Emission rates are in micrograms per second and concentrations in micrograms per cubic metre of total aromatic material, while time constants are stated in hours, so $\\tau$, $\\lambda$ and $t$ must be converted to seconds before they are combined with an emission rate or an air speed in metres per second."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Actuations per Bottle and Bottle Life"
+gloss = "The bottle volume divided by the volume of one actuation gives the number of actuations, and dividing again by the daily spray count gives the days the bottle lasts."
+digest = "039125b0d55258de"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Blend Threshold from the Odour Value of Its Most Potent Component"
+gloss = "The odour value of perfume engineering is set to one for the most potent component, under the article's assumption that this component alone governs detection of the blend and that vapour-phase enrichment and subthreshold interactions can be ignored."
+cite = ["research_rodrigues_2021_perfume_engineering"]
+digest = "20e7912cd5fe87ea"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Deposited Aromatic Mass"
+gloss = "The deposited mass is the product of the spray count, the volume, density and aromatic fraction of each actuation, and an assumed fraction of the spray that lands on the target."
+digest = "015b135dd396ac6d"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Spray-Equivalent Dose"
+gloss = "The article defines a unit of dose as one actuation of a reference eau de parfum at an aromatic fraction of 0.15, with pump volume and density held fixed."
+digest = "466784dc7aab4770"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Lumped Exponential Emission"
+gloss = "The whole mixture is collapsed into a single pool that empties at a rate proportional to what remains, which ignores the early emission of the most volatile components and any residue that is never emitted."
+digest = "0497afa5b859df92"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Clausius-Clapeyron Ratio of Vapour Pressures"
+gloss = "The integrated relation with a constant enthalpy of vaporisation gives the ratio of vapour pressures at two absolute temperatures, which the article takes as approximately the ratio of emission rates."
+cite = ["ref_clausius_clapeyron", "research_clapeyron_1843_motive_power", "research_clausius_1850_motive_power"]
+digest = "4bfb3560f31cf892"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Emission Factor Between Distal Skin and the Trunk"
+gloss = "Equation 6 evaluated for linalool between the coolest distal skin and the trunk gives an emission factor of 1.35."
+cite = ["data_nist_linalool", "research_savastano_2009_regional_temperature"]
+digest = "61aae5c5644fe1ae"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Scaling of the Time Constant with Emission Rate"
+gloss = "Because the lumped model fixes the deposited mass at application, a faster emission exhausts the pool sooner and the time constant scales inversely with the emission factor."
+digest = "b80e1f9cf37c0b05"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Near-Field Plume Concentration"
+gloss = "The centreline concentration of a Gaussian plume from a continuous point source is evaluated under the article's assumption that both lateral spreads grow linearly with distance, which makes the concentration fall as the inverse square of distance."
+cite = ["ref_atmospheric_dispersion"]
+digest = "b3aa64c3436421f8"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Detection Radius"
+gloss = "Setting the plume concentration of Equation 9 equal to the median detection threshold and substituting the dose and emission models gives the distance at which the median receiver can just detect the fragrance."
+digest = "407f234dd971417c"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Square-Root Scaling of Radius with Spray Count"
+gloss = "Under the linear dose model and the inverse-square plume, the detection radius grows with the square root of the spray count and the detected area grows linearly with it."
+digest = "dcbfd83fc7b019a4"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Half-Life of the Detection Radius"
+gloss = "The radius of Equation 10 decays at half the rate of the lumped emission, so it halves after twice the time constant times the natural logarithm of two whatever the dose."
+digest = "ee2c062a5198e24b"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Detection Life at a Fixed Distance"
+gloss = "Setting the plume concentration equal to the median threshold and solving for time gives how long a receiver at a fixed distance continues to detect, under the lumped emission and inverse-square plume models."
+digest = "9562c2e88125a0f8"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Detection Life Added by One More Spray"
+gloss = "Because the initial emission rate is proportional to the spray count, the life added by one more spray in Equation 13 depends only on the count already applied."
+digest = "d4335e7103a83510"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Spray Count Needed to Hold the Radius in Wind"
+gloss = "The plume concentration is inversely proportional to the air speed, so holding the detection radius fixed requires the spray count to change in proportion to the air speed."
+digest = "9a091897afdb699b"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Mass Balance of a Well-Mixed Ventilated Room"
+gloss = "The room concentration rises with the wearer's emission divided by the room volume and falls as ventilation removes a fixed fraction per hour, the far-field half of the standard two-zone model of occupational hygiene."
+cite = ["research_abattan_lavoue_2021", "research_steiling_vandecasteele_2025"]
+digest = "a0529d119bea29e4"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Room Concentration from an Exponentially Decaying Source"
+gloss = "The mass balance of Equation 16 is solved with the lumped exponential emission of Equation 5 as its source, so the solution inherits that single-pool assumption."
+digest = "1cf7c5f3c8546ee1"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Time of Peak Room Concentration"
+gloss = "Setting the derivative of Equation 17 to zero gives the time at which the room concentration peaks for a decaying source and a fixed air change rate."
+digest = "eed9dee1e11ace7e"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Late-Time Room Concentration"
+gloss = "Once many air-change times have passed, Equation 17 approaches a fixed multiple of the current emission rate set by the room volume and the difference between the ventilation and emission rates."
+digest = "56b9c23281c589e7"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Room-Regime Number"
+gloss = "The article introduces the ratio of the late-time room concentration to the near-field concentration at the intended receiver as a dimensionless figure of merit that cancels the dose and shows whether the room or the wearer is the source."
+digest = "d1d39dc506b8c6ab"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Early-Time Concentration in a Closed Volume"
+gloss = "Before ventilation or emission decay has acted, the room concentration is the mass emitted so far divided by the volume."
+digest = "c4ca33abe84f0310"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Stevens Power Law for Odour Intensity"
+gloss = "Perceived intensity grows as a power of concentration, with an exponent well below one for odours and a scale constant that drops out of every ratio."
+cite = ["ref_stevens_power_law", "research_stevens_1957_psychophysical_law", "research_moskowitz_1979_psychophysical"]
+digest = "6155019cae95508e"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Intensity Ratio Between Two Spray Counts"
+gloss = "With concentration proportional to spray count at a fixed distance, the Stevens power law makes the ratio of perceived intensities the ratio of counts raised to the exponent."
+cite = ["ref_stevens_power_law"]
+digest = "72db971b7ecc3d13"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Log-Normal Probability of Detection"
+gloss = "The article represents differences between receivers by a log-normal distribution of detection thresholds with an assumed spread, so the probability of detection is the standard normal distribution function of the log ratio to the median threshold."
+digest = "0390341b7c5c42af"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Log-Normal Probability of Overload"
+gloss = "The same log-normal form with an assumed median overload concentration in place of the detection threshold gives the probability that a receiver finds the fragrance too strong."
+digest = "64f675b217e22cd3"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Ratio of Wearer to Receiver Exposure"
+gloss = "Under the inverse-square plume of Equation 9, the ratio of the wearer's exposure to a receiver's depends on the two distances alone."
+digest = "039b7ed6526671a0"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Adaptation Factor"
+gloss = "The wearer's perceived intensity relative to its initial value is modelled as an exponential decay toward a floor, with an assumed floor and time constant chosen within the bracket of published experiments."
+digest = "aefd2bf306ce6075"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Adaptation Half-Time"
+gloss = "Setting the adaptation factor of Equation 27 to one half and solving for time gives the moment at which the wearer perceives half the initial intensity."
+digest = "98b3eca1de65db5c"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Emission Under the Reapplication Spiral"
+gloss = "The article assumes that the wearer reapplies the original dose at every adaptation half-time, so the emission rate is the sum of the lumped decays of every application made so far."
+digest = "29c95c996b47c918"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Detection Measure of Effectiveness"
+gloss = "The article defines detection as the time average over the scenario window of the probability that the intended receiver detects the sum of the plume and room concentrations."
+digest = "795869e652efe121"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Collateral and Overkill Measures of Effectiveness"
+gloss = "Collateral replaces the intended receiver's distance with the unintended receiver's in the detection measure, and overkill replaces the detection probability with the overload probability."
+digest = "83c26e4d2b16d868"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Recommended Course of Action"
+gloss = "The recommended spray count is the smallest count from zero to six that meets the article's thresholds of one half for detection, one fifth for collateral and one tenth for overkill."
+digest = "318f00a3765390cf"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Expected Number of Unintended Receivers Who Detect"
+gloss = "By linearity of expectation the expected number of detecting receivers is the sum of their individual probabilities, which is the count times the common probability when they stand at comparable distance."
+digest = "ea3d08317384aaa9"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Separation of Receivers in Threshold Standard Deviations"
+gloss = "Combining the inverse-square plume with the log-normal threshold model expresses the concentration gap between intended and unintended receivers as a number of standard deviations that is independent of dose."
+digest = "9092c04baf228cb8"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Ceiling on Detection at the Collateral Limit"
+gloss = "Holding the unintended receiver at the collateral limit and adding the separation of Equation 34 caps the instantaneous detection probability of the intended receiver in the near field whatever the spray count."
+digest = "c24042a35ab139c3"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Superposition of Split Applications"
+gloss = "Because the plume and room equations are linear in the source, the emission from applications made at different times is the sum of their individual lumped decays, each switched on at its own time."
+digest = "76d85c5a3a507698"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Single-Application Dose to Hold an Emission Rate"
+gloss = "Under the lumped exponential emission, a single application must exceed the required dose by the decay factor across the window to deliver at its end the rate the required dose delivers at its start."
+digest = "246705ddc39c6fc3"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Mass Remaining on a Washed Wrist"
+gloss = "The article assumes that each handwash removes a fixed fraction of the remaining dose at a fixed interval, so the mass decays continuously by emission and in steps by washing."
+digest = "4d183c46408249cc"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Effective Time Constant with Washing"
+gloss = "Averaging the stepwise washing loss of Equation 38 over the day adds a continuous loss rate to the emission rate and shortens the effective time constant."
+digest = "2a5e672431bbb42e"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Ratio of Median Thresholds Between Female and Male Receivers"
+gloss = "A published effect size is read as a shift in the log threshold under the article's assumption that the test's threshold spread equals the spread used in its own log-normal model."
+cite = ["research_sorokowski_2019_sex_differences"]
+digest = "66824b72a8c7ffa7"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Tradeoff Between Starting Radius and Radius Half-Life"
+gloss = "Under the dose and emission models, a carrier that changes the time constant shrinks the starting radius as the inverse square root of that change and lengthens the radius half-life in proportion to it."
+digest = "d5d73f0537559511"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Spray Count Matching a Spray-Equivalent Dose"
+gloss = "Inverting the spray-equivalent definition of Equation 4 gives the count of a product at a given aromatic fraction that matches a required dose."
+digest = "122ba32c3bb61873"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Steady State of a Continuous Room Source"
+gloss = "A well-mixed room with a constant source settles at the emission rate divided by the ventilation flow, which is the air change rate times the volume."
+digest = "e0d520bacaf42160"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Approach of a Ventilated Room to Steady State"
+gloss = "From a fresh start with a constant source, the room concentration approaches its steady state exponentially at the air change rate."
+digest = "b36179156a8ff736"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Mean Areal Dose of One Actuation"
+gloss = "The article assumes a conical spray of fixed half-angle that spreads its deposited mass uniformly over a circular footprint, so the mean dose per unit area falls as the inverse square of the spray distance."
+cite = ["research_kimber_2008_dose_per_area"]
+digest = "70e5aff76a7526b8"
+
+[[symbol]]
+tex = 'v_s'
+meaning = "the volume delivered per actuation, with $V_b$ the bottle volume and $N_{\\mathrm{day}}$ the daily spray count"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of actuations, or spray count"
+
+[[symbol]]
+tex = 'N_{\mathrm{eq}}'
+meaning = "the dose in spray-equivalents, actuations of a reference eau de parfum at aromatic fraction $c_{\\mathrm{ref}}$"
+
+[[symbol]]
+tex = '\mathrm{ODT}_k'
+meaning = "the odour detection threshold of component $k$, with $x_k$ its mass fraction of the aromatic material and $\\mathrm{OV}_k$ its odour value"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the deposited aromatic mass, with $q_0$ the initial emission rate it produces"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the density of the finished fragrance"
+
+[[symbol]]
+tex = 'c'
+meaning = "the mass fraction of aromatic compounds in the product"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the fraction of the sprayed mass that lands on the target"
+
+[[symbol]]
+tex = 'q(t)'
+meaning = "the emission rate of aromatic material at time $t$ after application"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the lumped emission time constant, with $\\tau_{\\mathrm{eff}}$ its value when washing is included and $\\tau_a$ the adaptation time constant"
+
+[[symbol]]
+tex = '\Delta H_{\mathrm{vap}}'
+meaning = "the molar enthalpy of vaporisation, with $R$ the molar gas constant and $T_1$ and $T_2$ absolute temperatures"
+
+[[symbol]]
+tex = 'u'
+meaning = "the air speed past the wearer"
+
+[[symbol]]
+tex = 'a'
+meaning = "the plume spread per metre of distance"
+
+[[symbol]]
+tex = 'C_{50}'
+meaning = "the median detection concentration of the blend in total aromatic mass, with $C_{\\mathrm{over}}$ the median concentration judged too strong"
+
+[[symbol]]
+tex = 'r^{*}'
+meaning = "the detection radius at which the median receiver can just detect the fragrance"
+
+[[symbol]]
+tex = 'r_i'
+meaning = "the distance to the intended receiver, with $r_u$ the distance to the unintended receiver and $r_w$ the distance to the wearer's own nose"
+
+[[symbol]]
+tex = 't_{\mathrm{det}}'
+meaning = "the detection life at a fixed distance"
+
+[[symbol]]
+tex = 'C_{\mathrm{room}}'
+meaning = "the well-mixed room concentration, with $C_{\\mathrm{room}}^{\\infty}$ its steady state under a continuous source $E$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the air change rate of a room of volume $V$"
+
+[[symbol]]
+tex = '\Pi'
+meaning = "the room-regime number, the ratio of room to near-field concentration at the intended receiver"
+
+[[symbol]]
+tex = '\psi'
+meaning = "the perceived odour intensity, with $k$ the scale constant and $n$ the Stevens exponent"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the standard normal distribution function, with $\\Phi^{-1}$ its inverse"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the spread of receiver thresholds in natural log units"
+
+[[symbol]]
+tex = 'A(t)'
+meaning = "the wearer's adaptation factor, decaying toward the floor $\\beta$"
+
+[[symbol]]
+tex = '\Delta_r'
+meaning = "the interval between reapplications in the reapplication spiral"
+
+[[symbol]]
+tex = 'K_{\max}'
+meaning = "the largest collateral probability permitted to the unintended receiver, with $D_{\\max}$ the resulting ceiling on detection"
+
+[[symbol]]
+tex = 'w'
+meaning = "the fraction of the remaining wrist dose removed by each handwash, with $\\Delta t$ the interval between washes"
+
+[[symbol]]
+tex = 'g'
+meaning = "a sex difference in olfactory threshold expressed as a standardised effect size"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the mean aromatic mass per unit area of skin from one actuation, sprayed from distance $d$ in a cone of half-angle $\\theta$"

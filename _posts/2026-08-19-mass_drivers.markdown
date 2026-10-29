@@ -141,6 +141,7 @@ A payload accelerated from rest at a constant acceleration $a$ along a track of 
 
 $$
 v^{2} = 2aL, \qquad L = \frac{v^{2}}{2a}, \qquad t = \frac{v}{a}
+\tag{1}
 $$
 
 For a varying acceleration $a(x)$ the first relation generalizes to $v^{2} = 2\int_{0}^{L} a(x)\,dx$.
@@ -157,6 +158,7 @@ $$
 \frac{E}{m} = \frac{v^{2}}{2}, \qquad
 P_{\mathrm{peak}} = m\,a\,v, \qquad
 \bar{P} = \frac{\dot{m}\,v^{2}}{2\eta}
+\tag{2}
 $$
 
 The difference between peak and average power makes energy storage central to the design.
@@ -176,6 +178,7 @@ the mechanical force at constant current is the following.
 
 $$
 F = \frac{1}{2}\,I^{2}\,\frac{d\mathcal{L}}{dx}
+\tag{3}
 $$
 
 In a railgun the inductance grows as the projectile lengthens the circuit,
@@ -204,6 +207,7 @@ $$
 v_{E} = v_{r}\cos\gamma\sin A + \omega r_{0}\cos\phi, \qquad
 v_{N} = v_{r}\cos\gamma\cos A, \qquad
 v_{U} = v_{r}\sin\gamma
+\tag{4}
 $$
 
 Everything about the payload's subsequent orbit follows from $r_{0}$ and these three components.
@@ -216,6 +220,7 @@ and at its end it points upward relative to the local horizontal.
 $$
 h_{\mathrm{end}} = \sqrt{R^{2} + L^{2}} - R \approx \frac{L^{2}}{2R}, \qquad
 \gamma_{\mathrm{end}} = \arctan\frac{L}{R}
+\tag{5}
 $$
 
 A track that follows the curve of the surface instead must hold the payload on a circular path of radius $R$.
@@ -225,6 +230,7 @@ so the track must push it toward the body's centre with the following accelerati
 
 $$
 a_{n} = \frac{v^{2}}{R} - g = g\left[\left(\frac{v}{v_{c}}\right)^{2} - 1\right], \qquad v_{c} = \sqrt{g R}
+\tag{6}
 $$
 
 Below the surface circular speed $v_{c}$ the track supports the payload,
@@ -239,6 +245,7 @@ and a launch along the surface at the equator of a uniform sphere changes its sp
 
 $$
 \Delta\omega = \frac{m v R}{I} = \frac{5}{2}\,\frac{m v}{M R}
+\tag{7}
 $$
 
 ### The Bodies Used in the Examples
@@ -301,6 +308,7 @@ for a body of mass $m$ orbiting a parent of mass $M$ at distance $a$.
 
 $$
 r_{H} \approx a\sqrt[3]{\frac{m}{3M}}
+\tag{8}
 $$
 
 Phobos's Hill radius of 16.6 kilometres is smaller than the 25.9 kilometre long axis of its best-fit ellipsoid
@@ -338,6 +346,7 @@ h = r_{0} v_{h}, \qquad
 e = \sqrt{1 + \frac{2\varepsilon h^{2}}{\mu^{2}}}, \qquad
 r_{p} = \frac{h^{2}/\mu}{1+e}, \qquad
 r_{a} = \frac{h^{2}/\mu}{1-e}
+\tag{9}
 $$
 
 The orbit's inclination to the body's equator depends on the latitude and on the inertial azimuth $A_{i}$ of the horizontal velocity,
@@ -345,6 +354,7 @@ by spherical trigonometry.
 
 $$
 \cos i = \cos\phi\,\sin A_{i}
+\tag{10}
 $$
 
 ### Every Release Orbit Returns to the Ground
@@ -381,7 +391,9 @@ and the arc flown before impact is the following.
 $$
 \cos\nu_{0} = \frac{p/R - 1}{e}, \qquad
 \Delta\psi_{\mathrm{impact}} = 2\left(\pi - \nu_{0}\right)
+\tag{11}
 $$
+
 Even a perfect horizontal release returns after 113 minutes to a point that the Moon's rotation has carried 31.4 kilometres west of the track,
 so the return point is wherever the terrain happens to be.
 The offset is the distance the surface moves in one orbital period $T$,
@@ -389,6 +401,7 @@ at latitude $\phi$.
 
 $$
 \Delta x = \omega R\cos\phi\;T
+\tag{12}
 $$
 
 Releasing from a mountain or a tower raises the periapsis to the release height,
@@ -414,6 +427,7 @@ the release speed and the circularizing burn are the following.
 $$
 v_{\mathrm{release}} = \sqrt{\frac{2\mu\,r_{a}}{R\,(R + r_{a})}}, \qquad
 \Delta v_{\mathrm{circ}} = \sqrt{\frac{\mu}{r_{a}}} - \sqrt{\frac{2\mu R}{r_{a}(R + r_{a})}}
+\tag{13}
 $$
 
 <div style="overflow-x: auto;" markdown="1">
@@ -444,6 +458,7 @@ the difference between the apoapsis speeds of the two ellipses.
 
 $$
 \Delta v_{\mathrm{raise}} = \sqrt{\frac{2\mu\,r_{p}'}{r_{a}\left(r_{a} + r_{p}'\right)}} - \sqrt{\frac{2\mu R}{r_{a}\left(r_{a} + R\right)}}
+\tag{14}
 $$
 
 Errors in release set the size of the correction budget.
@@ -459,6 +474,7 @@ the apoapsis radius $r_{a} = 2a - R$ changes as follows.
 
 $$
 \frac{dr_{a}}{dv} = \frac{4a^{2}v}{\mu}
+\tag{15}
 $$
 
 For the 100 kilometre lunar case this is 4.44 kilometres per metre per second.
@@ -491,6 +507,7 @@ For a circular orbit at the surface the track must therefore supply the followin
 
 $$
 v_{\mathrm{track}} = v_{c} \mp \omega R\cos\phi
+\tag{16}
 $$
 
 <div style="overflow-x: auto;" markdown="1">
@@ -558,6 +575,7 @@ With $P_{\mathrm{sid}}$ the sidereal rotation period the interval between opport
 
 $$
 \Delta t_{\mathrm{plane}} = \frac{P_{\mathrm{sid}}}{2}
+\tag{17}
 $$
 
 A rendezvous with a depot in lunar orbit therefore waits for the plane to come round rather than paying 28.5 metres per second per degree to correct it.
@@ -588,6 +606,7 @@ where $\vec{V}_{B}$ is the launching body's orbital velocity.
 $$
 v_{\mathrm{release}} = \sqrt{v_{\infty}^{2} + \frac{2\mu_{B}}{R_{B}}}, \qquad
 \vec{V}_{\mathrm{payload}} = \vec{V}_{B} + \vec{v}_{\infty}
+\tag{18}
 $$
 
 The direction of $\vec{v}_{\infty}$ relative to $\vec{V}_{B}$ shapes the new orbit.
@@ -600,6 +619,7 @@ the excess needed to reach a near apsis $r_{p}$ by a retrograde release is the f
 
 $$
 v_{\infty} = \sqrt{\frac{\mu_{P}}{a_{B}}} - \sqrt{\frac{2\mu_{P}\,r_{p}}{a_{B}(a_{B} + r_{p})}}
+\tag{19}
 $$
 
 ### Release Geometry on a Tidally Locked Body
@@ -611,6 +631,7 @@ The hyperbola's eccentricity and the true anomaly $\nu_{\infty}$ of its outgoing
 $$
 e = 1 + \frac{R_{B}\,v_{\infty}^{2}}{\mu_{B}}, \qquad
 \nu_{\infty} = \arccos\left(-\frac{1}{e}\right)
+\tag{20}
 $$
 
 Measure the release site by an angle $\theta$ around the body's equator from the sub-parent point,
@@ -625,6 +646,7 @@ the site must be at the following angle.
 $$
 \theta_{\mathrm{east}} = \theta_{d} - \nu_{\infty}, \qquad
 \theta_{\mathrm{west}} = \theta_{d} + \nu_{\infty}
+\tag{21}
 $$
 
 The Moon,
@@ -685,6 +707,7 @@ Its special case $v_{\infty,P} = 0$ is the release needed merely to escape the p
 $$
 v_{\mathrm{rel}} = \sqrt{v_{\infty,P}^{2} + \frac{2\mu_{P}}{a_{B}}} - \sqrt{\frac{\mu_{P}}{a_{B}}}, \qquad
 v_{\mathrm{rel}}\left(v_{\infty,P} = 0\right) = \left(\sqrt{2} - 1\right)\sqrt{\frac{\mu_{P}}{a_{B}}}
+\tag{22}
 $$
 
 Phobos is deeper in Mars's gravity well,
@@ -748,6 +771,7 @@ with the moons' orbital radii $r_{1}$ and $r_{2}$ and periods $T_{1}$ and $T_{2}
 $$
 \theta_{H} = \pi\left[1 - \left(\frac{r_{1}+r_{2}}{2r_{2}}\right)^{3/2}\right], \qquad
 T_{\mathrm{syn}} = \left|\frac{1}{T_{1}} - \frac{1}{T_{2}}\right|^{-1}
+\tag{23}
 $$
 
 The release site is the point on Phobos beneath Mars,
@@ -793,6 +817,7 @@ a straight-line approximation that is accurate when the correction is small and 
 
 $$
 \Delta v_{\mathrm{mid}} \approx \frac{\delta r}{t_{\mathrm{go}}}
+\tag{24}
 $$
 
 Correcting a miss of 40,000 kilometres costs about 4.6 metres per second with 100 days to go and about 463 with one day to go.
@@ -840,6 +865,7 @@ so the total acceleration it feels and the power the track delivers to a payload
 $$
 a_{\mathrm{total}} = \sqrt{a_{n}^{2} + a_{t}^{2}}, \qquad
 P = m\,a_{t}\,v
+\tag{25}
 $$
 
 Extending the track around more laps reduces $a_{t}$ but does nothing to $a_{n}$.
@@ -849,12 +875,14 @@ however many laps it travels.
 
 $$
 v_{\max} = \sqrt{R\left(a_{\max} + g\right)}
+\tag{26}
 $$
 
 The path length and the number of laps needed at a tangential acceleration $a_{t}$ are the following.
 
 $$
 s = \frac{v^{2}}{2a_{t}}, \qquad N = \frac{v^{2}}{4\pi R\,a_{t}}
+\tag{27}
 $$
 
 <div style="overflow-x: auto;" markdown="1">
@@ -945,6 +973,7 @@ For a release that removes the load over a time $\tau$ the jerk is the following
 
 $$
 j \approx \frac{a_{n}}{\tau}
+\tag{28}
 $$
 
 **The cargo's structure springs back.**
@@ -962,6 +991,7 @@ with $\omega_{n} = \sqrt{k/m_{c}}$ the natural frequency.
 $$
 \delta = \frac{m_{c}\,a_{n}}{k}, \qquad
 x(t) = \delta\cos\omega_{n}t
+\tag{29}
 $$
 
 Cargo and carrier should therefore be designed for the release transient as well as the launch load,
@@ -974,6 +1004,7 @@ and its height above the track grows at first as follows.
 
 $$
 h_{\mathrm{sep}}(t) \approx \frac{1}{2}\,a_{n}\,t^{2}
+\tag{30}
 $$
 
 It is 1.0 metre after one second on the Moon,
@@ -1288,6 +1319,315 @@ which makes ring tracks attractive on large bodies such as the Moon and impracti
 At release the cargo goes abruptly from a sustained load to free fall,
 and its design must allow for that step as much as for the launch itself.
 
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 30 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 30, 27 are established and 3 are bespoke.
+Accelerations quoted as multiples of standard gravity must be converted to metres per second squared before they enter an equation, and a speed measured relative to the track differs from the inertial speed by the surface speed of the rotating body.
+
+**Equation 1, Track Length and Launch Time at Constant Acceleration.**
+Constant acceleration from rest to a release speed fixes the length of the track, which grows with the square of the speed, and the time spent on it.
+[Mass Driver][ref_mass_driver]
+
+$$
+v^{2} = 2aL, \qquad L = \frac{v^{2}}{2a}, \qquad t = \frac{v}{a}
+\tag{1}
+$$
+
+**Equation 2, Launch Energy, Peak Power and Average Power.**
+Each kilogram receives half the square of the release speed, the power drawn by one payload is greatest at release, and the average power of a launcher depends only on the speed, the mass flow and the electrical efficiency.
+
+$$
+\frac{E}{m} = \frac{v^{2}}{2}, \qquad
+P_{\mathrm{peak}} = m\,a\,v, \qquad
+\bar{P} = \frac{\dot{m}\,v^{2}}{2\eta}
+\tag{2}
+$$
+
+**Equation 3, Force from a Changing Inductance.**
+Energy conservation in a circuit at constant current gives a mechanical force proportional to the square of the current and to the rate at which the inductance changes with position.
+
+$$
+F = \frac{1}{2}\,I^{2}\,\frac{d\mathcal{L}}{dx}
+\tag{3}
+$$
+
+**Equation 4, Inertial Velocity at Release from a Rotating Body.**
+The release velocity relative to the track, resolved by azimuth and elevation, is added to the eastward surface speed of the rotating body to give the inertial components.
+
+$$
+v_{E} = v_{r}\cos\gamma\sin A + \omega r_{0}\cos\phi, \qquad
+v_{N} = v_{r}\cos\gamma\cos A, \qquad
+v_{U} = v_{r}\sin\gamma
+\tag{4}
+$$
+
+**Equation 5, Height and Tilt at the End of a Straight Tangent Track.**
+A straight track tangent to a sphere rises above the surface by an amount that grows with the square of its length and ends tilted upward by the angle the track subtends at the centre.
+
+$$
+h_{\mathrm{end}} = \sqrt{R^{2} + L^{2}} - R \approx \frac{L^{2}}{2R}, \qquad
+\gamma_{\mathrm{end}} = \arctan\frac{L}{R}
+\tag{5}
+$$
+
+**Equation 6, Normal Acceleration on a Curved Track.**
+A payload moving along a track that curves with the surface needs the centripetal acceleration less local gravity, which supports it below the surface circular speed and holds it down above.
+
+$$
+a_{n} = \frac{v^{2}}{R} - g = g\left[\left(\frac{v}{v_{c}}\right)^{2} - 1\right], \qquad v_{c} = \sqrt{g R}
+\tag{6}
+$$
+
+**Equation 7, Change in Spin from a Tangential Launch.**
+Conservation of angular momentum for a launch along the equator of a uniform sphere changes the body's spin rate in proportion to the momentum carried away.
+
+$$
+\Delta\omega = \frac{m v R}{I} = \frac{5}{2}\,\frac{m v}{M R}
+\tag{7}
+$$
+
+**Equation 8, Hill Radius.**
+The Hill radius marks roughly the extent of the region in which a body's own gravity dominates that of its parent.
+[Hill Sphere][ref_hill_sphere]
+
+$$
+r_{H} \approx a\sqrt[3]{\frac{m}{3M}}
+\tag{8}
+$$
+
+**Equation 9, Orbit Elements from the Release State.**
+Conservation of energy and angular momentum fixes the eccentricity and the apsides of the orbit from the release radius and the inertial velocity.
+
+$$
+h = r_{0} v_{h}, \qquad
+\varepsilon = \frac{v^{2}}{2} - \frac{\mu}{r_{0}}, \qquad
+e = \sqrt{1 + \frac{2\varepsilon h^{2}}{\mu^{2}}}, \qquad
+r_{p} = \frac{h^{2}/\mu}{1+e}, \qquad
+r_{a} = \frac{h^{2}/\mu}{1-e}
+\tag{9}
+$$
+
+**Equation 10, Inclination from Latitude and Azimuth.**
+Spherical trigonometry relates the inclination of the orbit to the latitude of the release site and the inertial azimuth of the horizontal velocity.
+
+$$
+\cos i = \cos\phi\,\sin A_{i}
+\tag{10}
+$$
+
+**Equation 11, Arc Flown Before Impact After an Upward Release.**
+The orbit equation evaluated at the surface radius gives the true anomaly of the release point, and the payload strikes the ground at the mirror point before the next periapsis.
+
+$$
+\cos\nu_{0} = \frac{p/R - 1}{e}, \qquad
+\Delta\psi_{\mathrm{impact}} = 2\left(\pi - \nu_{0}\right)
+\tag{11}
+$$
+
+**Equation 12, Westward Offset of the Return Point.**
+During one orbital period the rotating surface carries the release site eastward by its surface speed times the period, so the payload returns to a point displaced from the track.
+
+$$
+\Delta x = \omega R\cos\phi\;T
+\tag{12}
+$$
+
+**Equation 13, Release Speed and Circularizing Burn from the Surface.**
+A Hohmann transfer that begins with a horizontal release at the surface reaches a chosen apoapsis, where a single burn circularizes the orbit.
+[Orbital Manoeuvres in Terms of Delta-v, The Hohmann Transfer][related_post_orbital_manoeuvres_hohmann]
+
+$$
+v_{\mathrm{release}} = \sqrt{\frac{2\mu\,r_{a}}{R\,(R + r_{a})}}, \qquad
+\Delta v_{\mathrm{circ}} = \sqrt{\frac{\mu}{r_{a}}} - \sqrt{\frac{2\mu R}{r_{a}(R + r_{a})}}
+\tag{13}
+$$
+
+**Equation 14, Burn at Apoapsis to Raise the Periapsis.**
+The cost of raising the periapsis is the difference between the apoapsis speeds of the two ellipses that share that apoapsis.
+
+$$
+\Delta v_{\mathrm{raise}} = \sqrt{\frac{2\mu\,r_{p}'}{r_{a}\left(r_{a} + r_{p}'\right)}} - \sqrt{\frac{2\mu R}{r_{a}\left(r_{a} + R\right)}}
+\tag{14}
+$$
+
+**Equation 15, Sensitivity of Apoapsis to Release Speed.**
+Differentiating the vis-viva equation at the release radius gives the change in apoapsis radius per unit error in release speed.
+
+$$
+\frac{dr_{a}}{dv} = \frac{4a^{2}v}{\mu}
+\tag{15}
+$$
+
+**Equation 16, Track Speed for a Circular Orbit on a Rotating Body.**
+An eastward track gains the surface speed of the rotating body and a westward track loses it, so the speed the track supplies differs from the circular speed by that amount.
+
+$$
+v_{\mathrm{track}} = v_{c} \mp \omega R\cos\phi
+\tag{16}
+$$
+
+**Equation 17, Interval Between Launch Opportunities for One Plane.**
+A fixed track is carried through a given orbital plane twice in each sidereal rotation, once on the ascending pass and once on the descending pass.
+
+$$
+\Delta t_{\mathrm{plane}} = \frac{P_{\mathrm{sid}}}{2}
+\tag{17}
+$$
+
+**Equation 18, Release Speed and Parent-Relative Velocity in the Patched Conic Approximation.**
+Energy conservation gives the release speed that leaves the launching body with a chosen excess speed, and that excess is added to the body's orbital velocity to give the velocity relative to the parent.
+
+$$
+v_{\mathrm{release}} = \sqrt{v_{\infty}^{2} + \frac{2\mu_{B}}{R_{B}}}, \qquad
+\vec{V}_{\mathrm{payload}} = \vec{V}_{B} + \vec{v}_{\infty}
+\tag{18}
+$$
+
+**Equation 19, Excess Speed for a Retrograde Release to a Lower Apsis.**
+Lowering the near apsis of a payload's orbit around the parent needs an excess equal to the difference between the body's circular speed and the far-apsis speed of the transfer ellipse.
+
+$$
+v_{\infty} = \sqrt{\frac{\mu_{P}}{a_{B}}} - \sqrt{\frac{2\mu_{P}\,r_{p}}{a_{B}(a_{B} + r_{p})}}
+\tag{19}
+$$
+
+**Equation 20, Eccentricity and Asymptote of a Departure Hyperbola.**
+A horizontal release at the surface puts the periapsis of the departure hyperbola at the release point, and the excess speed fixes its eccentricity and the true anomaly of its outgoing asymptote.
+
+$$
+e = 1 + \frac{R_{B}\,v_{\infty}^{2}}{\mu_{B}}, \qquad
+\nu_{\infty} = \arccos\left(-\frac{1}{e}\right)
+\tag{20}
+$$
+
+*Equation 21, Bespoke Release Site for a Desired Departure Direction.*
+Measuring the site from the sub-parent point and offsetting the desired direction by the turn of the hyperbola gives the site on each lane, under the article's lane convention and the stated neglect of the parent's gravity during departure.
+
+$$
+\theta_{\mathrm{east}} = \theta_{d} - \nu_{\infty}, \qquad
+\theta_{\mathrm{west}} = \theta_{d} + \nu_{\infty}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Release Speed from a Moon into Solar Orbit.*
+The departure equation is applied at the moon's orbital radius with the moon's own orbital speed credited in full, which assumes a release along the moon's direction of motion and neglects the moon's own gravity.
+[Orbital Manoeuvres in Terms of Delta-v, Departure][related_post_orbital_manoeuvres_departure]
+
+$$
+v_{\mathrm{rel}} = \sqrt{v_{\infty,P}^{2} + \frac{2\mu_{P}}{a_{B}}} - \sqrt{\frac{\mu_{P}}{a_{B}}}, \qquad
+v_{\mathrm{rel}}\left(v_{\infty,P} = 0\right) = \left(\sqrt{2} - 1\right)\sqrt{\frac{\mu_{P}}{a_{B}}}
+\tag{22}
+$$
+
+**Equation 23, Hohmann Phase Angle and Synodic Period.**
+A Hohmann transfer requires the target to lead by a fixed phase angle at departure, and that alignment recurs once per synodic period of the two orbits.
+[Orbital Manoeuvres in Terms of Delta-v, Patched Conics][related_post_orbital_manoeuvres_patched]
+
+$$
+\theta_{H} = \pi\left[1 - \left(\frac{r_{1}+r_{2}}{2r_{2}}\right)^{3/2}\right], \qquad
+T_{\mathrm{syn}} = \left|\frac{1}{T_{1}} - \frac{1}{T_{2}}\right|^{-1}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Straight-Line Estimate of a Midcourse Correction.*
+Dividing the miss distance by the time remaining estimates the correction burn, a straight-line approximation the article adopts that holds when the correction is small and the time short compared with the orbit.
+
+$$
+\Delta v_{\mathrm{mid}} \approx \frac{\delta r}{t_{\mathrm{go}}}
+\tag{24}
+$$
+
+**Equation 25, Total Acceleration and Power on a Ring Track.**
+The hold-down and tangential accelerations add in quadrature to give the load the cargo feels, and the power delivered is the tangential force times the speed.
+
+$$
+a_{\mathrm{total}} = \sqrt{a_{n}^{2} + a_{t}^{2}}, \qquad
+P = m\,a_{t}\,v
+\tag{25}
+$$
+
+**Equation 26, Largest Release Speed on a Ring Track.**
+Setting the hold-down acceleration on a curved track equal to the largest load the cargo tolerates gives a release speed that no number of laps can exceed.
+
+$$
+v_{\max} = \sqrt{R\left(a_{\max} + g\right)}
+\tag{26}
+$$
+
+**Equation 27, Path Length and Number of Laps on a Ring Track.**
+Constant tangential acceleration to the release speed fixes the path length, and dividing it by the circumference gives the number of laps.
+
+$$
+s = \frac{v^{2}}{2a_{t}}, \qquad N = \frac{v^{2}}{4\pi R\,a_{t}}
+\tag{27}
+$$
+
+**Equation 28, Jerk at Release.**
+Removing the hold-down load over a short time produces a jerk equal to that load divided by the release time.
+
+$$
+j \approx \frac{a_{n}}{\tau}
+\tag{28}
+$$
+
+**Equation 29, Static Deflection and Step Response of the Cargo Structure.**
+A structure loaded by the hold-down acceleration is deflected by the load over its stiffness, and a sudden release sets it oscillating about its unloaded shape with that amplitude at its natural frequency.
+
+$$
+\delta = \frac{m_{c}\,a_{n}}{k}, \qquad
+x(t) = \delta\cos\omega_{n}t
+\tag{29}
+$$
+
+**Equation 30, Initial Separation from the Track After Release.**
+A payload released horizontally above circular speed curves less sharply than the surface, so its height above the track grows at first as half the former hold-down acceleration times the square of the time.
+
+$$
+h_{\mathrm{sep}}(t) \approx \frac{1}{2}\,a_{n}\,t^{2}
+\tag{30}
+$$
+
+### Notation
+
+- $a$, the acceleration along a straight track in Equations 1 and 2, the distance of a body from its parent in Equation 8 and the semi-major axis of the transfer ellipse in Equation 15
+- $L$, the length of a straight track
+- $\eta$, the electrical efficiency of the launcher
+- $\dot{m}$, the mass flow a launcher throws
+- $I$, the current in Equation 3 and the moment of inertia of the body in Equation 7
+- $\mathcal{L}$, the inductance of the launcher circuit
+- $\phi$, the latitude of the release site
+- $r_{0}$, the radius of the release point from the body's centre
+- $A$, the azimuth of the track measured from north, with $A_{i}$ the inertial azimuth of the horizontal velocity
+- $v_{r}$, the release speed relative to the track
+- $\gamma$, the angle of release above the local horizontal
+- $\omega$, the rotation rate of the launching body
+- $R$, the radius of the launching body and of a track that follows its surface
+- $g$, the surface gravity of the launching body
+- $v_{c}$, the circular orbital speed at the surface
+- $a_{n}$, the hold-down acceleration the track exerts toward the body's centre, with $a_{t}$ the tangential acceleration along the track
+- $r_{H}$, the Hill radius of a body of mass $m$ orbiting a parent of mass $M$
+- $\mu$, the gravitational parameter of the launching body, with $\mu_{B}$ and $\mu_{P}$ for the launching body and its parent where both appear
+- $\varepsilon$, the specific orbital energy, with $h$ the specific angular momentum and $e$ the eccentricity
+- $r_{a}$, the apoapsis radius, with $r_{p}$ the periapsis radius
+- $\nu_{0}$, the true anomaly of the release point, with $p$ the semi-latus rectum of the orbit
+- $T$, the orbital period, with $T_{\mathrm{syn}}$ the synodic period of two orbits
+- $v_{\infty}$, the hyperbolic excess speed relative to the launching body, with $v_{\infty,P}$ the excess relative to the parent planet
+- $R_{B}$, the radius of the launching body, with $a_{B}$ its orbital radius around the parent
+- $\nu_{\infty}$, the true anomaly of the outgoing asymptote of the departure hyperbola
+- $\theta_{d}$, the desired departure direction, measured around the body's equator from the sub-parent point in the direction of orbital motion
+- $P_{\mathrm{sid}}$, the sidereal rotation period of the launching body
+- $t_{\mathrm{go}}$, the time remaining before arrival when a miss $\delta r$ is corrected
+- $a_{\max}$, the largest total acceleration the cargo tolerates
+- $N$, the number of laps around a ring track, with $s$ the path length
+- $\tau$, the time over which the release removes the hold-down load
+- $m_{c}$, the mass of the cargo structure, with $k$ its stiffness and $\omega_{n}$ its natural frequency
 
 ## References
 

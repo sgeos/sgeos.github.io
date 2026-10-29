@@ -159,9 +159,9 @@ digest = "8d886f293c75a3a5"
 
 [[equation]]
 tag = 21
-class = "bespoke"
-title = "Bespoke Ceiling on a Pumped Sail Orbit"
-gloss = "A sail that falls to a perihelion and turns face-on there leaves with an excess speed that rises toward a ceiling as the orbit is pumped toward escape, a simple reference case the article constructs for the repeated-pass strategy."
+class = "standard"
+title = "Departure Speed After a Face-On Perihelion Pass"
+gloss = "A sail that falls to a perihelion and turns face-on there leaves with the excess speed that energy conservation gives under the reduced solar gravity, which rises toward a ceiling as the orbit is pumped toward escape."
 digest = "f680536ea65778f9"
 
 [[equation]]

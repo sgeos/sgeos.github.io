@@ -198,6 +198,7 @@ $$
 N_b = \frac{V_b}{v_s},
 \qquad
 T_b = \frac{V_b}{v_s \, N_{\mathrm{day}}}
+\tag{1}
 $$
 
 A 100 mL bottle holds between $100 / 0.14 = 714$ and $100 / 0.07 = 1{,}429$ actuations depending on the pump,
@@ -281,6 +282,7 @@ $$
 \mathrm{OV}_k = \frac{C_k}{\mathrm{ODT}_k} = \frac{x_k \, C}{\mathrm{ODT}_k},
 \qquad
 C_{50} \approx \frac{\mathrm{ODT}_k}{x_k}
+\tag{2}
 $$
 
 With linalool at 3.2 µg/m³ making up a tenth of the aromatic mass,
@@ -326,6 +328,7 @@ The deposited aromatic mass $m_0$ in grams is then the product.
 
 $$
 m_0 = N \, v_s \, \rho \, c \, \eta
+\tag{3}
 $$
 
 The planning density of 0.82 g/mL sits above the density of
@@ -363,6 +366,7 @@ holding the pump volume and density fixed.
 
 $$
 N_{\mathrm{eq}} = N \, \frac{c}{c_{\mathrm{ref}}}
+\tag{4}
 $$
 
 Four sprays of eau de toilette are $4 \times 0.10 / 0.15 = 2.7$ spray-equivalents.
@@ -402,6 +406,7 @@ The emission rate $q$ in micrograms per second is then as follows.
 
 $$
 q(t) = \frac{m_0}{\tau} \, e^{-t/\tau}
+\tag{5}
 $$
 
 With $m_0 = 25.8$ mg and $\tau = 3$ h,
@@ -439,6 +444,7 @@ where $R$ is the molar gas constant.
 $$
 \frac{q(T_2)}{q(T_1)} \approx \frac{p(T_2)}{p(T_1)}
 = \exp\!\left[ \frac{\Delta H_{\mathrm{vap}}}{R} \left( \frac{1}{T_1} - \frac{1}{T_2} \right) \right]
+\tag{6}
 $$
 
 For linalool, a common heart-note material,
@@ -461,6 +467,7 @@ $$
 \frac{q(305.95)}{q(301.75)}
 = \exp\!\left[ \frac{55{,}300}{8.314} \left( \frac{1}{301.75} - \frac{1}{305.95} \right) \right]
 = 1.35
+\tag{7}
 $$
 
 Across the three enthalpies the factor runs from 1.32 to 1.43,
@@ -472,6 +479,7 @@ so the time constant scales inversely with the emission factor.
 
 $$
 \frac{\tau(T_2)}{\tau(T_1)} = \frac{q(T_1)}{q(T_2)}
+\tag{8}
 $$
 
 The three-hour planning constant on the trunk becomes about $3 \times 1.35 = 4.1$ h on the coolest distal skin.
@@ -507,6 +515,7 @@ the concentration $C$ at distance $r$ in metres is as follows.
 
 $$
 C(r, t) = \frac{q(t)}{\pi \, u \, a^2 \, r^2}
+\tag{9}
 $$
 
 At $t = 0$, three sprays, $u = 0.1$ m/s and $a = 0.3$,
@@ -523,6 +532,7 @@ gives the distance $r^{*}$ at which the median receiver can just detect the frag
 $$
 r^{*}(t) = \sqrt{ \frac{q(t)}{\pi \, u \, a^2 \, C_{50}} }
 = \sqrt{ \frac{N \, v_s \, \rho \, c \, \eta}{\pi \, u \, a^2 \, C_{50} \, \tau} } \; e^{-t/2\tau}
+\tag{10}
 $$
 
 **This is the central result on dose,
@@ -534,6 +544,7 @@ $$
 \frac{r^{*}_{N_2}}{r^{*}_{N_1}} = \sqrt{\frac{N_2}{N_1}},
 \qquad
 \mathcal{A} = \pi \, r^{*2} \propto N
+\tag{11}
 $$
 
 Going from three sprays to four multiplies the radius by $\sqrt{4/3} = 1.155$
@@ -550,6 +561,7 @@ it halves after $2\tau \ln 2$.
 
 $$
 t_{1/2}^{(r)} = 2\,\tau \ln 2 = 4.16 \text{ h} \quad \text{for } \tau = 3 \text{ h}
+\tag{12}
 $$
 
 **The radius half-life is independent of dose.**
@@ -566,6 +578,7 @@ $$
 t_{\mathrm{det}}(r) = \tau \ln \frac{q_0}{\pi \, u \, a^2 \, r^2 \, C_{50}},
 \qquad
 q_0 = \frac{m_0}{\tau}
+\tag{13}
 $$
 
 For three sprays at one metre indoors,
@@ -576,6 +589,7 @@ the life added by one more spray depends only on the count already applied.
 
 $$
 \Delta t_{\mathrm{det}} = \tau \ln \frac{N + 1}{N}
+\tag{14}
 $$
 
 The second spray adds $3 \ln 2 = 2.08$ h, about 125 minutes.
@@ -594,6 +608,7 @@ requires the spray count to change in proportion.
 
 $$
 \frac{N_2}{N_1} = \frac{u_2}{u_1} \quad \text{at fixed } r^{*}
+\tag{15}
 $$
 
 Recovering the indoor three-spray radius in a 1.0 m/s breeze
@@ -617,18 +632,21 @@ in which the wearer's emission enters and the ventilation removes a fixed fracti
 $$
 \frac{dC_{\mathrm{room}}}{dt} = \frac{q(t)}{V} - \lambda \, C_{\mathrm{room}},
 \qquad C_{\mathrm{room}}(0) = 0
+\tag{16}
 $$
 
 With the exponentially decaying source, the solution is as follows.
 
 $$
 C_{\mathrm{room}}(t) = \frac{m_0}{\tau V} \cdot \frac{e^{-t/\tau} - e^{-\lambda t}}{\lambda - 1/\tau}
+\tag{17}
 $$
 
 It peaks when its derivative vanishes.
 
 $$
 t_{\mathrm{peak}} = \frac{\ln(\lambda \tau)}{\lambda - 1/\tau}
+\tag{18}
 $$
 
 For a shared office of 30 m³ at one air change per hour,
@@ -658,6 +676,7 @@ Once $t \gg 1/\lambda$, the room solution approaches a fixed multiple of the cur
 
 $$
 C_{\mathrm{room}}(t) \;\to\; \frac{q(t)}{V \left( \lambda - 1/\tau \right)}
+\tag{19}
 $$
 
 Dividing by the near-field concentration at the intended receiver's distance $r_i$
@@ -667,6 +686,7 @@ with $\lambda$ and $1/\tau$ expressed per second.
 
 $$
 \Pi = \frac{C_{\mathrm{room}}}{C(r_i)} = \frac{\pi \, u \, a^2 \, r_i^2}{V \left( \lambda - 1/\tau \right)}
+\tag{20}
 $$
 
 **When $\Pi$ exceeds one, the room is the source, and no spray count changes that,
@@ -690,6 +710,7 @@ and the room concentration is the emitted mass divided by the volume.
 
 $$
 C_{\mathrm{room}}(t) \approx \frac{q_0 \, t}{V} \quad \text{for } t \ll 1/\lambda, \; t \ll \tau
+\tag{21}
 $$
 
 Five minutes after three fresh sprays in a 3 m³ cabin,
@@ -712,6 +733,7 @@ The constant $k$ sets the scale and drops out of every ratio used here.
 
 $$
 \psi = k \, C^{\,n}
+\tag{22}
 $$
 
 At a fixed distance the concentration is proportional to the spray count,
@@ -719,6 +741,7 @@ so two counts compare through the exponent alone.
 
 $$
 \frac{\psi_{N_2}}{\psi_{N_1}} = \left( \frac{N_2}{N_1} \right)^{n}
+\tag{23}
 $$
 
 With $n = 0.5$ the fourth spray raises perceived intensity at a fixed distance
@@ -753,6 +776,7 @@ is the standard normal distribution function $\Phi$ of the log ratio.
 
 $$
 P_{\mathrm{det}}(C) = \Phi\!\left( \frac{\ln C - \ln C_{50}}{\sigma} \right)
+\tag{24}
 $$
 
 The same form with the median overload concentration $C_{\mathrm{over}}$ in place of $C_{50}$
@@ -760,6 +784,7 @@ gives the probability $P_{\mathrm{over}}$ that a receiver finds the fragrance to
 
 $$
 P_{\mathrm{over}}(C) = \Phi\!\left( \frac{\ln C - \ln C_{\mathrm{over}}}{\sigma} \right)
+\tag{25}
 $$
 
 With $\sigma = 1.2$, one standard deviation of threshold is a factor of $e^{1.2} = 3.3$ in concentration,
@@ -810,6 +835,7 @@ the ratio of the wearer's exposure at $r_w$ to a receiver's at $r_i$ is independ
 
 $$
 \frac{C(r_w)}{C(r_i)} = \left( \frac{r_i}{r_w} \right)^{2}
+\tag{26}
 $$
 
 At 0.2 m from a neck application the near-field equation gives 2,100 µg/m³ at application,
@@ -820,6 +846,7 @@ with a time constant $\tau_a$.
 
 $$
 A(t) = \beta + (1 - \beta)\, e^{-t/\tau_a}
+\tag{27}
 $$
 
 With an assumed floor of $\beta = 0.3$ and an assumed $\tau_a = 5$ min,
@@ -827,6 +854,7 @@ the wearer perceives half the initial intensity at the adaptation half-time $t_{
 
 $$
 t_{1/2}^{(a)} = \tau_a \ln \frac{1 - \beta}{0.5 - \beta}
+\tag{28}
 $$
 
 That is $t = 5 \ln 3.5 = 6.3$ min.
@@ -851,6 +879,7 @@ with $k = \lfloor t / \Delta_r \rfloor$ reapplications.
 
 $$
 q_{\mathrm{spiral}}(t) = \frac{m_0}{\tau} \sum_{j=0}^{k} e^{-(t - j \Delta_r)/\tau}
+\tag{29}
 $$
 
 With $\Delta_r = 6.3$ min, nine reapplications fall within the first hour,
@@ -918,6 +947,7 @@ The concentration at each receiver is the near-field plume plus the room term.
 $$
 D = \frac{1}{t_1 - t_0} \int_{t_0}^{t_1}
 P_{\mathrm{det}}\!\big( C(r_i, t) + C_{\mathrm{room}}(t) \big) \, dt
+\tag{30}
 $$
 
 $K$ and $O$ follow by replacing the intended receiver's distance $r_i$
@@ -930,6 +960,7 @@ P_{\mathrm{det}}\!\big( C(r_u, t) + C_{\mathrm{room}}(t) \big) \, dt,
 \qquad
 O = \frac{1}{t_1 - t_0} \int_{t_0}^{t_1}
 P_{\mathrm{over}}\!\big( C(r_i, t) + C_{\mathrm{room}}(t) \big) \, dt
+\tag{31}
 $$
 
 A course of action is **feasible** when $D \geq 0.5$, $K \leq 0.2$ and $O \leq 0.1$.
@@ -940,6 +971,7 @@ at a cost in collateral and product.
 
 $$
 N^{\star} = \min \left\{ N \in \{0, 1, \ldots, 6\} \;:\; D(N) \geq 0.5,\; K(N) \leq 0.2,\; O(N) \leq 0.1 \right\}
+\tag{32}
 $$
 
 The collateral measure is a probability per unintended receiver,
@@ -949,6 +981,7 @@ the expected number who detect the fragrance over the window is their sum.
 
 $$
 \mathbb{E}[n_K] = \sum_{j=1}^{n_u} K_j \approx n_u \, K
+\tag{33}
 $$
 
 Eight colleagues within 2.5 m in the open-plan office,
@@ -966,6 +999,7 @@ independent of dose.
 
 $$
 \Delta z = \frac{\ln C(r_i) - \ln C(r_u)}{\sigma} = \frac{2 \ln (r_u / r_i)}{\sigma}
+\tag{34}
 $$
 
 Holding the unintended receiver at the collateral limit $K_{\max}$
@@ -975,6 +1009,7 @@ where $\Phi^{-1}$ is the inverse of the standard normal distribution function.
 
 $$
 D_{\max} = \Phi\!\left( \Phi^{-1}(K_{\max}) + \Delta z \right)
+\tag{35}
 $$
 
 For the offices, with $r_i = 1.0$ m and $r_u = 2.5$ m,
@@ -1079,6 +1114,7 @@ where $\mathbb{1}$ is one once an application has been made and zero before.
 
 $$
 q(t) = \sum_{j} \frac{m_j}{\tau} \, e^{-(t - t_j)/\tau} \, \mathbb{1}[t \geq t_j]
+\tag{36}
 $$
 
 | Morning sprays | Midday sprays | Total | $D$ | $K$ | $O$ | Feasible |
@@ -1101,6 +1137,7 @@ delivers at its start, $t_0$, requires a single application to be larger by the 
 
 $$
 m_0 \geq m_{\mathrm{req}} \, e^{(t_1 - t_0)/\tau}
+\tag{37}
 $$
 
 For the working day, from 0.5 h to 8 h,
@@ -1258,6 +1295,7 @@ and in steps by washing.
 
 $$
 m(t) = m_0 \, e^{-t/\tau} \, (1 - w)^{\lfloor t / \Delta t \rfloor}
+\tag{38}
 $$
 
 Averaged over the day, washing adds a loss rate to the emission rate,
@@ -1265,6 +1303,7 @@ and the effective time constant $\tau_{\mathrm{eff}}$ is as follows.
 
 $$
 \frac{1}{\tau_{\mathrm{eff}}} = \frac{1}{\tau} + \frac{-\ln(1 - w)}{\Delta t}
+\tag{39}
 $$
 
 With the assumed values $w = 0.5$ and $\Delta t = 2$ h,
@@ -1400,6 +1439,7 @@ an effect of size $g$ scales the median threshold of the more sensitive group.
 
 $$
 \frac{C_{50}^{\mathrm{women}}}{C_{50}^{\mathrm{men}}} \approx e^{-g \sigma}
+\tag{40}
 $$
 
 With $g = 0.16$ and $\sigma = 1.2$, the ratio is $e^{-0.19} = 0.83$,
@@ -1449,6 +1489,7 @@ $$
 \frac{r^{*}_2(0)}{r^{*}_1(0)} = \sqrt{\frac{\tau_1}{\tau_2}},
 \qquad
 \frac{t_{1/2,2}^{(r)}}{t_{1/2,1}^{(r)}} = \frac{\tau_2}{\tau_1}
+\tag{41}
 $$
 
 A carrier that triples the time constant
@@ -1468,6 +1509,7 @@ inverts the spray-equivalent definition.
 
 $$
 N = N_{\mathrm{eq}} \, \frac{c_{\mathrm{ref}}}{c}
+\tag{42}
 $$
 
 Matching one spray-equivalent with a two percent body mist takes $0.15 / 0.02 = 7.5$ sprays,
@@ -1565,6 +1607,7 @@ is the emission divided by the ventilation flow.
 
 $$
 C_{\mathrm{room}}^{\infty} = \frac{E}{\lambda V}
+\tag{43}
 $$
 
 A reed diffuser emitting 20 mg per hour of aromatic material
@@ -1578,6 +1621,7 @@ The approach to that steady state from a fresh start is governed by the ventilat
 
 $$
 C_{\mathrm{room}}(t) = C_{\mathrm{room}}^{\infty} \left( 1 - e^{-\lambda t} \right)
+\tag{44}
 $$
 
 At half an air change per hour the room reaches 95 percent of its steady state after
@@ -1651,6 +1695,7 @@ and one actuation spreads its deposited mass over that footprint at a mean areal
 
 $$
 \mu = \frac{v_s \, \rho \, c \, \eta}{\pi \, d^2 \tan^2 \theta}
+\tag{45}
 $$
 
 With an assumed half-angle of 20 degrees,
@@ -2518,6 +2563,444 @@ compares application points on the body,
 or tests the conventional advice on distance, rubbing or moisturising.**
 The conventional answers to the original question are therefore not contradicted by the literature.
 They are untouched by it.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 45 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 45, 10 are established and 35 are bespoke.
+Emission rates are in micrograms per second and concentrations in micrograms per cubic metre of total aromatic material, while time constants are stated in hours, so $\tau$, $\lambda$ and $t$ must be converted to seconds before they are combined with an emission rate or an air speed in metres per second.
+
+**Equation 1, Actuations per Bottle and Bottle Life.**
+The bottle volume divided by the volume of one actuation gives the number of actuations, and dividing again by the daily spray count gives the days the bottle lasts.
+
+$$
+N_b = \frac{V_b}{v_s},
+\qquad
+T_b = \frac{V_b}{v_s \, N_{\mathrm{day}}}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Blend Threshold from the Odour Value of Its Most Potent Component.*
+The odour value of perfume engineering is set to one for the most potent component, under the article's assumption that this component alone governs detection of the blend and that vapour-phase enrichment and subthreshold interactions can be ignored.
+[Rodrigues, Nogueira and Faria][research_rodrigues_2021_perfume_engineering]
+
+$$
+\mathrm{OV}_k = \frac{C_k}{\mathrm{ODT}_k} = \frac{x_k \, C}{\mathrm{ODT}_k},
+\qquad
+C_{50} \approx \frac{\mathrm{ODT}_k}{x_k}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Deposited Aromatic Mass.*
+The deposited mass is the product of the spray count, the volume, density and aromatic fraction of each actuation, and an assumed fraction of the spray that lands on the target.
+
+$$
+m_0 = N \, v_s \, \rho \, c \, \eta
+\tag{3}
+$$
+
+*Equation 4, Bespoke Spray-Equivalent Dose.*
+The article defines a unit of dose as one actuation of a reference eau de parfum at an aromatic fraction of 0.15, with pump volume and density held fixed.
+
+$$
+N_{\mathrm{eq}} = N \, \frac{c}{c_{\mathrm{ref}}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Lumped Exponential Emission.*
+The whole mixture is collapsed into a single pool that empties at a rate proportional to what remains, which ignores the early emission of the most volatile components and any residue that is never emitted.
+
+$$
+q(t) = \frac{m_0}{\tau} \, e^{-t/\tau}
+\tag{5}
+$$
+
+**Equation 6, Clausius-Clapeyron Ratio of Vapour Pressures.**
+The integrated relation with a constant enthalpy of vaporisation gives the ratio of vapour pressures at two absolute temperatures, which the article takes as approximately the ratio of emission rates.
+[Clausius and Clapeyron relation][ref_clausius_clapeyron]
+[1843 German translation][research_clapeyron_1843_motive_power]
+[Clausius in 1850][research_clausius_1850_motive_power]
+
+$$
+\frac{q(T_2)}{q(T_1)} \approx \frac{p(T_2)}{p(T_1)}
+= \exp\!\left[ \frac{\Delta H_{\mathrm{vap}}}{R} \left( \frac{1}{T_1} - \frac{1}{T_2} \right) \right]
+\tag{6}
+$$
+
+**Equation 7, Emission Factor Between Distal Skin and the Trunk.**
+Equation 6 evaluated for linalool between the coolest distal skin and the trunk gives an emission factor of 1.35.
+[Chemistry WebBook][data_nist_linalool]
+[Savastano and colleagues][research_savastano_2009_regional_temperature]
+
+$$
+\frac{q(305.95)}{q(301.75)}
+= \exp\!\left[ \frac{55{,}300}{8.314} \left( \frac{1}{301.75} - \frac{1}{305.95} \right) \right]
+= 1.35
+\tag{7}
+$$
+
+*Equation 8, Bespoke Scaling of the Time Constant with Emission Rate.*
+Because the lumped model fixes the deposited mass at application, a faster emission exhausts the pool sooner and the time constant scales inversely with the emission factor.
+
+$$
+\frac{\tau(T_2)}{\tau(T_1)} = \frac{q(T_1)}{q(T_2)}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Near-Field Plume Concentration.*
+The centreline concentration of a Gaussian plume from a continuous point source is evaluated under the article's assumption that both lateral spreads grow linearly with distance, which makes the concentration fall as the inverse square of distance.
+[Gaussian plume][ref_atmospheric_dispersion]
+
+$$
+C(r, t) = \frac{q(t)}{\pi \, u \, a^2 \, r^2}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Detection Radius.*
+Setting the plume concentration of Equation 9 equal to the median detection threshold and substituting the dose and emission models gives the distance at which the median receiver can just detect the fragrance.
+
+$$
+r^{*}(t) = \sqrt{ \frac{q(t)}{\pi \, u \, a^2 \, C_{50}} }
+= \sqrt{ \frac{N \, v_s \, \rho \, c \, \eta}{\pi \, u \, a^2 \, C_{50} \, \tau} } \; e^{-t/2\tau}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Square-Root Scaling of Radius with Spray Count.*
+Under the linear dose model and the inverse-square plume, the detection radius grows with the square root of the spray count and the detected area grows linearly with it.
+
+$$
+\frac{r^{*}_{N_2}}{r^{*}_{N_1}} = \sqrt{\frac{N_2}{N_1}},
+\qquad
+\mathcal{A} = \pi \, r^{*2} \propto N
+\tag{11}
+$$
+
+*Equation 12, Bespoke Half-Life of the Detection Radius.*
+The radius of Equation 10 decays at half the rate of the lumped emission, so it halves after twice the time constant times the natural logarithm of two whatever the dose.
+
+$$
+t_{1/2}^{(r)} = 2\,\tau \ln 2 = 4.16 \text{ h} \quad \text{for } \tau = 3 \text{ h}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Detection Life at a Fixed Distance.*
+Setting the plume concentration equal to the median threshold and solving for time gives how long a receiver at a fixed distance continues to detect, under the lumped emission and inverse-square plume models.
+
+$$
+t_{\mathrm{det}}(r) = \tau \ln \frac{q_0}{\pi \, u \, a^2 \, r^2 \, C_{50}},
+\qquad
+q_0 = \frac{m_0}{\tau}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Detection Life Added by One More Spray.*
+Because the initial emission rate is proportional to the spray count, the life added by one more spray in Equation 13 depends only on the count already applied.
+
+$$
+\Delta t_{\mathrm{det}} = \tau \ln \frac{N + 1}{N}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Spray Count Needed to Hold the Radius in Wind.*
+The plume concentration is inversely proportional to the air speed, so holding the detection radius fixed requires the spray count to change in proportion to the air speed.
+
+$$
+\frac{N_2}{N_1} = \frac{u_2}{u_1} \quad \text{at fixed } r^{*}
+\tag{15}
+$$
+
+**Equation 16, Mass Balance of a Well-Mixed Ventilated Room.**
+The room concentration rises with the wearer's emission divided by the room volume and falls as ventilation removes a fixed fraction per hour, the far-field half of the standard two-zone model of occupational hygiene.
+[Abattan et al. 2021][research_abattan_lavoue_2021]
+[Steiling et al. 2025][research_steiling_vandecasteele_2025]
+
+$$
+\frac{dC_{\mathrm{room}}}{dt} = \frac{q(t)}{V} - \lambda \, C_{\mathrm{room}},
+\qquad C_{\mathrm{room}}(0) = 0
+\tag{16}
+$$
+
+*Equation 17, Bespoke Room Concentration from an Exponentially Decaying Source.*
+The mass balance of Equation 16 is solved with the lumped exponential emission of Equation 5 as its source, so the solution inherits that single-pool assumption.
+
+$$
+C_{\mathrm{room}}(t) = \frac{m_0}{\tau V} \cdot \frac{e^{-t/\tau} - e^{-\lambda t}}{\lambda - 1/\tau}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Time of Peak Room Concentration.*
+Setting the derivative of Equation 17 to zero gives the time at which the room concentration peaks for a decaying source and a fixed air change rate.
+
+$$
+t_{\mathrm{peak}} = \frac{\ln(\lambda \tau)}{\lambda - 1/\tau}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Late-Time Room Concentration.*
+Once many air-change times have passed, Equation 17 approaches a fixed multiple of the current emission rate set by the room volume and the difference between the ventilation and emission rates.
+
+$$
+C_{\mathrm{room}}(t) \;\to\; \frac{q(t)}{V \left( \lambda - 1/\tau \right)}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Room-Regime Number.*
+The article introduces the ratio of the late-time room concentration to the near-field concentration at the intended receiver as a dimensionless figure of merit that cancels the dose and shows whether the room or the wearer is the source.
+
+$$
+\Pi = \frac{C_{\mathrm{room}}}{C(r_i)} = \frac{\pi \, u \, a^2 \, r_i^2}{V \left( \lambda - 1/\tau \right)}
+\tag{20}
+$$
+
+**Equation 21, Early-Time Concentration in a Closed Volume.**
+Before ventilation or emission decay has acted, the room concentration is the mass emitted so far divided by the volume.
+
+$$
+C_{\mathrm{room}}(t) \approx \frac{q_0 \, t}{V} \quad \text{for } t \ll 1/\lambda, \; t \ll \tau
+\tag{21}
+$$
+
+**Equation 22, Stevens Power Law for Odour Intensity.**
+Perceived intensity grows as a power of concentration, with an exponent well below one for odours and a scale constant that drops out of every ratio.
+[Stevens' power law][ref_stevens_power_law]
+[Stevens' 1957 paper][research_stevens_1957_psychophysical_law]
+[Moskowitz and colleagues][research_moskowitz_1979_psychophysical]
+
+$$
+\psi = k \, C^{\,n}
+\tag{22}
+$$
+
+**Equation 23, Intensity Ratio Between Two Spray Counts.**
+With concentration proportional to spray count at a fixed distance, the Stevens power law makes the ratio of perceived intensities the ratio of counts raised to the exponent.
+[Stevens' power law][ref_stevens_power_law]
+
+$$
+\frac{\psi_{N_2}}{\psi_{N_1}} = \left( \frac{N_2}{N_1} \right)^{n}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Log-Normal Probability of Detection.*
+The article represents differences between receivers by a log-normal distribution of detection thresholds with an assumed spread, so the probability of detection is the standard normal distribution function of the log ratio to the median threshold.
+
+$$
+P_{\mathrm{det}}(C) = \Phi\!\left( \frac{\ln C - \ln C_{50}}{\sigma} \right)
+\tag{24}
+$$
+
+*Equation 25, Bespoke Log-Normal Probability of Overload.*
+The same log-normal form with an assumed median overload concentration in place of the detection threshold gives the probability that a receiver finds the fragrance too strong.
+
+$$
+P_{\mathrm{over}}(C) = \Phi\!\left( \frac{\ln C - \ln C_{\mathrm{over}}}{\sigma} \right)
+\tag{25}
+$$
+
+*Equation 26, Bespoke Ratio of Wearer to Receiver Exposure.*
+Under the inverse-square plume of Equation 9, the ratio of the wearer's exposure to a receiver's depends on the two distances alone.
+
+$$
+\frac{C(r_w)}{C(r_i)} = \left( \frac{r_i}{r_w} \right)^{2}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Adaptation Factor.*
+The wearer's perceived intensity relative to its initial value is modelled as an exponential decay toward a floor, with an assumed floor and time constant chosen within the bracket of published experiments.
+
+$$
+A(t) = \beta + (1 - \beta)\, e^{-t/\tau_a}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Adaptation Half-Time.*
+Setting the adaptation factor of Equation 27 to one half and solving for time gives the moment at which the wearer perceives half the initial intensity.
+
+$$
+t_{1/2}^{(a)} = \tau_a \ln \frac{1 - \beta}{0.5 - \beta}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Emission Under the Reapplication Spiral.*
+The article assumes that the wearer reapplies the original dose at every adaptation half-time, so the emission rate is the sum of the lumped decays of every application made so far.
+
+$$
+q_{\mathrm{spiral}}(t) = \frac{m_0}{\tau} \sum_{j=0}^{k} e^{-(t - j \Delta_r)/\tau}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Detection Measure of Effectiveness.*
+The article defines detection as the time average over the scenario window of the probability that the intended receiver detects the sum of the plume and room concentrations.
+
+$$
+D = \frac{1}{t_1 - t_0} \int_{t_0}^{t_1}
+P_{\mathrm{det}}\!\big( C(r_i, t) + C_{\mathrm{room}}(t) \big) \, dt
+\tag{30}
+$$
+
+*Equation 31, Bespoke Collateral and Overkill Measures of Effectiveness.*
+Collateral replaces the intended receiver's distance with the unintended receiver's in the detection measure, and overkill replaces the detection probability with the overload probability.
+
+$$
+K = \frac{1}{t_1 - t_0} \int_{t_0}^{t_1}
+P_{\mathrm{det}}\!\big( C(r_u, t) + C_{\mathrm{room}}(t) \big) \, dt,
+\qquad
+O = \frac{1}{t_1 - t_0} \int_{t_0}^{t_1}
+P_{\mathrm{over}}\!\big( C(r_i, t) + C_{\mathrm{room}}(t) \big) \, dt
+\tag{31}
+$$
+
+*Equation 32, Bespoke Recommended Course of Action.*
+The recommended spray count is the smallest count from zero to six that meets the article's thresholds of one half for detection, one fifth for collateral and one tenth for overkill.
+
+$$
+N^{\star} = \min \left\{ N \in \{0, 1, \ldots, 6\} \;:\; D(N) \geq 0.5,\; K(N) \leq 0.2,\; O(N) \leq 0.1 \right\}
+\tag{32}
+$$
+
+**Equation 33, Expected Number of Unintended Receivers Who Detect.**
+By linearity of expectation the expected number of detecting receivers is the sum of their individual probabilities, which is the count times the common probability when they stand at comparable distance.
+
+$$
+\mathbb{E}[n_K] = \sum_{j=1}^{n_u} K_j \approx n_u \, K
+\tag{33}
+$$
+
+*Equation 34, Bespoke Separation of Receivers in Threshold Standard Deviations.*
+Combining the inverse-square plume with the log-normal threshold model expresses the concentration gap between intended and unintended receivers as a number of standard deviations that is independent of dose.
+
+$$
+\Delta z = \frac{\ln C(r_i) - \ln C(r_u)}{\sigma} = \frac{2 \ln (r_u / r_i)}{\sigma}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Ceiling on Detection at the Collateral Limit.*
+Holding the unintended receiver at the collateral limit and adding the separation of Equation 34 caps the instantaneous detection probability of the intended receiver in the near field whatever the spray count.
+
+$$
+D_{\max} = \Phi\!\left( \Phi^{-1}(K_{\max}) + \Delta z \right)
+\tag{35}
+$$
+
+*Equation 36, Bespoke Superposition of Split Applications.*
+Because the plume and room equations are linear in the source, the emission from applications made at different times is the sum of their individual lumped decays, each switched on at its own time.
+
+$$
+q(t) = \sum_{j} \frac{m_j}{\tau} \, e^{-(t - t_j)/\tau} \, \mathbb{1}[t \geq t_j]
+\tag{36}
+$$
+
+*Equation 37, Bespoke Single-Application Dose to Hold an Emission Rate.*
+Under the lumped exponential emission, a single application must exceed the required dose by the decay factor across the window to deliver at its end the rate the required dose delivers at its start.
+
+$$
+m_0 \geq m_{\mathrm{req}} \, e^{(t_1 - t_0)/\tau}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Mass Remaining on a Washed Wrist.*
+The article assumes that each handwash removes a fixed fraction of the remaining dose at a fixed interval, so the mass decays continuously by emission and in steps by washing.
+
+$$
+m(t) = m_0 \, e^{-t/\tau} \, (1 - w)^{\lfloor t / \Delta t \rfloor}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Effective Time Constant with Washing.*
+Averaging the stepwise washing loss of Equation 38 over the day adds a continuous loss rate to the emission rate and shortens the effective time constant.
+
+$$
+\frac{1}{\tau_{\mathrm{eff}}} = \frac{1}{\tau} + \frac{-\ln(1 - w)}{\Delta t}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Ratio of Median Thresholds Between Female and Male Receivers.*
+A published effect size is read as a shift in the log threshold under the article's assumption that the test's threshold spread equals the spread used in its own log-normal model.
+[Sorokowski and colleagues][research_sorokowski_2019_sex_differences]
+
+$$
+\frac{C_{50}^{\mathrm{women}}}{C_{50}^{\mathrm{men}}} \approx e^{-g \sigma}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Tradeoff Between Starting Radius and Radius Half-Life.*
+Under the dose and emission models, a carrier that changes the time constant shrinks the starting radius as the inverse square root of that change and lengthens the radius half-life in proportion to it.
+
+$$
+\frac{r^{*}_2(0)}{r^{*}_1(0)} = \sqrt{\frac{\tau_1}{\tau_2}},
+\qquad
+\frac{t_{1/2,2}^{(r)}}{t_{1/2,1}^{(r)}} = \frac{\tau_2}{\tau_1}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Spray Count Matching a Spray-Equivalent Dose.*
+Inverting the spray-equivalent definition of Equation 4 gives the count of a product at a given aromatic fraction that matches a required dose.
+
+$$
+N = N_{\mathrm{eq}} \, \frac{c_{\mathrm{ref}}}{c}
+\tag{42}
+$$
+
+**Equation 43, Steady State of a Continuous Room Source.**
+A well-mixed room with a constant source settles at the emission rate divided by the ventilation flow, which is the air change rate times the volume.
+
+$$
+C_{\mathrm{room}}^{\infty} = \frac{E}{\lambda V}
+\tag{43}
+$$
+
+**Equation 44, Approach of a Ventilated Room to Steady State.**
+From a fresh start with a constant source, the room concentration approaches its steady state exponentially at the air change rate.
+
+$$
+C_{\mathrm{room}}(t) = C_{\mathrm{room}}^{\infty} \left( 1 - e^{-\lambda t} \right)
+\tag{44}
+$$
+
+*Equation 45, Bespoke Mean Areal Dose of One Actuation.*
+The article assumes a conical spray of fixed half-angle that spreads its deposited mass uniformly over a circular footprint, so the mean dose per unit area falls as the inverse square of the spray distance.
+[Kimber, Dearman and Basketter][research_kimber_2008_dose_per_area]
+
+$$
+\mu = \frac{v_s \, \rho \, c \, \eta}{\pi \, d^2 \tan^2 \theta}
+\tag{45}
+$$
+
+### Notation
+
+- $v_s$, the volume delivered per actuation, with $V_b$ the bottle volume and $N_{\mathrm{day}}$ the daily spray count
+- $N$, the number of actuations, or spray count
+- $N_{\mathrm{eq}}$, the dose in spray-equivalents, actuations of a reference eau de parfum at aromatic fraction $c_{\mathrm{ref}}$
+- $\mathrm{ODT}_k$, the odour detection threshold of component $k$, with $x_k$ its mass fraction of the aromatic material and $\mathrm{OV}_k$ its odour value
+- $m_0$, the deposited aromatic mass, with $q_0$ the initial emission rate it produces
+- $\rho$, the density of the finished fragrance
+- $c$, the mass fraction of aromatic compounds in the product
+- $\eta$, the fraction of the sprayed mass that lands on the target
+- $q(t)$, the emission rate of aromatic material at time $t$ after application
+- $\tau$, the lumped emission time constant, with $\tau_{\mathrm{eff}}$ its value when washing is included and $\tau_a$ the adaptation time constant
+- $\Delta H_{\mathrm{vap}}$, the molar enthalpy of vaporisation, with $R$ the molar gas constant and $T_1$ and $T_2$ absolute temperatures
+- $u$, the air speed past the wearer
+- $a$, the plume spread per metre of distance
+- $C_{50}$, the median detection concentration of the blend in total aromatic mass, with $C_{\mathrm{over}}$ the median concentration judged too strong
+- $r^{*}$, the detection radius at which the median receiver can just detect the fragrance
+- $r_i$, the distance to the intended receiver, with $r_u$ the distance to the unintended receiver and $r_w$ the distance to the wearer's own nose
+- $t_{\mathrm{det}}$, the detection life at a fixed distance
+- $C_{\mathrm{room}}$, the well-mixed room concentration, with $C_{\mathrm{room}}^{\infty}$ its steady state under a continuous source $E$
+- $\lambda$, the air change rate of a room of volume $V$
+- $\Pi$, the room-regime number, the ratio of room to near-field concentration at the intended receiver
+- $\psi$, the perceived odour intensity, with $k$ the scale constant and $n$ the Stevens exponent
+- $\Phi$, the standard normal distribution function, with $\Phi^{-1}$ its inverse
+- $\sigma$, the spread of receiver thresholds in natural log units
+- $A(t)$, the wearer's adaptation factor, decaying toward the floor $\beta$
+- $\Delta_r$, the interval between reapplications in the reapplication spiral
+- $K_{\max}$, the largest collateral probability permitted to the unintended receiver, with $D_{\max}$ the resulting ceiling on detection
+- $w$, the fraction of the remaining wrist dose removed by each handwash, with $\Delta t$ the interval between washes
+- $g$, a sex difference in olfactory threshold expressed as a standardised effect size
+- $\mu$, the mean aromatic mass per unit area of skin from one actuation, sprayed from distance $d$ in a cone of half-angle $\theta$
 
 ## References
 

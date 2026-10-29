@@ -1,0 +1,551 @@
+# Equation classification for A369, Native Lowering Coverage. Read by `python3 _lib/equations.py`.
+
+caution = "Every coverage measure is a dimensionless proportion between zero and one, but the instruction-level measure counts instruction instances while the unit-level and program-level measures count compilation units and programs, so two figures may be compared only when they share a unit of account."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Corpus of Compilation Units"
+gloss = "The corpus is written as a finite set of compilation units, each a sequence of instruction instances, and its size is the measured count of units."
+cite = []
+digest = "83838b170f54ce36"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Total Instruction Instance Count"
+gloss = "The total number of instruction instances is the sum of the unit lengths over the corpus."
+cite = []
+digest = "f98ff53970a4b4a6"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Lowered Instance Count of a Unit"
+gloss = "The lowered count of a unit is the number of its instruction instances that belong to the implemented subset."
+cite = []
+digest = "9f06500e364fc1cd"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Instruction-Level Coverage"
+gloss = "The article defines instruction-level coverage as the fraction of all instruction instances in the corpus that the generator lowers, a sum that forgives any single missing instruction."
+cite = []
+digest = "5d612341d65a3d89"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Lowerability Indicator of a Unit"
+gloss = "A unit is lowerable only when every one of its instructions is implemented, so the article writes lowerability as a product of indicators that a single unimplemented instruction sets to zero."
+cite = []
+digest = "630284cb2afb5e3e"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Unit-Level Coverage"
+gloss = "The article defines unit-level coverage as the fraction of compilation units whose lowerability indicator is one, an average of products rather than a sum."
+cite = []
+digest = "a41f218c466b2b4a"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Coverage Gap"
+gloss = "The gap is the difference between the instruction-level and unit-level coverage, a figure of merit the article introduces for how far an instance-level progress report overstates delivered capability."
+cite = []
+digest = "4cd8a71fee8412d6"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Blocking Set of an Instruction"
+gloss = "The blocking set of an unimplemented instruction is the set of units that are not lowerable now and would become lowerable if that one instruction alone were added."
+cite = []
+digest = "aa0ae7763683ddfc"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Marginal Unit-Level Gain"
+gloss = "The marginal gain of an instruction is the size of its blocking set as a fraction of the corpus, which equals the increase in unit-level coverage that adding it produces."
+cite = []
+digest = "a4df6523b4d3fb5e"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Corpus Instance Count of an Instruction"
+gloss = "The instance count of an instruction is the number of times it occurs across all units of the corpus."
+cite = []
+digest = "4d6674448a72391a"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Non-Monotonicity of Gain in Frequency"
+gloss = "The article claims that a more frequent instruction can have a smaller blocking set than a less frequent one, so ranking by frequency need not rank by gain."
+cite = []
+digest = "91748802fbe8e714"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Cost-Weighted Greedy Selection"
+gloss = "Choosing next the candidate with the largest newly covered mass per unit of implementation cost is the classical greedy rule for weighted set cover, with the blocking set as the covered mass."
+cite = ["research_johnson_1974", "research_chvatal_1979"]
+digest = "08b438abffdb19a4"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Cheapest-First Ordering"
+gloss = "The ordering in common use selects the unimplemented instruction of least implementation cost and ignores how many units it unblocks."
+cite = []
+digest = "e6db013ee3b461f7"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Unit-Level Coverage over Requirement Sets"
+gloss = "Unit-level coverage is restated as the fraction of units whose set of distinct instructions is contained in the implemented subset."
+cite = []
+digest = "1336097fd6b8227c"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Monotonicity of Unit-Level Coverage"
+gloss = "Enlarging the implemented subset can only turn indicators from zero to one, so the article's coverage objective never decreases."
+cite = []
+digest = "33c4af8ec9629334"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Explicit Form of the Marginal Gain"
+gloss = "The marginal gain of an instruction counts the units that contain it and whose remaining distinct instructions are already implemented."
+cite = []
+digest = "f76b689e4d6c2aba"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Supermodularity of Unit-Level Coverage"
+gloss = "Because the qualifying set of units can only grow as the implemented subset grows, the marginal gain of an instruction increases with the subset, so the article's objective is supermodular."
+cite = []
+digest = "424dc8462125bfeb"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Submodularity as Diminishing Returns"
+gloss = "A set function is submodular when the marginal gain of an element can only fall as the set it is added to grows, a property the article shows does not hold for its objective."
+cite = ["research_lovasz_1983"]
+digest = "3e316283f94e5626"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Supermodularity as Increasing Returns"
+gloss = "A set function is supermodular when the marginal gain of an element can only rise as the set it is added to grows, which is the property the article's objective has."
+cite = ["research_lovasz_1983"]
+digest = "8a2403d91f4b4fa5"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Greedy Approximation Bound for Monotone Submodular Maximisation"
+gloss = "For a monotone submodular objective under a cardinality constraint the greedy algorithm attains at least the fraction one minus the reciprocal of Euler's number of the optimum, a guarantee that does not apply to the supermodular objective here."
+cite = ["research_nemhauser_1978"]
+digest = "1d8df8c275518531"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Empty Singleton Blocking Sets"
+gloss = "Under increasing returns a unit that needs several unimplemented instructions is unblocked by none of them alone, so most singleton blocking sets are empty while workstream blocking sets are not."
+cite = []
+digest = "b4db315567e373a2"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Workstream Blocking Set and Counterfactual Gain"
+gloss = "The blocking set and the gain are extended from a single instruction to a workstream, a group of instructions that the article assumes are implemented together."
+cite = []
+digest = "a695e28abf7bd842"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Bound on Naive Per-Instruction Attribution"
+gloss = "The sum of singleton blocking set sizes, the size of their union and the number of blocked units are ordered as a bound on how far per-instruction attribution can overstate the total unblocking."
+cite = []
+digest = "ba623f20759257f7"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Shapley Value of a Workstream"
+gloss = "The Shapley value averages the marginal gain in unit-level coverage of a workstream over every order in which the workstreams could be added."
+cite = ["research_shapley_1953", "research_owen_1972"]
+digest = "f594a402b30a4729"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Efficiency of the Shapley Value"
+gloss = "The Shapley attributions of all workstreams sum to the total gain in unit-level coverage from implementing every workstream, so nothing is counted twice."
+cite = ["research_shapley_1953"]
+digest = "16f4640977bbfa1e"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke First-Blocker Partition"
+gloss = "Each blocked unit is assigned to the workstream of its first blocking instance in the instruction stream, which partitions the blocked units and is the cheap surrogate the article uses in place of the Shapley value."
+cite = []
+digest = "329ecac75edbcea5"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Order-Averaged First-Blocker Count"
+gloss = "Averaging the first-blocker count over a uniform distribution on instruction orders would remove its order dependence, a quantity the article names and does not compute."
+cite = []
+digest = "ed42b7ef41df1058"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Corpus Guard Assertion"
+gloss = "The instrument refuses to report unless more than ten files compiled and more than one thousand instruction instances were counted, a guard the article adopts against a silently small sample."
+cite = []
+digest = "54b96f865980f604"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Coverage Measures at Thirty-Nine Implemented Instructions"
+gloss = "Instruction-level and unit-level coverage are evaluated on the corpus with thirty-nine of the sixty-six instructions implemented."
+cite = []
+digest = "7d26db00fd64b54f"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Coverage Gap at Thirty-Nine Implemented Instructions"
+gloss = "The coverage gap of Equation 7 is evaluated from the two measures of Equation 29."
+cite = []
+digest = "046c497ed40b0d7b"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Coverage Measures at Forty-Six Implemented Instructions"
+gloss = "Instruction-level coverage, unit-level coverage and the gap are evaluated again after the implemented subset grew to forty-six instructions."
+cite = []
+digest = "3c647a6098f9b08e"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Program-Level Coverage"
+gloss = "A program lowers only when every one of its compilation units lowers, so the article applies the same conjunction once more to define coverage over the programs a consumer deploys."
+cite = []
+digest = "ca4a6c6f05e0270a"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Program-Level Coverage at Forty-Six Implemented Instructions"
+gloss = "Program-level coverage is evaluated as the fraction of the fifty-eight compiled programs that lower in full."
+cite = []
+digest = "6c357e9cb4317074"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Ratio of Unit-Level to Program-Level Coverage"
+gloss = "The ratio of the unit-level to the program-level measure gives the factor by which the outer conjunction lowers the reported coverage."
+cite = []
+digest = "aaeb7111923eea0f"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Data-Segment Share of Blocked Units"
+gloss = "The first-blocker count of the data-segment workstream divided by the number of blocked units gives its share of the blocking."
+cite = []
+digest = "3c7cb78f60b6f8b2"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Non-Monotonicity Witnessed by Two Workstreams"
+gloss = "The native-call workstream has more instances than the composite workstream yet first-blocks fewer units, which witnesses the claim of Equation 11 after aggregation to workstreams."
+cite = []
+digest = "ef3f00a178c467e2"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Unit-Level Coverage Under an Independence Null"
+gloss = "The article constructs a null in which every instruction instance is lowered independently with the measured instruction-level probability, so a unit is lowerable with that probability raised to its length."
+cite = []
+digest = "5fab4828be171378"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Clustering Coefficient"
+gloss = "The ratio of observed unit-level coverage to its value under the independence null is a figure of merit the article introduces to measure how strongly blocking instructions concentrate in the same units."
+cite = []
+digest = "8b587e5b090b662a"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Null Coverage and Clustering Coefficient Evaluated"
+gloss = "The independence null and the clustering coefficient are evaluated over the measured distribution of unit lengths."
+cite = []
+digest = "edc2668d43eb61e3"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Jensen's Inequality for a Convex Power"
+gloss = "Because a power of a probability between zero and one is convex in the exponent, the mean of the powers is at least the power evaluated at the mean length."
+cite = ["research_jensen_1906"]
+digest = "fe7751e61ccebd4e"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Power at the Mean Length Against the Mean of the Powers"
+gloss = "Jensen's inequality is evaluated with the measured probability and mean unit length, and the two sides differ by more than seven orders of magnitude."
+cite = ["research_jensen_1906"]
+digest = "1f3cb878a0f519fd"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Clustering Coefficient Evaluated at the Mean Length"
+gloss = "Evaluating the null at the mean unit length instead of per unit would have inflated the clustering coefficient to about one hundred and eighty million, the error the article reports avoiding."
+cite = []
+digest = "c61eb4ac785a5855"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Upper Bound on a Rate from Zero Observed Events"
+gloss = "Setting the probability of observing no events in independent trials equal to five percent gives the ninety-five percent upper bound on the rate, which is approximately the natural logarithm of twenty divided by the number of trials."
+cite = ["research_hanley_1983", "research_clopper_pearson_1934"]
+digest = "f3efef8b1a25d850"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Rule of Three"
+gloss = "The approximate ninety-five percent upper bound on a rate after zero events in a number of trials is three divided by that number."
+cite = ["research_hanley_1983"]
+digest = "09af17474d592128"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Rule of Three per Instance and per Unit"
+gloss = "The rule of three is evaluated with instruction instances and with compilation units as the trials, of which the per-unit bound is the more defensible because instances within a unit are dependent."
+cite = ["research_hanley_1983"]
+digest = "7c4d083d946add6d"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Zero Gain of the Typed Arithmetic Workstream"
+gloss = "A workstream with no blocking instances has an empty blocking set and therefore unblocks no unit at all."
+cite = []
+digest = "472df3b5c2a38a85"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Ratio of Data-Segment to Composite First-Blocker Counts"
+gloss = "The first-blocker count of the data segment divided by that of the composite workstream compares the leading blocker with the work the falsified recommendation favoured."
+cite = []
+digest = "1a11573efeb5c5cf"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Ratio of Measurement Cost to Redirected Work"
+gloss = "The measured cost of the corpus check against an estimated cost of the work it redirected is offered only as an order of magnitude, because its denominator is a counterfactual estimate."
+cite = []
+digest = "026baf1aef50a08a"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Expectation over the Corpus Rather Than the Target Population"
+gloss = "Every reported figure is an expectation over the empirical distribution of the corpus rather than over the eventual target population, and no importance weighting connects the two."
+cite = []
+digest = "a416a69207959d6c"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Margin of the Leading Workstream"
+gloss = "The first-blocker count of the data segment divided by the largest count among the other workstreams measures how extreme an order-dependence artefact would need to be to invert the leading result."
+cite = []
+digest = "fde2d9bbc4ccdb21"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Number of Subsets of the Workstreams"
+gloss = "A set of six workstreams has sixty-four subsets, which is the number of coverage evaluations the exact Shapley value requires."
+cite = ["research_shapley_1953"]
+digest = "08cf2ea2e134daec"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Pigeonhole Bounds on the Number of Blocked Units"
+gloss = "The missing instances must occupy at least as many units as their number divided by the longest unit length, rounded up, and at most as many as the smaller of their number and the number of units."
+cite = ["research_karp_1972", "research_feige_1998"]
+digest = "1a791b10cf1cdf84"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Cost of Measurement Against Cost of Work"
+gloss = "The article claims that counting occurrences over a population of consumers costs far less than the work being ordered, characteristically by one to two orders of magnitude."
+cite = []
+digest = "21daac7062ec389a"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Amdahl's Law"
+gloss = "The overall speedup from accelerating a fraction of the work is bounded above by the reciprocal of the remaining fraction however large the acceleration becomes."
+cite = ["research_amdahl_1967"]
+digest = "0a6b78fed6a35597"
+
+[[symbol]]
+tex = '\iota'
+meaning = "an instruction instance or an instruction of the instruction set $I$"
+
+[[symbol]]
+tex = 'I'
+meaning = "the instruction set of the virtual machine, of sixty-six instructions"
+
+[[symbol]]
+tex = 'S'
+meaning = "the subset of instructions the generator currently lowers, with $S'$ a larger implemented subset"
+
+[[symbol]]
+tex = 'c_m'
+meaning = "the $m$th compilation unit of the corpus $C$, a sequence of instruction instances of length $|c_m|$"
+
+[[symbol]]
+tex = 'M'
+meaning = "the number of compilation units in the corpus"
+
+[[symbol]]
+tex = 'N'
+meaning = "the total number of instruction instances in the corpus"
+
+[[symbol]]
+tex = 'n^{\text{ok}}(c_m, S)'
+meaning = "the number of instruction instances in unit $c_m$ that the generator lowers"
+
+[[symbol]]
+tex = '\rho^{\text{inst}}(S)'
+meaning = "the instruction-level coverage, the fraction of instruction instances that are lowered"
+
+[[symbol]]
+tex = '\rho^{\text{unit}}(S)'
+meaning = "the unit-level coverage, the fraction of compilation units in which every instruction is lowered"
+
+[[symbol]]
+tex = '\rho^{\text{prog}}(S)'
+meaning = "the program-level coverage over the set of programs $\\mathcal{P}$, each with units $u(P)$"
+
+[[symbol]]
+tex = '\chi(c_m, S)'
+meaning = "the lowerability indicator of a unit, one when every instruction in the unit is implemented and zero otherwise"
+
+[[symbol]]
+tex = '\Gamma(S)'
+meaning = "the coverage gap between instruction-level and unit-level coverage"
+
+[[symbol]]
+tex = 'B(\iota, S)'
+meaning = "the blocking set of an instruction, with $B(W, S)$ the blocking set of a workstream $W$"
+
+[[symbol]]
+tex = 'g(\iota, S)'
+meaning = "the marginal gain in unit-level coverage from adding instruction $\\iota$"
+
+[[symbol]]
+tex = 'n(\iota)'
+meaning = "the number of instances of instruction $\\iota$ in the corpus, extended additively to workstreams"
+
+[[symbol]]
+tex = '\kappa(\iota)'
+meaning = "the implementation cost of an instruction, with $\\kappa_{\\text{measure}}$, $\\kappa_{\\text{spike}}$ and $\\kappa_{\\text{work}}$ the costs of measuring, of a research spike and of the work being ordered"
+
+[[symbol]]
+tex = '\lambda(\iota, S)'
+meaning = "the leverage ratio, the blocking set size per unit of implementation cost"
+
+[[symbol]]
+tex = 'R_m'
+meaning = "the set of distinct instructions that appear in unit $c_m$"
+
+[[symbol]]
+tex = '\mathcal{W}'
+meaning = "the set of workstreams, each a group $W$ of instructions implemented together"
+
+[[symbol]]
+tex = '\phi(W)'
+meaning = "the Shapley attribution of workstream $W$"
+
+[[symbol]]
+tex = 'f_\pi(W)'
+meaning = "the first-blocker count of workstream $W$ under instruction order $\\pi$, written $f(W)$ for the natural order and $\\bar f(W)$ for its average over uniformly random orders"
+
+[[symbol]]
+tex = '\rho^{\text{unit}}_{0}'
+meaning = "the unit-level coverage expected under the independence null"
+
+[[symbol]]
+tex = 'p^{|c_m|}'
+meaning = "the probability $p$ that a single instance is lowered under the null, raised to the length of a unit"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the clustering coefficient, the ratio of observed to null unit-level coverage"
+
+[[symbol]]
+tex = '\bar{L}'
+meaning = "the mean unit length over the corpus"
+
+[[symbol]]
+tex = '\hat{p}_{\text{upper}}'
+meaning = "the approximate ninety-five percent upper bound on a rate after zero observed events in $n$ trials"
+
+[[symbol]]
+tex = 'L_{\max}'
+meaning = "the length of the longest unit, with $Q$ the number of missing instruction instances"
+
+[[symbol]]
+tex = '\mathcal{D}_{\text{corpus}}'
+meaning = "the empirical distribution over units of the corpus, with $\\mathcal{D}_{\\text{target}}$ the distribution of the eventual target population"
+
+[[symbol]]
+tex = 'f/s'
+meaning = "in Amdahl's law, the fraction $f$ of the work an improvement touches and the factor $s$ by which that fraction becomes faster"

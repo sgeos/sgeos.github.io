@@ -1,0 +1,628 @@
+# Equation classification for A374, The Published Wargames of a War with China.
+# Read by `python3 _lib/equations.py`.
+
+caution = "Populations, births, deaths and marriage registrations are in millions and crude rates are per thousand people, while losses, casualties and missile counts are the totals or averages of the game or study in which they appear. Economic losses are proportions of a year of gross domestic product, so a ratio of two losses compares shares of output rather than sums of money."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Demographic Balancing Equation"
+gloss = "The population at the end of a year equals the population at its start plus births, less deaths, plus net migration."
+cite = ["data_nbs_2024_communique", "data_nbs_2025_communique"]
+digest = "df572cdf65a29fbb"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Population Balance for China in 2025"
+gloss = "Substituting the published year-end populations, births and deaths into the balancing equation leaves a net migration term of zero to the precision published."
+cite = ["data_nbs_2024_communique", "data_nbs_2025_communique"]
+digest = "4f40e0401e2f2c92"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Natural Decrease for China in 2024"
+gloss = "Births less deaths in 2024 reproduce the whole of the reported decrease of 1.39 million."
+cite = ["data_nbs_2024_communique"]
+digest = "d7655467cc4d9b50"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Ratio of Successive Annual Decreases"
+gloss = "The decrease in 2025 divided by the decrease in 2024 shows that the decline steepened by a factor of about two and a half."
+cite = ["data_nbs_2024_communique", "data_nbs_2025_communique"]
+digest = "29e3054db2e37dd9"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Mean Population and Crude Birth and Death Rates"
+gloss = "A crude rate is the count of events in a year per thousand of the mean population, which is approximated here by the average of the two year-end figures."
+cite = ["data_nbs_2025_communique"]
+digest = "61e8af5539a6056f"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Crude Birth and Death Rates for China in 2025"
+gloss = "Dividing the published births and deaths by the mean population reproduces the published rates of 5.63 and 8.04 per thousand."
+cite = ["data_nbs_2025_communique"]
+digest = "5cd93d42ad7f1ee3"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Rate of Natural Increase"
+gloss = "The natural growth rate is the crude birth rate less the crude death rate, which is negative for China in 2025."
+cite = ["data_nbs_2025_communique"]
+digest = "6f7daf642fd00de4"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Annual Decline as a Share of Population"
+gloss = "The decrease in 2025 divided by the population at the end of 2024 is about a quarter of one percent."
+cite = ["data_nbs_2024_communique", "data_nbs_2025_communique"]
+digest = "686aca1f296b12ab"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Proportional Fall in Marriage Registrations"
+gloss = "The change in registrations between 2023 and 2024 divided by the 2023 figure gives a fall of about a fifth."
+cite = ["news_reuters_marriages_2024"]
+digest = "5586d294be69838a"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Crude Marriage Rate"
+gloss = "Registrations per thousand of the year-end population reproduce the published marriage rate of 4.3 per thousand."
+cite = ["data_scio_2025_marriage_registrations"]
+digest = "8fba3524bf3a2f2e"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Ratio of Divorces to Marriages"
+gloss = "Divorces concluded divided by marriages registered in the same year gives a ratio of a little over one half."
+cite = ["data_scio_2025_marriage_registrations"]
+digest = "504d8094a36f3b08"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Decline of the Marrying-Age Cohort"
+gloss = "The fall in the population aged 20 to 39 between 2013 and 2023 is about a seventh of its earlier size."
+cite = ["data_scio_2025_marriage_registrations"]
+digest = "1184c5460c106f83"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Old Age Dependency Ratio"
+gloss = "The old age dependency ratio is the number of people aged 65 and older divided by the number aged 15 to 64."
+cite = ["research_pollard_2025_fertility_decline"]
+digest = "0360c294221c4b41"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Growth of the Projected Dependency Ratio"
+gloss = "The projected ratio for 2050 divided by the ratio for 2024 shows the dependency ratio more than doubling."
+cite = ["research_pollard_2025_fertility_decline"]
+digest = "f4d07673d1f63659"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Compound Annual Growth Rate of the Dependency Ratio"
+gloss = "The twenty-sixth root of the growth factor less one gives the constant yearly rate that produces the same change over the period."
+cite = ["research_pollard_2025_fertility_decline"]
+digest = "7c6fbd5f0b8752d6"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Potential Support Ratio"
+gloss = "The reciprocal of the old age dependency ratio counts working-age adults for each person aged 65 and older."
+cite = ["research_pollard_2025_fertility_decline"]
+digest = "b55c6cd44e3a3034"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Implied Working-Age Population in 2020"
+gloss = "Adding the stated loss of 200 million to the projected working-age population of 2050 recovers the base from which the loss is counted."
+cite = ["commentary_brands_beckley_2021_declining_power", "research_pollard_2025_fertility_decline"]
+digest = "c5fc945194b0869a"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "End of the Six-Year Window in Testimony"
+gloss = "Six years counted from the year of the 2021 testimony give the year 2027 to which the published scenarios return."
+cite = ["government_sasc_2021_indopacom"]
+digest = "dec092ab4c3a452a"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Reconciliation of Iterations by Scenario Family"
+gloss = "The base, pessimistic, optimistic and unassisted iterations sum to the 24 runs the report states."
+cite = ["research_cancian_2023_first_battle"]
+digest = "330864da14045fe5"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Reconciliation of Iterations by Outcome"
+gloss = "Decisive defeats, stalemates and the single victory sum to the 24 runs, and the three kinds of stalemate sum to fourteen."
+cite = ["research_cancian_2023_first_battle"]
+digest = "39c88302f62f64e1"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Relative Frequency of an Outcome"
+gloss = "The fraction of iterations with a given outcome is the count of such iterations divided by the total number run."
+cite = ["research_cancian_2023_first_battle"]
+digest = "4134e0d0068eb0d6"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Outcome Fractions of the Invasion Game"
+gloss = "The relative frequency evaluated for defeat, stalemate and victory gives shares that sum to one across the 24 runs."
+cite = ["research_cancian_2023_first_battle"]
+digest = "1ecfff4cf98dda55"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Share of Decisive Defeats in the Pessimistic Family"
+gloss = "Four decisive defeats among eighteen pessimistic iterations give a share a little over one fifth."
+cite = ["research_cancian_2023_first_battle"]
+digest = "cc83b426ac702fd8"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Consistency of the Loss Table"
+gloss = "The United States and Japanese aircraft and ship losses sum to the combined row of the report's table."
+cite = ["research_cancian_2023_first_battle"]
+digest = "6bea7f4c4b7e7c4f"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Composition of Chinese Ship Losses and Implied Amphibious Fleet"
+gloss = "Amphibious and other ships lost sum to the total, and dividing the amphibious losses by the stated share of ninety percent recovers the size of the fleet."
+cite = ["research_cancian_2023_first_battle"]
+digest = "a0b6a7227d386cb7"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Amphibious Share of Chinese Ship Losses"
+gloss = "Amphibious ships lost divided by all Chinese ships lost show that transports made up about three fifths of the losses."
+cite = ["research_cancian_2023_first_battle"]
+digest = "ff7be663f63dc9bc"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Loss Exchange Ratios at Sea and in the Air"
+gloss = "Chinese losses divided by coalition losses give the number of Chinese ships and aircraft lost for each one lost by the United States and Japan together."
+cite = ["research_cancian_2023_first_battle"]
+digest = "4979c1565798270b"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Implied Chinese Dead"
+gloss = "The article sums the report's ground and maritime casualty estimates after applying the fractions the report assumes killed, a total that the report does not itself state."
+cite = ["research_cancian_2023_first_battle"]
+digest = "be62decc0cec853d"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Order of Magnitude for Killed and Captured"
+gloss = "Adding the stated count of more than 30,000 survivors to the implied dead treats every survivor as captured, so the sum is an order of magnitude rather than a bound."
+cite = ["research_cancian_2023_first_battle"]
+digest = "2d1a4b08651f647a"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Ratios of Pessimistic to Base Average Losses"
+gloss = "Each pessimistic average divided by the matching base average shows how the losses of each party moved under assumptions favourable to China."
+cite = ["research_cancian_2023_first_battle"]
+digest = "5567ebd9a1774d21"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Loss Exchange Ratios in the Pessimistic Scenarios"
+gloss = "The exchange ratios evaluated with the pessimistic averages show China losing more ships and relatively more aircraft for each coalition loss."
+cite = ["research_cancian_2023_first_battle"]
+digest = "4beaa016cd70577b"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Reconciliation of Nuclear Game Outcomes"
+gloss = "The five outcome classes of the nuclear study sum to the fifteen games it ran."
+cite = ["research_cancian_2024_confronting_armageddon"]
+digest = "d1a08f315db919ca"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Chain of Observed Frequencies of Nuclear Use"
+gloss = "Successive ratios of games reaching a crisis, recommending nuclear use and beginning with Chinese first use are relative frequencies within the project, not probabilities."
+cite = ["research_cancian_2024_confronting_armageddon"]
+digest = "d3d917dd2273dbd6"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Resolution of the Seven Nuclear Recommendations"
+gloss = "The seven recommendations for nuclear use sum across the four ways in which they resolved."
+cite = ["research_cancian_2024_confronting_armageddon"]
+digest = "8658ec4ac2a56df2"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke First-Week Share of Coalition Losses"
+gloss = "Dividing first-week losses from the 2024 nuclear study by the three-week averages of the 2023 game assumes that figures from different scenario years and game versions are comparable."
+cite = ["research_cancian_2024_confronting_armageddon", "research_cancian_2023_first_battle"]
+digest = "8a4bdb09c4a38acd"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Count of Blockade Games"
+gloss = "The twenty-one matrix games and five free-play games sum to the twenty-six games of the blockade study."
+cite = ["research_cancian_2025_lights_out"]
+digest = "6a2c6d216de78834"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Growth of Casualties with Escalation"
+gloss = "Casualties in the wider war divided by those in the low-level blockade give the factor by which escalation raised the losses of each side."
+cite = ["research_cancian_2025_lights_out"]
+digest = "23a1be303866bce4"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Casualty Exchange Ratios in the Blockade Games"
+gloss = "Coalition casualties divided by Chinese casualties in each variant show the ratio falling from about eleven toward parity as the war widens."
+cite = ["research_cancian_2025_lights_out"]
+digest = "193af6903185542f"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Survival of a Ship over Repeated Blockade Runs"
+gloss = "Raising the chance of surviving one voyage to the number of voyages assumes that each voyage faces the same independent risk of loss, an assumption the report does not make."
+cite = ["research_cancian_2025_lights_out"]
+digest = "dc721f28967ede28"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Exhaustion Time of a Drawn-Down Stockpile"
+gloss = "A stock consumed faster than it is replenished lasts for the stock divided by the net rate of drawdown."
+cite = ["research_cancian_2025_lights_out"]
+digest = "43ffa078078a49b7"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Relative Exhaustion Times of Coal, Oil and Gas"
+gloss = "The stated exhaustion times of coal and oil divided by that of gas show how much longer each lasted under blockade."
+cite = ["research_cancian_2025_lights_out"]
+digest = "c8f4e3e0c8936ab5"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Reconciliation of Long-Range Missile Expenditure"
+gloss = "The four types of missile expended sum to the more than 5,000 that the report states."
+cite = ["research_jones_2023_empty_bins"]
+digest = "7752239e1d8ebbd2"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Mean Daily Rate of Missile Expenditure"
+gloss = "The total expended divided by twenty-one days of fighting gives the average daily rate."
+cite = ["research_jones_2023_empty_bins"]
+digest = "3ec6d8dd0d98fd96"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Long Range Anti-Ship Missile Share of Expenditure"
+gloss = "The Long Range Anti-Ship Missiles expended divided by the total show that they were less than a tenth of the missiles fired."
+cite = ["research_jones_2023_empty_bins"]
+digest = "a8b6f504bd1fbd62"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Lower Bound on the Expenditure Rate of Anti-Ship Missiles"
+gloss = "The exhaustion time with no resupply, combined with an inventory gone within a week, bounds the daily rate of expenditure from below."
+cite = ["research_jones_2023_empty_bins", "research_cancian_2023_first_battle"]
+digest = "f53d0f186975ac7e"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Ratio of Naval to Air Sustainment Windows"
+gloss = "The naval sustainment windows divided by the air window give the factors by which the PLA, the People's Liberation Army, could sustain operations longer at sea."
+cite = ["research_greenway_2026_tidalwave_archived"]
+digest = "eb05bc53dab9b800"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Implied World Gross Domestic Product"
+gloss = "A loss in dollars divided by the same loss as a proportion of output recovers the size of the world economy that the estimate assumed."
+cite = ["news_taiwan_news_2024_bloomberg", "news_insurance_journal_2026_bloomberg"]
+digest = "5a75403bdfa25e7f"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Implied World Output in the Two Bloomberg Runs"
+gloss = "The implied world output evaluated for the 2024 and 2026 estimates gives about 98 and 110 trillion dollars."
+cite = ["news_taiwan_news_2024_bloomberg", "news_insurance_journal_2026_bloomberg"]
+digest = "d58a0136624333c0"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Range of the Ratio of Chinese to American Losses"
+gloss = "Pairing the low end of one published range with the high end of the other bounds the ratio of Chinese to American losses in the RAND Corporation study."
+cite = ["research_gompert_2016_war_with_china"]
+digest = "152da06060c1158c"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Comparison of Relative Losses Across Three Estimates"
+gloss = "The ratio of Chinese to American proportional losses is set side by side for three studies, with the RAND Corporation ranges reduced to their midpoints as the article chose."
+cite = ["research_gompert_2016_war_with_china", "news_taiwan_news_2024_bloomberg", "news_insurance_journal_2026_bloomberg"]
+digest = "38033a1b08dc84e9"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Blockade Relative to War in the 2024 Bloomberg Run"
+gloss = "The world loss in a blockade divided by that in a war, and the Chinese loss divided by the American loss in a blockade, compare the two contingencies."
+cite = ["news_taiwan_news_2024_bloomberg"]
+digest = "daf7623c2e12d46f"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Taiwan's Loss Relative to the World's"
+gloss = "Taiwan's proportional loss divided by the world's in each Bloomberg run gives a factor of about four."
+cite = ["news_taiwan_news_2024_bloomberg", "news_insurance_journal_2026_bloomberg"]
+digest = "088f55ff1dd9b564"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Casualty Share of Troops Landed"
+gloss = "Troops lost divided by troops landed in the game played by members of Congress give a share of four in five."
+cite = ["research_pettyjohn_2023_bad_blood"]
+digest = "2f10129f4a0d6f71"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Chinese Naval Losses in Two Independent Games"
+gloss = "Surface and amphibious losses in the Japanese game sum to a total that is set beside the base average of the CSIS game, where CSIS is the Center for Strategic and International Studies."
+cite = ["research_spf_2024_taiwan_strait_ttx", "research_cancian_2023_first_battle"]
+digest = "0454bff4a81be577"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Growth in Submarine Salvo Rate"
+gloss = "The salvo rate in the case most favourable to China divided by the baseline rate gives a fourfold increase."
+cite = ["journal_caverley_2025"]
+digest = "087ea656ee1ad19c"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Ratio of Two Blockade Estimates"
+gloss = "The Bloomberg estimate of the blockade loss divided by that of the Institute for Economics and Peace gives a factor approaching two."
+cite = ["research_iep_2023_gpi"]
+digest = "b243e4429f074bd2"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Two Measures of Taiwan's Share of Advanced Chip Capacity"
+gloss = "The share of capacity below 10 nanometres in 2019 is set beside the share at 16 and 14 nanometres and below in 2023, which differ in node threshold and in year."
+cite = ["data_bcg_sia_2021_value_chain", "data_trendforce_2023_foundry_capacity"]
+digest = "c290629e4a52ff40"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Growth in Air Defence Identification Zone Incursions"
+gloss = "Incursions in 2024 divided by those in 2019 give the factor by which the incursions rose."
+cite = ["government_uscc_2025_taiwan_chapter"]
+digest = "1caa094c15c604f3"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Percentage Increase in Median Line Crossings"
+gloss = "The change in crossings divided by the 2020 count reproduces the increase of 6,591 percent that the Commission states."
+cite = ["government_uscc_2025_taiwan_chapter"]
+digest = "6e831da9068392a9"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Implied Exchange Rate of the Defence Budget"
+gloss = "The budget in New Taiwan dollars divided by the same budget in United States dollars gives the exchange rate it implies."
+cite = ["government_uscc_2025_taiwan_chapter"]
+digest = "0e2f808a9eec501c"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Compound Annual Growth Rate of the Warhead Stockpile"
+gloss = "The sixth root of the projected growth factor less one gives the constant yearly rate that takes the stockpile from about 600 to 1,000 warheads."
+cite = ["commentary_erickson_2025_dod_report_set"]
+digest = "8fbbede374f3008d"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Share of Assessments Concerning Taiwan"
+gloss = "Seven of the ten assessments reviewed considered Chinese efforts to take Taiwan."
+cite = ["commentary_tetreau_2023_where_the_wargames_were_not"]
+digest = "1bcd88e1f03a27e8"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Ratio of Pessimistic to Optimistic Iterations"
+gloss = "The invasion game ran nine pessimistic iterations for each optimistic one, so its outcome fractions describe the design rather than the world."
+cite = ["research_cancian_2023_first_battle"]
+digest = "98a5d2aa64ead6d8"
+
+[[symbol]]
+tex = 'P_0'
+meaning = "the population of China at the end of 2024 in millions, with $P_1$ the population at the end of 2025"
+
+[[symbol]]
+tex = 'B'
+meaning = "births during a year in millions, with $D$ the deaths"
+
+[[symbol]]
+tex = 'M'
+meaning = "net international migration in millions"
+
+[[symbol]]
+tex = '\bar{P}'
+meaning = "the mean population over the year in millions"
+
+[[symbol]]
+tex = 'b'
+meaning = "the crude birth rate per thousand, with $d$ the crude death rate"
+
+[[symbol]]
+tex = 'r_n'
+meaning = "the rate of natural increase per thousand"
+
+[[symbol]]
+tex = 'm_{2023}'
+meaning = "marriage registrations in 2023 in millions"
+
+[[symbol]]
+tex = 'R_{\text{old}}'
+meaning = "the old age dependency ratio"
+
+[[symbol]]
+tex = 'N_{65+}'
+meaning = "the number of people aged 65 and older, with $N_{15\\text{ to }64}$ the number aged 15 to 64"
+
+[[symbol]]
+tex = 'g'
+meaning = "a compound growth rate per year"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of iterations of the invasion game, with a subscript for each scenario family"
+
+[[symbol]]
+tex = 'f_k'
+meaning = "the fraction of iterations ending in outcome $k$, with $n_k$ the count of such iterations"
+
+[[symbol]]
+tex = 'A_{\text{US}}'
+meaning = "the average combat aircraft lost by a party, with a subscript for the party"
+
+[[symbol]]
+tex = 'S_{\text{CN}}'
+meaning = "the average major ships lost by China, with other subscripts for other parties and for amphibious ships"
+
+[[symbol]]
+tex = 'F_{\text{amph}}'
+meaning = "the size of the Chinese amphibious fleet in the game"
+
+[[symbol]]
+tex = 'E_S'
+meaning = "the ratio of Chinese ships lost to coalition ships lost, with $E_A$ the same ratio for aircraft"
+
+[[symbol]]
+tex = 'K'
+meaning = "the implied number of Chinese dead, with $C$ the number captured"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the ratio of a pessimistic average loss to the matching base average"
+
+[[symbol]]
+tex = 'G_c'
+meaning = "the games of the nuclear study in which the China team reached a crisis, out of $G$ games, with $G_n$ those in which it recommended nuclear use"
+
+[[symbol]]
+tex = 'U_{\text{CN}}'
+meaning = "the cases of Chinese first use facing conventional defeat, out of $U$ cases of nuclear use"
+
+[[symbol]]
+tex = 'L_{\text{co}}'
+meaning = "coalition casualties in a blockade game, with $L_{\\text{CN}}$ Chinese casualties"
+
+[[symbol]]
+tex = 'p_k'
+meaning = "the probability that a merchant ship survives $k$ inbound voyages"
+
+[[symbol]]
+tex = 'T'
+meaning = "the time for which a stockpile lasts, with $T_{\\text{ex}}$ the time the Long Range Anti-Ship Missile inventory lasts"
+
+[[symbol]]
+tex = 'I'
+meaning = "a stockpile or inventory"
+
+[[symbol]]
+tex = 'c - s'
+meaning = "the net rate of drawdown, the consumption rate $c$ less the resupply rate $s$"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the average rate of missile expenditure per day"
+
+[[symbol]]
+tex = 'W'
+meaning = "the implied world gross domestic product in trillions of dollars"
+
+[[symbol]]
+tex = '\Delta Y'
+meaning = "the first-year loss of output in trillions of dollars"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the first-year loss as a proportion of output"
+
+[[symbol]]
+tex = 'L_{\text{China}}'
+meaning = "the first-year proportional loss of Chinese gross domestic product, with $L_{\\text{United States}}$ the American loss"

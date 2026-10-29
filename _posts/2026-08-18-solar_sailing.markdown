@@ -58,6 +58,7 @@ $$
 p = \frac{E}{c}, \qquad
 P_{\mathrm{abs}} = \frac{S}{c}, \qquad
 P_{\mathrm{mirror}} = \frac{2S}{c}
+\tag{1}
 $$
 
 A square sail of 80 square metres,
@@ -89,6 +90,7 @@ and $V$ the wind speed
 
 $$
 P_{\mathrm{sw}} = n\,m_{p}\,V^{2}
+\tag{2}
 $$
 
 With 5 protons per cubic centimetre at 400 kilometres per second this gives 1.34 nanopascals,
@@ -149,6 +151,7 @@ The force is therefore the following.
 
 $$
 \vec{F} = \frac{2 S A}{c}\cos^{2}\alpha\,\hat{n}
+\tag{3}
 $$
 
 Two quantities describe a sail's performance.
@@ -160,6 +163,7 @@ and the lightness number $\beta$ is the ratio of that acceleration to the Sun's 
 $$
 a_{c} = \frac{2 S_{0}}{c\,\sigma}, \qquad
 \beta = \frac{a_{c}}{\mu_{\odot}/(1\ \mathrm{AU})^{2}}
+\tag{4}
 $$
 
 Here $S_{0}$ is the flux at 1 AU and $\mu_{\odot}$ is the Sun's gravitational parameter.
@@ -173,6 +177,7 @@ is the following.
 
 $$
 \ddot{\vec{r}} = -\frac{\mu}{r^{2}}\,\hat{r} + \beta\,\frac{\mu}{r^{2}}\cos^{2}\alpha\,\hat{n}
+\tag{5}
 $$
 
 The first term is gravity and the second is the sail.
@@ -204,6 +209,7 @@ At distance $r$ the flux and the pressure on an absorber are the following.
 $$
 S(r) = \frac{L}{4\pi r^{2}}, \qquad
 P(r) = \frac{L}{4\pi c\,r^{2}}
+\tag{6}
 $$
 
 Take a flat sail that reflects a fraction $\rho$ of the light specularly and absorbs the rest,
@@ -214,6 +220,7 @@ so the force is the following.
 
 $$
 \vec{F} = P(r)\,A\cos\alpha\left[(1-\rho)\,\hat{u} + 2\rho\cos\alpha\,\hat{n}\right]
+\tag{7}
 $$
 
 Resolving this into a component along the normal and a component in the plane of the sail gives the following,
@@ -223,6 +230,7 @@ $$
 F_{n} = P A (1+\rho)\cos^{2}\alpha, \qquad
 F_{t} = P A (1-\rho)\cos\alpha\sin\alpha, \qquad
 \tan\phi = \frac{1-\rho}{1+\rho}\tan\alpha
+\tag{8}
 $$
 
 The angle $\phi$ is the angle between the net force and the sail normal.
@@ -252,6 +260,7 @@ gives the generalized lightness number.
 
 $$
 \beta = \frac{(1+\rho)\,L}{4\pi c\,G M\,\sigma}
+\tag{9}
 $$
 
 For a perfect mirror this reduces to $L/(2\pi c G M \sigma)$.
@@ -261,6 +270,7 @@ is the critical loading.
 
 $$
 \sigma^{\ast} = \frac{L}{2\pi c\,G M}
+\tag{10}
 $$
 
 The lightness number depends on the star only through $L/M$,
@@ -273,6 +283,7 @@ With a retractable sail of area $A(t)$ the general equation of motion is the fol
 $$
 \ddot{\vec{r}} = -\frac{G M}{r^{2}}\,\hat{u}
 + \frac{L\,A(t)\cos\alpha}{4\pi c\,m\,r^{2}}\left[(1-\rho)\,\hat{u} + 2\rho\cos\alpha\,\hat{n}(\alpha,\delta)\right]
+\tag{11}
 $$
 
 Four standard results follow from it.
@@ -284,6 +295,7 @@ so it acts as a reduction of the star's gravity.
 
 $$
 \mu_{\mathrm{eff}} = (1-\beta)\,G M
+\tag{12}
 $$
 
 **Escape.**
@@ -294,6 +306,7 @@ It escapes when $\beta \geq 1/2$.
 
 $$
 v_{\infty} = v_{c}(r_{0})\sqrt{2\beta - 1}
+\tag{13}
 $$
 
 **Departure from a close pass.**
@@ -301,6 +314,7 @@ A sail that falls from an orbit of semi-major axis $a$ to a closest distance $q$
 
 $$
 v_{\infty} = \sqrt{\frac{2\beta\,G M}{q} - \frac{G M}{a}}
+\tag{14}
 $$
 
 **Steering and spirals.**
@@ -313,6 +327,7 @@ and Gauss's equation for the rate of change of the orbit's size gives the time t
 
 $$
 t = \frac{\left|r_{2}^{3/2} - r_{1}^{3/2}\right|}{3\,\beta\,k\,\sqrt{G M}}, \qquad k = \cos^{2}\alpha\sin\alpha
+\tag{15}
 $$
 
 Tilting forward spirals outward and tilting backward spirals inward.
@@ -322,6 +337,7 @@ as derived for low-thrust spirals in the companion article on manoeuvres
 
 $$
 \Delta v_{\mathrm{spiral}} = \left|\sqrt{\frac{GM}{r_{1}}} - \sqrt{\frac{GM}{r_{2}}}\right|
+\tag{16}
 $$
 
 A sail pays this delta-v in time rather than in propellant.
@@ -335,6 +351,7 @@ with $\sigma_{\mathrm{SB}}$ the Stefan-Boltzmann constant.
 
 $$
 T = \left[\frac{(1-\rho)\,S(r)\cos\alpha}{\sigma_{\mathrm{SB}}\left(\varepsilon_{f}+\varepsilon_{b}\right)}\right]^{1/4}
+\tag{17}
 $$
 
 The temperature depends on the flux and on the coatings,
@@ -346,6 +363,7 @@ and therefore a closest approach to any star.
 $$
 q_{\min} = \sqrt{\frac{L}{4\pi F_{\max}}}, \qquad
 F_{\max} = \frac{\sigma_{\mathrm{SB}}\left(\varepsilon_{f}+\varepsilon_{b}\right)T_{\max}^{4}}{1-\rho}
+\tag{18}
 $$
 
 ### Where the Equations Fail
@@ -364,6 +382,7 @@ to first order by the following factor.
 
 $$
 \frac{F(v)}{F(0)} \approx \frac{1 - v/c}{1 + v/c}
+\tag{19}
 $$
 
 That factor is 0.912 at 4.6 percent of light speed and 0.667 at 20 percent,
@@ -389,6 +408,7 @@ and $\beta = a_{c}/5.93$
 $$
 a_{c} = \frac{9.08\,\eta}{\sigma}\ \mathrm{mm/s^{2}}, \qquad
 \beta = \frac{a_{c}}{5.93\ \mathrm{mm/s^{2}}} = \eta\,\frac{\sigma^{\ast}}{\sigma}
+\tag{20}
 $$
 
 The table gives the ideal values for a range of loadings.
@@ -446,7 +466,9 @@ and on that part of the main sequence it scales with stellar mass as follows.
 $$
 \beta_{\ast} = \beta_{\odot}\,\frac{L}{M}, \qquad
 \beta_{\ast} \propto M^{3}\quad\left(0.43 < M < 2\right)
+\tag{21}
 $$
+
 A sail is about 78 times weaker around Proxima Centauri than around the Sun,
 and 12 times stronger around Sirius A.
 Solar sailing is a technique for bright stars,
@@ -515,6 +537,7 @@ so reaching a target lightness number $\beta$ with an ideal sail needs at least 
 $$
 \sigma = \sigma_{s} + \frac{m_{\mathrm{pay}}}{A}, \qquad
 A = \frac{m_{\mathrm{pay}}}{\sigma^{\ast}/\beta - \sigma_{s}}
+\tag{22}
 $$
 
 A 10 kilogram payload on a sail of the square-sail design loading of 5.27 grams per square metre needs 996 square metres for $\beta = 0.1$ and 4,190 for $\beta = 0.2$.
@@ -562,7 +585,9 @@ which depends on the star only through its luminosity.
 
 $$
 v_{\infty,\max}^{2} = \frac{2\beta\,G M}{q_{\min}} = \frac{2}{c\,\sigma}\sqrt{\frac{F_{\max}\,L}{\pi}}
+\tag{23}
 $$
+
 Close passes are where a sail gains the most energy,
 so heat tolerance is as much a part of sail quality as loading.
 A trajectory study for the Solar Polar Imager shows the effect.
@@ -718,6 +743,7 @@ and 2,500 litres for a square kilometre.
 
 $$
 V_{\mathrm{solid}} = A\,t_{\mathrm{film}}
+\tag{24}
 $$
 
 Folded film cannot be packed to its solid volume,
@@ -815,6 +841,7 @@ $$
 \frac{1}{2}v_{\infty}^{2} = \frac{(\beta-1)\,G M}{r_{s}}
 \quad\Longrightarrow\quad
 r_{s} = \frac{2(\beta-1)\,G M}{v_{\infty}^{2}}
+\tag{25}
 $$
 
 If the sail must stop no closer than a distance $q$,
@@ -826,6 +853,7 @@ $$
 v_{\max} = \sqrt{\frac{2(\beta-1)\,G M}{q}}
 \;\approx\;
 \sqrt{\frac{(1+\rho)\,L}{2\pi c\,\sigma\,q}}
+\tag{26}
 $$
 
 This is the same expression that limits the speed a sail can gain by departing from a close pass,
@@ -879,6 +907,7 @@ are the following.
 $$
 \beta\cos^{3}\alpha < 1 \;\Longleftrightarrow\; \alpha > \arccos\beta^{-1/3}, \qquad
 \frac{A}{A_{0}} < \frac{1}{\beta}
+\tag{27}
 $$
 
 A sail approaching exactly head-on has no angular momentum about the star,
@@ -966,6 +995,7 @@ equal to one face-on and 0.385 straight across the sun line.
 
 $$
 \frac{d(\Delta v)}{dt} = \beta\,\frac{GM}{r^{2}}\,f(\theta)
+\tag{28}
 $$
 
 ### The Mathematics of Sail Steering
@@ -975,6 +1005,7 @@ For an ideal sail the component of force along the direction from the star is th
 
 $$
 \vec{F}\cdot\hat{u} = \beta\,\frac{\mu}{r^{2}}\cos^{3}\alpha \;\geq\; 0
+\tag{29}
 $$
 
 The force always lies within a cone around the direction away from the star.
@@ -989,6 +1020,7 @@ and setting its derivative to zero gives the following condition for the best co
 
 $$
 \tan(\theta - \alpha) = 2\tan\alpha
+\tag{30}
 $$
 
 For $\theta = 90$ degrees,
@@ -1024,6 +1056,7 @@ the semi-major axis and the inclination change as follows.
 $$
 \frac{da}{dt} = 2a_{t}\sqrt{\frac{a^{3}}{\mu}}, \qquad
 \frac{di}{dt} = \frac{a_{h}\cos u}{v}
+\tag{31}
 $$
 
 The first gives the spiral time derived earlier.
@@ -1035,6 +1068,7 @@ averages $|\cos u|$ to $2/\pi$ and changes the inclination per orbit by the foll
 
 $$
 \Delta i_{\mathrm{orbit}} = 4\,k\,\beta \approx 1.54\,\beta\ \text{radians}, \qquad k = \cos^{2}\alpha\sin\alpha = 0.385
+\tag{32}
 $$
 
 That is 0.88 degrees per orbit for $\beta = 0.01$ and 4.41 for $\beta = 0.05$.
@@ -1061,6 +1095,7 @@ using the low-thrust spiral result
 
 $$
 t_{\mathrm{escape}} \geq \frac{v_{c}}{a_{c}}
+\tag{33}
 $$
 
 ### When a Manoeuvre Is Not Possible for a Given Sail
@@ -1085,6 +1120,7 @@ and a sail can lift itself from a surface of gravity $g$ under a flux $S$ only b
 $$
 \Delta v_{\max} \approx \beta\,\frac{GM}{r^{2}}\cdot\frac{2\,r_{\mathrm{SOI}}}{v_{\infty}}, \qquad
 \sigma_{\max} = \frac{2S}{c\,g}
+\tag{34}
 $$
 
 ### Manoeuvres No Sail Can Perform
@@ -1108,6 +1144,7 @@ the component of force along the direction away from the star obeys the followin
 
 $$
 \vec{F}\cdot\hat{u} \;\geq\; \frac{P_{\mathrm{abs}}}{c} - \frac{P_{\mathrm{emit}}}{c} \;\geq\; 0
+\tag{35}
 $$
 
 So the net force on a sail never has a component toward a distant point source.
@@ -1224,6 +1261,7 @@ with the sail counted as dry mass.
 
 $$
 \Delta v = v_{e}\ln\frac{m_{d} + m_{s} + m_{p}}{m_{d} + m_{s}}
+\tag{36}
 $$
 
 Jettisoning the sail before a large burn removes $m_{s}$ from both terms and raises the delta-v,
@@ -1558,6 +1596,362 @@ or drop its sail at the right moment.
 The physical difficulty of folding thin films means that the sails best able to make that journey are also the hardest to build and launch,
 which points toward making them in space.
 
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 36 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 36, 29 are established and 7 are bespoke.
+Fluxes are in watts per square metre and sail loadings are quoted in grams per square metre, so a loading must be converted to kilograms per square metre before it enters an equation with the speed of light, and the star's gravitational parameter appears in two equivalent notations.
+
+**Equation 1, Photon Momentum and Radiation Pressure.**
+Light of energy flux S carries momentum flux S over c, so an absorber feels that pressure and a perfect mirror at normal incidence feels twice it.
+[Radiation Pressure][ref_radiation_pressure]
+
+$$
+p = \frac{E}{c}, \qquad
+P_{\mathrm{abs}} = \frac{S}{c}, \qquad
+P_{\mathrm{mirror}} = \frac{2S}{c}
+\tag{1}
+$$
+
+**Equation 2, Dynamic Pressure of the Solar Wind.**
+The pressure of the solar wind is its momentum flux, the product of the proton number density, the proton mass and the square of the wind speed.
+[Solar Wind][ref_solar_wind]
+
+$$
+P_{\mathrm{sw}} = n\,m_{p}\,V^{2}
+\tag{2}
+$$
+
+**Equation 3, Force on a Perfectly Reflecting Flat Sail.**
+A flat mirror intercepts light over its projected area and is pushed along its normal by twice the normal component of the intercepted momentum, which gives a force proportional to the square of the cosine of the cone angle.
+
+$$
+\vec{F} = \frac{2 S A}{c}\cos^{2}\alpha\,\hat{n}
+\tag{3}
+$$
+
+**Equation 4, Characteristic Acceleration and Lightness Number.**
+The characteristic acceleration is that of an ideal sail facing the Sun at one astronomical unit, and the lightness number is its ratio to the Sun's gravity at the same distance.
+[Solar Sail][ref_solar_sail]
+
+$$
+a_{c} = \frac{2 S_{0}}{c\,\sigma}, \qquad
+\beta = \frac{a_{c}}{\mu_{\odot}/(1\ \mathrm{AU})^{2}}
+\tag{4}
+$$
+
+**Equation 5, Equation of Motion of an Ideal Sail.**
+The acceleration of an ideal sail is solar gravity plus a radiation term that is the lightness number times gravity scaled by the square of the cosine of the cone angle.
+
+$$
+\ddot{\vec{r}} = -\frac{\mu}{r^{2}}\,\hat{r} + \beta\,\frac{\mu}{r^{2}}\cos^{2}\alpha\,\hat{n}
+\tag{5}
+$$
+
+**Equation 6, Inverse-Square Flux and Radiation Pressure of a Star.**
+A star's luminosity spread over a sphere gives the flux at any distance, and dividing by the speed of light gives the pressure on an absorber.
+
+$$
+S(r) = \frac{L}{4\pi r^{2}}, \qquad
+P(r) = \frac{L}{4\pi c\,r^{2}}
+\tag{6}
+$$
+
+**Equation 7, Force on a Partially Reflecting Sail.**
+A sail that reflects a fraction of the light specularly and absorbs the rest is pushed along the Sun line by the absorbed part and along its normal by the reflected part, with transmission and diffuse reflection neglected.
+
+$$
+\vec{F} = P(r)\,A\cos\alpha\left[(1-\rho)\,\hat{u} + 2\rho\cos\alpha\,\hat{n}\right]
+\tag{7}
+$$
+
+**Equation 8, Normal and Transverse Force Components and the Force Angle.**
+Resolving the force on a partially reflecting sail along its normal and in its plane shows that the net force is tilted from the normal toward the Sun line by an angle that grows with the absorbed fraction.
+
+$$
+F_{n} = P A (1+\rho)\cos^{2}\alpha, \qquad
+F_{t} = P A (1-\rho)\cos\alpha\sin\alpha, \qquad
+\tan\phi = \frac{1-\rho}{1+\rho}\tan\alpha
+\tag{8}
+$$
+
+**Equation 9, Lightness Number for Any Star.**
+The ratio of the face-on radiation force to the star's gravitational pull on the craft is independent of distance and depends on the star only through the ratio of its luminosity to its mass.
+
+$$
+\beta = \frac{(1+\rho)\,L}{4\pi c\,G M\,\sigma}
+\tag{9}
+$$
+
+**Equation 10, Critical Sail Loading.**
+The critical loading is the mass per unit area at which a perfectly reflecting face-on sail feels a radiation force exactly equal to the star's gravity.
+
+$$
+\sigma^{\ast} = \frac{L}{2\pi c\,G M}
+\tag{10}
+$$
+
+**Equation 11, General Equation of Motion of a Sail.**
+Gravity and the force on a partially reflecting sail of possibly varying area combine into one equation of motion from which the remaining results of the article follow.
+
+$$
+\ddot{\vec{r}} = -\frac{G M}{r^{2}}\,\hat{u}
++ \frac{L\,A(t)\cos\alpha}{4\pi c\,m\,r^{2}}\left[(1-\rho)\,\hat{u} + 2\rho\cos\alpha\,\hat{n}(\alpha,\delta)\right]
+\tag{11}
+$$
+
+**Equation 12, Reduced Gravity of a Face-On Sail.**
+A sail held face-on pushes only along the Sun line, so it acts as a reduction of the star's gravitational parameter by the factor one minus the lightness number.
+
+$$
+\mu_{\mathrm{eff}} = (1-\beta)\,G M
+\tag{12}
+$$
+
+**Equation 13, Escape Speed of a Sail Opened on a Circular Orbit.**
+Opening the sail reduces the effective gravity by the factor one minus the lightness number, and energy conservation then gives the speed far from the star.
+
+$$
+v_{\infty} = v_{c}(r_{0})\sqrt{2\beta - 1}
+\tag{13}
+$$
+
+**Equation 14, Departure Speed After a Face-On Perihelion Pass.**
+A sail that falls under gravity alone to its closest distance and turns face-on there leaves with the excess speed that energy conservation gives under the reduced solar gravity.
+
+$$
+v_{\infty} = \sqrt{\frac{2\beta\,G M}{q} - \frac{G M}{a}}
+\tag{14}
+$$
+
+**Equation 15, Spiral Time at a Fixed Cone Angle.**
+Gauss's equation for the rate of change of the orbit's size, applied to a nearly circular orbit at a small lightness number, gives the time to spiral between two radii at a fixed cone angle.
+
+$$
+t = \frac{\left|r_{2}^{3/2} - r_{1}^{3/2}\right|}{3\,\beta\,k\,\sqrt{G M}}, \qquad k = \cos^{2}\alpha\sin\alpha
+\tag{15}
+$$
+
+**Equation 16, Delta-v of a Slow Spiral.**
+A slow spiral between circular orbits costs the difference of the two circular speeds, which a sail pays in time rather than in propellant.
+[Orbital Manoeuvres in Terms of Delta-v, Low-Thrust Spirals][related_post_orbital_manoeuvres_spirals]
+
+$$
+\Delta v_{\mathrm{spiral}} = \left|\sqrt{\frac{GM}{r_{1}}} - \sqrt{\frac{GM}{r_{2}}}\right|
+\tag{16}
+$$
+
+**Equation 17, Equilibrium Temperature of a Sail.**
+A sail element balances the sunlight it absorbs against thermal emission from both faces, so its temperature depends on the flux and the coatings but not on the area or the loading.
+
+$$
+T = \left[\frac{(1-\rho)\,S(r)\cos\alpha}{\sigma_{\mathrm{SB}}\left(\varepsilon_{f}+\varepsilon_{b}\right)}\right]^{1/4}
+\tag{17}
+$$
+
+**Equation 18, Closest Approach Set by a Temperature Limit.**
+Inverting the equilibrium temperature at its maximum allowed value gives the largest tolerable flux and therefore the closest distance to the star.
+
+$$
+q_{\min} = \sqrt{\frac{L}{4\pi F_{\max}}}, \qquad
+F_{\max} = \frac{\sigma_{\mathrm{SB}}\left(\varepsilon_{f}+\varepsilon_{b}\right)T_{\max}^{4}}{1-\rho}
+\tag{18}
+$$
+
+**Equation 19, First-Order Doppler Reduction of the Force.**
+Light reaching a sail receding at a significant fraction of light speed is reduced in both photon energy and arrival rate, which lowers the force by the stated factor to first order.
+
+$$
+\frac{F(v)}{F(0)} \approx \frac{1 - v/c}{1 + v/c}
+\tag{19}
+$$
+
+**Equation 20, Characteristic Acceleration and Lightness Number in Practical Units.**
+Evaluating the characteristic acceleration at one astronomical unit with the loading in grams per square metre and an efficiency factor gives the working relations quoted by the cited source.
+[Solar Sail][ref_solar_sail]
+
+$$
+a_{c} = \frac{9.08\,\eta}{\sigma}\ \mathrm{mm/s^{2}}, \qquad
+\beta = \frac{a_{c}}{5.93\ \mathrm{mm/s^{2}}} = \eta\,\frac{\sigma^{\ast}}{\sigma}
+\tag{20}
+$$
+
+**Equation 21, Lightness Number at Another Star.**
+A given sail's lightness number scales with the ratio of the star's luminosity to its mass, which on the middle of the main sequence rises roughly as the cube of the stellar mass through the mass-luminosity relation.
+[Mass-Luminosity Relation][ref_mass_luminosity_relation]
+
+$$
+\beta_{\ast} = \beta_{\odot}\,\frac{L}{M}, \qquad
+\beta_{\ast} \propto M^{3}\quad\left(0.43 < M < 2\right)
+\tag{21}
+$$
+
+**Equation 22, Total Loading and Required Sail Area for a Payload.**
+The loading of the whole craft is the film loading plus the payload spread over the sail area, so a target lightness number fixes the smallest area that can carry a given payload.
+
+$$
+\sigma = \sigma_{s} + \frac{m_{\mathrm{pay}}}{A}, \qquad
+A = \frac{m_{\mathrm{pay}}}{\sigma^{\ast}/\beta - \sigma_{s}}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Fastest Departure Limited by Heat Tolerance.*
+Combining the closest approach that the temperature limit allows with the close-pass departure in the limit of an orbit pumped to escape gives a ceiling on departure speed that depends on the star only through its luminosity.
+
+$$
+v_{\infty,\max}^{2} = \frac{2\beta\,G M}{q_{\min}} = \frac{2}{c\,\sigma}\sqrt{\frac{F_{\max}\,L}{\pi}}
+\tag{23}
+$$
+
+**Equation 24, Solid Volume of a Film.**
+The solid volume of a sail film is its area times its thickness, a lower bound that any fold pattern exceeds by a packing factor.
+
+$$
+V_{\mathrm{solid}} = A\,t_{\mathrm{film}}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Stopping Distance with Starlight.*
+A face-on sail with a lightness number above one approaching a star exactly head-on stops where its kinetic energy equals the net repulsive potential, under the stated head-on geometry and a constant face-on attitude.
+
+$$
+\frac{1}{2}v_{\infty}^{2} = \frac{(\beta-1)\,G M}{r_{s}}
+\quad\Longrightarrow\quad
+r_{s} = \frac{2(\beta-1)\,G M}{v_{\infty}^{2}}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Fastest Arrival That Starlight Can Stop.*
+Requiring the head-on stopping distance to be no closer than a chosen limit gives the largest arrival speed a sail can shed, which for a large lightness number depends on the star only through its luminosity.
+
+$$
+v_{\max} = \sqrt{\frac{2(\beta-1)\,G M}{q}}
+\;\approx\;
+\sqrt{\frac{(1+\rho)\,L}{2\pi c\,\sigma\,q}}
+\tag{26}
+$$
+
+**Equation 27, Conditions for Lowering the Effective Lightness Number Below One.**
+The radial push of a tilted ideal sail falls below gravity beyond a cone angle set by the lightness number, and a retracted sail does the same when its area falls by more than that number.
+
+$$
+\beta\cos^{3}\alpha < 1 \;\Longleftrightarrow\; \alpha > \arccos\beta^{-1/3}, \qquad
+\frac{A}{A_{0}} < \frac{1}{\beta}
+\tag{27}
+$$
+
+**Equation 28, Rate of Accumulation of Delta-v Along a Steered Direction.**
+A sail accumulates delta-v along a chosen direction at the face-on acceleration times the largest fraction of it available in that direction.
+
+$$
+\frac{d(\Delta v)}{dt} = \beta\,\frac{GM}{r^{2}}\,f(\theta)
+\tag{28}
+$$
+
+**Equation 29, Radial Force Component of an Ideal Sail.**
+The component of an ideal sail's force along the direction away from the star is never negative, so the force always lies within a cone around that direction.
+
+$$
+\vec{F}\cdot\hat{u} = \beta\,\frac{\mu}{r^{2}}\cos^{3}\alpha \;\geq\; 0
+\tag{29}
+$$
+
+**Equation 30, Optimal Cone Angle for a Desired Thrust Direction.**
+Maximizing the component of an ideal sail's force along a direction at a given angle from the anti-star direction gives the stated condition on the cone angle.
+
+$$
+\tan(\theta - \alpha) = 2\tan\alpha
+\tag{30}
+$$
+
+**Equation 31, Gauss Perturbation Equations for a Nearly Circular Orbit.**
+A small acceleration along the velocity changes the semi-major axis, and a small acceleration normal to the plane changes the inclination at a rate that follows the cosine of the angle from the ascending node.
+
+$$
+\frac{da}{dt} = 2a_{t}\sqrt{\frac{a^{3}}{\mu}}, \qquad
+\frac{di}{dt} = \frac{a_{h}\cos u}{v}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Inclination Change per Orbit Under a Switched Steering Law.*
+Tilting the sail normal out of the orbital plane at the cone angle of greatest transverse force and switching sides at each node averages the inclination rate over one orbit, which assumes a nearly circular orbit and this particular steering law.
+
+$$
+\Delta i_{\mathrm{orbit}} = 4\,k\,\beta \approx 1.54\,\beta\ \text{radians}, \qquad k = \cos^{2}\alpha\sin\alpha = 0.385
+\tag{32}
+$$
+
+*Equation 33, Bespoke Lower Bound on Spiral Escape Time from a Planetary Orbit.*
+Dividing the slow-spiral cost from a circular orbit to escape by the characteristic acceleration bounds the escape time from below, ignoring the shadow and the part of each orbit in which the sail cannot thrust along its velocity.
+[Orbital Manoeuvres in Terms of Delta-v, Low-Thrust Spirals][related_post_orbital_manoeuvres_spirals]
+
+$$
+t_{\mathrm{escape}} \geq \frac{v_{c}}{a_{c}}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Limits on Capture During a Flyby and on Lifting from a Surface.*
+The largest velocity change during a crossing of a sphere of influence is the face-on acceleration times the crossing time, and the largest loading that can lift itself is the one whose face-on radiation acceleration equals surface gravity, both bounds the article constructs from earlier results.
+[Orbital Manoeuvres in Terms of Delta-v, Patched Conics][related_post_orbital_manoeuvres_patched]
+
+$$
+\Delta v_{\max} \approx \beta\,\frac{GM}{r^{2}}\cdot\frac{2\,r_{\mathrm{SOI}}}{v_{\infty}}, \qquad
+\sigma_{\max} = \frac{2S}{c\,g}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Bound on the Sunward Force from a Distant Star.*
+Because reflection adds only a non-negative term and steady re-emission cannot exceed absorption, the article's momentum argument shows that the force on a sail never has a component toward a distant point source.
+
+$$
+\vec{F}\cdot\hat{u} \;\geq\; \frac{P_{\mathrm{abs}}}{c} - \frac{P_{\mathrm{emit}}}{c} \;\geq\; 0
+\tag{35}
+$$
+
+**Equation 36, Rocket Equation with the Sail as Dry Mass.**
+A secondary engine obeys the rocket equation with the sail counted as part of the dry mass, so carrying the sail lowers the delta-v of every burn.
+[Orbital Manoeuvres in Terms of Delta-v, The Rocket Equation][related_post_orbital_manoeuvres_rocket]
+
+$$
+\Delta v = v_{e}\ln\frac{m_{d} + m_{s} + m_{p}}{m_{d} + m_{s}}
+\tag{36}
+$$
+
+### Notation
+
+- $c$, the speed of light
+- $S(r)$, the flux of starlight at distance $r$, written $S$ where the distance is understood, with $S_{0}$ the flux at one astronomical unit
+- $P(r)$, the radiation pressure on an absorber at distance $r$
+- $A$, the area of the sail, with $A_{0}$ the full area of a retractable sail
+- $\sigma$, the loading of the whole craft, its total mass per unit area of sail, with $\sigma_{s}$ the loading of the film alone
+- $\sigma^{\ast}$, the critical loading at which a perfectly reflecting face-on sail has a lightness number of one
+- $a_{c}$, the characteristic acceleration of a sail facing the Sun at one astronomical unit
+- $\beta$, the lightness number of a sail, the ratio of the face-on radiation force to the star's gravity
+- $\mu$, the gravitational parameter of the star, equal to $GM$, with $\mu_{\odot}$ for the Sun
+- $L$, the luminosity of the star, in solar units in Equation 21
+- $M$, the mass of the star, in solar units in Equation 21
+- $\alpha$, the cone angle between the sail normal and the direction from the star to the sail
+- $\hat{n}$, the unit normal of the sail, pointing away from the star, with $\hat{u}$ the unit vector from the star to the sail and $\hat{t}$ the transverse unit vector in the sail's plane
+- $\rho$, the specular reflectance of the sail
+- $\phi$, the angle between the net force and the sail normal
+- $\varepsilon_{f}$, the emissivity of the sail's front face, with $\varepsilon_{b}$ that of its back face
+- $\sigma_{\mathrm{SB}}$, the Stefan-Boltzmann constant
+- $F_{\max}$, the largest flux a sail tolerates, set by its maximum temperature $T_{\max}$
+- $q$, the closest distance of a sail to the star, with $q_{\min}$ the closest the temperature limit allows
+- $k$, the transverse force factor $\cos^{2}\alpha\sin\alpha$, which is 0.385 at the cone angle of greatest transverse force
+- $v_{\infty}$, the hyperbolic excess speed, the speed far from the star or planet
+- $r_{s}$, the distance at which a sail approaching head-on comes to rest
+- $\eta$, the efficiency of a real sail relative to an ideal one
+- $a_{t}$, the acceleration along the velocity, with $a_{h}$ the acceleration normal to the orbital plane and $u$ the angle from the ascending node
+- $f(\theta)$, the largest fraction of the face-on force available along a direction at angle $\theta$ from the anti-star direction
+- $m_{p}$, the proton mass in Equation 2 and the propellant mass in Equation 36, with $m_{d}$ the dry mass and $m_{s}$ the sail mass
+- $v_{e}$, the exhaust speed of a secondary engine
 
 ## References
 

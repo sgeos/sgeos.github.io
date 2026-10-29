@@ -1,0 +1,155 @@
+# Equation classification for A378. Read by `python3 _lib/equations.py`.
+
+caution = "Values are in millions of dollars of total capital, taken as the market value of equity plus the book value of debt, and excess values are natural logarithms, so a difference of 0.01 is one log point and converts to a percentage only through Equation 4."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Conglomerate Discount as a Counterfactual Difference"
+gloss = "The discount is the value of the firm as it is less the sum of the values its segments would have as independent firms, a quantity whose second term is never observed for the same segments at the same time."
+cite = ["ref_conglomerate_discount"]
+digest = "0db2c023eb1dfddd"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Imputed Value of a Diversified Firm"
+gloss = "Each segment's accounting item is multiplied by the median ratio of total capital to that item among single-segment firms in its industry, and the products are summed."
+cite = ["research_berger_ofek_1995"]
+digest = "a80b3e179fd36a0a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Excess Value"
+gloss = "The excess value is the natural logarithm of the ratio of actual to imputed value, so a negative figure is a discount and a positive one a premium."
+cite = ["research_berger_ofek_1995"]
+digest = "377786f795ddc441"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Percentage Discount from a Logarithmic Excess Value"
+gloss = "Exponentiating the excess value recovers the ratio of actual to imputed value, and one minus that ratio is the percentage shortfall."
+digest = "1ae59dd8c84523e1"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Sales-Based Imputed Value of the Hypothetical Firm"
+gloss = "The imputed value of Equation 2 is evaluated with segment sales and the median capital-to-sales ratios of the three peer industries."
+cite = ["research_berger_ofek_1995"]
+digest = "81d5fd9062d5ccf6"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Sales-Based Excess Value and Discount of the Hypothetical Firm"
+gloss = "Equations 3 and 4 applied to the sales-based imputed value give an excess value of minus 0.1655 and a discount of 15.3 percent."
+cite = ["research_berger_ofek_1995"]
+digest = "ebe232a910c69612"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Asset-Based Imputed Value of the Hypothetical Firm"
+gloss = "The imputed value of Equation 2 is evaluated with segment assets and the median capital-to-assets ratios of the three peer industries."
+cite = ["research_berger_ofek_1995"]
+digest = "c91ae816fa5def52"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Asset-Based Excess Value and Discount of the Hypothetical Firm"
+gloss = "Equations 3 and 4 applied to the asset-based imputed value give an excess value of minus 0.0469 and a discount of 4.6 percent for the same firm."
+cite = ["research_berger_ofek_1995"]
+digest = "ec18bebd7df08ca1"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Bias in Excess Value from Mismeasured Peer Multiples"
+gloss = "The article assumes that every peer multiple is too high by the same factor, so the error passes through the linear imputed value and lowers the measured excess value by the logarithm of that factor."
+cite = ["research_hund_monk_tice_2024"]
+digest = "7bd68c23d04b2c18"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Tobin's q and the Asset-Weighted Imputed q"
+gloss = "The firm's q is its market value over the replacement cost of its assets, and its imputed q weights the median q of single-segment peers in each segment's industry by that segment's share of replacement cost."
+cite = ["ref_tobins_q", "research_lang_stulz_1994"]
+digest = "bfb49d7955e2824a"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Decomposition of a Group Difference into Treatment Effect and Selection"
+gloss = "Adding and subtracting the untreated outcome of diversified firms splits the raw difference in mean excess value into the effect of diversification on diversified firms and a selection term, an identity that holds in any sample."
+digest = "6dfb7487b0c7e038"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Constant-Growth Valuation"
+gloss = "A cash flow that grows at a constant rate forever and is discounted at a higher constant rate has a present value equal to next year's cash flow divided by the difference of the two rates."
+digest = "9824cc56582c77ae"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Split of a Log Value Difference into Cash-Flow and Discount-Rate Terms"
+gloss = "Taking logarithms of Equation 12 for the conglomerate and the stand-alone portfolio under the assumption of a common growth rate separates the value gap into a cash-flow term and a discount-rate term."
+digest = "142ee4f81cc4026e"
+
+[[symbol]]
+tex = 'V^{c}'
+meaning = "the market value of the firm as it is, with its segments operated together"
+
+[[symbol]]
+tex = 'V^{s}_{i}'
+meaning = "the value segment $i$ would have as an independent firm, written $V^{s}$ for the stand-alone portfolio as a whole"
+
+[[symbol]]
+tex = 'I(V)'
+meaning = "the imputed value of the firm, the sum of its segments' imputed stand-alone values"
+
+[[symbol]]
+tex = 'A_{i}'
+meaning = "an accounting item of segment $i$, such as its sales or its assets, in the same currency units as $V$"
+
+[[symbol]]
+tex = 'm_{i}'
+meaning = "the median ratio of total capital to the same accounting item among single-segment firms in segment $i$'s industry"
+
+[[symbol]]
+tex = 'EV'
+meaning = "the excess value, the natural logarithm of actual over imputed value"
+
+[[symbol]]
+tex = 'b'
+meaning = "the proportional error common to every peer multiple"
+
+[[symbol]]
+tex = '\hat{q}'
+meaning = "the imputed q, the replacement-cost-weighted average of the peer median $\\bar{q}_{i}$"
+
+[[symbol]]
+tex = 'K_{i}'
+meaning = "the replacement cost of segment $i$'s assets, with $K$ their sum"
+
+[[symbol]]
+tex = 'Y_{1}'
+meaning = "the excess value a firm would have if diversified, with $Y_{0}$ the value it would have if focused and $D$ the indicator of diversification"
+
+[[symbol]]
+tex = 'C'
+meaning = "next year's cash flow, with $C^{c}$ for the conglomerate and $C^{s}$ for the stand-alone portfolio"
+
+[[symbol]]
+tex = 'r'
+meaning = "the discount rate, with $r^{c}$ and $r^{s}$ for the conglomerate and the stand-alone portfolio"
+
+[[symbol]]
+tex = 'g'
+meaning = "the constant growth rate of the cash flow, below the discount rate"

@@ -129,6 +129,7 @@ $$
 s_{c,i,t} = \frac{x_{c,i,t}}{\sum_{j} x_{c,j,t}},
 \qquad
 \sum_{i} s_{c,i,t} = 1 \;\text{for every } c
+\tag{1}
 $$
 
 The index is then the mean of the six shares.
@@ -137,6 +138,7 @@ $$
 \mathrm{CINC}_{i,t}
 = \frac{1}{6} \sum_{c=1}^{6}
 \frac{x_{c,i,t}}{\sum_{j} x_{c,j,t}}
+\tag{2}
 $$
 
 Because every term is a share of a world total,
@@ -160,12 +162,14 @@ $$
 \mathrm{CINC}_{\mathrm{CHN},\,2022} = 0.2325,
 \qquad
 \mathrm{CINC}_{\mathrm{USA},\,2022} = 0.1227
+\tag{3}
 $$
 
 The ratio is the quantity of interest.
 
 $$
 \frac{0.2325}{0.1227} \approx 1.89
+\tag{4}
 $$
 
 **On the most widely used quantitative index of national capability,
@@ -199,6 +203,7 @@ $$
 \frac{0.2394 - 0.1159}{0.1159} \approx +1.06,
 \qquad
 \frac{0.1264 - 0.1467}{0.1467} \approx -0.14
+\tag{5}
 $$
 
 Two features of that table are worth marking before the decomposition.
@@ -225,6 +230,7 @@ and not merely similar.
 $$
 \left. \frac{\mathrm{CINC}_{\mathrm{CHN},\,2022}}{\mathrm{CINC}_{\mathrm{USA},\,2022}}
 \right|_{\text{any reference set}} = 1.8945
+\tag{6}
 $$
 
 The equality is exact rather than approximate,
@@ -279,6 +285,7 @@ the United States led by nearly four to one.
 
 $$
 \frac{41.57}{10.83} \approx 3.84
+\tag{7}
 $$
 
 The underlying 2022 values make the asymmetry concrete.
@@ -291,6 +298,7 @@ $$
 \frac{1{,}017{,}959}{80{,}535} \approx 12.64,
 \qquad
 \frac{838{,}814}{218{,}639} \approx 3.84
+\tag{8}
 $$
 
 Both of the components on which the index is decisive
@@ -348,6 +356,7 @@ $$
 \mathrm{CINC}^{\text{published}}_{i,t}
 = \frac{1}{|A_{i,t}|} \sum_{c \in A_{i,t}}
 \frac{x_{c,i,t}}{\sum_{j} x_{c,j,t}}
+\tag{9}
 $$
 
 Where $A_{i,t}$ has all six members the two formulas agree.
@@ -357,6 +366,7 @@ by the ratio of six to the number of components present.
 $$
 \frac{\mathrm{CINC}^{\text{published}}_{i,t}}
 {\mathrm{CINC}_{i,t}} = \frac{6}{|A_{i,t}|}
+\tag{10}
 $$
 
 **What the article adds is the magnitude, because the word doing the work
@@ -370,12 +380,14 @@ $$
 \max_{t} \left| \sum_{i} \mathrm{CINC}^{\text{published}}_{i,t} - 1 \right| = 0.0747,
 \qquad
 \operatorname{median}_{t} \left| \cdot \right| \approx 0.021
+\tag{11}
 $$
 
 **And 183 of the 207 years miss one by more than a thousandth.**
 
 $$
 \frac{183}{207} \approx 0.88
+\tag{12}
 $$
 
 Nearly nine years in ten fail the invariant
@@ -395,6 +407,7 @@ $$
 0.17429 \;\text{published}, \qquad
 0.11619 \;\text{on the sixfold definition}, \qquad
 \frac{6}{4} = 1.5
+\tag{13}
 $$
 
 **The published series puts China's 1860 share of world capability
@@ -433,6 +446,7 @@ $$
 13.76 \longrightarrow 13.50,
 \qquad
 2.71 \longrightarrow 2.66
+\tag{14}
 $$
 
 The differences are small and in no way change the picture,
@@ -518,6 +532,7 @@ then reads 294,634 in 2002.
 
 $$
 \frac{294{,}634 - 612{,}933}{612{,}933} \approx -0.52
+\tag{15}
 $$
 
 A state with a very large number of cities
@@ -533,6 +548,7 @@ and each contributes its own change divided by six.
 
 $$
 \Delta \mathrm{CINC}_{i} = \frac{1}{6} \sum_{c=1}^{6} \Delta s_{c,i}
+\tag{16}
 $$
 
 The decomposition is therefore exact rather than approximate,
@@ -560,6 +576,7 @@ puts the 2002 ratio at 1.14 rather than 0.9987.
 
 $$
 \frac{17.471}{15.374} \approx 1.14
+\tag{17}
 $$
 
 **So the single year in which this index does not place China ahead of the United States
@@ -587,6 +604,7 @@ $$
 \frac{109{,}994 - 197{,}817}{197{,}817} \approx -0.44,
 \qquad
 \frac{609{,}219 - 526{,}464}{526{,}464} \approx +0.16
+\tag{18}
 $$
 
 **A single definitional change cut the American figure by 44 percent
@@ -597,6 +615,7 @@ gives a ratio of 1.832 rather than 1.895.
 
 $$
 \frac{1.8945}{1.8318} - 1 \approx +0.034
+\tag{19}
 $$
 
 About three and a half percent of the 2022 ratio
@@ -610,6 +629,7 @@ and 29.9 billion in 2005.
 
 $$
 \frac{29.9 - 84.3}{84.3} \approx -0.65
+\tag{20}
 $$
 
 Chinese military spending did not fall by nearly two thirds in 2005.
@@ -676,6 +696,7 @@ and China at an estimated 336 billion and 12 percent.
 
 $$
 \frac{954}{336} \approx 2.84
+\tag{21}
 $$
 
 **Output puts the answer either way, depending on the price basis.**
@@ -685,6 +706,7 @@ at market exchange rates and about 134 percent at purchasing power parity.
 
 $$
 \frac{1.34}{0.63} \approx 2.1
+\tag{22}
 $$
 
 That factor of roughly two is a single number,
@@ -706,6 +728,7 @@ scores 81.4 against 18.9.
 
 $$
 \frac{81.4}{18.9} \approx 4.3
+\tag{23}
 $$
 
 Expressed throughout as Chinese standing relative to American,
@@ -717,6 +740,7 @@ $$
 1.34, \qquad
 0.63, \qquad
 \frac{73.7}{80.4} \approx 0.92
+\tag{24}
 $$
 
 **Five instruments, five answers, spanning from
@@ -724,6 +748,7 @@ China at nearly twice the United States to China at about a third of it.**
 
 $$
 \frac{1.89}{0.35} \approx 5.4
+\tag{25}
 $$
 
 The extreme readings differ by a factor of more than five.
@@ -850,6 +875,7 @@ $$
 S_{i,t} = \frac{\mathrm{CINC}_{i,t}}{\sum_{j \in C} \mathrm{CINC}_{j,t}},
 \qquad
 \delta_{i} = \frac{S_{i,\,t_{1}} - S_{i,\,t_{0}}}{S_{i,\,t_{0}}}
+\tag{26}
 $$
 
 Here $t_{0}$ is the year before the war began
@@ -866,6 +892,7 @@ $$
 \tau_{i} = \frac{S_{i,\,t_{0}} - S_{i,\,t_{0}-h}}{S_{i,\,t_{0}-h}},
 \qquad
 h \in \{5, 10\}
+\tag{27}
 $$
 
 That distinction is the central dispute in power transition theory
@@ -897,6 +924,7 @@ gives a standardised statistic of 3.00.
 
 $$
 z = 3.00, \qquad p \approx 0.0027
+\tag{28}
 $$
 
 A rank test is the right tool here rather than a comparison of means,
@@ -911,6 +939,7 @@ The gap between the two medians is roughly fourteen points of relative change.
 
 $$
 0.118 - (-0.021) = 0.139
+\tag{29}
 $$
 
 **Set against the variance, that is a weak effect.**
@@ -921,6 +950,7 @@ $$
 \Pr(\delta < 0 \mid \text{winner}) = 0.384,
 \qquad
 \Pr(\delta > 0 \mid \text{loser}) = 0.476
+\tag{30}
 $$
 
 Those two are frequencies in this sample rather than probabilities,
@@ -950,6 +980,7 @@ and the median loss was about forty-two percent of its prewar share.**
 
 $$
 \Pr(\delta < 0 \mid \text{loser, large war}) = \frac{11}{11} = 1
+\tag{31}
 $$
 
 Winners of large wars did about as well as winners generally,
@@ -963,6 +994,7 @@ The two medians differ by more than a factor of three in magnitude.
 
 $$
 \frac{|-0.418|}{0.126} \approx 3.3
+\tag{32}
 $$
 
 Eleven observations is a small sample
@@ -980,6 +1012,7 @@ the correlation is essentially zero.
 
 $$
 r = -0.038
+\tag{33}
 $$
 
 At the five-year horizon it is similar.
@@ -988,6 +1021,7 @@ $$
 r_{10} = -0.038 \;(n = 267),
 \qquad
 r_{5} = -0.082 \;(n = 286)
+\tag{34}
 $$
 
 The sign is slightly negative rather than positive,
@@ -997,6 +1031,7 @@ Squaring the larger of the two bounds how little is explained.
 
 $$
 r_{5}^{2} \approx 0.0067
+\tag{35}
 $$
 
 Under one percent of the variation in postwar change
@@ -1118,6 +1153,7 @@ $$
 B_{t} = \sum_{i \in B} S_{i,t},
 \qquad
 1 - B_{t} = \sum_{i \notin B} S_{i,t}
+\tag{36}
 $$
 
 Because shares over a fixed membership sum to one,
@@ -1133,6 +1169,7 @@ $$
 \frac{36}{76} \approx 0.474,
 \qquad
 \operatorname{median} \frac{\Delta B}{B} = +0.025
+\tag{37}
 $$
 
 Among the ten largest of those wars
@@ -1142,6 +1179,7 @@ which is as close to a coin flip as a sample of ten can report.
 
 $$
 \frac{5}{10} = 0.5
+\tag{38}
 $$
 
 **On the face of it the bystander-gain hypothesis is not supported.**
@@ -1195,6 +1233,7 @@ $$
 \frac{0.7761 - 0.8229}{0.8229} \approx -0.057,
 \qquad
 \frac{0.9610 - 0.9808}{0.9808} \approx -0.020
+\tag{39}
 $$
 
 The reason is in the first column.
@@ -1210,6 +1249,7 @@ $$
 1 - 0.8229 = 0.1771,
 \qquad
 1 - 0.9808 = 0.0192
+\tag{40}
 $$
 
 **In 1939 the states not fighting held under two percent
@@ -1232,6 +1272,7 @@ the two prospective belligerents hold the following.
 
 $$
 0.1227 + 0.2325 = 0.3552
+\tag{41}
 $$
 
 Adding the United States treaty allies and partners in the region
@@ -1258,6 +1299,7 @@ $$
 \frac{0.3552}{0.8229} \approx 0.43,
 \qquad
 \frac{0.3552}{0.9808} \approx 0.36
+\tag{42}
 $$
 
 **The tempting next sentence is that a majority staying out
@@ -1273,6 +1315,7 @@ and stating it correctly turns out to be more useful.
 
 $$
 \frac{73}{76} \approx 0.96
+\tag{43}
 $$
 
 **Of the seventy-six wars where the comparison can be made,
@@ -1295,6 +1338,7 @@ and the answer is yes and in the opposite direction from the bystander hypothesi
 
 $$
 r = -0.225 \quad (n = 76)
+\tag{44}
 $$
 
 **The more of the world's capability the belligerents hold,
@@ -1331,6 +1375,7 @@ which is about four fifths of the American share.
 
 $$
 \frac{0.0987}{0.1227} \approx 0.80
+\tag{45}
 $$
 
 A war that cost both principals a quarter of their relative standing
@@ -1388,6 +1433,7 @@ having bottomed at 0.0373 in 2016.
 
 $$
 \frac{0.0391 - 0.1342}{0.1342} \approx -0.71
+\tag{46}
 $$
 
 **Russia lost 71 percent of its relative standing without fighting a great-power war,
@@ -1426,10 +1472,12 @@ $$
 \mathrm{CINC}_{\mathrm{CHN}} = 0.2325, \quad
 \mathrm{CINC}_{\mathrm{USA}} = 0.1227, \quad
 \mathrm{CINC}_{\mathrm{IND}} = 0.0987
+\tag{47}
 $$
 
 $$
 \delta_{\text{win}} = +0.126, \qquad \delta_{\text{lose}} = -0.418
+\tag{48}
 $$
 
 Each outcome maps a present share to a post-war one by a single multiplication,
@@ -1439,6 +1487,7 @@ $$
 S' = S\,(1 + \delta),
 \qquad
 P' = 1 - S'_{\mathrm{CHN}} - S'_{\mathrm{USA}}
+\tag{49}
 $$
 
 The four combinations give the following.
@@ -1460,6 +1509,7 @@ the ratio moves from 1.895 against the United States to 0.979 in its favour.
 
 $$
 \frac{0.1353}{0.1382} \approx 0.98
+\tag{50}
 $$
 
 That is the most favourable of the four rows,
@@ -1471,6 +1521,7 @@ than the United States holds today.**
 
 $$
 \frac{0.1353}{0.1227} \approx 1.10
+\tag{51}
 $$
 
 This follows from the size of the present gap rather than from anything subtle.
@@ -1482,6 +1533,7 @@ and remain above the current American level.
 
 $$
 \frac{0.0987}{0.0714} \approx 1.38
+\tag{52}
 $$
 
 In that row the ordering becomes China, then India, then the United States,
@@ -1569,6 +1621,7 @@ $$
 \delta_{\mathrm{GMY}} = +0.271,
 \qquad
 \delta_{\mathrm{FRN}} = -0.026
+\tag{53}
 $$
 
 After the Korean War, which the war data code a stalemate for both principals,
@@ -1578,12 +1631,14 @@ $$
 \delta_{\mathrm{USA}} = -0.127,
 \qquad
 \delta_{\mathrm{CHN}} = +0.180
+\tag{54}
 $$
 
 The gap between the two is the part worth holding on to.
 
 $$
 0.180 - (-0.127) = 0.307
+\tag{55}
 $$
 
 **An evolution rather than a revolution is still a quarter of a state's
@@ -1661,6 +1716,7 @@ the ten wars grade as one green, six yellow and three dark red.
 $$
 \frac{1}{10} \;\text{fully accurate}, \qquad
 \frac{3}{10} \;\text{wholly inaccurate}
+\tag{56}
 $$
 
 **In one case out of ten did every great-power combatant
@@ -1747,6 +1803,7 @@ with around nine in ten expecting a bipolar or multipolar distribution.
 
 $$
 0.07 + 0.04 = 0.11
+\tag{57}
 $$
 
 **Eleven percent of a panel of specialists
@@ -1757,6 +1814,7 @@ while nearly three quarters still expect American military primacy.
 
 $$
 \frac{58}{33} \approx 1.8
+\tag{58}
 $$
 
 The movement across editions is steeper than the levels.
@@ -1771,6 +1829,7 @@ The four movements in one year were these.
 
 $$
 -10, \quad -5, \quad -3, \quad -8 \;\text{percentage points}
+\tag{59}
 $$
 
 **A panel of several hundred specialists moved ten points
@@ -1979,6 +2038,7 @@ and concludes that "war is more likely than not".
 
 $$
 \frac{12}{16} = 0.75
+\tag{60}
 $$
 
 **That framework is not used in this article, and the reasons are given here
@@ -2084,6 +2144,7 @@ Japan 3.7 percent, Europe 2.1 percent and the United States 1.3 percent.
 
 $$
 \frac{3.7}{1.3} \approx 2.8
+\tag{61}
 $$
 
 **On that estimate a non-belligerent treaty ally
@@ -2113,6 +2174,7 @@ compared with a reduction in U.S. GDP on the order of 5 to 10 percent".
 
 $$
 \frac{30}{7.5} = 4
+\tag{62}
 $$
 
 Taking the midpoints, China loses about four times as much as the United States.
@@ -2190,6 +2252,7 @@ The euro stood at 20.60 percent.
 
 $$
 75.03 \longrightarrow 56.70 \;\text{percent over 27 years}
+\tag{63}
 $$
 
 **The erosion is real, it is large, and it is slow.**
@@ -2198,6 +2261,7 @@ $$
 75.03 - 56.70 = 18.33 \;\text{points},
 \qquad
 \frac{-18.33}{27.25} \approx -0.67 \;\text{points per year}
+\tag{64}
 $$
 
 Eighteen points of share is a substantial movement,
@@ -2225,6 +2289,7 @@ $$
 \frac{59.42 - 75.03}{23} \approx -0.68 \;\text{points per year},
 \qquad
 \frac{56.70 - 59.42}{4.25} \approx -0.64 \;\text{points per year}
+\tag{65}
 $$
 
 **The dollar's reserve share has declined slightly more slowly
@@ -2241,6 +2306,7 @@ standing at 2.11 percent in the second quarter of 2026.
 
 $$
 \frac{2.11 - 2.85}{2.85} \approx -0.26
+\tag{66}
 $$
 
 **Reserve managers have been diversifying out of the dollar for a quarter century
@@ -2280,6 +2346,7 @@ up from 88.4 percent in 2022.
 $$
 87 \to 88 \to 88 \to 88 \to 89
 \quad \text{across 2013, 2016, 2019, 2022, 2025}
+\tag{67}
 $$
 
 Shares sum to two hundred rather than one hundred on this measure,
@@ -2330,6 +2397,7 @@ at its 1952 peak, and the Second World War about 35.8 percent at its 1945 peak.
 
 $$
 4.591 > 4.2
+\tag{68}
 $$
 
 **On current-law projections, debt service alone passes
@@ -2352,6 +2420,7 @@ against 1,033.8 billion in January 2022.
 
 $$
 \frac{618.0 - 1{,}033.8}{1{,}033.8} \approx -0.40
+\tag{69}
 $$
 
 That is a fall of about two fifths in nominal terms
@@ -2430,6 +2499,7 @@ for "an aggregate wealth loss of roughly one year of U.S. GDP".
 
 $$
 0.01 \;\text{per year}, \qquad 8.8 \;\text{percent}, \qquad 90 \;\text{basis points}
+\tag{70}
 $$
 
 **One year of output is a large number and it is not a catastrophic one**,
@@ -2549,6 +2619,7 @@ report the asymmetry explicitly.
 
 $$
 \frac{10.5}{4} \approx 2.6
+\tag{71}
 $$
 
 **A decoupling costs the Chinese bloc about two and a half times
@@ -2601,6 +2672,7 @@ $$
 \frac{13.2}{37.3} \approx 0.35,
 \qquad
 \frac{0.9}{37.3} \approx 0.024
+\tag{72}
 $$
 
 **The headline figure is mostly weather,
@@ -2629,6 +2701,7 @@ introducing a dataset of nuclear latency, report the relevant frequency.
 
 $$
 \frac{10}{31} \approx 0.32
+\tag{73}
 $$
 
 **Roughly one latent capability in three became an arsenal
@@ -2692,6 +2765,7 @@ and, when forced to choose,
 
 $$
 \frac{67}{9} \approx 7.4
+\tag{74}
 $$
 
 That survey was used in the [previous article][related_post_rebuilding]
@@ -2705,6 +2779,7 @@ and its authors note this is "contrary to media reports".
 
 $$
 \frac{60.2 - 71.3}{71.3} \approx -0.16
+\tag{75}
 $$
 
 More importantly it shows the number is fragile to framing.
@@ -2719,6 +2794,7 @@ Against the headline number that is close to a halving.
 
 $$
 \frac{36.5}{71.3} \approx 0.51
+\tag{76}
 $$
 
 And when the choice is posed against the alliance itself,
@@ -2727,6 +2803,7 @@ and 33.8 percent chose nuclear weapons.
 
 $$
 \frac{49.5}{33.8} \approx 1.5
+\tag{77}
 $$
 
 **The natural experiment is the valuable part.**
@@ -2737,6 +2814,7 @@ Support for indigenous weapons moved from 59.9 to 60.6 percent.
 
 $$
 p = 0.358
+\tag{78}
 $$
 
 > In other words, the Washington Declaration,
@@ -2767,6 +2845,7 @@ $$
 21.7 + 14.1 = 35.8,
 \qquad
 8.6 + 35.8 = 44.4
+\tag{79}
 $$
 
 The overseas holdings are 21.7 tonnes in the United Kingdom
@@ -2775,6 +2854,7 @@ so **four fifths of the stock sits in two other states**.
 
 $$
 \frac{35.8}{44.4} \approx 0.81
+\tag{80}
 $$
 
 Japan's [National Security Strategy][government_japan_2022_nss]
@@ -3044,6 +3124,7 @@ His quantitative argument is the memorable one.
 
 $$
 \frac{395}{14{,}500} \approx 0.027
+\tag{81}
 $$
 
 **Less than three percent.**
@@ -3119,6 +3200,7 @@ against a United States Strategic Petroleum Reserve near 414 million.
 
 $$
 \frac{360}{414} \approx 0.87
+\tag{82}
 $$
 
 **Those two figures are close, and the comparison is only valid
@@ -3162,6 +3244,7 @@ $$
 52.0 - 48.0 = 4.0,
 \qquad
 52.3 - 47.7 = 4.6
+\tag{83}
 $$
 
 The margin reversed sign between the two years
@@ -3237,6 +3320,7 @@ such dyads were "some 2.7 million times less likely to fight wars".
 
 $$
 2{,}700{,}000 \longrightarrow \text{not significant}
+\tag{84}
 $$
 
 **A headline effect of nearly three million to one
@@ -3261,6 +3345,7 @@ $$
 \Pr(\text{occurs} \mid \text{called impossible}) \approx 0.15,
 \qquad
 \Pr(\text{fails} \mid \text{called certain}) \approx 0.27
+\tag{85}
 $$
 
 **Both of those should be near zero and neither is.**
@@ -3287,6 +3372,7 @@ by a factor of about two.
 
 $$
 \frac{4.0}{1.9} \approx 2.1
+\tag{86}
 $$
 
 **A paper whose thesis was that cost estimates run low
@@ -3417,6 +3503,7 @@ $$
 13.6 \longrightarrow 9.9,
 \qquad
 32.0 \longrightarrow 39.3
+\tag{87}
 $$
 
 Kennedy also supplies the term the decline literature argues over,
@@ -3619,6 +3706,7 @@ rather than in the paraphrases that circulate.
 
 $$
 25 \longrightarrow 35 \;\text{percent}
+\tag{88}
 $$
 
 And the island's own exposure is published by its own ministry.
@@ -3628,6 +3716,7 @@ with oil at 99.03 and liquefied natural gas at 99.82.
 
 $$
 94.62, \qquad 99.03, \qquad 99.82 \;\text{percent}
+\tag{89}
 $$
 
 **Those three numbers are the reason the blockade literature exists**,
@@ -4030,6 +4119,865 @@ the prior that it would respond to a Pacific war should be weak.**
 That is a thinner set of conclusions
 than the volume of writing on this subject would suggest is available,
 and the thinness is the finding.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 89 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 89, 61 are established and 28 are bespoke.
+Capability figures are dimensionless shares of a world total, and every level depends on the set of states in the denominator while a ratio of two states' shares does not, so levels are comparable only within one stated reference set. A relative change is a fraction of the earlier value, and percentages are kept distinct from differences in percentage points.
+
+**Equation 1, Component Share of a World Total.**
+Each of the six capability components held by a state is divided by the world total of that component, so the shares of all states sum to one for every component.
+[Correlates of War National Material Capabilities documentation][data_cow_nmc_v7]
+
+$$
+s_{c,i,t} = \frac{x_{c,i,t}}{\sum_{j} x_{c,j,t}},
+\qquad
+\sum_{i} s_{c,i,t} = 1 \;\text{for every } c
+\tag{1}
+$$
+
+**Equation 2, Composite Index of National Capability.**
+The Composite Index of National Capability is the equally weighted mean of a state's six component shares, which bounds it between zero and one.
+[Correlates of War National Material Capabilities documentation][data_cow_nmc_v7]
+[Singer, Bremer and Stuckey in 1972][book_singer_1972_capability_distribution]
+
+$$
+\mathrm{CINC}_{i,t}
+= \frac{1}{6} \sum_{c=1}^{6}
+\frac{x_{c,i,t}}{\sum_{j} x_{c,j,t}}
+\tag{2}
+$$
+
+**Equation 3, Index Values for China and the United States in 2022.**
+The 2022 values of the Composite Index of National Capability are stated with the year renormalised so that the shares of all observed states sum to one.
+[Correlates of War National Material Capabilities documentation][data_cow_nmc_v7]
+
+$$
+\mathrm{CINC}_{\mathrm{CHN},\,2022} = 0.2325,
+\qquad
+\mathrm{CINC}_{\mathrm{USA},\,2022} = 0.1227
+\tag{3}
+$$
+
+**Equation 4, Ratio of Chinese to American Capability Share in 2022.**
+Dividing the two renormalised index values gives China about one and nine tenths times the capability share of the United States.
+
+$$
+\frac{0.2325}{0.1227} \approx 1.89
+\tag{4}
+$$
+
+*Equation 5, Bespoke Relative Change in Share over a Constant Set of States.*
+The relative change from 1990 to 2022 is computed over the one hundred and sixty states present in every year, a reference set the article chose that alters the levels though not the ratio between two states.
+
+$$
+\frac{0.2394 - 0.1159}{0.1159} \approx +1.06,
+\qquad
+\frac{0.1264 - 0.1467}{0.1467} \approx -0.14
+\tag{5}
+$$
+
+**Equation 6, Invariance of a Share Ratio to the Reference Set.**
+Every convention divides both states by the same denominator, so the denominator cancels and the ratio of two shares is identical under any reference set.
+
+$$
+\left. \frac{\mathrm{CINC}_{\mathrm{CHN},\,2022}}{\mathrm{CINC}_{\mathrm{USA},\,2022}}
+\right|_{\text{any reference set}} = 1.8945
+\tag{6}
+$$
+
+**Equation 7, Ratio of Military Expenditure Shares.**
+The ratio of the American to the Chinese share of world military expenditure in 2022 shows the United States ahead by nearly four to one on that component.
+
+$$
+\frac{41.57}{10.83} \approx 3.84
+\tag{7}
+$$
+
+**Equation 8, Ratios of Underlying Steel Output and Military Expenditure.**
+The raw 2022 values reproduce the component ratios, with China far ahead in iron and steel tonnage and the United States far ahead in military spending.
+
+$$
+\frac{1{,}017{,}959}{80{,}535} \approx 12.64,
+\qquad
+\frac{838{,}814}{218{,}639} \approx 3.84
+\tag{8}
+$$
+
+**Equation 9, Published Index Averaged over Recorded Components.**
+The codebook averages a state's shares over only the components actually recorded for it, rather than dividing by six in every case.
+[Correlates of War National Material Capabilities documentation][data_cow_nmc_v7]
+
+$$
+\mathrm{CINC}^{\text{published}}_{i,t}
+= \frac{1}{|A_{i,t}|} \sum_{c \in A_{i,t}}
+\frac{x_{c,i,t}}{\sum_{j} x_{c,j,t}}
+\tag{9}
+$$
+
+**Equation 10, Inflation of the Published Index by Missing Components.**
+Where components are missing the published value exceeds the sixfold average by the ratio of six to the number of components present.
+
+$$
+\frac{\mathrm{CINC}^{\text{published}}_{i,t}}
+{\mathrm{CINC}_{i,t}} = \frac{6}{|A_{i,t}|}
+\tag{10}
+$$
+
+**Equation 11, Departure of the Published Index Totals from One.**
+The maximum and the median absolute deviation from one of the yearly sum of published index values measure how far the published series departs from the share invariant.
+
+$$
+\max_{t} \left| \sum_{i} \mathrm{CINC}^{\text{published}}_{i,t} - 1 \right| = 0.0747,
+\qquad
+\operatorname{median}_{t} \left| \cdot \right| \approx 0.021
+\tag{11}
+$$
+
+**Equation 12, Proportion of Years Missing the Invariant.**
+The number of years whose published total misses one by more than a thousandth, divided by all years in the series, gives a proportion near nine in ten.
+
+$$
+\frac{183}{207} \approx 0.88
+\tag{12}
+$$
+
+**Equation 13, Inflation of China's 1860 Index Value.**
+China in 1860 is missing two components, so its published value is half again its value on the sixfold definition, as the inflation factor predicts.
+
+$$
+0.17429 \;\text{published}, \qquad
+0.11619 \;\text{on the sixfold definition}, \qquad
+\frac{6}{4} = 1.5
+\tag{13}
+$$
+
+**Equation 14, Codebook Completeness Figures Against the Current File.**
+The completeness percentages stated in the codebook are set beside the same percentages recomputed from the version 7.0 file.
+
+$$
+83.29 \longrightarrow 83.62,
+\qquad
+13.76 \longrightarrow 13.50,
+\qquad
+2.71 \longrightarrow 2.66
+\tag{14}
+$$
+
+**Equation 15, Relative Change in China's Recorded Urban Population in 2002.**
+The relative change between 2001 and 2002 shows China losing more than half its recorded urban population when the city threshold was raised.
+
+$$
+\frac{294{,}634 - 612{,}933}{612{,}933} \approx -0.52
+\tag{15}
+$$
+
+**Equation 16, Exact Decomposition of a Change in the Index.**
+Because the index is an equally weighted sum of six shares, its change is exactly the sum of the component share changes divided by six.
+
+$$
+\Delta \mathrm{CINC}_{i} = \frac{1}{6} \sum_{c=1}^{6} \Delta s_{c,i}
+\tag{16}
+$$
+
+*Equation 17, Bespoke 2002 Ratio with the Urban Share Held at Its 2001 Value.*
+The counterfactual ratio holds China's urban share at its 2001 value and leaves every other component as published, which isolates the effect of the definitional change.
+
+$$
+\frac{17.471}{15.374} \approx 1.14
+\tag{17}
+$$
+
+**Equation 18, Relative Changes in Recorded Urban Population in 2017.**
+The relative changes across the 2017 revision show the American urban figure falling by about two fifths while the Chinese figure rose by about a sixth.
+
+$$
+\frac{109{,}994 - 197{,}817}{197{,}817} \approx -0.44,
+\qquad
+\frac{609{,}219 - 526{,}464}{526{,}464} \approx +0.16
+\tag{18}
+$$
+
+*Equation 19, Bespoke Share of the 2022 Ratio Attributable to the 2017 Revision.*
+The counterfactual substitutes the 2016 urban shares into the 2022 index and leaves the other five components as published, and the relative difference of the two ratios attributes about three and a half percent of the ratio to the revision.
+
+$$
+\frac{1.8945}{1.8318} - 1 \approx +0.034
+\tag{19}
+$$
+
+**Equation 20, Relative Change in Recorded Chinese Military Expenditure in 2005.**
+The relative change between 2004 and 2005 records a fall of nearly two thirds in Chinese military expenditure that the later series does not sustain.
+
+$$
+\frac{29.9 - 84.3}{84.3} \approx -0.65
+\tag{20}
+$$
+
+**Equation 21, Ratio of American to Chinese Military Expenditure in 2025.**
+The ratio of the two military expenditure figures reported by the Stockholm International Peace Research Institute puts the United States at nearly three times China.
+[2026 fact sheet][data_sipri_2026_milex]
+
+$$
+\frac{954}{336} \approx 2.84
+\tag{21}
+$$
+
+**Equation 22, Ratio of the Two Price Bases for Chinese Output.**
+Dividing China's output relative to the United States at purchasing power parity by the same quantity at market exchange rates gives a factor of about two.
+[World Bank indicators][data_world_bank_wdi]
+
+$$
+\frac{1.34}{0.63} \approx 2.1
+\tag{22}
+$$
+
+**Equation 23, Ratio of Defence Network Scores.**
+The ratio of the American to the Chinese defence networks score in the Lowy Institute index shows the United States ahead by more than four to one.
+[Lowy Institute][data_lowy_2025_asia_power_index]
+
+$$
+\frac{81.4}{18.9} \approx 4.3
+\tag{23}
+$$
+
+**Equation 24, Chinese Standing Relative to American on Five Instruments.**
+Each of five instruments is expressed as the Chinese value divided by the American value so that the readings can be compared directly.
+
+$$
+1.89, \qquad
+\frac{336}{954} \approx 0.35, \qquad
+1.34, \qquad
+0.63, \qquad
+\frac{73.7}{80.4} \approx 0.92
+\tag{24}
+$$
+
+**Equation 25, Spread Between the Extreme Instrument Readings.**
+The highest relative reading divided by the lowest shows the five instruments differing by a factor of more than five.
+
+$$
+\frac{1.89}{0.35} \approx 5.4
+\tag{25}
+$$
+
+*Equation 26, Bespoke Fixed-Membership Share and Postwar Relative Change.*
+The share is renormalised over only the states present in both the prewar and the postwar year, a design choice that removes changes in system membership, and the relative change of that share defines the postwar shift.
+[Correlates of War Inter-State War Data][data_cow_interstate_war_v4]
+
+$$
+S_{i,t} = \frac{\mathrm{CINC}_{i,t}}{\sum_{j \in C} \mathrm{CINC}_{j,t}},
+\qquad
+\delta_{i} = \frac{S_{i,\,t_{1}} - S_{i,\,t_{0}}}{S_{i,\,t_{0}}}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Prewar Trend over an Equal Window.*
+The relative change in the fixed-membership share over a window of the same length before the war gives the prewar trajectory against which the postwar change is tested.
+
+$$
+\tau_{i} = \frac{S_{i,\,t_{0}} - S_{i,\,t_{0}-h}}{S_{i,\,t_{0}-h}},
+\qquad
+h \in \{5, 10\}
+\tag{27}
+$$
+
+**Equation 28, Mann-Whitney Test of Winner Against Loser Changes.**
+A two-sided Mann-Whitney rank test on the two change distributions gives the standardised statistic and its probability value.
+
+$$
+z = 3.00, \qquad p \approx 0.0027
+\tag{28}
+$$
+
+*Equation 29, Bespoke Gap Between Winner and Loser Median Changes.*
+The difference between the median fixed-membership changes of winners and losers is about fourteen points of relative change.
+
+$$
+0.118 - (-0.021) = 0.139
+\tag{29}
+$$
+
+*Equation 30, Bespoke Frequencies of Sign Reversal by Outcome.*
+The proportion of winners whose fixed-membership share declined and of losers whose share rose are sample frequencies that show the overlap of the two groups.
+
+$$
+\Pr(\delta < 0 \mid \text{winner}) = 0.384,
+\qquad
+\Pr(\delta > 0 \mid \text{loser}) = 0.476
+\tag{30}
+$$
+
+*Equation 31, Bespoke Frequency of Decline Among Large-War Losers.*
+Every loser of a war with at least one hundred thousand battle deaths held a smaller fixed-membership share ten years later.
+
+$$
+\Pr(\delta < 0 \mid \text{loser, large war}) = \frac{11}{11} = 1
+\tag{31}
+$$
+
+*Equation 32, Bespoke Asymmetry of Large-War Medians.*
+The magnitude of the median loser change divided by the median winner change in large wars shows the penalty for losing to be more than three times the reward for winning.
+
+$$
+\frac{|-0.418|}{0.126} \approx 3.3
+\tag{32}
+$$
+
+**Equation 33, Correlation of Prewar Trend with Postwar Change.**
+The correlation coefficient between the prewar trajectory and the postwar change at the ten-year horizon is essentially zero.
+
+$$
+r = -0.038
+\tag{33}
+$$
+
+**Equation 34, Correlations at the Ten-Year and Five-Year Horizons.**
+The correlation coefficients at both horizons, with their numbers of observations, are slightly negative and indistinguishable from zero.
+
+$$
+r_{10} = -0.038 \;(n = 267),
+\qquad
+r_{5} = -0.082 \;(n = 286)
+\tag{34}
+$$
+
+**Equation 35, Variance Explained by the Prewar Trend.**
+Squaring the larger correlation coefficient shows that under one percent of the variation in postwar change is accounted for by the prewar trajectory.
+
+$$
+r_{5}^{2} \approx 0.0067
+\tag{35}
+$$
+
+*Equation 36, Bespoke Combined Belligerent Share and Bystander Complement.*
+The combined belligerent share is the sum of the fixed-membership shares of the belligerents, and because those shares sum to one the bystander share is its complement.
+
+$$
+B_{t} = \sum_{i \in B} S_{i,t},
+\qquad
+1 - B_{t} = \sum_{i \notin B} S_{i,t}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Frequency and Median of Belligerent Decline.*
+Across seventy-six wars in which every belligerent survives to the later year, the combined belligerent share fell in under half and rose by a median of two and a half percent.
+
+$$
+\frac{36}{76} \approx 0.474,
+\qquad
+\operatorname{median} \frac{\Delta B}{B} = +0.025
+\tag{37}
+$$
+
+*Equation 38, Bespoke Frequency of Decline Among the Ten Largest Wars.*
+Among the ten largest of those wars the combined belligerent share fell in exactly half.
+
+$$
+\frac{5}{10} = 0.5
+\tag{38}
+$$
+
+*Equation 39, Bespoke Change in Belligerent Share in the World Wars.*
+The relative change in combined belligerent share for each world war maps dissolved belligerents onto their successor states, an assumption that keeps their capability from being lost or double counted.
+
+$$
+\frac{0.7761 - 0.8229}{0.8229} \approx -0.057,
+\qquad
+\frac{0.9610 - 0.9808}{0.9808} \approx -0.020
+\tag{39}
+$$
+
+*Equation 40, Bespoke Bystander Pool in the World Wars.*
+The complement of the prewar combined belligerent share gives the capability held by the states that stayed out of each world war.
+
+$$
+1 - 0.8229 = 0.1771,
+\qquad
+1 - 0.9808 = 0.0192
+\tag{40}
+$$
+
+*Equation 41, Bespoke Combined Share of the Prospective Belligerents.*
+The renormalised 2022 shares of the two principals are summed to place the prospective war on the scale of combined belligerent share.
+
+$$
+0.1227 + 0.2325 = 0.3552
+\tag{41}
+$$
+
+*Equation 42, Bespoke Prospective Belligerent Share Against the World Wars.*
+The prospective combined share is divided by the prewar combined share of each world war to show how much less concentrated this case would be.
+
+$$
+\frac{0.3552}{0.8229} \approx 0.43,
+\qquad
+\frac{0.3552}{0.9808} \approx 0.36
+\tag{42}
+$$
+
+*Equation 43, Bespoke Percentile of the Prospective Concentration.*
+The proportion of the seventy-six comparable wars with less concentrated belligerents places the prospective case at about the ninety-sixth percentile.
+
+$$
+\frac{73}{76} \approx 0.96
+\tag{43}
+$$
+
+**Equation 44, Correlation of Belligerent Concentration with Postwar Change.**
+The correlation coefficient between the prewar combined belligerent share and its subsequent change shows that more concentrated belligerents fare worse.
+
+$$
+r = -0.225 \quad (n = 76)
+\tag{44}
+$$
+
+**Equation 45, Ratio of Indian to American Capability Share in 2022.**
+The ratio of the renormalised 2022 index values puts India at about four fifths of the American share.
+
+$$
+\frac{0.0987}{0.1227} \approx 0.80
+\tag{45}
+$$
+
+*Equation 46, Bespoke Relative Change in Russia's Share over a Constant Set of States.*
+The relative change from 1990 to 2022 is computed over the constant membership set the article chose, and shows Russia losing about seven tenths of its relative standing without a great-power war.
+
+$$
+\frac{0.0391 - 0.1342}{0.1342} \approx -0.71
+\tag{46}
+$$
+
+**Equation 47, Present Index Values Used in the Projection.**
+The renormalised 2022 values of the Composite Index of National Capability for China, the United States and India are the inputs to the projection that follows.
+
+$$
+\mathrm{CINC}_{\mathrm{CHN}} = 0.2325, \quad
+\mathrm{CINC}_{\mathrm{USA}} = 0.1227, \quad
+\mathrm{CINC}_{\mathrm{IND}} = 0.0987
+\tag{47}
+$$
+
+*Equation 48, Bespoke Median Changes Applied to Winner and Loser.*
+The median fixed-membership changes of winners and losers of large wars are taken as the outcome of the prospective war, which assumes the historical median applies to this case.
+
+$$
+\delta_{\text{win}} = +0.126, \qquad \delta_{\text{lose}} = -0.418
+\tag{48}
+$$
+
+*Equation 49, Bespoke Projection of Postwar Shares and Bystander Pool.*
+Each present share is multiplied by one plus the median change for its outcome and the bystander pool is the complement of the two principals, which holds every other state including India fixed.
+
+$$
+S' = S\,(1 + \delta),
+\qquad
+P' = 1 - S'_{\mathrm{CHN}} - S'_{\mathrm{USA}}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Ratio After an American Victory.*
+Under the median projection with the United States winning and China losing, the two principals end level.
+
+$$
+\frac{0.1353}{0.1382} \approx 0.98
+\tag{50}
+$$
+
+*Equation 51, Bespoke Defeated China Against the Present United States.*
+The projected share of a China defeated at the median rate still exceeds the present American share.
+
+$$
+\frac{0.1353}{0.1227} \approx 1.10
+\tag{51}
+$$
+
+*Equation 52, Bespoke India Against a Defeated United States.*
+Under the median projection with the United States losing, India, held fixed, passes it without fighting.
+
+$$
+\frac{0.0987}{0.0714} \approx 1.38
+\tag{52}
+$$
+
+*Equation 53, Bespoke Postwar Changes After the Franco-Prussian War.*
+The fixed-membership changes for Germany and France ten years after the Franco-Prussian War evaluate the article's measure for one of the analogues named in the RAND Corporation study.
+[Priebe et al. 2023][research_priebe_2023_alternative_futures_v1]
+
+$$
+\delta_{\mathrm{GMY}} = +0.271,
+\qquad
+\delta_{\mathrm{FRN}} = -0.026
+\tag{53}
+$$
+
+*Equation 54, Bespoke Postwar Changes After the Korean War.*
+The fixed-membership changes for the United States and China ten years after the Korean War evaluate the article's measure for the other named analogue.
+[Priebe et al. 2023][research_priebe_2023_alternative_futures_v1]
+
+$$
+\delta_{\mathrm{USA}} = -0.127,
+\qquad
+\delta_{\mathrm{CHN}} = +0.180
+\tag{54}
+$$
+
+*Equation 55, Bespoke Gap Between the Korean War Changes.*
+The difference between the Chinese and American fixed-membership changes after the Korean War amounts to about three tenths of relative standing.
+
+$$
+0.180 - (-0.127) = 0.307
+\tag{55}
+$$
+
+**Equation 56, Proportions of Accurate and Inaccurate Prewar Forecasts.**
+Counting the graded cases in the RAND Corporation historical volume gives the proportions of wars in which every combatant forecast the balance of power correctly and incorrectly.
+[volume on historical cases][research_evans_2023_alternative_futures_v2]
+
+$$
+\frac{1}{10} \;\text{fully accurate}, \qquad
+\frac{3}{10} \;\text{wholly inaccurate}
+\tag{56}
+$$
+
+**Equation 57, Proportion Expecting a Single Dominant Power.**
+Adding the proportions of respondents expecting American and Chinese dominance gives the share of the panel expecting either state to dominate.
+[Atlantic Council's annual expert survey][research_atlantic_council_2026_welcome_2036]
+
+$$
+0.07 + 0.04 = 0.11
+\tag{57}
+$$
+
+**Equation 58, Ratio of Expectations of Economic Primacy.**
+The proportion expecting China to be the top economic power divided by the proportion expecting the United States gives a ratio near two.
+[Atlantic Council's annual expert survey][research_atlantic_council_2026_welcome_2036]
+
+$$
+\frac{58}{33} \approx 1.8
+\tag{58}
+$$
+
+**Equation 59, Annual Change in Expectations of American Dominance.**
+The differences between successive survey editions give the one-year movement in each of four domains in percentage points.
+[2025 edition][research_atlantic_council_2025_welcome_2035]
+
+$$
+-10, \quad -5, \quad -3, \quad -8 \;\text{percentage points}
+\tag{59}
+$$
+
+**Equation 60, Proportion of Thucydides Trap Cases Ending in War.**
+The proportion of the sixteen cases ending in war is the figure on which the popular framework rests.
+[original statement][commentary_allison_2015_thucydides_trap]
+
+$$
+\frac{12}{16} = 0.75
+\tag{60}
+$$
+
+**Equation 61, Ratio of Japanese to American Proportional Output Loss.**
+The ratio of the two proportional losses in the Nikkei estimate shows a non-belligerent ally bearing nearly three times the American loss.
+[Nikkei's estimate][commentary_nikkei_2022_taiwan_emergency]
+
+$$
+\frac{3.7}{1.3} \approx 2.8
+\tag{61}
+$$
+
+*Equation 62, Bespoke Ratio of Midpoint Output Losses.*
+Taking the midpoint of each published range for Chinese and American output loss, a reduction the article chose, gives China losing about four times as much.
+[Gompert, Cevallos and Garafola][research_gompert_2016_war_with_china]
+
+$$
+\frac{30}{7.5} = 4
+\tag{62}
+$$
+
+**Equation 63, Dollar Share of Reserves at the Two Ends of the Series.**
+The dollar share of official foreign exchange reserves is stated at the first and the latest quarters of the International Monetary Fund series.
+[International Monetary Fund's Currency Composition of Official Foreign Exchange Reserves][data_imf_cofer]
+
+$$
+75.03 \longrightarrow 56.70 \;\text{percent over 27 years}
+\tag{63}
+$$
+
+**Equation 64, Total and Annual Decline of the Dollar Reserve Share.**
+The total fall in percentage points divided by the elapsed years gives a decline of about two thirds of a point per year.
+[International Monetary Fund's Currency Composition of Official Foreign Exchange Reserves][data_imf_cofer]
+
+$$
+75.03 - 56.70 = 18.33 \;\text{points},
+\qquad
+\frac{-18.33}{27.25} \approx -0.67 \;\text{points per year}
+\tag{64}
+$$
+
+**Equation 65, Annual Decline Before and After the 2022 Reserve Freeze.**
+Splitting the series at the first quarter of 2022 gives the average annual decline in each period, and the later rate is slightly slower.
+[International Monetary Fund's Currency Composition of Official Foreign Exchange Reserves][data_imf_cofer]
+
+$$
+\frac{59.42 - 75.03}{23} \approx -0.68 \;\text{points per year},
+\qquad
+\frac{56.70 - 59.42}{4.25} \approx -0.64 \;\text{points per year}
+\tag{65}
+$$
+
+**Equation 66, Relative Change in the Renminbi Reserve Share Since Its Peak.**
+The relative change from the peak share in the fourth quarter of 2021 shows about a quarter of the renminbi share lost since then.
+[International Monetary Fund's Currency Composition of Official Foreign Exchange Reserves][data_imf_cofer]
+
+$$
+\frac{2.11 - 2.85}{2.85} \approx -0.26
+\tag{66}
+$$
+
+**Equation 67, Dollar Share of Foreign Exchange Turnover Across Surveys.**
+The dollar share of foreign exchange trades in successive triennial surveys of the Bank for International Settlements has risen slightly, on a basis that sums to two hundred percent.
+[Bank for International Settlements triennial survey][data_bis_2025_triennial]
+
+$$
+87 \to 88 \to 88 \to 88 \to 89
+\quad \text{across 2013, 2016, 2019, 2022, 2025}
+\tag{67}
+$$
+
+**Equation 68, Projected Net Interest Against the Korean War Peak.**
+Projected net interest in fiscal year 2036 as a share of gross domestic product exceeds the peak cost of the Korean War on the same basis.
+[open data repository][data_cbo_2026_projections]
+
+$$
+4.591 > 4.2
+\tag{68}
+$$
+
+**Equation 69, Relative Change in Chinese Holdings of Treasury Securities.**
+The relative change in custody-based holdings between January 2022 and July 2026 is a fall of about two fifths in nominal terms.
+[Treasury's holdings table][data_treasury_tic_2026]
+
+$$
+\frac{618.0 - 1{,}033.8}{1{,}033.8} \approx -0.40
+\tag{69}
+$$
+
+**Equation 70, Estimated Costs of Losing Reserve-Currency Status.**
+The seigniorage loss, the real depreciation and the rise in the real interest rate are the three magnitudes the cited study estimates.
+[Jiang, Krishnamurthy, Lustig and Richmond][research_jiang_2026_dollar_erosion]
+
+$$
+0.01 \;\text{per year}, \qquad 8.8 \;\text{percent}, \qquad 90 \;\text{basis points}
+\tag{70}
+$$
+
+**Equation 71, Ratio of Median Bloc Welfare Losses Under Decoupling.**
+The median Eastern bloc welfare loss divided by the median Western bloc loss shows decoupling costing the Chinese bloc about two and a half times as much.
+[Góes and Bekkers][research_goes_bekkers_2022_geopolitical_conflicts]
+
+$$
+\frac{10.5}{4} \approx 2.6
+\tag{71}
+$$
+
+**Equation 72, Conflict and Economic Risk as Fractions of Disrupted Trade.**
+Dividing the conflict component and the estimated economic risk by the expected value of disrupted trade at the Taiwan Strait shows both to be small parts of the headline figure.
+[Verschuur, Lumma and Hall][journal_verschuur_2025_chokepoints]
+
+$$
+\frac{13.2}{37.3} \approx 0.35,
+\qquad
+\frac{0.9}{37.3} \approx 0.024
+\tag{72}
+$$
+
+**Equation 73, Proportion of Latent Nuclear States That Built Arsenals.**
+The number of states that acquired arsenals divided by the number that developed the capacity gives a frequency of about one in three.
+[Fuhrmann and Tkach][journal_fuhrmann_tkach_2015_nuclear_latency]
+
+$$
+\frac{10}{31} \approx 0.32
+\tag{73}
+$$
+
+**Equation 74, Ratio of Preference for Indigenous Over Redeployed Weapons.**
+The ratio of South Korean respondents preferring indigenous weapons to those preferring redeployed American weapons is about seven to one.
+[Chicago Council's 2022 survey][data_chicago_council_2022_south_korea]
+
+$$
+\frac{67}{9} \approx 7.4
+\tag{74}
+$$
+
+**Equation 75, Relative Change in South Korean Support for Nuclear Weapons.**
+The relative change in support between 2021 and 2023 in the Korea Institute for National Unification series is a fall of about a sixth.
+[Korea Institute for National Unification's 2023 survey][data_kinu_2023_unification_survey]
+
+$$
+\frac{60.2 - 71.3}{71.3} \approx -0.16
+\tag{75}
+$$
+
+*Equation 76, Bespoke Framed Support Relative to Headline Support.*
+The midpoint of support under risk framing divided by the headline figure shows support close to halving when the question is framed, with the reported range reduced to its midpoint as the article chose.
+[Korea Institute for National Unification's 2023 survey][data_kinu_2023_unification_survey]
+
+$$
+\frac{36.5}{71.3} \approx 0.51
+\tag{76}
+$$
+
+**Equation 77, Ratio of Preference for the Alliance Over Nuclear Weapons.**
+The proportion choosing continued American forces divided by the proportion choosing nuclear weapons gives a ratio of about one and a half.
+[Korea Institute for National Unification's 2023 survey][data_kinu_2023_unification_survey]
+
+$$
+\frac{49.5}{33.8} \approx 1.5
+\tag{77}
+$$
+
+**Equation 78, Probability Value for the Washington Declaration Comparison.**
+The probability value for the change in support before and after the Washington Declaration fails the conventional threshold for significance.
+[Korea Institute for National Unification's 2023 survey][data_kinu_2023_unification_survey]
+
+$$
+p = 0.358
+\tag{78}
+$$
+
+**Equation 79, Composition of Japan's Separated Plutonium Stock.**
+The overseas holdings in the United Kingdom and France sum to the overseas total, which with the domestic holding gives the whole stock.
+[Cabinet Office's plutonium management report][government_japan_2025_plutonium]
+
+$$
+21.7 + 14.1 = 35.8,
+\qquad
+8.6 + 35.8 = 44.4
+\tag{79}
+$$
+
+**Equation 80, Overseas Fraction of Japan's Plutonium Stock.**
+The overseas holding divided by the whole stock shows about four fifths of it held in two other states.
+[Cabinet Office's plutonium management report][government_japan_2025_plutonium]
+
+$$
+\frac{35.8}{44.4} \approx 0.81
+\tag{80}
+$$
+
+**Equation 81, Taiwan's Range Ring Against the Chinese Coastline.**
+The north to south extent of Taiwan divided by the length of the mainland coastline gives less than three percent.
+[Caverley][journal_caverley_2025]
+
+$$
+\frac{395}{14{,}500} \approx 0.027
+\tag{81}
+$$
+
+**Equation 82, Ratio of Chinese to American Government Crude Stocks.**
+The ratio of Chinese government-held crude inventories to the American Strategic Petroleum Reserve is close to nine tenths on the same basis.
+[its assessment of strategic stocks][government_eia_2026_strategic_stocks]
+
+$$
+\frac{360}{414} \approx 0.87
+\tag{82}
+$$
+
+**Equation 83, Survey Margins Between China and the United States.**
+The differences between the two choices in consecutive survey years show a margin that reversed sign while barely changing in magnitude.
+[ISEAS State of Southeast Asia survey][data_iseas_2026_state_of_southeast_asia]
+
+$$
+52.0 - 48.0 = 4.0,
+\qquad
+52.3 - 47.7 = 4.6
+\tag{83}
+$$
+
+**Equation 84, Reestimated Effect of Nuclear Dyads on War.**
+The earlier estimate that nuclear dyads were millions of times less likely to fight is reduced to statistical insignificance on reestimation.
+[Bell and Miller][journal_bell_miller_2015_questioning]
+
+$$
+2{,}700{,}000 \longrightarrow \text{not significant}
+\tag{84}
+$$
+
+**Equation 85, Calibration Failures in Expert Political Judgement.**
+The observed frequencies of events experts called impossible occurring and of events they called certain failing show both to be well above zero.
+[Tetlock's][book_tetlock_2005_expert_political_judgment]
+
+$$
+\Pr(\text{occurs} \mid \text{called impossible}) \approx 0.15,
+\qquad
+\Pr(\text{fails} \mid \text{called certain}) \approx 0.27
+\tag{85}
+$$
+
+**Equation 86, Iraq War Cost Outturn Against the Prewar Forecast.**
+The lower end of the reported outturn divided by the top of the prewar range shows the forecast low by a factor of about two.
+[Nordhaus's][research_nordhaus_2002_iraq_cost]
+[Chang and others][journal_chang_2016_developing_expert_judgment]
+
+$$
+\frac{4.0}{1.9} \approx 2.1
+\tag{86}
+$$
+
+**Equation 87, Shares of World Manufacturing Across the First World War.**
+Britain's share of world manufacturing output fell and the American share rose between 1913 and 1928.
+[Kennedy's][book_kennedy_1987_rise_and_fall]
+
+$$
+13.6 \longrightarrow 9.9,
+\qquad
+32.0 \longrightarrow 39.3
+\tag{87}
+$$
+
+**Equation 88, Advanced Manufacturing Investment Credit Rate.**
+The later public law raised the credit rate from twenty five to thirty five percent.
+[later public law][government_us_2025_pl_119_21]
+
+$$
+25 \longrightarrow 35 \;\text{percent}
+\tag{88}
+$$
+
+**Equation 89, Taiwan's Dependence on Imported Energy.**
+The handbook gives the dependence on imported energy overall and for oil and for liquefied natural gas in 2025.
+[Taiwan energy statistics handbook][data_taiwan_moea_energy]
+
+$$
+94.62, \qquad 99.03, \qquad 99.82 \;\text{percent}
+\tag{89}
+$$
+
+### Notation
+
+- $x_{c,i,t}$, the value of capability component $c$ held by state $i$ in year $t$
+- $s_{c,i,t}$, the share of state $i$ in the world total of component $c$ in year $t$
+- $\mathrm{CINC}_{i,t}$, the Composite Index of National Capability of state $i$ in year $t$ on the sixfold definition
+- $\mathrm{CINC}^{\text{published}}_{i,t}$, the index value as published, averaged over the recorded components only
+- $A_{i,t}$, the set of components actually recorded for state $i$ in year $t$
+- $S_{i,t}$, the share of state $i$ over the set $C$ of states present in both compared years
+- $\delta_{i}$, the relative change in a belligerent's fixed-membership share from the year before the war to five or ten years after it
+- $\tau_{i}$, the relative change in the same share over an equal window before the war
+- $t_{0}$, the year before the war began
+- $t_{1}$, the year five or ten years after the war ended
+- $h$, the length of the comparison window in years
+- $B_{t}$, the combined fixed-membership share of the set $B$ of belligerents in year $t$
+- $S'$, a projected postwar share
+- $P'$, the projected bystander pool, the capability held by all states other than the two principals
+- $r_{5}$, the correlation coefficient between prewar trend and postwar change at the five-year horizon
+- $z$, the standardised Mann-Whitney test statistic
+- $p$, the probability value of a test
 
 ## References
 

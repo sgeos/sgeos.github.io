@@ -26,7 +26,10 @@ Enumerating the fault space of a single 64-bit word exhaustively, rather than sa
 numbers that decide the design. The space is small enough to enumerate because the number of ways to flip
 $w$ bits out of 64 is a binomial coefficient, and for $w \le 4$ it stays under a million.
 
-$$\binom{64}{1} = 64, \quad \binom{64}{2} = 2{,}016, \quad \binom{64}{3} = 41{,}664, \quad \binom{64}{4} = 635{,}376$$
+$$
+\binom{64}{1} = 64, \quad \binom{64}{2} = 2{,}016, \quad \binom{64}{3} = 41{,}664, \quad \binom{64}{4} = 635{,}376
+\tag{1}
+$$
 
 | flipped bits | patterns | repaired exactly | **wrongly "repaired"** | **invisible** |
 |---|---|---|---|---|
@@ -123,14 +126,20 @@ Work over the binary field $\mathbb{F}\_2$, where addition is exclusive-or, writ
 A codeword is a data word $d \in \mathbb{F}\_2^{64}$ together with $r = 8$ check bits, so the code has
 length
 
-$$n = k + r = 64 + 8 = 72$$
+$$
+n = k + r = 64 + 8 = 72
+\tag{2}
+$$
 
 and is written $(72, 64)$. The **parity-check matrix** $H \in \mathbb{F}\_2^{8 \times 72}$ has one column
 $h_i$ per bit position. The **syndrome** is the short summary the checker computes from a word it has
 just read, and **its whole usefulness is that it depends only on what went wrong and not on what the data
 was**. For a received word $c$ it is
 
-$$s(c) = H c^{\top} \in \mathbb{F}_2^{8}$$
+$$
+s(c) = H c^{\top} \in \mathbb{F}_2^{8}
+\tag{3}
+$$
 
 Write $\mathcal{H} = \{h_0, \dots, h_{71}\}$ for the set of columns, $\mathrm{wt}(x)$ for Hamming weight,
 and $d$ for the code's minimum distance.
@@ -153,11 +162,17 @@ self-classifying without a separate overall parity bit.
 
 The number of odd-weight vectors in $\mathbb{F}\_2^{r}$ is exactly half of them,
 
-$$\bigl|\{x \in \mathbb{F}_2^{r} : \mathrm{wt}(x) \text{ odd}\}\bigr| = 2^{r-1}$$
+$$
+\bigl|\{x \in \mathbb{F}_2^{r} : \mathrm{wt}(x) \text{ odd}\}\bigr| = 2^{r-1}
+\tag{4}
+$$
 
 so a code of length $n$ needs
 
-$$2^{r-1} \ge n = k + r$$
+$$
+2^{r-1} \ge n = k + r
+\tag{5}
+$$
 
 With $k = 64$ this gives $2^{r-1} \ge 64 + r$, satisfied first at $r = 8$, where $2^{7} = 128 \ge 72$. At
 $r = 7$ it would require $64 \ge 71$, which fails. **Eight is the minimum, not a round number.**
@@ -165,11 +180,17 @@ $r = 7$ it would require $64 \ge 71$, which fails. **Eight is the minimum, not a
 The columns are drawn as the 56 weight-3 vectors and the first 8 weight-5 vectors for the data positions,
 and the 8 unit vectors for the check positions.
 
-$$\binom{8}{3} + 8 = 56 + 8 = 64 \text{ data columns}, \qquad 64 + 8 = 72 = n$$
+$$
+\binom{8}{3} + 8 = 56 + 8 = 64 \text{ data columns}, \qquad 64 + 8 = 72 = n
+\tag{6}
+$$
 
 and the supply they are drawn from is
 
-$$\binom{8}{1} + \binom{8}{3} + \binom{8}{5} + \binom{8}{7} = 8 + 56 + 56 + 8 = 128 = 2^{7}$$
+$$
+\binom{8}{1} + \binom{8}{3} + \binom{8}{5} + \binom{8}{7} = 8 + 56 + 56 + 8 = 128 = 2^{7}
+\tag{7}
+$$
 
 so 72 of the 128 available odd-weight vectors are used and 56 are spare. **That ratio is the article's
 central number and it reappears below as a prediction.**
@@ -178,12 +199,18 @@ central number and it reappears below as a prediction.**
 
 $H$ is a matrix, so $s$ is linear.
 
-$$s(c \oplus e) = s(c) \oplus s(e)$$
+$$
+s(c \oplus e) = s(c) \oplus s(e)
+\tag{8}
+$$
 
 For a stored codeword $c$ we have $s(c) = 0$, so the syndrome of a received word depends **only on the
 error pattern** and not at all on the data underneath it.
 
-$$s(c \oplus e) = s(e)$$
+$$
+s(c \oplus e) = s(e)
+\tag{9}
+$$
 
 The instrument checks this instead of assuming it, because everything that follows enumerates error
 patterns against a zero data word and would be measuring the wrong space if it failed.
@@ -200,15 +227,22 @@ $$
 \text{uncorrectable} & \mathrm{wt}(s) \text{ odd},\; s \notin \mathcal{H}\\
 \text{uncorrectable} & \mathrm{wt}(s) \text{ even},\; s \neq 0
 \end{cases}
+\tag{10}
 $$
 
 Weight is additive modulo two under exclusive-or,
 
-$$\mathrm{wt}(a \oplus b) \equiv \mathrm{wt}(a) + \mathrm{wt}(b) \pmod 2$$
+$$
+\mathrm{wt}(a \oplus b) \equiv \mathrm{wt}(a) + \mathrm{wt}(b) \pmod 2
+\tag{11}
+$$
 
 and every column has odd weight, so for an error of weight $w$,
 
-$$\mathrm{wt}\bigl(s(e)\bigr) \equiv \sum_{i \in \mathrm{supp}(e)} \mathrm{wt}(h_i) \equiv w \pmod 2$$
+$$
+\mathrm{wt}\bigl(s(e)\bigr) \equiv \sum_{i \in \mathrm{supp}(e)} \mathrm{wt}(h_i) \equiv w \pmod 2
+\tag{12}
+$$
 
 **The syndrome's parity equals the error's parity.** That single identity explains the entire measured
 table.
@@ -223,7 +257,10 @@ table.
 
 The simultaneous correction and detection capability of a code of distance $d$ is bounded by
 
-$$t + s < d, \qquad t = 1,\; s = 2,\; d = 4$$
+$$
+t + s < d, \qquad t = 1,\; s = 2,\; d = 4
+\tag{13}
+$$
 
 and it is satisfied with no margin. There is nothing left over for a third error, and this is a statement
 about distance-four codes in general.
@@ -233,20 +270,32 @@ about distance-four codes in general.
 For a weight-3 error the syndrome is odd, so it falls among the $2^{7} = 128$ odd-weight vectors, of which
 $|\mathcal{H}| = 72$ are columns. A crude uniformity assumption predicts a mis-correction fraction of
 
-$$\Pr[\text{mis-correct} \mid w = 3] \;\approx\; \frac{|\mathcal{H}|}{2^{r-1}} = \frac{72}{128} = 0.5625$$
+$$
+\Pr[\text{mis-correct} \mid w = 3] \;\approx\; \frac{|\mathcal{H}|}{2^{r-1}} = \frac{72}{128} = 0.5625
+\tag{14}
+$$
 
 Enumerating all $\binom{64}{3} = 41{,}664$ triple faults exactly gives the following.
 
-$$\frac{23{,}364}{41{,}664} = 0.5608$$
+$$
+\frac{23{,}364}{41{,}664} = 0.5608
+\tag{15}
+$$
 
 **Nothing in the triple case is unaccounted for**, which is the arithmetic showing the enumeration is
 complete rather than merely large.
 
-$$23{,}364 \ \text{mis-corrected} + 18{,}300 \ \text{refused} = 41{,}664 = \binom{64}{3}$$
+$$
+23{,}364 \ \text{mis-corrected} + 18{,}300 \ \text{refused} = 41{,}664 = \binom{64}{3}
+\tag{16}
+$$
 
 The heuristic and the measurement differ by less than a fifth of a percentage point.
 
-$$56.25\% - 56.08\% = 0.17 \ \text{percentage points}$$
+$$
+56.25\% - 56.08\% = 0.17 \ \text{percentage points}
+\tag{17}
+$$
 
 **The prediction is right to within 0.17 percentage points**, and that matters because it means the
 mis-correction rate is a property of the parameters $(n, k, r)$ rather than an accident of which columns
@@ -254,7 +303,10 @@ were chosen. A different SECDED code of the same shape would behave the same way
 
 The weight-4 invisibility count is the number of weight-4 codewords supported entirely on data positions.
 
-$$\bigl|\{e : \mathrm{wt}(e) = 4,\; s(e) = 0\}\bigr| = 5{,}133 \quad\text{of}\quad \binom{64}{4} = 635{,}376$$
+$$
+\bigl|\{e : \mathrm{wt}(e) = 4,\; s(e) = 0\}\bigr| = 5{,}133 \quad\text{of}\quad \binom{64}{4} = 635{,}376
+\tag{18}
+$$
 
 a rate of 0.81 percent. **These are corruptions the code declares clean.**
 
@@ -307,12 +359,18 @@ and that is the only reason the error was cheap.
 **The 56 patterns confined to one byte are every way of choosing three positions from eight**, so the
 conditional sweep is exhaustive over that neighbourhood too.
 
-$$\binom{8}{3} = 56$$
+$$
+\binom{8}{3} = 56
+\tag{19}
+$$
 
 **All 56 mis-correct**, against 56.08 percent unconditionally, so confinement raises the rate by a factor
 of nearly two.
 
-$$\Pr[\text{mis-correct} \mid w = 3, \ \text{one byte}] = 1.0000, \qquad \frac{1.0000}{0.5608} = 1.783$$
+$$
+\Pr[\text{mis-correct} \mid w = 3, \ \text{one byte}] = 1.0000, \qquad \frac{1.0000}{0.5608} = 1.783
+\tag{20}
+$$
 
 **This is not a curiosity, because the memory field studies cited later report that faults cluster.** A
 fault process that puts three flips in one byte is exactly the process those studies describe, and it is
@@ -324,7 +382,10 @@ physically likely case**, which is the one direction a biased sample is not harm
 All 64 single-bit error patterns repair to the original word, and 48 of 48 injected into a real artefact
 repair it byte for byte.
 
-$$\mathcal{S}\bigl(M \oplus e\bigr) = M \qquad \text{for all } \mathrm{wt}(e) \le 1$$
+$$
+\mathcal{S}\bigl(M \oplus e\bigr) = M \qquad \text{for all } \mathrm{wt}(e) \le 1
+\tag{21}
+$$
 
 This is a precondition and it is not automatic. Verifying a signature computed over $M$ against
 $\mathcal{S}(X)$ only succeeds if the scrub reproduces $M$ **exactly**, not merely something semantically
@@ -336,19 +397,32 @@ coverage would break verification on honest input and the feature would be unusa
 Write $\mathrm{Inst}(X)$ for the bytes the loader ultimately installs and executes. The soundness
 condition is that **what runs is what was authenticated**.
 
-$$\text{accepted}(X) \;\Longrightarrow\; \mathrm{Ver}\bigl(\mathrm{Inst}(X)\bigr)$$
+$$
+\text{accepted}(X) \;\Longrightarrow\; \mathrm{Ver}\bigl(\mathrm{Inst}(X)\bigr)
+\tag{22}
+$$
 
 The two candidate orders are
 
-$$\text{verify-then-scrub}\quad \text{accept if } \mathrm{Ver}(X), \;\; \mathrm{Inst}(X) = \mathcal{S}(X)$$
-$$\text{scrub-then-verify}\quad \text{accept if } \mathrm{Ver}\bigl(\mathcal{S}(X)\bigr), \;\; \mathrm{Inst}(X) = \mathcal{S}(X)$$
+$$
+\text{verify-then-scrub}\quad \text{accept if } \mathrm{Ver}(X), \;\; \mathrm{Inst}(X) = \mathcal{S}(X)
+\tag{23}
+$$
+
+$$
+\text{scrub-then-verify}\quad \text{accept if } \mathrm{Ver}\bigl(\mathcal{S}(X)\bigr), \;\; \mathrm{Inst}(X) = \mathcal{S}(X)
+\tag{24}
+$$
 
 **Scrub-then-verify satisfies the condition by construction.** The thing checked and the thing installed are the same
 expression.
 
 **Verify-then-scrub is sound if and only if the scrub is the identity on everything that verifies.**
 
-$$\mathrm{Ver}(X) \;\Longrightarrow\; \mathcal{S}(X) = X$$
+$$
+\mathrm{Ver}(X) \;\Longrightarrow\; \mathcal{S}(X) = X
+\tag{25}
+$$
 
 And here is the part I got wrong in the first draft of this article, and it is shown here rather than
 quietly fixed. **That implication holds.** An adversary without the private key cannot produce
@@ -363,7 +437,10 @@ A signature check is not a property the artefact acquires. It is an observation 
 were when they were read. Write $X_t$ for the artefact's contents at time $t$. What verify-then-scrub actually
 does in a deployed system is
 
-$$\mathrm{Ver}(X_{t_0}) \quad\text{at load}, \qquad \mathrm{Inst} = \mathcal{S}(X_{t_1}), \quad t_1 > t_0$$
+$$
+\mathrm{Ver}(X_{t_0}) \quad\text{at load}, \qquad \mathrm{Inst} = \mathcal{S}(X_{t_1}), \quad t_1 > t_0
+\tag{26}
+$$
 
 and between $t_0$ and $t_1$ the bytes are exposed to exactly the fault process the parity plane was
 installed to survive. If $X_{t_1} = X_{t_0} \oplus e$ with $\mathrm{wt}(e) = 3$, then with probability
@@ -373,7 +450,10 @@ ran at $t_0$ against different bytes.
 **The probability that this ends in a silently wrong install is a product, and neither factor is zero.**
 Writing $\Pr[F_3]$ for the chance that a weight-3 fault lands in the exposed window,
 
-$$\Pr[\text{wrong bytes installed, reported clean}] = \Pr[F_3] \times 0.5608$$
+$$
+\Pr[\text{wrong bytes installed, reported clean}] = \Pr[F_3] \times 0.5608
+\tag{27}
+$$
 
 **The article does not estimate the first factor**, because it depends on the storage medium, the
 exposure time and the workload, and none of those is measured here. **What it does establish is that the
@@ -409,7 +489,10 @@ verification**, because a scrub is a modification and the previous verification 
 The 5,133 invisible weight-4 patterns make a stronger claim available than the mis-correction result
 alone.
 
-$$\exists\, e,\; \mathrm{wt}(e) = 4,\; s(e) = 0 \;\Longrightarrow\; \text{the code reports } M \oplus e \text{ clean}$$
+$$
+\exists\, e,\; \mathrm{wt}(e) = 4,\; s(e) = 0 \;\Longrightarrow\; \text{the code reports } M \oplus e \text{ clean}
+\tag{28}
+$$
 
 **So a clean scrub report does not mean the artefact is undamaged.** It means the damage, if any, was not
 of a shape the code notices. For a system that already carries a signature this is a non-issue provided
@@ -496,11 +579,17 @@ The documented cost is **one check byte per eight payload bytes, so 12.5 percent
 Each plane is a region and each region is padded to a whole word, so for a protected region of $n$ payload
 bytes the plane occupies
 
-$$p(n) = 8 \left\lceil \frac{1}{8}\left\lceil \frac{n}{8} \right\rceil \right\rceil \text{ bytes}$$
+$$
+p(n) = 8 \left\lceil \frac{1}{8}\left\lceil \frac{n}{8} \right\rceil \right\rceil \text{ bytes}
+\tag{29}
+$$
 
 and the overhead of an artefact with regions $n_1, \dots, n_m$ is
 
-$$\rho = \frac{\sum_{i=1}^{m} p(n_i)}{\sum_{i=1}^{m} n_i}, \qquad \lim_{n \to \infty} \frac{p(n)}{n} = \frac{1}{8}$$
+$$
+\rho = \frac{\sum_{i=1}^{m} p(n_i)}{\sum_{i=1}^{m} n_i}, \qquad \lim_{n \to \infty} \frac{p(n)}{n} = \frac{1}{8}
+\tag{30}
+$$
 
 The rounding is per region, so $\rho$ inflates with $m$ and deflates with size. Every artefact here carries
 the same $m = 19$ regions regardless of how big it is.
@@ -513,12 +602,18 @@ E5 plane overhead against the documented 12.5%:
    parse                payload   303472  planes   37976   12.5%   19 regions
 ```
 
-$$\rho = \frac{136}{680} = 0.200, \qquad \frac{0.200}{0.125} = 1.60$$
+$$
+\rho = \frac{136}{680} = 0.200, \qquad \frac{0.200}{0.125} = 1.60
+\tag{31}
+$$
 
 At 680 payload bytes the true cost is **20.0 percent**, sixty percent higher than documented. The figure
 is right for the artefacts nobody worries about and wrong for the small ones, and the crossover is quick.
 
-$$\rho(680) = 20.0\%, \quad \rho(30{,}616) = 12.65\%, \quad \rho(110{,}904) = 12.53\%, \quad \rho(303{,}472) = 12.51\%$$
+$$
+\rho(680) = 20.0\%, \quad \rho(30{,}616) = 12.65\%, \quad \rho(110{,}904) = 12.53\%, \quad \rho(303{,}472) = 12.51\%
+\tag{32}
+$$
 
 ## Threats to Validity
 
@@ -14832,6 +14927,309 @@ whether it repaired it correctly**, and the check that decides must run afterwar
 repair. That is the same conclusion the cryptographic literature reached about encryption and
 authentication, by a route that had nothing to do with storage reliability.
 
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 32 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 32, 15 are established and 17 are bespoke.
+Arithmetic on words and syndromes is over the binary field, in which addition is exclusive-or, while counts of patterns and probabilities are ordinary integers and fractions, and the plane overhead is a ratio of bytes that is quoted both as a fraction and as a percentage.
+
+**Equation 1, Number of Fault Patterns of Each Weight.**
+The number of ways to flip a given number of bits in a sixty-four-bit word is a binomial coefficient, evaluated here for one to four flipped bits.
+
+$$
+\binom{64}{1} = 64, \quad \binom{64}{2} = 2{,}016, \quad \binom{64}{3} = 41{,}664, \quad \binom{64}{4} = 635{,}376
+\tag{1}
+$$
+
+**Equation 2, Length of the Code.**
+A codeword holds sixty-four data bits and eight check bits, so the code has length seventy-two.
+
+$$
+n = k + r = 64 + 8 = 72
+\tag{2}
+$$
+
+**Equation 3, Syndrome of a Received Word.**
+The syndrome is the product of the parity-check matrix with the received word, an eight-bit vector that depends only on the error pattern.
+[Hamming][research_hamming_1950]
+
+$$
+s(c) = H c^{\top} \in \mathbb{F}_2^{8}
+\tag{3}
+$$
+
+**Equation 4, Number of Odd-Weight Vectors.**
+Exactly half of the binary vectors of a given length have odd weight.
+
+$$
+\bigl|\{x \in \mathbb{F}_2^{r} : \mathrm{wt}(x) \text{ odd}\}\bigr| = 2^{r-1}
+\tag{4}
+$$
+
+**Equation 5, Check Bits Needed for Odd-Weight Columns.**
+A code whose parity-check columns are distinct and of odd weight needs at least as many odd-weight vectors as it has bit positions, which first holds at eight check bits for sixty-four data bits.
+[Hsiao][research_hsiao_1970]
+
+$$
+2^{r-1} \ge n = k + r
+\tag{5}
+$$
+
+**Equation 6, Column Allocation of the Odd-Weight Code.**
+The data positions take the fifty-six weight-three columns and eight weight-five columns, and the check positions take the eight unit vectors, which is the minimum-odd-weight construction.
+[Hsiao][research_hsiao_1970]
+
+$$
+\binom{8}{3} + 8 = 56 + 8 = 64 \text{ data columns}, \qquad 64 + 8 = 72 = n
+\tag{6}
+$$
+
+**Equation 7, Supply of Odd-Weight Columns.**
+Summing the binomial coefficients of the odd weights confirms that one hundred and twenty-eight odd-weight vectors of length eight are available.
+
+$$
+\binom{8}{1} + \binom{8}{3} + \binom{8}{5} + \binom{8}{7} = 8 + 56 + 56 + 8 = 128 = 2^{7}
+\tag{7}
+$$
+
+**Equation 8, Linearity of the Syndrome.**
+Because the syndrome is a matrix product over the binary field, the syndrome of a sum is the sum of the syndromes.
+
+$$
+s(c \oplus e) = s(c) \oplus s(e)
+\tag{8}
+$$
+
+**Equation 9, Syndrome Depends Only on the Error.**
+A stored codeword has zero syndrome, so the syndrome of a damaged codeword equals the syndrome of the error pattern alone.
+
+$$
+s(c \oplus e) = s(e)
+\tag{9}
+$$
+
+**Equation 10, Syndrome Decoding Rule for Single-Error Correction and Double-Error Detection.**
+A zero syndrome is reported clean, an odd syndrome equal to a column is corrected at that position, and every other non-zero syndrome is reported uncorrectable.
+[Hsiao][research_hsiao_1970]
+
+$$
+\text{classify}(s) =
+\begin{cases}
+\text{clean} & s = 0\\
+\text{correct bit } i & \mathrm{wt}(s) \text{ odd},\; s = h_i \in \mathcal{H}\\
+\text{uncorrectable} & \mathrm{wt}(s) \text{ odd},\; s \notin \mathcal{H}\\
+\text{uncorrectable} & \mathrm{wt}(s) \text{ even},\; s \neq 0
+\end{cases}
+\tag{10}
+$$
+
+**Equation 11, Parity of Weight Under Exclusive-Or.**
+The weight of the exclusive-or of two vectors has the same parity as the sum of their weights.
+
+$$
+\mathrm{wt}(a \oplus b) \equiv \mathrm{wt}(a) + \mathrm{wt}(b) \pmod 2
+\tag{11}
+$$
+
+**Equation 12, Parity of the Syndrome Equals the Parity of the Error.**
+Since every column has odd weight, the weight of the syndrome has the same parity as the number of flipped bits.
+[Hsiao][research_hsiao_1970]
+
+$$
+\mathrm{wt}\bigl(s(e)\bigr) \equiv \sum_{i \in \mathrm{supp}(e)} \mathrm{wt}(h_i) \equiv w \pmod 2
+\tag{12}
+$$
+
+**Equation 13, Correction and Detection Limit of a Code.**
+A code of minimum distance four can correct one error while detecting two only because the sum of the two capabilities is less than the distance, which leaves no margin for a third error.
+
+$$
+t + s < d, \qquad t = 1,\; s = 2,\; d = 4
+\tag{13}
+$$
+
+*Equation 14, Bespoke Uniformity Estimate of the Mis-Correction Rate.*
+Assuming that the odd syndrome of a triple fault is uniformly distributed over the odd-weight vectors predicts that the fraction of triple faults mis-corrected is the share of those vectors that are columns.
+
+$$
+\Pr[\text{mis-correct} \mid w = 3] \;\approx\; \frac{|\mathcal{H}|}{2^{r-1}} = \frac{72}{128} = 0.5625
+\tag{14}
+$$
+
+*Equation 15, Bespoke Measured Mis-Correction Rate for Triple Faults.*
+Exhaustive enumeration of the triple faults of one word for this implementation gives the fraction that the decoder mis-corrects.
+
+$$
+\frac{23{,}364}{41{,}664} = 0.5608
+\tag{15}
+$$
+
+*Equation 16, Bespoke Accounting of the Triple-Fault Enumeration.*
+The mis-corrected and refused triple faults of the enumeration sum to the number of all triple faults, which shows that the enumeration is complete.
+
+$$
+23{,}364 \ \text{mis-corrected} + 18{,}300 \ \text{refused} = 41{,}664 = \binom{64}{3}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Gap Between Prediction and Measurement.*
+The uniformity estimate of Equation 14 exceeds the measured rate of Equation 15 by less than a fifth of a percentage point.
+
+$$
+56.25\% - 56.08\% = 0.17 \ \text{percentage points}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Count of Undetectable Weight-Four Errors.*
+Enumeration of this code finds the weight-four error patterns on data positions whose syndrome is zero, which the decoder reports as clean.
+
+$$
+\bigl|\{e : \mathrm{wt}(e) = 4,\; s(e) = 0\}\bigr| = 5{,}133 \quad\text{of}\quad \binom{64}{4} = 635{,}376
+\tag{18}
+$$
+
+**Equation 19, Number of Triple Faults Within One Byte.**
+Three positions can be chosen from the eight bits of one byte in fifty-six ways.
+
+$$
+\binom{8}{3} = 56
+\tag{19}
+$$
+
+*Equation 20, Bespoke Mis-Correction Rate for Faults Confined to One Byte.*
+Enumeration of the triple faults confined to one byte finds that every one is mis-corrected, a rate nearly twice the unconditional rate of Equation 15.
+
+$$
+\Pr[\text{mis-correct} \mid w = 3, \ \text{one byte}] = 1.0000, \qquad \frac{1.0000}{0.5608} = 1.783
+\tag{20}
+$$
+
+*Equation 21, Bespoke Exactness of the Scrub.*
+The scrub of this implementation restores the honest artefact byte for byte whenever at most one bit of a word has flipped, a property measured rather than guaranteed by the code.
+
+$$
+\mathcal{S}\bigl(M \oplus e\bigr) = M \qquad \text{for all } \mathrm{wt}(e) \le 1
+\tag{21}
+$$
+
+*Equation 22, Bespoke Soundness Condition for Loading.*
+The article requires that any artefact the loader accepts installs bytes on which the signature verifies, so that what runs is what was authenticated.
+
+$$
+\text{accepted}(X) \;\Longrightarrow\; \mathrm{Ver}\bigl(\mathrm{Inst}(X)\bigr)
+\tag{22}
+$$
+
+*Equation 23, Bespoke Verify-Then-Scrub Order.*
+In the first order the loader verifies the artefact as read and then installs the scrubbed artefact.
+
+$$
+\text{verify-then-scrub}\quad \text{accept if } \mathrm{Ver}(X), \;\; \mathrm{Inst}(X) = \mathcal{S}(X)
+\tag{23}
+$$
+
+*Equation 24, Bespoke Scrub-Then-Verify Order.*
+In the second order the loader scrubs the artefact and verifies the very bytes it installs, which satisfies the soundness condition of Equation 22 by construction.
+
+$$
+\text{scrub-then-verify}\quad \text{accept if } \mathrm{Ver}\bigl(\mathcal{S}(X)\bigr), \;\; \mathrm{Inst}(X) = \mathcal{S}(X)
+\tag{24}
+$$
+
+*Equation 25, Bespoke Condition for Verify-Then-Scrub to Be Sound.*
+The first order is sound exactly when the scrub leaves unchanged every artefact on which the signature verifies, which holds at a single instant.
+
+$$
+\mathrm{Ver}(X) \;\Longrightarrow\; \mathcal{S}(X) = X
+\tag{25}
+$$
+
+*Equation 26, Bespoke Verify-Then-Scrub with Separated Times.*
+In a deployed system the verification observes the bytes at load and the scrub acts on them later, so a fault in between is installed without any check.
+
+$$
+\mathrm{Ver}(X_{t_0}) \quad\text{at load}, \qquad \mathrm{Inst} = \mathcal{S}(X_{t_1}), \quad t_1 > t_0
+\tag{26}
+$$
+
+*Equation 27, Bespoke Probability of a Silently Wrong Install.*
+The probability of installing wrong bytes reported as clean is taken as the product of the unestimated chance of a triple fault in the exposed window and the measured mis-correction rate of Equation 15, which assumes the two are independent.
+
+$$
+\Pr[\text{wrong bytes installed, reported clean}] = \Pr[F_3] \times 0.5608
+\tag{27}
+$$
+
+**Equation 28, Undetectability of an Error Equal to a Codeword.**
+An error pattern that is itself a codeword has zero syndrome, so a code of minimum distance four reports some weight-four corruptions as clean.
+
+$$
+\exists\, e,\; \mathrm{wt}(e) = 4,\; s(e) = 0 \;\Longrightarrow\; \text{the code reports } M \oplus e \text{ clean}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Size of a Padded Parity Plane.*
+Under this format's layout a region of a given number of payload bytes needs one check byte per eight-byte word, and the plane holding those check bytes is padded to a whole word.
+
+$$
+p(n) = 8 \left\lceil \frac{1}{8}\left\lceil \frac{n}{8} \right\rceil \right\rceil \text{ bytes}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Plane Overhead of an Artefact.*
+The overhead is the total size of the padded planes divided by the total payload over all protected regions, and it approaches one eighth only as the regions grow large.
+
+$$
+\rho = \frac{\sum_{i=1}^{m} p(n_i)}{\sum_{i=1}^{m} n_i}, \qquad \lim_{n \to \infty} \frac{p(n)}{n} = \frac{1}{8}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Plane Overhead of the Smallest Artefact.*
+Equation 30 is evaluated for an artefact of six hundred and eighty payload bytes and compared with the documented overhead of one eighth.
+
+$$
+\rho = \frac{136}{680} = 0.200, \qquad \frac{0.200}{0.125} = 1.60
+\tag{31}
+$$
+
+*Equation 32, Bespoke Plane Overhead Across Artefact Sizes.*
+Equation 30 is evaluated for four artefacts of increasing payload, showing the overhead falling toward the documented figure.
+
+$$
+\rho(680) = 20.0\%, \quad \rho(30{,}616) = 12.65\%, \quad \rho(110{,}904) = 12.53\%, \quad \rho(303{,}472) = 12.51\%
+\tag{32}
+$$
+
+### Notation
+
+- $\mathbb{F}_2$, the binary field, in which addition is exclusive-or
+- $\oplus$, exclusive-or, bitwise addition over the binary field
+- $n$, the code length in bits, except in Equations 29 to 32, where it is the payload of a region in bytes
+- $k$, the number of data bits in a codeword
+- $r$, the number of check bits in a codeword
+- $H$, the parity-check matrix of the code
+- $h_i$, the column of the parity-check matrix for bit position $i$
+- $\mathcal{H}$, the set of columns of the parity-check matrix
+- $s(c)$, the syndrome of a received word $c$, with $s(e)$ the syndrome of an error pattern $e$
+- $\mathrm{wt}$, the Hamming weight of a vector, its number of ones
+- $\mathrm{supp}(e)$, the set of bit positions at which the error pattern $e$ is one
+- $d = 4$, the minimum distance of the code
+- $t = 1$, the number of errors the code corrects, with $s = 2$ the number it detects
+- $w = 3$, the weight of a fault, the number of bits it flips
+- $M$, the honest artefact as the publisher produced it
+- $\mathrm{Ver}$, the predicate that the signature verifies against a candidate artefact
+- $\mathcal{S}$, the scrub, which applies every repair the code offers
+- $\mathrm{Inst}$, the bytes the loader installs and executes
+- $X_{t_0}$, the artefact's contents at the time of verification, with $X_{t_1}$ its contents at the later time of the scrub
+- $F_3$, a fault of weight three in the window between verification and scrub
+- $p(n)$, the size in bytes of the padded parity plane for a region of $n$ payload bytes
+- $\rho$, the plane overhead of an artefact, the ratio of plane bytes to payload bytes over its $m$ regions
 
 ## References
 

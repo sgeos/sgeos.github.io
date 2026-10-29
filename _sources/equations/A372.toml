@@ -1,0 +1,203 @@
+# Equation classification for A372. Read by `python3 _lib/equations.py`.
+
+caution = "Counts are numbers of aggregate operations in the measured corpus, sizes and offsets are in bytes, and implementation cost is an unquantified effort with no unit, so the cost equations state which terms are present rather than how large they are."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Partition of Aggregate Operations by Form"
+gloss = "The article partitions the aggregate operations of a corpus into three disjoint sets by the form of the operand the compiler bakes into each instruction."
+cite = []
+digest = "ffb1b8d7ae172d50"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Typed Load at a Constant Offset"
+gloss = "A field is read by adding a compile-time byte offset to a base address and loading a scalar of the stated kind from the result."
+cite = ["ref_llvm_gep"]
+digest = "ce0f4f4163780927"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Category-Anchored Estimate"
+gloss = "The estimate the article examines assumes that the cost of implementing aggregates is dominated by the cost of the general boxed form."
+cite = []
+digest = "56343937d088b75e"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Estimated Cost over the Instruction Set"
+gloss = "The estimated cost sums the implementation cost of every operand form that the instruction set defines, whether or not any program uses it."
+cite = []
+digest = "2be0b4b98b03bc8a"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Actual Cost over the Corpus"
+gloss = "The actual cost sums the implementation cost only of the operand forms that have at least one instance in the corpus."
+cite = []
+digest = "2ac77d084fefebfe"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Excess of the Estimate over the Actual Cost"
+gloss = "Subtracting Equation 5 from Equation 4 leaves exactly the costs of the forms with no instances, which the article identifies as the trace of anchoring on the category."
+cite = ["research_jorgensen_2004"]
+digest = "6ca418e75e218b08"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Measured Counts by Form"
+gloss = "The measurement evaluates the partition of Equation 1 over the corpus and finds three hundred flat operations, two nested operations and no boxed operation."
+cite = []
+digest = "8c6f30d3b10aabc6"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Measured Sizes of Constructed Aggregates"
+gloss = "The measured bodies range from eight to sixty-four bytes with a median of twenty-four, and hold between one and five values with a median of three."
+cite = []
+digest = "a4b412d87f46ef43"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Construction by Stores at Byte Offsets"
+gloss = "An aggregate in a contiguous layout is built by writing each value into the byte range that begins at its offset and spans its width."
+cite = []
+digest = "3f0cf51c38607279"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Discriminant Test of a Tagged Variant"
+gloss = "A variant is identified by loading the word at the front of the body and comparing it with a tag value fixed at compile time."
+cite = []
+digest = "98fc1988c3b05b2e"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Address of a Nested Sub-Aggregate"
+gloss = "In a contiguous layout a child body is the sub-range of its parent that starts at the child's offset and has the child's size, so no copy is needed."
+cite = []
+digest = "636790f4cb1bbd75"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Universal Claim That No Operation Is Boxed"
+gloss = "The article states as a universal claim that no aggregate operation in the corpus uses the boxed form, which a single counterexample would refute."
+cite = ["related_post_a370"]
+digest = "4d339b5d354797ee"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Decomposition of the Remaining Cost"
+gloss = "With the boxed term empty, the cost of aggregates is assembled from an arena bump allocation, constant-offset stores and loads, and an integer comparison, each of which the backend already implements."
+cite = []
+digest = "a474b2103c202a26"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Arena Requirement of Aggregate Construction"
+gloss = "Placing aggregate bodies in the arena makes their memory cost the sum of the byte sizes of all constructions, which is the quantity the worst-case memory pass already sums."
+cite = []
+digest = "946be31e6b816a2b"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Coverage of a Design That Refuses Nested Access"
+gloss = "The counts of Equation 7 give the fraction of form-carrying operations that a design handling only the flat form would cover."
+cite = []
+digest = "a80495c29ee9f5f8"
+
+[[symbol]]
+tex = '\mathcal{A}'
+meaning = "the set of aggregate operations in a corpus"
+
+[[symbol]]
+tex = '\mathcal{A}_{\mathsf{Flat}}'
+meaning = "the operations whose operand is a byte offset and a scalar kind"
+
+[[symbol]]
+tex = '\mathcal{A}_{\mathsf{Nested}}'
+meaning = "the operations that extract a byte range and re-wrap it as an aggregate"
+
+[[symbol]]
+tex = '\mathcal{A}_{\mathsf{Boxed}}'
+meaning = "the operations that use the general form with a metadata table and a heap body"
+
+[[symbol]]
+tex = '\mathrm{off}'
+meaning = "a byte offset fixed at compile time, with $\\mathrm{off}_i$ the offset of the $i$-th value"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the scalar kind of a typed load"
+
+[[symbol]]
+tex = '\mathrm{base}'
+meaning = "the address at which an aggregate body begins"
+
+[[symbol]]
+tex = 'C(f)'
+meaning = "the implementation cost of operand form $f$, with $C(\\cdot)$ the cost of whatever it is applied to"
+
+[[symbol]]
+tex = '\mathcal{F}'
+meaning = "the set of operand forms the instruction set defines"
+
+[[symbol]]
+tex = '\mathcal{A}_f'
+meaning = "the operations in the corpus that use form $f$"
+
+[[symbol]]
+tex = 'C_{\mathrm{est}}'
+meaning = "the estimated cost priced over every form the instruction set defines"
+
+[[symbol]]
+tex = 'C_{\mathrm{act}}'
+meaning = "the actual cost priced over the forms the corpus contains"
+
+[[symbol]]
+tex = '\mathbf{1}'
+meaning = "the indicator that equals one when its condition holds and zero otherwise"
+
+[[symbol]]
+tex = '\mathrm{byte\_size}'
+meaning = "the number of bytes an aggregate body occupies, the operand the memory pass sums"
+
+[[symbol]]
+tex = 'w_i'
+meaning = "the width in bytes of the $i$-th value $v_i$ written into a body"
+
+[[symbol]]
+tex = 'k'
+meaning = "the tag value that identifies a variant"
+
+[[symbol]]
+tex = '\mathrm{size}'
+meaning = "the length in bytes of a nested child body"
+
+[[symbol]]
+tex = '\Phi_{\mathsf{Boxed}}'
+meaning = "the claim that no operation in the corpus uses the boxed form"
+
+[[symbol]]
+tex = '\Delta M'
+meaning = "the arena requirement added by aggregate construction"
+
+[[symbol]]
+tex = '\mathcal{A}^{\mathrm{new}}'
+meaning = "the construction operations among the aggregate operations"

@@ -1,0 +1,347 @@
+# Equation classification for A373. Read by `python3 _lib/equations.py`.
+
+caution = "Arithmetic on words and syndromes is over the binary field, in which addition is exclusive-or, while counts of patterns and probabilities are ordinary integers and fractions, and the plane overhead is a ratio of bytes that is quoted both as a fraction and as a percentage."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Number of Fault Patterns of Each Weight"
+gloss = "The number of ways to flip a given number of bits in a sixty-four-bit word is a binomial coefficient, evaluated here for one to four flipped bits."
+cite = []
+digest = "57674bb73d05f86e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Length of the Code"
+gloss = "A codeword holds sixty-four data bits and eight check bits, so the code has length seventy-two."
+cite = []
+digest = "54ad16db521f25e9"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Syndrome of a Received Word"
+gloss = "The syndrome is the product of the parity-check matrix with the received word, an eight-bit vector that depends only on the error pattern."
+cite = ["research_hamming_1950"]
+digest = "568b13bb300113be"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Number of Odd-Weight Vectors"
+gloss = "Exactly half of the binary vectors of a given length have odd weight."
+cite = []
+digest = "1431e8450ff74539"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Check Bits Needed for Odd-Weight Columns"
+gloss = "A code whose parity-check columns are distinct and of odd weight needs at least as many odd-weight vectors as it has bit positions, which first holds at eight check bits for sixty-four data bits."
+cite = ["research_hsiao_1970"]
+digest = "451e9172826a4380"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Column Allocation of the Odd-Weight Code"
+gloss = "The data positions take the fifty-six weight-three columns and eight weight-five columns, and the check positions take the eight unit vectors, which is the minimum-odd-weight construction."
+cite = ["research_hsiao_1970"]
+digest = "6956028afa3513d8"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Supply of Odd-Weight Columns"
+gloss = "Summing the binomial coefficients of the odd weights confirms that one hundred and twenty-eight odd-weight vectors of length eight are available."
+cite = []
+digest = "db1a6331f89d109a"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Linearity of the Syndrome"
+gloss = "Because the syndrome is a matrix product over the binary field, the syndrome of a sum is the sum of the syndromes."
+cite = []
+digest = "02df49c650c8ba9b"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Syndrome Depends Only on the Error"
+gloss = "A stored codeword has zero syndrome, so the syndrome of a damaged codeword equals the syndrome of the error pattern alone."
+cite = []
+digest = "40c59e863a252142"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Syndrome Decoding Rule for Single-Error Correction and Double-Error Detection"
+gloss = "A zero syndrome is reported clean, an odd syndrome equal to a column is corrected at that position, and every other non-zero syndrome is reported uncorrectable."
+cite = ["research_hsiao_1970"]
+digest = "307a475271c0a952"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Parity of Weight Under Exclusive-Or"
+gloss = "The weight of the exclusive-or of two vectors has the same parity as the sum of their weights."
+cite = []
+digest = "4dd46df1e41cf294"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Parity of the Syndrome Equals the Parity of the Error"
+gloss = "Since every column has odd weight, the weight of the syndrome has the same parity as the number of flipped bits."
+cite = ["research_hsiao_1970"]
+digest = "e69d25af6b38939a"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Correction and Detection Limit of a Code"
+gloss = "A code of minimum distance four can correct one error while detecting two only because the sum of the two capabilities is less than the distance, which leaves no margin for a third error."
+cite = []
+digest = "2e13b131e3080450"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Uniformity Estimate of the Mis-Correction Rate"
+gloss = "Assuming that the odd syndrome of a triple fault is uniformly distributed over the odd-weight vectors predicts that the fraction of triple faults mis-corrected is the share of those vectors that are columns."
+cite = []
+digest = "3b808b62fd57ade9"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Measured Mis-Correction Rate for Triple Faults"
+gloss = "Exhaustive enumeration of the triple faults of one word for this implementation gives the fraction that the decoder mis-corrects."
+cite = []
+digest = "e959b514fda70a39"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Accounting of the Triple-Fault Enumeration"
+gloss = "The mis-corrected and refused triple faults of the enumeration sum to the number of all triple faults, which shows that the enumeration is complete."
+cite = []
+digest = "81c11dfbeb72d8fa"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Gap Between Prediction and Measurement"
+gloss = "The uniformity estimate of Equation 14 exceeds the measured rate of Equation 15 by less than a fifth of a percentage point."
+cite = []
+digest = "90fa0b3766b41afb"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Count of Undetectable Weight-Four Errors"
+gloss = "Enumeration of this code finds the weight-four error patterns on data positions whose syndrome is zero, which the decoder reports as clean."
+cite = []
+digest = "ab4ba168eaeacdcf"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Number of Triple Faults Within One Byte"
+gloss = "Three positions can be chosen from the eight bits of one byte in fifty-six ways."
+cite = []
+digest = "6c57554ed716d04e"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Mis-Correction Rate for Faults Confined to One Byte"
+gloss = "Enumeration of the triple faults confined to one byte finds that every one is mis-corrected, a rate nearly twice the unconditional rate of Equation 15."
+cite = []
+digest = "cbdc2253fea73b05"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Exactness of the Scrub"
+gloss = "The scrub of this implementation restores the honest artefact byte for byte whenever at most one bit of a word has flipped, a property measured rather than guaranteed by the code."
+cite = []
+digest = "1c8e8ec057594623"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Soundness Condition for Loading"
+gloss = "The article requires that any artefact the loader accepts installs bytes on which the signature verifies, so that what runs is what was authenticated."
+cite = []
+digest = "8035478bb9c317eb"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Verify-Then-Scrub Order"
+gloss = "In the first order the loader verifies the artefact as read and then installs the scrubbed artefact."
+cite = []
+digest = "3e62d04ebcda2349"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Scrub-Then-Verify Order"
+gloss = "In the second order the loader scrubs the artefact and verifies the very bytes it installs, which satisfies the soundness condition of Equation 22 by construction."
+cite = []
+digest = "b361a9a24502f26a"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Condition for Verify-Then-Scrub to Be Sound"
+gloss = "The first order is sound exactly when the scrub leaves unchanged every artefact on which the signature verifies, which holds at a single instant."
+cite = []
+digest = "6a04d9bd9dbb5fe5"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Verify-Then-Scrub with Separated Times"
+gloss = "In a deployed system the verification observes the bytes at load and the scrub acts on them later, so a fault in between is installed without any check."
+cite = []
+digest = "2e8faef7c645a1e7"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Probability of a Silently Wrong Install"
+gloss = "The probability of installing wrong bytes reported as clean is taken as the product of the unestimated chance of a triple fault in the exposed window and the measured mis-correction rate of Equation 15, which assumes the two are independent."
+cite = []
+digest = "44f701024840823c"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Undetectability of an Error Equal to a Codeword"
+gloss = "An error pattern that is itself a codeword has zero syndrome, so a code of minimum distance four reports some weight-four corruptions as clean."
+cite = []
+digest = "a4662fbdc6b10dad"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Size of a Padded Parity Plane"
+gloss = "Under this format's layout a region of a given number of payload bytes needs one check byte per eight-byte word, and the plane holding those check bytes is padded to a whole word."
+cite = []
+digest = "15485bfefaef564e"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Plane Overhead of an Artefact"
+gloss = "The overhead is the total size of the padded planes divided by the total payload over all protected regions, and it approaches one eighth only as the regions grow large."
+cite = []
+digest = "a46a10ef66eba6ea"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Plane Overhead of the Smallest Artefact"
+gloss = "Equation 30 is evaluated for an artefact of six hundred and eighty payload bytes and compared with the documented overhead of one eighth."
+cite = []
+digest = "0876b9a4743c7b16"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Plane Overhead Across Artefact Sizes"
+gloss = "Equation 30 is evaluated for four artefacts of increasing payload, showing the overhead falling toward the documented figure."
+cite = []
+digest = "33c7bbeeac908ad2"
+
+[[symbol]]
+tex = '\mathbb{F}_2'
+meaning = "the binary field, in which addition is exclusive-or"
+
+[[symbol]]
+tex = '\oplus'
+meaning = "exclusive-or, bitwise addition over the binary field"
+
+[[symbol]]
+tex = 'n'
+meaning = "the code length in bits, except in Equations 29 to 32, where it is the payload of a region in bytes"
+
+[[symbol]]
+tex = 'k'
+meaning = "the number of data bits in a codeword"
+
+[[symbol]]
+tex = 'r'
+meaning = "the number of check bits in a codeword"
+
+[[symbol]]
+tex = 'H'
+meaning = "the parity-check matrix of the code"
+
+[[symbol]]
+tex = 'h_i'
+meaning = "the column of the parity-check matrix for bit position $i$"
+
+[[symbol]]
+tex = '\mathcal{H}'
+meaning = "the set of columns of the parity-check matrix"
+
+[[symbol]]
+tex = 's(c)'
+meaning = "the syndrome of a received word $c$, with $s(e)$ the syndrome of an error pattern $e$"
+
+[[symbol]]
+tex = '\mathrm{wt}'
+meaning = "the Hamming weight of a vector, its number of ones"
+
+[[symbol]]
+tex = '\mathrm{supp}(e)'
+meaning = "the set of bit positions at which the error pattern $e$ is one"
+
+[[symbol]]
+tex = 'd = 4'
+meaning = "the minimum distance of the code"
+
+[[symbol]]
+tex = 't = 1'
+meaning = "the number of errors the code corrects, with $s = 2$ the number it detects"
+
+[[symbol]]
+tex = 'w = 3'
+meaning = "the weight of a fault, the number of bits it flips"
+
+[[symbol]]
+tex = 'M'
+meaning = "the honest artefact as the publisher produced it"
+
+[[symbol]]
+tex = '\mathrm{Ver}'
+meaning = "the predicate that the signature verifies against a candidate artefact"
+
+[[symbol]]
+tex = '\mathcal{S}'
+meaning = "the scrub, which applies every repair the code offers"
+
+[[symbol]]
+tex = '\mathrm{Inst}'
+meaning = "the bytes the loader installs and executes"
+
+[[symbol]]
+tex = 'X_{t_0}'
+meaning = "the artefact's contents at the time of verification, with $X_{t_1}$ its contents at the later time of the scrub"
+
+[[symbol]]
+tex = 'F_3'
+meaning = "a fault of weight three in the window between verification and scrub"
+
+[[symbol]]
+tex = 'p(n)'
+meaning = "the size in bytes of the padded parity plane for a region of $n$ payload bytes"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the plane overhead of an artefact, the ratio of plane bytes to payload bytes over its $m$ regions"

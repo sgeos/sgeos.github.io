@@ -2,6 +2,7 @@
 """The Equations section, an index of every display equation in a post, classified.
 
     python3 _lib/equations.py check POST         # drift between the body, the data and the section
+    python3 _lib/equations.py unfold POST [--write] # rewrite single-line `$$...$$` as `$$` blocks
     python3 _lib/equations.py tag POST [--write] # number the body equations with \\tag{n}
     python3 _lib/equations.py write POST         # regenerate the section from the data file
     python3 _lib/equations.py stamp POST         # record the current digest of every equation
@@ -191,6 +192,25 @@ def blocks(text):
     return out
 
 
+def unseparated(text):
+    """Line numbers of display equations that touch a non-blank line above or below.
+
+    Kramdown reads such a block as part of the adjoining paragraph and renders it
+    as inline math, so the reader sees an equation run into the prose. Its
+    `\\tag` is then a MathJax error, because a tag is not allowed in inline math.
+    The delimiters balance and the markup resolves, so `render.py` cannot see it.
+    """
+    before = split_section(text)[0]
+    lines = post.strip_code_keeping_lines(before).split("\n")
+    out = []
+    for line, latex in blocks(text):
+        first = line - 1
+        last = first if re.fullmatch(r"\$\$(.+)\$\$", lines[first]) else first + latex.count("\n") + 2
+        if (first > 0 and lines[first - 1].strip()) or (last + 1 < len(lines) and lines[last + 1].strip()):
+            out.append(line)
+    return out
+
+
 def untagged(latex):
     """The equation without its tag line, which is what a digest describes."""
     return "\n".join(l for l in latex.split("\n") if not TAG_LINE.match(l))
@@ -201,11 +221,15 @@ def digest(latex):
 
 
 def body_labels(text):
-    """{anchor: label} for the first `[label][anchor]` of each anchor in the body."""
+    """{anchor: label} for the first `[label][anchor]` of each anchor in the body.
+
+    Link text may be wrapped over several source lines, as reflowed prose often
+    is, so the label may span line breaks and is rejoined with single spaces.
+    """
     body = post.strip_code(split_section(text)[0])
     out = {}
-    for label, anchor in re.findall(rf"\[([^\]\n]+)\]\[({post.ANCHOR})\]", post.strip_math(body)):
-        out.setdefault(anchor, label)
+    for label, anchor in re.findall(rf"\[([^\[\]]+)\]\[({post.ANCHOR})\]", post.strip_math(body)):
+        out.setdefault(anchor, " ".join(label.split()))
     return out
 
 
@@ -252,6 +276,9 @@ def check(text, data, section=True):
         tags = TAG.findall(latex)
         if tags != [str(n)]:
             problems.append(f"line {line}: equation {n} carries tags {tags}, expected [{str(n)!r}]")
+    for line in unseparated(text):
+        problems.append(f"line {line}: display equation touches the text beside it; "
+                        f"add a blank line, or it renders as inline math")
     entries = data["equation"]
     if len(entries) != len(eqs):
         problems.append(f"the body has {len(eqs)} display equations and the data file {len(entries)} entries")
@@ -302,6 +329,26 @@ def check_article(path, text=None):
     if not has_section:
         return [f"{os.path.relpath(dpath, ROOT)} exists and the post has no Equations section; run write"]
     return check(text, data)
+
+
+def unfolded(text):
+    """The post with every single-line body equation rewritten as a `$$` block.
+
+    Tagging needs the block form, because the tag goes on a line of its own. The
+    rewrite moves line breaks only, so the equation's text and its digest are
+    unchanged and the rendered mathematics is the same. An equation that already
+    carries a tag on its one line is refused, since splitting the tag out is a
+    judgement about where the equation ends.
+    """
+    lines = text.split("\n")
+    for line, latex in reversed(blocks(text)):
+        start = line - 1
+        if lines[start] == "$$":
+            continue
+        if TAG.search(latex):
+            raise EquationError(f"line {line}: a single-line equation already carries a tag")
+        lines[start:start + 1] = ["$$", latex, "$$"]
+    return "\n".join(lines)
 
 
 def tagged(text):
@@ -358,8 +405,8 @@ def _write(path, text):
 
 def main(argv):
     args = argv[1:]
-    usage = "usage: equations.py {check|tag|write|stamp|skeleton} POST [--write]"
-    if len(args) < 2 or args[0] not in ("check", "tag", "write", "stamp", "skeleton"):
+    usage = "usage: equations.py {check|unfold|tag|write|stamp|skeleton} POST [--write]"
+    if len(args) < 2 or args[0] not in ("check", "unfold", "tag", "write", "stamp", "skeleton"):
         print(usage)
         return 2
     cmd, path = args[0], args[1]
@@ -368,6 +415,13 @@ def main(argv):
             text = fh.read()
         if cmd == "skeleton":
             print(skeleton(text))
+            return 0
+        if cmd == "unfold":
+            out = unfolded(text)
+            n = len(out.split("\n")) - len(text.split("\n"))
+            if "--write" in args and out != text:
+                _write(path, out)
+            print(f"{'unfolded' if '--write' in args else 'would unfold'} {n // 2} equation(s) in {path}")
             return 0
         if cmd == "tag":
             out = tagged(text)

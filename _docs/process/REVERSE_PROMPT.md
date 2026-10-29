@@ -4,8 +4,46 @@
 
 ## Last Updated
 
+**Date**: 2026-10-29 (first entry)
+**Task**: **A369 to A383 were brought to the Equations section format, and `8d45192`, which applied it to A384, was pushed and deployed. The pilot reviewed and approved the classifications. Pushed on the pilot's instruction.**
+
+**What changed.** Each of the fifteen articles now numbers every display equation in its body and ends its body with a generated Equations section before References. Each has a classification file, `_sources/equations/A369.toml` to `A383.toml`. The 158 single-line equations in A369 to A373 were first rewritten as `$$` blocks by the new `unfold` command. A comparison of every post against the previous commit confirms that the body changed only by those line breaks, the tag lines and six blank lines described below.
+
+| Group | Articles | Equations | Standard | Bespoke |
+|---|---|---|---|---|
+| Keleusma research spikes | A369 to A373 | 159 | 55 | 104 |
+| War with China | A374 to A376 | 227 | 186 | 41 |
+| Strategic fragrance application | A377 | 45 | 10 | 35 |
+| Corporate strategy | A378 to A380 | 23 | 14 | 9 |
+| Space propulsion | A381 to A383 | 97 | 85 | 12 |
+
+**A384 revised.** Equation 21, the departure speed after a face-on perihelion pass, is now standard, matching A382 Equation 14, so A384 has 18 standard and 7 bespoke equations.
+
+**Two rules applied across articles, for the pilot to confirm.** Reducing a range to its midpoint makes an equation bespoke, which moved A375 tag 7 and A376 tag 76. A face-on perihelion departure is standard, which moved A382 tag 14 and A384 tag 21.
+
+**A defect found in the browser and fixed.** Six display blocks in A373, A381, A382, A383 and A384 touched the prose line beside them. Kramdown had already rendered them as inline math before this work, so readers saw the equation run into the sentence, and the tag made each one a MathJax error. A blank line was added at each site, which changes neither the equation nor the prose. A384 is live with one such error until this commit is pushed. `equations.py check` now fails such a block. `_verify.py`'s `math-display-inlined` check catches only `$$` sharing a line with prose and misses this form.
+
+**Outside the scope, not changed.** The same form occurs once elsewhere, at `_posts/2016-09-03-trigonometry.markdown:142`, which renders that equation inline on the live site. It needs the pilot's word, and promoting the check to `_verify.py` would fail the gate until it is fixed.
+
+**Page weight.** The section adds 33 KB to A374, 34 KB to A375 and 36 KB to A376, which is 16.3, 10.9 and 10.3 percent. Across the fifteen articles the increase runs from 0.2 percent in A373, a 7 MB page, to 16.3 percent in A374.
+
+**Browser inspection.** Every page was loaded in headless Chrome from a local production build and read after MathJax had run. Each draws exactly twice as many equation labels as it has equations, one in the body and one in the section, and none carries a MathJax error. Screenshots through the Chrome extension were not available in this session.
+
+**Findings for the pilot, not changed.**
+- A369 Equation 23. The prose calls the blocking sets very far from disjoint, but under the article's own definitions the singleton blocking sets are always pairwise disjoint, so the first inequality is an equality.
+- A371 Equation 16 normalises by the pairs strictly ordered by the bound, which is Somers' d in form rather than the classical Kendall's tau. The gloss says so.
+- A373 Equation 13, A375 tag 40 and A382 Equation 13 carry no citation, because the article does not cite the source nearby.
+- A378 to A380 use different symbols for the same quantities. Unifying them would need prose edits.
+- The least certain classifications are A369 Equations 1 to 4, 12, 13 and 37, A376 tags 3, 5, 28 to 35 and 46, A377 Equations 2, 9 and 16 to 19, and A384 Equations 10 and 22.
+
+**Environment.** MacPorts Ruby 3.3 was missing on 2026-10-28 and was reinstalled by the pilot before the build.
+
+**Verification.** `equations.py check` reports all sixteen articles consistent. `test_lib.py` 175 of 175, with two new tests for `unfold` and wrapped citation labels and one for the separation rule, and `test_sources.py` 91 of 91. `./_check.sh --weights` passed, with `_verify.py` at 0 errors and 0 warnings over 384 posts, a clean production build, and the rendered audit clean over 551 pages with 253 carrying display math.
+
+## Previous Report (2026-10-28, first entry)
+
 **Date**: 2026-10-28 (first entry)
-**Task**: **A generated Equations section, classifying each display equation as standard or bespoke, was added to the library and applied to A384. Committed, not pushed, awaiting the pilot's instruction.**
+**Task**: **A generated Equations section, classifying each display equation as standard or bespoke, was added to the library and applied to A384. Pushed on the pilot's instruction and deployed.**
 
 **What was built.** `_lib/equations.py`, also run as `python3 _lib/blog.py equations`, has five commands.
 - `tag` numbers the body's display equations `\tag{1}` to `\tag{N}`, ignoring any inside code fences.

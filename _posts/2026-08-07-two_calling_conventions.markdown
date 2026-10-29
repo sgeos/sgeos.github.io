@@ -105,7 +105,10 @@ Let $W$ denote the machine word type, so that $\lvert W \rvert = 2^{64}$ on the 
 denote the set of coroutine **chunks**, a chunk being one compiled unit of code, partitioned by the type
 checker into
 
-$$K = K_\Sigma \;\sqcup\; K_\Upsilon$$
+$$
+K = K_\Sigma \;\sqcup\; K_\Upsilon
+\tag{1}
+$$
 
 where $K_\Sigma$ are the divergent stream chunks and $K_\Upsilon$ the terminating ones. Write $\lvert
 K_\Sigma \rvert = 24$ and $\lvert K_\Upsilon \rvert = 1$ for the present corpus.
@@ -115,11 +118,17 @@ An execution of a chunk is driven by an initial argument $a \in W$ and a sequenc
 \mathsf{F}(w)\}$ in which $\mathsf{Y}$ marks a suspension carrying $v$ and $\mathsf{F}$ a completion
 carrying $w$. For a terminating chunk with $n$ suspensions the trace is finite and ends in a completion,
 
-$$\mathcal{T}_\Upsilon(k, a, \vec{r}) \;=\; \bigl\langle\, \mathsf{Y}(v_1),\, \mathsf{Y}(v_2),\, \ldots,\, \mathsf{Y}(v_n),\, \mathsf{F}(w) \,\bigr\rangle$$
+$$
+\mathcal{T}_\Upsilon(k, a, \vec{r}) \;=\; \bigl\langle\, \mathsf{Y}(v_1),\, \mathsf{Y}(v_2),\, \ldots,\, \mathsf{Y}(v_n),\, \mathsf{F}(w) \,\bigr\rangle
+\tag{2}
+$$
 
 while for a divergent chunk it is infinite and contains no completion at all,
 
-$$\mathcal{T}_\Sigma(k, a, \vec{r}) \;=\; \bigl\langle\, \mathsf{Y}(v_0),\, \mathsf{Y}(v_1),\, \mathsf{Y}(v_2),\, \ldots \,\bigr\rangle.$$
+$$
+\mathcal{T}_\Sigma(k, a, \vec{r}) \;=\; \bigl\langle\, \mathsf{Y}(v_0),\, \mathsf{Y}(v_1),\, \mathsf{Y}(v_2),\, \ldots \,\bigr\rangle.
+\tag{3}
+$$
 
 **That asymmetry is the entire article.** The two trace shapes differ not in length but in **alphabet**. One
 uses both letters and the other uses one.
@@ -249,7 +258,10 @@ because the deficiency is in the calling convention and not in the chunk.
 The convention has no resumption point. The host drives the chunk by calling a plain function again, passing
 the resume value as the argument, so the sequence the host executes is
 
-$$f(a) = v_0, \qquad f(r_1) = v_1, \qquad f(r_2) = v_2, \qquad \ldots$$
+$$
+f(a) = v_0, \qquad f(r_1) = v_1, \qquad f(r_2) = v_2, \qquad \ldots
+\tag{4}
+$$
 
 **and $f$ carries nothing between calls.** For a divergent chunk that is exactly right, because the reset
 instruction rewinds to the same place and clears every local, so re-entering from the top is what resumption
@@ -266,23 +278,35 @@ the processor's few named storage slots, so $\mathrm{chan}(\varepsilon_{\mathrm{
 must convey both $v$ and $w$ from one call, so $\mathrm{obs}(k) = 2$. An encoding faithful to the trace must
 therefore be an injection
 
-$$\varepsilon_{\mathrm{ret}} : W \times W \;\longrightarrow\; W$$
+$$
+\varepsilon_{\mathrm{ret}} : W \times W \;\longrightarrow\; W
+\tag{5}
+$$
 
 and no such injection exists whenever $\lvert W \rvert \ge 2$, by cardinality,
 
-$$\lvert W \times W \rvert \;=\; \lvert W \rvert^{2} \;=\; 2^{128} \;>\; 2^{64} \;=\; \lvert W \rvert.$$
+$$
+\lvert W \times W \rvert \;=\; \lvert W \rvert^{2} \;=\; 2^{128} \;>\; 2^{64} \;=\; \lvert W \rvert.
+\tag{6}
+$$
 
 **The same statement in bits is the one that generalises**, and it is the elementary case of the
 channel-capacity argument [Shannon 1948][research_shannon_1948] introduced. An interface of $m$ machine
 words carries $64m$ bits and a trace of $k$ words needs $64k$, so a faithful encoding requires
 
-$$64k \;\le\; 64m \qquad \Longleftrightarrow \qquad k \;\le\; m,$$
+$$
+64k \;\le\; 64m \qquad \Longleftrightarrow \qquad k \;\le\; m,
+\tag{7}
+$$
 
 and here $k = 2$ against $m = 1$. **The shortfall is 64 bits**, which is to say a whole second word.
 
 The general statement is immediate. For any chunk $k$ and convention $\varepsilon$,
 
-$$\mathrm{obs}(k) \;>\; \mathrm{chan}(\varepsilon) \quad\Longrightarrow\quad \varepsilon \text{ is not injective on } \mathcal{T}(k),$$
+$$
+\mathrm{obs}(k) \;>\; \mathrm{chan}(\varepsilon) \quad\Longrightarrow\quad \varepsilon \text{ is not injective on } \mathcal{T}(k),
+\tag{8}
+$$
 
 and a non-injective encoding is one in which two distinct executions become indistinguishable to the host,
 which is precisely what it means for a lowering to be wrong.
@@ -292,7 +316,10 @@ A terminating chunk with $n$ suspensions emits $n$ yielded values and one comple
 $n+1$ words and the executions it can distinguish number $\lvert W \rvert^{\,n+1}$. The single call it is
 granted distinguishes $\lvert W \rvert$ of them, so the collapse factor is
 
-$$\frac{\lvert W \rvert^{\,n+1}}{\lvert W \rvert} \;=\; \lvert W \rvert^{\,n},$$
+$$
+\frac{\lvert W \rvert^{\,n+1}}{\lvert W \rvert} \;=\; \lvert W \rvert^{\,n},
+\tag{9}
+$$
 
 which is catastrophic at every $n$ and no worse in kind at $n = 9$ than at $n = 1$.
 **The smallest instance was therefore the right one to check**, and checking a larger one would have added
@@ -310,7 +337,10 @@ returns a two-eightbyte aggregate in the register pair `RAX:RDX`, and [AAPCS64][
 aggregates in `X0` and `X1`. So $\mathrm{chan}(\varepsilon_{\mathrm{ret}})$ is a property of the chosen
 signature rather than a constant of the machine, and the honest statement is conditional.
 
-$$\mathrm{chan}(\varepsilon_{\mathrm{ret}}) = 1 \;\text{ if the return type is } W, \qquad \mathrm{chan}(\varepsilon_{\mathrm{ret}}) = 2 \;\text{ if it is } W \times W.$$
+$$
+\mathrm{chan}(\varepsilon_{\mathrm{ret}}) = 1 \;\text{ if the return type is } W, \qquad \mathrm{chan}(\varepsilon_{\mathrm{ret}}) = 2 \;\text{ if it is } W \times W.
+\tag{10}
+$$
 
 Under a two-word return the injection $\varepsilon : W \times W \to W \times W$ exists trivially, and the
 unification this article rejects becomes **representable**.
@@ -319,7 +349,10 @@ unification this article rejects becomes **representable**.
 Cramming both events into one call needs the pair $W \times W$, which is 128 bits against 64,
 **a shortfall of a whole word**. Making the convention re-entrant with a discriminator needs only
 
-$$\lvert \{\mathsf{Y}, \mathsf{F}\} \times W \rvert \;=\; 2 \cdot 2^{64} \;=\; 2^{65},$$
+$$
+\lvert \{\mathsf{Y}, \mathsf{F}\} \times W \rvert \;=\; 2 \cdot 2^{64} \;=\; 2^{65},
+\tag{11}
+$$
 
 **a shortfall of exactly one bit.** That single bit is what forces a second register, since $\lceil 65 / 64
 \rceil = 2$, and it is the whole reason the register-pair rules in the two application binary interfaces
@@ -331,7 +364,10 @@ the backend currently emits*, not for all time.
 That distinction matters and it was not visible from inside the problem. It surfaces a **third option** ,
 which is to widen every coroutine entry point so that it returns a discriminated pair,
 
-$$f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W\,)$$
+$$
+f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W\,)
+\tag{12}
+$$
 
 so that one convention carries both trace alphabets.
 
@@ -350,7 +386,10 @@ and with what state. That is a continuation, and it is what
 returned-continuation family exists because returning a value at a suspension is not sufficient on its own.
 The general interface is a triple,
 
-$$f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W,\; \mathsf{cont}\,)$$
+$$
+f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W,\; \mathsf{cont}\,)
+\tag{13}
+$$
 
 and the continuation implies an allocation for the saved frame whose lifetime spans host execution, which is
 the very property this option was credited with preserving.
@@ -367,12 +406,18 @@ Writing $c_{\mathrm{tag}}$ for the per-call cost of the discriminator, $c_{\math
 amortised cost of allocating and reclaiming the saved frame, and $c_{\mathrm{meta}}$ for the one-off cost
 of declaring and dispatching two conventions, the totals over $N$ calls are
 
-$$C_{\mathrm{one}} = (c_{\mathrm{tag}} + c_{\mathrm{frame}}) N, \qquad C_{\mathrm{two}} = c_{\mathrm{meta}},$$
+$$
+C_{\mathrm{one}} = (c_{\mathrm{tag}} + c_{\mathrm{frame}}) N, \qquad C_{\mathrm{two}} = c_{\mathrm{meta}},
+\tag{14}
+$$
 
 where $c_{\mathrm{frame}} = 0$ only for coroutines that suspend at most once per call, so the widened
 return is cheaper only below
 
-$$N^{*} \;=\; \frac{c_{\mathrm{meta}}}{c_{\mathrm{tag}} + c_{\mathrm{frame}}}.$$
+$$
+N^{*} \;=\; \frac{c_{\mathrm{meta}}}{c_{\mathrm{tag}} + c_{\mathrm{frame}}}.
+\tag{15}
+$$
 
 **The frame term moves the crossover down**, which strengthens rather than weakens the observation that
 follows.
@@ -394,7 +439,10 @@ call.
 **The sentinel form has a hazard the tagged form does not**, and it is worth naming because the narrow
 encoding is the tempting one here. Carving a reserved value out of $W$ shrinks the value space to
 
-$$\lvert W \rvert - 1 \;=\; 2^{64} - 1 \;=\; 18{,}446{,}744{,}073{,}709{,}551{,}615,$$
+$$
+\lvert W \rvert - 1 \;=\; 2^{64} - 1 \;=\; 18{,}446{,}744{,}073{,}709{,}551{,}615,
+\tag{16}
+$$
 
 which is 18,446,744,073,709,551,615 usable values, a loss of $2^{-64}$ or about $5.421 \times 10^{-20}$ of
 the space, and any program able to produce the reserved value as a legitimate yield becomes unrepresentable.
@@ -418,12 +466,18 @@ A `loop` function never completes. The reset instruction rewinds and returns con
 is no completion event at all. The count of observable events is one, the count of channels is one, and the
 convention fits exactly,
 
-$$\mathrm{obs}(k) = 1 = \mathrm{chan}(\varepsilon_{\mathrm{ret}}) \qquad \text{for all } k \in K_\Sigma \text{ admitted below,}$$
+$$
+\mathrm{obs}(k) = 1 = \mathrm{chan}(\varepsilon_{\mathrm{ret}}) \qquad \text{for all } k \in K_\Sigma \text{ admitted below,}
+\tag{17}
+$$
 
 so the required encoding is $\varepsilon_{\mathrm{ret}} : W \to W$, for which the identity suffices. The
 host drives the chunk by iterating the native function, and the correspondence with the virtual machine is
 
-$$f(a) = v_0, \qquad f(r_k) = v_k \;\; (k \ge 1),$$
+$$
+f(a) = v_0, \qquad f(r_k) = v_k \;\; (k \ge 1),
+\tag{18}
+$$
 
 with **no distinguished first call**, because iteration zero consumes the call argument and iteration $k$
 consumes the $k$-th resume value, exactly as the virtual machine does when it writes the resume value into
@@ -472,18 +526,27 @@ Write $\delta(\iota) \in \mathbb{Z}$ for the net operand-stack effect of an inst
 $\mathrm{eff}(\iota)$ for its set of side effects. For a tail segment $\pi$ following a suspension, the
 property that actually licenses the transformation is
 
-$$\Delta(\pi) \;=\; \sum_{\iota \in \pi} \delta(\iota) \;=\; -1 \qquad \text{and} \qquad \mathrm{eff}(\pi) \;=\; \varnothing,$$
+$$
+\Delta(\pi) \;=\; \sum_{\iota \in \pi} \delta(\iota) \;=\; -1 \qquad \text{and} \qquad \mathrm{eff}(\pi) \;=\; \varnothing,
+\tag{19}
+$$
 
 the $-1$ recording that the segment consumes exactly the resume value the suspension pushed and nothing
 else. Both candidate tails satisfy it.
 
-$$\Delta\bigl(\langle \mathtt{PopN(1)} \rangle\bigr) = -1, \qquad \Delta\bigl(\langle \mathtt{PopN(1)},\, \mathtt{Const(0)},\, \mathtt{PopN(1)} \rangle\bigr) = -1 + 1 - 1 = -1.$$
+$$
+\Delta\bigl(\langle \mathtt{PopN(1)} \rangle\bigr) = -1, \qquad \Delta\bigl(\langle \mathtt{PopN(1)},\, \mathtt{Const(0)},\, \mathtt{PopN(1)} \rangle\bigr) = -1 + 1 - 1 = -1.
+\tag{20}
+$$
 
 The shipped rule instead tests membership in a fixed instruction set $A = \{\mathtt{PopN(1)}\} \cup D$, with
 $D$ the block delimiters. Let $P$ denote the set of tail segments satisfying the property and $R$ the set
 the rule admits. The rule is **sound but not complete**,
 
-$$R \;\subsetneq\; P, \qquad \lvert P \setminus R \rvert \;\ge\; 10,$$
+$$
+R \;\subsetneq\; P, \qquad \lvert P \setminus R \rvert \;\ge\; 10,
+\tag{21}
+$$
 
 and the containment is what makes the defect a coverage loss rather than a correctness loss. The property is
 **effect-free and stack-neutral**. The rule is **drawn from a list of two instructions**. Those coincide on
@@ -501,7 +564,10 @@ nobody chose. **That is a worse position than the classical one and an easier on
 than admits. The cost is coverage. Writing $R$ for what the rule admits and $P$ for what the property
 licenses,
 
-$$\frac{\lvert R \rvert}{\lvert K_\Sigma \rvert} \;=\; \frac{14}{24} \;=\; 58.33\%, \qquad \frac{\lvert P \rvert}{\lvert K_\Sigma \rvert} \;=\; \frac{24}{24} \;=\; 100\%,$$
+$$
+\frac{\lvert R \rvert}{\lvert K_\Sigma \rvert} \;=\; \frac{14}{24} \;=\; 58.33\%, \qquad \frac{\lvert P \rvert}{\lvert K_\Sigma \rvert} \;=\; \frac{24}{24} \;=\; 100\%,
+\tag{22}
+$$
 
 so **41.67 percent of the corpus is refused the cheap convention for no reason**, and ten stream chunks that
 could use it currently do not. The fix is a small generalisation and it is not attempted here, because this
@@ -529,7 +595,10 @@ suspension. A linear scan answers a question nobody asked.
 Suspension nesting is summarised by the enclosing block stack. Writing $B(y)$ for the stack of open blocks
 at suspension $y$, the distinction that matters is
 
-$$\mathrm{join}(y) \iff \mathtt{Loop} \notin B(y),$$
+$$
+\mathrm{join}(y) \iff \mathtt{Loop} \notin B(y),
+\tag{23}
+$$
 
 a suspension that is a control-flow join rather than one crossing a back edge. For the nested chunk the
 measurement is $\mathrm{join}(y)$ for all $19$ of its suspensions, at depths $\lvert B(y) \rvert$ ranging
@@ -539,7 +608,10 @@ Equivalence between the two lowerings is checked by a differential oracle agains
 machine, comparing **whole sequences of yielded values** rather than final results. Writing
 $\mathcal{Y}(\cdot)$ for the projection of a trace onto its suspension letters, the assertion is
 
-$$\mathcal{Y}\bigl(\mathcal{T}^{\mathrm{vm}}(k, a, \vec{r})\bigr)_{1:n} \;=\; \mathcal{Y}\bigl(\mathcal{T}^{\mathrm{nat}}(k, a, \vec{r})\bigr)_{1:n}$$
+$$
+\mathcal{Y}\bigl(\mathcal{T}^{\mathrm{vm}}(k, a, \vec{r})\bigr)_{1:n} \;=\; \mathcal{Y}\bigl(\mathcal{T}^{\mathrm{nat}}(k, a, \vec{r})\bigr)_{1:n}
+\tag{24}
+$$
 
 for a caller-supplied bound $n$, over a finite sample of $\vec{r}$. A stream never produces a final result,
 so a comparison of final results would be vacuous for exactly the class under study, and the truncation at
@@ -633,30 +705,45 @@ upstream.
 **Evidence about instances cannot repair a defect in an interface.** This is the sharper half, and the
 reason is a quantifier. Admissibility of a unification is a universal claim over the class,
 
-$$\Phi \;\equiv\; \forall b \in \mathcal{B} : \; \mathrm{obs}(b) \le \mathrm{chan}(\iota),$$
+$$
+\Phi \;\equiv\; \forall b \in \mathcal{B} : \; \mathrm{obs}(b) \le \mathrm{chan}(\iota),
+\tag{25}
+$$
 
 whose negation is existential,
 
-$$\neg\Phi \;\equiv\; \exists b \in \mathcal{B} : \; \mathrm{obs}(b) > \mathrm{chan}(\iota).$$
+$$
+\neg\Phi \;\equiv\; \exists b \in \mathcal{B} : \; \mathrm{obs}(b) > \mathrm{chan}(\iota).
+\tag{26}
+$$
 
 **A single witness refutes $\Phi$, and no quantity of confirming instances establishes it.** The
 nine-out-of-nine figure has the form of a frequency $\hat{p} = 9/9 = 1$ over observed shapes, and a
 frequency estimates a proportion. It does not bound a maximum, and $\Phi$ is a statement about a maximum,
 
-$$\Phi \iff \max_{b \in \mathcal{B}} \mathrm{obs}(b) \le \mathrm{chan}(\iota).$$
+$$
+\Phi \iff \max_{b \in \mathcal{B}} \mathrm{obs}(b) \le \mathrm{chan}(\iota).
+\tag{27}
+$$
 
 **The measurement is weak even taken on its own terms, and it is worth putting a number on how weak.**
 Reading nine successes from nine trials as a sampling exercise, the exact one-sided lower confidence bound
 of [Clopper and Pearson 1934][research_clopper_pearson_1934] on the underlying proportion at confidence $1 -
 \alpha$ is
 
-$$p_{\min} \;=\; \alpha^{1/n} \;=\; 0.05^{1/9} \;=\; 0.7169,$$
+$$
+p_{\min} \;=\; \alpha^{1/n} \;=\; 0.05^{1/9} \;=\; 0.7169,
+\tag{28}
+$$
 
 so **the observation is consistent with 28.31 percent of cases failing**, and at 99 percent confidence the
 bound falls to 0.5995. A run of twenty-four would give 0.8827 and still leave 11.73 percent unexcluded, and
 licensing a claim of 0.99 at the same confidence would need
 
-$$n \;=\; \frac{\ln \alpha}{\ln 0.99} \;=\; 299$$
+$$
+n \;=\; \frac{\ln \alpha}{\ln 0.99} \;=\; 299
+\tag{29}
+$$
 
 consecutive successes. **Nine is not a large number and the arithmetic says so.** The case of no observed
 failures is the one [Hanley and Lippman-Hand 1983][research_hanley_lippmanhand_1983] treat under the heading
@@ -711,12 +798,18 @@ definitive worst-case memory.
 The memory difference is the one that can be stated exactly. Let $L(\varepsilon)$ denote the set of native
 frames live while host code executes between suspensions. Then
 
-$$L(\varepsilon_{\mathrm{ret}}) = \varnothing, \qquad L(\varepsilon_{\mathrm{cb}}) = \{\, \mathrm{frame}(k) \,\} \cup \{\, \mathrm{frame}(c) : c \in \mathrm{callers}(k) \,\},$$
+$$
+L(\varepsilon_{\mathrm{ret}}) = \varnothing, \qquad L(\varepsilon_{\mathrm{cb}}) = \{\, \mathrm{frame}(k) \,\} \cup \{\, \mathrm{frame}(c) : c \in \mathrm{callers}(k) \,\},
+\tag{30}
+$$
 
 because the return convention has ended the call by the time the host runs and the callback convention has
 not. The worst-case native stack bound therefore differs by
 
-$$\Delta M \;=\; \sum_{\phi \in L(\varepsilon_{\mathrm{cb}})} \mathrm{size}(\phi),$$
+$$
+\Delta M \;=\; \sum_{\phi \in L(\varepsilon_{\mathrm{cb}})} \mathrm{size}(\phi),
+\tag{31}
+$$
 
 a quantity that is bounded and computable but **charged for the whole duration of host activity**, which the
 analysis does not bound. Under the return convention that term is identically zero.
@@ -724,7 +817,10 @@ analysis does not bound. Under the return convention that term is identically ze
 The host-interaction counts also differ. Writing $s$ for suspensions per iteration, the native call counts
 per iteration are
 
-$$\tau_{\mathrm{ret}} = 1, \qquad \tau_{\mathrm{cb}} = 1 + s,$$
+$$
+\tau_{\mathrm{ret}} = 1, \qquad \tau_{\mathrm{cb}} = 1 + s,
+\tag{32}
+$$
 
 against a virtual-machine baseline of two host round-trips per iteration, since the reset instruction
 returns control separately from the suspension. Every stream chunk in the corpus has $s = 1$.
@@ -3121,6 +3217,304 @@ The article also reports a rule shipped one increment earlier that is stricter t
 refusing ten of twenty-four cases whose tail sequence is provably harmless. It was found by building a
 table, not by running a test, which is now the second such finding in this series and no longer looks like a
 coincidence.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 32 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 32, 9 are established and 23 are bespoke.
+Cardinalities are counts of distinguishable values of the 64-bit machine word type, so a power of two here counts values while a multiple of sixty-four counts bits, and the two are related by a logarithm rather than by a factor.
+
+*Equation 1, Bespoke Partition of Chunks by Termination.*
+The article partitions the compiled coroutine chunks into divergent stream chunks and terminating chunks, the distinction the type checker already enforces.
+
+$$
+K = K_\Sigma \;\sqcup\; K_\Upsilon
+\tag{1}
+$$
+
+*Equation 2, Bespoke Trace of a Terminating Chunk.*
+The article models a terminating execution as a finite trace of suspensions that ends in exactly one completion, so it uses both letters of the trace alphabet.
+
+$$
+\mathcal{T}_\Upsilon(k, a, \vec{r}) \;=\; \bigl\langle\, \mathsf{Y}(v_1),\, \mathsf{Y}(v_2),\, \ldots,\, \mathsf{Y}(v_n),\, \mathsf{F}(w) \,\bigr\rangle
+\tag{2}
+$$
+
+*Equation 3, Bespoke Trace of a Divergent Chunk.*
+The article models a divergent execution as an infinite trace of suspensions with no completion, so it uses only one letter of the trace alphabet.
+
+$$
+\mathcal{T}_\Sigma(k, a, \vec{r}) \;=\; \bigl\langle\, \mathsf{Y}(v_0),\, \mathsf{Y}(v_1),\, \mathsf{Y}(v_2),\, \ldots \,\bigr\rangle.
+\tag{3}
+$$
+
+*Equation 4, Bespoke Host Call Sequence Under the Return Convention.*
+Under the return convention the host calls a stateless native function again with each resume value, so nothing carries over between calls.
+
+$$
+f(a) = v_0, \qquad f(r_1) = v_1, \qquad f(r_2) = v_2, \qquad \ldots
+\tag{4}
+$$
+
+*Equation 5, Bespoke Faithful Encoding Required of a One-Word Return.*
+A return convention that is faithful to a terminating trace must map the pair of a yielded value and a completion value injectively into a single machine word.
+
+$$
+\varepsilon_{\mathrm{ret}} : W \times W \;\longrightarrow\; W
+\tag{5}
+$$
+
+**Equation 6, Cardinality of a Pair of Machine Words.**
+The set of pairs of 64-bit words has the square of the number of words as its size, which exceeds the size of a single word, so by the pigeonhole principle no injection from pairs into one word exists.
+
+$$
+\lvert W \times W \rvert \;=\; \lvert W \rvert^{2} \;=\; 2^{128} \;>\; 2^{64} \;=\; \lvert W \rvert.
+\tag{6}
+$$
+
+**Equation 7, Bit Count Condition for a Faithful Encoding.**
+An interface of a given number of machine words can carry a trace faithfully only when the trace needs no more words than the interface provides, the elementary case of the channel-capacity argument.
+[Shannon 1948][research_shannon_1948]
+
+$$
+64k \;\le\; 64m \qquad \Longleftrightarrow \qquad k \;\le\; m,
+\tag{7}
+$$
+
+*Equation 8, Bespoke Pigeonhole Test for a Calling Convention.*
+The article states its general test, that a convention exposing fewer distinguishable channels than a chunk has observable values per call cannot be injective on that chunk's traces.
+
+$$
+\mathrm{obs}(k) \;>\; \mathrm{chan}(\varepsilon) \quad\Longrightarrow\quad \varepsilon \text{ is not injective on } \mathcal{T}(k),
+\tag{8}
+$$
+
+*Equation 9, Bespoke Collapse Factor for a Terminating Chunk.*
+A terminating trace with a given number of suspensions carries one more word than suspensions while one call distinguishes a single word, so the article's collapse factor grows as a power of the word count in the number of suspensions.
+
+$$
+\frac{\lvert W \rvert^{\,n+1}}{\lvert W \rvert} \;=\; \lvert W \rvert^{\,n},
+\tag{9}
+$$
+
+**Equation 10, Return Channels Fixed by the Application Binary Interface.**
+The System V AMD64 application binary interface and the Arm 64-bit procedure call standard return a word in one register and a two-word aggregate in a register pair, so the number of return channels depends on the declared return type.
+[System V AMD64 application binary interface][ref_sysv_amd64]
+[AAPCS64][ref_aapcs64]
+
+$$
+\mathrm{chan}(\varepsilon_{\mathrm{ret}}) = 1 \;\text{ if the return type is } W, \qquad \mathrm{chan}(\varepsilon_{\mathrm{ret}}) = 2 \;\text{ if it is } W \times W.
+\tag{10}
+$$
+
+**Equation 11, Cardinality of a Tagged Word.**
+Attaching a two-valued tag to a 64-bit word doubles the number of distinguishable values, which needs one bit more than a single word holds.
+
+$$
+\lvert \{\mathsf{Y}, \mathsf{F}\} \times W \rvert \;=\; 2 \cdot 2^{64} \;=\; 2^{65},
+\tag{11}
+$$
+
+*Equation 12, Bespoke Widened Return with a Discriminator.*
+The article's third option widens every coroutine entry point to return a tag that distinguishes suspension from completion together with a word, which suffices only for a coroutine that suspends at most once per call.
+
+$$
+f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W\,)
+\tag{12}
+$$
+
+*Equation 13, Bespoke Widened Return with a Continuation.*
+A terminating coroutine must resume mid-body, so the article extends the widened return with a continuation in the manner of the returned-continuation lowering of the LLVM compiler infrastructure.
+[the Low Level Virtual Machine compiler infrastructure][ref_llvm_coroutines]
+
+$$
+f : W \longrightarrow (\,\mathsf{tag} \in \{\mathsf{Y}, \mathsf{F}\},\; W,\; \mathsf{cont}\,)
+\tag{13}
+$$
+
+*Equation 14, Bespoke Total Cost of One Widened Convention Against Two Conventions.*
+The article's cost model charges the widened return a per-call tag and frame cost over all calls and charges two conventions a single fixed metadata cost.
+
+$$
+C_{\mathrm{one}} = (c_{\mathrm{tag}} + c_{\mathrm{frame}}) N, \qquad C_{\mathrm{two}} = c_{\mathrm{meta}},
+\tag{14}
+$$
+
+*Equation 15, Bespoke Crossover Call Count.*
+Equating the two totals of Equation 14 gives the number of calls below which the widened return is the cheaper design.
+
+$$
+N^{*} \;=\; \frac{c_{\mathrm{meta}}}{c_{\mathrm{tag}} + c_{\mathrm{frame}}}.
+\tag{15}
+$$
+
+**Equation 16, Value Space Remaining After Reserving a Sentinel.**
+Reserving one word as a sentinel leaves one fewer than two to the sixty-fourth power usable values, a negligible loss in measure that nonetheless makes the reserved value unrepresentable as a yield.
+
+$$
+\lvert W \rvert - 1 \;=\; 2^{64} - 1 \;=\; 18{,}446{,}744{,}073{,}709{,}551{,}615,
+\tag{16}
+$$
+
+*Equation 17, Bespoke Fit of the Return Convention to a Divergent Chunk.*
+A divergent chunk has one observable value per call and the one-word return supplies one channel, so the identity encoding suffices for every admitted stream chunk.
+
+$$
+\mathrm{obs}(k) = 1 = \mathrm{chan}(\varepsilon_{\mathrm{ret}}) \qquad \text{for all } k \in K_\Sigma \text{ admitted below,}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Host Correspondence for a Divergent Chunk.*
+The first call consumes the initial argument and each later call consumes the next resume value, exactly as the virtual machine writes the resume value into the entry chunk's parameter slot.
+
+$$
+f(a) = v_0, \qquad f(r_k) = v_k \;\; (k \ge 1),
+\tag{18}
+$$
+
+*Equation 19, Bespoke Admissibility Property for a Tail Segment.*
+The article states the property that licenses the return lowering, that the tail after a suspension has no side effects and a net stack effect of minus one so that it consumes exactly the resume value.
+
+$$
+\Delta(\pi) \;=\; \sum_{\iota \in \pi} \delta(\iota) \;=\; -1 \qquad \text{and} \qquad \mathrm{eff}(\pi) \;=\; \varnothing,
+\tag{19}
+$$
+
+*Equation 20, Bespoke Stack Effect of the Two Candidate Tails.*
+The admissibility property of Equation 19 is evaluated for the single discard and for the discard, constant and discard sequence, and both have a net stack effect of minus one.
+
+$$
+\Delta\bigl(\langle \mathtt{PopN(1)} \rangle\bigr) = -1, \qquad \Delta\bigl(\langle \mathtt{PopN(1)},\, \mathtt{Const(0)},\, \mathtt{PopN(1)} \rangle\bigr) = -1 + 1 - 1 = -1.
+\tag{20}
+$$
+
+*Equation 21, Bespoke Soundness Without Completeness of the Shipped Rule.*
+The set of tails the shipped whitelist admits is a proper subset of the set the property licenses, and at least ten licensed tails are refused.
+
+$$
+R \;\subsetneq\; P, \qquad \lvert P \setminus R \rvert \;\ge\; 10,
+\tag{21}
+$$
+
+*Equation 22, Bespoke Coverage of the Shipped Rule Against the Property.*
+The fractions of stream chunks admitted by the shipped rule and by the property show that ten of twenty-four chunks are refused the cheap convention without cause.
+
+$$
+\frac{\lvert R \rvert}{\lvert K_\Sigma \rvert} \;=\; \frac{14}{24} \;=\; 58.33\%, \qquad \frac{\lvert P \rvert}{\lvert K_\Sigma \rvert} \;=\; \frac{24}{24} \;=\; 100\%,
+\tag{22}
+$$
+
+*Equation 23, Bespoke Join Predicate for a Suspension.*
+A suspension is classified as a control-flow join when no loop block is open on the enclosing block stack, so it crosses no back edge.
+
+$$
+\mathrm{join}(y) \iff \mathtt{Loop} \notin B(y),
+\tag{23}
+$$
+
+*Equation 24, Bespoke Differential Oracle on Yielded Sequences.*
+The native lowering is checked against the reference virtual machine by comparing the first several yielded values of the two traces for the same argument and resume values.
+
+$$
+\mathcal{Y}\bigl(\mathcal{T}^{\mathrm{vm}}(k, a, \vec{r})\bigr)_{1:n} \;=\; \mathcal{Y}\bigl(\mathcal{T}^{\mathrm{nat}}(k, a, \vec{r})\bigr)_{1:n}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Admissibility of a Unification as a Universal Claim.*
+The article states admissibility of a unification as the claim that every behaviour in the class has no more observable values than the interface has channels.
+
+$$
+\Phi \;\equiv\; \forall b \in \mathcal{B} : \; \mathrm{obs}(b) \le \mathrm{chan}(\iota),
+\tag{25}
+$$
+
+**Equation 26, Negation of a Universal Claim.**
+The negation of a universal claim is an existential one, so a single behaviour that exceeds the interface refutes the unification.
+
+$$
+\neg\Phi \;\equiv\; \exists b \in \mathcal{B} : \; \mathrm{obs}(b) > \mathrm{chan}(\iota).
+\tag{26}
+$$
+
+**Equation 27, Universal Bound as a Bound on the Maximum.**
+A bound holds for every member of a finite class exactly when it holds for the maximum over the class, which a frequency of observed successes does not estimate.
+
+$$
+\Phi \iff \max_{b \in \mathcal{B}} \mathrm{obs}(b) \le \mathrm{chan}(\iota).
+\tag{27}
+$$
+
+**Equation 28, Clopper-Pearson Lower Bound After No Failures.**
+After all of a number of trials succeed, the exact one-sided lower confidence bound on the success proportion is the significance level raised to the reciprocal of the number of trials.
+[Clopper and Pearson 1934][research_clopper_pearson_1934]
+
+$$
+p_{\min} \;=\; \alpha^{1/n} \;=\; 0.05^{1/9} \;=\; 0.7169,
+\tag{28}
+$$
+
+**Equation 29, Trials Needed to Bound a Proportion Above a Threshold.**
+Inverting the bound of Equation 28 gives the number of consecutive successes needed before a proportion of ninety-nine percent is supported at the stated confidence.
+[Clopper and Pearson 1934][research_clopper_pearson_1934]
+[Hanley and Lippman-Hand 1983][research_hanley_lippmanhand_1983]
+
+$$
+n \;=\; \frac{\ln \alpha}{\ln 0.99} \;=\; 299
+\tag{29}
+$$
+
+*Equation 30, Bespoke Native Frames Live During Host Execution.*
+The article observes that the return convention leaves no native frame live while the host runs, whereas the callback convention leaves the chunk's frame and those of its callers live.
+
+$$
+L(\varepsilon_{\mathrm{ret}}) = \varnothing, \qquad L(\varepsilon_{\mathrm{cb}}) = \{\, \mathrm{frame}(k) \,\} \cup \{\, \mathrm{frame}(c) : c \in \mathrm{callers}(k) \,\},
+\tag{30}
+$$
+
+*Equation 31, Bespoke Difference in Worst-Case Native Stack.*
+The worst-case native stack bound of the callback convention exceeds that of the return convention by the total size of the frames live during host execution.
+
+$$
+\Delta M \;=\; \sum_{\phi \in L(\varepsilon_{\mathrm{cb}})} \mathrm{size}(\phi),
+\tag{31}
+$$
+
+*Equation 32, Bespoke Native Calls per Iteration.*
+The return convention makes one native call per iteration and the callback convention makes one more for each suspension in the iteration.
+
+$$
+\tau_{\mathrm{ret}} = 1, \qquad \tau_{\mathrm{cb}} = 1 + s,
+\tag{32}
+$$
+
+### Notation
+
+- $W$, the machine word type, with $\lvert W \rvert = 2^{64}$ distinguishable values on the present target
+- $K_\Sigma$, the set of divergent stream chunks, which never complete
+- $K_\Upsilon$, the set of terminating chunks, which complete after finitely many suspensions
+- $\mathsf{Y}$, the trace letter for a suspension carrying a yielded value, with $\mathsf{F}$ the letter for a completion
+- $\mathcal{T}_\Upsilon(k, a, \vec{r})$, the observable trace of chunk $k$ driven by initial argument $a$ and resume values $\vec{r}$, written with $\Sigma$ for a divergent chunk
+- $\varepsilon_{\mathrm{ret}}$, the return-based calling convention, with $\varepsilon_{\mathrm{cb}}$ the callback convention
+- $\mathrm{chan}(\varepsilon)$, the number of distinguishable word-valued channels a single native call exposes under convention $\varepsilon$
+- $\mathrm{obs}(k)$, the number of distinct observable values a single call of chunk $k$ must convey
+- $\mathsf{cont}$, a continuation identifying where and with what state a coroutine resumes
+- $c_{\mathrm{tag}}$, the per-call cost of the discriminator, with $c_{\mathrm{frame}}$ the amortised per-call cost of a saved frame and $c_{\mathrm{meta}}$ the one-off cost of two conventions
+- $N^{*}$, the crossover number of calls below which a single widened convention is cheaper
+- $\delta(\iota)$, the net operand stack effect of instruction $\iota$, summed over a tail segment $\pi$ as $\Delta(\pi)$
+- $\mathrm{eff}(\pi)$, the set of side effects of tail segment $\pi$
+- $R \;\subsetneq\; P$, the set $R$ of tail segments the shipped rule admits and the set $P$ the property licenses
+- $B(y)$, the stack of open blocks at suspension $y$
+- $\mathcal{Y}$, the projection of a trace onto its suspension letters, applied to the virtual machine trace and the native trace
+- $\mathcal{B}$, a class of behaviours $b$ that a proposed unification maps onto an interface, whose channel count is written $\mathrm{chan}(\iota)$ in Equations 25 to 27
+- $\alpha$, the significance level, one minus the confidence
+- $L(\varepsilon_{\mathrm{cb}})$, the set of native frames live while host code executes under the callback convention
+- $\Delta M$, the difference in worst-case native stack between the callback and return conventions
+- $\tau_{\mathrm{ret}}$, the native calls per iteration under the return convention, with $\tau_{\mathrm{cb}}$ the count under the callback convention and $s$ the suspensions per iteration
 
 ## References
 

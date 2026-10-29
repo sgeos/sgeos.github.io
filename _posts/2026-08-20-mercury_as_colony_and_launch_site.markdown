@@ -143,6 +143,7 @@ S_{\mathrm{aph}} = \frac{S_{0}}{\left[a(1+e)\right]^{2}}, \qquad
 \frac{S_{\mathrm{peri}}}{S_{\mathrm{aph}}} = \left(\frac{1+e}{1-e}\right)^{2}
 \tag{2}
 $$
+
 The same closeness that supplies the light also places Mercury deepest in the Sun's gravity well.
 Leaving the solar system from a circular orbit at Mercury's distance costs 19.83 kilometres per second,
 against 12.34 at Earth and 2.25 at Neptune.
@@ -1644,7 +1645,7 @@ This section collects the 25 display equations of the article in the order they 
 each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
-Of the 25, 17 are established and 8 are bespoke.
+Of the 25, 18 are established and 7 are bespoke.
 Each equation takes the units of the section in which it appears, so a distance stated in astronomical units must be converted to metres before it enters a speed, an energy or a temperature.
 
 **Equation 1, Inverse-Square Flux, Circular Speed, Escape Increment and Equilibrium Temperature.**
@@ -1832,8 +1833,8 @@ v_{\infty} = v_{c}(r_{0})\sqrt{2\beta - 1}
 \tag{20}
 $$
 
-*Equation 21, Bespoke Ceiling on a Pumped Sail Orbit.*
-A sail that falls to a perihelion and turns face-on there leaves with an excess speed that rises toward a ceiling as the orbit is pumped toward escape, a simple reference case the article constructs for the repeated-pass strategy.
+**Equation 21, Departure Speed After a Face-On Perihelion Pass.**
+A sail that falls to a perihelion and turns face-on there leaves with the excess speed that energy conservation gives under the reduced solar gravity, which rises toward a ceiling as the orbit is pumped toward escape.
 
 $$
 v_{\infty} = \sqrt{\frac{2\beta\mu}{q} - \frac{\mu}{a}}

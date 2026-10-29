@@ -1,0 +1,371 @@
+# Equation classification for A383, Mass Drivers.
+
+caution = "Accelerations quoted as multiples of standard gravity must be converted to metres per second squared before they enter an equation, and a speed measured relative to the track differs from the inertial speed by the surface speed of the rotating body."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Track Length and Launch Time at Constant Acceleration"
+gloss = "Constant acceleration from rest to a release speed fixes the length of the track, which grows with the square of the speed, and the time spent on it."
+cite = ["ref_mass_driver"]
+digest = "cf26ae1b042bc706"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Launch Energy, Peak Power and Average Power"
+gloss = "Each kilogram receives half the square of the release speed, the power drawn by one payload is greatest at release, and the average power of a launcher depends only on the speed, the mass flow and the electrical efficiency."
+cite = []
+digest = "f241a9282e74cd85"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Force from a Changing Inductance"
+gloss = "Energy conservation in a circuit at constant current gives a mechanical force proportional to the square of the current and to the rate at which the inductance changes with position."
+cite = []
+digest = "cf07f29bc7af08d0"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Inertial Velocity at Release from a Rotating Body"
+gloss = "The release velocity relative to the track, resolved by azimuth and elevation, is added to the eastward surface speed of the rotating body to give the inertial components."
+cite = []
+digest = "568a6771153cbe17"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Height and Tilt at the End of a Straight Tangent Track"
+gloss = "A straight track tangent to a sphere rises above the surface by an amount that grows with the square of its length and ends tilted upward by the angle the track subtends at the centre."
+cite = []
+digest = "eb0a45c96b3cb8e6"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Normal Acceleration on a Curved Track"
+gloss = "A payload moving along a track that curves with the surface needs the centripetal acceleration less local gravity, which supports it below the surface circular speed and holds it down above."
+cite = []
+digest = "acbea90cd80ce39b"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Change in Spin from a Tangential Launch"
+gloss = "Conservation of angular momentum for a launch along the equator of a uniform sphere changes the body's spin rate in proportion to the momentum carried away."
+cite = []
+digest = "fc13286e6438882d"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Hill Radius"
+gloss = "The Hill radius marks roughly the extent of the region in which a body's own gravity dominates that of its parent."
+cite = ["ref_hill_sphere"]
+digest = "6e9bca8b2ec21894"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Orbit Elements from the Release State"
+gloss = "Conservation of energy and angular momentum fixes the eccentricity and the apsides of the orbit from the release radius and the inertial velocity."
+cite = []
+digest = "fb6f28e429b5727b"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Inclination from Latitude and Azimuth"
+gloss = "Spherical trigonometry relates the inclination of the orbit to the latitude of the release site and the inertial azimuth of the horizontal velocity."
+cite = []
+digest = "c545c0bbf25424e8"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Arc Flown Before Impact After an Upward Release"
+gloss = "The orbit equation evaluated at the surface radius gives the true anomaly of the release point, and the payload strikes the ground at the mirror point before the next periapsis."
+cite = []
+digest = "357f077f466f0669"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Westward Offset of the Return Point"
+gloss = "During one orbital period the rotating surface carries the release site eastward by its surface speed times the period, so the payload returns to a point displaced from the track."
+cite = []
+digest = "b0b94cf23fb716f3"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Release Speed and Circularizing Burn from the Surface"
+gloss = "A Hohmann transfer that begins with a horizontal release at the surface reaches a chosen apoapsis, where a single burn circularizes the orbit."
+cite = ["related_post_orbital_manoeuvres_hohmann"]
+digest = "820b09c771024a8d"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Burn at Apoapsis to Raise the Periapsis"
+gloss = "The cost of raising the periapsis is the difference between the apoapsis speeds of the two ellipses that share that apoapsis."
+cite = []
+digest = "7cde0f49245e5357"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Sensitivity of Apoapsis to Release Speed"
+gloss = "Differentiating the vis-viva equation at the release radius gives the change in apoapsis radius per unit error in release speed."
+cite = []
+digest = "e293545aadf86fd9"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Track Speed for a Circular Orbit on a Rotating Body"
+gloss = "An eastward track gains the surface speed of the rotating body and a westward track loses it, so the speed the track supplies differs from the circular speed by that amount."
+cite = []
+digest = "cd5f14e7117e9061"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Interval Between Launch Opportunities for One Plane"
+gloss = "A fixed track is carried through a given orbital plane twice in each sidereal rotation, once on the ascending pass and once on the descending pass."
+cite = []
+digest = "d3b2c0f696dd45a0"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Release Speed and Parent-Relative Velocity in the Patched Conic Approximation"
+gloss = "Energy conservation gives the release speed that leaves the launching body with a chosen excess speed, and that excess is added to the body's orbital velocity to give the velocity relative to the parent."
+cite = []
+digest = "7ad72ece44c03db9"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Excess Speed for a Retrograde Release to a Lower Apsis"
+gloss = "Lowering the near apsis of a payload's orbit around the parent needs an excess equal to the difference between the body's circular speed and the far-apsis speed of the transfer ellipse."
+cite = []
+digest = "a0179ee7fee77c11"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Eccentricity and Asymptote of a Departure Hyperbola"
+gloss = "A horizontal release at the surface puts the periapsis of the departure hyperbola at the release point, and the excess speed fixes its eccentricity and the true anomaly of its outgoing asymptote."
+cite = []
+digest = "a72f2fe479c0557b"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Release Site for a Desired Departure Direction"
+gloss = "Measuring the site from the sub-parent point and offsetting the desired direction by the turn of the hyperbola gives the site on each lane, under the article's lane convention and the stated neglect of the parent's gravity during departure."
+cite = []
+digest = "0d4557e612d77ee4"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Release Speed from a Moon into Solar Orbit"
+gloss = "The departure equation is applied at the moon's orbital radius with the moon's own orbital speed credited in full, which assumes a release along the moon's direction of motion and neglects the moon's own gravity."
+cite = ["related_post_orbital_manoeuvres_departure"]
+digest = "82b7a17d0e1077f6"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Hohmann Phase Angle and Synodic Period"
+gloss = "A Hohmann transfer requires the target to lead by a fixed phase angle at departure, and that alignment recurs once per synodic period of the two orbits."
+cite = ["related_post_orbital_manoeuvres_patched"]
+digest = "1208ff138d120e0d"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Straight-Line Estimate of a Midcourse Correction"
+gloss = "Dividing the miss distance by the time remaining estimates the correction burn, a straight-line approximation the article adopts that holds when the correction is small and the time short compared with the orbit."
+cite = []
+digest = "d2e7a56d7058b504"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Total Acceleration and Power on a Ring Track"
+gloss = "The hold-down and tangential accelerations add in quadrature to give the load the cargo feels, and the power delivered is the tangential force times the speed."
+cite = []
+digest = "4152a55b890a3b47"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Largest Release Speed on a Ring Track"
+gloss = "Setting the hold-down acceleration on a curved track equal to the largest load the cargo tolerates gives a release speed that no number of laps can exceed."
+cite = []
+digest = "28636adfbe3a30d2"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Path Length and Number of Laps on a Ring Track"
+gloss = "Constant tangential acceleration to the release speed fixes the path length, and dividing it by the circumference gives the number of laps."
+cite = []
+digest = "cfb0d1abd52830dd"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Jerk at Release"
+gloss = "Removing the hold-down load over a short time produces a jerk equal to that load divided by the release time."
+cite = []
+digest = "549b8bdb07af4b77"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Static Deflection and Step Response of the Cargo Structure"
+gloss = "A structure loaded by the hold-down acceleration is deflected by the load over its stiffness, and a sudden release sets it oscillating about its unloaded shape with that amplitude at its natural frequency."
+cite = []
+digest = "b1211e3b98d318a1"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Initial Separation from the Track After Release"
+gloss = "A payload released horizontally above circular speed curves less sharply than the surface, so its height above the track grows at first as half the former hold-down acceleration times the square of the time."
+cite = []
+digest = "45083b41dfab2bf4"
+
+[[symbol]]
+tex = 'a'
+meaning = "the acceleration along a straight track in Equations 1 and 2, the distance of a body from its parent in Equation 8 and the semi-major axis of the transfer ellipse in Equation 15"
+
+[[symbol]]
+tex = 'L'
+meaning = "the length of a straight track"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the electrical efficiency of the launcher"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow a launcher throws"
+
+[[symbol]]
+tex = 'I'
+meaning = "the current in Equation 3 and the moment of inertia of the body in Equation 7"
+
+[[symbol]]
+tex = '\mathcal{L}'
+meaning = "the inductance of the launcher circuit"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the latitude of the release site"
+
+[[symbol]]
+tex = 'r_{0}'
+meaning = "the radius of the release point from the body's centre"
+
+[[symbol]]
+tex = 'A'
+meaning = "the azimuth of the track measured from north, with $A_{i}$ the inertial azimuth of the horizontal velocity"
+
+[[symbol]]
+tex = 'v_{r}'
+meaning = "the release speed relative to the track"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the angle of release above the local horizontal"
+
+[[symbol]]
+tex = '\omega'
+meaning = "the rotation rate of the launching body"
+
+[[symbol]]
+tex = 'R'
+meaning = "the radius of the launching body and of a track that follows its surface"
+
+[[symbol]]
+tex = 'g'
+meaning = "the surface gravity of the launching body"
+
+[[symbol]]
+tex = 'v_{c}'
+meaning = "the circular orbital speed at the surface"
+
+[[symbol]]
+tex = 'a_{n}'
+meaning = "the hold-down acceleration the track exerts toward the body's centre, with $a_{t}$ the tangential acceleration along the track"
+
+[[symbol]]
+tex = 'r_{H}'
+meaning = "the Hill radius of a body of mass $m$ orbiting a parent of mass $M$"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the launching body, with $\\mu_{B}$ and $\\mu_{P}$ for the launching body and its parent where both appear"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the specific orbital energy, with $h$ the specific angular momentum and $e$ the eccentricity"
+
+[[symbol]]
+tex = 'r_{a}'
+meaning = "the apoapsis radius, with $r_{p}$ the periapsis radius"
+
+[[symbol]]
+tex = '\nu_{0}'
+meaning = "the true anomaly of the release point, with $p$ the semi-latus rectum of the orbit"
+
+[[symbol]]
+tex = 'T'
+meaning = "the orbital period, with $T_{\\mathrm{syn}}$ the synodic period of two orbits"
+
+[[symbol]]
+tex = 'v_{\infty}'
+meaning = "the hyperbolic excess speed relative to the launching body, with $v_{\\infty,P}$ the excess relative to the parent planet"
+
+[[symbol]]
+tex = 'R_{B}'
+meaning = "the radius of the launching body, with $a_{B}$ its orbital radius around the parent"
+
+[[symbol]]
+tex = '\nu_{\infty}'
+meaning = "the true anomaly of the outgoing asymptote of the departure hyperbola"
+
+[[symbol]]
+tex = '\theta_{d}'
+meaning = "the desired departure direction, measured around the body's equator from the sub-parent point in the direction of orbital motion"
+
+[[symbol]]
+tex = 'P_{\mathrm{sid}}'
+meaning = "the sidereal rotation period of the launching body"
+
+[[symbol]]
+tex = 't_{\mathrm{go}}'
+meaning = "the time remaining before arrival when a miss $\\delta r$ is corrected"
+
+[[symbol]]
+tex = 'a_{\max}'
+meaning = "the largest total acceleration the cargo tolerates"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of laps around a ring track, with $s$ the path length"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the time over which the release removes the hold-down load"
+
+[[symbol]]
+tex = 'm_{c}'
+meaning = "the mass of the cargo structure, with $k$ its stiffness and $\\omega_{n}$ its natural frequency"

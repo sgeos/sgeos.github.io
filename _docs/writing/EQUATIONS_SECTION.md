@@ -73,6 +73,7 @@ single quotes, so that backslashes stay as written.
 ## Workflow
 
 ```sh
+python3 _lib/blog.py equations unfold POST --write  # rewrite single-line $$...$$ as $$ blocks
 python3 _lib/blog.py equations tag POST --write   # number the body equations \tag{1} to \tag{N}
 python3 _lib/blog.py equations skeleton POST      # print a data file to fill in, with digests
 python3 _lib/blog.py equations write POST         # generate or regenerate the section
@@ -88,6 +89,10 @@ and gloss against the new equation, run `stamp`, and then run `write`.
 
 - Every body equation carries `\tag{n}`, and the tags run 1 to N in order.
 - Every body equation has exactly one entry, and every entry has an equation.
+- Every body equation is set off by a blank line above and below. Kramdown reads a block that touches the
+  text beside it as part of that paragraph and renders it as inline math, where its `\tag` is a MathJax
+  error. A373, A381, A382, A383 and A384 carried six such blocks between them, all already rendered inline
+  before they were tagged.
 - Every entry's digest matches its equation.
 - A bespoke title begins with `Bespoke`, and a standard title does not.
 - Every cited anchor is cited in the body.
@@ -106,7 +111,8 @@ ignored.
 ## Known Limits
 
 - Only the two display forms the corpus uses are recognised. One form is a `$$` line that opens a block and a
-  second `$$` line that closes it. The other is a whole line `$$...$$`. Tagging requires the block form.
+  second `$$` line that closes it. The other is a whole line `$$...$$`. Tagging requires the block form, and
+  `unfold` converts the single-line form to it without changing the equation's text.
 - The section adds the equations a second time to the rendered page, which increases page weight on
   equation-dense articles.
 - The classification is a judgement and the check cannot verify it. The check only detects when the equation

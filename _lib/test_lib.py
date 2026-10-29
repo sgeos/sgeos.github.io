@@ -3417,6 +3417,40 @@ def t_equations_validate_rejects_bad_data():
     equations.validate(data)
 
 
+def t_equations_unfold_keeps_text_and_digest():
+    """A single-line equation becomes a block with the same text, so its digest survives."""
+    one = FM + "\n$$E = mc^{2}$$\n\nText.\n\n$$\nF = ma\n$$\n\n## References\n"
+    out = equations.unfolded(one)
+    assert "\n$$\nE = mc^{2}\n$$\n" in out, out
+    assert [equations.digest(l) for _, l in equations.blocks(out)] == \
+        [equations.digest(l) for _, l in equations.blocks(one)]
+    assert equations.unfolded(out) == out, "unfolding is not idempotent"
+    try:
+        equations.unfolded(FM + "\n$$x \\tag{1}$$\n\n## References\n")
+    except equations.EquationError as e:
+        assert "already carries a tag" in str(e)
+    else:
+        raise AssertionError("a tagged single-line equation was split")
+
+
+def t_equations_cite_label_wrapped_over_lines():
+    """A376 cites a source once, with its link text wrapped over two lines."""
+    text = FM + "\nSee [Currency Composition of\nReserves][data_cofer].\n\n## References\n"
+    assert equations.body_labels(text) == {"data_cofer": "Currency Composition of Reserves"}
+
+
+def t_equations_block_touching_text_is_flagged():
+    """A382 shipped two blocks whose closing `$$` ran straight into prose, so kramdown
+    rendered them inline and their tags became MathJax errors."""
+    glued = FM + "\nText.\n\n$$\nF = ma\n\\tag{1}\n$$\nMore text.\n\n$$E$$\n\n## References\n"
+    assert equations.unseparated(glued) == [len((FM + "\nText.\n\n").split("\n"))], \
+        equations.unseparated(glued)
+    above = FM + "\nText.\n$$E$$\n\n## References\n"
+    assert len(equations.unseparated(above)) == 1
+    clear = FM + "\nText.\n\n$$\nF = ma\n$$\n\n$$E$$\n\nMore.\n\n## References\n"
+    assert equations.unseparated(clear) == []
+
+
 def t_equations_unclosed_block_raises():
     try:
         equations.blocks(FM + "\n$$\nE = mc^{2}\n\n## References\n")

@@ -1,0 +1,343 @@
+# Equation classification for A370, Two Calling Conventions. Read by `python3 _lib/equations.py`.
+
+caution = "Cardinalities are counts of distinguishable values of the 64-bit machine word type, so a power of two here counts values while a multiple of sixty-four counts bits, and the two are related by a logarithm rather than by a factor."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Partition of Chunks by Termination"
+gloss = "The article partitions the compiled coroutine chunks into divergent stream chunks and terminating chunks, the distinction the type checker already enforces."
+cite = []
+digest = "8931311aa3e2dc45"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Trace of a Terminating Chunk"
+gloss = "The article models a terminating execution as a finite trace of suspensions that ends in exactly one completion, so it uses both letters of the trace alphabet."
+cite = []
+digest = "eac6ba144a072eb6"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Trace of a Divergent Chunk"
+gloss = "The article models a divergent execution as an infinite trace of suspensions with no completion, so it uses only one letter of the trace alphabet."
+cite = []
+digest = "02ebee8f14ef3261"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Host Call Sequence Under the Return Convention"
+gloss = "Under the return convention the host calls a stateless native function again with each resume value, so nothing carries over between calls."
+cite = []
+digest = "bc02c02703126704"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Faithful Encoding Required of a One-Word Return"
+gloss = "A return convention that is faithful to a terminating trace must map the pair of a yielded value and a completion value injectively into a single machine word."
+cite = []
+digest = "3f7bf0f291a73341"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Cardinality of a Pair of Machine Words"
+gloss = "The set of pairs of 64-bit words has the square of the number of words as its size, which exceeds the size of a single word, so by the pigeonhole principle no injection from pairs into one word exists."
+cite = []
+digest = "2fa0410bc564149a"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Bit Count Condition for a Faithful Encoding"
+gloss = "An interface of a given number of machine words can carry a trace faithfully only when the trace needs no more words than the interface provides, the elementary case of the channel-capacity argument."
+cite = ["research_shannon_1948"]
+digest = "1277e9130c428493"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Pigeonhole Test for a Calling Convention"
+gloss = "The article states its general test, that a convention exposing fewer distinguishable channels than a chunk has observable values per call cannot be injective on that chunk's traces."
+cite = []
+digest = "e2c22b35cb4ed87b"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Collapse Factor for a Terminating Chunk"
+gloss = "A terminating trace with a given number of suspensions carries one more word than suspensions while one call distinguishes a single word, so the article's collapse factor grows as a power of the word count in the number of suspensions."
+cite = []
+digest = "92fc65b614fa00c0"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Return Channels Fixed by the Application Binary Interface"
+gloss = "The System V AMD64 application binary interface and the Arm 64-bit procedure call standard return a word in one register and a two-word aggregate in a register pair, so the number of return channels depends on the declared return type."
+cite = ["ref_sysv_amd64", "ref_aapcs64"]
+digest = "3950b340562703be"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Cardinality of a Tagged Word"
+gloss = "Attaching a two-valued tag to a 64-bit word doubles the number of distinguishable values, which needs one bit more than a single word holds."
+cite = []
+digest = "6af0119f174f59d3"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Widened Return with a Discriminator"
+gloss = "The article's third option widens every coroutine entry point to return a tag that distinguishes suspension from completion together with a word, which suffices only for a coroutine that suspends at most once per call."
+cite = []
+digest = "9b96d8b9b6e7f833"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Widened Return with a Continuation"
+gloss = "A terminating coroutine must resume mid-body, so the article extends the widened return with a continuation in the manner of the returned-continuation lowering of the LLVM compiler infrastructure."
+cite = ["ref_llvm_coroutines"]
+digest = "6f49663d347a7d02"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Total Cost of One Widened Convention Against Two Conventions"
+gloss = "The article's cost model charges the widened return a per-call tag and frame cost over all calls and charges two conventions a single fixed metadata cost."
+cite = []
+digest = "925d7af975982023"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Crossover Call Count"
+gloss = "Equating the two totals of Equation 14 gives the number of calls below which the widened return is the cheaper design."
+cite = []
+digest = "ef4347c1ce3671b4"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Value Space Remaining After Reserving a Sentinel"
+gloss = "Reserving one word as a sentinel leaves one fewer than two to the sixty-fourth power usable values, a negligible loss in measure that nonetheless makes the reserved value unrepresentable as a yield."
+cite = []
+digest = "d4a49c4b38a855f5"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Fit of the Return Convention to a Divergent Chunk"
+gloss = "A divergent chunk has one observable value per call and the one-word return supplies one channel, so the identity encoding suffices for every admitted stream chunk."
+cite = []
+digest = "388642a2a77098c8"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Host Correspondence for a Divergent Chunk"
+gloss = "The first call consumes the initial argument and each later call consumes the next resume value, exactly as the virtual machine writes the resume value into the entry chunk's parameter slot."
+cite = []
+digest = "dc8fabc1d073fcae"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Admissibility Property for a Tail Segment"
+gloss = "The article states the property that licenses the return lowering, that the tail after a suspension has no side effects and a net stack effect of minus one so that it consumes exactly the resume value."
+cite = []
+digest = "49b1d01eb8436348"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Stack Effect of the Two Candidate Tails"
+gloss = "The admissibility property of Equation 19 is evaluated for the single discard and for the discard, constant and discard sequence, and both have a net stack effect of minus one."
+cite = []
+digest = "20265e83c3b7a01c"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Soundness Without Completeness of the Shipped Rule"
+gloss = "The set of tails the shipped whitelist admits is a proper subset of the set the property licenses, and at least ten licensed tails are refused."
+cite = []
+digest = "617de660d434dc26"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Coverage of the Shipped Rule Against the Property"
+gloss = "The fractions of stream chunks admitted by the shipped rule and by the property show that ten of twenty-four chunks are refused the cheap convention without cause."
+cite = []
+digest = "acb2084a73653b61"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Join Predicate for a Suspension"
+gloss = "A suspension is classified as a control-flow join when no loop block is open on the enclosing block stack, so it crosses no back edge."
+cite = []
+digest = "34305301026fd935"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Differential Oracle on Yielded Sequences"
+gloss = "The native lowering is checked against the reference virtual machine by comparing the first several yielded values of the two traces for the same argument and resume values."
+cite = []
+digest = "5303807b917232d0"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Admissibility of a Unification as a Universal Claim"
+gloss = "The article states admissibility of a unification as the claim that every behaviour in the class has no more observable values than the interface has channels."
+cite = []
+digest = "86b423f0f4ca8ace"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Negation of a Universal Claim"
+gloss = "The negation of a universal claim is an existential one, so a single behaviour that exceeds the interface refutes the unification."
+cite = []
+digest = "335fb067fc295079"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Universal Bound as a Bound on the Maximum"
+gloss = "A bound holds for every member of a finite class exactly when it holds for the maximum over the class, which a frequency of observed successes does not estimate."
+cite = []
+digest = "a3d8ff18d85e0820"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Clopper-Pearson Lower Bound After No Failures"
+gloss = "After all of a number of trials succeed, the exact one-sided lower confidence bound on the success proportion is the significance level raised to the reciprocal of the number of trials."
+cite = ["research_clopper_pearson_1934"]
+digest = "ae197e726c1a6c85"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Trials Needed to Bound a Proportion Above a Threshold"
+gloss = "Inverting the bound of Equation 28 gives the number of consecutive successes needed before a proportion of ninety-nine percent is supported at the stated confidence."
+cite = ["research_clopper_pearson_1934", "research_hanley_lippmanhand_1983"]
+digest = "1d4647cd17210a93"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Native Frames Live During Host Execution"
+gloss = "The article observes that the return convention leaves no native frame live while the host runs, whereas the callback convention leaves the chunk's frame and those of its callers live."
+cite = []
+digest = "effc623f69ceda6b"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Difference in Worst-Case Native Stack"
+gloss = "The worst-case native stack bound of the callback convention exceeds that of the return convention by the total size of the frames live during host execution."
+cite = []
+digest = "9798bfe6f3a5ab8f"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Native Calls per Iteration"
+gloss = "The return convention makes one native call per iteration and the callback convention makes one more for each suspension in the iteration."
+cite = []
+digest = "5a74fdc1406c4738"
+
+[[symbol]]
+tex = 'W'
+meaning = "the machine word type, with $\\lvert W \\rvert = 2^{64}$ distinguishable values on the present target"
+
+[[symbol]]
+tex = 'K_\Sigma'
+meaning = "the set of divergent stream chunks, which never complete"
+
+[[symbol]]
+tex = 'K_\Upsilon'
+meaning = "the set of terminating chunks, which complete after finitely many suspensions"
+
+[[symbol]]
+tex = '\mathsf{Y}'
+meaning = "the trace letter for a suspension carrying a yielded value, with $\\mathsf{F}$ the letter for a completion"
+
+[[symbol]]
+tex = '\mathcal{T}_\Upsilon(k, a, \vec{r})'
+meaning = "the observable trace of chunk $k$ driven by initial argument $a$ and resume values $\\vec{r}$, written with $\\Sigma$ for a divergent chunk"
+
+[[symbol]]
+tex = '\varepsilon_{\mathrm{ret}}'
+meaning = "the return-based calling convention, with $\\varepsilon_{\\mathrm{cb}}$ the callback convention"
+
+[[symbol]]
+tex = '\mathrm{chan}(\varepsilon)'
+meaning = "the number of distinguishable word-valued channels a single native call exposes under convention $\\varepsilon$"
+
+[[symbol]]
+tex = '\mathrm{obs}(k)'
+meaning = "the number of distinct observable values a single call of chunk $k$ must convey"
+
+[[symbol]]
+tex = '\mathsf{cont}'
+meaning = "a continuation identifying where and with what state a coroutine resumes"
+
+[[symbol]]
+tex = 'c_{\mathrm{tag}}'
+meaning = "the per-call cost of the discriminator, with $c_{\\mathrm{frame}}$ the amortised per-call cost of a saved frame and $c_{\\mathrm{meta}}$ the one-off cost of two conventions"
+
+[[symbol]]
+tex = 'N^{*}'
+meaning = "the crossover number of calls below which a single widened convention is cheaper"
+
+[[symbol]]
+tex = '\delta(\iota)'
+meaning = "the net operand stack effect of instruction $\\iota$, summed over a tail segment $\\pi$ as $\\Delta(\\pi)$"
+
+[[symbol]]
+tex = '\mathrm{eff}(\pi)'
+meaning = "the set of side effects of tail segment $\\pi$"
+
+[[symbol]]
+tex = 'R \;\subsetneq\; P'
+meaning = "the set $R$ of tail segments the shipped rule admits and the set $P$ the property licenses"
+
+[[symbol]]
+tex = 'B(y)'
+meaning = "the stack of open blocks at suspension $y$"
+
+[[symbol]]
+tex = '\mathcal{Y}'
+meaning = "the projection of a trace onto its suspension letters, applied to the virtual machine trace and the native trace"
+
+[[symbol]]
+tex = '\mathcal{B}'
+meaning = "a class of behaviours $b$ that a proposed unification maps onto an interface, whose channel count is written $\\mathrm{chan}(\\iota)$ in Equations 25 to 27"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the significance level, one minus the confidence"
+
+[[symbol]]
+tex = 'L(\varepsilon_{\mathrm{cb}})'
+meaning = "the set of native frames live while host code executes under the callback convention"
+
+[[symbol]]
+tex = '\Delta M'
+meaning = "the difference in worst-case native stack between the callback and return conventions"
+
+[[symbol]]
+tex = '\tau_{\mathrm{ret}}'
+meaning = "the native calls per iteration under the return convention, with $\\tau_{\\mathrm{cb}}$ the count under the callback convention and $s$ the suspensions per iteration"

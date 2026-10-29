@@ -1,0 +1,660 @@
+# Equation classification for A375, Rebuilding After a War with China.
+# Read by `python3 _lib/equations.py`.
+
+caution = "Replacement and exhaustion times are in years unless an equation names days or months, and sums of money are in the nominal United States dollars of the year each source reports. Several ratios divide figures drawn from different sources, years or definitions, and the text beside each one states when the two quantities are not strictly comparable."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Campaign Horizon of the Invasion Game"
+gloss = "Six turns of three and a half days each give the 21 days of campaign time the report states."
+cite = ["research_cancian_2023_first_battle"]
+digest = "eec94cc8a3441e47"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Modelled Horizon Against the War Described"
+gloss = "The war the report describes lasts far longer than the 21 days its game models, a relation the authors assert rather than measure."
+cite = ["research_cancian_2023_first_battle"]
+digest = "3598a1d10b3d43f0"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Relative Discrepancy in the Iteration Count"
+gloss = "The difference between the 24 iterations the report states and the 22 a commentator attributes to it is one twelfth of the count."
+cite = ["research_cancian_2023_first_battle", "commentary_heath_2023_wargames_deterrence"]
+digest = "2ad7478c6200aa92"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Replacement Time at a Constant Procurement Rate"
+gloss = "The time to replace a loss is the number lost divided by the annual rate of procurement, under the report's stated assumption of no further attrition and no retirements."
+cite = ["research_cancian_2023_first_battle"]
+digest = "d0474c3bfed5b748"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Replacement Time for Lost Aircraft"
+gloss = "The replacement time evaluated at losses of 200 and 500 aircraft and a procurement rate of 120 a year reproduces the published two to four years."
+cite = ["research_cancian_2023_first_battle"]
+digest = "821e8d0b3a3b60d6"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Ratio of Chinese to American Combat Aircraft Procurement"
+gloss = "The estimated annual procurement of the People's Liberation Army Air Force divided by the American rate shows the other side replacing aircraft about twice as fast."
+cite = ["research_gunzinger_2026_rebuilding_air_force"]
+digest = "41f8bd70e990159d"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Lengthening of Warship Build Duration"
+gloss = "The midpoint of the current build bracket divided by the midpoint of the bracket for the 2000s shows durations lengthening by half again, with each bracket reduced to its midpoint as the article chose."
+cite = ["research_labs_2025_cbo_shipbuilding"]
+digest = "6cb9fadb5167a38f"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Consolidation of Prime Contractors"
+gloss = "The counts of prime contractors for surface ships and for missiles three decades ago divided by the counts today show a fall of about three quarters in each sector."
+cite = ["government_dod_2022_competition"]
+digest = "140a7af0465475df"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Serial Replacement Time for Lost Hulls"
+gloss = "Hulls lost are shared among the building yards and each yard completes a hull every build duration divided by the hulls it carries at once, a first-order model of serial construction in which the concurrency is not stated by any public source."
+cite = ["research_cancian_2023_first_battle", "research_labs_2025_cbo_shipbuilding"]
+digest = "093de5b82a546ebe"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Replacement Time for Twelve Surface Combatants"
+gloss = "The serial construction model evaluated for twelve hulls, two yards and a build of eight and a half years gives half a century at one hull per yard and a quarter century at two."
+cite = ["research_cancian_2023_first_battle", "research_labs_2025_cbo_shipbuilding"]
+digest = "01309af4cab43dba"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Undefined Replacement Time for Carriers"
+gloss = "A capacity sufficient only to maintain the current force makes the net replacement rate zero, so the replacement time has no value."
+cite = ["research_cancian_2023_first_battle"]
+digest = "b4fb9e018d5936ef"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Required Growth in Submarine Production"
+gloss = "The target rate of 2.33 boats a year divided by the current rate of 1.2 shows that output must almost double."
+cite = ["research_orourke_2026_virginia_class"]
+digest = "cdc9e61e86d9d0dc"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Annual Shortfall in Submarine Production"
+gloss = "The target rate less the current rate leaves a shortfall of more than one boat a year."
+cite = ["research_orourke_2026_virginia_class"]
+digest = "2f96090698aa3336"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Production Cycle of a Missile Lot"
+gloss = "Administrative lead time, manufacturing lead time and lot completion sum to a cycle of more than four years."
+cite = ["research_cancian_2026_last_rounds"]
+digest = "8c774ff846f9584c"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Surge Rate Relative to Average Procurement"
+gloss = "The surge rate for Patriot interceptors divided by the average procurement of the past decade gives close to a ninefold step."
+cite = ["research_cancian_2026_missile_rebuild"]
+digest = "3187720132e53741"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Surge Rate Relative to Baseline Production"
+gloss = "The same surge rate divided by the current baseline production gives a step of about three."
+cite = ["research_cancian_2026_missile_rebuild"]
+digest = "f0a5d7835ca12af5"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Replacement Time for Expended Tomahawk Missiles"
+gloss = "The number expended divided by recent annual production gives the replacement time of five years at the recent rate."
+cite = ["research_cancian_2026_missile_rebuild"]
+digest = "3d65950136e705fc"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Consolidation of Aerospace Primes and Rocket Motor Suppliers"
+gloss = "The counts before and after consolidation show prime contractors falling by a factor of about ten and solid rocket motor suppliers by a factor of three."
+cite = ["government_dod_2022_competition", "research_rumbaugh_2026_solid_rocket_motors"]
+digest = "f589b767b0bda6d3"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Annual Shipbuilding Hiring Requirement"
+gloss = "The requirement for new workers over a decade divided by ten years gives the average number to be hired each year."
+cite = ["research_gao_2025_shipbuilding_workforce"]
+digest = "eef4c481a1ffd814"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Hiring Requirement Against Current Employment"
+gloss = "The decade's requirement for new workers divided by the industry's direct employment in 2023 compares two different quantities, which is why the text reports them together."
+cite = ["research_gao_2025_shipbuilding_workforce", "data_ustr_2025_maritime"]
+digest = "270d993578f36b28"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Ratio of Peacetime to Surge Replacement Times"
+gloss = "The average replacement time at peacetime rates divided by that at surge rates shows that surging buys a factor of about 1.6."
+cite = ["research_cancian_2021_industrial_mobilization"]
+digest = "e4857530a4b838b6"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Ratio of Replacement Time to Modelled Horizon"
+gloss = "The average surge replacement time converted to days and divided by the 21 days of the invasion game is a figure the article introduces to state the mismatch between the industrial and the wargaming literatures as one number."
+cite = ["research_cancian_2021_industrial_mobilization", "research_cancian_2023_first_battle"]
+digest = "64c126cfb62b88ba"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Compounded Decline in Manufacturing Productivity"
+gloss = "Compounding the stated annual fall in total factor productivity over seven years gives a level about nine percent lower in 1948 than in 1941."
+cite = ["journal_field_2023_manufacturing_productivity"]
+digest = "a77da986603c4fc3"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Ratio of Chinese to American Shipbuilding Capacity"
+gloss = "The tonnage of Chinese capacity on the intelligence slide divided by the American tonnage gives a ratio of about 232."
+cite = ["commentary_twz_2023_oni_slide"]
+digest = "3cf7b9bd55393721"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Growth of the Chinese Share of Global Tonnage"
+gloss = "The Chinese share of global commercial tonnage in 2023 divided by its share in 1999 gives a tenfold rise."
+cite = ["data_ustr_2025_maritime"]
+digest = "61d2c102a1a4ac30"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Ratio of Chinese to American Shipbuilding Output Shares"
+gloss = "The Chinese share of global output divided by the American share gives a ratio of commercial output rather than of warship-building capacity."
+cite = ["research_funaiole_2026_testimony"]
+digest = "f65fcdce13c02fd1"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Share of Bombed Cities in the Japanese Sample"
+gloss = "The 66 bombed cities divided by the 303 in the sample show that about a fifth took the damage."
+cite = ["journal_davis_weinstein_2002"]
+digest = "0baa5dc4b3300eb5"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Ratio of Two Counts of Buildings Destroyed"
+gloss = "The survey's count of buildings destroyed divided by the paper's count shows the survey figure about fourteen percent higher."
+cite = ["government_ussbs_1946_pacific_summary", "journal_davis_weinstein_2002"]
+digest = "85baf869cec45c3b"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Share of West German Cities Never Returning to Trend"
+gloss = "The complement of the share of cities that reverted to trend gives between thirty and fifty percent that did not."
+cite = ["journal_nguyen_2025_german_cities"]
+digest = "ef2d5339f4c10e64"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "German Output and Capacity Indexed to Prewar Years"
+gloss = "Output in 1948 stood at 64 on a prewar base of 100 while industrial capacity stood at 113, so the two moved in opposite directions."
+cite = ["journal_eichengreen_ritschl_2009"]
+digest = "8edc58f77a782444"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Destruction of Buildings Relative to Machine Tools"
+gloss = "The share of floor space destroyed divided by the share of machine tools destroyed shows buildings lost at about four times the rate of the tools inside them."
+cite = ["government_ussbs_1945_overall_report"]
+digest = "9a7e79a217fb8382"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Share of Dwelling Units Destroyed or Seriously Damaged"
+gloss = "The dwelling units destroyed or seriously damaged divided by all units in the 49 larger cities reproduce the survey's 39 percent."
+cite = ["government_ussbs_1945_overall_report"]
+digest = "7d840ea0d4e38446"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Concentration of Bombing Tonnage"
+gloss = "Seventy percent of the tonnage falling on ten percent of districts gives a concentration of seven times the uniform share."
+cite = ["journal_miguel_roland_2011"]
+digest = "c92370121c101cd1"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Annual Investment to Replace Taiwanese Foundry Capacity"
+gloss = "The estimated investment divided by the minimum of three years gives the average annual spending."
+cite = ["data_bcg_sia_2021_value_chain"]
+digest = "1830bd29da822ad3"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Downstream Loss Relative to Foundry Revenue"
+gloss = "The loss to electronic device makers divided by the lost foundry revenue reproduces the published factor of twelve."
+cite = ["data_bcg_sia_2021_value_chain"]
+digest = "cfe1f29bb833d7ae"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Self-Sufficiency Relative to Replacing Taiwan"
+gloss = "The investment for fully self-sufficient regional supply chains divided by the investment to replace Taiwanese capacity gives a factor of about three."
+cite = ["data_bcg_sia_2021_value_chain"]
+digest = "60fe1eaddfed0d52"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Shortfall Against the Referendum Threshold"
+gloss = "The participation threshold less the affirmative votes gives the number by which the referendum fell short."
+cite = ["data_roc_cec_referendums"]
+digest = "507eef461bff92ce"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Ratio of Modelled Horizon to Energy Stocks"
+gloss = "Dividing the 21-day horizon of the invasion game by the days of liquefied natural gas held, and the days of coal by that horizon, is a comparison the article constructs between a wargame and a blockade it does not model."
+cite = ["government_uscc_2025_taiwan_chapter", "research_cancian_2023_first_battle"]
+digest = "9a61ec3b637f7a2f"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Statutory Petroleum Reserve"
+gloss = "The stock held by refiners and importers and the stock held by the government sum to the ninety days the act requires."
+cite = ["government_roc_petroleum_act"]
+digest = "784be7d3d71fcb06"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Food Self-Sufficiency by Value Relative to Calories"
+gloss = "The self-sufficiency ratio measured by value divided by the ratio measured in calories shows Taiwan nearly twice as self-sufficient in the value of its food."
+cite = []
+digest = "95cbb948b22533c8"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Horizons of Gas, Coal and Food"
+gloss = "The days for which gas, coal and food last under a blockade are set in proportion to show that energy, rather than food, binds first."
+cite = ["government_uscc_2025_taiwan_chapter", "journal_ferreira_critelli_2023_food_resiliency"]
+digest = "4adc7af04f5d6381"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Proportional Effect of a Log-Linear Coefficient"
+gloss = "In a gravity model of the logarithm of trade, a coefficient converts to a proportional fall of one less the exponential of the coefficient."
+cite = ["journal_glick_taylor_2010"]
+digest = "e4f7f09b82752894"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Ratio of Durations of the Trade Effect in Two Eras"
+gloss = "The years of significant effect in the later subperiod divided by those in the earlier show that recovery took more than twice as long."
+cite = ["journal_glick_taylor_2010"]
+digest = "1b2bf2ebcee036cf"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Proportional Fall in Trade in the Two World Wars"
+gloss = "The conversion of a log-linear coefficient evaluated for each world war gives falls in trade of about 95 and 94 percent."
+cite = ["journal_glick_taylor_2010"]
+digest = "99196218c5983c62"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Annual Marshall Plan Flow and Share of the Gap Closed"
+gloss = "The total aid divided by four years gives the annual flow, and aid as a share of output divided by the midpoint of the excess demand gap gives the fraction of the gap it closed."
+cite = ["research_delong_eichengreen_1991_marshall"]
+digest = "1c63c47d52ebc6db"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Share of Marshall Plan Funds Expended"
+gloss = "The sum expended divided by the sum made available shows that thirteen percent remained unspent at the final report."
+cite = ["government_eca_1951_thirteenth_report"]
+digest = "97aef4601cadba49"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Reconstruction Needs Relative to Direct Damage"
+gloss = "Total reconstruction and recovery needs divided by direct damage give a dimensionless multiple near three."
+cite = ["research_world_bank_2025_rdna4"]
+digest = "286bd2efa8321e46"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Reconstruction Needs Relative to Annual Output"
+gloss = "The assessment states the needs as about 2.8 times the nominal gross domestic product of Ukraine for 2024."
+cite = ["research_world_bank_2025_rdna4"]
+digest = "a826c27ed8242b8d"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Housing Needs Relative to Housing Damage"
+gloss = "Housing needs divided by housing damage give a multiple roughly half the economy-wide figure."
+cite = ["research_world_bank_2025_rdna4"]
+digest = "1127d9aefccdd9f6"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Housing Stock and Output Against Their Baselines"
+gloss = "The share of housing still standing is at least 87 percent because the 13 percent lost includes repairable units, while real output stands near 78 percent of its 2021 level."
+cite = ["research_world_bank_2025_rdna4"]
+digest = "fec0a8a439b44ac4"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Growth of Direct Damage Between Assessments"
+gloss = "The change in direct damage divided by the earlier assessment reproduces the reported growth of 15.5 percent."
+cite = ["research_world_bank_2025_rdna4"]
+digest = "eda9e722b7b90eb8"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Average Daily Rate of Reconstruction Expenditure"
+gloss = "Expenditure divided by the days in nine years gives the average daily rate of reconstruction spending in Iraq."
+cite = ["research_sigir_2013_learning_from_iraq"]
+digest = "ca3828f348ad32da"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Share of the Aid Claim Repaid by Japan"
+gloss = "The settlement divided by the claim after deductions shows that Japan repaid a little over a quarter."
+cite = ["government_frus_1962_garioa_settlement"]
+digest = "ae3cfdfc2f185924"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Sum of Post-Tenure Fates After Irregular Removal"
+gloss = "The four published shares sum to 101 rather than 100, which the paper attributes to rounding."
+cite = ["journal_goemans_2008_which_way_out"]
+digest = "226bf840e9310641"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Change in the Risk of Irregular Removal"
+gloss = "Defeat raises the chance of irregular removal by about three percentage points, while a draw lowers it from 27 percent to 14 percent."
+cite = ["journal_goemans_2008_which_way_out"]
+digest = "c7973b262c25f816"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Sum of Exit Categories in the Leader Dataset"
+gloss = "The published shares of each manner of exit from office sum to 100 percent."
+cite = ["journal_goemans_2009_archigos"]
+digest = "6b44d17b05041f65"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Share of Territorial Disputes Settled by China"
+gloss = "Seventeen disputes settled out of 23 give a share of about three quarters."
+cite = ["journal_fravel_2005_regime_insecurity"]
+digest = "68110598d3c042dd"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Garrison Requirement for Taiwan"
+gloss = "The force ratio of twenty security personnel per thousand inhabitants is applied to Taiwan's registered population, which assumes a garrison model and transfers a ratio drawn from much smaller cases."
+cite = ["research_quinlivan_2003_burden_of_victory", "data_moi_2026_taiwan_population"]
+digest = "4125804337790ef9"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Total Force to Sustain the Garrison"
+gloss = "The rule of five personnel in the force for each one deployed is applied to the garrison requirement of the article's own calculation."
+cite = ["research_quinlivan_2003_burden_of_victory"]
+digest = "5dac7c0f4aaf3c49"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Garrison Requirement Relative to the Invasion Force"
+gloss = "The garrison requirement of the article's own calculation divided by the troops landed in a public campaign model shows the occupation needing more personnel than the invasion."
+cite = ["research_stewart_2023_island_blitz"]
+digest = "0714ca12c81e5d50"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Required Force Ratio Relative to Iraq in 2003"
+gloss = "The required ratio of twenty per thousand divided by the 6.1 per thousand fielded in Iraq gives a factor of more than three."
+cite = ["research_quinlivan_2003_burden_of_victory"]
+digest = "6921906ee69173eb"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Indirect Relative to Direct Toll of a Nuclear War"
+gloss = "People without food at the end of year two divided by direct fatalities give the ratio of the indirect to the direct toll in each soot scenario."
+cite = ["journal_xia_2022_nature_food"]
+digest = "63958dd69e315110"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Scaling of the Toll with the Soot Load"
+gloss = "The ratios of soot, direct deaths and people without food between the largest and smallest scenarios show the indirect toll growing faster than the direct one."
+cite = ["journal_xia_2022_nature_food"]
+digest = "d1b13635bb6e0e2c"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Chinese Calorie Loss Relative to the Global Average"
+gloss = "The fall in Chinese food calorie availability divided by the global average fall at five teragrams shows China losing over seventy percent more."
+cite = ["journal_xia_2022_nature_food"]
+digest = "f49b1c8f0cdbf81b"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Scaling of Maize Loss with the Soot Load"
+gloss = "The fall in maize production at 150 teragrams divided by the fall at five teragrams gives a factor of about eleven."
+cite = ["journal_shi_2025_adapting_agriculture"]
+digest = "f595c87d15a46742"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Simulated Black Carbon Relative to the Assumed Load"
+gloss = "The black carbon produced in the firestorm simulations divided by the load the earlier scenario injects gives a ratio of about three quarters."
+cite = ["journal_reisner_2018"]
+digest = "8559eb267c84f98d"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Preference for an Indigenous Arsenal"
+gloss = "The share of South Koreans preferring an indigenous weapon divided by the share preferring redeployed American weapons gives a ratio of more than seven to one."
+cite = ["data_chicago_council_2022_south_korea"]
+digest = "d22f240c8050e754"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Ratio of Chinese to American Battle Force Ships"
+gloss = "The cited Chinese battle force count divided by the American count gives a ratio that the text shows rests on a 2023 projection."
+cite = ["journal_nemeth_2026_suez_moment"]
+digest = "157a1b0932169409"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Recomputed Ratio of Battle Force Ships"
+gloss = "The 2023 measurement of the Chinese fleet divided by the 2026 American count gives a smaller ratio on quantities three years apart."
+cite = ["government_dod_2023_china_report", "government_navy_2026_shipbuilding_plan"]
+digest = "4fd6d843072dbe24"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Settlement Rates of Interstate and Civil Wars"
+gloss = "The share of interstate wars resolved by negotiation divided by the share of civil wars gives a factor of nearly three."
+cite = ["journal_walter_1997_critical_barrier"]
+digest = "9323c1b827e8362b"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Human Relative to Physical Capital Shocks"
+gloss = "The effect of a human-capital shock on scientific output divided by that of a physical-capital shock of the same size gives a factor of four."
+cite = ["journal_waldinger_2016_bombs_brains"]
+digest = "704576e1a0967f11"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Range in Fuel Loading"
+gloss = "The fuel loading at which black carbon reaches the stratosphere divided by the loading that produces no forcing gives a sixteenfold range."
+cite = ["journal_wagman_2020_multiscale"]
+digest = "fff287a0474138b1"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Share of Latent Nuclear States That Built Arsenals"
+gloss = "Ten arsenals among 31 states with the capacity to build them give a share under one third."
+cite = ["journal_fuhrmann_tkach_2015_nuclear_latency"]
+digest = "0c9a48d04f6226df"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Measured Relative to Assumed Learning Rates"
+gloss = "The low and high ends of the measured learning rate divided by the matching ends of the assumed rate give between a third and a half."
+cite = ["journal_knezevic_2026_capacity_gap"]
+digest = "dfbe3d5df69fd526"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Spread of Headline Welfare Loss Estimates"
+gloss = "The highest headline welfare loss divided by the lowest gives a spread of about three before any disagreement about scenario."
+cite = ["journal_goes_bekkers_2022_geopolitical_conflicts", "journal_javorcik_2024_friendshoring"]
+digest = "9b72785e58f05390"
+
+[[symbol]]
+tex = 'T_g'
+meaning = "the campaign horizon the invasion game models, with $T_w$ the duration of the war the report describes"
+
+[[symbol]]
+tex = 'T'
+meaning = "a replacement or exhaustion time"
+
+[[symbol]]
+tex = 'L'
+meaning = "the number of aircraft or hulls lost"
+
+[[symbol]]
+tex = '\dot{q}'
+meaning = "the annual procurement rate, with $\\dot{q}_{\\text{net}}$ the rate net of programmed construction"
+
+[[symbol]]
+tex = 'n'
+meaning = "the number of yards building a class of ship"
+
+[[symbol]]
+tex = 'B'
+meaning = "the build duration of one hull in years"
+
+[[symbol]]
+tex = 'k'
+meaning = "the number of hulls a yard builds concurrently, which no public source states"
+
+[[symbol]]
+tex = 'Y_{1948}'
+meaning = "German output in 1948 indexed to 1938, written $Y$ for Ukrainian real output as a percentage of 2021 in Equation 50"
+
+[[symbol]]
+tex = 'K_{1948}'
+meaning = "German industrial capacity in 1948 indexed to 1936, written $K$ for the Ukrainian housing stock as a percentage of its baseline in Equation 50"
+
+[[symbol]]
+tex = 'T_{\text{LNG}}'
+meaning = "the days of liquefied natural gas held by Taiwan, with $T_{\\text{coal}}$ the days of coal"
+
+[[symbol]]
+tex = '\Delta_{\text{defeat}}'
+meaning = "the change in the chance of irregular removal from office that follows defeat"
+
+[[symbol]]
+tex = 'F'
+meaning = "the number of security personnel required to garrison Taiwan"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the required force ratio in security personnel per thousand inhabitants"
+
+[[symbol]]
+tex = 'P'
+meaning = "the registered population of Taiwan"

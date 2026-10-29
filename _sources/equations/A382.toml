@@ -1,0 +1,399 @@
+# Equation classification for A382, Solar Sailing.
+
+caution = "Fluxes are in watts per square metre and sail loadings are quoted in grams per square metre, so a loading must be converted to kilograms per square metre before it enters an equation with the speed of light, and the star's gravitational parameter appears in two equivalent notations."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Photon Momentum and Radiation Pressure"
+gloss = "Light of energy flux S carries momentum flux S over c, so an absorber feels that pressure and a perfect mirror at normal incidence feels twice it."
+cite = ["ref_radiation_pressure"]
+digest = "11bbf785bc1ea002"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Dynamic Pressure of the Solar Wind"
+gloss = "The pressure of the solar wind is its momentum flux, the product of the proton number density, the proton mass and the square of the wind speed."
+cite = ["ref_solar_wind"]
+digest = "412457f9d3e4e966"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Force on a Perfectly Reflecting Flat Sail"
+gloss = "A flat mirror intercepts light over its projected area and is pushed along its normal by twice the normal component of the intercepted momentum, which gives a force proportional to the square of the cosine of the cone angle."
+cite = []
+digest = "f2a90937c2eb0cab"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Characteristic Acceleration and Lightness Number"
+gloss = "The characteristic acceleration is that of an ideal sail facing the Sun at one astronomical unit, and the lightness number is its ratio to the Sun's gravity at the same distance."
+cite = ["ref_solar_sail"]
+digest = "23de627b0d209d04"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Equation of Motion of an Ideal Sail"
+gloss = "The acceleration of an ideal sail is solar gravity plus a radiation term that is the lightness number times gravity scaled by the square of the cosine of the cone angle."
+cite = []
+digest = "04df267287186c22"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Inverse-Square Flux and Radiation Pressure of a Star"
+gloss = "A star's luminosity spread over a sphere gives the flux at any distance, and dividing by the speed of light gives the pressure on an absorber."
+cite = []
+digest = "f63178ffa1f8d7f8"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Force on a Partially Reflecting Sail"
+gloss = "A sail that reflects a fraction of the light specularly and absorbs the rest is pushed along the Sun line by the absorbed part and along its normal by the reflected part, with transmission and diffuse reflection neglected."
+cite = []
+digest = "55bd0b5556e93d85"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Normal and Transverse Force Components and the Force Angle"
+gloss = "Resolving the force on a partially reflecting sail along its normal and in its plane shows that the net force is tilted from the normal toward the Sun line by an angle that grows with the absorbed fraction."
+cite = []
+digest = "16eabd0ae51b5ee7"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Lightness Number for Any Star"
+gloss = "The ratio of the face-on radiation force to the star's gravitational pull on the craft is independent of distance and depends on the star only through the ratio of its luminosity to its mass."
+cite = []
+digest = "a0e2af48e599bbcc"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Critical Sail Loading"
+gloss = "The critical loading is the mass per unit area at which a perfectly reflecting face-on sail feels a radiation force exactly equal to the star's gravity."
+cite = []
+digest = "c3e22542d899aa44"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "General Equation of Motion of a Sail"
+gloss = "Gravity and the force on a partially reflecting sail of possibly varying area combine into one equation of motion from which the remaining results of the article follow."
+cite = []
+digest = "96e28543f729d910"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Reduced Gravity of a Face-On Sail"
+gloss = "A sail held face-on pushes only along the Sun line, so it acts as a reduction of the star's gravitational parameter by the factor one minus the lightness number."
+cite = []
+digest = "f86016995a6b05ee"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Escape Speed of a Sail Opened on a Circular Orbit"
+gloss = "Opening the sail reduces the effective gravity by the factor one minus the lightness number, and energy conservation then gives the speed far from the star."
+cite = []
+digest = "8d886f293c75a3a5"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Departure Speed After a Face-On Perihelion Pass"
+gloss = "A sail that falls under gravity alone to its closest distance and turns face-on there leaves with the excess speed that energy conservation gives under the reduced solar gravity."
+cite = []
+digest = "f40f7f9ca5c4195a"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Spiral Time at a Fixed Cone Angle"
+gloss = "Gauss's equation for the rate of change of the orbit's size, applied to a nearly circular orbit at a small lightness number, gives the time to spiral between two radii at a fixed cone angle."
+cite = []
+digest = "8d04ea77ce73c133"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Delta-v of a Slow Spiral"
+gloss = "A slow spiral between circular orbits costs the difference of the two circular speeds, which a sail pays in time rather than in propellant."
+cite = ["related_post_orbital_manoeuvres_spirals"]
+digest = "27936e89527d9e67"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Equilibrium Temperature of a Sail"
+gloss = "A sail element balances the sunlight it absorbs against thermal emission from both faces, so its temperature depends on the flux and the coatings but not on the area or the loading."
+cite = []
+digest = "eb24584fa45817f7"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Closest Approach Set by a Temperature Limit"
+gloss = "Inverting the equilibrium temperature at its maximum allowed value gives the largest tolerable flux and therefore the closest distance to the star."
+cite = []
+digest = "c6dfa3ce8a1e2ed6"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "First-Order Doppler Reduction of the Force"
+gloss = "Light reaching a sail receding at a significant fraction of light speed is reduced in both photon energy and arrival rate, which lowers the force by the stated factor to first order."
+cite = []
+digest = "eb84ef3b3c66c103"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Characteristic Acceleration and Lightness Number in Practical Units"
+gloss = "Evaluating the characteristic acceleration at one astronomical unit with the loading in grams per square metre and an efficiency factor gives the working relations quoted by the cited source."
+cite = ["ref_solar_sail"]
+digest = "25a2033e8ffeae71"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Lightness Number at Another Star"
+gloss = "A given sail's lightness number scales with the ratio of the star's luminosity to its mass, which on the middle of the main sequence rises roughly as the cube of the stellar mass through the mass-luminosity relation."
+cite = ["ref_mass_luminosity_relation"]
+digest = "294465a55b5a57e0"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Total Loading and Required Sail Area for a Payload"
+gloss = "The loading of the whole craft is the film loading plus the payload spread over the sail area, so a target lightness number fixes the smallest area that can carry a given payload."
+cite = []
+digest = "c45ccc331245ab3c"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Fastest Departure Limited by Heat Tolerance"
+gloss = "Combining the closest approach that the temperature limit allows with the close-pass departure in the limit of an orbit pumped to escape gives a ceiling on departure speed that depends on the star only through its luminosity."
+cite = []
+digest = "e478dc70a25c1f12"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Solid Volume of a Film"
+gloss = "The solid volume of a sail film is its area times its thickness, a lower bound that any fold pattern exceeds by a packing factor."
+cite = []
+digest = "3cb9782a99e7c272"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Stopping Distance with Starlight"
+gloss = "A face-on sail with a lightness number above one approaching a star exactly head-on stops where its kinetic energy equals the net repulsive potential, under the stated head-on geometry and a constant face-on attitude."
+cite = []
+digest = "47b71a7680863c01"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Fastest Arrival That Starlight Can Stop"
+gloss = "Requiring the head-on stopping distance to be no closer than a chosen limit gives the largest arrival speed a sail can shed, which for a large lightness number depends on the star only through its luminosity."
+cite = []
+digest = "e4837463ae3fa961"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Conditions for Lowering the Effective Lightness Number Below One"
+gloss = "The radial push of a tilted ideal sail falls below gravity beyond a cone angle set by the lightness number, and a retracted sail does the same when its area falls by more than that number."
+cite = []
+digest = "cbc993f7f2fa8af6"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Rate of Accumulation of Delta-v Along a Steered Direction"
+gloss = "A sail accumulates delta-v along a chosen direction at the face-on acceleration times the largest fraction of it available in that direction."
+cite = []
+digest = "4f25da81c22c6055"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Radial Force Component of an Ideal Sail"
+gloss = "The component of an ideal sail's force along the direction away from the star is never negative, so the force always lies within a cone around that direction."
+cite = []
+digest = "1939bad238d39bc4"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Optimal Cone Angle for a Desired Thrust Direction"
+gloss = "Maximizing the component of an ideal sail's force along a direction at a given angle from the anti-star direction gives the stated condition on the cone angle."
+cite = []
+digest = "3e3ead7b20598172"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Gauss Perturbation Equations for a Nearly Circular Orbit"
+gloss = "A small acceleration along the velocity changes the semi-major axis, and a small acceleration normal to the plane changes the inclination at a rate that follows the cosine of the angle from the ascending node."
+cite = []
+digest = "e0a9bf90f31c92ea"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Inclination Change per Orbit Under a Switched Steering Law"
+gloss = "Tilting the sail normal out of the orbital plane at the cone angle of greatest transverse force and switching sides at each node averages the inclination rate over one orbit, which assumes a nearly circular orbit and this particular steering law."
+cite = []
+digest = "24d7a3e1298b1472"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Lower Bound on Spiral Escape Time from a Planetary Orbit"
+gloss = "Dividing the slow-spiral cost from a circular orbit to escape by the characteristic acceleration bounds the escape time from below, ignoring the shadow and the part of each orbit in which the sail cannot thrust along its velocity."
+cite = ["related_post_orbital_manoeuvres_spirals"]
+digest = "14b76b6b667372ea"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Limits on Capture During a Flyby and on Lifting from a Surface"
+gloss = "The largest velocity change during a crossing of a sphere of influence is the face-on acceleration times the crossing time, and the largest loading that can lift itself is the one whose face-on radiation acceleration equals surface gravity, both bounds the article constructs from earlier results."
+cite = ["related_post_orbital_manoeuvres_patched"]
+digest = "7506da199234f1e4"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Bound on the Sunward Force from a Distant Star"
+gloss = "Because reflection adds only a non-negative term and steady re-emission cannot exceed absorption, the article's momentum argument shows that the force on a sail never has a component toward a distant point source."
+cite = []
+digest = "fcc71451d1e71bf6"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Rocket Equation with the Sail as Dry Mass"
+gloss = "A secondary engine obeys the rocket equation with the sail counted as part of the dry mass, so carrying the sail lowers the delta-v of every burn."
+cite = ["related_post_orbital_manoeuvres_rocket"]
+digest = "1919887cfa39f252"
+
+[[symbol]]
+tex = 'c'
+meaning = "the speed of light"
+
+[[symbol]]
+tex = 'S(r)'
+meaning = "the flux of starlight at distance $r$, written $S$ where the distance is understood, with $S_{0}$ the flux at one astronomical unit"
+
+[[symbol]]
+tex = 'P(r)'
+meaning = "the radiation pressure on an absorber at distance $r$"
+
+[[symbol]]
+tex = 'A'
+meaning = "the area of the sail, with $A_{0}$ the full area of a retractable sail"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the loading of the whole craft, its total mass per unit area of sail, with $\\sigma_{s}$ the loading of the film alone"
+
+[[symbol]]
+tex = '\sigma^{\ast}'
+meaning = "the critical loading at which a perfectly reflecting face-on sail has a lightness number of one"
+
+[[symbol]]
+tex = 'a_{c}'
+meaning = "the characteristic acceleration of a sail facing the Sun at one astronomical unit"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the lightness number of a sail, the ratio of the face-on radiation force to the star's gravity"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the star, equal to $GM$, with $\\mu_{\\odot}$ for the Sun"
+
+[[symbol]]
+tex = 'L'
+meaning = "the luminosity of the star, in solar units in Equation 21"
+
+[[symbol]]
+tex = 'M'
+meaning = "the mass of the star, in solar units in Equation 21"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the cone angle between the sail normal and the direction from the star to the sail"
+
+[[symbol]]
+tex = '\hat{n}'
+meaning = "the unit normal of the sail, pointing away from the star, with $\\hat{u}$ the unit vector from the star to the sail and $\\hat{t}$ the transverse unit vector in the sail's plane"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the specular reflectance of the sail"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the angle between the net force and the sail normal"
+
+[[symbol]]
+tex = '\varepsilon_{f}'
+meaning = "the emissivity of the sail's front face, with $\\varepsilon_{b}$ that of its back face"
+
+[[symbol]]
+tex = '\sigma_{\mathrm{SB}}'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 'F_{\max}'
+meaning = "the largest flux a sail tolerates, set by its maximum temperature $T_{\\max}$"
+
+[[symbol]]
+tex = 'q'
+meaning = "the closest distance of a sail to the star, with $q_{\\min}$ the closest the temperature limit allows"
+
+[[symbol]]
+tex = 'k'
+meaning = "the transverse force factor $\\cos^{2}\\alpha\\sin\\alpha$, which is 0.385 at the cone angle of greatest transverse force"
+
+[[symbol]]
+tex = 'v_{\infty}'
+meaning = "the hyperbolic excess speed, the speed far from the star or planet"
+
+[[symbol]]
+tex = 'r_{s}'
+meaning = "the distance at which a sail approaching head-on comes to rest"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the efficiency of a real sail relative to an ideal one"
+
+[[symbol]]
+tex = 'a_{t}'
+meaning = "the acceleration along the velocity, with $a_{h}$ the acceleration normal to the orbital plane and $u$ the angle from the ascending node"
+
+[[symbol]]
+tex = 'f(\theta)'
+meaning = "the largest fraction of the face-on force available along a direction at angle $\\theta$ from the anti-star direction"
+
+[[symbol]]
+tex = 'm_{p}'
+meaning = "the proton mass in Equation 2 and the propellant mass in Equation 36, with $m_{d}$ the dry mass and $m_{s}$ the sail mass"
+
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the exhaust speed of a secondary engine"

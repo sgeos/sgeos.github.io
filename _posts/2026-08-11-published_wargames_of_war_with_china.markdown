@@ -70,6 +70,7 @@ since $1{,}404.89 + 3.39 = 1{,}408.28$.
 
 $$
 P_1 = P_0 + B - D + M
+\tag{1}
 $$
 
 Substituting the published values gives the migration term the other figures imply.
@@ -78,6 +79,7 @@ $$
 1{,}404.89 = 1{,}408.28 + 7.92 - 11.31 + M
 \quad\Rightarrow\quad
 M \approx 0.00
+\tag{2}
 $$
 
 Births less deaths account for the entire reported decrease to the precision published,
@@ -89,6 +91,7 @@ against a decrease of 1.39 million.
 
 $$
 B_{2024} - D_{2024} = 9.54 - 10.93 = -1.39
+\tag{3}
 $$
 
 Natural decrease accounts for the whole of that year as well.
@@ -96,6 +99,7 @@ Setting the two decreases side by side shows how fast the decline is steepening.
 
 $$
 \frac{3.39}{1.39} \approx 2.44
+\tag{4}
 $$
 
 The 2025 decrease is roughly two and a half times the 2024 decrease,
@@ -112,6 +116,7 @@ $$
 b = 1000 \, \frac{B}{\bar{P}},
 \qquad
 d = 1000 \, \frac{D}{\bar{P}}
+\tag{5}
 $$
 
 With $\bar{P} = 1{,}406.585$ million,
@@ -121,6 +126,7 @@ $$
 b = 1000 \times \frac{7.92}{1{,}406.585} \approx 5.63,
 \qquad
 d = 1000 \times \frac{11.31}{1{,}406.585} \approx 8.04
+\tag{6}
 $$
 
 Both match the published rates,
@@ -129,6 +135,7 @@ The natural growth rate $r_n$ per thousand is the difference of the two rates.
 
 $$
 r_n = b - d = 5.63 - 8.04 = -2.41 \ \text{per thousand}
+\tag{7}
 $$
 
 That also matches the printed figure.
@@ -136,6 +143,7 @@ As a proportion of the starting population the annual decline is small.
 
 $$
 \frac{3.39}{1{,}408.28} \approx 0.24 \ \text{percent}
+\tag{8}
 $$
 
 The demographic argument therefore rests on the direction and persistence of the trend
@@ -151,6 +159,7 @@ the proportional decline is as follows.
 
 $$
 \frac{m_{2023} - m_{2024}}{m_{2023}} = \frac{7.68 - 6.1}{7.68} \approx 0.206
+\tag{9}
 $$
 
 The ministry's own bulletin,
@@ -166,6 +175,7 @@ The marriage rate should be the registrations against the year-end population.
 
 $$
 1000 \times \frac{6.106}{1{,}408.28} \approx 4.34 \ \text{per thousand}
+\tag{10}
 $$
 
 That agrees with the published 4.3.
@@ -173,6 +183,7 @@ The ratio of divorces concluded to marriages registered follows from the same bu
 
 $$
 \frac{3.513}{6.106} \approx 0.575
+\tag{11}
 $$
 
 The bulletin's account also names the cause that demography alone would predict.
@@ -184,6 +195,7 @@ $$
 435 - 371 = 64 \ \text{million},
 \qquad
 \frac{64}{435} \approx 0.147
+\tag{12}
 $$
 
 A seventh of the marrying-age cohort disappeared in a decade,
@@ -197,12 +209,14 @@ and $N_{15\text{ to }64}$ for the number aged 15 to 64.
 
 $$
 R_{\text{old}} = \frac{N_{65+}}{N_{15\text{ to }64}}
+\tag{13}
 $$
 
 The study projects $R_{\text{old}}$ rising from 0.21 in 2024 to 0.52 by 2050.
 
 $$
 \frac{0.52}{0.21} \approx 2.48
+\tag{14}
 $$
 
 The ratio therefore more than doubles.
@@ -211,6 +225,7 @@ the implied compound growth rate $g$ per year is as follows.
 
 $$
 g = \left( \frac{0.52}{0.21} \right)^{1/26} - 1 \approx 0.0355
+\tag{15}
 $$
 
 The ratio grows by about 3.5 percent a year.
@@ -223,6 +238,7 @@ $$
 4.76 & \text{in 2024} \\
 1.92 & \text{in 2050}
 \end{cases}
+\tag{16}
 $$
 
 Fewer than two working-age adults would stand behind each older person by 2050,
@@ -269,6 +285,7 @@ so a loss of 200 million implies a 2020 base of about 945 million.
 
 $$
 745 + 200 = 945
+\tag{17}
 $$
 
 O'Hanlon's independent account has the working-age population peaking above 900 million in 2011
@@ -369,6 +386,7 @@ Counting from the year of that testimony gives the date the literature returns t
 
 $$
 2021 + 6 = 2027
+\tag{18}
 $$
 
 The Heritage summary discussed below says in its own words that
@@ -400,6 +418,7 @@ the counts reconcile with the stated total.
 
 $$
 N = N_{\text{base}} + N_{\text{pess}} + N_{\text{opt}} + N_{\text{alone}} = 3 + 18 + 2 + 1 = 24
+\tag{19}
 $$
 
 The outcomes are less one-sided than the summary finding suggests.
@@ -417,6 +436,7 @@ $$
 24 = \underbrace{(3 + 2 + 4)}_{\text{decisive defeat}} + \underbrace{14}_{\text{stalemate}} + \underbrace{1}_{\text{PLA victory}},
 \qquad
 14 = 3 + 7 + 4
+\tag{20}
 $$
 
 Take $f_k$ as the fraction of all iterations ending in outcome $k$,
@@ -424,6 +444,7 @@ with $n_k$ the count of such iterations.
 
 $$
 f_k = \frac{n_k}{N}
+\tag{21}
 $$
 
 The three outcome classes then take the following shares.
@@ -434,6 +455,7 @@ f_{\text{defeat}} = \frac{9}{24} = 0.375,
 f_{\text{stalemate}} = \frac{14}{24} \approx 0.583,
 \qquad
 f_{\text{victory}} = \frac{1}{24} \approx 0.042
+\tag{22}
 $$
 
 Stalemate was the most common single outcome across the project.
@@ -442,6 +464,7 @@ decisive defeat fell to a little over a fifth.
 
 $$
 \frac{4}{18} \approx 0.22
+\tag{23}
 $$
 
 No iteration with prompt American intervention and access to bases in Japan produced a Chinese occupation of Taipei.
@@ -482,6 +505,7 @@ $$
 A_{\text{US}} + A_{\text{JP}} = 270 + 112 = 382,
 \qquad
 S_{\text{US}} + S_{\text{JP}} = 17 + 26 = 43
+\tag{24}
 $$
 
 In every base iteration the United States lost two aircraft carriers
@@ -503,6 +527,7 @@ $$
 S_{\text{CN}} = S_{\text{amph}} + S_{\text{other}} = 86 + 52 = 138,
 \qquad
 F_{\text{amph}} \approx \frac{S_{\text{amph}}}{0.9} = \frac{86}{0.9} \approx 96
+\tag{25}
 $$
 
 The game's Chinese amphibious fleet was therefore on the order of ninety to one hundred ships,
@@ -510,6 +535,7 @@ and amphibious ships made up about 62 percent of China's naval losses.
 
 $$
 \frac{S_{\text{amph}}}{S_{\text{CN}}} = \frac{86}{138} \approx 0.62
+\tag{26}
 $$
 
 The invasion was defeated by sinking its lift,
@@ -524,6 +550,7 @@ $$
 E_S = \frac{S_{\text{CN}}}{S_{\text{US}} + S_{\text{JP}}} = \frac{138}{43} \approx 3.2,
 \qquad
 E_A = \frac{A_{\text{CN}}}{A_{\text{US}} + A_{\text{JP}}} = \frac{155}{382} \approx 0.41
+\tag{27}
 $$
 
 China lost about three ships for every coalition ship
@@ -543,6 +570,7 @@ Denote by $K$ the implied number of Chinese dead.
 
 $$
 K \approx \frac{7000}{3} + \frac{15000}{2} \approx 2{,}300 + 7{,}500 \approx 9{,}800
+\tag{28}
 $$
 
 The report adds that many,
@@ -554,6 +582,7 @@ the sum is an order of magnitude rather than a bound.
 
 $$
 K + C \sim 9{,}800 + 30{,}000 \approx 40{,}000
+\tag{29}
 $$
 
 The phrase tens of thousands of troops killed or captured is therefore accurate for killed and captured together,
@@ -576,6 +605,7 @@ $$
 \mu_{A,\text{CN}} = \frac{327}{155} \approx 2.11,
 \qquad
 \mu_{S,\text{CN}} = \frac{113}{138} \approx 0.82
+\tag{30}
 $$
 
 Worse assumptions for the defenders roughly doubled China's aircraft losses
@@ -587,6 +617,7 @@ $$
 E_S^{\text{pess}} = \frac{113}{14 + 14} \approx 4.0,
 \qquad
 E_A^{\text{pess}} = \frac{327}{484 + 161} \approx 0.51
+\tag{31}
 $$
 
 The fighting became bloodier in the air for every party,
@@ -635,6 +666,7 @@ The outcomes were as follows.
 
 $$
 5 + 1 + 3 + 5 + 1 = 15
+\tag{32}
 $$
 
 In twelve games the China team reached a crisis as its invasion force faced defeat,
@@ -657,6 +689,7 @@ $$
 \frac{G_n}{G_c} = \frac{7}{12} \approx 0.58,
 \qquad
 \frac{U_{\text{CN}}}{U} = \frac{7}{8} = 0.875
+\tag{33}
 $$
 
 A China team that reached a crisis recommended nuclear use a little more often than not,
@@ -665,6 +698,7 @@ The seven recommendations then resolved as follows.
 
 $$
 7 = \underbrace{2}_{\text{United States withdrew}} + \underbrace{1}_{\text{total counterforce, enclave}} + \underbrace{3}_{\text{countervalue, conflagration}} + \underbrace{1}_{\text{strike on operational targets}}
+\tag{34}
 $$
 
 Countervalue responses against Chinese cities always escalated to the deaths of hundreds of millions.
@@ -684,6 +718,7 @@ $$
 \frac{270}{382} \approx 0.71,
 \qquad
 \frac{20}{43} \approx 0.47
+\tag{35}
 $$
 
 About seven in ten aircraft losses and about half of ship losses would fall in the first week.
@@ -714,6 +749,7 @@ and declined to name winners.
 
 $$
 21 + 5 = 26
+\tag{36}
 $$
 
 Almost every scenario produced casualties,
@@ -732,6 +768,7 @@ $$
 \frac{L_{\text{co}}^{\text{wide}}}{L_{\text{co}}^{\text{low}}} = \frac{20{,}529}{2{,}256} \approx 9.1,
 \qquad
 \frac{L_{\text{CN}}^{\text{wide}}}{L_{\text{CN}}^{\text{low}}} = \frac{13{,}515}{206} \approx 65.6
+\tag{37}
 $$
 
 Escalation raised China's losses proportionally far more than the coalition's.
@@ -741,6 +778,7 @@ $$
 \frac{L_{\text{co}}^{\text{low}}}{L_{\text{CN}}^{\text{low}}} = \frac{2{,}256}{206} \approx 11.0,
 \qquad
 \frac{L_{\text{co}}^{\text{wide}}}{L_{\text{CN}}^{\text{wide}}} = \frac{20{,}529}{13{,}515} \approx 1.52
+\tag{38}
 $$
 
 In a submarine and mine blockade the defenders absorbed about eleven casualties for each Chinese casualty,
@@ -766,6 +804,7 @@ p_k = (1 - 0.4)^k = 0.6^k,
 p_2 = 0.36,
 \qquad
 p_4 \approx 0.13
+\tag{39}
 $$
 
 Under that assumption a ship making only two runs would already be more likely than not to be sunk,
@@ -782,6 +821,7 @@ the exhaustion time $T$ is the stock divided by the net drawdown.
 
 $$
 T = \frac{I}{c - s}, \qquad c > s
+\tag{40}
 $$
 
 The report states exhaustion times rather than stocks and rates,
@@ -793,6 +833,7 @@ $$
 \frac{T_{\text{coal}}}{T_{\text{gas}}} = \frac{49}{10} \approx 4.9,
 \qquad
 \frac{T_{\text{oil}}}{T_{\text{gas}}} = \frac{140}{10} = 14
+\tag{41}
 $$
 
 Because gas runs out first,
@@ -816,6 +857,7 @@ and the Tomahawk Land Attack Missile or TLAM.
 
 $$
 4000_{\text{JASSM}} + 450_{\text{LRASM}} + 400_{\text{Harpoon}} + 400_{\text{TLAM}} = 5250
+\tag{42}
 $$
 
 The sum confirms the report's more than 5,000.
@@ -824,12 +866,14 @@ the average expenditure rate $\dot{m}$ across all four types follows.
 
 $$
 \dot{m} = \frac{5250}{21} = 250 \ \text{missiles per day}
+\tag{43}
 $$
 
 The Long Range Anti-Ship Missile was a small share of the total by number.
 
 $$
 \frac{450}{5250} \approx 0.086
+\tag{44}
 $$
 
 It still mattered most,
@@ -845,6 +889,7 @@ $$
 T_{\text{ex}} = \frac{I_{\text{LRASM}}}{\dot{m}_{\text{LRASM}}} \le 7 \ \text{days}
 \quad\Rightarrow\quad
 \dot{m}_{\text{LRASM}} \ge \frac{450}{7} \approx 64 \ \text{missiles per day}
+\tag{45}
 $$
 
 The rate is a lower bound because the inventory was gone within the week, possibly well before its end.
@@ -909,6 +954,7 @@ $$
 \frac{120}{90} \approx 1.33,
 \qquad
 \frac{140}{90} \approx 1.56
+\tag{46}
 $$
 
 The summary further notes that 43 percent of China's oil imports come from the Gulf region,
@@ -973,6 +1019,7 @@ all in trillions of dollars except $\ell$.
 
 $$
 W = \frac{\Delta Y}{\ell}
+\tag{47}
 $$
 
 The two Bloomberg runs give the following bases.
@@ -981,6 +1028,7 @@ $$
 W_{2024} \approx \frac{10}{0.102} \approx 98,
 \qquad
 W_{2026} \approx \frac{10.6}{0.096} \approx 110
+\tag{48}
 $$
 
 Both are plausible magnitudes for world output in the years concerned,
@@ -995,6 +1043,7 @@ bounded by pairing the ends of the two published ranges.
 
 $$
 \frac{25}{10} = 2.5 \;\le\; \frac{L_{\text{China}}}{L_{\text{United States}}} \;\le\; \frac{35}{5} = 7
+\tag{49}
 $$
 
 The three estimates can then be set side by side.
@@ -1006,6 +1055,7 @@ $$
 \dfrac{16.7}{6.7} \approx 2.5 & \text{Bloomberg 2024} \\[2ex]
 \dfrac{11}{6.6} \approx 1.7 & \text{Bloomberg 2026}
 \end{cases}
+\tag{50}
 $$
 
 The ratio has fallen with each successive estimate,
@@ -1022,6 +1072,7 @@ $$
 \frac{\ell_{\text{blockade}}}{\ell_{\text{war}}} = \frac{5}{10.2} \approx 0.49,
 \qquad
 \frac{8.9}{3.3} \approx 2.7
+\tag{51}
 $$
 
 Taiwan's proportional loss in a war is about four times the world's in both runs.
@@ -1030,6 +1081,7 @@ $$
 \frac{40}{10.2} \approx 3.9,
 \qquad
 \frac{40}{9.6} \approx 4.2
+\tag{52}
 $$
 
 In both Bloomberg estimates the largest proportional loss falls on Taiwan,
@@ -1077,6 +1129,7 @@ That last pair is the starkest casualty ratio in the public record.
 
 $$
 \frac{40{,}000}{50{,}000} = 0.80
+\tag{53}
 $$
 
 Four in five of the troops put ashore became casualties in six days of play.
@@ -1143,6 +1196,7 @@ shows two independently designed games landing close to one another.
 
 $$
 81 + 46 = 127 \quad \text{against} \quad 138
+\tag{54}
 $$
 
 The Japanese game destroyed 127 major Chinese ships and the American game 138,
@@ -1227,6 +1281,7 @@ in the case most favourable to China.
 
 $$
 \frac{42}{10} = 4.2
+\tag{55}
 $$
 
 A fourfold increase in salvo rate is the strongest form of the pessimistic case,
@@ -1319,6 +1374,7 @@ The two blockade estimates differ by a factor approaching two.
 
 $$
 \frac{5.0}{2.8} \approx 1.79
+\tag{56}
 $$
 
 Both describe a blockade.
@@ -1377,6 +1433,7 @@ $$
 92 \ \text{percent below 10 nm in 2019}
 \quad \text{against} \quad
 68 \ \text{percent at 16 and 14 nm and below in 2023}
+\tag{57}
 $$
 
 They differ in node threshold and in year,
@@ -1404,6 +1461,7 @@ Incursions into Taiwan's air defence identification zone rose from 20 in 2019 to
 
 $$
 \frac{3{,}075}{20} = 153.75
+\tag{58}
 $$
 
 Crossings of the median line rose from 22 instances in 2020 to 1,472 in 2024,
@@ -1411,6 +1469,7 @@ which the Commission states as an increase of 6,591 percent.
 
 $$
 \frac{1{,}472 - 22}{22} \approx 65.9 \quad \text{or} \quad 6{,}591 \ \text{percent}
+\tag{59}
 $$
 
 The recomputation matches the published figure.
@@ -1427,6 +1486,7 @@ which it gives as 19.7 billion United States dollars.
 
 $$
 \frac{647}{19.7} \approx 32.8
+\tag{60}
 $$
 
 The implied exchange rate is close to the market rate of the period,
@@ -1443,6 +1503,7 @@ Taking those two figures at face value gives an implied growth rate.
 
 $$
 \left( \frac{1000}{600} \right)^{1/6} - 1 \approx 0.089
+\tag{61}
 $$
 
 About 9 percent a year compounded over six years,
@@ -1638,6 +1699,7 @@ Tetreau's concentration of attention on Taiwan is the first.
 
 $$
 \frac{7}{10} = 0.70
+\tag{62}
 $$
 
 The second is the design of the invasion game,
@@ -1645,6 +1707,7 @@ which ran nine pessimistic iterations for every optimistic one.
 
 $$
 \frac{N_{\text{pess}}}{N_{\text{opt}}} = \frac{18}{2} = 9
+\tag{63}
 $$
 
 The designers ran more pessimistic iterations because the base results raised the question of what it would take for China to win.
@@ -1844,6 +1907,696 @@ The same games that make a Chinese invasion look likely to fail
 identify a failing invasion as the moment of greatest nuclear danger.
 A gamble that the public record says China would probably lose
 is not thereby a gamble the rest of the world could safely watch it lose.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 63 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 63, 58 are established and 5 are bespoke.
+Populations, births, deaths and marriage registrations are in millions and crude rates are per thousand people, while losses, casualties and missile counts are the totals or averages of the game or study in which they appear. Economic losses are proportions of a year of gross domestic product, so a ratio of two losses compares shares of output rather than sums of money.
+
+**Equation 1, Demographic Balancing Equation.**
+The population at the end of a year equals the population at its start plus births, less deaths, plus net migration.
+[communiqué for 2024][data_nbs_2024_communique]
+[statistical communiqué on 2025][data_nbs_2025_communique]
+
+$$
+P_1 = P_0 + B - D + M
+\tag{1}
+$$
+
+**Equation 2, Population Balance for China in 2025.**
+Substituting the published year-end populations, births and deaths into the balancing equation leaves a net migration term of zero to the precision published.
+[communiqué for 2024][data_nbs_2024_communique]
+[statistical communiqué on 2025][data_nbs_2025_communique]
+
+$$
+1{,}404.89 = 1{,}408.28 + 7.92 - 11.31 + M
+\quad\Rightarrow\quad
+M \approx 0.00
+\tag{2}
+$$
+
+**Equation 3, Natural Decrease for China in 2024.**
+Births less deaths in 2024 reproduce the whole of the reported decrease of 1.39 million.
+[communiqué for 2024][data_nbs_2024_communique]
+
+$$
+B_{2024} - D_{2024} = 9.54 - 10.93 = -1.39
+\tag{3}
+$$
+
+**Equation 4, Ratio of Successive Annual Decreases.**
+The decrease in 2025 divided by the decrease in 2024 shows that the decline steepened by a factor of about two and a half.
+[communiqué for 2024][data_nbs_2024_communique]
+[statistical communiqué on 2025][data_nbs_2025_communique]
+
+$$
+\frac{3.39}{1.39} \approx 2.44
+\tag{4}
+$$
+
+**Equation 5, Mean Population and Crude Birth and Death Rates.**
+A crude rate is the count of events in a year per thousand of the mean population, which is approximated here by the average of the two year-end figures.
+[statistical communiqué on 2025][data_nbs_2025_communique]
+
+$$
+\bar{P} = \frac{P_0 + P_1}{2},
+\qquad
+b = 1000 \, \frac{B}{\bar{P}},
+\qquad
+d = 1000 \, \frac{D}{\bar{P}}
+\tag{5}
+$$
+
+**Equation 6, Crude Birth and Death Rates for China in 2025.**
+Dividing the published births and deaths by the mean population reproduces the published rates of 5.63 and 8.04 per thousand.
+[statistical communiqué on 2025][data_nbs_2025_communique]
+
+$$
+b = 1000 \times \frac{7.92}{1{,}406.585} \approx 5.63,
+\qquad
+d = 1000 \times \frac{11.31}{1{,}406.585} \approx 8.04
+\tag{6}
+$$
+
+**Equation 7, Rate of Natural Increase.**
+The natural growth rate is the crude birth rate less the crude death rate, which is negative for China in 2025.
+[statistical communiqué on 2025][data_nbs_2025_communique]
+
+$$
+r_n = b - d = 5.63 - 8.04 = -2.41 \ \text{per thousand}
+\tag{7}
+$$
+
+**Equation 8, Annual Decline as a Share of Population.**
+The decrease in 2025 divided by the population at the end of 2024 is about a quarter of one percent.
+[communiqué for 2024][data_nbs_2024_communique]
+[statistical communiqué on 2025][data_nbs_2025_communique]
+
+$$
+\frac{3.39}{1{,}408.28} \approx 0.24 \ \text{percent}
+\tag{8}
+$$
+
+**Equation 9, Proportional Fall in Marriage Registrations.**
+The change in registrations between 2023 and 2024 divided by the 2023 figure gives a fall of about a fifth.
+[Reuters reported][news_reuters_marriages_2024]
+
+$$
+\frac{m_{2023} - m_{2024}}{m_{2023}} = \frac{7.68 - 6.1}{7.68} \approx 0.206
+\tag{9}
+$$
+
+**Equation 10, Crude Marriage Rate.**
+Registrations per thousand of the year-end population reproduce the published marriage rate of 4.3 per thousand.
+[State Council Information Office][data_scio_2025_marriage_registrations]
+
+$$
+1000 \times \frac{6.106}{1{,}408.28} \approx 4.34 \ \text{per thousand}
+\tag{10}
+$$
+
+**Equation 11, Ratio of Divorces to Marriages.**
+Divorces concluded divided by marriages registered in the same year gives a ratio of a little over one half.
+[State Council Information Office][data_scio_2025_marriage_registrations]
+
+$$
+\frac{3.513}{6.106} \approx 0.575
+\tag{11}
+$$
+
+**Equation 12, Decline of the Marrying-Age Cohort.**
+The fall in the population aged 20 to 39 between 2013 and 2023 is about a seventh of its earlier size.
+[State Council Information Office][data_scio_2025_marriage_registrations]
+
+$$
+435 - 371 = 64 \ \text{million},
+\qquad
+\frac{64}{435} \approx 0.147
+\tag{12}
+$$
+
+**Equation 13, Old Age Dependency Ratio.**
+The old age dependency ratio is the number of people aged 65 and older divided by the number aged 15 to 64.
+[Pollard et al. 2025][research_pollard_2025_fertility_decline]
+
+$$
+R_{\text{old}} = \frac{N_{65+}}{N_{15\text{ to }64}}
+\tag{13}
+$$
+
+**Equation 14, Growth of the Projected Dependency Ratio.**
+The projected ratio for 2050 divided by the ratio for 2024 shows the dependency ratio more than doubling.
+[Pollard et al. 2025][research_pollard_2025_fertility_decline]
+
+$$
+\frac{0.52}{0.21} \approx 2.48
+\tag{14}
+$$
+
+**Equation 15, Compound Annual Growth Rate of the Dependency Ratio.**
+The twenty-sixth root of the growth factor less one gives the constant yearly rate that produces the same change over the period.
+[Pollard et al. 2025][research_pollard_2025_fertility_decline]
+
+$$
+g = \left( \frac{0.52}{0.21} \right)^{1/26} - 1 \approx 0.0355
+\tag{15}
+$$
+
+**Equation 16, Potential Support Ratio.**
+The reciprocal of the old age dependency ratio counts working-age adults for each person aged 65 and older.
+[Pollard et al. 2025][research_pollard_2025_fertility_decline]
+
+$$
+\frac{1}{R_{\text{old}}} \approx
+\begin{cases}
+4.76 & \text{in 2024} \\
+1.92 & \text{in 2050}
+\end{cases}
+\tag{16}
+$$
+
+**Equation 17, Implied Working-Age Population in 2020.**
+Adding the stated loss of 200 million to the projected working-age population of 2050 recovers the base from which the loss is counted.
+[2021 Foreign Policy essay][commentary_brands_beckley_2021_declining_power]
+[Pollard et al. 2025][research_pollard_2025_fertility_decline]
+
+$$
+745 + 200 = 945
+\tag{17}
+$$
+
+**Equation 18, End of the Six-Year Window in Testimony.**
+Six years counted from the year of the 2021 testimony give the year 2027 to which the published scenarios return.
+[hearing on United States Indo-Pacific Command][government_sasc_2021_indopacom]
+
+$$
+2021 + 6 = 2027
+\tag{18}
+$$
+
+**Equation 19, Reconciliation of Iterations by Scenario Family.**
+The base, pessimistic, optimistic and unassisted iterations sum to the 24 runs the report states.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+N = N_{\text{base}} + N_{\text{pess}} + N_{\text{opt}} + N_{\text{alone}} = 3 + 18 + 2 + 1 = 24
+\tag{19}
+$$
+
+**Equation 20, Reconciliation of Iterations by Outcome.**
+Decisive defeats, stalemates and the single victory sum to the 24 runs, and the three kinds of stalemate sum to fourteen.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+24 = \underbrace{(3 + 2 + 4)}_{\text{decisive defeat}} + \underbrace{14}_{\text{stalemate}} + \underbrace{1}_{\text{PLA victory}},
+\qquad
+14 = 3 + 7 + 4
+\tag{20}
+$$
+
+**Equation 21, Relative Frequency of an Outcome.**
+The fraction of iterations with a given outcome is the count of such iterations divided by the total number run.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+f_k = \frac{n_k}{N}
+\tag{21}
+$$
+
+**Equation 22, Outcome Fractions of the Invasion Game.**
+The relative frequency evaluated for defeat, stalemate and victory gives shares that sum to one across the 24 runs.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+f_{\text{defeat}} = \frac{9}{24} = 0.375,
+\qquad
+f_{\text{stalemate}} = \frac{14}{24} \approx 0.583,
+\qquad
+f_{\text{victory}} = \frac{1}{24} \approx 0.042
+\tag{22}
+$$
+
+**Equation 23, Share of Decisive Defeats in the Pessimistic Family.**
+Four decisive defeats among eighteen pessimistic iterations give a share a little over one fifth.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\frac{4}{18} \approx 0.22
+\tag{23}
+$$
+
+**Equation 24, Consistency of the Loss Table.**
+The United States and Japanese aircraft and ship losses sum to the combined row of the report's table.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+A_{\text{US}} + A_{\text{JP}} = 270 + 112 = 382,
+\qquad
+S_{\text{US}} + S_{\text{JP}} = 17 + 26 = 43
+\tag{24}
+$$
+
+**Equation 25, Composition of Chinese Ship Losses and Implied Amphibious Fleet.**
+Amphibious and other ships lost sum to the total, and dividing the amphibious losses by the stated share of ninety percent recovers the size of the fleet.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+S_{\text{CN}} = S_{\text{amph}} + S_{\text{other}} = 86 + 52 = 138,
+\qquad
+F_{\text{amph}} \approx \frac{S_{\text{amph}}}{0.9} = \frac{86}{0.9} \approx 96
+\tag{25}
+$$
+
+**Equation 26, Amphibious Share of Chinese Ship Losses.**
+Amphibious ships lost divided by all Chinese ships lost show that transports made up about three fifths of the losses.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\frac{S_{\text{amph}}}{S_{\text{CN}}} = \frac{86}{138} \approx 0.62
+\tag{26}
+$$
+
+**Equation 27, Loss Exchange Ratios at Sea and in the Air.**
+Chinese losses divided by coalition losses give the number of Chinese ships and aircraft lost for each one lost by the United States and Japan together.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+E_S = \frac{S_{\text{CN}}}{S_{\text{US}} + S_{\text{JP}}} = \frac{138}{43} \approx 3.2,
+\qquad
+E_A = \frac{A_{\text{CN}}}{A_{\text{US}} + A_{\text{JP}}} = \frac{155}{382} \approx 0.41
+\tag{27}
+$$
+
+*Equation 28, Bespoke Implied Chinese Dead.*
+The article sums the report's ground and maritime casualty estimates after applying the fractions the report assumes killed, a total that the report does not itself state.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+K \approx \frac{7000}{3} + \frac{15000}{2} \approx 2{,}300 + 7{,}500 \approx 9{,}800
+\tag{28}
+$$
+
+*Equation 29, Bespoke Order of Magnitude for Killed and Captured.*
+Adding the stated count of more than 30,000 survivors to the implied dead treats every survivor as captured, so the sum is an order of magnitude rather than a bound.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+K + C \sim 9{,}800 + 30{,}000 \approx 40{,}000
+\tag{29}
+$$
+
+**Equation 30, Ratios of Pessimistic to Base Average Losses.**
+Each pessimistic average divided by the matching base average shows how the losses of each party moved under assumptions favourable to China.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\mu_{A,\text{US}} = \frac{484}{270} \approx 1.79,
+\qquad
+\mu_{A,\text{CN}} = \frac{327}{155} \approx 2.11,
+\qquad
+\mu_{S,\text{CN}} = \frac{113}{138} \approx 0.82
+\tag{30}
+$$
+
+**Equation 31, Loss Exchange Ratios in the Pessimistic Scenarios.**
+The exchange ratios evaluated with the pessimistic averages show China losing more ships and relatively more aircraft for each coalition loss.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+E_S^{\text{pess}} = \frac{113}{14 + 14} \approx 4.0,
+\qquad
+E_A^{\text{pess}} = \frac{327}{484 + 161} \approx 0.51
+\tag{31}
+$$
+
+**Equation 32, Reconciliation of Nuclear Game Outcomes.**
+The five outcome classes of the nuclear study sum to the fifteen games it ran.
+[Cancian et al. 2024][research_cancian_2024_confronting_armageddon]
+
+$$
+5 + 1 + 3 + 5 + 1 = 15
+\tag{32}
+$$
+
+**Equation 33, Chain of Observed Frequencies of Nuclear Use.**
+Successive ratios of games reaching a crisis, recommending nuclear use and beginning with Chinese first use are relative frequencies within the project, not probabilities.
+[Cancian et al. 2024][research_cancian_2024_confronting_armageddon]
+
+$$
+\frac{G_c}{G} = \frac{12}{15} = 0.80,
+\qquad
+\frac{G_n}{G_c} = \frac{7}{12} \approx 0.58,
+\qquad
+\frac{U_{\text{CN}}}{U} = \frac{7}{8} = 0.875
+\tag{33}
+$$
+
+**Equation 34, Resolution of the Seven Nuclear Recommendations.**
+The seven recommendations for nuclear use sum across the four ways in which they resolved.
+[Cancian et al. 2024][research_cancian_2024_confronting_armageddon]
+
+$$
+7 = \underbrace{2}_{\text{United States withdrew}} + \underbrace{1}_{\text{total counterforce, enclave}} + \underbrace{3}_{\text{countervalue, conflagration}} + \underbrace{1}_{\text{strike on operational targets}}
+\tag{34}
+$$
+
+*Equation 35, Bespoke First-Week Share of Coalition Losses.*
+Dividing first-week losses from the 2024 nuclear study by the three-week averages of the 2023 game assumes that figures from different scenario years and game versions are comparable.
+[Cancian et al. 2024][research_cancian_2024_confronting_armageddon]
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\frac{270}{382} \approx 0.71,
+\qquad
+\frac{20}{43} \approx 0.47
+\tag{35}
+$$
+
+**Equation 36, Count of Blockade Games.**
+The twenty-one matrix games and five free-play games sum to the twenty-six games of the blockade study.
+[Cancian et al. 2025][research_cancian_2025_lights_out]
+
+$$
+21 + 5 = 26
+\tag{36}
+$$
+
+**Equation 37, Growth of Casualties with Escalation.**
+Casualties in the wider war divided by those in the low-level blockade give the factor by which escalation raised the losses of each side.
+[Cancian et al. 2025][research_cancian_2025_lights_out]
+
+$$
+\frac{L_{\text{co}}^{\text{wide}}}{L_{\text{co}}^{\text{low}}} = \frac{20{,}529}{2{,}256} \approx 9.1,
+\qquad
+\frac{L_{\text{CN}}^{\text{wide}}}{L_{\text{CN}}^{\text{low}}} = \frac{13{,}515}{206} \approx 65.6
+\tag{37}
+$$
+
+**Equation 38, Casualty Exchange Ratios in the Blockade Games.**
+Coalition casualties divided by Chinese casualties in each variant show the ratio falling from about eleven toward parity as the war widens.
+[Cancian et al. 2025][research_cancian_2025_lights_out]
+
+$$
+\frac{L_{\text{co}}^{\text{low}}}{L_{\text{CN}}^{\text{low}}} = \frac{2{,}256}{206} \approx 11.0,
+\qquad
+\frac{L_{\text{co}}^{\text{wide}}}{L_{\text{CN}}^{\text{wide}}} = \frac{20{,}529}{13{,}515} \approx 1.52
+\tag{38}
+$$
+
+*Equation 39, Bespoke Survival of a Ship over Repeated Blockade Runs.*
+Raising the chance of surviving one voyage to the number of voyages assumes that each voyage faces the same independent risk of loss, an assumption the report does not make.
+[Cancian et al. 2025][research_cancian_2025_lights_out]
+
+$$
+p_k = (1 - 0.4)^k = 0.6^k,
+\qquad
+p_2 = 0.36,
+\qquad
+p_4 \approx 0.13
+\tag{39}
+$$
+
+**Equation 40, Exhaustion Time of a Drawn-Down Stockpile.**
+A stock consumed faster than it is replenished lasts for the stock divided by the net rate of drawdown.
+[Cancian et al. 2025][research_cancian_2025_lights_out]
+
+$$
+T = \frac{I}{c - s}, \qquad c > s
+\tag{40}
+$$
+
+**Equation 41, Relative Exhaustion Times of Coal, Oil and Gas.**
+The stated exhaustion times of coal and oil divided by that of gas show how much longer each lasted under blockade.
+[Cancian et al. 2025][research_cancian_2025_lights_out]
+
+$$
+\frac{T_{\text{coal}}}{T_{\text{gas}}} = \frac{49}{10} \approx 4.9,
+\qquad
+\frac{T_{\text{oil}}}{T_{\text{gas}}} = \frac{140}{10} = 14
+\tag{41}
+$$
+
+**Equation 42, Reconciliation of Long-Range Missile Expenditure.**
+The four types of missile expended sum to the more than 5,000 that the report states.
+[Jones 2023][research_jones_2023_empty_bins]
+
+$$
+4000_{\text{JASSM}} + 450_{\text{LRASM}} + 400_{\text{Harpoon}} + 400_{\text{TLAM}} = 5250
+\tag{42}
+$$
+
+**Equation 43, Mean Daily Rate of Missile Expenditure.**
+The total expended divided by twenty-one days of fighting gives the average daily rate.
+[Jones 2023][research_jones_2023_empty_bins]
+
+$$
+\dot{m} = \frac{5250}{21} = 250 \ \text{missiles per day}
+\tag{43}
+$$
+
+**Equation 44, Long Range Anti-Ship Missile Share of Expenditure.**
+The Long Range Anti-Ship Missiles expended divided by the total show that they were less than a tenth of the missiles fired.
+[Jones 2023][research_jones_2023_empty_bins]
+
+$$
+\frac{450}{5250} \approx 0.086
+\tag{44}
+$$
+
+**Equation 45, Lower Bound on the Expenditure Rate of Anti-Ship Missiles.**
+The exhaustion time with no resupply, combined with an inventory gone within a week, bounds the daily rate of expenditure from below.
+[Jones 2023][research_jones_2023_empty_bins]
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+T_{\text{ex}} = \frac{I_{\text{LRASM}}}{\dot{m}_{\text{LRASM}}} \le 7 \ \text{days}
+\quad\Rightarrow\quad
+\dot{m}_{\text{LRASM}} \ge \frac{450}{7} \approx 64 \ \text{missiles per day}
+\tag{45}
+$$
+
+**Equation 46, Ratio of Naval to Air Sustainment Windows.**
+The naval sustainment windows divided by the air window give the factors by which the PLA, the People's Liberation Army, could sustain operations longer at sea.
+[executive summary][research_greenway_2026_tidalwave_archived]
+
+$$
+\frac{120}{90} \approx 1.33,
+\qquad
+\frac{140}{90} \approx 1.56
+\tag{46}
+$$
+
+**Equation 47, Implied World Gross Domestic Product.**
+A loss in dollars divided by the same loss as a proportion of output recovers the size of the world economy that the estimate assumed.
+[Taiwan News][news_taiwan_news_2024_bloomberg]
+[Insurance Journal][news_insurance_journal_2026_bloomberg]
+
+$$
+W = \frac{\Delta Y}{\ell}
+\tag{47}
+$$
+
+**Equation 48, Implied World Output in the Two Bloomberg Runs.**
+The implied world output evaluated for the 2024 and 2026 estimates gives about 98 and 110 trillion dollars.
+[Taiwan News][news_taiwan_news_2024_bloomberg]
+[Insurance Journal][news_insurance_journal_2026_bloomberg]
+
+$$
+W_{2024} \approx \frac{10}{0.102} \approx 98,
+\qquad
+W_{2026} \approx \frac{10.6}{0.096} \approx 110
+\tag{48}
+$$
+
+**Equation 49, Range of the Ratio of Chinese to American Losses.**
+Pairing the low end of one published range with the high end of the other bounds the ratio of Chinese to American losses in the RAND Corporation study.
+[Gompert et al. 2016][research_gompert_2016_war_with_china]
+
+$$
+\frac{25}{10} = 2.5 \;\le\; \frac{L_{\text{China}}}{L_{\text{United States}}} \;\le\; \frac{35}{5} = 7
+\tag{49}
+$$
+
+*Equation 50, Bespoke Comparison of Relative Losses Across Three Estimates.*
+The ratio of Chinese to American proportional losses is set side by side for three studies, with the RAND Corporation ranges reduced to their midpoints as the article chose.
+[Gompert et al. 2016][research_gompert_2016_war_with_china]
+[Taiwan News][news_taiwan_news_2024_bloomberg]
+[Insurance Journal][news_insurance_journal_2026_bloomberg]
+
+$$
+\frac{L_{\text{China}}}{L_{\text{United States}}} \approx
+\begin{cases}
+\dfrac{30}{7.5} = 4.0 & \text{RAND 2016, range midpoints} \\[2ex]
+\dfrac{16.7}{6.7} \approx 2.5 & \text{Bloomberg 2024} \\[2ex]
+\dfrac{11}{6.6} \approx 1.7 & \text{Bloomberg 2026}
+\end{cases}
+\tag{50}
+$$
+
+**Equation 51, Blockade Relative to War in the 2024 Bloomberg Run.**
+The world loss in a blockade divided by that in a war, and the Chinese loss divided by the American loss in a blockade, compare the two contingencies.
+[Taiwan News][news_taiwan_news_2024_bloomberg]
+
+$$
+\frac{\ell_{\text{blockade}}}{\ell_{\text{war}}} = \frac{5}{10.2} \approx 0.49,
+\qquad
+\frac{8.9}{3.3} \approx 2.7
+\tag{51}
+$$
+
+**Equation 52, Taiwan's Loss Relative to the World's.**
+Taiwan's proportional loss divided by the world's in each Bloomberg run gives a factor of about four.
+[Taiwan News][news_taiwan_news_2024_bloomberg]
+[Insurance Journal][news_insurance_journal_2026_bloomberg]
+
+$$
+\frac{40}{10.2} \approx 3.9,
+\qquad
+\frac{40}{9.6} \approx 4.2
+\tag{52}
+$$
+
+**Equation 53, Casualty Share of Troops Landed.**
+Troops lost divided by troops landed in the game played by members of Congress give a share of four in five.
+[Bad Blood][research_pettyjohn_2023_bad_blood]
+
+$$
+\frac{40{,}000}{50{,}000} = 0.80
+\tag{53}
+$$
+
+**Equation 54, Chinese Naval Losses in Two Independent Games.**
+Surface and amphibious losses in the Japanese game sum to a total that is set beside the base average of the CSIS game, where CSIS is the Center for Strategic and International Studies.
+[tabletop exercise on the Taiwan Strait crisis][research_spf_2024_taiwan_strait_ttx]
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+81 + 46 = 127 \quad \text{against} \quad 138
+\tag{54}
+$$
+
+**Equation 55, Growth in Submarine Salvo Rate.**
+The salvo rate in the case most favourable to China divided by the baseline rate gives a fourfold increase.
+[Caverley 2025][journal_caverley_2025]
+
+$$
+\frac{42}{10} = 4.2
+\tag{55}
+$$
+
+**Equation 56, Ratio of Two Blockade Estimates.**
+The Bloomberg estimate of the blockade loss divided by that of the Institute for Economics and Peace gives a factor approaching two.
+[Institute for Economics & Peace 2023][research_iep_2023_gpi]
+
+$$
+\frac{5.0}{2.8} \approx 1.79
+\tag{56}
+$$
+
+**Equation 57, Two Measures of Taiwan's Share of Advanced Chip Capacity.**
+The share of capacity below 10 nanometres in 2019 is set beside the share at 16 and 14 nanometres and below in 2023, which differ in node threshold and in year.
+[Boston Consulting Group and the Semiconductor Industry Association][data_bcg_sia_2021_value_chain]
+[TrendForce][data_trendforce_2023_foundry_capacity]
+
+$$
+92 \ \text{percent below 10 nm in 2019}
+\quad \text{against} \quad
+68 \ \text{percent at 16 and 14 nm and below in 2023}
+\tag{57}
+$$
+
+**Equation 58, Growth in Air Defence Identification Zone Incursions.**
+Incursions in 2024 divided by those in 2019 give the factor by which the incursions rose.
+[United States-China Economic and Security Review Commission][government_uscc_2025_taiwan_chapter]
+
+$$
+\frac{3{,}075}{20} = 153.75
+\tag{58}
+$$
+
+**Equation 59, Percentage Increase in Median Line Crossings.**
+The change in crossings divided by the 2020 count reproduces the increase of 6,591 percent that the Commission states.
+[United States-China Economic and Security Review Commission][government_uscc_2025_taiwan_chapter]
+
+$$
+\frac{1{,}472 - 22}{22} \approx 65.9 \quad \text{or} \quad 6{,}591 \ \text{percent}
+\tag{59}
+$$
+
+**Equation 60, Implied Exchange Rate of the Defence Budget.**
+The budget in New Taiwan dollars divided by the same budget in United States dollars gives the exchange rate it implies.
+[United States-China Economic and Security Review Commission][government_uscc_2025_taiwan_chapter]
+
+$$
+\frac{647}{19.7} \approx 32.8
+\tag{60}
+$$
+
+**Equation 61, Compound Annual Growth Rate of the Warhead Stockpile.**
+The sixth root of the projected growth factor less one gives the constant yearly rate that takes the stockpile from about 600 to 1,000 warheads.
+[summary by a China military specialist][commentary_erickson_2025_dod_report_set]
+
+$$
+\left( \frac{1000}{600} \right)^{1/6} - 1 \approx 0.089
+\tag{61}
+$$
+
+**Equation 62, Share of Assessments Concerning Taiwan.**
+Seven of the ten assessments reviewed considered Chinese efforts to take Taiwan.
+[Tetreau 2023][commentary_tetreau_2023_where_the_wargames_were_not]
+
+$$
+\frac{7}{10} = 0.70
+\tag{62}
+$$
+
+**Equation 63, Ratio of Pessimistic to Optimistic Iterations.**
+The invasion game ran nine pessimistic iterations for each optimistic one, so its outcome fractions describe the design rather than the world.
+[Cancian et al. 2023][research_cancian_2023_first_battle]
+
+$$
+\frac{N_{\text{pess}}}{N_{\text{opt}}} = \frac{18}{2} = 9
+\tag{63}
+$$
+
+### Notation
+
+- $P_0$, the population of China at the end of 2024 in millions, with $P_1$ the population at the end of 2025
+- $B$, births during a year in millions, with $D$ the deaths
+- $M$, net international migration in millions
+- $\bar{P}$, the mean population over the year in millions
+- $b$, the crude birth rate per thousand, with $d$ the crude death rate
+- $r_n$, the rate of natural increase per thousand
+- $m_{2023}$, marriage registrations in 2023 in millions
+- $R_{\text{old}}$, the old age dependency ratio
+- $N_{65+}$, the number of people aged 65 and older, with $N_{15\text{ to }64}$ the number aged 15 to 64
+- $g$, a compound growth rate per year
+- $N$, the number of iterations of the invasion game, with a subscript for each scenario family
+- $f_k$, the fraction of iterations ending in outcome $k$, with $n_k$ the count of such iterations
+- $A_{\text{US}}$, the average combat aircraft lost by a party, with a subscript for the party
+- $S_{\text{CN}}$, the average major ships lost by China, with other subscripts for other parties and for amphibious ships
+- $F_{\text{amph}}$, the size of the Chinese amphibious fleet in the game
+- $E_S$, the ratio of Chinese ships lost to coalition ships lost, with $E_A$ the same ratio for aircraft
+- $K$, the implied number of Chinese dead, with $C$ the number captured
+- $\mu$, the ratio of a pessimistic average loss to the matching base average
+- $G_c$, the games of the nuclear study in which the China team reached a crisis, out of $G$ games, with $G_n$ those in which it recommended nuclear use
+- $U_{\text{CN}}$, the cases of Chinese first use facing conventional defeat, out of $U$ cases of nuclear use
+- $L_{\text{co}}$, coalition casualties in a blockade game, with $L_{\text{CN}}$ Chinese casualties
+- $p_k$, the probability that a merchant ship survives $k$ inbound voyages
+- $T$, the time for which a stockpile lasts, with $T_{\text{ex}}$ the time the Long Range Anti-Ship Missile inventory lasts
+- $I$, a stockpile or inventory
+- $c - s$, the net rate of drawdown, the consumption rate $c$ less the resupply rate $s$
+- $\dot{m}$, the average rate of missile expenditure per day
+- $W$, the implied world gross domestic product in trillions of dollars
+- $\Delta Y$, the first-year loss of output in trillions of dollars
+- $\ell$, the first-year loss as a proportion of output
+- $L_{\text{China}}$, the first-year proportional loss of Chinese gross domestic product, with $L_{\text{United States}}$ the American loss
 
 ## References
 

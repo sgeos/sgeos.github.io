@@ -1,0 +1,97 @@
+# Equation classification for A379. Read by `python3 _lib/equations.py`.
+
+caution = "All values are in the same arbitrary money units, and the fractions in Equations 3 and 6 are pure numbers, so a percentage must be written as a decimal before it enters them."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke First-Best Specific Investment and Surplus"
+gloss = "The article assumes that a relationship-specific investment creates value proportional to its square root, and equating marginal value with a marginal cost of one gives the efficient investment and surplus."
+cite = ["ref_hold_up_problem"]
+digest = "c4cbfd1912903653"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Investment and Surplus Under Hold-up"
+gloss = "Under the assumption that the supplier receives half of the value bargained over after its investment is sunk, it invests a quarter of the first-best level and a quarter of the surplus is lost."
+cite = ["ref_hold_up_problem"]
+digest = "04750f2a38312993"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Williamson Tradeoff Between Market Power and Cost Savings"
+gloss = "In a linear approximation starting from a price equal to unit cost, a merger raises total surplus when the cost saving on the reduced output exceeds the deadweight loss of the higher price."
+cite = ["research_williamson_1972"]
+digest = "33337731258cb5a5"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Fire-Sale Price and Discount"
+gloss = "The article assumes that competing outsiders bid up to their own value and that no unconstrained peer bids against them, so the asset sells at the larger of the outsider value and the constrained peers' capacity."
+cite = ["research_shleifer_vishny_1992"]
+digest = "7589f23811d44da7"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Decomposition of a Distressed Buyer's Gain"
+gloss = "The buyer's gain is constructed as the fire-sale discount less its shortfall from the best user, less the cost of integration, plus any synergy with the rest of its chain."
+digest = "7fb63e5b0ed62ff7"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Break-Even Condition for a Liquidity Reserve"
+gloss = "The article treats an opportunity as arriving with a fixed annual probability and a fixed net gain, so the reserve pays in expectation when that expected gain covers the annual cost of holding the capital."
+digest = "7456eb4dd18505ca"
+
+[[symbol]]
+tex = 'I^{*}'
+meaning = "the first-best level of the supplier's specific investment, with $S^{*}$ the resulting surplus"
+
+[[symbol]]
+tex = 'I^{h}'
+meaning = "the investment under hold-up, with $S^{h}$ the resulting surplus"
+
+[[symbol]]
+tex = 'k'
+meaning = "a positive constant that scales the value of the specific investment"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the absolute price elasticity of demand"
+
+[[symbol]]
+tex = 'x'
+meaning = "the fractional rise in price caused by the merger"
+
+[[symbol]]
+tex = 's'
+meaning = "the fractional reduction in unit cost caused by the merger"
+
+[[symbol]]
+tex = 'V_{b}'
+meaning = "the value of the asset to its best user, with $V_{o}$ its value to an outsider and $V_{a}$ its value to the buyer"
+
+[[symbol]]
+tex = 'L'
+meaning = "the most that financially constrained peers can pay"
+
+[[symbol]]
+tex = 'P'
+meaning = "the price at which the asset sells, with $D$ the fire-sale discount relative to the best user"
+
+[[symbol]]
+tex = 'C'
+meaning = "the cost of integrating the acquired asset, with $S$ any synergy with the rest of the buyer's chain"
+
+[[symbol]]
+tex = 'K'
+meaning = "the capital held in reserve, with $c$ the annual cost of holding it as a fraction of $K$"
+
+[[symbol]]
+tex = 'p'
+meaning = "the annual probability that an opportunity arises, with $A$ the size of the asset bought and $d$ the net gain as a fraction of $A$"

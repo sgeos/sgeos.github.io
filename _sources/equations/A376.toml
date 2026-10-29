@@ -1,0 +1,783 @@
+# Equation classification for A376, the balance of power after a war with China.
+
+caution = "Capability figures are dimensionless shares of a world total, and every level depends on the set of states in the denominator while a ratio of two states' shares does not, so levels are comparable only within one stated reference set. A relative change is a fraction of the earlier value, and percentages are kept distinct from differences in percentage points."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Component Share of a World Total"
+gloss = "Each of the six capability components held by a state is divided by the world total of that component, so the shares of all states sum to one for every component."
+cite = ["data_cow_nmc_v7"]
+digest = "9e9af446376d79ea"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Composite Index of National Capability"
+gloss = "The Composite Index of National Capability is the equally weighted mean of a state's six component shares, which bounds it between zero and one."
+cite = ["data_cow_nmc_v7", "book_singer_1972_capability_distribution"]
+digest = "ef4093ffbb22196d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Index Values for China and the United States in 2022"
+gloss = "The 2022 values of the Composite Index of National Capability are stated with the year renormalised so that the shares of all observed states sum to one."
+cite = ["data_cow_nmc_v7"]
+digest = "d26b1a1974fc6f21"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Ratio of Chinese to American Capability Share in 2022"
+gloss = "Dividing the two renormalised index values gives China about one and nine tenths times the capability share of the United States."
+cite = []
+digest = "a7bfd97de3aa9155"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Relative Change in Share over a Constant Set of States"
+gloss = "The relative change from 1990 to 2022 is computed over the one hundred and sixty states present in every year, a reference set the article chose that alters the levels though not the ratio between two states."
+cite = []
+digest = "5cc9830b46eb2025"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Invariance of a Share Ratio to the Reference Set"
+gloss = "Every convention divides both states by the same denominator, so the denominator cancels and the ratio of two shares is identical under any reference set."
+cite = []
+digest = "a4ab2b089122e6ef"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Ratio of Military Expenditure Shares"
+gloss = "The ratio of the American to the Chinese share of world military expenditure in 2022 shows the United States ahead by nearly four to one on that component."
+cite = []
+digest = "dea8ce6b57aa289d"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Ratios of Underlying Steel Output and Military Expenditure"
+gloss = "The raw 2022 values reproduce the component ratios, with China far ahead in iron and steel tonnage and the United States far ahead in military spending."
+cite = []
+digest = "2c35927d191a8ea1"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Published Index Averaged over Recorded Components"
+gloss = "The codebook averages a state's shares over only the components actually recorded for it, rather than dividing by six in every case."
+cite = ["data_cow_nmc_v7"]
+digest = "0925312e0270dad6"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Inflation of the Published Index by Missing Components"
+gloss = "Where components are missing the published value exceeds the sixfold average by the ratio of six to the number of components present."
+cite = []
+digest = "a41fbcb5c064a2aa"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Departure of the Published Index Totals from One"
+gloss = "The maximum and the median absolute deviation from one of the yearly sum of published index values measure how far the published series departs from the share invariant."
+cite = []
+digest = "c43bdcef6d723687"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Proportion of Years Missing the Invariant"
+gloss = "The number of years whose published total misses one by more than a thousandth, divided by all years in the series, gives a proportion near nine in ten."
+cite = []
+digest = "076c06a7932ffb2d"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Inflation of China's 1860 Index Value"
+gloss = "China in 1860 is missing two components, so its published value is half again its value on the sixfold definition, as the inflation factor predicts."
+cite = []
+digest = "cedf17db9f348546"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Codebook Completeness Figures Against the Current File"
+gloss = "The completeness percentages stated in the codebook are set beside the same percentages recomputed from the version 7.0 file."
+cite = []
+digest = "ba729738487bfbb8"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Relative Change in China's Recorded Urban Population in 2002"
+gloss = "The relative change between 2001 and 2002 shows China losing more than half its recorded urban population when the city threshold was raised."
+cite = []
+digest = "146f938c67eafd2f"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Exact Decomposition of a Change in the Index"
+gloss = "Because the index is an equally weighted sum of six shares, its change is exactly the sum of the component share changes divided by six."
+cite = []
+digest = "1f5c9027b1fe7cc0"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke 2002 Ratio with the Urban Share Held at Its 2001 Value"
+gloss = "The counterfactual ratio holds China's urban share at its 2001 value and leaves every other component as published, which isolates the effect of the definitional change."
+cite = []
+digest = "9b063d97cb1b8e98"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Relative Changes in Recorded Urban Population in 2017"
+gloss = "The relative changes across the 2017 revision show the American urban figure falling by about two fifths while the Chinese figure rose by about a sixth."
+cite = []
+digest = "9933123dbaac575f"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Share of the 2022 Ratio Attributable to the 2017 Revision"
+gloss = "The counterfactual substitutes the 2016 urban shares into the 2022 index and leaves the other five components as published, and the relative difference of the two ratios attributes about three and a half percent of the ratio to the revision."
+cite = []
+digest = "49ad87fd38127fc9"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Relative Change in Recorded Chinese Military Expenditure in 2005"
+gloss = "The relative change between 2004 and 2005 records a fall of nearly two thirds in Chinese military expenditure that the later series does not sustain."
+cite = []
+digest = "802dbae4a305dfe9"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Ratio of American to Chinese Military Expenditure in 2025"
+gloss = "The ratio of the two military expenditure figures reported by the Stockholm International Peace Research Institute puts the United States at nearly three times China."
+cite = ["data_sipri_2026_milex"]
+digest = "3aa4f9860dc36cab"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Ratio of the Two Price Bases for Chinese Output"
+gloss = "Dividing China's output relative to the United States at purchasing power parity by the same quantity at market exchange rates gives a factor of about two."
+cite = ["data_world_bank_wdi"]
+digest = "b547d29b910eb8b0"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Ratio of Defence Network Scores"
+gloss = "The ratio of the American to the Chinese defence networks score in the Lowy Institute index shows the United States ahead by more than four to one."
+cite = ["data_lowy_2025_asia_power_index"]
+digest = "9dbb2d889262079d"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Chinese Standing Relative to American on Five Instruments"
+gloss = "Each of five instruments is expressed as the Chinese value divided by the American value so that the readings can be compared directly."
+cite = []
+digest = "4cf06fa39a2aba3f"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Spread Between the Extreme Instrument Readings"
+gloss = "The highest relative reading divided by the lowest shows the five instruments differing by a factor of more than five."
+cite = []
+digest = "292d5ef715ebc156"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Fixed-Membership Share and Postwar Relative Change"
+gloss = "The share is renormalised over only the states present in both the prewar and the postwar year, a design choice that removes changes in system membership, and the relative change of that share defines the postwar shift."
+cite = ["data_cow_interstate_war_v4"]
+digest = "8e9143ef3edec515"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Prewar Trend over an Equal Window"
+gloss = "The relative change in the fixed-membership share over a window of the same length before the war gives the prewar trajectory against which the postwar change is tested."
+cite = []
+digest = "a0638ad0cb820244"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Mann-Whitney Test of Winner Against Loser Changes"
+gloss = "A two-sided Mann-Whitney rank test on the two change distributions gives the standardised statistic and its probability value."
+cite = []
+digest = "5fbd57add2fde4f0"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Gap Between Winner and Loser Median Changes"
+gloss = "The difference between the median fixed-membership changes of winners and losers is about fourteen points of relative change."
+cite = []
+digest = "6e4f47e917480a1f"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Frequencies of Sign Reversal by Outcome"
+gloss = "The proportion of winners whose fixed-membership share declined and of losers whose share rose are sample frequencies that show the overlap of the two groups."
+cite = []
+digest = "6936b88892f38a7b"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Frequency of Decline Among Large-War Losers"
+gloss = "Every loser of a war with at least one hundred thousand battle deaths held a smaller fixed-membership share ten years later."
+cite = []
+digest = "8c00dd5f8b6fe5ed"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Asymmetry of Large-War Medians"
+gloss = "The magnitude of the median loser change divided by the median winner change in large wars shows the penalty for losing to be more than three times the reward for winning."
+cite = []
+digest = "08dacb3bee86f37c"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Correlation of Prewar Trend with Postwar Change"
+gloss = "The correlation coefficient between the prewar trajectory and the postwar change at the ten-year horizon is essentially zero."
+cite = []
+digest = "f571a6b4200ad8dd"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Correlations at the Ten-Year and Five-Year Horizons"
+gloss = "The correlation coefficients at both horizons, with their numbers of observations, are slightly negative and indistinguishable from zero."
+cite = []
+digest = "504513de444b0910"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Variance Explained by the Prewar Trend"
+gloss = "Squaring the larger correlation coefficient shows that under one percent of the variation in postwar change is accounted for by the prewar trajectory."
+cite = []
+digest = "39ef623555d8e03e"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Combined Belligerent Share and Bystander Complement"
+gloss = "The combined belligerent share is the sum of the fixed-membership shares of the belligerents, and because those shares sum to one the bystander share is its complement."
+cite = []
+digest = "1ffdd29790a0c93e"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Frequency and Median of Belligerent Decline"
+gloss = "Across seventy-six wars in which every belligerent survives to the later year, the combined belligerent share fell in under half and rose by a median of two and a half percent."
+cite = []
+digest = "e5fd0119637d4084"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Frequency of Decline Among the Ten Largest Wars"
+gloss = "Among the ten largest of those wars the combined belligerent share fell in exactly half."
+cite = []
+digest = "e240f8a7095c0792"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Change in Belligerent Share in the World Wars"
+gloss = "The relative change in combined belligerent share for each world war maps dissolved belligerents onto their successor states, an assumption that keeps their capability from being lost or double counted."
+cite = []
+digest = "bdd7a81e2292fa56"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Bystander Pool in the World Wars"
+gloss = "The complement of the prewar combined belligerent share gives the capability held by the states that stayed out of each world war."
+cite = []
+digest = "dbdcc3b81b6c081d"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Combined Share of the Prospective Belligerents"
+gloss = "The renormalised 2022 shares of the two principals are summed to place the prospective war on the scale of combined belligerent share."
+cite = []
+digest = "480948a451abfa9c"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Prospective Belligerent Share Against the World Wars"
+gloss = "The prospective combined share is divided by the prewar combined share of each world war to show how much less concentrated this case would be."
+cite = []
+digest = "867e797b6da49492"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Percentile of the Prospective Concentration"
+gloss = "The proportion of the seventy-six comparable wars with less concentrated belligerents places the prospective case at about the ninety-sixth percentile."
+cite = []
+digest = "21c5eb0d32f18e75"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Correlation of Belligerent Concentration with Postwar Change"
+gloss = "The correlation coefficient between the prewar combined belligerent share and its subsequent change shows that more concentrated belligerents fare worse."
+cite = []
+digest = "82f1d27b9e31ba9c"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Ratio of Indian to American Capability Share in 2022"
+gloss = "The ratio of the renormalised 2022 index values puts India at about four fifths of the American share."
+cite = []
+digest = "426cd736e384635c"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Relative Change in Russia's Share over a Constant Set of States"
+gloss = "The relative change from 1990 to 2022 is computed over the constant membership set the article chose, and shows Russia losing about seven tenths of its relative standing without a great-power war."
+cite = []
+digest = "9ad7c0e8380f02b6"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Present Index Values Used in the Projection"
+gloss = "The renormalised 2022 values of the Composite Index of National Capability for China, the United States and India are the inputs to the projection that follows."
+cite = []
+digest = "54eac99fddc5deea"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Median Changes Applied to Winner and Loser"
+gloss = "The median fixed-membership changes of winners and losers of large wars are taken as the outcome of the prospective war, which assumes the historical median applies to this case."
+cite = []
+digest = "e5d58105bcd46411"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Projection of Postwar Shares and Bystander Pool"
+gloss = "Each present share is multiplied by one plus the median change for its outcome and the bystander pool is the complement of the two principals, which holds every other state including India fixed."
+cite = []
+digest = "092e1e655e3fbe26"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Ratio After an American Victory"
+gloss = "Under the median projection with the United States winning and China losing, the two principals end level."
+cite = []
+digest = "b7c54f4865f835fd"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Defeated China Against the Present United States"
+gloss = "The projected share of a China defeated at the median rate still exceeds the present American share."
+cite = []
+digest = "2c80c58c1b122bc4"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke India Against a Defeated United States"
+gloss = "Under the median projection with the United States losing, India, held fixed, passes it without fighting."
+cite = []
+digest = "b2457aaad55ba283"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Postwar Changes After the Franco-Prussian War"
+gloss = "The fixed-membership changes for Germany and France ten years after the Franco-Prussian War evaluate the article's measure for one of the analogues named in the RAND Corporation study."
+cite = ["research_priebe_2023_alternative_futures_v1"]
+digest = "865f18d06fd82ea6"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Postwar Changes After the Korean War"
+gloss = "The fixed-membership changes for the United States and China ten years after the Korean War evaluate the article's measure for the other named analogue."
+cite = ["research_priebe_2023_alternative_futures_v1"]
+digest = "770931509c19e1c4"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Gap Between the Korean War Changes"
+gloss = "The difference between the Chinese and American fixed-membership changes after the Korean War amounts to about three tenths of relative standing."
+cite = []
+digest = "d55aa0e308915fc1"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Proportions of Accurate and Inaccurate Prewar Forecasts"
+gloss = "Counting the graded cases in the RAND Corporation historical volume gives the proportions of wars in which every combatant forecast the balance of power correctly and incorrectly."
+cite = ["research_evans_2023_alternative_futures_v2"]
+digest = "4b4c35ba2c04b3d2"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Proportion Expecting a Single Dominant Power"
+gloss = "Adding the proportions of respondents expecting American and Chinese dominance gives the share of the panel expecting either state to dominate."
+cite = ["research_atlantic_council_2026_welcome_2036"]
+digest = "13e01e315133d9d8"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Ratio of Expectations of Economic Primacy"
+gloss = "The proportion expecting China to be the top economic power divided by the proportion expecting the United States gives a ratio near two."
+cite = ["research_atlantic_council_2026_welcome_2036"]
+digest = "d6118c79739eeb6f"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Annual Change in Expectations of American Dominance"
+gloss = "The differences between successive survey editions give the one-year movement in each of four domains in percentage points."
+cite = ["research_atlantic_council_2025_welcome_2035"]
+digest = "b3b7304e85866f80"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Proportion of Thucydides Trap Cases Ending in War"
+gloss = "The proportion of the sixteen cases ending in war is the figure on which the popular framework rests."
+cite = ["commentary_allison_2015_thucydides_trap"]
+digest = "948a6c324662b601"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Ratio of Japanese to American Proportional Output Loss"
+gloss = "The ratio of the two proportional losses in the Nikkei estimate shows a non-belligerent ally bearing nearly three times the American loss."
+cite = ["commentary_nikkei_2022_taiwan_emergency"]
+digest = "c40084e904a0fee2"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Ratio of Midpoint Output Losses"
+gloss = "Taking the midpoint of each published range for Chinese and American output loss, a reduction the article chose, gives China losing about four times as much."
+cite = ["research_gompert_2016_war_with_china"]
+digest = "29b3aac68792a07e"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Dollar Share of Reserves at the Two Ends of the Series"
+gloss = "The dollar share of official foreign exchange reserves is stated at the first and the latest quarters of the International Monetary Fund series."
+cite = ["data_imf_cofer"]
+digest = "96073da915303d4a"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Total and Annual Decline of the Dollar Reserve Share"
+gloss = "The total fall in percentage points divided by the elapsed years gives a decline of about two thirds of a point per year."
+cite = ["data_imf_cofer"]
+digest = "19ca15f0edbecdae"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Annual Decline Before and After the 2022 Reserve Freeze"
+gloss = "Splitting the series at the first quarter of 2022 gives the average annual decline in each period, and the later rate is slightly slower."
+cite = ["data_imf_cofer"]
+digest = "66d735baa0671e23"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Relative Change in the Renminbi Reserve Share Since Its Peak"
+gloss = "The relative change from the peak share in the fourth quarter of 2021 shows about a quarter of the renminbi share lost since then."
+cite = ["data_imf_cofer"]
+digest = "e36bd5b1ea07ac48"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Dollar Share of Foreign Exchange Turnover Across Surveys"
+gloss = "The dollar share of foreign exchange trades in successive triennial surveys of the Bank for International Settlements has risen slightly, on a basis that sums to two hundred percent."
+cite = ["data_bis_2025_triennial"]
+digest = "52ab56f2351724f9"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Projected Net Interest Against the Korean War Peak"
+gloss = "Projected net interest in fiscal year 2036 as a share of gross domestic product exceeds the peak cost of the Korean War on the same basis."
+cite = ["data_cbo_2026_projections"]
+digest = "885d14141d02c62e"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Relative Change in Chinese Holdings of Treasury Securities"
+gloss = "The relative change in custody-based holdings between January 2022 and July 2026 is a fall of about two fifths in nominal terms."
+cite = ["data_treasury_tic_2026"]
+digest = "864b226ebf9e33d3"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Estimated Costs of Losing Reserve-Currency Status"
+gloss = "The seigniorage loss, the real depreciation and the rise in the real interest rate are the three magnitudes the cited study estimates."
+cite = ["research_jiang_2026_dollar_erosion"]
+digest = "5adf46dceed016c8"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Ratio of Median Bloc Welfare Losses Under Decoupling"
+gloss = "The median Eastern bloc welfare loss divided by the median Western bloc loss shows decoupling costing the Chinese bloc about two and a half times as much."
+cite = ["research_goes_bekkers_2022_geopolitical_conflicts"]
+digest = "27b9b902a7b660fa"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Conflict and Economic Risk as Fractions of Disrupted Trade"
+gloss = "Dividing the conflict component and the estimated economic risk by the expected value of disrupted trade at the Taiwan Strait shows both to be small parts of the headline figure."
+cite = ["journal_verschuur_2025_chokepoints"]
+digest = "36a31586d43332ea"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Proportion of Latent Nuclear States That Built Arsenals"
+gloss = "The number of states that acquired arsenals divided by the number that developed the capacity gives a frequency of about one in three."
+cite = ["journal_fuhrmann_tkach_2015_nuclear_latency"]
+digest = "0c9a48d04f6226df"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Ratio of Preference for Indigenous Over Redeployed Weapons"
+gloss = "The ratio of South Korean respondents preferring indigenous weapons to those preferring redeployed American weapons is about seven to one."
+cite = ["data_chicago_council_2022_south_korea"]
+digest = "d22f240c8050e754"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Relative Change in South Korean Support for Nuclear Weapons"
+gloss = "The relative change in support between 2021 and 2023 in the Korea Institute for National Unification series is a fall of about a sixth."
+cite = ["data_kinu_2023_unification_survey"]
+digest = "d8dcb72b9073b84d"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Framed Support Relative to Headline Support"
+gloss = "The midpoint of support under risk framing divided by the headline figure shows support close to halving when the question is framed, with the reported range reduced to its midpoint as the article chose."
+cite = ["data_kinu_2023_unification_survey"]
+digest = "b0c6ad49d9afc41a"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Ratio of Preference for the Alliance Over Nuclear Weapons"
+gloss = "The proportion choosing continued American forces divided by the proportion choosing nuclear weapons gives a ratio of about one and a half."
+cite = ["data_kinu_2023_unification_survey"]
+digest = "6adebdc6fd515f25"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Probability Value for the Washington Declaration Comparison"
+gloss = "The probability value for the change in support before and after the Washington Declaration fails the conventional threshold for significance."
+cite = ["data_kinu_2023_unification_survey"]
+digest = "2ffb5a893d7f38d6"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Composition of Japan's Separated Plutonium Stock"
+gloss = "The overseas holdings in the United Kingdom and France sum to the overseas total, which with the domestic holding gives the whole stock."
+cite = ["government_japan_2025_plutonium"]
+digest = "bfed29bcfbf6ab0b"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Overseas Fraction of Japan's Plutonium Stock"
+gloss = "The overseas holding divided by the whole stock shows about four fifths of it held in two other states."
+cite = ["government_japan_2025_plutonium"]
+digest = "7508a6b3f2526428"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Taiwan's Range Ring Against the Chinese Coastline"
+gloss = "The north to south extent of Taiwan divided by the length of the mainland coastline gives less than three percent."
+cite = ["journal_caverley_2025"]
+digest = "c89be87c0a697d67"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Ratio of Chinese to American Government Crude Stocks"
+gloss = "The ratio of Chinese government-held crude inventories to the American Strategic Petroleum Reserve is close to nine tenths on the same basis."
+cite = ["government_eia_2026_strategic_stocks"]
+digest = "e83aa02980ec5ddd"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Survey Margins Between China and the United States"
+gloss = "The differences between the two choices in consecutive survey years show a margin that reversed sign while barely changing in magnitude."
+cite = ["data_iseas_2026_state_of_southeast_asia"]
+digest = "897d224d950566de"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Reestimated Effect of Nuclear Dyads on War"
+gloss = "The earlier estimate that nuclear dyads were millions of times less likely to fight is reduced to statistical insignificance on reestimation."
+cite = ["journal_bell_miller_2015_questioning"]
+digest = "4d8131dd8826d88b"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Calibration Failures in Expert Political Judgement"
+gloss = "The observed frequencies of events experts called impossible occurring and of events they called certain failing show both to be well above zero."
+cite = ["book_tetlock_2005_expert_political_judgment"]
+digest = "79c1da1d8facb4f1"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Iraq War Cost Outturn Against the Prewar Forecast"
+gloss = "The lower end of the reported outturn divided by the top of the prewar range shows the forecast low by a factor of about two."
+cite = ["research_nordhaus_2002_iraq_cost", "journal_chang_2016_developing_expert_judgment"]
+digest = "dc8c6603dcbfdb10"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Shares of World Manufacturing Across the First World War"
+gloss = "Britain's share of world manufacturing output fell and the American share rose between 1913 and 1928."
+cite = ["book_kennedy_1987_rise_and_fall"]
+digest = "cb61b9932748a496"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Advanced Manufacturing Investment Credit Rate"
+gloss = "The later public law raised the credit rate from twenty five to thirty five percent."
+cite = ["government_us_2025_pl_119_21"]
+digest = "33c0a85f3dd8cc67"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Taiwan's Dependence on Imported Energy"
+gloss = "The handbook gives the dependence on imported energy overall and for oil and for liquefied natural gas in 2025."
+cite = ["data_taiwan_moea_energy"]
+digest = "41e18b13a1357ffc"
+
+[[symbol]]
+tex = 'x_{c,i,t}'
+meaning = "the value of capability component $c$ held by state $i$ in year $t$"
+
+[[symbol]]
+tex = 's_{c,i,t}'
+meaning = "the share of state $i$ in the world total of component $c$ in year $t$"
+
+[[symbol]]
+tex = '\mathrm{CINC}_{i,t}'
+meaning = "the Composite Index of National Capability of state $i$ in year $t$ on the sixfold definition"
+
+[[symbol]]
+tex = '\mathrm{CINC}^{\text{published}}_{i,t}'
+meaning = "the index value as published, averaged over the recorded components only"
+
+[[symbol]]
+tex = 'A_{i,t}'
+meaning = "the set of components actually recorded for state $i$ in year $t$"
+
+[[symbol]]
+tex = 'S_{i,t}'
+meaning = "the share of state $i$ over the set $C$ of states present in both compared years"
+
+[[symbol]]
+tex = '\delta_{i}'
+meaning = "the relative change in a belligerent's fixed-membership share from the year before the war to five or ten years after it"
+
+[[symbol]]
+tex = '\tau_{i}'
+meaning = "the relative change in the same share over an equal window before the war"
+
+[[symbol]]
+tex = 't_{0}'
+meaning = "the year before the war began"
+
+[[symbol]]
+tex = 't_{1}'
+meaning = "the year five or ten years after the war ended"
+
+[[symbol]]
+tex = 'h'
+meaning = "the length of the comparison window in years"
+
+[[symbol]]
+tex = 'B_{t}'
+meaning = "the combined fixed-membership share of the set $B$ of belligerents in year $t$"
+
+[[symbol]]
+tex = "S'"
+meaning = "a projected postwar share"
+
+[[symbol]]
+tex = "P'"
+meaning = "the projected bystander pool, the capability held by all states other than the two principals"
+
+[[symbol]]
+tex = 'r_{5}'
+meaning = "the correlation coefficient between prewar trend and postwar change at the five-year horizon"
+
+[[symbol]]
+tex = 'z'
+meaning = "the standardised Mann-Whitney test statistic"
+
+[[symbol]]
+tex = 'p'
+meaning = "the probability value of a test"

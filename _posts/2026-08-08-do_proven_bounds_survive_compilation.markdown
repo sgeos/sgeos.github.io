@@ -57,7 +57,10 @@ that was never asked to preserve the property.
 Written as a schema, with $\Phi$ the property, $A$ the thing it was established about and $\mathcal{T}$
 the transformation, the mistake is to treat
 
-$$\Phi(A) \quad\Longrightarrow\quad \Phi\bigl(\mathcal{T}(A)\bigr)$$
+$$
+\Phi(A) \quad\Longrightarrow\quad \Phi\bigl(\mathcal{T}(A)\bigr)
+\tag{1}
+$$
 
 as though it needed no argument. **It always needs one, and the argument is a statement about
 $\mathcal{T}$ rather than about $\Phi$.** Stated that baldly it sounds like nobody would make the
@@ -148,13 +151,19 @@ bytecode, adding up the cost of each instruction along the way, and keeping the 
 cost of an instruction comes from a table of measured costs, written $c$ below, calibrated against the
 interpreter that executes bytecode. Formally, with $\Pi(k)$ the set of paths through a unit of code $k$,
 
-$$T_{\mathrm{vm}}(k) \;=\; \max_{\pi \in \Pi(k)} \; \sum_{\iota \in \pi} c(\iota),$$
+$$
+T_{\mathrm{vm}}(k) \;=\; \max_{\pi \in \Pi(k)} \; \sum_{\iota \in \pi} c(\iota),
+\tag{2}
+$$
 
 **The other is a worst-case memory.** Bytecode keeps its intermediate values on a stack, and the verifier
 finds the deepest that stack ever gets. Multiplying that depth by the size of one value, written $w$, and
 adding a separately computed allocation requirement gives
 
-$$M_{\mathrm{vm}}(k) \;=\; w \cdot \max_{ip} \mathrm{depth}(k, ip) \;+\; \mathrm{arena}(k),$$
+$$
+M_{\mathrm{vm}}(k) \;=\; w \cdot \max_{ip} \mathrm{depth}(k, ip) \;+\; \mathrm{arena}(k),
+\tag{3}
+$$
 
 **Both numbers are functions of the bytecode and of nothing else.** That is exactly what makes them
 provable before the program runs, and it is exactly the property this article puts under strain, because
@@ -168,11 +177,17 @@ being targeted.
 
 Let $P$ denote a program and $\mathcal{B}(P)$ its bytecode. Write
 
-$$T_{\mathrm{vm}}(P), \qquad M_{\mathrm{vm}}(P)$$
+$$
+T_{\mathrm{vm}}(P), \qquad M_{\mathrm{vm}}(P)
+\tag{4}
+$$
 
 for the verifier's time and memory bounds, and
 
-$$T_{\mathrm{nat}}(P), \qquad M_{\mathrm{nat}}(P)$$
+$$
+T_{\mathrm{nat}}(P), \qquad M_{\mathrm{nat}}(P)
+\tag{5}
+$$
 
 for the true worst case of the native artefact on its target.
 
@@ -184,7 +199,10 @@ $\mathrm{allocs}$ rather than abbreviated, so that $A$ always means the artefact
 established about.** **The claim under examination is the
 transfer claim**,
 
-$$T_{\mathrm{nat}}(P) \le \alpha \, T_{\mathrm{vm}}(P) \quad \text{and} \quad M_{\mathrm{nat}}(P) \le \beta \, M_{\mathrm{vm}}(P)$$
+$$
+T_{\mathrm{nat}}(P) \le \alpha \, T_{\mathrm{vm}}(P) \quad \text{and} \quad M_{\mathrm{nat}}(P) \le \beta \, M_{\mathrm{vm}}(P)
+\tag{6}
+$$
 
 for constants $\alpha, \beta$ that do not depend on $P$. **Everything turns on whether such constants exist**,
 and the two halves fail differently.
@@ -194,7 +212,10 @@ and the two halves fail differently.
 **The proven memory bound counts slots on the bytecode's own value stack.** Quoting it in bytes means
 multiplying by the width of one slot, the $w$ above, which on this target is eight,
 
-$$M_{\mathrm{vm}}^{\text{bytes}}(k) \;=\; 8 \cdot \max_{ip} \mathrm{depth}(k, ip) \;+\; \mathrm{arena}(k).$$
+$$
+M_{\mathrm{vm}}^{\text{bytes}}(k) \;=\; 8 \cdot \max_{ip} \mathrm{depth}(k, ip) \;+\; \mathrm{arena}(k).
+\tag{7}
+$$
 
 Across the units of code this article measures, which are the entry points of the language's stream
 construct, it ranges from 384 to 2,464 bytes, with between 6 and 71 named variables each.
@@ -247,13 +268,19 @@ from documents like [System V AMD64][ref_sysv_amd64] and [AAPCS64][ref_aapcs64].
 
 So with optimisation switched off the frame is
 
-$$M_{\mathrm{nat}}^{O_0}(f) \;=\; 8\bigl(64 + \mathrm{locals}(f)\bigr) + \text{callee-saved} + \text{alignment},$$
+$$
+M_{\mathrm{nat}}^{O_0}(f) \;=\; 8\bigl(64 + \mathrm{locals}(f)\bigr) + \text{callee-saved} + \text{alignment},
+\tag{8}
+$$
 
 in which **the verifier's proven depth does not appear anywhere.** The number of allocations this predicts
 is exact rather than approximate, and the measuring instrument asserts it rather than the author eyeballing
 it,
 
-$$\mathrm{allocs}_{O_0} \;=\; \sum_{f} \bigl(\mathrm{MAX\_STACK} + \mathrm{locals}(f)\bigr) \;=\; 38{,}601,$$
+$$
+\mathrm{allocs}_{O_0} \;=\; \sum_{f} \bigl(\mathrm{MAX\_STACK} + \mathrm{locals}(f)\bigr) \;=\; 38{,}601,
+\tag{9}
+$$
 
 which matches the measured count across all 19 modules with nothing left over. **An equation printed in an
 article is a claim like any other**, so this one is wired to a test that fails if the compiler ever stops
@@ -262,7 +289,10 @@ identical space.**
 
 **And then the optimiser deletes all of it, in the only place the count can see.**
 
-$$\mathrm{allocs}_{O_2} \;=\; 0.$$
+$$
+\mathrm{allocs}_{O_2} \;=\; 0.
+\tag{10}
+$$
 
 | | |
 |---|---|
@@ -287,7 +317,10 @@ The frame that actually ships is whatever the register allocator decides it cann
 by the [code generator][ref_llvm_codegen] from the number of registers the target processor has, the exact
 sequence of optimisation passes, the version of LLVM in use, and the code surrounding the function.
 
-$$M_{\mathrm{nat}}^{O_2}(f) \;=\; \mathrm{spill}(f, \text{target}, \text{pipeline}, \text{version})$$
+$$
+M_{\mathrm{nat}}^{O_2}(f) \;=\; \mathrm{spill}(f, \text{target}, \text{pipeline}, \text{version})
+\tag{11}
+$$
 
 **There is no $\beta$.** The two quantities are not proportional, not ordered, and not in the same units.
 $M_{\mathrm{vm}}$ is a property of the program and $M_{\mathrm{nat}}$ is a property of the compiler's
@@ -374,11 +407,17 @@ Written out it needs slightly more. It needs a way of saying which machine instr
 bytecode instruction, written $\phi$ below, and it needs each bytecode instruction's real machine cost to
 stay inside its modelled cost,
 
-$$\forall \iota \in \mathcal{B}(P): \quad \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \, c(\iota),$$
+$$
+\forall \iota \in \mathcal{B}(P): \quad \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \, c(\iota),
+\tag{12}
+$$
 
 Summing that inequality along the most expensive path gives the conclusion,
 
-$$T_{\mathrm{nat}}(P) \;=\; \sum_{\iota \in \pi^{*}} \; \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \sum_{\iota \in \pi^{*}} c(\iota) \;=\; \kappa \, T_{\mathrm{vm}}(P),$$
+$$
+T_{\mathrm{nat}}(P) \;=\; \sum_{\iota \in \pi^{*}} \; \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \sum_{\iota \in \pi^{*}} c(\iota) \;=\; \kappa \, T_{\mathrm{vm}}(P),
+\tag{13}
+$$
 
 with $\pi^{\*}$ the worst path. **The constant that emerges is the one the transfer claim needed**, so
 $\alpha$ and $\kappa$ are the same number arrived at from two directions, and the article uses $\alpha$
@@ -405,18 +444,27 @@ cost, then a unit of code with a larger bound should not produce a smaller body 
 
 Define an **inversion** as a pair of code units that the two measures order oppositely,
 
-$$\mathrm{inv} = \bigl|\{(a,b) : T_{\mathrm{vm}}(a) < T_{\mathrm{vm}}(b) \;\wedge\; S(a) > S(b)\}\bigr|$$
+$$
+\mathrm{inv} = \bigl|\{(a,b) : T_{\mathrm{vm}}(a) < T_{\mathrm{vm}}(b) \;\wedge\; S(a) > S(b)\}\bigr|
+\tag{14}
+$$
 
 with $S$ the number of machine instructions emitted. **A single inversion falsifies the proxy.** Only pairs
 that the bound actually orders can contribute, so the denominator is not the number of pairs but
 
-$$N_{\prec} = \bigl|\{(a,b) : T_{\mathrm{vm}}(a) < T_{\mathrm{vm}}(b)\}\bigr| \;\le\; \binom{n}{2},$$
+$$
+N_{\prec} = \bigl|\{(a,b) : T_{\mathrm{vm}}(a) < T_{\mathrm{vm}}(b)\}\bigr| \;\le\; \binom{n}{2},
+\tag{15}
+$$
 
 and a sample concentrated on a few distinct magnitudes drives $N_{\prec}$ far below $\binom{n}{2}$. The
 inversion count is the numerator of [Kendall's rank correlation][research_kendall_1938], so the result can
 equivalently be read as
 
-$$\tau \;=\; 1 - \frac{2\,\mathrm{inv}}{N_{\prec}},$$
+$$
+\tau \;=\; 1 - \frac{2\,\mathrm{inv}}{N_{\prec}},
+\tag{16}
+$$
 
 and $\tau = 1$ on a sample of three magnitudes is a much smaller statement than $\tau = 1$ on a spread.
 
@@ -443,12 +491,18 @@ sample contains exactly **three distinct magnitudes**.
 test" into a number.** With $n$ units of code falling into groups of equal bound of sizes $n_{g}$, the
 pairs the bound strictly orders are the total minus the ties within each group,
 
-$$N_{\prec} \;=\; \binom{n}{2} - \sum_{g} \binom{n_{g}}{2} \;=\; \binom{9}{2} - \binom{7}{2} \;=\; 36 - 21 \;=\; 15.$$
+$$
+N_{\prec} \;=\; \binom{n}{2} - \sum_{g} \binom{n_{g}}{2} \;=\; \binom{9}{2} - \binom{7}{2} \;=\; 36 - 21 \;=\; 15.
+\tag{17}
+$$
 
 **The remaining 21 pairs are ties and cannot invert by construction.** So the resolution of the test,
 meaning the fraction of the comparisons the sample is capable of making, is
 
-$$\frac{N_{\prec}}{\binom{n}{2}} \;=\; \frac{15}{36} \;=\; 41.7 \text{ percent},$$
+$$
+\frac{N_{\prec}}{\binom{n}{2}} \;=\; \frac{15}{36} \;=\; 41.7 \text{ percent},
+\tag{18}
+$$
 
 and those fifteen comparisons are drawn from only three separated size classes. **The headline zero is a
 zero over fifteen comparisons among three values, which is barely a test at all.**
@@ -476,7 +530,10 @@ relation and they are unproven for different reasons.** The memory case holds on
 and nothing establishes it, since no step of the compilation is required to maintain it. The timing case has
 an argument behind it and an unmeasured constant,
 
-$$\beta = 1 \text{ observed, unproven} : \mathcal{R}^{\mathrm{frame}}_{\mathrm{nat}} \le \beta\, \mathcal{R}^{\mathrm{slots}}_{\mathrm{vm}}, \qquad \exists \alpha \text{ (uncalibrated)} : \mathcal{R}^{\mathrm{time}}_{\mathrm{nat}} \le \alpha\, \mathcal{R}^{\mathrm{time}}_{\mathrm{vm}},$$
+$$
+\beta = 1 \text{ observed, unproven} : \mathcal{R}^{\mathrm{frame}}_{\mathrm{nat}} \le \beta\, \mathcal{R}^{\mathrm{slots}}_{\mathrm{vm}}, \qquad \exists \alpha \text{ (uncalibrated)} : \mathcal{R}^{\mathrm{time}}_{\mathrm{nat}} \le \alpha\, \mathcal{R}^{\mathrm{time}}_{\mathrm{vm}},
+\tag{19}
+$$
 
 which call for different work, being an argument in the first case and measurement in the second.
 
@@ -497,7 +554,10 @@ model any sound analysis needs and [Heckmann et al. 2003][research_heckmann_2003
 processor decides what is achievable at all. Native instruction count bounds execution time only under
 a bound on cycles per instruction,
 
-$$T_{\mathrm{nat}}(f) \;\le\; \mathrm{CPI}_{\max} \cdot S(f),$$
+$$
+T_{\mathrm{nat}}(f) \;\le\; \mathrm{CPI}_{\max} \cdot S(f),
+\tag{20}
+$$
 
 and $\mathrm{CPI}\_{\max}$ is exactly what cache misses, branch misprediction and memory stalls make
 unbounded without a target model. **That is the assumption the timing-analysis literature exists to
@@ -536,11 +596,17 @@ comfortable suppressed.
 verified compiler, which is one particular transformation $\mathcal{T}$ of the kind this article opened
 with, what such a compiler proves is semantic equivalence,
 
-$$\llbracket \mathcal{C}(P) \rrbracket \;=\; \llbracket P \rrbracket,$$
+$$
+\llbracket \mathcal{C}(P) \rrbracket \;=\; \llbracket P \rrbracket,
+\tag{21}
+$$
 
 while the property wanted here is a separate inequality over a resource measure $\mathcal{R}$,
 
-$$\mathcal{R}\bigl(\mathcal{C}(P)\bigr) \;\le\; \beta \, \mathcal{R}(P).$$
+$$
+\mathcal{R}\bigl(\mathcal{C}(P)\bigr) \;\le\; \beta \, \mathcal{R}(P).
+\tag{22}
+$$
 
 **Neither implies the other.** Semantic equivalence quantifies over observable behaviour, and resource use is
 not observable behaviour in any of these semantics, so a transformation may multiply the stack tenfold and
@@ -697,7 +763,10 @@ That inversion is the whole idea, and it is worth writing the two directions sid
 project had been assuming pushes a bound down onto the artefact, while the move CerCo makes computes it
 from the artefact and reports it upward,
 
-$$\underbrace{\mathcal{R}(A) \;\longrightarrow\; \mathcal{R}\bigl(\mathcal{T}(A)\bigr)}_{\text{transfer, which needs an argument nobody supplied}} \qquad\text{against}\qquad \underbrace{\mathcal{R}\bigl(\mathcal{T}(A)\bigr) \;\longrightarrow\; \text{annotation on } A}_{\text{lifting, which needs only the compiler's own knowledge}}$$
+$$
+\underbrace{\mathcal{R}(A) \;\longrightarrow\; \mathcal{R}\bigl(\mathcal{T}(A)\bigr)}_{\text{transfer, which needs an argument nobody supplied}} \qquad\text{against}\qquad \underbrace{\mathcal{R}\bigl(\mathcal{T}(A)\bigr) \;\longrightarrow\; \text{annotation on } A}_{\text{lifting, which needs only the compiler's own knowledge}}
+\tag{23}
+$$
 
 **The compiler is the thing that knows what the code became**, so it is the right component to report
 cost, and a bound computed before compilation is computed by the component with the least information.
@@ -12107,13 +12176,22 @@ certification regimes consume recompute the property on the shipped binary again
 
 Written against the same schema the article opened with, the two shapes are
 
-$$\text{fix a contract:} \quad \Phi_{0} \text{ chosen in advance, and } \mathcal{T} \text{ built so that } \Phi_{0}\bigl(\mathcal{T}(A)\bigr) \text{ holds by construction,}$$
+$$
+\text{fix a contract:} \quad \Phi_{0} \text{ chosen in advance, and } \mathcal{T} \text{ built so that } \Phi_{0}\bigl(\mathcal{T}(A)\bigr) \text{ holds by construction,}
+\tag{24}
+$$
 
-$$\text{recompute:} \quad \Phi\bigl(\mathcal{T}(A)\bigr) \text{ measured on the artefact itself, with } \Phi(A) \text{ playing no part,}$$
+$$
+\text{recompute:} \quad \Phi\bigl(\mathcal{T}(A)\bigr) \text{ measured on the artefact itself, with } \Phi(A) \text{ playing no part,}
+\tag{25}
+$$
 
 and the third shape, the one this project had been assuming, is
 
-$$\text{transfer:} \quad \Phi(A) \text{ proven, } \Phi\bigl(\mathcal{T}(A)\bigr) \text{ claimed, and nothing said about } \mathcal{T}.$$
+$$
+\text{transfer:} \quad \Phi(A) \text{ proven, } \Phi\bigl(\mathcal{T}(A)\bigr) \text{ claimed, and nothing said about } \mathcal{T}.
+\tag{26}
+$$
 
 **Nobody deploys the third.**
 
@@ -12127,6 +12205,271 @@ each established where they are used.
 **The lesson generalises past compilers.** Wherever a property is proven of a model and claimed for an
 artefact, the transformation between them is a premise. It is usually invisible, usually unstated, and
 occasionally the whole argument.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 26 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 26, 7 are established and 19 are bespoke.
+Bytecode time bounds are in the units of the verifier's calibrated cost table and native time is in processor cycles, while memory is counted in eight-byte operand slots unless an equation states bytes, so a ratio between a bytecode quantity and a native quantity has no meaning until those units are reconciled.
+
+*Equation 1, Bespoke Transfer Schema.*
+The article's schema for the inference under examination, in which a property established about one artefact is claimed for its transformed form without any argument about the transformation.
+
+$$
+\Phi(A) \quad\Longrightarrow\quad \Phi\bigl(\mathcal{T}(A)\bigr)
+\tag{1}
+$$
+
+**Equation 2, Worst-Case Path Cost.**
+The worst-case time of a unit of code is the largest sum of per-instruction costs over all paths through it, which is the usual path formulation of worst-case execution time.
+
+$$
+T_{\mathrm{vm}}(k) \;=\; \max_{\pi \in \Pi(k)} \; \sum_{\iota \in \pi} c(\iota),
+\tag{2}
+$$
+
+*Equation 3, Bespoke Verifier Memory Bound.*
+The verifier's memory bound is assembled from the deepest operand stack multiplied by the slot width and a separately computed arena requirement, a construction particular to this language.
+
+$$
+M_{\mathrm{vm}}(k) \;=\; w \cdot \max_{ip} \mathrm{depth}(k, ip) \;+\; \mathrm{arena}(k),
+\tag{3}
+$$
+
+*Equation 4, Bespoke Notation for the Verifier's Bounds.*
+The time and memory bounds of Equations 2 and 3 are written for a whole program, and they inherit the construction of the memory bound.
+
+$$
+T_{\mathrm{vm}}(P), \qquad M_{\mathrm{vm}}(P)
+\tag{4}
+$$
+
+**Equation 5, Notation for the Native Worst Case.**
+The true worst-case time and memory of the compiled artefact on its target are named so that they can be compared with the bytecode bounds.
+
+$$
+T_{\mathrm{nat}}(P), \qquad M_{\mathrm{nat}}(P)
+\tag{5}
+$$
+
+*Equation 6, Bespoke Transfer Claim with Program-Independent Constants.*
+The claim under examination is that native time and memory are each bounded by a constant multiple of the bytecode bound, with constants that do not depend on the program.
+
+$$
+T_{\mathrm{nat}}(P) \le \alpha \, T_{\mathrm{vm}}(P) \quad \text{and} \quad M_{\mathrm{nat}}(P) \le \beta \, M_{\mathrm{vm}}(P)
+\tag{6}
+$$
+
+*Equation 7, Bespoke Verifier Memory Bound in Bytes.*
+Equation 3 is evaluated with a slot width of eight bytes for the target examined.
+
+$$
+M_{\mathrm{vm}}^{\text{bytes}}(k) \;=\; 8 \cdot \max_{ip} \mathrm{depth}(k, ip) \;+\; \mathrm{arena}(k).
+\tag{7}
+$$
+
+*Equation 8, Bespoke Unoptimised Frame Model.*
+The unoptimised frame is modelled as the backend's fixed reservation of sixty-four slots plus one slot per named variable, with the callee-saved registers and alignment that the calling convention adds, and the proven depth appears nowhere in it.
+[stack allocation instruction][ref_llvm_langref]
+[System V AMD64][ref_sysv_amd64]
+[AAPCS64][ref_aapcs64]
+
+$$
+M_{\mathrm{nat}}^{O_0}(f) \;=\; 8\bigl(64 + \mathrm{locals}(f)\bigr) + \text{callee-saved} + \text{alignment},
+\tag{8}
+$$
+
+*Equation 9, Bespoke Count of Unoptimised Stack Allocations.*
+Summing the backend's fixed reservation and the named variables over every function predicts the number of stack allocation instructions, which matches the measured corpus exactly.
+
+$$
+\mathrm{allocs}_{O_0} \;=\; \sum_{f} \bigl(\mathrm{MAX\_STACK} + \mathrm{locals}(f)\bigr) \;=\; 38{,}601,
+\tag{9}
+$$
+
+*Equation 10, Bespoke Count of Stack Allocations After Promotion.*
+The measured count of stack allocation instructions that survive the shipped optimisation pipeline is zero, a fact about the intermediate representation rather than about the final frame.
+
+$$
+\mathrm{allocs}_{O_2} \;=\; 0.
+\tag{10}
+$$
+
+*Equation 11, Bespoke Dependence of the Optimised Frame on the Register Allocator.*
+The shipped frame is stated to be a function of the spilling decisions of the register allocator, which depend on the target, the pass pipeline, the compiler version and the surrounding code, and not on the bytecode bound.
+[code generator][ref_llvm_codegen]
+
+$$
+M_{\mathrm{nat}}^{O_2}(f) \;=\; \mathrm{spill}(f, \text{target}, \text{pipeline}, \text{version})
+\tag{11}
+$$
+
+*Equation 12, Bespoke Per-Instruction Domination Premise.*
+The premise assumes a correspondence from each bytecode instruction to the machine instructions derived from it and requires their native time to stay within a constant multiple of the modelled cost, a correspondence that optimisation routinely destroys.
+
+$$
+\forall \iota \in \mathcal{B}(P): \quad \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \, c(\iota),
+\tag{12}
+$$
+
+*Equation 13, Bespoke Domination Along the Worst Path.*
+Summing the premise of Equation 12 along the most expensive path bounds the native time by the same constant multiple of the bytecode bound.
+
+$$
+T_{\mathrm{nat}}(P) \;=\; \sum_{\iota \in \pi^{*}} \; \sum_{\iota' \in \phi^{-1}(\iota)} t_{\mathrm{nat}}(\iota') \;\le\; \kappa \sum_{\iota \in \pi^{*}} c(\iota) \;=\; \kappa \, T_{\mathrm{vm}}(P),
+\tag{13}
+$$
+
+**Equation 14, Count of Discordant Pairs.**
+An inversion is a pair of code units that the bytecode bound and the native instruction count order oppositely, which is the discordant pair of rank correlation.
+[Kendall's rank correlation][research_kendall_1938]
+
+$$
+\mathrm{inv} = \bigl|\{(a,b) : T_{\mathrm{vm}}(a) < T_{\mathrm{vm}}(b) \;\wedge\; S(a) > S(b)\}\bigr|
+\tag{14}
+$$
+
+**Equation 15, Count of Pairs Strictly Ordered by the Bound.**
+Only pairs that the bound orders strictly can invert, and their number cannot exceed the number of unordered pairs in the sample.
+[Kendall's rank correlation][research_kendall_1938]
+
+$$
+N_{\prec} = \bigl|\{(a,b) : T_{\mathrm{vm}}(a) < T_{\mathrm{vm}}(b)\}\bigr| \;\le\; \binom{n}{2},
+\tag{15}
+$$
+
+*Equation 16, Bespoke Rank Correlation over Strictly Ordered Pairs.*
+The inversion count is normalised by the pairs the bound strictly orders rather than by all pairs, a choice that departs from the classical form of Kendall's coefficient and coincides with it only when the bound has no ties.
+[Kendall's rank correlation][research_kendall_1938]
+
+$$
+\tau \;=\; 1 - \frac{2\,\mathrm{inv}}{N_{\prec}},
+\tag{16}
+$$
+
+**Equation 17, Pairs Remaining After Removing Ties.**
+The strictly ordered pairs are all pairs less the pairs within each group of equal bound, evaluated here for nine units of which seven share one bound.
+
+$$
+N_{\prec} \;=\; \binom{n}{2} - \sum_{g} \binom{n_{g}}{2} \;=\; \binom{9}{2} - \binom{7}{2} \;=\; 36 - 21 \;=\; 15.
+\tag{17}
+$$
+
+*Equation 18, Bespoke Resolution of the Ordering Test.*
+The article introduces the fraction of all pairs that the sample can actually compare as a measure of how much the zero inversion count is able to say.
+
+$$
+\frac{N_{\prec}}{\binom{n}{2}} \;=\; \frac{15}{36} \;=\; 41.7 \text{ percent},
+\tag{18}
+$$
+
+*Equation 19, Bespoke Status of the Two Transfer Constants.*
+Equation 6 is restated with the memory constant observed to equal one on this corpus without proof and the time constant asserted to exist without calibration.
+
+$$
+\beta = 1 \text{ observed, unproven} : \mathcal{R}^{\mathrm{frame}}_{\mathrm{nat}} \le \beta\, \mathcal{R}^{\mathrm{slots}}_{\mathrm{vm}}, \qquad \exists \alpha \text{ (uncalibrated)} : \mathcal{R}^{\mathrm{time}}_{\mathrm{nat}} \le \alpha\, \mathcal{R}^{\mathrm{time}}_{\mathrm{vm}},
+\tag{19}
+$$
+
+**Equation 20, Execution Time from Instruction Count and Cycles per Instruction.**
+Native execution time is bounded by the instruction count multiplied by the largest number of cycles per instruction, which is the usual decomposition of processor time.
+
+$$
+T_{\mathrm{nat}}(f) \;\le\; \mathrm{CPI}_{\max} \cdot S(f),
+\tag{20}
+$$
+
+**Equation 21, Semantic Preservation by a Verified Compiler.**
+A verified compiler guarantees that the compiled program has the same observable meaning as the source program and guarantees nothing about its resource use.
+[Leroy 2009a][research_leroy_2009_cacm]
+[Leroy 2009b][research_leroy_2009_jar]
+
+$$
+\llbracket \mathcal{C}(P) \rrbracket \;=\; \llbracket P \rrbracket,
+\tag{21}
+$$
+
+*Equation 22, Bespoke Resource Preservation Inequality.*
+The property the article requires of a compiler is that a resource measure of the compiled program stays within a constant multiple of the same measure of the source, which semantic preservation does not imply.
+
+$$
+\mathcal{R}\bigl(\mathcal{C}(P)\bigr) \;\le\; \beta \, \mathcal{R}(P).
+\tag{22}
+$$
+
+*Equation 23, Bespoke Contrast Between Transfer and Lifting.*
+The article sets the assumed transfer of a bound onto the artefact against the lifting of a cost computed from the artefact back onto the source, the approach the certified cost-annotating compiler takes.
+[Amadio and Régis-Gianas 2012][research_amadio_2012]
+[Ayache et al. 2012][research_ayache_2012]
+
+$$
+\underbrace{\mathcal{R}(A) \;\longrightarrow\; \mathcal{R}\bigl(\mathcal{T}(A)\bigr)}_{\text{transfer, which needs an argument nobody supplied}} \qquad\text{against}\qquad \underbrace{\mathcal{R}\bigl(\mathcal{T}(A)\bigr) \;\longrightarrow\; \text{annotation on } A}_{\text{lifting, which needs only the compiler's own knowledge}}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Schema for Fixing a Contract.*
+The first deployed shape fixes a property in advance and builds the transformation so that the property holds of its output by construction.
+
+$$
+\text{fix a contract:} \quad \Phi_{0} \text{ chosen in advance, and } \mathcal{T} \text{ built so that } \Phi_{0}\bigl(\mathcal{T}(A)\bigr) \text{ holds by construction,}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Schema for Recomputing on the Artefact.*
+The second deployed shape measures the property on the transformed artefact itself, so that the property of the original plays no part.
+
+$$
+\text{recompute:} \quad \Phi\bigl(\mathcal{T}(A)\bigr) \text{ measured on the artefact itself, with } \Phi(A) \text{ playing no part,}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Schema for Unsupported Transfer.*
+The third shape, the one the project had assumed, proves a property of the original and claims it for the transformed artefact while saying nothing about the transformation.
+
+$$
+\text{transfer:} \quad \Phi(A) \text{ proven, } \Phi\bigl(\mathcal{T}(A)\bigr) \text{ claimed, and nothing said about } \mathcal{T}.
+\tag{26}
+$$
+
+### Notation
+
+- $\Phi$, any property, with a subscript zero for a property fixed in advance as a contract
+- $\mathcal{T}$, any transformation of an artefact
+- $A$, the artefact a property was established about
+- $T_{\mathrm{vm}}$, the verifier's worst-case time bound computed from bytecode
+- $M_{\mathrm{vm}}$, the verifier's worst-case memory bound computed from bytecode
+- $T_{\mathrm{nat}}$, the true worst-case time of the native artefact on its target
+- $M_{\mathrm{nat}}$, the true worst-case memory of the native artefact, with a superscript naming the optimisation level
+- $\Pi(k)$, the set of paths through a unit of code $k$
+- $c(\iota)$, the calibrated cost of bytecode instruction $\iota$ in the verifier's cost table
+- $w$, the width of one operand slot, eight bytes on the target examined
+- $\mathrm{depth}$, the operand stack depth of a unit of code at instruction position $ip$
+- $\mathrm{arena}(k)$, the arena allocation requirement of a unit of code
+- $\mathcal{B}(P)$, the bytecode of program $P$
+- $\alpha$, the program-independent constant relating native time to the bytecode time bound
+- $\beta$, the program-independent constant relating native memory to the bytecode memory bound
+- $\mathrm{locals}(f)$, the number of named variables in function $f$
+- $\mathrm{MAX\_STACK}$, the fixed reservation of sixty-four operand slots the backend makes for every function
+- $\mathrm{allocs}$, the number of stack allocation instructions in the intermediate representation
+- $\mathrm{spill}$, the frame size the register allocator decides for a function
+- $\phi^{-1}$, the inverse of the correspondence from machine instructions to the bytecode instruction they came from
+- $t_{\mathrm{nat}}$, the native execution time of one machine instruction
+- $\kappa$, the per-instruction constant of the domination premise
+- $\pi^{*}$, the most expensive path through the bytecode
+- $\mathrm{inv}$, the number of inversions between the bytecode bound and the native instruction count
+- $N_{\prec}$, the number of pairs that the bytecode bound orders strictly
+- $n_{g}$, the size of a group of code units sharing one bound, out of $n$ units in all
+- $\tau$, the rank correlation between the bytecode bound and the native instruction count
+- $S(f)$, the number of machine instructions emitted for a unit of code
+- $\mathrm{CPI}_{\max}$, the largest number of processor cycles per instruction
+- $\mathcal{C}$, a compiler, the particular transformation the article examines
+- $\mathcal{R}$, a resource measure, with superscripts naming the frame, operand slots or time
+- $\llbracket P \rrbracket$, the observable meaning of program $P$
 
 ## References
 

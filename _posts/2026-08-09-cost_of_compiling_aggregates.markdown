@@ -96,13 +96,19 @@ field access is a byte offset into that run, resolved by the compiler.
 Let $\mathcal{A}$ denote the aggregate operations in a corpus. Each carries a compiler-baked operand drawn
 from three forms,
 
-$$\mathcal{A} = \mathcal{A}_{\mathsf{Flat}} \;\sqcup\; \mathcal{A}_{\mathsf{Nested}} \;\sqcup\; \mathcal{A}_{\mathsf{Boxed}},$$
+$$
+\mathcal{A} = \mathcal{A}_{\mathsf{Flat}} \;\sqcup\; \mathcal{A}_{\mathsf{Nested}} \;\sqcup\; \mathcal{A}_{\mathsf{Boxed}},
+\tag{1}
+$$
 
 which differ in what a backend must supply.
 
 **$\mathsf{Flat}$** carries a pair $(\mathrm{off}, \kappa)$: a byte offset and a scalar kind. Reading it is
 
-$$\mathrm{load}_{\kappa}\bigl(\mathrm{base} + \mathrm{off}\bigr),$$
+$$
+\mathrm{load}_{\kappa}\bigl(\mathrm{base} + \mathrm{off}\bigr),
+\tag{2}
+$$
 
 with $\mathrm{off}$ a compile-time constant. **This is an address computation and a typed load**, being a
 [`getelementptr`][ref_llvm_gep] with constant indices followed by a `load`, and it is the same operation the
@@ -117,7 +123,10 @@ general mechanism, and it is the one whose cost dominates every estimate of this
 
 Write $C(\cdot)$ for implementation cost. The estimate everyone carried was
 
-$$C(\mathcal{A}) \approx C(\mathcal{A}_{\mathsf{Boxed}}),$$
+$$
+C(\mathcal{A}) \approx C(\mathcal{A}_{\mathsf{Boxed}}),
+\tag{3}
+$$
 
 because the boxed form is what "implementing aggregates" means in the general case. **The question this
 article answers is whether that term has any instances.**
@@ -125,15 +134,24 @@ article answers is whether that term has any instances.**
 The distinction the article turns on is *which index set the sum runs over*. An estimate anchored on the
 category prices every form the **instruction set** defines,
 
-$$C_{\mathrm{est}} \;=\; \sum_{f \in \mathcal{F}} C(f),$$
+$$
+C_{\mathrm{est}} \;=\; \sum_{f \in \mathcal{F}} C(f),
+\tag{4}
+$$
 
 while the work actually required prices only the forms the **corpus** contains,
 
-$$C_{\mathrm{act}} \;=\; \sum_{f \in \mathcal{F}} \mathbf{1}\bigl[\lvert \mathcal{A}_f \rvert > 0\bigr] \cdot C(f).$$
+$$
+C_{\mathrm{act}} \;=\; \sum_{f \in \mathcal{F}} \mathbf{1}\bigl[\lvert \mathcal{A}_f \rvert > 0\bigr] \cdot C(f).
+\tag{5}
+$$
 
 The two differ by exactly the terms with no instances,
 
-$$C_{\mathrm{est}} - C_{\mathrm{act}} \;=\; \sum_{f \,:\, \lvert \mathcal{A}_f \rvert = 0} C(f),$$
+$$
+C_{\mathrm{est}} - C_{\mathrm{act}} \;=\; \sum_{f \,:\, \lvert \mathcal{A}_f \rvert = 0} C(f),
+\tag{6}
+$$
 
 and **nothing in the feature's name distinguishes them**. That is the whole error, stated before the
 measurement that exposes it. **The measurement is an evaluation of that sum**, and the article's result is
@@ -165,7 +183,10 @@ sources, walks every instruction, and classifies each aggregate operation by its
 
 Aggregated by form:
 
-$$\lvert \mathcal{A}_{\mathsf{Flat}} \rvert = 300, \qquad \lvert \mathcal{A}_{\mathsf{Nested}} \rvert = 2, \qquad \lvert \mathcal{A}_{\mathsf{Boxed}} \rvert = 0.$$
+$$
+\lvert \mathcal{A}_{\mathsf{Flat}} \rvert = 300, \qquad \lvert \mathcal{A}_{\mathsf{Nested}} \rvert = 2, \qquad \lvert \mathcal{A}_{\mathsf{Boxed}} \rvert = 0.
+\tag{7}
+$$
 
 **Those three counts total 302 and not 331, which is worth explaining instead of leaving a reader to
 subtract.** The 29 discriminant tests carry no form tag at all, since testing which variant an enumeration
@@ -179,7 +200,10 @@ carry a form at all**, which is the claim the opening makes and this is where it
 
 The constructed bodies are small:
 
-$$\mathrm{byte\_size} \in [8, 64], \quad \text{median } 24, \qquad \mathrm{count} \in [1, 5], \quad \text{median } 3.$$
+$$
+\mathrm{byte\_size} \in [8, 64], \quad \text{median } 24, \qquad \mathrm{count} \in [1, 5], \quad \text{median } 3.
+\tag{8}
+$$
 
 An aggregate in this corpus is **three values in twenty-four bytes**.
 
@@ -190,7 +214,10 @@ With the boxed term empty, the work is:
 **Construction**, 239 instances. Reserve $\mathrm{byte\_size}$ bytes **in the arena** and write the popped
 values at their baked offsets,
 
-$$\mathrm{body}\bigl[\mathrm{off}_i,\; \mathrm{off}_i + w_i\bigr) \;\leftarrow\; v_i, \qquad i = 1 \ldots \mathrm{count},$$
+$$
+\mathrm{body}\bigl[\mathrm{off}_i,\; \mathrm{off}_i + w_i\bigr) \;\leftarrow\; v_i, \qquad i = 1 \ldots \mathrm{count},
+\tag{9}
+$$
 
 then yield a reference to the body.
 
@@ -215,28 +242,40 @@ constant offset, and that path is implemented and tested.
 **Discriminant tests**, 29 instances. A variant is identified by a number stored at the front of the body,
 so the test loads that word and compares it against a constant the compiler already knows,
 
-$$\bigl[\mathrm{load}_{\mathrm{word}}(\mathrm{base}) = k\bigr], \qquad k \text{ fixed at compile time},$$
+$$
+\bigl[\mathrm{load}_{\mathrm{word}}(\mathrm{base}) = k\bigr], \qquad k \text{ fixed at compile time},
+\tag{10}
+$$
 
 which is an integer comparison and names no layout, **which is why these 29 carry no form tag**.
 
 **Nested access**, 2 instances. The only form needing an aggregate as a first-class value. Because the
 representation is contiguous, a child body is a sub-range of its parent,
 
-$$\mathrm{addr}(\mathrm{child}) \;=\; \mathrm{addr}(\mathrm{parent}) + \mathrm{off}, \qquad \mathrm{len}(\mathrm{child}) = \mathrm{size},$$
+$$
+\mathrm{addr}(\mathrm{child}) \;=\; \mathrm{addr}(\mathrm{parent}) + \mathrm{off}, \qquad \mathrm{len}(\mathrm{child}) = \mathrm{size},
+\tag{11}
+$$
 
 **so no copy is required** and the operation is an address computation as well. Contiguity, chosen upstream
 for unrelated reasons, is what makes the one genuinely hard form cheap.
 
 **Boxed anything**, 0 instances. Refused, at no cost to coverage. The claim being made is universal,
 
-$$\Phi_{\mathsf{Boxed}} \;\equiv\; \forall a \in \mathcal{A} : \mathrm{form}(a) \ne \mathsf{Boxed},$$
+$$
+\Phi_{\mathsf{Boxed}} \;\equiv\; \forall a \in \mathcal{A} : \mathrm{form}(a) \ne \mathsf{Boxed},
+\tag{12}
+$$
 
 so **a single counterexample refutes it** and no quantity of confirming instances would have been needed to
 state it. That is the same quantifier structure the [second article][related_post_a370] identified, arriving
 here with the opposite sign, since there an existential defeated a proposed unification while here a universal
 licenses a refusal.
 
-$$C(\mathcal{A}) \;=\; C(\text{arena bump}) + C(\text{constant-offset store}) + C(\text{constant-offset load}) + C(\text{integer compare}),$$
+$$
+C(\mathcal{A}) \;=\; C(\text{arena bump}) + C(\text{constant-offset store}) + C(\text{constant-offset load}) + C(\text{integer compare}),
+\tag{13}
+$$
 
 every term of which the backend already implements for other opcodes.
 
@@ -246,7 +285,10 @@ enlarge the native machine frame the [previous article][related_post_a371] measu
 
 Bodies belong in the arena. Writing $M$ for the arena requirement, the construction term is
 
-$$\Delta M \;=\; \sum_{a \in \mathcal{A}^{\mathrm{new}}} \mathrm{byte\_size}(a),$$
+$$
+\Delta M \;=\; \sum_{a \in \mathcal{A}^{\mathrm{new}}} \mathrm{byte\_size}(a),
+\tag{14}
+$$
 
 which is **exactly the quantity the worst-case-memory pass already sums**, because `byte_size` is the operand
 it was given for that purpose. So the memory cost of aggregate lowering is not a new bound to establish. It
@@ -292,7 +334,10 @@ present article uses the weaker human form of it.
 **Two instances is not zero.** The nested form has two occurrences, and a design that handles 300 cases and
 refuses 2 delivers
 
-$$\frac{\lvert \mathcal{A}_{\mathsf{Flat}} \rvert}{\lvert \mathcal{A}_{\mathsf{Flat}} \rvert + \lvert \mathcal{A}_{\mathsf{Nested}} \rvert} \;=\; \frac{300}{302} \;=\; 0.993,$$
+$$
+\frac{\lvert \mathcal{A}_{\mathsf{Flat}} \rvert}{\lvert \mathcal{A}_{\mathsf{Flat}} \rvert + \lvert \mathcal{A}_{\mathsf{Nested}} \rvert} \;=\; \frac{300}{302} \;=\; 0.993,
+\tag{15}
+$$
 
 which is less than the headline and not by much. Whether those two sit in modules that are otherwise unblocked is
 not established here.
@@ -6681,6 +6726,163 @@ region whose size the compiler already proves.
 **The generalisation is not that aggregates are cheap.** It is that a decision made upstream leaves a residue
 that keeps the original name, and an estimate anchored on the name measures the problem somebody else already
 solved.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 15 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 15, 4 are established and 11 are bespoke.
+Counts are numbers of aggregate operations in the measured corpus, sizes and offsets are in bytes, and implementation cost is an unquantified effort with no unit, so the cost equations state which terms are present rather than how large they are.
+
+*Equation 1, Bespoke Partition of Aggregate Operations by Form.*
+The article partitions the aggregate operations of a corpus into three disjoint sets by the form of the operand the compiler bakes into each instruction.
+
+$$
+\mathcal{A} = \mathcal{A}_{\mathsf{Flat}} \;\sqcup\; \mathcal{A}_{\mathsf{Nested}} \;\sqcup\; \mathcal{A}_{\mathsf{Boxed}},
+\tag{1}
+$$
+
+**Equation 2, Typed Load at a Constant Offset.**
+A field is read by adding a compile-time byte offset to a base address and loading a scalar of the stated kind from the result.
+[][ref_llvm_gep]
+
+$$
+\mathrm{load}_{\kappa}\bigl(\mathrm{base} + \mathrm{off}\bigr),
+\tag{2}
+$$
+
+*Equation 3, Bespoke Category-Anchored Estimate.*
+The estimate the article examines assumes that the cost of implementing aggregates is dominated by the cost of the general boxed form.
+
+$$
+C(\mathcal{A}) \approx C(\mathcal{A}_{\mathsf{Boxed}}),
+\tag{3}
+$$
+
+*Equation 4, Bespoke Estimated Cost over the Instruction Set.*
+The estimated cost sums the implementation cost of every operand form that the instruction set defines, whether or not any program uses it.
+
+$$
+C_{\mathrm{est}} \;=\; \sum_{f \in \mathcal{F}} C(f),
+\tag{4}
+$$
+
+*Equation 5, Bespoke Actual Cost over the Corpus.*
+The actual cost sums the implementation cost only of the operand forms that have at least one instance in the corpus.
+
+$$
+C_{\mathrm{act}} \;=\; \sum_{f \in \mathcal{F}} \mathbf{1}\bigl[\lvert \mathcal{A}_f \rvert > 0\bigr] \cdot C(f).
+\tag{5}
+$$
+
+*Equation 6, Bespoke Excess of the Estimate over the Actual Cost.*
+Subtracting Equation 5 from Equation 4 leaves exactly the costs of the forms with no instances, which the article identifies as the trace of anchoring on the category.
+[Jørgensen 2004b][research_jorgensen_2004]
+
+$$
+C_{\mathrm{est}} - C_{\mathrm{act}} \;=\; \sum_{f \,:\, \lvert \mathcal{A}_f \rvert = 0} C(f),
+\tag{6}
+$$
+
+*Equation 7, Bespoke Measured Counts by Form.*
+The measurement evaluates the partition of Equation 1 over the corpus and finds three hundred flat operations, two nested operations and no boxed operation.
+
+$$
+\lvert \mathcal{A}_{\mathsf{Flat}} \rvert = 300, \qquad \lvert \mathcal{A}_{\mathsf{Nested}} \rvert = 2, \qquad \lvert \mathcal{A}_{\mathsf{Boxed}} \rvert = 0.
+\tag{7}
+$$
+
+*Equation 8, Bespoke Measured Sizes of Constructed Aggregates.*
+The measured bodies range from eight to sixty-four bytes with a median of twenty-four, and hold between one and five values with a median of three.
+
+$$
+\mathrm{byte\_size} \in [8, 64], \quad \text{median } 24, \qquad \mathrm{count} \in [1, 5], \quad \text{median } 3.
+\tag{8}
+$$
+
+**Equation 9, Construction by Stores at Byte Offsets.**
+An aggregate in a contiguous layout is built by writing each value into the byte range that begins at its offset and spans its width.
+
+$$
+\mathrm{body}\bigl[\mathrm{off}_i,\; \mathrm{off}_i + w_i\bigr) \;\leftarrow\; v_i, \qquad i = 1 \ldots \mathrm{count},
+\tag{9}
+$$
+
+**Equation 10, Discriminant Test of a Tagged Variant.**
+A variant is identified by loading the word at the front of the body and comparing it with a tag value fixed at compile time.
+
+$$
+\bigl[\mathrm{load}_{\mathrm{word}}(\mathrm{base}) = k\bigr], \qquad k \text{ fixed at compile time},
+\tag{10}
+$$
+
+**Equation 11, Address of a Nested Sub-Aggregate.**
+In a contiguous layout a child body is the sub-range of its parent that starts at the child's offset and has the child's size, so no copy is needed.
+
+$$
+\mathrm{addr}(\mathrm{child}) \;=\; \mathrm{addr}(\mathrm{parent}) + \mathrm{off}, \qquad \mathrm{len}(\mathrm{child}) = \mathrm{size},
+\tag{11}
+$$
+
+*Equation 12, Bespoke Universal Claim That No Operation Is Boxed.*
+The article states as a universal claim that no aggregate operation in the corpus uses the boxed form, which a single counterexample would refute.
+[second][related_post_a370]
+
+$$
+\Phi_{\mathsf{Boxed}} \;\equiv\; \forall a \in \mathcal{A} : \mathrm{form}(a) \ne \mathsf{Boxed},
+\tag{12}
+$$
+
+*Equation 13, Bespoke Decomposition of the Remaining Cost.*
+With the boxed term empty, the cost of aggregates is assembled from an arena bump allocation, constant-offset stores and loads, and an integer comparison, each of which the backend already implements.
+
+$$
+C(\mathcal{A}) \;=\; C(\text{arena bump}) + C(\text{constant-offset store}) + C(\text{constant-offset load}) + C(\text{integer compare}),
+\tag{13}
+$$
+
+*Equation 14, Bespoke Arena Requirement of Aggregate Construction.*
+Placing aggregate bodies in the arena makes their memory cost the sum of the byte sizes of all constructions, which is the quantity the worst-case memory pass already sums.
+
+$$
+\Delta M \;=\; \sum_{a \in \mathcal{A}^{\mathrm{new}}} \mathrm{byte\_size}(a),
+\tag{14}
+$$
+
+*Equation 15, Bespoke Coverage of a Design That Refuses Nested Access.*
+The counts of Equation 7 give the fraction of form-carrying operations that a design handling only the flat form would cover.
+
+$$
+\frac{\lvert \mathcal{A}_{\mathsf{Flat}} \rvert}{\lvert \mathcal{A}_{\mathsf{Flat}} \rvert + \lvert \mathcal{A}_{\mathsf{Nested}} \rvert} \;=\; \frac{300}{302} \;=\; 0.993,
+\tag{15}
+$$
+
+### Notation
+
+- $\mathcal{A}$, the set of aggregate operations in a corpus
+- $\mathcal{A}_{\mathsf{Flat}}$, the operations whose operand is a byte offset and a scalar kind
+- $\mathcal{A}_{\mathsf{Nested}}$, the operations that extract a byte range and re-wrap it as an aggregate
+- $\mathcal{A}_{\mathsf{Boxed}}$, the operations that use the general form with a metadata table and a heap body
+- $\mathrm{off}$, a byte offset fixed at compile time, with $\mathrm{off}_i$ the offset of the $i$-th value
+- $\kappa$, the scalar kind of a typed load
+- $\mathrm{base}$, the address at which an aggregate body begins
+- $C(f)$, the implementation cost of operand form $f$, with $C(\cdot)$ the cost of whatever it is applied to
+- $\mathcal{F}$, the set of operand forms the instruction set defines
+- $\mathcal{A}_f$, the operations in the corpus that use form $f$
+- $C_{\mathrm{est}}$, the estimated cost priced over every form the instruction set defines
+- $C_{\mathrm{act}}$, the actual cost priced over the forms the corpus contains
+- $\mathbf{1}$, the indicator that equals one when its condition holds and zero otherwise
+- $\mathrm{byte\_size}$, the number of bytes an aggregate body occupies, the operand the memory pass sums
+- $w_i$, the width in bytes of the $i$-th value $v_i$ written into a body
+- $k$, the tag value that identifies a variant
+- $\mathrm{size}$, the length in bytes of a nested child body
+- $\Phi_{\mathsf{Boxed}}$, the claim that no operation in the corpus uses the boxed form
+- $\Delta M$, the arena requirement added by aggregate construction
+- $\mathcal{A}^{\mathrm{new}}$, the construction operations among the aggregate operations
 
 ## References
 

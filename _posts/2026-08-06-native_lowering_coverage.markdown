@@ -112,31 +112,49 @@ A reader who prefers prose can take the following and skip to the results.
 Let $I$ denote the instruction set, with $\lvert I \rvert = 66$ in the present case. Let $S \subseteq I$ denote the
 subset the generator currently lowers, with $\lvert S \rvert = 39$ at the time of measurement. Let
 
-$$C = \{c_1, c_2, \ldots, c_M\}, \qquad M = 496$$
+$$
+C = \{c_1, c_2, \ldots, c_M\}, \qquad M = 496
+\tag{1}
+$$
 
 denote the corpus of compilation units, with each unit $c_m$ a finite sequence of instruction instances
 drawn from $I$ and $\lvert c_m \rvert$ its length. Write the total instance count
 
-$$N = \sum_{m=1}^{M} |c_m| = 73{,}434$$
+$$
+N = \sum_{m=1}^{M} |c_m| = 73{,}434
+\tag{2}
+$$
 
 and the per-unit lowered count
 
-$$n^{\text{ok}}(c_m, S) = \bigl| \{ \iota \in c_m : \iota \in S \} \bigr|.$$
+$$
+n^{\text{ok}}(c_m, S) = \bigl| \{ \iota \in c_m : \iota \in S \} \bigr|.
+\tag{3}
+$$
 
 ### Two coverage measures
 
 The instruction-level coverage is the proportion of instruction instances the generator handles,
 
-$$\rho^{\text{inst}}(S) = \frac{1}{N} \sum_{m=1}^{M} n^{\text{ok}}(c_m, S).$$
+$$
+\rho^{\text{inst}}(S) = \frac{1}{N} \sum_{m=1}^{M} n^{\text{ok}}(c_m, S).
+\tag{4}
+$$
 
 The unit-level coverage is the proportion of compilation units in which every instruction is handled.
 Writing the lowerability indicator
 
-$$\chi(c_m, S) = \prod_{\iota \in c_m} \mathbf{1}[\iota \in S] = \mathbf{1}\bigl[ n^{\text{ok}}(c_m, S) = |c_m| \bigr]$$
+$$
+\chi(c_m, S) = \prod_{\iota \in c_m} \mathbf{1}[\iota \in S] = \mathbf{1}\bigl[ n^{\text{ok}}(c_m, S) = |c_m| \bigr]
+\tag{5}
+$$
 
 the unit-level coverage is
 
-$$\rho^{\text{unit}}(S) = \frac{1}{M} \sum_{m=1}^{M} \chi(c_m, S).$$
+$$
+\rho^{\text{unit}}(S) = \frac{1}{M} \sum_{m=1}^{M} \chi(c_m, S).
+\tag{6}
+$$
 
 **The product is the whole difficulty.** A sum forgives a missing term, since ninety-nine present out of a
 hundred still averages to 0.99. **A product does not forgive anything**, because a single zero anywhere sets
@@ -161,7 +179,10 @@ The two measures satisfy $\rho^{\text{unit}}(S) \le \rho^{\text{inst}}(S)$ with 
 degenerate cases where $S \supseteq \bigcup_m c_m$ or where every unit has unit length. Define the coverage
 gap
 
-$$\Gamma(S) = \rho^{\text{inst}}(S) - \rho^{\text{unit}}(S)$$
+$$
+\Gamma(S) = \rho^{\text{inst}}(S) - \rho^{\text{unit}}(S)
+\tag{7}
+$$
 
 which measures the extent to which an instance-level progress report overstates delivered capability.
 
@@ -170,20 +191,32 @@ which measures the extent to which an instance-level progress report overstates 
 Define the blocking set of an instruction $\iota \notin S$ as the set of units that would become lowerable
 if and only if $\iota$ were added,
 
-$$B(\iota, S) = \bigl\{ c_m \in C : \chi(c_m, S) = 0 \ \wedge\ \chi(c_m, S \cup \{\iota\}) = 1 \bigr\}$$
+$$
+B(\iota, S) = \bigl\{ c_m \in C : \chi(c_m, S) = 0 \ \wedge\ \chi(c_m, S \cup \{\iota\}) = 1 \bigr\}
+\tag{8}
+$$
 
 with the marginal unit-level gain
 
-$$g(\iota, S) = \frac{|B(\iota, S)|}{M} = \rho^{\text{unit}}(S \cup \{\iota\}) - \rho^{\text{unit}}(S).$$
+$$
+g(\iota, S) = \frac{|B(\iota, S)|}{M} = \rho^{\text{unit}}(S \cup \{\iota\}) - \rho^{\text{unit}}(S).
+\tag{9}
+$$
 
 Let $n(\iota)$ denote the instance count of $\iota$ across the corpus,
 
-$$n(\iota) = \sum_{m=1}^{M} \bigl| \{ \iota' \in c_m : \iota' = \iota \} \bigr|.$$
+$$
+n(\iota) = \sum_{m=1}^{M} \bigl| \{ \iota' \in c_m : \iota' = \iota \} \bigr|.
+\tag{10}
+$$
 
 The central structural claim is that $g$ is not monotone in $n$. Formally, there exist instructions
 $\iota_a, \iota_b \notin S$ with
 
-$$n(\iota_a) > n(\iota_b) \qquad \text{and} \qquad |B(\iota_a, S)| < |B(\iota_b, S)|$$
+$$
+n(\iota_a) > n(\iota_b) \qquad \text{and} \qquad |B(\iota_a, S)| < |B(\iota_b, S)|
+\tag{11}
+$$
 
 The results section exhibits such a pair at WORKSTREAM granularity, with a ratio exceeding three in the
 instance count and exceeding three in the opposite direction in the blocking count. It does not exhibit one
@@ -193,7 +226,10 @@ above is therefore stated for completeness of the formalism and is witnessed onl
 
 The ordering problem is therefore the selection
 
-$$\iota^{\star} = \arg\max_{\iota \in I \setminus S} \lambda(\iota, S), \qquad \lambda(\iota, S) = \frac{|B(\iota, S)|}{\kappa(\iota)}$$
+$$
+\iota^{\star} = \arg\max_{\iota \in I \setminus S} \lambda(\iota, S), \qquad \lambda(\iota, S) = \frac{|B(\iota, S)|}{\kappa(\iota)}
+\tag{12}
+$$
 
 with $\kappa(\iota)$ the implementation cost and $\lambda$ the leverage ratio.
 
@@ -212,7 +248,10 @@ below as a heuristic rather than as an approximation algorithm.
 
 The ordering principle in common use is the degenerate variant
 
-$$\iota^{\star}_{\text{naive}} = \arg\min_{\iota \in I \setminus S} \kappa(\iota)$$
+$$
+\iota^{\star}_{\text{naive}} = \arg\min_{\iota \in I \setminus S} \kappa(\iota)
+\tag{13}
+$$
 
 which minimises cost alone while leaving $\lvert B \rvert$ unmeasured and therefore implicitly assumed uniform across
 instructions. The assumption is false in the case measured below.
@@ -225,21 +264,33 @@ formal justification. It does not, and the reason is structurally important.
 Write $R_m \subseteq I$ for the set of distinct instructions appearing in unit $c_m$, so that $\chi(c_m, S)
 = \mathbf{1}[R_m \subseteq S]$ and
 
-$$\rho^{\text{unit}}(S) = \frac{1}{M} \sum_{m=1}^{M} \mathbf{1}[R_m \subseteq S].$$
+$$
+\rho^{\text{unit}}(S) = \frac{1}{M} \sum_{m=1}^{M} \mathbf{1}[R_m \subseteq S].
+\tag{14}
+$$
 
 The objective is monotone non-decreasing,
 
-$$S \subseteq S' \implies \rho^{\text{unit}}(S) \le \rho^{\text{unit}}(S')$$
+$$
+S \subseteq S' \implies \rho^{\text{unit}}(S) \le \rho^{\text{unit}}(S')
+\tag{15}
+$$
 
 since adding an instruction can only turn indicators from zero to one. The marginal gain of adding $\iota$
 has the explicit form
 
-$$g(\iota, S) = \frac{1}{M} \Bigl| \bigl\{ m : \iota \in R_m \ \wedge\ R_m \setminus \{\iota\} \subseteq S \bigr\} \Bigr|$$
+$$
+g(\iota, S) = \frac{1}{M} \Bigl| \bigl\{ m : \iota \in R_m \ \wedge\ R_m \setminus \{\iota\} \subseteq S \bigr\} \Bigr|
+\tag{16}
+$$
 
 and for $S \subseteq S'$ the qualifying set for $S$ is contained in the qualifying set for $S'$, since $R_m
 \setminus \{\iota\} \subseteq S$ implies $R_m \setminus \{\iota\} \subseteq S'$. Therefore
 
-$$S \subseteq S' \subseteq I, \quad \iota \notin S' \implies g(\iota, S) \ \le\ g(\iota, S')$$
+$$
+S \subseteq S' \subseteq I, \quad \iota \notin S' \implies g(\iota, S) \ \le\ g(\iota, S')
+\tag{17}
+$$
 
 which is **increasing** marginal returns. The objective is supermodular, not submodular.
 
@@ -247,15 +298,24 @@ which is **increasing** marginal returns. The objective is supermodular, not sub
 properties, and the convex and concave structure that separates them, are set out in
 [Lovász 1983][research_lovasz_1983]. Submodularity, the property that was asserted, is diminishing returns,
 
-$$S \subseteq S' \implies g(\iota, S) \ \ge\ g(\iota, S') \qquad \text{(submodular, and FALSE here)}$$
+$$
+S \subseteq S' \implies g(\iota, S) \ \ge\ g(\iota, S') \qquad \text{(submodular, and FALSE here)}
+\tag{18}
+$$
 
-$$S \subseteq S' \implies g(\iota, S) \ \le\ g(\iota, S') \qquad \text{(supermodular, and true here)}$$
+$$
+S \subseteq S' \implies g(\iota, S) \ \le\ g(\iota, S') \qquad \text{(supermodular, and true here)}
+\tag{19}
+$$
 
 **And the guarantee that submodularity would have bought belongs here too**, since invoking it by name
 without stating it is what let the error pass. For a monotone submodular objective under a cardinality
 constraint the greedy algorithm satisfies
 
-$$f(S_{\text{greedy}}) \ \ge\ \Bigl( 1 - \tfrac{1}{e} \Bigr) f(S_{\text{OPT}}) \approx 0.632 \, f(S_{\text{OPT}})$$
+$$
+f(S_{\text{greedy}}) \ \ge\ \Bigl( 1 - \tfrac{1}{e} \Bigr) f(S_{\text{OPT}}) \approx 0.632 \, f(S_{\text{OPT}})
+\tag{20}
+$$
 
 **No such bound is available here.** Under supermodularity the greedy choice can be arbitrarily bad, because
 an instruction with zero marginal gain today may have large gain once its companions are present, which is
@@ -277,7 +337,10 @@ so rather than borrowing authority from a theorem that does not apply.
 The correction is not merely a repair, because the increasing-returns structure explains an empirical fact
 the erroneous version could not. Under increasing returns the singleton blocking sets are typically empty,
 
-$$\bigl| B(\iota, S) \bigr| = 0 \quad \text{for most } \iota \notin S, \qquad \text{while} \qquad \bigl| B(W, S) \bigr| \gg 0$$
+$$
+\bigl| B(\iota, S) \bigr| = 0 \quad \text{for most } \iota \notin S, \qquad \text{while} \qquad \bigl| B(W, S) \bigr| \gg 0
+\tag{21}
+$$
 
 because a unit requiring several unimplemented instructions is unblocked by none of them individually and by
 all of them jointly. This is precisely why instruction-level attribution is uninformative in this setting
@@ -291,7 +354,10 @@ Instructions that share a design prerequisite are implemented together, so the p
 are workstreams, not individual instructions. Let $W \subseteq I \setminus S$ denote a workstream. The
 workstream blocking set and counterfactual gain are
 
-$$B(W, S) = \bigl\{ c_m : \chi(c_m, S) = 0 \ \wedge\ \chi(c_m, S \cup W) = 1 \bigr\}, \qquad \Delta\rho^{\text{unit}}(W) = \frac{|B(W, S)|}{M}.$$
+$$
+B(W, S) = \bigl\{ c_m : \chi(c_m, S) = 0 \ \wedge\ \chi(c_m, S \cup W) = 1 \bigr\}, \qquad \Delta\rho^{\text{unit}}(W) = \frac{|B(W, S)|}{M}.
+\tag{22}
+$$
 
 Workstream-level counterfactuals are better identified than instruction-level ones, because the
 co-occurrence that defeats instruction-level attribution is largely within workstreams instead of across
@@ -551,7 +617,10 @@ instruction from the contributions of the instructions that co-occur with it. A 
 distinct unimplemented instructions is unblocked by none of them individually, so naive per-instruction
 attribution overstates every contribution. The overstatement obeys
 
-$$\sum_{\iota \in I \setminus S} |B(\iota, S)| \ \le\ \Bigl| \bigcup_{\iota \in I \setminus S} B(\iota, S) \Bigr| \ \le\ M \cdot \bigl(1 - \rho^{\text{unit}}(S)\bigr)$$
+$$
+\sum_{\iota \in I \setminus S} |B(\iota, S)| \ \le\ \Bigl| \bigcup_{\iota \in I \setminus S} B(\iota, S) \Bigr| \ \le\ M \cdot \bigl(1 - \rho^{\text{unit}}(S)\bigr)
+\tag{23}
+$$
 
 where the first inequality is an equality only when the blocking sets are pairwise disjoint, which is to say
 only when no unit is blocked by two distinct instructions. In the corpus below the blocking sets are very
@@ -568,11 +637,17 @@ ordering argument actually wants. [Owen 1972][research_owen_1972] gave the multi
 the average tractable to reason about. Writing $\mathcal{W}$ for the set of workstreams, the Shapley
 attribution of workstream $W$ is
 
-$$\phi(W) = \sum_{T \subseteq \mathcal{W} \setminus \{W\}} \frac{|T|!\,\bigl(|\mathcal{W}| - |T| - 1\bigr)!}{|\mathcal{W}|!} \Bigl[ \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup T \cup W\bigr) - \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup T\bigr) \Bigr]$$
+$$
+\phi(W) = \sum_{T \subseteq \mathcal{W} \setminus \{W\}} \frac{|T|!\,\bigl(|\mathcal{W}| - |T| - 1\bigr)!}{|\mathcal{W}|!} \Bigl[ \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup T \cup W\bigr) - \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup T\bigr) \Bigr]
+\tag{24}
+$$
 
 which satisfies the efficiency property
 
-$$\sum_{W \in \mathcal{W}} \phi(W) = \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup \mathcal{W}\bigr) - \rho^{\text{unit}}(S) = 1 - \rho^{\text{unit}}(S)$$
+$$
+\sum_{W \in \mathcal{W}} \phi(W) = \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup \mathcal{W}\bigr) - \rho^{\text{unit}}(S) = 1 - \rho^{\text{unit}}(S)
+\tag{25}
+$$
 
 so the attributions sum exactly to the total unblocking with no double counting, which is precisely the
 property the naive per-instruction count lacks. With $\lvert \mathcal{W} \rvert = 6$ the exact computation requires
@@ -585,13 +660,19 @@ attribution. The first is the instance count $n(\iota)$, an upper bound on effor
 unblocking claim whatsoever. The second reports the first-blocker distribution, which assigns each blocked
 unit to exactly one workstream and therefore partitions the blocked population without double counting,
 
-$$\sum_{W} f(W) = M \cdot \bigl(1 - \rho^{\text{unit}}(S)\bigr), \qquad f(W) = \bigl| \{ c_m : \text{first blocking instance of } c_m \in W \} \bigr|.$$
+$$
+\sum_{W} f(W) = M \cdot \bigl(1 - \rho^{\text{unit}}(S)\bigr), \qquad f(W) = \bigl| \{ c_m : \text{first blocking instance of } c_m \in W \} \bigr|.
+\tag{26}
+$$
 
 The first-blocker assignment is order-dependent within a unit. Writing $\pi$ for the instruction-stream
 order and $f_\pi(W)$ for the resulting partition, the article reports $f_\pi$ for the natural $\pi$ and does
 not compute
 
-$$\bar f(W) = \mathbb{E}_{\pi \sim \mathcal{U}}\bigl[ f_\pi(W) \bigr]$$
+$$
+\bar f(W) = \mathbb{E}_{\pi \sim \mathcal{U}}\bigl[ f_\pi(W) \bigr]
+\tag{27}
+$$
 
 over the uniform distribution on orders, nor the full blocking lattice over subsets of $I \setminus S$. This
 is stated outright, never left as an implicit claim to completeness. The first-blocker partition should be
@@ -624,7 +705,10 @@ conclusion instead of qualifying it.
 
 The instrument carries a guard assertion
 
-$$\bigl(\text{files compiled} > 10\bigr) \ \wedge\ \bigl(N > 1000\bigr)$$
+$$
+\bigl(\text{files compiled} > 10\bigr) \ \wedge\ \bigl(N > 1000\bigr)
+\tag{28}
+$$
 
 and fails loudly otherwise. The assertion exists because a path error in corpus discovery would silently
 yield a small clean sample, and every proportion reported below would then be noise presented as a
@@ -642,9 +726,15 @@ and $N = 73{,}434$ instruction instances. The implemented subset was $\lvert S \
 
 The two coverage measures diverge sharply.
 
-$$\rho^{\text{inst}}(S) = \frac{64{,}116}{73{,}434} = 0.8731, \qquad \rho^{\text{unit}}(S) = \frac{168}{496} = 0.3387$$
+$$
+\rho^{\text{inst}}(S) = \frac{64{,}116}{73{,}434} = 0.8731, \qquad \rho^{\text{unit}}(S) = \frac{168}{496} = 0.3387
+\tag{29}
+$$
 
-$$\Gamma(S) = 0.8731 - 0.3387 = 0.5344$$
+$$
+\Gamma(S) = 0.8731 - 0.3387 = 0.5344
+\tag{30}
+$$
 
 The generator handles the large majority of instruction instances and the minority of compilation units. A
 programme reporting eighty-seven percent coverage would be reporting a number no consumer of the generator
@@ -656,7 +746,10 @@ The figures above were taken at $\lvert S \rvert = 39$. The subset has since rea
 measurement is instructive both because the numbers move and because it exposed a level of the conjunction
 the original analysis missed.
 
-$$\rho^{\text{inst}}(S') = \frac{71{,}948}{73{,}434} = 0.9798, \qquad \rho^{\text{unit}}(S') = \frac{432}{496} = 0.8710, \qquad \Gamma(S') = 0.1088$$
+$$
+\rho^{\text{inst}}(S') = \frac{71{,}948}{73{,}434} = 0.9798, \qquad \rho^{\text{unit}}(S') = \frac{432}{496} = 0.8710, \qquad \Gamma(S') = 0.1088
+\tag{31}
+$$
 
 The gap between the two measures has closed from $0.534$ to $0.109$, which is the expected behaviour, since
 as $S$ approaches the union of the corpus's requirement sets, both measures approach one and the gap between
@@ -667,16 +760,25 @@ only if every one of its compilation units does. That is the same conjunction ap
 been left out of the analysis entirely. Writing $\mathcal{P}$ for the corpus of programs and $u(P)$ for the
 compilation units of program $P$,
 
-$$\rho^{\text{prog}}(S) = \frac{1}{|\mathcal{P}|} \sum_{P \in \mathcal{P}} \prod_{c \in u(P)} \chi(c, S)$$
+$$
+\rho^{\text{prog}}(S) = \frac{1}{|\mathcal{P}|} \sum_{P \in \mathcal{P}} \prod_{c \in u(P)} \chi(c, S)
+\tag{32}
+$$
 
 and measured at $\lvert S' \rvert = 46$,
 
-$$\rho^{\text{prog}}(S') = \frac{12}{58} = 0.2069.$$
+$$
+\rho^{\text{prog}}(S') = \frac{12}{58} = 0.2069.
+\tag{33}
+$$
 
 So the three measures at the same implemented subset are $0.980$, $0.871$ and $0.207$. The collapse from the
 middle figure to the outer one is a factor of
 
-$$\frac{\rho^{\text{unit}}(S')}{\rho^{\text{prog}}(S')} = \frac{0.8710}{0.2069} = 4.21$$
+$$
+\frac{\rho^{\text{unit}}(S')}{\rho^{\text{prog}}(S')} = \frac{0.8710}{0.2069} = 4.21
+\tag{34}
+$$
 
 and the article as first drafted quoted the middle one. That is the same category of error the article was
 written to describe, committed one level up, in the section reporting the error. The general form is that a
@@ -720,7 +822,10 @@ non-monotonicity the article exhibits is not an artefact of one measurement.
 
 The data-segment workstream accounts for
 
-$$\frac{267}{496 - 168} = \frac{267}{328} = 0.814$$
+$$
+\frac{267}{496 - 168} = \frac{267}{328} = 0.814
+\tag{35}
+$$
 
 of blocked units. The five most frequent individual blocking instructions are the data-segment slot write at
 $n = 3385$, the slot read at $n = 2109$, the indexed read at $n = 1456$, the verified native call at $n =
@@ -730,7 +835,10 @@ The native application binary interface class instantiates the non-monotonicity 
 level. Writing $W_a$ for the native-call workstream and $W_b$ for the composite workstream, and extending
 $n$ additively to workstreams,
 
-$$n(W_a) = 1057 > 331 = n(W_b), \qquad f_\pi(W_a) = 9 < 28 = f_\pi(W_b)$$
+$$
+n(W_a) = 1057 > 331 = n(W_b), \qquad f_\pi(W_a) = 9 < 28 = f_\pi(W_b)
+\tag{36}
+$$
 
 so ranking by instance count places the native interface second and ranking by blocked units places it
 fourth. The instruction-level claim stated earlier is the same phenomenon one level down. It is exhibited
@@ -767,15 +875,24 @@ from uneven use of a shared vocabulary across a corpus. Under an independence nu
 instance in a unit is lowered with probability $p = \rho^{\text{inst}}(S)$ independently, the expected
 unit-level coverage is
 
-$$\rho^{\text{unit}}_{0} = \frac{1}{M} \sum_{m=1}^{M} p^{|c_m|}$$
+$$
+\rho^{\text{unit}}_{0} = \frac{1}{M} \sum_{m=1}^{M} p^{|c_m|}
+\tag{37}
+$$
 
 and the clustering coefficient is the ratio of observed to null,
 
-$$\Phi = \frac{\rho^{\text{unit}}(S)}{\rho^{\text{unit}}_{0}}.$$
+$$
+\Phi = \frac{\rho^{\text{unit}}(S)}{\rho^{\text{unit}}_{0}}.
+\tag{38}
+$$
 
 Evaluating with the measured length distribution gives
 
-$$\rho^{\text{unit}}_{0} = 6.152 \times 10^{-2}, \qquad \Phi = \frac{0.3387}{0.06152} = 5.51$$
+$$
+\rho^{\text{unit}}_{0} = 6.152 \times 10^{-2}, \qquad \Phi = \frac{0.3387}{0.06152} = 5.51
+\tag{39}
+$$
 
 so the blocking instructions are clustered, and by a factor of roughly five and a half, which is moderate.
 Repeating the calculation at $\lvert S' \rvert = 46$ gives $\rho^{\text{unit}}\_{0} = 3.275 \times 10^{-1}$ and $\Phi =
@@ -789,17 +906,26 @@ is real but moderate.
 The null above must be evaluated per unit, never at the mean unit length. Since $x \mapsto p^{x}$ is convex
 for $0 < p < 1$, the inequality of [Jensen 1906][research_jensen_1906] gives
 
-$$\frac{1}{M} \sum_{m=1}^{M} p^{|c_m|} \ \ge\ p^{\,\bar{L}}, \qquad \bar{L} = \frac{1}{M}\sum_{m=1}^{M} |c_m| = 148.05$$
+$$
+\frac{1}{M} \sum_{m=1}^{M} p^{|c_m|} \ \ge\ p^{\,\bar{L}}, \qquad \bar{L} = \frac{1}{M}\sum_{m=1}^{M} |c_m| = 148.05
+\tag{40}
+$$
 
 and the two quantities differ enormously here because the length distribution is heavily right-skewed, with
 mean $148.05$ against median $69$. Numerically,
 
-$$p^{\,\bar{L}} = 0.8731^{148.05} = 1.884 \times 10^{-9} \qquad \text{against} \qquad \frac{1}{M}\sum_m p^{|c_m|} = 6.152 \times 10^{-2}$$
+$$
+p^{\,\bar{L}} = 0.8731^{148.05} = 1.884 \times 10^{-9} \qquad \text{against} \qquad \frac{1}{M}\sum_m p^{|c_m|} = 6.152 \times 10^{-2}
+\tag{41}
+$$
 
 a discrepancy of more than seven orders of magnitude. Had the null been evaluated at the mean length, the
 clustering coefficient would have been reported as
 
-$$\Phi_{\text{wrong}} = \frac{0.3387}{1.884 \times 10^{-9}} = 1.80 \times 10^{8}$$
+$$
+\Phi_{\text{wrong}} = \frac{0.3387}{1.884 \times 10^{-9}} = 1.80 \times 10^{8}
+\tag{42}
+$$
 
 instead of $5.51$, and the article would have claimed an overwhelming clustering effect where the true
 effect is moderate. The error would have been in the direction of a more striking finding, which is the
@@ -814,14 +940,23 @@ examined by [Jovanovic and Levy 1997][research_jovanovic_levy_1997], a normal-ap
 exact interval of [Clopper and Pearson 1934][research_clopper_pearson_1934], gives the approximate
 ninety-five percent upper bound
 
-$$(1 - p)^{n} = 0.05 \implies p = 1 - 0.05^{1/n} \approx \frac{\ln 20}{n} = \frac{2.996}{n}$$
+$$
+(1 - p)^{n} = 0.05 \implies p = 1 - 0.05^{1/n} \approx \frac{\ln 20}{n} = \frac{2.996}{n}
+\tag{43}
+$$
 
-$$\hat{p}_{\text{upper}} \approx \frac{3}{n}$$
+$$
+\hat{p}_{\text{upper}} \approx \frac{3}{n}
+\tag{44}
+$$
 
 which follows from solving $(1 - p)^n = 0.05$ and using $\log(0.05) \approx -3$. Applied to the two units of
 account,
 
-$$\hat{p}^{\text{inst}}_{\text{upper}} = \frac{3}{73{,}434} = 4.09 \times 10^{-5}, \qquad \hat{p}^{\text{unit}}_{\text{upper}} = \frac{3}{496} = 6.05 \times 10^{-3}$$
+$$
+\hat{p}^{\text{inst}}_{\text{upper}} = \frac{3}{73{,}434} = 4.09 \times 10^{-5}, \qquad \hat{p}^{\text{unit}}_{\text{upper}} = \frac{3}{496} = 6.05 \times 10^{-3}
+\tag{45}
+$$
 
 so the true per-instance rate of typed arithmetic in this population is below roughly four in one hundred
 thousand, and the per-unit rate is below roughly six in one thousand, each at the stated confidence. The
@@ -848,12 +983,18 @@ margin.
 Every step of that reasoning is correct. The conclusion is worthless. Writing $W_{\text{typed}}$ for the
 class,
 
-$$n(W_{\text{typed}}) = 0 \implies B(W_{\text{typed}}, S) = \varnothing \implies \Delta\rho^{\text{unit}}(W_{\text{typed}}) = 0$$
+$$
+n(W_{\text{typed}}) = 0 \implies B(W_{\text{typed}}, S) = \varnothing \implies \Delta\rho^{\text{unit}}(W_{\text{typed}}) = 0
+\tag{46}
+$$
 
 and the composite workstream it was partly justified by satisfies $f_\pi(W_{\text{composite}}) = 28$ against
 the data segment's $267$, a ratio of
 
-$$\frac{f_\pi(W_{\text{data}})}{f_\pi(W_{\text{composite}})} = \frac{267}{28} = 9.54.$$
+$$
+\frac{f_\pi(W_{\text{data}})}{f_\pi(W_{\text{composite}})} = \frac{267}{28} = 9.54.
+\tag{47}
+$$
 
 The failure is not a reasoning error, and the distinction matters because the corrective differs. The
 argument contained no invalid step. It reasoned carefully about the structure of a problem while never
@@ -893,7 +1034,10 @@ performed. **The numerator below is measured and the denominator is an estimate 
 the ratio should be read as an order of magnitude and not as a quantity. Writing $\kappa_{\text{measure}}$
 for the measured cost and $\kappa_{\text{spike}}$ for the estimated cost of the redirected spike,
 
-$$\frac{\kappa_{\text{measure}}}{\kappa_{\text{spike}}} \sim 10^{-2}$$
+$$
+\frac{\kappa_{\text{measure}}}{\kappa_{\text{spike}}} \sim 10^{-2}
+\tag{48}
+$$
 
 so the measurement plausibly cost one or two orders of magnitude less than the work it redirected, and the
 redirected work would have delivered $\Delta\rho^{\text{unit}} = 0$ exactly. Only the last of those three
@@ -961,7 +1105,10 @@ is therefore not a sample of the programs the generator will eventually serve. W
 $\mathcal{D}\_{\text{corpus}}$ for the empirical distribution over units and $\mathcal{D}\_{\text{target}}$
 for the eventual target population, every quantity reported above estimates
 
-$$\mathbb{E}_{c \sim \mathcal{D}_{\text{corpus}}}\bigl[ \cdot \bigr] \qquad \text{rather than} \qquad \mathbb{E}_{c \sim \mathcal{D}_{\text{target}}}\bigl[ \cdot \bigr]$$
+$$
+\mathbb{E}_{c \sim \mathcal{D}_{\text{corpus}}}\bigl[ \cdot \bigr] \qquad \text{rather than} \qquad \mathbb{E}_{c \sim \mathcal{D}_{\text{target}}}\bigl[ \cdot \bigr]
+\tag{49}
+$$
 
 and no importance weighting is applied because the target distribution is not yet observable. The corpus
 over-represents the self-hosted compiler, a text-processing workload with heavy data-segment use, and
@@ -976,7 +1123,10 @@ suite specifically because prior suites had shaped conclusions unrepresentativel
 The first-blocker attribution is order-dependent, as formalised above, and the full blocking lattice is not
 computed. For the leading result this is unlikely to matter, since
 
-$$\frac{f_\pi(W_{\text{data}})}{\max_{W \ne W_{\text{data}}} f_\pi(W)} = \frac{267}{28} = 9.54$$
+$$
+\frac{f_\pi(W_{\text{data}})}{\max_{W \ne W_{\text{data}}} f_\pi(W)} = \frac{267}{28} = 9.54
+\tag{50}
+$$
 
 and an order-dependence artefact would have to be extreme to invert a margin approaching ten to one. For the
 ordering of the second, third and fourth workstreams, at $28$, $24$ and $9$, the artefact could plausibly
@@ -984,7 +1134,10 @@ reorder them, and no claim about that ordering should be read as established. Th
 instead of quoted, since it is the reason the shortcut is hard to defend. The
 [Shapley value][research_shapley_1953] needs $\rho^{\text{unit}}$ evaluated on every subset of workstreams,
 
-$$\bigl| 2^{\mathcal{W}} \bigr| = 2^{|\mathcal{W}|} = 2^{6} = 64$$
+$$
+\bigl| 2^{\mathcal{W}} \bigr| = 2^{|\mathcal{W}|} = 2^{6} = 64
+\tag{51}
+$$
 
 and each evaluation is one pass over 496 units. Since the exact Shapley attribution therefore requires only
 sixty-four corpus passes, the honest characterisation is that the surrogate was used for scope reasons and
@@ -1039,7 +1192,10 @@ covering problems generally, in [Karp 1972][research_karp_1972] and [Feige 1998]
 $Q = N(1 - \rho^{\text{inst}})$ missing instances distributed over $M$ units, the number of blocked units is
 bounded by
 
-$$\Bigl\lceil Q / L_{\max} \Bigr\rceil \ \le\ \bigl| \{ m : \chi(c_m, S) = 0 \} \bigr| \ \le\ \min(Q, M)$$
+$$
+\Bigl\lceil Q / L_{\max} \Bigr\rceil \ \le\ \bigl| \{ m : \chi(c_m, S) = 0 \} \bigr| \ \le\ \min(Q, M)
+\tag{52}
+$$
 
 **In the present case $Q = 9{,}318$ against $M = 496$, so maximal dispersion would block every unit**,
 giving $\rho^{\text{unit}} = 0$ and $\Gamma = \rho^{\text{inst}} = 0.8731$. The observed 328 blocked units
@@ -1050,7 +1206,10 @@ architectural elegance, and dependency depth, are all properties of elements con
 none carries information about $\lvert B(\iota, S) \rvert$. Third, the corrective is a frequency measurement over a
 representative population of consumers, and the measurement satisfies
 
-$$\kappa_{\text{measure}} \ll \kappa_{\text{work}}$$
+$$
+\kappa_{\text{measure}} \ll \kappa_{\text{work}}
+\tag{53}
+$$
 
 characteristically by one to two orders of magnitude, because the cost of counting occurrences is nearly
 independent of the cost of the work being ordered.
@@ -1061,7 +1220,10 @@ because the profession's assumptions about which constructs mattered were untest
 dominant term is bounded above by a small number regardless of how well it is spent. Writing $f$ for the
 fraction of the work the improvement touches and $s$ for how much faster that fraction becomes,
 
-$$\text{speedup} = \frac{1}{(1 - f) + f/s} \ \xrightarrow[\ s \to \infty\ ]{} \ \frac{1}{1 - f}$$
+$$
+\text{speedup} = \frac{1}{(1 - f) + f/s} \ \xrightarrow[\ s \to \infty\ ]{} \ \frac{1}{1 - f}
+\tag{54}
+$$
 
 so an improvement addressing half the work cannot exceed a factor of two **however good it is**, a bound
 [Gustafson 1988][research_gustafson_1988] later reframed without dissolving.
@@ -3058,6 +3220,499 @@ found by running something, whether a numerical evaluation whose answer was impl
 small cases, a query against an authoritative record, or a recount over the full sample rather than the
 remembered one. **The fourth was committed while writing the warning about the first three**, which is the
 clearest evidence available that knowing about a bias does not protect anyone from it.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 54 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 54, 20 are established and 34 are bespoke.
+Every coverage measure is a dimensionless proportion between zero and one, but the instruction-level measure counts instruction instances while the unit-level and program-level measures count compilation units and programs, so two figures may be compared only when they share a unit of account.
+
+**Equation 1, Corpus of Compilation Units.**
+The corpus is written as a finite set of compilation units, each a sequence of instruction instances, and its size is the measured count of units.
+
+$$
+C = \{c_1, c_2, \ldots, c_M\}, \qquad M = 496
+\tag{1}
+$$
+
+**Equation 2, Total Instruction Instance Count.**
+The total number of instruction instances is the sum of the unit lengths over the corpus.
+
+$$
+N = \sum_{m=1}^{M} |c_m| = 73{,}434
+\tag{2}
+$$
+
+**Equation 3, Lowered Instance Count of a Unit.**
+The lowered count of a unit is the number of its instruction instances that belong to the implemented subset.
+
+$$
+n^{\text{ok}}(c_m, S) = \bigl| \{ \iota \in c_m : \iota \in S \} \bigr|.
+\tag{3}
+$$
+
+*Equation 4, Bespoke Instruction-Level Coverage.*
+The article defines instruction-level coverage as the fraction of all instruction instances in the corpus that the generator lowers, a sum that forgives any single missing instruction.
+
+$$
+\rho^{\text{inst}}(S) = \frac{1}{N} \sum_{m=1}^{M} n^{\text{ok}}(c_m, S).
+\tag{4}
+$$
+
+*Equation 5, Bespoke Lowerability Indicator of a Unit.*
+A unit is lowerable only when every one of its instructions is implemented, so the article writes lowerability as a product of indicators that a single unimplemented instruction sets to zero.
+
+$$
+\chi(c_m, S) = \prod_{\iota \in c_m} \mathbf{1}[\iota \in S] = \mathbf{1}\bigl[ n^{\text{ok}}(c_m, S) = |c_m| \bigr]
+\tag{5}
+$$
+
+*Equation 6, Bespoke Unit-Level Coverage.*
+The article defines unit-level coverage as the fraction of compilation units whose lowerability indicator is one, an average of products rather than a sum.
+
+$$
+\rho^{\text{unit}}(S) = \frac{1}{M} \sum_{m=1}^{M} \chi(c_m, S).
+\tag{6}
+$$
+
+*Equation 7, Bespoke Coverage Gap.*
+The gap is the difference between the instruction-level and unit-level coverage, a figure of merit the article introduces for how far an instance-level progress report overstates delivered capability.
+
+$$
+\Gamma(S) = \rho^{\text{inst}}(S) - \rho^{\text{unit}}(S)
+\tag{7}
+$$
+
+*Equation 8, Bespoke Blocking Set of an Instruction.*
+The blocking set of an unimplemented instruction is the set of units that are not lowerable now and would become lowerable if that one instruction alone were added.
+
+$$
+B(\iota, S) = \bigl\{ c_m \in C : \chi(c_m, S) = 0 \ \wedge\ \chi(c_m, S \cup \{\iota\}) = 1 \bigr\}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Marginal Unit-Level Gain.*
+The marginal gain of an instruction is the size of its blocking set as a fraction of the corpus, which equals the increase in unit-level coverage that adding it produces.
+
+$$
+g(\iota, S) = \frac{|B(\iota, S)|}{M} = \rho^{\text{unit}}(S \cup \{\iota\}) - \rho^{\text{unit}}(S).
+\tag{9}
+$$
+
+**Equation 10, Corpus Instance Count of an Instruction.**
+The instance count of an instruction is the number of times it occurs across all units of the corpus.
+
+$$
+n(\iota) = \sum_{m=1}^{M} \bigl| \{ \iota' \in c_m : \iota' = \iota \} \bigr|.
+\tag{10}
+$$
+
+*Equation 11, Bespoke Non-Monotonicity of Gain in Frequency.*
+The article claims that a more frequent instruction can have a smaller blocking set than a less frequent one, so ranking by frequency need not rank by gain.
+
+$$
+n(\iota_a) > n(\iota_b) \qquad \text{and} \qquad |B(\iota_a, S)| < |B(\iota_b, S)|
+\tag{11}
+$$
+
+**Equation 12, Cost-Weighted Greedy Selection.**
+Choosing next the candidate with the largest newly covered mass per unit of implementation cost is the classical greedy rule for weighted set cover, with the blocking set as the covered mass.
+[Johnson 1974][research_johnson_1974]
+[Chvatal 1979][research_chvatal_1979]
+
+$$
+\iota^{\star} = \arg\max_{\iota \in I \setminus S} \lambda(\iota, S), \qquad \lambda(\iota, S) = \frac{|B(\iota, S)|}{\kappa(\iota)}
+\tag{12}
+$$
+
+**Equation 13, Cheapest-First Ordering.**
+The ordering in common use selects the unimplemented instruction of least implementation cost and ignores how many units it unblocks.
+
+$$
+\iota^{\star}_{\text{naive}} = \arg\min_{\iota \in I \setminus S} \kappa(\iota)
+\tag{13}
+$$
+
+*Equation 14, Bespoke Unit-Level Coverage over Requirement Sets.*
+Unit-level coverage is restated as the fraction of units whose set of distinct instructions is contained in the implemented subset.
+
+$$
+\rho^{\text{unit}}(S) = \frac{1}{M} \sum_{m=1}^{M} \mathbf{1}[R_m \subseteq S].
+\tag{14}
+$$
+
+*Equation 15, Bespoke Monotonicity of Unit-Level Coverage.*
+Enlarging the implemented subset can only turn indicators from zero to one, so the article's coverage objective never decreases.
+
+$$
+S \subseteq S' \implies \rho^{\text{unit}}(S) \le \rho^{\text{unit}}(S')
+\tag{15}
+$$
+
+*Equation 16, Bespoke Explicit Form of the Marginal Gain.*
+The marginal gain of an instruction counts the units that contain it and whose remaining distinct instructions are already implemented.
+
+$$
+g(\iota, S) = \frac{1}{M} \Bigl| \bigl\{ m : \iota \in R_m \ \wedge\ R_m \setminus \{\iota\} \subseteq S \bigr\} \Bigr|
+\tag{16}
+$$
+
+*Equation 17, Bespoke Supermodularity of Unit-Level Coverage.*
+Because the qualifying set of units can only grow as the implemented subset grows, the marginal gain of an instruction increases with the subset, so the article's objective is supermodular.
+
+$$
+S \subseteq S' \subseteq I, \quad \iota \notin S' \implies g(\iota, S) \ \le\ g(\iota, S')
+\tag{17}
+$$
+
+**Equation 18, Submodularity as Diminishing Returns.**
+A set function is submodular when the marginal gain of an element can only fall as the set it is added to grows, a property the article shows does not hold for its objective.
+[Lovász 1983][research_lovasz_1983]
+
+$$
+S \subseteq S' \implies g(\iota, S) \ \ge\ g(\iota, S') \qquad \text{(submodular, and FALSE here)}
+\tag{18}
+$$
+
+**Equation 19, Supermodularity as Increasing Returns.**
+A set function is supermodular when the marginal gain of an element can only rise as the set it is added to grows, which is the property the article's objective has.
+[Lovász 1983][research_lovasz_1983]
+
+$$
+S \subseteq S' \implies g(\iota, S) \ \le\ g(\iota, S') \qquad \text{(supermodular, and true here)}
+\tag{19}
+$$
+
+**Equation 20, Greedy Approximation Bound for Monotone Submodular Maximisation.**
+For a monotone submodular objective under a cardinality constraint the greedy algorithm attains at least the fraction one minus the reciprocal of Euler's number of the optimum, a guarantee that does not apply to the supermodular objective here.
+[Nemhauser et al. 1978][research_nemhauser_1978]
+
+$$
+f(S_{\text{greedy}}) \ \ge\ \Bigl( 1 - \tfrac{1}{e} \Bigr) f(S_{\text{OPT}}) \approx 0.632 \, f(S_{\text{OPT}})
+\tag{20}
+$$
+
+*Equation 21, Bespoke Empty Singleton Blocking Sets.*
+Under increasing returns a unit that needs several unimplemented instructions is unblocked by none of them alone, so most singleton blocking sets are empty while workstream blocking sets are not.
+
+$$
+\bigl| B(\iota, S) \bigr| = 0 \quad \text{for most } \iota \notin S, \qquad \text{while} \qquad \bigl| B(W, S) \bigr| \gg 0
+\tag{21}
+$$
+
+*Equation 22, Bespoke Workstream Blocking Set and Counterfactual Gain.*
+The blocking set and the gain are extended from a single instruction to a workstream, a group of instructions that the article assumes are implemented together.
+
+$$
+B(W, S) = \bigl\{ c_m : \chi(c_m, S) = 0 \ \wedge\ \chi(c_m, S \cup W) = 1 \bigr\}, \qquad \Delta\rho^{\text{unit}}(W) = \frac{|B(W, S)|}{M}.
+\tag{22}
+$$
+
+*Equation 23, Bespoke Bound on Naive Per-Instruction Attribution.*
+The sum of singleton blocking set sizes, the size of their union and the number of blocked units are ordered as a bound on how far per-instruction attribution can overstate the total unblocking.
+
+$$
+\sum_{\iota \in I \setminus S} |B(\iota, S)| \ \le\ \Bigl| \bigcup_{\iota \in I \setminus S} B(\iota, S) \Bigr| \ \le\ M \cdot \bigl(1 - \rho^{\text{unit}}(S)\bigr)
+\tag{23}
+$$
+
+**Equation 24, Shapley Value of a Workstream.**
+The Shapley value averages the marginal gain in unit-level coverage of a workstream over every order in which the workstreams could be added.
+[Shapley 1953][research_shapley_1953]
+[Owen 1972][research_owen_1972]
+
+$$
+\phi(W) = \sum_{T \subseteq \mathcal{W} \setminus \{W\}} \frac{|T|!\,\bigl(|\mathcal{W}| - |T| - 1\bigr)!}{|\mathcal{W}|!} \Bigl[ \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup T \cup W\bigr) - \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup T\bigr) \Bigr]
+\tag{24}
+$$
+
+**Equation 25, Efficiency of the Shapley Value.**
+The Shapley attributions of all workstreams sum to the total gain in unit-level coverage from implementing every workstream, so nothing is counted twice.
+[Shapley 1953][research_shapley_1953]
+
+$$
+\sum_{W \in \mathcal{W}} \phi(W) = \rho^{\text{unit}}\bigl(S \cup \textstyle\bigcup \mathcal{W}\bigr) - \rho^{\text{unit}}(S) = 1 - \rho^{\text{unit}}(S)
+\tag{25}
+$$
+
+*Equation 26, Bespoke First-Blocker Partition.*
+Each blocked unit is assigned to the workstream of its first blocking instance in the instruction stream, which partitions the blocked units and is the cheap surrogate the article uses in place of the Shapley value.
+
+$$
+\sum_{W} f(W) = M \cdot \bigl(1 - \rho^{\text{unit}}(S)\bigr), \qquad f(W) = \bigl| \{ c_m : \text{first blocking instance of } c_m \in W \} \bigr|.
+\tag{26}
+$$
+
+*Equation 27, Bespoke Order-Averaged First-Blocker Count.*
+Averaging the first-blocker count over a uniform distribution on instruction orders would remove its order dependence, a quantity the article names and does not compute.
+
+$$
+\bar f(W) = \mathbb{E}_{\pi \sim \mathcal{U}}\bigl[ f_\pi(W) \bigr]
+\tag{27}
+$$
+
+*Equation 28, Bespoke Corpus Guard Assertion.*
+The instrument refuses to report unless more than ten files compiled and more than one thousand instruction instances were counted, a guard the article adopts against a silently small sample.
+
+$$
+\bigl(\text{files compiled} > 10\bigr) \ \wedge\ \bigl(N > 1000\bigr)
+\tag{28}
+$$
+
+*Equation 29, Bespoke Coverage Measures at Thirty-Nine Implemented Instructions.*
+Instruction-level and unit-level coverage are evaluated on the corpus with thirty-nine of the sixty-six instructions implemented.
+
+$$
+\rho^{\text{inst}}(S) = \frac{64{,}116}{73{,}434} = 0.8731, \qquad \rho^{\text{unit}}(S) = \frac{168}{496} = 0.3387
+\tag{29}
+$$
+
+*Equation 30, Bespoke Coverage Gap at Thirty-Nine Implemented Instructions.*
+The coverage gap of Equation 7 is evaluated from the two measures of Equation 29.
+
+$$
+\Gamma(S) = 0.8731 - 0.3387 = 0.5344
+\tag{30}
+$$
+
+*Equation 31, Bespoke Coverage Measures at Forty-Six Implemented Instructions.*
+Instruction-level coverage, unit-level coverage and the gap are evaluated again after the implemented subset grew to forty-six instructions.
+
+$$
+\rho^{\text{inst}}(S') = \frac{71{,}948}{73{,}434} = 0.9798, \qquad \rho^{\text{unit}}(S') = \frac{432}{496} = 0.8710, \qquad \Gamma(S') = 0.1088
+\tag{31}
+$$
+
+*Equation 32, Bespoke Program-Level Coverage.*
+A program lowers only when every one of its compilation units lowers, so the article applies the same conjunction once more to define coverage over the programs a consumer deploys.
+
+$$
+\rho^{\text{prog}}(S) = \frac{1}{|\mathcal{P}|} \sum_{P \in \mathcal{P}} \prod_{c \in u(P)} \chi(c, S)
+\tag{32}
+$$
+
+*Equation 33, Bespoke Program-Level Coverage at Forty-Six Implemented Instructions.*
+Program-level coverage is evaluated as the fraction of the fifty-eight compiled programs that lower in full.
+
+$$
+\rho^{\text{prog}}(S') = \frac{12}{58} = 0.2069.
+\tag{33}
+$$
+
+*Equation 34, Bespoke Ratio of Unit-Level to Program-Level Coverage.*
+The ratio of the unit-level to the program-level measure gives the factor by which the outer conjunction lowers the reported coverage.
+
+$$
+\frac{\rho^{\text{unit}}(S')}{\rho^{\text{prog}}(S')} = \frac{0.8710}{0.2069} = 4.21
+\tag{34}
+$$
+
+*Equation 35, Bespoke Data-Segment Share of Blocked Units.*
+The first-blocker count of the data-segment workstream divided by the number of blocked units gives its share of the blocking.
+
+$$
+\frac{267}{496 - 168} = \frac{267}{328} = 0.814
+\tag{35}
+$$
+
+*Equation 36, Bespoke Non-Monotonicity Witnessed by Two Workstreams.*
+The native-call workstream has more instances than the composite workstream yet first-blocks fewer units, which witnesses the claim of Equation 11 after aggregation to workstreams.
+
+$$
+n(W_a) = 1057 > 331 = n(W_b), \qquad f_\pi(W_a) = 9 < 28 = f_\pi(W_b)
+\tag{36}
+$$
+
+*Equation 37, Bespoke Unit-Level Coverage Under an Independence Null.*
+The article constructs a null in which every instruction instance is lowered independently with the measured instruction-level probability, so a unit is lowerable with that probability raised to its length.
+
+$$
+\rho^{\text{unit}}_{0} = \frac{1}{M} \sum_{m=1}^{M} p^{|c_m|}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Clustering Coefficient.*
+The ratio of observed unit-level coverage to its value under the independence null is a figure of merit the article introduces to measure how strongly blocking instructions concentrate in the same units.
+
+$$
+\Phi = \frac{\rho^{\text{unit}}(S)}{\rho^{\text{unit}}_{0}}.
+\tag{38}
+$$
+
+*Equation 39, Bespoke Null Coverage and Clustering Coefficient Evaluated.*
+The independence null and the clustering coefficient are evaluated over the measured distribution of unit lengths.
+
+$$
+\rho^{\text{unit}}_{0} = 6.152 \times 10^{-2}, \qquad \Phi = \frac{0.3387}{0.06152} = 5.51
+\tag{39}
+$$
+
+**Equation 40, Jensen's Inequality for a Convex Power.**
+Because a power of a probability between zero and one is convex in the exponent, the mean of the powers is at least the power evaluated at the mean length.
+[Jensen 1906][research_jensen_1906]
+
+$$
+\frac{1}{M} \sum_{m=1}^{M} p^{|c_m|} \ \ge\ p^{\,\bar{L}}, \qquad \bar{L} = \frac{1}{M}\sum_{m=1}^{M} |c_m| = 148.05
+\tag{40}
+$$
+
+**Equation 41, Power at the Mean Length Against the Mean of the Powers.**
+Jensen's inequality is evaluated with the measured probability and mean unit length, and the two sides differ by more than seven orders of magnitude.
+[Jensen 1906][research_jensen_1906]
+
+$$
+p^{\,\bar{L}} = 0.8731^{148.05} = 1.884 \times 10^{-9} \qquad \text{against} \qquad \frac{1}{M}\sum_m p^{|c_m|} = 6.152 \times 10^{-2}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Clustering Coefficient Evaluated at the Mean Length.*
+Evaluating the null at the mean unit length instead of per unit would have inflated the clustering coefficient to about one hundred and eighty million, the error the article reports avoiding.
+
+$$
+\Phi_{\text{wrong}} = \frac{0.3387}{1.884 \times 10^{-9}} = 1.80 \times 10^{8}
+\tag{42}
+$$
+
+**Equation 43, Upper Bound on a Rate from Zero Observed Events.**
+Setting the probability of observing no events in independent trials equal to five percent gives the ninety-five percent upper bound on the rate, which is approximately the natural logarithm of twenty divided by the number of trials.
+[Hanley and Lippman-Hand 1983][research_hanley_1983]
+[Clopper and Pearson 1934][research_clopper_pearson_1934]
+
+$$
+(1 - p)^{n} = 0.05 \implies p = 1 - 0.05^{1/n} \approx \frac{\ln 20}{n} = \frac{2.996}{n}
+\tag{43}
+$$
+
+**Equation 44, Rule of Three.**
+The approximate ninety-five percent upper bound on a rate after zero events in a number of trials is three divided by that number.
+[Hanley and Lippman-Hand 1983][research_hanley_1983]
+
+$$
+\hat{p}_{\text{upper}} \approx \frac{3}{n}
+\tag{44}
+$$
+
+**Equation 45, Rule of Three per Instance and per Unit.**
+The rule of three is evaluated with instruction instances and with compilation units as the trials, of which the per-unit bound is the more defensible because instances within a unit are dependent.
+[Hanley and Lippman-Hand 1983][research_hanley_1983]
+
+$$
+\hat{p}^{\text{inst}}_{\text{upper}} = \frac{3}{73{,}434} = 4.09 \times 10^{-5}, \qquad \hat{p}^{\text{unit}}_{\text{upper}} = \frac{3}{496} = 6.05 \times 10^{-3}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Zero Gain of the Typed Arithmetic Workstream.*
+A workstream with no blocking instances has an empty blocking set and therefore unblocks no unit at all.
+
+$$
+n(W_{\text{typed}}) = 0 \implies B(W_{\text{typed}}, S) = \varnothing \implies \Delta\rho^{\text{unit}}(W_{\text{typed}}) = 0
+\tag{46}
+$$
+
+*Equation 47, Bespoke Ratio of Data-Segment to Composite First-Blocker Counts.*
+The first-blocker count of the data segment divided by that of the composite workstream compares the leading blocker with the work the falsified recommendation favoured.
+
+$$
+\frac{f_\pi(W_{\text{data}})}{f_\pi(W_{\text{composite}})} = \frac{267}{28} = 9.54.
+\tag{47}
+$$
+
+*Equation 48, Bespoke Ratio of Measurement Cost to Redirected Work.*
+The measured cost of the corpus check against an estimated cost of the work it redirected is offered only as an order of magnitude, because its denominator is a counterfactual estimate.
+
+$$
+\frac{\kappa_{\text{measure}}}{\kappa_{\text{spike}}} \sim 10^{-2}
+\tag{48}
+$$
+
+**Equation 49, Expectation over the Corpus Rather Than the Target Population.**
+Every reported figure is an expectation over the empirical distribution of the corpus rather than over the eventual target population, and no importance weighting connects the two.
+
+$$
+\mathbb{E}_{c \sim \mathcal{D}_{\text{corpus}}}\bigl[ \cdot \bigr] \qquad \text{rather than} \qquad \mathbb{E}_{c \sim \mathcal{D}_{\text{target}}}\bigl[ \cdot \bigr]
+\tag{49}
+$$
+
+*Equation 50, Bespoke Margin of the Leading Workstream.*
+The first-blocker count of the data segment divided by the largest count among the other workstreams measures how extreme an order-dependence artefact would need to be to invert the leading result.
+
+$$
+\frac{f_\pi(W_{\text{data}})}{\max_{W \ne W_{\text{data}}} f_\pi(W)} = \frac{267}{28} = 9.54
+\tag{50}
+$$
+
+**Equation 51, Number of Subsets of the Workstreams.**
+A set of six workstreams has sixty-four subsets, which is the number of coverage evaluations the exact Shapley value requires.
+[Shapley 1953][research_shapley_1953]
+
+$$
+\bigl| 2^{\mathcal{W}} \bigr| = 2^{|\mathcal{W}|} = 2^{6} = 64
+\tag{51}
+$$
+
+**Equation 52, Pigeonhole Bounds on the Number of Blocked Units.**
+The missing instances must occupy at least as many units as their number divided by the longest unit length, rounded up, and at most as many as the smaller of their number and the number of units.
+[Karp 1972][research_karp_1972]
+[Feige 1998][research_feige_1998]
+
+$$
+\Bigl\lceil Q / L_{\max} \Bigr\rceil \ \le\ \bigl| \{ m : \chi(c_m, S) = 0 \} \bigr| \ \le\ \min(Q, M)
+\tag{52}
+$$
+
+*Equation 53, Bespoke Cost of Measurement Against Cost of Work.*
+The article claims that counting occurrences over a population of consumers costs far less than the work being ordered, characteristically by one to two orders of magnitude.
+
+$$
+\kappa_{\text{measure}} \ll \kappa_{\text{work}}
+\tag{53}
+$$
+
+**Equation 54, Amdahl's Law.**
+The overall speedup from accelerating a fraction of the work is bounded above by the reciprocal of the remaining fraction however large the acceleration becomes.
+[Amdahl 1967][research_amdahl_1967]
+
+$$
+\text{speedup} = \frac{1}{(1 - f) + f/s} \ \xrightarrow[\ s \to \infty\ ]{} \ \frac{1}{1 - f}
+\tag{54}
+$$
+
+### Notation
+
+- $\iota$, an instruction instance or an instruction of the instruction set $I$
+- $I$, the instruction set of the virtual machine, of sixty-six instructions
+- $S$, the subset of instructions the generator currently lowers, with $S'$ a larger implemented subset
+- $c_m$, the $m$th compilation unit of the corpus $C$, a sequence of instruction instances of length $|c_m|$
+- $M$, the number of compilation units in the corpus
+- $N$, the total number of instruction instances in the corpus
+- $n^{\text{ok}}(c_m, S)$, the number of instruction instances in unit $c_m$ that the generator lowers
+- $\rho^{\text{inst}}(S)$, the instruction-level coverage, the fraction of instruction instances that are lowered
+- $\rho^{\text{unit}}(S)$, the unit-level coverage, the fraction of compilation units in which every instruction is lowered
+- $\rho^{\text{prog}}(S)$, the program-level coverage over the set of programs $\mathcal{P}$, each with units $u(P)$
+- $\chi(c_m, S)$, the lowerability indicator of a unit, one when every instruction in the unit is implemented and zero otherwise
+- $\Gamma(S)$, the coverage gap between instruction-level and unit-level coverage
+- $B(\iota, S)$, the blocking set of an instruction, with $B(W, S)$ the blocking set of a workstream $W$
+- $g(\iota, S)$, the marginal gain in unit-level coverage from adding instruction $\iota$
+- $n(\iota)$, the number of instances of instruction $\iota$ in the corpus, extended additively to workstreams
+- $\kappa(\iota)$, the implementation cost of an instruction, with $\kappa_{\text{measure}}$, $\kappa_{\text{spike}}$ and $\kappa_{\text{work}}$ the costs of measuring, of a research spike and of the work being ordered
+- $\lambda(\iota, S)$, the leverage ratio, the blocking set size per unit of implementation cost
+- $R_m$, the set of distinct instructions that appear in unit $c_m$
+- $\mathcal{W}$, the set of workstreams, each a group $W$ of instructions implemented together
+- $\phi(W)$, the Shapley attribution of workstream $W$
+- $f_\pi(W)$, the first-blocker count of workstream $W$ under instruction order $\pi$, written $f(W)$ for the natural order and $\bar f(W)$ for its average over uniformly random orders
+- $\rho^{\text{unit}}_{0}$, the unit-level coverage expected under the independence null
+- $p^{|c_m|}$, the probability $p$ that a single instance is lowered under the null, raised to the length of a unit
+- $\Phi$, the clustering coefficient, the ratio of observed to null unit-level coverage
+- $\bar{L}$, the mean unit length over the corpus
+- $\hat{p}_{\text{upper}}$, the approximate ninety-five percent upper bound on a rate after zero observed events in $n$ trials
+- $L_{\max}$, the length of the longest unit, with $Q$ the number of missing instruction instances
+- $\mathcal{D}_{\text{corpus}}$, the empirical distribution over units of the corpus, with $\mathcal{D}_{\text{target}}$ the distribution of the eventual target population
+- $f/s$, in Amdahl's law, the fraction $f$ of the work an improvement touches and the factor $s$ by which that fraction becomes faster
 
 ## References
 
