@@ -35,10 +35,10 @@ on:
   schedule:
     - cron: "17 0 * * *"
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+# No permissions by default. Each job grants only what it needs, so the Pages write
+# and the OpenID Connect token reach only the deploy job, which runs no repository
+# code. zizmor flagged the earlier workflow-level grant.
+permissions: {}
 
 # Allow one concurrent deployment, do not cancel an in-progress run.
 concurrency:
@@ -54,6 +54,8 @@ jobs:
   # trigger builds unconditionally.
   gate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     timeout-minutes: 5
     outputs:
       build: ${{ steps.decide.outputs.build }}
@@ -63,6 +65,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           sparse-checkout: _posts
+          persist-credentials: false
       - name: Decide whether to build
         id: decide
         env:
@@ -74,7 +77,7 @@ jobs:
           fi
           today=$(date -u +%F)
           yesterday=$(date -u -d yesterday +%F)
-          if ls _posts | grep -q -E "^($today|$yesterday)-"; then
+          if compgen -G "_posts/${today}-*" > /dev/null || compgen -G "_posts/${yesterday}-*" > /dev/null; then
             echo "build=true" >> "$GITHUB_OUTPUT"
           else
             echo "No post dated $today or $yesterday, so the scheduled build is skipped."
@@ -93,9 +96,15 @@ jobs:
     # would cancel that build before it caches anything, so the limit is 60 and
     # should come down to about 30 once a warm build has been measured.
     timeout-minutes: 60
+    # configure-pages reads the site's Pages settings, and nothing in this job writes.
+    permissions:
+      contents: read
+      pages: read
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       # About a minute of work, placed before the multi-minute toolchain install so
       # a corpus defect fails fast instead of after a long build. The step limit is
       # the regression guard. This step drifted from 0.2 to about 50 minutes in
@@ -162,10 +171,13 @@ jobs:
           mkdir -p "$HOME/apt-archives"
           sudo cp /var/cache/apt/archives/*.deb "$HOME/apt-archives/" 2>/dev/null || true
           sudo chown -R "$(id -u):$(id -g)" "$HOME/apt-archives" || true
+      # The base path reaches the shell through the environment rather than by
+      # expansion into the script, so no value can become shell code.
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --baseurl "$BASE_PATH"
         env:
           JEKYLL_ENV: production
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
       # The only check that sees what a reader sees. `_verify.py` and `_lib/lint.py` both
       # read markdown source, so both can only predict what kramdown and MathJax will do.
       # On 2026-08-11 lint reported 1,596 defect-severity findings across the corpus and the
@@ -198,6 +210,9 @@ jobs:
 
   deploy:
     needs: build
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

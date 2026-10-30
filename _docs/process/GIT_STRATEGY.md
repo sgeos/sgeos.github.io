@@ -6,9 +6,24 @@ Version control conventions for the blog repository.
 
 ## Branch Model
 
-This project uses a single `master` branch. All commits land directly on `master`. There are no feature branches, pull requests, or protected branch rules. This is appropriate for a single-author blog with AI-assisted development.
+This project uses a single `master` branch and a linear history. There are no pull requests and no merge commits. This is appropriate for a single-author blog with AI-assisted development.
 
 Pushing to `master` triggers automatic deployment via GitHub Pages.
+
+### Reaching master through a passing CI result
+
+The ruleset `main` forbids deleting `master` and rewriting its history, and requires the status check `CI result` from `.github/workflows/ci.yml`. A required check blocks a push to `master` unless the commit being pushed already carries a passing `CI result`. Commits therefore reach `master` in two steps, and `master` only ever moves forward to a commit CI has already passed.
+
+```sh
+git push origin HEAD:refs/heads/ci/<topic>      # CI runs on this exact commit
+gh run watch "$(gh run list --branch ci/<topic> --workflow CI --limit 1 --json databaseId --jq '.[0].databaseId')" --exit-status
+git push origin HEAD:master                      # fast-forward, allowed once CI result passed
+git push origin --delete ci/<topic>
+```
+
+If `CI result` fails, fix the defect, commit, and push to the same branch again. Do not move `master` until the check passes on the commit you intend to push. The pre-push hook runs `_verify.py` on both pushes, about a minute each.
+
+Pull requests were considered and not adopted. They would add a review step a single-author blog does not use and merge or squash commits the history does not otherwise carry, while branch-then-fast-forward keeps the two-commit publication pattern intact.
 
 ## Commit Conventions
 
@@ -92,6 +107,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 Before pushing to `master`:
 
+- [ ] The commit was pushed to a `ci/` branch first and its `CI result` passed
 - [ ] Commit messages follow scoped conventional format
 - [ ] No secrets or credentials in committed files
 - [ ] Drafts prefixed with `hidden.` are not staged

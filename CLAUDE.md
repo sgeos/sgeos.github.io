@@ -171,6 +171,12 @@ confirmed with the pilot in session before it is adopted.
 
 Use scoped conventional commits: `<scope>: <imperative summary>`. Common scopes: `feat`, `fix`, `docs`, `refactor`, `chore`, `draft`. Include `Co-Authored-By: Claude <noreply@anthropic.com>` when AI-assisted. See [`_docs/process/GIT_STRATEGY.md`](_docs/process/GIT_STRATEGY.md) for full details.
 
+**Commits reach `master` only through a passing `CI result`.** The ruleset requires that
+check from `.github/workflows/ci.yml`, so push the commit to a `ci/<topic>` branch, wait for
+`CI result` to pass on it, then fast-forward `master` to the same commit and delete the
+branch. Pull requests were considered and not adopted. See
+[`_docs/process/GIT_STRATEGY.md`](_docs/process/GIT_STRATEGY.md).
+
 The AI agent commits once after all tasks in a prompt are complete, including the `REVERSE_PROMPT.md` update. `PROMPT.md` is read-only for the AI agent but must be included in the commit if the human pilot has modified it.
 
 ## Session Startup Protocol

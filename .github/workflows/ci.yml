@@ -1,0 +1,118 @@
+# Continuous integration. The check job runs the local gate, `_check.sh`, so a green run
+# here means what a green run on the author's machine means. Adapted from
+# sgeos/project-template v1.0.7, `.github/workflows/ci.yml`.
+#
+# WHY THIS EXISTS BESIDE jekyll.yml. The Pages workflow builds and deploys after a commit
+# has landed on master, so it cannot stop a bad commit. The ruleset on master requires
+# the `CI result` check from this workflow, and a required check blocks a push to master
+# unless that commit already carries a passing result. The blog therefore pushes a
+# commit to a branch first, waits for `CI result` to pass there, and then fast-forwards
+# master to the same commit. See `_docs/process/GIT_STRATEGY.md`. That is why this
+# workflow runs on every push to every branch, with no branch filter.
+#
+# WHAT IS LEFT OUT, DELIBERATELY. `_check.sh` with no flags is the whole gate. Left out:
+# - `_check.sh --drafts`. Release-candidate drafts cross-reference unpublished
+#   filenames with `post_url`, which fails a drafts build by design.
+# - `_check.sh --weights`. It reports page weight and gates nothing.
+# - PDF and EPUB generation and the Pagefind index. They need the TeX toolchain,
+#   take minutes, and individual failures only warn. They stay in the deploy.
+# - Citation and URL verification, `_verify_citations.py` and the URL sweeps. They
+#   need the network, the registries rate-limit them, and their result depends on
+#   remote state, so they would make this check nondeterministic.
+# The only network use here is installing the pinned gems.
+#
+# Supply chain. Actions are pinned to full commit hashes with the release tag in a
+# comment, as in jekyll.yml. The workflow only reads the repository, and no secret is
+# given to it.
+#
+# Account load. GitHub-hosted runners share one concurrent-job limit across the sgeos
+# account. A run takes about six minutes of one runner for the check job, plus a minute
+# for the workflow lint.
+#
+# Required check. The ruleset requires one check, `CI result`, from the last job below,
+# which always runs and fails when any job it needs failed or was cancelled. A required
+# check must never be skipped, and a workflow skipped by `paths-ignore` reports no check
+# at all, so this workflow has no path filter. Skip work inside jobs instead, and add
+# every new job to `needs`.
+
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+# No permissions by default. Each job grants only what it needs.
+permissions: {}
+
+# Supersede an in-flight run when a pull request is pushed again, and leave branch runs
+# alone. The group is the ref for a pull request and the unique run identifier
+# otherwise, so that a second push cannot cancel the first push's run and leave a
+# commit with no result of its own.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: check
+    runs-on: ubuntu-latest
+    # The gate takes about four minutes on the author's machine and the gem install
+    # about two with a warm cache. Fifteen bounds a hung run, as jekyll.yml's step
+    # limit on the verifier does.
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      # The runner's own python3 runs the verifier and the library tests, as it does in
+      # jekyll.yml, so the two workflows agree on the interpreter.
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@7f797815d8adceb1c412e7abefdd1ab4abc47a5f # v1.335.0
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Run the local gate
+        run: ./_check.sh
+
+  # Lints the workflows themselves. actionlint checks syntax, expressions and the shell
+  # in run steps, and zizmor checks for known security weaknesses such as injection
+  # through untrusted input, excessive permissions and unpinned actions. The actionlint
+  # image is pinned by digest, and zizmor's version is pinned explicitly.
+  workflows:
+    name: workflows
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: actionlint
+        run: >-
+          docker run --rm --volume "$PWD:/repo" --workdir /repo
+          rhysd/actionlint:1.7.12@sha256:b1934ee5f1c509618f2508e6eb47ee0d3520686341fec936f3b79331f9315667
+          -color
+      - name: zizmor
+        uses: zizmorcore/zizmor-action@85b2b9fb8e3325e7a23d7d0a9d7ba5ae0f999e3e # v0.7.1
+        with:
+          version: 1.31.1
+          advanced-security: false
+
+  # The single required check. Keep its name in step with the ruleset.
+  ci-result:
+    name: CI result
+    if: always()
+    needs: [check, workflows]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {}
+    steps:
+      - name: Fail if a needed job failed or was cancelled
+        if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')
+        run: exit 1
+      - name: Report success
+        run: echo "every needed job passed or was skipped on purpose"
