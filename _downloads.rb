@@ -192,8 +192,23 @@ CACHE_VERSION = 'v2'
 jobs = Integer(ENV.fetch('DOWNLOADS_JOBS', Etc.nprocessors.to_s))
 raise ArgumentError, "DOWNLOADS_JOBS must be at least 1, got #{jobs}" if jobs < 1
 
+# A TIME BUDGET BOUNDS ONE RUN. Four workers still needed about 45 minutes for a
+# cold cache, because the X-Planes PDFs run to thousands of pages of references,
+# and a job limit that cancels the run loses everything, since the cache is saved
+# only at the end of a job that finishes. Once DOWNLOADS_BUDGET_SECONDS has passed,
+# a post whose downloads are not already cached is deferred rather than
+# converted. A conversion already running finishes. A deferred post has no
+# download in this deploy, and the next run, starting from the cache this one
+# saves, converts it. Cached posts are always placed, budget or not.
+budget = Float(ENV.fetch('DOWNLOADS_BUDGET_SECONDS', 'Infinity'))
+raise ArgumentError, "DOWNLOADS_BUDGET_SECONDS must be positive, got #{budget}" unless budget.positive?
+
+started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+over_budget = -> { Process.clock_gettime(Process::CLOCK_MONOTONIC) - started > budget }
+
 new_stats = lambda do
-  { pdf_ok: 0, epub_ok: 0, skipped: 0, cached: 0, cached_failures: 0, failed: [], new_failures: [] }
+  { pdf_ok: 0, epub_ok: 0, skipped: 0, cached: 0, cached_failures: 0, failed: [], new_failures: [],
+    deferred: [] }
 end
 
 process_post = lambda do |path, st|
@@ -259,6 +274,12 @@ process_post = lambda do |path, st|
   if (hit_pdf || known_bad_pdf || !have_xelatex) && (hit_epub || known_bad_epub)
     next
   end
+  if over_budget.call
+    st[:deferred] << basename
+    next
+  end
+  # Per-post timing, so the slowest conversions can be found from the log.
+  convert_started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 
   tmp = Tempfile.new(['post', '.md'])
   begin
@@ -351,6 +372,8 @@ process_post = lambda do |path, st|
       st[:failed] << "#{basename} (epub)"
       st[:new_failures] << failed_epub_marker
     end
+    seconds = Process.clock_gettime(Process::CLOCK_MONOTONIC) - convert_started
+    puts format('[_downloads.rb] converted %<post>s in %<s>.0fs', post: basename, s: seconds)
   ensure
     tmp.unlink
   end
@@ -378,8 +401,15 @@ cached_failures = totals.sum { |t| t[:cached_failures] }
 failed          = totals.flat_map { |t| t[:failed] }.sort
 # Failure markers to write once the run is known not to be systemic, see the end.
 new_failures    = totals.flat_map { |t| t[:new_failures] }
+deferred        = totals.flat_map { |t| t[:deferred] }.sort
+# Outputs and failure markers this run added to the cache. The workflow saves the
+# cache only when this is positive.
+generated       = pdf_ok + epub_ok - cached + new_failures.size
 
-puts "[_downloads.rb] pdf=#{pdf_ok} epub=#{epub_ok} cached=#{cached} skipped=#{skipped} failed=#{failed.size} cached_failures=#{cached_failures}"
+puts "[_downloads.rb] pdf=#{pdf_ok} epub=#{epub_ok} cached=#{cached} skipped=#{skipped} failed=#{failed.size} cached_failures=#{cached_failures} deferred=#{deferred.size} generated=#{generated}"
+unless deferred.empty?
+  warn "[_downloads.rb] deferred past the time budget, converted by a later run: #{deferred.join(', ')}"
+end
 unless failed.empty?
   warn "[_downloads.rb] failures: #{failed.join(', ')}"
 end
@@ -411,4 +441,9 @@ end
 # outage outlast its fix until the toolchain identity changed.
 new_failures.each do |marker|
   File.write(marker, "#{TOOLCHAIN}\n")
+end
+
+# Tell the workflow whether this run added anything worth saving.
+if (out = ENV['GITHUB_OUTPUT'])
+  File.open(out, 'a') { |f| f.puts "generated=#{generated}" }
 end

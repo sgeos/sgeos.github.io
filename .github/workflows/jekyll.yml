@@ -94,10 +94,12 @@ jobs:
     # `_downloads.rb`, its CACHE_VERSION or the toolchain changes. Run serially,
     # that exceeded 52 minutes once the 94 failing PDFs were fixed, and this limit,
     # then 60, cancelled it before the downloads cache was saved, so the next run
-    # started cold again. `_downloads.rb` now converts posts on every processor,
-    # four on a hosted runner. 45 minutes covers a cold build with margin. A limit
-    # that cancels a cold build repeats the cancellation on every run, so measure
-    # one before lowering this further.
+    # started cold again. Four workers then ran past 45. `_downloads.rb` now stops
+    # starting conversions after an 18-minute budget and defers the rest to the
+    # next run, which starts from the cache this one saves. So a cold build fills
+    # the cache over two or three deploys, and no build needs more than about 35
+    # minutes. 45 leaves margin for one long conversion still running when the
+    # budget runs out.
     timeout-minutes: 45
     # configure-pages reads the site's Pages settings, and nothing in this job writes.
     permissions:
@@ -188,24 +190,39 @@ jobs:
       # build, and it is seconds of work on an artefact that already exists.
       - name: Audit rendered output
         run: python3 _lib/render.py _site
-      # Content-addressed cache of generated downloads. Regenerating all 293
-      # posts measured 13m22s on every deploy, even for a docs-only push.
-      # restore-keys lets a new run start from the most recent prior cache and
-      # regenerate only what actually changed.
-      - name: Cache generated downloads
-        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      # Content-addressed cache of generated downloads, restored here and saved
+      # after the generation step. Regenerating every post took 13m22s in 2026
+      # when most PDFs failed fast, and about 45 minutes on four workers once they
+      # rendered. Restore and save are separate so that a run which converts only
+      # part of the corpus, as a cold cache forces, still saves what it made. The
+      # saved key carries the run id, because a key that already exists is never
+      # overwritten, and the save is skipped when the run added nothing, so an
+      # unchanged corpus does not churn the repository's cache budget.
+      - name: Restore generated downloads
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
           path: .cache/downloads
-          # Keyed on the post sources and the generator, not the commit SHA.
-          # Keying on the SHA saved a fresh copy of the whole cache on every
-          # deploy, churning the repository cache budget for no benefit; an
-          # unchanged corpus now hits the existing entry and re-saves nothing.
-          key: downloads-v1-${{ hashFiles('_posts/**', '_downloads.rb') }}
+          key: downloads-v2-${{ hashFiles('_posts/**', '_downloads.rb', '_lib/pandoc_input.rb') }}
           restore-keys: |
-            downloads-v1-
+            downloads-v2-${{ hashFiles('_posts/**', '_downloads.rb', '_lib/pandoc_input.rb') }}-
+            downloads-v2-
 
+      # The budget, 18 minutes, keeps the job inside its limit with the setup
+      # before it, about 11 minutes, and the steps after. A post not converted in
+      # time is deferred to the next run, which the log lists. The step limit is
+      # the guard if one conversion runs far past the budget.
       - name: Generate PDF and EPUB downloads
+        id: downloads
+        timeout-minutes: 30
         run: ruby _downloads.rb
+        env:
+          DOWNLOADS_BUDGET_SECONDS: "1080"
+      - name: Save generated downloads
+        if: steps.downloads.outputs.generated != '0'
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/downloads
+          key: downloads-v2-${{ hashFiles('_posts/**', '_downloads.rb', '_lib/pandoc_input.rb') }}-${{ github.run_id }}
       - name: Build Pagefind search index
         run: npx -y pagefind --site _site
       - name: Upload artifact
