@@ -154,7 +154,7 @@ $$
 **The first article's count stands.** What the series added is that the eleven are four different kinds of absence, and the unassigned set $U$ divides accordingly,
 
 $$
-|U| = |U\_{\text{reserved}}| + |U\_{\text{refused}}| + |U\_{\text{pool}}| + |U\_{\text{block}}| = 1 + 1 + 2 + 7 = 11
+|U| = |U_{\text{reserved}}| + |U_{\text{refused}}| + |U_{\text{pool}}| + |U_{\text{block}}| = 1 + 1 + 2 + 7 = 11
 \tag{5}
 $$
 
@@ -223,14 +223,14 @@ where $T$ counts the pairs allocated on the same day.
 A number that is not one more than the highest number already allocated is either a skip or a backfill. Writing $h\_k$ for the highest design number allocated before the $k$-th allocation and $n\_k$ for the number it received, the advance is
 
 $$
-a\_k = n\_k - h\_k, \qquad h\_k = \max\_{j < k} n\_j
+a_k = n_k - h_k, \qquad h_k = \max_{j < k} n_j
 \tag{11}
 $$
 
 and a counter would give $a\_k = 1$ every time. The share of advances equal to one is
 
 $$
-s\_1 = \frac{\left| \{ k : a\_k = 1 \} \right|}{K} = \frac{16}{22} = 0.727
+s_1 = \frac{\left| \{ k : a_k = 1 \} \right|}{K} = \frac{16}{22} = 0.727
 \tag{12}
 $$
 
@@ -248,14 +248,14 @@ over the register's 22 research advances, the figure the X-67 article measured \
 **The walk obeys an identity that gives the skipped numbers a second route.** The high-water mark moves only when an advance is positive, so the positive parts of the advances telescope to the span of the walk,
 
 $$
-\sum\_{k=1}^{K} \max(a\_k, 0) = h\_{\text{last}} - h\_{\text{first}} = 76 - 44 = 32
+\sum_{k=1}^{K} \max(a_k, 0) = h_{\text{last}} - h_{\text{first}} = 76 - 44 = 32
 \tag{13}
 $$
 
 and each advance greater than one passes over $a\_k - 1$ numbers. Writing $B$ for the numbers later backfilled, the numbers permanently skipped in the register era are
 
 $$
-\sum\_{k=1}^{K} \max(a\_k - 1, 0) - B = 11 - 1 = 10
+\sum_{k=1}^{K} \max(a_k - 1, 0) - B = 11 - 1 = 10
 \tag{14}
 $$
 
@@ -268,7 +268,7 @@ $$
 **The first article asserted that allocations cluster and did not compute the measure it named.** It is computed here. Let $x\_j$ be the number of designations whose entry year falls in decade $j$, over the $J = 9$ decades from the 1940s to the 2020s. The index of dispersion is the ratio of the sample variance to the mean,
 
 $$
-\mathcal{D} = \frac{S^2}{\bar{x}}, \qquad \bar{x} = \frac{1}{J} \sum\_{j=1}^{J} x\_j, \qquad S^2 = \frac{1}{J - 1} \sum\_{j=1}^{J} \left( x\_j - \bar{x} \right)^2
+\mathcal{D} = \frac{S^2}{\bar{x}}, \qquad \bar{x} = \frac{1}{J} \sum_{j=1}^{J} x_j, \qquad S^2 = \frac{1}{J - 1} \sum_{j=1}^{J} \left( x_j - \bar{x} \right)^2
 \tag{15}
 $$
 
@@ -296,21 +296,21 @@ $$
 Under P2 the mean is 7.11 per decade and the variance 25.61, so
 
 $$
-\mathcal{D}\_{P2} = \frac{25.61}{7.11} = 3.60, \qquad \chi^2 = 8 \times 3.60 = 28.8
+\mathcal{D}_{P2} = \frac{25.61}{7.11} = 3.60, \qquad \chi^2 = 8 \times 3.60 = 28.8
 \tag{17}
 $$
 
 with an upper-tail probability of 0.000342, and under P1
 
 $$
-\mathcal{D}\_{P1} = \frac{20.61}{7.11} = 2.90, \qquad \chi^2 = 8 \times 2.90 = 23.2
+\mathcal{D}_{P1} = \frac{20.61}{7.11} = 2.90, \qquad \chi^2 = 8 \times 2.90 = 23.2
 \tag{18}
 $$
 
 with probability 0.00313. **For an even number of degrees of freedom the chi-square tail has a closed form**, which gives a second route,
 
 $$
-\Pr\left(\chi^2\_{8} > x\right) = e^{-x/2} \sum\_{i=0}^{3} \frac{(x/2)^i}{i!}
+\Pr\left(\chi^2_{8} > x\right) = e^{-x/2} \sum_{i=0}^{3} \frac{(x/2)^i}{i!}
 \tag{19}
 $$
 
@@ -323,7 +323,7 @@ and at $x = 28.8$ it gives 0.000342 again. **The first article's claim holds und
 The first article described a tripartite arrangement in which a military service supplied the requirement and the money, a contractor the airframe, and the National Advisory Committee for Aeronautics, NACA, or its successor the National Aeronautics and Space Administration, NASA, the research programme \[[X-Planes framing][related_post_a297_framing]\]. The ledger records each article's named sponsors, which were sorted into classes. **The diversity of sponsorship in each decade is measured by the Shannon entropy of the sponsor mentions** \[[Shannon 1948][ref_shannon_1948]\],
 
 $$
-H = - \sum\_{i} q\_i \log\_2 q\_i
+H = - \sum_{i} q_i \log_2 q_i
 \tag{20}
 $$
 
@@ -344,14 +344,14 @@ where $q\_i$ is the share of the decade's sponsor mentions falling in class $i$.
 **The 1950s are the least diverse decade with more than a handful of entries**, 16 numbers whose sponsor mentions are mostly the Air Force, with NACA and the Navy alongside. Their 26 mentions are 16 Air Force, 6 NACA and 4 Navy, so
 
 $$
-H\_{1950s} = - \left( \tfrac{16}{26} \log\_2 \tfrac{16}{26} + \tfrac{6}{26} \log\_2 \tfrac{6}{26} + \tfrac{4}{26} \log\_2 \tfrac{4}{26} \right) = 1.33 \ \text{bits}
+H_{1950s} = - \left( \tfrac{16}{26} \log_2 \tfrac{16}{26} + \tfrac{6}{26} \log_2 \tfrac{6}{26} + \tfrac{4}{26} \log_2 \tfrac{4}{26} \right) = 1.33 \ \text{bits}
 \tag{21}
 $$
 
 **Entropy grows with the number of classes as well as with their balance**, so the balance alone is measured by the evenness, the entropy divided by its maximum for the classes present, as Pielou defined it for biological collections \[[Pielou, The Measurement of Diversity in Different Types of Biological Collections, 1966][ref_pielou_1966]\],
 
 $$
-J' = \frac{H}{\log\_2 r}
+J' = \frac{H}{\log_2 r}
 \tag{22}
 $$
 
@@ -382,14 +382,14 @@ $$
 where $a$ and $b$ are the early crewed and uncrewed counts, $c$ and $d$ the late ones, and $N$ their total. Summing every table no more probable than the observed one,
 
 $$
-p = \sum\_{x \,:\, \Pr(x) \le \Pr(a)} \Pr(x)
+p = \sum_{x \,:\, \Pr(x) \le \Pr(a)} \Pr(x)
 \tag{25}
 $$
 
 gives Fisher's two-sided probability of 0.00138. The size of the change is better stated as a difference in shares and as an odds ratio than as a probability. The difference is
 
 $$
-\hat{\pi}\_{\text{early}} - \hat{\pi}\_{\text{late}} = 0.714 - 0.267 = 0.448
+\hat{\pi}_{\text{early}} - \hat{\pi}_{\text{late}} = 0.714 - 0.267 = 0.448
 \tag{26}
 $$
 
@@ -412,7 +412,7 @@ $$
 **The uncrewed vehicles of the two periods were different kinds of thing**, and separating them sharpens the result. The uncrewed X vehicles before 1990 were missiles, rockets and one subscale entry vehicle, the X-7, X-8, X-9, X-10, X-11, X-12, X-17 and X-23, and only the X-10 was an aeroplane. **Among aircraft alone, 18 of 19 before 1990 carried a pilot and 8 of 22 from 1990 did**, Fisher's test giving 0.000103, and the odds ratio is
 
 $$
-\psi\_{\text{aircraft}} = \frac{18 \times 14}{1 \times 8} = 31.5
+\psi_{\text{aircraft}} = \frac{18 \times 14}{1 \times 8} = 31.5
 \tag{29}
 $$
 
@@ -436,21 +436,21 @@ with a Woolf interval of 3.51 to 282, **wide because a single uncrewed aircraft 
 **Fewer than half the vehicle numbers in the series are classified as measurement**, 25 of 65, a figure that already qualifies the instrument model,
 
 $$
-\hat{\pi}\_{\text{measure}} = \frac{25}{65} = 0.385, \qquad \text{95 percent interval } 0.276 \text{ to } 0.506
+\hat{\pi}_{\text{measure}} = \frac{25}{65} = 0.385, \qquad \text{95 percent interval } 0.276 \text{ to } 0.506
 \tag{30}
 $$
 
 and this share is the basis for saying that the model describes about two fifths of the vehicles. Before 1990 the measurement share is 14 of 29, 48.3 percent with a Wilson interval of 31.4 to 65.6 percent, and from 1990 it is 11 of 35, 31.4 percent with an interval of 18.6 to 48.0 percent. **The fall is in the predicted direction and Fisher's test gives 0.204**, so a difference of this size would arise by chance about one time in five. The first article's prediction is therefore **not confirmed and not refuted**. It is unestablished at the size of the series, and the size of the shortfall can be stated. For two shares $\hat{\pi}\_1$ and $\hat{\pi}\_2$ with mean $\bar{\pi}$, the number of vehicles needed in each period for a two-sided test at the 5 percent level to detect the difference four times in five is, by the normal approximation for two independent proportions \[[Fleiss et al. 1980][ref_fleiss_1980]\],
 
 $$
-N^{*} = \frac{\left( z\_{0.975} \sqrt{2 \bar{\pi} (1 - \bar{\pi})} + z\_{0.80} \sqrt{\hat{\pi}\_1 (1 - \hat{\pi}\_1) + \hat{\pi}\_2 (1 - \hat{\pi}\_2)} \right)^2}{\left( \hat{\pi}\_1 - \hat{\pi}\_2 \right)^2}
+N^{*} = \frac{\left( z_{0.975} \sqrt{2 \bar{\pi} (1 - \bar{\pi})} + z_{0.80} \sqrt{\hat{\pi}_1 (1 - \hat{\pi}_1) + \hat{\pi}_2 (1 - \hat{\pi}_2)} \right)^2}{\left( \hat{\pi}_1 - \hat{\pi}_2 \right)^2}
 \tag{31}
 $$
 
 with $z\_{0.975} = 1.96$ and $z\_{0.80} = 0.84$. Substituting the observed shares,
 
 $$
-\hat{\pi}\_1 = 0.483, \qquad \hat{\pi}\_2 = 0.314, \qquad \bar{\pi} = 0.399
+\hat{\pi}_1 = 0.483, \qquad \hat{\pi}_2 = 0.314, \qquad \bar{\pi} = 0.399
 \tag{32}
 $$
 
@@ -463,7 +463,7 @@ gives $N^{*} = 131$ against the 29 and 35 vehicles the two periods hold. **The s
 **Of the 65 vehicle numbers, 18 had not flown by their articles' dates**, being 12 not built, 5 built and not flown, and the X-63, whose build state is unknown. Three of them belong to programmes still running at their dates, the X-65, X-68 and X-76, and are not failures of anything. **That leaves fifteen vehicles whose programmes ended without a flight**, or 23 percent of the vehicle numbers in the series,
 
 $$
-\hat{\pi}\_{\text{ended unflown}} = \frac{15}{65} = 0.231, \qquad \text{95 percent interval } 0.145 \text{ to } 0.346
+\hat{\pi}_{\text{ended unflown}} = \frac{15}{65} = 0.231, \qquad \text{95 percent interval } 0.145 \text{ to } 0.346
 \tag{33}
 $$
 
@@ -488,21 +488,21 @@ The series met a set of orderings between a designation and its aeroplane, and t
 Writing $\Delta t$ for the interval from first flight to designation,
 
 $$
-\Delta t = t\_{\text{designation}} - t\_{\text{first flight}}
+\Delta t = t_{\text{designation}} - t_{\text{first flight}}
 \tag{34}
 $$
 
 a positive value means the aeroplane flew first. **Of the 22 vehicles that flew and whose articles date both events, 6 have $\Delta t > 0$**,
 
 $$
-\hat{\pi}\_{\Delta t > 0} = \frac{6}{22} = 0.273, \qquad \text{95 percent interval } 0.132 \text{ to } 0.482
+\hat{\pi}_{\Delta t > 0} = \frac{6}{22} = 0.273, \qquad \text{95 percent interval } 0.132 \text{ to } 0.482
 \tag{35}
 $$
 
 and the three intervals the record dates to the day are
 
 $$
-\Delta t\_{\text{X-28}} = 349, \qquad \Delta t\_{\text{X-55}} = 139, \qquad \Delta t\_{\text{X-62}} = 10658 \ \text{days}
+\Delta t_{\text{X-28}} = 349, \qquad \Delta t_{\text{X-55}} = 139, \qquad \Delta t_{\text{X-62}} = 10658 \ \text{days}
 \tag{36}
 $$
 
@@ -534,7 +534,7 @@ NASA's fact sheet for the X-53's programme dates its first research flights to l
 **No article recorded flight contradicting its ground prediction outright, and the commonest result is a mixed one**, 23 of 47. Among the 29 articles whose comparison reached flight data the mixed share is
 
 $$
-\hat{\pi}\_{\text{mixed}} = \frac{23}{29} = 0.793, \qquad \text{95 percent interval } 0.616 \text{ to } 0.902
+\hat{\pi}_{\text{mixed}} = \frac{23}{29} = 0.793, \qquad \text{95 percent interval } 0.616 \text{ to } 0.902
 \tag{37}
 $$
 
@@ -547,14 +547,14 @@ The contemporary literature supplies a clean instance of a mixed verdict on one 
 The first article sized a programme by the information it returns. For a quantity known before the programme with standard deviation $\sigma\_0$ and after it with standard deviation $\sigma\_n$, the information gained is
 
 $$
-I = \frac{1}{2} \log\_2 \frac{\sigma\_0^2}{\sigma\_n^2}
+I = \frac{1}{2} \log_2 \frac{\sigma_0^2}{\sigma_n^2}
 \tag{38}
 $$
 
 in bits, and the X-1 example in the first article, whose variance ratio was 400, returned
 
 $$
-I\_{\text{X-1}} = \frac{1}{2} \log\_2 400 = 4.32 \ \text{bits}
+I_{\text{X-1}} = \frac{1}{2} \log_2 400 = 4.32 \ \text{bits}
 \tag{39}
 $$
 
@@ -604,7 +604,7 @@ so about two thirds of the register's research rows carry the government's own w
 **And the register lags the allocations by months.** The X-68A and X-76A rows did not appear in the public register until between 15 January and 1 February 2026, by archived copies, the capture of 15 January 2026 showing neither row and that of 1 February 2026 showing both \[[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]\] \[[Parsch, DOD 4120.15-L Addendum, as archived on 15 January 2026][ref_mds_addendum_wb_2026_01]\] \[[Parsch, DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]\], which the X-69 through X-75 article established. Writing $\Lambda$ for the interval from allocation to first public appearance, the two captures bound it,
 
 $$
-148 < \Lambda\_{\text{X-68A}} \le 165, \qquad 87 < \Lambda\_{\text{X-76A}} \le 104 \ \text{days}
+148 < \Lambda_{\text{X-68A}} \le 165, \qquad 87 < \Lambda_{\text{X-76A}} \le 104 \ \text{days}
 \tag{43}
 $$
 
@@ -916,7 +916,7 @@ The series divides the eleven unassigned numbers into one reserved, one refused,
 [X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block]
 
 $$
-|U| = |U\_{\text{reserved}}| + |U\_{\text{refused}}| + |U\_{\text{pool}}| + |U\_{\text{block}}| = 1 + 1 + 2 + 7 = 11
+|U| = |U_{\text{reserved}}| + |U_{\text{refused}}| + |U_{\text{pool}}| + |U_{\text{block}}| = 1 + 1 + 2 + 7 = 11
 \tag{5}
 $$
 
@@ -969,7 +969,7 @@ The article defines the advance of an allocation as its design number less the h
 [X-67][related_post_a364_x67_slot_taken_by_xq67]
 
 $$
-a\_k = n\_k - h\_k, \qquad h\_k = \max\_{j < k} n\_j
+a_k = n_k - h_k, \qquad h_k = \max_{j < k} n_j
 \tag{11}
 $$
 
@@ -978,7 +978,7 @@ Sixteen of the register's 22 research advances equal one, a share of 0.727, the 
 [X-67][related_post_a364_x67_slot_taken_by_xq67]
 
 $$
-s\_1 = \frac{\left| \{ k : a\_k = 1 \} \right|}{K} = \frac{16}{22} = 0.727
+s_1 = \frac{\left| \{ k : a_k = 1 \} \right|}{K} = \frac{16}{22} = 0.727
 \tag{12}
 $$
 
@@ -986,7 +986,7 @@ $$
 Because the high-water mark moves only on a positive advance, the positive parts of the advances sum to the span of the walk from 44 to 76.
 
 $$
-\sum\_{k=1}^{K} \max(a\_k, 0) = h\_{\text{last}} - h\_{\text{first}} = 76 - 44 = 32
+\sum_{k=1}^{K} \max(a_k, 0) = h_{\text{last}} - h_{\text{first}} = 76 - 44 = 32
 \tag{13}
 $$
 
@@ -995,7 +995,7 @@ The numbers passed over by advances greater than one, less the one later backfil
 [Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]
 
 $$
-\sum\_{k=1}^{K} \max(a\_k - 1, 0) - B = 11 - 1 = 10
+\sum_{k=1}^{K} \max(a_k - 1, 0) - B = 11 - 1 = 10
 \tag{14}
 $$
 
@@ -1005,7 +1005,7 @@ The index of dispersion is the sample variance of the counts per decade divided 
 [Cochran 1954][ref_cochran_1954]
 
 $$
-\mathcal{D} = \frac{S^2}{\bar{x}}, \qquad \bar{x} = \frac{1}{J} \sum\_{j=1}^{J} x\_j, \qquad S^2 = \frac{1}{J - 1} \sum\_{j=1}^{J} \left( x\_j - \bar{x} \right)^2
+\mathcal{D} = \frac{S^2}{\bar{x}}, \qquad \bar{x} = \frac{1}{J} \sum_{j=1}^{J} x_j, \qquad S^2 = \frac{1}{J - 1} \sum_{j=1}^{J} \left( x_j - \bar{x} \right)^2
 \tag{15}
 $$
 
@@ -1023,7 +1023,7 @@ $$
 Under the P2 dating, which prefers the register's allocation date and then the article's designation date, the decade counts give an index of 3.60 and a statistic of 28.8 on eight degrees of freedom.
 
 $$
-\mathcal{D}\_{P2} = \frac{25.61}{7.11} = 3.60, \qquad \chi^2 = 8 \times 3.60 = 28.8
+\mathcal{D}_{P2} = \frac{25.61}{7.11} = 3.60, \qquad \chi^2 = 8 \times 3.60 = 28.8
 \tag{17}
 $$
 
@@ -1031,7 +1031,7 @@ $$
 Under the P1 dating, which takes the earliest recorded event, the decade counts give an index of 2.90 and a statistic of 23.2.
 
 $$
-\mathcal{D}\_{P1} = \frac{20.61}{7.11} = 2.90, \qquad \chi^2 = 8 \times 2.90 = 23.2
+\mathcal{D}_{P1} = \frac{20.61}{7.11} = 2.90, \qquad \chi^2 = 8 \times 2.90 = 23.2
 \tag{18}
 $$
 
@@ -1039,7 +1039,7 @@ $$
 For an even number of degrees of freedom the chi-square upper tail has a closed form as an exponential times a finite Poisson sum.
 
 $$
-\Pr\left(\chi^2\_{8} > x\right) = e^{-x/2} \sum\_{i=0}^{3} \frac{(x/2)^i}{i!}
+\Pr\left(\chi^2_{8} > x\right) = e^{-x/2} \sum_{i=0}^{3} \frac{(x/2)^i}{i!}
 \tag{19}
 $$
 
@@ -1048,7 +1048,7 @@ The diversity of sponsorship in a decade is the Shannon entropy of the shares of
 [Shannon 1948][ref_shannon_1948]
 
 $$
-H = - \sum\_{i} q\_i \log\_2 q\_i
+H = - \sum_{i} q_i \log_2 q_i
 \tag{20}
 $$
 
@@ -1056,7 +1056,7 @@ $$
 The 1950s' 26 sponsor mentions, 16 Air Force, 6 for the National Advisory Committee for Aeronautics and 4 Navy, have an entropy of 1.33 bits.
 
 $$
-H\_{1950s} = - \left( \tfrac{16}{26} \log\_2 \tfrac{16}{26} + \tfrac{6}{26} \log\_2 \tfrac{6}{26} + \tfrac{4}{26} \log\_2 \tfrac{4}{26} \right) = 1.33 \ \text{bits}
+H_{1950s} = - \left( \tfrac{16}{26} \log_2 \tfrac{16}{26} + \tfrac{6}{26} \log_2 \tfrac{6}{26} + \tfrac{4}{26} \log_2 \tfrac{4}{26} \right) = 1.33 \ \text{bits}
 \tag{21}
 $$
 
@@ -1065,7 +1065,7 @@ The evenness is the entropy divided by its maximum for the number of classes pre
 [Pielou, The Measurement of Diversity in Different Types of Biological Collections, 1966][ref_pielou_1966]
 
 $$
-J' = \frac{H}{\log\_2 r}
+J' = \frac{H}{\log_2 r}
 \tag{22}
 $$
 
@@ -1092,7 +1092,7 @@ Summing the probabilities of every table no more probable than the observed one 
 [Fisher 1935][ref_fisher_1935]
 
 $$
-p = \sum\_{x \,:\, \Pr(x) \le \Pr(a)} \Pr(x)
+p = \sum_{x \,:\, \Pr(x) \le \Pr(a)} \Pr(x)
 \tag{25}
 $$
 
@@ -1100,7 +1100,7 @@ $$
 The crewed share fell from 0.714 before 1990 to 0.267 from 1990, a difference of 0.448.
 
 $$
-\hat{\pi}\_{\text{early}} - \hat{\pi}\_{\text{late}} = 0.714 - 0.267 = 0.448
+\hat{\pi}_{\text{early}} - \hat{\pi}_{\text{late}} = 0.714 - 0.267 = 0.448
 \tag{26}
 $$
 
@@ -1125,7 +1125,7 @@ $$
 Among aircraft alone, 18 of 19 before 1990 and 8 of 22 from 1990 carried a pilot, an odds ratio of 31.5.
 
 $$
-\psi\_{\text{aircraft}} = \frac{18 \times 14}{1 \times 8} = 31.5
+\psi_{\text{aircraft}} = \frac{18 \times 14}{1 \times 8} = 31.5
 \tag{29}
 $$
 
@@ -1133,7 +1133,7 @@ $$
 Under the article's one-reader classification of each keystone, 25 of the 65 vehicle numbers are classified as measurement, a share of 0.385.
 
 $$
-\hat{\pi}\_{\text{measure}} = \frac{25}{65} = 0.385, \qquad \text{95 percent interval } 0.276 \text{ to } 0.506
+\hat{\pi}_{\text{measure}} = \frac{25}{65} = 0.385, \qquad \text{95 percent interval } 0.276 \text{ to } 0.506
 \tag{30}
 $$
 
@@ -1142,7 +1142,7 @@ The normal approximation for two independent proportions gives the sample per pe
 [Fleiss et al. 1980][ref_fleiss_1980]
 
 $$
-N^{*} = \frac{\left( z\_{0.975} \sqrt{2 \bar{\pi} (1 - \bar{\pi})} + z\_{0.80} \sqrt{\hat{\pi}\_1 (1 - \hat{\pi}\_1) + \hat{\pi}\_2 (1 - \hat{\pi}\_2)} \right)^2}{\left( \hat{\pi}\_1 - \hat{\pi}\_2 \right)^2}
+N^{*} = \frac{\left( z_{0.975} \sqrt{2 \bar{\pi} (1 - \bar{\pi})} + z_{0.80} \sqrt{\hat{\pi}_1 (1 - \hat{\pi}_1) + \hat{\pi}_2 (1 - \hat{\pi}_2)} \right)^2}{\left( \hat{\pi}_1 - \hat{\pi}_2 \right)^2}
 \tag{31}
 $$
 
@@ -1150,7 +1150,7 @@ $$
 The measurement shares of 0.483 before 1990 and 0.314 from 1990, both from the article's one-reader classification, and their mean of 0.399 give a required sample of 131 per period.
 
 $$
-\hat{\pi}\_1 = 0.483, \qquad \hat{\pi}\_2 = 0.314, \qquad \bar{\pi} = 0.399
+\hat{\pi}_1 = 0.483, \qquad \hat{\pi}_2 = 0.314, \qquad \bar{\pi} = 0.399
 \tag{32}
 $$
 
@@ -1158,7 +1158,7 @@ $$
 Fifteen of the 65 vehicle numbers belong to programmes that ended without a flight, a share of 0.231, once the three programmes still running are set aside.
 
 $$
-\hat{\pi}\_{\text{ended unflown}} = \frac{15}{65} = 0.231, \qquad \text{95 percent interval } 0.145 \text{ to } 0.346
+\hat{\pi}_{\text{ended unflown}} = \frac{15}{65} = 0.231, \qquad \text{95 percent interval } 0.145 \text{ to } 0.346
 \tag{33}
 $$
 
@@ -1166,7 +1166,7 @@ $$
 The interval is the designation date less the first flight date, so a positive value means the aeroplane flew first.
 
 $$
-\Delta t = t\_{\text{designation}} - t\_{\text{first flight}}
+\Delta t = t_{\text{designation}} - t_{\text{first flight}}
 \tag{34}
 $$
 
@@ -1174,7 +1174,7 @@ $$
 Six of the 22 flown vehicles whose articles date both events were designated after their first flight, a share of 0.273.
 
 $$
-\hat{\pi}\_{\Delta t > 0} = \frac{6}{22} = 0.273, \qquad \text{95 percent interval } 0.132 \text{ to } 0.482
+\hat{\pi}_{\Delta t > 0} = \frac{6}{22} = 0.273, \qquad \text{95 percent interval } 0.132 \text{ to } 0.482
 \tag{35}
 $$
 
@@ -1183,7 +1183,7 @@ The X-28, X-55 and X-62 were designated 349, 139 and 10,658 days after first fli
 [X-62][related_post_a359_lockheed_martin_x62_vista]
 
 $$
-\Delta t\_{\text{X-28}} = 349, \qquad \Delta t\_{\text{X-55}} = 139, \qquad \Delta t\_{\text{X-62}} = 10658 \ \text{days}
+\Delta t_{\text{X-28}} = 349, \qquad \Delta t_{\text{X-55}} = 139, \qquad \Delta t_{\text{X-62}} = 10658 \ \text{days}
 \tag{36}
 $$
 
@@ -1191,7 +1191,7 @@ $$
 Under the article's reading of each comparison of ground prediction with flight, 23 of the 29 comparisons that reached flight data are mixed, a share of 0.793.
 
 $$
-\hat{\pi}\_{\text{mixed}} = \frac{23}{29} = 0.793, \qquad \text{95 percent interval } 0.616 \text{ to } 0.902
+\hat{\pi}_{\text{mixed}} = \frac{23}{29} = 0.793, \qquad \text{95 percent interval } 0.616 \text{ to } 0.902
 \tag{37}
 $$
 
@@ -1200,7 +1200,7 @@ For a quantity with Gaussian uncertainty the information gained is half the base
 [X-Planes series][related_post_a297_framing]
 
 $$
-I = \frac{1}{2} \log\_2 \frac{\sigma\_0^2}{\sigma\_n^2}
+I = \frac{1}{2} \log_2 \frac{\sigma_0^2}{\sigma_n^2}
 \tag{38}
 $$
 
@@ -1209,7 +1209,7 @@ The first article's illustrative variance ratio of 400 returns 4.32 bits on one 
 [X-Planes series][related_post_a297_framing]
 
 $$
-I\_{\text{X-1}} = \frac{1}{2} \log\_2 400 = 4.32 \ \text{bits}
+I_{\text{X-1}} = \frac{1}{2} \log_2 400 = 4.32 \ \text{bits}
 \tag{39}
 $$
 
@@ -1246,7 +1246,7 @@ The archived copies bound the interval from allocation to first public appearanc
 [Parsch, DOD 4120.15-L Addendum, as archived on 1 February 2026][ref_mds_addendum_wb_2026_02]
 
 $$
-148 < \Lambda\_{\text{X-68A}} \le 165, \qquad 87 < \Lambda\_{\text{X-76A}} \le 104 \ \text{days}
+148 < \Lambda_{\text{X-68A}} \le 165, \qquad 87 < \Lambda_{\text{X-76A}} \le 104 \ \text{days}
 \tag{43}
 $$
 
@@ -1280,13 +1280,13 @@ $$
 - $Q$, the count of discordant pairs
 - $T$, the count of pairs tied on date
 - $m$, the count of numbers in an ordering
-- $h\_k$, the highest design number allocated before the $k$th allocation
-- $n\_k$, the design number of the $k$th allocation
-- $a\_k$, the advance of the $k$th allocation over the highest number before it
-- $s\_1$, the share of advances equal to one
+- $h_k$, the highest design number allocated before the $k$th allocation
+- $n_k$, the design number of the $k$th allocation
+- $a_k$, the advance of the $k$th allocation over the highest number before it
+- $s_1$, the share of advances equal to one
 - $B$, the count of passed-over numbers later backfilled
 - $K$, the number of advances
-- $x\_j$, the count of numbers entering in decade $j$
+- $x_j$, the count of numbers entering in decade $j$
 - $\bar{x}$, the mean count per decade
 - $S^2$, the sample variance of the counts per decade
 - $\mathcal{D}$, the index of dispersion
@@ -1294,7 +1294,8 @@ $$
 - $\chi^2$, the dispersion test statistic
 - $p$, a probability under a stated null hypothesis
 - $H$, the Shannon entropy of a sponsor distribution, in bits
-- $q\_i$, the share of sponsor mentions in class $i$
+- $J'$, the evenness of a sponsor distribution
+- $q_i$, the share of sponsor mentions in class $i$
 - $\hat{\pi}$, an observed proportion
 - $N$, the size of a sample
 - $\bar{\pi}$, the mean of two observed proportions
@@ -1303,7 +1304,7 @@ $$
 - $\Delta t$, the interval from first flight to designation, in days
 - $\psi$, an odds ratio, with $a$, $b$, $c$ and $d$ the four cells of a two-by-two table
 - $\Lambda$, the interval from allocation to first appearance in the public register, in days
-- $\sigma\_0$, the prior standard deviation of a measured quantity, against the posterior one after the programme
+- $\sigma_0$, the prior standard deviation of a measured quantity, against the posterior one after the programme
 - $I$, the information a programme returns, in bits
 
 ## References

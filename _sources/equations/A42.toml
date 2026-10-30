@@ -32,7 +32,7 @@ class = "standard"
 title = "Cotangent and Cosecant as Ratios with Their Inverses"
 gloss = "The cotangent and cosecant are the ratios of the adjacent side and of the hypotenuse to the opposite side, and their inverse functions return the angle."
 cite = []
-digest = "ada7dc36300500b9"
+digest = "658aee6adad7f12c"
 
 [[equation]]
 tag = 5
@@ -64,7 +64,7 @@ class = "standard"
 title = "Reciprocal and Quotient Identities"
 gloss = "Each of the six functions is written as the reciprocal of its partner, as quotients and products of the others, and as a ratio of the sides $x$, $y$ and $\\rho$."
 cite = []
-digest = "593f670f63ea499e"
+digest = "3f52f3287de7af4f"
 
 [[equation]]
 tag = 9
@@ -128,7 +128,7 @@ class = "standard"
 title = "Power Reducing Identities"
 gloss = "The square of each function is written through the cosine of twice the angle, which removes the power."
 cite = []
-digest = "d12818f646b36304"
+digest = "da082eb6ee802e1c"
 
 [[equation]]
 tag = 17
@@ -184,7 +184,7 @@ class = "standard"
 title = "Tangent Lines to a Circle with Rotations and Mirrors"
 gloss = "The point-slope form of the line tangent to a circle of radius $\\rho$ at angle $\\phi$ is given with its images under quarter and half turns and under reflection in the axes and diagonals."
 cite = []
-digest = "4efc0e13a2b9ae62"
+digest = "de745c0cfb06bd4c"
 
 [[symbol]]
 tex = '\rho'

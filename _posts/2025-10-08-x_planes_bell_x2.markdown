@@ -414,7 +414,7 @@ $$
 above which a roll input produces roll in the wrong direction. Dynamic behaviour is governed by the reduced frequency and flutter speed index,
 
 $$
-k = \frac{\omega b}{2 V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}
+k = \frac{\omega b}{V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}
 \tag{49}
 $$
 
@@ -575,7 +575,7 @@ $$
 \tag{70}
 $$
 
-within a percentage point of the X-1 figure, confirming that the published masses and thrust are mutually consistent. The remaining budget quantities are the mass fractions and thrust-to-weight,
+well above the X-1 figure of 0.33, and below one, so the published masses and thrust are at least mutually consistent. The remaining budget quantities are the mass fractions and thrust-to-weight,
 
 $$
 \frac{m_p}{m_0} = \frac{5686}{11{,}299} = 0.50, \qquad \frac{T}{W} = \frac{66{,}723}{11{,}299 \times 9.80665} = 0.60
@@ -619,7 +619,7 @@ $$
 and the damped modes that result are the short period and the [phugoid][ref_phugoid],
 
 $$
-\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \omega_{ph} \approx \frac{g \sqrt{2}}{V}
+\omega_{sp} \approx \sqrt{\frac{Z_\alpha M_q}{V} - M_\alpha}, \qquad \omega_{ph} \approx \frac{g \sqrt{2}}{V}
 \tag{76}
 $$
 
@@ -814,7 +814,7 @@ $$
 and at Mach 3.196 it gives 13.6 against an isentropic value of 49.1, so the two differ by a factor of 3.6. Compare the [X-1][ref_bell_x1] at Mach 1.06, where the same two expressions differ by 0.02 percent and the measurement is nearly degenerate. The X-2 knew its Mach number far better than the X-1 knew its own. The result is counterintuitive and entirely real, a consequence of shock strength growing with Mach number. The sensitivity of the inferred Mach number to a pressure error,
 
 $$
-\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d \left( p_{02} / p_1 \right)}{p_{02} / p_1}
+\frac{dM}{M} = \frac{2 \gamma M^2 - (\gamma - 1)}{2 \gamma \left( 2 M^2 - 1 \right)} \cdot \frac{d \left( p_{02} / p_1 \right)}{p_{02} / p_1}
 \tag{101}
 $$
 
@@ -1033,7 +1033,7 @@ $$
 so the Dutch roll damping ratio becomes
 
 $$
-\zeta_{dr, \text{aug}} \approx -\frac{C_{nr, \text{aug}}}{2} \sqrt{\frac{q S b}{I_z}} \cdot \frac{b}{2V} \cdot \frac{1}{\omega_{dr}}
+\zeta_{dr, \text{aug}} \approx -\frac{C_{nr, \text{aug}}}{2} \cdot \frac{q S b}{I_z} \cdot \frac{b}{2V} \cdot \frac{1}{\omega_{dr}}
 \tag{126}
 $$
 
@@ -1691,7 +1691,7 @@ The reduced frequency, the flutter speed index and the mass ratio are the simila
 [Garrick and Reed 1981][research_garrick_reed_1981]
 
 $$
-k = \frac{\omega b}{2 V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}
+k = \frac{\omega b}{V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}
 \tag{49}
 $$
 
@@ -1917,7 +1917,7 @@ The short-period frequency is approximated from the dimensional pitch and heave 
 [phugoid][ref_phugoid]
 
 $$
-\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \omega_{ph} \approx \frac{g \sqrt{2}}{V}
+\omega_{sp} \approx \sqrt{\frac{Z_\alpha M_q}{V} - M_\alpha}, \qquad \omega_{ph} \approx \frac{g \sqrt{2}}{V}
 \tag{76}
 $$
 
@@ -2125,7 +2125,7 @@ $$
 The relative error in inferred Mach number is a Mach-dependent factor times the relative error in the measured pressure ratio.
 
 $$
-\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d \left( p_{02} / p_1 \right)}{p_{02} / p_1}
+\frac{dM}{M} = \frac{2 \gamma M^2 - (\gamma - 1)}{2 \gamma \left( 2 M^2 - 1 \right)} \cdot \frac{d \left( p_{02} / p_1 \right)}{p_{02} / p_1}
 \tag{101}
 $$
 
@@ -2330,7 +2330,7 @@ $$
 The Dutch roll damping ratio is approximated from the augmented yaw damping derivative, the dynamic pressure, the geometry and the Dutch roll frequency.
 
 $$
-\zeta_{dr, \text{aug}} \approx -\frac{C_{nr, \text{aug}}}{2} \sqrt{\frac{q S b}{I_z}} \cdot \frac{b}{2V} \cdot \frac{1}{\omega_{dr}}
+\zeta_{dr, \text{aug}} \approx -\frac{C_{nr, \text{aug}}}{2} \cdot \frac{q S b}{I_z} \cdot \frac{b}{2V} \cdot \frac{1}{\omega_{dr}}
 \tag{126}
 $$
 

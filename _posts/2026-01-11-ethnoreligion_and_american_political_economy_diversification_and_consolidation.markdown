@@ -24,7 +24,7 @@ P_{\text{foreign-born, US}}\bigg|_{1970} \approx 9.6 \times 10^6, \quad P\bigg|_
 \tag{1}
 $$
 
-producing approximately fourfold expansion across the fifty-year post-1965 window. Foreign-born share reached historically high levels,
+producing approximately fivefold expansion across the fifty-year post-1965 window. Foreign-born share reached historically high levels,
 
 $$
 f_{\text{foreign-born, US population}}\bigg|_{1970} \approx 0.048, \quad f\bigg|_{2000} \approx 0.110, \quad f\bigg|_{2020} \approx 0.135
@@ -168,7 +168,7 @@ f_{\text{Iranian Muslim (Shia and Sunni), US}} \approx 0.30, \quad f_{\text{Iran
 \tag{12}
 $$
 
-per Public Affairs Alliance of Iranian Americans and Pew Research reconstruction. The over-represented religious minority proportion (approximately 55% non-Muslim among US Iranian American population versus approximately 1% non-Muslim among Iranian population) reflects Islamic Republic religious minority persecution driving selective emigration. The [Sanasarian 2000][book_sanasarian_2000] Religious Minorities in Iran (already cited in A273) treats the religious minority persecution framework.
+per Public Affairs Alliance of Iranian Americans and Pew Research reconstruction. The over-represented religious minority proportion (approximately 70% non-Muslim among US Iranian American population versus approximately 1% non-Muslim among Iranian population) reflects Islamic Republic religious minority persecution driving selective emigration. The [Sanasarian 2000][book_sanasarian_2000] Religious Minorities in Iran (already cited in A273) treats the religious minority persecution framework.
 
 ## Cambodian Refugees Post-Khmer Rouge
 
@@ -754,7 +754,7 @@ per National Park Service NAGPRA program records. Ongoing repatriation continued
 
 The 25 June 1997 [City of Boerne v. 1997][ref_city_boerne_v_flores_1997] City of Boerne v. Flores Supreme Court decision struck down 1993 Religious Freedom Restoration Act (RFRA) as applied to state and local governments, holding that Congressional Section 5 enforcement power under Fourteenth Amendment could not expand Court's interpretation of First Amendment. The 6-3 decision produced sizable religious freedom jurisprudence recalibration. The [Long 2000][book_long_2000] Religious Freedom and Indian Rights and [Laycock 2004][book_laycock_2004_conflicts] Religious Liberty provide the fullest treatments.
 
-Congressional response through 2000 [RLUIPA 2000][ref_rluipa_2000] Religious Land Use and Institutionalized Persons Act (RLUIPA) restored religious freedom protection under narrower jurisdictional framework combining Spending Clause and Commerce Clause authority. Approximately 26 states subsequently enacted state RFRAs providing parallel state-level religious freedom protection. Twenty-first-century religious freedom litigation combining business exemption claims (2014 Burby Lobby v. Hobby Lobby, 2015 Obergefell v. Hodges religious dissent claims) built on Boerne and RLUIPA framework treated in subsequent articles.
+Congressional response through 2000 [RLUIPA 2000][ref_rluipa_2000] Religious Land Use and Institutionalized Persons Act (RLUIPA) restored religious freedom protection under narrower jurisdictional framework combining Spending Clause and Commerce Clause authority. Approximately 26 states subsequently enacted state RFRAs providing parallel state-level religious freedom protection. Twenty-first-century religious freedom litigation combining business exemption claims (2014 Burwell v. Hobby Lobby, 2015 Obergefell v. Hodges religious dissent claims) built on Boerne and RLUIPA framework treated in subsequent articles.
 
 ## Left Behind Series and Popular Dispensationalism
 

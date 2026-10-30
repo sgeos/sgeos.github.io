@@ -69,7 +69,7 @@ $$
 
 which for realistic aerospace software of even modest complexity exceeds the computational capacity of any physical model checker. The engineering discipline of model checking includes techniques for abstraction, symmetry reduction, and partial-order reduction that permit useful analysis of systems whose full state space is infeasible to enumerate.
 
-Theorem proving applies human-guided proof-construction techniques with computer-assisted proof checking to establish that a program implementation satisfies its formal specification. The tools including Coq, Isabelle, HOL, ACL2, PVS, and Lean have all been used for aerospace safety-critical software verification. Theorem proving scales further than model checking for property classes but requires substantial specialized expertise. The comparative engineering effort per line of verified code across the three technique classes satisfies approximately
+Theorem proving applies human-guided proof-construction techniques with computer-assisted proof checking to establish that a program implementation satisfies its formal specification. The tools including Coq, Isabelle, HOL, ACL2, PVS, and Lean have all been used for aerospace safety-critical software verification. Theorem proving scales further than model checking for property classes but requires substantial specialized expertise. The comparative engineering effort per line of verified code across the four technique classes satisfies approximately
 
 $$
 E_{\text{static analysis}} \ll E_{\text{testing}} < E_{\text{model checking}} \ll E_{\text{theorem proving}}
@@ -81,7 +81,7 @@ with theorem-proving effort typically one to two orders of magnitude above teste
 Abstract interpretation, formalized by [Cousot and Cousot 1977][research_cousot_cousot_1977] as a theoretical framework, permits the static analysis of programs by computing sound over-approximations of program behavior in abstract mathematical domains. For a program $P$ with concrete-semantics state set $S_P$ and computed abstract-semantics state set $S_P^{\#}$, the soundness relation is
 
 $$
-S_P \subseteq \gamma(S_P^{\#}), \qquad S_P^{\#} = \alpha(S_P)
+S_P \subseteq \gamma(S_P^{\#}), \qquad S_P^{\#} \sqsupseteq \alpha(S_P)
 \tag{6}
 $$
 
@@ -191,7 +191,7 @@ The concrete states of a program lie within the concretisation of its abstract s
 [Cousot and Cousot 1977][research_cousot_cousot_1977]
 
 $$
-S_P \subseteq \gamma(S_P^{\#}), \qquad S_P^{\#} = \alpha(S_P)
+S_P \subseteq \gamma(S_P^{\#}), \qquad S_P^{\#} \sqsupseteq \alpha(S_P)
 \tag{6}
 $$
 

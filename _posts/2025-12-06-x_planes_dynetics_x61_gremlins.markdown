@@ -1130,7 +1130,7 @@ The survey behind this article holds **5,700 research records**, drawn from the 
 **The vehicle is not free.** Treating the airframe as a solved cruise missile ignores that it had to fold into a C-130's cargo compartment, deploy its wings after release, start a cold engine at altitude, and survive a parachute landing \[[Kratos][ref_kratos_first_flight]\] \[[Leidos][ref_leidos_captured]\]. **The width of 0.57 metres against a span of 3.47 is a folding requirement and it constrains the wing that the recovery requires to be large** \[[Dynetics X-61 Gremlins][ref_x61_wikipedia]\].
 
 $$
-b_p = \frac{b_v - w}{2}
+b_p = \frac{b_v - w_v}{2}
 \tag{71}
 $$
 
@@ -1347,6 +1347,7 @@ Every symbol used in a display equation is declared in the table below with one 
 | $ p_t $ | total pressure | pascals |
 | $ \Theta_t $ | total temperature | kelvin |
 | $ b_p $ | semispan of one folded wing panel | metres |
+| $ w_v $ | body width of the air vehicle | metres |
 | $ h $ | geopotential altitude | metres |
 | $ K_w $ | coefficient of the wave drag rise | dimensionless |
 | $ P_N $ | probability an airframe survives its whole design life | dimensionless |
@@ -1459,7 +1460,7 @@ each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
 Of the 71, 51 are established and 20 are bespoke.
-The sizing, wake, cable and control relations are evaluated in the International System while speeds, altitudes and stand-off distances are often quoted in knots and feet, and several letters are marked to avoid collisions, so $\Theta$ is the static temperature because $T$ is the thrust and $T_c$ the cable tension, $\ell$ is the cable length because $L$ is the lift, $e$ is the span efficiency while the upright $\mathrm{e}$ is the base of the natural logarithm, $\alpha$ is the acceleration a gust produces while $\Delta \alpha$ is an increment in angle of attack, $c$ is the thrust specific fuel consumption while $\bar{c}$ is the mean chord, $b$ is the carrier span while $b_v$ is the vehicle span, and $w$ is the centreline downwash except in the folded panel relation, where it is the body width.
+The sizing, wake, cable and control relations are evaluated in the International System while speeds, altitudes and stand-off distances are often quoted in knots and feet, and several letters are marked to avoid collisions, so $\Theta$ is the static temperature because $T$ is the thrust and $T_c$ the cable tension, $\ell$ is the cable length because $L$ is the lift, $e$ is the span efficiency while the upright $\mathrm{e}$ is the base of the natural logarithm, $\alpha$ is the acceleration a gust produces while $\Delta \alpha$ is an increment in angle of attack, $c$ is the thrust specific fuel consumption while $\bar{c}$ is the mean chord, $b$ is the carrier span while $b_v$ is the vehicle span, and $w$ is the centreline downwash while $w_v$ is the body width.
 
 **Equation 1, Payload Capacity Against the Requested Class.**
 The published payload of 145 pounds is 1.45 times the payload class of 100 pounds or less that the Request for Information named.
@@ -2060,7 +2061,7 @@ Each folded panel spans half the difference between the deployed span and the bo
 [Dynetics X-61 Gremlins][ref_x61_wikipedia]
 
 $$
-b_p = \frac{b_v - w}{2}
+b_p = \frac{b_v - w_v}{2}
 \tag{71}
 $$
 

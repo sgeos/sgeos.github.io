@@ -315,7 +315,7 @@ with the 44 percent price differential providing the competitive-provider struct
 The CRS-1 contract present-value structure yields the compact form
 
 $$
-PV^{\text{CRS-1}}_{\text{SpaceX}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}
+PV^{\text{CRS-1}}_{\text{SpaceX}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} < \sum_{k=1}^{12} P_k^{\text{mission}} \approx 1.6 \text{ billion dollars}
 \tag{30}
 $$
 
@@ -1070,11 +1070,11 @@ $$
 $$
 
 **Equation 30, Present Value of the First Resupply Services Contract.**
-The present value of the first Commercial Resupply Services contract sums the discounted mission payments, and the article equates it to the announced award of about 1.6 billion dollars.
+The present value of the first Commercial Resupply Services contract sums the discounted mission payments, which fall below their undiscounted total, the announced award of about 1.6 billion dollars.
 [NASA CRS-1 Award Announcement][ref_nasa_crs1_press_2008]
 
 $$
-PV^{\text{CRS-1}}_{\text{SpaceX}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}
+PV^{\text{CRS-1}}_{\text{SpaceX}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} < \sum_{k=1}^{12} P_k^{\text{mission}} \approx 1.6 \text{ billion dollars}
 \tag{30}
 $$
 

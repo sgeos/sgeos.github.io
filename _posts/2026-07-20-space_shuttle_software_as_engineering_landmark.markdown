@@ -26,7 +26,7 @@ R_{\text{PASS vote}} = \sum_{i=3}^{4} \binom{4}{i} R^i (1 - R)^{4-i} = 4R^3 - 3R
 \tag{1}
 $$
 
-which for per-machine hardware reliability $R = 0.99$ per mission gives group reliability of approximately 0.9994, or roughly two additional nines beyond a single machine. The value of the BFS as a fifth dissimilar-software element was to defend against the residual common-mode software failure fraction that voting cannot detect.
+which for per-machine hardware reliability $R = 0.99$ per mission gives group reliability of approximately 0.9994, or roughly one additional nine beyond a single machine. The value of the BFS as a fifth dissimilar-software element was to defend against the residual common-mode software failure fraction that voting cannot detect.
 
 The computers were IBM AP-101 general-purpose machines, initially the AP-101B variant with 32-bit words, approximately 424,000 words of magnetic-core memory, and instruction rates of approximately 420,000 instructions per second, later upgraded through the AP-101S variant with substantially larger memory and faster execution as the Shuttle program's software requirements grew. The AP-101 was originally developed for military avionics applications and represented substantially more computing capability than the Apollo Guidance Computer described in [A242][related_post_a242_apollo_guidance_computer]. Comparing the two directly
 
@@ -59,7 +59,7 @@ L(t) = L_0 \cdot 2^{(t - t_0) / T_L}
 \tag{4}
 $$
 
-with doubling time $T_L$ of order 40 to 50 years for the PASS software specifically, substantially slower than the 6 to 8 year doubling time typical of major aerospace programs, reflecting the engineering discipline that Shuttle software adopted against uncontrolled growth.
+with doubling time $T_L$ of order 50 to 90 years for the PASS software specifically, substantially slower than the 6 to 8 year doubling time typical of major aerospace programs, reflecting the engineering discipline that Shuttle software adopted against uncontrolled growth.
 
 ## The Backup Flight System
 
@@ -72,7 +72,7 @@ P_{\text{sync fail}} \approx \frac{1}{67} \approx 1.5 \text{ percent}
 \tag{5}
 $$
 
-which is at the level where ground testing runs of order 10 to 100 attempts would encounter the failure only rarely by chance, and the 20 to 30 initialization tests that had been performed during pre-launch verification indeed had not encountered it. The launch was scrubbed on 10 April 1981 when the synchronization failure occurred, and the timing race was diagnosed and patched over the following two days. STS-1 launched successfully on 12 April 1981. The first-hand account of the incident from the NASA guidance officer involved is [Garman 1981][research_garman_1981] "The Bug Heard 'Round the World," a widely cited primary source in the aerospace software literature on race conditions and testing coverage.
+which is at the level where ground testing runs of order 10 to 30 attempts would more likely than not miss the failure by chance, and the 20 to 30 initialization tests that had been performed during pre-launch verification indeed had not encountered it. The launch was scrubbed on 10 April 1981 when the synchronization failure occurred, and the timing race was diagnosed and patched over the following two days. STS-1 launched successfully on 12 April 1981. The first-hand account of the incident from the NASA guidance officer involved is [Garman 1981][research_garman_1981] "The Bug Heard 'Round the World," a widely cited primary source in the aerospace software literature on race conditions and testing coverage.
 
 The BFS design remained controversial within the aerospace software community throughout the Shuttle program. The argument for dissimilar redundant software was that common-mode failures in PASS would be caught by the differently implemented BFS. The counterargument, drawing on the Knight and Leveson 1986 empirical result cited in the [framing article][related_post_a237_framing_co_development], was that independently developed software versions exhibit statistically correlated failures at rates substantially higher than the independence assumption predicts, undermining the theoretical protection that dissimilar redundancy is supposed to provide. The Shuttle experience did not conclusively resolve this argument in either direction, but the decision by NASA and Rockwell to retain the BFS throughout the program indicated their operational judgment that the incremental protection justified the incremental cost.
 
@@ -192,7 +192,7 @@ $$
 $$
 
 *Equation 4, Bespoke Exponential Growth of the PASS Code Base.*
-The size of the code base is modelled as doubling at a constant rate, with a doubling time of forty to fifty years that the article assigns to this program.
+The size of the code base is modelled as doubling at a constant rate, with a doubling time of fifty to ninety years that the article assigns to this program.
 
 $$
 L(t) = L_0 \cdot 2^{(t - t_0) / T_L}

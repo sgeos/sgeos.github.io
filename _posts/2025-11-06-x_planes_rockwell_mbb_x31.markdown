@@ -2549,8 +2549,8 @@ $$
 $$
 
 which is possible for any set that contains at least one ratio below parity, because the weights are free.
-For the published set the two sides are 6.43 and 1.83, so both inequalities are satisfied with room to spare
-in the first and by a margin of 0.83 in the second.
+For the published set the two sides are 6.43 and 1.83, so the first inequality is satisfied with room to spare
+and the second fails by a margin of only 0.83.
 **The margin is what the knife-edge calculation above measures**, and it is smaller than the uncertainty in
 the weights. The general form of that hazard is known in statistics as
 [the reversal that can occur when groups are pooled][ref_simpson].

@@ -1491,7 +1491,7 @@ because it depends on masses rather than on flight data. The next section does i
 
 **Take the tank efficiency the programme demonstrated, apply it to the vehicle the demonstration existed to enable, and ask what share of that vehicle's structural allowance the hydrogen tanks would consume.**
 
-VentureStar's published gross mass is 2,184,000 pounds. At the required propellant fraction of 0.8898
+VentureStar's gross mass is taken as 2,184,000 pounds. At the required propellant fraction of 0.8898
 derived above, the propellant load is 1,943,317 pounds. Assuming a payload of 45,000 pounds to low Earth
 orbit, **everything else, meaning the entire vehicle, has an allowance of**
 
@@ -1704,7 +1704,7 @@ m_f - m_f^{\ast} = 75{,}000 - 66{,}969 = 8{,}031 \ \text{lb} , \qquad 75{,}000 -
 $$
 
 $$
-\frac{3{,}932}{8{,}413} = 0.467 , \qquad \frac{3{,}932}{6{,}824} = 0.576 ,
+\frac{3{,}932}{8{,}031} = 0.490 , \qquad \frac{3{,}932}{6{,}511} = 0.604 ,
 \tag{105}
 $$
 
@@ -3072,7 +3072,7 @@ $$
 The monocoque saving is expressed as a share of the burnout mass growth at the two ends of the table.
 
 $$
-\frac{3{,}932}{8{,}413} = 0.467 , \qquad \frac{3{,}932}{6{,}824} = 0.576 ,
+\frac{3{,}932}{8{,}031} = 0.490 , \qquad \frac{3{,}932}{6{,}511} = 0.604 ,
 \tag{105}
 $$
 

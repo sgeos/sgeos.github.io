@@ -557,7 +557,7 @@ $$
 \tag{35}
 $$
 
-**The differential tail is the opposite case and the contrast is exact.** It has the least deflection of any of them and the same rate limit as the stabilator, so its corner frequency is higher by the ratio of the two deflection limits, 4.65 against 4.65. The common rate limit cancels.
+**The differential tail is the opposite case and the contrast is exact.** It has the least deflection of any of them and the same rate limit as the stabilator, so its corner frequency is higher by the ratio of the two deflection limits, which is 4.65, and the two tabulated corner frequencies give the same 4.65. The common rate limit cancels.
 
 $$
 \frac{\omega_{c,d}}{\omega_{c,s}} = \frac{R / 5.375}{R / 25.0} = \frac{25.0}{5.375} = 4.65 , \qquad \frac{11.16}{2.40} = 4.65

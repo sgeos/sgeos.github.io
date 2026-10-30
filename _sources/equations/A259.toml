@@ -110,9 +110,9 @@ digest = "77d5acd6e3a52df8"
 tag = 14
 class = "standard"
 title = "Synaptic Intelligence Path-Integral Importance"
-gloss = "Synaptic Intelligence accumulates the importance of a parameter as the path integral of its loss gradient times its update velocity during training on a task."
+gloss = "Synaptic Intelligence accumulates the importance of a parameter as the negated path integral of its loss gradient times its update velocity during training on a task."
 cite = ["research_zenke_poole_ganguli_2017_si"]
-digest = "b5743220399bbf73"
+digest = "ab579f1c49bec535"
 
 [[equation]]
 tag = 15

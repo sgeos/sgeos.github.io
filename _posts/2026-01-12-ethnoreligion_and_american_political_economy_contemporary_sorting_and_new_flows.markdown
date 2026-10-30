@@ -100,7 +100,7 @@ $$
 
 per John Jay College of Criminal Justice 2004 and 2011 reports and several institutional documentation. The [John Jay Report 2004][ref_john_jay_report_2004] John Jay Report and [John Jay Report 2011][ref_john_jay_report_2011] Causes and Context Report provided the comprehensive institutional analyses commissioned by US Conference of Catholic Bishops. The [Church Allowed Abuse 2002][ref_boston_globe_spotlight_2002] Boston Globe reporting series provided the inaugural mass-media exposure. The [Berry 1992][book_berry_1992] Lead Us Not into Temptation, [Steinfels 2003][book_steinfels_2003] A People Adrift, and [D'Antonio 2016][book_dantonio_2016] Betrayal provide the detailed treatments.
 
-Institutional consequences included 2002 US Conference of Catholic Bishops [SBC Dallas Charter 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and a range of institutional restructuring. Approximate diocesan bankruptcy filings reached
+Institutional consequences included 2002 US Conference of Catholic Bishops [United States Conference of Catholic Bishops 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and a range of institutional restructuring. Approximate diocesan bankruptcy filings reached
 
 $$
 N_{\text{US Catholic diocesan Chapter 11 bankruptcy filings, 2004 to 2024}} \approx 30, \quad N_{\text{additional Catholic religious order bankruptcy filings}} \gtrsim 10
@@ -162,7 +162,7 @@ $$
 
 permitting religious objection to 2010 Affordable Care Act contraception mandate. Justice Samuel Alito's majority opinion expanded RFRA framework beyond individual and nonprofit religious institution protection to for-profit business framework. The [Sepper 2014][book_sepper_2014_religious] Free Exercise Lochnerism and [Laycock 2018][book_laycock_2018] Religious Liberty Volume 5 provide the leading treatments.
 
-Religious exemption jurisprudence expanded through 2015-2024 window. Major decisions included 2015 [Zubik v. Burwell 578 2016][ref_zubik_v_burwell_2016] (religious nonprofit contraception accommodation), 2017 [Masterpiece Cakeshop v. Colorado 2018][ref_masterpiece_cakeshop_2018] (religious refusal of same-sex wedding cake service), 2020 [Little Sisters of the Poor v. Pennsylvania 2020][ref_little_sisters_2020] (religious exemption from contraception mandate), 2020 [Bostock v. Clayton County 2020][ref_bostock_v_clayton_2020] (Title VII extension to sexual orientation and gender identity), and 2023 [303 Creative v. Elenis 2023][ref_303_creative_2023] (religious exemption to state anti-discrimination law).
+Religious exemption jurisprudence expanded through 2015-2024 window. Major decisions included 2016 [Zubik v. Burwell 578 2016][ref_zubik_v_burwell_2016] (religious nonprofit contraception accommodation), 2018 [Masterpiece Cakeshop v. Colorado 2018][ref_masterpiece_cakeshop_2018] (religious refusal of same-sex wedding cake service), 2020 [Little Sisters of the Poor v. Pennsylvania 2020][ref_little_sisters_2020] (religious exemption from contraception mandate), 2020 [Bostock v. Clayton County 2020][ref_bostock_v_clayton_2020] (Title VII extension to sexual orientation and gender identity), and 2023 [303 Creative v. Elenis 2023][ref_303_creative_2023] (religious exemption to state anti-discrimination law).
 
 ## Obama Election 2008 and Religious Politics
 
@@ -504,9 +504,9 @@ $$
 \begin{aligned}
 \text{Oak Creek Sikh Gurdwara shooting} &: 5 \text{ August } 2012, \quad N_{\text{dead}} = 6, \quad N_{\text{shooter Wade Michael Page (white supremacist)}} = 1 \\
 \text{Charleston Emanuel AME Church shooting} &: 17 \text{ June } 2015, \quad N_{\text{dead}} = 9, \quad N_{\text{shooter Dylann Roof (white supremacist)}} = 1 \\
+\text{Sutherland Springs Baptist Church shooting (Texas)} &: 5 \text{ November } 2017, \quad N_{\text{dead}} = 26 \\
 \text{Tree of Life Pittsburgh Synagogue shooting} &: 27 \text{ October } 2018, \quad N_{\text{dead}} = 11, \quad N_{\text{shooter Robert Bowers (antisemite)}} = 1 \\
 \text{Poway Chabad synagogue shooting} &: 27 \text{ April } 2019, \quad N_{\text{dead}} = 1 \\
-\text{Sutherland Springs Baptist Church shooting (Texas)} &: 5 \text{ November } 2017, \quad N_{\text{dead}} = 26 \\
 \text{Colleyville Beth Israel synagogue hostage} &: 15 \text{ January } 2022, \quad N_{\text{dead}} = 1
 \end{aligned}
 \tag{43}
@@ -604,7 +604,7 @@ $$
 
 per Pew Research and assorted exit polling reconstruction. The characteristic contemporary partisan alignment combines white evangelical Protestant-Republican identification, mainline Protestant, Catholic, Jewish, Muslim, and Nones-Democratic alignment, and Black Protestant-Democratic alignment predating twentieth-century civil rights realignment documented in [A272][related_post_a272_depression_war_and_refuge]. The [Campbell et al. 2020][book_campbell_green_layman_2020] Secular Surge and [Wehner 2019][book_wehner_2019] The Death of Politics provide the standard treatments.
 
-Contemporary religious sorting exceeds mid-twentieth-century religious-political alignment, with approximately 30-percentage-point white evangelical Protestant-Nones partisan gap exceeding 1950s-1970s religious-political alignment. The 6 January 2021 Capitol attack, 2024 Trump reelection, and religious-political controversies through 2024-2026 window reflect ongoing religious-political sorting treated in a number of ongoing literature.
+Contemporary religious sorting exceeds mid-twentieth-century religious-political alignment, with approximately 57-percentage-point white evangelical Protestant-Nones partisan gap exceeding 1950s-1970s religious-political alignment. The 6 January 2021 Capitol attack, 2024 Trump reelection, and religious-political controversies through 2024-2026 window reflect ongoing religious-political sorting treated in a number of ongoing literature.
 
 ## 6 January 2021 Capitol Attack and Christian Nationalism
 
@@ -1132,9 +1132,9 @@ $$
 \begin{aligned}
 \text{Oak Creek Sikh Gurdwara shooting} &: 5 \text{ August } 2012, \quad N_{\text{dead}} = 6, \quad N_{\text{shooter Wade Michael Page (white supremacist)}} = 1 \\
 \text{Charleston Emanuel AME Church shooting} &: 17 \text{ June } 2015, \quad N_{\text{dead}} = 9, \quad N_{\text{shooter Dylann Roof (white supremacist)}} = 1 \\
+\text{Sutherland Springs Baptist Church shooting (Texas)} &: 5 \text{ November } 2017, \quad N_{\text{dead}} = 26 \\
 \text{Tree of Life Pittsburgh Synagogue shooting} &: 27 \text{ October } 2018, \quad N_{\text{dead}} = 11, \quad N_{\text{shooter Robert Bowers (antisemite)}} = 1 \\
 \text{Poway Chabad synagogue shooting} &: 27 \text{ April } 2019, \quad N_{\text{dead}} = 1 \\
-\text{Sutherland Springs Baptist Church shooting (Texas)} &: 5 \text{ November } 2017, \quad N_{\text{dead}} = 26 \\
 \text{Colleyville Beth Israel synagogue hostage} &: 15 \text{ January } 2022, \quad N_{\text{dead}} = 1
 \end{aligned}
 \tag{43}
@@ -1318,11 +1318,11 @@ $$
 - Presidential Proclamation 9983. 2020. "(Muslim Ban)." [https://www.federalregister.gov/documents/2020/02/05/2020-02422/improving-enhanced-vetting-capabilities-and-processes-for-detecting-attempted-entry-into-the-united][ref_pp_9983_2020]
 - Rep. Nadler, Jerrold. 2022. "H.R.8404: 117th Congress (2021-2022): Respect for Marriage Act." [https://www.congress.gov/bill/117th-congress/house-bill/8404][ref_respect_for_marriage_2022]
 - "Roman Catholic Diocese of Brooklyn v. Cuomo, 592 U.S. \_\_\_ (2020)." 2020. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/592/20a87/][ref_diocese_brooklyn_cuomo_2020]
-- "SBC Dallas Charter." 2002. [https://www.usccb.org/committees/child-and-youth-protection/charter-protection-children-and-young-people][ref_dallas_charter_2002]
 - Sen. Kennedy, Edward M. 2007. "110th Congress (2007-2008): Refugee Crisis in Iraq Act." [https://www.congress.gov/bill/110th-congress/senate-bill/1651][ref_refugee_crisis_iraq_act_2008]
 - "Title 42 Public Health Order." 2020. [https://www.cdc.gov/quarantine/title-42.html][ref_title_42_order_2020]
 - Traditionis Custodes. 2021. "Apostolic Letter Issued “Motu Proprio” by the Supreme Pontiff Francis “Traditionis Custodes” on the Use of the Roman Liturgy Prior to the Reform of 1970, 16 July 2021." Accessed October 25, 2026. [https://www.vatican.va/content/francesco/en/motu\_proprio/documents/20210716-motu-proprio-traditionis-custodes.html][ref_traditionis_custodes_2021]
 - "Trump v. Hawaii, 585 U.S. \_\_\_ (2018)." 2018. *Justia Law*. Accessed October 25, 2026. [https://supreme.justia.com/cases/federal/us/585/17-965/][ref_trump_v_hawaii_2018]
+- United States Conference of Catholic Bishops. 2002. "Charter for the Protection of Children and Young People." [https://www.usccb.org/committees/child-and-youth-protection/charter-protection-children-and-young-people][ref_dallas_charter_2002]
 - "Update on Form I-134A." 2022. USCIS. Accessed October 25, 2026. [https://www.uscis.gov/humanitarian/uniting-for-ukraine][ref_uniting_for_ukraine_2022]
 - "USA PATRIOT Act." 2001. [https://www.congress.gov/bill/107th-congress/house-bill/3162][ref_usa_patriot_act_2001]
 - "USCCB Family Separation Statement." 2018. [https://www.usccb.org/news/2018/usccb-president-family-separation-immoral][ref_usccb_family_separation_2018]

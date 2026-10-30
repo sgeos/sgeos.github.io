@@ -468,7 +468,7 @@ and give bounds involving the drift rate.
 Restless bandits allow arm rewards to evolve according to Markov chains whose transitions depend on whether the arm is played. The problem is generally PSPACE-hard, but the [Whittle 1988][research_whittle_1988] index provides a widely-used heuristic that computes an arm-index
 
 $$
-W_a(x) = \inf\{ \lambda : \text{it is optimal to activate arm } a \text{ in state } x \text{ under passive-arm subsidy } \lambda \}
+W_a(x) = \sup\{ \lambda : \text{it is optimal to activate arm } a \text{ in state } x \text{ under passive-arm subsidy } \lambda \}
 \tag{47}
 $$
 
@@ -981,7 +981,7 @@ The Whittle index of an arm in a state is the passive subsidy at which activatin
 [Whittle 1988][research_whittle_1988]
 
 $$
-W_a(x) = \inf\{ \lambda : \text{it is optimal to activate arm } a \text{ in state } x \text{ under passive-arm subsidy } \lambda \}
+W_a(x) = \sup\{ \lambda : \text{it is optimal to activate arm } a \text{ in state } x \text{ under passive-arm subsidy } \lambda \}
 \tag{47}
 $$
 

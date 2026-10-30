@@ -344,7 +344,7 @@ $$
 with $n$-step return $V^{(n)}\_t = \sum_{k=0}^{n-1} \gamma^k \hat{r}\_{t+k+1} + \gamma^n V(\hat{z}\_{t+n})$, and the actor is trained on these imagined trajectories using analytic gradients through the model,
 
 $$
-\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \sum_t \gamma^t r_t + \gamma^H V(z_H) + \eta \nabla_\theta H(\pi_\theta)
+\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \left(\sum_t \gamma^t r_t + \gamma^H V(z_H)\right) + \eta \nabla_\theta H(\pi_\theta)
 \tag{29}
 $$
 
@@ -388,7 +388,7 @@ with $\sigma_H^2$ the estimated variance of the $H$-step target from the model e
 Model-based value gradient methods including SVG of [Heess et al. 2015][research_heess_wayne_silver_lillicrap_erez_tassa_2015] compute analytical gradients of return through the model dynamics,
 
 $$
-\nabla_\theta J(\theta) = \mathbb{E}\!\left[\sum_t \gamma^t \left(\nabla_a r(s_t, a_t) + \gamma \nabla_a V(s_{t+1}) \nabla_a f_\zeta(s_t, a_t)\right) \nabla_\theta \pi_\theta(s_t)\right]
+\nabla_\theta J(\theta) = \mathbb{E}\!\left[\sum_t \gamma^t \left(\nabla_a r(s_t, a_t) + \gamma \nabla_s V(s_{t+1}) \nabla_a f_\zeta(s_t, a_t)\right) \nabla_\theta \pi_\theta(s_t)\right]
 \tag{33}
 $$
 
@@ -487,7 +487,7 @@ $$
 that drive updates at both levels,
 
 $$
-\dot{r}^{(l)} \propto -\epsilon^{(l)} + W^{(l+1)\top} \epsilon^{(l+1)}
+\dot{r}^{(l)} \propto -\epsilon^{(l)} + W^{(l-1)\top} \epsilon^{(l-1)}
 \tag{40}
 $$
 
@@ -871,7 +871,7 @@ The actor ascends the imagined return and terminal value by differentiating thro
 [Hafner et al. 2020a][research_hafner_lillicrap_ba_norouzi_2020_dreamer]
 
 $$
-\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \sum_t \gamma^t r_t + \gamma^H V(z_H) + \eta \nabla_\theta H(\pi_\theta)
+\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \left(\sum_t \gamma^t r_t + \gamma^H V(z_H)\right) + \eta \nabla_\theta H(\pi_\theta)
 \tag{29}
 $$
 
@@ -907,7 +907,7 @@ The policy gradient is obtained by back-propagating reward and value gradients t
 [Heess et al. 2015][research_heess_wayne_silver_lillicrap_erez_tassa_2015]
 
 $$
-\nabla_\theta J(\theta) = \mathbb{E}\!\left[\sum_t \gamma^t \left(\nabla_a r(s_t, a_t) + \gamma \nabla_a V(s_{t+1}) \nabla_a f_\zeta(s_t, a_t)\right) \nabla_\theta \pi_\theta(s_t)\right]
+\nabla_\theta J(\theta) = \mathbb{E}\!\left[\sum_t \gamma^t \left(\nabla_a r(s_t, a_t) + \gamma \nabla_s V(s_{t+1}) \nabla_a f_\zeta(s_t, a_t)\right) \nabla_\theta \pi_\theta(s_t)\right]
 \tag{33}
 $$
 
@@ -967,7 +967,7 @@ Latent activity descends the prediction errors that it influences, pulled toward
 [Rao and Ballard 1999][research_rao_ballard_1999]
 
 $$
-\dot{r}^{(l)} \propto -\epsilon^{(l)} + W^{(l+1)\top} \epsilon^{(l+1)}
+\dot{r}^{(l)} \propto -\epsilon^{(l)} + W^{(l-1)\top} \epsilon^{(l-1)}
 \tag{40}
 $$
 

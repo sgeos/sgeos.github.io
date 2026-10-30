@@ -80,7 +80,7 @@ class = "standard"
 title = "Cumulative Saving from the Learning Curve"
 gloss = "Integrating the gap between first-unit cost and learning-curve cost over production gives the cumulative saving, which grows without bound for a positive exponent."
 cite = []
-digest = "77fc05fadd87bc77"
+digest = "33e362704b712291"
 
 [[equation]]
 tag = 11
@@ -118,9 +118,9 @@ digest = "54dc3cd7b489968f"
 tag = 15
 class = "bespoke"
 title = "Bespoke Break-Even Flight Count for Reuse"
-gloss = "The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment, recovery operations and amortised recovery hardware."
+gloss = "The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment and recovery operations."
 cite = []
-digest = "a97d8b0a2adfc693"
+digest = "1b555efb882dde2c"
 
 [[equation]]
 tag = 16

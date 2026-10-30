@@ -127,11 +127,11 @@ with each component estimated on the review text $r$ and fed to a downstream cla
 The empirical prevalence of individual review fabrication varies by platform and category. The [Luca and Zervas 2016][research_luca_zervas_2016] Yelp analysis estimates approximately sixteen percent of Yelp restaurant reviews are filtered as suspicious by Yelp's internal classifier, with the filtered rate rising to approximately twenty percent for restaurants in competitive market segments and rising further under competitive conditions. The [Luca 2016][research_luca_2016] Reviews Reputation and Revenue Yelp treatment estimates the causal impact of a one-star rating increase as approximately five to nine percent revenue increase, which sets the direct commercial incentive for review manipulation. The empirical rating-shift model takes the form
 
 $$
-\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} + n_i^{\text{fake}} \cdot \bar{r}_{\text{fake}} / (N_i + n_i^{\text{fake}})
+\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} + n_i^{\text{fake}} \cdot (\bar{r}_{\text{fake}} - \bar{r}_{\text{pre}}) / (N_i + n_i^{\text{fake}})
 \tag{6}
 $$
 
-with $\Delta r_i^{\text{obs}}$ the observed rating change, $\Delta r_i^{\text{authentic}}$ the authentic rating change, $n_i^{\text{fake}}$ the injected fake-review count, $\bar{r}\_{\text{fake}}$ the average fake-review rating, and $N_i$ the pre-injection authentic-review count. The equation shows that fake-review effectiveness depends on the ratio $n_i^{\text{fake}} / N_i$, which is highest for new or low-review-volume businesses and lowest for established high-review-volume businesses.
+with $\Delta r_i^{\text{obs}}$ the observed rating change, $\Delta r_i^{\text{authentic}}$ the authentic rating change, $n_i^{\text{fake}}$ the injected fake-review count, $\bar{r}\_{\text{fake}}$ the average fake-review rating, $\bar{r}\_{\text{pre}}$ the pre-injection average rating, and $N_i$ the pre-injection authentic-review count. The equation shows that fake-review effectiveness depends on the ratio $n_i^{\text{fake}} / N_i$, which is highest for new or low-review-volume businesses and lowest for established high-review-volume businesses.
 
 The detection signatures for individual fabrication include stylometric anomalies (deceptive text tends to over-use first-person pronouns, super-positive adjectives, and quality claims), temporal anomalies (concentrated review bursts inconsistent with the natural arrival rate), reviewer-history anomalies (reviewers with no prior activity or with review histories concentrated on the target business), and IP and device fingerprint anomalies (reviews originating from IP ranges or devices associated with the business owner or with review-service operators). The classifier-based detection takes the form the standard classification-performance metrics
 
@@ -397,11 +397,11 @@ with $\text{PR}(p)$ the PageRank of page $p$, $B_p$ the set of pages linking to 
 The [Gyongyi and Garcia-Molina 2005][research_gyongyi_garciamolina_2005] Web Spam Taxonomy treatment classified the manipulation-technique inventory circa 2005 and remains the reference classification. The [Ntoulas et al. 2006][research_ntoulas_et_al_2006] Detecting Spam Web Pages through Content Analysis introduced the content-based detection framework. The [Castillo et al. 2007][research_castillo_et_al_2007] Know Your Neighbors Web Spam Detection using the Web Topology introduced the graph-topology detection framework. The PageRank-manipulation return per additional inbound link can be characterized as the marginal derivative
 
 $$
-\frac{\partial \text{PR}(p)}{\partial |B_p|} = \frac{d}{|B_p| + 1} \cdot \bar{\text{PR}}_{B_p}
+\frac{\partial \text{PR}(p)}{\partial |B_p|} \approx d \cdot \overline{\text{PR}/L}_{B_p}
 \tag{34}
 $$
 
-with $\bar{\text{PR}}\_{B_p}$ the average PageRank of the inbound-link set. The ranking-position shift produced by a rank increase depends on the density of the local rank-neighborhood and follows approximately
+with $\overline{\text{PR}/L}\_{B_p}$ the average of $\text{PR}(q)/L(q)$ over the inbound-link set. The ranking-position shift produced by a rank increase depends on the density of the local rank-neighborhood and follows approximately
 
 $$
 \Delta \text{rank} \approx -\frac{\partial N_{<\rho}}{\partial \rho} \cdot \Delta \rho
@@ -907,10 +907,10 @@ $$
 $$
 
 *Equation 6, Bespoke Rating-Shift Model.*
-The article writes the observed rating change as the authentic change plus the injected fake reviews' average rating weighted by their share of all reviews.
+The article writes the observed rating change as the authentic change plus the gap between the injected fake reviews' average rating and the prior average, weighted by their share of all reviews.
 
 $$
-\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} + n_i^{\text{fake}} \cdot \bar{r}_{\text{fake}} / (N_i + n_i^{\text{fake}})
+\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} + n_i^{\text{fake}} \cdot (\bar{r}_{\text{fake}} - \bar{r}_{\text{pre}}) / (N_i + n_i^{\text{fake}})
 \tag{6}
 $$
 
@@ -1134,10 +1134,10 @@ $$
 $$
 
 *Equation 34, Bespoke Marginal PageRank Return per Inbound Link.*
-The article approximates the gain from one more inbound link as the damping factor over the enlarged inbound count, times the average PageRank of the inbound set.
+The article approximates the gain from one more inbound link as the damping factor times the average over the inbound set of each page's PageRank divided by its outbound link count.
 
 $$
-\frac{\partial \text{PR}(p)}{\partial |B_p|} = \frac{d}{|B_p| + 1} \cdot \bar{\text{PR}}_{B_p}
+\frac{\partial \text{PR}(p)}{\partial |B_p|} \approx d \cdot \overline{\text{PR}/L}_{B_p}
 \tag{34}
 $$
 

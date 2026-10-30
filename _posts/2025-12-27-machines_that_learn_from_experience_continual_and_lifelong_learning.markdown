@@ -159,7 +159,7 @@ The Fisher diagonal approximates the curvature of the log-likelihood at the prio
 Synaptic Intelligence of Zenke Poole Ganguli 2017 computes an online path-integral importance measure
 
 $$
-\omega_{i,j} = \int_0^{T_i} g_{i,j}(t) \, \dot{\theta}_{j}(t) \, dt
+\omega_{i,j} = -\int_0^{T_i} g_{i,j}(t) \, \dot{\theta}_{j}(t) \, dt
 \tag{14}
 $$
 
@@ -503,7 +503,7 @@ Cossu Tuytelaars Carta Passaro Lomonaco Bacciu 2022 [research_cossu_et_al_2022] 
 
 Simple and Scalable Strategies of [Ibrahim et al. 2024][research_ibrahim_et_al_2024] documented that carefully-designed learning-rate schedules combined with modest replay buffers achieve strong continual pretraining performance at foundation model scale, providing a practical recipe for the deployment of continually-updated foundation models.
 
-Parameter-Efficient Continual Learning through [Wang et al. 2022a][research_wang_et_al_2022_dualprompt] DualPrompt combined the parameter-efficient LoRA-style adaptation with continual learning, providing a framework in which the pretrained foundation model backbone is frozen and only small task-adapters are trained continually. Formally, DualPrompt augments the frozen backbone $f_{\theta_0}$ with a general prompt $p_g$ that is shared across all tasks and a task-expert prompt $p_e^{(k)}$ per task,
+Parameter-Efficient Continual Learning through [Wang et al. 2022a][research_wang_et_al_2022_dualprompt] DualPrompt combined parameter-efficient prompt-based adaptation with continual learning, providing a framework in which the pretrained foundation model backbone is frozen and only small prompts are trained continually. Formally, DualPrompt augments the frozen backbone $f_{\theta_0}$ with a general prompt $p_g$ that is shared across all tasks and a task-expert prompt $p_e^{(k)}$ per task,
 
 $$
 \hat{y} = f_{\theta_0}\!\left([\, p_g \, ; \, p_e^{(k)} \, ; \, x \,]\right)
@@ -763,11 +763,11 @@ F_{i,j} = \mathbb{E}_{(x, y) \sim \mathcal{D}_i}\!\left[\left(\frac{\partial \lo
 $$
 
 **Equation 14, Synaptic Intelligence Path-Integral Importance.**
-Synaptic Intelligence accumulates the importance of a parameter as the path integral of its loss gradient times its update velocity during training on a task.
+Synaptic Intelligence accumulates the importance of a parameter as the negated path integral of its loss gradient times its update velocity during training on a task.
 [Zenke Poole Ganguli 2017][research_zenke_poole_ganguli_2017_si]
 
 $$
-\omega_{i,j} = \int_0^{T_i} g_{i,j}(t) \, \dot{\theta}_{j}(t) \, dt
+\omega_{i,j} = -\int_0^{T_i} g_{i,j}(t) \, \dot{\theta}_{j}(t) \, dt
 \tag{14}
 $$
 

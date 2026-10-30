@@ -34,7 +34,7 @@ with the 1990-2026 concentration reflecting considerable Chinese rise, sustained
 
 **Alliance-system geometry.** The American-led Western alliance system including the North Atlantic Treaty Organization, the United States-Japan alliance, the United States-Korea alliance, the Quadrilateral Security Dialogue, and several bilateral arrangements produces approximately sixty percent of world gross domestic product, approximately forty percent of world manufacturing output, and holds approximately seventy percent of the world's high-technology industrial capacity. The Chinese-Russian bloc plus assorted partners including Iran and North Korea produces approximately twenty-five percent of world gross domestic product and approximately thirty-five percent of world manufacturing output. The remainder is distributed across nonaligned states including India, Brazil, Indonesia, South Africa, and a range of others.
 
-**Reserve-currency configuration.** The dollar remains the dominant international reserve currency at approximately fifty-eight percent of world central-bank reserves as of the mid-2020s, down from approximately seventy percent in 2000. The dollar-decline trajectory the [fourth article of the series formalized][related_post_american_ascent] using the same exponential-decay form the [second article applied to sterling][related_post_first_mover_britain] continues, with the euro at approximately twenty percent, the Japanese yen at approximately five percent, sterling at approximately four percent, the Chinese renminbi at approximately three percent, and various others distributed across the remainder.
+**Reserve-currency configuration.** The dollar remains the dominant international reserve currency at approximately fifty-eight percent of world central-bank reserves as of the mid-2020s, down from approximately seventy percent in 2000. The dollar-decline trajectory the [fourth article of the series described][related_post_american_ascent] continues under the same exponential-decay form the [second article applied to sterling][related_post_first_mover_britain], with the euro at approximately twenty percent, the Japanese yen at approximately five percent, sterling at approximately four percent, the Chinese renminbi at approximately three percent, and various others distributed across the remainder.
 
 **Technology-competition axis.** The 2020s technology competition between the United States and China across semiconductors, artificial intelligence, quantum computing, and renewable-energy technology constitutes the defining strategic-competition dynamic of the contemporary period. The Taiwanese semiconductor concentration through Taiwan Semiconductor Manufacturing Company, the American export controls on advanced semiconductor equipment, the Chinese indigenous-development push, and the Korean and Japanese participation in the American-led Chip 4 alliance together define the contemporary technology-competition geography.
 
@@ -45,7 +45,7 @@ Applying the industrialization-order framework the series has walked to the 2026
 **Chinese trajectory.** The treatment predicts continued Chinese per-capita convergence toward the leading American level at a decelerating rate. The Chinese Gerschenkron growth-rate premium of 5.2 percent per year the [ninth article of the series formalized][related_post_china_rise] cannot be sustained at that intensity as the Chinese economy approaches the middle-income upper boundary. Applying the Gerschenkron rearrangement with reduced premium $\Delta g_{\text{CH}}^{\text{proj}} \approx 2 \text{ to } 3\%$ per year across the 2026-2050 window gives
 
 $$
-R_{\text{CH}}(2050) = R_{\text{CH}}(2026) \cdot e^{\Delta g_{\text{CH}}^{\text{proj}} \cdot 24} \approx 0.30 \text{ to } 0.35
+R_{\text{CH}}(2050) = R_{\text{CH}}(2026) \cdot e^{\Delta g_{\text{CH}}^{\text{proj}} \cdot 24} \approx 0.32 \text{ to } 0.41
 \tag{2}
 $$
 
@@ -61,7 +61,7 @@ against the leading American level, considerably below the ratio a linear extrap
 
 **Southeast Asian and African trajectories.** This formulation predicts sustained Vietnamese, Indonesian, and Bangladeshi catch-up at rates comparable to the Chinese post-1980 rates, with the African trajectory highly variable across cases. The Sub-Saharan African aggregate is likely to grow at approximately three to four percent per capita per year across the extrapolation window, exceeding the pre-2000 baseline but producing only modest convergence on leading economies.
 
-**Reserve-currency trajectory.** The treatment predicts continued dollar-share erosion at approximately the exponential-decay rate the [fourth article formalized][related_post_american_ascent] using the same functional form the [second article applied to sterling][related_post_first_mover_britain]. Applying the exponential-decay form to the dollar share with decay rate $\lambda \approx 0.008 \text{ to } 0.012$ per year, spanning the historical 2000-2026 observed rate of approximately 0.008 per year and a modestly accelerated rate under specifically 2020s strategic-decoupling pressure, gives
+**Reserve-currency trajectory.** The treatment predicts continued dollar-share erosion, which the [fourth article described][related_post_american_ascent], under the exponential-decay form the [second article applied to sterling][related_post_first_mover_britain]. Applying the exponential-decay form to the dollar share with decay rate $\lambda \approx 0.008 \text{ to } 0.012$ per year, spanning the historical 2000-2026 observed rate of approximately 0.008 per year and a modestly accelerated rate under specifically 2020s strategic-decoupling pressure, gives
 
 $$
 D_{\text{dollar}}(2050) = D_{\text{dollar}}(2026) \cdot e^{-\lambda \cdot 24} \approx 0.43 \text{ to } 0.48
@@ -157,7 +157,7 @@ $$
 The Chinese ratio against the United States is compounded forward over twenty-four years at a reduced premium of two to three percent per year, a range the article assumes in place of the reform-era premium.
 
 $$
-R_{\text{CH}}(2050) = R_{\text{CH}}(2026) \cdot e^{\Delta g_{\text{CH}}^{\text{proj}} \cdot 24} \approx 0.30 \text{ to } 0.35
+R_{\text{CH}}(2050) = R_{\text{CH}}(2026) \cdot e^{\Delta g_{\text{CH}}^{\text{proj}} \cdot 24} \approx 0.32 \text{ to } 0.41
 \tag{2}
 $$
 

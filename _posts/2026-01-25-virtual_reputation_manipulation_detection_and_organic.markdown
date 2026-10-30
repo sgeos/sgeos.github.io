@@ -272,7 +272,7 @@ I_{\text{joint}} = I(\text{manipulation} ; \text{signal}_A, \text{signal}_B) - \
 \tag{23}
 $$
 
-with the joint-signal information gain typically sizable for cross-platform coordinated operations that exhibit different-platform signatures. The optimal cross-platform aggregation weights admit the maximum-likelihood characterization
+with the joint-signal information gain typically sizable for cross-platform coordinated operations that exhibit different-platform signatures. The optimal cross-platform aggregation weights admit the posterior-proportional characterization
 
 $$
 w^*_P = \Pr(\text{manip} \mid s_P) / \sum_{P'} \Pr(\text{manip} \mid s_{P'})

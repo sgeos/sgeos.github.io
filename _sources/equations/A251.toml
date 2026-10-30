@@ -376,7 +376,7 @@ class = "standard"
 title = "Whittle Index"
 gloss = "The Whittle index of an arm in a state is the passive subsidy at which activating and resting the arm become equally attractive."
 cite = ["research_whittle_1988"]
-digest = "aeeefaec55ac962d"
+digest = "5a48c750d1926433"
 
 [[equation]]
 tag = 48

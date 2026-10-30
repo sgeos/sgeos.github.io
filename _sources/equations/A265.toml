@@ -224,7 +224,7 @@ class = "standard"
 title = "Semi-Markov Option Value Function"
 gloss = "The value of a state under a policy over options sums the discounted rewards accumulated while an option runs and the value of the state where it terminates, discounted by its duration."
 cite = ["research_sutton_precup_singh_1999"]
-digest = "76881dedfc66187d"
+digest = "de8b4b21898226cc"
 
 [[equation]]
 tag = 29

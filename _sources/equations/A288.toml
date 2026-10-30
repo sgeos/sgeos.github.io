@@ -456,7 +456,7 @@ class = "bespoke"
 title = "Bespoke Annual Appropriation Survival Product"
 gloss = "The survival of the Superconducting Super Collider is expressed through a product over construction years of the probability that the appropriation continues, which assumes the years are independent."
 cite = []
-digest = "2c003e358daca65b"
+digest = "850b77449e9cba05"
 
 [[equation]]
 tag = 58

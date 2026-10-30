@@ -774,9 +774,9 @@ digest = "eec7e94cb61e4229"
 tag = 97
 class = "bespoke"
 title = "Bespoke Expanded Optimum Sweep Condition"
-gloss = "Differentiating the polar with the span efficiency held constant balances the fall of zero-lift drag against the rise of induced drag with sweep."
+gloss = "Differentiating the polar balances the fall of zero-lift drag against the rise of induced drag with sweep."
 cite = []
-digest = "e7191b3280d21db8"
+digest = "92424220a86f74a1"
 
 [[equation]]
 tag = 98

@@ -279,7 +279,7 @@ The temperature drops
 with altitude
 through the upper cloud layers
 to approximately
-approximately twenty-seven degrees Celsius at fifty-five kilometres
+twenty-seven degrees Celsius at fifty-five kilometres
 where the pressure is approximately one half of an atmosphere,
 approximately
 zero degrees Celsius at sixty kilometres,

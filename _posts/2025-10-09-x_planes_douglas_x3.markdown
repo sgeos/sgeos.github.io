@@ -233,7 +233,7 @@ C_{D,\text{add}} = \frac{D_{\text{add}}}{q S} \approx \frac{2 A_c}{S} \left( 1 -
 \tag{28}
 $$
 
-for a cowl of lip angle $\theta_c$, which grows as the square of the mismatch for small spillage and linearly thereafter. A fixed inlet flown below its design Mach number therefore suffers twice, losing thrust to poor recovery and gaining drag from spillage, and the two act in the same direction on the thrust margin,
+for a cowl of lip angle $\theta_c$, which grows linearly with the mismatch. A fixed inlet flown below its design Mach number therefore suffers twice, losing thrust to poor recovery and gaining drag from spillage, and the two act in the same direction on the thrust margin,
 
 $$
 T_{\text{eff}} = \eta_d \, T_{\text{ideal}} - D_{\text{add}} - D_{\text{div}}
@@ -385,7 +385,7 @@ $$
 and the resulting longitudinal modes are the short period and the phugoid,
 
 $$
-\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \omega_{sp}}
+\omega_{sp} \approx \sqrt{\frac{Z_\alpha M_q}{V} - M_\alpha}, \qquad \zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}
 \tag{48}
 $$
 
@@ -436,7 +436,7 @@ $$
 taking $\mu_{\text{ref}} = 1.716 \times 10^{-5}$ pascal seconds at 273.15 kelvin and $S = 110.4$ kelvin. Friction follows the turbulent flat-plate relation referred to wetted area,
 
 $$
-C_{D,f} = \frac{0.0592}{Re_L^{1/5}} \cdot \frac{S_{\text{wet}}}{S}
+C_{D,f} = \frac{0.074}{Re_L^{1/5}} \cdot \frac{S_{\text{wet}}}{S}
 \tag{55}
 $$
 
@@ -878,7 +878,7 @@ $$
 \tag{109}
 $$
 
-at fifty-one flights and even a one percent per-flight loss probability returns two airframes for ninety-five percent confidence, and the X-3 flew with one. That it survived is fortunate rather than planned, and the coupling data exist because of that fortune.
+at fifty-one flights and even a one percent per-flight loss probability returns three airframes for ninety-five percent confidence, and the X-3 flew with one. That it survived is fortunate rather than planned, and the coupling data exist because of that fortune.
 
 The X-3 was retired in 1956 after 51 flights and is preserved at the National Museum of the United States Air Force \[[Dinius 2014][ref_nasa_x3_stiletto]\] \[[Wikipedia, Douglas X-3][ref_douglas_x3]\].
 
@@ -1579,7 +1579,7 @@ $$
 The short period approximation expresses the frequency and damping of the fast longitudinal mode through the pitch and heave stability derivatives.
 
 $$
-\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \omega_{sp}}
+\omega_{sp} \approx \sqrt{\frac{Z_\alpha M_q}{V} - M_\alpha}, \qquad \zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}
 \tag{48}
 $$
 
@@ -1635,7 +1635,7 @@ $$
 The turbulent flat-plate one-fifth power law, scaled by the ratio of wetted to reference area, gives the friction drag coefficient.
 
 $$
-C_{D,f} = \frac{0.0592}{Re_L^{1/5}} \cdot \frac{S_{\text{wet}}}{S}
+C_{D,f} = \frac{0.074}{Re_L^{1/5}} \cdot \frac{S_{\text{wet}}}{S}
 \tag{55}
 $$
 

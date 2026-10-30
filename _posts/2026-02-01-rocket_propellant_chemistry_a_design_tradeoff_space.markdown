@@ -410,10 +410,10 @@ $1020$ kilograms per cubic meter. Oxygen-hydrogen at $O/F$ of $6.0$
 combines to a mixture density of approximately $360$ kilograms per cubic
 meter.
 
-Density specific impulse for oxygen-kerosene is approximately $2900$
+Density specific impulse for oxygen-kerosene is approximately $290000$
 seconds times kilograms per cubic meter. For oxygen-hydrogen it is
-approximately $1620$. For nitrogen-tetroxide with monomethylhydrazine it
-is approximately $3550$. For a solid composite propellant with average
+approximately $162000$. For nitrogen-tetroxide with monomethylhydrazine it
+is approximately $355000$. For a solid composite propellant with average
 density $1780$ it is approximately $470000$ seconds times kilograms per
 cubic meter.
 

@@ -78,7 +78,7 @@ with $\lambda^{\text{failure}}(r_n)$ the hazard rate for the rung $r_n$ that dep
 The rung-value expectation across the rung sequence can be written as
 
 $$
-E[V^{\text{total}}] = \sum_{n=1}^{N} P(r_n \text{ completed}) \cdot V^{\text{rung}}(r_n) \cdot \prod_{k<n} P(r_k \text{ completed})
+E[V^{\text{total}}] = \sum_{n=1}^{N} P(r_n \text{ completed} \mid r_{k<n} \text{ completed}) \cdot V^{\text{rung}}(r_n) \cdot \prod_{k<n} P(r_k \text{ completed} \mid r_{j<k} \text{ completed})
 \tag{7}
 $$
 
@@ -342,7 +342,7 @@ with the Falcon 1 liftoff TWR of approximately 1.16 reflecting the mission-margi
 The payload-fraction identity can be written as
 
 $$
-\pi^{\text{payload}} = \frac{m^{\text{payload}}}{m_0} = \prod_{i=1}^{n^{\text{stages}}} \left(\frac{m_f^{(i)}}{m_0^{(i)}}\right)
+\pi^{\text{payload}} = \frac{m^{\text{payload}}}{m_0} = \frac{m_0^{(2)}}{m_0^{(1)}} \cdots \frac{m^{\text{payload}}}{m_0^{(n^{\text{stages}})}}
 \tag{33}
 $$
 
@@ -387,14 +387,14 @@ The Falcon 9 v1.0 configuration comprises the two-stage kerosene-and-liquid-oxyg
 
 The Falcon 9 v1.1 configuration comprises the stretched two-stage arrangement with the nine Merlin 1D first-stage engines in the octaweb structure and the single Merlin 1D Vacuum second-stage engine. The vehicle mass yields the compact statement of approximately 505,000 kilograms at liftoff with the approximately 13,150-kilogram payload capability to low-Earth orbit. The Falcon 9 v1.1 first flight occurred on September 29 2013.
 
-The Falcon 9 v1.0 to v1.1 mass-fraction improvement takes the form
+The Falcon 9 v1.0 to v1.1 payload-capability improvement takes the form
 
 $$
-\pi^{\text{improvement}}_{v1.0 \to v1.1} = \frac{\pi^{\text{payload}}_{v1.1}}{\pi^{\text{payload}}_{v1.0}} \approx 1.26
+\pi^{\text{improvement}}_{v1.0 \to v1.1} = \frac{m^{\text{payload}}_{v1.1}}{m^{\text{payload}}_{v1.0}} \approx 1.26
 \tag{37}
 $$
 
-reflecting the approximately 26 percent payload-fraction improvement from the v1.0 to v1.1 configuration transition supported by the Merlin 1C to Merlin 1D engine transition.
+reflecting the approximately 26 percent payload-capability improvement from the v1.0 to v1.1 configuration transition supported by the Merlin 1C to Merlin 1D engine transition.
 
 The Falcon 9 Full Thrust configuration comprises the December 22 2015 debut arrangement with the first successful first-stage landing on the Landing Zone 1 at Cape Canaveral. The vehicle mass allows the brief statement of approximately 549,000 kilograms at liftoff with the approximately 22,800-kilogram payload capability to low-Earth orbit in the expendable configuration or approximately 15,600 kilograms in the reusable arrangement.
 
@@ -547,10 +547,10 @@ $$
 
 reflecting the 33-engine Super Heavy first-stage configuration.
 
-The full-flow-staged-combustion cycle chamber-pressure identity may be written
+The full-flow-staged-combustion cycle chamber-pressure bound may be written
 
 $$
-P^{\text{chamber}}_{\text{FFSC}} = P^{\text{oxidizer-turbopump}}_{\text{outlet}} = P^{\text{fuel-turbopump}}_{\text{outlet}}
+P^{\text{chamber}}_{\text{FFSC}} < \min\!\left(P^{\text{oxidizer-turbopump}}_{\text{outlet}}, \; P^{\text{fuel-turbopump}}_{\text{outlet}}\right)
 \tag{51}
 $$
 
@@ -954,10 +954,10 @@ S(t) = \exp\!\left(-\int_0^t \lambda^{\text{failure}}(r_n(s)) \, ds\right)
 $$
 
 *Equation 7, Bespoke Expected Value of a Rung Sequence.*
-The article weights each rung value by its completion probability and by the product of the completion probabilities of the earlier rungs.
+The article weights each rung value by its completion probability given the earlier rungs and by the product of the conditional completion probabilities of the earlier rungs, which by the chain rule is the probability of completing the rung.
 
 $$
-E[V^{\text{total}}] = \sum_{n=1}^{N} P(r_n \text{ completed}) \cdot V^{\text{rung}}(r_n) \cdot \prod_{k<n} P(r_k \text{ completed})
+E[V^{\text{total}}] = \sum_{n=1}^{N} P(r_n \text{ completed} \mid r_{k<n} \text{ completed}) \cdot V^{\text{rung}}(r_n) \cdot \prod_{k<n} P(r_k \text{ completed} \mid r_{j<k} \text{ completed})
 \tag{7}
 $$
 
@@ -1172,10 +1172,10 @@ TWR = \frac{F^{\text{thrust}}}{m_0 \cdot g_0}
 $$
 
 **Equation 33, Payload Fraction of a Staged Vehicle.**
-The payload fraction is payload mass over liftoff mass, which the article writes as a product of stage mass ratios.
+The payload fraction is payload mass over liftoff mass, which telescopes into the product of the ratios of each stage's liftoff mass to that of the stage below.
 
 $$
-\pi^{\text{payload}} = \frac{m^{\text{payload}}}{m_0} = \prod_{i=1}^{n^{\text{stages}}} \left(\frac{m_f^{(i)}}{m_0^{(i)}}\right)
+\pi^{\text{payload}} = \frac{m^{\text{payload}}}{m_0} = \frac{m_0^{(2)}}{m_0^{(1)}} \cdots \frac{m^{\text{payload}}}{m_0^{(n^{\text{stages}})}}
 \tag{33}
 $$
 
@@ -1203,11 +1203,11 @@ $$
 \tag{36}
 $$
 
-**Equation 37, Falcon 9 Version 1.1 Payload Fraction Improvement.**
-The ratio of the payload fractions of the two versions is evaluated at about 1.26 from published figures.
+**Equation 37, Falcon 9 Version 1.1 Payload Capability Improvement.**
+The ratio of the payload masses to low Earth orbit of the two versions is evaluated at about 1.26 from published figures.
 
 $$
-\pi^{\text{improvement}}_{v1.0 \to v1.1} = \frac{\pi^{\text{payload}}_{v1.1}}{\pi^{\text{payload}}_{v1.0}} \approx 1.26
+\pi^{\text{improvement}}_{v1.0 \to v1.1} = \frac{m^{\text{payload}}_{v1.1}}{m^{\text{payload}}_{v1.0}} \approx 1.26
 \tag{37}
 $$
 
@@ -1319,11 +1319,11 @@ F^{\text{SS}}_{\text{total}} = 33 \cdot F^{\text{Raptor 2}}_{\text{sea-level}} \
 \tag{50}
 $$
 
-*Equation 51, Bespoke Equal Pressure Idealisation of Full-Flow Staged Combustion.*
-The article equates chamber pressure with the outlet pressure of each turbopump, which neglects the pressure drops through the preburners and injectors.
+*Equation 51, Bespoke Chamber Pressure Bound of Full-Flow Staged Combustion.*
+Chamber pressure lies below the outlet pressure of each turbopump, because the flow loses pressure through the preburners, turbines and injectors.
 
 $$
-P^{\text{chamber}}_{\text{FFSC}} = P^{\text{oxidizer-turbopump}}_{\text{outlet}} = P^{\text{fuel-turbopump}}_{\text{outlet}}
+P^{\text{chamber}}_{\text{FFSC}} < \min\!\left(P^{\text{oxidizer-turbopump}}_{\text{outlet}}, \; P^{\text{fuel-turbopump}}_{\text{outlet}}\right)
 \tag{51}
 $$
 

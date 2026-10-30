@@ -68,7 +68,7 @@ tag = 10
 class = "standard"
 title = "Product Rule under Mutual Independence"
 gloss = "The joint probability of all conditions equals the product of their marginal probabilities under mutual independence, a stronger requirement than pairwise independence."
-digest = "445e65fc31433cdb"
+digest = "3c0b75ebd58f185f"
 
 [[equation]]
 tag = 11
@@ -334,7 +334,7 @@ tag = 48
 class = "bespoke"
 title = "Bespoke Projection Horizon against Venture Age"
 gloss = "The article compares a projection horizon of twenty-four years with a venture age of about twenty-four years at the snapshot."
-digest = "3c5d7505d4d2cdeb"
+digest = "79a1faaf70af9bf8"
 
 [[equation]]
 tag = 49

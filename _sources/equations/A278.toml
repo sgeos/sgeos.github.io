@@ -46,9 +46,9 @@ digest = "f9170a986acb537b"
 tag = 6
 class = "bespoke"
 title = "Bespoke Rating-Shift Model"
-gloss = "The article writes the observed rating change as the authentic change plus the injected fake reviews' average rating weighted by their share of all reviews."
+gloss = "The article writes the observed rating change as the authentic change plus the gap between the injected fake reviews' average rating and the prior average, weighted by their share of all reviews."
 cite = []
-digest = "e63bb016540ec317"
+digest = "81f2b6eb7a63b92c"
 
 [[equation]]
 tag = 7
@@ -270,9 +270,9 @@ digest = "6dacfd21da9eb58a"
 tag = 34
 class = "bespoke"
 title = "Bespoke Marginal PageRank Return per Inbound Link"
-gloss = "The article approximates the gain from one more inbound link as the damping factor over the enlarged inbound count, times the average PageRank of the inbound set."
+gloss = "The article approximates the gain from one more inbound link as the damping factor times the average over the inbound set of each page's PageRank divided by its outbound link count."
 cite = []
-digest = "5aca91503a16f905"
+digest = "e63bb62755d50907"
 
 [[equation]]
 tag = 35

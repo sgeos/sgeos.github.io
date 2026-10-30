@@ -905,11 +905,11 @@ total working memory
 respects
 the compositional bound
 of
-article A196,
+article A191,
 
 $$
 M_{\text{Keleusma}}
-= \sum_{i=1}^{5} M_i + \sum_{i=1}^{4} b_i,
+\le \sum_{i=1}^{5} M_i + \sum_{i=1}^{4} b_i,
 \tag{7}
 $$
 
@@ -1616,7 +1616,7 @@ The article applies its compositional memory budget to Keleusma, summing the wor
 
 $$
 M_{\text{Keleusma}}
-= \sum_{i=1}^{5} M_i + \sum_{i=1}^{4} b_i,
+\le \sum_{i=1}^{5} M_i + \sum_{i=1}^{4} b_i,
 \tag{7}
 $$
 

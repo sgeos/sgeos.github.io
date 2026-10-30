@@ -48,7 +48,7 @@ class = "standard"
 title = "Electric Breguet Endurance Equation"
 gloss = "The electric form of the Breguet endurance equation gives the endurance of a battery aircraft in steady level flight, favouring the operating point that maximises the ratio of the lift coefficient to the power three halves over the drag coefficient."
 cite = ["ref_breguet"]
-digest = "c22bc1b10d9ebce8"
+digest = "c239cb721aa98a54"
 
 [[equation]]
 tag = 7
@@ -80,7 +80,7 @@ class = "standard"
 title = "Hover Power per Unit Mass"
 gloss = "Substituting the weight for thrust shows the hover power per unit mass scaling with the square root of disk loading."
 cite = []
-digest = "6f18c0078069f11b"
+digest = "b3311115d4d687f1"
 
 [[equation]]
 tag = 11

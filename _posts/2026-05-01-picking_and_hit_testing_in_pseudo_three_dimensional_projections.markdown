@@ -339,7 +339,7 @@ A_{\text{belt-scroll}} = z\begin{bmatrix} 1 & 0 \\ 0 & -\beta \end{bmatrix},
 $$
 
 singular values $z$ and $\beta z$,
-and condition number $\kappa = 1/\beta$.
+and condition number $\kappa = 1/\beta$ for $\beta \leq 1$.
 For typical $\beta = 1/2$,
 $\kappa = 2$.
 
@@ -612,7 +612,7 @@ with extent $\lvert u \rvert \leq 32$, $\lvert v \rvert \leq 32$.
 The sprite's current screen anchor is $\mathbf{c} = (160, 140)$.
 The sprite's current scale factor is $s = 2$.
 The sprite's current orientation is $\theta = \pi/6$
-matching 30 degrees counterclockwise rotation.
+matching 30 degrees clockwise rotation.
 
 The Super Scope reports a hit at screen pixel $\mathbf{p}\_{\text{screen}} = (200, 150)$.
 The cartridge software

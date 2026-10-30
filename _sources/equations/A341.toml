@@ -318,9 +318,9 @@ digest = "ce09427660be1270"
 tag = 40
 class = "standard"
 title = "Engine-Out Trim Angle with Windmilling Drag"
-gloss = "Adding the windmilling drag of the dead engine to the asymmetry raises the tangent of the trim angle in proportion to the drag over the live thrust."
+gloss = "Adding the windmilling drag of the dead engine to the asymmetry raises the tangent of the trim angle in proportion to the drag over the axial component of the live thrust."
 cite = []
-digest = "5c0c2de889b2ebe3"
+digest = "5ae34de7036a375a"
 
 [[equation]]
 tag = 41

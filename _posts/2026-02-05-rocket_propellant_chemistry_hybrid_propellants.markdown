@@ -141,7 +141,7 @@ $$
 $$
 
 The stoichiometric oxidizer-to-fuel mass ratio for this reaction is
-approximately $6.5$ to $1$. Rocket motors using HTPB with liquid oxygen
+approximately $3.25$ to $1$. Rocket motors using HTPB with liquid oxygen
 operate at $O/F$ ratios of $2.0$ to $2.5$, well fuel-rich for the same
 molecular-weight maximization argument that [the article on cryogenic
 liquid propellants][related_post_a219] establishes. Chamber temperatures

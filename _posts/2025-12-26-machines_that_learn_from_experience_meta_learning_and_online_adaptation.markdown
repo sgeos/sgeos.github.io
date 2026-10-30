@@ -27,7 +27,7 @@ $$
 with the algorithm $\mathcal{A}$ fixed by human design. Meta-learning parameterizes the algorithm $\mathcal{A}$ by meta-parameters $\phi$ and optimizes those parameters across a distribution of tasks,
 
 $$
-\phi^* = \arg\max_\phi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\mathcal{A}_\phi(\mathcal{D}_{\mathcal{T}}))\right]
+\phi^* = \arg\min_\phi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\mathcal{A}_\phi(\mathcal{D}_{\mathcal{T}}))\right]
 \tag{2}
 $$
 
@@ -344,7 +344,7 @@ $$
 \tag{29}
 $$
 
-where $J_{\text{outer}}$ is a meta-objective (typically the return over a validation trajectory) and $\theta_\gamma$ are the policy parameters produced by the inner learning process with the current $\gamma$. The chain rule expansion of the meta-gradient exposes its computational structure,
+where $J_{\text{outer}}$ is a meta-objective (typically the negated return over a validation trajectory) and $\theta_\gamma$ are the policy parameters produced by the inner learning process with the current $\gamma$. The chain rule expansion of the meta-gradient exposes its computational structure,
 
 $$
 \nabla_\gamma J_{\text{outer}} = \frac{\partial J_{\text{outer}}}{\partial \theta_\gamma} \cdot \frac{\partial \theta_\gamma}{\partial \gamma}
@@ -683,7 +683,7 @@ Meta-learning chooses the meta-parameters of the learning algorithm by optimisin
 [Hospedales et al. 2022][research_hospedales_et_al_2022]
 
 $$
-\phi^* = \arg\max_\phi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\mathcal{A}_\phi(\mathcal{D}_{\mathcal{T}}))\right]
+\phi^* = \arg\min_\phi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\mathcal{A}_\phi(\mathcal{D}_{\mathcal{T}}))\right]
 \tag{2}
 $$
 

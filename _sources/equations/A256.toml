@@ -232,7 +232,7 @@ class = "standard"
 title = "Dreamer Actor Gradient"
 gloss = "The actor ascends the imagined return and terminal value by differentiating through the learned dynamics, plus an entropy bonus."
 cite = ["research_hafner_lillicrap_ba_norouzi_2020_dreamer"]
-digest = "025123dfcf6beab8"
+digest = "4eede9805d626235"
 
 [[equation]]
 tag = 30
@@ -264,7 +264,7 @@ class = "standard"
 title = "Stochastic Value Gradient"
 gloss = "The policy gradient is obtained by back-propagating reward and value gradients through a differentiable dynamics model."
 cite = ["research_heess_wayne_silver_lillicrap_erez_tassa_2015"]
-digest = "14de25cd87c8fdd2"
+digest = "1c8b8c2b84ed32aa"
 
 [[equation]]
 tag = 34
@@ -320,7 +320,7 @@ class = "standard"
 title = "Predictive Coding Activity Dynamics"
 gloss = "Latent activity descends the prediction errors that it influences, pulled toward its own prediction and pushed to explain the errors of the adjacent level."
 cite = ["research_rao_ballard_1999"]
-digest = "87b499f18b2ec4e3"
+digest = "b584c3044937e1e1"
 
 [[equation]]
 tag = 41

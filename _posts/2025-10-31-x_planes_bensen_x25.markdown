@@ -708,7 +708,7 @@ $$
 and substituting the descent rate turns it into a function of weight and radius alone,
 
 $$
-E_{req} = \frac{(1.8)^2}{2 g \rho \pi} \cdot \frac{W^2}{R^2}
+E_{req} = \frac{(1.8)^2}{4 g \rho \pi} \cdot \frac{W^2}{R^2}
 \tag{40}
 $$
 
@@ -716,7 +716,7 @@ $$
 Dividing one by the other gives a margin whose only free quantity is the assumed blade mass,
 
 $$
-\frac{E_{avail}}{E_{req}} = \frac{N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2 W^2}
+\frac{E_{avail}}{E_{req}} = \frac{2 N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2 W^2}
 \tag{41}
 $$
 
@@ -733,7 +733,7 @@ $$
 the margin to unity asks what the blades would have to weigh,
 
 $$
-m_b = \frac{3 (1.8)^2 W^2}{N V_{tip}^2 g \rho \pi R^2}
+m_b = \frac{3 (1.8)^2 W^2}{2 N V_{tip}^2 g \rho \pi R^2}
 \tag{42}
 $$
 
@@ -1632,7 +1632,7 @@ $$
 Substituting the measured descent ratio of 1.8 and the actuator-disc induced velocity makes the required energy go as the square of weight over the square of radius.
 
 $$
-E_{req} = \frac{(1.8)^2}{2 g \rho \pi} \cdot \frac{W^2}{R^2}
+E_{req} = \frac{(1.8)^2}{4 g \rho \pi} \cdot \frac{W^2}{R^2}
 \tag{40}
 $$
 
@@ -1640,7 +1640,7 @@ $$
 The article defines the margin as the stored energy of uniform-rod blades over the energy the flare requires.
 
 $$
-\frac{E_{avail}}{E_{req}} = \frac{N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2 W^2}
+\frac{E_{avail}}{E_{req}} = \frac{2 N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2 W^2}
 \tag{41}
 $$
 
@@ -1648,7 +1648,7 @@ $$
 Inverting the margin at unity gives the blade mass a rotor would need, 2.5 pounds a blade for the X-25B and 21 for the Stowable Aircrew Vehicle Escape Rotorseat, or SAVER, against the assumed 12.
 
 $$
-m_b = \frac{3 (1.8)^2 W^2}{N V_{tip}^2 g \rho \pi R^2}
+m_b = \frac{3 (1.8)^2 W^2}{2 N V_{tip}^2 g \rho \pi R^2}
 \tag{42}
 $$
 

@@ -228,7 +228,7 @@ The asymmetry has several compounding sources. The mean occupancy time of a fixt
 Equal floor area translated into equal fixture count sets $c_m = c_w = c$. Under equal fixture count the female offered load $a_w = \lambda / \mu_w$ exceeds the male offered load $a_m = \lambda / \mu_m$, so that the female utilization $\rho_w = a_w / c$ exceeds the male utilization $\rho_m = a_m / c$. Because the expected wait is increasing and convex in utilization, the female expected wait exceeds the male expected wait, and the excess grows sharply as the common provision approaches the female saturation point. The ratio of the female to the male expected wait under equal provision is
 
 $$
-\frac{W_{q,w}}{W_{q,m}} = \frac{C(c, a_w)}{C(c, a_m)} \cdot \frac{1 - \rho_m}{1 - \rho_w}
+\frac{W_{q,w}}{W_{q,m}} = \frac{C(c, a_w)}{C(c, a_m)} \cdot \frac{\mu_m}{\mu_w} \cdot \frac{1 - \rho_m}{1 - \rho_w}
 \tag{21}
 $$
 
@@ -984,7 +984,7 @@ $$
 The article forms the ratio of the two Erlang-C waits under equal fixture count and equal arrival rate, so that the convexity of the wait in utilisation amplifies the service-time asymmetry.
 
 $$
-\frac{W_{q,w}}{W_{q,m}} = \frac{C(c, a_w)}{C(c, a_m)} \cdot \frac{1 - \rho_m}{1 - \rho_w}
+\frac{W_{q,w}}{W_{q,m}} = \frac{C(c, a_w)}{C(c, a_m)} \cdot \frac{\mu_m}{\mu_w} \cdot \frac{1 - \rho_m}{1 - \rho_w}
 \tag{21}
 $$
 

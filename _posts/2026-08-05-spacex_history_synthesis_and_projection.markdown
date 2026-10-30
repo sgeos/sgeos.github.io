@@ -141,7 +141,7 @@ $$
 which is the condition the notation silently asserts. They are not independent. The failure is not a matter of degree, since even weak dependence invalidates the product form as a probability statement, admitting the compact requirement
 
 $$
-P\!\left( \Phi = 1 \right) = \prod_k P\!\left( \phi_k = 1 \right) \iff \text{mutual independence across all subsets}
+P\!\left( \Phi = 1 \right) = \prod_k P\!\left( \phi_k = 1 \right) \Leftarrow \text{mutual independence across all subsets}
 \tag{10}
 $$
 
@@ -203,7 +203,7 @@ P\!\left( \Phi = 1 \right) \; \approx \; q^{\,d} \qquad \text{and not} \qquad \p
 \tag{16}
 $$
 
-so the overstatement factor is approximately $q^{\,10-d}$, which is large for small $q$ and moderate $d$. The conclusion the article draws is uncomfortable for the series' own framing. The singular-conjunction thesis overstates the rarity of the configuration, and the correct reading is not that ten independent miracles coincided but that a smaller number of underlying properties generated most of the ten conditions.
+so the overstatement factor is approximately $q^{\,d-10}$, which is large for small $q$ and moderate $d$. The conclusion the article draws is uncomfortable for the series' own framing. The singular-conjunction thesis overstates the rarity of the configuration, and the correct reading is not that ten independent miracles coincided but that a smaller number of underlying properties generated most of the ten conditions.
 
 The article does not therefore abandon the thesis. It restates it. The defensible claim admits the compact separation
 
@@ -574,10 +574,10 @@ $$
 
 with the largest term identifying where a reader who disagrees should direct the disagreement. The article states the assumption set for each projection and marks which assumption each projection is most sensitive to, which is the useful content of a projection exercise and is generally the part omitted. The observable series against which any of these projections could later be checked are the launch and licensing record at the [Office of Commercial Space Transportation][ref_faa_ast], the authorization record at the [Federal Communications Commission filing system][ref_fcc_filings], the award record at [USAspending][ref_usaspending], and the sector reconstructions at [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], and [Payload Research][ref_payload_research]. A projection whose falsifying data are not identified is not falsifiable in practice, and the article identifies them.
 
-The projection horizon is deliberately long enough that the exercise is not a forecast. Twenty-four years exceeds the period the venture has existed. The horizon exceeds the venture's own age, admitting the compact comparison
+The projection horizon is deliberately long enough that the exercise is not a forecast. Twenty-four years matches the period the venture has existed. The horizon equals the venture's own age, admitting the compact comparison
 
 $$
-T^{\text{projection}} = 24 \; \text{years} \; > \; T^{\text{venture age}} \approx 24 \; \text{years at the snapshot}
+T^{\text{projection}} = 24 \; \text{years} \; \approx \; T^{\text{venture age}} \approx 24 \; \text{years at the snapshot}
 \tag{48}
 $$
 
@@ -1063,7 +1063,7 @@ $$
 The joint probability of all conditions equals the product of their marginal probabilities under mutual independence, a stronger requirement than pairwise independence.
 
 $$
-P\!\left( \Phi = 1 \right) = \prod_k P\!\left( \phi_k = 1 \right) \iff \text{mutual independence across all subsets}
+P\!\left( \Phi = 1 \right) = \prod_k P\!\left( \phi_k = 1 \right) \Leftarrow \text{mutual independence across all subsets}
 \tag{10}
 $$
 
@@ -1367,7 +1367,7 @@ $$
 The article compares a projection horizon of twenty-four years with a venture age of about twenty-four years at the snapshot.
 
 $$
-T^{\text{projection}} = 24 \; \text{years} \; > \; T^{\text{venture age}} \approx 24 \; \text{years at the snapshot}
+T^{\text{projection}} = 24 \; \text{years} \; \approx \; T^{\text{venture age}} \approx 24 \; \text{years at the snapshot}
 \tag{48}
 $$
 

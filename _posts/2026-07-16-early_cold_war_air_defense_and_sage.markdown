@@ -85,7 +85,7 @@ A_{\text{dual}} = 1 - (1 - R)^2
 \tag{6}
 $$
 
-which for per-machine $R = 0.95$ gives system availability of 0.9975, or approximately 99 to 99.5 percent operational availability at the Direction Center level. The 46 total AN/FSQ-7 machines constituted the largest single deployment of computing equipment before the commercial computing wave of the late 1960s.
+which for per-machine $R = 0.95$ gives system availability of 0.9975, or approximately 99.75 percent operational availability at the Direction Center level. The 46 total AN/FSQ-7 machines constituted the largest single deployment of computing equipment before the commercial computing wave of the late 1960s.
 
 The Direction Centers were interconnected by dedicated telephone circuits carrying digital data at rates of approximately 1300 bits per second, using modems specifically designed for the SAGE application by Bell Telephone Laboratories. These modems were the first commercial-scale digital data modems and directly established the technology that later became the standard for computer communications. The direction-center network topology provided cross-boundary coordination when tracks crossed sector boundaries, aggregate situation display for higher command levels, and mutual backup when individual centers were unavailable.
 

@@ -144,7 +144,7 @@ class = "bespoke"
 title = "Bespoke Allocation Pointer and Its Advance"
 gloss = "The article writes the pointer as the running maximum of the design numbers allocated so far and defines its advance as the change in that maximum at each allocation."
 cite = []
-digest = "eba859ba1719c690"
+digest = "ec0e962549bd5909"
 
 [[equation]]
 tag = 19
@@ -152,7 +152,7 @@ class = "bespoke"
 title = "Bespoke Zero Advance Below the Pointer"
 gloss = "The pointer fails to advance exactly when the number allocated is no greater than the previous running maximum, which follows from the article's definition of the pointer."
 cite = []
-digest = "3f6f2a3e3fd7c47f"
+digest = "fa9fceda7c2e3e6c"
 
 [[equation]]
 tag = 20
@@ -240,7 +240,7 @@ class = "bespoke"
 title = "Bespoke Zero Conditional Entropy of an In-Sequence Allocation"
 gloss = "The article states that a design number carries no information given its history whenever it is one above the previous pointer, writing the absence of choice as a conditional entropy of zero."
 cite = []
-digest = "bb6faf01a031af69"
+digest = "ec29d00c82f9984d"
 
 [[equation]]
 tag = 31

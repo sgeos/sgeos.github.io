@@ -392,7 +392,7 @@ class = "standard"
 title = "Reduced Frequency, Flutter Speed Index and Mass Ratio"
 gloss = "The reduced frequency, the flutter speed index and the mass ratio are the similarity parameters of the flutter problem."
 cite = ["research_theodorsen_1935", "research_garrick_reed_1981"]
-digest = "b9f99192abdb50e5"
+digest = "56214d824aafd270"
 
 [[equation]]
 tag = 50
@@ -608,7 +608,7 @@ class = "standard"
 title = "Short-Period and Phugoid Frequencies"
 gloss = "The short-period frequency is approximated from the dimensional pitch and heave derivatives, and to first order the phugoid frequency is the square root of two times gravity divided by speed."
 cite = ["ref_phugoid"]
-digest = "8912774dde4c7aa4"
+digest = "815c9f67828c64a9"
 
 [[equation]]
 tag = 77
@@ -808,7 +808,7 @@ class = "standard"
 title = "Mach Number Sensitivity to the Measured Pressure Ratio"
 gloss = "The relative error in inferred Mach number is a Mach-dependent factor times the relative error in the measured pressure ratio."
 cite = []
-digest = "f8ed357069be955a"
+digest = "e69239c1b6dded07"
 
 [[equation]]
 tag = 102
@@ -1008,7 +1008,7 @@ class = "standard"
 title = "Augmented Dutch Roll Damping Ratio"
 gloss = "The Dutch roll damping ratio is approximated from the augmented yaw damping derivative, the dynamic pressure, the geometry and the Dutch roll frequency."
 cite = []
-digest = "6ec9dc45aecc3adf"
+digest = "c2e7ed04a2813083"
 
 [[symbol]]
 tex = 'M_\infty'

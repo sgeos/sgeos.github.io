@@ -61,7 +61,7 @@ t_{1/2} = \frac{\ln 2}{\beta}
 \tag{4}
 $$
 
-years. Empirical estimates of $\beta$ across the industrial-country group during the twentieth century cluster around two to three percent per year, producing half-lives on the order of twenty-five to forty years. The estimate is consistent with the historical record of continental follower catch-up on Britain, which took roughly one to two generations to substantially close the mid-nineteenth-century gap for the successful followers.
+years. Empirical estimates of $\beta$ across the industrial-country group during the twentieth century cluster around two to three percent per year, producing half-lives on the order of twenty-three to thirty-five years. The estimate is consistent with the historical record of continental follower catch-up on Britain, which took roughly one to two generations to substantially close the mid-nineteenth-century gap for the successful followers.
 
 ## Belgium, The First Continental Follower
 

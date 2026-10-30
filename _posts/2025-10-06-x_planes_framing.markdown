@@ -968,14 +968,14 @@ and its variation with Mach number is one of the central difficulties of transon
 The two longitudinal dynamic modes are the short period and the [phugoid][ref_phugoid]. The short period frequency for a conventional configuration is approximately
 
 $$
-\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}
+\omega_{sp} \approx \sqrt{\frac{Z_\alpha M_q}{V} - M_\alpha}
 \tag{115}
 $$
 
 in the standard dimensional stability derivative notation, with damping ratio
 
 $$
-\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}
+\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \, \omega_{sp}}
 \tag{116}
 $$
 
@@ -2561,7 +2561,7 @@ $$
 The short-period frequency is approximated from the dimensional pitch and heave stability derivatives.
 
 $$
-\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}
+\omega_{sp} \approx \sqrt{\frac{Z_\alpha M_q}{V} - M_\alpha}
 \tag{115}
 $$
 
@@ -2569,7 +2569,7 @@ $$
 The short-period damping ratio is approximated from the pitch damping, the angle of attack rate derivative and the heave derivative.
 
 $$
-\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}
+\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \, \omega_{sp}}
 \tag{116}
 $$
 

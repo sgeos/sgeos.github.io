@@ -320,7 +320,7 @@ class = "standard"
 title = "Density Ratio of the Standard Atmosphere"
 gloss = "The standard atmosphere gives the density ratio as a power law of temperature in the troposphere and an exponential decay in the isothermal layer above it."
 cite = ["ref_us_standard_atmosphere", "ref_icao_atmosphere"]
-digest = "b0d6ff4f4e052ca2"
+digest = "79470a3615dc647f"
 
 [[symbol]]
 tex = '\dot{d}'

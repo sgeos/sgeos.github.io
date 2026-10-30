@@ -482,9 +482,9 @@ The series methodology combined primary source documentation with systematic sch
 
 $$
 \begin{aligned}
-N_{\text{aggregate series primary references, cumulative}} &\approx 640 \\
-N_{\text{aggregate series book references, cumulative}} &\approx 950 \\
-N_{\text{aggregate series research references, cumulative}} &\approx 15 \\
+N_{\text{aggregate series primary references, cumulative}} &\approx 610 \\
+N_{\text{aggregate series book references, cumulative}} &\approx 1540 \\
+N_{\text{aggregate series research references, cumulative}} &\approx 37 \\
 N_{\text{articles employing four-pass workflow (initial draft, equation density, reference density, publication review)}} &= 11 \\
 N_{\text{cross-references within series}} &\gtrsim 200
 \end{aligned}
@@ -892,9 +892,9 @@ Cumulative reference counts, the number of articles that followed the four-pass 
 
 $$
 \begin{aligned}
-N_{\text{aggregate series primary references, cumulative}} &\approx 640 \\
-N_{\text{aggregate series book references, cumulative}} &\approx 950 \\
-N_{\text{aggregate series research references, cumulative}} &\approx 15 \\
+N_{\text{aggregate series primary references, cumulative}} &\approx 610 \\
+N_{\text{aggregate series book references, cumulative}} &\approx 1540 \\
+N_{\text{aggregate series research references, cumulative}} &\approx 37 \\
 N_{\text{articles employing four-pass workflow (initial draft, equation density, reference density, publication review)}} &= 11 \\
 N_{\text{cross-references within series}} &\gtrsim 200
 \end{aligned}

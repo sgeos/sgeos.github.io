@@ -291,7 +291,7 @@ $$
 updated every $c$ primitive steps and pooled across neighboring updates. The worker receives an intrinsic reward for producing state changes aligned with the manager's directional sub-goal,
 
 $$
-r_t^{\text{FuN}} = \frac{1}{c} \sum_{i=1}^{c} \cos\!\left(s_{t+i} - s_t, g_{t-i}\right)
+r_t^{\text{FuN}} = \frac{1}{c} \sum_{i=1}^{c} \cos\!\left(s_t - s_{t-i}, g_{t-i}\right)
 \tag{28}
 $$
 
@@ -410,7 +410,7 @@ The option discovery problem is the algorithmic construction of useful options w
 
 Bottleneck-state-based methods identify states through which many trajectories pass and define options that reach these bottleneck states. The intuition is that bottlenecks correspond to gateway states that must be traversed to reach many downstream regions, so options that reach bottlenecks provide broad utility. Approaches include the diverse-density method of [McGovern and Barto 2001][research_mcgovern_barto_2001] which identifies subgoal candidates as states appearing on many successful trajectories but few unsuccessful ones, the Q-Cut algorithm of [Menache et al. 2002][research_menache_mannor_shimkin_2002] which uses graph min-cut to find bottleneck states, and the relative-novelty framework of [Şimşek and Barto 2004][research_simsek_barto_2004] that identifies states whose visitation strongly precedes visitation of otherwise-rare states. [Wolfe and Barto 2005][research_wolfe_barto_2005] local graph partitioning provided an alternative graph-based subgoal-discovery method.
 
-Successor-feature-based methods use the successor representation of [Dayan 1993][research_dayan_1993_hrl] to identify options that reach diverse regions of the state space. Options-of-Interest of Barreto et al 2019 provides one systematic instantiation. Eigenoption discovery of [Machado et al. 2018][research_machado_bellemare_bowling_2018_eigenoptions] uses the eigenfunctions of the successor representation to define options. The graph-Laplacian formulation constructs the state-transition matrix
+Successor-feature-based methods use the successor representation of [Dayan 1993][research_dayan_1993_hrl] to identify options that reach diverse regions of the state space. Options-of-Interest of Barreto et al 2019 provides one systematic instantiation. Eigenoption discovery of [Machado et al. 2018][research_machado_bellemare_bowling_2018_eigenoptions] uses the eigenfunctions of the successor representation to define options. The graph-Laplacian formulation constructs the graph Laplacian
 
 $$
 L = D - W
@@ -798,7 +798,7 @@ The worker is rewarded by the mean cosine similarity between latent state change
 [Vezhnevets et al. 2017][research_vezhnevets_et_al_2017]
 
 $$
-r_t^{\text{FuN}} = \frac{1}{c} \sum_{i=1}^{c} \cos\!\left(s_{t+i} - s_t, g_{t-i}\right)
+r_t^{\text{FuN}} = \frac{1}{c} \sum_{i=1}^{c} \cos\!\left(s_t - s_{t-i}, g_{t-i}\right)
 \tag{28}
 $$
 

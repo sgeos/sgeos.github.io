@@ -810,7 +810,7 @@ $$
 Carrying out the differentiation on the two-term polar makes the balance explicit, since the wave-drag term falls with sweep and the induced term rises,
 
 $$
-\frac{\partial C_D}{\partial \Lambda} = \frac{\partial C_{D0}}{\partial \Lambda} + \frac{C_L^2}{\pi e} \frac{\partial}{\partial \Lambda} \left( \frac{1}{A(\Lambda)} \right) = 0
+\frac{\partial C_D}{\partial \Lambda} = \frac{\partial C_{D0}}{\partial \Lambda} + \frac{C_L^2}{\pi} \frac{\partial}{\partial \Lambda} \left( \frac{1}{A(\Lambda) \, e(\Lambda)} \right) = 0
 \tag{97}
 $$
 
@@ -1995,10 +1995,10 @@ $$
 $$
 
 *Equation 97, Bespoke Expanded Optimum Sweep Condition.*
-Differentiating the polar with the span efficiency held constant balances the fall of zero-lift drag against the rise of induced drag with sweep.
+Differentiating the polar balances the fall of zero-lift drag against the rise of induced drag with sweep.
 
 $$
-\frac{\partial C_D}{\partial \Lambda} = \frac{\partial C_{D0}}{\partial \Lambda} + \frac{C_L^2}{\pi e} \frac{\partial}{\partial \Lambda} \left( \frac{1}{A(\Lambda)} \right) = 0
+\frac{\partial C_D}{\partial \Lambda} = \frac{\partial C_{D0}}{\partial \Lambda} + \frac{C_L^2}{\pi} \frac{\partial}{\partial \Lambda} \left( \frac{1}{A(\Lambda) \, e(\Lambda)} \right) = 0
 \tag{97}
 $$
 

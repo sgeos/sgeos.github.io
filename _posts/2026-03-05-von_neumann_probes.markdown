@@ -735,11 +735,11 @@ $$
 For Freitas's REPRO parameters
 of $k = 10$ and $\tau = 500$ years,
 the doubling time
-is approximately 65 years.
+is approximately 150 years.
 For an optimistic modern estimate
 of $k = 10$ and $\tau = 50$ years,
 the doubling time
-is approximately 6.5 years.
+is approximately 15 years.
 
 **Galaxy colonization time.**
 The time to colonize

@@ -265,7 +265,7 @@ The
 gives this form.
 
 $$
-E = \eta_{total} \frac{1}{g} \frac{C_{L}^{3/2}}{C_{D}} \sqrt{\frac{2}{\rho S}} \frac{1}{\sqrt{m}} E_{batt}
+E = \eta_{total} \frac{1}{g^{3/2}} \frac{C_{L}^{3/2}}{C_{D}} \sqrt{\frac{\rho S}{2}} \frac{1}{m^{3/2}} E_{batt}
 \tag{6}
 $$
 
@@ -366,7 +366,7 @@ of disk loading,
 namely thrust per unit disk area.
 
 $$
-\frac{P_{hover}}{m} = \frac{g^{3/2}}{FM} \sqrt{\frac{m}{2 \rho A}} = \frac{g^{3/2}}{FM} \sqrt{\frac{DL}{2 \rho}}
+\frac{P_{hover}}{m} = \frac{g^{3/2}}{FM} \sqrt{\frac{m}{2 \rho A}} = \frac{g}{FM} \sqrt{\frac{DL}{2 \rho}}
 \tag{10}
 $$
 
@@ -1797,7 +1797,7 @@ The electric form of the Breguet endurance equation gives the endurance of a bat
 [electric Breguet endurance equation][ref_breguet]
 
 $$
-E = \eta_{total} \frac{1}{g} \frac{C_{L}^{3/2}}{C_{D}} \sqrt{\frac{2}{\rho S}} \frac{1}{\sqrt{m}} E_{batt}
+E = \eta_{total} \frac{1}{g^{3/2}} \frac{C_{L}^{3/2}}{C_{D}} \sqrt{\frac{\rho S}{2}} \frac{1}{m^{3/2}} E_{batt}
 \tag{6}
 $$
 
@@ -1831,7 +1831,7 @@ $$
 Substituting the weight for thrust shows the hover power per unit mass scaling with the square root of disk loading.
 
 $$
-\frac{P_{hover}}{m} = \frac{g^{3/2}}{FM} \sqrt{\frac{m}{2 \rho A}} = \frac{g^{3/2}}{FM} \sqrt{\frac{DL}{2 \rho}}
+\frac{P_{hover}}{m} = \frac{g^{3/2}}{FM} \sqrt{\frac{m}{2 \rho A}} = \frac{g}{FM} \sqrt{\frac{DL}{2 \rho}}
 \tag{10}
 $$
 

@@ -689,14 +689,14 @@ $$
 and the aft migration of the neutral point through Mach one increases it sharply, stiffening the aircraft in pitch and raising the short period frequency
 
 $$
-\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}
+\omega_{sp} \approx \sqrt{\frac{Z_\alpha M_q}{V} - M_\alpha}
 \tag{84}
 $$
 
 with damping ratio
 
 $$
-\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}
+\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \, \omega_{sp}}
 \tag{85}
 $$
 
@@ -1874,7 +1874,7 @@ $$
 The short-period frequency is approximated from the dimensional pitch and heave stability derivatives.
 
 $$
-\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}
+\omega_{sp} \approx \sqrt{\frac{Z_\alpha M_q}{V} - M_\alpha}
 \tag{84}
 $$
 
@@ -1882,7 +1882,7 @@ $$
 The short-period damping ratio is approximated from the pitch damping, the angle of attack rate derivative and the heave derivative.
 
 $$
-\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}
+\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \, \omega_{sp}}
 \tag{85}
 $$
 

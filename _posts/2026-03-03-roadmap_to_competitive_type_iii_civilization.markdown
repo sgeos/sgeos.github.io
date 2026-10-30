@@ -1388,7 +1388,7 @@ E_k = \frac{1}{2}mv^2 = \frac{1}{2}(10^6)(3 \times 10^7)^2 \approx 4.5 \times 10
 \tag{6}
 $$
 
-This is approximately 0.001 percent
+This is approximately 0.0001 percent
 of the Sun's total luminous output
 for one second.
 For a Type II civilization

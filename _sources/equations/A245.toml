@@ -92,7 +92,7 @@ class = "standard"
 title = "Soundness of Abstract Interpretation"
 gloss = "The concrete states of a program lie within the concretisation of its abstract states, so a property proved of the abstraction holds of the program."
 cite = ["research_cousot_cousot_1977"]
-digest = "2b12dcadbe44c0e3"
+digest = "14e729be66e6dd1a"
 
 [[symbol]]
 tex = 'S_P'

@@ -565,7 +565,7 @@ terms cancel, the reciprocal vanishes, and the boundary goes to infinity. Settin
 through by the cosine gives the critical angle in closed form.
 
 $$
- \tan\Lambda_{\mathrm{crit}} = \frac{8\,e\,EI}{3\,GJ\,L} = 48.013^\circ 
+\tan\Lambda_{\mathrm{crit}} = \frac{8\,e\,EI}{3\,GJ\,L}, \qquad \Lambda_{\mathrm{crit}} = 48.013^\circ 
 \tag{32}
 $$
 
@@ -2332,7 +2332,7 @@ $$
 Setting the two terms of the closed-form root equal gives the sweepback at which divergence vanishes, evaluated as about 48 degrees with stiffnesses the article assumes.
 
 $$
- \tan\Lambda_{\mathrm{crit}} = \frac{8\,e\,EI}{3\,GJ\,L} = 48.013^\circ 
+\tan\Lambda_{\mathrm{crit}} = \frac{8\,e\,EI}{3\,GJ\,L}, \qquad \Lambda_{\mathrm{crit}} = 48.013^\circ 
 \tag{32}
 $$
 

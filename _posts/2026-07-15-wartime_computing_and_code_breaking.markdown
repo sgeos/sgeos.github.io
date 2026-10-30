@@ -21,7 +21,7 @@ The framing established in [A237][related_post_a237_framing_co_development] trea
 
 The German military used the Enigma cipher machine as its primary tactical communications cipher from the 1930s through the end of the war. The Enigma consisted of a keyboard, three or four rotor wheels selected from a larger set, a plugboard connecting pairs of letters, and a reflector. Pressing a key sent an electrical signal through the plugboard, through each rotor in sequence, through the reflector, and back through the rotors and plugboard to illuminate a different letter on a lampboard. Each keypress advanced the rotors, so the substitution changed at every character.
 
-The Enigma keyspace for the standard three-rotor Wehrmacht configuration factors into rotor selection and order, starting rotor positions, plugboard configuration, and ring settings. The total number of daily key settings is approximately
+The Enigma keyspace for the standard three-rotor Wehrmacht configuration factors into rotor selection and order, starting rotor positions, and plugboard configuration, leaving aside ring settings. The total number of daily key settings is approximately
 
 $$
 N_{\text{Enigma}} = P(5, 3) \cdot 26^3 \cdot \frac{26!}{6! \cdot 10! \cdot 2^{10}} \approx 60 \cdot 17{,}576 \cdot 1.5 \times 10^{14} \approx 1.6 \times 10^{20}
@@ -109,7 +109,7 @@ The Manhattan Project consumed the largest concentration of scientific computing
 The criticality condition for a nuclear chain reaction is expressed through the effective neutron multiplication factor
 
 $$
-k_{\text{eff}} = \nu \cdot \frac{\Sigma_f}{\Sigma_f + \Sigma_c + P_L}
+k_{\text{eff}} = \nu \cdot \frac{\Sigma_f}{\Sigma_f + \Sigma_c} \cdot (1 - P_L)
 \tag{8}
 $$
 
@@ -237,10 +237,10 @@ Z(\Delta) = \sum_{i=1}^{N} c_i \oplus k_i(\Delta)
 $$
 
 *Equation 8, Bespoke Simplified Neutron Multiplication Factor.*
-The article writes the effective multiplication factor as the neutrons per fission times the share of neutron losses due to fission, a simplified balance that sets a leakage probability beside the fission and capture cross-sections.
+The article writes the effective multiplication factor as the neutrons per fission times the share of absorptions that cause fission times the probability that a neutron does not leak, a simplified one-group balance.
 
 $$
-k_{\text{eff}} = \nu \cdot \frac{\Sigma_f}{\Sigma_f + \Sigma_c + P_L}
+k_{\text{eff}} = \nu \cdot \frac{\Sigma_f}{\Sigma_f + \Sigma_c} \cdot (1 - P_L)
 \tag{8}
 $$
 

@@ -238,6 +238,7 @@ change an updated approach. **So the agency used both words on the same day for 
 | $\mathcal{F}$ | equivalent flat plate area | square foot |
 | $g_0$ | standard gravity, 9.80665 | metre per second squared |
 | $h$ | geopotential altitude | metre |
+| $h_g$ | height of the wing above the ground | foot |
 | $h^{\ast}$ | geopotential altitude at which the drag buildup's lift coefficient holds | metre |
 | $h_c$ | separation between the centroids of the upper and lower caps | inch |
 | $h_{\mathrm{t}}$ | tropopause altitude, 11,000 | metre |
@@ -1524,7 +1525,7 @@ below it, and the upwash the image induces at the real wing scales with the rati
 the height.
 
 $$
- \Sigma = \frac{b}{2h} 
+ \Sigma = \frac{b}{2h_g} 
 \tag{85}
 $$
 
@@ -2228,7 +2229,7 @@ each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
 Of the 92, 47 are established and 45 are bespoke.
-The structural and geometric relations follow the contractor's report in feet, inches, pounds and pounds per square inch while the atmosphere is evaluated in the International System, and several letters need care, so $\delta$ is the induced-drag fraction of total cruise drag, $L$ is the wing lift at the design load factor while $L/D$ is the lift-to-drag ratio, $e$ is the airplane efficiency factor while $e^{-X}$ is an exponential, $\mathcal{I}$ is the second moment of area of the strut while $\mathcal{I}(\lambda)$ is the taper integral, $\varepsilon$ is a logarithmic error in aspect ratio, and $h$ is a geopotential altitude except in the ground-effect group, where it is a height above the ground.
+The structural and geometric relations follow the contractor's report in feet, inches, pounds and pounds per square inch while the atmosphere is evaluated in the International System, and several letters need care, so $\delta$ is the induced-drag fraction of total cruise drag, $L$ is the wing lift at the design load factor while $L/D$ is the lift-to-drag ratio, $e$ is the airplane efficiency factor while $e^{-X}$ is an exponential, $\mathcal{I}$ is the second moment of area of the strut while $\mathcal{I}(\lambda)$ is the taper integral, $\varepsilon$ is a logarithmic error in aspect ratio, and $h$ is a geopotential altitude while $h_g$ is a height above the ground.
 
 **Equation 1, Share of the Agreement Paid Before First Flight.**
 The milestones that fall due before first flight carry 98.82 percent of the agreement's payments.
@@ -2924,7 +2925,7 @@ $$
 The ratio of span to twice the height above the ground governs the upwash an image vortex system induces at the wing.
 
 $$
- \Sigma = \frac{b}{2h} 
+ \Sigma = \frac{b}{2h_g} 
 \tag{85}
 $$
 

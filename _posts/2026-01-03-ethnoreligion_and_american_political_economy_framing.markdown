@@ -269,7 +269,7 @@ R^{\text{ancestral}}(g) \approx \rho^g
 \tag{16}
 $$
 
-with the simplifying assumption of independent within-generation endogamy choice. Documented endogamy rates for early twentieth-century American Jewish communities were near $\rho \approx 0.97$ (declining to approximately $0.50$ by the early twenty-first century per [Author 2013][ref_pew_jewish_2013]), for Catholic communities near $\rho \approx 0.80$ mid-century declining to approximately $0.60$, and for other groups varying with community size and geographic concentration.
+with the simplifying assumption of independent within-generation endogamy choice. Documented endogamy rates for early twentieth-century American Jewish communities were near $\rho \approx 0.97$ (declining to approximately $0.50$ by the early twenty-first century per [Pew Research Center 2013][ref_pew_jewish_2013]), for Catholic communities near $\rho \approx 0.80$ mid-century declining to approximately $0.60$, and for other groups varying with community size and geographic concentration.
 
 Chain migration amplifies the arriving population through documented family and kinship networks. Under a chain-migration multiplier $m > 1$, the total arriving population from an initial pioneer of size $N_0$ across $k$ chain-migration cycles follows
 
@@ -955,7 +955,7 @@ $$
 
 ### Commercial Sources
 
-- Author, No. 2013. "A Portrait of Jewish Americans." Pew Research Center, October 1. [https://www.pewresearch.org/religion/2013/10/01/jewish-american-beliefs-attitudes-culture-survey/][ref_pew_jewish_2013]
+- Pew Research Center. 2013. "A Portrait of Jewish Americans." Pew Research Center, October 1. [https://www.pewresearch.org/religion/2013/10/01/jewish-american-beliefs-attitudes-culture-survey/][ref_pew_jewish_2013]
 - "Religion: Research and Data from Pew Research Center." n.d. Pew Research Center. Accessed October 25, 2026. [https://www.pewresearch.org/religion/][ref_pew_religion_public_life]
 
 ### General Sources

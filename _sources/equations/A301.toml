@@ -688,7 +688,7 @@ class = "standard"
 title = "Pitch Rate Feedback Law"
 gloss = "A pitch damper adds to the pilot command a deflection proportional to pitch rate."
 cite = ["research_artificial_pitch_damping_1959"]
-digest = "09ed25e496b55e07"
+digest = "c9c934d3168845bf"
 
 [[equation]]
 tag = 87

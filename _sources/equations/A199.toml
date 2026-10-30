@@ -56,7 +56,7 @@ class = "bespoke"
 title = "Bespoke Working Memory of the Keleusma Pipeline"
 gloss = "The article applies its compositional memory budget to Keleusma, summing the working memory of the five stages and the four inter-stage buffers."
 cite = []
-digest = "cb904c28dcd61456"
+digest = "ef292edc8ddf65fd"
 
 [[symbol]]
 tex = 'C'

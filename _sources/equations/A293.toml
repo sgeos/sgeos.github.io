@@ -168,7 +168,7 @@ class = "bespoke"
 title = "Bespoke Ratio of Female to Male Waits under Equal Provision"
 gloss = "The article forms the ratio of the two Erlang-C waits under equal fixture count and equal arrival rate, so that the convexity of the wait in utilisation amplifies the service-time asymmetry."
 cite = []
-digest = "043248954568385f"
+digest = "555a3f041c53b695"
 
 [[equation]]
 tag = 22

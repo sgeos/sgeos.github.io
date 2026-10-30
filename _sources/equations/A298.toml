@@ -672,7 +672,7 @@ class = "standard"
 title = "Short-Period Natural Frequency"
 gloss = "The short-period frequency is approximated from the dimensional pitch and heave stability derivatives."
 cite = []
-digest = "536af749f60dab4f"
+digest = "273ca85b72facf4d"
 
 [[equation]]
 tag = 85
@@ -680,7 +680,7 @@ class = "standard"
 title = "Short-Period Damping Ratio"
 gloss = "The short-period damping ratio is approximated from the pitch damping, the angle of attack rate derivative and the heave derivative."
 cite = []
-digest = "23d9006c7919da50"
+digest = "476b08ebd88859bf"
 
 [[equation]]
 tag = 86

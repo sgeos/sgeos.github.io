@@ -62,9 +62,9 @@ digest = "599f4c4063f8ea02"
 tag = 8
 class = "bespoke"
 title = "Bespoke Simplified Neutron Multiplication Factor"
-gloss = "The article writes the effective multiplication factor as the neutrons per fission times the share of neutron losses due to fission, a simplified balance that sets a leakage probability beside the fission and capture cross-sections."
+gloss = "The article writes the effective multiplication factor as the neutrons per fission times the share of absorptions that cause fission times the probability that a neutron does not leak, a simplified one-group balance."
 cite = []
-digest = "d58b27037da12514"
+digest = "ca82566cfed7760b"
 
 [[equation]]
 tag = 9

@@ -152,7 +152,7 @@ class = "standard"
 title = "Crossrange Increment in the Squared Speed Fraction"
 gloss = "After the substitution the crossrange increment depends on the Earth radius, the lift-to-drag ratio, the bank and the heading alone."
 cite = []
-digest = "48a49652871784fe"
+digest = "217413e91a215cfe"
 
 [[equation]]
 tag = 20

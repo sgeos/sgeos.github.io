@@ -320,7 +320,7 @@ class = "standard"
 title = "Flare Energy Required in Terms of Weight and Radius"
 gloss = "Substituting the measured descent ratio of 1.8 and the actuator-disc induced velocity makes the required energy go as the square of weight over the square of radius."
 cite = []
-digest = "1d30314b3c3d72bc"
+digest = "dd66ddb838255e92"
 
 [[equation]]
 tag = 41
@@ -328,7 +328,7 @@ class = "bespoke"
 title = "Bespoke Flare Energy Margin"
 gloss = "The article defines the margin as the stored energy of uniform-rod blades over the energy the flare requires."
 cite = []
-digest = "7bf57d6ce9731534"
+digest = "743e506a413274ab"
 
 [[equation]]
 tag = 42
@@ -336,7 +336,7 @@ class = "bespoke"
 title = "Bespoke Blade Mass for a Unit Energy Margin"
 gloss = "Inverting the margin at unity gives the blade mass a rotor would need, 2.5 pounds a blade for the X-25B and 21 for the Stowable Aircrew Vehicle Escape Rotorseat, or SAVER, against the assumed 12."
 cite = []
-digest = "a0d8b89b1ac0182e"
+digest = "eae924732d9e0da2"
 
 [[equation]]
 tag = 43

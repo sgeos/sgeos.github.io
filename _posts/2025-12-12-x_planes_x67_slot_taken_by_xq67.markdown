@@ -1231,9 +1231,9 @@ double-counts.** Write the running maximum as the pointer, the quantity the allo
 procedure reads, and define its advance.
 
 $$
-\nu_k \;=\; \max_{\,j \le k} d_j
+p_k \;=\; \max_{\,j \le k} d_j
 \qquad\text{and}\qquad
-\alpha_k \;=\; \nu_k - \nu_{k-1}
+\alpha_k \;=\; p_k - p_{k-1}
 \tag{18}
 $$
 
@@ -1243,7 +1243,7 @@ immediate.
 $$
 \alpha_k \;=\; 0
 \qquad\Longleftrightarrow\qquad
-d_k \;\le\; \nu_{k-1}
+d_k \;\le\; p_{k-1}
 \tag{19}
 $$
 
@@ -1443,7 +1443,7 @@ it describes the register, where an assertion would describe one allocation.
 $$
 H\bigl(d_k \,\big|\, d_1, \ldots, d_{k-1}\bigr) \;=\; 0
 \qquad\text{whenever}\qquad
-d_k = \nu_{k-1} + 1
+d_k = p_{k-1} + 1
 \tag{30}
 $$
 
@@ -2062,6 +2062,7 @@ resolution is noted below the table.
 | $j$ | an allocation index earlier than the $k$th | none |
 | $\delta_k$ | the departure of an allocation from the sequential number | count |
 | $\Delta_k$ | the increment between consecutive new design numbers | count |
+| $p_k$ | the pointer, the largest design number allocated up to the $k$th allocation | none |
 | $\alpha_k$ | the advance of the pointer at the $k$th first allocation | count |
 | $\theta$ | the share of pointer advances equal to one | dimensionless |
 | $\theta_{\Delta}$ | the share of increments equal to one | dimensionless |
@@ -3026,9 +3027,9 @@ $$
 The article writes the pointer as the running maximum of the design numbers allocated so far and defines its advance as the change in that maximum at each allocation.
 
 $$
-\nu_k \;=\; \max_{\,j \le k} d_j
+p_k \;=\; \max_{\,j \le k} d_j
 \qquad\text{and}\qquad
-\alpha_k \;=\; \nu_k - \nu_{k-1}
+\alpha_k \;=\; p_k - p_{k-1}
 \tag{18}
 $$
 
@@ -3038,7 +3039,7 @@ The pointer fails to advance exactly when the number allocated is no greater tha
 $$
 \alpha_k \;=\; 0
 \qquad\Longleftrightarrow\qquad
-d_k \;\le\; \nu_{k-1}
+d_k \;\le\; p_{k-1}
 \tag{19}
 $$
 
@@ -3138,7 +3139,7 @@ The article states that a design number carries no information given its history
 $$
 H\bigl(d_k \,\big|\, d_1, \ldots, d_{k-1}\bigr) \;=\; 0
 \qquad\text{whenever}\qquad
-d_k = \nu_{k-1} + 1
+d_k = p_{k-1} + 1
 \tag{30}
 $$
 

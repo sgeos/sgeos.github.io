@@ -216,7 +216,7 @@ class = "standard"
 title = "Per-Episode Importance Sampling Ratio"
 gloss = "The ratio of target to behaviour policy probabilities multiplied along an episode reweights its return toward the target policy."
 cite = []
-digest = "70542c416debfdf0"
+digest = "1975798f246d970e"
 
 [[equation]]
 tag = 28
@@ -464,7 +464,7 @@ class = "standard"
 title = "Projected Bellman Fixed Point"
 gloss = "Linear temporal-difference learning converges to the value function that equals the projection onto the feature span of its own Bellman backup."
 cite = ["research_tsitsiklis_van_roy_1997"]
-digest = "310c057a66bb6bea"
+digest = "586c38d5a8f063bf"
 
 [[equation]]
 tag = 59
@@ -707,7 +707,7 @@ tex = '\alpha'
 meaning = "a step size"
 
 [[symbol]]
-tex = '\rho_{0:T}'
+tex = '\rho_{0:T-1}'
 meaning = "the importance sampling ratio of an episode"
 
 [[symbol]]

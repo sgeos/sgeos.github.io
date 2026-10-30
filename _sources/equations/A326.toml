@@ -256,7 +256,7 @@ class = "bespoke"
 title = "Bespoke Critical Sweepback That Removes Divergence"
 gloss = "Setting the two terms of the closed-form root equal gives the sweepback at which divergence vanishes, evaluated as about 48 degrees with stiffnesses the article assumes."
 cite = []
-digest = "fd4da9fbcd190116"
+digest = "0dccc9acc4a894ab"
 
 [[equation]]
 tag = 33

@@ -272,7 +272,7 @@ class = "bespoke"
 title = "Bespoke Piecewise Campaign Timeline"
 gloss = "The article models campaign damage as linear build-up to a peak, slow linear sustain and exponential decay after a decay time."
 cite = []
-digest = "9f9f43e2a5a7e225"
+digest = "8073f5fd4892ef68"
 
 [[equation]]
 tag = 35

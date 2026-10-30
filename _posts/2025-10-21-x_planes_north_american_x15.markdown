@@ -739,16 +739,16 @@ and a vehicle with a large ballistic coefficient is one that does not want to sl
 
 | Altitude | Time to shed the energy |
 |----------|--------------------------|
-| 31 km, the record altitude | 102 minutes |
-| 25 km | 40 minutes |
-| 20 km | 18 minutes |
-| 15 km | 8 minutes |
-| 10 km | 4 minutes |
+| 31 km, the record altitude | 92 minutes |
+| 25 km | 36 minutes |
+| 20 km | 16 minutes |
+| 15 km | 7 minutes |
+| 10 km | 3 minutes |
 
 **An X-15 flight lasts eight to twelve minutes in total.** At the altitude where it sets its speed record the aircraft would need an hour and a half to slow down, which it does not have and could not survive.
 
 $$
-\frac{102\ \text{min}}{10\ \text{min}} \approx 10
+\frac{92\ \text{min}}{10\ \text{min}} \approx 9
 \tag{75}
 $$
 
@@ -2422,10 +2422,10 @@ $$
 $$
 
 *Equation 75, Bespoke Ratio of Shedding Time at the Record Altitude to Flight Time.*
-The 102 minutes resting on the assumed drag coefficient is about ten times a representative flight of ten minutes.
+The 92 minutes resting on the assumed drag coefficient is about nine times a representative flight of ten minutes.
 
 $$
-\frac{102\ \text{min}}{10\ \text{min}} \approx 10
+\frac{92\ \text{min}}{10\ \text{min}} \approx 9
 \tag{75}
 $$
 

@@ -693,7 +693,7 @@ P_{\text{Mexican population, Cession territory}}(1848) \approx 8 \times 10^4
 \tag{54}
 $$
 
-with approximately eighty percent concentrated in the New Mexico Territory (approximately sixty thousand) and significant California (approximately fifteen thousand) and Texas (already annexed 1845, approximately five thousand) populations.
+with approximately eighty percent concentrated in the New Mexico Territory (approximately sixty thousand) and a significant California (approximately fifteen thousand) population.
 
 Article IX of the Treaty guaranteed that Mexican inhabitants would be "admitted at the proper time (to be judged of by the Congress of the United States) to the enjoyment of all the rights of citizens of the United States according to the principles of the Constitution" and would in the meantime be "maintained and protected in the free enjoyment of their liberty and property, and secured in the free exercise of their religion without restriction." The religion protection reflected the Catholic identity of the Mexican population and the concern that Anglo-Protestant American governance would threaten Catholic practice. The subsequent American implementation failed to honor the property protections while broadly maintaining the religious accommodation.
 

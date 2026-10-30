@@ -1,6 +1,6 @@
 # Equation classification for A243. Read by `python3 _lib/equations.py`.
 
-caution = "Rates are in bits per second and times in seconds unless the text states milliseconds, and the growth time constant $\\tau$ is an e-folding time rather than a doubling time, so it is shorter than the corresponding doubling time by a factor of about $0.69$."
+caution = "Rates are in bits per second and times in seconds unless the text states milliseconds, and the growth time constant $\\tau$ is an e-folding time rather than a doubling time, so the corresponding doubling time is shorter by a factor of about $0.69$."
 
 [[equation]]
 tag = 1
@@ -62,7 +62,7 @@ meaning = "the total propagation delay over the leased lines"
 tag = 3
 class = "bespoke"
 title = "Bespoke Exponential Growth of ARPANET Nodes"
-gloss = "The node count of the Advanced Research Projects Agency Network is modelled as a pure exponential with a time constant of fifteen to eighteen months that the article fits to its own milestone counts."
+gloss = "The node count of the Advanced Research Projects Agency Network is modelled as a pure exponential with a time constant of about twenty-five months that the article fits to its own milestone counts."
 cite = []
 digest = "f86ef6a8023d5f3a"
 

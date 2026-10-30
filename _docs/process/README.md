@@ -21,6 +21,7 @@ Development process, content workflow, and human-AI communication protocol.
 | [Style Verification](./STYLE_VERIFICATION.md) | Verification scripts for style, references, math, and URLs |
 | [X-Planes Drafting Notes](./x_planes_drafting_notes/README.md) | Drafting notes removed from the X-Planes articles, per article, kept in process files rather than in article prose |
 | [Verification Traps](./VERIFICATION_TRAPS.md) | Mistakes the working method has actually made, and the observation that caught each one |
+| [Article Errata](./ARTICLE_ERRATA.md) | Known defects in published articles not yet fixed, each confirmed or found to need a source, with what a fix involves |
 | [Work Durability](./WORK_DURABILITY.md) | Keeping a long turn's work when the turn does not survive to deliver it |
 | [Sister Session](./SISTER_SESSION.md) | Coordination when a second session drafts in parallel |
 | [Communication](./COMMUNICATION.md) | Bidirectional human-AI communication protocol |

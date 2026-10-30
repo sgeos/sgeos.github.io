@@ -521,7 +521,7 @@ inverts through the viewport transformation
 to a normalised-device coordinate,
 
 $$
-x_{\text{ndc}} = \frac{2\, s_x}{W} - 1,\quad y_{\text{ndc}} = 1 - \frac{2\, s_y}{H}.
+x_{\text{ndc}} = \frac{2\, s_x}{W} - 1,\quad y_{\text{ndc}} = \frac{2\, s_y}{H} - 1.
 \tag{13}
 $$
 
@@ -1222,10 +1222,10 @@ k(d) = \frac{1}{d}.
 $$
 
 **Equation 13, Inverse Viewport Transformation.**
-A screen pixel is mapped back linearly to normalised-device coordinates, with the vertical axis negated.
+A screen pixel is mapped back linearly to normalised-device coordinates, inverting the viewport transformation.
 
 $$
-x_{\text{ndc}} = \frac{2\, s_x}{W} - 1,\quad y_{\text{ndc}} = 1 - \frac{2\, s_y}{H}.
+x_{\text{ndc}} = \frac{2\, s_x}{W} - 1,\quad y_{\text{ndc}} = \frac{2\, s_y}{H} - 1.
 \tag{13}
 $$
 

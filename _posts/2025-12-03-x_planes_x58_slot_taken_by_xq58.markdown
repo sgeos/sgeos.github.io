@@ -667,7 +667,7 @@ $$
 **The density ratio comes from the standard atmosphere** \[[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]\] \[[International Standard Atmosphere][ref_icao_atmosphere]\].
 
 $$
-\sigma \;=\; \left(1 - \frac{\lambda h}{\Theta_0}\right)^{\frac{g}{\lambda \mathcal{R}} - 1} \qquad\text{and}\qquad \sigma \;=\; \sigma_{11} \, \exp\!\left(-\frac{g\,h}{\mathcal{R}\,\Theta_{11}}\right)
+\sigma \;=\; \left(1 - \frac{\lambda h}{\Theta_0}\right)^{\frac{g}{\lambda \mathcal{R}} - 1} \qquad\text{and}\qquad \sigma \;=\; \sigma_{11} \, \exp\!\left(-\frac{g\,(h - h_{11})}{\mathcal{R}\,\Theta_{11}}\right)
 \tag{40}
 $$
 
@@ -779,6 +779,7 @@ $$
 | $h$ | geopotential altitude |
 | $\sigma$ | density ratio |
 | $\sigma_{11}$ | density ratio at the tropopause |
+| $h_{11}$ | geopotential altitude of the tropopause |
 | $\rho$ | air density |
 | $\rho_0$ | air density at sea level |
 | $\kappa$ | thrust lapse exponent |
@@ -1506,7 +1507,7 @@ The standard atmosphere gives the density ratio as a power law of temperature in
 [International Standard Atmosphere][ref_icao_atmosphere]
 
 $$
-\sigma \;=\; \left(1 - \frac{\lambda h}{\Theta_0}\right)^{\frac{g}{\lambda \mathcal{R}} - 1} \qquad\text{and}\qquad \sigma \;=\; \sigma_{11} \, \exp\!\left(-\frac{g\,h}{\mathcal{R}\,\Theta_{11}}\right)
+\sigma \;=\; \left(1 - \frac{\lambda h}{\Theta_0}\right)^{\frac{g}{\lambda \mathcal{R}} - 1} \qquad\text{and}\qquad \sigma \;=\; \sigma_{11} \, \exp\!\left(-\frac{g\,(h - h_{11})}{\mathcal{R}\,\Theta_{11}}\right)
 \tag{40}
 $$
 

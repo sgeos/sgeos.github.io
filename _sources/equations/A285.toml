@@ -54,9 +54,9 @@ digest = "776c2db1d7a4c936"
 tag = 7
 class = "bespoke"
 title = "Bespoke Expected Value of a Rung Sequence"
-gloss = "The article weights each rung value by its completion probability and by the product of the completion probabilities of the earlier rungs."
+gloss = "The article weights each rung value by its completion probability given the earlier rungs and by the product of the conditional completion probabilities of the earlier rungs, which by the chain rule is the probability of completing the rung."
 cite = []
-digest = "a0d20eb71353b694"
+digest = "44bcd6244422e87f"
 
 [[equation]]
 tag = 8
@@ -262,9 +262,9 @@ digest = "6149a374d00cb522"
 tag = 33
 class = "standard"
 title = "Payload Fraction of a Staged Vehicle"
-gloss = "The payload fraction is payload mass over liftoff mass, which the article writes as a product of stage mass ratios."
+gloss = "The payload fraction is payload mass over liftoff mass, which telescopes into the product of the ratios of each stage's liftoff mass to that of the stage below."
 cite = []
-digest = "94dd3607051d8087"
+digest = "54d66f36eeeb086b"
 
 [[equation]]
 tag = 34
@@ -293,10 +293,10 @@ digest = "846c285464d4093a"
 [[equation]]
 tag = 37
 class = "standard"
-title = "Falcon 9 Version 1.1 Payload Fraction Improvement"
-gloss = "The ratio of the payload fractions of the two versions is evaluated at about 1.26 from published figures."
+title = "Falcon 9 Version 1.1 Payload Capability Improvement"
+gloss = "The ratio of the payload masses to low Earth orbit of the two versions is evaluated at about 1.26 from published figures."
 cite = []
-digest = "a430f9d6d6524133"
+digest = "7437116c0847e9ff"
 
 [[equation]]
 tag = 38
@@ -405,10 +405,10 @@ digest = "a99c44ad6648be84"
 [[equation]]
 tag = 51
 class = "bespoke"
-title = "Bespoke Equal Pressure Idealisation of Full-Flow Staged Combustion"
-gloss = "The article equates chamber pressure with the outlet pressure of each turbopump, which neglects the pressure drops through the preburners and injectors."
+title = "Bespoke Chamber Pressure Bound of Full-Flow Staged Combustion"
+gloss = "Chamber pressure lies below the outlet pressure of each turbopump, because the flow loses pressure through the preburners, turbines and injectors."
 cite = []
-digest = "2ee76ff5465dd315"
+digest = "957bfb5db1d828f2"
 
 [[equation]]
 tag = 52

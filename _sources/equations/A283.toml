@@ -238,9 +238,9 @@ digest = "507eb24ba864de3b"
 tag = 30
 class = "standard"
 title = "Present Value of the First Resupply Services Contract"
-gloss = "The present value of the first Commercial Resupply Services contract sums the discounted mission payments, and the article equates it to the announced award of about 1.6 billion dollars."
+gloss = "The present value of the first Commercial Resupply Services contract sums the discounted mission payments, which fall below their undiscounted total, the announced award of about 1.6 billion dollars."
 cite = ["ref_nasa_crs1_press_2008"]
-digest = "cdbd39a8157e8f6f"
+digest = "4247df7dfe66ba75"
 
 [[equation]]
 tag = 31

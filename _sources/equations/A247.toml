@@ -78,9 +78,9 @@ meaning = "the total latency from sensor measurement to display presentation"
 tag = 5
 class = "standard"
 title = "Nyquist Rate for Direct Radio-Frequency Sampling"
-gloss = "Direct sampling of a radio-frequency signal must occur at no less than twice its frequency to preserve its information content."
+gloss = "Direct sampling of a radio-frequency signal must occur at no less than twice its highest frequency to preserve its information content."
 cite = []
-digest = "71308d10ccda7b2b"
+digest = "74018e58ae0d9133"
 
 [[symbol]]
 tex = 'f_{\text{sample}}'

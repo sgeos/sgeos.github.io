@@ -194,7 +194,7 @@ $$
 makes every factor of $V_c$ cancel, leaving
 
 $$
-dy = -\frac{R}{2}\,\frac{L}{D}\cos\phi\,\frac{\psi\,du}{2\left(1-u\right)}
+dy = -\frac{R}{2}\,\frac{L}{D}\cos\phi\,\frac{\psi\,du}{1-u}
 \tag{19}
 $$
 
@@ -1355,7 +1355,7 @@ $$
 After the substitution the crossrange increment depends on the Earth radius, the lift-to-drag ratio, the bank and the heading alone.
 
 $$
-dy = -\frac{R}{2}\,\frac{L}{D}\cos\phi\,\frac{\psi\,du}{2\left(1-u\right)}
+dy = -\frac{R}{2}\,\frac{L}{D}\cos\phi\,\frac{\psi\,du}{1-u}
 \tag{19}
 $$
 

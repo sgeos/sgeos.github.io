@@ -45,7 +45,7 @@ $c^n$, a constant, is the relative revolution speed of each layer.
 Increasing $c$ will add more revolutions when tracing the sphere.
 This gives a better visual appearance.
 The important thing is that one layer is moving relatively faster than the other.
-If another layer were added, it would have have a speed of $c^2$.
+If another layer were added, it would have a speed of $c^2$.
 The constants $c^0$ and $c^1$ are indeed 1 and $c$, respectively.
 
 Any value can be used for $c$.
@@ -85,7 +85,7 @@ x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \left(\sin {c^2 t}\rig
 \tag{5}
 $$
 
-A circle is formed in the xy, xy and yz planes.
+A circle is formed in the xy, xz and yz planes.
 xy is traced faster than xz, and xz faster than xy.
 This may not actually be a volume filled sphere.
 The free online 3D plotting tools are not very good for visualizing something like this.
@@ -115,7 +115,7 @@ x & = \left(\sin {c^0 t}\right) \left(\sin {c^1 t}\right) \\
 \tag{7}
 $$
 
-An hourglass from one directection and a circle from the other two.
+An hourglass from one direction and a circle from the other two.
 $cos$ or $sin$ can be used for $z$.
 
 $$

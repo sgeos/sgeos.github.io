@@ -875,6 +875,10 @@ tex = 'A_{\text{fuel}}'
 meaning = "the heated fuel element surface area"
 
 [[symbol]]
+tex = "q''"
+meaning = "the heat flux from a fuel element surface into the air"
+
+[[symbol]]
 tex = '\varepsilon'
 meaning = "the heat exchanger effectiveness"
 

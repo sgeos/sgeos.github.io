@@ -384,7 +384,7 @@ class = "standard"
 title = "Short Period Frequency and Damping Approximation"
 gloss = "The short period approximation expresses the frequency and damping of the fast longitudinal mode through the pitch and heave stability derivatives."
 cite = []
-digest = "0124017a290fc6b2"
+digest = "5e68b2c5adab6e62"
 
 [[equation]]
 tag = 49
@@ -440,7 +440,7 @@ class = "standard"
 title = "Turbulent Flat-Plate Friction Referred to Wetted Area"
 gloss = "The turbulent flat-plate one-fifth power law, scaled by the ratio of wetted to reference area, gives the friction drag coefficient."
 cite = []
-digest = "d4b4300bb1bd8725"
+digest = "08d5ff965803eeb7"
 
 [[equation]]
 tag = 56

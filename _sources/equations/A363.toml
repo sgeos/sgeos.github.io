@@ -1,6 +1,6 @@
 # Equation classification for A363. Read by `python3 _lib/equations.py`.
 
-caution = "The structural and geometric relations follow the contractor's report in feet, inches, pounds and pounds per square inch while the atmosphere is evaluated in the International System, and several letters need care, so $\\delta$ is the induced-drag fraction of total cruise drag, $L$ is the wing lift at the design load factor while $L/D$ is the lift-to-drag ratio, $e$ is the airplane efficiency factor while $e^{-X}$ is an exponential, $\\mathcal{I}$ is the second moment of area of the strut while $\\mathcal{I}(\\lambda)$ is the taper integral, $\\varepsilon$ is a logarithmic error in aspect ratio, and $h$ is a geopotential altitude except in the ground-effect group, where it is a height above the ground."
+caution = "The structural and geometric relations follow the contractor's report in feet, inches, pounds and pounds per square inch while the atmosphere is evaluated in the International System, and several letters need care, so $\\delta$ is the induced-drag fraction of total cruise drag, $L$ is the wing lift at the design load factor while $L/D$ is the lift-to-drag ratio, $e$ is the airplane efficiency factor while $e^{-X}$ is an exponential, $\\mathcal{I}$ is the second moment of area of the strut while $\\mathcal{I}(\\lambda)$ is the taper integral, $\\varepsilon$ is a logarithmic error in aspect ratio, and $h$ is a geopotential altitude while $h_g$ is a height above the ground."
 
 [[equation]]
 tag = 1
@@ -680,7 +680,7 @@ class = "standard"
 title = "Ground-Effect Group"
 gloss = "The ratio of span to twice the height above the ground governs the upwash an image vortex system induces at the wing."
 cite = []
-digest = "12385613f470f077"
+digest = "498c45e71afbe5cf"
 
 [[equation]]
 tag = 86

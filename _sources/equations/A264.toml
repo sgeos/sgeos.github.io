@@ -200,7 +200,7 @@ class = "standard"
 title = "Posterior over Causal Graph Structures"
 gloss = "Causal learning is posed as Bayesian inference over graphs, with the likelihood factorised over each variable conditioned on its parents in the candidate graph."
 cite = ["research_gopnik_et_al_2004"]
-digest = "11248d892dcaadf2"
+digest = "eef4dafa57f71b96"
 
 [[equation]]
 tag = 26
@@ -232,7 +232,7 @@ class = "bespoke"
 title = "Bespoke Cross-Situational Word-Learning Posterior"
 gloss = "The article writes the posterior over word and referent mappings as a product over labelling instances of the word likelihood given the mapping and referent, with the prior placed inside the product."
 cite = []
-digest = "67056fa1979954f1"
+digest = "1b2f527fe4756dba"
 
 [[equation]]
 tag = 30
@@ -347,8 +347,8 @@ tex = '\tau_{\text{STM}}'
 meaning = "the decay time constant of short-term memory, about twenty seconds without rehearsal"
 
 [[symbol]]
-tex = '\text{Pa}_G(x_i)'
-meaning = "the parents of variable $x_i$ in causal graph $G$"
+tex = '\text{Pa}_G'
+meaning = "the parents of a variable in causal graph $G$"
 
 [[symbol]]
 tex = 'v(x)'

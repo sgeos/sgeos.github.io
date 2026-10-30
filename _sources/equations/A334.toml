@@ -416,7 +416,7 @@ class = "standard"
 title = "Fleet Duty Cycle"
 gloss = "The summed durations of the seven completed missions over the span from first launch to seventh landing give a duty cycle of 77.46 percent."
 cite = ["ref_x37"]
-digest = "213aebad3b243cdb"
+digest = "7544dde3bf6edf75"
 
 [[equation]]
 tag = 53

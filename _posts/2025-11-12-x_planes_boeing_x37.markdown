@@ -1211,7 +1211,7 @@ seventh mission was also the only one flown in a highly elliptical orbit \[[Boei
 and the seventh landing are 5,433 days apart, so
 
 $$
-\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.57}{5{,}433} = 77.46 \text{ percent}
+\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.65}{5{,}433} = 77.46 \text{ percent}
 \tag{52}
 $$
 
@@ -3159,7 +3159,7 @@ The summed durations of the seven completed missions over the span from first la
 [Boeing X-37][ref_x37]
 
 $$
-\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.57}{5{,}433} = 77.46 \text{ percent}
+\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.65}{5{,}433} = 77.46 \text{ percent}
 \tag{52}
 $$
 

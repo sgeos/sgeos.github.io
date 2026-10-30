@@ -167,7 +167,7 @@ Every symbol below is declared here and nowhere carries a second meaning.
 | $\delta$ | ratio of compressor-face total pressure to sea-level standard pressure | dimensionless |
 | $\Delta C_L$ | lift-coefficient increment produced by an effector | dimensionless |
 | $\Delta C_{L,\mathrm{conv}}$ | lift-coefficient increment produced by a conventional surface at full deflection | dimensionless |
-| $\delta F$ | thrust decrement caused by bleed | newton |
+| $\Delta F$ | thrust decrement caused by bleed | newton |
 | $\Delta L$ | aerodynamic force increment produced by an effector | newton |
 | $\Delta L_{\mathrm{AFC}}$ | force increment from an active-flow-control effector, the subscript being the programme's own abbreviation | newton |
 | $\Delta L_{\mathrm{conv}}$ | force increment from a conventional control surface | newton |
@@ -751,7 +751,7 @@ $$
 **That share is also a lower bound on the thrust the bleed costs, and a lower bound is all that is claimed.** The bled air is gone from the exhaust, so at minimum its share of the momentum flux is lost.
 
 $$
- \frac{\delta F}{F} \ge \frac{\beta}{1 + B} = 1.860 \text{ percent} 
+ \frac{\Delta F}{F} \ge \frac{\beta}{1 + B} = 1.860 \text{ percent} 
 \tag{42}
 $$
 
@@ -1474,7 +1474,7 @@ each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
 Of the 58, 33 are established and 25 are bespoke.
-The aerodynamic and engine relations are evaluated in the International System, with thirty thousand feet taken as a geopotential altitude of 9,144 metres and the aircraft weight quoted in pounds, the wing area of 16 square metres is a reference value the article takes because none is published, and a few letters need care, so $\delta$ is a compressor-face pressure ratio while $\delta F$ is a thrust decrement, $\mu$ is the dynamic viscosity while the subscript in $C_\mu$ marks the momentum coefficient, $B$ is the bypass ratio while the bold $\mathbf{B}$ is the control effectiveness matrix, and $\mathcal{A}$ is the amplification while $A^{*}$ and $A$ are areas.
+The aerodynamic and engine relations are evaluated in the International System, with thirty thousand feet taken as a geopotential altitude of 9,144 metres and the aircraft weight quoted in pounds, the wing area of 16 square metres is a reference value the article takes because none is published, and a few letters need care, so $\delta$ is a compressor-face pressure ratio, $\mu$ is the dynamic viscosity while the subscript in $C_\mu$ marks the momentum coefficient, $B$ is the bypass ratio while the bold $\mathbf{B}$ is the control effectiveness matrix, and $\mathcal{A}$ is the amplification while $A^{*}$ and $A$ are areas.
 
 **Equation 1, Spread of the Published Weights.**
 The contractor's gross weight of 7,200 pounds exceeds the 7,000 pounds given elsewhere by 2.86 percent of the lower figure.
@@ -1817,7 +1817,7 @@ $$
 At an assumed bleed fraction of 8 percent and an assumed bypass ratio of 3.3, the momentum lost with the bled air bounds the thrust decrement below at 1.86 percent.
 
 $$
- \frac{\delta F}{F} \ge \frac{\beta}{1 + B} = 1.860 \text{ percent} 
+ \frac{\Delta F}{F} \ge \frac{\beta}{1 + B} = 1.860 \text{ percent} 
 \tag{42}
 $$
 
@@ -2006,7 +2006,7 @@ $$
 - $F_{\mathrm{sls}}$, the sea-level static thrust
 - $V_e$, the engine exit velocity at static conditions
 - $B$, the engine bypass ratio
-- $\delta F$, the thrust decrement caused by bleed
+- $\Delta F$, the thrust decrement caused by bleed
 - $F^{+}$, the reduced excitation frequency
 - $f_e$, the effector excitation frequency
 - $\bar{c}$, the reference chord, taken as area over span

@@ -58,7 +58,7 @@ meaning = "the total development effort in person-months"
 tag = 4
 class = "bespoke"
 title = "Bespoke Exponential Growth of the PASS Code Base"
-gloss = "The size of the code base is modelled as doubling at a constant rate, with a doubling time of forty to fifty years that the article assigns to this program."
+gloss = "The size of the code base is modelled as doubling at a constant rate, with a doubling time of fifty to ninety years that the article assigns to this program."
 cite = []
 digest = "563f0c9fd1543f98"
 

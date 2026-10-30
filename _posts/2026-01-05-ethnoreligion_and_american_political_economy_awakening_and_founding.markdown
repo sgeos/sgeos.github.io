@@ -493,7 +493,7 @@ P_{\text{US, 1789}} \approx 3.9 \times 10^6, \quad f_{\text{Catholic}}(1789) = \
 \tag{31}
 $$
 
-approximately six per thousand at national organization, contrasted with approximately one in five by mid-nineteenth century following mass Catholic immigration treated in the next article.
+approximately six per thousand at national organization, contrasted with approximately one in ten by mid-nineteenth century following mass Catholic immigration treated in the next article.
 
 ## Universalists, Unitarians, Shakers, and Other Radical Formations
 

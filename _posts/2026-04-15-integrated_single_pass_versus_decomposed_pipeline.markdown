@@ -344,7 +344,8 @@ on the order of
 tens to hundreds of instructions per token,
 the pipeline overhead
 is
-under ten percent
+under ten percent once $L$ exceeds about forty
+and as much as forty percent at $L$ near ten
 compared to
 the integrated form.
 

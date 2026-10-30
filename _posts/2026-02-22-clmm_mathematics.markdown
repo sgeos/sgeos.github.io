@@ -168,7 +168,7 @@ x \cdot y = L^2
 \tag{1}
 $$
 
-The current price $p$ of Token Y in terms of Token X satisfies $p = \frac{y}{x}$.
+The current price $p$ of Token X in terms of Token Y satisfies $p = \frac{y}{x}$.
 The reserves can be expressed in terms of $L$ and $p$ as follows.
 
 $$
@@ -248,7 +248,7 @@ The lower and upper bounds of the liquidity position.
 
 These are the core equations.
 They correspond to Equations 6.29 and 6.30
-in the Uniswap v3 whitepaper [ref_uniswap_v3_whitepaper].
+in the [Uniswap v3 whitepaper][ref_uniswap_v3_whitepaper].
 
 ### Three Price Regimes
 

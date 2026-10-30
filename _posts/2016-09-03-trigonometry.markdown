@@ -59,7 +59,7 @@ $\cot \phi$ and $\csc \phi$ get $x$ and $\rho$ from $y$.
 $$
 \begin{aligned}
 & \cot {\phi} = \left( \frac {1} {\tan {\phi}} \right) = \left( \frac {x} {y} \right) & \left( \operatorname{arccot} \frac {x} {y} \right) = \left( \cot ^{-1} \frac {x} {y} \right) = {\phi} \\
-& \ csc {\phi} = \left( \frac {1} {\sin {\phi}} \right) = \left( \frac {\rho} {y} \right) & \left( \operatorname{arccsc} \frac {\rho} {y} \right) = \left( \ csc ^{-1} \frac {\rho} {y} \right) = {\phi} \\
+& \csc {\phi} = \left( \frac {1} {\sin {\phi}} \right) = \left( \frac {\rho} {y} \right) & \left( \operatorname{arccsc} \frac {\rho} {y} \right) = \left( \csc ^{-1} \frac {\rho} {y} \right) = {\phi} \\
 \end{aligned}
 \tag{4}
 $$
@@ -127,7 +127,7 @@ Reciprocal and quotient identities.
 $$
 \begin{aligned}
 & \tan = \left( \frac {1} {\cot \phi} \right) = \left( \frac {\sin \phi} {\cos \phi} \right) = \left( \frac {\sec \phi} {\csc \phi} \right) = \sin \phi \cdot \sec \phi = \left( \frac {1} {\csc \phi \cdot \cos \phi} \right) =\left( \frac {y} {\rho} \cdot  \frac {\rho} {x} \right) = \left( \frac {y} {x} \right) \\
-& \cot = \left( \frac {1} {\tan \phi} \right) = \left( \frac {\cos \phi} {\sin \phi} \right) = \left( \frac {\csc \phi} {\sec \phi} \right) = cos \phi \cdot \csc \phi = \left( \frac {1} {\sec \phi \cdot \sin \phi} \right) = \left( \frac {x} {\rho} \cdot \frac { \rho} {y} \right) = \left( \frac {x} {y} \right) \\
+& \cot = \left( \frac {1} {\tan \phi} \right) = \left( \frac {\cos \phi} {\sin \phi} \right) = \left( \frac {\csc \phi} {\sec \phi} \right) = \cos \phi \cdot \csc \phi = \left( \frac {1} {\sec \phi \cdot \sin \phi} \right) = \left( \frac {x} {\rho} \cdot \frac { \rho} {y} \right) = \left( \frac {x} {y} \right) \\
 & \sin = \left( \frac {1} {\csc \phi} \right) = \left( \frac {\tan \phi} {\sec \phi} \right) = \left( \frac {\cos \phi} {\cot \phi} \right) = \tan \phi \cdot \cos \phi = \left( \frac {1} {\cot \phi \cdot \sec \phi} \right) = \left( \frac {y} {x} \cdot \frac {x} {\rho} \right) = \left( \frac {y} {\rho} \right) \\
 & \csc = \left( \frac {1} {\sin \phi} \right) = \left( \frac {\sec \phi} {\tan \phi} \right) = \left( \frac {\cot \phi} {\cos \phi} \right) = \sec \phi \cdot \cot \phi = \left( \frac {1} {\cos \phi \cdot \tan \phi} \right) = \left( \frac {\rho} {x} \cdot \frac {x} {y} \right) = \left( \frac {\rho} {y} \right) \\
 & \cos = \left( \frac {1} {\sec \phi} \right) = \left( \frac {\cot \phi} {\csc \phi} \right) = \left( \frac {\sin \phi} {\tan \phi} \right) = \cot \phi \cdot \sin \phi = \left( \frac {1} {\tan \phi \cdot \csc \phi} \right) = \left( \frac {x} {y} \cdot \frac {y} {\rho} \right) = \left( \frac {x} {\rho} \right) \\
@@ -232,12 +232,12 @@ Power reducing identities.
 
 $$
 \begin{aligned}
-& \sin^2 \phi = \left( \frac {1} {csc^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {2} \right) \\
-& \cos^2 \phi = \left( \frac {1} {sec^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {2} \right) \\
-& \tan^2 \phi = \left( \frac {1} {cot^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {1 + \cos 2\phi} \right) \\
-& \csc^2 \phi = \left( \frac {1} {sin^2 \phi} \right) = \left( \frac {2} {1 - \cos 2\phi} \right) \\
-& \sec^2 \phi = \left( \frac {1} {cos^2 \phi} \right) = \left( \frac {2} {1 + \cos 2\phi} \right) \\
-& \cot^2 \phi = \left( \frac {1} {tan^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {1 - \cos 2\phi} \right) \\
+& \sin^2 \phi = \left( \frac {1} {\csc^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {2} \right) \\
+& \cos^2 \phi = \left( \frac {1} {\sec^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {2} \right) \\
+& \tan^2 \phi = \left( \frac {1} {\cot^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {1 + \cos 2\phi} \right) \\
+& \csc^2 \phi = \left( \frac {1} {\sin^2 \phi} \right) = \left( \frac {2} {1 - \cos 2\phi} \right) \\
+& \sec^2 \phi = \left( \frac {1} {\cos^2 \phi} \right) = \left( \frac {2} {1 + \cos 2\phi} \right) \\
+& \cot^2 \phi = \left( \frac {1} {\tan^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {1 - \cos 2\phi} \right) \\
 \end{aligned}
 \tag{16}
 $$
@@ -309,7 +309,7 @@ $$
 Triangulation.
 
 ![image of triangulation]({{ site.url }}/assets/image/post_trigonometry/trig_diagrams_006.png)
-![image of triangualtion with obtuse angle]({{ site.url }}/assets/image/post_trigonometry/trig_diagrams_007.png)
+![image of triangulation with obtuse angle]({{ site.url }}/assets/image/post_trigonometry/trig_diagrams_007.png)
 
 Angles from two locations- $\phi$, $\theta$.
 Baseline distance between locations- $\rho$.
@@ -335,14 +335,14 @@ Tangent line on circle of radius $\rho$ at angle $\phi$, simple rotations and mi
 
 $$
 \begin{aligned}
-& y = -\cot^{-1}\phi (x - \rho \cos \phi) + \rho \sin \phi & \text{$\phi$ tangent line} \\
-& y = \tan^{-1}\phi (x + \rho \sin \phi) + \rho \cos \phi & \text{$\phi+\frac {\pi} {2}$ tangent line, quarter revolution CCW} \\
-& y = \tan^{-1}\phi (x - \rho \sin \phi) - \rho \cos \phi & \text{$\phi-\frac {\pi} {2}$ tangent line, quarter revolution CW} \\
-& y = -\cot^{-1}\phi (x + \rho \cos \phi) - \rho \sin \phi & \text{$\phi \pm\pi$ tangent line, half revolution} \\
-& y = \cot^{-1}\phi (x + \rho \cos \phi) + \rho \sin \phi & \text{$\pi-\phi$ tangent line, mirror along $y=0$} \\
-& y = \cot^{-1}\phi (x - \rho \cos \phi) - \rho \sin \phi & \text{$-\phi$ tangent line, mirror along $x=0$} \\
-& y = -\tan^{-1}\phi (x - \rho \sin \phi) + \rho \cos \phi & \text{$\frac {\pi} {2} - \phi$ or $-\frac {3\pi} {2} - \phi$ TL, mirror along $y=x$} \\
-& y = -\tan^{-1}\phi (x + \rho \sin \phi) - \rho \cos \phi & \text{$\frac {3\pi} {2} - \phi$ or $-\frac {\pi} {2} - \phi$ TL, mirror along $y=-x$} \\
+& y = -\cot\phi (x - \rho \cos \phi) + \rho \sin \phi & \text{$\phi$ tangent line} \\
+& y = \tan\phi (x + \rho \sin \phi) + \rho \cos \phi & \text{$\phi+\frac {\pi} {2}$ tangent line, quarter revolution CCW} \\
+& y = \tan\phi (x - \rho \sin \phi) - \rho \cos \phi & \text{$\phi-\frac {\pi} {2}$ tangent line, quarter revolution CW} \\
+& y = -\cot\phi (x + \rho \cos \phi) - \rho \sin \phi & \text{$\phi \pm\pi$ tangent line, half revolution} \\
+& y = \cot\phi (x + \rho \cos \phi) + \rho \sin \phi & \text{$\pi-\phi$ tangent line, mirror along $y=0$} \\
+& y = \cot\phi (x - \rho \cos \phi) - \rho \sin \phi & \text{$-\phi$ tangent line, mirror along $x=0$} \\
+& y = -\tan\phi (x - \rho \sin \phi) + \rho \cos \phi & \text{$\frac {\pi} {2} - \phi$ or $-\frac {3\pi} {2} - \phi$ TL, mirror along $y=x$} \\
+& y = -\tan\phi (x + \rho \sin \phi) - \rho \cos \phi & \text{$\frac {3\pi} {2} - \phi$ or $-\frac {\pi} {2} - \phi$ TL, mirror along $y=-x$} \\
 \end{aligned}
 \tag{23}
 $$
@@ -399,7 +399,7 @@ The cotangent and cosecant are the ratios of the adjacent side and of the hypote
 $$
 \begin{aligned}
 & \cot {\phi} = \left( \frac {1} {\tan {\phi}} \right) = \left( \frac {x} {y} \right) & \left( \operatorname{arccot} \frac {x} {y} \right) = \left( \cot ^{-1} \frac {x} {y} \right) = {\phi} \\
-& \ csc {\phi} = \left( \frac {1} {\sin {\phi}} \right) = \left( \frac {\rho} {y} \right) & \left( \operatorname{arccsc} \frac {\rho} {y} \right) = \left( \ csc ^{-1} \frac {\rho} {y} \right) = {\phi} \\
+& \csc {\phi} = \left( \frac {1} {\sin {\phi}} \right) = \left( \frac {\rho} {y} \right) & \left( \operatorname{arccsc} \frac {\rho} {y} \right) = \left( \csc ^{-1} \frac {\rho} {y} \right) = {\phi} \\
 \end{aligned}
 \tag{4}
 $$
@@ -467,7 +467,7 @@ Each of the six functions is written as the reciprocal of its partner, as quotie
 $$
 \begin{aligned}
 & \tan = \left( \frac {1} {\cot \phi} \right) = \left( \frac {\sin \phi} {\cos \phi} \right) = \left( \frac {\sec \phi} {\csc \phi} \right) = \sin \phi \cdot \sec \phi = \left( \frac {1} {\csc \phi \cdot \cos \phi} \right) =\left( \frac {y} {\rho} \cdot  \frac {\rho} {x} \right) = \left( \frac {y} {x} \right) \\
-& \cot = \left( \frac {1} {\tan \phi} \right) = \left( \frac {\cos \phi} {\sin \phi} \right) = \left( \frac {\csc \phi} {\sec \phi} \right) = cos \phi \cdot \csc \phi = \left( \frac {1} {\sec \phi \cdot \sin \phi} \right) = \left( \frac {x} {\rho} \cdot \frac { \rho} {y} \right) = \left( \frac {x} {y} \right) \\
+& \cot = \left( \frac {1} {\tan \phi} \right) = \left( \frac {\cos \phi} {\sin \phi} \right) = \left( \frac {\csc \phi} {\sec \phi} \right) = \cos \phi \cdot \csc \phi = \left( \frac {1} {\sec \phi \cdot \sin \phi} \right) = \left( \frac {x} {\rho} \cdot \frac { \rho} {y} \right) = \left( \frac {x} {y} \right) \\
 & \sin = \left( \frac {1} {\csc \phi} \right) = \left( \frac {\tan \phi} {\sec \phi} \right) = \left( \frac {\cos \phi} {\cot \phi} \right) = \tan \phi \cdot \cos \phi = \left( \frac {1} {\cot \phi \cdot \sec \phi} \right) = \left( \frac {y} {x} \cdot \frac {x} {\rho} \right) = \left( \frac {y} {\rho} \right) \\
 & \csc = \left( \frac {1} {\sin \phi} \right) = \left( \frac {\sec \phi} {\tan \phi} \right) = \left( \frac {\cot \phi} {\cos \phi} \right) = \sec \phi \cdot \cot \phi = \left( \frac {1} {\cos \phi \cdot \tan \phi} \right) = \left( \frac {\rho} {x} \cdot \frac {x} {y} \right) = \left( \frac {\rho} {y} \right) \\
 & \cos = \left( \frac {1} {\sec \phi} \right) = \left( \frac {\cot \phi} {\csc \phi} \right) = \left( \frac {\sin \phi} {\tan \phi} \right) = \cot \phi \cdot \sin \phi = \left( \frac {1} {\tan \phi \cdot \csc \phi} \right) = \left( \frac {x} {y} \cdot \frac {y} {\rho} \right) = \left( \frac {x} {\rho} \right) \\
@@ -580,12 +580,12 @@ The square of each function is written through the cosine of twice the angle, wh
 
 $$
 \begin{aligned}
-& \sin^2 \phi = \left( \frac {1} {csc^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {2} \right) \\
-& \cos^2 \phi = \left( \frac {1} {sec^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {2} \right) \\
-& \tan^2 \phi = \left( \frac {1} {cot^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {1 + \cos 2\phi} \right) \\
-& \csc^2 \phi = \left( \frac {1} {sin^2 \phi} \right) = \left( \frac {2} {1 - \cos 2\phi} \right) \\
-& \sec^2 \phi = \left( \frac {1} {cos^2 \phi} \right) = \left( \frac {2} {1 + \cos 2\phi} \right) \\
-& \cot^2 \phi = \left( \frac {1} {tan^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {1 - \cos 2\phi} \right) \\
+& \sin^2 \phi = \left( \frac {1} {\csc^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {2} \right) \\
+& \cos^2 \phi = \left( \frac {1} {\sec^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {2} \right) \\
+& \tan^2 \phi = \left( \frac {1} {\cot^2 \phi} \right) = \left( \frac {1 - \cos 2\phi} {1 + \cos 2\phi} \right) \\
+& \csc^2 \phi = \left( \frac {1} {\sin^2 \phi} \right) = \left( \frac {2} {1 - \cos 2\phi} \right) \\
+& \sec^2 \phi = \left( \frac {1} {\cos^2 \phi} \right) = \left( \frac {2} {1 + \cos 2\phi} \right) \\
+& \cot^2 \phi = \left( \frac {1} {\tan^2 \phi} \right) = \left( \frac {1 + \cos 2\phi} {1 - \cos 2\phi} \right) \\
 \end{aligned}
 \tag{16}
 $$
@@ -677,14 +677,14 @@ The point-slope form of the line tangent to a circle of radius $\rho$ at angle $
 
 $$
 \begin{aligned}
-& y = -\cot^{-1}\phi (x - \rho \cos \phi) + \rho \sin \phi & \text{$\phi$ tangent line} \\
-& y = \tan^{-1}\phi (x + \rho \sin \phi) + \rho \cos \phi & \text{$\phi+\frac {\pi} {2}$ tangent line, quarter revolution CCW} \\
-& y = \tan^{-1}\phi (x - \rho \sin \phi) - \rho \cos \phi & \text{$\phi-\frac {\pi} {2}$ tangent line, quarter revolution CW} \\
-& y = -\cot^{-1}\phi (x + \rho \cos \phi) - \rho \sin \phi & \text{$\phi \pm\pi$ tangent line, half revolution} \\
-& y = \cot^{-1}\phi (x + \rho \cos \phi) + \rho \sin \phi & \text{$\pi-\phi$ tangent line, mirror along $y=0$} \\
-& y = \cot^{-1}\phi (x - \rho \cos \phi) - \rho \sin \phi & \text{$-\phi$ tangent line, mirror along $x=0$} \\
-& y = -\tan^{-1}\phi (x - \rho \sin \phi) + \rho \cos \phi & \text{$\frac {\pi} {2} - \phi$ or $-\frac {3\pi} {2} - \phi$ TL, mirror along $y=x$} \\
-& y = -\tan^{-1}\phi (x + \rho \sin \phi) - \rho \cos \phi & \text{$\frac {3\pi} {2} - \phi$ or $-\frac {\pi} {2} - \phi$ TL, mirror along $y=-x$} \\
+& y = -\cot\phi (x - \rho \cos \phi) + \rho \sin \phi & \text{$\phi$ tangent line} \\
+& y = \tan\phi (x + \rho \sin \phi) + \rho \cos \phi & \text{$\phi+\frac {\pi} {2}$ tangent line, quarter revolution CCW} \\
+& y = \tan\phi (x - \rho \sin \phi) - \rho \cos \phi & \text{$\phi-\frac {\pi} {2}$ tangent line, quarter revolution CW} \\
+& y = -\cot\phi (x + \rho \cos \phi) - \rho \sin \phi & \text{$\phi \pm\pi$ tangent line, half revolution} \\
+& y = \cot\phi (x + \rho \cos \phi) + \rho \sin \phi & \text{$\pi-\phi$ tangent line, mirror along $y=0$} \\
+& y = \cot\phi (x - \rho \cos \phi) - \rho \sin \phi & \text{$-\phi$ tangent line, mirror along $x=0$} \\
+& y = -\tan\phi (x - \rho \sin \phi) + \rho \cos \phi & \text{$\frac {\pi} {2} - \phi$ or $-\frac {3\pi} {2} - \phi$ TL, mirror along $y=x$} \\
+& y = -\tan\phi (x + \rho \sin \phi) - \rho \cos \phi & \text{$\frac {3\pi} {2} - \phi$ or $-\frac {\pi} {2} - \phi$ TL, mirror along $y=-x$} \\
 \end{aligned}
 \tag{23}
 $$

@@ -472,7 +472,7 @@ into a divergence between the approximate and true posteriors and the negative l
 Active inference of [Friston and Frith 2015][research_friston_et_al_2015_active_inference] extended the treatment to action selection through the proposal that agents select actions to minimize expected free energy under alternative policies. The expected free energy of a policy $\pi$ decomposes into pragmatic and epistemic components,
 
 $$
-G(\pi) = \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\log p(\tilde{o})\right]}_{\text{pragmatic}} + \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\mathbb{H}[q(\tilde{s} \mid \tilde{o}, \pi)]\right]}_{\text{epistemic}}
+G(\pi) = \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\log p(\tilde{o})\right]}_{\text{pragmatic}} + \underbrace{\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\mathbb{H}[q(\tilde{s} \mid \tilde{o}, \pi)]\right]}_{\text{epistemic}}
 \tag{27}
 $$
 
@@ -526,7 +526,7 @@ Cross-embodiment learning treated in article eleven provides the modern instanti
 
 Curriculum learning treats the problem of ordering training examples or tasks to support efficient learning. The treatment connects developmental learning to modern machine learning practice through the shared emphasis on the importance of the ordering of experience for learning outcomes.
 
-Bengio Louradour Collobert Weston 2009 [research_bengio_et_al_2009_curriculum] introduced the modern machine learning curriculum learning framework through the proposal that neural networks train more effectively when the training examples are presented in a difficulty-ordered sequence. The general curriculum objective can be written as an expected loss under a time-dependent training distribution,
+[Bengio et al. 2009][research_bengio_et_al_2009_curriculum] introduced the modern machine learning curriculum learning framework through the proposal that neural networks train more effectively when the training examples are presented in a difficulty-ordered sequence. The general curriculum objective can be written as an expected loss under a time-dependent training distribution,
 
 $$
 L_{\text{curriculum}}(\theta) = \mathbb{E}_{t \sim T}\!\left[\mathbb{E}_{x \sim p_t(x)}[L(\theta; x)]\right]
@@ -590,7 +590,7 @@ The sense of agency is the experience of causing one's own actions, distinct fro
 
 The [Haggard 2005][research_haggard_2005_agency] framework consolidated the modern experimental treatment of agency through the paradigms including intentional binding, the sense of agency scale, and the neurophysiological correlates of the sense of agency. The account has extensive empirical support and provides testable predictions about the neural substrates of agency.
 
-Gergely and Watson 1999 [research_gergely_watson_1999] introduced the contingency detection framework in which infants distinguish self-produced from other-produced sensory events through the detection of the perfect contingency between motor commands and sensory consequences. The model provides the developmental mechanism through which the self-other distinction emerges from sensorimotor experience.
+[Gergely and Watson 1999][research_gergely_watson_1999] introduced the contingency detection framework in which infants distinguish self-produced from other-produced sensory events through the detection of the perfect contingency between motor commands and sensory consequences. The model provides the developmental mechanism through which the self-other distinction emerges from sensorimotor experience.
 
 Modern developmental robotics implementations of self-recognition include the frameworks that model the emergence of a body-schema through active sensorimotor exploration. The Bongard Zykov Lipson 2006 self-modeling framework treated in the morphological computation section provides the computational instantiation. Subsequent work has extended the framework to the developmental trajectory of self-recognition and to the challenges of distinguishing self from environment in artificial systems.
 
@@ -1002,7 +1002,7 @@ The expected free energy of a policy is split into a pragmatic term on the log p
 [Friston and Frith 2015][research_friston_et_al_2015_active_inference]
 
 $$
-G(\pi) = \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\log p(\tilde{o})\right]}_{\text{pragmatic}} + \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\mathbb{H}[q(\tilde{s} \mid \tilde{o}, \pi)]\right]}_{\text{epistemic}}
+G(\pi) = \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\log p(\tilde{o})\right]}_{\text{pragmatic}} + \underbrace{\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\mathbb{H}[q(\tilde{s} \mid \tilde{o}, \pi)]\right]}_{\text{epistemic}}
 \tag{27}
 $$
 

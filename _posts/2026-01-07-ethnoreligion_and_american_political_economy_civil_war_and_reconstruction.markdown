@@ -145,7 +145,7 @@ with the bulk of the expenditure directed to medical care, rations, and educatio
 The formerly-enslaved population at Emancipation numbered approximately
 
 $$
-P_{\text{enslaved, US, 1860}} \approx 3.95 \times 10^6, \quad f_{\text{enslaved in Confederacy, 1860}} \approx 0.95, \quad P_{\text{free Black, US, 1860}} \approx 4.9 \times 10^5
+P_{\text{enslaved, US, 1860}} \approx 3.95 \times 10^6, \quad f_{\text{enslaved in Confederacy, 1860}} \approx 0.89, \quad P_{\text{free Black, US, 1860}} \approx 4.9 \times 10^5
 \tag{14}
 $$
 
@@ -1018,10 +1018,10 @@ C_{\text{Freedmen's Bureau total appropriations, 1865 to 1872}} \approx 1.7 \tim
 $$
 
 **Equation 14, Enslaved and Free Black Populations in 1860.**
-The 1860 census counted about 3.95 million enslaved people, the article placing about ninety-five percent of them in the Confederacy, and about 490,000 free Black people.
+The 1860 census counted about 3.95 million enslaved people, the article placing about eighty-nine percent of them in the Confederacy, and about 490,000 free Black people.
 
 $$
-P_{\text{enslaved, US, 1860}} \approx 3.95 \times 10^6, \quad f_{\text{enslaved in Confederacy, 1860}} \approx 0.95, \quad P_{\text{free Black, US, 1860}} \approx 4.9 \times 10^5
+P_{\text{enslaved, US, 1860}} \approx 3.95 \times 10^6, \quad f_{\text{enslaved in Confederacy, 1860}} \approx 0.89, \quad P_{\text{free Black, US, 1860}} \approx 4.9 \times 10^5
 \tag{14}
 $$
 

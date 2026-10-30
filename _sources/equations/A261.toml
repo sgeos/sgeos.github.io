@@ -16,7 +16,7 @@ class = "bespoke"
 title = "Bespoke Generic Evolutionary Update"
 gloss = "The article composes selection, recombination, mutation and replacement operators into a single schematic update that produces $\\lambda$ offspring per generation, a template that particular algorithms instantiate."
 cite = []
-digest = "eb0d4537fea655dd"
+digest = "03732446962a57c2"
 
 [[equation]]
 tag = 3

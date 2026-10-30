@@ -8,7 +8,7 @@ class = "bespoke"
 title = "Bespoke Extractable Rotational Energy of Sagittarius A*"
 gloss = "The extractable fraction of an extreme Kerr black hole, about 0.29, is applied to Sagittarius A* on the assumption that it spins maximally, with a solar mass rounded to $2 \\times 10^{30}$ kilograms."
 cite = ["ref_kerr"]
-digest = "0a0633e8ad62dddb"
+digest = "3204830693e9b798"
 
 [[equation]]
 tag = 2

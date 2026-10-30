@@ -911,7 +911,7 @@ with the conventional natural monopoly resting on an asset base that outlives an
 The commons framing treats the orbital environment as a shared resource being appropriated without compensation and generates the strongest available critique. The article accepts the framing's factual premise. The allocation the framing would require yields the compact statement as a corrective price
 
 $$
-p^{\text{orbital}}_i = \sum_{j \neq i} \frac{\partial \Pi_j}{\partial S_i}
+p^{\text{orbital}}_i = -\sum_{j \neq i} \frac{\partial \Pi_j}{\partial S_i}
 \tag{75}
 $$
 
@@ -1198,7 +1198,7 @@ R(S) = \begin{cases} \approx 0 & S < S^{\ast} \\ R^{\text{full}} \cdot \left( S 
 $$
 
 *Equation 25, Bespoke Latitude Coverage Density of an Inclined Orbit.*
-The article approximates the latitude density of a circular orbit by its inverse square-root factor alone, omitting the cosine of latitude, which preserves the peak near the turning latitudes.
+The article assumes a circular orbit and divides the time it spends per unit latitude by the area of the latitude band, which gives a density per unit area that peaks near the turning latitudes.
 
 $$
 \text{coverage density}(\lambda) \; \propto \; \frac{1}{\sqrt{\sin^2 i - \sin^2 \lambda}} \qquad \text{for} \qquad |\lambda| < i
@@ -1610,7 +1610,7 @@ $$
 Each operator is charged according to the marginal effect of its deployment on the profits of all other operators, the standard corrective price for an externality.
 
 $$
-p^{\text{orbital}}_i = \sum_{j \neq i} \frac{\partial \Pi_j}{\partial S_i}
+p^{\text{orbital}}_i = -\sum_{j \neq i} \frac{\partial \Pi_j}{\partial S_i}
 \tag{75}
 $$
 

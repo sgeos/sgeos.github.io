@@ -413,7 +413,7 @@ $$
 with $d_i(T)$ the per-content-instance damage to target $T$, $v_i$ the visibility of the content, and $p_i$ the persistence of the content. Coordinated networks achieve appreciably higher $D_{\text{net}}$ than individual publication due to the multiplicative visibility and persistence effects. The campaign-timeline characterization follows the piecewise-linear phase structure
 
 $$
-D_{\text{net}}(t) = \begin{cases} \alpha_1 t & 0 \leq t < t_{\text{peak}} \\ D_{\text{peak}} + \alpha_2 (t - t_{\text{peak}}) & t_{\text{peak}} \leq t < t_{\text{decay}} \\ D_{\text{peak}} \cdot e^{-\gamma (t - t_{\text{decay}})} & t \geq t_{\text{decay}} \end{cases}
+D_{\text{net}}(t) = \begin{cases} \alpha_1 t & 0 \leq t < t_{\text{peak}} \\ D_{\text{peak}} + \alpha_2 (t - t_{\text{peak}}) & t_{\text{peak}} \leq t < t_{\text{decay}} \\ \left(D_{\text{peak}} + \alpha_2 (t_{\text{decay}} - t_{\text{peak}})\right) \cdot e^{-\gamma (t - t_{\text{decay}})} & t \geq t_{\text{decay}} \end{cases}
 \tag{34}
 $$
 
@@ -512,7 +512,7 @@ $$
 \tag{43}
 $$
 
-with empirical estimates placing $\rho_{\text{counter}}$ at approximately one percent across major-platform samples, reflecting appreciable user-side friction and knowledge gaps. The chilling-effect from false-DMCA-notice submission produces suppression of legitimate speech that is estimated by as the ratio of removed-then-restored to removed-and-not-contested content
+with empirical estimates placing $\rho_{\text{counter}}$ at approximately one percent across major-platform samples, reflecting appreciable user-side friction and knowledge gaps. The chilling-effect from false-DMCA-notice submission produces suppression of legitimate speech that is estimated as one minus the ratio of restored content to removed content
 
 $$
 \rho_{\text{chilling}} = 1 - \frac{|\text{content restored via counter-notice}|}{|\text{content removed via notice}|}
@@ -1176,7 +1176,7 @@ $$
 The article models campaign damage as linear build-up to a peak, slow linear sustain and exponential decay after a decay time.
 
 $$
-D_{\text{net}}(t) = \begin{cases} \alpha_1 t & 0 \leq t < t_{\text{peak}} \\ D_{\text{peak}} + \alpha_2 (t - t_{\text{peak}}) & t_{\text{peak}} \leq t < t_{\text{decay}} \\ D_{\text{peak}} \cdot e^{-\gamma (t - t_{\text{decay}})} & t \geq t_{\text{decay}} \end{cases}
+D_{\text{net}}(t) = \begin{cases} \alpha_1 t & 0 \leq t < t_{\text{peak}} \\ D_{\text{peak}} + \alpha_2 (t - t_{\text{peak}}) & t_{\text{peak}} \leq t < t_{\text{decay}} \\ \left(D_{\text{peak}} + \alpha_2 (t_{\text{decay}} - t_{\text{peak}})\right) \cdot e^{-\gamma (t - t_{\text{decay}})} & t \geq t_{\text{decay}} \end{cases}
 \tag{34}
 $$
 

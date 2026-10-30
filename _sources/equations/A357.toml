@@ -16,7 +16,7 @@ class = "bespoke"
 title = "Bespoke Captured Mass Flux at Mach 6 Mid-Band"
 gloss = "The mass flux per unit capture area is evaluated at 1,500 pounds per square foot, the midpoint the article takes of the one to two thousand band, with the Mach 6 speed scaled from the Mach 5 corridor speed."
 cite = []
-digest = "68a1a643986d5754"
+digest = "06c8fca76419015d"
 
 [[equation]]
 tag = 3
@@ -416,7 +416,7 @@ class = "standard"
 title = "Ratio of Span to Diameter"
 gloss = "The span over the recovered diameter is a check of the recovered geometry against an ordinary slender configuration."
 cite = []
-digest = "7192372a66dac0c9"
+digest = "50ded3fdf5a6756b"
 
 [[equation]]
 tag = 53

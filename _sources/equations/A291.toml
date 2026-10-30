@@ -176,7 +176,7 @@ digest = "a1ebb0ce3254666e"
 tag = 25
 class = "bespoke"
 title = "Bespoke Latitude Coverage Density of an Inclined Orbit"
-gloss = "The article approximates the latitude density of a circular orbit by its inverse square-root factor alone, omitting the cosine of latitude, which preserves the peak near the turning latitudes."
+gloss = "The article assumes a circular orbit and divides the time it spends per unit latitude by the area of the latitude band, which gives a density per unit area that peaks near the turning latitudes."
 digest = "efe9c49bf9cdfc05"
 
 [[equation]]
@@ -529,7 +529,7 @@ tag = 75
 class = "standard"
 title = "Pigouvian Charge for Orbital Congestion"
 gloss = "Each operator is charged according to the marginal effect of its deployment on the profits of all other operators, the standard corrective price for an externality."
-digest = "440df098c8765138"
+digest = "f7978d472a327744"
 
 [[equation]]
 tag = 76

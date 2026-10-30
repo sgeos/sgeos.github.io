@@ -20,7 +20,7 @@ class = "bespoke"
 title = "Bespoke Projection of the Chinese Per-Capita Ratio to 2050"
 gloss = "The Chinese ratio against the United States is compounded forward over twenty-four years at a reduced premium of two to three percent per year, a range the article assumes in place of the reform-era premium."
 cite = []
-digest = "9cb2f9460a41ed6c"
+digest = "f3ae4a83088d107a"
 
 [[symbol]]
 tex = 'R_{\text{CH}}'

@@ -96,7 +96,7 @@ class = "standard"
 title = "Doubly Robust Off-Policy Estimator"
 gloss = "The doubly robust estimator combines importance-weighted rewards with a learned value baseline so that it remains unbiased if either the ratios or the baseline is correct."
 cite = ["research_jiang_li_2016_offline", "research_thomas_brunskill_2016"]
-digest = "806407e9dedc8458"
+digest = "969bcebd813cb1f1"
 
 [[equation]]
 tag = 13
@@ -184,7 +184,7 @@ class = "standard"
 title = "Conservative Value Lower Bound"
 gloss = "In the tabular setting the policy-averaged conservative action value does not exceed the corresponding true value."
 cite = ["research_kumar_zhou_tucker_levine_2020"]
-digest = "a45ae58086ed53df"
+digest = "ef47d7062b35a1b0"
 
 [[equation]]
 tag = 24

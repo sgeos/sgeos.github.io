@@ -64,7 +64,7 @@ N_{\text{nodes}}(t) \approx N_0 \cdot e^{t / \tau}
 \tag{3}
 $$
 
-with time constant $\tau$ of approximately 15 to 18 months over the 1969 through 1980 period, similar to the transistor-density doubling time treated in the substrate section of [A237][related_post_a237_framing_co_development] and consistent with the general pattern of exponential adoption growth for successful network technologies. The first host-to-host protocol was the Network Control Program hereafter NCP, standardized in 1970 and used through 1982. NCP handled the problem of establishing sessions between programs running on different hosts and reliably delivering byte streams between them. NCP was designed under the assumption that the underlying IMP network would deliver packets reliably and in order, which was true for the initial ARPANET architecture but did not generalize to interconnected networks of the kind that emerged in the mid-1970s.
+with time constant $\tau$ of approximately 25 months over the 1969 through 1975 period, a doubling time of about 17 to 18 months similar to the transistor-density doubling time treated in the substrate section of [A237][related_post_a237_framing_co_development] and consistent with the general pattern of exponential adoption growth for successful network technologies. The first host-to-host protocol was the Network Control Program hereafter NCP, standardized in 1970 and used through 1982. NCP handled the problem of establishing sessions between programs running on different hosts and reliably delivering byte streams between them. NCP was designed under the assumption that the underlying IMP network would deliver packets reliably and in order, which was true for the initial ARPANET architecture but did not generalize to interconnected networks of the kind that emerged in the mid-1970s.
 
 The Transmission Control Protocol hereafter TCP was designed by Vinton Cerf and Robert Kahn between 1973 and 1974 to solve the problem of interconnecting the ARPANET with packet radio networks, satellite networks, and other emerging networks whose delivery guarantees differed from the ARPANET's. The primary description in [Cerf and Kahn 1974][research_cerf_kahn_1974] in the IEEE Transactions on Communications introduced the split between a lower-layer datagram protocol that provided best-effort delivery and an upper-layer stream protocol that provided reliable in-order delivery, laying the foundation for what later became the split between Internet Protocol hereafter IP and TCP. The TCP/IP split was formalized in 1978 and standardized in [Postel 1981][research_postel_1981_tcp] as Request for Comments 793, which became the standard by which the ARPANET, packet radio networks, satellite networks, and subsequent networks interconnected.
 
@@ -75,7 +75,7 @@ B_{\text{effective}} = \frac{W}{T_{\text{RTT}}}
 \tag{4}
 $$
 
-which for the 16-kilobit-per-second ARPANET backbone links and 100-millisecond coast-to-coast round-trip times required window sizes on the order of 200 bytes to fill the link capacity. Retransmission of lost or corrupted packets required an estimate of the round-trip time to determine when to declare a packet lost, later formalized by [Jacobson 1988][research_jacobson_1988] as the adaptive estimator
+which for the 16-kilobit-per-second ARPANET backbone links and 200-millisecond coast-to-coast round-trip times required window sizes on the order of 400 bytes to fill the link capacity. Retransmission of lost or corrupted packets required an estimate of the round-trip time to determine when to declare a packet lost, later formalized by [Jacobson 1988][research_jacobson_1988] as the adaptive estimator
 
 $$
 T_{\text{RTO}} = \bar{T}_{\text{RTT}} + 4 \sigma_{\text{RTT}}
@@ -146,7 +146,7 @@ each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
 Of the 8, 6 are established and 2 are bespoke.
-Rates are in bits per second and times in seconds unless the text states milliseconds, and the growth time constant $\tau$ is an e-folding time rather than a doubling time, so it is shorter than the corresponding doubling time by a factor of about $0.69$.
+Rates are in bits per second and times in seconds unless the text states milliseconds, and the growth time constant $\tau$ is an e-folding time rather than a doubling time, so the corresponding doubling time is shorter by a factor of about $0.69$.
 
 *Equation 1, Bespoke Shared Link Capacity for Multiplexed Bursty Sources.*
 The shared capacity is the aggregate mean rate plus a margin of $k$ standard deviations under a central limit approximation to independent sources, with a safety factor of three to five that the article assumes.
@@ -165,7 +165,7 @@ T_{\text{e2e}} = N_{\text{hops}} \cdot \left(\frac{L_{\text{packet}}}{B_{\text{l
 $$
 
 *Equation 3, Bespoke Exponential Growth of ARPANET Nodes.*
-The node count of the Advanced Research Projects Agency Network is modelled as a pure exponential with a time constant of fifteen to eighteen months that the article fits to its own milestone counts.
+The node count of the Advanced Research Projects Agency Network is modelled as a pure exponential with a time constant of about twenty-five months that the article fits to its own milestone counts.
 
 $$
 N_{\text{nodes}}(t) \approx N_0 \cdot e^{t / \tau}

@@ -70,7 +70,7 @@ The [Hassabis et al. 2017][research_hassabis_et_al_2017] Neuroscience-Inspired A
 
 ## The Perceptron, Hebbian Learning, and Early Neural Networks
 
-The perceptron framework of Rosenblatt 1958 introduced the artificial learning system through the multi-layer network of threshold units trained through iterative error-correction. The network computes the mapping
+The perceptron framework of Rosenblatt 1958 introduced the artificial learning system through the single-layer network of threshold units trained through iterative error-correction. The network computes the mapping
 
 $$
 y = \sigma\!\left(\sum_i w_i \, x_i - \theta\right)
@@ -107,7 +107,7 @@ Convolutional Neural Networks (CNNs) provide the clearest and most-developed cor
 
 The Hubel and Wiesel 1962 receptive-field studies of the cat primary visual cortex documented the hierarchical organization from simple cells that respond to oriented edges in retinal positions, through complex cells that respond to oriented edges regardless of position within a limited region, to hypercomplex cells that respond to edge terminations. The framework identified the principles of local receptive fields, hierarchical processing, and translation-invariance that convolutional networks subsequently implemented.
 
-The Fukushima 1980 [research_fukushima_1980_neocognitron] Neocognitron introduced the artificial network architecture that implements the Hubel-Wiesel hierarchy through alternating layers of feature-detecting simple cells and pooling-based complex cells. The convolutional layer computes
+The [Fukushima 1980][research_fukushima_1980_neocognitron] Neocognitron introduced the artificial network architecture that implements the Hubel-Wiesel hierarchy through alternating layers of feature-detecting simple cells and pooling-based complex cells. The convolutional layer computes
 
 $$
 (K * x)(i, j) = \sum_{m, n} K(m, n) \, x(i - m, j - n)
@@ -139,7 +139,7 @@ CORnet of [Kubilius et al. 2018][research_kubilius_et_al_2019_cornet] introduced
 
 Self-supervised deep networks of [Zhuang et al. 2021][research_zhuang_et_al_2021] demonstrated that self-supervised training on natural images produces internal representations that match biological visual cortex considerably better than the supervised training on categorical labels. The framework has significantly reshaped subsequent understanding of the normative objectives that produce biological-like representations.
 
-Contrastive learning as a cortical model of [Konkle and Alvarez 2022][research_konkle_alvarez_2022] extended the account to the contrastive-learning objectives and demonstrated the correspondences between contrastive-learning representations and biological ventral-stream representations. The Riesenhuber and Poggio 1999 [research_riesenhuber_poggio_1999_hmax] HMAX framework provided the earlier hierarchical model of object recognition inspired by the properties of ventral-stream visual processing. Face processing has been extensively studied through the frameworks including [Chang and Tsao 2017][research_chang_tsao_2017] Code for Facial Identity that identified the axis-based neural code for face identity in primate face patches.
+Contrastive learning as a cortical model of [Konkle and Alvarez 2022][research_konkle_alvarez_2022] extended the account to the contrastive-learning objectives and demonstrated the correspondences between contrastive-learning representations and biological ventral-stream representations. The [Riesenhuber and Poggio 1999][research_riesenhuber_poggio_1999_hmax] HMAX framework provided the earlier hierarchical model of object recognition inspired by the properties of ventral-stream visual processing. Face processing has been extensively studied through the frameworks including [Chang and Tsao 2017][research_chang_tsao_2017] Code for Facial Identity that identified the axis-based neural code for face identity in primate face patches.
 
 The [Doerig et al. 2023][research_doerig_et_al_2023] Neuroconnectionist Research Programme framework consolidated the modern task-optimization approach to computational neuroscience and identified the research directions for using deep learning as a systematic tool for computational neuroscience.
 
@@ -176,7 +176,7 @@ $$
 
 with the quantile encoded determined by the ratio $\tau = \alpha^+ / (\alpha^+ + \alpha^-)$. The framework provides the biological validation of the distributional reinforcement learning framework and demonstrates the significant reverse-informational-flow from machine learning to neuroscience.
 
-The Botvinick Ritter Wang Kurth-Nelson Blundell Hassabis 2019 [research_botvinick_et_al_2019_rl_fast_slow] Reinforcement Learning Fast and Slow framework consolidated the modern reinforcement-learning-neuroscience correspondence and identified the dual-system architecture through which the brain implements both slow model-free and fast model-based reinforcement learning.
+The [Botvinick et al. 2019][research_botvinick_et_al_2019_rl_fast_slow] Reinforcement Learning Fast and Slow framework consolidated the modern reinforcement-learning-neuroscience correspondence and identified the dual-system architecture through which the brain implements both slow model-free and fast model-based reinforcement learning.
 
 The [Niv 2009][research_niv_2009] reinforcement learning in the brain review consolidated the pre-2010s literature and identified the correspondences between temporal-difference learning components and neural circuits. The account has been extensively updated through subsequent work but continues to provide the systematic taxonomy of the reinforcement-learning-neuroscience correspondence. The [Doya 2000][research_doya_2000] Computational Neuroscience of Reinforcement Learning framework provided the earlier systematic treatment that identified the correspondences between the algorithmic components of reinforcement learning and neural circuits.
 
@@ -251,7 +251,7 @@ The bidirectional exchange in neural manifolds has been significant. Machine lea
 
 Meta-learning provides the computational framework for the observation that biological brains can rapidly adapt to novel tasks through their prior experience with related task distributions. The treatment connects modern meta-learning treated in article nine to the empirical literature on cognitive flexibility and rapid learning in biological systems.
 
-The Wang Kurth-Nelson Tirumala Soyer Leibo Munos Blundell Kumaran Botvinick 2018 [research_wang_et_al_2018_prefrontal_meta_a263] Prefrontal Cortex as a Meta-Reinforcement Learning System framework proposed that the prefrontal cortex functions as a meta-reinforcement learning system in which recurrent activity supports fast adaptation across tasks while slower dopaminergic updates train the recurrent weights themselves. Formally, this formulation identifies a two-timescale learning system in which the fast inner-loop adaptation operates through recurrent-state dynamics
+The [Wang et al. 2018][research_wang_et_al_2018_prefrontal_meta_a263] Prefrontal Cortex as a Meta-Reinforcement Learning System framework proposed that the prefrontal cortex functions as a meta-reinforcement learning system in which recurrent activity supports fast adaptation across tasks while slower dopaminergic updates train the recurrent weights themselves. Formally, this formulation identifies a two-timescale learning system in which the fast inner-loop adaptation operates through recurrent-state dynamics
 
 $$
 h_t = \text{RNN}_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})

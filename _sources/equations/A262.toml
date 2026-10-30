@@ -216,7 +216,7 @@ class = "standard"
 title = "Expected Free Energy of a Policy"
 gloss = "The expected free energy of a policy is split into a pragmatic term on the log preference for predicted observations and an epistemic term on the uncertainty of hidden states."
 cite = ["research_friston_et_al_2015_active_inference"]
-digest = "9f826f5a937ce68e"
+digest = "321724fb23688987"
 
 [[equation]]
 tag = 28

@@ -616,11 +616,11 @@ $$
 $$
 D_w \propto \ell^{-4}
 \qquad\text{against}\qquad
-D_f \propto S_w \propto \ell
+D_f \propto S_w \propto \ell^{1/2}
 \tag{52}
 $$
 
-**Against a twenty metre body of the same volume, the X-59's 30.18 metres carry a wave drag smaller by a factor of 5.18 and a wetted area larger by a factor of about 1.51.** An exponent of four beats an exponent of one, so **the exponents favour length heavily**, which is the opposite of what the preceding paragraph alone would suggest and is why supersonic aeroplanes were long and thin before anybody cared what they sounded like.
+**Against a twenty metre body of the same volume, the X-59's 30.18 metres carry a wave drag smaller by a factor of 5.18 and a wetted area larger by a factor of about 1.23.** An exponent of four beats an exponent of one half, so **the exponents favour length heavily**, which is the opposite of what the preceding paragraph alone would suggest and is why supersonic aeroplanes were long and thin before anybody cared what they sounded like.
 
 **Whether the net drag falls is a different question and this article does not answer it.** A factor on the wave drag and a factor on the friction drag do not combine without knowing how the total divides between them at the design point, and that division is not published for this aeroplane. **The exponents establish a direction and not a balance**, and the paragraph above is worded to claim only the direction.
 
@@ -1812,12 +1812,12 @@ D_w = \frac{128\, q\, \Omega^2}{\pi\, \ell^4}
 $$
 
 *Equation 52, Bespoke Length Scaling of Wave and Friction Drag.*
-The article sets the Sears-Haack fourth-power fall in wave drag against a friction drag it takes as proportional to wetted area and a wetted area it takes as proportional to length at fixed volume.
+The article sets the Sears-Haack fourth-power fall in wave drag against a friction drag it takes as proportional to wetted area and a wetted area it takes as proportional to the square root of length at fixed volume.
 
 $$
 D_w \propto \ell^{-4}
 \qquad\text{against}\qquad
-D_f \propto S_w \propto \ell
+D_f \propto S_w \propto \ell^{1/2}
 \tag{52}
 $$
 

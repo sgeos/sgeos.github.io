@@ -266,10 +266,10 @@ o = \langle \mathcal{I}_o, \pi_o, \beta_o \rangle
 \tag{27}
 $$
 
-comprising an initiation set, an intra-option policy, and a termination condition, and inducing the semi-Markov decision process value function
+comprising an initiation set, an intra-option policy, and a termination condition, and inducing, for an option of random duration $k$, the semi-Markov decision process value function
 
 $$
-V^\mu(s) = \sum_o \mu(o \mid s) \left[ \sum_{k=1}^\infty \gamma^{k-1} \mathbb{E}[r_{t+k} \mid s, o] + \gamma^k \mathbb{E}[V^\mu(s_{t+k}) \mid s, o] \right]
+V^\mu(s) = \sum_o \mu(o \mid s) \, \mathbb{E}\!\left[ \sum_{j=1}^{k} \gamma^{j-1} r_{t+j} + \gamma^k V^\mu(s_{t+k}) \,\middle|\, s, o \right]
 \tag{28}
 $$
 
@@ -545,7 +545,7 @@ The foundation-model turn constitutes the paradigm shift that has appreciably re
 
 The [Bommasani et al. 2021][research_bommasani_et_al_2021] report On the Opportunities and Risks of Foundation Models provides the institutional consolidation of the paradigm. The framework treats foundation models as the general-purpose substrate whose downstream deployment through the fine-tuning and reinforcement-learning-from-human-feedback pipelines produces the application-capabilities of the modern deployment landscape.
 
-The scaling laws of [Kaplan et al. 2020][research_kaplan_et_al_2020] and the compute-optimal refinement of [Hoffmann et al. 2022][research_hoffmann_et_al_2022] provide the empirical foundation for the paradigm. The findings that model capability follows the parametric relationship
+The scaling laws of [Kaplan et al. 2020][research_kaplan_et_al_2020] and the compute-optimal refinement of [Hoffmann et al. 2022][research_hoffmann_et_al_2022] provide the empirical foundation for the paradigm. The findings that model loss follows the parametric relationship
 
 $$
 L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E
@@ -1002,7 +1002,7 @@ The value of a state under a policy over options sums the discounted rewards acc
 [Sutton et al. 1999a][research_sutton_precup_singh_1999]
 
 $$
-V^\mu(s) = \sum_o \mu(o \mid s) \left[ \sum_{k=1}^\infty \gamma^{k-1} \mathbb{E}[r_{t+k} \mid s, o] + \gamma^k \mathbb{E}[V^\mu(s_{t+k}) \mid s, o] \right]
+V^\mu(s) = \sum_o \mu(o \mid s) \, \mathbb{E}\!\left[ \sum_{j=1}^{k} \gamma^{j-1} r_{t+j} + \gamma^k V^\mu(s_{t+k}) \,\middle|\, s, o \right]
 \tag{28}
 $$
 

@@ -80,7 +80,7 @@ $$
 
 **So the front of the signature catches the middle and the back of it catches the middle from behind.** Given enough distance the structure collapses into two shocks with a linear expansion between them, which is the N-wave everybody on the ground actually hears \[[Sonic Boom][ref_sonic_boom]\] \[[N-Wave][ref_n_wave]\] \[[Pierce, Acoustics, an introduction to its physical principles and applications][book_pierce]\].
 
-**The shape it decays into has a name and a form.** For a positive-phase duration $T_{N}$ the waveform is a straight line between two jumps, the symbol carrying a subscript because $T$ is already the temperature in this article \[[Darden 1976][research_darden_1976]\] \[[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]\],
+**The shape it decays into has a name and a form.** For an N-wave duration $T_{N}$ the waveform is a straight line between two jumps, the symbol carrying a subscript because $T$ is already the temperature in this article \[[Darden 1976][research_darden_1976]\] \[[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]\],
 
 $$
 \Delta p(t) \;=\; \Delta p_{\max}\left(1 - \frac{2t}{T_{N}}\right), \qquad 0 \le t \le T_{N},

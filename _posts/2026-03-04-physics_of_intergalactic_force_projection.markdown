@@ -211,25 +211,25 @@ at $4.3 \times 10^6$ solar masses,
 this represents approximately
 
 $$
-E_{\text{rot}} = 0.29 \times M_{\text{BH}} c^2 = 0.29 \times (4.3 \times 10^6)(2 \times 10^{30})(3 \times 10^8)^2 \approx 2.2 \times 10^{54} \text{ J}
+E_{\text{rot}} = 0.29 \times M_{\text{BH}} c^2 = 0.29 \times (4.3 \times 10^6)(2 \times 10^{30})(3 \times 10^8)^2 \approx 2.2 \times 10^{53} \text{ J}
 \tag{1}
 $$
 
 For Andromeda's SMBH
 at $1.0 \times 10^8$ solar masses,
 the extractable energy is approximately
-$5.2 \times 10^{55}$ J.
+$5.2 \times 10^{54}$ J.
 For M87's SMBH
 at $6.5 \times 10^9$ solar masses,
 it is approximately
-$3.4 \times 10^{57}$ J.
+$3.4 \times 10^{56}$ J.
 
 These are enormous energy reserves.
 The Sun's total luminous output
 is approximately $3.8 \times 10^{26}$ watts.
 Sagittarius A*'s extractable rotational energy
 is equivalent to approximately
-$1.8 \times 10^{20}$ years
+$1.8 \times 10^{19}$ years
 of solar output.
 
 ### Jet Efficiency
@@ -624,7 +624,7 @@ the size of a planet
 produces a spot size
 of approximately
 $2.9 \times 10^{9}$ meters,
-roughly 20 AU,
+roughly 0.02 AU,
 at intergalactic distances.
 
 **Energy density at target.**
@@ -921,7 +921,7 @@ at 0.99c
 carries approximately
 $5.5 \times 10^{23}$ joules of kinetic energy,
 comparable to the total energy output
-of the Sun for 15 seconds.
+of the Sun for 1.4 milliseconds.
 A $10^{12}$ kg projectile
 at 0.99c
 carries approximately
@@ -2708,7 +2708,7 @@ The extractable fraction of an extreme Kerr black hole, about 0.29, is applied t
 [Kerr black hole][ref_kerr]
 
 $$
-E_{\text{rot}} = 0.29 \times M_{\text{BH}} c^2 = 0.29 \times (4.3 \times 10^6)(2 \times 10^{30})(3 \times 10^8)^2 \approx 2.2 \times 10^{54} \text{ J}
+E_{\text{rot}} = 0.29 \times M_{\text{BH}} c^2 = 0.29 \times (4.3 \times 10^6)(2 \times 10^{30})(3 \times 10^8)^2 \approx 2.2 \times 10^{53} \text{ J}
 \tag{1}
 $$
 

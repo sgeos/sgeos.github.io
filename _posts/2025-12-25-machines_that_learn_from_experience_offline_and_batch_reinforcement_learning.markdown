@@ -155,7 +155,7 @@ Doubly robust estimators of [Jiang and Li 2016][research_jiang_li_2016_offline] 
 The doubly robust framework is defined by
 
 $$
-\hat{V}^\pi_{\text{DR}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \left[\rho_{0:t}^{(i)} \left(r_{t+1}^{(i)} + \gamma \hat{V}(s_{t+1}^{(i)}) - \hat{Q}(s_t^{(i)}, a_t^{(i)})\right) + \rho_{0:t-1}^{(i)} \hat{V}(s_t^{(i)})\right]
+\hat{V}^\pi_{\text{DR}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \left[\rho_{0:t}^{(i)} \left(r_{t+1}^{(i)} - \hat{Q}(s_t^{(i)}, a_t^{(i)})\right) + \rho_{0:t-1}^{(i)} \hat{V}(s_t^{(i)})\right]
 \tag{12}
 $$
 
@@ -233,7 +233,7 @@ L_{\text{IQL}}(V) = \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[L_2^\tau(Q_{\tex
 \tag{20}
 $$
 
-with expectile loss $L_2^\tau(u) = \lvert \tau - \mathbb{1}\{u < 0\} \rvert u^2$ for quantile $\tau \in (0, 1)$. The Q-function is updated with respect to the fitted value baseline,
+with expectile loss $L_2^\tau(u) = \lvert \tau - \mathbb{1}\{u < 0\} \rvert u^2$ for expectile $\tau \in (0, 1)$. The Q-function is updated with respect to the fitted value baseline,
 
 $$
 L_{\text{IQL}}(Q) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[(r + \gamma V(s') - Q(s, a))^2\right]
@@ -258,7 +258,7 @@ where the first term is a per-state Q-value overhang penalty that becomes large 
 The theoretical analysis of CQL shows that the learned Q-function provides a lower bound on the true Q-function of any policy sufficiently close to the dataset support. Formally, for the exact CQL solution $\hat{Q}$ under the tabular setting, the expected value under any policy $\pi$ satisfies
 
 $$
-\mathbb{E}_{a \sim \pi}\!\left[\hat{Q}(s, a)\right] \leq \mathbb{E}_{a \sim \pi}\!\left[Q^*(s, a)\right]
+\mathbb{E}_{a \sim \pi}\!\left[\hat{Q}(s, a)\right] \leq \mathbb{E}_{a \sim \pi}\!\left[Q^\pi(s, a)\right]
 \tag{23}
 $$
 
@@ -691,7 +691,7 @@ The doubly robust estimator combines importance-weighted rewards with a learned 
 [Thomas and Brunskill 2016][research_thomas_brunskill_2016]
 
 $$
-\hat{V}^\pi_{\text{DR}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \left[\rho_{0:t}^{(i)} \left(r_{t+1}^{(i)} + \gamma \hat{V}(s_{t+1}^{(i)}) - \hat{Q}(s_t^{(i)}, a_t^{(i)})\right) + \rho_{0:t-1}^{(i)} \hat{V}(s_t^{(i)})\right]
+\hat{V}^\pi_{\text{DR}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \left[\rho_{0:t}^{(i)} \left(r_{t+1}^{(i)} - \hat{Q}(s_t^{(i)}, a_t^{(i)})\right) + \rho_{0:t-1}^{(i)} \hat{V}(s_t^{(i)})\right]
 \tag{12}
 $$
 
@@ -790,7 +790,7 @@ In the tabular setting the policy-averaged conservative action value does not ex
 [Kumar Zhou Tucker Levine 2020][research_kumar_zhou_tucker_levine_2020]
 
 $$
-\mathbb{E}_{a \sim \pi}\!\left[\hat{Q}(s, a)\right] \leq \mathbb{E}_{a \sim \pi}\!\left[Q^*(s, a)\right]
+\mathbb{E}_{a \sim \pi}\!\left[\hat{Q}(s, a)\right] \leq \mathbb{E}_{a \sim \pi}\!\left[Q^\pi(s, a)\right]
 \tag{23}
 $$
 

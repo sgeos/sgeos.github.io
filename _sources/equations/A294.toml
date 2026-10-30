@@ -182,9 +182,9 @@ digest = "6160daa88651e9b1"
 tag = 23
 class = "standard"
 title = "Rate of Change of Core Temperature"
-gloss = "The storage term divided by body mass times tissue specific heat gives the rate at which core temperature changes."
+gloss = "The storage term times the body surface area, divided by body mass times tissue specific heat, gives the rate at which core temperature changes."
 cite = []
-digest = "bf7bad72b0bd19bd"
+digest = "a6cba87b42600e0a"
 
 [[equation]]
 tag = 24
@@ -621,6 +621,10 @@ meaning = "the vapour pressure of the air"
 [[symbol]]
 tex = 'c_b'
 meaning = "the specific heat of body tissue"
+
+[[symbol]]
+tex = 'A_D'
+meaning = "the body surface area"
 
 [[symbol]]
 tex = 'T_{c,\lim}'

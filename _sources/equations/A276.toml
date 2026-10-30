@@ -208,7 +208,7 @@ class = "bespoke"
 title = "Bespoke Methodology Counts for the Series"
 gloss = "Cumulative reference counts, the number of articles that followed the four-pass workflow and a lower bound on cross-references are stated as a self-description of the series."
 cite = []
-digest = "ab3b4e880657a5a0"
+digest = "ca0ee4342a1958bb"
 
 [[symbol]]
 tex = 't'

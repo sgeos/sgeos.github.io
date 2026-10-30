@@ -504,7 +504,7 @@ Concept learning as Bayesian inference of Tenenbaum 1999 provided the paradigmat
 Causal reasoning as Bayesian inference of [Gopnik et al. 2004][research_gopnik_et_al_2004] extended the treatment to the study of causal learning in children and adults. The model treats causal learning as inference over causal-graph structures given observed evidence,
 
 $$
-p(G \mid D) \propto p(D \mid G) \, p(G) = \prod_i p(x_i \mid \text{Pa}_G(x_i)) \, p(G)
+p(G \mid D) \propto p(D \mid G) \, p(G) = p(G) \prod_{d \in D} \prod_i p(x_i^{(d)} \mid \text{Pa}_G(x_i^{(d)}))
 \tag{25}
 $$
 
@@ -570,7 +570,7 @@ Statistical learning in infants treated in article thirteen provided the empiric
 Bayesian models of language acquisition of [Xu and Tenenbaum 2007][research_xu_tenenbaum_2007_a264] and the sizable subsequent literature provided the computational framework in which language acquisition is characterized as Bayesian inference over linguistic structures. The cross-situational word-learning framework updates the mapping posterior after each labeling instance,
 
 $$
-p(m \mid W, R) \propto \prod_{(w, r) \in (W, R)} p(w \mid m, r) \, p(m)
+p(m \mid W, R) \propto p(m) \prod_{(w, r) \in (W, R)} p(w \mid m, r)
 \tag{29}
 $$
 
@@ -903,7 +903,7 @@ Causal learning is posed as Bayesian inference over graphs, with the likelihood 
 [Gopnik et al. 2004][research_gopnik_et_al_2004]
 
 $$
-p(G \mid D) \propto p(D \mid G) \, p(G) = \prod_i p(x_i \mid \text{Pa}_G(x_i)) \, p(G)
+p(G \mid D) \propto p(D \mid G) \, p(G) = p(G) \prod_{d \in D} \prod_i p(x_i^{(d)} \mid \text{Pa}_G(x_i^{(d)}))
 \tag{25}
 $$
 
@@ -938,7 +938,7 @@ $$
 The article writes the posterior over word and referent mappings as a product over labelling instances of the word likelihood given the mapping and referent, with the prior placed inside the product.
 
 $$
-p(m \mid W, R) \propto \prod_{(w, r) \in (W, R)} p(w \mid m, r) \, p(m)
+p(m \mid W, R) \propto p(m) \prod_{(w, r) \in (W, R)} p(w \mid m, r)
 \tag{29}
 $$
 
@@ -998,7 +998,7 @@ $$
 - $\frac{2 D}{W}$, twice the movement distance divided by the target width
 - $R_0$, the initial retention
 - $\tau_{\text{STM}}$, the decay time constant of short-term memory, about twenty seconds without rehearsal
-- $\text{Pa}_G(x_i)$, the parents of variable $x_i$ in causal graph $G$
+- $\text{Pa}_G$, the parents of a variable in causal graph $G$
 - $v(x)$, the prospect theory value of an outcome $x$ relative to the reference point
 - $w(p)$, the prospect theory decision weight of probability $p$
 - $D_{\text{KL}}$, the Kullback-Leibler divergence

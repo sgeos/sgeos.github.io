@@ -16,7 +16,7 @@ class = "standard"
 title = "Meta-Learning Objective over a Task Distribution"
 gloss = "Meta-learning chooses the meta-parameters of the learning algorithm by optimising the expected task loss of the hypotheses it produces across a distribution of tasks."
 cite = ["research_hospedales_et_al_2022"]
-digest = "721ae09c24a1ea23"
+digest = "21f26697c744c04f"
 
 [[equation]]
 tag = 3

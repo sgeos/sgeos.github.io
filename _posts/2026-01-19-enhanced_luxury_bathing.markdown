@@ -220,11 +220,11 @@ $$
 so that the low metabolic rate of the reposing bather places the heat balance almost entirely at the mercy of the environmental terms. The storage term drives the core-temperature change
 
 $$
-\frac{dT_c}{dt} = \frac{M - W - E - R - C - K}{m \, c_b}
+\frac{dT_c}{dt} = \frac{A_D \, (M - W - E - R - C - K)}{m \, c_b}
 \tag{23}
 $$
 
-with $c_b$ the specific heat of body tissue, near 3470 joules per kilogram per kelvin, and $m$ the body mass. In hot immersion the radiative, convective, and conductive terms reverse sign and become heat gains rather than losses, and the evaporative term is suppressed because the skin is covered by water that cannot evaporate, so that the storage term is strongly positive and the core temperature rises. The time to reach a hyperthermia threshold from a starting core temperature is the first-order estimate
+with $c_b$ the specific heat of body tissue, near 3470 joules per kilogram per kelvin, $m$ the body mass, and $A_D$ the body surface area. In hot immersion the radiative, convective, and conductive terms reverse sign and become heat gains rather than losses, and the evaporative term is suppressed because the skin is covered by water that cannot evaporate, so that the storage term is strongly positive and the core temperature rises. The time to reach a hyperthermia threshold from a starting core temperature is the first-order estimate
 
 $$
 t_{\lim} = \frac{m \, c_b \, (T_{c,\lim} - T_{c,0})}{\dot Q_{\text{net gain}}}
@@ -444,7 +444,7 @@ $$
 \tag{51}
 $$
 
-with $z$ the temperature change for a tenfold change in the decimal-reduction time. with the log-reduction achieved by a disinfection process reported as the negative logarithm of the surviving fraction,
+with $z$ the temperature change for a tenfold change in the decimal-reduction time. The log-reduction achieved by a disinfection process is reported as the negative logarithm of the surviving fraction,
 
 $$
 \text{LR} = -\log_{10} \frac{N}{N_0}
@@ -930,10 +930,10 @@ M = \text{met} \times 58.15 \; \text{W m}^{-2}
 $$
 
 **Equation 23, Rate of Change of Core Temperature.**
-The storage term divided by body mass times tissue specific heat gives the rate at which core temperature changes.
+The storage term times the body surface area, divided by body mass times tissue specific heat, gives the rate at which core temperature changes.
 
 $$
-\frac{dT_c}{dt} = \frac{M - W - E - R - C - K}{m \, c_b}
+\frac{dT_c}{dt} = \frac{A_D \, (M - W - E - R - C - K)}{m \, c_b}
 \tag{23}
 $$
 
@@ -1336,6 +1336,7 @@ $$
 - $h_e$, the evaporative heat-transfer coefficient
 - $p_a$, the vapour pressure of the air
 - $c_b$, the specific heat of body tissue
+- $A_D$, the body surface area
 - $T_{c,\lim}$, the hyperthermia threshold of core temperature
 - $Q_{10}$, the factor by which a rate changes per ten degrees
 - $\Gamma$, the geothermal gradient

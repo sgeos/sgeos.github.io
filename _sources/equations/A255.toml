@@ -224,7 +224,7 @@ class = "standard"
 title = "Feudal Network Worker Intrinsic Reward"
 gloss = "The worker is rewarded by the mean cosine similarity between latent state changes and the manager's recent goal directions."
 cite = ["research_vezhnevets_et_al_2017"]
-digest = "e17b0f6481d978b3"
+digest = "5fed06233c1a3755"
 
 [[equation]]
 tag = 29

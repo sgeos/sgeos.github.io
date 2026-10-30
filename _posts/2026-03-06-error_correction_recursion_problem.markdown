@@ -283,7 +283,7 @@ measured in bits, base pairs,
 or component count.
 The equation shows that
 longer information structures
-require exponentially lower
+require proportionally lower
 replication error rates
 in order to remain stable
 across generations.

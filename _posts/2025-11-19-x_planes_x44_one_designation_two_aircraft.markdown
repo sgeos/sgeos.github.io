@@ -461,7 +461,7 @@ $$
 which at the angles in the table below costs under two percent, and the windmilling drag of the dead engine adds to the asymmetry it must cancel, so
 
 $$
-\tan \delta = \frac{y \left( F_{g} + D_{\text{wm}} \right)}{\ell \, F_{g}}
+\tan \delta = \frac{y \left( F_{g} \cos \delta + D_{\text{wm}} \right)}{\ell \, F_{g} \cos \delta}
 \tag{40}
 $$
 
@@ -477,7 +477,7 @@ $$
 | 1.20 m | 6.5 m | 10.46 deg |
 | 1.20 m | 8.5 m | 8.04 deg |
 
-**The published nozzle deflection of the F-22 is twenty degrees, and every angle in that table is below eleven** \[[Pratt and Whitney F119][ref_f119_wikipedia]\]. Adding the windmilling drag of the dead engine at ten percent of the live engine's gross thrust takes the middle case from 7.59 degrees to 8.34, still well within it.
+**The published nozzle deflection of the F-22 is twenty degrees, and every angle in that table is below eleven** \[[Pratt and Whitney F119][ref_f119_wikipedia]\]. Adding the windmilling drag of the dead engine at ten percent of the live engine's gross thrust takes the middle case from 7.59 degrees to 8.35, still well within it.
 
 **A relation explains why a fin is large and a nozzle need not be, without appeal to intuition.** Setting the fin's yawing moment equal to the thrust asymmetry and solving for the geometry gives
 
@@ -1509,10 +1509,10 @@ F_{\text{axial}} = F_{g} \cos \delta = F_{g} \frac{\ell}{\sqrt{y^{2} + \ell^{2}}
 $$
 
 **Equation 40, Engine-Out Trim Angle with Windmilling Drag.**
-Adding the windmilling drag of the dead engine to the asymmetry raises the tangent of the trim angle in proportion to the drag over the live thrust.
+Adding the windmilling drag of the dead engine to the asymmetry raises the tangent of the trim angle in proportion to the drag over the axial component of the live thrust.
 
 $$
-\tan \delta = \frac{y \left( F_{g} + D_{\text{wm}} \right)}{\ell \, F_{g}}
+\tan \delta = \frac{y \left( F_{g} \cos \delta + D_{\text{wm}} \right)}{\ell \, F_{g} \cos \delta}
 \tag{40}
 $$
 

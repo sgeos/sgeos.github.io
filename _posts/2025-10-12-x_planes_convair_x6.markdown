@@ -1861,6 +1861,7 @@ $$
 - $\pi_c$, the compressor pressure ratio
 - $\gamma$, the ratio of specific heats, taken as 1.4 for air
 - $A_{\text{fuel}}$, the heated fuel element surface area
+- $q''$, the heat flux from a fuel element surface into the air
 - $\varepsilon$, the heat exchanger effectiveness
 - $\mathrm{NTU}$, the number of transfer units
 - $P_{\text{decay}}$, the decay heat power after shutdown

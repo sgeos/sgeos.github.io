@@ -408,7 +408,7 @@ FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}
 \tag{33}
 $$
 
-**Latency enters by lengthening interaction without lengthening neglect**, so a two-way delay $\tau$ acts only on the denominator,
+**Latency enters by lengthening interaction without lengthening neglect**, so a one-way delay $\tau$ acts only on the interaction time,
 
 $$
 FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau}

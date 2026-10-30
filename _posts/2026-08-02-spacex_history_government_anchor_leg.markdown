@@ -316,14 +316,14 @@ The Rocketplane Kistler agreement was terminated in the 2007 period after the pr
 
 The case is analytically important for three reasons that the commentary generally reduces to one.
 
-The first and most frequently noted is that the instrument permitted a rapid termination. The agency recovered the unobligated balance and re-competed the position, awarding it to a second provider in the 2008 period as the [NASA news releases][ref_nasa_news] record. The recovery can be stated as
+The first and most frequently noted is that the instrument permitted a rapid termination. The agency recovered the undisbursed balance and re-competed the position, awarding it to a second provider in the 2008 period as the [NASA news releases][ref_nasa_news] record. The recovery can be stated as
 
 $$
 R^{\text{agency}} = K^{\text{obligated}} - K^{\text{disbursed}} \qquad \text{against} \qquad R^{\text{agency}} = -S \quad \text{under a cost-plus termination}
 \tag{28}
 $$
 
-with the agency recovering the unobligated balance under the agreement and paying a settlement under the contract. A comparable failure under a cost-plus development contract would have produced an extended termination process and a settlement.
+with the agency recovering the undisbursed balance under the agreement and paying a settlement under the contract. A comparable failure under a cost-plus development contract would have produced an extended termination process and a settlement.
 
 The second and more analytically interesting is that the failed milestone was a financing milestone rather than a technical one. The instrument conditioned the public capital on the provider's ability to raise the private capital, which makes the public channel and the private channel complements rather than substitutes by explicit design. The structure may be stated compactly
 
@@ -366,7 +366,7 @@ $$
 that is substantial at the contemporaneous valuations and that would have compounded against every subsequent round. The compounding is the feature that makes the timing decisive. A dilution avoided early is a dilution avoided in every later round, because the founder share entering each subsequent round is higher than it would otherwise have been. The cumulative effect may be written
 
 $$
-e^{\text{founder}}_N = \left[ e_0 - \delta^{\text{avoided}} \right] \prod_{n=1}^{N} \left( 1 - \delta_n \right) \qquad \text{against} \qquad e_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
+e^{\text{founder}}_N = e_0 \left( 1 - \delta^{\text{avoided}} \right) \prod_{n=1}^{N} \left( 1 - \delta_n \right) \qquad \text{against} \qquad e_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
 \tag{33}
 $$
 
@@ -1189,10 +1189,10 @@ $$
 $$
 
 *Equation 33, Bespoke Compounding of Avoided Dilution.*
-The founder share after later rounds is compared with and without the avoided dilution, which the article subtracts from the initial share rather than applying as a multiplicative factor.
+The founder share after later rounds is compared with and without the avoided dilution, which scales the initial share as a multiplicative factor in the same way as each later round.
 
 $$
-e^{\text{founder}}_N = \left[ e_0 - \delta^{\text{avoided}} \right] \prod_{n=1}^{N} \left( 1 - \delta_n \right) \qquad \text{against} \qquad e_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
+e^{\text{founder}}_N = e_0 \left( 1 - \delta^{\text{avoided}} \right) \prod_{n=1}^{N} \left( 1 - \delta_n \right) \qquad \text{against} \qquad e_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
 \tag{33}
 $$
 

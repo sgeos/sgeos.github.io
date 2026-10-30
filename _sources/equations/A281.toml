@@ -102,9 +102,9 @@ digest = "06eabfea1166b51f"
 tag = 13
 class = "bespoke"
 title = "Bespoke Break-Even Flight Count for Reuse"
-gloss = "The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment, recovery operations and amortised recovery hardware."
+gloss = "The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment and recovery operations."
 cite = []
-digest = "a97d8b0a2adfc693"
+digest = "1b555efb882dde2c"
 
 [[equation]]
 tag = 14
@@ -430,9 +430,9 @@ digest = "593dc3b7ea964476"
 tag = 54
 class = "standard"
 title = "Present Value of the First Resupply Services Contract"
-gloss = "The present value of the first Commercial Resupply Services contract sums the discounted mission payments, and the article equates it to the announced award of about 1.6 billion dollars."
+gloss = "The present value of the first Commercial Resupply Services contract sums the discounted mission payments, which fall below their undiscounted total, the announced award of about 1.6 billion dollars."
 cite = ["ref_nasa_crs1_press_2008"]
-digest = "f14d5e0e592659e0"
+digest = "a1b0628008398f94"
 
 [[equation]]
 tag = 55

@@ -119,7 +119,7 @@ $$
 with $n$ the cumulative production count and $\gamma_i$ the firm-learning-curve exponent. The cumulative cost savings across the trajectory admits the integral
 
 $$
-\Delta C_i^{\text{cum}}(N) = \int_1^N [c_i(1) - c_i(n)] \, dn = c_i(1) \cdot \left[N - \frac{N^{1-\gamma_i}}{1 - \gamma_i}\right]
+\Delta C_i^{\text{cum}}(N) = \int_1^N [c_i(1) - c_i(n)] \, dn = c_i(1) \cdot \left[N - \frac{N^{1-\gamma_i}}{1 - \gamma_i} + \frac{\gamma_i}{1 - \gamma_i}\right]
 \tag{10}
 $$
 
@@ -160,7 +160,7 @@ $$
 with $k$ the flights per booster before retirement, $c_{\text{stage-hardware}}$ the one-time manufacturing cost, $c_{\text{refurb}}$ the between-flight refurbishment cost, and $c_{\text{recovery-operations}}$ the per-flight recovery cost. The break-even flight count relative to a comparable expendable configuration satisfies
 
 $$
-k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}
+k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}}}
 \tag{15}
 $$
 
@@ -397,7 +397,7 @@ R^{\text{cluster}} = \sum_{k=8}^{9} \binom{9}{k} R_{\text{engine}}^k (1 - R_{\te
 \tag{34}
 $$
 
-with $R_{\text{engine}}$ the individual-engine reliability. Under $R_{\text{engine}} = 0.99$, the cluster reliability accepting one engine-out is approximately 0.9962, exceeding the individual-engine reliability. The nine-engine configuration exploited the engine-out capability to increase system reliability beyond the individual-engine baseline, illustrating the redundancy-based-value-realization channel that the Falcon 9 architectural choice enabled.
+with $R_{\text{engine}}$ the individual-engine reliability. Under $R_{\text{engine}} = 0.99$, the cluster reliability accepting one engine-out is approximately 0.9966, exceeding the individual-engine reliability. The nine-engine configuration exploited the engine-out capability to increase system reliability beyond the individual-engine baseline, illustrating the redundancy-based-value-realization channel that the Falcon 9 architectural choice enabled.
 
 The learning-curve realization for the Merlin engine production across the Falcon 9 vehicle-block progression supports the log-linear estimation
 
@@ -424,7 +424,7 @@ $$
 \tag{37}
 $$
 
-with $g_T$ the compound thrust-to-weight-ratio growth per engine generation, empirically approximately 0.45 per generation across the observed progression.
+with $g_T$ the compound thrust-to-weight-ratio growth per engine generation, empirically approximately 0.62 per generation across the observed progression.
 
 ## The Reusability Progression 2011-2026
 
@@ -459,7 +459,7 @@ h_n = h_0 \cdot e^{\lambda n}
 \tag{38}
 $$
 
-with $h_n$ the altitude at flight $n$, $h_0$ approximately 1.8 meters at the first flight, and $\lambda$ approximately 1.0 across the eight-flight campaign that reached 744 meters at the final flight. The exponential-growth trajectory illustrates the test-fly-learn cadence acceleration that the value-gradient trajectory can achieve under the iterative-development process discipline.
+with $h_n$ the altitude at flight $n$, $h_0$ approximately 1.8 meters at the first flight, and $\lambda$ approximately 0.86 across the eight-flight campaign that reached 744 meters at the final flight. The exponential-growth trajectory illustrates the test-fly-learn cadence acceleration that the value-gradient trajectory can achieve under the iterative-development process discipline.
 
 The first-stage descent kinematics for the propulsive-landing recovery admit the three-burn sequence characterization. The boost-back burn imparts velocity change
 
@@ -806,14 +806,14 @@ sets the fundamental delta-v capacity limit for a given specific impulse and mas
 
 The regulatory-arbitrage framing developed in the space-law literature frames the SpaceX trajectory as an exploitation of the procurement-mechanism transition from the traditional cost-plus Federal Acquisition Regulation contracts to the milestone-payment Space Act Agreement mechanism. The framing captures the regulatory-mechanism advantage the SpaceX trajectory exploited but understates the technical, organizational, and financial choices that permitted the firm to compete effectively under the milestone-payment mechanism.
 
-The launch-cost-supply-side framing developed in the space-economics literature frames the value-gradient trajectory as a supply-side cost-reduction phenomenon that drives the demand-side market-expansion the sector has exhibited. The inverse-supply-curve response to cost reduction takes the form
+The launch-cost-supply-side framing developed in the space-economics literature frames the value-gradient trajectory as a supply-side cost-reduction phenomenon that drives the demand-side market-expansion the sector has exhibited. The demand-curve response to cost reduction takes the form
 
 $$
 Q^{\text{demand}}(P) = A \cdot P^{-\epsilon}, \quad \epsilon > 0
 \tag{58}
 $$
 
-with $\epsilon$ the price elasticity of demand for launch services, empirically estimated at approximately 1.0 to 1.5 across the launch-services sector under industry-analyst reconstruction. The reduction in $P$ from approximately 8000 dollars per kilogram to approximately 1500 dollars per kilogram produces a projected demand expansion by a factor of approximately 5 to 10 under the estimated elasticity, consistent with the observed launch-cadence expansion. The framing captures the dollar-per-kilogram-to-orbit trajectory and the launch-cadence expansion that followed the cost reduction. The framing complements the value-gradient framing by treating the cost-reduction channel as the primary value-realization mechanism, while the value-gradient framing treats the cost-reduction channel as one of several channels through which the value-gradient property is realized.
+with $\epsilon$ the price elasticity of demand for launch services, empirically estimated at approximately 1.0 to 1.5 across the launch-services sector under industry-analyst reconstruction. The reduction in $P$ from approximately 8000 dollars per kilogram to approximately 1500 dollars per kilogram produces a projected demand expansion by a factor of approximately 5 to 12 under the estimated elasticity, consistent with the observed launch-cadence expansion. The framing captures the dollar-per-kilogram-to-orbit trajectory and the launch-cadence expansion that followed the cost reduction. The framing complements the value-gradient framing by treating the cost-reduction channel as the primary value-realization mechanism, while the value-gradient framing treats the cost-reduction channel as one of several channels through which the value-gradient property is realized.
 
 The political-economy critique framing developed in the Marxist and post-Marxist traditions from [Foster and McChesney 2011][book_foster_mcchesney_2011] The Endless Crisis through [Zuboff 2019][book_zuboff_2019] The Age of Surveillance Capitalism and [Srnicek 2017][book_srnicek_2017] Platform Capitalism frames the SpaceX value-gradient trajectory as an instance of the contemporary capital-concentration pattern in which state-financed capability transfers to private ownership under institutional arrangements that concentrate the resulting surplus in a small number of billionaire proprietors. The framing captures the value-appropriation channel from the NASA-financed Falcon 9 development to the private-ownership Starlink line of business as raising distributive-justice questions the article otherwise treats descriptively rather than normatively. The framing intersects with the platform-monopoly framing in the antitrust-adjacent conclusions but derives them from a distinct theoretical scaffolding.
 
@@ -1027,7 +1027,7 @@ $$
 Integrating the gap between first-unit cost and learning-curve cost over production gives the cumulative saving, which grows without bound for a positive exponent.
 
 $$
-\Delta C_i^{\text{cum}}(N) = \int_1^N [c_i(1) - c_i(n)] \, dn = c_i(1) \cdot \left[N - \frac{N^{1-\gamma_i}}{1 - \gamma_i}\right]
+\Delta C_i^{\text{cum}}(N) = \int_1^N [c_i(1) - c_i(n)] \, dn = c_i(1) \cdot \left[N - \frac{N^{1-\gamma_i}}{1 - \gamma_i} + \frac{\gamma_i}{1 - \gamma_i}\right]
 \tag{10}
 $$
 
@@ -1065,10 +1065,10 @@ c_{\text{stage}}^{\text{per-flight}}(k) = \frac{c_{\text{stage-hardware}}}{k} + 
 $$
 
 *Equation 15, Bespoke Break-Even Flight Count for Reuse.*
-The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment, recovery operations and amortised recovery hardware.
+The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment and recovery operations.
 
 $$
-k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}
+k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}}}
 \tag{15}
 $$
 

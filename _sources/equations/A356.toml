@@ -414,9 +414,9 @@ digest = "7246d969a0f65a63"
 tag = 52
 class = "bespoke"
 title = "Bespoke Length Scaling of Wave and Friction Drag"
-gloss = "The article sets the Sears-Haack fourth-power fall in wave drag against a friction drag it takes as proportional to wetted area and a wetted area it takes as proportional to length at fixed volume."
+gloss = "The article sets the Sears-Haack fourth-power fall in wave drag against a friction drag it takes as proportional to wetted area and a wetted area it takes as proportional to the square root of length at fixed volume."
 cite = []
-digest = "3da350b307bd100b"
+digest = "908d76c814e9e34b"
 
 [[equation]]
 tag = 53

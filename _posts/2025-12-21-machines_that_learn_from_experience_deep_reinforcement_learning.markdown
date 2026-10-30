@@ -111,7 +111,7 @@ L^{\text{QR}}(\theta) = \sum_i \sum_j \mathbb{E}\!\left[\rho_{\tau_i}(y_j - Z^i_
 \tag{8}
 $$
 
-where $y_j$ are the target quantile values and $\rho_\tau(u) = u(\tau - \mathbb{1}\{u < 0\})$ is the quantile Huber loss.
+where $y_j$ are the target quantile values and $\rho_\tau(u) = u(\tau - \mathbb{1}\{u < 0\})$ is the quantile loss.
 
 Implicit Quantile Networks of [Dabney et al. 2018b][research_dabney_ostrovski_silver_munos_2018] generalize QR-DQN to arbitrary continuous quantile levels sampled at each update. The IQN network parameterizes a quantile function
 

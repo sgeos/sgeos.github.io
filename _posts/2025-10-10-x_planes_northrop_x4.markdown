@@ -757,7 +757,7 @@ The finding propagated as a design rule. A transonic or supersonic aircraft carr
 The second consequence is the more interesting one and it took longer to arrive. If the problem is insufficient damping, and damping can be manufactured, then the longitudinal objection dissolves, and the lateral and directional damping the X-4 also lacked is open to the same remedy. A pitch damper feeds pitch rate back to the elevator or elevon,
 
 $$
-\delta_e = \delta_{e, \text{pilot}} - k_q \, q_r
+\delta_e = \delta_{e, \text{pilot}} + k_q \, q_r
 \tag{86}
 $$
 
@@ -1801,7 +1801,7 @@ A pitch damper adds to the pilot command a deflection proportional to pitch rate
 [Moul and Brown 1959][research_artificial_pitch_damping_1959]
 
 $$
-\delta_e = \delta_{e, \text{pilot}} - k_q \, q_r
+\delta_e = \delta_{e, \text{pilot}} + k_q \, q_r
 \tag{86}
 $$
 

@@ -1,6 +1,6 @@
 # Equation classification for A362. Read by `python3 _lib/equations.py`.
 
-caution = "The aerodynamic and engine relations are evaluated in the International System, with thirty thousand feet taken as a geopotential altitude of 9,144 metres and the aircraft weight quoted in pounds, the wing area of 16 square metres is a reference value the article takes because none is published, and a few letters need care, so $\\delta$ is a compressor-face pressure ratio while $\\delta F$ is a thrust decrement, $\\mu$ is the dynamic viscosity while the subscript in $C_\\mu$ marks the momentum coefficient, $B$ is the bypass ratio while the bold $\\mathbf{B}$ is the control effectiveness matrix, and $\\mathcal{A}$ is the amplification while $A^{*}$ and $A$ are areas."
+caution = "The aerodynamic and engine relations are evaluated in the International System, with thirty thousand feet taken as a geopotential altitude of 9,144 metres and the aircraft weight quoted in pounds, the wing area of 16 square metres is a reference value the article takes because none is published, and a few letters need care, so $\\delta$ is a compressor-face pressure ratio, $\\mu$ is the dynamic viscosity while the subscript in $C_\\mu$ marks the momentum coefficient, $B$ is the bypass ratio while the bold $\\mathbf{B}$ is the control effectiveness matrix, and $\\mathcal{A}$ is the amplification while $A^{*}$ and $A$ are areas."
 
 [[equation]]
 tag = 1
@@ -336,7 +336,7 @@ class = "bespoke"
 title = "Bespoke Lower Bound on the Thrust Cost of Bleed"
 gloss = "At an assumed bleed fraction of 8 percent and an assumed bypass ratio of 3.3, the momentum lost with the bled air bounds the thrust decrement below at 1.86 percent."
 cite = []
-digest = "68c3ed9790a89494"
+digest = "e47cacfe836d2170"
 
 [[equation]]
 tag = 43
@@ -651,7 +651,7 @@ tex = 'B'
 meaning = "the engine bypass ratio"
 
 [[symbol]]
-tex = '\delta F'
+tex = '\Delta F'
 meaning = "the thrust decrement caused by bleed"
 
 [[symbol]]

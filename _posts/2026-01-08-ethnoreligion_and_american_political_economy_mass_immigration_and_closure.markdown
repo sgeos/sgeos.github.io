@@ -672,7 +672,7 @@ Korean American religious formation began with 1903-1905 Hawaiian sugar plantati
 Chinese American religious formation continued patterns documented in [A269][related_post_a269_second_awakening_and_reform] and [A270][related_post_a270_civil_war_and_reconstruction] through ongoing Exclusion Act constraint. Approximately
 
 $$
-P_{\text{Chinese American, US}}(1900) \approx 1.05 \times 10^5, \quad P_{\text{Chinese American, US}}(1920) \approx 6.2 \times 10^4, \quad P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4
+P_{\text{Chinese American, US}}(1900) \approx 8.9 \times 10^4, \quad P_{\text{Chinese American, US}}(1920) \approx 6.2 \times 10^4, \quad P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4
 \tag{61}
 $$
 
@@ -1523,10 +1523,10 @@ P_{\text{Japanese American Christian}}(1930) \approx 1.5 \times 10^4, \quad f_{\
 $$
 
 **Equation 61, Chinese American Population from 1900 to 1940.**
-The Chinese American population is given as about 105,000 in 1900, about 62,000 in 1920 and about 77,000 in 1940.
+The Chinese American population is given as about 89,000 in 1900, about 62,000 in 1920 and about 77,000 in 1940.
 
 $$
-P_{\text{Chinese American, US}}(1900) \approx 1.05 \times 10^5, \quad P_{\text{Chinese American, US}}(1920) \approx 6.2 \times 10^4, \quad P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4
+P_{\text{Chinese American, US}}(1900) \approx 8.9 \times 10^4, \quad P_{\text{Chinese American, US}}(1920) \approx 6.2 \times 10^4, \quad P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4
 \tag{61}
 $$
 

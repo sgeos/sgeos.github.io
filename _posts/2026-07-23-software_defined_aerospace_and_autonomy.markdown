@@ -72,11 +72,11 @@ The value of software-defined radios in aerospace applications is that a single 
 The Nyquist-Shannon sampling theorem cited in [A241][related_post_a241_aerospace_simulation] bounds the analog-to-digital conversion rate that a software-defined radio must support to preserve the full information content of the radio-frequency signal. For a signal of bandwidth $B$ centered at radio frequency $f_c$, direct sampling requires
 
 $$
-f_{\text{sample}} \ge 2 f_c
+f_{\text{sample}} \ge 2 f_c + B
 \tag{5}
 $$
 
-which for typical aerospace radio-frequency bands from 30 megahertz to 30 gigahertz gives sample rates from 60 megasamples per second to 60 gigasamples per second, at the high end substantially exceeding contemporary analog-to-digital converter capability. Direct-conversion architectures address this by downconverting the radio-frequency signal to baseband before sampling, requiring only $2B$ rather than $2f_c$, at some cost in the engineering complexity of the analog downconversion stage.
+which for typical aerospace radio-frequency bands from 30 megahertz to 30 gigahertz gives sample rates from 60 megasamples per second to 60 gigasamples per second, at the high end substantially exceeding contemporary analog-to-digital converter capability. Direct-conversion architectures address this by downconverting the radio-frequency signal to baseband before sampling, requiring only $2B$ rather than $2f_c + B$, at some cost in the engineering complexity of the analog downconversion stage.
 
 ## Unmanned Aerial Vehicles
 
@@ -104,7 +104,7 @@ T_{\text{Dijkstra}}(N) = O(N^2)
 \tag{7}
 $$
 
-with the more efficient A-star variant, when implemented with a Fibonacci-heap priority queue and equipped with an admissible heuristic, achieving worst-case complexity bounded above by
+with both Dijkstra and the A-star variant, when implemented with a Fibonacci-heap priority queue and, for A-star, equipped with a consistent heuristic, achieving worst-case complexity bounded above by
 
 $$
 T_{\text{A-star}}(N, E) = O(E + N \log N)
@@ -202,10 +202,10 @@ T_{\text{sensor-display}} = T_{\text{sensor}} + T_{\text{bus}} + T_{\text{comput
 $$
 
 **Equation 5, Nyquist Rate for Direct Radio-Frequency Sampling.**
-Direct sampling of a radio-frequency signal must occur at no less than twice its frequency to preserve its information content.
+Direct sampling of a radio-frequency signal must occur at no less than twice its highest frequency to preserve its information content.
 
 $$
-f_{\text{sample}} \ge 2 f_c
+f_{\text{sample}} \ge 2 f_c + B
 \tag{5}
 $$
 

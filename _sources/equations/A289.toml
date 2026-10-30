@@ -262,9 +262,9 @@ digest = "4862e121928ac42d"
 tag = 33
 class = "bespoke"
 title = "Bespoke Compounding of Avoided Dilution"
-gloss = "The founder share after later rounds is compared with and without the avoided dilution, which the article subtracts from the initial share rather than applying as a multiplicative factor."
+gloss = "The founder share after later rounds is compared with and without the avoided dilution, which scales the initial share as a multiplicative factor in the same way as each later round."
 cite = []
-digest = "db67d627c416228b"
+digest = "e164dd28d1ab2c52"
 
 [[equation]]
 tag = 34

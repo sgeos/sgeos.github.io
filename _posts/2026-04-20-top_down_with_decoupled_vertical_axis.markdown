@@ -536,7 +536,7 @@ $$
 \tag{20}
 $$
 
-which is a world point one unit below the jumping player's horizontal position.
+which is a world point nine units north of the jumping player's horizontal position.
 A movement command at this world point
 would walk toward the click.
 The click is not interpreted as a selection of the airborne player.

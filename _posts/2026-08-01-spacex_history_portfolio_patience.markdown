@@ -623,10 +623,10 @@ The Superconducting Super Collider constitutes the negation case in the publicly
 
 The case is a portfolio-patience negation in the same structural sense as the Iridium case and in a different institutional setting. The programme was a single indivisible undertaking that would return its scientific value only upon completion and that returned substantially nothing at any intermediate stage. The programme therefore faced an annual appropriation decision in which the decision maker compared a continuing cost against a benefit that remained entirely prospective, and the comparison is one a single-line configuration loses whenever the appropriator's horizon is shorter than the programme's.
 
-The structure permits the concise form. The programme survives to completion only if
+The structure permits the concise form. The probability that the programme survives to completion is
 
 $$
-\prod_{y=1}^{Y} P\!\left( \text{appropriation continues in year } y \right) > 0
+P\!\left( \text{completion} \right) = \prod_{y=1}^{Y} P\!\left( \text{appropriation continues in year } y \right)
 \tag{57}
 $$
 
@@ -1422,7 +1422,7 @@ $$
 The survival of the Superconducting Super Collider is expressed through a product over construction years of the probability that the appropriation continues, which assumes the years are independent.
 
 $$
-\prod_{y=1}^{Y} P\!\left( \text{appropriation continues in year } y \right) > 0
+P\!\left( \text{completion} \right) = \prod_{y=1}^{Y} P\!\left( \text{appropriation continues in year } y \right)
 \tag{57}
 $$
 

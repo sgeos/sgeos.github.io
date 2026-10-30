@@ -635,7 +635,7 @@ C_{D_{i}} = \frac{C_{L}^{2}}{\pi e AR}
 \tag{51}
 $$
 
-At the measured lift coefficient of 0.134 and an Oswald efficiency of 0.6, the induced contribution is
+At the estimated lift coefficient of 0.134 and an Oswald efficiency of 0.6, the induced contribution is
 
 $$
 C_{D_{i}} = \frac{0.134^{2}}{\pi (0.6)(1.44)} = 0.0066

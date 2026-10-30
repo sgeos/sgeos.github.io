@@ -1,6 +1,6 @@
 # Equation classification for A358. Read by `python3 _lib/equations.py`.
 
-caution = "The sizing, wake, cable and control relations are evaluated in the International System while speeds, altitudes and stand-off distances are often quoted in knots and feet, and several letters are marked to avoid collisions, so $\\Theta$ is the static temperature because $T$ is the thrust and $T_c$ the cable tension, $\\ell$ is the cable length because $L$ is the lift, $e$ is the span efficiency while the upright $\\mathrm{e}$ is the base of the natural logarithm, $\\alpha$ is the acceleration a gust produces while $\\Delta \\alpha$ is an increment in angle of attack, $c$ is the thrust specific fuel consumption while $\\bar{c}$ is the mean chord, $b$ is the carrier span while $b_v$ is the vehicle span, and $w$ is the centreline downwash except in the folded panel relation, where it is the body width."
+caution = "The sizing, wake, cable and control relations are evaluated in the International System while speeds, altitudes and stand-off distances are often quoted in knots and feet, and several letters are marked to avoid collisions, so $\\Theta$ is the static temperature because $T$ is the thrust and $T_c$ the cable tension, $\\ell$ is the cable length because $L$ is the lift, $e$ is the span efficiency while the upright $\\mathrm{e}$ is the base of the natural logarithm, $\\alpha$ is the acceleration a gust produces while $\\Delta \\alpha$ is an increment in angle of attack, $c$ is the thrust specific fuel consumption while $\\bar{c}$ is the mean chord, $b$ is the carrier span while $b_v$ is the vehicle span, and $w$ is the centreline downwash while $w_v$ is the body width."
 
 [[equation]]
 tag = 1
@@ -568,7 +568,7 @@ class = "standard"
 title = "Semispan of a Folded Wing Panel"
 gloss = "Each folded panel spans half the difference between the deployed span and the body width."
 cite = ["ref_x61_wikipedia"]
-digest = "8c0bc9831b370528"
+digest = "f17d9b94431a4a68"
 
 [[symbol]]
 tex = '\rho'

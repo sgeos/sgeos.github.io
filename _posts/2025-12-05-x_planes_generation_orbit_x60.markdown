@@ -42,11 +42,11 @@ $$
 $$
 \frac{\dot{m}_a}{A_c} \bigg|_{M = 6} \;=\; \frac{2 \times 1500 \times 47.88\ \text{Pa}}
 {1,479.5\ \text{m/s} \times 6/5}
-  \;=\; 80.4\ \text{kg}\,\text{m}^{-2}\text{s}^{-1}
+  \;=\; 80.9\ \text{kg}\,\text{m}^{-2}\text{s}^{-1}
 \tag{2}
 $$
 
-**And the flux falls as the Mach number rises at fixed dynamic pressure**, from 97 kilograms per square metre per second at Mach 5 to 59.8 at Mach 8, because the same $q$ is being delivered at a higher speed and therefore a lower density. An engine that wants more air as it goes faster has to be flown deeper into the atmosphere. The corridor exists to manage that tension.
+**And the flux falls as the Mach number rises at fixed dynamic pressure**, from 97 kilograms per square metre per second at Mach 5 to 60.7 at Mach 8, because the same $q$ is being delivered at a higher speed and therefore a lower density. An engine that wants more air as it goes faster has to be flown deeper into the atmosphere. The corridor exists to manage that tension.
 
 Thermal protection has to be exposed to a real stagnation enthalpy for a real duration. Boundary-layer transition, which decides how much heating a vehicle sees, depends on a Reynolds number based on distance from the leading edge.
 
@@ -195,7 +195,7 @@ The public record gives two performance figures for the X-60A. The designation r
 | $\Delta V$ | the velocity increment the rocket must supply |
 | $\Delta V_g$ | the velocity lost to gravity during powered ascent |
 | $\Delta V_d$ | the velocity lost to drag during powered ascent |
-| $\Delta V_k$ | the kinematic velocity increment, ignoring the climb |
+| $\Delta V_k$ | the kinematic velocity increment, including the climb |
 | $D$ | the aerodynamic drag |
 | $L$ | the aerodynamic lift |
 | $W$ | the vehicle weight |
@@ -207,6 +207,7 @@ The public record gives two performance figures for the X-60A. The designation r
 | $l_b$ | the booster length |
 | $l_t$ | the length of the propellant tankage |
 | $f_r$ | the fineness ratio of the booster |
+| $b$ | the fin span |
 | $\theta$ | the flight path angle above the horizontal |
 | $\theta_0$ | the flight path angle at release from the carrier |
 | $\theta_b$ | the commanded flight path angle at burnout |
@@ -635,7 +636,7 @@ $$
 The span follows the same way.
 
 $$
-\frac{S}{d}
+\frac{b}{d}
 \tag{52}
 $$
 
@@ -1352,7 +1353,7 @@ The mass flux per unit capture area is evaluated at 1,500 pounds per square foot
 $$
 \frac{\dot{m}_a}{A_c} \bigg|_{M = 6} \;=\; \frac{2 \times 1500 \times 47.88\ \text{Pa}}
 {1,479.5\ \text{m/s} \times 6/5}
-  \;=\; 80.4\ \text{kg}\,\text{m}^{-2}\text{s}^{-1}
+  \;=\; 80.9\ \text{kg}\,\text{m}^{-2}\text{s}^{-1}
 \tag{2}
 $$
 
@@ -1784,7 +1785,7 @@ $$
 The span over the recovered diameter is a check of the recovered geometry against an ordinary slender configuration.
 
 $$
-\frac{S}{d}
+\frac{b}{d}
 \tag{52}
 $$
 

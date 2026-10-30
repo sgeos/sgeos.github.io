@@ -218,7 +218,7 @@ Policy iteration converges to $\pi^\*$ in a finite number of iterations for fini
 
 Modified policy iteration interpolates between value and policy iteration by performing a limited number of Bellman expectation operator applications before each policy improvement step, trading exactness of policy evaluation for reduced per-iteration cost. Asynchronous dynamic programming permits the Bellman operator to be applied to states in arbitrary order and possibly with stale value estimates, provided every state is visited infinitely often. Gauss-Seidel value iteration uses the most recent updated values within each sweep, typically converging faster in practice than the synchronous Jacobi-style update.
 
-Linear programming provides an alternative exact solution method for finite MDPs. The optimal value function is the unique feasible solution of
+Linear programming provides an alternative exact solution method for finite MDPs. The optimal value function is the unique optimal solution of
 
 $$
 \min_{V} \sum_s \mu_0(s) V(s) \quad \text{subject to} \quad V(s) \geq \sum_{s', r} P(s', r \mid s, a) [r + \gamma V(s')] \; \forall s, a
@@ -252,7 +252,7 @@ The standard resolutions are the assumption of exploring starts, in which each e
 Off-policy Monte Carlo control learns about a target policy $\pi$ from data generated under a behavior policy $\mu$ via importance sampling. The per-episode importance sampling ratio for an episode of length $T$ is
 
 $$
-\rho_{0:T} = \prod_{t=0}^{T} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
+\rho_{0:T-1} = \prod_{t=0}^{T-1} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
 \tag{27}
 $$
 
@@ -297,7 +297,7 @@ $$
 
 is the fundamental quantity driving both prediction and control algorithms in the value-based family.
 
-TD(0) is guaranteed to converge to $V^{\pi}$ under linear function approximation and mild step-size conditions, with the tabular case as a special case of this result. The Robbins-Monro conditions require
+TD(0) is guaranteed to converge under on-policy linear function approximation and mild step-size conditions to the projected Bellman fixed point, which equals $V^{\pi}$ in the tabular case. The Robbins-Monro conditions require
 
 $$
 \sum_{t=0}^{\infty} \alpha_t = \infty, \quad \sum_{t=0}^{\infty} \alpha_t^2 < \infty
@@ -535,7 +535,7 @@ $$
 where $\delta_t$ is the TD error computed with $V_w$. This is stochastic gradient descent on a modified least-squares objective, not on true mean-squared value error, and the resulting fixed point is the solution of a projected Bellman equation
 
 $$
-w = \Pi_{\phi} T^{\pi} V_w
+V_w = \Pi_{\phi} T^{\pi} V_w
 \tag{58}
 $$
 
@@ -1069,7 +1069,7 @@ $$
 The ratio of target to behaviour policy probabilities multiplied along an episode reweights its return toward the target policy.
 
 $$
-\rho_{0:T} = \prod_{t=0}^{T} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
+\rho_{0:T-1} = \prod_{t=0}^{T-1} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
 \tag{27}
 $$
 
@@ -1334,7 +1334,7 @@ Linear temporal-difference learning converges to the value function that equals 
 [Tsitsiklis and Van Roy 1997][research_tsitsiklis_van_roy_1997]
 
 $$
-w = \Pi_{\phi} T^{\pi} V_w
+V_w = \Pi_{\phi} T^{\pi} V_w
 \tag{58}
 $$
 
@@ -1555,7 +1555,7 @@ $$
 - $\mathbf{P}^{\pi}$, the state transition matrix induced by policy $\pi$
 - $\delta_t$, the temporal-difference error at step $t$
 - $\alpha$, a step size
-- $\rho_{0:T}$, the importance sampling ratio of an episode
+- $\rho_{0:T-1}$, the importance sampling ratio of an episode
 - $G_t^{(n)}$, the $n$-step return
 - $G_t^{\lambda}$, the $\lambda$-return
 - $\lambda$, the trace decay parameter, which in equation 64 also weights the interest against the follow-on trace

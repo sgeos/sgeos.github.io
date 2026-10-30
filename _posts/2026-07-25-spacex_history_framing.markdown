@@ -140,7 +140,7 @@ $$
 with $c_{\text{stage-hardware}}$ the one-time manufacturing cost, $c_{\text{refurb}}$ the between-flight refurbishment cost, and $c_{\text{recovery-operations}}$ the per-flight recovery-and-transport cost. The empirical Falcon 9 booster-life record documents $k$ values reaching the low double digits by the drafting date. The break-even flight count relative to a comparable expendable configuration satisfies
 
 $$
-k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}
+k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}}}
 \tag{13}
 $$
 
@@ -577,7 +577,7 @@ Rocketplane Kistler failed to meet the milestone-completion schedule and [NASA t
 The [Commercial Resupply Services contract was announced on December 23 2008][ref_nasa_crs1_press_2008] with initial awards to SpaceX for approximately 1.6 billion dollars covering 12 cargo missions to the International Space Station and to Orbital Sciences for approximately 1.9 billion dollars covering 8 cargo missions. The SpaceX CRS-1 contract present-value structure satisfied
 
 $$
-PV^{\text{CRS-1}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}
+PV^{\text{CRS-1}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} < \sum_{k=1}^{12} P_k^{\text{mission}} \approx 1.6 \text{ billion dollars}
 \tag{54}
 $$
 
@@ -1006,10 +1006,10 @@ c_{\text{stage}}^{\text{per-flight}} = \frac{c_{\text{stage-hardware}}}{k} + c_{
 $$
 
 *Equation 13, Bespoke Break-Even Flight Count for Reuse.*
-The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment, recovery operations and amortised recovery hardware.
+The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment and recovery operations.
 
 $$
-k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}
+k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}}}
 \tag{13}
 $$
 
@@ -1339,11 +1339,11 @@ $$
 $$
 
 **Equation 54, Present Value of the First Resupply Services Contract.**
-The present value of the first Commercial Resupply Services contract sums the discounted mission payments, and the article equates it to the announced award of about 1.6 billion dollars.
+The present value of the first Commercial Resupply Services contract sums the discounted mission payments, which fall below their undiscounted total, the announced award of about 1.6 billion dollars.
 [Orbital Sciences was selected in February 2008][ref_nasa_crs1_press_2008]
 
 $$
-PV^{\text{CRS-1}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}
+PV^{\text{CRS-1}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} < \sum_{k=1}^{12} P_k^{\text{mission}} \approx 1.6 \text{ billion dollars}
 \tag{54}
 $$
 

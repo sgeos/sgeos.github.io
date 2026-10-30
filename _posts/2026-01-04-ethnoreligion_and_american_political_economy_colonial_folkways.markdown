@@ -29,7 +29,7 @@ $$
 with intermediate values roughly on the exponential trajectory
 
 $$
-P_{\text{Anglo}}(t) = P_0 \, \exp(\lambda (t - t_0)), \quad \lambda \approx 0.031 \text{ per year}
+P_{\text{Anglo}}(t) = P_0 \, \exp(\lambda (t - t_0)), \quad \lambda \approx 0.046 \text{ per year}
 \tag{2}
 $$
 
@@ -520,10 +520,10 @@ P_{\text{Anglo}}(1620) \approx 5 \times 10^3, \quad P_{\text{Anglo}}(1700) \appr
 $$
 
 *Equation 2, Bespoke Exponential Colonial Growth.*
-The article fits the colonial population to a single exponential trajectory with a constant growth rate of about 3.1 percent per year that it splits roughly equally between natural increase and migration.
+The article fits the colonial population to a single exponential trajectory with a constant growth rate of about 4.6 percent per year that it splits roughly equally between natural increase and migration.
 
 $$
-P_{\text{Anglo}}(t) = P_0 \, \exp(\lambda (t - t_0)), \quad \lambda \approx 0.031 \text{ per year}
+P_{\text{Anglo}}(t) = P_0 \, \exp(\lambda (t - t_0)), \quad \lambda \approx 0.046 \text{ per year}
 \tag{2}
 $$
 

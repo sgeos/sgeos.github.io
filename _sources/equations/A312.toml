@@ -598,9 +598,9 @@ digest = "b42b30ab96720185"
 tag = 75
 class = "bespoke"
 title = "Bespoke Ratio of Shedding Time at the Record Altitude to Flight Time"
-gloss = "The 102 minutes resting on the assumed drag coefficient is about ten times a representative flight of ten minutes."
+gloss = "The 92 minutes resting on the assumed drag coefficient is about nine times a representative flight of ten minutes."
 cite = []
-digest = "5a5a3b950779e421"
+digest = "8d806dbb59309f18"
 
 [[equation]]
 tag = 76
