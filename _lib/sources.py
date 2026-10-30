@@ -95,6 +95,24 @@ LEGACY_PREFIXES = ("related_post_", "research_", "future_", "book_", "ref_")
 # Canonical anchors in the database are stricter than what a post may contain,
 # lower case only, so two spellings of one source cannot coexist.
 ANCHOR_RE = re.compile(r"^[a-z0-9_]+$")
+# C0 controls other than tab and newline, and DEL. Any of them in a record reaches
+# the article and stops XeLaTeX with "invalid character". Three records carried one
+# in October 2026, U+0002 inside a title and U+007F where an umlaut belonged.
+CONTROL_RE = re.compile(r"[\x00-\x08\x0b-\x1f\x7f]")
+
+
+def _string_values(value):
+    """Every string inside a record value, walked with an explicit stack."""
+    stack, out = [value], []
+    while stack:
+        v = stack.pop()
+        if isinstance(v, str):
+            out.append(v)
+        elif isinstance(v, dict):
+            stack.extend(v.values())
+        elif isinstance(v, list):
+            stack.extend(v)
+    return out
 FRAGMENT_RE = re.compile(rf"^{post.ANCHOR}$")
 
 MONTHS = ("January", "February", "March", "April", "May", "June", "July",
@@ -340,6 +358,8 @@ def validate_record(r, venues):
     a = r.get("anchor", "?")
     unknown = sorted(set(r) - FIELDS)
     _require(not unknown, f"{a}: unknown field(s) {', '.join(unknown)}")
+    controlled = sorted(k for k, v in r.items() if any(CONTROL_RE.search(x) for x in _string_values(v)))
+    _require(not controlled, f"{a}: control character in {', '.join(controlled)}")
     for date_field, pattern in (("published", r"^\d{4}(-\d{2}(-\d{2})?)?$"), ("accessed", r"^\d{4}-\d{2}-\d{2}$")):
         _require(date_field not in r or re.match(pattern, str(r[date_field])),
                  f"{a}: {date_field} must be ISO, got {r.get(date_field)!r}")

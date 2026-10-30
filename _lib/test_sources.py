@@ -187,6 +187,14 @@ def t_validation_rejects_placeholder_pages():
     raises(lambda: S.validate_record(journal(pages="n/a-n/a"), VENUES), "placeholder")
 
 
+def t_validation_rejects_control_characters():
+    """A U+0002 in a title and a DEL in a family name each stopped a PDF."""
+    raises(lambda: S.validate_record(journal(title="Gimbal\x02-Torque"), VENUES), "control character in title")
+    bad = journal(authors=[{"family": "M\x7fuller", "given": "Siegfried"}])
+    raises(lambda: S.validate_record(bad, VENUES), "control character in authors")
+    S.validate_record(journal(title="Tab\tand newline\n are allowed"), VENUES)
+
+
 def t_alias_claimed_twice_is_rejected():
     a = journal("research_a_2020", aliases=["research_old"])
     b = journal("research_b_2020", aliases=["research_old"])
