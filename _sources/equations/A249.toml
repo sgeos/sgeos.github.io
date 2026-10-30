@@ -1,0 +1,235 @@
+# Equation classification for A249. Read by `python3 _lib/equations.py`.
+
+caution = "Revenue, handle and subsidy are in United States dollars per visitor or per year as the surrounding text states, water volumes are in acre-feet per year while per-capita use is in gallons per capita per day, so the two must be brought to common units before the population ceiling is evaluated, and the letter $c$ denotes the amenity subsidy in the gaming equations but per-capita water use in the water equations."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Expected Value of a Wager"
+gloss = "A player who stakes an amount against a game with a given house hold expects to lose that hold fraction of the stake, which is the house edge."
+cite = []
+digest = "968230d25de39232"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Aggregate Gaming Revenue"
+gloss = "Gaming revenue is the number of visitors times the handle each generates times the hold percentage."
+cite = []
+digest = "13ea700c1e0b8736"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Per-Visitor Profit Under Amenity Subsidy"
+gloss = "The article models the profit from a visitor as the gaming margin on that visitor's handle less a per-visitor amenity subsidy."
+cite = []
+digest = "f80ef1f7a859160e"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Optimal Amenity Subsidy Condition"
+gloss = "Assuming that handle rises with the amenity subsidy, the article's profit model is maximised where one further dollar of subsidy returns exactly one dollar of gaming revenue."
+cite = []
+digest = "aff1fa091897347e"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Non-Gaming Revenue Share"
+gloss = "The non-gaming share is non-gaming revenue divided by the sum of gaming and non-gaming revenue, the measure in which the Nevada Gaming Control Board reports the change in the revenue mix of the Strip."
+cite = ["ref_nevada_gcb"]
+digest = "3537d15e849e6a03"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Per-Visitor Revenue Decomposition"
+gloss = "The article assembles revenue per visitor as the sum of room, food, show, beverage and fee charges plus the expected gaming loss, with each amenity treated as a profit centre."
+cite = []
+digest = "e31fc80708bde2c9"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Elasticity of Visitation With Respect to Amenity Charges"
+gloss = "The elasticity is the negative of the proportional change in visitor volume per proportional change in amenity charges, so that it is positive when higher charges deter visitors."
+cite = []
+digest = "43614b04c8d794d1"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Consumptive Water Balance"
+gloss = "The article writes the water available to southern Nevada as the base Colorado River allocation plus return-flow credit less unrecovered losses, a budget assembled for the regional argument."
+cite = ["ref_snwa_report"]
+digest = "ba93a4a049a68318"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Exponential Decline of Per-Capita Water Use"
+gloss = "The article assumes that per-capita consumptive use falls exponentially from the 2024 baseline at a rate of 0.015 per year, taken from within the observed range of 1 to 2 per cent per year."
+cite = []
+digest = "abb9a2bf2562a74c"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Population Ceiling Under the Water Constraint"
+gloss = "The article bounds the metropolitan population by dividing the available water by per-capita use, assuming that all available water serves per-capita demand."
+cite = []
+digest = "bef53f9f7a4a81ff"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Macau to Strip Gaming Revenue Ratio"
+gloss = "The article defines the ratio of Macau gaming revenue to Las Vegas Strip gaming revenue in a given year to track the shift in global position after 2006."
+cite = ["ref_macau_dicj"]
+digest = "6ec5c0b1bbde107d"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Linear Projection of Extreme Heat Days"
+gloss = "The article extrapolates the annual count of days at or above 105 degrees Fahrenheit linearly from a 2024 baseline of 68 days at an assumed rate of 1.3 days per year."
+cite = ["ref_noaa_las_vegas"]
+digest = "b5b27ced3ad7726e"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Strip Share of United States Commercial Gaming Revenue"
+gloss = "The share is Strip gaming revenue divided by total United States commercial gaming revenue in the same year."
+cite = []
+digest = "a459b30b104444ba"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Cohort-Weighted Gambling Participation"
+gloss = "The article writes aggregate participation as the cohort shares of the population weighted by fixed cohort participation rates, assuming that each cohort keeps its rate as it ages."
+cite = ["ref_agrs_survey"]
+digest = "bf15ce4a30243364"
+
+[[symbol]]
+tex = 'E[X]'
+meaning = "the expected value of a wager to the player"
+
+[[symbol]]
+tex = 'W'
+meaning = "the amount wagered"
+
+[[symbol]]
+tex = 'h'
+meaning = "the house hold percentage"
+
+[[symbol]]
+tex = 'R_g'
+meaning = "aggregate gaming revenue, written $R_g(t)$ for year $t$"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of visitors"
+
+[[symbol]]
+tex = 'H'
+meaning = "the handle, the total amount wagered per visitor"
+
+[[symbol]]
+tex = '\pi'
+meaning = "the casino's expected profit per visitor"
+
+[[symbol]]
+tex = 'c'
+meaning = "the per-visitor amenity subsidy in the gaming equations"
+
+[[symbol]]
+tex = "\\alpha'(c)"
+meaning = "the marginal increase in handle per dollar of amenity subsidy"
+
+[[symbol]]
+tex = 'r_{ng}(t)'
+meaning = "the non-gaming share of Strip revenue"
+
+[[symbol]]
+tex = 'R_{ng}(t)'
+meaning = "non-gaming revenue in year $t$"
+
+[[symbol]]
+tex = 'r_v'
+meaning = "revenue per visitor"
+
+[[symbol]]
+tex = '\epsilon_{V,c}'
+meaning = "the elasticity of visitor volume with respect to amenity charges"
+
+[[symbol]]
+tex = 'V'
+meaning = "visitor volume"
+
+[[symbol]]
+tex = 'W_{avail}'
+meaning = "the consumptive water balance available to southern Nevada"
+
+[[symbol]]
+tex = 'A'
+meaning = "the base Colorado River Compact allocation of 300000 acre-feet per year"
+
+[[symbol]]
+tex = 'C_{loss}'
+meaning = "unrecovered evaporative and system losses"
+
+[[symbol]]
+tex = 'c(t)'
+meaning = "per-capita consumptive water use in year $t$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the annual rate of decline of per-capita water use"
+
+[[symbol]]
+tex = 'P_{max}(t)'
+meaning = "the metropolitan population ceiling under the water constraint"
+
+[[symbol]]
+tex = '\rho_{MV}(t)'
+meaning = "the ratio of Macau gaming revenue to Las Vegas Strip gaming revenue"
+
+[[symbol]]
+tex = 'R_M(t)'
+meaning = "Macau gaming revenue in year $t$"
+
+[[symbol]]
+tex = 'R_V(t)'
+meaning = "Las Vegas Strip gaming revenue in year $t$"
+
+[[symbol]]
+tex = 'D_{105}(t)'
+meaning = "the number of days per year at or above 105 degrees Fahrenheit"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the assumed annual increase in days at or above 105 degrees Fahrenheit"
+
+[[symbol]]
+tex = 's_{LV}(t)'
+meaning = "the Strip's share of United States commercial gaming revenue"
+
+[[symbol]]
+tex = 'R_{US}(t)'
+meaning = "United States commercial gaming revenue in year $t$"
+
+[[symbol]]
+tex = 'P_g(t)'
+meaning = "aggregate gambling participation"
+
+[[symbol]]
+tex = 'w_c(t)'
+meaning = "the population weight of cohort $c$"
+
+[[symbol]]
+tex = 'p_c'
+meaning = "the gambling participation rate of cohort $c$"

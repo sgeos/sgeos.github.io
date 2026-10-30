@@ -1,0 +1,751 @@
+# Equation classification for A279. Read by `python3 _lib/equations.py`.
+
+caution = "Rates are per unit time on the platform in question, damages and costs are in United States dollars, the indicator equations take the value zero or one, and several letters are reused, with $\\alpha$ a self-excitation gain, a phase rate, a co-occurrence coefficient and a platform amplification gain, $\\gamma$ a decay or recovery rate and also a residual self-effect, and $T$ a target, a litigation duration in months and a test statistic."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Six-Axis Technique Vector"
+gloss = "The article characterises each competitor-attack technique by its positions on the six analytical axes of the framing article."
+cite = []
+digest = "f1d6b7f3410883ae"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Weighted Technique Distance"
+gloss = "The article defines the distance between attack techniques as a weighted sum of axis-specific distances, as in the self-promotion case."
+cite = []
+digest = "6862b8dfb2160d02"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Attack Utility"
+gloss = "The article writes the attacker's objective as negatively weighted goal functions of the target's state plus any residual effect on the attacker's own state."
+cite = []
+digest = "7bdc2f29a2a736a8"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Competitive Differential"
+gloss = "The article measures the attacker's benefit as the change in the reputation gap between attacker and target since the pre-attack baseline."
+cite = []
+digest = "7fedfa9dd9b10d1e"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Aggregate Competitor-Attack Volume"
+gloss = "The aggregate volume is the sum over techniques and categories of signal-event volume times the prevalence rate."
+cite = []
+digest = "6a234411b7f7c55f"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Negative Rating-Shift Model"
+gloss = "The article writes the observed rating change as the authentic change less the dilution of the pre-injection mean by fake negative reviews at their share of all reviews."
+cite = []
+digest = "0da77c66077054fa"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Reviewer Negative Concentration"
+gloss = "The article defines the fraction of a reviewer's reviews rated two stars or below as an attack signature."
+cite = []
+digest = "676b9e093560fe08"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Reviewer-Target Concentration"
+gloss = "The article defines the fraction of a reviewer's reviews that are low-rated reviews of one target as the target-specific attack signature."
+cite = []
+digest = "564384b8845b37f4"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Hawkes Process for Review-Bombing Arrivals"
+gloss = "The arrival intensity is a baseline rate plus an exponentially decaying contribution from each earlier arrival, with a self-excitation gain that rises during a bombing event."
+cite = []
+digest = "c52c1bfc03063aa1"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Hartigan Dip Statistic"
+gloss = "The dip is the largest absolute difference between the empirical rating distribution and the closest unimodal distribution."
+cite = ["research_hartigan_hartigan_1985"]
+digest = "3bcde75fde8c7d0e"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke External-Coordination Fraction"
+gloss = "The article defines the fraction of reviews in a bombing event whose authors are active on an external coordinating platform."
+cite = []
+digest = "cf44e914218c099d"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Timestamp Alignment Tightness"
+gloss = "The article defines tightness as the fraction of ordered pairs of event reviews whose timestamps fall within a coordination window."
+cite = []
+digest = "d23d19ea0d9f38f6"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Mean Pairwise Content Similarity"
+gloss = "The statistic is the mean of the text similarity over all unordered pairs of reviews in the event."
+cite = []
+digest = "ae05aa7b531e2e16"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Net Vote Shift"
+gloss = "The article writes the net vote change on a review as the authentic change plus coordinated upvotes less coordinated downvotes."
+cite = []
+digest = "f5d02ba1581c875c"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Review-Ordering Position Shift"
+gloss = "The article approximates the position shift as a sensitivity coefficient times the net vote change divided by the square root of the total vote count."
+cite = []
+digest = "d8afd46fe259aece"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Attack-Prompt Mixture Distribution"
+gloss = "The article represents the space of attack prompts as a weighted mixture of template-specific distributions."
+cite = []
+digest = "7dfb942d2ec2aaf7"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Linear Cost of Generated Attacks"
+gloss = "The article approximates the cost of generated negative reviews as a per-review interface cost times volume plus a fixed prompt-engineering cost."
+cite = []
+digest = "6043afb92dfd7e8e"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Detection Accuracy Approaching Chance"
+gloss = "As the quality of generated text approaches that of human text, the area under the curve of any detector approaches one half, the result the article attributes to Sadasivan and colleagues."
+cite = ["research_sadasivan_et_al_2023"]
+digest = "07c07a305e587a01"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Brigading Source Fraction"
+gloss = "The article defines the fraction of participants in a target-community event with prior activity in the source community."
+cite = []
+digest = "b26d442f38c9f07f"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Source-Community Mobilisation Ratio"
+gloss = "The article defines the fraction of active users of the source community who are active on the target at a given time."
+cite = []
+digest = "c4033872f319e165"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Jaccard Similarity of Participant Sets"
+gloss = "The overlap of the source and target communities is the size of the intersection of their participant sets in a window divided by the size of the union."
+cite = []
+digest = "47187328f071d5a2"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Response Arrival Rate"
+gloss = "The pile-on rate is the time derivative of the cumulative count of responses directed at the target."
+cite = []
+digest = "180f237937cd7e49"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Shannon Entropy of Participant Origins"
+gloss = "The diversity of a pile-on is the Shannon entropy of the fractions of participants from each source community."
+cite = []
+digest = "2e5cdde439f3cbaf"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke PageRank Damage From Toxic Backlinks"
+gloss = "The article approximates the damage as the negative of each toxic linking page's damped PageRank contribution scaled by a platform penalty multiplier."
+cite = []
+digest = "b2a89ab72ff24216"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Composite Toxicity Score"
+gloss = "The article scores a linking domain as a weighted sum of spam score, malware flag, penalty history and link-farm participation."
+cite = []
+digest = "0d6960da6b4abfaf"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Disavow Effectiveness"
+gloss = "The article defines effectiveness as the fraction of disavowed links that the search engine subsequently ignores."
+cite = []
+digest = "769b2c33a354a050"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Cosine Similarity of Document Embeddings"
+gloss = "The similarity of two documents is the inner product of their embedding vectors divided by the product of the vector norms."
+cite = []
+digest = "8f346236a09f171b"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Originality Indicator"
+gloss = "The article marks a document as original when its first-publication time is the earliest among all documents similar to it above a threshold."
+cite = []
+digest = "01d20f69e47e8b67"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Elements of Defamation as a Product of Indicators"
+gloss = "A statement is actionable only when it is published, identifies the target, asserts a false fact and causes damages, so the article writes actionability as the product of the element indicators."
+cite = []
+digest = "f7a7ed4abc4786b1"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Total Defamation Damages"
+gloss = "Total damages are the sum of special, general, presumed and punitive damages."
+cite = []
+digest = "093833c994745368"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Unmasking Likelihood"
+gloss = "The article writes the probability that an unmasking order is granted as an unspecified function of the prima facie showing, jurisdiction, platform and content type."
+cite = []
+digest = "d7ae796d2b2b7a14"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Unmasking Cost"
+gloss = "The article assembles the cost of unmasking as the sum of legal, subpoena, platform and delay costs in a given jurisdiction."
+cite = []
+digest = "34ab9d4750f1628f"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Network Damage Aggregation"
+gloss = "The article sums over content instances the damage each does to the target times its visibility times its persistence."
+cite = []
+digest = "f1fee78b6f523776"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Piecewise Campaign Timeline"
+gloss = "The article models campaign damage as linear build-up to a peak, slow linear sustain and exponential decay after a decay time."
+cite = []
+digest = "9f9f43e2a5a7e225"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Displaced Result Count"
+gloss = "The article counts the legitimate results in the top $K$ that are absent from the observed top $K$."
+cite = []
+digest = "849e69f8ba7e1a8d"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Displacement Damage Integral"
+gloss = "The article integrates the counterfactual visibility of legitimate content over the results and times at which it is not visible."
+cite = []
+digest = "691ecf5539ea12f8"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Exponential Recovery After Removal"
+gloss = "The article assumes that reputation recovers toward its earlier level as one minus a decaying exponential at a constant recovery rate."
+cite = []
+digest = "42b719b7606e1d94"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Vote-Manipulation Rank Impact"
+gloss = "The article writes the rank change as an unspecified function of the net vote change, the amount of competing content and the ranking algorithm."
+cite = []
+digest = "1a96fa1c2cb92aa0"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Log-Shifted Ranking Score Impact"
+gloss = "The article approximates the score change under a hot-ranking algorithm as the signed base-ten logarithm of one plus the net vote change, divided by a time-decay divisor."
+cite = []
+digest = "d3017f20a00eca5d"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Kullback-Leibler Divergence Threshold Test"
+gloss = "A rating event is flagged when the Kullback-Leibler divergence of the observed rating distribution from the target's authentic baseline exceeds a detection threshold."
+cite = []
+digest = "faf03d5aa506ede2"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Sybil Participation-Vote Ratio"
+gloss = "The article defines the ratio of Sybil votes to authentic votes on a target."
+cite = []
+digest = "37ba28507defeb7f"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Fraction of False Takedown Notices"
+gloss = "The fraction is the share of notices under the Digital Millennium Copyright Act that lack a valid claim, a quantity Urban, Karaganis and Schofield measure."
+cite = ["research_urban_karaganis_schofield_2016"]
+digest = "365bbb78c48966ab"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Counter-Notice Rate"
+gloss = "The counter-notice rate is the number of counter-notices filed divided by the number of takedown notices received."
+cite = ["research_urban_karaganis_schofield_2016"]
+digest = "c52c88bc33aad473"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Chilling-Effect Index"
+gloss = "The article defines the chilling effect as one less the fraction of removed content that is restored by counter-notice."
+cite = []
+digest = "4dc52b1cab877bf3"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Likelihood Ratio for a False Trademark Claim"
+gloss = "The statistic is the likelihood of the claim features under a false claim divided by their likelihood under a valid claim."
+cite = []
+digest = "215e796026a07c7d"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Standardised Report-Rate Deviation"
+gloss = "The statistic is the report-arrival rate less its baseline mean, divided by its baseline standard deviation."
+cite = []
+digest = "7e3cc4aa5a733c2a"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke False-Positive Amplification Factor"
+gloss = "The article defines amplification as the probability of enforcement action after a given number of reports relative to that after a single report."
+cite = []
+digest = "89a0cd88d54a27ae"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Moderation Queue Backlog"
+gloss = "The article approximates the backlog as the integrated coordinated report arrivals less a constant moderation throughput over the campaign."
+cite = []
+digest = "094fbc36c5602e58"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Standardised Complaint-Burst Deviation"
+gloss = "The statistic is the complaint-arrival rate less its baseline mean, divided by its baseline standard deviation."
+cite = []
+digest = "38624e290c5dae57"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Complaint Resolution Rate"
+gloss = "The article defines the fraction of complaints in an event that are resolved as a signature of complaint farms."
+cite = []
+digest = "ddb87c5f14c82d51"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Ochiai Co-Occurrence Coefficient"
+gloss = "The association between target and topic is the count of documents containing both divided by the geometric mean of the counts containing each."
+cite = []
+digest = "13e2bf6d1a6cd083"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Exponential Meme Decay"
+gloss = "The article assumes that meme visibility decays exponentially from its peak at a constant meme-specific rate."
+cite = []
+digest = "3d3d22944e503f41"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Doxing Damage"
+gloss = "The article assembles doxing damage as the direct damage from disclosure plus the time integral of the harassment it enables."
+cite = []
+digest = "c7c7308accff782d"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Multiplicative Cross-Platform Amplification"
+gloss = "The article assumes that amplification gains on separate platforms combine multiplicatively."
+cite = []
+digest = "ee1e966db76f1137"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Fragmentation Gap"
+gloss = "The article defines the gap as one less the smallest information-sharing intensity between any pair of platforms."
+cite = []
+digest = "dda17cfaebab1f98"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Signed Signal-Axis Tuple"
+gloss = "The article extends the signal-axis tuple with a sign attribute that is negative for competitor-attack techniques."
+cite = []
+digest = "30409627549335ac"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Attack Objective-Axis Utility"
+gloss = "The article writes the objective of each attack class as negatively weighted goal functions of target attributes plus a residual self-effect."
+cite = []
+digest = "ea2e2a9f32fe9d69"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Attacker-Target Edge Weight"
+gloss = "The article assigns the attacker-target edge a negative weight whose magnitude is that of the intended damage."
+cite = []
+digest = "8a97b603fefaa19b"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Competitor-Attack Coupling Matrix"
+gloss = "The article defines a matrix of partial derivatives between axis positions to encode the cross-axis dependencies of competitor attack."
+cite = []
+digest = "8ff69586503872e9"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Frobenius Norm of the Coupling Difference"
+gloss = "The Frobenius norm is the square root of the sum of squared entrywise differences between the two coupling matrices."
+cite = []
+digest = "8c8bd40269fbda3a"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Multi-Modal Detection Score"
+gloss = "The article combines modality-specific detection scores as a weighted sum with weights fitted to labelled data."
+cite = []
+digest = "94c1dd59ababae75"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Target Advantage in Detection"
+gloss = "The article asserts that a target's own detection typically achieves a larger area under the curve than the platform's."
+cite = []
+digest = "f3e6f73d7dd4e43a"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Generic Standardised Attack Anomaly Score"
+gloss = "The anomaly score is an attack-oriented test statistic less its expectation under the null model, divided by its null standard deviation."
+cite = []
+digest = "2570c912b1ea3f52"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Verified-Purchase Fraction"
+gloss = "The article defines the fraction of reviews that carry a verified purchase as the factor by which the requirement shrinks the attack-eligible population."
+cite = []
+digest = "b7e840f293bac1bb"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Per-Account Rate Limit"
+gloss = "A rate limit bounds the observed activity rate of every account by a platform maximum."
+cite = []
+digest = "ddc7bf1b56f7ad95"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Target-Level Aggregate Rate Limit"
+gloss = "A cross-target limit bounds the summed activity rate of all accounts directed at one target by a target-level ceiling."
+cite = []
+digest = "bb8ea15cb6a5b603"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Defamation Action Success Rate"
+gloss = "The success rate is the probability that the plaintiff prevails given that an action is filed."
+cite = ["ref_dmlp_database"]
+digest = "69d856938a1ecdc6"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Defamation Litigation Cost"
+gloss = "The article writes litigation cost as a filing cost plus a discovery cost per month plus a trial cost incurred only if the case goes to trial."
+cite = []
+digest = "7e558badd7c771dd"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Elements of a Lanham Act Section 43a Claim"
+gloss = "A false advertising claim under Section 43a of the Lanham Act requires all five elements, so the article writes actionability as the product of their indicators."
+cite = ["ref_lanham_act_15_usc_1125"]
+digest = "b86a9cf39df85d0e"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Section 230 Immunity Condition"
+gloss = "The article reduces Section 230 immunity to the product of two indicators, that the platform did not materially contribute to the content and that it moderated in good faith."
+cite = ["ref_section_230_cda"]
+digest = "1790d04db932a38d"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Volume-Weighted Composite Attack Prevalence"
+gloss = "The composite estimate is the mean of category estimates weighted by each category's share of volume."
+cite = []
+digest = "0341dbe128515fe5"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Variance of the Composite Attack Prevalence"
+gloss = "The variance of a weighted sum of category estimates is the sum of squared weights times the category variances plus the weighted cross-category covariances."
+cite = []
+digest = "6e80cb45f3f3c939"
+
+[[symbol]]
+tex = '\mathbf{a}_k'
+meaning = "the six-axis position vector of technique $k$"
+
+[[symbol]]
+tex = 'w_c'
+meaning = "the weight of axis $c$ in the technique distance, and the volume weight of category $c$ in the composite prevalence"
+
+[[symbol]]
+tex = 'x_T'
+meaning = "the state of the target"
+
+[[symbol]]
+tex = 'x_A'
+meaning = "the state of the attacker"
+
+[[symbol]]
+tex = '\gamma_{\text{self}}(x_A)'
+meaning = "any residual effect of the attack on the attacker's own state"
+
+[[symbol]]
+tex = 'R_A(t)'
+meaning = "the reputation of the attacker"
+
+[[symbol]]
+tex = 'R_T(t)'
+meaning = "the reputation of the target"
+
+[[symbol]]
+tex = 'n_i^{\text{fake-neg}}'
+meaning = "the injected fake-negative-review count"
+
+[[symbol]]
+tex = '\bar{r}_{\text{pre}}'
+meaning = "the pre-injection average rating"
+
+[[symbol]]
+tex = '\bar{r}_{\text{fake-neg}}'
+meaning = "the average rating of the fake negative reviews, typically one or two stars"
+
+[[symbol]]
+tex = 'N_i'
+meaning = "the pre-injection authentic-review count"
+
+[[symbol]]
+tex = '\alpha^{\text{bomb}}'
+meaning = "the self-excitation gain of the Hawkes process during a bombing event"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the baseline arrival rate"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the decay rate of the Hawkes kernel"
+
+[[symbol]]
+tex = 'D_{\text{dip}}(F)'
+meaning = "the Hartigan dip of the empirical rating distribution $F$"
+
+[[symbol]]
+tex = '\Delta t_{\text{coord}}'
+meaning = "the coordination window, typically 3600 seconds"
+
+[[symbol]]
+tex = '\Delta v_r^{\text{net}}'
+meaning = "the net vote change on review $r$"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the ranking-sensitivity coefficient"
+
+[[symbol]]
+tex = 'P_S(w)'
+meaning = "the set of participants active on source community $S$ during window $w$"
+
+[[symbol]]
+tex = 'p_C'
+meaning = "the fraction of pile-on participants from community $C$"
+
+[[symbol]]
+tex = 'd'
+meaning = "the PageRank damping factor"
+
+[[symbol]]
+tex = 'B_p^{\text{toxic}}'
+meaning = "the toxic inbound-link set of page $p$"
+
+[[symbol]]
+tex = 'e_{\text{disavow}}'
+meaning = "the fraction of disavowed links the search engine ignores"
+
+[[symbol]]
+tex = 'D_{\text{total}}'
+meaning = "total defamation damages"
+
+[[symbol]]
+tex = 'J'
+meaning = "the jurisdiction in the unmasking cost"
+
+[[symbol]]
+tex = 'D_{\text{net}}(T)'
+meaning = "the aggregate damage to target $T$ from a coordinated network"
+
+[[symbol]]
+tex = 't_{\text{peak}}'
+meaning = "the time of peak campaign damage"
+
+[[symbol]]
+tex = '\gamma_{\text{recover}}'
+meaning = "the recovery rate after content removal"
+
+[[symbol]]
+tex = 'T_{\text{decay}}'
+meaning = "the time-decay divisor of the hot-ranking score"
+
+[[symbol]]
+tex = 'D_{\text{KL}}'
+meaning = "the Kullback-Leibler divergence"
+
+[[symbol]]
+tex = 'p_{\text{false-DMCA}}'
+meaning = "the fraction of takedown notices that lack a valid claim"
+
+[[symbol]]
+tex = '\rho_{\text{counter}}'
+meaning = "the counter-notice rate"
+
+[[symbol]]
+tex = '\rho_{\text{chilling}}'
+meaning = "the chilling-effect index"
+
+[[symbol]]
+tex = 'A_{\text{FP}}'
+meaning = "the false-positive amplification factor of coordinated reporting"
+
+[[symbol]]
+tex = '\mu_{\text{mod-throughput}}'
+meaning = "the moderation-processing throughput of the platform"
+
+[[symbol]]
+tex = '\alpha_{T,N}(t)'
+meaning = "the co-occurrence coefficient between target $T$ and negative topic $N$"
+
+[[symbol]]
+tex = '\gamma_{\text{meme}}'
+meaning = "the meme-specific decay rate"
+
+[[symbol]]
+tex = '\alpha_P'
+meaning = "the amplification gain on platform $P$"
+
+[[symbol]]
+tex = 'I(P_i, P_j)'
+meaning = "the information-sharing intensity between two platforms"
+
+[[symbol]]
+tex = 's_m'
+meaning = "the detection score of modality $m$"
+
+[[symbol]]
+tex = '\Lambda_T^{\text{max}}'
+meaning = "the target-level aggregate throughput ceiling"
+
+[[symbol]]
+tex = 's_{\text{def-action}}'
+meaning = "the probability that a defamation plaintiff prevails"
+
+[[symbol]]
+tex = '\hat{p}^{\text{attack}}'
+meaning = "the composite category-weighted prevalence estimate of competitor attack"

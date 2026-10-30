@@ -1,0 +1,123 @@
+# Equation classification for A73. Read by `python3 _lib/equations.py`.
+
+caution = "Reserves are counted in tokens of their own kind, so the invariant carries the product of the two token units, the liquidity carries its square root and every price is quoted as Token Y per Token X."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Constant Product Invariant"
+gloss = "The product of the two reserves of the pool is held fixed during every trade, which defines the pricing curve of a constant product automated market maker."
+cite = []
+digest = "2c5ab6dd18620586"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Liquidity and Reserves in Terms of Price"
+gloss = "Liquidity is the square root of the invariant, the spot price is the ratio of the reserves, and each reserve follows from the liquidity and the square root of the price."
+cite = []
+digest = "4dac1547ce922c25"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Swap Output and Input Without Fees"
+gloss = "Holding the invariant fixed across a trade and solving for the unknown quantity gives the output a trader receives for a given input and the input required for a given output."
+cite = []
+digest = "117611feebc9ad91"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Swap Output and Input With a Fee on the Input"
+gloss = "The fee is deducted from the deposit before the invariant is applied, so only the net input moves the reserves and the trader receives the correspondingly smaller net output."
+cite = []
+digest = "10460da694f73262"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Spot, Execution and Post-Trade Prices"
+gloss = "The spot price before a trade, the average price the trader actually pays and the marginal price after the trade are each a ratio of reserves or of exchanged quantities, with the fee reinvested in the pool."
+cite = []
+digest = "bb9318faee44844d"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Invariant Growth From a Proportional Deposit"
+gloss = "A deposit made in the existing ratio of the reserves leaves the price unchanged and enlarges the invariant by the difference between the new and old products."
+cite = []
+digest = "34dd36a542f42178"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Impermanent Loss of a Full-Range Position"
+gloss = "The value of a constant product position relative to simply holding the deposited tokens depends only on the ratio of the new price to the original price and is never positive."
+cite = []
+digest = "34ab84aad09a8545"
+
+[[symbol]]
+tex = 'x'
+meaning = "the reserve of Token X held by the pool"
+
+[[symbol]]
+tex = 'y'
+meaning = "the reserve of Token Y held by the pool"
+
+[[symbol]]
+tex = 'k'
+meaning = "the invariant, the product of the two reserves, constant during swaps"
+
+[[symbol]]
+tex = 'L'
+meaning = "the liquidity, the square root of the invariant and a measure of pool depth"
+
+[[symbol]]
+tex = 'P'
+meaning = "the spot price, the marginal exchange rate of the pool in Token Y per Token X"
+
+[[symbol]]
+tex = '\Delta x'
+meaning = "the quantity of Token X paid out in a swap, or deposited when liquidity is added"
+
+[[symbol]]
+tex = '\Delta y'
+meaning = "the quantity of Token Y paid in by a trader, or deposited when liquidity is added"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fee taken by the pool as a fraction of the input, such as $0.003$ for 0.3 per cent"
+
+[[symbol]]
+tex = '\Delta x_{net}'
+meaning = "the quantity of Token X the trader receives after the fee is deducted from the input"
+
+[[symbol]]
+tex = '\Delta y_{net}'
+meaning = "the portion of the deposit of Token Y that moves the price after the fee"
+
+[[symbol]]
+tex = 'P_{old}'
+meaning = "the spot price before the trade"
+
+[[symbol]]
+tex = 'P_{effective}'
+meaning = "the execution price, the average price the trader pays"
+
+[[symbol]]
+tex = 'P_{new}'
+meaning = "the spot price after the trade, with the fee reinvested in the pool"
+
+[[symbol]]
+tex = '\Delta k'
+meaning = "the change in the invariant when liquidity is added"
+
+[[symbol]]
+tex = 'IL(r)'
+meaning = "the impermanent loss, the fractional difference between the value of the position and the value of holding"
+
+[[symbol]]
+tex = 'r'
+meaning = "the ratio of the new price to the original price"

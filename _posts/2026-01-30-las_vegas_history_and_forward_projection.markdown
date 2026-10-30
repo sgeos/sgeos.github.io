@@ -26,19 +26,31 @@ The Flamingo project began under Hollywood Reporter founder William R. Wilkerson
 
 The house edge on a wager provides the fundamental profit mechanism. For a wager of amount $W$ against a game with house hold percentage $h$, the expected value to the player is
 
-$$E[X] = -h \cdot W$$
+$$
+E[X] = -h \cdot W
+\tag{1}
+$$
 
 which equals the expected revenue to the house per dollar wagered. Aggregate gaming revenue $R_g$ across $N$ visitors each generating handle $H$ is then
 
-$$R_g = N \cdot H \cdot h$$
+$$
+R_g = N \cdot H \cdot h
+\tag{2}
+$$
 
 Let $c$ denote the per-visitor amenity subsidy. The casino's expected profit per visitor is the gaming margin minus the subsidy,
 
-$$\pi = h \cdot H - c$$
+$$
+\pi = h \cdot H - c
+\tag{3}
+$$
 
 The Strip's original insight was that $H$ scales with duration of stay, and duration of stay scales with the attractiveness of amenities. If $H = \alpha(c)$ with $\alpha'(c) > 0$, then subsidizing amenities is profit-maximizing up to the point at which the marginal gaming revenue return on subsidy dollars equals one,
 
-$$h \cdot \alpha'(c) = 1$$
+$$
+h \cdot \alpha'(c) = 1
+\tag{4}
+$$
 
 The mob-era operators found this range empirically. Cheap steak at the counter, cheap rooms upstairs, and Frank Sinatra on stage all fed the pit downstairs [Schwartz 2003][book_schwartz_2003].
 
@@ -52,7 +64,10 @@ The corporate era proceeded in three overlapping phases. First, the Hughes buyou
 
 The financial character of the Strip shifted during this expansion. Let $R_g(t)$ denote gaming revenue and $R_{ng}(t)$ denote non-gaming revenue. The non-gaming share is
 
-$$r_{ng}(t) = \frac{R_{ng}(t)}{R_g(t) + R_{ng}(t)}$$
+$$
+r_{ng}(t) = \frac{R_{ng}(t)}{R_g(t) + R_{ng}(t)}
+\tag{5}
+$$
 
 Nevada Gaming Control Board revenue reports show that non-gaming revenue on the Strip exceeded gaming revenue for the first time in fiscal year 2000, at which point $r_{ng} > 0.5$, and by fiscal year 2019 $r_{ng}$ reached approximately 0.65 [Nevada Gaming Control Board][ref_nevada_gcb]. The revenue mix change had a structural rather than incidental cause. Public corporate ownership required investor returns benchmarked against real estate investment trusts and hospitality chains rather than against gambling operators. Investors would not accept below-cost pricing on rooms and food if those items could be priced at market and generate their own profit contribution.
 
@@ -66,7 +81,10 @@ By the mid 2020s, the Las Vegas Strip revenue mix and pricing structure differ f
 
 Under the amenity-priced regime, the same visitor pays \\$250 to \\$500 per night for a room, \\$75 to \\$150 per person for dinner, \\$50 to \\$150 for a show, \\$18 to \\$28 per cocktail, and \\$35 to \\$50 in resort fees. Per-visitor revenue decomposes as
 
-$$r_v = r_{room} + r_{food} + r_{show} + r_{beverage} + r_{fees} + h \cdot H$$
+$$
+r_v = r_{room} + r_{food} + r_{show} + r_{beverage} + r_{fees} + h \cdot H
+\tag{6}
+$$
 
 where each amenity term now carries its own positive profit margin rather than being subsidized against the gaming term. The visitor may still gamble, but the gambling contribution $h \cdot H$ is now a fraction of the sum of amenity contributions. Non-gaming revenue's rise to 65 percent of Strip resort revenue is the direct expression of this shift.
 
@@ -74,7 +92,10 @@ The Las Vegas Convention and Visitors Authority reports declining visitor volume
 
 The unlearning hypothesis proposed at the outset can now be stated with more precision. The Strip operators have not abandoned the loss-leader model. They have replaced it with a model that treats each amenity as a standalone profit center. The two models optimize different objective functions. The loss-leader model maximized aggregate gaming revenue by drawing high-volume visitors. The amenity-priced model maximizes per-visitor revenue extraction across a bundle of separately priced services. The second model produces higher revenue per visitor at the cost of lower visitor volume and reduced visitor loyalty. Whether it produces higher total profit depends on the price elasticity of visitor volume with respect to per-visitor cost,
 
-$$\epsilon_{V,c} = -\frac{\partial \ln V}{\partial \ln c}$$
+$$
+\epsilon_{V,c} = -\frac{\partial \ln V}{\partial \ln c}
+\tag{7}
+$$
 
 Total revenue $R = r_v \cdot V$ is increasing in $c$ if and only if $\epsilon_{V,c} < r_v / c$, which under the amenity-priced regime requires that the elasticity remain moderate as amenity charges rise. If pricing pushes $\epsilon_{V,c}$ toward or above that ratio, further amenity price increases reduce total revenue.
 
@@ -88,15 +109,24 @@ The binding regional constraint is water. Las Vegas draws approximately 90 perce
 
 Per-capita water use in the Las Vegas Valley declined from 314 gallons per capita per day in 2000 to approximately 121 gallons per capita per day in 2024, driven by turf removal programs, water reuse, and progressive rate structures. The SNWA reuses approximately 99 percent of water discharged to sewers by returning treated effluent to Lake Mead via the Las Vegas Wash, receiving return-flow credits under the Colorado River Compact allocation [SNWA Water Resource Plan][ref_snwa_report]. The consumptive water balance available to southern Nevada is
 
-$$W_{avail} = A + R - C_{loss}$$
+$$
+W_{avail} = A + R - C_{loss}
+\tag{8}
+$$
 
 where $A$ is the base Colorado River Compact allocation of 300000 acre-feet per year, $R$ is the return-flow credit from treated effluent returned to Lake Mead, and $C_{loss}$ is unrecovered evaporative and system losses. Per-capita consumptive use has continued to decline at approximately 1 to 2 percent per year through the 2020s, approximating
 
-$$c(t) = c_0 \, e^{-\lambda (t - t_0)}$$
+$$
+c(t) = c_0 \, e^{-\lambda (t - t_0)}
+\tag{9}
+$$
 
 with $\lambda \approx 0.015$ per year against a 2024 baseline of $c_0 \approx 121$ gallons per capita per day. The metropolitan population ceiling under the binding water constraint is
 
-$$P_{max}(t) = \frac{W_{avail}}{c(t)}$$
+$$
+P_{max}(t) = \frac{W_{avail}}{c(t)}
+\tag{10}
+$$
 
 Whether the trajectory of $c(t)$ decline can accommodate continued metropolitan population growth in the presence of continued Lake Mead decline is the open regional question.
 
@@ -168,7 +198,10 @@ National relevance in other industry categories is limited. Boxing and mixed mar
 
 The most consequential shift in Las Vegas's global position occurred in 2006 when the Macau Special Administrative Region's gaming revenue surpassed the Las Vegas Strip's gaming revenue. Define the ratio
 
-$$\rho_{MV}(t) = \frac{R_M(t)}{R_V(t)}$$
+$$
+\rho_{MV}(t) = \frac{R_M(t)}{R_V(t)}
+\tag{11}
+$$
 
 where $R_M(t)$ is Macau gaming revenue and $R_V(t)$ is Las Vegas Strip gaming revenue in year $t$. Macau's 2006 gaming revenue reached approximately \\$6.95 billion against the Strip's \\$6.69 billion so that $\rho_{MV}(2006) \approx 1.04$. By 2013 Macau's gaming revenue peaked at approximately \\$45.2 billion against the Strip's \\$6.5 billion, giving $\rho_{MV}(2013) \approx 6.95$. Macau's subsequent contraction under Chinese anticorruption enforcement and pandemic border closures reduced 2020 gaming revenue to approximately \\$7.6 billion. Recovery reached approximately \\$22.7 billion in 2023 and approximately \\$29 billion in 2024 against the Strip's approximately \\$8.8 billion in 2024, giving $\rho_{MV}(2024) \approx 3.30$, still below the 2013 peak but decisively above unity [Macau DICJ][ref_macau_dicj] [Nevada Gaming Control Board][ref_nevada_gcb].
 
@@ -200,19 +233,28 @@ First, the water constraint on the Colorado River basin will tighten. The 2019 D
 
 Second, the climate constraint will tighten. Southern Nevada's annual number of days at or above 105 degrees Fahrenheit averaged 55 days per year in 2010 to 2019 and rose to 68 days per year in 2020 to 2024 according to NOAA National Weather Service records at Harry Reid International Airport [NOAA NWS Las Vegas][ref_noaa_las_vegas]. IPCC Sixth Assessment Working Group II regional projections for the North American Southwest anticipate continued mean temperature rise on the order of 1.5 to 3 degrees Celsius under a range of Representative Concentration Pathway emissions scenarios through 2050 [IPCC AR6 WGII Ch 14][ref_ipcc_ar6_wg2]. The 2024 summer produced 112 days at or above 100 degrees Fahrenheit including 32 consecutive days from 8 June through 9 July. A linear extrapolation of the observed trend gives
 
-$$D_{105}(t) = D_0 + \beta (t - t_0)$$
+$$
+D_{105}(t) = D_0 + \beta (t - t_0)
+\tag{12}
+$$
 
 with $D_0 \approx 68$ days per year at $t_0 = 2024$ and $\beta \approx 1.3$ days per year. Projecting forward, $D_{105}(2050) \approx 102$ days per year. The physical viability of an outdoor entertainment economy, including F1 race weekends in November when temperatures remain manageable and pool-club summer operations when temperatures do not, is a load-bearing assumption of the current business model that the trend places under increasing pressure.
 
 Third, the competition constraint will tighten. Regional and tribal casino expansion continues, online sports betting and iGaming legalization continues, and Asian gaming markets continue to grow at rates above US market growth. Define the Strip's share of US commercial gaming revenue,
 
-$$s_{LV}(t) = \frac{R_V(t)}{R_{US}(t)}$$
+$$
+s_{LV}(t) = \frac{R_V(t)}{R_{US}(t)}
+\tag{13}
+$$
 
 This share has declined from $s_{LV}(2000) \approx 0.30$ to $s_{LV}(2024) \approx 0.13$. Whether $s_{LV}(t)$ stabilizes or continues to erode depends on whether the Strip's distinctive integrated entertainment-plus-gaming offering retains its price premium against regional alternatives.
 
 Fourth, the demographic constraint will tighten. Gambling participation is age-correlated. Approximately 68 percent of adults born 1946 to 1964 report gambling at least once per year, against approximately 57 percent of adults born 1965 to 1980, approximately 51 percent of adults born 1981 to 1996, and approximately 42 percent of adults born 1997 to 2012 [Gambling Participation Survey][ref_agrs_survey]. Let $p_c$ denote the annual gambling participation rate for cohort $c$ and $w_c(t)$ denote the population share of cohort $c$ in year $t$. The aggregate gambling participation rate is
 
-$$P_g(t) = \sum_c w_c(t) \, p_c$$
+$$
+P_g(t) = \sum_c w_c(t) \, p_c
+\tag{14}
+$$
 
 Under the assumption that $p_c$ is constant across the projection window and $w_c(t)$ evolves with cohort aging and mortality, $P_g(t)$ declines monotonically as the postwar-birth cohort ages out of active travel. The base of gamblers who travel for gambling will contract unless younger cohorts show delayed uptake, in which case $p_c$ becomes age-varying rather than cohort-fixed, or unless the Strip's non-gaming offering attracts these cohorts on its own merits.
 
@@ -234,6 +276,167 @@ Whether the amenity-priced regime is a stable equilibrium or a transitional over
 - Can Sphere-scale immersive entertainment venues generate positive returns on capital costs of \\$2 billion or more, or does the Sphere represent a one-off subsidized experiment?
 - Does the Las Vegas convention and trade show hub role reinforce or substitute for the leisure tourism role, and what is the cross-elasticity of demand between the two visitor segments?
 - What is the failure mode of a Strip megaresort under a serious recession combined with tight water restrictions, and which properties have the debt structure and operational flexibility to survive that stress?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 14 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 14, 5 are established and 9 are bespoke.
+Revenue, handle and subsidy are in United States dollars per visitor or per year as the surrounding text states, water volumes are in acre-feet per year while per-capita use is in gallons per capita per day, so the two must be brought to common units before the population ceiling is evaluated, and the letter $c$ denotes the amenity subsidy in the gaming equations but per-capita water use in the water equations.
+
+**Equation 1, Expected Value of a Wager.**
+A player who stakes an amount against a game with a given house hold expects to lose that hold fraction of the stake, which is the house edge.
+
+$$
+E[X] = -h \cdot W
+\tag{1}
+$$
+
+**Equation 2, Aggregate Gaming Revenue.**
+Gaming revenue is the number of visitors times the handle each generates times the hold percentage.
+
+$$
+R_g = N \cdot H \cdot h
+\tag{2}
+$$
+
+*Equation 3, Bespoke Per-Visitor Profit Under Amenity Subsidy.*
+The article models the profit from a visitor as the gaming margin on that visitor's handle less a per-visitor amenity subsidy.
+
+$$
+\pi = h \cdot H - c
+\tag{3}
+$$
+
+*Equation 4, Bespoke Optimal Amenity Subsidy Condition.*
+Assuming that handle rises with the amenity subsidy, the article's profit model is maximised where one further dollar of subsidy returns exactly one dollar of gaming revenue.
+
+$$
+h \cdot \alpha'(c) = 1
+\tag{4}
+$$
+
+**Equation 5, Non-Gaming Revenue Share.**
+The non-gaming share is non-gaming revenue divided by the sum of gaming and non-gaming revenue, the measure in which the Nevada Gaming Control Board reports the change in the revenue mix of the Strip.
+[Nevada Gaming Control Board][ref_nevada_gcb]
+
+$$
+r_{ng}(t) = \frac{R_{ng}(t)}{R_g(t) + R_{ng}(t)}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Per-Visitor Revenue Decomposition.*
+The article assembles revenue per visitor as the sum of room, food, show, beverage and fee charges plus the expected gaming loss, with each amenity treated as a profit centre.
+
+$$
+r_v = r_{room} + r_{food} + r_{show} + r_{beverage} + r_{fees} + h \cdot H
+\tag{6}
+$$
+
+**Equation 7, Elasticity of Visitation With Respect to Amenity Charges.**
+The elasticity is the negative of the proportional change in visitor volume per proportional change in amenity charges, so that it is positive when higher charges deter visitors.
+
+$$
+\epsilon_{V,c} = -\frac{\partial \ln V}{\partial \ln c}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Consumptive Water Balance.*
+The article writes the water available to southern Nevada as the base Colorado River allocation plus return-flow credit less unrecovered losses, a budget assembled for the regional argument.
+[SNWA Water Resource Plan][ref_snwa_report]
+
+$$
+W_{avail} = A + R - C_{loss}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Exponential Decline of Per-Capita Water Use.*
+The article assumes that per-capita consumptive use falls exponentially from the 2024 baseline at a rate of 0.015 per year, taken from within the observed range of 1 to 2 per cent per year.
+
+$$
+c(t) = c_0 \, e^{-\lambda (t - t_0)}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Population Ceiling Under the Water Constraint.*
+The article bounds the metropolitan population by dividing the available water by per-capita use, assuming that all available water serves per-capita demand.
+
+$$
+P_{max}(t) = \frac{W_{avail}}{c(t)}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Macau to Strip Gaming Revenue Ratio.*
+The article defines the ratio of Macau gaming revenue to Las Vegas Strip gaming revenue in a given year to track the shift in global position after 2006.
+[Macau DICJ][ref_macau_dicj]
+
+$$
+\rho_{MV}(t) = \frac{R_M(t)}{R_V(t)}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Linear Projection of Extreme Heat Days.*
+The article extrapolates the annual count of days at or above 105 degrees Fahrenheit linearly from a 2024 baseline of 68 days at an assumed rate of 1.3 days per year.
+[NOAA NWS Las Vegas][ref_noaa_las_vegas]
+
+$$
+D_{105}(t) = D_0 + \beta (t - t_0)
+\tag{12}
+$$
+
+**Equation 13, Strip Share of United States Commercial Gaming Revenue.**
+The share is Strip gaming revenue divided by total United States commercial gaming revenue in the same year.
+
+$$
+s_{LV}(t) = \frac{R_V(t)}{R_{US}(t)}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Cohort-Weighted Gambling Participation.*
+The article writes aggregate participation as the cohort shares of the population weighted by fixed cohort participation rates, assuming that each cohort keeps its rate as it ages.
+[Gambling Participation Survey][ref_agrs_survey]
+
+$$
+P_g(t) = \sum_c w_c(t) \, p_c
+\tag{14}
+$$
+
+### Notation
+
+- $E[X]$, the expected value of a wager to the player
+- $W$, the amount wagered
+- $h$, the house hold percentage
+- $R_g$, aggregate gaming revenue, written $R_g(t)$ for year $t$
+- $N$, the number of visitors
+- $H$, the handle, the total amount wagered per visitor
+- $\pi$, the casino's expected profit per visitor
+- $c$, the per-visitor amenity subsidy in the gaming equations
+- $\alpha'(c)$, the marginal increase in handle per dollar of amenity subsidy
+- $r_{ng}(t)$, the non-gaming share of Strip revenue
+- $R_{ng}(t)$, non-gaming revenue in year $t$
+- $r_v$, revenue per visitor
+- $\epsilon_{V,c}$, the elasticity of visitor volume with respect to amenity charges
+- $V$, visitor volume
+- $W_{avail}$, the consumptive water balance available to southern Nevada
+- $A$, the base Colorado River Compact allocation of 300000 acre-feet per year
+- $C_{loss}$, unrecovered evaporative and system losses
+- $c(t)$, per-capita consumptive water use in year $t$
+- $\lambda$, the annual rate of decline of per-capita water use
+- $P_{max}(t)$, the metropolitan population ceiling under the water constraint
+- $\rho_{MV}(t)$, the ratio of Macau gaming revenue to Las Vegas Strip gaming revenue
+- $R_M(t)$, Macau gaming revenue in year $t$
+- $R_V(t)$, Las Vegas Strip gaming revenue in year $t$
+- $D_{105}(t)$, the number of days per year at or above 105 degrees Fahrenheit
+- $\beta$, the assumed annual increase in days at or above 105 degrees Fahrenheit
+- $s_{LV}(t)$, the Strip's share of United States commercial gaming revenue
+- $R_{US}(t)$, United States commercial gaming revenue in year $t$
+- $P_g(t)$, aggregate gambling participation
+- $w_c(t)$, the population weight of cohort $c$
+- $p_c$, the gambling participation rate of cohort $c$
 
 ## References
 

@@ -23,19 +23,31 @@ The mapping problem permits several formalizations depending on the level of ana
 
 The general form of the causal-mapping problem can be stated compactly as follows. Let $R_i(t)$ denote the observed reputation score of actor $i$ at time $t$, let $q_i(t)$ denote the underlying quality of the good or service the actor offers, and let $m_i(t)$ denote the manipulation intensity the actor deploys. The mapping problem seeks the functional form
 
-$$R_i(t) = F(q_i(t), m_i(t), P_t, D_t, A_t) + \varepsilon_i(t)$$
+$$
+R_i(t) = F(q_i(t), m_i(t), P_t, D_t, A_t) + \varepsilon_i(t)
+\tag{1}
+$$
 
 where $P_t$ denotes the platform architecture and ranking rules at time $t$, $D_t$ denotes the detection and enforcement regime, $A_t$ denotes the audience composition and attention allocation, and $\varepsilon_i(t)$ denotes the unexplained residual. The isolated manipulation contribution to observed reputation can be characterized counterfactually as
 
-$$\Delta R_i^{\text{manip}}(t) = F(q_i(t), m_i(t), P_t, D_t, A_t) - F(q_i(t), 0, P_t, D_t, A_t)$$
+$$
+\Delta R_i^{\text{manip}}(t) = F(q_i(t), m_i(t), P_t, D_t, A_t) - F(q_i(t), 0, P_t, D_t, A_t)
+\tag{2}
+$$
 
 with the counterfactual holding underlying quality, platform, detection regime, and audience fixed and setting manipulation intensity to zero. Under an approximately additive decomposition, observed reputation allows the further decomposition
 
-$$R_i(t) = R_i^{q}(t) + R_i^{\text{manip}}(t) + R_i^{\text{platform}}(t) + \varepsilon_i(t)$$
+$$
+R_i(t) = R_i^{q}(t) + R_i^{\text{manip}}(t) + R_i^{\text{platform}}(t) + \varepsilon_i(t)
+\tag{3}
+$$
 
 where the first term captures the authentic-quality contribution, the second the manipulation contribution, and the third the platform-architecture contribution independent of the actor's own action. The aggregate manipulation intensity at the market level is the vector sum
 
-$$M(t) = \sum_{i=1}^{N} m_i(t), \quad \bar{m}(t) = M(t)/N$$
+$$
+M(t) = \sum_{i=1}^{N} m_i(t), \quad \bar{m}(t) = M(t)/N
+\tag{4}
+$$
 
 with $\bar{m}$ the average per-actor manipulation intensity that indexes the market equilibrium regime. The tractability of the mapping problem depends on the ability to identify the manipulation contribution to $R_i$ separately from the underlying-quality contribution and from the platform and audience effects. The identification problem is considerable because $q_i$ is generally unobservable to the analyst, and the miniseries treats the identification strategies each empirical setting supports.
 
@@ -53,11 +65,17 @@ The third commitment is the manipulation-as-baseline framing. The miniseries tre
 
 The fourth commitment is contested-claim marking. The miniseries identifies the claims that remain contested within contemporary scholarship (the precise prevalence rates in each platform category, the causal impact of technique classes on purchase behavior, the effectiveness of detection technologies, the marginal deterrent effect of legal enforcement) and cites the primary sources on each side rather than presenting one position as settled. Where the scholarly literature includes competing estimates, the miniseries reports the range and identifies the methodological basis for the divergence. The prevalence estimator for a random sample of $n$ candidate items is
 
-$$\hat{p}_{\text{manip}} = \frac{1}{n} \sum_{i=1}^{n} \mathbb{1}[y_i = \text{manip}], \quad \text{Var}(\hat{p}_{\text{manip}}) = \frac{\hat{p}_{\text{manip}}(1 - \hat{p}_{\text{manip}})}{n}$$
+$$
+\hat{p}_{\text{manip}} = \frac{1}{n} \sum_{i=1}^{n} \mathbb{1}[y_i = \text{manip}], \quad \text{Var}(\hat{p}_{\text{manip}}) = \frac{\hat{p}_{\text{manip}}(1 - \hat{p}_{\text{manip}})}{n}
+\tag{5}
+$$
 
 with $y_i$ the classified item label. Where multiple studies report prevalence estimates for the same phenomenon under differing methodologies, the miniseries adopts the inverse-variance-weighted meta-analytic combined estimate
 
-$$\hat{p}^{\text{meta}} = \frac{\sum_k w_k \hat{p}_k}{\sum_k w_k}, \quad w_k = \frac{1}{\sigma_k^2}$$
+$$
+\hat{p}^{\text{meta}} = \frac{\sum_k w_k \hat{p}_k}{\sum_k w_k}, \quad w_k = \frac{1}{\sigma_k^2}
+\tag{6}
+$$
 
 with $\sigma_k^2$ the reported variance of the $k$-th study estimate. When study-specific variance is not reported, the miniseries reports the study-specific point estimates with the methodological caveats attached rather than combining them.
 
@@ -73,37 +91,58 @@ Reputation is treated in the miniseries as an economic good with formal properti
 
 The formal properties of reputation as an economic good admit compact statement as follows. Let the actor $i$ have an unobservable type $\theta_i \in \Theta$ and let the reputation signal $s_i$ be a function of type, effort, and observation noise,
 
-$$s_i = h(\theta_i, e_i) + \eta_i$$
+$$
+s_i = h(\theta_i, e_i) + \eta_i
+\tag{7}
+$$
 
 where $e_i$ denotes reputation-directed effort (which subsumes both authentic quality investment and manipulation investment) and $\eta_i$ denotes idiosyncratic noise in the observation channel. The consumer of the signal forms a posterior about $\theta_i$ via Bayes rule,
 
-$$\Pr(\theta_i = \theta \mid s_i) = \frac{\Pr(s_i \mid \theta_i = \theta) \, \pi(\theta)}{\int_\Theta \Pr(s_i \mid \theta_i = \theta') \, \pi(\theta') \, d\theta'}$$
+$$
+\Pr(\theta_i = \theta \mid s_i) = \frac{\Pr(s_i \mid \theta_i = \theta) \, \pi(\theta)}{\int_\Theta \Pr(s_i \mid \theta_i = \theta') \, \pi(\theta') \, d\theta'}
+\tag{8}
+$$
 
 with prior $\pi$ over types. The posterior determines the consumer's willingness to transact. The consumer's willingness to pay conditional on the observed signal is the posterior-expected utility differential
 
-$$\text{WTP}(s_i) = \int_\Theta u(\theta, q(\theta)) \, \Pr(\theta \mid s_i) \, d\theta - u_{\text{outside}}$$
+$$
+\text{WTP}(s_i) = \int_\Theta u(\theta, q(\theta)) \, \Pr(\theta \mid s_i) \, d\theta - u_{\text{outside}}
+\tag{9}
+$$
 
 with $u_{\text{outside}}$ the utility from the outside option. The manipulator's problem is to raise the posterior above the true type-conditional posterior at minimum cost. Manipulation cost typically exhibits convex dependence on manipulation intensity,
 
-$$c(m) = c_0 \, m^{\alpha}, \quad \alpha > 1$$
+$$
+c(m) = c_0 \, m^{\alpha}, \quad \alpha > 1
+\tag{10}
+$$
 
 with $c_0$ a scale parameter and $\alpha$ the convexity exponent that varies by technique class and by the platform's detection intensity.
 
 The information-asymmetry structure was formalized in [Akerlof 1970][research_akerlof_1970] for the used-car market and generalizes to any market in which sellers hold private information about quality and buyers cannot verify quality before purchase. The Akerlof lemons equilibrium characterizes the case where information asymmetry drives high-quality sellers out of the market. In the reputation-mediated variant, the equilibrium separates the market by reputation tier, with high-reputation sellers commanding a premium and low-reputation sellers commanding a discount, and the premium equals the expected quality differential
 
-$$\Delta p = E[q \mid \text{high reputation}] - E[q \mid \text{low reputation}]$$
+$$
+\Delta p = E[q \mid \text{high reputation}] - E[q \mid \text{low reputation}]
+\tag{11}
+$$
 
 adjusted for the risk premium associated with the residual uncertainty. Manipulation compresses $\Delta p$ by allowing low-quality sellers to purchase high-reputation status, which reduces the returns to authentic quality investment and shifts the market equilibrium toward the lemons outcome.
 
 The signaling framework of [Spence 1973][research_spence_1973] characterizes the separating equilibrium in which the reputation signal reliably distinguishes types. The single-crossing condition that supports the separating equilibrium is that the marginal cost of producing the signal differs systematically across types,
 
-$$\frac{\partial C(s, \theta_H)}{\partial s} < \frac{\partial C(s, \theta_L)}{\partial s}$$
+$$
+\frac{\partial C(s, \theta_H)}{\partial s} < \frac{\partial C(s, \theta_L)}{\partial s}
+\tag{12}
+$$
 
 where $\theta_H$ denotes the high-quality type and $\theta_L$ denotes the low-quality type. Reputation manipulation reduces the marginal cost differential by allowing low-quality types to produce reputation signals at costs comparable to high-quality types, which collapses the separating equilibrium into a pooling equilibrium in which the reputation signal carries no information.
 
 The Klein and Leffler framework in [Klein and Leffler 1981][research_klein_leffler_1981] treats reputation as a bond that firms post against future quality reduction. The bond value equals the present discounted value of the reputation premium the firm captures in future transactions,
 
-$$B = \sum_{t=1}^{\infty} \delta^t \, (p_t^{\text{rep}} - p_t^{\text{no rep}})$$
+$$
+B = \sum_{t=1}^{\infty} \delta^t \, (p_t^{\text{rep}} - p_t^{\text{no rep}})
+\tag{13}
+$$
 
 where $\delta$ is the discount factor and $p_t^{\text{rep}}$ and $p_t^{\text{no rep}}$ denote the price the firm captures with and without the reputation. The firm chooses to maintain quality when the bond value exceeds the one-shot gain from quality reduction. Reputation manipulation collapses the bond value by allowing firms to purchase reputation without investing in quality, which eliminates the bond mechanism and shifts the equilibrium toward quality reduction across the market.
 
@@ -111,15 +150,24 @@ The mechanism-design perspective in [Myerson 1981][research_myerson_1981] Optima
 
 Reputation as an intangible capital stock allows a continuous-time law-of-motion characterization
 
-$$\frac{dR_i}{dt} = -\gamma R_i(t) + \sigma_i^{\text{authentic}}(t) + \sigma_i^{\text{manip}}(t) - \delta_i^{\text{detect}}(t)$$
+$$
+\frac{dR_i}{dt} = -\gamma R_i(t) + \sigma_i^{\text{authentic}}(t) + \sigma_i^{\text{manip}}(t) - \delta_i^{\text{detect}}(t)
+\tag{14}
+$$
 
 with $\gamma$ the reputation-decay rate reflecting audience memory attrition, $\sigma_i^{\text{authentic}}$ the authentic-signal inflow from transactions or attribute updates, $\sigma_i^{\text{manip}}$ the manipulation inflow, and $\delta_i^{\text{detect}}$ the detection-triggered reputation loss. The reputation asset value is the present-discounted stream of rents the reputation stock generates,
 
-$$V_R^i = \int_0^{\infty} e^{-rt} \, \pi_i(R_i(t)) \, dt$$
+$$
+V_R^i = \int_0^{\infty} e^{-rt} \, \pi_i(R_i(t)) \, dt
+\tag{15}
+$$
 
 with $r$ the actor's discount rate and $\pi_i(R_i)$ the flow return the reputation stock produces. The steady-state reputation stock under constant inflows and constant detection satisfies
 
-$$R_i^{\text{ss}} = \frac{\sigma_i^{\text{authentic}} + \sigma_i^{\text{manip}} - \delta_i^{\text{detect}}}{\gamma}$$
+$$
+R_i^{\text{ss}} = \frac{\sigma_i^{\text{authentic}} + \sigma_i^{\text{manip}} - \delta_i^{\text{detect}}}{\gamma}
+\tag{16}
+$$
 
 with the manipulation contribution $\sigma_i^{\text{manip}} - \delta_i^{\text{detect}}$ vanishing when detection perfectly offsets injection and positive when detection lags injection.
 
@@ -145,43 +193,70 @@ Reputation manipulation operates within the attention economy substrate that [Si
 
 The formal structure of the attention economy substrate can be characterized as follows. The total attention $A$ available across a platform in a given time interval is bounded above by the population size times the per-user attention budget,
 
-$$A_{\text{total}} = N \cdot \bar{a}$$
+$$
+A_{\text{total}} = N \cdot \bar{a}
+\tag{17}
+$$
 
 with $N$ the active user count and $\bar{a}$ the average attention allocation per user. The allocation of $A_{\text{total}}$ across content, sellers, or reputational entities $i \in \{1, 2, \ldots, K\}$ produces the attention distribution $\{a_i\}\_{i=1}^K$ satisfying $\sum_i a_i = A_{\text{total}}$. The empirical distribution of attention across content on major platforms is highly skewed, with the [Zipf 1949][book_zipf_1949] Human Behavior and the Principle of Least Effort framework and the [Flux and Pareto 1897][research_pareto_1897] Cours d'Economie Politique framework each providing power-law characterizations. The observed rank-size distribution typically satisfies
 
-$$a_{(r)} \sim r^{-\alpha}, \quad \alpha \in [0.5, 2]$$
+$$
+a_{(r)} \sim r^{-\alpha}, \quad \alpha \in [0.5, 2]
+\tag{18}
+$$
 
 with $a_{(r)}$ the attention received by the entity at rank $r$ and $\alpha$ the power-law exponent that varies by platform and content category. The [Adamic and Huberman 2000][research_adamic_huberman_2000] Power-Law Distribution of the World Wide Web and subsequent empirical work document the exponent range. The concentration of attention across the entity set is summarized by the Herfindahl-Hirschman index
 
-$$\text{HHI}_{\text{attention}} = \sum_{i=1}^{K} \left(\frac{a_i}{A_{\text{total}}}\right)^2 \in [1/K, 1]$$
+$$
+\text{HHI}_{\text{attention}} = \sum_{i=1}^{K} \left(\frac{a_i}{A_{\text{total}}}\right)^2 \in [1/K, 1]
+\tag{19}
+$$
 
 with the lower bound reached under uniform allocation and the upper bound reached under complete concentration on a single entity. An equivalent characterization via the Shannon entropy of the attention distribution is
 
-$$H_{\text{attention}} = -\sum_{i=1}^{K} \frac{a_i}{A_{\text{total}}} \log \frac{a_i}{A_{\text{total}}} \in [0, \log K]$$
+$$
+H_{\text{attention}} = -\sum_{i=1}^{K} \frac{a_i}{A_{\text{total}}} \log \frac{a_i}{A_{\text{total}}} \in [0, \log K]
+\tag{20}
+$$
 
 with high entropy indicating dispersed attention and low entropy indicating concentrated attention. Major platforms typically exhibit $\text{HHI}\_{\text{attention}}$ well above $1/K$ and $H_{\text{attention}}$ well below $\log K$, reflecting the power-law concentration the empirical evidence documents.
 
 The platform mediates the attention allocation through algorithmic ranking. The ranking function
 
-$$\rho_i = g(R_i, e_i, c_i, u_i)$$
+$$
+\rho_i = g(R_i, e_i, c_i, u_i)
+\tag{21}
+$$
 
 maps reputation $R_i$, engagement history $e_i$, content features $c_i$, and user-level personalization features $u_i$ to a ranking score. The attention allocated to entity $i$ is a decreasing function of the entity's rank position
 
-$$a_i = \phi(\text{rank}(\rho_i))$$
+$$
+a_i = \phi(\text{rank}(\rho_i))
+\tag{22}
+$$
 
 with $\phi$ typically exponentially decaying or power-law decaying in rank. The empirical evidence on the rank-attention decay for search results is documented in [Craswell et al. 2008][research_craswell_et_al_2008] An Experimental Comparison of Click Position-Bias Models and subsequent work. The click-through decay by rank position observed on major search platforms satisfies approximately
 
-$$\text{CTR}(r) \approx c_0 \cdot r^{-\beta}, \quad \beta \in [1, 2]$$
+$$
+\text{CTR}(r) \approx c_0 \cdot r^{-\beta}, \quad \beta \in [1, 2]
+\tag{23}
+$$
 
 with $c_0$ the top-position click-through rate. The ranking function creates the incentive to manipulate reputation, since a marginal increase in $R_i$ produces a superlinear increase in attention through the rank position change. The chain-rule expansion of the reputation-to-attention conversion is
 
-$$\frac{\partial a_i}{\partial R_i} = \phi'(\text{rank}(\rho_i)) \cdot \frac{\partial \text{rank}}{\partial \rho_i} \cdot \frac{\partial \rho_i}{\partial R_i}$$
+$$
+\frac{\partial a_i}{\partial R_i} = \phi'(\text{rank}(\rho_i)) \cdot \frac{\partial \text{rank}}{\partial \rho_i} \cdot \frac{\partial \rho_i}{\partial R_i}
+\tag{24}
+$$
 
 with the first factor typically negative and large in magnitude near the top ranks, the second factor negative and discrete, and the third factor positive and set by the ranking function's reputation weighting. The composite conversion produces the superlinear return-to-reputation that drives the incentive to manipulate.
 
 The two-sided platform structure treated in [Rochet and Tirole 2003][research_rochet_tirole_2003] Platform Competition in Two-Sided Markets and [Rysman 2009][research_rysman_2009] The Economics of Two-Sided Markets shapes the platform's incentive to police manipulation. The platform maximizes joint surplus across both sides of the market, and manipulation degrades the consumer side while benefiting the producer side. The platform's objective admits the composite form
 
-$$W_{\text{platform}}(D, \mathbf{m}) = \psi_C \, \text{CS}(D, \mathbf{m}) + \psi_P \, \text{PS}(D, \mathbf{m}) + \psi_R \, \text{Rev}(D, \mathbf{m}) - C(D)$$
+$$
+W_{\text{platform}}(D, \mathbf{m}) = \psi_C \, \text{CS}(D, \mathbf{m}) + \psi_P \, \text{PS}(D, \mathbf{m}) + \psi_R \, \text{Rev}(D, \mathbf{m}) - C(D)
+\tag{25}
+$$
 
 with $\text{CS}$ the consumer surplus, $\text{PS}$ the producer surplus, $\text{Rev}$ the platform revenue net of the surplus terms, $C(D)$ the detection cost, and $\psi_C$, $\psi_P$, $\psi_R$ the platform's marginal valuations. The platform's optimal enforcement intensity balances the loss of consumer trust against the loss of producer participation and against the direct costs of detection and enforcement. The empirical variation in platform enforcement intensity across categories reflects the platform's estimate of the trust-participation tradeoff.
 
@@ -191,54 +266,84 @@ The manipulation equilibrium refers to the stable configuration of manipulation 
 
 The producer's problem in the single-shot form is to choose manipulation intensity $m_i$ to maximize
 
-$$\pi_i(m_i, m_{-i}) = R_i(m_i, m_{-i}) \cdot v - c(m_i) - L(m_i, D)$$
+$$
+\pi_i(m_i, m_{-i}) = R_i(m_i, m_{-i}) \cdot v - c(m_i) - L(m_i, D)
+\tag{26}
+$$
 
 where $R_i$ is the observed reputation as a function of the actor's own manipulation and the manipulation vector of competitors, $v$ is the per-unit reputation value in terms of expected revenue, $c(m_i)$ is the direct cost of manipulation intensity $m_i$, and $L(m_i, D)$ is the expected loss from detection given the detection intensity $D$. The first-order condition characterizes the interior optimum,
 
-$$\frac{\partial R_i}{\partial m_i} \cdot v = c'(m_i) + \frac{\partial L}{\partial m_i}$$
+$$
+\frac{\partial R_i}{\partial m_i} \cdot v = c'(m_i) + \frac{\partial L}{\partial m_i}
+\tag{27}
+$$
 
 which sets the marginal reputation benefit equal to the sum of the marginal direct cost and the marginal expected detection loss.
 
 The Nash equilibrium of the symmetric-actor manipulation game is characterized by the fixed-point condition that each actor's chosen manipulation intensity is optimal given the manipulation intensities chosen by all other actors,
 
-$$m_i^* = \arg\max_{m_i} \pi_i(m_i, m_{-i}^*), \quad \forall i$$
+$$
+m_i^* = \arg\max_{m_i} \pi_i(m_i, m_{-i}^*), \quad \forall i
+\tag{28}
+$$
 
 with the vector $\mathbf{m}^\* = (m_1^\*, m_2^\*, \ldots)$ satisfying the mutual best-response condition. The equilibrium manipulation intensity is generically positive when the reputation return $v$ is high, the marginal cost of manipulation $c'$ is low, the reputation function $R_i$ is highly sensitive to own manipulation, and the detection intensity $D$ is low. Empirical variation in equilibrium manipulation prevalence across platforms and categories can be interpreted as variation in these four parameters.
 
 The prisoner's dilemma structure of the manipulation game permits a compact characterization. In the two-actor symmetric case with binary manipulation choices $m_i \in \{0, 1\}$, the payoff matrix
 
-$$\begin{array}{c|cc}
+$$
+\begin{array}{c|cc}
  & m_j = 0 & m_j = 1 \\
 \hline
 m_i = 0 & (\pi_C, \pi_C) & (\pi_L, \pi_H) \\
 m_i = 1 & (\pi_H, \pi_L) & (\pi_D, \pi_D)
-\end{array}$$
+\end{array}
+\tag{29}
+$$
 
 with $\pi_H > \pi_C > \pi_D > \pi_L$ produces a dominant strategy equilibrium of mutual manipulation and a Pareto-inferior payoff pair $(\pi_D, \pi_D)$ relative to the mutual cooperation payoff $(\pi_C, \pi_C)$. The dilemma structure explains the observed universality of manipulation in unregulated reputation markets and the difficulty of unilateral abstention. Under a continuum-of-players extension with symmetric best response, the aggregate manipulation intensity converges to
 
-$$M^* = \sum_{i=1}^{N} m_i^* \to N \cdot \bar{m}^*$$
+$$
+M^* = \sum_{i=1}^{N} m_i^* \to N \cdot \bar{m}^*
+\tag{30}
+$$
 
 as $N$ grows, with $\bar{m}^\*$ the per-actor equilibrium intensity determined by the first-order condition. The elasticity of equilibrium manipulation with respect to detection intensity satisfies
 
-$$\varepsilon_{m,D} = \frac{\partial \ln \bar{m}^*}{\partial \ln D} < 0$$
+$$
+\varepsilon_{m,D} = \frac{\partial \ln \bar{m}^*}{\partial \ln D} < 0
+\tag{31}
+$$
 
 with magnitude determined by the convexity of the detection-loss function $L(m, D)$ and the convexity of the direct manipulation cost $c(m)$. High-elasticity regimes indicate that platform detection investment produces significant equilibrium manipulation reduction, and low-elasticity regimes indicate that detection alone is inadequate and additional deterrent instruments are required.
 
 The detection intensity is chosen by the platform to maximize the platform's own objective, which typically weights consumer trust, producer participation, direct enforcement costs, and reputational and regulatory risk. The platform's first-order condition for detection intensity is
 
-$$\frac{\partial \text{Consumer Trust}}{\partial D} \cdot \psi_C - \frac{\partial \text{Producer Participation}}{\partial D} \cdot \psi_P = C'(D)$$
+$$
+\frac{\partial \text{Consumer Trust}}{\partial D} \cdot \psi_C - \frac{\partial \text{Producer Participation}}{\partial D} \cdot \psi_P = C'(D)
+\tag{32}
+$$
 
 with $\psi_C$ and $\psi_P$ the platform's marginal valuation of consumer trust and producer participation and $C'(D)$ the marginal cost of detection intensity. The equilibrium detection intensity is generically interior when the platform values both sides of the market and the marginal detection cost is convex. Given the detection instrument, the platform's classification of a candidate manipulation signal takes the Bayesian posterior
 
-$$\Pr(m_i = 1 \mid \text{signal}) = \frac{\Pr(\text{signal} \mid m_i = 1) \, \pi(m_i = 1)}{\Pr(\text{signal} \mid m_i = 1) \, \pi(m_i = 1) + \Pr(\text{signal} \mid m_i = 0) \, \pi(m_i = 0)}$$
+$$
+\Pr(m_i = 1 \mid \text{signal}) = \frac{\Pr(\text{signal} \mid m_i = 1) \, \pi(m_i = 1)}{\Pr(\text{signal} \mid m_i = 1) \, \pi(m_i = 1) + \Pr(\text{signal} \mid m_i = 0) \, \pi(m_i = 0)}
+\tag{33}
+$$
 
 with the platform triggering enforcement when the posterior exceeds a threshold $\tau$. The classification-threshold choice trades off the true-positive rate against the false-positive rate along the receiver-operating characteristic
 
-$$\text{TPR}(\tau) = 1 - F_1(\tau), \quad \text{FPR}(\tau) = 1 - F_0(\tau)$$
+$$
+\text{TPR}(\tau) = 1 - F_1(\tau), \quad \text{FPR}(\tau) = 1 - F_0(\tau)
+\tag{34}
+$$
 
 with $F_1$ and $F_0$ the score distributions conditional on manipulation and non-manipulation. The deterrence condition under which a rational actor abstains from manipulation is
 
-$$\Pr(\text{detect}) \cdot \text{Penalty} + c(m) > \frac{\partial R_i}{\partial m_i} \cdot v \cdot m$$
+$$
+\Pr(\text{detect}) \cdot \text{Penalty} + c(m) > \frac{\partial R_i}{\partial m_i} \cdot v \cdot m
+\tag{35}
+$$
 
 with the left side the expected total cost and the right side the expected reputation gain. The condition binds tightly in high-detection high-penalty regimes and loosens in the opposite regime.
 
@@ -246,11 +351,17 @@ The system reaches a joint equilibrium when the producer's manipulation intensit
 
 The signal-to-noise ratio of the reputation signal under the manipulation equilibrium is
 
-$$\text{SNR}(\mathbf{m}) = \frac{\text{Var}(h(\theta, e))}{\text{Var}(\eta) + \text{Var}(m \cdot \delta)}$$
+$$
+\text{SNR}(\mathbf{m}) = \frac{\text{Var}(h(\theta, e))}{\text{Var}(\eta) + \text{Var}(m \cdot \delta)}
+\tag{36}
+$$
 
 where $m \cdot \delta$ represents the manipulation-induced perturbation to the observed signal. The manipulation-induced variance grows with equilibrium manipulation intensity and compresses the informativeness of the reputation signal. After a detected-and-exposed manipulation event at time $t_0$, the consumer trust attached to the affected reputation signal decays and recovers according to
 
-$$T(t \mid \text{exposed at } t_0) = T_{\text{floor}} + (T_0 - T_{\text{floor}}) \cdot \bigl(1 - e^{-\lambda (t - t_0)}\bigr)$$
+$$
+T(t \mid \text{exposed at } t_0) = T_{\text{floor}} + (T_0 - T_{\text{floor}}) \cdot \bigl(1 - e^{-\lambda (t - t_0)}\bigr)
+\tag{37}
+$$
 
 with $T_0$ the pre-exposure trust level, $T_{\text{floor}}$ the post-exposure trust floor set by the residual reputational damage, and $\lambda$ the recovery rate that varies by the severity of the exposed manipulation and by the audience's tolerance. The recovery-rate empirical estimates run from days for minor infractions on ephemeral platforms to years for major infractions on durable-record platforms.
 
@@ -260,7 +371,10 @@ The organic-establishment puzzle refers to the empirical observation that a mino
 
 The first partial resolution is the credibility-of-costly-signaling account developed in the [Spence 1973][research_spence_1973] tradition. Certain reputation signals remain difficult to manipulate because the signal production requires either substantial time investment, verifiable domain expertise, physical asset commitments, or documented track records that cannot be counterfeited without leaving audit trails. Producers who can produce such uncounterfeitable signals maintain the separating equilibrium in a segment of the market that the manipulation equilibrium leaves untouched. The uncounterfeitable-signal segment admits formal characterization through a modified single-crossing condition that requires the manipulation cost function to diverge in signal magnitude for the low-type actor,
 
-$$\lim_{s \to \infty} \left[\frac{\partial c(s, \theta_L)}{\partial s} - \frac{\partial c(s, \theta_H)}{\partial s}\right] = +\infty$$
+$$
+\lim_{s \to \infty} \left[\frac{\partial c(s, \theta_L)}{\partial s} - \frac{\partial c(s, \theta_H)}{\partial s}\right] = +\infty
+\tag{38}
+$$
 
 which preserves the separating equilibrium even when the standard single-crossing condition collapses under generic manipulation-cost reduction.
 
@@ -268,35 +382,53 @@ The second partial resolution is the audience-selection account. Producers who d
 
 The third partial resolution is the reputation-portfolio account developed in the [Tirole 1996][research_tirole_1996] Theory of Collective Reputations framework. Producers who anchor reputation to memberships in collective reputation entities (professional associations, verification programs, certification regimes, editorial imprints, chained-of-custody credentials) inherit the collective's detection and enforcement infrastructure. The collective reputation acts as a partial substitute for the individual reputation signal and shifts the manipulation game to the collective level, where the higher stakes and greater visibility typically sustain a lower manipulation equilibrium. The deviation cost imposed on a member of a collective who is detected manipulating aggregates across the collective's member reputational stakes,
 
-$$C_{\text{deviate}}^{\text{collective}} = \sum_{j \in \text{collective}} \Delta R_j \cdot v_j + P_{\text{expulsion}}$$
+$$
+C_{\text{deviate}}^{\text{collective}} = \sum_{j \in \text{collective}} \Delta R_j \cdot v_j + P_{\text{expulsion}}
+\tag{39}
+$$
 
 with $\Delta R_j$ the reputation loss to member $j$ from the exposed deviation, $v_j$ the member's per-unit reputation value, and $P_{\text{expulsion}}$ the direct cost of expulsion from the collective. The internal-enforcement equilibrium is sustainable when the collective's members can credibly commit to expulsion of detected deviators.
 
 The fourth partial resolution is the temporal-arbitrage account. Producers who invest heavily in reputation during periods of high signal informativeness (before the manipulation equilibrium fully develops in a given platform or category) can convert the accumulated reputation into an asset that persists after the manipulation equilibrium develops. The value of the legacy reputation asset is the present-discounted stream of informative rents accumulated before the equilibrium transitioned,
 
-$$V_{\text{legacy}} = \int_0^{T_{\text{transition}}} R_i(t) \cdot v(t) \cdot I(t) \cdot e^{-rt} \, dt$$
+$$
+V_{\text{legacy}} = \int_0^{T_{\text{transition}}} R_i(t) \cdot v(t) \cdot I(t) \cdot e^{-rt} \, dt
+\tag{40}
+$$
 
 with $I(t)$ the signal informativeness at time $t$ and $T_{\text{transition}}$ the time at which the market transitioned to the manipulation equilibrium. The temporal-arbitrage account explains the observed early-mover advantage in reputation on new platforms and the observed persistence of legacy reputation from pre-digital eras.
 
 The fifth partial resolution is the enforcement-shadow account. Producers who operate under credible external enforcement (regulatory oversight, professional liability, contractual accountability to sophisticated counterparties) face manipulation costs elevated by external enforcement in addition to the platform's internal enforcement. The expected external penalty is the sum across enforcement channels
 
-$$\Pi_{\text{external}}(m) = \sum_{k \in \text{channels}} \Pr(\text{detect}_k \mid m) \cdot L_k$$
+$$
+\Pi_{\text{external}}(m) = \sum_{k \in \text{channels}} \Pr(\text{detect}_k \mid m) \cdot L_k
+\tag{41}
+$$
 
 with $\Pr(\text{detect}\_k \mid m)$ the channel-$k$ detection probability and $L_k$ the channel-$k$ penalty. The enforcement-shadow account explains why certain regulated segments of the reputation market (professional services with liability exposure, publicly traded firms subject to securities disclosure, medical providers subject to malpractice liability) maintain higher signal informativeness than unregulated segments.
 
 The organic-establishment puzzle allows partial quantitative formalization through the mixing weights of the manipulation-equilibrium and separating-equilibrium subpopulations. Let $\phi$ denote the fraction of producers in the separating-equilibrium subpopulation and $1 - \phi$ denote the fraction in the manipulation-equilibrium subpopulation. The consumer's posterior about a randomly encountered producer's type is a mixture
 
-$$\Pr(\theta \mid s) = \phi \cdot \Pr(\theta \mid s, \text{separating}) + (1 - \phi) \cdot \Pr(\theta \mid s, \text{manipulation})$$
+$$
+\Pr(\theta \mid s) = \phi \cdot \Pr(\theta \mid s, \text{separating}) + (1 - \phi) \cdot \Pr(\theta \mid s, \text{manipulation})
+\tag{42}
+$$
 
 with the separating component carrying informative posterior and the manipulation component carrying uninformative posterior. The value of $\phi$ varies across platforms, categories, and time periods, and its estimation is a load-bearing empirical challenge for the miniseries.
 
 The dynamics of $\phi$ over time can be characterized by a replicator equation in which producers switch between the separating-equilibrium and manipulation-equilibrium subpopulations in proportion to the relative payoff differential,
 
-$$\dot{\phi} = \phi (1 - \phi) [\pi_{\text{sep}} - \pi_{\text{manip}}]$$
+$$
+\dot{\phi} = \phi (1 - \phi) [\pi_{\text{sep}} - \pi_{\text{manip}}]
+\tag{43}
+$$
 
 with $\pi_{\text{sep}}$ and $\pi_{\text{manip}}$ the expected payoffs to the two strategies. The interior fixed points of the replicator dynamics satisfy $\pi_{\text{sep}} = \pi_{\text{manip}}$, and the boundary fixed points at $\phi = 0$ and $\phi = 1$ are stable when the interior payoff comparison points away from the boundary. The local stability of an interior fixed point $\phi^\*$ satisfies
 
-$$\left.\frac{d\dot{\phi}}{d\phi}\right|_{\phi = \phi^*} < 0 \iff \phi^* \text{ is asymptotically stable}$$
+$$
+\left.\frac{d\dot{\phi}}{d\phi}\right|_{\phi = \phi^*} < 0 \iff \phi^* \text{ is asymptotically stable}
+\tag{44}
+$$
 
 and the boundary $\phi = 1$ is asymptotically stable when $\pi_{\text{sep}} > \pi_{\text{manip}}$ throughout a neighborhood of $\phi = 1$. The separating-equilibrium subpopulation grows when its expected payoff exceeds the manipulation-equilibrium payoff, which occurs when detection intensity, external enforcement, audience discrimination, or reputation persistence are sufficiently favorable. The manipulation-equilibrium subpopulation grows in the opposite parameter regime. The empirical trajectory of $\phi$ across major consumer platforms since 2000 shows marked category and platform variation and is documented in the platform-specific empirical literature the miniseries cites.
 
@@ -306,59 +438,92 @@ The miniseries applies a six-axis analytical framework introduced here in the fr
 
 The signal axis characterizes the form and density of information transmission by which each manipulation practice injects manipulated reputation signal into the reputation system. Signal-axis dimensions include channel identity (reviews, ratings, endorsements, engagement metrics, follower counts, recommendation-graph edges), signal volume (single injected signal, coordinated batch, sustained campaign), signal fidelity (crude fabrication detectable by simple filters, sophisticated fabrication matched to authentic distribution, hybrid mixing of authentic and fabricated signal), and cross-channel amplification (single-platform manipulation, cross-platform coordination, external-media amplification). The signal axis is operationalized as an injection-rate flux
 
-$$\sigma_{\text{signal}}(t) = \sum_k n_k(t) \, w_k \, f_k$$
+$$
+\sigma_{\text{signal}}(t) = \sum_k n_k(t) \, w_k \, f_k
+\tag{45}
+$$
 
 where $n_k$ counts injection events of kind $k$ (review, rating, comment, share, follow, engagement action), $w_k$ is the per-event weight in the ranking function, and $f_k$ is the per-event evasion fidelity against the platform's detection systems. High-fidelity manipulation exhibits $f_k$ close to unity, and low-fidelity manipulation exhibits $f_k$ that produces high detection rates. Cross-generational retention of injected signal follows a decay under platform-detection attenuation
 
-$$R_{\text{inject}}(t) = R_0 \, \prod_{\tau=1}^{t} (1 - d_\tau), \quad d_\tau \in [0, 1]$$
+$$
+R_{\text{inject}}(t) = R_0 \, \prod_{\tau=1}^{t} (1 - d_\tau), \quad d_\tau \in [0, 1]
+\tag{46}
+$$
 
 where $d_\tau$ is the fraction of injected signal removed at time $\tau$ by platform enforcement. High-detection platforms exhibit $d_\tau$ closer to unity, and low-detection platforms exhibit $d_\tau$ close to zero. The channel diversity of an actor's signal injection is summarized by the Shannon entropy over the injection-channel distribution
 
-$$H_{\text{channel}}^{i} = -\sum_k p_k^i \log p_k^i, \quad p_k^i = \frac{n_k^i}{\sum_{k'} n_{k'}^i}$$
+$$
+H_{\text{channel}}^{i} = -\sum_k p_k^i \log p_k^i, \quad p_k^i = \frac{n_k^i}{\sum_{k'} n_{k'}^i}
+\tag{47}
+$$
 
 with $p_k^i$ the fraction of actor $i$'s injection events allocated to channel $k$. High-diversity injection (large $H_{\text{channel}}$) spreads across many channels and complicates single-channel detection, and low-diversity injection concentrates on few channels and admits easier detection.
 
 The objective axis characterizes what each manipulator seeks to optimize. Self-promotion manipulators optimize for the actor's own reputation score, ranking position, purchase-intent generation, and downstream commercial return. Competitor-attack manipulators optimize for the target's reputation degradation, ranking position loss, purchase-intent suppression, and downstream competitive advantage. Astroturf political operators optimize for the perceived popular support of a policy position, candidate, or narrative. State-sponsored operators optimize for foreign-policy objectives including electoral interference, information environment shaping, and adversary destabilization. The objective-axis differences produce downstream technique differences that subsequent articles trace. The objective axis operationalizes as an actor-specific utility functional over reputation-system states $x \in \mathcal{X}$
 
-$$U_{\text{actor}}(x) = \sum_{j=1}^{J} \lambda_j \, g_j(x)$$
+$$
+U_{\text{actor}}(x) = \sum_{j=1}^{J} \lambda_j \, g_j(x)
+\tag{48}
+$$
 
 where $g_j$ are the actor's constitutive goals and $\lambda_j \geq 0$ are their relative weights. Actor divergence on the objective axis reduces to differences in the $\{\lambda_j, g_j\}$ specifications rather than divergence over instrumental rationality.
 
 The structure axis characterizes the organizational form of the manipulation operation. Individual self-promoters operate at the smallest scale with the simplest organization. Small firm operators (a business owner boosting their own listings) constitute the next tier. Hired reputation-management firms operate at the intermediate scale with employer-employee relationships, task specialization, and client-service contracts. Reputation-manipulation service marketplaces (fake-review platforms, follower-purchase services, engagement-boost services) operate at the platform tier with two-sided market dynamics between manipulators and end-buyers. Coordinated inauthentic behavior networks operate at the campaign tier with central coordination across many operator accounts. State-sponsored operations operate at the largest scale with intelligence-service infrastructure, dedicated funding, and geopolitical objectives. The structure axis permits summary via hierarchy depth and branching factor,
 
-$$D_{\text{struct}} = \text{longest authority path from operator to apex}, \quad B_{\text{struct}} = \text{mean subordinate count per authority node}$$
+$$
+D_{\text{struct}} = \text{longest authority path from operator to apex}, \quad B_{\text{struct}} = \text{mean subordinate count per authority node}
+\tag{49}
+$$
 
 with individual operators exhibiting minimal $D_{\text{struct}}$ and $B_{\text{struct}}$, and state-sponsored operations exhibiting deep $D_{\text{struct}}$ and moderate $B_{\text{struct}}$ at intermediate tiers.
 
 The model axis characterizes the doctrinal, technical, and rhetorical content each manipulation practice carries. The technical model includes the fabrication method (human-written, template-based, generative-model-produced), the account-provenance method (organic aged accounts, synthetic new accounts, hijacked authentic accounts, purchased authentic accounts), the coordination method (uncoordinated, spreadsheet-coordinated, platform-coordinated, algorithmically coordinated), and the evasion method (rotating IP addresses, timing distribution, behavioral randomization, linguistic variation). The rhetorical model includes the persuasion framing (testimonial, comparative, emotional, expert-authority), the credibility framing (verified purchase claim, verified user claim, identity performance), and the narrative framing (personal story, statistical claim, quality attribute enumeration). The model axis reduces to technique position vectors over a chosen technique-space basis $\{t_1, t_2, \ldots, t_M\}$
 
-$$\mathbf{c}_{\text{practice}} = (c_1, c_2, \ldots, c_M), \quad c_m \in \{-1, 0, +1\}$$
+$$
+\mathbf{c}_{\text{practice}} = (c_1, c_2, \ldots, c_M), \quad c_m \in \{-1, 0, +1\}
+\tag{50}
+$$
 
 with pairwise technique distance
 
-$$d_{\text{model}}(A, B) = \sum_{m=1}^{M} |c_m^A - c_m^B|$$
+$$
+d_{\text{model}}(A, B) = \sum_{m=1}^{M} |c_m^A - c_m^B|
+\tag{51}
+$$
 
 measuring model-axis divergence between practices $A$ and $B$. The model-axis differences correspond to distinct detection signatures and distinct enforcement responses.
 
 The interaction axis characterizes external relationships with platforms, targets, competitors, audiences, and enforcement authorities. Interaction-axis dimensions include the platform relationship (compliant use, terms-of-service violation, active concealment, adversarial evasion), the target relationship (target-unaware self-promotion, target-aware self-promotion, target-directed attack, third-party-directed attack), the competitor relationship (independent operation, industry-wide reputation collusion, competitor-attack coordination), the audience relationship (audience-unaware manipulation, audience-aware manipulation, audience-complicit manipulation), and the enforcement relationship (below-detection-threshold operation, detection-and-remediation cycle, escalated-enforcement engagement, legal-proceedings engagement). The interaction axis allows operationalization as a weighted signed graph over actors, targets, platforms, and enforcers,
 
-$$W_{ij}(t) = w_{ij}^{\text{coop}}(t) - w_{ij}^{\text{conflict}}(t), \quad W(t) = [W_{ij}(t)] \in \mathbb{R}^{S \times S}$$
+$$
+W_{ij}(t) = w_{ij}^{\text{coop}}(t) - w_{ij}^{\text{conflict}}(t), \quad W(t) = [W_{ij}(t)] \in \mathbb{R}^{S \times S}
+\tag{52}
+$$
 
 with enforcement-attributable imprint accumulating over time,
 
-$$L_i(t) = \int_0^t \ell_i(\tau) \, d\tau$$
+$$
+L_i(t) = \int_0^t \ell_i(\tau) \, d\tau
+\tag{53}
+$$
 
 where $\ell_i(\tau)$ counts platform actions, regulatory actions, and legal judgments recorded against actor $i$ at time $\tau$.
 
 The adaptation axis characterizes response to platform-architecture change, detection-technology change, and enforcement change. Adaptation-axis dimensions include technique migration (shifting from a detected technique to an undetected variant), platform migration (shifting from a high-enforcement platform to a low-enforcement platform), attribution obfuscation (shifting from traceable to untraceable operator infrastructure), and legal-form adaptation (shifting from prosecutable forms to protected forms under first-amendment, section-230, or jurisdictional-arbitrage protection). The adaptation axis takes the operational form first-order relaxation toward the actor's response equilibrium under novel platform conditions,
 
-$$\frac{d S_i}{d t} = -\frac{1}{\tau_i}\bigl(S_i(t) - S_i^{*}(t)\bigr) + \xi_i(t)$$
+$$
+\frac{d S_i}{d t} = -\frac{1}{\tau_i}\bigl(S_i(t) - S_i^{*}(t)\bigr) + \xi_i(t)
+\tag{54}
+$$
 
 where $S_i$ is the actor's technique-and-infrastructure state, $S_i^{\*}(t)$ is the environment-dependent optimal response, $\tau_i$ is the actor's adaptation time constant, and $\xi_i(t)$ is exogenous perturbation. High-adaptation actors (professional manipulation-service firms with dedicated engineering teams) exhibit short $\tau_i$, and low-adaptation actors (individual self-promoters relying on manual technique) exhibit long $\tau_i$.
 
 The six axes are not independent. The account supports a cross-axis coupling matrix
 
-$$C_{\text{coupling}} = \left[\frac{\partial x_a}{\partial x_b}\right]_{a, b \in \{\text{signal, obj, struct, model, interact, adapt}\}}$$
+$$
+C_{\text{coupling}} = \left[\frac{\partial x_a}{\partial x_b}\right]_{a, b \in \{\text{signal, obj, struct, model, interact, adapt}\}}
+\tag{55}
+$$
 
 with the off-diagonal entries indexing the sensitivity of axis $a$ to changes in axis $b$. Empirically salient couplings include structure-to-signal (a state-sponsored operator's signal capacity is bounded by the operator's structural scale), model-to-adaptation (a manipulation practice's model determines the ease of technique migration under detection pressure), and interaction-to-signal (an actor's platform relationship constrains the channels through which signal can be injected). The closing article of the miniseries treats the coupling structure empirically.
 
@@ -384,11 +549,17 @@ The direct-marketing tradition of database-driven reputation and preference mani
 
 The diffusion of a manipulation technique across the operator population follows the general form of the [Bass 1969][research_bass_1969] diffusion model,
 
-$$\frac{dN(t)}{dt} = \bigl(p + q \, \frac{N(t)}{\bar{N}}\bigr) \bigl(\bar{N} - N(t)\bigr)$$
+$$
+\frac{dN(t)}{dt} = \bigl(p + q \, \frac{N(t)}{\bar{N}}\bigr) \bigl(\bar{N} - N(t)\bigr)
+\tag{56}
+$$
 
 with $N(t)$ the cumulative adopter count at time $t$, $\bar{N}$ the ceiling adopter count, $p$ the innovation coefficient (external influence), and $q$ the imitation coefficient (internal influence). The propaganda reach amplification through cascading exposure follows the compound-growth form
 
-$$R_{\text{reach}}(t) = R_0 \, (1 + \eta)^t$$
+$$
+R_{\text{reach}}(t) = R_0 \, (1 + \eta)^t
+\tag{57}
+$$
 
 with $\eta$ the per-period retransmission gain that combines the audience-network branching factor and the per-message persistence. The empirical treatment of pre-digital propaganda reach traces to [Berelson 1948][research_berelson_1948] and subsequent work; the digital-era treatment appears in [Vosoughi et al. 2018][research_vosoughi_roy_aral_2018] and the platform-integrity literature.
 
@@ -456,15 +627,24 @@ The gig-economy and marketplace platforms include Uber, Lyft, DoorDash, Airbnb, 
 
 The scale of the manipulation economy across the landscape permits summary through order-of-magnitude estimates from the industry and regulatory literature. The [FTC 2019 Sunday Riley settlement][ref_ftc_sunday_riley_2019], the [FTC 2020 Fashion Nova settlement][ref_ftc_fashion_nova_2020], the [FTC 2022 Fake Reviews and Endorsements notice of penalty offense][ref_ftc_penalty_offense_2022], and the [FTC 2024 final rule on fake reviews][ref_ftc_final_rule_2024] provide the regulatory documentation. The estimated aggregate annual reputation-manipulation-service market size across major platforms is approximately
 
-$$V_{\text{manip-market}} \sim 10^{9} \text{ to } 10^{10} \text{ USD per year}$$
+$$
+V_{\text{manip-market}} \sim 10^{9} \text{ to } 10^{10} \text{ USD per year}
+\tag{58}
+$$
 
 with the upper bound reflecting the sum of documented service marketplaces plus the estimated volume of internal firm-level manipulation spending. The estimated fake-review prevalence across major consumer platforms varies by category, with the observed range across the platform categories partitioned above satisfying approximately
 
-$$p_{\text{fake}} \in [0.05, 0.40], \quad p_{\text{fake}}^{\text{high-manip category}} > 0.30$$
+$$
+p_{\text{fake}} \in [0.05, 0.40], \quad p_{\text{fake}}^{\text{high-manip category}} > 0.30
+\tag{59}
+$$
 
 with the [World Economic Forum 2021][ref_wef_2021_fake_reviews] and [European Commission 2023][ref_ec_2023_sweep] cross-platform sweeps providing category-specific estimates. The aggregate fake-content volume across the reputation ecosystem allows summary as the sum across categories
 
-$$V_{\text{fake}}(t) = \sum_{c \in \text{categories}} n_c(t) \cdot p_c(t)$$
+$$
+V_{\text{fake}}(t) = \sum_{c \in \text{categories}} n_c(t) \cdot p_c(t)
+\tag{60}
+$$
 
 with $n_c(t)$ the total signal-event volume in category $c$ at time $t$ and $p_c(t)$ the category-specific manipulation prevalence. The estimated aggregate ranges from approximately one billion to approximately one hundred billion manipulated signal events per year across the major categories, with the upper bound reflecting generative-model-enabled scale-up documented since 2023 in [Sohail 2024][research_sohail_et_al_2024] and subsequent work.
 
@@ -519,6 +699,551 @@ Article four synthesizes the miniseries and treats the detection landscape, the 
 - What is the correct comparative treatment of the American manipulation ecosystem against other national manipulation ecosystems in China, Russia, the European Union, India, Brazil, and other major markets, and how do the divergent legal, cultural, and platform-architecture conditions produce divergent equilibria?
 
 These questions recur throughout the miniseries and are revisited in the closing synthesis.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 60 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 60, 24 are established and 36 are bespoke.
+Reputation, manipulation intensity, detection intensity and the axis measures are abstract quantities without fixed units, so an equation fixes only relations among them, and several letters are reused, with $\alpha$ both a cost convexity and a power-law exponent, $c_0$ both a cost scale and a top-position click-through rate, $\delta$ both a discount factor and a manipulation perturbation, and $\phi$ both a rank-attention function and a population fraction.
+
+*Equation 1, Bespoke Reputation Mapping Function.*
+The article frames the mapping problem as an unknown function that takes quality, manipulation intensity, platform architecture, detection regime and audience to observed reputation, plus an unexplained residual.
+
+$$
+R_i(t) = F(q_i(t), m_i(t), P_t, D_t, A_t) + \varepsilon_i(t)
+\tag{1}
+$$
+
+*Equation 2, Bespoke Counterfactual Manipulation Contribution.*
+The article defines the manipulation contribution as the difference between observed reputation and the reputation the same actor would hold with manipulation set to zero and everything else fixed.
+
+$$
+\Delta R_i^{\text{manip}}(t) = F(q_i(t), m_i(t), P_t, D_t, A_t) - F(q_i(t), 0, P_t, D_t, A_t)
+\tag{2}
+$$
+
+*Equation 3, Bespoke Additive Reputation Decomposition.*
+Assuming that the contributions combine approximately additively, the article splits observed reputation into quality, manipulation, platform and residual terms.
+
+$$
+R_i(t) = R_i^{q}(t) + R_i^{\text{manip}}(t) + R_i^{\text{platform}}(t) + \varepsilon_i(t)
+\tag{3}
+$$
+
+**Equation 4, Aggregate and Mean Manipulation Intensity.**
+The aggregate intensity is the sum over actors and the mean is that sum divided by the number of actors.
+
+$$
+M(t) = \sum_{i=1}^{N} m_i(t), \quad \bar{m}(t) = M(t)/N
+\tag{4}
+$$
+
+**Equation 5, Sample Prevalence Estimator and Its Variance.**
+The prevalence of manipulation in a random sample is the proportion of items classified as manipulated, with the binomial variance of a sample proportion.
+
+$$
+\hat{p}_{\text{manip}} = \frac{1}{n} \sum_{i=1}^{n} \mathbb{1}[y_i = \text{manip}], \quad \text{Var}(\hat{p}_{\text{manip}}) = \frac{\hat{p}_{\text{manip}}(1 - \hat{p}_{\text{manip}})}{n}
+\tag{5}
+$$
+
+**Equation 6, Inverse-Variance Weighted Meta-Analytic Estimate.**
+Study estimates are combined with weights equal to the reciprocals of their reported variances, the fixed-effect meta-analytic mean.
+
+$$
+\hat{p}^{\text{meta}} = \frac{\sum_k w_k \hat{p}_k}{\sum_k w_k}, \quad w_k = \frac{1}{\sigma_k^2}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Additive Reputation Signal Model.*
+The article models the reputation signal as a deterministic function of type and effort plus additive observation noise.
+
+$$
+s_i = h(\theta_i, e_i) + \eta_i
+\tag{7}
+$$
+
+**Equation 8, Bayesian Posterior Over Types.**
+Bayes rule updates the prior over actor types to a posterior conditional on the observed reputation signal.
+
+$$
+\Pr(\theta_i = \theta \mid s_i) = \frac{\Pr(s_i \mid \theta_i = \theta) \, \pi(\theta)}{\int_\Theta \Pr(s_i \mid \theta_i = \theta') \, \pi(\theta') \, d\theta'}
+\tag{8}
+$$
+
+**Equation 9, Willingness to Pay Under the Posterior.**
+The willingness to pay is the posterior expected utility of transacting less the utility of the outside option.
+
+$$
+\text{WTP}(s_i) = \int_\Theta u(\theta, q(\theta)) \, \Pr(\theta \mid s_i) \, d\theta - u_{\text{outside}}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Power-Law Manipulation Cost.*
+The article assumes that the cost of manipulation rises as a power of intensity with an exponent greater than one, so that cost is convex.
+
+$$
+c(m) = c_0 \, m^{\alpha}, \quad \alpha > 1
+\tag{10}
+$$
+
+*Equation 11, Bespoke Reputation Premium as an Expected Quality Differential.*
+In the article's reputation-tier variant of the lemons market, the price premium of high-reputation sellers is the difference in expected quality between the two tiers.
+
+$$
+\Delta p = E[q \mid \text{high reputation}] - E[q \mid \text{low reputation}]
+\tag{11}
+$$
+
+**Equation 12, Spence Single-Crossing Condition.**
+The separating equilibrium requires that the marginal cost of producing the signal be lower for the high type than for the low type.
+[Spence 1973][research_spence_1973]
+
+$$
+\frac{\partial C(s, \theta_H)}{\partial s} < \frac{\partial C(s, \theta_L)}{\partial s}
+\tag{12}
+$$
+
+**Equation 13, Klein and Leffler Reputation Bond.**
+The value of the reputation bond is the discounted sum of the future price premium the reputation earns.
+[Klein and Leffler 1981][research_klein_leffler_1981]
+
+$$
+B = \sum_{t=1}^{\infty} \delta^t \, (p_t^{\text{rep}} - p_t^{\text{no rep}})
+\tag{13}
+$$
+
+*Equation 14, Bespoke Law of Motion of the Reputation Stock.*
+The article treats reputation as a capital stock that decays at a constant rate, gains from authentic and manipulated inflows and loses through detection.
+
+$$
+\frac{dR_i}{dt} = -\gamma R_i(t) + \sigma_i^{\text{authentic}}(t) + \sigma_i^{\text{manip}}(t) - \delta_i^{\text{detect}}(t)
+\tag{14}
+$$
+
+**Equation 15, Present Value of the Reputation Stream.**
+The asset value is the continuously discounted integral of the flow return the reputation stock produces.
+
+$$
+V_R^i = \int_0^{\infty} e^{-rt} \, \pi_i(R_i(t)) \, dt
+\tag{15}
+$$
+
+*Equation 16, Bespoke Steady-State Reputation Stock.*
+Setting the article's law of motion to zero under constant inflows and constant detection gives the stock as the net inflow divided by the decay rate.
+
+$$
+R_i^{\text{ss}} = \frac{\sigma_i^{\text{authentic}} + \sigma_i^{\text{manip}} - \delta_i^{\text{detect}}}{\gamma}
+\tag{16}
+$$
+
+**Equation 17, Total Platform Attention.**
+Total attention is the number of active users times the average attention each allocates.
+
+$$
+A_{\text{total}} = N \cdot \bar{a}
+\tag{17}
+$$
+
+**Equation 18, Power-Law Rank-Size Distribution of Attention.**
+Attention received falls as a power of rank, the Zipf rank-size regularity, with the exponent range the empirical literature reports.
+[Zipf 1949][book_zipf_1949]
+[Adamic and Huberman 2000][research_adamic_huberman_2000]
+
+$$
+a_{(r)} \sim r^{-\alpha}, \quad \alpha \in [0.5, 2]
+\tag{18}
+$$
+
+**Equation 19, Herfindahl-Hirschman Index of Attention.**
+The Herfindahl-Hirschman Index is the sum of squared attention shares, ranging from the reciprocal of the number of entities under uniform allocation to one under complete concentration.
+
+$$
+\text{HHI}_{\text{attention}} = \sum_{i=1}^{K} \left(\frac{a_i}{A_{\text{total}}}\right)^2 \in [1/K, 1]
+\tag{19}
+$$
+
+**Equation 20, Shannon Entropy of Attention.**
+The Shannon entropy of the attention shares ranges from zero under complete concentration to the logarithm of the number of entities under uniform allocation.
+
+$$
+H_{\text{attention}} = -\sum_{i=1}^{K} \frac{a_i}{A_{\text{total}}} \log \frac{a_i}{A_{\text{total}}} \in [0, \log K]
+\tag{20}
+$$
+
+*Equation 21, Bespoke Ranking Function.*
+The article abstracts the platform ranking as an unspecified function of reputation, engagement history, content features and personalisation features.
+
+$$
+\rho_i = g(R_i, e_i, c_i, u_i)
+\tag{21}
+$$
+
+*Equation 22, Bespoke Attention as a Function of Rank.*
+The article assumes that the attention an entity receives depends on its ranking score only through its rank position.
+
+$$
+a_i = \phi(\text{rank}(\rho_i))
+\tag{22}
+$$
+
+*Equation 23, Bespoke Power-Law Click-Through Decay.*
+The article approximates click-through rate as a power of rank position with an exponent taken to lie between one and two.
+
+$$
+\text{CTR}(r) \approx c_0 \cdot r^{-\beta}, \quad \beta \in [1, 2]
+\tag{23}
+$$
+
+**Equation 24, Chain Rule for the Reputation-to-Attention Conversion.**
+The chain rule expands the derivative of attention with respect to reputation through rank position and ranking score.
+
+$$
+\frac{\partial a_i}{\partial R_i} = \phi'(\text{rank}(\rho_i)) \cdot \frac{\partial \text{rank}}{\partial \rho_i} \cdot \frac{\partial \rho_i}{\partial R_i}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Platform Objective.*
+The article writes the platform objective as a weighted sum of consumer surplus, producer surplus and revenue less the cost of detection.
+
+$$
+W_{\text{platform}}(D, \mathbf{m}) = \psi_C \, \text{CS}(D, \mathbf{m}) + \psi_P \, \text{PS}(D, \mathbf{m}) + \psi_R \, \text{Rev}(D, \mathbf{m}) - C(D)
+\tag{25}
+$$
+
+*Equation 26, Bespoke Producer Manipulation Payoff.*
+The article's producer earns the value of observed reputation less the direct cost of manipulation and the expected loss from detection.
+
+$$
+\pi_i(m_i, m_{-i}) = R_i(m_i, m_{-i}) \cdot v - c(m_i) - L(m_i, D)
+\tag{26}
+$$
+
+*Equation 27, Bespoke Producer First-Order Condition.*
+The interior optimum of the article's producer payoff sets the marginal reputation benefit equal to the marginal direct cost plus the marginal expected detection loss.
+
+$$
+\frac{\partial R_i}{\partial m_i} \cdot v = c'(m_i) + \frac{\partial L}{\partial m_i}
+\tag{27}
+$$
+
+**Equation 28, Nash Equilibrium as Mutual Best Response.**
+Each actor's equilibrium intensity maximises that actor's payoff given the equilibrium intensities of all others.
+
+$$
+m_i^* = \arg\max_{m_i} \pi_i(m_i, m_{-i}^*), \quad \forall i
+\tag{28}
+$$
+
+**Equation 29, Prisoner's Dilemma Payoff Matrix.**
+With the ordering of payoffs the article states, the two-actor binary manipulation game is a prisoner's dilemma whose dominant strategy equilibrium is mutual manipulation.
+
+$$
+\begin{array}{c|cc}
+ & m_j = 0 & m_j = 1 \\
+\hline
+m_i = 0 & (\pi_C, \pi_C) & (\pi_L, \pi_H) \\
+m_i = 1 & (\pi_H, \pi_L) & (\pi_D, \pi_D)
+\end{array}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Aggregate Equilibrium Manipulation.*
+Under the article's symmetric best response, aggregate equilibrium manipulation grows as the number of actors times the per-actor equilibrium intensity.
+
+$$
+M^* = \sum_{i=1}^{N} m_i^* \to N \cdot \bar{m}^*
+\tag{30}
+$$
+
+*Equation 31, Bespoke Negative Elasticity of Manipulation to Detection.*
+The elasticity of equilibrium manipulation with respect to detection intensity is the logarithmic derivative, which the article asserts is negative.
+
+$$
+\varepsilon_{m,D} = \frac{\partial \ln \bar{m}^*}{\partial \ln D} < 0
+\tag{31}
+$$
+
+*Equation 32, Bespoke Platform First-Order Condition for Detection.*
+The article's platform chooses detection intensity where the weighted marginal gain in consumer trust less the weighted marginal loss in producer participation equals the marginal cost of detection.
+
+$$
+\frac{\partial \text{Consumer Trust}}{\partial D} \cdot \psi_C - \frac{\partial \text{Producer Participation}}{\partial D} \cdot \psi_P = C'(D)
+\tag{32}
+$$
+
+**Equation 33, Bayesian Posterior of Manipulation Given a Signal.**
+Bayes rule for a binary hypothesis gives the posterior probability that an item is manipulated given the detection signal.
+
+$$
+\Pr(m_i = 1 \mid \text{signal}) = \frac{\Pr(\text{signal} \mid m_i = 1) \, \pi(m_i = 1)}{\Pr(\text{signal} \mid m_i = 1) \, \pi(m_i = 1) + \Pr(\text{signal} \mid m_i = 0) \, \pi(m_i = 0)}
+\tag{33}
+$$
+
+**Equation 34, True and False Positive Rates at a Threshold.**
+The true and false positive rates at a threshold are the upper tails of the score distributions of manipulated and authentic items, which trace the receiver operating characteristic.
+
+$$
+\text{TPR}(\tau) = 1 - F_1(\tau), \quad \text{FPR}(\tau) = 1 - F_0(\tau)
+\tag{34}
+$$
+
+*Equation 35, Bespoke Deterrence Condition.*
+The article's actor abstains when the expected penalty plus the direct cost exceeds a linear approximation to the reputation gain from manipulation.
+
+$$
+\Pr(\text{detect}) \cdot \text{Penalty} + c(m) > \frac{\partial R_i}{\partial m_i} \cdot v \cdot m
+\tag{35}
+$$
+
+*Equation 36, Bespoke Signal-to-Noise Ratio Under Manipulation.*
+The article defines informativeness as the variance of the authentic signal component over the sum of noise variance and manipulation-induced variance.
+
+$$
+\text{SNR}(\mathbf{m}) = \frac{\text{Var}(h(\theta, e))}{\text{Var}(\eta) + \text{Var}(m \cdot \delta)}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Exponential Trust Recovery After Exposure.*
+The article assumes that trust drops to a floor at exposure and recovers exponentially toward its pre-exposure level at a constant rate.
+
+$$
+T(t \mid \text{exposed at } t_0) = T_{\text{floor}} + (T_0 - T_{\text{floor}}) \cdot \bigl(1 - e^{-\lambda (t - t_0)}\bigr)
+\tag{37}
+$$
+
+*Equation 38, Bespoke Divergent Single-Crossing Condition.*
+The article modifies the single-crossing condition by requiring the marginal cost gap between low and high types to diverge as the signal grows, which defines an uncounterfeitable signal.
+
+$$
+\lim_{s \to \infty} \left[\frac{\partial c(s, \theta_L)}{\partial s} - \frac{\partial c(s, \theta_H)}{\partial s}\right] = +\infty
+\tag{38}
+$$
+
+*Equation 39, Bespoke Collective Deviation Cost.*
+The article sums the reputation losses of the members of a collective, valued at each member's reputation value, and adds the cost of expulsion.
+
+$$
+C_{\text{deviate}}^{\text{collective}} = \sum_{j \in \text{collective}} \Delta R_j \cdot v_j + P_{\text{expulsion}}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Legacy Reputation Value.*
+The article values legacy reputation as the discounted integral of reputation, its value and signal informativeness up to the transition to the manipulation equilibrium.
+
+$$
+V_{\text{legacy}} = \int_0^{T_{\text{transition}}} R_i(t) \cdot v(t) \cdot I(t) \cdot e^{-rt} \, dt
+\tag{40}
+$$
+
+*Equation 41, Bespoke Expected External Penalty.*
+The article sums over enforcement channels the probability of detection in each channel times the penalty it imposes.
+
+$$
+\Pi_{\text{external}}(m) = \sum_{k \in \text{channels}} \Pr(\text{detect}_k \mid m) \cdot L_k
+\tag{41}
+$$
+
+*Equation 42, Bespoke Two-Subpopulation Posterior Mixture.*
+The article assumes that producers fall into a separating and a manipulating subpopulation, so the consumer posterior is their mixture weighted by the separating fraction.
+
+$$
+\Pr(\theta \mid s) = \phi \cdot \Pr(\theta \mid s, \text{separating}) + (1 - \phi) \cdot \Pr(\theta \mid s, \text{manipulation})
+\tag{42}
+$$
+
+**Equation 43, Two-Strategy Replicator Equation.**
+The separating fraction grows at a rate proportional to its product with its complement and to the payoff difference between the strategies.
+
+$$
+\dot{\phi} = \phi (1 - \phi) [\pi_{\text{sep}} - \pi_{\text{manip}}]
+\tag{43}
+$$
+
+**Equation 44, Local Stability of a Fixed Point.**
+An interior fixed point of a one-dimensional flow is asymptotically stable when the derivative of the flow is negative there.
+
+$$
+\left.\frac{d\dot{\phi}}{d\phi}\right|_{\phi = \phi^*} < 0 \iff \phi^* \text{ is asymptotically stable}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Injection-Rate Flux.*
+The article operationalises the signal axis as the sum over injection kinds of event counts weighted by ranking weight and evasion fidelity.
+
+$$
+\sigma_{\text{signal}}(t) = \sum_k n_k(t) \, w_k \, f_k
+\tag{45}
+$$
+
+*Equation 46, Bespoke Retention of Injected Signal.*
+The article models retained injected signal as the initial amount multiplied by the surviving fraction after each period of platform removal.
+
+$$
+R_{\text{inject}}(t) = R_0 \, \prod_{\tau=1}^{t} (1 - d_\tau), \quad d_\tau \in [0, 1]
+\tag{46}
+$$
+
+**Equation 47, Shannon Entropy of Injection Channels.**
+The diversity of an actor's injection channels is the Shannon entropy of the fractions of events allocated to each channel.
+
+$$
+H_{\text{channel}}^{i} = -\sum_k p_k^i \log p_k^i, \quad p_k^i = \frac{n_k^i}{\sum_{k'} n_{k'}^i}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Linear Actor Utility.*
+The article writes the objective axis as a weighted sum of goal functions with non-negative weights.
+
+$$
+U_{\text{actor}}(x) = \sum_{j=1}^{J} \lambda_j \, g_j(x)
+\tag{48}
+$$
+
+*Equation 49, Bespoke Hierarchy Depth and Branching Factor.*
+The article summarises the structure axis by the longest authority path and the mean number of subordinates per authority node.
+
+$$
+D_{\text{struct}} = \text{longest authority path from operator to apex}, \quad B_{\text{struct}} = \text{mean subordinate count per authority node}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Ternary Technique Position Vector.*
+The article codes each practice as a vector over a technique basis with entries of minus one, zero or plus one.
+
+$$
+\mathbf{c}_{\text{practice}} = (c_1, c_2, \ldots, c_M), \quad c_m \in \{-1, 0, +1\}
+\tag{50}
+$$
+
+**Equation 51, Manhattan Distance Between Practices.**
+The distance between two practices is the sum of the absolute differences of their technique coordinates.
+
+$$
+d_{\text{model}}(A, B) = \sum_{m=1}^{M} |c_m^A - c_m^B|
+\tag{51}
+$$
+
+*Equation 52, Bespoke Signed Interaction Weight Matrix.*
+The article represents the interaction axis as a signed graph whose weights are cooperative weight less conflict weight.
+
+$$
+W_{ij}(t) = w_{ij}^{\text{coop}}(t) - w_{ij}^{\text{conflict}}(t), \quad W(t) = [W_{ij}(t)] \in \mathbb{R}^{S \times S}
+\tag{52}
+$$
+
+**Equation 53, Cumulative Enforcement Imprint.**
+The imprint is the time integral of the rate of enforcement actions recorded against the actor.
+
+$$
+L_i(t) = \int_0^t \ell_i(\tau) \, d\tau
+\tag{53}
+$$
+
+*Equation 54, Bespoke First-Order Adaptation Dynamics.*
+The article assumes that an actor's technique state relaxes toward its environment-dependent optimum with a single time constant, perturbed by exogenous noise.
+
+$$
+\frac{d S_i}{d t} = -\frac{1}{\tau_i}\bigl(S_i(t) - S_i^{*}(t)\bigr) + \xi_i(t)
+\tag{54}
+$$
+
+*Equation 55, Bespoke Cross-Axis Coupling Matrix.*
+The article defines a matrix of partial derivatives of each axis with respect to each other axis, whose off-diagonal entries index coupling.
+
+$$
+C_{\text{coupling}} = \left[\frac{\partial x_a}{\partial x_b}\right]_{a, b \in \{\text{signal, obj, struct, model, interact, adapt}\}}
+\tag{55}
+$$
+
+**Equation 56, Bass Diffusion Model.**
+The rate of adoption is the sum of an innovation coefficient and an imitation term proportional to the adopted share, multiplied by the remaining potential adopters.
+[Bass 1969][research_bass_1969]
+
+$$
+\frac{dN(t)}{dt} = \bigl(p + q \, \frac{N(t)}{\bar{N}}\bigr) \bigl(\bar{N} - N(t)\bigr)
+\tag{56}
+$$
+
+*Equation 57, Bespoke Compound-Growth Reach Amplification.*
+The article assumes that propaganda reach grows geometrically at a constant per-period retransmission gain.
+
+$$
+R_{\text{reach}}(t) = R_0 \, (1 + \eta)^t
+\tag{57}
+$$
+
+*Equation 58, Bespoke Manipulation Service Market Size.*
+The article states an order-of-magnitude estimate of one to ten billion United States dollars per year for the manipulation-service market.
+
+$$
+V_{\text{manip-market}} \sim 10^{9} \text{ to } 10^{10} \text{ USD per year}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Fake-Review Prevalence Range.*
+The article summarises category prevalence of fake reviews as a range from 5 to 40 per cent, exceeding 30 per cent in high-manipulation categories.
+[World Economic Forum 2021][ref_wef_2021_fake_reviews]
+[European Commission 2023][ref_ec_2023_sweep]
+
+$$
+p_{\text{fake}} \in [0.05, 0.40], \quad p_{\text{fake}}^{\text{high-manip category}} > 0.30
+\tag{59}
+$$
+
+**Equation 60, Aggregate Fake-Content Volume.**
+The aggregate volume is the sum over categories of total signal events times the category prevalence of manipulation.
+
+$$
+V_{\text{fake}}(t) = \sum_{c \in \text{categories}} n_c(t) \cdot p_c(t)
+\tag{60}
+$$
+
+### Notation
+
+- $R_i(t)$, the observed reputation score of actor $i$ at time $t$
+- $q_i(t)$, the underlying quality of the good or service actor $i$ offers
+- $m_i(t)$, the manipulation intensity actor $i$ deploys, written $m_i$ where time is understood
+- $P_t$, the platform architecture and ranking rules at time $t$
+- $D_t$, the detection and enforcement regime at time $t$, with $D$ the detection intensity in the equilibrium equations
+- $A_t$, the audience composition and attention allocation at time $t$
+- $\bar{m}(t)$, the average per-actor manipulation intensity
+- $\theta_i$, the unobservable type of actor $i$, with $\theta_H$ and $\theta_L$ the high and low types
+- $s_i$, the reputation signal of actor $i$
+- $e_i$, reputation-directed effort in the signal model, but engagement history in the ranking function
+- $\eta_i$, idiosyncratic noise in the observation channel
+- $\pi(\theta)$, the prior over types
+- $c(m)$, the direct cost of manipulation intensity $m$
+- $\alpha$, the convexity exponent of the manipulation cost, and separately the rank-size power-law exponent
+- $\Delta p$, the price premium of high-reputation sellers
+- $\delta$, the discount factor in the reputation bond, and separately the manipulation perturbation in the signal-to-noise ratio
+- $\gamma$, the reputation decay rate
+- $\sigma_i^{\text{authentic}}(t)$, the authentic signal inflow to the reputation stock
+- $\sigma_i^{\text{manip}}(t)$, the manipulation inflow to the reputation stock
+- $\delta_i^{\text{detect}}(t)$, the detection-triggered reputation loss
+- $A_{\text{total}}$, the total attention available across a platform in an interval
+- $\bar{a}$, the average attention allocation per user
+- $a_i$, the attention allocated to entity $i$
+- $\rho_i$, the ranking score of entity $i$
+- $\psi_C$, the platform's marginal valuation of consumer surplus or consumer trust, with $\psi_P$ and $\psi_R$ for producer surplus and revenue
+- $v$, the per-unit reputation value in terms of expected revenue
+- $L(m_i, D)$, the expected loss from detection at detection intensity $D$
+- $\tau$, the classification threshold on the posterior
+- $F_1(\tau)$, the score distribution of manipulated items, with $F_0$ for authentic items
+- $\phi$, the rank-to-attention function, and separately the fraction of producers in the separating subpopulation
+- $T_{\text{floor}}$, the post-exposure trust floor, with $T_0$ the pre-exposure trust level
+- $\lambda$, the trust recovery rate
+- $I(t)$, the signal informativeness at time $t$
+- $f_k$, the per-event evasion fidelity of injection kind $k$
+- $d_\tau$, the fraction of injected signal removed at time $\tau$
+- $\tau_i$, the adaptation time constant of actor $i$
+- $\bar{N}$, the ceiling adopter count of the Bass model, with $p$ and $q$ the innovation and imitation coefficients
+- $\eta$, the per-period retransmission gain
+- $p_{\text{fake}}$, the fake-review prevalence across platform categories
 
 ## References
 

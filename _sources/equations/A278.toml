@@ -1,0 +1,751 @@
+# Equation classification for A278. Read by `python3 _lib/equations.py`.
+
+caution = "Prices are in United States dollars per unit named in each range, rates are per unit time on the platform in question, and most other quantities are dimensionless scores or abstract axis values, while several letters are reused, with $\\alpha$ a self-excitation gain in the Hawkes process and a saturation rate in the domain value, $\\rho$ an operator utilisation in the queue and a rank score elsewhere, and $\\kappa$ a transfer coefficient rather than an agreement statistic."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Six-Axis Technique Vector"
+gloss = "The article characterises each self-promotion technique by its positions on the six analytical axes of the framing article."
+cite = []
+digest = "f1d6b7f3410883ae"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Weighted Technique Distance"
+gloss = "The article defines the distance between techniques as a weighted sum of axis-specific distances, with weights it leaves to the analyst."
+cite = []
+digest = "6862b8dfb2160d02"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Aggregate Self-Promotion Volume"
+gloss = "The aggregate volume is the sum over techniques and categories of signal-event volume times the prevalence rate."
+cite = []
+digest = "505a60f20d956b8f"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Taxonomy Coverage"
+gloss = "The article defines coverage as the fraction of observed manipulation instances that the taxonomy assigns to some technique, a recall analogue."
+cite = []
+digest = "7494b2454948f458"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Stylometric Feature Vector"
+gloss = "The article lists the stylometric components that a contemporary fake-review detector takes as input for a review."
+cite = []
+digest = "f9170a986acb537b"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Rating-Shift Model"
+gloss = "The article writes the observed rating change as the authentic change plus the injected fake reviews' average rating weighted by their share of all reviews."
+cite = []
+digest = "e63bb016540ec317"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Precision, Recall and F1 Score"
+gloss = "Precision is the fraction of flagged items that are manipulated, recall is the fraction of manipulated items that are flagged, and the F1 score is their harmonic mean."
+cite = []
+digest = "8cc0a1a94c086397"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Standardised Arrival-Rate Residual"
+gloss = "The burst statistic is the observed review-arrival rate less its historical mean, divided by its historical standard deviation."
+cite = []
+digest = "7e2d967fca3cae35"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Price Range of a Fabricated Review"
+gloss = "The article states a marketplace price of 1 to 30 United States dollars per fabricated review."
+cite = []
+digest = "ec114f9931d43894"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Producer Surplus From Review Manipulation"
+gloss = "The article writes the surplus as the rating shift times a revenue coefficient times a sales volume term, less the purchase cost of the injected reviews."
+cite = []
+digest = "be6cf802aed97e52"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Hawkes Self-Exciting Point Process"
+gloss = "The arrival intensity is a baseline rate plus an exponentially decaying contribution from each earlier arrival, the Hawkes process with an exponential kernel."
+cite = []
+digest = "d0173014a804af10"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Jaccard Similarity of N-Gram Sets"
+gloss = "The overlap of two reviews is the size of the intersection of their n-gram sets divided by the size of the union."
+cite = []
+digest = "13f4038df8c43528"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Newman Modularity"
+gloss = "Modularity compares the edges within communities with the number expected under a degree-preserving random graph."
+cite = []
+digest = "fac6d7885f943305"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Sockpuppet Construction Cost"
+gloss = "The article writes the cost of a sockpuppet operation as a fixed setup cost plus the number of identities times a marginal cost that falls with scale."
+cite = []
+digest = "2f16cf8006a9d76c"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Marginal Identity Cost Range"
+gloss = "The article states a marginal cost of 0.5 to 10 United States dollars per sockpuppet identity used for review deposition."
+cite = []
+digest = "be8bbe563f994bf5"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Cosine Similarity of Behavioural Features"
+gloss = "The similarity of two accounts is the inner product of their behavioural feature vectors divided by the product of the vector norms."
+cite = []
+digest = "2aa62c065151e50f"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Bayesian Posterior of Sockpuppet Linkage"
+gloss = "Bayes rule for a binary hypothesis gives the posterior probability that two accounts are linked given their behavioural similarity."
+cite = []
+digest = "ef00c3566a4c0841"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Survival Function From a Hazard Rate"
+gloss = "The probability that an account remains active at a given time is the exponential of the negative integrated hazard."
+cite = []
+digest = "af9c76cacafdf5c4"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Naive Bayes Likelihood Ratio"
+gloss = "Under conditional independence of the features, the joint likelihood ratio for linkage is the product of the per-feature likelihood ratios."
+cite = []
+digest = "21d5d76cfa93de07"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Linear Cost of Generated Reviews"
+gloss = "The article approximates the cost of generated reviews as a per-review interface cost times volume plus a fixed prompt-engineering cost, which removes the convexity of the classical cost function."
+cite = []
+digest = "c23b19fa5343c1df"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Detection Accuracy Approaching Chance"
+gloss = "As the quality of generated text approaches that of human text, the area under the curve of any detector approaches one half, the result the article attributes to Sadasivan and colleagues."
+cite = ["research_sadasivan_et_al_2023"]
+digest = "07c07a305e587a01"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Log-Likelihood Ratio for Watermark Detection"
+gloss = "The information content of a text is the logarithm of the ratio of its likelihood under the watermarked distribution to its likelihood under the unmarked distribution."
+cite = []
+digest = "5ede8a9a63970e40"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Perplexity Under a Reference Model"
+gloss = "Perplexity is the exponential of the negative mean log probability of each token given the tokens before it."
+cite = []
+digest = "640f61654eafecd7"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Bit-Error Rate Under Paraphrase"
+gloss = "The bit-error rate is the fraction of recovered watermark bits that differ between the original and the paraphrased text."
+cite = []
+digest = "ad867d726523aa1e"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Price Range of a Purchased Follower"
+gloss = "The article states a price of $10^{-4}$ to $10^{-2}$ United States dollars per purchased follower."
+cite = []
+digest = "4a3939652611575c"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Fake-Follower Fraction Range"
+gloss = "The article summarises the fraction of purchased or inauthentic followers on typical accounts as 5 to 30 per cent."
+cite = []
+digest = "aa6e6ea51e2d367a"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Engagement-to-Follower Ratio"
+gloss = "The engagement rate of an account is the mean engagement per post divided by the follower count."
+cite = []
+digest = "b59c33802b4ef528"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Logistic Growth of Organic Followers"
+gloss = "The logistic equation describes follower growth that is proportional to the current count and slows as the count approaches an account-specific ceiling."
+cite = []
+digest = "ee931c9d79c9edb6"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Constant-Hazard Survival of Purchased Followers"
+gloss = "The article assumes a constant removal hazard, so that purchased followers decay exponentially from their initial count."
+cite = []
+digest = "1b13a152f7b49847"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Price Range of an Engagement Action"
+gloss = "The article states a price of $10^{-4}$ to $10^{-2}$ United States dollars per purchased engagement action."
+cite = []
+digest = "ea5ccead8b6e21c2"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Pod Participation Statistic"
+gloss = "The article multiplies the reciprocity ratio of the engagement graph by its clustering coefficient to score engagement-pod participation."
+cite = []
+digest = "3cb046ecd08c4b5d"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Shannon Entropy of View Sources"
+gloss = "The diversity of view sources is the Shannon entropy of the fractions of views from each address block."
+cite = []
+digest = "c141590557ca3c28"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "PageRank Recurrence"
+gloss = "The PageRank of a page is a teleportation term plus the damped sum of the PageRank of each linking page divided by its outbound link count."
+cite = ["research_page_brin_1998", "research_page_brin_motwani_winograd_1999"]
+digest = "6dacfd21da9eb58a"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Marginal PageRank Return per Inbound Link"
+gloss = "The article approximates the gain from one more inbound link as the damping factor over the enlarged inbound count, times the average PageRank of the inbound set."
+cite = []
+digest = "5aca91503a16f905"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke First-Order Rank-Position Shift"
+gloss = "The article approximates the change in rank position as the local density of pages in rank score times the change in score."
+cite = []
+digest = "0d1e391bf02feb4b"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "TrustRank Recurrence"
+gloss = "Trust propagates from a hand-labelled seed set through the link graph by a damped recurrence of the same form as PageRank."
+cite = ["ref_gyongyi_2004_trustrank_paper"]
+digest = "56a94c55e18e403f"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Cloaking Differential"
+gloss = "The article measures cloaking as a content distance between the pages served to a crawler and to a human visitor."
+cite = []
+digest = "6955b6de6dc11b45"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Standardised Download-Rate Deviation"
+gloss = "The statistic is the download rate of an app less the category mean, divided by the category standard deviation."
+cite = []
+digest = "1f938903c01ab564"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "SybilGuard Bound on the Sybil Region"
+gloss = "Under fast mixing of the honest region and a bounded number of attack edges, the SybilGuard protocol bounds the number of Sybil identities it accepts."
+cite = ["research_yu_et_al_2006"]
+digest = "f078bdbc9c6f2c87"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Graph Conductance of a Cut"
+gloss = "Conductance is the number of edges crossing a cut divided by the smaller of the edge counts on either side."
+cite = []
+digest = "471ac005cac8e044"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Sybil Operation Cost"
+gloss = "The article writes the cost of a Sybil network as a setup cost plus, for each identity, a construction cost and an activity cost accrued over the operating horizon."
+cite = []
+digest = "4a2ff1a524bc018d"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Sybil Network Size Range"
+gloss = "The article states a network size of $10^3$ to $10^6$ accounts per operation."
+cite = []
+digest = "e1558e0e281e8717"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Pearson Correlation of Appearance Timestamps"
+gloss = "The cross-platform statistic is the Pearson correlation between the timestamps at which the same content appears on two platforms."
+cite = []
+digest = "2e139df542d1c022"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Logistic Amplification Cascade"
+gloss = "The article models reach as a discrete recurrence with a per-step gain that is throttled as reach approaches a ceiling set by audience size."
+cite = []
+digest = "2bf052eb504c785b"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Click-Farm Throughput"
+gloss = "The article estimates throughput as the operator count times hours per operator per day times actions per operator hour."
+cite = []
+digest = "cdbae980ccaa5486"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Click-Farm Throughput Range"
+gloss = "The article states a throughput of $10^4$ to $10^6$ actions per day per operation."
+cite = []
+digest = "cbdda22adc9e7206"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Mean Queue Length of an M/M/c Queue"
+gloss = "The expected number of tasks waiting in a multi-server queue with Poisson arrivals and exponential service follows the Erlang formula in the utilisation and the probability of an empty system."
+cite = []
+digest = "adbb59cdc6782e60"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Restricted Geographic Entropy"
+gloss = "The geographic diversity of activity is the Shannon entropy of the fractions of activity originating from each click-farm-associated region."
+cite = []
+digest = "ee7bf461e3b76136"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Bayesian Posterior Over State Attribution"
+gloss = "Bayes rule over a discrete set of candidate state actors gives the posterior attribution given an observed fingerprint vector."
+cite = []
+digest = "4512e2c80dcfc40d"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Coordination Z-Score"
+gloss = "The statistic is the observed count of simultaneous releases less its expectation under independent release, divided by the null standard deviation."
+cite = []
+digest = "7877df3845237171"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Annual Volume of 50 Cent Army Posts"
+gloss = "King, Pan and Roberts estimate that state-directed fabrication produces roughly $4.4 \\times 10^8$ social media posts per year."
+cite = ["research_king_pan_roberts_2017"]
+digest = "ab2fb85adc8d7ba8"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Posting-Time Concentration"
+gloss = "The article defines concentration as the fraction of posts falling within a short window aligned with the operators' work schedule."
+cite = []
+digest = "a7769ac1278a3036"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Verification Informativeness Change"
+gloss = "The article measures the effect of paid verification as the mutual information between authenticity and an earned badge less that for a paid badge."
+cite = []
+digest = "8a15888ece6efe5b"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Classification Accuracy Under a Base Rate"
+gloss = "Accuracy is the fraction correctly classified, which equals the true-positive rate weighted by the base rate of authentic credentials plus the true-negative rate weighted by its complement."
+cite = []
+digest = "a05b46897aa08ec1"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Endorsement Value Transfer"
+gloss = "The article assumes that an endorsement transfers a fixed fraction of the endorser's reputation stock to the target."
+cite = []
+digest = "c444c3ebde417d42"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Transfer Coefficient Range"
+gloss = "The article states that the transfer coefficient typically lies between 0.01 and 0.30."
+cite = []
+digest = "de6688fe4be128e0"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Disclosure Effect on Transfer"
+gloss = "The article defines the disclosure effect as the transfer coefficient without disclosure less the coefficient with it."
+cite = ["research_boerman_et_al_2018"]
+digest = "97570a66b2b88a83"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Exponential Cross-Platform Transfer Decay"
+gloss = "The article assumes that transferred reputation starts at a fraction of its value on the origin platform and decays exponentially on the target platform."
+cite = []
+digest = "e54e71d02f7d45d4"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Saturating Domain-Age Value"
+gloss = "The article assumes that the reputation value of a domain rises toward a ceiling as one minus a decaying exponential in its age."
+cite = []
+digest = "5c2e9712714adf63"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Signal-Axis Tuple"
+gloss = "The article places each technique class on the signal axis by its volume rate, channel count, injection fidelity and cross-channel amplification."
+cite = []
+digest = "898b9e354a6e5bba"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Objective-Axis Utility"
+gloss = "The article writes the objective of each technique class as a weighted sum of six goal functions for rating, following, engagement, rank, credentials and apparent support."
+cite = []
+digest = "02053718ff6a5a58"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Structure-Axis Tuple"
+gloss = "The article places each technique class on the structure axis by hierarchy depth, branching factor and operator population."
+cite = []
+digest = "ef4e25c04e14e9bb"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke First-Order Adaptation Dynamics"
+gloss = "The article assumes that a technique's state relaxes toward its environment-dependent optimum with a single migration time constant, perturbed by exogenous noise."
+cite = []
+digest = "1dad3eabe2e63d66"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Self-Promotion Coupling Matrix"
+gloss = "The article defines a matrix of partial derivatives between axis positions to encode the cross-axis dependencies of self-promotion."
+cite = []
+digest = "6a40e39e71a752af"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Generic Standardised Anomaly Score"
+gloss = "The anomaly score is a test statistic less its expectation under the null model, divided by its null standard deviation."
+cite = []
+digest = "ecc3da618ae856b9"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Majority-Vote Ensemble Accuracy"
+gloss = "For independent classifiers with a common error rate, the probability that a majority vote is correct is one less the binomial probability that at least half err."
+cite = []
+digest = "46601537ef17d9c8"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Verification Friction Cost"
+gloss = "The article assembles the friction of identity verification as the sum of user time, privacy loss and platform processing costs, each rising with stringency."
+cite = []
+digest = "b79bcb229472faaf"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Per-Account Rate Limit"
+gloss = "A rate limit bounds the observed activity rate of every account by a platform maximum."
+cite = []
+digest = "ddc7bf1b56f7ad95"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Signature Validity Indicator"
+gloss = "Provenance verification is the indicator that the signature attached to the content verifies under the public key of the claimed origin."
+cite = []
+digest = "78ee03f07a66047a"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Volume-Weighted Composite Prevalence"
+gloss = "The composite estimate is the mean of category estimates weighted by each category's share of volume."
+cite = []
+digest = "d150a1be42fae11c"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Variance of the Composite Prevalence"
+gloss = "For independent category estimates with fixed weights, the variance of the composite is the sum of squared weights times the category variances."
+cite = []
+digest = "4cb37c8f82817a31"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Volume-Weighted Aggregate Self-Promotion Prevalence"
+gloss = "The aggregate prevalence is the category prevalence rates weighted by signal-event volume and divided by total volume."
+cite = []
+digest = "a9f0777cc9f5cdc7"
+
+[[symbol]]
+tex = '\mathbf{a}_k'
+meaning = "the six-axis position vector of technique $k$"
+
+[[symbol]]
+tex = 'w_c'
+meaning = "the weight of axis $c$ in the technique distance, and separately the volume weight of category $c$ in the composite prevalence"
+
+[[symbol]]
+tex = 'n_{k,c}(t)'
+meaning = "the signal-event volume for technique $k$ in category $c$"
+
+[[symbol]]
+tex = 'p_{k,c}(t)'
+meaning = "the prevalence rate for technique $k$ in category $c$"
+
+[[symbol]]
+tex = '\Omega'
+meaning = "the observed population of manipulation instances"
+
+[[symbol]]
+tex = '\Delta r_i^{\text{obs}}'
+meaning = "the observed rating change"
+
+[[symbol]]
+tex = 'n_i^{\text{fake}}'
+meaning = "the injected fake-review count"
+
+[[symbol]]
+tex = 'N_i'
+meaning = "the pre-injection authentic-review count"
+
+[[symbol]]
+tex = '\lambda(t)'
+meaning = "the observed review-arrival rate, or the Hawkes intensity"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the baseline arrival rate of the Hawkes process"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the decay rate of the Hawkes kernel"
+
+[[symbol]]
+tex = 'R_i^{\text{shift}}'
+meaning = "the rating shift produced by the injection"
+
+[[symbol]]
+tex = 'v'
+meaning = "the per-rating-point revenue coefficient"
+
+[[symbol]]
+tex = 'N_n(r_i)'
+meaning = "the set of $n$-grams appearing in review $r_i$"
+
+[[symbol]]
+tex = 'A_{ij}'
+meaning = "the reviewer-business adjacency"
+
+[[symbol]]
+tex = 'k_i'
+meaning = "the degree of reviewer $i$"
+
+[[symbol]]
+tex = 'm'
+meaning = "the total edge count in the modularity, and the injection volume in the generated-review cost"
+
+[[symbol]]
+tex = 'c_{\text{marginal}}'
+meaning = "the per-identity marginal cost of a sockpuppet"
+
+[[symbol]]
+tex = '\pi_{\text{link}}'
+meaning = "the base-rate prior of sockpuppet linkage"
+
+[[symbol]]
+tex = 'h(\tau)'
+meaning = "the hazard rate of account removal"
+
+[[symbol]]
+tex = 'q_{\text{gen}}'
+meaning = "the quality of the generative model"
+
+[[symbol]]
+tex = 'F_i'
+meaning = "the follower count of account $i$"
+
+[[symbol]]
+tex = '\bar{e}_i'
+meaning = "the mean per-post engagement"
+
+[[symbol]]
+tex = 'K'
+meaning = "the account-specific follower ceiling"
+
+[[symbol]]
+tex = '\lambda_{\text{enforce}}'
+meaning = "the per-account removal hazard for purchased followers"
+
+[[symbol]]
+tex = 'C(G)'
+meaning = "the clustering coefficient of the engagement graph"
+
+[[symbol]]
+tex = 'p_a'
+meaning = "the fraction of views from address block $a$"
+
+[[symbol]]
+tex = '\text{PR}(p)'
+meaning = "the PageRank of page $p$"
+
+[[symbol]]
+tex = 'd'
+meaning = "the damping factor, typically near 0.85"
+
+[[symbol]]
+tex = 'B_p'
+meaning = "the set of pages linking to page $p$"
+
+[[symbol]]
+tex = 'L(q)'
+meaning = "the outbound link count of page $q$"
+
+[[symbol]]
+tex = 't(p)'
+meaning = "the TrustRank trust score of page $p$"
+
+[[symbol]]
+tex = '\Phi(S)'
+meaning = "the conductance of the cut around node set $S$"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the operator utilisation in the queue, and the rank score in the rank-shift approximation"
+
+[[symbol]]
+tex = 'N_{\text{op}}'
+meaning = "the click-farm operator count in the queue model"
+
+[[symbol]]
+tex = 'P_0'
+meaning = "the probability of an empty queue"
+
+[[symbol]]
+tex = '\kappa_{E,T}'
+meaning = "the fraction of endorser reputation transferred to the target"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the reputation decay rate on the target platform"
+
+[[symbol]]
+tex = 'V_0'
+meaning = "the asymptotic reputation value of a domain"
+
+[[symbol]]
+tex = '\tau_k'
+meaning = "the technique-migration time constant"
+
+[[symbol]]
+tex = 'p'
+meaning = "the error rate of an individual classifier in the ensemble, and a page in the PageRank recurrence"
+
+[[symbol]]
+tex = 'M'
+meaning = "the ensemble size"
+
+[[symbol]]
+tex = '\hat{p}^{\text{comp}}'
+meaning = "the composite category-weighted prevalence estimate"

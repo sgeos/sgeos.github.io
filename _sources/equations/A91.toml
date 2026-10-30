@@ -1,0 +1,255 @@
+# Equation classification for A91. Read by `python3 _lib/equations.py`.
+
+caution = "Reserves are counted in tokens of their own kind and every price, including the range boundaries, is quoted as Token Y per Token X, so the liquidity carries the square root of the product of the two token units and a tick index is a pure number."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Constant Product Invariant in Terms of Liquidity"
+gloss = "The product of the two reserves equals the square of the liquidity, the invariant of a full-range constant product automated market maker."
+cite = ["related_post_cpamm"]
+digest = "954219a7de34f4e6"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Virtual Reserves in Terms of Liquidity and Price"
+gloss = "Each reserve on the full unbounded curve follows from the liquidity and the square root of the price, so that their product is the squared liquidity and their ratio is the price."
+cite = ["related_post_cpamm"]
+digest = "fc76d611f3b8fdc3"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Virtual Reserves of a Concentrated Position"
+gloss = "Within its range a concentrated position behaves as though the full constant product curve existed, with virtual reserves given by the same expressions in liquidity and price."
+cite = []
+digest = "32848cd33556a839"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Translated Invariant of a Concentrated Position"
+gloss = "The constant product curve is shifted so that the real reserves reach zero at the range boundaries, which is the invariant of a concentrated liquidity position in the Uniswap v3 design."
+cite = []
+digest = "172672b960ce8ea6"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Real Token X Reserve Within the Range"
+gloss = "The Token X a position holds is the liquidity times the difference of the reciprocal square roots of the current price and the upper boundary, reaching zero at the upper boundary."
+cite = []
+digest = "cb79bbfdc8879adf"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Real Token Y Reserve Within the Range"
+gloss = "The Token Y a position holds is the liquidity times the difference of the square roots of the current price and the lower boundary, reaching zero at the lower boundary."
+cite = []
+digest = "28ebb054649f9e26"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Real Reserves With the Price Below the Range"
+gloss = "When the price lies at or below the lower boundary the position holds only Token X, in the amount the in-range formula gives at the lower boundary."
+cite = []
+digest = "e8cf72f3300e6d60"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Real Reserves With the Price Within the Range"
+gloss = "When the price lies between the boundaries the position holds both tokens in the amounts the in-range formulas give."
+cite = []
+digest = "6ddd4139213657a1"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Real Reserves With the Price Above the Range"
+gloss = "When the price lies at or above the upper boundary the position holds only Token Y, in the amount the in-range formula gives at the upper boundary."
+cite = []
+digest = "c2960a4c4bb3753a"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Liquidity Implied by a Token X Deposit"
+gloss = "Inverting the real Token X reserve formula gives the liquidity that a deposit of Token X supports at the current price."
+cite = []
+digest = "c5a08dcebd9c763c"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Liquidity Implied by a Token Y Deposit"
+gloss = "Inverting the real Token Y reserve formula gives the liquidity that a deposit of Token Y supports at the current price."
+cite = []
+digest = "ccf512d80afab89b"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Effective Liquidity of a Deposit"
+gloss = "The liquidity of the position is the smaller of the two implied values, because the limiting token constrains the position and any excess of the other token is returned."
+cite = []
+digest = "c7a92644ab54fd18"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Price at a Tick"
+gloss = "Each tick index corresponds to a price that is a power of 1.0001, so adjacent ticks differ by one basis point."
+cite = []
+digest = "6bfee3c721062518"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Tick Index of a Price"
+gloss = "The tick index of a price is the floor of the logarithm of the price to the base 1.0001."
+cite = []
+digest = "62834035d39ee407"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Square Root Price at a Tick"
+gloss = "The square root of the price at a tick is the base 1.0001 raised to half the tick index, the quantity the protocol stores."
+cite = []
+digest = "33b5d1059e533192"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Capital Efficiency of a Symmetric Range"
+gloss = "A position whose range is centred geometrically on the current price supplies the same depth as a full-range position with a fraction of the capital, and the multiplier depends only on the ratio of the boundaries."
+cite = []
+digest = "500af4179796ebe5"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Fee Growth Inside a Range"
+gloss = "The fees accumulated per unit of liquidity inside a range are the global fee growth less the growth recorded below the lower boundary and above the upper boundary."
+cite = []
+digest = "536b29474294d28a"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Fees Owed to a Position"
+gloss = "The fees owed to a position are the growth of the inside fee accumulator since the position was last updated, multiplied by its liquidity."
+cite = []
+digest = "01da25c0643326ef"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Impermanent Loss of a Full-Range Position"
+gloss = "The value of a full-range constant product position relative to holding the deposited tokens depends only on the ratio of the new price to the original price."
+cite = ["related_post_cpamm"]
+digest = "1814301a3302ffca"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Value of a Concentrated Position Within the Range"
+gloss = "The value of the position in Token Y is the Token X reserve priced at the current price plus the Token Y reserve, written in terms of liquidity and the boundaries."
+cite = []
+digest = "c3292bb6dd3f7958"
+
+[[symbol]]
+tex = 'x'
+meaning = "the reserve of Token X on the full constant product curve"
+
+[[symbol]]
+tex = 'y'
+meaning = "the reserve of Token Y on the full constant product curve"
+
+[[symbol]]
+tex = 'L'
+meaning = "the liquidity of the position, identical in definition to the full-range constant product model"
+
+[[symbol]]
+tex = 'p'
+meaning = "the current price in Token Y per Token X"
+
+[[symbol]]
+tex = 'p_a'
+meaning = "the lower boundary of the price range of the position"
+
+[[symbol]]
+tex = 'p_b'
+meaning = "the upper boundary of the price range of the position"
+
+[[symbol]]
+tex = 'x_v(p)'
+meaning = "the virtual reserve of Token X at price $p$"
+
+[[symbol]]
+tex = 'y_v(p)'
+meaning = "the virtual reserve of Token Y at price $p$"
+
+[[symbol]]
+tex = 'x_r'
+meaning = "the real reserve of Token X held by the position"
+
+[[symbol]]
+tex = 'y_r'
+meaning = "the real reserve of Token Y held by the position"
+
+[[symbol]]
+tex = '\Delta x'
+meaning = "the amount of Token X deposited"
+
+[[symbol]]
+tex = '\Delta y'
+meaning = "the amount of Token Y deposited"
+
+[[symbol]]
+tex = 'L_x'
+meaning = "the liquidity implied by the Token X deposit"
+
+[[symbol]]
+tex = 'L_y'
+meaning = "the liquidity implied by the Token Y deposit"
+
+[[symbol]]
+tex = 'i'
+meaning = "the tick index"
+
+[[symbol]]
+tex = 'f_g'
+meaning = "the global fee growth per unit of liquidity since the pool was created"
+
+[[symbol]]
+tex = 'f_{\text{below}}(p_a)'
+meaning = "the fee growth recorded below the lower boundary of the range"
+
+[[symbol]]
+tex = 'f_{\text{above}}(p_b)'
+meaning = "the fee growth recorded above the upper boundary of the range"
+
+[[symbol]]
+tex = 'f_{\text{inside}}'
+meaning = "the fee growth per unit of liquidity inside the range of the position"
+
+[[symbol]]
+tex = 'f_{\text{inside,last}}'
+meaning = "the inside fee growth when the position was last updated"
+
+[[symbol]]
+tex = 'IL(r)'
+meaning = "the impermanent loss of a full-range position, a fraction that is never positive"
+
+[[symbol]]
+tex = 'r'
+meaning = "the ratio of the new price to the original price"
+
+[[symbol]]
+tex = 'V(p)'
+meaning = "the value of the position at price $p$ in units of Token Y"

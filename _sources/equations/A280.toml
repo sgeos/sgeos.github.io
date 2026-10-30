@@ -1,0 +1,727 @@
+# Equation classification for A280. Read by `python3 _lib/equations.py`.
+
+caution = "Prevalence is a fraction of reputation-signal volume, rates and growth parameters are per year in the projections, welfare and investment are in United States dollars, and several letters are reused, with $\\gamma$ a decay, gain or growth rate that differs from equation to equation, $\\sigma$ a signature, a smoothing scale and the logistic function, and $\\kappa$ both the Cohen agreement statistic and a transition rate."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Aggregate Manipulation Volume"
+gloss = "The article assembles the miniseries aggregate as the sum of self-promotion, competitor-attack and state-sponsored spillover volumes."
+cite = []
+digest = "361e9c3eb26bd129"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Aggregate Manipulation Fraction Range"
+gloss = "The article summarises the aggregate manipulation-signal fraction across major consumer platforms as 10 to 35 per cent."
+cite = []
+digest = "5726a7cf52777e8f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Generic Standardised Anomaly Score"
+gloss = "The anomaly score is a test statistic less its expectation under the null model, divided by its null standard deviation."
+cite = []
+digest = "ecc3da618ae856b9"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Bonferroni Correction"
+gloss = "Dividing the single-test significance level by the number of simultaneous tests bounds the family-wise error rate."
+cite = []
+digest = "2080976a2451476c"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Page CUSUM Statistic"
+gloss = "The cumulative sum statistic is the largest sum of log-likelihood ratios of post-change to pre-change distributions over any candidate change point."
+cite = ["research_page_1954", "book_basseville_nikiforov_1993"]
+digest = "cebae2699847a2cf"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Hawkes Self-Exciting Point Process"
+gloss = "The arrival intensity is a baseline rate plus an exponentially decaying contribution from each earlier arrival."
+cite = []
+digest = "d0173014a804af10"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Wald Sequential Log-Likelihood Ratio"
+gloss = "The sequential probability ratio test accumulates the log-likelihood ratio of the observations and stops when it crosses an upper or lower threshold."
+cite = ["research_wald_1945"]
+digest = "aca7b54cb58c0711"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Kullback-Leibler Divergence"
+gloss = "The divergence of one distribution from another is the expectation under the first of the logarithm of their probability ratio."
+cite = []
+digest = "05ab83aa24ab0062"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Jensen-Shannon Divergence"
+gloss = "The Jensen-Shannon divergence is the mean of the Kullback-Leibler divergences of each distribution from their average, a symmetric measure."
+cite = ["research_endres_schindelin_2003"]
+digest = "bdb9fd4da5f9b7d5"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Newman Modularity"
+gloss = "Modularity compares the edges within communities with the number expected under a degree-preserving random graph."
+cite = ["research_newman_2006"]
+digest = "fac6d7885f943305"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Nearest-Neighbour Embedding Distance"
+gloss = "The anomaly distance of a node is the Euclidean distance from its embedding to the nearest embedding of a labelled authentic node."
+cite = []
+digest = "e939a0b73f242050"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Spectral Anomaly Ratio"
+gloss = "The article flags a graph when the largest eigenvalue of its Laplacian exceeds that of a null model by more than a chosen ratio."
+cite = []
+digest = "f4edd3656762534f"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Majority-Vote Ensemble Accuracy"
+gloss = "For independent classifiers with a common error rate, the probability that a majority vote is correct is one less the binomial probability that at least half err."
+cite = []
+digest = "46601537ef17d9c8"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Multi-Modal Detection Score"
+gloss = "The article combines modality-specific detection scores as a weighted sum with weights fitted to labelled data."
+cite = []
+digest = "94c1dd59ababae75"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Area Under the Precision-Recall Curve"
+gloss = "The area under the precision-recall curve integrates precision over recall, a measure suited to imbalanced classes."
+cite = ["research_davis_goadrich_2006"]
+digest = "9549bc38e2540f1c"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "F-Beta Score"
+gloss = "The F-beta score is the weighted harmonic mean of precision and recall, with recall weighted by the square of beta."
+cite = []
+digest = "d7370f31008910fc"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Bayesian Posterior of Manipulation Under a Prior"
+gloss = "Bayes rule for a binary hypothesis gives the posterior probability of manipulation given a classifier score and the prevalence prior."
+cite = []
+digest = "8027dbc4dd7950e9"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Detection Accuracy Approaching Chance"
+gloss = "As the quality of generated text approaches that of human text, the area under the curve of any detector approaches one half, the result the article attributes to Sadasivan and colleagues."
+cite = ["research_sadasivan_et_al_2023"]
+digest = "07c07a305e587a01"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Norm-Bounded Adversarial Perturbation"
+gloss = "The attacker seeks the perturbation within a ball of given radius in an $L_p$ norm that maximises the classifier loss."
+cite = []
+digest = "2aac9600d065bf41"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Certified Radius Under Randomised Smoothing"
+gloss = "For a classifier smoothed with Gaussian noise, the prediction is certified within an $L_2$ radius equal to the noise scale times the inverse Gaussian distribution function of the lower bound on the top-class probability."
+cite = []
+digest = "9b16eac0e3ffb1e4"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Human-Review Triage Threshold"
+gloss = "The article chooses the triage threshold that maximises the classification benefit less the cost of human review."
+cite = []
+digest = "2eca7a1e40cf1792"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Cohen Kappa"
+gloss = "Cohen's kappa is the observed agreement less the chance-expected agreement, divided by one less the chance-expected agreement."
+cite = []
+digest = "95a5b9ac49cd3233"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Cross-Platform Information Gain"
+gloss = "The article defines the gain from collaboration as the mutual information of manipulation with both platforms' signals less the larger of the single-platform mutual informations."
+cite = []
+digest = "faaa436de5cd42b7"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Posterior-Proportional Aggregation Weights"
+gloss = "The article weights each platform's detection in proportion to its posterior probability of manipulation, normalised to sum to one."
+cite = []
+digest = "d5449efcfafaee60"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Optimal Enforcement Intensity"
+gloss = "The article's platform chooses enforcement intensity to maximise a weighted sum of consumer surplus, producer surplus and revenue less enforcement cost."
+cite = []
+digest = "5d81d44216a3cd37"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Elasticity of Enforcement Effectiveness to Investment"
+gloss = "The elasticity is the proportional change in enforcement effectiveness per proportional change in integrity investment."
+cite = []
+digest = "53b38c82cd35d257"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Optimal Integrity-Investment Trajectory"
+gloss = "The article writes the investment path as the one that maximises the discounted welfare gain from enforcement less its cost."
+cite = []
+digest = "be363b43f649ae30"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Verification Friction Cost"
+gloss = "The article assembles the friction of identity verification as the sum of user time, privacy loss and platform processing costs, each rising with stringency."
+cite = []
+digest = "b79bcb229472faaf"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Logistic Adoption of Verification"
+gloss = "Adoption of verification follows a logistic curve that rises toward a ceiling with its inflection at the time of majority adoption."
+cite = []
+digest = "1becdcf999ad305b"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Signature Validity Indicator"
+gloss = "Provenance verification is the indicator that the signature attached to the content verifies under the public key of the claimed origin."
+cite = []
+digest = "78ee03f07a66047a"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Composite Trust Score"
+gloss = "The article combines the provenance indicator and a content-analysis score as a weighted sum."
+cite = []
+digest = "a4fa6b2a8330a9e5"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Deterrence Condition"
+gloss = "The framing article's actor abstains when the expected penalty plus the direct cost exceeds a linear approximation to the reputation gain from manipulation."
+cite = []
+digest = "d3ab4a9e08eecb79"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Compound Growth of Enforcement Volume"
+gloss = "The article assumes that legal enforcement volume grows at a constant compound annual rate, placed between 0.1 and 0.3."
+cite = []
+digest = "3164dca107ed1312"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Saturating Countermeasure Adoption"
+gloss = "The article assumes that adoption of market countermeasures approaches a ceiling as one minus a decaying exponential at a constant rate."
+cite = []
+digest = "0a23e8178874e0a4"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Wikipedia Consensus Statistic"
+gloss = "The article defines consensus as the number of supporting editors less the number opposing, divided by the number engaging."
+cite = []
+digest = "f97bfe668a3cbbee"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Logistic Revert Probability"
+gloss = "The article models the probability that an edit is reverted as a logistic function decreasing in edit quality."
+cite = []
+digest = "0de342a0b02d3ff3"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Commit Signature Validity Indicator"
+gloss = "Commit verification is the indicator that the signature on a commit verifies under the contributor's key."
+cite = []
+digest = "76cf6a1a42d38141"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Contributor Reputation Accumulation"
+gloss = "The article writes contributor reputation as the time integral of contribution quality weighted by attention."
+cite = []
+digest = "2f5e2c48372d1f2f"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Peer-Review Accuracy Function"
+gloss = "The article writes the accuracy of peer review as an unspecified function of reviewer expertise, review depth and editorial oversight."
+cite = []
+digest = "858820e6885760fd"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "PageRank on the Citation Graph"
+gloss = "Author reputation follows the PageRank recurrence over citing authors, the application Ding and colleagues make to co-citation networks."
+cite = ["research_ding_et_al_2009"]
+digest = "16de119d5b537380"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Retraction Rate"
+gloss = "The retraction rate of a field is the number of retractions divided by the number of publications in the same period."
+cite = ["ref_retraction_watch"]
+digest = "d732433487bc9cf9"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Gini Coefficient of Citation Reputation"
+gloss = "The Gini coefficient is the sum of absolute pairwise differences in reputation divided by twice the population size times the total."
+cite = []
+digest = "4be4cb0701f126c4"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Reputation Cascade"
+gloss = "The article models the growth of a user's reputation as a gain rate times the acceptance probability and the mean contribution quality, each depending on current reputation."
+cite = []
+digest = "9b8a43a53909ba72"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Barrier-to-Entry Cost"
+gloss = "The article assembles the cost of entering a curated community as the sum of fee, learning, time and social costs."
+cite = []
+digest = "5dc2b7e6c893b368"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Survival Under Competing Hazards"
+gloss = "The probability that organic establishment survives is the exponential of the negative integrated sum of the platform and community collapse hazards."
+cite = []
+digest = "7f44f3eeb146533b"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Ecosystem Signal Composition"
+gloss = "The article assumes that authentic and signed manipulation signal components add at the ecosystem level."
+cite = []
+digest = "30ae470df6f367e1"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Actor Objective Decomposition"
+gloss = "The article writes an actor's objective as a weighted sum of self-promotion, attack and organic-establishment utilities."
+cite = []
+digest = "56f147b13d54b4a4"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Mixture Over Structure Classes"
+gloss = "The article represents the distribution of operator structure as a mixture of class-specific distributions weighted by each class's share of activity."
+cite = []
+digest = "976cca768c0829d8"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Mean Pairwise Technique Distance"
+gloss = "The aggregate is the mean of the model-axis distance over all ordered pairs of techniques."
+cite = []
+digest = "85bdd3d327f94d05"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Signed Interaction Density"
+gloss = "The article defines the density as cooperative edges less antagonistic edges, divided by the square of the node count."
+cite = []
+digest = "d211224eef52eb4e"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Coupled Arms-Race Dynamics"
+gloss = "The article writes the manipulation and detection states as a pair of coupled ordinary differential equations with unspecified coupling functions."
+cite = []
+digest = "5695f150d190fabb"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Volume-Weighted Ecosystem Vector"
+gloss = "The article defines the ecosystem position as the volume-weighted sum of the six-axis vectors of active techniques."
+cite = []
+digest = "2b90341e93f8132c"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Product Rule for the Ecosystem Vector"
+gloss = "The product rule splits the rate of change of the weighted sum into a compositional term and a within-technique term."
+cite = []
+digest = "fab971a2e7ef40cc"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Integrity Investment Step Change"
+gloss = "The article asserts that industry integrity investment rose from 2015 to 2018 by more than five times its rise from 2012 to 2015."
+cite = []
+digest = "15e512787290ce7c"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Domain Stability Index"
+gloss = "The article writes stability as a weighted sum of institutional verification, community enforcement and legal backstop."
+cite = []
+digest = "4db25d393f403ff5"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Norm of the Counterfactual Divergence"
+gloss = "The divergence is the norm of the difference between the counterfactual and actual outcome vectors."
+cite = []
+digest = "f95df57305b2e41d"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Linear Central Prevalence Projection"
+gloss = "The article projects prevalence linearly from the 2026 baseline at an assumed rate of about 0.005 per year."
+cite = []
+digest = "de2165ec8eff8fb6"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Central-Scenario Welfare Loss"
+gloss = "The article integrates over consumers the difference between welfare under full informativeness and welfare under the projected manipulation."
+cite = []
+digest = "e387be3328f3ba17"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Pooling Limit Under Accelerated Generation"
+gloss = "The article asserts that prevalence approaches the pooling-equilibrium level as generated quality approaches human quality."
+cite = []
+digest = "0e33cec581c31a78"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Sigmoidal Prevalence Transition"
+gloss = "The article assumes that prevalence rises from its baseline to the pooling level along a logistic curve centred at an inflection time."
+cite = []
+digest = "6fca22ceb477f7f6"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Regulatory-Response Detection Inequality"
+gloss = "The article characterises the regulatory scenario by equilibrium detection intensity above that of the central scenario."
+cite = []
+digest = "c281969e9a5d7737"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Attested Fraction Threshold"
+gloss = "The article characterises the cryptographic-identity scenario by an attested fraction of signal events above 20 per cent by 2040."
+cite = []
+digest = "356fab461c9ad3e2"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Exponential Trust Collapse"
+gloss = "The article assumes that consumer trust decays exponentially from its current level at a constant rate in the pessimistic scenario."
+cite = []
+digest = "5563c8c0641f8643"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Expected Trajectory Over Scenarios"
+gloss = "The law of total expectation gives the expected prevalence as the probability-weighted sum of scenario trajectories."
+cite = []
+digest = "8f858d719902893b"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Linear Uncertainty Growth"
+gloss = "The article assumes that projection uncertainty grows linearly in time from its initial value."
+cite = []
+digest = "18fe6de440c204a4"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Bayesian Posterior Over Scenarios"
+gloss = "Bayes rule over a discrete set of scenarios gives the posterior probability of each given the observed trajectory."
+cite = []
+digest = "4c5cc6878c07fc21"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Log Bayes Factor"
+gloss = "The log Bayes factor is the logarithm of the ratio of the likelihoods of the observations under two scenarios."
+cite = []
+digest = "32c6ed6a9b028910"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Independent Contingency Decomposition"
+gloss = "Assuming that contingencies resolve independently, the article writes the probability of a scenario as the product of the probabilities that each contingency resolves toward it."
+cite = []
+digest = "e06b4a1a64dcdecd"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Contingency Sensitivity"
+gloss = "The article measures sensitivity as the derivative of 2050 prevalence with respect to the probability that a contingency resolves toward the accelerated scenario."
+cite = []
+digest = "4df769b10c99f7ba"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Bifurcation Threshold"
+gloss = "The article identifies the critical value of a contingency parameter with the point at which the second derivative of prevalence with respect to it vanishes."
+cite = []
+digest = "d6148aa223e607e5"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Additive Methodological Uncertainty"
+gloss = "The article assembles methodological uncertainty as the sum of coverage, parameter and projection terms."
+cite = []
+digest = "511f22f487e51eeb"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Miniseries Coverage"
+gloss = "The article measures its coverage as the number of technique classes covered times the number of analytical frameworks applied."
+cite = []
+digest = "bf3860e4cb3f7e84"
+
+[[symbol]]
+tex = 'p_{\text{manip}}^{\text{aggregate}}'
+meaning = "the aggregate manipulation-signal fraction across major consumer platforms"
+
+[[symbol]]
+tex = 'T(\mathbf{x})'
+meaning = "the test statistic evaluated on the observed data"
+
+[[symbol]]
+tex = 'M'
+meaning = "the number of simultaneous tests, and the ensemble size"
+
+[[symbol]]
+tex = 'S_n'
+meaning = "the cumulative sum statistic after $n$ observations"
+
+[[symbol]]
+tex = 'p_0(x_i)'
+meaning = "the pre-change or null distribution, with $p_1$ the post-change or alternative distribution"
+
+[[symbol]]
+tex = '\Lambda_n'
+meaning = "the accumulated log-likelihood ratio of the sequential test"
+
+[[symbol]]
+tex = 'D_{\text{KL}}(P \| Q)'
+meaning = "the Kullback-Leibler divergence of $P$ from $Q$"
+
+[[symbol]]
+tex = 'D_{\text{JS}}(P, Q)'
+meaning = "the Jensen-Shannon divergence of $P$ and $Q$"
+
+[[symbol]]
+tex = '\mathbf{h}_i'
+meaning = "the learned embedding of node $v_i$"
+
+[[symbol]]
+tex = '\lambda_{\max}(L)'
+meaning = "the largest eigenvalue of the graph Laplacian"
+
+[[symbol]]
+tex = 'p'
+meaning = "the error rate of an individual classifier"
+
+[[symbol]]
+tex = 'F_\beta'
+meaning = "the F-beta score with recall weight $\\beta$"
+
+[[symbol]]
+tex = '\pi_{\text{manip}}'
+meaning = "the prior prevalence of manipulation"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the adversarial perturbation"
+
+[[symbol]]
+tex = '\epsilon'
+meaning = "the allowed perturbation magnitude"
+
+[[symbol]]
+tex = '\Phi^{-1}'
+meaning = "the inverse of the standard Gaussian distribution function"
+
+[[symbol]]
+tex = '\underline{p_A}'
+meaning = "the lower confidence bound on the top-class probability"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "Cohen's agreement statistic, and separately the transition rate of the sigmoidal scenario"
+
+[[symbol]]
+tex = 'p_o'
+meaning = "the observed agreement rate"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the chance-expected agreement rate"
+
+[[symbol]]
+tex = 'w^*_P'
+meaning = "the aggregation weight of platform $P$"
+
+[[symbol]]
+tex = '\psi_C'
+meaning = "the platform's marginal valuation of consumer surplus, with $\\psi_P$ and $\\psi_R$ for producer surplus and revenue"
+
+[[symbol]]
+tex = '\varepsilon_{E,I}'
+meaning = "the elasticity of enforcement effectiveness with respect to integrity investment"
+
+[[symbol]]
+tex = '\bar{U}'
+meaning = "the ceiling of verified users"
+
+[[symbol]]
+tex = 'g_L'
+meaning = "the compound annual growth rate of enforcement volume"
+
+[[symbol]]
+tex = '\bar{N}'
+meaning = "the ceiling adopter population"
+
+[[symbol]]
+tex = 'G_{\text{citation}}'
+meaning = "the Gini coefficient of citation reputation"
+
+[[symbol]]
+tex = '\lambda_{\text{platform-collapse}}(\tau)'
+meaning = "the hazard of platform-side collapse, with the community-side hazard written alongside it"
+
+[[symbol]]
+tex = '\mathbf{a}^{\text{ecosystem}}(t)'
+meaning = "the volume-weighted six-axis ecosystem vector"
+
+[[symbol]]
+tex = 'w_k(t)'
+meaning = "the volume weight of technique $k$"
+
+[[symbol]]
+tex = 'I(2015)'
+meaning = "aggregate industry investment in platform-integrity infrastructure in the year given, here 2015"
+
+[[symbol]]
+tex = '\gamma_{\text{central}}'
+meaning = "the assumed annual increase in prevalence in the central scenario, about 0.005"
+
+[[symbol]]
+tex = 'p_{\text{pooling}}'
+meaning = "the prevalence at the pooling-equilibrium limit"
+
+[[symbol]]
+tex = 't^*'
+meaning = "the inflection time of the sigmoidal transition"
+
+[[symbol]]
+tex = '\gamma_{\text{trust}}'
+meaning = "the trust decay rate in the collapse scenario"
+
+[[symbol]]
+tex = '\pi_s'
+meaning = "the subjective probability weight on scenario $s$"
+
+[[symbol]]
+tex = 'c_i^*'
+meaning = "the critical value of contingency parameter $c_i$"

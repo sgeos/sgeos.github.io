@@ -29,11 +29,17 @@ The synthesis across the four articles establishes several composite findings. T
 
 The composite miniseries aggregate metrics admit summary as
 
-$$V_{\text{miniseries}}^{\text{aggregate}}(t) = V_{\text{self-promo}}(t) + V_{\text{attack}}(t) + V_{\text{state-sponsored-spillover}}(t)$$
+$$
+V_{\text{miniseries}}^{\text{aggregate}}(t) = V_{\text{self-promo}}(t) + V_{\text{attack}}(t) + V_{\text{state-sponsored-spillover}}(t)
+\tag{1}
+$$
 
 with the ratios varying by platform category and time. The empirical estimates surveyed across the miniseries place the aggregate contemporary manipulation-signal fraction across major consumer-facing platforms in the range
 
-$$p_{\text{manip}}^{\text{aggregate}} \in [0.10, 0.35]$$
+$$
+p_{\text{manip}}^{\text{aggregate}} \in [0.10, 0.35]
+\tag{2}
+$$
 
 with significant category variance and with the range's upper bound reflecting the generative-model-accelerated post-2022 environment on attack-vulnerable platform categories.
 
@@ -69,39 +75,60 @@ Statistical anomaly detection identifies deviations from expected distributional
 
 The generic anomaly-score statistic under the null-model $H_0$ takes the standardized form
 
-$$z_{\text{anomaly}} = \frac{T(\mathbf{x}) - E_{H_0}[T]}{\sqrt{\text{Var}_{H_0}[T]}}$$
+$$
+z_{\text{anomaly}} = \frac{T(\mathbf{x}) - E_{H_0}[T]}{\sqrt{\text{Var}_{H_0}[T]}}
+\tag{3}
+$$
 
 with $T(\mathbf{x})$ the test statistic evaluated on the observed data $\mathbf{x}$. Detection triggers when $\lvert z_{\text{anomaly}} \rvert$ exceeds a chosen threshold calibrated to a desired false-positive rate. The multiple-testing correction under $M$ simultaneous tests takes the form the Bonferroni bound
 
-$$\alpha_{\text{corrected}} = \alpha_{\text{single}} / M$$
+$$
+\alpha_{\text{corrected}} = \alpha_{\text{single}} / M
+\tag{4}
+$$
 
 or the false-discovery-rate control via the [Benjamini and Hochberg 1995][research_benjamini_hochberg_1995] procedure that is typically less conservative for large $M$.
 
 Change-point detection identifies transitions in the underlying-signal-generating process, admitting characterization via the CUSUM statistic
 
-$$S_n = \max_{0 \leq k \leq n} \sum_{i=k+1}^{n} \bigl(\log \frac{p_1(x_i)}{p_0(x_i)}\bigr)$$
+$$
+S_n = \max_{0 \leq k \leq n} \sum_{i=k+1}^{n} \bigl(\log \frac{p_1(x_i)}{p_0(x_i)}\bigr)
+\tag{5}
+$$
 
 with $p_0$ the pre-change distribution and $p_1$ the post-change distribution, and the alarm triggering when $S_n$ exceeds a chosen threshold. The [Page 1954][research_page_1954] CUSUM framework provides the foundational treatment. The [Basseville and Nikiforov 1993][book_basseville_nikiforov_1993] Detection of Abrupt Changes treatment provides the modern comprehensive reference.
 
 Temporal-pattern detection via the Hawkes point-process framework characterizes self-exciting arrival patterns
 
-$$\lambda(t) = \mu + \alpha \sum_{t_i < t} e^{-\beta(t - t_i)}$$
+$$
+\lambda(t) = \mu + \alpha \sum_{t_i < t} e^{-\beta(t - t_i)}
+\tag{6}
+$$
 
 with anomaly triggering when the estimated self-excitation gain $\alpha$ substantially exceeds the null-model baseline. Rating-bombing and review-farming events produce characteristic $\alpha$ elevation.
 
 Sequential likelihood-ratio testing via the [Wald 1945][research_wald_1945] Sequential Analysis framework provides online anomaly detection under streaming data,
 
-$$\Lambda_n = \sum_{i=1}^{n} \log \frac{p_1(x_i)}{p_0(x_i)}$$
+$$
+\Lambda_n = \sum_{i=1}^{n} \log \frac{p_1(x_i)}{p_0(x_i)}
+\tag{7}
+$$
 
 with detection triggering when $\Lambda_n > \log(A)$ for upper threshold $A$ or acceptance when $\Lambda_n < \log(B)$ for lower threshold $B$. The framework provides optimal type-I versus type-II error tradeoff under the sample-size-optional formulation.
 
 Distributional-divergence-based detection compares the observed-signal distribution against the authentic-baseline distribution via the Kullback-Leibler divergence
 
-$$D_{\text{KL}}(P \| Q) = \sum_x P(x) \log \frac{P(x)}{Q(x)}$$
+$$
+D_{\text{KL}}(P \| Q) = \sum_x P(x) \log \frac{P(x)}{Q(x)}
+\tag{8}
+$$
 
 or the symmetric Jensen-Shannon divergence
 
-$$D_{\text{JS}}(P, Q) = \frac{1}{2} D_{\text{KL}}(P \| M) + \frac{1}{2} D_{\text{KL}}(Q \| M), \quad M = \frac{P + Q}{2}$$
+$$
+D_{\text{JS}}(P, Q) = \frac{1}{2} D_{\text{KL}}(P \| M) + \frac{1}{2} D_{\text{KL}}(Q \| M), \quad M = \frac{P + Q}{2}
+\tag{9}
+$$
 
 with anomaly triggering when the divergence exceeds a chosen threshold. The [Endres and Schindelin 2003][research_endres_schindelin_2003] treatment establishes the JS-divergence detection framework.
 
@@ -111,7 +138,10 @@ Graph-theoretic detection identifies structural anomalies in the reviewer-produc
 
 The community-detection modularity function characterizes coordinated subgraphs
 
-$$Q = \frac{1}{2m} \sum_{ij} \left[A_{ij} - \frac{k_i k_j}{2m}\right] \delta(c_i, c_j)$$
+$$
+Q = \frac{1}{2m} \sum_{ij} \left[A_{ij} - \frac{k_i k_j}{2m}\right] \delta(c_i, c_j)
+\tag{10}
+$$
 
 with $A_{ij}$ the adjacency matrix, $k_i$ the node degree, $m$ the edge count, and $\delta(c_i, c_j)$ the community-match indicator. High-modularity dense subgraphs concentrated in target regions of the platform trigger coordination-detection classification. The [Newman 2006][research_newman_2006] Modularity Framework provides the reference modularity formulation.
 
@@ -119,13 +149,19 @@ Graph-neural-network approaches extend the community-detection framework via lea
 
 The graph-embedding distance for anomaly detection takes the form
 
-$$d_{\text{embed}}(v_i, C_{\text{authentic}}) = \min_{v_j \in C_{\text{authentic}}} \| \mathbf{h}_i - \mathbf{h}_j \|_2$$
+$$
+d_{\text{embed}}(v_i, C_{\text{authentic}}) = \min_{v_j \in C_{\text{authentic}}} \| \mathbf{h}_i - \mathbf{h}_j \|_2
+\tag{11}
+$$
 
 with $\mathbf{h}\_i$ the learned embedding of node $v_i$ and $C_{\text{authentic}}$ the labeled authentic-node set. Nodes with anomalously large $d_{\text{embed}}$ trigger anomaly classification.
 
 Spectral-analysis anomaly detection identifies structural anomalies via the eigenvalue distribution of the graph Laplacian $L = D - A$, with anomaly triggering when the observed spectrum diverges from the null-model spectrum. The anomaly statistic based on the largest eigenvalue satisfies
 
-$$\lambda_{\max}(L) / \lambda_{\max}^{\text{null}} > \tau_{\text{spectral}}$$
+$$
+\lambda_{\max}(L) / \lambda_{\max}^{\text{null}} > \tau_{\text{spectral}}
+\tag{12}
+$$
 
 for a chosen threshold, with the [Chung 1997][book_chung_1997] Spectral Graph Theory framework providing the reference methodology.
 
@@ -135,27 +171,42 @@ Machine-learning classifier approaches train on labeled instances of manipulatio
 
 Ensemble classifier accuracy under standard averaging allows characterization as
 
-$$P_{\text{ensemble}}(\text{correct}) \geq 1 - \sum_{k=\lceil M/2 \rceil}^{M} \binom{M}{k} p^k (1 - p)^{M - k}$$
+$$
+P_{\text{ensemble}}(\text{correct}) \geq 1 - \sum_{k=\lceil M/2 \rceil}^{M} \binom{M}{k} p^k (1 - p)^{M - k}
+\tag{13}
+$$
 
 with $p$ the individual classifier error rate and $M$ the ensemble size under classifier-independence assumption. The composite multi-modal detection score under weighted feature-modality combination takes the form
 
-$$s_{\text{multi-modal}} = \sum_m w_m \cdot s_m$$
+$$
+s_{\text{multi-modal}} = \sum_m w_m \cdot s_m
+\tag{14}
+$$
 
 with $s_m$ the modality-specific detection score and $w_m$ the modality weight optimized on labeled training data.
 
 The precision-recall tradeoff under class imbalance is characterized by the area under the precision-recall curve
 
-$$\text{AUC-PR} = \int_0^1 \text{Precision}(\text{Recall}) \, d\text{Recall}$$
+$$
+\text{AUC-PR} = \int_0^1 \text{Precision}(\text{Recall}) \, d\text{Recall}
+\tag{15}
+$$
 
 which provides more informative performance characterization than ROC-AUC under the substantial class imbalance typical of manipulation detection (manipulation-positive class typically well under 20% of the sampled population). The [Davis and Goadrich 2006][research_davis_goadrich_2006] Relationship Between Precision-Recall and ROC Curves treatment establishes the reference framework.
 
 The composite F-measure balances precision and recall via the harmonic mean
 
-$$F_\beta = (1 + \beta^2) \cdot \frac{\text{precision} \cdot \text{recall}}{\beta^2 \cdot \text{precision} + \text{recall}}$$
+$$
+F_\beta = (1 + \beta^2) \cdot \frac{\text{precision} \cdot \text{recall}}{\beta^2 \cdot \text{precision} + \text{recall}}
+\tag{16}
+$$
 
 with $\beta$ the recall-weight parameter typically set to $\beta = 1$ (equal weighting) for balanced-performance evaluation or $\beta > 1$ (recall-weighted) for high-stakes-detection contexts where false negatives carry marked cost. Bayesian classifier performance under prior-shift is captured by the posterior probability
 
-$$\Pr(\text{manip} \mid s) = \frac{p(s \mid \text{manip}) \cdot \pi_{\text{manip}}}{p(s \mid \text{manip}) \cdot \pi_{\text{manip}} + p(s \mid \text{authentic}) \cdot (1 - \pi_{\text{manip}})}$$
+$$
+\Pr(\text{manip} \mid s) = \frac{p(s \mid \text{manip}) \cdot \pi_{\text{manip}}}{p(s \mid \text{manip}) \cdot \pi_{\text{manip}} + p(s \mid \text{authentic}) \cdot (1 - \pi_{\text{manip}})}
+\tag{17}
+$$
 
 with the prior shifting under manipulation-prevalence changes over time and requiring classifier-threshold recalibration.
 
@@ -165,17 +216,26 @@ Adversarial machine learning defenses target the detection-evasion techniques ch
 
 The adversarial-example detection difficulty supports partial characterization via the fundamental result that under sufficient generative-model quality the detection accuracy approaches the random-classifier baseline
 
-$$\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}$$
+$$
+\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}
+\tag{18}
+$$
 
 per the [Sadasivan et al. 2023][research_sadasivan_et_al_2023] analysis. The watermarking countermeasure introduces a controlled bias in the generation distribution that preserves detection accuracy at the cost of small utility loss, per the [Kirchenbauer et al. 2023][research_kirchenbauer_et_al_2023] treatment.
 
 The adversarial-example L_p perturbation bound characterizes the attacker's search space,
 
-$$\arg\max_{\delta : \|\delta\|_p \leq \epsilon} \mathcal{L}(f(x + \delta), y)$$
+$$
+\arg\max_{\delta : \|\delta\|_p \leq \epsilon} \mathcal{L}(f(x + \delta), y)
+\tag{19}
+$$
 
 with $\delta$ the adversarial perturbation, $\epsilon$ the allowed perturbation magnitude under the chosen $L_p$ norm, and $\mathcal{L}$ the classifier loss. The Cohen-Rosenfeld-Kolter randomized smoothing certified radius for a classifier $f$ under Gaussian smoothing $\sigma$ satisfies
 
-$$R = \sigma \cdot \Phi^{-1}(\underline{p_A})$$
+$$
+R = \sigma \cdot \Phi^{-1}(\underline{p_A})
+\tag{20}
+$$
 
 with $\underline{p_A}$ the lower confidence bound on the top-class probability and $\Phi^{-1}$ the inverse Gaussian CDF, providing mathematical guarantee against $L_2$-bounded adversarial perturbations.
 
@@ -185,13 +245,19 @@ Human review supplements the automated detection methodology for high-stakes cla
 
 The optimal-human-review-triage threshold is captured by the classification-score cutoff that equates the marginal human-review cost with the marginal error cost of automated classification,
 
-$$\tau^* = \arg\max_\tau [\Pi(\tau) - C_{\text{review}}(\tau)]$$
+$$
+\tau^* = \arg\max_\tau [\Pi(\tau) - C_{\text{review}}(\tau)]
+\tag{21}
+$$
 
 with $\Pi(\tau)$ the classification-accuracy benefit as a function of the human-review threshold and $C_{\text{review}}(\tau)$ the human-review labor cost. Platforms with high per-instance error cost (defamation, high-stake commercial reviews) exhibit lower $\tau^\*$ (more human review) than platforms with low per-instance error cost.
 
 The human-review inter-annotator agreement reduces to the Cohen kappa statistic
 
-$$\kappa = \frac{p_o - p_e}{1 - p_e}$$
+$$
+\kappa = \frac{p_o - p_e}{1 - p_e}
+\tag{22}
+$$
 
 with $p_o$ the observed agreement rate and $p_e$ the chance-expected agreement rate. Manipulation-detection annotation typically exhibits $\kappa$ in the range 0.5 to 0.8 for clear-signature instances and markedly lower for edge cases, reflecting the extensive annotator-judgment variance that complicates training-corpus construction.
 
@@ -201,11 +267,17 @@ Cross-platform detection collaboration addresses the fragmentation of platform-i
 
 The cross-platform information-gain from collaboration reduces to the mutual-information increase from joint-signal observation
 
-$$I_{\text{joint}} = I(\text{manipulation} ; \text{signal}_A, \text{signal}_B) - \max(I(\text{manipulation} ; \text{signal}_A), I(\text{manipulation} ; \text{signal}_B))$$
+$$
+I_{\text{joint}} = I(\text{manipulation} ; \text{signal}_A, \text{signal}_B) - \max(I(\text{manipulation} ; \text{signal}_A), I(\text{manipulation} ; \text{signal}_B))
+\tag{23}
+$$
 
 with the joint-signal information gain typically sizable for cross-platform coordinated operations that exhibit different-platform signatures. The optimal cross-platform aggregation weights admit the maximum-likelihood characterization
 
-$$w^*_P = \Pr(\text{manip} \mid s_P) / \sum_{P'} \Pr(\text{manip} \mid s_{P'})$$
+$$
+w^*_P = \Pr(\text{manip} \mid s_P) / \sum_{P'} \Pr(\text{manip} \mid s_{P'})
+\tag{24}
+$$
 
 with $s_P$ the platform-$P$-detection score. The composite cross-platform detection accuracy under weighted aggregation exceeds the maximum single-platform accuracy when the platform-specific error patterns are approximately independent.
 
@@ -219,7 +291,10 @@ Platform-integrity operations comprise the internal enforcement infrastructure t
 
 Platform-integrity operations admit budget-optimization characterization as the enforcement-intensity choice that maximizes joint surplus across producer, consumer, and platform welfare
 
-$$D^* = \arg\max_D [\psi_C \text{CS}(D) + \psi_P \text{PS}(D) + \psi_R \text{Rev}(D) - C(D)]$$
+$$
+D^* = \arg\max_D [\psi_C \text{CS}(D) + \psi_P \text{PS}(D) + \psi_R \text{Rev}(D) - C(D)]
+\tag{25}
+$$
 
 with $D$ the detection-and-enforcement intensity, $\psi_C, \psi_P, \psi_R$ the platform's marginal valuations of consumer surplus, producer surplus, and platform revenue, and $C(D)$ the enforcement cost. The first-order condition characterizes the equilibrium enforcement intensity as the point where the marginal-value sum equals the marginal-cost.
 
@@ -227,11 +302,17 @@ The empirical enforcement-volume trajectory across major platforms since 2018 sh
 
 The enforcement-effectiveness elasticity to investment admits characterization as
 
-$$\varepsilon_{E,I} = \frac{\partial \ln E}{\partial \ln I}$$
+$$
+\varepsilon_{E,I} = \frac{\partial \ln E}{\partial \ln I}
+\tag{26}
+$$
 
 with $E$ the enforcement effectiveness (approximated by take-down volume corrected for prevalence) and $I$ the platform-integrity investment. Empirical estimates from platform-transparency-report time-series place $\varepsilon_{E,I}$ in the range 0.5 to 1.0 for the intermediate-investment regime, with diminishing returns at high investment reflecting the residual manipulation-detection difficulty. The platform's optimal integrity-investment trajectory over time satisfies the intertemporal condition
 
-$$I^*(t) = \arg\max_I \int_0^\infty e^{-rt} [\Delta W(I) - C(I)] \, dt$$
+$$
+I^*(t) = \arg\max_I \int_0^\infty e^{-rt} [\Delta W(I) - C(I)] \, dt
+\tag{27}
+$$
 
 with $\Delta W(I)$ the welfare gain from enforcement level $I$, $C(I)$ the investment cost, and $r$ the platform's discount rate.
 
@@ -241,11 +322,17 @@ Identity-verification countermeasures constrain the account-provenance channel t
 
 The identity-verification-cost function increases with verification stringency and creates the tradeoff between manipulation deterrence and user-friction
 
-$$C_{\text{verify}}(v) = c_{\text{user-time}}(v) + c_{\text{privacy-loss}}(v) + c_{\text{platform-processing}}(v)$$
+$$
+C_{\text{verify}}(v) = c_{\text{user-time}}(v) + c_{\text{privacy-loss}}(v) + c_{\text{platform-processing}}(v)
+\tag{28}
+$$
 
 with $v$ the verification-stringency parameter. The optimal verification stringency balances the friction cost against the manipulation-deterrence gain. Platforms with high per-account manipulation cost (regulated professional services) exhibit higher optimal $v$ than platforms with low per-account manipulation cost. The identity-verification adoption rate follows the logistic user-conversion trajectory
 
-$$U_{\text{verified}}(t) = \bar{U} / (1 + e^{-\alpha (t - t_v^*)})$$
+$$
+U_{\text{verified}}(t) = \bar{U} / (1 + e^{-\alpha (t - t_v^*)})
+\tag{29}
+$$
 
 with $t_v^\*$ the inflection point at which verification passes the majority adoption threshold. The empirical adoption curves from major platform verified-badge programs exhibit considerable variance around the logistic form depending on the verification-friction and the perceived-benefit alignment.
 
@@ -255,11 +342,17 @@ Content-authentication and provenance countermeasures target the content-provena
 
 The content-provenance verification permits characterization as the signature-validity check
 
-$$V(\text{content}, \sigma) = \mathbb{1}[\text{Verify}(\text{pk}, \text{content}, \sigma)]$$
+$$
+V(\text{content}, \sigma) = \mathbb{1}[\text{Verify}(\text{pk}, \text{content}, \sigma)]
+\tag{30}
+$$
 
 with $\sigma$ the cryptographic signature attached to the content and pk the public key of the claimed origin. Provenance-verified content carries higher signal informativeness than unverified content under the assumption that signature-generation infrastructure is limited to authentic-content producers. The composite trust-score under provenance attestation extends via the weighted-aggregation
 
-$$T_{\text{composite}}(\text{content}) = w_{\text{prov}} \cdot V(\text{content}) + w_{\text{content}} \cdot T_{\text{content-analysis}}(\text{content})$$
+$$
+T_{\text{composite}}(\text{content}) = w_{\text{prov}} \cdot V(\text{content}) + w_{\text{content}} \cdot T_{\text{content-analysis}}(\text{content})
+\tag{31}
+$$
 
 with $w_{\text{prov}}$ and $w_{\text{content}}$ the aggregation weights, providing hybrid detection that combines the provenance signal with the content-analysis signal.
 
@@ -267,11 +360,17 @@ with $w_{\text{prov}}$ and $w_{\text{content}}$ the aggregation weights, providi
 
 Legal-liability regimes operate through the regulatory and case-law framework surveyed across the miniseries. The account includes the FTC Act Section 5 unfair-or-deceptive-practices framework at [15 USC 45][ref_ftc_act_15_usc_45] (extended by the [FTC 2024 Final Rule on Fake Reviews and Testimonials][ref_ftc_final_rule_2024]), the Consumer Review Fairness Act at [15 USC 45b][ref_consumer_review_fairness_act_2016], the FTC Endorsement Guides at [16 CFR Part 255][ref_ftc_endorsement_guides_16_cfr_255] and the [FTC Endorsement Guides FAQ][ref_ftc_endorsement_faq], the Lanham Act Section 43(a) false-advertising framework at [15 USC 1125][ref_lanham_act_15_usc_1125], defamation law (New York Times v Sullivan through the contemporary case law surveyed in A279), intermediary-liability constraints under Section 230 CDA at [47 USC 230][ref_section_230_cda], and the international frameworks including the [EU Digital Services Act][ref_eu_dsa_2022], the [Regulation 2024][ref_eu_ai_act_2024], the [EU Unfair Commercial Practices Directive][ref_eu_ucpd_2005_29_ec], the [Online Safety Act 2023 2023][ref_uk_online_safety_act_2023], the [UK CMA fake reviews action][ref_uk_cma_fake_reviews], the [NetzDG 2017][ref_germany_netzdg_2017], the [France Loi Avia 2020][ref_france_loi_avia_2020], the [India IT Intermediary Guidelines 2021][ref_india_it_rules_2021], the [Singapore POFMA 2019][ref_singapore_pofma_2019], the [L12965 2014][ref_brazil_marco_civil_2014], the [China Cyberspace Administration Deep 2023][ref_china_cac_deepfake_2023], the [Australia ACCC fake reviews guidance][ref_accc_fake_reviews_guidance], and the [SPEECH Act 2010][ref_speech_act_2010] shielding US jurisdictions from inconsistent foreign judgments. The legal-deterrence condition from the framing article characterizes the equilibrium constraint that legal enforcement imposes
 
-$$\Pr(\text{detect}) \cdot \text{Penalty} + c(m) > \frac{\partial R_i}{\partial m_i} \cdot v \cdot m$$
+$$
+\Pr(\text{detect}) \cdot \text{Penalty} + c(m) > \frac{\partial R_i}{\partial m_i} \cdot v \cdot m
+\tag{32}
+$$
 
 with the deterrence binding tightly in high-detection high-penalty regimes and loosening in the opposite regime. The legal-enforcement volume trajectory takes the growth characterization
 
-$$L(t) = L_0 \cdot (1 + g_L)^{t - t_0}$$
+$$
+L(t) = L_0 \cdot (1 + g_L)^{t - t_0}
+\tag{33}
+$$
 
 with $g_L$ the compound-annual-growth rate of enforcement volume. Empirical estimates from the FTC enforcement-history place $g_L$ in the range 0.1 to 0.3 across the 2018-2025 window, reflecting significant enforcement intensification. The enforcement-case anchor set surveyed across the miniseries includes the [FTC 2019 Sunday Riley Settlement][ref_ftc_sunday_riley_2019], [FTC 2019 UrthBox Settlement][ref_ftc_urthbox_2019], [FTC v Devumi 2019][ref_ftc_devumi_2019] and parallel [NY AG v Devumi 2019][ref_ny_ag_devumi_2019], [FTC v Cure Encapsulations 2019][ref_ftc_cure_encapsulations_2019], [FTC 2020 Fashion Nova Settlement][ref_ftc_fashion_nova_2020], [FTC 2022 Fake Reviews and Endorsements Notice of Penalty Offense][ref_ftc_penalty_offense_2022], [FTC v Roomster 2022][ref_ftc_roomster_2022], [Amazon v Fake Review 2022][ref_amazon_v_fake_review_brokers_2022], [SEC v Kardashian 2022][ref_sec_kardashian_2022], [FTC 2023 Bountiful Company Review Hijacking Settlement][ref_ftc_bountiful_2023], [FTC v Amazon 2023][ref_ftc_v_amazon_2023] on dark-pattern manipulation, [FTC 2024 Impersonation Rule][ref_ftc_impersonation_rule_2024], and the [European Commission 2023 Sweep of Consumer Websites][ref_ec_2023_sweep] plus international parallels including [ACCC v Trivago 2020][ref_accc_v_trivago_2020], the [UK et al. 2022][ref_uk_cma_facebook_google_2022], the [Canadian Competition Bureau v Amazon][ref_canada_amazon], and the [Italian AGCM Booking.com Fake Reviews Action][ref_italy_agcm_booking].
 
@@ -281,7 +380,10 @@ Market-based countermeasures operate through consumer-facing and target-facing s
 
 The market-based countermeasure adoption follows a diffusion-adoption trajectory characterized by
 
-$$N(t) = \bar{N} \cdot \bigl(1 - e^{-\lambda t}\bigr)$$
+$$
+N(t) = \bar{N} \cdot \bigl(1 - e^{-\lambda t}\bigr)
+\tag{34}
+$$
 
 with $\bar{N}$ the ceiling adopter population and $\lambda$ the adoption rate, subject to the constraint that adoption rate scales with observed-manipulation prevalence and with consumer trust in the countermeasure-service quality.
 
@@ -295,13 +397,19 @@ Wikipedia represents the most substantial documented case of organic-reputation-
 
 The Wikipedia consensus-threshold statistic characterizes the community-editing dynamic
 
-$$C_{\text{consensus}}(\text{edit}) = \frac{|\{e_i : e_i \text{ supports edit}\}| - |\{e_i : e_i \text{ opposes edit}\}|}{|\{e_i : e_i \text{ engages}\}|}$$
+$$
+C_{\text{consensus}}(\text{edit}) = \frac{|\{e_i : e_i \text{ supports edit}\}| - |\{e_i : e_i \text{ opposes edit}\}|}{|\{e_i : e_i \text{ engages}\}|}
+\tag{35}
+$$
 
 with edits achieving $C_{\text{consensus}}$ greatly above zero being sustained and edits below zero being reverted. The consensus-editing model produces reputation-signal-informativeness that exceeds the informativeness of comparable non-consensus-edited platforms.
 
 The Wikipedia governance model's manipulation-resistant features include the requirement that assertions be supported by verifiable third-party sources (which raises the manipulation cost by requiring the manipulator to generate or exploit third-party sources), the notability standard for article creation (which limits the manipulation-target space), and the community sockpuppet-detection infrastructure that maintains marked detection intensity through volunteer effort. The Wikipedia edit-quality dynamic can be characterized as the edit-revert probability
 
-$$\Pr(\text{revert} \mid \text{edit}, e_{\text{quality}}) = \sigma(-(\alpha_0 + \alpha_1 \cdot e_{\text{quality}}))$$
+$$
+\Pr(\text{revert} \mid \text{edit}, e_{\text{quality}}) = \sigma(-(\alpha_0 + \alpha_1 \cdot e_{\text{quality}}))
+\tag{36}
+$$
 
 with $\sigma$ the logistic function, $e_{\text{quality}}$ the edit quality attribute, and $\alpha_0, \alpha_1$ the calibration parameters. Low-quality manipulation-oriented edits face considerably higher revert probability than authentic-quality edits.
 
@@ -311,13 +419,19 @@ GitHub and the broader open-source-software ecosystem represent a second documen
 
 The commit-signature validity characterization has the same form as the content-provenance verification above,
 
-$$V_{\text{commit}}(\text{commit}, \sigma) = \mathbb{1}[\text{Verify}(\text{gpg key}, \text{commit}, \sigma)]$$
+$$
+V_{\text{commit}}(\text{commit}, \sigma) = \mathbb{1}[\text{Verify}(\text{gpg key}, \text{commit}, \sigma)]
+\tag{37}
+$$
 
 with the commit-signing infrastructure providing cryptographic attestation of contributor identity that resists sockpuppet-and-impersonation manipulation.
 
 The downstream-user-verification dynamic operates through the fact that open-source contributor reputation is verified by downstream users through actual use of the contributed code, which produces reputation-signal-informativeness that pure claim-based reputation systems lack. The [Kalliamvakou et al. 2015][research_kalliamvakou_et_al_2016] Depth of Programmer Skill treatment addresses the skill-verification dynamics. The GitHub contributor-reputation growth trajectory supports characterization via the accumulation function
 
-$$R_{\text{contributor}}(t) = \int_0^t \gamma(s) \cdot q(s) \, ds$$
+$$
+R_{\text{contributor}}(t) = \int_0^t \gamma(s) \cdot q(s) \, ds
+\tag{38}
+$$
 
 with $\gamma(s)$ the contribution-attention weight at time $s$ and $q(s)$ the contribution quality. The reputation growth is monotone under authentic contribution and admits extensive acceleration under high-visibility high-quality contributions (widely-adopted open-source project maintainership).
 
@@ -327,21 +441,33 @@ Academic reputation and citation networks represent a third case of organic-esta
 
 The peer-review accuracy characterization permits partial estimation via the reference-classifier framework
 
-$$P_{\text{peer-review}}(\text{correct classification}) = f(\text{reviewer expertise}, \text{review depth}, \text{editorial oversight})$$
+$$
+P_{\text{peer-review}}(\text{correct classification}) = f(\text{reviewer expertise}, \text{review depth}, \text{editorial oversight})
+\tag{39}
+$$
 
 with the parameter values varying by field, journal, and time period. Empirical estimates from meta-analyses of peer-review reliability place $P_{\text{peer-review}}$ in the range of 0.6 to 0.8 for typical review, with sizable variation across contexts. The [Bornmann 2011][research_bornmann_2011] Scientific Peer Review treatment provides the reference meta-analysis.
 
 The citation-network reputation dynamic allows the PageRank-analog characterization
 
-$$R_{\text{author}}(a) = (1 - d)/N + d \sum_{a' : \text{cites } a} R_{\text{author}}(a') / L(a')$$
+$$
+R_{\text{author}}(a) = (1 - d)/N + d \sum_{a' : \text{cites } a} R_{\text{author}}(a') / L(a')
+\tag{40}
+$$
 
 with $R_{\text{author}}$ the author reputation as a function of the citing-author reputation and $L(a')$ the citation count of $a'$. The [Ding et al. 2009][research_ding_et_al_2009] PageRank for Ranking Authors in Co-citation Networks treatment applies the PageRank framework to author reputation. The retraction-and-correction infrastructure limits the persistence of manipulation-derived reputation and provides the accountability mechanism absent from most commercial reputation systems. The retraction-rate characterization takes the composite fraction
 
-$$\rho_{\text{retract}}(\text{field}, t) = \frac{|\text{retractions in field at } t|}{|\text{publications in field at } t|}$$
+$$
+\rho_{\text{retract}}(\text{field}, t) = \frac{|\text{retractions in field at } t|}{|\text{publications in field at } t|}
+\tag{41}
+$$
 
 with empirical estimates from the [Retraction Watch Database][ref_retraction_watch] placing $\rho_{\text{retract}}$ in the range of $10^{-4}$ to $10^{-3}$ across most fields, with appreciable variance across subfields and time periods. The citation-network Gini coefficient characterizes the reputation-distribution concentration
 
-$$G_{\text{citation}} = \frac{\sum_{i,j} |R_i - R_j|}{2 N \sum_i R_i}$$
+$$
+G_{\text{citation}} = \frac{\sum_{i,j} |R_i - R_j|}{2 N \sum_i R_i}
+\tag{42}
+$$
 
 with academic-citation reputation exhibiting considerable concentration ($G > 0.7$) reflecting the classical Zipf-Pareto reputation-distribution pattern.
 
@@ -351,7 +477,10 @@ Stack Exchange and the broader question-and-answer-community family represent a 
 
 The Stack Exchange reputation-cascade dynamic supports characterization as the reinforcing feedback
 
-$$\frac{dR_u}{dt} = \gamma \, \Pr(\text{contribution accepted} \mid R_u) \cdot \bar{q}(R_u)$$
+$$
+\frac{dR_u}{dt} = \gamma \, \Pr(\text{contribution accepted} \mid R_u) \cdot \bar{q}(R_u)
+\tag{43}
+$$
 
 with $\gamma$ the reputation-gain rate and $\bar{q}(R_u)$ the average contribution quality as a function of current reputation. The dynamic produces a significant reputation-concentration in high-quality contributors that sustains the community's overall quality signal.
 
@@ -361,7 +490,10 @@ Curated high-barrier communities including MetaFilter, LessWrong, and adjacent m
 
 The barrier-to-entry-and-community-norm mechanism raises the per-manipulator cost of entry significantly above the average per-user cost, which shifts the manipulation-cost function's convexity in a manner that suppresses low-quality manipulation attempts while permitting authentic participation. The barrier-to-entry cost function can be characterized as
 
-$$C_{\text{entry}}(u) = C_{\text{fee}} + C_{\text{learn}}(u) + C_{\text{time}}(u) + C_{\text{social}}(u)$$
+$$
+C_{\text{entry}}(u) = C_{\text{fee}} + C_{\text{learn}}(u) + C_{\text{time}}(u) + C_{\text{social}}(u)
+\tag{44}
+$$
 
 with $C_{\text{fee}}$ the direct financial cost, $C_{\text{learn}}$ the norm-acquisition learning cost, $C_{\text{time}}$ the participation time cost, and $C_{\text{social}}$ the reputation-establishment social cost. Curated communities produce $C_{\text{entry}}$ substantially above the general-platform baseline, which selects the participant population toward higher-quality contributors.
 
@@ -381,7 +513,10 @@ The six organic-establishment cases share several common structural features tha
 
 The composite organic-establishment survival function under manipulation pressure has the form
 
-$$S_{\text{organic}}(t) = \exp\biggl(-\int_0^t \bigl(\lambda_{\text{platform-collapse}}(\tau) + \lambda_{\text{community-collapse}}(\tau)\bigr) d\tau\biggr)$$
+$$
+S_{\text{organic}}(t) = \exp\biggl(-\int_0^t \bigl(\lambda_{\text{platform-collapse}}(\tau) + \lambda_{\text{community-collapse}}(\tau)\bigr) d\tau\biggr)
+\tag{45}
+$$
 
 with the two hazard rates capturing the platform-side and community-side collapse risks. The empirical estimates from the surveyed cases suggest that organic-establishment communities exhibit half-lives on the order of decades under sustained community effort, markedly longer than the half-lives of pure-platform-mediated reputation systems.
 
@@ -393,7 +528,10 @@ The six-axis analytical framework introduced at [A277][related_post_a277_theory]
 
 The signal-axis retrospective observes that self-promotion techniques produce positive-direction signal injection while competitor-attack techniques produce negative-direction signal injection, and that the detection methodology treats both under the general anomaly-detection framework. The distinction between the two classes on the signal axis is the sign of the injected signal rather than the injection mechanism, which explains why detection methodology transfers between the two technique classes with modest adaptation. The generative-model transition since 2022 has shifted the signal-axis characterization across both technique classes toward higher volume, higher fidelity, and lower cost. The composite signal-axis characterization at the ecosystem level permits
 
-$$\sigma_{\text{ecosystem}}^{\text{signal}}(t) = \sigma_{\text{authentic}}(t) + \sum_k \sigma_{\text{manip}}^k(t) \cdot \text{sign}_k$$
+$$
+\sigma_{\text{ecosystem}}^{\text{signal}}(t) = \sigma_{\text{authentic}}(t) + \sum_k \sigma_{\text{manip}}^k(t) \cdot \text{sign}_k
+\tag{46}
+$$
 
 with the authentic and manipulation-injected signal components additive at the aggregate level.
 
@@ -401,7 +539,10 @@ with the authentic and manipulation-injected signal components additive at the a
 
 The objective-axis retrospective observes the distinction between self-promotion (target-actor's-own-reputation uplift) and competitor-attack (target's reputation decrement) objectives, together with the shared platform-mediated audience-response optimization. The detection methodology is largely objective-agnostic (identifying manipulation from signal characteristics rather than from objective inference), while the countermeasure landscape is more objective-sensitive (defamation law for competitor-attack, false-advertising law for self-promotion). The organic-establishment cases share the objective of sustained genuine reputation and differ from both self-promotion and competitor-attack in their objective structure. The composite objective-decomposition at the actor level allows
 
-$$U_i(x) = w_i^{\text{self-promo}} U^{\text{sp}}_i(x) + w_i^{\text{attack}} U^{\text{att}}_i(x) + w_i^{\text{organic}} U^{\text{org}}_i(x)$$
+$$
+U_i(x) = w_i^{\text{self-promo}} U^{\text{sp}}_i(x) + w_i^{\text{attack}} U^{\text{att}}_i(x) + w_i^{\text{organic}} U^{\text{org}}_i(x)
+\tag{47}
+$$
 
 with the weights reflecting the actor's mix of self-promotion, attack, and organic-establishment orientations.
 
@@ -409,7 +550,10 @@ with the weights reflecting the actor's mix of self-promotion, attack, and organ
 
 The structure-axis retrospective observes the wide range across individual operators (both technique classes), commercial marketplaces (both technique classes), coordinated networks (both technique classes and cross-platform coordination), and state-sponsored operations (spillover into both technique classes). The detection methodology scales across structural tiers with different signature characteristics at each tier. The organic-establishment cases exhibit distinctive community-based structural forms not present in the manipulation technique classes. The composite structure-axis characterization has the aggregate operator-population distribution
 
-$$P_{\text{structure}}(D, B, N) = \sum_c \pi_c \cdot P_c(D, B, N)$$
+$$
+P_{\text{structure}}(D, B, N) = \sum_c \pi_c \cdot P_c(D, B, N)
+\tag{48}
+$$
 
 with $\pi_c$ the fraction of activity attributable to structure class $c$ and $P_c(D, B, N)$ the class-specific distribution over hierarchy depth, branching factor, and operator population.
 
@@ -417,7 +561,10 @@ with $\pi_c$ the fraction of activity attributable to structure class $c$ and $P
 
 The model-axis retrospective observes the technical-and-rhetorical content variation across techniques, with self-promotion emphasizing positive-content generation and competitor-attack emphasizing negative-and-adversarial-content generation. The detection methodology characterizes the model-axis-specific signatures each technique class produces. The organic-establishment cases exhibit distinctive content-quality-verification model structures that raise the manipulation cost above the average. The model-axis composite distance across the ecosystem takes the aggregate
 
-$$\bar{d}_{\text{model}}(t) = \frac{1}{|\mathcal{T}|^2} \sum_{j, k \in \mathcal{T}} d_{\text{model}}(t_j, t_k)$$
+$$
+\bar{d}_{\text{model}}(t) = \frac{1}{|\mathcal{T}|^2} \sum_{j, k \in \mathcal{T}} d_{\text{model}}(t_j, t_k)
+\tag{49}
+$$
 
 with the aggregate distance quantifying the technique-space diversity at time $t$.
 
@@ -425,7 +572,10 @@ with the aggregate distance quantifying the technique-space diversity at time $t
 
 The interaction-axis retrospective observes the distinction between self-promotion techniques (typically target-unaware relative to the audience, minimal direct target-manipulation interaction) and competitor-attack techniques (direct attacker-target interaction, target-aware attacks, legal-recourse activation). The detection methodology addresses the platform-side interaction structure. The organic-establishment cases exhibit distinctive community-audience-mutual-verification interaction structures. The interaction-axis ecosystem-level signed-graph density supports
 
-$$\rho_{\text{interact}}(t) = \frac{|E^{+}(t)| - |E^{-}(t)|}{|V(t)|^2}$$
+$$
+\rho_{\text{interact}}(t) = \frac{|E^{+}(t)| - |E^{-}(t)|}{|V(t)|^2}
+\tag{50}
+$$
 
 with $E^{+}$ the cooperative-edge set and $E^{-}$ the antagonistic-edge set, providing a scalar characterization of the net-cooperation state of the reputation ecosystem.
 
@@ -433,17 +583,26 @@ with $E^{+}$ the cooperative-edge set and $E^{-}$ the antagonistic-edge set, pro
 
 The adaptation-axis retrospective observes the substantial variation in adaptation velocity across technique classes, from individual manipulation (slow) through commercial marketplaces and state-sponsored operations (rapid). The detection-and-countermeasure landscape exhibits its own adaptation dynamic that responds to the manipulation-adaptation dynamic in a continuing arms race. The organic-establishment cases exhibit slower community-based adaptation but with greater long-term stability under the sustained community effort. The manipulation-detection arms race has the form the coupled system
 
-$$\frac{dS_{\text{manip}}}{dt} = f_{\text{manip}}(S_{\text{manip}}, S_{\text{detect}}), \quad \frac{dS_{\text{detect}}}{dt} = f_{\text{detect}}(S_{\text{manip}}, S_{\text{detect}})$$
+$$
+\frac{dS_{\text{manip}}}{dt} = f_{\text{manip}}(S_{\text{manip}}, S_{\text{detect}}), \quad \frac{dS_{\text{detect}}}{dt} = f_{\text{detect}}(S_{\text{manip}}, S_{\text{detect}})
+\tag{51}
+$$
 
 with $S_{\text{manip}}$ and $S_{\text{detect}}$ the manipulation-technique and detection-technology state respectively. The equilibrium dynamics depend on the coupling functions and admit multiple qualitatively different attractors including sustained arms race, manipulation-dominant collapse, and detection-dominant stability.
 
 The composite six-axis retrospective vector at the ecosystem level
 
-$$\mathbf{a}^{\text{ecosystem}}(t) = \sum_{k \in \text{active techniques}} w_k(t) \, \mathbf{a}_k$$
+$$
+\mathbf{a}^{\text{ecosystem}}(t) = \sum_{k \in \text{active techniques}} w_k(t) \, \mathbf{a}_k
+\tag{52}
+$$
 
 with $w_k(t)$ the volume-weight of technique $k$ at time $t$, provides the aggregate ecosystem-level characterization the miniseries has developed. The temporal derivative of the ecosystem-vector captures the evolution direction
 
-$$\frac{d\mathbf{a}^{\text{ecosystem}}}{dt} = \sum_k \dot{w}_k(t) \mathbf{a}_k + \sum_k w_k(t) \dot{\mathbf{a}}_k$$
+$$
+\frac{d\mathbf{a}^{\text{ecosystem}}}{dt} = \sum_k \dot{w}_k(t) \mathbf{a}_k + \sum_k w_k(t) \dot{\mathbf{a}}_k
+\tag{53}
+$$
 
 with the first term capturing the compositional shift across techniques and the second term capturing the within-technique evolution. Post-2022 empirical estimates place the largest contribution in the second term (within-technique shift toward higher-fidelity generative-model-driven variants) rather than the first term (compositional shift).
 
@@ -459,7 +618,10 @@ The manipulation-detection-countermeasure ecosystem has evolved across several l
 
 **2016-2019 election-integrity awakening**: the 2016 US election and subsequent state-sponsored-operation disclosures produced a step-change in platform-integrity investment and in academic-research funding for manipulation-detection. The DiResta et al 2019 IRA analysis, the Mueller Report 2019, and adjacent disclosures shaped the field. The [Cambridge Analytica revelations 2018][ref_cambridge_analytica_2018] catalyzed the parallel data-and-consent regulatory reform. The election-integrity-driven investment step-change is described by the discrete jump
 
-$$I(2018) - I(2015) > 5 \cdot [I(2015) - I(2012)]$$
+$$
+I(2018) - I(2015) > 5 \cdot [I(2015) - I(2012)]
+\tag{54}
+$$
 
 with $I(t)$ the aggregate industry investment in platform-integrity infrastructure at year $t$, empirically estimated from platform-headcount and budget disclosures.
 
@@ -483,7 +645,10 @@ The contemporary reputation-manipulation ecosystem admits comparative treatment 
 
 **Journalism verification-standards evolution**: the emergence of journalism verification-standards infrastructure through the late-nineteenth and twentieth centuries (fact-checking, editorial review, attribution requirements, retraction protocols) provides a comparative case of organic-establishment infrastructure development. The [Kovach and Rosenstiel 2001][book_kovach_rosenstiel_2001] The Elements of Journalism treatment documents the reference framework. The [Silverman 2007][book_silverman_2007] Regret the Error treatment addresses the retraction-and-correction infrastructure. The composite historical-precedent lesson permits characterization as the observation that manipulation-resistant reputation infrastructure emerges through the combination of institutional-verification investment, community-norm enforcement, and legal-regulatory backstop, with the relative weighting varying by domain
 
-$$\text{stability}(\text{domain}) = w_{\text{institution}} \cdot I(\text{domain}) + w_{\text{community}} \cdot C(\text{domain}) + w_{\text{legal}} \cdot L(\text{domain})$$
+$$
+\text{stability}(\text{domain}) = w_{\text{institution}} \cdot I(\text{domain}) + w_{\text{community}} \cdot C(\text{domain}) + w_{\text{legal}} \cdot L(\text{domain})
+\tag{55}
+$$
 
 with the domain-appropriate weighting driven by the technology-and-social-structure context.
 
@@ -501,7 +666,10 @@ The contemporary reputation-manipulation-ecosystem trajectory allows partial cou
 
 The counterfactual-versus-actual trajectory divergence is described by the outcome-space distance
 
-$$\Delta_{\text{cfa}}(t) = \| \mathbf{y}_{\text{cfa}}(t) - \mathbf{y}_{\text{actual}}(t) \|$$
+$$
+\Delta_{\text{cfa}}(t) = \| \mathbf{y}_{\text{cfa}}(t) - \mathbf{y}_{\text{actual}}(t) \|
+\tag{56}
+$$
 
 with $\mathbf{y}$ the outcome-vector including manipulation prevalence, detection accuracy, and platform-integrity investment. Substantial $\Delta_{\text{cfa}}$ across the counterfactual scenarios reflects the significant contingency of the actual trajectory on historical decisions.
 
@@ -513,7 +681,10 @@ The forward projection over the 2026-2050 window supports substantial uncertaint
 
 The central projection assumes continuation of the observed pre-2026 trajectories with modest acceleration in dimensions. The central-scenario prevalence trajectory has the linearized projection
 
-$$p_{\text{manip}}^{\text{central}}(t) = p_0 + \gamma_{\text{central}} (t - t_0)$$
+$$
+p_{\text{manip}}^{\text{central}}(t) = p_0 + \gamma_{\text{central}} (t - t_0)
+\tag{57}
+$$
 
 with $p_0 = p_{\text{manip}}(2026)$ the current baseline, $t_0 = 2026$, and $\gamma_{\text{central}} \approx 0.005$ per year reflecting the observed pre-2026 trend. The projection takes the following characterization by 2050:
 
@@ -525,7 +696,10 @@ with $p_0 = p_{\text{manip}}(2026)$ the current baseline, $t_0 = 2026$, and $\ga
 
 The central-scenario welfare-impact aggregate takes the form the difference between the counterfactual full-informativeness baseline and the projected manipulation-degraded state,
 
-$$W_{\text{loss}}^{\text{central}}(t) = \int_{\text{consumers}} [W_{\text{informed}}(c) - W_{\text{manipulated}}(c, t)] \, dc$$
+$$
+W_{\text{loss}}^{\text{central}}(t) = \int_{\text{consumers}} [W_{\text{informed}}(c) - W_{\text{manipulated}}(c, t)] \, dc
+\tag{58}
+$$
 
 with the aggregate welfare loss on the order of tens to hundreds of billions of USD annually across the global reputation-mediated commerce ecosystem under the central-scenario parameter estimates.
 
@@ -533,11 +707,17 @@ with the aggregate welfare loss on the order of tens to hundreds of billions of 
 
 An alternative scenario under continued generative-AI capability acceleration and inadequate detection response produces greatly higher manipulation prevalence approaching the pooling-equilibrium limit at which reputation signals carry no information. The scenario is characterized by
 
-$$p_{\text{manip}}^{\text{AI-accel}}(t) \to p_{\text{pooling}} \text{ as } q_{\text{gen}}(t) \to q_{\text{human}}$$
+$$
+p_{\text{manip}}^{\text{AI-accel}}(t) \to p_{\text{pooling}} \text{ as } q_{\text{gen}}(t) \to q_{\text{human}}
+\tag{59}
+$$
 
 with the pooling-equilibrium prevalence depending on the equilibrium-manipulation-return relative to alternative producer-strategies. The scenario's trajectory admits the sigmoidal-saturation form
 
-$$p_{\text{manip}}^{\text{AI-accel}}(t) = p_0 + (p_{\text{pooling}} - p_0) \cdot \frac{1}{1 + e^{-\kappa (t - t^*)}}$$
+$$
+p_{\text{manip}}^{\text{AI-accel}}(t) = p_0 + (p_{\text{pooling}} - p_0) \cdot \frac{1}{1 + e^{-\kappa (t - t^*)}}
+\tag{60}
+$$
 
 with $t^\*$ the inflection point at which generative-AI capability crosses the detection-difficulty threshold and $\kappa$ the transition rate. The scenario would considerably degrade the consumer welfare from platform-mediated reputation systems and would potentially trigger consumer migration to alternative reputation-infrastructure (organic-establishment communities, cryptographic-attestation systems).
 
@@ -545,7 +725,10 @@ with $t^\*$ the inflection point at which generative-AI capability crosses the d
 
 An alternative scenario under extensive regulatory-response acceleration produces significantly lower manipulation prevalence at the cost of substantially higher platform-integrity operating costs. The scenario is characterized by
 
-$$D^*_{\text{reg-resp}}(t) > D^*_{\text{central}}(t)$$
+$$
+D^*_{\text{reg-resp}}(t) > D^*_{\text{central}}(t)
+\tag{61}
+$$
 
 with the equilibrium detection intensity elevated by regulatory-compliance requirements. The scenario would reduce manipulation prevalence but would concentrate platform-market share in incumbents able to bear the compliance costs and would potentially reduce the platform-competition-driven consumer-welfare benefits.
 
@@ -553,7 +736,10 @@ with the equilibrium detection intensity elevated by regulatory-compliance requi
 
 An alternative scenario under sizable Web3-and-cryptographic-identity adoption produces a hybrid reputation environment in which cryptographically-attested reputation coexists with the traditional platform-mediated reputation. The scenario is characterized by
 
-$$\phi_{\text{attested}}(t) > 0.20 \text{ by } t = 2040$$
+$$
+\phi_{\text{attested}}(t) > 0.20 \text{ by } t = 2040
+\tag{62}
+$$
 
 with $\phi_{\text{attested}}$ the fraction of reputation-signal-events with cryptographic attestation. The scenario would reduce Sybil-and-impersonation-attack effectiveness but would introduce new attack surfaces around key-management-and-attestation-infrastructure compromise.
 
@@ -561,11 +747,17 @@ with $\phi_{\text{attested}}$ the fraction of reputation-signal-events with cryp
 
 A pessimistic scenario under which the manipulation-detection arms race resolves markedly in favor of manipulation produces appreciable consumer-trust collapse across major platforms. The scenario takes the form the trust-decay trajectory
 
-$$T(t) = T_0 \cdot e^{-\gamma_{\text{trust}} (t - t_0)}$$
+$$
+T(t) = T_0 \cdot e^{-\gamma_{\text{trust}} (t - t_0)}
+\tag{63}
+$$
 
 with $T_0$ the current baseline trust level, $\gamma_{\text{trust}}$ the decay rate under the collapse scenario, and the resulting consumer migration away from platform-mediated reputation to trusted-relationship-based alternatives. The composite scenario probability weighting has the expected-trajectory characterization
 
-$$\mathbb{E}[p_{\text{manip}}(t)] = \sum_s \pi_s \cdot p_{\text{manip}}^{s}(t)$$
+$$
+\mathbb{E}[p_{\text{manip}}(t)] = \sum_s \pi_s \cdot p_{\text{manip}}^{s}(t)
+\tag{64}
+$$
 
 with $\pi_s$ the subjective probability weight on scenario $s$ and $p_{\text{manip}}^{s}(t)$ the scenario-specific trajectory. Substantial disagreement over the $\pi_s$ specification produces considerable forward-projection uncertainty.
 
@@ -580,15 +772,24 @@ The forward projection permits falsification through observable measurements ove
 
 The uncertainty growth in the projection is captured by approximately linear in time under the central assumption of stationary uncertainty-generating processes,
 
-$$\sigma_{\text{projection}}(t) \approx \sigma_0 + \gamma (t - t_0)$$
+$$
+\sigma_{\text{projection}}(t) \approx \sigma_0 + \gamma (t - t_0)
+\tag{65}
+$$
 
 with $\gamma$ the uncertainty-growth rate empirically estimated from historical scenario-attribution error rates. The projection uncertainty by 2050 is significant and allows multiple non-negligible-probability scenarios. The scenario-attribution likelihood under observed empirical trajectory supports Bayesian updating
 
-$$\Pr(s \mid \text{observed}) = \frac{\Pr(\text{observed} \mid s) \, \Pr(s)}{\sum_{s'} \Pr(\text{observed} \mid s') \, \Pr(s')}$$
+$$
+\Pr(s \mid \text{observed}) = \frac{\Pr(\text{observed} \mid s) \, \Pr(s)}{\sum_{s'} \Pr(\text{observed} \mid s') \, \Pr(s')}
+\tag{66}
+$$
 
 with the posterior sharpening as more empirical observations accumulate through the projection window. The Bayes-factor comparison between competing scenarios takes the standard log-odds characterization
 
-$$\text{BF}_{s_A, s_B} = \log \frac{\Pr(\text{observed} \mid s_A)}{\Pr(\text{observed} \mid s_B)}$$
+$$
+\text{BF}_{s_A, s_B} = \log \frac{\Pr(\text{observed} \mid s_A)}{\Pr(\text{observed} \mid s_B)}
+\tag{67}
+$$
 
 with $\lvert \text{BF} \rvert > 2$ conventionally interpreted as substantial evidence favoring the higher-likelihood scenario.
 
@@ -608,15 +809,24 @@ The forward-projection scenarios are subject to several load-bearing contingenci
 
 The composite contingency-decomposition has the multiplicative characterization
 
-$$\Pr(\text{scenario } s) = \prod_c \Pr(\text{contingency } c \text{ resolves toward } s)$$
+$$
+\Pr(\text{scenario } s) = \prod_c \Pr(\text{contingency } c \text{ resolves toward } s)
+\tag{68}
+$$
 
 under an approximate-independence assumption over contingency resolutions. The path-dependent trajectory sensitivity reduces to the derivative of scenario outcome with respect to contingency-resolution
 
-$$\frac{\partial p_{\text{manip}}(2050)}{\partial \Pr(c_i \text{ resolves toward AI-accel})}$$
+$$
+\frac{\partial p_{\text{manip}}(2050)}{\partial \Pr(c_i \text{ resolves toward AI-accel})}
+\tag{69}
+$$
 
 with the largest-magnitude sensitivities identifying the highest-leverage contingencies for scenario adjudication. The bifurcation condition under which the trajectory switches between qualitatively different equilibria is captured by the critical-parameter threshold
 
-$$c_i^* : \frac{\partial^2 p_{\text{manip}}}{\partial c_i^2}\bigg|_{c_i = c_i^*} = 0$$
+$$
+c_i^* : \frac{\partial^2 p_{\text{manip}}}{\partial c_i^2}\bigg|_{c_i = c_i^*} = 0
+\tag{70}
+$$
 
 with $c_i^\*$ the critical value of contingency parameter $c_i$ at which the trajectory bifurcates.
 
@@ -640,7 +850,10 @@ The seventh commitment is terminological transparency.
 
 The methodological-uncertainty aggregate can be characterized as the joint uncertainty across the coverage-and-parameter dimensions
 
-$$U_{\text{methodology}} = U_{\text{coverage}} + U_{\text{parameter}} + U_{\text{projection}}$$
+$$
+U_{\text{methodology}} = U_{\text{coverage}} + U_{\text{parameter}} + U_{\text{projection}}
+\tag{71}
+$$
 
 with the projection-uncertainty term dominating the aggregate at the 2050 horizon under the observed scenario-attribution difficulty. The methodological limitations include the extensive variance in empirical-prevalence estimates across studies and methodologies, the limited coverage of non-English-language platform environments, the limited coverage of platform categories outside the surveyed consumer-review-and-social-media-and-search-and-community-platform categories, the sizable gap between the academic-detection-literature and the platform-industry-proprietary-detection-infrastructure that the miniseries could not fully bridge, the appreciable gap between the political-manipulation-focused disinformation literature and the commercial-manipulation-focused reputation literature that the miniseries could not fully bridge, and the considerable forward-projection uncertainty that the miniseries acknowledges explicitly.
 
@@ -670,7 +883,10 @@ The organic-establishment cases surveyed in the closing sections identify the st
 
 The composite miniseries contribution has the form the aggregate coverage of the technique-space and analytical-framework-space combined,
 
-$$C_{\text{miniseries}} = |\text{technique classes covered}| \times |\text{analytical frameworks applied}|$$
+$$
+C_{\text{miniseries}} = |\text{technique classes covered}| \times |\text{analytical frameworks applied}|
+\tag{72}
+$$
 
 with the coverage exceeding the coverage of any individual preceding treatment surveyed in the miniseries. The miniseries contribution is the integrated treatment across the theoretical framework, the two technique classes, and the detection-and-countermeasure-and-organic-establishment landscape. Each article stands independently but the composite treatment provides analytical leverage that no single article could offer. The analytical framework the miniseries develops (six-axis characterization, manipulation-equilibrium formalization, organic-establishment-minority puzzle) provides a foundation for continued empirical and theoretical work on the reputation-manipulation phenomenon across the forward-projection window.
 
@@ -728,6 +944,642 @@ The load-bearing open questions from the preceding articles remain open at the c
 - What is the correct empirical characterization of the organic-establishment community population and reputation-signal-informativeness trajectory over the 2026-2050 window?
 - What is the correct characterization of the equilibrium platform-integrity investment as a function of regulatory-framework hardening and consumer-response adaptation?
 - What is the correct characterization of the forward-projection scenario attribution as the observed 2026-2050 trajectory unfolds?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 72 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 72, 31 are established and 41 are bespoke.
+Prevalence is a fraction of reputation-signal volume, rates and growth parameters are per year in the projections, welfare and investment are in United States dollars, and several letters are reused, with $\gamma$ a decay, gain or growth rate that differs from equation to equation, $\sigma$ a signature, a smoothing scale and the logistic function, and $\kappa$ both the Cohen agreement statistic and a transition rate.
+
+*Equation 1, Bespoke Aggregate Manipulation Volume.*
+The article assembles the miniseries aggregate as the sum of self-promotion, competitor-attack and state-sponsored spillover volumes.
+
+$$
+V_{\text{miniseries}}^{\text{aggregate}}(t) = V_{\text{self-promo}}(t) + V_{\text{attack}}(t) + V_{\text{state-sponsored-spillover}}(t)
+\tag{1}
+$$
+
+*Equation 2, Bespoke Aggregate Manipulation Fraction Range.*
+The article summarises the aggregate manipulation-signal fraction across major consumer platforms as 10 to 35 per cent.
+
+$$
+p_{\text{manip}}^{\text{aggregate}} \in [0.10, 0.35]
+\tag{2}
+$$
+
+**Equation 3, Generic Standardised Anomaly Score.**
+The anomaly score is a test statistic less its expectation under the null model, divided by its null standard deviation.
+
+$$
+z_{\text{anomaly}} = \frac{T(\mathbf{x}) - E_{H_0}[T]}{\sqrt{\text{Var}_{H_0}[T]}}
+\tag{3}
+$$
+
+**Equation 4, Bonferroni Correction.**
+Dividing the single-test significance level by the number of simultaneous tests bounds the family-wise error rate.
+
+$$
+\alpha_{\text{corrected}} = \alpha_{\text{single}} / M
+\tag{4}
+$$
+
+**Equation 5, Page CUSUM Statistic.**
+The cumulative sum statistic is the largest sum of log-likelihood ratios of post-change to pre-change distributions over any candidate change point.
+[Page 1954][research_page_1954]
+[Basseville and Nikiforov 1993][book_basseville_nikiforov_1993]
+
+$$
+S_n = \max_{0 \leq k \leq n} \sum_{i=k+1}^{n} \bigl(\log \frac{p_1(x_i)}{p_0(x_i)}\bigr)
+\tag{5}
+$$
+
+**Equation 6, Hawkes Self-Exciting Point Process.**
+The arrival intensity is a baseline rate plus an exponentially decaying contribution from each earlier arrival.
+
+$$
+\lambda(t) = \mu + \alpha \sum_{t_i < t} e^{-\beta(t - t_i)}
+\tag{6}
+$$
+
+**Equation 7, Wald Sequential Log-Likelihood Ratio.**
+The sequential probability ratio test accumulates the log-likelihood ratio of the observations and stops when it crosses an upper or lower threshold.
+[Wald 1945][research_wald_1945]
+
+$$
+\Lambda_n = \sum_{i=1}^{n} \log \frac{p_1(x_i)}{p_0(x_i)}
+\tag{7}
+$$
+
+**Equation 8, Kullback-Leibler Divergence.**
+The divergence of one distribution from another is the expectation under the first of the logarithm of their probability ratio.
+
+$$
+D_{\text{KL}}(P \| Q) = \sum_x P(x) \log \frac{P(x)}{Q(x)}
+\tag{8}
+$$
+
+**Equation 9, Jensen-Shannon Divergence.**
+The Jensen-Shannon divergence is the mean of the Kullback-Leibler divergences of each distribution from their average, a symmetric measure.
+[Endres and Schindelin 2003][research_endres_schindelin_2003]
+
+$$
+D_{\text{JS}}(P, Q) = \frac{1}{2} D_{\text{KL}}(P \| M) + \frac{1}{2} D_{\text{KL}}(Q \| M), \quad M = \frac{P + Q}{2}
+\tag{9}
+$$
+
+**Equation 10, Newman Modularity.**
+Modularity compares the edges within communities with the number expected under a degree-preserving random graph.
+[Newman 2006][research_newman_2006]
+
+$$
+Q = \frac{1}{2m} \sum_{ij} \left[A_{ij} - \frac{k_i k_j}{2m}\right] \delta(c_i, c_j)
+\tag{10}
+$$
+
+**Equation 11, Nearest-Neighbour Embedding Distance.**
+The anomaly distance of a node is the Euclidean distance from its embedding to the nearest embedding of a labelled authentic node.
+
+$$
+d_{\text{embed}}(v_i, C_{\text{authentic}}) = \min_{v_j \in C_{\text{authentic}}} \| \mathbf{h}_i - \mathbf{h}_j \|_2
+\tag{11}
+$$
+
+*Equation 12, Bespoke Spectral Anomaly Ratio.*
+The article flags a graph when the largest eigenvalue of its Laplacian exceeds that of a null model by more than a chosen ratio.
+
+$$
+\lambda_{\max}(L) / \lambda_{\max}^{\text{null}} > \tau_{\text{spectral}}
+\tag{12}
+$$
+
+**Equation 13, Majority-Vote Ensemble Accuracy.**
+For independent classifiers with a common error rate, the probability that a majority vote is correct is one less the binomial probability that at least half err.
+
+$$
+P_{\text{ensemble}}(\text{correct}) \geq 1 - \sum_{k=\lceil M/2 \rceil}^{M} \binom{M}{k} p^k (1 - p)^{M - k}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Multi-Modal Detection Score.*
+The article combines modality-specific detection scores as a weighted sum with weights fitted to labelled data.
+
+$$
+s_{\text{multi-modal}} = \sum_m w_m \cdot s_m
+\tag{14}
+$$
+
+**Equation 15, Area Under the Precision-Recall Curve.**
+The area under the precision-recall curve integrates precision over recall, a measure suited to imbalanced classes.
+[Davis and Goadrich 2006][research_davis_goadrich_2006]
+
+$$
+\text{AUC-PR} = \int_0^1 \text{Precision}(\text{Recall}) \, d\text{Recall}
+\tag{15}
+$$
+
+**Equation 16, F-Beta Score.**
+The F-beta score is the weighted harmonic mean of precision and recall, with recall weighted by the square of beta.
+
+$$
+F_\beta = (1 + \beta^2) \cdot \frac{\text{precision} \cdot \text{recall}}{\beta^2 \cdot \text{precision} + \text{recall}}
+\tag{16}
+$$
+
+**Equation 17, Bayesian Posterior of Manipulation Under a Prior.**
+Bayes rule for a binary hypothesis gives the posterior probability of manipulation given a classifier score and the prevalence prior.
+
+$$
+\Pr(\text{manip} \mid s) = \frac{p(s \mid \text{manip}) \cdot \pi_{\text{manip}}}{p(s \mid \text{manip}) \cdot \pi_{\text{manip}} + p(s \mid \text{authentic}) \cdot (1 - \pi_{\text{manip}})}
+\tag{17}
+$$
+
+**Equation 18, Detection Accuracy Approaching Chance.**
+As the quality of generated text approaches that of human text, the area under the curve of any detector approaches one half, the result the article attributes to Sadasivan and colleagues.
+[Sadasivan et al. 2023][research_sadasivan_et_al_2023]
+
+$$
+\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}
+\tag{18}
+$$
+
+**Equation 19, Norm-Bounded Adversarial Perturbation.**
+The attacker seeks the perturbation within a ball of given radius in an $L_p$ norm that maximises the classifier loss.
+
+$$
+\arg\max_{\delta : \|\delta\|_p \leq \epsilon} \mathcal{L}(f(x + \delta), y)
+\tag{19}
+$$
+
+**Equation 20, Certified Radius Under Randomised Smoothing.**
+For a classifier smoothed with Gaussian noise, the prediction is certified within an $L_2$ radius equal to the noise scale times the inverse Gaussian distribution function of the lower bound on the top-class probability.
+
+$$
+R = \sigma \cdot \Phi^{-1}(\underline{p_A})
+\tag{20}
+$$
+
+*Equation 21, Bespoke Human-Review Triage Threshold.*
+The article chooses the triage threshold that maximises the classification benefit less the cost of human review.
+
+$$
+\tau^* = \arg\max_\tau [\Pi(\tau) - C_{\text{review}}(\tau)]
+\tag{21}
+$$
+
+**Equation 22, Cohen Kappa.**
+Cohen's kappa is the observed agreement less the chance-expected agreement, divided by one less the chance-expected agreement.
+
+$$
+\kappa = \frac{p_o - p_e}{1 - p_e}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Cross-Platform Information Gain.*
+The article defines the gain from collaboration as the mutual information of manipulation with both platforms' signals less the larger of the single-platform mutual informations.
+
+$$
+I_{\text{joint}} = I(\text{manipulation} ; \text{signal}_A, \text{signal}_B) - \max(I(\text{manipulation} ; \text{signal}_A), I(\text{manipulation} ; \text{signal}_B))
+\tag{23}
+$$
+
+*Equation 24, Bespoke Posterior-Proportional Aggregation Weights.*
+The article weights each platform's detection in proportion to its posterior probability of manipulation, normalised to sum to one.
+
+$$
+w^*_P = \Pr(\text{manip} \mid s_P) / \sum_{P'} \Pr(\text{manip} \mid s_{P'})
+\tag{24}
+$$
+
+*Equation 25, Bespoke Optimal Enforcement Intensity.*
+The article's platform chooses enforcement intensity to maximise a weighted sum of consumer surplus, producer surplus and revenue less enforcement cost.
+
+$$
+D^* = \arg\max_D [\psi_C \text{CS}(D) + \psi_P \text{PS}(D) + \psi_R \text{Rev}(D) - C(D)]
+\tag{25}
+$$
+
+**Equation 26, Elasticity of Enforcement Effectiveness to Investment.**
+The elasticity is the proportional change in enforcement effectiveness per proportional change in integrity investment.
+
+$$
+\varepsilon_{E,I} = \frac{\partial \ln E}{\partial \ln I}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Optimal Integrity-Investment Trajectory.*
+The article writes the investment path as the one that maximises the discounted welfare gain from enforcement less its cost.
+
+$$
+I^*(t) = \arg\max_I \int_0^\infty e^{-rt} [\Delta W(I) - C(I)] \, dt
+\tag{27}
+$$
+
+*Equation 28, Bespoke Verification Friction Cost.*
+The article assembles the friction of identity verification as the sum of user time, privacy loss and platform processing costs, each rising with stringency.
+
+$$
+C_{\text{verify}}(v) = c_{\text{user-time}}(v) + c_{\text{privacy-loss}}(v) + c_{\text{platform-processing}}(v)
+\tag{28}
+$$
+
+**Equation 29, Logistic Adoption of Verification.**
+Adoption of verification follows a logistic curve that rises toward a ceiling with its inflection at the time of majority adoption.
+
+$$
+U_{\text{verified}}(t) = \bar{U} / (1 + e^{-\alpha (t - t_v^*)})
+\tag{29}
+$$
+
+**Equation 30, Signature Validity Indicator.**
+Provenance verification is the indicator that the signature attached to the content verifies under the public key of the claimed origin.
+
+$$
+V(\text{content}, \sigma) = \mathbb{1}[\text{Verify}(\text{pk}, \text{content}, \sigma)]
+\tag{30}
+$$
+
+*Equation 31, Bespoke Composite Trust Score.*
+The article combines the provenance indicator and a content-analysis score as a weighted sum.
+
+$$
+T_{\text{composite}}(\text{content}) = w_{\text{prov}} \cdot V(\text{content}) + w_{\text{content}} \cdot T_{\text{content-analysis}}(\text{content})
+\tag{31}
+$$
+
+*Equation 32, Bespoke Deterrence Condition.*
+The framing article's actor abstains when the expected penalty plus the direct cost exceeds a linear approximation to the reputation gain from manipulation.
+
+$$
+\Pr(\text{detect}) \cdot \text{Penalty} + c(m) > \frac{\partial R_i}{\partial m_i} \cdot v \cdot m
+\tag{32}
+$$
+
+*Equation 33, Bespoke Compound Growth of Enforcement Volume.*
+The article assumes that legal enforcement volume grows at a constant compound annual rate, placed between 0.1 and 0.3.
+
+$$
+L(t) = L_0 \cdot (1 + g_L)^{t - t_0}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Saturating Countermeasure Adoption.*
+The article assumes that adoption of market countermeasures approaches a ceiling as one minus a decaying exponential at a constant rate.
+
+$$
+N(t) = \bar{N} \cdot \bigl(1 - e^{-\lambda t}\bigr)
+\tag{34}
+$$
+
+*Equation 35, Bespoke Wikipedia Consensus Statistic.*
+The article defines consensus as the number of supporting editors less the number opposing, divided by the number engaging.
+
+$$
+C_{\text{consensus}}(\text{edit}) = \frac{|\{e_i : e_i \text{ supports edit}\}| - |\{e_i : e_i \text{ opposes edit}\}|}{|\{e_i : e_i \text{ engages}\}|}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Logistic Revert Probability.*
+The article models the probability that an edit is reverted as a logistic function decreasing in edit quality.
+
+$$
+\Pr(\text{revert} \mid \text{edit}, e_{\text{quality}}) = \sigma(-(\alpha_0 + \alpha_1 \cdot e_{\text{quality}}))
+\tag{36}
+$$
+
+**Equation 37, Commit Signature Validity Indicator.**
+Commit verification is the indicator that the signature on a commit verifies under the contributor's key.
+
+$$
+V_{\text{commit}}(\text{commit}, \sigma) = \mathbb{1}[\text{Verify}(\text{gpg key}, \text{commit}, \sigma)]
+\tag{37}
+$$
+
+*Equation 38, Bespoke Contributor Reputation Accumulation.*
+The article writes contributor reputation as the time integral of contribution quality weighted by attention.
+
+$$
+R_{\text{contributor}}(t) = \int_0^t \gamma(s) \cdot q(s) \, ds
+\tag{38}
+$$
+
+*Equation 39, Bespoke Peer-Review Accuracy Function.*
+The article writes the accuracy of peer review as an unspecified function of reviewer expertise, review depth and editorial oversight.
+
+$$
+P_{\text{peer-review}}(\text{correct classification}) = f(\text{reviewer expertise}, \text{review depth}, \text{editorial oversight})
+\tag{39}
+$$
+
+**Equation 40, PageRank on the Citation Graph.**
+Author reputation follows the PageRank recurrence over citing authors, the application Ding and colleagues make to co-citation networks.
+[Ding et al. 2009][research_ding_et_al_2009]
+
+$$
+R_{\text{author}}(a) = (1 - d)/N + d \sum_{a' : \text{cites } a} R_{\text{author}}(a') / L(a')
+\tag{40}
+$$
+
+**Equation 41, Retraction Rate.**
+The retraction rate of a field is the number of retractions divided by the number of publications in the same period.
+[Retraction Watch Database][ref_retraction_watch]
+
+$$
+\rho_{\text{retract}}(\text{field}, t) = \frac{|\text{retractions in field at } t|}{|\text{publications in field at } t|}
+\tag{41}
+$$
+
+**Equation 42, Gini Coefficient of Citation Reputation.**
+The Gini coefficient is the sum of absolute pairwise differences in reputation divided by twice the population size times the total.
+
+$$
+G_{\text{citation}} = \frac{\sum_{i,j} |R_i - R_j|}{2 N \sum_i R_i}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Reputation Cascade.*
+The article models the growth of a user's reputation as a gain rate times the acceptance probability and the mean contribution quality, each depending on current reputation.
+
+$$
+\frac{dR_u}{dt} = \gamma \, \Pr(\text{contribution accepted} \mid R_u) \cdot \bar{q}(R_u)
+\tag{43}
+$$
+
+*Equation 44, Bespoke Barrier-to-Entry Cost.*
+The article assembles the cost of entering a curated community as the sum of fee, learning, time and social costs.
+
+$$
+C_{\text{entry}}(u) = C_{\text{fee}} + C_{\text{learn}}(u) + C_{\text{time}}(u) + C_{\text{social}}(u)
+\tag{44}
+$$
+
+**Equation 45, Survival Under Competing Hazards.**
+The probability that organic establishment survives is the exponential of the negative integrated sum of the platform and community collapse hazards.
+
+$$
+S_{\text{organic}}(t) = \exp\biggl(-\int_0^t \bigl(\lambda_{\text{platform-collapse}}(\tau) + \lambda_{\text{community-collapse}}(\tau)\bigr) d\tau\biggr)
+\tag{45}
+$$
+
+*Equation 46, Bespoke Ecosystem Signal Composition.*
+The article assumes that authentic and signed manipulation signal components add at the ecosystem level.
+
+$$
+\sigma_{\text{ecosystem}}^{\text{signal}}(t) = \sigma_{\text{authentic}}(t) + \sum_k \sigma_{\text{manip}}^k(t) \cdot \text{sign}_k
+\tag{46}
+$$
+
+*Equation 47, Bespoke Actor Objective Decomposition.*
+The article writes an actor's objective as a weighted sum of self-promotion, attack and organic-establishment utilities.
+
+$$
+U_i(x) = w_i^{\text{self-promo}} U^{\text{sp}}_i(x) + w_i^{\text{attack}} U^{\text{att}}_i(x) + w_i^{\text{organic}} U^{\text{org}}_i(x)
+\tag{47}
+$$
+
+*Equation 48, Bespoke Mixture Over Structure Classes.*
+The article represents the distribution of operator structure as a mixture of class-specific distributions weighted by each class's share of activity.
+
+$$
+P_{\text{structure}}(D, B, N) = \sum_c \pi_c \cdot P_c(D, B, N)
+\tag{48}
+$$
+
+**Equation 49, Mean Pairwise Technique Distance.**
+The aggregate is the mean of the model-axis distance over all ordered pairs of techniques.
+
+$$
+\bar{d}_{\text{model}}(t) = \frac{1}{|\mathcal{T}|^2} \sum_{j, k \in \mathcal{T}} d_{\text{model}}(t_j, t_k)
+\tag{49}
+$$
+
+*Equation 50, Bespoke Signed Interaction Density.*
+The article defines the density as cooperative edges less antagonistic edges, divided by the square of the node count.
+
+$$
+\rho_{\text{interact}}(t) = \frac{|E^{+}(t)| - |E^{-}(t)|}{|V(t)|^2}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Coupled Arms-Race Dynamics.*
+The article writes the manipulation and detection states as a pair of coupled ordinary differential equations with unspecified coupling functions.
+
+$$
+\frac{dS_{\text{manip}}}{dt} = f_{\text{manip}}(S_{\text{manip}}, S_{\text{detect}}), \quad \frac{dS_{\text{detect}}}{dt} = f_{\text{detect}}(S_{\text{manip}}, S_{\text{detect}})
+\tag{51}
+$$
+
+*Equation 52, Bespoke Volume-Weighted Ecosystem Vector.*
+The article defines the ecosystem position as the volume-weighted sum of the six-axis vectors of active techniques.
+
+$$
+\mathbf{a}^{\text{ecosystem}}(t) = \sum_{k \in \text{active techniques}} w_k(t) \, \mathbf{a}_k
+\tag{52}
+$$
+
+**Equation 53, Product Rule for the Ecosystem Vector.**
+The product rule splits the rate of change of the weighted sum into a compositional term and a within-technique term.
+
+$$
+\frac{d\mathbf{a}^{\text{ecosystem}}}{dt} = \sum_k \dot{w}_k(t) \mathbf{a}_k + \sum_k w_k(t) \dot{\mathbf{a}}_k
+\tag{53}
+$$
+
+*Equation 54, Bespoke Integrity Investment Step Change.*
+The article asserts that industry integrity investment rose from 2015 to 2018 by more than five times its rise from 2012 to 2015.
+
+$$
+I(2018) - I(2015) > 5 \cdot [I(2015) - I(2012)]
+\tag{54}
+$$
+
+*Equation 55, Bespoke Domain Stability Index.*
+The article writes stability as a weighted sum of institutional verification, community enforcement and legal backstop.
+
+$$
+\text{stability}(\text{domain}) = w_{\text{institution}} \cdot I(\text{domain}) + w_{\text{community}} \cdot C(\text{domain}) + w_{\text{legal}} \cdot L(\text{domain})
+\tag{55}
+$$
+
+**Equation 56, Norm of the Counterfactual Divergence.**
+The divergence is the norm of the difference between the counterfactual and actual outcome vectors.
+
+$$
+\Delta_{\text{cfa}}(t) = \| \mathbf{y}_{\text{cfa}}(t) - \mathbf{y}_{\text{actual}}(t) \|
+\tag{56}
+$$
+
+*Equation 57, Bespoke Linear Central Prevalence Projection.*
+The article projects prevalence linearly from the 2026 baseline at an assumed rate of about 0.005 per year.
+
+$$
+p_{\text{manip}}^{\text{central}}(t) = p_0 + \gamma_{\text{central}} (t - t_0)
+\tag{57}
+$$
+
+*Equation 58, Bespoke Central-Scenario Welfare Loss.*
+The article integrates over consumers the difference between welfare under full informativeness and welfare under the projected manipulation.
+
+$$
+W_{\text{loss}}^{\text{central}}(t) = \int_{\text{consumers}} [W_{\text{informed}}(c) - W_{\text{manipulated}}(c, t)] \, dc
+\tag{58}
+$$
+
+*Equation 59, Bespoke Pooling Limit Under Accelerated Generation.*
+The article asserts that prevalence approaches the pooling-equilibrium level as generated quality approaches human quality.
+
+$$
+p_{\text{manip}}^{\text{AI-accel}}(t) \to p_{\text{pooling}} \text{ as } q_{\text{gen}}(t) \to q_{\text{human}}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Sigmoidal Prevalence Transition.*
+The article assumes that prevalence rises from its baseline to the pooling level along a logistic curve centred at an inflection time.
+
+$$
+p_{\text{manip}}^{\text{AI-accel}}(t) = p_0 + (p_{\text{pooling}} - p_0) \cdot \frac{1}{1 + e^{-\kappa (t - t^*)}}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Regulatory-Response Detection Inequality.*
+The article characterises the regulatory scenario by equilibrium detection intensity above that of the central scenario.
+
+$$
+D^*_{\text{reg-resp}}(t) > D^*_{\text{central}}(t)
+\tag{61}
+$$
+
+*Equation 62, Bespoke Attested Fraction Threshold.*
+The article characterises the cryptographic-identity scenario by an attested fraction of signal events above 20 per cent by 2040.
+
+$$
+\phi_{\text{attested}}(t) > 0.20 \text{ by } t = 2040
+\tag{62}
+$$
+
+*Equation 63, Bespoke Exponential Trust Collapse.*
+The article assumes that consumer trust decays exponentially from its current level at a constant rate in the pessimistic scenario.
+
+$$
+T(t) = T_0 \cdot e^{-\gamma_{\text{trust}} (t - t_0)}
+\tag{63}
+$$
+
+**Equation 64, Expected Trajectory Over Scenarios.**
+The law of total expectation gives the expected prevalence as the probability-weighted sum of scenario trajectories.
+
+$$
+\mathbb{E}[p_{\text{manip}}(t)] = \sum_s \pi_s \cdot p_{\text{manip}}^{s}(t)
+\tag{64}
+$$
+
+*Equation 65, Bespoke Linear Uncertainty Growth.*
+The article assumes that projection uncertainty grows linearly in time from its initial value.
+
+$$
+\sigma_{\text{projection}}(t) \approx \sigma_0 + \gamma (t - t_0)
+\tag{65}
+$$
+
+**Equation 66, Bayesian Posterior Over Scenarios.**
+Bayes rule over a discrete set of scenarios gives the posterior probability of each given the observed trajectory.
+
+$$
+\Pr(s \mid \text{observed}) = \frac{\Pr(\text{observed} \mid s) \, \Pr(s)}{\sum_{s'} \Pr(\text{observed} \mid s') \, \Pr(s')}
+\tag{66}
+$$
+
+**Equation 67, Log Bayes Factor.**
+The log Bayes factor is the logarithm of the ratio of the likelihoods of the observations under two scenarios.
+
+$$
+\text{BF}_{s_A, s_B} = \log \frac{\Pr(\text{observed} \mid s_A)}{\Pr(\text{observed} \mid s_B)}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Independent Contingency Decomposition.*
+Assuming that contingencies resolve independently, the article writes the probability of a scenario as the product of the probabilities that each contingency resolves toward it.
+
+$$
+\Pr(\text{scenario } s) = \prod_c \Pr(\text{contingency } c \text{ resolves toward } s)
+\tag{68}
+$$
+
+*Equation 69, Bespoke Contingency Sensitivity.*
+The article measures sensitivity as the derivative of 2050 prevalence with respect to the probability that a contingency resolves toward the accelerated scenario.
+
+$$
+\frac{\partial p_{\text{manip}}(2050)}{\partial \Pr(c_i \text{ resolves toward AI-accel})}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Bifurcation Threshold.*
+The article identifies the critical value of a contingency parameter with the point at which the second derivative of prevalence with respect to it vanishes.
+
+$$
+c_i^* : \frac{\partial^2 p_{\text{manip}}}{\partial c_i^2}\bigg|_{c_i = c_i^*} = 0
+\tag{70}
+$$
+
+*Equation 71, Bespoke Additive Methodological Uncertainty.*
+The article assembles methodological uncertainty as the sum of coverage, parameter and projection terms.
+
+$$
+U_{\text{methodology}} = U_{\text{coverage}} + U_{\text{parameter}} + U_{\text{projection}}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Miniseries Coverage.*
+The article measures its coverage as the number of technique classes covered times the number of analytical frameworks applied.
+
+$$
+C_{\text{miniseries}} = |\text{technique classes covered}| \times |\text{analytical frameworks applied}|
+\tag{72}
+$$
+
+### Notation
+
+- $p_{\text{manip}}^{\text{aggregate}}$, the aggregate manipulation-signal fraction across major consumer platforms
+- $T(\mathbf{x})$, the test statistic evaluated on the observed data
+- $M$, the number of simultaneous tests, and the ensemble size
+- $S_n$, the cumulative sum statistic after $n$ observations
+- $p_0(x_i)$, the pre-change or null distribution, with $p_1$ the post-change or alternative distribution
+- $\Lambda_n$, the accumulated log-likelihood ratio of the sequential test
+- $D_{\text{KL}}(P \| Q)$, the Kullback-Leibler divergence of $P$ from $Q$
+- $D_{\text{JS}}(P, Q)$, the Jensen-Shannon divergence of $P$ and $Q$
+- $\mathbf{h}_i$, the learned embedding of node $v_i$
+- $\lambda_{\max}(L)$, the largest eigenvalue of the graph Laplacian
+- $p$, the error rate of an individual classifier
+- $F_\beta$, the F-beta score with recall weight $\beta$
+- $\pi_{\text{manip}}$, the prior prevalence of manipulation
+- $\delta$, the adversarial perturbation
+- $\epsilon$, the allowed perturbation magnitude
+- $\Phi^{-1}$, the inverse of the standard Gaussian distribution function
+- $\underline{p_A}$, the lower confidence bound on the top-class probability
+- $\kappa$, Cohen's agreement statistic, and separately the transition rate of the sigmoidal scenario
+- $p_o$, the observed agreement rate
+- $p_e$, the chance-expected agreement rate
+- $w^*_P$, the aggregation weight of platform $P$
+- $\psi_C$, the platform's marginal valuation of consumer surplus, with $\psi_P$ and $\psi_R$ for producer surplus and revenue
+- $\varepsilon_{E,I}$, the elasticity of enforcement effectiveness with respect to integrity investment
+- $\bar{U}$, the ceiling of verified users
+- $g_L$, the compound annual growth rate of enforcement volume
+- $\bar{N}$, the ceiling adopter population
+- $G_{\text{citation}}$, the Gini coefficient of citation reputation
+- $\lambda_{\text{platform-collapse}}(\tau)$, the hazard of platform-side collapse, with the community-side hazard written alongside it
+- $\mathbf{a}^{\text{ecosystem}}(t)$, the volume-weighted six-axis ecosystem vector
+- $w_k(t)$, the volume weight of technique $k$
+- $I(2015)$, aggregate industry investment in platform-integrity infrastructure in the year given, here 2015
+- $\gamma_{\text{central}}$, the assumed annual increase in prevalence in the central scenario, about 0.005
+- $p_{\text{pooling}}$, the prevalence at the pooling-equilibrium limit
+- $t^*$, the inflection time of the sigmoidal transition
+- $\gamma_{\text{trust}}$, the trust decay rate in the collapse scenario
+- $\pi_s$, the subjective probability weight on scenario $s$
+- $c_i^*$, the critical value of contingency parameter $c_i$
 
 ## References
 

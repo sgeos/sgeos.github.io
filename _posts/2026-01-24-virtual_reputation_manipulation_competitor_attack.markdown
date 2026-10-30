@@ -23,27 +23,42 @@ The technique landscape allows partition into several groupings organized by the
 
 The technique-space partition supports compact formalization along the same axis-vector framework introduced for self-promotion. Let $\mathcal{T}^{\text{attack}} = \{t_1, t_2, \ldots, t_K\}$ denote the competitor-attack technique inventory, and let each technique be characterized by its position on the six analytical axes,
 
-$$\mathbf{a}_k = (a_k^{\text{signal}}, a_k^{\text{obj}}, a_k^{\text{struct}}, a_k^{\text{model}}, a_k^{\text{interact}}, a_k^{\text{adapt}})$$
+$$
+\mathbf{a}_k = (a_k^{\text{signal}}, a_k^{\text{obj}}, a_k^{\text{struct}}, a_k^{\text{model}}, a_k^{\text{interact}}, a_k^{\text{adapt}})
+\tag{1}
+$$
 
 with each axis value drawn from an axis-specific space. The distance between competitor-attack techniques takes the same characterization as the self-promotion case,
 
-$$d(t_j, t_k) = \sum_{c \in \text{axes}} w_c \, \delta_c(a_j^c, a_k^c)$$
+$$
+d(t_j, t_k) = \sum_{c \in \text{axes}} w_c \, \delta_c(a_j^c, a_k^c)
+\tag{2}
+$$
 
 with $w_c$ the axis weight and $\delta_c$ the axis-specific distance function.
 
 The critical analytical difference from the self-promotion technique inventory lies on the objective axis. Self-promotion techniques optimize for the actor's own reputation-score uplift; competitor-attack techniques optimize for the target's reputation-score decrement, admitting characterization as
 
-$$U^{\text{attack}}(\mathbf{x}) = -\lambda^{\text{rating}}_T g_{\text{rating}}(x_T) - \lambda^{\text{rank}}_T g_{\text{rank}}(x_T) - \lambda^{\text{engage}}_T g_{\text{engage}}(x_T) + \gamma_{\text{self}}(x_A)$$
+$$
+U^{\text{attack}}(\mathbf{x}) = -\lambda^{\text{rating}}_T g_{\text{rating}}(x_T) - \lambda^{\text{rank}}_T g_{\text{rank}}(x_T) - \lambda^{\text{engage}}_T g_{\text{engage}}(x_T) + \gamma_{\text{self}}(x_A)
+\tag{3}
+$$
 
 with $x_T$ the target's state, $x_A$ the attacker's state, and $\gamma_{\text{self}}$ any residual self-effect. The competitive-differential benefit to the attacker follows
 
-$$\Delta_{\text{competitive}}(t) = R_A(t) - R_T(t) - [R_A(0) - R_T(0)]$$
+$$
+\Delta_{\text{competitive}}(t) = R_A(t) - R_T(t) - [R_A(0) - R_T(0)]
+\tag{4}
+$$
 
 with $R_A$ and $R_T$ the reputations of attacker and target and $t = 0$ the pre-attack baseline. The competitive-differential formulation makes clear that competitor-attack manipulation can produce competitive benefit without directly manipulating the attacker's own reputation signal, which distinguishes the objective structure from the self-promotion case.
 
 The aggregate empirical prevalence of competitor-attack techniques across the reputation ecosystem admits estimation through the sum
 
-$$V_{\text{attack}}(t) = \sum_{k \in \mathcal{T}^{\text{attack}}} \sum_{c \in \text{categories}} n_{k,c}(t) \cdot p_{k,c}(t)$$
+$$
+V_{\text{attack}}(t) = \sum_{k \in \mathcal{T}^{\text{attack}}} \sum_{c \in \text{categories}} n_{k,c}(t) \cdot p_{k,c}(t)
+\tag{5}
+$$
 
 with $n_{k,c}(t)$ and $p_{k,c}(t)$ defined as for the self-promotion case. The empirical estimates surveyed in this article establish that $V_{\text{attack}}$ is significantly smaller than $V_{\text{self-promo}}$ across most consumer-facing platform categories, but that attack-heavy contexts (competitive-market subsegments, political-adjacent commercial contests, controversy-adjacent public figures) exhibit competitor-attack volume comparable to or exceeding self-promotion volume in those subsegments.
 
@@ -101,17 +116,26 @@ Individual negative review fabrication operates analogously to individual positi
 
 The [FTC v Amazon 2023][ref_ftc_v_amazon_2023] action addressed adjacent dark-pattern manipulation practices and provides the reference federal enforcement precedent applicable to platform-mediated reputation manipulation. The rating-shift model for individual negative-review fabrication mirrors the positive-fabrication case,
 
-$$\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} - n_i^{\text{fake-neg}} \cdot (\bar{r}_{\text{pre}} - \bar{r}_{\text{fake-neg}}) / (N_i + n_i^{\text{fake-neg}})$$
+$$
+\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} - n_i^{\text{fake-neg}} \cdot (\bar{r}_{\text{pre}} - \bar{r}_{\text{fake-neg}}) / (N_i + n_i^{\text{fake-neg}})
+\tag{6}
+$$
 
 with $n_i^{\text{fake-neg}}$ the injected fake-negative-review count, $\bar{r}\_{\text{fake-neg}}$ the average fake-negative-review rating (typically one or two stars), $\bar{r}\_{\text{pre}}$ the pre-injection average rating, and $N_i$ the pre-injection authentic-review count. The equation shows that fake-negative-review effectiveness is higher against targets with fewer authentic reviews and against targets with higher pre-injection averages (larger gap between $\bar{r}\_{\text{pre}}$ and $\bar{r}\_{\text{fake-neg}}$).
 
 The detection signatures for individual negative fabrication include the same stylometric, temporal, reviewer-history, and IP-and-device-fingerprint anomalies documented for positive fabrication in the [Ott et al. 2011][research_ott_et_al_2011], [Feng 2012][research_feng_et_al_2012], and subsequent detection literature. The attack-oriented signature includes the anomaly of a reviewer whose review history disproportionately concentrates on negative reviews of one or a small set of businesses in the target category, which allows characterization as the concentration ratio
 
-$$C_{\text{reviewer}}^{\text{neg}} = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}$$
+$$
+C_{\text{reviewer}}^{\text{neg}} = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}
+\tag{7}
+$$
 
 with reviewers exhibiting anomalously high $C^{\text{neg}}$ triggering attack-oriented-manipulation classification. Detection triggers when $C^{\text{neg}}$ exceeds a threshold typically set at $C^{\text{neg}} > 0.8$ against a category-baseline distribution. The reviewer-target-concentration variant identifies the target-specific attack pattern via
 
-$$C_{\text{reviewer}}^{\text{target}}(R, T) = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{target}(r) = T \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}$$
+$$
+C_{\text{reviewer}}^{\text{target}}(R, T) = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{target}(r) = T \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}
+\tag{8}
+$$
 
 with anomalously high values across a target-and-competitor set triggering coordinated-attack classification. The [Ott et al. 2013][research_ott_et_al_2013] Negative Deceptive Opinion Spam treatment establishes the negative-review detection framework.
 
@@ -121,27 +145,42 @@ Review bombing refers to the coordinated deposit of large volumes of negative re
 
 The empirical characterization of review-bombing arrivals has the Hawkes point process framework with anomalous self-excitation gain
 
-$$\lambda^{\text{bomb}}(t) = \mu + \alpha^{\text{bomb}} \sum_{t_i < t} e^{-\beta(t - t_i)}$$
+$$
+\lambda^{\text{bomb}}(t) = \mu + \alpha^{\text{bomb}} \sum_{t_i < t} e^{-\beta(t - t_i)}
+\tag{9}
+$$
 
 with $\alpha^{\text{bomb}} \gg \alpha^{\text{baseline}}$ during the bombing event. The detection threshold triggers when the observed $\alpha$ exceeds the null-model distribution by a factor typically set at $\alpha / \alpha_{\text{null}} > 10$. The [Kalpakis et al. 2001][research_kalpakis_et_al_2001] framework for temporal anomaly detection provides the general methodology, and the [Vasilescu and Casanueva 2016][research_vasilescu_casanueva_2016] treatment addresses the review-bombing detection problem.
 
 The rating-distribution shape during a review-bombing event exhibits characteristic bimodality with a spike at the extreme-negative rating (one star or equivalent) that the null-distribution would not produce. The bimodality statistic supports characterization via the Hartigan dip test
 
-$$D_{\text{dip}}(F) = \sup_x |F(x) - U(x)|$$
+$$
+D_{\text{dip}}(F) = \sup_x |F(x) - U(x)|
+\tag{10}
+$$
 
 with $F$ the empirical rating-distribution and $U$ the closest unimodal distribution; anomalous $D_{\text{dip}}$ triggers review-bombing classification. The [Hartigan and Hartigan 1985][research_hartigan_hartigan_1985] statistic provides the reference framework.
 
 Coordinated review-bombing detection benefits from the coordination signature that individual-fabrication detection lacks. The coordination signature includes cross-account temporal alignment, cross-account content-template reuse, and cross-account external-origin signature (accounts originating from the same coordinating community). The coordinated-community-origin detection statistic operates on the fraction of bombing accounts with prior activity on external coordinating platforms,
 
-$$\rho_{\text{external-coord}} = \frac{|\{r : \text{reviewer}(r) \text{ active on coord platform}\}|}{|\{r \in \text{bombing event}\}|}$$
+$$
+\rho_{\text{external-coord}} = \frac{|\{r : \text{reviewer}(r) \text{ active on coord platform}\}|}{|\{r \in \text{bombing event}\}|}
+\tag{11}
+$$
 
 with coordination-driven bombings exhibiting appreciably higher $\rho^{\text{external-coord}}$ than natural-negative-review events. Cross-account temporal alignment takes the form the pairwise timestamp-cluster tightness
 
-$$T_{\text{align}}(\text{event}) = \frac{1}{|\text{event}|(|\text{event}|-1)} \sum_{i \neq j} \mathbb{1}[|t_i - t_j| < \Delta t_{\text{coord}}]$$
+$$
+T_{\text{align}}(\text{event}) = \frac{1}{|\text{event}|(|\text{event}|-1)} \sum_{i \neq j} \mathbb{1}[|t_i - t_j| < \Delta t_{\text{coord}}]
+\tag{12}
+$$
 
 with $\Delta t_{\text{coord}}$ a coordination-window threshold typically set at $\Delta t_{\text{coord}} = 3600$ seconds. Content-template reuse is captured by the average pairwise text similarity across the bombing-event review set,
 
-$$\bar{S}_{\text{content}}(\text{event}) = \frac{2}{n(n-1)} \sum_{i<j} \text{sim}(r_i, r_j)$$
+$$
+\bar{S}_{\text{content}}(\text{event}) = \frac{2}{n(n-1)} \sum_{i<j} \text{sim}(r_i, r_j)
+\tag{13}
+$$
 
 with anomalously high $\bar{S}\_{\text{content}}$ indicating shared-template origin. The [Kumar et al. 2018][research_kumar_et_al_2018] Community Interaction and Conflict on the Web treatment provides the reference framework for cross-community brigading detection applicable to coordinated review bombing.
 
@@ -151,11 +190,17 @@ Cross-account downvoting operates on platforms that expose per-review helpfulnes
 
 The vote-shift metric characterizing the technique admits characterization as
 
-$$\Delta v_r^{\text{net}} = \Delta v_r^{\text{authentic}} + n_r^{\text{coord-up}} - n_r^{\text{coord-down}}$$
+$$
+\Delta v_r^{\text{net}} = \Delta v_r^{\text{authentic}} + n_r^{\text{coord-up}} - n_r^{\text{coord-down}}
+\tag{14}
+$$
 
 with $\Delta v_r^{\text{net}}$ the net vote change on review $r$, $\Delta v_r^{\text{authentic}}$ the authentic vote change, and $n_r^{\text{coord-up}}$ and $n_r^{\text{coord-down}}$ the coordinated upvote and downvote injection counts. The equation shows that a small coordinated operation can produce considerable vote-differential shifts on individual reviews absent detection. The ranking-impact function mapping vote-differential to review-ordering-position shift takes the platform-specific form
 
-$$\Delta \text{pos}(r) = -\eta \cdot \Delta v_r^{\text{net}} / \sqrt{v_r^{\text{total}}}$$
+$$
+\Delta \text{pos}(r) = -\eta \cdot \Delta v_r^{\text{net}} / \sqrt{v_r^{\text{total}}}
+\tag{15}
+$$
 
 approximately, with $\eta$ the ranking-sensitivity coefficient and $v_r^{\text{total}}$ the total vote count on $r$. The vote-injection cost per unit ranking-shift depends on the marketplace price per coordinated vote and the platform's baseline-vote density.
 
@@ -163,17 +208,26 @@ approximately, with $\eta$ the ranking-sensitivity coefficient and $v_r^{\text{t
 
 The generative-model transition has enabled significant scale-up of negative-review production at collapsed marginal cost. The attack-narrative prompt-space takes the form a distribution over adversarial prompt templates
 
-$$\pi_{\text{attack-prompt}}(x) = \sum_k w_k \, p_k(x)$$
+$$
+\pi_{\text{attack-prompt}}(x) = \sum_k w_k \, p_k(x)
+\tag{16}
+$$
 
 with $p_k(x)$ the template-specific prompt distribution and $w_k$ template mixing weights that shape the diversity-versus-effectiveness tradeoff. The same detection challenges documented for positive-review generative content apply to negative-review generative content, with the additional dimension that generative models can be prompted to produce attack narratives targeting particular competitor attributes. The [Yang and Menczer 2023][research_yang_menczer_2024] Anatomy of an AI-Powered Malicious Social Botnet documents contemporary AI-driven botnet operations that engage in both self-promotion and competitor-attack activity. The [Goldstein et al. 2023][research_goldstein_et_al_2023] Generative Language Models and Automated Influence Operations treatment surveys the emerging threat landscape.
 
 The attack-oriented cost function takes the same collapsed-convexity characterization as the self-promotion case,
 
-$$c_{\text{LLM-attack}}(m) \approx c_{\text{API}} \cdot m + c_{\text{prompt-eng}}$$
+$$
+c_{\text{LLM-attack}}(m) \approx c_{\text{API}} \cdot m + c_{\text{prompt-eng}}
+\tag{17}
+$$
 
 with the additional prompt-engineering cost typically higher for attack-oriented content that must be tuned to produce plausible-but-damaging attribute-specific attacks on the target. The detection-difficulty asymptote under high-quality generation matches the self-promotion case,
 
-$$\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}$$
+$$
+\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}
+\tag{18}
+$$
 
 per the [Sadasivan et al. 2023][research_sadasivan_et_al_2023] analysis.
 
@@ -187,15 +241,24 @@ Cross-community brigading operates through the movement of participants from a s
 
 The cross-community brigading detection statistic operates on the source-community-origin fraction of participants in a target-community event,
 
-$$\rho_{\text{brigade}}^{S \to T}(e) = \frac{|\{p \in e : \text{prior activity in } S\}|}{|\{p \in e\}|}$$
+$$
+\rho_{\text{brigade}}^{S \to T}(e) = \frac{|\{p \in e : \text{prior activity in } S\}|}{|\{p \in e\}|}
+\tag{19}
+$$
 
 with $e$ the target-community event and $S$ the source community. Brigading events exhibit anomalously high $\rho^{\text{brigade}}$ compared to the target-community's baseline participant distribution. The mobilization threshold for a brigading event reduces to the source-community mobilization ratio,
 
-$$m_S(t) = \frac{|\text{S-participants active on target at } t|}{|\text{S-active-users at } t|}$$
+$$
+m_S(t) = \frac{|\text{S-participants active on target at } t|}{|\text{S-active-users at } t|}
+\tag{20}
+$$
 
 with brigading events exhibiting $m_S$ greatly above the baseline cross-community-activity rate. The source-target participant overlap can be characterized as the Jaccard similarity of participant sets across an event window,
 
-$$J(S, T, w) = \frac{|P_S(w) \cap P_T(w)|}{|P_S(w) \cup P_T(w)|}$$
+$$
+J(S, T, w) = \frac{|P_S(w) \cap P_T(w)|}{|P_S(w) \cup P_T(w)|}
+\tag{21}
+$$
 
 with $P_S(w)$ and $P_T(w)$ the active-participant sets on source community $S$ and target community $T$ during window $w$. Brigading events exhibit considerably elevated $J(S, T, w)$ compared to the baseline cross-community overlap.
 
@@ -205,11 +268,17 @@ Coordinated dogpiling refers to the attack pattern in which a coordinated group 
 
 The pile-on rate statistic is captured by the response-arrival rate against a target,
 
-$$\lambda_{\text{pile-on}}(t) = \frac{d N_{\text{response}}(t)}{dt}$$
+$$
+\lambda_{\text{pile-on}}(t) = \frac{d N_{\text{response}}(t)}{dt}
+\tag{22}
+$$
 
 with dogpiling events exhibiting $\lambda_{\text{pile-on}}$ significantly above the target's baseline response-rate. The participant-diversity statistic distinguishes coordinated dogpiling from natural viral response by the anomalous concentration of pile-on participants in coordinating communities. The participant-diversity entropy over source-community assignments reduces to
 
-$$H_{\text{part-diversity}}(\text{event}) = -\sum_{C \in \text{communities}} p_C \log p_C$$
+$$
+H_{\text{part-diversity}}(\text{event}) = -\sum_{C \in \text{communities}} p_C \log p_C
+\tag{23}
+$$
 
 with $p_C$ the fraction of pile-on participants originating from community $C$. Coordinated dogpiling exhibits anomalously low $H_{\text{part-diversity}}$ concentrated on one or a small number of source communities, distinguishing it from natural viral responses that exhibit distributed source-community origin.
 
@@ -229,17 +298,26 @@ Toxic backlink attacks operate by generating large volumes of low-quality inboun
 
 The PageRank-damage from a toxic backlink follows approximately the negative-contribution form
 
-$$\Delta \text{PR}(p) \approx -\sum_{q \in B_p^{\text{toxic}}} d \cdot \text{penalty}(q) \cdot \text{PR}(q) / L(q)$$
+$$
+\Delta \text{PR}(p) \approx -\sum_{q \in B_p^{\text{toxic}}} d \cdot \text{penalty}(q) \cdot \text{PR}(q) / L(q)
+\tag{24}
+$$
 
 with $B_p^{\text{toxic}}$ the toxic inbound-link set and $\text{penalty}(q)$ the platform-imposed penalty multiplier on links from source $q$. The empirical penalty effect depends on the algorithm's classification of the source as spammy and on the target's total inbound-link volume. The [Google Disavow Tool][ref_google_disavow_tool] provides the target-site countermeasure allowing site owners to instruct Google to ignore specified inbound links.
 
 The toxic-link identification statistic operates on the source-domain characteristics including spam-score, malware-association, penalty-history, and cross-target link-farm participation. The composite toxicity score can be characterized as the weighted sum
 
-$$T(q) = w_1 \cdot \text{SpamScore}(q) + w_2 \cdot \text{MalwareFlag}(q) + w_3 \cdot \text{PenaltyHistory}(q) + w_4 \cdot \text{LinkFarmParticipation}(q)$$
+$$
+T(q) = w_1 \cdot \text{SpamScore}(q) + w_2 \cdot \text{MalwareFlag}(q) + w_3 \cdot \text{PenaltyHistory}(q) + w_4 \cdot \text{LinkFarmParticipation}(q)
+\tag{25}
+$$
 
 with the weights $w_1, \ldots, w_4$ trained on labeled toxic-versus-benign link sets. Disavow-tool effectiveness permits characterization as the fraction of nominated toxic links the search engine subsequently ignores in ranking computations,
 
-$$e_{\text{disavow}} = \frac{|\{q \in \text{disavowed} : \text{ignored in PR}\}|}{|\text{disavowed}|}$$
+$$
+e_{\text{disavow}} = \frac{|\{q \in \text{disavowed} : \text{ignored in PR}\}|}{|\text{disavowed}|}
+\tag{26}
+$$
 
 with empirical estimates from case studies placing $e_{\text{disavow}}$ in the range of 0.7 to 0.9 for major search engines. The [Moz Spam Score methodology][ref_moz_spam_score] provides one industry-standard classification framework. The [Ahrefs Domain Rating framework][ref_ahrefs_domain_rating] provides an alternative industry framework.
 
@@ -249,11 +327,17 @@ Duplicate content attacks operate by publishing large volumes of scraped copies 
 
 The content-similarity statistic characterizing duplicate content has the form the cosine similarity of document embeddings,
 
-$$\text{sim}(d_1, d_2) = \frac{\mathbf{v}_1 \cdot \mathbf{v}_2}{\|\mathbf{v}_1\| \|\mathbf{v}_2\|}$$
+$$
+\text{sim}(d_1, d_2) = \frac{\mathbf{v}_1 \cdot \mathbf{v}_2}{\|\mathbf{v}_1\| \|\mathbf{v}_2\|}
+\tag{27}
+$$
 
 with $\mathbf{v}\_i$ the document embedding. Duplicate-content triggers occur when the similarity exceeds a threshold typically set at $\text{sim} > 0.85$. The canonical-URL confusion signature emerges when the search engine's canonicalization algorithm assigns the canonical version to a duplicate rather than to the original, admitting detection via the canonical-URL-assignment audit. The originality-priority statistic under first-publication timestamps takes the form
 
-$$\text{orig}(d) = \mathbb{1}[t_d = \min_{d' : \text{sim}(d, d') > \tau} t_{d'}]$$
+$$
+\text{orig}(d) = \mathbb{1}[t_d = \min_{d' : \text{sim}(d, d') > \tau} t_{d'}]
+\tag{28}
+$$
 
 with $t_d$ the first-publication timestamp of document $d$; the canonical-assignment collision occurs when $\text{orig}(d) = 1$ but the search engine's canonicalization instead selects a duplicate as canonical.
 
@@ -279,11 +363,17 @@ False content publication produces damaging false statements about the target on
 
 The defamation-classification of a statement $s$ under US law requires four elements: publication, identification of the target, defamatory content (false statement of fact), and damages. The statement's actionability has the form
 
-$$A(s) = \mathbb{1}[\text{published}] \cdot \mathbb{1}[\text{identifies target}] \cdot \mathbb{1}[\text{false fact}] \cdot \mathbb{1}[\text{damages}]$$
+$$
+A(s) = \mathbb{1}[\text{published}] \cdot \mathbb{1}[\text{identifies target}] \cdot \mathbb{1}[\text{false fact}] \cdot \mathbb{1}[\text{damages}]
+\tag{29}
+$$
 
 with the additional actual-malice requirement for public figures adding $\mathbb{1}[\text{knowledge or reckless disregard of falsity}]$. The damages calculation for a defamation action is described by the sum of special damages (pecuniary losses), general damages (reputational harm), presumed damages (for defamation per se categories), and punitive damages,
 
-$$D_{\text{total}} = D_{\text{special}} + D_{\text{general}} + D_{\text{presumed}} + D_{\text{punitive}}$$
+$$
+D_{\text{total}} = D_{\text{special}} + D_{\text{general}} + D_{\text{presumed}} + D_{\text{punitive}}
+\tag{30}
+$$
 
 with the characterization varying by jurisdiction and case type.
 
@@ -295,11 +385,17 @@ Anonymous defamation operates through the publication of defamatory content by a
 
 The unmasking-order likelihood takes the form the conditional probability
 
-$$\Pr(\text{unmask granted} \mid \text{motion}) = f(\text{prima facie showing}, \text{jurisdiction}, \text{platform}, \text{content type})$$
+$$
+\Pr(\text{unmask granted} \mid \text{motion}) = f(\text{prima facie showing}, \text{jurisdiction}, \text{platform}, \text{content type})
+\tag{31}
+$$
 
 with the parameters varying by court and case type. The cost of unmasking including legal fees, subpoena costs, and platform-cooperation friction is captured by
 
-$$C_{\text{unmask}}(J) = C_{\text{legal}}(J) + C_{\text{subpoena}}(J) + C_{\text{platform}}(J) + C_{\text{delay}}(J)$$
+$$
+C_{\text{unmask}}(J) = C_{\text{legal}}(J) + C_{\text{subpoena}}(J) + C_{\text{platform}}(J) + C_{\text{delay}}(J)
+\tag{32}
+$$
 
 with $J$ the jurisdiction and each cost component varying across jurisdictions. Multi-jurisdiction attacks that route through anonymizing infrastructure raise $C_{\text{unmask}}$ markedly through the addition of international cooperation requirements. The [Dendrite v Doe 2001][ref_dendrite_v_doe_2001] framework in New Jersey and the [Cahill v Doe 2005][ref_cahill_v_doe_2005] framework in Delaware establish the reference tests for unmasking-motion grants. The [Doe v Cahill][ref_cahill_v_doe_2005] test requires the plaintiff to make a prima facie case that would survive summary judgment before the anonymous poster can be unmasked.
 
@@ -309,11 +405,17 @@ Coordinated defamation networks operate through the deployment of multiple defam
 
 The network-damage aggregation follows
 
-$$D_{\text{net}}(T) = \sum_{i \in \text{content}} d_i(T) \cdot v_i \cdot p_i$$
+$$
+D_{\text{net}}(T) = \sum_{i \in \text{content}} d_i(T) \cdot v_i \cdot p_i
+\tag{33}
+$$
 
 with $d_i(T)$ the per-content-instance damage to target $T$, $v_i$ the visibility of the content, and $p_i$ the persistence of the content. Coordinated networks achieve appreciably higher $D_{\text{net}}$ than individual publication due to the multiplicative visibility and persistence effects. The campaign-timeline characterization follows the piecewise-linear phase structure
 
-$$D_{\text{net}}(t) = \begin{cases} \alpha_1 t & 0 \leq t < t_{\text{peak}} \\ D_{\text{peak}} + \alpha_2 (t - t_{\text{peak}}) & t_{\text{peak}} \leq t < t_{\text{decay}} \\ D_{\text{peak}} \cdot e^{-\gamma (t - t_{\text{decay}})} & t \geq t_{\text{decay}} \end{cases}$$
+$$
+D_{\text{net}}(t) = \begin{cases} \alpha_1 t & 0 \leq t < t_{\text{peak}} \\ D_{\text{peak}} + \alpha_2 (t - t_{\text{peak}}) & t_{\text{peak}} \leq t < t_{\text{decay}} \\ D_{\text{peak}} \cdot e^{-\gamma (t - t_{\text{decay}})} & t \geq t_{\text{decay}} \end{cases}
+\tag{34}
+$$
 
 with $\alpha_1$ the buildup rate, $\alpha_2$ the sustain rate (typically small), and $\gamma$ the post-campaign decay rate.
 
@@ -321,15 +423,24 @@ with $\alpha_1$ the buildup rate, $\alpha_2$ the sustain rate (typically small),
 
 Search-engine-amplified defamation operates through the technique of publishing defamatory content optimized to rank highly for search queries associated with the target's name, business, or brand. The technique combines the defamation-content-publication framework with the aggressive-SEO framework to produce content that appears prominently in searches for the target and displaces legitimate content about the target from the visible search results. The [rank-displacement effect][research_ravasi_et_al_2020] allows characterization as the number of legitimate results displaced from the visible search-result page,
 
-$$N_{\text{displaced}} = |\{r \in \text{top-K}_{\text{legitimate}} : r \notin \text{top-K}_{\text{observed}}\}|$$
+$$
+N_{\text{displaced}} = |\{r \in \text{top-K}_{\text{legitimate}} : r \notin \text{top-K}_{\text{observed}}\}|
+\tag{35}
+$$
 
 with top-$K$ typically set at $K = 10$ for the first-page results. Search-engine-amplified defamation produces disproportionate reputation damage relative to non-amplified defamation because the amplified content reaches a broader audience through the search-mediated discovery channel. The reputation-damage-from-displacement reduces to the integral over displaced-content visibility loss
 
-$$D_{\text{displace}}(T) = \int_0^{\infty} v_{\text{legit}}(r, t) \cdot \bigl(1 - \mathbb{1}[r \text{ visible at } t]\bigr) \, dr \, dt$$
+$$
+D_{\text{displace}}(T) = \int_0^{\infty} v_{\text{legit}}(r, t) \cdot \bigl(1 - \mathbb{1}[r \text{ visible at } t]\bigr) \, dr \, dt
+\tag{36}
+$$
 
 with $v_{\text{legit}}(r, t)$ the counterfactual visibility of legitimate content on target $T$ absent the displacement attack. Recovery from displacement after successful content removal follows the exponential regrowth
 
-$$R^{\text{recovered}}(t) = R_0 \cdot (1 - e^{-\gamma_{\text{recover}} t})$$
+$$
+R^{\text{recovered}}(t) = R_0 \cdot (1 - e^{-\gamma_{\text{recover}} t})
+\tag{37}
+$$
 
 with $\gamma_{\text{recover}}$ the recovery rate typically constrained by search-engine reindexing cadence. The [Right to be Forgotten framework in EU law][ref_right_to_be_forgotten_eu] provides one recourse mechanism for search-amplification-related reputation harm.
 
@@ -343,11 +454,17 @@ Community platforms including Reddit, Stack Exchange, Wikipedia, and Quora expos
 
 The vote-manipulation impact function on a target's community-visible ranking follows
 
-$$\Delta \text{rank}(T) = f(\Delta v_T^{\text{net}}, N_{\text{competition}}, \text{ranking algo})$$
+$$
+\Delta \text{rank}(T) = f(\Delta v_T^{\text{net}}, N_{\text{competition}}, \text{ranking algo})
+\tag{38}
+$$
 
 with $\Delta v_T^{\text{net}}$ the net vote change on the target, $N_{\text{competition}}$ the count of competing content, and the ranking algorithm parametrization. Under the Hot-ranking family of algorithms including the Reddit legacy Hot algorithm the ranking-score-impact function takes the log-shifted form
 
-$$\Delta s = \text{sign}(\Delta v^{\text{net}}) \cdot \log_{10}(1 + |\Delta v^{\text{net}}|) / T_{\text{decay}}$$
+$$
+\Delta s = \text{sign}(\Delta v^{\text{net}}) \cdot \log_{10}(1 + |\Delta v^{\text{net}}|) / T_{\text{decay}}
+\tag{39}
+$$
 
 with $T_{\text{decay}}$ a time-decay divisor. The Sybil-attack effectiveness depends on both the Sybil-vote volume and the temporal-clustering of the votes, which shifts the target's position in the platform's time-weighted ranking algorithm.
 
@@ -355,7 +472,10 @@ with $T_{\text{decay}}$ a time-decay divisor. The Sybil-attack effectiveness dep
 
 Rating attacks refer to the general class of Sybil-based negative-rating deposition against products, services, businesses, or content. The techniques operate through the same infrastructure as Sybil-based positive-rating self-promotion, with the direction of the injected ratings reversed. The detection signatures include the same account-provenance, temporal-clustering, and behavioral-similarity signatures documented for the self-promotion case in the preceding article. The negative-rating-shift model mirrors the positive-attack case with the additional characterization of the target's authentic-rating-distribution shape as the reference baseline for the anomaly-detection null hypothesis,
 
-$$D_{\text{KL}}(\hat{F}_{\text{observed}} \| F_{\text{authentic-baseline}}) > \tau_{\text{anomaly}}$$
+$$
+D_{\text{KL}}(\hat{F}_{\text{observed}} \| F_{\text{authentic-baseline}}) > \tau_{\text{anomaly}}
+\tag{40}
+$$
 
 with $D_{\text{KL}}$ the Kullback-Leibler divergence and $\tau_{\text{anomaly}}$ a chosen detection threshold. Sybil-attack rating events produce extensive rating-distribution divergence from the target's authentic-baseline distribution.
 
@@ -363,7 +483,10 @@ with $D_{\text{KL}}$ the Kullback-Leibler divergence and $\tau_{\text{anomaly}}$
 
 Community-vote weaponization operates through the deployment of Sybil infrastructure to trigger community-level enforcement actions against a target. The technique exploits the platform's use of user-vote signals as inputs to automated moderation decisions, with the goal of triggering false-positive moderation actions (post removal, account suspension) against the target. The weighted-voting anomaly detection statistic is described by the participation-vote ratio,
 
-$$\rho_{\text{part-vote}}^{\text{Sybil}} = \frac{N_{\text{Sybil votes on target}}}{N_{\text{authentic votes on target}}}$$
+$$
+\rho_{\text{part-vote}}^{\text{Sybil}} = \frac{N_{\text{Sybil votes on target}}}{N_{\text{authentic votes on target}}}
+\tag{41}
+$$
 
 with Sybil-attack triggering events exhibiting anomalously high $\rho^{\text{part-vote}}$.
 
@@ -377,15 +500,24 @@ The Digital Millennium Copyright Act at [17 USC 512][ref_dmca_17_usc_512] establ
 
 The false-DMCA-notice volume supports characterization as a fraction of total DMCA submissions,
 
-$$p_{\text{false-DMCA}} = \frac{|\{n \in \text{DMCA notices} : n \text{ lacks valid claim}\}|}{|\{n \in \text{DMCA notices}\}|}$$
+$$
+p_{\text{false-DMCA}} = \frac{|\{n \in \text{DMCA notices} : n \text{ lacks valid claim}\}|}{|\{n \in \text{DMCA notices}\}|}
+\tag{42}
+$$
 
 with the [Urban et al. 2016][research_urban_karaganis_schofield_2016] empirical estimates placing $p_{\text{false-DMCA}}$ in the range of thirty to fifty percent across major-platform samples. The counter-notice-success rate under the DMCA framework provides the target's recourse mechanism but exhibits sizable friction that reduces its practical effectiveness. The counter-notice-adoption rate follows
 
-$$\rho_{\text{counter}} = \frac{|\text{counter-notices filed}|}{|\text{takedown-notices received}|}$$
+$$
+\rho_{\text{counter}} = \frac{|\text{counter-notices filed}|}{|\text{takedown-notices received}|}
+\tag{43}
+$$
 
 with empirical estimates placing $\rho_{\text{counter}}$ at approximately one percent across major-platform samples, reflecting appreciable user-side friction and knowledge gaps. The chilling-effect from false-DMCA-notice submission produces suppression of legitimate speech that is estimated by as the ratio of removed-then-restored to removed-and-not-contested content
 
-$$\rho_{\text{chilling}} = 1 - \frac{|\text{content restored via counter-notice}|}{|\text{content removed via notice}|}$$
+$$
+\rho_{\text{chilling}} = 1 - \frac{|\text{content restored via counter-notice}|}{|\text{content removed via notice}|}
+\tag{44}
+$$
 
 with $\rho_{\text{chilling}}$ close to unity indicating considerable suppression of legitimate speech through the notice mechanism absent effective counter-notice recourse. The [Rossi v Motion Picture 2004][ref_rossi_v_mpaa_2004] case addressed the standard for DMCA-misrepresentation liability.
 
@@ -393,7 +525,10 @@ with $\rho_{\text{chilling}}$ close to unity indicating considerable suppression
 
 Trademark-based takedown abuse operates through the assertion of unfounded or overbroad trademark claims to trigger platform enforcement against the target's use of trademark-adjacent content. The [Amazon Brand Registry][ref_amazon_brand_registry], the [YouTube Content ID trademark framework][ref_youtube_trademark_policy], and adjacent platform trademark-enforcement infrastructures have been documented as subject to false-claim abuse. The false-trademark-claim identification statistic operates on the claim's specificity, the claimant's actual trademark registration, and the claimed-use fair-use characterization,
 
-$$\Lambda_{\text{tm-false}} = \frac{p(\text{claim features} \mid \text{false})}{p(\text{claim features} \mid \text{valid})}$$
+$$
+\Lambda_{\text{tm-false}} = \frac{p(\text{claim features} \mid \text{false})}{p(\text{claim features} \mid \text{valid})}
+\tag{45}
+$$
 
 with the classification triggered when the likelihood ratio exceeds a chosen threshold. Contemporary platform-side estimates place false-trademark-claim rates in the range of ten to thirty percent of submitted claims. The [Rescuecom v Google 2009][ref_rescuecom_v_google_2009] case addressed keyword-based trademark issues at the search-engine advertising level. The [MTM v Amazon 2015][ref_mtm_v_amazon_2015] case addressed multi-jurisdiction trademark issues.
 
@@ -403,15 +538,24 @@ Coordinated abuse reporting operates through the simultaneous submission of abus
 
 The report-rate anomaly detection statistic operates on the standardized deviation of the report-arrival rate against a target,
 
-$$z_{\text{report}}(t) = \frac{R(t) - \bar{R}_{\text{baseline}}}{\sigma_{R,\text{baseline}}}$$
+$$
+z_{\text{report}}(t) = \frac{R(t) - \bar{R}_{\text{baseline}}}{\sigma_{R,\text{baseline}}}
+\tag{46}
+$$
 
 with anomalous report-arrivals triggering the moderation-abuse-detection review. The reporter-diversity statistic distinguishes coordinated reporting from natural high-volume reporting by the anomalous concentration of reporters in coordinating communities. The false-positive amplification factor for a coordinated abuse-reporting campaign follows
 
-$$A_{\text{FP}} = \frac{P(\text{action} \mid N_{\text{reports}})}{P(\text{action} \mid N_{\text{reports}} = 1)}$$
+$$
+A_{\text{FP}} = \frac{P(\text{action} \mid N_{\text{reports}})}{P(\text{action} \mid N_{\text{reports}} = 1)}
+\tag{47}
+$$
 
 with $N_{\text{reports}}$ the coordinated report count and $P(\text{action})$ the platform's automated-moderation probability of enforcement action. Platforms with report-count-linear enforcement policies exhibit high $A_{\text{FP}}$, and platforms with report-verification-independent enforcement policies exhibit $A_{\text{FP}}$ close to unity. The moderation-load-impact from coordinated abuse reporting takes the form the queue-length increase
 
-$$\Delta L_{\text{mod-queue}} = \int_0^{T_{\text{campaign}}} \lambda_{\text{coord-reports}}(t) \, dt - \mu_{\text{mod-throughput}} \cdot T_{\text{campaign}}$$
+$$
+\Delta L_{\text{mod-queue}} = \int_0^{T_{\text{campaign}}} \lambda_{\text{coord-reports}}(t) \, dt - \mu_{\text{mod-throughput}} \cdot T_{\text{campaign}}
+\tag{48}
+$$
 
 with $\lambda_{\text{coord-reports}}$ the coordinated-report-arrival rate and $\mu_{\text{mod-throughput}}$ the platform's moderation-processing throughput. Sustained coordinated-reporting operations produce moderation-queue backlog that degrades platform response time to legitimate abuse reports.
 
@@ -429,11 +573,17 @@ The Better Business Bureau (BBB) accreditation and rating system has been docume
 
 The complaint-escalation pattern from a coordinated farm produces the characteristic time-series signature of high initial complaint-arrival rate followed by rapid decay after the farm operation completes. The complaint-arrival-rate anomaly detection statistic mirrors the review-bombing burst detection,
 
-$$z_{\text{complaint-burst}}(t) = \frac{\lambda_{\text{complaints}}(t) - \bar{\lambda}}{\sigma_\lambda}$$
+$$
+z_{\text{complaint-burst}}(t) = \frac{\lambda_{\text{complaints}}(t) - \bar{\lambda}}{\sigma_\lambda}
+\tag{49}
+$$
 
 with the anomaly threshold typically set at $z_{\text{complaint-burst}} > 4$ against the target-business baseline. The resolution-rate anomaly emerges from the pattern of complaints that are withdrawn, that lack the specificity to permit resolution, or that originate from complainants who cannot be located for follow-up. The resolution-rate statistic follows
 
-$$\rho_{\text{resolve}}(\text{event}) = \frac{|\{c \in \text{event} : \text{resolved}\}|}{|\{c \in \text{event}\}|}$$
+$$
+\rho_{\text{resolve}}(\text{event}) = \frac{|\{c \in \text{event} : \text{resolved}\}|}{|\{c \in \text{event}\}|}
+\tag{50}
+$$
 
 with authentic-complaint events typically exhibiting $\rho_{\text{resolve}} > 0.5$ and coordinated-farm events exhibiting $\rho_{\text{resolve}} < 0.1$ due to the unresolvable-complaint pattern.
 
@@ -457,7 +607,10 @@ Adversarial content operations refer to the class of techniques that produce rep
 
 Negative-topic association operates through the deployment of content that associates the target with negative topics, events, or persons, with the intent of producing reputation damage through the guilt-by-association effect. The technique exploits the audience's tendency to weight association-based reputation signals even in the absence of substantive connection. The association-strength between target $T$ and negative-topic $N$ under repeated exposure is captured by the co-occurrence coefficient
 
-$$\alpha_{T,N}(t) = \frac{|\{c \in \text{corpus}_t : T \in c \wedge N \in c\}|}{\sqrt{|\{c : T \in c\}| \cdot |\{c : N \in c\}|}}$$
+$$
+\alpha_{T,N}(t) = \frac{|\{c \in \text{corpus}_t : T \in c \wedge N \in c\}|}{\sqrt{|\{c : T \in c\}| \cdot |\{c : N \in c\}|}}
+\tag{51}
+$$
 
 with $\alpha_{T,N}$ growing under sustained coordinated content deployment and producing the target-topic association effect in downstream audience perception. The [Fazio Barber Sherman Rand 2019][research_fazio_barber_sherman_rand_2019] Knowledge Does Not Protect Against Illusory Truth Effect treatment provides the cognitive-psychology-adjacent framework for the underlying persuasion mechanism.
 
@@ -465,7 +618,10 @@ with $\alpha_{T,N}$ growing under sustained coordinated content deployment and p
 
 Meme warfare operates through the coordinated production and amplification of negative memes about a target. The technique combines the adversarial-content-generation infrastructure with the amplification-network infrastructure and has been documented most extensively in political-manipulation contexts but produces spillover into commercial reputation contexts. The meme-cascade decay follows the exponential form
 
-$$V_{\text{meme}}(t) = V_0 \cdot e^{-\gamma_{\text{meme}} (t - t_{\text{peak}})}$$
+$$
+V_{\text{meme}}(t) = V_0 \cdot e^{-\gamma_{\text{meme}} (t - t_{\text{peak}})}
+\tag{52}
+$$
 
 with $V_{\text{meme}}(t)$ the meme visibility at time $t$, $V_0$ the peak visibility, and $\gamma_{\text{meme}}$ the meme-specific decay rate. Attack-oriented meme deployment typically produces short-half-life reputation damage that persists in the audience's association memory beyond the meme's visible decay. The [Marwick and Lewis 2017][research_marwick_lewis_2017] Media Manipulation and Disinformation Online treatment provides the reference analytical framework.
 
@@ -473,7 +629,10 @@ with $V_{\text{meme}}(t)$ the meme visibility at time $t$, $V_0$ the peak visibi
 
 Doxing refers to the disclosure of private-information about a target with the intent of enabling harassment or reputation damage. The technique intersects with privacy law and with anti-harassment law in most jurisdictions. Doxing-adjacent tactics include the publication of embarrassing but not-strictly-private information about a target (workplace, family, past incidents) with the intent of amplifying reputation damage. The doxing-damage function combines the direct reputation-damage from the disclosed information with the indirect damage from the harassment the disclosure enables,
 
-$$D_{\text{dox}}(T) = D_{\text{direct}}(T, \text{info}) + \int_0^{\infty} D_{\text{harassment}}(T, t) \, dt$$
+$$
+D_{\text{dox}}(T) = D_{\text{direct}}(T, \text{info}) + \int_0^{\infty} D_{\text{harassment}}(T, t) \, dt
+\tag{53}
+$$
 
 with the harassment-damage integral typically dominating the direct-damage term. The [Cyber Civil Rights Initiative][ref_cyber_civil_rights_initiative] provides one advocacy-and-support infrastructure resource. The [Massaro and Stryker 2013][research_massaro_stryker_2013] treatment provides the legal-scholarship framing. The [Citron 2014][book_citron_2014] Hate Crimes in Cyberspace treatment provides the comprehensive book-length treatment of the online-harassment-and-doxing legal landscape and proposed reforms.
 
@@ -487,13 +646,19 @@ Cross-platform coordinated negative campaigns represent the most operationally s
 
 The cross-platform amplification factor for a negative campaign follows
 
-$$A_{\text{cross-platform}} = \prod_{P \in \text{platforms}} (1 + \alpha_P)$$
+$$
+A_{\text{cross-platform}} = \prod_{P \in \text{platforms}} (1 + \alpha_P)
+\tag{54}
+$$
 
 with $\alpha_P$ the amplification gain on platform $P$. Cross-platform campaigns achieve amplification considerably above single-platform campaigns due to the multiplicative structure and the cross-platform-narrative-reinforcement effect that increases audience-side credibility.
 
 The detection difficulty for cross-platform campaigns exceeds single-platform detection due to the fragmentation of platform-integrity infrastructure across platforms. The [Graphika reports on coordinated inauthentic behavior][ref_graphika_reports] and the [Atlantic Council DFRLab investigations][ref_atlantic_council_dfrlab] provide the leading civil-society infrastructure for cross-platform coordinated-attack analysis. The [Bellingcat open-source investigation methodology][ref_bellingcat] provides the reference framework for cross-platform attribution investigation. The fragmentation-detection-difficulty admits characterization via the platform-coordination gap
 
-$$G_{\text{frag}} = 1 - \min_{P_i, P_j} I(P_i, P_j)$$
+$$
+G_{\text{frag}} = 1 - \min_{P_i, P_j} I(P_i, P_j)
+\tag{55}
+$$
 
 with $I(P_i, P_j)$ the information-sharing intensity between platform pair $(P_i, P_j)$. High $G_{\text{frag}}$ indicates marked detection blind spots exploitable by cross-platform coordinated operations. The [Global Internet Forum to Counter Terrorism (GIFCT)][ref_gifct] and the [Christchurch Call][ref_christchurch_call] represent emerging cross-platform coordination infrastructure primarily oriented at extremism response but with generalizable methodology.
 
@@ -503,13 +668,19 @@ The competitor-attack technique inventory permits systematic characterization al
 
 The signal axis characterization for competitor-attack techniques emphasizes the negative-direction signal injection distinguishing the class from self-promotion. Individual negative fabrication produces low-volume single-channel negative-direction signal. Coordinated review bombing produces high-volume single-channel negative-direction burst signal. Brigading and dogpiling produce high-volume single-channel negative-direction engagement signal with cross-community-origin structure. Negative SEO produces low-volume multi-channel indirect signal (via ranking-algorithm inputs). Defamation campaigns produce moderate-volume multi-channel narrative-content signal. Sybil downvoting produces high-volume single-channel negative-direction signal. Reporting-system weaponization produces moderate-volume single-channel report signal. Complaint farms produce moderate-volume single-channel complaint-content signal. The signal-axis characterization is summarized by the tuple
 
-$$\mathbf{a}_k^{\text{signal}} = (v_k, C_k, f_k, X_k, \text{sign}_k)$$
+$$
+\mathbf{a}_k^{\text{signal}} = (v_k, C_k, f_k, X_k, \text{sign}_k)
+\tag{56}
+$$
 
 with the additional sign-attribute $\text{sign}\_k = -1$ for competitor-attack techniques distinguishing them from the $\text{sign}\_k = +1$ self-promotion class.
 
 The objective axis characterization for competitor-attack techniques uniformly optimizes for target-reputation degradation, with variation in the target-attribute optimization. Review-signal-attack techniques target the target's aggregate rating. Brigading and dogpiling target the target's engagement-metric or community-standing. Negative SEO targets the target's search-ranking position. Defamation campaigns target the target's factual-attribute perception. Sybil downvoting targets the target's community-visible ranking. Reporting-system weaponization targets the target's platform-standing through triggered enforcement. Complaint farms target the target's regulatory or ratings-agency standing. The objective-axis position of each competitor-attack technique class reduces to the negative-utility functional
 
-$$U_k^{\text{attack}}(\mathbf{x}) = -\sum_{j \in \text{target attributes}} \lambda_j^{k} g_j(x_T) + \gamma_{\text{self}}(x_A)$$
+$$
+U_k^{\text{attack}}(\mathbf{x}) = -\sum_{j \in \text{target attributes}} \lambda_j^{k} g_j(x_T) + \gamma_{\text{self}}(x_A)
+\tag{57}
+$$
 
 with the $\lambda_j^{k}$ weights specifying the technique class's target-attribute optimization composition.
 
@@ -519,7 +690,10 @@ The model axis characterization identifies the technical and rhetorical content 
 
 The interaction axis characterization for competitor-attack techniques introduces the direct target-attacker relationship that self-promotion techniques generally lack. The target-attacker relationship dimensions include target-aware attacks (where the target may take defensive action), target-unaware attacks (where the target lacks awareness), attacker-hidden attacks (where the attacker maintains identity concealment), and attacker-attributed attacks (where the attacker's identity is known or knowable). The interaction axis also includes the platform-relationship dimensions (compliant use, terms-of-service violation, active concealment, adversarial evasion), the competitor relationship (the target and possibly other competitors), the audience relationship (audience-unaware attack, audience-aware attack, audience-complicit attack), and the enforcement-relationship dimensions (including specifically the legal-recourse dimensions absent from self-promotion). The interaction axis supports operationalization as the weighted signed graph over attackers, targets, platforms, and enforcers, with the additional attacker-target edge admitting characterization as
 
-$$w_{A \to T}(t) = -\text{sign}(A \to T) \cdot \|d_{\text{attack}}(t)\|$$
+$$
+w_{A \to T}(t) = -\text{sign}(A \to T) \cdot \|d_{\text{attack}}(t)\|
+\tag{58}
+$$
 
 with the negative sign encoding the antagonistic direction and $\\lvert d_{\text{attack}}(t)\ \rvert$ the magnitude of the intended damage.
 
@@ -527,11 +701,17 @@ The adaptation axis characterization varies as for self-promotion. Individual co
 
 The competitor-attack cross-axis coupling matrix
 
-$$C^{\text{attack}} = \left[\frac{\partial a^b}{\partial a^a}\right]_{a, b \in \text{axes}}$$
+$$
+C^{\text{attack}} = \left[\frac{\partial a^b}{\partial a^a}\right]_{a, b \in \text{axes}}
+\tag{59}
+$$
 
 encodes the empirical dependencies among axis values that differ systematically from the self-promotion coupling matrix. The principal differences include stronger interaction-model coupling (target-relationship structure shapes the model choice) and stronger interaction-adaptation coupling (target-response drives faster adaptation than platform-response alone). The self-promotion versus competitor-attack coupling-matrix difference norm can be characterized as
 
-$$\|C^{\text{attack}} - C^{\text{self-promo}}\|_F = \sqrt{\sum_{a,b} (C^{\text{attack}}_{ab} - C^{\text{self-promo}}_{ab})^2}$$
+$$
+\|C^{\text{attack}} - C^{\text{self-promo}}\|_F = \sqrt{\sum_{a,b} (C^{\text{attack}}_{ab} - C^{\text{self-promo}}_{ab})^2}
+\tag{60}
+$$
 
 with the Frobenius norm reflecting the aggregate coupling-structure difference between the two technique classes.
 
@@ -541,13 +721,19 @@ The detection methodology landscape for competitor-attack manipulation is treate
 
 Multi-modal detection combines the review-content, account-behavior, network-graph, and cross-platform signals to identify competitor-attack manipulation. The multi-modal approach exhibits higher accuracy than single-modal approaches at the cost of higher computational and infrastructure requirements. The composite detection score under weighted feature-modality combination takes the form
 
-$$s_{\text{multi-modal}} = \sum_m w_m \cdot s_m$$
+$$
+s_{\text{multi-modal}} = \sum_m w_m \cdot s_m
+\tag{61}
+$$
 
 with $s_m$ the modality-specific detection score and $w_m$ the modality weight optimized on labeled training data. The multi-modal accuracy bound under conditional independence assumption reduces to the ensemble-classification bound treated in the preceding article. The [Cresci 2020][research_cresci_2020] survey establishes the reference multi-modal framework.
 
 Target-aware detection operates from the target's perspective and monitors for the signatures of attack targeting the target's own reputation. The target-aware approach admits detection of attack signals that platform-side monitoring may miss due to the platform's aggregated-across-targets perspective. The target-aware detection ROC exhibits systematic asymmetry with the platform-aware ROC in that the target has both stronger prior information about baseline authentic-signal distribution and stronger incentive to invest in detection given the concentrated stake in the target's own reputation,
 
-$$\text{AUC}_{\text{target}} > \text{AUC}_{\text{platform}} \text{ typically}$$
+$$
+\text{AUC}_{\text{target}} > \text{AUC}_{\text{platform}} \text{ typically}
+\tag{62}
+$$
 
 but faces the constraint that the target lacks the platform's cross-user infrastructure for account-level detection. Commercial reputation-management services including [Reputation.com][ref_reputation_com], [NetReputation][ref_netreputation_com], and adjacent services provide the target-aware monitoring infrastructure.
 
@@ -555,7 +741,10 @@ Cross-platform detection collaboration operates through the same infrastructure 
 
 The general anomaly-score statistic under the null-model $H_0$ takes the standardized form
 
-$$z_{\text{attack}} = \frac{T^{\text{attack}}(\mathbf{x}) - E_{H_0}[T^{\text{attack}}]}{\sqrt{\text{Var}_{H_0}[T^{\text{attack}}]}}$$
+$$
+z_{\text{attack}} = \frac{T^{\text{attack}}(\mathbf{x}) - E_{H_0}[T^{\text{attack}}]}{\sqrt{\text{Var}_{H_0}[T^{\text{attack}}]}}
+\tag{63}
+$$
 
 with $T^{\text{attack}}$ the attack-oriented test statistic evaluated on the observed data.
 
@@ -565,7 +754,10 @@ Platform countermeasures for competitor-attack manipulation are treated in depth
 
 Review-verification countermeasures constrain the review-eligible actor population and reduce the review-signal-attack space. The countermeasures include verified-purchase requirements, transaction-tied review capability, and post-transaction review windows. Platform-integrity policies including the [YouTube Community Guidelines strikes system][ref_youtube_community_guidelines_strikes], the [Meta Community Standards general framework][ref_meta_community_standards], the [Reddit Content Policy][ref_reddit_content_policy], the [TikTok Community Guidelines general framework][ref_tiktok_community_guidelines_general], and the [X Terms of Service][ref_x_terms_of_service] establish the platform-side policy framework for attack-content moderation. The [Meta CIB Report Archive][ref_meta_cib_report_archive] provides the standing disclosure of the platform's quarterly enforcement actions against coordinated attack operations. The verified-purchase requirement reduces the attack-eligible population by the factor
 
-$$\rho_{\text{verify}} = \frac{|\{r : \text{verified-purchase}\}|}{|\{r : \text{all reviews}\}|}$$
+$$
+\rho_{\text{verify}} = \frac{|\{r : \text{verified-purchase}\}|}{|\{r : \text{all reviews}\}|}
+\tag{64}
+$$
 
 which shifts the manipulation cost function by requiring the attacker to complete transactions to gain review eligibility.
 
@@ -573,11 +765,17 @@ Report-verification countermeasures constrain the reporting-system-abuse space t
 
 Rate-limiting countermeasures constrain the volume-based attack techniques through per-account throughput bounds
 
-$$\lambda_i^{\text{observed}} \leq \lambda_{\text{max}}, \quad \forall i$$
+$$
+\lambda_i^{\text{observed}} \leq \lambda_{\text{max}}, \quad \forall i
+\tag{65}
+$$
 
 that increase the account-provenance cost per unit attack output. The cross-target rate-limiting extension applies additional bounds against the same target from many attacker accounts,
 
-$$\sum_{i \in \text{attackers}} \lambda_{i \to T} \leq \Lambda_T^{\text{max}}$$
+$$
+\sum_{i \in \text{attackers}} \lambda_{i \to T} \leq \Lambda_T^{\text{max}}
+\tag{66}
+$$
 
 with $\Lambda_T^{\text{max}}$ a target-level aggregate throughput ceiling that constrains the coordinated-attack scale even when individual attacker accounts remain under the per-account bound.
 
@@ -589,17 +787,26 @@ The legal recourse landscape for competitor-attack manipulation is more develope
 
 Defamation actions provide the primary US-law recourse against false-content-attack. The account operates under the [New York Times v 1964][ref_ny_times_sullivan_1964] and [Gertz v. Robert Welch 1974][ref_gertz_v_welch_1974] framework with the elements characterization above. The defamation-action success-rate estimate under empirical study varies by jurisdiction and case type, with the composite rate admitting characterization as
 
-$$s_{\text{def-action}} = \Pr(\text{plaintiff prevails} \mid \text{action filed})$$
+$$
+s_{\text{def-action}} = \Pr(\text{plaintiff prevails} \mid \text{action filed})
+\tag{67}
+$$
 
 with empirical estimates from the [Digital Media Law Project][ref_dmlp_database] and adjacent case-database analysis suggesting $s_{\text{def-action}} \in [0.20, 0.40]$ depending on the target-classification (public-figure defamation cases exhibit lower success rates than private-figure cases). The cost-of-litigation function for a defamation action has the form
 
-$$C_{\text{def-litigation}}(T) = C_{\text{filing}} + C_{\text{discovery}} \cdot T + C_{\text{trial}} \cdot \mathbb{1}[\text{trial}]$$
+$$
+C_{\text{def-litigation}}(T) = C_{\text{filing}} + C_{\text{discovery}} \cdot T + C_{\text{trial}} \cdot \mathbb{1}[\text{trial}]
+\tag{68}
+$$
 
 with $T$ the litigation duration in months. Contemporary US defamation litigation costs are typically in the range of $10^5$ to $10^6$ USD for a case that proceeds to trial, which limits the recourse to plaintiffs with extensive financial resources or contingency-fee representation. The [SPEECH Act 2010][ref_speech_act_2010] provides US-jurisdiction protection against enforcement of foreign defamation judgments inconsistent with US First Amendment standards.
 
 Lanham Act false-advertising actions provide recourse against competitor-attack that constitutes false or misleading representations in commercial advertising or promotion. The [15 USC 1125 Lanham Act Section 43a][ref_lanham_act_15_usc_1125] framework applies broadly to commercial-context attacks. The Lanham Act §43(a) actionability requires five elements admitting compact characterization as
 
-$$A_{\text{lanham}} = \mathbb{1}[\text{false statement}] \cdot \mathbb{1}[\text{actual deception}] \cdot \mathbb{1}[\text{materiality}] \cdot \mathbb{1}[\text{interstate commerce}] \cdot \mathbb{1}[\text{likelihood of injury}]$$
+$$
+A_{\text{lanham}} = \mathbb{1}[\text{false statement}] \cdot \mathbb{1}[\text{actual deception}] \cdot \mathbb{1}[\text{materiality}] \cdot \mathbb{1}[\text{interstate commerce}] \cdot \mathbb{1}[\text{likelihood of injury}]
+\tag{69}
+$$
 
 with all five elements required for a successful action.
 
@@ -609,7 +816,10 @@ Federal criminal recourse against competitor-attack technique classes includes t
 
 Intermediary-liability constraints operate under [47 USC 230][ref_section_230_cda] which limits platform-side recourse but does not limit direct-actor recourse. The Section-230-immunity boundary condition for a given content instance is described by
 
-$$I_{\text{§230}}(c) = \mathbb{1}[\text{platform did not materially contribute to content}] \cdot \mathbb{1}[\text{good-faith moderation}]$$
+$$
+I_{\text{§230}}(c) = \mathbb{1}[\text{platform did not materially contribute to content}] \cdot \mathbb{1}[\text{good-faith moderation}]
+\tag{70}
+$$
 
 with the platform receiving immunity when both conditions hold. The [Fair Housing Council v 2008][ref_roommates_2008] exception and the [Batzel v Smith 2003][ref_batzel_v_smith_2003] framework establish limits on Section 230 immunity applicable to platform-created or platform-solicited attack content.
 
@@ -633,11 +843,17 @@ Reporting-system-abuse prevalence is documented most extensively in the DMCA con
 
 The composite category-weighted prevalence estimator has the same formal characterization as for self-promotion,
 
-$$\hat{p}^{\text{attack}} = \sum_c w_c \hat{p}_c^{\text{attack}}, \quad w_c = \frac{n_c}{\sum_{c'} n_{c'}}$$
+$$
+\hat{p}^{\text{attack}} = \sum_c w_c \hat{p}_c^{\text{attack}}, \quad w_c = \frac{n_c}{\sum_{c'} n_{c'}}
+\tag{71}
+$$
 
 with the composite aggregate under conservative methodology estimated in the range of one to five percent of total reputation-signal volume across the surveyed platform ecosystem, with considerable category variation. The variance decomposition under stratified sampling takes the form
 
-$$\text{Var}(\hat{p}^{\text{attack}}) = \sum_c w_c^2 \, \text{Var}(\hat{p}_c^{\text{attack}}) + \sum_{c \neq c'} w_c w_{c'} \, \text{Cov}(\hat{p}_c^{\text{attack}}, \hat{p}_{c'}^{\text{attack}})$$
+$$
+\text{Var}(\hat{p}^{\text{attack}}) = \sum_c w_c^2 \, \text{Var}(\hat{p}_c^{\text{attack}}) + \sum_{c \neq c'} w_c w_{c'} \, \text{Cov}(\hat{p}_c^{\text{attack}}, \hat{p}_{c'}^{\text{attack}})
+\tag{72}
+$$
 
 with the cross-category covariance term typically small under approximately-independent category-sampling. The estimate is markedly lower than the self-promotion aggregate reflecting the lower base-rate prevalence of competitor-attack techniques in most consumer-facing contexts.
 
@@ -678,6 +894,646 @@ The article adopts the terminology introduced in the framing article of the mini
 - What is the correct empirical characterization of the reporting-system-abuse prevalence across major platforms, and what is the marginal effect of report-verification investment on attack prevalence and on legitimate-abuse-report response quality?
 
 These questions recur throughout the miniseries and are revisited in the closing synthesis.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 72 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 72, 26 are established and 46 are bespoke.
+Rates are per unit time on the platform in question, damages and costs are in United States dollars, the indicator equations take the value zero or one, and several letters are reused, with $\alpha$ a self-excitation gain, a phase rate, a co-occurrence coefficient and a platform amplification gain, $\gamma$ a decay or recovery rate and also a residual self-effect, and $T$ a target, a litigation duration in months and a test statistic.
+
+*Equation 1, Bespoke Six-Axis Technique Vector.*
+The article characterises each competitor-attack technique by its positions on the six analytical axes of the framing article.
+
+$$
+\mathbf{a}_k = (a_k^{\text{signal}}, a_k^{\text{obj}}, a_k^{\text{struct}}, a_k^{\text{model}}, a_k^{\text{interact}}, a_k^{\text{adapt}})
+\tag{1}
+$$
+
+*Equation 2, Bespoke Weighted Technique Distance.*
+The article defines the distance between attack techniques as a weighted sum of axis-specific distances, as in the self-promotion case.
+
+$$
+d(t_j, t_k) = \sum_{c \in \text{axes}} w_c \, \delta_c(a_j^c, a_k^c)
+\tag{2}
+$$
+
+*Equation 3, Bespoke Attack Utility.*
+The article writes the attacker's objective as negatively weighted goal functions of the target's state plus any residual effect on the attacker's own state.
+
+$$
+U^{\text{attack}}(\mathbf{x}) = -\lambda^{\text{rating}}_T g_{\text{rating}}(x_T) - \lambda^{\text{rank}}_T g_{\text{rank}}(x_T) - \lambda^{\text{engage}}_T g_{\text{engage}}(x_T) + \gamma_{\text{self}}(x_A)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Competitive Differential.*
+The article measures the attacker's benefit as the change in the reputation gap between attacker and target since the pre-attack baseline.
+
+$$
+\Delta_{\text{competitive}}(t) = R_A(t) - R_T(t) - [R_A(0) - R_T(0)]
+\tag{4}
+$$
+
+**Equation 5, Aggregate Competitor-Attack Volume.**
+The aggregate volume is the sum over techniques and categories of signal-event volume times the prevalence rate.
+
+$$
+V_{\text{attack}}(t) = \sum_{k \in \mathcal{T}^{\text{attack}}} \sum_{c \in \text{categories}} n_{k,c}(t) \cdot p_{k,c}(t)
+\tag{5}
+$$
+
+*Equation 6, Bespoke Negative Rating-Shift Model.*
+The article writes the observed rating change as the authentic change less the dilution of the pre-injection mean by fake negative reviews at their share of all reviews.
+
+$$
+\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} - n_i^{\text{fake-neg}} \cdot (\bar{r}_{\text{pre}} - \bar{r}_{\text{fake-neg}}) / (N_i + n_i^{\text{fake-neg}})
+\tag{6}
+$$
+
+*Equation 7, Bespoke Reviewer Negative Concentration.*
+The article defines the fraction of a reviewer's reviews rated two stars or below as an attack signature.
+
+$$
+C_{\text{reviewer}}^{\text{neg}} = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Reviewer-Target Concentration.*
+The article defines the fraction of a reviewer's reviews that are low-rated reviews of one target as the target-specific attack signature.
+
+$$
+C_{\text{reviewer}}^{\text{target}}(R, T) = \frac{|\{r : \text{reviewer}(r) = R \wedge \text{target}(r) = T \wedge \text{rating}(r) \leq 2\}|}{|\{r : \text{reviewer}(r) = R\}|}
+\tag{8}
+$$
+
+**Equation 9, Hawkes Process for Review-Bombing Arrivals.**
+The arrival intensity is a baseline rate plus an exponentially decaying contribution from each earlier arrival, with a self-excitation gain that rises during a bombing event.
+
+$$
+\lambda^{\text{bomb}}(t) = \mu + \alpha^{\text{bomb}} \sum_{t_i < t} e^{-\beta(t - t_i)}
+\tag{9}
+$$
+
+**Equation 10, Hartigan Dip Statistic.**
+The dip is the largest absolute difference between the empirical rating distribution and the closest unimodal distribution.
+[Hartigan and Hartigan 1985][research_hartigan_hartigan_1985]
+
+$$
+D_{\text{dip}}(F) = \sup_x |F(x) - U(x)|
+\tag{10}
+$$
+
+*Equation 11, Bespoke External-Coordination Fraction.*
+The article defines the fraction of reviews in a bombing event whose authors are active on an external coordinating platform.
+
+$$
+\rho_{\text{external-coord}} = \frac{|\{r : \text{reviewer}(r) \text{ active on coord platform}\}|}{|\{r \in \text{bombing event}\}|}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Timestamp Alignment Tightness.*
+The article defines tightness as the fraction of ordered pairs of event reviews whose timestamps fall within a coordination window.
+
+$$
+T_{\text{align}}(\text{event}) = \frac{1}{|\text{event}|(|\text{event}|-1)} \sum_{i \neq j} \mathbb{1}[|t_i - t_j| < \Delta t_{\text{coord}}]
+\tag{12}
+$$
+
+**Equation 13, Mean Pairwise Content Similarity.**
+The statistic is the mean of the text similarity over all unordered pairs of reviews in the event.
+
+$$
+\bar{S}_{\text{content}}(\text{event}) = \frac{2}{n(n-1)} \sum_{i<j} \text{sim}(r_i, r_j)
+\tag{13}
+$$
+
+*Equation 14, Bespoke Net Vote Shift.*
+The article writes the net vote change on a review as the authentic change plus coordinated upvotes less coordinated downvotes.
+
+$$
+\Delta v_r^{\text{net}} = \Delta v_r^{\text{authentic}} + n_r^{\text{coord-up}} - n_r^{\text{coord-down}}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Review-Ordering Position Shift.*
+The article approximates the position shift as a sensitivity coefficient times the net vote change divided by the square root of the total vote count.
+
+$$
+\Delta \text{pos}(r) = -\eta \cdot \Delta v_r^{\text{net}} / \sqrt{v_r^{\text{total}}}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Attack-Prompt Mixture Distribution.*
+The article represents the space of attack prompts as a weighted mixture of template-specific distributions.
+
+$$
+\pi_{\text{attack-prompt}}(x) = \sum_k w_k \, p_k(x)
+\tag{16}
+$$
+
+*Equation 17, Bespoke Linear Cost of Generated Attacks.*
+The article approximates the cost of generated negative reviews as a per-review interface cost times volume plus a fixed prompt-engineering cost.
+
+$$
+c_{\text{LLM-attack}}(m) \approx c_{\text{API}} \cdot m + c_{\text{prompt-eng}}
+\tag{17}
+$$
+
+**Equation 18, Detection Accuracy Approaching Chance.**
+As the quality of generated text approaches that of human text, the area under the curve of any detector approaches one half, the result the article attributes to Sadasivan and colleagues.
+[Sadasivan et al. 2023][research_sadasivan_et_al_2023]
+
+$$
+\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Brigading Source Fraction.*
+The article defines the fraction of participants in a target-community event with prior activity in the source community.
+
+$$
+\rho_{\text{brigade}}^{S \to T}(e) = \frac{|\{p \in e : \text{prior activity in } S\}|}{|\{p \in e\}|}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Source-Community Mobilisation Ratio.*
+The article defines the fraction of active users of the source community who are active on the target at a given time.
+
+$$
+m_S(t) = \frac{|\text{S-participants active on target at } t|}{|\text{S-active-users at } t|}
+\tag{20}
+$$
+
+**Equation 21, Jaccard Similarity of Participant Sets.**
+The overlap of the source and target communities is the size of the intersection of their participant sets in a window divided by the size of the union.
+
+$$
+J(S, T, w) = \frac{|P_S(w) \cap P_T(w)|}{|P_S(w) \cup P_T(w)|}
+\tag{21}
+$$
+
+**Equation 22, Response Arrival Rate.**
+The pile-on rate is the time derivative of the cumulative count of responses directed at the target.
+
+$$
+\lambda_{\text{pile-on}}(t) = \frac{d N_{\text{response}}(t)}{dt}
+\tag{22}
+$$
+
+**Equation 23, Shannon Entropy of Participant Origins.**
+The diversity of a pile-on is the Shannon entropy of the fractions of participants from each source community.
+
+$$
+H_{\text{part-diversity}}(\text{event}) = -\sum_{C \in \text{communities}} p_C \log p_C
+\tag{23}
+$$
+
+*Equation 24, Bespoke PageRank Damage From Toxic Backlinks.*
+The article approximates the damage as the negative of each toxic linking page's damped PageRank contribution scaled by a platform penalty multiplier.
+
+$$
+\Delta \text{PR}(p) \approx -\sum_{q \in B_p^{\text{toxic}}} d \cdot \text{penalty}(q) \cdot \text{PR}(q) / L(q)
+\tag{24}
+$$
+
+*Equation 25, Bespoke Composite Toxicity Score.*
+The article scores a linking domain as a weighted sum of spam score, malware flag, penalty history and link-farm participation.
+
+$$
+T(q) = w_1 \cdot \text{SpamScore}(q) + w_2 \cdot \text{MalwareFlag}(q) + w_3 \cdot \text{PenaltyHistory}(q) + w_4 \cdot \text{LinkFarmParticipation}(q)
+\tag{25}
+$$
+
+*Equation 26, Bespoke Disavow Effectiveness.*
+The article defines effectiveness as the fraction of disavowed links that the search engine subsequently ignores.
+
+$$
+e_{\text{disavow}} = \frac{|\{q \in \text{disavowed} : \text{ignored in PR}\}|}{|\text{disavowed}|}
+\tag{26}
+$$
+
+**Equation 27, Cosine Similarity of Document Embeddings.**
+The similarity of two documents is the inner product of their embedding vectors divided by the product of the vector norms.
+
+$$
+\text{sim}(d_1, d_2) = \frac{\mathbf{v}_1 \cdot \mathbf{v}_2}{\|\mathbf{v}_1\| \|\mathbf{v}_2\|}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Originality Indicator.*
+The article marks a document as original when its first-publication time is the earliest among all documents similar to it above a threshold.
+
+$$
+\text{orig}(d) = \mathbb{1}[t_d = \min_{d' : \text{sim}(d, d') > \tau} t_{d'}]
+\tag{28}
+$$
+
+**Equation 29, Elements of Defamation as a Product of Indicators.**
+A statement is actionable only when it is published, identifies the target, asserts a false fact and causes damages, so the article writes actionability as the product of the element indicators.
+
+$$
+A(s) = \mathbb{1}[\text{published}] \cdot \mathbb{1}[\text{identifies target}] \cdot \mathbb{1}[\text{false fact}] \cdot \mathbb{1}[\text{damages}]
+\tag{29}
+$$
+
+**Equation 30, Total Defamation Damages.**
+Total damages are the sum of special, general, presumed and punitive damages.
+
+$$
+D_{\text{total}} = D_{\text{special}} + D_{\text{general}} + D_{\text{presumed}} + D_{\text{punitive}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Unmasking Likelihood.*
+The article writes the probability that an unmasking order is granted as an unspecified function of the prima facie showing, jurisdiction, platform and content type.
+
+$$
+\Pr(\text{unmask granted} \mid \text{motion}) = f(\text{prima facie showing}, \text{jurisdiction}, \text{platform}, \text{content type})
+\tag{31}
+$$
+
+*Equation 32, Bespoke Unmasking Cost.*
+The article assembles the cost of unmasking as the sum of legal, subpoena, platform and delay costs in a given jurisdiction.
+
+$$
+C_{\text{unmask}}(J) = C_{\text{legal}}(J) + C_{\text{subpoena}}(J) + C_{\text{platform}}(J) + C_{\text{delay}}(J)
+\tag{32}
+$$
+
+*Equation 33, Bespoke Network Damage Aggregation.*
+The article sums over content instances the damage each does to the target times its visibility times its persistence.
+
+$$
+D_{\text{net}}(T) = \sum_{i \in \text{content}} d_i(T) \cdot v_i \cdot p_i
+\tag{33}
+$$
+
+*Equation 34, Bespoke Piecewise Campaign Timeline.*
+The article models campaign damage as linear build-up to a peak, slow linear sustain and exponential decay after a decay time.
+
+$$
+D_{\text{net}}(t) = \begin{cases} \alpha_1 t & 0 \leq t < t_{\text{peak}} \\ D_{\text{peak}} + \alpha_2 (t - t_{\text{peak}}) & t_{\text{peak}} \leq t < t_{\text{decay}} \\ D_{\text{peak}} \cdot e^{-\gamma (t - t_{\text{decay}})} & t \geq t_{\text{decay}} \end{cases}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Displaced Result Count.*
+The article counts the legitimate results in the top $K$ that are absent from the observed top $K$.
+
+$$
+N_{\text{displaced}} = |\{r \in \text{top-K}_{\text{legitimate}} : r \notin \text{top-K}_{\text{observed}}\}|
+\tag{35}
+$$
+
+*Equation 36, Bespoke Displacement Damage Integral.*
+The article integrates the counterfactual visibility of legitimate content over the results and times at which it is not visible.
+
+$$
+D_{\text{displace}}(T) = \int_0^{\infty} v_{\text{legit}}(r, t) \cdot \bigl(1 - \mathbb{1}[r \text{ visible at } t]\bigr) \, dr \, dt
+\tag{36}
+$$
+
+*Equation 37, Bespoke Exponential Recovery After Removal.*
+The article assumes that reputation recovers toward its earlier level as one minus a decaying exponential at a constant recovery rate.
+
+$$
+R^{\text{recovered}}(t) = R_0 \cdot (1 - e^{-\gamma_{\text{recover}} t})
+\tag{37}
+$$
+
+*Equation 38, Bespoke Vote-Manipulation Rank Impact.*
+The article writes the rank change as an unspecified function of the net vote change, the amount of competing content and the ranking algorithm.
+
+$$
+\Delta \text{rank}(T) = f(\Delta v_T^{\text{net}}, N_{\text{competition}}, \text{ranking algo})
+\tag{38}
+$$
+
+*Equation 39, Bespoke Log-Shifted Ranking Score Impact.*
+The article approximates the score change under a hot-ranking algorithm as the signed base-ten logarithm of one plus the net vote change, divided by a time-decay divisor.
+
+$$
+\Delta s = \text{sign}(\Delta v^{\text{net}}) \cdot \log_{10}(1 + |\Delta v^{\text{net}}|) / T_{\text{decay}}
+\tag{39}
+$$
+
+**Equation 40, Kullback-Leibler Divergence Threshold Test.**
+A rating event is flagged when the Kullback-Leibler divergence of the observed rating distribution from the target's authentic baseline exceeds a detection threshold.
+
+$$
+D_{\text{KL}}(\hat{F}_{\text{observed}} \| F_{\text{authentic-baseline}}) > \tau_{\text{anomaly}}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Sybil Participation-Vote Ratio.*
+The article defines the ratio of Sybil votes to authentic votes on a target.
+
+$$
+\rho_{\text{part-vote}}^{\text{Sybil}} = \frac{N_{\text{Sybil votes on target}}}{N_{\text{authentic votes on target}}}
+\tag{41}
+$$
+
+**Equation 42, Fraction of False Takedown Notices.**
+The fraction is the share of notices under the Digital Millennium Copyright Act that lack a valid claim, a quantity Urban, Karaganis and Schofield measure.
+[Urban et al. 2016][research_urban_karaganis_schofield_2016]
+
+$$
+p_{\text{false-DMCA}} = \frac{|\{n \in \text{DMCA notices} : n \text{ lacks valid claim}\}|}{|\{n \in \text{DMCA notices}\}|}
+\tag{42}
+$$
+
+**Equation 43, Counter-Notice Rate.**
+The counter-notice rate is the number of counter-notices filed divided by the number of takedown notices received.
+[Urban et al. 2016][research_urban_karaganis_schofield_2016]
+
+$$
+\rho_{\text{counter}} = \frac{|\text{counter-notices filed}|}{|\text{takedown-notices received}|}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Chilling-Effect Index.*
+The article defines the chilling effect as one less the fraction of removed content that is restored by counter-notice.
+
+$$
+\rho_{\text{chilling}} = 1 - \frac{|\text{content restored via counter-notice}|}{|\text{content removed via notice}|}
+\tag{44}
+$$
+
+**Equation 45, Likelihood Ratio for a False Trademark Claim.**
+The statistic is the likelihood of the claim features under a false claim divided by their likelihood under a valid claim.
+
+$$
+\Lambda_{\text{tm-false}} = \frac{p(\text{claim features} \mid \text{false})}{p(\text{claim features} \mid \text{valid})}
+\tag{45}
+$$
+
+**Equation 46, Standardised Report-Rate Deviation.**
+The statistic is the report-arrival rate less its baseline mean, divided by its baseline standard deviation.
+
+$$
+z_{\text{report}}(t) = \frac{R(t) - \bar{R}_{\text{baseline}}}{\sigma_{R,\text{baseline}}}
+\tag{46}
+$$
+
+*Equation 47, Bespoke False-Positive Amplification Factor.*
+The article defines amplification as the probability of enforcement action after a given number of reports relative to that after a single report.
+
+$$
+A_{\text{FP}} = \frac{P(\text{action} \mid N_{\text{reports}})}{P(\text{action} \mid N_{\text{reports}} = 1)}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Moderation Queue Backlog.*
+The article approximates the backlog as the integrated coordinated report arrivals less a constant moderation throughput over the campaign.
+
+$$
+\Delta L_{\text{mod-queue}} = \int_0^{T_{\text{campaign}}} \lambda_{\text{coord-reports}}(t) \, dt - \mu_{\text{mod-throughput}} \cdot T_{\text{campaign}}
+\tag{48}
+$$
+
+**Equation 49, Standardised Complaint-Burst Deviation.**
+The statistic is the complaint-arrival rate less its baseline mean, divided by its baseline standard deviation.
+
+$$
+z_{\text{complaint-burst}}(t) = \frac{\lambda_{\text{complaints}}(t) - \bar{\lambda}}{\sigma_\lambda}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Complaint Resolution Rate.*
+The article defines the fraction of complaints in an event that are resolved as a signature of complaint farms.
+
+$$
+\rho_{\text{resolve}}(\text{event}) = \frac{|\{c \in \text{event} : \text{resolved}\}|}{|\{c \in \text{event}\}|}
+\tag{50}
+$$
+
+**Equation 51, Ochiai Co-Occurrence Coefficient.**
+The association between target and topic is the count of documents containing both divided by the geometric mean of the counts containing each.
+
+$$
+\alpha_{T,N}(t) = \frac{|\{c \in \text{corpus}_t : T \in c \wedge N \in c\}|}{\sqrt{|\{c : T \in c\}| \cdot |\{c : N \in c\}|}}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Exponential Meme Decay.*
+The article assumes that meme visibility decays exponentially from its peak at a constant meme-specific rate.
+
+$$
+V_{\text{meme}}(t) = V_0 \cdot e^{-\gamma_{\text{meme}} (t - t_{\text{peak}})}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Doxing Damage.*
+The article assembles doxing damage as the direct damage from disclosure plus the time integral of the harassment it enables.
+
+$$
+D_{\text{dox}}(T) = D_{\text{direct}}(T, \text{info}) + \int_0^{\infty} D_{\text{harassment}}(T, t) \, dt
+\tag{53}
+$$
+
+*Equation 54, Bespoke Multiplicative Cross-Platform Amplification.*
+The article assumes that amplification gains on separate platforms combine multiplicatively.
+
+$$
+A_{\text{cross-platform}} = \prod_{P \in \text{platforms}} (1 + \alpha_P)
+\tag{54}
+$$
+
+*Equation 55, Bespoke Fragmentation Gap.*
+The article defines the gap as one less the smallest information-sharing intensity between any pair of platforms.
+
+$$
+G_{\text{frag}} = 1 - \min_{P_i, P_j} I(P_i, P_j)
+\tag{55}
+$$
+
+*Equation 56, Bespoke Signed Signal-Axis Tuple.*
+The article extends the signal-axis tuple with a sign attribute that is negative for competitor-attack techniques.
+
+$$
+\mathbf{a}_k^{\text{signal}} = (v_k, C_k, f_k, X_k, \text{sign}_k)
+\tag{56}
+$$
+
+*Equation 57, Bespoke Attack Objective-Axis Utility.*
+The article writes the objective of each attack class as negatively weighted goal functions of target attributes plus a residual self-effect.
+
+$$
+U_k^{\text{attack}}(\mathbf{x}) = -\sum_{j \in \text{target attributes}} \lambda_j^{k} g_j(x_T) + \gamma_{\text{self}}(x_A)
+\tag{57}
+$$
+
+*Equation 58, Bespoke Attacker-Target Edge Weight.*
+The article assigns the attacker-target edge a negative weight whose magnitude is that of the intended damage.
+
+$$
+w_{A \to T}(t) = -\text{sign}(A \to T) \cdot \|d_{\text{attack}}(t)\|
+\tag{58}
+$$
+
+*Equation 59, Bespoke Competitor-Attack Coupling Matrix.*
+The article defines a matrix of partial derivatives between axis positions to encode the cross-axis dependencies of competitor attack.
+
+$$
+C^{\text{attack}} = \left[\frac{\partial a^b}{\partial a^a}\right]_{a, b \in \text{axes}}
+\tag{59}
+$$
+
+**Equation 60, Frobenius Norm of the Coupling Difference.**
+The Frobenius norm is the square root of the sum of squared entrywise differences between the two coupling matrices.
+
+$$
+\|C^{\text{attack}} - C^{\text{self-promo}}\|_F = \sqrt{\sum_{a,b} (C^{\text{attack}}_{ab} - C^{\text{self-promo}}_{ab})^2}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Multi-Modal Detection Score.*
+The article combines modality-specific detection scores as a weighted sum with weights fitted to labelled data.
+
+$$
+s_{\text{multi-modal}} = \sum_m w_m \cdot s_m
+\tag{61}
+$$
+
+*Equation 62, Bespoke Target Advantage in Detection.*
+The article asserts that a target's own detection typically achieves a larger area under the curve than the platform's.
+
+$$
+\text{AUC}_{\text{target}} > \text{AUC}_{\text{platform}} \text{ typically}
+\tag{62}
+$$
+
+**Equation 63, Generic Standardised Attack Anomaly Score.**
+The anomaly score is an attack-oriented test statistic less its expectation under the null model, divided by its null standard deviation.
+
+$$
+z_{\text{attack}} = \frac{T^{\text{attack}}(\mathbf{x}) - E_{H_0}[T^{\text{attack}}]}{\sqrt{\text{Var}_{H_0}[T^{\text{attack}}]}}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Verified-Purchase Fraction.*
+The article defines the fraction of reviews that carry a verified purchase as the factor by which the requirement shrinks the attack-eligible population.
+
+$$
+\rho_{\text{verify}} = \frac{|\{r : \text{verified-purchase}\}|}{|\{r : \text{all reviews}\}|}
+\tag{64}
+$$
+
+**Equation 65, Per-Account Rate Limit.**
+A rate limit bounds the observed activity rate of every account by a platform maximum.
+
+$$
+\lambda_i^{\text{observed}} \leq \lambda_{\text{max}}, \quad \forall i
+\tag{65}
+$$
+
+**Equation 66, Target-Level Aggregate Rate Limit.**
+A cross-target limit bounds the summed activity rate of all accounts directed at one target by a target-level ceiling.
+
+$$
+\sum_{i \in \text{attackers}} \lambda_{i \to T} \leq \Lambda_T^{\text{max}}
+\tag{66}
+$$
+
+**Equation 67, Defamation Action Success Rate.**
+The success rate is the probability that the plaintiff prevails given that an action is filed.
+[Digital Media Law Project][ref_dmlp_database]
+
+$$
+s_{\text{def-action}} = \Pr(\text{plaintiff prevails} \mid \text{action filed})
+\tag{67}
+$$
+
+*Equation 68, Bespoke Defamation Litigation Cost.*
+The article writes litigation cost as a filing cost plus a discovery cost per month plus a trial cost incurred only if the case goes to trial.
+
+$$
+C_{\text{def-litigation}}(T) = C_{\text{filing}} + C_{\text{discovery}} \cdot T + C_{\text{trial}} \cdot \mathbb{1}[\text{trial}]
+\tag{68}
+$$
+
+**Equation 69, Elements of a Lanham Act Section 43a Claim.**
+A false advertising claim under Section 43a of the Lanham Act requires all five elements, so the article writes actionability as the product of their indicators.
+[15 USC 1125 Lanham Act Section 43a][ref_lanham_act_15_usc_1125]
+
+$$
+A_{\text{lanham}} = \mathbb{1}[\text{false statement}] \cdot \mathbb{1}[\text{actual deception}] \cdot \mathbb{1}[\text{materiality}] \cdot \mathbb{1}[\text{interstate commerce}] \cdot \mathbb{1}[\text{likelihood of injury}]
+\tag{69}
+$$
+
+*Equation 70, Bespoke Section 230 Immunity Condition.*
+The article reduces Section 230 immunity to the product of two indicators, that the platform did not materially contribute to the content and that it moderated in good faith.
+[47 USC 230][ref_section_230_cda]
+
+$$
+I_{\text{§230}}(c) = \mathbb{1}[\text{platform did not materially contribute to content}] \cdot \mathbb{1}[\text{good-faith moderation}]
+\tag{70}
+$$
+
+**Equation 71, Volume-Weighted Composite Attack Prevalence.**
+The composite estimate is the mean of category estimates weighted by each category's share of volume.
+
+$$
+\hat{p}^{\text{attack}} = \sum_c w_c \hat{p}_c^{\text{attack}}, \quad w_c = \frac{n_c}{\sum_{c'} n_{c'}}
+\tag{71}
+$$
+
+**Equation 72, Variance of the Composite Attack Prevalence.**
+The variance of a weighted sum of category estimates is the sum of squared weights times the category variances plus the weighted cross-category covariances.
+
+$$
+\text{Var}(\hat{p}^{\text{attack}}) = \sum_c w_c^2 \, \text{Var}(\hat{p}_c^{\text{attack}}) + \sum_{c \neq c'} w_c w_{c'} \, \text{Cov}(\hat{p}_c^{\text{attack}}, \hat{p}_{c'}^{\text{attack}})
+\tag{72}
+$$
+
+### Notation
+
+- $\mathbf{a}_k$, the six-axis position vector of technique $k$
+- $w_c$, the weight of axis $c$ in the technique distance, and the volume weight of category $c$ in the composite prevalence
+- $x_T$, the state of the target
+- $x_A$, the state of the attacker
+- $\gamma_{\text{self}}(x_A)$, any residual effect of the attack on the attacker's own state
+- $R_A(t)$, the reputation of the attacker
+- $R_T(t)$, the reputation of the target
+- $n_i^{\text{fake-neg}}$, the injected fake-negative-review count
+- $\bar{r}_{\text{pre}}$, the pre-injection average rating
+- $\bar{r}_{\text{fake-neg}}$, the average rating of the fake negative reviews, typically one or two stars
+- $N_i$, the pre-injection authentic-review count
+- $\alpha^{\text{bomb}}$, the self-excitation gain of the Hawkes process during a bombing event
+- $\mu$, the baseline arrival rate
+- $\beta$, the decay rate of the Hawkes kernel
+- $D_{\text{dip}}(F)$, the Hartigan dip of the empirical rating distribution $F$
+- $\Delta t_{\text{coord}}$, the coordination window, typically 3600 seconds
+- $\Delta v_r^{\text{net}}$, the net vote change on review $r$
+- $\eta$, the ranking-sensitivity coefficient
+- $P_S(w)$, the set of participants active on source community $S$ during window $w$
+- $p_C$, the fraction of pile-on participants from community $C$
+- $d$, the PageRank damping factor
+- $B_p^{\text{toxic}}$, the toxic inbound-link set of page $p$
+- $e_{\text{disavow}}$, the fraction of disavowed links the search engine ignores
+- $D_{\text{total}}$, total defamation damages
+- $J$, the jurisdiction in the unmasking cost
+- $D_{\text{net}}(T)$, the aggregate damage to target $T$ from a coordinated network
+- $t_{\text{peak}}$, the time of peak campaign damage
+- $\gamma_{\text{recover}}$, the recovery rate after content removal
+- $T_{\text{decay}}$, the time-decay divisor of the hot-ranking score
+- $D_{\text{KL}}$, the Kullback-Leibler divergence
+- $p_{\text{false-DMCA}}$, the fraction of takedown notices that lack a valid claim
+- $\rho_{\text{counter}}$, the counter-notice rate
+- $\rho_{\text{chilling}}$, the chilling-effect index
+- $A_{\text{FP}}$, the false-positive amplification factor of coordinated reporting
+- $\mu_{\text{mod-throughput}}$, the moderation-processing throughput of the platform
+- $\alpha_{T,N}(t)$, the co-occurrence coefficient between target $T$ and negative topic $N$
+- $\gamma_{\text{meme}}$, the meme-specific decay rate
+- $\alpha_P$, the amplification gain on platform $P$
+- $I(P_i, P_j)$, the information-sharing intensity between two platforms
+- $s_m$, the detection score of modality $m$
+- $\Lambda_T^{\text{max}}$, the target-level aggregate throughput ceiling
+- $s_{\text{def-action}}$, the probability that a defamation plaintiff prevails
+- $\hat{p}^{\text{attack}}$, the composite category-weighted prevalence estimate of competitor attack
 
 ## References
 

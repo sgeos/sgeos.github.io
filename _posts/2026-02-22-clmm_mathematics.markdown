@@ -163,12 +163,18 @@ is the sum of all positions whose ranges contain that price.
 
 The starting point is the constant product invariant.
 
-$$x \cdot y = L^2$$
+$$
+x \cdot y = L^2
+\tag{1}
+$$
 
 The current price $p$ of Token Y in terms of Token X satisfies $p = \frac{y}{x}$.
 The reserves can be expressed in terms of $L$ and $p$ as follows.
 
-$$x = \frac{L}{\sqrt{p}} \qquad y = L \cdot \sqrt{p}$$
+$$
+x = \frac{L}{\sqrt{p}} \qquad y = L \cdot \sqrt{p}
+\tag{2}
+$$
 
 These are the **virtual reserves** on the full unbounded curve.
 They satisfy $x \cdot y = L^2$ and $\frac{y}{x} = p$.
@@ -178,14 +184,20 @@ the contract behaves as though the full $x \cdot y = L^2$ curve exists,
 but only the segment between prices $p_a$ and $p_b$ is funded with real tokens.
 The virtual reserves at any current price $p$ within the range are as follows.
 
-$$x_v(p) = \frac{L}{\sqrt{p}} \qquad y_v(p) = L \cdot \sqrt{p}$$
+$$
+x_v(p) = \frac{L}{\sqrt{p}} \qquad y_v(p) = L \cdot \sqrt{p}
+\tag{3}
+$$
 
 The **real reserves** are obtained by translating the constant product curve.
 The curve segment between $p_a$ and $p_b$ is shifted
 so that the real reserves reach zero at the range boundaries.
 The translated invariant is as follows.
 
-$$\left(x_r + \frac{L}{\sqrt{p_b}}\right) \cdot \left(y_r + L \cdot \sqrt{p_a}\right) = L^2$$
+$$
+\left(x_r + \frac{L}{\sqrt{p_b}}\right) \cdot \left(y_r + L \cdot \sqrt{p_a}\right) = L^2
+\tag{4}
+$$
 
 This is the standard constant product curve
 shifted left by $\frac{L}{\sqrt{p_b}}$ and down by $L \cdot \sqrt{p_a}$.
@@ -203,9 +215,15 @@ At price $p_b$, all real reserves are in Token Y and $x_r = 0$.
 When the current price $p$ is within the range $[p_a, p_b]$,
 the real reserves are as follows.
 
-$$x_r = L \cdot \left(\frac{1}{\sqrt{p}} - \frac{1}{\sqrt{p_b}}\right) = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p}\right)}{\sqrt{p} \cdot \sqrt{p_b}}$$
+$$
+x_r = L \cdot \left(\frac{1}{\sqrt{p}} - \frac{1}{\sqrt{p_b}}\right) = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p}\right)}{\sqrt{p} \cdot \sqrt{p_b}}
+\tag{5}
+$$
 
-$$y_r = L \cdot \left(\sqrt{p} - \sqrt{p_a}\right)$$
+$$
+y_r = L \cdot \left(\sqrt{p} - \sqrt{p_a}\right)
+\tag{6}
+$$
 
 - **$x_r$ (Token X Real Reserve):**
 The amount of Token X held by the position.
@@ -241,17 +259,26 @@ There are three regimes.
 **Regime 1. Price below range ($p \le p_a$).**
 The position is entirely Token X and earns no fees.
 
-$$x_r = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p_a}\right)}{\sqrt{p_a} \cdot \sqrt{p_b}} \qquad y_r = 0$$
+$$
+x_r = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p_a}\right)}{\sqrt{p_a} \cdot \sqrt{p_b}} \qquad y_r = 0
+\tag{7}
+$$
 
 **Regime 2. Price within range ($p_a < p < p_b$).**
 The position holds both tokens and earns fees on swaps.
 
-$$x_r = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p}\right)}{\sqrt{p} \cdot \sqrt{p_b}} \qquad y_r = L \cdot \left(\sqrt{p} - \sqrt{p_a}\right)$$
+$$
+x_r = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p}\right)}{\sqrt{p} \cdot \sqrt{p_b}} \qquad y_r = L \cdot \left(\sqrt{p} - \sqrt{p_a}\right)
+\tag{8}
+$$
 
 **Regime 3. Price above range ($p \ge p_b$).**
 The position is entirely Token Y and earns no fees.
 
-$$x_r = 0 \qquad y_r = L \cdot \left(\sqrt{p_b} - \sqrt{p_a}\right)$$
+$$
+x_r = 0 \qquad y_r = L \cdot \left(\sqrt{p_b} - \sqrt{p_a}\right)
+\tag{9}
+$$
 
 > **Note on Regime Transitions:**
 As the price rises through the range from $p_a$ to $p_b$,
@@ -268,15 +295,24 @@ the liquidity $L$ is determined by the limiting token.
 
 From the Token X amount, the liquidity implied is as follows.
 
-$$L_x = \frac{\Delta x \cdot \sqrt{p} \cdot \sqrt{p_b}}{\sqrt{p_b} - \sqrt{p}}$$
+$$
+L_x = \frac{\Delta x \cdot \sqrt{p} \cdot \sqrt{p_b}}{\sqrt{p_b} - \sqrt{p}}
+\tag{10}
+$$
 
 From the Token Y amount, the liquidity implied is as follows.
 
-$$L_y = \frac{\Delta y}{\sqrt{p} - \sqrt{p_a}}$$
+$$
+L_y = \frac{\Delta y}{\sqrt{p} - \sqrt{p_a}}
+\tag{11}
+$$
 
 The effective liquidity of the position is the minimum of the two.
 
-$$L = \min(L_x,\ L_y)$$
+$$
+L = \min(L_x,\ L_y)
+\tag{12}
+$$
 
 The minimum is taken because the position is constrained by whichever token is the limiting factor.
 Any excess of the other token is returned to the depositor.
@@ -297,20 +333,29 @@ At the upper bound, the deposit is entirely Token Y.
 Prices in Uniswap v3 are discretized into **ticks**.
 Each tick $i$ corresponds to a price as follows.
 
-$$p(i) = 1.0001^i$$
+$$
+p(i) = 1.0001^i
+\tag{13}
+$$
 
 Each tick therefore represents a 0.01% multiplicative change in price,
 equivalent to one basis point.
 The tick index for a given price is as follows.
 
-$$i = \left\lfloor \frac{\ln(p)}{\ln(1.0001)} \right\rfloor$$
+$$
+i = \left\lfloor \frac{\ln(p)}{\ln(1.0001)} \right\rfloor
+\tag{14}
+$$
 
 The protocol stores $\sqrt{p}$ rather than $p$ directly
 because the key reserve formulas involve $\sqrt{p}$
 and storing the square root avoids computing it on-chain.
 The square root price from a tick index is as follows.
 
-$$\sqrt{p(i)} = 1.0001^{i/2}$$
+$$
+\sqrt{p(i)} = 1.0001^{i/2}
+\tag{15}
+$$
 
 **Tick spacing** constrains which ticks can serve as position boundaries.
 Only tick indices that are multiples of the tick spacing are allowed.
@@ -345,7 +390,10 @@ so the same dollar amount of capital produces proportionally deeper liquidity wi
 For a position centered at current price $p$ with range $[p_a, p_b]$,
 the capital efficiency relative to a full-range position is approximately as follows.
 
-$$\text{efficiency} \approx \frac{1}{1 - \left(\frac{p_a}{p_b}\right)^{1/4}}$$
+$$
+\text{efficiency} \approx \frac{1}{1 - \left(\frac{p_a}{p_b}\right)^{1/4}}
+\tag{16}
+$$
 
 For very tight stablecoin ranges,
 the efficiency multiplier can reach up to 4000x.
@@ -372,11 +420,17 @@ the protocol tracks $f_o$,
 which records fees accumulated on the other side of that tick.
 The fees earned within a position's range are computed as follows.
 
-$$f_{\text{inside}} = f_g - f_{\text{below}}(p_a) - f_{\text{above}}(p_b)$$
+$$
+f_{\text{inside}} = f_g - f_{\text{below}}(p_a) - f_{\text{above}}(p_b)
+\tag{17}
+$$
 
 The fees owed to a specific position are then as follows.
 
-$$\text{fees} = \left(f_{\text{inside}} - f_{\text{inside,last}}\right) \cdot L$$
+$$
+\text{fees} = \left(f_{\text{inside}} - f_{\text{inside,last}}\right) \cdot L
+\tag{18}
+$$
 
 The value $f_{\text{inside,last}}$
 is the inside fee growth at the time the position was last updated.
@@ -393,7 +447,10 @@ For a standard full-range constant product position,
 the impermanent loss as a function of the price ratio $r = \frac{p_{\text{new}}}{p_{\text{old}}}$
 is as follows.
 
-$$IL(r) = \frac{2\sqrt{r}}{1 + r} - 1$$
+$$
+IL(r) = \frac{2\sqrt{r}}{1 + r} - 1
+\tag{19}
+$$
 
 Concentrated liquidity amplifies impermanent loss
 because the position is effectively leveraged.
@@ -403,7 +460,10 @@ so the same price movement causes a proportionally larger change in portfolio co
 The value of a concentrated liquidity position at price $p$
 when $p_a \le p \le p_b$ is as follows.
 
-$$V(p) = x_r \cdot p + y_r = L \cdot \left(2\sqrt{p} - \frac{p}{\sqrt{p_b}} - \sqrt{p_a}\right)$$
+$$
+V(p) = x_r \cdot p + y_r = L \cdot \left(2\sqrt{p} - \frac{p}{\sqrt{p_b}} - \sqrt{p_a}\right)
+\tag{20}
+$$
 
 The impermanent loss for a concentrated position
 is the difference between this value
@@ -896,6 +956,206 @@ fee structures, and oracle behavior.
 This extensibility changes the design space for concentrated liquidity strategies.
 
 ---
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 20 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 20, 20 are established and 0 are bespoke.
+Reserves are counted in tokens of their own kind and every price, including the range boundaries, is quoted as Token Y per Token X, so the liquidity carries the square root of the product of the two token units and a tick index is a pure number.
+
+**Equation 1, Constant Product Invariant in Terms of Liquidity.**
+The product of the two reserves equals the square of the liquidity, the invariant of a full-range constant product automated market maker.
+[Constant Product AMM Mathematics][related_post_cpamm]
+
+$$
+x \cdot y = L^2
+\tag{1}
+$$
+
+**Equation 2, Virtual Reserves in Terms of Liquidity and Price.**
+Each reserve on the full unbounded curve follows from the liquidity and the square root of the price, so that their product is the squared liquidity and their ratio is the price.
+[Constant Product AMM Mathematics][related_post_cpamm]
+
+$$
+x = \frac{L}{\sqrt{p}} \qquad y = L \cdot \sqrt{p}
+\tag{2}
+$$
+
+**Equation 3, Virtual Reserves of a Concentrated Position.**
+Within its range a concentrated position behaves as though the full constant product curve existed, with virtual reserves given by the same expressions in liquidity and price.
+
+$$
+x_v(p) = \frac{L}{\sqrt{p}} \qquad y_v(p) = L \cdot \sqrt{p}
+\tag{3}
+$$
+
+**Equation 4, Translated Invariant of a Concentrated Position.**
+The constant product curve is shifted so that the real reserves reach zero at the range boundaries, which is the invariant of a concentrated liquidity position in the Uniswap v3 design.
+
+$$
+\left(x_r + \frac{L}{\sqrt{p_b}}\right) \cdot \left(y_r + L \cdot \sqrt{p_a}\right) = L^2
+\tag{4}
+$$
+
+**Equation 5, Real Token X Reserve Within the Range.**
+The Token X a position holds is the liquidity times the difference of the reciprocal square roots of the current price and the upper boundary, reaching zero at the upper boundary.
+
+$$
+x_r = L \cdot \left(\frac{1}{\sqrt{p}} - \frac{1}{\sqrt{p_b}}\right) = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p}\right)}{\sqrt{p} \cdot \sqrt{p_b}}
+\tag{5}
+$$
+
+**Equation 6, Real Token Y Reserve Within the Range.**
+The Token Y a position holds is the liquidity times the difference of the square roots of the current price and the lower boundary, reaching zero at the lower boundary.
+
+$$
+y_r = L \cdot \left(\sqrt{p} - \sqrt{p_a}\right)
+\tag{6}
+$$
+
+**Equation 7, Real Reserves With the Price Below the Range.**
+When the price lies at or below the lower boundary the position holds only Token X, in the amount the in-range formula gives at the lower boundary.
+
+$$
+x_r = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p_a}\right)}{\sqrt{p_a} \cdot \sqrt{p_b}} \qquad y_r = 0
+\tag{7}
+$$
+
+**Equation 8, Real Reserves With the Price Within the Range.**
+When the price lies between the boundaries the position holds both tokens in the amounts the in-range formulas give.
+
+$$
+x_r = \frac{L \cdot \left(\sqrt{p_b} - \sqrt{p}\right)}{\sqrt{p} \cdot \sqrt{p_b}} \qquad y_r = L \cdot \left(\sqrt{p} - \sqrt{p_a}\right)
+\tag{8}
+$$
+
+**Equation 9, Real Reserves With the Price Above the Range.**
+When the price lies at or above the upper boundary the position holds only Token Y, in the amount the in-range formula gives at the upper boundary.
+
+$$
+x_r = 0 \qquad y_r = L \cdot \left(\sqrt{p_b} - \sqrt{p_a}\right)
+\tag{9}
+$$
+
+**Equation 10, Liquidity Implied by a Token X Deposit.**
+Inverting the real Token X reserve formula gives the liquidity that a deposit of Token X supports at the current price.
+
+$$
+L_x = \frac{\Delta x \cdot \sqrt{p} \cdot \sqrt{p_b}}{\sqrt{p_b} - \sqrt{p}}
+\tag{10}
+$$
+
+**Equation 11, Liquidity Implied by a Token Y Deposit.**
+Inverting the real Token Y reserve formula gives the liquidity that a deposit of Token Y supports at the current price.
+
+$$
+L_y = \frac{\Delta y}{\sqrt{p} - \sqrt{p_a}}
+\tag{11}
+$$
+
+**Equation 12, Effective Liquidity of a Deposit.**
+The liquidity of the position is the smaller of the two implied values, because the limiting token constrains the position and any excess of the other token is returned.
+
+$$
+L = \min(L_x,\ L_y)
+\tag{12}
+$$
+
+**Equation 13, Price at a Tick.**
+Each tick index corresponds to a price that is a power of 1.0001, so adjacent ticks differ by one basis point.
+
+$$
+p(i) = 1.0001^i
+\tag{13}
+$$
+
+**Equation 14, Tick Index of a Price.**
+The tick index of a price is the floor of the logarithm of the price to the base 1.0001.
+
+$$
+i = \left\lfloor \frac{\ln(p)}{\ln(1.0001)} \right\rfloor
+\tag{14}
+$$
+
+**Equation 15, Square Root Price at a Tick.**
+The square root of the price at a tick is the base 1.0001 raised to half the tick index, the quantity the protocol stores.
+
+$$
+\sqrt{p(i)} = 1.0001^{i/2}
+\tag{15}
+$$
+
+**Equation 16, Capital Efficiency of a Symmetric Range.**
+A position whose range is centred geometrically on the current price supplies the same depth as a full-range position with a fraction of the capital, and the multiplier depends only on the ratio of the boundaries.
+
+$$
+\text{efficiency} \approx \frac{1}{1 - \left(\frac{p_a}{p_b}\right)^{1/4}}
+\tag{16}
+$$
+
+**Equation 17, Fee Growth Inside a Range.**
+The fees accumulated per unit of liquidity inside a range are the global fee growth less the growth recorded below the lower boundary and above the upper boundary.
+
+$$
+f_{\text{inside}} = f_g - f_{\text{below}}(p_a) - f_{\text{above}}(p_b)
+\tag{17}
+$$
+
+**Equation 18, Fees Owed to a Position.**
+The fees owed to a position are the growth of the inside fee accumulator since the position was last updated, multiplied by its liquidity.
+
+$$
+\text{fees} = \left(f_{\text{inside}} - f_{\text{inside,last}}\right) \cdot L
+\tag{18}
+$$
+
+**Equation 19, Impermanent Loss of a Full-Range Position.**
+The value of a full-range constant product position relative to holding the deposited tokens depends only on the ratio of the new price to the original price.
+[Constant Product AMM Mathematics][related_post_cpamm]
+
+$$
+IL(r) = \frac{2\sqrt{r}}{1 + r} - 1
+\tag{19}
+$$
+
+**Equation 20, Value of a Concentrated Position Within the Range.**
+The value of the position in Token Y is the Token X reserve priced at the current price plus the Token Y reserve, written in terms of liquidity and the boundaries.
+
+$$
+V(p) = x_r \cdot p + y_r = L \cdot \left(2\sqrt{p} - \frac{p}{\sqrt{p_b}} - \sqrt{p_a}\right)
+\tag{20}
+$$
+
+### Notation
+
+- $x$, the reserve of Token X on the full constant product curve
+- $y$, the reserve of Token Y on the full constant product curve
+- $L$, the liquidity of the position, identical in definition to the full-range constant product model
+- $p$, the current price in Token Y per Token X
+- $p_a$, the lower boundary of the price range of the position
+- $p_b$, the upper boundary of the price range of the position
+- $x_v(p)$, the virtual reserve of Token X at price $p$
+- $y_v(p)$, the virtual reserve of Token Y at price $p$
+- $x_r$, the real reserve of Token X held by the position
+- $y_r$, the real reserve of Token Y held by the position
+- $\Delta x$, the amount of Token X deposited
+- $\Delta y$, the amount of Token Y deposited
+- $L_x$, the liquidity implied by the Token X deposit
+- $L_y$, the liquidity implied by the Token Y deposit
+- $i$, the tick index
+- $f_g$, the global fee growth per unit of liquidity since the pool was created
+- $f_{\text{below}}(p_a)$, the fee growth recorded below the lower boundary of the range
+- $f_{\text{above}}(p_b)$, the fee growth recorded above the upper boundary of the range
+- $f_{\text{inside}}$, the fee growth per unit of liquidity inside the range of the position
+- $f_{\text{inside,last}}$, the inside fee growth when the position was last updated
+- $IL(r)$, the impermanent loss of a full-range position, a fraction that is never positive
+- $r$, the ratio of the new price to the original price
+- $V(p)$, the value of the position at price $p$ in units of Token Y
 
 ## References
 

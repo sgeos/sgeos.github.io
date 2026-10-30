@@ -23,23 +23,35 @@ The technique landscape allows partition into several groupings organized by the
 
 The technique-space partition supports compact formalization as follows. Let $\mathcal{T} = \{t_1, t_2, \ldots, t_K\}$ denote the technique inventory, and let each technique $t_k$ be characterized by its position on the six analytical axes introduced in the framing article,
 
-$$\mathbf{a}_k = (a_k^{\text{signal}}, a_k^{\text{obj}}, a_k^{\text{struct}}, a_k^{\text{model}}, a_k^{\text{interact}}, a_k^{\text{adapt}})$$
+$$
+\mathbf{a}_k = (a_k^{\text{signal}}, a_k^{\text{obj}}, a_k^{\text{struct}}, a_k^{\text{model}}, a_k^{\text{interact}}, a_k^{\text{adapt}})
+\tag{1}
+$$
 
 with each axis value drawn from an axis-specific space. The distance between techniques on the axis-vector space admits characterization as
 
-$$d(t_j, t_k) = \sum_{c \in \text{axes}} w_c \, \delta_c(a_j^c, a_k^c)$$
+$$
+d(t_j, t_k) = \sum_{c \in \text{axes}} w_c \, \delta_c(a_j^c, a_k^c)
+\tag{2}
+$$
 
 with $w_c$ the axis weight and $\delta_c$ the axis-specific distance function. The technique-space partition into the groupings above corresponds to clustering under the distance $d$ with the review-signal, engagement-signal, and search-ranking groupings emerging as the natural clusters under channel-weighted distance.
 
 The aggregate empirical prevalence of self-promotion techniques across the reputation ecosystem permits estimation through the sum
 
-$$V_{\text{self-promo}}(t) = \sum_{k \in \mathcal{T}} \sum_{c \in \text{categories}} n_{k,c}(t) \cdot p_{k,c}(t)$$
+$$
+V_{\text{self-promo}}(t) = \sum_{k \in \mathcal{T}} \sum_{c \in \text{categories}} n_{k,c}(t) \cdot p_{k,c}(t)
+\tag{3}
+$$
 
 with $n_{k,c}(t)$ the signal-event volume for technique $k$ in category $c$ at time $t$ and $p_{k,c}(t)$ the technique-and-category-specific prevalence rate. The empirical estimates surveyed in this article establish that $V_{\text{self-promo}}$ dominates the aggregate manipulation volume across most platform categories, with only political-manipulation-dominant contexts (state-sponsored operations targeting elections) exhibiting comparable competitor-attack volume.
 
 The taxonomy's coverage completeness against the observed technique population allows characterization as the recall-analog statistic
 
-$$\text{Coverage}(\mathcal{T}, \Omega) = \frac{|\{\omega \in \Omega : \exists t_k \in \mathcal{T}, \omega \text{ assigned to } t_k\}|}{|\Omega|}$$
+$$
+\text{Coverage}(\mathcal{T}, \Omega) = \frac{|\{\omega \in \Omega : \exists t_k \in \mathcal{T}, \omega \text{ assigned to } t_k\}|}{|\Omega|}
+\tag{4}
+$$
 
 with $\Omega$ the observed manipulation-instance population. The taxonomy the article adopts targets $\text{Coverage} > 0.95$ against the enforcement-record and academic-detection-corpus population and treats residual instances outside the taxonomy as novel-technique candidates for taxonomy revision.
 
@@ -105,23 +117,35 @@ Individual review fabrication refers to the manipulation practice in which an ac
 
 The academic detection literature for individual fabrication traces to [Jindal and Liu 2008][research_jindal_liu_2008] Opinion Spam and Analysis, which established the field's initial taxonomy and detection methodology. The stylometric-feature vector on which contemporary detectors operate takes the compact form
 
-$$\mathbf{f}_r = (\text{POS-ratios}, \text{n-gram distributions}, \text{lexical richness}, \text{sentiment intensity}, \text{first-person ratio}, \text{superlative rate})$$
+$$
+\mathbf{f}_r = (\text{POS-ratios}, \text{n-gram distributions}, \text{lexical richness}, \text{sentiment intensity}, \text{first-person ratio}, \text{superlative rate})
+\tag{5}
+$$
 
 with each component estimated on the review text $r$ and fed to a downstream classifier. The [Ott et al. 2011][research_ott_et_al_2011] Finding Deceptive Opinion Spam by Any Stretch of the Imagination treatment introduced the labeled-corpus methodology by crowdsourcing production of deceptive reviews and training classifiers on the resulting distribution. The [Ott et al. 2013][research_ott_et_al_2013] Negative Deceptive Opinion Spam extended the framework. The [Feng 2012][research_feng_et_al_2012] Syntactic Stylometry for Deception Detection treatment introduced the syntactic-features detection approach. The [Li et al. 2014][research_li_et_al_2014] Towards a General Rule for Identifying Deceptive Opinion Spam introduced the cross-domain generalization framework.
 
 The empirical prevalence of individual review fabrication varies by platform and category. The [Luca and Zervas 2016][research_luca_zervas_2016] Yelp analysis estimates approximately sixteen percent of Yelp restaurant reviews are filtered as suspicious by Yelp's internal classifier, with the filtered rate rising to approximately twenty percent for restaurants in competitive market segments and rising further under competitive conditions. The [Luca 2016][research_luca_2016] Reviews Reputation and Revenue Yelp treatment estimates the causal impact of a one-star rating increase as approximately five to nine percent revenue increase, which sets the direct commercial incentive for review manipulation. The empirical rating-shift model takes the form
 
-$$\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} + n_i^{\text{fake}} \cdot \bar{r}_{\text{fake}} / (N_i + n_i^{\text{fake}})$$
+$$
+\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} + n_i^{\text{fake}} \cdot \bar{r}_{\text{fake}} / (N_i + n_i^{\text{fake}})
+\tag{6}
+$$
 
 with $\Delta r_i^{\text{obs}}$ the observed rating change, $\Delta r_i^{\text{authentic}}$ the authentic rating change, $n_i^{\text{fake}}$ the injected fake-review count, $\bar{r}\_{\text{fake}}$ the average fake-review rating, and $N_i$ the pre-injection authentic-review count. The equation shows that fake-review effectiveness depends on the ratio $n_i^{\text{fake}} / N_i$, which is highest for new or low-review-volume businesses and lowest for established high-review-volume businesses.
 
 The detection signatures for individual fabrication include stylometric anomalies (deceptive text tends to over-use first-person pronouns, super-positive adjectives, and quality claims), temporal anomalies (concentrated review bursts inconsistent with the natural arrival rate), reviewer-history anomalies (reviewers with no prior activity or with review histories concentrated on the target business), and IP and device fingerprint anomalies (reviews originating from IP ranges or devices associated with the business owner or with review-service operators). The classifier-based detection takes the form the standard classification-performance metrics
 
-$$\text{precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}, \quad \text{recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}, \quad F_1 = \frac{2 \cdot \text{precision} \cdot \text{recall}}{\text{precision} + \text{recall}}$$
+$$
+\text{precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}, \quad \text{recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}, \quad F_1 = \frac{2 \cdot \text{precision} \cdot \text{recall}}{\text{precision} + \text{recall}}
+\tag{7}
+$$
 
 with the classifier's decision threshold $\tau$ tuning the tradeoff between the two errors along the receiver-operating characteristic. The empirical detection accuracy under the [Ott et al. 2011][research_ott_et_al_2011] framework reaches approximately ninety percent on the labeled crowdsourced corpus but degrades markedly on real-world reviews where the labeled ground truth is uncertain. The [Mukherjee 2013][research_mukherjee_et_al_2013] What Yelp Fake Review Filter Might Be Doing treatment reverse-engineers Yelp's production filter and estimates its precision at approximately eighty percent under the paper's evaluation methodology. The temporal-anomaly detection statistic for review-arrival bursts is captured by the standardized arrival-rate residual
 
-$$z_{\text{burst}}(t) = \frac{\lambda(t) - \bar{\lambda}}{\sigma_\lambda}$$
+$$
+z_{\text{burst}}(t) = \frac{\lambda(t) - \bar{\lambda}}{\sigma_\lambda}
+\tag{8}
+$$
 
 with $\lambda(t)$ the observed review-arrival rate at time $t$, $\bar{\lambda}$ the historical mean arrival rate, and $\sigma_\lambda$ the historical standard deviation. Detection thresholds typically set $z_{\text{burst}} > 3$ as the anomaly trigger.
 
@@ -135,15 +159,24 @@ The [Mayzlin et al. 2014][research_mayzlin_dover_chevalier_2014] Promotional Rev
 
 The economics of review farming admit compact characterization. The marketplace price per fabricated review is approximately
 
-$$p_{\text{fake-review}} \in [1, 30] \text{ USD per review}$$
+$$
+p_{\text{fake-review}} \in [1, 30] \text{ USD per review}
+\tag{9}
+$$
 
 with the lower bound reflecting text-only reviews on low-enforcement platforms and the upper bound reflecting verified-purchase reviews on high-enforcement platforms including sale-of-product cost. The producer surplus per manipulated business, absent detection, follows
 
-$$\pi_i^{\text{manip}} = R_i^{\text{shift}} \cdot v \cdot Q_i - n_i \cdot p_{\text{fake-review}}$$
+$$
+\pi_i^{\text{manip}} = R_i^{\text{shift}} \cdot v \cdot Q_i - n_i \cdot p_{\text{fake-review}}
+\tag{10}
+$$
 
 with $R_i^{\text{shift}}$ the rating shift produced by the injection, $v$ the per-rating-point revenue coefficient, $Q_i$ the sales volume elasticity, and $n_i$ the injected review count. The equation identifies the marginal return per additional fake review as the sales-volume increase net of the marginal fake-review production cost. International enforcement includes the [ACCC v Trivago 2020][ref_accc_v_trivago_2020] Australian case addressing misleading ranking practices, the [UK CMA fake reviews investigation 2022][ref_uk_cma_facebook_google_2022] into Facebook and Google fake-review markets, the [Canadian Competition Bureau v Amazon][ref_canada_amazon] fake-review enforcement, and the [Italian AGCM Booking.com fake reviews][ref_italy_agcm_booking] action. The temporal-arrival pattern of coordinated review campaigns is captured by the self-exciting Hawkes point process
 
-$$\lambda(t) = \mu + \alpha \sum_{t_i < t} e^{-\beta(t - t_i)}$$
+$$
+\lambda(t) = \mu + \alpha \sum_{t_i < t} e^{-\beta(t - t_i)}
+\tag{11}
+$$
 
 with $\mu$ the baseline arrival rate, $\alpha$ the self-excitation gain, and $\beta$ the decay rate. Coordinated-campaign arrivals exhibit $\alpha$ appreciably above the null-hypothesis baseline, producing the characteristic burst-and-decay pattern that admits detection via the [Xie et al. 2012][research_xie_et_al_2012] temporal-pattern framework. The [Chevalier and Mayzlin 2006][research_chevalier_mayzlin_2006] Effect of Word of Mouth on Sales established the causal-effect literature for book sales; the subsequent [Chintagunta et al. 2010][research_chintagunta_gopinath_venkataraman_2010] treatment for movie box office and the [Anderson and Magruder 2012][research_anderson_magruder_2012] treatment for restaurant demand extended the account.
 
@@ -151,11 +184,17 @@ Detection signatures for coordinated review campaigns include the individual-fab
 
 The text-similarity detection statistic for coordinated review campaigns reduces to cosine similarity in an embedding space or via n-gram overlap. The n-gram-overlap statistic between two reviews $r_i$ and $r_j$ takes the form
 
-$$\text{sim}_n(r_i, r_j) = \frac{|N_n(r_i) \cap N_n(r_j)|}{|N_n(r_i) \cup N_n(r_j)|}$$
+$$
+\text{sim}_n(r_i, r_j) = \frac{|N_n(r_i) \cap N_n(r_j)|}{|N_n(r_i) \cup N_n(r_j)|}
+\tag{12}
+$$
 
 with $N_n(r)$ the set of $n$-grams appearing in review $r$. Detection thresholds typically set $\text{sim}\_n > 0.5$ for $n = 4$ as the coordination trigger. The reviewer-graph community-detection statistic can be characterized as the modularity function
 
-$$Q = \frac{1}{2m} \sum_{ij} \left[A_{ij} - \frac{k_i k_j}{2m}\right] \delta(c_i, c_j)$$
+$$
+Q = \frac{1}{2m} \sum_{ij} \left[A_{ij} - \frac{k_i k_j}{2m}\right] \delta(c_i, c_j)
+\tag{13}
+$$
 
 with $A_{ij}$ the reviewer-business adjacency, $k_i$ the reviewer-degree, $m$ the total edge count, $c_i$ the community assignment, and $\delta(c_i, c_j)$ the community-match indicator. Coordinated-review clusters exhibit anomalously high $Q$ concentrated on small reviewer subsets, and the detection algorithm identifies suspicious clusters as high-$Q$ dense subgraphs. The academic detection accuracy under the network-based approaches reaches approximately ninety-five percent on labeled evaluation datasets but exhibits sizable degradation under adversarial adaptation as reviewers vary temporal patterns, textual patterns, and account behavior to evade detection. The [Malbon 2013][research_malbon_2013] Taking Fake Online Consumer Reviews Seriously legal treatment surveys the enforcement-response infrastructure.
 
@@ -167,27 +206,45 @@ The academic detection literature for sockpuppet identity operates through accou
 
 The economic structure of sockpuppet operations differs from ordinary coordinated campaigns in the amortization of identity-construction cost. Sockpuppet identity construction requires per-identity investment in profile buildout, activity history, and behavioral patterns, and the marginal identity cost falls with automation. The identity-construction cost permits characterization as
 
-$$C_{\text{sockpuppet}}(n) = c_{\text{fixed}} + n \cdot c_{\text{marginal}}(n)$$
+$$
+C_{\text{sockpuppet}}(n) = c_{\text{fixed}} + n \cdot c_{\text{marginal}}(n)
+\tag{14}
+$$
 
 with $c_{\text{fixed}}$ the setup cost of the sockpuppet operation and $c_{\text{marginal}}(n)$ the per-identity marginal cost that typically decreases in $n$ due to tooling automation. Professional sockpuppet operations achieve per-identity marginal costs in the range of
 
-$$c_{\text{marginal}} \in [0.5, 10] \text{ USD per identity}$$
+$$
+c_{\text{marginal}} \in [0.5, 10] \text{ USD per identity}
+\tag{15}
+$$
 
 when the identity is used for review deposition rather than for higher-fidelity applications requiring KYC-style identity documentation. Cross-account behavioral-similarity detection operates through the standardized similarity metric
 
-$$s_{ij}^{\text{behav}} = \frac{\langle \mathbf{f}_i, \mathbf{f}_j\rangle}{\|\mathbf{f}_i\| \cdot \|\mathbf{f}_j\|}$$
+$$
+s_{ij}^{\text{behav}} = \frac{\langle \mathbf{f}_i, \mathbf{f}_j\rangle}{\|\mathbf{f}_i\| \cdot \|\mathbf{f}_j\|}
+\tag{16}
+$$
 
 with $\mathbf{f}\_i$ the behavioral-feature vector for account $i$ combining posting-time distribution, session-length distribution, device-fingerprint hash, and IP-address entropy. Sockpuppet-account pairs exhibit anomalously high $s_{ij}^{\text{behav}}$, and the account-linkage detection identifies suspicious pairs above a chosen threshold. The corresponding posterior for sockpuppet-linkage given the similarity is
 
-$$\Pr(\text{sockpuppet}_{ij} \mid s_{ij}^{\text{behav}}) = \frac{p(s_{ij} \mid \text{link}) \pi_{\text{link}}}{p(s_{ij} \mid \text{link}) \pi_{\text{link}} + p(s_{ij} \mid \neg \text{link})(1 - \pi_{\text{link}})}$$
+$$
+\Pr(\text{sockpuppet}_{ij} \mid s_{ij}^{\text{behav}}) = \frac{p(s_{ij} \mid \text{link}) \pi_{\text{link}}}{p(s_{ij} \mid \text{link}) \pi_{\text{link}} + p(s_{ij} \mid \neg \text{link})(1 - \pi_{\text{link}})}
+\tag{17}
+$$
 
 with $\pi_{\text{link}}$ the base-rate prior of sockpuppet linkage in the population. The persistence-over-time of a sockpuppet identity under active platform enforcement has the form the survival function
 
-$$S(t) = \Pr(\text{account active at } t) = e^{-\int_0^t h(\tau) d\tau}$$
+$$
+S(t) = \Pr(\text{account active at } t) = e^{-\int_0^t h(\tau) d\tau}
+\tag{18}
+$$
 
 with $h(\tau)$ the hazard rate combining passive-account decay and platform-enforcement removal. Persistent sockpuppet operations sustain $S(t)$ close to unity through operational discipline (avoiding detection triggers) and through operational-scale replacement of removed accounts. The composite multi-feature detection likelihood ratio combining behavioral similarity, activity-pattern similarity, and content similarity takes the form
 
-$$\Lambda_{ij}^{\text{sockpuppet}} = \prod_{k \in \text{features}} \frac{p(f_k^{ij} \mid \text{link})}{p(f_k^{ij} \mid \neg \text{link})}$$
+$$
+\Lambda_{ij}^{\text{sockpuppet}} = \prod_{k \in \text{features}} \frac{p(f_k^{ij} \mid \text{link})}{p(f_k^{ij} \mid \neg \text{link})}
+\tag{19}
+$$
 
 under the standard conditional-independence assumption, with the accumulated log-likelihood serving as the aggregate detection statistic.
 
@@ -199,23 +256,38 @@ The empirical assessment of LLM-generated review detection includes [Sohail 2024
 
 The manipulation-cost function under generative-model deployment satisfies approximately
 
-$$c_{\text{LLM-review}}(m) \approx c_{\text{API}} \cdot m + c_{\text{prompt-eng}}$$
+$$
+c_{\text{LLM-review}}(m) \approx c_{\text{API}} \cdot m + c_{\text{prompt-eng}}
+\tag{20}
+$$
 
 with $c_{\text{API}}$ the per-review API cost in the range of $10^{-3}$ to $10^{-2}$ USD per generation, $c_{\text{prompt-eng}}$ the fixed prompt-engineering setup cost, and $m$ the injection volume. The equation makes clear that the convexity exponent $\alpha$ of the classical manipulation-cost function has effectively collapsed to unity, which shifts the manipulation equilibrium considerably toward higher intensity. The [C2PA content provenance standard][ref_c2pa_standard] and the [Meta AI-generated content labeling policy][ref_meta_ai_content_labeling] represent the emerging technical and policy countermeasure infrastructure. The [Coalition for Content Provenance and Authenticity][ref_c2pa_coalition] provides the multi-stakeholder governance forum. The [Sadasivan et al. 2023][research_sadasivan_et_al_2023] impossibility-adjacent result establishes that under sufficient generation-quality the detection accuracy approaches the random-baseline bound
 
-$$\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}$$
+$$
+\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}
+\tag{21}
+$$
 
 with $q_{\text{gen}}$ the generative-model quality and $q_{\text{human}}$ the human-authored baseline distribution. The watermarking approach in [Kirchenbauer et al. 2023][research_kirchenbauer_et_al_2023] introduces a bias in the generation distribution that preserves detection accuracy at the cost of small utility loss, admitting characterization as the signed information-content deviation
 
-$$I_{\text{watermark}}(x) = \log \frac{p_{\text{watermarked}}(x)}{p_{\text{unmarked}}(x)}$$
+$$
+I_{\text{watermark}}(x) = \log \frac{p_{\text{watermarked}}(x)}{p_{\text{unmarked}}(x)}
+\tag{22}
+$$
 
 with the watermarked-versus-unmarked likelihood ratio serving as the detection statistic. The complementary perplexity-based detection statistic operates on the intuition that generative-model output exhibits systematically lower perplexity under the reference model than authentic human text,
 
-$$\text{PPL}(x) = \exp\left(-\frac{1}{|x|} \sum_{i} \log p_{\text{ref}}(x_i \mid x_{<i})\right)$$
+$$
+\text{PPL}(x) = \exp\left(-\frac{1}{|x|} \sum_{i} \log p_{\text{ref}}(x_i \mid x_{<i})\right)
+\tag{23}
+$$
 
 with the detection thresholding on $\text{PPL}(x) < \tau_{\text{PPL}}$. The paraphrase-attack degradation of watermarking allows characterization via the bit-error-rate under paraphrase transformation
 
-$$\text{BER}_{\text{para}}(x, x') = \frac{|\{i : w_i(x) \neq w_i(x')\}|}{|w(x)|}$$
+$$
+\text{BER}_{\text{para}}(x, x') = \frac{|\{i : w_i(x) \neq w_i(x')\}|}{|w(x)|}
+\tag{24}
+$$
 
 with $w(x)$ the recovered watermark bits and $x'$ the paraphrased text. The generative-model countermeasure landscape remains unresolved and is treated further in the closing article.
 
@@ -229,27 +301,42 @@ Follower purchase refers to the acquisition of follower-count on a social-media 
 
 The pricing structure of follower purchase reduces to approximately
 
-$$p_{\text{follower}} \in [10^{-4}, 10^{-2}] \text{ USD per follower}$$
+$$
+p_{\text{follower}} \in [10^{-4}, 10^{-2}] \text{ USD per follower}
+\tag{25}
+$$
 
 with the lower bound reflecting low-quality bot followers on high-tolerance platforms and the upper bound reflecting medium-quality followers on higher-enforcement platforms. The [NY Attorney General v 2019][ref_ny_ag_devumi_2019] enforcement action addressed a follower-purchase marketplace with documented revenue of approximately fifteen million USD across approximately four years of operation, with per-follower prices in the range of one to two cents. The [FTC v Devumi 2019][ref_ftc_devumi_2019] parallel federal action established the FTC's application of Section 5 to the follower-purchase industry.
 
 The empirical prevalence of purchased followers on major social platforms varies by platform and account category. Contemporary estimates from platform-integrity reporting and academic detection studies place the fraction of purchased or otherwise inauthentic followers on major social platforms in the range
 
-$$p_{\text{fake-follower}} \in [0.05, 0.30]$$
+$$
+p_{\text{fake-follower}} \in [0.05, 0.30]
+\tag{26}
+$$
 
 for typical accounts and higher for accounts in categories with high follower-count commercial value (influencer marketing, cryptocurrency promotion, political mobilization). The [Meta Adversarial Threat Report][ref_meta_atr] and the [X Transparency Report][ref_x_transparency_report] provide the platform-industry disclosure.
 
 The detection signatures for purchased followers include the individual bot-account signatures documented in [Cresci 2020][research_cresci_2020] and [Yang et al. 2019][research_yang_et_al_2020], plus follower-graph anomalies including sudden follower-count increases inconsistent with organic growth patterns, follower-account clustering (many followers exhibiting similar creation patterns and behavioral signatures), and geographic-anomaly patterns (followers concentrated in click-farm-associated geographies). The [X Platform Manipulation and Spam Policy][ref_x_platform_manipulation_policy] and the [Instagram Community Guidelines authenticity section][ref_instagram_authenticity_guidelines] establish the platform-side policy framework. The academic detection literature is supported by standing datasets including the [Cresci-2015 Fake Followers Dataset][ref_cresci_2015_dataset] and the [Cresci-2017 Genuine and Spambot Dataset][ref_cresci_2017_dataset] that provide labeled bot and human account samples, and the [Bot Repository Indiana OSoMe][ref_bot_repository] that consolidates the field's standing reference corpora. Follower-to-engagement-ratio anomaly is a standard detection statistic characterizing the mismatch between purchased inauthentic followers and authentic engagement on the buyer's content,
 
-$$\rho_i^{\text{follow-engage}} = \frac{\bar{e}_i}{F_i}$$
+$$
+\rho_i^{\text{follow-engage}} = \frac{\bar{e}_i}{F_i}
+\tag{27}
+$$
 
 with $\bar{e}\_i$ the mean per-post engagement and $F_i$ the follower count. Accounts with purchased followers exhibit anomalously low $\rho^{\text{follow-engage}}$ compared to authentic-follower baselines in the same account category. The organic-follower-growth rate follows a logistic trajectory characterized by
 
-$$\frac{dF_i}{dt} = r \, F_i \left(1 - \frac{F_i}{K}\right)$$
+$$
+\frac{dF_i}{dt} = r \, F_i \left(1 - \frac{F_i}{K}\right)
+\tag{28}
+$$
 
 with $r$ the growth-rate parameter and $K$ the account-specific ceiling. Purchase-driven follower-count changes appear as step-function perturbations to the logistic trajectory, admitting detection via change-point analysis. The purchased-follower survival distribution over time exhibits characteristic decay as platform detection removes accounts,
 
-$$S_{\text{purchased}}(t) = e^{-\lambda_{\text{enforce}} t} \cdot S_{\text{purchased}}(0)$$
+$$
+S_{\text{purchased}}(t) = e^{-\lambda_{\text{enforce}} t} \cdot S_{\text{purchased}}(0)
+\tag{29}
+$$
 
 with $\lambda_{\text{enforce}}$ the platform's per-account removal hazard for detected purchased followers. Contemporary platform enforcement produces half-lives on the order of weeks-to-months for detected purchased followers, which explains the observed post-purchase follower-count decay pattern on major social platforms. The [Cresci et al. 2017][research_cresci_et_al_2017] Paradigm-Shift of Social Spambots treatment documents the technique-evolution history and the corresponding detection-adaptation dynamic.
 
@@ -257,7 +344,10 @@ with $\lambda_{\text{enforce}}$ the platform's per-account removal hazard for de
 
 Engagement purchase extends the follower-purchase model to the transactional engagement signals (likes, comments, shares, saves, story views, video views) that platforms use as inputs to ranking algorithms. The marketplace pricing per engagement action is generally in the range
 
-$$p_{\text{engagement}} \in [10^{-4}, 10^{-2}] \text{ USD per action}$$
+$$
+p_{\text{engagement}} \in [10^{-4}, 10^{-2}] \text{ USD per action}
+\tag{30}
+$$
 
 with per-action pricing structured similarly to follower purchase. Engagement pods are a distinct organizational form in which participants coordinate to exchange authentic engagement on each other's content, which produces authentic account signal but inauthentic content-quality signal from the platform's perspective. The [Weerkamp and de Rijke 2012][research_weerkamp_derijke_2012] Credibility-Inspired Ranking treatment surveys the underlying algorithmic assumptions that pod coordination exploits.
 
@@ -265,7 +355,10 @@ The [Ellis Ott 2018][ref_ellis_ott_2018_pods] The Atlantic investigation documen
 
 The detection signatures for engagement-purchase include the temporal-anomaly patterns (engagement bursts inconsistent with the natural arrival rate for content of the observed quality), the engagement-source-account signatures (bot-account signatures for automated engagement, click-farm-account signatures for human engagement), and the engagement-content-mismatch patterns (engagement content unrelated to the target content). The detection of engagement pods requires different signatures because the participating accounts are authentic and the engagement content is often plausible. Pod detection typically relies on graph-clustering of the engagement pattern and on the account-clustering of frequent pod participants. Pod participation supports characterization via the reciprocity-and-clustering coefficient over the account-engagement graph,
 
-$$\rho_{\text{pod}}(G) = \frac{|\{(i,j) : (i \to j) \wedge (j \to i)\}|}{|E(G)|} \cdot C(G)$$
+$$
+\rho_{\text{pod}}(G) = \frac{|\{(i,j) : (i \to j) \wedge (j \to i)\}|}{|E(G)|} \cdot C(G)
+\tag{31}
+$$
 
 with the first factor the reciprocity ratio (fraction of engagement edges that are mutual) and $C(G)$ the graph clustering coefficient. Pod-participating account subgraphs exhibit anomalously high $\rho_{\text{pod}}$ compared to the platform-baseline distribution. The [Weller 2019][research_weller_et_al_2019] Understanding Cross-Platform Sharing and Engagement Pod Dynamics treatment provides the initial academic characterization.
 
@@ -275,7 +368,10 @@ View-count inflation on video platforms including YouTube and TikTok operates th
 
 Impression inflation on display-advertising platforms operates through the ad-fraud infrastructure documented in [Pearce et al. 2014][research_pearce_et_al_2014] Characterizing Large-Scale Click Fraud in ZeroAccess and the [White Ops Methbot report 2016][ref_white_ops_methbot_2016] documenting a large-scale programmatic-advertising fraud operation. The [IAB Ad Fraud Report][ref_iab_ad_fraud_report] and the [MRC Media Rating Council Viewability Standards][ref_mrc_viewability_standards] provide the industry-side reference framework. Impression inflation intersects with reputation manipulation where the inflated impressions produce social-proof signals used in downstream ranking or reputation contexts. View-fraud detection typically operates on the IP-diversity Shannon entropy of the view-source distribution,
 
-$$H_{\text{view-source}} = -\sum_{a} p_a \log p_a$$
+$$
+H_{\text{view-source}} = -\sum_{a} p_a \log p_a
+\tag{32}
+$$
 
 with $p_a$ the fraction of views originating from address block $a$. Authentic views produce high $H_{\text{view-source}}$ close to the platform's user-population baseline; view-fraud operations often produce anomalously low $H_{\text{view-source}}$ concentrated on a small set of infrastructure-associated address blocks.
 
@@ -291,25 +387,40 @@ The [Google Webmaster Guidelines][ref_google_webmaster_guidelines] establish the
 
 The PageRank algorithm underlying much of the ranking-signal architecture is treated in [Brin and Page 1998][research_page_brin_1998] The Anatomy of a Large-Scale Hypertextual Web Search Engine and the extended [Page Brin Motwani Winograd 1999][research_page_brin_motwani_winograd_1999] treatment. Manipulation targets the PageRank recurrence
 
-$$\text{PR}(p) = \frac{1 - d}{N} + d \sum_{q \in B_p} \frac{\text{PR}(q)}{L(q)}$$
+$$
+\text{PR}(p) = \frac{1 - d}{N} + d \sum_{q \in B_p} \frac{\text{PR}(q)}{L(q)}
+\tag{33}
+$$
 
 with $\text{PR}(p)$ the PageRank of page $p$, $B_p$ the set of pages linking to $p$, $L(q)$ the outbound link count of $q$, $d$ the damping factor typically set near 0.85, and $N$ the total page count. Manipulation operates through construction of $B_p$ (the inbound-link set) to inflate the summed PageRank contribution, which in turn increases the target page's rank position on subsequent search queries.
 
 The [Gyongyi and Garcia-Molina 2005][research_gyongyi_garciamolina_2005] Web Spam Taxonomy treatment classified the manipulation-technique inventory circa 2005 and remains the reference classification. The [Ntoulas et al. 2006][research_ntoulas_et_al_2006] Detecting Spam Web Pages through Content Analysis introduced the content-based detection framework. The [Castillo et al. 2007][research_castillo_et_al_2007] Know Your Neighbors Web Spam Detection using the Web Topology introduced the graph-topology detection framework. The PageRank-manipulation return per additional inbound link can be characterized as the marginal derivative
 
-$$\frac{\partial \text{PR}(p)}{\partial |B_p|} = \frac{d}{|B_p| + 1} \cdot \bar{\text{PR}}_{B_p}$$
+$$
+\frac{\partial \text{PR}(p)}{\partial |B_p|} = \frac{d}{|B_p| + 1} \cdot \bar{\text{PR}}_{B_p}
+\tag{34}
+$$
 
 with $\bar{\text{PR}}\_{B_p}$ the average PageRank of the inbound-link set. The ranking-position shift produced by a rank increase depends on the density of the local rank-neighborhood and follows approximately
 
-$$\Delta \text{rank} \approx -\frac{\partial N_{<\rho}}{\partial \rho} \cdot \Delta \rho$$
+$$
+\Delta \text{rank} \approx -\frac{\partial N_{<\rho}}{\partial \rho} \cdot \Delta \rho
+\tag{35}
+$$
 
 with $N_{<\rho}$ the count of pages with rank score below $\rho$ and $\Delta \rho$ the rank-score change. The click-through gain from a position shift follows the position-decay characterization of the framing article. The [TrustRank propagation algorithm][ref_gyongyi_2004_trustrank_paper] extension proposed in the anti-spam literature propagates trust from a seed set of hand-labeled trusted pages via the recurrence
 
-$$t(p) = (1 - d) \, \mathbb{1}[p \in S_{\text{seed}}] + d \sum_{q \in B_p} \frac{t(q)}{L(q)}$$
+$$
+t(p) = (1 - d) \, \mathbb{1}[p \in S_{\text{seed}}] + d \sum_{q \in B_p} \frac{t(q)}{L(q)}
+\tag{36}
+$$
 
 with $S_{\text{seed}}$ the trusted-seed set and the trust score $t(p)$ decaying with graph distance from the seed. Spam-oriented sites typically receive low $t(p)$ due to weak connectivity to the trusted seed, admitting detection via the trust-rank threshold. Cloaking detection operates on the differential between the content served to the search-engine crawler and the content served to human visitors,
 
-$$\Delta_{\text{cloak}}(p) = d_{\text{content}}(C_{\text{crawler}}(p), C_{\text{human}}(p))$$
+$$
+\Delta_{\text{cloak}}(p) = d_{\text{content}}(C_{\text{crawler}}(p), C_{\text{human}}(p))
+\tag{37}
+$$
 
 with $d_{\text{content}}$ a content-distance metric and $C_{\cdot}(p)$ the content served to the respective user-agent class.
 
@@ -317,7 +428,10 @@ with $d_{\text{content}}$ a content-distance metric and $C_{\cdot}(p)$ the conte
 
 App-store optimization (ASO) gaming targets the ranking algorithms on the [Apple App Store][ref_apple_app_store_review_guidelines] and [Google Play Store][ref_google_play_developer_policy]. Techniques include keyword manipulation in app metadata, download-count inflation through automated or click-farm-driven downloads, and review manipulation through the mechanisms treated in the review-manipulation class above. Download-velocity manipulation admits detection via the standardized deviation
 
-$$z_{\text{download}}(t) = \frac{D(t) - \bar{D}_{\text{category}}(t)}{\sigma_{D,\text{category}}(t)}$$
+$$
+z_{\text{download}}(t) = \frac{D(t) - \bar{D}_{\text{category}}(t)}{\sigma_{D,\text{category}}(t)}
+\tag{38}
+$$
 
 with $D(t)$ the app's download rate at time $t$ and $\bar{D}\_{\text{category}}$, $\sigma_{D,\text{category}}$ the category-baseline moments. Manipulation-driven download bursts produce $z_{\text{download}}$ above the anomaly threshold typically set at $z > 3$. The [Ali 2017][research_ali_et_al_2017] Same Same but Different Search Advertising and Users' Attention treatment surveys the ranking-algorithm-adjacent research. The [D'Ambrosio 2018][research_dambrosio_et_al_2018] treatment analyzes the app-review manipulation ecosystem.
 
@@ -331,21 +445,33 @@ Sybil attacks refer to the technical variant of sockpuppetry in which the false 
 
 The Sybil-detection literature includes [Yu et al. 2006][research_yu_et_al_2006] SybilGuard Defending Against Sybil Attacks via Social Networks, [Yu et al. 2008][research_yu_et_al_2008] SybilLimit A Near-Optimal Social Network Defense against Sybil Attacks, [Danezis and Mittal 2009][research_danezis_mittal_2009] SybilInfer Detecting Sybil Nodes using Social Networks, [Cao et al. 2012][research_cao_et_al_2012] Aiding the Detection of Fake Accounts in Large Scale Social Networks, and [Alvisi et al. 2013][research_alvisi_et_al_2013] SoK The Evolution of Sybil Defense via Social Networks. The [Yu et al. 2006][research_yu_et_al_2006] SybilGuard framework establishes the bound on Sybil-region size under the random-walk-mixing-time assumption
 
-$$|S_{\text{Sybil}}| \leq O(\sqrt{n \log n})$$
+$$
+|S_{\text{Sybil}}| \leq O(\sqrt{n \log n})
+\tag{39}
+$$
 
 with $n$ the honest-region size, subject to the assumption that Sybil-honest graph attack-edges are bounded and that the honest region is fast-mixing. The Sybil-detection statistic based on graph conductance identifies the Sybil-region cut as the minimum-conductance partition
 
-$$\Phi(S) = \frac{|E(S, \bar{S})|}{\min(|E(S)|, |E(\bar{S})|)}$$
+$$
+\Phi(S) = \frac{|E(S, \bar{S})|}{\min(|E(S)|, |E(\bar{S})|)}
+\tag{40}
+$$
 
 with the Sybil region admitting characterization as the subset $S$ that achieves anomalously low $\Phi(S)$ relative to the null-model conductance distribution. The detection accuracy under the social-graph-based approaches depends on the assumption that Sybil accounts have limited authentic-account connections; the assumption has weakened as Sybil operators have invested in constructing plausible connection graphs.
 
 The economic characterization of a Sybil operation includes the identity-construction cost treated above plus the ongoing maintenance cost for activity generation. The aggregate Sybil-network operation cost permits characterization as
 
-$$C_{\text{Sybil}}(N, T) = c_{\text{setup}} + N \cdot (c_{\text{ident}} + T \cdot c_{\text{activity}})$$
+$$
+C_{\text{Sybil}}(N, T) = c_{\text{setup}} + N \cdot (c_{\text{ident}} + T \cdot c_{\text{activity}})
+\tag{41}
+$$
 
 with $N$ the network size, $T$ the operational time horizon, $c_{\text{setup}}$ the operation-level fixed cost, $c_{\text{ident}}$ the per-identity construction cost, and $c_{\text{activity}}$ the per-identity per-unit-time activity cost. Professional Sybil operations at contemporary marketplace scale achieve unit costs supporting network sizes in the range
 
-$$N \in [10^3, 10^6] \text{ Sybil accounts per operation}$$
+$$
+N \in [10^3, 10^6] \text{ Sybil accounts per operation}
+\tag{42}
+$$
 
 with the upper bound reached by state-sponsored or well-funded commercial operators.
 
@@ -357,11 +483,17 @@ The [Bradshaw and Howard 2019][research_bradshaw_howard_2019] Global Disinformat
 
 Cross-platform amplification produces content-appearance-correlation across platforms that allows detection through the cross-platform Pearson correlation of content appearance timestamps
 
-$$r_{\text{cross}}(P_1, P_2) = \frac{\sum_c (t_c^{P_1} - \bar{t}^{P_1})(t_c^{P_2} - \bar{t}^{P_2})}{\sqrt{\sum_c (t_c^{P_1} - \bar{t}^{P_1})^2 \sum_c (t_c^{P_2} - \bar{t}^{P_2})^2}}$$
+$$
+r_{\text{cross}}(P_1, P_2) = \frac{\sum_c (t_c^{P_1} - \bar{t}^{P_1})(t_c^{P_2} - \bar{t}^{P_2})}{\sqrt{\sum_c (t_c^{P_1} - \bar{t}^{P_1})^2 \sum_c (t_c^{P_2} - \bar{t}^{P_2})^2}}
+\tag{43}
+$$
 
 with $t_c^{P}$ the timestamp of content $c$ appearing on platform $P$. Coordinated cross-platform amplification produces $r_{\text{cross}}$ close to unity for tightly coordinated operations. The amplification-cascade decay follows the reach recurrence
 
-$$R_{\text{cascade}}(t+1) = R_{\text{cascade}}(t) \cdot \eta \cdot (1 - \frac{R_{\text{cascade}}(t)}{\bar{R}})$$
+$$
+R_{\text{cascade}}(t+1) = R_{\text{cascade}}(t) \cdot \eta \cdot (1 - \frac{R_{\text{cascade}}(t)}{\bar{R}})
+\tag{44}
+$$
 
 with $\eta$ the per-step amplification gain and $\bar{R}$ the reach ceiling set by the audience-network size. Cross-platform detection requires cross-platform data-sharing infrastructure that has developed slowly due to platform competition and privacy considerations. The [Global Internet Forum to Counter Terrorism (GIFCT)][ref_gifct] and the [Meta Threat Report cross-platform sections][ref_meta_atr] represent the emerging cross-platform coordination infrastructure. The academic [Cross-Platform Sharing Dataset][ref_cross_platform_sharing_dataset] provides one standing empirical resource.
 
@@ -373,19 +505,31 @@ Click farm operations occupy an intermediate detection difficulty because the in
 
 The throughput characterization of a click farm supports estimation as
 
-$$\Lambda_{\text{click-farm}} = N_{\text{operator}} \cdot h \cdot r$$
+$$
+\Lambda_{\text{click-farm}} = N_{\text{operator}} \cdot h \cdot r
+\tag{45}
+$$
 
 with $N_{\text{operator}}$ the operator count, $h$ the hours per operator per day, and $r$ the actions per operator-hour. Contemporary click farms achieve throughput in the range
 
-$$\Lambda \in [10^4, 10^6] \text{ actions per day per operation}$$
+$$
+\Lambda \in [10^4, 10^6] \text{ actions per day per operation}
+\tag{46}
+$$
 
 with the upper bound reached by large industrial operations. The task-queuing model for click-farm operations follows the standard M/M/c queue characterization
 
-$$L_q = \frac{(N_{\text{op}} \rho)^{N_{\text{op}}} \rho}{N_{\text{op}}! (1 - \rho)^2} P_0$$
+$$
+L_q = \frac{(N_{\text{op}} \rho)^{N_{\text{op}}} \rho}{N_{\text{op}}! (1 - \rho)^2} P_0
+\tag{47}
+$$
 
 with $\rho$ the operator utilization, $N_{\text{op}}$ the operator count, and $P_0$ the probability of zero queue occupancy, and provides the throughput-versus-latency tradeoff characterization for the operation-management perspective. Geographic-anomaly detection for click-farm-originating activity operates on the geographic entropy of the account-origin distribution restricted to click-farm-associated regions,
 
-$$H_{\text{geo}}^{\text{restrict}} = -\sum_{g \in G_{\text{cf}}} p_g \log p_g$$
+$$
+H_{\text{geo}}^{\text{restrict}} = -\sum_{g \in G_{\text{cf}}} p_g \log p_g
+\tag{48}
+$$
 
 with $G_{\text{cf}}$ the set of click-farm-associated geographic regions and $p_g$ the fraction of activity originating from region $g$. Click-farm-heavy operations exhibit anomalously low $H_{\text{geo}}^{\text{restrict}}$ concentrated on small operator-hub subsets of $G_{\text{cf}}$.
 
@@ -393,7 +537,10 @@ with $G_{\text{cf}}$ the set of click-farm-associated geographic regions and $p_
 
 State-sponsored information operations documented in [DiResta et al. 2019][research_diresta_et_al_2019], [Rid 2020][book_rid_2020] Active Measures, and the [Mueller Report 2019][ref_mueller_report_2019] Volume One primarily target political outcomes but produce spillover effects on commercial reputation through the operations' amplification of commercial narratives, disparagement of commercial actors, and creation of adversarial-content ecosystems that individual commercial actors then engage with as a background environment. State-attribution inference from technical fingerprints (infrastructure reuse, code fingerprints, operational-security patterns, language-and-timezone signatures) has the form the Bayesian posterior
 
-$$\Pr(\text{state} = s \mid \mathbf{F}) = \frac{\Pr(\mathbf{F} \mid s) \pi(s)}{\sum_{s'} \Pr(\mathbf{F} \mid s') \pi(s')}$$
+$$
+\Pr(\text{state} = s \mid \mathbf{F}) = \frac{\Pr(\mathbf{F} \mid s) \pi(s)}{\sum_{s'} \Pr(\mathbf{F} \mid s') \pi(s')}
+\tag{49}
+$$
 
 with $\mathbf{F}$ the observed fingerprint vector and $\pi(s)$ the prior over candidate state actors. The [Bradshaw et al. 2021][research_bradshaw_bailey_howard_2021] Industrialized Disinformation cross-national survey characterizes the scale of state-sponsored operations. The [Bright 2020][research_bright_et_al_2020] Coordinated Behavior on Social Media treatment surveys the coordinated-behavior detection literature applicable across political and commercial contexts.
 
@@ -407,7 +554,10 @@ Corporate astroturfing operations have been documented across the tobacco, oil, 
 
 The corporate-astroturfing detection signatures include coordination patterns across ostensibly independent voices, funding-trail patterns linking apparent grassroots organizations to corporate funding, message-timing patterns showing coordinated release across the astroturfed voice population, and text-similarity patterns showing shared templates. The astroturf-coordination z-score for release-timing anomaly follows
 
-$$z_{\text{coord}} = \frac{\text{(observed simultaneous releases)} - \mu_{\text{null}}}{\sigma_{\text{null}}}$$
+$$
+z_{\text{coord}} = \frac{\text{(observed simultaneous releases)} - \mu_{\text{null}}}{\sigma_{\text{null}}}
+\tag{50}
+$$
 
 with $\mu_{\text{null}}$ and $\sigma_{\text{null}}$ the null-hypothesis distribution parameters under an independent-release model. Astroturf operations typically exhibit $z_{\text{coord}} > 5$ during active-campaign windows. The [Cho et al. 2011][research_cho_et_al_2011] Astroturfing detection framework introduced the academic detection methodology. The [Ratkiewicz et al. 2011][research_ratkiewicz_et_al_2011] Detecting and Tracking Political Abuse in Social Media (Truthy) introduced the social-media-specific detection framework.
 
@@ -415,11 +565,17 @@ with $\mu_{\text{null}}$ and $\sigma_{\text{null}}$ the null-hypothesis distribu
 
 Political astroturfing operates through similar techniques as corporate astroturfing but with objectives oriented at electoral, policy, or narrative outcomes. The [King et al. 2017][research_king_pan_roberts_2017] How the Chinese Government Fabricates Social Media Posts documents the Chinese "50 Cent Army" state-directed social-media astroturfing at scale, estimating an aggregate volume of approximately
 
-$$V_{\text{50-cent}} \approx 4.4 \times 10^8 \text{ posts per year}$$
+$$
+V_{\text{50-cent}} \approx 4.4 \times 10^8 \text{ posts per year}
+\tag{51}
+$$
 
 concentrated in strategic distraction rather than in engaged argument. The coordinated-posting-timing signature is described by the concentration statistic
 
-$$\text{Conc}(\Delta t) = \frac{|\{p : t_p \in [\Delta t]\}|}{|\text{posts}|}$$
+$$
+\text{Conc}(\Delta t) = \frac{|\{p : t_p \in [\Delta t]\}|}{|\text{posts}|}
+\tag{52}
+$$
 
 with $\Delta t$ a short time window aligned with the operational schedule of the astroturf operators; coordinated operations exhibit anomalously high $\text{Conc}$ within operational time windows aligned with the operators' work schedules. The [Woolley and Howard 2018][book_woolley_howard_2018] Computational Propaganda edited volume surveys the cross-national political-astroturfing landscape. The [Aral 2020][book_aral_2020] Hype Machine consolidates the empirical evidence on political manipulation effects.
 
@@ -435,7 +591,10 @@ Credential and identity fabrication operates through the direct construction of 
 
 Platform verified-badge programs including the [Twitter Verification legacy program][ref_twitter_verification_legacy], the [Instagram Verified badge][ref_instagram_verified], the [LinkedIn ID Verification][ref_linkedin_verification], and the [YouTube channel verification][ref_youtube_verification] provide platform-issued reputation signals intended to authenticate account identity or notability. The badges have been targeted by manipulation operations that acquire badges through documentation fabrication, insider access, or purchase from insider brokers. The [Musk-era Twitter Blue paid verification][ref_x_blue] represents the shift from earned to purchased verification on that platform, with the resulting signal-informativeness decline documented in [Marino 2023][research_marino_et_al_2023] Effects of Removing Twitter Blue Verification. The signal-informativeness delta produced by the earned-to-paid transition is described by the mutual-information change
 
-$$\Delta I_{\text{verify}} = I(\text{authentic} ; \text{badge}_{\text{earned}}) - I(\text{authentic} ; \text{badge}_{\text{paid}})$$
+$$
+\Delta I_{\text{verify}} = I(\text{authentic} ; \text{badge}_{\text{earned}}) - I(\text{authentic} ; \text{badge}_{\text{paid}})
+\tag{53}
+$$
 
 with the first term the mutual information between the authenticity-attribute and the earned-verification badge and the second term the analogous quantity for the paid-verification badge. Empirical estimates from the [Marino 2023][research_marino_et_al_2023] treatment indicate $\Delta I_{\text{verify}} > 0$ substantially, reflecting the informativeness collapse under the transition.
 
@@ -443,7 +602,10 @@ with the first term the mutual information between the authenticity-attribute an
 
 Professional-credential fabrication operates through claims of academic degrees, professional certifications, employment history, or awards that are not held by the claimant. The academic-degree-fraud literature includes [Ezell and Bear 2005][book_ezell_bear_2005] Degree Mills the surveying treatment of degree-fraud industry. Credential-fraud detection accuracy under standard verification protocols depends on the accessibility and quality of the issuing-body verification infrastructure and admits characterization via the confusion-matrix accuracy
 
-$$\text{Acc}_{\text{cred}} = \frac{|\text{correctly classified}|}{|\text{all}|} = \Pr(\text{verify} \mid \text{authentic}) \cdot \pi_{\text{authentic}} + \Pr(\neg \text{verify} \mid \text{fabricated}) \cdot (1 - \pi_{\text{authentic}})$$
+$$
+\text{Acc}_{\text{cred}} = \frac{|\text{correctly classified}|}{|\text{all}|} = \Pr(\text{verify} \mid \text{authentic}) \cdot \pi_{\text{authentic}} + \Pr(\neg \text{verify} \mid \text{fabricated}) \cdot (1 - \pi_{\text{authentic}})
+\tag{54}
+$$
 
 with $\pi_{\text{authentic}}$ the base-rate authentic-credential prevalence. The professional-certification-fraud domain is estimated by through the [PMP Institute fraud detection][ref_pmi_fraud] and adjacent professional-body detection infrastructure. The [Anti-Cheating and Certification Fraud Coalition][ref_accfc] provides one industry reference resource.
 
@@ -459,15 +621,24 @@ Reputation laundering refers to the practice of transferring reputation from a s
 
 Endorsement acquisition operates through the payment for or exchange with credibility-carrying endorsers whose reputation transfers to the target through the endorsement. The endorsement-value-transfer coefficient takes the form the fraction of the endorser's reputation that transfers to the endorsed target,
 
-$$V_{\text{transfer}}(E \to T) = \kappa_{E,T} \cdot R_E$$
+$$
+V_{\text{transfer}}(E \to T) = \kappa_{E,T} \cdot R_E
+\tag{55}
+$$
 
 with $\kappa_{E,T}$ the transfer-coefficient dependent on the endorsement channel, the perceived material connection, and the target-endorser category match, and $R_E$ the endorser's reputation stock. The transfer coefficient is bounded by unity and typically ranges
 
-$$\kappa \in [0.01, 0.30]$$
+$$
+\kappa \in [0.01, 0.30]
+\tag{56}
+$$
 
 with the lower bound reflecting distant category match and the upper bound reflecting close category match with high-trust endorser. The disclosure-effect coefficient measures the change in the transfer coefficient produced by mandatory material-connection disclosure,
 
-$$\Delta \kappa_{\text{disclose}} = \kappa_{\text{undisclosed}} - \kappa_{\text{disclosed}}$$
+$$
+\Delta \kappa_{\text{disclose}} = \kappa_{\text{undisclosed}} - \kappa_{\text{disclosed}}
+\tag{57}
+$$
 
 with the FTC endorsement-guides policy analysis in [Boerman 2018][research_boerman_et_al_2018] and related work estimating $\Delta \kappa_{\text{disclose}}$ in the range of ten to forty percent for consumer-focused endorsements, which sets the informational-value of disclosure enforcement. The technique class has been the primary subject of the [FTC Endorsement Guides 16 CFR Part 255][ref_ftc_endorsement_guides_16_cfr_255] and the [FTC Endorsement Guides FAQ][ref_ftc_endorsement_faq] material-connection-disclosure framework. The enforcement history includes the [FTC 2011 warning letters to bloggers][ref_ftc_2011_blogger_warnings], the [FTC 2015 Machinima settlement][ref_ftc_machinima_2015] on YouTube gaming influencer disclosure, the [FTC 2016 Warner Brothers settlement][ref_ftc_warner_2016] on undisclosed sponsored coverage of Shadow of Mordor, the [FTC 2017 Individual Influencer Warning Letters][ref_ftc_influencer_letters_2017], and the [SEC v Kardashian 2022][ref_sec_kardashian_2022] action addressing undisclosed cryptocurrency promotion.
 
@@ -475,7 +646,10 @@ with the FTC endorsement-guides policy analysis in [Boerman 2018][research_boerm
 
 Cross-platform reputation transfer operates through cross-linking that leverages reputation earned on one platform to establish credibility on another platform. The technique class includes legitimate uses (transferring an academic reputation to a general-audience blog) and manipulative uses (using purchased followers or fabricated credentials on one platform to establish apparent credibility on another). The cross-platform-transfer decay follows the exponential form
 
-$$R_T^{P_2}(t) = R_T^{P_1}(0) \cdot \kappa_{P_1 \to P_2} \cdot e^{-\gamma t}$$
+$$
+R_T^{P_2}(t) = R_T^{P_1}(0) \cdot \kappa_{P_1 \to P_2} \cdot e^{-\gamma t}
+\tag{58}
+$$
 
 with $\kappa_{P_1 \to P_2}$ the platform-pair-specific transfer coefficient and $\gamma$ the reputation-decay rate on the target platform. The [Chen 2019][research_chen_et_al_2019] Cross-Platform Identity Linkage treatment surveys the underlying identity-linkage detection literature relevant to manipulation-monitoring.
 
@@ -483,7 +657,10 @@ with $\kappa_{P_1 \to P_2}$ the platform-pair-specific transfer coefficient and 
 
 Acquisition-based laundering operates through the purchase of established websites, social-media accounts, or businesses to inherit the target's accumulated reputation for redirection to the acquirer's purposes. The technique class has been documented in the [Kanich 2011][research_kanich_et_al_2011] No Plan Survives Contact Experience with Cybercrime Measurement treatment of the domain-market abuse ecosystem, and in the [Krebs 2013][ref_krebs_2013_expired_domains] documentation of the expired-domain reputation-transfer ecosystem. The domain-age reputation value function permits characterization as an increasing function of age
 
-$$V_{\text{domain}}(a) = V_0 \, \bigl(1 - e^{-\alpha a}\bigr)$$
+$$
+V_{\text{domain}}(a) = V_0 \, \bigl(1 - e^{-\alpha a}\bigr)
+\tag{59}
+$$
 
 with $a$ the domain age since first content publication and $\alpha$ the reputation-saturation rate. The value asymptotes to $V_0$ for domains of considerable age, which sets the acquisition-target-selection heuristic for the laundering-oriented buyer population. The [Miramirkhani et al. 2017][research_miramirkhani_et_al_2016] Dial One For Scam Analyzing the Technical Support Scam Ecosystem treatment analyzes the adjacent scam-ecosystem infrastructure.
 
@@ -493,19 +670,28 @@ The self-promotion technique inventory allows systematic characterization along 
 
 The signal axis characterization varies markedly across techniques. Individual review fabrication produces low-volume single-channel signal on the review channel. Coordinated review campaigns produce medium-volume single-channel signal on the review channel with coordination in the injection pattern. Sockpuppet networks produce medium-to-high-volume single-channel signal with persistent identity infrastructure. Follower purchase produces high-volume single-channel signal on the follower channel. Engagement purchase produces high-volume single-channel signal on the engagement channel. Click farm operations produce high-volume multi-channel signal with human-operator fidelity. Generative-model-produced content produces very-high-volume potentially-multi-channel signal at collapsed cost. Cross-platform amplification produces medium-volume multi-channel signal with cross-channel coordination. Astroturfing produces medium-volume multi-channel signal with narrative coordination across the operator population. The signal-axis position of each technique class is summarized by the tuple
 
-$$\mathbf{a}_k^{\text{signal}} = (v_k, C_k, f_k, X_k)$$
+$$
+\mathbf{a}_k^{\text{signal}} = (v_k, C_k, f_k, X_k)
+\tag{60}
+$$
 
 with $v_k$ the signal volume rate, $C_k$ the channel-count dimension, $f_k$ the injection fidelity, and $X_k$ the cross-channel amplification factor.
 
 The objective axis characterization for self-promotion techniques uniformly optimizes for the actor's own reputation-signal outcome, but the optimization target varies. Rating-manipulation techniques target rating uplift. Follower-purchase techniques target follower-count uplift. Engagement-purchase techniques target engagement-metric uplift feeding into ranking-algorithm inputs. Search-manipulation techniques target ranking-position uplift. Credential-fabrication techniques target credential-based reputation transfer. Astroturfing techniques target apparent-popular-support production. The objective-axis position of each technique class reduces to the utility functional
 
-$$U_k(\mathbf{x}) = \lambda_k^{\text{rating}} g_{\text{rating}}(\mathbf{x}) + \lambda_k^{\text{follow}} g_{\text{follow}}(\mathbf{x}) + \lambda_k^{\text{engage}} g_{\text{engage}}(\mathbf{x}) + \lambda_k^{\text{rank}} g_{\text{rank}}(\mathbf{x}) + \lambda_k^{\text{cred}} g_{\text{cred}}(\mathbf{x}) + \lambda_k^{\text{support}} g_{\text{support}}(\mathbf{x})$$
+$$
+U_k(\mathbf{x}) = \lambda_k^{\text{rating}} g_{\text{rating}}(\mathbf{x}) + \lambda_k^{\text{follow}} g_{\text{follow}}(\mathbf{x}) + \lambda_k^{\text{engage}} g_{\text{engage}}(\mathbf{x}) + \lambda_k^{\text{rank}} g_{\text{rank}}(\mathbf{x}) + \lambda_k^{\text{cred}} g_{\text{cred}}(\mathbf{x}) + \lambda_k^{\text{support}} g_{\text{support}}(\mathbf{x})
+\tag{61}
+$$
 
 with the $\lambda_k^{\cdot}$ weights specifying the technique class's objective composition.
 
 The structure axis characterization varies from individual operators (individual review fabrication) through small-firm operators (business owner boosting own listings) through hired reputation-management firms through commercial marketplaces (fake-review platforms, follower-purchase services) through coordinated inauthentic behavior networks through state-sponsored operations. The structure axis is summarized by hierarchy depth $D_k$ and branching factor $B_k$,
 
-$$\mathbf{a}_k^{\text{struct}} = (D_k, B_k, N_k)$$
+$$
+\mathbf{a}_k^{\text{struct}} = (D_k, B_k, N_k)
+\tag{62}
+$$
 
 with $N_k$ the operator population size. Individual operations exhibit $D_k = 1$, $B_k = 1$, $N_k = 1$. Commercial marketplace operations exhibit $D_k \approx 3$-$4$, $B_k \approx 10$-$100$, $N_k \approx 10^3$-$10^5$. State-sponsored operations exhibit $D_k \approx 5$-$7$, $B_k \approx 10$-$30$, $N_k \approx 10^3$-$10^6$.
 
@@ -515,13 +701,19 @@ The interaction axis characterization for self-promotion techniques uniformly in
 
 The adaptation axis characterization varies appreciably across techniques by adaptation velocity. Individual manipulation exhibits slow adaptation. Small-firm operations exhibit moderate adaptation. Commercial marketplaces exhibit rapid adaptation to platform changes with dedicated engineering resources. State-sponsored operations exhibit rapid adaptation with dedicated intelligence-service infrastructure. The adaptation axis operationalizes as the technique-migration time constant $\tau_k$ under the relaxation dynamics
 
-$$\frac{dS_k}{dt} = -\frac{1}{\tau_k}(S_k - S_k^{*}(t)) + \xi_k(t)$$
+$$
+\frac{dS_k}{dt} = -\frac{1}{\tau_k}(S_k - S_k^{*}(t)) + \xi_k(t)
+\tag{63}
+$$
 
 with $S_k$ the technique-and-infrastructure state and $S_k^{\*}(t)$ the environment-dependent optimal response. Commercial and state-sponsored operations achieve $\tau_k$ in the range of days to weeks; individual operations exhibit $\tau_k$ in the range of months to years.
 
 The cross-axis coupling matrix to the self-promotion technique inventory identifies the principal empirical dependencies among axis values. Empirically salient couplings include the structure-signal coupling $\partial a^{\text{signal}} / \partial a^{\text{struct}} > 0$ (larger organizational structure supports higher signal volume), the model-adaptation coupling $\partial a^{\text{adapt}} / \partial a^{\text{model}} > 0$ (more sophisticated technical model supports faster adaptation), and the interaction-signal coupling $\partial a^{\text{signal}} / \partial a^{\text{interact}} \lessgtr 0$ (compliant platform relationship constrains signal volume, adversarial relationship enables higher signal at higher detection risk). The self-promotion cross-axis coupling matrix
 
-$$C^{\text{self-promo}} = \left[\frac{\partial a^b}{\partial a^a}\right]_{a, b \in \text{axes}}$$
+$$
+C^{\text{self-promo}} = \left[\frac{\partial a^b}{\partial a^a}\right]_{a, b \in \text{axes}}
+\tag{64}
+$$
 
 encodes these dependencies and supports estimation from the cross-technique empirical variation in axis positions.
 
@@ -531,7 +723,10 @@ The detection methodology landscape for self-promotion manipulation is treated i
 
 Statistical anomaly detection targets deviations from expected distributional patterns of reviews, followers, engagement, or ranking signals. The methodology includes temporal-anomaly detection (burst detection, arrival-rate anomaly), distributional-anomaly detection (rating-distribution shape anomaly), and demographic-anomaly detection (geographic or account-age distributional anomaly). The generic anomaly-score statistic under the null-model $H_0$ takes the standardized form
 
-$$z_{\text{anomaly}} = \frac{T(\mathbf{x}) - E_{H_0}[T]}{\sqrt{\text{Var}_{H_0}[T]}}$$
+$$
+z_{\text{anomaly}} = \frac{T(\mathbf{x}) - E_{H_0}[T]}{\sqrt{\text{Var}_{H_0}[T]}}
+\tag{65}
+$$
 
 with $T(\mathbf{x})$ the test statistic evaluated on the observed data $\mathbf{x}$. Detection triggers when $\lvert z_{\text{anomaly}} \rvert$ exceeds a chosen threshold, typically calibrated to a desired false-positive rate. The [Kumar 2017][research_kumar_et_al_2017] rating-distribution treatment and the [Xie et al. 2012][research_xie_et_al_2012] temporal-pattern treatment establish the reference methodology.
 
@@ -539,7 +734,10 @@ Network anomaly detection targets structural anomalies in the reviewer-product-b
 
 Machine-learning classifier approaches train on labeled instances of manipulation and non-manipulation and apply the trained classifiers to unlabeled instances. The methodology includes stylometric text classifiers, behavior-pattern classifiers, and multi-modal ensemble classifiers. Ensemble classifier accuracy under standard averaging is captured by
 
-$$P_{\text{ensemble}}(\text{correct}) \geq 1 - \sum_{k=\lceil M/2 \rceil}^{M} \binom{M}{k} p^k (1 - p)^{M - k}$$
+$$
+P_{\text{ensemble}}(\text{correct}) \geq 1 - \sum_{k=\lceil M/2 \rceil}^{M} \binom{M}{k} p^k (1 - p)^{M - k}
+\tag{66}
+$$
 
 with $p$ the individual classifier error rate and $M$ the ensemble size, under the assumption of classifier independence. The classifier-based approach has been the dominant academic detection methodology since the [Ott et al. 2011][research_ott_et_al_2011] treatment, with the classifier-adaptation dynamic under adversarial manipulation-technique evolution treated in [Cresci 2020][research_cresci_2020] and subsequent work.
 
@@ -553,19 +751,28 @@ Platform countermeasures for self-promotion manipulation are treated in depth in
 
 Identity verification countermeasures constrain the account-provenance channel and include phone-number verification, government-ID verification, biometric verification, and the emerging cryptographic-identity attestation frameworks including the [W3C Verifiable Credentials standard][ref_w3c_verifiable_credentials], the [Decentralized Identifiers (DID) standard][ref_w3c_did], and the [C2PA content provenance standard][ref_c2pa_standard]. The identity-verification-cost function increases with verification stringency and creates the tradeoff between manipulation deterrence and user-friction. The composite friction-cost function reduces to
 
-$$C_{\text{verify}}(v) = c_{\text{user-time}}(v) + c_{\text{privacy-loss}}(v) + c_{\text{platform-processing}}(v)$$
+$$
+C_{\text{verify}}(v) = c_{\text{user-time}}(v) + c_{\text{privacy-loss}}(v) + c_{\text{platform-processing}}(v)
+\tag{67}
+$$
 
 with $v$ the verification-stringency parameter and each cost component increasing in $v$. The optimal verification stringency balances the friction cost against the manipulation-deterrence gain, and the platform's first-order condition on $v$ characterizes the equilibrium.
 
 Behavioral analysis countermeasures target the account-behavior patterns that distinguish authentic from inauthentic accounts. The methodology includes rate-limiting to constrain the per-account activity volume, device-fingerprint tracking to detect multi-account operations from single devices, IP-range monitoring, and interaction-pattern analysis. The rate-limit countermeasure imposes the per-account throughput bound
 
-$$\lambda_i^{\text{observed}} \leq \lambda_{\text{max}}, \quad \forall i$$
+$$
+\lambda_i^{\text{observed}} \leq \lambda_{\text{max}}, \quad \forall i
+\tag{68}
+$$
 
 and shifts the manipulation-cost function such that per-account output scales linearly in $N_{\text{account}}$, which increases the account-provenance cost per unit signal output. The effective deterrence condition against a rational manipulator reduces to the framing-article condition on expected penalty exceeding expected reputation gain, and platform enforcement typically targets the account-provenance channel rather than the signal-output channel to raise the manipulation-cost function's convexity.
 
 Content authentication countermeasures target the content-provenance channel through cryptographic content-signing, watermarking, and provenance-attestation. The [C2PA content provenance standard][ref_c2pa_standard], the [Kirchenbauer et al. 2023][research_kirchenbauer_et_al_2023] watermarking framework, and the emerging [Content Authenticity Initiative][ref_content_authenticity_initiative] infrastructure represent the field's current state. The content-provenance verification admits characterization as the signature-validity check
 
-$$V(\text{content}, \sigma) = \mathbb{1}[\text{Verify}(\text{pk}, \text{content}, \sigma)]$$
+$$
+V(\text{content}, \sigma) = \mathbb{1}[\text{Verify}(\text{pk}, \text{content}, \sigma)]
+\tag{69}
+$$
 
 with $\sigma$ the cryptographic signature attached to the content and pk the public key of the claimed origin. Provenance-verified content carries higher signal informativeness than unverified content under the assumption that signature-generation infrastructure is limited to authentic-content producers.
 
@@ -577,11 +784,17 @@ The empirical prevalence estimates for each self-promotion technique class vary 
 
 Individual and coordinated review fabrication prevalence on consumer-review platforms is documented in [Luca and Zervas 2016][research_luca_zervas_2016] for Yelp at approximately sixteen percent filter rate, [He et al. 2022][research_he_hollenbeck_proserpio_2022] for Amazon at approximately thirty percent fake-review estimate in categories, [Mayzlin et al. 2014][research_mayzlin_dover_chevalier_2014] for Tripadvisor at approximately ten to fifteen percent estimate under the natural-experiment methodology, and the [European Commission 2023][ref_ec_2023_sweep] cross-platform sweep at rates varying by category from five to forty percent. The composite category-weighted prevalence estimator under sampling permits characterization as
 
-$$\hat{p}^{\text{comp}} = \sum_c w_c \hat{p}_c, \quad w_c = \frac{n_c}{\sum_{c'} n_{c'}}$$
+$$
+\hat{p}^{\text{comp}} = \sum_c w_c \hat{p}_c, \quad w_c = \frac{n_c}{\sum_{c'} n_{c'}}
+\tag{70}
+$$
 
 with $w_c$ the volume-weighted category weight and $\hat{p}\_c$ the category-specific prevalence estimate, subject to sampling variance
 
-$$\text{Var}(\hat{p}^{\text{comp}}) = \sum_c w_c^2 \cdot \text{Var}(\hat{p}_c)$$
+$$
+\text{Var}(\hat{p}^{\text{comp}}) = \sum_c w_c^2 \cdot \text{Var}(\hat{p}_c)
+\tag{71}
+$$
 
 that allows standard confidence-interval construction under the delta-method approximation.
 
@@ -595,7 +808,10 @@ Generative-model-produced content prevalence has grown rapidly since the 2022 la
 
 The aggregate self-promotion manipulation prevalence across the platform ecosystem is captured by
 
-$$p_{\text{self-promo}}^{\text{aggregate}}(t) = \frac{\sum_c n_c(t) \cdot p_c^{\text{self-promo}}(t)}{\sum_c n_c(t)}$$
+$$
+p_{\text{self-promo}}^{\text{aggregate}}(t) = \frac{\sum_c n_c(t) \cdot p_c^{\text{self-promo}}(t)}{\sum_c n_c(t)}
+\tag{72}
+$$
 
 with $n_c(t)$ the total signal-event volume in category $c$ at time $t$ and $p_c^{\text{self-promo}}(t)$ the category-specific self-promotion prevalence rate. The aggregate estimate under conservative methodology is in the range of ten to twenty percent of the total reputation-signal volume across the surveyed platform ecosystem, with extensive category variation.
 
@@ -638,6 +854,646 @@ The term technique class refers to the analytical grouping of manipulation pract
 - How should the platform-integrity operations, the regulatory framework, and the market response coordinate to reduce the equilibrium self-promotion manipulation intensity, and what is the equilibrium detection intensity that maximizes joint surplus across producer, consumer, and platform welfare?
 
 These questions recur throughout the miniseries and are revisited in the closing synthesis.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 72 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 72, 36 are established and 36 are bespoke.
+Prices are in United States dollars per unit named in each range, rates are per unit time on the platform in question, and most other quantities are dimensionless scores or abstract axis values, while several letters are reused, with $\alpha$ a self-excitation gain in the Hawkes process and a saturation rate in the domain value, $\rho$ an operator utilisation in the queue and a rank score elsewhere, and $\kappa$ a transfer coefficient rather than an agreement statistic.
+
+*Equation 1, Bespoke Six-Axis Technique Vector.*
+The article characterises each self-promotion technique by its positions on the six analytical axes of the framing article.
+
+$$
+\mathbf{a}_k = (a_k^{\text{signal}}, a_k^{\text{obj}}, a_k^{\text{struct}}, a_k^{\text{model}}, a_k^{\text{interact}}, a_k^{\text{adapt}})
+\tag{1}
+$$
+
+*Equation 2, Bespoke Weighted Technique Distance.*
+The article defines the distance between techniques as a weighted sum of axis-specific distances, with weights it leaves to the analyst.
+
+$$
+d(t_j, t_k) = \sum_{c \in \text{axes}} w_c \, \delta_c(a_j^c, a_k^c)
+\tag{2}
+$$
+
+**Equation 3, Aggregate Self-Promotion Volume.**
+The aggregate volume is the sum over techniques and categories of signal-event volume times the prevalence rate.
+
+$$
+V_{\text{self-promo}}(t) = \sum_{k \in \mathcal{T}} \sum_{c \in \text{categories}} n_{k,c}(t) \cdot p_{k,c}(t)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Taxonomy Coverage.*
+The article defines coverage as the fraction of observed manipulation instances that the taxonomy assigns to some technique, a recall analogue.
+
+$$
+\text{Coverage}(\mathcal{T}, \Omega) = \frac{|\{\omega \in \Omega : \exists t_k \in \mathcal{T}, \omega \text{ assigned to } t_k\}|}{|\Omega|}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Stylometric Feature Vector.*
+The article lists the stylometric components that a contemporary fake-review detector takes as input for a review.
+
+$$
+\mathbf{f}_r = (\text{POS-ratios}, \text{n-gram distributions}, \text{lexical richness}, \text{sentiment intensity}, \text{first-person ratio}, \text{superlative rate})
+\tag{5}
+$$
+
+*Equation 6, Bespoke Rating-Shift Model.*
+The article writes the observed rating change as the authentic change plus the injected fake reviews' average rating weighted by their share of all reviews.
+
+$$
+\Delta r_i^{\text{obs}} = \Delta r_i^{\text{authentic}} + n_i^{\text{fake}} \cdot \bar{r}_{\text{fake}} / (N_i + n_i^{\text{fake}})
+\tag{6}
+$$
+
+**Equation 7, Precision, Recall and F1 Score.**
+Precision is the fraction of flagged items that are manipulated, recall is the fraction of manipulated items that are flagged, and the F1 score is their harmonic mean.
+
+$$
+\text{precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}, \quad \text{recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}, \quad F_1 = \frac{2 \cdot \text{precision} \cdot \text{recall}}{\text{precision} + \text{recall}}
+\tag{7}
+$$
+
+**Equation 8, Standardised Arrival-Rate Residual.**
+The burst statistic is the observed review-arrival rate less its historical mean, divided by its historical standard deviation.
+
+$$
+z_{\text{burst}}(t) = \frac{\lambda(t) - \bar{\lambda}}{\sigma_\lambda}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Price Range of a Fabricated Review.*
+The article states a marketplace price of 1 to 30 United States dollars per fabricated review.
+
+$$
+p_{\text{fake-review}} \in [1, 30] \text{ USD per review}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Producer Surplus From Review Manipulation.*
+The article writes the surplus as the rating shift times a revenue coefficient times a sales volume term, less the purchase cost of the injected reviews.
+
+$$
+\pi_i^{\text{manip}} = R_i^{\text{shift}} \cdot v \cdot Q_i - n_i \cdot p_{\text{fake-review}}
+\tag{10}
+$$
+
+**Equation 11, Hawkes Self-Exciting Point Process.**
+The arrival intensity is a baseline rate plus an exponentially decaying contribution from each earlier arrival, the Hawkes process with an exponential kernel.
+
+$$
+\lambda(t) = \mu + \alpha \sum_{t_i < t} e^{-\beta(t - t_i)}
+\tag{11}
+$$
+
+**Equation 12, Jaccard Similarity of N-Gram Sets.**
+The overlap of two reviews is the size of the intersection of their n-gram sets divided by the size of the union.
+
+$$
+\text{sim}_n(r_i, r_j) = \frac{|N_n(r_i) \cap N_n(r_j)|}{|N_n(r_i) \cup N_n(r_j)|}
+\tag{12}
+$$
+
+**Equation 13, Newman Modularity.**
+Modularity compares the edges within communities with the number expected under a degree-preserving random graph.
+
+$$
+Q = \frac{1}{2m} \sum_{ij} \left[A_{ij} - \frac{k_i k_j}{2m}\right] \delta(c_i, c_j)
+\tag{13}
+$$
+
+*Equation 14, Bespoke Sockpuppet Construction Cost.*
+The article writes the cost of a sockpuppet operation as a fixed setup cost plus the number of identities times a marginal cost that falls with scale.
+
+$$
+C_{\text{sockpuppet}}(n) = c_{\text{fixed}} + n \cdot c_{\text{marginal}}(n)
+\tag{14}
+$$
+
+*Equation 15, Bespoke Marginal Identity Cost Range.*
+The article states a marginal cost of 0.5 to 10 United States dollars per sockpuppet identity used for review deposition.
+
+$$
+c_{\text{marginal}} \in [0.5, 10] \text{ USD per identity}
+\tag{15}
+$$
+
+**Equation 16, Cosine Similarity of Behavioural Features.**
+The similarity of two accounts is the inner product of their behavioural feature vectors divided by the product of the vector norms.
+
+$$
+s_{ij}^{\text{behav}} = \frac{\langle \mathbf{f}_i, \mathbf{f}_j\rangle}{\|\mathbf{f}_i\| \cdot \|\mathbf{f}_j\|}
+\tag{16}
+$$
+
+**Equation 17, Bayesian Posterior of Sockpuppet Linkage.**
+Bayes rule for a binary hypothesis gives the posterior probability that two accounts are linked given their behavioural similarity.
+
+$$
+\Pr(\text{sockpuppet}_{ij} \mid s_{ij}^{\text{behav}}) = \frac{p(s_{ij} \mid \text{link}) \pi_{\text{link}}}{p(s_{ij} \mid \text{link}) \pi_{\text{link}} + p(s_{ij} \mid \neg \text{link})(1 - \pi_{\text{link}})}
+\tag{17}
+$$
+
+**Equation 18, Survival Function From a Hazard Rate.**
+The probability that an account remains active at a given time is the exponential of the negative integrated hazard.
+
+$$
+S(t) = \Pr(\text{account active at } t) = e^{-\int_0^t h(\tau) d\tau}
+\tag{18}
+$$
+
+**Equation 19, Naive Bayes Likelihood Ratio.**
+Under conditional independence of the features, the joint likelihood ratio for linkage is the product of the per-feature likelihood ratios.
+
+$$
+\Lambda_{ij}^{\text{sockpuppet}} = \prod_{k \in \text{features}} \frac{p(f_k^{ij} \mid \text{link})}{p(f_k^{ij} \mid \neg \text{link})}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Linear Cost of Generated Reviews.*
+The article approximates the cost of generated reviews as a per-review interface cost times volume plus a fixed prompt-engineering cost, which removes the convexity of the classical cost function.
+
+$$
+c_{\text{LLM-review}}(m) \approx c_{\text{API}} \cdot m + c_{\text{prompt-eng}}
+\tag{20}
+$$
+
+**Equation 21, Detection Accuracy Approaching Chance.**
+As the quality of generated text approaches that of human text, the area under the curve of any detector approaches one half, the result the article attributes to Sadasivan and colleagues.
+[Sadasivan et al. 2023][research_sadasivan_et_al_2023]
+
+$$
+\text{AUC}_{\text{detect}}(q_{\text{gen}}) \to 0.5 \text{ as } q_{\text{gen}} \to q_{\text{human}}
+\tag{21}
+$$
+
+**Equation 22, Log-Likelihood Ratio for Watermark Detection.**
+The information content of a text is the logarithm of the ratio of its likelihood under the watermarked distribution to its likelihood under the unmarked distribution.
+
+$$
+I_{\text{watermark}}(x) = \log \frac{p_{\text{watermarked}}(x)}{p_{\text{unmarked}}(x)}
+\tag{22}
+$$
+
+**Equation 23, Perplexity Under a Reference Model.**
+Perplexity is the exponential of the negative mean log probability of each token given the tokens before it.
+
+$$
+\text{PPL}(x) = \exp\left(-\frac{1}{|x|} \sum_{i} \log p_{\text{ref}}(x_i \mid x_{<i})\right)
+\tag{23}
+$$
+
+**Equation 24, Bit-Error Rate Under Paraphrase.**
+The bit-error rate is the fraction of recovered watermark bits that differ between the original and the paraphrased text.
+
+$$
+\text{BER}_{\text{para}}(x, x') = \frac{|\{i : w_i(x) \neq w_i(x')\}|}{|w(x)|}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Price Range of a Purchased Follower.*
+The article states a price of $10^{-4}$ to $10^{-2}$ United States dollars per purchased follower.
+
+$$
+p_{\text{follower}} \in [10^{-4}, 10^{-2}] \text{ USD per follower}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Fake-Follower Fraction Range.*
+The article summarises the fraction of purchased or inauthentic followers on typical accounts as 5 to 30 per cent.
+
+$$
+p_{\text{fake-follower}} \in [0.05, 0.30]
+\tag{26}
+$$
+
+**Equation 27, Engagement-to-Follower Ratio.**
+The engagement rate of an account is the mean engagement per post divided by the follower count.
+
+$$
+\rho_i^{\text{follow-engage}} = \frac{\bar{e}_i}{F_i}
+\tag{27}
+$$
+
+**Equation 28, Logistic Growth of Organic Followers.**
+The logistic equation describes follower growth that is proportional to the current count and slows as the count approaches an account-specific ceiling.
+
+$$
+\frac{dF_i}{dt} = r \, F_i \left(1 - \frac{F_i}{K}\right)
+\tag{28}
+$$
+
+*Equation 29, Bespoke Constant-Hazard Survival of Purchased Followers.*
+The article assumes a constant removal hazard, so that purchased followers decay exponentially from their initial count.
+
+$$
+S_{\text{purchased}}(t) = e^{-\lambda_{\text{enforce}} t} \cdot S_{\text{purchased}}(0)
+\tag{29}
+$$
+
+*Equation 30, Bespoke Price Range of an Engagement Action.*
+The article states a price of $10^{-4}$ to $10^{-2}$ United States dollars per purchased engagement action.
+
+$$
+p_{\text{engagement}} \in [10^{-4}, 10^{-2}] \text{ USD per action}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Pod Participation Statistic.*
+The article multiplies the reciprocity ratio of the engagement graph by its clustering coefficient to score engagement-pod participation.
+
+$$
+\rho_{\text{pod}}(G) = \frac{|\{(i,j) : (i \to j) \wedge (j \to i)\}|}{|E(G)|} \cdot C(G)
+\tag{31}
+$$
+
+**Equation 32, Shannon Entropy of View Sources.**
+The diversity of view sources is the Shannon entropy of the fractions of views from each address block.
+
+$$
+H_{\text{view-source}} = -\sum_{a} p_a \log p_a
+\tag{32}
+$$
+
+**Equation 33, PageRank Recurrence.**
+The PageRank of a page is a teleportation term plus the damped sum of the PageRank of each linking page divided by its outbound link count.
+[Brin and Page 1998][research_page_brin_1998]
+[Page Brin Motwani Winograd 1999][research_page_brin_motwani_winograd_1999]
+
+$$
+\text{PR}(p) = \frac{1 - d}{N} + d \sum_{q \in B_p} \frac{\text{PR}(q)}{L(q)}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Marginal PageRank Return per Inbound Link.*
+The article approximates the gain from one more inbound link as the damping factor over the enlarged inbound count, times the average PageRank of the inbound set.
+
+$$
+\frac{\partial \text{PR}(p)}{\partial |B_p|} = \frac{d}{|B_p| + 1} \cdot \bar{\text{PR}}_{B_p}
+\tag{34}
+$$
+
+*Equation 35, Bespoke First-Order Rank-Position Shift.*
+The article approximates the change in rank position as the local density of pages in rank score times the change in score.
+
+$$
+\Delta \text{rank} \approx -\frac{\partial N_{<\rho}}{\partial \rho} \cdot \Delta \rho
+\tag{35}
+$$
+
+**Equation 36, TrustRank Recurrence.**
+Trust propagates from a hand-labelled seed set through the link graph by a damped recurrence of the same form as PageRank.
+[TrustRank propagation algorithm][ref_gyongyi_2004_trustrank_paper]
+
+$$
+t(p) = (1 - d) \, \mathbb{1}[p \in S_{\text{seed}}] + d \sum_{q \in B_p} \frac{t(q)}{L(q)}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Cloaking Differential.*
+The article measures cloaking as a content distance between the pages served to a crawler and to a human visitor.
+
+$$
+\Delta_{\text{cloak}}(p) = d_{\text{content}}(C_{\text{crawler}}(p), C_{\text{human}}(p))
+\tag{37}
+$$
+
+**Equation 38, Standardised Download-Rate Deviation.**
+The statistic is the download rate of an app less the category mean, divided by the category standard deviation.
+
+$$
+z_{\text{download}}(t) = \frac{D(t) - \bar{D}_{\text{category}}(t)}{\sigma_{D,\text{category}}(t)}
+\tag{38}
+$$
+
+**Equation 39, SybilGuard Bound on the Sybil Region.**
+Under fast mixing of the honest region and a bounded number of attack edges, the SybilGuard protocol bounds the number of Sybil identities it accepts.
+[Yu et al. 2006][research_yu_et_al_2006]
+
+$$
+|S_{\text{Sybil}}| \leq O(\sqrt{n \log n})
+\tag{39}
+$$
+
+**Equation 40, Graph Conductance of a Cut.**
+Conductance is the number of edges crossing a cut divided by the smaller of the edge counts on either side.
+
+$$
+\Phi(S) = \frac{|E(S, \bar{S})|}{\min(|E(S)|, |E(\bar{S})|)}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Sybil Operation Cost.*
+The article writes the cost of a Sybil network as a setup cost plus, for each identity, a construction cost and an activity cost accrued over the operating horizon.
+
+$$
+C_{\text{Sybil}}(N, T) = c_{\text{setup}} + N \cdot (c_{\text{ident}} + T \cdot c_{\text{activity}})
+\tag{41}
+$$
+
+*Equation 42, Bespoke Sybil Network Size Range.*
+The article states a network size of $10^3$ to $10^6$ accounts per operation.
+
+$$
+N \in [10^3, 10^6] \text{ Sybil accounts per operation}
+\tag{42}
+$$
+
+**Equation 43, Pearson Correlation of Appearance Timestamps.**
+The cross-platform statistic is the Pearson correlation between the timestamps at which the same content appears on two platforms.
+
+$$
+r_{\text{cross}}(P_1, P_2) = \frac{\sum_c (t_c^{P_1} - \bar{t}^{P_1})(t_c^{P_2} - \bar{t}^{P_2})}{\sqrt{\sum_c (t_c^{P_1} - \bar{t}^{P_1})^2 \sum_c (t_c^{P_2} - \bar{t}^{P_2})^2}}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Logistic Amplification Cascade.*
+The article models reach as a discrete recurrence with a per-step gain that is throttled as reach approaches a ceiling set by audience size.
+
+$$
+R_{\text{cascade}}(t+1) = R_{\text{cascade}}(t) \cdot \eta \cdot (1 - \frac{R_{\text{cascade}}(t)}{\bar{R}})
+\tag{44}
+$$
+
+*Equation 45, Bespoke Click-Farm Throughput.*
+The article estimates throughput as the operator count times hours per operator per day times actions per operator hour.
+
+$$
+\Lambda_{\text{click-farm}} = N_{\text{operator}} \cdot h \cdot r
+\tag{45}
+$$
+
+*Equation 46, Bespoke Click-Farm Throughput Range.*
+The article states a throughput of $10^4$ to $10^6$ actions per day per operation.
+
+$$
+\Lambda \in [10^4, 10^6] \text{ actions per day per operation}
+\tag{46}
+$$
+
+**Equation 47, Mean Queue Length of an M/M/c Queue.**
+The expected number of tasks waiting in a multi-server queue with Poisson arrivals and exponential service follows the Erlang formula in the utilisation and the probability of an empty system.
+
+$$
+L_q = \frac{(N_{\text{op}} \rho)^{N_{\text{op}}} \rho}{N_{\text{op}}! (1 - \rho)^2} P_0
+\tag{47}
+$$
+
+**Equation 48, Restricted Geographic Entropy.**
+The geographic diversity of activity is the Shannon entropy of the fractions of activity originating from each click-farm-associated region.
+
+$$
+H_{\text{geo}}^{\text{restrict}} = -\sum_{g \in G_{\text{cf}}} p_g \log p_g
+\tag{48}
+$$
+
+**Equation 49, Bayesian Posterior Over State Attribution.**
+Bayes rule over a discrete set of candidate state actors gives the posterior attribution given an observed fingerprint vector.
+
+$$
+\Pr(\text{state} = s \mid \mathbf{F}) = \frac{\Pr(\mathbf{F} \mid s) \pi(s)}{\sum_{s'} \Pr(\mathbf{F} \mid s') \pi(s')}
+\tag{49}
+$$
+
+**Equation 50, Coordination Z-Score.**
+The statistic is the observed count of simultaneous releases less its expectation under independent release, divided by the null standard deviation.
+
+$$
+z_{\text{coord}} = \frac{\text{(observed simultaneous releases)} - \mu_{\text{null}}}{\sigma_{\text{null}}}
+\tag{50}
+$$
+
+**Equation 51, Annual Volume of 50 Cent Army Posts.**
+King, Pan and Roberts estimate that state-directed fabrication produces roughly $4.4 \times 10^8$ social media posts per year.
+[King et al. 2017][research_king_pan_roberts_2017]
+
+$$
+V_{\text{50-cent}} \approx 4.4 \times 10^8 \text{ posts per year}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Posting-Time Concentration.*
+The article defines concentration as the fraction of posts falling within a short window aligned with the operators' work schedule.
+
+$$
+\text{Conc}(\Delta t) = \frac{|\{p : t_p \in [\Delta t]\}|}{|\text{posts}|}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Verification Informativeness Change.*
+The article measures the effect of paid verification as the mutual information between authenticity and an earned badge less that for a paid badge.
+
+$$
+\Delta I_{\text{verify}} = I(\text{authentic} ; \text{badge}_{\text{earned}}) - I(\text{authentic} ; \text{badge}_{\text{paid}})
+\tag{53}
+$$
+
+**Equation 54, Classification Accuracy Under a Base Rate.**
+Accuracy is the fraction correctly classified, which equals the true-positive rate weighted by the base rate of authentic credentials plus the true-negative rate weighted by its complement.
+
+$$
+\text{Acc}_{\text{cred}} = \frac{|\text{correctly classified}|}{|\text{all}|} = \Pr(\text{verify} \mid \text{authentic}) \cdot \pi_{\text{authentic}} + \Pr(\neg \text{verify} \mid \text{fabricated}) \cdot (1 - \pi_{\text{authentic}})
+\tag{54}
+$$
+
+*Equation 55, Bespoke Endorsement Value Transfer.*
+The article assumes that an endorsement transfers a fixed fraction of the endorser's reputation stock to the target.
+
+$$
+V_{\text{transfer}}(E \to T) = \kappa_{E,T} \cdot R_E
+\tag{55}
+$$
+
+*Equation 56, Bespoke Transfer Coefficient Range.*
+The article states that the transfer coefficient typically lies between 0.01 and 0.30.
+
+$$
+\kappa \in [0.01, 0.30]
+\tag{56}
+$$
+
+*Equation 57, Bespoke Disclosure Effect on Transfer.*
+The article defines the disclosure effect as the transfer coefficient without disclosure less the coefficient with it.
+[Boerman 2018][research_boerman_et_al_2018]
+
+$$
+\Delta \kappa_{\text{disclose}} = \kappa_{\text{undisclosed}} - \kappa_{\text{disclosed}}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Exponential Cross-Platform Transfer Decay.*
+The article assumes that transferred reputation starts at a fraction of its value on the origin platform and decays exponentially on the target platform.
+
+$$
+R_T^{P_2}(t) = R_T^{P_1}(0) \cdot \kappa_{P_1 \to P_2} \cdot e^{-\gamma t}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Saturating Domain-Age Value.*
+The article assumes that the reputation value of a domain rises toward a ceiling as one minus a decaying exponential in its age.
+
+$$
+V_{\text{domain}}(a) = V_0 \, \bigl(1 - e^{-\alpha a}\bigr)
+\tag{59}
+$$
+
+*Equation 60, Bespoke Signal-Axis Tuple.*
+The article places each technique class on the signal axis by its volume rate, channel count, injection fidelity and cross-channel amplification.
+
+$$
+\mathbf{a}_k^{\text{signal}} = (v_k, C_k, f_k, X_k)
+\tag{60}
+$$
+
+*Equation 61, Bespoke Objective-Axis Utility.*
+The article writes the objective of each technique class as a weighted sum of six goal functions for rating, following, engagement, rank, credentials and apparent support.
+
+$$
+U_k(\mathbf{x}) = \lambda_k^{\text{rating}} g_{\text{rating}}(\mathbf{x}) + \lambda_k^{\text{follow}} g_{\text{follow}}(\mathbf{x}) + \lambda_k^{\text{engage}} g_{\text{engage}}(\mathbf{x}) + \lambda_k^{\text{rank}} g_{\text{rank}}(\mathbf{x}) + \lambda_k^{\text{cred}} g_{\text{cred}}(\mathbf{x}) + \lambda_k^{\text{support}} g_{\text{support}}(\mathbf{x})
+\tag{61}
+$$
+
+*Equation 62, Bespoke Structure-Axis Tuple.*
+The article places each technique class on the structure axis by hierarchy depth, branching factor and operator population.
+
+$$
+\mathbf{a}_k^{\text{struct}} = (D_k, B_k, N_k)
+\tag{62}
+$$
+
+*Equation 63, Bespoke First-Order Adaptation Dynamics.*
+The article assumes that a technique's state relaxes toward its environment-dependent optimum with a single migration time constant, perturbed by exogenous noise.
+
+$$
+\frac{dS_k}{dt} = -\frac{1}{\tau_k}(S_k - S_k^{*}(t)) + \xi_k(t)
+\tag{63}
+$$
+
+*Equation 64, Bespoke Self-Promotion Coupling Matrix.*
+The article defines a matrix of partial derivatives between axis positions to encode the cross-axis dependencies of self-promotion.
+
+$$
+C^{\text{self-promo}} = \left[\frac{\partial a^b}{\partial a^a}\right]_{a, b \in \text{axes}}
+\tag{64}
+$$
+
+**Equation 65, Generic Standardised Anomaly Score.**
+The anomaly score is a test statistic less its expectation under the null model, divided by its null standard deviation.
+
+$$
+z_{\text{anomaly}} = \frac{T(\mathbf{x}) - E_{H_0}[T]}{\sqrt{\text{Var}_{H_0}[T]}}
+\tag{65}
+$$
+
+**Equation 66, Majority-Vote Ensemble Accuracy.**
+For independent classifiers with a common error rate, the probability that a majority vote is correct is one less the binomial probability that at least half err.
+
+$$
+P_{\text{ensemble}}(\text{correct}) \geq 1 - \sum_{k=\lceil M/2 \rceil}^{M} \binom{M}{k} p^k (1 - p)^{M - k}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Verification Friction Cost.*
+The article assembles the friction of identity verification as the sum of user time, privacy loss and platform processing costs, each rising with stringency.
+
+$$
+C_{\text{verify}}(v) = c_{\text{user-time}}(v) + c_{\text{privacy-loss}}(v) + c_{\text{platform-processing}}(v)
+\tag{67}
+$$
+
+**Equation 68, Per-Account Rate Limit.**
+A rate limit bounds the observed activity rate of every account by a platform maximum.
+
+$$
+\lambda_i^{\text{observed}} \leq \lambda_{\text{max}}, \quad \forall i
+\tag{68}
+$$
+
+**Equation 69, Signature Validity Indicator.**
+Provenance verification is the indicator that the signature attached to the content verifies under the public key of the claimed origin.
+
+$$
+V(\text{content}, \sigma) = \mathbb{1}[\text{Verify}(\text{pk}, \text{content}, \sigma)]
+\tag{69}
+$$
+
+**Equation 70, Volume-Weighted Composite Prevalence.**
+The composite estimate is the mean of category estimates weighted by each category's share of volume.
+
+$$
+\hat{p}^{\text{comp}} = \sum_c w_c \hat{p}_c, \quad w_c = \frac{n_c}{\sum_{c'} n_{c'}}
+\tag{70}
+$$
+
+**Equation 71, Variance of the Composite Prevalence.**
+For independent category estimates with fixed weights, the variance of the composite is the sum of squared weights times the category variances.
+
+$$
+\text{Var}(\hat{p}^{\text{comp}}) = \sum_c w_c^2 \cdot \text{Var}(\hat{p}_c)
+\tag{71}
+$$
+
+**Equation 72, Volume-Weighted Aggregate Self-Promotion Prevalence.**
+The aggregate prevalence is the category prevalence rates weighted by signal-event volume and divided by total volume.
+
+$$
+p_{\text{self-promo}}^{\text{aggregate}}(t) = \frac{\sum_c n_c(t) \cdot p_c^{\text{self-promo}}(t)}{\sum_c n_c(t)}
+\tag{72}
+$$
+
+### Notation
+
+- $\mathbf{a}_k$, the six-axis position vector of technique $k$
+- $w_c$, the weight of axis $c$ in the technique distance, and separately the volume weight of category $c$ in the composite prevalence
+- $n_{k,c}(t)$, the signal-event volume for technique $k$ in category $c$
+- $p_{k,c}(t)$, the prevalence rate for technique $k$ in category $c$
+- $\Omega$, the observed population of manipulation instances
+- $\Delta r_i^{\text{obs}}$, the observed rating change
+- $n_i^{\text{fake}}$, the injected fake-review count
+- $N_i$, the pre-injection authentic-review count
+- $\lambda(t)$, the observed review-arrival rate, or the Hawkes intensity
+- $\mu$, the baseline arrival rate of the Hawkes process
+- $\beta$, the decay rate of the Hawkes kernel
+- $R_i^{\text{shift}}$, the rating shift produced by the injection
+- $v$, the per-rating-point revenue coefficient
+- $N_n(r_i)$, the set of $n$-grams appearing in review $r_i$
+- $A_{ij}$, the reviewer-business adjacency
+- $k_i$, the degree of reviewer $i$
+- $m$, the total edge count in the modularity, and the injection volume in the generated-review cost
+- $c_{\text{marginal}}$, the per-identity marginal cost of a sockpuppet
+- $\pi_{\text{link}}$, the base-rate prior of sockpuppet linkage
+- $h(\tau)$, the hazard rate of account removal
+- $q_{\text{gen}}$, the quality of the generative model
+- $F_i$, the follower count of account $i$
+- $\bar{e}_i$, the mean per-post engagement
+- $K$, the account-specific follower ceiling
+- $\lambda_{\text{enforce}}$, the per-account removal hazard for purchased followers
+- $C(G)$, the clustering coefficient of the engagement graph
+- $p_a$, the fraction of views from address block $a$
+- $\text{PR}(p)$, the PageRank of page $p$
+- $d$, the damping factor, typically near 0.85
+- $B_p$, the set of pages linking to page $p$
+- $L(q)$, the outbound link count of page $q$
+- $t(p)$, the TrustRank trust score of page $p$
+- $\Phi(S)$, the conductance of the cut around node set $S$
+- $\rho$, the operator utilisation in the queue, and the rank score in the rank-shift approximation
+- $N_{\text{op}}$, the click-farm operator count in the queue model
+- $P_0$, the probability of an empty queue
+- $\kappa_{E,T}$, the fraction of endorser reputation transferred to the target
+- $\gamma$, the reputation decay rate on the target platform
+- $V_0$, the asymptotic reputation value of a domain
+- $\tau_k$, the technique-migration time constant
+- $p$, the error rate of an individual classifier in the ensemble, and a page in the PageRank recurrence
+- $M$, the ensemble size
+- $\hat{p}^{\text{comp}}$, the composite category-weighted prevalence estimate
 
 ## References
 

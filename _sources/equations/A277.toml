@@ -1,0 +1,639 @@
+# Equation classification for A277. Read by `python3 _lib/equations.py`.
+
+caution = "Reputation, manipulation intensity, detection intensity and the axis measures are abstract quantities without fixed units, so an equation fixes only relations among them, and several letters are reused, with $\\alpha$ both a cost convexity and a power-law exponent, $c_0$ both a cost scale and a top-position click-through rate, $\\delta$ both a discount factor and a manipulation perturbation, and $\\phi$ both a rank-attention function and a population fraction."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Reputation Mapping Function"
+gloss = "The article frames the mapping problem as an unknown function that takes quality, manipulation intensity, platform architecture, detection regime and audience to observed reputation, plus an unexplained residual."
+cite = []
+digest = "5416615561308980"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Counterfactual Manipulation Contribution"
+gloss = "The article defines the manipulation contribution as the difference between observed reputation and the reputation the same actor would hold with manipulation set to zero and everything else fixed."
+cite = []
+digest = "ad3cd31dc0f61931"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Additive Reputation Decomposition"
+gloss = "Assuming that the contributions combine approximately additively, the article splits observed reputation into quality, manipulation, platform and residual terms."
+cite = []
+digest = "1fd6824bc116e447"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Aggregate and Mean Manipulation Intensity"
+gloss = "The aggregate intensity is the sum over actors and the mean is that sum divided by the number of actors."
+cite = []
+digest = "030094a9b60c3d9a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Sample Prevalence Estimator and Its Variance"
+gloss = "The prevalence of manipulation in a random sample is the proportion of items classified as manipulated, with the binomial variance of a sample proportion."
+cite = []
+digest = "6661d290e4eb48f8"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Inverse-Variance Weighted Meta-Analytic Estimate"
+gloss = "Study estimates are combined with weights equal to the reciprocals of their reported variances, the fixed-effect meta-analytic mean."
+cite = []
+digest = "3725e8d822b640d1"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Additive Reputation Signal Model"
+gloss = "The article models the reputation signal as a deterministic function of type and effort plus additive observation noise."
+cite = []
+digest = "87011807e853fee2"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Bayesian Posterior Over Types"
+gloss = "Bayes rule updates the prior over actor types to a posterior conditional on the observed reputation signal."
+cite = []
+digest = "6f6af8e58a101e77"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Willingness to Pay Under the Posterior"
+gloss = "The willingness to pay is the posterior expected utility of transacting less the utility of the outside option."
+cite = []
+digest = "437811f1bd162fd2"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Power-Law Manipulation Cost"
+gloss = "The article assumes that the cost of manipulation rises as a power of intensity with an exponent greater than one, so that cost is convex."
+cite = []
+digest = "062daf6f8939f3aa"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Reputation Premium as an Expected Quality Differential"
+gloss = "In the article's reputation-tier variant of the lemons market, the price premium of high-reputation sellers is the difference in expected quality between the two tiers."
+cite = []
+digest = "787ec5449a376459"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Spence Single-Crossing Condition"
+gloss = "The separating equilibrium requires that the marginal cost of producing the signal be lower for the high type than for the low type."
+cite = ["research_spence_1973"]
+digest = "61fdadb84f7d4d3b"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Klein and Leffler Reputation Bond"
+gloss = "The value of the reputation bond is the discounted sum of the future price premium the reputation earns."
+cite = ["research_klein_leffler_1981"]
+digest = "395c6b8594ea53ad"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Law of Motion of the Reputation Stock"
+gloss = "The article treats reputation as a capital stock that decays at a constant rate, gains from authentic and manipulated inflows and loses through detection."
+cite = []
+digest = "6d184429dc193491"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Present Value of the Reputation Stream"
+gloss = "The asset value is the continuously discounted integral of the flow return the reputation stock produces."
+cite = []
+digest = "3c38e35d49a238c4"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Steady-State Reputation Stock"
+gloss = "Setting the article's law of motion to zero under constant inflows and constant detection gives the stock as the net inflow divided by the decay rate."
+cite = []
+digest = "188eac3691c06749"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Total Platform Attention"
+gloss = "Total attention is the number of active users times the average attention each allocates."
+cite = []
+digest = "3915874481b0bf9b"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Power-Law Rank-Size Distribution of Attention"
+gloss = "Attention received falls as a power of rank, the Zipf rank-size regularity, with the exponent range the empirical literature reports."
+cite = ["book_zipf_1949", "research_adamic_huberman_2000"]
+digest = "1bab3a81cfb568cc"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Herfindahl-Hirschman Index of Attention"
+gloss = "The Herfindahl-Hirschman Index is the sum of squared attention shares, ranging from the reciprocal of the number of entities under uniform allocation to one under complete concentration."
+cite = []
+digest = "a0fcb8ed9bd265f2"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Shannon Entropy of Attention"
+gloss = "The Shannon entropy of the attention shares ranges from zero under complete concentration to the logarithm of the number of entities under uniform allocation."
+cite = []
+digest = "2df2dd1f91e218dc"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Ranking Function"
+gloss = "The article abstracts the platform ranking as an unspecified function of reputation, engagement history, content features and personalisation features."
+cite = []
+digest = "c118341d367b2afc"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Attention as a Function of Rank"
+gloss = "The article assumes that the attention an entity receives depends on its ranking score only through its rank position."
+cite = []
+digest = "0f41f8472e59cb2b"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Power-Law Click-Through Decay"
+gloss = "The article approximates click-through rate as a power of rank position with an exponent taken to lie between one and two."
+cite = []
+digest = "1af861af9db08550"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Chain Rule for the Reputation-to-Attention Conversion"
+gloss = "The chain rule expands the derivative of attention with respect to reputation through rank position and ranking score."
+cite = []
+digest = "3b08dabd058f7470"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Platform Objective"
+gloss = "The article writes the platform objective as a weighted sum of consumer surplus, producer surplus and revenue less the cost of detection."
+cite = []
+digest = "b5f8924231eb78ce"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Producer Manipulation Payoff"
+gloss = "The article's producer earns the value of observed reputation less the direct cost of manipulation and the expected loss from detection."
+cite = []
+digest = "004dc298a8d5b3e8"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Producer First-Order Condition"
+gloss = "The interior optimum of the article's producer payoff sets the marginal reputation benefit equal to the marginal direct cost plus the marginal expected detection loss."
+cite = []
+digest = "fbd4c0d7e52936ee"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Nash Equilibrium as Mutual Best Response"
+gloss = "Each actor's equilibrium intensity maximises that actor's payoff given the equilibrium intensities of all others."
+cite = []
+digest = "032ab39ea849d2ed"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Prisoner's Dilemma Payoff Matrix"
+gloss = "With the ordering of payoffs the article states, the two-actor binary manipulation game is a prisoner's dilemma whose dominant strategy equilibrium is mutual manipulation."
+cite = []
+digest = "321c2e66b20fe38e"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Aggregate Equilibrium Manipulation"
+gloss = "Under the article's symmetric best response, aggregate equilibrium manipulation grows as the number of actors times the per-actor equilibrium intensity."
+cite = []
+digest = "fe4d46f607538c06"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Negative Elasticity of Manipulation to Detection"
+gloss = "The elasticity of equilibrium manipulation with respect to detection intensity is the logarithmic derivative, which the article asserts is negative."
+cite = []
+digest = "b9d49d1111343c36"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Platform First-Order Condition for Detection"
+gloss = "The article's platform chooses detection intensity where the weighted marginal gain in consumer trust less the weighted marginal loss in producer participation equals the marginal cost of detection."
+cite = []
+digest = "da5f52955f49d8ee"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Bayesian Posterior of Manipulation Given a Signal"
+gloss = "Bayes rule for a binary hypothesis gives the posterior probability that an item is manipulated given the detection signal."
+cite = []
+digest = "28ea9c16f4a8fc31"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "True and False Positive Rates at a Threshold"
+gloss = "The true and false positive rates at a threshold are the upper tails of the score distributions of manipulated and authentic items, which trace the receiver operating characteristic."
+cite = []
+digest = "b6fe590725d10ac0"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Deterrence Condition"
+gloss = "The article's actor abstains when the expected penalty plus the direct cost exceeds a linear approximation to the reputation gain from manipulation."
+cite = []
+digest = "d3ab4a9e08eecb79"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Signal-to-Noise Ratio Under Manipulation"
+gloss = "The article defines informativeness as the variance of the authentic signal component over the sum of noise variance and manipulation-induced variance."
+cite = []
+digest = "4dc8a99488af290a"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Exponential Trust Recovery After Exposure"
+gloss = "The article assumes that trust drops to a floor at exposure and recovers exponentially toward its pre-exposure level at a constant rate."
+cite = []
+digest = "6ef3541bfdc6bc44"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Divergent Single-Crossing Condition"
+gloss = "The article modifies the single-crossing condition by requiring the marginal cost gap between low and high types to diverge as the signal grows, which defines an uncounterfeitable signal."
+cite = []
+digest = "93eb3d9c8206426d"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Collective Deviation Cost"
+gloss = "The article sums the reputation losses of the members of a collective, valued at each member's reputation value, and adds the cost of expulsion."
+cite = []
+digest = "c1cb3261d3bfc5e4"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Legacy Reputation Value"
+gloss = "The article values legacy reputation as the discounted integral of reputation, its value and signal informativeness up to the transition to the manipulation equilibrium."
+cite = []
+digest = "5aa6d9e1ea61e30a"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Expected External Penalty"
+gloss = "The article sums over enforcement channels the probability of detection in each channel times the penalty it imposes."
+cite = []
+digest = "0923e087a8721bdb"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Two-Subpopulation Posterior Mixture"
+gloss = "The article assumes that producers fall into a separating and a manipulating subpopulation, so the consumer posterior is their mixture weighted by the separating fraction."
+cite = []
+digest = "0a349bee070026cf"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Two-Strategy Replicator Equation"
+gloss = "The separating fraction grows at a rate proportional to its product with its complement and to the payoff difference between the strategies."
+cite = []
+digest = "f699c1074ab0ef8e"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Local Stability of a Fixed Point"
+gloss = "An interior fixed point of a one-dimensional flow is asymptotically stable when the derivative of the flow is negative there."
+cite = []
+digest = "869867c2410128fa"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Injection-Rate Flux"
+gloss = "The article operationalises the signal axis as the sum over injection kinds of event counts weighted by ranking weight and evasion fidelity."
+cite = []
+digest = "5b34b8ac1c0d63a7"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Retention of Injected Signal"
+gloss = "The article models retained injected signal as the initial amount multiplied by the surviving fraction after each period of platform removal."
+cite = []
+digest = "8121a70c4bfc1627"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Shannon Entropy of Injection Channels"
+gloss = "The diversity of an actor's injection channels is the Shannon entropy of the fractions of events allocated to each channel."
+cite = []
+digest = "beb7e191c6f2537f"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Linear Actor Utility"
+gloss = "The article writes the objective axis as a weighted sum of goal functions with non-negative weights."
+cite = []
+digest = "630114b9ca22db69"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Hierarchy Depth and Branching Factor"
+gloss = "The article summarises the structure axis by the longest authority path and the mean number of subordinates per authority node."
+cite = []
+digest = "3fb7f8bf26e71926"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Ternary Technique Position Vector"
+gloss = "The article codes each practice as a vector over a technique basis with entries of minus one, zero or plus one."
+cite = []
+digest = "370617612daff282"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Manhattan Distance Between Practices"
+gloss = "The distance between two practices is the sum of the absolute differences of their technique coordinates."
+cite = []
+digest = "06d8138dd04cbcc3"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Signed Interaction Weight Matrix"
+gloss = "The article represents the interaction axis as a signed graph whose weights are cooperative weight less conflict weight."
+cite = []
+digest = "185fabe3395d1ffb"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Cumulative Enforcement Imprint"
+gloss = "The imprint is the time integral of the rate of enforcement actions recorded against the actor."
+cite = []
+digest = "073272cb0c8ecacb"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke First-Order Adaptation Dynamics"
+gloss = "The article assumes that an actor's technique state relaxes toward its environment-dependent optimum with a single time constant, perturbed by exogenous noise."
+cite = []
+digest = "0e59420a71df9c5c"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Cross-Axis Coupling Matrix"
+gloss = "The article defines a matrix of partial derivatives of each axis with respect to each other axis, whose off-diagonal entries index coupling."
+cite = []
+digest = "185028674c69c7b8"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Bass Diffusion Model"
+gloss = "The rate of adoption is the sum of an innovation coefficient and an imitation term proportional to the adopted share, multiplied by the remaining potential adopters."
+cite = ["research_bass_1969"]
+digest = "62234ebfc0682582"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Compound-Growth Reach Amplification"
+gloss = "The article assumes that propaganda reach grows geometrically at a constant per-period retransmission gain."
+cite = []
+digest = "33f43f1a9f1ff04c"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Manipulation Service Market Size"
+gloss = "The article states an order-of-magnitude estimate of one to ten billion United States dollars per year for the manipulation-service market."
+cite = []
+digest = "7e42078b60bf2eab"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Fake-Review Prevalence Range"
+gloss = "The article summarises category prevalence of fake reviews as a range from 5 to 40 per cent, exceeding 30 per cent in high-manipulation categories."
+cite = ["ref_wef_2021_fake_reviews", "ref_ec_2023_sweep"]
+digest = "7e745ed350505cb0"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Aggregate Fake-Content Volume"
+gloss = "The aggregate volume is the sum over categories of total signal events times the category prevalence of manipulation."
+cite = []
+digest = "2e8b36384a93361a"
+
+[[symbol]]
+tex = 'R_i(t)'
+meaning = "the observed reputation score of actor $i$ at time $t$"
+
+[[symbol]]
+tex = 'q_i(t)'
+meaning = "the underlying quality of the good or service actor $i$ offers"
+
+[[symbol]]
+tex = 'm_i(t)'
+meaning = "the manipulation intensity actor $i$ deploys, written $m_i$ where time is understood"
+
+[[symbol]]
+tex = 'P_t'
+meaning = "the platform architecture and ranking rules at time $t$"
+
+[[symbol]]
+tex = 'D_t'
+meaning = "the detection and enforcement regime at time $t$, with $D$ the detection intensity in the equilibrium equations"
+
+[[symbol]]
+tex = 'A_t'
+meaning = "the audience composition and attention allocation at time $t$"
+
+[[symbol]]
+tex = '\bar{m}(t)'
+meaning = "the average per-actor manipulation intensity"
+
+[[symbol]]
+tex = '\theta_i'
+meaning = "the unobservable type of actor $i$, with $\\theta_H$ and $\\theta_L$ the high and low types"
+
+[[symbol]]
+tex = 's_i'
+meaning = "the reputation signal of actor $i$"
+
+[[symbol]]
+tex = 'e_i'
+meaning = "reputation-directed effort in the signal model, but engagement history in the ranking function"
+
+[[symbol]]
+tex = '\eta_i'
+meaning = "idiosyncratic noise in the observation channel"
+
+[[symbol]]
+tex = '\pi(\theta)'
+meaning = "the prior over types"
+
+[[symbol]]
+tex = 'c(m)'
+meaning = "the direct cost of manipulation intensity $m$"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the convexity exponent of the manipulation cost, and separately the rank-size power-law exponent"
+
+[[symbol]]
+tex = '\Delta p'
+meaning = "the price premium of high-reputation sellers"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the discount factor in the reputation bond, and separately the manipulation perturbation in the signal-to-noise ratio"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the reputation decay rate"
+
+[[symbol]]
+tex = '\sigma_i^{\text{authentic}}(t)'
+meaning = "the authentic signal inflow to the reputation stock"
+
+[[symbol]]
+tex = '\sigma_i^{\text{manip}}(t)'
+meaning = "the manipulation inflow to the reputation stock"
+
+[[symbol]]
+tex = '\delta_i^{\text{detect}}(t)'
+meaning = "the detection-triggered reputation loss"
+
+[[symbol]]
+tex = 'A_{\text{total}}'
+meaning = "the total attention available across a platform in an interval"
+
+[[symbol]]
+tex = '\bar{a}'
+meaning = "the average attention allocation per user"
+
+[[symbol]]
+tex = 'a_i'
+meaning = "the attention allocated to entity $i$"
+
+[[symbol]]
+tex = '\rho_i'
+meaning = "the ranking score of entity $i$"
+
+[[symbol]]
+tex = '\psi_C'
+meaning = "the platform's marginal valuation of consumer surplus or consumer trust, with $\\psi_P$ and $\\psi_R$ for producer surplus and revenue"
+
+[[symbol]]
+tex = 'v'
+meaning = "the per-unit reputation value in terms of expected revenue"
+
+[[symbol]]
+tex = 'L(m_i, D)'
+meaning = "the expected loss from detection at detection intensity $D$"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the classification threshold on the posterior"
+
+[[symbol]]
+tex = 'F_1(\tau)'
+meaning = "the score distribution of manipulated items, with $F_0$ for authentic items"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the rank-to-attention function, and separately the fraction of producers in the separating subpopulation"
+
+[[symbol]]
+tex = 'T_{\text{floor}}'
+meaning = "the post-exposure trust floor, with $T_0$ the pre-exposure trust level"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the trust recovery rate"
+
+[[symbol]]
+tex = 'I(t)'
+meaning = "the signal informativeness at time $t$"
+
+[[symbol]]
+tex = 'f_k'
+meaning = "the per-event evasion fidelity of injection kind $k$"
+
+[[symbol]]
+tex = 'd_\tau'
+meaning = "the fraction of injected signal removed at time $\\tau$"
+
+[[symbol]]
+tex = '\tau_i'
+meaning = "the adaptation time constant of actor $i$"
+
+[[symbol]]
+tex = '\bar{N}'
+meaning = "the ceiling adopter count of the Bass model, with $p$ and $q$ the innovation and imitation coefficients"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the per-period retransmission gain"
+
+[[symbol]]
+tex = 'p_{\text{fake}}'
+meaning = "the fake-review prevalence across platform categories"
