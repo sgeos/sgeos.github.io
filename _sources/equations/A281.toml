@@ -1,0 +1,611 @@
+# Equation classification for A281. Read by `python3 _lib/equations.py`.
+
+caution = "Most equations relate abstract indices that the article defines without units, while prices, costs and contract values are stated in nominal United States dollars, so a numerical evaluation carries meaning only for the monetary terms and for probabilities."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Capability Mapping Function"
+gloss = "The article posits that the technical capability of a launch firm is an unspecified function of capital, demand pull, mission commitment, governance and capital composition plus a residual."
+cite = []
+digest = "ae0c4dace9192dad"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Forcing-Function Counterfactual"
+gloss = "The forcing-function contribution is defined as the change in the mapping function when observed demand pull is replaced by a speculative-market counterfactual with every other input held fixed."
+cite = []
+digest = "fa88e7dc5042fdde"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Additive Capability Decomposition"
+gloss = "Capability is assumed to separate into additive contributions from the five factors and a residual, an approximation the article adopts for tractability."
+cite = []
+digest = "04bc87b1918ce262"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Sector Capability Sum and Average"
+gloss = "The article treats firm capability as summable, so that sector capability is the sum over firms and its average indexes sector maturity."
+cite = []
+digest = "f709751511a8774c"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Variance of a Sum of Components"
+gloss = "The variance of a sum equals the sum of the component variances plus twice the sum of their pairwise covariances."
+cite = []
+digest = "90f818db25bbf01f"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Instrumental Variable Estimator"
+gloss = "The instrumental variable estimator divides the covariance of the outcome with the instrument by the covariance of the treatment with the instrument, under the condition that the instrument is uncorrelated with the residual."
+cite = []
+digest = "38acb1e00db19f12"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Matched-Comparison Average Treatment Effect"
+gloss = "The average treatment effect is estimated as the mean outcome of the treated units less a weighted mean of comparison units whose weights sum to one."
+cite = []
+digest = "b044c9ea29af3803"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Linear Cost Function"
+gloss = "Total cost per period is a fixed capability cost plus a constant marginal cost for each launch."
+cite = []
+digest = "f628b7e59f9f94b9"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Average Cost per Launch"
+gloss = "Dividing the linear cost function by output spreads the fixed cost over the launches and adds the marginal cost."
+cite = []
+digest = "414e604693cf8b5e"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Price per Kilogram to Orbit"
+gloss = "The price of a launch divided by the payload mass to a reference orbit gives the dollars per kilogram metric used to compare launch vehicles."
+cite = []
+digest = "fdf82b29361622ba"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Wright Learning Curve"
+gloss = "Unit cost falls as a power of cumulative production, with the article quoting a typical range for the learning exponent."
+cite = ["research_wright_1936", "research_argote_epple_1990"]
+digest = "972e78f1a0fa8a67"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Per-Flight Cost of a Reusable Stage"
+gloss = "The article assembles the per-flight cost of a recovered stage from its hardware cost spread over the flights it survives plus refurbishment and recovery costs."
+cite = []
+digest = "06eabfea1166b51f"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Break-Even Flight Count for Reuse"
+gloss = "The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment, recovery operations and amortised recovery hardware."
+cite = []
+digest = "a97d8b0a2adfc693"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Binomial Reliability Estimate and Standard Error"
+gloss = "The success proportion and its normal-approximation standard error follow from a binomial count of failures in a number of launches."
+cite = []
+digest = "7195b5f551a0c513"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Total Launch Demand"
+gloss = "Total launch demand is the sum of government and commercial demand."
+cite = []
+digest = "125b38004412f7df"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Herfindahl-Hirschman Index of Launch Share"
+gloss = "The Herfindahl-Hirschman index sums the squared market shares of the providers."
+cite = []
+digest = "637f429cbcbd51be"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Shannon Entropy of Launch Share"
+gloss = "The Shannon entropy of the share distribution falls as launch capacity concentrates in fewer providers."
+cite = []
+digest = "1adc2d35356cfa5c"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Launch Price as a Share of Payload Profit"
+gloss = "The article models the equilibrium launch price as a fixed markup share of the expected profit of the payload firm."
+cite = []
+digest = "83c3e99ea360428b"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Lerner Index and the Inverse Elasticity Rule"
+gloss = "The Lerner index of market power, the relative markup of price over marginal cost, equals the reciprocal of the price elasticity of demand for a profit-maximising firm."
+cite = []
+digest = "4e7ad9697d8ab69f"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Orbital Scarcity Constraint"
+gloss = "The article bounds launch activity by a single aggregate constraint in which launches, payload mass and a resource intensity per kilogram together may not exceed the scarcity of slots, spectrum and altitude bands."
+cite = []
+digest = "347bfd89c4c6b496"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Debris Balance Condition for an Altitude Band"
+gloss = "The article states sustainability in one altitude band as a linear balance in which the fragments produced by collisions may not exceed those removed by atmospheric decay."
+cite = ["research_kessler_courpalais_1978"]
+digest = "48f910eb4029244d"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Firm Boundary Condition"
+gloss = "The firm produces internally up to the quantity at which the internal marginal cost equals the marginal cost of transacting in the market."
+cite = ["research_coase_1937"]
+digest = "9616750cf5bc9772"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Founder Dilution in One Funding Round"
+gloss = "After a round the founder share is the previous share multiplied by the ratio of the pre-money valuation to the post-money valuation."
+cite = []
+digest = "a6fc82d5f19cfe2e"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Disruptive Displacement Condition"
+gloss = "The article formalises disruption as the conjunction of an entrant price below the incumbent price and an entrant quality at or above a mainstream threshold."
+cite = ["research_bower_christensen_1995", "book_christensen_1997"]
+digest = "e1183728711a3cbc"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Provider Share under Fixed-Price Milestones"
+gloss = "The article allocates government demand among providers in proportion to completed milestones multiplied by the fixed price per milestone."
+cite = []
+digest = "ac1195775f110a4c"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Provider Share under Cost-Plus Procurement"
+gloss = "The article allocates government demand among providers in proportion to reported cost marked up by the negotiated profit margin."
+cite = []
+digest = "a8b5f386bcb9a38d"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Escalating Anchor Ladder"
+gloss = "Government demand to a provider is written as a sum of programme demands, each switched on by an indicator over the activation window of the programme."
+cite = []
+digest = "05065d658be88dc6"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Redundancy Protection Premium"
+gloss = "The article defines the premium as the price a provider receives within a redundant provider set less the price it would receive under single-provider competition."
+cite = ["ref_gao_cots_2011"]
+digest = "3887043b6178417f"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Provider Profit with Government and Commercial Revenue"
+gloss = "Profit is government and commercial revenue less the fixed capability cost and the marginal cost of every launch flown."
+cite = []
+digest = "4c799df417fad9f8"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Commercial Surplus from Reliability Spillover"
+gloss = "The article measures the surplus commercial customers gain from anchor-funded reliability as the integral of their marginal willingness to pay for reliability between the commercial requirement and the anchor requirement."
+cite = []
+digest = "723d1735235f1b86"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Profit under a Fixed-Price Contract"
+gloss = "Under a fixed-price contract the provider keeps the difference between the contract price and the realised cost."
+cite = []
+digest = "b4489ce84bd1a902"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Mission-Driven Capability Trajectory"
+gloss = "Capability is modelled as an initial stock plus the integral of a generation rate that depends on government demand and the mission target."
+cite = []
+digest = "da8c0c20d5c1048d"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Spinoff Capability Trajectory"
+gloss = "Spinoff capability is modelled as an initial stock plus the integral of a generation rate that depends on accumulated capability."
+cite = []
+digest = "0fa2a9c0477e1130"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Spinoff-to-Anchor Ratio"
+gloss = "The article defines the return on anchor spending as spinoff capability divided by government demand."
+cite = []
+digest = "30b06526f4f86392"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Direct-Attribution Spinoff Ratio"
+gloss = "The direct estimator counts only spinoff products with traceable anchor provenance, so it understates the ratio."
+cite = []
+digest = "10204c579e99d4d1"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Residual-Attribution Spinoff Ratio"
+gloss = "The residual estimator takes observed spinoff less a counterfactual no-anchor spinoff, so it depends on how that counterfactual is specified."
+cite = []
+digest = "29930e65a8b7b6f5"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Captured Share of Spinoff Value"
+gloss = "The provider retains the fraction of total spinoff value that does not transfer to unaffiliated firms, where the transfer fraction is a parameter the article introduces."
+cite = []
+digest = "76ff652d56fe3c46"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Joint Closure Probability under Independence"
+gloss = "The probability of closing all ten conditions is the product of the marginal probabilities under the independence assumption the article adopts as a baseline."
+cite = []
+digest = "0add8a6bf05bcce0"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Chain Rule for a Joint Probability"
+gloss = "A joint probability factors into a product of conditional probabilities, each conditioned on all the earlier events."
+cite = []
+digest = "c38de52b0d35e4b2"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Correlation Adjustment to Joint Closure"
+gloss = "The article inflates the independent product by an exponential of pairwise correlations weighted by the indicator standard deviations, an approximation it attributes to a Gaussian copula."
+cite = []
+digest = "eca7e1534154c4ee"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Closure Vector and Score"
+gloss = "Each firm receives a binary vector over the ten conditions, and its score counts the conditions closed."
+cite = []
+digest = "f9410e9fbabbe17f"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Founder Portable Capital Condition"
+gloss = "The founder's initial capital must cover the fixed cost of reaching a technical demonstration less the external revenue expected before it."
+cite = []
+digest = "7f15c0533e521714"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Value-Gradient Condition"
+gloss = "The article requires the value trajectory of a venture to rise strictly throughout the development horizon."
+cite = []
+digest = "3181853f155bdcaa"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Anchor-Share Condition"
+gloss = "The article requires the share of revenue from anchor customers to stay at or above a threshold."
+cite = []
+digest = "89576aadab7dddc7"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Value-Capture Ratio Condition"
+gloss = "The article requires the ratio of retained to created value to stay at or above a threshold."
+cite = []
+digest = "7c6ff58114fefc89"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Decomposed Portfolio Value"
+gloss = "Portfolio value is the sum of the rung values, with each rung required to carry strictly positive value."
+cite = []
+digest = "99a465b9ae2abbac"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Generality Parameter"
+gloss = "The article measures generality as the share of addressable adjacent domains to which the capability of the venture has transferred."
+cite = []
+digest = "88374540a76109a8"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Founder Voting Control Condition"
+gloss = "The article requires the voting share of the founder to remain at or above the control threshold throughout the horizon."
+cite = []
+digest = "f9029e5d05d4b9d1"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Variance of a Weighted Portfolio"
+gloss = "The variance of a weighted sum is the weighted sum of variances plus twice the weighted pairwise covariances."
+cite = []
+digest = "b5d9e8a99a40a686"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Government Share of Capital"
+gloss = "The article defines the weight of the government leg as government capital divided by total capital."
+cite = []
+digest = "c841776306b23faa"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Founder Equity after Successive Rounds"
+gloss = "Repeated dilution multiplies the initial founder share by the ratio of pre-money to post-money valuation for every round."
+cite = []
+digest = "49c6703951bc9170"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Logistic Saturation of Spinoff Revenue"
+gloss = "Spinoff revenue follows a logistic curve that rises through an inflection time towards a saturation level."
+cite = []
+digest = "38812ea233b88ce3"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Cash Runway in 2008"
+gloss = "Runway is remaining cash divided by the burn rate, evaluated with 5 million dollars, the midpoint of the stated range of 4 to 6 million dollars."
+cite = []
+digest = "593dc3b7ea964476"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Present Value of the First Resupply Services Contract"
+gloss = "The present value of the first Commercial Resupply Services contract sums the discounted mission payments, and the article equates it to the announced award of about 1.6 billion dollars."
+cite = ["ref_nasa_crs1_press_2008"]
+digest = "f14d5e0e592659e0"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Widening Cost Gap Condition"
+gloss = "The article states disruption as a positive and growing difference between the incumbent cost and the entrant cost."
+cite = ["book_christensen_1997"]
+digest = "fd81d425f4aa2873"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Founder Effect Counterfactual"
+gloss = "The founder effect is defined as observed capability less the capability of a counterfactual trajectory without the founder."
+cite = ["book_vance_2015"]
+digest = "15fdc5c15b2c64c8"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke State-Firm Coordination Index"
+gloss = "The article weights the government share of revenue, the share of sector-specific regulation and an indicator of formal coordination into one index."
+cite = []
+digest = "ada2a1d6f5a9eaae"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Profit Difference between Fixed-Price and Cost-Plus Contracts"
+gloss = "The fixed-price residual less the cost-plus margin gives the profit advantage of a fixed-price contract at a given realised cost."
+cite = []
+digest = "39af5e5e72b5d108"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Platform Power Index"
+gloss = "The article multiplies sector concentration by the Lerner index of the firm to combine market share and markup."
+cite = []
+digest = "e1ffb521f50944e1"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Mission-Directed Capability Increment"
+gloss = "Mission-directed capability is the market-directed baseline plus the integral of an increment driven by the mission and government demand."
+cite = ["book_mazzucato_2013", "book_mazzucato_2021"]
+digest = "614e84b3d0b40136"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Resource Heterogeneity Index"
+gloss = "The article scores resources by a weighted sum of the products of their value, rarity, inimitability and non-substitutability."
+cite = ["research_barney_1991"]
+digest = "0726816689a6e257"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Backward Induction for a Real Option"
+gloss = "The option value at each date is the greater of the exercise value and the discounted expected continuation value."
+cite = ["book_dixit_pindyck_1994", "book_trigeorgis_1996"]
+digest = "9c9e9ccc8015c112"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Economic Rent as Excess Profit"
+gloss = "Rent is the observed profit less the profit a competitive benchmark would yield."
+cite = ["research_krueger_1974"]
+digest = "0547e78e4d21c2ad"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Replicator Equation"
+gloss = "The share of a firm grows in proportion to its share and to the difference between its fitness and the mean fitness of the sector."
+cite = ["book_metcalfe_1998"]
+digest = "dd7b411323d66b36"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Closure Vector for Alternative Cases"
+gloss = "Each alternative case receives a binary vector over the ten conditions, and its score counts the conditions closed."
+cite = []
+digest = "d45c5a4645f6a1b4"
+
+[[symbol]]
+tex = 'T_i(t)'
+meaning = "the observed technical capability of firm $i$ at time $t$"
+
+[[symbol]]
+tex = 'K_i(t)'
+meaning = "the accumulated capital investment in firm $i$"
+
+[[symbol]]
+tex = 'D_i(t)'
+meaning = "the demand-pull intensity firm $i$ faces from government and commercial customers"
+
+[[symbol]]
+tex = 'M_i(t)'
+meaning = "the mission-organisational commitment of firm $i$"
+
+[[symbol]]
+tex = 'G_i(t)'
+meaning = "the governance structure of firm $i$"
+
+[[symbol]]
+tex = 'C_i(t)'
+meaning = "the composition of the capital sources funding firm $i$"
+
+[[symbol]]
+tex = '\varepsilon_i(t)'
+meaning = "the unexplained residual"
+
+[[symbol]]
+tex = 'Z_i'
+meaning = "an exogenous procurement-mechanism instrument"
+
+[[symbol]]
+tex = 'F_i'
+meaning = "the fixed capability cost per period"
+
+[[symbol]]
+tex = 'c_i'
+meaning = "the marginal cost per launch, and in the cost-plus share the reported cost"
+
+[[symbol]]
+tex = 'q_i'
+meaning = "the launch output of firm $i$, and in the fixed-price share the milestones completed"
+
+[[symbol]]
+tex = 'm_i'
+meaning = "the payload mass to a reference orbit"
+
+[[symbol]]
+tex = '\gamma_i'
+meaning = "the learning-curve exponent of firm $i$"
+
+[[symbol]]
+tex = 'f_i'
+meaning = "the failures of provider $i$, and with an argument $t$ the fitness of firm $i$ in the replicator equation"
+
+[[symbol]]
+tex = '\varepsilon_i^{\text{demand}}'
+meaning = "the price elasticity of demand facing provider $i$"
+
+[[symbol]]
+tex = '\phi_i'
+meaning = "the negotiated profit margin under cost-plus procurement"
+
+[[symbol]]
+tex = '\tau^{\text{IP}}'
+meaning = "the fraction of anchor-financed capability that transfers to unaffiliated firms"
+
+[[symbol]]
+tex = '\pi_k'
+meaning = "the marginal probability that a venture closes condition $k$"
+
+[[symbol]]
+tex = 'r_{jk}'
+meaning = "the pairwise correlation between the closure of conditions $j$ and $k$"
+
+[[symbol]]
+tex = 'V_t^{\text{pre}}'
+meaning = "the pre-money valuation at round $t$"
+
+[[symbol]]
+tex = 'I_t'
+meaning = "the new investment at round $t$"
+
+[[symbol]]
+tex = '\omega_r'
+meaning = "the weight of resource $r$"

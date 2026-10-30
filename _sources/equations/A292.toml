@@ -1,0 +1,650 @@
+caution = "Every condition indicator takes the value zero or one and every probability is a judgement the series does not estimate, horizons are in years with 2026 as the snapshot and 2050 as the projection date, and most relations are qualitative formalisations of an argument rather than estimated quantities."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Conjunctive Closure of the Ten Conditions"
+gloss = "The series writes closure as the product of ten binary condition indicators, a form that the article shows carries an unexamined independence assumption."
+digest = "e81a21003cb4ac46"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Singular Intersection of Condition Sets"
+gloss = "The article states the singular-conjunction claim as an intersection of the ten condition sets that contains exactly one contemporary venture."
+digest = "060acb07bb802b56"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Contrast of Observable and Required Quantities"
+gloss = "The article contrasts individual condition scores, which are observable for many ventures, with closure across many ventures, which the inference would require and only one venture supplies."
+digest = "d74aef18c687611c"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Diagnostic and Predictive Uses of the Framework"
+gloss = "The article separates the diagnostic use, naming the condition a case fails, from the predictive use, a conditional probability of success that one observation cannot support."
+digest = "f526c069aa76c116"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Forcing-Function Condition Vector"
+gloss = "The article assembles the seven forcing-function conditions of the series into one vector in series order."
+digest = "dbf504fcaff1cd55"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Partition of the Seven Conditions"
+gloss = "The article partitions the seven conditions into properties of the development path, of the market position and of the firm."
+digest = "89b526b5b93aa03d"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke External Capital Requirement as a Budget Identity"
+gloss = "The article writes the external capital requirement as mission burn less government capital and retained earnings, so that the three capital-formation legs become terms in one budget."
+digest = "88785e8ddd7feb9a"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Order of Arrival of the Three Legs"
+gloss = "The article orders the government, private and retained-earnings legs as a dependency in which each financed the capability the next required."
+digest = "e1eeb90396a80642"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Pairwise Independence of Two Conditions"
+gloss = "Two conditions are independent when conditioning on one leaves the probability of the other unchanged."
+digest = "bbe2fcda706044a8"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Product Rule under Mutual Independence"
+gloss = "The joint probability of all conditions equals the product of their marginal probabilities under mutual independence, a stronger requirement than pairwise independence."
+digest = "445e65fc31433cdb"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Factor Representation of the Conditions"
+gloss = "The article represents each condition as a function of a vector of underlying properties of dimension below ten."
+digest = "598c0a02802a2678"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "First-Order Covariance under a Factor Structure"
+gloss = "Linearising each condition in independent underlying factors gives a covariance equal to the sum over factors of the product of the two loadings and the factor variance, nonzero whenever two conditions share a loading."
+digest = "526365cd0fe28b88"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke State-Dependent Correlation of Conditions"
+gloss = "The article asserts that the conditions are nearly uncorrelated in favourable states and strongly correlated in adverse ones."
+digest = "a09865b7ef258056"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Joint Probability under Independence"
+gloss = "Under independence the probability that all ten conditions hold is the product of the ten marginal probabilities."
+digest = "5590da012ad614d7"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Positive Dependence Raising Attainability"
+gloss = "The article argues that positive dependence among the conditions makes the joint probability exceed the product of the marginals."
+digest = "73a36ce18b2ca532"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Factor Approximation of the Joint Probability"
+gloss = "The article assumes the ten conditions load on $d$ factors each satisfied with probability $q$, so that the joint probability approaches $q^{d}$ rather than $q^{10}$."
+digest = "660ae96ba0906be7"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Separation of Observation from Inference"
+gloss = "The article separates the observed singular intersection, which it retains, from a near-zero joint probability, which the dependence structure does not support."
+digest = "088341444053f0b3"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Correlated Failure Lowering Survival"
+gloss = "The article argues that correlated failure makes the probability that all conditions continue to hold fall below the product of the marginals."
+digest = "8d68e3849f251e94"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Joint Statement of Attainment and Survival"
+gloss = "The article holds that the configuration is easier to attain and easier to lose than the product of marginals implies, because dependence acts in opposite directions on the two questions."
+digest = "5a5a0e23fdb76932"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke One-Factor Threshold Model of Condition Failure"
+gloss = "The article models each condition as holding while a common adverse shock, weighted by a loading, plus idiosyncratic noise stays below a threshold."
+digest = "6b59572485e6749f"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Satisfied Fraction as a False Proximity Measure"
+gloss = "The article holds that the fraction of conditions satisfied does not measure proximity to closure, because the conditions are not exchangeable."
+digest = "fb28f690b0919282"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Perfect Correlation under a Key-Person Event"
+gloss = "The article asserts that a key-person event makes the failures of all business lines perfectly correlated."
+digest = "af26c1c13aab9718"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Portfolio Protection against a Correlated Hazard"
+gloss = "The article scales the protection a portfolio offers by one minus the mean correlation of line failures, which vanishes under a key-person event."
+digest = "4768970db0b04dfd"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Amplification of a Key-Person Event by Concentrated Authority"
+gloss = "The article asserts that the consequence of a key-person event rises with the concentration of decision authority."
+digest = "985092aa005a8080"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Attention Capacity Constraint"
+gloss = "The article bounds the summed decision load of all business lines by a capacity that a single decision-maker fixes."
+digest = "8b5c36450a4996ff"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Divergence of Decision Load and Capacity"
+gloss = "The article assumes decision load grows with the enterprise while decision capacity stays constant."
+digest = "c6936b15a9e08638"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Saturation Date of the Attention Constraint"
+gloss = "The article defines the saturation date as the first date at which decision load reaches decision capacity."
+digest = "bcafbd7f874c203d"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Surviving and Failed Clauses of the Thesis"
+gloss = "The article retains the singular intersection and the conjunctive requirement and rejects the claim that the joint probability is near zero."
+digest = "69fa570c212a0219"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Effective Dimensionality of the Framework"
+gloss = "The article states as an inequality that the effective number of underlying properties is far below ten."
+digest = "dd9a4acff9d79e8c"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Four-Factor Map onto Ten Conditions"
+gloss = "The article illustrates the factor reading with four underlying properties mapped onto ten binary conditions, a dimension it offers as illustration rather than estimate."
+digest = "7a37a221b45812e1"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Reproduction Probability under Two Readings"
+gloss = "The article contrasts a reproduction probability of $q^{10}$ under independence with $q^{4}$ under its four-factor reading."
+digest = "63e46adfa22547c7"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Diagnostic Record of the Framework"
+gloss = "The article claims that the condition minimising each negation case score recovered the failed condition in every negation case the series examined."
+digest = "26e59fd2f42fa55f"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Ex Ante Identification Probability"
+gloss = "The article names the probability that a condition identified after a failure would have been identified beforehand as the quantity the diagnostic record requires."
+digest = "1120458265fd0f46"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Three Capital-Formation Findings"
+gloss = "The article restates three findings of the series, a reputational binding clock, realisation independent of exit and displacement of the lowest-valuation rounds."
+digest = "06b59e972321c792"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Testability of the Product Notation"
+gloss = "The article argues that stating the framework as a product made independence a testable implication."
+digest = "edbc4d7316e37785"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Degrees of Freedom of Retrospective Diagnosis"
+gloss = "The article contrasts ten conditions available to assign blame with the small number of observations."
+digest = "ed23b3d87e3bbae8"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Falsifiability Requirement"
+gloss = "The article requires the framework to forbid at least one observable pattern for it to earn evidential standing."
+digest = "edc1e77c5236fdbe"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Falsification of the Independence Implication"
+gloss = "The article records that the product notation implied mutual independence, which was tested and found false."
+digest = "de6a4925170932dd"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Prospective Scoring Test"
+gloss = "The article specifies the test that would settle the predictive claim, scoring ventures in advance and evaluating outcomes later."
+digest = "a0c5fbd1e01bce24"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Distinct Failed Conditions of Four Templates"
+gloss = "The article asserts that the four contemporary templates each fail at a different condition."
+digest = "d77b2b63eec53dd7"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Score Range of the Four Templates"
+gloss = "The article records that each of the four templates satisfies between four and seven of the ten conditions."
+digest = "150676f2345ca830"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Common Failure from an Absent Factor"
+gloss = "The article argues that one absent underlying factor extinguishes every condition that loads on it, so distinct failure points can share one cause."
+digest = "6ad323438524a964"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Base Rate of Regulatory Resolution"
+gloss = "The article asserts from the Standard Oil and telecommunications record that a dominant vertically integrated position more often ends by regulatory action than by competitive erosion."
+digest = "dffff9fca9157c7d"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Research Horizon Bounded by Rent Duration"
+gloss = "The article equates the research horizon of a corporate laboratory with the duration of the monopoly rent that funds it."
+digest = "f296c1be0c27a527"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Base Rate of Objective Preservation across Succession"
+gloss = "The article states that an objective is rarely preserved across founder succession without an ownership form that binds it."
+digest = "f447580db44cfe16"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Conditional Projection Form"
+gloss = "The article states every projection as a function of the snapshot value and an explicit list of assumptions."
+digest = "820fa96f2a1bc700"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Local Sensitivity to an Assumption"
+gloss = "The sensitivity to each assumption is the absolute partial derivative of the projected quantity with respect to it, and the article reports the assumption with the largest sensitivity."
+digest = "3d2ddc9430f35d89"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Projection Horizon against Venture Age"
+gloss = "The article compares a projection horizon of twenty-four years with a venture age of about twenty-four years at the snapshot."
+digest = "3c5d7505d4d2cdeb"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Learning Curve"
+gloss = "Unit cost falls as a power of cumulative output, with the learning exponent $\\beta$ setting the rate."
+digest = "f61f6b5a3f2b6ca3"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Demand-Limited Launch Cadence"
+gloss = "The article assumes cadence saturates at a maximum set by internal and external demand rather than by capability."
+digest = "73fe658f3b51a8bb"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Persistence of the Learning Exponent"
+gloss = "The article contrasts its assumption that the learning exponent survives a vehicle-family transition with a reset of cumulative experience at the transition."
+digest = "6568d89c0ee61236"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Durability of the Position"
+gloss = "The article bounds durability by the satellite lifetime over the competitor deployment time rather than treating it as unlimited."
+digest = "f1a0c7a47e927d4c"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Condition for Captive Launch"
+gloss = "The article holds that captive launch is attainable only where one residual claimant spans launch and constellation."
+digest = "90ea3e8d80936428"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Vanishing External Requirement after Crossover"
+gloss = "The article concludes that the external capital requirement is zero once free cash contribution covers mission burn at every date after the crossover."
+digest = "0c4ed6978e5d11c7"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Certainty of Succession before 2050"
+gloss = "The article treats a succession event before 2050 as nearly certain because the horizon exceeds any reasonable expectation of continuous individual involvement."
+digest = "80d514024cc75e6f"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Closure Failure on Loss of Governance"
+gloss = "Under the product form, the loss of the governance condition sets closure to zero whatever the other nine conditions."
+digest = "eab53b27ea3d13b3"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Succession Paths and the Condition Each Surrenders"
+gloss = "Each succession path the article considers is paired with the condition of the configuration it would surrender, an assessment the article makes rather than a derived result."
+digest = "6b911dc0f347c4e8"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Ranking Score of a Failure Mode"
+gloss = "The article ranks each failure mode by its probability before 2050 times the number of conditions it removes."
+digest = "affb88361b0cc947"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Ranking Score of the Succession Event"
+gloss = "The article gives the succession event a probability of one and a large count of removed conditions, which places it first."
+digest = "d0916aa03b4b621f"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Survival Condition during a Grounding"
+gloss = "The article holds that the runway is unbounded during a vehicle-family grounding so long as subscription revenue exceeds fixed cost."
+digest = "d5a2bc1d516e169a"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Observability of the Five Failure Modes"
+gloss = "The article distinguishes four failure modes with a datable event from the attention bottleneck, which has none."
+digest = "dc8bdbd71c63609a"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Best Contemporary Score"
+gloss = "The article asserts that no venture other than the subject satisfies more than seven of the ten conditions."
+digest = "1b55384a2ef78ffb"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Selection Circularity of the Conditions"
+gloss = "The article notes that the conditions were selected so that the subject satisfies all of them."
+digest = "f75d066577ff7241"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Ten-Condition Closure Vector"
+gloss = "Each venture is scored as a binary vector over the seven forcing-function conditions and the three capital-formation legs."
+digest = "3a9c59d03c637985"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Column Means of the Scoring Matrix"
+gloss = "The column mean of each condition is its frequency across the scored ventures, and the article adds that governance and the realisation path have the two smallest means."
+digest = "fb0382a67c26fdfb"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Rarest Conditions in the Cross-Section"
+gloss = "The article states that the least frequently satisfied condition is governance or the realisation path."
+digest = "ad0495a1a7d94978"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Scoring Matrix of the Venture Set"
+gloss = "The article assembles the condition scores into a matrix in which the subject row sums to ten and every other row to at most seven."
+digest = "52f628c95e1517a7"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Outcome Variation under a Fixed Founder"
+gloss = "The article answers the great-founder framing by noting that outcomes vary across ventures with the same founder."
+digest = "a98bae798ba8ae6d"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Declining Government Share of Burn"
+gloss = "The article asserts that government capital was a large share of the burn before 2009 and a declining share afterward."
+digest = "e99f700911f9e43a"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Reversal Date of the State-Capacity Framing"
+gloss = "The article defines the reversal date as the first date at which firm investment ahead of the government requirement outweighs the reverse."
+digest = "7dddd4423b5bc80c"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Strong Form of the Luck Framing"
+gloss = "The article states the strong luck framing as independence of outcome from the condition vector."
+digest = "65fc06e792f15da7"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Survivorship Hazard"
+gloss = "The article notes that the near certainty of the conditions given survival leaves the reverse conditional probability unidentified."
+digest = "0e631906c4001581"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Four Underlying Properties"
+gloss = "The article names the four underlying properties as a mission-directed objective, a control configuration, a forced general capability and government access."
+digest = "0e0d13e99bd24adb"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Attainment and Holding against the Product"
+gloss = "The article restates that attaining the configuration is more probable and holding it less probable than the product of the marginals."
+digest = "1d8af031c43b5dcd"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Non-Durability under Succession"
+gloss = "The article holds that the probability that every condition holds tends to zero as the succession date approaches."
+digest = "a3d2a8e965eeb97f"
+
+[[symbol]]
+tex = '\phi_k'
+meaning = "the indicator that condition $k$ holds, with $\\phi_{j,k}$ its value for venture $j$"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the closure indicator, the product of the ten condition indicators"
+
+[[symbol]]
+tex = '\mathcal{C}_k'
+meaning = "the set of contemporary ventures satisfying condition $k$"
+
+[[symbol]]
+tex = '\boldsymbol{\phi}_j'
+meaning = "the closure vector of venture $j$"
+
+[[symbol]]
+tex = 'k^{\ast}'
+meaning = "the condition a case fails, the minimising index of its score"
+
+[[symbol]]
+tex = 'K^{\text{external}}'
+meaning = "the external capital requirement"
+
+[[symbol]]
+tex = 'B(t)'
+meaning = "the mission-directed burn"
+
+[[symbol]]
+tex = 'K^{\text{government}}'
+meaning = "the government capital supplied"
+
+[[symbol]]
+tex = '\boldsymbol{\theta}'
+meaning = "the vector of underlying properties, with components $\\theta_m$"
+
+[[symbol]]
+tex = 'h_k'
+meaning = "the map from the underlying properties to condition $k$, with $H$ the map for the whole vector"
+
+[[symbol]]
+tex = 'q'
+meaning = "the probability that one underlying factor is satisfied, unrelated to the launch capacities of the companion article"
+
+[[symbol]]
+tex = 'Z'
+meaning = "a common adverse shock"
+
+[[symbol]]
+tex = '\alpha_k'
+meaning = "the loading of condition $k$ on the common shock"
+
+[[symbol]]
+tex = '\varepsilon_k'
+meaning = "the idiosyncratic noise on condition $k$"
+
+[[symbol]]
+tex = '\kappa_k'
+meaning = "the failure threshold of condition $k$"
+
+[[symbol]]
+tex = '\bar{\rho}'
+meaning = "the mean correlation among line failures"
+
+[[symbol]]
+tex = 'd_i'
+meaning = "the decision load that business line $i$ imposes"
+
+[[symbol]]
+tex = 'D^{\max}'
+meaning = "the decision capacity of a single decision-maker"
+
+[[symbol]]
+tex = 't^{\text{sat}}'
+meaning = "the saturation date of the attention constraint"
+
+[[symbol]]
+tex = 'd^{\text{effective}}'
+meaning = "the effective number of underlying properties, written $d$ in the factor approximation"
+
+[[symbol]]
+tex = 'X(2050)'
+meaning = "a projected quantity in 2050"
+
+[[symbol]]
+tex = 'A_i'
+meaning = "the $i$th assumption of a projection"
+
+[[symbol]]
+tex = '\sigma_i'
+meaning = "the sensitivity of a projection to assumption $A_i$"
+
+[[symbol]]
+tex = 'c_n'
+meaning = "the cost at cumulative flight $n$"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the learning exponent"
+
+[[symbol]]
+tex = '\dot{n}^{\max}'
+meaning = "the saturated launch cadence"
+
+[[symbol]]
+tex = 'R^{\text{free}}(t)'
+meaning = "the free cash contribution of the commercial spinoff"
+
+[[symbol]]
+tex = 't^{\ast}'
+meaning = "the mission-funding crossover date"
+
+[[symbol]]
+tex = 'L'
+meaning = "the operational lifetime of a satellite"
+
+[[symbol]]
+tex = 'r_m'
+meaning = "the ranking score of failure mode $m$"
+
+[[symbol]]
+tex = '\bar{\phi}_k'
+meaning = "the frequency with which condition $k$ holds across the venture set $J$"

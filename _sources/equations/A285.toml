@@ -1,0 +1,655 @@
+# Equation classification for A285. Read by `python3 _lib/equations.py`.
+
+caution = "Rung values, capability stocks and the architecture indices are abstract quantities without units, while thrust is in newtons, specific impulse in seconds, masses in kilograms or tonnes as stated, costs in nominal United States dollars and probabilities are dimensionless."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Decomposability Condition"
+gloss = "The article requires every completed rung to be worth more than its own development cost."
+cite = []
+digest = "7ee98c71a6103ff3"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Rung Value Channels"
+gloss = "The article divides the value of a rung into revenue, capability, learning and option channels."
+cite = []
+digest = "62bf1ad087464df3"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Capability Accumulation over Rungs"
+gloss = "Capability is an initial stock plus the increments contributed by each completed rung."
+cite = []
+digest = "7efb02c5fd5fdd84"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Rung-to-Rung Transfer Efficiency"
+gloss = "The article measures transfer as the capability shared between successive rungs divided by the total capability of the earlier rung."
+cite = []
+digest = "ab5091936feb85e1"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Decomposability Counterfactual"
+gloss = "The decomposability contribution is defined as observed value less the value of a counterfactual single-configuration trajectory."
+cite = []
+digest = "9ee7f721b16051bc"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Survival Function from a Hazard Rate"
+gloss = "The probability of surviving to a time is the exponential of minus the integrated hazard rate."
+cite = []
+digest = "776c2db1d7a4c936"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Expected Value of a Rung Sequence"
+gloss = "The article weights each rung value by its completion probability and by the product of the completion probabilities of the earlier rungs."
+cite = []
+digest = "a0d20eb71353b694"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Decomposability Advantage"
+gloss = "The advantage is the expected value of the decomposed path less that of the single configuration and less the coordination cost."
+cite = []
+digest = "c9c3f2aa4660a29d"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Rung Value Threshold"
+gloss = "The article requires the value of every completed rung to reach a threshold of individual justification."
+cite = []
+digest = "3a1fe0abb76e3e9b"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Rung Independent Viability Test"
+gloss = "The value of a rung must exceed its development cost and an attributed share of shared infrastructure."
+cite = []
+digest = "41d087897495b0cc"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Rung Transition Probability"
+gloss = "The article writes the probability of reaching the next rung as an unspecified function of current rung value, accumulated capability and external conditions."
+cite = []
+digest = "082db2a8be4308ac"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Log-Normal Transition Time"
+gloss = "The article assumes that the time between rungs follows a log-normal distribution."
+cite = []
+digest = "bcd78905bdba7d55"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Decomposition Quality Index"
+gloss = "The article averages the ratio of rung value to development cost over the rungs."
+cite = []
+digest = "ed3a40606016390a"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Modularity Index"
+gloss = "The article takes the weighted mean over subsystems of the fraction of each subsystem reused across rungs."
+cite = []
+digest = "176b4123c251f4dc"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Subsystem Interface Count"
+gloss = "The count of interfaces is the number of subsystem pairs multiplied by the fraction of pairs that share a direct interface."
+cite = []
+digest = "eb760eee7d2de8c0"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Payoff of an Option to Invest in the Next Rung"
+gloss = "The option is worth the greater of zero and the expected value of the next rung less its investment cost."
+cite = []
+digest = "ca454227a55abb7e"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Expanded Present Value with an Option to Continue"
+gloss = "Total value is the current value plus the greater of zero and the option-to-continue value less its exercise cost."
+cite = ["book_trigeorgis_1996"]
+digest = "e449203db8cbcd90"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Bellman Recursion for Staged Investment"
+gloss = "The value at each rung is the greater of stopping and continuing, where continuing pays the next investment and earns the discounted expected value of the next rung."
+cite = []
+digest = "282ed486365531cf"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Capability Accumulation Dynamics"
+gloss = "The article models capability as growing with development investment and with learning proportional to the stock and as depreciating at a constant rate."
+cite = []
+digest = "78205801c7fe6682"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Completion Probability of a Decomposed Path"
+gloss = "Completion of the last rung is the product of independent rung success probabilities, which the article asserts is at least the single-configuration probability."
+cite = []
+digest = "afd2edc821b6a5a2"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Black-Scholes-Merton Call Value"
+gloss = "The value of a European call is the underlying value weighted by the normal distribution at the first standardised argument less the discounted exercise price weighted by it at the second."
+cite = ["research_black_scholes_1973", "research_merton_1973"]
+digest = "b2d0e469c6a46fbb"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Modular Architecture Index"
+gloss = "The article divides intra-subsystem coupling by total coupling to measure the strength of the modular architecture."
+cite = []
+digest = "4b762a6198e4fdeb"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Nearly Decomposable System Dynamics"
+gloss = "The article writes the dynamics of a nearly decomposable system as a composition of intra-module and inter-module dynamics on separate time scales."
+cite = ["research_simon_1962"]
+digest = "540e8d6317129fdd"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Geometric Residual Risk"
+gloss = "Residual risk is the initial risk reduced at each rung by the fraction resolved there."
+cite = ["research_boehm_1988"]
+digest = "1e61b6487fd117d6"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Bass Diffusion Equation"
+gloss = "The rate of adoption is the sum of an innovation term and an imitation term proportional to adoption so far, multiplied by the remaining market potential."
+cite = []
+digest = "8069921a01f47fce"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Recursive Compound Option over Rungs"
+gloss = "The article values each rung as the greater of zero and its underlying value plus the compound value of the next rung less its investment."
+cite = ["book_trigeorgis_1996"]
+digest = "a5ef74eaed13035d"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Dynamic Capabilities Index"
+gloss = "The article weights sensing, seizing and reconfiguring capability into one linear index."
+cite = ["research_teece_2007"]
+digest = "6e45ffd6f77069cb"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Absorptive Capacity Function"
+gloss = "The article writes absorptive capacity as an unspecified function of prior knowledge, knowledge diversity and research intensity."
+cite = ["research_cohen_levinthal_1990"]
+digest = "87869fbaf5e6e390"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Wright Learning Curve with Progress Ratio"
+gloss = "Unit cost falls as a power of cumulative production, with the exponent equal to minus the base-two logarithm of the progress ratio."
+cite = ["research_wright_1936"]
+digest = "3a148bc5bdba52fb"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Takt Time"
+gloss = "Takt time is the available production time divided by the demand."
+cite = ["book_ohno_1988"]
+digest = "66ed09b6bb00e8f6"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The velocity change equals the effective exhaust velocity, specific impulse times standard gravity, multiplied by the natural logarithm of the initial to final mass ratio."
+cite = []
+digest = "12860396b163b364"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Thrust-to-Weight Ratio at Liftoff"
+gloss = "The thrust-to-weight ratio is liftoff thrust divided by the weight of the vehicle at liftoff."
+cite = []
+digest = "6149a374d00cb522"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Payload Fraction of a Staged Vehicle"
+gloss = "The payload fraction is payload mass over liftoff mass, which the article writes as a product of stage mass ratios."
+cite = []
+digest = "94dd3607051d8087"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Falcon 1 Success Rate"
+gloss = "The success rate is two successes divided by the five Falcon 1 attempts."
+cite = []
+digest = "e317e2989d8249aa"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Falcon 1 to Falcon 9 Transfer Efficiency"
+gloss = "The article measures transfer as the Falcon 9 capability drawn from Falcon 1 divided by the total Falcon 1 capability."
+cite = []
+digest = "0518466ce5dd87e8"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Falcon 1 Rung Value Ratio"
+gloss = "The article divides Falcon 1 revenue plus the value of capability transferred to Falcon 9 by the Falcon 1 development investment."
+cite = []
+digest = "846c285464d4093a"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Falcon 9 Version 1.1 Payload Fraction Improvement"
+gloss = "The ratio of the payload fractions of the two versions is evaluated at about 1.26 from published figures."
+cite = []
+digest = "a430f9d6d6524133"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Payload Penalty of First-Stage Reuse"
+gloss = "The penalty is the expendable payload less the reusable payload, evaluated at about 7200 kilograms."
+cite = []
+digest = "d952523ec8e7fc28"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Exponential Growth of Launch Count"
+gloss = "The article fits the annual Falcon 9 launch count to an exponential with a fitted growth rate."
+cite = []
+digest = "3405ec7d1cd440cf"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Amortised Booster Cost"
+gloss = "The article spreads manufacture and refurbishment over the first flight and its reflights, omitting the other per-flight costs."
+cite = []
+digest = "dabcc407138aa1bd"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Block Capability Index"
+gloss = "The article compounds a capability index by a fractional improvement at each block."
+cite = []
+digest = "ecbc66681933cc44"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Exponential Decline of Launch Price"
+gloss = "The article models the launch price as decaying exponentially at a learning rate."
+cite = []
+digest = "352daea2f8ba6849"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Dragon 1 Cargo Efficiency"
+gloss = "The article divides delivered cargo mass by the launch mass of the spacecraft."
+cite = []
+digest = "c0daafe40b71c34f"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Dragon 1 Mission Value"
+gloss = "The article adds mission revenue to a value of capability transferred to Dragon 2."
+cite = []
+digest = "cbca3b72ea75d4d1"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Falcon Heavy Liftoff Thrust"
+gloss = "Total thrust is three cores of nine Merlin 1D engines each, twenty-seven times the sea-level thrust of one engine."
+cite = ["ref_spacex_falcon_heavy_users_guide"]
+digest = "5552ed5d85460c67"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Falcon Heavy Payload as a Multiple of Falcon 9"
+gloss = "The factor is the ratio of the published Falcon Heavy payload to that of Falcon 9, about 2.8."
+cite = ["ref_spacex_falcon_heavy_users_guide"]
+digest = "e6cb6706fb4d6d3a"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Falcon Heavy Average Annual Cadence"
+gloss = "The average cadence is the reported flight count divided by the operational period."
+cite = []
+digest = "7c4fffa902d82042"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Loss-of-Mission Probability of a Series of Events"
+gloss = "Mission loss is one minus the product of the success probabilities of the independent critical events."
+cite = ["ref_nasa_ccp_documents"]
+digest = "a0d6152a3d53654d"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Loss-of-Crew Probability"
+gloss = "Loss of crew is the probability of mission loss multiplied by the conditional probability that a mission loss is catastrophic."
+cite = ["ref_nasa_ccp_documents"]
+digest = "377ea2acfcf97f55"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Super Heavy Liftoff Thrust"
+gloss = "Total thrust is thirty-three times the sea-level thrust of one Raptor 2 engine."
+cite = []
+digest = "a99c44ad6648be84"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Equal Pressure Idealisation of Full-Flow Staged Combustion"
+gloss = "The article equates chamber pressure with the outlet pressure of each turbopump, which neglects the pressure drops through the preburners and injectors."
+cite = []
+digest = "2ee76ff5465dd315"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Payload Multiplication by Refuelling"
+gloss = "The article scales the payload in low Earth orbit by the rocket-equation mass ratio for the destination and by a refuelling multiplier."
+cite = []
+digest = "35f840260adbd771"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Cost per Kilogram under Full Reuse"
+gloss = "The article sums propellant, operations and amortised hardware cost and divides by payload mass."
+cite = []
+digest = "e37713c183ca12c8"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Count of Test Flights to Date"
+gloss = "The count sums an indicator over the completed flights flown by a given time."
+cite = []
+digest = "fdcb9106a97e4452"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Milestone Set by Flight"
+gloss = "The article defines the set of milestones achieved by a given flight."
+cite = []
+digest = "1dc2882dea020319"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Expected Value of Starship"
+gloss = "The article sums over applications the product of realisation probability, application value and the Starship share."
+cite = []
+digest = "fbbaa1f38e6fb7e2"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Merlin 1D to Merlin 1A Thrust Ratio"
+gloss = "The ratio of the reported sea-level thrusts of the two engines is about 1.92."
+cite = []
+digest = "0776d906de6741a9"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Merlin 1D Specific Impulse"
+gloss = "The reported specific impulses of the sea-level and vacuum Merlin engines are about 282 and 348 seconds."
+cite = []
+digest = "2ded84e6ef201bad"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Wright Learning Curve for Merlin Production"
+gloss = "The unit cost of the Merlin engine falls as a power of cumulative production."
+cite = ["research_wright_1936"]
+digest = "b13fb8b9a69a7b12"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Raptor Specific Impulse"
+gloss = "The reported specific impulses of the sea-level Raptor 2 and the vacuum Raptor are about 327 and 380 seconds."
+cite = []
+digest = "f533b6779248a43e"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Cycle Efficiency of Full-Flow Staged Combustion"
+gloss = "A full-flow staged combustion cycle, which burns its turbine exhaust in the chamber, is more efficient than a gas generator cycle, which dumps it overboard."
+cite = []
+digest = "23dac617f6d2f25b"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Raptor Thrust Growth across Versions"
+gloss = "The sea-level thrust of Raptor 3 is that of Raptor 1 compounded by the fractional increases of the two successive versions."
+cite = []
+digest = "5e4e8c2efc5d18b0"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Launch Site Utilisation"
+gloss = "Utilisation is launches divided by a maximum cadence, which the article takes as about 50 launches a year for the pad."
+cite = []
+digest = "daf5c362c3a9d446"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Inclination from Latitude and Launch Azimuth"
+gloss = "The cosine of the orbital inclination equals the cosine of the launch latitude times the sine of the launch azimuth."
+cite = []
+digest = "b3ed5cd6d53ba7ba"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Compound Option Value Function"
+gloss = "The article writes compound option value as an unspecified function of rung value, the next compound value, investment, two volatilities and the discount rate."
+cite = []
+digest = "f483d4812bb9ed9a"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke System Complexity Index"
+gloss = "The article weights the connectivity degree of each subsystem into one index."
+cite = []
+digest = "4f2236c597fd2e24"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Actor-Network Strength Index"
+gloss = "The article weights the alignment of each actor into one index."
+cite = ["research_callon_1986", "research_law_1987"]
+digest = "be340696654f8c19"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Ecosystem Orchestration Index"
+gloss = "The article weights the coordination strength of each segment into one index."
+cite = []
+digest = "632f484d333f141b"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Decomposability Closure Indicator"
+gloss = "Closure is one when all five sub-properties are satisfied and zero otherwise."
+cite = []
+digest = "88ee52cf72584df6"
+
+[[symbol]]
+tex = 'r_n'
+meaning = "the $n$th rung, an independently valuable configuration"
+
+[[symbol]]
+tex = 'R_i(t)'
+meaning = "the set of rungs that venture $i$ has completed by time $t$"
+
+[[symbol]]
+tex = 'V^{\text{rung}}(r_n)'
+meaning = "the independent value that rung $r_n$ generates"
+
+[[symbol]]
+tex = 'K_i(t)'
+meaning = "the cumulative capability of firm $i$"
+
+[[symbol]]
+tex = '\Delta K(r_n)'
+meaning = "the incremental capability that rung $r_n$ contributes"
+
+[[symbol]]
+tex = '\lambda^{\text{failure}}'
+meaning = "the hazard rate at a rung"
+
+[[symbol]]
+tex = 'S(t)'
+meaning = "the probability of surviving the rung transitions to time $t$"
+
+[[symbol]]
+tex = 'D_i'
+meaning = "the decomposition quality index"
+
+[[symbol]]
+tex = 'M_i'
+meaning = "the modularity index"
+
+[[symbol]]
+tex = '\phi^{\text{reuse}}_{s}'
+meaning = "the fraction of subsystem $s$ reused across rungs"
+
+[[symbol]]
+tex = '\omega_s'
+meaning = "the weight of subsystem or segment $s$"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the discount factor in the Bellman recursion, and the depreciation rate of capability in the accumulation dynamics"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the investment-to-capability conversion coefficient"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the learning coefficient"
+
+[[symbol]]
+tex = 'L(t)'
+meaning = "the learning intensity"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the standard normal cumulative distribution function"
+
+[[symbol]]
+tex = 'N(t)'
+meaning = "the number of rungs completed by time $t$, and in the Bass equation the cumulative adoption"
+
+[[symbol]]
+tex = '\rho^{\text{learning}}'
+meaning = "the progress ratio of the learning curve"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the effective exhaust velocity"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.80665 metres per second squared"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the initial mass"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the final mass"
+
+[[symbol]]
+tex = '\phi^{\text{latitude}}'
+meaning = "the latitude of the launch site"
+
+[[symbol]]
+tex = 'A^{\text{azimuth}}'
+meaning = "the launch azimuth"

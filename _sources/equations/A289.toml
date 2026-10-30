@@ -1,0 +1,679 @@
+# Equation classification for A289. Read by `python3 _lib/equations.py`.
+
+caution = "Capital, costs, values and award amounts are in nominal United States dollars as reported, shares, dilution fractions, probabilities and the incentive power are dimensionless, and most equations state the structure of an argument rather than evaluating it with data."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Distinction of Revenue from Development Capital"
+gloss = "Revenue is set as price times a positive delivered quantity, against development capital as a sum of milestone payments with nothing yet delivered."
+cite = []
+digest = "c1395d2874296ec6"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Total Capital by Channel"
+gloss = "The cumulative capital is the sum of the capital supplied through the government, equity and debt channels."
+cite = []
+digest = "5f1a83625034b4d2"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Non-Dilutive Property of Government Capital"
+gloss = "The statement holds that government development capital changes neither the cash-flow share nor the voting share of the founder."
+cite = []
+digest = "b2c44aa6e4c78f9b"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Private-Capital Counterfactual Differential"
+gloss = "The government-anchor contribution is defined as the observed value less the value under a counterfactual in which the development capital was raised privately on contemporaneous terms."
+cite = []
+digest = "2fe3c1c47b47861a"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Cost of Government Capital"
+gloss = "The cost of government capital is defined as the value of the non-financial concessions granted per dollar received and is asserted to lie far below the cost of equity."
+cite = []
+digest = "3f8f28dbfa92f390"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Equity Fraction to Raise a Given Amount"
+gloss = "Raising an amount of capital at a given pre-money valuation surrenders that amount divided by the post-money valuation."
+cite = []
+digest = "b038bc86399a76ce"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Payer Value of a Milestone Schedule"
+gloss = "The value to the payer is constructed as the sum over milestones of the probability of reaching each one times its benefit net of payment."
+cite = []
+digest = "16fb95614f7f0199"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Laffont and Tirole Incentive Power"
+gloss = "Incentive power is one minus the rate at which payment rises with cost, zero for pure cost reimbursement and one for a fixed price."
+cite = ["book_laffont_tirole_1993"]
+digest = "5851f767500edb7d"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Overrun Borne by the Provider"
+gloss = "Under a linear sharing rule the provider bears the incentive power times any excess of actual over estimated cost."
+cite = ["book_laffont_tirole_1993"]
+digest = "ac05a79fe3d744aa"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Private Cost-Share Requirement"
+gloss = "The agreement requires the private contribution to be at least a stated fraction of the government contribution."
+cite = []
+digest = "c370bcd35653f4d4"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Optimal Incentive Power under Cost Uncertainty"
+gloss = "The optimal incentive power trades the effort gain of a high-powered scheme against the risk premium on cost variance, so it falls as cost uncertainty rises."
+cite = ["book_laffont_tirole_1993", "research_bajari_tadelis_2001"]
+digest = "e516c9eeaa8a6787"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Asset-Specificity Hazard Index"
+gloss = "The index the article defines divides the loss of value in moving an asset from its intended use to its next-best use by its value in the intended use."
+cite = ["research_klein_crawford_alchian_1978"]
+digest = "767e3f89a67fb466"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Transaction-Cost Governance Choice"
+gloss = "Market or agreement governance is chosen when asset specificity is below a threshold and hierarchy or cost reimbursement when it is above."
+cite = ["book_williamson_1985"]
+digest = "5800905a312633ef"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Cost Components of Venture Capital"
+gloss = "The statement sets monitoring and staging, which both channels supply, against the equity claim, which only the private channel takes."
+cite = []
+digest = "91a559ada8dfbe68"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Gap between Social and Private Returns"
+gloss = "The rationale for public research spending is that the social return exceeds the private return when the innovator cannot appropriate the full benefit."
+cite = ["research_arrow_1962"]
+digest = "1d68a6883c274682"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Optimal Public Cost Share"
+gloss = "The public share of an investment is set to the gap between social and private return as a fraction of the social return, a rule the article constructs."
+cite = []
+digest = "1377937d10b1ed77"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Allocation of Risk to the Least-Cost Bearer"
+gloss = "Each risk is assigned to the party able to bear it at least cost, the risk-allocation principle of public and private partnership."
+cite = ["book_grimsey_lewis_2004"]
+digest = "9f53284b5ef54987"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Set of State Instruments"
+gloss = "The set enumerates five channels through which a state may act on an industry, an enumeration the article chose."
+cite = []
+digest = "d11cbb89833ce95d"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Herfindahl Index of Award Concentration"
+gloss = "The index is the sum of the squared shares of total awards held by each provider."
+cite = []
+digest = "02a337b63f03aa2c"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Heilmeier Screening Condition"
+gloss = "Funding is conditioned on four questions drawn from the Heilmeier catechism and required jointly, a condensation the article makes of the longer catechism."
+cite = ["ref_heilmeier_catechism"]
+digest = "070f398b39e78af9"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Transferability of the Learning Rate"
+gloss = "The question asks whether the learning rate of the historical calibration sample equals that of the provider, which the parametric estimate assumes."
+cite = []
+digest = "1b4abc4a7add794f"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Compliance Cost Removed by the Agreement"
+gloss = "The compliance cost under the Federal Acquisition Regulation is asserted to exceed that under a Space Act Agreement."
+cite = []
+digest = "abaae72ecb00ba33"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Procurement and Agreement Contrast"
+gloss = "A procurement gives the agency title to a deliverable whereas an agreement gives it a capability demonstrated in the market."
+cite = []
+digest = "8d61eab5c2233a3a"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Residual-Claim Structure of an Agreement"
+gloss = "Under an agreement the agency holds no title while the market gains a positive capability."
+cite = []
+digest = "8737866a5eab3bd3"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Probability That at Least One Provider Succeeds"
+gloss = "For providers with independent execution risk the probability that at least one succeeds is one minus the product of the failure probabilities."
+cite = []
+digest = "3985e987b694e677"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Parameter Vector of the Agreement"
+gloss = "The agreement is characterised by unit incentive power, a positive cost share, zero dilution and zero termination settlement."
+cite = []
+digest = "973593aa23bf39bf"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Continuation Value with a Termination Settlement"
+gloss = "The advantage of continuing over terminating is the expected completion value plus any settlement that termination would cost, which vanishes under the agreement."
+cite = []
+digest = "61cda36b236bf9c5"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Agency Recovery on Termination"
+gloss = "The agency recovers the obligated but undisbursed balance under the agreement, against paying a settlement under a cost-plus termination."
+cite = []
+digest = "8d77421964eb5977"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Milestone Release Condition"
+gloss = "A milestone payment is released only when the technical milestone is achieved and the private contribution meets the required cost share."
+cite = []
+digest = "44f683e14e8eafb8"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Inference from the Rocketplane Kistler Failure"
+gloss = "The single failed private raise bounds the probability of completing such a raise below one without implying that the SpaceX raise would have failed."
+cite = []
+digest = "cb76b5752d70c1a0"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Dilution Falling in Valuation"
+gloss = "The equity fraction surrendered for a fixed amount of capital falls as the valuation rises, so capital raised at a low valuation is much more dilutive."
+cite = []
+digest = "55920fde0c4e29df"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Dilution Avoided through the Commercial Orbital Transportation Services Award"
+gloss = "The Commercial Orbital Transportation Services capital, had it been raised as equity, would have surrendered that capital divided by the post-money valuation."
+cite = []
+digest = "4862e121928ac42d"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Compounding of Avoided Dilution"
+gloss = "The founder share after later rounds is compared with and without the avoided dilution, which the article subtracts from the initial share rather than applying as a multiplicative factor."
+cite = []
+digest = "db67d627c416228b"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Separation of Three Propositions"
+gloss = "The chain states that favourable terms, which the article establishes, imply neither that the capital was necessary nor that the expenditure was efficient."
+cite = []
+digest = "eb70f01c34bd8996"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Plateau of Government Development Capital"
+gloss = "Cumulative government development capital is taken as roughly constant after the transition from development to procurement."
+cite = []
+digest = "e653c0c47aa3ceb7"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Capital Share against Revenue Share"
+gloss = "The historical government share of development capital is set against the current government share of revenue, two quantities the article separates."
+cite = []
+digest = "5fc653662882aa77"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Staged Instrument Choice"
+gloss = "The optimal incentive power is applied as a function of cost variance that declines over time, so that the instrument tightens as the requirement becomes specifiable."
+cite = []
+digest = "1d3d420da8424ec4"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Commercial Crew Price Differential"
+gloss = "The award of about 4.2 billion dollars exceeds the award of about 2.6 billion dollars by about 60 percent of the lower figure."
+cite = ["ref_nasa_ccp_certification"]
+digest = "1436e5c372e5cff2"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Public Share of an Overrun"
+gloss = "The public bears one minus the incentive power times any overrun, which approaches zero under a fixed price."
+cite = []
+digest = "c4c5c502cf2bb48c"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Overrun Incidence by Instrument Class"
+gloss = "Under a fixed price the provider bears the whole overrun and under cost reimbursement the public bears it."
+cite = []
+digest = "4bae9cb64be3c6eb"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Credibility Condition for Risk Transfer"
+gloss = "Risk is held to be transferred only when the overrun does not exceed the capacity of the provider to absorb the loss."
+cite = []
+digest = "47a573d641af2bbd"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Value of Certification"
+gloss = "The value of certification is constructed as the discounted expected margin on the award stream it opens, less the certification cost."
+cite = []
+digest = "f54a886ac465019c"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Asymmetric Certification Barrier"
+gloss = "The certification cost is the same for every entrant, but relative to existing revenue it differs by orders of magnitude between incumbent and entrant."
+cite = []
+digest = "5dcce9aab5b28c32"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Provider Count Progression"
+gloss = "The number of providers admitted to the competed national security launch missions rises from one to two to three or more across three periods."
+cite = []
+digest = "5b0eb1b521bcdf82"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Litigation Decision"
+gloss = "Litigation is pursued when the probability of prevailing times the value of channel access exceeds the legal cost plus the cost to the customer relationship."
+cite = []
+digest = "aff6025f80e67958"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Dependency of Government Access on Patient Capital"
+gloss = "Access to government capital is shown as conditioned on a legal contest that patient private capital financed."
+cite = []
+digest = "f6abf4aafa0ae2cb"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Reversal of the Capital Flow"
+gloss = "The response of firm capital to the government relationship is positive in the development period and negative in the current period, a reversal the article asserts."
+cite = []
+digest = "bed268687cdfe9dd"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Reversal of Temporal Ordering"
+gloss = "Government capital preceded the capability in the development era, whereas the capability now precedes the government purchase."
+cite = []
+digest = "89b301bce049ad54"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Award-to-Position Chain"
+gloss = "The chain models a development award producing a capability, the capability a position and the position a follow-on award."
+cite = []
+digest = "725e359666830610"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Follow-On Advantage of a Development Award"
+gloss = "The probability of winning a follow-on given a development award is asserted to far exceed the unconditional probability."
+cite = []
+digest = "957fdc618aa5e6e8"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Value of a Development Award"
+gloss = "The value of an award is constructed as its visible development capital plus the probability of a follow-on times the value of the follow-on position."
+cite = []
+digest = "8a5061b5ce7f221a"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Termination Decision"
+gloss = "Termination is taken when the expected completion value falls below the remaining milestone payments plus the political cost to the deciding official."
+cite = []
+digest = "a0961e3ca0f9b599"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Agency Capability as a Minimum"
+gloss = "Agency capability is modelled as the weaker of technical proximity and institutional distance, a minimum form the article chose for embedded autonomy."
+cite = ["book_evans_1995"]
+digest = "75803db3019102d5"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Parameter Vectors of Agreement and Cost-Plus"
+gloss = "The agreement vector of unit incentive power, positive cost share, zero dilution and zero settlement is set against a cost-plus vector the article approximates with zero incentive power and cost share and a positive settlement."
+cite = []
+digest = "c38695f9a966ae7e"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Confounded Instrument Comparison"
+gloss = "The observed outcome difference between agreement and cost-plus programmes is the sum of an instrument effect and a requirement effect that the comparison cannot separate."
+cite = []
+digest = "d0c4bf07b1bcf5f8"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Parametric Counterfactual Cost Estimate"
+gloss = "The counterfactual cost is a parametric function of mass, complexity and heritage with parameters calibrated on historical programmes, which the article treats as a contested reconstruction."
+cite = []
+digest = "8048107010f305e7"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Negative Working Capital from Customer Advances"
+gloss = "Working capital is receivables plus inventory less customer advances, and advances large enough make it negative so that the customer finances production."
+cite = []
+digest = "68e20d3cdc5d2578"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Classification by Ownership of Title"
+gloss = "The wartime industrial arrangements are classified into three forms according to who owned and who operated the facilities."
+cite = []
+digest = "5393baad788eef90"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Milestone Counts of X-33 and Commercial Orbital Transportation Services"
+gloss = "The X-33 schedule is characterised as about one integrated milestone against many independently valuable milestones under Commercial Orbital Transportation Services."
+cite = []
+digest = "830124e8894a3b71"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Capability Response to Government Capital"
+gloss = "Government capital is held to add capability only where the capital constraint of the provider binds."
+cite = []
+digest = "848eafa1a8fc6e16"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Instrument Effect at Two Dates"
+gloss = "Instrument availability raises the share of the same firm both as entrant and later as incumbent, an asymmetry the article asserts."
+cite = []
+digest = "9d4f3be187cc1bcd"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Government-Anchor Closure Vector"
+gloss = "Each provider receives a binary vector over the five government-anchor sub-properties that the pattern-extraction section states."
+cite = []
+digest = "ae585b46ce17bab1"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Instrument Structure over Funding Magnitude"
+gloss = "Success is asserted to be nearly independent of the amount of government capital and strongly associated with decomposed milestones and a cost share."
+cite = []
+digest = "3bf3127e9cdca3db"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Rent from Political Effort"
+gloss = "Rent is defined as observed profit less a competitive benchmark, which the rent-seeking framing predicts rises with political effort."
+cite = []
+digest = "a3a3d4abeb89cf99"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Capture Prediction"
+gloss = "The capture framing predicts that eligibility thresholds rise with the preference of the agency for the incumbent."
+cite = ["research_stigler_1971"]
+digest = "29e4f7b83eebf3c6"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke State Capacity Function"
+gloss = "State capacity is posited as an unspecified function of technical competence, insulation from capture and embeddedness in the sector."
+cite = []
+digest = "d5a2475a1499f486"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Transaction-Cost Selection Rule"
+gloss = "The agreement is predicted where asset specificity is low, the requirement ill specified and the provider able to bear the overrun, with all three required."
+cite = []
+digest = "b8cd3e7ad658c441"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Agency Option Strip"
+gloss = "The agency value is constructed as the sum over milestones of the probability of reaching each times the positive part of benefit net of payment."
+cite = []
+digest = "8edffc3d2eca745e"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Budgetary Utility of the Agency"
+gloss = "The agency utility is modelled as a weighted sum of programme value and the value of a result within one appropriation cycle."
+cite = []
+digest = "58a2842a6be798a1"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Sample Success Rate"
+gloss = "The estimated success rate is the number of successes divided by the number of successes and failures, which overstates the rate when failed programmes are left uncounted."
+cite = []
+digest = "a8a1a3203370d6a1"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Government-Anchor Conjunctive Closure"
+gloss = "Closure is the product of five binary sub-property indicators, so that it obtains only when every indicator is one."
+cite = []
+digest = "95d9e5190f14aa17"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Development-Stage Timing Condition"
+gloss = "The award must arrive before the capability exists, since capital arriving afterwards is revenue."
+cite = []
+digest = "21681b08f49cdcbc"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Government-Anchor Test Vector"
+gloss = "The test vector collects the five diagnostic conditions, from zero dilution to an existing follow-on position."
+cite = []
+digest = "3fe045374aedf327"
+
+[[symbol]]
+tex = 'K^{\text{gov}}'
+meaning = "the cumulative government development capital"
+
+[[symbol]]
+tex = 'K^{\text{total}}(t)'
+meaning = "the cumulative capital supplied through all channels"
+
+[[symbol]]
+tex = 'm_j'
+meaning = "the payment at the milestone $j$"
+
+[[symbol]]
+tex = 'e^{\text{founder}}'
+meaning = "the cash-flow share of the founder"
+
+[[symbol]]
+tex = 'v^{\text{founder}}'
+meaning = "the voting share of the founder"
+
+[[symbol]]
+tex = 'r^{\text{gov}}'
+meaning = "the cost of government capital, the value of concessions granted per dollar received"
+
+[[symbol]]
+tex = '\delta^{\text{avoided}}'
+meaning = "the equity fraction that raising the same capital privately would have surrendered"
+
+[[symbol]]
+tex = 'V'
+meaning = "the firm valuation at the time the capital was received"
+
+[[symbol]]
+tex = '\pi_j'
+meaning = "the probability that the programme reaches the milestone $j$"
+
+[[symbol]]
+tex = 'B_j'
+meaning = "the benefit to the payer of the milestone $j$"
+
+[[symbol]]
+tex = 'b'
+meaning = "the incentive power of a contract, from zero for cost reimbursement to one for a fixed price, and in the learning-transfer question the learning rate"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the required ratio of private to government contribution"
+
+[[symbol]]
+tex = 'h'
+meaning = "the asset-specificity hazard index"
+
+[[symbol]]
+tex = 's^{\ast}'
+meaning = "the optimal public share of an investment"
+
+[[symbol]]
+tex = 'S'
+meaning = "the settlement the agency pays on termination"
+
+[[symbol]]
+tex = '\Delta e'
+meaning = "the dilution of the founder cash-flow share that an instrument causes"
+
+[[symbol]]
+tex = 'L^{\text{public}}'
+meaning = "the share of a cost overrun borne by the public"
+
+[[symbol]]
+tex = 'L^{\text{provider}}'
+meaning = "the share of a cost overrun borne by the provider"
+
+[[symbol]]
+tex = 'W^{\text{provider}}'
+meaning = "the capacity of the provider to absorb a loss"
+
+[[symbol]]
+tex = 'C^{\text{certification}}'
+meaning = "the cost of obtaining launch certification"
+
+[[symbol]]
+tex = 'C^{\text{political}}'
+meaning = "the institutional cost that termination imposes on the deciding official"
+
+[[symbol]]
+tex = '\boldsymbol{\phi}_j'
+meaning = "the binary closure vector of the provider $j$ over five sub-properties"
+
+[[symbol]]
+tex = '\Phi^{\text{gov-anchor}}'
+meaning = "the conjunctive closure, the product of the five sub-property indicators"

@@ -1,0 +1,691 @@
+# Equation classification for A286. Read by `python3 _lib/equations.py`.
+
+caution = "Most quantities are sets, indicators or dimensionless indices that the article defines for its argument and that carry no units, while masses are in metric tons, velocities in kilometres per second and costs in nominal United States dollars wherever an equation is evaluated."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Generality-Forcing Condition"
+gloss = "The condition requires the primary requirement set of the Mars-transportation mission to contain the necessary requirement set of every adjacent application, a dominance that the article posits as the defining property."
+cite = []
+digest = "133340a8b29b7b82"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Generality-Forcing Coverage Ratio"
+gloss = "The ratio the article defines divides the number of adjacent applications a capability configuration covers by the number it could potentially cover."
+cite = []
+digest = "e2f0239d82fbe3e1"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Cross-Application Capability Substrate"
+gloss = "The capability substrate is defined as the intersection of the capability sets that the adjacent applications each require."
+cite = []
+digest = "fb91b569876982e4"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Generality-Forcing Value Decomposition"
+gloss = "The value attributed to generality forcing is constructed as a sum of application values, each weighted by a capability-fit fraction that the article introduces."
+cite = []
+digest = "aa4dea3e37df4a19"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Narrow-Mission Counterfactual Differential"
+gloss = "The generality-forcing contribution is defined as the observed cumulative value less the value under a counterfactual in which the firm optimises for a single narrow application."
+cite = []
+digest = "ea44c3e55ea04ccb"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Application-Set Cardinality Comparison"
+gloss = "The inequality asserts that the set of applications SpaceX realised is at least as large as that of a narrow-mission comparator the article selects."
+cite = []
+digest = "0d9dae73ee757bd0"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Configured-Capability Dominance Condition"
+gloss = "The condition restates generality forcing at the level of capability, requiring the configured capability set to contain the necessary capability set of every target application."
+cite = []
+digest = "8c13614d6c1544ee"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Generality-Forcing Yield"
+gloss = "The yield the article defines divides the summed value of the covered adjacent applications by the value of the primary mission, so that a yield above one marks adjacent value exceeding primary value."
+cite = []
+digest = "521caec587783004"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Requirement-Satisfaction Indicator"
+gloss = "The indicator is a product over the necessary requirements of an application and takes the value one only when the configured set covers every one of them."
+cite = []
+digest = "7bd6494c5ed4dbd7"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Requirement Stringency Ordering"
+gloss = "The ordering ranks five mission requirement sets by stringency under the article's premise that the Mars-transportation requirement dominates each set below it."
+cite = []
+digest = "57327eab1ebefe1a"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Application-Yield Trajectory"
+gloss = "The yield at a given time is constructed as the sum of revenue across the applications active at that time."
+cite = []
+digest = "37d50f25f5551390"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Cross-Application Spillover Coefficient"
+gloss = "The coefficient the article defines divides the capability that one application gains from another by the total capability of the source application."
+cite = []
+digest = "05515c4ea11f1588"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Slack Set"
+gloss = "The slack set collects the capability elements of the configuration that no currently served application exercises, which is the construction on which the generality-forcing argument turns."
+cite = []
+digest = "290663952fa7d5e1"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Cost of Generality"
+gloss = "The cost of carrying slack is defined as the realised configuration cost less the cost of a hypothetical configuration sized minimally to the served applications."
+cite = []
+digest = "da1d780602fd1bd6"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Rationality Condition for Overspecification"
+gloss = "The inequality holds overspecification warranted when the probability-weighted net value of the potential applications that the slack makes reachable exceeds the cost of generality."
+cite = []
+digest = "4086f1a085c87150"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Requirement-Coverage Index"
+gloss = "The index the article defines is the fraction of the requirements of the application set that the configured requirement set also contains."
+cite = []
+digest = "5bd4f3df8c6b05d4"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke General-Purpose-Technology Index"
+gloss = "The index is posited as an unspecified function of pervasiveness, complementary innovation and improvement potential, the three factors that the general-purpose technology literature names."
+cite = ["research_bresnahan_trajtenberg_1995", "book_lipsey_carlaw_bekar_2005"]
+digest = "fea24526276d5b19"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Design-Concentration Index"
+gloss = "The index takes the largest share of missions flown by any one architectural configuration, and the article declares a dominant design once it exceeds a threshold sustained across an interval."
+cite = []
+digest = "acba541b6deb3510"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Henderson and Clark Innovation Classification"
+gloss = "Innovation is classified by whether it changes components and whether it changes the architecture linking them, giving the incremental, modular, architectural and radical cells of the two-by-two scheme."
+cite = ["research_henderson_clark_1990"]
+digest = "1150c79251d70d38"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Requirement Alignment Measure"
+gloss = "The measure the article defines is the fraction of primary requirements that also serve at least one adjacent application."
+cite = []
+digest = "ad8026f793e2b93a"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Mission-Directedness Indicator"
+gloss = "The indicator takes the value one for a requirement that the primary mission demands and that no currently served application demands, so its sum counts requirements with no market derivation."
+cite = []
+digest = "523c726bf12c58e9"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Mission-to-Application Mapping Chain"
+gloss = "The chain models the mission objective as generating the primary requirements, which generate the configured capability, which in turn generates the covered applications."
+cite = []
+digest = "723b38f0d4586f54"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Configuration Ratios from 2016 to 2017"
+gloss = "The 2017 revision divided by the 2016 announcement gives ratios of about three quarters for booster diameter and engine count and one half for reusable payload, using the published figures of the two presentations."
+cite = ["research_musk_2017_iac", "research_musk_2018_iac"]
+digest = "29dcf445bc28d64f"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Vehicle Sizing Decision"
+gloss = "The vehicle scale is modelled as maximising net adjacent-application value subject to the constraint that the configuration still satisfies the Mars mission requirement."
+cite = []
+digest = "fb187ad2299aa274"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Self-Financing Condition"
+gloss = "The condition requires the profit flow from adjacent applications to cover the development expenditure rate at every time between the sizing decision and the primary mission."
+cite = []
+digest = "1521cfd56ef46aff"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Jaccard Index of Requirement Stability"
+gloss = "The stability index is the Jaccard similarity of the 2016 requirement set and the requirement set at the drafting date, the size of their intersection divided by the size of their union."
+cite = []
+digest = "73989d6e15183daf"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Launch Cadence Decomposition"
+gloss = "The launches per transfer window are constructed as the number of departing ships multiplied by one plus the tankers each ship requires, which makes cadence a consequence of the refuelling architecture."
+cite = []
+digest = "e69e692f1e8ffad6"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Mars Requirement Stack as a Union"
+gloss = "The Mars-transportation requirement set is constructed as the union of seven categories the article selects, namely payload, cost, cadence, refuelling, life support, entry and landing, and in-situ resource utilisation."
+cite = []
+digest = "ccca708807f39036"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The ideal velocity increment equals the specific impulse times standard gravity times the natural logarithm of the ratio of initial to final mass."
+cite = ["book_sutton_biblarz_2016", "book_curtis_2013"]
+digest = "2a9951c1644ba2bf"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Residual Requirement Set"
+gloss = "The residual set collects the necessary requirements of an application that the primary requirement set does not cover, which bounds the dominance the article claims."
+cite = []
+digest = "c12eeba01854b13a"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Reusable-Launch Generalisation Index"
+gloss = "The index is the share of the launch-application space that the reusable configuration serves, evaluated at about 0.90 by the article's own estimate at the drafting date."
+cite = []
+digest = "1516a6c7a868611c"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Per-Mission Cost of a Reusable Vehicle"
+gloss = "The per-mission cost is assembled as the vehicle cost amortised over its flights plus recurring refurbishment, propellant and operations terms."
+cite = []
+digest = "14fa61fd7bcd93d4"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Reuse Breakeven Flight Count"
+gloss = "Equating the per-mission cost of a reusable vehicle with that of an expendable one, under the assumption that propellant and operations costs are common to both, gives the flight count at which reuse reaches parity."
+cite = []
+digest = "151f8e9200e0a1dd"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Wright Learning Curve"
+gloss = "Unit cost falls as a power of cumulative count, with the exponent fixed by the progress ratio by which cost falls on each doubling, here applied to refurbishment."
+cite = ["research_wright_1936", "research_argote_epple_1990"]
+digest = "ed45c5259061ff79"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Mass-to-Orbit Generalisation Index"
+gloss = "The index divides the Starship payload capability by that of Falcon 9 and is stated as the range five to ten, which spans the article's assumed Starship payload."
+cite = []
+digest = "d7af4c08a23786fe"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Cost Minimisation over Two Inputs"
+gloss = "The textbook cost-minimisation problem chooses the mix of delivered mass and engineering effort that meets a required output at least cost, given the price of each input."
+cite = []
+digest = "240af7719c3a9c73"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Elasticity of Substitution"
+gloss = "The elasticity of substitution measures the proportional change in the ratio of mass to engineering input per proportional change in their relative price, and the article asserts that it is positive."
+cite = []
+digest = "fc124d67e7fea8f9"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke In-Space-Refuelling Generalisation Index"
+gloss = "The index is the share of beyond-low-Earth-orbit applications that in-space refuelling enables."
+cite = []
+digest = "b6d0f1424137914d"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Likelihood Ratio for the Refuelling Observation"
+gloss = "The ratio of the probability of observing a refuelling requirement under the mission-derived hypothesis to that under the market-derived hypothesis is asserted to greatly exceed one, a judgement the article makes rather than measures."
+cite = []
+digest = "37724b673df9a791"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Departure Mass Budget"
+gloss = "The departure mass is assembled as the single-launch mass plus the mass each tanker transfers less the propellant lost to boil-off during accumulation."
+cite = []
+digest = "b4cebd21d7c033cb"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Exponential Boil-Off Model"
+gloss = "Propellant is modelled as decaying exponentially at a rate equal to the heat leak divided by the initial propellant mass and the latent heat of vaporisation, an assumption the article chose in place of the linear loss that a constant heat leak gives."
+cite = []
+digest = "cee59957d9428d6d"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Life-Support Generalisation Index"
+gloss = "The index is the share of crewed-mission applications that the life-support configuration serves."
+cite = []
+digest = "4cddd010a264c6b1"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Life-Support Loop Closure Ratio"
+gloss = "The closure ratio is one minus the ratio of the resupply mass flow to the consumption mass flow, so that it approaches one as resupply approaches zero."
+cite = []
+digest = "74938c30ce74f4c8"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Consumable Mass Requirement"
+gloss = "The carried consumable mass is modelled as the per-crew consumption rate times crew size times mission duration times the unclosed fraction, a linear budget the article constructs."
+cite = []
+digest = "65d11c5ee911dfd0"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Lunar Lander Tanker Count"
+gloss = "The tanker count is constructed from the rocket equation as the propellant the mission velocity budget demands, net of residual propellant, divided by the mass each tanker transfers and rounded up."
+cite = []
+digest = "90a8f11a07a5e600"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Best-Value Selection Rule"
+gloss = "The source selection is modelled as maximising a weighted sum of technical and management scores less weighted price, subject to the appropriated budget, a linear form the article adopts for the Federal Acquisition Regulation procedure."
+cite = ["ref_far_part_15"]
+digest = "ead6b918bf3c596b"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Schedule Coupling of an Adjacent Application"
+gloss = "The readiness date of an application is modelled as the later of its application-specific development date and the date of the primary capability on which it depends."
+cite = []
+digest = "786f18e7de54b5ec"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Constellation Replenishment Cadence"
+gloss = "The minimum launch rate is constructed as the constellation size divided by the satellite lifetime and the satellites carried per launch, under the assumption of steady-state replacement at end of life."
+cite = []
+digest = "bcadbda1951ccdb6"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Financing Loop"
+gloss = "The rate of accumulation of primary-mission capability is posited as a function of the adjacent-application profit flow, closing the loop in which adjacent applications finance the primary capability."
+cite = []
+digest = "cd0cffb5947ea034"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Average Fixed Cost of Certification"
+gloss = "The per-mission certification burden is the fixed certification cost divided by the number of certified missions, the textbook average fixed cost."
+cite = []
+digest = "cae779c379caa4de"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Residual-Investment Ratio"
+gloss = "The ratio the article defines divides the application-specific investment an application requires by the total capability investment it requires."
+cite = []
+digest = "393eb4302bc657c3"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Cost and Capability Channel Decomposition"
+gloss = "The change in market share is decomposed to first order into a cost channel and a capability channel, a two-term linearisation the article chose."
+cite = []
+digest = "11d820e6dd60d57b"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Union and Dominance Requirement Constructions"
+gloss = "The contrast sets a requirement stack built as the union of constituency requirements against one in which a single dominant requirement covers every application."
+cite = []
+digest = "fc265b5649ca5ab1"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Union-Construction Payload Penalty"
+gloss = "The realised payload is modelled as the unconstrained payload less a mass penalty summed over every constituency requirement, an additive penalty the article assumes."
+cite = []
+digest = "5fedd685dd4ba312"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Space Shuttle Cadence Shortfall Ratio"
+gloss = "The realised average of about 4.5 missions per year divided by the projected 60 per year gives a cadence of about 7.5 percent of design."
+cite = []
+digest = "028951623570d93a"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Per-Mission Cost of an Expendable Programme"
+gloss = "The per-mission cost is assembled as a recurring hardware term plus the fixed programme cost divided by the annual mission count."
+cite = []
+digest = "7de6d371d8fd96a8"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Space Launch System Application Count"
+gloss = "The application set of the Space Launch System is stated to contain the single Artemis crewed lunar programme, a count the article makes."
+cite = []
+digest = "af57888fc13e8b4e"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Ares I Requirement Circularity"
+gloss = "The requirement set of Ares I is stated to equal the necessary requirements of delivering Orion to low Earth orbit, with that delivery as the only application."
+cite = []
+digest = "d8dadad8ef1edd04"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Empty Slack Set of Ares I"
+gloss = "The slack set of Ares I is empty because the configured capability coincides with what its single application requires."
+cite = []
+digest = "720681a4d2b085f7"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Joint Capability and Cost Condition"
+gloss = "Generality is posited to hold if and only if the primary requirements dominate each target application and the configured cost falls below each application reservation price."
+cite = []
+digest = "abd854129c589d9a"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Precedent Classification Pair"
+gloss = "The pair of indicators for the capability and cost conditions classifies historical precedents into cells, a classification the article constructs."
+cite = []
+digest = "2a19b2a6ae1b7289"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Recovered Dry-Mass Fraction"
+gloss = "The coordinate the article defines divides the recovered dry mass by the total dry mass, placing an expendable vehicle at zero and a fully reusable one at one."
+cite = []
+digest = "a525807b804af38a"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Generality-Forcing Closure Vector"
+gloss = "Each firm receives a binary vector over the five sub-properties that the pattern-extraction section states."
+cite = []
+digest = "d53e769fecb71588"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Anti-Correlation of Two Sub-Properties"
+gloss = "The inequality asserts a negative correlation across the firm set between requirement dominance and adjacent yield, an observation the article draws from its own scoring."
+cite = []
+digest = "6305be3fd9befc5b"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Threshold Conjunction for a General-Purpose Technology"
+gloss = "The three criteria of the general-purpose technology literature are stated as a conjunction, each against a threshold that the article leaves unspecified."
+cite = ["research_bresnahan_trajtenberg_1995", "book_lipsey_carlaw_bekar_2005"]
+digest = "b750cbd3356f703e"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Platform Leverage Ratio"
+gloss = "The leverage ratio the article defines divides the summed value of the platform variants by the platform development cost."
+cite = ["book_meyer_lehnerd_1997"]
+digest = "fcb686e84e774ec9"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Generality Option Value"
+gloss = "The option value is constructed as a sum over potential applications of the positive part of expected application value net of residual investment, which takes the maximum after the expectation."
+cite = []
+digest = "bc0e92c2da7c9077"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Lock-In Condition"
+gloss = "Persistence of an architecture is attributed to lock-in when the switching cost exceeds the value advantage of the alternative architecture."
+cite = ["research_arthur_1989", "research_david_1985"]
+digest = "d48e7d349afff4d0"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Asymmetry of Conditional Probabilities"
+gloss = "The probability of success given a strategy differs in general from the probability of the strategy given success, and the two coincide only when the base rates are equal."
+cite = []
+digest = "678469919aca3aef"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Generality-Forcing Conjunctive Closure"
+gloss = "Closure is the product of five binary sub-property indicators, a product form the article chose so that no strength on one sub-property compensates for a failure on another."
+cite = []
+digest = "c86aa78cd94cfcfc"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Extended Closure with the Cost Condition"
+gloss = "The extended closure multiplies the conjunctive closure by an indicator that the configured cost falls below the reservation price of every target application."
+cite = []
+digest = "5f3d9b65be91f3d5"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Ordered Test Vector"
+gloss = "The test vector collects the five diagnostic questions of the procedure, each evaluated against a quantity that an earlier section defines."
+cite = []
+digest = "004d0ae5be1806a5"
+
+[[symbol]]
+tex = 'R^{\text{primary}}'
+meaning = "the set of primary technical requirements that the Mars-transportation mission necessitates"
+
+[[symbol]]
+tex = 'R^{\text{necessary}}(a)'
+meaning = "the set of requirements necessary for the adjacent application $a$"
+
+[[symbol]]
+tex = 'K^{\text{configured}}'
+meaning = "the capability configuration that satisfies the primary requirement set"
+
+[[symbol]]
+tex = 'K^{\text{necessary}}(a)'
+meaning = "the capability necessary for the application $a$"
+
+[[symbol]]
+tex = '\succeq'
+meaning = "dominance in stringency, so that satisfying the left side satisfies the right"
+
+[[symbol]]
+tex = '\gamma_i'
+meaning = "the generality-forcing coverage ratio of the firm $i$"
+
+[[symbol]]
+tex = 'V^{\text{application}}(a)'
+meaning = "the value of the application $a$"
+
+[[symbol]]
+tex = 'S'
+meaning = "the slack set, the configured capability that no served application exercises"
+
+[[symbol]]
+tex = 'C^{\text{generality}}'
+meaning = "the cost of carrying the slack"
+
+[[symbol]]
+tex = 'C^{\text{residual}}(a)'
+meaning = "the residual investment that the application $a$ requires beyond the shared capability"
+
+[[symbol]]
+tex = 'p(a)'
+meaning = "the probability that the potential application $a$ materialises"
+
+[[symbol]]
+tex = 'c^{\text{reservation}}(a)'
+meaning = "the reservation price of the customers of the application $a$"
+
+[[symbol]]
+tex = '\delta(r)'
+meaning = "the mission-directedness indicator of the requirement $r$"
+
+[[symbol]]
+tex = '\Sigma^{\text{requirement-stability}}'
+meaning = "the requirement-stability index from 2016 to the drafting date"
+
+[[symbol]]
+tex = 'n^{\text{tanker}}'
+meaning = "the number of tanker flights per departing ship"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.80665 metres per second squared"
+
+[[symbol]]
+tex = 'c^{\text{refurbishment}}'
+meaning = "the refurbishment cost per flight of a reusable vehicle"
+
+[[symbol]]
+tex = 'n^{\ast}'
+meaning = "the breakeven flight count at which reuse reaches cost parity"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the progress ratio of the learning curve, and with an argument the residual-investment ratio of an application"
+
+[[symbol]]
+tex = '\lambda^{\text{boil-off}}'
+meaning = "the boil-off rate constant of stored cryogenic propellant"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the elasticity of substitution between delivered mass and engineering effort"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the likelihood ratio of the refuelling observation under the two hypotheses"
+
+[[symbol]]
+tex = '\eta^{\text{closure}}'
+meaning = "the closure ratio of the life-support loop"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the ratio of realised to design launch cadence"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the recovered fraction of total vehicle dry mass"
+
+[[symbol]]
+tex = '\boldsymbol{\phi}_j'
+meaning = "the binary closure vector of the firm $j$ over five sub-properties"
+
+[[symbol]]
+tex = '\Phi^{\text{generality-forcing}}'
+meaning = "the conjunctive closure, the product of the five sub-property indicators"

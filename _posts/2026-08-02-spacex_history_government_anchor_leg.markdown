@@ -21,7 +21,10 @@ The mapping problem for a comprehensive treatment of the government-anchor capit
 
 The problem is distinct from the anchor-demand problem in a way that deserves statement at the outset, because the two are routinely conflated in the commentary. A customer who purchases a delivered service provides revenue. A customer who pays against development milestones before any service exists offers capital. The distinction can be stated as
 
-$$\text{revenue} \; : \; p \cdot q \quad \text{with} \quad q > 0 \qquad \text{against} \qquad \text{development capital} \; : \; \sum_j m_j \quad \text{with} \quad q = 0$$
+$$
+\text{revenue} \; : \; p \cdot q \quad \text{with} \quad q > 0 \qquad \text{against} \qquad \text{development capital} \; : \; \sum_j m_j \quad \text{with} \quad q = 0
+\tag{1}
+$$
 
 with the first requiring a delivered quantity and the second requiring only a demonstrated milestone. The COTS awards belong to the second category and the Commercial Resupply Services contracts to the first, and the transition between them is the event the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats.
 
@@ -29,19 +32,28 @@ The problem admits several formalizations depending on the analytical tradition 
 
 The general form of the capital-formation problem can be stated compactly. Let $K^{\text{gov}}(t)$, $K^{\text{equity}}(t)$, and $K^{\text{debt}}(t)$ denote the cumulative capital supplied through each channel. The total permits the identity
 
-$$K^{\text{total}}(t) = K^{\text{gov}}(t) + K^{\text{equity}}(t) + K^{\text{debt}}(t)$$
+$$
+K^{\text{total}}(t) = K^{\text{gov}}(t) + K^{\text{equity}}(t) + K^{\text{debt}}(t)
+\tag{2}
+$$
 
 and the question the leg poses is what fraction the first term contributed at each stage and what the venture would have paid for the same amount through the other channels.
 
 The defining property of the government channel is that it carries no claim on the residual and no claim on the control. The property may be stated compactly
 
-$$\frac{\partial e^{\text{founder}}}{\partial K^{\text{gov}}} = 0 \qquad \text{and} \qquad \frac{\partial v^{\text{founder}}}{\partial K^{\text{gov}}} = 0$$
+$$
+\frac{\partial e^{\text{founder}}}{\partial K^{\text{gov}}} = 0 \qquad \text{and} \qquad \frac{\partial v^{\text{founder}}}{\partial K^{\text{gov}}} = 0
+\tag{3}
+$$
 
 against the corresponding derivatives for the equity channel, which are strictly negative for the first and weakly negative for the second under the arrangements the [Governance article A287][related_post_a287_spacex_governance] documents. The property is the reason the article treats the channel as a distinct leg rather than as a variety of customer revenue, and it is the reason the three legs are analytically separable rather than substitutable.
 
 The identification problem is the counterfactual. The counterfactual differential takes the form
 
-$$\Delta V^{\text{gov-anchor}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{private-capital counterfactual}}_i(t)$$
+$$
+\Delta V^{\text{gov-anchor}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{private-capital counterfactual}}_i(t)
+\tag{4}
+$$
 
 with the attribution equal to the difference between the observed trajectory and the counterfactual in which the development capital was raised privately on the terms available at the time. The counterfactual is unusually tractable relative to those of the preceding articles, because the terms available privately in the 2006 through 2008 period are partially documented through the rounds the Patient-Private Capital-Formation Leg article A290 will treat, and because the Rocketplane Kistler case gives an observation of what happened to a competitor that attempted the private path.
 
@@ -71,37 +83,55 @@ The property has three components. The first is magnitude, concerning how much c
 
 The cost-of-capital comparison across the channels can be written as
 
-$$r^{\text{gov}} \ll r^{\text{equity}} \qquad \text{with} \qquad r^{\text{gov}} = \text{value of concessions granted per dollar received}$$
+$$
+r^{\text{gov}} \ll r^{\text{equity}} \qquad \text{with} \qquad r^{\text{gov}} = \text{value of concessions granted per dollar received}
+\tag{5}
+$$
 
 with the government channel carrying a cost that is not zero but that is denominated in non-financial concessions comprising reporting obligations, audit exposure, mission-assurance requirements, export-control compliance under the [ITAR provisions][ref_itar_22_cfr_120_130], and a degree of programmatic direction. The concessions are real and the article does not treat the channel as free capital. The claim is the weaker and more defensible one that the concessions are cheaper than the equity dilution the alternative would have required.
 
 The dilution avoided allows direct computation in principle. Let $K^{\text{gov}}$ denote the government development capital and let $V$ denote the firm valuation at the time it was received. The equity that would have been surrendered to raise the same amount privately is
 
-$$\delta^{\text{avoided}} = \frac{K^{\text{gov}}}{V + K^{\text{gov}}}$$
+$$
+\delta^{\text{avoided}} = \frac{K^{\text{gov}}}{V + K^{\text{gov}}}
+\tag{6}
+$$
 
 evaluated at the contemporaneous valuation. The expression is large when the capital is received at a low valuation, which is precisely when a development-stage venture receives it. The timing property therefore compounds the terms property rather than merely accompanying it.
 
 The milestone structure supports treatment as an option strip. The paying party holds at each milestone the right to discontinue, and the value of the arrangement to the paying party is
 
-$$V^{\text{payer}} = \sum_{j} \pi_j \cdot \left[ B_j - m_j \right] \qquad \text{with} \qquad \pi_j = \prod_{k < j} P\!\left( \text{milestone } k \text{ achieved} \right)$$
+$$
+V^{\text{payer}} = \sum_{j} \pi_j \cdot \left[ B_j - m_j \right] \qquad \text{with} \qquad \pi_j = \prod_{k < j} P\!\left( \text{milestone } k \text{ achieved} \right)
+\tag{7}
+$$
 
 with the expected outlay conditional on the programme surviving to each stage. The structure caps the payer's exposure at the milestones actually achieved, which is the property that distinguishes it from a cost-reimbursement arrangement in which the payer bears the overrun.
 
 The incentive-power parameter that the [Laffont and Tirole 1993][book_laffont_tirole_1993] apparatus defines has the form
 
-$$b = 1 - \frac{\partial \, \text{payment}}{\partial \, \text{cost}}$$
+$$
+b = 1 - \frac{\partial \, \text{payment}}{\partial \, \text{cost}}
+\tag{8}
+$$
 
 taking the value zero for a pure cost-reimbursement arrangement in which every additional dollar of cost is reimbursed, and the value unity for a pure fixed-price arrangement in which the payment is invariant to the cost. The COTS and Commercial Crew instruments sit at or near $b = 1$, and the Constellation and Space Launch System instruments sit near $b = 0$. The parameter is the single most useful summary of the difference between the two procurement regimes the article compares.
 
 The risk allocation follows directly from the incentive power. The overrun borne by the provider is
 
-$$L^{\text{provider}} = b \cdot \left( C^{\text{actual}} - C^{\text{estimated}} \right)^{+}$$
+$$
+L^{\text{provider}} = b \cdot \left( C^{\text{actual}} - C^{\text{estimated}} \right)^{+}
+\tag{9}
+$$
 
 with the provider bearing the entire overrun at $b = 1$ and none at $b = 0$. The transfer is the mechanism by which the fixed-price instrument converts a public cost risk into a private one, and the Boeing comparison the article develops is the clearest available demonstration of the transfer operating.
 
 The cost-share requirement that the COTS instrument imposed is stated compactly as
 
-$$K^{\text{private}} \geq \alpha \cdot K^{\text{gov}}$$
+$$
+K^{\text{private}} \geq \alpha \cdot K^{\text{gov}}
+\tag{10}
+$$
 
 with the provider required to supply a matching contribution. The requirement is what converts the instrument from a subsidy into a co-investment, and it is the requirement whose failure terminated the Rocketplane Kistler agreement.
 
@@ -111,57 +141,87 @@ The government-anchor capital-formation property can be characterized from sever
 
 The procurement-mechanism-design tradition traces from [Laffont and Tirole 1993][book_laffont_tirole_1993] and [McAfee and McMillan 1988][book_mcafee_mcmillan_1988] through [Myerson 1981][research_myerson_1981] Optimal Auction Design, [Milgrom 2004][book_milgrom_2004] Putting Auction Theory to Work, [Bajari and Tadelis 2001][research_bajari_tadelis_2001] Incentives Versus Transaction Costs, [Bajari et al. 2008][research_bajari_mcmillan_tadelis_2009], [Levin and Tadelis 2010][research_levin_tadelis_2010] Contracting for Government Services, [Corts and Singh 2004][research_corts_singh_2004], [Kalnins and Mayer 2004][research_kalnins_mayer_2004], [Che and Chung 1999][research_che_chung_1999], and [Gagnepain and Ivaldi 2002][research_gagnepain_ivaldi_2002]. The framing yields the central result that the optimal incentive power falls as the project uncertainty rises, because a fixed-price instrument applied to a poorly specified requirement produces a risk premium exceeding the efficiency gain. The result may be written
 
-$$b^{\ast} = \arg\max_b \left[ \Delta^{\text{effort}}(b) - \tfrac{\gamma}{2} b^2 \sigma^2_{\text{cost}} \right] \qquad \text{with} \qquad \frac{\partial b^{\ast}}{\partial \sigma^2_{\text{cost}}} < 0$$
+$$
+b^{\ast} = \arg\max_b \left[ \Delta^{\text{effort}}(b) - \tfrac{\gamma}{2} b^2 \sigma^2_{\text{cost}} \right] \qquad \text{with} \qquad \frac{\partial b^{\ast}}{\partial \sigma^2_{\text{cost}}} < 0
+\tag{11}
+$$
 
 with the optimal incentive power trading the effort gain a high-powered scheme induces against the risk premium the provider demands for bearing the cost variance. The result is directly contrary to the policy lesson usually drawn from the COTS case, and the article treats the tension rather than suppressing it.
 
 The transaction-cost tradition traces from [Coase 1937][research_coase_1937] through [Williamson 1971][research_williamson_1971], [Williamson 1975][research_williamson_1975], [Williamson 1985][book_williamson_1985], [Williamson 2002][research_williamson_2002], [Klein et al. 1978][research_klein_crawford_alchian_1978], [Monteverde and Teece 1982][research_monteverde_teece_1982], [Masten 1984][research_masten_1984], [Grossman and Hart 1986][research_grossman_hart_1986], [Hart and Moore 1990][research_hart_moore_1990], and [Lafontaine and Slade 2007][research_lafontaine_slade_2007]. The framing treats the bilateral-monopoly hazard that arises once a provider has invested in an asset to a single customer, and it predicts the holdup the fixed-price instrument would otherwise invite. The hazard index takes the compact form
 
-$$h = \frac{V^{\text{asset in intended use}} - V^{\text{asset in next-best use}}}{V^{\text{asset in intended use}}}$$
+$$
+h = \frac{V^{\text{asset in intended use}} - V^{\text{asset in next-best use}}}{V^{\text{asset in intended use}}}
+\tag{12}
+$$
 
 with the hazard rising in the asset specificity. The SpaceX case exhibits a low value of the index relative to a typical defense programme, because the launch vehicle the government funding helped develop had commercial uses the government did not control. The low specificity is the structural reason the arrangement did not produce the holdup the framing would otherwise predict. The governance-choice rule the tradition contributes takes the form
 
-$$\text{instrument} = \begin{cases} \text{market or agreement} & h < \bar{h} \\ \text{hierarchy or cost-reimbursement} & h \geq \bar{h} \end{cases}$$
+$$
+\text{instrument} = \begin{cases} \text{market or agreement} & h < \bar{h} \\ \text{hierarchy or cost-reimbursement} & h \geq \bar{h} \end{cases}
+\tag{13}
+$$
 
 with the threshold determined by the contracting hazard the asset specificity generates. The case sits below the threshold, and the connection to the generality-forcing condition the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] treats is direct, because that condition is precisely the condition that keeps $h$ low.
 
 The entrepreneurial-finance tradition traces from [Sahlman 1990][research_sahlman_1990] through [Gompers 1995][research_gompers_1995] Optimal Investment Monitoring and the Staging of Venture Capital, [Lerner 1994][research_lerner_1994_syndication], [Kaplan and Stromberg 2003][research_kaplan_stromberg_2003], [Kaplan and StrÖMberg 2004][research_kaplan_stromberg_2004], [Gompers and Lerner 2001][book_gompers_lerner_2001], [Metrick and Yasuda 2011][book_metrick_yasuda_2011], and [Lerner 2009][book_lerner_2009] Boulevard of Broken Dreams. The framing treats the milestone structure as a staged financing and gives the observation that the instrument replicates substantially the monitoring function a venture investor performs, while dispensing with the equity claim that ordinarily compensates the investor for performing it. The asymmetry has the concise statement
 
-$$\underbrace{\text{monitoring} + \text{staging}}_{\text{both channels}} \; + \; \underbrace{\text{equity claim}}_{\text{private only}} \; \longrightarrow \; \text{cost to venture}$$
+$$
+\underbrace{\text{monitoring} + \text{staging}}_{\text{both channels}} \; + \; \underbrace{\text{equity claim}}_{\text{private only}} \; \longrightarrow \; \text{cost to venture}
+\tag{14}
+$$
 
 with the government channel supplying the first bracket and omitting the second. The omission is the whole of the non-dilutive property expressed in the vocabulary of the tradition. The government-programme evaluation literature in [Lerner 1996][research_lerner_1996_government_program] and [Kortum and Lerner 2000][research_kortum_lerner_2000] supplies the empirical apparatus for assessing whether the public capital displaced or complemented the private capital.
 
 The public-economics tradition traces from [Nelson 1959][research_nelson_1959] The Simple Economics of Basic Scientific Research and [Arrow 1962][research_arrow_1962] Economic Welfare and the Allocation of Resources for Invention through [Griliches 1979][research_griliches_1979], [Griliches and Lichtenberg 1984][research_griliches_lichtenberg_1984], [Romer 1990][research_romer_1990], and [Aghion and Howitt 1992][research_aghion_howitt_1992]. The framing yields the rationale for the public expenditure, resting on the gap between the private and the social return that an appropriability failure creates. The gap can be written as
 
-$$\Delta = r^{\text{social}} - r^{\text{private}} > 0$$
+$$
+\Delta = r^{\text{social}} - r^{\text{private}} > 0
+\tag{15}
+$$
 
 with the public intervention warranted where the gap is large and the private investment consequently below the socially optimal level. The optimal subsidy under the framing satisfies
 
-$$s^{\ast} = \frac{r^{\text{social}} - r^{\text{private}}}{r^{\text{social}}}$$
+$$
+s^{\ast} = \frac{r^{\text{social}} - r^{\text{private}}}{r^{\text{social}}}
+\tag{16}
+$$
 
 giving the fraction of the investment the public should bear. The expression is the formal answer to the question of how large a cost share the instrument should require, and the COTS requirement was set by negotiation rather than by any such calculation.
 
 The public-private-partnership tradition traces from [Grimsey and Lewis 2004][book_grimsey_lewis_2004] Public Private Partnerships, [Osborne 2000][book_osborne_2000], [Yescombe 2007][book_yescombe_2007], [Hodge and Greve 2007][research_hodge_greve_2007], [Bovaird 2004][research_bovaird_2004]. The framing situates the instrument within the broader family of hybrid arrangements and contributes the comparative record against which the COTS outcome should be assessed, which is substantially less favorable than the COTS advocacy literature suggests. The risk-allocation principle the tradition states is that each risk should be borne by the party best able to manage it, admitting the compact form
 
-$$\text{assign risk } k \text{ to } \arg\min_{i} \; c_i(k)$$
+$$
+\text{assign risk } k \text{ to } \arg\min_{i} \; c_i(k)
+\tag{17}
+$$
 
 with $c_i(k)$ the cost to the party $i$ of bearing the risk $k$. The principle recommends assigning the technical-execution risk to the provider and the requirement-definition risk to the agency, which is substantially the allocation the COTS instrument achieved and substantially not the allocation a fixed-price instrument on an agency-specified requirement achieves.
 
 The mission-oriented and developmental-state tradition traces from [Mazzucato 2013][book_mazzucato_2013] The Entrepreneurial State, [Mazzucato 2021][book_mazzucato_2021] Mission Economy, [Ruttan 2006][book_ruttan_2006] Is War Necessary for Economic Growth, [Weiss 2014][book_weiss_2014] America Inc, [Hartley 2017][book_hartley_2017] The Economics of Arms, [Block 2008][research_block_2008], [Weiss and Thurbon 2020][research_weiss_thurbon_2021], [Johnson 1982][book_johnson_1982], [Amsden 1989][book_amsden_1989], [Wade 1990][book_wade_1990], and [Evans 1995][book_evans_1995] Embedded Autonomy. The framing treats the arrangement as an instance of state-directed development operating through procurement rather than through ownership or directed credit, and it provides the comparative frame within which the United States instrument differs from the East Asian instruments principally in its indirection. The instrument set admits compact enumeration by the channel through which the state acts
 
-$$\mathcal{I} = \left\{ \text{ownership}, \; \text{directed credit}, \; \text{tariff}, \; \text{subsidy}, \; \text{procurement} \right\}$$
+$$
+\mathcal{I} = \left\{ \text{ownership}, \; \text{directed credit}, \; \text{tariff}, \; \text{subsidy}, \; \text{procurement} \right\}
+\tag{18}
+$$
 
 with the United States arrangement operating substantially through the last element alone while the East Asian arrangements operated across several. The narrowness of the channel is what permits the arrangement to be described domestically as a market mechanism rather than as an industrial policy.
 
 The defense-industrial and rent-seeking tradition traces from [Melman 1970][book_melman_1970] Pentagon Capitalism, [Fallows 1981][book_fallows_1981] National Defense, [Hunter 2016][book_hunter_2016] Creating Strategic Value, [Kaplan 1991][book_kaplan_1991] The Wizards of Armageddon, [Buchanan and Tullock 1962][book_buchanan_tullock_1962], [Stigler 1971][research_stigler_1971], and [Krueger 1974][research_krueger_1974]. The framing treats the arrangement as a transfer to a concentrated private interest and supplies the skeptical reading the article treats in the Alternative Analytical Frameworks section. The concentration the framing tracks has the form
 
-$$H^{\text{provider}} = \sum_j s_j^2 \qquad \text{with} \qquad s_j = \frac{\text{awards to provider } j}{\text{total awards}}$$
+$$
+H^{\text{provider}} = \sum_j s_j^2 \qquad \text{with} \qquad s_j = \frac{\text{awards to provider } j}{\text{total awards}}
+\tag{19}
+$$
 
 with the index falling across the 2006 through 2015 period as the entrant took share from the incumbent, and rising thereafter as the entrant consolidated. The non-monotonicity is the quantitative form of the policy question the article raises in the Contemporary Comparative Landscape section.
 
 The innovation-policy and programme-evaluation tradition traces from [Bonvillian 2018][research_bonvillian_2018] on the DARPA institutional model, the [Heilmeier Catechism][ref_heilmeier_catechism] as the programme-selection instrument, [Freeman 1987][book_freeman_1987], [Lundvall 1992][book_lundvall_1992], [Nelson 1993][book_nelson_1993], and [Mowery and Rosenberg 1998][book_mowery_rosenberg_1998]. The selection discipline the tradition offers can be stated as a screening condition applied before any award
 
-$$\text{fund} \iff \left[ \text{objective specifiable} \right] \wedge \left[ \text{current practice inadequate} \right] \wedge \left[ \text{success testable} \right] \wedge \left[ \text{consequence material} \right]$$
+$$
+\text{fund} \iff \left[ \text{objective specifiable} \right] \wedge \left[ \text{current practice inadequate} \right] \wedge \left[ \text{success testable} \right] \wedge \left[ \text{consequence material} \right]
+\tag{20}
+$$
 
 with the conjunction required. The framing gives the comparative set of public instruments against which the Space Act Agreement should be located.
 
@@ -171,7 +231,10 @@ The organizational-learning tradition traces from [March and Simon 1958][book_ma
 
 The learning-curve tradition traces from [Wright 1936][research_wright_1936] Factors Affecting the Cost of Airplanes through [Alchian 1963][research_alchian_1963] Reliability of Progress Curves, [Rapping 1965][research_rapping_1965], [Argote and Epple 1990][research_argote_epple_1990], [Argote 1999][book_argote_1999] Organizational Learning, [Adler and Clark 1991][research_adler_clark_1991], [Lieberman 1984][research_lieberman_1984], and [Dutton and Thomas 1984][research_dutton_thomas_1984]. The framing bears on the counterfactual cost estimate the article treats as contested, because the parametric models the estimate employs are calibrated on a historical experience base whose learning rates may not transfer to a different production organization. The transfer question can be stated as
 
-$$b^{\text{historical}} \stackrel{?}{=} b^{\text{provider}}$$
+$$
+b^{\text{historical}} \stackrel{?}{=} b^{\text{provider}}
+\tag{21}
+$$
 
 with the estimate assuming equality and the case being one in which the production organization differed substantially from the calibration sample.
 
@@ -193,17 +256,26 @@ The consequence of proceeding under the authority rather than under the [Federal
 
 The regulatory burden removed permits compact statement as the difference in the compliance cost a provider must bear
 
-$$C^{\text{compliance}}_{\text{FAR}} - C^{\text{compliance}}_{\text{agreement}} > 0$$
+$$
+C^{\text{compliance}}_{\text{FAR}} - C^{\text{compliance}}_{\text{agreement}} > 0
+\tag{22}
+$$
 
 with the difference constituting a fixed entry cost that scales poorly with the provider's size. The consequences cut in both directions and the article states both. The absence of the cost-accounting apparatus is what permitted a provider without a government-compliant accounting system to participate at all, which is the barrier that excludes substantially every venture-stage firm from traditional defense procurement. The same absence removes the visibility into the provider's costs that the apparatus exists to supply, so that the agency purchasing under the instrument cannot determine whether the price it pays bears any relation to the cost incurred.
 
 The instrument's defining operational feature is that it is an agreement rather than a procurement, so that the agency is not purchasing a deliverable but is contributing to a jointly pursued objective. The distinction may be stated compactly
 
-$$\text{procurement} \; : \; \text{agency receives title to a deliverable} \qquad \text{against} \qquad \text{agreement} \; : \; \text{agency receives a demonstrated capability in the market}$$
+$$
+\text{procurement} \; : \; \text{agency receives title to a deliverable} \qquad \text{against} \qquad \text{agreement} \; : \; \text{agency receives a demonstrated capability in the market}
+\tag{23}
+$$
 
 with the second producing no asset the agency owns. The residual-claim structure is stated compactly as
 
-$$\text{title}^{\text{agency}} = \varnothing \qquad \text{while} \qquad \text{capability}^{\text{market}} > 0$$
+$$
+\text{title}^{\text{agency}} = \varnothing \qquad \text{while} \qquad \text{capability}^{\text{market}} > 0
+\tag{24}
+$$
 
 with the agency holding no asset and the market gaining a capability. The structure is the reason the capability the funding produced remained available for the commercial and defense applications that the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] documents, rather than becoming a government asset subject to government disposition.
 
@@ -213,7 +285,10 @@ The Commercial Orbital Transportation Services programme was announced in the Ja
 
 The round-one awards went to two providers. The SpaceX award was approximately 278 million dollars against a milestone schedule covering the Falcon 9 launch vehicle and the Dragon spacecraft. The Rocketplane Kistler award was approximately 207 million dollars against a milestone schedule covering the K-1 vehicle. The two-provider structure was itself a design choice with an analytical rationale. The probability that at least one provider succeeds under independent execution risk is
 
-$$P(\text{at least one succeeds}) = 1 - \prod_{j} \left( 1 - p_j \right)$$
+$$
+P(\text{at least one succeeds}) = 1 - \prod_{j} \left( 1 - p_j \right)
+\tag{25}
+$$
 
 which exceeds the single-provider probability at a cost equal to the sum of the awards. The structure is the same parallel-track logic the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] treats, applied by the payer across providers rather than by a venture across lines. The figures are reported in the [NASA COTS programme history of 2011][ref_nasa_cots_2011] and the [NASA COTS programme literature][ref_nasa_cots_report], and are among the few quantities in this series that are directly documented rather than reconstructed.
 
@@ -221,11 +296,17 @@ The structural features of the round-one awards that bear on the capital-formati
 
 The four features admit compact statement as the instrument's parameter vector
 
-$$\left( b, \; \alpha, \; \Delta e, \; S \right) = \left( 1, \; \alpha > 0, \; 0, \; 0 \right)$$
+$$
+\left( b, \; \alpha, \; \Delta e, \; S \right) = \left( 1, \; \alpha > 0, \; 0, \; 0 \right)
+\tag{26}
+$$
 
 comprising the unit incentive power, the positive cost share, the zero dilution, and the zero termination settlement. The fourth feature is the one that makes the instrument work and is the one most often omitted from the summaries. An agency that must pay a settlement to discontinue a failing programme faces an option value in continuation that an agency facing no settlement does not. The difference admits the compact statement
 
-$$V^{\text{continue}} - V^{\text{terminate}} = \left[ \text{expected completion value} \right] - \left[ - S \right] \qquad \text{with} \qquad S = 0 \text{ under the agreement}$$
+$$
+V^{\text{continue}} - V^{\text{terminate}} = \left[ \text{expected completion value} \right] - \left[ - S \right] \qquad \text{with} \qquad S = 0 \text{ under the agreement}
+\tag{27}
+$$
 
 with the settlement term vanishing under the instrument, which lowers the threshold at which the agency will in fact terminate. The Rocketplane Kistler case demonstrates the mechanism operating.
 
@@ -237,19 +318,28 @@ The case is analytically important for three reasons that the commentary general
 
 The first and most frequently noted is that the instrument permitted a rapid termination. The agency recovered the unobligated balance and re-competed the position, awarding it to a second provider in the 2008 period as the [NASA news releases][ref_nasa_news] record. The recovery can be stated as
 
-$$R^{\text{agency}} = K^{\text{obligated}} - K^{\text{disbursed}} \qquad \text{against} \qquad R^{\text{agency}} = -S \quad \text{under a cost-plus termination}$$
+$$
+R^{\text{agency}} = K^{\text{obligated}} - K^{\text{disbursed}} \qquad \text{against} \qquad R^{\text{agency}} = -S \quad \text{under a cost-plus termination}
+\tag{28}
+$$
 
 with the agency recovering the unobligated balance under the agreement and paying a settlement under the contract. A comparable failure under a cost-plus development contract would have produced an extended termination process and a settlement.
 
 The second and more analytically interesting is that the failed milestone was a financing milestone rather than a technical one. The instrument conditioned the public capital on the provider's ability to raise the private capital, which makes the public channel and the private channel complements rather than substitutes by explicit design. The structure may be stated compactly
 
-$$m_j \text{ released} \iff \left[ \text{technical milestone } j \text{ achieved} \right] \wedge \left[ K^{\text{private}} \geq \alpha K^{\text{gov}} \right]$$
+$$
+m_j \text{ released} \iff \left[ \text{technical milestone } j \text{ achieved} \right] \wedge \left[ K^{\text{private}} \geq \alpha K^{\text{gov}} \right]
+\tag{29}
+$$
 
 with the conjunction required. The design uses the private capital market as an external validator of the provider's prospects, which economizes on the agency's own assessment capability. The mechanism is the same one the SBIR programme employs through its Phase II commercialization requirements, which the [Money Behind an SBIR or STTR Award article A140][related_post_a140_sbir_money] treats.
 
 The third is that the case offers the counterfactual observation the identification problem requires. A competitor holding a substantially similar award at a substantially similar stage attempted the private-capital path and failed to complete it. The inferential value of the observation allows careful statement. Let $A$ denote the event that a similarly situated firm can complete a private raise. The observation establishes
 
-$$P(A) < 1 \qquad \text{and not} \qquad P(A \mid \text{SpaceX}) = 0$$
+$$
+P(A) < 1 \qquad \text{and not} \qquad P(A \mid \text{SpaceX}) = 0
+\tag{30}
+$$
 
 with the single failure bounding the probability away from certainty without identifying it for any other firm. The observation does not establish that the SpaceX private raise would have failed, and it does establish that the private path was not freely available to a similarly situated firm in the same period.
 
@@ -259,23 +349,35 @@ The analytical core of this article is the observation that the COTS payments fu
 
 The SpaceX COTS award grew through amendments to approximately 396 million dollars across the agreement period. The capital was received across the 2006 through 2012 interval, which spans the period the [series opener][related_post_a281_spacex_framing] identifies as the near-death moment and the period in which the firm's private valuation was at its lowest. The coincidence is the whole of the timing argument, because the dilution a dollar of capital costs is inversely proportional to the valuation at which it is raised
 
-$$\frac{\partial \delta}{\partial V} < 0 \qquad \text{so that} \qquad \delta \Big|_{V \text{ low}} \gg \delta \Big|_{V \text{ high}}$$
+$$
+\frac{\partial \delta}{\partial V} < 0 \qquad \text{so that} \qquad \delta \Big|_{V \text{ low}} \gg \delta \Big|_{V \text{ high}}
+\tag{31}
+$$
 
 with the capital arriving precisely when the alternative was most expensive.
 
 The non-dilutive property admits the compact comparison. The approximately 396 million dollars received through the channel, had it instead been raised as equity at the valuations prevailing across the interval, would have required surrendering a fraction
 
-$$\delta^{\text{avoided}} = \frac{K^{\text{COTS}}}{V + K^{\text{COTS}}}$$
+$$
+\delta^{\text{avoided}} = \frac{K^{\text{COTS}}}{V + K^{\text{COTS}}}
+\tag{32}
+$$
 
 that is substantial at the contemporaneous valuations and that would have compounded against every subsequent round. The compounding is the feature that makes the timing decisive. A dilution avoided early is a dilution avoided in every later round, because the founder share entering each subsequent round is higher than it would otherwise have been. The cumulative effect may be written
 
-$$e^{\text{founder}}_N = \left[ e_0 - \delta^{\text{avoided}} \right] \prod_{n=1}^{N} \left( 1 - \delta_n \right) \qquad \text{against} \qquad e_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)$$
+$$
+e^{\text{founder}}_N = \left[ e_0 - \delta^{\text{avoided}} \right] \prod_{n=1}^{N} \left( 1 - \delta_n \right) \qquad \text{against} \qquad e_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
+\tag{33}
+$$
 
 with the difference persisting across the entire subsequent financing sequence rather than being confined to the round it displaced. The connection to the [Governance article A287][related_post_a287_spacex_governance] is direct, because the control condition that article analyzes depends on the founder's residual share, and the government channel raised the share available at every subsequent stage.
 
 The claim the article does not make deserves equal prominence. The analysis does not establish that the government capital was necessary, because the counterfactual in which the firm raised the same amount privately at a worse price is not obviously infeasible. The analysis does not establish that the government capital was efficiently deployed, because the counterfactual social return on the same appropriation directed elsewhere is not estimated. The three propositions admit compact separation
 
-$$\underbrace{\text{terms were favorable}}_{\text{established}} \; \not\Rightarrow \; \underbrace{\text{capital was necessary}}_{\text{not established}} \; \not\Rightarrow \; \underbrace{\text{expenditure was efficient}}_{\text{not established}}$$
+$$
+\underbrace{\text{terms were favorable}}_{\text{established}} \; \not\Rightarrow \; \underbrace{\text{capital was necessary}}_{\text{not established}} \; \not\Rightarrow \; \underbrace{\text{expenditure was efficient}}_{\text{not established}}
+\tag{34}
+$$
 
 with only the first supported by the evidence the article assembles. The analysis establishes the narrower proposition that the capital arrived on terms substantially more favorable than the alternatives available at the time, and that the favorable terms compounded.
 
@@ -287,11 +389,17 @@ The transition changes the instrument's character in a way the capital-formation
 
 The analytical consequence is that the government-anchor capital-formation leg has a bounded duration. The leg operated across the 2006 through approximately 2012 interval, and thereafter the government relationship supplied revenue rather than capital. The bounded duration is stated compactly as
 
-$$K^{\text{gov}}(t) \approx \text{constant} \qquad \text{for} \qquad t > t^{\text{transition}}$$
+$$
+K^{\text{gov}}(t) \approx \text{constant} \qquad \text{for} \qquad t > t^{\text{transition}}
+\tag{35}
+$$
 
 with the cumulative government development capital reaching a plateau while the government revenue continued to grow. The two quantities the commentary conflates admit compact separation
 
-$$\frac{K^{\text{gov}}}{K^{\text{total}}} \Bigg|_{\text{cumulative, development era}} \qquad \text{against} \qquad \frac{R^{\text{gov}}(t)}{R^{\text{total}}(t)} \Bigg|_{\text{current}}$$
+$$
+\frac{K^{\text{gov}}}{K^{\text{total}}} \Bigg|_{\text{cumulative, development era}} \qquad \text{against} \qquad \frac{R^{\text{gov}}(t)}{R^{\text{total}}(t)} \Bigg|_{\text{current}}
+\tag{36}
+$$
 
 with the first a historical capital share that is fixed and the second a current revenue share that has declined as the commercial lines grew. The distinction matters because the commentary that describes the firm as government-funded conflates a bounded historical capital contribution with a continuing commercial relationship, and the two have different implications for substantially every question the series treats.
 
@@ -303,13 +411,19 @@ The Commercial Crew progression partially reopened the capital-formation channel
 
 The early phases were conducted under Space Act Agreements and the final phase under a Federal Acquisition Regulation contract, which reflects a deliberate progression from a development instrument to a procurement instrument as the requirement became specifiable. The progression is the practical answer to the mechanism-design result that the optimal incentive power falls with the uncertainty. The staged instrument choice permits the concise statement
 
-$$b^{\ast}(t) = b^{\ast}\!\left( \sigma^2_{\text{cost}}(t) \right) \qquad \text{with} \qquad \sigma^2_{\text{cost}}(t) \text{ declining in } t$$
+$$
+b^{\ast}(t) = b^{\ast}\!\left( \sigma^2_{\text{cost}}(t) \right) \qquad \text{with} \qquad \sigma^2_{\text{cost}}(t) \text{ declining in } t
+\tag{37}
+$$
 
 with the instrument tightening as the requirement becomes specifiable. The arrangement applies the high-powered instrument at the stage where the provider knows more than the agency and the specified instrument at the stage where the requirement is stable.
 
 The CCtCap awards were approximately 4.2 billion dollars to one provider and approximately 2.6 billion dollars to the second, recorded in the [NASA Commercial Crew certification record][ref_nasa_ccp_certification]. The award structure is a fixed-price arrangement with milestone payments, so the incentive-power parameter sits near unity. The dual-award structure preserved the parallel-track property at the operational stage, and the price differential between the two awards yields the compact expression
 
-$$\frac{P^{\text{high}} - P^{\text{low}}}{P^{\text{low}}} \approx 0.6$$
+$$
+\frac{P^{\text{high}} - P^{\text{low}}}{P^{\text{low}}} \approx 0.6
+\tag{38}
+$$
 
 which the agency accepted in exchange for the redundancy the second provider supplied. The subsequent execution record establishes that the redundancy was not decorative.
 
@@ -321,17 +435,26 @@ The outcome differed substantially. The one provider achieved the uncrewed demon
 
 The capital-formation significance is not the schedule difference but the cost incidence. Under the fixed-price instrument the overrun was borne by the provider and recorded as a charge against its earnings, rather than being reimbursed. The reported cumulative charges are substantial and are documented in the provider's public filings accessible through the [Securities and Exchange Commission EDGAR][ref_sec_edgar] system and summarized in the [Boeing press releases][ref_boeing_press]. The transfer can be stated as
 
-$$L^{\text{public}} = (1 - b) \cdot \left( C^{\text{actual}} - C^{\text{estimated}} \right)^{+} \approx 0 \qquad \text{at} \qquad b \approx 1$$
+$$
+L^{\text{public}} = (1 - b) \cdot \left( C^{\text{actual}} - C^{\text{estimated}} \right)^{+} \approx 0 \qquad \text{at} \qquad b \approx 1
+\tag{39}
+$$
 
 with the public exposure approaching zero. The incidence comparison across the two instrument classes allows the brief tabulation
 
-$$\left( L^{\text{public}}, \; L^{\text{provider}} \right) = \begin{cases} \left( 0, \; \Delta C \right) & \text{fixed price} \\ \left( \Delta C, \; 0 \right) & \text{cost reimbursement} \end{cases}$$
+$$
+\left( L^{\text{public}}, \; L^{\text{provider}} \right) = \begin{cases} \left( 0, \; \Delta C \right) & \text{fixed price} \\ \left( \Delta C, \; 0 \right) & \text{cost reimbursement} \end{cases}
+\tag{40}
+$$
 
 with the overrun falling entirely on one party or the other. The comparison against the cost-plus counterfactual that the article treats below is the substantive demonstration that the instrument accomplished the risk transfer it was designed to accomplish.
 
 The qualification the article records is that the risk transfer is only credible where the provider can in fact absorb the loss. A fixed-price instrument imposed on a provider without the balance sheet to absorb an overrun does not transfer the risk. It converts it into a completion risk borne by the agency in a different form. The credibility condition may be stated compactly
 
-$$\text{risk transferred} \iff \Delta C \leq W^{\text{provider}}$$
+$$
+\text{risk transferred} \iff \Delta C \leq W^{\text{provider}}
+\tag{41}
+$$
 
 with $W^{\text{provider}}$ the provider's capacity to absorb the loss, and with the transfer failing whenever the overrun exceeds it. The condition is the failure mode the defense-procurement literature documents extensively and which the Rocketplane Kistler case illustrates in the development setting.
 
@@ -341,17 +464,26 @@ The defense channel operated on a different principle from the civil channel and
 
 The launch infrastructure on which the certified missions depend is itself partly a government asset made available on negotiated terms, comprising the [Kennedy Space Center Launch Complex 39A arrangement][ref_ksc_lc39a_lease], the [Vandenberg environmental record][ref_vandenberg_slc4e_ea], and in the earliest period the [Kwajalein Atoll range documentation][ref_kwajalein_atoll_documentation]. The licensing regime under which the operations proceed is the [FAA commercial space transportation regulations][ref_faa_ast_regulations] and the [Part 450 licensing requirements][ref_faa_ast_licensing_regs_450], with the current authorizations recorded in the [FAA current launch licenses][ref_faa_launch_licenses_current]. The capital-formation content of the defense channel lies in a different place. The certification process itself is a substantial fixed investment that the provider must make and that the programme partially funds, and the certification once obtained is a durable asset that raises the provider's value independently of any mission awarded. The certification therefore functions as a capital contribution in kind rather than in cash, admitting the compact statement
 
-$$\Delta V^{\text{certification}} = \sum_{t} \frac{p^{\text{award}}(t) \cdot \pi^{\text{margin}}}{(1+\rho)^t} \; - \; C^{\text{certification}}$$
+$$
+\Delta V^{\text{certification}} = \sum_{t} \frac{p^{\text{award}}(t) \cdot \pi^{\text{margin}}}{(1+\rho)^t} \; - \; C^{\text{certification}}
+\tag{42}
+$$
 
 with the certification's value equal to the discounted expected award stream it makes accessible net of the investment required to obtain it. The certification therefore behaves as a barrier whose height is symmetric in construction and asymmetric in effect, admitting the compact statement
 
-$$C^{\text{certification}} \text{ identical across entrants} \qquad \text{while} \qquad \frac{C^{\text{certification}}}{R^{\text{existing}}} \text{ differs by orders of magnitude}$$
+$$
+C^{\text{certification}} \text{ identical across entrants} \qquad \text{while} \qquad \frac{C^{\text{certification}}}{R^{\text{existing}}} \text{ differs by orders of magnitude}
+\tag{43}
+$$
 
 with the fixed cost trivial for an incumbent holding a large existing revenue base and prohibitive for an entrant holding none.
 
 The Phase 2 award of the 2020 period allocated the mission set between two providers on an announced split, and the Phase 3 structure of the 2024 period established a two-lane arrangement admitting a broader provider set into the less demanding lane. The progression can be stated compactly through the provider count admitted to the competed mission set
 
-$$n^{\text{providers}} \; : \; 1 \longrightarrow 2 \longrightarrow 3+$$
+$$
+n^{\text{providers}} \; : \; 1 \longrightarrow 2 \longrightarrow 3+
+\tag{44}
+$$
 
 across the pre-2015, Phase 2, and Phase 3 periods respectively. The progression from a single-provider arrangement through a duopoly to a multi-provider structure across the two decades is the competitive outcome the programme reforms were intended to produce.
 
@@ -361,13 +493,19 @@ The entry path into the defense channel is not adequately described as a certifi
 
 The provider filed suit against the Air Force in the 2014 period challenging a sole-source block award to the incumbent. The matter was resolved by a settlement in the 2015 period, and the certification followed later that year. The bid-protest and claims apparatus that the [GAO bid-protest function][ref_gao_bid_protest] and the [United States Court of Federal Claims][ref_uscfc] administer is the institutional channel through which the contest proceeded. The decision to pursue it is stated compactly as
 
-$$\text{litigate} \iff p^{\text{prevail}} \cdot V^{\text{channel access}} > C^{\text{legal}} + C^{\text{relationship}}$$
+$$
+\text{litigate} \iff p^{\text{prevail}} \cdot V^{\text{channel access}} > C^{\text{legal}} + C^{\text{relationship}}
+\tag{45}
+$$
 
 with the second cost term capturing the damage a contest inflicts on an ongoing customer relationship, which is the term that deters substantially every incumbent supplier from bringing one.
 
 The capital-formation significance is that the entry into the channel required an investment in legal and political action distinct from the technical investment, and that the investment was available to a firm holding a patient private capital base and would not have been available to a firm dependent on near-term contract revenue. The dependency takes the compact statement
 
-$$K^{\text{gov}} \; \text{accessible} \; \Leftarrow \; \text{legal contest} \; \Leftarrow \; K^{\text{private, patient}}$$
+$$
+K^{\text{gov}} \; \text{accessible} \; \Leftarrow \; \text{legal contest} \; \Leftarrow \; K^{\text{private, patient}}
+\tag{46}
+$$
 
 with the government channel's accessibility conditioned on a prior private expenditure. The observation connects the three capital-formation legs, because the patient private leg that the Patient-Private Capital-Formation Leg article A290 will treat financed the contest that opened the government channel.
 
@@ -377,11 +515,17 @@ The Starshield business that the [SpaceX Starshield documentation][ref_spacex_st
 
 The direction of the capital flow has therefore reversed relative to the COTS period. In the earlier period the government supplied capital to build a capability that did not exist. In the later period the firm supplied a capability built with commercial capital and the government purchased access to it. The reversal can be stated as
 
-$$\text{sign}\!\left( \frac{\partial K^{\text{firm}}}{\partial \, \text{government relationship}} \right) \; : \; + \text{ in the development period}, \; - \text{ in the current period}$$
+$$
+\text{sign}\!\left( \frac{\partial K^{\text{firm}}}{\partial \, \text{government relationship}} \right) \; : \; + \text{ in the development period}, \; - \text{ in the current period}
+\tag{47}
+$$
 
 with the firm now investing ahead of the government requirement rather than the reverse. The reversal has the concise statement as a change in the temporal ordering
 
-$$t^{\text{gov capital}} < t^{\text{capability}} \qquad \text{becomes} \qquad t^{\text{capability}} < t^{\text{gov purchase}}$$
+$$
+t^{\text{gov capital}} < t^{\text{capability}} \qquad \text{becomes} \qquad t^{\text{capability}} < t^{\text{gov purchase}}
+\tag{48}
+$$
 
 with the ordering inverted between the two eras. The reversal is the completion of the capital-formation leg and the reason the article treats the leg as historically bounded.
 
@@ -395,17 +539,26 @@ The Phase III authority permits an agency to award a follow-on contract deriving
 
 The structural pattern may be stated compactly
 
-$$\text{development award} \longrightarrow \text{capability} \longrightarrow \text{position} \longrightarrow \text{follow-on award}$$
+$$
+\text{development award} \longrightarrow \text{capability} \longrightarrow \text{position} \longrightarrow \text{follow-on award}
+\tag{49}
+$$
 
 with the chain operating whether or not a statute names it. The competitive consequence is stated compactly as
 
-$$P\!\left( \text{win follow-on} \mid \text{received development award} \right) \gg P\!\left( \text{win follow-on} \right)$$
+$$
+P\!\left( \text{win follow-on} \mid \text{received development award} \right) \gg P\!\left( \text{win follow-on} \right)
+\tag{50}
+$$
 
 with the conditional probability substantially exceeding the unconditional one irrespective of whether the follow-on is formally competed. The COTS-to-CRS sequence was formally competed and the SBIR Phase III sequence is formally exempt from competition, and the two nonetheless produce a substantially similar outcome, because the competition at the follow-on stage is conducted among providers whose relative positions the prior development stage established.
 
 The analytical value of the analogy is that it identifies what a government-anchor capital-formation leg actually transfers. It does not principally transfer money. It transfers position, and the money is the mechanism by which the position is created. A venture evaluating the leg should therefore assess the follow-on position the development award would establish rather than the development award's magnitude, The valuation the assessment requires admits the compact form
 
-$$V^{\text{award}} = \underbrace{K^{\text{development}}}_{\text{visible}} + \underbrace{P\!\left( \text{follow-on} \right) \cdot V^{\text{follow-on position}}}_{\text{usually dominant}}$$
+$$
+V^{\text{award}} = \underbrace{K^{\text{development}}}_{\text{visible}} + \underbrace{P\!\left( \text{follow-on} \right) \cdot V^{\text{follow-on position}}}_{\text{usually dominant}}
+\tag{51}
+$$
 
 with the second term ordinarily exceeding the first by a substantial multiple. This is the assessment the SBIR practitioner literature the series treats makes explicitly.
 
@@ -417,13 +570,19 @@ The instrument requires the agency to perform four functions that a cost-reimbur
 
 The fourth function is the one that fails most often. The termination decision permits the concise statement
 
-$$\text{terminate} \iff E\!\left[ V^{\text{completion}} \mid \mathcal{F}_t \right] < \sum_{j > J(t)} m_j + C^{\text{political}}$$
+$$
+\text{terminate} \iff E\!\left[ V^{\text{completion}} \mid \mathcal{F}_t \right] < \sum_{j > J(t)} m_j + C^{\text{political}}
+\tag{52}
+$$
 
 with $C^{\text{political}}$ the institutional cost the deciding official bears personally and the benefit accruing diffusely. The asymmetry between a concentrated cost and a diffuse benefit is the standard public-choice account of why programmes persist, and the Space Act Agreement reduces the first term in the inequality without touching the second.
 
 The capability the functions jointly require is what the developmental-state literature terms embedded autonomy. The concept that [Evans 1995][book_evans_1995] Embedded Autonomy develops requires an agency close enough to the industry to evaluate a technical claim and distant enough from it to decline one. The two requirements pull against each other, and the balance can be stated as
 
-$$\Sigma^{\text{agency}} = \min\left\{ \text{technical proximity}, \; \text{institutional distance} \right\}$$
+$$
+\Sigma^{\text{agency}} = \min\left\{ \text{technical proximity}, \; \text{institutional distance} \right\}
+\tag{53}
+$$
 
 with the capability governed by whichever specific element is weaker rather than by their sum. An agency with deep technical knowledge and close industry ties evaluates well and cannot refuse. An agency with strong independence and thin technical knowledge refuses arbitrarily. The comparative literature in [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle, [Amsden 1989][book_amsden_1989] Asia's Next Giant, [Wade 1990][book_wade_1990] Governing the Market, [Woo-Cumings 1999][book_woo_cumings_1999] The Developmental State, and [Chang 2002][book_chang_2002] Kicking Away the Ladder documents the institutional arrangements under which other states have attempted the balance.
 
@@ -441,19 +600,28 @@ The Constellation programme and the Space Launch System that the [Generality-For
 
 The comparison is stated compactly through the instrument parameter vector the COTS section introduces, evaluated for the two classes
 
-$$\left( b, \; \alpha, \; \Delta e, \; S \right)^{\text{agreement}} = (1, \alpha, 0, 0) \qquad \text{against} \qquad \left( b, \; \alpha, \; \Delta e, \; S \right)^{\text{cost-plus}} \approx (0, 0, 0, S > 0)$$
+$$
+\left( b, \; \alpha, \; \Delta e, \; S \right)^{\text{agreement}} = (1, \alpha, 0, 0) \qquad \text{against} \qquad \left( b, \; \alpha, \; \Delta e, \; S \right)^{\text{cost-plus}} \approx (0, 0, 0, S > 0)
+\tag{54}
+$$
 
 with the two classes differing on three of the four parameters. The comparison supports statement along three dimensions. The cost incidence differs, with the overrun borne publicly under the cost-plus instrument and privately under the fixed-price instrument. The asset disposition differs, with the cost-plus instrument producing a vehicle the agency directs and the agreement producing a capability in the market. The termination cost differs, with the cost-plus programme carrying a constituency and a settlement exposure that the agreement does not.
 
 The comparison is nonetheless confounded in a way the advocacy literature generally omits. The two instruments were applied to different requirements. The cost-plus programmes pursued a crewed beyond-low-Earth-orbit capability with no commercial market, and the fixed-price instruments pursued a low-Earth-orbit logistics capability with a plausible commercial market. The confound yields the compact statement that the observed comparison estimates
 
-$$\left[ \text{outcome}^{\text{agreement}} - \text{outcome}^{\text{cost-plus}} \right] = \underbrace{\Delta^{\text{instrument}}}_{\text{sought}} + \underbrace{\Delta^{\text{requirement}}}_{\text{confound}}$$
+$$
+\left[ \text{outcome}^{\text{agreement}} - \text{outcome}^{\text{cost-plus}} \right] = \underbrace{\Delta^{\text{instrument}}}_{\text{sought}} + \underbrace{\Delta^{\text{requirement}}}_{\text{confound}}
+\tag{55}
+$$
 
 with the second term unidentified. The mechanism-design result that the optimal incentive power falls with the uncertainty and rises with the specifiability implies that the instrument choice may have been appropriate in both cases. The article records the confound rather than reporting the comparison as a clean demonstration.
 
 The cost comparison the agency itself published estimated that a traditional cost-plus development of the launch vehicle would have cost several times the amount actually expended. The estimate is a model output produced using a parametric cost model calibrated on historical programmes, and it is treated in this article as a contested reconstruction rather than as a measurement. The estimate's construction may be stated compactly
 
-$$\hat{C}^{\text{counterfactual}} = f\!\left( \text{mass}, \; \text{complexity}, \; \text{heritage}; \; \hat{\beta}^{\text{historical}} \right)$$
+$$
+\hat{C}^{\text{counterfactual}} = f\!\left( \text{mass}, \; \text{complexity}, \; \text{heritage}; \; \hat{\beta}^{\text{historical}} \right)
+\tag{56}
+$$
 
 with the parameters calibrated on a historical programme set drawn substantially from the cost-plus regime whose costs the estimate is being used to criticize. The circularity is not fatal and is not nothing. The direction of the estimate is consistent with the broader procurement literature and the magnitude is not independently verifiable.
 
@@ -463,7 +631,10 @@ The government-anchor capital-formation mechanic invites comparison with deep hi
 
 The armory and interchangeable-parts precedent that the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] treats supplies the earliest systematic American instance. The War Department advanced funds against delivery schedules to private contractors including the Whitney and Colt enterprises, and the advances functioned as working capital that the contemporary capital markets would not have supplied. The [Hounshell 1984][book_hounshell_1984] From the American System to Mass Production and [Hosley 1996][book_hosley_1996] Colt treatments document the arrangements. The advance allows the brief characterization as a negative working-capital position supplied by the customer
 
-$$\text{WC}^{\text{contractor}} = \text{receivables} + \text{inventory} - \text{advances} < 0$$
+$$
+\text{WC}^{\text{contractor}} = \text{receivables} + \text{inventory} - \text{advances} < 0
+\tag{57}
+$$
 
 with the customer financing the production cycle. The structure is the oldest form the government-anchor capital-formation leg takes and it remains the most common.
 
@@ -471,7 +642,10 @@ The air-mail contracts of the 1920s and 1930s supply the closest transportation-
 
 The wartime production financing of the 1940s supplies the largest historical instance of public capital supplied to private producers without equity. The arrangements comprised government-owned contractor-operated facilities, advance payments, and accelerated amortization, and they produced a private industrial capability at a public cost with a negotiated post-war disposition. The [Hounshell 1984][book_hounshell_1984], [Rhodes 1986][book_rhodes_1986] The Making of the Atomic Bomb, [Groves 1962][book_groves_1962] Now It Can Be Told, and [Hewlett and Anderson 1962][book_hewlett_anderson_1962] The New World treatments document portions of the arrangement. The arrangements admit compact classification by where the title rested
 
-$$\left\{ \text{government-owned government-operated}, \; \text{government-owned contractor-operated}, \; \text{contractor-owned} \right\}$$
+$$
+\left\{ \text{government-owned government-operated}, \; \text{government-owned contractor-operated}, \; \text{contractor-owned} \right\}
+\tag{58}
+$$
 
 with the middle form dominating and with the post-war disposition of the government-owned assets constituting a distinct policy episode. The disposition question that the post-war period confronted is the same question the Space Act Agreement resolves in advance by conveying no asset.
 
@@ -481,7 +655,10 @@ The ARPANET and the DARPA institutional model supply the instance of a public fu
 
 The X-33 and reusable-launch-vehicle programmes of the 1990s supply the negation case within the same agency and the same domain. The programme proceeded under a cooperative agreement with a cost share, pursued a technically ambitious single-vehicle demonstration, and was terminated in the 2001 period without producing a flying article. The record is accessible through the [NASA X-33 and reusable launch vehicle literature][ref_ntrs_x33] and the [NASA history archives][ref_nasa_history]. The case shares the cost-share structure with the COTS instrument and differs in that the milestone schedule was tied to a single integrated demonstration rather than to a sequence of independently valuable increments, which is the decomposability property the [Decomposability article A285][related_post_a285_spacex_decomposability] treats. The difference takes the compact statement through the milestone count
 
-$$\left| \{ m_j \} \right|^{\text{X-33}} \approx 1 \qquad \text{against} \qquad \left| \{ m_j \} \right|^{\text{COTS}} \gg 1$$
+$$
+\left| \{ m_j \} \right|^{\text{X-33}} \approx 1 \qquad \text{against} \qquad \left| \{ m_j \} \right|^{\text{COTS}} \gg 1
+\tag{59}
+$$
 
 with the single integrated demonstration supplying neither the payer's intermediate option to discontinue nor the provider's intermediate validation. The comparison establishes that the instrument alone is insufficient and that the milestone decomposition is doing substantial work.
 
@@ -549,7 +726,10 @@ The instrument has been extended substantially since the COTS period. The Human 
 
 Blue Origin has received awards under the extended instrument including the sustaining lunar-lander award and the National Security Space Launch Phase 3 allocation, and its position illustrates a structural point. The instrument offers capital to a provider that in that case did not require it, because the single-funder configuration the [Governance article A287][related_post_a287_spacex_governance] treats already supplied the development capital. The distinction has the concise statement through the marginal effect of the award on the provider's capital constraint
 
-$$\frac{\partial \, \text{capability}}{\partial K^{\text{gov}}} \approx 0 \quad \text{where the constraint does not bind} \qquad \text{against} \qquad \gg 0 \quad \text{where it does}$$
+$$
+\frac{\partial \, \text{capability}}{\partial K^{\text{gov}}} \approx 0 \quad \text{where the constraint does not bind} \qquad \text{against} \qquad \gg 0 \quad \text{where it does}
+\tag{60}
+$$
 
 with the instrument performing its capital-formation function only for a provider whose capital constraint binds. The award therefore functions for that provider substantially as a validation and a revenue commitment rather than as a capital-formation channel. The record appears in the [Blue Origin press releases][ref_blue_origin_press].
 
@@ -561,7 +741,10 @@ The comparative-national picture is that other jurisdictions have adopted varian
 
 The concern the critical literature raises deserves statement in this section rather than only in the literature survey. The instrument that opened the market to a new entrant in the 2006 period now operates in a market where that entrant holds a dominant position, and an instrument that lowers the barrier to a challenger also lowers the barrier to an incumbent extending its position. The asymmetry is stated compactly as
 
-$$\frac{\partial \, \text{share}}{\partial \, \text{instrument availability}} > 0 \quad \text{for the entrant at } t_0 \qquad \text{and} \qquad > 0 \quad \text{for the same firm as incumbent at } t_1$$
+$$
+\frac{\partial \, \text{share}}{\partial \, \text{instrument availability}} > 0 \quad \text{for the entrant at } t_0 \qquad \text{and} \qquad > 0 \quad \text{for the same firm as incumbent at } t_1
+\tag{61}
+$$
 
 with the same policy producing the opposite competitive effect at the two dates. The policy question of whether the instrument should now be applied differently is outside the article's scope and is not outside the reader's legitimate interest.
 
@@ -569,7 +752,10 @@ with the same policy producing the opposite competitive effect at the two dates.
 
 The government-anchor capital-formation leg applies to the provider set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector takes the form
 
-$$\boldsymbol{\phi}_j^{\text{gov-anchor}} \in \{0,1\}^{5}$$
+$$
+\boldsymbol{\phi}_j^{\text{gov-anchor}} \in \{0,1\}^{5}
+\tag{62}
+$$
 
 with each provider's vector indicating the satisfaction status across the non-dilutive-terms, development-stage-timing, milestone-decomposition, private-cost-share, and follow-on-position sub-properties.
 
@@ -577,7 +763,10 @@ SpaceX exhibits closure on all five. Blue Origin exhibits closure on the non-dil
 
 The cross-sectional pattern indicates that the milestone-decomposition and the private-cost-share sub-properties are the two on which the negation cases fail, and that neither is a property of the funding magnitude. The finding admits the compact statement
 
-$$P\!\left( \text{success} \mid K^{\text{gov}} \right) \approx P\!\left( \text{success} \right) \qquad \text{while} \qquad P\!\left( \text{success} \mid \text{decomposed milestones} \wedge \text{cost share} \right) \gg P\!\left( \text{success} \right)$$
+$$
+P\!\left( \text{success} \mid K^{\text{gov}} \right) \approx P\!\left( \text{success} \right) \qquad \text{while} \qquad P\!\left( \text{success} \mid \text{decomposed milestones} \wedge \text{cost share} \right) \gg P\!\left( \text{success} \right)
+\tag{63}
+$$
 
 with the structure of the instrument carrying substantially more information than the amount disbursed. The finding is the most directly actionable conclusion in the article, and it is the conclusion the COTS advocacy literature least frequently states, because the advocacy is generally directed at securing the appropriation rather than at specifying the instrument.
 
@@ -599,37 +788,55 @@ The government-anchor capital-formation framing the article develops is one of s
 
 The rent-seeking framing developed in [Buchanan and Tullock 1962][book_buchanan_tullock_1962], [Stigler 1971][research_stigler_1971], and [Krueger 1974][research_krueger_1974] treats the arrangement as a transfer obtained through political action rather than as an efficient instrument. The framing draws support from the litigation and advocacy the entry section documents, and it generates the prediction that the returns should correlate with the political access rather than with the technical performance. The prediction is checkable in principle against the commercial revenue share that the [Value Capture article A284][related_post_a284_spacex_value_capture] documents, The rent the framing posits can be written as
 
-$$\text{Rent} = \pi^{\text{observed}} - \pi^{\text{competitive benchmark}} \qquad \text{with} \qquad \frac{\partial \text{Rent}}{\partial \, \text{political effort}} > 0$$
+$$
+\text{Rent} = \pi^{\text{observed}} - \pi^{\text{competitive benchmark}} \qquad \text{with} \qquad \frac{\partial \text{Rent}}{\partial \, \text{political effort}} > 0
+\tag{64}
+$$
 
 under the framing's prediction. The evidence runs against the strong form while supporting the weaker claim that the early-period access mattered.
 
 The capture framing developed in [Stigler 1971][research_stigler_1971] and the regulated-industry treatments in [Kahn 1988][book_kahn_1988] and [Sharkey 1982][book_sharkey_1982] treats the agency as having been captured by the provider it created. The framing generates the prediction that the subsequent instrument design should favor the incumbent, admitting the compact form
 
-$$\frac{\partial \, \text{eligibility threshold}}{\partial \, \text{incumbent preference}} > 0$$
+$$
+\frac{\partial \, \text{eligibility threshold}}{\partial \, \text{incumbent preference}} > 0
+\tag{65}
+$$
 
 with the agency progressively narrowing the admissible provider set. The two-lane Phase 3 structure and the dual-provider lunar-lander arrangement are evidence against the prediction rather than for it.
 
 The developmental-state framing developed in [Johnson 1982][book_johnson_1982], [Amsden 1989][book_amsden_1989], [Wade 1990][book_wade_1990], [Evans 1995][book_evans_1995], [Block 2008][research_block_2008], and [Weiss and Thurbon 2020][research_weiss_thurbon_2021] treats the arrangement as an instance of a hidden industrial policy operating through procurement. The state capacity the framing treats as decisive has the form
 
-$$\Sigma^{\text{state}} = f\!\left( \text{technical competence}, \; \text{insulation from capture}, \; \text{embeddedness in the sector} \right)$$
+$$
+\Sigma^{\text{state}} = f\!\left( \text{technical competence}, \; \text{insulation from capture}, \; \text{embeddedness in the sector} \right)
+\tag{66}
+$$
 
 with the third element requiring enough proximity to the industry to select well and the second requiring enough distance not to be captured while doing so. The framing yields the most useful comparative frame and the most direct challenge to the self-description of the participants, who generally present the arrangement as a market mechanism rather than as an industrial policy.
 
 The transaction-cost framing developed in [Williamson 1985][book_williamson_1985] and [Bajari and Tadelis 2001][research_bajari_tadelis_2001] treats the instrument choice as an efficient response to the contracting hazards the requirement presented, and it predicts that the instrument should have been chosen wherever the requirement was ill specified and the asset specificity low. The selection rule may be written
 
-$$\text{agreement} \iff \left[ h < \bar{h} \right] \wedge \left[ \text{requirement ill specified} \right] \wedge \left[ \text{provider can bear } \Delta C \right]$$
+$$
+\text{agreement} \iff \left[ h < \bar{h} \right] \wedge \left[ \text{requirement ill specified} \right] \wedge \left[ \text{provider can bear } \Delta C \right]
+\tag{67}
+$$
 
 with the conjunction required. The framing contributes the most complete positive account of why the instrument was appropriate here and why it would not be appropriate for a requirement with a higher asset specificity.
 
 The real-options framing developed in [Dixit and Pindyck 1994][book_dixit_pindyck_1994] and [Trigeorgis 1996][book_trigeorgis_1996] treats the milestone structure as an option strip held by the agency. The valuation permits the concise form
 
-$$V^{\text{agency}} = \sum_j \pi_j \cdot \max\left\{ B_j - m_j, \; 0 \right\}$$
+$$
+V^{\text{agency}} = \sum_j \pi_j \cdot \max\left\{ B_j - m_j, \; 0 \right\}
+\tag{68}
+$$
 
 with the agency discontinuing at the first milestone where the expected benefit falls below the payment, which is the formal account of the termination behavior the Rocketplane Kistler case exhibits.
 
 The public-choice and budgetary framing treats the instrument as attractive to the agency principally because it produces a visible result within an appropriation cycle, and it predicts that the instrument will be selected for its budgetary properties irrespective of its efficiency properties. The budgetary preference takes the form
 
-$$U^{\text{agency}} = w^{\text{outcome}} \cdot V^{\text{programme}} + w^{\text{visibility}} \cdot V^{\text{result within appropriation cycle}}$$
+$$
+U^{\text{agency}} = w^{\text{outcome}} \cdot V^{\text{programme}} + w^{\text{visibility}} \cdot V^{\text{result within appropriation cycle}}
+\tag{69}
+$$
 
 with the second term entering the agency's objective and not the social objective. The framing gives the explanation for the instrument's rapid extension to programmes whose characteristics differ substantially from those the original application suited.
 
@@ -643,7 +850,10 @@ The systems-architecture framing developed in [Simon 1962][research_simon_1962] 
 
 The correction can be stated as
 
-$$\hat{P}\!\left( \text{success} \mid \text{instrument} \right) = \frac{n^{\text{success}}}{n^{\text{success}} + n^{\text{failure}}}$$
+$$
+\hat{P}\!\left( \text{success} \mid \text{instrument} \right) = \frac{n^{\text{success}}}{n^{\text{success}} + n^{\text{failure}}}
+\tag{70}
+$$
 
 with the denominator understated whenever the evaluation counts only the programmes that completed.
 
@@ -653,13 +863,19 @@ The government-anchor capital-formation pattern that the SpaceX case exhibits ad
 
 The abstract mechanic requires joint satisfaction of five sub-properties, admitting the compact conjunctive form
 
-$$\Phi^{\text{gov-anchor}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}$$
+$$
+\Phi^{\text{gov-anchor}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}
+\tag{71}
+$$
 
 First, the capital must be non-dilutive, conveying no equity and no governance rights. Capital that conveys either is private capital wearing a public label.
 
 Second, the capital must arrive at the development stage rather than at the operational stage, satisfying
 
-$$t^{\text{award}} < t^{\text{capability}}$$
+$$
+t^{\text{award}} < t^{\text{capability}}
+\tag{72}
+$$
 
 Capital arriving after the capability exists is revenue, and it performs a different function.
 
@@ -671,7 +887,10 @@ Fifth, the arrangement must establish a follow-on position. The capital is the m
 
 The mechanic permits a diagnostic procedure stated as an ordered test vector
 
-$$\tau = \left( \Delta e = \Delta v = 0, \;\; t^{\text{award}} < t^{\text{capability}}, \;\; \left| \{ m_j \} \right| \gg 1, \;\; K^{\text{private}} \geq \alpha K^{\text{gov}}, \;\; \exists \text{ follow-on position} \right)$$
+$$
+\tau = \left( \Delta e = \Delta v = 0, \;\; t^{\text{award}} < t^{\text{capability}}, \;\; \left| \{ m_j \} \right| \gg 1, \;\; K^{\text{private}} \geq \alpha K^{\text{gov}}, \;\; \exists \text{ follow-on position} \right)
+\tag{73}
+$$
 
 with the third and fifth components the ones a candidate case most often fails.
 
@@ -692,6 +911,639 @@ The article adopts terminology consistent with the federal procurement conventio
 ## Load-Bearing Open Questions
 
 The article closes with the load-bearing open questions the treatment leaves unresolved. First, the counterfactual in which the development capital was raised privately is not resolved, and the Rocketplane Kistler observation constrains it without settling it. Second, the provider's actual development costs are not public, so the relation between what the government paid and what the development cost is unknown, and every efficiency claim about the instrument depends on that unknown relation. Third, the agency's published counterfactual cost estimates are model outputs whose calibration cannot be independently checked, and they are the single most frequently cited quantity in the advocacy literature. Fourth, the mechanism-design result that optimal incentive power falls with uncertainty is in direct tension with the policy lesson usually drawn from this case, and the article records the tension without resolving it. Fifth, the comparison against the cost-plus programmes is confounded by the different requirements the two instrument classes addressed. Sixth, whether an instrument that opened the market to a challenger should continue to be applied unchanged now that the challenger holds a dominant position is a policy question the article raises and does not answer.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 73 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 73, 18 are established and 55 are bespoke.
+Capital, costs, values and award amounts are in nominal United States dollars as reported, shares, dilution fractions, probabilities and the incentive power are dimensionless, and most equations state the structure of an argument rather than evaluating it with data.
+
+*Equation 1, Bespoke Distinction of Revenue from Development Capital.*
+Revenue is set as price times a positive delivered quantity, against development capital as a sum of milestone payments with nothing yet delivered.
+
+$$
+\text{revenue} \; : \; p \cdot q \quad \text{with} \quad q > 0 \qquad \text{against} \qquad \text{development capital} \; : \; \sum_j m_j \quad \text{with} \quad q = 0
+\tag{1}
+$$
+
+**Equation 2, Total Capital by Channel.**
+The cumulative capital is the sum of the capital supplied through the government, equity and debt channels.
+
+$$
+K^{\text{total}}(t) = K^{\text{gov}}(t) + K^{\text{equity}}(t) + K^{\text{debt}}(t)
+\tag{2}
+$$
+
+*Equation 3, Bespoke Non-Dilutive Property of Government Capital.*
+The statement holds that government development capital changes neither the cash-flow share nor the voting share of the founder.
+
+$$
+\frac{\partial e^{\text{founder}}}{\partial K^{\text{gov}}} = 0 \qquad \text{and} \qquad \frac{\partial v^{\text{founder}}}{\partial K^{\text{gov}}} = 0
+\tag{3}
+$$
+
+*Equation 4, Bespoke Private-Capital Counterfactual Differential.*
+The government-anchor contribution is defined as the observed value less the value under a counterfactual in which the development capital was raised privately on contemporaneous terms.
+
+$$
+\Delta V^{\text{gov-anchor}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{private-capital counterfactual}}_i(t)
+\tag{4}
+$$
+
+*Equation 5, Bespoke Cost of Government Capital.*
+The cost of government capital is defined as the value of the non-financial concessions granted per dollar received and is asserted to lie far below the cost of equity.
+
+$$
+r^{\text{gov}} \ll r^{\text{equity}} \qquad \text{with} \qquad r^{\text{gov}} = \text{value of concessions granted per dollar received}
+\tag{5}
+$$
+
+**Equation 6, Equity Fraction to Raise a Given Amount.**
+Raising an amount of capital at a given pre-money valuation surrenders that amount divided by the post-money valuation.
+
+$$
+\delta^{\text{avoided}} = \frac{K^{\text{gov}}}{V + K^{\text{gov}}}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Payer Value of a Milestone Schedule.*
+The value to the payer is constructed as the sum over milestones of the probability of reaching each one times its benefit net of payment.
+
+$$
+V^{\text{payer}} = \sum_{j} \pi_j \cdot \left[ B_j - m_j \right] \qquad \text{with} \qquad \pi_j = \prod_{k < j} P\!\left( \text{milestone } k \text{ achieved} \right)
+\tag{7}
+$$
+
+**Equation 8, Laffont and Tirole Incentive Power.**
+Incentive power is one minus the rate at which payment rises with cost, zero for pure cost reimbursement and one for a fixed price.
+[Laffont and Tirole 1993][book_laffont_tirole_1993]
+
+$$
+b = 1 - \frac{\partial \, \text{payment}}{\partial \, \text{cost}}
+\tag{8}
+$$
+
+**Equation 9, Overrun Borne by the Provider.**
+Under a linear sharing rule the provider bears the incentive power times any excess of actual over estimated cost.
+[Laffont and Tirole 1993][book_laffont_tirole_1993]
+
+$$
+L^{\text{provider}} = b \cdot \left( C^{\text{actual}} - C^{\text{estimated}} \right)^{+}
+\tag{9}
+$$
+
+**Equation 10, Private Cost-Share Requirement.**
+The agreement requires the private contribution to be at least a stated fraction of the government contribution.
+
+$$
+K^{\text{private}} \geq \alpha \cdot K^{\text{gov}}
+\tag{10}
+$$
+
+**Equation 11, Optimal Incentive Power under Cost Uncertainty.**
+The optimal incentive power trades the effort gain of a high-powered scheme against the risk premium on cost variance, so it falls as cost uncertainty rises.
+[Laffont and Tirole 1993][book_laffont_tirole_1993]
+[Bajari and Tadelis 2001][research_bajari_tadelis_2001]
+
+$$
+b^{\ast} = \arg\max_b \left[ \Delta^{\text{effort}}(b) - \tfrac{\gamma}{2} b^2 \sigma^2_{\text{cost}} \right] \qquad \text{with} \qquad \frac{\partial b^{\ast}}{\partial \sigma^2_{\text{cost}}} < 0
+\tag{11}
+$$
+
+*Equation 12, Bespoke Asset-Specificity Hazard Index.*
+The index the article defines divides the loss of value in moving an asset from its intended use to its next-best use by its value in the intended use.
+[Klein et al. 1978][research_klein_crawford_alchian_1978]
+
+$$
+h = \frac{V^{\text{asset in intended use}} - V^{\text{asset in next-best use}}}{V^{\text{asset in intended use}}}
+\tag{12}
+$$
+
+**Equation 13, Transaction-Cost Governance Choice.**
+Market or agreement governance is chosen when asset specificity is below a threshold and hierarchy or cost reimbursement when it is above.
+[Williamson 1985][book_williamson_1985]
+
+$$
+\text{instrument} = \begin{cases} \text{market or agreement} & h < \bar{h} \\ \text{hierarchy or cost-reimbursement} & h \geq \bar{h} \end{cases}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Cost Components of Venture Capital.*
+The statement sets monitoring and staging, which both channels supply, against the equity claim, which only the private channel takes.
+
+$$
+\underbrace{\text{monitoring} + \text{staging}}_{\text{both channels}} \; + \; \underbrace{\text{equity claim}}_{\text{private only}} \; \longrightarrow \; \text{cost to venture}
+\tag{14}
+$$
+
+**Equation 15, Gap between Social and Private Returns.**
+The rationale for public research spending is that the social return exceeds the private return when the innovator cannot appropriate the full benefit.
+[Arrow 1962][research_arrow_1962]
+
+$$
+\Delta = r^{\text{social}} - r^{\text{private}} > 0
+\tag{15}
+$$
+
+*Equation 16, Bespoke Optimal Public Cost Share.*
+The public share of an investment is set to the gap between social and private return as a fraction of the social return, a rule the article constructs.
+
+$$
+s^{\ast} = \frac{r^{\text{social}} - r^{\text{private}}}{r^{\text{social}}}
+\tag{16}
+$$
+
+**Equation 17, Allocation of Risk to the Least-Cost Bearer.**
+Each risk is assigned to the party able to bear it at least cost, the risk-allocation principle of public and private partnership.
+[Grimsey and Lewis 2004][book_grimsey_lewis_2004]
+
+$$
+\text{assign risk } k \text{ to } \arg\min_{i} \; c_i(k)
+\tag{17}
+$$
+
+*Equation 18, Bespoke Set of State Instruments.*
+The set enumerates five channels through which a state may act on an industry, an enumeration the article chose.
+
+$$
+\mathcal{I} = \left\{ \text{ownership}, \; \text{directed credit}, \; \text{tariff}, \; \text{subsidy}, \; \text{procurement} \right\}
+\tag{18}
+$$
+
+**Equation 19, Herfindahl Index of Award Concentration.**
+The index is the sum of the squared shares of total awards held by each provider.
+
+$$
+H^{\text{provider}} = \sum_j s_j^2 \qquad \text{with} \qquad s_j = \frac{\text{awards to provider } j}{\text{total awards}}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Heilmeier Screening Condition.*
+Funding is conditioned on four questions drawn from the Heilmeier catechism and required jointly, a condensation the article makes of the longer catechism.
+[Heilmeier Catechism][ref_heilmeier_catechism]
+
+$$
+\text{fund} \iff \left[ \text{objective specifiable} \right] \wedge \left[ \text{current practice inadequate} \right] \wedge \left[ \text{success testable} \right] \wedge \left[ \text{consequence material} \right]
+\tag{20}
+$$
+
+*Equation 21, Bespoke Transferability of the Learning Rate.*
+The question asks whether the learning rate of the historical calibration sample equals that of the provider, which the parametric estimate assumes.
+
+$$
+b^{\text{historical}} \stackrel{?}{=} b^{\text{provider}}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Compliance Cost Removed by the Agreement.*
+The compliance cost under the Federal Acquisition Regulation is asserted to exceed that under a Space Act Agreement.
+
+$$
+C^{\text{compliance}}_{\text{FAR}} - C^{\text{compliance}}_{\text{agreement}} > 0
+\tag{22}
+$$
+
+*Equation 23, Bespoke Procurement and Agreement Contrast.*
+A procurement gives the agency title to a deliverable whereas an agreement gives it a capability demonstrated in the market.
+
+$$
+\text{procurement} \; : \; \text{agency receives title to a deliverable} \qquad \text{against} \qquad \text{agreement} \; : \; \text{agency receives a demonstrated capability in the market}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Residual-Claim Structure of an Agreement.*
+Under an agreement the agency holds no title while the market gains a positive capability.
+
+$$
+\text{title}^{\text{agency}} = \varnothing \qquad \text{while} \qquad \text{capability}^{\text{market}} > 0
+\tag{24}
+$$
+
+**Equation 25, Probability That at Least One Provider Succeeds.**
+For providers with independent execution risk the probability that at least one succeeds is one minus the product of the failure probabilities.
+
+$$
+P(\text{at least one succeeds}) = 1 - \prod_{j} \left( 1 - p_j \right)
+\tag{25}
+$$
+
+*Equation 26, Bespoke Parameter Vector of the Agreement.*
+The agreement is characterised by unit incentive power, a positive cost share, zero dilution and zero termination settlement.
+
+$$
+\left( b, \; \alpha, \; \Delta e, \; S \right) = \left( 1, \; \alpha > 0, \; 0, \; 0 \right)
+\tag{26}
+$$
+
+*Equation 27, Bespoke Continuation Value with a Termination Settlement.*
+The advantage of continuing over terminating is the expected completion value plus any settlement that termination would cost, which vanishes under the agreement.
+
+$$
+V^{\text{continue}} - V^{\text{terminate}} = \left[ \text{expected completion value} \right] - \left[ - S \right] \qquad \text{with} \qquad S = 0 \text{ under the agreement}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Agency Recovery on Termination.*
+The agency recovers the obligated but undisbursed balance under the agreement, against paying a settlement under a cost-plus termination.
+
+$$
+R^{\text{agency}} = K^{\text{obligated}} - K^{\text{disbursed}} \qquad \text{against} \qquad R^{\text{agency}} = -S \quad \text{under a cost-plus termination}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Milestone Release Condition.*
+A milestone payment is released only when the technical milestone is achieved and the private contribution meets the required cost share.
+
+$$
+m_j \text{ released} \iff \left[ \text{technical milestone } j \text{ achieved} \right] \wedge \left[ K^{\text{private}} \geq \alpha K^{\text{gov}} \right]
+\tag{29}
+$$
+
+*Equation 30, Bespoke Inference from the Rocketplane Kistler Failure.*
+The single failed private raise bounds the probability of completing such a raise below one without implying that the SpaceX raise would have failed.
+
+$$
+P(A) < 1 \qquad \text{and not} \qquad P(A \mid \text{SpaceX}) = 0
+\tag{30}
+$$
+
+**Equation 31, Dilution Falling in Valuation.**
+The equity fraction surrendered for a fixed amount of capital falls as the valuation rises, so capital raised at a low valuation is much more dilutive.
+
+$$
+\frac{\partial \delta}{\partial V} < 0 \qquad \text{so that} \qquad \delta \Big|_{V \text{ low}} \gg \delta \Big|_{V \text{ high}}
+\tag{31}
+$$
+
+**Equation 32, Dilution Avoided through the Commercial Orbital Transportation Services Award.**
+The Commercial Orbital Transportation Services capital, had it been raised as equity, would have surrendered that capital divided by the post-money valuation.
+
+$$
+\delta^{\text{avoided}} = \frac{K^{\text{COTS}}}{V + K^{\text{COTS}}}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Compounding of Avoided Dilution.*
+The founder share after later rounds is compared with and without the avoided dilution, which the article subtracts from the initial share rather than applying as a multiplicative factor.
+
+$$
+e^{\text{founder}}_N = \left[ e_0 - \delta^{\text{avoided}} \right] \prod_{n=1}^{N} \left( 1 - \delta_n \right) \qquad \text{against} \qquad e_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
+\tag{33}
+$$
+
+*Equation 34, Bespoke Separation of Three Propositions.*
+The chain states that favourable terms, which the article establishes, imply neither that the capital was necessary nor that the expenditure was efficient.
+
+$$
+\underbrace{\text{terms were favorable}}_{\text{established}} \; \not\Rightarrow \; \underbrace{\text{capital was necessary}}_{\text{not established}} \; \not\Rightarrow \; \underbrace{\text{expenditure was efficient}}_{\text{not established}}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Plateau of Government Development Capital.*
+Cumulative government development capital is taken as roughly constant after the transition from development to procurement.
+
+$$
+K^{\text{gov}}(t) \approx \text{constant} \qquad \text{for} \qquad t > t^{\text{transition}}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Capital Share against Revenue Share.*
+The historical government share of development capital is set against the current government share of revenue, two quantities the article separates.
+
+$$
+\frac{K^{\text{gov}}}{K^{\text{total}}} \Bigg|_{\text{cumulative, development era}} \qquad \text{against} \qquad \frac{R^{\text{gov}}(t)}{R^{\text{total}}(t)} \Bigg|_{\text{current}}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Staged Instrument Choice.*
+The optimal incentive power is applied as a function of cost variance that declines over time, so that the instrument tightens as the requirement becomes specifiable.
+
+$$
+b^{\ast}(t) = b^{\ast}\!\left( \sigma^2_{\text{cost}}(t) \right) \qquad \text{with} \qquad \sigma^2_{\text{cost}}(t) \text{ declining in } t
+\tag{37}
+$$
+
+**Equation 38, Commercial Crew Price Differential.**
+The award of about 4.2 billion dollars exceeds the award of about 2.6 billion dollars by about 60 percent of the lower figure.
+[certification record][ref_nasa_ccp_certification]
+
+$$
+\frac{P^{\text{high}} - P^{\text{low}}}{P^{\text{low}}} \approx 0.6
+\tag{38}
+$$
+
+**Equation 39, Public Share of an Overrun.**
+The public bears one minus the incentive power times any overrun, which approaches zero under a fixed price.
+
+$$
+L^{\text{public}} = (1 - b) \cdot \left( C^{\text{actual}} - C^{\text{estimated}} \right)^{+} \approx 0 \qquad \text{at} \qquad b \approx 1
+\tag{39}
+$$
+
+**Equation 40, Overrun Incidence by Instrument Class.**
+Under a fixed price the provider bears the whole overrun and under cost reimbursement the public bears it.
+
+$$
+\left( L^{\text{public}}, \; L^{\text{provider}} \right) = \begin{cases} \left( 0, \; \Delta C \right) & \text{fixed price} \\ \left( \Delta C, \; 0 \right) & \text{cost reimbursement} \end{cases}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Credibility Condition for Risk Transfer.*
+Risk is held to be transferred only when the overrun does not exceed the capacity of the provider to absorb the loss.
+
+$$
+\text{risk transferred} \iff \Delta C \leq W^{\text{provider}}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Value of Certification.*
+The value of certification is constructed as the discounted expected margin on the award stream it opens, less the certification cost.
+
+$$
+\Delta V^{\text{certification}} = \sum_{t} \frac{p^{\text{award}}(t) \cdot \pi^{\text{margin}}}{(1+\rho)^t} \; - \; C^{\text{certification}}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Asymmetric Certification Barrier.*
+The certification cost is the same for every entrant, but relative to existing revenue it differs by orders of magnitude between incumbent and entrant.
+
+$$
+C^{\text{certification}} \text{ identical across entrants} \qquad \text{while} \qquad \frac{C^{\text{certification}}}{R^{\text{existing}}} \text{ differs by orders of magnitude}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Provider Count Progression.*
+The number of providers admitted to the competed national security launch missions rises from one to two to three or more across three periods.
+
+$$
+n^{\text{providers}} \; : \; 1 \longrightarrow 2 \longrightarrow 3+
+\tag{44}
+$$
+
+*Equation 45, Bespoke Litigation Decision.*
+Litigation is pursued when the probability of prevailing times the value of channel access exceeds the legal cost plus the cost to the customer relationship.
+
+$$
+\text{litigate} \iff p^{\text{prevail}} \cdot V^{\text{channel access}} > C^{\text{legal}} + C^{\text{relationship}}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Dependency of Government Access on Patient Capital.*
+Access to government capital is shown as conditioned on a legal contest that patient private capital financed.
+
+$$
+K^{\text{gov}} \; \text{accessible} \; \Leftarrow \; \text{legal contest} \; \Leftarrow \; K^{\text{private, patient}}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Reversal of the Capital Flow.*
+The response of firm capital to the government relationship is positive in the development period and negative in the current period, a reversal the article asserts.
+
+$$
+\text{sign}\!\left( \frac{\partial K^{\text{firm}}}{\partial \, \text{government relationship}} \right) \; : \; + \text{ in the development period}, \; - \text{ in the current period}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Reversal of Temporal Ordering.*
+Government capital preceded the capability in the development era, whereas the capability now precedes the government purchase.
+
+$$
+t^{\text{gov capital}} < t^{\text{capability}} \qquad \text{becomes} \qquad t^{\text{capability}} < t^{\text{gov purchase}}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Award-to-Position Chain.*
+The chain models a development award producing a capability, the capability a position and the position a follow-on award.
+
+$$
+\text{development award} \longrightarrow \text{capability} \longrightarrow \text{position} \longrightarrow \text{follow-on award}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Follow-On Advantage of a Development Award.*
+The probability of winning a follow-on given a development award is asserted to far exceed the unconditional probability.
+
+$$
+P\!\left( \text{win follow-on} \mid \text{received development award} \right) \gg P\!\left( \text{win follow-on} \right)
+\tag{50}
+$$
+
+*Equation 51, Bespoke Value of a Development Award.*
+The value of an award is constructed as its visible development capital plus the probability of a follow-on times the value of the follow-on position.
+
+$$
+V^{\text{award}} = \underbrace{K^{\text{development}}}_{\text{visible}} + \underbrace{P\!\left( \text{follow-on} \right) \cdot V^{\text{follow-on position}}}_{\text{usually dominant}}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Termination Decision.*
+Termination is taken when the expected completion value falls below the remaining milestone payments plus the political cost to the deciding official.
+
+$$
+\text{terminate} \iff E\!\left[ V^{\text{completion}} \mid \mathcal{F}_t \right] < \sum_{j > J(t)} m_j + C^{\text{political}}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Agency Capability as a Minimum.*
+Agency capability is modelled as the weaker of technical proximity and institutional distance, a minimum form the article chose for embedded autonomy.
+[Evans 1995][book_evans_1995]
+
+$$
+\Sigma^{\text{agency}} = \min\left\{ \text{technical proximity}, \; \text{institutional distance} \right\}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Parameter Vectors of Agreement and Cost-Plus.*
+The agreement vector of unit incentive power, positive cost share, zero dilution and zero settlement is set against a cost-plus vector the article approximates with zero incentive power and cost share and a positive settlement.
+
+$$
+\left( b, \; \alpha, \; \Delta e, \; S \right)^{\text{agreement}} = (1, \alpha, 0, 0) \qquad \text{against} \qquad \left( b, \; \alpha, \; \Delta e, \; S \right)^{\text{cost-plus}} \approx (0, 0, 0, S > 0)
+\tag{54}
+$$
+
+*Equation 55, Bespoke Confounded Instrument Comparison.*
+The observed outcome difference between agreement and cost-plus programmes is the sum of an instrument effect and a requirement effect that the comparison cannot separate.
+
+$$
+\left[ \text{outcome}^{\text{agreement}} - \text{outcome}^{\text{cost-plus}} \right] = \underbrace{\Delta^{\text{instrument}}}_{\text{sought}} + \underbrace{\Delta^{\text{requirement}}}_{\text{confound}}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Parametric Counterfactual Cost Estimate.*
+The counterfactual cost is a parametric function of mass, complexity and heritage with parameters calibrated on historical programmes, which the article treats as a contested reconstruction.
+
+$$
+\hat{C}^{\text{counterfactual}} = f\!\left( \text{mass}, \; \text{complexity}, \; \text{heritage}; \; \hat{\beta}^{\text{historical}} \right)
+\tag{56}
+$$
+
+**Equation 57, Negative Working Capital from Customer Advances.**
+Working capital is receivables plus inventory less customer advances, and advances large enough make it negative so that the customer finances production.
+
+$$
+\text{WC}^{\text{contractor}} = \text{receivables} + \text{inventory} - \text{advances} < 0
+\tag{57}
+$$
+
+*Equation 58, Bespoke Classification by Ownership of Title.*
+The wartime industrial arrangements are classified into three forms according to who owned and who operated the facilities.
+
+$$
+\left\{ \text{government-owned government-operated}, \; \text{government-owned contractor-operated}, \; \text{contractor-owned} \right\}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Milestone Counts of X-33 and Commercial Orbital Transportation Services.*
+The X-33 schedule is characterised as about one integrated milestone against many independently valuable milestones under Commercial Orbital Transportation Services.
+
+$$
+\left| \{ m_j \} \right|^{\text{X-33}} \approx 1 \qquad \text{against} \qquad \left| \{ m_j \} \right|^{\text{COTS}} \gg 1
+\tag{59}
+$$
+
+*Equation 60, Bespoke Capability Response to Government Capital.*
+Government capital is held to add capability only where the capital constraint of the provider binds.
+
+$$
+\frac{\partial \, \text{capability}}{\partial K^{\text{gov}}} \approx 0 \quad \text{where the constraint does not bind} \qquad \text{against} \qquad \gg 0 \quad \text{where it does}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Instrument Effect at Two Dates.*
+Instrument availability raises the share of the same firm both as entrant and later as incumbent, an asymmetry the article asserts.
+
+$$
+\frac{\partial \, \text{share}}{\partial \, \text{instrument availability}} > 0 \quad \text{for the entrant at } t_0 \qquad \text{and} \qquad > 0 \quad \text{for the same firm as incumbent at } t_1
+\tag{61}
+$$
+
+*Equation 62, Bespoke Government-Anchor Closure Vector.*
+Each provider receives a binary vector over the five government-anchor sub-properties that the pattern-extraction section states.
+
+$$
+\boldsymbol{\phi}_j^{\text{gov-anchor}} \in \{0,1\}^{5}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Instrument Structure over Funding Magnitude.*
+Success is asserted to be nearly independent of the amount of government capital and strongly associated with decomposed milestones and a cost share.
+
+$$
+P\!\left( \text{success} \mid K^{\text{gov}} \right) \approx P\!\left( \text{success} \right) \qquad \text{while} \qquad P\!\left( \text{success} \mid \text{decomposed milestones} \wedge \text{cost share} \right) \gg P\!\left( \text{success} \right)
+\tag{63}
+$$
+
+*Equation 64, Bespoke Rent from Political Effort.*
+Rent is defined as observed profit less a competitive benchmark, which the rent-seeking framing predicts rises with political effort.
+
+$$
+\text{Rent} = \pi^{\text{observed}} - \pi^{\text{competitive benchmark}} \qquad \text{with} \qquad \frac{\partial \text{Rent}}{\partial \, \text{political effort}} > 0
+\tag{64}
+$$
+
+*Equation 65, Bespoke Capture Prediction.*
+The capture framing predicts that eligibility thresholds rise with the preference of the agency for the incumbent.
+[Stigler 1971][research_stigler_1971]
+
+$$
+\frac{\partial \, \text{eligibility threshold}}{\partial \, \text{incumbent preference}} > 0
+\tag{65}
+$$
+
+*Equation 66, Bespoke State Capacity Function.*
+State capacity is posited as an unspecified function of technical competence, insulation from capture and embeddedness in the sector.
+
+$$
+\Sigma^{\text{state}} = f\!\left( \text{technical competence}, \; \text{insulation from capture}, \; \text{embeddedness in the sector} \right)
+\tag{66}
+$$
+
+*Equation 67, Bespoke Transaction-Cost Selection Rule.*
+The agreement is predicted where asset specificity is low, the requirement ill specified and the provider able to bear the overrun, with all three required.
+
+$$
+\text{agreement} \iff \left[ h < \bar{h} \right] \wedge \left[ \text{requirement ill specified} \right] \wedge \left[ \text{provider can bear } \Delta C \right]
+\tag{67}
+$$
+
+*Equation 68, Bespoke Agency Option Strip.*
+The agency value is constructed as the sum over milestones of the probability of reaching each times the positive part of benefit net of payment.
+
+$$
+V^{\text{agency}} = \sum_j \pi_j \cdot \max\left\{ B_j - m_j, \; 0 \right\}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Budgetary Utility of the Agency.*
+The agency utility is modelled as a weighted sum of programme value and the value of a result within one appropriation cycle.
+
+$$
+U^{\text{agency}} = w^{\text{outcome}} \cdot V^{\text{programme}} + w^{\text{visibility}} \cdot V^{\text{result within appropriation cycle}}
+\tag{69}
+$$
+
+**Equation 70, Sample Success Rate.**
+The estimated success rate is the number of successes divided by the number of successes and failures, which overstates the rate when failed programmes are left uncounted.
+
+$$
+\hat{P}\!\left( \text{success} \mid \text{instrument} \right) = \frac{n^{\text{success}}}{n^{\text{success}} + n^{\text{failure}}}
+\tag{70}
+$$
+
+*Equation 71, Bespoke Government-Anchor Conjunctive Closure.*
+Closure is the product of five binary sub-property indicators, so that it obtains only when every indicator is one.
+
+$$
+\Phi^{\text{gov-anchor}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Development-Stage Timing Condition.*
+The award must arrive before the capability exists, since capital arriving afterwards is revenue.
+
+$$
+t^{\text{award}} < t^{\text{capability}}
+\tag{72}
+$$
+
+*Equation 73, Bespoke Government-Anchor Test Vector.*
+The test vector collects the five diagnostic conditions, from zero dilution to an existing follow-on position.
+
+$$
+\tau = \left( \Delta e = \Delta v = 0, \;\; t^{\text{award}} < t^{\text{capability}}, \;\; \left| \{ m_j \} \right| \gg 1, \;\; K^{\text{private}} \geq \alpha K^{\text{gov}}, \;\; \exists \text{ follow-on position} \right)
+\tag{73}
+$$
+
+### Notation
+
+- $K^{\text{gov}}$, the cumulative government development capital
+- $K^{\text{total}}(t)$, the cumulative capital supplied through all channels
+- $m_j$, the payment at the milestone $j$
+- $e^{\text{founder}}$, the cash-flow share of the founder
+- $v^{\text{founder}}$, the voting share of the founder
+- $r^{\text{gov}}$, the cost of government capital, the value of concessions granted per dollar received
+- $\delta^{\text{avoided}}$, the equity fraction that raising the same capital privately would have surrendered
+- $V$, the firm valuation at the time the capital was received
+- $\pi_j$, the probability that the programme reaches the milestone $j$
+- $B_j$, the benefit to the payer of the milestone $j$
+- $b$, the incentive power of a contract, from zero for cost reimbursement to one for a fixed price, and in the learning-transfer question the learning rate
+- $\alpha$, the required ratio of private to government contribution
+- $h$, the asset-specificity hazard index
+- $s^{\ast}$, the optimal public share of an investment
+- $S$, the settlement the agency pays on termination
+- $\Delta e$, the dilution of the founder cash-flow share that an instrument causes
+- $L^{\text{public}}$, the share of a cost overrun borne by the public
+- $L^{\text{provider}}$, the share of a cost overrun borne by the provider
+- $W^{\text{provider}}$, the capacity of the provider to absorb a loss
+- $C^{\text{certification}}$, the cost of obtaining launch certification
+- $C^{\text{political}}$, the institutional cost that termination imposes on the deciding official
+- $\boldsymbol{\phi}_j$, the binary closure vector of the provider $j$ over five sub-properties
+- $\Phi^{\text{gov-anchor}}$, the conjunctive closure, the product of the five sub-property indicators
 
 ## References
 

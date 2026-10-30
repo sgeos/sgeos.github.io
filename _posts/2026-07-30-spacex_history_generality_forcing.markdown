@@ -23,37 +23,55 @@ The mapping problem permits several formalizations depending on the level of ana
 
 The general form of the generality-forcing causal-mapping problem can be stated compactly as follows. Let $R^{\text{primary}} = \{r_1, r_2, \ldots, r_M\}$ denote the set of primary technical requirements that the Mars-transportation mission necessitates, and let $A = \{a_1, a_2, \ldots, a_K\}$ denote the set of adjacent applications across which the capability configuration generalizes. The generality-forcing condition requires
 
-$$\forall a_k \in A : R^{\text{primary}} \supseteq R^{\text{necessary}}(a_k)$$
+$$
+\forall a_k \in A : R^{\text{primary}} \supseteq R^{\text{necessary}}(a_k)
+\tag{1}
+$$
 
 with the primary-requirement set being a superset of the necessary-requirement set for each adjacent application, so that the capability configuration that satisfies the primary-requirement set automatically satisfies the adjacent-application requirement sets.
 
 The generality-forcing coverage-ratio may be written
 
-$$\gamma_i = \frac{|A^{\text{covered}}_i|}{|A^{\text{potential}}_i|}$$
+$$
+\gamma_i = \frac{|A^{\text{covered}}_i|}{|A^{\text{potential}}_i|}
+\tag{2}
+$$
 
 with $A^{\text{covered}}\_i$ the set of adjacent applications the capability configuration covers and $A^{\text{potential}}\_i$ the set of potential adjacent applications the capability arrangement could cover. The SpaceX case exhibits substantial $\gamma_i$ values approaching unity across the commercial launch-service, cargo, crew, national-security, geostationary-transfer, low-Earth-orbit-constellation, and lunar-lander application segments.
 
 The cross-application capability-substrate identity takes the compact form
 
-$$K^{\text{substrate}}_i = \bigcap_{a \in A} K^{\text{required}}(a)$$
+$$
+K^{\text{substrate}}_i = \bigcap_{a \in A} K^{\text{required}}(a)
+\tag{3}
+$$
 
 with the capability substrate representing the intersection of the capabilities each application requires. The SpaceX Starship configuration approaches the universal-substrate arrangement in which the substrate coincides with the full capability required by all adjacent applications.
 
 The generality-forcing decomposition across the SpaceX portfolio takes the form
 
-$$V^{\text{generality-forcing}}_i = \sum_{a \in A} V^{\text{application}}(a) \cdot \phi^{\text{capability-fit}}_i(a)$$
+$$
+V^{\text{generality-forcing}}_i = \sum_{a \in A} V^{\text{application}}(a) \cdot \phi^{\text{capability-fit}}_i(a)
+\tag{4}
+$$
 
 with $\phi^{\text{capability-fit}}\_i(a)$ the capability-fit fraction for the application $a$ under the firm $i$ configuration.
 
 The identification problem for the generality-forcing contribution to the SpaceX trajectory is the question of separating the generality-forcing effect from the confounding effects of the other six forcing-function conditions and the three capital-formation legs. The counterfactual differential can be written as
 
-$$\Delta V^{\text{generality-forcing}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{narrow-mission counterfactual}}_i(t)$$
+$$
+\Delta V^{\text{generality-forcing}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{narrow-mission counterfactual}}_i(t)
+\tag{5}
+$$
 
 with the generality-forcing attribution equal to the difference between the observed cumulative value and the counterfactual cumulative value under the narrow-mission scenario in which the SpaceX firm optimizes for a single narrow application. The counterfactual specifications the article treats include a commercial-launch-only counterfactual, a Starlink-only counterfactual, and a Mars-only counterfactual in which the SpaceX firm sacrifices the adjacent-application generality for the primary-mission optimization.
 
 The application-set-cardinality identity has the form
 
-$$|A^{\text{SpaceX-realized}}| \geq |A^{\text{narrow-mission-comparator}}|$$
+$$
+|A^{\text{SpaceX-realized}}| \geq |A^{\text{narrow-mission-comparator}}|
+\tag{6}
+$$
 
 with the SpaceX-realized application-set-cardinality substantially exceeding the narrow-mission-comparator application-set-cardinality reflecting the generality-forcing configuration.
 
@@ -81,53 +99,80 @@ The generality-forcing property is treated in the article as an economic propert
 
 The formal characterization of the generality-forcing property permits several compact statements. Let $R^{\text{primary}}$ denote the primary requirement set, and let $K^{\text{configured}}$ denote the capability configuration that satisfies the primary requirement set. The generality-forcing condition requires
 
-$$K^{\text{configured}} \supseteq K^{\text{necessary}}(a) \quad \forall a \in A^{\text{target}}$$
+$$
+K^{\text{configured}} \supseteq K^{\text{necessary}}(a) \quad \forall a \in A^{\text{target}}
+\tag{7}
+$$
 
 with the configured-capability being a superset of the necessary-capability for each target application. The SpaceX case exhibits substantial coverage across the commercial-launch, cargo, crew, national-security, geostationary-transfer, and constellation-deployment application segments.
 
 The generality-forcing yield may be written
 
-$$Y^{\text{generality}}_i = \frac{\sum_{a \in A^{\text{covered}}} V^{\text{application}}(a)}{V^{\text{primary-mission}}}$$
+$$
+Y^{\text{generality}}_i = \frac{\sum_{a \in A^{\text{covered}}} V^{\text{application}}(a)}{V^{\text{primary-mission}}}
+\tag{8}
+$$
 
 with $Y^{\text{generality}}\_i$ exceeding unity indicating that the adjacent-application-yield substantially exceeds the primary-mission-yield. The SpaceX case exhibits substantial $Y^{\text{generality}}$ reflecting the commercial-launch, Starlink, and defense application yields that substantially exceed the direct Mars-mission yield to date.
 
 The requirement-satisfaction indicator admits the compact form
 
-$$\mathbb{1}^{\text{satisfies}}(a) = \prod_{r \in R^{\text{necessary}}(a)} \mathbb{1}[K^{\text{configured}} \supseteq \{r\}]$$
+$$
+\mathbb{1}^{\text{satisfies}}(a) = \prod_{r \in R^{\text{necessary}}(a)} \mathbb{1}[K^{\text{configured}} \supseteq \{r\}]
+\tag{9}
+$$
 
 with the application $a$ satisfied if and only if all necessary requirements for $a$ are covered by the configured-capability set.
 
 The requirement-hierarchy permits the concise ordering
 
-$$R^{\text{Mars-transportation}} \succeq R^{\text{lunar-landing}} \succeq R^{\text{national-security-launch}} \succeq R^{\text{commercial-GTO}} \succeq R^{\text{commercial-LEO}}$$
+$$
+R^{\text{Mars-transportation}} \succeq R^{\text{lunar-landing}} \succeq R^{\text{national-security-launch}} \succeq R^{\text{commercial-GTO}} \succeq R^{\text{commercial-LEO}}
+\tag{10}
+$$
 
 with the Mars-transportation requirement dominating the other requirements in the stringency ordering, so that satisfying the Mars-transportation requirement automatically satisfies the downstream requirements.
 
 The application-yield trajectory across the development horizon takes the form
 
-$$Y^{\text{application}}_i(t) = \sum_{a \in A^{\text{active}}(t)} r^{\text{revenue}}(a, t)$$
+$$
+Y^{\text{application}}_i(t) = \sum_{a \in A^{\text{active}}(t)} r^{\text{revenue}}(a, t)
+\tag{11}
+$$
 
 with the active-application set expanding across the development horizon as the capability configuration matures.
 
 The spillover coefficient across the applications can be written as
 
-$$\sigma^{\text{spillover}}_{a \to a'} = \frac{\Delta K^{\text{a'}}_{\text{from a}}}{K^{\text{a}}_{\text{total}}}$$
+$$
+\sigma^{\text{spillover}}_{a \to a'} = \frac{\Delta K^{\text{a'}}_{\text{from a}}}{K^{\text{a}}_{\text{total}}}
+\tag{12}
+$$
 
 with substantial spillover coefficients across the Falcon 9 to Falcon Heavy to Starship, and across the launch-service to Starlink to defense-service application boundaries.
 
 The excess capability that the dominating requirement produces admits direct definition as the slack set
 
-$$S = K^{\text{configured}} \setminus \bigcup_{a \in A^{\text{served}}} K^{\text{necessary}}(a)$$
+$$
+S = K^{\text{configured}} \setminus \bigcup_{a \in A^{\text{served}}} K^{\text{necessary}}(a)
+\tag{13}
+$$
 
 collecting the capability elements that the configuration possesses and that no currently served application exercises. The slack set is the object on which the generality-forcing argument turns, because an empty slack set indicates a configuration sized exactly to its served applications and therefore incapable of absorbing a new application without a new development program. The Space Shuttle configuration exhibited a nonempty slack set that was never exercised, which establishes that a nonempty slack set is necessary but not sufficient for the generality-forcing outcome.
 
 The cost of maintaining the slack has the form
 
-$$C^{\text{generality}} = C^{\text{configured}} - C^{\text{minimal}}(A^{\text{served}})$$
+$$
+C^{\text{generality}} = C^{\text{configured}} - C^{\text{minimal}}(A^{\text{served}})
+\tag{14}
+$$
 
 with the generality cost equal to the difference between the realized development-and-operating cost and the cost of a hypothetical configuration sized minimally to the served application set. The generality-forcing condition is economically rational when
 
-$$C^{\text{generality}} \leq \sum_{a \in A^{\text{potential}}} p(a) \cdot \left[ V^{\text{application}}(a) - C^{\text{residual}}(a) \right]$$
+$$
+C^{\text{generality}} \leq \sum_{a \in A^{\text{potential}}} p(a) \cdot \left[ V^{\text{application}}(a) - C^{\text{residual}}(a) \right]
+\tag{15}
+$$
 
 with $p(a)$ the probability that the potential application materializes. The inequality states that the overspecification is warranted when the probability-weighted value of the applications the slack makes reachable exceeds the cost of carrying it. The inequality is the formal content of the claim that generality-forcing is an investment rather than a waste, and it is the inequality the Saturn V and Space Shuttle cases violate.
 
@@ -137,25 +182,37 @@ The generality-forcing property permits characterization from several disciplina
 
 The requirements-engineering tradition traces from [Nuseibeh and Easterbrook 2000][research_nuseibeh_easterbrook_2000] Requirements Engineering A Roadmap through [Sommerville and Sawyer 1997][book_sommerville_sawyer_1997] Requirements Engineering A Good Practice Guide, [Robertson and Robertson 2012][book_robertson_robertson_2012] Mastering the Requirements Process, and the [INCOSE Systems Engineering Handbook][ref_incose_handbook]. The framing treats the generality-forcing property through the requirements-selection and requirements-decomposition processes that determine the downstream capability configuration and application-domain generality. The requirement-coverage-index may be written
 
-$$RC_i = \frac{|R^{\text{configured}}_i \cap R^{\text{application-set}}|}{|R^{\text{application-set}}|}$$
+$$
+RC_i = \frac{|R^{\text{configured}}_i \cap R^{\text{application-set}}|}{|R^{\text{application-set}}|}
+\tag{16}
+$$
 
 with $RC_i$ approaching unity indicating comprehensive requirement-coverage across the application set.
 
 The general-purpose-technology tradition traces from [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] General Purpose Technologies Engines of Growth through [Lipsey et al. 2005][book_lipsey_carlaw_bekar_2005] Economic Transformations General Purpose Technologies and Long-Term Economic Growth, [David 1990][research_david_1990] The Dynamo and the Computer, and [Rosenberg and Trajtenberg 2001][research_rosenberg_trajtenberg_2004] A General-Purpose Technology at Work. The framing treats the generality-forcing property through the general-purpose-technology configuration that produces the cross-sector spillover through the downstream application enabling. The SpaceX Starship configuration approaches the general-purpose-technology profile in the space-transportation domain analogous to the steam-engine, electricity, information-technology, and biotechnology general-purpose-technology profiles in the broader economic history. The general-purpose-technology-index yields the compact form
 
-$$GPT_i = f(P^{\text{pervasiveness}}, C^{\text{complementary-innovation}}, I^{\text{improvement-potential}})$$
+$$
+GPT_i = f(P^{\text{pervasiveness}}, C^{\text{complementary-innovation}}, I^{\text{improvement-potential}})
+\tag{17}
+$$
 
 with the three factor-inputs indexing pervasiveness across applications, complementary-innovation stimulation, and improvement-potential.
 
 The dominant-design tradition traces from [Utterback 1994][book_utterback_1994] Mastering the Dynamics of Innovation through [Anderson and Tushman 1990][research_anderson_tushman_1990] Technological Discontinuities and Dominant Designs, [Suárez and Utterback 1995][research_suarez_utterback_1995] Dominant Designs and the Survival of Firms, and [Murmann and Frenken 2006][research_murmann_frenken_2006] Toward a Systematic Framework for Research on Dominant Designs. The framing treats the generality-forcing property through the dominant-design-emergence configuration that consolidates the capability arrangement into the industry-standard baseline. The design-concentration index takes the form
 
-$$D(t) = \max_{d \in \mathcal{D}} \; \frac{n^{\text{missions}}_d(t)}{\sum_{d' \in \mathcal{D}} n^{\text{missions}}_{d'}(t)}$$
+$$
+D(t) = \max_{d \in \mathcal{D}} \; \frac{n^{\text{missions}}_d(t)}{\sum_{d' \in \mathcal{D}} n^{\text{missions}}_{d'}(t)}
+\tag{18}
+$$
 
 with $\mathcal{D}$ the set of competing architectural configurations and the dominant design declared once $D(t)$ exceeds a threshold sustained across an interval. The SpaceX Falcon 9 reusable configuration approaches the dominant-design profile in the commercial-launch-service segment. The relationship between the dominant-design framing and the generality-forcing condition is that dominance is measured over a single segment whereas generality is measured across segments, so a configuration may achieve the former without the latter.
 
 The architectural-innovation tradition traces from [Henderson and Clark 1990][research_henderson_clark_1990] Architectural Innovation The Reconfiguration of Existing Product Technologies through [Christensen and Rosenbloom 1995][research_christensen_rosenbloom_1995] Explaining the Attackers Advantage and [Abernathy and Clark 1985][research_abernathy_clark_1985] Innovation Mapping the Winds of Creative Destruction. The framing treats the generality-forcing property through the architectural-configuration decision that determines the downstream innovation trajectory and application-domain generality. The innovation classification the tradition provides partitions the change space along two axes and can be written as
 
-$$\iota = \left( \Delta K^{\text{component}}, \; \Delta K^{\text{architecture}} \right) \in \{\text{low}, \text{high}\}^2$$
+$$
+\iota = \left( \Delta K^{\text{component}}, \; \Delta K^{\text{architecture}} \right) \in \{\text{low}, \text{high}\}^2
+\tag{19}
+$$
 
 with the incremental, modular, architectural, and radical categories occupying the four cells. The SpaceX capability configuration occupies the high-high cell relative to the expendable-vehicle baseline, because the propulsive-recovery capability changes both the component set and the relations among components. The placement matters for the generality argument because architectural change is the category that reallocates capability across application boundaries, whereas component change tends to remain confined to the application for which the component was improved.
 
@@ -163,13 +220,19 @@ The requirements-flow-down tradition from the aerospace-engineering domain trace
 
 The technology-strategy tradition traces from [Kaplan and Norton 2001][book_kaplan_norton_2001] The Strategy-Focused Organization through [Anthony 2007][book_anthony_2007] Mapping Your Innovation Strategy and [Pisano 2015][research_pisano_2015] You Need an Innovation Strategy. The framing treats the generality-forcing property through the technology-strategy formulation that aligns the primary-mission-requirement stack with the adjacent-application opportunity set. The alignment measure has the form
 
-$$A^{\text{align}} = \frac{\left| R^{\text{primary}} \cap \bigcup_{a \in A} R^{\text{necessary}}(a) \right|}{\left| R^{\text{primary}} \right|}$$
+$$
+A^{\text{align}} = \frac{\left| R^{\text{primary}} \cap \bigcup_{a \in A} R^{\text{necessary}}(a) \right|}{\left| R^{\text{primary}} \right|}
+\tag{20}
+$$
 
 with the measure approaching unity when every primary requirement also serves at least one adjacent application and approaching zero when the primary requirement stack is orthogonal to the adjacent opportunity set. The measure is distinct from the coverage ratio the mapping-problem section defines, because coverage asks what fraction of applications the configuration serves whereas alignment asks what fraction of the primary requirement stack does any adjacent work at all. A configuration can exhibit high coverage and low alignment when a small subset of the primary requirements carries the entire adjacent benefit.
 
 The mission-oriented-innovation tradition traces from [Mazzucato 2013][book_mazzucato_2013] The Entrepreneurial State through [Mazzucato 2021][book_mazzucato_2021] Mission Economy, [Ruttan 2006][book_ruttan_2006] Is War Necessary for Economic Growth, and [Weiss 2014][book_weiss_2014] America Inc. The framing treats the generality-forcing property through the mission-oriented-innovation configuration in which the primary-mission requirements drive the capability arrangement that generalizes across the adjacent applications. The mission-directedness of a requirement admits the compact indicator
 
-$$\delta(r) = \mathbb{1}\!\left[ r \in R^{\text{necessary}}(\text{primary}) \right] \cdot \mathbb{1}\!\left[ r \notin \bigcup_{a \in A^{\text{served}}} R^{\text{necessary}}(a) \right]$$
+$$
+\delta(r) = \mathbb{1}\!\left[ r \in R^{\text{necessary}}(\text{primary}) \right] \cdot \mathbb{1}\!\left[ r \notin \bigcup_{a \in A^{\text{served}}} R^{\text{necessary}}(a) \right]
+\tag{21}
+$$
 
 taking the value unity for a requirement that the primary mission demands and that no currently served application demands. The sum $\sum_{r} \delta(r)$ counts the requirements that admit no market derivation and therefore constitutes the direct measure of mission-directedness that the article's identification strategy depends on. The in-space-refueling requirement is the principal element of the set for the SpaceX case at the drafting date.
 
@@ -195,7 +258,10 @@ The 2001 Mars Oasis concept proposed landing a small greenhouse payload on the M
 
 The pivot can be stated as
 
-$$M^{\text{objective}} \longrightarrow R^{\text{primary}} \longrightarrow K^{\text{configured}} \longrightarrow A^{\text{covered}}$$
+$$
+M^{\text{objective}} \longrightarrow R^{\text{primary}} \longrightarrow K^{\text{configured}} \longrightarrow A^{\text{covered}}
+\tag{22}
+$$
 
 with the mission objective generating the primary requirement stack, the requirement stack generating the capability configuration, and the capability arrangement generating the covered-application set. The generality-forcing property is a property of the composite mapping rather than of any single stage.
 
@@ -207,19 +273,28 @@ The September 29 2017 Making Life Multi-Planetary revision at the 68th Internati
 
 The scale reduction allows compact expression as a vector of ratios across the configuration parameters
 
-$$\left( \frac{d_{2017}}{d_{2016}}, \; \frac{n^{\text{engines}}_{2017}}{n^{\text{engines}}_{2016}}, \; \frac{m^{\text{payload}}_{2017}}{m^{\text{payload}}_{2016}} \right) \approx \left( 0.75, \; 0.74, \; 0.50 \right)$$
+$$
+\left( \frac{d_{2017}}{d_{2016}}, \; \frac{n^{\text{engines}}_{2017}}{n^{\text{engines}}_{2016}}, \; \frac{m^{\text{payload}}_{2017}}{m^{\text{payload}}_{2016}} \right) \approx \left( 0.75, \; 0.74, \; 0.50 \right)
+\tag{23}
+$$
 
 with the diameter and engine count reduced by approximately one quarter and the reusable payload capability reduced by approximately one half. The payload ratio falls faster than the linear-dimension ratio because the delivered mass scales with the vehicle volume net of the structural and propellant fractions rather than with the diameter directly. The asymmetry is what made the reduction affordable in mission terms, because the mission requirement is satisfiable at the reduced payload through an increased flight count per transfer window whereas the development cost scales more nearly with the linear dimension.
 
 The analytical significance of the 2017 revision is that the downsizing was undertaken in order that the adjacent-application revenue could finance the primary-mission development. The 2016 configuration was sized to the primary mission alone and admitted no financing path. The 2017 configuration was sized to the intersection of the primary-mission requirement and the adjacent-application requirement sets, and thereby admitted the self-financing path that the [Value Capture article A284][related_post_a284_spacex_value_capture] treats through the Starlink revenue channel. The sizing decision may be written
 
-$$s^{\ast} = \arg\max_{s} \left[ \sum_{a \in A(s)} V^{\text{application}}(a) - C^{\text{development}}(s) \right] \quad \text{subject to} \quad K(s) \supseteq K^{\text{necessary}}(\text{Mars})$$
+$$
+s^{\ast} = \arg\max_{s} \left[ \sum_{a \in A(s)} V^{\text{application}}(a) - C^{\text{development}}(s) \right] \quad \text{subject to} \quad K(s) \supseteq K^{\text{necessary}}(\text{Mars})
+\tag{24}
+$$
 
 with the vehicle scale selected to maximize the net adjacent-application value subject to the binding constraint that the configuration continue to satisfy the primary-mission requirement. The constraint distinguishes the generality-forcing configuration from the commercial-optimization arrangement that would relax the primary-mission constraint whenever the constraint reduced the near-term commercial return.
 
 The self-financing condition that the 2017 sizing decision sought allows the brief form
 
-$$\sum_{a \in A(s)} \pi^{\text{application}}(a, t) \; \geq \; \frac{d}{dt} C^{\text{development}}(s, t) \qquad \forall t \in [t_0, t^{\text{primary-mission}}]$$
+$$
+\sum_{a \in A(s)} \pi^{\text{application}}(a, t) \; \geq \; \frac{d}{dt} C^{\text{development}}(s, t) \qquad \forall t \in [t_0, t^{\text{primary-mission}}]
+\tag{25}
+$$
 
 with the adjacent-application profit flow required to cover the development expenditure rate across the entire interval separating the sizing decision from the primary-mission execution. The condition is what the 2016 configuration failed and the 2017 arrangement was sized to satisfy. The condition also identifies the structural vulnerability of the arrangement, because an interruption in the adjacent-application profit flow halts the primary-mission capability accumulation without any external party having decided to halt it.
 
@@ -227,7 +302,10 @@ The November 2018 renaming of the vehicle configuration to the Starship upper-st
 
 The requirement-stability index across the articulation sequence takes the form
 
-$$\Sigma^{\text{requirement-stability}} = \frac{|R^{\text{2016}} \cap R^{\text{drafting-date}}|}{|R^{\text{2016}} \cup R^{\text{drafting-date}}|}$$
+$$
+\Sigma^{\text{requirement-stability}} = \frac{|R^{\text{2016}} \cap R^{\text{drafting-date}}|}{|R^{\text{2016}} \cup R^{\text{drafting-date}}|}
+\tag{26}
+$$
 
 with the index approaching unity when the requirement stack persists across the articulation sequence and approaching zero when the requirement stack is repeatedly reconstituted. The SpaceX case exhibits a substantial index value because the full-reusability, in-space-refueling, methane-and-liquid-oxygen propellant, propulsive-landing, and high-cadence requirements persist across the 2016 through drafting-date articulations while the vehicle-scale parameters vary. The persistence of the requirement stack under the varying vehicle scale is the empirical signature that distinguishes a mission-directed requirement stack from a commercially-derived requirement stack.
 
@@ -241,7 +319,10 @@ The mission-cost requirement is approximately 140,000 dollars per metric ton del
 
 The launch-cadence requirement is approximately 1,000 launches per Mars-transfer-window across the approximately 780-day Mars-Earth synodic period, corresponding to approximately 500 launches per Earth year. The requirement drives the rapid-turnaround reusability configuration and the factory-throughput arrangement. The cadence requirement decomposes across the departing-ship count and the tanker sequence each departing ship demands, admitting the compact form
 
-$$n^{\text{launches per window}} = N^{\text{ships}} \cdot \left( 1 + n^{\text{tanker}} \right)$$
+$$
+n^{\text{launches per window}} = N^{\text{ships}} \cdot \left( 1 + n^{\text{tanker}} \right)
+\tag{27}
+$$
 
 with the factor $1 + n^{\text{tanker}}$ approximately 9 to 13 under the refueling requirement stated below. The decomposition establishes that the cadence requirement is not an independent requirement but a consequence of the refueling architecture, and that any architecture avoiding in-space refueling would face a substantially smaller cadence requirement at the cost of a substantially larger vehicle.
 
@@ -255,19 +336,28 @@ The in-situ-resource-utilization requirement supports the Mars-surface propellan
 
 The requirement-stack summary admits the compact identity form
 
-$$R^{\text{Mars}} = R^{\text{payload}} \cup R^{\text{cost}} \cup R^{\text{cadence}} \cup R^{\text{refueling}} \cup R^{\text{life-support}} \cup R^{\text{EDL}} \cup R^{\text{ISRU}}$$
+$$
+R^{\text{Mars}} = R^{\text{payload}} \cup R^{\text{cost}} \cup R^{\text{cadence}} \cup R^{\text{refueling}} \cup R^{\text{life-support}} \cup R^{\text{EDL}} \cup R^{\text{ISRU}}
+\tag{28}
+$$
 
 with the union of the seven requirement categories constituting the comprehensive Mars-transportation requirement configuration.
 
 The velocity-budget basis for the requirement dominance admits treatment through the rocket equation that [Sutton and Biblarz 2016][book_sutton_biblarz_2016] Rocket Propulsion Elements and [Humble et al. 1995][book_humble_henry_larson_1995] Space Propulsion Analysis and Design develop, and through the mission-analysis apparatus that [Curtis 2013][book_curtis_2013] Orbital Mechanics for Engineering Students, [Prussing and Conway 2013][book_prussing_conway_2013] Orbital Mechanics, and [Wertz and Larson 1999][book_larson_wertz_1999] Space Mission Analysis and Design develop. The ideal velocity increment can be written as
 
-$$\Delta v = I_{sp} \, g_0 \ln\!\left(\frac{m_0}{m_f}\right)$$
+$$
+\Delta v = I_{sp} \, g_0 \ln\!\left(\frac{m_0}{m_f}\right)
+\tag{29}
+$$
 
 with $I_{sp}$ the specific impulse, $g_0$ the standard gravitational acceleration, and the mass ratio determining the achievable velocity increment. The mission velocity budgets order approximately as an increasing sequence from the low-Earth-orbit insertion at approximately 9.4 kilometers per second including losses, through the geostationary-transfer injection at approximately 2.4 kilometers per second beyond low Earth orbit, through the trans-lunar injection at approximately 3.1 kilometers per second beyond low Earth orbit, through the lunar-descent-and-ascent segments at approximately 4.0 kilometers per second combined, to the trans-Mars injection and the Mars entry-descent-landing segments. The ordering establishes that a configuration sized to deliver a payload mass to the Mars surface delivers a substantially larger payload mass to each nearer destination, which is the physical basis for the dominance ordering the preceding section states.
 
 The dominance ordering is not automatic. The ordering holds for the velocity-budget and payload-mass requirement dimensions but does not hold for every requirement dimension. The national-security-launch application imposes a responsiveness and orbital-accuracy requirement that the Mars-transportation requirement does not dominate. The commercial geostationary application imposes a payload-environment and mission-assurance requirement that the Mars-transportation requirement does not dominate. The crew-transport application imposes a human-rating certification requirement that the Mars-transportation requirement does not dominate in the regulatory sense even where it dominates in the engineering sense. The residual-requirement set has the form
 
-$$R^{\text{residual}}(a) = R^{\text{necessary}}(a) \setminus R^{\text{primary}}$$
+$$
+R^{\text{residual}}(a) = R^{\text{necessary}}(a) \setminus R^{\text{primary}}
+\tag{30}
+$$
 
 with the residual set collecting the requirements that the primary-mission requirement stack does not cover for the application $a$. The generality-forcing property is therefore properly stated as a dominance across the load-bearing requirement dimensions with a bounded residual rather than as a universal dominance. The empirical question for the SpaceX case is whether the residual sets are small enough that the incremental cost of covering them is small relative to the application value, and the evidence at the drafting date indicates that they are for the commercial-launch, constellation-deployment, and lunar-lander applications and that they are less clearly so for the national-security responsiveness and human-rating certification dimensions.
 
@@ -285,7 +375,10 @@ The geostationary-transfer-orbit application admits the reusable-launch capabili
 
 The reusable-launch generalization-index may be written
 
-$$G^{\text{reusable}} = |A^{\text{reusable-launch-served}}| / |A^{\text{launch-application-total}}| \approx 0.90$$
+$$
+G^{\text{reusable}} = |A^{\text{reusable-launch-served}}| / |A^{\text{launch-application-total}}| \approx 0.90
+\tag{31}
+$$
 
 reflecting the approximately 90 percent application-coverage across the launch-application space at the drafting date.
 
@@ -293,17 +386,26 @@ The causal direction of the reusable-launch generalization permits examination a
 
 The amortization identity that governs the reusable configuration takes the compact form
 
-$$c^{\text{per-mission}} = \frac{C^{\text{vehicle}}}{n^{\text{flights}}} + c^{\text{refurbishment}} + c^{\text{propellant}} + c^{\text{operations}}$$
+$$
+c^{\text{per-mission}} = \frac{C^{\text{vehicle}}}{n^{\text{flights}}} + c^{\text{refurbishment}} + c^{\text{propellant}} + c^{\text{operations}}
+\tag{32}
+$$
 
 with the per-mission cost decreasing in the flight count per vehicle and asymptotically approaching the sum of the recurring terms. The Falcon 9 Block 5 configuration has demonstrated per-booster flight counts substantially exceeding the approximately 10-flight design objective the 2018 introduction stated, with individual boosters exceeding approximately 20 flights across the 2018 through drafting-date period as the [SpaceX Falcon 9 vehicle documentation][ref_spacex_falcon9_vehicle] document. The payload-fairing recovery and reuse program extends the amortization to the fairing hardware. The asymptotic behavior of the identity is what converts the reusability capability from a cost improvement into an application-enabling capability, because the Starlink deployment application and the Mars-transportation application both require a launch cost that lies below the expendable-configuration floor rather than merely below the incumbent price. The flight count at which the reusable configuration attains parity with the expendable arrangement follows from setting the two per-mission costs equal and takes the form
 
-$$n^{\ast} = \frac{C^{\text{vehicle}}_{\text{reusable}}}{C^{\text{vehicle}}_{\text{expendable}} - c^{\text{refurbishment}}}$$
+$$
+n^{\ast} = \frac{C^{\text{vehicle}}_{\text{reusable}}}{C^{\text{vehicle}}_{\text{expendable}} - c^{\text{refurbishment}}}
+\tag{33}
+$$
 
 with the breakeven count finite only when the refurbishment cost falls below the expendable vehicle cost. The denominator condition is the reason the reusability question is empirical rather than definitional, because a recovery capability that returns a vehicle requiring refurbishment more expensive than replacement reduces rather than improves the economics. The reusable configuration also sacrifices a fraction of the payload capability to the recovery propellant and hardware, so the comparison at equal delivered mass is less favorable than the per-flight comparison the identity states.
 
 The learning-curve apparatus that [Wright 1936][research_wright_1936] Factors Affecting the Cost of Airplanes introduced and that [Argote and Epple 1990][research_argote_epple_1990] Learning Curves in Manufacturing and [Argote 1999][book_argote_1999] Organizational Learning develop applies to the refurbishment-cost term rather than to the unit-production-cost term alone, because the reusable configuration shifts the dominant cost driver from the manufacturing operation to the inspection-and-refurbishment operation. The progress function can be written as
 
-$$c^{\text{refurbishment}}_n = c^{\text{refurbishment}}_1 \cdot n^{-b}, \qquad b = -\frac{\log_2 \lambda}{1}$$
+$$
+c^{\text{refurbishment}}_n = c^{\text{refurbishment}}_1 \cdot n^{-b}, \qquad b = -\frac{\log_2 \lambda}{1}
+\tag{34}
+$$
 
 with $n$ the cumulative refurbishment count and $\lambda$ the progress ratio giving the fraction by which the unit cost falls across each doubling of cumulative volume. The relocation of the learning to the refurbishment operation has a consequence for the generality argument, because refurbishment volume accumulates with the flight count across all applications jointly rather than separately within each application. The learning is therefore shared across the application set, which provides a mechanism by which serving additional applications lowers the cost of serving the existing ones. The shift is an instance of the general pattern that [Rosenberg 1982][book_rosenberg_1982] Inside the Black Box identifies under which a technological change relocates rather than merely reduces the binding cost constraint.
 
@@ -319,17 +421,26 @@ The defense payload-deployment application admits the mass-to-orbit-reduction ca
 
 The mass-to-orbit-reduction generalization-index has the form
 
-$$G^{\text{mass-to-orbit}} = \frac{m^{\text{payload}}_{\text{Starship}}}{m^{\text{payload}}_{\text{Falcon 9}}} \approx 5\text{ to }10$$
+$$
+G^{\text{mass-to-orbit}} = \frac{m^{\text{payload}}_{\text{Starship}}}{m^{\text{payload}}_{\text{Falcon 9}}} \approx 5\text{ to }10
+\tag{35}
+$$
 
 reflecting the approximately 5-to-10-fold payload-mass-capability increase from the Falcon 9 to the Starship configuration.
 
 The analytically substantive consequence of the mass-to-orbit-reduction capability is not the increase in the deliverable mass but the relaxation of the mass constraint that has governed spacecraft design across the entire history of the sector. The design-practice literature that [Wertz and Larson 1999][book_larson_wertz_1999] Space Mission Analysis and Design and [Wertz et al. 2011][book_wertz_everett_puschell_2011] Space Mission Engineering codify treats the mass budget as the dominant binding constraint against which the structural, thermal, power, propulsion, and payload subsystems are jointly optimized. The relaxation of the constraint permits the substitution of inexpensive mass for expensive engineering, which is a factor substitution rather than a capability addition. The substitution may be written
 
-$$\min_{m, e} \left[ p^{\text{mass}} \cdot m + p^{\text{engineering}} \cdot e \right] \quad \text{subject to} \quad f(m, e) \geq q^{\text{required}}$$
+$$
+\min_{m, e} \left[ p^{\text{mass}} \cdot m + p^{\text{engineering}} \cdot e \right] \quad \text{subject to} \quad f(m, e) \geq q^{\text{required}}
+\tag{36}
+$$
 
 with the optimal factor mix shifting toward the mass input as the price of delivered mass falls. The shift is stated as an elasticity
 
-$$\varepsilon = \frac{\partial \ln (m / e)}{\partial \ln \left( p^{\text{engineering}} / p^{\text{mass}} \right)} > 0$$
+$$
+\varepsilon = \frac{\partial \ln (m / e)}{\partial \ln \left( p^{\text{engineering}} / p^{\text{mass}} \right)} > 0
+\tag{37}
+$$
 
 with the positive elasticity indicating that the mass-to-engineering input ratio rises as the relative price of delivered mass falls. The magnitude of the elasticity determines whether a launch-price reduction produces a proportional increase in the launched mass or a larger increase through the induced redesign of the payloads themselves. The consequence is that the mass-to-orbit-reduction capability generalizes not only to the applications that require large payloads but also to the applications that require inexpensive payloads, because the reduced delivered-mass price permits the payload designer to adopt commercial-grade components, higher structural margins, and redundant rather than highly-reliable subsystems. The Starlink satellite design that the [Value Capture article A284][related_post_a284_spacex_value_capture] treats is the realized instance of the substitution within the SpaceX portfolio.
 
@@ -347,13 +458,19 @@ The interplanetary-mission application supports the in-space-refueling capabilit
 
 The in-space-refueling generalization-index has the concise form
 
-$$G^{\text{refueling}} = |A^{\text{refueling-enabled}}| / |A^{\text{beyond-LEO}}|$$
+$$
+G^{\text{refueling}} = |A^{\text{refueling-enabled}}| / |A^{\text{beyond-LEO}}|
+\tag{38}
+$$
 
 with the coverage approaching unity across the beyond-low-Earth-orbit application space.
 
 The in-space-refueling capability is the requirement within the Mars-transportation stack whose generalization argument is strongest, because the capability has no commercial derivation. No commercial launch-service requirement, no constellation-deployment requirement, and no national-security-launch requirement at the drafting date demands a cryogenic propellant-transfer capability between orbiting vehicles. The capability is derivable only from a beyond-low-Earth-orbit mission requirement whose departure mass exceeds the single-launch delivery capability. The capability therefore constitutes the cleanest available discriminating evidence that the SpaceX capability configuration is driven by the Mars-transportation requirement stack rather than reconstructed post hoc from the commercially motivated engineering program. The evidential weight admits statement as a likelihood ratio
 
-$$\Lambda = \frac{P\!\left( \text{observe } r^{\text{refueling}} \mid H^{\text{mission-derived}} \right)}{P\!\left( \text{observe } r^{\text{refueling}} \mid H^{\text{market-derived}} \right)} \gg 1$$
+$$
+\Lambda = \frac{P\!\left( \text{observe } r^{\text{refueling}} \mid H^{\text{mission-derived}} \right)}{P\!\left( \text{observe } r^{\text{refueling}} \mid H^{\text{market-derived}} \right)} \gg 1
+\tag{39}
+$$
 
 with the numerator near unity because the mission hypothesis predicts the observation and the denominator near zero because no served market demands the capability. The ratio is the formal content of the identification argument the article relies on, and the structure of the argument is that the discriminating power of an observation comes from the improbability of the observation under the competing hypothesis rather than from its probability under the favored one. The ratio degrades over time if a commercial market for the propellant-transfer capability emerges, because the denominator would then rise.
 
@@ -361,11 +478,17 @@ The technical content of the requirement includes the propellant-settling proble
 
 The mission-architecture consequence of the capability takes the form
 
-$$m^{\text{departure}} = m^{\text{single-launch}} + \sum_{k=1}^{n^{\text{tanker}}} m^{\text{transferred}}_k - m^{\text{boil-off}}(t)$$
+$$
+m^{\text{departure}} = m^{\text{single-launch}} + \sum_{k=1}^{n^{\text{tanker}}} m^{\text{transferred}}_k - m^{\text{boil-off}}(t)
+\tag{40}
+$$
 
 with the departure mass accumulating across the tanker-flight sequence net of the boil-off loss across the accumulation interval. The boil-off term admits the compact exponential form
 
-$$m^{\text{propellant}}(t) = m^{\text{propellant}}_0 \, e^{-\lambda^{\text{boil-off}} t}, \qquad \lambda^{\text{boil-off}} = \frac{\dot{Q}}{m^{\text{propellant}}_0 \, h_{fg}}$$
+$$
+m^{\text{propellant}}(t) = m^{\text{propellant}}_0 \, e^{-\lambda^{\text{boil-off}} t}, \qquad \lambda^{\text{boil-off}} = \frac{\dot{Q}}{m^{\text{propellant}}_0 \, h_{fg}}
+\tag{41}
+$$
 
 with $\dot{Q}$ the net heat leak into the tank and $h_{fg}$ the latent heat of vaporization of the propellant. The form establishes that the accumulated propellant decays continuously while the tanker sequence executes, so the effective transferred mass is strictly less than the sum of the individual transfers and the shortfall grows with the sequence duration. The identity establishes the coupling between the refueling capability and the launch-cadence capability, because the boil-off term grows with the interval across which the tanker sequence executes. The coupling is the reason the Mars-transportation requirement stack cannot be decomposed into independently satisfiable requirements, and it is the reason a low-cadence provider cannot satisfy the refueling requirement at any per-launch cost. The coupling generalizes directly to the Human Landing System application, whose tanker sequence faces the identical constraint.
 
@@ -381,7 +504,10 @@ The commercial-crew polar-and-free-flyer application supports the life-support-i
 
 The life-support-integration generalization-index can be written as
 
-$$G^{\text{life-support}} = |A^{\text{crew-mission-served}}| / |A^{\text{crew-mission-total}}|$$
+$$
+G^{\text{life-support}} = |A^{\text{crew-mission-served}}| / |A^{\text{crew-mission-total}}|
+\tag{42}
+$$
 
 with substantial coverage across the low-Earth-orbit, lunar, and interplanetary crew-mission application space.
 
@@ -389,11 +515,17 @@ The life-support-integration generalization runs in the reverse direction from t
 
 The closure ratio has the form
 
-$$\eta^{\text{closure}} = 1 - \frac{\dot{m}^{\text{resupply}}}{\dot{m}^{\text{consumption}}}$$
+$$
+\eta^{\text{closure}} = 1 - \frac{\dot{m}^{\text{resupply}}}{\dot{m}^{\text{consumption}}}
+\tag{43}
+$$
 
 with the closure ratio approaching unity as the resupply requirement approaches zero. The consumable mass a mission must carry follows directly from the closure ratio and may be written
 
-$$m^{\text{consumables}} = \dot{m}^{\text{per-crew}} \cdot N^{\text{crew}} \cdot T^{\text{mission}} \cdot \left( 1 - \eta^{\text{closure}} \right)$$
+$$
+m^{\text{consumables}} = \dot{m}^{\text{per-crew}} \cdot N^{\text{crew}} \cdot T^{\text{mission}} \cdot \left( 1 - \eta^{\text{closure}} \right)
+\tag{44}
+$$
 
 with the carried mass falling linearly in the closure ratio and rising linearly in the crew count and the mission duration. The product $N^{\text{crew}} \cdot T^{\text{mission}}$ for a Mars transit exceeds the corresponding product for a low-Earth-orbit crew rotation by approximately two orders of magnitude, which is the reason the closure requirement binds for the former and does not bind for the latter. The low-Earth-orbit crew-transport application operates at a low closure ratio because the mission duration is short and the resupply is available. The Mars-transit application requires a closure ratio approaching unity across the transit duration. The gap between the realized and required closure ratios is the largest open technical gap within the Mars-transportation requirement stack at the drafting date, and it is the requirement dimension along which the generality-forcing claim is weakest.
 
@@ -405,7 +537,10 @@ The Human Landing System Artemis application admits the comprehensive generality
 
 The HLS Starship configuration requires the approximately 150-metric-ton dry-mass lunar-lander arrangement that supports the approximately 100-metric-ton payload to the lunar surface. The configuration requires the in-space-refueling capability across approximately 10 tanker-Starship flights to enable the lunar-descent-and-ascent trajectory. The tanker count follows from the mission velocity budget through the rocket equation and admits the compact form
 
-$$n^{\text{tanker}} = \left\lceil \frac{m^{\text{dry}} \left( e^{\Delta v^{\text{mission}} / I_{sp} g_0} - 1 \right) - m^{\text{propellant}}_{\text{residual}}}{m^{\text{transferred per tanker}}} \right\rceil$$
+$$
+n^{\text{tanker}} = \left\lceil \frac{m^{\text{dry}} \left( e^{\Delta v^{\text{mission}} / I_{sp} g_0} - 1 \right) - m^{\text{propellant}}_{\text{residual}}}{m^{\text{transferred per tanker}}} \right\rceil
+\tag{45}
+$$
 
 with the numerator giving the propellant mass the mission velocity budget demands net of the propellant remaining after the lander reaches its staging orbit. The count is sensitive to the dry mass through the exponential factor, so a dry-mass growth during development propagates into the tanker count more than proportionally and thereby into the launch-cadence and schedule requirements. The sensitivity is the principal technical reason the published tanker-count estimates have varied across the program period. The configuration is documented in the [NASA HLS solicitation][ref_nasa_hls_solicitation], the [NASA Human Landing System program documentation][ref_nasa_hls_program], the [NASA HLS Option A Award April 16 2021][ref_nasa_hls_option_a_2021], and the [NASA HLS Option B Award November 15 2022][ref_nasa_hls_option_b_2022].
 
@@ -413,13 +548,19 @@ The HLS-derived capability generalization permits the bidirectional transfer. Th
 
 The analytical significance of the HLS award exceeds its contract value. The award constitutes the first external institutional validation that the Mars-derived capability configuration satisfies an adjacent-mission requirement set that the anchor customer specified independently. The validation is external in the sense that the NASA source-selection process evaluated the SpaceX proposal against the requirement set the agency articulated for the Artemis lunar-surface mission rather than against a requirement set the provider articulated. The generality-forcing condition asserts that a capability configuration derived from a dominating primary requirement will satisfy independently specified adjacent requirements, and the HLS source selection is the closest available approximation to a test of the assertion. The source-selection statement identified the payload-mass capability, the proposed price, and the technical approach as the decisive factors, with the price differential relative to the competing proposals substantially attributable to the reusability and launch-cost configuration that the primary requirement stack produced. The best-value selection rule takes the form
 
-$$j^{\ast} = \arg\max_{j} \left[ w^{\text{technical}} \cdot q_j + w^{\text{management}} \cdot m_j - w^{\text{price}} \cdot P_j \right] \quad \text{subject to} \quad \sum_{j \in J} P_j \leq B^{\text{appropriated}}$$
+$$
+j^{\ast} = \arg\max_{j} \left[ w^{\text{technical}} \cdot q_j + w^{\text{management}} \cdot m_j - w^{\text{price}} \cdot P_j \right] \quad \text{subject to} \quad \sum_{j \in J} P_j \leq B^{\text{appropriated}}
+\tag{46}
+$$
 
 with the budget constraint binding at the Option A stage and reducing the selected provider set from the two the agency had sought to one. The competitive-negotiation procedure under which the selection proceeded is governed by the [Federal Acquisition Regulation Part 15][ref_far_part_15] and the [NASA FAR Supplement][ref_nasa_far_supplement]. The constraint is analytically important because it converts the price term from a weighted preference into a feasibility condition, and a provider whose primary-mission-derived cost structure places its proposal inside the appropriated budget wins on a margin unavailable to a provider whose proposal falls outside it regardless of the technical scores.
 
 The award sequence also exposes the limits of the validation. The approximately 2.89 billion dollar Option A award of April 16 2021 was protested to the Government Accountability Office, and the [GAO 2021 protest decision][ref_gao_blue_origin_hls_protest_2021] denied the protest. The subsequent litigation in the United States Court of Federal Claims documented in the [United States Court of Federal Claims record][ref_uscfc] concluded without disturbing the award. The November 15 2022 Option B award extended the contract to a second crewed demonstration mission. The 2023 sustaining-lander award to a second provider documented in the [NASA HLS sustaining award announcement][ref_nasa_hls_sustainable_2023] established the dual-provider configuration that the agency had sought at the Option A stage and had been unable to fund. The Artemis III mission date has moved repeatedly across the award period, and the schedule movement is attributable in substantial part to the in-space-refueling development that the architecture requires. The schedule exposure is the cost of the generality-forcing configuration, because the arrangement commits the adjacent application to the development timeline of the primary-mission capability rather than to an application-minimal structure. The coupling can be written as
 
-$$t^{\text{ready}}(a) = \max\left\{ t^{\text{application-specific}}(a), \; t^{\text{primary-capability}} \right\}$$
+$$
+t^{\text{ready}}(a) = \max\left\{ t^{\text{application-specific}}(a), \; t^{\text{primary-capability}} \right\}
+\tag{47}
+$$
 
 with the application readiness date governed by whichever of the two development paths completes later. The identity states the general tradeoff the generality-forcing configuration imposes. The configuration reduces the cost of serving each application through the shared capability, and it simultaneously couples the schedules of all applications to the slowest shared element. The tradeoff is favorable when the shared element is on the critical path for the primary mission in any case and unfavorable when an adjacent application could have been served earlier by a dedicated minimal configuration. The program-evaluation record in the [NASA Office of Inspector General 2021 Human Landing System evaluation][ref_nasa_oig_hls_2021] and the [GAO 2022 Human Landing System evaluation][ref_gao_hls_2022] documents the exposure.
 
@@ -433,13 +574,19 @@ The Starlink revenue realization approaches approximately 15 billion dollars in 
 
 The Starlink application occupies a distinguished position within the generality-forcing analysis because the relationship between the application and the primary mission runs in both directions. The forward direction is the ordinary generalization in which the launch-cadence and launch-cost capability that the Mars requirement stack produced enables a constellation-deployment economics that no competing provider can match. The constellation-deployment requirement is a cadence requirement rather than a per-launch-capability requirement, because the constellation requires the deployment of thousands of satellites within the interval before the earliest deployed satellites reach the end of their operational life. The replenishment identity has the form
 
-$$n^{\text{launches per year}} \geq \frac{N^{\text{constellation}}}{L^{\text{satellite lifetime}} \cdot n^{\text{satellites per launch}}}$$
+$$
+n^{\text{launches per year}} \geq \frac{N^{\text{constellation}}}{L^{\text{satellite lifetime}} \cdot n^{\text{satellites per launch}}}
+\tag{48}
+$$
 
 with the required cadence increasing in the constellation size and decreasing in the satellite operational life and the per-launch batch size. The approximately 5-year Starlink satellite operational life and the constellation size at the drafting date impose a sustained replenishment cadence that is itself of the order of the total historical launch rate of the global sector before the Falcon 9 operational period. The cadence requirement is therefore not satisfiable by any configuration that the Mars requirement stack did not produce.
 
 The reverse direction is the financing relationship. The Starlink revenue funds the Starship development, which is the capability the primary mission requires. The reverse direction converts the generality-forcing configuration from a one-way spillover into a closed loop in which the adjacent application finances the primary-mission capability that produced it. The loop may be written
 
-$$\frac{dK^{\text{primary}}}{dt} = f\!\left(\sum_{a \in A} \pi^{\text{application}}(a, t)\right)$$
+$$
+\frac{dK^{\text{primary}}}{dt} = f\!\left(\sum_{a \in A} \pi^{\text{application}}(a, t)\right)
+\tag{49}
+$$
 
 with the rate of primary-mission capability accumulation determined by the adjacent-application profit flow. The loop is the structural feature that distinguishes the SpaceX configuration from the state-funded mission-directed programs that the negation cases below treat, because the state-funded programs accumulate primary-mission capability at a rate determined by the appropriation process rather than by a self-generated revenue flow. The loop also introduces the hazard the closing sub-property of the pattern-extraction section identifies, which is that the adjacent application may capture the organizational attention and the capital allocation that the primary mission requires. The hazard is not hypothetical, and the evidence available at the drafting date does not resolve whether the SpaceX configuration will sustain the primary-mission commitment under the pressure.
 
@@ -453,13 +600,19 @@ The Starshield application admits the defense-satellite-constellation configurat
 
 The national-security application is the application within which the residual-requirement set that the requirement-stack section identifies is largest. The Mars-transportation requirement stack does not dominate the national-security requirement dimensions of launch responsiveness, orbital-placement accuracy for reference orbits including the direct-geostationary-insertion and Molniya profiles, payload-processing security, supply-chain provenance, and mission-assurance documentation. The residual requirements were satisfied through the certification process rather than through the primary-mission capability, and the certification process consumed a multi-year interval and substantial dedicated investment across the 2015 through drafting-date period. The certification investment is a fixed cost amortized across the missions the certification unlocks, admitting the compact form
 
-$$c^{\text{certification per mission}} = \frac{C^{\text{certification}}}{n^{\text{certified missions}}}$$
+$$
+c^{\text{certification per mission}} = \frac{C^{\text{certification}}}{n^{\text{certified missions}}}
+\tag{50}
+$$
 
 with the per-mission burden falling as the certified-mission count accumulates. The structure explains why the certification barrier operates asymmetrically across providers. A provider already operating a high commercial cadence spreads the fixed certification cost across a large mission base, whereas a provider whose only missions are the certified ones carries the full burden on each. The generality-forcing configuration therefore lowers the effective certification barrier as a second-order consequence of the commercial cadence it produces. The certification history therefore constitutes evidence for the bounded rather than the universal reading of the generality-forcing condition. The bounded reading holds that the primary-mission capability configuration reduces but does not eliminate the application-investment, and the relevant comparison is between the residual investment and the investment a provider without the primary-mission capability would require.
 
 The residual-investment ratio permits the concise form
 
-$$\lambda(a) = \frac{C^{\text{application-specific}}(a)}{C^{\text{total capability}}(a)}$$
+$$
+\lambda(a) = \frac{C^{\text{application-specific}}(a)}{C^{\text{total capability}}(a)}
+\tag{51}
+$$
 
 with the ratio approaching zero when the primary-mission capability covers the application requirement and approaching unity when the application requires a dedicated capability development. The SpaceX national-security-launch application exhibits an intermediate ratio, the commercial launch-service and constellation-deployment applications exhibit low ratios, and the crew-transport application exhibits a higher ratio reflecting the human-rating certification burden.
 
@@ -471,7 +624,10 @@ The geostationary satellite deployment revenue realizes approximately 3 billion 
 
 The geostationary application is analytically informative because it is the application in which the generality-forcing configuration produced the smallest structural advantage and the largest realized market-share shift. The structural advantage is small because the geostationary payload mass has historically fallen well within the single-launch capability of the incumbent expendable vehicles, so the mass-to-orbit-reduction capability confers no enabling benefit. The realized shift was nonetheless large because the price reduction that the reusability capability permitted was sufficient to move the procurement decisions of the commercial operators, whose procurement is price-sensitive in a way that the institutional customers are not. The pattern establishes that a capability configuration derived from a dominating mission requirement can capture an adjacent application through the cost channel alone even where the capability channel confers no advantage. The decomposition of the realized share shift into the two channels takes the form
 
-$$\Delta s = \underbrace{\frac{\partial s}{\partial P} \, \Delta P}_{\text{cost channel}} + \underbrace{\frac{\partial s}{\partial q} \, \Delta q}_{\text{capability channel}}$$
+$$
+\Delta s = \underbrace{\frac{\partial s}{\partial P} \, \Delta P}_{\text{cost channel}} + \underbrace{\frac{\partial s}{\partial q} \, \Delta q}_{\text{capability channel}}
+\tag{52}
+$$
 
 with the geostationary segment exhibiting a share shift dominated by the first term and the constellation-deployment application exhibiting a shift dominated by the second. The decomposition supplies a practical diagnostic, because the two channels imply different durabilities. A share captured through the cost channel is contestable by any competitor achieving a comparable cost structure, whereas a share captured through the capability channel is contestable only by a competitor achieving the capability itself.
 
@@ -485,19 +641,28 @@ The analytical interest of the case is that the Space Shuttle requirement set wa
 
 The distinction the case establishes is between a requirement stack constructed as a union of constituency requirements and a requirement stack constructed as a dominating requirement. The two constructions admit the compact contrast
 
-$$R^{\text{union}} = \bigcup_{c \in C} R^{\text{constituency}}(c) \qquad \text{versus} \qquad R^{\text{dominant}} \succeq R^{\text{necessary}}(a) \quad \forall a \in A$$
+$$
+R^{\text{union}} = \bigcup_{c \in C} R^{\text{constituency}}(c) \qquad \text{versus} \qquad R^{\text{dominant}} \succeq R^{\text{necessary}}(a) \quad \forall a \in A
+\tag{53}
+$$
 
 with the union construction accumulating requirements from the constituency set whose support the program required for the appropriation, and the dominant construction deriving requirements from the single most demanding mission. The union construction produces a configuration that satisfies each constituency partially and no constituency fully, because the constituency requirements conflict along engineering dimensions and the resolution of each conflict degrades the arrangement relative to each constituency's optimum. The dominant construction produces a configuration that satisfies the dominating requirement fully and the dominated requirements as a consequence.
 
 The Department of Defense crossrange requirement of approximately 1,100 nautical miles, adopted so that the vehicle could execute a single-orbit polar mission from the Vandenberg facility and return to the launch site, is the canonical instance within the case. The requirement drove the delta-wing planform and the associated thermal-protection-system mass, which reduced the payload capability available for every other mission in the requirement set. The Vandenberg Space Launch Complex 6 facility constructed to support the mission was never used for a Shuttle launch. The requirement therefore imposed a permanent configuration penalty on the realized mission set in exchange for a capability that the realized mission set never exercised. The penalty structure under the union construction can be written as
 
-$$m^{\text{payload}}_{\text{realized}} = m^{\text{payload}}_{\text{unconstrained}} - \sum_{c \in C} \Delta m(c)$$
+$$
+m^{\text{payload}}_{\text{realized}} = m^{\text{payload}}_{\text{unconstrained}} - \sum_{c \in C} \Delta m(c)
+\tag{54}
+$$
 
 with each constituency requirement contributing a mass penalty that every other constituency bears. The summation is the formal signature of the union construction and the reason it degrades rather than enriches the configuration. Under the dominance construction the corresponding expression contains no summation, because the dominated requirements impose no penalty on a configuration that already satisfies the dominating one. The distinction between a sum of penalties and a single binding constraint is the whole of the difference between the Space Shuttle and the SpaceX requirement-stack constructions.
 
 The cadence outcome follows from the configuration. The program projected a flight rate of approximately 60 missions per year at the approval stage. The realized flight rate across the 1981 through 2011 operational period averaged approximately 4.5 missions per year across 135 total missions. The cadence shortfall ratio has the form
 
-$$\theta = \frac{n^{\text{realized cadence}}}{n^{\text{design cadence}}} \approx \frac{4.5}{60} \approx 0.075$$
+$$
+\theta = \frac{n^{\text{realized cadence}}}{n^{\text{design cadence}}} \approx \frac{4.5}{60} \approx 0.075
+\tag{55}
+$$
 
 with the realized cadence approximately 7.5 percent of the design cadence. The consequence for the per-mission cost is direct, because the program fixed costs were amortized across a mission count more than an order of magnitude below the planning assumption. The program cost across the full life approximates 209 billion 2010 dollars, and the implied average cost per mission approximates 1.5 billion dollars, against an expendable-vehicle alternative that the program was intended to undercut.
 
@@ -513,13 +678,19 @@ The Space Launch System requirement stack was not derived from a dominating miss
 
 The configuration is fully expendable. The expendability decision is the decisive one for the generality-forcing analysis, because it forecloses the cadence and the cost trajectory that any broad application set requires. The cost record documented in the [NASA Office of Inspector General 2022 Artemis management evaluation][ref_nasa_oig_artemis_2022] places the per-mission cost for the early Artemis missions at approximately 4.1 billion dollars inclusive of the Orion spacecraft and the ground systems, with the launch-vehicle element at approximately 2.2 billion dollars. The realized cadence approximates one mission per one to two years. The per-mission cost decomposes into a recurring hardware term and a fixed program term amortized across the annual mission count, admitting the compact form
 
-$$c^{\text{per-mission}} = c^{\text{hardware}} + \frac{C^{\text{fixed program}}}{n^{\text{missions per year}}}$$
+$$
+c^{\text{per-mission}} = c^{\text{hardware}} + \frac{C^{\text{fixed program}}}{n^{\text{missions per year}}}
+\tag{56}
+$$
 
 with the expendable configuration forcing the hardware term to remain at the full vehicle cost on every mission and the low cadence leaving the fixed term divided by a number of order unity. The two effects compound rather than offset. The comparison against the reusable amortization identity stated earlier is direct, because that identity divides the vehicle cost by the flight count whereas this one does not divide it at all. The per-mission cost and the cadence are jointly incompatible with every adjacent application in the commercial, constellation-deployment, and routine national-security segments.
 
 The application-set cardinality for the configuration may be stated compactly
 
-$$|A^{\text{SLS}}| = 1$$
+$$
+|A^{\text{SLS}}| = 1
+\tag{57}
+$$
 
 with the single application being the Artemis crewed lunar program that the statutory direction established. The vehicle has no commercial customer, no constellation-deployment role, and no national-security-launch role. The coverage ratio is therefore approximately zero against the potential application set that a super-heavy-lift capability could in principle serve. The comparison against the Starship configuration is instructive precisely because the two vehicles occupy the same lift class and were developed across the overlapping period against the same lunar-surface mission.
 
@@ -533,11 +704,17 @@ The program adopted the Ares I crew-launch vehicle and the Ares V cargo-launch v
 
 The Ares I configuration is the purest available instance of the single-application vehicle. The vehicle had exactly one payload, and the payload was a spacecraft developed within the same program. The requirement stack was therefore not merely narrow but circular, in the sense that the vehicle requirements were derived from the spacecraft mass and the spacecraft requirements were derived from the program architecture, with no external requirement source constraining either. The circularity is stated compactly as
 
-$$R^{\text{Ares I}} = R^{\text{necessary}}(\text{Orion to LEO}) \quad \text{and} \quad A = \{\text{Orion to LEO}\}$$
+$$
+R^{\text{Ares I}} = R^{\text{necessary}}(\text{Orion to LEO}) \quad \text{and} \quad A = \{\text{Orion to LEO}\}
+\tag{58}
+$$
 
 with the requirement set and the application set coinciding exactly. The coincidence eliminates the slack on which the generality-forcing property depends. In the notation the economic-property section introduces, the slack set satisfies
 
-$$S_{\text{Ares I}} = K^{\text{configured}} \setminus K^{\text{necessary}}(\text{Orion to LEO}) = \varnothing$$
+$$
+S_{\text{Ares I}} = K^{\text{configured}} \setminus K^{\text{necessary}}(\text{Orion to LEO}) = \varnothing
+\tag{59}
+$$
 
 with the empty slack set following from the sizing decision rather than from any subsequent execution failure. The case is therefore the cleanest available demonstration that the generality-forcing property is determined at the requirement-selection stage. No quality of engineering execution downstream of a requirement set that coincides with a single application can generate a capability that the requirement set did not ask for.
 
@@ -585,11 +762,17 @@ The classified-project organizational form contributes a further comparison. The
 
 The precedent set jointly supports a compact generalization. The positive cases share a structure in which the dominating requirement was imposed by a mission whose stringency exceeded the contemporary market requirement along a dimension that adjacent applications also valued, and in which the resulting configuration was operable at a cost that adjacent customers could pay. The negation cases fail on one or the other condition. The joint condition may be written
 
-$$\text{generality} \iff \left[ R^{\text{primary}} \succeq R^{\text{necessary}}(a) \right] \wedge \left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right] \quad \forall a \in A^{\text{target}}$$
+$$
+\text{generality} \iff \left[ R^{\text{primary}} \succeq R^{\text{necessary}}(a) \right] \wedge \left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right] \quad \forall a \in A^{\text{target}}
+\tag{60}
+$$
 
 with the capability condition and the cost condition both required. The Saturn V case satisfies the capability condition and fails the cost condition. The Constellation case fails the capability condition. The Space Shuttle case fails both under the realized cadence. The precedent set therefore supports a compact classification by the pair of condition indicators
 
-$$\chi = \left( \mathbb{1}\!\left[ R^{\text{primary}} \succeq R^{\text{necessary}}(a) \right], \; \mathbb{1}\!\left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right] \right)$$
+$$
+\chi = \left( \mathbb{1}\!\left[ R^{\text{primary}} \succeq R^{\text{necessary}}(a) \right], \; \mathbb{1}\!\left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right] \right)
+\tag{61}
+$$
 
 with the armory, turbojet, Boeing, ballistic-missile, integrated-circuit, and networking precedents occupying the $(1,1)$ cell, the Saturn V and Concorde precedents occupying the $(1,0)$ cell, and the Constellation case occupying the $(0, \cdot)$ cell in which the cost indicator is not reached because the capability condition already fails. The classification makes explicit that the historical record contains substantially more $(1,0)$ cases than $(1,1)$ cases, which is the empirical basis for treating the cost condition rather than the capability condition as the binding one in practice.
 
@@ -651,7 +834,10 @@ The contemporary comparative landscape for the generality-forcing condition acro
 
 Blue Origin articulates a long-horizon mission comprising millions of people living and working in space and an orbital-habitat architecture. The mission articulation is comparable in ambition to the SpaceX Mars articulation. The derived requirement stack is nonetheless weaker in the dominance sense, because the orbital-habitat architecture does not impose a single dominating delivered-mass and delivered-cost requirement of the magnitude the Mars-surface architecture imposes. The New Glenn configuration recovers the first stage and expends the second stage, which places it at the Falcon 9 rather than the Starship point in the reusability arrangement space. The position of a vehicle in that space admits the compact coordinate
 
-$$\rho = \frac{m^{\text{recovered dry mass}}}{m^{\text{total dry mass}}} \in [0, 1]$$
+$$
+\rho = \frac{m^{\text{recovered dry mass}}}{m^{\text{total dry mass}}} \in [0, 1]
+\tag{62}
+$$
 
 with the expendable configurations at $\rho = 0$, the first-stage-recovery arrangements at approximately $\rho \approx 0.7$ reflecting the booster share of the total dry mass, and the fully reusable structures at $\rho = 1$. The coordinate is more informative than a binary reusability classification because the per-mission cost identity depends on the fraction of hardware that recurs rather than on the presence or absence of recovery, and because the step from the intermediate position to $\rho = 1$ is the step that no provider other than SpaceX had attempted at the drafting date. The Blue Moon lunar-lander development and the BE-4 engine development that also gives the United Launch Alliance Vulcan vehicle constitute realized adjacent applications. The record is available through the [Blue Origin press releases][ref_blue_origin_press].
 
@@ -671,7 +857,10 @@ The general pattern the landscape exhibits is that the condition's two hardest s
 
 The generality-forcing condition allows application to the launch-sector firm set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector yields the compact form
 
-$$\boldsymbol{\phi}_j^{\text{generality-forcing}} \in \{0, 1\}^{5}$$
+$$
+\boldsymbol{\phi}_j^{\text{generality-forcing}} \in \{0, 1\}^{5}
+\tag{63}
+$$
 
 with each firm's closure vector indicating the satisfaction status across the requirement-dominance, capability-coverage, adjacent-yield, bidirectional-spillover, and mission-persistence sub-properties.
 
@@ -679,7 +868,10 @@ SpaceX exhibits closure on the requirement-dominance, capability-coverage, adjac
 
 The cross-sectional pattern indicates that the requirement-dominance and the adjacent-yield sub-properties are substantially anti-correlated across the firm set, admitting the compact statement
 
-$$\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{requirement-dominance}}, \; \phi_{j,3}^{\text{adjacent-yield}} \right) < 0$$
+$$
+\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{requirement-dominance}}, \; \phi_{j,3}^{\text{adjacent-yield}} \right) < 0
+\tag{64}
+$$
 
 with the negative correlation taken across the organization set comprising the commercial firms and the state programs. The joint-closure probability under independence would be the product of the marginal closure frequencies, and the negative correlation drives the realized joint frequency below that product. The firms with the strongest mission articulations are predominantly the state programs that cannot capture adjacent-application revenue, and the firms with the strongest adjacent-application revenue are predominantly the market-derived commercial firms that lack a dominating mission. The anti-correlation is the structural reason the generality-forcing condition is rare, and it is the reason the SpaceX case is treated in the series as a closed conjunction rather than as a representative instance.
 
@@ -699,13 +891,19 @@ The generality-forcing framing the article develops is one of several analytical
 
 The general-purpose-technology framing developed in [Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995] and [Lipsey et al. 2005][book_lipsey_carlaw_bekar_2005] treats the Starship configuration as a candidate general-purpose technology in the space-transportation domain. The framing evaluates the configuration against the pervasiveness, improvement-potential, and complementary-innovation criteria. The criteria admit joint statement as a conjunction
 
-$$\text{GPT} \iff \left[ P^{\text{pervasiveness}} \geq \bar{P} \right] \wedge \left[ I^{\text{improvement-potential}} \geq \bar{I} \right] \wedge \left[ C^{\text{complementary-innovation}} \geq \bar{C} \right]$$
+$$
+\text{GPT} \iff \left[ P^{\text{pervasiveness}} \geq \bar{P} \right] \wedge \left[ I^{\text{improvement-potential}} \geq \bar{I} \right] \wedge \left[ C^{\text{complementary-innovation}} \geq \bar{C} \right]
+\tag{65}
+$$
 
 with each criterion required against its threshold. The SpaceX configuration satisfies the improvement-potential and complementary-innovation criteria and satisfies the pervasiveness criterion only within the space-transportation sector rather than across the economy, which is the reason the article treats the general-purpose-technology label as a candidate characterization rather than an established one. The framing captures the cross-application coverage the article documents and understates the mission-directedness, because the general-purpose-technology tradition treats the generality as an emergent property of the technology rather than as a consequence of a requirement-selection decision.
 
 The platform-architecture framing developed in [Meyer and Lehnerd 1997][book_meyer_lehnerd_1997], [Robertson and Ulrich 1998][research_robertson_ulrich_1998], and [Sanchez and Mahoney 1996][research_sanchez_mahoney_1996] treats the capability configuration as a product platform from which application-variants derive. The platform-leverage identity takes the form
 
-$$L^{\text{platform}} = \frac{\sum_{a \in A} V^{\text{variant}}(a)}{C^{\text{platform development}}}$$
+$$
+L^{\text{platform}} = \frac{\sum_{a \in A} V^{\text{variant}}(a)}{C^{\text{platform development}}}
+\tag{66}
+$$
 
 with the leverage increasing in the variant count and decreasing in the platform development cost. The framing captures the Starship variant set comprising the tanker, cargo, crew, and lunar-lander configurations, and understates the mission articulation that determined the platform requirement set.
 
@@ -717,13 +915,19 @@ The complementary-assets framing developed in [Teece 1986][research_teece_1986] 
 
 The real-options framing developed in [Dixit and Pindyck 1994][book_dixit_pindyck_1994] Investment Under Uncertainty and [Trigeorgis 1996][book_trigeorgis_1996] Real Options treats the excess capability that the dominating requirement produces as a portfolio of options on adjacent applications whose value is not yet realized. The option value can be written as
 
-$$V^{\text{generality option}} = \sum_{a \in A^{\text{potential}}} \max\!\left\{0, \; E\!\left[V^{\text{application}}(a)\right] - C^{\text{residual}}(a)\right\}$$
+$$
+V^{\text{generality option}} = \sum_{a \in A^{\text{potential}}} \max\!\left\{0, \; E\!\left[V^{\text{application}}(a)\right] - C^{\text{residual}}(a)\right\}
+\tag{67}
+$$
 
 with each potential application contributing a nonnegative term equal to the expected application value net of the residual investment the application-requirements demand. The framing contributes the most direct formalization of the claim that the overspecification the primary mission imposes is an investment rather than a waste, and it is the framing under which the Space Shuttle and Saturn V negation cases admit the cleanest statement, because in both cases the residual-investment term exceeded the expected application value for every adjacent application.
 
 The path-dependence framing developed in [David 1985][research_david_1985] Clio and the Economics of QWERTY and [Arthur 1989][research_arthur_1989] Competing Technologies Increasing Returns and Lock-In by Historical Events treats the requirement stack as an early commitment whose persistence reflects increasing returns to the accumulated capability rather than continuing optimality. The framing supplies the principal alternative explanation for the requirement-stability evidence the concept-development section presents, because a stable requirement stack is equally consistent with a genuine mission commitment and with a lock-in to an early architectural choice. The lock-in condition has the form
 
-$$C^{\text{switching}} > \Delta V^{\text{alternative}} = V^{\text{alternative architecture}} - V^{\text{incumbent architecture}}$$
+$$
+C^{\text{switching}} > \Delta V^{\text{alternative}} = V^{\text{alternative architecture}} - V^{\text{incumbent architecture}}
+\tag{68}
+$$
 
 with the persistence explained by the switching cost exceeding the value differential rather than by the incumbent architecture remaining optimal. The observational equivalence between the commitment explanation and the lock-in explanation is not resolvable from the stability evidence alone. The evidence that does discriminate is the behavior at points where the two explanations diverge, because a genuine commitment predicts the retention of requirements that raise rather than lower the switching cost, whereas a lock-in predicts the quiet abandonment of any requirement that the accumulated capability does not already serve.
 
@@ -743,7 +947,10 @@ The developmental-state framing developed in [Johnson 1982][book_johnson_1982], 
 
 The evolutionary-economics framing developed in [Nelson and Winter 1982][book_nelson_winter_1982] An Evolutionary Theory of Economic Change and the industry-life-cycle treatment in [Klepper 1996][research_klepper_1996] Entry Exit Growth and Innovation over the Product Life Cycle treats the sector as a selection environment in which configurations compete and the surviving arrangement is not necessarily the ex ante optimal one. The framing yields the caution against reading the SpaceX outcome as a demonstration that the generality-forcing strategy is generally advisable, because the observed sample contains a single surviving instance and the unobserved sample of failed mission-directed ventures is not available. The inferential error the caution guards against can be stated compactly as the inequality
 
-$$P\!\left( \text{success} \mid \text{generality-forcing} \right) \; \neq \; P\!\left( \text{generality-forcing} \mid \text{success} \right)$$
+$$
+P\!\left( \text{success} \mid \text{generality-forcing} \right) \; \neq \; P\!\left( \text{generality-forcing} \mid \text{success} \right)
+\tag{69}
+$$
 
 with the observed record supplying evidence about the right-hand quantity and the strategic question demanding the left-hand one. The two coincide only when the base rates are equal, and the base rate of generality-forcing attempts among all ventures is not observable because failed attempts leave substantially less documentary record than successful ones. The article's claims are accordingly restricted to the characterization of the observed case and do not extend to a recommendation.
 
@@ -753,7 +960,10 @@ The generality-forcing pattern that the SpaceX case exhibits admits the followin
 
 The abstract generality-forcing mechanic requires joint satisfaction of five sub-properties, admitting the compact conjunctive form
 
-$$\Phi^{\text{generality-forcing}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0, 1\}$$
+$$
+\Phi^{\text{generality-forcing}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0, 1\}
+\tag{70}
+$$
 
 with the closure obtaining only when every sub-property indicator takes the value unity. The product form rather than a weighted sum is the substantive claim, because it asserts that no specific strength on one sub-property compensates for a failure on another. First, the primary-mission requirement stack must dominate the downstream application requirement sets in the stringency ordering. Second, the capability configuration that satisfies the primary-mission requirement stack must satisfy the downstream application requirement sets. Third, the adjacent-application yield must substantially exceed the primary-mission yield across the development horizon. Fourth, the spillover coefficients across the application boundaries must support the bidirectional capability transfer. Fifth, the mission-directed configuration must sustain the primary-mission focus despite the commercial pressure to optimize for the dominant adjacent-application revenue source.
 
@@ -763,13 +973,19 @@ The three negation cases establish that the failure mode permits three distinct 
 
 The abstract mechanic also requires a cost condition that the capability condition does not imply. A configuration may exceed every adjacent-application capability requirement and nonetheless serve no adjacent application, because the operating cost of the arrangement exceeds the reservation price of every adjacent customer. The joint condition is therefore that the primary-mission requirement stack dominate the adjacent-application requirement sets and that the configured operating cost fall below the adjacent-application reservation prices. The extended closure accordingly takes the compact form
 
-$$\Phi^{\text{extended}} = \Phi^{\text{generality-forcing}} \cdot \prod_{a \in A^{\text{target}}} \mathbb{1}\!\left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right]$$
+$$
+\Phi^{\text{extended}} = \Phi^{\text{generality-forcing}} \cdot \prod_{a \in A^{\text{target}}} \mathbb{1}\!\left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right]
+\tag{71}
+$$
 
 with the second product ranging over the target application set and vanishing whenever any single target application cannot afford the configuration. The cost condition is the one the historically most capable single-mission configurations have failed.
 
 The mechanic allows a diagnostic procedure that an informed reader may apply to a candidate case in an adjacent domain. The procedure asks first whether a requirement in the stack supports no derivation from any served market, because such a requirement is the only available direct evidence that the stack is mission-derived rather than market-derived. The procedure asks second whether the requirement stack persists under varying configuration parameters across the articulation history. The procedure asks third whether the residual-investment ratio for each claimed adjacent application is small. The procedure asks fourth whether the adjacent-application returns finance the primary-mission capability rather than merely accompanying it. The procedure asks fifth whether the organization has declined an available commercial optimization that would have relaxed the primary-mission constraint. The procedure is stated compactly as an ordered test vector
 
-$$\tau = \left( \textstyle\sum_r \delta(r) > 0, \;\; \Sigma^{\text{requirement-stability}} \to 1, \;\; \lambda(a) \ll 1 \;\, \forall a, \;\; \tfrac{dK^{\text{primary}}}{dt} > 0, \;\; \exists \text{ declined optimization} \right)$$
+$$
+\tau = \left( \textstyle\sum_r \delta(r) > 0, \;\; \Sigma^{\text{requirement-stability}} \to 1, \;\; \lambda(a) \ll 1 \;\, \forall a, \;\; \tfrac{dK^{\text{primary}}}{dt} > 0, \;\; \exists \text{ declined optimization} \right)
+\tag{72}
+$$
 
 with each component evaluating one of the five questions against the quantities the preceding sections define. A candidate case that answers affirmatively on all five is a generality-forcing instance, and a candidate case that answers affirmatively only on the later questions is a successful diversification whose mission articulation is decorative. The ordering of the tests is deliberate, because the first component is the hardest to satisfy and the cheapest to check, and a candidate failing it requires no further evaluation.
 
@@ -788,6 +1004,639 @@ The article adopts terminology consistent with the aerospace-mission-architectur
 ## Load-Bearing Open Questions
 
 The article closes with the load-bearing open questions that the generality-forcing treatment leaves unresolved. First, the quantitative estimation of the Mars-transportation-derived capability generalization requires substantially more primary-source documentation than the private-firm status permits. Second, the counterfactual analysis of the narrow-mission alternative configurations requires the speculative reconstruction of the alternative-development trajectories. Third, the realized primary-mission accomplishment against the Mars-transportation goal remains substantially uncertain at the drafting date pending the Starship operational validation and the in-space-refueling demonstration. Fourth, the transferability of the generality-forcing pattern to the non-launch-vehicle applications admits substantial uncertainty. Fifth, the sustainability of the mission-directed focus under the commercial-pressure to optimize for the dominant Starlink revenue source permits substantial uncertainty. Sixth, the derivation claim that the article's central thesis asserts is not directly verifiable from public sources, and the in-space-refueling and extravehicular-suit evidence on which the article relies is indirect. Seventh, the selection problem the evolutionary-economics framing identifies is unresolved, because the unobserved population of failed mission-directed ventures precludes any inference from the single observed success to the general advisability of the strategy.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 72 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 72, 11 are established and 61 are bespoke.
+Most quantities are sets, indicators or dimensionless indices that the article defines for its argument and that carry no units, while masses are in metric tons, velocities in kilometres per second and costs in nominal United States dollars wherever an equation is evaluated.
+
+*Equation 1, Bespoke Generality-Forcing Condition.*
+The condition requires the primary requirement set of the Mars-transportation mission to contain the necessary requirement set of every adjacent application, a dominance that the article posits as the defining property.
+
+$$
+\forall a_k \in A : R^{\text{primary}} \supseteq R^{\text{necessary}}(a_k)
+\tag{1}
+$$
+
+*Equation 2, Bespoke Generality-Forcing Coverage Ratio.*
+The ratio the article defines divides the number of adjacent applications a capability configuration covers by the number it could potentially cover.
+
+$$
+\gamma_i = \frac{|A^{\text{covered}}_i|}{|A^{\text{potential}}_i|}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Cross-Application Capability Substrate.*
+The capability substrate is defined as the intersection of the capability sets that the adjacent applications each require.
+
+$$
+K^{\text{substrate}}_i = \bigcap_{a \in A} K^{\text{required}}(a)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Generality-Forcing Value Decomposition.*
+The value attributed to generality forcing is constructed as a sum of application values, each weighted by a capability-fit fraction that the article introduces.
+
+$$
+V^{\text{generality-forcing}}_i = \sum_{a \in A} V^{\text{application}}(a) \cdot \phi^{\text{capability-fit}}_i(a)
+\tag{4}
+$$
+
+*Equation 5, Bespoke Narrow-Mission Counterfactual Differential.*
+The generality-forcing contribution is defined as the observed cumulative value less the value under a counterfactual in which the firm optimises for a single narrow application.
+
+$$
+\Delta V^{\text{generality-forcing}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{narrow-mission counterfactual}}_i(t)
+\tag{5}
+$$
+
+*Equation 6, Bespoke Application-Set Cardinality Comparison.*
+The inequality asserts that the set of applications SpaceX realised is at least as large as that of a narrow-mission comparator the article selects.
+
+$$
+|A^{\text{SpaceX-realized}}| \geq |A^{\text{narrow-mission-comparator}}|
+\tag{6}
+$$
+
+*Equation 7, Bespoke Configured-Capability Dominance Condition.*
+The condition restates generality forcing at the level of capability, requiring the configured capability set to contain the necessary capability set of every target application.
+
+$$
+K^{\text{configured}} \supseteq K^{\text{necessary}}(a) \quad \forall a \in A^{\text{target}}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Generality-Forcing Yield.*
+The yield the article defines divides the summed value of the covered adjacent applications by the value of the primary mission, so that a yield above one marks adjacent value exceeding primary value.
+
+$$
+Y^{\text{generality}}_i = \frac{\sum_{a \in A^{\text{covered}}} V^{\text{application}}(a)}{V^{\text{primary-mission}}}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Requirement-Satisfaction Indicator.*
+The indicator is a product over the necessary requirements of an application and takes the value one only when the configured set covers every one of them.
+
+$$
+\mathbb{1}^{\text{satisfies}}(a) = \prod_{r \in R^{\text{necessary}}(a)} \mathbb{1}[K^{\text{configured}} \supseteq \{r\}]
+\tag{9}
+$$
+
+*Equation 10, Bespoke Requirement Stringency Ordering.*
+The ordering ranks five mission requirement sets by stringency under the article's premise that the Mars-transportation requirement dominates each set below it.
+
+$$
+R^{\text{Mars-transportation}} \succeq R^{\text{lunar-landing}} \succeq R^{\text{national-security-launch}} \succeq R^{\text{commercial-GTO}} \succeq R^{\text{commercial-LEO}}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Application-Yield Trajectory.*
+The yield at a given time is constructed as the sum of revenue across the applications active at that time.
+
+$$
+Y^{\text{application}}_i(t) = \sum_{a \in A^{\text{active}}(t)} r^{\text{revenue}}(a, t)
+\tag{11}
+$$
+
+*Equation 12, Bespoke Cross-Application Spillover Coefficient.*
+The coefficient the article defines divides the capability that one application gains from another by the total capability of the source application.
+
+$$
+\sigma^{\text{spillover}}_{a \to a'} = \frac{\Delta K^{\text{a'}}_{\text{from a}}}{K^{\text{a}}_{\text{total}}}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Slack Set.*
+The slack set collects the capability elements of the configuration that no currently served application exercises, which is the construction on which the generality-forcing argument turns.
+
+$$
+S = K^{\text{configured}} \setminus \bigcup_{a \in A^{\text{served}}} K^{\text{necessary}}(a)
+\tag{13}
+$$
+
+*Equation 14, Bespoke Cost of Generality.*
+The cost of carrying slack is defined as the realised configuration cost less the cost of a hypothetical configuration sized minimally to the served applications.
+
+$$
+C^{\text{generality}} = C^{\text{configured}} - C^{\text{minimal}}(A^{\text{served}})
+\tag{14}
+$$
+
+*Equation 15, Bespoke Rationality Condition for Overspecification.*
+The inequality holds overspecification warranted when the probability-weighted net value of the potential applications that the slack makes reachable exceeds the cost of generality.
+
+$$
+C^{\text{generality}} \leq \sum_{a \in A^{\text{potential}}} p(a) \cdot \left[ V^{\text{application}}(a) - C^{\text{residual}}(a) \right]
+\tag{15}
+$$
+
+*Equation 16, Bespoke Requirement-Coverage Index.*
+The index the article defines is the fraction of the requirements of the application set that the configured requirement set also contains.
+
+$$
+RC_i = \frac{|R^{\text{configured}}_i \cap R^{\text{application-set}}|}{|R^{\text{application-set}}|}
+\tag{16}
+$$
+
+*Equation 17, Bespoke General-Purpose-Technology Index.*
+The index is posited as an unspecified function of pervasiveness, complementary innovation and improvement potential, the three factors that the general-purpose technology literature names.
+[Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995]
+[Lipsey et al. 2005][book_lipsey_carlaw_bekar_2005]
+
+$$
+GPT_i = f(P^{\text{pervasiveness}}, C^{\text{complementary-innovation}}, I^{\text{improvement-potential}})
+\tag{17}
+$$
+
+*Equation 18, Bespoke Design-Concentration Index.*
+The index takes the largest share of missions flown by any one architectural configuration, and the article declares a dominant design once it exceeds a threshold sustained across an interval.
+
+$$
+D(t) = \max_{d \in \mathcal{D}} \; \frac{n^{\text{missions}}_d(t)}{\sum_{d' \in \mathcal{D}} n^{\text{missions}}_{d'}(t)}
+\tag{18}
+$$
+
+**Equation 19, Henderson and Clark Innovation Classification.**
+Innovation is classified by whether it changes components and whether it changes the architecture linking them, giving the incremental, modular, architectural and radical cells of the two-by-two scheme.
+[Henderson and Clark 1990][research_henderson_clark_1990]
+
+$$
+\iota = \left( \Delta K^{\text{component}}, \; \Delta K^{\text{architecture}} \right) \in \{\text{low}, \text{high}\}^2
+\tag{19}
+$$
+
+*Equation 20, Bespoke Requirement Alignment Measure.*
+The measure the article defines is the fraction of primary requirements that also serve at least one adjacent application.
+
+$$
+A^{\text{align}} = \frac{\left| R^{\text{primary}} \cap \bigcup_{a \in A} R^{\text{necessary}}(a) \right|}{\left| R^{\text{primary}} \right|}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Mission-Directedness Indicator.*
+The indicator takes the value one for a requirement that the primary mission demands and that no currently served application demands, so its sum counts requirements with no market derivation.
+
+$$
+\delta(r) = \mathbb{1}\!\left[ r \in R^{\text{necessary}}(\text{primary}) \right] \cdot \mathbb{1}\!\left[ r \notin \bigcup_{a \in A^{\text{served}}} R^{\text{necessary}}(a) \right]
+\tag{21}
+$$
+
+*Equation 22, Bespoke Mission-to-Application Mapping Chain.*
+The chain models the mission objective as generating the primary requirements, which generate the configured capability, which in turn generates the covered applications.
+
+$$
+M^{\text{objective}} \longrightarrow R^{\text{primary}} \longrightarrow K^{\text{configured}} \longrightarrow A^{\text{covered}}
+\tag{22}
+$$
+
+**Equation 23, Configuration Ratios from 2016 to 2017.**
+The 2017 revision divided by the 2016 announcement gives ratios of about three quarters for booster diameter and engine count and one half for reusable payload, using the published figures of the two presentations.
+[Musk 2017][research_musk_2017_iac]
+[Musk 2018][research_musk_2018_iac]
+
+$$
+\left( \frac{d_{2017}}{d_{2016}}, \; \frac{n^{\text{engines}}_{2017}}{n^{\text{engines}}_{2016}}, \; \frac{m^{\text{payload}}_{2017}}{m^{\text{payload}}_{2016}} \right) \approx \left( 0.75, \; 0.74, \; 0.50 \right)
+\tag{23}
+$$
+
+*Equation 24, Bespoke Vehicle Sizing Decision.*
+The vehicle scale is modelled as maximising net adjacent-application value subject to the constraint that the configuration still satisfies the Mars mission requirement.
+
+$$
+s^{\ast} = \arg\max_{s} \left[ \sum_{a \in A(s)} V^{\text{application}}(a) - C^{\text{development}}(s) \right] \quad \text{subject to} \quad K(s) \supseteq K^{\text{necessary}}(\text{Mars})
+\tag{24}
+$$
+
+*Equation 25, Bespoke Self-Financing Condition.*
+The condition requires the profit flow from adjacent applications to cover the development expenditure rate at every time between the sizing decision and the primary mission.
+
+$$
+\sum_{a \in A(s)} \pi^{\text{application}}(a, t) \; \geq \; \frac{d}{dt} C^{\text{development}}(s, t) \qquad \forall t \in [t_0, t^{\text{primary-mission}}]
+\tag{25}
+$$
+
+**Equation 26, Jaccard Index of Requirement Stability.**
+The stability index is the Jaccard similarity of the 2016 requirement set and the requirement set at the drafting date, the size of their intersection divided by the size of their union.
+
+$$
+\Sigma^{\text{requirement-stability}} = \frac{|R^{\text{2016}} \cap R^{\text{drafting-date}}|}{|R^{\text{2016}} \cup R^{\text{drafting-date}}|}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Launch Cadence Decomposition.*
+The launches per transfer window are constructed as the number of departing ships multiplied by one plus the tankers each ship requires, which makes cadence a consequence of the refuelling architecture.
+
+$$
+n^{\text{launches per window}} = N^{\text{ships}} \cdot \left( 1 + n^{\text{tanker}} \right)
+\tag{27}
+$$
+
+*Equation 28, Bespoke Mars Requirement Stack as a Union.*
+The Mars-transportation requirement set is constructed as the union of seven categories the article selects, namely payload, cost, cadence, refuelling, life support, entry and landing, and in-situ resource utilisation.
+
+$$
+R^{\text{Mars}} = R^{\text{payload}} \cup R^{\text{cost}} \cup R^{\text{cadence}} \cup R^{\text{refueling}} \cup R^{\text{life-support}} \cup R^{\text{EDL}} \cup R^{\text{ISRU}}
+\tag{28}
+$$
+
+**Equation 29, Tsiolkovsky Rocket Equation.**
+The ideal velocity increment equals the specific impulse times standard gravity times the natural logarithm of the ratio of initial to final mass.
+[Sutton and Biblarz 2016][book_sutton_biblarz_2016]
+[Curtis 2013][book_curtis_2013]
+
+$$
+\Delta v = I_{sp} \, g_0 \ln\!\left(\frac{m_0}{m_f}\right)
+\tag{29}
+$$
+
+*Equation 30, Bespoke Residual Requirement Set.*
+The residual set collects the necessary requirements of an application that the primary requirement set does not cover, which bounds the dominance the article claims.
+
+$$
+R^{\text{residual}}(a) = R^{\text{necessary}}(a) \setminus R^{\text{primary}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Reusable-Launch Generalisation Index.*
+The index is the share of the launch-application space that the reusable configuration serves, evaluated at about 0.90 by the article's own estimate at the drafting date.
+
+$$
+G^{\text{reusable}} = |A^{\text{reusable-launch-served}}| / |A^{\text{launch-application-total}}| \approx 0.90
+\tag{31}
+$$
+
+*Equation 32, Bespoke Per-Mission Cost of a Reusable Vehicle.*
+The per-mission cost is assembled as the vehicle cost amortised over its flights plus recurring refurbishment, propellant and operations terms.
+
+$$
+c^{\text{per-mission}} = \frac{C^{\text{vehicle}}}{n^{\text{flights}}} + c^{\text{refurbishment}} + c^{\text{propellant}} + c^{\text{operations}}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Reuse Breakeven Flight Count.*
+Equating the per-mission cost of a reusable vehicle with that of an expendable one, under the assumption that propellant and operations costs are common to both, gives the flight count at which reuse reaches parity.
+
+$$
+n^{\ast} = \frac{C^{\text{vehicle}}_{\text{reusable}}}{C^{\text{vehicle}}_{\text{expendable}} - c^{\text{refurbishment}}}
+\tag{33}
+$$
+
+**Equation 34, Wright Learning Curve.**
+Unit cost falls as a power of cumulative count, with the exponent fixed by the progress ratio by which cost falls on each doubling, here applied to refurbishment.
+[Wright 1936][research_wright_1936]
+[Argote and Epple 1990][research_argote_epple_1990]
+
+$$
+c^{\text{refurbishment}}_n = c^{\text{refurbishment}}_1 \cdot n^{-b}, \qquad b = -\frac{\log_2 \lambda}{1}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Mass-to-Orbit Generalisation Index.*
+The index divides the Starship payload capability by that of Falcon 9 and is stated as the range five to ten, which spans the article's assumed Starship payload.
+
+$$
+G^{\text{mass-to-orbit}} = \frac{m^{\text{payload}}_{\text{Starship}}}{m^{\text{payload}}_{\text{Falcon 9}}} \approx 5\text{ to }10
+\tag{35}
+$$
+
+**Equation 36, Cost Minimisation over Two Inputs.**
+The textbook cost-minimisation problem chooses the mix of delivered mass and engineering effort that meets a required output at least cost, given the price of each input.
+
+$$
+\min_{m, e} \left[ p^{\text{mass}} \cdot m + p^{\text{engineering}} \cdot e \right] \quad \text{subject to} \quad f(m, e) \geq q^{\text{required}}
+\tag{36}
+$$
+
+**Equation 37, Elasticity of Substitution.**
+The elasticity of substitution measures the proportional change in the ratio of mass to engineering input per proportional change in their relative price, and the article asserts that it is positive.
+
+$$
+\varepsilon = \frac{\partial \ln (m / e)}{\partial \ln \left( p^{\text{engineering}} / p^{\text{mass}} \right)} > 0
+\tag{37}
+$$
+
+*Equation 38, Bespoke In-Space-Refuelling Generalisation Index.*
+The index is the share of beyond-low-Earth-orbit applications that in-space refuelling enables.
+
+$$
+G^{\text{refueling}} = |A^{\text{refueling-enabled}}| / |A^{\text{beyond-LEO}}|
+\tag{38}
+$$
+
+*Equation 39, Bespoke Likelihood Ratio for the Refuelling Observation.*
+The ratio of the probability of observing a refuelling requirement under the mission-derived hypothesis to that under the market-derived hypothesis is asserted to greatly exceed one, a judgement the article makes rather than measures.
+
+$$
+\Lambda = \frac{P\!\left( \text{observe } r^{\text{refueling}} \mid H^{\text{mission-derived}} \right)}{P\!\left( \text{observe } r^{\text{refueling}} \mid H^{\text{market-derived}} \right)} \gg 1
+\tag{39}
+$$
+
+*Equation 40, Bespoke Departure Mass Budget.*
+The departure mass is assembled as the single-launch mass plus the mass each tanker transfers less the propellant lost to boil-off during accumulation.
+
+$$
+m^{\text{departure}} = m^{\text{single-launch}} + \sum_{k=1}^{n^{\text{tanker}}} m^{\text{transferred}}_k - m^{\text{boil-off}}(t)
+\tag{40}
+$$
+
+*Equation 41, Bespoke Exponential Boil-Off Model.*
+Propellant is modelled as decaying exponentially at a rate equal to the heat leak divided by the initial propellant mass and the latent heat of vaporisation, an assumption the article chose in place of the linear loss that a constant heat leak gives.
+
+$$
+m^{\text{propellant}}(t) = m^{\text{propellant}}_0 \, e^{-\lambda^{\text{boil-off}} t}, \qquad \lambda^{\text{boil-off}} = \frac{\dot{Q}}{m^{\text{propellant}}_0 \, h_{fg}}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Life-Support Generalisation Index.*
+The index is the share of crewed-mission applications that the life-support configuration serves.
+
+$$
+G^{\text{life-support}} = |A^{\text{crew-mission-served}}| / |A^{\text{crew-mission-total}}|
+\tag{42}
+$$
+
+**Equation 43, Life-Support Loop Closure Ratio.**
+The closure ratio is one minus the ratio of the resupply mass flow to the consumption mass flow, so that it approaches one as resupply approaches zero.
+
+$$
+\eta^{\text{closure}} = 1 - \frac{\dot{m}^{\text{resupply}}}{\dot{m}^{\text{consumption}}}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Consumable Mass Requirement.*
+The carried consumable mass is modelled as the per-crew consumption rate times crew size times mission duration times the unclosed fraction, a linear budget the article constructs.
+
+$$
+m^{\text{consumables}} = \dot{m}^{\text{per-crew}} \cdot N^{\text{crew}} \cdot T^{\text{mission}} \cdot \left( 1 - \eta^{\text{closure}} \right)
+\tag{44}
+$$
+
+*Equation 45, Bespoke Lunar Lander Tanker Count.*
+The tanker count is constructed from the rocket equation as the propellant the mission velocity budget demands, net of residual propellant, divided by the mass each tanker transfers and rounded up.
+
+$$
+n^{\text{tanker}} = \left\lceil \frac{m^{\text{dry}} \left( e^{\Delta v^{\text{mission}} / I_{sp} g_0} - 1 \right) - m^{\text{propellant}}_{\text{residual}}}{m^{\text{transferred per tanker}}} \right\rceil
+\tag{45}
+$$
+
+*Equation 46, Bespoke Best-Value Selection Rule.*
+The source selection is modelled as maximising a weighted sum of technical and management scores less weighted price, subject to the appropriated budget, a linear form the article adopts for the Federal Acquisition Regulation procedure.
+[Federal Acquisition Regulation Part 15][ref_far_part_15]
+
+$$
+j^{\ast} = \arg\max_{j} \left[ w^{\text{technical}} \cdot q_j + w^{\text{management}} \cdot m_j - w^{\text{price}} \cdot P_j \right] \quad \text{subject to} \quad \sum_{j \in J} P_j \leq B^{\text{appropriated}}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Schedule Coupling of an Adjacent Application.*
+The readiness date of an application is modelled as the later of its application-specific development date and the date of the primary capability on which it depends.
+
+$$
+t^{\text{ready}}(a) = \max\left\{ t^{\text{application-specific}}(a), \; t^{\text{primary-capability}} \right\}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Constellation Replenishment Cadence.*
+The minimum launch rate is constructed as the constellation size divided by the satellite lifetime and the satellites carried per launch, under the assumption of steady-state replacement at end of life.
+
+$$
+n^{\text{launches per year}} \geq \frac{N^{\text{constellation}}}{L^{\text{satellite lifetime}} \cdot n^{\text{satellites per launch}}}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Financing Loop.*
+The rate of accumulation of primary-mission capability is posited as a function of the adjacent-application profit flow, closing the loop in which adjacent applications finance the primary capability.
+
+$$
+\frac{dK^{\text{primary}}}{dt} = f\!\left(\sum_{a \in A} \pi^{\text{application}}(a, t)\right)
+\tag{49}
+$$
+
+**Equation 50, Average Fixed Cost of Certification.**
+The per-mission certification burden is the fixed certification cost divided by the number of certified missions, the textbook average fixed cost.
+
+$$
+c^{\text{certification per mission}} = \frac{C^{\text{certification}}}{n^{\text{certified missions}}}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Residual-Investment Ratio.*
+The ratio the article defines divides the application-specific investment an application requires by the total capability investment it requires.
+
+$$
+\lambda(a) = \frac{C^{\text{application-specific}}(a)}{C^{\text{total capability}}(a)}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Cost and Capability Channel Decomposition.*
+The change in market share is decomposed to first order into a cost channel and a capability channel, a two-term linearisation the article chose.
+
+$$
+\Delta s = \underbrace{\frac{\partial s}{\partial P} \, \Delta P}_{\text{cost channel}} + \underbrace{\frac{\partial s}{\partial q} \, \Delta q}_{\text{capability channel}}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Union and Dominance Requirement Constructions.*
+The contrast sets a requirement stack built as the union of constituency requirements against one in which a single dominant requirement covers every application.
+
+$$
+R^{\text{union}} = \bigcup_{c \in C} R^{\text{constituency}}(c) \qquad \text{versus} \qquad R^{\text{dominant}} \succeq R^{\text{necessary}}(a) \quad \forall a \in A
+\tag{53}
+$$
+
+*Equation 54, Bespoke Union-Construction Payload Penalty.*
+The realised payload is modelled as the unconstrained payload less a mass penalty summed over every constituency requirement, an additive penalty the article assumes.
+
+$$
+m^{\text{payload}}_{\text{realized}} = m^{\text{payload}}_{\text{unconstrained}} - \sum_{c \in C} \Delta m(c)
+\tag{54}
+$$
+
+**Equation 55, Space Shuttle Cadence Shortfall Ratio.**
+The realised average of about 4.5 missions per year divided by the projected 60 per year gives a cadence of about 7.5 percent of design.
+
+$$
+\theta = \frac{n^{\text{realized cadence}}}{n^{\text{design cadence}}} \approx \frac{4.5}{60} \approx 0.075
+\tag{55}
+$$
+
+*Equation 56, Bespoke Per-Mission Cost of an Expendable Programme.*
+The per-mission cost is assembled as a recurring hardware term plus the fixed programme cost divided by the annual mission count.
+
+$$
+c^{\text{per-mission}} = c^{\text{hardware}} + \frac{C^{\text{fixed program}}}{n^{\text{missions per year}}}
+\tag{56}
+$$
+
+*Equation 57, Bespoke Space Launch System Application Count.*
+The application set of the Space Launch System is stated to contain the single Artemis crewed lunar programme, a count the article makes.
+
+$$
+|A^{\text{SLS}}| = 1
+\tag{57}
+$$
+
+*Equation 58, Bespoke Ares I Requirement Circularity.*
+The requirement set of Ares I is stated to equal the necessary requirements of delivering Orion to low Earth orbit, with that delivery as the only application.
+
+$$
+R^{\text{Ares I}} = R^{\text{necessary}}(\text{Orion to LEO}) \quad \text{and} \quad A = \{\text{Orion to LEO}\}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Empty Slack Set of Ares I.*
+The slack set of Ares I is empty because the configured capability coincides with what its single application requires.
+
+$$
+S_{\text{Ares I}} = K^{\text{configured}} \setminus K^{\text{necessary}}(\text{Orion to LEO}) = \varnothing
+\tag{59}
+$$
+
+*Equation 60, Bespoke Joint Capability and Cost Condition.*
+Generality is posited to hold if and only if the primary requirements dominate each target application and the configured cost falls below each application reservation price.
+
+$$
+\text{generality} \iff \left[ R^{\text{primary}} \succeq R^{\text{necessary}}(a) \right] \wedge \left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right] \quad \forall a \in A^{\text{target}}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Precedent Classification Pair.*
+The pair of indicators for the capability and cost conditions classifies historical precedents into cells, a classification the article constructs.
+
+$$
+\chi = \left( \mathbb{1}\!\left[ R^{\text{primary}} \succeq R^{\text{necessary}}(a) \right], \; \mathbb{1}\!\left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right] \right)
+\tag{61}
+$$
+
+*Equation 62, Bespoke Recovered Dry-Mass Fraction.*
+The coordinate the article defines divides the recovered dry mass by the total dry mass, placing an expendable vehicle at zero and a fully reusable one at one.
+
+$$
+\rho = \frac{m^{\text{recovered dry mass}}}{m^{\text{total dry mass}}} \in [0, 1]
+\tag{62}
+$$
+
+*Equation 63, Bespoke Generality-Forcing Closure Vector.*
+Each firm receives a binary vector over the five sub-properties that the pattern-extraction section states.
+
+$$
+\boldsymbol{\phi}_j^{\text{generality-forcing}} \in \{0, 1\}^{5}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Anti-Correlation of Two Sub-Properties.*
+The inequality asserts a negative correlation across the firm set between requirement dominance and adjacent yield, an observation the article draws from its own scoring.
+
+$$
+\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{requirement-dominance}}, \; \phi_{j,3}^{\text{adjacent-yield}} \right) < 0
+\tag{64}
+$$
+
+*Equation 65, Bespoke Threshold Conjunction for a General-Purpose Technology.*
+The three criteria of the general-purpose technology literature are stated as a conjunction, each against a threshold that the article leaves unspecified.
+[Bresnahan and Trajtenberg 1995][research_bresnahan_trajtenberg_1995]
+[Lipsey et al. 2005][book_lipsey_carlaw_bekar_2005]
+
+$$
+\text{GPT} \iff \left[ P^{\text{pervasiveness}} \geq \bar{P} \right] \wedge \left[ I^{\text{improvement-potential}} \geq \bar{I} \right] \wedge \left[ C^{\text{complementary-innovation}} \geq \bar{C} \right]
+\tag{65}
+$$
+
+*Equation 66, Bespoke Platform Leverage Ratio.*
+The leverage ratio the article defines divides the summed value of the platform variants by the platform development cost.
+[Meyer and Lehnerd 1997][book_meyer_lehnerd_1997]
+
+$$
+L^{\text{platform}} = \frac{\sum_{a \in A} V^{\text{variant}}(a)}{C^{\text{platform development}}}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Generality Option Value.*
+The option value is constructed as a sum over potential applications of the positive part of expected application value net of residual investment, which takes the maximum after the expectation.
+
+$$
+V^{\text{generality option}} = \sum_{a \in A^{\text{potential}}} \max\!\left\{0, \; E\!\left[V^{\text{application}}(a)\right] - C^{\text{residual}}(a)\right\}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Lock-In Condition.*
+Persistence of an architecture is attributed to lock-in when the switching cost exceeds the value advantage of the alternative architecture.
+[Arthur 1989][research_arthur_1989]
+[David 1985][research_david_1985]
+
+$$
+C^{\text{switching}} > \Delta V^{\text{alternative}} = V^{\text{alternative architecture}} - V^{\text{incumbent architecture}}
+\tag{68}
+$$
+
+**Equation 69, Asymmetry of Conditional Probabilities.**
+The probability of success given a strategy differs in general from the probability of the strategy given success, and the two coincide only when the base rates are equal.
+
+$$
+P\!\left( \text{success} \mid \text{generality-forcing} \right) \; \neq \; P\!\left( \text{generality-forcing} \mid \text{success} \right)
+\tag{69}
+$$
+
+*Equation 70, Bespoke Generality-Forcing Conjunctive Closure.*
+Closure is the product of five binary sub-property indicators, a product form the article chose so that no strength on one sub-property compensates for a failure on another.
+
+$$
+\Phi^{\text{generality-forcing}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0, 1\}
+\tag{70}
+$$
+
+*Equation 71, Bespoke Extended Closure with the Cost Condition.*
+The extended closure multiplies the conjunctive closure by an indicator that the configured cost falls below the reservation price of every target application.
+
+$$
+\Phi^{\text{extended}} = \Phi^{\text{generality-forcing}} \cdot \prod_{a \in A^{\text{target}}} \mathbb{1}\!\left[ c^{\text{configured}} \leq c^{\text{reservation}}(a) \right]
+\tag{71}
+$$
+
+*Equation 72, Bespoke Ordered Test Vector.*
+The test vector collects the five diagnostic questions of the procedure, each evaluated against a quantity that an earlier section defines.
+
+$$
+\tau = \left( \textstyle\sum_r \delta(r) > 0, \;\; \Sigma^{\text{requirement-stability}} \to 1, \;\; \lambda(a) \ll 1 \;\, \forall a, \;\; \tfrac{dK^{\text{primary}}}{dt} > 0, \;\; \exists \text{ declined optimization} \right)
+\tag{72}
+$$
+
+### Notation
+
+- $R^{\text{primary}}$, the set of primary technical requirements that the Mars-transportation mission necessitates
+- $R^{\text{necessary}}(a)$, the set of requirements necessary for the adjacent application $a$
+- $K^{\text{configured}}$, the capability configuration that satisfies the primary requirement set
+- $K^{\text{necessary}}(a)$, the capability necessary for the application $a$
+- $\succeq$, dominance in stringency, so that satisfying the left side satisfies the right
+- $\gamma_i$, the generality-forcing coverage ratio of the firm $i$
+- $V^{\text{application}}(a)$, the value of the application $a$
+- $S$, the slack set, the configured capability that no served application exercises
+- $C^{\text{generality}}$, the cost of carrying the slack
+- $C^{\text{residual}}(a)$, the residual investment that the application $a$ requires beyond the shared capability
+- $p(a)$, the probability that the potential application $a$ materialises
+- $c^{\text{reservation}}(a)$, the reservation price of the customers of the application $a$
+- $\delta(r)$, the mission-directedness indicator of the requirement $r$
+- $\Sigma^{\text{requirement-stability}}$, the requirement-stability index from 2016 to the drafting date
+- $n^{\text{tanker}}$, the number of tanker flights per departing ship
+- $I_{sp}$, the specific impulse in seconds
+- $g_0$, standard gravity, 9.80665 metres per second squared
+- $c^{\text{refurbishment}}$, the refurbishment cost per flight of a reusable vehicle
+- $n^{\ast}$, the breakeven flight count at which reuse reaches cost parity
+- $\lambda$, the progress ratio of the learning curve, and with an argument the residual-investment ratio of an application
+- $\lambda^{\text{boil-off}}$, the boil-off rate constant of stored cryogenic propellant
+- $\varepsilon$, the elasticity of substitution between delivered mass and engineering effort
+- $\Lambda$, the likelihood ratio of the refuelling observation under the two hypotheses
+- $\eta^{\text{closure}}$, the closure ratio of the life-support loop
+- $\theta$, the ratio of realised to design launch cadence
+- $\rho$, the recovered fraction of total vehicle dry mass
+- $\boldsymbol{\phi}_j$, the binary closure vector of the firm $j$ over five sub-properties
+- $\Phi^{\text{generality-forcing}}$, the conjunctive closure, the product of the five sub-property indicators
 
 ## References
 

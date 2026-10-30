@@ -23,25 +23,40 @@ The mapping problem permits several formalizations depending on the level of ana
 
 The general form of the anchor-demand causal-mapping problem can be stated compactly as follows. Let $D_i^{\text{anchor}}(t)$ denote the anchor-demand revenue stream to firm $i$ at time $t$ and $D_i^{\text{total}}(t)$ denote the total revenue. The anchor-demand condition requires
 
-$$\frac{D_i^{\text{anchor}}(t)}{D_i^{\text{total}}(t)} \geq \theta^{\text{anchor}} \quad \text{during the pre-spinoff phase}$$
+$$
+\frac{D_i^{\text{anchor}}(t)}{D_i^{\text{total}}(t)} \geq \theta^{\text{anchor}} \quad \text{during the pre-spinoff phase}
+\tag{1}
+$$
 
 with $\theta^{\text{anchor}}$ typically substantially above one half during the pre-spinoff phase and declining as the commercial-spinoff revenue expands. The anchor-demand stream itself decomposes across the constituent anchor programs
 
-$$D_i^{\text{anchor}}(t) = \sum_{k \in \text{programs}} D_{i,k}^{\text{gov}}(t) \cdot \mathbb{1}[t_k^{\text{start}} \leq t \leq t_k^{\text{end}}]$$
+$$
+D_i^{\text{anchor}}(t) = \sum_{k \in \text{programs}} D_{i,k}^{\text{gov}}(t) \cdot \mathbb{1}[t_k^{\text{start}} \leq t \leq t_k^{\text{end}}]
+\tag{2}
+$$
 
 with each program contributing across its activation-to-termination window. The variance decomposition of the anchor-demand stream under the additive-program form admits
 
-$$\text{Var}\!\left(D_i^{\text{anchor}}\right) = \sum_{k} \text{Var}\!\left(D_{i,k}^{\text{gov}}\right) + 2 \sum_{j<k} \text{Cov}\!\left(D_{i,j}^{\text{gov}}, D_{i,k}^{\text{gov}}\right)$$
+$$
+\text{Var}\!\left(D_i^{\text{anchor}}\right) = \sum_{k} \text{Var}\!\left(D_{i,k}^{\text{gov}}\right) + 2 \sum_{j<k} \text{Cov}\!\left(D_{i,j}^{\text{gov}}, D_{i,k}^{\text{gov}}\right)
+\tag{3}
+$$
 
 with the covariance terms typically negative under the multi-program diversification that the [Portfolio Patience article A288][related_post_a281_spacex_framing] treats at greater depth.
 
 The identification problem for the anchor-demand contribution to the SpaceX trajectory is the question of separating the anchor-demand effect from the confounding effects of the other six forcing-function conditions and the three capital-formation legs. The identification depends on the ability to specify counterfactual trajectories in which the anchor-demand condition would have failed and to compare the observed trajectory against those counterfactuals. The counterfactual differential takes the compact form
 
-$$\Delta T_i^{\text{anchor}}(t) = T_i^{\text{observed}}(t) - T_i^{\text{no-anchor counterfactual}}(t)$$
+$$
+\Delta T_i^{\text{anchor}}(t) = T_i^{\text{observed}}(t) - T_i^{\text{no-anchor counterfactual}}(t)
+\tag{4}
+$$
 
 with the anchor-demand attribution equal to the difference between the observed trajectory and the counterfactual trajectory absent the anchor demand. The counterfactual specifications the article treats include a no-COTS counterfactual in which the NASA Commercial Orbital Transportation Services program does not exist and the December 2008 salvation transition does not occur, a Rocketplane-Kistler-succeeds counterfactual in which the COTS Round 1 award is not reallocated and the SpaceX firm competes against the operational RPK provider, and an alternative-anchor counterfactual in which the SpaceX firm pursues commercial-only launch services without the NASA anchor demand. The instrumental-variable identification strategy under an exogenous procurement-mechanism-transition instrument $Z_i$ yields the identifying moment
 
-$$\hat{\beta}_D^{\text{IV}} = \frac{\text{Cov}(T_i, Z_i)}{\text{Cov}(D_i^{\text{anchor}}, Z_i)}, \quad E[Z_i \, \varepsilon_i] = 0$$
+$$
+\hat{\beta}_D^{\text{IV}} = \frac{\text{Cov}(T_i, Z_i)}{\text{Cov}(D_i^{\text{anchor}}, Z_i)}, \quad E[Z_i \, \varepsilon_i] = 0
+\tag{5}
+$$
 
 which permits separate identification of the anchor-demand contribution from the confounding capital and mission-articulation contributions when the instrument satisfies the exogeneity condition.
 
@@ -69,11 +84,17 @@ The anchor-demand property is treated in the article as an economic property of 
 
 The formal characterization of the anchor-demand property permits several compact statements. Let the anchor-share function $\sigma_i(t) = D_i^{\text{anchor}}(t) / D_i^{\text{total}}(t)$ measure the fraction of firm $i$'s revenue at time $t$ that derives from anchor customers. The anchor-demand condition requires the strict-share property
 
-$$\sigma_i(t) \geq \theta^{\text{anchor}} \quad \forall t \in [t^{\text{founding}}, t^{\text{spinoff-mature}}]$$
+$$
+\sigma_i(t) \geq \theta^{\text{anchor}} \quad \forall t \in [t^{\text{founding}}, t^{\text{spinoff-mature}}]
+\tag{6}
+$$
 
 with $\theta^{\text{anchor}}$ typically approximately 0.6 during the pre-spinoff phase and declining monotonically toward zero as the commercial-spinoff revenue expands. The anchor-share trajectory typically follows
 
-$$\sigma_i(t) = \sigma_i^{\text{initial}} \cdot e^{-\lambda t} + \sigma_i^{\text{floor}}$$
+$$
+\sigma_i(t) = \sigma_i^{\text{initial}} \cdot e^{-\lambda t} + \sigma_i^{\text{floor}}
+\tag{7}
+$$
 
 with $\lambda$ the decay rate driven by the spinoff-revenue expansion and $\sigma_i^{\text{floor}}$ the eventual steady-state anchor share that persists after spinoff maturity.
 
@@ -81,35 +102,53 @@ The anchor-demand economic value to the venture permits decomposition across sev
 
 The anchor-demand decomposition across the four channels takes the form
 
-$$V^{\text{anchor}}_i = V^{\text{revenue}}_i + V^{\text{credential}}_i + V^{\text{standard-transfer}}_i + V^{\text{redundancy}}_i + V^{\text{option}}_i$$
+$$
+V^{\text{anchor}}_i = V^{\text{revenue}}_i + V^{\text{credential}}_i + V^{\text{standard-transfer}}_i + V^{\text{redundancy}}_i + V^{\text{option}}_i
+\tag{8}
+$$
 
 with each channel contributing distinct value to the venture. The channel contributions are estimated in the trade-press coverage and industry-analyst reconstructions, with the direct-revenue channel typically dominant during the initial anchor-demand transition and the credential and standard-transfer channels growing in significance as the venture matures.
 
 The anchor-underwriting break-even condition that the fixed-cost capability requires can be written as
 
-$$R^{\text{anchor}}_i > F^{\text{capability}}_i + c^{\text{marginal}}_i \cdot q^{\text{anchor}}_i$$
+$$
+R^{\text{anchor}}_i > F^{\text{capability}}_i + c^{\text{marginal}}_i \cdot q^{\text{anchor}}_i
+\tag{9}
+$$
 
 with $F^{\text{capability}}\_i$ the fixed-cost capability investment, $c^{\text{marginal}}\_i$ the per-mission marginal cost, and $q^{\text{anchor}}\_i$ the anchor mission count. Under the condition, the venture can bid on marginal-cost commercial missions at prices exceeding marginal cost while capturing positive contribution to fixed-cost recovery from each additional commercial mission.
 
 The reliability transmission from the anchor's requirements to the commercial customer base allows the standard-transfer identity
 
-$$R^{\text{sector}}_{\text{comm}}(t) = R^{\text{anchor}}(t) - \Delta R^{\text{degradation}}$$
+$$
+R^{\text{sector}}_{\text{comm}}(t) = R^{\text{anchor}}(t) - \Delta R^{\text{degradation}}
+\tag{10}
+$$
 
 with $\Delta R^{\text{degradation}}$ the small reliability degradation for commercial-mission profiles that the anchor-financed reliability standard does not fully cover. The commercial customer surplus from the reliability spillover satisfies
 
-$$\Delta CS^{\text{comm}} = \int_{R^{\text{comm-requirement}}}^{R^{\text{anchor}}} \frac{\partial WTP^{\text{comm}}}{\partial R} \, dR$$
+$$
+\Delta CS^{\text{comm}} = \int_{R^{\text{comm-requirement}}}^{R^{\text{anchor}}} \frac{\partial WTP^{\text{comm}}}{\partial R} \, dR
+\tag{11}
+$$
 
 with the integrand the marginal willingness-to-pay for reliability the commercial customer would have paid to obtain the reliability level the anchor-financed capability delivers at zero marginal cost.
 
 The contract present-value structure for milestone-payment contracts supports the general form
 
-$$PV^{\text{contract}}_i = \sum_{k=1}^{K^{\text{milestones}}} \frac{P_k^{\text{milestone}}}{(1 + r)^{t_k}}$$
+$$
+PV^{\text{contract}}_i = \sum_{k=1}^{K^{\text{milestones}}} \frac{P_k^{\text{milestone}}}{(1 + r)^{t_k}}
+\tag{12}
+$$
 
 with $P_k^{\text{milestone}}$ the payment at milestone $k$ and $t_k$ the achievement time, permitting the venture and the anchor to compute the contract value across the milestone-completion schedule.
 
 The anchor-provider bilateral-relationship structure admits characterization through the dependency ratio
 
-$$\delta_{i,k} = \frac{D_{i,k}^{\text{anchor}}}{\sum_{j \neq k} D_{i,j}^{\text{anchor}}}$$
+$$
+\delta_{i,k} = \frac{D_{i,k}^{\text{anchor}}}{\sum_{j \neq k} D_{i,j}^{\text{anchor}}}
+\tag{13}
+$$
 
 with $\delta_{i,k}$ measuring the concentration of firm $i$'s anchor demand on anchor customer $k$ relative to the aggregate other-anchor demand. High $\delta_{i,k}$ values indicate substantial single-anchor concentration that creates hold-up vulnerability under the [Williamson 1985][book_williamson_1985] transaction-cost-economics treatment. The SpaceX trajectory exhibits declining $\delta_{i,\text{NASA}}$ over time as the Space Force, Human Landing System, and Starshield programs added anchor-demand diversification.
 
@@ -119,53 +158,80 @@ The anchor-demand property permits characterization from several disciplinary tr
 
 The procurement-economics tradition traces from [Laffont and Tirole 1993][book_laffont_tirole_1993] A Theory of Incentives in Procurement and Regulation through [McAfee and McMillan 1988][book_mcafee_mcmillan_1988] Incentives in Government Contracting, [Tirole 1988][book_tirole_1988] The Theory of Industrial Organization, the applications to the space-launch sector including [Kelly 2013][research_kelly_2013] Contract Auctions in Space Launch, and the seminal auction-theory framework in [Myerson 1981][research_myerson_1981] Optimal Auction Design and [Milgrom 2004][book_milgrom_2004] Putting Auction Theory to Work. The framing treats the anchor-demand property through the incentive-compatibility properties of alternative procurement mechanisms. The fixed-price milestone-payment mechanism the NASA Commercial Orbital Transportation Services program adopted creates the residual-claim retention identity
 
-$$\pi_i^{\text{fixed-price}} = P^{\text{fixed}} - c_i^{\text{realized}}$$
+$$
+\pi_i^{\text{fixed-price}} = P^{\text{fixed}} - c_i^{\text{realized}}
+\tag{14}
+$$
 
 with the provider retaining the full residual between the fixed contract price and the realized cost. The alternative cost-plus mechanism produces the profit
 
-$$\pi_i^{\text{cost-plus}} = \phi_i \cdot c_i^{\text{realized}}$$
+$$
+\pi_i^{\text{cost-plus}} = \phi_i \cdot c_i^{\text{realized}}
+\tag{15}
+$$
 
 with $\phi_i$ the negotiated margin, providing no cost-reduction incentive.
 
 The mission-oriented-innovation tradition traces from [Nelson 1977][research_nelson_1977] The Moon and the Ghetto and [Nelson 1959][research_nelson_1959] The Simple Economics of Basic Scientific Research through [Ruttan 2006][book_ruttan_2006] Is War Necessary for Economic Growth, [Mazzucato 2013][book_mazzucato_2013] The Entrepreneurial State, [Mazzucato 2021][book_mazzucato_2021] Mission Economy, [Fuchs 2010][research_fuchs_2010] Rethinking the Role of the State in Technology Development, and [Bonvillian 2018][research_bonvillian_2018] DARPA and the Advanced Research Projects Agency. The framing treats the anchor-demand property as one manifestation of the general mission-directed demand-pull mechanism that finances the fixed-cost investment in generic technological capability that subsequently finds commercial spinoff application. The mission-articulation-to-capability transfer has the form
 
-$$C_i^{\text{mission}}(t) = C_i^{\text{market}}(t) + \int_0^t g^{\text{mission}}\!\big(M, D^{\text{anchor}}(\tau)\big) \, d\tau$$
+$$
+C_i^{\text{mission}}(t) = C_i^{\text{market}}(t) + \int_0^t g^{\text{mission}}\!\big(M, D^{\text{anchor}}(\tau)\big) \, d\tau
+\tag{16}
+$$
 
 with the mission-directed increment beyond the market-directed baseline attributable to the mission articulation. The spinoff-to-anchor ratio $\rho = S / D^{\text{anchor}}$ measures the return to the anchor's investment in the form of subsequent commercial-spinoff capability that transfers beyond the original mission.
 
 The developmental-state tradition traces from [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle through [Amsden 1989][book_amsden_1989] Asia's Next Giant, [Wade 1990][book_wade_1990] Governing the Market, [Evans 1995][book_evans_1995] Embedded Autonomy, [Chang 2002][book_chang_2002] Kicking Away the Ladder, [Woo-Cumings 1999][book_woo_cumings_1999] The Developmental State, [Weiss and Thurbon 2020][research_weiss_thurbon_2021] Developmental State or Economic Statecraft, and [Block 2008][research_block_2008] Swimming Against the Current The Rise of a Hidden Developmental State. The framing treats the anchor-demand property through the state-firm coordination that enables the sustained anchor-demand flow across the multi-decade horizon. The state-firm-coordination coefficient admits the compact index form
 
-$$\text{SFC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{reg}} \cdot \phi^{\text{reg-alignment}}_i + w^{\text{coord}} \cdot I^{\text{formal-coord}}_i$$
+$$
+\text{SFC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{reg}} \cdot \phi^{\text{reg-alignment}}_i + w^{\text{coord}} \cdot I^{\text{formal-coord}}_i
+\tag{17}
+$$
 
 with the three weighted components indexing government-revenue share, regulatory-alignment intensity, and formal-coordination institution presence.
 
 The transaction-cost-economics tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1975][research_williamson_1975] Markets and Hierarchies, [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Williamson 2002][research_williamson_2002] The Theory of the Firm as Governance Structure, [Klein et al. 1978][research_klein_crawford_alchian_1978] Vertical Integration Appropriable Rents and the Competitive Contracting Process, [Hart 1988][research_hart_1988] Incomplete Contracts and the Theory of the Firm, and [Grossman and Hart 1986][research_grossman_hart_1986] The Costs and Benefits of Ownership A Theory of Vertical and Lateral Integration. The framing treats the anchor-demand property through the asset-specificity and hold-up problems that shape the anchor-provider governance structure. The asset-specificity index may be written
 
-$$k^{\text{specificity}}_i = 1 - \frac{V^{\text{alternative-use}}_i}{V^{\text{best-use}}_i}$$
+$$
+k^{\text{specificity}}_i = 1 - \frac{V^{\text{alternative-use}}_i}{V^{\text{best-use}}_i}
+\tag{18}
+$$
 
 with $k^{\text{specificity}}\_i \in [0, 1]$ measuring the fraction of the asset value that is lost under alternative use rather than the best use. The SpaceX-NASA relationship exhibits substantial asset-specificity through the Falcon 9 vehicle and Dragon spacecraft configurations that were substantially designed against the NASA ISS-servicing mission requirements, creating hold-up vulnerability that the fixed-price milestone-payment mechanism and the multi-provider redundancy requirement partially mitigate.
 
 The public-private-partnership tradition traces from [Grimsey and Lewis 2004][book_grimsey_lewis_2004] Public Private Partnerships through [Hodge and Greve 2007][research_hodge_greve_2007] Public-Private Partnerships An International Performance Review, [Yescombe 2007][book_yescombe_2007] Public-Private Partnerships Principles of Policy and Finance, [Osborne 2000][book_osborne_2000] Public-Private Partnerships Theory and Practice in International Perspective, [Bovaird 2004][research_bovaird_2004] Public-Private Partnerships From Contested Concepts to Prevalent Practice Assessing the Effectiveness of Public-Private Partnerships. The framing treats the anchor-demand property through the public-private-partnership structure that the COTS program instantiated as an alternative to the traditional cost-plus procurement mechanism. The shared-risk shared-reward identity that the PPP framework formalizes admits the compact form
 
-$$V^{\text{joint}} = \alpha \cdot V^{\text{public}} + (1 - \alpha) \cdot V^{\text{private}} - \sigma^{\text{risk}} \cdot [\lambda \cdot r^{\text{public}} + (1 - \lambda) \cdot r^{\text{private}}]$$
+$$
+V^{\text{joint}} = \alpha \cdot V^{\text{public}} + (1 - \alpha) \cdot V^{\text{private}} - \sigma^{\text{risk}} \cdot [\lambda \cdot r^{\text{public}} + (1 - \lambda) \cdot r^{\text{private}}]
+\tag{19}
+$$
 
 with $\alpha$ the public-value weight, $\lambda$ the public-risk-bearing share, and the risk-premium terms indexing the risk-adjusted return to each partner.
 
 The bilateral-monopoly and bargaining-theory tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982] Perfect Equilibrium in a Bargaining Model, [Binmore et al. 1986][research_binmore_rubinstein_wolinsky_1986] The Nash Bargaining Solution in Economic Modelling, [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications, and [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets. The framing treats the SpaceX-NASA bilateral-monopoly configuration in which the venture holds capability that NASA requires and NASA holds mission-completion authority that the venture requires, producing the bargaining structure that shapes the contract terms. The Nash bargaining solution for the surplus division between the anchor and the provider takes the form
 
-$$(x^*_A, x^*_P) = \arg\max_{x_A + x_P \leq S} \left[(x_A - d_A)^{\alpha} \cdot (x_P - d_P)^{1 - \alpha}\right]$$
+$$
+(x^*_A, x^*_P) = \arg\max_{x_A + x_P \leq S} \left[(x_A - d_A)^{\alpha} \cdot (x_P - d_P)^{1 - \alpha}\right]
+\tag{20}
+$$
 
 with $S$ the total surplus, $d_A, d_P$ the disagreement payoffs, and $\alpha$ the bargaining-power weight.
 
 The absorptive-capacity framing traces from [Cohen and Levinthal 1990][research_cohen_levinthal_1990] Absorptive Capacity A New Perspective on Learning and Innovation through the subsequent extension in [Zahra and George 2002][research_zahra_george_2002] Absorptive Capacity A Review Reconceptualization and Extension, [Lane et al. 2006][research_lane_koka_pathak_2006] The Reification of Absorptive Capacity A Critical Review, and [Todorova and Durisin 2007][research_todorova_durisin_2007] Absorptive Capacity Valuing a Reconceptualization. The framing treats the anchor-demand property through the firm-level capacity to identify, assimilate, and exploit anchor-imposed technical requirements. The framing captures the role of the SpaceX engineering-team absorptive capacity in converting the NASA COTS, Commercial Crew, and HLS requirements into the vehicle-and-spacecraft configurations across the trajectory. The absorptive-capacity intensity admits the compact operationalization
 
-$$AC_i = f\!\left(R\&D_i, H_i^{\text{human-capital}}, T_i^{\text{network-ties}}\right)$$
+$$
+AC_i = f\!\left(R\&D_i, H_i^{\text{human-capital}}, T_i^{\text{network-ties}}\right)
+\tag{21}
+$$
 
 with the three inputs indexing internal research-and-development intensity, human-capital stock, and external-network-tie density.
 
 The ecosystem-strategy framing traces from [Adner 2012][book_adner_2012] The Wide Lens through [Adner 2016][research_adner_2017] Ecosystem as Structure An Actionable Construct for Strategy, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, and [Jacobides et al. 2018][research_jacobides_et_al_2018] Towards a Theory of Ecosystems. The framing treats the anchor-demand property through the coordination among the anchor customer, the provider firm, the subcontractor set, and the parallel-provider set that jointly determine the anchor-demand execution across the multi-year contract periods. The framing captures the ecosystem-value-appropriation
 
-$$V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)$$
+$$
+V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)
+\tag{22}
+$$
 
 with $\phi^{\text{appropriation}}\_i$ the fraction of the ecosystem value the firm captures under the anchor-demand configuration.
 
@@ -173,17 +239,26 @@ The financial-sociology framing traces from [Fligstein 2001][book_fligstein_2001
 
 The reliability-engineering framing traces from [O'Connor and Kleyner 2012][book_oconnor_kleyner_2012] Practical Reliability Engineering through the aerospace-reliability literature including [Musa 1998][book_musa_1998] Software Reliability Engineering, [Duane 1964][research_duane_1964] Learning Curve Approach to Reliability Monitoring, and the NASA-standard framework in [NASA Standard 8709.22][ref_nasa_std_8709_22] on safety and mission assurance for human-rated missions. The framing treats the anchor-demand property through the reliability-through-iteration mechanism by which successive flight demonstrations tighten the Bayesian posterior on the underlying reliability parameter and support the certification progression across the anchor-demand programs. The Bayesian reliability-posterior form allows
 
-$$R^{\text{cert}}_i \mid \{n^{\text{flights}}, s^{\text{successes}}\} \sim \text{Beta}(\alpha_0 + s^{\text{successes}}, \beta_0 + n^{\text{flights}} - s^{\text{successes}})$$
+$$
+R^{\text{cert}}_i \mid \{n^{\text{flights}}, s^{\text{successes}}\} \sim \text{Beta}(\alpha_0 + s^{\text{successes}}, \beta_0 + n^{\text{flights}} - s^{\text{successes}})
+\tag{23}
+$$
 
 with successive flight outcomes tightening the posterior distribution and supporting the certification decisions.
 
 The complexity and systems-of-systems framing developed in the [Maier 1998][research_maier_1998] Architecting Principles for Systems-of-Systems and [Sage and Cuppan 2001][research_sage_cuppan_2001] On the Systems Engineering and Management of Systems of Systems literature frames the anchor-demand configuration through the coupling between the launch-vehicle subsystem, the spacecraft subsystem, the ground-infrastructure subsystem, the anchor-customer requirements subsystem, and the regulatory-review subsystem that jointly determine the mission-execution outcomes. The framing captures the complexity of the multi-program anchor-demand portfolio and the system-integration challenges the SpaceX trajectory addressed at each anchor-program rung. The [INCOSE Systems Engineering Handbook 2015][ref_incose_handbook] Systems Engineering Handbook provides the engineering-process framework within which the anchor-demand execution operates. The Nash bargaining solution for the surplus division between the anchor and the provider can be written as
 
-$$(x^*_A, x^*_P) = \arg\max_{x_A + x_P \leq S} \left[(x_A - d_A)^{\alpha} \cdot (x_P - d_P)^{1 - \alpha}\right]$$
+$$
+(x^*_A, x^*_P) = \arg\max_{x_A + x_P \leq S} \left[(x_A - d_A)^{\alpha} \cdot (x_P - d_P)^{1 - \alpha}\right]
+\tag{24}
+$$
 
 with $S$ the total surplus, $d_A, d_P$ the disagreement payoffs, and $\alpha$ the bargaining-power weight. The Rubinstein alternating-offers extension yields the equilibrium division
 
-$$x^*_A = \frac{1 - \delta_P}{1 - \delta_A \delta_P} \cdot S$$
+$$
+x^*_A = \frac{1 - \delta_P}{1 - \delta_A \delta_P} \cdot S
+\tag{25}
+$$
 
 with $\delta_A, \delta_P$ the discount factors of the anchor and provider, respectively, and the equilibrium share favoring the more patient party under the discount-factor comparison.
 
@@ -193,19 +268,28 @@ The 2008 near-death moment for the SpaceX firm followed the third consecutive Fa
 
 The financial state of the SpaceX firm as of August 2008 reflected the accumulated capital consumption across the six-year Falcon 1 development. The firm had consumed approximately 100 million dollars of founder capital plus approximately 40 million dollars of external investment across the pre-2008 period, leaving approximately 4 to 6 million dollars in remaining cash and no assured capital pipeline as of the third Falcon 1 launch failure. The burn rate at the time was approximately 2 to 3 million dollars per month, providing approximately two months of runway before insolvency. The cash-runway condition satisfied
 
-$$\text{runway}_{\text{Aug 2008}} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{2.5 \text{ M dollars/month}} \approx 2 \text{ months}$$
+$$
+\text{runway}_{\text{Aug 2008}} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{2.5 \text{ M dollars/month}} \approx 2 \text{ months}
+\tag{26}
+$$
 
 which was substantially shorter than the time required for either an emergency financing round to close or the corrective-action-plus-fourth-launch cycle to complete. The [Berger 2021][book_berger_2021] narrative documents the cash-position tracking during the period.
 
 The cumulative-capital-consumed trajectory across the pre-2008 period permits the concise tabulation
 
-$$K^{\text{cum}}(t_{\text{Aug 2008}}) = K^{\text{founder}} + \sum_{r=1}^{R^{\text{rounds}}} I_r \approx 100 \text{ M dollars} + 40 \text{ M dollars} = 140 \text{ M dollars}$$
+$$
+K^{\text{cum}}(t_{\text{Aug 2008}}) = K^{\text{founder}} + \sum_{r=1}^{R^{\text{rounds}}} I_r \approx 100 \text{ M dollars} + 40 \text{ M dollars} = 140 \text{ M dollars}
+\tag{27}
+$$
 
 with the residual cash approximately 5 million dollars representing approximately 3.6 percent of the accumulated capital consumption.
 
 The parallel Tesla Motors financial state was similarly critical, with the firm having consumed approximately 145 million dollars in Roadster development and facing production-quality challenges that had delayed the operational-vehicle delivery cadence. The cross-firm capital-allocation problem the founder faced has the form
 
-$$\max_{K_{\text{SpaceX}}, K_{\text{Tesla}}} \big[u(V^{\text{SpaceX}}(K_{\text{SpaceX}})) + u(V^{\text{Tesla}}(K_{\text{Tesla}}))\big] \quad \text{s.t.} \quad K_{\text{SpaceX}} + K_{\text{Tesla}} \leq K^{\text{founder-total}}$$
+$$
+\max_{K_{\text{SpaceX}}, K_{\text{Tesla}}} \big[u(V^{\text{SpaceX}}(K_{\text{SpaceX}})) + u(V^{\text{Tesla}}(K_{\text{Tesla}}))\big] \quad \text{s.t.} \quad K_{\text{SpaceX}} + K_{\text{Tesla}} \leq K^{\text{founder-total}}
+\tag{28}
+$$
 
 with the constraint approximately 100 million dollars total founder-capital remaining after the PayPal exit and prior investments in both firms. The founder held substantial ownership positions in both firms and faced the personal-financial constraint of choosing between the two firms or attempting to sustain both. The [Vance 2015][book_vance_2015] and [Isaacson 2023][book_isaacson_2023] biographies document the personal-financial constraint and the founder's decision to distribute his remaining approximately 100 million dollars of personal capital across both firms rather than concentrating on either.
 
@@ -221,13 +305,19 @@ The Commercial Resupply Services CRS-1 contract award on December 23 2008 consti
 
 The CRS-1 contract terms awarded SpaceX approximately 1.6 billion dollars covering twelve cargo missions to the International Space Station across the 2010 through 2016 period. The parallel award to Orbital Sciences for the Antares-Cygnus configuration was approximately 1.9 billion dollars covering eight cargo missions. The per-mission price ranged from approximately 133 million dollars per mission for SpaceX to approximately 238 million dollars per mission for Orbital Sciences, reflecting the vehicle-configuration and payload-capacity differences. The CRS-1 per-mission-price differential may be written
 
-$$\Delta P^{\text{per-mission}}_{\text{CRS-1}} = P^{\text{Orbital}} - P^{\text{SpaceX}} = 238 - 133 = 105 \text{ M dollars per mission}$$
+$$
+\Delta P^{\text{per-mission}}_{\text{CRS-1}} = P^{\text{Orbital}} - P^{\text{SpaceX}} = 238 - 133 = 105 \text{ M dollars per mission}
+\tag{29}
+$$
 
 with the 44 percent price differential providing the competitive-provider structure that the multi-provider redundancy requirement supports.
 
 The CRS-1 contract present-value structure yields the compact form
 
-$$PV^{\text{CRS-1}}_{\text{SpaceX}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}$$
+$$
+PV^{\text{CRS-1}}_{\text{SpaceX}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}
+\tag{30}
+$$
 
 with the per-mission payments scheduled across the six-year execution period and the discount rate typically approximately 5 to 8 percent for the cargo-services contract discounting.
 
@@ -235,13 +325,19 @@ The contract-award timing four days after the successful fourth Falcon 1 launch 
 
 The CRS-1 contract structure adopted the fixed-price milestone-payment mechanism under the Federal Acquisition Regulation framework rather than the Space Act Agreement authority that the earlier COTS Round 1 award had used. The transition from Space Act Agreement to FAR-based procurement reflected the NASA requirement for the operational cargo-services contract to satisfy standard federal-procurement requirements, though the fixed-price structure was preserved. The provider selection utility function that NASA applied takes the form
 
-$$U^{\text{selection}}_j = w^{\text{price}} \cdot (-P_j) + w^{\text{technical}} \cdot T_j + w^{\text{schedule}} \cdot S_j + w^{\text{risk}} \cdot (-R_j)$$
+$$
+U^{\text{selection}}_j = w^{\text{price}} \cdot (-P_j) + w^{\text{technical}} \cdot T_j + w^{\text{schedule}} \cdot S_j + w^{\text{risk}} \cdot (-R_j)
+\tag{31}
+$$
 
 with the weight vector reflecting the mission-critical requirements of the ISS-servicing category and each provider's price, technical merit, schedule, and risk scoring. The [NASA COTS Report][ref_nasa_cots_report] documents the procurement-transition rationale.
 
 The value-realization impact of the CRS-1 contract on the SpaceX firm was substantial and immediate. The balance-sheet impact converted the firm from a development-stage venture with limited commercial-revenue prospects to a firm with a multi-year anchored revenue backlog that supported the subsequent Falcon 9 and Dragon development. The balance-sheet transition can be written as
 
-$$\Delta V^{\text{enterprise}}_{\text{Dec 2008}} \approx V^{\text{post-CRS-1}} - V^{\text{pre-CRS-1}} \approx 1.6 \text{ B backlog} \cdot \mu^{\text{value-realization}}$$
+$$
+\Delta V^{\text{enterprise}}_{\text{Dec 2008}} \approx V^{\text{post-CRS-1}} - V^{\text{pre-CRS-1}} \approx 1.6 \text{ B backlog} \cdot \mu^{\text{value-realization}}
+\tag{32}
+$$
 
 with $\mu^{\text{value-realization}}$ the fraction of the contract present value the equity market ascribes to the enterprise value at the award moment, typically approximately 0.3 to 0.5 for the pre-execution contract. The capital-market impact permitted the firm to raise the subsequent Series D private-market capital round of approximately 46 million dollars in August 2009 at substantially higher valuation than would have been possible absent the CRS-1 backlog. The capability-market impact positioned the firm as the COTS Round 1 anchor provider for the subsequent Commercial Crew Program competition.
 
@@ -253,11 +349,17 @@ The Cargo Resupply Services execution from the initial CRS-1 mission on October 
 
 The CRS-1 mission execution proceeded from the initial [CRS-1 mission on October 8 2012][ref_spacex_press_crs1_2012] through approximately twenty operational missions across the extended-CRS-1 contract period. The mission cadence trajectory has the form
 
-$$\dot{q}^{\text{CRS}}_{\text{SpaceX}}(t) = q^{\text{CRS,initial}} + g^{\text{cadence}} \cdot t$$
+$$
+\dot{q}^{\text{CRS}}_{\text{SpaceX}}(t) = q^{\text{CRS,initial}} + g^{\text{cadence}} \cdot t
+\tag{33}
+$$
 
 with $q^{\text{CRS,initial}}$ approximately 2 missions per year in the initial 2012-2014 period and $g^{\text{cadence}}$ approximately 0.3 missions per year cadence growth across the trajectory, converging to the approximately 3 to 5 missions per year contemporary cadence. The [CRS-7 mission on June 28 2015][ref_spacex_press_crs7_2015] experienced a Falcon 9 second-stage overpressure event that destroyed the Dragon spacecraft and its cargo approximately 139 seconds after launch. The reliability posterior update after the CRS-7 loss may be written
 
-$$R^{\text{CRS-7 post-loss}} \mid \{n = 7, s = 6\} \sim \text{Beta}(1 + 6, 1 + 1) = \text{Beta}(7, 2)$$
+$$
+R^{\text{CRS-7 post-loss}} \mid \{n = 7, s = 6\} \sim \text{Beta}(1 + 6, 1 + 1) = \text{Beta}(7, 2)
+\tag{34}
+$$
 
 with posterior mean approximately 0.78 under uniform prior. The subsequent NASA and SpaceX investigation identified the strut-failure mechanism in the second-stage helium pressure vessel and produced the corrective actions that the subsequent CRS missions incorporated.
 
@@ -265,13 +367,19 @@ The Commercial Resupply Services 2 solicitation was announced in 2014 with award
 
 The Dragon 2 cargo configuration first flew on the [CRS-21 mission on December 6 2020][ref_spacex_press_crs21_2020] as the successor to the Dragon 1 cargo arrangement, incorporating the design improvements from the Dragon 2 crew structure and adopting the autonomous docking mechanism rather than the Canadarm2 berthing procedure the Dragon 1 setup had required. The Dragon 2 cargo configuration extended the payload-return capacity and reduced the International Space Station crew workload for the cargo-handling operations. The payload-capacity improvement allows the brief form
 
-$$\frac{m^{\text{payload}}_{\text{Dragon 2 cargo}}}{m^{\text{payload}}_{\text{Dragon 1 cargo}}} \approx \frac{6000 \text{ kg}}{3310 \text{ kg}} \approx 1.81$$
+$$
+\frac{m^{\text{payload}}_{\text{Dragon 2 cargo}}}{m^{\text{payload}}_{\text{Dragon 1 cargo}}} \approx \frac{6000 \text{ kg}}{3310 \text{ kg}} \approx 1.81
+\tag{35}
+$$
 
 with the approximately 81 percent payload-mass improvement enabling the reduced mission cadence required for equivalent cargo delivery.
 
 The contemporary CRS execution cadence as of the drafting date includes approximately three to five SpaceX cargo missions per year, with the mission-manifest coordination between the SpaceX and Northrop Grumman providers reflecting the NASA International Space Station operational-planning requirements. The multi-provider redundancy premium the NASA cargo-services procurement supports takes the form
 
-$$\Delta P^{\text{redundancy}} = P^{\text{multi-provider-set}} - P^{\text{single-provider-competitive}} > 0$$
+$$
+\Delta P^{\text{redundancy}} = P^{\text{multi-provider-set}} - P^{\text{single-provider-competitive}} > 0
+\tag{36}
+$$
 
 which quantifies the transitional-period margin the anchor pays to sustain the redundancy that mission-critical categories require. The extension of the ISS operational period through 2030 under the current NASA plan provides the anchor-demand continuity for the SpaceX cargo-services line across the additional operational horizon.
 
@@ -283,17 +391,26 @@ The Commercial Crew Program progression proceeded from the Commercial Crew Devel
 
 The CCtCap award on September 16 2014 documented in the [NASA CCtCap Award Announcement][ref_nasa_cctcap_press_2014] provided approximately 4.2 billion dollars to Boeing for the Starliner spacecraft and approximately 2.6 billion dollars to SpaceX for the Dragon 2 spacecraft across the certification and operational-mission phases. The price differential between the two providers can be written as
 
-$$\Delta P^{\text{CCtCap}}_{\text{Boeing vs SpaceX}} = 4.2 - 2.6 = 1.6 \text{ B dollars}$$
+$$
+\Delta P^{\text{CCtCap}}_{\text{Boeing vs SpaceX}} = 4.2 - 2.6 = 1.6 \text{ B dollars}
+\tag{37}
+$$
 
 with the 62 percent Boeing premium reflecting the vehicle-configuration and per-mission price differences. The per-seat cost calculation has the form
 
-$$P^{\text{per-seat}}_i = \frac{P^{\text{per-mission}}_i}{n^{\text{seats-per-mission}}_i}$$
+$$
+P^{\text{per-seat}}_i = \frac{P^{\text{per-mission}}_i}{n^{\text{seats-per-mission}}_i}
+\tag{38}
+$$
 
 with $n^{\text{seats-per-mission}} = 4$ typical for the Commercial Crew rotation missions. Under the SpaceX approximately 262 million dollars per crew-mission and the Boeing approximately 654 million dollars per crew-mission, the per-seat cost is approximately 65 million dollars for SpaceX and approximately 163 million dollars for Boeing across the price-per-seat calculation.
 
 The certification-timeline differential between SpaceX and Boeing takes the compact tabulation
 
-$$\Delta T^{\text{cert}}_{\text{Boeing vs SpaceX}} = T^{\text{Boeing operational}} - T^{\text{SpaceX operational}}$$
+$$
+\Delta T^{\text{cert}}_{\text{Boeing vs SpaceX}} = T^{\text{Boeing operational}} - T^{\text{SpaceX operational}}
+\tag{39}
+$$
 
 with the SpaceX operational Demo-2 mission on May 30 2020 preceding the Boeing Crewed Flight Test on June 5 2024 by approximately four years, illustrating the execution-differential the two providers exhibited under the CCtCap program.
 
@@ -303,7 +420,10 @@ The SpaceX operational Commercial Crew missions began with the [Crew-1 mission o
 
 The SpaceX Commercial Crew market position as of the drafting date reflects the execution differential between the two providers, with SpaceX having conducted substantially more operational missions than Boeing and having established the crew-rotation cadence that the ISS operational requirements demand. The [SpaceX Falcon 9 User's Guide][ref_spacex_falcon9_users_guide] documents the vehicle-configuration that supports the Commercial Crew operational execution, and the [SpaceX Starship User's Guide][ref_spacex_starship_program] documents the successor-vehicle arrangement under development for the HLS mission architecture. The reliability posterior after the SpaceX crewed flight record admits the Beta-posterior form
 
-$$R^{\text{SpaceX-crew}} \mid \{n^{\text{SpaceX-crewed}}, s^{\text{SpaceX-crewed}}\} \sim \text{Beta}(\alpha_0 + s^{\text{SpaceX-crewed}}, \beta_0 + n^{\text{SpaceX-crewed}} - s^{\text{SpaceX-crewed}})$$
+$$
+R^{\text{SpaceX-crew}} \mid \{n^{\text{SpaceX-crewed}}, s^{\text{SpaceX-crewed}}\} \sim \text{Beta}(\alpha_0 + s^{\text{SpaceX-crewed}}, \beta_0 + n^{\text{SpaceX-crewed}} - s^{\text{SpaceX-crewed}})
+\tag{40}
+$$
 
 with the successive-mission accumulation tightening the posterior distribution and supporting the NASA certification progression for the additional Commercial Crew operational missions.
 
@@ -315,13 +435,19 @@ The HLS solicitation began in 2019 under the Vice President-directed acceleratio
 
 The HLS Option A award on April 16 2021 documented in the [NASA HLS Option A Award Announcement][ref_nasa_hls_option_a_2021] selected SpaceX as the sole provider for the Artemis III lunar landing at approximately 2.89 billion dollars. The per-provider allocation across the initial ten-month base period has the concise tabulation
 
-$$\text{allocation}_j^{\text{HLS base}} = \{\text{SpaceX}: 135 \text{ M}, \, \text{Blue Origin}: 579 \text{ M}, \, \text{Dynetics}: 253 \text{ M}\}$$
+$$
+\text{allocation}_j^{\text{HLS base}} = \{\text{SpaceX}: 135 \text{ M}, \, \text{Blue Origin}: 579 \text{ M}, \, \text{Dynetics}: 253 \text{ M}\}
+\tag{41}
+$$
 
 with the Option A award subsequently concentrating the funding on the SpaceX provider. The selection reflected the technical evaluation that identified the SpaceX Starship configuration as the highest-technical-merit lowest-price proposal.
 
 The Blue Origin protest to the Option A award was filed on April 26 2021 and denied by the Government Accountability Office in the [decision of July 30 2021][ref_gao_blue_origin_hls_protest_2021]. The subsequent Blue Origin lawsuit in the United States Court of Federal Claims was dismissed on November 4 2021, with the court finding no material impropriety in the NASA source-selection decision. The extended review-and-litigation period delayed the operational contract execution by approximately eight months. The delay-cost estimation may be written
 
-$$\Delta C^{\text{litigation-delay}} \approx r \cdot V^{\text{contract}} \cdot \Delta T^{\text{delay}} = 0.08 \cdot 2.89 \text{ B dollars} \cdot 0.67 \text{ years} \approx 155 \text{ M dollars}$$
+$$
+\Delta C^{\text{litigation-delay}} \approx r \cdot V^{\text{contract}} \cdot \Delta T^{\text{delay}} = 0.08 \cdot 2.89 \text{ B dollars} \cdot 0.67 \text{ years} \approx 155 \text{ M dollars}
+\tag{42}
+$$
 
 with the discount-rate approximately 8 percent and the delay approximately 8 months, illustrating the opportunity-cost the protest-and-litigation period imposed on the contract execution.
 
@@ -329,13 +455,19 @@ The [NASA HLS Option B award announcement on November 15 2022][ref_nasa_hls_opti
 
 The NASA HLS Sustaining lunar transportation announcement on May 19 2023 selected Blue Origin as the second provider for the sustaining lunar-transportation architecture across subsequent Artemis missions at approximately 3.4 billion dollars, providing the provider-diversity that the mission-critical crew-transportation category requires. The inclusion of Blue Origin as a second provider addressed the Government Accountability Office recommendation from the [GAO 2022 Human Landing System evaluation][ref_gao_hls_2022] and the [CRS 2022 Artemis Program report][ref_crs_artemis_2022] that identified single-provider concentration as a risk. The historical HLS-and-lunar-transportation context is developed in the [Bilstein 1996][book_bilstein_1996] Stages to Saturn treatment of the Apollo lunar-transportation architecture and the [Chaikin 2007][book_chaikin_2007] A Man on the Moon treatment of the Apollo mission execution. The multi-provider portfolio-share tabulation after the sustaining award admits the compact form
 
-$$\text{portfolio-share}^{\text{HLS post-sustaining}} = \{\text{SpaceX}: 4.04 \text{ B}, \, \text{Blue Origin}: 3.4 \text{ B}\}$$
+$$
+\text{portfolio-share}^{\text{HLS post-sustaining}} = \{\text{SpaceX}: 4.04 \text{ B}, \, \text{Blue Origin}: 3.4 \text{ B}\}
+\tag{43}
+$$
 
 with the share allocation approximately 54 percent to SpaceX and approximately 46 percent to Blue Origin across the total 7.44 billion dollars of HLS commitment.
 
 The Starship HLS testing across the 2023 through 2026 period includes the integrated flight tests of the Starship vehicle at the Boca Chica Starbase launch site as documented in the [SpaceX Starship program page][ref_spacex_starship_program], with the test-cadence acceleration approaching the operational-cadence achievement the Artemis III mission requires. The reliability posterior required for the Artemis III crew authorization satisfies
 
-$$R^{\text{HLS-crew-cert}} \geq R^{\text{human-rated threshold}} \approx 0.9995$$
+$$
+R^{\text{HLS-crew-cert}} \geq R^{\text{human-rated threshold}} \approx 0.9995
+\tag{44}
+$$
 
 with the human-rated reliability threshold requiring substantial flight-test count accumulation before the crew authorization can proceed.
 
@@ -349,21 +481,33 @@ The National Reconnaissance Office relationship reportedly includes a contract o
 
 The Space Force National Security Space Launch program certification progression provided the launch-services anchor for the SpaceX firm across the parallel Phase 1A, Phase 2, and Phase 3 Lane 2 award periods. The [Space Force NSSL Phase 1A award of 2018][ref_space_force_nssl_phase1a_2018] added SpaceX to the NSSL Phase 1A provider set alongside the United Launch Alliance incumbent. The [Space Force NSSL Phase 2 award of August 2020][ref_space_force_nssl_phase2_2020] provided approximately 40 percent of the NSSL Phase 2 launch missions to SpaceX with the remaining 60 percent to ULA across the fiscal year 2020 through 2024 mission set. The Phase 2 allocation permits the concise tabulation
 
-$$\text{NSSL Phase 2 share} = \{\text{SpaceX}: 0.40, \, \text{ULA}: 0.60\}$$
+$$
+\text{NSSL Phase 2 share} = \{\text{SpaceX}: 0.40, \, \text{ULA}: 0.60\}
+\tag{45}
+$$
 
 The [Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_spacenews] added Blue Origin as a third provider alongside SpaceX and ULA, with the SpaceX allocation approximately 60 percent of the total Phase 3 Lane 2 launch mass. The Phase 3 Lane 2 allocation yields the compact tabulation
 
-$$\text{NSSL Phase 3 Lane 2 share} = \{\text{SpaceX}: 0.60, \, \text{ULA}: 0.25, \, \text{Blue Origin}: 0.15\}$$
+$$
+\text{NSSL Phase 3 Lane 2 share} = \{\text{SpaceX}: 0.60, \, \text{ULA}: 0.25, \, \text{Blue Origin}: 0.15\}
+\tag{46}
+$$
 
 with the concentration index by launch mass
 
-$$\text{HHI}^{\text{NSSL Phase 3 Lane 2}} = \sum_i s_i^2 = 0.60^2 + 0.25^2 + 0.15^2 = 0.445$$
+$$
+\text{HHI}^{\text{NSSL Phase 3 Lane 2}} = \sum_i s_i^2 = 0.60^2 + 0.25^2 + 0.15^2 = 0.445
+\tag{47}
+$$
 
 reflecting the SpaceX-dominant concentration under the certification-and-execution differential.
 
 The direct-to-cell partnership announced in August 2022 with T-Mobile documented in the [T-Mobile Coverage Above and Beyond release][ref_spacex_starlink_direct_to_cell_tmobile_2022] and the subsequent [FCC direct-to-cell authorization][ref_fcc_direct_to_cell_2024] added the commercial-communication service line that operates in parallel with the Starshield defense-communication service line. The [International Traffic in Arms Regulations codified at 22 CFR Parts 120 through 130][ref_itar_22_cfr_120_130] govern the export-control restrictions on the launch-vehicle and satellite technical data across the anchor-demand configuration. The [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020] govern the international-level spectrum-coordination requirements. The technical architecture uses common Starlink satellite bus hardware with service-provider software differentiation. The commercial-defense revenue-sharing across the shared-bus configuration takes the form
 
-$$R^{\text{shared-bus total}} = R^{\text{Starlink-commercial}} + R^{\text{Starshield-defense}} \cdot (1 + \phi^{\text{shared-cost-recovery}})$$
+$$
+R^{\text{shared-bus total}} = R^{\text{Starlink-commercial}} + R^{\text{Starshield-defense}} \cdot (1 + \phi^{\text{shared-cost-recovery}})
+\tag{48}
+$$
 
 with $\phi^{\text{shared-cost-recovery}}$ the defense-customer premium that recovers the shared-cost allocation.
 
@@ -371,7 +515,10 @@ The ballistic-missile-defense architecture referenced in the 2025 Golden Dome po
 
 The anchor-demand portfolio diversification index across the SpaceX anchor programs as of the drafting date can be written as
 
-$$\text{HHI}^{\text{anchor-portfolio}}_{\text{SpaceX}} = \sum_k \left(\frac{D_{i,k}^{\text{anchor}}}{D_i^{\text{anchor-total}}}\right)^2$$
+$$
+\text{HHI}^{\text{anchor-portfolio}}_{\text{SpaceX}} = \sum_k \left(\frac{D_{i,k}^{\text{anchor}}}{D_i^{\text{anchor-total}}}\right)^2
+\tag{49}
+$$
 
 with the anchor programs including NASA CRS, NASA Commercial Crew, NASA HLS, Space Force NSSL, and Starshield. Under industry-analyst estimates of the approximate revenue contribution from each program, the HHI is approximately 0.25 to 0.35, indicating substantial diversification across the anchor-portfolio and substantially reduced single-anchor concentration relative to the pre-2020 configuration when NASA CRS was the dominant anchor.
 
@@ -383,25 +530,37 @@ The Boeing Air Mail Contract history from the 1927 Contract Air Mail Route 18 th
 
 The Colt firearms military-contract anchor from the 1836 Colt Paterson through the Mexican-American War 1846-1848 contracts illustrates the anchor-demand pattern in interchangeable-parts manufacturing. The United States Army contract for Colt Walker revolvers during the war provided the initial anchor-demand that established the Colt Manufacturing Company as an operational firm. The Colt Walker contract of January 1847 provided approximately 1000 revolvers at approximately 28 dollars per unit for total approximately 28000 dollars, admitting the compact anchor-value-versus-founder-capital ratio
 
-$$\rho^{\text{Colt anchor/founder}} = \frac{V^{\text{Walker contract}}}{V^{\text{founder capital pre-contract}}} \gg 1$$
+$$
+\rho^{\text{Colt anchor/founder}} = \frac{V^{\text{Walker contract}}}{V^{\text{founder capital pre-contract}}} \gg 1
+\tag{50}
+$$
 
 with the ratio substantially exceeding unity reflecting the transformation of the venture's financial state through the anchor-demand transition. The [Hosley 1996][book_hosley_1996] Colt The Making of an American Legend documents the trajectory.
 
 The Eli Whitney interchangeable-parts musket contract of 1798 illustrates the deep-historical precedent for the state-directed technology development pattern. The United States War Department contract for 10000 muskets across a ten-year period established the manufacturing infrastructure that subsequently developed the interchangeable-parts production system that transformed the manufacturing sector. The contract-value-per-year trajectory has the form
 
-$$V^{\text{Whitney annual}} = \frac{V^{\text{contract-total}}}{T^{\text{execution period}}} = \frac{134000 \text{ dollars}}{10 \text{ years}} = 13400 \text{ dollars per year}$$
+$$
+V^{\text{Whitney annual}} = \frac{V^{\text{contract-total}}}{T^{\text{execution period}}} = \frac{134000 \text{ dollars}}{10 \text{ years}} = 13400 \text{ dollars per year}
+\tag{51}
+$$
 
 with the annual contract value providing sustained anchor-demand across the ten-year execution period that supported the manufacturing-methodology development. The [Hounshell 1984][book_hounshell_1984] From the American System to Mass Production documents the trajectory.
 
 The Boeing B-17, B-29, KC-135, and 707 progression illustrates the anchor-demand-to-commercial-spinoff pattern that the SpaceX case now replicates in the space-launch sector. The B-17 and B-29 wartime heavy-bomber contracts established the manufacturing infrastructure that subsequently developed the KC-135 military tanker and the 707 commercial airliner. The anchor-to-spinoff ratio for the Boeing case may be written
 
-$$\rho^{\text{Boeing spinoff}} = \frac{V^{\text{commercial-airliner spinoff}}}{V^{\text{military-contract anchor}}}$$
+$$
+\rho^{\text{Boeing spinoff}} = \frac{V^{\text{commercial-airliner spinoff}}}{V^{\text{military-contract anchor}}}
+\tag{52}
+$$
 
 with the commercial-airliner value across the multi-decade 707 through 787 product line substantially exceeding the military-contract anchor value, illustrating the spinoff-return magnitude the anchor-demand pattern can produce. The [Serling 1992][book_serling_1992] Legend and Legacy and [Newhouse 1982][book_newhouse_1982] The Sporty Game document the trajectory.
 
 The Lockheed Skunk Works P-80 through F-117 anchor-demand progression illustrates the pattern of sustained state-directed classified-project anchor demand that maintained the engineering-organization capability across the multi-decade period. The [Rich and Janos 1994][book_rich_janos_1994] Skunk Works and [Miller 1995][book_miller_1995] Lockheed Skunk Works The First Fifty Years document the trajectory across the multiple project phases. The P-80, U-2, SR-71, and F-117 projects each provided mission-directed anchor demand that supported the Skunk Works organizational form. The inter-project anchor-continuity condition allows the brief form
 
-$$\text{gap}(k, k+1) = t^{\text{start},k+1} - t^{\text{end},k} < \Delta T^{\text{organizational-persistence}}$$
+$$
+\text{gap}(k, k+1) = t^{\text{start},k+1} - t^{\text{end},k} < \Delta T^{\text{organizational-persistence}}
+\tag{53}
+$$
 
 with the gap between successive projects required to remain below the organizational-persistence threshold to maintain the engineering-team capability. The [Rich and Janos 1994][book_rich_janos_1994] Skunk Works documents the trajectory.
 
@@ -409,7 +568,10 @@ The Northrop B-2 Spirit anchor-demand pattern from the 1981 program initiation t
 
 The Apollo Program contractor anchor pattern including North American Aviation, Grumman, Boeing, Rocketdyne, and IBM illustrates the state-directed program anchor demand across the multi-provider prime-contractor set. The Apollo Guidance Computer development that supported the Apollo mission execution is developed in the [Apollo Guidance Computer article][related_post_a242_apollo_guidance], and the aerospace-computing historical trajectory within which the Apollo lineage permits placement is developed in the [Aerospace, Programming Languages, and Information Technology Co-Development series opener][related_post_a237_aerospace_framing]. The Apollo contractor-share concentration takes the form
 
-$$s^{\text{Apollo contractor}}_j = \frac{V^{\text{prime-contract}}_j}{\sum_k V^{\text{prime-contract}}_k}$$
+$$
+s^{\text{Apollo contractor}}_j = \frac{V^{\text{prime-contract}}_j}{\sum_k V^{\text{prime-contract}}_k}
+\tag{54}
+$$
 
 with the shares distributed across the prime-contractor set as documented in the [Bilstein 1996][book_bilstein_1996] Stages to Saturn treatment. The per-contractor anchor demand supported the capability development that the [Chaikin 2007][book_chaikin_2007] A Man on the Moon and [Murray and Cox 1989][book_murray_cox_1989] Apollo document. The [Mindell 2008][book_mindell_2008] Digital Apollo treatment provides the Apollo Guidance Computer-and-human-factors focus, and the [Neufeld 2013][book_neufeld_2013] Von Braun and [Neufeld 1995][book_neufeld_1995] The Rocket and the Reich document the pre-Apollo Peenemünde lineage that shaped the Saturn V development.
 
@@ -483,13 +645,19 @@ The contemporary comparative landscape for the anchor-demand condition across th
 
 Boeing has the Commercial Crew Program anchor-demand contract but has faced substantial development delay and cost overrun with the Starliner spacecraft, and the ongoing crew-transportation service execution remains dominated by SpaceX. The Commercial Crew operational-mission share can be written as
 
-$$s^{\text{crew-missions}}_i = \frac{n^{\text{operational-missions}}_i}{\sum_j n^{\text{operational-missions}}_j}$$
+$$
+s^{\text{crew-missions}}_i = \frac{n^{\text{operational-missions}}_i}{\sum_j n^{\text{operational-missions}}_j}
+\tag{55}
+$$
 
 with the SpaceX share substantially above the Boeing share as of the drafting date. The Boeing Starliner Crewed Flight Test in June 2024 experienced the thruster-and-helium-leak issues that required uncrewed vehicle return, extending the Boeing service-commencement delay by additional years.
 
 Blue Origin has secured anchor-demand awards including the [Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_spacenews] and the [NASA HLS Sustaining award of 2023][ref_nasa_hls_sustaining_2023] but has not achieved comparable operational-execution cadence to SpaceX. The comparative anchor-share ratio has the form
 
-$$\rho^{\text{anchor-share}}_{\text{Blue Origin vs SpaceX}} = \frac{\sigma^{\text{anchor}}_{\text{Blue Origin}}}{\sigma^{\text{anchor}}_{\text{SpaceX}}}$$
+$$
+\rho^{\text{anchor-share}}_{\text{Blue Origin vs SpaceX}} = \frac{\sigma^{\text{anchor}}_{\text{Blue Origin}}}{\sigma^{\text{anchor}}_{\text{SpaceX}}}
+\tag{56}
+$$
 
 with the Blue Origin anchor share exceeding the SpaceX anchor share since Blue Origin operates primarily on state-anchor demand without a mature commercial-spinoff revenue channel comparable to Starlink. The New Glenn first flight occurred in January 2025 and the operational-cadence achievement remains at earlier maturity.
 
@@ -505,7 +673,10 @@ The anchor-demand condition applies to the launch-sector firms as a cross-sectio
 
 Blue Origin exhibits partial anchor-demand closure through the Space Force NSSL Phase 3 Lane 2 award and the NASA HLS Sustaining award, but the anchor-demand-to-total-revenue ratio remains lower than the SpaceX ratio through the pre-operational stage of the New Glenn vehicle. The comparative sub-property closure vector across the adjacent-firm set may be written
 
-$$\boldsymbol{\phi}_j^{\text{anchor-demand}} \in \{0, 1\}^{5}$$
+$$
+\boldsymbol{\phi}_j^{\text{anchor-demand}} \in \{0, 1\}^{5}
+\tag{57}
+$$
 
 with each firm's closure vector indicating the satisfaction status across the five anchor-demand sub-properties. Rocket Lab exhibits partial anchor-demand closure through the United States national-security-launch customer set and the NASA acquisitions. ULA exhibits substantial anchor-demand closure through the Space Force NSSL revenue but operates under the incumbent expendable-vehicle cost structure that does not close the value-gradient sub-property the [Value Gradient article A282][related_post_a282_spacex_value_gradient] treats. The international launch-provider set exhibits distinct national-anchor-demand configurations that reflect the state-firm coordination structure the developmental-state tradition documents.
 
@@ -523,13 +694,19 @@ The anchor-demand framing the article develops is one of several analytical fram
 
 The state-capitalism framing developed in the state-firm coordination scholarship frames SpaceX as an instance of United States state capitalism operating through procurement-mechanism configurations rather than through direct state ownership. The state-capitalism index takes the compact form
 
-$$\text{SC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{ownership}} \cdot s^{\text{state-ownership}}_i + w^{\text{strategic}} \cdot I^{\text{strategic-sector}}_i$$
+$$
+\text{SC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{ownership}} \cdot s^{\text{state-ownership}}_i + w^{\text{strategic}} \cdot I^{\text{strategic-sector}}_i
+\tag{58}
+$$
 
 with the three weighted components indexing government-revenue share, state-ownership share, and strategic-sector-designation indicator. The framing captures the substantial government-anchor share of revenue but understates the dual-class founder-control governance structure.
 
 The defense-industrial-base framing developed in [Hunter 2016][book_hunter_2016] and [Weiss 2014][book_weiss_2014] frames SpaceX as an entrant into the United States defense-industrial base whose comparative advantage lies in the fixed-price procurement mechanism. The framing formalizes the defense-industrial-base spending share the firm captures through the compact form
 
-$$s^{\text{DIB}}_i = \frac{R^{\text{defense}}_i}{R^{\text{DIB-total}}}$$
+$$
+s^{\text{DIB}}_i = \frac{R^{\text{defense}}_i}{R^{\text{DIB-total}}}
+\tag{59}
+$$
 
 with $R^{\text{DIB-total}}$ the aggregate defense-industrial-base contract awards across all providers. The framing captures the Space Force NSSL certification progression and the Starshield defense-service line.
 
@@ -539,19 +716,28 @@ The mission-oriented-innovation framing developed in [Mazzucato 2013][book_mazzu
 
 The rent-seeking framing developed in [Buchanan and Tullock 1962][book_buchanan_tullock_1962], [Stigler 1971][research_stigler_1971], and [Krueger 1974][research_krueger_1974] frames the anchor-demand structure as an instance of the rent-extraction pattern in which private firms benefit from state-created contracting opportunities. The rent-transfer identity takes the form
 
-$$\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}$$
+$$
+\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}
+\tag{60}
+$$
 
 with the rent equal to the difference between the observed provider profit and the counterfactual competitive-benchmark profit that arm's-length market arrangements would produce. The framing captures the concern that the milestone-payment procurement mechanism concentrates the resulting surplus in the incumbent provider set.
 
 The military-Keynesianism framing developed in [Melman 1970][book_melman_1970] Pentagon Capitalism frames the anchor-demand structure as an instance of the defense-spending macroeconomic pattern. The military-Keynesian multiplier can be written as
 
-$$\mu^{\text{military-Keynesian}} = \frac{\Delta Y^{\text{aggregate}}}{\Delta G^{\text{defense-spending}}}$$
+$$
+\mu^{\text{military-Keynesian}} = \frac{\Delta Y^{\text{aggregate}}}{\Delta G^{\text{defense-spending}}}
+\tag{61}
+$$
 
 with $\mu^{\text{military-Keynesian}}$ typically empirically estimated at approximately 0.5 to 1.5 across the defense-spending literature. The framing captures the Space Force NSSL and Starshield contributions but understates the NASA civilian-science anchor-demand components.
 
 The real-options and staged-investment framing developed in [Dixit and Pindyck 1994][book_dixit_pindyck_1994] Investment Under Uncertainty and [Trigeorgis 1996][book_trigeorgis_1996] Real Options frames the anchor-demand configuration as a sequential set of real options across the NASA COTS, Commercial Crew, HLS, and Space Force NSSL programs. The framing captures the staged-investment structure where each subsequent anchor-program award represents an option-exercise decision by the anchor customer against the provider's demonstrated capability accumulation. The sequential-option value permits the backward-induction recursion
 
-$$V^{\text{anchor-option}}_t = \max\!\left\{V^{\text{exercise}}_t, \, e^{-r \Delta t} \cdot E\!\left[V^{\text{anchor-option}}_{t+1} \mid F_t\right]\right\}$$
+$$
+V^{\text{anchor-option}}_t = \max\!\left\{V^{\text{exercise}}_t, \, e^{-r \Delta t} \cdot E\!\left[V^{\text{anchor-option}}_{t+1} \mid F_t\right]\right\}
+\tag{62}
+$$
 
 with the anchor customer choosing at each stage between exercising the option through award and deferring for additional information accumulation. The framing complements the milestone-payment framing by treating the award-timing decisions as first-order objects of analysis.
 
@@ -559,7 +745,10 @@ The actor-network-theory framing developed in [Latour 1987][book_latour_1987] Sc
 
 The resource-based-view and dynamic-capabilities framing developed in [Wernerfelt 1984][research_wernerfelt_1984] A Resource-Based View of the Firm and [Barney 1991][research_barney_1991] Firm Resources and Sustained Competitive Advantage, extended in [Teece et al. 1997][research_teece_pisano_shuen_1997] Dynamic Capabilities and Strategic Management, frames the SpaceX anchor-demand trajectory as an instance of firm-capability accumulation that produced the sustained competitive advantage across the anchor-program competitions. The resource-heterogeneity index has the form
 
-$$H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)$$
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{63}
+$$
 
 with $\omega_r$ the resource weight and the four V-R-I-N factors indicating value, rarity, inimitability, and non-substitutability. The framing captures the role of the SpaceX in-house engineering capability and vertical-integration configuration that supported the sustained anchor-demand competitiveness.
 
@@ -579,15 +768,24 @@ The five sub-properties jointly enable the anchor-demand property. The SpaceX tr
 
 The joint-satisfaction condition may be written
 
-$$\text{AD closure} = \bigwedge_{k=1}^{5} \phi_k$$
+$$
+\text{AD closure} = \bigwedge_{k=1}^{5} \phi_k
+\tag{64}
+$$
 
 with $\phi_k$ the closure indicator for sub-property $k$ and the conjunction requiring all five sub-properties to be closed. The closure vector for a candidate case $j$ is
 
-$$\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5$$
+$$
+\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5
+\tag{65}
+$$
 
 with the candidate's anchor-demand closure occurring when $\boldsymbol{\phi}\_j = \mathbf{1}$. Under order-of-magnitude estimates $p_k \approx 0.25$ across the five sub-properties and independence, the joint-closure probability is approximately
 
-$$P^{\text{AD closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k \approx 0.001$$
+$$
+P^{\text{AD closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k \approx 0.001
+\tag{66}
+$$
 
 which suggests the closure singularity the article identifies in the SpaceX case. Under positive-correlation adjustment, the joint probability rises but remains substantially below the observed single-case rate.
 
@@ -616,6 +814,599 @@ The counterfactual anchor-demand trajectory absent the COTS Program admits parti
 The Starshield revenue and mission composition remains substantially classified as of the drafting date and permits only partial reconstruction through the trade-press coverage.
 
 The competitive-response timeline under which the alternative launch providers will match the SpaceX anchor-demand configuration is treated in the closing article A292.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 66 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 66, 31 are established and 35 are bespoke.
+Contract values and prices are nominal United States dollars, written in millions or billions as each equation states, shares and reliabilities are dimensionless fractions, and the value, capability and coordination terms are abstract indices without units.
+
+*Equation 1, Bespoke Anchor-Demand Condition.*
+The article requires the share of revenue from anchor customers to stay at or above a threshold during the phase before commercial spinoff revenue matures.
+
+$$
+\frac{D_i^{\text{anchor}}(t)}{D_i^{\text{total}}(t)} \geq \theta^{\text{anchor}} \quad \text{during the pre-spinoff phase}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Anchor Demand as a Sum of Programmes.*
+Anchor demand is written as a sum of programme demands, each switched on by an indicator over the activation window of the programme.
+
+$$
+D_i^{\text{anchor}}(t) = \sum_{k \in \text{programs}} D_{i,k}^{\text{gov}}(t) \cdot \mathbb{1}[t_k^{\text{start}} \leq t \leq t_k^{\text{end}}]
+\tag{2}
+$$
+
+**Equation 3, Variance of a Sum of Programme Demands.**
+The variance of a sum equals the sum of the programme variances plus twice the sum of their pairwise covariances.
+
+$$
+\text{Var}\!\left(D_i^{\text{anchor}}\right) = \sum_{k} \text{Var}\!\left(D_{i,k}^{\text{gov}}\right) + 2 \sum_{j<k} \text{Cov}\!\left(D_{i,j}^{\text{gov}}, D_{i,k}^{\text{gov}}\right)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Anchor-Demand Counterfactual.*
+The anchor-demand contribution is defined as observed capability less the capability of a counterfactual trajectory without anchor demand.
+
+$$
+\Delta T_i^{\text{anchor}}(t) = T_i^{\text{observed}}(t) - T_i^{\text{no-anchor counterfactual}}(t)
+\tag{4}
+$$
+
+**Equation 5, Instrumental Variable Estimator.**
+The instrumental variable estimator divides the covariance of the outcome with the instrument by the covariance of anchor demand with the instrument, under the condition that the instrument is uncorrelated with the residual.
+
+$$
+\hat{\beta}_D^{\text{IV}} = \frac{\text{Cov}(T_i, Z_i)}{\text{Cov}(D_i^{\text{anchor}}, Z_i)}, \quad E[Z_i \, \varepsilon_i] = 0
+\tag{5}
+$$
+
+*Equation 6, Bespoke Anchor-Share Requirement over the Pre-Spinoff Phase.*
+The article requires the anchor share of revenue to stay at or above the threshold from founding until spinoff revenue matures.
+
+$$
+\sigma_i(t) \geq \theta^{\text{anchor}} \quad \forall t \in [t^{\text{founding}}, t^{\text{spinoff-mature}}]
+\tag{6}
+$$
+
+*Equation 7, Bespoke Exponential Decay of Anchor Share.*
+The article models the anchor share as an initial share decaying exponentially towards a steady floor.
+
+$$
+\sigma_i(t) = \sigma_i^{\text{initial}} \cdot e^{-\lambda t} + \sigma_i^{\text{floor}}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Anchor Value Channels.*
+The article divides anchor value into revenue, credential, standard transfer, redundancy and option channels.
+
+$$
+V^{\text{anchor}}_i = V^{\text{revenue}}_i + V^{\text{credential}}_i + V^{\text{standard-transfer}}_i + V^{\text{redundancy}}_i + V^{\text{option}}_i
+\tag{8}
+$$
+
+**Equation 9, Anchor Break-Even Condition.**
+Anchor revenue must exceed the fixed capability cost plus the marginal cost of the anchor missions for the anchor alone to cover the capability.
+
+$$
+R^{\text{anchor}}_i > F^{\text{capability}}_i + c^{\text{marginal}}_i \cdot q^{\text{anchor}}_i
+\tag{9}
+$$
+
+*Equation 10, Bespoke Reliability Transfer to Commercial Customers.*
+The article sets the reliability commercial customers receive equal to the anchor reliability less a small degradation for commercial mission profiles.
+
+$$
+R^{\text{sector}}_{\text{comm}}(t) = R^{\text{anchor}}(t) - \Delta R^{\text{degradation}}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Commercial Surplus from Reliability Spillover.*
+The article measures the surplus commercial customers gain from anchor-funded reliability as the integral of their marginal willingness to pay for reliability between their requirement and the anchor level.
+
+$$
+\Delta CS^{\text{comm}} = \int_{R^{\text{comm-requirement}}}^{R^{\text{anchor}}} \frac{\partial WTP^{\text{comm}}}{\partial R} \, dR
+\tag{11}
+$$
+
+**Equation 12, Present Value of Milestone Payments.**
+The present value of a milestone contract sums each payment discounted to its achievement time.
+
+$$
+PV^{\text{contract}}_i = \sum_{k=1}^{K^{\text{milestones}}} \frac{P_k^{\text{milestone}}}{(1 + r)^{t_k}}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Single-Anchor Dependency Ratio.*
+The article measures dependence on one anchor customer as its demand divided by the combined demand of all other anchors.
+[Williamson 1985][book_williamson_1985]
+
+$$
+\delta_{i,k} = \frac{D_{i,k}^{\text{anchor}}}{\sum_{j \neq k} D_{i,j}^{\text{anchor}}}
+\tag{13}
+$$
+
+**Equation 14, Profit under a Fixed-Price Contract.**
+Under a fixed-price contract the provider keeps the difference between the contract price and the realised cost.
+
+$$
+\pi_i^{\text{fixed-price}} = P^{\text{fixed}} - c_i^{\text{realized}}
+\tag{14}
+$$
+
+**Equation 15, Profit under a Cost-Plus Contract.**
+Under a cost-plus contract the provider earns the negotiated margin on realised cost, which rewards higher cost.
+
+$$
+\pi_i^{\text{cost-plus}} = \phi_i \cdot c_i^{\text{realized}}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Mission-Directed Capability Increment.*
+Mission-directed capability is the market-directed baseline plus the integral of an increment driven by the mission and anchor demand.
+[Mazzucato 2013][book_mazzucato_2013]
+[Mazzucato 2021][book_mazzucato_2021]
+
+$$
+C_i^{\text{mission}}(t) = C_i^{\text{market}}(t) + \int_0^t g^{\text{mission}}\!\big(M, D^{\text{anchor}}(\tau)\big) \, d\tau
+\tag{16}
+$$
+
+*Equation 17, Bespoke State-Firm Coordination Coefficient.*
+The article weights the government share of revenue, a regulatory alignment intensity and a formal coordination indicator into one index.
+
+$$
+\text{SFC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{reg}} \cdot \phi^{\text{reg-alignment}}_i + w^{\text{coord}} \cdot I^{\text{formal-coord}}_i
+\tag{17}
+$$
+
+*Equation 18, Bespoke Asset Specificity Index.*
+The article measures specificity as one minus the ratio of the value of an asset in its alternative use to its value in its best use.
+[Klein et al. 1978][research_klein_crawford_alchian_1978]
+
+$$
+k^{\text{specificity}}_i = 1 - \frac{V^{\text{alternative-use}}_i}{V^{\text{best-use}}_i}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Shared-Risk Shared-Reward Identity.*
+The article weights public and private value by a public share and subtracts a risk premium split between the partners by a public risk-bearing share.
+
+$$
+V^{\text{joint}} = \alpha \cdot V^{\text{public}} + (1 - \alpha) \cdot V^{\text{private}} - \sigma^{\text{risk}} \cdot [\lambda \cdot r^{\text{public}} + (1 - \lambda) \cdot r^{\text{private}}]
+\tag{19}
+$$
+
+**Equation 20, Asymmetric Nash Bargaining Solution.**
+The division of surplus maximises the product of each party's gain over its disagreement payoff, weighted by bargaining power.
+[Nash 1950][research_nash_1950]
+
+$$
+(x^*_A, x^*_P) = \arg\max_{x_A + x_P \leq S} \left[(x_A - d_A)^{\alpha} \cdot (x_P - d_P)^{1 - \alpha}\right]
+\tag{20}
+$$
+
+*Equation 21, Bespoke Absorptive Capacity Function.*
+The article writes absorptive capacity as an unspecified function of research intensity, human capital and network ties.
+[Cohen and Levinthal 1990][research_cohen_levinthal_1990]
+
+$$
+AC_i = f\!\left(R\&D_i, H_i^{\text{human-capital}}, T_i^{\text{network-ties}}\right)
+\tag{21}
+$$
+
+*Equation 22, Bespoke Ecosystem Value Appropriation.*
+The article weights firm value by the appropriation fraction and total ecosystem value by its complement.
+
+$$
+V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)
+\tag{22}
+$$
+
+**Equation 23, Beta Posterior for Certification Reliability.**
+A Beta prior on reliability updated with the successes and failures of a number of flights gives a Beta posterior whose parameters add the counts.
+
+$$
+R^{\text{cert}}_i \mid \{n^{\text{flights}}, s^{\text{successes}}\} \sim \text{Beta}(\alpha_0 + s^{\text{successes}}, \beta_0 + n^{\text{flights}} - s^{\text{successes}})
+\tag{23}
+$$
+
+**Equation 24, Asymmetric Nash Bargaining Solution between Anchor and Provider.**
+The same Nash solution is restated for the division of surplus between the anchor customer and the provider.
+[Nash 1950][research_nash_1950]
+
+$$
+(x^*_A, x^*_P) = \arg\max_{x_A + x_P \leq S} \left[(x_A - d_A)^{\alpha} \cdot (x_P - d_P)^{1 - \alpha}\right]
+\tag{24}
+$$
+
+**Equation 25, Rubinstein Alternating-Offers Share.**
+In the alternating-offers game the first proposer receives a share of the surplus fixed by the two discount factors, which favours the more patient party.
+[Rubinstein 1982][research_rubinstein_1982]
+
+$$
+x^*_A = \frac{1 - \delta_P}{1 - \delta_A \delta_P} \cdot S
+\tag{25}
+$$
+
+*Equation 26, Bespoke Cash Runway in August 2008.*
+Runway is remaining cash divided by the burn rate, evaluated with 5 million dollars and 2.5 million dollars a month, the midpoints of the stated ranges.
+[Berger 2021][book_berger_2021]
+
+$$
+\text{runway}_{\text{Aug 2008}} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{2.5 \text{ M dollars/month}} \approx 2 \text{ months}
+\tag{26}
+$$
+
+**Equation 27, Cumulative Capital Raised by August 2008.**
+Cumulative capital is founder capital plus the external rounds, evaluated with the reported 100 million dollars and 40 million dollars.
+
+$$
+K^{\text{cum}}(t_{\text{Aug 2008}}) = K^{\text{founder}} + \sum_{r=1}^{R^{\text{rounds}}} I_r \approx 100 \text{ M dollars} + 40 \text{ M dollars} = 140 \text{ M dollars}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Founder Capital Allocation between Two Firms.*
+The article poses the choice as maximising the sum of utilities of the two enterprise values subject to the founder capital remaining.
+[Vance 2015][book_vance_2015]
+
+$$
+\max_{K_{\text{SpaceX}}, K_{\text{Tesla}}} \big[u(V^{\text{SpaceX}}(K_{\text{SpaceX}})) + u(V^{\text{Tesla}}(K_{\text{Tesla}}))\big] \quad \text{s.t.} \quad K_{\text{SpaceX}} + K_{\text{Tesla}} \leq K^{\text{founder-total}}
+\tag{28}
+$$
+
+**Equation 29, Per-Mission Price Difference in the First Resupply Contracts.**
+The difference between the per-mission prices of the two first Commercial Resupply Services awards is evaluated from the announced contract values and mission counts.
+[NASA CRS-1 Award Announcement][ref_nasa_crs1_press_2008]
+
+$$
+\Delta P^{\text{per-mission}}_{\text{CRS-1}} = P^{\text{Orbital}} - P^{\text{SpaceX}} = 238 - 133 = 105 \text{ M dollars per mission}
+\tag{29}
+$$
+
+**Equation 30, Present Value of the First Resupply Services Contract.**
+The present value of the first Commercial Resupply Services contract sums the discounted mission payments, and the article equates it to the announced award of about 1.6 billion dollars.
+[NASA CRS-1 Award Announcement][ref_nasa_crs1_press_2008]
+
+$$
+PV^{\text{CRS-1}}_{\text{SpaceX}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Provider Selection Utility.*
+The article models source selection as a weighted sum of price, technical merit, schedule and risk scores.
+[NASA COTS Report][ref_nasa_cots_report]
+
+$$
+U^{\text{selection}}_j = w^{\text{price}} \cdot (-P_j) + w^{\text{technical}} \cdot T_j + w^{\text{schedule}} \cdot S_j + w^{\text{risk}} \cdot (-R_j)
+\tag{31}
+$$
+
+*Equation 32, Bespoke Enterprise Value Gain from the Resupply Award.*
+The gain is the contract backlog multiplied by a value-realisation fraction that the article takes as 0.3 to 0.5.
+
+$$
+\Delta V^{\text{enterprise}}_{\text{Dec 2008}} \approx V^{\text{post-CRS-1}} - V^{\text{pre-CRS-1}} \approx 1.6 \text{ B backlog} \cdot \mu^{\text{value-realization}}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Linear Growth of Resupply Cadence.*
+The article models the resupply mission cadence as an initial rate plus a constant annual growth.
+
+$$
+\dot{q}^{\text{CRS}}_{\text{SpaceX}}(t) = q^{\text{CRS,initial}} + g^{\text{cadence}} \cdot t
+\tag{33}
+$$
+
+*Equation 34, Bespoke Reliability Posterior after the Loss of CRS-7.*
+The posterior after six successes in seven missions is evaluated under a uniform prior that the article assumes.
+[CRS-7 mission on June 28 2015][ref_spacex_press_crs7_2015]
+
+$$
+R^{\text{CRS-7 post-loss}} \mid \{n = 7, s = 6\} \sim \text{Beta}(1 + 6, 1 + 1) = \text{Beta}(7, 2)
+\tag{34}
+$$
+
+**Equation 35, Dragon 2 to Dragon 1 Cargo Capacity Ratio.**
+The ratio of the published cargo capacities of the two Dragon configurations gives the improvement in payload mass.
+[CRS-21 mission on December 6 2020][ref_spacex_press_crs21_2020]
+
+$$
+\frac{m^{\text{payload}}_{\text{Dragon 2 cargo}}}{m^{\text{payload}}_{\text{Dragon 1 cargo}}} \approx \frac{6000 \text{ kg}}{3310 \text{ kg}} \approx 1.81
+\tag{35}
+$$
+
+*Equation 36, Bespoke Redundancy Protection Premium.*
+The article defines the premium as the price paid within a multi-provider set less the price under single-provider competition.
+
+$$
+\Delta P^{\text{redundancy}} = P^{\text{multi-provider-set}} - P^{\text{single-provider-competitive}} > 0
+\tag{36}
+$$
+
+**Equation 37, Commercial Crew Award Difference.**
+The difference between the announced Commercial Crew Transportation Capability awards to Boeing and to SpaceX is evaluated from the award announcement.
+[NASA CCtCap Award Announcement][ref_nasa_cctcap_press_2014]
+
+$$
+\Delta P^{\text{CCtCap}}_{\text{Boeing vs SpaceX}} = 4.2 - 2.6 = 1.6 \text{ B dollars}
+\tag{37}
+$$
+
+**Equation 38, Price per Seat.**
+The price per seat is the price of a crew mission divided by the seats it carries.
+
+$$
+P^{\text{per-seat}}_i = \frac{P^{\text{per-mission}}_i}{n^{\text{seats-per-mission}}_i}
+\tag{38}
+$$
+
+**Equation 39, Certification Timeline Difference.**
+The difference between the first operational crewed flights of the two providers is evaluated from their reported dates.
+
+$$
+\Delta T^{\text{cert}}_{\text{Boeing vs SpaceX}} = T^{\text{Boeing operational}} - T^{\text{SpaceX operational}}
+\tag{39}
+$$
+
+**Equation 40, Beta Posterior for Crewed Reliability.**
+The conjugate Beta update is applied to the record of crewed SpaceX flights.
+
+$$
+R^{\text{SpaceX-crew}} \mid \{n^{\text{SpaceX-crewed}}, s^{\text{SpaceX-crewed}}\} \sim \text{Beta}(\alpha_0 + s^{\text{SpaceX-crewed}}, \beta_0 + n^{\text{SpaceX-crewed}} - s^{\text{SpaceX-crewed}})
+\tag{40}
+$$
+
+**Equation 41, Human Landing System Base Period Allocation.**
+The allocation tabulates the reported base-period awards to the three Human Landing System providers.
+
+$$
+\text{allocation}_j^{\text{HLS base}} = \{\text{SpaceX}: 135 \text{ M}, \, \text{Blue Origin}: 579 \text{ M}, \, \text{Dynetics}: 253 \text{ M}\}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Cost of the Litigation Delay.*
+The delay cost is the discount rate times the contract value times the delay, evaluated with an assumed rate of 8 percent.
+[GAO 2021 Blue Origin HLS protest decision][ref_gao_blue_origin_hls_protest_2021]
+
+$$
+\Delta C^{\text{litigation-delay}} \approx r \cdot V^{\text{contract}} \cdot \Delta T^{\text{delay}} = 0.08 \cdot 2.89 \text{ B dollars} \cdot 0.67 \text{ years} \approx 155 \text{ M dollars}
+\tag{42}
+$$
+
+**Equation 43, Human Landing System Awards after the Sustaining Award.**
+The tabulation lists the reported cumulative Human Landing System awards to the two providers.
+[NASA HLS Option B award announcement on November 15 2022][ref_nasa_hls_option_b_2022]
+[NASA HLS Sustaining Award Announcement][ref_nasa_hls_sustaining_2023]
+
+$$
+\text{portfolio-share}^{\text{HLS post-sustaining}} = \{\text{SpaceX}: 4.04 \text{ B}, \, \text{Blue Origin}: 3.4 \text{ B}\}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Human-Rated Reliability Threshold.*
+The article requires crew certification reliability to reach a human-rated threshold that it takes as about 0.9995.
+
+$$
+R^{\text{HLS-crew-cert}} \geq R^{\text{human-rated threshold}} \approx 0.9995
+\tag{44}
+$$
+
+**Equation 45, National Security Space Launch Phase 2 Shares.**
+The tabulation lists the reported mission shares of the Phase 2 award.
+[Space Force NSSL Phase 2 award of August 2020][ref_space_force_nssl_phase2_2020]
+
+$$
+\text{NSSL Phase 2 share} = \{\text{SpaceX}: 0.40, \, \text{ULA}: 0.60\}
+\tag{45}
+$$
+
+**Equation 46, National Security Space Launch Phase 3 Lane 2 Shares.**
+The tabulation lists the shares of the Phase 3 Lane 2 award as the article reports them.
+[Space Force NSSL Phase 3 Lane 2 award of October 2024][ref_spacenews]
+
+$$
+\text{NSSL Phase 3 Lane 2 share} = \{\text{SpaceX}: 0.60, \, \text{ULA}: 0.25, \, \text{Blue Origin}: 0.15\}
+\tag{46}
+$$
+
+**Equation 47, Herfindahl-Hirschman Index of Phase 3 Lane 2.**
+The Herfindahl-Hirschman index sums the squared shares of the three providers.
+
+$$
+\text{HHI}^{\text{NSSL Phase 3 Lane 2}} = \sum_i s_i^2 = 0.60^2 + 0.25^2 + 0.15^2 = 0.445
+\tag{47}
+$$
+
+*Equation 48, Bespoke Shared-Bus Revenue Identity.*
+The article adds commercial revenue to defence revenue marked up by a premium that recovers the shared cost of a common satellite bus.
+
+$$
+R^{\text{shared-bus total}} = R^{\text{Starlink-commercial}} + R^{\text{Starshield-defense}} \cdot (1 + \phi^{\text{shared-cost-recovery}})
+\tag{48}
+$$
+
+**Equation 49, Herfindahl-Hirschman Index of the Anchor Portfolio.**
+The Herfindahl-Hirschman index is applied to the shares of anchor demand across the anchor programmes.
+
+$$
+\text{HHI}^{\text{anchor-portfolio}}_{\text{SpaceX}} = \sum_k \left(\frac{D_{i,k}^{\text{anchor}}}{D_i^{\text{anchor-total}}}\right)^2
+\tag{49}
+$$
+
+*Equation 50, Bespoke Colt Anchor-to-Founder Ratio.*
+The article compares the value of the Walker contract with the founder capital before the contract.
+[Hosley 1996][book_hosley_1996]
+
+$$
+\rho^{\text{Colt anchor/founder}} = \frac{V^{\text{Walker contract}}}{V^{\text{founder capital pre-contract}}} \gg 1
+\tag{50}
+$$
+
+**Equation 51, Annual Value of the Whitney Musket Contract.**
+The reported contract value divided by the ten-year execution period gives the annual value.
+[Hounshell 1984][book_hounshell_1984]
+
+$$
+V^{\text{Whitney annual}} = \frac{V^{\text{contract-total}}}{T^{\text{execution period}}} = \frac{134000 \text{ dollars}}{10 \text{ years}} = 13400 \text{ dollars per year}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Boeing Spinoff-to-Anchor Ratio.*
+The article compares the value of the commercial airliner line with the value of the military contracts that preceded it.
+
+$$
+\rho^{\text{Boeing spinoff}} = \frac{V^{\text{commercial-airliner spinoff}}}{V^{\text{military-contract anchor}}}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Anchor Continuity Condition.*
+The article requires the gap between successive projects to stay below an organisational persistence threshold.
+[Rich and Janos 1994][book_rich_janos_1994]
+
+$$
+\text{gap}(k, k+1) = t^{\text{start},k+1} - t^{\text{end},k} < \Delta T^{\text{organizational-persistence}}
+\tag{53}
+$$
+
+**Equation 54, Apollo Contractor Share.**
+The share of each contractor is its prime contract value divided by the total over all prime contractors.
+[Bilstein 1996][book_bilstein_1996]
+
+$$
+s^{\text{Apollo contractor}}_j = \frac{V^{\text{prime-contract}}_j}{\sum_k V^{\text{prime-contract}}_k}
+\tag{54}
+$$
+
+**Equation 55, Commercial Crew Mission Share.**
+The share of each provider is its operational missions divided by the total.
+
+$$
+s^{\text{crew-missions}}_i = \frac{n^{\text{operational-missions}}_i}{\sum_j n^{\text{operational-missions}}_j}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Anchor-Share Ratio of Blue Origin to SpaceX.*
+The article compares the anchor shares of revenue of the two firms as a ratio.
+
+$$
+\rho^{\text{anchor-share}}_{\text{Blue Origin vs SpaceX}} = \frac{\sigma^{\text{anchor}}_{\text{Blue Origin}}}{\sigma^{\text{anchor}}_{\text{SpaceX}}}
+\tag{56}
+$$
+
+*Equation 57, Bespoke Anchor-Demand Closure Vector.*
+Each adjacent firm receives a binary vector over the five anchor-demand sub-properties.
+
+$$
+\boldsymbol{\phi}_j^{\text{anchor-demand}} \in \{0, 1\}^{5}
+\tag{57}
+$$
+
+*Equation 58, Bespoke State Capitalism Index.*
+The article weights the government share of revenue, a state ownership share and a strategic sector indicator into one index.
+
+$$
+\text{SC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{ownership}} \cdot s^{\text{state-ownership}}_i + w^{\text{strategic}} \cdot I^{\text{strategic-sector}}_i
+\tag{58}
+$$
+
+**Equation 59, Share of Defence Industrial Base Revenue.**
+The share of a firm is its defence revenue divided by total defence industrial base awards.
+
+$$
+s^{\text{DIB}}_i = \frac{R^{\text{defense}}_i}{R^{\text{DIB-total}}}
+\tag{59}
+$$
+
+**Equation 60, Economic Rent as Excess Profit.**
+Rent is the observed profit less the profit a competitive benchmark would yield.
+[Krueger 1974][research_krueger_1974]
+
+$$
+\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}
+\tag{60}
+$$
+
+**Equation 61, Fiscal Multiplier of Defence Spending.**
+The multiplier is the change in aggregate output divided by the change in defence spending.
+
+$$
+\mu^{\text{military-Keynesian}} = \frac{\Delta Y^{\text{aggregate}}}{\Delta G^{\text{defense-spending}}}
+\tag{61}
+$$
+
+**Equation 62, Backward Induction for a Real Option.**
+The option value at each date is the greater of the exercise value and the discounted expected continuation value.
+[Dixit and Pindyck 1994][book_dixit_pindyck_1994]
+[Trigeorgis 1996][book_trigeorgis_1996]
+
+$$
+V^{\text{anchor-option}}_t = \max\!\left\{V^{\text{exercise}}_t, \, e^{-r \Delta t} \cdot E\!\left[V^{\text{anchor-option}}_{t+1} \mid F_t\right]\right\}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Resource Heterogeneity Index.*
+The article scores resources by a weighted sum of the products of their value, rarity, inimitability and non-substitutability.
+[Barney 1991][research_barney_1991]
+
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{63}
+$$
+
+*Equation 64, Bespoke Anchor-Demand Closure Conjunction.*
+The article defines closure as the logical conjunction of the five sub-property indicators.
+
+$$
+\text{AD closure} = \bigwedge_{k=1}^{5} \phi_k
+\tag{64}
+$$
+
+*Equation 65, Bespoke Closure Vector of a Candidate Case.*
+Each candidate case receives a binary vector over the five sub-properties, and closure requires every component to equal one.
+
+$$
+\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5
+\tag{65}
+$$
+
+*Equation 66, Bespoke Joint Closure Probability under Independence.*
+The product of the marginal probabilities is evaluated under the independence assumption and an order-of-magnitude marginal of 0.25 that the article assumes.
+
+$$
+P^{\text{AD closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k \approx 0.001
+\tag{66}
+$$
+
+### Notation
+
+- $D_i^{\text{anchor}}(t)$, the anchor-demand revenue stream to firm $i$ at time $t$
+- $D_i^{\text{total}}(t)$, the total revenue of firm $i$
+- $\theta^{\text{anchor}}$, the threshold anchor share, about 0.6 before spinoff revenue matures
+- $\sigma_i(t)$, the anchor share of the revenue of firm $i$
+- $\lambda$, the decay rate of the anchor share, and in the shared-risk identity the public risk-bearing share
+- $D_{i,k}^{\text{gov}}$, the anchor demand from programme $k$
+- $\delta_{i,k}$, the dependency of firm $i$ on anchor customer $k$
+- $Z_i$, an exogenous procurement-mechanism instrument
+- $P^{\text{fixed}}$, the fixed contract price
+- $c_i^{\text{realized}}$, the realised cost of provider $i$
+- $\phi_i$, the negotiated margin under cost-plus procurement
+- $\alpha$, the bargaining-power weight, and in the shared-risk identity the public-value weight
+- $d_A$, the disagreement payoff of the anchor
+- $d_P$, the disagreement payoff of the provider
+- $\delta_A$, the discount factor of the anchor
+- $\delta_P$, the discount factor of the provider
+- $k^{\text{specificity}}_i$, the asset specificity index of firm $i$
+- $r$, the discount rate
+- $\mu^{\text{value-realization}}$, the fraction of contract value the equity market ascribes to enterprise value at award
+- $s_i$, the share of provider $i$
+- $p_k$, the marginal closure probability for sub-property $k$
+- $\phi_k$, the closure indicator for sub-property $k$
 
 ## References
 

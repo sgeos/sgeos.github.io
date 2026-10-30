@@ -23,49 +23,73 @@ The mapping problem admits several formalizations depending on the level of anal
 
 The general form of the decomposability causal-mapping problem can be stated compactly as follows. Let $R_i(t) = \{r_1, r_2, \ldots, r_N\}$ denote the set of rungs the venture $i$ has completed by time $t$, with each rung $r_n$ representing an independently valuable configuration that produces revenue, capability, and organizational-learning value. The decomposability condition requires
 
-$$\forall r_n \in R_i(t) : V^{\text{rung}}(r_n) > V^{\text{development-cost}}(r_n)$$
+$$
+\forall r_n \in R_i(t) : V^{\text{rung}}(r_n) > V^{\text{development-cost}}(r_n)
+\tag{1}
+$$
 
 with each rung's independent value exceeding its own development cost so that each rung is individually justifiable rather than justifiable only in terms of the terminal-capability value.
 
 The rung-value decomposition can be written as
 
-$$V^{\text{rung}}(r_n) = V^{\text{revenue}}(r_n) + V^{\text{capability}}(r_n) + V^{\text{learning}}(r_n) + V^{\text{option}}(r_n)$$
+$$
+V^{\text{rung}}(r_n) = V^{\text{revenue}}(r_n) + V^{\text{capability}}(r_n) + V^{\text{learning}}(r_n) + V^{\text{option}}(r_n)
+\tag{2}
+$$
 
 with each channel contributing distinct value at each rung. The revenue channel captures the commercial-and-government-contract revenue the rung generates. The capability channel captures the engineering-and-manufacturing capability the rung accumulates. The learning channel captures the organizational-and-technical learning the rung produces. The option channel captures the real-option value the rung creates for subsequent rung development.
 
 The cumulative-capability accumulation across the rung sequence has the form
 
-$$K_i(t) = K_i(0) + \sum_{n=1}^{N(t)} \Delta K(r_n)$$
+$$
+K_i(t) = K_i(0) + \sum_{n=1}^{N(t)} \Delta K(r_n)
+\tag{3}
+$$
 
 with $\Delta K(r_n)$ the incremental capability the rung $r_n$ contributes. The SpaceX case exhibits substantial $\Delta K$ values across the Falcon 1, Falcon 9, Dragon, Falcon Heavy, and Starship rungs, with each rung contributing engine, structure, avionics, and operations capability.
 
 The rung-to-rung capability-transfer efficiency may be written
 
-$$\eta^{\text{transfer}}_{n \to n+1} = \frac{K^{\text{shared}}_{n \to n+1}}{K^{\text{total}}_{n}}$$
+$$
+\eta^{\text{transfer}}_{n \to n+1} = \frac{K^{\text{shared}}_{n \to n+1}}{K^{\text{total}}_{n}}
+\tag{4}
+$$
 
 with the SpaceX case exhibiting substantial $\eta^{\text{transfer}}$ values across the rung boundaries reflecting the extensive subsystem-and-organizational-learning transfer.
 
 The identification problem for the decomposability contribution to the SpaceX trajectory is the question of separating the decomposability effect from the confounding effects of the other six forcing-function conditions and the three capital-formation legs. The counterfactual differential takes the compact form
 
-$$\Delta V_i^{\text{decomposability}}(t) = V_i^{\text{observed}}(t) - V_i^{\text{single-configuration counterfactual}}(t)$$
+$$
+\Delta V_i^{\text{decomposability}}(t) = V_i^{\text{observed}}(t) - V_i^{\text{single-configuration counterfactual}}(t)
+\tag{5}
+$$
 
 with the decomposability attribution equal to the difference between the observed cumulative value and the counterfactual cumulative value under the single-configuration scenario. The counterfactual specifications the article treats include a Falcon-1-only counterfactual in which the SpaceX firm terminates development at the small-lift configuration, a Falcon-9-only counterfactual in which the SpaceX firm terminates development at the medium-lift arrangement, and a direct-to-Starship counterfactual in which the SpaceX firm attempts the super-heavy-lift development without the intermediate Falcon 1, Falcon 9, Dragon, and Falcon Heavy rung progression.
 
 The rung-transition survival function takes the form
 
-$$S(t) = \exp\!\left(-\int_0^t \lambda^{\text{failure}}(r_n(s)) \, ds\right)$$
+$$
+S(t) = \exp\!\left(-\int_0^t \lambda^{\text{failure}}(r_n(s)) \, ds\right)
+\tag{6}
+$$
 
 with $\lambda^{\text{failure}}(r_n)$ the hazard rate for the rung $r_n$ that depends on the technical, financial, and market conditions at each rung. The single-configuration all-or-nothing arrangement corresponds to the limit $S(t) \to 0$ under the catastrophic-failure scenario.
 
 The rung-value expectation across the rung sequence can be written as
 
-$$E[V^{\text{total}}] = \sum_{n=1}^{N} P(r_n \text{ completed}) \cdot V^{\text{rung}}(r_n) \cdot \prod_{k<n} P(r_k \text{ completed})$$
+$$
+E[V^{\text{total}}] = \sum_{n=1}^{N} P(r_n \text{ completed}) \cdot V^{\text{rung}}(r_n) \cdot \prod_{k<n} P(r_k \text{ completed})
+\tag{7}
+$$
 
 with the product term reflecting the conditional-dependency structure across the rung sequence.
 
 The decomposability-advantage decomposition has the form
 
-$$V^{\text{decomposability-advantage}} = E[V^{\text{decomposed}}] - E[V^{\text{single-configuration}}] - C^{\text{coordination}}$$
+$$
+V^{\text{decomposability-advantage}} = E[V^{\text{decomposed}}] - E[V^{\text{single-configuration}}] - C^{\text{coordination}}
+\tag{8}
+$$
 
 with $C^{\text{coordination}}$ the coordination cost across the rung sequence.
 
@@ -93,77 +117,116 @@ The decomposability property is treated in the article as an economic and organi
 
 The formal characterization of the decomposability property permits several compact statements. Let $R_i(t)$ denote the set of rungs completed by firm $i$ at time $t$, and let $V^{\text{rung}}(r_n)$ denote the independent value the rung $r_n$ generates. The decomposability condition requires
 
-$$V^{\text{rung}}(r_n) \geq V^{\text{threshold}} \quad \forall r_n \in R_i(t)$$
+$$
+V^{\text{rung}}(r_n) \geq V^{\text{threshold}} \quad \forall r_n \in R_i(t)
+\tag{9}
+$$
 
 with $V^{\text{threshold}}$ the threshold above which each rung is individually justifiable rather than justifiable only through the terminal-capability value. The SpaceX case exhibits substantial $V^{\text{rung}}$ values across the Falcon 1, Falcon 9, Dragon, Falcon Heavy, and Starship rungs, with each rung realizing revenue, capability, and learning value that exceeded its own development cost.
 
 The rung-independent-viability test may be written
 
-$$V^{\text{rung}}(r_n) - I^{\text{development}}(r_n) - I^{\text{shared-infrastructure attribution}}(r_n) > 0$$
+$$
+V^{\text{rung}}(r_n) - I^{\text{development}}(r_n) - I^{\text{shared-infrastructure attribution}}(r_n) > 0
+\tag{10}
+$$
 
 with the shared-infrastructure-attribution term reflecting the overhead-allocation across the rung sequence. The test result is satisfied for the Falcon 9, Dragon 1, Dragon 2, and Falcon Heavy rungs under the reasonable overhead-allocation assumptions.
 
 The rung-progression dynamics admit the compact form
 
-$$\text{Prob}(r_{n+1} \mid r_n) = g(V^{\text{rung}}(r_n), K^{\text{accumulated}}(r_1, \ldots, r_n), \Pi^{\text{external}}(t))$$
+$$
+\text{Prob}(r_{n+1} \mid r_n) = g(V^{\text{rung}}(r_n), K^{\text{accumulated}}(r_1, \ldots, r_n), \Pi^{\text{external}}(t))
+\tag{11}
+$$
 
 with the conditional probability of transitioning to the subsequent rung determined by the value realized at the current rung, the accumulated capability across the completed rungs, and the external factors including market conditions and capital availability. The SpaceX case exhibits high transition probabilities across the Falcon 1 to Falcon 9 to Falcon Heavy to Starship progression, with each rung transition supported by the accumulated capability and the realized rung value.
 
 The rung-transition-time distribution admits the compact form
 
-$$T^{\text{transition}}_{n \to n+1} \sim \text{LogNormal}(\mu^{\text{transition}}_n, \sigma^{\text{transition}}_n)$$
+$$
+T^{\text{transition}}_{n \to n+1} \sim \text{LogNormal}(\mu^{\text{transition}}_n, \sigma^{\text{transition}}_n)
+\tag{12}
+$$
 
 with the log-normal parameters reflecting the technological, financial, and market conditions at the transition period.
 
 The decomposition-quality index takes the form
 
-$$D_i = \frac{1}{N} \sum_{n=1}^{N} \frac{V^{\text{rung}}(r_n)}{V^{\text{development-cost}}(r_n)}$$
+$$
+D_i = \frac{1}{N} \sum_{n=1}^{N} \frac{V^{\text{rung}}(r_n)}{V^{\text{development-cost}}(r_n)}
+\tag{13}
+$$
 
 with $D_i$ exceeding unity indicating that the rung decomposition enables individually justifiable rung development across the rung sequence. The SpaceX case exhibits $D_i$ values substantially exceeding unity, reflecting the rung-by-rung revenue realization from the Falcon 9 commercial-launch and NASA-cargo revenue, the Falcon Heavy commercial-launch and defense-launch revenue, and the Dragon crew-and-cargo NASA revenue.
 
 The modularity index can be written as
 
-$$M_i = \frac{\sum_{s \in \text{subsystems}} \omega_s \cdot \phi^{\text{reuse}}_{s}}{\sum_{s \in \text{subsystems}} \omega_s}$$
+$$
+M_i = \frac{\sum_{s \in \text{subsystems}} \omega_s \cdot \phi^{\text{reuse}}_{s}}{\sum_{s \in \text{subsystems}} \omega_s}
+\tag{14}
+$$
 
 with $\phi^{\text{reuse}}\_{s}$ the fraction of the subsystem $s$ that is reused across multiple rungs and $\omega_s$ the weight indicating the subsystem's contribution to the overall vehicle configuration. The SpaceX case exhibits high $M_i$ values reflecting the Merlin engine reuse across the Falcon 1, Falcon 9, and Falcon Heavy vehicles, the Dragon 1 to Dragon 2 subsystem reuse, and the structural and avionics reuse across the vehicle family.
 
 The subsystem-interface-count has the form
 
-$$N^{\text{interfaces}}_i = \binom{n^{\text{subsystems}}}{2} \cdot \phi^{\text{connected}}_{i}$$
+$$
+N^{\text{interfaces}}_i = \binom{n^{\text{subsystems}}}{2} \cdot \phi^{\text{connected}}_{i}
+\tag{15}
+$$
 
 with $\phi^{\text{connected}}\_{i}$ the fraction of subsystem-pairs that share the direct interface. The SpaceX case exhibits substantial subsystem-interface-count reduction relative to the analog aerospace-industry baseline reflecting the integrated-architecture configuration.
 
 The staged-investment option value may be written
 
-$$V^{\text{option}}(r_{n+1}) = \max(0, V^{\text{expected}}(r_{n+1}) - I(r_{n+1}))$$
+$$
+V^{\text{option}}(r_{n+1}) = \max(0, V^{\text{expected}}(r_{n+1}) - I(r_{n+1}))
+\tag{16}
+$$
 
 with $V^{\text{expected}}(r_{n+1})$ the expected value of the subsequent rung conditional on the current rung completion and $I(r_{n+1})$ the investment cost of the subsequent rung. The real-options valuation permits the extended form
 
-$$V^{\text{total}}(r_n) = V^{\text{current}}(r_n) + \max(0, V^{\text{option-to-continue}}(r_n) - I^{\text{option-exercise}}(r_n))$$
+$$
+V^{\text{total}}(r_n) = V^{\text{current}}(r_n) + \max(0, V^{\text{option-to-continue}}(r_n) - I^{\text{option-exercise}}(r_n))
+\tag{17}
+$$
 
 with the option-to-continue value depending on the technological, market, and capital-market conditions at the decision point.
 
 The Bellman-recursion form of the staged-investment value permits the concise form
 
-$$V^{\ast}(r_n) = \max\!\left\{V^{\text{stop}}(r_n), \; V^{\text{continue}}(r_n) - I(r_{n+1}) + \delta \cdot E[V^{\ast}(r_{n+1})]\right\}$$
+$$
+V^{\ast}(r_n) = \max\!\left\{V^{\text{stop}}(r_n), \; V^{\text{continue}}(r_n) - I(r_{n+1}) + \delta \cdot E[V^{\ast}(r_{n+1})]\right\}
+\tag{18}
+$$
 
 with $\delta$ the discount factor and the $\max$ operator reflecting the option-to-continue-or-stop at each rung.
 
 The capability-accumulation trajectory admits the compact continuous-time form
 
-$$\dot K_i(t) = \eta \cdot I^{\text{development}}(t) + \mu \cdot L(t) \cdot K_i(t) - \delta \cdot K_i(t)$$
+$$
+\dot K_i(t) = \eta \cdot I^{\text{development}}(t) + \mu \cdot L(t) \cdot K_i(t) - \delta \cdot K_i(t)
+\tag{19}
+$$
 
 with $\eta$ the investment-to-capability conversion coefficient, $\mu$ the learning coefficient, $L(t)$ the learning intensity, and $\delta$ the capability-depreciation rate.
 
 The rung-sequence completion probability under the decomposed configuration takes the form
 
-$$P^{\text{decomposed}}(\text{complete } r_N) = \prod_{n=1}^{N} p_n^{\text{rung-success}} \geq P^{\text{single-configuration}}(\text{complete})$$
+$$
+P^{\text{decomposed}}(\text{complete } r_N) = \prod_{n=1}^{N} p_n^{\text{rung-success}} \geq P^{\text{single-configuration}}(\text{complete})
+\tag{20}
+$$
 
 with the rung-by-rung success probabilities $p_n^{\text{rung-success}}$ typically substantially exceeding the single-configuration success probability under the same-technology-risk assumption.
 
 The option-value under the Black-Scholes-Merton framework can be written as
 
-$$V^{\text{option}} = V^{\text{expected}} \cdot \Phi(d_1) - I \cdot e^{-r T} \cdot \Phi(d_2)$$
+$$
+V^{\text{option}} = V^{\text{expected}} \cdot \Phi(d_1) - I \cdot e^{-r T} \cdot \Phi(d_2)
+\tag{21}
+$$
 
 with $\Phi$ the standard-normal cumulative distribution function, $d_1$ and $d_2$ the standardized drift-and-volatility parameters, $r$ the risk-free rate, and $T$ the time-to-decision.
 
@@ -173,55 +236,82 @@ The decomposability property draws characterization from several disciplinary tr
 
 The systems-architecture tradition traces from [Simon 1962][research_simon_1962] The Architecture of Complexity through [Alexander 1964][book_alexander_1964] Notes on the Synthesis of Form, [Baldwin and Clark 2000][book_baldwin_clark_2000] Design Rules The Power of Modularity, [Ulrich 1995][research_ulrich_1995] The Role of Product Architecture in the Manufacturing Firm, [Sanchez and Mahoney 1996][research_sanchez_mahoney_1996] Modularity Flexibility and Knowledge Management in Product and Organization Design, [Sosa et al. 2003][research_sosa_eppinger_rowles_2003] Identifying Modular and Integrative Systems and their Impact on Design Team Interactions, [MacCormack et al. 2012][research_maccormack_baldwin_rusnak_2012] Exploring the Duality between Product and Organizational Architectures, [Fixson 2005][research_fixson_2005] Product Architecture Assessment A Tool to Link Product Manufacturing Supply Chain and Service Decisions, [Baldwin and Woodard 2009][research_baldwin_woodard_2009] The Architecture of Platforms A Unified View, [Suh 2001][book_suh_2001] Axiomatic Design, [Ethiraj and Levinthal 2004][research_ethiraj_levinthal_2004] Modularity and Innovation in Complex Systems, [Rivkin and Siggelkow 2003][research_rivkin_siggelkow_2003] Balancing Search and Stability Interdependencies Among Elements of Organizational Design, [Kauffman 1993][book_kauffman_1993] The Origins of Order, and [Sanchez 1995][research_sanchez_1995] Strategic Flexibility in Product Competition. The framing treats the decomposability property through the hierarchical-decomposition and modular-architecture configuration that enables the independent-development-and-integration of the constituent subsystems. The SpaceX vehicle-family decomposition into small-lift, medium-lift, heavy-lift, and super-heavy-lift configurations reflects the hierarchical-decomposition principles that support the rung-by-rung capability progression. The modular-architecture index has the form
 
-$$MA_i = \frac{\sum_{s} c^{\text{internal}}_{s}}{\sum_{s,t} c^{\text{internal}}_{s} + c^{\text{external}}_{s,t}}$$
+$$
+MA_i = \frac{\sum_{s} c^{\text{internal}}_{s}}{\sum_{s,t} c^{\text{internal}}_{s} + c^{\text{external}}_{s,t}}
+\tag{22}
+$$
 
 with $c^{\text{internal}}\_{s}$ the intra-subsystem coupling and $c^{\text{external}}\_{s,t}$ the inter-subsystem coupling that jointly determine the modular-architecture strength.
 
 The Simon nearly-decomposable hierarchical-system decomposition may be written
 
-$$T^{\text{system-dynamics}} = T^{\text{intra-module-dynamics}} \oplus T^{\text{inter-module-dynamics}}$$
+$$
+T^{\text{system-dynamics}} = T^{\text{intra-module-dynamics}} \oplus T^{\text{inter-module-dynamics}}
+\tag{23}
+$$
 
 with the nearly-decomposable configuration admitting the approximate separation of the intra-module and inter-module dynamics on the different time-scales.
 
 The staged-development tradition traces from [Boehm 1988][research_boehm_1988] A Spiral Model of Software Development and Enhancement through the incremental-and-iterative-development literature including [Beck 1999][book_beck_1999] Extreme Programming Explained, [Schwaber 2004][book_schwaber_2004] Agile Project Management with Scrum, [Boehm and Turner 2003][book_boehm_turner_2003] Balancing Agility and Discipline, [Poppendieck and Poppendieck 2003][book_poppendieck_2003] Lean Software Development, and the NASA staged-development frameworks documented in the [NASA Systems Engineering Handbook][ref_nasa_se_handbook] and the [NASA Program and Project Life Cycle Requirements NPR 7120.5F][ref_nasa_npr_7120_5f]. The framing treats the decomposability property through the staged-capability-realization configuration that enables the risk-managed development across the multi-year horizon. The SpaceX Falcon 9 progression through the v1.0, v1.1, Full Thrust, and Block 5 configurations reflects the staged-development principles that support the incremental capability improvement across the ten-year development horizon. The staged-development risk-reduction identity yields the compact form
 
-$$R^{\text{residual}}_n = R^{\text{initial}} \cdot \prod_{k=1}^{n} (1 - \Delta R_k^{\text{resolution}})$$
+$$
+R^{\text{residual}}_n = R^{\text{initial}} \cdot \prod_{k=1}^{n} (1 - \Delta R_k^{\text{resolution}})
+\tag{24}
+$$
 
 with $\Delta R_k^{\text{resolution}}$ the risk-resolution fraction realized at the rung $k$ so that the residual risk decreases geometrically across the rung sequence.
 
 The technology-adoption tradition traces from [Rogers 1962][book_rogers_1962] Diffusion of Innovations through [Moore 1991][book_moore_1991] Crossing the Chasm, [Christensen 1997][book_christensen_1997] The Innovator's Dilemma, [Christensen and Raynor 2003][book_christensen_raynor_2003] The Innovator's Solution, [Utterback 1994][book_utterback_1994] Mastering the Dynamics of Innovation, [Foster 1986][book_foster_1986] Innovation The Attackers Advantage, [Bower and Christensen 1995][research_bower_christensen_1995] Disruptive Technologies Catching the Wave, [Klepper 1996][research_klepper_1996] Entry Exit Growth and Innovation over the Product Life Cycle, [Klepper 2010][research_klepper_2010] The Origin and Growth of Industry Clusters, [Adner 2012][book_adner_2012] The Wide Lens, [Adner and Kapoor 2009][research_adner_kapoor_2010] Value Creation in Innovation Ecosystems, and [Anderson 2023][book_anderson_2023] The Space Economy. The framing treats the decomposability property through the market-segment-progression configuration that enables the market-development across the multi-decade adoption horizon. The SpaceX mission-class progression through the cargo, crew, national-security, geostationary-transfer, and interplanetary configurations reflects the market-segment-progression principles that support the incremental market development. The Bass diffusion equation takes the form
 
-$$\frac{dN(t)}{dt} = \left[p + q \cdot \frac{N(t)}{m}\right] \cdot [m - N(t)]$$
+$$
+\frac{dN(t)}{dt} = \left[p + q \cdot \frac{N(t)}{m}\right] \cdot [m - N(t)]
+\tag{25}
+$$
 
 with $p$ the innovation coefficient, $q$ the imitation coefficient, $m$ the market potential, and $N(t)$ the cumulative adoption by time $t$.
 
 The real-options tradition traces from [Trigeorgis 1996][book_trigeorgis_1996] Real Options through [Dixit and Pindyck 1994][book_dixit_pindyck_1994] Investment Under Uncertainty, [Myers 1977][research_myers_1977] Determinants of Corporate Borrowing, [Black and Scholes 1973][research_black_scholes_1973] The Pricing of Options and Corporate Liabilities, [Merton 1973][research_merton_1973] Theory of Rational Option Pricing, [McDonald and Siegel 1986][research_mcdonald_siegel_1986] The Value of Waiting to Invest, and [Copeland and Antikarov 2001][book_copeland_antikarov_2001] Real Options A Practitioners Guide. The framing treats the decomposability property through the option-value-generation configuration that enables the staged-investment across the multi-year uncertain horizon. The SpaceX Falcon 1 to Falcon 9 transition and Falcon 9 to Falcon Heavy transition reflect the option-exercise decisions supported by the capability accumulation and market development at each intermediate rung. The compound-option valuation across the rung sequence admits the compact recursive form
 
-$$V^{\text{compound}}(r_n) = \max\!\left(0, V^{\text{underlying}}(r_n) + V^{\text{compound}}(r_{n+1}) - I(r_{n+1})\right)$$
+$$
+V^{\text{compound}}(r_n) = \max\!\left(0, V^{\text{underlying}}(r_n) + V^{\text{compound}}(r_{n+1}) - I(r_{n+1})\right)
+\tag{26}
+$$
 
 with the compound-option value at rung $n$ depending recursively on the option value at rung $n+1$.
 
 The dynamic-capabilities tradition traces from [Teece et al. 1997][research_teece_pisano_shuen_1997] Dynamic Capabilities and Strategic Management through [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000] Dynamic Capabilities What Are They, [Pisano 2015][research_pisano_2015] You Need an Innovation Strategy, [Teece 2007][research_teece_2007] Explicating Dynamic Capabilities The Nature and Microfoundations of Sustainable Enterprise Performance, [Helfat and Peteraf 2003][research_helfat_peteraf_2003] The Dynamic Resource-Based View, [Winter 2003][research_winter_2003] Understanding Dynamic Capabilities, [Barney 1991][research_barney_1991] Firm Resources and Sustained Competitive Advantage, [Wernerfelt 1984][research_wernerfelt_1984] A Resource-Based View of the Firm, [Peteraf 1993][research_peteraf_1993] The Cornerstones of Competitive Advantage, [Penrose 1959][book_penrose_1959] The Theory of the Growth of the Firm, [Nelson and Winter 1982][book_nelson_winter_1982] An Evolutionary Theory of Economic Change, [Chandler 1962][book_chandler_1962] Strategy and Structure, [Chandler 1977][book_chandler_1977] The Visible Hand, and [Chandler 1990][book_chandler_1990] Scale and Scope. The framing treats the decomposability property through the capability-reconfiguration dynamics that enable the rung-by-rung capability progression. The SpaceX engineering, manufacturing, and operations capability reconfiguration across the Falcon 1, Falcon 9, Dragon, Falcon Heavy, and Starship rungs reflects the dynamic-capabilities principles that support the multi-decade capability accumulation. The dynamic-capabilities decomposition can be written as
 
-$$DC_i = \alpha^{\text{sense}} \cdot S_i + \alpha^{\text{seize}} \cdot Z_i + \alpha^{\text{reconfigure}} \cdot R_i$$
+$$
+DC_i = \alpha^{\text{sense}} \cdot S_i + \alpha^{\text{seize}} \cdot Z_i + \alpha^{\text{reconfigure}} \cdot R_i
+\tag{27}
+$$
 
 with the sense, seize, and reconfigure components each weighted by the coefficients that reflect the configuration of the dynamic-capabilities arrangement.
 
 The absorptive-capacity tradition traces from [Cohen and Levinthal 1990][research_cohen_levinthal_1990] Absorptive Capacity A New Perspective on Learning and Innovation through [Zahra and George 2002][research_zahra_george_2002] Absorptive Capacity A Review Reconceptualization and Extension, [Lane et al. 2006][research_lane_koka_pathak_2006] The Reification of Absorptive Capacity, [Todorova and Durisin 2007][research_todorova_durisin_2007] Absorptive Capacity Valuing a Reconceptualization, [Volberda et al. 2010][research_volberda_foss_lyles_2010] Absorbing the Concept of Absorptive Capacity, and [Zahra 2015][research_zahra_2015] Corporate Entrepreneurship as Knowledge Creation and Conversion. The framing treats the decomposability property through the organizational-learning dynamics that enable the capability-transfer across the rung sequence. The SpaceX Merlin engine learning transferred across the Falcon 1, Falcon 9, and Falcon Heavy configurations, the Dragon 1 spacecraft learning transferred to the Dragon 2 arrangement, and the Falcon reusability learning transferred to the Starship recovery development each reflect the absorptive-capacity principles. The absorptive-capacity index has the form
 
-$$AC_i = \phi\!\left(K_i^{\text{prior}}, D_i^{\text{diversity}}, I_i^{\text{research-intensity}}\right)$$
+$$
+AC_i = \phi\!\left(K_i^{\text{prior}}, D_i^{\text{diversity}}, I_i^{\text{research-intensity}}\right)
+\tag{28}
+$$
 
 with the prior-knowledge stock, the knowledge-diversity, and the research-intensity jointly determining the absorptive-capacity level.
 
 The organizational-learning tradition traces from [Argote 1999][book_argote_1999] Organizational Learning through [Argote and Miron-Spektor 2011][research_argote_miron_spektor_2011] Organizational Learning From Experience to Knowledge, [Levitt and March 1988][research_levitt_march_1988] Organizational Learning, [March 1991][research_march_1991] Exploration and Exploitation in Organizational Learning, [Nonaka 1994][research_nonaka_1994] A Dynamic Theory of Organizational Knowledge Creation, [Nonaka and Takeuchi 1995][book_nonaka_takeuchi_1995] The Knowledge-Creating Company, [Argyris and Schon 1978][book_argyris_schon_1978] Organizational Learning A Theory of Action Perspective, [Senge and Senge 1990][book_senge_1990] The Fifth Discipline, [Argote and Ingram 2000][research_argote_ingram_2000] Knowledge Transfer A Basis for Competitive Advantage in Firms, [Kogut and Zander 1992][research_kogut_zander_1992] Knowledge of the Firm Combinative Capabilities and the Replication of Technology, [Grant 1996][research_grant_1996] Toward a Knowledge-Based Theory of the Firm, and [Wright 1936][research_wright_1936] Factors Affecting the Cost of Airplanes. The framing treats the decomposability property through the learning-curve dynamics that enable the cost-and-capability improvement across the rung sequence. The SpaceX Falcon 9 launch-cadence progression from the 2013 initial operational cadence through the 2024 approximately-140-launch-per-year cadence reflects the learning-curve dynamics that support the decomposability configuration. The Wright learning-curve equation admits the compact power-law form
 
-$$C(n) = C(1) \cdot n^{-b}, \quad b = -\frac{\log_2 \rho^{\text{learning}}}{1}$$
+$$
+C(n) = C(1) \cdot n^{-b}, \quad b = -\frac{\log_2 \rho^{\text{learning}}}{1}
+\tag{29}
+$$
 
 with $\rho^{\text{learning}}$ the learning rate at cumulative production $n$ and $C(1)$ the first-unit cost.
 
 The lean-manufacturing tradition traces from [Womack et al. 1990][book_womack_jones_roos_1990] The Machine That Changed the World through [Liker 2004][book_liker_2004] The Toyota Way, [Ohno 1988][book_ohno_1988] Toyota Production System, [Womack and Jones 2003][book_womack_jones_2003] Lean Thinking, [Shingō 1989][book_shingo_1989] A Study of the Toyota Production System, [Fine 1998][book_fine_1998] Clockspeed Winning Industry Control in the Age of Temporary Advantage, [Hounshell 1984][book_hounshell_1984] From the American System to Mass Production, [Meyer and Lehnerd 1997][book_meyer_lehnerd_1997] The Power of Product Platforms, [Sanderson and Uzumeri 1997][book_sanderson_uzumeri_1997] Managing Product Families, and [Robertson and Ulrich 1998][research_robertson_ulrich_1998] Planning for Product Platforms. The framing treats the decomposability property through the production-flexibility and product-family-decomposition principles that enable the efficient-manufacturing across the rung sequence. The SpaceX vertical-manufacturing configuration at the Hawthorne facility reflects the lean-manufacturing principles adapted to the launch-vehicle production arrangement. The takt-time identity may be written
 
-$$T^{\text{takt}} = \frac{T^{\text{available}}}{D^{\text{demand}}}$$
+$$
+T^{\text{takt}} = \frac{T^{\text{available}}}{D^{\text{demand}}}
+\tag{30}
+$$
 
 with $T^{\text{available}}$ the available production time and $D^{\text{demand}}$ the demand rate that jointly determine the target-cycle-time per unit.
 
@@ -233,19 +323,28 @@ The Falcon 1 vehicle configuration comprises the two-stage kerosene-and-liquid-o
 
 The Tsiolkovsky rocket equation takes the compact form
 
-$$\Delta v = v_e \cdot \ln\!\left(\frac{m_0}{m_f}\right) = I_{sp} \cdot g_0 \cdot \ln\!\left(\frac{m_0}{m_f}\right)$$
+$$
+\Delta v = v_e \cdot \ln\!\left(\frac{m_0}{m_f}\right) = I_{sp} \cdot g_0 \cdot \ln\!\left(\frac{m_0}{m_f}\right)
+\tag{31}
+$$
 
 with $v_e$ the effective exhaust velocity, $I_{sp}$ the specific impulse, $g_0$ the standard gravitational acceleration, $m_0$ the initial mass, and $m_f$ the final mass. The Falcon 1 configuration allows approximately $\Delta v \approx 9,000$ meters per second summed across the first and second stages.
 
 The specific thrust-to-weight ratio at liftoff takes the form
 
-$$TWR = \frac{F^{\text{thrust}}}{m_0 \cdot g_0}$$
+$$
+TWR = \frac{F^{\text{thrust}}}{m_0 \cdot g_0}
+\tag{32}
+$$
 
 with the Falcon 1 liftoff TWR of approximately 1.16 reflecting the mission-marginal thrust-to-weight configuration.
 
 The payload-fraction identity can be written as
 
-$$\pi^{\text{payload}} = \frac{m^{\text{payload}}}{m_0} = \prod_{i=1}^{n^{\text{stages}}} \left(\frac{m_f^{(i)}}{m_0^{(i)}}\right)$$
+$$
+\pi^{\text{payload}} = \frac{m^{\text{payload}}}{m_0} = \prod_{i=1}^{n^{\text{stages}}} \left(\frac{m_f^{(i)}}{m_0^{(i)}}\right)
+\tag{33}
+$$
 
 with the Falcon 1 payload fraction of approximately 0.022 reflecting the two-stage configuration.
 
@@ -253,7 +352,10 @@ The Falcon 1 launch sequence comprises five launches across the March 24 2006 th
 
 The Falcon 1 launch-success rate across the five-flight sample has the form
 
-$$p^{\text{success}}_{F1} = \frac{n^{\text{successes}}}{n^{\text{attempts}}} = \frac{2}{5} = 0.40$$
+$$
+p^{\text{success}}_{F1} = \frac{n^{\text{successes}}}{n^{\text{attempts}}} = \frac{2}{5} = 0.40
+\tag{34}
+$$
 
 with the Bayesian posterior success-rate estimate substantially higher given the late-flight learning-curve pattern and the successful concluding flights.
 
@@ -261,13 +363,19 @@ The Falcon 1 rung-value analysis has the concise statement of the approximately 
 
 The capability-transfer efficiency from the Falcon 1 rung to the Falcon 9 rung may be written
 
-$$\eta^{\text{transfer}}_{F1 \to F9} = \frac{\Delta K^{\text{Falcon 9}}_{\text{from-Falcon 1}}}{K^{\text{Falcon 1}}_{\text{total}}}$$
+$$
+\eta^{\text{transfer}}_{F1 \to F9} = \frac{\Delta K^{\text{Falcon 9}}_{\text{from-Falcon 1}}}{K^{\text{Falcon 1}}_{\text{total}}}
+\tag{35}
+$$
 
 with $\eta^{\text{transfer}}$ substantially exceeding zero reflecting the substantial subsystem, engineering, and organizational-learning transfer across the rung boundary.
 
 The rung-value ratio for the Falcon 1 rung admits the compact form
 
-$$\rho^{\text{Falcon 1}} = \frac{V^{\text{revenue}}_{F1} + V^{\text{capability-transfer}}_{F1 \to F9}}{I^{\text{development}}_{F1}}$$
+$$
+\rho^{\text{Falcon 1}} = \frac{V^{\text{revenue}}_{F1} + V^{\text{capability-transfer}}_{F1 \to F9}}{I^{\text{development}}_{F1}}
+\tag{36}
+$$
 
 with the $\rho^{\text{Falcon 1}}$ substantially exceeding unity when the capability-transfer value is properly attributed to the Falcon 1 rung.
 
@@ -281,7 +389,10 @@ The Falcon 9 v1.1 configuration comprises the stretched two-stage arrangement wi
 
 The Falcon 9 v1.0 to v1.1 mass-fraction improvement takes the form
 
-$$\pi^{\text{improvement}}_{v1.0 \to v1.1} = \frac{\pi^{\text{payload}}_{v1.1}}{\pi^{\text{payload}}_{v1.0}} \approx 1.26$$
+$$
+\pi^{\text{improvement}}_{v1.0 \to v1.1} = \frac{\pi^{\text{payload}}_{v1.1}}{\pi^{\text{payload}}_{v1.0}} \approx 1.26
+\tag{37}
+$$
 
 reflecting the approximately 26 percent payload-fraction improvement from the v1.0 to v1.1 configuration transition supported by the Merlin 1C to Merlin 1D engine transition.
 
@@ -289,7 +400,10 @@ The Falcon 9 Full Thrust configuration comprises the December 22 2015 debut arra
 
 The reusability-payload-penalty can be written as
 
-$$\Delta m^{\text{payload}}_{\text{reuse}} = m^{\text{payload}}_{\text{expendable}} - m^{\text{payload}}_{\text{reusable}} \approx 7,200 \text{ kg}$$
+$$
+\Delta m^{\text{payload}}_{\text{reuse}} = m^{\text{payload}}_{\text{expendable}} - m^{\text{payload}}_{\text{reusable}} \approx 7,200 \text{ kg}
+\tag{38}
+$$
 
 reflecting the approximately 32 percent payload-penalty for the first-stage-recovery configuration relative to the expendable arrangement.
 
@@ -297,17 +411,26 @@ The Falcon 9 Block 5 configuration comprises the May 11 2018 debut arrangement w
 
 The Falcon 9 launch-cadence progression admits the compact fitted form
 
-$$N^{\text{launches}}(t) = N_0 \cdot e^{g \cdot (t - t_0)}$$
+$$
+N^{\text{launches}}(t) = N_0 \cdot e^{g \cdot (t - t_0)}
+\tag{39}
+$$
 
 with $g$ the growth rate approximately 0.35 per year across the 2013 through 2024 operational period. The reusability-cost-reduction identity has the form
 
-$$C^{\text{amortized}}(k) = \frac{C^{\text{manufacture}} + k \cdot C^{\text{refurbishment}}}{k+1}$$
+$$
+C^{\text{amortized}}(k) = \frac{C^{\text{manufacture}} + k \cdot C^{\text{refurbishment}}}{k+1}
+\tag{40}
+$$
 
 with $k$ the number of reflights per booster so that the amortized cost per launch decreases with the reuse-count. The Falcon 9 Block 5 configuration supports approximately $k \approx 20$ reflights per booster with the amortized-cost of approximately 15 million dollars per launch against the approximately 60 million dollar manufacturing cost.
 
 The block-progression capability index may be written
 
-$$K^{\text{block}}_n = K^{\text{block}}_{n-1} \cdot (1 + \Delta^{\text{improvement}}_n)$$
+$$
+K^{\text{block}}_n = K^{\text{block}}_{n-1} \cdot (1 + \Delta^{\text{improvement}}_n)
+\tag{41}
+$$
 
 with the block-by-block capability improvement $\Delta^{\text{improvement}}\_n$ approximately 0.15 across the v1.0 to v1.1 to Full Thrust to Block 5 progression.
 
@@ -315,7 +438,10 @@ The Falcon 9 rung-value analysis takes the compact statement of the approximatel
 
 The Falcon 9 launch-service-price trajectory has the concise form
 
-$$P^{\text{launch}}(t) = P_0 \cdot e^{-\beta^{\text{learning}} \cdot t}$$
+$$
+P^{\text{launch}}(t) = P_0 \cdot e^{-\beta^{\text{learning}} \cdot t}
+\tag{42}
+$$
 
 with $\beta^{\text{learning}}$ the price-decay rate reflecting the learning-and-reusability cost-reduction across the operational period.
 
@@ -327,7 +453,10 @@ The Dragon 1 vehicle configuration comprises the pressurized-and-unpressurized c
 
 The Dragon 1 cargo-delivery efficiency takes the form
 
-$$\eta^{\text{cargo}}_{D1} = \frac{m^{\text{cargo}}_{\text{delivered}}}{m^{\text{launch}}_{D1}}$$
+$$
+\eta^{\text{cargo}}_{D1} = \frac{m^{\text{cargo}}_{\text{delivered}}}{m^{\text{launch}}_{D1}}
+\tag{43}
+$$
 
 with the Dragon 1 cargo-delivery efficiency of approximately 0.55 reflecting the efficient mass-utilization of the spacecraft configuration.
 
@@ -335,7 +464,10 @@ The Dragon 1 rung-value analysis admits the compact statement of the approximate
 
 The Dragon 1 mission-value identity can be written as
 
-$$V^{\text{mission}}_{D1}(n) = P^{\text{price-per-mission}} \cdot n^{\text{missions}} + V^{\text{capability-transfer}}_{D1 \to D2}$$
+$$
+V^{\text{mission}}_{D1}(n) = P^{\text{price-per-mission}} \cdot n^{\text{missions}} + V^{\text{capability-transfer}}_{D1 \to D2}
+\tag{44}
+$$
 
 with the capability-transfer value to the Dragon 2 configuration substantially augmenting the direct-mission-revenue value.
 
@@ -347,13 +479,19 @@ The Falcon Heavy vehicle configuration comprises the three-Falcon-9-core arrange
 
 The Falcon Heavy total-thrust identity has the form
 
-$$F^{\text{FH}}_{\text{total}} = 3 \cdot F^{\text{F9-core}}_{\text{thrust}} = 3 \cdot 9 \cdot F^{\text{Merlin 1D}}_{\text{sea-level}}$$
+$$
+F^{\text{FH}}_{\text{total}} = 3 \cdot F^{\text{F9-core}}_{\text{thrust}} = 3 \cdot 9 \cdot F^{\text{Merlin 1D}}_{\text{sea-level}}
+\tag{45}
+$$
 
 with the approximately 22.8 million newtons total liftoff thrust reflecting the 27-engine parallel-staging configuration.
 
 The parallel-staging payload-capability enhancement may be written
 
-$$m^{\text{payload}}_{\text{FH}} = k^{\text{parallel-staging}} \cdot m^{\text{payload}}_{\text{F9}}$$
+$$
+m^{\text{payload}}_{\text{FH}} = k^{\text{parallel-staging}} \cdot m^{\text{payload}}_{\text{F9}}
+\tag{46}
+$$
 
 with $k^{\text{parallel-staging}} \approx 2.8$ reflecting the payload-capability enhancement from the three-core configuration relative to the single-core Falcon 9 baseline.
 
@@ -361,7 +499,10 @@ The Falcon Heavy launch sequence comprises the eleven launches across the Februa
 
 The Falcon Heavy annual-cadence yields the compact form
 
-$$\bar N^{\text{FH-per-year}} = \frac{n^{\text{total-flights}}_{FH}}{\Delta t^{\text{operational}}_{FH}} \approx \frac{11}{7.5} \approx 1.5$$
+$$
+\bar N^{\text{FH-per-year}} = \frac{n^{\text{total-flights}}_{FH}}{\Delta t^{\text{operational}}_{FH}} \approx \frac{11}{7.5} \approx 1.5
+\tag{47}
+$$
 
 reflecting the approximately 1.5-launch-per-year operational cadence substantially below the Falcon 9 approximately 140-launch-per-year cadence due to the narrow heavy-lift-mission subset.
 
@@ -375,11 +516,17 @@ The Dragon 2 vehicle configuration comprises the pressurized crew spacecraft arr
 
 The crew-loss-of-mission probability takes the form
 
-$$P^{\text{LOM}}_{D2} = 1 - \prod_{i \in \text{critical-events}} P^{\text{success}}_i$$
+$$
+P^{\text{LOM}}_{D2} = 1 - \prod_{i \in \text{critical-events}} P^{\text{success}}_i
+\tag{48}
+$$
 
 with the target loss-of-mission probability of less than 1 in 500 as the NASA Commercial Crew Program specification. The loss-of-crew probability can be written as
 
-$$P^{\text{LOC}}_{D2} = P^{\text{LOM}}_{D2} \cdot P^{\text{catastrophic-given-mission-loss}}_{D2}$$
+$$
+P^{\text{LOC}}_{D2} = P^{\text{LOM}}_{D2} \cdot P^{\text{catastrophic-given-mission-loss}}_{D2}
+\tag{49}
+$$
 
 with the launch-abort-system reliability substantially reducing the loss-of-crew probability below the loss-of-mission probability.
 
@@ -393,25 +540,37 @@ The Starship vehicle configuration comprises the two-stage methane-and-liquid-ox
 
 The Starship total-thrust identity has the form
 
-$$F^{\text{SS}}_{\text{total}} = 33 \cdot F^{\text{Raptor 2}}_{\text{sea-level}} \approx 74.4 \times 10^6 \text{ N}$$
+$$
+F^{\text{SS}}_{\text{total}} = 33 \cdot F^{\text{Raptor 2}}_{\text{sea-level}} \approx 74.4 \times 10^6 \text{ N}
+\tag{50}
+$$
 
 reflecting the 33-engine Super Heavy first-stage configuration.
 
 The full-flow-staged-combustion cycle chamber-pressure identity may be written
 
-$$P^{\text{chamber}}_{\text{FFSC}} = P^{\text{oxidizer-turbopump}}_{\text{outlet}} = P^{\text{fuel-turbopump}}_{\text{outlet}}$$
+$$
+P^{\text{chamber}}_{\text{FFSC}} = P^{\text{oxidizer-turbopump}}_{\text{outlet}} = P^{\text{fuel-turbopump}}_{\text{outlet}}
+\tag{51}
+$$
 
 with the Raptor 2 chamber pressure of approximately 300 bar substantially exceeding the gas-generator Merlin chamber pressure of approximately 100 bar reflecting the cycle-efficiency advantage of the full-flow-staged-combustion configuration.
 
 The in-space-refueling mass-multiplication identity admits the compact form
 
-$$m^{\text{destination}}_{\text{payload}} = m^{\text{LEO}}_{\text{payload}} \cdot e^{-\Delta v^{\text{destination}} / (I_{sp} \cdot g_0)} \cdot k^{\text{refuel}}$$
+$$
+m^{\text{destination}}_{\text{payload}} = m^{\text{LEO}}_{\text{payload}} \cdot e^{-\Delta v^{\text{destination}} / (I_{sp} \cdot g_0)} \cdot k^{\text{refuel}}
+\tag{52}
+$$
 
 with $k^{\text{refuel}}$ the refueling-multiplier that the in-space-refueling capability provides for the interplanetary-mission payload delivery.
 
 The full-reusability cost-per-kilogram-to-orbit projection takes the form
 
-$$C^{\text{per-kg}}_{\text{full-reuse}} = \frac{C^{\text{propellant}} + C^{\text{operations}} + C^{\text{amortized-hardware}}}{m^{\text{payload}}}$$
+$$
+C^{\text{per-kg}}_{\text{full-reuse}} = \frac{C^{\text{propellant}} + C^{\text{operations}} + C^{\text{amortized-hardware}}}{m^{\text{payload}}}
+\tag{53}
+$$
 
 with the projected approximately 100 dollar per kilogram cost under the full-reusability operational-cadence configuration substantially below the approximately 3,000 dollar per kilogram Falcon 9 reusable-mode baseline.
 
@@ -419,13 +578,19 @@ The Starship test sequence comprises the test flights across the April 20 2023 t
 
 The test-flight-cadence progression can be written as
 
-$$N^{\text{test-flights}}(t) = \sum_{k=1}^{n^{\text{completed}}} \mathbb{1}[t^{\text{flight}}_k \leq t]$$
+$$
+N^{\text{test-flights}}(t) = \sum_{k=1}^{n^{\text{completed}}} \mathbb{1}[t^{\text{flight}}_k \leq t]
+\tag{54}
+$$
 
 with the IFT-flight indicator function summing to approximately 10 by the drafting date.
 
 The test-flight-milestone-achievement progression has the form
 
-$$M^{\text{milestones}}(n) = \{m : m \text{ achieved by flight } n\}$$
+$$
+M^{\text{milestones}}(n) = \{m : m \text{ achieved by flight } n\}
+\tag{55}
+$$
 
 with the milestone set expanding across the IFT-1 through IFT-10 progression from the engine-ignition milestone through the stage-separation, orbital-velocity, successful-splashdown, booster-catch, and in-space-refueling-demonstration milestones.
 
@@ -433,7 +598,10 @@ The Starship rung-value analysis permits the concise statement of the approximat
 
 The Starship expected-value decomposition may be written
 
-$$E[V^{\text{Starship}}] = \sum_{a \in \text{applications}} P(a) \cdot V(a) \cdot \eta^{\text{Starship-share}}(a)$$
+$$
+E[V^{\text{Starship}}] = \sum_{a \in \text{applications}} P(a) \cdot V(a) \cdot \eta^{\text{Starship-share}}(a)
+\tag{56}
+$$
 
 with the expected-value summing across the application-set weighted by the application-realization probability, the application-value, and the Starship-share of the application market.
 
@@ -445,19 +613,28 @@ The Merlin engine reuse across the Falcon 1, Falcon 9, and Falcon Heavy vehicles
 
 The Merlin thrust-progression admits the compact factor-form
 
-$$\frac{F^{\text{Merlin 1D}}_{\text{sea-level}}}{F^{\text{Merlin 1A}}_{\text{sea-level}}} \approx \frac{654}{340} \approx 1.92$$
+$$
+\frac{F^{\text{Merlin 1D}}_{\text{sea-level}}}{F^{\text{Merlin 1A}}_{\text{sea-level}}} \approx \frac{654}{340} \approx 1.92
+\tag{57}
+$$
 
 reflecting the approximately doubling of engine thrust across the Merlin family progression.
 
 The Merlin specific-impulse progression allows the brief form
 
-$$I_{sp}^{\text{Merlin 1D, sea level}} \approx 282 \text{ s}, \quad I_{sp}^{\text{Merlin 1D Vacuum}} \approx 348 \text{ s}$$
+$$
+I_{sp}^{\text{Merlin 1D, sea level}} \approx 282 \text{ s}, \quad I_{sp}^{\text{Merlin 1D Vacuum}} \approx 348 \text{ s}
+\tag{58}
+$$
 
 with the vacuum-configuration substantially exceeding the sea-level-arrangement specific impulse.
 
 The Merlin engine-cost-reduction across the production-quantity admits the compact learning-curve form
 
-$$C^{\text{Merlin}}(n) = C^{\text{Merlin}}(1) \cdot n^{-b^{\text{Merlin}}}$$
+$$
+C^{\text{Merlin}}(n) = C^{\text{Merlin}}(1) \cdot n^{-b^{\text{Merlin}}}
+\tag{59}
+$$
 
 with $b^{\text{Merlin}} \approx 0.32$ reflecting the approximately 80 percent learning rate across the approximately 1,500-unit cumulative production through the drafting date.
 
@@ -469,19 +646,28 @@ The Raptor engine development represents the step-change from the kerosene-and-l
 
 The Raptor specific-impulse takes the compact statement
 
-$$I_{sp}^{\text{Raptor 2, sea level}} \approx 327 \text{ s}, \quad I_{sp}^{\text{Raptor Vacuum}} \approx 380 \text{ s}$$
+$$
+I_{sp}^{\text{Raptor 2, sea level}} \approx 327 \text{ s}, \quad I_{sp}^{\text{Raptor Vacuum}} \approx 380 \text{ s}
+\tag{60}
+$$
 
 with the vacuum-configuration approaching the theoretical maximum for the methane-and-liquid-oxygen propellant arrangement.
 
 The engine-cycle efficiency progression from the gas-generator to the full-flow-staged-combustion takes the form
 
-$$\eta^{\text{cycle}}_{\text{FFSC}} > \eta^{\text{cycle}}_{\text{gas-generator}}$$
+$$
+\eta^{\text{cycle}}_{\text{FFSC}} > \eta^{\text{cycle}}_{\text{gas-generator}}
+\tag{61}
+$$
 
 with the full-flow-staged-combustion cycle recovering the turbine exhaust into the combustion chamber rather than dumping the turbine exhaust overboard as the gas-generator cycle does.
 
 The Raptor thrust-progression across the Raptor 1, Raptor 2, and Raptor 3 configurations can be written as
 
-$$F^{\text{Raptor 3}}_{\text{sea-level}} = F^{\text{Raptor 1}}_{\text{sea-level}} \cdot \prod_{n=1}^{2} (1 + \Delta^{\text{Raptor}}_n)$$
+$$
+F^{\text{Raptor 3}}_{\text{sea-level}} = F^{\text{Raptor 1}}_{\text{sea-level}} \cdot \prod_{n=1}^{2} (1 + \Delta^{\text{Raptor}}_n)
+\tag{62}
+$$
 
 with the approximately 50 percent thrust increase across the three-configuration progression.
 
@@ -495,13 +681,19 @@ The launch-site decomposition reflects the mission-class specialization across t
 
 The launch-site utilization identity has the form
 
-$$U^{\text{site}}_i = \frac{N^{\text{launches}}_i}{N^{\text{maximum-cadence}}_i}$$
+$$
+U^{\text{site}}_i = \frac{N^{\text{launches}}_i}{N^{\text{maximum-cadence}}_i}
+\tag{63}
+$$
 
 with the LC-39A utilization approaching approximately 0.8 across the 2024 through drafting-date period reflecting the approximately 40-launch-per-year cadence against the approximately 50-launch-per-year theoretical maximum.
 
 The azimuth-constraint identity for the orbital-inclination may be written
 
-$$\cos(i^{\text{inclination}}) = \cos(\phi^{\text{latitude}}) \cdot \sin(A^{\text{azimuth}})$$
+$$
+\cos(i^{\text{inclination}}) = \cos(\phi^{\text{latitude}}) \cdot \sin(A^{\text{azimuth}})
+\tag{64}
+$$
 
 with $\phi^{\text{latitude}}$ the launch-site latitude and $A^{\text{azimuth}}$ the launch azimuth that jointly determine the reachable orbital-inclination range from the launch site.
 
@@ -625,25 +817,37 @@ The decomposability property supports alternative analytical treatment beyond th
 
 The real-options-analytical framing extends the real-options treatment in the Cross-Disciplinary Framings section. The staged-investment configuration admits the compound-option treatment in which each rung's option-to-continue value depends recursively on the option value at each subsequent rung. The compound-option valuation has the concise form
 
-$$V^{\text{compound}}_n = f\!\left(V^{\text{rung}}_n, V^{\text{compound}}_{n+1}, I_{n+1}, \sigma^{\text{market}}_{n+1}, \sigma^{\text{technical}}_{n+1}, r^{\text{discount}}\right)$$
+$$
+V^{\text{compound}}_n = f\!\left(V^{\text{rung}}_n, V^{\text{compound}}_{n+1}, I_{n+1}, \sigma^{\text{market}}_{n+1}, \sigma^{\text{technical}}_{n+1}, r^{\text{discount}}\right)
+\tag{65}
+$$
 
 with the inputs indexing the current-rung value, the subsequent-rung compound-option value, the subsequent-rung investment cost, the market-uncertainty volatility, the technical-uncertainty volatility, and the discount rate. The SpaceX case permits the compound-option treatment across the Falcon 1 to Falcon 9 to Falcon Heavy to Starship rung sequence.
 
 The complexity-and-systems-of-systems framing treats the SpaceX vehicle-family and subsystem-family configuration through the complexity-theory and systems-of-systems-engineering treatments in [Maier 1998][research_maier_1998] Architecting Principles for Systems-of-Systems, [Sage and Cuppan 2001][research_sage_cuppan_2001] On the Systems Engineering and Management of Systems of Systems, [DeLaurentis and Callaway 2004][research_delaurentis_callaway_2004] A System-of-Systems Perspective for Public Policy Decisions, and [Kauffman 1993][book_kauffman_1993] The Origins of Order. The framing captures the hierarchical-complexity configuration in which the vehicle family, subsystem family, and operational-infrastructure jointly constitute the system-of-systems arrangement. The complexity-index takes the form
 
-$$C_i = \sum_{s \in \text{subsystems}} \omega_s \cdot k_s^{\text{connectivity}}$$
+$$
+C_i = \sum_{s \in \text{subsystems}} \omega_s \cdot k_s^{\text{connectivity}}
+\tag{66}
+$$
 
 with $k_s^{\text{connectivity}}$ the subsystem-connectivity degree.
 
 The actor-network-theory framing treats the SpaceX decomposability configuration through the network-of-actors treatment in [Latour 1987][book_latour_1987] Science in Action, [Callon 1984][research_callon_1986] Some Elements of a Sociology of Translation, [Law 1987][research_law_1987] Technology and Heterogeneous Engineering, and [Bijker 1995][book_bijker_1995] Of Bicycles Bakelites and Bulbs. The framing treats the SpaceX vehicle-family, engine-family, and launch-infrastructure decomposition as the heterogeneous network of human and non-human actors whose alignment supports the decomposability configuration. The actor-network-strength index can be written as
 
-$$ANS_i = \sum_{a \in \text{actors}} \omega_a \cdot \phi^{\text{alignment}}_{i,a}$$
+$$
+ANS_i = \sum_{a \in \text{actors}} \omega_a \cdot \phi^{\text{alignment}}_{i,a}
+\tag{67}
+$$
 
 with $\phi^{\text{alignment}}\_{i,a}$ the actor-network-alignment fraction for actor $a$ in firm $i$.
 
 The ecosystem-strategy framing treats the SpaceX decomposability configuration through the ecosystem-level orchestration in [Adner 2012][book_adner_2012] The Wide Lens, [Adner 2016][research_adner_2017] Ecosystem as Structure An Actionable Construct for Strategy, [Adner and Kapoor 2009][research_adner_kapoor_2010] Value Creation in Innovation Ecosystems, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, and [Jacobides et al. 2018][research_jacobides_et_al_2018] Towards a Theory of Ecosystems. The framing treats the SpaceX vehicle-family decomposition as the ecosystem-level orchestration configuration in which the SpaceX firm coordinates the launch-service, spacecraft, propulsion, and operations segments to jointly support the decomposability outcome. The ecosystem-orchestration index has the form
 
-$$EO_i = \sum_{s \in \text{segments}} \omega_s \cdot \phi^{\text{coordinated}}_{i,s}$$
+$$
+EO_i = \sum_{s \in \text{segments}} \omega_s \cdot \phi^{\text{coordinated}}_{i,s}
+\tag{68}
+$$
 
 with $\phi^{\text{coordinated}}\_{i,s}$ the segment-coordination strength.
 
@@ -667,7 +871,10 @@ The abstract decomposability mechanic requires joint satisfaction of five sub-pr
 
 The abstract decomposability closure admits the compact identity form
 
-$$D^{\text{closure}} = \mathbb{1}\!\left[\prod_{k=1}^{5} \mathbb{1}[s_k \text{ satisfied}] = 1\right]$$
+$$
+D^{\text{closure}} = \mathbb{1}\!\left[\prod_{k=1}^{5} \mathbb{1}[s_k \text{ satisfied}] = 1\right]
+\tag{69}
+$$
 
 with the closure indicator equal to unity when all five sub-properties are jointly satisfied and zero when any sub-property fails.
 
@@ -686,6 +893,614 @@ The article adopts terminology consistent with the aerospace-industry convention
 ## Load-Bearing Open Questions
 
 The article closes with the load-bearing open questions that the decomposability treatment leaves unresolved. First, the quantitative estimation of the rung-by-rung value realization requires substantially more primary-source documentation than the private-firm status permits. Second, the counterfactual analysis of the single-configuration alternatives requires the speculative reconstruction of the alternative-development trajectories. Third, the transferability of the decomposability pattern to the non-launch-vehicle applications allows substantial uncertainty. Fourth, the long-term sustainability of the decomposability configuration under the Starship-transition scenario supports substantial uncertainty pending the Starship operational validation.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 69 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 69, 28 are established and 41 are bespoke.
+Rung values, capability stocks and the architecture indices are abstract quantities without units, while thrust is in newtons, specific impulse in seconds, masses in kilograms or tonnes as stated, costs in nominal United States dollars and probabilities are dimensionless.
+
+*Equation 1, Bespoke Decomposability Condition.*
+The article requires every completed rung to be worth more than its own development cost.
+
+$$
+\forall r_n \in R_i(t) : V^{\text{rung}}(r_n) > V^{\text{development-cost}}(r_n)
+\tag{1}
+$$
+
+*Equation 2, Bespoke Rung Value Channels.*
+The article divides the value of a rung into revenue, capability, learning and option channels.
+
+$$
+V^{\text{rung}}(r_n) = V^{\text{revenue}}(r_n) + V^{\text{capability}}(r_n) + V^{\text{learning}}(r_n) + V^{\text{option}}(r_n)
+\tag{2}
+$$
+
+*Equation 3, Bespoke Capability Accumulation over Rungs.*
+Capability is an initial stock plus the increments contributed by each completed rung.
+
+$$
+K_i(t) = K_i(0) + \sum_{n=1}^{N(t)} \Delta K(r_n)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Rung-to-Rung Transfer Efficiency.*
+The article measures transfer as the capability shared between successive rungs divided by the total capability of the earlier rung.
+
+$$
+\eta^{\text{transfer}}_{n \to n+1} = \frac{K^{\text{shared}}_{n \to n+1}}{K^{\text{total}}_{n}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Decomposability Counterfactual.*
+The decomposability contribution is defined as observed value less the value of a counterfactual single-configuration trajectory.
+
+$$
+\Delta V_i^{\text{decomposability}}(t) = V_i^{\text{observed}}(t) - V_i^{\text{single-configuration counterfactual}}(t)
+\tag{5}
+$$
+
+**Equation 6, Survival Function from a Hazard Rate.**
+The probability of surviving to a time is the exponential of minus the integrated hazard rate.
+
+$$
+S(t) = \exp\!\left(-\int_0^t \lambda^{\text{failure}}(r_n(s)) \, ds\right)
+\tag{6}
+$$
+
+*Equation 7, Bespoke Expected Value of a Rung Sequence.*
+The article weights each rung value by its completion probability and by the product of the completion probabilities of the earlier rungs.
+
+$$
+E[V^{\text{total}}] = \sum_{n=1}^{N} P(r_n \text{ completed}) \cdot V^{\text{rung}}(r_n) \cdot \prod_{k<n} P(r_k \text{ completed})
+\tag{7}
+$$
+
+*Equation 8, Bespoke Decomposability Advantage.*
+The advantage is the expected value of the decomposed path less that of the single configuration and less the coordination cost.
+
+$$
+V^{\text{decomposability-advantage}} = E[V^{\text{decomposed}}] - E[V^{\text{single-configuration}}] - C^{\text{coordination}}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Rung Value Threshold.*
+The article requires the value of every completed rung to reach a threshold of individual justification.
+
+$$
+V^{\text{rung}}(r_n) \geq V^{\text{threshold}} \quad \forall r_n \in R_i(t)
+\tag{9}
+$$
+
+*Equation 10, Bespoke Rung Independent Viability Test.*
+The value of a rung must exceed its development cost and an attributed share of shared infrastructure.
+
+$$
+V^{\text{rung}}(r_n) - I^{\text{development}}(r_n) - I^{\text{shared-infrastructure attribution}}(r_n) > 0
+\tag{10}
+$$
+
+*Equation 11, Bespoke Rung Transition Probability.*
+The article writes the probability of reaching the next rung as an unspecified function of current rung value, accumulated capability and external conditions.
+
+$$
+\text{Prob}(r_{n+1} \mid r_n) = g(V^{\text{rung}}(r_n), K^{\text{accumulated}}(r_1, \ldots, r_n), \Pi^{\text{external}}(t))
+\tag{11}
+$$
+
+*Equation 12, Bespoke Log-Normal Transition Time.*
+The article assumes that the time between rungs follows a log-normal distribution.
+
+$$
+T^{\text{transition}}_{n \to n+1} \sim \text{LogNormal}(\mu^{\text{transition}}_n, \sigma^{\text{transition}}_n)
+\tag{12}
+$$
+
+*Equation 13, Bespoke Decomposition Quality Index.*
+The article averages the ratio of rung value to development cost over the rungs.
+
+$$
+D_i = \frac{1}{N} \sum_{n=1}^{N} \frac{V^{\text{rung}}(r_n)}{V^{\text{development-cost}}(r_n)}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Modularity Index.*
+The article takes the weighted mean over subsystems of the fraction of each subsystem reused across rungs.
+
+$$
+M_i = \frac{\sum_{s \in \text{subsystems}} \omega_s \cdot \phi^{\text{reuse}}_{s}}{\sum_{s \in \text{subsystems}} \omega_s}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Subsystem Interface Count.*
+The count of interfaces is the number of subsystem pairs multiplied by the fraction of pairs that share a direct interface.
+
+$$
+N^{\text{interfaces}}_i = \binom{n^{\text{subsystems}}}{2} \cdot \phi^{\text{connected}}_{i}
+\tag{15}
+$$
+
+**Equation 16, Payoff of an Option to Invest in the Next Rung.**
+The option is worth the greater of zero and the expected value of the next rung less its investment cost.
+
+$$
+V^{\text{option}}(r_{n+1}) = \max(0, V^{\text{expected}}(r_{n+1}) - I(r_{n+1}))
+\tag{16}
+$$
+
+**Equation 17, Expanded Present Value with an Option to Continue.**
+Total value is the current value plus the greater of zero and the option-to-continue value less its exercise cost.
+[Trigeorgis 1996][book_trigeorgis_1996]
+
+$$
+V^{\text{total}}(r_n) = V^{\text{current}}(r_n) + \max(0, V^{\text{option-to-continue}}(r_n) - I^{\text{option-exercise}}(r_n))
+\tag{17}
+$$
+
+**Equation 18, Bellman Recursion for Staged Investment.**
+The value at each rung is the greater of stopping and continuing, where continuing pays the next investment and earns the discounted expected value of the next rung.
+
+$$
+V^{\ast}(r_n) = \max\!\left\{V^{\text{stop}}(r_n), \; V^{\text{continue}}(r_n) - I(r_{n+1}) + \delta \cdot E[V^{\ast}(r_{n+1})]\right\}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Capability Accumulation Dynamics.*
+The article models capability as growing with development investment and with learning proportional to the stock and as depreciating at a constant rate.
+
+$$
+\dot K_i(t) = \eta \cdot I^{\text{development}}(t) + \mu \cdot L(t) \cdot K_i(t) - \delta \cdot K_i(t)
+\tag{19}
+$$
+
+*Equation 20, Bespoke Completion Probability of a Decomposed Path.*
+Completion of the last rung is the product of independent rung success probabilities, which the article asserts is at least the single-configuration probability.
+
+$$
+P^{\text{decomposed}}(\text{complete } r_N) = \prod_{n=1}^{N} p_n^{\text{rung-success}} \geq P^{\text{single-configuration}}(\text{complete})
+\tag{20}
+$$
+
+**Equation 21, Black-Scholes-Merton Call Value.**
+The value of a European call is the underlying value weighted by the normal distribution at the first standardised argument less the discounted exercise price weighted by it at the second.
+[Black and Scholes 1973][research_black_scholes_1973]
+[Merton 1973][research_merton_1973]
+
+$$
+V^{\text{option}} = V^{\text{expected}} \cdot \Phi(d_1) - I \cdot e^{-r T} \cdot \Phi(d_2)
+\tag{21}
+$$
+
+*Equation 22, Bespoke Modular Architecture Index.*
+The article divides intra-subsystem coupling by total coupling to measure the strength of the modular architecture.
+
+$$
+MA_i = \frac{\sum_{s} c^{\text{internal}}_{s}}{\sum_{s,t} c^{\text{internal}}_{s} + c^{\text{external}}_{s,t}}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Nearly Decomposable System Dynamics.*
+The article writes the dynamics of a nearly decomposable system as a composition of intra-module and inter-module dynamics on separate time scales.
+[Simon 1962][research_simon_1962]
+
+$$
+T^{\text{system-dynamics}} = T^{\text{intra-module-dynamics}} \oplus T^{\text{inter-module-dynamics}}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Geometric Residual Risk.*
+Residual risk is the initial risk reduced at each rung by the fraction resolved there.
+[Boehm 1988][research_boehm_1988]
+
+$$
+R^{\text{residual}}_n = R^{\text{initial}} \cdot \prod_{k=1}^{n} (1 - \Delta R_k^{\text{resolution}})
+\tag{24}
+$$
+
+**Equation 25, Bass Diffusion Equation.**
+The rate of adoption is the sum of an innovation term and an imitation term proportional to adoption so far, multiplied by the remaining market potential.
+
+$$
+\frac{dN(t)}{dt} = \left[p + q \cdot \frac{N(t)}{m}\right] \cdot [m - N(t)]
+\tag{25}
+$$
+
+*Equation 26, Bespoke Recursive Compound Option over Rungs.*
+The article values each rung as the greater of zero and its underlying value plus the compound value of the next rung less its investment.
+[Trigeorgis 1996][book_trigeorgis_1996]
+
+$$
+V^{\text{compound}}(r_n) = \max\!\left(0, V^{\text{underlying}}(r_n) + V^{\text{compound}}(r_{n+1}) - I(r_{n+1})\right)
+\tag{26}
+$$
+
+*Equation 27, Bespoke Dynamic Capabilities Index.*
+The article weights sensing, seizing and reconfiguring capability into one linear index.
+[Teece 2007][research_teece_2007]
+
+$$
+DC_i = \alpha^{\text{sense}} \cdot S_i + \alpha^{\text{seize}} \cdot Z_i + \alpha^{\text{reconfigure}} \cdot R_i
+\tag{27}
+$$
+
+*Equation 28, Bespoke Absorptive Capacity Function.*
+The article writes absorptive capacity as an unspecified function of prior knowledge, knowledge diversity and research intensity.
+[Cohen and Levinthal 1990][research_cohen_levinthal_1990]
+
+$$
+AC_i = \phi\!\left(K_i^{\text{prior}}, D_i^{\text{diversity}}, I_i^{\text{research-intensity}}\right)
+\tag{28}
+$$
+
+**Equation 29, Wright Learning Curve with Progress Ratio.**
+Unit cost falls as a power of cumulative production, with the exponent equal to minus the base-two logarithm of the progress ratio.
+[Wright 1936][research_wright_1936]
+
+$$
+C(n) = C(1) \cdot n^{-b}, \quad b = -\frac{\log_2 \rho^{\text{learning}}}{1}
+\tag{29}
+$$
+
+**Equation 30, Takt Time.**
+Takt time is the available production time divided by the demand.
+[Ohno 1988][book_ohno_1988]
+
+$$
+T^{\text{takt}} = \frac{T^{\text{available}}}{D^{\text{demand}}}
+\tag{30}
+$$
+
+**Equation 31, Tsiolkovsky Rocket Equation.**
+The velocity change equals the effective exhaust velocity, specific impulse times standard gravity, multiplied by the natural logarithm of the initial to final mass ratio.
+
+$$
+\Delta v = v_e \cdot \ln\!\left(\frac{m_0}{m_f}\right) = I_{sp} \cdot g_0 \cdot \ln\!\left(\frac{m_0}{m_f}\right)
+\tag{31}
+$$
+
+**Equation 32, Thrust-to-Weight Ratio at Liftoff.**
+The thrust-to-weight ratio is liftoff thrust divided by the weight of the vehicle at liftoff.
+
+$$
+TWR = \frac{F^{\text{thrust}}}{m_0 \cdot g_0}
+\tag{32}
+$$
+
+**Equation 33, Payload Fraction of a Staged Vehicle.**
+The payload fraction is payload mass over liftoff mass, which the article writes as a product of stage mass ratios.
+
+$$
+\pi^{\text{payload}} = \frac{m^{\text{payload}}}{m_0} = \prod_{i=1}^{n^{\text{stages}}} \left(\frac{m_f^{(i)}}{m_0^{(i)}}\right)
+\tag{33}
+$$
+
+**Equation 34, Falcon 1 Success Rate.**
+The success rate is two successes divided by the five Falcon 1 attempts.
+
+$$
+p^{\text{success}}_{F1} = \frac{n^{\text{successes}}}{n^{\text{attempts}}} = \frac{2}{5} = 0.40
+\tag{34}
+$$
+
+*Equation 35, Bespoke Falcon 1 to Falcon 9 Transfer Efficiency.*
+The article measures transfer as the Falcon 9 capability drawn from Falcon 1 divided by the total Falcon 1 capability.
+
+$$
+\eta^{\text{transfer}}_{F1 \to F9} = \frac{\Delta K^{\text{Falcon 9}}_{\text{from-Falcon 1}}}{K^{\text{Falcon 1}}_{\text{total}}}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Falcon 1 Rung Value Ratio.*
+The article divides Falcon 1 revenue plus the value of capability transferred to Falcon 9 by the Falcon 1 development investment.
+
+$$
+\rho^{\text{Falcon 1}} = \frac{V^{\text{revenue}}_{F1} + V^{\text{capability-transfer}}_{F1 \to F9}}{I^{\text{development}}_{F1}}
+\tag{36}
+$$
+
+**Equation 37, Falcon 9 Version 1.1 Payload Fraction Improvement.**
+The ratio of the payload fractions of the two versions is evaluated at about 1.26 from published figures.
+
+$$
+\pi^{\text{improvement}}_{v1.0 \to v1.1} = \frac{\pi^{\text{payload}}_{v1.1}}{\pi^{\text{payload}}_{v1.0}} \approx 1.26
+\tag{37}
+$$
+
+**Equation 38, Payload Penalty of First-Stage Reuse.**
+The penalty is the expendable payload less the reusable payload, evaluated at about 7200 kilograms.
+
+$$
+\Delta m^{\text{payload}}_{\text{reuse}} = m^{\text{payload}}_{\text{expendable}} - m^{\text{payload}}_{\text{reusable}} \approx 7,200 \text{ kg}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Exponential Growth of Launch Count.*
+The article fits the annual Falcon 9 launch count to an exponential with a fitted growth rate.
+
+$$
+N^{\text{launches}}(t) = N_0 \cdot e^{g \cdot (t - t_0)}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Amortised Booster Cost.*
+The article spreads manufacture and refurbishment over the first flight and its reflights, omitting the other per-flight costs.
+
+$$
+C^{\text{amortized}}(k) = \frac{C^{\text{manufacture}} + k \cdot C^{\text{refurbishment}}}{k+1}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Block Capability Index.*
+The article compounds a capability index by a fractional improvement at each block.
+
+$$
+K^{\text{block}}_n = K^{\text{block}}_{n-1} \cdot (1 + \Delta^{\text{improvement}}_n)
+\tag{41}
+$$
+
+*Equation 42, Bespoke Exponential Decline of Launch Price.*
+The article models the launch price as decaying exponentially at a learning rate.
+
+$$
+P^{\text{launch}}(t) = P_0 \cdot e^{-\beta^{\text{learning}} \cdot t}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Dragon 1 Cargo Efficiency.*
+The article divides delivered cargo mass by the launch mass of the spacecraft.
+
+$$
+\eta^{\text{cargo}}_{D1} = \frac{m^{\text{cargo}}_{\text{delivered}}}{m^{\text{launch}}_{D1}}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Dragon 1 Mission Value.*
+The article adds mission revenue to a value of capability transferred to Dragon 2.
+
+$$
+V^{\text{mission}}_{D1}(n) = P^{\text{price-per-mission}} \cdot n^{\text{missions}} + V^{\text{capability-transfer}}_{D1 \to D2}
+\tag{44}
+$$
+
+**Equation 45, Falcon Heavy Liftoff Thrust.**
+Total thrust is three cores of nine Merlin 1D engines each, twenty-seven times the sea-level thrust of one engine.
+[SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide]
+
+$$
+F^{\text{FH}}_{\text{total}} = 3 \cdot F^{\text{F9-core}}_{\text{thrust}} = 3 \cdot 9 \cdot F^{\text{Merlin 1D}}_{\text{sea-level}}
+\tag{45}
+$$
+
+**Equation 46, Falcon Heavy Payload as a Multiple of Falcon 9.**
+The factor is the ratio of the published Falcon Heavy payload to that of Falcon 9, about 2.8.
+[SpaceX Falcon Heavy User's Guide][ref_spacex_falcon_heavy_users_guide]
+
+$$
+m^{\text{payload}}_{\text{FH}} = k^{\text{parallel-staging}} \cdot m^{\text{payload}}_{\text{F9}}
+\tag{46}
+$$
+
+**Equation 47, Falcon Heavy Average Annual Cadence.**
+The average cadence is the reported flight count divided by the operational period.
+
+$$
+\bar N^{\text{FH-per-year}} = \frac{n^{\text{total-flights}}_{FH}}{\Delta t^{\text{operational}}_{FH}} \approx \frac{11}{7.5} \approx 1.5
+\tag{47}
+$$
+
+**Equation 48, Loss-of-Mission Probability of a Series of Events.**
+Mission loss is one minus the product of the success probabilities of the independent critical events.
+[NASA Commercial Crew Program Documents][ref_nasa_ccp_documents]
+
+$$
+P^{\text{LOM}}_{D2} = 1 - \prod_{i \in \text{critical-events}} P^{\text{success}}_i
+\tag{48}
+$$
+
+**Equation 49, Loss-of-Crew Probability.**
+Loss of crew is the probability of mission loss multiplied by the conditional probability that a mission loss is catastrophic.
+[NASA Commercial Crew Program Documents][ref_nasa_ccp_documents]
+
+$$
+P^{\text{LOC}}_{D2} = P^{\text{LOM}}_{D2} \cdot P^{\text{catastrophic-given-mission-loss}}_{D2}
+\tag{49}
+$$
+
+**Equation 50, Super Heavy Liftoff Thrust.**
+Total thrust is thirty-three times the sea-level thrust of one Raptor 2 engine.
+
+$$
+F^{\text{SS}}_{\text{total}} = 33 \cdot F^{\text{Raptor 2}}_{\text{sea-level}} \approx 74.4 \times 10^6 \text{ N}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Equal Pressure Idealisation of Full-Flow Staged Combustion.*
+The article equates chamber pressure with the outlet pressure of each turbopump, which neglects the pressure drops through the preburners and injectors.
+
+$$
+P^{\text{chamber}}_{\text{FFSC}} = P^{\text{oxidizer-turbopump}}_{\text{outlet}} = P^{\text{fuel-turbopump}}_{\text{outlet}}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Payload Multiplication by Refuelling.*
+The article scales the payload in low Earth orbit by the rocket-equation mass ratio for the destination and by a refuelling multiplier.
+
+$$
+m^{\text{destination}}_{\text{payload}} = m^{\text{LEO}}_{\text{payload}} \cdot e^{-\Delta v^{\text{destination}} / (I_{sp} \cdot g_0)} \cdot k^{\text{refuel}}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Cost per Kilogram under Full Reuse.*
+The article sums propellant, operations and amortised hardware cost and divides by payload mass.
+
+$$
+C^{\text{per-kg}}_{\text{full-reuse}} = \frac{C^{\text{propellant}} + C^{\text{operations}} + C^{\text{amortized-hardware}}}{m^{\text{payload}}}
+\tag{53}
+$$
+
+**Equation 54, Count of Test Flights to Date.**
+The count sums an indicator over the completed flights flown by a given time.
+
+$$
+N^{\text{test-flights}}(t) = \sum_{k=1}^{n^{\text{completed}}} \mathbb{1}[t^{\text{flight}}_k \leq t]
+\tag{54}
+$$
+
+*Equation 55, Bespoke Milestone Set by Flight.*
+The article defines the set of milestones achieved by a given flight.
+
+$$
+M^{\text{milestones}}(n) = \{m : m \text{ achieved by flight } n\}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Expected Value of Starship.*
+The article sums over applications the product of realisation probability, application value and the Starship share.
+
+$$
+E[V^{\text{Starship}}] = \sum_{a \in \text{applications}} P(a) \cdot V(a) \cdot \eta^{\text{Starship-share}}(a)
+\tag{56}
+$$
+
+**Equation 57, Merlin 1D to Merlin 1A Thrust Ratio.**
+The ratio of the reported sea-level thrusts of the two engines is about 1.92.
+
+$$
+\frac{F^{\text{Merlin 1D}}_{\text{sea-level}}}{F^{\text{Merlin 1A}}_{\text{sea-level}}} \approx \frac{654}{340} \approx 1.92
+\tag{57}
+$$
+
+**Equation 58, Merlin 1D Specific Impulse.**
+The reported specific impulses of the sea-level and vacuum Merlin engines are about 282 and 348 seconds.
+
+$$
+I_{sp}^{\text{Merlin 1D, sea level}} \approx 282 \text{ s}, \quad I_{sp}^{\text{Merlin 1D Vacuum}} \approx 348 \text{ s}
+\tag{58}
+$$
+
+**Equation 59, Wright Learning Curve for Merlin Production.**
+The unit cost of the Merlin engine falls as a power of cumulative production.
+[Wright 1936][research_wright_1936]
+
+$$
+C^{\text{Merlin}}(n) = C^{\text{Merlin}}(1) \cdot n^{-b^{\text{Merlin}}}
+\tag{59}
+$$
+
+**Equation 60, Raptor Specific Impulse.**
+The reported specific impulses of the sea-level Raptor 2 and the vacuum Raptor are about 327 and 380 seconds.
+
+$$
+I_{sp}^{\text{Raptor 2, sea level}} \approx 327 \text{ s}, \quad I_{sp}^{\text{Raptor Vacuum}} \approx 380 \text{ s}
+\tag{60}
+$$
+
+**Equation 61, Cycle Efficiency of Full-Flow Staged Combustion.**
+A full-flow staged combustion cycle, which burns its turbine exhaust in the chamber, is more efficient than a gas generator cycle, which dumps it overboard.
+
+$$
+\eta^{\text{cycle}}_{\text{FFSC}} > \eta^{\text{cycle}}_{\text{gas-generator}}
+\tag{61}
+$$
+
+**Equation 62, Raptor Thrust Growth across Versions.**
+The sea-level thrust of Raptor 3 is that of Raptor 1 compounded by the fractional increases of the two successive versions.
+
+$$
+F^{\text{Raptor 3}}_{\text{sea-level}} = F^{\text{Raptor 1}}_{\text{sea-level}} \cdot \prod_{n=1}^{2} (1 + \Delta^{\text{Raptor}}_n)
+\tag{62}
+$$
+
+*Equation 63, Bespoke Launch Site Utilisation.*
+Utilisation is launches divided by a maximum cadence, which the article takes as about 50 launches a year for the pad.
+
+$$
+U^{\text{site}}_i = \frac{N^{\text{launches}}_i}{N^{\text{maximum-cadence}}_i}
+\tag{63}
+$$
+
+**Equation 64, Inclination from Latitude and Launch Azimuth.**
+The cosine of the orbital inclination equals the cosine of the launch latitude times the sine of the launch azimuth.
+
+$$
+\cos(i^{\text{inclination}}) = \cos(\phi^{\text{latitude}}) \cdot \sin(A^{\text{azimuth}})
+\tag{64}
+$$
+
+*Equation 65, Bespoke Compound Option Value Function.*
+The article writes compound option value as an unspecified function of rung value, the next compound value, investment, two volatilities and the discount rate.
+
+$$
+V^{\text{compound}}_n = f\!\left(V^{\text{rung}}_n, V^{\text{compound}}_{n+1}, I_{n+1}, \sigma^{\text{market}}_{n+1}, \sigma^{\text{technical}}_{n+1}, r^{\text{discount}}\right)
+\tag{65}
+$$
+
+*Equation 66, Bespoke System Complexity Index.*
+The article weights the connectivity degree of each subsystem into one index.
+
+$$
+C_i = \sum_{s \in \text{subsystems}} \omega_s \cdot k_s^{\text{connectivity}}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Actor-Network Strength Index.*
+The article weights the alignment of each actor into one index.
+[Callon 1984][research_callon_1986]
+[Law 1987][research_law_1987]
+
+$$
+ANS_i = \sum_{a \in \text{actors}} \omega_a \cdot \phi^{\text{alignment}}_{i,a}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Ecosystem Orchestration Index.*
+The article weights the coordination strength of each segment into one index.
+
+$$
+EO_i = \sum_{s \in \text{segments}} \omega_s \cdot \phi^{\text{coordinated}}_{i,s}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Decomposability Closure Indicator.*
+Closure is one when all five sub-properties are satisfied and zero otherwise.
+
+$$
+D^{\text{closure}} = \mathbb{1}\!\left[\prod_{k=1}^{5} \mathbb{1}[s_k \text{ satisfied}] = 1\right]
+\tag{69}
+$$
+
+### Notation
+
+- $r_n$, the $n$th rung, an independently valuable configuration
+- $R_i(t)$, the set of rungs that venture $i$ has completed by time $t$
+- $V^{\text{rung}}(r_n)$, the independent value that rung $r_n$ generates
+- $K_i(t)$, the cumulative capability of firm $i$
+- $\Delta K(r_n)$, the incremental capability that rung $r_n$ contributes
+- $\lambda^{\text{failure}}$, the hazard rate at a rung
+- $S(t)$, the probability of surviving the rung transitions to time $t$
+- $D_i$, the decomposition quality index
+- $M_i$, the modularity index
+- $\phi^{\text{reuse}}_{s}$, the fraction of subsystem $s$ reused across rungs
+- $\omega_s$, the weight of subsystem or segment $s$
+- $\delta$, the discount factor in the Bellman recursion, and the depreciation rate of capability in the accumulation dynamics
+- $\eta$, the investment-to-capability conversion coefficient
+- $\mu$, the learning coefficient
+- $L(t)$, the learning intensity
+- $\Phi$, the standard normal cumulative distribution function
+- $N(t)$, the number of rungs completed by time $t$, and in the Bass equation the cumulative adoption
+- $\rho^{\text{learning}}$, the progress ratio of the learning curve
+- $v_e$, the effective exhaust velocity
+- $I_{sp}$, the specific impulse in seconds
+- $g_0$, standard gravity, 9.80665 metres per second squared
+- $m_0$, the initial mass
+- $m_f$, the final mass
+- $\phi^{\text{latitude}}$, the latitude of the launch site
+- $A^{\text{azimuth}}$, the launch azimuth
 
 ## References
 

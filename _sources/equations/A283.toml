@@ -1,0 +1,619 @@
+# Equation classification for A283. Read by `python3 _lib/equations.py`.
+
+caution = "Contract values and prices are nominal United States dollars, written in millions or billions as each equation states, shares and reliabilities are dimensionless fractions, and the value, capability and coordination terms are abstract indices without units."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Anchor-Demand Condition"
+gloss = "The article requires the share of revenue from anchor customers to stay at or above a threshold during the phase before commercial spinoff revenue matures."
+cite = []
+digest = "8cb90dc1e8e4a27e"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Anchor Demand as a Sum of Programmes"
+gloss = "Anchor demand is written as a sum of programme demands, each switched on by an indicator over the activation window of the programme."
+cite = []
+digest = "2fbd3e42c26c38aa"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Variance of a Sum of Programme Demands"
+gloss = "The variance of a sum equals the sum of the programme variances plus twice the sum of their pairwise covariances."
+cite = []
+digest = "45b1095a2a05cf69"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Anchor-Demand Counterfactual"
+gloss = "The anchor-demand contribution is defined as observed capability less the capability of a counterfactual trajectory without anchor demand."
+cite = []
+digest = "7bce7a79fe2db17f"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Instrumental Variable Estimator"
+gloss = "The instrumental variable estimator divides the covariance of the outcome with the instrument by the covariance of anchor demand with the instrument, under the condition that the instrument is uncorrelated with the residual."
+cite = []
+digest = "b97009f15b351491"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Anchor-Share Requirement over the Pre-Spinoff Phase"
+gloss = "The article requires the anchor share of revenue to stay at or above the threshold from founding until spinoff revenue matures."
+cite = []
+digest = "a378d9e975424593"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Exponential Decay of Anchor Share"
+gloss = "The article models the anchor share as an initial share decaying exponentially towards a steady floor."
+cite = []
+digest = "423415346d32f236"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Anchor Value Channels"
+gloss = "The article divides anchor value into revenue, credential, standard transfer, redundancy and option channels."
+cite = []
+digest = "7a9362f6206590d1"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Anchor Break-Even Condition"
+gloss = "Anchor revenue must exceed the fixed capability cost plus the marginal cost of the anchor missions for the anchor alone to cover the capability."
+cite = []
+digest = "563fef29d9a5e9b1"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Reliability Transfer to Commercial Customers"
+gloss = "The article sets the reliability commercial customers receive equal to the anchor reliability less a small degradation for commercial mission profiles."
+cite = []
+digest = "ba0b111c4501f2d3"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Commercial Surplus from Reliability Spillover"
+gloss = "The article measures the surplus commercial customers gain from anchor-funded reliability as the integral of their marginal willingness to pay for reliability between their requirement and the anchor level."
+cite = []
+digest = "2c0ff214d3d3e38e"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Present Value of Milestone Payments"
+gloss = "The present value of a milestone contract sums each payment discounted to its achievement time."
+cite = []
+digest = "69e2932ed6e6d312"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Single-Anchor Dependency Ratio"
+gloss = "The article measures dependence on one anchor customer as its demand divided by the combined demand of all other anchors."
+cite = ["book_williamson_1985"]
+digest = "3da1884dc941bc08"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Profit under a Fixed-Price Contract"
+gloss = "Under a fixed-price contract the provider keeps the difference between the contract price and the realised cost."
+cite = []
+digest = "b4489ce84bd1a902"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Profit under a Cost-Plus Contract"
+gloss = "Under a cost-plus contract the provider earns the negotiated margin on realised cost, which rewards higher cost."
+cite = []
+digest = "bcd6ef5d1c393867"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Mission-Directed Capability Increment"
+gloss = "Mission-directed capability is the market-directed baseline plus the integral of an increment driven by the mission and anchor demand."
+cite = ["book_mazzucato_2013", "book_mazzucato_2021"]
+digest = "5b2362d13b86be15"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke State-Firm Coordination Coefficient"
+gloss = "The article weights the government share of revenue, a regulatory alignment intensity and a formal coordination indicator into one index."
+cite = []
+digest = "a590e53fa1ed317e"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Asset Specificity Index"
+gloss = "The article measures specificity as one minus the ratio of the value of an asset in its alternative use to its value in its best use."
+cite = ["research_klein_crawford_alchian_1978"]
+digest = "5a9f005ef3e545ca"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Shared-Risk Shared-Reward Identity"
+gloss = "The article weights public and private value by a public share and subtracts a risk premium split between the partners by a public risk-bearing share."
+cite = []
+digest = "be07e374b66420e2"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Asymmetric Nash Bargaining Solution"
+gloss = "The division of surplus maximises the product of each party's gain over its disagreement payoff, weighted by bargaining power."
+cite = ["research_nash_1950"]
+digest = "5be99db21b59ed81"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Absorptive Capacity Function"
+gloss = "The article writes absorptive capacity as an unspecified function of research intensity, human capital and network ties."
+cite = ["research_cohen_levinthal_1990"]
+digest = "23490011b100644c"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Ecosystem Value Appropriation"
+gloss = "The article weights firm value by the appropriation fraction and total ecosystem value by its complement."
+cite = []
+digest = "a17f8692e56c1a35"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Beta Posterior for Certification Reliability"
+gloss = "A Beta prior on reliability updated with the successes and failures of a number of flights gives a Beta posterior whose parameters add the counts."
+cite = []
+digest = "02e681d09a4c40e7"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Asymmetric Nash Bargaining Solution between Anchor and Provider"
+gloss = "The same Nash solution is restated for the division of surplus between the anchor customer and the provider."
+cite = ["research_nash_1950"]
+digest = "5be99db21b59ed81"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Rubinstein Alternating-Offers Share"
+gloss = "In the alternating-offers game the first proposer receives a share of the surplus fixed by the two discount factors, which favours the more patient party."
+cite = ["research_rubinstein_1982"]
+digest = "1c268830e01962a2"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Cash Runway in August 2008"
+gloss = "Runway is remaining cash divided by the burn rate, evaluated with 5 million dollars and 2.5 million dollars a month, the midpoints of the stated ranges."
+cite = ["book_berger_2021"]
+digest = "8e171bee48bb3418"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Cumulative Capital Raised by August 2008"
+gloss = "Cumulative capital is founder capital plus the external rounds, evaluated with the reported 100 million dollars and 40 million dollars."
+cite = []
+digest = "52bb34134f64da22"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Founder Capital Allocation between Two Firms"
+gloss = "The article poses the choice as maximising the sum of utilities of the two enterprise values subject to the founder capital remaining."
+cite = ["book_vance_2015"]
+digest = "012af3cdd662a655"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Per-Mission Price Difference in the First Resupply Contracts"
+gloss = "The difference between the per-mission prices of the two first Commercial Resupply Services awards is evaluated from the announced contract values and mission counts."
+cite = ["ref_nasa_crs1_press_2008"]
+digest = "507eb24ba864de3b"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Present Value of the First Resupply Services Contract"
+gloss = "The present value of the first Commercial Resupply Services contract sums the discounted mission payments, and the article equates it to the announced award of about 1.6 billion dollars."
+cite = ["ref_nasa_crs1_press_2008"]
+digest = "cdbd39a8157e8f6f"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Provider Selection Utility"
+gloss = "The article models source selection as a weighted sum of price, technical merit, schedule and risk scores."
+cite = ["ref_nasa_cots_report"]
+digest = "fa79d7477d3c713a"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Enterprise Value Gain from the Resupply Award"
+gloss = "The gain is the contract backlog multiplied by a value-realisation fraction that the article takes as 0.3 to 0.5."
+cite = []
+digest = "f113262ef3f78f2c"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Linear Growth of Resupply Cadence"
+gloss = "The article models the resupply mission cadence as an initial rate plus a constant annual growth."
+cite = []
+digest = "4fbb89db4118d6a3"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Reliability Posterior after the Loss of CRS-7"
+gloss = "The posterior after six successes in seven missions is evaluated under a uniform prior that the article assumes."
+cite = ["ref_spacex_press_crs7_2015"]
+digest = "6207b452639b1f12"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Dragon 2 to Dragon 1 Cargo Capacity Ratio"
+gloss = "The ratio of the published cargo capacities of the two Dragon configurations gives the improvement in payload mass."
+cite = ["ref_spacex_press_crs21_2020"]
+digest = "1b83c8abcab1ee86"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Redundancy Protection Premium"
+gloss = "The article defines the premium as the price paid within a multi-provider set less the price under single-provider competition."
+cite = []
+digest = "9f339bc33e58ad1f"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Commercial Crew Award Difference"
+gloss = "The difference between the announced Commercial Crew Transportation Capability awards to Boeing and to SpaceX is evaluated from the award announcement."
+cite = ["ref_nasa_cctcap_press_2014"]
+digest = "57e5e42135ab79c3"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Price per Seat"
+gloss = "The price per seat is the price of a crew mission divided by the seats it carries."
+cite = []
+digest = "24f86b32dbca4aba"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Certification Timeline Difference"
+gloss = "The difference between the first operational crewed flights of the two providers is evaluated from their reported dates."
+cite = []
+digest = "e86e176f34491fbd"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Beta Posterior for Crewed Reliability"
+gloss = "The conjugate Beta update is applied to the record of crewed SpaceX flights."
+cite = []
+digest = "6950ed4cb8bea433"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Human Landing System Base Period Allocation"
+gloss = "The allocation tabulates the reported base-period awards to the three Human Landing System providers."
+cite = []
+digest = "dcc8bcf51b22dd1a"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Cost of the Litigation Delay"
+gloss = "The delay cost is the discount rate times the contract value times the delay, evaluated with an assumed rate of 8 percent."
+cite = ["ref_gao_blue_origin_hls_protest_2021"]
+digest = "003d3da0c26650e4"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Human Landing System Awards after the Sustaining Award"
+gloss = "The tabulation lists the reported cumulative Human Landing System awards to the two providers."
+cite = ["ref_nasa_hls_option_b_2022", "ref_nasa_hls_sustaining_2023"]
+digest = "67756bc133d56fd8"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Human-Rated Reliability Threshold"
+gloss = "The article requires crew certification reliability to reach a human-rated threshold that it takes as about 0.9995."
+cite = []
+digest = "0b9016a726bd58d1"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "National Security Space Launch Phase 2 Shares"
+gloss = "The tabulation lists the reported mission shares of the Phase 2 award."
+cite = ["ref_space_force_nssl_phase2_2020"]
+digest = "613e9d37266d14a3"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "National Security Space Launch Phase 3 Lane 2 Shares"
+gloss = "The tabulation lists the shares of the Phase 3 Lane 2 award as the article reports them."
+cite = ["ref_spacenews"]
+digest = "7cb401e9daf82f5d"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Herfindahl-Hirschman Index of Phase 3 Lane 2"
+gloss = "The Herfindahl-Hirschman index sums the squared shares of the three providers."
+cite = []
+digest = "aa865ae18364df5f"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Shared-Bus Revenue Identity"
+gloss = "The article adds commercial revenue to defence revenue marked up by a premium that recovers the shared cost of a common satellite bus."
+cite = []
+digest = "ab3d58b49ff2b375"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Herfindahl-Hirschman Index of the Anchor Portfolio"
+gloss = "The Herfindahl-Hirschman index is applied to the shares of anchor demand across the anchor programmes."
+cite = []
+digest = "d5df424a473ebc41"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Colt Anchor-to-Founder Ratio"
+gloss = "The article compares the value of the Walker contract with the founder capital before the contract."
+cite = ["book_hosley_1996"]
+digest = "8c103b7b8909f390"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Annual Value of the Whitney Musket Contract"
+gloss = "The reported contract value divided by the ten-year execution period gives the annual value."
+cite = ["book_hounshell_1984"]
+digest = "1c51d77811180444"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Boeing Spinoff-to-Anchor Ratio"
+gloss = "The article compares the value of the commercial airliner line with the value of the military contracts that preceded it."
+cite = []
+digest = "b388b4045c6a457a"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Anchor Continuity Condition"
+gloss = "The article requires the gap between successive projects to stay below an organisational persistence threshold."
+cite = ["book_rich_janos_1994"]
+digest = "4da960aad4f47bc4"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Apollo Contractor Share"
+gloss = "The share of each contractor is its prime contract value divided by the total over all prime contractors."
+cite = ["book_bilstein_1996"]
+digest = "f54b3d34249b67ee"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Commercial Crew Mission Share"
+gloss = "The share of each provider is its operational missions divided by the total."
+cite = []
+digest = "54b2046ef69eb436"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Anchor-Share Ratio of Blue Origin to SpaceX"
+gloss = "The article compares the anchor shares of revenue of the two firms as a ratio."
+cite = []
+digest = "e252ef0caaf9079c"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Anchor-Demand Closure Vector"
+gloss = "Each adjacent firm receives a binary vector over the five anchor-demand sub-properties."
+cite = []
+digest = "3a3357bc78de1384"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke State Capitalism Index"
+gloss = "The article weights the government share of revenue, a state ownership share and a strategic sector indicator into one index."
+cite = []
+digest = "0d11823f9265a7dc"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Share of Defence Industrial Base Revenue"
+gloss = "The share of a firm is its defence revenue divided by total defence industrial base awards."
+cite = []
+digest = "39aac5ffe2bbbf6a"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Economic Rent as Excess Profit"
+gloss = "Rent is the observed profit less the profit a competitive benchmark would yield."
+cite = ["research_krueger_1974"]
+digest = "0547e78e4d21c2ad"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Fiscal Multiplier of Defence Spending"
+gloss = "The multiplier is the change in aggregate output divided by the change in defence spending."
+cite = []
+digest = "ce443886bb1f2bcd"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Backward Induction for a Real Option"
+gloss = "The option value at each date is the greater of the exercise value and the discounted expected continuation value."
+cite = ["book_dixit_pindyck_1994", "book_trigeorgis_1996"]
+digest = "e3065c1801691660"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Resource Heterogeneity Index"
+gloss = "The article scores resources by a weighted sum of the products of their value, rarity, inimitability and non-substitutability."
+cite = ["research_barney_1991"]
+digest = "0726816689a6e257"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Anchor-Demand Closure Conjunction"
+gloss = "The article defines closure as the logical conjunction of the five sub-property indicators."
+cite = []
+digest = "002ff66c2475a118"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Closure Vector of a Candidate Case"
+gloss = "Each candidate case receives a binary vector over the five sub-properties, and closure requires every component to equal one."
+cite = []
+digest = "a3d36e0076883e32"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Joint Closure Probability under Independence"
+gloss = "The product of the marginal probabilities is evaluated under the independence assumption and an order-of-magnitude marginal of 0.25 that the article assumes."
+cite = []
+digest = "bf597df58b7ca779"
+
+[[symbol]]
+tex = 'D_i^{\text{anchor}}(t)'
+meaning = "the anchor-demand revenue stream to firm $i$ at time $t$"
+
+[[symbol]]
+tex = 'D_i^{\text{total}}(t)'
+meaning = "the total revenue of firm $i$"
+
+[[symbol]]
+tex = '\theta^{\text{anchor}}'
+meaning = "the threshold anchor share, about 0.6 before spinoff revenue matures"
+
+[[symbol]]
+tex = '\sigma_i(t)'
+meaning = "the anchor share of the revenue of firm $i$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the decay rate of the anchor share, and in the shared-risk identity the public risk-bearing share"
+
+[[symbol]]
+tex = 'D_{i,k}^{\text{gov}}'
+meaning = "the anchor demand from programme $k$"
+
+[[symbol]]
+tex = '\delta_{i,k}'
+meaning = "the dependency of firm $i$ on anchor customer $k$"
+
+[[symbol]]
+tex = 'Z_i'
+meaning = "an exogenous procurement-mechanism instrument"
+
+[[symbol]]
+tex = 'P^{\text{fixed}}'
+meaning = "the fixed contract price"
+
+[[symbol]]
+tex = 'c_i^{\text{realized}}'
+meaning = "the realised cost of provider $i$"
+
+[[symbol]]
+tex = '\phi_i'
+meaning = "the negotiated margin under cost-plus procurement"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the bargaining-power weight, and in the shared-risk identity the public-value weight"
+
+[[symbol]]
+tex = 'd_A'
+meaning = "the disagreement payoff of the anchor"
+
+[[symbol]]
+tex = 'd_P'
+meaning = "the disagreement payoff of the provider"
+
+[[symbol]]
+tex = '\delta_A'
+meaning = "the discount factor of the anchor"
+
+[[symbol]]
+tex = '\delta_P'
+meaning = "the discount factor of the provider"
+
+[[symbol]]
+tex = 'k^{\text{specificity}}_i'
+meaning = "the asset specificity index of firm $i$"
+
+[[symbol]]
+tex = 'r'
+meaning = "the discount rate"
+
+[[symbol]]
+tex = '\mu^{\text{value-realization}}'
+meaning = "the fraction of contract value the equity market ascribes to enterprise value at award"
+
+[[symbol]]
+tex = 's_i'
+meaning = "the share of provider $i$"
+
+[[symbol]]
+tex = 'p_k'
+meaning = "the marginal closure probability for sub-property $k$"
+
+[[symbol]]
+tex = '\phi_k'
+meaning = "the closure indicator for sub-property $k$"

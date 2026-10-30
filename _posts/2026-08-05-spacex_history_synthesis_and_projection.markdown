@@ -23,25 +23,37 @@ The series advanced a thesis, which the [series opener][related_post_a281_spacex
 
 The general form of the claim can be stated compactly. Let $\phi_k \in \{0,1\}$ denote satisfaction of condition $k$ across the seven conditions and three legs, so that
 
-$$\Phi = \prod_{k=1}^{10} \phi_k$$
+$$
+\Phi = \prod_{k=1}^{10} \phi_k
+\tag{1}
+$$
 
 with closure requiring every factor to equal one. The product form is the notation the series has used throughout and it carries an assumption the series did not examine until late, which is that the factors are informative independently of one another. This article argues that they are not, and that the consequences are substantial in both directions.
 
 The conjunction admits a set-theoretic statement that makes the comparison problem explicit. Let $\mathcal{V}$ denote the set of contemporary ventures and $\mathcal{C}\_k$ the subset satisfying condition $k$. The claim concerns
 
-$$\left| \bigcap_{k=1}^{10} \mathcal{C}_k \right| = 1$$
+$$
+\left| \bigcap_{k=1}^{10} \mathcal{C}_k \right| = 1
+\tag{2}
+$$
 
 with the intersection over all ten conditions containing exactly one element. The form makes visible what a component article could obscure, which is that eleven articles established ten separate statements about the individual $\mathcal{C}\_k$ and none of them establishes anything about the intersection directly.
 
 The identification problem for a synthesis is more severe than for any component article. Each component article could at least point to contemporaneous cases varying along its own dimension. A claim about the conjunction has a comparison set of one, and the article states plainly that no quantitative claim about the conjunction is identifiable from a single observation. The available inference admits the compact contrast
 
-$$\text{observable} \; : \; \phi_{j,k} \; \text{for many } j, \text{ each } k \qquad \text{against} \qquad \text{required} \; : \; \Phi_j \; \text{for many } j$$
+$$
+\text{observable} \; : \; \phi_{j,k} \; \text{for many } j, \text{ each } k \qquad \text{against} \qquad \text{required} \; : \; \Phi_j \; \text{for many } j
+\tag{3}
+$$
 
 with the second quantity unavailable because only one venture has $\Phi_j = 1$. What the series can offer is a structural argument with negation cases along individual dimensions, which is a weaker thing than the confident tone of the commentary in this area generally suggests.
 
 The article accordingly distinguishes two uses of the framework throughout, admitting the compact statement
 
-$$\underbrace{k^{\ast} = \arg\min_k \phi_{j,k}}_{\text{diagnostic, supported}} \qquad \text{against} \qquad \underbrace{P\!\left( \text{success}_j \mid \boldsymbol{\phi}_j \right)}_{\text{predictive, not supported}}$$
+$$
+\underbrace{k^{\ast} = \arg\min_k \phi_{j,k}}_{\text{diagnostic, supported}} \qquad \text{against} \qquad \underbrace{P\!\left( \text{success}_j \mid \boldsymbol{\phi}_j \right)}_{\text{predictive, not supported}}
+\tag{4}
+$$
 
 with the diagnostic use identifying which condition a candidate case fails and the predictive use requiring an estimate the single observation cannot supply.
 
@@ -83,23 +95,35 @@ The portfolio-patience condition holds that a venture must hold multiple lines r
 
 The seven conditions assemble into a vector whose components the component articles establish separately
 
-$$\boldsymbol{\phi}^{\text{forcing}} = \left( \phi^{\text{gradient}}, \; \phi^{\text{anchor}}, \; \phi^{\text{capture}}, \; \phi^{\text{decomposable}}, \; \phi^{\text{general}}, \; \phi^{\text{governance}}, \; \phi^{\text{portfolio}} \right)$$
+$$
+\boldsymbol{\phi}^{\text{forcing}} = \left( \phi^{\text{gradient}}, \; \phi^{\text{anchor}}, \; \phi^{\text{capture}}, \; \phi^{\text{decomposable}}, \; \phi^{\text{general}}, \; \phi^{\text{governance}}, \; \phi^{\text{portfolio}} \right)
+\tag{5}
+$$
 
 with the ordering following the series order. The three legs extend the vector to ten components, and the closure condition is that every component equal one.
 
 The restatement above also makes visible that the seven conditions are not of one kind. Three of them, namely the gradient, decomposability, and generality conditions, are properties of the development path. Two, namely anchor demand and value capture, are properties of the market position. Two, namely governance and portfolio patience, are properties of the firm. The grouping admits the compact partition
 
-$$\left\{ 1 \ldots 7 \right\} = \underbrace{\left\{ 1, 4, 5 \right\}}_{\text{path}} \; \cup \; \underbrace{\left\{ 2, 3 \right\}}_{\text{market}} \; \cup \; \underbrace{\left\{ 6, 7 \right\}}_{\text{firm}}$$
+$$
+\left\{ 1 \ldots 7 \right\} = \underbrace{\left\{ 1, 4, 5 \right\}}_{\text{path}} \; \cup \; \underbrace{\left\{ 2, 3 \right\}}_{\text{market}} \; \cup \; \underbrace{\left\{ 6, 7 \right\}}_{\text{firm}}
+\tag{6}
+$$
 
 with the partition anticipating the dependence structure the next section develops, because conditions within a group share more underlying causes than conditions across groups.
 
 The three capital-formation legs are the government-anchor leg the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] develops, the patient-private leg the [Patient-Private Capital-Formation Leg article A290][related_post_a290_spacex_patient_private_leg] develops, and the category-dominating commercial spinoff the [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] develops. The three are terms in a single budget identity, not parallel alternatives, admitting the compact form
 
-$$K^{\text{external}}(t) = B(t) - K^{\text{government}}(t) - R^{\text{retained}}(t)$$
+$$
+K^{\text{external}}(t) = B(t) - K^{\text{government}}(t) - R^{\text{retained}}(t)
+\tag{7}
+$$
 
 with the residual met by the private leg, and the sequence in which the legs arrived being the sequence in which each became available. The instruments are the Space Act Agreement authority at [Title 51 Section 51302][ref_51_usc_51302_saa] and the other-transaction authorities at [10 United States Code 2371b][ref_10_usc_2371b] for the first leg, the exempt-offering regime at [Regulation D][ref_reg_d], [Rule 506][ref_rule_506], and the [Form D notices][ref_sec_form_d] for the second, and the operating record at [Starlink][ref_spacex_starlink] for the third. The sequence is not arbitrary and takes the compact ordering
 
-$$t^{\text{government}} \; < \; t^{\text{private}} \; < \; t^{\text{retained}}$$
+$$
+t^{\text{government}} \; < \; t^{\text{private}} \; < \; t^{\text{retained}}
+\tag{8}
+$$
 
 with each leg becoming available only after the preceding one had financed the capability the next required. The government leg financed a vehicle, the vehicle attracted private capital, and the private capital financed the constellation whose earnings displaced the need for both. The ordering is a dependency and not a chronology, which is why the article treats the three as terms in one identity, not as alternatives a venture might choose among.
 
@@ -109,11 +133,17 @@ The framework is a conjunction and the series has written it as a product. The p
 
 The assumption permits precise statement. Writing the framework as a product is licensed only where
 
-$$P\!\left( \phi_j = 1 \mid \phi_k = 1 \right) = P\!\left( \phi_j = 1 \right) \qquad \text{for all } j \neq k$$
+$$
+P\!\left( \phi_j = 1 \mid \phi_k = 1 \right) = P\!\left( \phi_j = 1 \right) \qquad \text{for all } j \neq k
+\tag{9}
+$$
 
 which is the condition the notation silently asserts. They are not independent. The failure is not a matter of degree, since even weak dependence invalidates the product form as a probability statement, admitting the compact requirement
 
-$$P\!\left( \Phi = 1 \right) = \prod_k P\!\left( \phi_k = 1 \right) \iff \text{mutual independence across all subsets}$$
+$$
+P\!\left( \Phi = 1 \right) = \prod_k P\!\left( \phi_k = 1 \right) \iff \text{mutual independence across all subsets}
+\tag{10}
+$$
 
 which is a considerably stronger condition than pairwise independence and which nothing in the series' construction ensures. The series encountered the failure three separate times in three articles written for unrelated purposes.
 
@@ -125,15 +155,24 @@ The [Category-Dominating Commercial Spinoff article A291][related_post_a291_spac
 
 The three findings share a form. In each case a set of conditions presented as separate turned out to be driven by a smaller number of underlying quantities, admitting the compact factor representation
 
-$$\phi_k = h_k\!\left( \boldsymbol{\theta} \right) \qquad \text{with} \qquad \dim \boldsymbol{\theta} \; < \; 10$$
+$$
+\phi_k = h_k\!\left( \boldsymbol{\theta} \right) \qquad \text{with} \qquad \dim \boldsymbol{\theta} \; < \; 10
+\tag{11}
+$$
 
 with $\boldsymbol{\theta}$ the underlying properties and $h_k$ the map from them to the observable conditions. Under a factor structure of this kind the covariance between any two conditions is nonzero whenever they load on a common factor, admitting
 
-$$\operatorname{cov}\left( \phi_j, \phi_k \right) = \sum_{m} \frac{\partial h_j}{\partial \theta_m} \frac{\partial h_k}{\partial \theta_m} \operatorname{var}\left( \theta_m \right) \; \neq \; 0$$
+$$
+\operatorname{cov}\left( \phi_j, \phi_k \right) = \sum_{m} \frac{\partial h_j}{\partial \theta_m} \frac{\partial h_k}{\partial \theta_m} \operatorname{var}\left( \theta_m \right) \; \neq \; 0
+\tag{12}
+$$
 
 for conditions sharing a loading. Three findings arrived at independently, by three different routes, all reporting that the framework's decomposition understates the coupling between the elements it separates. The closing article treats this as a property of the framework, not as a coincidence, and states the correction as follows. The conditions are approximately separable in favorable states and become correlated in adverse ones. The correlation structure may be stated compactly
 
-$$\operatorname{corr}\left( \phi_j, \phi_k \mid \text{favorable state} \right) \approx 0 \qquad \text{against} \qquad \operatorname{corr}\left( \phi_j, \phi_k \mid \text{adverse state} \right) \gg 0$$
+$$
+\operatorname{corr}\left( \phi_j, \phi_k \mid \text{favorable state} \right) \approx 0 \qquad \text{against} \qquad \operatorname{corr}\left( \phi_j, \phi_k \mid \text{adverse state} \right) \gg 0
+\tag{13}
+$$
 
 for a substantial fraction of the pairs $(j,k)$. The consequence is that the product form is a reasonable diagnostic in the state in which the case is usually examined and a poor probability model in the state that determines whether the configuration survives.
 
@@ -143,23 +182,35 @@ The independence failure biases the assessment in two directions and the article
 
 The first direction concerns rarity. The singular-conjunction thesis draws force from the apparent improbability of ten conditions holding simultaneously. Under independence the joint probability is the product of the marginals, admitting the compact form
 
-$$P^{\text{independent}}\!\left( \Phi = 1 \right) = \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right)$$
+$$
+P^{\text{independent}}\!\left( \Phi = 1 \right) = \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right)
+\tag{14}
+$$
 
 which for marginals of even moderate size produces a very small number and licenses the language of singularity that the commentary in this area employs freely.
 
 The conditions are not independent in the favorable direction either. A venture that satisfies the value-gradient condition is more likely to satisfy the decomposability condition, because both describe the same underlying property of the development path viewed from different angles. A venture that satisfies the anchor-demand condition is more likely to satisfy the government-anchor leg, because in this sector the anchor customer and the non-dilutive capital source are the same institution. A venture that satisfies the governance condition is more likely to satisfy the patient-private leg, because the control configuration is what permits the founder to decline capital on unfavorable terms. The positive dependence yields
 
-$$P\!\left( \Phi = 1 \right) \; > \; \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right)$$
+$$
+P\!\left( \Phi = 1 \right) \; > \; \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right)
+\tag{15}
+$$
 
 with the conjunction substantially more attainable than the product suggests. The magnitude of the overstatement allows a bound under the factor representation. If the ten conditions load on $d$ underlying factors and each factor is satisfied with probability $q$, the joint probability approaches
 
-$$P\!\left( \Phi = 1 \right) \; \approx \; q^{\,d} \qquad \text{and not} \qquad \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right) \approx q^{\,10}$$
+$$
+P\!\left( \Phi = 1 \right) \; \approx \; q^{\,d} \qquad \text{and not} \qquad \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right) \approx q^{\,10}
+\tag{16}
+$$
 
 so the overstatement factor is approximately $q^{\,10-d}$, which is large for small $q$ and moderate $d$. The conclusion the article draws is uncomfortable for the series' own framing. The singular-conjunction thesis overstates the rarity of the configuration, and the correct reading is not that ten independent miracles coincided but that a smaller number of underlying properties generated most of the ten conditions.
 
 The article does not therefore abandon the thesis. It restates it. The defensible claim admits the compact separation
 
-$$\underbrace{\left| \bigcap_k \mathcal{C}_k \right| = 1}_{\text{observation about the record}} \qquad \text{against} \qquad \underbrace{P\!\left( \Phi = 1 \right) \approx 0}_{\text{inference the dependence structure does not support}}$$
+$$
+\underbrace{\left| \bigcap_k \mathcal{C}_k \right| = 1}_{\text{observation about the record}} \qquad \text{against} \qquad \underbrace{P\!\left( \Phi = 1 \right) \approx 0}_{\text{inference the dependence structure does not support}}
+\tag{17}
+$$
 
 with the first statement established as well as a single-case study can establish anything and the second not established at all. The distinction is the article's principal correction to the series' own framing, and it is the kind of error that only becomes visible from the closing position.
 
@@ -169,17 +220,26 @@ The second direction concerns fragility and it points the other way.
 
 A configuration whose conditions fail together is more fragile than the same arrangement with independent conditions, because a single common cause removes several supports at once. The survival probability under correlated failure satisfies
 
-$$P\!\left( \text{all conditions hold at } t + \Delta \right) \; < \; \prod_{k=1}^{10} P\!\left( \phi_k \; \text{holds at } t + \Delta \right)$$
+$$
+P\!\left( \text{all conditions hold at } t + \Delta \right) \; < \; \prod_{k=1}^{10} P\!\left( \phi_k \; \text{holds at } t + \Delta \right)
+\tag{18}
+$$
 
 which is the reverse of the inequality the preceding section states, because the correlation operates in the adverse direction here. The two inequalities can be stated together, which makes clear that they are not in conflict
 
-$$P\!\left( \Phi = 1 \; \text{at attainment} \right) > \prod_k P\!\left( \phi_k \right) \qquad \text{and} \qquad P\!\left( \Phi = 1 \; \text{at } t+\Delta \right) < \prod_k P\!\left( \phi_k \; \text{at } t+\Delta \right)$$
+$$
+P\!\left( \Phi = 1 \; \text{at attainment} \right) > \prod_k P\!\left( \phi_k \right) \qquad \text{and} \qquad P\!\left( \Phi = 1 \; \text{at } t+\Delta \right) < \prod_k P\!\left( \phi_k \; \text{at } t+\Delta \right)
+\tag{19}
+$$
 
 with the first concerning whether the configuration can be reached and the second whether it can be held. The article's position is that both inequalities hold simultaneously and that they concern different questions. The configuration is easier to attain than the product implies and easier to lose than the product implies, and no single adjustment to the framework captures both.
 
 The mechanism producing the second inequality is a shared shock. Writing $Z$ for a common adverse event and $\varepsilon_k$ for condition-noise, the failure of condition $k$ follows
 
-$$\phi_k = \mathbf{1}\left[ \, \alpha_k Z + \varepsilon_k \; < \; \kappa_k \, \right]$$
+$$
+\phi_k = \mathbf{1}\left[ \, \alpha_k Z + \varepsilon_k \; < \; \kappa_k \, \right]
+\tag{20}
+$$
 
 with the loadings $\alpha_k$ nonzero for the conditions that fail together. Joint survival then falls below the independent product by an amount increasing in the loadings, which is the formal content of the claim that the configuration is more fragile than its decomposition suggests.
 
@@ -187,7 +247,10 @@ The common causes the series has identified are three. The first is the shared v
 
 The practical consequence for anyone applying the framework is stated plainly. A diagnostic checklist of ten conditions gives a false impression of redundancy. The error is stated compactly as
 
-$$\frac{\left| \left\{ k : \phi_k = 1 \right\} \right|}{10} \quad \text{is not a measure of proximity to} \quad \Phi = 1$$
+$$
+\frac{\left| \left\{ k : \phi_k = 1 \right\} \right|}{10} \quad \text{is not a measure of proximity to} \quad \Phi = 1
+\tag{21}
+$$
 
 because the count treats conditions as exchangeable and the dependence structure does not. Satisfying nine of ten is not ninety percent of the way to the configuration, because the conditions that fail are likely to be the ones that fail together.
 
@@ -197,17 +260,26 @@ The [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patienc
 
 The first is the key-person dependency. Every line of the portfolio, every capital-formation leg, and the governance configuration itself depend on the continued involvement of a single individual, and the dependency is perfectly correlated across all of them. The portfolio therefore provides no protection against it whatever, admitting the compact statement
 
-$$\operatorname{corr}\left( \text{line}_i \; \text{failure}, \; \text{line}_j \; \text{failure} \mid \text{key-person event} \right) = 1 \qquad \text{for all } i,j$$
+$$
+\operatorname{corr}\left( \text{line}_i \; \text{failure}, \; \text{line}_j \; \text{failure} \mid \text{key-person event} \right) = 1 \qquad \text{for all } i,j
+\tag{22}
+$$
 
 with the diversification the portfolio condition describes offering zero mitigation against the single event most likely to affect all lines simultaneously. The portfolio's protective value against a hazard is a function of the correlation among line failures, admitting the compact statement
 
-$$\text{protection} \; \sim \; 1 - \bar{\rho} \qquad \text{with} \qquad \bar{\rho} \big|_{\text{key-person}} = 1 \; \Longrightarrow \; \text{protection} = 0$$
+$$
+\text{protection} \; \sim \; 1 - \bar{\rho} \qquad \text{with} \qquad \bar{\rho} \big|_{\text{key-person}} = 1 \; \Longrightarrow \; \text{protection} = 0
+\tag{23}
+$$
 
 with the protective value vanishing exactly at the correlation the key-person event induces.
 
 The interaction with the governance condition is adverse, not neutral, and this is the part worth stating precisely. The governance configuration the [Governance article A287][related_post_a287_spacex_governance] describes concentrates decision authority in order to resist capital capture. That concentration is the mechanism by which the mission is protected from external redirection. It is also the mechanism by which a key-person event becomes maximally consequential, because the decisions the arrangement reserves to the controller have no institutional path to being made by anyone else. The amplification has the concise statement as a derivative with the wrong sign
 
-$$\frac{\partial \, \text{consequence of a key-person event}}{\partial \, \text{concentration of decision authority}} \; > \; 0$$
+$$
+\frac{\partial \, \text{consequence of a key-person event}}{\partial \, \text{concentration of decision authority}} \; > \; 0
+\tag{24}
+$$
 
 with the concentration that satisfies condition six increasing the damage condition seven was supposed to limit. Conditions six and seven therefore interact adversely, and the framework as stated contains no place to record an adverse interaction between conditions it presents as jointly desirable. A framework of conjunctive conditions implicitly assumes the conditions are at worst neutral toward one another, and this pair is not.
 
@@ -219,15 +291,24 @@ The second interaction the [Portfolio Patience article A288][related_post_a288_s
 
 Concentrating decision authority concentrates the attention bottleneck. The decisions the governance arrangement reserves to the controller cannot be delegated without dissolving the arrangement, so the arrangement's own logic caps the rate at which those decisions can be made. The constraint has the form
 
-$$\sum_{i} d_i \; \leq \; D^{\max} \qquad \text{with} \qquad D^{\max} \; \text{fixed by a single decision-maker}$$
+$$
+\sum_{i} d_i \; \leq \; D^{\max} \qquad \text{with} \qquad D^{\max} \; \text{fixed by a single decision-maker}
+\tag{25}
+$$
 
 with $d_i$ the decision load each line imposes. The constraint tightens over time because the load grows with the enterprise while the capacity does not, admitting the compact divergence
 
-$$\frac{d}{dt} \sum_i d_i(t) \; > \; 0 \qquad \text{while} \qquad \frac{d D^{\max}}{dt} = 0$$
+$$
+\frac{d}{dt} \sum_i d_i(t) \; > \; 0 \qquad \text{while} \qquad \frac{d D^{\max}}{dt} = 0
+\tag{26}
+$$
 
 so the constraint binds at a date determined by the growth rate and not by any decision. The saturation date satisfies
 
-$$t^{\text{sat}} = \inf \left\{ t \; : \; \sum_i d_i(t) \geq D^{\max} \right\}$$
+$$
+t^{\text{sat}} = \inf \left\{ t \; : \; \sum_i d_i(t) \geq D^{\max} \right\}
+\tag{27}
+$$
 
 and the article notes that no external observer can identify this date, because the symptom of a bound attention constraint is slower decision-making, not any discrete event. The [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] adds a third claimant to the same budget through the service, counterparty, and regulatory obligations the spinoff creates, and those obligations grow with the spinoff's success and not diminishing.
 
@@ -241,21 +322,33 @@ The original thesis holds that the case is singular because it closed a conjunct
 
 The third clause does not survive. The joint satisfaction is not astronomically improbable, because the conditions are positively dependent and a smaller number of underlying properties generates most of them. The surviving clauses and the failed one admit compact separation
 
-$$\underbrace{\left| \bigcap_k \mathcal{C}_k \right| = 1}_{\text{survives}} \; \wedge \; \underbrace{\text{conjunction required}}_{\text{survives}} \; \wedge \; \underbrace{P\!\left( \Phi = 1 \right) \approx 0}_{\text{does not survive}}$$
+$$
+\underbrace{\left| \bigcap_k \mathcal{C}_k \right| = 1}_{\text{survives}} \; \wedge \; \underbrace{\text{conjunction required}}_{\text{survives}} \; \wedge \; \underbrace{P\!\left( \Phi = 1 \right) \approx 0}_{\text{does not survive}}
+\tag{28}
+$$
 
 with the third clause being the one the dependence structure removes. The article's estimate of the effective dimensionality is deliberately vague and is stated as an inequality, not a number
 
-$$d^{\text{effective}} \; \ll \; 10$$
+$$
+d^{\text{effective}} \; \ll \; 10
+\tag{29}
+$$
 
 with the underlying properties plausibly comprising a mission-directed objective function, a control configuration permitting it to be pursued, a technically general capability, and access to a government customer. Written as a factor loading, the claim is
 
-$$\boldsymbol{\phi} = H\!\left( \boldsymbol{\theta} \right), \qquad \boldsymbol{\theta} \in \mathbb{R}^{4}, \qquad \boldsymbol{\phi} \in \{0,1\}^{10}$$
+$$
+\boldsymbol{\phi} = H\!\left( \boldsymbol{\theta} \right), \qquad \boldsymbol{\theta} \in \mathbb{R}^{4}, \qquad \boldsymbol{\phi} \in \{0,1\}^{10}
+\tag{30}
+$$
 
 with $H$ mapping four underlying properties onto ten observable conditions. The article offers the dimension four as an illustration of the argument's form and not as an estimate, and marks that establishing the true dimension would require applying the framework to a case set large enough to estimate the loadings, which the series has not assembled. The remaining conditions are largely consequences of those four rather than independent requirements.
 
 The revision matters for the practical question the series has avoided asking directly. If the conjunction were ten independent conditions, reproducing it would require ten separate successes and would be effectively impossible. The two readings imply reproduction probabilities differing by orders of magnitude, admitting the compact contrast
 
-$$P^{\text{reproduce}} \approx q^{\,10} \quad \text{under independence} \qquad \text{against} \qquad P^{\text{reproduce}} \approx q^{\,4} \quad \text{under the factor reading}$$
+$$
+P^{\text{reproduce}} \approx q^{\,10} \quad \text{under independence} \qquad \text{against} \qquad P^{\text{reproduce}} \approx q^{\,4} \quad \text{under the factor reading}
+\tag{31}
+$$
 
 with the second considerably more tractable. The policy and investment literature that treats the case as inimitable is drawing the wrong conclusion from the right observation, and the article notes that this is the single most consequential practical implication of the entire series.
 
@@ -265,25 +358,37 @@ A closing article that only criticized its own framework would misrepresent what
 
 The framework's principal success is diagnostic rather than predictive. Applied to the negation cases across the eleven articles, it identifies in each instance a condition that failed and does so in a way that survives comparison against the case-explanations the existing literature offers. The Iridium failure is a claim-type failure and not a market-forecast failure. The OneWeb failure is a holder-concentration and realization-path failure and not a bad-luck failure. The Space Shuttle programme is a requirement-construction failure and not a management failure. The OpenAI governance crisis is an effective-control failure and not a personality failure. The diagnostic claim is stated compactly as an identification rather than a prediction
 
-$$k^{\ast}_j = \arg\min_k \; \phi_{j,k} \qquad \text{recovered correctly for every negation case the series examined}$$
+$$
+k^{\ast}_j = \arg\min_k \; \phi_{j,k} \qquad \text{recovered correctly for every negation case the series examined}
+\tag{32}
+$$
 
 with the framework naming the failed condition rather than estimating a probability. In each case the framework locates the failure at a structural feature that was visible in advance, which is the strongest claim a diagnostic framework can make.
 
 The claim requires a caution the article states rather than leaves to the reader. A ten-condition scheme applied after the fact to a known failure will almost always find a condition to blame, so the diagnostic record is evidence only to the extent the identified condition is the one an independent observer would have identified beforehand. The relevant quantity is therefore
 
-$$P\!\left( k^{\ast} \; \text{identified ex ante} \mid k^{\ast} \; \text{identified ex post} \right)$$
+$$
+P\!\left( k^{\ast} \; \text{identified ex ante} \mid k^{\ast} \; \text{identified ex post} \right)
+\tag{33}
+$$
 
 which the series cannot estimate, because the framework was constructed after the failures it diagnoses.
 
 The framework's second success is that it forced attention onto capital-formation mechanics that the surrounding literature treats casually. The three findings the article regards as genuinely new admit compact statement together
 
-$$T^{\text{binding}} = \min\left\{ T^{\text{fund}}, \Delta^{\text{fundraise}} \right\} = \Delta^{\text{fundraise}}, \qquad \text{realization} \perp \text{exit}, \qquad \mathcal{D} \subseteq \left\{ \text{lowest-valuation rounds} \right\}$$
+$$
+T^{\text{binding}} = \min\left\{ T^{\text{fund}}, \Delta^{\text{fundraise}} \right\} = \Delta^{\text{fundraise}}, \qquad \text{realization} \perp \text{exit}, \qquad \mathcal{D} \subseteq \left\{ \text{lowest-valuation rounds} \right\}
+\tag{34}
+$$
 
 with the first establishing that the binding clock is reputational rather than contractual, the second that patience is manufactured by separating realization from exit, and the third that non-dilutive capital displaces precisely the highest-dilution rounds and therefore interacts multiplicatively with the private leg. The finding that the fund-life constraint binds through a reputational channel at three to four years rather than a contractual one at ten, the finding that a realization path independent of company exit is what manufactures patience, and the finding that non-dilutive capital displaces the highest-dilution rounds and therefore interacts multiplicatively with the private leg are all products of taking the mechanics seriously, and none appears in the commentary the series set out to improve upon.
 
 The framework's third success is negative and is the subject of this article. A framework that fails in a discoverable way is more useful than one that cannot fail. The detectability admits the compact statement
 
-$$\text{framework stated as} \; \textstyle\prod_k \phi_k \; \Longrightarrow \; \text{independence is a testable implication}$$
+$$
+\text{framework stated as} \; \textstyle\prod_k \phi_k \; \Longrightarrow \; \text{independence is a testable implication}
+\tag{35}
+$$
 
 with the product notation being what made the assumption visible enough to falsify. A framework stated as a list rather than as a product would have carried the same assumption without exposing it, which is an argument for formal statement independent of whether the formalism adds precision.
 
@@ -293,13 +398,19 @@ The preceding section credits the framework with a diagnostic record. This secti
 
 The problem is one of degrees of freedom. The framework was constructed by examining a surviving case and identifying its properties, and it is applied to failures after their outcomes are known. A scheme with ten conditions applied retrospectively to a known failure has ten opportunities to locate a fault, and a sufficiently rich scheme will locate one in any case whatever. The condition supports compact statement as a comparison between the scheme's flexibility and the evidence available
 
-$$\left| \left\{ \text{conditions available to assign blame} \right\} \right| = 10 \qquad \text{against} \qquad \left| \left\{ \text{observations} \right\} \right| \; \text{small}$$
+$$
+\left| \left\{ \text{conditions available to assign blame} \right\} \right| = 10 \qquad \text{against} \qquad \left| \left\{ \text{observations} \right\} \right| \; \text{small}
+\tag{36}
+$$
 
 with the ratio being the quantity that determines whether a fit is informative. In the negation cases the series examined, the ratio is unfavorable.
 
 The distinction that matters is between a scheme that can accommodate any outcome and one that forbids some. A framework earns evidential standing by what it rules out, admitting the compact requirement
 
-$$\exists \; \text{an observable pattern } O \; : \; P\!\left( O \mid \text{framework true} \right) \approx 0$$
+$$
+\exists \; \text{an observable pattern } O \; : \; P\!\left( O \mid \text{framework true} \right) \approx 0
+\tag{37}
+$$
 
 with the framework forbidding at least one thing that could be seen. The article's assessment is that the framework as stated across eleven articles forbids very little, and that this is a defect the series did not confront until its final article.
 
@@ -307,7 +418,10 @@ Three claims do survive the critique and the article separates them from the res
 
 The first is the independence finding this article develops. It is a falsifiable structural claim, it was tested against three cases, and it failed in the direction the evidence indicated rather than in the direction the framework's authors would have preferred. **A framework that produces a finding embarrassing to its own headline thesis has demonstrated something a purely accommodating scheme cannot.** The compact form of the point is that the product notation entailed a testable implication
 
-$$\textstyle\prod_k \phi_k \; \Longrightarrow \; \text{mutual independence} \; \Longrightarrow \; \text{testable, and tested, and false}$$
+$$
+\textstyle\prod_k \phi_k \; \Longrightarrow \; \text{mutual independence} \; \Longrightarrow \; \text{testable, and tested, and false}
+\tag{38}
+$$
 
 with the falsification arriving from within the exercise rather than from an external critic.
 
@@ -317,7 +431,10 @@ The third is the negative result about the ownership form. The [Governance artic
 
 What does not survive is the central conjunctive thesis in its predictive form. The article states the test that would settle it, since naming an unperformed test is more useful than asserting a conclusion. The framework would earn predictive standing by scoring a set of ventures on all ten conditions **before** their outcomes are known and recording the scores publicly, admitting the compact requirement
 
-$$\text{score } \boldsymbol{\phi}_j \; \text{at } t_0 \qquad \text{and evaluate outcomes at } t_0 + \Delta$$
+$$
+\text{score } \boldsymbol{\phi}_j \; \text{at } t_0 \qquad \text{and evaluate outcomes at } t_0 + \Delta
+\tag{39}
+$$
 
 with the scoring fixed in advance. Nothing in the series constitutes such a test and nothing in the surrounding literature does either. Until one is performed, the framework should be read as a vocabulary for describing what happened and a checklist for interrogating a candidate case, and not as an instrument for estimating whether a candidate case will succeed.
 
@@ -373,17 +490,26 @@ The patient-single-funder template is documented at the [Blue Origin press relea
 
 The four templates admit compact comparison through the identity of their failed conditions
 
-$$k^{\ast}_{\text{defense venture}} \neq k^{\ast}_{\text{failed governance}} \neq k^{\ast}_{\text{intelligence anchor}} \neq k^{\ast}_{\text{single funder}}$$
+$$
+k^{\ast}_{\text{defense venture}} \neq k^{\ast}_{\text{failed governance}} \neq k^{\ast}_{\text{intelligence anchor}} \neq k^{\ast}_{\text{single funder}}
+\tag{40}
+$$
 
 with each failing at a different point rather than clustering on a common weakness. The four score between four and seven conditions each, admitting the compact summary
 
-$$4 \; \leq \; \sum_k \phi_{j,k} \; \leq \; 7 \qquad \text{for } j \; \text{among the four templates}$$
+$$
+4 \; \leq \; \sum_k \phi_{j,k} \; \leq \; 7 \qquad \text{for } j \; \text{among the four templates}
+\tag{41}
+$$
 
 with none reaching eight. The article's synthesis assessment is that none of the four closes the conjunction, which is the pattern a genuinely conjunctive requirement produces and which is the strongest indirect evidence the series can offer for the conjunctive claim.
 
 The inference has a limit the article states. Under the factor reading, distinct failed conditions are consistent with a small number of underlying properties failing, since one absent factor can extinguish different observable conditions in different cases. The compact form is
 
-$$\theta_m \; \text{absent} \; \Longrightarrow \; \left\{ k : \partial h_k / \partial \theta_m \neq 0 \right\} \; \text{all fail together}$$
+$$
+\theta_m \; \text{absent} \; \Longrightarrow \; \left\{ k : \partial h_k / \partial \theta_m \neq 0 \right\} \; \text{all fail together}
+\tag{42}
+$$
 
 so the observed diversity of failure points is weaker evidence for a ten-dimensional requirement than it first appears, and is consistent with the four-dimensional reading the preceding section develops.
 
@@ -393,13 +519,19 @@ The historical cases the series has drawn upon across eleven articles are restat
 
 The industrial consolidation offers the precedent for retained-earnings financing displacing external capital markets entirely, documented in [Chernow 2004][book_chernow_2004] Titan and [Nevins 1954][book_nevins_1954], with the primary record at the [Supreme Court decision of 1911][ref_standard_oil_1911]. The base rate it gives is unfavorable to the durability of a vertically integrated dominant position, admitting the compact statement
 
-$$P\!\left( \text{resolution by regulatory action} \mid \text{dominant vertically integrated position} \right) \; \gg \; P\!\left( \text{resolution by competitive erosion} \right)$$
+$$
+P\!\left( \text{resolution by regulatory action} \mid \text{dominant vertically integrated position} \right) \; \gg \; P\!\left( \text{resolution by competitive erosion} \right)
+\tag{43}
+$$
 
 on the historical record this and the telecommunications case supply. The base rate bears directly on the projection sections and is the one the contemporary commentary most consistently omits.
 
 The corporate research laboratory gives the precedent for long horizons obtained through monopoly rents rather than through capital-market instruments, documented in [Gertner 2012][book_gertner_2012] The Idea Factory and [Hiltzik 1999][book_hiltzik_1999] Dealers of Lightning, with the regulatory record at the [consent decree of 1956][ref_att_consent_decree_1956] and the [divestiture of 1984][ref_att_divestiture_1984] and the analytical treatments at [Temin and Galambos 1987][book_temin_galambos_1987] and [Wu 2010][book_wu_2010]. The base rate it yields admits the compact conditional
 
-$$T^{\text{research horizon}} \; \approx \; T^{\text{rent duration}}$$
+$$
+T^{\text{research horizon}} \; \approx \; T^{\text{rent duration}}
+\tag{44}
+$$
 
 with the long horizon terminating when the monopoly position that funded it terminates. The relevance is direct rather than analogical, because the [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] establishes that the present case funds its mission from a commercial position of a comparable kind.
 
@@ -407,7 +539,10 @@ The endowed foundation yields the precedent for an ownership form that solves th
 
 The mass-production firm contributes the precedent for a founder-controlled venture pursuing an objective the capital markets did not endorse, documented in [Ford et al. 1922][book_ford_crowther_1922] and [Hounshell 1984][book_hounshell_1984], with the successor record at [Ford investor relations][ref_ford_ir]. The base rate it contributes concerns succession specifically, and it is unfavorable, admitting the compact statement
 
-$$P\!\left( \text{objective preserved across founder succession} \mid \text{no ownership form binding it} \right) \; \text{is low on the historical record}$$
+$$
+P\!\left( \text{objective preserved across founder succession} \mid \text{no ownership form binding it} \right) \; \text{is low on the historical record}
+\tag{45}
+$$
 
 with the conditioning clause being precisely the one the [Governance article A287][related_post_a287_spacex_governance] establishes for the present case.
 
@@ -425,17 +560,26 @@ The article projects three quantities to 2050 and declines to project others. It
 
 Each projection is stated as a conditional with its assumptions listed, admitting the general form
 
-$$X(2050) = f\!\left( X(2026), \; \text{assumptions } A_1 \ldots A_n \right)$$
+$$
+X(2050) = f\!\left( X(2026), \; \text{assumptions } A_1 \ldots A_n \right)
+\tag{46}
+$$
 
 with the assumptions rather than the arithmetic carrying the weight. The sensitivity the article reports for each projection is the derivative with respect to the binding assumption, admitting the compact form
 
-$$\sigma_i = \left| \frac{\partial X(2050)}{\partial A_i} \right| \qquad \text{with the reported assumption being} \qquad \arg\max_i \; \sigma_i$$
+$$
+\sigma_i = \left| \frac{\partial X(2050)}{\partial A_i} \right| \qquad \text{with the reported assumption being} \qquad \arg\max_i \; \sigma_i
+\tag{47}
+$$
 
 with the largest term identifying where a reader who disagrees should direct the disagreement. The article states the assumption set for each projection and marks which assumption each projection is most sensitive to, which is the useful content of a projection exercise and is generally the part omitted. The observable series against which any of these projections could later be checked are the launch and licensing record at the [Office of Commercial Space Transportation][ref_faa_ast], the authorization record at the [Federal Communications Commission filing system][ref_fcc_filings], the award record at [USAspending][ref_usaspending], and the sector reconstructions at [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], and [Payload Research][ref_payload_research]. A projection whose falsifying data are not identified is not falsifiable in practice, and the article identifies them.
 
 The projection horizon is deliberately long enough that the exercise is not a forecast. Twenty-four years exceeds the period the venture has existed. The horizon exceeds the venture's own age, admitting the compact comparison
 
-$$T^{\text{projection}} = 24 \; \text{years} \; > \; T^{\text{venture age}} \approx 24 \; \text{years at the snapshot}$$
+$$
+T^{\text{projection}} = 24 \; \text{years} \; > \; T^{\text{venture age}} \approx 24 \; \text{years at the snapshot}
+\tag{48}
+$$
 
 so the projection extrapolates beyond the entire observed record. No projection at that horizon in this sector has historically been accurate, and the article's purpose in offering one is to make its own model explicit and falsifiable rather than to predict.
 
@@ -443,17 +587,26 @@ so the projection extrapolates beyond the entire observed record. No projection 
 
 The cost trajectory the [Value Gradient article A282][related_post_a282_spacex_value_gradient] and the [Decomposability article A285][related_post_a285_spacex_decomposability] document follows the learning relationship
 
-$$c_n = c_1 \cdot n^{-\beta}$$
+$$
+c_n = c_1 \cdot n^{-\beta}
+\tag{49}
+$$
 
 with $n$ the cumulative flight count. Projecting requires assumptions about $\beta$ and about the cadence that generates $n$, and the article assumes the historical exponent persists and that cadence grows at a decreasing rate toward a saturation set by demand rather than by capability.
 
 Under those assumptions the trajectory continues to fall and the rate of fall decreases, because $n$ grows and the exponent applies to a larger base. Cadence saturation enters through the demand side rather than the capability side, admitting the compact form
 
-$$\dot{n}(t) \; \to \; \dot{n}^{\max} \qquad \text{with} \qquad \dot{n}^{\max} \; \text{set by} \; q^{\text{internal}} + q^{\text{external}}$$
+$$
+\dot{n}(t) \; \to \; \dot{n}^{\max} \qquad \text{with} \qquad \dot{n}^{\max} \; \text{set by} \; q^{\text{internal}} + q^{\text{external}}
+\tag{50}
+$$
 
 with the internal term the constellation replenishment the [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] treats. The authorization record on which the revenue base depends is at the [initial authorization][ref_fcc_starlink_2018], the [second-generation authorization][ref_fcc_starlink_gen2_2022], the [direct-to-cell proceeding][ref_fcc_direct_to_cell_2024], and the coordination regime at the [Radio Regulations][ref_itu_radio_regulations_2020], with the service record at [Starlink][ref_spacex_starlink], the [technology description][ref_starlink_technology], and the [first operational batch][ref_spacex_press_starlink_v0_9_2019]. The projection is most sensitive to the assumption that the learning exponent persists across a vehicle-family transition, admitting the compact contrast
 
-$$\beta^{\text{post-transition}} = \beta \quad \text{assumed} \qquad \text{against} \qquad n \to n_0 \; \text{reset at transition}$$
+$$
+\beta^{\text{post-transition}} = \beta \quad \text{assumed} \qquad \text{against} \qquad n \to n_0 \; \text{reset at transition}
+\tag{51}
+$$
 
 with the second case flattening the trajectory for a period the article cannot estimate. The historical record contains no instance of a learning curve surviving such a transition unchanged. The flight and licensing record against which the projection would be checked is at the [Falcon 9 vehicle page][ref_spacex_falcon9_vehicle], the [Starship programme][ref_spacex_starship_program], the [Office of Commercial Space Transportation][ref_faa_ast] with its [licensing regulations][ref_faa_ast_regulations] and the [Part 450 rule][ref_faa_ast_licensing_regs_450], and the environmental approvals at the [Starship programmatic assessment][ref_faa_starship_pea]. The technical reporting appears at [NASASpaceflight][ref_nasaspaceflight], [Ars Technica space coverage][ref_arstechnica_space], and [SpaceNews][ref_spacenews]. If the exponent resets at the transition, the trajectory flattens for a period whose length the article cannot estimate.
 
@@ -465,17 +618,26 @@ The revenue trajectory the [Category-Dominating Commercial Spinoff article A291]
 
 The third assumption is the one the projection is most sensitive to and the one the article regards as least secure. The [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] establishes that incumbency advantage in this business scales as
 
-$$\text{durability} \; \sim \; \frac{L}{T^{\text{competitor deployment}}}$$
+$$
+\text{durability} \; \sim \; \frac{L}{T^{\text{competitor deployment}}}
+\tag{52}
+$$
 
 which is a small number, so the position is not structurally protected against a competitor that attains captive launch capacity. The article's assessment is that the most likely source of such a competitor is a state programme rather than a commercial entrant, because the institutional coupling the arrangement requires is easier to achieve through common state ownership than through common corporate ownership. The condition can be stated as
 
-$$\text{captive launch attainable} \iff \text{common residual claimant over launch and constellation}$$
+$$
+\text{captive launch attainable} \iff \text{common residual claimant over launch and constellation}
+\tag{53}
+$$
 
 which common state ownership satisfies by construction and which a commercial entrant must build.
 
 The capital position projects more confidently than either component. If the crossover the [Category-Dominating Commercial Spinoff article A291][related_post_a291_spacex_category_dominating_spinoff] describes has occurred, the external capital requirement is approximately zero and the venture's financing constraint is no longer binding at any horizon the article considers. The capital position projects under the compact condition
 
-$$R^{\text{free}}(t) \geq B(t) \quad \text{for all } t > t^{\ast} \qquad \Longrightarrow \qquad K^{\text{external}}(t) = 0$$
+$$
+R^{\text{free}}(t) \geq B(t) \quad \text{for all } t > t^{\ast} \qquad \Longrightarrow \qquad K^{\text{external}}(t) = 0
+\tag{54}
+$$
 
 with the external requirement vanishing once the crossover holds durably rather than momentarily. The article marks that this conclusion is conditional on a crossover date it cannot observe, and that a crossover which holds in favorable states and fails in adverse ones is precisely the pattern the independence-failure sections describe. The revenue reconstructions on which any assessment rests are at [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], [Payload Research][ref_payload_research], and [PitchBook][ref_pitchbook], with the reported company statements at [Bloomberg][ref_bloomberg], the [New York Times][ref_nyt], and the [Wall Street Journal][ref_wsj].
 
@@ -485,7 +647,10 @@ The governance projection is the one the article regards as most consequential a
 
 The [Governance article A287][related_post_a287_spacex_governance] establishes a control configuration that resists capital capture and does not satisfy successor commitment. Over a twenty-four-year horizon the successor question moves from hypothetical to certain, admitting the compact statement
 
-$$P\!\left( \text{succession event occurs before } 2050 \right) \; \to \; 1$$
+$$
+P\!\left( \text{succession event occurs before } 2050 \right) \; \to \; 1
+\tag{55}
+$$
 
 since the horizon exceeds any reasonable expectation of continuous individual involvement. The succession event is therefore the only failure mode in the entire series whose probability is not a matter of judgement.
 
@@ -493,15 +658,21 @@ The available resolutions are the ones the historical precedents supply. The fou
 
 The listing-and-dispersal form abandons the governance condition entirely, and its consequence for the framework may be stated compactly
 
-$$\phi^{\text{governance}} = 0 \; \Longrightarrow \; \Phi = 0$$
+$$
+\phi^{\text{governance}} = 0 \; \Longrightarrow \; \Phi = 0
+\tag{56}
+$$
 
 with the conjunction failing on a single component irrespective of the other nine. The observation is what makes the succession question consequential for the framework rather than merely for the firm. The available resolutions form a partition and each surrenders a different condition, admitting the compact statement
 
-$$\begin{array}{lcl}
+$$
+\begin{array}{lcl}
 \text{foundation ownership} & \Longrightarrow & \text{capital ownership surrendered} \\
 \text{dual-class inheritance} & \Longrightarrow & \text{successor commitment unresolved} \\
 \text{listing and dispersal} & \Longrightarrow & \text{governance condition surrendered}
-\end{array}$$
+\end{array}
+\tag{57}
+$$
 
 with no row preserving every condition. The article assesses that no path preserves the configuration the series has described, and that the interesting question is which condition is surrendered rather than whether one is.
 
@@ -511,19 +682,28 @@ The projection therefore states a structural conclusion rather than a prediction
 
 The article ranks the failure modes rather than listing them, because a list implies equal weight and the analysis does not support equal weight. The ranking criterion combines the probability of the event with the fraction of the configuration it removes, admitting the compact form
 
-$$r_m = P\!\left( \text{event } m \; \text{before } 2050 \right) \; \times \; \left| \left\{ k : \phi_k \; \text{fails given } m \right\} \right|$$
+$$
+r_m = P\!\left( \text{event } m \; \text{before } 2050 \right) \; \times \; \left| \left\{ k : \phi_k \; \text{fails given } m \right\} \right|
+\tag{58}
+$$
 
 with the ordering below following $r_m$ descending.
 
 The first is the succession event, for the reasons the key-person and governance sections state. It is the only failure mode that is certain to occur within the projection horizon, admitting the compact statement
 
-$$r_{\text{succession}} = 1 \times \left| \left\{ k : \phi_k \; \text{fails} \right\} \right| \; \text{with the second factor large}$$
+$$
+r_{\text{succession}} = 1 \times \left| \left\{ k : \phi_k \; \text{fails} \right\} \right| \; \text{with the second factor large}
+\tag{59}
+$$
 
 because the first factor is unity and the correlation sections establish that the second is not small. It is the one against which the portfolio offers no protection, and it is the one the governance configuration makes maximally consequential.
 
 The second is a vehicle-family grounding, which the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] identifies as removing four of five business lines simultaneously. The surviving subscription revenue and the resulting unbounded stressed runway are the offsetting features, admitting the compact survival condition
 
-$$R^{\text{subscription}} \; > \; C^{\text{fixed}} \quad \text{during the grounding} \; \Longrightarrow \; T^{\text{runway}} \to \infty$$
+$$
+R^{\text{subscription}} \; > \; C^{\text{fixed}} \quad \text{during the grounding} \; \Longrightarrow \; T^{\text{runway}} \to \infty
+\tag{60}
+$$
 
 with the runway unbounded so long as the surviving revenue covers the fixed cost. The grounding and return-to-flight precedents are documented in the [Columbia Accident Investigation Board report][ref_caib_report_2003] and the [Rogers Commission report][ref_rogers_commission_1986], and the risk-transfer instruments at [Aon space insurance][ref_aon_space_insurance] and the [Lloyd's market][ref_lloyds_market] do not cover consequential or programme loss. The article's assessment is that this failure mode is survivable but would consume the capital position the third leg produces.
 
@@ -533,7 +713,10 @@ The fourth is competitive erosion of the constellation position, which the durab
 
 The fifth is the attention bottleneck binding hard enough to degrade execution across lines. It differs from the others in having no event to observe, admitting the compact contrast
 
-$$\text{modes one through four} \; : \; \exists \; \text{a datable event} \qquad \text{against} \qquad \text{mode five} \; : \; \nexists \; \text{a datable event}$$
+$$
+\text{modes one through four} \; : \; \exists \; \text{a datable event} \qquad \text{against} \qquad \text{mode five} \; : \; \nexists \; \text{a datable event}
+\tag{61}
+$$
 
 with the fifth manifesting as a gradual change in decision latency that no external observer can distinguish from ordinary organizational growth. The article regards it as the hardest failure mode to observe and therefore as the one most likely to be underweighted by any assessment including this one.
 
@@ -611,13 +794,19 @@ The landscape for the conjunction as a whole is emptier than the landscape for a
 
 No contemporary venture satisfies all ten, admitting the compact statement
 
-$$\max_{j \neq \text{subject}} \; \sum_{k=1}^{10} \phi_{j,k} \; \leq \; 7$$
+$$
+\max_{j \neq \text{subject}} \; \sum_{k=1}^{10} \phi_{j,k} \; \leq \; 7
+\tag{62}
+$$
 
 with the best contemporary case falling three conditions short. The four templates the article assesses each fail at a different point. The state programmes documented at [China's space programme][ref_chinese_space_program] satisfy the captive-input and anchor conditions through common state ownership and their position on the governance conditions is not comparable, because the conditions were formulated for a privately held venture and do not translate. The European position at [Arianespace][ref_arianespace] and [ArianeGroup][ref_arianegroup_press] separates the launch provider from the constellation operator institutionally. The commercial entrants at [Rocket Lab][ref_rocket_lab_press], [Blue Origin][ref_blue_origin_press], and [United Launch Alliance][ref_ula_press] each hold a subset.
 
 The article notes that the emptiness of the landscape is weaker evidence than it appears, admitting the compact statement of the circularity
 
-$$\left\{ \text{conditions} \right\} \; \text{selected such that} \; \boldsymbol{\phi}_{\text{subject}} = \mathbf{1}$$
+$$
+\left\{ \text{conditions} \right\} \; \text{selected such that} \; \boldsymbol{\phi}_{\text{subject}} = \mathbf{1}
+\tag{63}
+$$
 
 with the conditions chosen by examining the case that satisfies them. A framework derived from one observation will find that observation unique, and the negation cases mitigate this without removing it.
 
@@ -627,21 +816,33 @@ The full framework applies to the venture set as a cross-sectional scoring exerc
 
 The closure vector for venture $j$ may be written
 
-$$\boldsymbol{\phi}_j \in \{0,1\}^{10}$$
+$$
+\boldsymbol{\phi}_j \in \{0,1\}^{10}
+\tag{64}
+$$
 
 with the components ordered as the seven forcing-function conditions followed by the three capital-formation legs. The case under study scores one on all ten by construction. The contemporary templates score between four and seven, the historical negation cases between three and six, and no case other than the subject scores above seven.
 
 The cross-sectional pattern indicates that the conditions failing most often are the governance condition and the realization-path component of the patient-private leg. The column means admit the compact statement
 
-$$\bar{\phi}_k = \frac{1}{|J|} \sum_{j \in J} \phi_{j,k} \qquad \text{with} \qquad \bar{\phi}_{\text{governance}}, \; \bar{\phi}_{\text{realization}} \; \text{the two smallest}$$
+$$
+\bar{\phi}_k = \frac{1}{|J|} \sum_{j \in J} \phi_{j,k} \qquad \text{with} \qquad \bar{\phi}_{\text{governance}}, \; \bar{\phi}_{\text{realization}} \; \text{the two smallest}
+\tag{65}
+$$
 
 and these two are the conditions least discussed in the surrounding commentary. The article regards this as the framework's most useful empirical output, admitting the compact statement
 
-$$\arg\min_k \; \frac{1}{|J|} \sum_{j \in J} \phi_{j,k} \; \in \; \left\{ \text{governance}, \; \text{realization path} \right\}$$
+$$
+\arg\min_k \; \frac{1}{|J|} \sum_{j \in J} \phi_{j,k} \; \in \; \left\{ \text{governance}, \; \text{realization path} \right\}
+\tag{66}
+$$
 
 with the rarest conditions being the ones the advocacy literature treats as the most readily arranged. The full scoring assembles into a matrix whose rows are ventures and whose columns are the ten conditions
 
-$$\Phi^{\text{matrix}} = \left[ \phi_{j,k} \right]_{j \in J, \; k = 1 \ldots 10} \qquad \text{with} \qquad \sum_k \phi_{\text{subject},k} = 10 \; \text{and} \; \sum_k \phi_{j,k} \leq 7 \; \text{otherwise}$$
+$$
+\Phi^{\text{matrix}} = \left[ \phi_{j,k} \right]_{j \in J, \; k = 1 \ldots 10} \qquad \text{with} \qquad \sum_k \phi_{\text{subject},k} = 10 \; \text{and} \; \sum_k \phi_{j,k} \leq 7 \; \text{otherwise}
+\tag{67}
+$$
 
 with the row sums rather than any individual cell carrying the comparative claim. The data behind the rows are the regulatory and contracting records the preceding sections identify for the subject, the [Eutelsat][ref_eutelsat_oneweb] and [OneWeb][ref_oneweb] corporate records and the [Chapter 11][ref_bankruptcy_code_ch11] proceedings at the [United States bankruptcy courts][ref_uscourts_bankruptcy] for the failed constellation cases, the [Iridium filing][ref_iridium_chapter_11_1999] lodged with [EDGAR][ref_sec_edgar] for the earlier one, and the sector compilations at [Space Capital][ref_space_capital] and [BryceTech][ref_bryce_tech] for the remainder.
 
@@ -661,23 +862,35 @@ The seven-plus-three framework is one of several the surrounding literature appl
 
 The great-founder framing attributes the outcome to individual capability and is the framing the biographical record employs. The article's position is that the framing is not refuted and is not an explanation. The compact form of the objection is that the framing predicts an outcome that varies with the individual and the record shows variation holding the individual fixed
 
-$$\text{outcome}_v \; \text{varies across ventures } v \; \text{with the same founder}$$
+$$
+\text{outcome}_v \; \text{varies across ventures } v \; \text{with the same founder}
+\tag{68}
+$$
 
 so individual capability cannot be the whole account without a further variable explaining the variation. That further variable is what the framework attempts to supply.
 
 The state-capacity framing developed in [Mazzucato 2013][book_mazzucato_2013] and the developmental-state literature at [Johnson 1982][book_johnson_1982], [Amsden 1989][book_amsden_1989], and [Wade 1990][book_wade_1990] attributes the outcome to public investment and treats the private venture as the transmission mechanism. The framing's accuracy is time-varying rather than uniform, admitting the compact statement
 
-$$\frac{K^{\text{government}}(t)}{B(t)} \; \text{large for } t < 2009 \qquad \text{and} \qquad \text{declining thereafter}$$
+$$
+\frac{K^{\text{government}}(t)}{B(t)} \; \text{large for } t < 2009 \qquad \text{and} \qquad \text{declining thereafter}
+\tag{69}
+$$
 
 with the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] documenting the reversal in which the firm began investing ahead of the government requirement. The article regards the framing as substantially correct for the early period and as progressively less accurate afterward. The crossing point admits the compact definition
 
-$$t^{\text{reversal}} = \inf \left\{ t \; : \; \text{firm investment ahead of requirement} \; > \; \text{requirement ahead of investment} \right\}$$
+$$
+t^{\text{reversal}} = \inf \left\{ t \; : \; \text{firm investment ahead of requirement} \; > \; \text{requirement ahead of investment} \right\}
+\tag{70}
+$$
 
 with the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] locating it in the period the defense services line began.
 
 The luck framing holds that the outcome is a draw from a distribution and that the conditions the series identifies are post-hoc rationalizations of a fortunate realization. The framing is not refutable on a single case. Its strongest form asserts
 
-$$P\!\left( \text{outcome} \mid \boldsymbol{\phi} \right) = P\!\left( \text{outcome} \right)$$
+$$
+P\!\left( \text{outcome} \mid \boldsymbol{\phi} \right) = P\!\left( \text{outcome} \right)
+\tag{71}
+$$
 
 meaning the conditions carry no information whatever, and the framework's diagnostic performance on the negation cases is evidence against that equality without bearing on weaker versions of the framing. The article concedes it cannot be dismissed.
 
@@ -691,7 +904,10 @@ The reliability framing developed in [Perrow 1984][book_perrow_1984], [Vaughan 1
 
 The evolutionary framing at [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the selection caution the Historiographical Gap section states in general form. Its compact statement is
 
-$$P\!\left( \boldsymbol{\phi} = \mathbf{1} \mid \text{survived} \right) \approx 1 \qquad \text{while} \qquad P\!\left( \text{survived} \mid \boldsymbol{\phi} = \mathbf{1} \right) \; \text{remains unidentified}$$
+$$
+P\!\left( \boldsymbol{\phi} = \mathbf{1} \mid \text{survived} \right) \approx 1 \qquad \text{while} \qquad P\!\left( \text{survived} \mid \boldsymbol{\phi} = \mathbf{1} \right) \; \text{remains unidentified}
+\tag{72}
+$$
 
 with the first quantity guaranteed by the construction of the framework and carrying no information about the second. This is the framing the article treats as the most serious challenge to the entire exercise, and the series does not answer it.
 
@@ -701,19 +917,28 @@ The pattern the series as a whole exhibits permits the following abstract statem
 
 A mission-directed technology venture closes the seven-plus-three conjunction when a small number of underlying properties generate the ten observable conditions. The properties are a mission-directed objective function that is not a profit-maximizing one, a control configuration permitting that objective to be pursued against capital-market preference, a technical capability whose generality is forced by the mission requirement rather than chosen for the market, and access to a government customer supplying both demand and non-dilutive capital before any commercial market exists. The remaining conditions follow from these largely as consequences, admitting the compact statement
 
-$$\boldsymbol{\phi} = H\!\left( \boldsymbol{\theta} \right) \qquad \text{with} \qquad \boldsymbol{\theta} = \left( \text{objective}, \; \text{control}, \; \text{general capability}, \; \text{government access} \right)$$
+$$
+\boldsymbol{\phi} = H\!\left( \boldsymbol{\theta} \right) \qquad \text{with} \qquad \boldsymbol{\theta} = \left( \text{objective}, \; \text{control}, \; \text{general capability}, \; \text{government access} \right)
+\tag{73}
+$$
 
 and the map $H$ carrying most of the framework's apparent dimensionality.
 
 The conjunction is easier to attain than a product of ten marginals suggests, because the conditions are positively dependent in favorable states. It is easier to lose than the same product suggests, because they are correlated in adverse states. The two statements admit joint compact form
 
-$$P\!\left( \text{attain} \right) > \prod_k P\!\left( \phi_k \right) \qquad \text{and} \qquad P\!\left( \text{hold} \right) < \prod_k P\!\left( \phi_k \right)$$
+$$
+P\!\left( \text{attain} \right) > \prod_k P\!\left( \phi_k \right) \qquad \text{and} \qquad P\!\left( \text{hold} \right) < \prod_k P\!\left( \phi_k \right)
+\tag{74}
+$$
 
 and they concern different questions. A practitioner reading the framework as a target should expect it to be more reachable than it looks. A practitioner reading it as a description of a durable position should expect it to be less stable than it looks.
 
 The configuration the conjunction produces is not a steady state. It depends on the continued involvement of an individual, it concentrates decision authority in a way that makes that dependency maximally consequential, and it has not adopted any of the ownership forms that historically resolved the succession problem. The non-durability is stated compactly as
 
-$$P\!\left( \boldsymbol{\phi} = \mathbf{1} \; \text{at } t \right) \; \to \; 0 \qquad \text{as} \qquad t \to t^{\text{succession}}$$
+$$
+P\!\left( \boldsymbol{\phi} = \mathbf{1} \; \text{at } t \right) \; \to \; 0 \qquad \text{as} \qquad t \to t^{\text{succession}}
+\tag{75}
+$$
 
 with the limit following from the succession certainty rather than from any competitive or technical development. Every projection about such a configuration is therefore a projection about what replaces it, and the abstract statement should not be read as describing a durable institutional form.
 
@@ -750,6 +975,655 @@ Sixth, whether the configuration is reproducible is unresolved. The article's re
 Seventh, whether the framework's diagnostic performance on the negation cases reflects genuine structure or the flexibility of a ten-condition scheme applied after the fact is not determinable from the cases the series examined.
 
 Eighth, the orbital-commons and accountability concerns the critical literature raises are unresolved by this series and are not resolvable by an analytical framework of this kind, since they are evaluative rather than descriptive questions.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 75 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 75, 6 are established and 69 are bespoke.
+Every condition indicator takes the value zero or one and every probability is a judgement the series does not estimate, horizons are in years with 2026 as the snapshot and 2050 as the projection date, and most relations are qualitative formalisations of an argument rather than estimated quantities.
+
+*Equation 1, Bespoke Conjunctive Closure of the Ten Conditions.*
+The series writes closure as the product of ten binary condition indicators, a form that the article shows carries an unexamined independence assumption.
+
+$$
+\Phi = \prod_{k=1}^{10} \phi_k
+\tag{1}
+$$
+
+*Equation 2, Bespoke Singular Intersection of Condition Sets.*
+The article states the singular-conjunction claim as an intersection of the ten condition sets that contains exactly one contemporary venture.
+
+$$
+\left| \bigcap_{k=1}^{10} \mathcal{C}_k \right| = 1
+\tag{2}
+$$
+
+*Equation 3, Bespoke Contrast of Observable and Required Quantities.*
+The article contrasts individual condition scores, which are observable for many ventures, with closure across many ventures, which the inference would require and only one venture supplies.
+
+$$
+\text{observable} \; : \; \phi_{j,k} \; \text{for many } j, \text{ each } k \qquad \text{against} \qquad \text{required} \; : \; \Phi_j \; \text{for many } j
+\tag{3}
+$$
+
+*Equation 4, Bespoke Diagnostic and Predictive Uses of the Framework.*
+The article separates the diagnostic use, naming the condition a case fails, from the predictive use, a conditional probability of success that one observation cannot support.
+
+$$
+\underbrace{k^{\ast} = \arg\min_k \phi_{j,k}}_{\text{diagnostic, supported}} \qquad \text{against} \qquad \underbrace{P\!\left( \text{success}_j \mid \boldsymbol{\phi}_j \right)}_{\text{predictive, not supported}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Forcing-Function Condition Vector.*
+The article assembles the seven forcing-function conditions of the series into one vector in series order.
+
+$$
+\boldsymbol{\phi}^{\text{forcing}} = \left( \phi^{\text{gradient}}, \; \phi^{\text{anchor}}, \; \phi^{\text{capture}}, \; \phi^{\text{decomposable}}, \; \phi^{\text{general}}, \; \phi^{\text{governance}}, \; \phi^{\text{portfolio}} \right)
+\tag{5}
+$$
+
+*Equation 6, Bespoke Partition of the Seven Conditions.*
+The article partitions the seven conditions into properties of the development path, of the market position and of the firm.
+
+$$
+\left\{ 1 \ldots 7 \right\} = \underbrace{\left\{ 1, 4, 5 \right\}}_{\text{path}} \; \cup \; \underbrace{\left\{ 2, 3 \right\}}_{\text{market}} \; \cup \; \underbrace{\left\{ 6, 7 \right\}}_{\text{firm}}
+\tag{6}
+$$
+
+*Equation 7, Bespoke External Capital Requirement as a Budget Identity.*
+The article writes the external capital requirement as mission burn less government capital and retained earnings, so that the three capital-formation legs become terms in one budget.
+
+$$
+K^{\text{external}}(t) = B(t) - K^{\text{government}}(t) - R^{\text{retained}}(t)
+\tag{7}
+$$
+
+*Equation 8, Bespoke Order of Arrival of the Three Legs.*
+The article orders the government, private and retained-earnings legs as a dependency in which each financed the capability the next required.
+
+$$
+t^{\text{government}} \; < \; t^{\text{private}} \; < \; t^{\text{retained}}
+\tag{8}
+$$
+
+**Equation 9, Pairwise Independence of Two Conditions.**
+Two conditions are independent when conditioning on one leaves the probability of the other unchanged.
+
+$$
+P\!\left( \phi_j = 1 \mid \phi_k = 1 \right) = P\!\left( \phi_j = 1 \right) \qquad \text{for all } j \neq k
+\tag{9}
+$$
+
+**Equation 10, Product Rule under Mutual Independence.**
+The joint probability of all conditions equals the product of their marginal probabilities under mutual independence, a stronger requirement than pairwise independence.
+
+$$
+P\!\left( \Phi = 1 \right) = \prod_k P\!\left( \phi_k = 1 \right) \iff \text{mutual independence across all subsets}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Factor Representation of the Conditions.*
+The article represents each condition as a function of a vector of underlying properties of dimension below ten.
+
+$$
+\phi_k = h_k\!\left( \boldsymbol{\theta} \right) \qquad \text{with} \qquad \dim \boldsymbol{\theta} \; < \; 10
+\tag{11}
+$$
+
+**Equation 12, First-Order Covariance under a Factor Structure.**
+Linearising each condition in independent underlying factors gives a covariance equal to the sum over factors of the product of the two loadings and the factor variance, nonzero whenever two conditions share a loading.
+
+$$
+\operatorname{cov}\left( \phi_j, \phi_k \right) = \sum_{m} \frac{\partial h_j}{\partial \theta_m} \frac{\partial h_k}{\partial \theta_m} \operatorname{var}\left( \theta_m \right) \; \neq \; 0
+\tag{12}
+$$
+
+*Equation 13, Bespoke State-Dependent Correlation of Conditions.*
+The article asserts that the conditions are nearly uncorrelated in favourable states and strongly correlated in adverse ones.
+
+$$
+\operatorname{corr}\left( \phi_j, \phi_k \mid \text{favorable state} \right) \approx 0 \qquad \text{against} \qquad \operatorname{corr}\left( \phi_j, \phi_k \mid \text{adverse state} \right) \gg 0
+\tag{13}
+$$
+
+**Equation 14, Joint Probability under Independence.**
+Under independence the probability that all ten conditions hold is the product of the ten marginal probabilities.
+
+$$
+P^{\text{independent}}\!\left( \Phi = 1 \right) = \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right)
+\tag{14}
+$$
+
+*Equation 15, Bespoke Positive Dependence Raising Attainability.*
+The article argues that positive dependence among the conditions makes the joint probability exceed the product of the marginals.
+
+$$
+P\!\left( \Phi = 1 \right) \; > \; \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right)
+\tag{15}
+$$
+
+*Equation 16, Bespoke Factor Approximation of the Joint Probability.*
+The article assumes the ten conditions load on $d$ factors each satisfied with probability $q$, so that the joint probability approaches $q^{d}$ rather than $q^{10}$.
+
+$$
+P\!\left( \Phi = 1 \right) \; \approx \; q^{\,d} \qquad \text{and not} \qquad \prod_{k=1}^{10} P\!\left( \phi_k = 1 \right) \approx q^{\,10}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Separation of Observation from Inference.*
+The article separates the observed singular intersection, which it retains, from a near-zero joint probability, which the dependence structure does not support.
+
+$$
+\underbrace{\left| \bigcap_k \mathcal{C}_k \right| = 1}_{\text{observation about the record}} \qquad \text{against} \qquad \underbrace{P\!\left( \Phi = 1 \right) \approx 0}_{\text{inference the dependence structure does not support}}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Correlated Failure Lowering Survival.*
+The article argues that correlated failure makes the probability that all conditions continue to hold fall below the product of the marginals.
+
+$$
+P\!\left( \text{all conditions hold at } t + \Delta \right) \; < \; \prod_{k=1}^{10} P\!\left( \phi_k \; \text{holds at } t + \Delta \right)
+\tag{18}
+$$
+
+*Equation 19, Bespoke Joint Statement of Attainment and Survival.*
+The article holds that the configuration is easier to attain and easier to lose than the product of marginals implies, because dependence acts in opposite directions on the two questions.
+
+$$
+P\!\left( \Phi = 1 \; \text{at attainment} \right) > \prod_k P\!\left( \phi_k \right) \qquad \text{and} \qquad P\!\left( \Phi = 1 \; \text{at } t+\Delta \right) < \prod_k P\!\left( \phi_k \; \text{at } t+\Delta \right)
+\tag{19}
+$$
+
+*Equation 20, Bespoke One-Factor Threshold Model of Condition Failure.*
+The article models each condition as holding while a common adverse shock, weighted by a loading, plus idiosyncratic noise stays below a threshold.
+
+$$
+\phi_k = \mathbf{1}\left[ \, \alpha_k Z + \varepsilon_k \; < \; \kappa_k \, \right]
+\tag{20}
+$$
+
+*Equation 21, Bespoke Satisfied Fraction as a False Proximity Measure.*
+The article holds that the fraction of conditions satisfied does not measure proximity to closure, because the conditions are not exchangeable.
+
+$$
+\frac{\left| \left\{ k : \phi_k = 1 \right\} \right|}{10} \quad \text{is not a measure of proximity to} \quad \Phi = 1
+\tag{21}
+$$
+
+*Equation 22, Bespoke Perfect Correlation under a Key-Person Event.*
+The article asserts that a key-person event makes the failures of all business lines perfectly correlated.
+
+$$
+\operatorname{corr}\left( \text{line}_i \; \text{failure}, \; \text{line}_j \; \text{failure} \mid \text{key-person event} \right) = 1 \qquad \text{for all } i,j
+\tag{22}
+$$
+
+*Equation 23, Bespoke Portfolio Protection against a Correlated Hazard.*
+The article scales the protection a portfolio offers by one minus the mean correlation of line failures, which vanishes under a key-person event.
+
+$$
+\text{protection} \; \sim \; 1 - \bar{\rho} \qquad \text{with} \qquad \bar{\rho} \big|_{\text{key-person}} = 1 \; \Longrightarrow \; \text{protection} = 0
+\tag{23}
+$$
+
+*Equation 24, Bespoke Amplification of a Key-Person Event by Concentrated Authority.*
+The article asserts that the consequence of a key-person event rises with the concentration of decision authority.
+
+$$
+\frac{\partial \, \text{consequence of a key-person event}}{\partial \, \text{concentration of decision authority}} \; > \; 0
+\tag{24}
+$$
+
+*Equation 25, Bespoke Attention Capacity Constraint.*
+The article bounds the summed decision load of all business lines by a capacity that a single decision-maker fixes.
+
+$$
+\sum_{i} d_i \; \leq \; D^{\max} \qquad \text{with} \qquad D^{\max} \; \text{fixed by a single decision-maker}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Divergence of Decision Load and Capacity.*
+The article assumes decision load grows with the enterprise while decision capacity stays constant.
+
+$$
+\frac{d}{dt} \sum_i d_i(t) \; > \; 0 \qquad \text{while} \qquad \frac{d D^{\max}}{dt} = 0
+\tag{26}
+$$
+
+*Equation 27, Bespoke Saturation Date of the Attention Constraint.*
+The article defines the saturation date as the first date at which decision load reaches decision capacity.
+
+$$
+t^{\text{sat}} = \inf \left\{ t \; : \; \sum_i d_i(t) \geq D^{\max} \right\}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Surviving and Failed Clauses of the Thesis.*
+The article retains the singular intersection and the conjunctive requirement and rejects the claim that the joint probability is near zero.
+
+$$
+\underbrace{\left| \bigcap_k \mathcal{C}_k \right| = 1}_{\text{survives}} \; \wedge \; \underbrace{\text{conjunction required}}_{\text{survives}} \; \wedge \; \underbrace{P\!\left( \Phi = 1 \right) \approx 0}_{\text{does not survive}}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Effective Dimensionality of the Framework.*
+The article states as an inequality that the effective number of underlying properties is far below ten.
+
+$$
+d^{\text{effective}} \; \ll \; 10
+\tag{29}
+$$
+
+*Equation 30, Bespoke Four-Factor Map onto Ten Conditions.*
+The article illustrates the factor reading with four underlying properties mapped onto ten binary conditions, a dimension it offers as illustration rather than estimate.
+
+$$
+\boldsymbol{\phi} = H\!\left( \boldsymbol{\theta} \right), \qquad \boldsymbol{\theta} \in \mathbb{R}^{4}, \qquad \boldsymbol{\phi} \in \{0,1\}^{10}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Reproduction Probability under Two Readings.*
+The article contrasts a reproduction probability of $q^{10}$ under independence with $q^{4}$ under its four-factor reading.
+
+$$
+P^{\text{reproduce}} \approx q^{\,10} \quad \text{under independence} \qquad \text{against} \qquad P^{\text{reproduce}} \approx q^{\,4} \quad \text{under the factor reading}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Diagnostic Record of the Framework.*
+The article claims that the condition minimising each negation case score recovered the failed condition in every negation case the series examined.
+
+$$
+k^{\ast}_j = \arg\min_k \; \phi_{j,k} \qquad \text{recovered correctly for every negation case the series examined}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Ex Ante Identification Probability.*
+The article names the probability that a condition identified after a failure would have been identified beforehand as the quantity the diagnostic record requires.
+
+$$
+P\!\left( k^{\ast} \; \text{identified ex ante} \mid k^{\ast} \; \text{identified ex post} \right)
+\tag{33}
+$$
+
+*Equation 34, Bespoke Three Capital-Formation Findings.*
+The article restates three findings of the series, a reputational binding clock, realisation independent of exit and displacement of the lowest-valuation rounds.
+
+$$
+T^{\text{binding}} = \min\left\{ T^{\text{fund}}, \Delta^{\text{fundraise}} \right\} = \Delta^{\text{fundraise}}, \qquad \text{realization} \perp \text{exit}, \qquad \mathcal{D} \subseteq \left\{ \text{lowest-valuation rounds} \right\}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Testability of the Product Notation.*
+The article argues that stating the framework as a product made independence a testable implication.
+
+$$
+\text{framework stated as} \; \textstyle\prod_k \phi_k \; \Longrightarrow \; \text{independence is a testable implication}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Degrees of Freedom of Retrospective Diagnosis.*
+The article contrasts ten conditions available to assign blame with the small number of observations.
+
+$$
+\left| \left\{ \text{conditions available to assign blame} \right\} \right| = 10 \qquad \text{against} \qquad \left| \left\{ \text{observations} \right\} \right| \; \text{small}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Falsifiability Requirement.*
+The article requires the framework to forbid at least one observable pattern for it to earn evidential standing.
+
+$$
+\exists \; \text{an observable pattern } O \; : \; P\!\left( O \mid \text{framework true} \right) \approx 0
+\tag{37}
+$$
+
+*Equation 38, Bespoke Falsification of the Independence Implication.*
+The article records that the product notation implied mutual independence, which was tested and found false.
+
+$$
+\textstyle\prod_k \phi_k \; \Longrightarrow \; \text{mutual independence} \; \Longrightarrow \; \text{testable, and tested, and false}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Prospective Scoring Test.*
+The article specifies the test that would settle the predictive claim, scoring ventures in advance and evaluating outcomes later.
+
+$$
+\text{score } \boldsymbol{\phi}_j \; \text{at } t_0 \qquad \text{and evaluate outcomes at } t_0 + \Delta
+\tag{39}
+$$
+
+*Equation 40, Bespoke Distinct Failed Conditions of Four Templates.*
+The article asserts that the four contemporary templates each fail at a different condition.
+
+$$
+k^{\ast}_{\text{defense venture}} \neq k^{\ast}_{\text{failed governance}} \neq k^{\ast}_{\text{intelligence anchor}} \neq k^{\ast}_{\text{single funder}}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Score Range of the Four Templates.*
+The article records that each of the four templates satisfies between four and seven of the ten conditions.
+
+$$
+4 \; \leq \; \sum_k \phi_{j,k} \; \leq \; 7 \qquad \text{for } j \; \text{among the four templates}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Common Failure from an Absent Factor.*
+The article argues that one absent underlying factor extinguishes every condition that loads on it, so distinct failure points can share one cause.
+
+$$
+\theta_m \; \text{absent} \; \Longrightarrow \; \left\{ k : \partial h_k / \partial \theta_m \neq 0 \right\} \; \text{all fail together}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Base Rate of Regulatory Resolution.*
+The article asserts from the Standard Oil and telecommunications record that a dominant vertically integrated position more often ends by regulatory action than by competitive erosion.
+
+$$
+P\!\left( \text{resolution by regulatory action} \mid \text{dominant vertically integrated position} \right) \; \gg \; P\!\left( \text{resolution by competitive erosion} \right)
+\tag{43}
+$$
+
+*Equation 44, Bespoke Research Horizon Bounded by Rent Duration.*
+The article equates the research horizon of a corporate laboratory with the duration of the monopoly rent that funds it.
+
+$$
+T^{\text{research horizon}} \; \approx \; T^{\text{rent duration}}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Base Rate of Objective Preservation across Succession.*
+The article states that an objective is rarely preserved across founder succession without an ownership form that binds it.
+
+$$
+P\!\left( \text{objective preserved across founder succession} \mid \text{no ownership form binding it} \right) \; \text{is low on the historical record}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Conditional Projection Form.*
+The article states every projection as a function of the snapshot value and an explicit list of assumptions.
+
+$$
+X(2050) = f\!\left( X(2026), \; \text{assumptions } A_1 \ldots A_n \right)
+\tag{46}
+$$
+
+**Equation 47, Local Sensitivity to an Assumption.**
+The sensitivity to each assumption is the absolute partial derivative of the projected quantity with respect to it, and the article reports the assumption with the largest sensitivity.
+
+$$
+\sigma_i = \left| \frac{\partial X(2050)}{\partial A_i} \right| \qquad \text{with the reported assumption being} \qquad \arg\max_i \; \sigma_i
+\tag{47}
+$$
+
+*Equation 48, Bespoke Projection Horizon against Venture Age.*
+The article compares a projection horizon of twenty-four years with a venture age of about twenty-four years at the snapshot.
+
+$$
+T^{\text{projection}} = 24 \; \text{years} \; > \; T^{\text{venture age}} \approx 24 \; \text{years at the snapshot}
+\tag{48}
+$$
+
+**Equation 49, Learning Curve.**
+Unit cost falls as a power of cumulative output, with the learning exponent $\beta$ setting the rate.
+
+$$
+c_n = c_1 \cdot n^{-\beta}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Demand-Limited Launch Cadence.*
+The article assumes cadence saturates at a maximum set by internal and external demand rather than by capability.
+
+$$
+\dot{n}(t) \; \to \; \dot{n}^{\max} \qquad \text{with} \qquad \dot{n}^{\max} \; \text{set by} \; q^{\text{internal}} + q^{\text{external}}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Persistence of the Learning Exponent.*
+The article contrasts its assumption that the learning exponent survives a vehicle-family transition with a reset of cumulative experience at the transition.
+
+$$
+\beta^{\text{post-transition}} = \beta \quad \text{assumed} \qquad \text{against} \qquad n \to n_0 \; \text{reset at transition}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Durability of the Position.*
+The article bounds durability by the satellite lifetime over the competitor deployment time rather than treating it as unlimited.
+
+$$
+\text{durability} \; \sim \; \frac{L}{T^{\text{competitor deployment}}}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Condition for Captive Launch.*
+The article holds that captive launch is attainable only where one residual claimant spans launch and constellation.
+
+$$
+\text{captive launch attainable} \iff \text{common residual claimant over launch and constellation}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Vanishing External Requirement after Crossover.*
+The article concludes that the external capital requirement is zero once free cash contribution covers mission burn at every date after the crossover.
+
+$$
+R^{\text{free}}(t) \geq B(t) \quad \text{for all } t > t^{\ast} \qquad \Longrightarrow \qquad K^{\text{external}}(t) = 0
+\tag{54}
+$$
+
+*Equation 55, Bespoke Certainty of Succession before 2050.*
+The article treats a succession event before 2050 as nearly certain because the horizon exceeds any reasonable expectation of continuous individual involvement.
+
+$$
+P\!\left( \text{succession event occurs before } 2050 \right) \; \to \; 1
+\tag{55}
+$$
+
+*Equation 56, Bespoke Closure Failure on Loss of Governance.*
+Under the product form, the loss of the governance condition sets closure to zero whatever the other nine conditions.
+
+$$
+\phi^{\text{governance}} = 0 \; \Longrightarrow \; \Phi = 0
+\tag{56}
+$$
+
+*Equation 57, Bespoke Succession Paths and the Condition Each Surrenders.*
+Each succession path the article considers is paired with the condition of the configuration it would surrender, an assessment the article makes rather than a derived result.
+
+$$
+\begin{array}{lcl}
+\text{foundation ownership} & \Longrightarrow & \text{capital ownership surrendered} \\
+\text{dual-class inheritance} & \Longrightarrow & \text{successor commitment unresolved} \\
+\text{listing and dispersal} & \Longrightarrow & \text{governance condition surrendered}
+\end{array}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Ranking Score of a Failure Mode.*
+The article ranks each failure mode by its probability before 2050 times the number of conditions it removes.
+
+$$
+r_m = P\!\left( \text{event } m \; \text{before } 2050 \right) \; \times \; \left| \left\{ k : \phi_k \; \text{fails given } m \right\} \right|
+\tag{58}
+$$
+
+*Equation 59, Bespoke Ranking Score of the Succession Event.*
+The article gives the succession event a probability of one and a large count of removed conditions, which places it first.
+
+$$
+r_{\text{succession}} = 1 \times \left| \left\{ k : \phi_k \; \text{fails} \right\} \right| \; \text{with the second factor large}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Survival Condition during a Grounding.*
+The article holds that the runway is unbounded during a vehicle-family grounding so long as subscription revenue exceeds fixed cost.
+
+$$
+R^{\text{subscription}} \; > \; C^{\text{fixed}} \quad \text{during the grounding} \; \Longrightarrow \; T^{\text{runway}} \to \infty
+\tag{60}
+$$
+
+*Equation 61, Bespoke Observability of the Five Failure Modes.*
+The article distinguishes four failure modes with a datable event from the attention bottleneck, which has none.
+
+$$
+\text{modes one through four} \; : \; \exists \; \text{a datable event} \qquad \text{against} \qquad \text{mode five} \; : \; \nexists \; \text{a datable event}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Best Contemporary Score.*
+The article asserts that no venture other than the subject satisfies more than seven of the ten conditions.
+
+$$
+\max_{j \neq \text{subject}} \; \sum_{k=1}^{10} \phi_{j,k} \; \leq \; 7
+\tag{62}
+$$
+
+*Equation 63, Bespoke Selection Circularity of the Conditions.*
+The article notes that the conditions were selected so that the subject satisfies all of them.
+
+$$
+\left\{ \text{conditions} \right\} \; \text{selected such that} \; \boldsymbol{\phi}_{\text{subject}} = \mathbf{1}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Ten-Condition Closure Vector.*
+Each venture is scored as a binary vector over the seven forcing-function conditions and the three capital-formation legs.
+
+$$
+\boldsymbol{\phi}_j \in \{0,1\}^{10}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Column Means of the Scoring Matrix.*
+The column mean of each condition is its frequency across the scored ventures, and the article adds that governance and the realisation path have the two smallest means.
+
+$$
+\bar{\phi}_k = \frac{1}{|J|} \sum_{j \in J} \phi_{j,k} \qquad \text{with} \qquad \bar{\phi}_{\text{governance}}, \; \bar{\phi}_{\text{realization}} \; \text{the two smallest}
+\tag{65}
+$$
+
+*Equation 66, Bespoke Rarest Conditions in the Cross-Section.*
+The article states that the least frequently satisfied condition is governance or the realisation path.
+
+$$
+\arg\min_k \; \frac{1}{|J|} \sum_{j \in J} \phi_{j,k} \; \in \; \left\{ \text{governance}, \; \text{realization path} \right\}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Scoring Matrix of the Venture Set.*
+The article assembles the condition scores into a matrix in which the subject row sums to ten and every other row to at most seven.
+
+$$
+\Phi^{\text{matrix}} = \left[ \phi_{j,k} \right]_{j \in J, \; k = 1 \ldots 10} \qquad \text{with} \qquad \sum_k \phi_{\text{subject},k} = 10 \; \text{and} \; \sum_k \phi_{j,k} \leq 7 \; \text{otherwise}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Outcome Variation under a Fixed Founder.*
+The article answers the great-founder framing by noting that outcomes vary across ventures with the same founder.
+
+$$
+\text{outcome}_v \; \text{varies across ventures } v \; \text{with the same founder}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Declining Government Share of Burn.*
+The article asserts that government capital was a large share of the burn before 2009 and a declining share afterward.
+
+$$
+\frac{K^{\text{government}}(t)}{B(t)} \; \text{large for } t < 2009 \qquad \text{and} \qquad \text{declining thereafter}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Reversal Date of the State-Capacity Framing.*
+The article defines the reversal date as the first date at which firm investment ahead of the government requirement outweighs the reverse.
+
+$$
+t^{\text{reversal}} = \inf \left\{ t \; : \; \text{firm investment ahead of requirement} \; > \; \text{requirement ahead of investment} \right\}
+\tag{70}
+$$
+
+*Equation 71, Bespoke Strong Form of the Luck Framing.*
+The article states the strong luck framing as independence of outcome from the condition vector.
+
+$$
+P\!\left( \text{outcome} \mid \boldsymbol{\phi} \right) = P\!\left( \text{outcome} \right)
+\tag{71}
+$$
+
+*Equation 72, Bespoke Survivorship Hazard.*
+The article notes that the near certainty of the conditions given survival leaves the reverse conditional probability unidentified.
+
+$$
+P\!\left( \boldsymbol{\phi} = \mathbf{1} \mid \text{survived} \right) \approx 1 \qquad \text{while} \qquad P\!\left( \text{survived} \mid \boldsymbol{\phi} = \mathbf{1} \right) \; \text{remains unidentified}
+\tag{72}
+$$
+
+*Equation 73, Bespoke Four Underlying Properties.*
+The article names the four underlying properties as a mission-directed objective, a control configuration, a forced general capability and government access.
+
+$$
+\boldsymbol{\phi} = H\!\left( \boldsymbol{\theta} \right) \qquad \text{with} \qquad \boldsymbol{\theta} = \left( \text{objective}, \; \text{control}, \; \text{general capability}, \; \text{government access} \right)
+\tag{73}
+$$
+
+*Equation 74, Bespoke Attainment and Holding against the Product.*
+The article restates that attaining the configuration is more probable and holding it less probable than the product of the marginals.
+
+$$
+P\!\left( \text{attain} \right) > \prod_k P\!\left( \phi_k \right) \qquad \text{and} \qquad P\!\left( \text{hold} \right) < \prod_k P\!\left( \phi_k \right)
+\tag{74}
+$$
+
+*Equation 75, Bespoke Non-Durability under Succession.*
+The article holds that the probability that every condition holds tends to zero as the succession date approaches.
+
+$$
+P\!\left( \boldsymbol{\phi} = \mathbf{1} \; \text{at } t \right) \; \to \; 0 \qquad \text{as} \qquad t \to t^{\text{succession}}
+\tag{75}
+$$
+
+### Notation
+
+- $\phi_k$, the indicator that condition $k$ holds, with $\phi_{j,k}$ its value for venture $j$
+- $\Phi$, the closure indicator, the product of the ten condition indicators
+- $\mathcal{C}_k$, the set of contemporary ventures satisfying condition $k$
+- $\boldsymbol{\phi}_j$, the closure vector of venture $j$
+- $k^{\ast}$, the condition a case fails, the minimising index of its score
+- $K^{\text{external}}$, the external capital requirement
+- $B(t)$, the mission-directed burn
+- $K^{\text{government}}$, the government capital supplied
+- $\boldsymbol{\theta}$, the vector of underlying properties, with components $\theta_m$
+- $h_k$, the map from the underlying properties to condition $k$, with $H$ the map for the whole vector
+- $q$, the probability that one underlying factor is satisfied, unrelated to the launch capacities of the companion article
+- $Z$, a common adverse shock
+- $\alpha_k$, the loading of condition $k$ on the common shock
+- $\varepsilon_k$, the idiosyncratic noise on condition $k$
+- $\kappa_k$, the failure threshold of condition $k$
+- $\bar{\rho}$, the mean correlation among line failures
+- $d_i$, the decision load that business line $i$ imposes
+- $D^{\max}$, the decision capacity of a single decision-maker
+- $t^{\text{sat}}$, the saturation date of the attention constraint
+- $d^{\text{effective}}$, the effective number of underlying properties, written $d$ in the factor approximation
+- $X(2050)$, a projected quantity in 2050
+- $A_i$, the $i$th assumption of a projection
+- $\sigma_i$, the sensitivity of a projection to assumption $A_i$
+- $c_n$, the cost at cumulative flight $n$
+- $\beta$, the learning exponent
+- $\dot{n}^{\max}$, the saturated launch cadence
+- $R^{\text{free}}(t)$, the free cash contribution of the commercial spinoff
+- $t^{\ast}$, the mission-funding crossover date
+- $L$, the operational lifetime of a satellite
+- $r_m$, the ranking score of failure mode $m$
+- $\bar{\phi}_k$, the frequency with which condition $k$ holds across the venture set $J$
 
 ## References
 

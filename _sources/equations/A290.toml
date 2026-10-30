@@ -1,0 +1,690 @@
+caution = "Horizons are in years and capital and valuations in nominal dollars, most relations are qualitative formalisations of an argument rather than estimated quantities, and every indicator takes the value zero or one."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Duration Mismatch between Mission and Fund"
+gloss = "The article states its central problem as a mission horizon measured in decades that greatly exceeds the contractual life of a venture fund of about ten years."
+digest = "c1ee70a392ad9c3c"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Three Resolutions of the Duration Mismatch"
+gloss = "The article reduces the resolution of the mismatch to a disjunction of three forms, a longer fund, a vehicle without a fund life and a realisation path independent of exit."
+digest = "a3a9c6ebdf41baaf"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Counterfactual Differential of Patient Capital"
+gloss = "The attribution to patient private capital is defined as the observed trajectory less a counterfactual in which the same capital arrived on ordinary terms with an ordinary exit expectation."
+digest = "77ec56f64ad6b138"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Decomposition of the Financing Effect"
+gloss = "The article splits the total financing effect into a supply component and a terms component and confines its analysis to the second."
+digest = "b4cb368e7b26c528"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Compensation of a General Partner"
+gloss = "The general partner earns a management fee on committed capital over the fund life plus a carried interest on aggregate realised gains, so that unrealised appreciation pays nothing."
+cite = ["book_metrick_yasuda_2011"]
+digest = "740827411d25b6f8"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Condition for Achievable Patience"
+gloss = "The article makes patience conditional solely on the existence of a realisation path that does not require a liquidity event of the company."
+digest = "40393cd4be35b3cf"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Total Value to Paid-In Capital"
+gloss = "The total value to paid-in capital multiple adds the carrying values of unrealised positions to distributions and divides by drawn capital, so it can rise without any realisation."
+cite = ["book_metrick_yasuda_2011"]
+digest = "0ccf514459436cc7"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Present Value of Carried Interest"
+gloss = "Discounting the expected carry at the rate of the general partner shows that its value falls with the realisation horizon even when the terminal amount is certain."
+digest = "94adc0dd0a976e62"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Duration-Matching Condition"
+gloss = "The article requires the life of each supplying vehicle to be at least the holding period the venture requires, a condition that a vehicle without a stated life satisfies trivially."
+digest = "40da33348a42ceaa"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Remaining Life of a Supplying Vehicle"
+gloss = "The remaining life is the stated vehicle life less the time elapsed since inception, so it declines at unit rate."
+digest = "3bd72053475f4cd7"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Founder Equity after Successive Dilutions"
+gloss = "Each round that dilutes by a fraction multiplies the founder share by one minus that fraction, so the terminal share is the initial share times the product over rounds."
+cite = ["related_post_a287_spacex_governance"]
+digest = "e0316dd855b75b6f"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Effective Commitment under Staged Financing"
+gloss = "The article treats staging as shrinking the effective commitment to the interval before the next decision at which continuation may be declined, far short of the required holding period."
+digest = "db5cc061e6fe5396"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Contrast of Debt and Equity Claims"
+gloss = "The article contrasts a debt obligation fixed in amount and date with a residual and undated equity claim, the distinction on which the Iridium counter-example turns."
+digest = "24b9d318ab1e38e2"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Expansion of the Private Capital Supply"
+gloss = "The article states as a qualitative inequality that the private capital available late in the period greatly exceeded that available at its start."
+digest = "dfa71b4aa62ec14a"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Asymmetry of Outside Options across Rounds"
+gloss = "The article writes the negotiated founder share as a function of the two disagreement payoffs and assumes that the founder payoff rose across rounds while the investor payoff stayed nearly flat."
+digest = "a7da6282dd8ef672"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Staged Investment with an Abandonment Option"
+gloss = "The value of the participation right at each stage is the larger of zero and the conditional expected value of the next stage less the capital it requires, the standard recursion for an option to abandon."
+cite = ["book_dixit_pindyck_1994"]
+digest = "824946556083b59a"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Institutionally Contingent Horizon Norm"
+gloss = "The article contrasts a horizon norm that depends on prevailing institutional practice with the constant norm it attributes to the commentary."
+digest = "10fc5b1389052b2a"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Comparative Statics of Escalation and Reassessment"
+gloss = "The article distinguishes escalation of commitment from reassessment by the response of the reinvestment probability to an adverse signal, near zero under the first and negative under the second."
+digest = "82096e2c28ba48f6"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Counterparty Density Condition"
+gloss = "The article requires a minimum number of informed counterparties for a transfer market to function, a threshold it states without estimating."
+digest = "f52b3cbb07dc2af1"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Decomposition of the Venture Fund Term"
+gloss = "The fund term is the sum of an investment period and a harvest period of about five years each, with extensions of up to two years."
+cite = ["book_metrick_yasuda_2011"]
+digest = "a413499dd916217a"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Sensitivity of General Partner Compensation to Realisation"
+gloss = "Differentiating the compensation of the general partner shows it insensitive to unrealised value and rising at the carry rate with realised value."
+digest = "a38709a52185aee7"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Distributions to Paid-In Capital"
+gloss = "The distributions to paid-in capital ratio divides the cash distributed to limited partners by the capital drawn and ignores unrealised value."
+cite = ["book_metrick_yasuda_2011"]
+digest = "2c64594fd03b844e"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Binding Realisation Clock"
+gloss = "The article identifies the binding clock as the shorter of the fund term and the successor fundraising cycle and places the cycle at three to four years."
+digest = "0fe86d17e198b36e"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Required Holding Period"
+gloss = "The article bounds the holding period for a position taken in 2008 below by eighteen years, the interval to the drafting date against a mission not yet complete."
+digest = "88cc0efb216d81eb"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Mismatch Ratios"
+gloss = "The article defines two mismatch ratios, the holding period over the fund term and over the fundraising cycle, and evaluates them at about two and five."
+digest = "ee5edc620f35f33d"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Cash Runway"
+gloss = "The runway is the cash on hand divided by the rate at which cash is spent."
+digest = "4d01bd910413da35"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Objectives of the Investor in Setting Terms"
+gloss = "The article contrasts terms chosen to maximise the value captured in one transaction with terms chosen to maximise deal flow across future transactions."
+digest = "fe65b0d8ef5270f3"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Condition for Reputational Terms to Pay"
+gloss = "The article holds that founder-favourable terms repay their present cost when the probability-weighted gains from future transactions that the reputation secures exceed that cost."
+digest = "742e4f7b05d67c0d"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Reduction of the Private Discount Rate by the Award"
+gloss = "The article asserts that the government award of December 2008 lowered the discount rate that private investors applied, acting as a credit enhancement supplied by a third party."
+digest = "b1de6301d316e386"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Two-Mode Failure Probability"
+gloss = "The article treats failure as the union of independent technical and market failure modes, so that the award lowers the overall probability by reducing the market term."
+digest = "d56437b67adae94d"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Implied Valuation of the 2015 Round"
+gloss = "Dividing the capital raised by the fraction of the firm sold gives a post-money valuation of ten billion dollars and a pre-money valuation of nine billion, short of the twelve billion the trade press reported."
+digest = "9096fd6f2ea91b64"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Duration Condition for an Unlimited Vehicle Life"
+gloss = "Under the duration-matching condition the article defines, a vehicle with no stated term satisfies the condition for every required holding period."
+digest = "ac09d87500a7a1b6"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Weighted Average Vehicle Life"
+gloss = "The article summarises the investor base by a holding-weighted average vehicle life and asserts that the average rose as the base broadened."
+digest = "df978d2f3e830d5a"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Binding Remaining Life"
+gloss = "The article takes the earliest remaining term across the holders, not the average, as the quantity that governs the pressure to realise."
+digest = "8f23651140210f31"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Step-Up between Consecutive Rounds"
+gloss = "The step-up is the ratio of one round valuation to the preceding one, less one."
+digest = "63211c77985b27df"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Cumulative Valuation Multiple from 2015"
+gloss = "The cumulative multiple is the product of one plus each step-up, about twenty-nine across roughly ten rounds and ten years on the reconstructed figures."
+digest = "e84cbf7fd29bc644"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Implied Annualised Growth Rate"
+gloss = "The compound annual rate is the cumulative multiple raised to the reciprocal of the elapsed years, less one, which gives about forty percent a year."
+digest = "33c40e9454bc1cef"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Maximum Wait for a Tender Occasion"
+gloss = "A holder reaching its term waits at most the reciprocal of the tender frequency, which is six months at two tenders a year."
+digest = "f5d75c59d8641e56"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Three Channels Satisfied by a Tender"
+gloss = "The article states that a tender satisfies the contractual, compensatory and reputational channels at once, since wind-up is met, carry is triggered and the distributions ratio rises."
+digest = "967eb87cedf6c350"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Tender Clearing Condition"
+gloss = "At each occasion the shares that sellers offer must not exceed the demand of incoming buyers at the price the issuer sets."
+digest = "8b9421e2f602248d"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Independence of Realisation from Exit"
+gloss = "The article states the effect of the tender mechanism as the independence of realisation by a holder from any exit by the company."
+digest = "866a399380db2893"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Availability Condition for the Tender"
+gloss = "The article requires a buyer at each tender at a price above the previous one, so that the mechanism depends on continuing improvement in prospects."
+digest = "a442b0d5bcf0eafc"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke State Dependence of Tender Availability"
+gloss = "The article equates the availability of the mechanism with the indicator that expected value is rising, which makes the mechanism unavailable in adverse states."
+digest = "ce50cb33accb4e8f"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Ordering of Vehicle Lives by Investor Class"
+gloss = "The article orders investor classes by vehicle life from closed-end venture funds to holders with no stated term."
+digest = "4fd30d8356fc2b35"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Herfindahl-Hirschman Concentration Index"
+gloss = "The index is the sum of squared holding shares, equal to one for a single holder and falling as the base disperses."
+digest = "b64b5f1e63106156"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Coalition Cost of a Dispersed Base"
+gloss = "The article takes the coordination cost to scale with the number of holders needed for a blocking position, a number that grows as concentration falls."
+digest = "29909d7d1bda8814"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Path-Dependent Round Dilution"
+gloss = "Round dilution is the capital raised over the post-money value, and the article adds the assumption that the pre-money value depends on the progress that earlier capital permitted."
+digest = "04fbe9b83052f296"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Sensitivity of Terminal Founder Share to One Round"
+gloss = "Differentiating the dilution product with respect to one round gives minus the terminal share divided by one less the dilution of that round."
+digest = "e16ff3498488e336"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Founder Share with Rounds Displaced by Non-Dilutive Capital"
+gloss = "The article removes from the dilution product the rounds that government capital displaced and assumes those rounds lay at the low-valuation end of the sequence."
+digest = "931fdc0e7fdcff59"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Default Condition for a Debt Claim"
+gloss = "A debt-financed venture defaults when the cash available falls short of the contractually scheduled obligation, whatever its operating condition."
+digest = "6e3008fed5293a2e"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Sensitivity of Failure to Delay by Financing Structure"
+gloss = "The article asserts that a schedule delay raises the failure probability far more under debt than under equity, because debt converts delay into a missed payment."
+digest = "f7c34e4a24054125"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Determinants of Patience"
+gloss = "The article makes patience a function of claim type, vehicle life and realisation path, with the quantity of capital absent."
+digest = "929f6b8ece85fd68"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Distinction of Stated, Contractual and Revealed Horizons"
+gloss = "The article distinguishes three horizons, of which only the revealed one is observable after the fact."
+digest = "f57caf66353aecb3"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Terminal Probability on the Withdrawal of a Holder"
+gloss = "The article sets the probability that the withdrawal of one holder is terminal near zero where a secondary market exists and near one otherwise."
+digest = "dc01163e18388c3b"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Concentration Contrast of OneWeb and SpaceX"
+gloss = "The article asserts a concentration index near one for OneWeb and far below one for SpaceX, although it states that the index is not observable from disclosed holdings."
+digest = "fc117450b646cbe9"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Liquidation Waterfall for Common Holders"
+gloss = "Common holders receive the exit value less the accumulated liquidation preferences, each a multiple of the capital in its round, and nothing when the preferences exceed that value."
+digest = "7aa20577f4e16469"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke State-Contingent Claim-Type Indicator"
+gloss = "The article makes the first sub-property an indicator that depends on the state and holds that it falls toward zero in the adverse state."
+digest = "ed063d8dc4d4cd72"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Correlated Failure of Sub-Properties"
+gloss = "The article argues that positive correlation among the sub-property indicators makes their product overstate the joint survival probability."
+digest = "b2f13ddf9f4afd36"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Scarcity of Functioning Secondary Markets"
+gloss = "The article asserts that ventures with a functioning secondary market are few relative to the category."
+digest = "aeff0b8563944ee2"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Joint Probability of the Three Conditions"
+gloss = "The article factors the joint probability into a realisation-path term and two conditional terms and argues that the conjunction is far rarer than its first term."
+digest = "95b1e3ada1c75ac3"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Set of Resolutions of the Fund-Life Constraint"
+gloss = "The article enumerates four resolutions, of which only the recurring private tender preserves the private configuration."
+digest = "db13e263a87c7fa0"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Distinction of Funding and Success Probabilities"
+gloss = "The article separates the probability that a venture is funded given the thesis from the probability that a funded venture succeeds."
+digest = "6e4a7010b1d556e0"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Contrast of Voyage and Permanent Joint-Stock Ventures"
+gloss = "The article contrasts a voyage-terminated venture, in which realisation is exit, with the permanent joint-stock company, in which the two are independent."
+digest = "47c2e1a81c8cb6fc"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Refinancing Consequence of a Long Construction Period"
+gloss = "The article argues that a construction period far exceeding the subscriber horizon forces refinancing at intervals of that horizon."
+digest = "c9d00c909ffd3bff"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Design Point of the Venture Form"
+gloss = "The article places the design horizon of the venture form at three to seven years against a required holding period above eighteen years."
+digest = "f277ae61a2de3081"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Single-Funder Configuration"
+gloss = "The article characterises the Blue Origin configuration as an unlimited vehicle life with no dilution, purchased at a concentration index of one."
+digest = "12cf5dccb8b81f41"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Survival across Successive Rounds"
+gloss = "The article treats the closing of each round as an independent trial, so the survival probability is the product of one minus the failure probability of each round."
+digest = "577070fbe1021025"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Closure Vector of the Patient-Private Leg"
+gloss = "Each venture is scored as a binary vector over the five sub-properties the article defines."
+digest = "9859e81c24f5cc29"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Scoring Matrix of the Patient-Private Leg"
+gloss = "Each venture is scored on the five sub-properties the article defines, with a dagger for a sub-property the configuration renders inapplicable and an asterisk for a cell the record does not establish."
+digest = "24348562a75cb3be"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Discriminating Power of the Realisation Path"
+gloss = "The article asserts that the realisation-path indicator correlates with survival more strongly than the vehicle-duration indicator, a claim drawn from five cases."
+digest = "380b55d4958df62d"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Conjunction of Willingness and Capacity"
+gloss = "The article writes observed patience as the conjunction of willingness, which the conviction framing supplies, and capacity, which the structural framing supplies."
+digest = "c3afac850f57e3ed"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Undetermined Comparison of Limited-Partner Welfare"
+gloss = "The article states without resolving whether limited partners are better off in expectation with a tender available or with wind-up enforced."
+digest = "371f2718b42dfb8a"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Issuer-Set Tender Price"
+gloss = "The article models the tender price as chosen by the issuer from the set of prices at which buyer demand covers the shares offered."
+digest = "3ec1ae25b2909296"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Survivorship Hazard"
+gloss = "The article notes that observing the mechanism in nearly every survivor leaves the reverse conditional probability unidentified."
+digest = "4ef73a908712390d"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Conjunctive Patient-Private Mechanic"
+gloss = "The article writes the mechanic as the product of five binary sub-property indicators, a form that carries an independence assumption the article later rejects."
+digest = "22740611449daa4d"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Diagnostic Test Vector"
+gloss = "The article orders five tests, a residual claim, a sufficient vehicle life, realisation independent of exit, a dispersed base and a founder voting majority."
+digest = "a29124ff773e2fb2"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke State-Contingent Realisation Test"
+gloss = "The article makes the third test an indicator of rising expected value rather than a constant."
+digest = "5a2c4c3a70f77771"
+
+[[symbol]]
+tex = 'T^{\text{mission}}'
+meaning = "the horizon over which the mission is pursued"
+
+[[symbol]]
+tex = 'T^{\text{fund}}'
+meaning = "the contractual life of a venture fund"
+
+[[symbol]]
+tex = 'T^{\text{vehicle}}'
+meaning = "the life of a supplying vehicle, unbounded for a balance sheet or an open-ended vehicle"
+
+[[symbol]]
+tex = 'T^{\text{holding required}}'
+meaning = "the holding period the venture requires, written $T^{\\text{holding}}$ where it is evaluated"
+
+[[symbol]]
+tex = 'T^{\text{remaining}}_i(t)'
+meaning = "the remaining life at time $t$ of the vehicle of holder $i$"
+
+[[symbol]]
+tex = '\Delta^{\text{fundraise cycle}}'
+meaning = "the interval between successor fundraises of a general partner"
+
+[[symbol]]
+tex = '\Pi^{\text{GP}}'
+meaning = "the compensation of the general partner"
+
+[[symbol]]
+tex = 'f'
+meaning = "the management-fee rate"
+
+[[symbol]]
+tex = 'c'
+meaning = "the carry rate"
+
+[[symbol]]
+tex = 'K^{\text{committed}}'
+meaning = "the capital committed to a fund, with $K^{\\text{drawn}}$ the capital drawn"
+
+[[symbol]]
+tex = 'V^{\text{realized}}_i'
+meaning = "the realised value of position $i$, against its cost $K_i$"
+
+[[symbol]]
+tex = 'r^{\text{GP}}'
+meaning = "the discount rate of the general partner"
+
+[[symbol]]
+tex = 'e^{\text{founder}}_N'
+meaning = "the founder equity share after $N$ rounds, with $e^{\\text{founder}}_0$ the initial share"
+
+[[symbol]]
+tex = '\delta_n'
+meaning = "the fractional dilution of round $n$"
+
+[[symbol]]
+tex = 'k_n'
+meaning = "the capital raised or required at round or stage $n$"
+
+[[symbol]]
+tex = 'V_n'
+meaning = "the valuation at round $n$"
+
+[[symbol]]
+tex = 'W_n'
+meaning = "the value of the participation right at stage $n$"
+
+[[symbol]]
+tex = '\mathcal{F}_n'
+meaning = "the information available at the decision of stage $n$"
+
+[[symbol]]
+tex = '\sigma^{\text{founder}}_n'
+meaning = "the negotiated founder share at round $n$"
+
+[[symbol]]
+tex = '\pi_m'
+meaning = "the probability that reputation secures a future transaction $m$"
+
+[[symbol]]
+tex = 'p^{\text{technical}}'
+meaning = "the probability of technical failure, with $p^{\\text{market}}$ that of market failure"
+
+[[symbol]]
+tex = 'g_n'
+meaning = "the valuation step-up of round $n$, with $\\bar{g}$ the annualised rate"
+
+[[symbol]]
+tex = 'f^{\text{tender}}'
+meaning = "the frequency of tender offers"
+
+[[symbol]]
+tex = 'q_i'
+meaning = "the shares holder $i$ seeks to sell at a tender"
+
+[[symbol]]
+tex = 'd_j'
+meaning = "the demand incoming buyer $j$ brings at the set price"
+
+[[symbol]]
+tex = 'P_t'
+meaning = "the tender price at occasion $t$"
+
+[[symbol]]
+tex = '\mathcal{S}_t'
+meaning = "the set of holders seeking to sell at occasion $t$, with $\\mathcal{B}_t$ the set of incoming buyers"
+
+[[symbol]]
+tex = 'H_t'
+meaning = "the Herfindahl-Hirschman concentration index of the holder base"
+
+[[symbol]]
+tex = 's_{i,t}'
+meaning = "the holding of investor $i$ at time $t$"
+
+[[symbol]]
+tex = '\mathcal{D}'
+meaning = "the set of rounds displaced by non-dilutive capital"
+
+[[symbol]]
+tex = 'D_t'
+meaning = "the contractually scheduled debt obligation at time $t$"
+
+[[symbol]]
+tex = '\pi_n'
+meaning = "the liquidation preference multiple of round $n$"
+
+[[symbol]]
+tex = 'q_n'
+meaning = "the probability that round $n$ fails to close"
+
+[[symbol]]
+tex = '\phi_k'
+meaning = "the closure indicator for sub-property $k$"
+
+[[symbol]]
+tex = '\Phi^{\text{patient-private}}'
+meaning = "the closure indicator of the patient-private mechanic"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the ordered diagnostic test vector, with $\\tau_3$ its third component"

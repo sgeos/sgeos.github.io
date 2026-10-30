@@ -23,33 +23,51 @@ The problem permits several formalizations. The portfolio-selection tradition fr
 
 The general form of the problem can be stated compactly. Let $\mathcal{L} = \{1, \ldots, L\}$ index the lines and let $R_\ell(t)$ denote the return of the line $\ell$ at time $t$. The portfolio return may be written
 
-$$R^{\text{portfolio}}(t) = \sum_{\ell \in \mathcal{L}} w_\ell(t) \, R_\ell(t) \qquad \text{with} \qquad \sum_{\ell} w_\ell(t) = 1$$
+$$
+R^{\text{portfolio}}(t) = \sum_{\ell \in \mathcal{L}} w_\ell(t) \, R_\ell(t) \qquad \text{with} \qquad \sum_{\ell} w_\ell(t) = 1
+\tag{1}
+$$
 
 and the portfolio variance admits the standard form
 
-$$\sigma^2_{\text{portfolio}} = \sum_{\ell} \sum_{m} w_\ell w_m \, \rho_{\ell m} \, \sigma_\ell \sigma_m$$
+$$
+\sigma^2_{\text{portfolio}} = \sum_{\ell} \sum_{m} w_\ell w_m \, \rho_{\ell m} \, \sigma_\ell \sigma_m
+\tag{2}
+$$
 
 with $\rho_{\ell m}$ the correlation between the lines $\ell$ and $m$. The variance falls below the weighted average of the line variances whenever the correlations are less than unity, which is the elementary result on which the entire condition rests and which is also the result whose applicability to this case is least obvious.
 
 The quantity the condition actually concerns is not the variance. A mission-directed venture is not indifferent between a distribution with a given variance and a distribution with the same variance shifted so that a portion of its mass lies below the point at which the venture ceases to operate. The relevant object is the ruin probability
 
-$$P^{\text{ruin}}(T) = P\!\left( \exists \, t \leq T \; : \; C(t) \leq 0 \right)$$
+$$
+P^{\text{ruin}}(T) = P\!\left( \exists \, t \leq T \; : \; C(t) \leq 0 \right)
+\tag{3}
+$$
 
 with $C(t)$ the cash position and the event being the first passage below zero. The distinction between variance reduction and ruin-probability reduction is the analytical hinge of this article, because the two objectives recommend different portfolios and because substantially the entire corporate-diversification literature evaluates the former.
 
 The relationship between the portfolio composition and the ruin probability takes the compact statement that for a portfolio of lines with independent failure events,
 
-$$P^{\text{ruin}}_{\text{portfolio}} \approx \prod_{\ell \in \mathcal{L}} P^{\text{failure}}_\ell \qquad \text{against} \qquad P^{\text{ruin}}_{\text{single bet}} = P^{\text{failure}}_1$$
+$$
+P^{\text{ruin}}_{\text{portfolio}} \approx \prod_{\ell \in \mathcal{L}} P^{\text{failure}}_\ell \qquad \text{against} \qquad P^{\text{ruin}}_{\text{single bet}} = P^{\text{failure}}_1
+\tag{4}
+$$
 
 with the product falling rapidly in the line count when the failures are independent and collapsing to the single-bet expression when they are perfectly correlated. The general object the analysis requires is therefore the full correlation matrix
 
-$$\boldsymbol{\rho} = \left[ \rho_{\ell m} \right]_{\ell, m \in \mathcal{L}}$$
+$$
+\boldsymbol{\rho} = \left[ \rho_{\ell m} \right]_{\ell, m \in \mathcal{L}}
+\tag{5}
+$$
 
 , not any summary of it, because the ruin probability depends on the joint distribution of the adverse events and not on their marginal probabilities. The empirical question for the SpaceX case is where between the two extremes the realized correlation structure lies, and the answer the article develops is that it lies substantially closer to the correlated extreme than the line count alone would suggest, because the lines share a launch vehicle.
 
 The identification problem is that the counterfactual is unobservable in the same way it was for the governance condition. The counterfactual differential has the concise form
 
-$$\Delta V^{\text{portfolio}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{single-line counterfactual}}_i(t)$$
+$$
+\Delta V^{\text{portfolio}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{single-line counterfactual}}_i(t)
+\tag{6}
+$$
 
 with the attribution equal to the difference between the observed trajectory and the counterfactual in which the firm pursued the mission through a single line. The counterfactual specifications the article treats include a launch-services-only counterfactual, a constellation-only counterfactual of the kind the Iridium case realizes, and a Starship-only counterfactual in which the firm forgoes the revenue-bearing lines entirely.
 
@@ -79,43 +97,67 @@ The property has two components that the name joins and that are analytically se
 
 The patience component permits formalization through the horizon over which the venture evaluates a line. Let $\tau_\ell$ denote the interval the venture will sustain the line $\ell$ before requiring a positive return, and let $\tau^{\ast}\_\ell$ denote the interval the line in fact requires. The patience condition is
 
-$$\tau_\ell \geq \tau^{\ast}_\ell \qquad \forall \ell \in \mathcal{L}$$
+$$
+\tau_\ell \geq \tau^{\ast}_\ell \qquad \forall \ell \in \mathcal{L}
+\tag{7}
+$$
 
 and the condition fails for a venture whose evaluation horizon is set by an external party with a shorter horizon. The patience allows equivalent expression as a discount rate and not as a horizon, through the correspondence
 
-$$\tau_\ell \; \longleftrightarrow \; \rho_\ell \qquad \text{with} \qquad \frac{\partial \tau_\ell}{\partial \rho_\ell} < 0$$
+$$
+\tau_\ell \; \longleftrightarrow \; \rho_\ell \qquad \text{with} \qquad \frac{\partial \tau_\ell}{\partial \rho_\ell} < 0
+\tag{8}
+$$
 
 with a lower discount rate and a longer tolerated horizon being two descriptions of the same underlying parameter. The formulation is useful because it connects the patience component directly to the horizon divergence between controller and investor that the [Governance article A287][related_post_a287_spacex_governance] formalizes. The connection to the [Governance article A287][related_post_a287_spacex_governance] is direct and is the reason the two conditions are adjacent in the framework. The governance configuration is what permits $\tau_\ell$ to be set by the controller, not by the capital market, and without it the patience component cannot be satisfied whatever the portfolio composition.
 
 The portfolio component supports formalization through the effective line count. A portfolio of $L$ lines with pairwise correlation $\rho$ behaves for variance purposes like a portfolio of
 
-$$L^{\text{effective}} = \frac{L}{1 + (L-1)\rho}$$
+$$
+L^{\text{effective}} = \frac{L}{1 + (L-1)\rho}
+\tag{9}
+$$
 
 independent lines, which equals $L$ when $\rho = 0$ and collapses to unity when $\rho = 1$ irrespective of the nominal count. The expression is the reason a nominal portfolio of five lines may supply substantially less protection than the count suggests, and it is the quantity the article attempts to estimate for the SpaceX case.
 
 The asymmetry between variance and ruin deserves formal statement. Under a standard mean-variance objective the venture maximizes
 
-$$U = E\!\left[ R^{\text{portfolio}} \right] - \tfrac{\gamma}{2} \sigma^2_{\text{portfolio}}$$
+$$
+U = E\!\left[ R^{\text{portfolio}} \right] - \tfrac{\gamma}{2} \sigma^2_{\text{portfolio}}
+\tag{10}
+$$
 
 and under a survival objective it maximizes
 
-$$U^{\text{survival}} = P\!\left( \text{reach } M \right) = 1 - P^{\text{ruin}}(T^{\text{mission}})$$
+$$
+U^{\text{survival}} = P\!\left( \text{reach } M \right) = 1 - P^{\text{ruin}}(T^{\text{mission}})
+\tag{11}
+$$
 
 with the two objectives coinciding only under restrictive distributional assumptions. The survival objective is indifferent to upside variance entirely and is concerned exclusively with the left tail, which recommends a portfolio weighted toward lines whose returns are positive in the states where the other lines fail and not toward lines with high expected returns.
 
 The cross-subsidization flow admits the compact definition
 
-$$f_{\ell \to m}(t) = \text{capital directed from line } \ell \text{ to line } m \text{ at } t$$
+$$
+f_{\ell \to m}(t) = \text{capital directed from line } \ell \text{ to line } m \text{ at } t
+\tag{12}
+$$
 
 with the net position of the line $\ell$ given by
 
-$$n_\ell(t) = \sum_{m} f_{m \to \ell}(t) - \sum_{m} f_{\ell \to m}(t)$$
+$$
+n_\ell(t) = \sum_{m} f_{m \to \ell}(t) - \sum_{m} f_{\ell \to m}(t)
+\tag{13}
+$$
 
 and a line exhibiting persistently negative $n_\ell$ constituting a source and a line exhibiting persistently positive $n_\ell$ constituting a sink. The mission-directed configuration is characterized by the pattern in which the revenue-bearing lines are sources and the mission-critical line is the dominant sink.
 
 The capability-base identity distinguishes the configuration from a conglomerate. Let $K_\ell$ denote the capability set the line $\ell$ requires. The configuration is a generated portfolio when
 
-$$\bigcap_{\ell \in \mathcal{L}} K_\ell \neq \varnothing \qquad \text{and} \qquad \left| \bigcap_{\ell} K_\ell \right| \big/ \left| \bigcup_{\ell} K_\ell \right| \gg 0$$
+$$
+\bigcap_{\ell \in \mathcal{L}} K_\ell \neq \varnothing \qquad \text{and} \qquad \left| \bigcap_{\ell} K_\ell \right| \big/ \left| \bigcup_{\ell} K_\ell \right| \gg 0
+\tag{14}
+$$
 
 with a substantial fraction of the total capability shared across every line, and it is an assembled portfolio when the intersection is empty. The distinction is the whole of the response to the conglomerate-discount objection, and the quantity in the second expression is the one the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] establishes is large for this case.
 
@@ -125,49 +167,73 @@ The portfolio-patience property admits characterization from several disciplinar
 
 The portfolio-selection tradition traces from [Markowitz 1952][research_markowitz_1952] and [Markowitz 1959][book_markowitz_1959] Portfolio Selection through [Sharpe 1964][research_sharpe_1964] and [Lintner 1965][research_lintner_1965]. The framing provides the mean-variance apparatus and gives equally the reason that apparatus is a poor fit for the case. The efficiency criterion the tradition offers takes the form
 
-$$S = \frac{E\!\left[R^{\text{portfolio}}\right] - r_f}{\sigma_{\text{portfolio}}}$$
+$$
+S = \frac{E\!\left[R^{\text{portfolio}}\right] - r_f}{\sigma_{\text{portfolio}}}
+\tag{15}
+$$
 
 with the ratio maximized along the efficient frontier. The criterion is the one the article argues is inapplicable, because a venture that reaches its mission with a low ratio has succeeded and one that fails to reach it with a high ratio has not. The theory assumes an investor who can hold a fractional position in every asset and who is compensated only for non-diversifiable risk. A mission-directed venture holds an indivisible position in an undertaking it cannot sell, and the risk it most needs to reduce is precisely the idiosyncratic risk the theory says the market does not compensate.
 
 The corporate-diversification tradition traces from [Lewellen 1971][research_lewellen_1971] through [Amihud and Lev 1981][research_amihud_lev_1981], [Lang and Stulz 1994][research_lang_stulz_1994] Tobin's q Corporate Diversification and Firm Performance, [Berger and Ofek 1995][research_berger_ofek_1995], [Montgomery 1994][research_montgomery_1994], [Rajan et al. 2000][research_rajan_servaes_zingales_2000], and [Villalonga 2000][research_villalonga_2004] Does Diversification Cause the Diversification Discount. The framing returns the finding that diversified firms trade at a discount to the sum of their parts, and it gives the two standard explanations comprising the investor's ability to diversify more cheaply and the misallocation internal capital markets produce. The excess-value measure the tradition constructs can be written as
 
-$$EV = \ln\!\left( \frac{V^{\text{observed}}}{\sum_\ell m_\ell \cdot A_\ell} \right)$$
+$$
+EV = \ln\!\left( \frac{V^{\text{observed}}}{\sum_\ell m_\ell \cdot A_\ell} \right)
+\tag{16}
+$$
 
 with $m_\ell$ an industry median valuation multiple and $A_\ell$ an accounting base for the segment, and with the measure reported as significantly negative across the diversified samples. The framing constitutes the principal objection to the portfolio-patience condition, and the article treats it in a dedicated section, not in passing.
 
 The internal-capital-markets tradition traces from [Gertner et al. 1994][research_gertner_scharfstein_stein_1994], [Stein 1997][research_stein_1997], and [Scharfstein and Stein 2000][research_scharfstein_stein_2000]. The framing yields both the case for internal allocation, resting on the headquarters ability to engage in winner-picking with information an external market lacks, and the case against it, resting on the rent-seeking by division managers that the dark-side treatment documents. The allocation quality has the form
 
-$$Q^{\text{allocation}} = \operatorname{corr}\!\left( \Delta k_\ell, \; q_\ell \right)$$
+$$
+Q^{\text{allocation}} = \operatorname{corr}\!\left( \Delta k_\ell, \; q_\ell \right)
+\tag{17}
+$$
 
 with $\Delta k_\ell$ the capital directed to the line and $q_\ell$ the investment opportunity of the line, and with an efficient internal market exhibiting a positive correlation and a socialistic one exhibiting a correlation near zero.
 
 The real-options tradition traces from [Myers 1977][research_myers_1977] through [Black and Scholes 1973][research_black_scholes_1973], [Merton 1973][research_merton_1973], [McDonald and Siegel 1986][research_mcdonald_siegel_1986], [Kogut and Kulatilaka 1994][research_kogut_kulatilaka_1994], [Dixit and Pindyck 1994][book_dixit_pindyck_1994], [Trigeorgis 1996][book_trigeorgis_1996], and [Copeland and Antikarov 2001][book_copeland_antikarov_2001]. The framing treats each line as an option and the portfolio as an option portfolio, and it contributes the important observation that a portfolio of options is worth more than an option on a portfolio. The inequality may be written
 
-$$\sum_{\ell} E\!\left[ \max(V_\ell - K_\ell, 0) \right] \geq E\!\left[ \max\!\left( \sum_\ell V_\ell - \sum_\ell K_\ell, 0 \right) \right]$$
+$$
+\sum_{\ell} E\!\left[ \max(V_\ell - K_\ell, 0) \right] \geq E\!\left[ \max\!\left( \sum_\ell V_\ell - \sum_\ell K_\ell, 0 \right) \right]
+\tag{18}
+$$
 
 with the separately exercisable options dominating the bundled one. The result is the formal statement of why holding the lines as distinguishable undertakings that can be independently continued or abandoned is worth more than holding them as a single indivisible programme, and it connects the portfolio-patience condition directly to the decomposability condition the [Decomposability article A285][related_post_a285_spacex_decomposability] treats.
 
 The ruin-theory and survival-analysis tradition yields the apparatus the article argues is the correct one. The tradition treats the first-passage problem for a capital process and evaluates a configuration by the probability that the process reaches an absorbing barrier before a horizon. The classical result the tradition provides bounds the ruin probability exponentially in the initial capital
 
-$$P^{\text{ruin}}(\infty) \leq e^{-\Lambda \, C(0)}$$
+$$
+P^{\text{ruin}}(\infty) \leq e^{-\Lambda \, C(0)}
+\tag{19}
+$$
 
 with $\Lambda$ an adjustment coefficient increasing in the safety loading of the revenue process over the claim process. The form makes explicit that an increase in the sustained revenue margin reduces the ruin probability exponentially and not linearly, which is the reason a modest recurring revenue line is worth substantially more to a venture facing a ruin barrier than its magnitude suggests. The framing is standard in the insurance and reliability literatures that [O'Connor and Kleyner 2012][book_oconnor_kleyner_2012] Practical Reliability Engineering represents, and it is substantially absent from the corporate-diversification literature, which is the reason that literature and the present article reach different conclusions from the same evidence.
 
 The corporate-strategy tradition traces from [Chandler 1962][book_chandler_1962] Strategy and Structure, [Chandler 1977][book_chandler_1977] The Visible Hand, and [Chandler 1990][book_chandler_1990] Scale and Scope through [Penrose 1959][book_penrose_1959] The Theory of the Growth of the Firm, [Porter 1980][book_porter_1980] Competitive Strategy, [Porter 1985][book_porter_1985] Competitive Advantage, and the diversification-strategy strand that [Montgomery 1994][research_montgomery_1994] surveys. The [Penrose 1959][book_penrose_1959] treatment contributes the most useful antecedent, because it explains firm growth through the redeployment of underused resources into adjacent activities. The mechanism admits the compact statement through a slack measure
 
-$$\Sigma(t) = \sum_{k \in K} \left[ \bar{u}_k - u_k(t) \right]^{+}$$
+$$
+\Sigma(t) = \sum_{k \in K} \left[ \bar{u}_k - u_k(t) \right]^{+}
+\tag{20}
+$$
 
 with $\bar{u}\_k$ the capacity of the capability $k$ and $u_k(t)$ its utilization, and with a positive slack constituting the resource from which a new line can be generated at a marginal, not a full cost. The expression is the formal statement of why the lines were generated and not acquired, and it is the quantity that distinguishes this growth path from an acquisitive one.
 
 The platform and ecosystem tradition traces from [Meyer and Lehnerd 1997][book_meyer_lehnerd_1997] The Power of Product Platforms, [Sanderson and Uzumeri 1997][book_sanderson_uzumeri_1997] Managing Product Families, [Robertson and Ulrich 1998][research_robertson_ulrich_1998], [Baldwin and Clark 2000][book_baldwin_clark_2000] Design Rules, [Gawer and Cusumano 2002][book_cusumano_gawer_2002] Platform Leadership, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, [Adner 2012][book_adner_2012] The Wide Lens, [Adner 2021][book_adner_2021] Winning the Right Game, [Adner and Kapoor 2009][research_adner_kapoor_2010], and [Jacobides et al. 2018][research_jacobides_et_al_2018]. The framing treats the shared capability base as a platform from which the lines derive. The platform leverage permits the concise form
 
-$$\Lambda^{\text{platform}} = \frac{\sum_{\ell} V_\ell}{C^{\text{shared base}}}$$
+$$
+\Lambda^{\text{platform}} = \frac{\sum_{\ell} V_\ell}{C^{\text{shared base}}}
+\tag{21}
+$$
 
 with the leverage rising in the line count for a fixed base cost. The expression supplies the vocabulary in which the generated-versus-assembled distinction is naturally expressed, because an assembled portfolio has no shared base in the denominator and therefore no leverage of the kind the expression measures.
 
 The supply-chain and clockspeed tradition traces from [Fine 1998][book_fine_1998] Clockspeed and [Cusumano 2010][book_cusumano_2010] Staying Power. The framing offers the observation that the rate at which an industry's architecture changes determines how long a position remains defensible. The decay takes the form
 
-$$A_\ell(t) = A_\ell(0) \, e^{-\kappa_\ell t}$$
+$$
+A_\ell(t) = A_\ell(0) \, e^{-\kappa_\ell t}
+\tag{22}
+$$
 
 with $\kappa_\ell$ the clockspeed of the line's industry and with the advantage decaying faster in the faster-moving segment. The portfolio therefore mixes lines with different decay constants, and a portfolio weighted toward high-$\kappa$ lines requires a higher rate of replenishment to hold its position than one weighted toward low-$\kappa$ lines.
 
@@ -175,13 +241,19 @@ The organizational-ecology and failure tradition traces from [Ormerod 2005][book
 
 The agency and free-cash-flow tradition traces from [Berle and Means 1932][book_berle_means_1932] The Modern Corporation and Private Property through [Jensen and Meckling 1976][research_jensen_meckling_1976], [Fama and Jensen 1983][research_fama_jensen_1983], [Jensen 1986][research_jensen_1986] Agency Costs of Free Cash Flow, [Shleifer and Vishny 1997][research_shleifer_vishny_1997], [Hart 1995][book_hart_1995] Firms Contracts and Financial Structure, and [Tirole 2006][book_tirole_2006] The Theory of Corporate Finance. The framing yields the sharpest available statement of what the configuration risks, because [Jensen 1986][research_jensen_1986] identifies diversification as the canonical use to which a manager directs a free cash flow that ought to be returned to the claimants. The prediction can be written as
 
-$$\frac{\partial \, \text{diversification}}{\partial \, \text{free cash flow}} > 0 \qquad \text{under the agency reading}$$
+$$
+\frac{\partial \, \text{diversification}}{\partial \, \text{free cash flow}} > 0 \qquad \text{under the agency reading}
+\tag{23}
+$$
 
 with the relation observed empirically across diversified firms. The SpaceX pattern in which a matured line funds an immature one is observationally identical to the pattern the framing predicts, and the two readings are distinguished only by whether the receiving line is judged worth funding, which is the question at issue, not an independent test. The governance apparatus that would ordinarily discipline the behavior is deliberately disabled in this case, as the [Governance article A287][related_post_a287_spacex_governance] documents.
 
 The learning-curve and experience tradition traces from [Wright 1936][research_wright_1936] Factors Affecting the Cost of Airplanes through [Alchian 1963][research_alchian_1963] Reliability of Progress Curves, [Rapping 1965][research_rapping_1965], [Argote and Epple 1990][research_argote_epple_1990] Learning Curves in Manufacturing, [Argote 1999][book_argote_1999] Organizational Learning, [Adler and Clark 1991][research_adler_clark_1991], [Lieberman 1984][research_lieberman_1984], and [Dutton and Thomas 1984][research_dutton_thomas_1984]. The framing bears on the portfolio question through a mechanism the diversification literature omits entirely. A shared production capability accumulates experience from every line simultaneously, so that the learning rate on the shared element scales with the total volume and not with any single line's volume. The effect has the form
 
-$$c^{\text{shared}}_n = c^{\text{shared}}_1 \left( \sum_{\ell} n_\ell \right)^{-b}$$
+$$
+c^{\text{shared}}_n = c^{\text{shared}}_1 \left( \sum_{\ell} n_\ell \right)^{-b}
+\tag{24}
+$$
 
 with the cumulative volume summed across the lines. The expression is a positive interaction among the lines that a portfolio of standalone firms cannot reproduce, and it is a value source the conglomerate-discount literature does not measure because the conglomerates it studied shared no production base.
 
@@ -199,17 +271,26 @@ The launch-service line sells delivery to orbit to external customers. The space
 
 The line set exhibits a structural feature that the analysis must foreground. Four of the five lines depend on a single launch vehicle family, and the fifth is a launch vehicle. The dependency structure can be stated as
 
-$$K^{\text{Falcon}} \in K_\ell \qquad \text{for} \qquad \ell \in \{\text{launch}, \text{spacecraft}, \text{constellation}, \text{defense}\}$$
+$$
+K^{\text{Falcon}} \in K_\ell \qquad \text{for} \qquad \ell \in \{\text{launch}, \text{spacecraft}, \text{constellation}, \text{defense}\}
+\tag{25}
+$$
 
 with the Falcon capability appearing in the capability set of every revenue-bearing line. The consequence is that a Falcon 9 grounding event propagates to substantially the entire revenue base simultaneously, and the portfolio therefore gives substantially no protection against the single most likely catastrophic operational event. The observation is the principal qualification the article places on the portfolio-patience claim for this case, and the article states it before the favorable material and not after it.
 
 The offsetting consideration is that the correlation structure differs by risk category. The portfolio yields substantially no protection against a vehicle-reliability event and substantially considerable protection against a demand event, a regulatory event, a competitive event, or a customer-budgetary event. The decomposition may be written
 
-$$\rho_{\ell m} = \sum_{c \in \mathcal{C}} \omega_c \, \rho^{(c)}_{\ell m}$$
+$$
+\rho_{\ell m} = \sum_{c \in \mathcal{C}} \omega_c \, \rho^{(c)}_{\ell m}
+\tag{26}
+$$
 
 with the total correlation a weighted sum across risk categories $c$, and with $\rho^{(\text{vehicle})}\_{\ell m} \approx 1$ while $\rho^{(\text{demand})}\_{\ell m}$ is substantially below unity across the pairs. The portfolio is therefore correctly described as diversified with respect to demand-side risk and undiversified with respect to supply-side risk. The correct summary statistic is accordingly a vector, not a scalar
 
-$$\boldsymbol{L}^{\text{effective}} = \left( L^{\text{eff}}_{\text{vehicle}}, \; L^{\text{eff}}_{\text{demand}}, \; L^{\text{eff}}_{\text{regulatory}}, \; L^{\text{eff}}_{\text{key-person}} \right)$$
+$$
+\boldsymbol{L}^{\text{effective}} = \left( L^{\text{eff}}_{\text{vehicle}}, \; L^{\text{eff}}_{\text{demand}}, \; L^{\text{eff}}_{\text{regulatory}}, \; L^{\text{eff}}_{\text{key-person}} \right)
+\tag{27}
+$$
 
 with the components differing by an order of magnitude across the categories. Reporting a single number for a portfolio of this structure discards the information that matters most.
 
@@ -219,11 +300,17 @@ The launch-service line is the oldest revenue-bearing line and the one from whic
 
 The line's role in the portfolio is distinctive. It is the line that generates the capability the other lines consume, and it is therefore the line whose failure would be least survivable. The line is also the one whose external revenue has grown most slowly relative to the others across the recent period, because an increasing fraction of the launch capacity is consumed internally by the constellation line. The internal consumption fraction yields the compact form
 
-$$\iota(t) = \frac{n^{\text{internal launches}}(t)}{n^{\text{total launches}}(t)}$$
+$$
+\iota(t) = \frac{n^{\text{internal launches}}(t)}{n^{\text{total launches}}(t)}
+\tag{28}
+$$
 
 with the fraction rising substantially across the 2019 through drafting-date period as the constellation deployment accelerated. The rise means that the launch-service line has been progressively converted from an external revenue line into an internal input supplier, which is a transformation the portfolio analysis must register because an internal input supplier does not diversify anything. The diversifying contribution of the line accordingly scales with its external fraction and not with its total activity, admitting the compact form
 
-$$w^{\text{effective}}_{\text{launch}} = \left( 1 - \iota(t) \right) \cdot w_{\text{launch}}(t)$$
+$$
+w^{\text{effective}}_{\text{launch}} = \left( 1 - \iota(t) \right) \cdot w_{\text{launch}}(t)
+\tag{29}
+$$
 
 with the effective portfolio weight falling as the internal consumption rises even while the line's physical activity grows. The distinction between activity and diversifying contribution is one the published commentary on this firm routinely elides.
 
@@ -235,13 +322,19 @@ The spacecraft line comprises the Dragon 1 cargo configuration operating across 
 
 The line occupies a distinctive position in the portfolio because its revenue derives substantially from a single customer under a small number of contracts. The concentration allows the brief statement through a Herfindahl index over the customer set
 
-$$H_\ell = \sum_{j} s_{j\ell}^2$$
+$$
+H_\ell = \sum_{j} s_{j\ell}^2
+\tag{30}
+$$
 
 with $s_{j\ell}$ the revenue share of the customer $j$ in the line $\ell$, and with the spacecraft line exhibiting an index approaching unity. A line with a customer Herfindahl near unity contributes limited diversification benefit irrespective of its revenue magnitude, because the line fails whenever the single customer's budget or programmatic priorities change.
 
 The offsetting feature is that the single customer is a government agency operating under a multi-year appropriation with a statutory mission, which makes the customer's demand substantially less correlated with the commercial cycle than a commercial customer's would be. The spacecraft line therefore contributes specific counter-cyclical, not uncorrelated variance, which is the more valuable of the two under a survival objective. The ordering takes the compact statement that for a line added to a portfolio,
 
-$$\left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell < 0} < \left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell = 0} < \left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell > 0}$$
+$$
+\left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell < 0} < \left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell = 0} < \left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell > 0}
+\tag{31}
+$$
 
 with a negatively correlated line reducing the ruin probability more than an uncorrelated line of the same mean and variance. The result is standard and is worth stating because the portfolio discussion in the trade press treats line count as the operative variable and correlation sign as a detail.
 
@@ -251,13 +344,19 @@ The constellation line comprising Starlink is the dominant revenue line at the d
 
 The line transformed the portfolio's character. Before the line reached scale the firm held a portfolio of project-based lines whose revenue was lumpy, contract-dependent, and concentrated in a small customer set. The constellation line supplies a subscription revenue stream with different statistical properties entirely. The difference has the concise statement through the revenue autocorrelation
 
-$$\phi_\ell = \operatorname{corr}\!\left( r_\ell(t), \; r_\ell(t-1) \right)$$
+$$
+\phi_\ell = \operatorname{corr}\!\left( r_\ell(t), \; r_\ell(t-1) \right)
+\tag{32}
+$$
 
 with the project-based lines exhibiting a low autocorrelation and the subscription line exhibiting an autocorrelation near unity. A high-autocorrelation revenue stream is substantially more valuable under a survival objective than a low-autocorrelation stream of the same mean and variance, because the ruin event depends on the path and not on the distribution at a horizon.
 
 The line nonetheless exhibited the same all-or-nothing deployment structure that the Iridium negation case illustrates, and the structure deserves statement because it is the respect in which the line most resembles the failure. A constellation returns substantially nothing until a minimum deployed count supports a continuous service footprint, admitting the compact form
 
-$$r^{\text{constellation}}(t) = \begin{cases} 0 & N^{\text{deployed}}(t) < N^{\text{minimum}} \\ g\!\left( N^{\text{deployed}}(t) \right) & \text{otherwise} \end{cases}$$
+$$
+r^{\text{constellation}}(t) = \begin{cases} 0 & N^{\text{deployed}}(t) < N^{\text{minimum}} \\ g\!\left( N^{\text{deployed}}(t) \right) & \text{otherwise} \end{cases}
+\tag{33}
+$$
 
 with a discontinuity at the threshold. The difference between this case and the Iridium case is not the shape of the function but the source of the capital sustaining the venture across the interval in which the function returns zero.
 
@@ -269,13 +368,19 @@ The defense-services line comprises the Starshield business that the [SpaceX Sta
 
 The line's portfolio contribution is that its demand is generated by a process substantially disconnected from the commercial demand generating the other lines. A defense budget responds to a threat environment and an appropriations politics, and a commercial satellite budget responds to a capital-market condition and an end-market demand. The correlation between the two drivers is low and has historically been negative across portions of the cycle. The decomposition takes the form
 
-$$r_{\text{defense}}(t) = \beta_{\text{threat}} \, X^{\text{threat}}(t) + \beta_{\text{approp}} \, X^{\text{appropriation}}(t) + \varepsilon(t)$$
+$$
+r_{\text{defense}}(t) = \beta_{\text{threat}} \, X^{\text{threat}}(t) + \beta_{\text{approp}} \, X^{\text{appropriation}}(t) + \varepsilon(t)
+\tag{34}
+$$
 
 with neither driver appearing in the commercial lines' revenue equations. The structural independence of the driver set, not any observed sample correlation is what supports the diversification claim for this line, because a sample correlation estimated over a short period is uninformative and a structural argument is not.
 
 The line carries an offsetting concentration. The customer set is a small number of United States government entities, and the line is therefore exposed to a single-jurisdiction political risk that no other line carries to the same degree. The line also imposes organizational-conflict-of-interest and security constraints that propagate into the other lines, so that the line's presence in the portfolio is not costless to the others. The net contribution therefore can be written as
 
-$$\Delta_{\text{defense}} = \underbrace{\delta^{\text{diversification}}}_{> 0} - \underbrace{c^{\text{constraint spillover}}}_{> 0}$$
+$$
+\Delta_{\text{defense}} = \underbrace{\delta^{\text{diversification}}}_{> 0} - \underbrace{c^{\text{constraint spillover}}}_{> 0}
+\tag{35}
+$$
 
 with the sign of the net contribution an empirical question the available record does not settle.
 
@@ -285,17 +390,26 @@ The Starship and Super Heavy line is the sink in the cross-subsidization structu
 
 The line returns substantially nothing at the drafting date beyond the Human Landing System contract milestones that the [NASA Human Landing System program documentation][ref_nasa_hls_program] describes. The line consumes a substantial fraction of the firm's capital expenditure and a substantial fraction of its engineering attention. Under a standard capital-budgeting evaluation applied at substantially any point across the 2016 through drafting-date period, the line would have been terminated. The evaluation may be stated compactly
 
-$$\text{NPV}_{\text{Starship}}(t) = \sum_{s > t} \frac{E\!\left[ \text{CF}(s) \right]}{(1+\rho)^{s-t}} - K(t) < 0 \qquad \text{for } \rho = \rho^{\text{investor}}$$
+$$
+\text{NPV}_{\text{Starship}}(t) = \sum_{s > t} \frac{E\!\left[ \text{CF}(s) \right]}{(1+\rho)^{s-t}} - K(t) < 0 \qquad \text{for } \rho = \rho^{\text{investor}}
+\tag{36}
+$$
 
 with the expression negative at any discount rate a diversified investor would apply and turning positive only at a substantially lower rate or under an option valuation that treats the programme as a claim on a future capability rather than as a cash-flow stream.
 
 The fact that it was not terminated is the observable to which the portfolio-patience claim reduces. The patience condition stated in the economic-property section requires
 
-$$\tau_{\text{Starship}} \geq \tau^{\ast}_{\text{Starship}}$$
+$$
+\tau_{\text{Starship}} \geq \tau^{\ast}_{\text{Starship}}
+\tag{37}
+$$
 
 and the left side is set by the controller under the governance configuration the [Governance article A287][related_post_a287_spacex_governance] treats, while the right side is set by the engineering difficulty of the programme. The observed behavior is consistent with a left side substantially exceeding any horizon an external capital provider would impose. The option reading provides the complementary valuation
 
-$$V^{\text{Starship}} = \sum_{a \in A} p(a) \cdot \left[ V^{\text{application}}(a) - K^{\text{residual}}(a) \right]^{+}$$
+$$
+V^{\text{Starship}} = \sum_{a \in A} p(a) \cdot \left[ V^{\text{application}}(a) - K^{\text{residual}}(a) \right]^{+}
+\tag{38}
+$$
 
 with the value accruing from the application set the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] documents rather than from any single projected cash-flow stream. The article treats the sustained funding as the central evidence for the condition in this case.
 
@@ -307,23 +421,35 @@ The historical sequence of the flows permits reconstruction at a qualitative lev
 
 The pattern admits the compact statement as an ordered relation over the lines
 
-$$f_{\ell \to m} > 0 \quad \text{predominantly for} \quad \text{maturity}(\ell) > \text{maturity}(m)$$
+$$
+f_{\ell \to m} > 0 \quad \text{predominantly for} \quad \text{maturity}(\ell) > \text{maturity}(m)
+\tag{39}
+$$
 
 with the capital flowing consistently from the more mature to the less mature line. The maturity ordering that governs the flows permits the concise statement through a line lifecycle position
 
-$$\mu_\ell(t) = \frac{\text{cumulative revenue}_\ell(t)}{\text{cumulative investment}_\ell(t)}$$
+$$
+\mu_\ell(t) = \frac{\text{cumulative revenue}_\ell(t)}{\text{cumulative investment}_\ell(t)}
+\tag{40}
+$$
 
 with a line exhibiting $\mu_\ell < 1$ constituting a net consumer and one exhibiting $\mu_\ell > 1$ a net contributor, and with the observed flow running consistently from the higher to the lower ratio. The structure is an internal analogue of the staged financing that [Gompers 1995][research_gompers_1995] documents in the venture-capital setting, with the difference that the staging decision is made by a party who holds the entire portfolio rather than by a party who holds a fractional position in each undertaking.
 
 The transfer-price problem deserves explicit statement because it determines what the reported figures mean. When the launch-service line delivers a constellation satellite, the price at which the transaction is recorded is an internal accounting choice. A high transfer price attributes the value to the launch line and makes the constellation line appear less profitable. A low transfer price does the reverse. The consequence is stated compactly as
 
-$$\pi_{\text{launch}} + \pi_{\text{constellation}} = \text{invariant} \qquad \text{while} \qquad \frac{\partial \pi_{\text{launch}}}{\partial p^{\text{transfer}}} > 0 > \frac{\partial \pi_{\text{constellation}}}{\partial p^{\text{transfer}}}$$
+$$
+\pi_{\text{launch}} + \pi_{\text{constellation}} = \text{invariant} \qquad \text{while} \qquad \frac{\partial \pi_{\text{launch}}}{\partial p^{\text{transfer}}} > 0 > \frac{\partial \pi_{\text{constellation}}}{\partial p^{\text{transfer}}}
+\tag{41}
+$$
 
 with the total invariant to the transfer price and the split entirely determined by it. Every published estimate of the per-line profitability of this firm rests on an assumed transfer price that the estimator has chosen, and the reader should treat the line-level figures accordingly.
 
 The internal allocation quality is the question the internal-capital-markets literature poses. The favorable reading is the winner-picking account that [Stein 1997][research_stein_1997] develops, under which a headquarters with superior information directs capital better than an external market could. The unfavorable reading is the dark-side account that [Scharfstein and Stein 2000][research_scharfstein_stein_2000] develops, under which division managers extract rents and the allocation becomes socialistic. The SpaceX configuration exhibits a feature that bears on which reading applies, namely that the allocation is directed by a party with an overriding preference over the outcome rather than by a party balancing divisional claims. The configuration is therefore substantially immune to the socialistic failure the dark-side account describes and substantially exposed to a different failure in which the allocation reflects the controller's commitment rather than the investment opportunity. The allocation-quality correlation the Cross-Disciplinary Framings section defines would be measured against the mission rather than against the return. The substitution yields the compact statement
 
-$$Q^{\text{mission}} = \operatorname{corr}\!\left( \Delta k_\ell, \; \frac{\partial P(\text{reach } M)}{\partial k_\ell} \right) \qquad \text{against} \qquad Q^{\text{return}} = \operatorname{corr}\!\left( \Delta k_\ell, \; q_\ell \right)$$
+$$
+Q^{\text{mission}} = \operatorname{corr}\!\left( \Delta k_\ell, \; \frac{\partial P(\text{reach } M)}{\partial k_\ell} \right) \qquad \text{against} \qquad Q^{\text{return}} = \operatorname{corr}\!\left( \Delta k_\ell, \; q_\ell \right)
+\tag{42}
+$$
 
 with the observed allocation scoring well on the first measure by construction and indeterminately on the second. The circularity is unavoidable and the article states it rather than presenting the first measure as an independent validation.
 
@@ -335,17 +461,26 @@ The dominant common factor is the launch vehicle. A Falcon 9 loss-of-mission eve
 
 The structure therefore allows a compact characterization. Let $S$ denote the event of an extended vehicle grounding. The surviving revenue fraction is
 
-$$\theta = \frac{r^{\text{constellation subscription}}}{r^{\text{total}}} \qquad \text{conditional on } S$$
+$$
+\theta = \frac{r^{\text{constellation subscription}}}{r^{\text{total}}} \qquad \text{conditional on } S
+\tag{43}
+$$
 
 with the fraction having risen from substantially zero before the 2020 period to a substantial value at the drafting date. The rise is the most consequential change in the firm's risk profile across its history, and it is attributable to the constellation line's subscription character rather than to the line count. Applying the effective-line-count expression from the economic-property section to the realized correlation structure gives
 
-$$L^{\text{effective}} \Big|_{\text{vehicle risk}} \approx 1 \qquad \text{against} \qquad L^{\text{effective}} \Big|_{\text{demand risk}} \approx 3 \text{ to } 4$$
+$$
+L^{\text{effective}} \Big|_{\text{vehicle risk}} \approx 1 \qquad \text{against} \qquad L^{\text{effective}} \Big|_{\text{demand risk}} \approx 3 \text{ to } 4
+\tag{44}
+$$
 
 against a nominal count of five, with the two figures bracketing the true protection the portfolio offers. The practice of reporting a single effective count for a portfolio facing heterogeneous risk categories is therefore misleading in both directions depending on which category dominates the realized event.
 
 The runway under the adverse event has the form
 
-$$\Theta^{\text{stress}} = \frac{C(t)}{\dot{C}^{\text{burn}} - \theta \cdot r^{\text{total}}}$$
+$$
+\Theta^{\text{stress}} = \frac{C(t)}{\dot{C}^{\text{burn}} - \theta \cdot r^{\text{total}}}
+\tag{45}
+$$
 
 with the denominator the net burn under the grounding scenario and with the runway becoming unbounded when the surviving revenue exceeds the burn. The transition from a bounded to an unbounded stressed runway is the discrete event that the portfolio-patience condition is designed to produce, and it is the event that distinguishes the configuration at the drafting date from the arrangement in the 2008 period that the [series opener][related_post_a281_spacex_framing] treats.
 
@@ -353,7 +488,10 @@ The portfolio is not the only instrument available for managing the tail, and th
 
 The instruments are complements to the portfolio rather than substitutes for it, and the reason is analytically important. Insurance transfers a per-mission loss whose magnitude is bounded by the insured value. It does not transfer the consequential loss that an extended grounding imposes on the dependent lines, and it does not transfer the loss of a development programme. The coverage gap can be stated as
 
-$$L^{\text{uninsured}} = L^{\text{total}} - L^{\text{insured}} = L^{\text{consequential}} + L^{\text{programme}}$$
+$$
+L^{\text{uninsured}} = L^{\text{total}} - L^{\text{insured}} = L^{\text{consequential}} + L^{\text{programme}}
+\tag{46}
+$$
 
 with the two uninsured components being precisely the ones that determine whether the venture reaches the mission. The portfolio addresses the residual the insurance market does not price, which is the reason a fully insured single-line venture remains a single-bet configuration.
 
@@ -361,7 +499,10 @@ The second common factor is the regulatory environment, which affects the launch
 
 The third common factor is the controller. Every line depends on a single individual to a degree that the [Governance article A287][related_post_a287_spacex_governance] documents, and the dependency is perfectly correlated across the lines by construction. The portfolio gives substantially no protection against a key-person event, and a key-person event is precisely the event the governance configuration makes most consequential. The interaction allows the brief statement. Let $\phi_6$ and $\phi_7$ denote the governance and portfolio-patience closures. The framework treats the joint closure as a product of independent indicators, and the key-person channel establishes that
 
-$$P\!\left( \text{survive} \mid \phi_6 = 1, \phi_7 = 1 \right) < P\!\left( \text{survive} \mid \phi_6 = 1 \right) \cdot P\!\left( \text{survive} \mid \phi_7 = 1 \right) \big/ P\!\left( \text{survive} \right)$$
+$$
+P\!\left( \text{survive} \mid \phi_6 = 1, \phi_7 = 1 \right) < P\!\left( \text{survive} \mid \phi_6 = 1 \right) \cdot P\!\left( \text{survive} \mid \phi_7 = 1 \right) \big/ P\!\left( \text{survive} \right)
+\tag{47}
+$$
 
 so that the two conditions are not independent in the direction the framework's product form assumes. The two conditions therefore interact adversely in a respect the framework does not otherwise surface, and the article states the interaction rather than treating the conditions as independently satisfiable.
 
@@ -371,13 +512,19 @@ The analysis to this point has treated capital as the scarce resource the portfo
 
 The binding constraint that [Penrose 1959][book_penrose_1959] identifies is not capital but the managerial services available to plan and direct an expansion. The constraint is generated internally, cannot be purchased at short notice, and grows only through the experience of the existing organization. The consequence is a maximum rate of expansion independent of the capital available, which the literature terms the Penrose effect. The constraint may be written
 
-$$\frac{dL}{dt} \leq \gamma \cdot M(t) \qquad \text{with} \qquad \dot{M}(t) = h\!\left( M(t), \; \text{experience} \right)$$
+$$
+\frac{dL}{dt} \leq \gamma \cdot M(t) \qquad \text{with} \qquad \dot{M}(t) = h\!\left( M(t), \; \text{experience} \right)
+\tag{48}
+$$
 
 with the rate of line addition bounded by the available managerial capacity rather than by the capital position. A venture holding substantial capital and insufficient managerial capacity cannot convert the former into the latter by spending it.
 
 The attention constraint operates at the level of the controller with particular force in this case. The bounded-rationality tradition from [Simon 1957][book_simon_1957] Administrative Behavior through [March and Simon 1958][book_march_simon_1958] Organizations, [Cyert and March 1963][book_cyert_march_1963] A Behavioral Theory of the Firm, and [Weick 1979][book_weick_1979] The Social Psychology of Organizing treats attention as a scarce resource allocated across a problem set, and it predicts that an increase in the line count reduces the attention available to each. The allocation takes the compact form
 
-$$\sum_{\ell \in \mathcal{L}} a_\ell(t) \leq \bar{A} \qquad \text{with} \qquad \frac{\partial \, \text{progress}_\ell}{\partial a_\ell} > 0$$
+$$
+\sum_{\ell \in \mathcal{L}} a_\ell(t) \leq \bar{A} \qquad \text{with} \qquad \frac{\partial \, \text{progress}_\ell}{\partial a_\ell} > 0
+\tag{49}
+$$
 
 with the total attention bounded and the progress on each line increasing in its share. The consequence is the cost the pattern-extraction section states, namely that the portfolio purchases its survival benefit at the price of a slower rate of progress on each line.
 
@@ -393,7 +540,10 @@ The finance literature's settled position is that corporate diversification dest
 
 The empirical finding is that diversified firms trade at a discount to the imputed value of their segments valued as standalone entities. The discount takes the form
 
-$$D = \frac{V^{\text{diversified}}}{\sum_{\ell} V^{\text{standalone}}_\ell} - 1 < 0$$
+$$
+D = \frac{V^{\text{diversified}}}{\sum_{\ell} V^{\text{standalone}}_\ell} - 1 < 0
+\tag{50}
+$$
 
 with [Lang and Stulz 1994][research_lang_stulz_1994] and [Berger and Ofek 1995][research_berger_ofek_1995] establishing the result and [Rajan et al. 2000][research_rajan_servaes_zingales_2000] and [Scharfstein and Stein 2000][research_scharfstein_stein_2000] supplying the mechanisms.
 
@@ -409,17 +559,26 @@ The substantive response concerns the first explanation, which is the load-beari
 
 The segments are not separately investable, because they are generated from a shared capability base rather than assembled, and a standalone constellation firm without a captive launch capability is a different entity with a different cost structure. The imputed standalone valuation the discount measure requires is therefore not defined for this case in the way it is defined for a conglomerate assembled by acquisition. The breakdown may be stated compactly
 
-$$V^{\text{standalone}}_\ell \neq V_\ell \Big|_{\text{within portfolio}} \qquad \text{because} \qquad c_\ell^{\text{standalone}} > c_\ell \Big|_{\text{shared base}}$$
+$$
+V^{\text{standalone}}_\ell \neq V_\ell \Big|_{\text{within portfolio}} \qquad \text{because} \qquad c_\ell^{\text{standalone}} > c_\ell \Big|_{\text{shared base}}
+\tag{51}
+$$
 
 with the standalone cost strictly higher for every line that consumes the shared capability. The measure's denominator is therefore not merely mismeasured but undefined, because the entity it prices does not exist and would have different economics if it did. The generated-versus-assembled distinction the economic-property section formalizes is precisely the distinction the discount literature's method assumes away.
 
 The objective differs more fundamentally. The investor diversifies to reduce the variance of a return on a position the investor can exit. The venture diversifies to reduce the probability that it ceases to exist before reaching an objective the investor does not share and cannot purchase separately. The two are not the same operation performed by different parties. The distinction is stated compactly as
 
-$$\text{investor solves} \; \min_w \sigma^2(w) \quad \text{s.t.} \; E[R] \geq \bar{R} \qquad \text{venture solves} \; \min_w P^{\text{ruin}}(w, T^{\text{mission}})$$
+$$
+\text{investor solves} \; \min_w \sigma^2(w) \quad \text{s.t.} \; E[R] \geq \bar{R} \qquad \text{venture solves} \; \min_w P^{\text{ruin}}(w, T^{\text{mission}})
+\tag{52}
+$$
 
 with the two programmes yielding different optima. An investor holding a fractional position in a mission-directed venture and a portfolio of other assets has diversified the investor's exposure and has done nothing whatever to the venture's ruin probability. The asymmetry has the concise statement
 
-$$\frac{\partial \sigma^2_{\text{investor}}}{\partial \text{diversification}} < 0 \qquad \text{while} \qquad \frac{\partial P^{\text{ruin}}_{\text{venture}}}{\partial \text{investor diversification}} = 0$$
+$$
+\frac{\partial \sigma^2_{\text{investor}}}{\partial \text{diversification}} < 0 \qquad \text{while} \qquad \frac{\partial P^{\text{ruin}}_{\text{venture}}}{\partial \text{investor diversification}} = 0
+\tag{53}
+$$
 
 with the investor's action affecting the investor's exposure and leaving the venture's survival probability exactly unchanged. The quantity on the right is the one that determines whether the mission is reached.
 
@@ -435,17 +594,26 @@ The case is a portfolio-patience negation in a precise sense. The venture held a
 
 The structure admits the compact statement. The venture's survival required
 
-$$r^{\text{subscriber}}(t) > \dot{C}^{\text{debt service}} \qquad \text{from} \qquad t = t^{\text{service commencement}}$$
+$$
+r^{\text{subscriber}}(t) > \dot{C}^{\text{debt service}} \qquad \text{from} \qquad t = t^{\text{service commencement}}
+\tag{54}
+$$
 
 with substantially no tolerance for a shortfall, because the capital structure carried a debt service that commenced on a schedule independent of the subscriber ramp. The configuration had a single line, a single customer segment, a single technology, and a fixed obligation. Each feature individually is survivable and the conjunction is not. The coverage ratio that governs the outcome can be written as
 
-$$\Xi(t) = \frac{r^{\text{subscriber}}(t)}{\dot{C}^{\text{debt service}}}$$
+$$
+\Xi(t) = \frac{r^{\text{subscriber}}(t)}{\dot{C}^{\text{debt service}}}
+\tag{55}
+$$
 
 with the venture surviving while $\Xi > 1$ and entering the default process otherwise. The ratio depends on a subscriber ramp with a substantial forecast variance in the numerator and a contractually fixed quantity in the denominator, which is the structural feature that converts a forecast error into a terminal event.
 
 The comparison to the Starlink line is instructive precisely because the two undertakings are superficially similar. Both deploy a large low-Earth-orbit constellation supporting a consumer communications service requiring a substantial deployment before returning anything. The differences are that the Starlink deployment was funded from an internal source rather than from a fixed-obligation external one, that the deploying firm held a revenue-bearing launch business throughout, that the deployment cost per satellite was reduced by the captive launch capability, and that the service addressed a market segment the terrestrial alternative does not serve rather than one it serves better. The first two differences are portfolio-patience differences and the second two are not, which the article notes so that the case is not read as establishing more than it does. The decomposition of the outcome difference can be stated as
 
-$$\Delta^{\text{outcome}} = \underbrace{\Delta^{\text{funding source}} + \Delta^{\text{concurrent revenue}}}_{\text{portfolio-patience}} + \underbrace{\Delta^{\text{deployment cost}} + \Delta^{\text{market segment}}}_{\text{not portfolio-patience}}$$
+$$
+\Delta^{\text{outcome}} = \underbrace{\Delta^{\text{funding source}} + \Delta^{\text{concurrent revenue}}}_{\text{portfolio-patience}} + \underbrace{\Delta^{\text{deployment cost}} + \Delta^{\text{market segment}}}_{\text{not portfolio-patience}}
+\tag{56}
+$$
 
 with the article claiming only the first bracket. A reading that attributes the entire outcome difference to the portfolio structure overstates what the comparison supports.
 
@@ -457,11 +625,17 @@ The case is a portfolio-patience negation in the same structural sense as the Ir
 
 The structure permits the concise form. The programme survives to completion only if
 
-$$\prod_{y=1}^{Y} P\!\left( \text{appropriation continues in year } y \right) > 0$$
+$$
+\prod_{y=1}^{Y} P\!\left( \text{appropriation continues in year } y \right) > 0
+\tag{57}
+$$
 
 with the product taken across the full construction period and with each annual factor below unity. The product falls rapidly in the year count for any per-year probability meaningfully below unity, which is the formal statement of why a long single-line programme dependent on a repeated external decision is structurally fragile irrespective of its merit. The value structure that produces the fragility has the form
 
-$$V^{\text{SSC}}(f) = \begin{cases} 0 & f < 1 \\ V^{\text{complete}} & f = 1 \end{cases}$$
+$$
+V^{\text{SSC}}(f) = \begin{cases} 0 & f < 1 \\ V^{\text{complete}} & f = 1 \end{cases}
+\tag{58}
+$$
 
 with $f$ the fraction of the construction completed and with substantially no value realized at any intermediate fraction. The comparison to the Constellation Program cancellation that the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] treats is direct, and the two cases share the structure.
 
@@ -479,11 +653,17 @@ The earlier record includes the Beal Aerospace closure of the 2000 period, the R
 
 The aggregate statement may be written
 
-$$\hat{P}\!\left( \text{survival} \mid \text{single line} \right) \ll \hat{P}\!\left( \text{survival} \mid \text{portfolio} \right)$$
+$$
+\hat{P}\!\left( \text{survival} \mid \text{single line} \right) \ll \hat{P}\!\left( \text{survival} \mid \text{portfolio} \right)
+\tag{59}
+$$
 
 with the inequality supported by the sector record and with the important caveat that the comparison is confounded, because the ventures that assembled portfolios were disproportionately the ventures that had survived long enough to assemble them. The confounding yields the compact statement. Let $A$ denote the event that a venture assembled a portfolio and $S$ the event that it survived to a horizon. The observed association satisfies
 
-$$P(S \mid A) > P(S) \qquad \text{with} \qquad P(A \mid S^{\text{early}}) > P(A)$$
+$$
+P(S \mid A) > P(S) \qquad \text{with} \qquad P(A \mid S^{\text{early}}) > P(A)
+\tag{60}
+$$
 
 so that the ventures observed with portfolios are disproportionately those that had already survived the early period in which most failures occur. The direction of the confounding inflates the apparent benefit, and the article states it rather than reporting the raw comparison.
 
@@ -493,7 +673,10 @@ The portfolio-patience mechanic supports comparison with deep historical precede
 
 The chartered-company form supplies the earliest systematic instance. The Dutch and English East India Companies held portfolios of voyages, trading posts, and commodity lines whose individual outcomes were substantially independent, and the portfolio structure was the mechanism by which a single lost vessel did not terminate the enterprise. The treatments in [Steensgaard 1974][book_steensgaard_1974] The Asian Trade Revolution of the Seventeenth Century, [Stern 2011][book_stern_2011] The Company-State, and [Robins 2006][book_robins_2006] The Corporation That Changed the World document the arrangements. The voyage portfolio admits the same treatment the article applies throughout, with the ruin probability for a venture financing $n$ simultaneous voyages each carrying an independent loss probability $q$ satisfying
 
-$$P^{\text{ruin}} = q^{\, n} \qquad \text{against} \qquad P^{\text{ruin}} = q \quad \text{for the single-voyage partnership}$$
+$$
+P^{\text{ruin}} = q^{\, n} \qquad \text{against} \qquad P^{\text{ruin}} = q \quad \text{for the single-voyage partnership}
+\tag{61}
+$$
 
 with the improvement geometric in the voyage count. The move from the single-voyage partnership to the permanent joint-stock company with a continuing portfolio is the institutional innovation on which the form rests, and it is the same innovation the present condition describes.
 
@@ -501,7 +684,10 @@ The Venetian Arsenal and the broader Venetian maritime economy supply a parallel
 
 The Manhattan Project supplies the purest historical instance of a portfolio held under irreducible technical uncertainty. The programme pursued gaseous diffusion, electromagnetic separation, and plutonium production simultaneously, at a cost far exceeding that of selecting one, precisely because no party could determine in advance which route would succeed. The treatments in [Rhodes 1986][book_rhodes_1986] The Making of the Atomic Bomb, [Groves 1962][book_groves_1962] Now It Can Be Told, [Hewlett and Anderson 1962][book_hewlett_anderson_1962] The New World, and [Bird and Sherwin 2005][book_bird_sherwin_2005] American Prometheus document the decision. The structure allows the brief statement that for independent routes each with success probability $p_r$,
 
-$$P(\text{at least one succeeds}) = 1 - \prod_{r} \left( 1 - p_r \right)$$
+$$
+P(\text{at least one succeeds}) = 1 - \prod_{r} \left( 1 - p_r \right)
+\tag{62}
+$$
 
 with the parallel pursuit purchasing a higher joint success probability at a cost equal to the sum of the route costs. The case is the cleanest available demonstration that a portfolio is rational under uncertainty about which approach works even when it is manifestly wasteful under any single realized history, and it is the structure the engineering-development portion of the SpaceX portfolio most resembles.
 
@@ -521,7 +707,10 @@ The Ford and Toyota manufacturing trajectories supply the instance in which a si
 
 The conglomerate wave of the mid-twentieth century yields the negative precedent that the discount literature was written to explain. The configurations assembled unrelated lines by acquisition on the explicit rationale of risk reduction, and the subsequent record was sufficiently poor that the form was substantially abandoned. The treatments in [Chandler 1962][book_chandler_1962], [Chandler 1977][book_chandler_1977], [Chandler 1990][book_chandler_1990], [Fligstein 2001][book_fligstein_2001] The Architecture of Markets, and [Montgomery 1994][research_montgomery_1994] document the episode. The precedent set permits summary through the pair of indicators the article's central distinction defines
 
-$$\chi = \left( \mathbb{1}\!\left[ L > 1 \right], \; \mathbb{1}\!\left[ \textstyle\bigcap_\ell K_\ell \neq \varnothing \right] \right)$$
+$$
+\chi = \left( \mathbb{1}\!\left[ L > 1 \right], \; \mathbb{1}\!\left[ \textstyle\bigcap_\ell K_\ell \neq \varnothing \right] \right)
+\tag{63}
+$$
 
 with the chartered companies, the Bell System, the IBM programme, and the Boeing progression occupying the $(1,1)$ cell, the mid-century conglomerates occupying the $(1,0)$ cell, and the single-bet negation cases occupying the $(0, \cdot)$ cell. The historical record contains substantially more $(1,0)$ cases than $(1,1)$ cases, and the $(1,0)$ record is poor. The case is the reason the article's central distinction between a generated and an assembled portfolio must do real work rather than serve as a rhetorical convenience, because the conglomerate wave is exactly what the portfolio-patience condition would license if the distinction were dropped.
 
@@ -587,7 +776,10 @@ The United Launch Alliance holds a single line serving a concentrated customer s
 
 The European, Japanese, Indian, and Chinese configurations documented through the [Arianespace][ref_arianespace], [JAXA][ref_jaxa_press], [ISRO][ref_isro_press], and [China National Space Administration][ref_chinese_space_program] records and the [China sector reporting][ref_china_commercial_space] exhibit state-programme structures in which the survival question is answered by the appropriation rather than by the portfolio. The configurations are therefore not comparable on the dimension this article measures. The comparison that is available concerns the patience component alone, and the ordering across the organizational forms is
 
-$$\tau^{\text{state programme}} > \tau^{\text{founder-controlled private}} > \tau^{\text{venture-backed private}} > \tau^{\text{listed}}$$
+$$
+\tau^{\text{state programme}} > \tau^{\text{founder-controlled private}} > \tau^{\text{venture-backed private}} > \tau^{\text{listed}}
+\tag{64}
+$$
 
 with the state programmes scoring well on the patience component and poorly on the portfolio component, and the listed commercial firms scoring in the reverse.
 
@@ -595,7 +787,10 @@ The incumbent aerospace primes supply the opposite configuration, in which a ver
 
 The pattern the landscape exhibits is that a portfolio and a patient capital source are substitutes rather than complements for the survival purpose. A venture with an assured capital source does not require a portfolio to survive, and a venture with a portfolio does not require an assured capital source. The substitution may be stated compactly
 
-$$P^{\text{ruin}} = f\!\left( \min\left\{ L^{\text{effective}}, \; \Theta^{\text{assured capital}} \right\} \right)$$
+$$
+P^{\text{ruin}} = f\!\left( \min\left\{ L^{\text{effective}}, \; \Theta^{\text{assured capital}} \right\} \right)
+\tag{65}
+$$
 
 with the ruin probability governed by whichever specific protection is stronger rather than by their sum. The SpaceX configuration holds both, which is the reason it is treated in the series as a closed conjunction rather than as a minimal example.
 
@@ -603,7 +798,10 @@ with the ruin probability governed by whichever specific protection is stronger 
 
 The portfolio-patience condition allows application to the organization set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector takes the compact form
 
-$$\boldsymbol{\phi}_j^{\text{portfolio-patience}} \in \{0,1\}^{5}$$
+$$
+\boldsymbol{\phi}_j^{\text{portfolio-patience}} \in \{0,1\}^{5}
+\tag{66}
+$$
 
 with each organization's vector indicating the satisfaction status across the multiplicity, generation, imperfect-correlation, patience, and mission-directed-allocation sub-properties.
 
@@ -613,7 +811,10 @@ Blue Origin exhibits closure on the multiplicity, generation, and patience sub-p
 
 The cross-sectional pattern indicates that the multiplicity sub-property is the easiest to satisfy and the generation sub-property the hardest, and that the two are substantially uncorrelated across the set. The correlation is stated compactly as
 
-$$\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{multiplicity}}, \; \phi_{j,2}^{\text{generation}} \right) \approx 0$$
+$$
+\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{multiplicity}}, \; \phi_{j,2}^{\text{generation}} \right) \approx 0
+\tag{67}
+$$
 
 with the presence of multiple lines carrying substantially no information about whether they were generated from a shared base or assembled. The finding matters because the conglomerate literature establishes that the assembled configuration destroys value, so that a venture satisfying the multiplicity sub-property alone has adopted the arrangement the evidence disfavors.
 
@@ -637,19 +838,28 @@ The corporate-diversification framing developed in [Lang and Stulz 1994][researc
 
 The vertical-integration framing developed in [Coase 1937][research_coase_1937], [Williamson 1975][research_williamson_1975], [Williamson 1985][book_williamson_1985], [Klein et al. 1978][research_klein_crawford_alchian_1978], [Monteverde and Teece 1982][research_monteverde_teece_1982], [Grossman and Hart 1986][research_grossman_hart_1986], [Hart and Moore 1990][research_hart_moore_1990], and [Lafontaine and Slade 2007][research_lafontaine_slade_2007] treats the configuration not as a portfolio at all but as a vertically integrated production chain in which the launch line is an input supplier to the constellation line. The framing is a serious competitor to the portfolio reading, because the launch-to-constellation relationship is genuinely vertical. The double-marginalization gain takes the form
 
-$$\Delta^{\text{integration}} = \left( p^{\text{market}}_{\text{launch}} - c^{\text{marginal}}_{\text{launch}} \right) \cdot q^{\text{internal}}$$
+$$
+\Delta^{\text{integration}} = \left( p^{\text{market}}_{\text{launch}} - c^{\text{marginal}}_{\text{launch}} \right) \cdot q^{\text{internal}}
+\tag{68}
+$$
 
 with the gain equal to the eliminated upstream margin applied across the internally consumed quantity, and with the magnitude for this case substantial because the internal quantity is large. The framing predicts that the arrangement's value derives from the elimination of a double-marginalization and a holdup hazard rather than from any risk reduction. The two readings are not mutually exclusive and the article's claim is that the portfolio reading adds something the vertical reading omits, namely the survival of the subscription revenue under the vehicle-grounding scenario.
 
 The resource-based and dynamic-capabilities framing developed in [Penrose 1959][book_penrose_1959], [Wernerfelt 1984][research_wernerfelt_1984], [Barney 1991][research_barney_1991], [Peteraf 1993][research_peteraf_1993], [Teece et al. 1997][research_teece_pisano_shuen_1997], [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000], [Helfat and Peteraf 2003][research_helfat_peteraf_2003], [Winter 2003][research_winter_2003], and [Teece 2007][research_teece_2007] treats the lines as redeployments of an underused resource base. The resource-quality criterion the tradition yields can be written as
 
-$$\Pi_\ell = V_\ell \cdot R_\ell \cdot I_\ell \cdot N_\ell$$
+$$
+\Pi_\ell = V_\ell \cdot R_\ell \cdot I_\ell \cdot N_\ell
+\tag{69}
+$$
 
 with the four factors indexing value, rarity, inimitability, and non-substitutability, and with a shared resource scoring on the criterion contributing to every line simultaneously. The [Penrose 1959][book_penrose_1959] mechanism is the closest available account of how the lines came to exist, and the framing contributes the best explanation of the generation process while supplying substantially nothing about the risk structure.
 
 The platform framing developed in [Meyer and Lehnerd 1997][book_meyer_lehnerd_1997], [Baldwin and Clark 2000][book_baldwin_clark_2000], [Gawer and Cusumano 2002][book_cusumano_gawer_2002], [Iansiti and Levien 2004][book_iansiti_levien_2004], [Adner 2012][book_adner_2012], [Adner 2021][book_adner_2021], [Gawer and Cusumano 2013][research_gawer_cusumano_2014], and [Jacobides et al. 2018][research_jacobides_et_al_2018] treats the shared capability base as a platform and the lines as applications built on it. The platform account and the generated-portfolio account are related by the compact correspondence
 
-$$\text{platform} \longleftrightarrow \bigcap_\ell K_\ell \qquad \text{applications} \longleftrightarrow \mathcal{L}$$
+$$
+\text{platform} \longleftrightarrow \bigcap_\ell K_\ell \qquad \text{applications} \longleftrightarrow \mathcal{L}
+\tag{70}
+$$
 
 with the shared capability intersection playing the role the platform literature assigns to the platform and the line set playing the role it assigns to the applications. The framing is substantially equivalent to the generated-portfolio account in different vocabulary.
 
@@ -657,13 +867,19 @@ The real-options framing developed in [Dixit and Pindyck 1994][book_dixit_pindyc
 
 The behavioral framing developed in [Kahneman and Tversky 1979][research_kahneman_tversky_1979], [Tversky and Kahneman 1992][research_tversky_kahneman_1992], [Kahneman 2011][book_kahneman_2011], [Staw 1976][research_staw_1976], and [Ross and Staw 1993][research_ross_staw_1993] supplies the skeptical reading under which the patience the condition praises is an escalation of commitment that the absence of an external check permits. The framing generates a testable prediction that the continuation decision is insensitive to the arriving evidence
 
-$$\frac{\partial P\!\left( \text{continue} \right)}{\partial \, \text{signal}} \approx 0 \qquad \text{under escalation} \qquad \text{against} \qquad < 0 \quad \text{under rational updating}$$
+$$
+\frac{\partial P\!\left( \text{continue} \right)}{\partial \, \text{signal}} \approx 0 \qquad \text{under escalation} \qquad \text{against} \qquad < 0 \quad \text{under rational updating}
+\tag{71}
+$$
 
 with the two readings distinguishable in principle by observing whether the resource commitment responds to the programme's setbacks. The prediction is not distinguishable from the favorable reading using the evidence available while the programme remains incomplete, because the observed setbacks have been followed by the continued commitment under both readings.
 
 The evolutionary and selection framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the caution that the observed configuration is a survivor and that the portfolio may be a consequence of survival rather than a cause of it. The caution is stronger for this condition than for any other in the framework, because the causal direction is genuinely ambiguous. The identification failure has the concise statement
 
-$$\text{Cov}\!\left( \text{portfolio}, \; \text{survival} \right) = \underbrace{\beta_1}_{\text{portfolio causes survival}} + \underbrace{\beta_2}_{\text{survival permits portfolio}}$$
+$$
+\text{Cov}\!\left( \text{portfolio}, \; \text{survival} \right) = \underbrace{\beta_1}_{\text{portfolio causes survival}} + \underbrace{\beta_2}_{\text{survival permits portfolio}}
+\tag{72}
+$$
 
 with the observed covariance equal to the sum and with no available instrument separating the two terms. A venture survives long enough to build a portfolio, and a portfolio helps a venture survive, and the observational record cannot separate them.
 
@@ -683,7 +899,10 @@ The portfolio-patience pattern that the SpaceX case exhibits supports the follow
 
 The abstract mechanic requires joint satisfaction of five sub-properties, admitting the compact conjunctive form
 
-$$\Phi^{\text{portfolio-patience}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}$$
+$$
+\Phi^{\text{portfolio-patience}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}
+\tag{73}
+$$
 
 First, the venture must hold more than one revenue-bearing line, so that no single adverse outcome is terminal.
 
@@ -697,13 +916,19 @@ Fifth, the capital must be directed among the lines according to the mission. A 
 
 The mechanic admits a diagnostic procedure stated as an ordered test vector
 
-$$\tau = \left( L > 1, \;\; \left| \bigcap_\ell K_\ell \right| \gg 0, \;\; \rho^{(c)}_{\ell m} < 1 \; \forall c, \;\; \tau_\ell \geq \tau^{\ast}_\ell, \;\; f_{\ell \to m} \text{ tracks mission} \right)$$
+$$
+\tau = \left( L > 1, \;\; \left| \bigcap_\ell K_\ell \right| \gg 0, \;\; \rho^{(c)}_{\ell m} < 1 \; \forall c, \;\; \tau_\ell \geq \tau^{\ast}_\ell, \;\; f_{\ell \to m} \text{ tracks mission} \right)
+\tag{74}
+$$
 
 with the second and third components the ones a candidate case will usually fail and the first the one it will usually pass.
 
 The mechanic carries two costs the statement should not conceal. The first is that the lines compete for a finite engineering attention, so that the portfolio purchases its survival benefit with a slower rate of progress on each line than a single-line configuration would achieve. The second is that the mission-directed allocation is by construction not the return-maximizing allocation, so that the configuration is worth less to an investor who does not hold the mission than the same assets would be worth separately. The trade can be stated as
 
-$$\frac{\partial P^{\text{ruin}}}{\partial L} < 0 \qquad \text{while} \qquad \frac{\partial \, \text{rate of progress per line}}{\partial L} < 0$$
+$$
+\frac{\partial P^{\text{ruin}}}{\partial L} < 0 \qquad \text{while} \qquad \frac{\partial \, \text{rate of progress per line}}{\partial L} < 0
+\tag{75}
+$$
 
 with both derivatives negative, so that the line count that minimizes the ruin probability is not the line count that maximizes the rate at which any single line advances. The condition is therefore not a free improvement. It is a purchase of a reduced ruin probability at a price paid in speed and investor value.
 
@@ -722,6 +947,664 @@ The article adopts terminology consistent with the finance and strategy conventi
 ## Load-Bearing Open Questions
 
 The article closes with the load-bearing open questions the treatment leaves unresolved. First, the causal direction between the portfolio and the survival is genuinely ambiguous, and the observational record cannot separate the hypothesis that the portfolio produced the survival from the hypothesis that the survival permitted the portfolio. Second, the internal transfer prices are unknown, which means that substantially every per-line quantitative claim in this article rests on an assumption the article cannot verify. Third, the shared-vehicle common factor means the portfolio contributes substantially no protection against the most likely catastrophic operational event, and the article does not resolve how much the surviving subscription revenue offsets that exposure. Fourth, the key-person common factor is perfectly correlated across the lines and interacts adversely with the governance condition, and the framework does not otherwise surface the interaction. Fifth, the conglomerate-discount objection is answered by an argument about the objective rather than by evidence, and a reader who does not accept the mission as a legitimate corporate objective will find the answer unpersuasive. Sixth, the patience the article documents is not distinguishable from an escalation of commitment using the evidence available while the Starship programme remains incomplete.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 75 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 75, 18 are established and 57 are bespoke.
+Returns, weights, correlations and probabilities are dimensionless, runways are measured in time, and flows, costs and values carry whatever currency unit a section uses, while most equations state the structure of an argument and are not evaluated with data.
+
+**Equation 1, Portfolio Return.**
+The portfolio return is the weighted sum of the line returns, with weights that sum to one.
+[Markowitz 1952][research_markowitz_1952]
+
+$$
+R^{\text{portfolio}}(t) = \sum_{\ell \in \mathcal{L}} w_\ell(t) \, R_\ell(t) \qquad \text{with} \qquad \sum_{\ell} w_\ell(t) = 1
+\tag{1}
+$$
+
+**Equation 2, Portfolio Variance.**
+The portfolio variance is the double sum over pairs of lines of the two weights, the correlation and the two standard deviations.
+[Markowitz 1952][research_markowitz_1952]
+
+$$
+\sigma^2_{\text{portfolio}} = \sum_{\ell} \sum_{m} w_\ell w_m \, \rho_{\ell m} \, \sigma_\ell \sigma_m
+\tag{2}
+$$
+
+**Equation 3, Finite-Horizon Ruin Probability.**
+The ruin probability is the probability that the cash position first falls to zero or below at some time before the horizon.
+
+$$
+P^{\text{ruin}}(T) = P\!\left( \exists \, t \leq T \; : \; C(t) \leq 0 \right)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Ruin Probability of Independent Lines.*
+Ruin of the portfolio is approximated as the product of the line failure probabilities, which assumes that failures are independent and that any one surviving line averts ruin.
+
+$$
+P^{\text{ruin}}_{\text{portfolio}} \approx \prod_{\ell \in \mathcal{L}} P^{\text{failure}}_\ell \qquad \text{against} \qquad P^{\text{ruin}}_{\text{single bet}} = P^{\text{failure}}_1
+\tag{4}
+$$
+
+**Equation 5, Correlation Matrix of the Lines.**
+The correlation matrix collects the pairwise correlations between every two lines of the portfolio.
+
+$$
+\boldsymbol{\rho} = \left[ \rho_{\ell m} \right]_{\ell, m \in \mathcal{L}}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Single-Line Counterfactual Differential.*
+The portfolio contribution is defined as the observed value less the value under a counterfactual in which the firm pursued the mission through a single line.
+
+$$
+\Delta V^{\text{portfolio}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{single-line counterfactual}}_i(t)
+\tag{6}
+$$
+
+*Equation 7, Bespoke Patience Condition.*
+The condition requires the interval the venture will sustain each line without a positive return to be at least the interval that line in fact requires.
+
+$$
+\tau_\ell \geq \tau^{\ast}_\ell \qquad \forall \ell \in \mathcal{L}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Correspondence of Patience and Discount Rate.*
+The article treats the tolerated horizon and the discount rate of a line as two descriptions of one parameter, with the horizon falling as the rate rises.
+
+$$
+\tau_\ell \; \longleftrightarrow \; \rho_\ell \qquad \text{with} \qquad \frac{\partial \tau_\ell}{\partial \rho_\ell} < 0
+\tag{8}
+$$
+
+**Equation 9, Effective Number of Equally Correlated Lines.**
+For equally weighted lines of equal variance and common pairwise correlation, the portfolio variance equals that of this many independent lines, from the nominal count at zero correlation down to one at perfect correlation.
+
+$$
+L^{\text{effective}} = \frac{L}{1 + (L-1)\rho}
+\tag{9}
+$$
+
+**Equation 10, Mean-Variance Utility.**
+The mean-variance objective is the expected portfolio return less half a risk-aversion coefficient times the portfolio variance.
+
+$$
+U = E\!\left[ R^{\text{portfolio}} \right] - \tfrac{\gamma}{2} \sigma^2_{\text{portfolio}}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Survival Objective.*
+The venture is taken to maximise the probability of reaching the mission, which equals one minus the ruin probability at the mission horizon.
+
+$$
+U^{\text{survival}} = P\!\left( \text{reach } M \right) = 1 - P^{\text{ruin}}(T^{\text{mission}})
+\tag{11}
+$$
+
+*Equation 12, Bespoke Cross-Subsidisation Flow.*
+The flow is defined as the capital directed from one line to another at a given time.
+
+$$
+f_{\ell \to m}(t) = \text{capital directed from line } \ell \text{ to line } m \text{ at } t
+\tag{12}
+$$
+
+*Equation 13, Bespoke Net Capital Position of a Line.*
+The net position of a line is the capital it receives from other lines less the capital it sends to them, so that a persistently negative value marks a source and a positive one a sink.
+
+$$
+n_\ell(t) = \sum_{m} f_{m \to \ell}(t) - \sum_{m} f_{\ell \to m}(t)
+\tag{13}
+$$
+
+*Equation 14, Bespoke Generated Portfolio Condition.*
+A portfolio is classed as generated when the capability shared by every line is non-empty and forms a substantial fraction of all the capability the lines require.
+
+$$
+\bigcap_{\ell \in \mathcal{L}} K_\ell \neq \varnothing \qquad \text{and} \qquad \left| \bigcap_{\ell} K_\ell \right| \big/ \left| \bigcup_{\ell} K_\ell \right| \gg 0
+\tag{14}
+$$
+
+**Equation 15, Sharpe Ratio.**
+The Sharpe ratio is the expected portfolio return in excess of the risk-free rate divided by the portfolio standard deviation.
+[Sharpe 1964][research_sharpe_1964]
+
+$$
+S = \frac{E\!\left[R^{\text{portfolio}}\right] - r_f}{\sigma_{\text{portfolio}}}
+\tag{15}
+$$
+
+**Equation 16, Berger and Ofek Excess Value.**
+Excess value is the natural logarithm of the observed firm value divided by the imputed value of its segments, each an industry median multiple times an accounting base.
+[Berger and Ofek 1995][research_berger_ofek_1995]
+
+$$
+EV = \ln\!\left( \frac{V^{\text{observed}}}{\sum_\ell m_\ell \cdot A_\ell} \right)
+\tag{16}
+$$
+
+*Equation 17, Bespoke Allocation Quality.*
+Allocation quality is defined as the correlation across lines between the capital directed to a line and its investment opportunity.
+
+$$
+Q^{\text{allocation}} = \operatorname{corr}\!\left( \Delta k_\ell, \; q_\ell \right)
+\tag{17}
+$$
+
+**Equation 18, Portfolio of Options Dominates an Option on a Portfolio.**
+The expected sum of separate call payoffs is at least the expected payoff of a single call on the summed values and strike prices, because the positive part of a sum never exceeds the sum of positive parts.
+[Merton 1973][research_merton_1973]
+
+$$
+\sum_{\ell} E\!\left[ \max(V_\ell - K_\ell, 0) \right] \geq E\!\left[ \max\!\left( \sum_\ell V_\ell - \sum_\ell K_\ell, 0 \right) \right]
+\tag{18}
+$$
+
+**Equation 19, Lundberg Bound on Ultimate Ruin.**
+The classical ruin-theory bound limits the probability of ultimate ruin to an exponential in the initial capital with the adjustment coefficient as rate.
+
+$$
+P^{\text{ruin}}(\infty) \leq e^{-\Lambda \, C(0)}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Penrose Slack Measure.*
+Slack is defined as the sum over capabilities of the positive part of capacity less utilisation, a formalisation the article gives of the underused resources in the Penrose account.
+[Penrose 1959][book_penrose_1959]
+
+$$
+\Sigma(t) = \sum_{k \in K} \left[ \bar{u}_k - u_k(t) \right]^{+}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Platform Leverage.*
+Platform leverage is defined as the summed value of the lines divided by the cost of the shared capability base.
+
+$$
+\Lambda^{\text{platform}} = \frac{\sum_{\ell} V_\ell}{C^{\text{shared base}}}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Exponential Decay of Advantage.*
+The advantage of a line is modelled as decaying exponentially at the clockspeed of its industry, a functional form the article assumes for the clockspeed argument.
+
+$$
+A_\ell(t) = A_\ell(0) \, e^{-\kappa_\ell t}
+\tag{22}
+$$
+
+**Equation 23, Free Cash Flow Prediction of Diversification.**
+The agency theory of free cash flow predicts that diversification rises with the free cash flow available to managers.
+[Jensen 1986][research_jensen_1986]
+
+$$
+\frac{\partial \, \text{diversification}}{\partial \, \text{free cash flow}} > 0 \qquad \text{under the agency reading}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Learning Curve on Pooled Volume.*
+The learning curve is applied to the shared production element with cumulative volume summed across all lines, which assumes that experience pools across the lines.
+[Wright 1936][research_wright_1936]
+
+$$
+c^{\text{shared}}_n = c^{\text{shared}}_1 \left( \sum_{\ell} n_\ell \right)^{-b}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Falcon Dependency of the Revenue Lines.*
+The statement places the Falcon capability in the capability set of each of the four revenue lines other than next-generation development.
+
+$$
+K^{\text{Falcon}} \in K_\ell \qquad \text{for} \qquad \ell \in \{\text{launch}, \text{spacecraft}, \text{constellation}, \text{defense}\}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Correlation Decomposition by Risk Category.*
+The correlation between two lines is modelled as a weighted sum of category-specific correlations, an additive decomposition the article assumes.
+
+$$
+\rho_{\ell m} = \sum_{c \in \mathcal{C}} \omega_c \, \rho^{(c)}_{\ell m}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Effective Line Count Vector.*
+The effective line count is reported as a vector with one component for each risk category rather than as a single number.
+
+$$
+\boldsymbol{L}^{\text{effective}} = \left( L^{\text{eff}}_{\text{vehicle}}, \; L^{\text{eff}}_{\text{demand}}, \; L^{\text{eff}}_{\text{regulatory}}, \; L^{\text{eff}}_{\text{key-person}} \right)
+\tag{27}
+$$
+
+*Equation 28, Bespoke Internal Consumption Fraction.*
+The fraction the article defines divides the launches consumed internally by the total launches.
+
+$$
+\iota(t) = \frac{n^{\text{internal launches}}(t)}{n^{\text{total launches}}(t)}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Effective Weight of the Launch Line.*
+The diversifying weight of the launch line is taken as its portfolio weight times its external fraction, on the premise that internal supply diversifies nothing.
+
+$$
+w^{\text{effective}}_{\text{launch}} = \left( 1 - \iota(t) \right) \cdot w_{\text{launch}}(t)
+\tag{29}
+$$
+
+**Equation 30, Herfindahl Index of Customer Concentration.**
+The Herfindahl index of a line is the sum of the squared revenue shares of its customers.
+
+$$
+H_\ell = \sum_{j} s_{j\ell}^2
+\tag{30}
+$$
+
+**Equation 31, Ruin Sensitivity Ordered by Correlation Sign.**
+Adding weight to a line lowers the ruin probability most when the line is negatively correlated with the rest, less when uncorrelated and least when positively correlated.
+
+$$
+\left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell < 0} < \left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell = 0} < \left. \frac{\partial P^{\text{ruin}}}{\partial w_\ell} \right|_{\rho_\ell > 0}
+\tag{31}
+$$
+
+**Equation 32, First-Order Autocorrelation of Revenue.**
+The first-order autocorrelation is the correlation between the revenue of a line in one period and its revenue in the previous period.
+
+$$
+\phi_\ell = \operatorname{corr}\!\left( r_\ell(t), \; r_\ell(t-1) \right)
+\tag{32}
+$$
+
+*Equation 33, Bespoke Threshold Revenue of a Constellation.*
+Constellation revenue is modelled as zero below a minimum deployed count and as a function of the deployed count above it.
+
+$$
+r^{\text{constellation}}(t) = \begin{cases} 0 & N^{\text{deployed}}(t) < N^{\text{minimum}} \\ g\!\left( N^{\text{deployed}}(t) \right) & \text{otherwise} \end{cases}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Defence Revenue Drivers.*
+Defence revenue is modelled as linear in a threat driver and an appropriation driver plus an error term, neither driver appearing in the commercial lines.
+
+$$
+r_{\text{defense}}(t) = \beta_{\text{threat}} \, X^{\text{threat}}(t) + \beta_{\text{approp}} \, X^{\text{appropriation}}(t) + \varepsilon(t)
+\tag{34}
+$$
+
+*Equation 35, Bespoke Net Contribution of the Defence Line.*
+The net contribution of the defence line is a positive diversification term less a positive constraint-spillover cost, with a sign the article leaves open.
+
+$$
+\Delta_{\text{defense}} = \underbrace{\delta^{\text{diversification}}}_{> 0} - \underbrace{c^{\text{constraint spillover}}}_{> 0}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Negative Net Present Value of Starship.*
+The net present value of Starship at the investor discount rate is asserted to be negative at any time across the period, a judgement the article makes rather than computes.
+
+$$
+\text{NPV}_{\text{Starship}}(t) = \sum_{s > t} \frac{E\!\left[ \text{CF}(s) \right]}{(1+\rho)^{s-t}} - K(t) < 0 \qquad \text{for } \rho = \rho^{\text{investor}}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Patience Condition for Starship.*
+The patience condition is applied to Starship, requiring the horizon the controller tolerates to be at least the horizon the programme requires.
+
+$$
+\tau_{\text{Starship}} \geq \tau^{\ast}_{\text{Starship}}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Option Value of Starship.*
+The value of Starship is constructed as a probability-weighted sum over applications of the positive part of application value net of residual investment.
+
+$$
+V^{\text{Starship}} = \sum_{a \in A} p(a) \cdot \left[ V^{\text{application}}(a) - K^{\text{residual}}(a) \right]^{+}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Maturity Ordering of Capital Flows.*
+The statement records that positive flows run predominantly from more mature to less mature lines.
+
+$$
+f_{\ell \to m} > 0 \quad \text{predominantly for} \quad \text{maturity}(\ell) > \text{maturity}(m)
+\tag{39}
+$$
+
+*Equation 40, Bespoke Lifecycle Position of a Line.*
+The lifecycle position the article defines divides the cumulative revenue of a line by its cumulative investment.
+
+$$
+\mu_\ell(t) = \frac{\text{cumulative revenue}_\ell(t)}{\text{cumulative investment}_\ell(t)}
+\tag{40}
+$$
+
+**Equation 41, Invariance of Total Profit to the Transfer Price.**
+The combined profit of the launch and constellation lines is unchanged by the internal transfer price, which only moves profit from one line to the other.
+
+$$
+\pi_{\text{launch}} + \pi_{\text{constellation}} = \text{invariant} \qquad \text{while} \qquad \frac{\partial \pi_{\text{launch}}}{\partial p^{\text{transfer}}} > 0 > \frac{\partial \pi_{\text{constellation}}}{\partial p^{\text{transfer}}}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Mission and Return Allocation Quality.*
+Allocation quality measured against the marginal contribution to reaching the mission is set against quality measured against investment opportunity.
+
+$$
+Q^{\text{mission}} = \operatorname{corr}\!\left( \Delta k_\ell, \; \frac{\partial P(\text{reach } M)}{\partial k_\ell} \right) \qquad \text{against} \qquad Q^{\text{return}} = \operatorname{corr}\!\left( \Delta k_\ell, \; q_\ell \right)
+\tag{42}
+$$
+
+*Equation 43, Bespoke Surviving Revenue Fraction under Grounding.*
+The fraction the article defines is the share of total revenue from constellation subscriptions that continues during an extended vehicle grounding.
+
+$$
+\theta = \frac{r^{\text{constellation subscription}}}{r^{\text{total}}} \qquad \text{conditional on } S
+\tag{43}
+$$
+
+*Equation 44, Bespoke Effective Line Counts by Risk Category.*
+The effective line count is about one for vehicle risk and three to four for demand risk, values the article estimates from its reading of the correlation structure.
+
+$$
+L^{\text{effective}} \Big|_{\text{vehicle risk}} \approx 1 \qquad \text{against} \qquad L^{\text{effective}} \Big|_{\text{demand risk}} \approx 3 \text{ to } 4
+\tag{44}
+$$
+
+*Equation 45, Bespoke Stressed Runway.*
+The runway under a grounding is the cash position divided by the burn rate less the surviving revenue, and it becomes unbounded once that revenue exceeds the burn.
+
+$$
+\Theta^{\text{stress}} = \frac{C(t)}{\dot{C}^{\text{burn}} - \theta \cdot r^{\text{total}}}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Uninsured Loss.*
+The uninsured loss is the total loss less the insured loss, which the article equates with the consequential loss plus the loss of a development programme.
+
+$$
+L^{\text{uninsured}} = L^{\text{total}} - L^{\text{insured}} = L^{\text{consequential}} + L^{\text{programme}}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Adverse Interaction of Governance and Portfolio Closures.*
+The inequality states that the survival probability given both closures falls below what independence of the two closures would imply, through the key-person channel.
+
+$$
+P\!\left( \text{survive} \mid \phi_6 = 1, \phi_7 = 1 \right) < P\!\left( \text{survive} \mid \phi_6 = 1 \right) \cdot P\!\left( \text{survive} \mid \phi_7 = 1 \right) \big/ P\!\left( \text{survive} \right)
+\tag{47}
+$$
+
+*Equation 48, Bespoke Penrose Growth Constraint.*
+The rate of line addition is bounded by a multiple of managerial capacity, which grows with experience, a formalisation the article gives of the Penrose effect.
+[Penrose 1959][book_penrose_1959]
+
+$$
+\frac{dL}{dt} \leq \gamma \cdot M(t) \qquad \text{with} \qquad \dot{M}(t) = h\!\left( M(t), \; \text{experience} \right)
+\tag{48}
+$$
+
+*Equation 49, Bespoke Attention Budget.*
+Attention across lines is bounded by a fixed total, with progress on each line increasing in the attention it receives.
+
+$$
+\sum_{\ell \in \mathcal{L}} a_\ell(t) \leq \bar{A} \qquad \text{with} \qquad \frac{\partial \, \text{progress}_\ell}{\partial a_\ell} > 0
+\tag{49}
+$$
+
+**Equation 50, Diversification Discount.**
+The discount is the value of the diversified firm divided by the summed standalone values of its segments less one, found negative in the diversified samples.
+[Lang and Stulz 1994][research_lang_stulz_1994]
+[Berger and Ofek 1995][research_berger_ofek_1995]
+
+$$
+D = \frac{V^{\text{diversified}}}{\sum_{\ell} V^{\text{standalone}}_\ell} - 1 < 0
+\tag{50}
+$$
+
+*Equation 51, Bespoke Undefined Standalone Valuation.*
+The standalone value of a line differs from its value within the portfolio because the standalone cost exceeds the cost on the shared base.
+
+$$
+V^{\text{standalone}}_\ell \neq V_\ell \Big|_{\text{within portfolio}} \qquad \text{because} \qquad c_\ell^{\text{standalone}} > c_\ell \Big|_{\text{shared base}}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Investor and Venture Optimisation Problems.*
+The investor is modelled as minimising variance subject to a return floor and the venture as minimising the ruin probability at the mission horizon.
+
+$$
+\text{investor solves} \; \min_w \sigma^2(w) \quad \text{s.t.} \; E[R] \geq \bar{R} \qquad \text{venture solves} \; \min_w P^{\text{ruin}}(w, T^{\text{mission}})
+\tag{52}
+$$
+
+*Equation 53, Bespoke Asymmetry of Investor Diversification.*
+The statement holds that investor diversification lowers the investor variance and leaves the ruin probability of the venture unchanged.
+
+$$
+\frac{\partial \sigma^2_{\text{investor}}}{\partial \text{diversification}} < 0 \qquad \text{while} \qquad \frac{\partial P^{\text{ruin}}_{\text{venture}}}{\partial \text{investor diversification}} = 0
+\tag{53}
+$$
+
+*Equation 54, Bespoke Iridium Survival Condition.*
+Survival is taken to require subscriber revenue above the debt-service rate from the commencement of service onward.
+
+$$
+r^{\text{subscriber}}(t) > \dot{C}^{\text{debt service}} \qquad \text{from} \qquad t = t^{\text{service commencement}}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Iridium Revenue Coverage Ratio.*
+The coverage ratio divides subscriber revenue by the debt-service rate, a variant of the debt-service coverage ratio that uses revenue in place of operating income.
+
+$$
+\Xi(t) = \frac{r^{\text{subscriber}}(t)}{\dot{C}^{\text{debt service}}}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Decomposition of the Iridium Outcome Difference.*
+The outcome difference between the constellation line and Iridium is split into two portfolio-patience terms and two other terms, of which the article claims only the first pair.
+
+$$
+\Delta^{\text{outcome}} = \underbrace{\Delta^{\text{funding source}} + \Delta^{\text{concurrent revenue}}}_{\text{portfolio-patience}} + \underbrace{\Delta^{\text{deployment cost}} + \Delta^{\text{market segment}}}_{\text{not portfolio-patience}}
+\tag{56}
+$$
+
+*Equation 57, Bespoke Annual Appropriation Survival Product.*
+The survival of the Superconducting Super Collider is expressed through a product over construction years of the probability that the appropriation continues, which assumes the years are independent.
+
+$$
+\prod_{y=1}^{Y} P\!\left( \text{appropriation continues in year } y \right) > 0
+\tag{57}
+$$
+
+*Equation 58, Bespoke All-or-Nothing Value of the Collider.*
+The value of the Superconducting Super Collider is modelled as zero at any completed fraction below one and as the complete value only at completion.
+
+$$
+V^{\text{SSC}}(f) = \begin{cases} 0 & f < 1 \\ V^{\text{complete}} & f = 1 \end{cases}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Estimated Survival Comparison.*
+The estimated survival probability of single-line ventures is asserted to be far below that of portfolio ventures, a comparison the article reads from the sector record.
+
+$$
+\hat{P}\!\left( \text{survival} \mid \text{single line} \right) \ll \hat{P}\!\left( \text{survival} \mid \text{portfolio} \right)
+\tag{59}
+$$
+
+*Equation 60, Bespoke Survivorship Confounding.*
+Assembling a portfolio is positively associated with survival and is itself more likely among ventures that survived the early period, which inflates the apparent benefit.
+
+$$
+P(S \mid A) > P(S) \qquad \text{with} \qquad P(A \mid S^{\text{early}}) > P(A)
+\tag{60}
+$$
+
+**Equation 61, Ruin of Independent Voyages.**
+With independent voyages each lost with the same probability, ruin requires every voyage to be lost, so its probability is the loss probability raised to the voyage count.
+
+$$
+P^{\text{ruin}} = q^{\, n} \qquad \text{against} \qquad P^{\text{ruin}} = q \quad \text{for the single-voyage partnership}
+\tag{61}
+$$
+
+**Equation 62, Probability That at Least One Route Succeeds.**
+For independent routes the probability that at least one succeeds is one minus the product of the failure probabilities.
+
+$$
+P(\text{at least one succeeds}) = 1 - \prod_{r} \left( 1 - p_r \right)
+\tag{62}
+$$
+
+*Equation 63, Bespoke Precedent Classification Pair.*
+The pair of indicators for multiple lines and a shared capability base classifies the historical precedents into cells, a classification the article constructs.
+
+$$
+\chi = \left( \mathbb{1}\!\left[ L > 1 \right], \; \mathbb{1}\!\left[ \textstyle\bigcap_\ell K_\ell \neq \varnothing \right] \right)
+\tag{63}
+$$
+
+*Equation 64, Bespoke Ordering of Patience by Organisational Form.*
+Patience is ordered from state programmes through founder-controlled and venture-backed private firms to listed firms, a ranking the article asserts.
+
+$$
+\tau^{\text{state programme}} > \tau^{\text{founder-controlled private}} > \tau^{\text{venture-backed private}} > \tau^{\text{listed}}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Substitution of Portfolio and Assured Capital.*
+The ruin probability is posited to depend on the stronger of the effective line count and the assured-capital runway rather than on their sum.
+
+$$
+P^{\text{ruin}} = f\!\left( \min\left\{ L^{\text{effective}}, \; \Theta^{\text{assured capital}} \right\} \right)
+\tag{65}
+$$
+
+*Equation 66, Bespoke Portfolio-Patience Closure Vector.*
+Each organisation receives a binary vector over the five portfolio-patience sub-properties that the pattern-extraction section states.
+
+$$
+\boldsymbol{\phi}_j^{\text{portfolio-patience}} \in \{0,1\}^{5}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Correlation of Multiplicity and Generation.*
+The statement records the article's finding that the multiplicity and generation indicators are nearly uncorrelated across its scored set.
+
+$$
+\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{multiplicity}}, \; \phi_{j,2}^{\text{generation}} \right) \approx 0
+\tag{67}
+$$
+
+*Equation 68, Bespoke Gain from Vertical Integration.*
+The integration gain is approximated as the upstream launch margin over marginal cost times the internally consumed quantity, which omits any change in downstream price.
+
+$$
+\Delta^{\text{integration}} = \left( p^{\text{market}}_{\text{launch}} - c^{\text{marginal}}_{\text{launch}} \right) \cdot q^{\text{internal}}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Multiplicative Resource-Quality Criterion.*
+The resource criterion is written as the product of value, rarity, inimitability and non-substitutability, a multiplicative form the article chose for the four resource-based criteria.
+[Barney 1991][research_barney_1991]
+
+$$
+\Pi_\ell = V_\ell \cdot R_\ell \cdot I_\ell \cdot N_\ell
+\tag{69}
+$$
+
+*Equation 70, Bespoke Platform Correspondence.*
+The correspondence maps the platform to the capability shared by every line and the applications to the line set.
+
+$$
+\text{platform} \longleftrightarrow \bigcap_\ell K_\ell \qquad \text{applications} \longleftrightarrow \mathcal{L}
+\tag{70}
+$$
+
+*Equation 71, Bespoke Escalation Test.*
+Escalation predicts that continuation is insensitive to arriving evidence, whereas rational updating predicts that continuation falls with adverse evidence.
+
+$$
+\frac{\partial P\!\left( \text{continue} \right)}{\partial \, \text{signal}} \approx 0 \qquad \text{under escalation} \qquad \text{against} \qquad < 0 \quad \text{under rational updating}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Two-Direction Covariance Decomposition.*
+The covariance of portfolio and survival is split into a term for portfolio causing survival and a term for survival permitting portfolio, which the record cannot separate.
+
+$$
+\text{Cov}\!\left( \text{portfolio}, \; \text{survival} \right) = \underbrace{\beta_1}_{\text{portfolio causes survival}} + \underbrace{\beta_2}_{\text{survival permits portfolio}}
+\tag{72}
+$$
+
+*Equation 73, Bespoke Portfolio-Patience Conjunctive Closure.*
+Closure is the product of five binary sub-property indicators, so that it obtains only when every indicator is one.
+
+$$
+\Phi^{\text{portfolio-patience}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}
+\tag{73}
+$$
+
+*Equation 74, Bespoke Portfolio-Patience Test Vector.*
+The test vector collects the five diagnostic conditions, from more than one line to flows that track the mission.
+
+$$
+\tau = \left( L > 1, \;\; \left| \bigcap_\ell K_\ell \right| \gg 0, \;\; \rho^{(c)}_{\ell m} < 1 \; \forall c, \;\; \tau_\ell \geq \tau^{\ast}_\ell, \;\; f_{\ell \to m} \text{ tracks mission} \right)
+\tag{74}
+$$
+
+*Equation 75, Bespoke Trade between Survival and Progress.*
+Adding lines lowers the ruin probability and also lowers the rate of progress on each line, so the two objectives call for different line counts.
+
+$$
+\frac{\partial P^{\text{ruin}}}{\partial L} < 0 \qquad \text{while} \qquad \frac{\partial \, \text{rate of progress per line}}{\partial L} < 0
+\tag{75}
+$$
+
+### Notation
+
+- $\mathcal{L}$, the set of revenue-bearing lines
+- $w_\ell$, the portfolio weight of the line $\ell$
+- $R_\ell(t)$, the return of the line $\ell$ at time $t$
+- $\rho_{\ell m}$, the correlation between the lines $\ell$ and $m$
+- $\sigma_\ell$, the standard deviation of the return of the line $\ell$
+- $P^{\text{ruin}}$, the probability that the cash position falls to zero before the horizon
+- $C(t)$, the cash position of the venture
+- $\tau_\ell$, the interval the venture will sustain the line $\ell$ before requiring a positive return
+- $\tau^{\ast}_\ell$, the interval the line $\ell$ in fact requires
+- $\rho_\ell$, the discount rate applied to the line $\ell$
+- $L^{\text{effective}}$, the effective number of independent lines
+- $\gamma$, the risk-aversion coefficient in the mean-variance objective
+- $f_{\ell \to m}$, the capital directed from the line $\ell$ to the line $m$
+- $n_\ell(t)$, the net capital position of the line $\ell$
+- $K_\ell$, the capability set the line $\ell$ requires
+- $r_f$, the risk-free rate
+- $m_\ell$, an industry median valuation multiple for the segment $\ell$
+- $A_\ell$, an accounting base for the segment $\ell$, and in the clockspeed equation the advantage of the line
+- $\Lambda$, the adjustment coefficient of ruin theory
+- $\kappa_\ell$, the clockspeed of the industry of the line $\ell$
+- $b$, the learning exponent of the progress function
+- $\iota(t)$, the fraction of launches consumed internally
+- $H_\ell$, the Herfindahl index of customer concentration in the line $\ell$
+- $\phi_\ell$, the first-order autocorrelation of the revenue of the line $\ell$
+- $\mu_\ell(t)$, the cumulative revenue of the line $\ell$ divided by its cumulative investment
+- $\theta$, the fraction of revenue that survives an extended vehicle grounding
+- $\Theta^{\text{stress}}$, the runway under a grounding
+- $\Xi(t)$, the ratio of subscriber revenue to the debt-service rate
+- $q$, the loss probability of a single voyage
+- $p_r$, the success probability of the route $r$
+- $\boldsymbol{\phi}_j$, the binary closure vector of the organisation $j$ over five sub-properties
+- $\Phi^{\text{portfolio-patience}}$, the conjunctive closure, the product of the five sub-property indicators
 
 ## References
 

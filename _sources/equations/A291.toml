@@ -1,0 +1,717 @@
+caution = "Launch counts and rates are per year where a dot marks a rate, costs, revenues and valuations are in nominal dollars, satellite lifetimes are in years, most relations are qualitative formalisations of an argument rather than estimated quantities, and every indicator takes the value zero or one."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Total Launch Output"
+gloss = "The total launch output of the parent is the sum of the capacity the spinoff consumes and the capacity sold to third parties."
+digest = "f71517b1828f1836"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Internal Share of Launch Output"
+gloss = "The article defines the internal share of launch output and asserts that it rose and crossed one half, the date it treats as the end of a primarily merchant launch business."
+digest = "3ff00f758d8d5c2c"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke External Capital Requirement as a Budget Identity"
+gloss = "The article writes the external capital requirement as mission burn less government capital and retained earnings, so that the three capital-formation legs become terms in one budget."
+digest = "88785e8ddd7feb9a"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Counterfactual Differential of the Spinoff"
+gloss = "The attribution to the spinoff is defined as the observed trajectory less a counterfactual in which the same launch capability existed and no constellation was built."
+digest = "dde78da0747e0563"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Cost Position of the Spinoff against a Competitor"
+gloss = "The article assumes the spinoff obtains launch at the marginal cost of the parent while a competitor pays a market price that includes at least the full margin of the parent."
+digest = "552a04a147c3b088"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Campaign Cost Disadvantage"
+gloss = "Under the same cost assumption, a competitor bears the margin of the parent on each of $N$ launches, so the disadvantage scales linearly with campaign size."
+digest = "75d76961610cfd1e"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Viability Condition for a Competitor"
+gloss = "The article requires subscriber margin to cover deployment cost plus the campaign cost disadvantage before a competing constellation earns a profit."
+digest = "72c7dc52d43b9e40"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Surplus Launch Capacity Condition"
+gloss = "The article states the capacity argument as external demand falling short of the capacity that the fixed cost sustains, which leaves residual capacity at low marginal cost."
+digest = "11d93c1835ee2f29"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Average Cost with a Fixed Cost"
+gloss = "Average cost is the fixed cost spread over output plus the marginal cost, so it falls as output rises."
+digest = "4f8e1b4267e51efe"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke External Capital Requirement net of Spinoff Cash"
+gloss = "The article writes the external capital requirement as the excess of mission burn over the free cash contribution of the spinoff, floored at zero."
+digest = "0e5703ab77a6991f"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Mission-Funding Crossover"
+gloss = "The article defines the crossover date as the date at which the cash contribution of the spinoff first covers the mission burn."
+digest = "04fb77623f045722"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Make-or-Buy Condition with Governance Cost"
+gloss = "The transaction-cost condition for internal production compares the internal cost plus the governance cost of operating inside the firm with the market price."
+cite = ["book_williamson_1985"]
+digest = "03b306dfec234f2e"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Make Condition from Supply Unavailability"
+gloss = "The article replaces the cost comparison with the absence of any supplier able to commit to the required launch cadence."
+digest = "9f3d2ef2e9d6282a"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Value Capture through Complementary Assets"
+gloss = "The share an innovator captures depends on its control of complementary assets and on the strength of the appropriability regime."
+cite = ["research_teece_1986"]
+digest = "9e4c2341965fcff1"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Coverage Threshold in Constellation Value"
+gloss = "The article asserts that a constellation below the count for continuous coverage is worth far less than its proportional share of the value at that count."
+digest = "f8edabb5945d75e7"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Cross-Side Externality of a Two-Sided Market"
+gloss = "A market is two-sided when the utility of each side rises with participation on the other side."
+cite = ["research_rochet_tirole_2003"]
+digest = "98d78f27c3d92a53"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Cost Subadditivity"
+gloss = "Natural monopoly in the technical sense requires that one firm produce the combined output more cheaply than several firms producing its parts."
+cite = ["book_sharkey_1982"]
+digest = "78b16bbae16679f4"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Foreclosure Trade-Off of Selling Launch to a Rival"
+gloss = "The article writes the marginal effect on consolidated profit of a launch sold to a rival constellation as the launch margin less the downstream harm from the capability it enables."
+digest = "ba529086f60c9b5e"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Latency Scaling with Orbital Altitude"
+gloss = "The article scales propagation latency in proportion to orbital altitude, ignoring slant range and ground routing, and takes the ratio of low Earth orbit to geostationary altitude as of order one hundredth."
+digest = "1781d1b74e718c64"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Ordering of Market Sizes against Mission Burn"
+gloss = "The article asserts that the total addressable launch market lies far below the mission burn and the total addressable telecommunications market far above it."
+digest = "5909f24f7abf2377"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Required Telecommunications Market Share"
+gloss = "The article defines the required share as the mission burn divided by the product of the telecommunications market and the achievable margin."
+digest = "2a092a720396b058"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Allocation of Surplus Capacity to an Application"
+gloss = "The article treats the constellation as the application that maximises launch capacity consumed among those the firm could reach with capability already held."
+digest = "744c313c4428c24e"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Plane-Count Condition for Continuous Service"
+gloss = "The article makes continuous service at a latitude conditional on a minimum number of populated orbital planes, a threshold it states without computing."
+digest = "0288e1d9244ef331"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Step Revenue Function of a Constellation"
+gloss = "The article models revenue as nearly zero below the coverage threshold and as a power law in satellite count above it, with an exponent it does not estimate."
+digest = "a1ebb0ce3254666e"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Latitude Coverage Density of an Inclined Orbit"
+gloss = "The article approximates the latitude density of a circular orbit by its inverse square-root factor alone, omitting the cosine of latitude, which preserves the peak near the turning latitudes."
+digest = "efe9c49bf9cdfc05"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Neutrality of the Internal Transfer Price"
+gloss = "The transfer price divides consolidated profit between the launch and constellation segments and leaves the consolidated total unchanged."
+digest = "a1943729fdeaef09"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Equal and Opposite Segment Sensitivities to the Transfer Price"
+gloss = "Each unit increase in the transfer price moves profit equal to the internal launch volume from the constellation segment to the launch segment."
+digest = "4294dbe17b69fd11"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Inference Error of an Entrant"
+gloss = "The article argues that a competitor estimating the cost of the parent from the observed market price overstates it by the full margin."
+digest = "e4c4d9d101783d61"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Shared Launch Capacity Constraint"
+gloss = "Internal and external launches together cannot exceed the finite capacity available at any date, so an internal launch displaces an external one whenever the constraint binds."
+digest = "ee99aa28edff7291"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Launches for Initial Deployment"
+gloss = "Deploying $S$ satellites in batches of $b$ requires the ceiling of their ratio in launches."
+digest = "598443e0e7ff7750"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Steady-State Replenishment Launch Rate"
+gloss = "Replacing $S$ satellites of lifetime $L$ in batches of $b$ requires $S / bL$ launches a year in steady state."
+digest = "b11a09e83b9bad3b"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Replenishment against Prior Global Commercial Cadence"
+gloss = "The article asserts that the steady-state replenishment rate of one constellation exceeds the global commercial launch cadence before the programme."
+digest = "d73bef3f54999fd1"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Learning Curve"
+gloss = "Unit cost falls as a power of cumulative output, with the learning exponent $\\beta$ setting the rate."
+digest = "f61f6b5a3f2b6ca3"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Fixed Point of Cadence and Cost"
+gloss = "The article writes the deployment rate as a fixed point of a decreasing response to cost and a cost decreasing in cadence, whose composition admits a self-reinforcing equilibrium at high cadence."
+digest = "a6ef5baa8b1a7a95"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Consumer Revenue Identity"
+gloss = "Consumer revenue is the subscriber count times the average revenue per user plus hardware revenue."
+digest = "1bcf9965b13e88f5"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Blended Average Revenue per User"
+gloss = "The blended figure is the weighted mean of segment averages, and the article adds the claim that the weight of high-value segments rose over the period."
+digest = "253d07f04a8ee257"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Cell Bandwidth Constraint"
+gloss = "The bandwidth consumed by all subscribers in a cell cannot exceed the bandwidth the satellite provides over that cell."
+digest = "7a0706bd5dbae12b"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Joint Inputs of Direct-to-Cell Service"
+gloss = "The article writes direct-to-cell service as a function of satellite capability and carrier spectrum rights with neither input substitutable for the other."
+digest = "bd7eec85b98c7f4e"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Bargaining Share of the Satellite Operator"
+gloss = "The article writes the share of the operator as a function of the two disagreement payoffs and assumes the carrier payoff rises with the number of competing operators."
+digest = "f0ec6d56d6c70513"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Addressable Populations of Direct-to-Cell and Broadband"
+gloss = "The article contrasts an addressable market of handsets in coverage with one of terminals sold."
+digest = "da78ee126ea3356b"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Crossover Date as an Infimum"
+gloss = "The article defines the crossover as the earliest date at which free cash contribution covers mission burn and continues to cover it."
+digest = "9a4436e4e1db8429"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Free Cash Contribution"
+gloss = "The article defines free cash contribution as gross revenue less operating and replenishment cost and treats the replenishment term as structural."
+digest = "0445c46723c4296e"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Contrast of Replenishment and Software Marginal Cost"
+gloss = "The article contrasts a replenishment cost rising with constellation size with a marginal cost per user near zero in a software business."
+digest = "92cd59459877d1d0"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Annual Replenishment Cost"
+gloss = "The article assembles the steady-state replenishment cost from the replacement rate times the cost of a satellite plus its share of a launch."
+digest = "5bb517f1d852c473"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Production Rate as the Binding Constraint"
+gloss = "The article sets the required production rate at the replacement rate and asserts that production, rather than launch capacity, binds."
+digest = "320c6721c5cfc1a3"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Mean Fleet Age in Steady State"
+gloss = "Under uniform replacement at lifetime $L$, ages are uniformly distributed and the mean age of the fleet is half the lifetime."
+digest = "1cf9843e2a588598"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Incumbency Advantage Ratio"
+gloss = "The article scales the advantage of the incumbent by the satellite lifetime over the time a competitor needs to deploy."
+digest = "4447843e778bbe78"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Addressable Market over Authorised Jurisdictions"
+gloss = "The article defines the addressable market as the sum of national markets over the jurisdictions that have granted authorisation."
+digest = "0709ef6533163a82"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Expected Revenue under Revocable Authorisation"
+gloss = "The article assumes the revenue of a jurisdiction falls to zero on revocation, so its expected value is the revenue times the probability that authorisation is retained."
+digest = "fc46b339fc917932"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Filing Priority under the Radio Regulations"
+gloss = "An earlier filing takes priority over a later one provided the bring-into-use deadline is met."
+cite = ["ref_itu_radio_regulations_2020"]
+digest = "56ea71600236a03f"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Average Deployment Rate for Bring-into-Use"
+gloss = "The article reduces the milestone regime to an average deployment rate equal to the filed satellite count over the time remaining to the deadline."
+digest = "f6d86e2606ee487d"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Value of a Spectrum Filing"
+gloss = "The article values a filing as the protected position times an indicator that the bring-into-use condition is met, so that its value collapses to zero on failure."
+digest = "a34dbee4067d1128"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Congestion Externality between Operators"
+gloss = "The article states that deployment by one operator raises the collision risk of every other operator at a cost it does not bear."
+digest = "711b348715f5e716"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Conjunction Rate in an Orbital Shell"
+gloss = "In the kinetic approximation the conjunction rate among resident objects scales as the square of their number over the shell volume."
+digest = "0a7628346b31ca78"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Private and Social Optima under an Externality"
+gloss = "The private optimum sets the marginal profit of the operator to zero while the social optimum also counts the marginal effect on every other operator."
+digest = "2ae51750b75268c6"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Campaign Cost Disadvantage of the 1990s Programmes"
+gloss = "The article applies its campaign cost disadvantage to Iridium and Globalstar, which bought launch at market on campaigns of tens to hundreds of launches."
+digest = "ea6dc0d540ec9fb1"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Race between Deployment and Market Erosion"
+gloss = "The article characterises the earlier failures as a market that contracted while the constellation remained below its coverage threshold."
+digest = "b989cc57fd0136c2"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Failure Chain of the OneWeb Programme"
+gloss = "The article chains four conditions from the absence of captive launch to the withdrawal of the capital supplier, each raising the probability of the next."
+digest = "69cdfc7e9d4e8b39"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Controlled Contrast of Capital and Captive Launch"
+gloss = "The article frames the Amazon comparison as holding capital approximately constant while varying captive launch."
+digest = "9370fe0801097d84"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Estimand of the Controlled Contrast"
+gloss = "The article names the effect of captive launch on outcome with capital held high as the quantity the comparison identifies."
+digest = "1f4744beb7b03d0a"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Revenue Available to the Mission"
+gloss = "The article nets operating, replenishment, regulatory and service costs from gross revenue to give the revenue available to the mission."
+digest = "d2ea7c8f5c2e9527"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Stationary Subscriber Scale"
+gloss = "The article posits a subscriber count at which revenue available to the mission stops rising with further subscribers, a point it cannot locate."
+digest = "f2479569933f70e2"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Leverage of Non-Shareholder Constituencies"
+gloss = "The article contrasts a governance defence that depends on votes with the leverage of regulators, carriers and subscribers, which does not depend on votes held."
+digest = "cb255d760e594757"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Transport Cost Asymmetry of Standard Oil"
+gloss = "The article maps the Standard Oil case onto its cost relation, with the integrated firm at marginal transport cost and a rival at the posted rate without the rebate."
+digest = "7b5e7783fad78c90"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Rate-of-Return Regulation"
+gloss = "The regulated bargain permits a return on the rate base in exchange for a universal-service obligation."
+cite = ["book_kahn_1988"]
+digest = "44995f0cb1a1b465"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Declining Average Cost of a Network"
+gloss = "With a network cost largely independent of the number of users, the cost per user falls as users are added."
+digest = "d6a61d83c9d0e79a"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Condition for Marginal-Cost Transfer"
+gloss = "The article holds that a transfer at marginal cost is incentive-compatible only where one residual claimant spans both launch and constellation."
+digest = "d7b4f95f116498df"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Size of the Captive-Launch Comparison Set"
+gloss = "The article counts about two entities holding captive launch at constellation cadence."
+digest = "49dd3e427f2da142"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Closure Vector of the Spinoff Leg"
+gloss = "Each venture is scored as a binary vector over the five sub-properties the article defines."
+digest = "53e0166655aaf95a"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Scoring Matrix of the Spinoff Leg"
+gloss = "Each venture is scored on the five sub-properties the article defines, with an asterisk for a cell the available record does not establish."
+digest = "fb4cba5be8a66163"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Discriminating Power of Captive Input"
+gloss = "The article asserts that the captive-input indicator correlates with completion more strongly than the reinvestment-scale indicator, a claim drawn from five cases."
+digest = "2b96063fd8ea51e6"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Relatedness Test"
+gloss = "The article calls two segments related when the activity of one changes the cost of the other."
+digest = "689224da4e33bd68"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Absence of Same-Side Network Effects in Broadband"
+gloss = "The article holds that subscriber utility does not rise with subscriber count for shared-capacity broadband."
+digest = "d37f07483c9900a4"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Contrast of Asset Lives"
+gloss = "The article contrasts the asset life of a conventional utility, tens to a hundred years, with a satellite lifetime of about five years."
+digest = "4d4e91391103e43c"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Pigouvian Charge for Orbital Congestion"
+gloss = "Each operator is charged according to the marginal effect of its deployment on the profits of all other operators, the standard corrective price for an externality."
+digest = "440df098c8765138"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Conjunctive Spinoff Mechanic"
+gloss = "The article writes the mechanic as the product of five binary sub-property indicators, a form that carries an independence assumption."
+digest = "2c40da9284525bb7"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Diagnostic Test Vector of the Spinoff"
+gloss = "The article orders five tests, a captive input, surplus capacity, a threshold market, attainable priority and spinoff cash covering burn."
+digest = "4f07e7ec3e482a81"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Durability of the Position"
+gloss = "The article bounds durability by the satellite lifetime over the competitor deployment time rather than treating it as unlimited."
+digest = "c4d9d411476f18a4"
+
+[[symbol]]
+tex = 'q^{\text{internal}}'
+meaning = "the launch capacity the spinoff consumes"
+
+[[symbol]]
+tex = 'q^{\text{external}}'
+meaning = "the launch capacity sold to third parties"
+
+[[symbol]]
+tex = '\bar{q}'
+meaning = "the launch capacity the fixed cost sustains"
+
+[[symbol]]
+tex = 's(t)'
+meaning = "the internal share of launch output"
+
+[[symbol]]
+tex = 'K^{\text{external}}'
+meaning = "the external capital requirement"
+
+[[symbol]]
+tex = 'B(t)'
+meaning = "the mission-directed burn of the parent, written $B$ where time is understood"
+
+[[symbol]]
+tex = 'K^{\text{government}}'
+meaning = "the government capital supplied"
+
+[[symbol]]
+tex = 'R(t)'
+meaning = "the free cash contribution of the spinoff, written $R^{\\text{free}}$ in the crossover section"
+
+[[symbol]]
+tex = 't^{\ast}'
+meaning = "the mission-funding crossover date"
+
+[[symbol]]
+tex = 'c^{\text{marginal}}'
+meaning = "the marginal cost to the parent of one launch"
+
+[[symbol]]
+tex = 'p^{\text{market}}'
+meaning = "the price a third party pays for a launch"
+
+[[symbol]]
+tex = 'm'
+meaning = "the margin of the parent on an external launch"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of launches in a deployment campaign"
+
+[[symbol]]
+tex = '\text{ARPU}'
+meaning = "the average revenue per user"
+
+[[symbol]]
+tex = 'n^{\text{sub}}'
+meaning = "the number of subscribers"
+
+[[symbol]]
+tex = 'F'
+meaning = "the fixed cost of maintaining production and operations"
+
+[[symbol]]
+tex = 'g'
+meaning = "the governance cost of operating an activity inside the firm"
+
+[[symbol]]
+tex = 'S'
+meaning = "the number of satellites in the constellation, with $S^{\\ast}$ the count for continuous coverage"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the exponent converting capacity beyond the coverage threshold into revenue"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the achievable margin on telecommunications revenue"
+
+[[symbol]]
+tex = '\ell^{\text{LEO}}'
+meaning = "the propagation latency from low Earth orbit, with $\\ell^{\\text{GEO}}$ that from geostationary orbit"
+
+[[symbol]]
+tex = 'h^{\text{LEO}}'
+meaning = "the orbital altitude in low Earth orbit, with $h^{\\text{GEO}}$ the geostationary altitude"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the latitude"
+
+[[symbol]]
+tex = 'p^{\text{transfer}}'
+meaning = "the internal transfer price of a launch"
+
+[[symbol]]
+tex = 'b'
+meaning = "the number of satellites carried per launch"
+
+[[symbol]]
+tex = 'L'
+meaning = "the operational lifetime of a satellite in years"
+
+[[symbol]]
+tex = 'c_n'
+meaning = "the cost at cumulative flight $n$"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the learning exponent"
+
+[[symbol]]
+tex = 'b_j'
+meaning = "the bandwidth one subscriber of class $j$ consumes, with $n_j$ the subscribers of that class"
+
+[[symbol]]
+tex = 'B^{\text{cell}}'
+meaning = "the bandwidth a satellite provides over one cell"
+
+[[symbol]]
+tex = 'w_j'
+meaning = "the weight of segment $j$ in the blended revenue per user"
+
+[[symbol]]
+tex = 'C^{\text{replenishment}}'
+meaning = "the annual cost of replacing deorbited satellites"
+
+[[symbol]]
+tex = '\bar{a}'
+meaning = "the mean age of the deployed fleet"
+
+[[symbol]]
+tex = '\mathcal{J}(t)'
+meaning = "the set of jurisdictions that have granted authorisation, with $M_k$ the market of jurisdiction $k$"
+
+[[symbol]]
+tex = 'S_i'
+meaning = "the deployment of operator $i$, with $\\Pi_i$ its profit"
+
+[[symbol]]
+tex = 'p^{\text{orbital}}_i'
+meaning = "the corrective price charged to operator $i$"
+
+[[symbol]]
+tex = 'n^{\dagger}'
+meaning = "the subscriber count at which revenue available to the mission stops rising"
+
+[[symbol]]
+tex = '\bar{r}'
+meaning = "the permitted rate of return on the rate base $K^{\\text{rate base}}$"
+
+[[symbol]]
+tex = '\phi_k'
+meaning = "the closure indicator for sub-property $k$"
+
+[[symbol]]
+tex = '\Phi^{\text{spinoff}}'
+meaning = "the closure indicator of the spinoff mechanic"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the ordered diagnostic test vector"

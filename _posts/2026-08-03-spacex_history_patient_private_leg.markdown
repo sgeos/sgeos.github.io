@@ -25,25 +25,37 @@ The problem can be formalized in several ways. The entrepreneurial-finance tradi
 
 The general form of the problem can be stated compactly. Let $T^{\text{mission}}$ denote the horizon over which the mission is pursued and let $T^{\text{fund}}$ denote the contractual life of the fund supplying the capital. The duration mismatch is
 
-$$T^{\text{mission}} \gg T^{\text{fund}}$$
+$$
+T^{\text{mission}} \gg T^{\text{fund}}
+\tag{1}
+$$
 
 with the typical venture fund life at approximately ten years subject to extensions and the mission horizon measured in decades. The mismatch is the central problem, and the patient-private leg closes only where a mechanism resolves it.
 
 The mechanism cannot be that the investors simply wait, because the fund's obligation runs to the limited partners and not to the portfolio company. The resolution admits three logical forms and the article examines which of them the case employed. The first is a longer fund. The second is a different vehicle without a fund-life clock. The third is a mechanism by which the fund realizes its position without the portfolio company undergoing a liquidity event. The three admit the compact disjunctive statement
 
-$$\text{mismatch resolved} \iff \left( T^{\text{fund}} \geq T^{\text{holding}} \right) \; \vee \; \left( \nexists \; T^{\text{fund}} \right) \; \vee \; \left( \text{realization} \perp \text{exit} \right)$$
+$$
+\text{mismatch resolved} \iff \left( T^{\text{fund}} \geq T^{\text{holding}} \right) \; \vee \; \left( \nexists \; T^{\text{fund}} \right) \; \vee \; \left( \text{realization} \perp \text{exit} \right)
+\tag{2}
+$$
 
 with the first disjunct requiring a term the venture industry does not offer, the second requiring a change in the composition of the supplying vehicles, not in their behavior, and the third requiring an arrangement internal to the firm. The third is the one that operated, and it is the tender-offer mechanism the [Governance article A287][related_post_a287_spacex_governance] treats from the control side and this article treats from the capital side.
 
 The identification problem is the counterfactual. The counterfactual differential can be written as
 
-$$\Delta V^{\text{patient-private}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{impatient-capital counterfactual}}_i(t)$$
+$$
+\Delta V^{\text{patient-private}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{impatient-capital counterfactual}}_i(t)
+\tag{3}
+$$
 
 with the attribution equal to the difference between the observed trajectory and the counterfactual in which the same capital was supplied on ordinary terms with an ordinary exit expectation. The counterfactual is partially observable in this case, because the sector provides contemporaneous ventures that raised capital on ordinary terms and encountered the consequences.
 
 The quantity the article isolates must be separated from the larger and less interesting quantity with which it is habitually conflated. The decomposition has the form
 
-$$\underbrace{V^{\text{observed}}_i - V^{\text{no external capital}}_i}_{\text{total financing effect}} = \underbrace{\left( V^{\text{ordinary terms}}_i - V^{\text{no external capital}}_i \right)}_{\text{supply component}} + \underbrace{\left( V^{\text{observed}}_i - V^{\text{ordinary terms}}_i \right)}_{\text{terms component}}$$
+$$
+\underbrace{V^{\text{observed}}_i - V^{\text{no external capital}}_i}_{\text{total financing effect}} = \underbrace{\left( V^{\text{ordinary terms}}_i - V^{\text{no external capital}}_i \right)}_{\text{supply component}} + \underbrace{\left( V^{\text{observed}}_i - V^{\text{ordinary terms}}_i \right)}_{\text{terms component}}
+\tag{4}
+$$
 
 with the article addressing only the second summand. The first summand is large, is uncontroversial, and establishes merely that a capital-intensive venture requires capital. The second summand is the one on which the patience claim rests, and it is the one the commentary leaves unmeasured.
 
@@ -75,43 +87,64 @@ The legal apparatus that produces the constraint is documentary and not theoreti
 
 The fund structure that generates the constraint permits compact description. A fund is a limited partnership with a stated term, an investment period during which capital is deployed, and a harvest period during which positions are realized and proceeds distributed. The general partner is compensated by a management fee on committed capital and a carried interest on realized gains. The carried-interest structure may be written
 
-$$\Pi^{\text{GP}} = f \cdot K^{\text{committed}} \cdot T^{\text{fund}} + c \cdot \left[ \sum_{i} \left( V^{\text{realized}}_i - K_i \right) \right]^{+}$$
+$$
+\Pi^{\text{GP}} = f \cdot K^{\text{committed}} \cdot T^{\text{fund}} + c \cdot \left[ \sum_{i} \left( V^{\text{realized}}_i - K_i \right) \right]^{+}
+\tag{5}
+$$
 
 with $f$ the management-fee rate and $c$ the carry rate. The second term is triggered by realization, not by appreciation, which is the contractual root of the exit pressure. An unrealized gain of any magnitude pays the general partner nothing.
 
 The consequence is that the patience question reduces to a question about realization and not about holding. A mechanism that permits realization without a portfolio-company liquidity event resolves the tension entirely, and a mechanism that does not resolves nothing. The distinction may be stated compactly
 
-$$\text{patience achievable} \iff \exists \; \text{realization path independent of company exit}$$
+$$
+\text{patience achievable} \iff \exists \; \text{realization path independent of company exit}
+\tag{6}
+$$
 
 with the existence of the path being the operative condition.
 
 The valuation step-up gives a partial substitute. A fund reports an unrealized position at a carrying value derived from the most recent round price, so that a rising valuation produces a reportable return that satisfies limited-partner expectations without any realization. The reported return takes the compact form
 
-$$\text{TVPI} = \frac{\sum_i V^{\text{carrying}}_i + \text{distributions}}{K^{\text{drawn}}}$$
+$$
+\text{TVPI} = \frac{\sum_i V^{\text{carrying}}_i + \text{distributions}}{K^{\text{drawn}}}
+\tag{7}
+$$
 
 with the first term in the numerator being unrealized. The measure sustains the relationship across the interval and does not pay the carry, which is the reason it is a partial substitute, not a complete one.
 
 The carry is moreover not merely deferred but discounted, and the distinction sharpens the constraint considerably. The present value of a carried interest realized at a horizon $T$ takes the form
 
-$$\operatorname{PV}\left[ \Pi^{\text{carry}} \right] = c \cdot \frac{\mathbb{E}\left[ V^{\text{realized}}_T - K \right]}{\left( 1 + r^{\text{GP}} \right)^{T}}$$
+$$
+\operatorname{PV}\left[ \Pi^{\text{carry}} \right] = c \cdot \frac{\mathbb{E}\left[ V^{\text{realized}}_T - K \right]}{\left( 1 + r^{\text{GP}} \right)^{T}}
+\tag{8}
+$$
 
 with the value declining in $T$ even where the terminal amount is certain. A general partner therefore prefers an earlier realization at a lower valuation to a later realization at a higher one whenever the valuation growth rate falls short of the discount rate, which is a preference the limited partners do not necessarily share and which no quantity of conviction about the mission alters.
 
 The duration-matching condition that a capital supplier must satisfy can be written as
 
-$$T^{\text{vehicle}} \geq T^{\text{holding required}}$$
+$$
+T^{\text{vehicle}} \geq T^{\text{holding required}}
+\tag{9}
+$$
 
 with the vehicle life required to exceed the holding period. The condition is satisfied trivially by a vehicle with no stated life, which is the structural reason the investor-base composition shifted as it did.
 
 The condition is furthermore not evaluated once at entry but continuously, because the vehicle's remaining life declines while the required holding period does not. The remaining life of a supplying vehicle has the form
 
-$$T^{\text{remaining}}_i(t) = T^{\text{vehicle}}_i - \left( t - t^{\text{inception}}_i \right)$$
+$$
+T^{\text{remaining}}_i(t) = T^{\text{vehicle}}_i - \left( t - t^{\text{inception}}_i \right)
+\tag{10}
+$$
 
 with the quantity declining at unit rate. A fund that satisfied the duration condition comfortably at the moment it invested violates it at a later date without any change in the venture, the investor's view, or the development schedule. The observation is the reason the article treats the constraint as a clock and not as a threshold, and it is the reason an arrangement adequate at one date requires replacement at another.
 
 The dilution the channel costs admits the compact recursion the [Governance article A287][related_post_a287_spacex_governance] develops
 
-$$e^{\text{founder}}_N = e^{\text{founder}}_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)$$
+$$
+e^{\text{founder}}_N = e^{\text{founder}}_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
+\tag{11}
+$$
 
 with the product declining monotonically. The patient-private leg is therefore the costly leg of the three, and the question the closing sections pose is what it purchased that the other two could not supply.
 
@@ -121,19 +154,28 @@ The patient-private capital-formation property draws characterization from sever
 
 The entrepreneurial-finance tradition traces from [Sahlman 1990][research_sahlman_1990] through [Gompers 1995][research_gompers_1995] Optimal Investment Monitoring and the Staging of Venture Capital, [Lerner 1994][research_lerner_1994_syndication] The Syndication of Venture Capital Investments, [Kaplan and Stromberg 2003][research_kaplan_stromberg_2003] Financial Contracting Theory Meets the Real World, [Kaplan and StrÖMberg 2004][research_kaplan_stromberg_2004], [Gompers and Lerner 2001][book_gompers_lerner_2001], [Metrick and Yasuda 2011][book_metrick_yasuda_2011], [Lerner 2009][book_lerner_2009], [Kortum and Lerner 2000][research_kortum_lerner_2000] Assessing the Contribution of Venture Capital to Innovation, [Hall and Lerner 2010][research_hall_lerner_2010] The Financing of R and D and Innovation, and [Lerner 1996][research_lerner_1996_government_program]. The framing yields the fund apparatus and the staging apparatus, and its central observation for this article is that the staging instrument and the fund-life instrument pull in opposite directions. Staging preserves the investor's option to discontinue and thereby shortens the effective commitment, while the mission requires lengthening it. The tension is stated compactly as
 
-$$T^{\text{effective commitment}} = \min_{n} \left\{ t_n \; : \; \text{continuation declined at stage } n \right\} \;\; \ll \;\; T^{\text{holding required}}$$
+$$
+T^{\text{effective commitment}} = \min_{n} \left\{ t_n \; : \; \text{continuation declined at stage } n \right\} \;\; \ll \;\; T^{\text{holding required}}
+\tag{12}
+$$
 
 with the staged structure rendering the committed horizon equal to the interval to the next decision point, not to the stated fund life. The instrument the literature treats as the principal protection against an adverse selection is therefore also the principal obstacle to a long-horizon commitment, and the literature does not generally note the second property because the ventures it studies do not require a long horizon.
 
 The corporate-finance tradition traces from [Myers 1977][research_myers_1977] Determinants of Corporate Borrowing through [Jensen and Meckling 1976][research_jensen_meckling_1976], [Jensen 1986][research_jensen_1986], [Fama and Jensen 1983][research_fama_jensen_1983], [Shleifer and Vishny 1997][research_shleifer_vishny_1997], [Hart 1995][book_hart_1995] Firms Contracts and Financial Structure, and [Tirole 2006][book_tirole_2006]. The framing contributes the account of the claims each instrument creates and the reason a debt claim and an equity claim behave differently under a development delay. The difference has the concise statement
 
-$$\text{debt obligation} \; : \; \text{fixed in amount and date} \qquad \text{against} \qquad \text{equity claim} \; : \; \text{residual and undated}$$
+$$
+\text{debt obligation} \; : \; \text{fixed in amount and date} \qquad \text{against} \qquad \text{equity claim} \; : \; \text{residual and undated}
+\tag{13}
+$$
 
 with the first defaulting on a schedule delay and the second not. The Iridium counter-example the article develops turns entirely on the distinction.
 
 The listing-choice and private-markets tradition traces from [Ewens and Farre-Mensa 2020][research_ewens_farre_mensa_2020] and treats the expansion of the private capital supply as the enabling condition for the entire arrangement. The supply expansion can be stated as
 
-$$K^{\text{private available}}(t) \gg K^{\text{private available}}(t_0)$$
+$$
+K^{\text{private available}}(t) \gg K^{\text{private available}}(t_0)
+\tag{14}
+$$
 
 across the period, with the consequence that a firm requiring a magnitude of capital that would once have compelled a listing can now obtain it privately.
 
@@ -141,31 +183,46 @@ The framing also identifies what a firm forgoes by declining to list, which is a
 
 The bargaining tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982], [Binmore et al. 1986][research_binmore_rubinstein_wolinsky_1986], [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets, and [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications. The framing treats the round terms as a negotiated outcome and contributes the explanation for the terms improving across the sequence, because the founder's outside option improved as the venture demonstrated capability while the investors' outside options in the sector did not. The asymmetry may be written
 
-$$\sigma^{\text{founder}}_n = \sigma\!\left( u^{\text{founder}}_n, \; u^{\text{investor}}_n \right) \qquad \text{with} \qquad \frac{d u^{\text{founder}}_n}{d n} > 0 \quad \text{and} \quad \frac{d u^{\text{investor}}_n}{d n} \approx 0$$
+$$
+\sigma^{\text{founder}}_n = \sigma\!\left( u^{\text{founder}}_n, \; u^{\text{investor}}_n \right) \qquad \text{with} \qquad \frac{d u^{\text{founder}}_n}{d n} > 0 \quad \text{and} \quad \frac{d u^{\text{investor}}_n}{d n} \approx 0
+\tag{15}
+$$
 
 with $\sigma^{\text{founder}}\_n$ the founder's negotiated share at round $n$ and $u$ the disagreement payoffs. The investor's outside option is approximately flat because the sector offered no comparable alternative position, which is a consequence of the concentration the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] documents, not of any negotiating skill.
 
 The real-options tradition traces from [Myers 1977][research_myers_1977], [Black and Scholes 1973][research_black_scholes_1973], [Merton 1973][research_merton_1973], [McDonald and Siegel 1986][research_mcdonald_siegel_1986], [Kogut and Kulatilaka 1994][research_kogut_kulatilaka_1994], [Dixit and Pindyck 1994][book_dixit_pindyck_1994], [Trigeorgis 1996][book_trigeorgis_1996], and [Copeland and Antikarov 2001][book_copeland_antikarov_2001]. The framing treats each round as an option exercise and supplies the account of the investor's decision at each stage. The staged valuation admits the compact recursion
 
-$$W_n = \max \left\{ 0, \; \mathbb{E}\left[ W_{n+1} \mid \mathcal{F}_n \right] - k_n \right\}$$
+$$
+W_n = \max \left\{ 0, \; \mathbb{E}\left[ W_{n+1} \mid \mathcal{F}_n \right] - k_n \right\}
+\tag{16}
+$$
 
 with $W_n$ the value of the participation right at stage $n$, $k_n$ the capital the stage requires, and $\mathcal{F}\_n$ the information available at the decision. The framing's contribution to this article is that it identifies the abandonment option as valuable to the investor and costly to the venture, so that the instrument maximizing the investor's option value is not the instrument maximizing the probability the mission is completed.
 
 The financial-sociology tradition traces from [MacKenzie and MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera through [Ho 2009][book_ho_2009] Liquidated, [Zaloom 2006][book_zaloom_2006] Out of the Pits, [Preda 2009][book_preda_2009] Framing Finance, and [Krippner 2011][book_krippner_2011] Capitalizing on Crisis. The framing treats the horizon norms as institutionally constructed and not natural, and it provides the most direct support for the article's claim that patience is manufactured, not possessed, because it establishes that the short horizon the arrangement circumvents is itself an artifact of practices and not a property of capital. The claim admits the compact contrast
 
-$$T^{\text{norm}} = T^{\text{norm}}\!\left( \text{prevailing institutional practice} \right) \qquad \text{against} \qquad T^{\text{norm}} = \text{constant}$$
+$$
+T^{\text{norm}} = T^{\text{norm}}\!\left( \text{prevailing institutional practice} \right) \qquad \text{against} \qquad T^{\text{norm}} = \text{constant}
+\tag{17}
+$$
 
 with the left form holding and the right form being the implicit assumption of the commentary that treats a ten-year fund life as a fact about capital. The ten-year term is a convention that emerged from a particular institutional history, and a convention is precisely the kind of object a sufficiently large counterparty can renegotiate.
 
 The behavioral tradition traces from [Kahneman and Tversky 1979][research_kahneman_tversky_1979] Prospect Theory, [Tversky and Kahneman 1992][research_tversky_kahneman_1992], [Kahneman 2011][book_kahneman_2011] Thinking Fast and Slow, [Simon 1957][book_simon_1957] Administrative Behavior, and [Staw 1976][research_staw_1976]. The framing provides the skeptical reading under which the continued participation across the later rounds reflects a commitment escalation, not a reassessment. The two readings generate different comparative statics, admitting the compact contrast
 
-$$\frac{\partial \, P\!\left( \text{reinvest} \right)}{\partial \, s^{\text{adverse}}} \approx 0 \;\; \text{under escalation} \qquad \text{against} \qquad \frac{\partial \, P\!\left( \text{reinvest} \right)}{\partial \, s^{\text{adverse}}} < 0 \;\; \text{under reassessment}$$
+$$
+\frac{\partial \, P\!\left( \text{reinvest} \right)}{\partial \, s^{\text{adverse}}} \approx 0 \;\; \text{under escalation} \qquad \text{against} \qquad \frac{\partial \, P\!\left( \text{reinvest} \right)}{\partial \, s^{\text{adverse}}} < 0 \;\; \text{under reassessment}
+\tag{18}
+$$
 
 with $s^{\text{adverse}}$ an adverse signal about the venture. The discrimination between the two readings requires observing an investor's response to an adverse signal, and the record offers few adverse signals after the 2008 period, which is the reason the Alternative Analytical Frameworks section records the two as not distinguishable on the available evidence.
 
 The venture-ecosystem and regional tradition traces from [Saxenian 1994][book_saxenian_1994] Regional Advantage, [Kenney 2000][book_kenney_2000] Understanding Silicon Valley, [Lécuyer 2006][book_lecuyer_2006] Making Silicon Valley, [Klepper 2016][book_klepper_2016] Experimental Capitalism, and [Berlin 2005][book_berlin_2005] The Man Behind the Microchip. The framing gives the institutional context within which the investor set formed and the norms it operated under, and the [Silicon Valley from Defense Contracting article A246][related_post_a246_silicon_valley_defense] treats the defense-procurement substrate from which the regional capability originally derived. The framing's contribution to this article is that the secondary market on which the whole arrangement depends is itself an institutional product requiring a density of informed counterparties, admitting the compact condition
 
-$$N^{\text{informed counterparties}} \geq N^{\text{minimum}} \quad \text{for a functioning transfer market}$$
+$$
+N^{\text{informed counterparties}} \geq N^{\text{minimum}} \quad \text{for a functioning transfer market}
+\tag{19}
+$$
 
 with the density available in a small number of locations. The observation qualifies the generality of the article's central finding in a way distinct from the state-dependence limitation, because a venture may satisfy every structural condition the article states and still lack the counterparty population that makes the transfer market operate.
 
@@ -195,7 +252,10 @@ A venture fund is organized as a limited partnership under the [Delaware Limited
 
 The term decomposes into two periods with different functions, admitting the compact form
 
-$$T^{\text{fund}} = T^{\text{investment}} + T^{\text{harvest}} + \epsilon^{\text{extension}} \qquad \text{with} \qquad T^{\text{investment}} \approx T^{\text{harvest}} \approx 5 \text{ years}, \;\; \epsilon^{\text{extension}} \leq 2 \text{ years}$$
+$$
+T^{\text{fund}} = T^{\text{investment}} + T^{\text{harvest}} + \epsilon^{\text{extension}} \qquad \text{with} \qquad T^{\text{investment}} \approx T^{\text{harvest}} \approx 5 \text{ years}, \;\; \epsilon^{\text{extension}} \leq 2 \text{ years}
+\tag{20}
+$$
 
 with capital deployed during the first period and positions realized during the second. The decomposition matters because a position taken late in the investment period faces an available holding period of approximately the harvest period alone rather than the full term, so that the nominal ten-year figure overstates the patience available to a late-deployed position by a factor approaching two.
 
@@ -205,27 +265,42 @@ The first is contractual. The partnership agreement obliges the general partner 
 
 The second is compensatory. The carried interest is earned on realization, so that a general partner holding an appreciated but unrealized position has earned nothing on it. The incentive may be stated compactly
 
-$$\frac{\partial \Pi^{\text{GP}}}{\partial V^{\text{unrealized}}} = 0 \qquad \text{while} \qquad \frac{\partial \Pi^{\text{GP}}}{\partial V^{\text{realized}}} = c > 0$$
+$$
+\frac{\partial \Pi^{\text{GP}}}{\partial V^{\text{unrealized}}} = 0 \qquad \text{while} \qquad \frac{\partial \Pi^{\text{GP}}}{\partial V^{\text{realized}}} = c > 0
+\tag{21}
+$$
 
 with the general partner's compensation insensitive to appreciation and sensitive only to realization.
 
 The third is reputational and is the one that binds most tightly in practice. A general partner raising a successor fund is assessed on distributed capital rather than on reported carrying value, because the limited partners have learned to discount the latter. The assessment metric admits the compact form
 
-$$\text{DPI} = \frac{\text{distributions to limited partners}}{\text{capital drawn}}$$
+$$
+\text{DPI} = \frac{\text{distributions to limited partners}}{\text{capital drawn}}
+\tag{22}
+$$
 
 with a low value impeding the successor fundraise irrespective of the reported unrealized value. A general partner therefore faces a pressure to realize that operates on the fundraising cycle of approximately three to four years rather than on the fund life of ten. The binding clock admits the compact identification
 
-$$T^{\text{binding}} = \min \left\{ T^{\text{fund}}, \; \Delta^{\text{fundraise cycle}} \right\} = \Delta^{\text{fundraise cycle}} \approx 3 \text{ to } 4 \text{ years}$$
+$$
+T^{\text{binding}} = \min \left\{ T^{\text{fund}}, \; \Delta^{\text{fundraise cycle}} \right\} = \Delta^{\text{fundraise cycle}} \approx 3 \text{ to } 4 \text{ years}
+\tag{23}
+$$
 
 with the reputational channel binding well before the contractual one. The identification is the reason the article treats the commentary's collapse of the three channels into one as a substantive error rather than a simplification, because the channel that actually binds is the one the partnership agreement does not mention.
 
 The mismatch against a mission horizon is severe. The required holding period for a position taken in the 2008 period against a mission whose completion lies beyond the drafting date exceeds
 
-$$T^{\text{holding}} > 18 \text{ years}$$
+$$
+T^{\text{holding}} > 18 \text{ years}
+\tag{24}
+$$
 
 which is approximately twice the nominal fund life and approximately five times the successor-fundraise cycle. The mismatch ratios admit the compact statement
 
-$$\rho^{\text{fund}} = \frac{T^{\text{holding}}}{T^{\text{fund}}} \approx 2 \qquad \text{and} \qquad \rho^{\text{cycle}} = \frac{T^{\text{holding}}}{\Delta^{\text{fundraise cycle}}} \approx 5$$
+$$
+\rho^{\text{fund}} = \frac{T^{\text{holding}}}{T^{\text{fund}}} \approx 2 \qquad \text{and} \qquad \rho^{\text{cycle}} = \frac{T^{\text{holding}}}{\Delta^{\text{fundraise cycle}}} \approx 5
+\tag{25}
+$$
 
 with both quantities exceeding unity by a margin no extension provision closes. No amount of investor conviction reconciles the figures. Only a structural mechanism does.
 
@@ -237,17 +312,26 @@ The macroeconomic setting is not incidental and is documented independently of a
 
 The analytically interesting feature of the investment is the terms rather than the timing. The bargaining position at the moment permits the concise statement through the runway quantity
 
-$$T^{\text{runway}} = \frac{C^{\text{cash on hand}}}{\dot{C}^{\text{burn}}}$$
+$$
+T^{\text{runway}} = \frac{C^{\text{cash on hand}}}{\dot{C}^{\text{burn}}}
+\tag{26}
+$$
 
 with the quantity at the August 2008 date measured in weeks rather than in quarters. The bargaining apparatus predicts that an investor supplying capital to a venture at such a runway should extract control terms in proportion to the asymmetry, because the founder's disagreement payoff approaches the liquidation value. The terms agreed did not transfer control, which the [Governance article A287][related_post_a287_spacex_governance] treats from the control side.
 
 The capital-side reading gives a complementary explanation the control-side reading does not. The investor's stated thesis was that existing venture practice systematically underfunded technically ambitious ventures, so that the investor's competitive position depended on being willing to fund specifically what others would not. Under the thesis, the terms are not a concession extracted from a weak position but a product the investor was selling. The distinction is stated compactly as
 
-$$\text{terms} = \arg\max \left[ \text{value captured in this transaction} \right] \qquad \text{against} \qquad \arg\max \left[ \text{deal flow across future transactions} \right]$$
+$$
+\text{terms} = \arg\max \left[ \text{value captured in this transaction} \right] \qquad \text{against} \qquad \arg\max \left[ \text{deal flow across future transactions} \right]
+\tag{27}
+$$
 
 with the second objective recommending founder-favorable terms as a reputational investment. The condition under which the second objective dominates takes the form
 
-$$\underbrace{\Delta u^{\text{this transaction}}}_{< 0} \; + \; \sum_{m > 0} \pi_m \, \Delta u^{\text{transaction } m} \; > \; 0$$
+$$
+\underbrace{\Delta u^{\text{this transaction}}}_{< 0} \; + \; \sum_{m > 0} \pi_m \, \Delta u^{\text{transaction } m} \; > \; 0
+\tag{28}
+$$
 
 with $\pi_m$ the probability that the reputation secures a future transaction $m$ that would otherwise have been unavailable. The inequality holds where the investor expects a long sequence of future transactions in a category where founder selection of investors is the operative constraint. The reading is consistent with the investor's subsequent positioning and does not require attributing any unusual generosity.
 
@@ -257,11 +341,17 @@ The 2009 entry by the firm whose record appears at the [Draper Fisher Jurvetson]
 
 The sequencing is analytically important and connects this article to the preceding one. The government award of the December 2008 period materially altered the risk profile the private investor evaluated, converting a venture with a demonstrated vehicle and no customer into a venture with both. The effect on the private capital cost yields the compact statement
 
-$$r^{\text{private}}\big|_{\text{post-award}} < r^{\text{private}}\big|_{\text{pre-award}}$$
+$$
+r^{\text{private}}\big|_{\text{post-award}} < r^{\text{private}}\big|_{\text{pre-award}}
+\tag{29}
+$$
 
 with the award functioning as a credit enhancement supplied by a third party at no cost to the venture. The mechanism operating on the discount rate is the removal of a distinct failure mode from the risk decomposition, admitting the compact form
 
-$$P^{\text{failure}} = 1 - \left( 1 - p^{\text{technical}} \right)\left( 1 - p^{\text{market}} \right) \qquad \text{with} \qquad p^{\text{market}} \big|_{\text{post-award}} \ll p^{\text{market}} \big|_{\text{pre-award}}$$
+$$
+P^{\text{failure}} = 1 - \left( 1 - p^{\text{technical}} \right)\left( 1 - p^{\text{market}} \right) \qquad \text{with} \qquad p^{\text{market}} \big|_{\text{post-award}} \ll p^{\text{market}} \big|_{\text{pre-award}}
+\tag{30}
+$$
 
 with the fourth Falcon 1 flight reducing the first factor and the award reducing the second. The two reductions arrived within four months of one another, which is the reason the 2009 round priced as it did and the reason the separate contributions cannot be identified from the price alone. The interaction is the reason the three capital-formation legs are treated as a system rather than as independent channels, and it runs in the opposite direction from the interaction the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] identifies, in which the private capital financed the litigation that opened the government channel.
 
@@ -273,25 +363,37 @@ The round is the clearest case in the series of capital raised against a busines
 
 The two reported quantities imply a third by arithmetic, admitting the compact form
 
-$$V^{\text{post-money}} = \frac{k}{\delta} = \frac{1 \text{ billion}}{0.10} = 10 \text{ billion dollars} \qquad \text{implying} \qquad V^{\text{pre-money}} = 9 \text{ billion dollars}$$
+$$
+V^{\text{post-money}} = \frac{k}{\delta} = \frac{1 \text{ billion}}{0.10} = 10 \text{ billion dollars} \qquad \text{implying} \qquad V^{\text{pre-money}} = 9 \text{ billion dollars}
+\tag{31}
+$$
 
 against the figure of approximately 12 billion dollars that the trade press reported for the round. The discrepancy is stated here rather than reconciled, because the available record does not establish whether the reported figure is pre-money or post-money, whether the round included a secondary component that would not dilute, or whether the percentage is approximate to within the margin the gap requires. The reader should treat the arithmetic as a consistency check that the reported figures do not quite pass, and the Data Sources section records the general limitation of which this is an instance.
 
 The round introduced a class of investor with a structurally different horizon. A corporate strategic investor holds a position on a balance sheet with no fund life, and a large asset manager holds a position in an open-ended vehicle with no stated term. Neither faces the constraint the preceding section describes. The duration-matching condition is therefore satisfied trivially for both, admitting the compact statement
 
-$$T^{\text{vehicle}} \to \infty \quad \Longrightarrow \quad T^{\text{vehicle}} \geq T^{\text{holding required}} \; \text{ for every } \; T^{\text{holding required}}$$
+$$
+T^{\text{vehicle}} \to \infty \quad \Longrightarrow \quad T^{\text{vehicle}} \geq T^{\text{holding required}} \; \text{ for every } \; T^{\text{holding required}}
+\tag{32}
+$$
 
 with the condition satisfied without reference to the development schedule, the mission horizon, or any forecast whatever. The point deserves emphasis because it is the clearest instance in the article of the central claim. The balance-sheet holder is not more patient in any psychological sense than the venture fund. It is subject to a different instrument.
 
 The shift allows the brief statement as a change in the weighted average vehicle life across the investor base
 
-$$\bar{T}^{\text{vehicle}}(t) = \sum_i w_i(t) \, T^{\text{vehicle}}_i \qquad \text{with} \qquad \frac{d \bar{T}^{\text{vehicle}}}{dt} > 0$$
+$$
+\bar{T}^{\text{vehicle}}(t) = \sum_i w_i(t) \, T^{\text{vehicle}}_i \qquad \text{with} \qquad \frac{d \bar{T}^{\text{vehicle}}}{dt} > 0
+\tag{33}
+$$
 
 with the weighted average rising as the base broadened from closed-end venture funds toward evergreen and balance-sheet holders. The rise is the principal structural development in the financing history and it is substantially independent of any investor's conviction.
 
 The weighted average is moreover the wrong summary statistic for the purpose, and the correct one behaves differently. What binds is the earliest term across the base rather than the average, because a single holder reaching its term generates a realization demand irrespective of the horizons the remaining holders enjoy. The binding quantity can be written as
 
-$$T^{\text{binding}}(t) = \min_i \; T^{\text{remaining}}_i(t)$$
+$$
+T^{\text{binding}}(t) = \min_i \; T^{\text{remaining}}_i(t)
+\tag{34}
+$$
 
 with the minimum rather than the mean governing. The broadening of the base therefore does not by itself relieve the pressure, because adding a perpetual holder to a base containing a fund near term leaves the minimum unchanged. The observation is what makes the tender mechanism necessary rather than merely convenient, because the mechanism operates precisely on the holder attaining the minimum.
 
@@ -303,15 +405,24 @@ The reported valuation trajectory rises from approximately 12 billion dollars at
 
 The trajectory's analytical function in this article is not to establish a value but to establish that a reportable return was continuously available to the holders without any realization. The step-up between consecutive rounds has the form
 
-$$g_n = \frac{V_n}{V_{n-1}} - 1$$
+$$
+g_n = \frac{V_n}{V_{n-1}} - 1
+\tag{35}
+$$
 
 with the positive sequence of $g_n$ supplying the carrying-value increases that sustained the limited-partner relationships across the interval. The cumulative effect on a position held from the 2015 round admits the compact product
 
-$$\frac{V_N}{V_0} = \prod_{n=1}^{N} \left( 1 + g_n \right) \approx 29 \qquad \text{over} \qquad N \approx 10 \text{ rounds across } 10 \text{ years}$$
+$$
+\frac{V_N}{V_0} = \prod_{n=1}^{N} \left( 1 + g_n \right) \approx 29 \qquad \text{over} \qquad N \approx 10 \text{ rounds across } 10 \text{ years}
+\tag{36}
+$$
 
 corresponding to an implied annualized rate
 
-$$\bar{g} = \left( \frac{V_N}{V_0} \right)^{1/\Delta t} - 1 \approx 0.40$$
+$$
+\bar{g} = \left( \frac{V_N}{V_0} \right)^{1/\Delta t} - 1 \approx 0.40
+\tag{37}
+$$
 
 with $\Delta t$ the elapsed interval in years. The figures are reconstructions and inherit every limitation the Data Sources section records, and their analytical function is not to establish a return but to establish that the sequence was monotone. A monotone sequence is what the mechanism requires, and a single interruption would have suspended it. The mechanism is the partial substitute the economic-property section identifies, and its limitation is that it pays no carried interest and satisfies no distribution metric.
 
@@ -325,25 +436,37 @@ The mechanism is described from the control side in the [Governance article A287
 
 The recurrence interval is itself load-bearing and is generally reported without being used. A holder reaching its term at an arbitrary date waits at most one interval for the next occasion, admitting the compact bound
 
-$$t^{\text{wait}}_{\max} = \frac{1}{f^{\text{tender}}} = \frac{1}{2 \text{ per year}} = 6 \text{ months}$$
+$$
+t^{\text{wait}}_{\max} = \frac{1}{f^{\text{tender}}} = \frac{1}{2 \text{ per year}} = 6 \text{ months}
+\tag{38}
+$$
 
 with the residual mismatch between the fund term and the realization opportunity bounded at approximately five percent of the ten-year term. The bound is what permits the mechanism to be treated as continuously available rather than as an episodic event. An arrangement conducting a tender every three years would leave a residual mismatch of the same order as the harvest period itself and would not resolve the constraint, which establishes that the frequency and not merely the existence of the mechanism is doing the work.
 
 The consequence for the fund-life constraint is complete. A fund approaching its term can realize its position at a market-tested price without the portfolio company undergoing any liquidity event whatever. The realization triggers the carried interest, produces the distribution, and improves the distributed-capital metric on which the successor fundraise depends. The mechanism satisfies all three channels through which the constraint operates, admitting the compact conjunctive statement
 
-$$\left[ \text{wind-up satisfied} \right] \wedge \left[ \frac{\partial \Pi^{\text{GP}}}{\partial \, \text{tender}} = c > 0 \right] \wedge \left[ \Delta \, \text{DPI} > 0 \right]$$
+$$
+\left[ \text{wind-up satisfied} \right] \wedge \left[ \frac{\partial \Pi^{\text{GP}}}{\partial \, \text{tender}} = c > 0 \right] \wedge \left[ \Delta \, \text{DPI} > 0 \right]
+\tag{39}
+$$
 
 with the three conjuncts corresponding to the contractual, compensatory, and reputational channels the preceding section separates. The completeness is the reason the article treats the mechanism as decisive rather than as helpful. A mechanism satisfying two of the three channels would leave a residual pressure, and the arrangement leaves none.
 
 The clearing condition the mechanism must satisfy at each occasion may be written
 
-$$\sum_{i \in \mathcal{S}_t} q_i \; \leq \; \sum_{j \in \mathcal{B}_t} d_j \big( P_t \big)$$
+$$
+\sum_{i \in \mathcal{S}_t} q_i \; \leq \; \sum_{j \in \mathcal{B}_t} d_j \big( P_t \big)
+\tag{40}
+$$
 
 with $\mathcal{S}\_t$ the set of holders seeking to sell at the occasion, $\mathcal{B}\_t$ the set of incoming buyers, and $d_j$ the demand each buyer brings at the price the firm sets. The issuer sets $P_t$ rather than discovering it, which means the issuer selects the point at which the inequality binds. The control over the clearing price is the feature the market-microstructure objection in the Alternative Analytical Frameworks section identifies as the principal challenge to the quantitative material, and the article accepts the objection.
 
 The resolution can be stated as
 
-$$\text{realization} \perp \text{company exit}$$
+$$
+\text{realization} \perp \text{company exit}
+\tag{41}
+$$
 
 with the two events rendered independent. The independence is what manufactures the patience, and it is manufactured rather than possessed because it is a property of a recurring institutional arrangement rather than of any party's preferences.
 
@@ -351,11 +474,17 @@ The disclosure asymmetry the arrangement produces deserves statement alongside t
 
 The mechanism's availability conditions deserve statement, because they determine how far the arrangement generalizes. The mechanism requires a continuing supply of incoming investors willing to purchase at a rising price, which requires in turn that the firm's prospects continue to improve on the incoming investors' assessment. The condition takes the compact form
 
-$$\exists \; \text{buyer at } P_t \; \text{ with } \; P_t > P_{t-1}$$
+$$
+\exists \; \text{buyer at } P_t \; \text{ with } \; P_t > P_{t-1}
+\tag{42}
+$$
 
 at each tender. A firm whose prospects deteriorate finds the mechanism unavailable precisely when it would be most needed, which means the mechanism yields patience in good states and contributes none in bad ones. The state dependence takes the form
 
-$$\mathbf{1}\left[ \text{mechanism available at } t \right] = \mathbf{1}\left[ \mathbb{E}_t\left[ V_{t+1} \right] > V_t \right]$$
+$$
+\mathbf{1}\left[ \text{mechanism available at } t \right] = \mathbf{1}\left[ \mathbb{E}_t\left[ V_{t+1} \right] > V_t \right]
+\tag{43}
+$$
 
 with the availability indicator equal to the indicator of improving prospects. The identity is the formal statement of the asymmetry, and it establishes that the mechanism is not a hedge. A hedge pays in the adverse state. The mechanism described here is unavailable in it. The asymmetry is the principal limitation on the generality of the article's central finding.
 
@@ -365,19 +494,28 @@ The investor base broadened across the period from a small group of venture fund
 
 The analytically relevant variation across the set is the vehicle life rather than the capital magnitude. The classes admit compact ordering
 
-$$T^{\text{closed-end venture fund}} < T^{\text{growth fund}} < T^{\text{open-ended asset manager}} < T^{\text{corporate balance sheet}} \approx T^{\text{sovereign}} \approx T^{\text{family office}} \to \infty$$
+$$
+T^{\text{closed-end venture fund}} < T^{\text{growth fund}} < T^{\text{open-ended asset manager}} < T^{\text{corporate balance sheet}} \approx T^{\text{sovereign}} \approx T^{\text{family office}} \to \infty
+\tag{44}
+$$
 
 with the rightmost classes facing no stated term at all. The composition shift toward the right of the ordering reduced the aggregate pressure on the firm independently of the tender mechanism, and the two effects are complementary rather than substitutable.
 
 The dispersion allows measurement through a concentration index over the holdings, taking the compact form
 
-$$H_t = \sum_i \left( \frac{s_{i,t}}{\sum_k s_{k,t}} \right)^{\!2}$$
+$$
+H_t = \sum_i \left( \frac{s_{i,t}}{\sum_k s_{k,t}} \right)^{\!2}
+\tag{45}
+$$
 
 with $s_{i,t}$ the holding of investor $i$ and the index declining across the period as the base broadened. The quantity is not observable in the present case, because the position sizes are not disclosed, and it is stated here to identify precisely which unobserved quantity the article's dispersion argument depends upon. The comparison classes are observable, however. A balance-sheet holder of the kind exemplified in the [Berkshire Hathaway][ref_berkshire] and [Ford investor relations][ref_ford_ir] disclosures reports positions at the parent level under the ordinary regime, as does the corporate strategic holder at [Alphabet][ref_alphabet_ir], while the open-ended asset manager reports portfolio holdings periodically under the regime described at [the Securities and Exchange Commission investor education service][ref_sec_investor_gov]. The article's dispersion argument therefore rests on a quantity that is routinely disclosed for every class of holder except in the arrangement under study.
 
 The dispersion of the base has a second effect the [Governance article A287][related_post_a287_spacex_governance] treats, namely that a dispersed base faces a coordination cost in assembling any coalition. The cost may be stated compactly
 
-$$c^{\text{coalition}} \sim \left| \left\{ i : \text{holders required for a blocking position} \right\} \right| \;\; \text{increasing as } H_t \text{ falls}$$
+$$
+c^{\text{coalition}} \sim \left| \left\{ i : \text{holders required for a blocking position} \right\} \right| \;\; \text{increasing as } H_t \text{ falls}
+\tag{46}
+$$
 
 with a lower concentration requiring a larger coalition and therefore a higher coordination cost. The capital-formation reading adds that a dispersed base also faces a coordination cost in demanding an exit, so that the dispersion serves the patience objective and the control objective through the same mechanism. The coincidence is not accidental, because both objectives are defeated by the same event, namely a coordinated action by a sufficient bloc of holders.
 
@@ -389,19 +527,28 @@ The instruments through which the dilution was absorbed without control passing 
 
 The arithmetic is stated in the economic-property section and in the [Governance article A287][related_post_a287_spacex_governance]. The point this article adds is that the dilution and the patience are jointly determined rather than independent. A round raised at a higher valuation dilutes less for the same capital, and a higher valuation is available only where the prior capital was patient enough to permit the intervening progress. The relationship can be written as
 
-$$\delta_n = \frac{k_n}{V_n + k_n} \qquad \text{with} \qquad V_n = V\!\left( \text{progress permitted by } \{ k_1, \ldots, k_{n-1} \} \right)$$
+$$
+\delta_n = \frac{k_n}{V_n + k_n} \qquad \text{with} \qquad V_n = V\!\left( \text{progress permitted by } \{ k_1, \ldots, k_{n-1} \} \right)
+\tag{47}
+$$
 
 with the dilution of the round depending on the valuation the prior rounds' patience produced. The structure means the total dilution across a financing sequence is not the sum of a fixed set of costs but depends on the sequencing, and that a single impatient round early in the sequence raises the total cost of every subsequent round.
 
 The sensitivity of the terminal founder share to the dilution at any single round has the form
 
-$$\frac{\partial e^{\text{founder}}_N}{\partial \delta_n} = - \frac{e^{\text{founder}}_N}{1 - \delta_n}$$
+$$
+\frac{\partial e^{\text{founder}}_N}{\partial \delta_n} = - \frac{e^{\text{founder}}_N}{1 - \delta_n}
+\tag{48}
+$$
 
 with the magnitude increasing in $\delta_n$, so that the rounds carrying the largest dilution are also the rounds at which a marginal improvement in terms is worth most. The early rounds satisfy both conditions simultaneously, being the rounds at the lowest valuations and therefore the rounds at which the dilution per dollar is highest.
 
 The interaction with the government leg the [Government-Anchor Capital-Formation Leg article A289][related_post_a289_spacex_government_anchor_leg] treats is direct. The non-dilutive capital displaced rounds that would otherwise have been raised at the lowest valuations in the sequence, which is where the dilution per dollar is highest. The effect is stated compactly as
 
-$$e^{\text{founder}}_N \Big|_{\text{both legs}} \; = \; e^{\text{founder}}_0 \prod_{n \notin \mathcal{D}} \left( 1 - \delta_n \right) \qquad \text{with} \qquad \mathcal{D} = \left\{ n : \text{round displaced by non-dilutive capital} \right\}$$
+$$
+e^{\text{founder}}_N \Big|_{\text{both legs}} \; = \; e^{\text{founder}}_0 \prod_{n \notin \mathcal{D}} \left( 1 - \delta_n \right) \qquad \text{with} \qquad \mathcal{D} = \left\{ n : \text{round displaced by non-dilutive capital} \right\}
+\tag{49}
+$$
 
 with the displaced set concentrated at the low-valuation end of the sequence. The two legs therefore interact multiplicatively rather than additively, and the combined effect on the terminal founder share exceeds the sum of the separate effects.
 
@@ -411,17 +558,26 @@ The Iridium programme is treated from the portfolio side in the [Portfolio Patie
 
 The programme was financed to a substantial degree with debt, and the consequence is the one the corporate-finance framing predicts. A debt claim is fixed in amount and fixed in date, so that a schedule delay or a revenue shortfall produces a default rather than a disappointment. The default condition may be written
 
-$$\text{default} \iff \text{cash available at } t < D_t$$
+$$
+\text{default} \iff \text{cash available at } t < D_t
+\tag{50}
+$$
 
 with $D_t$ contractually specified and independent of the operating reality. The consequence is a difference in the sensitivity of the failure probability to a schedule delay, admitting the compact contrast
 
-$$\frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{debt-financed}} \;\; \gg \;\; \frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{equity-financed}}$$
+$$
+\frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{debt-financed}} \;\; \gg \;\; \frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{equity-financed}}
+\tag{51}
+$$
 
 with the delay converting directly into a missed payment under the first structure and into a deferred return under the second. The case is documented in [Finkelstein and Sanford 2000][research_finkelstein_sanford_2000] Learning from Corporate Mistakes, [Zimmerman 2011][research_zimmerman_2011], and the primary record at the [Iridium Chapter 11 filing][ref_iridium_chapter_11_1999] lodged with the [Securities and Exchange Commission EDGAR][ref_sec_edgar] system, with the proceeding conducted under the [United States Bankruptcy Code Chapter 11][ref_bankruptcy_code_ch11] provisions and administered through the [United States bankruptcy court system][ref_uscourts_bankruptcy]. The operator's own contemporaneous record survives at the [Iridium corporate news archive][ref_iridium_press_archive_1998] and the financial-press reconstruction of the 1999 failure at [Bloomberg][ref_bloomberg]. The successor entity continues to operate the constellation, which is the detail most often omitted from the citation of this case as a failure. The system worked. The capital structure did not.
 
 The comparison to the SpaceX financing is the cleanest available demonstration that the instrument matters more than the quantity. Both ventures raised large sums for a capital-intensive constellation. The one raised equity from holders who could wait and the other raised debt from holders who could not. The difference has the concise statement
 
-$$\text{patience} = f\!\left( \text{claim type}, \; \text{vehicle life}, \; \text{realization path} \right)$$
+$$
+\text{patience} = f\!\left( \text{claim type}, \; \text{vehicle life}, \; \text{realization path} \right)
+\tag{52}
+$$
 
 with the quantity of capital appearing nowhere in the expression. A venture that raises a correct amount on a wrong instrument has not solved the capital-formation problem.
 
@@ -433,17 +589,26 @@ The programme was funded substantially by a large investment vehicle whose state
 
 The case establishes the proposition the article most needs established, which is that a stated horizon is not a structural property. The vehicle in question had a stated life and a set of investors with their own claims, and the decision to discontinue was available to it at every round irrespective of any prior representation. The distinction can be stated as
 
-$$\text{stated horizon} \neq \text{contractual horizon} \neq \text{revealed horizon}$$
+$$
+\text{stated horizon} \neq \text{contractual horizon} \neq \text{revealed horizon}
+\tag{53}
+$$
 
 with the three quantities differing and only the third being observable after the fact. The case is the reason the article treats the structural mechanisms rather than the investor characterizations as the object of analysis.
 
 The case also isolates the mechanism the SpaceX arrangement possessed and the OneWeb arrangement did not. A venture with a functioning secondary market can replace a departing holder. A venture without one cannot, so that a single holder's withdrawal is terminal. The difference may be stated compactly
 
-$$P\!\left( \text{terminal} \mid \text{holder withdraws} \right) = \begin{cases} \approx 0 & \text{secondary market exists} \\ \approx 1 & \text{otherwise} \end{cases}$$
+$$
+P\!\left( \text{terminal} \mid \text{holder withdraws} \right) = \begin{cases} \approx 0 & \text{secondary market exists} \\ \approx 1 & \text{otherwise} \end{cases}
+\tag{54}
+$$
 
 with the secondary market functioning as an insurance mechanism against a single-holder failure. The concentration measure the Investor-Base section introduces separates the two cases directly, admitting the compact contrast
 
-$$H^{\text{OneWeb}} \approx 1 \qquad \text{against} \qquad H^{\text{SpaceX}} \ll 1$$
+$$
+H^{\text{OneWeb}} \approx 1 \qquad \text{against} \qquad H^{\text{SpaceX}} \ll 1
+\tag{55}
+$$
 
 with the first configuration placing substantially the entire supply obligation on a single holder. The two failure conditions the article identifies, namely the absent transfer market and the concentrated base, therefore both obtained in the OneWeb case and neither obtained in the comparison case. The mechanism is the same tender arrangement the preceding section describes, which therefore performs two distinct functions and is doubly load-bearing.
 
@@ -455,19 +620,28 @@ A venture whose prospects deteriorate does not simply fail to raise. It raises o
 
 The instruments share a property the article's claim-type sub-property does not anticipate. Each of them moves the supplying claim toward a fixed and prioritized position and moves the founder and early-holder claim toward the residual. The liquidation waterfall that results admits the compact form
 
-$$\Pi^{\text{common}} = \max \left\{ 0, \; V^{\text{exit}} - \sum_{n} \pi_n k_n \right\}$$
+$$
+\Pi^{\text{common}} = \max \left\{ 0, \; V^{\text{exit}} - \sum_{n} \pi_n k_n \right\}
+\tag{56}
+$$
 
 with $\pi_n$ the preference multiple attaching to round $n$ and the common holders receiving nothing until the accumulated preferences are satisfied. Where the accumulated preferences approach the enterprise value, the common claim is economically extinguished while remaining nominally outstanding, which is a condition the corporate-finance literature from [Myers 1977][research_myers_1977] treats as debt overhang and which produces the identical distortion of investment incentives that [Jensen and Meckling 1976][research_jensen_meckling_1976] and [Hart 1995][book_hart_1995] describe.
 
 The consequence for the article's framework is direct and unwelcome. The first sub-property, which holds that the claim must be residual and undated rather than fixed in amount and date, is not a fixed property of equity as an instrument. It is a state-contingent property of the particular equity a venture is able to issue. The correct statement takes the form
 
-$$\phi_1(s) = \mathbf{1}\left[ \text{claim residual and undated in state } s \right] \qquad \text{with} \qquad \phi_1(\text{adverse}) \to 0$$
+$$
+\phi_1(s) = \mathbf{1}\left[ \text{claim residual and undated in state } s \right] \qquad \text{with} \qquad \phi_1(\text{adverse}) \to 0
+\tag{57}
+$$
 
 with the sub-property degrading precisely in the state where it would carry the most value. The Iridium comparison the article develops earlier therefore requires qualification. That case is presented as a contrast between a venture that raised debt and a venture that raised equity, and the contrast holds as stated for the observed histories. It does not establish that the second venture would have retained a residual undated claim structure had it entered a comparable adverse state, because the instrument set available in that state is not the instrument set available in the state it actually occupied.
 
 The deeper structural point concerns independence. The pattern-extraction section states the mechanic as a conjunction of five sub-properties and writes it as a product, which is the natural form for conditions that fail independently. They do not fail independently. An adverse state simultaneously withdraws the realization path, because incoming buyers at a rising price disappear, degrades the claim type, because the surviving instruments carry preferences, and concentrates the holder base, because a down round with pay-to-play provisions converts non-participating holders and leaves the participating ones proportionally larger. Three of the five sub-properties therefore fail together on a single common cause, admitting the compact statement
 
-$$\operatorname{corr}\left( \phi_1, \phi_3 \right) \gg 0 \quad \text{and} \quad \operatorname{corr}\left( \phi_3, \phi_4 \right) \gg 0 \quad \Longrightarrow \quad \prod_{k} \phi_k \; \text{overstates the joint survival probability}$$
+$$
+\operatorname{corr}\left( \phi_1, \phi_3 \right) \gg 0 \quad \text{and} \quad \operatorname{corr}\left( \phi_3, \phi_4 \right) \gg 0 \quad \Longrightarrow \quad \prod_{k} \phi_k \; \text{overstates the joint survival probability}
+\tag{58}
+$$
 
 with the product form appropriate for a diagnostic checklist and misleading as a probability model. The article retains the product form because its function is diagnostic rather than predictive, and records the limitation here rather than concealing it.
 
@@ -485,11 +659,17 @@ The demand side of the thesis is measurable in a way the supply side is not, and
 
 The analytical question the article poses about the wave is whether the structural conditions that made the original case work are present in the subsequent ones. The conditions the article identifies are a realization path independent of company exit, an investor base weighted toward vehicles without a fund-life clock, and a government relationship supplying non-dilutive capital and credit enhancement at the early stage. The first condition requires a secondary market, which requires in turn a continuing supply of incoming buyers at a rising price, which is available to a small number of ventures at any time. The condition is stated compactly as
 
-$$\left| \left\{ \text{ventures with functioning secondary markets} \right\} \right| \ll \left| \left\{ \text{ventures in the category} \right\} \right|$$
+$$
+\left| \left\{ \text{ventures with functioning secondary markets} \right\} \right| \ll \left| \left\{ \text{ventures in the category} \right\} \right|
+\tag{59}
+$$
 
 with the mechanism concentrated among a few. The joint requirement across the three conditions compounds the restriction, admitting the compact form
 
-$$P\!\left( \text{all three conditions} \right) = P\!\left( \text{realization path} \right) \cdot P\!\left( \text{vehicle composition} \mid \cdot \right) \cdot P\!\left( \text{government relationship} \mid \cdot \right) \; \ll \; P\!\left( \text{realization path} \right)$$
+$$
+P\!\left( \text{all three conditions} \right) = P\!\left( \text{realization path} \right) \cdot P\!\left( \text{vehicle composition} \mid \cdot \right) \cdot P\!\left( \text{government relationship} \mid \cdot \right) \; \ll \; P\!\left( \text{realization path} \right)
+\tag{60}
+$$
 
 with the conjunction rarer than its rarest conjunct. The implication is that the wave's capital is patient for the few ventures that attain the secondary market and is ordinary venture capital for the remainder, which is a distinction the category-level advocacy does not draw.
 
@@ -499,13 +679,19 @@ The two ventures most frequently offered as the template comparisons deserve sep
 
 The Palantir case, documented through the [Palantir investor materials][ref_palantir_ir], is the instance of a long private period followed by a direct listing rather than a conventional offering. The direct listing offers the liquidity a conventional offering gives without the capital raise or the underwriting, and it therefore constitutes a third resolution of the fund-life constraint distinct from the two the article treats. The resolutions available to a venture admit compact enumeration
 
-$$\mathcal{R} = \left\{ \; \text{conventional listing}, \;\; \text{direct listing}, \;\; \text{acquisition}, \;\; \text{recurring private tender} \; \right\}$$
+$$
+\mathcal{R} = \left\{ \; \text{conventional listing}, \;\; \text{direct listing}, \;\; \text{acquisition}, \;\; \text{recurring private tender} \; \right\}
+\tag{61}
+$$
 
 with the first three terminating the private configuration and only the fourth preserving it. The enumeration clarifies what the SpaceX arrangement purchased, which is not liquidity as such but liquidity compatible with remaining private, and the [Governance article A287][related_post_a287_spacex_governance] establishes why remaining private was the objective. The firm also adopted a multi-class structure preserving founder voting control, which the [Governance article A287][related_post_a287_spacex_governance] apparatus describes. The listing placed it inside the regime the private arrangement declines, comprising the [New York Stock Exchange Listed Company Manual][ref_nyse_listed_company_manual] standards, the [Regulation S-K][ref_sec_regulation_sk] disclosure obligations, and exposure to the [Council of Institutional Investors dual-class policy][ref_cii_dual_class] and the proxy-adviser recommendations at [Institutional Shareholder Services][ref_iss_governance] and [Glass Lewis][ref_glass_lewis]. The multi-class structure also carries index consequences under the [FTSE Russell][ref_ftse_russell] and [S and P Dow Jones Indices][ref_spdji] methodologies, which have at points restricted inclusion of firms with unequal voting rights. The case therefore demonstrates that the fund-life constraint can be resolved by listing while retaining founder control, at the cost of accepting every scrutiny mechanism the private arrangement avoids, and the article declines to characterize that trade as favorable or unfavorable because the two configurations optimize different objectives.
 
 The Anduril case, documented through the [Anduril corporate record][ref_anduril], is the instance of a venture founded after the thesis had been articulated and funded by the investors who articulated it. The case is therefore not an independent confirmation of the thesis but a consequence of it, and the evidentiary weight it can bear is correspondingly limited. The distinction permits the concise statement
 
-$$P\!\left( \text{funded} \mid \text{thesis held} \right) \neq P\!\left( \text{succeeds} \mid \text{funded} \right)$$
+$$
+P\!\left( \text{funded} \mid \text{thesis held} \right) \neq P\!\left( \text{succeeds} \mid \text{funded} \right)
+\tag{62}
+$$
 
 with the first quantity established by construction and the second remaining open.
 
@@ -517,13 +703,19 @@ The patient-private capital-formation mechanic can be compared with deep histori
 
 The chartered-company form yields the earliest systematic instance and is treated from other angles in the [Governance article A287][related_post_a287_spacex_governance] and the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience]. The capital-formation reading is that the permanent joint-stock company solved precisely the problem this article treats, by permitting an investor to realize a position through a transfer to another investor rather than through a liquidation of the underlying venture. The innovation yields the compact statement in the terms this article uses throughout
 
-$$\text{voyage-terminated venture} \; : \; \text{realization} \equiv \text{exit} \qquad \text{against} \qquad \text{permanent joint stock} \; : \; \text{realization} \perp \text{exit}$$
+$$
+\text{voyage-terminated venture} \; : \; \text{realization} \equiv \text{exit} \qquad \text{against} \qquad \text{permanent joint stock} \; : \; \text{realization} \perp \text{exit}
+\tag{63}
+$$
 
 with the separation this article treats as the decisive modern innovation having been accomplished in the early seventeenth century. The tender mechanism is therefore not a novel instrument but a reconstruction of a four-century-old one under conditions where the ordinary vehicle for it, namely a listed market, was deliberately declined. The [Steensgaard 1974][book_steensgaard_1974] The Asian Trade Revolution, [Stern 2011][book_stern_2011] The Company-State, and [Robins 2006][book_robins_2006] The Corporation That Changed the World treatments document the development, and the market structures that supported the transfers are treated in [Preda 2009][book_preda_2009] Framing Finance and [MacKenzie and MacKenzie 2006][book_mackenzie_2006] An Engine Not a Camera.
 
 The canal and railway financing of the eighteenth and nineteenth centuries contributes the instance of a private capital market financing an infrastructure with a construction period exceeding the investors' ordinary horizon, and the instance in which the mismatch produced repeated financial crises. The mismatch is the same one this article formalizes, admitting the compact statement
 
-$$T^{\text{construction}} \gg T^{\text{subscriber horizon}} \quad \Longrightarrow \quad \text{repeated refinancing at intervals of } T^{\text{subscriber horizon}}$$
+$$
+T^{\text{construction}} \gg T^{\text{subscriber horizon}} \quad \Longrightarrow \quad \text{repeated refinancing at intervals of } T^{\text{subscriber horizon}}
+\tag{64}
+$$
 
 with each refinancing constituting an occasion on which the undertaking could fail for reasons unrelated to its engineering. The [Chandler 1977][book_chandler_1977] The Visible Hand, [Chandler 1962][book_chandler_1962] Strategy and Structure, [Landes 1969][book_landes_1969] The Unbound Prometheus, and [Hughes and Hughes 1983][book_hughes_1983] Networks of Power treatments document the arrangements. The record is substantially less favorable than the contemporary infrastructure-finance advocacy suggests, and the reason is that the era supplied no equivalent of the transfer mechanism at the scale the undertakings required.
 
@@ -549,7 +741,10 @@ The state-directed industrial finance of the postwar East Asian economies gives 
 
 The relevant observation is that the form was designed for a development horizon of a few years, and that substantially every difficulty this article treats follows from applying it to a horizon it was not designed for. The design point and the application admit the compact contrast
 
-$$T^{\text{design point of the venture form}} \approx 3 \text{ to } 7 \text{ years} \qquad \text{against} \qquad T^{\text{holding required}} > 18 \text{ years}$$
+$$
+T^{\text{design point of the venture form}} \approx 3 \text{ to } 7 \text{ years} \qquad \text{against} \qquad T^{\text{holding required}} > 18 \text{ years}
+\tag{65}
+$$
 
 with the instrument applied at approximately three times the horizon for which its terms were calibrated. The observation reframes the article's subject matter. The question is not why the investors were unusually patient but why an instrument calibrated for a semiconductor startup was the one available to a launch venture at all, and the answer is that no alternative instrument existed in the market the venture could reach.
 
@@ -611,7 +806,10 @@ The contemporary landscape for the patient-private leg differs from that of the 
 
 Blue Origin occupies the configuration in which the patient-private leg is unnecessary, because the single-funder arrangement the [Governance article A287][related_post_a287_spacex_governance] treats contributes the capital directly from a balance sheet with no fund life and no realization requirement. The configuration satisfies the duration condition trivially and dispenses with the dilution entirely, at the cost of the dependence on a single source. The trade allows the brief statement in the terms the article uses
 
-$$T^{\text{vehicle}} \to \infty \quad \text{and} \quad \delta_n = 0 \quad \text{purchased at} \quad H = 1$$
+$$
+T^{\text{vehicle}} \to \infty \quad \text{and} \quad \delta_n = 0 \quad \text{purchased at} \quad H = 1
+\tag{66}
+$$
 
 with the configuration attaining the duration and dilution objectives outright while failing the dispersion sub-property completely. The configuration is therefore the exact complement of the OneWeb failure, holding the concentration constant at its maximum and varying the supplier's willingness to continue. The record appears at the [Blue Origin press releases][ref_blue_origin_press].
 
@@ -623,7 +821,10 @@ The United Launch Alliance is a joint venture of listed parents and therefore ra
 
 The broader entrant set faces the ordinary constraint without the secondary-market relief, which is the structural reason the sector exhibits a pattern of ventures raising successive rounds at rising valuations until a round fails and the venture is sold or wound up. The survival pattern can be written as
 
-$$P\!\left( \text{survive to round } N \right) = \prod_{n=1}^{N} \left( 1 - q_n \right) \qquad \text{with} \qquad q_n = P\!\left( \text{round } n \text{ fails to close} \right)$$
+$$
+P\!\left( \text{survive to round } N \right) = \prod_{n=1}^{N} \left( 1 - q_n \right) \qquad \text{with} \qquad q_n = P\!\left( \text{round } n \text{ fails to close} \right)
+\tag{67}
+$$
 
 with the product declining geometrically in the number of rounds a venture must raise. A venture requiring a longer development period requires a larger $N$ and therefore faces a lower survival probability for a reason having nothing to do with its engineering. The mechanism this article treats operates by removing the rounds from the product rather than by improving the per-round probability. The pattern is visible in the record the [Portfolio Patience article A288][related_post_a288_spacex_portfolio_patience] documents.
 
@@ -631,7 +832,10 @@ with the product declining geometrically in the number of rounds a venture must 
 
 The patient-private capital-formation leg can be applied to the venture set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector has the form
 
-$$\boldsymbol{\phi}_j^{\text{patient-private}} \in \{0,1\}^{5}$$
+$$
+\boldsymbol{\phi}_j^{\text{patient-private}} \in \{0,1\}^{5}
+\tag{68}
+$$
 
 with each venture's vector indicating the satisfaction status across the claim-type, vehicle-duration, realization-path, investor-dispersion, and control-preservation sub-properties.
 
@@ -639,20 +843,26 @@ SpaceX exhibits closure on all five. Blue Origin exhibits closure on the claim-t
 
 The scoring assembles into a matrix whose rows are the ventures and whose columns are the sub-properties in the order the pattern-extraction section states
 
-$$\begin{array}{lccccc}
+$$
+\begin{array}{lccccc}
  & \phi_1 & \phi_2 & \phi_3 & \phi_4 & \phi_5 \\
 \text{SpaceX} & 1 & 1 & 1 & 1 & 1 \\
 \text{Blue Origin} & 1 & 1 & \dagger & 0 & 1 \\
 \text{Rocket Lab} & 1 & 1 & 1 & 1 & 0 \\
 \text{Iridium} & 0 & \ast & \ast & \ast & \ast \\
 \text{OneWeb} & 1 & \ast & 0 & 0 & \ast
-\end{array}$$
+\end{array}
+\tag{69}
+$$
 
 with $\dagger$ marking a sub-property the configuration renders inapplicable rather than satisfied or failed, and $\ast$ marking a cell the available record does not establish. The empty cells are reported rather than imputed, and their number is the reason the section is a scoring exercise rather than an estimation. A reader should note that the two failed cases carry the most missing cells, which is precisely the pattern a survivorship problem produces.
 
 The cross-sectional pattern indicates that the realization-path sub-property is the one that discriminates most sharply and the one least frequently discussed. The correlation with the outcome can be stated as
 
-$$\operatorname{corr}_j\!\left( \phi_{j,3}^{\text{realization path}}, \; \text{survival} \right) \gg \operatorname{corr}_j\!\left( \phi_{j,2}^{\text{vehicle duration}}, \; \text{survival} \right)$$
+$$
+\operatorname{corr}_j\!\left( \phi_{j,3}^{\text{realization path}}, \; \text{survival} \right) \gg \operatorname{corr}_j\!\left( \phi_{j,2}^{\text{vehicle duration}}, \; \text{survival} \right)
+\tag{70}
+$$
 
 with the existence of a realization path independent of company exit carrying more information than the nominal patience of the vehicles supplying the capital. The finding is the article's central empirical claim.
 
@@ -674,13 +884,19 @@ The patient-private capital-formation framing the article develops is one of sev
 
 The conviction framing, which is the framing the participants themselves employ, treats the outcome as attributable to investor belief in the mission and founder. The framing is not refuted by the evidence and is incomplete, because it gives no account of how the belief was converted into a contractual capacity to act on it. The incompleteness may be stated compactly
 
-$$\text{observed patience} = \underbrace{\text{willingness}}_{\text{conviction framing}} \; \wedge \; \underbrace{\text{capacity}}_{\text{structural framing}}$$
+$$
+\text{observed patience} = \underbrace{\text{willingness}}_{\text{conviction framing}} \; \wedge \; \underbrace{\text{capacity}}_{\text{structural framing}}
+\tag{71}
+$$
 
 with the conjunction requiring both conjuncts and the conviction account supplying only the first. The article treats the structural framing as a complement rather than as a replacement, and the OneWeb case is the demonstration that the first conjunct alone is insufficient.
 
 The agency framing developed in [Jensen and Meckling 1976][research_jensen_meckling_1976], [Fama and Jensen 1983][research_fama_jensen_1983], [Jensen 1986][research_jensen_1986], and [Shleifer and Vishny 1997][research_shleifer_vishny_1997] treats the general partner as an agent of the limited partners and the fund-life constraint as a bonding mechanism that exists precisely to prevent the general partner from holding indefinitely. Under the framing, the mechanism this article describes as manufacturing patience is a circumvention of a control designed to protect the limited partners, and whether it benefits them is an empirical question the article cannot answer. The question supports compact statement without admitting resolution
 
-$$\mathbb{E}\left[ u^{\text{LP}} \mid \text{tender available} \right] \; \gtrless \; \mathbb{E}\left[ u^{\text{LP}} \mid \text{wind-up enforced} \right]$$
+$$
+\mathbb{E}\left[ u^{\text{LP}} \mid \text{tender available} \right] \; \gtrless \; \mathbb{E}\left[ u^{\text{LP}} \mid \text{wind-up enforced} \right]
+\tag{72}
+$$
 
 with the ordering undetermined on the available evidence. The left side benefits from the continued appreciation and suffers from the loss of the bonding the term supplied. The article notes that the general partner selects when to invoke the mechanism and the limited partners do not, which is an asymmetry the agency framing predicts will be resolved in the general partner's favor. The scholarly and practitioner apparatus through which the framing is currently argued is collected at the [European Corporate Governance Institute][ref_ecgi] and the [Harvard Law School Forum on Corporate Governance][ref_harvard_corpgov_forum], with the investor-side positions at the [Council of Institutional Investors][ref_cii].
 
@@ -688,7 +904,10 @@ The comparative-institutional framing asks whether the arrangement is a feature 
 
 The market-microstructure framing treats the tender mechanism as a thin periodic auction whose price is set by the issuer rather than discovered, and it raises the question whether the reported valuations bear the informational content that a public market price would. The concern is stated compactly as
 
-$$P_t^{\text{tender}} = P^{\text{issuer-set}} \quad \text{subject only to} \quad \sum_{j} d_j\big( P_t \big) \geq \sum_{i} q_i$$
+$$
+P_t^{\text{tender}} = P^{\text{issuer-set}} \quad \text{subject only to} \quad \sum_{j} d_j\big( P_t \big) \geq \sum_{i} q_i
+\tag{73}
+$$
 
 with the price constrained by a participation condition rather than determined by a market-clearing one. A range of prices satisfies the inequality and the issuer selects within it, so that the reported valuation is an upper region of a feasible set rather than a point estimate of a value. The framing yields the most serious challenge to the quantitative material in this article and is the reason the Data Sources section states the limitation explicitly.
 
@@ -708,7 +927,10 @@ The organizational-capability framing developed in [Penrose 1959][book_penrose_1
 
 The evolutionary framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998], [Klepper 1996][research_klepper_1996], and [Klepper 2010][research_klepper_2010] supplies the selection caution, which is unusually sharp here because the mechanism the article identifies operates only in favorable states and is therefore present in substantially every surviving case and absent from substantially every failed one by construction. The hazard takes the compact statement
 
-$$P\!\left( \text{mechanism observed} \mid \text{survived} \right) \approx 1 \qquad \text{while} \qquad P\!\left( \text{survived} \mid \text{mechanism observed} \right) \; \text{remains unidentified}$$
+$$
+P\!\left( \text{mechanism observed} \mid \text{survived} \right) \approx 1 \qquad \text{while} \qquad P\!\left( \text{survived} \mid \text{mechanism observed} \right) \; \text{remains unidentified}
+\tag{74}
+$$
 
 with the first quantity carrying no information about the second. The caution bears directly on the article's central empirical claim in the Comparative Cross-Sectional Analysis section, and the claim should be read as a structural argument supported by a negation case rather than as an estimated effect.
 
@@ -718,7 +940,10 @@ The patient-private capital-formation pattern that the SpaceX case exhibits admi
 
 The abstract mechanic requires joint satisfaction of five sub-properties, admitting the compact conjunctive form
 
-$$\Phi^{\text{patient-private}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}$$
+$$
+\Phi^{\text{patient-private}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}
+\tag{75}
+$$
 
 First, the claim must be residual and undated rather than fixed in amount and date. Debt applied to a development programme with an uncertain schedule converts a delay into a default.
 
@@ -734,13 +959,19 @@ The five are stated as a conjunction and written as a product, and both the stat
 
 The mechanic permits a diagnostic procedure stated as an ordered test vector
 
-$$\tau = \left( \text{claim residual}, \;\; T^{\text{vehicle}} \geq T^{\text{holding}}, \;\; \text{realization} \perp \text{exit}, \;\; \text{base dispersed}, \;\; v^{\text{founder}} > \tfrac{1}{2} \right)$$
+$$
+\tau = \left( \text{claim residual}, \;\; T^{\text{vehicle}} \geq T^{\text{holding}}, \;\; \text{realization} \perp \text{exit}, \;\; \text{base dispersed}, \;\; v^{\text{founder}} > \tfrac{1}{2} \right)
+\tag{76}
+$$
 
 with the third component the one a candidate case will usually fail and the one an assessment will usually not examine.
 
 The mechanic carries a limitation the statement should not conceal. The realization path exists only where incoming buyers appear at a rising price, which is to say only where the venture's prospects are improving. The third component of the test vector is therefore not a fixed property of the arrangement but a state-contingent one, admitting the compact restatement
 
-$$\tau_3(t) = \mathbf{1}\left[ \mathbb{E}_t\left[ V_{t+1} \right] > V_t \right] \qquad \text{rather than} \qquad \tau_3 = \text{constant}$$
+$$
+\tau_3(t) = \mathbf{1}\left[ \mathbb{E}_t\left[ V_{t+1} \right] > V_t \right] \qquad \text{rather than} \qquad \tau_3 = \text{constant}
+\tag{77}
+$$
 
 with the component that does the most work being the one least stable across states. The mechanism therefore provides patience in good states and none in bad ones, which is the opposite of what the word patience ordinarily connotes. A venture relying on it has not obtained capital that will wait through difficulty. It has obtained capital that need not leave during success.
 
@@ -759,6 +990,685 @@ The article adopts terminology consistent with the private-capital conventions a
 ## Load-Bearing Open Questions
 
 The article closes with the load-bearing open questions the treatment leaves unresolved. First, the round terms are entirely unknown, and the liquidation preferences and protective provisions each materially affect the economics the article describes. Second, the valuations are transaction prices in a thin market whose price the issuer sets, so their informational content is contested and the article's quantitative material inherits that contest. Third, the central claim that the realization path rather than investor conviction produced the patience is supported by the structural argument and by the OneWeb contrast, and is not established by any direct evidence about what any particular investor would have done absent the mechanism. Fourth, the mechanism operates only in favorable states, so the sample of ventures exhibiting it is selected on the outcome the article uses it to explain. Fifth, whether the arrangement benefits the limited partners whose protective fund-life constraint it circumvents is an empirical question the article poses and cannot answer. Sixth, the extension of the pattern to the contemporary defense-technology wave assumes the secondary-market condition will be satisfied for those ventures, and it will be satisfied for few of them. Seventh, the adverse-state instrument set the article reasons about is documented in the financial-contracting literature and is not observed in the present case, so the finding that three of the five sub-properties fail on a common cause is a conditional prediction rather than a reconstruction, and it would be tested only by an adverse state the observed history does not contain. Eighth, whether the correlation among sub-properties that the adverse state induces is a general feature of the framework or to the financing condition is not established here, and the closing article should examine it across all ten conditions rather than assuming either answer.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 77 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 77, 20 are established and 57 are bespoke.
+Horizons are in years and capital and valuations in nominal dollars, most relations are qualitative formalisations of an argument rather than estimated quantities, and every indicator takes the value zero or one.
+
+*Equation 1, Bespoke Duration Mismatch between Mission and Fund.*
+The article states its central problem as a mission horizon measured in decades that greatly exceeds the contractual life of a venture fund of about ten years.
+
+$$
+T^{\text{mission}} \gg T^{\text{fund}}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Three Resolutions of the Duration Mismatch.*
+The article reduces the resolution of the mismatch to a disjunction of three forms, a longer fund, a vehicle without a fund life and a realisation path independent of exit.
+
+$$
+\text{mismatch resolved} \iff \left( T^{\text{fund}} \geq T^{\text{holding}} \right) \; \vee \; \left( \nexists \; T^{\text{fund}} \right) \; \vee \; \left( \text{realization} \perp \text{exit} \right)
+\tag{2}
+$$
+
+*Equation 3, Bespoke Counterfactual Differential of Patient Capital.*
+The attribution to patient private capital is defined as the observed trajectory less a counterfactual in which the same capital arrived on ordinary terms with an ordinary exit expectation.
+
+$$
+\Delta V^{\text{patient-private}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{impatient-capital counterfactual}}_i(t)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Decomposition of the Financing Effect.*
+The article splits the total financing effect into a supply component and a terms component and confines its analysis to the second.
+
+$$
+\underbrace{V^{\text{observed}}_i - V^{\text{no external capital}}_i}_{\text{total financing effect}} = \underbrace{\left( V^{\text{ordinary terms}}_i - V^{\text{no external capital}}_i \right)}_{\text{supply component}} + \underbrace{\left( V^{\text{observed}}_i - V^{\text{ordinary terms}}_i \right)}_{\text{terms component}}
+\tag{4}
+$$
+
+**Equation 5, Compensation of a General Partner.**
+The general partner earns a management fee on committed capital over the fund life plus a carried interest on aggregate realised gains, so that unrealised appreciation pays nothing.
+[Metrick and Yasuda 2011][book_metrick_yasuda_2011]
+
+$$
+\Pi^{\text{GP}} = f \cdot K^{\text{committed}} \cdot T^{\text{fund}} + c \cdot \left[ \sum_{i} \left( V^{\text{realized}}_i - K_i \right) \right]^{+}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Condition for Achievable Patience.*
+The article makes patience conditional solely on the existence of a realisation path that does not require a liquidity event of the company.
+
+$$
+\text{patience achievable} \iff \exists \; \text{realization path independent of company exit}
+\tag{6}
+$$
+
+**Equation 7, Total Value to Paid-In Capital.**
+The total value to paid-in capital multiple adds the carrying values of unrealised positions to distributions and divides by drawn capital, so it can rise without any realisation.
+[Metrick and Yasuda 2011][book_metrick_yasuda_2011]
+
+$$
+\text{TVPI} = \frac{\sum_i V^{\text{carrying}}_i + \text{distributions}}{K^{\text{drawn}}}
+\tag{7}
+$$
+
+**Equation 8, Present Value of Carried Interest.**
+Discounting the expected carry at the rate of the general partner shows that its value falls with the realisation horizon even when the terminal amount is certain.
+
+$$
+\operatorname{PV}\left[ \Pi^{\text{carry}} \right] = c \cdot \frac{\mathbb{E}\left[ V^{\text{realized}}_T - K \right]}{\left( 1 + r^{\text{GP}} \right)^{T}}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Duration-Matching Condition.*
+The article requires the life of each supplying vehicle to be at least the holding period the venture requires, a condition that a vehicle without a stated life satisfies trivially.
+
+$$
+T^{\text{vehicle}} \geq T^{\text{holding required}}
+\tag{9}
+$$
+
+**Equation 10, Remaining Life of a Supplying Vehicle.**
+The remaining life is the stated vehicle life less the time elapsed since inception, so it declines at unit rate.
+
+$$
+T^{\text{remaining}}_i(t) = T^{\text{vehicle}}_i - \left( t - t^{\text{inception}}_i \right)
+\tag{10}
+$$
+
+**Equation 11, Founder Equity after Successive Dilutions.**
+Each round that dilutes by a fraction multiplies the founder share by one minus that fraction, so the terminal share is the initial share times the product over rounds.
+[Governance article A287][related_post_a287_spacex_governance]
+
+$$
+e^{\text{founder}}_N = e^{\text{founder}}_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
+\tag{11}
+$$
+
+*Equation 12, Bespoke Effective Commitment under Staged Financing.*
+The article treats staging as shrinking the effective commitment to the interval before the next decision at which continuation may be declined, far short of the required holding period.
+
+$$
+T^{\text{effective commitment}} = \min_{n} \left\{ t_n \; : \; \text{continuation declined at stage } n \right\} \;\; \ll \;\; T^{\text{holding required}}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Contrast of Debt and Equity Claims.*
+The article contrasts a debt obligation fixed in amount and date with a residual and undated equity claim, the distinction on which the Iridium counter-example turns.
+
+$$
+\text{debt obligation} \; : \; \text{fixed in amount and date} \qquad \text{against} \qquad \text{equity claim} \; : \; \text{residual and undated}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Expansion of the Private Capital Supply.*
+The article states as a qualitative inequality that the private capital available late in the period greatly exceeded that available at its start.
+
+$$
+K^{\text{private available}}(t) \gg K^{\text{private available}}(t_0)
+\tag{14}
+$$
+
+*Equation 15, Bespoke Asymmetry of Outside Options across Rounds.*
+The article writes the negotiated founder share as a function of the two disagreement payoffs and assumes that the founder payoff rose across rounds while the investor payoff stayed nearly flat.
+
+$$
+\sigma^{\text{founder}}_n = \sigma\!\left( u^{\text{founder}}_n, \; u^{\text{investor}}_n \right) \qquad \text{with} \qquad \frac{d u^{\text{founder}}_n}{d n} > 0 \quad \text{and} \quad \frac{d u^{\text{investor}}_n}{d n} \approx 0
+\tag{15}
+$$
+
+**Equation 16, Staged Investment with an Abandonment Option.**
+The value of the participation right at each stage is the larger of zero and the conditional expected value of the next stage less the capital it requires, the standard recursion for an option to abandon.
+[Dixit and Pindyck 1994][book_dixit_pindyck_1994]
+
+$$
+W_n = \max \left\{ 0, \; \mathbb{E}\left[ W_{n+1} \mid \mathcal{F}_n \right] - k_n \right\}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Institutionally Contingent Horizon Norm.*
+The article contrasts a horizon norm that depends on prevailing institutional practice with the constant norm it attributes to the commentary.
+
+$$
+T^{\text{norm}} = T^{\text{norm}}\!\left( \text{prevailing institutional practice} \right) \qquad \text{against} \qquad T^{\text{norm}} = \text{constant}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Comparative Statics of Escalation and Reassessment.*
+The article distinguishes escalation of commitment from reassessment by the response of the reinvestment probability to an adverse signal, near zero under the first and negative under the second.
+
+$$
+\frac{\partial \, P\!\left( \text{reinvest} \right)}{\partial \, s^{\text{adverse}}} \approx 0 \;\; \text{under escalation} \qquad \text{against} \qquad \frac{\partial \, P\!\left( \text{reinvest} \right)}{\partial \, s^{\text{adverse}}} < 0 \;\; \text{under reassessment}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Counterparty Density Condition.*
+The article requires a minimum number of informed counterparties for a transfer market to function, a threshold it states without estimating.
+
+$$
+N^{\text{informed counterparties}} \geq N^{\text{minimum}} \quad \text{for a functioning transfer market}
+\tag{19}
+$$
+
+**Equation 20, Decomposition of the Venture Fund Term.**
+The fund term is the sum of an investment period and a harvest period of about five years each, with extensions of up to two years.
+[Metrick and Yasuda 2011][book_metrick_yasuda_2011]
+
+$$
+T^{\text{fund}} = T^{\text{investment}} + T^{\text{harvest}} + \epsilon^{\text{extension}} \qquad \text{with} \qquad T^{\text{investment}} \approx T^{\text{harvest}} \approx 5 \text{ years}, \;\; \epsilon^{\text{extension}} \leq 2 \text{ years}
+\tag{20}
+$$
+
+**Equation 21, Sensitivity of General Partner Compensation to Realisation.**
+Differentiating the compensation of the general partner shows it insensitive to unrealised value and rising at the carry rate with realised value.
+
+$$
+\frac{\partial \Pi^{\text{GP}}}{\partial V^{\text{unrealized}}} = 0 \qquad \text{while} \qquad \frac{\partial \Pi^{\text{GP}}}{\partial V^{\text{realized}}} = c > 0
+\tag{21}
+$$
+
+**Equation 22, Distributions to Paid-In Capital.**
+The distributions to paid-in capital ratio divides the cash distributed to limited partners by the capital drawn and ignores unrealised value.
+[Metrick and Yasuda 2011][book_metrick_yasuda_2011]
+
+$$
+\text{DPI} = \frac{\text{distributions to limited partners}}{\text{capital drawn}}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Binding Realisation Clock.*
+The article identifies the binding clock as the shorter of the fund term and the successor fundraising cycle and places the cycle at three to four years.
+
+$$
+T^{\text{binding}} = \min \left\{ T^{\text{fund}}, \; \Delta^{\text{fundraise cycle}} \right\} = \Delta^{\text{fundraise cycle}} \approx 3 \text{ to } 4 \text{ years}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Required Holding Period.*
+The article bounds the holding period for a position taken in 2008 below by eighteen years, the interval to the drafting date against a mission not yet complete.
+
+$$
+T^{\text{holding}} > 18 \text{ years}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Mismatch Ratios.*
+The article defines two mismatch ratios, the holding period over the fund term and over the fundraising cycle, and evaluates them at about two and five.
+
+$$
+\rho^{\text{fund}} = \frac{T^{\text{holding}}}{T^{\text{fund}}} \approx 2 \qquad \text{and} \qquad \rho^{\text{cycle}} = \frac{T^{\text{holding}}}{\Delta^{\text{fundraise cycle}}} \approx 5
+\tag{25}
+$$
+
+**Equation 26, Cash Runway.**
+The runway is the cash on hand divided by the rate at which cash is spent.
+
+$$
+T^{\text{runway}} = \frac{C^{\text{cash on hand}}}{\dot{C}^{\text{burn}}}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Objectives of the Investor in Setting Terms.*
+The article contrasts terms chosen to maximise the value captured in one transaction with terms chosen to maximise deal flow across future transactions.
+
+$$
+\text{terms} = \arg\max \left[ \text{value captured in this transaction} \right] \qquad \text{against} \qquad \arg\max \left[ \text{deal flow across future transactions} \right]
+\tag{27}
+$$
+
+*Equation 28, Bespoke Condition for Reputational Terms to Pay.*
+The article holds that founder-favourable terms repay their present cost when the probability-weighted gains from future transactions that the reputation secures exceed that cost.
+
+$$
+\underbrace{\Delta u^{\text{this transaction}}}_{< 0} \; + \; \sum_{m > 0} \pi_m \, \Delta u^{\text{transaction } m} \; > \; 0
+\tag{28}
+$$
+
+*Equation 29, Bespoke Reduction of the Private Discount Rate by the Award.*
+The article asserts that the government award of December 2008 lowered the discount rate that private investors applied, acting as a credit enhancement supplied by a third party.
+
+$$
+r^{\text{private}}\big|_{\text{post-award}} < r^{\text{private}}\big|_{\text{pre-award}}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Two-Mode Failure Probability.*
+The article treats failure as the union of independent technical and market failure modes, so that the award lowers the overall probability by reducing the market term.
+
+$$
+P^{\text{failure}} = 1 - \left( 1 - p^{\text{technical}} \right)\left( 1 - p^{\text{market}} \right) \qquad \text{with} \qquad p^{\text{market}} \big|_{\text{post-award}} \ll p^{\text{market}} \big|_{\text{pre-award}}
+\tag{30}
+$$
+
+**Equation 31, Implied Valuation of the 2015 Round.**
+Dividing the capital raised by the fraction of the firm sold gives a post-money valuation of ten billion dollars and a pre-money valuation of nine billion, short of the twelve billion the trade press reported.
+
+$$
+V^{\text{post-money}} = \frac{k}{\delta} = \frac{1 \text{ billion}}{0.10} = 10 \text{ billion dollars} \qquad \text{implying} \qquad V^{\text{pre-money}} = 9 \text{ billion dollars}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Duration Condition for an Unlimited Vehicle Life.*
+Under the duration-matching condition the article defines, a vehicle with no stated term satisfies the condition for every required holding period.
+
+$$
+T^{\text{vehicle}} \to \infty \quad \Longrightarrow \quad T^{\text{vehicle}} \geq T^{\text{holding required}} \; \text{ for every } \; T^{\text{holding required}}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Weighted Average Vehicle Life.*
+The article summarises the investor base by a holding-weighted average vehicle life and asserts that the average rose as the base broadened.
+
+$$
+\bar{T}^{\text{vehicle}}(t) = \sum_i w_i(t) \, T^{\text{vehicle}}_i \qquad \text{with} \qquad \frac{d \bar{T}^{\text{vehicle}}}{dt} > 0
+\tag{33}
+$$
+
+*Equation 34, Bespoke Binding Remaining Life.*
+The article takes the earliest remaining term across the holders, not the average, as the quantity that governs the pressure to realise.
+
+$$
+T^{\text{binding}}(t) = \min_i \; T^{\text{remaining}}_i(t)
+\tag{34}
+$$
+
+**Equation 35, Step-Up between Consecutive Rounds.**
+The step-up is the ratio of one round valuation to the preceding one, less one.
+
+$$
+g_n = \frac{V_n}{V_{n-1}} - 1
+\tag{35}
+$$
+
+**Equation 36, Cumulative Valuation Multiple from 2015.**
+The cumulative multiple is the product of one plus each step-up, about twenty-nine across roughly ten rounds and ten years on the reconstructed figures.
+
+$$
+\frac{V_N}{V_0} = \prod_{n=1}^{N} \left( 1 + g_n \right) \approx 29 \qquad \text{over} \qquad N \approx 10 \text{ rounds across } 10 \text{ years}
+\tag{36}
+$$
+
+**Equation 37, Implied Annualised Growth Rate.**
+The compound annual rate is the cumulative multiple raised to the reciprocal of the elapsed years, less one, which gives about forty percent a year.
+
+$$
+\bar{g} = \left( \frac{V_N}{V_0} \right)^{1/\Delta t} - 1 \approx 0.40
+\tag{37}
+$$
+
+**Equation 38, Maximum Wait for a Tender Occasion.**
+A holder reaching its term waits at most the reciprocal of the tender frequency, which is six months at two tenders a year.
+
+$$
+t^{\text{wait}}_{\max} = \frac{1}{f^{\text{tender}}} = \frac{1}{2 \text{ per year}} = 6 \text{ months}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Three Channels Satisfied by a Tender.*
+The article states that a tender satisfies the contractual, compensatory and reputational channels at once, since wind-up is met, carry is triggered and the distributions ratio rises.
+
+$$
+\left[ \text{wind-up satisfied} \right] \wedge \left[ \frac{\partial \Pi^{\text{GP}}}{\partial \, \text{tender}} = c > 0 \right] \wedge \left[ \Delta \, \text{DPI} > 0 \right]
+\tag{39}
+$$
+
+**Equation 40, Tender Clearing Condition.**
+At each occasion the shares that sellers offer must not exceed the demand of incoming buyers at the price the issuer sets.
+
+$$
+\sum_{i \in \mathcal{S}_t} q_i \; \leq \; \sum_{j \in \mathcal{B}_t} d_j \big( P_t \big)
+\tag{40}
+$$
+
+*Equation 41, Bespoke Independence of Realisation from Exit.*
+The article states the effect of the tender mechanism as the independence of realisation by a holder from any exit by the company.
+
+$$
+\text{realization} \perp \text{company exit}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Availability Condition for the Tender.*
+The article requires a buyer at each tender at a price above the previous one, so that the mechanism depends on continuing improvement in prospects.
+
+$$
+\exists \; \text{buyer at } P_t \; \text{ with } \; P_t > P_{t-1}
+\tag{42}
+$$
+
+*Equation 43, Bespoke State Dependence of Tender Availability.*
+The article equates the availability of the mechanism with the indicator that expected value is rising, which makes the mechanism unavailable in adverse states.
+
+$$
+\mathbf{1}\left[ \text{mechanism available at } t \right] = \mathbf{1}\left[ \mathbb{E}_t\left[ V_{t+1} \right] > V_t \right]
+\tag{43}
+$$
+
+*Equation 44, Bespoke Ordering of Vehicle Lives by Investor Class.*
+The article orders investor classes by vehicle life from closed-end venture funds to holders with no stated term.
+
+$$
+T^{\text{closed-end venture fund}} < T^{\text{growth fund}} < T^{\text{open-ended asset manager}} < T^{\text{corporate balance sheet}} \approx T^{\text{sovereign}} \approx T^{\text{family office}} \to \infty
+\tag{44}
+$$
+
+**Equation 45, Herfindahl-Hirschman Concentration Index.**
+The index is the sum of squared holding shares, equal to one for a single holder and falling as the base disperses.
+
+$$
+H_t = \sum_i \left( \frac{s_{i,t}}{\sum_k s_{k,t}} \right)^{\!2}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Coalition Cost of a Dispersed Base.*
+The article takes the coordination cost to scale with the number of holders needed for a blocking position, a number that grows as concentration falls.
+
+$$
+c^{\text{coalition}} \sim \left| \left\{ i : \text{holders required for a blocking position} \right\} \right| \;\; \text{increasing as } H_t \text{ falls}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Path-Dependent Round Dilution.*
+Round dilution is the capital raised over the post-money value, and the article adds the assumption that the pre-money value depends on the progress that earlier capital permitted.
+
+$$
+\delta_n = \frac{k_n}{V_n + k_n} \qquad \text{with} \qquad V_n = V\!\left( \text{progress permitted by } \{ k_1, \ldots, k_{n-1} \} \right)
+\tag{47}
+$$
+
+**Equation 48, Sensitivity of Terminal Founder Share to One Round.**
+Differentiating the dilution product with respect to one round gives minus the terminal share divided by one less the dilution of that round.
+
+$$
+\frac{\partial e^{\text{founder}}_N}{\partial \delta_n} = - \frac{e^{\text{founder}}_N}{1 - \delta_n}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Founder Share with Rounds Displaced by Non-Dilutive Capital.*
+The article removes from the dilution product the rounds that government capital displaced and assumes those rounds lay at the low-valuation end of the sequence.
+
+$$
+e^{\text{founder}}_N \Big|_{\text{both legs}} \; = \; e^{\text{founder}}_0 \prod_{n \notin \mathcal{D}} \left( 1 - \delta_n \right) \qquad \text{with} \qquad \mathcal{D} = \left\{ n : \text{round displaced by non-dilutive capital} \right\}
+\tag{49}
+$$
+
+**Equation 50, Default Condition for a Debt Claim.**
+A debt-financed venture defaults when the cash available falls short of the contractually scheduled obligation, whatever its operating condition.
+
+$$
+\text{default} \iff \text{cash available at } t < D_t
+\tag{50}
+$$
+
+*Equation 51, Bespoke Sensitivity of Failure to Delay by Financing Structure.*
+The article asserts that a schedule delay raises the failure probability far more under debt than under equity, because debt converts delay into a missed payment.
+
+$$
+\frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{debt-financed}} \;\; \gg \;\; \frac{\partial P^{\text{failure}}}{\partial \, \Delta t^{\text{delay}}} \bigg|_{\text{equity-financed}}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Determinants of Patience.*
+The article makes patience a function of claim type, vehicle life and realisation path, with the quantity of capital absent.
+
+$$
+\text{patience} = f\!\left( \text{claim type}, \; \text{vehicle life}, \; \text{realization path} \right)
+\tag{52}
+$$
+
+*Equation 53, Bespoke Distinction of Stated, Contractual and Revealed Horizons.*
+The article distinguishes three horizons, of which only the revealed one is observable after the fact.
+
+$$
+\text{stated horizon} \neq \text{contractual horizon} \neq \text{revealed horizon}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Terminal Probability on the Withdrawal of a Holder.*
+The article sets the probability that the withdrawal of one holder is terminal near zero where a secondary market exists and near one otherwise.
+
+$$
+P\!\left( \text{terminal} \mid \text{holder withdraws} \right) = \begin{cases} \approx 0 & \text{secondary market exists} \\ \approx 1 & \text{otherwise} \end{cases}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Concentration Contrast of OneWeb and SpaceX.*
+The article asserts a concentration index near one for OneWeb and far below one for SpaceX, although it states that the index is not observable from disclosed holdings.
+
+$$
+H^{\text{OneWeb}} \approx 1 \qquad \text{against} \qquad H^{\text{SpaceX}} \ll 1
+\tag{55}
+$$
+
+**Equation 56, Liquidation Waterfall for Common Holders.**
+Common holders receive the exit value less the accumulated liquidation preferences, each a multiple of the capital in its round, and nothing when the preferences exceed that value.
+
+$$
+\Pi^{\text{common}} = \max \left\{ 0, \; V^{\text{exit}} - \sum_{n} \pi_n k_n \right\}
+\tag{56}
+$$
+
+*Equation 57, Bespoke State-Contingent Claim-Type Indicator.*
+The article makes the first sub-property an indicator that depends on the state and holds that it falls toward zero in the adverse state.
+
+$$
+\phi_1(s) = \mathbf{1}\left[ \text{claim residual and undated in state } s \right] \qquad \text{with} \qquad \phi_1(\text{adverse}) \to 0
+\tag{57}
+$$
+
+*Equation 58, Bespoke Correlated Failure of Sub-Properties.*
+The article argues that positive correlation among the sub-property indicators makes their product overstate the joint survival probability.
+
+$$
+\operatorname{corr}\left( \phi_1, \phi_3 \right) \gg 0 \quad \text{and} \quad \operatorname{corr}\left( \phi_3, \phi_4 \right) \gg 0 \quad \Longrightarrow \quad \prod_{k} \phi_k \; \text{overstates the joint survival probability}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Scarcity of Functioning Secondary Markets.*
+The article asserts that ventures with a functioning secondary market are few relative to the category.
+
+$$
+\left| \left\{ \text{ventures with functioning secondary markets} \right\} \right| \ll \left| \left\{ \text{ventures in the category} \right\} \right|
+\tag{59}
+$$
+
+*Equation 60, Bespoke Joint Probability of the Three Conditions.*
+The article factors the joint probability into a realisation-path term and two conditional terms and argues that the conjunction is far rarer than its first term.
+
+$$
+P\!\left( \text{all three conditions} \right) = P\!\left( \text{realization path} \right) \cdot P\!\left( \text{vehicle composition} \mid \cdot \right) \cdot P\!\left( \text{government relationship} \mid \cdot \right) \; \ll \; P\!\left( \text{realization path} \right)
+\tag{60}
+$$
+
+*Equation 61, Bespoke Set of Resolutions of the Fund-Life Constraint.*
+The article enumerates four resolutions, of which only the recurring private tender preserves the private configuration.
+
+$$
+\mathcal{R} = \left\{ \; \text{conventional listing}, \;\; \text{direct listing}, \;\; \text{acquisition}, \;\; \text{recurring private tender} \; \right\}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Distinction of Funding and Success Probabilities.*
+The article separates the probability that a venture is funded given the thesis from the probability that a funded venture succeeds.
+
+$$
+P\!\left( \text{funded} \mid \text{thesis held} \right) \neq P\!\left( \text{succeeds} \mid \text{funded} \right)
+\tag{62}
+$$
+
+*Equation 63, Bespoke Contrast of Voyage and Permanent Joint-Stock Ventures.*
+The article contrasts a voyage-terminated venture, in which realisation is exit, with the permanent joint-stock company, in which the two are independent.
+
+$$
+\text{voyage-terminated venture} \; : \; \text{realization} \equiv \text{exit} \qquad \text{against} \qquad \text{permanent joint stock} \; : \; \text{realization} \perp \text{exit}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Refinancing Consequence of a Long Construction Period.*
+The article argues that a construction period far exceeding the subscriber horizon forces refinancing at intervals of that horizon.
+
+$$
+T^{\text{construction}} \gg T^{\text{subscriber horizon}} \quad \Longrightarrow \quad \text{repeated refinancing at intervals of } T^{\text{subscriber horizon}}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Design Point of the Venture Form.*
+The article places the design horizon of the venture form at three to seven years against a required holding period above eighteen years.
+
+$$
+T^{\text{design point of the venture form}} \approx 3 \text{ to } 7 \text{ years} \qquad \text{against} \qquad T^{\text{holding required}} > 18 \text{ years}
+\tag{65}
+$$
+
+*Equation 66, Bespoke Single-Funder Configuration.*
+The article characterises the Blue Origin configuration as an unlimited vehicle life with no dilution, purchased at a concentration index of one.
+
+$$
+T^{\text{vehicle}} \to \infty \quad \text{and} \quad \delta_n = 0 \quad \text{purchased at} \quad H = 1
+\tag{66}
+$$
+
+*Equation 67, Bespoke Survival across Successive Rounds.*
+The article treats the closing of each round as an independent trial, so the survival probability is the product of one minus the failure probability of each round.
+
+$$
+P\!\left( \text{survive to round } N \right) = \prod_{n=1}^{N} \left( 1 - q_n \right) \qquad \text{with} \qquad q_n = P\!\left( \text{round } n \text{ fails to close} \right)
+\tag{67}
+$$
+
+*Equation 68, Bespoke Closure Vector of the Patient-Private Leg.*
+Each venture is scored as a binary vector over the five sub-properties the article defines.
+
+$$
+\boldsymbol{\phi}_j^{\text{patient-private}} \in \{0,1\}^{5}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Scoring Matrix of the Patient-Private Leg.*
+Each venture is scored on the five sub-properties the article defines, with a dagger for a sub-property the configuration renders inapplicable and an asterisk for a cell the record does not establish.
+
+$$
+\begin{array}{lccccc}
+ & \phi_1 & \phi_2 & \phi_3 & \phi_4 & \phi_5 \\
+\text{SpaceX} & 1 & 1 & 1 & 1 & 1 \\
+\text{Blue Origin} & 1 & 1 & \dagger & 0 & 1 \\
+\text{Rocket Lab} & 1 & 1 & 1 & 1 & 0 \\
+\text{Iridium} & 0 & \ast & \ast & \ast & \ast \\
+\text{OneWeb} & 1 & \ast & 0 & 0 & \ast
+\end{array}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Discriminating Power of the Realisation Path.*
+The article asserts that the realisation-path indicator correlates with survival more strongly than the vehicle-duration indicator, a claim drawn from five cases.
+
+$$
+\operatorname{corr}_j\!\left( \phi_{j,3}^{\text{realization path}}, \; \text{survival} \right) \gg \operatorname{corr}_j\!\left( \phi_{j,2}^{\text{vehicle duration}}, \; \text{survival} \right)
+\tag{70}
+$$
+
+*Equation 71, Bespoke Conjunction of Willingness and Capacity.*
+The article writes observed patience as the conjunction of willingness, which the conviction framing supplies, and capacity, which the structural framing supplies.
+
+$$
+\text{observed patience} = \underbrace{\text{willingness}}_{\text{conviction framing}} \; \wedge \; \underbrace{\text{capacity}}_{\text{structural framing}}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Undetermined Comparison of Limited-Partner Welfare.*
+The article states without resolving whether limited partners are better off in expectation with a tender available or with wind-up enforced.
+
+$$
+\mathbb{E}\left[ u^{\text{LP}} \mid \text{tender available} \right] \; \gtrless \; \mathbb{E}\left[ u^{\text{LP}} \mid \text{wind-up enforced} \right]
+\tag{72}
+$$
+
+*Equation 73, Bespoke Issuer-Set Tender Price.*
+The article models the tender price as chosen by the issuer from the set of prices at which buyer demand covers the shares offered.
+
+$$
+P_t^{\text{tender}} = P^{\text{issuer-set}} \quad \text{subject only to} \quad \sum_{j} d_j\big( P_t \big) \geq \sum_{i} q_i
+\tag{73}
+$$
+
+*Equation 74, Bespoke Survivorship Hazard.*
+The article notes that observing the mechanism in nearly every survivor leaves the reverse conditional probability unidentified.
+
+$$
+P\!\left( \text{mechanism observed} \mid \text{survived} \right) \approx 1 \qquad \text{while} \qquad P\!\left( \text{survived} \mid \text{mechanism observed} \right) \; \text{remains unidentified}
+\tag{74}
+$$
+
+*Equation 75, Bespoke Conjunctive Patient-Private Mechanic.*
+The article writes the mechanic as the product of five binary sub-property indicators, a form that carries an independence assumption the article later rejects.
+
+$$
+\Phi^{\text{patient-private}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}
+\tag{75}
+$$
+
+*Equation 76, Bespoke Diagnostic Test Vector.*
+The article orders five tests, a residual claim, a sufficient vehicle life, realisation independent of exit, a dispersed base and a founder voting majority.
+
+$$
+\tau = \left( \text{claim residual}, \;\; T^{\text{vehicle}} \geq T^{\text{holding}}, \;\; \text{realization} \perp \text{exit}, \;\; \text{base dispersed}, \;\; v^{\text{founder}} > \tfrac{1}{2} \right)
+\tag{76}
+$$
+
+*Equation 77, Bespoke State-Contingent Realisation Test.*
+The article makes the third test an indicator of rising expected value rather than a constant.
+
+$$
+\tau_3(t) = \mathbf{1}\left[ \mathbb{E}_t\left[ V_{t+1} \right] > V_t \right] \qquad \text{rather than} \qquad \tau_3 = \text{constant}
+\tag{77}
+$$
+
+### Notation
+
+- $T^{\text{mission}}$, the horizon over which the mission is pursued
+- $T^{\text{fund}}$, the contractual life of a venture fund
+- $T^{\text{vehicle}}$, the life of a supplying vehicle, unbounded for a balance sheet or an open-ended vehicle
+- $T^{\text{holding required}}$, the holding period the venture requires, written $T^{\text{holding}}$ where it is evaluated
+- $T^{\text{remaining}}_i(t)$, the remaining life at time $t$ of the vehicle of holder $i$
+- $\Delta^{\text{fundraise cycle}}$, the interval between successor fundraises of a general partner
+- $\Pi^{\text{GP}}$, the compensation of the general partner
+- $f$, the management-fee rate
+- $c$, the carry rate
+- $K^{\text{committed}}$, the capital committed to a fund, with $K^{\text{drawn}}$ the capital drawn
+- $V^{\text{realized}}_i$, the realised value of position $i$, against its cost $K_i$
+- $r^{\text{GP}}$, the discount rate of the general partner
+- $e^{\text{founder}}_N$, the founder equity share after $N$ rounds, with $e^{\text{founder}}_0$ the initial share
+- $\delta_n$, the fractional dilution of round $n$
+- $k_n$, the capital raised or required at round or stage $n$
+- $V_n$, the valuation at round $n$
+- $W_n$, the value of the participation right at stage $n$
+- $\mathcal{F}_n$, the information available at the decision of stage $n$
+- $\sigma^{\text{founder}}_n$, the negotiated founder share at round $n$
+- $\pi_m$, the probability that reputation secures a future transaction $m$
+- $p^{\text{technical}}$, the probability of technical failure, with $p^{\text{market}}$ that of market failure
+- $g_n$, the valuation step-up of round $n$, with $\bar{g}$ the annualised rate
+- $f^{\text{tender}}$, the frequency of tender offers
+- $q_i$, the shares holder $i$ seeks to sell at a tender
+- $d_j$, the demand incoming buyer $j$ brings at the set price
+- $P_t$, the tender price at occasion $t$
+- $\mathcal{S}_t$, the set of holders seeking to sell at occasion $t$, with $\mathcal{B}_t$ the set of incoming buyers
+- $H_t$, the Herfindahl-Hirschman concentration index of the holder base
+- $s_{i,t}$, the holding of investor $i$ at time $t$
+- $\mathcal{D}$, the set of rounds displaced by non-dilutive capital
+- $D_t$, the contractually scheduled debt obligation at time $t$
+- $\pi_n$, the liquidation preference multiple of round $n$
+- $q_n$, the probability that round $n$ fails to close
+- $\phi_k$, the closure indicator for sub-property $k$
+- $\Phi^{\text{patient-private}}$, the closure indicator of the patient-private mechanic
+- $\tau$, the ordered diagnostic test vector, with $\tau_3$ its third component
 
 ## References
 

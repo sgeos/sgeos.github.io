@@ -23,23 +23,35 @@ The mapping problem can be formalized in several ways depending on the level of 
 
 The general form of the value-capture causal-mapping problem can be stated compactly as follows. Let $V_i^{\text{created}}(t)$ denote the aggregate value created by firm $i$ at time $t$ across the technology and market it addresses, and let $V_i^{\text{retained}}(t)$ denote the value the firm captures for its own account rather than transferring to unaffiliated firms. The value-capture condition requires
 
-$$\kappa_i(t) = \frac{V_i^{\text{retained}}(t)}{V_i^{\text{created}}(t)} \geq \kappa^{\text{threshold}}$$
+$$
+\kappa_i(t) = \frac{V_i^{\text{retained}}(t)}{V_i^{\text{created}}(t)} \geq \kappa^{\text{threshold}}
+\tag{1}
+$$
 
 with $\kappa^{\text{threshold}}$ the threshold above which the venture retains sufficient value to sustain the multi-decade mission-directed capability investment. The complementary transfer fraction to unaffiliated firms is
 
-$$\tau_i(t) = 1 - \kappa_i(t) = \frac{V_i^{\text{transferred}}(t)}{V_i^{\text{created}}(t)}$$
+$$
+\tau_i(t) = 1 - \kappa_i(t) = \frac{V_i^{\text{transferred}}(t)}{V_i^{\text{created}}(t)}
+\tag{2}
+$$
 
 with high $\tau_i$ values indicating substantial value transfer to unaffiliated firms and low $\kappa_i$ values.
 
 The variance decomposition of the aggregate value the firm's technology capability creates permits the additive form
 
-$$\text{Var}(V_i^{\text{created}}) = \text{Var}(V_i^{\text{retained}}) + \text{Var}(V_i^{\text{transferred}}) + 2 \cdot \text{Cov}(V_i^{\text{retained}}, V_i^{\text{transferred}})$$
+$$
+\text{Var}(V_i^{\text{created}}) = \text{Var}(V_i^{\text{retained}}) + \text{Var}(V_i^{\text{transferred}}) + 2 \cdot \text{Cov}(V_i^{\text{retained}}, V_i^{\text{transferred}})
+\tag{3}
+$$
 
 with the covariance term reflecting the relationship between the retained and transferred value components across the technology and market segments.
 
 The identification problem for the value-capture contribution to the SpaceX trajectory is the question of separating the value-capture effect from the confounding effects of the other six forcing-function conditions and the three capital-formation legs. The counterfactual differential takes the compact form
 
-$$\Delta V_i^{\text{capture}}(t) = V_i^{\text{retained,observed}}(t) - V_i^{\text{retained,no-vertical-integration counterfactual}}(t)$$
+$$
+\Delta V_i^{\text{capture}}(t) = V_i^{\text{retained,observed}}(t) - V_i^{\text{retained,no-vertical-integration counterfactual}}(t)
+\tag{4}
+$$
 
 with the value-capture attribution equal to the difference between the observed retained value and the counterfactual retained value under the no-vertical-integration scenario. The counterfactual specifications the article treats include a no-Starlink counterfactual in which the SpaceX firm remains a launch-service-only provider without the vertical-integration into satellite-broadband, a licensed-Starlink counterfactual in which the SpaceX firm develops the satellite-constellation technology but licenses it to unaffiliated telecommunications providers, and a Bell-Labs-analog counterfactual in which the SpaceX firm develops the capability but permits the value to transfer to unaffiliated firms without vertical-integration retention.
 
@@ -67,33 +79,51 @@ The value-capture property is treated in the article as an economic property of 
 
 The formal characterization of the value-capture property permits several compact statements. Let the capture-ratio $\kappa_i(t) = V_i^{\text{retained}}(t) / V_i^{\text{created}}(t)$ measure the fraction of the aggregate value the firm retains rather than transferring to unaffiliated firms. The value-capture condition requires
 
-$$\kappa_i(t) \geq \kappa^{\text{threshold}} \quad \forall t \in [t^{\text{value-realization}}, t^{\text{horizon}}]$$
+$$
+\kappa_i(t) \geq \kappa^{\text{threshold}} \quad \forall t \in [t^{\text{value-realization}}, t^{\text{horizon}}]
+\tag{5}
+$$
 
 with $\kappa^{\text{threshold}}$ typically substantially above the sector-baseline capture-ratio for the market segment. The SpaceX case exhibits $\kappa_i$ approaching unity for the Starlink revenue stream and approaching moderate values for the launch-service pricing that reflects the competitive-market equilibrium.
 
 The value-capture decomposition across the constituent value channels takes the form
 
-$$V^{\text{retained}}_i = V^{\text{launch-service-markup}}_i + V^{\text{starlink-subscription}}_i + V^{\text{starlink-hardware}}_i + V^{\text{starshield-defense}}_i + V^{\text{capability-value}}_i$$
+$$
+V^{\text{retained}}_i = V^{\text{launch-service-markup}}_i + V^{\text{starlink-subscription}}_i + V^{\text{starlink-hardware}}_i + V^{\text{starshield-defense}}_i + V^{\text{capability-value}}_i
+\tag{6}
+$$
 
 with each channel contributing distinct value to the venture. The capture-trajectory dynamics across the firm-development horizon admit the compact form
 
-$$\dot\kappa_i(t) = \alpha \cdot [\kappa^{\text{target}} - \kappa_i(t)] + \sigma_{\kappa}(t)$$
+$$
+\dot\kappa_i(t) = \alpha \cdot [\kappa^{\text{target}} - \kappa_i(t)] + \sigma_{\kappa}(t)
+\tag{7}
+$$
 
 with $\alpha$ the convergence rate toward the target capture ratio $\kappa^{\text{target}}$ and $\sigma_{\kappa}$ the shock term representing the vertical-integration decisions and market-shifts that perturb the capture trajectory. The launch-service-markup channel captures the pricing above marginal cost that the competitive-market equilibrium supports. The Starlink-subscription and Starlink-hardware channels capture the vertical-integration value that the satellite-broadband business realizes. The Starshield-defense channel captures the defense-service value the [Anchor Demand article A283][related_post_a283_spacex_anchor_demand] treats. The capability-value channel captures the accumulated engineering-and-manufacturing capability the firm retains for future value-realization.
 
 The value-appropriation framework developed in [Teece 1986][research_teece_1986] Profiting from Technological Innovation, [Teece 2018][research_teece_2018] Profiting from Innovation in the Digital Economy, and [Pisano and Teece 2007][research_pisano_teece_2007] How to Capture Value from Innovation can be written as
 
-$$V^{\text{captured}}_i = V^{\text{created}} \cdot f(\text{regime}, \text{complementary-assets}, \text{integration})$$
+$$
+V^{\text{captured}}_i = V^{\text{created}} \cdot f(\text{regime}, \text{complementary-assets}, \text{integration})
+\tag{8}
+$$
 
 with the $f$ function determined by the intellectual-property regime, the complementary-asset configuration, and the vertical-integration choices. The complementary-asset intensity admits the compact operationalization
 
-$$CA_i = \sum_{a \in \text{assets}} \omega_a \cdot \phi^{\text{internal}}_{i,a}$$
+$$
+CA_i = \sum_{a \in \text{assets}} \omega_a \cdot \phi^{\text{internal}}_{i,a}
+\tag{9}
+$$
 
 with $\phi^{\text{internal}}\_{i,a}$ the fraction of complementary asset $a$ that firm $i$ holds internally rather than through unaffiliated firms and $\omega_a$ the weight reflecting the criticality of asset $a$ to the commercialization. The [Teece 1986][research_teece_1986] insight is that the innovating firm often fails to capture the value the innovation creates when the complementary assets required for commercialization are held by unaffiliated firms and the intellectual-property regime does not adequately protect the innovation. The SpaceX case exhibits the vertical-integration configuration that retains the complementary assets required for the satellite-broadband commercialization, distinguishing the case from the Xerox PARC and Bell Labs counter-example cases.
 
 The launch-service pricing markup allows the Lerner-index characterization
 
-$$L_i = \frac{P_i - c_i}{P_i} = \frac{1}{\varepsilon_i^{\text{demand}}}$$
+$$
+L_i = \frac{P_i - c_i}{P_i} = \frac{1}{\varepsilon_i^{\text{demand}}}
+\tag{10}
+$$
 
 with $\varepsilon_i^{\text{demand}}$ the price elasticity of demand facing the provider. The SpaceX launch-service pricing exhibits substantial markup on the national-security-launch and geostationary-transfer-orbit segments where the demand elasticity is low, and reduced markup on the commodity-ride-share and low-Earth-orbit segments where the demand elasticity is high.
 
@@ -103,19 +133,28 @@ The value-capture property can be characterized from several disciplinary tradit
 
 The industrial-organization tradition traces from [Bain 1968][book_bain_1968] Industrial Organization through [Chandler 1962][book_chandler_1962] Strategy and Structure, [Chandler 1977][book_chandler_1977] The Visible Hand, [Chandler 1990][book_chandler_1990] Scale and Scope, [Porter 1980][book_porter_1980] Competitive Strategy, [Porter 1985][book_porter_1985] Competitive Advantage, [Scherer and Ross 1990][book_scherer_ross_1990] Industrial Market Structure and Economic Performance, and [Tirole 1988][book_tirole_1988] The Theory of Industrial Organization. The framing treats the value-capture property through the vertical-integration decisions and the competitive-strategy choices that determine the firm's position across the value chain. The Porter five-forces framework provides the competitive-dynamics analysis within which the value-capture positioning supports characterization. The value-chain-position index has the form
 
-$$VCP_i = \sum_{s \in \text{stages}} \omega_s \cdot \phi^{\text{internal}}_{i,s}$$
+$$
+VCP_i = \sum_{s \in \text{stages}} \omega_s \cdot \phi^{\text{internal}}_{i,s}
+\tag{11}
+$$
 
 with $\phi^{\text{internal}}\_{i,s}$ the fraction of value-chain stage $s$ that firm $i$ conducts internally and $\omega_s$ the stage-weight indicating the value-contribution of the stage.
 
 The resource-based-view tradition traces from [Penrose 1959][book_penrose_1959] The Theory of the Growth of the Firm through [Wernerfelt 1984][research_wernerfelt_1984] A Resource-Based View of the Firm, [Barney 1991][research_barney_1991] Firm Resources and Sustained Competitive Advantage, [Peteraf 1993][research_peteraf_1993] The Cornerstones of Competitive Advantage, [Teece et al. 1997][research_teece_pisano_shuen_1997] Dynamic Capabilities and Strategic Management, and [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000] Dynamic Capabilities What Are They. The framing treats the value-capture property through the firm-capability accumulation that produces the sustained competitive advantage supporting the value capture. The resource-heterogeneity index may be written
 
-$$H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)$$
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{12}
+$$
 
 with the V-R-I-N factors indicating value, rarity, inimitability, and non-substitutability.
 
 The value-appropriation tradition traces from [Teece 1986][research_teece_1986] Profiting from Technological Innovation through the subsequent extension in [Teece 2018][research_teece_2018] Profiting from Innovation in the Digital Economy. The framing treats the complementary-asset configuration as the primary determinant of whether the innovating firm captures the value or the imitating-firm set captures the value. The SpaceX vertical-integration into Starlink retains the complementary assets required for the satellite-broadband commercialization within the firm boundary. The appropriability regime coefficient admits the compact form
 
-$$\rho^{\text{appropriability}}_i = f(IP^{\text{strength}}_i, CA^{\text{internal}}_i, T^{\text{lead-time}}_i)$$
+$$
+\rho^{\text{appropriability}}_i = f(IP^{\text{strength}}_i, CA^{\text{internal}}_i, T^{\text{lead-time}}_i)
+\tag{13}
+$$
 
 with the three inputs indexing intellectual-property strength, internal complementary-asset holding, and lead-time over imitators.
 
@@ -123,25 +162,37 @@ The platform-strategy tradition traces from [Gawer and Cusumano 2002][book_cusum
 
 The vertical-integration tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1971][research_williamson_1971] The Vertical Integration of Production Market Failure Considerations, [Williamson 1975][research_williamson_1975] Markets and Hierarchies, [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Williamson 2002][research_williamson_2002] The Theory of the Firm as Governance Structure, and [Hart 1988][research_hart_1988] Incomplete Contracts and the Theory of the Firm. The framing treats the value-capture property through the transaction-cost analysis of the make-or-buy decision. The make-or-buy indifference condition takes the form
 
-$$C^{\text{internal}}(q) + T^{\text{governance}}_{\text{internal}} = C^{\text{market}}(q) + T^{\text{transaction}}_{\text{market}}$$
+$$
+C^{\text{internal}}(q) + T^{\text{governance}}_{\text{internal}} = C^{\text{market}}(q) + T^{\text{transaction}}_{\text{market}}
+\tag{14}
+$$
 
 with $T^{\text{governance}}\_{\text{internal}}$ the internal-governance cost and $T^{\text{transaction}}\_{\text{market}}$ the market-transaction cost. The make decision is favored when the asset-specificity, frequency, and uncertainty conditions elevate the market-transaction cost above the internal-governance cost. The SpaceX vertical-integration into Starlink represents the make decision that internalizes the satellite-manufacturing and satellite-broadband capabilities within the firm boundary.
 
 The two-sided-market tradition traces from [Rochet and Tirole 2003][research_rochet_tirole_2003] Platform Competition in Two-Sided Markets through [Rysman 2009][research_rysman_2009] The Economics of Two-Sided Markets. The framing treats the Starlink configuration as a two-sided platform coordinating the satellite-manufacturing and satellite-broadband service segments with the end-customer subscription segment. The two-sided pricing structure can be written as
 
-$$P^A + P^B \geq c^{\text{marginal}}, \quad \frac{P^A}{P^B} = g\!\left(\frac{\eta^A}{\eta^B}\right)$$
+$$
+P^A + P^B \geq c^{\text{marginal}}, \quad \frac{P^A}{P^B} = g\!\left(\frac{\eta^A}{\eta^B}\right)
+\tag{15}
+$$
 
 with $\eta^A$ and $\eta^B$ the cross-side network externalities that determine the optimal pricing distribution.
 
 The network-externalities tradition traces from [Katz and Shapiro 1985][research_katz_shapiro_1985] Network Externalities Competition and Compatibility and [Farrell and Saloner 1985][research_farrell_saloner_1985] Standardization Compatibility and Innovation. The framing treats the Starlink service configuration as an instance of the network-externality dynamics where subscriber-count and satellite-coverage jointly determine the service quality and the value-capture potential. The user-utility function under the network-externality specification has the form
 
-$$u_i^{\text{user}} = v^{\text{intrinsic}} + \gamma \cdot n^{\text{coverage}} + \beta \cdot n^{\text{subscribers}}$$
+$$
+u_i^{\text{user}} = v^{\text{intrinsic}} + \gamma \cdot n^{\text{coverage}} + \beta \cdot n^{\text{subscribers}}
+\tag{16}
+$$
 
 with $\gamma$ the coverage-density coefficient and $\beta$ the subscriber-density coefficient that jointly determine the service utility.
 
 The institutional-economics tradition traces from [North 1990][book_north_1990] Institutions Institutional Change and Economic Performance through [Ostrom 1990][book_ostrom_1990] Governing the Commons, [Acemoglu and Robinson 2012][book_acemoglu_robinson_2012] Why Nations Fail, and [Greif 2006][book_grief_2006] Institutions and the Path to the Modern Economy. The framing treats the SpaceX-Starlink value-capture configuration through the formal and informal institutional arrangements that shape the contracts, transactions, and organizational forms that support or preclude the value-capture retention. The FCC satellite-authorization regime, the ITU spectrum-coordination framework, the FAA launch-licensing regime, and the ITAR export-control framework each represent institutional configurations that shape the value-capture opportunity set. The institutional-configuration index may be written
 
-$$IC_i = \sum_{c \in \text{configurations}} \omega_c \cdot \phi^{\text{institutional-fit}}_{i,c}$$
+$$
+IC_i = \sum_{c \in \text{configurations}} \omega_c \cdot \phi^{\text{institutional-fit}}_{i,c}
+\tag{17}
+$$
 
 with the weighted-institutional-fit sum determining the value-capture support the institutional configuration provides.
 
@@ -149,7 +200,10 @@ The actor-network-theory tradition traces from [Latour 1987][book_latour_1987] S
 
 The ecosystem-strategy tradition traces from [Adner 2012][book_adner_2012] The Wide Lens through [Adner 2016][research_adner_2017] Ecosystem as Structure An Actionable Construct for Strategy, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, and [Jacobides et al. 2018][research_jacobides_et_al_2018] Towards a Theory of Ecosystems. The framing treats the SpaceX-Starlink configuration as an ecosystem-level orchestration in which the SpaceX firm coordinates the launch-service ecosystem, the satellite-manufacturing ecosystem, the satellite-broadband service ecosystem, and the end-customer service ecosystem. The ecosystem-value-appropriation identity permits the concise form
 
-$$V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)$$
+$$
+V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)
+\tag{18}
+$$
 
 with $\phi^{\text{appropriation}}\_i$ the fraction of the ecosystem value the firm captures.
 
@@ -159,7 +213,10 @@ The complexity and systems-of-systems tradition traces from [Maier 1998][researc
 
 The reliability-engineering tradition traces from [O'Connor and Kleyner 2012][book_oconnor_kleyner_2012] Practical Reliability Engineering and the satellite-reliability literature including [Musa 1998][book_musa_1998] Software Reliability Engineering. The framing treats the Starlink constellation-reliability configuration through the redundancy and replacement dynamics that support the service-availability guarantee. The constellation-reliability calculation takes the form
 
-$$R^{\text{constellation}}(t) = 1 - \prod_{i=1}^{N^{\text{coverage-required}}(t)} [1 - R^{\text{satellite}}_i(t)]$$
+$$
+R^{\text{constellation}}(t) = 1 - \prod_{i=1}^{N^{\text{coverage-required}}(t)} [1 - R^{\text{satellite}}_i(t)]
+\tag{19}
+$$
 
 with the product structure reflecting the series-parallel reliability configuration of the constellation.
 
@@ -169,13 +226,19 @@ The launch-service pricing evolution across the Falcon 1, Falcon 9, and Falcon H
 
 The Falcon 1 pricing at approximately 6 to 8 million dollars per launch reflected the initial-market positioning against the incumbent Pegasus, Taurus, and Minotaur small-launch vehicles that priced substantially above the target. The Falcon 1 pricing is documented in the SpaceX historical press releases in the [SpaceX news archive][ref_spacex_news_archive] and the AIAA conference paper on The Falcon 1 Launch Vehicle. The Falcon 1 dollar-per-kilogram calculation admits
 
-$$\text{DPK}_{\text{Falcon 1}} = \frac{P_{\text{Falcon 1}}}{m^{\text{payload}}_{\text{Falcon 1}}} = \frac{7 \text{ M dollars}}{570 \text{ kg}} \approx 12280 \text{ dollars per kilogram}$$
+$$
+\text{DPK}_{\text{Falcon 1}} = \frac{P_{\text{Falcon 1}}}{m^{\text{payload}}_{\text{Falcon 1}}} = \frac{7 \text{ M dollars}}{570 \text{ kg}} \approx 12280 \text{ dollars per kilogram}
+\tag{20}
+$$
 
 substantially below the incumbent small-launch pricing but above the medium-lift pricing per kilogram that the subsequent Falcon 9 configuration would achieve.
 
 The Falcon 9 v1.0 pricing at approximately 56 million dollars per launch across the initial 2010 through 2013 period reflected the medium-lift positioning against the incumbent Delta II and Delta IV Medium and Atlas V configurations. The dollar-per-kilogram calculation permits
 
-$$\text{DPK}_{\text{Falcon 9 v1.0}} = \frac{56 \text{ M dollars}}{10.5 \text{ tonnes}} \approx 5300 \text{ dollars per kilogram}$$
+$$
+\text{DPK}_{\text{Falcon 9 v1.0}} = \frac{56 \text{ M dollars}}{10.5 \text{ tonnes}} \approx 5300 \text{ dollars per kilogram}
+\tag{21}
+$$
 
 substantially below the incumbent medium-lift pricing per kilogram that ranged from approximately 8000 to 15000 dollars per kilogram.
 
@@ -183,23 +246,35 @@ The Falcon 9 v1.1 pricing at approximately 61.2 million dollars per launch acros
 
 The Falcon 9 Block 5 pricing at approximately 67 million dollars per launch across the 2018 through the drafting-date period reflected the reusability-optimized configuration that supports the per-flight cost reduction the [Value Gradient article A282][related_post_a282_spacex_value_gradient] treats. The per-kilogram calculation across the configuration options allows
 
-$$\text{DPK}^{\text{Falcon 9 Block 5}}_{\text{reusable}} \approx \frac{67 \text{ M dollars}}{22 \text{ tonnes reusable payload}} \approx 3000 \text{ dollars per kilogram (list)}$$
+$$
+\text{DPK}^{\text{Falcon 9 Block 5}}_{\text{reusable}} \approx \frac{67 \text{ M dollars}}{22 \text{ tonnes reusable payload}} \approx 3000 \text{ dollars per kilogram (list)}
+\tag{22}
+$$
 
 with the price-per-kilogram substantially below the list-price under the volume-discount and rideshare-mission pricing configurations that reach approximately 1500 dollars per kilogram for the Starlink internal missions.
 
 The Falcon Heavy pricing at approximately 97 million dollars per launch for the expendable configuration and approximately 150 million dollars for the fully-recovered arrangement reflects the heavy-lift positioning against the incumbent Delta IV Heavy structure. The Falcon Heavy dollar-per-kilogram calculation supports
 
-$$\text{DPK}_{\text{Falcon Heavy expendable}} = \frac{97 \text{ M dollars}}{63.8 \text{ tonnes}} \approx 1520 \text{ dollars per kilogram}$$
+$$
+\text{DPK}_{\text{Falcon Heavy expendable}} = \frac{97 \text{ M dollars}}{63.8 \text{ tonnes}} \approx 1520 \text{ dollars per kilogram}
+\tag{23}
+$$
 
 substantially below the Delta IV Heavy pricing per kilogram at approximately 8000 dollars per kilogram. The Falcon Heavy versus Delta IV Heavy price ratio is approximately $1520 / 8000 = 0.19$, illustrating the approximately 81 percent price reduction the Falcon Heavy configuration achieved.
 
 The Starship projected pricing at approximately 10 million dollars per launch under the fully-reusable configuration and approximately 150 tonnes to low Earth orbit implies a projected dollar-per-kilogram calculation
 
-$$\text{DPK}_{\text{Starship projected}} = \frac{10 \text{ M dollars}}{150 \text{ tonnes}} \approx 67 \text{ dollars per kilogram}$$
+$$
+\text{DPK}_{\text{Starship projected}} = \frac{10 \text{ M dollars}}{150 \text{ tonnes}} \approx 67 \text{ dollars per kilogram}
+\tag{24}
+$$
 
 substantially below the current-fleet pricing per kilogram. The projection depends on the operational-cadence achievement and the vehicle-recovery success rate. The Starship-versus-Falcon-9-reusable price-ratio projection admits
 
-$$\rho^{\text{DPK}}_{\text{Starship vs Falcon 9 reusable}} = \frac{67}{1500} \approx 0.045$$
+$$
+\rho^{\text{DPK}}_{\text{Starship vs Falcon 9 reusable}} = \frac{67}{1500} \approx 0.045
+\tag{25}
+$$
 
 illustrating the projected approximately 96 percent further reduction the Starship configuration would produce beyond the contemporary Falcon 9 pricing.
 
@@ -207,27 +282,42 @@ illustrating the projected approximately 96 percent further reduction the Starsh
 
 The dollar-per-kilogram-to-orbit trajectory across the launch-vehicle generations constitutes the quantitative summary of the launch-service value-capture evolution. The trajectory yields the compact tabulation
 
-$$\text{DPK}^{\text{Falcon lineage}}(t) = \{18000, 8000, 2700, 1500, 200\text{-}400\}$$
+$$
+\text{DPK}^{\text{Falcon lineage}}(t) = \{18000, 8000, 2700, 1500, 200\text{-}400\}
+\tag{26}
+$$
 
 corresponding to the values for Space Shuttle era, Delta IV Heavy and Atlas V, Falcon 9 expendable, Falcon 9 reusable, and projected Starship configurations respectively. The reduction from the Space Shuttle era 18000 dollars per kilogram to the contemporary Falcon 9 reusable 1500 dollars per kilogram represents an approximately 92 percent reduction across the observed trajectory. The projected further reduction to approximately 200 to 400 dollars per kilogram under Starship would represent an additional approximately 73 to 87 percent reduction. The reuse milestones underlying the trajectory are the [first booster landing of December 2015][ref_spacex_press_falcon9_first_landing_2015], the [first reflight of March 2017][ref_spacex_press_ses10_2017], and the [Block 5 introduction of May 2018][ref_spacex_press_block5_bangabandhu_2018], with the vehicle records at the [Falcon 9][ref_spacex_falcon9_vehicle] and [Starship][ref_spacex_starship_program] pages. The figures are reconstructions drawn from the sector analyses at [Space Capital][ref_space_capital], [BryceTech][ref_bryce_tech], and [Payload Research][ref_payload_research] rather than from any disclosed cost accounting, and the reader should treat them as illustrative of a trajectory rather than as measurements.
 
 The per-mission price evolution admits the compact log-linear characterization
 
-$$\log P^{\text{per-mission}}(t) = \log P^{\text{per-mission}}(t_0) + \beta \cdot (t - t_0)$$
+$$
+\log P^{\text{per-mission}}(t) = \log P^{\text{per-mission}}(t_0) + \beta \cdot (t - t_0)
+\tag{27}
+$$
 
 with $\beta$ the price-decline rate empirically approximately negative 0.08 per year across the observed 2010 through drafting-date trajectory for the dollar-per-kilogram metric. Under the rate the price-halving time permits
 
-$$T^{\text{halving}} = \frac{\log 2}{-\beta} \approx \frac{0.693}{0.08} \approx 8.7 \text{ years}$$
+$$
+T^{\text{halving}} = \frac{\log 2}{-\beta} \approx \frac{0.693}{0.08} \approx 8.7 \text{ years}
+\tag{28}
+$$
 
 illustrating the approximately eight-year price-halving trajectory the launch-service segment has exhibited. The price-decline is driven by the reusability contribution, the learning-curve contribution, and the competitive-market discipline that the [Value Gradient article A282][related_post_a282_spacex_value_gradient] treats.
 
 The launch-service revenue trajectory can be written as
 
-$$R^{\text{launch}}_i(t) = P^{\text{per-mission}}(t) \cdot q^{\text{missions}}(t)$$
+$$
+R^{\text{launch}}_i(t) = P^{\text{per-mission}}(t) \cdot q^{\text{missions}}(t)
+\tag{29}
+$$
 
 with $q^{\text{missions}}(t)$ the annual mission count. The annual mission count has increased from approximately 5 missions per year in the initial 2013 period to approximately 100+ missions per year at the drafting date, substantially offsetting the per-mission price decline in the aggregate launch-service revenue calculation. The mission-cadence compound growth rate allows
 
-$$g^{\text{cadence}} = \left(\frac{q^{\text{2025}}}{q^{\text{2013}}}\right)^{1/12} - 1 = \left(\frac{130}{5}\right)^{1/12} - 1 \approx 0.32$$
+$$
+g^{\text{cadence}} = \left(\frac{q^{\text{2025}}}{q^{\text{2013}}}\right)^{1/12} - 1 = \left(\frac{130}{5}\right)^{1/12} - 1 \approx 0.32
+\tag{30}
+$$
 
 or approximately 32 percent compound annual growth rate across the 2013 through 2025 launch-cadence trajectory. The aggregate revenue growth combines the price decline with the cadence increase to produce net-positive aggregate launch-service revenue growth across the observed trajectory.
 
@@ -237,11 +327,17 @@ The Starlink satellite-internet program was announced on [January 15 2015 at the
 
 The initial Starlink concept as documented in the [SpaceX Seattle Facility Announcement 2015][ref_spacex_seattle_announcement_2015] projected a constellation of approximately 4000 satellites in low Earth orbit at approximately 550 kilometer altitude, providing global broadband-internet coverage at latencies approximately 25 to 50 milliseconds substantially below the geostationary-satellite-internet latency of approximately 500 to 700 milliseconds. The latency reduction addressed the market segment that the geostationary alternative could not serve. The latency-differential ratio has the form
 
-$$\rho^{\text{latency}}_{\text{LEO vs GEO}} = \frac{L^{\text{LEO}}}{L^{\text{GEO}}} \approx \frac{37 \text{ ms}}{600 \text{ ms}} \approx 0.06$$
+$$
+\rho^{\text{latency}}_{\text{LEO vs GEO}} = \frac{L^{\text{LEO}}}{L^{\text{GEO}}} \approx \frac{37 \text{ ms}}{600 \text{ ms}} \approx 0.06
+\tag{31}
+$$
 
 illustrating the approximately 94 percent latency reduction that motivates the LEO-constellation configuration. The latency is dominated by the round-trip signal-propagation time
 
-$$L^{\text{one-way}} = \frac{2 h_{\text{altitude}}}{c}$$
+$$
+L^{\text{one-way}} = \frac{2 h_{\text{altitude}}}{c}
+\tag{32}
+$$
 
 with $h_{\text{altitude}}$ the satellite altitude and $c$ the speed of light. Under $h_{\text{altitude}} = 550$ km for Starlink and $h_{\text{altitude}} = 35786$ km for geostationary orbit, the one-way latency ratio is approximately $550 / 35786 \approx 0.015$ before adding the ground-network and processing latency contributions.
 
@@ -251,7 +347,10 @@ The first two Starlink test satellites Tintin A and Tintin B launched on [Februa
 
 The pre-operational Starlink capital investment across the 2015 through 2019 development period reached approximately 500 million to 1 billion dollars for the satellite-design, manufacturing-infrastructure, ground-infrastructure, and initial-deployment costs. The launch-vehicle-development context within which the Falcon and Starlink integration supports placement is developed in the [History of Rocketplanes article][related_post_a96_history_rocketplanes] treatment of the launch-vehicle lineage. The broader-space context is developed in the [Introduction to Space Studies article][related_post_a90_intro_space_studies]. The pre-operational capital-consumption trajectory may be written
 
-$$K^{\text{cum,pre-op}}(T) = K^{\text{initial}} + \int_0^T c^{\text{burn}}_{\text{Starlink}}(\tau) \, d\tau$$
+$$
+K^{\text{cum,pre-op}}(T) = K^{\text{initial}} + \int_0^T c^{\text{burn}}_{\text{Starlink}}(\tau) \, d\tau
+\tag{33}
+$$
 
 with $c^{\text{burn}}\_{\text{Starlink}}(\tau)$ the Starlink-burn rate ranging from approximately 100 million dollars per year in the initial 2015-2017 period to approximately 400 million dollars per year in the 2018-2019 pre-launch scale-up period. The capital investment was substantially funded through the SpaceX launch-service revenue and the Google and Fidelity 2015 Starlink-motivated one-billion-dollar Series G investment round that the [Patient-Private Capital-Formation Leg article A290][related_post_a281_spacex_framing] treats at greater depth.
 
@@ -261,17 +360,26 @@ The Starlink operational deployment across the 2019 through drafting-date period
 
 The cumulative-satellite trajectory admits the compact logistic-approach form
 
-$$N^{\text{Starlink}}(t) = \frac{N^{\text{max}}}{1 + e^{-\lambda (t - t_0)}}$$
+$$
+N^{\text{Starlink}}(t) = \frac{N^{\text{max}}}{1 + e^{-\lambda (t - t_0)}}
+\tag{34}
+$$
 
 with $N^{\text{max}}$ the constellation cap of approximately 12000 satellites for the first generation plus approximately 7500 satellites for the second generation, $\lambda$ the growth-rate parameter, and $t_0$ the inflection time. The cumulative operational Starlink satellite count reached approximately 60 by the May 2019 first operational launch, approximately 700 by January 2021, approximately 2000 by January 2022, approximately 3500 by January 2023, approximately 5300 by January 2024, approximately 6500 by January 2025, and approximately 7000+ by mid-2026. The annual deployment cadence has ranged from approximately 800 satellites per year to approximately 2000 satellites per year across the observed deployment period. The deployment-cadence identity allows the brief form
 
-$$\dot N^{\text{deploy}}(t) = q^{\text{Falcon 9}}(t) \cdot n^{\text{per-launch}}(t)$$
+$$
+\dot N^{\text{deploy}}(t) = q^{\text{Falcon 9}}(t) \cdot n^{\text{per-launch}}(t)
+\tag{35}
+$$
 
 with $q^{\text{Falcon 9}}(t)$ the Falcon 9 launch cadence and $n^{\text{per-launch}}(t)$ the per-launch Starlink satellite count, typically 50 to 60 for the v1.5 configuration and 20 to 25 for the larger v2 arrangement.
 
 The per-satellite manufacturing cost has declined from approximately 500000 dollars per satellite in the initial deployment through approximately 250000 dollars per satellite in the contemporary Gen 2 configuration. The per-satellite cost trajectory admits the Wright's Law characterization
 
-$$c^{\text{satellite}}(n) = c^{\text{satellite}}(1) \cdot n^{-\gamma^{\text{satellite}}}$$
+$$
+c^{\text{satellite}}(n) = c^{\text{satellite}}(1) \cdot n^{-\gamma^{\text{satellite}}}
+\tag{36}
+$$
 
 with $\gamma^{\text{satellite}}$ empirically approximately 0.10 to 0.15 across the observed manufacturing-scale learning-curve. The per-satellite cost reduction is driven by the manufacturing-scale learning-curve and the design-configuration evolution across the multiple generations of the Starlink satellite bus.
 
@@ -285,25 +393,37 @@ The Starlink revenue trajectory across the 2020 through drafting-date period con
 
 The Starlink revenue trajectory takes the compact tabulation from approximately zero commercial revenue in 2020 through approximately 200 million dollars in 2021, approximately 1.4 billion dollars in 2022, approximately 4.2 billion dollars in 2023, approximately 6.6 billion dollars in 2024, approximately 8 to 9 billion dollars in 2025, and approximately 10 to 12 billion dollars projected for 2026. The compound annual growth rate takes the form
 
-$$g^{\text{CAGR}}_{\text{Starlink 2021-2024}} = \left(\frac{R^{\text{2024}}}{R^{\text{2021}}}\right)^{1/3} - 1 = \left(\frac{6.6}{0.2}\right)^{1/3} - 1 \approx 2.22$$
+$$
+g^{\text{CAGR}}_{\text{Starlink 2021-2024}} = \left(\frac{R^{\text{2024}}}{R^{\text{2021}}}\right)^{1/3} - 1 = \left(\frac{6.6}{0.2}\right)^{1/3} - 1 \approx 2.22
+\tag{37}
+$$
 
 or approximately 222 percent compound annual growth rate across the observed 2021 through 2024 trajectory, though the growth rate is declining as the subscriber base matures.
 
 The subscriber count trajectory has the concise tabulation from approximately 10000 beta subscribers in late 2020 through approximately 250000 by mid-2021, approximately 1.5 million by January 2023, approximately 3 million by January 2024, approximately 4.5 million by January 2025, and approximately 5 to 7 million by the drafting date. The subscription-revenue decomposition can be written as
 
-$$R^{\text{Starlink,subscription}}(t) = N^{\text{subscribers}}(t) \cdot \text{ARPU}^{\text{monthly}}(t) \cdot 12$$
+$$
+R^{\text{Starlink,subscription}}(t) = N^{\text{subscribers}}(t) \cdot \text{ARPU}^{\text{monthly}}(t) \cdot 12
+\tag{38}
+$$
 
 with the average revenue per user across the residential-subscriber base approximately 90 to 120 dollars per month, and substantially higher pricing for the business, maritime, aviation, and government service tiers. Under $N^{\text{subscribers}} = 6$ million and $\text{ARPU}^{\text{monthly}} = 110$ dollars, the annual subscription-revenue estimate is approximately $6 \cdot 10^6 \cdot 110 \cdot 12 \approx 7.9$ billion dollars.
 
 The Starlink hardware revenue channel provides the user-terminal sales at approximately 300 to 600 dollars per terminal, with the bulk-purchase and specialty-configuration terminals at substantially higher prices. The hardware-configuration evolution across the initial Starlink user terminal, the Starlink Mini, and the Starlink Business and specialty arrangements is documented in the [SpaceX Starlink program page][ref_spacex_starlink] technical specifications. The hardware-versus-subscription revenue split has the form
 
-$$R^{\text{Starlink,total}} = R^{\text{Starlink,subscription}} + R^{\text{Starlink,hardware}}, \quad \frac{R^{\text{Starlink,hardware}}}{R^{\text{Starlink,total}}} \in [0.10, 0.15]$$
+$$
+R^{\text{Starlink,total}} = R^{\text{Starlink,subscription}} + R^{\text{Starlink,hardware}}, \quad \frac{R^{\text{Starlink,hardware}}}{R^{\text{Starlink,total}}} \in [0.10, 0.15]
+\tag{39}
+$$
 
 with the hardware contribution approximately 10 to 15 percent and the subscription contribution the remaining approximately 85 to 90 percent.
 
 The revenue-to-mission-cost ratio at the drafting date approaches unity for the Mars-transportation mission funding requirement
 
-$$\rho^{\text{mission-funding}}_{\text{Starlink}}(t) = \frac{R^{\text{Starlink}}(t)}{C^{\text{Mars-mission}}(t)}$$
+$$
+\rho^{\text{mission-funding}}_{\text{Starlink}}(t) = \frac{R^{\text{Starlink}}(t)}{C^{\text{Mars-mission}}(t)}
+\tag{40}
+$$
 
 though the ratio depends on the mission-cost estimation methodology and the Starship operational-cadence achievement.
 
@@ -319,11 +439,17 @@ The value transferred to unaffiliated firms across multiple channels. Steve Jobs
 
 The broader parallel treatments of Silicon Valley personal-computer emergence appear in [Ceruzzi 2003][book_ceruzzi_2003] A History of Modern Computing, [Freiberger and Swaine 2000][book_freiberger_swaine_2000] Fire in the Valley, and [Levy 1994][book_levy_1994] Insanely Great on the Apple-Macintosh development trajectory. The value-capture failure admits the compact quantitative characterization
 
-$$\kappa_{\text{Xerox PARC}} \approx \frac{V^{\text{Xerox commercial}}}{V^{\text{total industry commercialization}}} \ll 0.10$$
+$$
+\kappa_{\text{Xerox PARC}} \approx \frac{V^{\text{Xerox commercial}}}{V^{\text{total industry commercialization}}} \ll 0.10
+\tag{41}
+$$
 
 with the Xerox commercial capture substantially below 10 percent of the total-industry commercialization value that the PARC-originated technologies enabled. The transfer to Apple, Microsoft, 3Com, Adobe, and additional unaffiliated firms captured the substantial majority of the commercial value. The personnel-diaspora rate from PARC to unaffiliated firms may be written
 
-$$\rho^{\text{diaspora}}_{\text{PARC}} = \frac{N^{\text{PARC personnel transferred to unaffiliated firms}}}{N^{\text{PARC personnel total}}} \gg 0.5$$
+$$
+\rho^{\text{diaspora}}_{\text{PARC}} = \frac{N^{\text{PARC personnel transferred to unaffiliated firms}}}{N^{\text{PARC personnel total}}} \gg 0.5
+\tag{42}
+$$
 
 with the majority of the key PARC personnel across the 1979-1995 period transferring to Apple, Microsoft, 3Com, Adobe, and additional Silicon Valley firms.
 
@@ -347,11 +473,17 @@ The Unix operating system technology transferred to unaffiliated firms including
 
 The value-capture failure admits the compact quantitative characterization
 
-$$\kappa_{\text{Bell Labs}} \approx \frac{V^{\text{AT\&T commercial}}}{V^{\text{total industry commercialization}}} \ll 0.05$$
+$$
+\kappa_{\text{Bell Labs}} \approx \frac{V^{\text{AT\&T commercial}}}{V^{\text{total industry commercialization}}} \ll 0.05
+\tag{43}
+$$
 
 with the AT&T commercial capture substantially below 5 percent of the total-industry commercialization value that the Bell Labs technologies enabled. The broader Silicon Valley industrial substrate and the defense-contracting origin from which the semiconductor sector emerged is developed in the [Silicon Valley from Defense Contracting article][related_post_a246_silicon_valley_defense] and the [Saxenian 1994][book_saxenian_1994] Regional Advantage treatment of the Silicon Valley institutional configuration. The aerospace-computing historical trajectory within which the Bell Labs contributions admit placement is developed in the [Aerospace, Programming Languages, and Information Technology Co-Development series opener][related_post_a237_aerospace_framing], particularly the [Apollo Guidance Computer article][related_post_a242_apollo_guidance] and the [Software-Defined Aerospace article][related_post_a247_software_defined_aerospace]. The [Lécuyer 2006][book_lecuyer_2006] Making Silicon Valley and [Kenney 2000][book_kenney_2000] Understanding Silicon Valley documents the Silicon Valley institutional development. The Silicon Valley semiconductor sector alone captured commercial value substantially exceeding the AT&T telephony revenue across the comparable period. The licensee-count trajectory admits the compact form
 
-$$N^{\text{licensees}}(t) = N^{\text{licensees}}(t_0) \cdot e^{\lambda^{\text{diffusion}} (t - t_0)}$$
+$$
+N^{\text{licensees}}(t) = N^{\text{licensees}}(t_0) \cdot e^{\lambda^{\text{diffusion}} (t - t_0)}
+\tag{44}
+$$
 
 with $\lambda^{\text{diffusion}}$ the diffusion rate under the fair-reasonable-and-non-discriminatory licensing regime. The licensee count reached several hundred by the 1965 period, illustrating the broad diffusion the licensing regime enabled.
 
@@ -361,7 +493,10 @@ The applicability of the Bell Labs counter-example to the SpaceX case is direct.
 
 The institutional-configuration comparison between the Bell Labs and SpaceX-Starlink cases admits the compact contrast
 
-$$\text{IPR}^{\text{regime}}_{\text{Bell Labs}} = \text{FRAND licensing under consent decree}, \quad \text{IPR}^{\text{regime}}_{\text{SpaceX}} = \text{trade-secret retention with limited patent filing}$$
+$$
+\text{IPR}^{\text{regime}}_{\text{Bell Labs}} = \text{FRAND licensing under consent decree}, \quad \text{IPR}^{\text{regime}}_{\text{SpaceX}} = \text{trade-secret retention with limited patent filing}
+\tag{45}
+$$
 
 with the opposite-configuration regimes producing the opposite value-capture outcomes.
 
@@ -371,13 +506,19 @@ The value-capture mechanic invites comparison with several deep historical prece
 
 The Standard Oil vertical-integration case from the 1870 founding through the [1911 Sherman Antitrust Act dissolution][ref_standard_oil_1911] illustrates the canonical vertical-integration value-capture pattern in the petroleum sector. The Standard Oil configuration integrated across the extraction, refining, transportation, and distribution segments, capturing the value at each stage of the value chain. The value-chain capture-ratio across the four stages permits
 
-$$\kappa^{\text{Standard Oil chain}} = \prod_{s \in \{\text{extraction, refining, transport, distribution}\}} \kappa_s$$
+$$
+\kappa^{\text{Standard Oil chain}} = \prod_{s \in \{\text{extraction, refining, transport, distribution}\}} \kappa_s
+\tag{46}
+$$
 
 with the per-stage capture ratios approaching unity under the vertical-integration configuration. The [Chernow 2004][book_chernow_2004] Titan documents the trajectory.
 
 The Ford Motor Company vertical-integration from the 1908 Model T introduction through the mid-century diversification illustrates the vertical-integration pattern in the automotive sector. The mass-production configuration is documented in the [Hounshell 1984][book_hounshell_1984] From the American System to Mass Production treatment. The Ford River Rouge Complex integrated the iron-ore extraction, steel production, glass manufacturing, tire production, and vehicle assembly within the single-firm boundary, capturing the value across the value chain. The River Rouge integration span-index allows
 
-$$\text{Span}_{\text{Ford River Rouge}} = \frac{N^{\text{integrated stages}}}{N^{\text{total value-chain stages}}} \approx \frac{5}{6} \approx 0.83$$
+$$
+\text{Span}_{\text{Ford River Rouge}} = \frac{N^{\text{integrated stages}}}{N^{\text{total value-chain stages}}} \approx \frac{5}{6} \approx 0.83
+\tag{47}
+$$
 
 with the approximately 83 percent integration span illustrating the extreme vertical-integration configuration.
 
@@ -385,19 +526,28 @@ The Boeing 707 and subsequent 727, 737, 747, 757, 767, 777, and 787 commercial-a
 
 The Amazon vertical-integration from the 1994 founding through the Amazon Web Services 2006 launch through the contemporary logistics-and-cloud-infrastructure integration illustrates the vertical-integration value-capture pattern in the technology sector. The single-bet-failure and vertical-integration counter-example dynamics are further developed in the [Startup Failure series][related_post_a167_startup_failure] treatment of the single-bet vulnerability. The Amazon Web Services in particular illustrates the pattern of leveraging the internal-infrastructure capability into the external-service commercial offering, resembling the SpaceX launch-service to Starlink integration in the structural configuration. The AWS-to-Amazon-retail revenue ratio at the drafting date supports
 
-$$\rho^{\text{AWS/Amazon retail}}(t) = \frac{R^{\text{AWS}}(t)}{R^{\text{Amazon retail}}(t)} \approx 0.17$$
+$$
+\rho^{\text{AWS/Amazon retail}}(t) = \frac{R^{\text{AWS}}(t)}{R^{\text{Amazon retail}}(t)} \approx 0.17
+\tag{48}
+$$
 
 with the AWS revenue approximately 100 billion dollars annually and the Amazon retail revenue approximately 600 billion dollars annually as of the drafting date, illustrating the internal-infrastructure-to-external-service spinoff scale that the vertical-integration configuration can achieve.
 
 The Apple integrated hardware-software-services configuration from the 2007 iPhone introduction through the contemporary App Store and services revenue illustrates the value-capture pattern in which the vertical integration across the device, operating-system, and services segments captures the value across the ecosystem. The Apple services-revenue share admits
 
-$$s^{\text{Apple services}}(t) = \frac{R^{\text{Apple services}}(t)}{R^{\text{Apple total}}(t)} \approx 0.25$$
+$$
+s^{\text{Apple services}}(t) = \frac{R^{\text{Apple services}}(t)}{R^{\text{Apple total}}(t)} \approx 0.25
+\tag{49}
+$$
 
 as of the drafting date, illustrating the vertical-integration expansion into the services segment beyond the hardware-product base. The Apple configuration differs from the SpaceX arrangement in the consumer-device orientation but shares the integrated-provider value-capture structure.
 
 The Tesla integrated-manufacturing-plus-service configuration from the 2008 Roadster through the contemporary Model S, Model 3, Model Y, and Model X production illustrates the value-capture pattern in the same-founder adjacent firm. The Tesla trajectory is documented in the [Vance 2015][book_vance_2015] and [Isaacson 2023][book_isaacson_2023] biographies alongside the SpaceX trajectory. The Tesla vertical-integration span across the segments permits
 
-$$\text{VI}_{\text{Tesla}} = \{\text{battery cells}, \text{motors}, \text{vehicles}, \text{charging network}, \text{autonomy software}, \text{energy storage}, \text{energy generation}\}$$
+$$
+\text{VI}_{\text{Tesla}} = \{\text{battery cells}, \text{motors}, \text{vehicles}, \text{charging network}, \text{autonomy software}, \text{energy storage}, \text{energy generation}\}
+\tag{50}
+$$
 
 with the approximately seven-segment vertical-integration span illustrating the broader-than-typical vertical-integration configuration in the automotive-and-energy sectors. The Tesla configuration includes the vehicle-manufacturing, the charging-network infrastructure, and the autonomy-service subscription channels that jointly determine the value-capture arrangement.
 
@@ -483,7 +633,10 @@ The contemporary comparative landscape for the value-capture condition across th
 
 The Amazon Kuiper satellite-broadband configuration announced in 2019 and beginning operational deployment in 2024 represents the direct competitor to the Starlink service. The Kuiper configuration integrates the Amazon retail and logistics infrastructure with the [Blue Origin][ref_blue_origin_press] launch-service and the Kuiper satellite constellation, illustrating an alternative vertical-integration arrangement in the same sector. The Kuiper-versus-Starlink deployment-timing comparison takes the form
 
-$$\Delta T^{\text{deployment lead}}_{\text{Starlink vs Kuiper}} = T^{\text{Starlink operational}} - T^{\text{Kuiper operational}} \approx 2019 - 2024 = -5 \text{ years}$$
+$$
+\Delta T^{\text{deployment lead}}_{\text{Starlink vs Kuiper}} = T^{\text{Starlink operational}} - T^{\text{Kuiper operational}} \approx 2019 - 2024 = -5 \text{ years}
+\tag{51}
+$$
 
 illustrating the approximately five-year Starlink lead in the operational-deployment trajectory.
 
@@ -491,7 +644,10 @@ The OneWeb constellation acquired by the Bharti Global consortium following the 
 
 The traditional geostationary satellite operators including Viasat, Hughes Network Systems, SES, Intelsat, and Eutelsat operate the geostationary-satellite-broadband service under substantially different vertical-integration configurations, coordinated through the [International Telecommunication Union Radio Regulations][ref_itu_radio_regulations_2020]. The launch-provider comparison set comprises the [Rocket Lab][ref_rocket_lab_press], the [United Launch Alliance][ref_ula_press] with its parents at the [Boeing][ref_boeing_press] and [Northrop Grumman][ref_northrop_grumman_press] records, the [Arianespace][ref_arianespace] and [ArianeGroup][ref_arianegroup_press] configuration, the [ISRO][ref_isro_press] and [JAXA][ref_jaxa_press] programmes, the [China commercial space][ref_china_commercial_space] record, and the entrant coverage at [European Spaceflight][ref_european_spaceflight], with the licensing record at the [Office of Commercial Space Transportation][ref_faa_ast] and the [Space Force National Security Space Launch programme][ref_space_force_nssl]. The market-share evolution in the satellite-broadband sector can be written as
 
-$$s^{\text{Starlink}}(t) = \frac{N^{\text{Starlink subscribers}}(t)}{N^{\text{total satellite-broadband subscribers}}(t)}$$
+$$
+s^{\text{Starlink}}(t) = \frac{N^{\text{Starlink subscribers}}(t)}{N^{\text{total satellite-broadband subscribers}}(t)}
+\tag{52}
+$$
 
 with the Starlink subscriber-share approaching the substantial majority of the low-Earth-orbit satellite-broadband market as of the drafting date, though the geostationary providers retain substantial share in the fixed-broadcasting and video-distribution segments. The competitive dynamics between the low-Earth-orbit constellation providers and the incumbent geostationary providers continue to shape the value-capture configuration across the sector.
 
@@ -499,11 +655,17 @@ with the Starlink subscriber-share approaching the substantial majority of the l
 
 The value-capture condition can be applied to the space-launch-plus-satellite-services sector firms as a cross-sectional scoring exercise. The vertical-integration score across the firm set has the form
 
-$$VI_i = \sum_{s \in \text{segments}} \mathbb{1}[\text{firm } i \text{ conducts segment } s \text{ internally}] \cdot \omega_s$$
+$$
+VI_i = \sum_{s \in \text{segments}} \mathbb{1}[\text{firm } i \text{ conducts segment } s \text{ internally}] \cdot \omega_s
+\tag{53}
+$$
 
 with $s$ indexing across launch-vehicle, spacecraft, satellite-manufacturing, satellite-broadband service, ground-infrastructure, and end-customer service segments. Blue Origin and Amazon Kuiper together approximate the vertical-integration configuration that Starlink achieves through direct SpaceX ownership, though the corporate-structure difference between the two-firm arrangement and the single-firm structure produces distinct value-capture dynamics. The comparative-firm closure vector across the value-capture sub-properties may be written
 
-$$\boldsymbol{\phi}_j^{\text{value-capture}} \in \{0, 1\}^{5}$$
+$$
+\boldsymbol{\phi}_j^{\text{value-capture}} \in \{0, 1\}^{5}
+\tag{54}
+$$
 
 with each firm's closure vector indicating the satisfaction status across the five value-capture sub-properties. Rocket Lab has extended into the spacecraft-services segment through the Photon satellite bus product, achieving partial vertical-integration but not the full-service satellite-broadband capture. ULA has not extended into the satellite-services segment and remains a launch-service-only provider. The international launch-provider set exhibits distinct national-configuration patterns that reflect the state-firm coordination structures.
 
@@ -517,13 +679,19 @@ The value-capture framing the article develops is one of several analytical fram
 
 The vertical-integration framing developed in [Williamson 1971][research_williamson_1971] and [Williamson 1985][book_williamson_1985] frames the SpaceX-Starlink configuration as a transaction-cost-economics case of the make-or-buy decision. The asset-specificity index that motivates the vertical-integration permits the concise form
 
-$$k^{\text{specificity}}_{\text{SpaceX-Starlink}} = 1 - \frac{V^{\text{alternative-use}}_{\text{Starlink hardware}}}{V^{\text{best-use}}_{\text{Starlink hardware}}}$$
+$$
+k^{\text{specificity}}_{\text{SpaceX-Starlink}} = 1 - \frac{V^{\text{alternative-use}}_{\text{Starlink hardware}}}{V^{\text{best-use}}_{\text{Starlink hardware}}}
+\tag{55}
+$$
 
 with the value close to unity for the Starlink satellite hardware that has no meaningful alternative use outside the Starlink service. The framing captures the asset-specificity and hold-up considerations that motivated the vertical-integration decision.
 
 The resource-based-view framing developed in [Wernerfelt 1984][research_wernerfelt_1984], [Barney 1991][research_barney_1991], and [Teece et al. 1997][research_teece_pisano_shuen_1997] frames the SpaceX-Starlink configuration as an instance of the firm-capability accumulation that produces sustained competitive advantage. The resource-heterogeneity index takes the form
 
-$$H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)$$
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{56}
+$$
 
 with the four V-R-I-N factors indicating value, rarity, inimitability, and non-substitutability of resource $r$.
 
@@ -531,31 +699,46 @@ The value-appropriation framing developed in [Teece 1986][research_teece_1986] f
 
 The platform-monopoly framing developed in the tech-antitrust literature frames the Starlink satellite-broadband service as an emerging platform monopoly whose long-run competitive positioning admits antitrust scrutiny. The platform-monopoly index can be written as
 
-$$M_i^{\text{platform-power}} = \text{HHI}_{\text{sector}} \cdot L_i^{\text{Lerner}}$$
+$$
+M_i^{\text{platform-power}} = \text{HHI}_{\text{sector}} \cdot L_i^{\text{Lerner}}
+\tag{57}
+$$
 
 with the two-factor product reflecting both the concentration of the market share and the ability to extract markup above marginal cost.
 
 The natural-monopoly framing developed in the traditional public-utility literature including [Kahn 1988][book_kahn_1988] The Economics of Regulation, [Baumol 1977][research_baumol_1977] On the Proper Cost Tests for Natural Monopoly in a Multiproduct Industry, and [Sharkey 1982][book_sharkey_1982] The Theory of Natural Monopoly frames the satellite-broadband service as approximating a natural-monopoly structure in geographies where the terrestrial alternative infrastructure is inadequate. The subadditivity-of-cost condition that characterizes the natural-monopoly configuration permits
 
-$$C(q_1 + q_2 + \ldots + q_n) < \sum_{i=1}^{n} C(q_i)$$
+$$
+C(q_1 + q_2 + \ldots + q_n) < \sum_{i=1}^{n} C(q_i)
+\tag{58}
+$$
 
 with the single-firm cost function subadditive in the aggregate output, favoring the single-firm production over the multi-firm alternative in the geographies where the network-infrastructure fixed cost dominates.
 
 The Silicon-Valley-disruption framing developed in [Christensen 1997][book_christensen_1997] The Innovator's Dilemma and extended in [Christensen and Raynor 2003][book_christensen_raynor_2003] The Innovator's Solution, [Bower and Christensen 1995][research_bower_christensen_1995] Disruptive Technologies Catching the Wave, and [Christensen Raynor McDonald 2015][research_christensen_raynor_mcdonald_2015] What Is Disruptive Innovation frames the Starlink service as the disruptive entrant against the geostationary satellite-broadband incumbent. The displacement-threshold condition has the form
 
-$$P^{\text{Starlink}} < P^{\text{geostationary alternative}} \quad \text{and} \quad L^{\text{Starlink}} < L^{\text{geostationary alternative}}$$
+$$
+P^{\text{Starlink}} < P^{\text{geostationary alternative}} \quad \text{and} \quad L^{\text{Starlink}} < L^{\text{geostationary alternative}}
+\tag{59}
+$$
 
 with the Starlink price and latency simultaneously below the geostationary-alternative price and latency across the target-customer segments.
 
 The mission-oriented-innovation framing developed in [Nelson 1977][research_nelson_1977] The Moon and the Ghetto through [Ruttan 2006][book_ruttan_2006] Is War Necessary for Economic Growth, [Mazzucato 2013][book_mazzucato_2013] The Entrepreneurial State, [Mazzucato 2021][book_mazzucato_2021] Mission Economy, [Weiss 2014][book_weiss_2014] America Inc, [Fuchs 2010][research_fuchs_2010] Rethinking the Role of the State in Technology Development, and [Bonvillian 2018][research_bonvillian_2018] DARPA and the Advanced Research Projects Agency and adopted as primary by the series treats the SpaceX Mars-transportation mission commitment as the primary organizing force that motivated the Starlink vertical-integration decision. The mission-articulation-to-capture transfer may be written
 
-$$V^{\text{captured,mission-directed}}_i(t) = V^{\text{captured,market-directed baseline}}_i(t) + \int_0^t g^{\text{mission-capture}}(M, K^{\text{VI}}(\tau)) \, d\tau$$
+$$
+V^{\text{captured,mission-directed}}_i(t) = V^{\text{captured,market-directed baseline}}_i(t) + \int_0^t g^{\text{mission-capture}}(M, K^{\text{VI}}(\tau)) \, d\tau
+\tag{60}
+$$
 
 with the mission-directed capture increment beyond the market-directed baseline attributable to the vertical-integration investment $K^{\text{VI}}$ that the mission articulation motivates.
 
 The real-options and staged-investment framing developed in [Dixit and Pindyck 1994][book_dixit_pindyck_1994] Investment Under Uncertainty and [Trigeorgis 1996][book_trigeorgis_1996] Real Options frames the vertical-integration decisions across the launch-vehicle, spacecraft, and satellite-broadband segments as sequential real options with staged-investment characteristics. The sequential-option value allows the backward-induction recursion
 
-$$V^{\text{VI-option}}_t = \max\!\left\{V^{\text{exercise}}_t, \, e^{-r \Delta t} \cdot E\!\left[V^{\text{VI-option}}_{t+1} \mid F_t\right]\right\}$$
+$$
+V^{\text{VI-option}}_t = \max\!\left\{V^{\text{exercise}}_t, \, e^{-r \Delta t} \cdot E\!\left[V^{\text{VI-option}}_{t+1} \mid F_t\right]\right\}
+\tag{61}
+$$
 
 with the vertical-integration decision at each stage constituting a real-option exercise. The framing captures the optionality that the Falcon-launch-service-to-Dragon-spacecraft-to-Starlink-service sequence produced.
 
@@ -569,7 +752,10 @@ The political-economy critique framing developed in the Marxist and post-Marxist
 
 The public-choice and rent-seeking framing developed in [Buchanan and Tullock 1962][book_buchanan_tullock_1962] The Calculus of Consent, [Stigler 1971][research_stigler_1971] The Theory of Economic Regulation, and [Krueger 1974][research_krueger_1974] The Political Economy of the Rent-Seeking Society frames the SpaceX value-capture configuration as an instance of the rent-extraction pattern in which private firms benefit from state-created contracting opportunities that exclude potential competitors. The rent-transfer identity yields the compact form
 
-$$\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}$$
+$$
+\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}
+\tag{62}
+$$
 
 with the rent equal to the difference between the observed provider profit and the counterfactual competitive-benchmark profit that arm's-length market arrangements would produce.
 
@@ -593,15 +779,24 @@ The five sub-properties jointly enable the value-capture property. The SpaceX tr
 
 The joint-satisfaction condition takes the form
 
-$$\text{VC closure} = \bigwedge_{k=1}^{5} \phi_k$$
+$$
+\text{VC closure} = \bigwedge_{k=1}^{5} \phi_k
+\tag{63}
+$$
 
 with $\phi_k$ the closure indicator for sub-property $k$ and the conjunction requiring all five sub-properties to be closed. The closure vector for a candidate case $j$ is
 
-$$\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5$$
+$$
+\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5
+\tag{64}
+$$
 
 with the candidate's value-capture closure occurring when $\boldsymbol{\phi}\_j = \mathbf{1}$. Under order-of-magnitude estimates $p_k \approx 0.25$ across the five sub-properties and independence, the joint-closure probability is approximately
 
-$$P^{\text{VC closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k \approx 0.001$$
+$$
+P^{\text{VC closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k \approx 0.001
+\tag{65}
+$$
 
 which suggests the closure singularity the article identifies in the SpaceX case relative to the Xerox PARC and Bell Labs counter-example cases.
 
@@ -630,6 +825,584 @@ The counterfactual comparison between the SpaceX-Starlink vertical-integration c
 The competitive-response timeline under which the Amazon Kuiper configuration and additional satellite-broadband entrants will affect the SpaceX-Starlink value-capture arrangement is treated in the closing article A292.
 
 The extension of the vertical-integration configuration to additional service segments including direct-to-cell, business-connectivity, and defense-service segments continues to evolve as of the drafting date.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 65 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 65, 21 are established and 44 are bespoke.
+Prices and revenues are nominal United States dollars, prices per kilogram are dollars per kilogram to low Earth orbit unless another orbit is named, latency is in milliseconds, altitude is in kilometres, and capture ratios and shares are dimensionless fractions between zero and one.
+
+*Equation 1, Bespoke Value-Capture Condition.*
+The article defines the capture ratio as retained value over created value and requires it to stay at or above a threshold.
+
+$$
+\kappa_i(t) = \frac{V_i^{\text{retained}}(t)}{V_i^{\text{created}}(t)} \geq \kappa^{\text{threshold}}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Value Transfer Fraction.*
+The transfer fraction is the complement of the capture ratio, the share of created value that passes to unaffiliated firms.
+
+$$
+\tau_i(t) = 1 - \kappa_i(t) = \frac{V_i^{\text{transferred}}(t)}{V_i^{\text{created}}(t)}
+\tag{2}
+$$
+
+**Equation 3, Variance of Created Value.**
+The variance of a sum of retained and transferred value is the sum of their variances plus twice their covariance.
+
+$$
+\text{Var}(V_i^{\text{created}}) = \text{Var}(V_i^{\text{retained}}) + \text{Var}(V_i^{\text{transferred}}) + 2 \cdot \text{Cov}(V_i^{\text{retained}}, V_i^{\text{transferred}})
+\tag{3}
+$$
+
+*Equation 4, Bespoke Vertical Integration Counterfactual.*
+The capture contribution is defined as observed retained value less the retained value of a counterfactual without vertical integration.
+
+$$
+\Delta V_i^{\text{capture}}(t) = V_i^{\text{retained,observed}}(t) - V_i^{\text{retained,no-vertical-integration counterfactual}}(t)
+\tag{4}
+$$
+
+*Equation 5, Bespoke Capture Ratio over the Horizon.*
+The article requires the capture ratio to stay at or above the threshold from the start of value realisation to the horizon.
+
+$$
+\kappa_i(t) \geq \kappa^{\text{threshold}} \quad \forall t \in [t^{\text{value-realization}}, t^{\text{horizon}}]
+\tag{5}
+$$
+
+*Equation 6, Bespoke Retained Value Channels.*
+The article divides retained value into launch markup, Starlink subscription, Starlink hardware, Starshield defence and capability channels.
+
+$$
+V^{\text{retained}}_i = V^{\text{launch-service-markup}}_i + V^{\text{starlink-subscription}}_i + V^{\text{starlink-hardware}}_i + V^{\text{starshield-defense}}_i + V^{\text{capability-value}}_i
+\tag{6}
+$$
+
+*Equation 7, Bespoke Mean-Reverting Capture Dynamics.*
+The article models the capture ratio as converging at a constant rate towards a target, perturbed by a shock term.
+
+$$
+\dot\kappa_i(t) = \alpha \cdot [\kappa^{\text{target}} - \kappa_i(t)] + \sigma_{\kappa}(t)
+\tag{7}
+$$
+
+*Equation 8, Bespoke Value Appropriation Function.*
+The article writes captured value as created value multiplied by an unspecified function of the appropriability regime, complementary assets and integration.
+[Teece 1986][research_teece_1986]
+
+$$
+V^{\text{captured}}_i = V^{\text{created}} \cdot f(\text{regime}, \text{complementary-assets}, \text{integration})
+\tag{8}
+$$
+
+*Equation 9, Bespoke Complementary Asset Intensity.*
+The article weights the internally held fraction of each complementary asset by its criticality to commercialisation.
+[Teece 1986][research_teece_1986]
+
+$$
+CA_i = \sum_{a \in \text{assets}} \omega_a \cdot \phi^{\text{internal}}_{i,a}
+\tag{9}
+$$
+
+**Equation 10, Lerner Index and the Inverse Elasticity Rule.**
+The Lerner index of market power, the relative markup of price over marginal cost, equals the reciprocal of the price elasticity of demand for a profit-maximising firm.
+
+$$
+L_i = \frac{P_i - c_i}{P_i} = \frac{1}{\varepsilon_i^{\text{demand}}}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Value-Chain Position Index.*
+The article weights the internally conducted fraction of each value-chain stage by the value contribution of the stage.
+
+$$
+VCP_i = \sum_{s \in \text{stages}} \omega_s \cdot \phi^{\text{internal}}_{i,s}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Resource Heterogeneity Index.*
+The article scores resources by a weighted sum of the products of their value, rarity, inimitability and non-substitutability.
+[Barney 1991][research_barney_1991]
+
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{12}
+$$
+
+*Equation 13, Bespoke Appropriability Regime Coefficient.*
+The article writes appropriability as an unspecified function of intellectual property strength, internal complementary assets and lead time.
+[Teece 1986][research_teece_1986]
+
+$$
+\rho^{\text{appropriability}}_i = f(IP^{\text{strength}}_i, CA^{\text{internal}}_i, T^{\text{lead-time}}_i)
+\tag{13}
+$$
+
+**Equation 14, Make-or-Buy Indifference Condition.**
+A firm is indifferent between making and buying when production cost plus internal governance cost equals market cost plus transaction cost.
+[Williamson 1985][book_williamson_1985]
+
+$$
+C^{\text{internal}}(q) + T^{\text{governance}}_{\text{internal}} = C^{\text{market}}(q) + T^{\text{transaction}}_{\text{market}}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Two-Sided Price Structure.*
+The article requires the two side prices to cover marginal cost together and sets their ratio by an unspecified function of the cross-side externalities.
+[Rochet and Tirole 2003][research_rochet_tirole_2003]
+
+$$
+P^A + P^B \geq c^{\text{marginal}}, \quad \frac{P^A}{P^B} = g\!\left(\frac{\eta^A}{\eta^B}\right)
+\tag{15}
+$$
+
+*Equation 16, Bespoke Linear Network Utility of a User.*
+The article writes user utility as intrinsic value plus linear terms in satellite coverage and in the subscriber count.
+[Katz and Shapiro 1985][research_katz_shapiro_1985]
+
+$$
+u_i^{\text{user}} = v^{\text{intrinsic}} + \gamma \cdot n^{\text{coverage}} + \beta \cdot n^{\text{subscribers}}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Institutional Configuration Index.*
+The article weights the institutional fit of each configuration into one index.
+
+$$
+IC_i = \sum_{c \in \text{configurations}} \omega_c \cdot \phi^{\text{institutional-fit}}_{i,c}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Ecosystem Value Appropriation.*
+The article weights firm value by the appropriation fraction and total ecosystem value by its complement.
+
+$$
+V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)
+\tag{18}
+$$
+
+**Equation 19, Reliability of Redundant Satellites.**
+The probability that at least one of a set of independent satellites works is one minus the product of their failure probabilities.
+[O'Connor and Kleyner 2012][book_oconnor_kleyner_2012]
+
+$$
+R^{\text{constellation}}(t) = 1 - \prod_{i=1}^{N^{\text{coverage-required}}(t)} [1 - R^{\text{satellite}}_i(t)]
+\tag{19}
+$$
+
+*Equation 20, Bespoke Falcon 1 Price per Kilogram.*
+The price per kilogram is evaluated with 7 million dollars, the midpoint of the stated price range of 6 to 8 million dollars, over a payload of 570 kilograms.
+[SpaceX news archive][ref_spacex_news_archive]
+
+$$
+\text{DPK}_{\text{Falcon 1}} = \frac{P_{\text{Falcon 1}}}{m^{\text{payload}}_{\text{Falcon 1}}} = \frac{7 \text{ M dollars}}{570 \text{ kg}} \approx 12280 \text{ dollars per kilogram}
+\tag{20}
+$$
+
+**Equation 21, Falcon 9 Version 1.0 Price per Kilogram.**
+The reported launch price divided by the reported payload to low Earth orbit gives the price per kilogram.
+
+$$
+\text{DPK}_{\text{Falcon 9 v1.0}} = \frac{56 \text{ M dollars}}{10.5 \text{ tonnes}} \approx 5300 \text{ dollars per kilogram}
+\tag{21}
+$$
+
+**Equation 22, Falcon 9 Block 5 List Price per Kilogram.**
+The reported list price divided by the payload the article states gives the price per kilogram.
+
+$$
+\text{DPK}^{\text{Falcon 9 Block 5}}_{\text{reusable}} \approx \frac{67 \text{ M dollars}}{22 \text{ tonnes reusable payload}} \approx 3000 \text{ dollars per kilogram (list)}
+\tag{22}
+$$
+
+**Equation 23, Falcon Heavy Expendable Price per Kilogram.**
+The reported launch price divided by the expendable payload to low Earth orbit gives the price per kilogram.
+
+$$
+\text{DPK}_{\text{Falcon Heavy expendable}} = \frac{97 \text{ M dollars}}{63.8 \text{ tonnes}} \approx 1520 \text{ dollars per kilogram}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Projected Starship Price per Kilogram.*
+The projected price per kilogram rests on an assumed price of 10 million dollars a launch and an assumed payload of 150 tonnes.
+
+$$
+\text{DPK}_{\text{Starship projected}} = \frac{10 \text{ M dollars}}{150 \text{ tonnes}} \approx 67 \text{ dollars per kilogram}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Projected Starship to Falcon 9 Price Ratio.*
+The ratio divides the projected Starship price per kilogram by a representative reusable Falcon 9 price of 1500 dollars per kilogram.
+
+$$
+\rho^{\text{DPK}}_{\text{Starship vs Falcon 9 reusable}} = \frac{67}{1500} \approx 0.045
+\tag{25}
+$$
+
+*Equation 26, Bespoke Price per Kilogram across the Falcon Lineage.*
+The tabulation sets representative prices per kilogram for successive vehicles beside a projected range for Starship.
+
+$$
+\text{DPK}^{\text{Falcon lineage}}(t) = \{18000, 8000, 2700, 1500, 200\text{-}400\}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Log-Linear Decline of Mission Price.*
+The article fits the logarithm of the price per mission to a linear decline in time.
+
+$$
+\log P^{\text{per-mission}}(t) = \log P^{\text{per-mission}}(t_0) + \beta \cdot (t - t_0)
+\tag{27}
+$$
+
+*Equation 28, Bespoke Price-Halving Time.*
+The halving time is the logarithm of two divided by the decline rate, evaluated with the fitted rate of 0.08 a year.
+
+$$
+T^{\text{halving}} = \frac{\log 2}{-\beta} \approx \frac{0.693}{0.08} \approx 8.7 \text{ years}
+\tag{28}
+$$
+
+**Equation 29, Launch Revenue as Price Times Quantity.**
+Launch revenue is the price per mission multiplied by the number of missions.
+
+$$
+R^{\text{launch}}_i(t) = P^{\text{per-mission}}(t) \cdot q^{\text{missions}}(t)
+\tag{29}
+$$
+
+*Equation 30, Bespoke Compound Growth of Launch Cadence.*
+The compound annual growth rate is evaluated with representative counts of 5 missions in 2013 and 130 in 2025.
+
+$$
+g^{\text{cadence}} = \left(\frac{q^{\text{2025}}}{q^{\text{2013}}}\right)^{1/12} - 1 = \left(\frac{130}{5}\right)^{1/12} - 1 \approx 0.32
+\tag{30}
+$$
+
+*Equation 31, Bespoke Latency Ratio of Low Earth Orbit to Geostationary Service.*
+The ratio is evaluated with 37 and 600 milliseconds, values taken within the stated latency ranges of the two services.
+[January 15 2015 at the SpaceX Seattle facility opening][ref_spacex_seattle_announcement_2015]
+
+$$
+\rho^{\text{latency}}_{\text{LEO vs GEO}} = \frac{L^{\text{LEO}}}{L^{\text{GEO}}} \approx \frac{37 \text{ ms}}{600 \text{ ms}} \approx 0.06
+\tag{31}
+$$
+
+**Equation 32, Propagation Latency through a Satellite Overhead.**
+The signal travels up to the satellite and back down, so the one-way propagation time is twice the altitude divided by the speed of light.
+
+$$
+L^{\text{one-way}} = \frac{2 h_{\text{altitude}}}{c}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Pre-Operational Capital Consumption.*
+Capital consumed before operation is an initial stock plus the integral of the Starlink burn rate.
+
+$$
+K^{\text{cum,pre-op}}(T) = K^{\text{initial}} + \int_0^T c^{\text{burn}}_{\text{Starlink}}(\tau) \, d\tau
+\tag{33}
+$$
+
+**Equation 34, Logistic Growth of the Constellation.**
+The cumulative satellite count follows a logistic curve that rises through an inflection time towards a constellation cap.
+
+$$
+N^{\text{Starlink}}(t) = \frac{N^{\text{max}}}{1 + e^{-\lambda (t - t_0)}}
+\tag{34}
+$$
+
+**Equation 35, Satellite Deployment Rate.**
+The deployment rate is the launch cadence multiplied by the satellites carried per launch.
+
+$$
+\dot N^{\text{deploy}}(t) = q^{\text{Falcon 9}}(t) \cdot n^{\text{per-launch}}(t)
+\tag{35}
+$$
+
+**Equation 36, Wright Learning Curve for Satellite Cost.**
+The cost of a satellite falls as a power of cumulative production.
+
+$$
+c^{\text{satellite}}(n) = c^{\text{satellite}}(1) \cdot n^{-\gamma^{\text{satellite}}}
+\tag{36}
+$$
+
+**Equation 37, Compound Annual Growth of Starlink Revenue.**
+The compound annual growth rate from 2021 to 2024 is evaluated from the reported revenue estimates of 0.2 and 6.6 billion dollars.
+
+$$
+g^{\text{CAGR}}_{\text{Starlink 2021-2024}} = \left(\frac{R^{\text{2024}}}{R^{\text{2021}}}\right)^{1/3} - 1 = \left(\frac{6.6}{0.2}\right)^{1/3} - 1 \approx 2.22
+\tag{37}
+$$
+
+**Equation 38, Subscription Revenue.**
+Annual subscription revenue is subscribers multiplied by monthly revenue per user and by twelve.
+
+$$
+R^{\text{Starlink,subscription}}(t) = N^{\text{subscribers}}(t) \cdot \text{ARPU}^{\text{monthly}}(t) \cdot 12
+\tag{38}
+$$
+
+*Equation 39, Bespoke Hardware Share of Starlink Revenue.*
+The article splits total revenue into subscription and hardware and places the hardware share between 10 and 15 percent.
+[SpaceX Starlink program page][ref_spacex_starlink]
+
+$$
+R^{\text{Starlink,total}} = R^{\text{Starlink,subscription}} + R^{\text{Starlink,hardware}}, \quad \frac{R^{\text{Starlink,hardware}}}{R^{\text{Starlink,total}}} \in [0.10, 0.15]
+\tag{39}
+$$
+
+*Equation 40, Bespoke Mission-Funding Ratio of Starlink.*
+The article divides Starlink revenue by the cost of the Mars transportation mission.
+
+$$
+\rho^{\text{mission-funding}}_{\text{Starlink}}(t) = \frac{R^{\text{Starlink}}(t)}{C^{\text{Mars-mission}}(t)}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Capture Ratio of Xerox PARC.*
+The article bounds the share of the commercial value of technologies from the Xerox Palo Alto Research Center that Xerox itself captured.
+
+$$
+\kappa_{\text{Xerox PARC}} \approx \frac{V^{\text{Xerox commercial}}}{V^{\text{total industry commercialization}}} \ll 0.10
+\tag{41}
+$$
+
+*Equation 42, Bespoke Personnel Diaspora Rate of Xerox PARC.*
+The article bounds the share of key personnel of the Xerox Palo Alto Research Center who moved to unaffiliated firms.
+
+$$
+\rho^{\text{diaspora}}_{\text{PARC}} = \frac{N^{\text{PARC personnel transferred to unaffiliated firms}}}{N^{\text{PARC personnel total}}} \gg 0.5
+\tag{42}
+$$
+
+*Equation 43, Bespoke Capture Ratio of Bell Labs.*
+The article bounds the share of the commercial value of Bell Labs technologies that AT&T itself captured.
+
+$$
+\kappa_{\text{Bell Labs}} \approx \frac{V^{\text{AT\&T commercial}}}{V^{\text{total industry commercialization}}} \ll 0.05
+\tag{43}
+$$
+
+*Equation 44, Bespoke Exponential Growth of Licensees.*
+The article models the count of transistor licensees as growing exponentially at a diffusion rate.
+
+$$
+N^{\text{licensees}}(t) = N^{\text{licensees}}(t_0) \cdot e^{\lambda^{\text{diffusion}} (t - t_0)}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Intellectual Property Regime Contrast.*
+The article sets the licensing regime of Bell Labs under its consent decree against the trade secret regime of SpaceX.
+
+$$
+\text{IPR}^{\text{regime}}_{\text{Bell Labs}} = \text{FRAND licensing under consent decree}, \quad \text{IPR}^{\text{regime}}_{\text{SpaceX}} = \text{trade-secret retention with limited patent filing}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Value-Chain Capture of Standard Oil.*
+The article takes the capture of the integrated chain as the product of the capture ratios of its four stages.
+[Chernow 2004][book_chernow_2004]
+
+$$
+\kappa^{\text{Standard Oil chain}} = \prod_{s \in \{\text{extraction, refining, transport, distribution}\}} \kappa_s
+\tag{46}
+$$
+
+*Equation 47, Bespoke Integration Span of River Rouge.*
+The span divides integrated stages by total stages, evaluated with a count of five of six stages that the article chooses.
+[Hounshell 1984][book_hounshell_1984]
+
+$$
+\text{Span}_{\text{Ford River Rouge}} = \frac{N^{\text{integrated stages}}}{N^{\text{total value-chain stages}}} \approx \frac{5}{6} \approx 0.83
+\tag{47}
+$$
+
+**Equation 48, Ratio of Amazon Web Services to Amazon Retail Revenue.**
+The ratio divides the reported annual revenue of Amazon Web Services by the reported retail revenue of Amazon.
+
+$$
+\rho^{\text{AWS/Amazon retail}}(t) = \frac{R^{\text{AWS}}(t)}{R^{\text{Amazon retail}}(t)} \approx 0.17
+\tag{48}
+$$
+
+**Equation 49, Services Share of Apple Revenue.**
+The share divides the reported services revenue of Apple by its total revenue.
+
+$$
+s^{\text{Apple services}}(t) = \frac{R^{\text{Apple services}}(t)}{R^{\text{Apple total}}(t)} \approx 0.25
+\tag{49}
+$$
+
+*Equation 50, Bespoke Tesla Integration Set.*
+The article lists the segments that Tesla integrates as a set of seven.
+[Vance 2015][book_vance_2015]
+[Isaacson 2023][book_isaacson_2023]
+
+$$
+\text{VI}_{\text{Tesla}} = \{\text{battery cells}, \text{motors}, \text{vehicles}, \text{charging network}, \text{autonomy software}, \text{energy storage}, \text{energy generation}\}
+\tag{50}
+$$
+
+**Equation 51, Deployment Lead of Starlink over Kuiper.**
+The difference between the operational years of the two constellations is evaluated from the years the article reports.
+
+$$
+\Delta T^{\text{deployment lead}}_{\text{Starlink vs Kuiper}} = T^{\text{Starlink operational}} - T^{\text{Kuiper operational}} \approx 2019 - 2024 = -5 \text{ years}
+\tag{51}
+$$
+
+**Equation 52, Starlink Subscriber Share.**
+The share is Starlink subscribers divided by all satellite broadband subscribers.
+
+$$
+s^{\text{Starlink}}(t) = \frac{N^{\text{Starlink subscribers}}(t)}{N^{\text{total satellite-broadband subscribers}}(t)}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Vertical Integration Score.*
+The article sums the weights of the segments that a firm conducts internally.
+
+$$
+VI_i = \sum_{s \in \text{segments}} \mathbb{1}[\text{firm } i \text{ conducts segment } s \text{ internally}] \cdot \omega_s
+\tag{53}
+$$
+
+*Equation 54, Bespoke Value-Capture Closure Vector of a Firm.*
+Each firm receives a binary vector over the five value-capture sub-properties.
+
+$$
+\boldsymbol{\phi}_j^{\text{value-capture}} \in \{0, 1\}^{5}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Asset Specificity of Starlink Hardware.*
+The article measures specificity as one minus the ratio of the value of the hardware in its alternative use to its value in its best use.
+[Williamson 1971][research_williamson_1971]
+[Williamson 1985][book_williamson_1985]
+
+$$
+k^{\text{specificity}}_{\text{SpaceX-Starlink}} = 1 - \frac{V^{\text{alternative-use}}_{\text{Starlink hardware}}}{V^{\text{best-use}}_{\text{Starlink hardware}}}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Resource Heterogeneity Index Restated.*
+The same weighted index of value, rarity, inimitability and non-substitutability is restated for the resource-based framing.
+[Barney 1991][research_barney_1991]
+
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{56}
+$$
+
+*Equation 57, Bespoke Platform Power Index.*
+The article multiplies sector concentration by the Lerner index of the firm to combine market share and markup.
+
+$$
+M_i^{\text{platform-power}} = \text{HHI}_{\text{sector}} \cdot L_i^{\text{Lerner}}
+\tag{57}
+$$
+
+**Equation 58, Subadditivity of Cost for a Natural Monopoly.**
+A natural monopoly exists where one firm can produce the combined output more cheaply than several firms producing the parts.
+[Baumol 1977][research_baumol_1977]
+
+$$
+C(q_1 + q_2 + \ldots + q_n) < \sum_{i=1}^{n} C(q_i)
+\tag{58}
+$$
+
+*Equation 59, Bespoke Displacement Condition for Starlink.*
+The article formalises disruption of geostationary broadband as Starlink being lower in both price and latency.
+[Bower and Christensen 1995][research_bower_christensen_1995]
+
+$$
+P^{\text{Starlink}} < P^{\text{geostationary alternative}} \quad \text{and} \quad L^{\text{Starlink}} < L^{\text{geostationary alternative}}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Mission-Directed Capture Increment.*
+Mission-directed captured value is the market-directed baseline plus the integral of an increment driven by the mission and vertical integration investment.
+
+$$
+V^{\text{captured,mission-directed}}_i(t) = V^{\text{captured,market-directed baseline}}_i(t) + \int_0^t g^{\text{mission-capture}}(M, K^{\text{VI}}(\tau)) \, d\tau
+\tag{60}
+$$
+
+**Equation 61, Backward Induction for a Real Option.**
+The option value at each date is the greater of the exercise value and the discounted expected continuation value.
+[Dixit and Pindyck 1994][book_dixit_pindyck_1994]
+[Trigeorgis 1996][book_trigeorgis_1996]
+
+$$
+V^{\text{VI-option}}_t = \max\!\left\{V^{\text{exercise}}_t, \, e^{-r \Delta t} \cdot E\!\left[V^{\text{VI-option}}_{t+1} \mid F_t\right]\right\}
+\tag{61}
+$$
+
+**Equation 62, Economic Rent as Excess Profit.**
+Rent is the observed profit less the profit a competitive benchmark would yield.
+[Krueger 1974][research_krueger_1974]
+
+$$
+\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Value-Capture Closure Conjunction.*
+The article defines closure as the logical conjunction of the five sub-property indicators.
+
+$$
+\text{VC closure} = \bigwedge_{k=1}^{5} \phi_k
+\tag{63}
+$$
+
+*Equation 64, Bespoke Closure Vector of a Candidate Case.*
+Each candidate case receives a binary vector over the five sub-properties, and closure requires every component to equal one.
+
+$$
+\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5
+\tag{64}
+$$
+
+*Equation 65, Bespoke Joint Closure Probability under Independence.*
+The product of the marginal probabilities is evaluated under the independence assumption and an order-of-magnitude marginal of 0.25 that the article assumes.
+
+$$
+P^{\text{VC closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k \approx 0.001
+\tag{65}
+$$
+
+### Notation
+
+- $\kappa_i(t)$, the capture ratio of firm $i$, retained over created value
+- $\tau_i(t)$, the transfer fraction of firm $i$, the complement of the capture ratio
+- $\kappa^{\text{threshold}}$, the threshold capture ratio
+- $\kappa^{\text{target}}$, the target capture ratio
+- $\alpha$, the convergence rate of the capture ratio towards its target
+- $\sigma_{\kappa}(t)$, the shock term perturbing the capture trajectory
+- $\omega_a$, the criticality weight of complementary asset $a$
+- $\phi^{\text{internal}}_{i,a}$, the fraction of complementary asset $a$ that firm $i$ holds internally
+- $L_i$, the Lerner index of provider $i$
+- $\varepsilon_i^{\text{demand}}$, the price elasticity of demand facing provider $i$
+- $\eta^A$, the cross-side network externality of side $A$
+- $\eta^B$, the cross-side network externality of side $B$
+- $\beta$, the subscriber-density coefficient of user utility, and in the price trend the annual decline rate
+- $h_{\text{altitude}}$, the satellite altitude
+- $N^{\text{max}}$, the constellation cap
+- $\lambda$, the growth-rate parameter of the logistic constellation curve
+- $\lambda^{\text{diffusion}}$, the growth rate of the licensee count
+- $\gamma^{\text{satellite}}$, the learning-curve exponent of satellite production
+- $p_k$, the marginal closure probability for sub-property $k$
+- $\phi_k$, the closure indicator for sub-property $k$
+- $\omega_r$, the weight of resource $r$
 
 ## References
 

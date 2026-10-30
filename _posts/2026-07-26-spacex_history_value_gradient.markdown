@@ -23,19 +23,31 @@ The mapping problem admits several formalizations depending on the level of anal
 
 The general form of the value-gradient causal-mapping problem can be stated compactly as follows. Let $V_i(t)$ denote the observed cumulative value realized by firm $i$ at time $t$ across the development trajectory, and let $T_i^{\text{mission}}$ denote the mission-completion time. The value-gradient condition requires
 
-$$\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T_i^{\text{mission}}]$$
+$$
+\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T_i^{\text{mission}}]
+\tag{1}
+$$
 
 which is equivalent under integration to the cumulative-value monotonicity
 
-$$V_i(t_2) - V_i(t_1) > 0 \quad \forall t_2 > t_1 \in [0, T_i^{\text{mission}}]$$
+$$
+V_i(t_2) - V_i(t_1) > 0 \quad \forall t_2 > t_1 \in [0, T_i^{\text{mission}}]
+\tag{2}
+$$
 
 with strict inequality at every sub-interval. The single-bet negation of the condition is characterized by
 
-$$V_i(t) \approx 0 \quad \text{for } t \in [0, T_i^{\text{mission}} - \varepsilon), \quad V_i(T_i^{\text{mission}}) = V^{\text{terminal}}$$
+$$
+V_i(t) \approx 0 \quad \text{for } t \in [0, T_i^{\text{mission}} - \varepsilon), \quad V_i(T_i^{\text{mission}}) = V^{\text{terminal}}
+\tag{3}
+$$
 
 with value realization concentrated at a small terminal interval $\varepsilon$ around the mission-completion time. The compound annual value-realization rate under the value-gradient trajectory is
 
-$$g_V = \left(\frac{V_i(T_i^{\text{mission}})}{V_i(t_0)}\right)^{1/(T_i^{\text{mission}} - t_0)} - 1$$
+$$
+g_V = \left(\frac{V_i(T_i^{\text{mission}})}{V_i(t_0)}\right)^{1/(T_i^{\text{mission}} - t_0)} - 1
+\tag{4}
+$$
 
 which is finite and well-defined only when $V_i(t_0) > 0$, requiring the value-gradient condition to hold from the founding moment forward.
 
@@ -67,83 +79,131 @@ The value-gradient property is treated in the article as an economic property of
 
 The formal characterization of the value-gradient property has several concise statements. Let the value-trajectory function $V_i(t)$ measure the cumulative value realized by firm $i$ at time $t$, integrated over all value sources including revenue capture, capability accumulation transferable to future rungs, reputational credential accumulation, and technical-demonstration effect on capital formation. The value-gradient condition requires the strict-monotonicity property
 
-$$\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T_i^{\text{mission}}]$$
+$$
+\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T_i^{\text{mission}}]
+\tag{5}
+$$
 
 and the further absolute-continuity property that ensures the value gains are captured continuously rather than at isolated jumps
 
-$$V_i(t) = V_i(0) + \int_0^t v_i(\tau) \, d\tau$$
+$$
+V_i(t) = V_i(0) + \int_0^t v_i(\tau) \, d\tau
+\tag{6}
+$$
 
 with $v_i(\tau) > 0$ almost everywhere on $[0, T_i^{\text{mission}}]$. The negation of the property is the singular-value trajectory
 
-$$V_i(t) = V^{\text{terminal}} \cdot \mathbb{1}[t \geq T_i^{\text{mission}}]$$
+$$
+V_i(t) = V^{\text{terminal}} \cdot \mathbb{1}[t \geq T_i^{\text{mission}}]
+\tag{7}
+$$
 
 with all value realization concentrated at the terminal time.
 
 The value-source decomposition permits characterization of the channels through which the value-gradient property is realized. Let $V_i^{\text{rev}}(t)$ denote the cumulative revenue realized by firm $i$, $V_i^{\text{cap}}(t)$ denote the cumulative capability value accumulated, $V_i^{\text{cred}}(t)$ denote the cumulative reputational credential value, and $V_i^{\text{demo}}(t)$ denote the cumulative technical-demonstration effect on subsequent capital formation. The aggregate value trajectory is
 
-$$V_i(t) = V_i^{\text{rev}}(t) + V_i^{\text{cap}}(t) + V_i^{\text{cred}}(t) + V_i^{\text{demo}}(t) + \varepsilon_i(t)$$
+$$
+V_i(t) = V_i^{\text{rev}}(t) + V_i^{\text{cap}}(t) + V_i^{\text{cred}}(t) + V_i^{\text{demo}}(t) + \varepsilon_i(t)
+\tag{8}
+$$
 
 with $\varepsilon_i(t)$ the unattributed residual. The value-gradient condition holds when each channel exhibits positive derivative across the trajectory, though the condition also allows characterization under weaker specifications where at least one channel exhibits positive derivative at each moment.
 
 The learning-curve contribution to the capability-value channel supports the Wright's Law formalization
 
-$$c_i(n) = c_i(1) \cdot n^{-\gamma_i}, \quad \gamma_i \in [0.10, 0.30]$$
+$$
+c_i(n) = c_i(1) \cdot n^{-\gamma_i}, \quad \gamma_i \in [0.10, 0.30]
+\tag{9}
+$$
 
 with $n$ the cumulative production count and $\gamma_i$ the firm-learning-curve exponent. The cumulative cost savings across the trajectory admits the integral
 
-$$\Delta C_i^{\text{cum}}(N) = \int_1^N [c_i(1) - c_i(n)] \, dn = c_i(1) \cdot \left[N - \frac{N^{1-\gamma_i}}{1 - \gamma_i}\right]$$
+$$
+\Delta C_i^{\text{cum}}(N) = \int_1^N [c_i(1) - c_i(n)] \, dn = c_i(1) \cdot \left[N - \frac{N^{1-\gamma_i}}{1 - \gamma_i}\right]
+\tag{10}
+$$
 
 with the savings growing without bound as $N \to \infty$ under $\gamma_i > 0$. The empirical estimation of $\gamma_i$ for the Falcon 9 program is documented across the manufacturing-cost trajectory in the industry-analyst literature and is treated in the-mechanic articles.
 
 The real-options contribution to the value-gradient property permits the backward-induction recursion
 
-$$V_t^{\text{option}} = \max\left\{V_t^{\text{exercise}}, \, e^{-r \Delta t} \cdot E\!\left[V_{t+1}^{\text{option}} \mid F_t\right]\right\}$$
+$$
+V_t^{\text{option}} = \max\left\{V_t^{\text{exercise}}, \, e^{-r \Delta t} \cdot E\!\left[V_{t+1}^{\text{option}} \mid F_t\right]\right\}
+\tag{11}
+$$
 
 with $V_t^{\text{exercise}}$ the value from exercising the option at time $t$ and $E[V_{t+1}^{\text{option}} \mid F_t]$ the expected continuation value under the information filtration $F_t$. The aggregate real-options value across the trajectory is
 
-$$V^{\text{options-total}} = \sum_{t=0}^{T} e^{-rt} \cdot V_t^{\text{option}}$$
+$$
+V^{\text{options-total}} = \sum_{t=0}^{T} e^{-rt} \cdot V_t^{\text{option}}
+\tag{12}
+$$
 
 with the SpaceX case admitting the interpretation that each stage of the technical trajectory constitutes a real option whose exercise price is the marginal capital investment required and whose payoff is the accumulated subsequent-stage value.
 
 The reliability-through-iteration contribution allows characterization through the Bayesian posterior on the underlying reliability parameter given the observed test-flight and operational-flight record. Let $R$ denote the true underlying reliability, and let $s$ successes out of $n$ total flights be observed. The Bayesian posterior under a Beta prior $\text{Beta}(\alpha_0, \beta_0)$ is
 
-$$R \mid \{n, s\} \sim \text{Beta}(\alpha_0 + s, \beta_0 + n - s)$$
+$$
+R \mid \{n, s\} \sim \text{Beta}(\alpha_0 + s, \beta_0 + n - s)
+\tag{13}
+$$
 
 with the posterior mean $E[R] = (\alpha_0 + s) / (\alpha_0 + \beta_0 + n)$ converging to the frequentist estimate as $n$ grows. The value-gradient property is realized through the reliability channel when successive flights produce posterior updating that reduces the uncertainty on $R$ and permits the firm to compete for successively higher-value mission awards.
 
 The reusability contribution to the value-gradient property supports the amortization identity
 
-$$c_{\text{stage}}^{\text{per-flight}}(k) = \frac{c_{\text{stage-hardware}}}{k} + c_{\text{refurb}} + c_{\text{recovery-operations}}$$
+$$
+c_{\text{stage}}^{\text{per-flight}}(k) = \frac{c_{\text{stage-hardware}}}{k} + c_{\text{refurb}} + c_{\text{recovery-operations}}
+\tag{14}
+$$
 
 with $k$ the flights per booster before retirement, $c_{\text{stage-hardware}}$ the one-time manufacturing cost, $c_{\text{refurb}}$ the between-flight refurbishment cost, and $c_{\text{recovery-operations}}$ the per-flight recovery cost. The break-even flight count relative to a comparable expendable configuration satisfies
 
-$$k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}$$
+$$
+k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}
+\tag{15}
+$$
 
 and the marginal value from an additional flight beyond the break-even count is the difference between the expendable cost and the marginal reusability cost. The value-gradient property is realized through the reusability channel when successive per-booster flight counts drive continuous reduction in the per-flight cost.
 
 The variance decomposition of the observed value trajectory admits the additive form
 
-$$\text{Var}(V_i) = \text{Var}(V_i^{\text{rev}}) + \text{Var}(V_i^{\text{cap}}) + \text{Var}(V_i^{\text{cred}}) + \text{Var}(V_i^{\text{demo}}) + 2 \sum_{j < k} \text{Cov}(V_i^j, V_i^k)$$
+$$
+\text{Var}(V_i) = \text{Var}(V_i^{\text{rev}}) + \text{Var}(V_i^{\text{cap}}) + \text{Var}(V_i^{\text{cred}}) + \text{Var}(V_i^{\text{demo}}) + 2 \sum_{j < k} \text{Cov}(V_i^j, V_i^k)
+\tag{16}
+$$
 
 with the covariance terms typically positive under the value-gradient trajectory reflecting the joint determination of value across channels by the underlying trajectory progression.
 
 The discount-rate application to the value trajectory yields the present-value trajectory
 
-$$PV_i(t) = \int_0^t v_i(\tau) \cdot e^{-r \tau} \, d\tau$$
+$$
+PV_i(t) = \int_0^t v_i(\tau) \cdot e^{-r \tau} \, d\tau
+\tag{17}
+$$
 
 with $r$ the applicable discount rate. The comparison between the value-gradient trajectory and the single-bet trajectory under discounting is captured by the differential
 
-$$\Delta PV = PV_i^{\text{gradient}}(T) - PV_i^{\text{single-bet}}(T) = \int_0^T v_i^{\text{gradient}}(\tau) \cdot e^{-r \tau} \, d\tau - V^{\text{terminal}} \cdot e^{-r T}$$
+$$
+\Delta PV = PV_i^{\text{gradient}}(T) - PV_i^{\text{single-bet}}(T) = \int_0^T v_i^{\text{gradient}}(\tau) \cdot e^{-r \tau} \, d\tau - V^{\text{terminal}} \cdot e^{-r T}
+\tag{18}
+$$
 
 which is generically positive under $r > 0$ since the intermediate value increments are discounted at lower rates than the terminal value. The comparative advantage of the value-gradient trajectory over the single-bet trajectory grows with the discount rate.
 
 The reliability-through-iteration Bayesian posterior permits the update rule under successive flight outcomes
 
-$$P(R \mid s_{t+1}, n_{t+1}) = \frac{P(s_{t+1} \mid R) \cdot P(R \mid s_t, n_t)}{\int P(s_{t+1} \mid R') \cdot P(R' \mid s_t, n_t) \, dR'}$$
+$$
+P(R \mid s_{t+1}, n_{t+1}) = \frac{P(s_{t+1} \mid R) \cdot P(R \mid s_t, n_t)}{\int P(s_{t+1} \mid R') \cdot P(R' \mid s_t, n_t) \, dR'}
+\tag{19}
+$$
 
 with the posterior distribution tightening as successive flight outcomes accumulate. The expected time to achieve a target reliability threshold $R^{\text{target}}$ satisfies
 
-$$E[T^{\text{cert}}] = \frac{n^{\text{required}}}{f^{\text{cadence}}}$$
+$$
+E[T^{\text{cert}}] = \frac{n^{\text{required}}}{f^{\text{cadence}}}
+\tag{20}
+$$
 
 with $n^{\text{required}}$ the required flight count and $f^{\text{cadence}}$ the achievable flight cadence. The value-gradient trajectory realizes reliability demonstration at higher flight cadence than the single-bet trajectory can achieve.
 
@@ -153,13 +213,19 @@ The value-gradient property draws characterization from several disciplinary tra
 
 The learning-curve tradition traces from [Wright 1936][research_wright_1936] Factors Affecting the Cost of Airplanes through [Arrow 1962][research_arrow_1962] The Economic Implications of Learning by Doing, [Alchian 1963][research_alchian_1963], [Rapping 1965][research_rapping_1965], and [Argote and Epple 1990][research_argote_epple_1990] Learning Curves in Manufacturing. The framing treats the value-gradient property as an emergent consequence of the cumulative-production dependence of unit cost. The Wright's Law formalization takes the log-linear form
 
-$$\log c(n) = \log c(1) - \gamma \cdot \log n, \quad \text{equivalently} \quad c(n) = c(1) \cdot n^{-\gamma}$$
+$$
+\log c(n) = \log c(1) - \gamma \cdot \log n, \quad \text{equivalently} \quad c(n) = c(1) \cdot n^{-\gamma}
+\tag{21}
+$$
 
 with $\gamma$ typically empirically estimated at approximately 0.10 to 0.30 across manufacturing sectors, corresponding to progress ratios of approximately 80 to 90 percent per production doubling. The empirical estimation of learning-curve exponents across manufacturing sectors and the application to launch-vehicle manufacturing are treated in the [Anderson 2023][book_anderson_2023] The Space Economy consolidation of the sector-level literature. The framing captures the quantitative mechanism by which repeated production drives cost reduction but understates the discrete-milestone value increments that the SpaceX trajectory realized through the Falcon 1 flight 4 orbital success, the Falcon 9 first flight, the Dragon spacecraft first berth with the International Space Station, and the first successful land landing.
 
 The real-options tradition traces from [Dixit and Pindyck 1994][book_dixit_pindyck_1994] Investment Under Uncertainty through [Trigeorgis 1996][book_trigeorgis_1996] Real Options, [McDonald and Siegel 1986][research_mcdonald_siegel_1986] The Value of Waiting to Invest, [Kogut and Kulatilaka 1994][research_kogut_kulatilaka_1994] Operating Flexibility Global Manufacturing and the Option Value of a Multinational Network, [Adner and Levinthal 2004][research_adner_levinthal_2004] What Is Not a Real Option Strategic Flexibility Firm Organization and Managerial Work. The framing treats each rung of the value-gradient trajectory as a sequential real option and captures the value of the optionality that the rung structure creates. The sequential-option value across the rung sequence allows the compound-option valuation
 
-$$V^{\text{compound}} = \max\!\Big\{0, \, E^Q\!\big[e^{-r T_1} \max\{0, V^{\text{rung 2}} - K_1\} \mid F_0\big] - K_0\Big\}$$
+$$
+V^{\text{compound}} = \max\!\Big\{0, \, E^Q\!\big[e^{-r T_1} \max\{0, V^{\text{rung 2}} - K_1\} \mid F_0\big] - K_0\Big\}
+\tag{22}
+$$
 
 with $K_0, K_1$ the sequential exercise costs at each rung, $V^{\text{rung 2}}$ the payoff at completion of the second rung, and $E^Q$ the risk-neutral expectation. The framing supports application to the SpaceX case through the interpretation of the Falcon 1 program as an option to enter the Falcon 9 program, the Falcon 9 v1.0 as an option to develop reusability, the Grasshopper testbed as an option to attempt orbital-class landings, and the Block 5 introduction as an option to achieve routine refly cadence.
 
@@ -171,19 +237,28 @@ The aerospace-engineering-methodology tradition traces from the Skunk Works orga
 
 The prospect-theory tradition traces from [Kahneman and Tversky 1979][research_kahneman_tversky_1979] Prospect Theory An Analysis of Decision Under Risk through [Tversky and Kahneman 1992][research_tversky_kahneman_1992] Advances in Prospect Theory and [Kahneman 2011][book_kahneman_2011] Thinking Fast and Slow. The framing treats the value-gradient property through the reference-point-dependence of decision-maker valuations that favors trajectories with continuous small gains over trajectories with distant large gains, and through the loss-aversion asymmetry that penalizes single-bet configurations whose failure produces total loss. The value function under prospect theory takes the piecewise-power form
 
-$$v(x) = \begin{cases} x^{\alpha} & x \geq 0 \\ -\lambda (-x)^{\beta} & x < 0 \end{cases}$$
+$$
+v(x) = \begin{cases} x^{\alpha} & x \geq 0 \\ -\lambda (-x)^{\beta} & x < 0 \end{cases}
+\tag{23}
+$$
 
 with $\alpha, \beta$ typically empirically estimated at approximately 0.88 and $\lambda$ typically approximately 2.25 representing the loss-aversion coefficient. The framing applies to the capital-formation composition that supports the SpaceX trajectory through the interpretation of investor preferences under the incremental-value-realization pattern the value-gradient trajectory produces.
 
 The escalation-of-commitment tradition traces from [Staw 1976][research_staw_1976] Knee-Deep in the Big Muddy An Escalating Commitment to a Chosen Course of Action through [Ross and Staw 1993][research_ross_staw_1993] Organizational Escalation and Exit Lessons from the Shoreham Nuclear Power Plant and the subsequent behavioral-organizational literature. The framing treats the value-gradient property through the mechanism by which continuous incremental value realization sustains stakeholder commitment across the multi-year development horizon, and through the negation mechanism by which single-bet configurations without intermediate value realization become vulnerable to escalation-driven organizational-persistence failures. The escalation-persistence expected cost may be written
 
-$$C^{\text{escalation}} = \sum_{t=t_0}^{T^{\text{abandon}}} c^{\text{sunk}}(t) - S^{\text{salvage}}$$
+$$
+C^{\text{escalation}} = \sum_{t=t_0}^{T^{\text{abandon}}} c^{\text{sunk}}(t) - S^{\text{salvage}}
+\tag{24}
+$$
 
 with $c^{\text{sunk}}(t)$ the marginal sunk cost at time $t$ and $S^{\text{salvage}}$ the eventual salvage recovery. The framing can be applied to the counterfactual analysis of the Iridium single-bet configuration and to the empirical variation across launch-sector entrant firms.
 
 The path-dependence and increasing-returns tradition traces from [Arthur 1989][research_arthur_1989] Competing Technologies Increasing Returns and Lock-In by Historical Events through [David 1985][research_david_1985] Clio and the Economics of QWERTY and [Katz and Shapiro 1985][research_katz_shapiro_1985] Network Externalities Competition and Compatibility. The framing treats the value-gradient property through the increasing-returns mechanism by which early rung achievements produce compounding advantages at subsequent rungs, and through the lock-in mechanism by which early technical choices constrain the subsequent trajectory. The Polya-urn lock-in probability under increasing returns supports the asymptotic characterization
 
-$$\lim_{t \to \infty} P(\text{technology } i \text{ dominant}) = \pi_i, \quad \sum_i \pi_i = 1$$
+$$
+\lim_{t \to \infty} P(\text{technology } i \text{ dominant}) = \pi_i, \quad \sum_i \pi_i = 1
+\tag{25}
+$$
 
 with the limiting distribution $\{\pi_i\}$ determined by the early-adoption trajectory rather than by the terminal-technology fitness alone. The framing captures the role of the Merlin engine early architectural choices in shaping the subsequent Falcon 9 and Falcon Heavy trajectories, and the role of the reusability early architectural choices in shaping the contemporary launch cadence.
 
@@ -193,7 +268,10 @@ The science-and-technology-studies framing traces from [Kuhn 1962][book_kuhn_196
 
 The developmental-state framing traces from [Johnson 1982][book_johnson_1982] MITI and the Japanese Miracle through [Amsden 1989][book_amsden_1989] Asia's Next Giant, [Wade 1990][book_wade_1990] Governing the Market, [Evans 1995][book_evans_1995] Embedded Autonomy, and [Chang 2002][book_chang_2002] Kicking Away the Ladder. The framing treats the value-gradient property through the state-firm coordination that enables the intermediate value-realization at each rung, and identifies the NASA COTS program as an instance of the state-directed capability-development pattern the developmental-state tradition documents. The state-firm-coordination coefficient admits the compact index form
 
-$$\text{SFC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{reg}} \cdot \phi^{\text{reg-alignment}}_i + w^{\text{coord}} \cdot I^{\text{formal-coord}}_i$$
+$$
+\text{SFC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{reg}} \cdot \phi^{\text{reg-alignment}}_i + w^{\text{coord}} \cdot I^{\text{formal-coord}}_i
+\tag{26}
+$$
 
 with the three weighted components indexing government-revenue share, regulatory-alignment intensity, and formal-coordination institution presence. The framing captures the substantive resemblance between the United States space-launch state-firm coordination and the East Asian developmental-state coordination in other high-technology sectors, while distinguishing the United States configuration's greater reliance on venture capital financing and iterative-development process discipline. The [Woo-Cumings 1999][book_woo_cumings_1999] The Developmental State edited volume consolidates the tradition.
 
@@ -203,13 +281,19 @@ The financial-sociology framing traces from [Fligstein 2001][book_fligstein_2001
 
 The absorptive-capacity framing traces from [Cohen and Levinthal 1990][research_cohen_levinthal_1990] Absorptive Capacity A New Perspective on Learning and Innovation through the subsequent extension in [Zahra and George 2002][research_zahra_george_2002] Absorptive Capacity A Review Reconceptualization and Extension, [Lane et al. 2006][research_lane_koka_pathak_2006] The Reification of Absorptive Capacity A Critical Review, and [Todorova and Durisin 2007][research_todorova_durisin_2007] Absorptive Capacity Valuing a Reconceptualization. The framing treats the value-gradient property through the firm-level capacity to identify, assimilate, and exploit external knowledge, and captures the role of the SpaceX engineering team's absorptive capacity in converting the accumulated aerospace-engineering knowledge base into the vehicle configurations across the trajectory. The absorptive-capacity intensity admits the compact operationalization
 
-$$AC_i = f\!\left(R\&D_i, H_i^{\text{human-capital}}, T_i^{\text{network-ties}}\right)$$
+$$
+AC_i = f\!\left(R\&D_i, H_i^{\text{human-capital}}, T_i^{\text{network-ties}}\right)
+\tag{27}
+$$
 
 with the three inputs indexing internal research-and-development intensity, human-capital stock, and external-network-tie density. The framing complements the organizational-learning framing by treating the external-knowledge-absorption channel as distinct from the internal-learning channel.
 
 The ecosystem-strategy framing traces from [Adner 2012][book_adner_2012] The Wide Lens through [Adner 2016][research_adner_2017] Ecosystem as Structure An Actionable Construct for Strategy, [Iansiti and Levien 2004][book_iansiti_levien_2004] The Keystone Advantage, and [Jacobides et al. 2018][research_jacobides_et_al_2018] Towards a Theory of Ecosystems. The framing treats the value-gradient property through the coordination among the launch-service, satellite-manufacturing, ground-infrastructure, and customer-application segments that jointly determine the value-realization at each rung of the trajectory. The framing captures the role of the Falcon 9 launch capability in unlocking the Starlink satellite-constellation deployment and captures the role of the Dragon spacecraft capability in unlocking the ISS-crew-transportation service. The ecosystem-value-appropriation identity has the concise form
 
-$$V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)$$
+$$
+V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)
+\tag{28}
+$$
 
 with $\phi^{\text{appropriation}}\_i$ the fraction of the ecosystem value the firm captures. The framing complements the resource-based-view framing by treating the ecosystem-level coordination as jointly determining the value-realization with the firm-level capability.
 
@@ -233,7 +317,10 @@ The second Falcon 1 launch attempt occurred on March 21 2007 at Omelek Island. T
 
 The third Falcon 1 launch attempt occurred on August 3 2008 at Omelek Island. The vehicle experienced a stage-separation collision between the first stage and the second stage caused by a residual first-stage engine thrust at separation. The post-flight investigation identified the engine-tail-off transient to the Merlin 1C regenerative-cooling configuration that had replaced the earlier Merlin 1A ablative-cooling arrangement, and identified the corrective actions to lengthen the separation delay. The third failure exhausted the firm's development budget and produced the near-death moment that the [Anchor Demand article A283][related_post_a281_spacex_framing] treats at greater depth. The firm had at that point approximately 4 to 6 million dollars in remaining cash and no assured capital pipeline. The founder personally contributed additional capital and negotiated an emergency financing round that permitted the fourth attempt to proceed within weeks. The cash-runway condition at the near-death moment satisfied
 
-$$\text{runway} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{\text{monthly burn}} \ll T^{\text{until-fourth-attempt}}$$
+$$
+\text{runway} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{\text{monthly burn}} \ll T^{\text{until-fourth-attempt}}
+\tag{29}
+$$
 
 which required the emergency financing round to permit the fourth attempt.
 
@@ -245,19 +332,28 @@ The Falcon 1 program subsequently transitioned to the Falcon 1e configuration un
 
 The Falcon 1 program per-attempt cost trajectory supports the estimation
 
-$$C_n^{\text{attempt}} = C^{\text{fixed}}_{\text{campaign}} / n^{\text{attempts}} + C^{\text{variable}}_{\text{per-attempt}}$$
+$$
+C_n^{\text{attempt}} = C^{\text{fixed}}_{\text{campaign}} / n^{\text{attempts}} + C^{\text{variable}}_{\text{per-attempt}}
+\tag{30}
+$$
 
 with $C^{\text{fixed}}\_{\text{campaign}}$ approximately 100 million dollars of accumulated development cost across the four failed attempts and the fifth successful attempt, and $C^{\text{variable}}\_{\text{per-attempt}}$ approximately 6 to 8 million dollars per attempt. The empirical cumulative-cost trajectory across the five attempts totaled approximately 130 to 150 million dollars including the vehicle manufacturing, the Kwajalein infrastructure amortization, and the operational personnel cost.
 
 The cumulative capital burn across the Falcon 1 program admits the integral characterization
 
-$$K^{\text{cum}}(T) = K^{\text{founder}} + \sum_{r=1}^{R^{\text{rounds}}} I_r + \int_0^T c^{\text{burn}}(\tau) \, d\tau$$
+$$
+K^{\text{cum}}(T) = K^{\text{founder}} + \sum_{r=1}^{R^{\text{rounds}}} I_r + \int_0^T c^{\text{burn}}(\tau) \, d\tau
+\tag{31}
+$$
 
 with $K^{\text{founder}}$ approximately 100 million dollars of founder portable capital contributed, $I_r$ the round-$r$ external investment injections that supplemented the founder capital, and $c^{\text{burn}}(\tau)$ the operational burn rate that consumed the accumulated capital. The 2008 near-death moment corresponds to the point at which the accumulated capital plus committed rounds approached exhaustion before the fourth-attempt success unlocked the CRS-1 anchor demand.
 
 The marginal reliability update from each Falcon 1 attempt permits the Beta-posterior update
 
-$$R \mid \{n_i, s_i\} \sim \text{Beta}(\alpha_0 + s_i, \beta_0 + n_i - s_i)$$
+$$
+R \mid \{n_i, s_i\} \sim \text{Beta}(\alpha_0 + s_i, \beta_0 + n_i - s_i)
+\tag{32}
+$$
 
 with the fourth attempt success producing the posterior mean $E[R \mid n=4, s=1] = 2/6 = 0.33$ under uniform prior $\text{Beta}(1, 1)$, and the fifth attempt success producing $E[R \mid n=5, s=2] = 3/7 \approx 0.43$. The posterior evolution across the Falcon 1 attempts illustrates the reliability-demonstration channel through which the value-gradient property was realized.
 
@@ -287,31 +383,46 @@ The Falcon 9 v1.1 first commercial success occurred on December 3 2013 with the 
 
 The COTS milestone-payment structure of the SpaceX Space Act Agreement takes the form
 
-$$PV^{\text{COTS}}_i = \sum_{k=1}^{K^{\text{milestones}}} \frac{P_k^{\text{milestone}}}{(1 + r)^{t_k}}$$
+$$
+PV^{\text{COTS}}_i = \sum_{k=1}^{K^{\text{milestones}}} \frac{P_k^{\text{milestone}}}{(1 + r)^{t_k}}
+\tag{33}
+$$
 
 with $P_k^{\text{milestone}}$ the payment at milestone $k$ and $t_k$ the achievement time. The SpaceX COTS Round 1 agreement structured the 278 million dollar commitment across approximately twenty milestones ranging from initial design-review milestones through the Dragon C1 flight and the Dragon C2/C3 flight, providing the milestone-by-milestone value-realization channel that the value-gradient property required.
 
 The nine-engine first-stage engine-out reliability capability allows the reliability calculation
 
-$$R^{\text{cluster}} = \sum_{k=8}^{9} \binom{9}{k} R_{\text{engine}}^k (1 - R_{\text{engine}})^{9-k}$$
+$$
+R^{\text{cluster}} = \sum_{k=8}^{9} \binom{9}{k} R_{\text{engine}}^k (1 - R_{\text{engine}})^{9-k}
+\tag{34}
+$$
 
 with $R_{\text{engine}}$ the individual-engine reliability. Under $R_{\text{engine}} = 0.99$, the cluster reliability accepting one engine-out is approximately 0.9962, exceeding the individual-engine reliability. The nine-engine configuration exploited the engine-out capability to increase system reliability beyond the individual-engine baseline, illustrating the redundancy-based-value-realization channel that the Falcon 9 architectural choice enabled.
 
 The learning-curve realization for the Merlin engine production across the Falcon 9 vehicle-block progression supports the log-linear estimation
 
-$$\log c_{\text{Merlin}}(n) = \log c_{\text{Merlin}}(1) - \gamma_{\text{Merlin}} \cdot \log n$$
+$$
+\log c_{\text{Merlin}}(n) = \log c_{\text{Merlin}}(1) - \gamma_{\text{Merlin}} \cdot \log n
+\tag{35}
+$$
 
 with $\gamma_{\text{Merlin}}$ empirically estimated in the industry-analyst literature at approximately 0.15 to 0.20 across the observed production trajectory. The cumulative-production cost reduction is documented in the trade-press coverage though the SpaceX proprietary cost data is not publicly available.
 
 The Falcon 9 delta-v capacity for geostationary-transfer-orbit missions admits the rocket-equation derivation
 
-$$\Delta v = I_{sp} \cdot g_0 \cdot \ln\left(\frac{m_{\text{initial}}}{m_{\text{final}}}\right)$$
+$$
+\Delta v = I_{sp} \cdot g_0 \cdot \ln\left(\frac{m_{\text{initial}}}{m_{\text{final}}}\right)
+\tag{36}
+$$
 
 with $I_{sp}$ the specific impulse, $g_0$ the standard gravity, and the mass ratio determined by the vehicle-block-propellant capacity and payload configuration. The Falcon 9 Full Thrust configuration delivers approximately 8300 kilograms to geostationary transfer orbit in expendable mode and approximately 5500 kilograms in reusable mode, and the delta-v capacity constraint determines the mission-profile envelope the vehicle supports.
 
 The Merlin engine thrust-to-weight ratio evolution across the engine progression admits the compact tabulation. The Merlin 1A produced approximately 340 kilonewtons of sea-level thrust at approximately 800 kilograms engine mass for a thrust-to-weight ratio of approximately 43. The Merlin 1C reached approximately 556 kilonewtons at 630 kilograms for a ratio of approximately 90. The Merlin 1D reached approximately 654 kilonewtons at approximately 470 kilograms for a ratio of approximately 142, and subsequent uprated Merlin 1D+ variants exceeded 850 kilonewtons at approximately 470 kilograms for a ratio of approximately 184. The thrust-to-weight ratio evolution permits the concise expression
 
-$$\frac{T_n^{\text{engine}}}{m_n^{\text{engine}}} = \frac{T_0^{\text{engine}}}{m_0^{\text{engine}}} \cdot (1 + g_T)^n$$
+$$
+\frac{T_n^{\text{engine}}}{m_n^{\text{engine}}} = \frac{T_0^{\text{engine}}}{m_0^{\text{engine}}} \cdot (1 + g_T)^n
+\tag{37}
+$$
 
 with $g_T$ the compound thrust-to-weight-ratio growth per engine generation, empirically approximately 0.45 per generation across the observed progression.
 
@@ -343,51 +454,78 @@ The second-stage recovery has not been achieved on Falcon 9 as of the drafting d
 
 The Grasshopper altitude progression permits the exponential-growth characterization
 
-$$h_n = h_0 \cdot e^{\lambda n}$$
+$$
+h_n = h_0 \cdot e^{\lambda n}
+\tag{38}
+$$
 
 with $h_n$ the altitude at flight $n$, $h_0$ approximately 1.8 meters at the first flight, and $\lambda$ approximately 1.0 across the eight-flight campaign that reached 744 meters at the final flight. The exponential-growth trajectory illustrates the test-fly-learn cadence acceleration that the value-gradient trajectory can achieve under the iterative-development process discipline.
 
 The first-stage descent kinematics for the propulsive-landing recovery admit the three-burn sequence characterization. The boost-back burn imparts velocity change
 
-$$\Delta v_{\text{boostback}} = 2 v_{\text{stage-sep}} \cdot \cos(\theta_{\text{stage-sep}})$$
+$$
+\Delta v_{\text{boostback}} = 2 v_{\text{stage-sep}} \cdot \cos(\theta_{\text{stage-sep}})
+\tag{39}
+$$
 
 with $v_{\text{stage-sep}}$ the stage-separation velocity and $\theta_{\text{stage-sep}}$ the stage-separation flight-path angle. The entry burn reduces the entry velocity to
 
-$$v_{\text{entry}} = v_{\text{peak}} - \Delta v_{\text{entry-burn}}$$
+$$
+v_{\text{entry}} = v_{\text{peak}} - \Delta v_{\text{entry-burn}}
+\tag{40}
+$$
 
 with $v_{\text{peak}}$ the ballistic-descent peak velocity. The landing burn achieves zero velocity at touchdown through the specific thrust modulation
 
-$$v_{\text{touchdown}} = v_{\text{terminal}} - T \cdot \Delta t_{\text{burn}}/m$$
+$$
+v_{\text{touchdown}} = v_{\text{terminal}} - T \cdot \Delta t_{\text{burn}}/m
+\tag{41}
+$$
 
 with $T$ the landing-burn thrust, $\Delta t_{\text{burn}}$ the burn duration, and $m$ the vehicle mass. The three-burn sequence coordination requires precise timing and propellant-margin management.
 
 The per-flight cost trajectory across the reusability progression allows the sequential-flight cost estimation
 
-$$c^{\text{per-flight}}(k) = c^{\text{expendable}} \cdot \left[\frac{1}{k} \cdot \phi + (1 - \phi)\right]$$
+$$
+c^{\text{per-flight}}(k) = c^{\text{expendable}} \cdot \left[\frac{1}{k} \cdot \phi + (1 - \phi)\right]
+\tag{42}
+$$
 
 with $\phi$ the recoverable-hardware fraction of the expendable cost. Under $\phi = 0.7$ representing approximately 70 percent of the expendable cost in the recoverable first stage, and under $k$ ranging from 1 for the first flight to 15 for the record-holding boosters, the per-flight cost falls from the expendable baseline to approximately 35 percent of that baseline at the maximum flight count observed.
 
 The Falcon 9 booster life distribution across the operational fleet supports the empirical distribution
 
-$$P(K = k) = \frac{n_k}{N_{\text{total}}}$$
+$$
+P(K = k) = \frac{n_k}{N_{\text{total}}}
+\tag{43}
+$$
 
 with $n_k$ the number of boosters that have flown exactly $k$ times and $N_{\text{total}}$ the total booster count in the operational history. The distribution as of the drafting date is right-skewed with a mode at the middle single-digit flight counts and a long tail extending to the low double digits for the record-holding boosters.
 
 The refly cadence dynamics admit the mean-time-between-flights characterization
 
-$$MTBF^{\text{refly}} = \frac{T^{\text{observation}}}{\sum_k n_k \cdot (k - 1)}$$
+$$
+MTBF^{\text{refly}} = \frac{T^{\text{observation}}}{\sum_k n_k \cdot (k - 1)}
+\tag{44}
+$$
 
 with the denominator counting the total refly events across the operational fleet. The MTBF has declined from approximately 6 months at the initial reflight cadence in 2017 to approximately 3 to 4 weeks at the contemporary cadence, illustrating the cadence-improvement channel through which the value-gradient property is realized.
 
 The recovery-envelope constraint for the first-stage propulsive-landing recovery admits the payload-versus-delta-v characterization
 
-$$m^{\text{payload}}_{\text{recoverable}} = m^{\text{payload}}_{\text{expendable}} - \frac{\Delta v^{\text{recovery}}}{I_{sp} \cdot g_0} \cdot m^{\text{initial}}$$
+$$
+m^{\text{payload}}_{\text{recoverable}} = m^{\text{payload}}_{\text{expendable}} - \frac{\Delta v^{\text{recovery}}}{I_{sp} \cdot g_0} \cdot m^{\text{initial}}
+\tag{45}
+$$
 
 with $\Delta v^{\text{recovery}}$ the recovery-burn-sequence delta-v cost that reduces the payload capacity, typically approximately 1500 to 2000 meters per second for return-to-launch-site recovery and approximately 800 to 1200 meters per second for drone-ship recovery. The recovery-envelope constraint determines the mission-profile allocation between recoverable and expendable configurations across the operational fleet.
 
 The Block 5 design-target reflight-count trajectory permits the reliability-limited cap
 
-$$k^{\text{Block 5 target}} \leq \min\{k^{\text{design}}, k^{\text{reliability}}(\hat{R})\}$$
+$$
+k^{\text{Block 5 target}} \leq \min\{k^{\text{design}}, k^{\text{reliability}}(\hat{R})\}
+\tag{46}
+$$
 
 with $k^{\text{design}}$ the design-target ten reflights without major refurbishment and $k^{\text{reliability}}(\hat{R})$ the reliability-limited flight count determined by the observed booster-life reliability distribution. The empirical Block 5 booster life has reached the low double digits at the record-holding boosters, exceeding the initial ten-reflight design target and illustrating the reliability-margin conservatism of the design-target specification.
 
@@ -401,7 +539,10 @@ The Iridium consortium was formed in 1991 with Motorola as majority shareholder 
 
 The constellation-completion condition for the Iridium architecture required substantially all 66 satellites to be deployed and operational before commercial service could commence, admitting the compact form
 
-$$V^{\text{Iridium}}(t) = 0 \quad \text{if} \quad N_{\text{operational}}(t) < N^{\text{threshold}}$$
+$$
+V^{\text{Iridium}}(t) = 0 \quad \text{if} \quad N_{\text{operational}}(t) < N^{\text{threshold}}
+\tag{47}
+$$
 
 with $N^{\text{threshold}}$ approximately 60 satellites required for global-coverage service. The value-realization condition admitted no partial-completion service configuration, illustrating the single-bet architectural vulnerability.
 
@@ -411,11 +552,17 @@ The Iridium subscriber acquisition fell substantially below the projected trajec
 
 The subscriber-acquisition shortfall yields the compact characterization
 
-$$\text{shortfall ratio} = \frac{N^{\text{actual}}(t) - N^{\text{forecast}}(t)}{N^{\text{forecast}}(t)} = \frac{55000 - 500000}{500000} = -0.89$$
+$$
+\text{shortfall ratio} = \frac{N^{\text{actual}}(t) - N^{\text{forecast}}(t)}{N^{\text{forecast}}(t)} = \frac{55000 - 500000}{500000} = -0.89
+\tag{48}
+$$
 
 with the negative 89 percent shortfall producing the debt-service failure. The revenue-to-debt-service ratio can be written as
 
-$$RDS = \frac{R^{\text{operating}}(t)}{D^{\text{service}}(t)} = \frac{N^{\text{actual}} \cdot ARPU^{\text{monthly}} \cdot 12}{r \cdot D^{\text{principal}}}$$
+$$
+RDS = \frac{R^{\text{operating}}(t)}{D^{\text{service}}(t)} = \frac{N^{\text{actual}} \cdot ARPU^{\text{monthly}} \cdot 12}{r \cdot D^{\text{principal}}}
+\tag{49}
+$$
 
 with $ARPU^{\text{monthly}}$ the average revenue per user per month. Under $ARPU^{\text{monthly}} = 300$ dollars, $D^{\text{principal}} = 3.4$ billion dollars, and $r = 0.10$ representing the effective debt-service rate, the actual RDS at Iridium's Chapter 11 filing was approximately $198 / 340 = 0.58$, substantially below the sustainability threshold of unity.
 
@@ -423,13 +570,19 @@ The Iridium bankruptcy proceeded through the Chapter 11 restructuring under Judg
 
 The Iridium salvage-to-investment recovery ratio has the form
 
-$$\rho^{\text{salvage}} = \frac{S^{\text{sale}}}{K^{\text{invested}}} = \frac{25 \text{ M dollars}}{5000 \text{ M dollars}} = 0.005$$
+$$
+\rho^{\text{salvage}} = \frac{S^{\text{sale}}}{K^{\text{invested}}} = \frac{25 \text{ M dollars}}{5000 \text{ M dollars}} = 0.005
+\tag{50}
+$$
 
 with the two-hundredfold write-down illustrating the extreme asset-specificity penalty that the single-bet configuration produced. The comparison with the SpaceX trajectory supports the observation that no single failure event in the SpaceX Falcon 1 through Falcon 9 through reusability progression produced comparable asset-specificity penalty, since the value-gradient trajectory preserved the substantial fraction of the accumulated capability across each failure event.
 
 The Iridium bankruptcy timeline allows the brief characterization from commercial service commencement at $t_0$ = November 1 1998 through Chapter 11 filing at $t_1$ = August 13 1999 through asset sale at $t_2$ = December 2000
 
-$$T^{\text{failure}} = t_1 - t_0 \approx 9.5 \text{ months}$$
+$$
+T^{\text{failure}} = t_1 - t_0 \approx 9.5 \text{ months}
+\tag{51}
+$$
 
 with the 9.5-month time between commercial-service commencement and bankruptcy filing illustrating the speed at which the market-response failure was realized under the single-bet configuration. The comparison with the SpaceX trajectory admits the observation that the fly-learn-modify cycle across the Falcon 1 flights spanned approximately 2.5 years between the first and fourth flights, and that intermediate-flight information supported successive engineering revisions rather than concentrating all information at a distant terminal moment.
 
@@ -445,7 +598,10 @@ The value-gradient mechanic invites comparison with several deep historical prec
 
 The Wright Brothers aeronautical development from approximately 1899 through the December 17 1903 first powered flight illustrates the canonical value-gradient pattern in aeronautical technology development. The Wrights conducted a progressive experimental campaign from initial 1899 kite experiments through 1900 glider tests at Kitty Hawk, 1901 glider tests with revised airfoils and control surfaces, 1902 glider tests that established the three-axis control system, and finally the 1903 Flyer powered flight. The cumulative-flight record across the Wrights' campaigns takes the compact tabulation
 
-$$N^{\text{Wrights}}_{\text{cumulative}} = N_{1899} + N_{1900} + N_{1901} + N_{1902} + N_{1903} \approx 4 + 12 + 100 + 700 + 4$$
+$$
+N^{\text{Wrights}}_{\text{cumulative}} = N_{1899} + N_{1900} + N_{1901} + N_{1902} + N_{1903} \approx 4 + 12 + 100 + 700 + 4
+\tag{52}
+$$
 
 with the cumulative approximately 820 glider and powered flights across the four-year campaign, illustrating the high-cadence iterative-development pattern that supported the incremental capability accumulation. The parallel Langley aerodrome program funded by the Smithsonian and the United States War Department at approximately 50000 dollars pursued a substantially more monolithic development pattern that culminated in two catastrophic launch failures in October and December 1903, illustrating the single-bet negation of the value-gradient pattern in the same historical moment. The [Crouch 2003][book_crouch_2003] Wings A History of Aviation from Kites to the Space Age documents the trajectory.
 
@@ -465,7 +621,10 @@ The Concorde supersonic-transport development from the 1962 Anglo-French agreeme
 
 The Manhattan Project from 1942 through 1945 illustrates the case of state-directed mission-oriented technology development under wartime urgency in which the value-gradient property was realized through the intermediate technology demonstrations including the Chicago Pile-1 first sustained nuclear chain reaction on December 2 1942, the X-10 Graphite Reactor plutonium production, the Y-12 electromagnetic separation and the K-25 gaseous diffusion uranium enrichment, and the July 16 1945 Trinity test that preceded the operational deployment. The intermediate demonstrations produced the incremental capability accumulation that the mission-completion required, illustrating the value-gradient property in the state-directed configuration. The Manhattan Project cost trajectory has the concise characterization
 
-$$C^{\text{Manhattan}}_{\text{cumulative}}(t) \approx C^{\text{total}} \cdot \left[1 - e^{-\lambda (t - t_0)}\right]$$
+$$
+C^{\text{Manhattan}}_{\text{cumulative}}(t) \approx C^{\text{total}} \cdot \left[1 - e^{-\lambda (t - t_0)}\right]
+\tag{53}
+$$
 
 with $C^{\text{total}}$ approximately 2 billion 1945 dollars equivalent to approximately 34 billion 2024 dollars and $\lambda$ approximately 0.6 per year across the 39-month project duration. The asymptotic approach to the terminal cost illustrates the front-loaded fixed-cost pattern the mission-directed configuration required. The [Rhodes 1986][book_rhodes_1986] The Making of the Atomic Bomb documents the trajectory.
 
@@ -569,11 +728,17 @@ The dollar-per-kilogram-to-orbit trajectory across the launch-provider set as of
 
 The dollar-per-kilogram comparative ratio between the SpaceX Falcon 9 and the alternative launch providers may be written
 
-$$\rho^{\text{DPK}}_{\text{Falcon 9 vs alternative}} = \frac{\text{DPK}^{\text{Falcon 9}}}{\text{DPK}^{\text{alternative}}} \in [0.20, 0.50]$$
+$$
+\rho^{\text{DPK}}_{\text{Falcon 9 vs alternative}} = \frac{\text{DPK}^{\text{Falcon 9}}}{\text{DPK}^{\text{alternative}}} \in [0.20, 0.50]
+\tag{54}
+$$
 
 with the ratio typically between 0.20 and 0.50 depending on the reference orbit and the payload configuration, indicating the SpaceX advantage by a factor of two to five across the alternative-launch-provider set. The launched-mass Herfindahl-Hirschman index in the United States commercial launch sector
 
-$$\text{HHI}^{\text{US launch}} = \sum_{i \in \text{US providers}} \left(\frac{q_i}{Q^{\text{total}}}\right)^2$$
+$$
+\text{HHI}^{\text{US launch}} = \sum_{i \in \text{US providers}} \left(\frac{q_i}{Q^{\text{total}}}\right)^2
+\tag{55}
+$$
 
 has increased from approximately 0.15 in the mid-2000s under the fragmented Delta and Atlas configuration to approximately 0.65 as of the drafting date under the SpaceX-dominant arrangement, reflecting the market-share concentration the value-gradient trajectory produced.
 
@@ -619,7 +784,10 @@ The engineer-hero framing developed in aerospace-industry trade press and the [B
 
 The disruptive-innovation framing developed in [Bower and Christensen 1995][research_bower_christensen_1995] and applied to the SpaceX case in multiple treatments frames the SpaceX trajectory as the disruptive entrant displacement of the incumbent United Launch Alliance through lower-cost simpler-architecture launch-vehicle configuration. The displacement-threshold condition the framing formalizes admits the compact form
 
-$$P^{\text{entrant}}(t) < P^{\text{incumbent}}(t) \quad \text{and} \quad Q^{\text{entrant}}(t) \geq Q^{\text{mainstream-threshold}}$$
+$$
+P^{\text{entrant}}(t) < P^{\text{incumbent}}(t) \quad \text{and} \quad Q^{\text{entrant}}(t) \geq Q^{\text{mainstream-threshold}}
+\tag{56}
+$$
 
 with the entrant's price below the incumbent's price at the observed date and the entrant's quality reaching the mainstream-adequacy threshold that the mission-critical customer segments require. The framing captures several important features including the pricing differential and the reliability-through-iteration approach, but understates the government-anchor demand pull that financed the initial fixed-cost investment and the procurement-mechanism transition the value-gradient trajectory exploited.
 
@@ -629,7 +797,10 @@ The Silicon Valley experimentation framing developed in the venture-capital-adja
 
 The physics-limited framing developed in the aerospace-engineering education literature frames the launch-vehicle capability trajectory as constrained by the physics of the Tsiolkovsky rocket equation and the engine-cycle-and-performance tradeoffs that constrain the achievable specific impulse and thrust-to-weight ratio. The Tsiolkovsky rocket equation
 
-$$\Delta v = I_{sp} \cdot g_0 \cdot \ln\!\left(\frac{m_0}{m_f}\right)$$
+$$
+\Delta v = I_{sp} \cdot g_0 \cdot \ln\!\left(\frac{m_0}{m_f}\right)
+\tag{57}
+$$
 
 sets the fundamental delta-v capacity limit for a given specific impulse and mass ratio, and the additional gravity-loss and drag-loss terms reduce the payload-delta-v achievable for surface-launch missions. The framing captures the physical constraints that shape the launch-vehicle design space and allows the interpretation that the SpaceX architectural choices reflect near-optimal solutions within the physics-constrained design space. The framing understates the institutional and organizational choices that shape the trajectory within the physics-constrained space.
 
@@ -637,7 +808,10 @@ The regulatory-arbitrage framing developed in the space-law literature frames th
 
 The launch-cost-supply-side framing developed in the space-economics literature frames the value-gradient trajectory as a supply-side cost-reduction phenomenon that drives the demand-side market-expansion the sector has exhibited. The inverse-supply-curve response to cost reduction takes the form
 
-$$Q^{\text{demand}}(P) = A \cdot P^{-\epsilon}, \quad \epsilon > 0$$
+$$
+Q^{\text{demand}}(P) = A \cdot P^{-\epsilon}, \quad \epsilon > 0
+\tag{58}
+$$
 
 with $\epsilon$ the price elasticity of demand for launch services, empirically estimated at approximately 1.0 to 1.5 across the launch-services sector under industry-analyst reconstruction. The reduction in $P$ from approximately 8000 dollars per kilogram to approximately 1500 dollars per kilogram produces a projected demand expansion by a factor of approximately 5 to 10 under the estimated elasticity, consistent with the observed launch-cadence expansion. The framing captures the dollar-per-kilogram-to-orbit trajectory and the launch-cadence expansion that followed the cost reduction. The framing complements the value-gradient framing by treating the cost-reduction channel as the primary value-realization mechanism, while the value-gradient framing treats the cost-reduction channel as one of several channels through which the value-gradient property is realized.
 
@@ -645,7 +819,10 @@ The political-economy critique framing developed in the Marxist and post-Marxist
 
 The public-choice and rent-seeking framing developed in [Buchanan and Tullock 1962][book_buchanan_tullock_1962] The Calculus of Consent, [Stigler 1971][research_stigler_1971] The Theory of Economic Regulation, and [Krueger 1974][research_krueger_1974] The Political Economy of the Rent-Seeking Society frames the SpaceX value-gradient trajectory as an instance of the rent-extraction pattern in which private firms benefit from state-created contracting opportunities that exclude potential competitors. The rent-transfer identity can be written as
 
-$$\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}$$
+$$
+\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}
+\tag{59}
+$$
 
 with the rent equal to the difference between the observed provider profit and the counterfactual competitive-benchmark profit that arm's-length market arrangements would produce. The framing captures the concern that the milestone-payment procurement mechanism and the NSSL certification thresholds may exclude potential competitors and concentrate the resulting surplus in the incumbent provider set. The framing understates the mission-articulation and capability-development conditions that the mission-oriented-innovation framing emphasizes.
 
@@ -659,7 +836,10 @@ The evolutionary-economics framing developed in [Nelson and Winter 1982][book_ne
 
 The resource-based-view framing developed in [Wernerfelt 1984][research_wernerfelt_1984] A Resource-Based View of the Firm and [Barney 1991][research_barney_1991] Firm Resources and Sustained Competitive Advantage, extended in [Teece et al. 1997][research_teece_pisano_shuen_1997] Dynamic Capabilities and Strategic Management, frames the SpaceX trajectory as an instance of firm-capability accumulation across the four value-gradient sub-properties. The resource-heterogeneity index the framing tracks has the form
 
-$$H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)$$
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{60}
+$$
 
 with $\omega_r$ the resource weight and the four V-R-I-N factors indicating value, rarity, inimitability, and non-substitutability of resource $r$. The framing captures the role of the SpaceX in-house engineering capability that permitted the iterative-development pattern the trajectory realized, and captures the role of the vertical-integration decisions that retained the capabilities within the firm boundary rather than transferring them to subcontractors. The framing applies to the competitor firms whose resource configurations differ from the SpaceX arrangement.
 
@@ -685,21 +865,33 @@ The value-gradient mechanic thus requires the joint satisfaction of five sub-pro
 
 The joint-satisfaction probability under independence-of-sub-properties permits the product form
 
-$$P^{\text{VG closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k$$
+$$
+P^{\text{VG closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k
+\tag{61}
+$$
 
 with $p_k$ the marginal closure probability for sub-property $k$. Under order-of-magnitude estimates $p_k \approx 0.2$ across the five sub-properties, the independence-adjusted joint closure probability is approximately $3.2 \times 10^{-4}$. The sub-properties exhibit substantial positive correlation through the founder-alignment, capital-formation-composition, and architectural-decomposability mechanisms that jointly determine multiple sub-properties, so the correlation-adjusted joint probability generally exceeds the independence baseline. Under a Gaussian-copula correlation-adjustment approximation with pairwise correlation $r$, the joint probability allows the approximate form
 
-$$P^{\text{VG closure}}_{\text{corr}} \approx P^{\text{VG closure}}_{\text{indep}} \cdot \exp\!\left(r \cdot \sum_{j<k} \sigma_j \sigma_k\right)$$
+$$
+P^{\text{VG closure}}_{\text{corr}} \approx P^{\text{VG closure}}_{\text{indep}} \cdot \exp\!\left(r \cdot \sum_{j<k} \sigma_j \sigma_k\right)
+\tag{62}
+$$
 
 with $\sigma_k = \sqrt{p_k(1 - p_k)}$ the marginal standard deviation of the sub-property closure indicator.
 
 The five-sub-property joint-satisfaction condition may be written
 
-$$\text{VG closure} = \bigwedge_{k=1}^{5} \phi_k$$
+$$
+\text{VG closure} = \bigwedge_{k=1}^{5} \phi_k
+\tag{63}
+$$
 
 with $\phi_k$ the closure indicator for sub-property $k$ and the conjunction requiring all five sub-properties to be closed. The closure vector for a candidate case $j$ is
 
-$$\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5$$
+$$
+\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5
+\tag{64}
+$$
 
 with the candidate's value-gradient closure occurring when $\boldsymbol{\phi}\_j = \mathbf{1}$. The counter-example cases exhibit closure vectors with at least one zero component, and the zero component identifies the sub-property on which the case fails. The Iridium trajectory specifically negated the architectural-decomposability sub-property through the full-constellation single-bet architecture and negated the demand-configuration absorption sub-property through the market-emergence-timing failure. The Space Shuttle trajectory specifically negated the incentive-structure sub-property through the NASA cost-plus procurement mechanism and negated the process-discipline sub-property through the NASA organizational-culture constraints that the [Vaughan 1996][book_vaughan_1996] The Challenger Launch Decision documents. The Concorde trajectory specifically negated the demand-configuration sub-property through the supersonic-transport market-emergence failure. The Buran trajectory specifically negated the strategic-patience sub-property through the Soviet-Union-dissolution political discontinuity.
 
@@ -746,6 +938,568 @@ The sector-competitive-response question asks the timeline and configuration und
 The value-gradient-generalization question asks the extent to which the value-gradient mechanic admits application to adjacent sectors beyond space launch. The generalization depends on the extent to which the five sub-properties of the mechanic can be jointly satisfied in the candidate sector, which requires the systematic evaluation the article's Pattern Extraction section identifies as the evaluation methodology.
 
 The Iridium-successor question asks the extent to which the Iridium-successor trajectory operating under the reduced cost basis of the Iridium Satellite LLC configuration achieved the value-gradient property that the original Iridium trajectory negated. The successor-trajectory documentation indicates that the reduced cost basis permitted the subscriber acquisition that the original trajectory could not sustain, but the value-gradient closure remains contested.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 64 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 64, 27 are established and 37 are bespoke.
+Value, capability and credential terms are abstract indices without units, while costs and prices are nominal United States dollars, specific impulse is in seconds, speeds are in metres per second and times are in years unless a month is stated.
+
+*Equation 1, Bespoke Value-Gradient Condition.*
+The article requires the cumulative value realised by a venture to rise strictly at every moment of the development horizon.
+
+$$
+\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T_i^{\text{mission}}]
+\tag{1}
+$$
+
+*Equation 2, Bespoke Cumulative Value Monotonicity.*
+The integrated form of the condition requires value at any later time to exceed value at any earlier time within the horizon.
+
+$$
+V_i(t_2) - V_i(t_1) > 0 \quad \forall t_2 > t_1 \in [0, T_i^{\text{mission}}]
+\tag{2}
+$$
+
+*Equation 3, Bespoke Single-Bet Value Profile.*
+The article characterises the single-bet negation as near-zero value until a small interval before mission completion, when the terminal value arrives.
+
+$$
+V_i(t) \approx 0 \quad \text{for } t \in [0, T_i^{\text{mission}} - \varepsilon), \quad V_i(T_i^{\text{mission}}) = V^{\text{terminal}}
+\tag{3}
+$$
+
+**Equation 4, Compound Annual Growth Rate of Value.**
+The compound annual rate is the ratio of final to initial value raised to the reciprocal of the elapsed years, less one.
+
+$$
+g_V = \left(\frac{V_i(T_i^{\text{mission}})}{V_i(t_0)}\right)^{1/(T_i^{\text{mission}} - t_0)} - 1
+\tag{4}
+$$
+
+*Equation 5, Bespoke Strict Monotonicity Requirement.*
+The article restates the value-gradient condition as a strictly positive derivative of cumulative value over the horizon.
+
+$$
+\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T_i^{\text{mission}}]
+\tag{5}
+$$
+
+*Equation 6, Bespoke Absolutely Continuous Value Accumulation.*
+The article requires value to accrue as the integral of a positive rate, so that gains arrive continuously rather than in isolated jumps.
+
+$$
+V_i(t) = V_i(0) + \int_0^t v_i(\tau) \, d\tau
+\tag{6}
+$$
+
+*Equation 7, Bespoke Singular-Value Trajectory.*
+The single-bet negation places the whole value in a step at the mission-completion time.
+
+$$
+V_i(t) = V^{\text{terminal}} \cdot \mathbb{1}[t \geq T_i^{\text{mission}}]
+\tag{7}
+$$
+
+*Equation 8, Bespoke Four-Channel Value Decomposition.*
+The article divides cumulative value into revenue, capability, credential and demonstration channels plus an unattributed residual.
+
+$$
+V_i(t) = V_i^{\text{rev}}(t) + V_i^{\text{cap}}(t) + V_i^{\text{cred}}(t) + V_i^{\text{demo}}(t) + \varepsilon_i(t)
+\tag{8}
+$$
+
+**Equation 9, Wright Learning Curve.**
+Unit cost falls as a power of cumulative production, with the article quoting a typical range for the learning exponent.
+[Wright 1936][research_wright_1936]
+
+$$
+c_i(n) = c_i(1) \cdot n^{-\gamma_i}, \quad \gamma_i \in [0.10, 0.30]
+\tag{9}
+$$
+
+**Equation 10, Cumulative Saving from the Learning Curve.**
+Integrating the gap between first-unit cost and learning-curve cost over production gives the cumulative saving, which grows without bound for a positive exponent.
+
+$$
+\Delta C_i^{\text{cum}}(N) = \int_1^N [c_i(1) - c_i(n)] \, dn = c_i(1) \cdot \left[N - \frac{N^{1-\gamma_i}}{1 - \gamma_i}\right]
+\tag{10}
+$$
+
+**Equation 11, Backward Induction for a Real Option.**
+The option value at each date is the greater of the exercise value and the discounted expected continuation value.
+[Dixit and Pindyck 1994][book_dixit_pindyck_1994]
+
+$$
+V_t^{\text{option}} = \max\left\{V_t^{\text{exercise}}, \, e^{-r \Delta t} \cdot E\!\left[V_{t+1}^{\text{option}} \mid F_t\right]\right\}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Aggregate Real-Options Value.*
+The article sums the discounted option values of every stage into one total for the trajectory.
+
+$$
+V^{\text{options-total}} = \sum_{t=0}^{T} e^{-rt} \cdot V_t^{\text{option}}
+\tag{12}
+$$
+
+**Equation 13, Beta Posterior for Reliability.**
+A Beta prior on reliability updated with successes and failures from a number of flights gives a Beta posterior whose parameters add the counts.
+
+$$
+R \mid \{n, s\} \sim \text{Beta}(\alpha_0 + s, \beta_0 + n - s)
+\tag{13}
+$$
+
+*Equation 14, Bespoke Per-Flight Cost of a Reusable Stage.*
+The article assembles the per-flight cost of a recovered stage from its hardware cost spread over the flights it survives plus refurbishment and recovery costs.
+
+$$
+c_{\text{stage}}^{\text{per-flight}}(k) = \frac{c_{\text{stage-hardware}}}{k} + c_{\text{refurb}} + c_{\text{recovery-operations}}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Break-Even Flight Count for Reuse.*
+The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment, recovery operations and amortised recovery hardware.
+
+$$
+k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}
+\tag{15}
+$$
+
+**Equation 16, Variance of a Sum of Channels.**
+The variance of a sum equals the sum of the channel variances plus twice the sum of their pairwise covariances.
+
+$$
+\text{Var}(V_i) = \text{Var}(V_i^{\text{rev}}) + \text{Var}(V_i^{\text{cap}}) + \text{Var}(V_i^{\text{cred}}) + \text{Var}(V_i^{\text{demo}}) + 2 \sum_{j < k} \text{Cov}(V_i^j, V_i^k)
+\tag{16}
+$$
+
+**Equation 17, Present Value of a Continuous Value Stream.**
+The present value discounts each increment of value continuously at the applicable rate and integrates over time.
+
+$$
+PV_i(t) = \int_0^t v_i(\tau) \cdot e^{-r \tau} \, d\tau
+\tag{17}
+$$
+
+*Equation 18, Bespoke Present-Value Advantage of a Value Gradient.*
+The article compares a continuous value stream with a single terminal payment of the same horizon and attributes the difference to the earlier timing of the increments.
+
+$$
+\Delta PV = PV_i^{\text{gradient}}(T) - PV_i^{\text{single-bet}}(T) = \int_0^T v_i^{\text{gradient}}(\tau) \cdot e^{-r \tau} \, d\tau - V^{\text{terminal}} \cdot e^{-r T}
+\tag{18}
+$$
+
+**Equation 19, Bayes Rule for a Sequential Reliability Update.**
+The posterior after a new flight outcome is the likelihood times the previous posterior, normalised over all reliability values.
+
+$$
+P(R \mid s_{t+1}, n_{t+1}) = \frac{P(s_{t+1} \mid R) \cdot P(R \mid s_t, n_t)}{\int P(s_{t+1} \mid R') \cdot P(R' \mid s_t, n_t) \, dR'}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Expected Time to Certification.*
+The article divides the required flight count by an achievable cadence, which assumes a constant flight rate.
+
+$$
+E[T^{\text{cert}}] = \frac{n^{\text{required}}}{f^{\text{cadence}}}
+\tag{20}
+$$
+
+**Equation 21, Log-Linear Form of the Wright Learning Curve.**
+Taking logarithms turns the power law of unit cost into a straight line in the logarithm of cumulative production.
+[Wright 1936][research_wright_1936]
+[Argote and Epple 1990][research_argote_epple_1990]
+
+$$
+\log c(n) = \log c(1) - \gamma \cdot \log n, \quad \text{equivalently} \quad c(n) = c(1) \cdot n^{-\gamma}
+\tag{21}
+$$
+
+**Equation 22, Compound Option on a Second Rung.**
+A compound option is worth the greater of zero and the discounted risk-neutral expectation of the second-stage option less the first exercise cost.
+[Trigeorgis 1996][book_trigeorgis_1996]
+
+$$
+V^{\text{compound}} = \max\!\Big\{0, \, E^Q\!\big[e^{-r T_1} \max\{0, V^{\text{rung 2}} - K_1\} \mid F_0\big] - K_0\Big\}
+\tag{22}
+$$
+
+**Equation 23, Prospect Theory Value Function.**
+The value function is concave for gains and convex and steeper for losses, with curvature exponents and a loss-aversion coefficient estimated by experiment.
+[Kahneman and Tversky 1979][research_kahneman_tversky_1979]
+[Tversky and Kahneman 1992][research_tversky_kahneman_1992]
+
+$$
+v(x) = \begin{cases} x^{\alpha} & x \geq 0 \\ -\lambda (-x)^{\beta} & x < 0 \end{cases}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Escalation Cost.*
+The article writes the cost of escalating commitment as the sunk costs accumulated until abandonment less the eventual salvage.
+[Staw 1976][research_staw_1976]
+
+$$
+C^{\text{escalation}} = \sum_{t=t_0}^{T^{\text{abandon}}} c^{\text{sunk}}(t) - S^{\text{salvage}}
+\tag{24}
+$$
+
+**Equation 25, Polya-Urn Limit under Increasing Returns.**
+Under increasing returns the probability that each technology dominates converges to a limit set by the early adoption history, and the limits sum to one.
+[Arthur 1989][research_arthur_1989]
+
+$$
+\lim_{t \to \infty} P(\text{technology } i \text{ dominant}) = \pi_i, \quad \sum_i \pi_i = 1
+\tag{25}
+$$
+
+*Equation 26, Bespoke State-Firm Coordination Coefficient.*
+The article weights the government share of revenue, a regulatory alignment intensity and a formal coordination indicator into one index.
+
+$$
+\text{SFC}_i = w^{\text{gov-rev}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{reg}} \cdot \phi^{\text{reg-alignment}}_i + w^{\text{coord}} \cdot I^{\text{formal-coord}}_i
+\tag{26}
+$$
+
+*Equation 27, Bespoke Absorptive Capacity Function.*
+The article writes absorptive capacity as an unspecified function of research intensity, human capital and network ties.
+[Cohen and Levinthal 1990][research_cohen_levinthal_1990]
+
+$$
+AC_i = f\!\left(R\&D_i, H_i^{\text{human-capital}}, T_i^{\text{network-ties}}\right)
+\tag{27}
+$$
+
+*Equation 28, Bespoke Ecosystem Value Appropriation.*
+The article weights firm value by the appropriation fraction and total ecosystem value by its complement.
+
+$$
+V_i^{\text{ecosystem}} = V_i^{\text{firm}} \cdot \phi^{\text{appropriation}}_i + V^{\text{ecosystem-total}} \cdot (1 - \phi^{\text{appropriation}}_i)
+\tag{28}
+$$
+
+*Equation 29, Bespoke Cash Runway in 2008.*
+Runway is remaining cash divided by the monthly burn, evaluated with 5 million dollars, the midpoint of the stated range of 4 to 6 million dollars.
+
+$$
+\text{runway} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{\text{monthly burn}} \ll T^{\text{until-fourth-attempt}}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Cost per Falcon 1 Attempt.*
+The article spreads a fixed campaign cost over the number of attempts and adds a variable cost for each attempt.
+
+$$
+C_n^{\text{attempt}} = C^{\text{fixed}}_{\text{campaign}} / n^{\text{attempts}} + C^{\text{variable}}_{\text{per-attempt}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Cumulative Capital of the Falcon 1 Program.*
+The article sums founder capital, external rounds and the integral of the operational burn into one cumulative capital figure.
+
+$$
+K^{\text{cum}}(T) = K^{\text{founder}} + \sum_{r=1}^{R^{\text{rounds}}} I_r + \int_0^T c^{\text{burn}}(\tau) \, d\tau
+\tag{31}
+$$
+
+**Equation 32, Beta Posterior after the Falcon 1 Attempts.**
+The same conjugate update applied to the Falcon 1 flight record adds the successes and failures of the attempts to the parameters of the prior.
+
+$$
+R \mid \{n_i, s_i\} \sim \text{Beta}(\alpha_0 + s_i, \beta_0 + n_i - s_i)
+\tag{32}
+$$
+
+**Equation 33, Present Value of Milestone Payments.**
+The present value of a milestone agreement sums each payment discounted to its achievement time.
+
+$$
+PV^{\text{COTS}}_i = \sum_{k=1}^{K^{\text{milestones}}} \frac{P_k^{\text{milestone}}}{(1 + r)^{t_k}}
+\tag{33}
+$$
+
+**Equation 34, Reliability of a Nine-Engine Cluster with One Engine Out.**
+The binomial probability that at least eight of nine independent engines work gives the reliability of a cluster that tolerates one failure.
+
+$$
+R^{\text{cluster}} = \sum_{k=8}^{9} \binom{9}{k} R_{\text{engine}}^k (1 - R_{\text{engine}})^{9-k}
+\tag{34}
+$$
+
+**Equation 35, Log-Linear Learning Curve for Merlin Production.**
+The logarithm of the unit cost of the Merlin engine falls linearly in the logarithm of cumulative production.
+
+$$
+\log c_{\text{Merlin}}(n) = \log c_{\text{Merlin}}(1) - \gamma_{\text{Merlin}} \cdot \log n
+\tag{35}
+$$
+
+**Equation 36, Tsiolkovsky Rocket Equation.**
+The velocity change equals the effective exhaust velocity, specific impulse times standard gravity, multiplied by the natural logarithm of the initial to final mass ratio.
+
+$$
+\Delta v = I_{sp} \cdot g_0 \cdot \ln\left(\frac{m_{\text{initial}}}{m_{\text{final}}}\right)
+\tag{36}
+$$
+
+*Equation 37, Bespoke Constant Growth of Engine Thrust-to-Weight.*
+The article fits the Merlin thrust-to-weight ratio to a constant compound growth per engine generation.
+
+$$
+\frac{T_n^{\text{engine}}}{m_n^{\text{engine}}} = \frac{T_0^{\text{engine}}}{m_0^{\text{engine}}} \cdot (1 + g_T)^n
+\tag{37}
+$$
+
+*Equation 38, Bespoke Exponential Grasshopper Altitude.*
+The article fits the altitude reached on each Grasshopper flight to an exponential in the flight number.
+
+$$
+h_n = h_0 \cdot e^{\lambda n}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Boost-Back Velocity Change.*
+The article approximates the boost-back burn as twice the horizontal component of the separation velocity, which reverses that component and neglects gravity and drag.
+
+$$
+\Delta v_{\text{boostback}} = 2 v_{\text{stage-sep}} \cdot \cos(\theta_{\text{stage-sep}})
+\tag{39}
+$$
+
+*Equation 40, Bespoke Entry Burn Speed.*
+The article writes the speed after the entry burn as the peak descent speed less the velocity change of the burn.
+
+$$
+v_{\text{entry}} = v_{\text{peak}} - \Delta v_{\text{entry-burn}}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Touchdown Speed of the Landing Burn.*
+The article subtracts thrust times burn duration divided by mass from the terminal speed, which treats mass as constant and omits gravity.
+
+$$
+v_{\text{touchdown}} = v_{\text{terminal}} - T \cdot \Delta t_{\text{burn}}/m
+\tag{41}
+$$
+
+*Equation 42, Bespoke Per-Flight Cost with a Recoverable Fraction.*
+The article spreads the recoverable fraction of expendable cost over the flights of a booster and charges the remainder on every flight.
+
+$$
+c^{\text{per-flight}}(k) = c^{\text{expendable}} \cdot \left[\frac{1}{k} \cdot \phi + (1 - \phi)\right]
+\tag{42}
+$$
+
+**Equation 43, Empirical Distribution of Booster Flight Counts.**
+The probability of a flight count is the number of boosters with that count divided by the total number of boosters.
+
+$$
+P(K = k) = \frac{n_k}{N_{\text{total}}}
+\tag{43}
+$$
+
+**Equation 44, Mean Time between Reflights.**
+The mean time between reflights is the observation period divided by the total number of reflights across the fleet.
+
+$$
+MTBF^{\text{refly}} = \frac{T^{\text{observation}}}{\sum_k n_k \cdot (k - 1)}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Payload Penalty of First-Stage Recovery.*
+The article reduces the expendable payload by the recovery velocity change divided by the exhaust velocity times the initial mass, a linearisation of the rocket equation.
+
+$$
+m^{\text{payload}}_{\text{recoverable}} = m^{\text{payload}}_{\text{expendable}} - \frac{\Delta v^{\text{recovery}}}{I_{sp} \cdot g_0} \cdot m^{\text{initial}}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Reflight Cap for Block 5.*
+The article caps the reflight target at the lesser of the design target and a count limited by observed reliability.
+
+$$
+k^{\text{Block 5 target}} \leq \min\{k^{\text{design}}, k^{\text{reliability}}(\hat{R})\}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Iridium Constellation Threshold.*
+The article assigns the constellation zero value until the operational satellite count reaches the coverage threshold.
+
+$$
+V^{\text{Iridium}}(t) = 0 \quad \text{if} \quad N_{\text{operational}}(t) < N^{\text{threshold}}
+\tag{47}
+$$
+
+**Equation 48, Iridium Subscriber Shortfall Ratio.**
+The relative shortfall of actual against forecast subscribers is evaluated with the reported 55000 subscribers against the forecast 500000.
+
+$$
+\text{shortfall ratio} = \frac{N^{\text{actual}}(t) - N^{\text{forecast}}(t)}{N^{\text{forecast}}(t)} = \frac{55000 - 500000}{500000} = -0.89
+\tag{48}
+$$
+
+*Equation 49, Bespoke Iridium Revenue-to-Debt-Service Ratio.*
+The ratio divides annual subscription revenue by interest on principal, evaluated with a representative revenue per user of 300 dollars a month and an assumed debt-service rate of 10 percent.
+
+$$
+RDS = \frac{R^{\text{operating}}(t)}{D^{\text{service}}(t)} = \frac{N^{\text{actual}} \cdot ARPU^{\text{monthly}} \cdot 12}{r \cdot D^{\text{principal}}}
+\tag{49}
+$$
+
+**Equation 50, Iridium Salvage Recovery Ratio.**
+The reported sale price of about 25 million dollars divided by the investment of about 5 billion dollars gives the fraction of capital recovered.
+
+$$
+\rho^{\text{salvage}} = \frac{S^{\text{sale}}}{K^{\text{invested}}} = \frac{25 \text{ M dollars}}{5000 \text{ M dollars}} = 0.005
+\tag{50}
+$$
+
+**Equation 51, Iridium Time to Failure.**
+The interval from the start of commercial service to the bankruptcy filing is evaluated from the two reported dates.
+
+$$
+T^{\text{failure}} = t_1 - t_0 \approx 9.5 \text{ months}
+\tag{51}
+$$
+
+**Equation 52, Cumulative Flights of the Wright Campaign.**
+The total flights across the Wright brothers' campaign is the sum of the yearly counts from 1899 to 1903.
+[Crouch 2003][book_crouch_2003]
+
+$$
+N^{\text{Wrights}}_{\text{cumulative}} = N_{1899} + N_{1900} + N_{1901} + N_{1902} + N_{1903} \approx 4 + 12 + 100 + 700 + 4
+\tag{52}
+$$
+
+*Equation 53, Bespoke Exponential Approach of Manhattan Project Cost.*
+The article fits cumulative Manhattan Project spending to an exponential approach to the final total with a fitted rate.
+
+$$
+C^{\text{Manhattan}}_{\text{cumulative}}(t) \approx C^{\text{total}} \cdot \left[1 - e^{-\lambda (t - t_0)}\right]
+\tag{53}
+$$
+
+*Equation 54, Bespoke Falcon 9 Price Ratio against Alternatives.*
+The article bounds the ratio of the Falcon 9 price per kilogram to that of alternative providers within a range it states.
+
+$$
+\rho^{\text{DPK}}_{\text{Falcon 9 vs alternative}} = \frac{\text{DPK}^{\text{Falcon 9}}}{\text{DPK}^{\text{alternative}}} \in [0.20, 0.50]
+\tag{54}
+$$
+
+**Equation 55, Herfindahl-Hirschman Index of United States Launch.**
+The Herfindahl-Hirschman index sums the squared shares of launched mass across United States providers.
+
+$$
+\text{HHI}^{\text{US launch}} = \sum_{i \in \text{US providers}} \left(\frac{q_i}{Q^{\text{total}}}\right)^2
+\tag{55}
+$$
+
+*Equation 56, Bespoke Disruptive Displacement Condition.*
+The article formalises disruption as the conjunction of an entrant price below the incumbent price and an entrant quality at or above a mainstream threshold.
+[Bower and Christensen 1995][research_bower_christensen_1995]
+
+$$
+P^{\text{entrant}}(t) < P^{\text{incumbent}}(t) \quad \text{and} \quad Q^{\text{entrant}}(t) \geq Q^{\text{mainstream-threshold}}
+\tag{56}
+$$
+
+**Equation 57, Tsiolkovsky Rocket Equation in Initial and Final Mass.**
+The velocity change equals specific impulse times standard gravity multiplied by the natural logarithm of the ratio of initial to final mass.
+
+$$
+\Delta v = I_{sp} \cdot g_0 \cdot \ln\!\left(\frac{m_0}{m_f}\right)
+\tag{57}
+$$
+
+**Equation 58, Constant-Elasticity Demand Curve.**
+Quantity demanded is a constant multiplied by price raised to the negative elasticity.
+
+$$
+Q^{\text{demand}}(P) = A \cdot P^{-\epsilon}, \quad \epsilon > 0
+\tag{58}
+$$
+
+**Equation 59, Economic Rent as Excess Profit.**
+Rent is the observed profit less the profit a competitive benchmark would yield.
+[Krueger 1974][research_krueger_1974]
+
+$$
+\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Resource Heterogeneity Index.*
+The article scores resources by a weighted sum of the products of their value, rarity, inimitability and non-substitutability.
+[Barney 1991][research_barney_1991]
+
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{60}
+$$
+
+*Equation 61, Bespoke Joint Closure Probability under Independence.*
+The probability of closing all five sub-properties is the product of the marginal probabilities under the independence assumption the article adopts.
+
+$$
+P^{\text{VG closure}}_{\text{indep}} = \prod_{k=1}^{5} p_k
+\tag{61}
+$$
+
+*Equation 62, Bespoke Correlation Adjustment to Joint Closure.*
+The article inflates the independent product by an exponential of a single pairwise correlation times the summed products of indicator standard deviations, an approximation it attributes to a Gaussian copula.
+
+$$
+P^{\text{VG closure}}_{\text{corr}} \approx P^{\text{VG closure}}_{\text{indep}} \cdot \exp\!\left(r \cdot \sum_{j<k} \sigma_j \sigma_k\right)
+\tag{62}
+$$
+
+*Equation 63, Bespoke Value-Gradient Closure Conjunction.*
+The article defines closure as the logical conjunction of the five sub-property indicators.
+
+$$
+\text{VG closure} = \bigwedge_{k=1}^{5} \phi_k
+\tag{63}
+$$
+
+*Equation 64, Bespoke Value-Gradient Closure Vector.*
+Each candidate case receives a binary vector over the five sub-properties, and closure requires every component to equal one.
+
+$$
+\boldsymbol{\phi}_j = (\phi_{j,1}, \phi_{j,2}, \phi_{j,3}, \phi_{j,4}, \phi_{j,5}) \in \{0, 1\}^5
+\tag{64}
+$$
+
+### Notation
+
+- $V_i(t)$, the cumulative value realised by firm $i$ at time $t$
+- $T_i^{\text{mission}}$, the mission-completion time of firm $i$
+- $V^{\text{terminal}}$, the value realised at mission completion under a single bet
+- $v_i(\tau)$, the rate of value realisation of firm $i$
+- $g_V$, the compound annual value-realisation rate
+- $\gamma_i$, the learning-curve exponent of firm $i$
+- $r$, the discount rate, and in the revenue-to-debt-service ratio the effective debt-service rate
+- $R$, the true underlying reliability
+- $\alpha_0$, the first parameter of the Beta prior on reliability
+- $\beta_0$, the second parameter of the Beta prior on reliability
+- $R_{\text{engine}}$, the reliability of a single engine
+- $I_{sp}$, the specific impulse in seconds
+- $g_0$, standard gravity, 9.80665 metres per second squared
+- $g_T$, the compound growth of thrust-to-weight ratio per engine generation
+- $h_n$, the altitude of the $n$th Grasshopper flight
+- $\lambda$, the loss-aversion coefficient in the prospect theory value function, the growth rate of Grasshopper altitude per flight, and the rate of approach of Manhattan Project spending
+- $k$, the flights per booster before retirement
+- $\phi$, the recoverable-hardware fraction of the expendable cost
+- $\epsilon$, the price elasticity of demand for launch services
+- $p_k$, the marginal closure probability for sub-property $k$
+- $\phi_k$, the closure indicator for sub-property $k$
+- $\omega_r$, the weight of resource $r$
 
 ## References
 

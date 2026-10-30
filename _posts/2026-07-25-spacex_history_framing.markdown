@@ -23,35 +23,56 @@ The mapping problem can be formalized in several ways depending on the level of 
 
 The general form of the causal-mapping problem can be stated compactly as follows. Let $T_i(t)$ denote the observed technical capability of firm $i$ in the space launch sector at time $t$, let $K_i(t)$ denote the accumulated capital investment in firm $i$ at time $t$, and let $D_i(t)$ denote the demand-pull intensity firm $i$ faces from government and commercial customers at time $t$. The mapping problem seeks the functional form
 
-$$T_i(t) = \Phi(K_i(t), D_i(t), M_i(t), G_i(t), C_i(t)) + \varepsilon_i(t)$$
+$$
+T_i(t) = \Phi(K_i(t), D_i(t), M_i(t), G_i(t), C_i(t)) + \varepsilon_i(t)
+\tag{1}
+$$
 
 where $M_i(t)$ denotes the mission-organizational commitment of firm $i$, $G_i(t)$ denotes the governance structure that determines the firm's capacity to sustain long-horizon investment against short-horizon capital pressure, $C_i(t)$ denotes the composition of the capital sources funding the firm across government-anchor, patient-private, and commercial-spinoff legs, and $\varepsilon_i(t)$ denotes the unexplained residual. The isolated forcing-function contribution to observed capability can be characterized counterfactually as
 
-$$\Delta T_i^{\text{forcing}}(t) = \Phi(K_i(t), D_i(t), M_i(t), G_i(t), C_i(t)) - \Phi(K_i(t), D_i^{\text{market}}(t), M_i(t), G_i(t), C_i(t))$$
+$$
+\Delta T_i^{\text{forcing}}(t) = \Phi(K_i(t), D_i(t), M_i(t), G_i(t), C_i(t)) - \Phi(K_i(t), D_i^{\text{market}}(t), M_i(t), G_i(t), C_i(t))
+\tag{2}
+$$
 
 with the counterfactual holding capital, mission commitment, governance, and capital composition fixed and replacing the observed demand-pull intensity $D_i(t)$ with a counterfactual $D_i^{\text{market}}(t)$ that reflects speculative-future-market demand rather than anchor-customer demand. Under an approximately additive decomposition, observed capability permits the further decomposition
 
-$$T_i(t) = T_i^{\text{K}}(t) + T_i^{\text{D}}(t) + T_i^{\text{M}}(t) + T_i^{\text{G}}(t) + T_i^{\text{C}}(t) + \varepsilon_i(t)$$
+$$
+T_i(t) = T_i^{\text{K}}(t) + T_i^{\text{D}}(t) + T_i^{\text{M}}(t) + T_i^{\text{G}}(t) + T_i^{\text{C}}(t) + \varepsilon_i(t)
+\tag{3}
+$$
 
 where each term captures the marginal contribution of one factor conditional on the others. The aggregate sector-level capability at time $t$ is the vector sum
 
-$$T^{\text{sector}}(t) = \sum_{i=1}^{N} T_i(t), \quad \bar{T}(t) = T^{\text{sector}}(t)/N$$
+$$
+T^{\text{sector}}(t) = \sum_{i=1}^{N} T_i(t), \quad \bar{T}(t) = T^{\text{sector}}(t)/N
+\tag{4}
+$$
 
 with $\bar{T}$ the average per-firm capability that indexes sector-level maturity. The variance of the observed capability under the additive decomposition satisfies
 
-$$\text{Var}(T_i) = \sum_{k \in \{K, D, M, G, C\}} \text{Var}(T_i^k) + 2 \sum_{j < k} \text{Cov}(T_i^j, T_i^k) + \text{Var}(\varepsilon_i)$$
+$$
+\text{Var}(T_i) = \sum_{k \in \{K, D, M, G, C\}} \text{Var}(T_i^k) + 2 \sum_{j < k} \text{Cov}(T_i^j, T_i^k) + \text{Var}(\varepsilon_i)
+\tag{5}
+$$
 
 with the covariance terms carrying the substantive information about the joint determination of capability across factors. High positive covariance across the $D$ and $C$ components reflects the government-anchor coupling that the capital-formation-composition account emphasizes.
 
 The tractability of the mapping problem depends on the ability to identify the demand-pull contribution to $T_i$ separately from the capital, mission, governance, and composition contributions. The identification problem is substantial because $D_i(t)$ interacts with $K_i(t)$ through the government-anchor capital-formation leg, and the series treats the identification strategies each empirical setting allows. The instrumental-variable identification strategy under an exogenous procurement-mechanism-transition instrument $Z_i$ that is uncorrelated with the unobserved capability residual $\varepsilon_i$ yields the identifying moment
 
-$$\hat{\beta}_{D}^{\text{IV}} = \frac{\text{Cov}(T_i, Z_i)}{\text{Cov}(D_i, Z_i)}, \quad E[Z_i \, \varepsilon_i] = 0$$
+$$
+\hat{\beta}_{D}^{\text{IV}} = \frac{\text{Cov}(T_i, Z_i)}{\text{Cov}(D_i, Z_i)}, \quad E[Z_i \, \varepsilon_i] = 0
+\tag{6}
+$$
 
 which permits separate identification of the demand-pull contribution from the capital contribution when the procurement-mechanism transition provides plausibly exogenous variation in $D_i$ that does not enter the capability function through other channels.
 
 The mapping problem faces several distinctive methodological challenges beyond those common to industrial-organization analysis of technology-intensive sectors. First, the SpaceX trajectory unfolds under a historical configuration of NASA procurement authority, Space Force acquisition policy, defense-tech venture capital availability, and Silicon Valley organizational technique that is neither fully replicable across sectors nor fully separable from the individuals who conducted the trajectory. Second, SpaceX is privately held and does not file the disclosures a publicly traded firm files under Securities and Exchange Commission rules, so the empirical record of capital raising, contract terms, revenue composition, and internal governance depends on secondary reconstruction from tender-offer filings, contract announcements, court filings, journalistic investigation, and the biographical literature that surrounds the firm. Third, the firm's operations intersect with national security programs that carry classification restrictions on the technical content, cost structure, and mission composition. Fourth, the boundary between SpaceX-factors and sector-level factors is contested and shifts across the two decades the trajectory covers. Fifth, the counterfactual analysis on which the singular-conjunction thesis depends requires comparison with adjacent firms whose trajectories diverged, and the sample of adjacent firms is small and heterogeneous. The matched-comparison average-treatment-effect estimator under such small-sample designs supports the form
 
-$$\widehat{\text{ATE}} = \frac{1}{n_1} \sum_{i \in \text{treated}} T_i - \sum_{j \in \text{comparison}} w_j \, T_j$$
+$$
+\widehat{\text{ATE}} = \frac{1}{n_1} \sum_{i \in \text{treated}} T_i - \sum_{j \in \text{comparison}} w_j \, T_j
+\tag{7}
+$$
 
 with $w_j$ the covariate-similarity-weighted comparison weights satisfying $\sum_j w_j = 1$. The small-sample bias in the estimator is bounded above by the maximum matching-covariate imbalance across the treated and comparison units. The series treats each challenge explicitly and cites the corrective scholarship as it becomes relevant.
 
@@ -79,73 +100,115 @@ Space launch is treated in the series as an economic sector with formal properti
 
 The formal properties of the launch sector admit compact statement as follows. Let a launch firm $i$ produce launch services $q_i$ at cost
 
-$$C_i(q_i) = F_i + c_i \, q_i$$
+$$
+C_i(q_i) = F_i + c_i \, q_i
+\tag{8}
+$$
 
 where $F_i$ is the fixed capability cost per period and $c_i$ is the marginal cost per launch. The average cost per launch is
 
-$$AC_i(q_i) = \frac{F_i}{q_i} + c_i$$
+$$
+AC_i(q_i) = \frac{F_i}{q_i} + c_i
+\tag{9}
+$$
 
 which decreases in $q_i$ over the empirically relevant range. The dollar-per-kilogram-to-orbit metric that indexes launch competitiveness takes the compact form
 
-$$\text{DPK}_i = \frac{P_i(q_i)}{m_i}$$
+$$
+\text{DPK}_i = \frac{P_i(q_i)}{m_i}
+\tag{10}
+$$
 
 where $P_i(q_i)$ is the price per launch at output rate $q_i$ and $m_i$ is the payload mass to a reference orbit. The reference orbits typically taken are low Earth orbit at 200 to 400 kilometers altitude, sun-synchronous orbit at approximately 500 to 800 kilometers altitude, geostationary transfer orbit, and trans-lunar injection. The observed DPK trajectory for launches to low Earth orbit falls from approximately 18000 dollars per kilogram for the Space Shuttle era through approximately 8000 dollars per kilogram for the Delta IV Heavy and Atlas V configurations, to approximately 2700 dollars per kilogram for the Falcon 9 with an expendable arrangement, to approximately 1500 dollars per kilogram for the Falcon 9 with a reusable structure, to approximately 200 to 400 dollars per kilogram projected for the fully reusable Starship setup under the vehicle-recovery assumptions publicly stated. The series treats the DPK trajectory across the technical-progression articles.
 
 The learning-curve dependence of the launch-vehicle unit cost on cumulative production count admits the Wright's Law characterization first formalized in [Wright 1936][research_wright_1936] Factors Affecting the Cost of Airplanes and generalized in [Arrow 1962][research_arrow_1962] Economic Welfare and the Allocation of Resources for Invention
 
-$$c_i(n) = c_i(1) \cdot n^{-\gamma_i}, \quad \gamma_i \in [0.10, 0.30]$$
+$$
+c_i(n) = c_i(1) \cdot n^{-\gamma_i}, \quad \gamma_i \in [0.10, 0.30]
+\tag{11}
+$$
 
 with $n$ the cumulative production count and $\gamma_i$ the firm-learning-curve exponent, equivalent under logarithmic transformation to $\log c_i(n) = \log c_i(1) - \gamma_i \log n$. The empirical estimation of $\gamma_i$ across manufacturing sectors is documented in [Argote and Epple 1990][research_argote_epple_1990] Learning Curves in Manufacturing. The empirical estimation of $\gamma_i$ for the Falcon 9 program is documented across the manufacturing-cost trajectory in the industry-analyst literature and is treated in the-mechanic articles.
 
 The reusability amortization identity for a recoverable first stage that survives $k$ flights permits the decomposition
 
-$$c_{\text{stage}}^{\text{per-flight}} = \frac{c_{\text{stage-hardware}}}{k} + c_{\text{refurb}} + c_{\text{recovery-operations}}$$
+$$
+c_{\text{stage}}^{\text{per-flight}} = \frac{c_{\text{stage-hardware}}}{k} + c_{\text{refurb}} + c_{\text{recovery-operations}}
+\tag{12}
+$$
 
 with $c_{\text{stage-hardware}}$ the one-time manufacturing cost, $c_{\text{refurb}}$ the between-flight refurbishment cost, and $c_{\text{recovery-operations}}$ the per-flight recovery-and-transport cost. The empirical Falcon 9 booster-life record documents $k$ values reaching the low double digits by the drafting date. The break-even flight count relative to a comparable expendable configuration satisfies
 
-$$k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}$$
+$$
+k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}
+\tag{13}
+$$
 
 which allows interpretation as the minimum flight count at which reusability reduces per-flight cost below the expendable baseline.
 
 The mission-success reliability metric for provider $i$ after $n_i$ launches with $f_i$ failures supports the standard proportion estimator
 
-$$\hat{R}_i = 1 - \frac{f_i}{n_i}, \quad \text{SE}(\hat{R}_i) = \sqrt{\frac{\hat{R}_i (1 - \hat{R}_i)}{n_i}}$$
+$$
+\hat{R}_i = 1 - \frac{f_i}{n_i}, \quad \text{SE}(\hat{R}_i) = \sqrt{\frac{\hat{R}_i (1 - \hat{R}_i)}{n_i}}
+\tag{14}
+$$
 
 with the Wilson-score confidence interval preferred over the normal-approximation interval for small $f_i$. The empirical Falcon 9 reliability record as of the drafting date exceeds 99 percent under conservative failure classification, and the series treats the reliability trajectory across the reliability-relevant articles.
 
 The demand side of the launch sector admits characterization as the sum of government demand and commercial demand,
 
-$$Q^{\text{demand}}(t) = Q^{\text{gov}}(t) + Q^{\text{comm}}(t)$$
+$$
+Q^{\text{demand}}(t) = Q^{\text{gov}}(t) + Q^{\text{comm}}(t)
+\tag{15}
+$$
 
 with $Q^{\text{gov}}$ dominated historically by NASA science and human-spaceflight missions, Department of Defense national security missions, and intelligence-community reconnaissance missions, and $Q^{\text{comm}}$ historically dominated by geostationary telecommunications satellites and increasingly by low-Earth-orbit constellation constituent satellites. The ratio $Q^{\text{gov}}/Q^{\text{demand}}$ has historically been substantially above one half for the United States launch sector and remains substantial though declining as the low-Earth-orbit constellation demand expands.
 
 The supply side of the launch sector exhibits substantial concentration under empirical measurement. The Herfindahl-Hirschman index of the United States launch-mass share
 
-$$\text{HHI}_{\text{launch}}(t) = \sum_{i=1}^{N} \left(\frac{q_i(t)}{Q^{\text{total}}(t)}\right)^2$$
+$$
+\text{HHI}_{\text{launch}}(t) = \sum_{i=1}^{N} \left(\frac{q_i(t)}{Q^{\text{total}}(t)}\right)^2
+\tag{16}
+$$
 
 has increased from a fragmented configuration in the early 2000s where the United Launch Alliance predecessors Boeing Delta and Lockheed Martin Atlas along with Orbital Sciences and Sea Launch each held substantial shares, to a concentrated arrangement by 2025 where SpaceX exceeds 80 percent of United States launched mass. The equivalent characterization via the Shannon entropy of the launch-mass distribution
 
-$$H_{\text{launch}}(t) = -\sum_{i=1}^{N} \frac{q_i(t)}{Q^{\text{total}}(t)} \log \frac{q_i(t)}{Q^{\text{total}}(t)}$$
+$$
+H_{\text{launch}}(t) = -\sum_{i=1}^{N} \frac{q_i(t)}{Q^{\text{total}}(t)} \log \frac{q_i(t)}{Q^{\text{total}}(t)}
+\tag{17}
+$$
 
 has fallen commensurately, indicating the concentration of launch capacity in a single firm the series treats as the central case.
 
 The two-sided-market structure that shapes launch pricing permits characterization through the coupling between the launch side and the satellite-payload side. The launch firm's revenue per launch is set by the payload customer's willingness to pay conditional on the payload firm's expected revenue from the on-orbit service the payload provides. The equilibrium launch price accordingly satisfies
 
-$$P^*_{\text{launch}} = \mu \cdot E[\pi_{\text{payload}}(m)]$$
+$$
+P^*_{\text{launch}} = \mu \cdot E[\pi_{\text{payload}}(m)]
+\tag{18}
+$$
 
 with $\mu \in (0, 1)$ the launch firm's markup share of the payload firm's expected profit and $E[\pi_{\text{payload}}(m)]$ the payload firm's expected profit conditional on successful launch of a payload of mass $m$. The chain of surplus division from launch through satellite operator through on-orbit-service provider determines the equilibrium launch price and allows the empirical variation observed across launch-service segments. The equivalent characterization via the Lerner index of market power supports the form
 
-$$L_i = \frac{P_i - c_i}{P_i} = \frac{1}{\varepsilon_i^{\text{demand}}}$$
+$$
+L_i = \frac{P_i - c_i}{P_i} = \frac{1}{\varepsilon_i^{\text{demand}}}
+\tag{19}
+$$
 
 with $\varepsilon_i^{\text{demand}}$ the price elasticity of demand facing provider $i$. Low-elasticity segments such as national security launches and geostationary telecommunications launches admit substantial markups that translate to positive per-launch margin, and high-elasticity segments such as commodity ride-share launches compress the margin toward marginal cost.
 
 The scarcity of orbital slots, the scarcity of radiofrequency spectrum, and the scarcity of debris-tolerant altitude bands each constrain the equilibrium launch quantity. Let $S$ denote the aggregate slot-spectrum-altitude scarcity constraint on the sector, then the aggregate launch quantity satisfies the inequality
 
-$$\sum_i q_i(t) \cdot m_i(t) \cdot \eta_i(t) \leq S(t)$$
+$$
+\sum_i q_i(t) \cdot m_i(t) \cdot \eta_i(t) \leq S(t)
+\tag{20}
+$$
 
 where $\eta_i$ denotes the resource-per-kilogram intensity of firm $i$'s launch mix. The scarcity constraint tightens over time as the on-orbit satellite population grows, and the series treats the constraint explicitly in the Category-Dominating Commercial Spinoff article where Starlink's regulatory posture becomes central. The Kessler-syndrome tolerance condition for altitude band $b$ requires the collision-generated fragment production rate to remain below the atmospheric-decay-driven fragment removal rate
 
-$$N_b(t) \cdot p^{\text{collision}}_b \cdot Q^{\text{fragments}}_b \leq \dot{N}^{\text{decay}}_b(t)$$
+$$
+N_b(t) \cdot p^{\text{collision}}_b \cdot Q^{\text{fragments}}_b \leq \dot{N}^{\text{decay}}_b(t)
+\tag{21}
+$$
 
 with $N_b$ the object population in band $b$, $p^{\text{collision}}\_b$ the per-object per-year collision probability, $Q^{\text{fragments}}\_b$ the expected fragment count per collision, and $\dot{N}^{\text{decay}}\_b$ the atmospheric-decay removal rate. The condition tightens at higher altitudes where atmospheric drag vanishes and admits interpretation as the physical constraint on the maximum sustainable satellite population in each band. The [Kessler and Cour-Palais 1978][research_kessler_courpalais_1978] Collision Frequency of Artificial Satellites paper formalized the runaway-fragmentation dynamics that the condition prevents.
 
@@ -155,7 +218,10 @@ The SpaceX case can be characterized from several disciplinary traditions beyond
 
 The economic-history framing traces from [Coase 1937][research_coase_1937] The Nature of the Firm and [Williamson 1975][research_williamson_1975] Markets and Hierarchies through [Chandler 1962][book_chandler_1962] Strategy and Structure, [Chandler 1977][book_chandler_1977] The Visible Hand, [Chandler 1990][book_chandler_1990] Scale and Scope, and [Landes 1969][book_landes_1969] The Unbound Prometheus. The framing treats the SpaceX trajectory as one instance in the long-run history of firm-level capability accumulation and industry-structure change, with attention to the organizational form the firm adopted, the vertical-integration decisions the firm made, and the competitive positioning the firm occupied at each stage. The firm-boundary optimization condition that the Coasean and Chandlerian tradition formalizes satisfies
 
-$$q^*_{\text{internal}} : MC^{\text{internal}}(q) = MC^{\text{market}}(q)$$
+$$
+q^*_{\text{internal}} : MC^{\text{internal}}(q) = MC^{\text{market}}(q)
+\tag{22}
+$$
 
 with the firm's optimal internal-production quantity determined at the crossing of the internal marginal cost and the market-transaction marginal cost. The SpaceX vertical-integration decisions across engine manufacturing, avionics, launch operations, and satellite production admit interpretation under this framing. The [Rosenberg 1976][book_rosenberg_1976] Perspectives on Technology and [Rosenberg 1982][book_rosenberg_1982] Inside the Black Box treatments provide the framing of technology as sequential problem-solving under uncertainty within which the SpaceX technical trajectory permits characterization. The [Hughes and Hughes 1983][book_hughes_1983] Networks of Power framing on large technological systems provides the deep-analytical treatment of the coupling between technical and organizational structure that shapes the SpaceX case. The [Constant 1980][book_constant_1980] The Origins of the Turbojet Revolution framing on presumptive-anomaly-driven technological transition provides the framing within which the SpaceX reusability transition allows characterization.
 
@@ -165,13 +231,19 @@ The political-economy-of-aerospace framing traces from [McDougall 1985][book_mcd
 
 The entrepreneurial-finance framing traces from [Gompers and Lerner 2001][book_gompers_lerner_2001] The Money of Invention through [Metrick and Yasuda 2011][book_metrick_yasuda_2011] Venture Capital and the Finance of Innovation, [Sahlman 1990][research_sahlman_1990] The Structure and Governance of Venture Capital Organizations, [Gompers 1995][research_gompers_1995] Optimal Investment Monitoring and the Staging of Venture Capital, [Kaplan and Stromberg 2003][research_kaplan_stromberg_2003] Financial Contracting Theory Meets the Real World, [Kaplan and Stromberg 2004][research_kaplan_stromberg_2004] Characteristics Contracts and Actions, [Lerner 1994][research_lerner_1994_syndication] The Syndication of Venture Capital Investments, and [Ewens and Farre-Mensa 2020][research_ewens_farre_mensa_2020] The Deregulation of the Private Equity Markets. The framing treats the SpaceX trajectory as one instance in the transformation of the venture capital industry from the 1980s technology-venture pattern to the contemporary long-horizon defense-tech-adjacent capital-formation pattern that supports firms too capital-insatiable and too long-horizon for the traditional venture pattern to fund. The multi-round dilution dynamics that the framing tracks admit the compact recursive form
 
-$$s^{\text{founder}}_{t+1} = s^{\text{founder}}_t \cdot \frac{V_t^{\text{pre}}}{V_t^{\text{pre}} + I_t}$$
+$$
+s^{\text{founder}}_{t+1} = s^{\text{founder}}_t \cdot \frac{V_t^{\text{pre}}}{V_t^{\text{pre}} + I_t}
+\tag{23}
+$$
 
 with $s^{\text{founder}}\_t$ the founder equity share at round $t$, $V_t^{\text{pre}}$ the pre-money valuation, and $I_t$ the new investment. The dual-class super-voting structure decouples the voting-share dynamics from the equity-share dynamics and permits founder-control preservation across successive rounds. The [Lerner 2009][book_lerner_2009] Boulevard of Broken Dreams treatment on state-sponsored venture programs and the [Weiss 2014][book_weiss_2014] America Inc treatment on the concealed developmental state provide the framing within which the government-anchor-plus-patient-private capital-formation combination permits interpretation. The [Kortum and Lerner 2000][research_kortum_lerner_2000] Assessing the Contribution of Venture Capital to Innovation treatment provides the earlier empirical baseline against which the contemporary defense-tech venture wave allows comparison.
 
 The management-of-technology-firms framing traces from [Bower and Christensen 1995][research_bower_christensen_1995] Disruptive Technologies Catching the Wave and [Christensen 1997][book_christensen_1997] The Innovator's Dilemma through [Christensen and Raynor 2003][book_christensen_raynor_2003] The Innovator's Solution, [Rosenbloom and Christensen 1998][research_rosenbloom_christensen_1998] Technological Discontinuities Organizational Capabilities and Strategic Commitments, [Teece 1986][research_teece_1986] Profiting from Technological Innovation, [Anthony 2017][book_anthony_et_al_2017] Dual Transformation, and [Adner 2021][book_adner_2021] Winning the Right Game. The framing treats the SpaceX trajectory as one instance in the disruptive-innovation pattern in which entrant firms with lower-cost simpler-architecture products displace incumbents whose organizational structure and pricing model resist adaptation. The displacement condition the framing formalizes requires the entrant's price to fall below the incumbent's price while the entrant's quality reaches the mainstream-adequacy threshold
 
-$$P^{\text{entrant}}(t) < P^{\text{incumbent}}(t) \quad \text{and} \quad Q^{\text{entrant}}(t) \geq Q^{\text{threshold}}$$
+$$
+P^{\text{entrant}}(t) < P^{\text{incumbent}}(t) \quad \text{and} \quad Q^{\text{entrant}}(t) \geq Q^{\text{threshold}}
+\tag{24}
+$$
 
 with the entrant's cost trajectory typically satisfying $\dot{c}^{\text{entrant}} < \dot{c}^{\text{incumbent}}$ under the learning-curve dependence and the incumbent's cost trajectory locked to the higher-margin-preservation constraint the incumbent's organizational structure imposes. The [Ries 2011][book_ries_2011] The Lean Startup and [Blank 2013][book_blank_2013] The Four Steps to the Epiphany treatments provide the entrepreneurial-methodology framing within which the SpaceX iterative-development approach supports characterization. The [Thiel 2014][book_thiel_2014] Zero to One treatment provides the framing of monopoly-formation as the goal of high-technology venture that can be applied to the SpaceX case.
 
@@ -197,11 +269,17 @@ The SpaceX trajectory operates within the government-anchor demand substrate tha
 
 The formal structure of the government-anchor substrate can be characterized as follows. Let $D^{\text{gov}}$ denote the total government demand for a launch-capability class in a given period, then the allocation of $D^{\text{gov}}$ across candidate provider firms $i$ is determined by the procurement mechanism the government adopts. Under fixed-price milestone-payment procurement of the kind adopted by the NASA Commercial Orbital Transportation Services program, the provider allocation satisfies
 
-$$s_i^{\text{COTS}} = \frac{q_i \cdot p_i^{\text{fixed}}}{\sum_{j} q_j \cdot p_j^{\text{fixed}}}$$
+$$
+s_i^{\text{COTS}} = \frac{q_i \cdot p_i^{\text{fixed}}}{\sum_{j} q_j \cdot p_j^{\text{fixed}}}
+\tag{25}
+$$
 
 with $q_i$ the milestone-completion count achieved by provider $i$ and $p_i^{\text{fixed}}$ the fixed price per milestone. Under cost-plus procurement of the kind that historically dominated the United States space launch sector before the COTS program, the provider allocation instead satisfies
 
-$$s_i^{\text{CP}} = \frac{c_i \cdot (1 + \phi_i)}{\sum_j c_j \cdot (1 + \phi_j)}$$
+$$
+s_i^{\text{CP}} = \frac{c_i \cdot (1 + \phi_i)}{\sum_j c_j \cdot (1 + \phi_j)}
+\tag{26}
+$$
 
 with $c_i$ the reported cost incurred by provider $i$ and $\phi_i$ the negotiated profit margin. The comparative statics of the two procurement mechanisms with respect to provider effort admit compact characterization. Under fixed-price procurement, the provider captures the residual claim on the difference between the fixed price and the realized cost, which incentivizes cost reduction. Under cost-plus procurement, the provider captures a percentage markup on realized cost, which incentivizes cost increase. The empirical variation in provider cost-reduction performance across the two procurement mechanisms is documented in the [GAO 2011][ref_gao_cots_2011] Commercial Cargo Program report and subsequent evaluations.
 
@@ -211,31 +289,46 @@ The government-anchor demand substrate serves several functions beyond the direc
 
 The escalating-anchor-ladder that a mission-directed venture typically traverses permits characterization as a time-indexed sequence of anchor programs
 
-$$D^{\text{gov}}_i(t) = \sum_{k \in \text{programs}} D_{i,k}^{\text{gov}} \cdot \mathbb{1}[t_k^{\text{start}} \leq t \leq t_k^{\text{end}}]$$
+$$
+D^{\text{gov}}_i(t) = \sum_{k \in \text{programs}} D_{i,k}^{\text{gov}} \cdot \mathbb{1}[t_k^{\text{start}} \leq t \leq t_k^{\text{end}}]
+\tag{27}
+$$
 
 with $t_k^{\text{start}}$ and $t_k^{\text{end}}$ the program's activation and termination times. The SpaceX escalating-anchor-ladder from Commercial Orbital Transportation Services through Cargo Resupply Services, Commercial Crew Transportation Capability, National Security Space Launch Phase 1A, Human Landing System, National Security Space Launch Phase 2, National Security Space Launch Phase 3 Lane 2, and Starshield illustrates the sequential-anchor structure.
 
 The redundancy-protection premium takes the form
 
-$$\Delta P^{\text{redundancy}} = P^{\text{provider-in-redundant-set}} - P^{\text{single-provider-competitive}} > 0$$
+$$
+\Delta P^{\text{redundancy}} = P^{\text{provider-in-redundant-set}} - P^{\text{single-provider-competitive}} > 0
+\tag{28}
+$$
 
 which quantifies the transitional-period margin the anchor pays to sustain the redundancy that mission-critical categories require. The empirical variation in $\Delta P^{\text{redundancy}}$ across programs is documented in the [GAO 2011][ref_gao_cots_2011] evaluation and subsequent Government Accountability Office reports.
 
 The formal characterization of the government-anchor's underwriting role allows the following representation. Let $R^{\text{gov}}$ denote the government revenue stream to a provider, $R^{\text{comm}}$ the commercial revenue stream, $F$ the fixed cost of the capability, and $c$ the marginal cost of a launch. The provider's profit under an anchor-plus-commercial demand pattern is
 
-$$\pi = R^{\text{gov}} + R^{\text{comm}} - F - c \cdot (q^{\text{gov}} + q^{\text{comm}})$$
+$$
+\pi = R^{\text{gov}} + R^{\text{comm}} - F - c \cdot (q^{\text{gov}} + q^{\text{comm}})
+\tag{29}
+$$
 
 which the provider can render positive if $R^{\text{gov}} > F + c \cdot q^{\text{gov}}$, since any positive commercial revenue at prices exceeding marginal cost then contributes positively. Under a pure-commercial demand pattern, the provider requires $R^{\text{comm}} > F + c \cdot q^{\text{comm}}$ standalone, which is a more stringent condition. The comparative statics indicate that the anchor's presence relaxes the commercial break-even condition by an amount proportional to the anchor revenue net of the anchor-attributable marginal cost.
 
 The anchor's technical-standard-setting function supports characterization through the transmission of anchor-imposed reliability requirements to the provider's baseline capability. Let $R_{\text{anchor}}$ denote the reliability level the anchor requires and $R_{\text{comm}}$ denote the reliability level the commercial customer requires, with typically $R_{\text{anchor}} > R_{\text{comm}}$ for national security and human-rated missions. The provider's baseline reliability then equals $R_{\text{anchor}}$, and the commercial customer receives reliability strictly better than the commercial customer requires. The reliability differential $\Delta R = R_{\text{anchor}} - R_{\text{comm}}$ is a form of anchor-financed public good that flows to the commercial customer base at zero marginal cost. The commercial-customer surplus from the reliability spillover can be written as
 
-$$\Delta CS^{\text{comm}} = \int_{R_{\text{comm}}}^{R_{\text{anchor}}} \frac{\partial WTP^{\text{comm}}}{\partial R} \, dR$$
+$$
+\Delta CS^{\text{comm}} = \int_{R_{\text{comm}}}^{R_{\text{anchor}}} \frac{\partial WTP^{\text{comm}}}{\partial R} \, dR
+\tag{30}
+$$
 
 with the integrand the marginal willingness-to-pay for reliability the commercial customer would have paid to obtain the reliability level the anchor-financed capability delivers at zero marginal cost. The empirical evidence on the flow of anchor-financed reliability to the commercial customer base is documented in the launch-industry-reliability literature and in the record of Falcon 9 mission-success rates.
 
 The fixed-price milestone-payment residual-claim retention identity that the COTS procurement mechanism implements admits the form
 
-$$\pi_i^{\text{fixed-price}} = P^{\text{fixed}} - c_i^{\text{realized}}$$
+$$
+\pi_i^{\text{fixed-price}} = P^{\text{fixed}} - c_i^{\text{realized}}
+\tag{31}
+$$
 
 with the provider retaining the full residual between the fixed contract price and the realized cost, in contrast to the cost-plus procurement mechanism under which the provider retains only the negotiated margin $\phi_i \cdot c_i$ regardless of realized cost. The residual-claim retention creates the cost-reduction incentive whose accumulated effect over the two-decade trajectory the series treats.
 
@@ -245,31 +338,49 @@ The forcing-function-to-spinoff dynamics refer to the mechanism by which a missi
 
 The formal structure of the forcing-function-to-spinoff dynamics permits the following representation. Let $M$ denote the mission requirement, $C(M)$ denote the capability required to meet the mission, and $S(C)$ denote the spinoff capability that the capability $C$ enables. The mission-directed demand pull generates the capability trajectory
 
-$$C(t) = C_0 + \int_0^t g(D^{\text{gov}}(\tau), M) \, d\tau$$
+$$
+C(t) = C_0 + \int_0^t g(D^{\text{gov}}(\tau), M) \, d\tau
+\tag{32}
+$$
 
 with $g$ the capability-generation rate as a function of the government-anchor demand pull and the mission target. The spinoff-capability trajectory follows
 
-$$S(t) = S_0 + \int_0^t h(C(\tau)) \, d\tau$$
+$$
+S(t) = S_0 + \int_0^t h(C(\tau)) \, d\tau
+\tag{33}
+$$
 
 with $h$ the spinoff-generation rate as a function of the accumulated capability. The composite spinoff-to-anchor ratio
 
-$$\rho(t) = \frac{S(t)}{D^{\text{gov}}(t)}$$
+$$
+\rho(t) = \frac{S(t)}{D^{\text{gov}}(t)}
+\tag{34}
+$$
 
 measures the return to the anchor's investment in the form of spinoff-capability generation. Empirical estimates of $\rho$ for major anchor-funded technology programs range from unity for narrowly-targeted programs with limited generalizable capability, to ten or higher for broadly-targeted programs whose capability found extensive spinoff application. The Apollo program's spinoff-to-anchor ratio has been estimated at approximately seven under the [Fichtel and Stecker 1976][ref_chase_1976] evaluation, though the estimate remains contested and the methodology allows challenge.
 
 The direct-attribution and residual-attribution methodologies for estimating $\rho$ differ in the specification of the counterfactual. The direct-attribution estimator sums over spinoff products with traceable anchor-program provenance
 
-$$\hat{\rho}^{\text{direct}} = \frac{\sum_j S_j^{\text{traceable}}}{D^{\text{gov}}}$$
+$$
+\hat{\rho}^{\text{direct}} = \frac{\sum_j S_j^{\text{traceable}}}{D^{\text{gov}}}
+\tag{35}
+$$
 
 which tends to underestimate total spinoff because untraceable spinoff is excluded. The residual-attribution estimator compares the observed spinoff trajectory against a counterfactual no-anchor trajectory
 
-$$\hat{\rho}^{\text{residual}} = \frac{S^{\text{observed}} - S^{\text{no-anchor}}}{D^{\text{gov}}}$$
+$$
+\hat{\rho}^{\text{residual}} = \frac{S^{\text{observed}} - S^{\text{no-anchor}}}{D^{\text{gov}}}
+\tag{36}
+$$
 
 which depends on the specification of the counterfactual and supports substantial identification uncertainty. The two estimators bound the true $\rho$ from below and typically from above respectively when the counterfactual is specified conservatively.
 
 The intellectual-property-transfer parameter $\tau^{\text{IP}} \in [0, 1]$ governs the fraction of the anchor-financed capability that transfers from the provider to unaffiliated commercial firms. Under $\tau^{\text{IP}} = 1$ the capability transfers fully and the provider retains no exclusive commercial advantage. Under $\tau^{\text{IP}} = 0$ the capability remains proprietary to the provider and the provider retains the full commercial spinoff surplus. The vertical-capture surplus the provider retains under partial-transfer conditions satisfies
 
-$$V_i^{\text{spinoff-captured}} = (1 - \tau^{\text{IP}}) \cdot V^{\text{spinoff-total}}$$
+$$
+V_i^{\text{spinoff-captured}} = (1 - \tau^{\text{IP}}) \cdot V^{\text{spinoff-total}}
+\tag{37}
+$$
 
 with the complementary fraction transferring to unaffiliated firms. The SpaceX case exhibits $\tau^{\text{IP}}$ close to zero for the Starlink line of business, which internalizes the Falcon 9 launch-capability spinoff rather than transferring the capability to unaffiliated satellite-broadband providers.
 
@@ -295,27 +406,42 @@ The fifth partial resolution is the founder-portable-capital account. The SpaceX
 
 The singular-conjunction puzzle supports partial quantitative formalization through the joint probability of closing all seven conditions plus all three capital-formation legs under independence. Let $\pi_k$ denote the marginal probability that a random venture in the space launch sector closes condition $k$, and treat closure as independent across conditions for the baseline calculation, then the joint probability of closing all ten conditions is
 
-$$\Pi_{\text{joint}}^{\text{indep}} = \prod_{k=1}^{10} \pi_k$$
+$$
+\Pi_{\text{joint}}^{\text{indep}} = \prod_{k=1}^{10} \pi_k
+\tag{38}
+$$
 
 Under order-of-magnitude estimates $\pi_k \approx 0.1$ across the ten conditions, the joint probability is approximately $10^{-10}$, which admits interpretation as the singular-conjunction rate observed. The independence assumption is however substantively questionable, since the ten conditions exhibit substantial positive correlation through the founder-alignment, capital-formation-composition, and technical-decomposability mechanisms that jointly determine multiple conditions. The general form of the joint probability without the independence assumption permits the conditional-probability-chain factorization
 
-$$\Pi_{\text{joint}} = \prod_{k=1}^{10} \Pr(\text{closure}_k \mid \text{closure}_1, \ldots, \text{closure}_{k-1})$$
+$$
+\Pi_{\text{joint}} = \prod_{k=1}^{10} \Pr(\text{closure}_k \mid \text{closure}_1, \ldots, \text{closure}_{k-1})
+\tag{39}
+$$
 
 with each conditional probability generally exceeding the marginal $\pi_k$ under positive correlation. Under a Gaussian-copula correlation-adjustment approximation with pairwise correlation coefficients $r_{jk}$, the joint probability allows the approximate form
 
-$$\Pi_{\text{joint}}^{\text{corr}} \approx \left(\prod_{k=1}^{10} \pi_k\right) \cdot \exp\left(\sum_{j<k} r_{jk} \cdot \sigma_j \sigma_k\right)$$
+$$
+\Pi_{\text{joint}}^{\text{corr}} \approx \left(\prod_{k=1}^{10} \pi_k\right) \cdot \exp\left(\sum_{j<k} r_{jk} \cdot \sigma_j \sigma_k\right)
+\tag{40}
+$$
 
 with $\sigma_k = \sqrt{\pi_k (1 - \pi_k)}$ the marginal standard deviation of the indicator variable for condition $k$. Under positive $r_{jk}$ values across the ten conditions, the correlation-adjusted joint probability substantially exceeds the independence baseline. The empirical rate at which the closed conjunction has been observed across the space launch sector remains one, namely SpaceX, which is consistent with both the independence and correlation-adjusted probability calculations and does not admit sharp identification between them.
 
 The comparative-firm counterfactual supports scoring through the closure vector
 
-$$\mathbf{c}_i = (c_{i,1}, c_{i,2}, \ldots, c_{i,10}) \in \{0, 1\}^{10}, \quad C_i^{\text{score}} = \sum_{k=1}^{10} c_{i,k}$$
+$$
+\mathbf{c}_i = (c_{i,1}, c_{i,2}, \ldots, c_{i,10}) \in \{0, 1\}^{10}, \quad C_i^{\text{score}} = \sum_{k=1}^{10} c_{i,k}
+\tag{41}
+$$
 
 with $c_{i,k} = 1$ if firm $i$ closed condition $k$ and $c_{i,k} = 0$ otherwise. SpaceX exhibits the closure vector $\mathbf{c}\_{\text{SpaceX}} = (1, 1, \ldots, 1)$ with $C^{\text{score}}\_{\text{SpaceX}} = 10$. The adjacent firms exhibit closure vectors with strictly lower scores, and the pattern of unclosed conditions varies across firms in the ways the alternative-case comparisons in the closing article treat.
 
 The founder-portable-capital condition that supports the founder-alignment account requires the initial internal capital to exceed the fixed-cost investment required to reach the technical-demonstration milestone that unlocks external capital
 
-$$K^{\text{portable}}_0 \geq F^{\text{demonstration}} - E[R^{\text{external}}(\text{demonstration})]$$
+$$
+K^{\text{portable}}_0 \geq F^{\text{demonstration}} - E[R^{\text{external}}(\text{demonstration})]
+\tag{42}
+$$
 
 with $F^{\text{demonstration}}$ the fixed-cost investment to demonstration and $E[R^{\text{external}}(\text{demonstration})]$ the expected external revenue captured before demonstration. The SpaceX case satisfied the condition with approximately 100 million dollars of founder portable capital and the emergency-financing round the founder personally contributed to permit the fourth Falcon 1 attempt. Adjacent firms whose founders lacked comparable portable capital were forced to raise external capital before technical demonstration, which required accepting terms that constrained the subsequent trajectory.
 
@@ -327,61 +453,91 @@ The series applies a seven-plus-three analytical framework introduced here in th
 
 The value-gradient condition, treated in A282, states that a mission-directed technology venture must offer a trajectory of value increments across an extended development horizon rather than a binary success-or-failure outcome at a distant milestone. The condition permits formal characterization through the value-trajectory function $V_i(t)$ that must exhibit strictly positive first derivative across the development period
 
-$$\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T^{\text{mission}}]$$
+$$
+\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T^{\text{mission}}]
+\tag{43}
+$$
 
 permitting incremental revenue capture and incremental capability demonstration that sustains capital and stakeholder commitment across the multi-year development horizon. The Falcon 1 to Falcon 9 to reusability progression illustrates the value-gradient pattern. The Iridium single-bet configuration illustrates the negation of the pattern.
 
 The anchor-demand condition, treated in A283, states that a mission-directed technology venture must operate against an identifiable customer whose demand is already articulated rather than against a speculative future market whose emergence is contingent on the venture's success. The condition permits formal characterization through the anchor-share threshold
 
-$$\frac{D_i^{\text{anchor}}(t)}{D_i^{\text{total}}(t)} \geq \theta^{\text{anchor}}$$
+$$
+\frac{D_i^{\text{anchor}}(t)}{D_i^{\text{total}}(t)} \geq \theta^{\text{anchor}}
+\tag{44}
+$$
 
 with $\theta^{\text{anchor}}$ the threshold anchor-share that sustains the venture's revenue against speculative-market-emergence uncertainty, typically substantially above one half during the pre-spinoff phase of the trajectory. The COTS-1 salvation of December 2008 and the escalating anchor sequence through Cargo Resupply Services, Commercial Crew, Human Landing System, and Starshield illustrate the anchor-demand pattern.
 
 The value-capture condition, treated in A284, states that a mission-directed technology venture must retain a substantial portion of the value the venture creates rather than transferring the value to unaffiliated commercial spinoff providers. The condition can be characterized formally through the capture ratio
 
-$$\kappa_i^{\text{capture}} = \frac{V_i^{\text{retained}}}{V_i^{\text{created}}} \geq \kappa^{\text{threshold}}$$
+$$
+\kappa_i^{\text{capture}} = \frac{V_i^{\text{retained}}}{V_i^{\text{created}}} \geq \kappa^{\text{threshold}}
+\tag{45}
+$$
 
 with $\kappa^{\text{threshold}}$ the threshold below which the venture transfers too much value to unaffiliated providers to sustain the mission-directed capital-formation trajectory. The launch-service pricing evolution and the vertical integration into Starlink illustrate the value-capture pattern. The Xerox Palo Alto Research Center and the Bell Laboratories transistor cases illustrate the negation of the pattern where $\kappa_i^{\text{capture}}$ fell substantially below the threshold.
 
 The decomposability condition, treated in A285, states that a mission-directed technology venture must admit decomposition into technical and commercial rungs each of which is independently valuable rather than requiring all-or-nothing completion of a monolithic architecture. The condition permits formal characterization through the rung-count parameter $R_i$ and the per-rung revenue distribution
 
-$$V_i^{\text{portfolio}} = \sum_{r=1}^{R_i} V_{i,r}^{\text{rung}}, \quad V_{i,r}^{\text{rung}} > 0 \text{ for each } r$$
+$$
+V_i^{\text{portfolio}} = \sum_{r=1}^{R_i} V_{i,r}^{\text{rung}}, \quad V_{i,r}^{\text{rung}} > 0 \text{ for each } r
+\tag{46}
+$$
 
 with each per-rung revenue $V_{i,r}^{\text{rung}}$ strictly positive so that the venture captures commercial value at each intermediate rung rather than only at the terminal mission-completion milestone. The Falcon 1, Falcon 9, Dragon cargo, Falcon Heavy, Dragon crew, Starship progression illustrates the decomposability pattern. The Superconducting Super Collider and Iridium configurations illustrate the negation of the pattern where $R_i = 1$ and no intermediate value capture is possible.
 
 The generality-forcing condition, treated in A286, states that a mission-directed technology venture must adopt mission requirements sufficiently demanding to force the venture to develop generic technological capability that transfers across adjacent domains rather than idiosyncratic capability restricted to the mission scope. The condition allows formal characterization through the generality parameter
 
-$$\gamma_i^{\text{generality}} = \frac{|\mathcal{D}_i^{\text{transfer}}|}{|\mathcal{D}^{\text{addressable}}|} \in [0, 1]$$
+$$
+\gamma_i^{\text{generality}} = \frac{|\mathcal{D}_i^{\text{transfer}}|}{|\mathcal{D}^{\text{addressable}}|} \in [0, 1]
+\tag{47}
+$$
 
 with $\mathcal{D}\_i^{\text{transfer}}$ the set of adjacent domains to which the venture's capability has transferred and $\mathcal{D}^{\text{addressable}}$ the addressable set of adjacent domains. High values of $\gamma_i^{\text{generality}}$ indicate substantial cross-domain capability transfer. The Mars-transportation mission requirements driving reusable launch, mass-to-orbit reduction, in-space refueling, and life-support integration that generalize to lunar exploration, geostationary satellite deployment, low-Earth-orbit constellations, defense payload deployment, and lunar architecture illustrate the generality-forcing pattern.
 
 The governance condition, treated in A287, states that a mission-directed technology venture must adopt a governance structure that resists capital capture by short-horizon shareholders whose exit-timing preferences would foreclose the multi-decade horizon the mission requires. The condition can be characterized formally through the founder-voting-control preservation across the multi-round dilution horizon
 
-$$s_i^{\text{voting-founder}}(t) \geq s^{\text{control-threshold}} \quad \forall t \in [0, T^{\text{horizon}}]$$
+$$
+s_i^{\text{voting-founder}}(t) \geq s^{\text{control-threshold}} \quad \forall t \in [0, T^{\text{horizon}}]
+\tag{48}
+$$
 
 with $s^{\text{control-threshold}}$ typically the majority-voting threshold under the corporate charter and $s_i^{\text{voting-founder}}(t)$ preserved through dual-class super-voting structure even as the founder's equity-share dilutes across successive rounds. The dual-class super-voting across thirty-plus funding rounds and the founder-control preservation illustrate the governance pattern. The OpenAI 2015 nonprofit founding, 2019 capped-profit restructure, and 2025 removal-of-cap trajectory illustrates the negation of the pattern. The Zeiss, Bosch, and Novo Nordisk foundation-owned centurial precedents illustrate deep-historical alternatives to the dual-class structure.
 
 The portfolio-patience condition, treated in A288, states that a mission-directed technology venture must internalize a portfolio of related capabilities sufficient to mitigate single-bet tail-risk rather than concentrating all resource commitment on a single bet whose failure would destroy the venture. The condition permits formal characterization through the portfolio-variance decomposition
 
-$$\text{Var}(V_i^{\text{portfolio}}) = \sum_{r=1}^{R_i} w_r^2 \, \text{Var}(V_{i,r}) + 2 \sum_{r < s} w_r w_s \, \text{Cov}(V_{i,r}, V_{i,s})$$
+$$
+\text{Var}(V_i^{\text{portfolio}}) = \sum_{r=1}^{R_i} w_r^2 \, \text{Var}(V_{i,r}) + 2 \sum_{r < s} w_r w_s \, \text{Cov}(V_{i,r}, V_{i,s})
+\tag{49}
+$$
 
 with $w_r$ the weight on rung $r$ and $\text{Cov}(V_{i,r}, V_{i,s})$ ideally low or negative across rungs so that adverse shocks on one rung do not co-occur with adverse shocks on another. The internalized portfolio of Falcon, Dragon, Starlink, Starship, and Starshield from a single capability base illustrates the portfolio-patience pattern. The single-bet configurations of failed launch-sector ventures illustrate the negation where $R_i = 1$ and $\text{Var}(V_i^{\text{portfolio}}) = \text{Var}(V_{i,1})$ is uninsured against single-bet tail-risk.
 
 The government-anchor capital-formation leg, treated in A289, provides the anchor demand that underwrites the fixed-cost capability investment and sets the reliability standard that transfers to commercial customers. The leg's share in the total capital-formation composition satisfies
 
-$$w_i^{\text{gov}}(t) = \frac{K_i^{\text{gov}}(t)}{K_i^{\text{total}}(t)}$$
+$$
+w_i^{\text{gov}}(t) = \frac{K_i^{\text{gov}}(t)}{K_i^{\text{total}}(t)}
+\tag{50}
+$$
 
 with $w_i^{\text{gov}}(t)$ typically substantial during the pre-spinoff phase and declining as the commercial-spinoff revenue expands. The COTS-1 fixed-price milestone-payment mechanics, the Commercial Crew fixed-price competition, the Space Force National Security Space Launch certification, and the Small Business Innovation Research Phase III sole-source authority illustrate the leg's mechanics in the SpaceX case.
 
 The patient-private capital-formation leg, treated in A290, provides the risk-tolerant long-horizon private capital that bridges the gap between government-anchor revenue and category-dominating spinoff revenue. The multi-round dilution management under the leg admits the compact recursive form
 
-$$s_i^{\text{founder-equity}}(T) = s_i^{\text{founder-equity}}(0) \cdot \prod_{r=1}^{R^{\text{rounds}}} \frac{V_r^{\text{pre}}}{V_r^{\text{pre}} + I_r}$$
+$$
+s_i^{\text{founder-equity}}(T) = s_i^{\text{founder-equity}}(0) \cdot \prod_{r=1}^{R^{\text{rounds}}} \frac{V_r^{\text{pre}}}{V_r^{\text{pre}} + I_r}
+\tag{51}
+$$
 
 with $V_r^{\text{pre}}$ the pre-money valuation at round $r$ and $I_r$ the new investment. The dual-class super-voting structure decouples the voting-share preservation from the equity-share dilution. The Founders Fund 2008 Series C entry, the Draper Fisher Jurvetson 2009 entry, the Google and Fidelity 2015 Starlink-motivated round, and the multi-round dilution management illustrate the leg's mechanics.
 
 The category-dominating commercial spinoff leg, treated in A291, provides the eventually self-sustaining commercial revenue that funds the mission-directed capability investment independent of the government anchor. The spinoff-revenue trajectory typically follows a logistic-approach saturation
 
-$$R_i^{\text{spinoff}}(t) = \frac{R^{\text{spinoff-max}}}{1 + e^{-\lambda (t - t_0)}}$$
+$$
+R_i^{\text{spinoff}}(t) = \frac{R^{\text{spinoff-max}}}{1 + e^{-\lambda (t - t_0)}}
+\tag{52}
+$$
 
 with $\lambda$ the growth-rate parameter and $t_0$ the inflection time. The spinoff-revenue-to-mission-cost ratio $R_i^{\text{spinoff}}(t) / C_i^{\text{mission}}(t)$ must eventually exceed unity for the venture to reach mission-funding independence from the government-anchor leg. The Starlink 2015 announcement, the 2019 first sixty-satellite launch, the service beta and commercial rollout, and the direct-to-cell partnership expansion illustrate the leg's mechanics.
 
@@ -403,7 +559,10 @@ The second Falcon 1 launch attempt occurred on March 21 2007 at Omelek Island. T
 
 The third Falcon 1 launch attempt occurred on August 3 2008 at Omelek Island. The vehicle experienced a stage-separation collision between the first stage and the second stage caused by a residual first-stage engine thrust at separation. The post-flight investigation identified the engine-tail-off transient and the corrective actions to lengthen the separation delay. The third failure exhausted the firm's development budget and produced the near-death moment that preceded the fourth attempt. The firm had at that point approximately 4 to 6 million dollars in remaining cash and no assured capital pipeline. The cash-runway condition at the near-death moment satisfied
 
-$$\text{runway} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{\text{monthly burn}} \ll T^{\text{until-fourth-attempt}}$$
+$$
+\text{runway} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{\text{monthly burn}} \ll T^{\text{until-fourth-attempt}}
+\tag{53}
+$$
 
 which required the emergency financing round the founder personally contributed to permit the fourth attempt to proceed within weeks.
 
@@ -417,7 +576,10 @@ Rocketplane Kistler failed to meet the milestone-completion schedule and [NASA t
 
 The [Commercial Resupply Services contract was announced on December 23 2008][ref_nasa_crs1_press_2008] with initial awards to SpaceX for approximately 1.6 billion dollars covering 12 cargo missions to the International Space Station and to Orbital Sciences for approximately 1.9 billion dollars covering 8 cargo missions. The SpaceX CRS-1 contract present-value structure satisfied
 
-$$PV^{\text{CRS-1}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}$$
+$$
+PV^{\text{CRS-1}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}
+\tag{54}
+$$
 
 with the per-mission payments $P_k^{\text{mission}}$ scheduled across the mission cadence and $r$ the discount rate. The SpaceX CRS-1 contract award was received four days after the successful fourth Falcon 1 launch and represented the anchor-demand transition that the anchor-demand article treats in detail. The award converted the firm's status from a development-stage venture with limited commercial revenue prospects to a firm with a multi-year anchored revenue backlog sufficient to sustain the Falcon 9 development and the subsequent commercial-launch business development. The article A283 treats the anchor-demand transition mechanics.
 
@@ -565,49 +727,73 @@ The seven-plus-three framework the series adopts is one of several analytical fr
 
 The Silicon-Valley-disruption framing developed in [Christensen 1997][book_christensen_1997] The Innovator's Dilemma and applied to the SpaceX case in various trade-press and case-study treatments frames SpaceX as the disruptive entrant that displaced the incumbent United Launch Alliance through lower-cost simpler-architecture product configuration. The framing formalizes the displacement dynamics through the cost-trajectory-difference condition
 
-$$\Delta c(t) = c_i^{\text{ULA}}(t) - c_i^{\text{SpaceX}}(t) > 0, \quad \frac{d \Delta c}{dt} > 0$$
+$$
+\Delta c(t) = c_i^{\text{ULA}}(t) - c_i^{\text{SpaceX}}(t) > 0, \quad \frac{d \Delta c}{dt} > 0
+\tag{55}
+$$
 
 with the incumbent's cost trajectory locked to the higher-margin-preservation constraint and the entrant's cost trajectory following the learning-curve dependence. The framing captures several important features of the trajectory including the pricing differential, the reliability-through-iteration approach, and the venture-capital-financed growth pattern. The framing understates the government-anchor demand pull that financed the initial fixed-cost investment and the procurement-mechanism transition that admitted the fixed-price entrant against the cost-plus incumbent.
 
 The entrepreneur-hero framing developed in [Vance 2015][book_vance_2015] and in the popular biographical literature frames the SpaceX trajectory as the outcome of the founder's individual capability, mission commitment, and organizational leadership. The framing formalizes the founder-effect attribution through the counterfactual capability differential
 
-$$\Delta T^{\text{founder}} = T_i^{\text{observed}} - T_i^{\text{no-founder counterfactual}}$$
+$$
+\Delta T^{\text{founder}} = T_i^{\text{observed}} - T_i^{\text{no-founder counterfactual}}
+\tag{56}
+$$
 
 with the founder-attribution equal to the difference between the observed trajectory and the counterfactual trajectory absent the founder's participation. The framing captures several important features of the trajectory including the founder's portable capital contribution, the multi-round governance preservation, and the mission-commitment persistence across the twenty-year horizon. The framing understates the institutional-structural features of the trajectory including the NASA procurement-mechanism transition and the defense-tech venture capital wave.
 
 The national-champion framing developed in the state-capitalism scholarship frames SpaceX as an effective national champion in the space launch sector under a United States configuration of state-firm coordination that can be compared with the national champions of France, Germany, Japan, South Korea, and China across other sectors. The state-firm coordination intensity index the framing tracks has the form
 
-$$\text{SFC}_i = w^{\text{gov-revenue}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{regulation}} \cdot \frac{|\text{sector-specific regulations}|}{|\text{sector regulations total}|} + w^{\text{coordination}} \cdot I^{\text{formal-coordination}}_i$$
+$$
+\text{SFC}_i = w^{\text{gov-revenue}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{regulation}} \cdot \frac{|\text{sector-specific regulations}|}{|\text{sector regulations total}|} + w^{\text{coordination}} \cdot I^{\text{formal-coordination}}_i
+\tag{57}
+$$
 
 with the weight vector chosen to reflect the coordination regime under study. The framing captures several important features of the trajectory including the substantial government-anchor share of revenue and the strategic-industry positioning. The framing understates the dual-class founder-control governance structure and the vertical-integration pattern that distinguish the SpaceX case from the classical national-champion pattern.
 
 The defense-industrial framing developed in [Hunter 2016][book_hunter_2016] and [Weiss 2014][book_weiss_2014] frames SpaceX as an entrant into the United States defense-industrial base whose comparative advantage lies in the fixed-price procurement mechanism and the commercial-spinoff capital-formation leg. The framing formalizes the procurement-mechanism cost differential through the pre-tax provider profit under each mechanism
 
-$$\pi_i^{\text{fixed-price}} - \pi_i^{\text{cost-plus}} = (P^{\text{fixed}} - c_i^{\text{realized}}) - \phi_i \cdot c_i^{\text{realized}}$$
+$$
+\pi_i^{\text{fixed-price}} - \pi_i^{\text{cost-plus}} = (P^{\text{fixed}} - c_i^{\text{realized}}) - \phi_i \cdot c_i^{\text{realized}}
+\tag{58}
+$$
 
 with the fixed-price incentive dominating cost-plus when $c_i^{\text{realized}}$ falls sufficiently below $P^{\text{fixed}} / (1 + \phi_i)$. The framing captures several important features of the trajectory including the Space Force National Security Space Launch certification progression and the Starshield defense-service line. The framing understates the reusability trajectory and the Mars-transportation mission commitment.
 
 The platform-monopoly framing developed in the tech-antitrust literature frames SpaceX and its Starlink spinoff as an emerging platform monopoly in the launch services and satellite-broadband markets whose long-run competitive positioning allows antitrust scrutiny. The framing formalizes the market-power position through the concentration-and-markup joint index
 
-$$M_i^{\text{platform-power}} = \text{HHI}_{\text{sector}} \cdot L_i^{\text{Lerner}}$$
+$$
+M_i^{\text{platform-power}} = \text{HHI}_{\text{sector}} \cdot L_i^{\text{Lerner}}
+\tag{59}
+$$
 
 with the two-factor product reflecting both the concentration of the market share and the ability to extract markup above marginal cost. The framing captures several important features of the current positioning including the launched-mass concentration and the Starlink subscriber-base growth. The framing addresses forward-looking competitive concerns that are outside the historical scope the series treats.
 
 The mission-oriented-innovation framing developed in [Mazzucato 2013][book_mazzucato_2013] and [Mazzucato 2021][book_mazzucato_2021] frames SpaceX as an instance of the general mission-oriented-innovation pattern in which societal-scale mission articulation drives coordinated public-private capability development. The framing formalizes the mission-articulation-to-capability transfer through the mission-directed capability trajectory
 
-$$C_i^{\text{mission}}(t) = C_i^{\text{market}}(t) + \int_0^t g^{\text{mission}}(M, D^{\text{gov}}(\tau)) \, d\tau$$
+$$
+C_i^{\text{mission}}(t) = C_i^{\text{market}}(t) + \int_0^t g^{\text{mission}}(M, D^{\text{gov}}(\tau)) \, d\tau
+\tag{60}
+$$
 
 with the mission-directed increment beyond the market-directed baseline attributable to the mission articulation. The framing is the primary organizing structure the series adopts and supports the seven-plus-three specification the series applies to the SpaceX case.
 
 The resource-based-view and dynamic-capabilities framing developed in [Wernerfelt 1984][research_wernerfelt_1984] A Resource-Based View of the Firm, [Barney 1991][research_barney_1991] Firm Resources and Sustained Competitive Advantage, [Teece et al. 1997][research_teece_pisano_shuen_1997] Dynamic Capabilities and Strategic Management, and [Eisenhardt and Martin 2000][research_eisenhardt_martin_2000] Dynamic Capabilities What Are They frames SpaceX as an instance of the general firm-capability-accumulation pattern in which valuable, rare, inimitable, and non-substitutable resources produce sustained competitive advantage. The framing formalizes the capability-versus-competitor differential through the resource-heterogeneity measure
 
-$$H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)$$
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{61}
+$$
 
 with $\omega_r$ the resource weight and the four V-R-I-N factors indicating value, rarity, inimitability, and non-substitutability of resource $r$. The framing captures the vertical-integration and internal-capability-accumulation features of the SpaceX case and complements the mission-oriented-innovation framing by treating the firm-level capability-development as jointly determined by the mission articulation and the firm's resource-accumulation choices.
 
 The real-options and staged-investment framing developed in [Dixit and Pindyck 1994][book_dixit_pindyck_1994] Investment Under Uncertainty and [Trigeorgis 1996][book_trigeorgis_1996] Real Options frames SpaceX as an instance of the general option-valuation pattern in which each stage of the technical trajectory constitutes a real option whose exercise price is the marginal capital investment and whose payoff is the accumulated subsequent-stage value. The framing formalizes the sequential-option valuation through the backward-induction recursion
 
-$$V_t = \max\left\{V_t^{\text{exercise}}, \, e^{-r \Delta t} \cdot E[V_{t+1} \mid F_t]\right\}$$
+$$
+V_t = \max\left\{V_t^{\text{exercise}}, \, e^{-r \Delta t} \cdot E[V_{t+1} \mid F_t]\right\}
+\tag{62}
+$$
 
 with $V_t^{\text{exercise}}$ the value from exercising the option at time $t$ and $E[V_{t+1} \mid F_t]$ the expected continuation value under the information filtration $F_t$. The framing captures the decomposability-condition value specifically as the aggregate value of the sequential real options that the rung structure creates.
 
@@ -615,13 +801,19 @@ The political-economy critique framing developed in the Marxist and post-Marxist
 
 The public-choice and rent-seeking framing developed in [Buchanan and Tullock 1962][book_buchanan_tullock_1962] The Calculus of Consent, [Stigler 1971][research_stigler_1971] The Theory of Economic Regulation, and [Krueger 1974][research_krueger_1974] The Political Economy of the Rent-Seeking Society frames SpaceX and the surrounding government-anchor architecture as an instance of the general rent-seeking pattern in which private firms extract rents from state-created contracting opportunities. The framing formalizes the rent-transfer through the excess-profit differential
 
-$$\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}$$
+$$
+\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}
+\tag{63}
+$$
 
 with the rent equal to the difference between the observed provider profit and the competitive-benchmark profit the market would produce under arm's-length arrangements. The framing captures the concern that procurement mechanisms and Space Force certification thresholds may exclude potential competitors and concentrate the resulting surplus in the incumbent provider set. The framing understates the mission-articulation and capability-development conditions that the mission-oriented-innovation framing emphasizes.
 
 The complexity and evolutionary-economics framing developed in [Nelson and Winter 1982][book_nelson_winter_1982], [Metcalfe 1998][book_metcalfe_1998] Evolutionary Economics and Creative Destruction, [Beinhocker 2006][book_beinhocker_2006] The Origin of Wealth, and [Perez 2002][book_perez_2002] Technological Revolutions and Financial Capital frames SpaceX as one realization of the sector-level evolutionary dynamics rather than as a deterministic outcome of the firm's choices. The framing formalizes the sector-level selection dynamics through the replicator equation
 
-$$\dot{s}_i(t) = s_i(t) \cdot [f_i(t) - \bar{f}(t)]$$
+$$
+\dot{s}_i(t) = s_i(t) \cdot [f_i(t) - \bar{f}(t)]
+\tag{64}
+$$
 
 with $s_i(t)$ the sector share of firm $i$ and $f_i(t) - \bar{f}(t)$ the firm's fitness differential relative to the sector mean. The framing captures the substantial role of historical contingency and path-dependent lock-in in shaping the sector-level outcome. The [Arthur 1989][research_arthur_1989] and [David 1985][research_david_1985] path-dependence treatments provide the mechanisms through which historical contingency shapes the sector-level outcome the framing tracks.
 
@@ -697,9 +889,585 @@ The governance-succession question asks how the SpaceX governance structure will
 
 The alternative-case scoring question asks how the alternative cases the closing article treats across Anduril, OpenAI, Palantir, and Blue Origin score against the seven-plus-three framework and how the alternative-case scoring pattern illuminates the singular-conjunction status of the SpaceX case. The closing article characterizes the alternative-case scores through the closure vector
 
-$$\mathbf{c}_j \in \{0, 1\}^{10}, \quad C_j^{\text{score}} = \sum_{k=1}^{10} c_{j,k}$$
+$$
+\mathbf{c}_j \in \{0, 1\}^{10}, \quad C_j^{\text{score}} = \sum_{k=1}^{10} c_{j,k}
+\tag{65}
+$$
 
 for each alternative case $j$, with the unclosed conditions identifying the mechanic on which the alternative case falls short. The question is treated in the closing article A292.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 65 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 65, 25 are established and 40 are bespoke.
+Most equations relate abstract indices that the article defines without units, while prices, costs and contract values are stated in nominal United States dollars, so a numerical evaluation carries meaning only for the monetary terms and for probabilities.
+
+*Equation 1, Bespoke Capability Mapping Function.*
+The article posits that the technical capability of a launch firm is an unspecified function of capital, demand pull, mission commitment, governance and capital composition plus a residual.
+
+$$
+T_i(t) = \Phi(K_i(t), D_i(t), M_i(t), G_i(t), C_i(t)) + \varepsilon_i(t)
+\tag{1}
+$$
+
+*Equation 2, Bespoke Forcing-Function Counterfactual.*
+The forcing-function contribution is defined as the change in the mapping function when observed demand pull is replaced by a speculative-market counterfactual with every other input held fixed.
+
+$$
+\Delta T_i^{\text{forcing}}(t) = \Phi(K_i(t), D_i(t), M_i(t), G_i(t), C_i(t)) - \Phi(K_i(t), D_i^{\text{market}}(t), M_i(t), G_i(t), C_i(t))
+\tag{2}
+$$
+
+*Equation 3, Bespoke Additive Capability Decomposition.*
+Capability is assumed to separate into additive contributions from the five factors and a residual, an approximation the article adopts for tractability.
+
+$$
+T_i(t) = T_i^{\text{K}}(t) + T_i^{\text{D}}(t) + T_i^{\text{M}}(t) + T_i^{\text{G}}(t) + T_i^{\text{C}}(t) + \varepsilon_i(t)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Sector Capability Sum and Average.*
+The article treats firm capability as summable, so that sector capability is the sum over firms and its average indexes sector maturity.
+
+$$
+T^{\text{sector}}(t) = \sum_{i=1}^{N} T_i(t), \quad \bar{T}(t) = T^{\text{sector}}(t)/N
+\tag{4}
+$$
+
+**Equation 5, Variance of a Sum of Components.**
+The variance of a sum equals the sum of the component variances plus twice the sum of their pairwise covariances.
+
+$$
+\text{Var}(T_i) = \sum_{k \in \{K, D, M, G, C\}} \text{Var}(T_i^k) + 2 \sum_{j < k} \text{Cov}(T_i^j, T_i^k) + \text{Var}(\varepsilon_i)
+\tag{5}
+$$
+
+**Equation 6, Instrumental Variable Estimator.**
+The instrumental variable estimator divides the covariance of the outcome with the instrument by the covariance of the treatment with the instrument, under the condition that the instrument is uncorrelated with the residual.
+
+$$
+\hat{\beta}_{D}^{\text{IV}} = \frac{\text{Cov}(T_i, Z_i)}{\text{Cov}(D_i, Z_i)}, \quad E[Z_i \, \varepsilon_i] = 0
+\tag{6}
+$$
+
+**Equation 7, Matched-Comparison Average Treatment Effect.**
+The average treatment effect is estimated as the mean outcome of the treated units less a weighted mean of comparison units whose weights sum to one.
+
+$$
+\widehat{\text{ATE}} = \frac{1}{n_1} \sum_{i \in \text{treated}} T_i - \sum_{j \in \text{comparison}} w_j \, T_j
+\tag{7}
+$$
+
+**Equation 8, Linear Cost Function.**
+Total cost per period is a fixed capability cost plus a constant marginal cost for each launch.
+
+$$
+C_i(q_i) = F_i + c_i \, q_i
+\tag{8}
+$$
+
+**Equation 9, Average Cost per Launch.**
+Dividing the linear cost function by output spreads the fixed cost over the launches and adds the marginal cost.
+
+$$
+AC_i(q_i) = \frac{F_i}{q_i} + c_i
+\tag{9}
+$$
+
+**Equation 10, Price per Kilogram to Orbit.**
+The price of a launch divided by the payload mass to a reference orbit gives the dollars per kilogram metric used to compare launch vehicles.
+
+$$
+\text{DPK}_i = \frac{P_i(q_i)}{m_i}
+\tag{10}
+$$
+
+**Equation 11, Wright Learning Curve.**
+Unit cost falls as a power of cumulative production, with the article quoting a typical range for the learning exponent.
+[Wright 1936][research_wright_1936]
+[Argote and Epple 1990][research_argote_epple_1990]
+
+$$
+c_i(n) = c_i(1) \cdot n^{-\gamma_i}, \quad \gamma_i \in [0.10, 0.30]
+\tag{11}
+$$
+
+*Equation 12, Bespoke Per-Flight Cost of a Reusable Stage.*
+The article assembles the per-flight cost of a recovered stage from its hardware cost spread over the flights it survives plus refurbishment and recovery costs.
+
+$$
+c_{\text{stage}}^{\text{per-flight}} = \frac{c_{\text{stage-hardware}}}{k} + c_{\text{refurb}} + c_{\text{recovery-operations}}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Break-Even Flight Count for Reuse.*
+The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment, recovery operations and amortised recovery hardware.
+
+$$
+k^{\text{break-even}} = \frac{c_{\text{stage-hardware}}}{c_{\text{stage-expendable}} - c_{\text{refurb}} - c_{\text{recovery-operations}} - c_{\text{recovery-hardware-amort}}}
+\tag{13}
+$$
+
+**Equation 14, Binomial Reliability Estimate and Standard Error.**
+The success proportion and its normal-approximation standard error follow from a binomial count of failures in a number of launches.
+
+$$
+\hat{R}_i = 1 - \frac{f_i}{n_i}, \quad \text{SE}(\hat{R}_i) = \sqrt{\frac{\hat{R}_i (1 - \hat{R}_i)}{n_i}}
+\tag{14}
+$$
+
+**Equation 15, Total Launch Demand.**
+Total launch demand is the sum of government and commercial demand.
+
+$$
+Q^{\text{demand}}(t) = Q^{\text{gov}}(t) + Q^{\text{comm}}(t)
+\tag{15}
+$$
+
+**Equation 16, Herfindahl-Hirschman Index of Launch Share.**
+The Herfindahl-Hirschman index sums the squared market shares of the providers.
+
+$$
+\text{HHI}_{\text{launch}}(t) = \sum_{i=1}^{N} \left(\frac{q_i(t)}{Q^{\text{total}}(t)}\right)^2
+\tag{16}
+$$
+
+**Equation 17, Shannon Entropy of Launch Share.**
+The Shannon entropy of the share distribution falls as launch capacity concentrates in fewer providers.
+
+$$
+H_{\text{launch}}(t) = -\sum_{i=1}^{N} \frac{q_i(t)}{Q^{\text{total}}(t)} \log \frac{q_i(t)}{Q^{\text{total}}(t)}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Launch Price as a Share of Payload Profit.*
+The article models the equilibrium launch price as a fixed markup share of the expected profit of the payload firm.
+
+$$
+P^*_{\text{launch}} = \mu \cdot E[\pi_{\text{payload}}(m)]
+\tag{18}
+$$
+
+**Equation 19, Lerner Index and the Inverse Elasticity Rule.**
+The Lerner index of market power, the relative markup of price over marginal cost, equals the reciprocal of the price elasticity of demand for a profit-maximising firm.
+
+$$
+L_i = \frac{P_i - c_i}{P_i} = \frac{1}{\varepsilon_i^{\text{demand}}}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Orbital Scarcity Constraint.*
+The article bounds launch activity by a single aggregate constraint in which launches, payload mass and a resource intensity per kilogram together may not exceed the scarcity of slots, spectrum and altitude bands.
+
+$$
+\sum_i q_i(t) \cdot m_i(t) \cdot \eta_i(t) \leq S(t)
+\tag{20}
+$$
+
+*Equation 21, Bespoke Debris Balance Condition for an Altitude Band.*
+The article states sustainability in one altitude band as a linear balance in which the fragments produced by collisions may not exceed those removed by atmospheric decay.
+[Kessler and Cour-Palais 1978][research_kessler_courpalais_1978]
+
+$$
+N_b(t) \cdot p^{\text{collision}}_b \cdot Q^{\text{fragments}}_b \leq \dot{N}^{\text{decay}}_b(t)
+\tag{21}
+$$
+
+**Equation 22, Firm Boundary Condition.**
+The firm produces internally up to the quantity at which the internal marginal cost equals the marginal cost of transacting in the market.
+[Coase 1937][research_coase_1937]
+
+$$
+q^*_{\text{internal}} : MC^{\text{internal}}(q) = MC^{\text{market}}(q)
+\tag{22}
+$$
+
+**Equation 23, Founder Dilution in One Funding Round.**
+After a round the founder share is the previous share multiplied by the ratio of the pre-money valuation to the post-money valuation.
+
+$$
+s^{\text{founder}}_{t+1} = s^{\text{founder}}_t \cdot \frac{V_t^{\text{pre}}}{V_t^{\text{pre}} + I_t}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Disruptive Displacement Condition.*
+The article formalises disruption as the conjunction of an entrant price below the incumbent price and an entrant quality at or above a mainstream threshold.
+[Bower and Christensen 1995][research_bower_christensen_1995]
+[Christensen 1997][book_christensen_1997]
+
+$$
+P^{\text{entrant}}(t) < P^{\text{incumbent}}(t) \quad \text{and} \quad Q^{\text{entrant}}(t) \geq Q^{\text{threshold}}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Provider Share under Fixed-Price Milestones.*
+The article allocates government demand among providers in proportion to completed milestones multiplied by the fixed price per milestone.
+
+$$
+s_i^{\text{COTS}} = \frac{q_i \cdot p_i^{\text{fixed}}}{\sum_{j} q_j \cdot p_j^{\text{fixed}}}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Provider Share under Cost-Plus Procurement.*
+The article allocates government demand among providers in proportion to reported cost marked up by the negotiated profit margin.
+
+$$
+s_i^{\text{CP}} = \frac{c_i \cdot (1 + \phi_i)}{\sum_j c_j \cdot (1 + \phi_j)}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Escalating Anchor Ladder.*
+Government demand to a provider is written as a sum of programme demands, each switched on by an indicator over the activation window of the programme.
+
+$$
+D^{\text{gov}}_i(t) = \sum_{k \in \text{programs}} D_{i,k}^{\text{gov}} \cdot \mathbb{1}[t_k^{\text{start}} \leq t \leq t_k^{\text{end}}]
+\tag{27}
+$$
+
+*Equation 28, Bespoke Redundancy Protection Premium.*
+The article defines the premium as the price a provider receives within a redundant provider set less the price it would receive under single-provider competition.
+[GAO 2011][ref_gao_cots_2011]
+
+$$
+\Delta P^{\text{redundancy}} = P^{\text{provider-in-redundant-set}} - P^{\text{single-provider-competitive}} > 0
+\tag{28}
+$$
+
+**Equation 29, Provider Profit with Government and Commercial Revenue.**
+Profit is government and commercial revenue less the fixed capability cost and the marginal cost of every launch flown.
+
+$$
+\pi = R^{\text{gov}} + R^{\text{comm}} - F - c \cdot (q^{\text{gov}} + q^{\text{comm}})
+\tag{29}
+$$
+
+*Equation 30, Bespoke Commercial Surplus from Reliability Spillover.*
+The article measures the surplus commercial customers gain from anchor-funded reliability as the integral of their marginal willingness to pay for reliability between the commercial requirement and the anchor requirement.
+
+$$
+\Delta CS^{\text{comm}} = \int_{R_{\text{comm}}}^{R_{\text{anchor}}} \frac{\partial WTP^{\text{comm}}}{\partial R} \, dR
+\tag{30}
+$$
+
+**Equation 31, Profit under a Fixed-Price Contract.**
+Under a fixed-price contract the provider keeps the difference between the contract price and the realised cost.
+
+$$
+\pi_i^{\text{fixed-price}} = P^{\text{fixed}} - c_i^{\text{realized}}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Mission-Driven Capability Trajectory.*
+Capability is modelled as an initial stock plus the integral of a generation rate that depends on government demand and the mission target.
+
+$$
+C(t) = C_0 + \int_0^t g(D^{\text{gov}}(\tau), M) \, d\tau
+\tag{32}
+$$
+
+*Equation 33, Bespoke Spinoff Capability Trajectory.*
+Spinoff capability is modelled as an initial stock plus the integral of a generation rate that depends on accumulated capability.
+
+$$
+S(t) = S_0 + \int_0^t h(C(\tau)) \, d\tau
+\tag{33}
+$$
+
+*Equation 34, Bespoke Spinoff-to-Anchor Ratio.*
+The article defines the return on anchor spending as spinoff capability divided by government demand.
+
+$$
+\rho(t) = \frac{S(t)}{D^{\text{gov}}(t)}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Direct-Attribution Spinoff Ratio.*
+The direct estimator counts only spinoff products with traceable anchor provenance, so it understates the ratio.
+
+$$
+\hat{\rho}^{\text{direct}} = \frac{\sum_j S_j^{\text{traceable}}}{D^{\text{gov}}}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Residual-Attribution Spinoff Ratio.*
+The residual estimator takes observed spinoff less a counterfactual no-anchor spinoff, so it depends on how that counterfactual is specified.
+
+$$
+\hat{\rho}^{\text{residual}} = \frac{S^{\text{observed}} - S^{\text{no-anchor}}}{D^{\text{gov}}}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Captured Share of Spinoff Value.*
+The provider retains the fraction of total spinoff value that does not transfer to unaffiliated firms, where the transfer fraction is a parameter the article introduces.
+
+$$
+V_i^{\text{spinoff-captured}} = (1 - \tau^{\text{IP}}) \cdot V^{\text{spinoff-total}}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Joint Closure Probability under Independence.*
+The probability of closing all ten conditions is the product of the marginal probabilities under the independence assumption the article adopts as a baseline.
+
+$$
+\Pi_{\text{joint}}^{\text{indep}} = \prod_{k=1}^{10} \pi_k
+\tag{38}
+$$
+
+**Equation 39, Chain Rule for a Joint Probability.**
+A joint probability factors into a product of conditional probabilities, each conditioned on all the earlier events.
+
+$$
+\Pi_{\text{joint}} = \prod_{k=1}^{10} \Pr(\text{closure}_k \mid \text{closure}_1, \ldots, \text{closure}_{k-1})
+\tag{39}
+$$
+
+*Equation 40, Bespoke Correlation Adjustment to Joint Closure.*
+The article inflates the independent product by an exponential of pairwise correlations weighted by the indicator standard deviations, an approximation it attributes to a Gaussian copula.
+
+$$
+\Pi_{\text{joint}}^{\text{corr}} \approx \left(\prod_{k=1}^{10} \pi_k\right) \cdot \exp\left(\sum_{j<k} r_{jk} \cdot \sigma_j \sigma_k\right)
+\tag{40}
+$$
+
+*Equation 41, Bespoke Closure Vector and Score.*
+Each firm receives a binary vector over the ten conditions, and its score counts the conditions closed.
+
+$$
+\mathbf{c}_i = (c_{i,1}, c_{i,2}, \ldots, c_{i,10}) \in \{0, 1\}^{10}, \quad C_i^{\text{score}} = \sum_{k=1}^{10} c_{i,k}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Founder Portable Capital Condition.*
+The founder's initial capital must cover the fixed cost of reaching a technical demonstration less the external revenue expected before it.
+
+$$
+K^{\text{portable}}_0 \geq F^{\text{demonstration}} - E[R^{\text{external}}(\text{demonstration})]
+\tag{42}
+$$
+
+*Equation 43, Bespoke Value-Gradient Condition.*
+The article requires the value trajectory of a venture to rise strictly throughout the development horizon.
+
+$$
+\frac{dV_i(t)}{dt} > 0 \quad \forall t \in [0, T^{\text{mission}}]
+\tag{43}
+$$
+
+*Equation 44, Bespoke Anchor-Share Condition.*
+The article requires the share of revenue from anchor customers to stay at or above a threshold.
+
+$$
+\frac{D_i^{\text{anchor}}(t)}{D_i^{\text{total}}(t)} \geq \theta^{\text{anchor}}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Value-Capture Ratio Condition.*
+The article requires the ratio of retained to created value to stay at or above a threshold.
+
+$$
+\kappa_i^{\text{capture}} = \frac{V_i^{\text{retained}}}{V_i^{\text{created}}} \geq \kappa^{\text{threshold}}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Decomposed Portfolio Value.*
+Portfolio value is the sum of the rung values, with each rung required to carry strictly positive value.
+
+$$
+V_i^{\text{portfolio}} = \sum_{r=1}^{R_i} V_{i,r}^{\text{rung}}, \quad V_{i,r}^{\text{rung}} > 0 \text{ for each } r
+\tag{46}
+$$
+
+*Equation 47, Bespoke Generality Parameter.*
+The article measures generality as the share of addressable adjacent domains to which the capability of the venture has transferred.
+
+$$
+\gamma_i^{\text{generality}} = \frac{|\mathcal{D}_i^{\text{transfer}}|}{|\mathcal{D}^{\text{addressable}}|} \in [0, 1]
+\tag{47}
+$$
+
+*Equation 48, Bespoke Founder Voting Control Condition.*
+The article requires the voting share of the founder to remain at or above the control threshold throughout the horizon.
+
+$$
+s_i^{\text{voting-founder}}(t) \geq s^{\text{control-threshold}} \quad \forall t \in [0, T^{\text{horizon}}]
+\tag{48}
+$$
+
+**Equation 49, Variance of a Weighted Portfolio.**
+The variance of a weighted sum is the weighted sum of variances plus twice the weighted pairwise covariances.
+
+$$
+\text{Var}(V_i^{\text{portfolio}}) = \sum_{r=1}^{R_i} w_r^2 \, \text{Var}(V_{i,r}) + 2 \sum_{r < s} w_r w_s \, \text{Cov}(V_{i,r}, V_{i,s})
+\tag{49}
+$$
+
+*Equation 50, Bespoke Government Share of Capital.*
+The article defines the weight of the government leg as government capital divided by total capital.
+
+$$
+w_i^{\text{gov}}(t) = \frac{K_i^{\text{gov}}(t)}{K_i^{\text{total}}(t)}
+\tag{50}
+$$
+
+**Equation 51, Founder Equity after Successive Rounds.**
+Repeated dilution multiplies the initial founder share by the ratio of pre-money to post-money valuation for every round.
+
+$$
+s_i^{\text{founder-equity}}(T) = s_i^{\text{founder-equity}}(0) \cdot \prod_{r=1}^{R^{\text{rounds}}} \frac{V_r^{\text{pre}}}{V_r^{\text{pre}} + I_r}
+\tag{51}
+$$
+
+**Equation 52, Logistic Saturation of Spinoff Revenue.**
+Spinoff revenue follows a logistic curve that rises through an inflection time towards a saturation level.
+
+$$
+R_i^{\text{spinoff}}(t) = \frac{R^{\text{spinoff-max}}}{1 + e^{-\lambda (t - t_0)}}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Cash Runway in 2008.*
+Runway is remaining cash divided by the burn rate, evaluated with 5 million dollars, the midpoint of the stated range of 4 to 6 million dollars.
+
+$$
+\text{runway} = \frac{K^{\text{cash}}_{\text{remaining}}}{\dot{B}^{\text{burn}}} \approx \frac{5 \text{ M dollars}}{\text{monthly burn}} \ll T^{\text{until-fourth-attempt}}
+\tag{53}
+$$
+
+**Equation 54, Present Value of the First Resupply Services Contract.**
+The present value of the first Commercial Resupply Services contract sums the discounted mission payments, and the article equates it to the announced award of about 1.6 billion dollars.
+[Orbital Sciences was selected in February 2008][ref_nasa_crs1_press_2008]
+
+$$
+PV^{\text{CRS-1}} = \sum_{k=1}^{12} \frac{P_k^{\text{mission}}}{(1 + r)^{t_k}} \approx 1.6 \text{ billion dollars}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Widening Cost Gap Condition.*
+The article states disruption as a positive and growing difference between the incumbent cost and the entrant cost.
+[Christensen 1997][book_christensen_1997]
+
+$$
+\Delta c(t) = c_i^{\text{ULA}}(t) - c_i^{\text{SpaceX}}(t) > 0, \quad \frac{d \Delta c}{dt} > 0
+\tag{55}
+$$
+
+*Equation 56, Bespoke Founder Effect Counterfactual.*
+The founder effect is defined as observed capability less the capability of a counterfactual trajectory without the founder.
+[Vance 2015][book_vance_2015]
+
+$$
+\Delta T^{\text{founder}} = T_i^{\text{observed}} - T_i^{\text{no-founder counterfactual}}
+\tag{56}
+$$
+
+*Equation 57, Bespoke State-Firm Coordination Index.*
+The article weights the government share of revenue, the share of sector-specific regulation and an indicator of formal coordination into one index.
+
+$$
+\text{SFC}_i = w^{\text{gov-revenue}} \cdot \frac{R^{\text{gov}}_i}{R^{\text{total}}_i} + w^{\text{regulation}} \cdot \frac{|\text{sector-specific regulations}|}{|\text{sector regulations total}|} + w^{\text{coordination}} \cdot I^{\text{formal-coordination}}_i
+\tag{57}
+$$
+
+**Equation 58, Profit Difference between Fixed-Price and Cost-Plus Contracts.**
+The fixed-price residual less the cost-plus margin gives the profit advantage of a fixed-price contract at a given realised cost.
+
+$$
+\pi_i^{\text{fixed-price}} - \pi_i^{\text{cost-plus}} = (P^{\text{fixed}} - c_i^{\text{realized}}) - \phi_i \cdot c_i^{\text{realized}}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Platform Power Index.*
+The article multiplies sector concentration by the Lerner index of the firm to combine market share and markup.
+
+$$
+M_i^{\text{platform-power}} = \text{HHI}_{\text{sector}} \cdot L_i^{\text{Lerner}}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Mission-Directed Capability Increment.*
+Mission-directed capability is the market-directed baseline plus the integral of an increment driven by the mission and government demand.
+[Mazzucato 2013][book_mazzucato_2013]
+[Mazzucato 2021][book_mazzucato_2021]
+
+$$
+C_i^{\text{mission}}(t) = C_i^{\text{market}}(t) + \int_0^t g^{\text{mission}}(M, D^{\text{gov}}(\tau)) \, d\tau
+\tag{60}
+$$
+
+*Equation 61, Bespoke Resource Heterogeneity Index.*
+The article scores resources by a weighted sum of the products of their value, rarity, inimitability and non-substitutability.
+[Barney 1991][research_barney_1991]
+
+$$
+H_i = \sum_{r \in \text{resources}} \omega_r \cdot (V_r \cdot R_r \cdot I_r \cdot N_r)
+\tag{61}
+$$
+
+**Equation 62, Backward Induction for a Real Option.**
+The option value at each date is the greater of the exercise value and the discounted expected continuation value.
+[Dixit and Pindyck 1994][book_dixit_pindyck_1994]
+[Trigeorgis 1996][book_trigeorgis_1996]
+
+$$
+V_t = \max\left\{V_t^{\text{exercise}}, \, e^{-r \Delta t} \cdot E[V_{t+1} \mid F_t]\right\}
+\tag{62}
+$$
+
+**Equation 63, Economic Rent as Excess Profit.**
+Rent is the observed profit less the profit a competitive benchmark would yield.
+[Krueger 1974][research_krueger_1974]
+
+$$
+\text{Rent}_i = \pi_i^{\text{observed}} - \pi_i^{\text{competitive-benchmark}}
+\tag{63}
+$$
+
+**Equation 64, Replicator Equation.**
+The share of a firm grows in proportion to its share and to the difference between its fitness and the mean fitness of the sector.
+[Metcalfe 1998][book_metcalfe_1998]
+
+$$
+\dot{s}_i(t) = s_i(t) \cdot [f_i(t) - \bar{f}(t)]
+\tag{64}
+$$
+
+*Equation 65, Bespoke Closure Vector for Alternative Cases.*
+Each alternative case receives a binary vector over the ten conditions, and its score counts the conditions closed.
+
+$$
+\mathbf{c}_j \in \{0, 1\}^{10}, \quad C_j^{\text{score}} = \sum_{k=1}^{10} c_{j,k}
+\tag{65}
+$$
+
+### Notation
+
+- $T_i(t)$, the observed technical capability of firm $i$ at time $t$
+- $K_i(t)$, the accumulated capital investment in firm $i$
+- $D_i(t)$, the demand-pull intensity firm $i$ faces from government and commercial customers
+- $M_i(t)$, the mission-organisational commitment of firm $i$
+- $G_i(t)$, the governance structure of firm $i$
+- $C_i(t)$, the composition of the capital sources funding firm $i$
+- $\varepsilon_i(t)$, the unexplained residual
+- $Z_i$, an exogenous procurement-mechanism instrument
+- $F_i$, the fixed capability cost per period
+- $c_i$, the marginal cost per launch, and in the cost-plus share the reported cost
+- $q_i$, the launch output of firm $i$, and in the fixed-price share the milestones completed
+- $m_i$, the payload mass to a reference orbit
+- $\gamma_i$, the learning-curve exponent of firm $i$
+- $f_i$, the failures of provider $i$, and with an argument $t$ the fitness of firm $i$ in the replicator equation
+- $\varepsilon_i^{\text{demand}}$, the price elasticity of demand facing provider $i$
+- $\phi_i$, the negotiated profit margin under cost-plus procurement
+- $\tau^{\text{IP}}$, the fraction of anchor-financed capability that transfers to unaffiliated firms
+- $\pi_k$, the marginal probability that a venture closes condition $k$
+- $r_{jk}$, the pairwise correlation between the closure of conditions $j$ and $k$
+- $V_t^{\text{pre}}$, the pre-money valuation at round $t$
+- $I_t$, the new investment at round $t$
+- $\omega_r$, the weight of resource $r$
 
 ## References
 

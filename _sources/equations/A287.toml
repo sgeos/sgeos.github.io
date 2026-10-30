@@ -1,0 +1,703 @@
+# Equation classification for A287. Read by `python3 _lib/equations.py`.
+
+caution = "Cash-flow and voting shares are fractions of the whole between zero and one, a wedge is their dimensionless ratio, and the wedges evaluated for SpaceX and the comparison firms rest on reported or reconstructive estimates rather than on any disclosure of the class structure."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Control Wedge"
+gloss = "The wedge of a claimant is the ratio of their voting share to their cash-flow share, equal to one under one share one vote."
+cite = ["research_laporta_et_al_1998"]
+digest = "1b114d66890d283c"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Founder Control Condition"
+gloss = "The condition the article sets requires the founder to hold a voting majority at every time across the financing horizon rather than only at the founding."
+cite = []
+digest = "4e33537497dcae5c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Cash-Flow Share under Successive Dilution"
+gloss = "Each financing round multiplies the existing cash-flow share by one minus the dilution fraction of that round, so the share after many rounds is the product of those factors."
+cite = []
+digest = "0f22f471a2d944bd"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Decoupling of Votes from Dilution"
+gloss = "The statement asserts that under the dual-class configuration the founder voting share is insensitive to dilution while the cash-flow share falls."
+cite = []
+digest = "036300a248d0ded1"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Capital-Capture Indicator"
+gloss = "The indicator the article defines takes the value one when the mission changes toward the capital-weighted preference of the claimants other than the founder."
+cite = []
+digest = "b9a8d1c24086ced5"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Capture Counterfactual Differential"
+gloss = "The governance contribution is defined as the observed value less the value under a counterfactual one-share-one-vote configuration facing the same financing sequence."
+cite = []
+digest = "c4cc72ebb0d09791"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Normalisation of Cash-Flow and Voting Shares"
+gloss = "The cash-flow shares and the voting shares of all claimants each sum to one."
+cite = []
+digest = "37641d5c4ce116be"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Aggregate Wedge"
+gloss = "The aggregate wedge the article defines sums the absolute differences between voting and cash-flow shares across claimants, so it is zero under one share one vote."
+cite = []
+digest = "f983b7c8468ba9e5"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Controller Approval Condition with Private Benefits"
+gloss = "A controller approves a project when their cash-flow share of the change in security value plus the change in private benefits is positive, the condition behind the one-share-one-vote argument."
+cite = ["research_grossman_hart_1988", "research_harris_raviv_1988"]
+digest = "4d630941cad850bd"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Cash-Flow Threshold for Private-Benefit Dominance"
+gloss = "Rearranging the approval condition gives the cash-flow share below which the private-benefit term decides the controller's choice."
+cite = ["research_grossman_hart_1988", "research_harris_raviv_1988"]
+digest = "8794106d32f8d2f3"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Divergent Net Present Values under Different Discount Rates"
+gloss = "When the controller discounts at a lower rate than the investor, some long-horizon projects have positive net present value to the controller and negative net present value to the investor."
+cite = []
+digest = "7593f34f44a95644"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Mission-Persistence Probability"
+gloss = "The probability that the mission persists is modelled as a product over financing rounds of one minus a per-round redirection hazard, which assumes the rounds are independent."
+cite = []
+digest = "4a5c390f77cc3e2b"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Control-Contestability Measure"
+gloss = "The measure the article defines is the smallest voting mass that a coalition excluding the founder must assemble to hold a majority, taken as infinite when no such coalition exists."
+cite = []
+digest = "91f4f26f0a4b783b"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Effective Control Function"
+gloss = "Effective control is posited as an unspecified function of formal votes, the resource dependence of the organisation on the party and the credibility of the threat of withdrawal."
+cite = []
+digest = "f9c918fd92227105"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Jensen and Meckling Agency Cost"
+gloss = "Agency cost is the sum of monitoring expenditure by the principal, bonding expenditure by the agent and the residual loss."
+cite = ["research_jensen_meckling_1976"]
+digest = "44b954209ab3699c"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Residual Control Rights"
+gloss = "The residual control rights are the actions that the contract does not specify, which the incomplete-contracts tradition assigns to the owner."
+cite = ["research_grossman_hart_1986", "research_hart_moore_1990"]
+digest = "b0980659c307b191"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Investor-Protection Index"
+gloss = "The index is a weighted count of the legal protections for minority investors present in a regime, the construction of the law-and-finance tradition."
+cite = ["research_laporta_et_al_1998"]
+digest = "68e58665852a71d0"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Firm Value Declining in the Wedge and Tenure"
+gloss = "The empirical finding is that a valuation ratio falls as the wedge rises and falls faster with the time elapsed since listing."
+cite = ["research_gompers_ishii_metrick_2010", "research_bebchuk_kastiel_2017"]
+digest = "11fbfae2f67f2817"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Generalised Nash Bargaining Solution"
+gloss = "The split of payoffs maximises the product of each party's gain over its disagreement payoff, raised to the power of its bargaining weight."
+cite = ["research_nash_1950", "research_binmore_rubinstein_wolinsky_1986"]
+digest = "adc198a46c5fc0ce"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Staged-Financing Control"
+gloss = "The influence of an investor at a round is modelled as its share of the capital offered for that round, independent of any voting arithmetic."
+cite = ["research_gompers_1995"]
+digest = "5e2ad94269894319"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Defining Condition of Foundation Ownership"
+gloss = "The article formalises foundation ownership as the absence of any natural person holding a positive residual claim."
+cite = []
+digest = "4bb2c9efcad53cf2"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Goal-Displacement Distance"
+gloss = "Goal displacement is defined as the distance between the mission the organisation enacts and the mission it was chartered to pursue, a distance the article leaves without an operational metric."
+cite = []
+digest = "7ffd8f275bc21706"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Founding Wedge of a Self-Funded Founder"
+gloss = "A founder who holds essentially all the equity and all the votes at the founding has a wedge of one, so the control condition holds without any instrument."
+cite = []
+digest = "fcc03f020663f661"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Cash Runway"
+gloss = "The runway is cash on hand divided by the rate of cash burn, which gives the time until the cash is exhausted."
+cite = []
+digest = "276b5b48d091cf7c"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Founder Disagreement Payoff"
+gloss = "The disagreement payoff of the founder is modelled as the larger of the liquidation value and the value of continuing on personal funds, the second term existing only for a founder with independent resources."
+cite = []
+digest = "c2be858990a24c27"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Founder Wedge in the Early 2020s"
+gloss = "Reported holdings of about 79 percent of the votes and 42 percent of the equity give the founder a wedge of about 1.9."
+cite = ["ref_spacex_company"]
+digest = "d09bec6a584d211c"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Voting Share under a Two-Class Structure"
+gloss = "A holder of the whole superior class, with each superior share carrying a given number of votes and each inferior share one vote, holds the superior votes divided by all votes."
+cite = []
+digest = "85962b2333f2b6c5"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Majority Condition under a Two-Class Structure"
+gloss = "The voting share exceeds one half exactly when the ratio of superior to inferior shares exceeds the reciprocal of the votes per superior share."
+cite = []
+digest = "d6aca1c9daeb2bbd"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Cumulative Capital Raised"
+gloss = "The cumulative capital is the sum of the capital raised in each round of the sequence."
+cite = []
+digest = "dee802699b338fd5"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Cumulative Voting Transferred"
+gloss = "The voting share transferred across all rounds is summed and asserted to be near zero, an estimate the article draws from the reported class structure."
+cite = []
+digest = "28e8fa6d2317fb19"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Voting Transferred per Unit of Capital"
+gloss = "The ratio the article defines divides the cumulative voting share transferred by the cumulative capital raised."
+cite = []
+digest = "dcdbf5441923cdb3"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Coalition Coordination Cost"
+gloss = "The cost of assembling a coalition is modelled as proportional to the coalition size and to one minus a concentration measure of the investor base, a linear form the article chose."
+cite = []
+digest = "ee8ee817070fc288"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Post-Money and Pre-Money Valuation"
+gloss = "The post-money valuation is the capital supplied divided by the fraction acquired, and the pre-money valuation is the post-money valuation less the capital."
+cite = []
+digest = "b972a18bb7fbe900"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Utility of a Strategic Investor"
+gloss = "The utility of a strategic investor is modelled as its cash-flow share of venture value plus a weight on the effect of the venture on the investor's own business."
+cite = []
+digest = "7267897d09fe5951"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Round Value as a Constellation Option"
+gloss = "The value purchased in the round is modelled as the launch-service value plus the probability of constellation deployment times the positive part of constellation value net of deployment cost."
+cite = []
+digest = "09d00775ae285aa3"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Liquidity and Governance of a Public Listing"
+gloss = "A public listing is characterised as a pair of large liquidity and large governance obligations."
+cite = []
+digest = "7bb51c7bec9559ba"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Liquidity and Governance of a Tender Offer"
+gloss = "The tender-offer mechanism is characterised as supplying liquidity close to that of a listing with governance obligations near zero."
+cite = []
+digest = "37972f1e3d152f10"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Admissible Buyer Set"
+gloss = "Transfer restrictions are characterised as making the admissible buyers a proper subset of the willing buyers, which the firm selects."
+cite = []
+digest = "96feebed0f9d87a6"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Listing Decision Rule"
+gloss = "Listing is held warranted if and only if the capital requirement exceeds private supply or the liquidity requirement exceeds what tender offers provide."
+cite = []
+digest = "5ded8aa59d81b511"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Private Cost of Capital"
+gloss = "The private required return is modelled as the public return plus an illiquidity premium and an opacity premium, the second of which the article adds."
+cite = []
+digest = "9ecb7afc7cd251c4"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Valuation Variance under Disclosure"
+gloss = "The statement asserts that the market valuation of a disclosed development programme varies far more than that of an undisclosed one."
+cite = []
+digest = "9c7a5d49ce3b2141"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Cost of an Internal Capital Transfer"
+gloss = "The cost of transferring surplus is taken as near zero under the integrated configuration and as a fiduciary review cost plus a minority-protection cost under separation."
+cite = []
+digest = "29a3b1f0e2c109f4"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Separation Decision with a Control Term"
+gloss = "The separation gain is the sum-of-parts value less the integrated value plus a control premium that the controller assigns to unimpeded internal allocation."
+cite = []
+digest = "00374f6a16437b5f"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Formal Wedge of the OpenAI Nonprofit Board"
+gloss = "A board holding all votes and no equity has a wedge that is unbounded."
+cite = []
+digest = "b546ebb29a5b7cc1"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Effective Control of the OpenAI Board"
+gloss = "The statement records the article's judgement that the board held effective control near zero in November 2023 despite holding all formal votes."
+cite = []
+digest = "87cc8233536b1fd8"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Condition for Formal Control to Prevail"
+gloss = "A formally controlling body is held able to prevail only when the product of the share of value in mobile human capital and the equity-linked share of compensation lies below a threshold set by switching costs."
+cite = []
+digest = "07e1e16ebbba355e"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Threshold Model of Collective Departure"
+gloss = "Each individual departs once the fraction of colleagues committed to depart reaches that individual's threshold, the threshold model of collective behaviour."
+cite = []
+digest = "78244e1d1370f9dc"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Binding Condition for a Return Cap"
+gloss = "A return cap is held acceptable to incoming investors only while it exceeds the market return required for the risk."
+cite = []
+digest = "5949ed5b31487324"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Tesla and SpaceX Wedges Compared"
+gloss = "A reported stake of about 13 percent under one share one vote gives a wedge of about one at Tesla, against about 1.9 at SpaceX."
+cite = ["ref_tesla_ir"]
+digest = "14dfb6f481ae8c2d"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Delaware Standard of Review Selection"
+gloss = "Delaware law reviews a transaction under the business judgment rule unless a controller stands on both sides, in which case entire fairness applies absent cleansing procedures."
+cite = ["ref_delaware_opinions"]
+digest = "d330ac37b3c31f4d"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Effective Control without a Voting Majority"
+gloss = "Effective control is modelled as a linear combination of formal votes, board relationships, retail support and indispensability, with weights the article leaves unestimated."
+cite = []
+digest = "ec1812fe8217be14"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Statutory Restriction of the Action Set"
+gloss = "The permitted actions of the foundation are the full action set less the actions the founding statute prohibits."
+cite = []
+digest = "7321e2ea992d59e0"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Wedges of the Bosch Foundation and Industrial Trust"
+gloss = "The disclosed split of about 94 percent of capital with 0.01 percent of votes and 0.01 percent of capital with 93 percent of votes gives wedges of about 0.0001 and 9300."
+cite = ["ref_bosch_annual_report"]
+digest = "6c7de72325ec4ee2"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Wedge of the Novo Nordisk Foundation"
+gloss = "The reported position of about 28 percent of capital and 77 percent of votes gives a wedge of about 2.8."
+cite = ["ref_novo_nordisk_investors"]
+digest = "a82baeca85e6d7e8"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Survival Function"
+gloss = "The survival function is the probability that a configuration remains intact at a given time after its establishment."
+cite = []
+digest = "0ed5d78149de39a8"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Voting Ratio under a Sunset Provision"
+gloss = "A sunset provision keeps the superior voting ratio until the trigger time and reduces it to one share one vote thereafter."
+cite = ["research_bebchuk_kastiel_2017"]
+digest = "48f5121728669ea1"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Sunset Compatibility with the Mission"
+gloss = "A sunset is held compatible with the mission only when the sunset falls later than the completion horizon of the mission."
+cite = []
+digest = "00ad8986d5ceb9fb"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Ford Family Wedge"
+gloss = "About 40 percent of the votes against an equity position the article takes as 2 percent, a representative value for a few percent, gives a wedge of about 20."
+cite = []
+digest = "944c7d77f5d67740"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Ordering of Configuration Hazards"
+gloss = "The hazard of losing the control configuration is ordered from foundation through family and founder dual-class arrangements to regulated monopoly, an ordering the article reads from its precedent set."
+cite = []
+digest = "9be995bd80ae8c26"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Blue Origin Governance Configuration"
+gloss = "A single funder holding essentially all equity and votes is taken to give a unit wedge with infinite contestability, an approximation the article makes in the absence of disclosure."
+cite = []
+digest = "8da52961637f02c4"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Governance-Pressure Gradient"
+gloss = "The pressure from institutional investors is ordered from listed single-class firms through listed dual-class firms to unlisted firms, a ranking the article asserts."
+cite = []
+digest = "3c3442372b40c350"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Ordering of Comparison-Set Wedges"
+gloss = "The wedges of the comparison set are arrayed from unity for United Launch Alliance and Rocket Lab, which the article assumes, through SpaceX and Novo to the Bosch trust."
+cite = []
+digest = "e3d47941c045faa3"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Governance Closure Vector"
+gloss = "Each organisation receives a binary vector over the five governance sub-properties that the pattern-extraction section states."
+cite = []
+digest = "a155359783ba8f71"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Correlation of Instrument and Successor Sub-Properties"
+gloss = "The statement records the article's finding that the formal-instrument and successor-commitment indicators are nearly uncorrelated across its scored set."
+cite = []
+digest = "e8eb961fca9f593b"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Linear Agency Prediction"
+gloss = "The agency prediction is specified as value falling linearly in the wedge and in the product of wedge and tenure, a functional form the article chose."
+cite = []
+digest = "4d8879cdf6776418"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Stewardship and Agency Objectives"
+gloss = "The stewardship premise equates the controller objective with that of the enterprise, while the agency premise adds a private-benefit term to a cash-flow share of it."
+cite = []
+digest = "d3aa029112ae4d9f"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Dependence-Weighted Control"
+gloss = "Effective control is modelled as the product of resource criticality and threat credibility for a party, normalised over all parties."
+cite = ["book_fligstein_2001"]
+digest = "e31e3dfe56a34fc4"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Escalation Hazard"
+gloss = "The probability of continuing after a negative signal is posited as an unspecified function increasing in sunk cost, public commitment and the absence of an external check."
+cite = []
+digest = "e4bff3c79f007a6f"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Option Value of Retained Control"
+gloss = "The value of control is constructed as the probability-weighted gain, across contingencies, from choosing the best action rather than accepting a default action."
+cite = []
+digest = "c4915bd6222a7140"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Governance Conjunctive Closure"
+gloss = "Closure is the product of five binary sub-property indicators, so that it obtains only when every indicator is one."
+cite = []
+digest = "8b726370ac76aacd"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Succession Survival Probability"
+gloss = "Survival through a succession is modelled as the product of the probabilities that a successor is identified, that the instrument transfers and that the successor sustains the mission, which assumes the three are independent."
+cite = []
+digest = "873b40c32906944a"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Governance Test Vector"
+gloss = "The test vector collects the five diagnostic conditions, from a wedge above one to a falsifiable mission."
+cite = []
+digest = "974f8071b83b2102"
+
+[[symbol]]
+tex = 'e_i'
+meaning = "the cash-flow share of the claimant $i$"
+
+[[symbol]]
+tex = 'v_i'
+meaning = "the voting share of the claimant $i$"
+
+[[symbol]]
+tex = 'w_i'
+meaning = "the control wedge of the claimant $i$, the ratio of voting to cash-flow share"
+
+[[symbol]]
+tex = '\delta_n'
+meaning = "the dilution fraction of the financing round $n$, and without a subscript the fraction a round acquires"
+
+[[symbol]]
+tex = '\kappa(t)'
+meaning = "the capital-capture indicator at time $t$"
+
+[[symbol]]
+tex = 'M(t)'
+meaning = "the mission objective at time $t$"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aggregate wedge across the claimant set"
+
+[[symbol]]
+tex = '\Delta B^{\text{private}}'
+meaning = "the change in private benefits accruing to the controller alone"
+
+[[symbol]]
+tex = '\Delta V^{\text{security}}'
+meaning = "the change in total security value"
+
+[[symbol]]
+tex = 'q_n'
+meaning = "the probability that the financing round $n$ produces a mission redirection"
+
+[[symbol]]
+tex = 'C^{\text{contest}}'
+meaning = "the smallest voting mass a coalition excluding the founder needs to prevail"
+
+[[symbol]]
+tex = 'd_i'
+meaning = "the resource dependence of the organisation on the party $i$"
+
+[[symbol]]
+tex = '\sigma_i'
+meaning = "the credibility of the threat of the party $i$ to withdraw"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the relative bargaining power of the founder"
+
+[[symbol]]
+tex = 'd^{\text{founder}}'
+meaning = "the disagreement payoff of the founder"
+
+[[symbol]]
+tex = '\Theta'
+meaning = "the cash runway, measured in time"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the votes per superior share, with each inferior share carrying one vote"
+
+[[symbol]]
+tex = 'n_A'
+meaning = "the number of superior-class shares"
+
+[[symbol]]
+tex = 'n_B'
+meaning = "the number of inferior-class shares"
+
+[[symbol]]
+tex = 'K^{\text{cumulative}}'
+meaning = "the cumulative capital raised across the financing sequence"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the voting share transferred per unit of capital raised"
+
+[[symbol]]
+tex = 'h'
+meaning = "a concentration measure of the investor base"
+
+[[symbol]]
+tex = '\phi_i'
+meaning = "the weight a strategic investor places on the effect of the venture on its own business"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the fraction of productive value embodied in mobile human capital"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the fraction of personnel compensation contingent on equity value"
+
+[[symbol]]
+tex = '\theta_i'
+meaning = "the departure threshold of the individual $i$"
+
+[[symbol]]
+tex = 'T^{\text{sunset}}'
+meaning = "the time at which a sunset provision triggers"
+
+[[symbol]]
+tex = 'S(t)'
+meaning = "the survival function of a control configuration"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the time since listing, and in the closing procedure the ordered test vector"
+
+[[symbol]]
+tex = '\boldsymbol{\phi}_j'
+meaning = "the binary closure vector of the organisation $j$ over five sub-properties"
+
+[[symbol]]
+tex = '\Phi^{\text{governance}}'
+meaning = "the conjunctive closure, the product of the five sub-property indicators"

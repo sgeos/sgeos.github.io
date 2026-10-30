@@ -1,0 +1,603 @@
+# Equation classification for A282. Read by `python3 _lib/equations.py`.
+
+caution = "Value, capability and credential terms are abstract indices without units, while costs and prices are nominal United States dollars, specific impulse is in seconds, speeds are in metres per second and times are in years unless a month is stated."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Value-Gradient Condition"
+gloss = "The article requires the cumulative value realised by a venture to rise strictly at every moment of the development horizon."
+cite = []
+digest = "650e009f2861c719"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Cumulative Value Monotonicity"
+gloss = "The integrated form of the condition requires value at any later time to exceed value at any earlier time within the horizon."
+cite = []
+digest = "8380b56caef3e265"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Single-Bet Value Profile"
+gloss = "The article characterises the single-bet negation as near-zero value until a small interval before mission completion, when the terminal value arrives."
+cite = []
+digest = "3bd3cbfdfccfb359"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Compound Annual Growth Rate of Value"
+gloss = "The compound annual rate is the ratio of final to initial value raised to the reciprocal of the elapsed years, less one."
+cite = []
+digest = "846901b09cf28ee4"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Strict Monotonicity Requirement"
+gloss = "The article restates the value-gradient condition as a strictly positive derivative of cumulative value over the horizon."
+cite = []
+digest = "650e009f2861c719"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Absolutely Continuous Value Accumulation"
+gloss = "The article requires value to accrue as the integral of a positive rate, so that gains arrive continuously rather than in isolated jumps."
+cite = []
+digest = "c46e514d51cd69ef"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Singular-Value Trajectory"
+gloss = "The single-bet negation places the whole value in a step at the mission-completion time."
+cite = []
+digest = "c1312ca4589c5887"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Four-Channel Value Decomposition"
+gloss = "The article divides cumulative value into revenue, capability, credential and demonstration channels plus an unattributed residual."
+cite = []
+digest = "4a2a76c4ccf1a133"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Wright Learning Curve"
+gloss = "Unit cost falls as a power of cumulative production, with the article quoting a typical range for the learning exponent."
+cite = ["research_wright_1936"]
+digest = "972e78f1a0fa8a67"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Cumulative Saving from the Learning Curve"
+gloss = "Integrating the gap between first-unit cost and learning-curve cost over production gives the cumulative saving, which grows without bound for a positive exponent."
+cite = []
+digest = "77fc05fadd87bc77"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Backward Induction for a Real Option"
+gloss = "The option value at each date is the greater of the exercise value and the discounted expected continuation value."
+cite = ["book_dixit_pindyck_1994"]
+digest = "1a922c183f8db556"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Aggregate Real-Options Value"
+gloss = "The article sums the discounted option values of every stage into one total for the trajectory."
+cite = []
+digest = "3f8b4b7a4a6b3bdf"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Beta Posterior for Reliability"
+gloss = "A Beta prior on reliability updated with successes and failures from a number of flights gives a Beta posterior whose parameters add the counts."
+cite = []
+digest = "e6f26eadf63655d3"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Per-Flight Cost of a Reusable Stage"
+gloss = "The article assembles the per-flight cost of a recovered stage from its hardware cost spread over the flights it survives plus refurbishment and recovery costs."
+cite = []
+digest = "54dc3cd7b489968f"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Break-Even Flight Count for Reuse"
+gloss = "The break-even count divides the stage hardware cost by the saving per flight over an expendable stage net of refurbishment, recovery operations and amortised recovery hardware."
+cite = []
+digest = "a97d8b0a2adfc693"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Variance of a Sum of Channels"
+gloss = "The variance of a sum equals the sum of the channel variances plus twice the sum of their pairwise covariances."
+cite = []
+digest = "d8056d0f672ab2fe"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Present Value of a Continuous Value Stream"
+gloss = "The present value discounts each increment of value continuously at the applicable rate and integrates over time."
+cite = []
+digest = "4bbe1722eae498b5"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Present-Value Advantage of a Value Gradient"
+gloss = "The article compares a continuous value stream with a single terminal payment of the same horizon and attributes the difference to the earlier timing of the increments."
+cite = []
+digest = "7d5c7dfb269b4b64"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Bayes Rule for a Sequential Reliability Update"
+gloss = "The posterior after a new flight outcome is the likelihood times the previous posterior, normalised over all reliability values."
+cite = []
+digest = "2ccc99d11e0afe66"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Expected Time to Certification"
+gloss = "The article divides the required flight count by an achievable cadence, which assumes a constant flight rate."
+cite = []
+digest = "3bdfb0a42258d983"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Log-Linear Form of the Wright Learning Curve"
+gloss = "Taking logarithms turns the power law of unit cost into a straight line in the logarithm of cumulative production."
+cite = ["research_wright_1936", "research_argote_epple_1990"]
+digest = "64d1f3a182624aee"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Compound Option on a Second Rung"
+gloss = "A compound option is worth the greater of zero and the discounted risk-neutral expectation of the second-stage option less the first exercise cost."
+cite = ["book_trigeorgis_1996"]
+digest = "edc1e9017f85352e"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Prospect Theory Value Function"
+gloss = "The value function is concave for gains and convex and steeper for losses, with curvature exponents and a loss-aversion coefficient estimated by experiment."
+cite = ["research_kahneman_tversky_1979", "research_tversky_kahneman_1992"]
+digest = "24211eac74ee94f1"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Escalation Cost"
+gloss = "The article writes the cost of escalating commitment as the sunk costs accumulated until abandonment less the eventual salvage."
+cite = ["research_staw_1976"]
+digest = "9584cc0cfde1282e"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Polya-Urn Limit under Increasing Returns"
+gloss = "Under increasing returns the probability that each technology dominates converges to a limit set by the early adoption history, and the limits sum to one."
+cite = ["research_arthur_1989"]
+digest = "fb6755fa171eed05"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke State-Firm Coordination Coefficient"
+gloss = "The article weights the government share of revenue, a regulatory alignment intensity and a formal coordination indicator into one index."
+cite = []
+digest = "a590e53fa1ed317e"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Absorptive Capacity Function"
+gloss = "The article writes absorptive capacity as an unspecified function of research intensity, human capital and network ties."
+cite = ["research_cohen_levinthal_1990"]
+digest = "23490011b100644c"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Ecosystem Value Appropriation"
+gloss = "The article weights firm value by the appropriation fraction and total ecosystem value by its complement."
+cite = []
+digest = "a17f8692e56c1a35"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Cash Runway in 2008"
+gloss = "Runway is remaining cash divided by the monthly burn, evaluated with 5 million dollars, the midpoint of the stated range of 4 to 6 million dollars."
+cite = []
+digest = "593dc3b7ea964476"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Cost per Falcon 1 Attempt"
+gloss = "The article spreads a fixed campaign cost over the number of attempts and adds a variable cost for each attempt."
+cite = []
+digest = "112fca896b438656"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Cumulative Capital of the Falcon 1 Program"
+gloss = "The article sums founder capital, external rounds and the integral of the operational burn into one cumulative capital figure."
+cite = []
+digest = "1af1fc8a81ac4922"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Beta Posterior after the Falcon 1 Attempts"
+gloss = "The same conjugate update applied to the Falcon 1 flight record adds the successes and failures of the attempts to the parameters of the prior."
+cite = []
+digest = "27b99bf7e5b25b73"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Present Value of Milestone Payments"
+gloss = "The present value of a milestone agreement sums each payment discounted to its achievement time."
+cite = []
+digest = "40519a5987c236b1"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Reliability of a Nine-Engine Cluster with One Engine Out"
+gloss = "The binomial probability that at least eight of nine independent engines work gives the reliability of a cluster that tolerates one failure."
+cite = []
+digest = "498d2509588f7a58"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Log-Linear Learning Curve for Merlin Production"
+gloss = "The logarithm of the unit cost of the Merlin engine falls linearly in the logarithm of cumulative production."
+cite = []
+digest = "bebee1d89c6e86b3"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The velocity change equals the effective exhaust velocity, specific impulse times standard gravity, multiplied by the natural logarithm of the initial to final mass ratio."
+cite = []
+digest = "754b1670bb8cd29c"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Constant Growth of Engine Thrust-to-Weight"
+gloss = "The article fits the Merlin thrust-to-weight ratio to a constant compound growth per engine generation."
+cite = []
+digest = "c4cc29d1b9f3e495"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Exponential Grasshopper Altitude"
+gloss = "The article fits the altitude reached on each Grasshopper flight to an exponential in the flight number."
+cite = []
+digest = "04ad4f2360878579"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Boost-Back Velocity Change"
+gloss = "The article approximates the boost-back burn as twice the horizontal component of the separation velocity, which reverses that component and neglects gravity and drag."
+cite = []
+digest = "7c2375dd8be2e7d9"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Entry Burn Speed"
+gloss = "The article writes the speed after the entry burn as the peak descent speed less the velocity change of the burn."
+cite = []
+digest = "4e8f9116e0352a87"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Touchdown Speed of the Landing Burn"
+gloss = "The article subtracts thrust times burn duration divided by mass from the terminal speed, which treats mass as constant and omits gravity."
+cite = []
+digest = "71bd9d40f5f6e124"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Per-Flight Cost with a Recoverable Fraction"
+gloss = "The article spreads the recoverable fraction of expendable cost over the flights of a booster and charges the remainder on every flight."
+cite = []
+digest = "2d549e4a9457f2e7"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Empirical Distribution of Booster Flight Counts"
+gloss = "The probability of a flight count is the number of boosters with that count divided by the total number of boosters."
+cite = []
+digest = "2874ecc5d7d05d28"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Mean Time between Reflights"
+gloss = "The mean time between reflights is the observation period divided by the total number of reflights across the fleet."
+cite = []
+digest = "46dbf047bfcb4da4"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Payload Penalty of First-Stage Recovery"
+gloss = "The article reduces the expendable payload by the recovery velocity change divided by the exhaust velocity times the initial mass, a linearisation of the rocket equation."
+cite = []
+digest = "ef3a3fc8281a6b7e"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Reflight Cap for Block 5"
+gloss = "The article caps the reflight target at the lesser of the design target and a count limited by observed reliability."
+cite = []
+digest = "f8969a3499a106d6"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Iridium Constellation Threshold"
+gloss = "The article assigns the constellation zero value until the operational satellite count reaches the coverage threshold."
+cite = []
+digest = "2b5d3cd39fe5c297"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Iridium Subscriber Shortfall Ratio"
+gloss = "The relative shortfall of actual against forecast subscribers is evaluated with the reported 55000 subscribers against the forecast 500000."
+cite = []
+digest = "96895b5da3f4bb43"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Iridium Revenue-to-Debt-Service Ratio"
+gloss = "The ratio divides annual subscription revenue by interest on principal, evaluated with a representative revenue per user of 300 dollars a month and an assumed debt-service rate of 10 percent."
+cite = []
+digest = "dfa057000baf13a3"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Iridium Salvage Recovery Ratio"
+gloss = "The reported sale price of about 25 million dollars divided by the investment of about 5 billion dollars gives the fraction of capital recovered."
+cite = []
+digest = "4d2fa4824245eaee"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Iridium Time to Failure"
+gloss = "The interval from the start of commercial service to the bankruptcy filing is evaluated from the two reported dates."
+cite = []
+digest = "42aa6cc9ac48fce1"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Cumulative Flights of the Wright Campaign"
+gloss = "The total flights across the Wright brothers' campaign is the sum of the yearly counts from 1899 to 1903."
+cite = ["book_crouch_2003"]
+digest = "580364ad079e9ae7"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Exponential Approach of Manhattan Project Cost"
+gloss = "The article fits cumulative Manhattan Project spending to an exponential approach to the final total with a fitted rate."
+cite = []
+digest = "289da49ebf9dd062"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Falcon 9 Price Ratio against Alternatives"
+gloss = "The article bounds the ratio of the Falcon 9 price per kilogram to that of alternative providers within a range it states."
+cite = []
+digest = "8bc1962f9646d6df"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Herfindahl-Hirschman Index of United States Launch"
+gloss = "The Herfindahl-Hirschman index sums the squared shares of launched mass across United States providers."
+cite = []
+digest = "e70667efdf7aa70a"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Disruptive Displacement Condition"
+gloss = "The article formalises disruption as the conjunction of an entrant price below the incumbent price and an entrant quality at or above a mainstream threshold."
+cite = ["research_bower_christensen_1995"]
+digest = "dd791682ad7ca69d"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Tsiolkovsky Rocket Equation in Initial and Final Mass"
+gloss = "The velocity change equals specific impulse times standard gravity multiplied by the natural logarithm of the ratio of initial to final mass."
+cite = []
+digest = "2e54a433fc0e1eda"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Constant-Elasticity Demand Curve"
+gloss = "Quantity demanded is a constant multiplied by price raised to the negative elasticity."
+cite = []
+digest = "3e932873447bde0c"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Economic Rent as Excess Profit"
+gloss = "Rent is the observed profit less the profit a competitive benchmark would yield."
+cite = ["research_krueger_1974"]
+digest = "0547e78e4d21c2ad"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Resource Heterogeneity Index"
+gloss = "The article scores resources by a weighted sum of the products of their value, rarity, inimitability and non-substitutability."
+cite = ["research_barney_1991"]
+digest = "0726816689a6e257"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Joint Closure Probability under Independence"
+gloss = "The probability of closing all five sub-properties is the product of the marginal probabilities under the independence assumption the article adopts."
+cite = []
+digest = "5ab2f823e7e90ed5"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Correlation Adjustment to Joint Closure"
+gloss = "The article inflates the independent product by an exponential of a single pairwise correlation times the summed products of indicator standard deviations, an approximation it attributes to a Gaussian copula."
+cite = []
+digest = "4ae5d61391b60655"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Value-Gradient Closure Conjunction"
+gloss = "The article defines closure as the logical conjunction of the five sub-property indicators."
+cite = []
+digest = "5b4d3069f7849a0e"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Value-Gradient Closure Vector"
+gloss = "Each candidate case receives a binary vector over the five sub-properties, and closure requires every component to equal one."
+cite = []
+digest = "a3d36e0076883e32"
+
+[[symbol]]
+tex = 'V_i(t)'
+meaning = "the cumulative value realised by firm $i$ at time $t$"
+
+[[symbol]]
+tex = 'T_i^{\text{mission}}'
+meaning = "the mission-completion time of firm $i$"
+
+[[symbol]]
+tex = 'V^{\text{terminal}}'
+meaning = "the value realised at mission completion under a single bet"
+
+[[symbol]]
+tex = 'v_i(\tau)'
+meaning = "the rate of value realisation of firm $i$"
+
+[[symbol]]
+tex = 'g_V'
+meaning = "the compound annual value-realisation rate"
+
+[[symbol]]
+tex = '\gamma_i'
+meaning = "the learning-curve exponent of firm $i$"
+
+[[symbol]]
+tex = 'r'
+meaning = "the discount rate, and in the revenue-to-debt-service ratio the effective debt-service rate"
+
+[[symbol]]
+tex = 'R'
+meaning = "the true underlying reliability"
+
+[[symbol]]
+tex = '\alpha_0'
+meaning = "the first parameter of the Beta prior on reliability"
+
+[[symbol]]
+tex = '\beta_0'
+meaning = "the second parameter of the Beta prior on reliability"
+
+[[symbol]]
+tex = 'R_{\text{engine}}'
+meaning = "the reliability of a single engine"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.80665 metres per second squared"
+
+[[symbol]]
+tex = 'g_T'
+meaning = "the compound growth of thrust-to-weight ratio per engine generation"
+
+[[symbol]]
+tex = 'h_n'
+meaning = "the altitude of the $n$th Grasshopper flight"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the loss-aversion coefficient in the prospect theory value function, the growth rate of Grasshopper altitude per flight, and the rate of approach of Manhattan Project spending"
+
+[[symbol]]
+tex = 'k'
+meaning = "the flights per booster before retirement"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the recoverable-hardware fraction of the expendable cost"
+
+[[symbol]]
+tex = '\epsilon'
+meaning = "the price elasticity of demand for launch services"
+
+[[symbol]]
+tex = 'p_k'
+meaning = "the marginal closure probability for sub-property $k$"
+
+[[symbol]]
+tex = '\phi_k'
+meaning = "the closure indicator for sub-property $k$"
+
+[[symbol]]
+tex = '\omega_r'
+meaning = "the weight of resource $r$"

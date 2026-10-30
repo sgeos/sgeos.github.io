@@ -1,0 +1,607 @@
+# Equation classification for A284. Read by `python3 _lib/equations.py`.
+
+caution = "Prices and revenues are nominal United States dollars, prices per kilogram are dollars per kilogram to low Earth orbit unless another orbit is named, latency is in milliseconds, altitude is in kilometres, and capture ratios and shares are dimensionless fractions between zero and one."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Value-Capture Condition"
+gloss = "The article defines the capture ratio as retained value over created value and requires it to stay at or above a threshold."
+cite = []
+digest = "1fadff434c5759ba"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Value Transfer Fraction"
+gloss = "The transfer fraction is the complement of the capture ratio, the share of created value that passes to unaffiliated firms."
+cite = []
+digest = "ae0df1dd51463d7d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Variance of Created Value"
+gloss = "The variance of a sum of retained and transferred value is the sum of their variances plus twice their covariance."
+cite = []
+digest = "729fb0d4df03517a"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Vertical Integration Counterfactual"
+gloss = "The capture contribution is defined as observed retained value less the retained value of a counterfactual without vertical integration."
+cite = []
+digest = "c9c024baa66670f3"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Capture Ratio over the Horizon"
+gloss = "The article requires the capture ratio to stay at or above the threshold from the start of value realisation to the horizon."
+cite = []
+digest = "691a53d2881a23ec"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Retained Value Channels"
+gloss = "The article divides retained value into launch markup, Starlink subscription, Starlink hardware, Starshield defence and capability channels."
+cite = []
+digest = "1f80bb71848b44bc"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Mean-Reverting Capture Dynamics"
+gloss = "The article models the capture ratio as converging at a constant rate towards a target, perturbed by a shock term."
+cite = []
+digest = "49367633d0fd1d41"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Value Appropriation Function"
+gloss = "The article writes captured value as created value multiplied by an unspecified function of the appropriability regime, complementary assets and integration."
+cite = ["research_teece_1986"]
+digest = "658cb22e3a9c32fa"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Complementary Asset Intensity"
+gloss = "The article weights the internally held fraction of each complementary asset by its criticality to commercialisation."
+cite = ["research_teece_1986"]
+digest = "dab9c33be102ce92"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Lerner Index and the Inverse Elasticity Rule"
+gloss = "The Lerner index of market power, the relative markup of price over marginal cost, equals the reciprocal of the price elasticity of demand for a profit-maximising firm."
+cite = []
+digest = "4e7ad9697d8ab69f"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Value-Chain Position Index"
+gloss = "The article weights the internally conducted fraction of each value-chain stage by the value contribution of the stage."
+cite = []
+digest = "58e765d2cf73b495"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Resource Heterogeneity Index"
+gloss = "The article scores resources by a weighted sum of the products of their value, rarity, inimitability and non-substitutability."
+cite = ["research_barney_1991"]
+digest = "0726816689a6e257"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Appropriability Regime Coefficient"
+gloss = "The article writes appropriability as an unspecified function of intellectual property strength, internal complementary assets and lead time."
+cite = ["research_teece_1986"]
+digest = "9e013bf287dc82f6"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Make-or-Buy Indifference Condition"
+gloss = "A firm is indifferent between making and buying when production cost plus internal governance cost equals market cost plus transaction cost."
+cite = ["book_williamson_1985"]
+digest = "570a017c7174e00a"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Two-Sided Price Structure"
+gloss = "The article requires the two side prices to cover marginal cost together and sets their ratio by an unspecified function of the cross-side externalities."
+cite = ["research_rochet_tirole_2003"]
+digest = "dd827d4a2b6020f8"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Linear Network Utility of a User"
+gloss = "The article writes user utility as intrinsic value plus linear terms in satellite coverage and in the subscriber count."
+cite = ["research_katz_shapiro_1985"]
+digest = "8b9b4a37455f6fc2"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Institutional Configuration Index"
+gloss = "The article weights the institutional fit of each configuration into one index."
+cite = []
+digest = "9bdfef307f452e9d"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Ecosystem Value Appropriation"
+gloss = "The article weights firm value by the appropriation fraction and total ecosystem value by its complement."
+cite = []
+digest = "a17f8692e56c1a35"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Reliability of Redundant Satellites"
+gloss = "The probability that at least one of a set of independent satellites works is one minus the product of their failure probabilities."
+cite = ["book_oconnor_kleyner_2012"]
+digest = "6c9e12a68b2a8f5d"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Falcon 1 Price per Kilogram"
+gloss = "The price per kilogram is evaluated with 7 million dollars, the midpoint of the stated price range of 6 to 8 million dollars, over a payload of 570 kilograms."
+cite = ["ref_spacex_news_archive"]
+digest = "987b1733eb3b1693"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Falcon 9 Version 1.0 Price per Kilogram"
+gloss = "The reported launch price divided by the reported payload to low Earth orbit gives the price per kilogram."
+cite = []
+digest = "de05ed0d1e454975"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Falcon 9 Block 5 List Price per Kilogram"
+gloss = "The reported list price divided by the payload the article states gives the price per kilogram."
+cite = []
+digest = "300a0fe71f6b62ad"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Falcon Heavy Expendable Price per Kilogram"
+gloss = "The reported launch price divided by the expendable payload to low Earth orbit gives the price per kilogram."
+cite = []
+digest = "5b697c80c8266353"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Projected Starship Price per Kilogram"
+gloss = "The projected price per kilogram rests on an assumed price of 10 million dollars a launch and an assumed payload of 150 tonnes."
+cite = []
+digest = "21e23f1a928c553d"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Projected Starship to Falcon 9 Price Ratio"
+gloss = "The ratio divides the projected Starship price per kilogram by a representative reusable Falcon 9 price of 1500 dollars per kilogram."
+cite = []
+digest = "84d61a5eb1c105b4"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Price per Kilogram across the Falcon Lineage"
+gloss = "The tabulation sets representative prices per kilogram for successive vehicles beside a projected range for Starship."
+cite = []
+digest = "03825577c5ef4f30"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Log-Linear Decline of Mission Price"
+gloss = "The article fits the logarithm of the price per mission to a linear decline in time."
+cite = []
+digest = "fcf4b9711d59d2e0"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Price-Halving Time"
+gloss = "The halving time is the logarithm of two divided by the decline rate, evaluated with the fitted rate of 0.08 a year."
+cite = []
+digest = "651e01c304182145"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Launch Revenue as Price Times Quantity"
+gloss = "Launch revenue is the price per mission multiplied by the number of missions."
+cite = []
+digest = "26c7a48a68b6fd2f"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Compound Growth of Launch Cadence"
+gloss = "The compound annual growth rate is evaluated with representative counts of 5 missions in 2013 and 130 in 2025."
+cite = []
+digest = "f7e6fd06ceecaca4"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Latency Ratio of Low Earth Orbit to Geostationary Service"
+gloss = "The ratio is evaluated with 37 and 600 milliseconds, values taken within the stated latency ranges of the two services."
+cite = ["ref_spacex_seattle_announcement_2015"]
+digest = "398ebe7b0b937567"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Propagation Latency through a Satellite Overhead"
+gloss = "The signal travels up to the satellite and back down, so the one-way propagation time is twice the altitude divided by the speed of light."
+cite = []
+digest = "a0ef0439098c5a9f"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Pre-Operational Capital Consumption"
+gloss = "Capital consumed before operation is an initial stock plus the integral of the Starlink burn rate."
+cite = []
+digest = "a572a2efba1c757b"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Logistic Growth of the Constellation"
+gloss = "The cumulative satellite count follows a logistic curve that rises through an inflection time towards a constellation cap."
+cite = []
+digest = "74096221ec639a77"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Satellite Deployment Rate"
+gloss = "The deployment rate is the launch cadence multiplied by the satellites carried per launch."
+cite = []
+digest = "6071dda0c95ace0b"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Wright Learning Curve for Satellite Cost"
+gloss = "The cost of a satellite falls as a power of cumulative production."
+cite = []
+digest = "dab8e6e049efb749"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Compound Annual Growth of Starlink Revenue"
+gloss = "The compound annual growth rate from 2021 to 2024 is evaluated from the reported revenue estimates of 0.2 and 6.6 billion dollars."
+cite = []
+digest = "ab9eeb8e78091988"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Subscription Revenue"
+gloss = "Annual subscription revenue is subscribers multiplied by monthly revenue per user and by twelve."
+cite = []
+digest = "78d665aa27b28dae"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Hardware Share of Starlink Revenue"
+gloss = "The article splits total revenue into subscription and hardware and places the hardware share between 10 and 15 percent."
+cite = ["ref_spacex_starlink"]
+digest = "2d3a40f037a9be53"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Mission-Funding Ratio of Starlink"
+gloss = "The article divides Starlink revenue by the cost of the Mars transportation mission."
+cite = []
+digest = "14762365991b9c16"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Capture Ratio of Xerox PARC"
+gloss = "The article bounds the share of the commercial value of technologies from the Xerox Palo Alto Research Center that Xerox itself captured."
+cite = []
+digest = "38d668a8a7db9219"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Personnel Diaspora Rate of Xerox PARC"
+gloss = "The article bounds the share of key personnel of the Xerox Palo Alto Research Center who moved to unaffiliated firms."
+cite = []
+digest = "9837318d13fd3183"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Capture Ratio of Bell Labs"
+gloss = "The article bounds the share of the commercial value of Bell Labs technologies that AT&T itself captured."
+cite = []
+digest = "543ae79a67f145fe"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Exponential Growth of Licensees"
+gloss = "The article models the count of transistor licensees as growing exponentially at a diffusion rate."
+cite = []
+digest = "92904eb480c79c32"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Intellectual Property Regime Contrast"
+gloss = "The article sets the licensing regime of Bell Labs under its consent decree against the trade secret regime of SpaceX."
+cite = []
+digest = "378ce3cf70992f0a"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Value-Chain Capture of Standard Oil"
+gloss = "The article takes the capture of the integrated chain as the product of the capture ratios of its four stages."
+cite = ["book_chernow_2004"]
+digest = "d6943e2383367cc5"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Integration Span of River Rouge"
+gloss = "The span divides integrated stages by total stages, evaluated with a count of five of six stages that the article chooses."
+cite = ["book_hounshell_1984"]
+digest = "93275e6946a66908"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Ratio of Amazon Web Services to Amazon Retail Revenue"
+gloss = "The ratio divides the reported annual revenue of Amazon Web Services by the reported retail revenue of Amazon."
+cite = []
+digest = "0697ec8d07c78244"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Services Share of Apple Revenue"
+gloss = "The share divides the reported services revenue of Apple by its total revenue."
+cite = []
+digest = "5865149be14426a5"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Tesla Integration Set"
+gloss = "The article lists the segments that Tesla integrates as a set of seven."
+cite = ["book_vance_2015", "book_isaacson_2023"]
+digest = "74350363955e40b7"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Deployment Lead of Starlink over Kuiper"
+gloss = "The difference between the operational years of the two constellations is evaluated from the years the article reports."
+cite = []
+digest = "d6908739258d9b60"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Starlink Subscriber Share"
+gloss = "The share is Starlink subscribers divided by all satellite broadband subscribers."
+cite = []
+digest = "36ea474ab8e95d77"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Vertical Integration Score"
+gloss = "The article sums the weights of the segments that a firm conducts internally."
+cite = []
+digest = "7db42669886377b9"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Value-Capture Closure Vector of a Firm"
+gloss = "Each firm receives a binary vector over the five value-capture sub-properties."
+cite = []
+digest = "b0ee5885d58445d0"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Asset Specificity of Starlink Hardware"
+gloss = "The article measures specificity as one minus the ratio of the value of the hardware in its alternative use to its value in its best use."
+cite = ["research_williamson_1971", "book_williamson_1985"]
+digest = "1d9e722693c95e78"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Resource Heterogeneity Index Restated"
+gloss = "The same weighted index of value, rarity, inimitability and non-substitutability is restated for the resource-based framing."
+cite = ["research_barney_1991"]
+digest = "0726816689a6e257"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Platform Power Index"
+gloss = "The article multiplies sector concentration by the Lerner index of the firm to combine market share and markup."
+cite = []
+digest = "e1ffb521f50944e1"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Subadditivity of Cost for a Natural Monopoly"
+gloss = "A natural monopoly exists where one firm can produce the combined output more cheaply than several firms producing the parts."
+cite = ["research_baumol_1977"]
+digest = "782d8aa500ae1a08"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Displacement Condition for Starlink"
+gloss = "The article formalises disruption of geostationary broadband as Starlink being lower in both price and latency."
+cite = ["research_bower_christensen_1995"]
+digest = "e2384af9c5051349"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Mission-Directed Capture Increment"
+gloss = "Mission-directed captured value is the market-directed baseline plus the integral of an increment driven by the mission and vertical integration investment."
+cite = []
+digest = "a2c1bf5737987663"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Backward Induction for a Real Option"
+gloss = "The option value at each date is the greater of the exercise value and the discounted expected continuation value."
+cite = ["book_dixit_pindyck_1994", "book_trigeorgis_1996"]
+digest = "1b1362cae4a7c40e"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Economic Rent as Excess Profit"
+gloss = "Rent is the observed profit less the profit a competitive benchmark would yield."
+cite = ["research_krueger_1974"]
+digest = "0547e78e4d21c2ad"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Value-Capture Closure Conjunction"
+gloss = "The article defines closure as the logical conjunction of the five sub-property indicators."
+cite = []
+digest = "b69c4bc57cc4c5fb"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Closure Vector of a Candidate Case"
+gloss = "Each candidate case receives a binary vector over the five sub-properties, and closure requires every component to equal one."
+cite = []
+digest = "a3d36e0076883e32"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Joint Closure Probability under Independence"
+gloss = "The product of the marginal probabilities is evaluated under the independence assumption and an order-of-magnitude marginal of 0.25 that the article assumes."
+cite = []
+digest = "1be2a10ea3d53350"
+
+[[symbol]]
+tex = '\kappa_i(t)'
+meaning = "the capture ratio of firm $i$, retained over created value"
+
+[[symbol]]
+tex = '\tau_i(t)'
+meaning = "the transfer fraction of firm $i$, the complement of the capture ratio"
+
+[[symbol]]
+tex = '\kappa^{\text{threshold}}'
+meaning = "the threshold capture ratio"
+
+[[symbol]]
+tex = '\kappa^{\text{target}}'
+meaning = "the target capture ratio"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the convergence rate of the capture ratio towards its target"
+
+[[symbol]]
+tex = '\sigma_{\kappa}(t)'
+meaning = "the shock term perturbing the capture trajectory"
+
+[[symbol]]
+tex = '\omega_a'
+meaning = "the criticality weight of complementary asset $a$"
+
+[[symbol]]
+tex = '\phi^{\text{internal}}_{i,a}'
+meaning = "the fraction of complementary asset $a$ that firm $i$ holds internally"
+
+[[symbol]]
+tex = 'L_i'
+meaning = "the Lerner index of provider $i$"
+
+[[symbol]]
+tex = '\varepsilon_i^{\text{demand}}'
+meaning = "the price elasticity of demand facing provider $i$"
+
+[[symbol]]
+tex = '\eta^A'
+meaning = "the cross-side network externality of side $A$"
+
+[[symbol]]
+tex = '\eta^B'
+meaning = "the cross-side network externality of side $B$"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the subscriber-density coefficient of user utility, and in the price trend the annual decline rate"
+
+[[symbol]]
+tex = 'h_{\text{altitude}}'
+meaning = "the satellite altitude"
+
+[[symbol]]
+tex = 'N^{\text{max}}'
+meaning = "the constellation cap"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the growth-rate parameter of the logistic constellation curve"
+
+[[symbol]]
+tex = '\lambda^{\text{diffusion}}'
+meaning = "the growth rate of the licensee count"
+
+[[symbol]]
+tex = '\gamma^{\text{satellite}}'
+meaning = "the learning-curve exponent of satellite production"
+
+[[symbol]]
+tex = 'p_k'
+meaning = "the marginal closure probability for sub-property $k$"
+
+[[symbol]]
+tex = '\phi_k'
+meaning = "the closure indicator for sub-property $k$"
+
+[[symbol]]
+tex = '\omega_r'
+meaning = "the weight of resource $r$"

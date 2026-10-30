@@ -23,35 +23,53 @@ The problem admits several formalizations depending on the analytical tradition 
 
 The general form of the governance mapping problem can be stated compactly. Let $e_i(t)$ denote the cash-flow share of the claimant $i$ at time $t$, and let $v_i(t)$ denote the voting share of the claimant $i$ at time $t$. The control wedge may be written
 
-$$w_i(t) = \frac{v_i(t)}{e_i(t)}$$
+$$
+w_i(t) = \frac{v_i(t)}{e_i(t)}
+\tag{1}
+$$
 
 with $w_i = 1$ under the one-share-one-vote configuration, $w_i > 1$ for a claimant whose voting rights exceed the economic exposure, and $w_i < 1$ for a claimant in the complementary position. The governance condition the article treats requires that the founder wedge be sufficiently large that the control condition
 
-$$v^{\text{founder}}(t) > \tfrac{1}{2} \qquad \forall t \in [t_0, T]$$
+$$
+v^{\text{founder}}(t) > \tfrac{1}{2} \qquad \forall t \in [t_0, T]
+\tag{2}
+$$
 
 holds across the entire financing horizon, and not merely at the founding.
 
 The difficulty the condition addresses is that the cash-flow share declines mechanically with each financing round. Let $\delta_n$ denote the dilution fraction of the round $n$. The cash-flow share follows the recursion
 
-$$e^{\text{founder}}_n = e^{\text{founder}}_{n-1} \left( 1 - \delta_n \right) \qquad \text{so} \qquad e^{\text{founder}}_N = e^{\text{founder}}_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)$$
+$$
+e^{\text{founder}}_n = e^{\text{founder}}_{n-1} \left( 1 - \delta_n \right) \qquad \text{so} \qquad e^{\text{founder}}_N = e^{\text{founder}}_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
+\tag{3}
+$$
 
 with the product declining monotonically in the round count. Under a one-share-one-vote configuration the voting share follows the identical recursion, and the control condition therefore fails at a finite round count determined by the initial share and the per-round dilution. Under a dual-class configuration in which the issued shares carry inferior voting rights, the voting recursion decouples from the cash-flow recursion, and the control condition can hold for arbitrarily large $N$.
 
 The decoupling takes the compact statement
 
-$$\frac{\partial v^{\text{founder}}}{\partial \delta_n} \approx 0 \qquad \text{while} \qquad \frac{\partial e^{\text{founder}}}{\partial \delta_n} < 0$$
+$$
+\frac{\partial v^{\text{founder}}}{\partial \delta_n} \approx 0 \qquad \text{while} \qquad \frac{\partial e^{\text{founder}}}{\partial \delta_n} < 0
+\tag{4}
+$$
 
 with the voting share substantially insensitive to the dilution that the cash-flow share absorbs. The decoupling is the whole of the technical content of the dual-class instrument, and the remainder of the analytical question concerns what the decoupling is used for.
 
 The capital-capture event that the condition is designed to prevent permits definition as a change in the mission objective attributable to the preferences of the capital providers. Let $M(t)$ denote the mission objective and let $\mathcal{F}\_t$ denote the information available at time $t$. The capture indicator has the concise form
 
-$$\kappa(t) = \mathbb{1}\!\left[ M(t) \neq M(t^-) \; \wedge \; \Delta M \in \arg\max_{M'} \sum_{i \neq \text{founder}} e_i \cdot U_i(M') \right]$$
+$$
+\kappa(t) = \mathbb{1}\!\left[ M(t) \neq M(t^-) \; \wedge \; \Delta M \in \arg\max_{M'} \sum_{i \neq \text{founder}} e_i \cdot U_i(M') \right]
+\tag{5}
+$$
 
 taking the value unity when the mission changes and the change moves toward the capital-weighted preference of the non-founder claimants. The SpaceX record exhibits $\kappa(t) = 0$ across the observed period, which is the empirical claim the article defends and the claim whose interpretation is contested, because an unchanged mission is equally consistent with an effective control configuration and with an absence of any capital provider who wished to change it.
 
 The identification problem is therefore acute. The counterfactual differential takes the form
 
-$$\Delta V^{\text{governance}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{capture counterfactual}}_i(t)$$
+$$
+\Delta V^{\text{governance}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{capture counterfactual}}_i(t)
+\tag{6}
+$$
 
 with the attribution equal to the difference between the observed trajectory and the counterfactual trajectory under a one-share-one-vote configuration facing the identical financing sequence. The counterfactual specifications the article treats include an investor-controlled counterfactual in which the board redirects the venture toward the near-term commercial opportunity, an acquisition counterfactual in which the venture is sold to an incumbent, and a public-market counterfactual in which the quarterly reporting cycle constrains the investment horizon.
 
@@ -79,45 +97,69 @@ The governance property is treated in the article as an economic property of a f
 
 The formal characterization begins from the separation of the two rights that a share ordinarily bundles. The cash-flow right entitles the holder to a fraction of the residual, and the control right entitles the holder to a fraction of the decision authority. The aggregate identities are
 
-$$\sum_i e_i = 1 \qquad \text{and} \qquad \sum_i v_i = 1$$
+$$
+\sum_i e_i = 1 \qquad \text{and} \qquad \sum_i v_i = 1
+\tag{7}
+$$
 
 with the two distributions coinciding under one-share-one-vote and diverging under every deviation from it. The aggregate wedge across the claimant set can be written as
 
-$$W = \sum_i \left| v_i - e_i \right|$$
+$$
+W = \sum_i \left| v_i - e_i \right|
+\tag{8}
+$$
 
 taking the value zero under one-share-one-vote and increasing in the degree of separation. The measure is symmetric across claimants and therefore does not by itself indicate who holds the excess control.
 
 The security-benefits argument that [Grossman and Hart 1987][research_grossman_hart_1988] and [Harris and Raviv 1988][research_harris_raviv_1988] develop holds that the one-share-one-vote configuration is optimal because it aligns the decision authority with the economic exposure and thereby causes the controlling party to internalize the consequences of the decisions. The argument can be stated as the condition under which a controller approves a project
 
-$$e^{\text{controller}} \cdot \Delta V^{\text{security}} + \Delta B^{\text{private}} > 0$$
+$$
+e^{\text{controller}} \cdot \Delta V^{\text{security}} + \Delta B^{\text{private}} > 0
+\tag{9}
+$$
 
 with $\Delta V^{\text{security}}$ the change in the total security value and $\Delta B^{\text{private}}$ the change in the private benefits accruing to the controller alone. Under one-share-one-vote with a majority holder the first term dominates and the controller approves substantially the value-increasing projects. As $e^{\text{controller}}$ falls while $v^{\text{controller}}$ is held fixed, the first term shrinks and the private-benefit term becomes decisive at a threshold
 
-$$e^{\text{controller}} < \frac{-\Delta B^{\text{private}}}{\Delta V^{\text{security}}}$$
+$$
+e^{\text{controller}} < \frac{-\Delta B^{\text{private}}}{\Delta V^{\text{security}}}
+\tag{10}
+$$
 
 below which the controller rejects value-increasing projects that reduce the private benefits and approves value-decreasing projects that increase them. The inequality is the formal core of the case against dual-class structures, and the SpaceX configuration sits deep inside the region the inequality identifies as hazardous.
 
 The counterargument the article develops does not deny the inequality. The counterargument holds that the quantity the inequality labels a private benefit is in the mission-directed case the object the venture exists to pursue, and that the security value against which it is compared is measured over a horizon shorter than the mission horizon. Let $\rho^{\text{controller}}$ and $\rho^{\text{investor}}$ denote the discount rates the two parties apply. The horizon divergence has the form
 
-$$\rho^{\text{controller}} < \rho^{\text{investor}} \implies \exists \; \text{projects with} \; \text{NPV}_{\rho^{\text{controller}}} > 0 > \text{NPV}_{\rho^{\text{investor}}}$$
+$$
+\rho^{\text{controller}} < \rho^{\text{investor}} \implies \exists \; \text{projects with} \; \text{NPV}_{\rho^{\text{controller}}} > 0 > \text{NPV}_{\rho^{\text{investor}}}
+\tag{11}
+$$
 
 with a nonempty set of projects that the controller values positively and the diversified investor values negatively. The reusability development that the [Value Gradient article A282][related_post_a282_spacex_value_gradient] treats and the Starship development that the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] treats both occupy that set across substantial portions of their development periods.
 
 The mission-persistence probability may be written
 
-$$P^{\text{persistence}}(T) = \prod_{n=1}^{N(T)} \left[ 1 - q_n \right]$$
+$$
+P^{\text{persistence}}(T) = \prod_{n=1}^{N(T)} \left[ 1 - q_n \right]
+\tag{12}
+$$
 
 with $q_n$ the probability that the financing round $n$ produces a mission redirection. Under a one-share-one-vote configuration the hazard $q_n$ rises with the cumulative dilution, because the coalition required to redirect becomes progressively easier to assemble. Under a dual-class configuration the hazard remains substantially constant and near zero across rounds, and the persistence probability therefore does not decay with the financing intensity that an insatiable mission demands.
 
 The control-contestability measure admits the compact form
 
-$$C^{\text{contest}} = \min \left\{ \sum_{i \in S} v_i \; : \; S \subseteq \mathcal{I} \setminus \{\text{founder}\}, \; \sum_{i \in S} v_i > \tfrac{1}{2} \right\}$$
+$$
+C^{\text{contest}} = \min \left\{ \sum_{i \in S} v_i \; : \; S \subseteq \mathcal{I} \setminus \{\text{founder}\}, \; \sum_{i \in S} v_i > \tfrac{1}{2} \right\}
+\tag{13}
+$$
 
 giving the smallest voting mass a coalition excluding the founder must assemble to prevail. The measure is infinite, in the sense that no such coalition exists, whenever the founder holds a majority of votes. The SpaceX configuration at the drafting date is reported to place the measure in that regime, and the OpenAI arrangement of November 2023 placed it in a regime where the formal measure suggested contestability was impossible while the effective measure proved otherwise.
 
 The distinction between the formal and the effective control measures is the analytical contribution the OpenAI counter-example offers. The effective control takes the form
 
-$$v^{\text{effective}}_i = f\!\left( v^{\text{formal}}_i, \; d_i, \; \sigma_i \right)$$
+$$
+v^{\text{effective}}_i = f\!\left( v^{\text{formal}}_i, \; d_i, \; \sigma_i \right)
+\tag{14}
+$$
 
 with $d_i$ the resource dependence of the organization on the party $i$ and $\sigma_i$ the credibility of the party's threat to withdraw. A party holding zero formal votes but supplying a resource without which the organization cannot operate holds an effective control that the formal measure does not register.
 
@@ -127,37 +169,55 @@ The governance property can be characterized from several disciplinary tradition
 
 The agency tradition traces from [Berle and Means 1932][book_berle_means_1932] The Modern Corporation and Private Property through [Jensen and Meckling 1976][research_jensen_meckling_1976] Theory of the Firm Managerial Behavior Agency Costs and Ownership Structure, [Fama and Jensen 1983][research_fama_jensen_1983] Separation of Ownership and Control, [Jensen 1986][research_jensen_1986] Agency Costs of Free Cash Flow, and the survey in [Shleifer and Vishny 1997][research_shleifer_vishny_1997] A Survey of Corporate Governance. The framing treats the separation of ownership from control as the central problem of the modern corporation and treats the governance apparatus as the set of instruments that mitigate it. The agency cost admits the compact decomposition
 
-$$AC = C^{\text{monitoring}} + C^{\text{bonding}} + L^{\text{residual}}$$
+$$
+AC = C^{\text{monitoring}} + C^{\text{bonding}} + L^{\text{residual}}
+\tag{15}
+$$
 
 with the monitoring expenditure borne by the principal, the bonding expenditure borne by the agent, and the residual loss equal to the remaining divergence. The framing classifies the SpaceX configuration as one in which the monitoring and bonding instruments are substantially disabled by design, so that the residual-loss term carries the entire burden. The framing gives the sharpest available statement of what the configuration risks.
 
 The incomplete-contracts and property-rights tradition traces from [Coase 1937][research_coase_1937] The Nature of the Firm through [Williamson 1975][research_williamson_1975] Markets and Hierarchies, [Williamson 1985][book_williamson_1985] The Economic Institutions of Capitalism, [Grossman and Hart 1986][research_grossman_hart_1986], [Hart and Moore 1990][research_hart_moore_1990], and [Hart 1995][book_hart_1995] Firms Contracts and Financial Structure. The framing treats the control right as valuable precisely because the financing contracts cannot specify the actions to be taken in the contingencies that a long-horizon development program encounters. The residual-control allocation can be written as
 
-$$\text{RC} = \left\{ a \in \mathcal{A} \; : \; a \notin \text{dom}(\text{contract}) \right\}$$
+$$
+\text{RC} = \left\{ a \in \mathcal{A} \; : \; a \notin \text{dom}(\text{contract}) \right\}
+\tag{16}
+$$
 
 with the residual set comprising the actions the contract does not address. The framing provides the most useful account of why a mission-directed venture values control disproportionately, because the mission is a statement about the behavior in unforeseen contingencies and is therefore precisely the object that a contract cannot secure.
 
 The law-and-finance tradition traces from [La Porta et al. 1998][research_laporta_et_al_1998] Law and Finance through the comparative-governance literature and treats the control configuration as a function of the legal regime. The Delaware regime that the [Delaware General Corporation Law][ref_dgcl] establishes permits the issuance of multiple classes with differential voting rights substantially without constraint, and the permissiveness is a competitive product of the state-charter market that [Roe 1994][book_roe_1994] Strong Managers Weak Owners and [Easterbrook and Fischel 1991][book_easterbrook_fischel_1991] The Economic Structure of Corporate Law analyze from opposing positions. The investor-protection index the tradition constructs has the form
 
-$$IP_j = \sum_{k} \omega_k \cdot \mathbb{1}\!\left[ \text{protection } k \text{ present in regime } j \right]$$
+$$
+IP_j = \sum_{k} \omega_k \cdot \mathbb{1}\!\left[ \text{protection } k \text{ present in regime } j \right]
+\tag{17}
+$$
 
 with the weighted sum across the protection set. The United States regime scores highly on the index while permitting the dual-class deviation, which establishes that the index measures the protection of minority claimants against expropriation rather than the allocation of control as such. The comparative regimes differ materially. The [Companies Act 2006 2006][ref_uk_companies_act_2006] and the listing regime built on it have historically constrained the instrument far more tightly, the German [Aktiengesetz][ref_german_aktiengesetz] restricts multiple-voting arrangements in ways the Delaware regime does not, and the [European Union Shareholder Rights Directive][ref_eu_shareholder_rights_directive] establishes an engagement framework with no Delaware analogue. The [OECD Principles of Corporate Governance][ref_oecd_corporate_governance] supply the international benchmark against which the regimes are compared.
 
 The dual-class empirical tradition traces from [DeAngelo and DeAngelo 1985][research_deangelo_deangelo_1985] Managerial Ownership of Voting Rights through [Gompers et al. 2003][research_gompers_ishii_metrick_2003] Corporate Governance and Equity Prices, [Gompers et al. 2009][research_gompers_ishii_metrick_2010] Extreme Governance An Analysis of Dual-Class Firms in the United States, [Bebchuk et al. 1999][research_bebchuk_kraakman_triantis_2000] Stock Pyramids Cross-Ownership and Dual Class Equity, and [Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017] The Untenable Case for Perpetual Dual-Class Stock. The framing offers the empirical record against which the SpaceX configuration should be assessed. The central empirical finding is that the firm value declines in the wedge and that the decline steepens with the time elapsed since the initial public offering, which motivates the sunset provisions the policy literature recommends. The value relation may be written
 
-$$\frac{\partial q}{\partial w} < 0 \qquad \text{and} \qquad \frac{\partial^2 q}{\partial w \, \partial \tau} < 0$$
+$$
+\frac{\partial q}{\partial w} < 0 \qquad \text{and} \qquad \frac{\partial^2 q}{\partial w \, \partial \tau} < 0
+\tag{18}
+$$
 
 with $q$ a valuation ratio, $w$ the wedge, and $\tau$ the time since listing. The SpaceX case lies outside the estimation sample because the firm has never listed, and the applicability of the finding to an unlisted firm is precisely the question the article must address rather than assume.
 
 The bargaining tradition traces from [Nash 1950][research_nash_1950] The Bargaining Problem through [Rubinstein 1982][research_rubinstein_1982] Perfect Equilibrium in a Bargaining Model, [Binmore et al. 1986][research_binmore_rubinstein_wolinsky_1986] The Nash Bargaining Solution in Economic Modelling, [Osborne and Rubinstein 1990][book_osborne_rubinstein_1990] Bargaining and Markets, and [Muthoo 1999][book_muthoo_1999] Bargaining Theory with Applications. The framing treats the control terms as the outcome of a negotiation between the founder and the investors whose outcome depends on the outside options each party holds. The split permits the concise form
 
-$$\left( u^{\text{founder}}, u^{\text{investor}} \right) = \arg\max \left( u^{\text{founder}} - d^{\text{founder}} \right)^{\beta} \left( u^{\text{investor}} - d^{\text{investor}} \right)^{1-\beta}$$
+$$
+\left( u^{\text{founder}}, u^{\text{investor}} \right) = \arg\max \left( u^{\text{founder}} - d^{\text{founder}} \right)^{\beta} \left( u^{\text{investor}} - d^{\text{investor}} \right)^{1-\beta}
+\tag{19}
+$$
 
 with $d$ the disagreement payoffs and $\beta$ the relative bargaining power. The framing gives the explanation for why the control terms tightened rather than loosened across the SpaceX financing sequence, because the founder disagreement payoff improved as the venture demonstrated capability while the investor disagreement payoff deteriorated as the competing investment opportunities in the sector failed to materialize.
 
 The entrepreneurial-finance tradition traces from [Sahlman 1990][research_sahlman_1990] The Structure and Governance of Venture-Capital Organizations through [Gompers 1995][research_gompers_1995] Optimal Investment Monitoring and the Staging of Venture Capital, [Kaplan and Stromberg 2003][research_kaplan_stromberg_2003] Financial Contracting Theory Meets the Real World, [Kaplan and StrÖMberg 2004][research_kaplan_stromberg_2004] Characteristics Contracts and Actions, [Lerner 1994][research_lerner_1994_syndication] The Syndication of Venture Capital Investments, [Gompers and Lerner 2001][book_gompers_lerner_2001] The Money of Invention, and [Metrick and Yasuda 2011][book_metrick_yasuda_2011] Venture Capital and the Finance of Innovation. The framing treats the control allocation as one term in a bundle that also comprises the liquidation preferences, the board composition, the protective provisions, and the staging structure. The observation the framing yields is that the staged-financing instrument that [Gompers 1995][research_gompers_1995] identifies as the principal investor control device operates independently of the voting rights, because an investor who declines to fund the next round exercises a control that no share class can neutralize. The staged control takes the form
 
-$$v^{\text{staged}}_i(t) = \mathbb{1}\!\left[ k_i(t) > 0 \right] \cdot \frac{k_i(t)}{\sum_j k_j(t)}$$
+$$
+v^{\text{staged}}_i(t) = \mathbb{1}\!\left[ k_i(t) > 0 \right] \cdot \frac{k_i(t)}{\sum_j k_j(t)}
+\tag{20}
+$$
 
 with the investor's effective influence at the round proportional to the share of the required capital the investor yields, and independent of any voting arithmetic. The instrument is neutralized only by the breadth of the investor base, because a required capital that many parties are willing to supply gives no single party the withholding threat.
 
@@ -165,13 +225,19 @@ The private-markets and listing-choice tradition traces from [Ewens and Farre-Me
 
 The foundation-ownership tradition traces from [Hansmann 1996][book_hansmann_1996] The Ownership of Enterprise and treats the class of firms in which the controlling owner is a foundation with no personal residual claimant. The framing contributes the only substantial body of evidence on the question of whether a control configuration insulated from the capital market can persist across generations, and the evidence is the centurial European record the Foundation-Ownership Precedents section treats. The defining feature of the class can be stated as
 
-$$\nexists \; i \; : \; e_i > 0 \; \wedge \; i \in \text{natural persons}$$
+$$
+\nexists \; i \; : \; e_i > 0 \; \wedge \; i \in \text{natural persons}
+\tag{21}
+$$
 
 with no natural person holding a residual claim. The consequence is that the agency apparatus, which derives its predictions from the divergence between a manager's objective and a residual claimant's objective, has no residual claimant to anchor the comparison and therefore makes no determinate prediction about the class.
 
 The organizational-institutionalism tradition traces from [Selznick 1949][book_selznick_1949] TVA and the Grass Roots through [Hargrove 1994][book_hargrove_1994] Prisoners of Myth, [Fligstein 2001][book_fligstein_2001] The Architecture of Markets, and [Chandler 1962][book_chandler_1962] Strategy and Structure, [Chandler 1977][book_chandler_1977] The Visible Hand, and [Chandler 1990][book_chandler_1990] Scale and Scope. The framing treats the mission as an organizational commitment that is sustained or eroded by the processes through which the organization adapts to its environment, and it provides the vocabulary of goal displacement that names the failure mode the governance condition is intended to prevent. The displacement can be written as
 
-$$D(t) = \left\| M^{\text{enacted}}(t) - M^{\text{chartered}} \right\|$$
+$$
+D(t) = \left\| M^{\text{enacted}}(t) - M^{\text{chartered}} \right\|
+\tag{22}
+$$
 
 with the distance between the mission the organization enacts and the mission it was constituted to pursue. The measure is what the governance apparatus is intended to hold near zero, and the difficulty of specifying it operationally is precisely the fifth sub-property the pattern-extraction section states.
 
@@ -195,7 +261,10 @@ The founding capital structure established the initial conditions from which the
 
 The significance of the self-funded founding for the governance condition is that it establishes the initial control condition at its maximum. The founding wedge satisfies
 
-$$w^{\text{founder}}(t_0) = \frac{v^{\text{founder}}(t_0)}{e^{\text{founder}}(t_0)} = 1 \qquad \text{with} \qquad e^{\text{founder}}(t_0) \approx 1$$
+$$
+w^{\text{founder}}(t_0) = \frac{v^{\text{founder}}(t_0)}{e^{\text{founder}}(t_0)} = 1 \qquad \text{with} \qquad e^{\text{founder}}(t_0) \approx 1
+\tag{23}
+$$
 
 so that the control condition holds trivially without any instrument. The dual-class apparatus is unnecessary at the founding and becomes necessary only as the cash-flow share declines. The observation matters because it establishes the sequence. The control instruments were adopted in anticipation of a dilution that had not yet occurred, which distinguishes the case from the pattern in which a control instrument is adopted defensively after a threat materializes.
 
@@ -203,11 +272,17 @@ The 2002 through 2008 period is treated at length in the [series opener][related
 
 The timing of the investment relative to the cash position is what determines the bargaining position, and the relationship has the form
 
-$$\Theta = \frac{C^{\text{cash on hand}}}{\dot{C}^{\text{burn}}}$$
+$$
+\Theta = \frac{C^{\text{cash on hand}}}{\dot{C}^{\text{burn}}}
+\tag{24}
+$$
 
 with $\Theta$ the runway measured in time and the founder's bargaining power declining as $\Theta$ approaches zero. The runway at the moment of the 2008 investment is reported in the biographical treatments as measured in weeks rather than in quarters. The bargaining position at that moment was as unfavorable to the founder as it would ever be. The disagreement payoff for the founder approached the liquidation value of the firm, and the standard prediction of the bargaining apparatus the preceding section states is that the investor should have extracted control terms in proportion. The terms that were in fact agreed did not transfer control. The divergence between the predicted and the observed outcome is the most analytically interesting feature of the early financing record, and the available explanations comprise the investor's own stated preference for founder-led governance, the idiosyncratic composition of the investor set, and the possibility that the founder's willingness to continue funding the venture personally supplied a credible outside option that the distress did not eliminate. The third explanation may be stated compactly
 
-$$d^{\text{founder}} = \max\left\{ V^{\text{liquidation}}, \; V^{\text{self-funded continuation}} \right\}$$
+$$
+d^{\text{founder}} = \max\left\{ V^{\text{liquidation}}, \; V^{\text{self-funded continuation}} \right\}
+\tag{25}
+$$
 
 with the second term nonzero only for a founder possessing independent resources. The term is the structural reason that wealthy founders obtain better control terms than equally capable founders without independent means, and it is a feature of the case that limits its transferability.
 
@@ -217,17 +292,26 @@ The control instrument the firm adopted is a multiple-class common-stock structu
 
 The reported configuration places the founder holding at approximately 42 percent of the outstanding equity and approximately 79 percent of the voting power as of the early 2020s, corresponding to a wedge of
 
-$$w^{\text{founder}} = \frac{v^{\text{founder}}}{e^{\text{founder}}} \approx \frac{0.79}{0.42} \approx 1.9$$
+$$
+w^{\text{founder}} = \frac{v^{\text{founder}}}{e^{\text{founder}}} \approx \frac{0.79}{0.42} \approx 1.9
+\tag{26}
+$$
 
 and to a control condition satisfied with substantial margin. Both figures are reconstructive estimates drawn from the trade-press reporting and investor communications rather than from any disclosure, and the precise class structure and the per-class voting ratios are not public. The reported reincorporation of the firm from the state of Delaware to the state of Texas in the 2024 period, which the [Texas Business Organizations Code][ref_texas_boc] would govern, is reported rather than documented in a public filing available to the article, and the corresponding registry is the [Texas Secretary of State][ref_texas_sos]. The corporate identity and the public-facing corporate materials appear at the [SpaceX corporate site][ref_spacex_company].
 
 The general form of the two-class arrangement supports compact statement. Let $n_A$ and $n_B$ denote the share counts of the superior and inferior classes and let $\lambda$ denote the votes per superior share with the inferior share carrying one vote. The voting share of a holder of the entire superior class is
 
-$$v = \frac{\lambda \, n_A}{\lambda \, n_A + n_B}$$
+$$
+v = \frac{\lambda \, n_A}{\lambda \, n_A + n_B}
+\tag{27}
+$$
 
 and the corresponding cash-flow share is $e = n_A / (n_A + n_B)$ under the assumption of equal economic rights across classes. The control condition $v > 1/2$ reduces to the requirement
 
-$$\frac{n_A}{n_B} > \frac{1}{\lambda}$$
+$$
+\frac{n_A}{n_B} > \frac{1}{\lambda}
+\tag{28}
+$$
 
 so that a tenfold voting ratio permits the control condition to hold while the founder holds slightly more than one eleventh of the outstanding shares. The arithmetic is the reason a dual-class structure sustains control across a dilution sequence that would otherwise terminate it, and it is the reason the policy literature regards the instrument as capable of producing arbitrarily large separations.
 
@@ -243,21 +327,33 @@ The reported valuation trajectory rises from a figure in the hundreds of million
 
 The analytically important feature of the sequence is not the valuation trajectory but the relationship between the capital raised and the voting rights transferred. The cumulative capital raised across the sequence may be written
 
-$$K^{\text{cumulative}} = \sum_{n=1}^{N} k_n$$
+$$
+K^{\text{cumulative}} = \sum_{n=1}^{N} k_n
+\tag{29}
+$$
 
 and the cumulative voting transferred yields the compact form
 
-$$\Delta v^{\text{transferred}} = \sum_{n=1}^{N} \Delta v_n \approx 0$$
+$$
+\Delta v^{\text{transferred}} = \sum_{n=1}^{N} \Delta v_n \approx 0
+\tag{30}
+$$
 
 with the second sum near zero despite the first sum reaching the tens of billions of dollars. The ratio
 
-$$\eta = \frac{\Delta v^{\text{transferred}}}{K^{\text{cumulative}}}$$
+$$
+\eta = \frac{\Delta v^{\text{transferred}}}{K^{\text{cumulative}}}
+\tag{31}
+$$
 
 is the quantity the governance condition requires to be small, and it is the quantity that distinguishes the SpaceX financing history from the ordinary venture-financing history in which the ratio is bounded below by the pro-rata relationship between capital and equity.
 
 The investor set across the sequence has broadened from a small group of venture funds to a set comprising sovereign wealth funds, mutual-fund complexes, corporate strategic investors, and family offices. The broadening is itself a governance instrument, because a dispersed investor base faces a coordination cost in assembling the coalition the contestability measure defines. The coordination cost takes the form
 
-$$C^{\text{coalition}}(S) = \gamma \cdot |S| \cdot \left( 1 - h \right)$$
+$$
+C^{\text{coalition}}(S) = \gamma \cdot |S| \cdot \left( 1 - h \right)
+\tag{32}
+$$
 
 with $\lvert S \rvert$ the coalition size required and $h$ a concentration measure of the investor base. The cost rises as the base disperses, so that the dispersion supplements the voting arithmetic rather than merely accompanying it.
 
@@ -267,7 +363,10 @@ The January 2015 round in which the Google and Fidelity investors supplied appro
 
 The first reason is scale. The round was substantially larger than any prior round and established that the firm could raise the capital a constellation program would require without a public listing. The round arithmetic can be written as
 
-$$V^{\text{post}} = \frac{k}{\delta} \qquad \text{and} \qquad V^{\text{pre}} = V^{\text{post}} - k$$
+$$
+V^{\text{post}} = \frac{k}{\delta} \qquad \text{and} \qquad V^{\text{pre}} = V^{\text{post}} - k
+\tag{33}
+$$
 
 with $k$ the capital supplied and $\delta$ the fraction acquired, giving a post-money figure of approximately 10 billion dollars at the reported terms. The implied valuation of approximately 12 billion dollars is a reconstructive estimate and the spread between the arithmetic and the reported figure reflects the imprecision of the public reporting rather than any identified structural feature.
 
@@ -275,11 +374,17 @@ The second reason is that the round was motivated by a business line that did no
 
 The third reason is that the round introduced a strategic corporate investor whose own business interests intersected the venture's. A strategic investor differs from a financial investor in that the objective function includes terms unrelated to the venture's own returns, which raises the capture hazard the governance condition addresses in its most concrete form. The hazard is stated compactly as
 
-$$U^{\text{strategic}}_i = e_i \cdot V^{\text{venture}} + \phi_i \cdot V^{\text{own business}}$$
+$$
+U^{\text{strategic}}_i = e_i \cdot V^{\text{venture}} + \phi_i \cdot V^{\text{own business}}
+\tag{34}
+$$
 
 with $\phi_i$ the weight the strategic investor places on the effect of the venture's decisions on the investor's own business. The weight can be negative, in the case where the venture's success would damage the investor's existing position, and a strategic investor with a negative weight has an interest in slowing the venture that no financial investor shares. The control configuration is the instrument that renders the weight irrelevant, because an investor who cannot vote cannot act on the interest. The value the investors were purchasing was substantially an option on a business that did not yet exist, admitting the compact form
 
-$$V^{\text{round}} = V^{\text{launch service}} + p^{\text{constellation}} \cdot \left[ V^{\text{constellation}} - K^{\text{deployment}} \right]^{+}$$
+$$
+V^{\text{round}} = V^{\text{launch service}} + p^{\text{constellation}} \cdot \left[ V^{\text{constellation}} - K^{\text{deployment}} \right]^{+}
+\tag{35}
+$$
 
 with the second term an option payoff weighted by the probability that the constellation reaches deployment. The structure is the reason a round of that size could be raised against a business line announced days earlier, and it is the reason the investors accepted terms conferring no control over the program whose success their return depended on.
 
@@ -293,17 +398,26 @@ The problem the mechanism solves is that a private firm's equity compensation is
 
 The decoupling allows the brief statement. Let $L$ denote the liquidity supplied to existing holders and let $G$ denote the governance obligations incurred. A public listing produces
 
-$$\left( L^{\text{IPO}}, \; G^{\text{IPO}} \right) \qquad \text{with both terms large}$$
+$$
+\left( L^{\text{IPO}}, \; G^{\text{IPO}} \right) \qquad \text{with both terms large}
+\tag{36}
+$$
 
 whereas the tender-offer mechanism produces
 
-$$\left( L^{\text{tender}}, \; G^{\text{tender}} \right) \qquad \text{with} \qquad L^{\text{tender}} \lesssim L^{\text{IPO}}, \quad G^{\text{tender}} \approx 0$$
+$$
+\left( L^{\text{tender}}, \; G^{\text{tender}} \right) \qquad \text{with} \qquad L^{\text{tender}} \lesssim L^{\text{IPO}}, \quad G^{\text{tender}} \approx 0
+\tag{37}
+$$
 
 so that the mechanism obtains substantially the liquidity benefit at substantially none of the governance cost. The mechanism is available only to a firm whose shares command sufficient demand that a buyer appears at the price the firm sets, which is to say only to a firm that does not need the public market. The availability condition is the reason the mechanism is not a general solution.
 
 The mechanism confers a further control benefit that is easily overlooked. The firm controls the transfer, and the transfer restrictions customary in private-company charters permit the firm to determine who may acquire the shares. The right of first refusal and the transfer-approval provisions admit the compact characterization as an admissible-buyer set
 
-$$\mathcal{B}^{\text{admissible}} \subsetneq \mathcal{B}^{\text{willing}}$$
+$$
+\mathcal{B}^{\text{admissible}} \subsetneq \mathcal{B}^{\text{willing}}
+\tag{38}
+$$
 
 with the firm selecting the buyers from the willing set. The selection permits the firm to exclude parties whose accumulation of the shares would be strategically unwelcome, which is an instrument that no public company possesses.
 
@@ -315,11 +429,17 @@ The legal precondition deserves statement before the economic determinants, beca
 
 The first determinant is the one the private-markets tradition identifies. The expansion of the private capital supply that [Ewens and Farre-Mensa 2020][research_ewens_farre_mensa_2020] document has made the capital available privately, which removes the principal historical reason to list. The listing decision has the form
 
-$$\text{list} \iff \left[ K^{\text{required}} > K^{\text{private available}} \right] \; \vee \; \left[ L^{\text{required}} > L^{\text{tender}} \right]$$
+$$
+\text{list} \iff \left[ K^{\text{required}} > K^{\text{private available}} \right] \; \vee \; \left[ L^{\text{required}} > L^{\text{tender}} \right]
+\tag{39}
+$$
 
 with the listing warranted only when the capital requirement exceeds the private supply or the liquidity requirement exceeds what the tender mechanism offers. Neither condition has bound. The cost the deferral imposes is an illiquidity discount in the price at which the private capital is supplied, admitting the compact form
 
-$$r^{\text{private}} = r^{\text{public}} + \pi^{\text{illiquidity}} + \pi^{\text{opacity}}$$
+$$
+r^{\text{private}} = r^{\text{public}} + \pi^{\text{illiquidity}} + \pi^{\text{opacity}}
+\tag{40}
+$$
 
 with the two premia compensating the investor for the absence of a liquid market and for the absence of the disclosure. The deferral is rational for the controller whenever the governance value of the retained control exceeds the capitalized value of the two premia, and the magnitude of the premia has fallen across the period as the private secondary market has deepened.
 
@@ -327,7 +447,10 @@ The second determinant is the governance obligation a listing imposes. The oblig
 
 The third determinant is to the mission-directed case. The disclosure obligation would require the firm to publish the cost and schedule performance of a development program whose difficulties are severe and whose timeline is long. The publication would supply the raw material for a narrative of failure at each intermediate setback, and the narrative would in turn affect the cost of capital and the customer relationships. The effect takes the compact statement
 
-$$\text{Var}\!\left[ V^{\text{market}} \mid \text{disclosed} \right] \gg \text{Var}\!\left[ V^{\text{market}} \mid \text{undisclosed} \right]$$
+$$
+\text{Var}\!\left[ V^{\text{market}} \mid \text{disclosed} \right] \gg \text{Var}\!\left[ V^{\text{market}} \mid \text{undisclosed} \right]
+\tag{41}
+$$
 
 with the disclosed valuation substantially more volatile across the development period. The volatility is not merely uncomfortable. It feeds back into the ability to raise the subsequent capital and into the retention of the personnel whose compensation is denominated in the equity.
 
@@ -341,11 +464,17 @@ The case for separation rests on the valuation argument that a subscription-reve
 
 The governance argument can be stated compactly. A separation transfers the financing loop that the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] formalizes from an internal transfer to an external one. Under the integrated configuration the Starlink surplus funds the Starship development by an internal capital allocation that the controller directs. Under the separated configuration the transfer would require a dividend, an intercompany agreement, or a related-party transaction, each of which is subject to a fiduciary review that the internal allocation is not. The difference may be written
 
-$$\text{cost of transfer} = \begin{cases} \approx 0 & \text{integrated} \\ C^{\text{fiduciary}} + C^{\text{minority}} & \text{separated} \end{cases}$$
+$$
+\text{cost of transfer} = \begin{cases} \approx 0 & \text{integrated} \\ C^{\text{fiduciary}} + C^{\text{minority}} & \text{separated} \end{cases}
+\tag{42}
+$$
 
 with the separated configuration incurring a review cost and a minority-protection cost on every transfer. The separation decision therefore turns on a comparison between a sum-of-parts valuation and an integrated valuation net of the transfer frictions, admitting the compact form
 
-$$\Delta = \left[ V^{\text{Starlink standalone}} + V^{\text{SpaceX ex-Starlink}} \right] - \left[ V^{\text{integrated}} + \Pi^{\text{control}} \right]$$
+$$
+\Delta = \left[ V^{\text{Starlink standalone}} + V^{\text{SpaceX ex-Starlink}} \right] - \left[ V^{\text{integrated}} + \Pi^{\text{control}} \right]
+\tag{43}
+$$
 
 with $\Pi^{\text{control}}$ the value the controller assigns to the unimpeded internal capital allocation. The separation is undertaken when $\Delta > 0$, and the inclusion of the control term is what distinguishes the decision facing this firm from the ordinary conglomerate-discount calculation. The costs are not prohibitive and they are not zero, and a controller whose principal use of the subsidiary's cash flow is to fund a parent-level mission has an interest in avoiding them.
 
@@ -357,7 +486,10 @@ The structure comprised a nonprofit entity founded in the December 2015 period w
 
 The formal control measure for the arrangement was maximal. In the notation the economic-property section establishes, the nonprofit board held
 
-$$v^{\text{board}} = 1 \qquad \text{with} \qquad e^{\text{board}} = 0 \qquad \text{so} \qquad w^{\text{board}} = \frac{v}{e} \to \infty$$
+$$
+v^{\text{board}} = 1 \qquad \text{with} \qquad e^{\text{board}} = 0 \qquad \text{so} \qquad w^{\text{board}} = \frac{v}{e} \to \infty
+\tag{44}
+$$
 
 with the wedge unbounded. The SpaceX wedge of approximately 1.9 is modest by comparison. If the formal wedge were the operative quantity, the OpenAI structure would have been the most capture-resistant arrangement in the sector.
 
@@ -365,23 +497,35 @@ The November 2023 events established that the formal wedge is not the operative 
 
 The analytical content of the episode is the distinction between formal and effective control that the economic-property section formalizes. The effective control satisfied
 
-$$v^{\text{effective}}_{\text{board}} \approx 0 \qquad \text{despite} \qquad v^{\text{formal}}_{\text{board}} = 1$$
+$$
+v^{\text{effective}}_{\text{board}} \approx 0 \qquad \text{despite} \qquad v^{\text{formal}}_{\text{board}} = 1
+\tag{45}
+$$
 
 because the organization's productive capacity resided in personnel who could depart, and the personnel's economic interest was aligned with the investor rather than with the board. The resource-dependence term in the effective-control expression dominated the formal term entirely. The board possessed the authority to remove the chief executive and did not possess the capacity to operate the organization afterward, and a control that cannot survive its own exercise is not a control.
 
 The structural conditions that produced the outcome admit compact statement. Let $\theta$ denote the fraction of the organization's productive value embodied in mobile human capital, and let $\alpha$ denote the fraction of the personnel's compensation contingent on the equity value. The board's effective authority declines in both, and the condition under which a formally controlling body can in fact prevail is
 
-$$\theta \cdot \alpha < \bar{\tau}$$
+$$
+\theta \cdot \alpha < \bar{\tau}
+\tag{46}
+$$
 
 for a threshold $\bar{\tau}$ determined by the switching costs the personnel would face. A research organization whose value is substantially its researchers and whose researchers hold substantial equity-linked claims sits far above the threshold. The condition is not a defect of the particular board or the particular individuals, and a differently composed board facing the identical conditions would have faced the identical outcome. The coordination structure that produced the rapid reversal has the concise statement as a threshold model in which each individual departs once a sufficient fraction of colleagues has committed to depart
 
-$$\text{depart}_i \iff f^{\text{committed}} \geq \theta_i$$
+$$
+\text{depart}_i \iff f^{\text{committed}} \geq \theta_i
+\tag{47}
+$$
 
 with $\theta_i$ the individual threshold and the cascade completing whenever the distribution of the thresholds admits no stable interior equilibrium. The published letter served the function of making the committed fraction common knowledge, which is the mechanism by which a latent majority becomes a realized one.
 
 The subsequent trajectory has moved the structure toward conventional arrangements. The restructuring toward a public benefit corporation and the reported removal of the return cap in the 2025 period complete the convergence. The capped-profit instrument was itself a transitional device whose removal was predictable from the moment the capital requirement exceeded what capped-return investors would supply. The removal admits the compact statement that a return cap $\bar{R}$ binds only while
 
-$$\bar{R} > R^{\text{market}}\!\left( \text{risk} \right)$$
+$$
+\bar{R} > R^{\text{market}}\!\left( \text{risk} \right)
+\tag{48}
+$$
 
 and ceases to be acceptable to incoming investors once the required market return on the risk exceeds the cap. A cap set generously enough never to bind imposes no discipline, and a cap set tightly enough to discipline eventually blocks the financing. The instrument therefore has no stable configuration under a capital requirement that grows.
 
@@ -393,7 +537,10 @@ The Tesla case offers the complementary negation, in which the same individual o
 
 The Tesla equity position is reported at approximately 13 percent following share dispositions across the 2021 through 2022 period, with the ordinary one-share-one-vote configuration and therefore
 
-$$w^{\text{Tesla}} = \frac{v}{e} \approx 1 \qquad \text{against} \qquad w^{\text{SpaceX}} \approx 1.9$$
+$$
+w^{\text{Tesla}} = \frac{v}{e} \approx 1 \qquad \text{against} \qquad w^{\text{SpaceX}} \approx 1.9
+\tag{49}
+$$
 
 and a control condition that fails rather than holds. The consequence is that the Tesla controller governs by a combination of board relationships, retail-shareholder support, and personal prominence rather than by a voting majority.
 
@@ -401,13 +548,19 @@ The 2018 chief-executive performance award and the ensuing litigation illustrate
 
 The analytical lesson is that the fiduciary apparatus binds a controller who lacks a voting majority substantially more tightly than one who holds it, because the controlled-transaction doctrines apply the entire-fairness standard to a transaction in which the controller stands on both sides and the standard is applied by a court rather than by a vote. The standard-selection rule that produces the difference can be stated as
 
-$$\text{standard} = \begin{cases} \text{business judgment} & \text{if no controller stands on both sides} \\ \text{entire fairness} & \text{otherwise, absent cleansing} \end{cases}$$
+$$
+\text{standard} = \begin{cases} \text{business judgment} & \text{if no controller stands on both sides} \\ \text{entire fairness} & \text{otherwise, absent cleansing} \end{cases}
+\tag{50}
+$$
 
 with the second branch shifting the burden to the defendant and subjecting the transaction to a substantive review rather than to a deferential one. The cleansing procedures require an independent committee and an informed majority-of-the-minority vote, and the finding that the process was controlled rather than independent is what removed the cleansing in the matter.
 
 The control a founder exercises without a voting majority is therefore a substitute rather than an equivalent, admitting the compact form
 
-$$v^{\text{effective}} = \beta_1 v^{\text{formal}} + \beta_2 \, s^{\text{board relationships}} + \beta_3 \, s^{\text{retail support}} + \beta_4 \, d^{\text{indispensability}}$$
+$$
+v^{\text{effective}} = \beta_1 v^{\text{formal}} + \beta_2 \, s^{\text{board relationships}} + \beta_3 \, s^{\text{retail support}} + \beta_4 \, d^{\text{indispensability}}
+\tag{51}
+$$
 
 with the latter three terms substantially more contestable and more perishable than the first. The public statements in which the individual expressed a preference for a greater voting share at Tesla before committing further artificial-intelligence and robotics work to it constitute a direct statement of the governance condition this article treats, applied by the person to whom it applies.
 
@@ -419,25 +572,37 @@ The foundation-ownership arrangements of the German and Danish industrial tradit
 
 The Carl Zeiss Stiftung established in the 1889 period by the physicist Ernst Abbe, with the governing statute completed in the 1896 period, is the earliest of the arrangements. The founder transferred the ownership of the optical works to a foundation whose statute defined the purposes and constrained the successors, and the foundation remains the owner of the Carl Zeiss and Schott enterprises at the drafting date. The record is accessible through the [Carl Zeiss Stiftung][ref_carl_zeiss_stiftung] documentation and the [Carl Zeiss corporate][ref_zeiss_corporate] materials, and the German legal form within which the arrangement operates is governed by the [Aktiengesetz][ref_german_aktiengesetz] provisions on share classes and corporate organs. The statute is analytically remarkable because it constrained the foundation itself rather than merely establishing it, prohibiting family control, fixing labor conditions including a limited working day and a pension provision, and specifying that no individual could derive a personal claim from the enterprise. The instrument is therefore a commitment device operating against the founder's own successors as much as against the external capital market. The statutory constraint permits the concise form
 
-$$\mathcal{A}^{\text{permitted}} = \mathcal{A} \setminus \mathcal{A}^{\text{prohibited by statute}}$$
+$$
+\mathcal{A}^{\text{permitted}} = \mathcal{A} \setminus \mathcal{A}^{\text{prohibited by statute}}
+\tag{52}
+$$
 
 with the foundation's action set restricted by the founding instrument rather than merely directed by it. The distinction between a restriction and a direction is the whole of the difference between a commitment device and a statement of intent, because a direction can be reinterpreted by a successor and a restriction must be amended.
 
 The Robert Bosch arrangement gives the cleanest available separation of the two rights. The configuration established following the founder's death in the 1942 period and implemented in the 1964 period places approximately 94 percent of the share capital with the charitable foundation and approximately 0.01 percent of the voting rights, while an industrial trust holds approximately 93 percent of the voting rights against approximately 0.01 percent of the capital. The record is accessible through the [Robert Bosch Stiftung][ref_bosch_stiftung] documentation, the [Bosch corporate][ref_bosch_company] materials, and the [Bosch annual reporting][ref_bosch_annual_report] that discloses the ownership split. The wedges are
 
-$$w^{\text{foundation}} = \frac{0.0001}{0.94} \approx 0.0001 \qquad \text{and} \qquad w^{\text{trust}} = \frac{0.93}{0.0001} \approx 9300$$
+$$
+w^{\text{foundation}} = \frac{0.0001}{0.94} \approx 0.0001 \qquad \text{and} \qquad w^{\text{trust}} = \frac{0.93}{0.0001} \approx 9300
+\tag{53}
+$$
 
 with the separation approaching the theoretical limit in both directions. The arrangement demonstrates that the wedge permits values orders of magnitude beyond anything a dual-class listed company exhibits, and that a configuration at that extreme has operated a major industrial enterprise across approximately six decades without the expropriation the agency tradition predicts.
 
 The Novo Nordisk arrangement places the Novo Nordisk Foundation, through the Novo Holdings entity, in control of the operating company by means of a two-class share structure in which the superior class carries a tenfold voting right. The reported position is approximately 28 percent of the capital and approximately 77 percent of the votes, corresponding to
 
-$$w^{\text{Novo}} = \frac{0.77}{0.28} \approx 2.8$$
+$$
+w^{\text{Novo}} = \frac{0.77}{0.28} \approx 2.8
+\tag{54}
+$$
 
 which is the closest of the three precedents to the SpaceX configuration in magnitude. The record is accessible through the [Novo Nordisk Foundation][ref_novo_nordisk_foundation] documentation, the [Novo Holdings][ref_novo_holdings] materials, and the [Novo Nordisk investor disclosures][ref_novo_nordisk_investors] that report the class structure. The Danish corporate and foundation registry framework is administered through the [Danish Business Authority][ref_danish_business_authority]. The arrangement is distinguished from the SpaceX case by the fact that the operating company is publicly listed, so that the configuration combines the capture resistance with the public-market disclosure and liquidity that the SpaceX arrangement forgoes.
 
 The comparative significance of the three precedents rests on the survival evidence they supply. The arrangements have persisted across approximately 137 years, approximately 84 years, and approximately 76 years respectively at the drafting date, spanning wars, currency collapses, generational transitions, and complete turnovers of the operating businesses. The survival function takes the form
 
-$$S(t) = P\!\left( \text{configuration intact at } t \mid \text{established at } 0 \right)$$
+$$
+S(t) = P\!\left( \text{configuration intact at } t \mid \text{established at } 0 \right)
+\tag{55}
+$$
 
 with the foundation-owned population exhibiting a substantially flatter hazard than the founder-controlled population, for the structural reason that a foundation does not die and a founder does. The observation identifies the principal unresolved question about the SpaceX configuration, because the instrument the firm employs is tied to an individual and the precedents that demonstrate centurial persistence are not.
 
@@ -451,13 +616,19 @@ The sub-property the cross-sectional analysis identifies as unsatisfied deserves
 
 The policy literature that [Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017] represents proposes the sunset provision as the remedy for the perpetual dual-class structure. A sunset converts the superior class to an ordinary class upon a triggering event, which may be the passage of a fixed interval, the death or incapacity of the founder, the transfer of the shares outside a permitted class of holders, or the decline of the founder's economic stake below a threshold. The instrument yields the compact statement as a stopping time
 
-$$\lambda^{\text{effective}}(t) = \lambda \cdot \mathbb{1}\!\left[ t < T^{\text{sunset}} \right] + 1 \cdot \mathbb{1}\!\left[ t \geq T^{\text{sunset}} \right]$$
+$$
+\lambda^{\text{effective}}(t) = \lambda \cdot \mathbb{1}\!\left[ t < T^{\text{sunset}} \right] + 1 \cdot \mathbb{1}\!\left[ t \geq T^{\text{sunset}} \right]
+\tag{56}
+$$
 
 with the voting ratio collapsing to unity at the trigger. The policy argument for the instrument rests on the empirical finding that the value discount associated with the wedge steepens with the tenure, which implies that the benefits of the founder control are front-loaded and the costs are back-loaded.
 
 The argument has a weakness in the mission-directed case that the policy literature does not address. A mission whose completion horizon exceeds the sunset interval is not protected by a configuration that terminates before the mission does. The condition for a sunset to be compatible with the mission is
 
-$$T^{\text{sunset}} > T^{\text{mission}}$$
+$$
+T^{\text{sunset}} > T^{\text{mission}}
+\tag{57}
+$$
 
 and a Mars-transportation objective of the kind the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] treats has a horizon that no conventional sunset interval approaches. The policy instrument and the mission-directed configuration are therefore in direct tension, and the tension is not resolvable by adjusting the interval, because an interval long enough to protect the mission is long enough to reproduce substantially the perpetual structure the instrument was designed to prevent.
 
@@ -477,7 +648,10 @@ The Standard Oil trust and the subsequent holding-company form illustrate the in
 
 The Ford Motor Company supplies the longest-running dual-class arrangement in the American industrial record. The Class B shares held by the founding family confer approximately 40 percent of the voting power against an equity position of a few percent, corresponding to
 
-$$w^{\text{Ford}} = \frac{v}{e} \approx \frac{0.40}{0.02} \approx 20$$
+$$
+w^{\text{Ford}} = \frac{v}{e} \approx \frac{0.40}{0.02} \approx 20
+\tag{58}
+$$
 
 which is approximately an order of magnitude above the SpaceX figure and which illustrates that the wedge magnitude alone carries no information about the quality of the resulting stewardship. The treatments in [Ford et al. 1922][book_ford_crowther_1922] My Life and Work, [Nevins 1954][book_nevins_1954] Ford, and [Hounshell 1984][book_hounshell_1984] From the American System to Mass Production document the origins. The case is instructive in both directions. The arrangement preserved a family direction across approximately a century, and the same arrangement has been identified in the governance literature as a contributor to periods of underperformance in which an external correction was unavailable.
 
@@ -499,7 +673,10 @@ The research-university and national-laboratory forms supply the institutional p
 
 The precedent set supports summary through a comparison of the hazard rates governing the loss of the configuration. Let $h_c(t)$ denote the instantaneous hazard for the class $c$. The ordering the record supports is
 
-$$h^{\text{foundation}} < h^{\text{family dual class}} < h^{\text{founder dual class}} < h^{\text{regulated monopoly}}$$
+$$
+h^{\text{foundation}} < h^{\text{family dual class}} < h^{\text{founder dual class}} < h^{\text{regulated monopoly}}
+\tag{59}
+$$
 
 with the foundation arrangements exhibiting the flattest hazard because the controlling entity does not die, and the regulated-monopoly arrangement exhibiting the steepest because the configuration depends on a political settlement that any administration can revisit. The SpaceX configuration sits in the third position, and the distance between the third and the first is the successor problem.
 
@@ -557,7 +734,10 @@ The contemporary landscape for the governance condition across the sector and th
 
 Blue Origin occupies a configuration that satisfies the governance condition by a different route. The firm has been substantially funded by a single individual without an external capital raise at scale, so that the capture hazard does not arise because no external claimant exists. The configuration may be stated compactly
 
-$$e^{\text{founder}} \approx v^{\text{founder}} \approx 1 \qquad \text{so} \qquad w \approx 1 \quad \text{with} \quad C^{\text{contest}} = \infty$$
+$$
+e^{\text{founder}} \approx v^{\text{founder}} \approx 1 \qquad \text{so} \qquad w \approx 1 \quad \text{with} \quad C^{\text{contest}} = \infty
+\tag{60}
+$$
 
 with the contestability infinite despite a unit wedge. The route is available only to a founder whose independent resources are commensurate with the mission's capital requirement, and the Portfolio-Patience article A288 will treat the consequences of the route for the pace of the development. The record is available through the [Blue Origin press releases][ref_blue_origin_press].
 
@@ -571,11 +751,17 @@ The broader private-market landscape gives the relevant base rate. The expansion
 
 The institutional-investor and index-provider response constitutes a countervailing force that the landscape must include. The [Council of Institutional Investors][ref_cii] has advocated one-share-one-vote policies and mandatory sunset provisions in its [dual-class stock position][ref_cii_dual_class], the proxy advisers whose recommendations shape institutional voting publish their policies through [ISS][ref_iss_governance] and [Glass Lewis][ref_glass_lewis], and index providers including [S&P Dow Jones Indices][ref_spdji] and [FTSE Russell][ref_ftse_russell] have at various points restricted the inclusion of multi-class issuers. The corporate-governance practice literature that the [Conference Board][ref_conference_board] publishes documents the diffusion of the policies. The pressure operates only on listed firms, which is a further reason the unlisted configuration is attractive to a controller who values control. The effect allows the brief statement that the governance-pressure gradient runs
 
-$$P^{\text{pressure}}\!\left( \text{listed, single class} \right) > P^{\text{pressure}}\!\left( \text{listed, dual class} \right) \gg P^{\text{pressure}}\!\left( \text{unlisted} \right)$$
+$$
+P^{\text{pressure}}\!\left( \text{listed, single class} \right) > P^{\text{pressure}}\!\left( \text{listed, dual class} \right) \gg P^{\text{pressure}}\!\left( \text{unlisted} \right)
+\tag{61}
+$$
 
 with the unlisted configuration substantially outside the reach of the instruments the institutional investors have developed. The comparison set arrayed by the wedge can be written as
 
-$$w^{\text{ULA}} \approx w^{\text{Rocket Lab}} \approx 1 \; < \; w^{\text{SpaceX}} \approx 1.9 \; < \; w^{\text{Novo}} \approx 2.8 \; \ll \; w^{\text{Bosch trust}} \approx 9300$$
+$$
+w^{\text{ULA}} \approx w^{\text{Rocket Lab}} \approx 1 \; < \; w^{\text{SpaceX}} \approx 1.9 \; < \; w^{\text{Novo}} \approx 2.8 \; \ll \; w^{\text{Bosch trust}} \approx 9300
+\tag{62}
+$$
 
 with the ordering establishing that the SpaceX wedge is unremarkable by the standards of the arrangements that have demonstrated the longest persistence. The analytically operative variable is therefore not the wedge magnitude but the combination of the wedge with the financing channel and the successor provision.
 
@@ -583,7 +769,10 @@ with the ordering establishing that the SpaceX wedge is unremarkable by the stan
 
 The governance condition applies to the organization set as a cross-sectional scoring exercise across the five sub-properties the pattern-extraction section states. The closure vector has the form
 
-$$\boldsymbol{\phi}_j^{\text{governance}} \in \{0, 1\}^{5}$$
+$$
+\boldsymbol{\phi}_j^{\text{governance}} \in \{0, 1\}^{5}
+\tag{63}
+$$
 
 with each organization's vector indicating the satisfaction status across the formal-instrument, effective-alignment, financing-channel, successor-commitment, and mission-specificity sub-properties.
 
@@ -593,7 +782,10 @@ Blue Origin exhibits closure on the effective-alignment, financing-channel, and 
 
 The cross-sectional pattern indicates that the formal-instrument sub-property is the easiest to satisfy and the successor-commitment sub-property the hardest, and that the two are substantially uncorrelated across the set. The correlation structure is stated compactly as
 
-$$\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{formal}}, \; \phi_{j,4}^{\text{successor}} \right) \approx 0$$
+$$
+\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{formal}}, \; \phi_{j,4}^{\text{successor}} \right) \approx 0
+\tag{64}
+$$
 
 with the adoption of a voting instrument carrying substantially no information about whether the arrangement will survive the controller. The finding is the reason the article treats the successor question as the principal open question rather than as a detail.
 
@@ -615,19 +807,28 @@ The governance framing the article develops is one of several analytical framewo
 
 The agency framing developed in [Jensen and Meckling 1976][research_jensen_meckling_1976], [Fama and Jensen 1983][research_fama_jensen_1983], and [Shleifer and Vishny 1997][research_shleifer_vishny_1997] is the principal alternative and treats the configuration as an entrenchment that raises the residual loss. The framing predicts value destruction increasing in the wedge and the tenure, and it predicts expropriation of the minority through related-party transactions and perquisite consumption. The available record does not permit a test of the prediction, because the transactions the prediction concerns are precisely the transactions an unlisted firm does not disclose. The prediction may be written
 
-$$V\!\left( w, \tau \right) = V^{\ast} - \beta_1 w - \beta_2 w \tau, \qquad \beta_1, \beta_2 > 0$$
+$$
+V\!\left( w, \tau \right) = V^{\ast} - \beta_1 w - \beta_2 w \tau, \qquad \beta_1, \beta_2 > 0
+\tag{65}
+$$
 
 with the value declining in the wedge and the decline compounding with the tenure. The framing is not refuted by the SpaceX record. It is untested by it.
 
 The stewardship framing treats the controller as a steward whose objective is aligned with the long-run enterprise rather than as an agent whose objective diverges from it, and it predicts that a control configuration insulating the steward improves rather than degrades the outcome. The stewardship premise takes the compact statement as a restriction on the objective
 
-$$U^{\text{controller}} = U^{\text{enterprise}} \qquad \text{against the agency premise} \qquad U^{\text{controller}} = e \cdot U^{\text{enterprise}} + B^{\text{private}}$$
+$$
+U^{\text{controller}} = U^{\text{enterprise}} \qquad \text{against the agency premise} \qquad U^{\text{controller}} = e \cdot U^{\text{enterprise}} + B^{\text{private}}
+\tag{66}
+$$
 
 with the two framings differing in whether the private-benefit term is present rather than in any empirical claim about the observed behavior. The framing is the mirror image of the agency framing and shares its weakness, in that both derive their predictions from an assumption about the controller's objective that the evidence is asked to confirm rather than to establish.
 
 The resource-dependence framing, whose organizational-sociology antecedents appear in [Selznick 1949][book_selznick_1949] TVA and the Grass Roots and whose market-architecture development appears in [Fligstein 2001][book_fligstein_2001] The Architecture of Markets, treats the effective control as determined by the pattern of dependencies rather than by the formal authority. The dependence-weighted control has the concise form
 
-$$v^{\text{effective}}_i = \frac{d_i \, \sigma_i}{\sum_j d_j \, \sigma_j}$$
+$$
+v^{\text{effective}}_i = \frac{d_i \, \sigma_i}{\sum_j d_j \, \sigma_j}
+\tag{67}
+$$
 
 with $d_i$ the criticality of the resource the party yields and $\sigma_i$ the credibility of the withdrawal threat, and with the formal votes entering only insofar as they constitute one resource among others. The framing contributes the analytical apparatus that the OpenAI counter-example requires and that the voting-rights literature lacks entirely, and the article adopts it as a supplement rather than as an alternative.
 
@@ -637,13 +838,19 @@ The political-economy and rent-seeking framing developed in [Buchanan and Tulloc
 
 The behavioral framing developed in [Kahneman and Tversky 1979][research_kahneman_tversky_1979], [Tversky and Kahneman 1992][research_tversky_kahneman_1992], [Kahneman 2011][book_kahneman_2011], [Staw 1976][research_staw_1976], and [Ross and Staw 1993][research_ross_staw_1993] treats the insulated controller as specifically exposed to the escalation and overconfidence hazards that an external correction would otherwise check. The escalation hazard takes the form
 
-$$P\!\left( \text{continue} \mid \text{negative signal} \right) = g\!\left( c^{\text{sunk}}, \; r^{\text{public commitment}}, \; 1 - \eta^{\text{external check}} \right)$$
+$$
+P\!\left( \text{continue} \mid \text{negative signal} \right) = g\!\left( c^{\text{sunk}}, \; r^{\text{public commitment}}, \; 1 - \eta^{\text{external check}} \right)
+\tag{68}
+$$
 
 increasing in the sunk cost, in the publicity of the prior commitment, and in the absence of the external check. The configuration the article describes sets the third argument near its maximum by construction. The framing offers the most concrete statement of the cost the configuration incurs, and it is the framing under which the Space Shuttle and Constellation program records that the [Generality-Forcing article A286][related_post_a286_spacex_generality_forcing] treats are read as evidence that the external correction is itself unreliable.
 
 The real-options framing developed in [Dixit and Pindyck 1994][book_dixit_pindyck_1994] and [Trigeorgis 1996][book_trigeorgis_1996] treats the retained control as an option to redirect the enterprise in contingencies not yet realized, and it values the configuration by the option value rather than by the expected cash flows. The option value can be written as
 
-$$V^{\text{control}} = \sum_{s \in \mathcal{S}} p(s) \cdot \left[ \max_{a \in \mathcal{A}} V(a, s) - V\!\left( a^{\text{default}}, s \right) \right]^{+}$$
+$$
+V^{\text{control}} = \sum_{s \in \mathcal{S}} p(s) \cdot \left[ \max_{a \in \mathcal{A}} V(a, s) - V\!\left( a^{\text{default}}, s \right) \right]^{+}
+\tag{69}
+$$
 
 with the value equal to the probability-weighted gain from being able to choose the action rather than accepting the default across the contingency set. The value rises with the dispersion of the contingencies, which is why the control premium is largest precisely where the programme is least predictable. The framing gives the formal account of why a controller facing a highly uncertain long-horizon programme values control disproportionately to any individual decision the control would be used to make.
 
@@ -667,7 +874,10 @@ The governance pattern that the SpaceX case exhibits admits the following abstra
 
 The abstract governance mechanic requires joint satisfaction of five sub-properties, admitting the compact conjunctive form
 
-$$\Phi^{\text{governance}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}$$
+$$
+\Phi^{\text{governance}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}
+\tag{70}
+$$
 
 with the closure obtaining only when every sub-property indicator takes the value unity.
 
@@ -679,7 +889,10 @@ Third, the venture must obtain its capital through a channel that does not itsel
 
 Fourth, the arrangement must bind the controller's successors, or it terminates with the controller. The transition hazard has the form
 
-$$P\!\left( \text{configuration survives transition} \right) = P\!\left( \text{successor identified} \right) \cdot P\!\left( \text{instrument transfers} \right) \cdot P\!\left( \text{successor sustains mission} \right)$$
+$$
+P\!\left( \text{configuration survives transition} \right) = P\!\left( \text{successor identified} \right) \cdot P\!\left( \text{instrument transfers} \right) \cdot P\!\left( \text{successor sustains mission} \right)
+\tag{71}
+$$
 
 with the product requiring all three factors and with an arrangement lacking any formal successor provision setting the second factor by default rather than by design. This is the sub-property the centurial precedents satisfy and the SpaceX configuration does not.
 
@@ -689,7 +902,10 @@ The relationship among the sub-properties is not symmetric. The first is the eas
 
 The abstract mechanic permits a diagnostic procedure applicable to a candidate case in an adjacent domain, stated as an ordered test vector
 
-$$\tau = \left( w > 1, \;\; v^{\text{effective}} \approx v^{\text{formal}}, \;\; G^{\text{channel}} \approx 0, \;\; \exists \, \text{successor binding}, \;\; \text{mission falsifiable} \right)$$
+$$
+\tau = \left( w > 1, \;\; v^{\text{effective}} \approx v^{\text{formal}}, \;\; G^{\text{channel}} \approx 0, \;\; \exists \, \text{successor binding}, \;\; \text{mission falsifiable} \right)
+\tag{72}
+$$
 
 with each component evaluating one of the five sub-properties. The procedure's practical value lies in the second and fourth components, because a candidate case will almost always satisfy the first and will almost never be examined on the others.
 
@@ -710,6 +926,648 @@ The article adopts terminology consistent with the corporate-governance conventi
 ## Load-Bearing Open Questions
 
 The article closes with the load-bearing open questions the governance treatment leaves unresolved. First, the central claim that the control configuration prevented a capture that would otherwise have occurred is not demonstrable, because no capture attempt is recorded and the counterfactual is unobservable. Second, the quantitative capital-structure claims rest on reconstructive estimates that the private-firm status precludes verifying. Third, the successor question is entirely unresolved, and the configuration at the drafting date provides no mechanism by which the arrangement survives the controller. Fourth, the relationship between the governance configuration and the accountability of the enterprise to parties other than its capital providers is not addressed by the condition as formulated, and the critical literature is correct that the omission is substantive rather than incidental. Fifth, the applicability of the empirical dual-class findings to an unlisted firm is unresolved in both directions, and the selection structure of the available samples makes the direction of the bias genuinely uncertain. Sixth, the effect of a Starlink separation on the configuration is unknown and would constitute the first substantial test of the arrangement.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 72 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 72, 26 are established and 46 are bespoke.
+Cash-flow and voting shares are fractions of the whole between zero and one, a wedge is their dimensionless ratio, and the wedges evaluated for SpaceX and the comparison firms rest on reported or reconstructive estimates rather than on any disclosure of the class structure.
+
+**Equation 1, Control Wedge.**
+The wedge of a claimant is the ratio of their voting share to their cash-flow share, equal to one under one share one vote.
+[La Porta et al. 1998][research_laporta_et_al_1998]
+
+$$
+w_i(t) = \frac{v_i(t)}{e_i(t)}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Founder Control Condition.*
+The condition the article sets requires the founder to hold a voting majority at every time across the financing horizon rather than only at the founding.
+
+$$
+v^{\text{founder}}(t) > \tfrac{1}{2} \qquad \forall t \in [t_0, T]
+\tag{2}
+$$
+
+**Equation 3, Cash-Flow Share under Successive Dilution.**
+Each financing round multiplies the existing cash-flow share by one minus the dilution fraction of that round, so the share after many rounds is the product of those factors.
+
+$$
+e^{\text{founder}}_n = e^{\text{founder}}_{n-1} \left( 1 - \delta_n \right) \qquad \text{so} \qquad e^{\text{founder}}_N = e^{\text{founder}}_0 \prod_{n=1}^{N} \left( 1 - \delta_n \right)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Decoupling of Votes from Dilution.*
+The statement asserts that under the dual-class configuration the founder voting share is insensitive to dilution while the cash-flow share falls.
+
+$$
+\frac{\partial v^{\text{founder}}}{\partial \delta_n} \approx 0 \qquad \text{while} \qquad \frac{\partial e^{\text{founder}}}{\partial \delta_n} < 0
+\tag{4}
+$$
+
+*Equation 5, Bespoke Capital-Capture Indicator.*
+The indicator the article defines takes the value one when the mission changes toward the capital-weighted preference of the claimants other than the founder.
+
+$$
+\kappa(t) = \mathbb{1}\!\left[ M(t) \neq M(t^-) \; \wedge \; \Delta M \in \arg\max_{M'} \sum_{i \neq \text{founder}} e_i \cdot U_i(M') \right]
+\tag{5}
+$$
+
+*Equation 6, Bespoke Capture Counterfactual Differential.*
+The governance contribution is defined as the observed value less the value under a counterfactual one-share-one-vote configuration facing the same financing sequence.
+
+$$
+\Delta V^{\text{governance}}_i(t) = V^{\text{observed}}_i(t) - V^{\text{capture counterfactual}}_i(t)
+\tag{6}
+$$
+
+**Equation 7, Normalisation of Cash-Flow and Voting Shares.**
+The cash-flow shares and the voting shares of all claimants each sum to one.
+
+$$
+\sum_i e_i = 1 \qquad \text{and} \qquad \sum_i v_i = 1
+\tag{7}
+$$
+
+*Equation 8, Bespoke Aggregate Wedge.*
+The aggregate wedge the article defines sums the absolute differences between voting and cash-flow shares across claimants, so it is zero under one share one vote.
+
+$$
+W = \sum_i \left| v_i - e_i \right|
+\tag{8}
+$$
+
+**Equation 9, Controller Approval Condition with Private Benefits.**
+A controller approves a project when their cash-flow share of the change in security value plus the change in private benefits is positive, the condition behind the one-share-one-vote argument.
+[Grossman and Hart 1987][research_grossman_hart_1988]
+[Harris and Raviv 1988][research_harris_raviv_1988]
+
+$$
+e^{\text{controller}} \cdot \Delta V^{\text{security}} + \Delta B^{\text{private}} > 0
+\tag{9}
+$$
+
+**Equation 10, Cash-Flow Threshold for Private-Benefit Dominance.**
+Rearranging the approval condition gives the cash-flow share below which the private-benefit term decides the controller's choice.
+[Grossman and Hart 1987][research_grossman_hart_1988]
+[Harris and Raviv 1988][research_harris_raviv_1988]
+
+$$
+e^{\text{controller}} < \frac{-\Delta B^{\text{private}}}{\Delta V^{\text{security}}}
+\tag{10}
+$$
+
+**Equation 11, Divergent Net Present Values under Different Discount Rates.**
+When the controller discounts at a lower rate than the investor, some long-horizon projects have positive net present value to the controller and negative net present value to the investor.
+
+$$
+\rho^{\text{controller}} < \rho^{\text{investor}} \implies \exists \; \text{projects with} \; \text{NPV}_{\rho^{\text{controller}}} > 0 > \text{NPV}_{\rho^{\text{investor}}}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Mission-Persistence Probability.*
+The probability that the mission persists is modelled as a product over financing rounds of one minus a per-round redirection hazard, which assumes the rounds are independent.
+
+$$
+P^{\text{persistence}}(T) = \prod_{n=1}^{N(T)} \left[ 1 - q_n \right]
+\tag{12}
+$$
+
+*Equation 13, Bespoke Control-Contestability Measure.*
+The measure the article defines is the smallest voting mass that a coalition excluding the founder must assemble to hold a majority, taken as infinite when no such coalition exists.
+
+$$
+C^{\text{contest}} = \min \left\{ \sum_{i \in S} v_i \; : \; S \subseteq \mathcal{I} \setminus \{\text{founder}\}, \; \sum_{i \in S} v_i > \tfrac{1}{2} \right\}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Effective Control Function.*
+Effective control is posited as an unspecified function of formal votes, the resource dependence of the organisation on the party and the credibility of the threat of withdrawal.
+
+$$
+v^{\text{effective}}_i = f\!\left( v^{\text{formal}}_i, \; d_i, \; \sigma_i \right)
+\tag{14}
+$$
+
+**Equation 15, Jensen and Meckling Agency Cost.**
+Agency cost is the sum of monitoring expenditure by the principal, bonding expenditure by the agent and the residual loss.
+[Jensen and Meckling 1976][research_jensen_meckling_1976]
+
+$$
+AC = C^{\text{monitoring}} + C^{\text{bonding}} + L^{\text{residual}}
+\tag{15}
+$$
+
+**Equation 16, Residual Control Rights.**
+The residual control rights are the actions that the contract does not specify, which the incomplete-contracts tradition assigns to the owner.
+[Grossman and Hart 1986][research_grossman_hart_1986]
+[Hart and Moore 1990][research_hart_moore_1990]
+
+$$
+\text{RC} = \left\{ a \in \mathcal{A} \; : \; a \notin \text{dom}(\text{contract}) \right\}
+\tag{16}
+$$
+
+**Equation 17, Investor-Protection Index.**
+The index is a weighted count of the legal protections for minority investors present in a regime, the construction of the law-and-finance tradition.
+[La Porta et al. 1998][research_laporta_et_al_1998]
+
+$$
+IP_j = \sum_{k} \omega_k \cdot \mathbb{1}\!\left[ \text{protection } k \text{ present in regime } j \right]
+\tag{17}
+$$
+
+**Equation 18, Firm Value Declining in the Wedge and Tenure.**
+The empirical finding is that a valuation ratio falls as the wedge rises and falls faster with the time elapsed since listing.
+[Gompers et al. 2009][research_gompers_ishii_metrick_2010]
+[Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017]
+
+$$
+\frac{\partial q}{\partial w} < 0 \qquad \text{and} \qquad \frac{\partial^2 q}{\partial w \, \partial \tau} < 0
+\tag{18}
+$$
+
+**Equation 19, Generalised Nash Bargaining Solution.**
+The split of payoffs maximises the product of each party's gain over its disagreement payoff, raised to the power of its bargaining weight.
+[Nash 1950][research_nash_1950]
+[Binmore et al. 1986][research_binmore_rubinstein_wolinsky_1986]
+
+$$
+\left( u^{\text{founder}}, u^{\text{investor}} \right) = \arg\max \left( u^{\text{founder}} - d^{\text{founder}} \right)^{\beta} \left( u^{\text{investor}} - d^{\text{investor}} \right)^{1-\beta}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Staged-Financing Control.*
+The influence of an investor at a round is modelled as its share of the capital offered for that round, independent of any voting arithmetic.
+[Gompers 1995][research_gompers_1995]
+
+$$
+v^{\text{staged}}_i(t) = \mathbb{1}\!\left[ k_i(t) > 0 \right] \cdot \frac{k_i(t)}{\sum_j k_j(t)}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Defining Condition of Foundation Ownership.*
+The article formalises foundation ownership as the absence of any natural person holding a positive residual claim.
+
+$$
+\nexists \; i \; : \; e_i > 0 \; \wedge \; i \in \text{natural persons}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Goal-Displacement Distance.*
+Goal displacement is defined as the distance between the mission the organisation enacts and the mission it was chartered to pursue, a distance the article leaves without an operational metric.
+
+$$
+D(t) = \left\| M^{\text{enacted}}(t) - M^{\text{chartered}} \right\|
+\tag{22}
+$$
+
+**Equation 23, Founding Wedge of a Self-Funded Founder.**
+A founder who holds essentially all the equity and all the votes at the founding has a wedge of one, so the control condition holds without any instrument.
+
+$$
+w^{\text{founder}}(t_0) = \frac{v^{\text{founder}}(t_0)}{e^{\text{founder}}(t_0)} = 1 \qquad \text{with} \qquad e^{\text{founder}}(t_0) \approx 1
+\tag{23}
+$$
+
+**Equation 24, Cash Runway.**
+The runway is cash on hand divided by the rate of cash burn, which gives the time until the cash is exhausted.
+
+$$
+\Theta = \frac{C^{\text{cash on hand}}}{\dot{C}^{\text{burn}}}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Founder Disagreement Payoff.*
+The disagreement payoff of the founder is modelled as the larger of the liquidation value and the value of continuing on personal funds, the second term existing only for a founder with independent resources.
+
+$$
+d^{\text{founder}} = \max\left\{ V^{\text{liquidation}}, \; V^{\text{self-funded continuation}} \right\}
+\tag{25}
+$$
+
+**Equation 26, Founder Wedge in the Early 2020s.**
+Reported holdings of about 79 percent of the votes and 42 percent of the equity give the founder a wedge of about 1.9.
+[SpaceX corporate site][ref_spacex_company]
+
+$$
+w^{\text{founder}} = \frac{v^{\text{founder}}}{e^{\text{founder}}} \approx \frac{0.79}{0.42} \approx 1.9
+\tag{26}
+$$
+
+**Equation 27, Voting Share under a Two-Class Structure.**
+A holder of the whole superior class, with each superior share carrying a given number of votes and each inferior share one vote, holds the superior votes divided by all votes.
+
+$$
+v = \frac{\lambda \, n_A}{\lambda \, n_A + n_B}
+\tag{27}
+$$
+
+**Equation 28, Majority Condition under a Two-Class Structure.**
+The voting share exceeds one half exactly when the ratio of superior to inferior shares exceeds the reciprocal of the votes per superior share.
+
+$$
+\frac{n_A}{n_B} > \frac{1}{\lambda}
+\tag{28}
+$$
+
+**Equation 29, Cumulative Capital Raised.**
+The cumulative capital is the sum of the capital raised in each round of the sequence.
+
+$$
+K^{\text{cumulative}} = \sum_{n=1}^{N} k_n
+\tag{29}
+$$
+
+*Equation 30, Bespoke Cumulative Voting Transferred.*
+The voting share transferred across all rounds is summed and asserted to be near zero, an estimate the article draws from the reported class structure.
+
+$$
+\Delta v^{\text{transferred}} = \sum_{n=1}^{N} \Delta v_n \approx 0
+\tag{30}
+$$
+
+*Equation 31, Bespoke Voting Transferred per Unit of Capital.*
+The ratio the article defines divides the cumulative voting share transferred by the cumulative capital raised.
+
+$$
+\eta = \frac{\Delta v^{\text{transferred}}}{K^{\text{cumulative}}}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Coalition Coordination Cost.*
+The cost of assembling a coalition is modelled as proportional to the coalition size and to one minus a concentration measure of the investor base, a linear form the article chose.
+
+$$
+C^{\text{coalition}}(S) = \gamma \cdot |S| \cdot \left( 1 - h \right)
+\tag{32}
+$$
+
+**Equation 33, Post-Money and Pre-Money Valuation.**
+The post-money valuation is the capital supplied divided by the fraction acquired, and the pre-money valuation is the post-money valuation less the capital.
+
+$$
+V^{\text{post}} = \frac{k}{\delta} \qquad \text{and} \qquad V^{\text{pre}} = V^{\text{post}} - k
+\tag{33}
+$$
+
+*Equation 34, Bespoke Utility of a Strategic Investor.*
+The utility of a strategic investor is modelled as its cash-flow share of venture value plus a weight on the effect of the venture on the investor's own business.
+
+$$
+U^{\text{strategic}}_i = e_i \cdot V^{\text{venture}} + \phi_i \cdot V^{\text{own business}}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Round Value as a Constellation Option.*
+The value purchased in the round is modelled as the launch-service value plus the probability of constellation deployment times the positive part of constellation value net of deployment cost.
+
+$$
+V^{\text{round}} = V^{\text{launch service}} + p^{\text{constellation}} \cdot \left[ V^{\text{constellation}} - K^{\text{deployment}} \right]^{+}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Liquidity and Governance of a Public Listing.*
+A public listing is characterised as a pair of large liquidity and large governance obligations.
+
+$$
+\left( L^{\text{IPO}}, \; G^{\text{IPO}} \right) \qquad \text{with both terms large}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Liquidity and Governance of a Tender Offer.*
+The tender-offer mechanism is characterised as supplying liquidity close to that of a listing with governance obligations near zero.
+
+$$
+\left( L^{\text{tender}}, \; G^{\text{tender}} \right) \qquad \text{with} \qquad L^{\text{tender}} \lesssim L^{\text{IPO}}, \quad G^{\text{tender}} \approx 0
+\tag{37}
+$$
+
+*Equation 38, Bespoke Admissible Buyer Set.*
+Transfer restrictions are characterised as making the admissible buyers a proper subset of the willing buyers, which the firm selects.
+
+$$
+\mathcal{B}^{\text{admissible}} \subsetneq \mathcal{B}^{\text{willing}}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Listing Decision Rule.*
+Listing is held warranted if and only if the capital requirement exceeds private supply or the liquidity requirement exceeds what tender offers provide.
+
+$$
+\text{list} \iff \left[ K^{\text{required}} > K^{\text{private available}} \right] \; \vee \; \left[ L^{\text{required}} > L^{\text{tender}} \right]
+\tag{39}
+$$
+
+*Equation 40, Bespoke Private Cost of Capital.*
+The private required return is modelled as the public return plus an illiquidity premium and an opacity premium, the second of which the article adds.
+
+$$
+r^{\text{private}} = r^{\text{public}} + \pi^{\text{illiquidity}} + \pi^{\text{opacity}}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Valuation Variance under Disclosure.*
+The statement asserts that the market valuation of a disclosed development programme varies far more than that of an undisclosed one.
+
+$$
+\text{Var}\!\left[ V^{\text{market}} \mid \text{disclosed} \right] \gg \text{Var}\!\left[ V^{\text{market}} \mid \text{undisclosed} \right]
+\tag{41}
+$$
+
+*Equation 42, Bespoke Cost of an Internal Capital Transfer.*
+The cost of transferring surplus is taken as near zero under the integrated configuration and as a fiduciary review cost plus a minority-protection cost under separation.
+
+$$
+\text{cost of transfer} = \begin{cases} \approx 0 & \text{integrated} \\ C^{\text{fiduciary}} + C^{\text{minority}} & \text{separated} \end{cases}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Separation Decision with a Control Term.*
+The separation gain is the sum-of-parts value less the integrated value plus a control premium that the controller assigns to unimpeded internal allocation.
+
+$$
+\Delta = \left[ V^{\text{Starlink standalone}} + V^{\text{SpaceX ex-Starlink}} \right] - \left[ V^{\text{integrated}} + \Pi^{\text{control}} \right]
+\tag{43}
+$$
+
+**Equation 44, Formal Wedge of the OpenAI Nonprofit Board.**
+A board holding all votes and no equity has a wedge that is unbounded.
+
+$$
+v^{\text{board}} = 1 \qquad \text{with} \qquad e^{\text{board}} = 0 \qquad \text{so} \qquad w^{\text{board}} = \frac{v}{e} \to \infty
+\tag{44}
+$$
+
+*Equation 45, Bespoke Effective Control of the OpenAI Board.*
+The statement records the article's judgement that the board held effective control near zero in November 2023 despite holding all formal votes.
+
+$$
+v^{\text{effective}}_{\text{board}} \approx 0 \qquad \text{despite} \qquad v^{\text{formal}}_{\text{board}} = 1
+\tag{45}
+$$
+
+*Equation 46, Bespoke Condition for Formal Control to Prevail.*
+A formally controlling body is held able to prevail only when the product of the share of value in mobile human capital and the equity-linked share of compensation lies below a threshold set by switching costs.
+
+$$
+\theta \cdot \alpha < \bar{\tau}
+\tag{46}
+$$
+
+**Equation 47, Threshold Model of Collective Departure.**
+Each individual departs once the fraction of colleagues committed to depart reaches that individual's threshold, the threshold model of collective behaviour.
+
+$$
+\text{depart}_i \iff f^{\text{committed}} \geq \theta_i
+\tag{47}
+$$
+
+*Equation 48, Bespoke Binding Condition for a Return Cap.*
+A return cap is held acceptable to incoming investors only while it exceeds the market return required for the risk.
+
+$$
+\bar{R} > R^{\text{market}}\!\left( \text{risk} \right)
+\tag{48}
+$$
+
+**Equation 49, Tesla and SpaceX Wedges Compared.**
+A reported stake of about 13 percent under one share one vote gives a wedge of about one at Tesla, against about 1.9 at SpaceX.
+[Tesla investor materials][ref_tesla_ir]
+
+$$
+w^{\text{Tesla}} = \frac{v}{e} \approx 1 \qquad \text{against} \qquad w^{\text{SpaceX}} \approx 1.9
+\tag{49}
+$$
+
+**Equation 50, Delaware Standard of Review Selection.**
+Delaware law reviews a transaction under the business judgment rule unless a controller stands on both sides, in which case entire fairness applies absent cleansing procedures.
+[Delaware courts opinions archive][ref_delaware_opinions]
+
+$$
+\text{standard} = \begin{cases} \text{business judgment} & \text{if no controller stands on both sides} \\ \text{entire fairness} & \text{otherwise, absent cleansing} \end{cases}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Effective Control without a Voting Majority.*
+Effective control is modelled as a linear combination of formal votes, board relationships, retail support and indispensability, with weights the article leaves unestimated.
+
+$$
+v^{\text{effective}} = \beta_1 v^{\text{formal}} + \beta_2 \, s^{\text{board relationships}} + \beta_3 \, s^{\text{retail support}} + \beta_4 \, d^{\text{indispensability}}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Statutory Restriction of the Action Set.*
+The permitted actions of the foundation are the full action set less the actions the founding statute prohibits.
+
+$$
+\mathcal{A}^{\text{permitted}} = \mathcal{A} \setminus \mathcal{A}^{\text{prohibited by statute}}
+\tag{52}
+$$
+
+**Equation 53, Wedges of the Bosch Foundation and Industrial Trust.**
+The disclosed split of about 94 percent of capital with 0.01 percent of votes and 0.01 percent of capital with 93 percent of votes gives wedges of about 0.0001 and 9300.
+[Bosch annual reporting][ref_bosch_annual_report]
+
+$$
+w^{\text{foundation}} = \frac{0.0001}{0.94} \approx 0.0001 \qquad \text{and} \qquad w^{\text{trust}} = \frac{0.93}{0.0001} \approx 9300
+\tag{53}
+$$
+
+**Equation 54, Wedge of the Novo Nordisk Foundation.**
+The reported position of about 28 percent of capital and 77 percent of votes gives a wedge of about 2.8.
+[Novo Nordisk investor disclosures][ref_novo_nordisk_investors]
+
+$$
+w^{\text{Novo}} = \frac{0.77}{0.28} \approx 2.8
+\tag{54}
+$$
+
+**Equation 55, Survival Function.**
+The survival function is the probability that a configuration remains intact at a given time after its establishment.
+
+$$
+S(t) = P\!\left( \text{configuration intact at } t \mid \text{established at } 0 \right)
+\tag{55}
+$$
+
+**Equation 56, Voting Ratio under a Sunset Provision.**
+A sunset provision keeps the superior voting ratio until the trigger time and reduces it to one share one vote thereafter.
+[Bebchuk and Kastiel 2017][research_bebchuk_kastiel_2017]
+
+$$
+\lambda^{\text{effective}}(t) = \lambda \cdot \mathbb{1}\!\left[ t < T^{\text{sunset}} \right] + 1 \cdot \mathbb{1}\!\left[ t \geq T^{\text{sunset}} \right]
+\tag{56}
+$$
+
+*Equation 57, Bespoke Sunset Compatibility with the Mission.*
+A sunset is held compatible with the mission only when the sunset falls later than the completion horizon of the mission.
+
+$$
+T^{\text{sunset}} > T^{\text{mission}}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Ford Family Wedge.*
+About 40 percent of the votes against an equity position the article takes as 2 percent, a representative value for a few percent, gives a wedge of about 20.
+
+$$
+w^{\text{Ford}} = \frac{v}{e} \approx \frac{0.40}{0.02} \approx 20
+\tag{58}
+$$
+
+*Equation 59, Bespoke Ordering of Configuration Hazards.*
+The hazard of losing the control configuration is ordered from foundation through family and founder dual-class arrangements to regulated monopoly, an ordering the article reads from its precedent set.
+
+$$
+h^{\text{foundation}} < h^{\text{family dual class}} < h^{\text{founder dual class}} < h^{\text{regulated monopoly}}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Blue Origin Governance Configuration.*
+A single funder holding essentially all equity and votes is taken to give a unit wedge with infinite contestability, an approximation the article makes in the absence of disclosure.
+
+$$
+e^{\text{founder}} \approx v^{\text{founder}} \approx 1 \qquad \text{so} \qquad w \approx 1 \quad \text{with} \quad C^{\text{contest}} = \infty
+\tag{60}
+$$
+
+*Equation 61, Bespoke Governance-Pressure Gradient.*
+The pressure from institutional investors is ordered from listed single-class firms through listed dual-class firms to unlisted firms, a ranking the article asserts.
+
+$$
+P^{\text{pressure}}\!\left( \text{listed, single class} \right) > P^{\text{pressure}}\!\left( \text{listed, dual class} \right) \gg P^{\text{pressure}}\!\left( \text{unlisted} \right)
+\tag{61}
+$$
+
+*Equation 62, Bespoke Ordering of Comparison-Set Wedges.*
+The wedges of the comparison set are arrayed from unity for United Launch Alliance and Rocket Lab, which the article assumes, through SpaceX and Novo to the Bosch trust.
+
+$$
+w^{\text{ULA}} \approx w^{\text{Rocket Lab}} \approx 1 \; < \; w^{\text{SpaceX}} \approx 1.9 \; < \; w^{\text{Novo}} \approx 2.8 \; \ll \; w^{\text{Bosch trust}} \approx 9300
+\tag{62}
+$$
+
+*Equation 63, Bespoke Governance Closure Vector.*
+Each organisation receives a binary vector over the five governance sub-properties that the pattern-extraction section states.
+
+$$
+\boldsymbol{\phi}_j^{\text{governance}} \in \{0, 1\}^{5}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Correlation of Instrument and Successor Sub-Properties.*
+The statement records the article's finding that the formal-instrument and successor-commitment indicators are nearly uncorrelated across its scored set.
+
+$$
+\operatorname{corr}_j\!\left( \phi_{j,1}^{\text{formal}}, \; \phi_{j,4}^{\text{successor}} \right) \approx 0
+\tag{64}
+$$
+
+*Equation 65, Bespoke Linear Agency Prediction.*
+The agency prediction is specified as value falling linearly in the wedge and in the product of wedge and tenure, a functional form the article chose.
+
+$$
+V\!\left( w, \tau \right) = V^{\ast} - \beta_1 w - \beta_2 w \tau, \qquad \beta_1, \beta_2 > 0
+\tag{65}
+$$
+
+*Equation 66, Bespoke Stewardship and Agency Objectives.*
+The stewardship premise equates the controller objective with that of the enterprise, while the agency premise adds a private-benefit term to a cash-flow share of it.
+
+$$
+U^{\text{controller}} = U^{\text{enterprise}} \qquad \text{against the agency premise} \qquad U^{\text{controller}} = e \cdot U^{\text{enterprise}} + B^{\text{private}}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Dependence-Weighted Control.*
+Effective control is modelled as the product of resource criticality and threat credibility for a party, normalised over all parties.
+[Fligstein 2001][book_fligstein_2001]
+
+$$
+v^{\text{effective}}_i = \frac{d_i \, \sigma_i}{\sum_j d_j \, \sigma_j}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Escalation Hazard.*
+The probability of continuing after a negative signal is posited as an unspecified function increasing in sunk cost, public commitment and the absence of an external check.
+
+$$
+P\!\left( \text{continue} \mid \text{negative signal} \right) = g\!\left( c^{\text{sunk}}, \; r^{\text{public commitment}}, \; 1 - \eta^{\text{external check}} \right)
+\tag{68}
+$$
+
+*Equation 69, Bespoke Option Value of Retained Control.*
+The value of control is constructed as the probability-weighted gain, across contingencies, from choosing the best action rather than accepting a default action.
+
+$$
+V^{\text{control}} = \sum_{s \in \mathcal{S}} p(s) \cdot \left[ \max_{a \in \mathcal{A}} V(a, s) - V\!\left( a^{\text{default}}, s \right) \right]^{+}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Governance Conjunctive Closure.*
+Closure is the product of five binary sub-property indicators, so that it obtains only when every indicator is one.
+
+$$
+\Phi^{\text{governance}} = \prod_{k=1}^{5} \phi_k, \qquad \phi_k \in \{0,1\}
+\tag{70}
+$$
+
+*Equation 71, Bespoke Succession Survival Probability.*
+Survival through a succession is modelled as the product of the probabilities that a successor is identified, that the instrument transfers and that the successor sustains the mission, which assumes the three are independent.
+
+$$
+P\!\left( \text{configuration survives transition} \right) = P\!\left( \text{successor identified} \right) \cdot P\!\left( \text{instrument transfers} \right) \cdot P\!\left( \text{successor sustains mission} \right)
+\tag{71}
+$$
+
+*Equation 72, Bespoke Governance Test Vector.*
+The test vector collects the five diagnostic conditions, from a wedge above one to a falsifiable mission.
+
+$$
+\tau = \left( w > 1, \;\; v^{\text{effective}} \approx v^{\text{formal}}, \;\; G^{\text{channel}} \approx 0, \;\; \exists \, \text{successor binding}, \;\; \text{mission falsifiable} \right)
+\tag{72}
+$$
+
+### Notation
+
+- $e_i$, the cash-flow share of the claimant $i$
+- $v_i$, the voting share of the claimant $i$
+- $w_i$, the control wedge of the claimant $i$, the ratio of voting to cash-flow share
+- $\delta_n$, the dilution fraction of the financing round $n$, and without a subscript the fraction a round acquires
+- $\kappa(t)$, the capital-capture indicator at time $t$
+- $M(t)$, the mission objective at time $t$
+- $W$, the aggregate wedge across the claimant set
+- $\Delta B^{\text{private}}$, the change in private benefits accruing to the controller alone
+- $\Delta V^{\text{security}}$, the change in total security value
+- $q_n$, the probability that the financing round $n$ produces a mission redirection
+- $C^{\text{contest}}$, the smallest voting mass a coalition excluding the founder needs to prevail
+- $d_i$, the resource dependence of the organisation on the party $i$
+- $\sigma_i$, the credibility of the threat of the party $i$ to withdraw
+- $\beta$, the relative bargaining power of the founder
+- $d^{\text{founder}}$, the disagreement payoff of the founder
+- $\Theta$, the cash runway, measured in time
+- $\lambda$, the votes per superior share, with each inferior share carrying one vote
+- $n_A$, the number of superior-class shares
+- $n_B$, the number of inferior-class shares
+- $K^{\text{cumulative}}$, the cumulative capital raised across the financing sequence
+- $\eta$, the voting share transferred per unit of capital raised
+- $h$, a concentration measure of the investor base
+- $\phi_i$, the weight a strategic investor places on the effect of the venture on its own business
+- $\theta$, the fraction of productive value embodied in mobile human capital
+- $\alpha$, the fraction of personnel compensation contingent on equity value
+- $\theta_i$, the departure threshold of the individual $i$
+- $T^{\text{sunset}}$, the time at which a sunset provision triggers
+- $S(t)$, the survival function of a control configuration
+- $\tau$, the time since listing, and in the closing procedure the ordered test vector
+- $\boldsymbol{\phi}_j$, the binary closure vector of the organisation $j$ over five sub-properties
+- $\Phi^{\text{governance}}$, the conjunctive closure, the product of the five sub-property indicators
 
 ## References
 

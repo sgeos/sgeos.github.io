@@ -1,0 +1,731 @@
+# Equation classification for A288. Read by `python3 _lib/equations.py`.
+
+caution = "Returns, weights, correlations and probabilities are dimensionless, runways are measured in time, and flows, costs and values carry whatever currency unit a section uses, while most equations state the structure of an argument and are not evaluated with data."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Portfolio Return"
+gloss = "The portfolio return is the weighted sum of the line returns, with weights that sum to one."
+cite = ["research_markowitz_1952"]
+digest = "34ce2ea3558af1f2"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Portfolio Variance"
+gloss = "The portfolio variance is the double sum over pairs of lines of the two weights, the correlation and the two standard deviations."
+cite = ["research_markowitz_1952"]
+digest = "49f63ce16014410c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Finite-Horizon Ruin Probability"
+gloss = "The ruin probability is the probability that the cash position first falls to zero or below at some time before the horizon."
+cite = []
+digest = "b7a01c0371c0d26f"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Ruin Probability of Independent Lines"
+gloss = "Ruin of the portfolio is approximated as the product of the line failure probabilities, which assumes that failures are independent and that any one surviving line averts ruin."
+cite = []
+digest = "c3776e14d4158baf"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Correlation Matrix of the Lines"
+gloss = "The correlation matrix collects the pairwise correlations between every two lines of the portfolio."
+cite = []
+digest = "9405738517b4ee3d"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Single-Line Counterfactual Differential"
+gloss = "The portfolio contribution is defined as the observed value less the value under a counterfactual in which the firm pursued the mission through a single line."
+cite = []
+digest = "4d354dfb960acb46"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Patience Condition"
+gloss = "The condition requires the interval the venture will sustain each line without a positive return to be at least the interval that line in fact requires."
+cite = []
+digest = "b2070603ad38260a"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Correspondence of Patience and Discount Rate"
+gloss = "The article treats the tolerated horizon and the discount rate of a line as two descriptions of one parameter, with the horizon falling as the rate rises."
+cite = []
+digest = "6e6a67738ee9f292"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Effective Number of Equally Correlated Lines"
+gloss = "For equally weighted lines of equal variance and common pairwise correlation, the portfolio variance equals that of this many independent lines, from the nominal count at zero correlation down to one at perfect correlation."
+cite = []
+digest = "9fe3804d6df55fae"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Mean-Variance Utility"
+gloss = "The mean-variance objective is the expected portfolio return less half a risk-aversion coefficient times the portfolio variance."
+cite = []
+digest = "2cde113fd4ab3484"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Survival Objective"
+gloss = "The venture is taken to maximise the probability of reaching the mission, which equals one minus the ruin probability at the mission horizon."
+cite = []
+digest = "31ba64e716ec7323"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Cross-Subsidisation Flow"
+gloss = "The flow is defined as the capital directed from one line to another at a given time."
+cite = []
+digest = "f55d2a2f480d7ce1"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Net Capital Position of a Line"
+gloss = "The net position of a line is the capital it receives from other lines less the capital it sends to them, so that a persistently negative value marks a source and a positive one a sink."
+cite = []
+digest = "f63337a1f79c4eed"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Generated Portfolio Condition"
+gloss = "A portfolio is classed as generated when the capability shared by every line is non-empty and forms a substantial fraction of all the capability the lines require."
+cite = []
+digest = "6ebe22ea44e6a265"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Sharpe Ratio"
+gloss = "The Sharpe ratio is the expected portfolio return in excess of the risk-free rate divided by the portfolio standard deviation."
+cite = ["research_sharpe_1964"]
+digest = "796d48a159154ede"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Berger and Ofek Excess Value"
+gloss = "Excess value is the natural logarithm of the observed firm value divided by the imputed value of its segments, each an industry median multiple times an accounting base."
+cite = ["research_berger_ofek_1995"]
+digest = "71c905210ff65991"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Allocation Quality"
+gloss = "Allocation quality is defined as the correlation across lines between the capital directed to a line and its investment opportunity."
+cite = []
+digest = "96e93890d9950557"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Portfolio of Options Dominates an Option on a Portfolio"
+gloss = "The expected sum of separate call payoffs is at least the expected payoff of a single call on the summed values and strike prices, because the positive part of a sum never exceeds the sum of positive parts."
+cite = ["research_merton_1973"]
+digest = "606b77ca2ddd567a"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Lundberg Bound on Ultimate Ruin"
+gloss = "The classical ruin-theory bound limits the probability of ultimate ruin to an exponential in the initial capital with the adjustment coefficient as rate."
+cite = []
+digest = "95339bd4e9514839"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Penrose Slack Measure"
+gloss = "Slack is defined as the sum over capabilities of the positive part of capacity less utilisation, a formalisation the article gives of the underused resources in the Penrose account."
+cite = ["book_penrose_1959"]
+digest = "e68370b0f80047d1"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Platform Leverage"
+gloss = "Platform leverage is defined as the summed value of the lines divided by the cost of the shared capability base."
+cite = []
+digest = "42ef5f78dd6e161c"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Exponential Decay of Advantage"
+gloss = "The advantage of a line is modelled as decaying exponentially at the clockspeed of its industry, a functional form the article assumes for the clockspeed argument."
+cite = []
+digest = "5fa04f2d2bfab6a1"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Free Cash Flow Prediction of Diversification"
+gloss = "The agency theory of free cash flow predicts that diversification rises with the free cash flow available to managers."
+cite = ["research_jensen_1986"]
+digest = "60fb103f6c5799a3"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Learning Curve on Pooled Volume"
+gloss = "The learning curve is applied to the shared production element with cumulative volume summed across all lines, which assumes that experience pools across the lines."
+cite = ["research_wright_1936"]
+digest = "cd1ab752b300ea46"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Falcon Dependency of the Revenue Lines"
+gloss = "The statement places the Falcon capability in the capability set of each of the four revenue lines other than next-generation development."
+cite = []
+digest = "4dc81ff153599e74"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Correlation Decomposition by Risk Category"
+gloss = "The correlation between two lines is modelled as a weighted sum of category-specific correlations, an additive decomposition the article assumes."
+cite = []
+digest = "a9ffda89325f8d10"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Effective Line Count Vector"
+gloss = "The effective line count is reported as a vector with one component for each risk category rather than as a single number."
+cite = []
+digest = "0e5855437bb7b835"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Internal Consumption Fraction"
+gloss = "The fraction the article defines divides the launches consumed internally by the total launches."
+cite = []
+digest = "d32b128af65b0484"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Effective Weight of the Launch Line"
+gloss = "The diversifying weight of the launch line is taken as its portfolio weight times its external fraction, on the premise that internal supply diversifies nothing."
+cite = []
+digest = "9696b5a65ca23d52"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Herfindahl Index of Customer Concentration"
+gloss = "The Herfindahl index of a line is the sum of the squared revenue shares of its customers."
+cite = []
+digest = "82295396a03164a2"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Ruin Sensitivity Ordered by Correlation Sign"
+gloss = "Adding weight to a line lowers the ruin probability most when the line is negatively correlated with the rest, less when uncorrelated and least when positively correlated."
+cite = []
+digest = "54546c7ede7af572"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "First-Order Autocorrelation of Revenue"
+gloss = "The first-order autocorrelation is the correlation between the revenue of a line in one period and its revenue in the previous period."
+cite = []
+digest = "887e2607c59c3468"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Threshold Revenue of a Constellation"
+gloss = "Constellation revenue is modelled as zero below a minimum deployed count and as a function of the deployed count above it."
+cite = []
+digest = "8b7d8ccf61628ee9"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Defence Revenue Drivers"
+gloss = "Defence revenue is modelled as linear in a threat driver and an appropriation driver plus an error term, neither driver appearing in the commercial lines."
+cite = []
+digest = "dbdb561ce06af520"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Net Contribution of the Defence Line"
+gloss = "The net contribution of the defence line is a positive diversification term less a positive constraint-spillover cost, with a sign the article leaves open."
+cite = []
+digest = "2d2ab8dc3b43562a"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Negative Net Present Value of Starship"
+gloss = "The net present value of Starship at the investor discount rate is asserted to be negative at any time across the period, a judgement the article makes rather than computes."
+cite = []
+digest = "864bf0449ff645b7"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Patience Condition for Starship"
+gloss = "The patience condition is applied to Starship, requiring the horizon the controller tolerates to be at least the horizon the programme requires."
+cite = []
+digest = "2858ba5dedc04d2f"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Option Value of Starship"
+gloss = "The value of Starship is constructed as a probability-weighted sum over applications of the positive part of application value net of residual investment."
+cite = []
+digest = "c37ae2b59c4473b2"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Maturity Ordering of Capital Flows"
+gloss = "The statement records that positive flows run predominantly from more mature to less mature lines."
+cite = []
+digest = "53d576da16b694c2"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Lifecycle Position of a Line"
+gloss = "The lifecycle position the article defines divides the cumulative revenue of a line by its cumulative investment."
+cite = []
+digest = "7324952bd522236b"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Invariance of Total Profit to the Transfer Price"
+gloss = "The combined profit of the launch and constellation lines is unchanged by the internal transfer price, which only moves profit from one line to the other."
+cite = []
+digest = "a9951102971bb0c4"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Mission and Return Allocation Quality"
+gloss = "Allocation quality measured against the marginal contribution to reaching the mission is set against quality measured against investment opportunity."
+cite = []
+digest = "7fb103419dc5cd69"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Surviving Revenue Fraction under Grounding"
+gloss = "The fraction the article defines is the share of total revenue from constellation subscriptions that continues during an extended vehicle grounding."
+cite = []
+digest = "a8cf67c4930d033b"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Effective Line Counts by Risk Category"
+gloss = "The effective line count is about one for vehicle risk and three to four for demand risk, values the article estimates from its reading of the correlation structure."
+cite = []
+digest = "2a943a3a97713da7"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Stressed Runway"
+gloss = "The runway under a grounding is the cash position divided by the burn rate less the surviving revenue, and it becomes unbounded once that revenue exceeds the burn."
+cite = []
+digest = "a4061df9e3044fb0"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Uninsured Loss"
+gloss = "The uninsured loss is the total loss less the insured loss, which the article equates with the consequential loss plus the loss of a development programme."
+cite = []
+digest = "437726b6cd83a88e"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Adverse Interaction of Governance and Portfolio Closures"
+gloss = "The inequality states that the survival probability given both closures falls below what independence of the two closures would imply, through the key-person channel."
+cite = []
+digest = "1d915d53344a945d"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Penrose Growth Constraint"
+gloss = "The rate of line addition is bounded by a multiple of managerial capacity, which grows with experience, a formalisation the article gives of the Penrose effect."
+cite = ["book_penrose_1959"]
+digest = "d2b1e7d3647ce176"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Attention Budget"
+gloss = "Attention across lines is bounded by a fixed total, with progress on each line increasing in the attention it receives."
+cite = []
+digest = "161428c6510e45b4"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Diversification Discount"
+gloss = "The discount is the value of the diversified firm divided by the summed standalone values of its segments less one, found negative in the diversified samples."
+cite = ["research_lang_stulz_1994", "research_berger_ofek_1995"]
+digest = "4d28216d42d8d85e"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Undefined Standalone Valuation"
+gloss = "The standalone value of a line differs from its value within the portfolio because the standalone cost exceeds the cost on the shared base."
+cite = []
+digest = "6ba25bab2f9589dd"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Investor and Venture Optimisation Problems"
+gloss = "The investor is modelled as minimising variance subject to a return floor and the venture as minimising the ruin probability at the mission horizon."
+cite = []
+digest = "f91d632e20b18f13"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Asymmetry of Investor Diversification"
+gloss = "The statement holds that investor diversification lowers the investor variance and leaves the ruin probability of the venture unchanged."
+cite = []
+digest = "ae09b289580faf62"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Iridium Survival Condition"
+gloss = "Survival is taken to require subscriber revenue above the debt-service rate from the commencement of service onward."
+cite = []
+digest = "5468c2e75210fd8c"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Iridium Revenue Coverage Ratio"
+gloss = "The coverage ratio divides subscriber revenue by the debt-service rate, a variant of the debt-service coverage ratio that uses revenue in place of operating income."
+cite = []
+digest = "c874b8d047ce0ef7"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Decomposition of the Iridium Outcome Difference"
+gloss = "The outcome difference between the constellation line and Iridium is split into two portfolio-patience terms and two other terms, of which the article claims only the first pair."
+cite = []
+digest = "69644e103ba110b8"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Annual Appropriation Survival Product"
+gloss = "The survival of the Superconducting Super Collider is expressed through a product over construction years of the probability that the appropriation continues, which assumes the years are independent."
+cite = []
+digest = "2c003e358daca65b"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke All-or-Nothing Value of the Collider"
+gloss = "The value of the Superconducting Super Collider is modelled as zero at any completed fraction below one and as the complete value only at completion."
+cite = []
+digest = "cf95f65926007dd2"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Estimated Survival Comparison"
+gloss = "The estimated survival probability of single-line ventures is asserted to be far below that of portfolio ventures, a comparison the article reads from the sector record."
+cite = []
+digest = "c1d8a2338d61a56b"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Survivorship Confounding"
+gloss = "Assembling a portfolio is positively associated with survival and is itself more likely among ventures that survived the early period, which inflates the apparent benefit."
+cite = []
+digest = "e3480641205136a7"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Ruin of Independent Voyages"
+gloss = "With independent voyages each lost with the same probability, ruin requires every voyage to be lost, so its probability is the loss probability raised to the voyage count."
+cite = []
+digest = "09946b23a8da0d5e"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Probability That at Least One Route Succeeds"
+gloss = "For independent routes the probability that at least one succeeds is one minus the product of the failure probabilities."
+cite = []
+digest = "8d2b24940f9c70e3"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Precedent Classification Pair"
+gloss = "The pair of indicators for multiple lines and a shared capability base classifies the historical precedents into cells, a classification the article constructs."
+cite = []
+digest = "9c7237f069d0cdf8"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Ordering of Patience by Organisational Form"
+gloss = "Patience is ordered from state programmes through founder-controlled and venture-backed private firms to listed firms, a ranking the article asserts."
+cite = []
+digest = "928f675e759f0bd9"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Substitution of Portfolio and Assured Capital"
+gloss = "The ruin probability is posited to depend on the stronger of the effective line count and the assured-capital runway rather than on their sum."
+cite = []
+digest = "ec9a963b2df077ba"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Portfolio-Patience Closure Vector"
+gloss = "Each organisation receives a binary vector over the five portfolio-patience sub-properties that the pattern-extraction section states."
+cite = []
+digest = "e01894bfc3d608e5"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Correlation of Multiplicity and Generation"
+gloss = "The statement records the article's finding that the multiplicity and generation indicators are nearly uncorrelated across its scored set."
+cite = []
+digest = "06a824e225818461"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Gain from Vertical Integration"
+gloss = "The integration gain is approximated as the upstream launch margin over marginal cost times the internally consumed quantity, which omits any change in downstream price."
+cite = []
+digest = "6682a8de66bc4007"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Multiplicative Resource-Quality Criterion"
+gloss = "The resource criterion is written as the product of value, rarity, inimitability and non-substitutability, a multiplicative form the article chose for the four resource-based criteria."
+cite = ["research_barney_1991"]
+digest = "431aaf07ac86a107"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Platform Correspondence"
+gloss = "The correspondence maps the platform to the capability shared by every line and the applications to the line set."
+cite = []
+digest = "9b58b37ce6628922"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Escalation Test"
+gloss = "Escalation predicts that continuation is insensitive to arriving evidence, whereas rational updating predicts that continuation falls with adverse evidence."
+cite = []
+digest = "72c821e7bc9eba9f"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Two-Direction Covariance Decomposition"
+gloss = "The covariance of portfolio and survival is split into a term for portfolio causing survival and a term for survival permitting portfolio, which the record cannot separate."
+cite = []
+digest = "a24882afcaac2658"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Portfolio-Patience Conjunctive Closure"
+gloss = "Closure is the product of five binary sub-property indicators, so that it obtains only when every indicator is one."
+cite = []
+digest = "ad9bfbed05a5bddd"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Portfolio-Patience Test Vector"
+gloss = "The test vector collects the five diagnostic conditions, from more than one line to flows that track the mission."
+cite = []
+digest = "7c66231b777d0272"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Trade between Survival and Progress"
+gloss = "Adding lines lowers the ruin probability and also lowers the rate of progress on each line, so the two objectives call for different line counts."
+cite = []
+digest = "88ce55f316afe4c1"
+
+[[symbol]]
+tex = '\mathcal{L}'
+meaning = "the set of revenue-bearing lines"
+
+[[symbol]]
+tex = 'w_\ell'
+meaning = "the portfolio weight of the line $\\ell$"
+
+[[symbol]]
+tex = 'R_\ell(t)'
+meaning = "the return of the line $\\ell$ at time $t$"
+
+[[symbol]]
+tex = '\rho_{\ell m}'
+meaning = "the correlation between the lines $\\ell$ and $m$"
+
+[[symbol]]
+tex = '\sigma_\ell'
+meaning = "the standard deviation of the return of the line $\\ell$"
+
+[[symbol]]
+tex = 'P^{\text{ruin}}'
+meaning = "the probability that the cash position falls to zero before the horizon"
+
+[[symbol]]
+tex = 'C(t)'
+meaning = "the cash position of the venture"
+
+[[symbol]]
+tex = '\tau_\ell'
+meaning = "the interval the venture will sustain the line $\\ell$ before requiring a positive return"
+
+[[symbol]]
+tex = '\tau^{\ast}_\ell'
+meaning = "the interval the line $\\ell$ in fact requires"
+
+[[symbol]]
+tex = '\rho_\ell'
+meaning = "the discount rate applied to the line $\\ell$"
+
+[[symbol]]
+tex = 'L^{\text{effective}}'
+meaning = "the effective number of independent lines"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the risk-aversion coefficient in the mean-variance objective"
+
+[[symbol]]
+tex = 'f_{\ell \to m}'
+meaning = "the capital directed from the line $\\ell$ to the line $m$"
+
+[[symbol]]
+tex = 'n_\ell(t)'
+meaning = "the net capital position of the line $\\ell$"
+
+[[symbol]]
+tex = 'K_\ell'
+meaning = "the capability set the line $\\ell$ requires"
+
+[[symbol]]
+tex = 'r_f'
+meaning = "the risk-free rate"
+
+[[symbol]]
+tex = 'm_\ell'
+meaning = "an industry median valuation multiple for the segment $\\ell$"
+
+[[symbol]]
+tex = 'A_\ell'
+meaning = "an accounting base for the segment $\\ell$, and in the clockspeed equation the advantage of the line"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the adjustment coefficient of ruin theory"
+
+[[symbol]]
+tex = '\kappa_\ell'
+meaning = "the clockspeed of the industry of the line $\\ell$"
+
+[[symbol]]
+tex = 'b'
+meaning = "the learning exponent of the progress function"
+
+[[symbol]]
+tex = '\iota(t)'
+meaning = "the fraction of launches consumed internally"
+
+[[symbol]]
+tex = 'H_\ell'
+meaning = "the Herfindahl index of customer concentration in the line $\\ell$"
+
+[[symbol]]
+tex = '\phi_\ell'
+meaning = "the first-order autocorrelation of the revenue of the line $\\ell$"
+
+[[symbol]]
+tex = '\mu_\ell(t)'
+meaning = "the cumulative revenue of the line $\\ell$ divided by its cumulative investment"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the fraction of revenue that survives an extended vehicle grounding"
+
+[[symbol]]
+tex = '\Theta^{\text{stress}}'
+meaning = "the runway under a grounding"
+
+[[symbol]]
+tex = '\Xi(t)'
+meaning = "the ratio of subscriber revenue to the debt-service rate"
+
+[[symbol]]
+tex = 'q'
+meaning = "the loss probability of a single voyage"
+
+[[symbol]]
+tex = 'p_r'
+meaning = "the success probability of the route $r$"
+
+[[symbol]]
+tex = '\boldsymbol{\phi}_j'
+meaning = "the binary closure vector of the organisation $j$ over five sub-properties"
+
+[[symbol]]
+tex = '\Phi^{\text{portfolio-patience}}'
+meaning = "the conjunctive closure, the product of the five sub-property indicators"
