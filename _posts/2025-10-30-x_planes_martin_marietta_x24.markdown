@@ -1175,7 +1175,7 @@ V = \frac{V_i}{\sqrt{\sigma}} = \frac{285 \times 1.688}{\sqrt{0.934}} = 498\ \te
 $$
 
 *Equation 12, Bespoke Reynolds Number of the X-24A at the Middle of the Approach Band.*
-At the midpoint approach speed the X-24A's flight Reynolds number on its length is about twice that of the full-scale tunnel test.
+At the midpoint speed of the band the X-24A's flight Reynolds number on its length is about twice that of the full-scale tunnel test.
 
 $$
 Re_\text{X-24A} = 7.2\times 10^7, \qquad \frac{7.2\times 10^7}{3.24\times 10^7} = 2.2
@@ -1341,7 +1341,7 @@ $$
 $$
 
 *Equation 32, Bespoke Lift Coefficient at the Assumed Approach Speed.*
-Because the lift coefficient falls as the inverse square of speed, the assumed approach speed brings it to 0.39 of the best-glide value.
+Because the lift coefficient falls as the inverse square of speed, the assumed speed brings it to 0.39 of the best-glide value.
 
 $$
 \frac{C_L}{C_L^*} = \left(\frac{V}{V^*}\right)^{-2} = 0.39
@@ -1349,7 +1349,7 @@ $$
 $$
 
 *Equation 33, Bespoke Induced Share of the Approach Drag.*
-At the assumed approach speed the induced term is about one eighth of the total drag of the assumed polar.
+At the assumed speed the induced term is about one eighth of the total drag of the assumed polar.
 
 $$
 \frac{k_i C_L^2}{C_D} = 0.13
@@ -1357,7 +1357,7 @@ $$
 $$
 
 *Equation 34, Bespoke Approach Path Angle.*
-The lift-to-drag ratio of 2.34 at the assumed approach speed gives a path angle of about 23 degrees.
+The lift-to-drag ratio of 2.34 at the assumed speed gives a path angle of about 23 degrees.
 
 $$
 \gamma = \arctan\frac{1}{2.34} = 23.2^\circ
@@ -1365,7 +1365,7 @@ $$
 $$
 
 *Equation 35, Bespoke Approach Sink Rate.*
-The vertical component of the assumed approach speed on that path is about 10,400 feet per minute.
+The vertical component of the assumed speed along that path is about 10,400 feet per minute.
 
 $$
 \dot h = V\sin\gamma = 173\ \text{ft/s} = 10{,}400\ \text{ft/min}
@@ -1470,7 +1470,7 @@ $$
 $$
 
 *Equation 48, Bespoke Lift Coefficient at the Start of the Flare.*
-The solved load factor times the approach lift coefficient gives a flare lift coefficient of about 0.14.
+The solved load factor times the lift coefficient before the flare gives a flare lift coefficient of about 0.14.
 
 $$
 C_L = \frac{nW}{qS} = 1.19 \times 0.120 = 0.142

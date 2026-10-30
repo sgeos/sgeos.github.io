@@ -94,7 +94,7 @@ digest = "abb2d1c9b83b7df7"
 tag = 12
 class = "bespoke"
 title = "Bespoke Reynolds Number of the X-24A at the Middle of the Approach Band"
-gloss = "At the midpoint approach speed the X-24A's flight Reynolds number on its length is about twice that of the full-scale tunnel test."
+gloss = "At the midpoint speed of the band the X-24A's flight Reynolds number on its length is about twice that of the full-scale tunnel test."
 cite = []
 digest = "5cffa49aff3336ee"
 
@@ -254,7 +254,7 @@ digest = "1e2778a40ddb47dc"
 tag = 32
 class = "bespoke"
 title = "Bespoke Lift Coefficient at the Assumed Approach Speed"
-gloss = "Because the lift coefficient falls as the inverse square of speed, the assumed approach speed brings it to 0.39 of the best-glide value."
+gloss = "Because the lift coefficient falls as the inverse square of speed, the assumed speed brings it to 0.39 of the best-glide value."
 cite = []
 digest = "39e1233be9ce7439"
 
@@ -262,7 +262,7 @@ digest = "39e1233be9ce7439"
 tag = 33
 class = "bespoke"
 title = "Bespoke Induced Share of the Approach Drag"
-gloss = "At the assumed approach speed the induced term is about one eighth of the total drag of the assumed polar."
+gloss = "At the assumed speed the induced term is about one eighth of the total drag of the assumed polar."
 cite = []
 digest = "e399355cd3826b4e"
 
@@ -270,7 +270,7 @@ digest = "e399355cd3826b4e"
 tag = 34
 class = "bespoke"
 title = "Bespoke Approach Path Angle"
-gloss = "The lift-to-drag ratio of 2.34 at the assumed approach speed gives a path angle of about 23 degrees."
+gloss = "The lift-to-drag ratio of 2.34 at the assumed speed gives a path angle of about 23 degrees."
 cite = []
 digest = "c875e7f855d22572"
 
@@ -278,7 +278,7 @@ digest = "c875e7f855d22572"
 tag = 35
 class = "bespoke"
 title = "Bespoke Approach Sink Rate"
-gloss = "The vertical component of the assumed approach speed on that path is about 10,400 feet per minute."
+gloss = "The vertical component of the assumed speed along that path is about 10,400 feet per minute."
 cite = []
 digest = "0899db247793f533"
 
@@ -382,7 +382,7 @@ digest = "6e8b27a4cadf01e2"
 tag = 48
 class = "bespoke"
 title = "Bespoke Lift Coefficient at the Start of the Flare"
-gloss = "The solved load factor times the approach lift coefficient gives a flare lift coefficient of about 0.14."
+gloss = "The solved load factor times the lift coefficient before the flare gives a flare lift coefficient of about 0.14."
 cite = []
 digest = "e4d6509de60091b3"
 

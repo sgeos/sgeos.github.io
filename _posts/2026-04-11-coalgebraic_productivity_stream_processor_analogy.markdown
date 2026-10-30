@@ -1244,7 +1244,7 @@ Of the 13, 12 are established and 1 are bespoke.
 Arrows denote morphisms between sets or types rather than numerical functions, a stream prefix written from zero to $n - 1$ holds its first $n$ elements, and every bound concerns counts of stream elements rather than time or bytes.
 
 **Equation 1, Coalgebra over a Functor.**
-A coalgebra is a carrier set with a morphism that decomposes each element into the structure the functor describes.
+A coalgebra is a carrier set with a morphism that decomposes each point of the carrier into the structure the functor describes.
 [universal coalgebra treatment][research_rutten_universal_coalgebra]
 
 $$
@@ -1264,7 +1264,7 @@ $$
 $$
 
 **Equation 3, Stream Functor.**
-The functor that describes streams over an alphabet pairs one element of the alphabet with an element of the carrier.
+The functor that describes streams over an alphabet pairs one symbol of the alphabet with a point of the carrier.
 [universal coalgebra treatment][research_rutten_universal_coalgebra]
 
 $$
@@ -1273,7 +1273,7 @@ F(X) = A \times X.
 $$
 
 **Equation 4, Stream Coalgebra.**
-A coalgebra for the stream functor pairs each element of the carrier with an output symbol and a subsequent element of the same type.
+A coalgebra for the stream functor pairs each point of the carrier with an output symbol and a successor of the same type.
 [universal coalgebra treatment][research_rutten_universal_coalgebra]
 
 $$
@@ -1333,7 +1333,7 @@ m \colon \mathbb{N} \to \mathbb{N}
 $$
 
 **Equation 10, Productivity Condition.**
-A stream processor is productive when the first $m(n)$ output elements depend only on the first $n$ input elements for every input stream.
+A stream processor is productive when the first $m(n)$ outputs depend only on the first $n$ inputs for every input stream.
 [Abel and Pientka's copattern framework][research_abel_pientka_copatterns]
 
 $$

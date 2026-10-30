@@ -6,7 +6,7 @@ caution = "Arrows denote morphisms between sets or types rather than numerical f
 tag = 1
 class = "standard"
 title = "Coalgebra over a Functor"
-gloss = "A coalgebra is a carrier set with a morphism that decomposes each element into the structure the functor describes."
+gloss = "A coalgebra is a carrier set with a morphism that decomposes each point of the carrier into the structure the functor describes."
 cite = ["research_rutten_universal_coalgebra"]
 digest = "406202d441cee9e3"
 
@@ -22,7 +22,7 @@ digest = "736c0f6335e8b54c"
 tag = 3
 class = "standard"
 title = "Stream Functor"
-gloss = "The functor that describes streams over an alphabet pairs one element of the alphabet with an element of the carrier."
+gloss = "The functor that describes streams over an alphabet pairs one symbol of the alphabet with a point of the carrier."
 cite = ["research_rutten_universal_coalgebra"]
 digest = "b1d42a594dbf05b8"
 
@@ -30,7 +30,7 @@ digest = "b1d42a594dbf05b8"
 tag = 4
 class = "standard"
 title = "Stream Coalgebra"
-gloss = "A coalgebra for the stream functor pairs each element of the carrier with an output symbol and a subsequent element of the same type."
+gloss = "A coalgebra for the stream functor pairs each point of the carrier with an output symbol and a successor of the same type."
 cite = ["research_rutten_universal_coalgebra"]
 digest = "c8d8416173c9d0e5"
 
@@ -78,7 +78,7 @@ digest = "6ad70f11e82d566f"
 tag = 10
 class = "standard"
 title = "Productivity Condition"
-gloss = "A stream processor is productive when the first $m(n)$ output elements depend only on the first $n$ input elements for every input stream."
+gloss = "A stream processor is productive when the first $m(n)$ outputs depend only on the first $n$ inputs for every input stream."
 cite = ["research_abel_pientka_copatterns"]
 digest = "6251b50ef36f160a"
 
