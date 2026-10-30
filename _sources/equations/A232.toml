@@ -1,0 +1,55 @@
+# Equation classification for A232. Read by `python3 _lib/equations.py`.
+
+caution = "Per-capita ratios are fractions of the American level, investment is a share of gross domestic product, and the Korean growth rate of Equation 2 is computed from nominal dollar figures, so it overstates the real rate of eight to nine percent."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Tiger Investment Share of Output"
+gloss = "Across the peak developmental decades the aggregate investment share of the state-led tigers reached about thirty to forty percent of gross domestic product."
+cite = []
+digest = "9751c9eae1a5eebe"
+
+[[symbol]]
+tex = 'I'
+meaning = "aggregate investment"
+
+[[symbol]]
+tex = 'Y'
+meaning = "aggregate output"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Nominal Korean Per-Capita Growth Rate from 1960 to 2000"
+gloss = "A hundredfold rise in nominal Korean per-capita output over forty years corresponds to a continuous rate of about eleven and a half percent per year, before adjustment for inflation."
+cite = []
+digest = "42f5d631644a4623"
+
+[[symbol]]
+tex = 'g_{\text{KR}}'
+meaning = "the continuous Korean per-capita growth rate in nominal terms"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Korean Per-Capita Ratio against the United States"
+gloss = "South Korean per-capita output rose from about a tenth of the American level in 1960 to about half in 2000 and about two thirds in 2020."
+cite = []
+digest = "cdaee2ed420ef708"
+
+[[symbol]]
+tex = 'R_{\text{KR}}'
+meaning = "the ratio of South Korean to American per-capita output"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Korean Growth Rate Premium from 1960 to 2020"
+gloss = "The rearranged catch-up relation gives the average premium over American growth implied by the rise in the Korean ratio across sixty years, about three and one tenth percent per year."
+cite = ["related_post_industrialization_framing"]
+digest = "3147c6c5c5dfde13"
+
+[[symbol]]
+tex = '\Delta g_{\text{KR}}'
+meaning = "the Korean per-capita growth rate premium over the United States"

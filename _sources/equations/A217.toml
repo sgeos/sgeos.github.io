@@ -1,0 +1,135 @@
+# Equation classification for A217. Read by `python3 _lib/equations.py`.
+
+caution = "Specific impulse is quoted in seconds by dividing by standard gravity, so it converts to an effective exhaust velocity in metres per second through multiplication by $g_0$, and the gas constant divided by the molecular weight is the specific gas constant of the exhaust only when the molecular weight is taken in kilograms per mole."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Specific Impulse as Thrust per Unit Weight Flow"
+gloss = "Specific impulse is the thrust divided by the weight flow rate of propellant, which gives a quantity in seconds."
+cite = []
+digest = "7142d9531f756342"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'F'
+meaning = "the thrust in newtons"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow rate of propellant in kilograms per second"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "the standard gravitational acceleration, 9.80665 metres per second squared"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Effective Exhaust Velocity from Specific Impulse"
+gloss = "Multiplying the specific impulse by standard gravity gives the effective exhaust velocity, the same physical property expressed in metres per second."
+cite = []
+digest = "17914704b75811ff"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the effective exhaust velocity in metres per second"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "General Rocket Thrust Equation"
+gloss = "Thrust is the momentum flux of the exhaust plus a pressure thrust term set by the difference between the exit pressure and the ambient back pressure acting over the exit area."
+cite = []
+digest = "ed16a916bc046f25"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the pressure of the exhaust at the nozzle exit"
+
+[[symbol]]
+tex = 'p_0'
+meaning = "the ambient back pressure"
+
+[[symbol]]
+tex = 'A_e'
+meaning = "the nozzle exit area"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Ideal Specific Impulse from Isentropic Nozzle Flow"
+gloss = "The one-dimensional isentropic nozzle flow equations give the ideal specific impulse in terms of the ratio of specific heats, the chamber temperature, the exhaust molecular weight and the pressure ratio across the nozzle."
+cite = []
+digest = "db8d2da7274537fd"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats of the exhaust gas at chamber conditions"
+
+[[symbol]]
+tex = 'R'
+meaning = "the universal gas constant"
+
+[[symbol]]
+tex = 'T_c'
+meaning = "the chamber temperature in kelvin"
+
+[[symbol]]
+tex = 'M'
+meaning = "the average molecular weight of the exhaust gas mixture"
+
+[[symbol]]
+tex = 'p_c'
+meaning = "the chamber pressure"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Characteristic Velocity"
+gloss = "The characteristic velocity depends only on the chamber temperature, the exhaust molecular weight and a function of the ratio of specific heats, and so characterises combustion independently of the nozzle."
+cite = []
+digest = "a1d9da29a9aeaf7b"
+
+[[symbol]]
+tex = 'c^*'
+meaning = "the characteristic velocity"
+
+[[symbol]]
+tex = 'f(\gamma)'
+meaning = "a function of the ratio of specific heats alone"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Thrust Coefficient"
+gloss = "The thrust coefficient is the ideal momentum term of the nozzle expansion plus the pressure thrust term scaled by the expansion area ratio, and so characterises the nozzle independently of combustion."
+cite = []
+digest = "6074ceb237d84934"
+
+[[symbol]]
+tex = 'C_F'
+meaning = "the thrust coefficient"
+
+[[symbol]]
+tex = 'A_t'
+meaning = "the nozzle throat area"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Density Specific Impulse"
+gloss = "Density specific impulse is the specific impulse multiplied by the average bulk density of the propellant combination, a measure of performance per unit tank volume."
+cite = []
+digest = "c848695b654679fd"
+
+[[symbol]]
+tex = 'I_{sp,d}'
+meaning = "the density specific impulse"
+
+[[symbol]]
+tex = '\rho_{avg}'
+meaning = "the average bulk density of the propellant combination"

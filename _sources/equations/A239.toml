@@ -1,0 +1,147 @@
+# Equation classification for A239. Read by `python3 _lib/equations.py`.
+
+caution = "Key counts and rotor positions are dimensionless counts, entropies are in bits, testing and processing rates are per second unless a day is stated, and the cross-sections in the criticality factor are macroscopic, with units of inverse length."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Daily Key Settings of the Three-Rotor Enigma"
+gloss = "The count multiplies the ordered choices of three rotors from five, the starting positions of three rotors and the ways to plug ten pairs of letters, giving about $1.6 \\times 10^{20}$ settings."
+cite = []
+digest = "243439a3a11b3e29"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Shannon Condition for Perfect Secrecy"
+gloss = "A cipher can give an eavesdropper no information about the plaintext only when the entropy of the key is at least the entropy of the plaintext."
+cite = ["research_shannon_secrecy_1949"]
+digest = "65319f58ab677627"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Testing Rate of One Bombe"
+gloss = "Sweeping all 17,576 starting positions of one rotor order in about twenty minutes gives about fifteen rotor positions per second."
+cite = []
+digest = "f2d73a9650b129ab"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Daily Throughput of the Bombe Fleet"
+gloss = "The fleet throughput multiplies the single-machine rate by two hundred Bombes and by seventy-two thousand operating seconds a day, a duty of twenty hours that the article assumes."
+cite = ["book_hodges_turing_enigma", "book_copeland_essential_turing"]
+digest = "33961b977c4b89d9"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Vernam Cipher"
+gloss = "Each ciphertext bit is the plaintext bit added modulo two to the corresponding key-stream bit."
+cite = ["research_vernam_1926"]
+digest = "96d18df0946affc1"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Effective Processing Rate of Colossus Mark 2"
+gloss = "Processing the five bit streams of the teleprinter alphabet in parallel at five thousand characters per second gives an effective rate of twenty-five thousand."
+cite = []
+digest = "1a842542d9bf0941"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Colossus Correlation Count"
+gloss = "Colossus counted the modulo-two sum of the intercepted stream and a candidate key stream at a wheel offset, and a statistically anomalous count marked a candidate setting."
+cite = ["book_copeland_colossus", "research_randell_1980"]
+digest = "599f4c4063f8ea02"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Simplified Neutron Multiplication Factor"
+gloss = "The article writes the effective multiplication factor as the neutrons per fission times the share of neutron losses due to fission, a simplified balance that sets a leakage probability beside the fission and capture cross-sections."
+cite = []
+digest = "d58b27037da12514"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Adiabatic Relation of a Polytropic Gas"
+gloss = "Under adiabatic compression of a polytropic gas, pressure times volume raised to the adiabatic index stays constant."
+cite = []
+digest = "6e9515a1b9f8ab84"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Standard Error of a Monte Carlo Estimate"
+gloss = "The standard error of a Monte Carlo estimate falls as the standard deviation of the sampled quantity divided by the square root of the number of samples, independent of dimension."
+cite = []
+digest = "4854b808eab488e6"
+
+[[symbol]]
+tex = 'P(5, 3)'
+meaning = "the arrangements of three rotors drawn from five, sixty"
+
+[[symbol]]
+tex = 'H(K)'
+meaning = "the Shannon entropy of the key"
+
+[[symbol]]
+tex = 'H(P)'
+meaning = "the entropy of the plaintext"
+
+[[symbol]]
+tex = 'r_{\text{Bombe}}'
+meaning = "the rotor positions tested per second by one Bombe"
+
+[[symbol]]
+tex = 'N_{\text{Bombes}}'
+meaning = "the number of Bombes in operation, about two hundred by 1943"
+
+[[symbol]]
+tex = 'p_i'
+meaning = "the $i$th plaintext bit"
+
+[[symbol]]
+tex = 'k_i'
+meaning = "the $i$th key-stream bit"
+
+[[symbol]]
+tex = 'c_i'
+meaning = "the $i$th ciphertext bit or intercepted character"
+
+[[symbol]]
+tex = '\Delta'
+meaning = "the candidate wheel offset"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the mean number of neutrons produced per fission"
+
+[[symbol]]
+tex = '\Sigma_f'
+meaning = "the macroscopic fission cross-section"
+
+[[symbol]]
+tex = '\Sigma_c'
+meaning = "the macroscopic capture cross-section"
+
+[[symbol]]
+tex = 'P_L'
+meaning = "the neutron leakage probability"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the adiabatic index of the compressed material"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the standard deviation of the sampled quantity"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of samples in the Monte Carlo estimate, the number of characters in the correlation count"

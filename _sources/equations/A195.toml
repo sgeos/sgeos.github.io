@@ -1,0 +1,83 @@
+# Equation classification for A195, declare-before-use and forward declarations. Read by `python3 _lib/equations.py`.
+
+caution = "A subscript on the symbol table is a position in the source stream rather than a time, and lookup costs are asymptotic in the number of entries visible at that position."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Monotone Growth of the Top-Level Symbol Table"
+gloss = "Within the outermost scope no declaration is ever removed, so the symbol table at each position is contained in the table at the next."
+cite = []
+digest = "9c4a9feeea7fae40"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Resolution against the Current Symbol Table"
+gloss = "Under declare-before-use an identifier is resolved by looking it up in the symbol table as it stands at the point of use, with no reference to later declarations."
+cite = []
+digest = "704e517c57add616"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Lookup Cost by Table Structure"
+gloss = "A hash-indexed table resolves an identifier in expected constant time, while a balanced tree resolves it in time logarithmic in the number of visible entries."
+cite = []
+digest = "a1a27839a8dd2e17"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Status Flag of a Forward-Declared Procedure"
+gloss = "The symbol table entry of a procedure carries a flag recording whether only its forward declaration or also its body has been seen."
+cite = []
+digest = "c1908c8c08a06128"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Symbol Table Entry after the Forward Declaration of Q"
+gloss = "In the worked Pascal example the forward declaration of Q records its signature with the forward-declared status and no compiled address."
+cite = []
+digest = "6de71bbdcef9da62"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Fixup Generation for a Use before Definition"
+gloss = "Each use of a procedure whose entry is still forward-declared adds a fixup entry with the placeholder position and the procedure's identity to the buffer."
+cite = []
+digest = "1fbe28a5377d514d"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Resolution at the Procedure Body"
+gloss = "When the body completes emission every fixup entry awaiting the procedure is resolved against the body's start address and the entry becomes defined."
+cite = []
+digest = "8a118635125536ba"
+
+[[symbol]]
+tex = 'T_i'
+meaning = "the symbol table state at source position $i$"
+
+[[symbol]]
+tex = 'C_{\text{resolve}}(\text{id}, i)'
+meaning = "the cost of resolving an identifier at position $i$"
+
+[[symbol]]
+tex = '\iota'
+meaning = "the identity of a forward-declared procedure"
+
+[[symbol]]
+tex = 'F'
+meaning = "the fixup buffer, with $F'$ its state after an operation"
+
+[[symbol]]
+tex = 'a_i'
+meaning = "the placeholder position for the reference at position $i$"
+
+[[symbol]]
+tex = 'a_{\iota\text{-body}}'
+meaning = "the start address of the body of $\\iota$"

@@ -23,9 +23,15 @@ The Link Trainer was the first widely deployed flight simulator. Edwin Link, a p
 
 The postwar period brought analog computers into the flight simulation loop. Reeves Instrument Corporation, Electronic Associates Incorporated hereafter EAI, and other analog-computer manufacturers built general-purpose analog computers that could be programmed to solve aircraft equations of motion in real time. A typical postwar analog flight simulator used the analog computer to solve the six-degree-of-freedom equations of aircraft motion, transformed control-stick and rudder inputs into force and moment inputs to the equations, and drove the motion platform and instrument displays from the computed aircraft state. The general form of the aircraft dynamics equations, treated as standard material in the textbook by [Etkin 1996][book_etkin_dynamics_of_flight], is
 
-$$m \dot{\mathbf{v}} = \mathbf{F}(\mathbf{v}, \boldsymbol{\omega}, \boldsymbol{\delta})$$
+$$
+m \dot{\mathbf{v}} = \mathbf{F}(\mathbf{v}, \boldsymbol{\omega}, \boldsymbol{\delta})
+\tag{1}
+$$
 
-$$I \dot{\boldsymbol{\omega}} = \mathbf{M}(\mathbf{v}, \boldsymbol{\omega}, \boldsymbol{\delta})$$
+$$
+I \dot{\boldsymbol{\omega}} = \mathbf{M}(\mathbf{v}, \boldsymbol{\omega}, \boldsymbol{\delta})
+\tag{2}
+$$
 
 where $\mathbf{v}$ is the aircraft velocity vector, $\boldsymbol{\omega}$ is the angular velocity vector, $\boldsymbol{\delta}$ is the vector of control-surface deflections, $m$ is the aircraft mass, $I$ is the inertia tensor, and $\mathbf{F}$ and $\mathbf{M}$ are the aerodynamic and propulsive force and moment functions that depend nonlinearly on aircraft state and control inputs. Analog computers of the 1950s solved these six coupled ordinary differential equations continuously in real time, updating the motion platform and instruments at rates limited only by the analog-mechanical bandwidth of the output actuators.
 
@@ -33,7 +39,10 @@ The value of analog simulation was that it could reproduce the closed-loop pilot
 
 The fundamental accuracy limit of analog simulation was set by drift and noise in the operational amplifiers and function generators. For a chain of $n$ integrators each contributing per-second error $\epsilon_0$, the accumulated error over simulation time $T$ scales as
 
-$$\epsilon_{\text{analog}}(T) \approx \epsilon_0 \sqrt{n} \cdot T$$
+$$
+\epsilon_{\text{analog}}(T) \approx \epsilon_0 \sqrt{n} \cdot T
+\tag{3}
+$$
 
 under the same uncorrelated-error assumption used in the analog differential analyzer treatment in [A238][related_post_a238_pre_war_computing]. For typical simulator integrator counts of order 10 and per-integrator error of order 0.01 percent per second, the accumulated error reaches one percent within roughly 30 seconds of simulated flight, which limited analog simulator utility for long-duration missions and drove the digital transition of the late 1950s.
 
@@ -41,11 +50,17 @@ under the same uncorrelated-error assumption used in the analog differential ana
 
 The transition from analog to digital flight simulation began in the late 1950s with the availability of digital computers fast enough to solve the aircraft equations of motion at rates matching the pilot's perceptual and control bandwidth. The pilot control-input bandwidth is approximately 2 to 5 Hertz, and smooth motion perception requires simulator updates at approximately
 
-$$f_{\text{sim}} \gtrsim 20 \text{ Hz}$$
+$$
+f_{\text{sim}} \gtrsim 20 \text{ Hz}
+\tag{4}
+$$
 
 with instrument display updates at 20 to 30 Hertz and visual system updates that later became the constraint at 30 to 60 Hertz. The digital computer had to solve the aircraft equations of motion, transform coordinates for display generation, and drive the motion platform within a computational budget of approximately 30 to 50 milliseconds per update cycle. The total end-to-end transport delay from pilot control input to perceived response summed the dynamics computation, display generation, and motion platform actuation delays as
 
-$$T_{\text{transport}} = T_{\text{dynamics}} + T_{\text{display}} + T_{\text{motion}} \lesssim T_{\text{pilot tolerance}}$$
+$$
+T_{\text{transport}} = T_{\text{dynamics}} + T_{\text{display}} + T_{\text{motion}} \lesssim T_{\text{pilot tolerance}}
+\tag{5}
+$$
 
 with $T_{\text{pilot tolerance}}$ of order 100 to 150 milliseconds above which pilot control quality degrades noticeably and above which pilot-induced oscillation risk rises. Meeting this budget across all components was the engineering discipline that distinguished production flight simulators from research prototypes. The Whirlwind computer treated in [A240][related_post_a240_early_cold_war_sage] met this budget for the case of the Cape Cod System air defense demonstration, and subsequent digital computers of the late 1950s and 1960s met it for progressively more sophisticated flight simulations.
 
@@ -61,11 +76,17 @@ The value of hardware-in-the-loop testing is that it exercises the actual flight
 
 The hardware-in-the-loop configuration imposes strict real-time constraints on the simulation. The simulated dynamics must be updated at rates matching or exceeding the actual sensor and actuator bandwidths, typically hundreds to thousands of Hertz. The Nyquist-Shannon sampling theorem sets a lower bound on the simulation update rate as
 
-$$f_{\text{sim}} \ge 2 \cdot f_{\text{bandwidth}}$$
+$$
+f_{\text{sim}} \ge 2 \cdot f_{\text{bandwidth}}
+\tag{6}
+$$
 
 for the highest-frequency dynamic content $f_{\text{bandwidth}}$ that the simulation must reproduce with fidelity, with practical implementations targeting factors of 5 to 10 above the Nyquist minimum to avoid aliasing artifacts in reconstructed signals. The end-to-end loop timing budget is
 
-$$T_{\text{loop}} = T_{\text{sensor sim}} + T_{\text{signal path}} + T_{\text{controller}} + T_{\text{actuator sim}} + T_{\text{dynamics}}$$
+$$
+T_{\text{loop}} = T_{\text{sensor sim}} + T_{\text{signal path}} + T_{\text{controller}} + T_{\text{actuator sim}} + T_{\text{dynamics}}
+\tag{7}
+$$
 
 which must fit within the actual flight-loop period for the simulated system to behave equivalently to the physical system. Meeting this budget for high-bandwidth flight control loops on modern combat aircraft requires simulation computers that are substantially faster than the flight computers they simulate against. The "iron bird" test rigs used by aircraft manufacturers combine hardware-in-the-loop flight computer testing with actual physical actuators, hydraulic systems, and flight-control linkages to exercise the aircraft's mechanical response together with its computational response.
 
@@ -75,11 +96,17 @@ Real-time operating systems emerged as a distinct discipline in the 1970s and 19
 
 The engineering distinction between a real-time operating system and a general-purpose operating system is captured by the response-time distribution. A general-purpose operating system optimizes for average throughput and permits arbitrary latency in individual tasks under load. A real-time operating system provides bounded worst-case response time even under overload conditions. Formally, if the response time of a task under some workload has probability distribution $P(T)$, then a real-time operating system guarantees
 
-$$T_{\text{worst-case}} = \sup \{T : P(T) > 0\} \le T_{\text{deadline}}$$
+$$
+T_{\text{worst-case}} = \sup \{T : P(T) > 0\} \le T_{\text{deadline}}
+\tag{8}
+$$
 
 for all admissible workloads, whereas a general-purpose operating system provides only a bound on the mean or a quantile response time. A closely related property is jitter, the variation in response time across successive invocations of the same task, bounded by
 
-$$J = \sup T - \inf T \le J_{\text{max}}$$
+$$
+J = \sup T - \inf T \le J_{\text{max}}
+\tag{9}
+$$
 
 with $J_{\text{max}}$ set by the application requirement. Low jitter is essential for control loops where periodic sampling must occur at consistent intervals to preserve the mathematical assumptions of the discrete-time control design. Real-time operating systems for aerospace applications typically target jitter bounds in the range of microseconds to tens of microseconds against periodic tasks with periods in the range of milliseconds to hundreds of milliseconds. The engineering difference between average-case and worst-case response guarantees is what makes real-time operating systems suitable for safety-critical aerospace applications where deadline miss can cause catastrophic outcomes.
 
@@ -91,15 +118,24 @@ Distributed interactive simulation extended the flight-simulator concept from si
 
 The technical innovation that made SIMNET feasible was the dead-reckoning protocol that reduced network bandwidth requirements. Rather than transmitting simulator state at every update, each simulator transmitted its state only when its position or attitude deviated from a mutually agreed extrapolation by more than a threshold value. The bandwidth required for $N_{\text{entities}}$ simulated entities updating at maximum rate $f_{\text{update}}$ with per-update packet size $S_{\text{packet}}$ scales as
 
-$$B_{\text{network}} \le N_{\text{entities}} \cdot f_{\text{update}} \cdot S_{\text{packet}} \cdot (1 - \eta_{\text{dead-reckoning}})$$
+$$
+B_{\text{network}} \le N_{\text{entities}} \cdot f_{\text{update}} \cdot S_{\text{packet}} \cdot (1 - \eta_{\text{dead-reckoning}})
+\tag{10}
+$$
 
 where $\eta_{\text{dead-reckoning}}$ is the fraction of updates suppressed by successful extrapolation. Typical dead-reckoning efficiency exceeds 90 percent for ground-combat entities and 70 percent for aircraft, giving network bandwidth reductions of one to two orders of magnitude compared with naive full-state transmission. For constant-velocity extrapolation of an entity with actual acceleration $a$ over update interval $\Delta t$, the extrapolation position error grows quadratically as
 
-$$\epsilon_{\text{DR}}(\Delta t) = \frac{1}{2} a \, (\Delta t)^2$$
+$$
+\epsilon_{\text{DR}}(\Delta t) = \frac{1}{2} a \, (\Delta t)^2
+\tag{11}
+$$
 
 which sets the maximum time between full-state updates for a given position-error threshold. For an aircraft under 1 g maneuver acceleration and a 1-meter position-error threshold, the update interval is bounded above by approximately 0.5 second, matching the empirical dead-reckoning update rates observed in operational DIS exercises. Coordinated multi-participant exercises additionally require time synchronization across participating sites with clock offset
 
-$$|t_i - t_j| \le \epsilon_{\text{sync}}$$
+$$
+|t_i - t_j| \le \epsilon_{\text{sync}}
+\tag{12}
+$$
 
 for all site pairs $(i, j)$, with $\epsilon_{\text{sync}}$ typically 10 to 100 milliseconds for training exercises and one millisecond or less for engineering evaluation exercises that use the simulation output for control-system analysis.
 
@@ -128,6 +164,134 @@ The sixth axis is semiconductor economics and dual-use. Aerospace simulation dro
 Aerospace simulation and real-time systems constitute a thread of the aerospace-computing coupling with a distinctive engineering character. Simulation supplied one of the earliest sustained demands for real-time computing, from the Link Trainer through the analog flight simulators to the digital simulators and eventually to the distributed interactive simulation networks of the contemporary period. Real-time operating systems emerged from aerospace and industrial control applications as a distinct engineering discipline whose vocabulary and techniques later diffused through essentially all safety-critical and time-sensitive computing. Hardware-in-the-loop testing established the engineering practice of exercising actual flight hardware against simulated environments as a standard part of aerospace development. Distributed simulation extended the simulator concept from single-cockpit training to large-scale multi-participant exercises supporting both training and engineering evaluation.
 
 The next article in the series treats the Apollo Guidance Computer as the most-studied embedded computer in history, with focus on the Instrumentation Laboratory at MIT under Draper, the transition from analog to digital guidance, and the software engineering practices that produced the Apollo program's reliability record.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 12 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 12, 7 are established and 5 are bespoke.
+Times and delays are in seconds or milliseconds as the text states, rates and bandwidths are in hertz, the analogue error is a fraction of full scale, and the network bandwidth is in bits per second when the packet size is in bits.
+
+**Equation 1, Translational Equation of Aircraft Motion.**
+The aircraft mass times its acceleration equals the aerodynamic and propulsive force, a function of velocity, angular velocity and control deflections.
+[Etkin 1996][book_etkin_dynamics_of_flight]
+
+$$
+m \dot{\mathbf{v}} = \mathbf{F}(\mathbf{v}, \boldsymbol{\omega}, \boldsymbol{\delta})
+\tag{1}
+$$
+
+**Equation 2, Rotational Equation of Aircraft Motion.**
+The inertia tensor times the angular acceleration equals the aerodynamic and propulsive moment, written in the simplified form that omits the gyroscopic term.
+[Etkin 1996][book_etkin_dynamics_of_flight]
+
+$$
+I \dot{\boldsymbol{\omega}} = \mathbf{M}(\mathbf{v}, \boldsymbol{\omega}, \boldsymbol{\delta})
+\tag{2}
+$$
+
+*Equation 3, Bespoke Accumulated Drift of an Analogue Simulator.*
+The article combines uncorrelated errors across $n$ integrators with a per-second drift that grows linearly over simulated time, an error model it constructs to show the limit on long runs.
+
+$$
+\epsilon_{\text{analog}}(T) \approx \epsilon_0 \sqrt{n} \cdot T
+\tag{3}
+$$
+
+*Equation 4, Bespoke Minimum Update Rate for Smooth Motion.*
+The article takes twenty hertz as the representative update rate that smooth motion perception requires, an engineering threshold rather than a derived result.
+
+$$
+f_{\text{sim}} \gtrsim 20 \text{ Hz}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Transport Delay Budget.*
+The article sums the dynamics, display and motion delays into an end-to-end transport delay that must stay below the pilot tolerance of one hundred to one hundred and fifty milliseconds.
+
+$$
+T_{\text{transport}} = T_{\text{dynamics}} + T_{\text{display}} + T_{\text{motion}} \lesssim T_{\text{pilot tolerance}}
+\tag{5}
+$$
+
+**Equation 6, Nyquist Sampling Bound.**
+The Nyquist and Shannon sampling theorem requires an update rate of at least twice the highest frequency the simulation must reproduce.
+
+$$
+f_{\text{sim}} \ge 2 \cdot f_{\text{bandwidth}}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Hardware-in-the-Loop Timing Budget.*
+The article assembles the loop time from the sensor simulation, signal path, controller, actuator simulation and dynamics delays, a budget that must fit within the real flight-loop period.
+
+$$
+T_{\text{loop}} = T_{\text{sensor sim}} + T_{\text{signal path}} + T_{\text{controller}} + T_{\text{actuator sim}} + T_{\text{dynamics}}
+\tag{7}
+$$
+
+**Equation 8, Worst-Case Response Time Guarantee.**
+A real-time operating system bounds the supremum of the response times that occur with nonzero probability by the deadline, for every admissible workload.
+
+$$
+T_{\text{worst-case}} = \sup \{T : P(T) > 0\} \le T_{\text{deadline}}
+\tag{8}
+$$
+
+**Equation 9, Jitter Bound.**
+Jitter is the spread between the longest and shortest response times of successive invocations of a task, and it must stay within the application limit.
+
+$$
+J = \sup T - \inf T \le J_{\text{max}}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Network Bandwidth Under Dead Reckoning.*
+The article bounds the bandwidth by the entity count, maximum update rate and packet size, reduced by the fraction of updates that dead-reckoning extrapolation suppresses.
+[Miller and Thorpe 1995][research_miller_thorpe_1995]
+
+$$
+B_{\text{network}} \le N_{\text{entities}} \cdot f_{\text{update}} \cdot S_{\text{packet}} \cdot (1 - \eta_{\text{dead-reckoning}})
+\tag{10}
+$$
+
+**Equation 11, Error of Constant-Velocity Extrapolation.**
+An entity that accelerates uniformly departs from a constant-velocity extrapolation by half its acceleration times the square of the elapsed interval.
+
+$$
+\epsilon_{\text{DR}}(\Delta t) = \frac{1}{2} a \, (\Delta t)^2
+\tag{11}
+$$
+
+**Equation 12, Clock Synchronisation Bound.**
+The clocks of every pair of participating sites must agree within the synchronisation tolerance.
+
+$$
+|t_i - t_j| \le \epsilon_{\text{sync}}
+\tag{12}
+$$
+
+### Notation
+
+- $\mathbf{v}$, the aircraft velocity vector
+- $\boldsymbol{\omega}$, the angular velocity vector
+- $\boldsymbol{\delta}$, the vector of control-surface deflections
+- $I$, the inertia tensor
+- $\mathbf{F}$, the aerodynamic and propulsive force function
+- $\mathbf{M}$, the aerodynamic and propulsive moment function
+- $\epsilon_0$, the per-second error of one integrator
+- $f_{\text{sim}}$, the simulation update rate
+- $T_{\text{pilot tolerance}}$, the delay above which pilot control quality degrades, 100 to 150 milliseconds
+- $f_{\text{bandwidth}}$, the highest frequency the simulation must reproduce
+- $P(T)$, the probability distribution of the response time
+- $J$, the jitter
+- $\eta_{\text{dead-reckoning}}$, the fraction of updates suppressed by successful extrapolation
+- $S_{\text{packet}}$, the size of one update packet
+- $\epsilon_{\text{sync}}$, the clock synchronisation tolerance
 
 ## References
 

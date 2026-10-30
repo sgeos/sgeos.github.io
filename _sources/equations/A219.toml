@@ -1,0 +1,75 @@
+# Equation classification for A219. Read by `python3 _lib/equations.py`.
+
+caution = "Reactions are written as balanced stoichiometric equations in moles while every mixture ratio is a ratio of masses, and the engines discussed run fuel-rich, so an operating mixture ratio is lower than the stoichiometric one each equation implies."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Stoichiometric Combustion of Hydrogen and Oxygen"
+gloss = "Hydrogen burns with oxygen to water alone, which gives a stoichiometric mixture ratio of eight to one by mass."
+cite = []
+digest = "40080a580b3c66a6"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Oxidiser to Fuel Mass Ratio"
+gloss = "The oxidiser to fuel ratio is the mass flow rate of oxidiser divided by the mass flow rate of fuel."
+cite = []
+digest = "95739d11b8411491"
+
+[[symbol]]
+tex = 'O/F'
+meaning = "the oxidiser to fuel mass ratio"
+
+[[symbol]]
+tex = '\dot{m}_{ox}'
+meaning = "the mass flow rate of oxidiser"
+
+[[symbol]]
+tex = '\dot{m}_f'
+meaning = "the mass flow rate of fuel"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Optimum Mixture Ratio as a Stationary Point of Temperature over Molecular Weight"
+gloss = "The optimum mixture ratio is located where the ratio of chamber temperature to exhaust molecular weight is stationary at fixed chamber pressure, which assumes that the ratio of specific heats and the nozzle pressure ratio do not vary with mixture ratio."
+cite = ["related_post_a217"]
+digest = "42a8a6f5c47a9e7e"
+
+[[symbol]]
+tex = 'T_c'
+meaning = "the chamber temperature"
+
+[[symbol]]
+tex = 'M'
+meaning = "the average exhaust molecular weight"
+
+[[symbol]]
+tex = 'P_c'
+meaning = "the chamber pressure"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Stoichiometric Combustion of Methane and Oxygen"
+gloss = "Methane burns with oxygen to carbon dioxide and water, which gives a stoichiometric mixture ratio of four to one by mass."
+cite = []
+digest = "5fc7ce435d2ea018"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Stoichiometric Combustion of Kerosene and Oxygen"
+gloss = "Kerosene represented by the average composition of dodecane burns with oxygen to carbon dioxide and water at a stoichiometric mixture ratio of about three and four tenths to one by mass."
+cite = []
+digest = "fbc45ad4616cc837"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Stoichiometric Combustion of Ethanol and Oxygen"
+gloss = "Anhydrous ethanol burns with oxygen to carbon dioxide and water, the reaction behind the V-2 and the Redstone."
+cite = []
+digest = "f34cdf03e2d9d5cb"

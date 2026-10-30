@@ -33,11 +33,17 @@ The engineering integration of machine learning components into aerospace system
 
 The compute cost of training contemporary machine learning models has grown at a substantially faster rate than the general Moore's Law trajectory. Per the empirical analysis in [Sevilla et al. 2022][research_sevilla_2022], the compute used to train the largest machine learning models has doubled approximately every 6 months in the deep learning era from 2010 onward, a rate roughly four times the semiconductor-density doubling rate treated in [A237][related_post_a237_framing_co_development]. The compute demand for training a model of parameter count $N$ under approximate scaling-law assumptions is
 
-$$C_{\text{train}}(N) \approx 6 N D$$
+$$
+C_{\text{train}}(N) \approx 6 N D
+\tag{1}
+$$
 
 with $D$ the number of training tokens and the factor 6 accounting for forward and backward passes and the gradient computation cost. For contemporary frontier models with parameter counts of order $10^{12}$ and training-token counts of order $10^{13}$, the training compute reaches order $10^{25}$ floating-point operations, or approximately $10^{16}$ times the total operation count of an Apollo mission treated in [A242][related_post_a242_apollo_guidance_computer]. The relationship between achieved test loss and the resources deployed follows an approximate scaling law of the form
 
-$$L(N, D) \approx \frac{A}{N^\alpha} + \frac{B}{D^\beta} + L_{\text{irreducible}}$$
+$$
+L(N, D) \approx \frac{A}{N^\alpha} + \frac{B}{D^\beta} + L_{\text{irreducible}}
+\tag{2}
+$$
 
 with exponents $\alpha$ and $\beta$ empirically in the range 0.2 to 0.4 across the deep-learning era, per the analyses in [Kaplan et al. 2020][research_kaplan_et_al_2020] and the subsequent compute-optimal refinement in [Hoffmann et al. 2022][research_hoffmann_et_al_2022] introducing the balance between parameter count and training data that produces optimal loss for a fixed compute budget. This scaling law markedly shapes the economic and infrastructural planning that machine learning integration into aerospace applications requires.
 
@@ -51,11 +57,17 @@ The operational deployment of autonomous swarming reached substantial scale duri
 
 The mathematical scaling of swarm capability with swarm size follows several competing regimes. For simple coordination tasks the swarm capability grows approximately linearly with size,
 
-$$Y_{\text{swarm, linear}}(N) \approx N \cdot y_1$$
+$$
+Y_{\text{swarm, linear}}(N) \approx N \cdot y_1
+\tag{3}
+$$
 
 for individual vehicle capability $y_1$. For coordination tasks that scale with pairwise interaction between swarm members, the capability grows quadratically as
 
-$$Y_{\text{swarm, pairwise}}(N) \approx \binom{N}{2} \cdot y_{\text{interact}} \approx \frac{N^2}{2} \cdot y_{\text{interact}}$$
+$$
+Y_{\text{swarm, pairwise}}(N) \approx \binom{N}{2} \cdot y_{\text{interact}} \approx \frac{N^2}{2} \cdot y_{\text{interact}}
+\tag{4}
+$$
 
 for per-pair interaction value $y_{\text{interact}}$. For adversarial engagements the capability may grow super-linearly if the swarm can concentrate mass against an opponent's defenses faster than the defenses can adapt. The scaling regime for a mission determines the size beyond which additional vehicles produce diminishing marginal capability.
 
@@ -67,7 +79,10 @@ Three forcing pressures are shaping the contemporary aerospace-computing couplin
 
 The first pressure is semiconductor supply concentration. The geographic concentration of leading-edge semiconductor manufacturing in Taiwan through the dominance of Taiwan Semiconductor Manufacturing Company hereafter TSMC in advanced-node foundry services creates a supply-chain risk for both commercial and defense computing that neither the twentieth-century Silicon Valley pattern nor the earlier defense-procurement pattern faced. The concentration can be quantified using the Herfindahl-Hirschman index
 
-$$H = \sum_{i=1}^{N} s_i^2$$
+$$
+H = \sum_{i=1}^{N} s_i^2
+\tag{5}
+$$
 
 for market shares $s_i$ of $N$ suppliers with $\sum s_i = 1$. For leading-edge foundry services in 2026 with TSMC at approximately 90 percent market share, Samsung at approximately 8 percent, and Intel Foundry at approximately 2 percent, $H \approx 0.81$, appreciably above the 0.25 threshold typically identified with highly concentrated markets. The historical treatment in [Miller 2022][book_miller_chip_war] documents the commercial and geopolitical dynamics that produced this concentration. The reshoring and diversification programs that the United States, European Union, Japan, and other governments launched in the early 2020s aim to reduce this concentration but require decade-scale investment to achieve sizable results.
 
@@ -79,7 +94,10 @@ The third pressure is cyber-physical security. The integration of aerospace plat
 
 Forward extrapolation of the aerospace-computing coupling across the 2026 to 2050 window can proceed under several plausible framework applications. Any forward projection is subject to compounding uncertainty that grows with the projection horizon. For an initial uncertainty $\sigma_0$ at the projection origin, the extrapolation uncertainty at time $t$ typically satisfies
 
-$$\sigma(t) \gtrsim \sigma_0 \cdot (1 + \gamma t)$$
+$$
+\sigma(t) \gtrsim \sigma_0 \cdot (1 + \gamma t)
+\tag{6}
+$$
 
 with growth-rate $\gamma$ of order 0.03 to 0.10 per year for technology and geopolitical forecasts, giving a factor 2 to 4 increase in uncertainty across the twenty-four-year projection window. The six-axis framework from [A237][related_post_a237_framing_co_development] applied forward suggests that each axis will continue to develop under pressures that the twentieth-century trajectory did not anticipate.
 
@@ -105,7 +123,10 @@ The resource-limits strategy, associated with the general approach exemplified i
 
 The techno-economic-cycle strategy, exemplified by [Perez 2002][book_perez_technological_revolutions], treats major technological transitions as approximately fifty-year Kondratiev cycles with characteristic period
 
-$$T_{\text{Kondratiev}} \approx 50 \text{ years}$$
+$$
+T_{\text{Kondratiev}} \approx 50 \text{ years}
+\tag{7}
+$$
 
 comprising an installation phase of roughly 25 years, a deployment phase of roughly 25 years, and eventual crisis and transition to the next cycle. Under techno-economic-cycle assumptions, the machine learning integration wave that dominates contemporary aerospace-computing discussion is the beginning of a new cycle whose institutional and productive implications will unfold across the following decades.
 
@@ -154,6 +175,96 @@ Forward extrapolation across the 2026 to 2050 window depends substantially on th
 The engineering, institutional, and geopolitical context in which the aerospace-computing coupling continues to operate is more complex than the context in which it was originally established in the mid-twentieth century, but the coupling itself as a mechanism remains recognizable. The historical arc traced across this twelve-article series from pre-war ballistic-table computation through wartime code-breaking, SAGE, aerospace simulation and real-time systems, Apollo, ARPANET, Space Shuttle software, safety-critical software as a discipline, Silicon Valley's origins in defense contracting, and software-defined aerospace to the contemporary snapshot demonstrates the durability of the coupling as an engineering pattern across marked changes in technology, institutions, and geopolitics. The trajectory of the coupling across the next quarter century will markedly depend on the choices that engineers, institutional leaders, and policy makers make in response to the forcing pressures the contemporary context presents.
 
 This concludes the twelve-article series on aerospace, programming languages, and information technology co-development.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 7 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 7, 4 are established and 3 are bespoke.
+Training compute is in floating-point operations, market shares are fractions that sum to one so the concentration index lies between zero and one rather than on the ten thousand point scale, and time is in years.
+
+**Equation 1, Training Compute of a Dense Model.**
+Training compute is about six floating-point operations per parameter per training token, covering the forward and backward passes.
+[Kaplan et al. 2020][research_kaplan_et_al_2020]
+
+$$
+C_{\text{train}}(N) \approx 6 N D
+\tag{1}
+$$
+
+**Equation 2, Neural Scaling Law for Test Loss.**
+Test loss falls as a power of the parameter count and a power of the training tokens toward an irreducible floor, in the compute-optimal form.
+[Hoffmann et al. 2022][research_hoffmann_et_al_2022]
+
+$$
+L(N, D) \approx \frac{A}{N^\alpha} + \frac{B}{D^\beta} + L_{\text{irreducible}}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Linear Swarm Capability.*
+For simple coordination tasks the article assumes that each vehicle adds the same capability, so swarm capability grows in proportion to swarm size.
+
+$$
+Y_{\text{swarm, linear}}(N) \approx N \cdot y_1
+\tag{3}
+$$
+
+*Equation 4, Bespoke Pairwise Swarm Capability.*
+For tasks that rest on interaction between members the article assumes that every pair contributes the same value, so capability grows with the number of pairs.
+
+$$
+Y_{\text{swarm, pairwise}}(N) \approx \binom{N}{2} \cdot y_{\text{interact}} \approx \frac{N^2}{2} \cdot y_{\text{interact}}
+\tag{4}
+$$
+
+**Equation 5, Herfindahl-Hirschman Index.**
+The Herfindahl-Hirschman index of market concentration is the sum of the squared market shares of all suppliers.
+
+$$
+H = \sum_{i=1}^{N} s_i^2
+\tag{5}
+$$
+
+*Equation 6, Bespoke Linear Growth of Extrapolation Uncertainty.*
+Forecast uncertainty is assumed to grow at least linearly with the projection horizon, at a rate of three to ten hundredths per year that the article takes as typical.
+
+$$
+\sigma(t) \gtrsim \sigma_0 \cdot (1 + \gamma t)
+\tag{6}
+$$
+
+**Equation 7, Kondratiev Cycle Period.**
+A techno-economic long wave is taken to last about fifty years, divided into installation and deployment phases of about twenty-five years each.
+[Perez 2002][book_perez_technological_revolutions]
+
+$$
+T_{\text{Kondratiev}} \approx 50 \text{ years}
+\tag{7}
+$$
+
+### Notation
+
+- $C_{\text{train}}(N)$, the training compute for a model of $N$ parameters
+- $N$, the parameter count in Equations 1 and 2, the number of swarm vehicles in Equations 3 and 4, and the number of suppliers in Equation 5
+- $D$, the number of training tokens
+- $L(N, D)$, the test loss
+- $A$, the fitted coefficient of the parameter term
+- $B$, the fitted coefficient of the data term
+- $\alpha$, the parameter-count exponent
+- $\beta$, the data exponent
+- $L_{\text{irreducible}}$, the irreducible loss
+- $y_1$, the capability of one vehicle
+- $y_{\text{interact}}$, the value of one pairwise interaction
+- $H$, the Herfindahl-Hirschman index
+- $s_i$, the market share of supplier $i$
+- $\sigma(t)$, the extrapolation uncertainty at horizon $t$
+- $\sigma_0$, the uncertainty at the projection origin
+- $\gamma$, the growth rate of uncertainty per year
+- $T_{\text{Kondratiev}}$, the period of a Kondratiev cycle
 
 ## References
 

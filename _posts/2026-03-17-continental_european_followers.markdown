@@ -31,6 +31,7 @@ The [catch-up equation of the series opener][related_post_industrialization_fram
 
 $$
 t_{\text{catch}} = \frac{\ln R}{g_f - g_l}
+\tag{1}
 $$
 
 For continental European followers around 1850, with $R$ typically in the range of two to four against Britain and growth-rate premia of one to two percentage points achievable through institutional-substitution mechanisms, the arithmetic produces catch-up times on the order of thirty to a hundred years. The empirical record confirms the arithmetic. Belgium closed on Britain by roughly 1900. Germany closed by 1913 and surpassed Britain in sectors well before that. France remained behind but converged considerably through the second half of the nineteenth century. The Netherlands and Switzerland followed distinct paths that combined late industrialization proper with specialized service and finance sectors.
@@ -39,6 +40,7 @@ The same arithmetic rearranged gives the required growth-rate premium as a funct
 
 $$
 \Delta g = g_f - g_l = \frac{\ln R}{T}
+\tag{2}
 $$
 
 which for the German case of $R \approx 2$ to $3$ against Britain in 1850 and $T \approx 40$ years to significant parity by the 1890s implies a required $\Delta g$ of roughly two percentage points. The historical record confirms that Germany achieved approximately this growth-rate premium during the second half of the nineteenth century through the institutional-substitution mechanisms treated later in this article. Followers unable to sustain the required premium either close more slowly, remain permanently behind, or converge to intermediate positions from which further catch-up requires renewed institutional adjustment.
@@ -47,6 +49,7 @@ The Baumol convergence hypothesis formalizes the observation empirically. If $Y_
 
 $$
 g_i(t) = g_{\text{leader}} + \beta \cdot \frac{Y_{\text{leader}}(t) - Y_i(t)}{Y_i(t)}
+\tag{3}
 $$
 
 with $\beta > 0$ measuring the convergence rate. The [empirical work of Baumol on productivity convergence across industrial economies][research_baumol_convergence] establishes that $\beta$ is positive and substantial for the industrial-country group across most of the twentieth century, and that the convergence property applies specifically to countries that have already achieved the institutional preconditions for industrialization. Countries that have not achieved those preconditions do not converge and remain persistently behind. The [Pritchett analysis of long-run divergence in world income][research_pritchett_divergence] documents that per-capita output gaps between the leading industrial economies and the lagging non-industrial economies grew significantly across the twentieth century rather than closing, and establishes that the convergence property Baumol identified for the industrial-country group does not extend to countries outside that group. The bifurcation between the convergence club and the divergence club is one of the central empirical findings of long-run growth economics and is directly relevant to why some continental followers succeeded and others did not.
@@ -55,6 +58,7 @@ The $\beta$ implies a convergence half-life. If the leader-follower productivity
 
 $$
 t_{1/2} = \frac{\ln 2}{\beta}
+\tag{4}
 $$
 
 years. Empirical estimates of $\beta$ across the industrial-country group during the twentieth century cluster around two to three percent per year, producing half-lives on the order of twenty-five to forty years. The estimate is consistent with the historical record of continental follower catch-up on Britain, which took roughly one to two generations to substantially close the mid-nineteenth-century gap for the successful followers.
@@ -162,6 +166,66 @@ The [six axes of the series opener][related_post_industrialization_framing] map 
 The continental European followers industrialized in the wake of Britain through mechanisms that Gerschenkron correctly identified as institutional substitutions for the private-entrepreneurship model of the first mover. Belgium industrialized first on the continent, drawing on adjacent coal, universal banking, and state railway policy. Germany became the paradigmatic case, using the Grossbanken, technical universities, protective tariffs, and cartelization to close the British lead by 1900 and surpass Britain in the newer science-based industries before 1914. France industrialized more gradually through a distinctive state-directed tradition. The Netherlands and Switzerland combined delayed heavy industrialization with early service and finance specialization. Scandinavia developed distinctive small-state industrial models. Austria-Hungary and Italy exhibited strong regional variation. The Iberian peninsula did not industrialize considerably in the pre-1914 wave and would catch up only in the postwar period.
 
 The contemporary continental European positioning reflects the mechanisms of the nineteenth-century catch-up, the two World Wars, and the postwar reconstruction and integration sequence. The Franco-German axis, the European Union framework, and the transatlantic alliance together define the contemporary structural position that traces back to who industrialized first in the second wave and by what mechanism. The fourth article of the series treats the American ascent, which paralleled the continental catch-up on Britain but ran on a continental-scale internal market and produced by the mid-twentieth century the global-hegemonic position that continues to shape the contemporary Western system.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 4 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 4, 3 are established and 1 are bespoke.
+Growth rates and convergence rates are continuous annual rates written as fractions, so a premium of two percentage points enters as two hundredths, and every gap is a ratio of per-capita outputs rather than a difference.
+
+**Equation 1, Catch-Up Time under Constant Growth Rates.**
+A follower growing faster than the leader at constant rates closes a per-capita gap of ratio $R$ in the logarithm of $R$ divided by the growth rate difference, the catch-up equation of the series opener.
+[catch-up equation of the series opener][related_post_industrialization_framing]
+
+$$
+t_{\text{catch}} = \frac{\ln R}{g_f - g_l}
+\tag{1}
+$$
+
+**Equation 2, Required Growth Rate Premium.**
+Rearranging the catch-up relation gives the growth rate premium a follower needs to close a gap of ratio $R$ within a target period $T$.
+
+$$
+\Delta g = g_f - g_l = \frac{\ln R}{T}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Convergence Equation in the Relative Gap.*
+The article writes the Baumol convergence hypothesis as follower growth equal to the leader's rate plus a coefficient times the relative output gap, a linear specification in the relative rather than the logarithmic gap that the article chose.
+[empirical work of Baumol on productivity convergence across industrial economies][research_baumol_convergence]
+
+$$
+g_i(t) = g_{\text{leader}} + \beta \cdot \frac{Y_{\text{leader}}(t) - Y_i(t)}{Y_i(t)}
+\tag{3}
+$$
+
+**Equation 4, Convergence Half-Life.**
+A gap that decays exponentially at rate $\beta$ halves over the natural logarithm of two divided by $\beta$.
+
+$$
+t_{1/2} = \frac{\ln 2}{\beta}
+\tag{4}
+$$
+
+### Notation
+
+- $t_{\text{catch}}$, the time to close the per-capita gap
+- $R$, the initial ratio of leader to follower per-capita output
+- $g_f$, the per-capita growth rate of the follower
+- $g_l$, the per-capita growth rate of the leader
+- $\Delta g$, the required per-capita growth rate premium over the leader
+- $T$, the target closure period in years
+- $g_i(t)$, the per-capita growth rate of country $i$
+- $g_{\text{leader}}$, the per-capita growth rate of the leader
+- $Y_i(t)$, per-capita output of country $i$ at time $t$
+- $Y_{\text{leader}}(t)$, per-capita output of the leader at time $t$
+- $\beta$, the convergence rate
+- $t_{1/2}$, the convergence half-life
 
 ## References
 

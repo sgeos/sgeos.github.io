@@ -1,0 +1,83 @@
+# Equation classification for A227. Read by `python3 _lib/equations.py`.
+
+caution = "Growth rates and convergence rates are continuous annual rates written as fractions, so a premium of two percentage points enters as two hundredths, and every gap is a ratio of per-capita outputs rather than a difference."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Catch-Up Time under Constant Growth Rates"
+gloss = "A follower growing faster than the leader at constant rates closes a per-capita gap of ratio $R$ in the logarithm of $R$ divided by the growth rate difference, the catch-up equation of the series opener."
+cite = ["related_post_industrialization_framing"]
+digest = "103f20dc3cedef4b"
+
+[[symbol]]
+tex = 't_{\text{catch}}'
+meaning = "the time to close the per-capita gap"
+
+[[symbol]]
+tex = 'R'
+meaning = "the initial ratio of leader to follower per-capita output"
+
+[[symbol]]
+tex = 'g_f'
+meaning = "the per-capita growth rate of the follower"
+
+[[symbol]]
+tex = 'g_l'
+meaning = "the per-capita growth rate of the leader"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Required Growth Rate Premium"
+gloss = "Rearranging the catch-up relation gives the growth rate premium a follower needs to close a gap of ratio $R$ within a target period $T$."
+cite = []
+digest = "40df69aa30c0ee73"
+
+[[symbol]]
+tex = '\Delta g'
+meaning = "the required per-capita growth rate premium over the leader"
+
+[[symbol]]
+tex = 'T'
+meaning = "the target closure period in years"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Convergence Equation in the Relative Gap"
+gloss = "The article writes the Baumol convergence hypothesis as follower growth equal to the leader's rate plus a coefficient times the relative output gap, a linear specification in the relative rather than the logarithmic gap that the article chose."
+cite = ["research_baumol_convergence"]
+digest = "21514ee0b8c4ffbc"
+
+[[symbol]]
+tex = 'g_i(t)'
+meaning = "the per-capita growth rate of country $i$"
+
+[[symbol]]
+tex = 'g_{\text{leader}}'
+meaning = "the per-capita growth rate of the leader"
+
+[[symbol]]
+tex = 'Y_i(t)'
+meaning = "per-capita output of country $i$ at time $t$"
+
+[[symbol]]
+tex = 'Y_{\text{leader}}(t)'
+meaning = "per-capita output of the leader at time $t$"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the convergence rate"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Convergence Half-Life"
+gloss = "A gap that decays exponentially at rate $\\beta$ halves over the natural logarithm of two divided by $\\beta$."
+cite = []
+digest = "6589fa73d0089eb8"
+
+[[symbol]]
+tex = 't_{1/2}'
+meaning = "the convergence half-life"

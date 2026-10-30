@@ -27,7 +27,10 @@ The emergence of the discipline was substantially driven by mishap-driven learni
 
 The reliability targets that safety-critical software programs are expected to achieve are typically expressed as probabilities of catastrophic failure per operational hour. For the highest-consequence category commonly used across safety-critical domains, the target is
 
-$$\lambda_{\text{catastrophic}} \le 10^{-9} \text{ per operational hour}$$
+$$
+\lambda_{\text{catastrophic}} \le 10^{-9} \text{ per operational hour}
+\tag{1}
+$$
 
 corresponding to a mean time between catastrophic failures exceeding approximately $10^9$ operational hours or roughly $10^5$ years of continuous single-unit operation. Achieving this target through testing alone is infeasible because a test program that observes zero failures would need to run for a substantial fraction of the target mean-time-between-failure to provide meaningful statistical confidence, which motivates the complementary role of formal verification, structural coverage analysis, and process-based reasoning treated in the sections below.
 
@@ -37,11 +40,17 @@ Industry consensus process standards codify the engineering practices that safet
 
 The common structure across these standards is a risk-based classification of software components into categories corresponding to the severity of failure consequences, with each category associated with process requirements that scale with the severity. The number of categories varies from three to five depending on the domain, but the general pattern is that the most safety-critical category requires the most stringent process. The process requirements typically include specification traceability, design and code review, testing to coverage criteria, configuration management, quality management systems, and independent verification and validation. The strongest coverage criterion commonly required at the highest severity category is modified condition and decision coverage, formalized in the primary aerospace-industry paper by [Chilenski and Miller 1994][research_chilenski_miller_1994], which for a Boolean expression of $N$ conditions requires a minimum test count of
 
-$$N_{\text{tests, MC/DC}} \ge N + 1$$
+$$
+N_{\text{tests, MC/DC}} \ge N + 1
+\tag{2}
+$$
 
 designed so that each condition independently affects the decision outcome. This coverage criterion contrasts with statement coverage which requires only that every source line execute at least once, and with branch coverage which requires that each conditional branch take both true and false values, both of which are substantially weaker than modified condition and decision coverage for complex Boolean expressions. The verification effort required scales approximately as
 
-$$E_{\text{V and V}}(k) \approx E_0 \cdot \alpha^k$$
+$$
+E_{\text{V and V}}(k) \approx E_0 \cdot \alpha^k
+\tag{3}
+$$
 
 with $k$ the risk category index counted from the least stringent and multiplier $\alpha$ of order 2 to 5 per category increase, reflecting the engineering-economics reality that each successive category increase requires substantially more thorough verification than the previous.
 
@@ -53,19 +62,28 @@ Formal verification of software is the application of mathematical proof techniq
 
 Model checking exhaustively explores the state space of a system model to verify that a temporal-logic property holds in all reachable states. The technique was introduced independently by [Clarke and Emerson 1981][research_clarke_emerson_1981] at the Workshop on Logic of Programs and by Queille and Sifakis in 1982 at the International Symposium on Programming, with all three of Clarke, Emerson, and Sifakis later receiving the 2007 ACM Turing Award for this contribution. The tools including SPIN developed by Gerard Holzmann at Bell Labs, NuSMV developed at Fondazione Bruno Kessler in Italy, and TLA+ developed by Leslie Lamport at Microsoft Research have been used extensively for aerospace applications. Model checking is limited by the state-space explosion problem in which the number of reachable states grows exponentially with the number of concurrent processes and the depth of exploration. For $N_{\text{processes}}$ processes each with $\lvert S \rvert$ local states and $D$ possible values per shared variable across $V$ shared variables, the composite state space is bounded above by
 
-$$|S_{\text{composite}}| \le |S|^{N_{\text{processes}}} \cdot D^V$$
+$$
+|S_{\text{composite}}| \le |S|^{N_{\text{processes}}} \cdot D^V
+\tag{4}
+$$
 
 which for realistic aerospace software of even modest complexity exceeds the computational capacity of any physical model checker. The engineering discipline of model checking includes techniques for abstraction, symmetry reduction, and partial-order reduction that permit useful analysis of systems whose full state space is infeasible to enumerate.
 
 Theorem proving applies human-guided proof-construction techniques with computer-assisted proof checking to establish that a program implementation satisfies its formal specification. The tools including Coq, Isabelle, HOL, ACL2, PVS, and Lean have all been used for aerospace safety-critical software verification. Theorem proving scales further than model checking for property classes but requires substantial specialized expertise. The comparative engineering effort per line of verified code across the three technique classes satisfies approximately
 
-$$E_{\text{static analysis}} \ll E_{\text{testing}} < E_{\text{model checking}} \ll E_{\text{theorem proving}}$$
+$$
+E_{\text{static analysis}} \ll E_{\text{testing}} < E_{\text{model checking}} \ll E_{\text{theorem proving}}
+\tag{5}
+$$
 
 with theorem-proving effort typically one to two orders of magnitude above tested-module effort and static-analysis effort typically one to two orders of magnitude below tested-module effort. The engineering trade-off among verification techniques therefore depends on the required assurance strength, the size of the software artifact, and the cost tolerance of the program.
 
 Abstract interpretation, formalized by [Cousot and Cousot 1977][research_cousot_cousot_1977] as a theoretical framework, permits the static analysis of programs by computing sound over-approximations of program behavior in abstract mathematical domains. For a program $P$ with concrete-semantics state set $S_P$ and computed abstract-semantics state set $S_P^{\#}$, the soundness relation is
 
-$$S_P \subseteq \gamma(S_P^{\#}), \qquad S_P^{\#} = \alpha(S_P)$$
+$$
+S_P \subseteq \gamma(S_P^{\#}), \qquad S_P^{\#} = \alpha(S_P)
+\tag{6}
+$$
 
 where $\alpha$ is the abstraction function that maps concrete states to abstract states and $\gamma$ is the concretization function that maps abstract states back to sets of concrete states. This soundness guarantee means that any property proved on the abstract semantics necessarily holds on the concrete semantics, though the converse fails and the abstract analysis produces false alarms at a rate that depends on the choice of abstract domain and analysis precision. The commercial application in the Astrée analyzer developed at École Normale Supérieure and later commercialized by AbsInt, described in [Delmas and Souyris 2007][research_delmas_souyris_2007], demonstrated that abstract interpretation could be used to prove the absence of classes of runtime errors including division by zero, integer overflow, and array-bounds violation across the entire Airbus A380 flight-control software. This industrial demonstration became one of the load-bearing empirical results for the practical viability of formal verification in industrial safety-critical software.
 
@@ -87,7 +105,10 @@ The V-model, a visualization of the waterfall model that pairs each requirements
 
 Structural complexity of software modules is commonly quantified using the McCabe cyclomatic complexity metric introduced in [McCabe 1976][research_mccabe_1976]
 
-$$V(G) = E - N + 2P$$
+$$
+V(G) = E - N + 2P
+\tag{7}
+$$
 
 for a control-flow graph $G$ with $E$ edges, $N$ nodes, and $P$ connected components, giving the number of linearly independent paths through the module. Industry consensus process standards typically recommend cyclomatic complexity below approximately 10 to 15 per function or module to bound the engineering difficulty of comprehensive testing and human review, and safety-critical software programs typically enforce cyclomatic complexity limits through coding-standard automated checks that reject modules exceeding the specified threshold.
 
@@ -112,6 +133,96 @@ The sixth axis is semiconductor economics and dual-use. Safety-critical software
 Safety-critical software emerged as a distinct engineering discipline in the 1970s and 1980s from the practical experience of aerospace software programs including Apollo, the Space Shuttle, and the early fly-by-wire commercial and military aircraft. The discipline codified its practices in industry consensus process standards issued by domain-specific bodies including the RTCA for civil aviation. The technical methods that supplement traditional testing include formal verification, model-based development, and mishap-driven learning. The ongoing tension between waterfall and iterative process models reflects the difficulty of adapting commercial software engineering advances to the constraints of safety-critical development, with contemporary practice generally adopting hybrid approaches that combine iterative techniques within phases with waterfall-style formal signoffs between phases. The discipline continues to develop as underlying software engineering and formal methods techniques advance.
 
 The next article in the series treats Silicon Valley from its defense-contracting origins, including the Stanford Industrial Park and the Terman relationship with the Department of Defense, the transition to commercial computing markets in the 1970s and 1980s, and the residual defense presence in contemporary Silicon Valley.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 7 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 7, 5 are established and 2 are bespoke.
+Failure rates are per operational hour of a single unit, test and state counts are dimensionless integers, and verification effort is a relative quantity whose ordering, not its absolute value, carries the argument.
+
+**Equation 1, Catastrophic Failure Rate Target.**
+The highest consequence category of safety-critical systems is held to a catastrophic failure rate of no more than one in a billion operational hours.
+
+$$
+\lambda_{\text{catastrophic}} \le 10^{-9} \text{ per operational hour}
+\tag{1}
+$$
+
+**Equation 2, Minimum Test Count for Modified Condition and Decision Coverage.**
+Showing that each of $N$ conditions independently affects the outcome of a decision requires at least $N + 1$ test cases.
+[Chilenski and Miller 1994][research_chilenski_miller_1994]
+
+$$
+N_{\text{tests, MC/DC}} \ge N + 1
+\tag{2}
+$$
+
+*Equation 3, Bespoke Geometric Scaling of Verification Effort with Risk Category.*
+Verification and validation effort is assumed to grow by a constant multiplier of two to five for each step up in risk category.
+
+$$
+E_{\text{V and V}}(k) \approx E_0 \cdot \alpha^k
+\tag{3}
+$$
+
+**Equation 4, Bound on the Composite State Space.**
+The reachable states of a concurrent system cannot exceed the product of the local state counts of its processes and the value counts of its shared variables, which grows exponentially in both.
+
+$$
+|S_{\text{composite}}| \le |S|^{N_{\text{processes}}} \cdot D^V
+\tag{4}
+$$
+
+*Equation 5, Bespoke Ordering of Verification Effort by Technique.*
+The article ranks the effort per verified line of static analysis, testing, model checking and theorem proving, with gaps of one to two orders of magnitude that it estimates.
+
+$$
+E_{\text{static analysis}} \ll E_{\text{testing}} < E_{\text{model checking}} \ll E_{\text{theorem proving}}
+\tag{5}
+$$
+
+**Equation 6, Soundness of Abstract Interpretation.**
+The concrete states of a program lie within the concretisation of its abstract states, so a property proved of the abstraction holds of the program.
+[Cousot and Cousot 1977][research_cousot_cousot_1977]
+
+$$
+S_P \subseteq \gamma(S_P^{\#}), \qquad S_P^{\#} = \alpha(S_P)
+\tag{6}
+$$
+
+**Equation 7, McCabe Cyclomatic Complexity.**
+The cyclomatic complexity of a control-flow graph is its edge count less its node count plus twice its connected components, which counts the linearly independent paths.
+[McCabe 1976][research_mccabe_1976]
+
+$$
+V(G) = E - N + 2P
+\tag{7}
+$$
+
+### Notation
+
+- $\lambda_{\text{catastrophic}}$, the rate of catastrophic failure per operational hour
+- $N_{\text{tests, MC/DC}}$, the number of tests needed for modified condition and decision coverage
+- $N$, the number of conditions in a Boolean decision, or the number of nodes of a control-flow graph in Equation 7
+- $E_{\text{V and V}}(k)$, the verification and validation effort at risk category $k$
+- $E_0$, the effort at the least stringent category
+- $\alpha$, the effort multiplier per category, or the abstraction function in Equation 6
+- $|S_{\text{composite}}|$, the number of states of the composite system
+- $|S|$, the number of local states of one process
+- $N_{\text{processes}}$, the number of concurrent processes
+- $D$, the number of possible values of a shared variable
+- $V$, the number of shared variables
+- $S_P$, the concrete-semantics state set of program $P$
+- $S_P^{\#}$, the abstract-semantics state set of program $P$
+- $\gamma$, the concretisation function
+- $V(G)$, the cyclomatic complexity of control-flow graph $G$
+- $E$, the number of edges
+- $P$, the number of connected components
 
 ## References
 

@@ -1,0 +1,179 @@
+# Equation classification for A244. Read by `python3 _lib/equations.py`.
+
+caution = "Reliabilities are probabilities per mission, defect densities are per thousand lines of source code, costs are in United States dollars of the 1980s unless the text states otherwise, and $T_L$ is a doubling time while $T_D$ is an e-folding time."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Three of Four Majority Voting Reliability"
+gloss = "Under independent failures the voting group survives when at least three of its four computers survive, and the binomial sum reduces to $4R^3 - 3R^4$."
+cite = []
+digest = "a502dd5b3756732b"
+
+[[symbol]]
+tex = 'R_{\text{PASS vote}}'
+meaning = "the reliability of the four-computer Primary Avionics Software System voting group"
+
+[[symbol]]
+tex = 'R'
+meaning = "the hardware reliability of one computer per mission"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Instruction Rate Ratio of the AP-101 to the Apollo Guidance Computer"
+gloss = "Dividing the instruction rate of the AP-101 by that of the Apollo Guidance Computer gives a raw speed advantage of about five."
+cite = []
+digest = "6abb709eab949001"
+
+[[symbol]]
+tex = 'r_{\text{AP-101}}'
+meaning = "the instruction rate of the AP-101, in instructions per second"
+
+[[symbol]]
+tex = 'r_{\text{AGC}}'
+meaning = "the instruction rate of the Apollo Guidance Computer, in instructions per second"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Average Productivity of the Initial PASS Development"
+gloss = "The delivered size of the Primary Avionics Software System divided by the reported development effort gives about eighteen lines per person-month."
+cite = ["research_madden_rone_1984"]
+digest = "313fa5bddf39142c"
+
+[[symbol]]
+tex = '\bar{p}_{\text{PASS}}'
+meaning = "the mean productivity per engineer"
+
+[[symbol]]
+tex = 'L_{\text{initial}}'
+meaning = "the source lines of the initial delivery"
+
+[[symbol]]
+tex = 'E_{\text{total}}'
+meaning = "the total development effort in person-months"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Exponential Growth of the PASS Code Base"
+gloss = "The size of the code base is modelled as doubling at a constant rate, with a doubling time of forty to fifty years that the article assigns to this program."
+cite = []
+digest = "563f0c9fd1543f98"
+
+[[symbol]]
+tex = 'L(t)'
+meaning = "the source lines at time $t$"
+
+[[symbol]]
+tex = 'L_0'
+meaning = "the source lines at the reference time $t_0$"
+
+[[symbol]]
+tex = 'T_L'
+meaning = "the doubling time of the code base"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Per-Attempt Probability of the STS-1 Synchronisation Failure"
+gloss = "A timing race that occurred once in sixty-seven initialisation attempts corresponds to a failure probability of about one and a half percent per attempt."
+cite = ["research_garman_1981"]
+digest = "d98e22a26cda4728"
+
+[[symbol]]
+tex = 'P_{\text{sync fail}}'
+meaning = "the probability that one initialisation attempt fails to synchronise"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Exponential Decline of Defect Density"
+gloss = "The fall in delivered defect density is modelled as an exponential decay with a time constant of three to five years that the article assumes."
+cite = []
+digest = "944fd1bee8d56b3a"
+
+[[symbol]]
+tex = 'D(t)'
+meaning = "the delivered defect density at time $t$"
+
+[[symbol]]
+tex = 'D_0'
+meaning = "the initial defect density"
+
+[[symbol]]
+tex = 'T_D'
+meaning = "the e-folding time of the decline"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Defects Escaping Inspection"
+gloss = "Inspection that removes a fraction of the introduced defects leaves the complementary fraction to reach testing."
+cite = ["research_fagan_1976"]
+digest = "0771ccc3dffccc83"
+
+[[symbol]]
+tex = 'D_{\text{to test}}'
+meaning = "the defects that reach testing"
+
+[[symbol]]
+tex = 'D_{\text{introduced}}'
+meaning = "the defects introduced during design and coding"
+
+[[symbol]]
+tex = 'f_{\text{inspection}}'
+meaning = "the fraction of defects that inspection removes"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Geometric Escalation of Defect Repair Cost"
+gloss = "The cost of repairing a defect is assumed to rise by a constant multiplier of three to ten for each development phase it survives."
+cite = []
+digest = "fa0c692da4383bfd"
+
+[[symbol]]
+tex = 'C_0'
+meaning = "the cost of a repair in the design phase"
+
+[[symbol]]
+tex = 'r'
+meaning = "the cost multiplier per phase"
+
+[[symbol]]
+tex = 'n'
+meaning = "the number of phases after design"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Lower Bound on Time between Catastrophic Software Failures"
+gloss = "The bound multiplies the one hundred and thirty-five missions flown without a catastrophic software failure by a representative mission duration of two hundred hours that the article assumes."
+cite = []
+digest = "535c4a227deb5d39"
+
+[[symbol]]
+tex = 'T_{\text{PASS, MTBF}}'
+meaning = "the mean time between catastrophic failures of the Shuttle software"
+
+[[symbol]]
+tex = 'N_{\text{missions}}'
+meaning = "the number of missions flown"
+
+[[symbol]]
+tex = 'T_{\text{per mission}}'
+meaning = "the mean mission duration in hours"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Development Cost per Line"
+gloss = "The cost per line divides the low end of an unsourced range of program cost estimates, five hundred million dollars, by the four hundred thousand lines of the initial delivery."
+cite = []
+digest = "d0879f68d609008b"
+
+[[symbol]]
+tex = 'C_{\text{per-line, PASS}}'
+meaning = "the development cost per source line"

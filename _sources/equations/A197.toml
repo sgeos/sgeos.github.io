@@ -1,0 +1,131 @@
+# Equation classification for A197, the integrated single-pass compiler against the decomposed pipeline. Read by `python3 _lib/equations.py`.
+
+caution = "In this article $T$ written with a shape subscript is a compilation time while $T_i$ is a stage throughput as in A191, and $L$ alone is an instruction count per token while $L$ with a shape subscript is a latency, so each letter is read with its subscript."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Working Memory of an Integrated Compiler"
+gloss = "The article approximates the memory of an integrated compiler as the sum of its parse stack, symbol table and fixup buffer, neglecting every other piece of state."
+cite = []
+digest = "47e9ff19ae19876a"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Working Memory of a Decomposed Compiler"
+gloss = "The article approximates the memory of a decomposed compiler as the sum of every stage's working state and every inter-stage buffer."
+cite = []
+digest = "99b76746a03ef80a"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Relative Compilation Time of the Pipeline"
+gloss = "The article charges each token one extra unit of work for every buffer boundary it crosses against the instructions spent per token within a stage, so the overhead falls as that per-token work grows."
+cite = []
+digest = "9788844235912c07"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Added Latency of the Pipeline"
+gloss = "Assuming every item crosses each of the buffers between stages at an average transit time, the article estimates the extra latency of the pipeline as that number of crossings times the transit time."
+cite = []
+digest = "b6d051045424bb2e"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Count of Test Surfaces"
+gloss = "The article counts one independently testable surface per stage plus one for the full pipeline, against the single surface of an integrated compiler."
+cite = []
+digest = "759aa918db9d1073"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Verification Cost of a Decomposed Compiler"
+gloss = "The article models verification of a pipeline as the sum of separate per-stage proofs plus the cost of composing them under appropriate composition rules."
+cite = []
+digest = "e421a520c1876f2b"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Verification Cost of an Integrated Compiler"
+gloss = "The article models verification of an integrated compiler as a single monolithic argument that tracks every piece of state together, which it holds generally exceeds the decomposed sum."
+cite = []
+digest = "ae2d48bf8976efdb"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Speedup of Concurrent over Sequential Stage Execution"
+gloss = "Sequential execution costs the sum of the per-stage inverse throughputs per unit while concurrent execution costs only the largest, so the speedup is their ratio and approaches the stage count for a balanced pipeline."
+cite = []
+digest = "8488d76a527521a7"
+
+[[symbol]]
+tex = 'S'
+meaning = "the parse stack"
+
+[[symbol]]
+tex = 'T'
+meaning = "the symbol table"
+
+[[symbol]]
+tex = 'F'
+meaning = "the fixup buffer"
+
+[[symbol]]
+tex = 'k'
+meaning = "the number of pipeline stages"
+
+[[symbol]]
+tex = 'm_i'
+meaning = "the working state of stage $i$"
+
+[[symbol]]
+tex = 'b_i'
+meaning = "the inter-stage buffer size after stage $i$"
+
+[[symbol]]
+tex = 'T_{\text{pipeline}}'
+meaning = "the compilation time of the decomposed compiler"
+
+[[symbol]]
+tex = 'T_{\text{integrated}}'
+meaning = "the compilation time of the integrated compiler"
+
+[[symbol]]
+tex = 'L'
+meaning = "the average number of instructions per token processed within a stage"
+
+[[symbol]]
+tex = 'L_{\text{pipeline}}'
+meaning = "the end-to-end latency of the decomposed compiler"
+
+[[symbol]]
+tex = 'L_{\text{integrated}}'
+meaning = "the end-to-end latency of the integrated compiler"
+
+[[symbol]]
+tex = '\tau_{\text{buffer}}'
+meaning = "the average inter-stage buffer-transit time per item"
+
+[[symbol]]
+tex = 'V_i^{\text{stage}}'
+meaning = "the verification cost of stage $i$"
+
+[[symbol]]
+tex = 'V^{\text{composition}}'
+meaning = "the cost of composing the stage proofs"
+
+[[symbol]]
+tex = 'V^{\text{monolithic}}'
+meaning = "the cost of a single monolithic verification argument"
+
+[[symbol]]
+tex = 'T_i'
+meaning = "the maximum throughput of stage $i$"

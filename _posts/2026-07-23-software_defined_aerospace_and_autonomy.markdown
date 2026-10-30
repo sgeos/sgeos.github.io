@@ -23,13 +23,19 @@ Fly-by-wire replaces the mechanical cables, pushrods, and hydraulic servos that 
 
 The first production fly-by-wire aircraft was the Concorde supersonic transport, first flight 1969 and operational from 1976, which used analog electronic flight-control for pitch and roll augmentation while retaining mechanical linkages for the primary control paths. The first production aircraft with full digital fly-by-wire was the General Dynamics F-16 Fighting Falcon, first flight 1974 and operational from 1978, which was designed as relaxed-static-stability aircraft that required continuous computer-mediated pitch control to remain flyable. Static stability of an aircraft is characterized by the static margin, treated as standard material in [Etkin 1996][book_etkin_dynamics_of_flight] previously cited in [A241][related_post_a241_aerospace_simulation], defined as the fraction of mean aerodynamic chord separating the aerodynamic center from the center of gravity,
 
-$$K_n = \frac{x_{\text{ac}} - x_{\text{cg}}}{\bar{c}}$$
+$$
+K_n = \frac{x_{\text{ac}} - x_{\text{cg}}}{\bar{c}}
+\tag{1}
+$$
 
 with positive $K_n$ indicating a stable aircraft that returns to trim after a disturbance and negative $K_n$ indicating an unstable aircraft that diverges from trim without active control. The F-16 was designed with static margin $K_n$ approximately negative 5 percent, which produces significantly better performance than a stable aircraft of the same size and weight but requires the fly-by-wire computer to be always operational, providing one of the engineering rationales for the fault-tolerant computer architectures treated in [A244][related_post_a244_space_shuttle_software].
 
 The first commercial aircraft with full digital fly-by-wire was the Airbus A320, first flight 1987 and operational from 1988. The A320 established the commercial-aviation fly-by-wire pattern that subsequent Airbus and Boeing aircraft extended. The control law that fly-by-wire implements can be characterized by its transfer function from stick input to aircraft angular rate response. For a pitch-rate command system with time constant $\tau$ and gain $K$, the closed-loop response is
 
-$$G(s) = \frac{K}{\tau s + 1}$$
+$$
+G(s) = \frac{K}{\tau s + 1}
+\tag{2}
+$$
 
 where $s$ is the Laplace transform variable and $G$ is the transfer function relating stick displacement to pitch rate. The choice of $K$ and $\tau$ across the flight envelope, with gain scheduling that adjusts the parameters based on air density and airspeed, determines the handling qualities that pilots experience. The tuning of these parameters is one of the engineering activities that consumes significant flight-test time on modern aircraft development programs.
 
@@ -43,11 +49,17 @@ The Boeing 757 and 767 first flown in 1982 were the first commercial transport a
 
 The display-refresh rate required for aerospace cockpit applications is determined by the highest-bandwidth dynamic content the display must present. Attitude indicators must respond to aircraft angular rate changes at rates matching pilot perceptual bandwidth, giving display update rates of approximately
 
-$$f_{\text{display}} \gtrsim 30 \text{ Hz}$$
+$$
+f_{\text{display}} \gtrsim 30 \text{ Hz}
+\tag{3}
+$$
 
 with modern liquid-crystal displays typically operating at 60 Hertz or higher, well above the perceptual threshold. Latency from sensor measurement to display presentation must also be bounded to preserve the pilot's tight-loop control response. The total sensor-to-display latency budget
 
-$$T_{\text{sensor-display}} = T_{\text{sensor}} + T_{\text{bus}} + T_{\text{compute}} + T_{\text{graphics}} + T_{\text{display}}$$
+$$
+T_{\text{sensor-display}} = T_{\text{sensor}} + T_{\text{bus}} + T_{\text{compute}} + T_{\text{graphics}} + T_{\text{display}}
+\tag{4}
+$$
 
 typically must fit within approximately 50 to 100 milliseconds to avoid pilot-perceptible lag, with each contributing subsystem consuming approximately 10 to 30 milliseconds under realistic engineering budgets. The engineering discipline of low-latency graphics generation for aerospace displays became an extensive specialty within the broader aerospace software community and produced standards including ARINC 661 for cockpit-display definitions and several user-interface description standards adapted for aerospace-specific reliability, safety, and qualification requirements.
 
@@ -59,7 +71,10 @@ The value of software-defined radios in aerospace applications is that a single 
 
 The Nyquist-Shannon sampling theorem cited in [A241][related_post_a241_aerospace_simulation] bounds the analog-to-digital conversion rate that a software-defined radio must support to preserve the full information content of the radio-frequency signal. For a signal of bandwidth $B$ centered at radio frequency $f_c$, direct sampling requires
 
-$$f_{\text{sample}} \ge 2 f_c$$
+$$
+f_{\text{sample}} \ge 2 f_c
+\tag{5}
+$$
 
 which for typical aerospace radio-frequency bands from 30 megahertz to 30 gigahertz gives sample rates from 60 megasamples per second to 60 gigasamples per second, at the high end substantially exceeding contemporary analog-to-digital converter capability. Direct-conversion architectures address this by downconverting the radio-frequency signal to baseband before sampling, requiring only $2B$ rather than $2f_c$, at some cost in the engineering complexity of the analog downconversion stage.
 
@@ -69,7 +84,10 @@ Unmanned aerial vehicles are the case in which software substitution for onboard
 
 The engineering challenge that UAVs present is that the real-time judgment functions traditionally performed by an onboard pilot must be either delegated to a remote pilot connected through a data link or implemented autonomously by onboard software. Remote piloting introduces the latency and reliability constraints of the data-link path. The command-and-control link margin for a remote-piloted UAV must satisfy
 
-$$M_{\text{link}} = P_{\text{tx}} + G_{\text{tx}} + G_{\text{rx}} - L_{\text{path}} - P_{\text{rx,min}} \ge M_{\text{margin}}$$
+$$
+M_{\text{link}} = P_{\text{tx}} + G_{\text{tx}} + G_{\text{rx}} - L_{\text{path}} - P_{\text{rx,min}} \ge M_{\text{margin}}
+\tag{6}
+$$
 
 for transmit power $P_{\text{tx}}$ in decibels relative to one milliwatt, transmit and receive antenna gains $G_{\text{tx}}$ and $G_{\text{rx}}$, free-space path loss $L_{\text{path}}$, minimum receiver sensitivity $P_{\text{rx,min}}$, and required margin $M_{\text{margin}}$ typically 10 to 20 decibels to accommodate weather attenuation and other losses. Autonomous operation introduces the reliability constraints of the onboard software. Both approaches are used in contemporary UAV operations depending on the mission profile, with remote piloting dominating for high-value long-endurance surveillance and strike aircraft including the General Atomics MQ-1 Predator and MQ-9 Reaper and the Northrop Grumman RQ-4 Global Hawk, and autonomous operation dominating for consumer-recreational quadcopters and for defense applications including loitering munitions and swarm-capable systems.
 
@@ -81,15 +99,24 @@ Autonomous mission planning is the software function that generates an executabl
 
 The algorithmic techniques underlying autonomous mission planning include shortest-path graph algorithms including Dijkstra and A-star, sampling-based motion planning including rapidly-exploring random trees hereafter RRT and probabilistic roadmaps, and mixed-integer linear programming for higher-level assignment and sequencing problems. Each of these techniques has a primary source that established its foundational form. [Dijkstra 1959][research_dijkstra_1959] introduced the shortest-path algorithm that bears his name in Numerische Mathematik. [Hart et al. 1968][research_hart_nilsson_raphael_1968] introduced the A-star heuristic search algorithm in IEEE Transactions on Systems Science and Cybernetics. [LaValle 1998][research_lavalle_1998] introduced the rapidly-exploring random tree in a Computer Science Department technical report at Iowa State University that later became the standard reference for the technique. The computational complexity of these algorithms varies widely, with shortest-path algorithms scaling polynomially in the map size and mixed-integer programming scaling exponentially in the number of assignment decisions. For a map with $N$ waypoints, the worst-case complexity of Dijkstra's shortest-path algorithm is
 
-$$T_{\text{Dijkstra}}(N) = O(N^2)$$
+$$
+T_{\text{Dijkstra}}(N) = O(N^2)
+\tag{7}
+$$
 
 with the more efficient A-star variant, when implemented with a Fibonacci-heap priority queue and equipped with an admissible heuristic, achieving worst-case complexity bounded above by
 
-$$T_{\text{A-star}}(N, E) = O(E + N \log N)$$
+$$
+T_{\text{A-star}}(N, E) = O(E + N \log N)
+\tag{8}
+$$
 
 for a graph with $N$ nodes and $E$ edges, with the practical performance approaching linear in the path length when the heuristic closely estimates the true remaining cost. RRT motion planning is probabilistically complete, meaning that the probability of finding a feasible path in a configuration space of $n$ samples approaches unity as
 
-$$P_{\text{RRT}}(n) \to 1 \text{ as } n \to \infty$$
+$$
+P_{\text{RRT}}(n) \to 1 \text{ as } n \to \infty
+\tag{9}
+$$
 
 with convergence rate depending on the structure of the configuration space and the extension heuristic used. More sophisticated combinatorial optimization approaches for multi-vehicle assignment problems reach exponential worst-case complexity that requires heuristic pruning to remain tractable within onboard computational budgets.
 
@@ -101,7 +128,10 @@ The cumulative effect of the software substitutions treated in the preceding sec
 
 The growth trajectory of software fraction of aerospace platform function across the operational history of aviation follows approximately a logistic S-curve
 
-$$f_{\text{sw}}(t) \approx \frac{f_{\text{sat}}}{1 + e^{-r(t - t_{\text{mid}})}}$$
+$$
+f_{\text{sw}}(t) \approx \frac{f_{\text{sat}}}{1 + e^{-r(t - t_{\text{mid}})}}
+\tag{10}
+$$
 
 with saturation level $f_{\text{sat}}$ approaching but not reaching unity because certain aerospace functions including primary structure, engine thermodynamics, and aerodynamic surfaces necessarily remain physical rather than software artifacts, midpoint year $t_{\text{mid}}$ approximately 1995 to 2005 depending on the platform category, and growth-rate parameter $r$ of order 0.05 to 0.10 per year over the 1950 to 2050 window. The engineering, economic, and regulatory implications of software-mediated aerospace platforms remain a subject of active discussion in the industry and the contemporary snapshot article treats them at greater length.
 
@@ -126,6 +156,129 @@ The sixth axis is semiconductor economics and dual-use. Software-defined aerospa
 Software-defined aerospace and autonomy constitute the late-stage manifestation of the aerospace-computing coupling in which computing capability enables aerospace forms that were previously impossible. Fly-by-wire, glass cockpit displays, software-defined radios, unmanned aerial vehicles, and autonomous mission planning are each technical instances of the general pattern of software substitution for mechanical and hydraulic aerospace systems. The engineering discipline that safety-critical software required for these applications drove extensive development of the discipline itself, and the commercial computing capability that made the software implementations economically feasible reflected the broader trajectory of the computing industry that Silicon Valley and its equivalents produced. Contemporary aerospace platforms are greatly software-mediated systems whose mission capability is determined by software configuration rather than by hardware capability alone, and the trajectory of increasing software mediation continues into the developments that the contemporary snapshot article treats.
 
 The next article in the series takes the contemporary snapshot as of 2026, applies the series framework to the current state of the aerospace-computing co-development pair, treats current forcing pressures including machine learning integration and autonomous swarming, extrapolates forward across the 2026 to 2050 window, and treats competing extrapolation strategies as illustrative alternatives.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 10 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 10, 6 are established and 4 are bespoke.
+Link budget terms are in decibels with power referred to one milliwatt, frequencies are in hertz, latencies are in milliseconds, and the complexity bounds count elementary operations in the worst case.
+
+**Equation 1, Static Margin.**
+The static margin is the distance from the centre of gravity aft to the aerodynamic centre expressed as a fraction of the mean aerodynamic chord, positive for a statically stable aircraft.
+[Etkin 1996][book_etkin_dynamics_of_flight]
+
+$$
+K_n = \frac{x_{\text{ac}} - x_{\text{cg}}}{\bar{c}}
+\tag{1}
+$$
+
+*Equation 2, Bespoke First-Order Pitch-Rate Command Response.*
+The response of a pitch-rate command system is idealised as a first-order lag with a single gain and time constant, a simplification of the higher-order aircraft dynamics.
+
+$$
+G(s) = \frac{K}{\tau s + 1}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Minimum Display Update Rate.*
+The required update rate of a cockpit attitude display is set at about thirty hertz, a perceptual threshold that the article takes as representative.
+
+$$
+f_{\text{display}} \gtrsim 30 \text{ Hz}
+\tag{3}
+$$
+
+*Equation 4, Bespoke Sensor-to-Display Latency Budget.*
+The latency from sensor to display is budgeted as the sum of the delays of the sensor, the bus, computation, graphics generation and the display itself.
+
+$$
+T_{\text{sensor-display}} = T_{\text{sensor}} + T_{\text{bus}} + T_{\text{compute}} + T_{\text{graphics}} + T_{\text{display}}
+\tag{4}
+$$
+
+**Equation 5, Nyquist Rate for Direct Radio-Frequency Sampling.**
+Direct sampling of a radio-frequency signal must occur at no less than twice its frequency to preserve its information content.
+
+$$
+f_{\text{sample}} \ge 2 f_c
+\tag{5}
+$$
+
+**Equation 6, Radio Link Margin.**
+The link margin in decibels is the transmit power plus both antenna gains less the path loss and the receiver sensitivity, and it must exceed the required margin.
+
+$$
+M_{\text{link}} = P_{\text{tx}} + G_{\text{tx}} + G_{\text{rx}} - L_{\text{path}} - P_{\text{rx,min}} \ge M_{\text{margin}}
+\tag{6}
+$$
+
+**Equation 7, Worst-Case Complexity of Dijkstra's Algorithm.**
+Dijkstra's shortest-path algorithm with a simple array of tentative distances runs in time quadratic in the number of nodes.
+[Dijkstra 1959][research_dijkstra_1959]
+
+$$
+T_{\text{Dijkstra}}(N) = O(N^2)
+\tag{7}
+$$
+
+**Equation 8, Worst-Case Complexity of A-Star with a Fibonacci Heap.**
+Best-first search with a Fibonacci heap priority queue runs in time linear in the edges plus $N \log N$ in the nodes.
+
+$$
+T_{\text{A-star}}(N, E) = O(E + N \log N)
+\tag{8}
+$$
+
+**Equation 9, Probabilistic Completeness of Rapidly Exploring Random Trees.**
+The probability that a rapidly exploring random tree finds a feasible path, when one exists, approaches one as the number of samples grows without bound.
+[LaValle 1998][research_lavalle_1998]
+
+$$
+P_{\text{RRT}}(n) \to 1 \text{ as } n \to \infty
+\tag{9}
+$$
+
+*Equation 10, Bespoke Logistic Growth of the Software Fraction.*
+The software fraction of platform function is modelled as a logistic curve whose saturation level, midpoint year and growth rate the article estimates rather than fits.
+
+$$
+f_{\text{sw}}(t) \approx \frac{f_{\text{sat}}}{1 + e^{-r(t - t_{\text{mid}})}}
+\tag{10}
+$$
+
+### Notation
+
+- $K_n$, the static margin
+- $x_{\text{ac}}$, the position of the aerodynamic centre
+- $x_{\text{cg}}$, the position of the centre of gravity
+- $\bar{c}$, the mean aerodynamic chord
+- $G(s)$, the transfer function from stick displacement to pitch rate
+- $K$, the gain
+- $\tau$, the time constant
+- $s$, the Laplace transform variable
+- $f_{\text{display}}$, the display update rate
+- $T_{\text{sensor-display}}$, the total latency from sensor measurement to display presentation
+- $f_{\text{sample}}$, the sampling rate
+- $f_c$, the radio-frequency centre frequency
+- $M_{\text{link}}$, the link margin
+- $P_{\text{tx}}$, the transmit power in decibels relative to one milliwatt
+- $G_{\text{tx}}$, the transmit antenna gain
+- $G_{\text{rx}}$, the receive antenna gain
+- $L_{\text{path}}$, the free-space path loss
+- $P_{\text{rx,min}}$, the minimum receiver sensitivity
+- $M_{\text{margin}}$, the required margin, typically ten to twenty decibels
+- $N$, the number of waypoints or graph nodes
+- $E$, the number of graph edges
+- $P_{\text{RRT}}(n)$, the probability of finding a feasible path with $n$ samples
+- $f_{\text{sw}}(t)$, the software fraction of aerospace platform function at time $t$
+- $f_{\text{sat}}$, the saturation level of the software fraction
+- $r$, the growth-rate parameter
+- $t_{\text{mid}}$, the midpoint year
 
 ## References
 

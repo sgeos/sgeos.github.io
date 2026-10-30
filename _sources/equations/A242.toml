@@ -1,0 +1,127 @@
+# Equation classification for A242. Read by `python3 _lib/equations.py`.
+
+caution = "Velocities are in metres or kilometres per second as each equation states, the lunar gravitational parameter is in cubic metres per second squared, memory is counted in fifteen-bit data words without the parity bit, energy is in microjoules per instruction and the utilisation is a dimensionless fraction of machine capacity."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Lunar Orbit Insertion Velocity Change"
+gloss = "From the vis-viva relation, the burn at periapsis is the hyperbolic approach speed there less the periapsis speed of the target elliptical orbit."
+cite = []
+digest = "df4b083704d1c826"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Total Velocity Budget of a Lunar Mission"
+gloss = "The article sums the velocity changes of every mission phase into a total of fifteen to eighteen kilometres per second, a budget it states without a source."
+cite = []
+digest = "023dc06dd697d480"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The velocity change of a rocket is its effective exhaust velocity times the natural logarithm of the ratio of initial to final mass."
+cite = []
+digest = "a5582d6a78551971"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Klumpp Polynomial Descent Guidance"
+gloss = "The commanded acceleration is a polynomial in the time remaining, with vector coefficients fixed by the boundary conditions at the landing point, so it can be recomputed in closed form at each guidance cycle."
+cite = ["research_klumpp_1971"]
+digest = "fea165245b2cc19a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Instruction Rate of the Apollo Guidance Computer"
+gloss = "The reciprocal of the documented 11.7 microsecond cycle gives about eighty-five thousand instructions per second for the Apollo Guidance Computer."
+cite = []
+digest = "43741bd6a8301d20"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Memory Capacity in Data Bits"
+gloss = "The erasable and fixed memories together hold 38,912 words of fifteen data bits, about $5.8 \\times 10^{5}$ bits."
+cite = []
+digest = "c19d9b4d0bb4563b"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Energy per Instruction"
+gloss = "Dividing the fifty-five watts of electrical power by the instruction rate gives about six hundred and fifty microjoules per instruction."
+cite = []
+digest = "2177d67d9e67271c"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Executive Utilisation During the Apollo 11 Descent"
+gloss = "Adding the reported radar load to the nominal descent load and dividing by machine capacity gives a utilisation of about one, at the limit of the computer."
+cite = ["research_eyles_2004"]
+digest = "3be06aa3ad6a0d0c"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Lower Bound on Mean Time Between Failures"
+gloss = "Nine failure-free missions are multiplied by two hundred and fifty hours, the midpoint the article takes of a stated range of two hundred to three hundred hours, giving an empirical lower bound of about 2,250 hours."
+cite = []
+digest = "b907978a132f8188"
+
+[[symbol]]
+tex = 'v_\infty'
+meaning = "the hyperbolic excess speed on approach"
+
+[[symbol]]
+tex = '\mu_M'
+meaning = "the lunar gravitational parameter, about $4.9 \\times 10^{12}$ cubic metres per second squared"
+
+[[symbol]]
+tex = 'r_p'
+meaning = "the periapsis radius of the target orbit"
+
+[[symbol]]
+tex = 'r_a'
+meaning = "the apoapsis radius of the target orbit"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the effective exhaust velocity"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the initial mass"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the final mass"
+
+[[symbol]]
+tex = 't_{\text{go}}'
+meaning = "the time at which the descent reaches its target state"
+
+[[symbol]]
+tex = '\mathbf{c}_0'
+meaning = "the first of the vector coefficients fixed by the boundary conditions"
+
+[[symbol]]
+tex = 'T_{\text{cycle}}'
+meaning = "the instruction cycle time, 11.7 microseconds"
+
+[[symbol]]
+tex = 'r_{\text{AGC}}'
+meaning = "the instruction rate of the Apollo Guidance Computer"
+
+[[symbol]]
+tex = 'r_{\text{radar}}'
+meaning = "the additional executive load from the rendezvous radar feed"
+
+[[symbol]]
+tex = 'T_{\text{per mission}}'
+meaning = "the duration of one mission in hours"

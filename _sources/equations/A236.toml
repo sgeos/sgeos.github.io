@@ -1,0 +1,47 @@
+# Equation classification for A236. Read by `python3 _lib/equations.py`.
+
+caution = "Shares and per-capita ratios are fractions between zero and one, growth premia and decay rates are continuous annual rates, and the 2050 values are projections under rates the article assumes rather than forecasts from a fitted model."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Combined American and Chinese Share of World Output"
+gloss = "The combined American and Chinese share of world gross domestic product by nominal measures rose from about twenty-eight percent in 1990 to about forty-three percent in 2026."
+cite = []
+digest = "79859811957f94ee"
+
+[[symbol]]
+tex = 'S_{\text{USCN}}'
+meaning = "the combined American and Chinese share of world gross domestic product"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Projection of the Chinese Per-Capita Ratio to 2050"
+gloss = "The Chinese ratio against the United States is compounded forward over twenty-four years at a reduced premium of two to three percent per year, a range the article assumes in place of the reform-era premium."
+cite = []
+digest = "9cb2f9460a41ed6c"
+
+[[symbol]]
+tex = 'R_{\text{CH}}'
+meaning = "the ratio of Chinese to American per-capita output"
+
+[[symbol]]
+tex = '\Delta g_{\text{CH}}^{\text{proj}}'
+meaning = "the projected Chinese growth rate premium over the United States"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Projection of the Dollar Reserve Share to 2050"
+gloss = "The dollar share of world reserves is decayed exponentially from a fifty-eight percent baseline over twenty-four years at an assumed rate of eight to twelve thousandths per year, a range that extends the observed rate to allow for strategic decoupling."
+cite = ["related_post_first_mover_britain"]
+digest = "30238c14f79e39d6"
+
+[[symbol]]
+tex = 'D_{\text{dollar}}'
+meaning = "the share of world central-bank reserves held in dollars"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the decay rate of the dollar share"

@@ -41,7 +41,10 @@ The engineering value of the industrial park arrangement was that it colocated t
 
 The value of geographic clustering for high-technology industry can be analyzed through the agglomeration-economy framework introduced in economics by Alfred Marshall and later developed in [Krugman 1991][research_krugman_1991] as the modern increasing-returns economic-geography formulation. The benefits of geographic clustering include shared labor pools that reduce search cost for both employers and employees, shared supplier networks that reduce sourcing cost and lead time, and shared knowledge spillovers that reduce individual research and development cost. For a cluster of $N$ firms in an industry at a location, the total productive output relative to $N$ dispersed firms scales approximately as
 
-$$Y_{\text{cluster}}(N) \approx Y_1 \cdot N \cdot \left(1 + \beta \ln N\right)$$
+$$
+Y_{\text{cluster}}(N) \approx Y_1 \cdot N \cdot \left(1 + \beta \ln N\right)
+\tag{1}
+$$
 
 for a positive clustering coefficient $\beta$ that captures the magnitude of agglomeration benefits, empirically in the range 0.05 to 0.15 for high-technology clusters. The quantitative estimation of $\beta$ for Silicon Valley remains contested in the economic geography literature, but the qualitative existence of substantial clustering benefits is well established.
 
@@ -53,11 +56,17 @@ Shockley's management style proved untenable for the recruited team. In Septembe
 
 The list of companies founded by Fairchild alumni, later termed "Fairchildren" in the industry vocabulary, exceeds thirty and includes Intel founded in 1968 by Noyce and Moore with Andrew Grove, Advanced Micro Devices founded in 1969 by Jerry Sanders, National Semiconductor which was reoriented in 1967 under Charles Sporck, and dozens of others that populated the industry structure Silicon Valley developed. The network of personal relationships among Fairchild alumni, and the pattern of successive firm foundation that these relationships enabled, together constitute one of the most-studied cases of high-technology industrial cluster formation in the economic geography literature. The empirical rate of successor-firm formation from Fairchild follows approximately
 
-$$N_{\text{Fairchildren}}(t) \approx N_0 \cdot (1 - e^{-t/\tau})$$
+$$
+N_{\text{Fairchildren}}(t) \approx N_0 \cdot (1 - e^{-t/\tau})
+\tag{2}
+$$
 
 with time constant $\tau$ of approximately 10 to 15 years reflecting the dynamics of employee tenure at each successive firm before departure to found another. The cascade extends across multiple generations, with second-generation firms founded by former Fairchildren employees and third-generation firms founded by former second-generation employees. If each firm on average produces $k$ successor firms across its operational lifetime and successor formation propagates through $g$ generations, the total descendant count grows approximately as
 
-$$N_{\text{descendants}}(g) \approx N_0 \cdot \frac{k^g - 1}{k - 1}$$
+$$
+N_{\text{descendants}}(g) \approx N_0 \cdot \frac{k^g - 1}{k - 1}
+\tag{3}
+$$
 
 which for $k$ of order 1.5 to 3 and $g$ of order 3 to 5 generations gives descendant counts of order 100 to 1000 for the Fairchild lineage, consistent with the empirical scale of the Silicon Valley semiconductor and later commercial computing industry.
 
@@ -65,17 +74,26 @@ which for $k$ of order 1.5 to 3 and $g$ of order 3 to 5 generations gives descen
 
 The 1970s marked the transition point at which Silicon Valley shifted its primary market focus from defense procurement to commercial computing. Three developments drove this transition. First, the microprocessor technology that Intel introduced in 1971 with the Intel 4004 and extended through the Intel 8080 in 1974 and Intel 8086 in 1978, described in the primary retrospective by [Noyce and Hoff 1981][research_noyce_hoff_1981] authored by two of the Intel founders, opened commercial markets for computing that had not previously been served by dedicated defense procurement. Second, the personal computer wave that emerged from the Homebrew Computer Club and its associated small companies in the mid-1970s including Apple Computer founded by Steve Wozniak and Steve Jobs in 1976 established a consumer market that dwarfed defense procurement at scale within a decade. The personal computer unit-sales adoption curve followed approximately a logistic S-curve
 
-$$U_{\text{PC}}(t) \approx \frac{U_{\text{sat}}}{1 + e^{-r(t - t_{\text{mid}})}}$$
+$$
+U_{\text{PC}}(t) \approx \frac{U_{\text{sat}}}{1 + e^{-r(t - t_{\text{mid}})}}
+\tag{4}
+$$
 
 with saturation level $U_{\text{sat}}$ of order $10^8$ units per year in the developed world, midpoint year $t_{\text{mid}}$ approximately 1990 to 1995 depending on the product category, and growth-rate parameter $r$ of order 0.3 to 0.5 per year during the steepest adoption phase. Third, the venture capital industry that emerged in Silicon Valley in the 1960s and 1970s, initially funded by wealthy Fairchild alumni including Arthur Rock and Eugene Kleiner, provided the financing mechanism that commercial computing startups required.
 
 The institutional arrangement that made the venture capital model work was the limited-partnership fund structure that pooled contributions from institutional investors and family offices, invested in a diversified portfolio of early-stage technology companies, and distributed returns through equity exits by acquisition or public offering. The expected-value calculation that drove the venture capital model recognizes that most portfolio companies fail, some succeed modestly, and a few generate returns of 10 to 100 times initial investment that carry the entire portfolio. For a portfolio of $N$ investments each with success probability $p$ and successful return multiple $R$, the expected fund return relative to invested capital satisfies approximately
 
-$$E[R_{\text{fund}}] \approx p \cdot R + (1 - p) \cdot R_{\text{failure}}$$
+$$
+E[R_{\text{fund}}] \approx p \cdot R + (1 - p) \cdot R_{\text{failure}}
+\tag{5}
+$$
 
 with $R_{\text{failure}}$ close to zero and $p \cdot R$ approaching 3 to 10 for a well-selected venture portfolio. The distribution of individual-investment returns is empirically heavy-tailed and approximately Pareto-distributed, with
 
-$$P(R > r) \approx \left(\frac{r_{\min}}{r}\right)^\alpha$$
+$$
+P(R > r) \approx \left(\frac{r_{\min}}{r}\right)^\alpha
+\tag{6}
+$$
 
 for return multiple $r$ and shape parameter $\alpha$ in the range 1 to 2 for successful venture funds, which means the top few investments in a portfolio typically account for most of the total return and the median investment provides substantially less than the mean. This return structure is qualitatively different from that of traditional bank lending or corporate research and development investment, and the institutional adaptations that permit it including limited-partner-general-partner governance, ten-year fund lifecycles, and equity-based general-partner compensation were substantially pioneered in the Silicon Valley venture capital industry.
 
@@ -83,7 +101,10 @@ for return multiple $r$ and shape parameter $\alpha$ in the range 1 to 2 for suc
 
 The commercial transition of the 1970s reduced defense procurement's share of Silicon Valley revenue but did not eliminate the defense presence in the region. The defense-share trajectory over the 1960 to 2000 period followed approximately
 
-$$s_{\text{defense}}(t) \approx s_0 \cdot e^{-\lambda (t - t_0)}$$
+$$
+s_{\text{defense}}(t) \approx s_0 \cdot e^{-\lambda (t - t_0)}
+\tag{7}
+$$
 
 with initial defense share $s_0$ near unity in the early 1960s, decay rate $\lambda$ of order 0.05 to 0.10 per year through the 1970s and 1980s, and asymptotic defense share of order 5 to 15 percent by the 1990s. Lockheed Missiles and Space Company in Sunnyvale continued to be one of the largest employers in the region through the end of the Cold War and afterward through the Trident submarine-launched ballistic missile program treated in [A242][related_post_a242_apollo_guidance_computer]. NASA Ames Research Center in Mountain View, established in 1939 as part of the National Advisory Committee for Aeronautics and continued under NASA from 1958 onward, remained a substantial federal research presence with computing and aerospace research programs. The list of defense contractors with substantial Silicon Valley operations remained approximately constant across the 1970s and 1980s even as commercial computing companies grew around them.
 
@@ -110,6 +131,98 @@ The sixth axis is semiconductor economics and dual-use. Silicon Valley is the pa
 Silicon Valley emerged from the Cold War defense procurement patterns that Terman institutionalized at Stanford in the postwar decades. The Stanford Industrial Park, the university-industry cooperation model that Terman built, the defense contracts that funded the region's early growth, and the pattern of successor-firm formation from Shockley Semiconductor and Fairchild Semiconductor together produced the geographic and institutional structure that later dominated commercial computing. The commercial transition of the 1970s converted the defense-funded manufacturing base and personnel networks into the industrial structure that produced the personal computer, workstation, and internet-era companies. The residual defense presence never disappeared and has grown substantially in the 2010s and 2020s through defense-technology firms that draw on the same institutional patterns that produced the region in the first place.
 
 The next article in the series treats software-defined aerospace and autonomy, including fly-by-wire, glass cockpits, software-defined radios, unmanned aerial vehicles, autonomous mission planning, and the shift from mechanical and hydraulic aerospace systems to software-mediated systems across the 1980s through 2020s.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 7 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 7, 1 are established and 6 are bespoke.
+Time is in years, firm counts and return multiples are dimensionless, and every parameter range quoted beside these curves is an order of magnitude estimate rather than a fitted value.
+
+*Equation 1, Bespoke Logarithmic Agglomeration Output.*
+Cluster output is modelled as the output of $N$ dispersed firms raised by a factor that grows with the logarithm of the firm count, with a clustering coefficient of five to fifteen hundredths that the article takes as representative.
+
+$$
+Y_{\text{cluster}}(N) \approx Y_1 \cdot N \cdot \left(1 + \beta \ln N\right)
+\tag{1}
+$$
+
+*Equation 2, Bespoke Saturating Formation of Fairchild Successor Firms.*
+The cumulative count of firms founded by Fairchild alumni is modelled as approaching a ceiling exponentially, with a time constant of ten to fifteen years that the article assumes.
+
+$$
+N_{\text{Fairchildren}}(t) \approx N_0 \cdot (1 - e^{-t/\tau})
+\tag{2}
+$$
+
+*Equation 3, Bespoke Geometric Branching of Firm Descendants.*
+Each firm is assumed to found the same mean number of successors in every generation, so the descendant count follows a geometric series.
+
+$$
+N_{\text{descendants}}(g) \approx N_0 \cdot \frac{k^g - 1}{k - 1}
+\tag{3}
+$$
+
+*Equation 4, Bespoke Logistic Curve of Personal Computer Sales.*
+Annual personal computer sales are modelled as a logistic curve whose saturation level, midpoint year and growth rate the article estimates rather than fits.
+
+$$
+U_{\text{PC}}(t) \approx \frac{U_{\text{sat}}}{1 + e^{-r(t - t_{\text{mid}})}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Two-Outcome Expected Fund Return.*
+Each investment is assumed either to succeed with a single return multiple or to fail, which reduces the expected fund return to a probability-weighted sum of two outcomes.
+
+$$
+E[R_{\text{fund}}] \approx p \cdot R + (1 - p) \cdot R_{\text{failure}}
+\tag{5}
+$$
+
+**Equation 6, Pareto Tail of Venture Returns.**
+The probability that a return multiple exceeds $r$ is the survival function of a Pareto distribution, which decays as a power of $r$.
+
+$$
+P(R > r) \approx \left(\frac{r_{\min}}{r}\right)^\alpha
+\tag{6}
+$$
+
+*Equation 7, Bespoke Exponential Decline of the Defence Share.*
+The defence share of regional revenue is modelled as decaying exponentially from near unity at a rate of five to ten hundredths per year that the article assumes.
+
+$$
+s_{\text{defense}}(t) \approx s_0 \cdot e^{-\lambda (t - t_0)}
+\tag{7}
+$$
+
+### Notation
+
+- $Y_{\text{cluster}}(N)$, the total output of a cluster of $N$ firms
+- $Y_1$, the output of one dispersed firm
+- $\beta$, the clustering coefficient
+- $N_{\text{Fairchildren}}(t)$, the cumulative number of successor firms at time $t$
+- $N_0$, the asymptotic count of successor firms, or the founding firms at the root of the lineage in Equation 3
+- $\tau$, the time constant of successor formation
+- $N_{\text{descendants}}(g)$, the total descendant firms after $g$ generations
+- $k$, the mean number of successor firms per firm
+- $g$, the number of generations
+- $U_{\text{PC}}(t)$, the personal computer unit sales per year at time $t$
+- $U_{\text{sat}}$, the saturation level of annual sales
+- $r$, the growth-rate parameter
+- $t_{\text{mid}}$, the midpoint year
+- $E[R_{\text{fund}}]$, the expected fund return relative to invested capital
+- $p$, the probability that an investment succeeds
+- $R$, the return multiple of a successful investment, and in Equation 6 the return multiple of an investment as a random variable
+- $R_{\text{failure}}$, the return multiple of a failed investment
+- $r_{\min}$, the minimum return multiple of the distribution
+- $\alpha$, the Pareto shape parameter
+- $s_{\text{defense}}(t)$, the defence share of Silicon Valley revenue at time $t$
+- $s_0$, the initial defence share
+- $\lambda$, the decay rate per year
 
 ## References
 

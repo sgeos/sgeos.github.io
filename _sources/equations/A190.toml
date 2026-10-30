@@ -1,0 +1,103 @@
+# Equation classification for A190, Turbo Pascal as a closed-source demonstration. Read by `python3 _lib/equations.py`.
+
+caution = "Sizes are in bytes, with one kilobyte taken as 1024 bytes only in the segment size, and the cycle budgets divide a clock rate in cycles per second by a throughput in source lines per second, so every result is an order-of-magnitude estimate rather than a benchmark."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Size Ratio of a Modern Compiler to Turbo Pascal 3.0"
+gloss = "The ratio takes fifty megabytes as a representative size for a modern compiler front end, a value the article assumes, against the thirty-nine kilobyte Turbo Pascal 3.0 executable, giving a gap of about three orders of magnitude."
+cite = []
+digest = "ebf96c794a82f35e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Cycle Budget per Line at the Low Reported Throughput"
+gloss = "The clock rate of the Intel 8088 divided by the reported low-end throughput of ten thousand lines per second gives four hundred and seventy-seven cycles per line."
+cite = []
+digest = "9ebbbd813cfd57ee"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Cycle Budget per Line at the High Reported Throughput"
+gloss = "The clock rate of the Intel 8088 divided by the reported high-end throughput of thirty thousand lines per second gives about one hundred and fifty-nine cycles per line."
+cite = []
+digest = "2999268b33554ff7"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Memory Writes per Source Line"
+gloss = "The high-end cycle budget is divided by seventeen cycles per write, a representative value the article takes from a range of fifteen to twenty cycles, to bound the memory writes per line at about nine."
+cite = []
+digest = "4f3f59127e6cc753"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Size of an 8086 Family Memory Segment"
+gloss = "A sixteen-bit offset addresses two to the sixteenth bytes, so one segment holds sixty-five thousand five hundred and thirty-six bytes."
+cite = []
+digest = "fc13306064632c69"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Abstract Syntax Tree Node Capacity of a Segment"
+gloss = "The article assumes that code, output buffer, symbol table and tree nodes share a single segment, so the node count is bounded by the remaining bytes divided by the average node size."
+cite = []
+digest = "fcb376268011f5c4"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Node Capacity for a Turbo Pascal 3 Build"
+gloss = "Order-of-magnitude estimates the article assumes for the code, output, symbol table and a sixteen-byte node give a cap of about eighteen hundred abstract syntax tree nodes."
+cite = []
+digest = "ed56850aa165a6c7"
+
+[[symbol]]
+tex = 'S_{\text{modern compiler}}'
+meaning = "the binary size of a modern compiler front end"
+
+[[symbol]]
+tex = 'S_{\text{TP 3.0 executable}}'
+meaning = "the binary size of the Turbo Pascal 3.0 executable"
+
+[[symbol]]
+tex = 'W_{\text{per line}}'
+meaning = "the memory writes that fit in one line's compilation budget"
+
+[[symbol]]
+tex = 'C_{\text{per line}}'
+meaning = "the cycle budget per source line"
+
+[[symbol]]
+tex = 'C_{\text{per write}}'
+meaning = "the cycles one memory write costs"
+
+[[symbol]]
+tex = 'S_{\text{segment}}'
+meaning = "the size of one memory segment"
+
+[[symbol]]
+tex = 'S_{\text{code}}'
+meaning = "the compiler code size"
+
+[[symbol]]
+tex = 'S_{\text{output}}'
+meaning = "the emitted-output buffer"
+
+[[symbol]]
+tex = 'S_{\text{symtab}}'
+meaning = "the symbol-table budget"
+
+[[symbol]]
+tex = 'S_{\text{node}}'
+meaning = "the average abstract syntax tree node size"
+
+[[symbol]]
+tex = 'N_{\text{AST}}'
+meaning = "the maximum number of abstract syntax tree nodes that fit in the segment"

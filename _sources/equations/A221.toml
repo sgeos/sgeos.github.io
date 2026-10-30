@@ -1,0 +1,67 @@
+# Equation classification for A221. Read by `python3 _lib/equations.py`.
+
+caution = "Reactions are written as balanced net equations in moles for representative fuel compositions, every mixture ratio is a ratio of masses, and the regression rate coefficient carries units fixed by the units chosen for regression rate and oxidiser mass flux."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Marxman Regression Rate Law"
+gloss = "The classical correlation of Marxman and Gilbert gives the fuel regression rate as a power of the oxidiser mass flux through the port, with no leading-order dependence on chamber pressure."
+cite = []
+digest = "b73b29c10bc69a91"
+
+[[symbol]]
+tex = '\dot{r}'
+meaning = "the fuel surface regression rate"
+
+[[symbol]]
+tex = 'a'
+meaning = "the regression rate coefficient, tabulated for a fuel and oxidiser combination"
+
+[[symbol]]
+tex = 'G_{ox}'
+meaning = "the oxidiser mass flux through the fuel perforation in kilograms per square metre per second"
+
+[[symbol]]
+tex = 'n'
+meaning = "the dimensionless mass flux exponent"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Stoichiometric Combustion of Butadiene with Oxygen"
+gloss = "The butadiene repeat unit that represents hydroxyl-terminated polybutadiene burns with oxygen to carbon dioxide and water."
+cite = []
+digest = "ad33868ff44d2c37"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Stoichiometric Combustion of Paraffin with Oxygen"
+gloss = "Paraffin wax represented by the composition of dotriacontane burns with oxygen to carbon dioxide and water at a stoichiometric mixture ratio of about three and four tenths to one by mass."
+cite = []
+digest = "1f0732f54ae12791"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Decomposition of Nitrous Oxide"
+gloss = "Nitrous oxide decomposes exothermically to nitrogen and oxygen above about eight hundred and fifty kelvin, the monopropellant behaviour that makes it a tank hazard."
+cite = []
+digest = "44c4f1e7769d142a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Stoichiometric Combustion of Butadiene with Nitrous Oxide"
+gloss = "The butadiene repeat unit burns with the oxygen released by nitrous oxide, and the nitrogen passes through as inert diluent."
+cite = []
+digest = "e371bc041915cb53"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Stoichiometric Combustion of Paraffin with Nitrous Oxide"
+gloss = "Representative paraffin burns with nitrous oxide to carbon dioxide and water, with the nitrogen carried through as inert ballast that lowers the chamber temperature."
+cite = []
+digest = "0b42a9ee49e03fc6"

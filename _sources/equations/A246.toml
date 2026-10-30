@@ -1,0 +1,147 @@
+# Equation classification for A246. Read by `python3 _lib/equations.py`.
+
+caution = "Time is in years, firm counts and return multiples are dimensionless, and every parameter range quoted beside these curves is an order of magnitude estimate rather than a fitted value."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Logarithmic Agglomeration Output"
+gloss = "Cluster output is modelled as the output of $N$ dispersed firms raised by a factor that grows with the logarithm of the firm count, with a clustering coefficient of five to fifteen hundredths that the article takes as representative."
+cite = []
+digest = "fb3572feeb46af82"
+
+[[symbol]]
+tex = 'Y_{\text{cluster}}(N)'
+meaning = "the total output of a cluster of $N$ firms"
+
+[[symbol]]
+tex = 'Y_1'
+meaning = "the output of one dispersed firm"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the clustering coefficient"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Saturating Formation of Fairchild Successor Firms"
+gloss = "The cumulative count of firms founded by Fairchild alumni is modelled as approaching a ceiling exponentially, with a time constant of ten to fifteen years that the article assumes."
+cite = []
+digest = "c42a941aab925de4"
+
+[[symbol]]
+tex = 'N_{\text{Fairchildren}}(t)'
+meaning = "the cumulative number of successor firms at time $t$"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the asymptotic count of successor firms, or the founding firms at the root of the lineage in Equation 3"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the time constant of successor formation"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Geometric Branching of Firm Descendants"
+gloss = "Each firm is assumed to found the same mean number of successors in every generation, so the descendant count follows a geometric series."
+cite = []
+digest = "e1789343b251cef9"
+
+[[symbol]]
+tex = 'N_{\text{descendants}}(g)'
+meaning = "the total descendant firms after $g$ generations"
+
+[[symbol]]
+tex = 'k'
+meaning = "the mean number of successor firms per firm"
+
+[[symbol]]
+tex = 'g'
+meaning = "the number of generations"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Logistic Curve of Personal Computer Sales"
+gloss = "Annual personal computer sales are modelled as a logistic curve whose saturation level, midpoint year and growth rate the article estimates rather than fits."
+cite = []
+digest = "54362458471d351c"
+
+[[symbol]]
+tex = 'U_{\text{PC}}(t)'
+meaning = "the personal computer unit sales per year at time $t$"
+
+[[symbol]]
+tex = 'U_{\text{sat}}'
+meaning = "the saturation level of annual sales"
+
+[[symbol]]
+tex = 'r'
+meaning = "the growth-rate parameter"
+
+[[symbol]]
+tex = 't_{\text{mid}}'
+meaning = "the midpoint year"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Two-Outcome Expected Fund Return"
+gloss = "Each investment is assumed either to succeed with a single return multiple or to fail, which reduces the expected fund return to a probability-weighted sum of two outcomes."
+cite = []
+digest = "55654189ba41932f"
+
+[[symbol]]
+tex = 'E[R_{\text{fund}}]'
+meaning = "the expected fund return relative to invested capital"
+
+[[symbol]]
+tex = 'p'
+meaning = "the probability that an investment succeeds"
+
+[[symbol]]
+tex = 'R'
+meaning = "the return multiple of a successful investment, and in Equation 6 the return multiple of an investment as a random variable"
+
+[[symbol]]
+tex = 'R_{\text{failure}}'
+meaning = "the return multiple of a failed investment"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Pareto Tail of Venture Returns"
+gloss = "The probability that a return multiple exceeds $r$ is the survival function of a Pareto distribution, which decays as a power of $r$."
+cite = []
+digest = "7fd4465a883cacd5"
+
+[[symbol]]
+tex = 'r_{\min}'
+meaning = "the minimum return multiple of the distribution"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the Pareto shape parameter"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Exponential Decline of the Defence Share"
+gloss = "The defence share of regional revenue is modelled as decaying exponentially from near unity at a rate of five to ten hundredths per year that the article assumes."
+cite = []
+digest = "3c536d69cbfe5b9f"
+
+[[symbol]]
+tex = 's_{\text{defense}}(t)'
+meaning = "the defence share of Silicon Valley revenue at time $t$"
+
+[[symbol]]
+tex = 's_0'
+meaning = "the initial defence share"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the decay rate per year"

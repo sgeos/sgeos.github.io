@@ -1,0 +1,87 @@
+# Equation classification for A228. Read by `python3 _lib/equations.py`.
+
+caution = "Growth rates are continuous annual rates written as fractions, so a percentage in the prose is that fraction times one hundred, and aggregate output is the product of population and per-capita output rather than a separately measured quantity."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Aggregate Output Ratio as Population Ratio times Per-Capita Ratio"
+gloss = "Because aggregate output is population times per-capita output, the American to British aggregate ratio factors exactly into a population ratio and a per-capita output ratio."
+cite = []
+digest = "77c0614ed158be46"
+
+[[symbol]]
+tex = 'N_{\text{US}}(t)'
+meaning = "the population of the United States"
+
+[[symbol]]
+tex = 'N_{\text{UK}}(t)'
+meaning = "the population of Britain"
+
+[[symbol]]
+tex = 'Y_{\text{pc,US}}(t)'
+meaning = "American per-capita output"
+
+[[symbol]]
+tex = 'Y_{\text{pc,UK}}(t)'
+meaning = "British per-capita output"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Population Growth from Natural Increase and Net Migration"
+gloss = "The proportional growth rate of population is the birth rate less the death rate plus the net immigration rate."
+cite = []
+digest = "5a0d45572f9e164d"
+
+[[symbol]]
+tex = 'N'
+meaning = "population"
+
+[[symbol]]
+tex = 'b'
+meaning = "the birth rate"
+
+[[symbol]]
+tex = 'd'
+meaning = "the death rate"
+
+[[symbol]]
+tex = 'm(t)'
+meaning = "the net immigration rate"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Exponential Approach of the Dollar Reserve Share"
+gloss = "The article describes the rise of the dollar share of world central-bank reserves as an exponential approach to an asymptotic level, a functional form chosen to mirror the sterling decay rather than fitted to a stated series."
+cite = []
+digest = "41d45bdd550fb6a7"
+
+[[symbol]]
+tex = 'D_{\text{dollar}}(t)'
+meaning = "the share of world central-bank reserves held in dollars"
+
+[[symbol]]
+tex = 'D_{\infty}'
+meaning = "the asymptotic dollar share"
+
+[[symbol]]
+tex = 'D_0'
+meaning = "the initial dollar share"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the succession rate"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Continuous Decline Rate of American Manufacturing Employment"
+gloss = "The fall from about twenty million manufacturing workers in 1979 to about twelve million in 2020 corresponds to a continuous decline of about one and a quarter percent per year."
+cite = []
+digest = "b92d86a7f892bbeb"
+
+[[symbol]]
+tex = 'g_{\text{manuf}}'
+meaning = "the continuous growth rate of manufacturing employment, negative for a decline"

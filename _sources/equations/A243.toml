@@ -1,0 +1,167 @@
+# Equation classification for A243. Read by `python3 _lib/equations.py`.
+
+caution = "Rates are in bits per second and times in seconds unless the text states milliseconds, and the growth time constant $\\tau$ is an e-folding time rather than a doubling time, so it is shorter than the corresponding doubling time by a factor of about $0.69$."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Shared Link Capacity for Multiplexed Bursty Sources"
+gloss = "The shared capacity is the aggregate mean rate plus a margin of $k$ standard deviations under a central limit approximation to independent sources, with a safety factor of three to five that the article assumes."
+cite = []
+digest = "3e24af929ee9df79"
+
+[[symbol]]
+tex = 'B_{\text{shared}}'
+meaning = "the capacity of the shared link"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of independent bursty sources, or of connected users in Equation 6"
+
+[[symbol]]
+tex = 'r_m'
+meaning = "the mean transmission rate of a source"
+
+[[symbol]]
+tex = 'r_p'
+meaning = "the peak transmission rate of a source"
+
+[[symbol]]
+tex = 'k'
+meaning = "the safety factor of order three to five"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Store-and-Forward End-to-End Latency"
+gloss = "Each hop of a store-and-forward path adds the transmission time of one packet and the processing time of one switch, and the propagation delay of the whole path is added once."
+cite = []
+digest = "0192f4abf36aca52"
+
+[[symbol]]
+tex = 'N_{\text{hops}}'
+meaning = "the number of Interface Message Processor hops on the path"
+
+[[symbol]]
+tex = 'L_{\text{packet}}'
+meaning = "the packet size"
+
+[[symbol]]
+tex = 'B_{\text{link}}'
+meaning = "the link bandwidth"
+
+[[symbol]]
+tex = 'T_{\text{proc}}'
+meaning = "the processing time per Interface Message Processor"
+
+[[symbol]]
+tex = 'T_{\text{propagation}}'
+meaning = "the total propagation delay over the leased lines"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Exponential Growth of ARPANET Nodes"
+gloss = "The node count of the Advanced Research Projects Agency Network is modelled as a pure exponential with a time constant of fifteen to eighteen months that the article fits to its own milestone counts."
+cite = []
+digest = "f86ef6a8023d5f3a"
+
+[[symbol]]
+tex = 'N_{\text{nodes}}(t)'
+meaning = "the number of network nodes at time $t$"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the initial node count"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the e-folding time constant of growth"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Sliding Window Throughput Bound"
+gloss = "A sliding window protocol can have at most one window of unacknowledged data in flight per round trip, so the throughput of a connection is bounded by the window size divided by the round-trip time."
+cite = []
+digest = "b9f55de982171641"
+
+[[symbol]]
+tex = 'W'
+meaning = "the window size"
+
+[[symbol]]
+tex = 'T_{\text{RTT}}'
+meaning = "the round-trip time"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Jacobson Retransmission Timeout Estimator"
+gloss = "The retransmission timeout is the smoothed mean round-trip time plus four times its smoothed deviation, both maintained as exponentially weighted moving averages."
+cite = ["research_jacobson_1988"]
+digest = "deacc28208cfef38"
+
+[[symbol]]
+tex = 'T_{\text{RTO}}'
+meaning = "the retransmission timeout"
+
+[[symbol]]
+tex = '\bar{T}_{\text{RTT}}'
+meaning = "the smoothed mean of observed round-trip times"
+
+[[symbol]]
+tex = '\sigma_{\text{RTT}}'
+meaning = "the smoothed deviation of observed round-trip times"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Metcalfe Network Value"
+gloss = "Counting every pair of connected users as one potential link of equal value gives a network value proportional to the number of pairs, which grows as the square of the user count."
+cite = []
+digest = "0a34e91883cb8339"
+
+[[symbol]]
+tex = 'V_{\text{network}}'
+meaning = "the value of the network to its users"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Availability of Links in Series"
+gloss = "A path that fails when any one of its independently failing links fails has an availability equal to the product of the link availabilities."
+cite = []
+digest = "bc6af7e4d281c0f0"
+
+[[symbol]]
+tex = 'R_{\text{path}}'
+meaning = "the availability of a single physical path"
+
+[[symbol]]
+tex = 'R_{\text{link}}'
+meaning = "the availability of one link"
+
+[[symbol]]
+tex = 'N_{\text{links}}'
+meaning = "the number of links on the path"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Little's Law for Queue Occupancy"
+gloss = "In steady state the mean number of packets in a queue equals the arrival rate multiplied by the mean time a packet spends waiting."
+cite = []
+digest = "325031242a44407e"
+
+[[symbol]]
+tex = 'L_{\text{queue}}'
+meaning = "the mean number of packets in the queue"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the packet arrival rate"
+
+[[symbol]]
+tex = 'T_{\text{wait}}'
+meaning = "the mean waiting time"

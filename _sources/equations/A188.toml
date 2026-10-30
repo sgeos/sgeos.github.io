@@ -1,0 +1,63 @@
+# Equation classification for A188, compilation as a streaming discipline. Read by `python3 _lib/equations.py`.
+
+caution = "Memory bounds are asymptotic statements in the source-file byte length and say nothing about constant factors, while the cycle budget is a ratio of a clock rate in cycles per second to a throughput in source lines per second."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Productivity of a Stream Processor"
+gloss = "A stream processor is productive in the coinductive sense when a monotone function bounds how much input any finite prefix of output depends on, so every finite input prefix fixes some finite output prefix."
+cite = ["research_abel_pientka_copatterns"]
+digest = "40b92d8f038b13e0"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Working Memory of a Multi-Pass Compiler"
+gloss = "A compiler that materialises a whole-program abstract syntax tree holds a representation of every part of the source, so its working memory grows linearly with the program size."
+cite = []
+digest = "046be1957a7e8026"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Working Memory Bound of a Stream-Processor Compiler"
+gloss = "The article models a stream-processor compiler as holding no whole-program representation, so its memory is bounded by the largest single declaration plus a fixed total of inter-stage buffers."
+cite = []
+digest = "cf23b0c147ea0c0d"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Turbo Pascal Cycle Budget per Source Line"
+gloss = "The clock rate of the Intel 8088 is divided by the reported upper-end throughput of thirty thousand lines per second, giving about one hundred and fifty-nine cycles per line."
+cite = []
+digest = "24ca768ccad9a4a8"
+
+[[symbol]]
+tex = 'm'
+meaning = "a monotone non-decreasing function giving the output prefix length determined by an input prefix"
+
+[[symbol]]
+tex = 'a'
+meaning = "the input stream"
+
+[[symbol]]
+tex = 'M_{\text{multi-pass}}(P)'
+meaning = "the working memory of a multi-pass compiler on program $P$"
+
+[[symbol]]
+tex = 'M_{\text{stream}}(P)'
+meaning = "the working memory of a stream-processor compiler on program $P$"
+
+[[symbol]]
+tex = '\lvert P \rvert'
+meaning = "the source-file byte length of program $P$"
+
+[[symbol]]
+tex = 'D(P)'
+meaning = "the maximum size of any single declaration in $P$"
+
+[[symbol]]
+tex = 'B'
+meaning = "the sum of the fixed-size inter-stage buffers"

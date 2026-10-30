@@ -1,0 +1,39 @@
+# Equation classification for A234. Read by `python3 _lib/equations.py`.
+
+caution = "Per-capita ratios are fractions of the American level at the same date, and growth premia are continuous annual rates written as percentages that measure the average excess over American growth rather than an absolute growth rate."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Indian Per-Capita Ratio against the United States"
+gloss = "Indian per-capita output rose from about three percent of the American level in 1980 to about five percent in 2000 and about ten percent in 2024."
+cite = []
+digest = "fcfeb38294c44ef3"
+
+[[symbol]]
+tex = 'R_{\text{IN}}'
+meaning = "the ratio of Indian to American per-capita output"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Indian Growth Rate Premium from 1980 to 2024"
+gloss = "The rearranged catch-up relation gives the average premium over American growth implied by the rise in the Indian ratio across forty-four years, about two and seven tenths percent per year."
+cite = []
+digest = "1d0689fe1fe225db"
+
+[[symbol]]
+tex = '\Delta g_{\text{IN}}'
+meaning = "the Indian per-capita growth rate premium over the United States"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Vietnamese Growth Rate Premium from 1986 to 2024"
+gloss = "The rearranged catch-up relation gives the average premium over American growth implied by an elevenfold rise in the Vietnamese ratio across thirty-eight years, about six and three tenths percent per year."
+cite = []
+digest = "552b68b241f387ef"
+
+[[symbol]]
+tex = '\Delta g_{\text{VN}}'
+meaning = "the Vietnamese per-capita growth rate premium over the United States"

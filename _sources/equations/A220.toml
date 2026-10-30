@@ -1,0 +1,51 @@
+# Equation classification for A220. Read by `python3 _lib/equations.py`.
+
+caution = "Reactions are written as balanced net equations in moles while every mixture ratio is a ratio of masses, and the bipropellant equations are stoichiometric although the engines described run fuel-rich of them."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Stoichiometric Combustion of Monomethylhydrazine with Nitrogen Tetroxide"
+gloss = "Monomethylhydrazine burns with nitrogen tetroxide to water, carbon dioxide and nitrogen at a stoichiometric mixture ratio of about two and a half to one by mass."
+cite = []
+digest = "24bb66a9f2ec48cc"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Stoichiometric Combustion of Unsymmetrical Dimethylhydrazine with Nitrogen Tetroxide"
+gloss = "Unsymmetrical dimethylhydrazine burns with nitrogen tetroxide to carbon dioxide, water and nitrogen at a stoichiometric mixture ratio of about three to one by mass."
+cite = []
+digest = "4cb6482e9506ca50"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Stoichiometric Combustion of Kerosene with Nitric Acid"
+gloss = "Kerosene represented by the composition of dodecane burns with the nitric acid component of inhibited red fuming nitric acid, neglecting the dissolved nitrogen tetroxide, water and hydrogen fluoride."
+cite = []
+digest = "950e66feadbf36af"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Exothermic Decomposition of Hydrazine to Ammonia"
+gloss = "Over a catalyst hydrazine decomposes exothermically to ammonia and nitrogen, releasing the heat that sustains the monopropellant reaction."
+cite = []
+digest = "25bb9dcd97c410ab"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Endothermic Dissociation of Ammonia"
+gloss = "The ammonia produced then dissociates endothermically to nitrogen and hydrogen, and the extent of this reaction sets the exhaust composition and the delivered specific impulse."
+cite = []
+digest = "9843ad2458df2c56"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Decomposition of Hydrogen Peroxide"
+gloss = "Concentrated hydrogen peroxide decomposes catalytically and exothermically to water and oxygen."
+cite = []
+digest = "c0c9b4bf0b382356"

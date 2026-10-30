@@ -1,0 +1,55 @@
+# Equation classification for A233. Read by `python3 _lib/equations.py`.
+
+caution = "Shares and per-capita ratios are fractions between zero and one, the per-capita ratio is taken against the United States, and growth premia are continuous annual rates written as percentages."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Chinese Share of World Manufacturing Output"
+gloss = "The Chinese share of world manufacturing output rose from about seven percent in 2001 to about thirty percent in 2020."
+cite = []
+digest = "335f260b0d12f42b"
+
+[[symbol]]
+tex = 'S_{\text{CH}}'
+meaning = "the Chinese share of world manufacturing output"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Chinese Per-Capita Ratio against the United States"
+gloss = "Chinese per-capita output rose from about two percent of the American level in 1980 to about eight percent in 2000 and about twenty percent in 2024."
+cite = []
+digest = "efb49ad4c2bb6223"
+
+[[symbol]]
+tex = 'R_{\text{CH}}'
+meaning = "the ratio of Chinese to American per-capita output"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Chinese Growth Rate Premium from 1980 to 2024"
+gloss = "The rearranged catch-up relation gives the average premium over American growth implied by a tenfold rise in the Chinese ratio across forty-four years, about five and two tenths percent per year."
+cite = ["related_post_industrialization_framing"]
+digest = "4ef2e5afac9babdd"
+
+[[symbol]]
+tex = '\Delta g_{\text{CH}}'
+meaning = "the Chinese per-capita growth rate premium over the United States"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Chinese Investment Share of Output"
+gloss = "Chinese aggregate investment was sustained at about forty to forty-five percent of gross domestic product across the peak decades."
+cite = []
+digest = "c74fda5cecd30e56"
+
+[[symbol]]
+tex = 'I'
+meaning = "aggregate investment"
+
+[[symbol]]
+tex = 'Y'
+meaning = "aggregate output"

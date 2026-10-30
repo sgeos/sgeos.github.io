@@ -59,6 +59,7 @@ The mechanism is the Malthusian population response. Let $Y$ denote aggregate ou
 
 $$
 \frac{d Y_{\text{pc}}}{dt} \approx 0 \quad \text{on time scales longer than one generation}
+\tag{1}
 $$
 
 which places the long-run limit on preindustrial productivity gains.
@@ -67,6 +68,7 @@ The dynamic that enforces the equilibrium is a population response to real wages
 
 $$
 \frac{dN}{dt} = k \cdot (w - w^*) \cdot N
+\tag{2}
 $$
 
 with $k > 0$ producing the negative feedback that keeps $w$ in a neighborhood of $w^\*$ across centuries. Sustained productivity gains push $w$ above $w^\*$ briefly, triggering population growth, until the additional population brings $w$ back to $w^\*$. The equilibrium is unstable to positive productivity shocks only over the transient period before the demographic response completes. The gain accrues as more people at the same standard of living, not as higher living standards for the same number of people. Gregory Clark's [Farewell to Alms][book_clark_farewell_to_alms] documents the mechanism at high resolution for preindustrial England and finds it consistent with historical wage and demographic series.
@@ -81,6 +83,7 @@ The organic economy has a hard energy ceiling. Let $E_{\text{pc}}$ denote per-ca
 
 $$
 E_{\text{pc}} \leq \eta \cdot I_{\text{solar}} \cdot \frac{A_{\text{land}}}{N}
+\tag{3}
 $$
 
 which for the most productive preindustrial economies in the temperate zones peaks around ten to fifteen gigajoules per capita per year. The industrial economies of the twenty-first century consume between fifty and three hundred gigajoules per capita per year, five to thirty times the organic ceiling. The reason is that industrial economies draw on fossil energy, which is photosynthesis of the geological past monetized in the geological present, and later on nuclear and modern renewable sources that operate outside the organic economy entirely.
@@ -93,6 +96,7 @@ The organic ceiling constrained state capacity through the intermediate variable
 
 $$
 T \leq \phi \cdot \tau_{\max} \cdot Y_{\text{ag}}
+\tag{4}
 $$
 
 with $\phi$ typically well below unity outside the immediate hinterland of the political capital. In practice preindustrial states extracted between five and fifteen percent of gross agricultural output as revenue, with the top of the range achieved by the most efficient bureaucratic states such as late Ming and Qing China and the Ottoman Empire at its peak. Modern industrial states routinely extract twenty to fifty percent of gross domestic product. The gap is a full order of magnitude in absolute terms and an even wider gap in per-capita terms.
@@ -107,6 +111,7 @@ Preindustrial warfare was mobilization-bounded. The number of soldiers a state c
 
 $$
 m \leq \frac{Y_{\text{pc}} - Y_{\text{sub}}}{Y_{\text{sub}}}
+\tag{5}
 $$
 
 which for preindustrial economies with $Y_{\text{pc}}$ near $Y_{\text{sub}}$ produces $m$ on the order of a few percent, and in most cases well below one percent for a fully professional standing force.
@@ -115,6 +120,7 @@ The fiscal constraint on standing military capacity chains back to the underlyin
 
 $$
 M \leq \alpha \cdot T \leq \alpha \cdot \phi \cdot \tau_{\max} \cdot Y_{\text{ag}}
+\tag{6}
 $$
 
 which chains military capacity all the way back to the agricultural output the state could reach and extract. Preindustrial great-power military rankings therefore tracked agricultural surplus more closely than any other single variable, and the largest sustained armies belonged to the polities with the deepest fiscal-military states rather than to the polities with the largest populations. Larger mobilizations were possible for short campaigns using militia, feudal levies, and mercenaries funded by extraordinary revenue extraction, but such mobilizations exhausted the fiscal base within a season or two and could not be sustained across years. The Napoleonic Wars pushed mobilization ratios in France above two percent for extended periods and stressed the French state to its fiscal breaking point.
@@ -177,6 +183,7 @@ The cascade is quantitatively compounding. Let $Y_{\text{lead}}(t)$ and $Y_{\tex
 
 $$
 \frac{Y_{\text{lead}}(t)}{Y_{\text{follow}}(t)} = \frac{Y_{\text{lead}}(0)}{Y_{\text{follow}}(0)} \cdot e^{(g_{\text{lead}} - g_{\text{follow}}) \cdot t}
+\tag{7}
 $$
 
 which produces enormous divergences even from modest growth-rate gaps sustained over multiple generations. A leader growing per capita at two percent per year and a follower growing at one percent per year diverge by a factor of $e^{0.01 \cdot 100} \approx 2.7$ over a century. The compounding property is what turns modest early differences in industrial adoption into structural gaps that persist across generations.
@@ -185,6 +192,7 @@ The aggregate consequence is the phenomenon that Kenneth Pomeranz named the Grea
 
 $$
 D(t) = \frac{Y_{\text{leader,pc}}(t)}{\bar{Y}_{\text{world,pc}}(t)}
+\tag{8}
 $$
 
 which was on the order of one and a half to two circa 1500, on the order of two to three circa 1800 on the eve of the industrial revolution, and on the order of twenty to fifty by 2000 depending on which industrial leader is chosen as the numerator. The century in which the ratio grew fastest was the second half of the nineteenth century, when British and later American industrialization compounded and no non-Western economy had yet begun the transition.
@@ -229,6 +237,7 @@ Gerschenkron's late-industrialization mechanism produces a testable catch-up tim
 
 $$
 t_{\text{catch}} = \frac{\ln R}{g_f - g_l}
+\tag{9}
 $$
 
 which for $R$ on the order of ten and a growth-rate gap of two percentage points produces catch-up on the order of a century. The bound is optimistic in that it assumes the follower can sustain a superior growth rate through the entire catch-up window, which is empirically difficult beyond a few decades. Gerschenkron's account is that late industrializers achieve the superior growth rate temporarily through institutional substitutions such as universal banking and state-directed investment, and lose the growth-rate premium once they have caught up substantially.
@@ -292,6 +301,121 @@ The twelfth article takes the contemporary snapshot, applies the series framewor
 The order and circumstances of national industrialization carry disproportionate explanatory weight for the contemporary geopolitical positioning of modern nations. The claim is structural, comparative, and primary rather than sufficient. The preindustrial baseline against which industrialization registers as a structural transformation was Malthusian, organic, extractive, tributary, and slow. The transformation released the world from the Malthusian ceiling by breaking the organic energy ceiling, and released state capacity from its preindustrial fiscal bound in the process. The nations that participated in the transformation earliest, and on the most favorable terms, occupy positions today that reflect the compounding advantages of their early participation. The nations that participated later, or under less favorable terms, occupy positions that reflect the compounding costs of their late arrival. The nations that did not fully participate occupy positions on the margins of the system regardless of their other attributes.
 
 The remaining eleven articles walk the waves in order. The framework introduced in this article applies to each. The framework's limits are named where they matter. The full picture emerges only in the closer, and the closer is honest that any picture of this scope is a caricature painted for a purpose rather than a portrait offering fidelity to every feature.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 9 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 9, 3 are established and 6 are bespoke.
+Output and income are per-capita real quantities unless marked aggregate, growth rates are continuous annual rates written as fractions rather than percentages, and every inequality is a stylised upper bound on preindustrial capacity rather than a fitted relation.
+
+**Equation 1, Malthusian Stationarity of Per-Capita Output.**
+In a Malthusian regime population growth absorbs any productivity gain, so per-capita output is approximately constant on time scales longer than one generation.
+
+$$
+\frac{d Y_{\text{pc}}}{dt} \approx 0 \quad \text{on time scales longer than one generation}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Linear Malthusian Population Response.*
+Population grows at a rate proportional to the excess of the real wage over the subsistence wage, a linear response the article assumes in order to show the negative feedback that returns the wage to subsistence.
+[Farewell to Alms][book_clark_farewell_to_alms]
+
+$$
+\frac{dN}{dt} = k \cdot (w - w^*) \cdot N
+\tag{2}
+$$
+
+*Equation 3, Bespoke Organic Energy Ceiling.*
+The article bounds per-capita usable energy by the solar input captured through biomass conversion on the land available, a construction that formalises the organic economy described by Wrigley.
+[Energy and the English Industrial Revolution][book_wrigley_energy]
+
+$$
+E_{\text{pc}} \leq \eta \cdot I_{\text{solar}} \cdot \frac{A_{\text{land}}}{N}
+\tag{3}
+$$
+
+*Equation 4, Bespoke Fiscal Capacity Bound.*
+State revenue is bounded by agricultural output times a maximum sustainable tax rate times an administrative reach coefficient between zero and one, a coefficient the article introduces.
+
+$$
+T \leq \phi \cdot \tau_{\max} \cdot Y_{\text{ag}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Mobilisation Bound from Surplus over Subsistence.*
+The fraction of the population that can be kept under arms is bounded by the surplus of per-capita output over subsistence measured in units of subsistence, which assumes each soldier consumes exactly a subsistence ration and the whole surplus is available to feed them.
+
+$$
+m \leq \frac{Y_{\text{pc}} - Y_{\text{sub}}}{Y_{\text{sub}}}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Chain from Agricultural Output to Military Expenditure.*
+Combining a politically sustainable military share of revenue with the fiscal capacity bound chains sustainable military expenditure back to the agricultural output the state could reach.
+
+$$
+M \leq \alpha \cdot T \leq \alpha \cdot \phi \cdot \tau_{\max} \cdot Y_{\text{ag}}
+\tag{6}
+$$
+
+**Equation 7, Compounding of a Growth Rate Gap.**
+Under constant continuous growth rates the ratio of two per-capita outputs grows exponentially at the difference of the rates, so a gap of one percentage point multiplies the ratio by about two and seven tenths over a century.
+
+$$
+\frac{Y_{\text{lead}}(t)}{Y_{\text{follow}}(t)} = \frac{Y_{\text{lead}}(0)}{Y_{\text{follow}}(0)} \cdot e^{(g_{\text{lead}} - g_{\text{follow}}) \cdot t}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Divergence Ratio.*
+The article measures the Great Divergence as the per-capita output of the leading industrial economy divided by the population-weighted world mean, an index whose value depends on which leader is chosen.
+
+$$
+D(t) = \frac{Y_{\text{leader,pc}}(t)}{\bar{Y}_{\text{world,pc}}(t)}
+\tag{8}
+$$
+
+**Equation 9, Catch-Up Time under Constant Growth Rates.**
+A follower growing faster than the leader at constant rates closes a per-capita gap of ratio $R$ in the logarithm of $R$ divided by the growth rate difference, an optimistic bound because the premium is rarely sustained.
+
+$$
+t_{\text{catch}} = \frac{\ln R}{g_f - g_l}
+\tag{9}
+$$
+
+### Notation
+
+- $Y_{\text{pc}}$, per-capita output, aggregate output divided by population
+- $N$, population
+- $k$, a positive response coefficient
+- $w$, the real wage available to labourers
+- $w^*$, the subsistence wage below which mortality exceeds fertility
+- $E_{\text{pc}}$, per-capita usable energy per year
+- $\eta$, the biomass conversion efficiency from solar input to usable output
+- $I_{\text{solar}}$, the solar irradiance available for photosynthesis at a given latitude
+- $A_{\text{land}}$, the arable and pastoral land available
+- $T$, state revenue
+- $\phi$, the administrative reach coefficient, between zero and one
+- $\tau_{\max}$, the maximum sustainable tax rate on agricultural surplus
+- $Y_{\text{ag}}$, agricultural output
+- $m$, the fraction of population sustainably mobilised as full-time soldiers
+- $Y_{\text{sub}}$, the subsistence level of per-capita output
+- $M$, sustainable military expenditure
+- $\alpha$, the politically sustainable share of state revenue committed to military purposes
+- $Y_{\text{lead}}(t)$, per-capita output of the leading industrialiser at time $t$
+- $Y_{\text{follow}}(t)$, per-capita output of a follower at time $t$
+- $g_{\text{lead}}$, the per-capita growth rate of the leader
+- $g_{\text{follow}}$, the per-capita growth rate of the follower
+- $D(t)$, the divergence ratio at time $t$
+- $\bar{Y}_{\text{world,pc}}(t)$, the population-weighted mean of world per-capita output
+- $t_{\text{catch}}$, the time to close the per-capita gap
+- $R$, the initial ratio of leader to follower per-capita output
+- $g_f$, the per-capita growth rate of the follower
+- $g_l$, the per-capita growth rate of the leader
 
 ## References
 

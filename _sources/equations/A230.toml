@@ -1,0 +1,79 @@
+# Equation classification for A230. Read by `python3 _lib/equations.py`.
+
+caution = "Investment shares and output ratios are fractions between zero and one, growth rates are proportional rates per year, and the collapse ratio compares Soviet peak output with Russian trough output, so the two ends cover different territories."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Soviet Investment Share of Output"
+gloss = "During the First Five-Year Plan and the following decade the Soviet investment share of gross domestic product was sustained at about a quarter to a third."
+cite = ["book_allen_farm_to_factory"]
+digest = "3f4fc4c8dde8153b"
+
+[[symbol]]
+tex = 'I'
+meaning = "aggregate investment"
+
+[[symbol]]
+tex = 'Y'
+meaning = "aggregate output"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Ratio of Soviet to American Per-Capita Output"
+gloss = "The convergence ratio is Soviet per-capita output divided by American per-capita output, which rose from about one fifth in 1928 to about two fifths in 1975 before falling."
+cite = []
+digest = "2109c8d6dd2cee21"
+
+[[symbol]]
+tex = 'R(t)'
+meaning = "the ratio of Soviet to American per-capita output"
+
+[[symbol]]
+tex = 'Y_{\text{USSR,pc}}(t)'
+meaning = "Soviet per-capita output"
+
+[[symbol]]
+tex = 'Y_{\text{US,pc}}(t)'
+meaning = "American per-capita output"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Growth Accounting Decomposition"
+gloss = "For a Cobb-Douglas production function the growth of output is the growth of total factor productivity plus the capital and labour growth rates weighted by their shares."
+cite = []
+digest = "2c1464e1cc07f518"
+
+[[symbol]]
+tex = 'A'
+meaning = "technology, total factor productivity"
+
+[[symbol]]
+tex = 'K'
+meaning = "capital"
+
+[[symbol]]
+tex = 'L'
+meaning = "labour"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the capital share"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Institutional-Collapse Ratio"
+gloss = "The article defines the collapse ratio as one minus output at the 1998 trough divided by output at the pre-collapse peak, a counterpart of the war-loss ratio of the fifth article that is about two fifths for Russia."
+cite = ["related_post_meiji_japan"]
+digest = "95a1bc43f3fba8dd"
+
+[[symbol]]
+tex = 'Y_{\text{peak}}'
+meaning = "Soviet aggregate output at the pre-collapse peak"
+
+[[symbol]]
+tex = 'Y_{\text{trough}}'
+meaning = "Russian aggregate output at the 1998 trough"

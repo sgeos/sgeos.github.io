@@ -1,0 +1,87 @@
+# Equation classification for A191, the Brinch Hansen pipeline of processes. Read by `python3 _lib/equations.py`.
+
+caution = "Memory terms are sizes of stage state and buffers, throughputs are units of work per second, so their inverses are times per unit, and the stage count is a property of the compiler design that does not vary with the program."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Stage Count Independent of Program Size"
+gloss = "The number of pipeline stages is fixed by the compiler design, so it is constant in the size of the program being compiled."
+cite = []
+digest = "c7c159603d9d2b00"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Pipeline Memory Bound"
+gloss = "The article bounds the compiler footprint by summing the maximum working state of every stage and the capacity of every inter-stage buffer, treating the stages as holding no other shared state."
+cite = []
+digest = "b62d4db55f7da015"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Split of Memory into Per-Declaration and Top-Level Parts"
+gloss = "The article divides the footprint into a per-declaration part that is constant in program size by construction and a top-level environment part that grows with the count of top-level declarations."
+cite = []
+digest = "941d1527a5927603"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Pipeline Throughput Set by the Slowest Stage"
+gloss = "In a pipeline whose upstream stages block on full buffers, the overall throughput equals the minimum throughput among the stages."
+cite = []
+digest = "ca84e3bdf6f7b19a"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke End-to-End Pipeline Latency Bound"
+gloss = "Assuming every buffer holds at most the same number of units and every unit is served at the pace of the slowest stage, the article bounds the latency by the buffers between stages times that capacity and that service time."
+cite = []
+digest = "e777474591f4db49"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Speedup of Concurrent over Sequential Stage Execution"
+gloss = "Sequential execution costs the sum of the per-stage inverse throughputs per unit while concurrent execution costs only the largest, so the speedup is their ratio and approaches the stage count for a balanced pipeline."
+cite = []
+digest = "de425d7f0d4a8bfd"
+
+[[symbol]]
+tex = 'k'
+meaning = "the number of pipeline stages"
+
+[[symbol]]
+tex = '\lvert P \rvert'
+meaning = "the size of program $P$"
+
+[[symbol]]
+tex = 'm_i'
+meaning = "the maximum working state of stage $i$"
+
+[[symbol]]
+tex = 'b_i'
+meaning = "the capacity of the buffer between stage $i$ and stage $i+1$"
+
+[[symbol]]
+tex = 'M_{\text{per-declaration}}'
+meaning = "the memory portion bounded by the largest single declaration"
+
+[[symbol]]
+tex = 'M_{\text{top-level}}'
+meaning = "the top-level environment memory, growing with the top-level declaration count"
+
+[[symbol]]
+tex = 'T_i'
+meaning = "the maximum throughput of stage $i$ in units of work per second"
+
+[[symbol]]
+tex = 'b'
+meaning = "the maximum number of units each buffer holds"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the time the slowest stage takes to process one unit"

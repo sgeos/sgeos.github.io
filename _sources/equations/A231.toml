@@ -1,0 +1,67 @@
+# Equation classification for A231. Read by `python3 _lib/equations.py`.
+
+caution = "Per-capita ratios are taken against the United States and are fractions of the American level, defence spending is a fraction of gross domestic product, and growth rates and premia are continuous annual rates written as percentages."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "West German Per-Capita Ratio against the United States"
+gloss = "West German per-capita output rose from about thirty-five percent of the American level in 1950 to about eighty percent in 1990."
+cite = []
+digest = "6d0690866c6063a2"
+
+[[symbol]]
+tex = 'R_{\text{DE}}'
+meaning = "the ratio of West German to American per-capita output"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Japanese Per-Capita Ratio against the United States"
+gloss = "Japanese per-capita output rose from about twenty percent of the American level in 1950 to about eighty-five percent in 1990."
+cite = []
+digest = "3d022b248d205992"
+
+[[symbol]]
+tex = 'R_{\text{JP}}'
+meaning = "the ratio of Japanese to American per-capita output"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Japanese Growth Rate Premium from 1950 to 1990"
+gloss = "The rearranged catch-up relation of the third article gives the average premium over American growth implied by the rise in the Japanese ratio across forty years, about three and six tenths percent per year."
+cite = ["related_post_continental_followers"]
+digest = "f67c1f1817c2633a"
+
+[[symbol]]
+tex = '\Delta g_{\text{JP}}'
+meaning = "the Japanese per-capita growth rate premium over the United States"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Defence Burden Differential between the United States and Japan"
+gloss = "During the peak Cold War decades American defence spending exceeded the Japanese share of gross domestic product by about five to eight percentage points."
+cite = []
+digest = "e5e8ca3f353a3c0a"
+
+[[symbol]]
+tex = 'm_{\text{US}}'
+meaning = "American defence spending as a fraction of gross domestic product"
+
+[[symbol]]
+tex = 'm_{\text{JP}}'
+meaning = "Japanese defence spending as a fraction of gross domestic product"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Japanese Growth Rate during the Lost Decades"
+gloss = "Japanese real gross domestic product grew at about one percent per year from 1990 to 2010."
+cite = []
+digest = "19da643235f07079"
+
+[[symbol]]
+tex = 'g_{\text{JP}}'
+meaning = "the Japanese real gross domestic product growth rate"

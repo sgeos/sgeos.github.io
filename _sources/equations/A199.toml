@@ -1,0 +1,87 @@
+# Equation classification for A199, the stream processor as compiler and the compiler as stream processor. Read by `python3 _lib/equations.py`.
+
+caution = "Arrows denote mappings between sets of programs or streams rather than numerical functions, a superscript $\\omega$ marks a stream over the alphabet beneath it, and the memory relation sums sizes of stage state and buffers."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Compiler as a Mapping"
+gloss = "A compiler maps source programs to target programs."
+cite = []
+digest = "315ca795e0a67b57"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Compiler in Stream-Processor Form"
+gloss = "In stream-processor form the compiler reads a stream over the source alphabet and emits a stream over the target alphabet in one forward sweep."
+cite = []
+digest = "377d3432dadcc37c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Self-Hosting Fixed Point"
+gloss = "A self-hosted compiler applied to its own source reproduces itself, which makes it a fixed point of compilation."
+cite = []
+digest = "d7b3d82700698845"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Compiler as a Stream Processor between Alphabets"
+gloss = "Under the productivity discipline a compiler is a stream processor from the source alphabet to the target alphabet."
+cite = []
+digest = "5ee6c99c357c6a60"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Stream Processor as a Compilable Program"
+gloss = "A stream processor viewed as a program is a state transition whose source text is itself a stream over the source alphabet."
+cite = []
+digest = "39c9bb6928eaf880"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Keleusma Compilation Pipeline"
+gloss = "The Keleusma compiler is the composition of five stages, tokenising, parsing, type checking, monomorphisation and emission, each a stream processor."
+cite = []
+digest = "56ccf100854a73d3"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Working Memory of the Keleusma Pipeline"
+gloss = "The article applies its compositional memory budget to Keleusma, summing the working memory of the five stages and the four inter-stage buffers."
+cite = []
+digest = "cb904c28dcd61456"
+
+[[symbol]]
+tex = 'C'
+meaning = "a compiler"
+
+[[symbol]]
+tex = 'A'
+meaning = "the source alphabet"
+
+[[symbol]]
+tex = 'B'
+meaning = "the target alphabet"
+
+[[symbol]]
+tex = 'P_{\text{self}}'
+meaning = "a self-hosted stream-processor compiler"
+
+[[symbol]]
+tex = 'P'
+meaning = "a stream processor viewed as a compilable program"
+
+[[symbol]]
+tex = 'M_i'
+meaning = "the working memory of stage $i$"
+
+[[symbol]]
+tex = 'b_i'
+meaning = "the buffer between stage $i$ and stage $i+1$"

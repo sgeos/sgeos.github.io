@@ -21,13 +21,19 @@ The article treats the four principal computing modalities of the period in the 
 
 Exterior ballistics is the study of projectile motion after it leaves the muzzle of a gun and before it strikes the target. The governing equations are the equations of motion of a point mass subject to gravity and aerodynamic drag, treated as a standard problem in [McCoy 1999][book_mccoy_modern_exterior_ballistics] and in the earlier work by Moulton at Aberdeen. For a projectile with mass $m$, velocity $\mathbf{v}$, and position $\mathbf{x}$, the equations are
 
-$$m \frac{d^2 \mathbf{x}}{dt^2} = m \mathbf{g} - \frac{1}{2} \rho v^2 C_d(M) A \hat{\mathbf{v}}$$
+$$
+m \frac{d^2 \mathbf{x}}{dt^2} = m \mathbf{g} - \frac{1}{2} \rho v^2 C_d(M) A \hat{\mathbf{v}}
+\tag{1}
+$$
 
 where $\mathbf{g}$ is gravitational acceleration, $\rho$ is atmospheric density which itself varies with altitude, $v$ is the speed, $C_d(M)$ is the drag coefficient as a function of Mach number $M$, $A$ is the projectile cross-sectional area, and $\hat{\mathbf{v}}$ is the unit velocity vector. The problem admits no closed-form solution for realistic projectiles because the drag coefficient depends non-linearly on the Mach number, especially in the transonic regime around $M = 1$, and because the atmospheric density varies with the trajectory itself. Numerical integration is the only practical approach.
 
 A firing table for a gun and shell combination must give the elevation angle and time of flight for every target range across the operational envelope, corrected for atmospheric density, wind, and target altitude. A single table requires roughly 1,500 trajectories, per the account in [Grier 2005][book_grier_when_computers_were_human], and each trajectory requires between roughly 500 and 1,000 multiplications along with comparable additions. The total operation count per table is
 
-$$N_{\text{ops}} = N_{\text{trajectories}} \cdot N_{\text{ops per trajectory}} \approx 1.5 \times 10^3 \cdot 7.5 \times 10^2 \approx 10^6$$
+$$
+N_{\text{ops}} = N_{\text{trajectories}} \cdot N_{\text{ops per trajectory}} \approx 1.5 \times 10^3 \cdot 7.5 \times 10^2 \approx 10^6
+\tag{2}
+$$
 
 roughly one million floating-point-equivalent operations. A trained human computer performing manual arithmetic with mechanical desk calculators produced approximately 300 to 500 multiplications per working day when accounting for the intermediate arithmetic, integration steps, table lookups, and cross-checking that accompanied each trajectory computation. A single firing table required approximately 3,000 person-days of labor, roughly twelve person-years, per the estimates in [Grier 2005][book_grier_when_computers_were_human]. Wall-clock time was compressed by parallel effort across a bureau of many human computers working in shifts. During the First World War the United States Army Ordnance Department established a computing bureau at the Aberdeen Proving Ground under [Moulton][research_moulton_1926] and expanded it through subsequent decades to keep pace with new artillery pieces and new shell designs.
 
@@ -37,17 +43,26 @@ The scale of the bureau expanded dramatically during the Second World War. By 19
 
 Firing tables answer the question of where to aim a gun for a target at a known range. Fire-control computers answer the different but related question of how to aim a gun at a moving target given range and bearing measurements from optical or radar tracking. The fire-control problem is a real-time computation. The gun must fire ahead of the target by the projectile time-of-flight along a solution that accounts for target motion, own-ship motion, gun offset from the ship or aircraft reference frame, and ballistic corrections. In its simplest form, the intercept problem requires the aim point to satisfy
 
-$$\mathbf{x}_{\text{aim}} = \mathbf{x}_{\text{target}}(t_0) + \mathbf{v}_{\text{target}} \cdot T_{\text{flight}}$$
+$$
+\mathbf{x}_{\text{aim}} = \mathbf{x}_{\text{target}}(t_0) + \mathbf{v}_{\text{target}} \cdot T_{\text{flight}}
+\tag{3}
+$$
 
 where $T_{\text{flight}}$ is the projectile time-of-flight to the aim point, which itself depends on $\mathbf{x}\_{\text{aim}}$ through the ballistic equations. The coupling makes the intercept problem implicit and requires iterative or approximate solution methods. Solving this problem in real time before the digital computer required physical linkages that implemented the arithmetic mechanically.
 
 The [Ford Instrument Company][ref_ford_instrument_mk1] Mark 1 fire-control computer, in production from 1932 and installed on United States Navy capital ships from 1934, was the most sophisticated of the pre-war mechanical fire-control computers. The Mark 1 solved the naval gunnery problem using disk-and-ball integrators originally described in [Thomson 1876][research_thomson_1876] and elaborated by Thomson's brother William Thomson, later Lord Kelvin, in the same period, per the treatment in [Mindell 2002][book_mindell_between_human_and_machine]. A disk-and-ball integrator computes the integral $\int y \, dx$ mechanically by placing a ball on a rotating disk at radius $y$ from the disk center and driving the rotation by shaft speed proportional to $\dot{x}$. The output shaft rotation rate is
 
-$$\dot{\theta}_{\text{output}} = \frac{y(t)}{R} \cdot \dot{\theta}_{\text{disk}}$$
+$$
+\dot{\theta}_{\text{output}} = \frac{y(t)}{R} \cdot \dot{\theta}_{\text{disk}}
+\tag{4}
+$$
 
 where $R$ is the ball wheel radius, so the accumulated output rotation
 
-$$\theta_{\text{output}}(t) = \frac{1}{R} \int_0^t y(\tau) \, d\theta_{\text{disk}}(\tau) = \frac{1}{R} \int y \, dx$$
+$$
+\theta_{\text{output}}(t) = \frac{1}{R} \int_0^t y(\tau) \, d\theta_{\text{disk}}(\tau) = \frac{1}{R} \int y \, dx
+\tag{5}
+$$
 
 directly implements the mathematical integral. The Mark 1 chained many such integrators together to solve the coupled differential equations of the fire-control problem, including target-motion prediction, ballistic trajectory correction, and stabilization against ship roll and pitch.
 
@@ -55,11 +70,17 @@ The [Kerrison Predictor][ref_kerrison_predictor], developed at the British Anti-
 
 The Norden Mark XV bombsight, developed by Carl Norden and Theodore Barth from the mid-1920s and fielded in United States Army Air Forces bombers from 1937, computed the bomb-release point for level-flight bombing. Ignoring air resistance for a first approximation, a bomb released from altitude $H$ at ground speed $v_g$ falls for time
 
-$$T_{\text{fall}} = \sqrt{\frac{2H}{g}}$$
+$$
+T_{\text{fall}} = \sqrt{\frac{2H}{g}}
+\tag{6}
+$$
 
 and travels a horizontal trail distance
 
-$$L_{\text{trail}} = v_g \cdot T_{\text{fall}} = v_g \sqrt{\frac{2H}{g}}$$
+$$
+L_{\text{trail}} = v_g \cdot T_{\text{fall}} = v_g \sqrt{\frac{2H}{g}}
+\tag{7}
+$$
 
 before impact, which gives the release-point offset from the target that the bombsight must compute. The Norden combined a gyroscopically stabilized telescopic sight with a mechanical computer that solved the full bombing equation including air resistance, ground speed measurement, altitude, wind, and target position. It also computed the release signal for the bomb and, in some variants, controlled the aircraft heading through the C-1 autopilot during the bombing run. The Norden was treated as a state secret through the Second World War and was widely regarded, then and later, as one of the most technically sophisticated mechanical computers ever built. Its precision claims turned out to be overstated in operational use, particularly under the anti-aircraft fire and weather conditions of European bombing, but the underlying mechanical computing was genuine and its influence on later fire-control and guidance systems substantial.
 
@@ -71,7 +92,10 @@ The Bush analyzer was used for a wide variety of scientific and engineering prob
 
 Analog analyzers had two fundamental limitations. First, accuracy was bounded by the physical precision of the mechanical elements. The Bush analyzer achieved approximately 0.1 percent accuracy per integrator, with error accumulating over a chained calculation. For a chain of $n$ serial integrators with individual error $\epsilon$, the total error scales approximately as
 
-$$\epsilon_{\text{total}} \approx \epsilon \sqrt{n}$$
+$$
+\epsilon_{\text{total}} \approx \epsilon \sqrt{n}
+\tag{8}
+$$
 
 if errors are uncorrelated, giving 0.3 percent total error for a chain of 10 integrators. For ballistic trajectories with 5 to 10 chained integrations this was acceptable. For longer computations or higher-precision requirements it was not. Second, changing the problem required physically reconfiguring the analyzer, which took hours to days depending on complexity. Analog analyzers therefore excelled at repeated computation of a single problem class and struggled with problem diversity. Both limitations became increasingly binding as the Second World War generated demand for more calculations at higher precision than the analog analyzers could economically supply. The Rockefeller Differential Analyzer built by Bush at MIT between 1935 and 1942 used electromechanical rather than purely mechanical components and reached approximately 10 to 100 times the throughput of the original Bush analyzer, but the fundamental limits of analog computing remained.
 
@@ -79,13 +103,19 @@ if errors are uncorrelated, giving 0.3 percent total error for a chain of 10 int
 
 Between the analog differential analyzer and the electronic digital computer sits a class of electromechanical relay computers. These machines used telephone-style electromechanical relays as binary switching elements, with number representation and arithmetic implemented digitally rather than by continuous physical quantities. Relay switching was slower than vacuum-tube switching by three orders of magnitude, but relay reliability was substantially better than vacuum tubes could achieve in early implementations, and relays were manufactured by the telephone industry in enormous quantities at low unit cost. The relay switching time $t_{\text{switch}}$ of order 5 to 20 milliseconds set the maximum sequential operation rate to
 
-$$r_{\text{max}} = \frac{1}{t_{\text{switch}}} \approx 50 \text{ to } 200 \text{ operations per second}$$
+$$
+r_{\text{max}} = \frac{1}{t_{\text{switch}}} \approx 50 \text{ to } 200 \text{ operations per second}
+\tag{9}
+$$
 
 which was several orders of magnitude below vacuum-tube capability but adequate for many scientific calculations that did not require real-time response.
 
 The Bell Telephone Laboratories Complex Number Calculator built by [Stibitz 1940][research_stibitz_1940] and demonstrated remotely from Dartmouth College over telegraph lines in September 1940 was the first electromechanical relay computer to demonstrate remote operation. Its problem domain was complex-number arithmetic for filter design and network analysis, where the product of complex numbers $a + bi$ and $c + di$ requires four real multiplications and two real additions per the standard formula
 
-$$(a + bi)(c + di) = (ac - bd) + (ad + bc)i$$
+$$
+(a + bi)(c + di) = (ac - bd) + (ad + bc)i
+\tag{10}
+$$
 
 which was tedious enough by hand that Bell Labs engineers welcomed the calculator's twenty-second execution time as a substantial productivity improvement. The successor Bell Labs Model V, delivered to the National Advisory Committee for Aeronautics hereafter NACA Langley in 1946 and to Aberdeen Proving Ground in 1947, was a general-purpose relay computer that could execute stored programs read from punched tape. The Model V used approximately 9,000 relays and computed at roughly 5 to 10 multiplications per second, thousands of times slower than the ENIAC but with substantially better reliability.
 
@@ -99,19 +129,28 @@ The ENIAC was designed and built at the Moore School of Electrical Engineering a
 
 The ENIAC used 17,468 vacuum tubes, weighed approximately 30 tons, occupied a room 30 feet by 50 feet, and consumed approximately 150 kilowatts of electrical power, per the primary description in [Goldstine and Goldstine 1946][research_goldstine_goldstine_1946] published in Mathematical Tables and Other Aids to Computation. It performed roughly 5,000 additions per second or 385 multiplications per second, three orders of magnitude faster than the electromechanical Harvard Mark I and approximately five orders of magnitude faster than a human computer with a mechanical desk calculator. A trajectory that required 20 hours from a human computer or 15 minutes from the differential analyzer required approximately 30 seconds on the ENIAC. This speed comparison
 
-$$T_{\text{ENIAC}} : T_{\text{DA}} : T_{\text{human}} \approx 1 : 30 : 2400$$
+$$
+T_{\text{ENIAC}} : T_{\text{DA}} : T_{\text{human}} \approx 1 : 30 : 2400
+\tag{11}
+$$
 
 understates the practical significance because the ENIAC could work continuously through shifts on multiple problems as long as its vacuum tubes did not fail, while human computers and differential analyzers required extensive setup per problem.
 
 Vacuum tube reliability was the ENIAC's principal engineering challenge. If each tube had mean time between failures $T_{\text{tube}}$ and the machine required all $N_{\text{tubes}}$ tubes to function, the machine mean time between failures satisfied approximately
 
-$$T_{\text{ENIAC}} \approx \frac{T_{\text{tube}}}{N_{\text{tubes}}}$$
+$$
+T_{\text{ENIAC}} \approx \frac{T_{\text{tube}}}{N_{\text{tubes}}}
+\tag{12}
+$$
 
 for uncorrelated failures. With $N_{\text{tubes}} = 17{,}468$ and $T_{\text{tube}}$ approximately 2,500 hours, the naive prediction gave a machine MTBF of roughly 8 minutes, which would have made the ENIAC useless. The engineering team, led by Eckert, adopted several countermeasures including running tubes at substantially reduced heater voltage to extend individual tube life, systematic overnight tube testing to identify tubes about to fail, and physical arrangement that made tube replacement fast when failure did occur. The actual operational MTBF reached several days once the machine stabilized, per [McCartney 1999][book_mccartney_eniac] and the account in [Ceruzzi 2003][book_ceruzzi_history_modern_computing].
 
 Energy consumption per operation for the ENIAC was extraordinary by modern standards. Dividing electrical power by operation rate,
 
-$$E_{\text{op}} = \frac{P}{r_{\text{ops}}} = \frac{150 \text{ kW}}{5{,}000 \text{ additions per second}} = 30 \text{ joules per addition}$$
+$$
+E_{\text{op}} = \frac{P}{r_{\text{ops}}} = \frac{150 \text{ kW}}{5{,}000 \text{ additions per second}} = 30 \text{ joules per addition}
+\tag{13}
+$$
 
 which is approximately twelve orders of magnitude larger than the picojoule-per-operation energy budget of contemporary integrated circuits. The energy-per-operation trajectory across the digital era is one of the fundamental co-development quantities the series treats, and the ENIAC anchors the historical starting point.
 
@@ -123,7 +162,10 @@ The six-axis framework introduced in the preceding article applies to the pre-wa
 
 The first axis is numerical computation demand. The demand was overwhelmingly ballistic table production, with secondary demand from other artillery-related calculations including bomb ballistics, torpedo fire control, and rocket trajectory analysis. Aerodynamic calculation for aircraft design was a distant third. The total operation count required for the wartime demand exceeded human capacity by orders of magnitude, and this excess was the pressure that produced the ENIAC and its contemporaries. The wall-clock time to produce a single firing table scales as
 
-$$T_{\text{table}} = N_{\text{trajectories}} \cdot t_{\text{trajectory}}$$
+$$
+T_{\text{table}} = N_{\text{trajectories}} \cdot t_{\text{trajectory}}
+\tag{14}
+$$
 
 which for $N_{\text{trajectories}} \approx 1{,}500$ gives on the order of 24,000 to 30,000 person-hours per table depending on the trajectory-time assumption, or roughly 12 to 15 person-years of continuous labor by human computer at $t_{\text{trajectory}}$ in the range 16 to 20 hours, roughly 375 machine-hours or two machine-months for the differential analyzer at $t_{\text{trajectory}} \approx 15$ minutes, and roughly 12.5 machine-hours or half a machine-day for the ENIAC at $t_{\text{trajectory}} \approx 30$ seconds. The five-orders-of-magnitude compression from human bureau to ENIAC is what made the wartime table backlog tractable in principle even though the machine arrived too late to affect operations directly.
 
@@ -142,6 +184,155 @@ The sixth axis is semiconductor economics and dual-use. The vacuum tube was the 
 The pre-war era established the aerospace-computing coupling in its earliest recognizable form. Ballistic table demand exceeded human capacity, mechanical fire-control demand exceeded human capacity, and both created sustained pressure for computational machinery that produced the analog differential analyzer, the electromechanical relay computer, and eventually the electronic digital computer. Each modality contributed engineering artifacts. The disk-and-ball integrator moved from the fire-control computer to the differential analyzer and eventually to the digital-analog hybrid computers of the postwar period. The plugboard programming of the ENIAC anticipated later programming abstractions. The vacuum-tube reliability engineering developed for the ENIAC influenced early commercial computers and continued to matter until the transistor supplanted the vacuum tube in the late 1950s.
 
 The next article in the series treats the wartime computing efforts that ran in parallel with the ENIAC development, including the Colossus code-breaking computers at Bletchley Park, the Manhattan Project computing infrastructure, and the role of the Second World War in accelerating the transition from mechanical and analog computing to electronic digital computing.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 14 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 14, 13 are established and 1 are bespoke.
+Times are given in the unit each comparison states, hours for human computation, minutes for the differential analyser and seconds for the Electronic Numerical Integrator and Computer, energies are in joules per operation and the mean times between failures in hours, while operation counts are dimensionless order-of-magnitude figures.
+
+**Equation 1, Point-Mass Equation of Exterior Ballistics.**
+A projectile treated as a point mass accelerates under gravity and an aerodynamic drag that opposes its velocity and scales with air density, the square of the speed and a Mach-dependent drag coefficient.
+[McCoy 1999][book_mccoy_modern_exterior_ballistics]
+
+$$
+m \frac{d^2 \mathbf{x}}{dt^2} = m \mathbf{g} - \frac{1}{2} \rho v^2 C_d(M) A \hat{\mathbf{v}}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Operation Count of One Firing Table.*
+The operation count multiplies the sourced fifteen hundred trajectories by seven hundred and fifty operations per trajectory, the midpoint the article takes of a stated range of five hundred to one thousand multiplications.
+[Grier 2005][book_grier_when_computers_were_human]
+
+$$
+N_{\text{ops}} = N_{\text{trajectories}} \cdot N_{\text{ops per trajectory}} \approx 1.5 \times 10^3 \cdot 7.5 \times 10^2 \approx 10^6
+\tag{2}
+$$
+
+**Equation 3, Linear Lead Prediction of the Aim Point.**
+In its simplest form the aim point is the present target position advanced along the target velocity for the projectile time of flight, which itself depends on the aim point.
+
+$$
+\mathbf{x}_{\text{aim}} = \mathbf{x}_{\text{target}}(t_0) + \mathbf{v}_{\text{target}} \cdot T_{\text{flight}}
+\tag{3}
+$$
+
+**Equation 4, Output Rate of a Disk-and-Ball Integrator.**
+The output shaft of a disk-and-ball integrator turns at the disk rate scaled by the ratio of the ball displacement to the wheel radius.
+[Thomson 1876][research_thomson_1876]
+[Mindell 2002][book_mindell_between_human_and_machine]
+
+$$
+\dot{\theta}_{\text{output}} = \frac{y(t)}{R} \cdot \dot{\theta}_{\text{disk}}
+\tag{4}
+$$
+
+**Equation 5, Accumulated Rotation as a Mechanical Integral.**
+Accumulating the output rate over time makes the output rotation proportional to the integral of the displacement with respect to the disk rotation.
+[Thomson 1876][research_thomson_1876]
+[Mindell 2002][book_mindell_between_human_and_machine]
+
+$$
+\theta_{\text{output}}(t) = \frac{1}{R} \int_0^t y(\tau) \, d\theta_{\text{disk}}(\tau) = \frac{1}{R} \int y \, dx
+\tag{5}
+$$
+
+**Equation 6, Fall Time of a Bomb Without Drag.**
+A bomb released in level flight and falling without air resistance reaches the ground after the free-fall time from its release altitude.
+
+$$
+T_{\text{fall}} = \sqrt{\frac{2H}{g}}
+\tag{6}
+$$
+
+**Equation 7, Horizontal Trail Distance Without Drag.**
+Without air resistance the bomb keeps the aircraft ground speed through its fall, so its horizontal travel is that speed multiplied by the fall time.
+
+$$
+L_{\text{trail}} = v_g \cdot T_{\text{fall}} = v_g \sqrt{\frac{2H}{g}}
+\tag{7}
+$$
+
+**Equation 8, Accumulated Error of Uncorrelated Integrators.**
+For a chain of integrators with equal and uncorrelated errors, the total error grows as the square root of the number of integrators.
+
+$$
+\epsilon_{\text{total}} \approx \epsilon \sqrt{n}
+\tag{8}
+$$
+
+**Equation 9, Maximum Sequential Rate of a Relay Computer.**
+The highest sequential operation rate is the reciprocal of the relay switching time, fifty to two hundred operations per second for switching times of five to twenty milliseconds.
+
+$$
+r_{\text{max}} = \frac{1}{t_{\text{switch}}} \approx 50 \text{ to } 200 \text{ operations per second}
+\tag{9}
+$$
+
+**Equation 10, Product of Two Complex Numbers.**
+The product of two complex numbers takes four real multiplications and two real additions.
+
+$$
+(a + bi)(c + di) = (ac - bd) + (ad + bc)i
+\tag{10}
+$$
+
+**Equation 11, Relative Times for One Trajectory.**
+Thirty seconds on the Electronic Numerical Integrator and Computer, fifteen minutes on the differential analyser and twenty hours by hand stand in the ratio of one to thirty to two thousand four hundred.
+[Goldstine and Goldstine 1946][research_goldstine_goldstine_1946]
+
+$$
+T_{\text{ENIAC}} : T_{\text{DA}} : T_{\text{human}} \approx 1 : 30 : 2400
+\tag{11}
+$$
+
+**Equation 12, Mean Time Between Failures of a Series System.**
+When every one of many tubes with uncorrelated failures must work, the mean time between failures of the machine is that of one tube divided by the number of tubes.
+
+$$
+T_{\text{ENIAC}} \approx \frac{T_{\text{tube}}}{N_{\text{tubes}}}
+\tag{12}
+$$
+
+**Equation 13, Energy per Addition of the ENIAC.**
+Dividing the documented power of one hundred and fifty kilowatts by the documented five thousand additions per second gives thirty joules per addition.
+[Goldstine and Goldstine 1946][research_goldstine_goldstine_1946]
+
+$$
+E_{\text{op}} = \frac{P}{r_{\text{ops}}} = \frac{150 \text{ kW}}{5{,}000 \text{ additions per second}} = 30 \text{ joules per addition}
+\tag{13}
+$$
+
+**Equation 14, Time to Produce One Firing Table.**
+The time to produce a table is the number of trajectories multiplied by the time to compute one trajectory on the method in use.
+
+$$
+T_{\text{table}} = N_{\text{trajectories}} \cdot t_{\text{trajectory}}
+\tag{14}
+$$
+
+### Notation
+
+- $\mathbf{x}$, the projectile position
+- $\rho$, the atmospheric density
+- $C_d(M)$, the drag coefficient as a function of Mach number $M$
+- $A$, the projectile cross-sectional area
+- $T_{\text{flight}}$, the projectile time of flight to the aim point
+- $y(t)$, the radius of the ball from the disk centre
+- $R$, the ball wheel radius
+- $H$, the release altitude
+- $v_g$, the ground speed of the bomber
+- $\epsilon$, the error of one integrator
+- $t_{\text{switch}}$, the relay switching time, five to twenty milliseconds
+- $T_{\text{tube}}$, the mean time between failures of one vacuum tube
+- $N_{\text{tubes}}$, the number of vacuum tubes, 17,468 in the ENIAC
+- $r_{\text{ops}}$, the operation rate
+- $t_{\text{trajectory}}$, the time to compute one trajectory
 
 ## References
 

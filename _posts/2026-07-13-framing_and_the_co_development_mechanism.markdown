@@ -31,19 +31,34 @@ Let $H(t)$ denote a scalar measure of aerospace capability at time $t$, and let 
 
 The co-development mechanism is a coupled first-order dynamical system.
 
-$$\frac{dH(t)}{dt} = \alpha \cdot S(t) + f_H(t)$$
+$$
+\frac{dH(t)}{dt} = \alpha \cdot S(t) + f_H(t)
+\tag{1}
+$$
 
-$$\frac{dS(t)}{dt} = \beta \cdot H(t) + f_S(t)$$
+$$
+\frac{dS(t)}{dt} = \beta \cdot H(t) + f_S(t)
+\tag{2}
+$$
 
 Here $\alpha$ is the rate at which computing capability enables aerospace advances, $\beta$ is the rate at which aerospace demand pulls forward computing capability, and $f_H$ and $f_S$ are exogenous forcing terms capturing all other drivers. Setting the exogenous terms to zero for the purpose of extracting the coupling behavior, the homogeneous system has characteristic roots $\pm \sqrt{\alpha\beta}$ and solution
 
-$$H(t) = H_0 \cosh\left(\sqrt{\alpha\beta}\,t\right) + S_0 \sqrt{\frac{\alpha}{\beta}} \sinh\left(\sqrt{\alpha\beta}\,t\right)$$
+$$
+H(t) = H_0 \cosh\left(\sqrt{\alpha\beta}\,t\right) + S_0 \sqrt{\frac{\alpha}{\beta}} \sinh\left(\sqrt{\alpha\beta}\,t\right)
+\tag{3}
+$$
 
-$$S(t) = S_0 \cosh\left(\sqrt{\alpha\beta}\,t\right) + H_0 \sqrt{\frac{\beta}{\alpha}} \sinh\left(\sqrt{\alpha\beta}\,t\right)$$
+$$
+S(t) = S_0 \cosh\left(\sqrt{\alpha\beta}\,t\right) + H_0 \sqrt{\frac{\beta}{\alpha}} \sinh\left(\sqrt{\alpha\beta}\,t\right)
+\tag{4}
+$$
 
 The empirically important feature is not the functional form, which any coupled system with positive coefficients would produce, but that both quantities grow exponentially with combined rate constant $\sqrt{\alpha\beta}$ that neither field alone would exhibit. Historical rates for computing during the digital era are approximated by [Moore][ref_moore_1965]'s doubling law
 
-$$N(t) = N_0 \cdot 2^{t/T_M}$$
+$$
+N(t) = N_0 \cdot 2^{t/T_M}
+\tag{5}
+$$
 
 with $T_M$ approximately 18 to 24 months for transistor density over the four decades from 1965 through 2005. Over the same period a similar doubling cadence is observable for several aerospace metrics that depend directly on computing substrate, including flight-control loop bandwidth, autonomous navigation precision, and telemetry data rate, though the empirical estimation of any single aerospace doubling constant across a heterogeneous set of programs is subject to selection effects and definitional variation. The alignment with Moore's Law is not accidental. Moore's Law represents a semiconductor manufacturing capability that was itself pulled forward by defense demand for the first two decades of its operation, per the historical treatment in [Ceruzzi 2003][book_ceruzzi_history_modern_computing].
 
@@ -55,13 +70,19 @@ The Apollo Guidance Computer used integrated circuits from a market that consist
 
 The Wright learning-curve mechanism, formalized in [Wright 1936][research_wright_1936] for aircraft manufacturing and later shown to apply to semiconductor manufacturing at particular strength, formalizes the spillover. Unit cost falls with cumulative volume according to
 
-$$C(N) = C_0 \cdot N^{-\lambda}$$
+$$
+C(N) = C_0 \cdot N^{-\lambda}
+\tag{6}
+$$
 
 with learning-curve exponent $\lambda$ empirically in the range 0.15 to 0.30 for semiconductor manufacturing over the 1960s and 1970s, corresponding to a 15 to 30 percent unit-cost reduction per doubling of cumulative volume, per [Nagy et al. 2013][research_nagy_farmer_bui_trancik_2013]. Defense procurement absorbed the first several orders of magnitude of cumulative production at prices that would have been prohibitive for commercial buyers. By the time commercial demand emerged, cumulative volume had already reduced unit cost enough to open the personal computer market. The mechanism is not accidental. Every subsequent generation of semiconductor manufacturing has passed through a similar sequence in which government or aerospace procurement absorbs the high-cost early volume and commercial markets inherit a mature manufacturing base.
 
 Combining Moore's density law with the Wright learning curve gives the empirical cost-per-transistor trajectory observed across the digital era. If cumulative transistor volume grows in step with density such that $N(t) = N_0 \cdot 2^{t/T_M}$, then unit cost per transistor obeys
 
-$$C_{\text{transistor}}(t) = C_0 \cdot 2^{-\lambda \cdot t / T_M}$$
+$$
+C_{\text{transistor}}(t) = C_0 \cdot 2^{-\lambda \cdot t / T_M}
+\tag{7}
+$$
 
 which for $\lambda \approx 0.25$ and $T_M \approx 2$ years yields approximately an 8.5 percent annual cost reduction per transistor over the four decades of interest. This trajectory is what turned computing from a capital-intensive institutional resource into a commodity available to individual consumers, and it is what allowed aerospace to progressively substitute software for mechanical and hydraulic subsystems as the article's later chapters describe.
 
@@ -71,7 +92,10 @@ The physical basis for Moore's density scaling is the metal-oxide-semiconductor 
 
 Aerospace applications introduce a hard constraint that consumer computing did not face until the 1990s. A flight-control loop must complete its computation within a time bound set by the vehicle dynamics.
 
-$$T_{\text{response}} \le T_{\text{dynamics}}$$
+$$
+T_{\text{response}} \le T_{\text{dynamics}}
+\tag{8}
+$$
 
 For a fixed-wing aircraft with pitch dynamics timescale of order 200 milliseconds, the loop must close within about 20 milliseconds to avoid pilot-induced or software-induced oscillation, giving one order of magnitude of margin. For a launch vehicle with roll dynamics measured in tens of milliseconds, the loop must close within a few milliseconds. For an atmospheric reentry vehicle, both the dynamics and the response requirement are still tighter. Missing the deadline is not a performance degradation. It is a catastrophic failure mode.
 
@@ -79,13 +103,19 @@ This constraint drove several early computing developments. Interrupt-driven sch
 
 Rate monotonic scheduling, first formalized by [Liu and Layland 1973][research_liu_layland_1973], provides an admission control test for hard real-time systems and became the standard approach for aerospace flight software. The utilization bound
 
-$$U_n = n \left(2^{1/n} - 1\right)$$
+$$
+U_n = n \left(2^{1/n} - 1\right)
+\tag{9}
+$$
 
 approaches $\ln 2 \approx 0.693$ as the number of periodic tasks $n$ grows large. Below this utilization, rate monotonic scheduling guarantees that all deadlines will be met. This result, though modest in appearance, became a load-bearing tool for aerospace software architecture and remains cited in contemporary avionics design.
 
 Rate monotonic scheduling gives a sufficient but not necessary admission-control test. Where the utilization bound rejects a task set that is in fact schedulable, response time analysis per [Joseph and Pandya 1986][research_joseph_pandya_1986] and [Audsley et al. 1993][research_audsley_burns_richardson_tindell_wellings_1993] gives an exact test. For a task $i$ with computation time $C_i$ and period $T_i$ preempted by higher-priority tasks, the worst-case response time $R_i$ is the smallest fixed point of
 
-$$R_i = C_i + \sum_{j \in \text{hp}(i)} \left\lceil \frac{R_i}{T_j} \right\rceil C_j$$
+$$
+R_i = C_i + \sum_{j \in \text{hp}(i)} \left\lceil \frac{R_i}{T_j} \right\rceil C_j
+\tag{10}
+$$
 
 where $\text{hp}(i)$ is the set of tasks with higher priority than $i$. Task $i$ meets its deadline $D_i$ if and only if $R_i \le D_i$. Response time analysis is the standard admission-control tool for modern avionics scheduling and remains cited in contemporary safety-critical software standards.
 
@@ -99,17 +129,26 @@ Hardware redundancy at the module level was fielded first in aerospace. The Spac
 
 The reliability of a triple modular redundancy configuration under majority voting, per [von Neumann 1956][research_von_neumann_1956] and the earlier [Moore and Shannon 1956][research_moore_shannon_1956] treatment of relay circuits, is
 
-$$R_{\text{TMR}} = 3R^2 - 2R^3$$
+$$
+R_{\text{TMR}} = 3R^2 - 2R^3
+\tag{11}
+$$
 
 where $R$ is the reliability of a single module and the voter is assumed perfect. This crosses the single-module reliability at $R = 0.5$, meaning TMR improves system reliability only when individual modules are already better than a coin flip. Generalizing to $N$-modular redundancy with $N = 2k + 1$ voting members, the system reliability is
 
-$$R_{\text{NMR}} = \sum_{i=k+1}^{N} \binom{N}{i} R^i (1 - R)^{N-i}$$
+$$
+R_{\text{NMR}} = \sum_{i=k+1}^{N} \binom{N}{i} R^i (1 - R)^{N-i}
+\tag{12}
+$$
 
 which for the Space Shuttle four-plus-one configuration under the assumption of independent random failures gives high reliability against uncorrelated failure but does not protect against correlated failures. The value of the four-plus-one configuration is that it tolerates one arbitrary failure and one detected failure without loss of function, which fits the mission profile better than a symmetric five-way voter would. The independence assumption is not automatic. [Knight and Leveson 1986][research_knight_leveson_1986] showed empirically in a controlled multiversion programming study that independently developed program versions exhibit statistically correlated failures at rates substantially higher than the independence assumption predicts. The result is one of the load-bearing constraints on reliable software architecture and is one of the reasons contemporary safety-critical software programs do not treat multiversion programming as an unqualified path to arbitrary reliability targets.
 
 Verification effort for aerospace software scales super-linearly with software size, per empirical data summarized in [Boehm 1981][book_boehm_software_engineering_economics] and later work on software cost estimation. The verification effort $V$ measured in engineering hours obeys approximately
 
-$$V(L) = k \cdot L^\gamma$$
+$$
+V(L) = k \cdot L^\gamma
+\tag{13}
+$$
 
 with exponent $\gamma$ in the range 1.05 to 1.20 for safety-critical software and constant $k$ that depends on the required assurance level. This super-linear scaling means that doubling software size more than doubles verification effort, which is the reason aerospace software programs came to dominate development-cost budgets for large aerospace platforms.
 
@@ -117,13 +156,19 @@ with exponent $\gamma$ in the range 1.05 to 1.20 for safety-critical software an
 
 The size of aerospace software systems grew faster than the general software industry could absorb throughout the 1960s and 1970s. The Apollo Guidance Computer executive contained roughly 40,000 words of software, per [Mindell 2008][book_mindell_digital_apollo]. The Space Shuttle primary avionics software contained roughly 400,000 source lines of HAL/S. The [Boeing 777][ref_boeing_777_avionics] flight-control system contained roughly two million lines of Ada. The [F-35 Lightning II][ref_f35_software] mission systems software contains approximately 25 million lines of code across a variety of languages. This growth followed an exponential trajectory approximated by
 
-$$L(t) = L_0 \cdot 2^{(t-t_0)/T_L}$$
+$$
+L(t) = L_0 \cdot 2^{(t-t_0)/T_L}
+\tag{14}
+$$
 
 with $T_L$ of order 6 to 8 years for major aerospace programs. The growth outran the productivity of general software engineering practice, which produced sustained pressure on programming language design and verification methodology that appears throughout the series. The empirical laws of software evolution formalized by [Lehman 1980][research_lehman_1980] state that continuing software growth alongside declining marginal productivity per line is a general property of large software systems rather than a defect to any one program. Aerospace software programs hit the Lehman-law regime earlier and harder than most other software domains because the reliability constraint prevented the compensating strategies of limited testing, tolerated defect rates, and iterative delivery that other domains used to keep growth productive.
 
 Team communication overhead as a function of team size, formalized in [Brooks 1975][book_brooks_mythical_man_month], scales quadratically in the number of team members. The number of pairwise communication channels among $n$ developers is
 
-$$C(n) = \binom{n}{2} = \frac{n(n-1)}{2}$$
+$$
+C(n) = \binom{n}{2} = \frac{n(n-1)}{2}
+\tag{15}
+$$
 
 which for a 100-person program yields 4,950 potential communication paths and for a 1,000-person program yields 499,500. Brooks used this scaling to argue that adding developers to a late software project delays it further, since the communication overhead absorbs the additional labor before it becomes productive. For large aerospace programs the practical consequence has been organizational compartmentalization by subsystem, interface control documents as the primary integration artifact, and language-and-tooling choices that support that compartmentalization.
 
@@ -139,11 +184,17 @@ The third axis is reliability and verification. What consequences followed from 
 
 The fourth axis is networking and distribution. What communication patterns did the program require between geographically or physically distributed computing elements? Air defense sensor fusion, mission control telemetry, and modern distributed simulation all fall on this axis. Bandwidth-delay product and message-loss tolerance are the relevant units. The bandwidth-delay product
 
-$$\text{BDP} = B \cdot T_{\text{RTT}}$$
+$$
+\text{BDP} = B \cdot T_{\text{RTT}}
+\tag{16}
+$$
 
 for bandwidth $B$ and round-trip time $T_{\text{RTT}}$ gives the amount of data in flight on the network at any moment, and this quantity sets the buffering, retransmission, and acknowledgment strategy the protocol must use. Queueing-theoretic analysis of packet-switched networks was established in [Kleinrock 1961][research_kleinrock_1961] and became the mathematical foundation on which the ARPANET was later designed, per the direct account in [Roberts and Wessler 1970][research_roberts_wessler_1970]. The upper bound on information rate for a channel of bandwidth $B$ and signal-to-noise ratio $\mathrm{SNR}$, established by [Shannon 1948][research_shannon_1948] and [Shannon 1949][research_shannon_1949], is
 
-$$C = B \log_2(1 + \mathrm{SNR})$$
+$$
+C = B \log_2(1 + \mathrm{SNR})
+\tag{17}
+$$
 
 which sets the fundamental limit on how much information can move across any channel. Both quantities appear repeatedly in air defense radar link engineering, mission control telemetry design, and modern software-defined radio for aerospace platforms.
 
@@ -163,7 +214,10 @@ Mechanical fire-control computers formed a third precursor thread. The [Ford Ins
 
 Radar entered service between 1935 and 1940 and immediately created data-processing demands that overwhelmed manual methods. Britain's Chain Home network required plotters and filter rooms whose organization is described in [Bowen 1998][book_bowen_radar_days]. The radar range equation, in the form derived in [Skolnik 1962][book_skolnik_radar], gives the maximum detection range $R$ of a target of radar cross-section $\sigma$ as
 
-$$R^4 = \frac{P_t G^2 \lambda^2 \sigma}{(4\pi)^3 P_{r,\min}}$$
+$$
+R^4 = \frac{P_t G^2 \lambda^2 \sigma}{(4\pi)^3 P_{r,\min}}
+\tag{18}
+$$
 
 where $P_t$ is transmitted power, $G$ is antenna gain, $\lambda$ is wavelength, and $P_{r,\min}$ is the minimum detectable received power. The fourth-power dependence of returned signal on target range means that doubling detection range requires a sixteenfold increase in transmitter power, antenna gain, or receiver sensitivity, which set the engineering trade the radar and computing communities faced together. The problem of automating radar-track fusion was recognized before the war ended and became one of the direct driving problems for SAGE, the large-scale real-time air defense computing system introduced earlier in this article.
 
@@ -208,6 +262,204 @@ The tone throughout is analytical rather than celebratory. Aerospace history has
 The aerospace-computing co-development arc is a historical process with a mechanism, a set of forcing constraints, and a set of artifacts that neither field would have produced alone. This article has stated the mechanism as a coupled first-order dynamical system, characterized the substrate as defense-funded semiconductor manufacturing, formalized the real-time and reliability constraints that distinguish aerospace computing from commercial computing, and laid out the six-axis analytical framework that subsequent articles apply. The preindustrial baseline in the human-computer bureau, the differential analyzer, and the mechanical fire-control computer supplies the point of departure from which the twentieth-century arc runs.
 
 The next article in the series covers pre-war computing origins and ballistics with primary focus on the applications that produced the demand for the machines that followed.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 18 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 18, 12 are established and 6 are bespoke.
+The capabilities $H$ and $S$ are dimensionless logarithmic indices of composite capability rather than measurable quantities, so the coupled model fixes a shape of growth and not a level, while the cost, scheduling, reliability, network and radar relations carry the ordinary units of their fields, with times in seconds or years as each equation states.
+
+*Equation 1, Bespoke Growth of Aerospace Capability Driven by Computing.*
+The article models the growth rate of an aerospace capability index as linear in the computing capability index plus an exogenous forcing term, a coupling it constructs for the series.
+
+$$
+\frac{dH(t)}{dt} = \alpha \cdot S(t) + f_H(t)
+\tag{1}
+$$
+
+*Equation 2, Bespoke Growth of Computing Capability Driven by Aerospace Demand.*
+The companion equation of the article's coupled model makes the growth rate of the computing index linear in the aerospace index plus its own exogenous forcing term.
+
+$$
+\frac{dS(t)}{dt} = \beta \cdot H(t) + f_S(t)
+\tag{2}
+$$
+
+*Equation 3, Bespoke Homogeneous Solution for Aerospace Capability.*
+Setting both forcing terms to zero, an assumption the article makes to isolate the coupling, the aerospace index grows as a combination of hyperbolic functions with rate $\sqrt{\alpha\beta}$.
+
+$$
+H(t) = H_0 \cosh\left(\sqrt{\alpha\beta}\,t\right) + S_0 \sqrt{\frac{\alpha}{\beta}} \sinh\left(\sqrt{\alpha\beta}\,t\right)
+\tag{3}
+$$
+
+*Equation 4, Bespoke Homogeneous Solution for Computing Capability.*
+Under the same assumption of zero forcing, the computing index follows the matching hyperbolic solution with the same combined rate constant.
+
+$$
+S(t) = S_0 \cosh\left(\sqrt{\alpha\beta}\,t\right) + H_0 \sqrt{\frac{\beta}{\alpha}} \sinh\left(\sqrt{\alpha\beta}\,t\right)
+\tag{4}
+$$
+
+**Equation 5, Moore Doubling Law.**
+Transistor density doubles once in every doubling period $T_M$, which is the exponential form of Moore's observation.
+[Moore][ref_moore_1965]
+
+$$
+N(t) = N_0 \cdot 2^{t/T_M}
+\tag{5}
+$$
+
+**Equation 6, Wright Learning Curve.**
+Unit cost falls as a power of cumulative production volume with learning exponent $\lambda$, the form Wright stated for aircraft manufacture.
+[Wright 1936][research_wright_1936]
+[Nagy et al. 2013][research_nagy_farmer_bui_trancik_2013]
+
+$$
+C(N) = C_0 \cdot N^{-\lambda}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Cost per Transistor over Time.*
+Substituting the Moore doubling into the Wright curve rests on the article's assumption that cumulative transistor volume grows in step with density, which turns the learning curve into an exponential decline in time.
+
+$$
+C_{\text{transistor}}(t) = C_0 \cdot 2^{-\lambda \cdot t / T_M}
+\tag{7}
+$$
+
+**Equation 8, Real-Time Deadline Condition.**
+A flight-control loop must complete its computation within the time scale set by the vehicle dynamics, which is the defining condition of hard real-time control.
+
+$$
+T_{\text{response}} \le T_{\text{dynamics}}
+\tag{8}
+$$
+
+**Equation 9, Liu and Layland Utilisation Bound.**
+A set of $n$ periodic tasks under rate monotonic scheduling meets every deadline when its total utilisation lies below this bound, which tends to $\ln 2$ as $n$ grows.
+[Liu and Layland 1973][research_liu_layland_1973]
+
+$$
+U_n = n \left(2^{1/n} - 1\right)
+\tag{9}
+$$
+
+**Equation 10, Worst-Case Response Time Recurrence.**
+The worst-case response time of a task is the smallest fixed point of its own computation time plus the interference from every higher-priority task released within that time.
+[Joseph and Pandya 1986][research_joseph_pandya_1986]
+[Audsley et al. 1993][research_audsley_burns_richardson_tindell_wellings_1993]
+
+$$
+R_i = C_i + \sum_{j \in \text{hp}(i)} \left\lceil \frac{R_i}{T_j} \right\rceil C_j
+\tag{10}
+$$
+
+**Equation 11, Reliability of Triple Modular Redundancy.**
+With a perfect voter and independent modules, a majority of three succeeds when at least two modules work, which gives this cubic in the module reliability.
+[von Neumann 1956][research_von_neumann_1956]
+[Moore and Shannon 1956][research_moore_shannon_1956]
+
+$$
+R_{\text{TMR}} = 3R^2 - 2R^3
+\tag{11}
+$$
+
+**Equation 12, Reliability of N-Modular Redundancy.**
+With $N = 2k + 1$ independent modules and a perfect voter, the system works when a majority of at least $k + 1$ modules works, a binomial tail sum.
+[von Neumann 1956][research_von_neumann_1956]
+[Moore and Shannon 1956][research_moore_shannon_1956]
+
+$$
+R_{\text{NMR}} = \sum_{i=k+1}^{N} \binom{N}{i} R^i (1 - R)^{N-i}
+\tag{12}
+$$
+
+**Equation 13, Power Law of Verification Effort in Software Size.**
+Verification effort grows as a power of software size with an exponent a little above one, the super-linear form of the empirical cost estimation literature.
+[Boehm 1981][book_boehm_software_engineering_economics]
+
+$$
+V(L) = k \cdot L^\gamma
+\tag{13}
+$$
+
+*Equation 14, Bespoke Exponential Growth of Aerospace Software Size.*
+The article approximates the size of major aerospace software programmes as doubling once in every period $T_L$ of six to eight years, a trend it fits to a handful of programmes.
+
+$$
+L(t) = L_0 \cdot 2^{(t-t_0)/T_L}
+\tag{14}
+$$
+
+**Equation 15, Pairwise Communication Channels in a Team.**
+The number of distinct pairs among $n$ developers grows quadratically, the count Brooks used to argue that communication overhead absorbs added labour.
+[Brooks 1975][book_brooks_mythical_man_month]
+
+$$
+C(n) = \binom{n}{2} = \frac{n(n-1)}{2}
+\tag{15}
+$$
+
+**Equation 16, Bandwidth-Delay Product.**
+The product of bandwidth and round-trip time is the amount of data in flight on a network link at any moment.
+
+$$
+\text{BDP} = B \cdot T_{\text{RTT}}
+\tag{16}
+$$
+
+**Equation 17, Shannon-Hartley Channel Capacity.**
+The highest error-free information rate of a channel grows with its bandwidth and with the logarithm of one plus its signal-to-noise ratio.
+[Shannon 1948][research_shannon_1948]
+[Shannon 1949][research_shannon_1949]
+
+$$
+C = B \log_2(1 + \mathrm{SNR})
+\tag{17}
+$$
+
+**Equation 18, Radar Range Equation.**
+The fourth power of the maximum detection range equals the transmitted power, squared antenna gain, squared wavelength and radar cross-section divided by the minimum detectable received power and the geometric factor.
+[Skolnik 1962][book_skolnik_radar]
+
+$$
+R^4 = \frac{P_t G^2 \lambda^2 \sigma}{(4\pi)^3 P_{r,\min}}
+\tag{18}
+$$
+
+### Notation
+
+- $H(t)$, the aerospace capability index at time $t$
+- $S(t)$, the computing capability index at time $t$
+- $\alpha$, the rate at which computing capability enables aerospace advances
+- $\beta$, the rate at which aerospace demand pulls computing capability forward
+- $f_H(t)$, the exogenous forcing on aerospace capability
+- $f_S(t)$, the exogenous forcing on computing capability
+- $T_M$, the Moore doubling period, 18 to 24 months
+- $C(N)$, the unit cost after cumulative volume $N$
+- $\lambda$, the learning-curve exponent in the cost relations, the wavelength in the radar range equation
+- $U_n$, the rate monotonic utilisation bound for $n$ tasks
+- $R_i$, the worst-case response time of task $i$
+- $C_i$, the computation time of task $i$
+- $T_j$, the period of task $j$
+- $\text{hp}(i)$, the set of tasks with higher priority than task $i$
+- $R_{\text{TMR}}$, the reliability of a triple modular redundant system
+- $R_{\text{NMR}}$, the reliability of an $N$-modular redundant system
+- $V(L)$, the verification effort in engineering hours for software of size $L$
+- $\gamma$, the verification effort exponent, 1.05 to 1.20
+- $T_L$, the doubling period of aerospace software size, six to eight years
+- $T_{\text{RTT}}$, the round-trip time
+- $\mathrm{SNR}$, the signal-to-noise ratio
+- $P_t$, the transmitted power
+- $G$, the antenna gain
+- $\sigma$, the radar cross-section of the target
+- $P_{r,\min}$, the minimum detectable received power
 
 ## References
 

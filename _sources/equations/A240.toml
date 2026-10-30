@@ -1,0 +1,119 @@
+# Equation classification for A240. Read by `python3 _lib/equations.py`.
+
+caution = "Areas are in square kilometres, ranges in kilometres and speeds in kilometres per hour, mean times between failures are in hours, availability and reliability are probabilities between zero and one, and the productivity figure counts source lines per programmer per year."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Lower Bound on Radar Station Count"
+gloss = "The article bounds the number of radar stations by dividing the coverage area by the circular footprint of one station, an ideal packing with no overlap that only understates the real count."
+cite = []
+digest = "f713870d534ff7e8"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Response Time Budget Against an Approaching Bomber"
+gloss = "The defence must respond within the time an approaching bomber takes to cover the detection range at its speed."
+cite = []
+digest = "7b2b30de0968400e"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Instruction Rate of Whirlwind"
+gloss = "The reciprocal of the two-microsecond instruction cycle gives about half a million operations per second."
+cite = []
+digest = "a8532656dd9e592e"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Coincident-Current Selection Condition"
+gloss = "A core switches only where the row and column half-select currents together reach the switching threshold, while either current alone stays below it."
+cite = ["research_forrester_1948", "research_forrester_1951"]
+digest = "4a1af1bc2dc81b55"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Naive Failure Interval of the AN/FSQ-7"
+gloss = "The series reliability model is evaluated with fifty-five thousand tubes and a tube life of ten thousand hours that the article assumes, giving about eleven minutes between failures."
+cite = []
+digest = "8c54ffeb7459076c"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Availability of a Dual Redundant Pair"
+gloss = "With independent failures and switchover to a hot standby, the pair is unavailable only when both computers have failed."
+cite = []
+digest = "e160bd0a9c48c2bb"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Naive Track Fusion Cost per Scan"
+gloss = "The article counts the correlations per scan as every new report from every radar compared against every established track, a naive all-pairs model with no gating."
+cite = []
+digest = "2d2f3f1a967eb8e5"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Average Productivity of the SAGE Programmers"
+gloss = "Dividing the half a million source lines of the Semi-Automatic Ground Environment by the peak workforce of seven hundred held over seven years, an assumption the article makes about staffing and duration, gives about one hundred lines per programmer per year."
+cite = ["research_benington_1983"]
+digest = "744f4e6bc3d04cb8"
+
+[[symbol]]
+tex = 'A_{\text{total}}'
+meaning = "the area to be covered, about $2 \\times 10^7$ square kilometres"
+
+[[symbol]]
+tex = 'R_{\text{radar}}'
+meaning = "the detection range of one radar station"
+
+[[symbol]]
+tex = 'R_{\text{detection}}'
+meaning = "the detection range against an approaching bomber"
+
+[[symbol]]
+tex = 'v_{\text{target}}'
+meaning = "the target speed"
+
+[[symbol]]
+tex = 'T_{\text{cycle}}'
+meaning = "the Whirlwind instruction cycle time"
+
+[[symbol]]
+tex = 'I_{\text{switch}}'
+meaning = "the current threshold at which a core switches"
+
+[[symbol]]
+tex = 'T_{\text{tube}}'
+meaning = "the mean time between failures of one vacuum tube"
+
+[[symbol]]
+tex = 'N_{\text{tubes}}'
+meaning = "the number of tubes, about 55,000 per AN/FSQ-7"
+
+[[symbol]]
+tex = 'R'
+meaning = "the reliability of one operational computer"
+
+[[symbol]]
+tex = 'M_{\text{tracks}}'
+meaning = "the track reports per radar per scan"
+
+[[symbol]]
+tex = 'T_{\text{tracks}}'
+meaning = "the size of the established track database"
+
+[[symbol]]
+tex = 'L_{\text{SAGE}}'
+meaning = "the SAGE software size in source lines"
+
+[[symbol]]
+tex = 'T_{\text{years}}'
+meaning = "the development duration in years"

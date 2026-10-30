@@ -1,0 +1,83 @@
+# Equation classification for A229. Read by `python3 _lib/equations.py`.
+
+caution = "Enrolment and capital shares are fractions between zero and one, growth rates are continuous annual rates written as fractions, and the war-loss ratio is a fractional loss of output that is negative when output grew."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Saturation Form of Primary Enrolment"
+gloss = "The article describes the rise of Japanese primary enrolment from about thirty percent in 1873 to over ninety percent by 1900 by an exponential approach to full enrolment, a functional form it chose to summarise the trend."
+cite = []
+digest = "1cfa7a0fd702100f"
+
+[[symbol]]
+tex = 'L(t)'
+meaning = "the fraction of eligible children enrolled in primary education"
+
+[[symbol]]
+tex = 'L_0'
+meaning = "the 1873 initial enrolment rate"
+
+[[symbol]]
+tex = 't_0'
+meaning = "the starting year, 1873"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the enrolment saturation rate"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Capital Share of the Four Largest Zaibatsu"
+gloss = "By the mid-1930s the four largest zaibatsu held at least a quarter of the paid-in capital of the modern industrial sector."
+cite = []
+digest = "8d0f567d74be7ce9"
+
+[[symbol]]
+tex = 'C_4'
+meaning = "the share of paid-in capital held by the four largest zaibatsu combined"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Meiji Catch-Up Time"
+gloss = "The catch-up equation of the series opener evaluated with an initial ratio of about four against Britain in 1885 and a growth rate premium of about three percentage points, both values the article takes as representative, gives a window of about forty-six years."
+cite = ["related_post_industrialization_framing"]
+digest = "3f53eac077938fde"
+
+[[symbol]]
+tex = 't_{\text{catch}}'
+meaning = "the time to close the per-capita gap"
+
+[[symbol]]
+tex = 'R'
+meaning = "the initial ratio of leader to follower per-capita output"
+
+[[symbol]]
+tex = 'g_J'
+meaning = "the Japanese per-capita growth rate"
+
+[[symbol]]
+tex = 'g_l'
+meaning = "the per-capita growth rate of the leader"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke War-Loss Ratio"
+gloss = "The article defines the war-loss ratio as one minus aggregate industrial output at the end of the war divided by output at the wartime peak, an index that is about one half for Japan."
+cite = []
+digest = "e88ae60881673406"
+
+[[symbol]]
+tex = 'D'
+meaning = "the war-loss ratio"
+
+[[symbol]]
+tex = 'Y_{\text{peak}}'
+meaning = "aggregate industrial output at the 1941 wartime peak"
+
+[[symbol]]
+tex = 'Y_{\text{end}}'
+meaning = "aggregate industrial output at the end of the war in 1946"

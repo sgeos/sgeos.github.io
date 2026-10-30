@@ -1,0 +1,39 @@
+# Equation classification for A235. Read by `python3 _lib/equations.py`.
+
+caution = "The resource-rent share and the per-capita ratio are fractions between zero and one, the ratio is taken against the United States, and the resource growth differential is in percentage points per year with a negative sign meaning slower growth."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Resource-Rent Share in the Gulf Economies"
+gloss = "During peak oil-price windows hydrocarbon rents make up at least thirty percent of gross domestic product in the Gulf economies."
+cite = []
+digest = "c3e8f981fbe9aad3"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the resource-rent share of gross domestic product"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Sachs and Warner Resource-Curse Growth Differential"
+gloss = "The cross-country regressions of Sachs and Warner estimate that resource-abundant economies grew one to two percentage points per year more slowly than resource-poor economies at similar initial income."
+cite = ["research_sachs_warner_resource_curse"]
+digest = "bc190789069c60e3"
+
+[[symbol]]
+tex = '\Delta g_{\text{resource}}'
+meaning = "the per-capita growth rate differential between resource-abundant and resource-poor economies"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Russian Per-Capita Ratio against the United States"
+gloss = "The Russian per-capita ratio against the United States fell from about a fifth in 1991 to about eight percent in 1998, recovered to about eighteen percent in 2013 and eased to about fifteen percent in 2024."
+cite = []
+digest = "3fc1ea829b346690"
+
+[[symbol]]
+tex = 'R_{\text{RU}}'
+meaning = "the ratio of Russian to American per-capita output"

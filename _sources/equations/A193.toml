@@ -1,0 +1,151 @@
+# Equation classification for A193, the coalgebraic productivity analogy for stream processors. Read by `python3 _lib/equations.py`.
+
+caution = "Arrows denote morphisms between sets or types rather than numerical functions, a stream prefix written from zero to $n - 1$ holds its first $n$ elements, and every bound concerns counts of stream elements rather than time or bytes."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Coalgebra over a Functor"
+gloss = "A coalgebra is a carrier set with a morphism that decomposes each element into the structure the functor describes."
+cite = ["research_rutten_universal_coalgebra"]
+digest = "406202d441cee9e3"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Algebra and Coalgebra as Opposite Arrows"
+gloss = "An algebra maps the functor applied to the carrier into the carrier, while a coalgebra maps the carrier out into the functor, so the two settings differ only in the direction of the arrow."
+cite = ["research_rutten_universal_coalgebra"]
+digest = "736c0f6335e8b54c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Stream Functor"
+gloss = "The functor that describes streams over an alphabet pairs one element of the alphabet with an element of the carrier."
+cite = ["research_rutten_universal_coalgebra"]
+digest = "b1d42a594dbf05b8"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Stream Coalgebra"
+gloss = "A coalgebra for the stream functor pairs each element of the carrier with an output symbol and a subsequent element of the same type."
+cite = ["research_rutten_universal_coalgebra"]
+digest = "c8d8416173c9d0e5"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Head and Tail Projections"
+gloss = "The two components of the stream decomposition are conventionally called head, which yields the current symbol, and tail, which yields the next state."
+cite = ["research_rutten_universal_coalgebra"]
+digest = "802ffb24f5a8c973"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Stream Generated from an Initial State"
+gloss = "Iterating the tail and reading the head at each step unfolds the coalgebra from an initial state into its stream."
+cite = ["research_rutten_universal_coalgebra"]
+digest = "85ccc26309ce7df9"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Stream Derivative"
+gloss = "In the coinductive stream calculus the derivative of a stream is its tail."
+cite = ["research_rutten_stream_calculus"]
+digest = "a4123a2113253a2c"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Initial Value of a Stream"
+gloss = "In the coinductive stream calculus the initial value of a stream is its head."
+cite = ["research_rutten_stream_calculus"]
+digest = "db1384fd0680a86f"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Productivity Function"
+gloss = "Productivity is witnessed by a monotone non-decreasing function from natural numbers to natural numbers."
+cite = ["research_abel_pientka_copatterns"]
+digest = "6ad70f11e82d566f"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Productivity Condition"
+gloss = "A stream processor is productive when the first $m(n)$ output elements depend only on the first $n$ input elements for every input stream."
+cite = ["research_abel_pientka_copatterns"]
+digest = "6251b50ef36f160a"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Productivity Bound for a Bounded-Work Loop"
+gloss = "For a loop the article models as consuming at most a fixed number of input elements and emitting at least one output element per iteration, the productivity function after a number of iterations is at least that number."
+cite = []
+digest = "0af2518682be01c2"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Compiler as a Composition of Stage Processors"
+gloss = "A pipeline of stages, each a stream processor, composes into a single stream processor from source to output."
+cite = []
+digest = "219853daf24d136f"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Productivity Function of a Composed Pipeline"
+gloss = "The productivity function of a composed pipeline is the composition of the stage productivity functions, which is monotone and finite whenever each stage function is."
+cite = []
+digest = "36e7812f317818f6"
+
+[[symbol]]
+tex = 'X'
+meaning = "the carrier set of a coalgebra"
+
+[[symbol]]
+tex = 'F(X)'
+meaning = "a functor applied to the carrier"
+
+[[symbol]]
+tex = 'c'
+meaning = "the decomposition morphism of a coalgebra"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the structure morphism of an algebra"
+
+[[symbol]]
+tex = 'A'
+meaning = "the stream alphabet"
+
+[[symbol]]
+tex = 'x_0'
+meaning = "the initial state from which a stream is generated"
+
+[[symbol]]
+tex = 's'
+meaning = "a stream"
+
+[[symbol]]
+tex = 'm'
+meaning = "the productivity function"
+
+[[symbol]]
+tex = 'W_{\text{iter}}'
+meaning = "the maximum input elements consumed per loop iteration"
+
+[[symbol]]
+tex = 'f_k'
+meaning = "the stream processor of stage $k$"
+
+[[symbol]]
+tex = 'm_k'
+meaning = "the productivity function of stage $k$"

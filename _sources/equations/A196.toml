@@ -1,0 +1,135 @@
+# Equation classification for A196, symbol tables and scope popping for bounded memory. Read by `python3 _lib/equations.py`.
+
+caution = "Symbol table sizes count entries rather than bytes, nesting depths count scope levels, and the bounds on nested scopes exclude the outermost scope, whose size grows with the number of top-level declarations."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Symbol Table as a Stack of Scopes"
+gloss = "The symbol table at a position is the merge of the scopes open there, from the outermost to the innermost, with inner declarations shadowing outer ones."
+cite = []
+digest = "d59c3980f990059d"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Enter Scope"
+gloss = "Recognising a scope opener pushes an empty scope onto the scope stack."
+cite = []
+digest = "35e8839d7767b1d7"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Exit Scope"
+gloss = "Recognising a scope closer pops the innermost scope and discards every identifier declared in it."
+cite = []
+digest = "8069beefe75144b0"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Declare Identifier"
+gloss = "A recognised declaration adds the identifier and its entry to the innermost scope."
+cite = []
+digest = "18b40c545678cde0"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Innermost-First Lookup"
+gloss = "Lookup walks the scope stack from the innermost to the outermost scope and returns the first matching entry, which implements lexical shadowing."
+cite = []
+digest = "de6568ca0f20b8f9"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Product Bound on Symbol Table Size"
+gloss = "The article bounds the table by the maximum nesting depth times the maximum declarations per scope, a bound that holds for nested scopes but that the article later separates from the growing outermost scope."
+cite = []
+digest = "7518e72ee0138169"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Symbol Table Size Estimate"
+gloss = "The product bound is evaluated with a nesting depth of thirty and two hundred declarations per scope, values the article takes as typical, giving at most six thousand entries."
+cite = []
+digest = "6d2ef810a69eba1b"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Split into Nested and Top-Level Portions"
+gloss = "The article divides the table into a nested-scope portion bounded by depth and scope size and a top-level portion that grows with the count of top-level declarations."
+cite = []
+digest = "99701444626fa592"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Lookup Cost with Hash-Indexed Scopes"
+gloss = "With a constant-time lookup in each scope, a walk of the scope stack costs time linear in the maximum nesting depth."
+cite = []
+digest = "54db779014e78117"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Lookup Cost with Tree-Indexed Scopes"
+gloss = "With a logarithmic lookup in each scope, a walk of the scope stack costs the nesting depth times the logarithm of the scope size."
+cite = []
+digest = "62549555c145b4c6"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Compiler Working Memory Budget"
+gloss = "The article bounds working memory by the sum of the fixup buffer, the symbol table and a small constant for the parser stack, emission buffer and other state."
+cite = []
+digest = "12f32ec390b2e94b"
+
+[[symbol]]
+tex = 'T_i'
+meaning = "the symbol table at source position $i$"
+
+[[symbol]]
+tex = 'S_d'
+meaning = "the innermost scope, at nesting depth $d$, with $S_1$ the outermost"
+
+[[symbol]]
+tex = '\sqcup'
+meaning = "the merge of scopes in which inner declarations shadow outer ones"
+
+[[symbol]]
+tex = 'e'
+meaning = "the entry recorded for an identifier"
+
+[[symbol]]
+tex = 'd_{\max}'
+meaning = "the maximum scope nesting depth"
+
+[[symbol]]
+tex = 's_{\max}'
+meaning = "the maximum per-scope declaration count"
+
+[[symbol]]
+tex = 'T_{\text{nested}}'
+meaning = "the nested-scope portion of the symbol table"
+
+[[symbol]]
+tex = 'T_{\text{top-level}}'
+meaning = "the outermost-scope portion of the symbol table"
+
+[[symbol]]
+tex = 'M_{\text{fixup}}'
+meaning = "the memory of the fixup buffer"
+
+[[symbol]]
+tex = 'M_{\text{symtab}}'
+meaning = "the memory of the symbol table"
+
+[[symbol]]
+tex = 'M_{\text{other}}'
+meaning = "a small constant for the parser stack, emission buffer and other state"

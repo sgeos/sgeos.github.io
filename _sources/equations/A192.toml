@@ -1,0 +1,103 @@
+# Equation classification for A192, block-structured single-pass validation. Read by `python3 _lib/equations.py`.
+
+caution = "Positions index instructions in the stream from zero, stacks are written with the top at the right, and every cost is an asymptotic count of verifier steps in the instruction count rather than a measured time."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Block-Nesting Invariant"
+gloss = "At every position the block-nesting stack equals the stack of block openers that precede the position and remain unclosed."
+cite = []
+digest = "f7145c334fc883ac"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Type-Consistency Invariant"
+gloss = "At every position the type stack equals the types of the runtime stack that any execution reaching the position would produce."
+cite = []
+digest = "d3fb91d49257ffeb"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Block-Closer Type Check"
+gloss = "The type stacks at a block's opener and closer share a common base and differ only in a top portion given by the block's declared input and output types."
+cite = []
+digest = "21892d21ce22127f"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Linear Cost of Single-Pass Validation"
+gloss = "Each position is checked locally in constant time during one forward sweep, so the verification cost is linear in the instruction count."
+cite = []
+digest = "51ab61184df5f937"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Worst-Case Cost of Java Bytecode Verification"
+gloss = "The article bounds the Java Virtual Machine verifier by assuming that each merge point may be revisited a number of times proportional to the subtype-lattice height, giving a product of instruction count, merge points and height."
+cite = []
+digest = "99d1bea6d37780f2"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Overhead Ratio of Unstructured Control Flow"
+gloss = "Dividing the article's Java bytecode bound by the linear block-structured cost gives a multiplicative overhead in merge points and lattice height that the article attributes to arbitrary jumps."
+cite = []
+digest = "3f067ffff9aa613f"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "WebAssembly Type Soundness"
+gloss = "Every execution trace of a module that the validator accepts never reaches a stuck state, the property Watt proved in a mechanised specification."
+cite = ["research_watt_wasm"]
+digest = "6a4f4c88cf8e9b08"
+
+[[symbol]]
+tex = 'B_{\text{at } i}'
+meaning = "the block-nesting stack at position $i$"
+
+[[symbol]]
+tex = 'S_{\text{at } i}'
+meaning = "the type stack at position $i$"
+
+[[symbol]]
+tex = '\sigma_{\text{in}}'
+meaning = "the declared input types of a block"
+
+[[symbol]]
+tex = '\sigma_{\text{out}}'
+meaning = "the declared output types of a block"
+
+[[symbol]]
+tex = 'R'
+meaning = "the common base of the type stacks at a block's opener and closer"
+
+[[symbol]]
+tex = 'S_o'
+meaning = "the type stack at the opener position $o$"
+
+[[symbol]]
+tex = 'S_c'
+meaning = "the type stack at the closer position $c$"
+
+[[symbol]]
+tex = 'n'
+meaning = "the total instruction count"
+
+[[symbol]]
+tex = 'm'
+meaning = "the number of merge points"
+
+[[symbol]]
+tex = 'h'
+meaning = "the maximum subtype-lattice height met during verification"
+
+[[symbol]]
+tex = '\tau'
+meaning = "an execution trace of module $M$"

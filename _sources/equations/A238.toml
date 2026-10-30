@@ -1,0 +1,175 @@
+# Equation classification for A238. Read by `python3 _lib/equations.py`.
+
+caution = "Times are given in the unit each comparison states, hours for human computation, minutes for the differential analyser and seconds for the Electronic Numerical Integrator and Computer, energies are in joules per operation and the mean times between failures in hours, while operation counts are dimensionless order-of-magnitude figures."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Point-Mass Equation of Exterior Ballistics"
+gloss = "A projectile treated as a point mass accelerates under gravity and an aerodynamic drag that opposes its velocity and scales with air density, the square of the speed and a Mach-dependent drag coefficient."
+cite = ["book_mccoy_modern_exterior_ballistics"]
+digest = "34cb806978420bc8"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Operation Count of One Firing Table"
+gloss = "The operation count multiplies the sourced fifteen hundred trajectories by seven hundred and fifty operations per trajectory, the midpoint the article takes of a stated range of five hundred to one thousand multiplications."
+cite = ["book_grier_when_computers_were_human"]
+digest = "d3128cdb115bb0e7"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Linear Lead Prediction of the Aim Point"
+gloss = "In its simplest form the aim point is the present target position advanced along the target velocity for the projectile time of flight, which itself depends on the aim point."
+cite = []
+digest = "0dc0003108a37a3a"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Output Rate of a Disk-and-Ball Integrator"
+gloss = "The output shaft of a disk-and-ball integrator turns at the disk rate scaled by the ratio of the ball displacement to the wheel radius."
+cite = ["research_thomson_1876", "book_mindell_between_human_and_machine"]
+digest = "5259628e53b39fcc"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Accumulated Rotation as a Mechanical Integral"
+gloss = "Accumulating the output rate over time makes the output rotation proportional to the integral of the displacement with respect to the disk rotation."
+cite = ["research_thomson_1876", "book_mindell_between_human_and_machine"]
+digest = "a54a7d8a2a668ef2"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Fall Time of a Bomb Without Drag"
+gloss = "A bomb released in level flight and falling without air resistance reaches the ground after the free-fall time from its release altitude."
+cite = []
+digest = "e2b97ded9a8797eb"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Horizontal Trail Distance Without Drag"
+gloss = "Without air resistance the bomb keeps the aircraft ground speed through its fall, so its horizontal travel is that speed multiplied by the fall time."
+cite = []
+digest = "63e61e6adba3cef8"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Accumulated Error of Uncorrelated Integrators"
+gloss = "For a chain of integrators with equal and uncorrelated errors, the total error grows as the square root of the number of integrators."
+cite = []
+digest = "e43a885291548f1e"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Maximum Sequential Rate of a Relay Computer"
+gloss = "The highest sequential operation rate is the reciprocal of the relay switching time, fifty to two hundred operations per second for switching times of five to twenty milliseconds."
+cite = []
+digest = "934ba4becf48ec88"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Product of Two Complex Numbers"
+gloss = "The product of two complex numbers takes four real multiplications and two real additions."
+cite = []
+digest = "c7571fb0f8f213af"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Relative Times for One Trajectory"
+gloss = "Thirty seconds on the Electronic Numerical Integrator and Computer, fifteen minutes on the differential analyser and twenty hours by hand stand in the ratio of one to thirty to two thousand four hundred."
+cite = ["research_goldstine_goldstine_1946"]
+digest = "93befbd2479f6a4f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Mean Time Between Failures of a Series System"
+gloss = "When every one of many tubes with uncorrelated failures must work, the mean time between failures of the machine is that of one tube divided by the number of tubes."
+cite = []
+digest = "1a0317ad70eb1f14"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Energy per Addition of the ENIAC"
+gloss = "Dividing the documented power of one hundred and fifty kilowatts by the documented five thousand additions per second gives thirty joules per addition."
+cite = ["research_goldstine_goldstine_1946"]
+digest = "782132d78fc2c0b0"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Time to Produce One Firing Table"
+gloss = "The time to produce a table is the number of trajectories multiplied by the time to compute one trajectory on the method in use."
+cite = []
+digest = "eaa6d62174fcd9c6"
+
+[[symbol]]
+tex = '\mathbf{x}'
+meaning = "the projectile position"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the atmospheric density"
+
+[[symbol]]
+tex = 'C_d(M)'
+meaning = "the drag coefficient as a function of Mach number $M$"
+
+[[symbol]]
+tex = 'A'
+meaning = "the projectile cross-sectional area"
+
+[[symbol]]
+tex = 'T_{\text{flight}}'
+meaning = "the projectile time of flight to the aim point"
+
+[[symbol]]
+tex = 'y(t)'
+meaning = "the radius of the ball from the disk centre"
+
+[[symbol]]
+tex = 'R'
+meaning = "the ball wheel radius"
+
+[[symbol]]
+tex = 'H'
+meaning = "the release altitude"
+
+[[symbol]]
+tex = 'v_g'
+meaning = "the ground speed of the bomber"
+
+[[symbol]]
+tex = '\epsilon'
+meaning = "the error of one integrator"
+
+[[symbol]]
+tex = 't_{\text{switch}}'
+meaning = "the relay switching time, five to twenty milliseconds"
+
+[[symbol]]
+tex = 'T_{\text{tube}}'
+meaning = "the mean time between failures of one vacuum tube"
+
+[[symbol]]
+tex = 'N_{\text{tubes}}'
+meaning = "the number of vacuum tubes, 17,468 in the ENIAC"
+
+[[symbol]]
+tex = 'r_{\text{ops}}'
+meaning = "the operation rate"
+
+[[symbol]]
+tex = 't_{\text{trajectory}}'
+meaning = "the time to compute one trajectory"

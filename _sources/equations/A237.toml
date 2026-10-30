@@ -1,0 +1,247 @@
+# Equation classification for A237. Read by `python3 _lib/equations.py`.
+
+caution = "The capabilities $H$ and $S$ are dimensionless logarithmic indices of composite capability rather than measurable quantities, so the coupled model fixes a shape of growth and not a level, while the cost, scheduling, reliability, network and radar relations carry the ordinary units of their fields, with times in seconds or years as each equation states."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Growth of Aerospace Capability Driven by Computing"
+gloss = "The article models the growth rate of an aerospace capability index as linear in the computing capability index plus an exogenous forcing term, a coupling it constructs for the series."
+cite = []
+digest = "6bfc7e8c6bcb51a6"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Growth of Computing Capability Driven by Aerospace Demand"
+gloss = "The companion equation of the article's coupled model makes the growth rate of the computing index linear in the aerospace index plus its own exogenous forcing term."
+cite = []
+digest = "70a088ed306cae5a"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Homogeneous Solution for Aerospace Capability"
+gloss = "Setting both forcing terms to zero, an assumption the article makes to isolate the coupling, the aerospace index grows as a combination of hyperbolic functions with rate $\\sqrt{\\alpha\\beta}$."
+cite = []
+digest = "6561b72a56466224"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Homogeneous Solution for Computing Capability"
+gloss = "Under the same assumption of zero forcing, the computing index follows the matching hyperbolic solution with the same combined rate constant."
+cite = []
+digest = "f47f4a54de1ab2ef"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Moore Doubling Law"
+gloss = "Transistor density doubles once in every doubling period $T_M$, which is the exponential form of Moore's observation."
+cite = ["ref_moore_1965"]
+digest = "7c74df421e767c57"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Wright Learning Curve"
+gloss = "Unit cost falls as a power of cumulative production volume with learning exponent $\\lambda$, the form Wright stated for aircraft manufacture."
+cite = ["research_wright_1936", "research_nagy_farmer_bui_trancik_2013"]
+digest = "0f39fae3e3005487"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Cost per Transistor over Time"
+gloss = "Substituting the Moore doubling into the Wright curve rests on the article's assumption that cumulative transistor volume grows in step with density, which turns the learning curve into an exponential decline in time."
+cite = []
+digest = "fa235048f65e8be6"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Real-Time Deadline Condition"
+gloss = "A flight-control loop must complete its computation within the time scale set by the vehicle dynamics, which is the defining condition of hard real-time control."
+cite = []
+digest = "4ad51078c8fc6f1b"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Liu and Layland Utilisation Bound"
+gloss = "A set of $n$ periodic tasks under rate monotonic scheduling meets every deadline when its total utilisation lies below this bound, which tends to $\\ln 2$ as $n$ grows."
+cite = ["research_liu_layland_1973"]
+digest = "40095b050ed8a570"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Worst-Case Response Time Recurrence"
+gloss = "The worst-case response time of a task is the smallest fixed point of its own computation time plus the interference from every higher-priority task released within that time."
+cite = ["research_joseph_pandya_1986", "research_audsley_burns_richardson_tindell_wellings_1993"]
+digest = "ee86430a02d67123"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Reliability of Triple Modular Redundancy"
+gloss = "With a perfect voter and independent modules, a majority of three succeeds when at least two modules work, which gives this cubic in the module reliability."
+cite = ["research_von_neumann_1956", "research_moore_shannon_1956"]
+digest = "869b412f7dfbd8f8"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Reliability of N-Modular Redundancy"
+gloss = "With $N = 2k + 1$ independent modules and a perfect voter, the system works when a majority of at least $k + 1$ modules works, a binomial tail sum."
+cite = ["research_von_neumann_1956", "research_moore_shannon_1956"]
+digest = "7732b9cb2bc61739"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Power Law of Verification Effort in Software Size"
+gloss = "Verification effort grows as a power of software size with an exponent a little above one, the super-linear form of the empirical cost estimation literature."
+cite = ["book_boehm_software_engineering_economics"]
+digest = "e032c104e0f72300"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Exponential Growth of Aerospace Software Size"
+gloss = "The article approximates the size of major aerospace software programmes as doubling once in every period $T_L$ of six to eight years, a trend it fits to a handful of programmes."
+cite = []
+digest = "265194dc5af5d8b5"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Pairwise Communication Channels in a Team"
+gloss = "The number of distinct pairs among $n$ developers grows quadratically, the count Brooks used to argue that communication overhead absorbs added labour."
+cite = ["book_brooks_mythical_man_month"]
+digest = "e7e26fd7a2d1dd76"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Bandwidth-Delay Product"
+gloss = "The product of bandwidth and round-trip time is the amount of data in flight on a network link at any moment."
+cite = []
+digest = "0a4c66d0e49e050e"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Shannon-Hartley Channel Capacity"
+gloss = "The highest error-free information rate of a channel grows with its bandwidth and with the logarithm of one plus its signal-to-noise ratio."
+cite = ["research_shannon_1948", "research_shannon_1949"]
+digest = "7e783d19378be465"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Radar Range Equation"
+gloss = "The fourth power of the maximum detection range equals the transmitted power, squared antenna gain, squared wavelength and radar cross-section divided by the minimum detectable received power and the geometric factor."
+cite = ["book_skolnik_radar"]
+digest = "3061da37c8c8249f"
+
+[[symbol]]
+tex = 'H(t)'
+meaning = "the aerospace capability index at time $t$"
+
+[[symbol]]
+tex = 'S(t)'
+meaning = "the computing capability index at time $t$"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the rate at which computing capability enables aerospace advances"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the rate at which aerospace demand pulls computing capability forward"
+
+[[symbol]]
+tex = 'f_H(t)'
+meaning = "the exogenous forcing on aerospace capability"
+
+[[symbol]]
+tex = 'f_S(t)'
+meaning = "the exogenous forcing on computing capability"
+
+[[symbol]]
+tex = 'T_M'
+meaning = "the Moore doubling period, 18 to 24 months"
+
+[[symbol]]
+tex = 'C(N)'
+meaning = "the unit cost after cumulative volume $N$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the learning-curve exponent in the cost relations, the wavelength in the radar range equation"
+
+[[symbol]]
+tex = 'U_n'
+meaning = "the rate monotonic utilisation bound for $n$ tasks"
+
+[[symbol]]
+tex = 'R_i'
+meaning = "the worst-case response time of task $i$"
+
+[[symbol]]
+tex = 'C_i'
+meaning = "the computation time of task $i$"
+
+[[symbol]]
+tex = 'T_j'
+meaning = "the period of task $j$"
+
+[[symbol]]
+tex = '\text{hp}(i)'
+meaning = "the set of tasks with higher priority than task $i$"
+
+[[symbol]]
+tex = 'R_{\text{TMR}}'
+meaning = "the reliability of a triple modular redundant system"
+
+[[symbol]]
+tex = 'R_{\text{NMR}}'
+meaning = "the reliability of an $N$-modular redundant system"
+
+[[symbol]]
+tex = 'V(L)'
+meaning = "the verification effort in engineering hours for software of size $L$"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the verification effort exponent, 1.05 to 1.20"
+
+[[symbol]]
+tex = 'T_L'
+meaning = "the doubling period of aerospace software size, six to eight years"
+
+[[symbol]]
+tex = 'T_{\text{RTT}}'
+meaning = "the round-trip time"
+
+[[symbol]]
+tex = '\mathrm{SNR}'
+meaning = "the signal-to-noise ratio"
+
+[[symbol]]
+tex = 'P_t'
+meaning = "the transmitted power"
+
+[[symbol]]
+tex = 'G'
+meaning = "the antenna gain"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the radar cross-section of the target"
+
+[[symbol]]
+tex = 'P_{r,\min}'
+meaning = "the minimum detectable received power"

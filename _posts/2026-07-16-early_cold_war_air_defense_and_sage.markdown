@@ -23,11 +23,17 @@ The Soviet detonation of its first atomic weapon on 29 August 1949 transformed U
 
 The scale of the air defense problem was set by three parameters. First, the coverage area was the entire continental United States plus Alaska and Canada, requiring radar coverage of approximately $2 \times 10^7$ square kilometers. For radar stations of individual detection range $R_{\text{radar}}$ providing circular ground coverage of area $\pi R_{\text{radar}}^2$ per station, the number of stations required for the coverage area $A_{\text{total}}$ scales as
 
-$$N_{\text{stations}} \gtrsim \frac{A_{\text{total}}}{\pi R_{\text{radar}}^2}$$
+$$
+N_{\text{stations}} \gtrsim \frac{A_{\text{total}}}{\pi R_{\text{radar}}^2}
+\tag{1}
+$$
 
 which for $R_{\text{radar}} \approx 300$ kilometers gives $N_{\text{stations}}$ of order 70 in the ideal packing case and more with realistic overlap for reliability and cross-radar track handoff. Second, the response time budget was set by the transit time of an approaching bomber from initial detection to weapons release,
 
-$$T_{\text{response}} \le \frac{R_{\text{detection}}}{v_{\text{target}}}$$
+$$
+T_{\text{response}} \le \frac{R_{\text{detection}}}{v_{\text{target}}}
+\tag{2}
+$$
 
 for detection range $R_{\text{detection}}$ and target speed $v_{\text{target}}$. For a Tu-95 Bear cruising at approximately 800 kilometers per hour, detection at a coastal radar station 400 kilometers offshore gave approximately 30 minutes before the bomber crossed the coastline, and roughly 1 to 2 hours before it reached major inland targets. Fighter interception required identifying the track, assigning an interceptor, vectoring it to the target, and closing to engagement range within this budget. Third, the coordinated-attack requirement demanded simultaneous track handling for hundreds of hostile aircraft rather than one-at-a-time engagement, which exceeded the operational capacity of manual filter rooms of the wartime Chain Home model treated in [A238][related_post_a238_pre_war_computing].
 
@@ -39,7 +45,10 @@ The Whirlwind computer was proposed by Jay Forrester in 1944 as the digital core
 
 Whirlwind was designed for real-time computation from its inception. The flight simulator application required maintaining an accurate representation of aircraft state at rates matching pilot control-input frequency, roughly 20 to 50 updates per second. This requirement drove several architectural decisions that distinguished Whirlwind from the general-purpose scientific computers of the same period. Whirlwind used a 16-bit word length rather than the 40-bit words common in contemporary machines, prioritizing per-word processing speed over per-word precision. It used a synchronous parallel design rather than the serial designs that had lower hardware costs but higher latency. It provided true interrupt handling for radar returns and other real-time events. The design decisions produced a computer with a 2 microsecond instruction cycle time and effective throughput of approximately
 
-$$r_{\text{Whirlwind}} = \frac{1}{T_{\text{cycle}}} \approx \frac{1}{2 \times 10^{-6} \text{ s}} \approx 5 \times 10^{5} \text{ operations per second}$$
+$$
+r_{\text{Whirlwind}} = \frac{1}{T_{\text{cycle}}} \approx \frac{1}{2 \times 10^{-6} \text{ s}} \approx 5 \times 10^{5} \text{ operations per second}
+\tag{3}
+$$
 
 which was approximately two orders of magnitude faster than the ENIAC when combined with the interrupt-driven scheduling that let the machine respond to external events without polling overhead. Whirlwind became operational in 1951 and was used for both flight simulation research and, increasingly, for real-time air defense experiments as the Cold War air defense requirement crystallized.
 
@@ -51,7 +60,10 @@ The Whirlwind's principal engineering problem in its early years was memory reli
 
 Forrester and William Papian at MIT developed magnetic-core memory as a replacement, per [Forrester 1948][research_forrester_1948] and the subsequent development documented in [Forrester 1951][research_forrester_1951]. Magnetic-core memory used small ferrite rings threaded with wires. Each core stored one bit as the polarity of its residual magnetization. Reading and writing were accomplished by driving half-select currents through the coincident row and column wires. The core switched only when both half-currents combined at the intersection, satisfying
 
-$$I_{\text{row}} + I_{\text{col}} \ge I_{\text{switch}}, \quad I_{\text{row}} < I_{\text{switch}}, \quad I_{\text{col}} < I_{\text{switch}}$$
+$$
+I_{\text{row}} + I_{\text{col}} \ge I_{\text{switch}}, \quad I_{\text{row}} < I_{\text{switch}}, \quad I_{\text{col}} < I_{\text{switch}}
+\tag{4}
+$$
 
 so that only the single core at the row-column intersection reached the switching threshold while all other cores along each individually energized wire remained undisturbed. The design achieved random-access read and write with per-bit access times of a few microseconds and mean time between failure of tens of thousands of hours per bit position, or effectively unlimited failure-free operation for a full memory array over practical time scales.
 
@@ -61,11 +73,17 @@ Papian's own primary technical description of the coincident-current magnetic me
 
 SAGE was organized around 23 Direction Centers, each responsible for air defense within a geographic sector of North America. Each Direction Center housed one operational and one standby AN/FSQ-7 computer, manufactured by International Business Machines Corporation hereafter IBM under contract to the MIT Lincoln Laboratory, with system engineering by the MITRE Corporation, which was spun off from Lincoln Laboratory specifically to manage the SAGE program. The AN/FSQ-7 was the largest computer ever built by valve count, containing approximately 55,000 vacuum tubes per machine and occupying roughly one acre of floor space. The primary technical account of the AN/FSQ-7 design is [Astrahan and Jacobs 1983][research_astrahan_jacobs_1983] in the IEEE Annals of the History of Computing, authored by two of the IBM engineers responsible for the machine. Applying the same vacuum-tube reliability model used for the ENIAC in [A238][related_post_a238_pre_war_computing], the naive per-machine MTBF from independent tube failures alone would be
 
-$$T_{\text{AN/FSQ-7}} \approx \frac{T_{\text{tube}}}{N_{\text{tubes}}} \approx \frac{10{,}000 \text{ hours}}{55{,}000} \approx 0.18 \text{ hours}$$
+$$
+T_{\text{AN/FSQ-7}} \approx \frac{T_{\text{tube}}}{N_{\text{tubes}}} \approx \frac{10{,}000 \text{ hours}}{55{,}000} \approx 0.18 \text{ hours}
+\tag{5}
+$$
 
 or about 11 minutes, which would be operationally impossible for a continuous-availability air defense system. The dual-computer configuration at each Direction Center raised the system-level availability substantially. With operational computer reliability $R$ and independent-failure assumption, the availability of a dual configuration with hot-standby switchover is
 
-$$A_{\text{dual}} = 1 - (1 - R)^2$$
+$$
+A_{\text{dual}} = 1 - (1 - R)^2
+\tag{6}
+$$
 
 which for per-machine $R = 0.95$ gives system availability of 0.9975, or approximately 99 to 99.5 percent operational availability at the Direction Center level. The 46 total AN/FSQ-7 machines constituted the largest single deployment of computing equipment before the commercial computing wave of the late 1960s.
 
@@ -73,7 +91,10 @@ The Direction Centers were interconnected by dedicated telephone circuits carryi
 
 The processing load at each Direction Center was dominated by the track-fusion computation. For $N_{\text{radars}}$ radar sites reporting into the center, each providing $M_{\text{tracks}}$ track reports per scan, the track-fusion problem required correlating each new report against the existing track database of size $T_{\text{tracks}}$. The naive per-scan correlation cost is
 
-$$C_{\text{fusion}} = N_{\text{radars}} \cdot M_{\text{tracks}} \cdot T_{\text{tracks}}$$
+$$
+C_{\text{fusion}} = N_{\text{radars}} \cdot M_{\text{tracks}} \cdot T_{\text{tracks}}
+\tag{7}
+$$
 
 which for typical sector loads of a dozen radars, 20 to 40 tracks per radar per scan, and hundreds of established tracks reached $10^5$ to $10^6$ correlations per scan, with scans occurring every 10 to 12 seconds. Aggregate throughput demand per Direction Center reached the ten-thousand-correlation-per-second range, which was within the AN/FSQ-7 capability envelope but required careful architectural attention to memory access patterns and interrupt latency. The primary technical description of the SAGE data-processing system by [Everett et al. 1957][research_everett_zraket_benington_1957], previously cited in the framing article, remains the canonical account.
 
@@ -81,7 +102,10 @@ which for typical sector loads of a dozen radars, 20 to 40 tracks per radar per 
 
 The SAGE software effort produced the first industrial-scale software engineering practice. Total SAGE software approached 500,000 source lines of instructions, per the account in [Benington 1983][research_benington_1983], which was several orders of magnitude larger than any previous software program and required the invention of process and organizational structures to develop, test, and maintain. The System Development Corporation hereafter SDC was created in 1957 by spinning off the RAND Corporation's SAGE software group specifically to manage the SAGE software program, per the institutional history in [Baum 1981][book_baum_system_builders]. SDC eventually employed approximately 700 programmers at peak, which was widely stated at the time to constitute a substantial fraction of the world's programming workforce as of 1960, with contemporary claims placing the fraction as high as half though later analyses suggest more modest fractions in the ten to thirty percent range. Effective per-programmer productivity over the multi-year development satisfied approximately
 
-$$\bar{p} \approx \frac{L_{\text{SAGE}}}{N_{\text{programmers}} \cdot T_{\text{years}}} \approx \frac{5 \times 10^{5}}{700 \cdot 7} \approx 100 \text{ source lines per programmer per year}$$
+$$
+\bar{p} \approx \frac{L_{\text{SAGE}}}{N_{\text{programmers}} \cdot T_{\text{years}}} \approx \frac{5 \times 10^{5}}{700 \cdot 7} \approx 100 \text{ source lines per programmer per year}
+\tag{8}
+$$
 
 after accounting for peak-workforce and the roughly seven-year development from initial SDC formation to full operational capability. This productivity figure is roughly one to two orders of magnitude below the informal per-programmer productivity of small research programs of the same era, which established one of the empirical anchors of the coordination-cost scaling later formalized by Brooks per the treatment in [A237][related_post_a237_framing_co_development].
 
@@ -126,6 +150,100 @@ The sixth axis is semiconductor economics and dual-use. SAGE's 55,000-valve AN/F
 SAGE was the paradigmatic Cold War aerospace-computing program. It produced the first operational continental air defense system, the first industrial-scale software engineering practice, the first computer-to-computer data network, the first commercial magnetic-core memory technology, and the personnel and manufacturing base that seeded the commercial computing industry of the 1960s and 1970s. The chain from Whirlwind flight simulator through Cape Cod System experiment to the operational SAGE network illustrates the aerospace-computing coupling operating at Cold War scale, with continental defense demand pulling forward computing capability in ways that produced substantially all of the technical and organizational foundations of the postwar computing industry.
 
 The next article in the series treats aerospace simulation and real-time systems more broadly, extending the Whirlwind flight-simulator thread to the digital simulation, hardware-in-the-loop testing, and distributed interactive simulation infrastructure that grew from the SAGE era through the modern aerospace development process.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 8 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 8, 4 are established and 4 are bespoke.
+Areas are in square kilometres, ranges in kilometres and speeds in kilometres per hour, mean times between failures are in hours, availability and reliability are probabilities between zero and one, and the productivity figure counts source lines per programmer per year.
+
+*Equation 1, Bespoke Lower Bound on Radar Station Count.*
+The article bounds the number of radar stations by dividing the coverage area by the circular footprint of one station, an ideal packing with no overlap that only understates the real count.
+
+$$
+N_{\text{stations}} \gtrsim \frac{A_{\text{total}}}{\pi R_{\text{radar}}^2}
+\tag{1}
+$$
+
+**Equation 2, Response Time Budget Against an Approaching Bomber.**
+The defence must respond within the time an approaching bomber takes to cover the detection range at its speed.
+
+$$
+T_{\text{response}} \le \frac{R_{\text{detection}}}{v_{\text{target}}}
+\tag{2}
+$$
+
+**Equation 3, Instruction Rate of Whirlwind.**
+The reciprocal of the two-microsecond instruction cycle gives about half a million operations per second.
+
+$$
+r_{\text{Whirlwind}} = \frac{1}{T_{\text{cycle}}} \approx \frac{1}{2 \times 10^{-6} \text{ s}} \approx 5 \times 10^{5} \text{ operations per second}
+\tag{3}
+$$
+
+**Equation 4, Coincident-Current Selection Condition.**
+A core switches only where the row and column half-select currents together reach the switching threshold, while either current alone stays below it.
+[Forrester 1948][research_forrester_1948]
+[Forrester 1951][research_forrester_1951]
+
+$$
+I_{\text{row}} + I_{\text{col}} \ge I_{\text{switch}}, \quad I_{\text{row}} < I_{\text{switch}}, \quad I_{\text{col}} < I_{\text{switch}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Naive Failure Interval of the AN/FSQ-7.*
+The series reliability model is evaluated with fifty-five thousand tubes and a tube life of ten thousand hours that the article assumes, giving about eleven minutes between failures.
+
+$$
+T_{\text{AN/FSQ-7}} \approx \frac{T_{\text{tube}}}{N_{\text{tubes}}} \approx \frac{10{,}000 \text{ hours}}{55{,}000} \approx 0.18 \text{ hours}
+\tag{5}
+$$
+
+**Equation 6, Availability of a Dual Redundant Pair.**
+With independent failures and switchover to a hot standby, the pair is unavailable only when both computers have failed.
+
+$$
+A_{\text{dual}} = 1 - (1 - R)^2
+\tag{6}
+$$
+
+*Equation 7, Bespoke Naive Track Fusion Cost per Scan.*
+The article counts the correlations per scan as every new report from every radar compared against every established track, a naive all-pairs model with no gating.
+
+$$
+C_{\text{fusion}} = N_{\text{radars}} \cdot M_{\text{tracks}} \cdot T_{\text{tracks}}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Average Productivity of the SAGE Programmers.*
+Dividing the half a million source lines of the Semi-Automatic Ground Environment by the peak workforce of seven hundred held over seven years, an assumption the article makes about staffing and duration, gives about one hundred lines per programmer per year.
+[Benington 1983][research_benington_1983]
+
+$$
+\bar{p} \approx \frac{L_{\text{SAGE}}}{N_{\text{programmers}} \cdot T_{\text{years}}} \approx \frac{5 \times 10^{5}}{700 \cdot 7} \approx 100 \text{ source lines per programmer per year}
+\tag{8}
+$$
+
+### Notation
+
+- $A_{\text{total}}$, the area to be covered, about $2 \times 10^7$ square kilometres
+- $R_{\text{radar}}$, the detection range of one radar station
+- $R_{\text{detection}}$, the detection range against an approaching bomber
+- $v_{\text{target}}$, the target speed
+- $T_{\text{cycle}}$, the Whirlwind instruction cycle time
+- $I_{\text{switch}}$, the current threshold at which a core switches
+- $T_{\text{tube}}$, the mean time between failures of one vacuum tube
+- $N_{\text{tubes}}$, the number of tubes, about 55,000 per AN/FSQ-7
+- $R$, the reliability of one operational computer
+- $M_{\text{tracks}}$, the track reports per radar per scan
+- $T_{\text{tracks}}$, the size of the established track database
+- $L_{\text{SAGE}}$, the SAGE software size in source lines
+- $T_{\text{years}}$, the development duration in years
 
 ## References
 

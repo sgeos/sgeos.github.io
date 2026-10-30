@@ -1,0 +1,103 @@
+# Equation classification for A194, fixup tables and the forward jump problem. Read by `python3 _lib/equations.py`.
+
+caution = "Buffer sizes count fixup entries rather than bytes, nesting depth counts syntactic levels at the parse cursor, and the cost relations are asymptotic in the source program size."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Fixup Entry"
+gloss = "A fixup entry pairs the address of an unresolved operand field with the identity of the jump target it awaits."
+cite = []
+digest = "c17ab4c2bce33784"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Enqueue Operation"
+gloss = "Emitting a forward jump adds its entry to the fixup buffer by set union."
+cite = []
+digest = "69fb465d795d3ffe"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Resolve Operation"
+gloss = "Once a target address is known, every entry awaiting that target is patched and removed from the buffer by set difference."
+cite = []
+digest = "a277a35c81685bb7"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Fixup Buffer Bounded by Nesting Depth"
+gloss = "Under structured control flow each open construct holds a small constant number of pending entries, so the active buffer is bounded by that constant times the current nesting depth."
+cite = []
+digest = "f8d51947fb68d10a"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Fixup Buffer Estimate"
+gloss = "The bound is evaluated with a maximum nesting depth of thirty and five entries per level, both values the article takes as typical, giving at most one hundred and fifty entries."
+cite = []
+digest = "8854865fb01a2aa8"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Constant Cost per Fixup Entry"
+gloss = "Each entry is enqueued and resolved in constant time and terminates implicitly when its enclosing block closes."
+cite = []
+digest = "8d0b0ebcbdaf2346"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Total Fixup Cost Linear in Program Size"
+gloss = "The number of forward-reference emissions is linear in the source size and each costs constant time, so total fixup management is linear."
+cite = []
+digest = "2950af23347a40e3"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Fixup Buffer under Unstructured Control Flow"
+gloss = "With arbitrary jumps an entry persists until its label appears, so the buffer grows with the number of outstanding forward-referenced labels."
+cite = []
+digest = "a480748557ea998b"
+
+[[symbol]]
+tex = 'e'
+meaning = "a fixup entry"
+
+[[symbol]]
+tex = 'a_{\text{placeholder}}'
+meaning = "the address of the operand field awaiting a patch"
+
+[[symbol]]
+tex = '\iota_{\text{target}}'
+meaning = "the identity of the jump target"
+
+[[symbol]]
+tex = 'F'
+meaning = "the fixup buffer, with $F'$ its state after an operation"
+
+[[symbol]]
+tex = 'c'
+meaning = "a small per-nesting-level constant of pending entries"
+
+[[symbol]]
+tex = 'd'
+meaning = "the current syntactic nesting depth of the parse cursor"
+
+[[symbol]]
+tex = 'C_{\text{fixup}}'
+meaning = "the cost of handling one fixup entry"
+
+[[symbol]]
+tex = '\lvert P \rvert'
+meaning = "the source program size"
+
+[[symbol]]
+tex = '\lvert L \rvert'
+meaning = "the number of outstanding forward-referenced labels"

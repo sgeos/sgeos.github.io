@@ -1,0 +1,87 @@
+# Equation classification for A218. Read by `python3 _lib/equations.py`.
+
+caution = "Reactions are written as balanced net equations in moles rather than as detailed mechanisms, the burn rate coefficient carries units fixed by the units chosen for burn rate and chamber pressure, and density specific impulse is stated in seconds times kilograms per cubic metre."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Net Decomposition of Ammonium Perchlorate"
+gloss = "Above about two thousand kelvin ammonium perchlorate decomposes essentially to hydrogen chloride, nitrogen, water and free oxygen, and the free oxygen burns the binder and the aluminium."
+cite = []
+digest = "1602d3747fbf4891"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Combustion of Aluminium to Aluminium Oxide"
+gloss = "Aluminium burns with oxygen to aluminium oxide, releasing about thirty-one megajoules per kilogram and raising the chamber temperature."
+cite = []
+digest = "a1163e7948022c86"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Vieille's Burn Rate Law"
+gloss = "The empirical law of Vieille and Saint-Robert gives the linear burn rate as a power of chamber pressure, with stable combustion requiring an exponent below one."
+cite = []
+digest = "db0577570dd032e8"
+
+[[symbol]]
+tex = 'r'
+meaning = "the linear burn rate"
+
+[[symbol]]
+tex = 'a'
+meaning = "the burn rate coefficient, tabulated for a reference temperature"
+
+[[symbol]]
+tex = 'P_c'
+meaning = "the chamber pressure"
+
+[[symbol]]
+tex = 'n'
+meaning = "the dimensionless pressure exponent"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Temperature Sensitivity of Burn Rate"
+gloss = "The temperature sensitivity coefficient is the fractional change in burn rate per kelvin of initial grain temperature at constant chamber pressure."
+cite = []
+digest = "34b17a4f8250b5d3"
+
+[[symbol]]
+tex = '\pi_K'
+meaning = "the temperature sensitivity coefficient in reciprocal kelvin"
+
+[[symbol]]
+tex = 'T_i'
+meaning = "the initial grain temperature"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Net Decomposition of Ammonium Dinitramide"
+gloss = "Ammonium dinitramide decomposes to nitrogen, oxygen and water with no chlorine in the products, which is the basis of its environmental appeal."
+cite = []
+digest = "12e47259e3c59b4f"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Density Specific Impulse of a Solid Propellant"
+gloss = "Density specific impulse is the product of the grain bulk density and the specific impulse, which is exceptionally high for solids because the grain is dense."
+cite = ["related_post_a217"]
+digest = "1513b816f91490ee"
+
+[[symbol]]
+tex = 'I_d'
+meaning = "the density specific impulse"
+
+[[symbol]]
+tex = '\rho_p'
+meaning = "the bulk density of the propellant grain"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"

@@ -33,7 +33,10 @@ The concept was developed independently by two research groups. [Baran 1964][res
 
 The efficiency argument for packet switching over circuit switching for bursty traffic can be quantified by the utilization ratio. For a source with peak transmission rate $r_p$ and mean transmission rate $r_m$ across an observation window with utilization fraction $u = r_m / r_p$, a dedicated circuit provisioned at the peak rate carries useful traffic only during the fraction $u$ of the time. Multiplexing $N$ independent bursty sources onto a shared link of capacity
 
-$$B_{\text{shared}} \approx N \cdot r_m + k \sqrt{N \cdot r_m \cdot r_p}$$
+$$
+B_{\text{shared}} \approx N \cdot r_m + k \sqrt{N \cdot r_m \cdot r_p}
+\tag{1}
+$$
 
 for a small safety factor $k$ of order 3 to 5 based on the Central Limit Theorem approximation to independent-source aggregation, provides adequate service to all $N$ sources at a total capacity substantially below $N \cdot r_p$. For interactive traffic with utilization ratios of a few percent, the effective capacity gain from packet switching relative to circuit switching approaches an order of magnitude or more. This efficiency argument was the technical rationale for choosing packet switching in the ARPANET design.
 
@@ -43,7 +46,10 @@ The ARPANET design was led by Lawrence Roberts, who joined the IPTO in 1966 and 
 
 The IMPs were built by Bolt Beranek and Newman hereafter BBN in Cambridge, Massachusetts, under contract to ARPA following a 1968 request for proposals. The primary technical description of the IMP is [Heart et al. 1970][research_heart_1970], authored by the BBN engineering team responsible for the machine. The IMP was based on the Honeywell DDP-516 minicomputer with special-purpose interfaces to the local host computer and to the leased telephone lines that formed the backbone links. The initial IMP configuration provided approximately 16 kilobits per second per backbone link, with store-and-forward latency across the IMP of approximately 10 milliseconds. End-to-end latency across an $N_{\text{hops}}$-hop path summed the per-hop transmission time and processing time as
 
-$$T_{\text{e2e}} = N_{\text{hops}} \cdot \left(\frac{L_{\text{packet}}}{B_{\text{link}}} + T_{\text{proc}}\right) + T_{\text{propagation}}$$
+$$
+T_{\text{e2e}} = N_{\text{hops}} \cdot \left(\frac{L_{\text{packet}}}{B_{\text{link}}} + T_{\text{proc}}\right) + T_{\text{propagation}}
+\tag{2}
+$$
 
 for packet size $L_{\text{packet}}$, link bandwidth $B_{\text{link}}$, per-IMP processing time $T_{\text{proc}}$, and total propagation delay $T_{\text{propagation}}$ across the leased-line physical distance. Coast-to-coast paths across the ARPANET typically involved four to six IMP hops and accumulated end-to-end latency of approximately 100 milliseconds.
 
@@ -53,7 +59,10 @@ The first four ARPANET nodes were installed between September and December 1969 
 
 The ARPANET grew from four nodes in December 1969 to approximately 15 nodes by early 1971, approximately 40 nodes by early 1973, and approximately 60 nodes by 1975, following approximately exponential growth of the form
 
-$$N_{\text{nodes}}(t) \approx N_0 \cdot e^{t / \tau}$$
+$$
+N_{\text{nodes}}(t) \approx N_0 \cdot e^{t / \tau}
+\tag{3}
+$$
 
 with time constant $\tau$ of approximately 15 to 18 months over the 1969 through 1980 period, similar to the transistor-density doubling time treated in the substrate section of [A237][related_post_a237_framing_co_development] and consistent with the general pattern of exponential adoption growth for successful network technologies. The first host-to-host protocol was the Network Control Program hereafter NCP, standardized in 1970 and used through 1982. NCP handled the problem of establishing sessions between programs running on different hosts and reliably delivering byte streams between them. NCP was designed under the assumption that the underlying IMP network would deliver packets reliably and in order, which was true for the initial ARPANET architecture but did not generalize to interconnected networks of the kind that emerged in the mid-1970s.
 
@@ -61,17 +70,26 @@ The Transmission Control Protocol hereafter TCP was designed by Vinton Cerf and 
 
 TCP's sliding-window flow-control mechanism bounded the effective throughput on any single connection by the window size divided by the round-trip time,
 
-$$B_{\text{effective}} = \frac{W}{T_{\text{RTT}}}$$
+$$
+B_{\text{effective}} = \frac{W}{T_{\text{RTT}}}
+\tag{4}
+$$
 
 which for the 16-kilobit-per-second ARPANET backbone links and 100-millisecond coast-to-coast round-trip times required window sizes on the order of 200 bytes to fill the link capacity. Retransmission of lost or corrupted packets required an estimate of the round-trip time to determine when to declare a packet lost, later formalized by [Jacobson 1988][research_jacobson_1988] as the adaptive estimator
 
-$$T_{\text{RTO}} = \bar{T}_{\text{RTT}} + 4 \sigma_{\text{RTT}}$$
+$$
+T_{\text{RTO}} = \bar{T}_{\text{RTT}} + 4 \sigma_{\text{RTT}}
+\tag{5}
+$$
 
 using exponentially weighted moving averages of the mean and standard deviation of observed round-trip times. The engineering discipline of retransmission-timer estimation became a load-bearing concern of network protocol design and remains a subject of active research in contemporary networks.
 
 The value of a network to its users grows more rapidly than the number of users because each new user gains access to all previous users and each previous user gains a new potential communication partner. This scaling, later formalized as Metcalfe's Law in the context of Ethernet local networks per [Metcalfe and Boggs 1976][research_metcalfe_boggs_1976], gives a network value of order
 
-$$V_{\text{network}} \propto N (N-1) / 2 \approx N^2 / 2$$
+$$
+V_{\text{network}} \propto N (N-1) / 2 \approx N^2 / 2
+\tag{6}
+$$
 
 for $N$ connected users under the assumption that all pairwise connections carry equal value. The number is disputable in practice because not all pairwise connections carry equal value, but the quadratic scaling captures the important qualitative property that network value grows faster than linear in the user count and produces the incentive for networks to become universal rather than to segment into disconnected islands.
 
@@ -93,13 +111,19 @@ The second axis is real-time control. Networking was not real-time in the sense 
 
 The third axis is reliability and verification. The ARPANET achieved high reliability through the architectural decisions of packet switching, redundant path routing, and end-to-end retransmission of lost or corrupted packets. For a single physical path of $N_{\text{links}}$ links each with per-link availability $R_{\text{link}}$ and independent-failure assumption, the path availability is
 
-$$R_{\text{path}} = R_{\text{link}}^{N_{\text{links}}}$$
+$$
+R_{\text{path}} = R_{\text{link}}^{N_{\text{links}}}
+\tag{7}
+$$
 
 which for high per-link availability approaches unity for small $N$ but declines rapidly for large $N$. Redundant path routing across $k$ independent paths raises the aggregate availability to $1 - (1 - R_{\text{path}})^k$, which is the quantitative argument for the packet-switching survivability property that motivated Baran's original design. Verification of network protocols became a distinct engineering discipline in the 1980s and 1990s as network scale grew and as security concerns emerged.
 
 The fourth axis is networking and distribution. The ARPANET is the paradigmatic case for this axis. Essentially all of the engineering practices that define computer networking as a discipline originated in or were substantially shaped by ARPANET experience. IMP queue occupancy at steady state followed Little's Law relating the mean number of packets in the queue to the arrival rate and mean queueing time,
 
-$$L_{\text{queue}} = \lambda \cdot T_{\text{wait}}$$
+$$
+L_{\text{queue}} = \lambda \cdot T_{\text{wait}}
+\tag{8}
+$$
 
 for packet arrival rate $\lambda$ and mean wait time $T_{\text{wait}}$, which combined with Kleinrock's queueing-theoretic analysis cited in [A237][related_post_a237_framing_co_development] gave the operational analysis framework for IMP sizing and network capacity planning. The transition from research network to operational network to commercial internet illustrates the general pattern of aerospace and defense computing giving rise to commercial computing infrastructure treated throughout the series.
 
@@ -112,6 +136,110 @@ The sixth axis is semiconductor economics and dual-use. The ARPANET drove demand
 The ARPANET established the engineering foundations on which essentially all subsequent computer networks were built. Packet switching supplied the architectural principle. Kleinrock's queueing theory supplied the mathematical framework. The IMPs supplied the mechanism for separating network communication from host computation. TCP/IP supplied the interconnection protocol that let the ARPANET connect to other networks and eventually to the commercial internet. The institutional support from ARPA supplied the funding continuity that permitted long-term research investment without near-term commercial pressure. The aerospace and defense research community that supplied the initial user base drove the requirements that shaped the network design, and the pattern of aerospace-funded research producing commercial infrastructure illustrates the general dual-use spillover mechanism treated in [A237][related_post_a237_framing_co_development].
 
 The next article in the series treats the Space Shuttle primary avionics software system as the first large-scale demonstration that safety-critical software could be built to airline-comparable reliability targets, HAL/S as a purpose-built aerospace programming language, and the IBM Federal Systems Division software process as a template for later programs.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 8 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 8, 6 are established and 2 are bespoke.
+Rates are in bits per second and times in seconds unless the text states milliseconds, and the growth time constant $\tau$ is an e-folding time rather than a doubling time, so it is shorter than the corresponding doubling time by a factor of about $0.69$.
+
+*Equation 1, Bespoke Shared Link Capacity for Multiplexed Bursty Sources.*
+The shared capacity is the aggregate mean rate plus a margin of $k$ standard deviations under a central limit approximation to independent sources, with a safety factor of three to five that the article assumes.
+
+$$
+B_{\text{shared}} \approx N \cdot r_m + k \sqrt{N \cdot r_m \cdot r_p}
+\tag{1}
+$$
+
+**Equation 2, Store-and-Forward End-to-End Latency.**
+Each hop of a store-and-forward path adds the transmission time of one packet and the processing time of one switch, and the propagation delay of the whole path is added once.
+
+$$
+T_{\text{e2e}} = N_{\text{hops}} \cdot \left(\frac{L_{\text{packet}}}{B_{\text{link}}} + T_{\text{proc}}\right) + T_{\text{propagation}}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Exponential Growth of ARPANET Nodes.*
+The node count of the Advanced Research Projects Agency Network is modelled as a pure exponential with a time constant of fifteen to eighteen months that the article fits to its own milestone counts.
+
+$$
+N_{\text{nodes}}(t) \approx N_0 \cdot e^{t / \tau}
+\tag{3}
+$$
+
+**Equation 4, Sliding Window Throughput Bound.**
+A sliding window protocol can have at most one window of unacknowledged data in flight per round trip, so the throughput of a connection is bounded by the window size divided by the round-trip time.
+
+$$
+B_{\text{effective}} = \frac{W}{T_{\text{RTT}}}
+\tag{4}
+$$
+
+**Equation 5, Jacobson Retransmission Timeout Estimator.**
+The retransmission timeout is the smoothed mean round-trip time plus four times its smoothed deviation, both maintained as exponentially weighted moving averages.
+[Jacobson 1988][research_jacobson_1988]
+
+$$
+T_{\text{RTO}} = \bar{T}_{\text{RTT}} + 4 \sigma_{\text{RTT}}
+\tag{5}
+$$
+
+**Equation 6, Metcalfe Network Value.**
+Counting every pair of connected users as one potential link of equal value gives a network value proportional to the number of pairs, which grows as the square of the user count.
+
+$$
+V_{\text{network}} \propto N (N-1) / 2 \approx N^2 / 2
+\tag{6}
+$$
+
+**Equation 7, Availability of Links in Series.**
+A path that fails when any one of its independently failing links fails has an availability equal to the product of the link availabilities.
+
+$$
+R_{\text{path}} = R_{\text{link}}^{N_{\text{links}}}
+\tag{7}
+$$
+
+**Equation 8, Little's Law for Queue Occupancy.**
+In steady state the mean number of packets in a queue equals the arrival rate multiplied by the mean time a packet spends waiting.
+
+$$
+L_{\text{queue}} = \lambda \cdot T_{\text{wait}}
+\tag{8}
+$$
+
+### Notation
+
+- $B_{\text{shared}}$, the capacity of the shared link
+- $N$, the number of independent bursty sources, or of connected users in Equation 6
+- $r_m$, the mean transmission rate of a source
+- $r_p$, the peak transmission rate of a source
+- $k$, the safety factor of order three to five
+- $N_{\text{hops}}$, the number of Interface Message Processor hops on the path
+- $L_{\text{packet}}$, the packet size
+- $B_{\text{link}}$, the link bandwidth
+- $T_{\text{proc}}$, the processing time per Interface Message Processor
+- $T_{\text{propagation}}$, the total propagation delay over the leased lines
+- $N_{\text{nodes}}(t)$, the number of network nodes at time $t$
+- $N_0$, the initial node count
+- $\tau$, the e-folding time constant of growth
+- $W$, the window size
+- $T_{\text{RTT}}$, the round-trip time
+- $T_{\text{RTO}}$, the retransmission timeout
+- $\bar{T}_{\text{RTT}}$, the smoothed mean of observed round-trip times
+- $\sigma_{\text{RTT}}$, the smoothed deviation of observed round-trip times
+- $V_{\text{network}}$, the value of the network to its users
+- $R_{\text{path}}$, the availability of a single physical path
+- $R_{\text{link}}$, the availability of one link
+- $N_{\text{links}}$, the number of links on the path
+- $L_{\text{queue}}$, the mean number of packets in the queue
+- $\lambda$, the packet arrival rate
+- $T_{\text{wait}}$, the mean waiting time
 
 ## References
 

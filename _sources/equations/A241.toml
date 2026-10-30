@@ -1,0 +1,159 @@
+# Equation classification for A241. Read by `python3 _lib/equations.py`.
+
+caution = "Times and delays are in seconds or milliseconds as the text states, rates and bandwidths are in hertz, the analogue error is a fraction of full scale, and the network bandwidth is in bits per second when the packet size is in bits."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Translational Equation of Aircraft Motion"
+gloss = "The aircraft mass times its acceleration equals the aerodynamic and propulsive force, a function of velocity, angular velocity and control deflections."
+cite = ["book_etkin_dynamics_of_flight"]
+digest = "fae288cc5d5500d7"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Rotational Equation of Aircraft Motion"
+gloss = "The inertia tensor times the angular acceleration equals the aerodynamic and propulsive moment, written in the simplified form that omits the gyroscopic term."
+cite = ["book_etkin_dynamics_of_flight"]
+digest = "613a49ee38cb6616"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Accumulated Drift of an Analogue Simulator"
+gloss = "The article combines uncorrelated errors across $n$ integrators with a per-second drift that grows linearly over simulated time, an error model it constructs to show the limit on long runs."
+cite = []
+digest = "401ded71fe745542"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Minimum Update Rate for Smooth Motion"
+gloss = "The article takes twenty hertz as the representative update rate that smooth motion perception requires, an engineering threshold rather than a derived result."
+cite = []
+digest = "ab85d90206d659cd"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Transport Delay Budget"
+gloss = "The article sums the dynamics, display and motion delays into an end-to-end transport delay that must stay below the pilot tolerance of one hundred to one hundred and fifty milliseconds."
+cite = []
+digest = "98399f9da3e4b7c4"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Nyquist Sampling Bound"
+gloss = "The Nyquist and Shannon sampling theorem requires an update rate of at least twice the highest frequency the simulation must reproduce."
+cite = []
+digest = "f213a384a07c3277"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Hardware-in-the-Loop Timing Budget"
+gloss = "The article assembles the loop time from the sensor simulation, signal path, controller, actuator simulation and dynamics delays, a budget that must fit within the real flight-loop period."
+cite = []
+digest = "a40f86c4cde7eaf6"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Worst-Case Response Time Guarantee"
+gloss = "A real-time operating system bounds the supremum of the response times that occur with nonzero probability by the deadline, for every admissible workload."
+cite = []
+digest = "225394b59f1c445d"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Jitter Bound"
+gloss = "Jitter is the spread between the longest and shortest response times of successive invocations of a task, and it must stay within the application limit."
+cite = []
+digest = "d2974d05b9413609"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Network Bandwidth Under Dead Reckoning"
+gloss = "The article bounds the bandwidth by the entity count, maximum update rate and packet size, reduced by the fraction of updates that dead-reckoning extrapolation suppresses."
+cite = ["research_miller_thorpe_1995"]
+digest = "1eae9336bae01297"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Error of Constant-Velocity Extrapolation"
+gloss = "An entity that accelerates uniformly departs from a constant-velocity extrapolation by half its acceleration times the square of the elapsed interval."
+cite = []
+digest = "84b9984f4442114d"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Clock Synchronisation Bound"
+gloss = "The clocks of every pair of participating sites must agree within the synchronisation tolerance."
+cite = []
+digest = "242e7a2199d6a391"
+
+[[symbol]]
+tex = '\mathbf{v}'
+meaning = "the aircraft velocity vector"
+
+[[symbol]]
+tex = '\boldsymbol{\omega}'
+meaning = "the angular velocity vector"
+
+[[symbol]]
+tex = '\boldsymbol{\delta}'
+meaning = "the vector of control-surface deflections"
+
+[[symbol]]
+tex = 'I'
+meaning = "the inertia tensor"
+
+[[symbol]]
+tex = '\mathbf{F}'
+meaning = "the aerodynamic and propulsive force function"
+
+[[symbol]]
+tex = '\mathbf{M}'
+meaning = "the aerodynamic and propulsive moment function"
+
+[[symbol]]
+tex = '\epsilon_0'
+meaning = "the per-second error of one integrator"
+
+[[symbol]]
+tex = 'f_{\text{sim}}'
+meaning = "the simulation update rate"
+
+[[symbol]]
+tex = 'T_{\text{pilot tolerance}}'
+meaning = "the delay above which pilot control quality degrades, 100 to 150 milliseconds"
+
+[[symbol]]
+tex = 'f_{\text{bandwidth}}'
+meaning = "the highest frequency the simulation must reproduce"
+
+[[symbol]]
+tex = 'P(T)'
+meaning = "the probability distribution of the response time"
+
+[[symbol]]
+tex = 'J'
+meaning = "the jitter"
+
+[[symbol]]
+tex = '\eta_{\text{dead-reckoning}}'
+meaning = "the fraction of updates suppressed by successful extrapolation"
+
+[[symbol]]
+tex = 'S_{\text{packet}}'
+meaning = "the size of one update packet"
+
+[[symbol]]
+tex = '\epsilon_{\text{sync}}'
+meaning = "the clock synchronisation tolerance"

@@ -1,0 +1,67 @@
+# Equation classification for A189, the Wirth single-pass line. Read by `python3 _lib/equations.py`.
+
+caution = "Memory terms are sizes of compiler data structures at an instant of compilation, nesting depths are counts of syntactic levels, and the compile-time relation is linear in the source-file byte length with a constant that depends on the implementation."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Decomposition of Wirth Compiler Memory"
+gloss = "The article composes four design rules into a model in which the compiler holds only a parse stack, a visible symbol table and a fixup buffer, plus a constant, at any instant of compilation."
+cite = []
+digest = "56a4b66d595b4314"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Parse Stack Depth of a Recursive-Descent Parser"
+gloss = "Each recursive grammar production corresponds to exactly one active parser call frame, so the parse stack depth equals the syntactic nesting depth at the parse cursor."
+cite = []
+digest = "b881ffb22b5c8dc4"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Fixup Buffer Bounded by Conditional Nesting Depth"
+gloss = "Each active conditional holds one fixup entry that is discharged when its body parse completes, so at most one entry per level of nesting coexists in memory."
+cite = []
+digest = "9d324814e2039e35"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Linear Compilation Time"
+gloss = "The article assumes a single forward read with no whole-program state and a fixed per-byte cost in the parser and emitter loops, which makes compilation time linear in the source length."
+cite = []
+digest = "099ee4f9c2dc0940"
+
+[[symbol]]
+tex = 'M_{\text{compiler}}(t)'
+meaning = "the compiler's memory footprint at point $t$ during compilation"
+
+[[symbol]]
+tex = 'S(t)'
+meaning = "the parse stack"
+
+[[symbol]]
+tex = 'T(t)'
+meaning = "the visible symbol table"
+
+[[symbol]]
+tex = 'F(t)'
+meaning = "the fixup buffer of pending forward references"
+
+[[symbol]]
+tex = 'd'
+meaning = "the maximum nesting depth of conditional statements"
+
+[[symbol]]
+tex = 'T_{\text{compile}}(P)'
+meaning = "the compilation time of program $P$"
+
+[[symbol]]
+tex = 'c'
+meaning = "a small per-byte constant set by the cost of the parser and emitter loops"
+
+[[symbol]]
+tex = '\lvert P \rvert'
+meaning = "the source-file byte length of program $P$"

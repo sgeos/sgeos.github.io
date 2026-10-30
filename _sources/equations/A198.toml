@@ -1,0 +1,103 @@
+# Equation classification for A198, when multi-pass compilation wins. Read by `python3 _lib/equations.py`.
+
+caution = "Costs are asymptotic in program size or constraint count rather than measured times, the optimisation factor is a ratio of runtimes of compiled code, and a source range from zero to infinity denotes the whole program including text not yet read."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Cost of a Whole-Program Optimisation Pass"
+gloss = "The article assumes a well-designed implementation with efficient data structures, under which a whole-program optimisation pass costs time proportional to program size times its logarithm."
+cite = []
+digest = "343e88d1a2ffb6aa"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Runtime Gain from Whole-Program Optimisation"
+gloss = "The article states without a cited benchmark that production optimising compilers typically make compiled code two to five times faster than unoptimised code, a range it takes as representative."
+cite = []
+digest = "005a112bcb73793a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Function Abstraction"
+gloss = "A lambda abstraction binds the variable $x$ in the body expression $e$."
+cite = []
+digest = "d4351805b113a59a"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Unification Cost in Hindley-Milner Inference"
+gloss = "Solving the constraints of a function body with a union-find structure costs the number of constraints times the inverse Ackermann function, which is effectively linear."
+cite = []
+digest = "db5fea355b414a17"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Trait Resolution Cost at a Call Site"
+gloss = "The article simplifies trait resolution to a search of every implementation of the trait across the crate graph, so the cost at one call site is linear in the number of implementations."
+cite = []
+digest = "1968aaf881930df6"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Prefix-Determined Output"
+gloss = "A task lies inside the streaming discipline when the output at each position is a function of the source up to and including that position."
+cite = []
+digest = "81661aafe458e966"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Whole-Program-Determined Output"
+gloss = "A task lies outside the streaming discipline when the output at a position depends on later source or on whole-program information."
+cite = []
+digest = "54286f4d1d6eea86"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Prefix Output with a Whole-Program Interface Index"
+gloss = "The article extends the streaming condition with an interface index of signatures and type declarations prepared before compilation, so output may depend on whole-program declarations but only on the source prefix of bodies."
+cite = []
+digest = "12279d16e501bec2"
+
+[[symbol]]
+tex = 'C_{\text{WPO}}(P)'
+meaning = "the cost of a whole-program optimisation pass on program $P$"
+
+[[symbol]]
+tex = '\lvert P \rvert'
+meaning = "the size of program $P$"
+
+[[symbol]]
+tex = 'T_{\text{unoptimised}}'
+meaning = "the runtime of unoptimised compiled code"
+
+[[symbol]]
+tex = 'T_{\text{WPO}}'
+meaning = "the runtime of code compiled with whole-program optimisation"
+
+[[symbol]]
+tex = 'C_{\text{HM}}(f)'
+meaning = "the Hindley-Milner unification cost for function $f$"
+
+[[symbol]]
+tex = 'n'
+meaning = "the number of type variables in a function body"
+
+[[symbol]]
+tex = 'm'
+meaning = "the number of type constraints in a function body"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the inverse Ackermann function"
+
+[[symbol]]
+tex = '\lvert \text{impls}(T) \rvert'
+meaning = "the number of implementations of trait $T$"

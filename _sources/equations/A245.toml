@@ -1,0 +1,127 @@
+# Equation classification for A245. Read by `python3 _lib/equations.py`.
+
+caution = "Failure rates are per operational hour of a single unit, test and state counts are dimensionless integers, and verification effort is a relative quantity whose ordering, not its absolute value, carries the argument."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Catastrophic Failure Rate Target"
+gloss = "The highest consequence category of safety-critical systems is held to a catastrophic failure rate of no more than one in a billion operational hours."
+cite = []
+digest = "d597f6d9d11a5107"
+
+[[symbol]]
+tex = '\lambda_{\text{catastrophic}}'
+meaning = "the rate of catastrophic failure per operational hour"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Minimum Test Count for Modified Condition and Decision Coverage"
+gloss = "Showing that each of $N$ conditions independently affects the outcome of a decision requires at least $N + 1$ test cases."
+cite = ["research_chilenski_miller_1994"]
+digest = "64c504e9913a4b68"
+
+[[symbol]]
+tex = 'N_{\text{tests, MC/DC}}'
+meaning = "the number of tests needed for modified condition and decision coverage"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of conditions in a Boolean decision, or the number of nodes of a control-flow graph in Equation 7"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Geometric Scaling of Verification Effort with Risk Category"
+gloss = "Verification and validation effort is assumed to grow by a constant multiplier of two to five for each step up in risk category."
+cite = []
+digest = "447d5308c310b238"
+
+[[symbol]]
+tex = 'E_{\text{V and V}}(k)'
+meaning = "the verification and validation effort at risk category $k$"
+
+[[symbol]]
+tex = 'E_0'
+meaning = "the effort at the least stringent category"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the effort multiplier per category, or the abstraction function in Equation 6"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Bound on the Composite State Space"
+gloss = "The reachable states of a concurrent system cannot exceed the product of the local state counts of its processes and the value counts of its shared variables, which grows exponentially in both."
+cite = []
+digest = "381a72a59bad4522"
+
+[[symbol]]
+tex = '|S_{\text{composite}}|'
+meaning = "the number of states of the composite system"
+
+[[symbol]]
+tex = '|S|'
+meaning = "the number of local states of one process"
+
+[[symbol]]
+tex = 'N_{\text{processes}}'
+meaning = "the number of concurrent processes"
+
+[[symbol]]
+tex = 'D'
+meaning = "the number of possible values of a shared variable"
+
+[[symbol]]
+tex = 'V'
+meaning = "the number of shared variables"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Ordering of Verification Effort by Technique"
+gloss = "The article ranks the effort per verified line of static analysis, testing, model checking and theorem proving, with gaps of one to two orders of magnitude that it estimates."
+cite = []
+digest = "1e83e34a2f1cc0c7"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Soundness of Abstract Interpretation"
+gloss = "The concrete states of a program lie within the concretisation of its abstract states, so a property proved of the abstraction holds of the program."
+cite = ["research_cousot_cousot_1977"]
+digest = "2b12dcadbe44c0e3"
+
+[[symbol]]
+tex = 'S_P'
+meaning = "the concrete-semantics state set of program $P$"
+
+[[symbol]]
+tex = 'S_P^{\#}'
+meaning = "the abstract-semantics state set of program $P$"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the concretisation function"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "McCabe Cyclomatic Complexity"
+gloss = "The cyclomatic complexity of a control-flow graph is its edge count less its node count plus twice its connected components, which counts the linearly independent paths."
+cite = ["research_mccabe_1976"]
+digest = "34807e9c609564a7"
+
+[[symbol]]
+tex = 'V(G)'
+meaning = "the cyclomatic complexity of control-flow graph $G$"
+
+[[symbol]]
+tex = 'E'
+meaning = "the number of edges"
+
+[[symbol]]
+tex = 'P'
+meaning = "the number of connected components"

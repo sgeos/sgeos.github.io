@@ -1,0 +1,99 @@
+# Equation classification for A226. Read by `python3 _lib/equations.py`.
+
+caution = "Growth and decay rates are continuous annual rates written as fractions, so a percentage in the prose is that fraction times one hundred, and payments balances are flows in a common currency per year with a deficit negative."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Compounding of the British Growth Rate Gap"
+gloss = "Under constant continuous growth rates the ratio of British to world-average per-capita output grows exponentially at the difference of the two rates, the compounding relation of the series opener applied to Britain from 1815 to 1914."
+cite = ["related_post_industrialization_framing"]
+digest = "8eeb4f1dd290a217"
+
+[[symbol]]
+tex = 'Y_{\text{UK}}(t)'
+meaning = "per-capita output in Britain at time $t$"
+
+[[symbol]]
+tex = 'Y_{\text{RoW}}(t)'
+meaning = "world-average per-capita output at time $t$"
+
+[[symbol]]
+tex = 'g_{\text{UK}}'
+meaning = "the British per-capita growth rate"
+
+[[symbol]]
+tex = 'g_{\text{RoW}}'
+meaning = "the world-average per-capita growth rate"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Growth Rate of Mechanised Cotton Output per Worker"
+gloss = "The continuous growth rate of per-worker output in cotton follows from a representative multiplier of about one hundred over the sixty years from 1770 to 1830, a round value the article takes rather than a measured series."
+cite = []
+digest = "93a2e609cc690891"
+
+[[symbol]]
+tex = 'g_{\text{cotton}}'
+meaning = "the per-worker output growth rate in mechanised cotton"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Two-Power Standard"
+gloss = "The doctrine formalised by the Naval Defence Act of 1889 required the capital-ship tonnage of the Royal Navy to at least equal that of the second and third largest navies combined."
+cite = []
+digest = "29ea9222187c0f64"
+
+[[symbol]]
+tex = '|N_{\text{RN}}|'
+meaning = "the capital-ship tonnage of the Royal Navy"
+
+[[symbol]]
+tex = '|N_2|'
+meaning = "the capital-ship tonnage of the second-ranked navy"
+
+[[symbol]]
+tex = '|N_3|'
+meaning = "the capital-ship tonnage of the third-ranked navy"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Current Account as Visible plus Invisible Balance"
+gloss = "The current account balance is the sum of the visible-trade balance and the invisible-earnings balance, which for late-Victorian Britain was positive despite a visible deficit."
+cite = []
+digest = "306bd3883fb4dedf"
+
+[[symbol]]
+tex = 'B_{\text{ca}}'
+meaning = "the current account balance"
+
+[[symbol]]
+tex = 'B_{\text{visible}}'
+meaning = "the visible-trade balance"
+
+[[symbol]]
+tex = 'B_{\text{invisible}}'
+meaning = "the invisible-earnings balance including returns on foreign investment"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Exponential Decay of the Sterling Reserve Share"
+gloss = "The article describes the fall of the sterling share of world central-bank reserves by an exponential decay from its early twentieth-century peak, a functional form chosen to summarise the trend rather than fitted to a stated series."
+cite = ["research_eichengreen_flandreau_dollar"]
+digest = "282936618d8f007b"
+
+[[symbol]]
+tex = 'S_{\text{sterling}}(t)'
+meaning = "the share of world central-bank reserves held in sterling"
+
+[[symbol]]
+tex = 'S_0'
+meaning = "the sterling share at the early twentieth-century peak"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the decay rate of the sterling share"

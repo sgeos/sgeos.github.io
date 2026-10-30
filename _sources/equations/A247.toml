@@ -1,0 +1,187 @@
+# Equation classification for A247. Read by `python3 _lib/equations.py`.
+
+caution = "Link budget terms are in decibels with power referred to one milliwatt, frequencies are in hertz, latencies are in milliseconds, and the complexity bounds count elementary operations in the worst case."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Static Margin"
+gloss = "The static margin is the distance from the centre of gravity aft to the aerodynamic centre expressed as a fraction of the mean aerodynamic chord, positive for a statically stable aircraft."
+cite = ["book_etkin_dynamics_of_flight"]
+digest = "b0d742ef35bff4a0"
+
+[[symbol]]
+tex = 'K_n'
+meaning = "the static margin"
+
+[[symbol]]
+tex = 'x_{\text{ac}}'
+meaning = "the position of the aerodynamic centre"
+
+[[symbol]]
+tex = 'x_{\text{cg}}'
+meaning = "the position of the centre of gravity"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke First-Order Pitch-Rate Command Response"
+gloss = "The response of a pitch-rate command system is idealised as a first-order lag with a single gain and time constant, a simplification of the higher-order aircraft dynamics."
+cite = []
+digest = "c39bb433013b7c85"
+
+[[symbol]]
+tex = 'G(s)'
+meaning = "the transfer function from stick displacement to pitch rate"
+
+[[symbol]]
+tex = 'K'
+meaning = "the gain"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the time constant"
+
+[[symbol]]
+tex = 's'
+meaning = "the Laplace transform variable"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Minimum Display Update Rate"
+gloss = "The required update rate of a cockpit attitude display is set at about thirty hertz, a perceptual threshold that the article takes as representative."
+cite = []
+digest = "5e44a7bb8317af70"
+
+[[symbol]]
+tex = 'f_{\text{display}}'
+meaning = "the display update rate"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Sensor-to-Display Latency Budget"
+gloss = "The latency from sensor to display is budgeted as the sum of the delays of the sensor, the bus, computation, graphics generation and the display itself."
+cite = []
+digest = "da4b03058fbaad05"
+
+[[symbol]]
+tex = 'T_{\text{sensor-display}}'
+meaning = "the total latency from sensor measurement to display presentation"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Nyquist Rate for Direct Radio-Frequency Sampling"
+gloss = "Direct sampling of a radio-frequency signal must occur at no less than twice its frequency to preserve its information content."
+cite = []
+digest = "71308d10ccda7b2b"
+
+[[symbol]]
+tex = 'f_{\text{sample}}'
+meaning = "the sampling rate"
+
+[[symbol]]
+tex = 'f_c'
+meaning = "the radio-frequency centre frequency"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Radio Link Margin"
+gloss = "The link margin in decibels is the transmit power plus both antenna gains less the path loss and the receiver sensitivity, and it must exceed the required margin."
+cite = []
+digest = "60c071c51a6b4eaf"
+
+[[symbol]]
+tex = 'M_{\text{link}}'
+meaning = "the link margin"
+
+[[symbol]]
+tex = 'P_{\text{tx}}'
+meaning = "the transmit power in decibels relative to one milliwatt"
+
+[[symbol]]
+tex = 'G_{\text{tx}}'
+meaning = "the transmit antenna gain"
+
+[[symbol]]
+tex = 'G_{\text{rx}}'
+meaning = "the receive antenna gain"
+
+[[symbol]]
+tex = 'L_{\text{path}}'
+meaning = "the free-space path loss"
+
+[[symbol]]
+tex = 'P_{\text{rx,min}}'
+meaning = "the minimum receiver sensitivity"
+
+[[symbol]]
+tex = 'M_{\text{margin}}'
+meaning = "the required margin, typically ten to twenty decibels"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Worst-Case Complexity of Dijkstra's Algorithm"
+gloss = "Dijkstra's shortest-path algorithm with a simple array of tentative distances runs in time quadratic in the number of nodes."
+cite = ["research_dijkstra_1959"]
+digest = "7114b586afaa258d"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of waypoints or graph nodes"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Worst-Case Complexity of A-Star with a Fibonacci Heap"
+gloss = "Best-first search with a Fibonacci heap priority queue runs in time linear in the edges plus $N \\log N$ in the nodes."
+cite = []
+digest = "06901e5a5e88e55e"
+
+[[symbol]]
+tex = 'E'
+meaning = "the number of graph edges"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Probabilistic Completeness of Rapidly Exploring Random Trees"
+gloss = "The probability that a rapidly exploring random tree finds a feasible path, when one exists, approaches one as the number of samples grows without bound."
+cite = ["research_lavalle_1998"]
+digest = "faf61dc7065ff94c"
+
+[[symbol]]
+tex = 'P_{\text{RRT}}(n)'
+meaning = "the probability of finding a feasible path with $n$ samples"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Logistic Growth of the Software Fraction"
+gloss = "The software fraction of platform function is modelled as a logistic curve whose saturation level, midpoint year and growth rate the article estimates rather than fits."
+cite = []
+digest = "dd071fed39eefc99"
+
+[[symbol]]
+tex = 'f_{\text{sw}}(t)'
+meaning = "the software fraction of aerospace platform function at time $t$"
+
+[[symbol]]
+tex = 'f_{\text{sat}}'
+meaning = "the saturation level of the software fraction"
+
+[[symbol]]
+tex = 'r'
+meaning = "the growth-rate parameter"
+
+[[symbol]]
+tex = 't_{\text{mid}}'
+meaning = "the midpoint year"

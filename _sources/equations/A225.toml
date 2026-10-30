@@ -1,0 +1,183 @@
+# Equation classification for A225. Read by `python3 _lib/equations.py`.
+
+caution = "Output and income are per-capita real quantities unless marked aggregate, growth rates are continuous annual rates written as fractions rather than percentages, and every inequality is a stylised upper bound on preindustrial capacity rather than a fitted relation."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Malthusian Stationarity of Per-Capita Output"
+gloss = "In a Malthusian regime population growth absorbs any productivity gain, so per-capita output is approximately constant on time scales longer than one generation."
+cite = []
+digest = "613408d7c197a158"
+
+[[symbol]]
+tex = 'Y_{\text{pc}}'
+meaning = "per-capita output, aggregate output divided by population"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Linear Malthusian Population Response"
+gloss = "Population grows at a rate proportional to the excess of the real wage over the subsistence wage, a linear response the article assumes in order to show the negative feedback that returns the wage to subsistence."
+cite = ["book_clark_farewell_to_alms"]
+digest = "09151ab2cb10370d"
+
+[[symbol]]
+tex = 'N'
+meaning = "population"
+
+[[symbol]]
+tex = 'k'
+meaning = "a positive response coefficient"
+
+[[symbol]]
+tex = 'w'
+meaning = "the real wage available to labourers"
+
+[[symbol]]
+tex = 'w^*'
+meaning = "the subsistence wage below which mortality exceeds fertility"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Organic Energy Ceiling"
+gloss = "The article bounds per-capita usable energy by the solar input captured through biomass conversion on the land available, a construction that formalises the organic economy described by Wrigley."
+cite = ["book_wrigley_energy"]
+digest = "a70350e0b893abfc"
+
+[[symbol]]
+tex = 'E_{\text{pc}}'
+meaning = "per-capita usable energy per year"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the biomass conversion efficiency from solar input to usable output"
+
+[[symbol]]
+tex = 'I_{\text{solar}}'
+meaning = "the solar irradiance available for photosynthesis at a given latitude"
+
+[[symbol]]
+tex = 'A_{\text{land}}'
+meaning = "the arable and pastoral land available"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Fiscal Capacity Bound"
+gloss = "State revenue is bounded by agricultural output times a maximum sustainable tax rate times an administrative reach coefficient between zero and one, a coefficient the article introduces."
+cite = []
+digest = "554fc7a03e04e63b"
+
+[[symbol]]
+tex = 'T'
+meaning = "state revenue"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the administrative reach coefficient, between zero and one"
+
+[[symbol]]
+tex = '\tau_{\max}'
+meaning = "the maximum sustainable tax rate on agricultural surplus"
+
+[[symbol]]
+tex = 'Y_{\text{ag}}'
+meaning = "agricultural output"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Mobilisation Bound from Surplus over Subsistence"
+gloss = "The fraction of the population that can be kept under arms is bounded by the surplus of per-capita output over subsistence measured in units of subsistence, which assumes each soldier consumes exactly a subsistence ration and the whole surplus is available to feed them."
+cite = []
+digest = "93d7f33112b6587f"
+
+[[symbol]]
+tex = 'm'
+meaning = "the fraction of population sustainably mobilised as full-time soldiers"
+
+[[symbol]]
+tex = 'Y_{\text{sub}}'
+meaning = "the subsistence level of per-capita output"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Chain from Agricultural Output to Military Expenditure"
+gloss = "Combining a politically sustainable military share of revenue with the fiscal capacity bound chains sustainable military expenditure back to the agricultural output the state could reach."
+cite = []
+digest = "76b3d2f78b589a48"
+
+[[symbol]]
+tex = 'M'
+meaning = "sustainable military expenditure"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the politically sustainable share of state revenue committed to military purposes"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Compounding of a Growth Rate Gap"
+gloss = "Under constant continuous growth rates the ratio of two per-capita outputs grows exponentially at the difference of the rates, so a gap of one percentage point multiplies the ratio by about two and seven tenths over a century."
+cite = []
+digest = "6f0d08d0cbf05496"
+
+[[symbol]]
+tex = 'Y_{\text{lead}}(t)'
+meaning = "per-capita output of the leading industrialiser at time $t$"
+
+[[symbol]]
+tex = 'Y_{\text{follow}}(t)'
+meaning = "per-capita output of a follower at time $t$"
+
+[[symbol]]
+tex = 'g_{\text{lead}}'
+meaning = "the per-capita growth rate of the leader"
+
+[[symbol]]
+tex = 'g_{\text{follow}}'
+meaning = "the per-capita growth rate of the follower"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Divergence Ratio"
+gloss = "The article measures the Great Divergence as the per-capita output of the leading industrial economy divided by the population-weighted world mean, an index whose value depends on which leader is chosen."
+cite = []
+digest = "987c94998e01ec27"
+
+[[symbol]]
+tex = 'D(t)'
+meaning = "the divergence ratio at time $t$"
+
+[[symbol]]
+tex = '\bar{Y}_{\text{world,pc}}(t)'
+meaning = "the population-weighted mean of world per-capita output"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Catch-Up Time under Constant Growth Rates"
+gloss = "A follower growing faster than the leader at constant rates closes a per-capita gap of ratio $R$ in the logarithm of $R$ divided by the growth rate difference, an optimistic bound because the premium is rarely sustained."
+cite = []
+digest = "103f20dc3cedef4b"
+
+[[symbol]]
+tex = 't_{\text{catch}}'
+meaning = "the time to close the per-capita gap"
+
+[[symbol]]
+tex = 'R'
+meaning = "the initial ratio of leader to follower per-capita output"
+
+[[symbol]]
+tex = 'g_f'
+meaning = "the per-capita growth rate of the follower"
+
+[[symbol]]
+tex = 'g_l'
+meaning = "the per-capita growth rate of the leader"

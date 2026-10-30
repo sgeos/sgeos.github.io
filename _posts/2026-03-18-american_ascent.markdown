@@ -37,6 +37,7 @@ The compounding effect of the six features can be expressed as a double-multipli
 
 $$
 \frac{Y_{\text{total,US}}(t)}{Y_{\text{total,UK}}(t)} = \frac{N_{\text{US}}(t)}{N_{\text{UK}}(t)} \cdot \frac{Y_{\text{pc,US}}(t)}{Y_{\text{pc,UK}}(t)}
+\tag{1}
 $$
 
 with both ratios growing across the nineteenth and early twentieth centuries. By approximately 1913 the American population had reached roughly two and a quarter times the British population while American per-capita output had roughly matched the British figure, producing an aggregate ratio of over two. By 1950 the population multiplier had grown to approximately three and the per-capita multiplier to approximately one and four-tenths, producing an aggregate ratio of over four. The double-multiplier is the American structural advantage the European followers could not match under their smaller national-market conditions, and its compounding across the century from 1850 to 1950 produced the American global-hegemonic position by 1945.
@@ -91,6 +92,7 @@ The four decades from 1865 through the early 1900s constituted the Gilded Age in
 
 $$
 \frac{1}{N} \cdot \frac{dN}{dt} = (b - d) + m(t)
+\tag{2}
 $$
 
 with $(b - d)$ contributing approximately one percentage point of annual growth from natural increase and $m(t)$ contributing an additional half to one percentage point from net immigration during the peak years. The immigration contribution to total American population growth across the century from 1820 to 1920 was substantial, on the order of a quarter to a third of total growth depending on the accounting conventions.
@@ -125,6 +127,7 @@ The dollar's rise to the dominant reserve-currency position followed an exponent
 
 $$
 D_{\text{dollar}}(t) = D_{\infty} - (D_{\infty} - D_0) \cdot e^{-\lambda t}
+\tag{3}
 $$
 
 with $D_{\infty}$ representing the asymptotic dominance the dollar approached during the immediate postwar decades and $\lambda$ measuring the succession rate. Empirically the dollar reserve share rose from approximately two percent in 1913 to roughly forty percent by 1950 and to over sixty percent by 1970, with slower subsequent evolution around the sixty-to-seventy percent range that has persisted through the following half century. The succession from sterling to dollar as the dominant reserve currency was one instance of the general leader-succession pattern that the twelfth article of the series will return to in the contemporary-extrapolation context.
@@ -145,6 +148,7 @@ The American manufacturing-employment decline is quantitatively substantial. Let
 
 $$
 g_{\text{manuf}} = \frac{\ln(12/20)}{41} \approx -1.25\% \text{ per year}
+\tag{4}
 $$
 
 sustained across the four decades. The rate exceeds the deindustrialization rates observed across most other advanced economies during the same period and is one of the empirical foundations of the political-economic backlash against neoliberal trade policy that reshaped American politics during the 2010s and 2020s. Manufacturing output in absolute terms continued to grow modestly across the same period, so the decline was in employment rather than in production, and reflects the substantial labor-productivity gains that accrued to American manufacturing across the same decades that its employment share fell. The [Autor, Dorn, and Hanson analysis of the local labor-market effects of Chinese import competition][research_autor_dorn_hanson_china] documents the pattern by which local labor markets exposed to Chinese import competition experienced substantially larger manufacturing-employment declines than less-exposed markets, and the [Pierce and Schott reconstruction of the surprisingly swift decline of American manufacturing employment][research_pierce_schott_manufacturing] identifies the 2001 Chinese accession to the World Trade Organization as a policy hinge that accelerated the manufacturing-employment decline through the removal of tariff-reversion uncertainty on Chinese exports.
@@ -188,6 +192,65 @@ The [six axes of the series opener][related_post_industrialization_framing] map 
 The United States industrialized in the third wave through mechanisms that combined continental-market scale, immigration-driven population growth, protectionist tariff policy, managerial-capitalism organizational innovation, natural-resource abundance, and wartime disruption externalized by geographic isolation. The combination produced by 1945 a global-hegemonic position that no earlier industrializer had achieved and no subsequent economy has matched. The postwar American-anchored international economic and security architecture, the dollar reserve-currency system, the American military-industrial and later information-technology sectors, and the alliance system inherited from the Cold War together define the contemporary structural position the country occupies.
 
 The subsequent articles of the series treat the industrializers who followed the American ascent under conditions the American ascent had partly shaped. The fifth article treats Meiji Japan, the first non-Western case of successful industrialization from a preindustrial baseline, whose mechanisms combined selected Western imports with distinctively Japanese institutional adaptations and whose trajectory ended in the 1945 catastrophe from which the postwar Japanese reconstruction under American security guarantee produced the seventh-article case study.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 4 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 4, 3 are established and 1 are bespoke.
+Growth rates are continuous annual rates written as fractions, so a percentage in the prose is that fraction times one hundred, and aggregate output is the product of population and per-capita output rather than a separately measured quantity.
+
+**Equation 1, Aggregate Output Ratio as Population Ratio times Per-Capita Ratio.**
+Because aggregate output is population times per-capita output, the American to British aggregate ratio factors exactly into a population ratio and a per-capita output ratio.
+
+$$
+\frac{Y_{\text{total,US}}(t)}{Y_{\text{total,UK}}(t)} = \frac{N_{\text{US}}(t)}{N_{\text{UK}}(t)} \cdot \frac{Y_{\text{pc,US}}(t)}{Y_{\text{pc,UK}}(t)}
+\tag{1}
+$$
+
+**Equation 2, Population Growth from Natural Increase and Net Migration.**
+The proportional growth rate of population is the birth rate less the death rate plus the net immigration rate.
+
+$$
+\frac{1}{N} \cdot \frac{dN}{dt} = (b - d) + m(t)
+\tag{2}
+$$
+
+*Equation 3, Bespoke Exponential Approach of the Dollar Reserve Share.*
+The article describes the rise of the dollar share of world central-bank reserves as an exponential approach to an asymptotic level, a functional form chosen to mirror the sterling decay rather than fitted to a stated series.
+
+$$
+D_{\text{dollar}}(t) = D_{\infty} - (D_{\infty} - D_0) \cdot e^{-\lambda t}
+\tag{3}
+$$
+
+**Equation 4, Continuous Decline Rate of American Manufacturing Employment.**
+The fall from about twenty million manufacturing workers in 1979 to about twelve million in 2020 corresponds to a continuous decline of about one and a quarter percent per year.
+
+$$
+g_{\text{manuf}} = \frac{\ln(12/20)}{41} \approx -1.25\% \text{ per year}
+\tag{4}
+$$
+
+### Notation
+
+- $N_{\text{US}}(t)$, the population of the United States
+- $N_{\text{UK}}(t)$, the population of Britain
+- $Y_{\text{pc,US}}(t)$, American per-capita output
+- $Y_{\text{pc,UK}}(t)$, British per-capita output
+- $N$, population
+- $b$, the birth rate
+- $d$, the death rate
+- $m(t)$, the net immigration rate
+- $D_{\text{dollar}}(t)$, the share of world central-bank reserves held in dollars
+- $D_{\infty}$, the asymptotic dollar share
+- $D_0$, the initial dollar share
+- $\lambda$, the succession rate
+- $g_{\text{manuf}}$, the continuous growth rate of manufacturing employment, negative for a decline
 
 ## References
 

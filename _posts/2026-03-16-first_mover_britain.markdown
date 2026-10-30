@@ -25,6 +25,7 @@ The first-mover position produced compounding advantages of the kind the series 
 
 $$
 \frac{Y_{\text{UK}}(t)}{Y_{\text{RoW}}(t)} = \frac{Y_{\text{UK}}(0)}{Y_{\text{RoW}}(0)} \cdot e^{(g_{\text{UK}} - g_{\text{RoW}}) \cdot t}
+\tag{1}
 $$
 
 with $g_{\text{UK}} - g_{\text{RoW}}$ persistently positive across the century. British per-capita output grew at roughly one and a half percent per year during the Victorian long boom, while the world average grew at roughly one half of one percent per year. The compounding produced the ratio range of six to ten by the peak of British dominance in the late nineteenth century, up from a ratio near two at the beginning of the industrial period. The subsequent history of the ratio is the history of catch-up, first by Germany and the United States and then by other late industrializers, and constitutes the subject matter of the remaining ten articles of the series.
@@ -73,6 +74,7 @@ The gap between sectoral and aggregate growth is quantitatively substantial. Let
 
 $$
 g_{\text{cotton}} = \frac{\ln 100}{60} \approx 7.7\% \text{ per year}
+\tag{2}
 $$
 
 which exceeds the aggregate British per-capita growth rate of the same period by roughly a factor of five to ten. The gap between sectoral takeoff rates and aggregate rates is a general property of industrial revolutions and appears across every subsequent case the series treats. The follower economies that catch up successfully do so by concentrating the takeoff sectors, at least temporarily, rather than by matching the aggregate leading-economy rate across all sectors simultaneously.
@@ -101,6 +103,7 @@ British global dominance from 1815 through 1914 is often called the Pax Britanni
 
 $$
 |N_{\text{RN}}| \geq |N_2| + |N_3|
+\tag{3}
 $$
 
 with equality treated as the minimum acceptable position and superiority as the target. The two-power standard was substantially maintained from the mid-nineteenth century through roughly 1907, when the German High Seas Fleet buildup began to press against the standard and prompted the strategic realignment that led to the Anglo-French Entente Cordiale.
@@ -113,6 +116,7 @@ with equality treated as the minimum acceptable position and superiority as the 
 
 $$
 B_{\text{ca}} = B_{\text{visible}} + B_{\text{invisible}}
+\tag{4}
 $$
 
 with $B_{\text{visible}} < 0$ and $B_{\text{invisible}} \gg \lvert B_{\text{visible}} \rvert$ producing $B_{\text{ca}} > 0$. The composition matters because it establishes that late-Victorian Britain was already a financial and services economy running behind a manufacturing base whose relative competitiveness was eroding. The pattern would intensify through the twentieth century until financial services and related invisibles came to dominate British external earnings entirely.
@@ -159,6 +163,7 @@ The contemporary British position, as of 2026, is legible as the residue of the 
 
 $$
 S_{\text{sterling}}(t) = S_0 \cdot e^{-\lambda t}
+\tag{5}
 $$
 
 with $\lambda$ producing a half-life on the order of twenty to thirty years across the twentieth century. The empirical pattern of reserve-currency inertia followed by roughly exponential decline has been documented in the [Eichengreen and Flandreau primary reconstruction of the sterling-to-dollar reserve transition][research_eichengreen_flandreau_dollar]. The dollar reserve share exhibits similar inertial properties around its current dominance, and the twelfth article of the series returns to the reserve-currency question in the contemporary-extrapolation context.
@@ -202,6 +207,76 @@ The trade-off between first-mover advantages and first-mover costs is not clean.
 Britain industrialized first because a combination of coal, colonial extraction, constitutional-commitment institutions, fiscal-military state, common-law commercial framework, and geographic advantages assembled itself by the middle of the eighteenth century in a configuration no other polity matched. The industrialization proper unfolded across roughly seventy years and produced the compounding structural advantages that translated into a century of global dominance from Waterloo through the First World War. The relative decline of the twentieth century transferred global financial and industrial leadership to the United States while Britain retained the linguistic, legal, financial-services, and alliance-network legacies that continue to shape the contemporary British position.
 
 The subsequent ten articles of the series treat later industrialization waves. Each is legible in part as a response to the British first-mover position that shaped the global system into which the follower had to industrialize. The third article treats the continental European followers, whose institutional responses of the kind Gerschenkron described allowed rapid catch-up on the British lead through the second half of the nineteenth century, and whose contemporary positions reflect the configurations they adopted.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 5 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 5, 3 are established and 2 are bespoke.
+Growth and decay rates are continuous annual rates written as fractions, so a percentage in the prose is that fraction times one hundred, and payments balances are flows in a common currency per year with a deficit negative.
+
+**Equation 1, Compounding of the British Growth Rate Gap.**
+Under constant continuous growth rates the ratio of British to world-average per-capita output grows exponentially at the difference of the two rates, the compounding relation of the series opener applied to Britain from 1815 to 1914.
+[framework introduced in the series opener][related_post_industrialization_framing]
+
+$$
+\frac{Y_{\text{UK}}(t)}{Y_{\text{RoW}}(t)} = \frac{Y_{\text{UK}}(0)}{Y_{\text{RoW}}(0)} \cdot e^{(g_{\text{UK}} - g_{\text{RoW}}) \cdot t}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Growth Rate of Mechanised Cotton Output per Worker.*
+The continuous growth rate of per-worker output in cotton follows from a representative multiplier of about one hundred over the sixty years from 1770 to 1830, a round value the article takes rather than a measured series.
+
+$$
+g_{\text{cotton}} = \frac{\ln 100}{60} \approx 7.7\% \text{ per year}
+\tag{2}
+$$
+
+**Equation 3, Two-Power Standard.**
+The doctrine formalised by the Naval Defence Act of 1889 required the capital-ship tonnage of the Royal Navy to at least equal that of the second and third largest navies combined.
+
+$$
+|N_{\text{RN}}| \geq |N_2| + |N_3|
+\tag{3}
+$$
+
+**Equation 4, Current Account as Visible plus Invisible Balance.**
+The current account balance is the sum of the visible-trade balance and the invisible-earnings balance, which for late-Victorian Britain was positive despite a visible deficit.
+
+$$
+B_{\text{ca}} = B_{\text{visible}} + B_{\text{invisible}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Exponential Decay of the Sterling Reserve Share.*
+The article describes the fall of the sterling share of world central-bank reserves by an exponential decay from its early twentieth-century peak, a functional form chosen to summarise the trend rather than fitted to a stated series.
+[Eichengreen and Flandreau primary reconstruction of the sterling-to-dollar reserve transition][research_eichengreen_flandreau_dollar]
+
+$$
+S_{\text{sterling}}(t) = S_0 \cdot e^{-\lambda t}
+\tag{5}
+$$
+
+### Notation
+
+- $Y_{\text{UK}}(t)$, per-capita output in Britain at time $t$
+- $Y_{\text{RoW}}(t)$, world-average per-capita output at time $t$
+- $g_{\text{UK}}$, the British per-capita growth rate
+- $g_{\text{RoW}}$, the world-average per-capita growth rate
+- $g_{\text{cotton}}$, the per-worker output growth rate in mechanised cotton
+- $|N_{\text{RN}}|$, the capital-ship tonnage of the Royal Navy
+- $|N_2|$, the capital-ship tonnage of the second-ranked navy
+- $|N_3|$, the capital-ship tonnage of the third-ranked navy
+- $B_{\text{ca}}$, the current account balance
+- $B_{\text{visible}}$, the visible-trade balance
+- $B_{\text{invisible}}$, the invisible-earnings balance including returns on foreign investment
+- $S_{\text{sterling}}(t)$, the share of world central-bank reserves held in sterling
+- $S_0$, the sterling share at the early twentieth-century peak
+- $\lambda$, the decay rate of the sterling share
 
 ## References
 

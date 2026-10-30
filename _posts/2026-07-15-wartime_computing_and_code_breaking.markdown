@@ -23,13 +23,19 @@ The German military used the Enigma cipher machine as its primary tactical commu
 
 The Enigma keyspace for the standard three-rotor Wehrmacht configuration factors into rotor selection and order, starting rotor positions, plugboard configuration, and ring settings. The total number of daily key settings is approximately
 
-$$N_{\text{Enigma}} = P(5, 3) \cdot 26^3 \cdot \frac{26!}{6! \cdot 10! \cdot 2^{10}} \approx 60 \cdot 17{,}576 \cdot 1.5 \times 10^{14} \approx 1.6 \times 10^{20}$$
+$$
+N_{\text{Enigma}} = P(5, 3) \cdot 26^3 \cdot \frac{26!}{6! \cdot 10! \cdot 2^{10}} \approx 60 \cdot 17{,}576 \cdot 1.5 \times 10^{14} \approx 1.6 \times 10^{20}
+\tag{1}
+$$
 
 where $P(5,3) = 60$ counts the arrangements of three rotors drawn from a set of five, $26^3 = 17{,}576$ counts the starting positions, and the last factor counts the ways to plug ten pairs of letters on the twenty-six-position plugboard. This keyspace was large enough to defeat brute-force enumeration by any pre-war computational means. The Enigma design was believed by its German operators to be effectively unbreakable, and the intelligence value of this belief lay in the messages the operators were willing to send under its cover.
 
 The theoretical bound on cipher security was not established until [Shannon 1949][research_shannon_secrecy_1949] published his Communication Theory of Secrecy Systems. Shannon showed that perfect secrecy, meaning that the ciphertext gives an eavesdropper no information about the plaintext, requires
 
-$$H(K) \ge H(P)$$
+$$
+H(K) \ge H(P)
+\tag{2}
+$$
 
 where $H(K)$ is the Shannon entropy of the key and $H(P)$ is the entropy of the plaintext. For a message of $n$ characters, plaintext entropy per message ranges from approximately $n \cdot 1.5$ bits for natural German text with typical redundancy to approximately $n \cdot \log_2 26 \approx 4.7 n$ bits for maximum-entropy content, while Enigma's daily key carries approximately $\log_2 (1.6 \times 10^{20}) \approx 67$ bits. Messages of length on the order of tens of characters therefore fall outside the perfect-secrecy regime and are in principle vulnerable to cryptanalysis given sufficient computational effort and known-plaintext exploits. The one-time pad, which does satisfy perfect secrecy by using a key of length equal to the message, was known but was operationally impractical for high-volume military traffic.
 
@@ -39,11 +45,17 @@ The initial break of Enigma was accomplished by Polish mathematicians at the Cip
 
 The British Bombe designed by [Turing][ref_turing_bletchley] and Gordon Welchman and manufactured by the British Tabulating Machine Company under Harold Keen was an electromechanical machine that tested candidate rotor configurations against a suspected plaintext-ciphertext pair called a "crib" and rejected configurations that produced logical contradictions in the plugboard connections. A single Bombe testing one rotor ordering swept all $26^3 = 17{,}576$ starting positions in approximately 20 minutes, giving a per-machine testing rate of
 
-$$r_{\text{Bombe}} \approx \frac{17{,}576}{20 \cdot 60 \text{ seconds}} \approx 15 \text{ rotor positions per second}$$
+$$
+r_{\text{Bombe}} \approx \frac{17{,}576}{20 \cdot 60 \text{ seconds}} \approx 15 \text{ rotor positions per second}
+\tag{3}
+$$
 
 with each position implicitly testing consistency against the crib across the roughly $1.5 \times 10^{14}$ plugboard settings that the logical constraint construction rejected en masse. Bletchley Park operated approximately 200 Bombes by 1943 with the 60 rotor orderings distributed across the machine pool. The aggregate daily throughput of
 
-$$R_{\text{Bletchley}} \approx r_{\text{Bombe}} \cdot N_{\text{Bombes}} \cdot T_{\text{operational seconds}} \approx 15 \cdot 200 \cdot 72{,}000 \approx 2 \times 10^8 \text{ rotor-position tests per day}$$
+$$
+R_{\text{Bletchley}} \approx r_{\text{Bombe}} \cdot N_{\text{Bombes}} \cdot T_{\text{operational seconds}} \approx 15 \cdot 200 \cdot 72{,}000 \approx 2 \times 10^8 \text{ rotor-position tests per day}
+\tag{4}
+$$
 
 covered the full rotor keyspace many times over, sufficient to break the daily Enigma keys within hours of intercepting the first messages, per the accounts in [Hodges 1983][book_hodges_turing_enigma] and in the collected primary documents in [Copeland 2004][book_copeland_essential_turing].
 
@@ -53,7 +65,10 @@ The Bombe was electromechanical rather than electronic and used its rotor-emulat
 
 The German High Command used a different cipher for strategic communications between senior commanders. The Lorenz SZ40 and SZ42 cipher machines, known at Bletchley Park as "Tunny," implemented a stream cipher on standard five-bit teleprinter code using twelve keying wheels arranged in three groups. The wheels combined into a key stream that was added modulo two to the plaintext bits according to the Vernam cipher construction, established by [Vernam 1926][research_vernam_1926] for wire-service teleprinter encryption,
 
-$$c_i = p_i \oplus k_i$$
+$$
+c_i = p_i \oplus k_i
+\tag{5}
+$$
 
 where $p_i$ is the $i$-th plaintext bit, $k_i$ is the corresponding key-stream bit generated by the wheel machine, and $\oplus$ is bitwise addition modulo two. The Vernam cipher is unconditionally secure when the key stream is truly random and used only once. Tunny's key stream was not random but generated deterministically from a finite wheel state, which meant the same key stream could be reconstructed from a known-plaintext break and then applied to other messages sharing overlapping key. The keyspace for a single message setting exceeded the Enigma keyspace by several orders of magnitude, and the Tunny traffic was substantially more valuable strategically because it carried senior-level orders.
 
@@ -63,11 +78,17 @@ Cryptanalysis of Tunny was achieved by Bletchley Park mathematicians including [
 
 The Colossus Mark 1 was operational at Bletchley Park in February 1944 with approximately 1,600 valves. The Colossus Mark 2, delivered in June 1944 in time for the Normandy invasion, contained approximately 2,400 valves and processed the intercepted teleprinter tape at 5,000 characters per second, with pattern comparison operating at effectively
 
-$$r_{\text{Colossus Mk 2}} = N_{\text{parallel streams}} \cdot r_{\text{tape}} = 5 \cdot 5{,}000 \approx 25{,}000 \text{ characters per second}$$
+$$
+r_{\text{Colossus Mk 2}} = N_{\text{parallel streams}} \cdot r_{\text{tape}} = 5 \cdot 5{,}000 \approx 25{,}000 \text{ characters per second}
+\tag{6}
+$$
 
 through parallel processing across five bit streams corresponding to the five bits of the ITA2 teleprinter alphabet. Ten Colossi were built by the end of the war. Colossus performed statistical tests including cross-correlation between the ciphertext and candidate wheel settings, computing statistics of the form
 
-$$Z(\Delta) = \sum_{i=1}^{N} c_i \oplus k_i(\Delta)$$
+$$
+Z(\Delta) = \sum_{i=1}^{N} c_i \oplus k_i(\Delta)
+\tag{7}
+$$
 
 where $c_i$ is the intercepted character sequence, $k_i(\Delta)$ is the candidate key stream at wheel offset $\Delta$, and $\oplus$ is the modulo-two operation. Wheel settings that produced statistically anomalous values of $Z$ were candidates for the correct setting. The full historical reconstruction is available in [Copeland 2006][book_copeland_colossus] and in the primary technical account by [Randell 1980][research_randell_1980]. The wartime technical report on the Tunny break authored by Good, Michie, and Timms at Bletchley Park in 1945, declassified in the early 2000s and transcribed at [alanturing.net][research_good_michie_timms_1945], remains the most detailed primary account of the machine reconstruction and cryptanalytic methods.
 
@@ -87,11 +108,17 @@ The Manhattan Project consumed the largest concentration of scientific computing
 
 The criticality condition for a nuclear chain reaction is expressed through the effective neutron multiplication factor
 
-$$k_{\text{eff}} = \nu \cdot \frac{\Sigma_f}{\Sigma_f + \Sigma_c + P_L}$$
+$$
+k_{\text{eff}} = \nu \cdot \frac{\Sigma_f}{\Sigma_f + \Sigma_c + P_L}
+\tag{8}
+$$
 
 where $\nu$ is the mean number of neutrons produced per fission, $\Sigma_f$ is the macroscopic fission cross-section, $\Sigma_c$ is the macroscopic capture cross-section, and $P_L$ is the neutron leakage probability. A configuration with $k_{\text{eff}} > 1$ sustains an exponentially growing chain reaction. The implosion problem required raising $k_{\text{eff}}$ from subcritical to supercritical in a few microseconds by compressing the plutonium core so that $P_L$ drops sharply while $\Sigma_f$ rises. The hydrodynamic shockwave that accomplishes the compression follows approximately adiabatic behavior under the polytropic-gas approximation
 
-$$P \cdot V^\gamma = \text{constant}$$
+$$
+P \cdot V^\gamma = \text{constant}
+\tag{9}
+$$
 
 with adiabatic index $\gamma$ appropriate to the compressed material, though the actual computation used substantially more detailed equations of state and radiation-transport terms. Both quantities required numerical evaluation at every point of a spatial grid at every time step of the microsecond-scale implosion, with the wartime calculations mostly exploiting spherical or cylindrical symmetry to reduce the effective dimensionality to one or two spatial coordinates rather than a full three-dimensional grid, which is what produced the computational demand within the resources available.
 
@@ -99,7 +126,10 @@ The Los Alamos computing group under Richard Feynman coordinated the IBM tabulat
 
 The ENIAC's first substantive calculation, per [Metropolis and Nelson 1982][research_metropolis_nelson_1982] and the retrospective in [Metropolis 1987][research_metropolis_1987], was a Monte Carlo simulation of thermonuclear reaction rates for the hydrogen bomb feasibility study conducted for Edward Teller and John von Neumann at Los Alamos. The Monte Carlo method exploits the statistical convergence of averages of random samples to compute expectations of quantities that would otherwise require intractable multidimensional integration. The standard error of a Monte Carlo estimate of a quantity with standard deviation $\sigma$ from $N$ samples is
 
-$$\epsilon_{\text{MC}} = \frac{\sigma}{\sqrt{N}}$$
+$$
+\epsilon_{\text{MC}} = \frac{\sigma}{\sqrt{N}}
+\tag{10}
+$$
 
 which converges slowly but is dimension-independent, making Monte Carlo the preferred approach for high-dimensional integrals such as those arising in neutron transport and thermonuclear reaction rate calculation. The ENIAC calculation used approximately one million punched cards of input and output and ran for several weeks at Aberdeen before returning results that informed subsequent hydrogen bomb design work at Los Alamos.
 
@@ -132,6 +162,122 @@ The sixth axis is semiconductor economics and dual-use. The vacuum-tube industry
 The Second World War was the formative moment for large-scale electronic digital computing. Three distinct computing programs at Bletchley Park, in the American cryptanalytic effort, and at Los Alamos each produced computing capability at scales that no pre-war program had approached. The cryptanalytic programs pioneered the engineering techniques including valve-reliability engineering, statistical computation, and industrial-scale searching of large discrete spaces that the postwar computing industry inherited. The Manhattan Project pioneered scientific computing at scales that later became routine for weapons design, weather forecasting, and computational physics. The ENIAC's first substantive calculation for the hydrogen bomb feasibility study connected the ballistic-table thread from the preceding article to the atomic-weapons thread that dominated the immediate postwar computing agenda.
 
 The next article in the series treats the transition from wartime to peacetime computing in the context of early Cold War air defense, culminating in the Semi-Automatic Ground Environment hereafter SAGE system as the largest computing project of the 1950s and the direct genealogy from SAGE to commercial timesharing and to modern distributed computing.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 10 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 10, 8 are established and 2 are bespoke.
+Key counts and rotor positions are dimensionless counts, entropies are in bits, testing and processing rates are per second unless a day is stated, and the cross-sections in the criticality factor are macroscopic, with units of inverse length.
+
+**Equation 1, Daily Key Settings of the Three-Rotor Enigma.**
+The count multiplies the ordered choices of three rotors from five, the starting positions of three rotors and the ways to plug ten pairs of letters, giving about $1.6 \times 10^{20}$ settings.
+
+$$
+N_{\text{Enigma}} = P(5, 3) \cdot 26^3 \cdot \frac{26!}{6! \cdot 10! \cdot 2^{10}} \approx 60 \cdot 17{,}576 \cdot 1.5 \times 10^{14} \approx 1.6 \times 10^{20}
+\tag{1}
+$$
+
+**Equation 2, Shannon Condition for Perfect Secrecy.**
+A cipher can give an eavesdropper no information about the plaintext only when the entropy of the key is at least the entropy of the plaintext.
+[Shannon 1949][research_shannon_secrecy_1949]
+
+$$
+H(K) \ge H(P)
+\tag{2}
+$$
+
+**Equation 3, Testing Rate of One Bombe.**
+Sweeping all 17,576 starting positions of one rotor order in about twenty minutes gives about fifteen rotor positions per second.
+
+$$
+r_{\text{Bombe}} \approx \frac{17{,}576}{20 \cdot 60 \text{ seconds}} \approx 15 \text{ rotor positions per second}
+\tag{3}
+$$
+
+*Equation 4, Bespoke Daily Throughput of the Bombe Fleet.*
+The fleet throughput multiplies the single-machine rate by two hundred Bombes and by seventy-two thousand operating seconds a day, a duty of twenty hours that the article assumes.
+[Hodges 1983][book_hodges_turing_enigma]
+[Copeland 2004][book_copeland_essential_turing]
+
+$$
+R_{\text{Bletchley}} \approx r_{\text{Bombe}} \cdot N_{\text{Bombes}} \cdot T_{\text{operational seconds}} \approx 15 \cdot 200 \cdot 72{,}000 \approx 2 \times 10^8 \text{ rotor-position tests per day}
+\tag{4}
+$$
+
+**Equation 5, Vernam Cipher.**
+Each ciphertext bit is the plaintext bit added modulo two to the corresponding key-stream bit.
+[Vernam 1926][research_vernam_1926]
+
+$$
+c_i = p_i \oplus k_i
+\tag{5}
+$$
+
+**Equation 6, Effective Processing Rate of Colossus Mark 2.**
+Processing the five bit streams of the teleprinter alphabet in parallel at five thousand characters per second gives an effective rate of twenty-five thousand.
+
+$$
+r_{\text{Colossus Mk 2}} = N_{\text{parallel streams}} \cdot r_{\text{tape}} = 5 \cdot 5{,}000 \approx 25{,}000 \text{ characters per second}
+\tag{6}
+$$
+
+**Equation 7, Colossus Correlation Count.**
+Colossus counted the modulo-two sum of the intercepted stream and a candidate key stream at a wheel offset, and a statistically anomalous count marked a candidate setting.
+[Copeland 2006][book_copeland_colossus]
+[Randell 1980][research_randell_1980]
+
+$$
+Z(\Delta) = \sum_{i=1}^{N} c_i \oplus k_i(\Delta)
+\tag{7}
+$$
+
+*Equation 8, Bespoke Simplified Neutron Multiplication Factor.*
+The article writes the effective multiplication factor as the neutrons per fission times the share of neutron losses due to fission, a simplified balance that sets a leakage probability beside the fission and capture cross-sections.
+
+$$
+k_{\text{eff}} = \nu \cdot \frac{\Sigma_f}{\Sigma_f + \Sigma_c + P_L}
+\tag{8}
+$$
+
+**Equation 9, Adiabatic Relation of a Polytropic Gas.**
+Under adiabatic compression of a polytropic gas, pressure times volume raised to the adiabatic index stays constant.
+
+$$
+P \cdot V^\gamma = \text{constant}
+\tag{9}
+$$
+
+**Equation 10, Standard Error of a Monte Carlo Estimate.**
+The standard error of a Monte Carlo estimate falls as the standard deviation of the sampled quantity divided by the square root of the number of samples, independent of dimension.
+
+$$
+\epsilon_{\text{MC}} = \frac{\sigma}{\sqrt{N}}
+\tag{10}
+$$
+
+### Notation
+
+- $P(5, 3)$, the arrangements of three rotors drawn from five, sixty
+- $H(K)$, the Shannon entropy of the key
+- $H(P)$, the entropy of the plaintext
+- $r_{\text{Bombe}}$, the rotor positions tested per second by one Bombe
+- $N_{\text{Bombes}}$, the number of Bombes in operation, about two hundred by 1943
+- $p_i$, the $i$th plaintext bit
+- $k_i$, the $i$th key-stream bit
+- $c_i$, the $i$th ciphertext bit or intercepted character
+- $\Delta$, the candidate wheel offset
+- $\nu$, the mean number of neutrons produced per fission
+- $\Sigma_f$, the macroscopic fission cross-section
+- $\Sigma_c$, the macroscopic capture cross-section
+- $P_L$, the neutron leakage probability
+- $\gamma$, the adiabatic index of the compressed material
+- $\sigma$, the standard deviation of the sampled quantity
+- $N$, the number of samples in the Monte Carlo estimate, the number of characters in the correlation count
 
 ## References
 

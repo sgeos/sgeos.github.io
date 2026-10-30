@@ -1,0 +1,127 @@
+# Equation classification for A248. Read by `python3 _lib/equations.py`.
+
+caution = "Training compute is in floating-point operations, market shares are fractions that sum to one so the concentration index lies between zero and one rather than on the ten thousand point scale, and time is in years."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Training Compute of a Dense Model"
+gloss = "Training compute is about six floating-point operations per parameter per training token, covering the forward and backward passes."
+cite = ["research_kaplan_et_al_2020"]
+digest = "52392d5f2faae151"
+
+[[symbol]]
+tex = 'C_{\text{train}}(N)'
+meaning = "the training compute for a model of $N$ parameters"
+
+[[symbol]]
+tex = 'N'
+meaning = "the parameter count in Equations 1 and 2, the number of swarm vehicles in Equations 3 and 4, and the number of suppliers in Equation 5"
+
+[[symbol]]
+tex = 'D'
+meaning = "the number of training tokens"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Neural Scaling Law for Test Loss"
+gloss = "Test loss falls as a power of the parameter count and a power of the training tokens toward an irreducible floor, in the compute-optimal form."
+cite = ["research_hoffmann_et_al_2022"]
+digest = "1e63a297ff256792"
+
+[[symbol]]
+tex = 'L(N, D)'
+meaning = "the test loss"
+
+[[symbol]]
+tex = 'A'
+meaning = "the fitted coefficient of the parameter term"
+
+[[symbol]]
+tex = 'B'
+meaning = "the fitted coefficient of the data term"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the parameter-count exponent"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the data exponent"
+
+[[symbol]]
+tex = 'L_{\text{irreducible}}'
+meaning = "the irreducible loss"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Linear Swarm Capability"
+gloss = "For simple coordination tasks the article assumes that each vehicle adds the same capability, so swarm capability grows in proportion to swarm size."
+cite = []
+digest = "4fece9672ae01da2"
+
+[[symbol]]
+tex = 'y_1'
+meaning = "the capability of one vehicle"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Pairwise Swarm Capability"
+gloss = "For tasks that rest on interaction between members the article assumes that every pair contributes the same value, so capability grows with the number of pairs."
+cite = []
+digest = "e60f3a5b6878eb82"
+
+[[symbol]]
+tex = 'y_{\text{interact}}'
+meaning = "the value of one pairwise interaction"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Herfindahl-Hirschman Index"
+gloss = "The Herfindahl-Hirschman index of market concentration is the sum of the squared market shares of all suppliers."
+cite = []
+digest = "4e9cfc095d32194c"
+
+[[symbol]]
+tex = 'H'
+meaning = "the Herfindahl-Hirschman index"
+
+[[symbol]]
+tex = 's_i'
+meaning = "the market share of supplier $i$"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Linear Growth of Extrapolation Uncertainty"
+gloss = "Forecast uncertainty is assumed to grow at least linearly with the projection horizon, at a rate of three to ten hundredths per year that the article takes as typical."
+cite = []
+digest = "142d71e850a2c4db"
+
+[[symbol]]
+tex = '\sigma(t)'
+meaning = "the extrapolation uncertainty at horizon $t$"
+
+[[symbol]]
+tex = '\sigma_0'
+meaning = "the uncertainty at the projection origin"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the growth rate of uncertainty per year"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Kondratiev Cycle Period"
+gloss = "A techno-economic long wave is taken to last about fifty years, divided into installation and deployment phases of about twenty-five years each."
+cite = ["book_perez_technological_revolutions"]
+digest = "6b28aff47750a61b"
+
+[[symbol]]
+tex = 'T_{\text{Kondratiev}}'
+meaning = "the period of a Kondratiev cycle"
