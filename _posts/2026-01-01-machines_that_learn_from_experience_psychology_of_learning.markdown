@@ -21,7 +21,10 @@ The psychology of learning treats the question of how experience produces enduri
 
 The model admits several distinct formalizations depending on the tradition and level of analysis. Behaviorist formalizations treat learning as the change in observable stimulus-response relationships. Cognitive formalizations treat learning as the change in internal mental representations. Neural formalizations treat learning as the change in synaptic weights and neural circuit properties. Computational formalizations treat learning as the update of algorithmic parameters through the interaction with the environment. The most general formal characterization treats learning as the systematic update of an internal state $\theta_t$ based on the interaction history,
 
-$$\theta_{t+1} = \theta_t + \eta \, \Delta(\theta_t, o_t, a_t, r_t)$$
+$$
+\theta_{t+1} = \theta_t + \eta \, \Delta(\theta_t, o_t, a_t, r_t)
+\tag{1}
+$$
 
 with $\eta$ a learning rate and $\Delta$ an update function that depends on the formalization adopted.
 
@@ -59,11 +62,17 @@ Classical conditioning is the learning phenomenon in which an initially-neutral 
 
 The Pavlov 1927 systematic experimental framework identified the patterns of classical conditioning including acquisition, extinction, spontaneous recovery, generalization, and discrimination. Acquisition refers to the increase in the CR strength across CS-US pairings and is quantitatively described by the exponential-approach curve
 
-$$V(n) = V_\infty (1 - e^{-\alpha n})$$
+$$
+V(n) = V_\infty (1 - e^{-\alpha n})
+\tag{2}
+$$
 
 with $V(n)$ the associative strength after $n$ trials and $V_\infty$ the asymptotic strength. Extinction refers to the decrease in CR strength across CS-alone presentations and is often quantitatively described by the decay function $V(n) = V_0 \, e^{-\beta n}$. Spontaneous recovery refers to the partial return of the CR after a rest period following extinction. Generalization follows a similarity-based gradient
 
-$$V(x) = V_{\text{CS}} \, s(x, x_{\text{CS}})$$
+$$
+V(x) = V_{\text{CS}} \, s(x, x_{\text{CS}})
+\tag{3}
+$$
 
 with $s$ a stimulus-similarity function. Discrimination refers to the differential responding to CS versus similar-but-distinct stimuli.
 
@@ -73,7 +82,10 @@ Overshadowing is the phenomenon in which a more salient element of a compound CS
 
 Contingency versus contiguity was systematically studied by [Rescorla 1968][research_rescorla_1968] through the truly-random-control experiments that demonstrated that CS-US pairings produce conditioning only when the CS provides information about the US, not merely when the CS and US co-occur. The contingency measure
 
-$$\Delta P = P(\text{US} \mid \text{CS}) - P(\text{US} \mid \neg \text{CS})$$
+$$
+\Delta P = P(\text{US} \mid \text{CS}) - P(\text{US} \mid \neg \text{CS})
+\tag{4}
+$$
 
 quantifies the predictive relationship between the CS and the US, with $\Delta P > 0$ producing excitatory conditioning and $\Delta P < 0$ producing inhibitory conditioning. This account has substantially shaped the modern understanding of associative learning as a form of predictive computation.
 
@@ -89,7 +101,10 @@ The Rescorla-Wagner model of Rescorla and Wagner 1972 provided the formal framew
 
 The Rescorla-Wagner update rule specifies the change in associative strength for each CS after a trial as
 
-$$\Delta V_{\text{CS}} = \alpha_{\text{CS}} \, \beta_{\text{US}} \, (\lambda - \Sigma V)$$
+$$
+\Delta V_{\text{CS}} = \alpha_{\text{CS}} \, \beta_{\text{US}} \, (\lambda - \Sigma V)
+\tag{5}
+$$
 
 with $V_{\text{CS}}$ the current associative strength of the CS, $\alpha_{\text{CS}}$ a CS-learning-rate parameter, $\beta_{\text{US}}$ a US-learning-rate parameter, $\lambda$ the maximum associative strength supported by the US, and $\Sigma V$ the sum of associative strengths of all CSs present on the trial. The error signal $(\lambda - \Sigma V)$ provides the driving force for learning and produces the patterns of blocking and other conditioning phenomena that pre-Rescorla-Wagner models could not accommodate.
 
@@ -97,7 +112,10 @@ Blocking follows directly from the Rescorla-Wagner update. If prior conditioning
 
 The correspondence between the Rescorla-Wagner update and the temporal-difference learning rule of modern reinforcement learning is substantial. Both frameworks compute updates based on prediction errors that reflect the difference between actual and expected outcomes. The correspondence is captured by the observation that the Rescorla-Wagner rule is equivalent to trial-level temporal-difference learning with $\gamma = 0$,
 
-$$V(s) \leftarrow V(s) + \alpha \, (r - V(s))$$
+$$
+V(s) \leftarrow V(s) + \alpha \, (r - V(s))
+\tag{6}
+$$
 
 The correspondence has been extensively developed through subsequent work and provides the bridge between classical psychological learning theory and modern computational reinforcement learning.
 
@@ -115,7 +133,10 @@ The Skinner 1938 systematic experimental framework identified the reinforcement 
 
 Herrnstein's matching law of [Herrnstein 1961][research_herrnstein_1961] provided the systematic quantitative characterization of choice behavior under concurrent variable-interval schedules. The account predicts that the proportion of responses on each of two alternatives matches the proportion of reinforcement obtained,
 
-$$\frac{B_1}{B_1 + B_2} = \frac{R_1}{R_1 + R_2}$$
+$$
+\frac{B_1}{B_1 + B_2} = \frac{R_1}{R_1 + R_2}
+\tag{7}
+$$
 
 with $B_i$ the response rate and $R_i$ the reinforcement rate on alternative $i$. The model has sizable empirical support across many species and has been appreciably influential in behavioral economics.
 
@@ -135,7 +156,10 @@ Motivation provides the psychological framework through which the driving forces
 
 Hull's drive-reduction theory of [Hull 1943][book_hull_1943] provided the foundational modern account in which behavior is driven by the reduction of physiological drives including hunger, thirst, and sexual arousal. This formulation identifies the quantitative relationship
 
-$$\text{response strength} = \text{habit strength} \times \text{drive} \times \text{incentive}$$
+$$
+\text{response strength} = \text{habit strength} \times \text{drive} \times \text{incentive}
+\tag{8}
+$$
 
 that combines learning history with current motivational state. The treatment has been considerably refined but continues to provide the quantitative bridge between the psychology of motivation and modern reinforcement learning.
 
@@ -171,7 +195,10 @@ Tolman's cognitive maps of [Tolman 1948][research_tolman_1948_cognitive_maps] in
 
 The Miller 1956 Magical Number Seven paper introduced the information-theoretic framework for short-term memory. The framework proposed that short-term memory capacity is approximately seven plus-or-minus two chunks,
 
-$$C_{\text{STM}} \approx 7 \pm 2 \text{ chunks}$$
+$$
+C_{\text{STM}} \approx 7 \pm 2 \text{ chunks}
+\tag{9}
+$$
 
 providing the quantitative characterization that continues to organize memory research. The account has been greatly refined through subsequent work but continues to provide the empirical foundation for capacity-limited cognitive processing.
 
@@ -187,13 +214,19 @@ Attention-based models of associative learning were developed in the 1970s and 1
 
 The Mackintosh attention model of [Mackintosh 1975][research_mackintosh_1975] proposed that the CS-learning rate $\alpha_{\text{CS}}$ increases when the CS is a good predictor of the US and decreases when the CS is a poor predictor. The treatment provides the mechanism through which prior experience with a CS affects subsequent learning about the same CS. The formal update takes the form
 
-$$\Delta \alpha_A > 0 \text{ iff } |\lambda - V_A| < |\lambda - V_X|$$
+$$
+\Delta \alpha_A > 0 \text{ iff } |\lambda - V_A| < |\lambda - V_X|
+\tag{10}
+$$
 
 with $\alpha_A$ the learning rate for CS A and $V_X$ the summed associative strength of all other CSs present on the trial. The update reflects the observation that a CS receives more attention when it predicts the US better than the alternative CSs present.
 
 The Pearce-Hall attention model of [Pearce and Hall 1980][research_pearce_hall_1980] provided the alternative proposal that the CS-learning rate is modulated by the unpredictability of the US on the previous trial. The Pearce-Hall attention update takes the form
 
-$$\alpha_{\text{CS}}^{(n)} = \gamma \, |\lambda^{(n-1)} - \Sigma V^{(n-1)}| + (1 - \gamma) \, \alpha_{\text{CS}}^{(n-1)}$$
+$$
+\alpha_{\text{CS}}^{(n)} = \gamma \, |\lambda^{(n-1)} - \Sigma V^{(n-1)}| + (1 - \gamma) \, \alpha_{\text{CS}}^{(n-1)}
+\tag{11}
+$$
 
 with $\alpha_{\text{CS}}^{(n)}$ the attention to the CS on trial $n$, $\gamma$ a smoothing parameter, and the absolute-value term reflecting the unsigned prediction error on the prior trial. This account predicts that surprise-generating CSs receive more attention and hence faster learning, providing the mechanism for latent inhibition and other phenomena.
 
@@ -211,7 +244,10 @@ The [Sutton and Barto 1990][research_sutton_barto_1990] Time-Derivative Models o
 
 The [Daw et al. 2005][research_daw_niv_dayan_2005_a264] Uncertainty-Based Competition framework introduced the proposal that the brain implements both model-based and model-free reinforcement learning systems that compete for behavioral control based on the uncertainty properties of the current situation. This formulation combines the two value estimates through an uncertainty-weighted average
 
-$$V(s, a) = w_{\text{MB}}(s, a) \, V_{\text{MB}}(s, a) + (1 - w_{\text{MB}}(s, a)) \, V_{\text{MF}}(s, a)$$
+$$
+V(s, a) = w_{\text{MB}}(s, a) \, V_{\text{MB}}(s, a) + (1 - w_{\text{MB}}(s, a)) \, V_{\text{MF}}(s, a)
+\tag{12}
+$$
 
 with $w_{\text{MB}}(s, a) \propto 1/\sigma^2_{\text{MB}}(s, a)$ the model-based weight scaled by the inverse variance of the model-based estimate. The treatment provides the computational account of the classical psychological distinction between habitual and goal-directed behavior and continues to organize substantial modern research.
 
@@ -233,7 +269,10 @@ Categorization and concept learning treat the psychological processes through wh
 
 The classical view of concepts as necessary-and-sufficient feature lists was markedly challenged by the [Rosch 1975][research_rosch_1975] prototype theory framework. This formulation proposed that categories are organized around prototypical examples rather than necessary-and-sufficient conditions, and that category membership is a graded rather than binary matter. The prototype-based classification computes similarity to a category prototype
 
-$$P(C_k \mid x^*) \propto s(x^*, p_k) \, p(C_k)$$
+$$
+P(C_k \mid x^*) \propto s(x^*, p_k) \, p(C_k)
+\tag{13}
+$$
 
 with $p_k$ the category prototype and $s$ a similarity function. The treatment has marked empirical support from categorization experiments and continues to organize extensive modern categorization research.
 
@@ -241,7 +280,10 @@ Exemplar models of categorization including the [Nosofsky 1986][research_nosofsk
 
 The Nosofsky Generalized Context Model computes the classification decision as
 
-$$P(C_k \mid x^*) = \frac{\sum_{i \in C_k} \eta(x^*, x_i)}{\sum_{j} \eta(x^*, x_j)}$$
+$$
+P(C_k \mid x^*) = \frac{\sum_{i \in C_k} \eta(x^*, x_i)}{\sum_{j} \eta(x^*, x_j)}
+\tag{14}
+$$
 
 with $\eta(x^\*, x_i) = \exp(-c \, d(x^\*, x_i))$ the exemplar-similarity function and $d(x^\*, x_i)$ a weighted-Minkowski distance metric. The framework provides quantitative fits to empirical categorization data and has been appreciably influential in subsequent categorization research.
 
@@ -249,13 +291,19 @@ Rule-based models of categorization propose that categorization is performed thr
 
 Bayesian models of concept learning of [Tenenbaum 1999][research_tenenbaum_1999] and the sizable subsequent literature provided the probabilistic framework in which concept acquisition is characterized as Bayesian inference over a hypothesis space of candidate concepts. The Bayesian generalization update computes
 
-$$p(h \mid X) \propto p(X \mid h) \, p(h) = \left[\prod_{x \in X} \mathbb{1}[x \in h] / |h|\right] \, p(h)$$
+$$
+p(h \mid X) \propto p(X \mid h) \, p(h) = \left[\prod_{x \in X} \mathbb{1}[x \in h] / |h|\right] \, p(h)
+\tag{15}
+$$
 
 with the size principle likelihood favoring smaller hypotheses consistent with the observed examples. The account provides the systematic formal treatment of concept learning as rational inference and has been greatly influential in modern computational cognitive science.
 
 Kruschke's ALCOVE model of [Kruschke 1992][research_kruschke_1992_alcove] introduced the attention-modulated exemplar model of categorization that combines the advantages of exemplar-based classification with the attention-based learning mechanism of the Mackintosh framework. The ALCOVE activation of exemplar node $i$ takes the form
 
-$$a_i^{\text{exemplar}} = \exp\!\left(-c \, \left[\sum_j \alpha_j \, |x_j^* - x_{i,j}|^r\right]^{q/r}\right)$$
+$$
+a_i^{\text{exemplar}} = \exp\!\left(-c \, \left[\sum_j \alpha_j \, |x_j^* - x_{i,j}|^r\right]^{q/r}\right)
+\tag{16}
+$$
 
 with $\alpha_j$ the learned attention weight for dimension $j$ and $c, q, r$ model hyperparameters. The model has been considerably influential in modern categorization research.
 
@@ -277,7 +325,10 @@ Analogical reasoning has been systematically studied through the [Gentner 1983][
 
 The formal structure-mapping framework specifies the mapping between source $S$ and target $T$ as
 
-$$m^* = \arg\max_m \, \text{StructuralConsistency}(m) + \text{Systematicity}(m)$$
+$$
+m^* = \arg\max_m \, \text{StructuralConsistency}(m) + \text{Systematicity}(m)
+\tag{17}
+$$
 
 with the preference for mappings that preserve relational structure over surface similarity and for mappings that connect to higher-order relations. The treatment provides quantitative fits to human analogical-reasoning behavior across many domains.
 
@@ -297,7 +348,10 @@ The empirical demonstration of observational learning through the [Bandura et al
 
 Vicarious reinforcement is the phenomenon in which observed reinforcement of a model affects the observer's likelihood of performing similar behavior. The update integrates observed and direct reinforcement through
 
-$$\Delta P(a) = \eta_{\text{direct}} \, r_{\text{self}}(a) + \eta_{\text{vicarious}} \, r_{\text{model}}(a)$$
+$$
+\Delta P(a) = \eta_{\text{direct}} \, r_{\text{self}}(a) + \eta_{\text{vicarious}} \, r_{\text{model}}(a)
+\tag{18}
+$$
 
 with $\eta_{\text{vicarious}} < \eta_{\text{direct}}$ typically observed empirically. The treatment extends the operant framework beyond direct reinforcement of the observer's own behavior to encompass the effects of observing others' outcomes.
 
@@ -305,7 +359,10 @@ Modeling and imitation have been extensively studied both empirically and comput
 
 Social learning strategies of [Laland 2004][research_laland_2004] identified the rules through which individuals selectively copy behaviors from others. This account identifies strategies including copy-successful-individuals, copy-the-majority, and copy-when-uncertain, and provides the empirical framework for the study of strategic social learning. The copy-successful strategy takes the form
 
-$$P(\text{adopt } a) \propto \exp(\beta \, \bar{r}(a))$$
+$$
+P(\text{adopt } a) \propto \exp(\beta \, \bar{r}(a))
+\tag{19}
+$$
 
 with $\bar{r}(a)$ the observed average reward of individuals performing behavior $a$ and $\beta$ a temperature parameter that controls the concentration of copying on the most-successful behaviors.
 
@@ -321,13 +378,19 @@ Chunking as a mechanism for expertise was systematically documented by [Chase an
 
 The power law of practice of [Newell and Rosenbloom 1981][research_newell_rosenbloom_1981] provided the quantitative characterization of skill improvement across practice as
 
-$$T(n) = T_0 + A \, n^{-\beta}$$
+$$
+T(n) = T_0 + A \, n^{-\beta}
+\tag{20}
+$$
 
 with $T(n)$ the time to complete the task on the $n$-th trial, $T_0$ the asymptotic time, and $\beta$ a positive exponent typically around 0.5. This account has considerable empirical support across many skill domains and provides the quantitative benchmark against which computational models of skill acquisition are evaluated.
 
 Fitts's law of [Fitts 1954][research_fitts_1954] provided the systematic quantitative characterization of the speed-accuracy tradeoff in motor movement,
 
-$$T = a + b \, \log_2\!\left(\frac{2 D}{W}\right)$$
+$$
+T = a + b \, \log_2\!\left(\frac{2 D}{W}\right)
+\tag{21}
+$$
 
 with $T$ the movement time, $D$ the movement distance, $W$ the target width, and $a, b$ device- and task-constants. The framework has significant empirical support and has been extensively applied in human-computer interaction design.
 
@@ -373,13 +436,19 @@ Memory systems provide the psychological framework for the different kinds of lo
 
 The Atkinson-Shiffrin multi-store model of [Atkinson and Shiffrin 1968][research_atkinson_shiffrin_1968] introduced the three-stage framework including sensory memory, short-term memory, and long-term memory. The framework has been substantially refined but continues to provide the foundational architecture for memory research. Ebbinghaus's forgetting curve of [Ebbinghaus 1885][book_ebbinghaus_1885] provided the systematic quantitative characterization of memory retention over time,
 
-$$R(t) = R_0 \, e^{-t/\tau}$$
+$$
+R(t) = R_0 \, e^{-t/\tau}
+\tag{22}
+$$
 
 with $R(t)$ the retention at time $t$ after learning, $R_0$ the initial retention, and $\tau$ a memory-time constant. The account has been markedly refined through subsequent work but the exponential-decay form continues to provide the foundational characterization of retention dynamics.
 
 Working memory of [Baddeley and Hitch 1974][research_baddeley_hitch_1974] extended the framework with the working-memory architecture including the phonological loop, visuospatial sketchpad, and central executive components. Short-term memory decay follows the characterization
 
-$$P(\text{recall} \mid \text{delay} = t) = P_0 \, e^{-t/\tau_{\text{STM}}}$$
+$$
+P(\text{recall} \mid \text{delay} = t) = P_0 \, e^{-t/\tau_{\text{STM}}}
+\tag{23}
+$$
 
 with $\tau_{\text{STM}} \approx 20 \text{ s}$ in the absence of active rehearsal, matching the empirical decay observed in Brown-Peterson-task studies. This formulation has been extensively studied and continues to organize modern working memory research.
 
@@ -421,7 +490,10 @@ The Tenenbaum Kemp Griffiths Goodman 2011 How to Grow a Mind framework provided 
 
 The general Bayesian framework computes the posterior over hypotheses through Bayes' rule,
 
-$$p(h \mid d) = \frac{p(d \mid h) \, p(h)}{p(d)}$$
+$$
+p(h \mid d) = \frac{p(d \mid h) \, p(h)}{p(d)}
+\tag{24}
+$$
 
 with $h$ a candidate hypothesis, $d$ observed data, $p(h)$ the prior, $p(d \mid h)$ the likelihood, and $p(h \mid d)$ the posterior. The framework provides the systematic formal treatment of many cognitive phenomena.
 
@@ -431,7 +503,10 @@ Concept learning as Bayesian inference of Tenenbaum 1999 provided the paradigmat
 
 Causal reasoning as Bayesian inference of [Gopnik et al. 2004][research_gopnik_et_al_2004] extended the treatment to the study of causal learning in children and adults. The model treats causal learning as inference over causal-graph structures given observed evidence,
 
-$$p(G \mid D) \propto p(D \mid G) \, p(G) = \prod_i p(x_i \mid \text{Pa}_G(x_i)) \, p(G)$$
+$$
+p(G \mid D) \propto p(D \mid G) \, p(G) = \prod_i p(x_i \mid \text{Pa}_G(x_i)) \, p(G)
+\tag{25}
+$$
 
 with $G$ a candidate causal graph and $\text{Pa}\_G(x_i)$ the parents of variable $x_i$ under graph $G$. The treatment provides quantitative fits to human causal-reasoning behavior across many domains.
 
@@ -447,17 +522,26 @@ Prospect theory of [Kahneman and Tversky 1979][research_kahneman_tversky_1979] i
 
 The prospect theory value function takes the form
 
-$$v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda \, (-x)^\beta & x < 0 \end{cases}$$
+$$
+v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda \, (-x)^\beta & x < 0 \end{cases}
+\tag{26}
+$$
 
 with $\alpha, \beta \approx 0.88$ and $\lambda \approx 2.25$ producing the patterns of risk-seeking for losses, risk-aversion for gains, and asymmetric weighting of losses versus gains that characterize human decision-making. The account provides quantitative fits to human decision-making across many domains.
 
 The prospect theory probability weighting function
 
-$$w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}$$
+$$
+w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}
+\tag{27}
+$$
 
 with $\gamma \approx 0.61$ for gains and $\gamma \approx 0.69$ for losses produces the pattern in which small probabilities are overweighted and moderate-to-large probabilities are underweighted. The composite decision value under prospect theory takes the form
 
-$$V = \sum_i w(p_i) \, v(x_i)$$
+$$
+V = \sum_i w(p_i) \, v(x_i)
+\tag{28}
+$$
 
 with the decision computed as the expected weighted value under the prospect theory value and weighting functions.
 
@@ -485,7 +569,10 @@ Statistical learning in infants treated in article thirteen provided the empiric
 
 Bayesian models of language acquisition of [Xu and Tenenbaum 2007][research_xu_tenenbaum_2007_a264] and the sizable subsequent literature provided the computational framework in which language acquisition is characterized as Bayesian inference over linguistic structures. The cross-situational word-learning framework updates the mapping posterior after each labeling instance,
 
-$$p(m \mid W, R) \propto \prod_{(w, r) \in (W, R)} p(w \mid m, r) \, p(m)$$
+$$
+p(m \mid W, R) \propto \prod_{(w, r) \in (W, R)} p(w \mid m, r) \, p(m)
+\tag{29}
+$$
 
 with $m$ the word-referent mapping, $W$ the observed words, and $R$ the observed referents. The framework provides quantitative fits to empirical child data across many language-acquisition phenomena.
 
@@ -499,13 +586,19 @@ Predictive processing and the free energy principle provide the modern unified f
 
 This formulation, treated more extensively in articles thirteen and fourteen, proposes that cognitive processes correspond to the minimization of prediction error at multiple hierarchical levels. The variational-inference formulation minimizes the free energy
 
-$$F = D_{\text{KL}}(q(s) \, \| \, p(s \mid o)) - \log p(o)$$
+$$
+F = D_{\text{KL}}(q(s) \, \| \, p(s \mid o)) - \log p(o)
+\tag{30}
+$$
 
 with $q(s)$ the approximate posterior over hidden states and $p(o)$ the evidence. The psychological implications include the systematic account of perception as active inference, emotion as interoceptive inference, and cognitive development as the progressive refinement of the generative model.
 
 Interoceptive predictive processing of [Seth et al. 2012][research_seth_2013] extended this formulation to the account of emotion and subjective experience through the proposal that emotions arise from the interoceptive predictive processing of bodily states,
 
-$$\text{emotion}(t) = f_{\text{cat}}\!\left(\text{PE}_{\text{interoceptive}}(t), \, \text{context}(t)\right)$$
+$$
+\text{emotion}(t) = f_{\text{cat}}\!\left(\text{PE}_{\text{interoceptive}}(t), \, \text{context}(t)\right)
+\tag{31}
+$$
 
 with $\text{PE}\_{\text{interoceptive}}$ the interoceptive prediction error and $f_{\text{cat}}$ the categorical inference process that produces the emotional category from the interoceptive state and context. This account has greatly influenced modern affective science and provides the bridge between predictive processing and emotion research.
 
@@ -521,7 +614,10 @@ The neuroscience of learning has been extensively documented across many decades
 
 Long-term potentiation (LTP) of [Bliss and Lømo 1973][research_bliss_lomo_1973] provided the foundational empirical framework for the cellular mechanism of learning through the demonstration that repeated stimulation of hippocampal synapses produces long-lasting increases in synaptic strength. The spike-timing-dependent plasticity (STDP) rule of [Bi and Poo 1998][research_bi_poo_1998] provided the modern quantitative characterization,
 
-$$\Delta w_{ij} = \begin{cases} A^+ \, e^{-\Delta t / \tau^+} & \Delta t > 0 \\ -A^- \, e^{\Delta t / \tau^-} & \Delta t \leq 0 \end{cases}$$
+$$
+\Delta w_{ij} = \begin{cases} A^+ \, e^{-\Delta t / \tau^+} & \Delta t > 0 \\ -A^- \, e^{\Delta t / \tau^-} & \Delta t \leq 0 \end{cases}
+\tag{32}
+$$
 
 with $\Delta t = t_{\text{post}} - t_{\text{pre}}$ the time difference between post- and pre-synaptic spikes. The treatment has considerably shaped subsequent cellular neuroscience of learning and provides the bridge between the Hebbian learning framework and biological plasticity.
 
@@ -539,7 +635,10 @@ Article sixteen returns to the research directions and open questions that will 
 
 Educational applications of the psychology of learning have been significantly developed across many decades. The findings on spaced practice, retrieval practice, interleaving, and elaborative encoding provide the evidence-based practices that improve learning outcomes. The [Roediger and Karpicke 2006][research_roediger_karpicke_2006] Test-Enhanced Learning framework provided the systematic modern treatment of retrieval practice effects on long-term retention. The [Cepeda et al. 2008][research_cepeda_et_al_2008] Distributed Practice framework provided the systematic meta-analytic quantitative characterization of the spacing effects that continue to shape modern educational practice. The spaced-practice benefit follows the power law characterization
 
-$$R(t, s) = R_0 \cdot (1 + t/s)^{-\beta}$$
+$$
+R(t, s) = R_0 \cdot (1 + t/s)^{-\beta}
+\tag{33}
+$$
 
 with $R(t, s)$ the retention at time $t$ following a study session with spacing $s$ from prior study, and $\beta$ a task-forgetting parameter. The framework predicts the optimal spacing intervals that maximize long-term retention and has been extensively deployed in modern learning-technology systems.
 
@@ -583,6 +682,328 @@ Modern computational treatments of reproducibility include the frameworks for au
 - What is the correct account of the relationship between the cellular mechanisms of learning documented in neuroscience and the behavioral phenomena documented in psychology?
 - How should the findings from prospect theory and behavioral economics be integrated with the normative frameworks of expected utility theory and Bayesian decision theory?
 - Can modern foundation models be productively evaluated as models of human learning across the empirical phenomena documented in the psychology of learning literature?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 33 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 33, 23 are established and 10 are bespoke.
+Associative strengths, probabilities and retention are dimensionless while times carry the units of the experiment, and symbols such as $\alpha$, $\beta$, $\gamma$, $\eta$ and $\lambda$ are reused with a different meaning in each model, so every equation is read with the symbols defined beside it.
+
+*Equation 1, Bespoke General Learning Update.*
+The article frames every tradition of learning as one recursive update of an internal state from the interaction history, with the update function left open to each formalisation.
+
+$$
+\theta_{t+1} = \theta_t + \eta \, \Delta(\theta_t, o_t, a_t, r_t)
+\tag{1}
+$$
+
+**Equation 2, Exponential Acquisition Curve.**
+Associative strength approaches its asymptote exponentially with the number of conditioned stimulus and unconditioned stimulus pairings.
+
+$$
+V(n) = V_\infty (1 - e^{-\alpha n})
+\tag{2}
+$$
+
+*Equation 3, Bespoke Similarity-Scaled Generalisation Gradient.*
+The article writes the generalisation gradient as the trained associative strength scaled by an unspecified similarity between a test stimulus and the conditioned stimulus.
+
+$$
+V(x) = V_{\text{CS}} \, s(x, x_{\text{CS}})
+\tag{3}
+$$
+
+**Equation 4, Contingency Measure Delta P.**
+Contingency is the probability of the unconditioned stimulus given the conditioned stimulus minus its probability in the absence of the conditioned stimulus.
+[Rescorla 1968][research_rescorla_1968]
+
+$$
+\Delta P = P(\text{US} \mid \text{CS}) - P(\text{US} \mid \neg \text{CS})
+\tag{4}
+$$
+
+**Equation 5, Rescorla-Wagner Update.**
+The change in associative strength of each conditioned stimulus on a trial is the product of two learning rates and the shared prediction error between the asymptote and the summed strength of all stimuli present.
+[Rescorla and Wagner 1972][research_rescorla_wagner_1972]
+
+$$
+\Delta V_{\text{CS}} = \alpha_{\text{CS}} \, \beta_{\text{US}} \, (\lambda - \Sigma V)
+\tag{5}
+$$
+
+**Equation 6, Delta Rule as Temporal-Difference Learning Without Discounting.**
+With the discount factor set to zero the temporal-difference update reduces to moving a value estimate toward the received reward, the trial-level form of the Rescorla-Wagner rule.
+
+$$
+V(s) \leftarrow V(s) + \alpha \, (r - V(s))
+\tag{6}
+$$
+
+**Equation 7, Herrnstein Matching Law.**
+Under concurrent variable-interval schedules the proportion of responses on an alternative equals the proportion of reinforcement obtained from it.
+[Herrnstein 1961][research_herrnstein_1961]
+
+$$
+\frac{B_1}{B_1 + B_2} = \frac{R_1}{R_1 + R_2}
+\tag{7}
+$$
+
+**Equation 8, Hull Multiplicative Response Strength.**
+Hull's drive-reduction theory makes response strength the product of habit strength, drive and incentive, which combines learning history with motivational state.
+[Hull 1943][book_hull_1943]
+
+$$
+\text{response strength} = \text{habit strength} \times \text{drive} \times \text{incentive}
+\tag{8}
+$$
+
+**Equation 9, Miller Capacity of Short-Term Memory.**
+Miller's estimate places the capacity of short-term memory at about seven chunks, give or take two.
+[Miller 1956][research_miller_1956]
+
+$$
+C_{\text{STM}} \approx 7 \pm 2 \text{ chunks}
+\tag{9}
+$$
+
+**Equation 10, Mackintosh Attention Rule.**
+Attention to a stimulus rises when it predicts the outcome better than the other stimuli present and falls otherwise.
+[Mackintosh 1975][research_mackintosh_1975]
+
+$$
+\Delta \alpha_A > 0 \text{ iff } |\lambda - V_A| < |\lambda - V_X|
+\tag{10}
+$$
+
+**Equation 11, Pearce-Hall Attention Update.**
+Attention to a conditioned stimulus on a trial is a smoothed average of the unsigned prediction error on the previous trial and the previous attention.
+[Pearce and Hall 1980][research_pearce_hall_1980]
+
+$$
+\alpha_{\text{CS}}^{(n)} = \gamma \, |\lambda^{(n-1)} - \Sigma V^{(n-1)}| + (1 - \gamma) \, \alpha_{\text{CS}}^{(n-1)}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Uncertainty-Weighted Blend of Model-Based and Model-Free Values.*
+The article combines the model-based and model-free value estimates as an average weighted by inverse variance, a blending assumption in place of the arbitration that selects the less uncertain controller.
+
+$$
+V(s, a) = w_{\text{MB}}(s, a) \, V_{\text{MB}}(s, a) + (1 - w_{\text{MB}}(s, a)) \, V_{\text{MF}}(s, a)
+\tag{12}
+$$
+
+*Equation 13, Bespoke Prototype Classification Rule.*
+The article formalises prototype theory as a posterior over categories proportional to the similarity to each category prototype times the category prior, a form that the cited prototype work states only in words.
+
+$$
+P(C_k \mid x^*) \propto s(x^*, p_k) \, p(C_k)
+\tag{13}
+$$
+
+**Equation 14, Generalized Context Model Choice Rule.**
+The probability of assigning an item to a category is its summed similarity to the stored exemplars of that category divided by its summed similarity to all exemplars.
+[Nosofsky 1986][research_nosofsky_1986]
+
+$$
+P(C_k \mid x^*) = \frac{\sum_{i \in C_k} \eta(x^*, x_i)}{\sum_{j} \eta(x^*, x_j)}
+\tag{14}
+$$
+
+**Equation 15, Bayesian Generalisation with the Size Principle.**
+The posterior over candidate concepts multiplies the prior by a likelihood that is the reciprocal of the hypothesis size for each consistent example and zero otherwise, which favours the smallest consistent hypothesis.
+[Tenenbaum 1999][research_tenenbaum_1999]
+
+$$
+p(h \mid X) \propto p(X \mid h) \, p(h) = \left[\prod_{x \in X} \mathbb{1}[x \in h] / |h|\right] \, p(h)
+\tag{15}
+$$
+
+**Equation 16, ALCOVE Exemplar Activation.**
+The Attention Learning Covering map model activates each exemplar node by an exponential decay of the attention-weighted Minkowski distance between the input and the exemplar.
+[Kruschke 1992][research_kruschke_1992_alcove]
+
+$$
+a_i^{\text{exemplar}} = \exp\!\left(-c \, \left[\sum_j \alpha_j \, |x_j^* - x_{i,j}|^r\right]^{q/r}\right)
+\tag{16}
+$$
+
+*Equation 17, Bespoke Structure-Mapping Objective.*
+The article writes the selected analogical mapping as the maximiser of an unweighted sum of structural consistency and systematicity, a schematic scoring of the preferences that structure-mapping theory states.
+
+$$
+m^* = \arg\max_m \, \text{StructuralConsistency}(m) + \text{Systematicity}(m)
+\tag{17}
+$$
+
+*Equation 18, Bespoke Vicarious Reinforcement Update.*
+The article models observational learning as a change in the probability of a behaviour that adds direct and observed reinforcement, each with its own learning rate.
+
+$$
+\Delta P(a) = \eta_{\text{direct}} \, r_{\text{self}}(a) + \eta_{\text{vicarious}} \, r_{\text{model}}(a)
+\tag{18}
+$$
+
+*Equation 19, Bespoke Softmax Copy-Successful Strategy.*
+The article formalises the copy-successful social learning strategy as a softmax over the observed average reward of each behaviour, a choice rule it supplies for a strategy the cited survey describes qualitatively.
+
+$$
+P(\text{adopt } a) \propto \exp(\beta \, \bar{r}(a))
+\tag{19}
+$$
+
+**Equation 20, Power Law of Practice.**
+The time to complete a task falls toward an asymptote as a power of the number of practice trials.
+[Newell and Rosenbloom 1981][research_newell_rosenbloom_1981]
+
+$$
+T(n) = T_0 + A \, n^{-\beta}
+\tag{20}
+$$
+
+**Equation 21, Fitts's Law.**
+Movement time grows linearly with the base-two logarithm of twice the movement distance divided by the target width.
+[Fitts 1954][research_fitts_1954]
+
+$$
+T = a + b \, \log_2\!\left(\frac{2 D}{W}\right)
+\tag{21}
+$$
+
+**Equation 22, Exponential Forgetting Curve.**
+Retention decays exponentially from its initial value with a single memory time constant, the textbook simplification of the forgetting curve.
+
+$$
+R(t) = R_0 \, e^{-t/\tau}
+\tag{22}
+$$
+
+**Equation 23, Exponential Decay of Short-Term Recall.**
+Without rehearsal the probability of recall from short-term memory decays exponentially with the delay, as in the Brown-Peterson task.
+
+$$
+P(\text{recall} \mid \text{delay} = t) = P_0 \, e^{-t/\tau_{\text{STM}}}
+\tag{23}
+$$
+
+**Equation 24, Bayes' Rule.**
+The posterior over hypotheses is the likelihood times the prior divided by the evidence.
+
+$$
+p(h \mid d) = \frac{p(d \mid h) \, p(h)}{p(d)}
+\tag{24}
+$$
+
+**Equation 25, Posterior over Causal Graph Structures.**
+Causal learning is posed as Bayesian inference over graphs, with the likelihood factorised over each variable conditioned on its parents in the candidate graph.
+[Gopnik et al. 2004][research_gopnik_et_al_2004]
+
+$$
+p(G \mid D) \propto p(D \mid G) \, p(G) = \prod_i p(x_i \mid \text{Pa}_G(x_i)) \, p(G)
+\tag{25}
+$$
+
+**Equation 26, Prospect Theory Value Function.**
+The value function is a power function that is concave for gains and convex and steeper for losses, with the loss-aversion coefficient scaling the loss branch.
+[Kahneman and Tversky 1979][research_kahneman_tversky_1979]
+
+$$
+v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda \, (-x)^\beta & x < 0 \end{cases}
+\tag{26}
+$$
+
+**Equation 27, Prospect Theory Probability Weighting Function.**
+The one-parameter weighting function of cumulative prospect theory overweights small probabilities and underweights moderate and large ones.
+[Tversky and Kahneman 1992][research_tversky_kahneman_1992]
+
+$$
+w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}
+\tag{27}
+$$
+
+**Equation 28, Prospect Theory Decision Value.**
+The value of a prospect is the sum over its outcomes of the weighted probability times the value of each outcome.
+[Kahneman and Tversky 1979][research_kahneman_tversky_1979]
+
+$$
+V = \sum_i w(p_i) \, v(x_i)
+\tag{28}
+$$
+
+*Equation 29, Bespoke Cross-Situational Word-Learning Posterior.*
+The article writes the posterior over word and referent mappings as a product over labelling instances of the word likelihood given the mapping and referent, with the prior placed inside the product.
+
+$$
+p(m \mid W, R) \propto \prod_{(w, r) \in (W, R)} p(w \mid m, r) \, p(m)
+\tag{29}
+$$
+
+**Equation 30, Variational Free Energy.**
+Free energy is the Kullback-Leibler divergence from the approximate posterior to the true posterior over hidden states minus the log evidence, so it bounds surprise from above.
+
+$$
+F = D_{\text{KL}}(q(s) \, \| \, p(s \mid o)) - \log p(o)
+\tag{30}
+$$
+
+*Equation 31, Bespoke Interoceptive Inference Account of Emotion.*
+The article writes emotion as an unspecified categorical inference applied to the interoceptive prediction error and the context, a schematic rendering of the interoceptive predictive processing proposal.
+[Seth et al. 2012][research_seth_2013]
+
+$$
+\text{emotion}(t) = f_{\text{cat}}\!\left(\text{PE}_{\text{interoceptive}}(t), \, \text{context}(t)\right)
+\tag{31}
+$$
+
+**Equation 32, Spike-Timing-Dependent Plasticity Window.**
+Synaptic weight potentiates when the postsynaptic spike follows the presynaptic spike and depresses when it precedes it, with each branch decaying exponentially in the spike time difference.
+[Bi and Poo 1998][research_bi_poo_1998]
+
+$$
+\Delta w_{ij} = \begin{cases} A^+ \, e^{-\Delta t / \tau^+} & \Delta t > 0 \\ -A^- \, e^{\Delta t / \tau^-} & \Delta t \leq 0 \end{cases}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Spacing-Dependent Power-Law Retention.*
+The article writes retention as a power law in the ratio of the retention interval to the study spacing, a form it supplies rather than the fit reported in the cited meta-analysis.
+
+$$
+R(t, s) = R_0 \cdot (1 + t/s)^{-\beta}
+\tag{33}
+$$
+
+### Notation
+
+- $\theta_t$, the internal state of the learner at time $t$
+- $\Delta(\theta_t, o_t, a_t, r_t)$, the update function, which depends on the formalisation adopted
+- $V_\infty$, the asymptotic associative strength
+- $V_{\text{CS}}$, the associative strength of a conditioned stimulus
+- $\alpha_{\text{CS}}$, the learning rate or attention for a conditioned stimulus
+- $\beta_{\text{US}}$, the learning rate for the unconditioned stimulus
+- $\Sigma V$, the summed associative strength of all conditioned stimuli present on a trial
+- $\Delta P$, the contingency between the conditioned and unconditioned stimulus
+- $B_1$, the response rate on the first alternative
+- $R_1$, the reinforcement rate on the first alternative
+- $C_{\text{STM}}$, the capacity of short-term memory in chunks
+- $w_{\text{MB}}(s, a)$, the weight on the model-based value estimate, proportional to its inverse variance
+- $p_k$, the prototype of category $k$
+- $\eta(x^*, x_i)$, the similarity of a test item to stored exemplar $i$, an exponential of their distance
+- $a_i^{\text{exemplar}}$, the activation of exemplar node $i$
+- $\bar{r}(a)$, the observed average reward of individuals performing behaviour $a$
+- $T_0$, the asymptotic time to complete a task
+- $\frac{2 D}{W}$, twice the movement distance divided by the target width
+- $R_0$, the initial retention
+- $\tau_{\text{STM}}$, the decay time constant of short-term memory, about twenty seconds without rehearsal
+- $\text{Pa}_G(x_i)$, the parents of variable $x_i$ in causal graph $G$
+- $v(x)$, the prospect theory value of an outcome $x$ relative to the reference point
+- $w(p)$, the prospect theory decision weight of probability $p$
+- $D_{\text{KL}}$, the Kullback-Leibler divergence
+- $\Delta w_{ij}$, the change in synaptic weight from neuron $j$ to neuron $i$
+- $R(t, s)$, the retention at time $t$ after a study session with spacing $s$
 
 ## References
 

@@ -31,13 +31,19 @@ The treatment also acknowledges limitations and productive tensions. Deep learni
 
 The bidirectional exchange between neuroscience and computational modeling of intelligence traces to the earliest days of both fields. Cybernetics of [Wiener 1948][book_wiener_1948] introduced the systematic framework for the study of control and communication in animal and machine, providing the foundational interdisciplinary context in which subsequent neuroscience-machine learning exchange developed. The [Turing 1950][research_turing_1950] Computing Machinery and Intelligence framework introduced the philosophical and technical framework for artificial intelligence that continues to organize the field. The [McCulloch and Pitts 1943][research_mcculloch_pitts_1943] Logical Calculus of the Ideas Immanent in Nervous Activity introduced the formal neuron model that supported both the biological modeling of neural computation and the subsequent engineering of artificial neural networks. The McCulloch-Pitts neuron computes
 
-$$y = \Theta\!\left(\sum_i w_i \, x_i - \theta\right), \quad \Theta(z) = \begin{cases} 1 & z \geq 0 \\ 0 & z < 0 \end{cases}$$
+$$
+y = \Theta\!\left(\sum_i w_i \, x_i - \theta\right), \quad \Theta(z) = \begin{cases} 1 & z \geq 0 \\ 0 & z < 0 \end{cases}
+\tag{1}
+$$
 
 with $\Theta$ the Heaviside step function, $x_i$ binary inputs, $w_i$ integer weights (positive for excitatory, negative for inhibitory), and $\theta$ a firing threshold. This account proposed that neural activity can be understood as the propagation of logical operations through a network of threshold units, providing the shared computational vocabulary that both fields subsequently developed.
 
 The [Hebb 1949][book_hebb_1949] Organization of Behavior introduced the proposal that synaptic strengths change according to the pattern of pre-synaptic and post-synaptic activity, providing the foundational learning rule that continues to organize both computational neuroscience and machine learning through the Hebbian principle that neurons that fire together wire together. Formally, the Hebbian synaptic update is
 
-$$\Delta w_{ij} = \eta \, x_i \, x_j$$
+$$
+\Delta w_{ij} = \eta \, x_i \, x_j
+\tag{2}
+$$
 
 with $w_{ij}$ the synaptic weight from unit $j$ to unit $i$, $x_i, x_j$ the activities of the two units, and $\eta$ a learning rate. The framework provides the biological grounding for the extensive subsequent literature on unsupervised learning and correlational plasticity.
 
@@ -47,7 +53,10 @@ The [Hubel and Wiesel 1962][research_hubel_wiesel_1962] receptive-field studies 
 
 Backpropagation of errors was independently developed several times before its 1986 popularization. The [Werbos 1974][research_werbos_1974] doctoral thesis introduced the algorithm as beyond regression, and the rediscovery through the [Rumelhart et al. 1986][research_rumelhart_hinton_williams_1986] paper subsequently popularized the treatment through the application to hidden-unit learning. The backpropagation framework introduced the algorithm for efficient gradient-based learning in multi-layer neural networks through the chain-rule propagation of error signals from output back through the layers,
 
-$$\frac{\partial L}{\partial w_{ij}^{(l)}} = \frac{\partial L}{\partial a_j^{(l+1)}} \cdot \frac{\partial a_j^{(l+1)}}{\partial w_{ij}^{(l)}}$$
+$$
+\frac{\partial L}{\partial w_{ij}^{(l)}} = \frac{\partial L}{\partial a_j^{(l+1)}} \cdot \frac{\partial a_j^{(l+1)}}{\partial w_{ij}^{(l)}}
+\tag{3}
+$$
 
 with $w_{ij}^{(l)}$ the weight from unit $i$ to unit $j$ at layer $l$ and $a_j^{(l+1)}$ the activation at the next layer. The treatment provided the engineering foundation for modern deep learning while raising the biological-plausibility questions that continue to motivate research on alternative learning rules.
 
@@ -63,11 +72,17 @@ The [Hassabis et al. 2017][research_hassabis_et_al_2017] Neuroscience-Inspired A
 
 The perceptron framework of Rosenblatt 1958 introduced the artificial learning system through the multi-layer network of threshold units trained through iterative error-correction. The network computes the mapping
 
-$$y = \sigma\!\left(\sum_i w_i \, x_i - \theta\right)$$
+$$
+y = \sigma\!\left(\sum_i w_i \, x_i - \theta\right)
+\tag{4}
+$$
 
 with $x_i$ inputs, $w_i$ weights, $\theta$ a threshold, and $\sigma$ a nonlinear activation function. The perceptron learning rule adjusts weights when the network's output disagrees with the target,
 
-$$\Delta w_i = \eta \, (y^* - y) \, x_i$$
+$$
+\Delta w_i = \eta \, (y^* - y) \, x_i
+\tag{5}
+$$
 
 with $y^\*$ the target and $\eta$ a learning rate. The model provided the first empirical demonstration that learning could occur in an artificial network through the interaction of pattern presentation and error-driven weight adjustment.
 
@@ -75,7 +90,10 @@ The [Minsky and Papert 1969][book_minsky_papert_1969] Perceptrons systematic ana
 
 Hebbian learning of Hebb 1949 provided the biological-inspired unsupervised alternative to error-driven learning. The rule and its variants including Oja's rule of [Oja 1982][research_oja_1982] introduced normalization terms
 
-$$\Delta w_i = \eta \, y \, (x_i - y \, w_i)$$
+$$
+\Delta w_i = \eta \, y \, (x_i - y \, w_i)
+\tag{6}
+$$
 
 that maintain bounded weights while extracting the principal component of the input distribution. The treatment provided the computational bridge from correlational plasticity to unsupervised feature learning.
 
@@ -91,7 +109,10 @@ The Hubel and Wiesel 1962 receptive-field studies of the cat primary visual cort
 
 The Fukushima 1980 [research_fukushima_1980_neocognitron] Neocognitron introduced the artificial network architecture that implements the Hubel-Wiesel hierarchy through alternating layers of feature-detecting simple cells and pooling-based complex cells. The convolutional layer computes
 
-$$(K * x)(i, j) = \sum_{m, n} K(m, n) \, x(i - m, j - n)$$
+$$
+(K * x)(i, j) = \sum_{m, n} K(m, n) \, x(i - m, j - n)
+\tag{7}
+$$
 
 with $K$ the shared convolutional kernel and $x$ the input feature map, and the pooling layer aggregates over local regions through $\text{Pool}(x)(i, j) = \max_{(m, n) \in \mathcal{N}(i, j)} x(m, n)$ or the corresponding averaging operation. The account provided the direct architectural precursor to modern convolutional networks and demonstrated the viability of hierarchical local processing for pattern recognition.
 
@@ -101,7 +122,10 @@ The Krizhevsky Sutskever Hinton 2012 AlexNet framework scaled CNNs to the ImageN
 
 The Yamins et al 2014 framework provided the empirical validation that task-optimized deep CNNs produce internal representations that closely match those observed in the primate inferior temporal cortex. The treatment demonstrated that brain regions can be modeled as task-optimized deep networks and provided the empirical foundation for the modern NeuroAI research program. The representational similarity is measured as
 
-$$r(f_{\text{CNN}}, f_{\text{brain}}) = \text{corr}(\text{RDM}(f_{\text{CNN}}), \text{RDM}(f_{\text{brain}}))$$
+$$
+r(f_{\text{CNN}}, f_{\text{brain}}) = \text{corr}(\text{RDM}(f_{\text{CNN}}), \text{RDM}(f_{\text{brain}}))
+\tag{8}
+$$
 
 where $\text{RDM}$ is the Representational Dissimilarity Matrix computed over stimulus pairs, and $r$ measures the correlation between CNN and brain representational geometries.
 
@@ -127,7 +151,10 @@ Temporal difference learning of [Sutton 1988][research_sutton_1988_td_a263] intr
 
 The [Schultz et al. 1997][research_schultz_dayan_montague_1997] Neural Substrate of Prediction and Reward framework identified the correspondence between the reward-prediction-error signal of temporal-difference learning and the phasic firing of midbrain dopamine neurons. This formulation observed that dopamine neurons respond to unexpected rewards, transfer their response to predictive cues over training, and show a decrement below baseline when expected rewards are omitted, exactly as the temporal-difference framework predicts. The reward-prediction-error signal
 
-$$\delta_t = r_t + \gamma \, V(s_{t+1}) - V(s_t)$$
+$$
+\delta_t = r_t + \gamma \, V(s_{t+1}) - V(s_t)
+\tag{9}
+$$
 
 matches the pattern of dopamine neuron responses across a broad range of experimental conditions.
 
@@ -135,11 +162,17 @@ The [Sutton and Barto 1998][book_sutton_barto_1998] Reinforcement Learning An In
 
 Distributional reinforcement learning of [Dabney et al. 2018][research_bellemare_et_al_2017_distributional] extended the framework beyond scalar value estimation to distributional value estimation. The distributional Bellman operator
 
-$$\mathcal{T}^\pi Z(s, a) = R(s, a) + \gamma \, Z(s', a'), \quad a' \sim \pi(\cdot \mid s')$$
+$$
+\mathcal{T}^\pi Z(s, a) = R(s, a) + \gamma \, Z(s', a'), \quad a' \sim \pi(\cdot \mid s')
+\tag{10}
+$$
 
 evolves the full distribution $Z$ of returns rather than only its mean. The subsequent [Dabney et al. 2020][research_dabney_et_al_2020_dopamine] framework documented the empirical evidence that individual dopamine neurons encode different quantiles of the reward distribution through asymmetric learning rates
 
-$$\delta_t^{(\tau)} = \begin{cases} \alpha^+ (r_t + \gamma V(s_{t+1}) - V_\tau(s_t)) & \text{if } r_t + \gamma V(s_{t+1}) > V_\tau(s_t) \\ \alpha^- (r_t + \gamma V(s_{t+1}) - V_\tau(s_t)) & \text{otherwise} \end{cases}$$
+$$
+\delta_t^{(\tau)} = \begin{cases} \alpha^+ (r_t + \gamma V(s_{t+1}) - V_\tau(s_t)) & \text{if } r_t + \gamma V(s_{t+1}) > V_\tau(s_t) \\ \alpha^- (r_t + \gamma V(s_{t+1}) - V_\tau(s_t)) & \text{otherwise} \end{cases}
+\tag{11}
+$$
 
 with the quantile encoded determined by the ratio $\tau = \alpha^+ / (\alpha^+ + \alpha^-)$. The framework provides the biological validation of the distributional reinforcement learning framework and demonstrates the significant reverse-informational-flow from machine learning to neuroscience.
 
@@ -153,7 +186,10 @@ Causal evidence for the role of dopamine in reward-prediction-error learning was
 
 The actor-critic architecture in which distinct systems compute state values and action policies admits correspondence to the division of labor between ventral striatum (as critic) and dorsolateral striatum (as actor). The policy gradient theorem underlying this framework computes
 
-$$\nabla_\theta J(\pi_\theta) = \mathbb{E}_{s \sim d^\pi, a \sim \pi_\theta}\!\left[\nabla_\theta \log \pi_\theta(a \mid s) \, A^\pi(s, a)\right]$$
+$$
+\nabla_\theta J(\pi_\theta) = \mathbb{E}_{s \sim d^\pi, a \sim \pi_\theta}\!\left[\nabla_\theta \log \pi_\theta(a \mid s) \, A^\pi(s, a)\right]
+\tag{12}
+$$
 
 with $A^\pi(s, a) = Q^\pi(s, a) - V^\pi(s)$ the advantage function estimated by the critic. Model-based reinforcement learning frameworks connect to the involvement of the prefrontal cortex and hippocampus in goal-directed behavior. The division between habitual and goal-directed behavior treated in article three admits marked neurobiological grounding through the patterns of prefrontal and dorsomedial-striatal activation observed in goal-directed action.
 
@@ -165,7 +201,10 @@ The [Mante et al. 2013][research_mante_et_al_2013] Context-Dependent Computation
 
 The [Sussillo and Barak 2013][research_sussillo_barak_2013] Opening the Black Box framework introduced the techniques for analyzing trained RNN dynamics through the identification of fixed points, slow points, and dynamical structure. The general RNN dynamics take the form
 
-$$h_{t+1} = f(W_h h_t + W_x x_t + b), \quad y_t = g(W_y h_t)$$
+$$
+h_{t+1} = f(W_h h_t + W_x x_t + b), \quad y_t = g(W_y h_t)
+\tag{13}
+$$
 
 with $h_t$ the hidden state, $x_t$ the input, $y_t$ the output, and fixed points $h^\*$ satisfying $h^\* = f(W_h h^\* + W_x x^\* + b)$. This account has substantially shaped subsequent computational neuroscience research by providing the analytical tools for understanding trained network computation through the classification of fixed points by the eigenvalues of the linearized dynamics at each fixed point.
 
@@ -193,7 +232,10 @@ The [Gallego et al. 2017][research_gallego_et_al_2017] Neural Manifolds for the 
 
 The manifold hypothesis states that the effective dimensionality of neural population activity is considerably lower than the neuron count, and that the low-dimensional structure is task-related. Formally, if the neural population activity $\mathbf{r}(t) \in \mathbb{R}^N$ has effective dimensionality $d \ll N$, then
 
-$$\mathbf{r}(t) \approx \mu + \sum_{k=1}^{d} \alpha_k(t) \, \mathbf{v}_k$$
+$$
+\mathbf{r}(t) \approx \mu + \sum_{k=1}^{d} \alpha_k(t) \, \mathbf{v}_k
+\tag{14}
+$$
 
 with $\mu$ the mean activity, $\mathbf{v}\_k$ basis vectors defining the manifold, and $\alpha_k(t)$ the time-varying manifold coordinates that capture the task-relevant dynamics.
 
@@ -211,7 +253,10 @@ Meta-learning provides the computational framework for the observation that biol
 
 The Wang Kurth-Nelson Tirumala Soyer Leibo Munos Blundell Kumaran Botvinick 2018 [research_wang_et_al_2018_prefrontal_meta_a263] Prefrontal Cortex as a Meta-Reinforcement Learning System framework proposed that the prefrontal cortex functions as a meta-reinforcement learning system in which recurrent activity supports fast adaptation across tasks while slower dopaminergic updates train the recurrent weights themselves. Formally, this formulation identifies a two-timescale learning system in which the fast inner-loop adaptation operates through recurrent-state dynamics
 
-$$h_t = \text{RNN}_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})$$
+$$
+h_t = \text{RNN}_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})
+\tag{15}
+$$
 
 with recurrent parameters $\theta$ trained slowly through dopaminergic reward-prediction-error signals to produce the policy $\pi_\theta(a_t \mid h_t)$ that supports fast task-adaptation. The framework provides a computational-level explanation for prefrontal cortex behavior across a wide range of experimental paradigms and connects the machine learning meta-learning framework to the biological prefrontal system.
 
@@ -229,13 +274,19 @@ The Rao and Ballard 1999 hierarchical predictive coding framework introduced the
 
 The Friston 2010 free energy principle provided the unified theoretical framework through which perception, action, and learning correspond to the minimization of variational free energy
 
-$$F = \mathbb{E}_{q(s)}\!\left[\log q(s) - \log p(o, s)\right]$$
+$$
+F = \mathbb{E}_{q(s)}\!\left[\log q(s) - \log p(o, s)\right]
+\tag{16}
+$$
 
 with $q(s)$ the approximate posterior over hidden states, $p(o, s)$ the joint model of observations and hidden states, and $F$ an upper bound on the negative log-evidence. Perception updates $q$, action selects motor commands, and learning updates the model, all through the mechanism of free-energy minimization. The bidirectional relationship between predictive coding and machine learning has been significantly developed. The treatment provides the computational vocabulary through which cortical processing can be understood, and modern machine learning provides the engineering frameworks through which predictive coding can be scaled to complex tasks.
 
 The [Whittington and Bogacz 2019][research_whittington_bogacz_2019] Approximate Backpropagation framework demonstrated that predictive coding networks approximately implement backpropagation-of-error through the local error propagation dynamics. This account establishes the equivalence
 
-$$\Delta w_{ij}^{\text{PC}} \approx \Delta w_{ij}^{\text{BP}} \quad \text{as} \quad \tau_{\text{settle}} \to 0$$
+$$
+\Delta w_{ij}^{\text{PC}} \approx \Delta w_{ij}^{\text{BP}} \quad \text{as} \quad \tau_{\text{settle}} \to 0
+\tag{17}
+$$
 
 with the PC weight update approaching the backpropagation weight update in the limit of small settling time. The framework provides the bridge between the biologically-motivated predictive coding framework and the gradient-based learning that dominates machine learning practice.
 
@@ -251,13 +302,19 @@ The [Behrens et al. 2018][research_behrens_et_al_2018_cognitive_maps] What Is a 
 
 Successor representations of [Dayan 1993][research_dayan_1993_sr] introduced the reinforcement learning framework in which states are represented by the expected future occupancy of other states,
 
-$$M(s, s') = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t \, \mathbb{1}[s_t = s'] \, \bigg| \, s_0 = s\right]$$
+$$
+M(s, s') = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t \, \mathbb{1}[s_t = s'] \, \bigg| \, s_0 = s\right]
+\tag{18}
+$$
 
 with $M$ the successor representation matrix and $\gamma$ the discount factor. The treatment provides a alternative to both model-free and model-based reinforcement learning that supports rapid value computation while retaining structural information about the transition dynamics.
 
 The [Stachenfeld et al. 2017][research_stachenfeld_botvinick_gershman_2017] Hippocampus as a Predictive Map framework proposed that the hippocampal place cell system implements the successor representation, providing a computational account of the hippocampal function that unifies spatial and non-spatial hippocampal roles. Under the successor representation, the value function factors as
 
-$$V^\pi(s) = \sum_{s'} M^\pi(s, s') \, R(s')$$
+$$
+V^\pi(s) = \sum_{s'} M^\pi(s, s') \, R(s')
+\tag{19}
+$$
 
 with $M^\pi$ the policy-conditioned successor representation and $R$ the state-reward function. This account has appreciable empirical support and provides testable predictions about the patterns of hippocampal activity that should be observed under different task conditions.
 
@@ -271,7 +328,10 @@ Grid cells provide one of the most striking correspondences between biological n
 
 The [Hafting et al. 2005][research_hafting_et_al_2005_grid] Microstructure of Spatial Map identified the grid cells in the medial entorhinal cortex that fire at the vertices of a triangular grid tiling the environment. The grid-cell response as a function of position takes the form
 
-$$g_k(\mathbf{x}) = \sum_{i=1}^{3} \cos\!\left(\mathbf{k}_i \cdot (\mathbf{x} - \mathbf{x}_0^{(k)})\right)$$
+$$
+g_k(\mathbf{x}) = \sum_{i=1}^{3} \cos\!\left(\mathbf{k}_i \cdot (\mathbf{x} - \mathbf{x}_0^{(k)})\right)
+\tag{20}
+$$
 
 with $\mathbf{k}\_i$ three wavevectors at $60^\circ$ rotational offset that produce the triangular grid pattern, $\mathbf{x}$ the current position, and $\mathbf{x}\_0^{(k)}$ the grid phase offset for cell $k$. The model revolutionized spatial neuroscience by identifying the representational structure that supports mammalian spatial cognition.
 
@@ -291,7 +351,10 @@ The [McClelland et al. 1995][research_mcclelland_mcnaughton_oreilly_1995_a263] C
 
 The account has significant empirical support from studies of hippocampal amnesia patients whose pattern of memory impairment matches the treatment's predictions. The temporally-graded retrograde amnesia observed in these patients, in which memories closer to the hippocampal lesion are more affected than memories from long before the lesion, provides direct empirical support for the consolidation dynamics predicted by the framework. Formally, the CLS framework describes a two-timescale update in which fast hippocampal traces $M_{\text{hipp}}$ update rapidly with each experience and slow cortical parameters $\theta_{\text{cortex}}$ update through interleaved replay,
 
-$$M_{\text{hipp}}^{t+1} = M_{\text{hipp}}^t + \alpha_{\text{fast}} \, \epsilon_t, \quad \theta_{\text{cortex}}^{t+1} = \theta_{\text{cortex}}^t + \alpha_{\text{slow}} \, \nabla_\theta \, \mathbb{E}_{(s, a) \sim M_{\text{hipp}}}[L]$$
+$$
+M_{\text{hipp}}^{t+1} = M_{\text{hipp}}^t + \alpha_{\text{fast}} \, \epsilon_t, \quad \theta_{\text{cortex}}^{t+1} = \theta_{\text{cortex}}^t + \alpha_{\text{slow}} \, \nabla_\theta \, \mathbb{E}_{(s, a) \sim M_{\text{hipp}}}[L]
+\tag{21}
+$$
 
 with $\alpha_{\text{fast}} \gg \alpha_{\text{slow}}$ enforcing the two-timescale structure that resolves the plasticity-stability dilemma.
 
@@ -307,7 +370,10 @@ Attention mechanisms in deep learning provide a correspondence to biological att
 
 The [Bahdanau et al. 2014][research_bahdanau_cho_bengio_2015] Neural Machine Translation with Attention framework introduced the attention mechanism that enables neural networks to selectively attend to input elements. The dot-product attention that dominates modern transformer architectures computes
 
-$$\text{Attention}(Q, K, V) = \text{softmax}\!\left(\frac{Q K^\top}{\sqrt{d_k}}\right) V$$
+$$
+\text{Attention}(Q, K, V) = \text{softmax}\!\left(\frac{Q K^\top}{\sqrt{d_k}}\right) V
+\tag{22}
+$$
 
 with $Q, K, V$ the query, key, and value matrices and $d_k$ the key dimensionality. The account subsequently developed into the transformer architecture that dominates modern language modeling and other domains.
 
@@ -327,19 +393,28 @@ Sparse coding provides the unsupervised learning framework that produces the rec
 
 The [Olshausen and Field 1996][research_olshausen_field_1996] Emergence of Simple-Cell Receptive Field Properties framework demonstrated that sparse coding of natural image patches produces the oriented-edge-detecting receptive fields observed in the primary visual cortex simple cells. The treatment provided the existence proof that biological neural representations can emerge from unsupervised learning with the sparsity objective. The sparse coding objective is
 
-$$L(a, W) = \|x - Wa\|^2 + \lambda \|a\|_1$$
+$$
+L(a, W) = \|x - Wa\|^2 + \lambda \|a\|_1
+\tag{23}
+$$
 
 with $x$ the input image patch, $W$ the learned dictionary of basis functions, $a$ the sparse codes, and $\lambda$ a sparsity regularization coefficient. The learned basis functions match the Gabor-like receptive fields observed in V1 simple cells.
 
 Independent Component Analysis (ICA) of [Bell and Sejnowski 1997][research_bell_sejnowski_1997] provided the complementary framework that produces similar receptive-field structures through the mechanism of statistical independence. This account maximizes the mutual information between inputs and separated components,
 
-$$W^* = \arg\max_W \, \mathbb{I}(x \, ; \, g(W x))$$
+$$
+W^* = \arg\max_W \, \mathbb{I}(x \, ; \, g(W x))
+\tag{24}
+$$
 
 with $g$ a nonlinear function and $W$ the unmixing matrix. The framework provides the alternative normative-principle account of V1 receptive field structure through the maximization of statistical independence rather than sparsity.
 
 Efficient coding of [Barlow 1961][research_barlow_1961_efficient] introduced the proposal that biological sensory systems are optimized to represent natural signals efficiently. The information-maximization framework computes
 
-$$\max_{\theta} \, \mathbb{I}(X \, ; \, R_\theta(X))$$
+$$
+\max_{\theta} \, \mathbb{I}(X \, ; \, R_\theta(X))
+\tag{25}
+$$
 
 with $R_\theta$ the neural encoding of the natural signal $X$. The account provides the theoretical foundation for both sparse coding and ICA accounts of V1 and has greatly shaped subsequent computational sensory neuroscience.
 
@@ -357,7 +432,10 @@ The [Schrimpf et al. 2021][research_schrimpf_et_al_2021_language] The Neural Arc
 
 The [Caucheteux and King 2022][research_caucheteux_king_2022] Brains and Algorithms framework provided the systematic evidence that language model performance on next-word prediction correlates with the patterns of language cortex activation, supporting the hypothesis that predictive processing underlies both artificial and biological language processing. The brain-language-model alignment is measured through the encoding-model framework
 
-$$\hat{y}_{\text{brain}}(t) = \sum_j \beta_j \, f_{\text{LM}}(x_{1:t})_j$$
+$$
+\hat{y}_{\text{brain}}(t) = \sum_j \beta_j \, f_{\text{LM}}(x_{1:t})_j
+\tag{26}
+$$
 
 with $\hat{y}\_{\text{brain}}$ the predicted brain response, $f_{\text{LM}}(x_{1:t})$ the language model's internal representation given input tokens $x_{1:t}$, and $\beta_j$ the encoding-model coefficients fit through ridge regression on paired language-brain data.
 
@@ -365,7 +443,10 @@ The [Goldstein et al. 2022][research_goldstein_et_al_2022] Shared Computational 
 
 The [Antonello et al. 2024][research_antonello_et_al_2024] Scaling Laws for Language Models framework extended the account to the scaling relationships between language model capabilities and brain prediction accuracy. The scaling law takes the form
 
-$$r_{\text{brain}}(N) \approx r_\infty - c \, N^{-\alpha}$$
+$$
+r_{\text{brain}}(N) \approx r_\infty - c \, N^{-\alpha}
+\tag{27}
+$$
 
 with $r_{\text{brain}}$ the brain prediction accuracy, $N$ the language model parameter count, and $r_\infty, c, \alpha$ fit constants. The model provides evidence that the correspondence to biological language processing improves systematically with model scale.
 
@@ -395,7 +476,10 @@ The concerns about biological plausibility of backpropagation include the requir
 
 Feedback alignment of [Lillicrap et al. 2016][research_lillicrap_et_al_2016_feedback] introduced the finding that neural networks can learn effectively with random feedback weights rather than symmetric feedback weights. The feedback alignment update replaces the transpose of the forward weights $W^\top$ with a fixed random matrix $B$,
 
-$$\delta^{(l)} = (B^{(l)})^\top \, \delta^{(l+1)} \odot f'(a^{(l)})$$
+$$
+\delta^{(l)} = (B^{(l)})^\top \, \delta^{(l+1)} \odot f'(a^{(l)})
+\tag{28}
+$$
 
 with $\delta^{(l)}$ the error signal at layer $l$, $a^{(l)}$ the pre-activation, and $\odot$ the Hadamard product. The account provides the existence proof that the weight symmetry requirement of backpropagation is not essential for effective learning, addressing one of the biological plausibility concerns.
 
@@ -423,13 +507,19 @@ Neuromorphic computing treats the engineering of computational systems that impl
 
 Spiking Neural Networks (SNNs) are the class of neural network models that communicate through discrete spikes rather than continuous activations. The leaky integrate-and-fire neuron dynamics take the form
 
-$$\tau_m \frac{dV}{dt} = -(V - V_{\text{rest}}) + R_m I(t), \quad V(t^+) \leftarrow V_{\text{reset}} \text{ if } V(t) \geq V_{\text{th}}$$
+$$
+\tau_m \frac{dV}{dt} = -(V - V_{\text{rest}}) + R_m I(t), \quad V(t^+) \leftarrow V_{\text{reset}} \text{ if } V(t) \geq V_{\text{th}}
+\tag{29}
+$$
 
 with $V$ the membrane voltage, $\tau_m$ the membrane time constant, $R_m$ the membrane resistance, $I$ the input current, and the spike reset when the voltage crosses the threshold $V_{\text{th}}$. The [Maass 1997][research_maass_1997] Networks of Spiking Neurons framework identified the computational advantages of spiking networks including energy efficiency and temporal coding capacity. This account has substantially shaped subsequent spiking neural network research.
 
 The challenge of training spiking networks derives from the non-differentiable nature of the spike-generation function. Surrogate gradient methods of [Neftci Mostafa Zenke 2019][research_neftci_mostafa_zenke_2019] introduced the approach of using smooth surrogate functions for the spike-derivative during backpropagation,
 
-$$\frac{\partial S}{\partial V} \approx \sigma'(V - V_{\text{th}}) = \frac{1}{(1 + |V - V_{\text{th}}|/\beta)^2}$$
+$$
+\frac{\partial S}{\partial V} \approx \sigma'(V - V_{\text{th}}) = \frac{1}{(1 + |V - V_{\text{th}}|/\beta)^2}
+\tag{30}
+$$
 
 with $S$ the spike output, $V$ the membrane voltage, and $\beta$ a smoothness hyperparameter. The framework enables standard gradient-based training of spiking networks and provides the bridge between conventional deep learning and neuromorphic implementation.
 
@@ -449,7 +539,10 @@ The [Richards et al. 2019][research_richards_et_al_2019] Deep Learning Framework
 
 The Brain-Score benchmark of [Schrimpf et al. 2020][research_schrimpf_et_al_2020_brainscore] provided the evaluation framework through which candidate deep learning models can be systematically compared to biological data. The model combines neural response prediction, behavioral prediction, and other measures into a unified benchmark that enables systematic model comparison. Model performance on Brain-Score is measured as an aggregate score across brain regions and tasks
 
-$$S(M) = \sum_{r} w_r \cdot \text{fit}(M, r)$$
+$$
+S(M) = \sum_{r} w_r \cdot \text{fit}(M, r)
+\tag{31}
+$$
 
 with $\text{fit}(M, r)$ the model-to-brain-region correspondence for region $r$ and $w_r$ the region-weight. This formulation has appreciably accelerated NeuroAI research by providing the quantitative benchmark against which models can be compared.
 
@@ -457,7 +550,10 @@ The [Marblestone et al. 2016][research_marblestone_wayne_kording_2016] Toward an
 
 The correspondence between task-optimized networks and cortical representations has been documented across many brain regions and task domains through the standard encoding-model framework
 
-$$r_{\text{neural}}(t) = \sum_j \beta_j \, \phi_j(x(t)) + \epsilon_t$$
+$$
+r_{\text{neural}}(t) = \sum_j \beta_j \, \phi_j(x(t)) + \epsilon_t
+\tag{32}
+$$
 
 with $r_{\text{neural}}$ the neural response, $\phi_j$ the features from the task-optimized network, and $\beta_j$ the encoding-model coefficients fit through regularized regression on paired stimulus-response data. Visual cortex responses to images match those of task-optimized convolutional networks. Auditory cortex responses to sounds match those of task-optimized recurrent networks. Language cortex responses to language match those of language models. Motor cortex dynamics match those of task-optimized recurrent networks trained on motor tasks. The breadth of the correspondence provides significant evidence for the task-optimization hypothesis of cortical function.
 
@@ -505,7 +601,10 @@ Neural decoding through machine learning of [King and Dehaene 2014][research_kin
 
 Latent dynamical model frameworks including [Pandarinath et al. 2018][research_pandarinath_et_al_2018_lfads] LFADS provided the tools for extracting low-dimensional neural population dynamics from noisy neural recordings. The framework models neural population spike counts $y_t$ as arising from a latent low-dimensional dynamical process,
 
-$$z_{t+1} = f_\theta(z_t) + \epsilon_t, \quad y_t \sim \text{Poisson}(\exp(W z_t + b))$$
+$$
+z_{t+1} = f_\theta(z_t) + \epsilon_t, \quad y_t \sim \text{Poisson}(\exp(W z_t + b))
+\tag{33}
+$$
 
 with $z_t$ the latent state, $f_\theta$ a learned RNN transition function, and $W, b$ the readout parameters that map latents to per-neuron firing rates. The account has greatly advanced the analysis of neural population activity and provides the bridge between machine learning latent variable models and neural data analysis.
 
@@ -595,6 +694,334 @@ The research program on beneficial NeuroAI development includes the efforts to a
 - Can the engineering advantages of neuromorphic computing be realized at the scale required for modern deep learning applications?
 - What is the relationship between the language capabilities of modern language models and the patterns of biological language processing across the lifespan?
 - How should the ethical considerations of neurotechnology be integrated into the modern NeuroAI research program?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 33 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 33, 30 are established and 3 are bespoke.
+Weights, activities, errors and values are dimensionless model quantities unless a section states otherwise, while the leaky integrate-and-fire equation carries physical units of volts, seconds, ohms and amperes, and a learning rate such as $\eta$ or $\alpha$ is a step size rather than a measured constant.
+
+**Equation 1, McCulloch-Pitts Threshold Neuron.**
+The McCulloch-Pitts neuron outputs one when the weighted sum of its binary inputs reaches the threshold and zero otherwise.
+[McCulloch and Pitts 1943][research_mcculloch_pitts_1943]
+
+$$
+y = \Theta\!\left(\sum_i w_i \, x_i - \theta\right), \quad \Theta(z) = \begin{cases} 1 & z \geq 0 \\ 0 & z < 0 \end{cases}
+\tag{1}
+$$
+
+**Equation 2, Hebbian Learning Rule.**
+A synaptic weight grows in proportion to the product of the presynaptic and postsynaptic activities.
+[Hebb 1949][book_hebb_1949]
+
+$$
+\Delta w_{ij} = \eta \, x_i \, x_j
+\tag{2}
+$$
+
+**Equation 3, Chain Rule of Backpropagation.**
+The gradient of the loss with respect to a weight is the gradient with respect to the activation it feeds times the derivative of that activation with respect to the weight.
+[Rumelhart et al. 1986][research_rumelhart_hinton_williams_1986]
+
+$$
+\frac{\partial L}{\partial w_{ij}^{(l)}} = \frac{\partial L}{\partial a_j^{(l+1)}} \cdot \frac{\partial a_j^{(l+1)}}{\partial w_{ij}^{(l)}}
+\tag{3}
+$$
+
+**Equation 4, Perceptron Output.**
+The perceptron applies a nonlinear activation to the weighted sum of its inputs less a threshold.
+[Rosenblatt 1958][research_rosenblatt_1958]
+
+$$
+y = \sigma\!\left(\sum_i w_i \, x_i - \theta\right)
+\tag{4}
+$$
+
+**Equation 5, Perceptron Learning Rule.**
+Each weight moves in proportion to the difference between the target and the output times its input, so weights change only on an error.
+[Rosenblatt 1958][research_rosenblatt_1958]
+
+$$
+\Delta w_i = \eta \, (y^* - y) \, x_i
+\tag{5}
+$$
+
+**Equation 6, Oja's Rule.**
+Oja's rule adds a decay proportional to the squared output to the Hebbian update, which bounds the weights and drives them toward the first principal component of the input.
+[Oja 1982][research_oja_1982]
+
+$$
+\Delta w_i = \eta \, y \, (x_i - y \, w_i)
+\tag{6}
+$$
+
+**Equation 7, Discrete Two-Dimensional Convolution.**
+A convolutional layer slides one shared kernel over the input feature map and sums the products at each position.
+
+$$
+(K * x)(i, j) = \sum_{m, n} K(m, n) \, x(i - m, j - n)
+\tag{7}
+$$
+
+**Equation 8, Representational Similarity Between Network and Brain.**
+Representational similarity analysis correlates the representational dissimilarity matrix of a network with that of a brain region over the same stimulus pairs.
+[Kriegeskorte 2015][research_kriegeskorte_2015]
+
+$$
+r(f_{\text{CNN}}, f_{\text{brain}}) = \text{corr}(\text{RDM}(f_{\text{CNN}}), \text{RDM}(f_{\text{brain}}))
+\tag{8}
+$$
+
+**Equation 9, Temporal-Difference Reward Prediction Error.**
+The temporal-difference error is the reward plus the discounted value of the next state less the value of the current state, the signal that phasic dopamine firing matches.
+[Schultz et al. 1997][research_schultz_dayan_montague_1997]
+[Sutton 1988][research_sutton_1988_td_a263]
+
+$$
+\delta_t = r_t + \gamma \, V(s_{t+1}) - V(s_t)
+\tag{9}
+$$
+
+**Equation 10, Distributional Bellman Operator.**
+The distributional Bellman operator propagates the whole random return, the reward plus the discounted return of the next state and action, rather than its mean alone.
+[Dabney et al. 2018][research_bellemare_et_al_2017_distributional]
+
+$$
+\mathcal{T}^\pi Z(s, a) = R(s, a) + \gamma \, Z(s', a'), \quad a' \sim \pi(\cdot \mid s')
+\tag{10}
+$$
+
+**Equation 11, Asymmetric Prediction Errors of Distributional Dopamine Coding.**
+Each dopamine neuron scales positive and negative prediction errors by different learning rates, so its value estimate settles at the expectile set by $\tau = \alpha^+ / (\alpha^+ + \alpha^-)$.
+[Dabney et al. 2020][research_dabney_et_al_2020_dopamine]
+
+$$
+\delta_t^{(\tau)} = \begin{cases} \alpha^+ (r_t + \gamma V(s_{t+1}) - V_\tau(s_t)) & \text{if } r_t + \gamma V(s_{t+1}) > V_\tau(s_t) \\ \alpha^- (r_t + \gamma V(s_{t+1}) - V_\tau(s_t)) & \text{otherwise} \end{cases}
+\tag{11}
+$$
+
+**Equation 12, Policy Gradient Theorem with an Advantage Critic.**
+The gradient of expected return is the expectation of the score of the policy times the advantage that the critic estimates.
+[Sutton and Barto 1998][book_sutton_barto_1998]
+
+$$
+\nabla_\theta J(\pi_\theta) = \mathbb{E}_{s \sim d^\pi, a \sim \pi_\theta}\!\left[\nabla_\theta \log \pi_\theta(a \mid s) \, A^\pi(s, a)\right]
+\tag{12}
+$$
+
+**Equation 13, Recurrent Neural Network Dynamics.**
+A recurrent network updates its hidden state from the previous state and the input through a nonlinearity and reads the output from the hidden state.
+[Sussillo and Barak 2013][research_sussillo_barak_2013]
+
+$$
+h_{t+1} = f(W_h h_t + W_x x_t + b), \quad y_t = g(W_y h_t)
+\tag{13}
+$$
+
+**Equation 14, Low-Dimensional Linear Approximation of Population Activity.**
+Population activity is approximated by its mean plus a combination of $d$ basis vectors with time-varying coefficients, the linear model behind dimensionality reduction of neural recordings.
+[Cunningham and Yu 2014][research_cunningham_yu_2014]
+
+$$
+\mathbf{r}(t) \approx \mu + \sum_{k=1}^{d} \alpha_k(t) \, \mathbf{v}_k
+\tag{14}
+$$
+
+**Equation 15, Recurrent Meta-Reinforcement Learning Inner Loop.**
+A recurrent network whose weights are trained slowly receives the observation, the previous action and the previous reward, so its hidden state carries fast adaptation within a task.
+
+$$
+h_t = \text{RNN}_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})
+\tag{15}
+$$
+
+**Equation 16, Variational Free Energy.**
+Variational free energy is the expectation under the approximate posterior of the log approximate posterior minus the log joint of observations and hidden states, an upper bound on the negative log evidence.
+
+$$
+F = \mathbb{E}_{q(s)}\!\left[\log q(s) - \log p(o, s)\right]
+\tag{16}
+$$
+
+**Equation 17, Approximation of Backpropagation by Predictive Coding.**
+The weight update of a predictive coding network approaches the backpropagation update under the limiting condition the article states.
+[Whittington and Bogacz 2019][research_whittington_bogacz_2019]
+
+$$
+\Delta w_{ij}^{\text{PC}} \approx \Delta w_{ij}^{\text{BP}} \quad \text{as} \quad \tau_{\text{settle}} \to 0
+\tag{17}
+$$
+
+**Equation 18, Successor Representation.**
+The successor representation is the expected discounted number of future visits to each state from a given starting state.
+[Dayan 1993][research_dayan_1993_sr]
+
+$$
+M(s, s') = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t \, \mathbb{1}[s_t = s'] \, \bigg| \, s_0 = s\right]
+\tag{18}
+$$
+
+**Equation 19, Value Factored Through the Successor Representation.**
+Under the successor representation the value of a state is the sum over states of the expected discounted occupancy times the reward.
+[Stachenfeld et al. 2017][research_stachenfeld_botvinick_gershman_2017]
+
+$$
+V^\pi(s) = \sum_{s'} M^\pi(s, s') \, R(s')
+\tag{19}
+$$
+
+**Equation 20, Grid Cell Firing as a Sum of Three Plane Waves.**
+A grid cell's firing map is modelled as the sum of three cosine gratings whose wavevectors lie sixty degrees apart, which produces the triangular lattice.
+
+$$
+g_k(\mathbf{x}) = \sum_{i=1}^{3} \cos\!\left(\mathbf{k}_i \cdot (\mathbf{x} - \mathbf{x}_0^{(k)})\right)
+\tag{20}
+$$
+
+*Equation 21, Bespoke Two-Timescale Update of Complementary Learning Systems.*
+The article formalises Complementary Learning Systems as a fast hippocampal trace update and a slow cortical gradient step on replayed experience, with the fast rate assumed far larger than the slow rate.
+
+$$
+M_{\text{hipp}}^{t+1} = M_{\text{hipp}}^t + \alpha_{\text{fast}} \, \epsilon_t, \quad \theta_{\text{cortex}}^{t+1} = \theta_{\text{cortex}}^t + \alpha_{\text{slow}} \, \nabla_\theta \, \mathbb{E}_{(s, a) \sim M_{\text{hipp}}}[L]
+\tag{21}
+$$
+
+**Equation 22, Scaled Dot-Product Attention.**
+Scaled dot-product attention weights the values by a softmax of query-key dot products divided by the square root of the key dimension.
+[Vaswani et al. 2017][research_vaswani_et_al_2017]
+
+$$
+\text{Attention}(Q, K, V) = \text{softmax}\!\left(\frac{Q K^\top}{\sqrt{d_k}}\right) V
+\tag{22}
+$$
+
+**Equation 23, Sparse Coding Objective.**
+Sparse coding minimises the squared reconstruction error of an image patch from a dictionary plus an L1 penalty on the codes.
+[Olshausen and Field 1996][research_olshausen_field_1996]
+
+$$
+L(a, W) = \|x - Wa\|^2 + \lambda \|a\|_1
+\tag{23}
+$$
+
+**Equation 24, Infomax Independent Component Analysis.**
+Infomax Independent Component Analysis chooses the unmixing matrix that maximises the mutual information between the input and the nonlinearly transformed outputs.
+[Bell and Sejnowski 1997][research_bell_sejnowski_1997]
+
+$$
+W^* = \arg\max_W \, \mathbb{I}(x \, ; \, g(W x))
+\tag{24}
+$$
+
+**Equation 25, Information Maximisation Principle of Efficient Coding.**
+Efficient coding chooses the encoding parameters that maximise the mutual information between a natural signal and its neural response.
+[Barlow 1961][research_barlow_1961_efficient]
+
+$$
+\max_{\theta} \, \mathbb{I}(X \, ; \, R_\theta(X))
+\tag{25}
+$$
+
+**Equation 26, Linear Encoding Model from Language Model Features.**
+The predicted brain response is a linear combination, fitted by ridge regression, of the language model's internal representation of the text so far.
+[Caucheteux and King 2022][research_caucheteux_king_2022]
+
+$$
+\hat{y}_{\text{brain}}(t) = \sum_j \beta_j \, f_{\text{LM}}(x_{1:t})_j
+\tag{26}
+$$
+
+*Equation 27, Bespoke Saturating Power Law of Brain Prediction Accuracy.*
+The article writes the growth of brain prediction accuracy with parameter count as a power law approaching an asymptote $r_\infty$, a functional form it chose.
+
+$$
+r_{\text{brain}}(N) \approx r_\infty - c \, N^{-\alpha}
+\tag{27}
+$$
+
+**Equation 28, Feedback Alignment Error Signal.**
+Feedback alignment propagates the error backward through a fixed random matrix in place of the transpose of the forward weights.
+[Lillicrap et al. 2016][research_lillicrap_et_al_2016_feedback]
+
+$$
+\delta^{(l)} = (B^{(l)})^\top \, \delta^{(l+1)} \odot f'(a^{(l)})
+\tag{28}
+$$
+
+**Equation 29, Leaky Integrate-and-Fire Neuron.**
+The membrane voltage relaxes toward rest with the membrane time constant, is driven by the input current, and is reset after it crosses threshold.
+
+$$
+\tau_m \frac{dV}{dt} = -(V - V_{\text{rest}}) + R_m I(t), \quad V(t^+) \leftarrow V_{\text{reset}} \text{ if } V(t) \geq V_{\text{th}}
+\tag{29}
+$$
+
+**Equation 30, Fast Sigmoid Surrogate Gradient.**
+The undefined derivative of the spike with respect to voltage is replaced by the derivative of a fast sigmoid centred on threshold with width $\beta$.
+[Neftci Mostafa Zenke 2019][research_neftci_mostafa_zenke_2019]
+
+$$
+\frac{\partial S}{\partial V} \approx \sigma'(V - V_{\text{th}}) = \frac{1}{(1 + |V - V_{\text{th}}|/\beta)^2}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Weighted Aggregate Brain-Score.*
+The article writes the Brain-Score aggregate as a weighted sum of per-region fits with region weights $w_r$, a general form of the benchmark's mean over its component scores.
+
+$$
+S(M) = \sum_{r} w_r \cdot \text{fit}(M, r)
+\tag{31}
+$$
+
+**Equation 32, Linear Encoding Model from Task-Optimised Network Features.**
+A neural response is predicted as a regularised linear regression on features that a task-optimised network computes from the stimulus, plus noise.
+[Yamins and DiCarlo 2016][research_yamins_dicarlo_2016]
+
+$$
+r_{\text{neural}}(t) = \sum_j \beta_j \, \phi_j(x(t)) + \epsilon_t
+\tag{32}
+$$
+
+**Equation 33, Latent Dynamical Model of Spike Counts.**
+Latent Factor Analysis via Dynamical Systems evolves a low-dimensional latent state through a learned recurrent transition and draws spike counts from a Poisson distribution with log-linear rates.
+[Pandarinath et al. 2018][research_pandarinath_et_al_2018_lfads]
+
+$$
+z_{t+1} = f_\theta(z_t) + \epsilon_t, \quad y_t \sim \text{Poisson}(\exp(W z_t + b))
+\tag{33}
+$$
+
+### Notation
+
+- $\Theta$, the Heaviside step function
+- $w_{ij}$, the synaptic weight from unit $j$ to unit $i$
+- $\eta$, a learning rate
+- $y^*$, the target output
+- $\text{RDM}$, the representational dissimilarity matrix over stimulus pairs
+- $\delta_t$, the temporal-difference reward prediction error
+- $V(s_t)$, the estimated value of state $s_t$
+- $Z(s, a)$, the random return from state $s$ and action $a$
+- $\alpha^+$, the learning rate applied to positive prediction errors, with $\alpha^-$ for negative ones
+- $A^\pi(s, a)$, the advantage function of policy $\pi$
+- $h_t$, the hidden state of a recurrent network
+- $\mathbf{v}_k$, a basis vector of the neural manifold
+- $q(s)$, the approximate posterior, or recognition distribution, over hidden states
+- $M(s, s')$, the successor representation from state $s$ to state $s'$
+- $\mathbf{k}_i$, one of three wavevectors sixty degrees apart
+- $\alpha_{\text{fast}}$, the fast hippocampal learning rate, with $\alpha_{\text{slow}}$ the slow cortical rate
+- $d_k$, the key dimension
+- $\lambda$, the sparsity regularisation coefficient
+- $\mathbb{I}$, mutual information
+- $\beta_j$, an encoding-model coefficient fitted by regularised regression
+- $B^{(l)}$, the fixed random feedback matrix at layer $l$
+- $\tau_m$, the membrane time constant
+- $V_{\text{th}}$, the firing threshold voltage
+- $z_t$, the latent state of the dynamical model
 
 ## References
 

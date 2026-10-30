@@ -19,21 +19,33 @@ The multi-armed bandit problem is the theoretical foundation of experiential lea
 
 The classical stochastic multi-armed bandit problem specifies a set of $K$ arms indexed $a \in \{1, \ldots, K\}$, each associated with a reward distribution $\nu_a$ with mean $\mu_a$. At each round $t = 1, 2, \ldots, T$, the learner selects an arm $A_t$ and receives a reward $X_{t} \sim \nu_{A_t}$ drawn independently across rounds and arms. The learner's objective is to maximize the expected cumulative reward over the horizon $T$,
 
-$$\mathbb{E}\left[\sum_{t=1}^T X_t\right]$$
+$$
+\mathbb{E}\left[\sum_{t=1}^T X_t\right]
+\tag{1}
+$$
 
 or equivalently to minimize the regret, defined as the expected shortfall relative to always playing the optimal arm $a^\* = \arg\max_a \mu_a$ with mean reward $\mu^\* = \max_a \mu_a$,
 
-$$R_T = T \mu^* - \mathbb{E}\left[\sum_{t=1}^T X_t\right] = \mathbb{E}\left[\sum_{t=1}^T (\mu^* - \mu_{A_t})\right]$$
+$$
+R_T = T \mu^* - \mathbb{E}\left[\sum_{t=1}^T X_t\right] = \mathbb{E}\left[\sum_{t=1}^T (\mu^* - \mu_{A_t})\right]
+\tag{2}
+$$
 
 Writing $\Delta_a = \mu^\* - \mu_a$ for the suboptimality gap of arm $a$ and $N_a(T) = \sum_{t=1}^T \mathbb{1}\{A_t = a\}$ for the number of times arm $a$ has been played by round $T$, regret decomposes as
 
-$$R_T = \sum_{a=1}^K \Delta_a \, \mathbb{E}[N_a(T)]$$
+$$
+R_T = \sum_{a=1}^K \Delta_a \, \mathbb{E}[N_a(T)]
+\tag{3}
+$$
 
 which makes explicit that regret accrues only from playing suboptimal arms.
 
 A complementary objective is the simple regret at some fixed final round $T$, comparing the final recommendation to the optimal arm rather than accumulating regret over rounds,
 
-$$r_T = \mu^* - \mu_{\hat{a}_T}$$
+$$
+r_T = \mu^* - \mu_{\hat{a}_T}
+\tag{4}
+$$
 
 where $\hat{a}\_T$ is the arm the learner recommends after $T$ rounds of interaction. Cumulative regret and simple regret can trade off against one another, since strategies that explore aggressively to identify the best arm may forego reward during exploration.
 
@@ -57,35 +69,56 @@ The 2010s produced substantial refinement. [Chapelle and Li 2011][research_chape
 
 Under standard assumptions, rewards are supported on a bounded interval such as $[0, 1]$ or are subgaussian with known constant. The empirical mean of arm $a$ after $n$ pulls,
 
-$$\hat{\mu}_a(n) = \frac{1}{n} \sum_{i=1}^{n} X_{a, i}$$
+$$
+\hat{\mu}_a(n) = \frac{1}{n} \sum_{i=1}^{n} X_{a, i}
+\tag{5}
+$$
 
 concentrates around $\mu_a$ at the rate given by Hoeffding's inequality,
 
-$$P\left(|\hat{\mu}_a(n) - \mu_a| \geq \epsilon\right) \leq 2 \exp(-2 n \epsilon^2)$$
+$$
+P\left(|\hat{\mu}_a(n) - \mu_a| \geq \epsilon\right) \leq 2 \exp(-2 n \epsilon^2)
+\tag{6}
+$$
 
 for rewards in $[0, 1]$. For rewards with a subgaussian tail with parameter $\sigma$, the corresponding bound is
 
-$$P\left(|\hat{\mu}_a(n) - \mu_a| \geq \epsilon\right) \leq 2 \exp\left(-\frac{n \epsilon^2}{2 \sigma^2}\right)$$
+$$
+P\left(|\hat{\mu}_a(n) - \mu_a| \geq \epsilon\right) \leq 2 \exp\left(-\frac{n \epsilon^2}{2 \sigma^2}\right)
+\tag{7}
+$$
 
 This concentration is the fundamental tool of the frequentist bandit analysis. It lets the learner construct confidence intervals around empirical means that shrink at rate $\mathcal{O}(1/\sqrt{n})$ and use those intervals to decide when the empirical ordering of arms is trustworthy.
 
 Three notions of regret are worth distinguishing. The pseudo-regret
 
-$$\bar{R}_T = T \mu^* - \sum_{t=1}^T \mu_{A_t}$$
+$$
+\bar{R}_T = T \mu^* - \sum_{t=1}^T \mu_{A_t}
+\tag{8}
+$$
 
 compares against the true optimal mean and is what most stochastic bandit algorithms directly bound. The expected regret $R_T = \mathbb{E}[\bar{R}\_T]$ takes expectation over the randomness of arm selection and reward realization. The Bayesian regret
 
-$$R_T^{\text{Bayes}} = \mathbb{E}_{\theta \sim \pi}[R_T(\theta)]$$
+$$
+R_T^{\text{Bayes}} = \mathbb{E}_{\theta \sim \pi}[R_T(\theta)]
+\tag{9}
+$$
 
 further averages over a prior $\pi$ on the environment parameters $\theta$ and is the natural analysis object for Thompson sampling and Gittins-index algorithms.
 
 Simple exploration strategies illustrate the regret landscape. Pure exploration plays each arm uniformly, incurring linear regret $R_T = \Theta(T)$. Pure exploitation plays the empirically best arm after some initial exploration but can lock onto a suboptimal arm and incur linear regret. The $\epsilon$-greedy strategy plays a random arm with probability $\epsilon_t$ decaying as $1/t$ and the empirically best arm otherwise, achieving
 
-$$R_T^{\epsilon\text{-greedy}} = \mathcal{O}\!\left(\frac{K \log T}{\Delta_{\min}^2}\right)$$
+$$
+R_T^{\epsilon\text{-greedy}} = \mathcal{O}\!\left(\frac{K \log T}{\Delta_{\min}^2}\right)
+\tag{10}
+$$
 
 under careful tuning of $\epsilon_t$, where $\Delta_{\min} = \min_{a : \Delta_a > 0} \Delta_a$. Explore-then-commit similarly explores for a fixed initial period and commits thereafter, achieving
 
-$$R_T^{\text{ETC}} = \mathcal{O}\!\left(T^{2/3} (K \log K)^{1/3}\right)$$
+$$
+R_T^{\text{ETC}} = \mathcal{O}\!\left(T^{2/3} (K \log K)^{1/3}\right)
+\tag{11}
+$$
 
 when the exploration budget is set optimally in a distribution-independent sense, and $\mathcal{O}(\log T / \Delta_{\min}^2)$ when the gap $\Delta_{\min}$ is known.
 
@@ -93,17 +126,26 @@ when the exploration budget is set optimally in a distribution-independent sense
 
 The [Lai and Robbins 1985][research_lai_robbins_1985] lower bound establishes a fundamental information-theoretic limit for consistent algorithms on stochastic bandits. Recall that the Kullback-Leibler divergence between two probability measures $P$ and $Q$ absolutely continuous with respect to a common dominating measure is
 
-$$\text{KL}(P \, \| \, Q) = \int p(x) \log \frac{p(x)}{q(x)} \, dx$$
+$$
+\text{KL}(P \, \| \, Q) = \int p(x) \log \frac{p(x)}{q(x)} \, dx
+\tag{12}
+$$
 
 and is zero if and only if $P = Q$ almost everywhere. Let $\text{KL}(\nu_a \, \| \, \nu^\*)$ denote this divergence between the reward distributions of a suboptimal arm and the optimal arm. Any consistent algorithm on a parametric family of distributions satisfies asymptotically
 
-$$\liminf_{T \to \infty} \frac{R_T}{\log T} \geq \sum_{a: \Delta_a > 0} \frac{\Delta_a}{\text{KL}(\nu_a \, \| \, \nu^*)}$$
+$$
+\liminf_{T \to \infty} \frac{R_T}{\log T} \geq \sum_{a: \Delta_a > 0} \frac{\Delta_a}{\text{KL}(\nu_a \, \| \, \nu^*)}
+\tag{13}
+$$
 
 The bound is tight in the sense that algorithms exist achieving this rate, and it establishes the $\log T$ scaling as unavoidable for any algorithm that adapts sensibly to unknown reward distributions.
 
 For the worst-case adversarial bandit setting, [Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002] and subsequent work established the minimax lower bound
 
-$$R_T = \Omega(\sqrt{KT})$$
+$$
+R_T = \Omega(\sqrt{KT})
+\tag{14}
+$$
 
 which is achieved up to logarithmic factors by the EXP3 family of algorithms. The difference in scaling between stochastic ($\log T$) and adversarial ($\sqrt{T}$) settings reflects the fact that the adversarial setting denies the learner access to concentration inequalities that would otherwise let it identify the optimal arm.
 
@@ -113,39 +155,63 @@ Instance-dependent and instance-independent bounds correspond to different measu
 
 The upper confidence bound family of algorithms implements the principle of optimism in the face of uncertainty. At each round, the algorithm plays the arm with the largest upper bound on a confidence interval around its empirical mean. The most widely known variant is UCB1 from [Auer et al. 2002a][research_auer_cesa_bianchi_fischer_2002], which selects
 
-$$A_t = \arg\max_a \left[ \hat{\mu}_a(N_a(t-1)) + \sqrt{\frac{2 \log t}{N_a(t-1)}} \right]$$
+$$
+A_t = \arg\max_a \left[ \hat{\mu}_a(N_a(t-1)) + \sqrt{\frac{2 \log t}{N_a(t-1)}} \right]
+\tag{15}
+$$
 
 where the second term is a confidence radius derived from Hoeffding's inequality. UCB1 achieves the regret bound
 
-$$R_T \leq \sum_{a: \Delta_a > 0} \frac{8 \log T}{\Delta_a} + \left(1 + \frac{\pi^2}{3}\right) \sum_{a=1}^K \Delta_a$$
+$$
+R_T \leq \sum_{a: \Delta_a > 0} \frac{8 \log T}{\Delta_a} + \left(1 + \frac{\pi^2}{3}\right) \sum_{a=1}^K \Delta_a
+\tag{16}
+$$
 
 which matches the Lai-Robbins lower bound up to constants.
 
 Refinements of UCB1 tighten the confidence radius by using more sensitive concentration inequalities. UCB-V from [Audibert et al. 2009][research_audibert_munos_szepesvari_2009] incorporates the empirical variance, giving
 
-$$A_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \hat{V}_a \log t}{N_a}} + \frac{3 \log t}{N_a} \right]$$
+$$
+A_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \hat{V}_a \log t}{N_a}} + \frac{3 \log t}{N_a} \right]
+\tag{17}
+$$
 
 which is tighter for arms with low variance. KL-UCB from [Cappé 2013][research_cappe_et_al_2013] uses the KL divergence-based confidence set,
 
-$$A_t = \arg\max_a \max\left\{ q \in [0, 1] : N_a(t-1) \cdot \text{KL}(\hat{\mu}_a, q) \leq \log t + c \log \log t \right\}$$
+$$
+A_t = \arg\max_a \max\left\{ q \in [0, 1] : N_a(t-1) \cdot \text{KL}(\hat{\mu}_a, q) \leq \log t + c \log \log t \right\}
+\tag{18}
+$$
 
 and achieves the Lai-Robbins constant exactly.
 
 For linear bandits with feature vectors $x_a \in \mathbb{R}^d$ and unknown parameter $\theta \in \mathbb{R}^d$, the LinUCB algorithm of [Li et al. 2010][research_li_et_al_2010] and its predecessors constructs confidence ellipsoids on $\theta$ and plays
 
-$$A_t = \arg\max_a \left[ \hat{\theta}_t^\top x_a + \beta_t \| x_a \|_{V_t^{-1}} \right]$$
+$$
+A_t = \arg\max_a \left[ \hat{\theta}_t^\top x_a + \beta_t \| x_a \|_{V_t^{-1}} \right]
+\tag{19}
+$$
 
 where the ridge-regularized design matrix is
 
-$$V_t = \lambda I + \sum_{s=1}^{t-1} x_{A_s} x_{A_s}^\top$$
+$$
+V_t = \lambda I + \sum_{s=1}^{t-1} x_{A_s} x_{A_s}^\top
+\tag{20}
+$$
 
 and the ridge-regularized least-squares estimate is
 
-$$\hat{\theta}_t = V_t^{-1} \sum_{s=1}^{t-1} x_{A_s} X_s$$
+$$
+\hat{\theta}_t = V_t^{-1} \sum_{s=1}^{t-1} x_{A_s} X_s
+\tag{21}
+$$
 
 Linear UCB achieves regret
 
-$$R_T = \mathcal{O}\!\left(d \sqrt{T} \log T\right)$$
+$$
+R_T = \mathcal{O}\!\left(d \sqrt{T} \log T\right)
+\tag{22}
+$$
 
 in the linear stochastic setting, replacing the arm count $K$ in the bound with the ambient dimension $d$. [Abbasi-yadkori et al. 2011][research_abbasi_yadkori_pal_szepesvari_2011] improved the analysis with self-normalized concentration inequalities, giving the tighter bound $R_T = \mathcal{O}(d \sqrt{T \log T})$ under standard regularity conditions. The minimax-optimal MOSS algorithm of [Audibert and Bubeck 2009][research_audibert_bubeck_2009] achieves the improved bound $R_T = \mathcal{O}(\sqrt{KT})$ in the finite-armed adversarial-adjacent setting.
 
@@ -157,13 +223,19 @@ Maintain for each arm $a$ counts of successes $\alpha_a$ and failures $\beta_a$,
 
 The Bayesian analysis of Thompson sampling due to [Russo and Van Roy 2014][research_russo_van_roy_2014] gives the Bayesian regret bound
 
-$$R_T^{\text{Bayes}} \leq \sqrt{\frac{1}{2} T H(A^*)}$$
+$$
+R_T^{\text{Bayes}} \leq \sqrt{\frac{1}{2} T H(A^*)}
+\tag{23}
+$$
 
 where $H(A^\*)$ is the entropy of the prior over the optimal arm. The frequentist regret analysis of [Agrawal and Goyal 2012][research_agrawal_goyal_2012] shows Thompson sampling achieves $\mathcal{O}(\log T)$ instance-dependent regret with the Lai-Robbins constant asymptotically. [Kaufmann et al. 2012][research_kaufmann_korda_munos_2012] independently established non-asymptotic finite-time bounds for Thompson sampling on Bernoulli bandits that match the Lai-Robbins constant.
 
 The empirical success of Thompson sampling documented by [Chapelle and Li 2011][research_chapelle_li_2011] extends to structured settings including linear, Gaussian process, and neural network bandits. For linear Thompson sampling, [Agrawal and Goyal 2013][research_agrawal_goyal_2013] established the frequentist regret bound
 
-$$R_T = \tilde{\mathcal{O}}\!\left(d^{3/2} \sqrt{T}\right)$$
+$$
+R_T = \tilde{\mathcal{O}}\!\left(d^{3/2} \sqrt{T}\right)
+\tag{24}
+$$
 
 matching the LinUCB scaling in $T$ but with a worse polynomial dependence on dimension. The information-theoretic analysis of Thompson sampling has proved a productive framework for extending the algorithm and its analysis to reinforcement learning, where posterior sampling for reinforcement learning under the name PSRL provides a Bayesian analogue to optimistic reinforcement learning treated in article three.
 
@@ -173,27 +245,45 @@ The adversarial bandit setting drops the stochastic assumption. An adversary sel
 
 The EXP3 algorithm of [Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002] maintains exponentially-weighted probabilities over arms. Let $\eta$ be the learning rate and $\hat{X}\_t(a)$ the importance-weighted reward estimate
 
-$$\hat{X}_t(a) = \frac{X_t \, \mathbb{1}\{A_t = a\}}{p_t(a)}$$
+$$
+\hat{X}_t(a) = \frac{X_t \, \mathbb{1}\{A_t = a\}}{p_t(a)}
+\tag{25}
+$$
 
 where $p_t(a)$ is the algorithm's probability of playing arm $a$ at round $t$. Cumulative weights are updated as
 
-$$w_t(a) = w_{t-1}(a) \exp(\eta \hat{X}_t(a))$$
+$$
+w_t(a) = w_{t-1}(a) \exp(\eta \hat{X}_t(a))
+\tag{26}
+$$
 
 and probabilities as
 
-$$p_{t+1}(a) = (1 - \gamma) \frac{w_t(a)}{\sum_{a'} w_t(a')} + \frac{\gamma}{K}$$
+$$
+p_{t+1}(a) = (1 - \gamma) \frac{w_t(a)}{\sum_{a'} w_t(a')} + \frac{\gamma}{K}
+\tag{27}
+$$
 
 where $\gamma$ is a mixing parameter that ensures exploration. With learning rate tuned to
 
-$$\eta = \sqrt{\frac{2 \log K}{T K}}$$
+$$
+\eta = \sqrt{\frac{2 \log K}{T K}}
+\tag{28}
+$$
 
 EXP3 achieves regret bound
 
-$$R_T \leq 2 \sqrt{T K \log K}$$
+$$
+R_T \leq 2 \sqrt{T K \log K}
+\tag{29}
+$$
 
 against any adversary. The matching lower bound
 
-$$R_T = \Omega(\sqrt{T K})$$
+$$
+R_T = \Omega(\sqrt{T K})
+\tag{30}
+$$
 
 holds for the adversarial setting, showing that EXP3 is nearly minimax-optimal up to logarithmic factors. The dependence on $T$ is $\sqrt{T}$ rather than $\log T$, reflecting the harder adversarial setting.
 
@@ -201,7 +291,10 @@ Refinements include EXP3.P, which provides high-probability guarantees rather th
 
 The best-of-both-worlds family of algorithms achieves near-optimal regret in both stochastic and adversarial settings simultaneously, without prior knowledge of which regime the environment is in. [Bubeck et al. 2012][research_bubeck_slivkins_2012] provided the first such algorithm with $\mathcal{O}(\log^3 T)$ regret in the stochastic setting and $\mathcal{O}(\sqrt{T \log T})$ regret in the adversarial setting. The [Zimmert and Seldin 2019][research_zimmert_seldin_2019] Tsallis-INF algorithm uses a Tsallis entropy regularizer
 
-$$x_{t+1} = \arg\min_{p \in \Delta_K} \left[ \langle p, \hat{L}_t \rangle - \eta \sum_a \sqrt{p_a} \right]$$
+$$
+x_{t+1} = \arg\min_{p \in \Delta_K} \left[ \langle p, \hat{L}_t \rangle - \eta \sum_a \sqrt{p_a} \right]
+\tag{31}
+$$
 
 and simultaneously achieves the optimal $\mathcal{O}(\sqrt{TK})$ adversarial regret and the $\mathcal{O}(\log T / \Delta)$ instance-dependent stochastic regret, closing a long-standing gap between the two settings.
 
@@ -211,7 +304,10 @@ Contextual bandits generalize the setting by providing the learner with side inf
 
 The stochastic contextual bandit assumes rewards follow some function of context and arm plus noise,
 
-$$X_t = f(x_t, A_t) + \eta_t$$
+$$
+X_t = f(x_t, A_t) + \eta_t
+\tag{32}
+$$
 
 with $\eta_t$ zero-mean. The learner's task is to learn a policy $\pi : \mathcal{X} \to \{1, \ldots, K\}$ that maximizes expected reward.
 
@@ -219,7 +315,10 @@ For linear contextual bandits, the reward function has the form $f(x, a) = \thet
 
 For general contextual bandits without linear structure, the epoch-greedy family of algorithms of [Langford and Zhang 2007][research_langford_zhang_2007], the exp4 algorithm of [Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002], and the exp4.P variant of [Beygelzimer et al. 2011][research_beygelzimer_et_al_2011] provide reduction-based algorithms with regret bounds
 
-$$R_T = \mathcal{O}\left(\sqrt{T K \log |\Pi|}\right)$$
+$$
+R_T = \mathcal{O}\left(\sqrt{T K \log |\Pi|}\right)
+\tag{33}
+$$
 
 where $\lvert \Pi \rvert$ is the cardinality of a fixed policy class. For infinite policy classes indexed by a bounded-VC-dimension hypothesis space, the bound generalizes with $\log \lvert \Pi \rvert$ replaced by the appropriate complexity measure.
 
@@ -229,29 +328,44 @@ Contextual bandits provide the algorithmic foundation for personalized recommend
 
 Structured bandits exploit known relationships among arm rewards to reduce sample complexity. The linear bandit setting assumes rewards are linear in a feature vector $\phi(a) \in \mathbb{R}^d$ associated with each arm,
 
-$$\mu_a = \theta^\top \phi(a)$$
+$$
+\mu_a = \theta^\top \phi(a)
+\tag{34}
+$$
 
 for unknown parameter $\theta$. The dimension $d$ replaces the number of arms $K$ in regret bounds, which is advantageous when $K \gg d$ or when $K$ is infinite.
 
 Kernel bandits generalize the linear structure to reproducing kernel Hilbert spaces, giving nonparametric algorithms with regret bounds in terms of an information gain quantity of the kernel. The GP-UCB algorithm of [Srinivas et al. 2009][research_srinivas_et_al_2010] provides an early treatment, achieving regret
 
-$$R_T = \mathcal{O}\!\left(\sqrt{T \gamma_T \log T}\right)$$
+$$
+R_T = \mathcal{O}\!\left(\sqrt{T \gamma_T \log T}\right)
+\tag{35}
+$$
 
 where the maximum information gain over $T$ observations is
 
-$$\gamma_T = \max_{|S| \leq T} \frac{1}{2} \log \det(I + \sigma^{-2} K_S)$$
+$$
+\gamma_T = \max_{|S| \leq T} \frac{1}{2} \log \det(I + \sigma^{-2} K_S)
+\tag{36}
+$$
 
 with $K_S$ the kernel Gram matrix on the sample set $S$. The information gain $\gamma_T$ replaces the ambient dimension in the linear case and characterizes the sample complexity of the kernel bandit problem.
 
 Combinatorial bandits treat problems where the arm set has combinatorial structure, such as ranking, matching, or path selection, and the learner receives feedback on the selected combination rather than individual components. The [Cesa-Bianchi and Lugosi 2012][research_cesa_bianchi_lugosi_2012] treatment of combinatorial prediction and its bandit specialization achieves regret bounds
 
-$$R_T = \mathcal{O}(m \sqrt{T \log |\mathcal{A}|})$$
+$$
+R_T = \mathcal{O}(m \sqrt{T \log |\mathcal{A}|})
+\tag{37}
+$$
 
 where $m$ is the size of each combinatorial action and $\lvert \mathcal{A} \rvert$ is the combinatorial action set size, exploiting the combinatorial structure to avoid regret bounds that scale linearly with the exponentially large arm set.
 
 Continuum-armed or Lipschitz bandits allow an uncountable action set with rewards Lipschitz-continuous in the action. The [Kleinberg et al. 2008][research_kleinberg_slivkins_upfal_2008] zooming algorithm achieves regret
 
-$$R_T = \tilde{\mathcal{O}}(T^{(d+1)/(d+2)})$$
+$$
+R_T = \tilde{\mathcal{O}}(T^{(d+1)/(d+2)})
+\tag{38}
+$$
 
 where $d$ is the zooming dimension of the problem, an information-theoretic quantity capturing the effective difficulty. The regret scaling $T^{(d+1)/(d+2)}$ interpolates between $\sqrt{T}$ (small $d$) and $T$ (dense reward landscape).
 
@@ -265,13 +379,19 @@ Dueling bandits [Yue et al. 2012][research_yue_et_al_2012] replace scalar reward
 
 Delayed feedback bandits observe rewards only after a delay that may depend on the arm played, the environment, or the round. The [Joulani et al. 2013][research_joulani_gyorgy_szepesvari_2013] queuing-based framework reduces the delayed-feedback problem to a black-box reduction over undelayed algorithms, achieving regret
 
-$$R_T = \mathcal{O}(R_T^{\text{undelayed}} + \bar{D} \sqrt{T})$$
+$$
+R_T = \mathcal{O}(R_T^{\text{undelayed}} + \bar{D} \sqrt{T})
+\tag{39}
+$$
 
 where $\bar{D}$ is the expected delay. The framework covers stochastic, adversarial, and contextual settings uniformly.
 
 Graph-structured feedback [Alon et al. 2013][research_alon_et_al_2013] allows the learner to observe rewards for a subset of arms determined by a feedback graph $G$. Full-information feedback corresponds to the complete graph and bandit feedback to the empty graph (self-loops only). Regret bounds interpolate between these extremes through spectral properties of $G$, giving
 
-$$R_T = \mathcal{O}(\sqrt{\alpha(G) T \log K})$$
+$$
+R_T = \mathcal{O}(\sqrt{\alpha(G) T \log K})
+\tag{40}
+$$
 
 where $\alpha(G)$ is the independence number of the feedback graph. Applications include social-network content recommendation, where selecting one item may reveal preferences for related items.
 
@@ -283,11 +403,17 @@ Bandit convex optimization extends the online convex optimization framework of t
 
 The [Flaxman et al. 2004][research_flaxman_kalai_mcmahan_2005] one-point gradient estimator constructs a stochastic gradient from a perturbation. For a smoothing parameter $\delta$ and a random unit vector $u$, the estimator
 
-$$\hat{g}_t = \frac{d}{\delta} f_t(x_t + \delta u) u$$
+$$
+\hat{g}_t = \frac{d}{\delta} f_t(x_t + \delta u) u
+\tag{41}
+$$
 
 is an unbiased estimator of the gradient of a smoothed version of $f_t$. Feeding this estimator to online gradient descent yields regret
 
-$$R_T = \mathcal{O}(T^{3/4})$$
+$$
+R_T = \mathcal{O}(T^{3/4})
+\tag{42}
+$$
 
 for general convex losses. The bound was subsequently improved to $\mathcal{O}(\sqrt{T})$ under stronger smoothness assumptions by [Bubeck and Slivkins 2012][research_bubeck_cesa_bianchi_kakade_2012] and to matching lower bounds by [Bubeck et al. 2015][research_bubeck_eldan_lee_2017] for smooth strongly convex losses.
 
@@ -301,11 +427,17 @@ The fixed-budget setting fixes the number of arm pulls in advance and analyzes t
 
 The successive elimination algorithm of [Even-Dar et al. 2006][research_even_dar_mannor_mansour_2006] iteratively rules out arms whose empirical means fall too far below the current best. At each round it eliminates any arm $a$ satisfying
 
-$$\hat{\mu}_{\max}(t) - \hat{\mu}_a(t) > 2 \sqrt{\frac{\log(4 K t^2 / \delta)}{N_a(t)}}$$
+$$
+\hat{\mu}_{\max}(t) - \hat{\mu}_a(t) > 2 \sqrt{\frac{\log(4 K t^2 / \delta)}{N_a(t)}}
+\tag{43}
+$$
 
 with confidence parameter $\delta$, ensuring correct identification with probability $1 - \delta$. The track-and-stop algorithm of [Garivier and Kaufmann 2016][research_garivier_kaufmann_2016] achieves the instance-optimal sample complexity for fixed-confidence identification asymptotically, matching the lower bound
 
-$$\mathbb{E}[\tau_\delta] \geq T^*(\mu) \log(1/\delta)$$
+$$
+\mathbb{E}[\tau_\delta] \geq T^*(\mu) \log(1/\delta)
+\tag{44}
+$$
 
 where $T^\*(\mu)$ is a complex information-theoretic quantity involving a maxmin over allocation vectors and the KL divergences among reward distributions.
 
@@ -317,19 +449,28 @@ Real-world reward distributions frequently drift, jump, or evolve in ways that v
 
 The abrupt-change setting assumes that arm rewards change at discrete change-points that partition the horizon into stationary segments. The sliding-window UCB algorithm of [Garivier and Moulines 2011][research_garivier_moulines_2011] uses only the most recent $\tau$ samples to construct confidence bounds,
 
-$$A_t = \arg\max_a \left[ \hat{\mu}_a^{\tau}(t) + \sqrt{\frac{\xi \log \min(t, \tau)}{N_a^{\tau}(t)}} \right]$$
+$$
+A_t = \arg\max_a \left[ \hat{\mu}_a^{\tau}(t) + \sqrt{\frac{\xi \log \min(t, \tau)}{N_a^{\tau}(t)}} \right]
+\tag{45}
+$$
 
 where $\hat{\mu}\_a^{\tau}(t)$ is the empirical mean over the sliding window and $N_a^{\tau}(t)$ the count of pulls within it. Sliding-window variants achieve regret bounds of $\mathcal{O}(\sqrt{S T \log T})$ where $S$ is the number of change-points.
 
 The smoothly-varying setting assumes that arm rewards evolve continuously, possibly with a bounded rate of change. Discounted UCB variants apply a discount factor $\gamma \in (0, 1)$ to older samples,
 
-$$\hat{\mu}_a^{\gamma}(t) = \frac{\sum_{s=1}^{t} \gamma^{t-s} \mathbb{1}\{A_s = a\} X_s}{\sum_{s=1}^{t} \gamma^{t-s} \mathbb{1}\{A_s = a\}}$$
+$$
+\hat{\mu}_a^{\gamma}(t) = \frac{\sum_{s=1}^{t} \gamma^{t-s} \mathbb{1}\{A_s = a\} X_s}{\sum_{s=1}^{t} \gamma^{t-s} \mathbb{1}\{A_s = a\}}
+\tag{46}
+$$
 
 and give bounds involving the drift rate.
 
 Restless bandits allow arm rewards to evolve according to Markov chains whose transitions depend on whether the arm is played. The problem is generally PSPACE-hard, but the [Whittle 1988][research_whittle_1988] index provides a widely-used heuristic that computes an arm-index
 
-$$W_a(x) = \inf\{ \lambda : \text{it is optimal to activate arm } a \text{ in state } x \text{ under passive-arm subsidy } \lambda \}$$
+$$
+W_a(x) = \inf\{ \lambda : \text{it is optimal to activate arm } a \text{ in state } x \text{ under passive-arm subsidy } \lambda \}
+\tag{47}
+$$
 
 with theoretical guarantees under indexability conditions.
 
@@ -341,25 +482,40 @@ The bandit setting is a special case of the broader online learning framework. P
 
 The Hedge algorithm of [Freund and Schapire 1997][research_freund_schapire_1997] provides multiplicative weight updates
 
-$$w_{t+1}(a) = w_t(a) \exp(-\eta L_t(a))$$
+$$
+w_{t+1}(a) = w_t(a) \exp(-\eta L_t(a))
+\tag{48}
+$$
 
 where $L_t(a)$ is the observed loss of expert $a$ at round $t$, and plays experts with probability proportional to weights. Hedge achieves regret bound
 
-$$R_T \leq \sqrt{2 T \log N}$$
+$$
+R_T \leq \sqrt{2 T \log N}
+\tag{49}
+$$
 
 against the best expert in hindsight, where $N$ is the number of experts. The bandit setting corresponds to observing only the loss of the selected expert, which yields the harder EXP3 problem.
 
 Online convex optimization further generalizes to problems in which the learner selects a point in a convex set at each round and receives a convex loss function. The online gradient descent algorithm of [Zinkevich 2003][research_zinkevich_2003] projects a gradient step back onto the feasible set,
 
-$$x_{t+1} = \Pi_{\mathcal{K}}\!\left[x_t - \eta \nabla f_t(x_t)\right]$$
+$$
+x_{t+1} = \Pi_{\mathcal{K}}\!\left[x_t - \eta \nabla f_t(x_t)\right]
+\tag{50}
+$$
 
 and achieves regret bound
 
-$$R_T \leq \frac{D^2}{2 \eta} + \frac{\eta G^2 T}{2}$$
+$$
+R_T \leq \frac{D^2}{2 \eta} + \frac{\eta G^2 T}{2}
+\tag{51}
+$$
 
 where $D$ is the diameter of the feasible set $\mathcal{K}$ and $G$ is a bound on the gradient norm. With $\eta = D/(G\sqrt{T})$ the bound becomes $R_T \leq D G \sqrt{T}$. Follow-the-regularized-leader generalizes the framework, selecting
 
-$$x_{t+1} = \arg\min_{x \in \mathcal{K}} \left[ \sum_{s=1}^{t} f_s(x) + \frac{1}{\eta} R(x) \right]$$
+$$
+x_{t+1} = \arg\min_{x \in \mathcal{K}} \left[ \sum_{s=1}^{t} f_s(x) + \frac{1}{\eta} R(x) \right]
+\tag{52}
+$$
 
 for a strongly convex regularizer $R$. The follow-the-perturbed-leader algorithm of [Kalai and Vempala 2005][research_kalai_vempala_2005] provides an efficient alternative using random perturbation of the cumulative loss, especially useful for structured decision sets. Mirror descent extends the Euclidean projection to Bregman divergences, unifying multiplicative weights, exponentiated gradient, and other algorithms as instances of a common framework. The [Hazan 2016][book_hazan_2016] textbook provides a comprehensive treatment.
 
@@ -413,6 +569,494 @@ Sample complexity in bandits versus regret is a subtle distinction. Regret bound
 - How should non-stationarity be characterized when its structure is unknown to the learner? Change-point detection, sliding windows, and discounting each capture aspects of the problem, but a unified adaptive framework remains open.
 - What is the correct sample-complexity theory for pure exploration in structured bandits, and how does it compare to the corresponding theory for cumulative-regret minimization?
 - To what extent does the bandit exploration-exploitation trade-off translate to human decision-making under uncertainty? The empirical psychology of choice under uncertainty documents systematic departures from optimal bandit strategies that article fifteen surveys.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 52 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 52, 52 are established and 0 are bespoke.
+Rewards are taken to lie in the unit interval unless the text states a subgaussian tail, regret carries the units of reward, and every order bound hides constants that differ between the algorithms it compares.
+
+**Equation 1, Expected Cumulative Reward.**
+The learner seeks to maximise the expected sum of rewards collected over the horizon.
+
+$$
+\mathbb{E}\left[\sum_{t=1}^T X_t\right]
+\tag{1}
+$$
+
+**Equation 2, Cumulative Regret of a Stochastic Bandit.**
+Regret is the expected shortfall of the collected reward against always playing the arm with the highest mean.
+
+$$
+R_T = T \mu^* - \mathbb{E}\left[\sum_{t=1}^T X_t\right] = \mathbb{E}\left[\sum_{t=1}^T (\mu^* - \mu_{A_t})\right]
+\tag{2}
+$$
+
+**Equation 3, Regret Decomposition by Arm.**
+Regret equals the sum over arms of each suboptimality gap times the expected number of pulls of that arm.
+
+$$
+R_T = \sum_{a=1}^K \Delta_a \, \mathbb{E}[N_a(T)]
+\tag{3}
+$$
+
+**Equation 4, Simple Regret.**
+Simple regret is the gap between the optimal mean and the mean of the arm recommended after the final round.
+
+$$
+r_T = \mu^* - \mu_{\hat{a}_T}
+\tag{4}
+$$
+
+**Equation 5, Empirical Mean of an Arm.**
+The empirical mean of an arm is the average of the rewards from its first $n$ pulls.
+
+$$
+\hat{\mu}_a(n) = \frac{1}{n} \sum_{i=1}^{n} X_{a, i}
+\tag{5}
+$$
+
+**Equation 6, Hoeffding Inequality for Bounded Rewards.**
+For rewards in the unit interval the probability that the empirical mean deviates from the true mean by at least $\epsilon$ falls exponentially in $n \epsilon^2$.
+
+$$
+P\left(|\hat{\mu}_a(n) - \mu_a| \geq \epsilon\right) \leq 2 \exp(-2 n \epsilon^2)
+\tag{6}
+$$
+
+**Equation 7, Subgaussian Concentration of the Empirical Mean.**
+For rewards with a subgaussian tail of parameter $\sigma$ the same deviation probability falls exponentially in $n \epsilon^2 / 2 \sigma^2$.
+
+$$
+P\left(|\hat{\mu}_a(n) - \mu_a| \geq \epsilon\right) \leq 2 \exp\left(-\frac{n \epsilon^2}{2 \sigma^2}\right)
+\tag{7}
+$$
+
+**Equation 8, Pseudo-Regret.**
+Pseudo-regret compares the optimal mean against the true means of the arms played, without the noise of realised rewards.
+
+$$
+\bar{R}_T = T \mu^* - \sum_{t=1}^T \mu_{A_t}
+\tag{8}
+$$
+
+**Equation 9, Bayesian Regret.**
+Bayesian regret averages the regret of an algorithm over a prior on the environment parameters.
+
+$$
+R_T^{\text{Bayes}} = \mathbb{E}_{\theta \sim \pi}[R_T(\theta)]
+\tag{9}
+$$
+
+**Equation 10, Regret of Decaying Epsilon-Greedy Exploration.**
+With the exploration probability decaying as $1/t$ and tuned to the smallest gap, epsilon-greedy exploration achieves regret logarithmic in the horizon.
+[Auer et al. 2002a][research_auer_cesa_bianchi_fischer_2002]
+
+$$
+R_T^{\epsilon\text{-greedy}} = \mathcal{O}\!\left(\frac{K \log T}{\Delta_{\min}^2}\right)
+\tag{10}
+$$
+
+**Equation 11, Gap-Free Regret of Explore-Then-Commit.**
+Explore-then-commit with an exploration budget tuned without knowledge of the gaps incurs regret growing as the two-thirds power of the horizon.
+
+$$
+R_T^{\text{ETC}} = \mathcal{O}\!\left(T^{2/3} (K \log K)^{1/3}\right)
+\tag{11}
+$$
+
+**Equation 12, Kullback-Leibler Divergence.**
+The Kullback-Leibler divergence is the expectation under $P$ of the log ratio of the two densities.
+
+$$
+\text{KL}(P \, \| \, Q) = \int p(x) \log \frac{p(x)}{q(x)} \, dx
+\tag{12}
+$$
+
+**Equation 13, Lai-Robbins Asymptotic Lower Bound.**
+Any consistent algorithm must incur regret at least logarithmic in the horizon, with a constant set by each gap divided by the divergence between that arm and the optimal arm.
+[Lai and Robbins 1985][research_lai_robbins_1985]
+
+$$
+\liminf_{T \to \infty} \frac{R_T}{\log T} \geq \sum_{a: \Delta_a > 0} \frac{\Delta_a}{\text{KL}(\nu_a \, \| \, \nu^*)}
+\tag{13}
+$$
+
+**Equation 14, Minimax Regret Lower Bound.**
+No algorithm can guarantee worst-case regret growing more slowly than the square root of $K T$.
+[Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002]
+
+$$
+R_T = \Omega(\sqrt{KT})
+\tag{14}
+$$
+
+**Equation 15, UCB1 Arm Selection.**
+The UCB1 rule, an upper confidence bound algorithm, plays the arm whose empirical mean plus a Hoeffding confidence radius is largest.
+[Auer et al. 2002a][research_auer_cesa_bianchi_fischer_2002]
+
+$$
+A_t = \arg\max_a \left[ \hat{\mu}_a(N_a(t-1)) + \sqrt{\frac{2 \log t}{N_a(t-1)}} \right]
+\tag{15}
+$$
+
+**Equation 16, Finite-Time Regret Bound of UCB1.**
+UCB1 incurs regret at most a logarithmic term inversely proportional to each gap plus a constant proportional to the sum of the gaps.
+[Auer et al. 2002a][research_auer_cesa_bianchi_fischer_2002]
+
+$$
+R_T \leq \sum_{a: \Delta_a > 0} \frac{8 \log T}{\Delta_a} + \left(1 + \frac{\pi^2}{3}\right) \sum_{a=1}^K \Delta_a
+\tag{16}
+$$
+
+**Equation 17, UCB-V Arm Selection.**
+UCB-V replaces the worst-case confidence radius by one built from the empirical variance plus a range correction.
+[Audibert et al. 2009][research_audibert_munos_szepesvari_2009]
+
+$$
+A_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \hat{V}_a \log t}{N_a}} + \frac{3 \log t}{N_a} \right]
+\tag{17}
+$$
+
+**Equation 18, KL-UCB Arm Selection.**
+KL-UCB plays the arm whose largest plausible mean, the largest value within a Kullback-Leibler confidence set around the empirical mean, is highest.
+[Cappé 2013][research_cappe_et_al_2013]
+
+$$
+A_t = \arg\max_a \max\left\{ q \in [0, 1] : N_a(t-1) \cdot \text{KL}(\hat{\mu}_a, q) \leq \log t + c \log \log t \right\}
+\tag{18}
+$$
+
+**Equation 19, LinUCB Arm Selection.**
+LinUCB plays the arm whose estimated linear reward plus an ellipsoidal confidence width is largest.
+[Li et al. 2010][research_li_et_al_2010]
+
+$$
+A_t = \arg\max_a \left[ \hat{\theta}_t^\top x_a + \beta_t \| x_a \|_{V_t^{-1}} \right]
+\tag{19}
+$$
+
+**Equation 20, Ridge-Regularised Design Matrix.**
+The design matrix sums the outer products of the feature vectors played so far on top of a ridge term.
+
+$$
+V_t = \lambda I + \sum_{s=1}^{t-1} x_{A_s} x_{A_s}^\top
+\tag{20}
+$$
+
+**Equation 21, Ridge Regression Estimate of the Linear Parameter.**
+The parameter estimate is the regularised least-squares solution from the features played and rewards received.
+
+$$
+\hat{\theta}_t = V_t^{-1} \sum_{s=1}^{t-1} x_{A_s} X_s
+\tag{21}
+$$
+
+**Equation 22, Regret of Linear Upper Confidence Bound Methods.**
+In the linear stochastic setting optimistic algorithms incur regret that scales with the feature dimension rather than the arm count.
+
+$$
+R_T = \mathcal{O}\!\left(d \sqrt{T} \log T\right)
+\tag{22}
+$$
+
+**Equation 23, Information-Theoretic Bayesian Regret Bound for Thompson Sampling.**
+The Bayesian regret of Thompson sampling is bounded by the square root of the horizon times the entropy of the prior over the optimal arm.
+[Russo and Van Roy 2014][research_russo_van_roy_2014]
+
+$$
+R_T^{\text{Bayes}} \leq \sqrt{\frac{1}{2} T H(A^*)}
+\tag{23}
+$$
+
+**Equation 24, Frequentist Regret of Linear Thompson Sampling.**
+Linear Thompson sampling matches the square-root dependence on the horizon of linear upper confidence bound methods with a worse dependence on dimension.
+[Agrawal and Goyal 2013][research_agrawal_goyal_2013]
+
+$$
+R_T = \tilde{\mathcal{O}}\!\left(d^{3/2} \sqrt{T}\right)
+\tag{24}
+$$
+
+**Equation 25, Importance-Weighted Reward Estimate.**
+Dividing the observed reward by the probability of the arm played gives an unbiased estimate of every arm's reward.
+[Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002]
+
+$$
+\hat{X}_t(a) = \frac{X_t \, \mathbb{1}\{A_t = a\}}{p_t(a)}
+\tag{25}
+$$
+
+**Equation 26, EXP3 Exponential Weight Update.**
+EXP3, the exponential-weight algorithm for exploration and exploitation, multiplies each arm's weight by the exponential of the learning rate times its estimated reward.
+[Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002]
+
+$$
+w_t(a) = w_{t-1}(a) \exp(\eta \hat{X}_t(a))
+\tag{26}
+$$
+
+**Equation 27, EXP3 Sampling Distribution with Uniform Mixing.**
+The probability of playing an arm mixes its normalised weight with a uniform distribution so that every arm keeps some chance of being explored.
+[Auer et al. 2002b][research_auer_cesa_bianchi_freund_schapire_2002]
+
+$$
+p_{t+1}(a) = (1 - \gamma) \frac{w_t(a)}{\sum_{a'} w_t(a')} + \frac{\gamma}{K}
+\tag{27}
+$$
+
+**Equation 28, Tuned EXP3 Learning Rate.**
+The learning rate that balances the terms of the EXP3 analysis scales as the square root of $\log K$ over $T K$.
+
+$$
+\eta = \sqrt{\frac{2 \log K}{T K}}
+\tag{28}
+$$
+
+**Equation 29, Regret Bound of EXP3.**
+With the tuned learning rate EXP3 incurs regret against any adversary of order the square root of $T K \log K$.
+
+$$
+R_T \leq 2 \sqrt{T K \log K}
+\tag{29}
+$$
+
+**Equation 30, Adversarial Regret Lower Bound.**
+Every algorithm suffers worst-case regret at least of order the square root of $T K$ against an adversary, so EXP3 is optimal up to a logarithmic factor.
+
+$$
+R_T = \Omega(\sqrt{T K})
+\tag{30}
+$$
+
+**Equation 31, Tsallis-INF Update.**
+Tsallis-INF plays the distribution on the simplex that minimises the estimated cumulative loss regularised by the Tsallis entropy of power one half.
+[Zimmert and Seldin 2019][research_zimmert_seldin_2019]
+
+$$
+x_{t+1} = \arg\min_{p \in \Delta_K} \left[ \langle p, \hat{L}_t \rangle - \eta \sum_a \sqrt{p_a} \right]
+\tag{31}
+$$
+
+**Equation 32, Stochastic Contextual Bandit Reward Model.**
+The reward is an unknown function of the context and the chosen arm plus zero-mean noise.
+
+$$
+X_t = f(x_t, A_t) + \eta_t
+\tag{32}
+$$
+
+**Equation 33, Regret of Policy-Class Contextual Bandit Algorithms.**
+Algorithms competing with a finite policy class incur regret that grows only logarithmically in the size of that class.
+[Beygelzimer et al. 2011][research_beygelzimer_et_al_2011]
+
+$$
+R_T = \mathcal{O}\left(\sqrt{T K \log |\Pi|}\right)
+\tag{33}
+$$
+
+**Equation 34, Linear Bandit Reward Model.**
+Each arm's mean reward is the inner product of an unknown parameter with a known feature vector of the arm.
+
+$$
+\mu_a = \theta^\top \phi(a)
+\tag{34}
+$$
+
+**Equation 35, Regret of Gaussian Process Upper Confidence Bound.**
+The Gaussian process upper confidence bound algorithm incurs regret governed by the maximum information gain of the kernel in place of the dimension.
+[Srinivas et al. 2009][research_srinivas_et_al_2010]
+
+$$
+R_T = \mathcal{O}\!\left(\sqrt{T \gamma_T \log T}\right)
+\tag{35}
+$$
+
+**Equation 36, Maximum Information Gain of a Kernel.**
+The maximum information gain is the largest mutual information between the function and any $T$ noisy observations, expressed through the log determinant of the Gram matrix.
+[Srinivas et al. 2009][research_srinivas_et_al_2010]
+
+$$
+\gamma_T = \max_{|S| \leq T} \frac{1}{2} \log \det(I + \sigma^{-2} K_S)
+\tag{36}
+$$
+
+**Equation 37, Regret of Combinatorial Bandits.**
+Combinatorial bandit algorithms incur regret that depends on the logarithm of the action set size rather than on the size itself.
+[Cesa-Bianchi and Lugosi 2012][research_cesa_bianchi_lugosi_2012]
+
+$$
+R_T = \mathcal{O}(m \sqrt{T \log |\mathcal{A}|})
+\tag{37}
+$$
+
+**Equation 38, Regret of the Zooming Algorithm for Lipschitz Bandits.**
+The zooming algorithm incurs regret whose exponent in the horizon rises from one half toward one as the zooming dimension grows.
+[Kleinberg et al. 2008][research_kleinberg_slivkins_upfal_2008]
+
+$$
+R_T = \tilde{\mathcal{O}}(T^{(d+1)/(d+2)})
+\tag{38}
+$$
+
+**Equation 39, Regret Under Delayed Feedback.**
+A black-box reduction adds to the undelayed regret a term proportional to the expected delay times the square root of the horizon.
+[Joulani et al. 2013][research_joulani_gyorgy_szepesvari_2013]
+
+$$
+R_T = \mathcal{O}(R_T^{\text{undelayed}} + \bar{D} \sqrt{T})
+\tag{39}
+$$
+
+**Equation 40, Regret with Graph-Structured Feedback.**
+With side observations along a feedback graph the arm count in the regret bound is replaced by the independence number of the graph.
+[Alon et al. 2013][research_alon_et_al_2013]
+
+$$
+R_T = \mathcal{O}(\sqrt{\alpha(G) T \log K})
+\tag{40}
+$$
+
+**Equation 41, One-Point Gradient Estimator.**
+A single function value at a randomly perturbed point, scaled by the dimension over the perturbation radius, gives an unbiased gradient of a smoothed loss.
+[Flaxman et al. 2004][research_flaxman_kalai_mcmahan_2005]
+
+$$
+\hat{g}_t = \frac{d}{\delta} f_t(x_t + \delta u) u
+\tag{41}
+$$
+
+**Equation 42, Regret of Bandit Gradient Descent.**
+Online gradient descent driven by the one-point estimator incurs regret of order the three-quarters power of the horizon for general convex losses.
+[Flaxman et al. 2004][research_flaxman_kalai_mcmahan_2005]
+
+$$
+R_T = \mathcal{O}(T^{3/4})
+\tag{42}
+$$
+
+**Equation 43, Successive Elimination Criterion.**
+An arm is discarded once its empirical mean falls below the best by more than twice a confidence radius chosen so that the optimal arm survives with probability $1 - \delta$.
+[Even-Dar et al. 2006][research_even_dar_mannor_mansour_2006]
+
+$$
+\hat{\mu}_{\max}(t) - \hat{\mu}_a(t) > 2 \sqrt{\frac{\log(4 K t^2 / \delta)}{N_a(t)}}
+\tag{43}
+$$
+
+**Equation 44, Fixed-Confidence Sample Complexity Lower Bound.**
+Any $\delta$-correct identification strategy needs an expected number of samples at least a characteristic time of the instance times $\log(1/\delta)$.
+[Garivier and Kaufmann 2016][research_garivier_kaufmann_2016]
+
+$$
+\mathbb{E}[\tau_\delta] \geq T^*(\mu) \log(1/\delta)
+\tag{44}
+$$
+
+**Equation 45, Sliding-Window Upper Confidence Bound.**
+Sliding-window UCB computes the empirical mean and confidence radius from only the most recent $\tau$ rounds so that it can track abrupt changes.
+[Garivier and Moulines 2011][research_garivier_moulines_2011]
+
+$$
+A_t = \arg\max_a \left[ \hat{\mu}_a^{\tau}(t) + \sqrt{\frac{\xi \log \min(t, \tau)}{N_a^{\tau}(t)}} \right]
+\tag{45}
+$$
+
+**Equation 46, Discounted Empirical Mean.**
+The discounted mean weights each past reward from an arm by the discount factor raised to its age.
+[Garivier and Moulines 2011][research_garivier_moulines_2011]
+
+$$
+\hat{\mu}_a^{\gamma}(t) = \frac{\sum_{s=1}^{t} \gamma^{t-s} \mathbb{1}\{A_s = a\} X_s}{\sum_{s=1}^{t} \gamma^{t-s} \mathbb{1}\{A_s = a\}}
+\tag{46}
+$$
+
+**Equation 47, Whittle Index.**
+The Whittle index of an arm in a state is the passive subsidy at which activating and resting the arm become equally attractive.
+[Whittle 1988][research_whittle_1988]
+
+$$
+W_a(x) = \inf\{ \lambda : \text{it is optimal to activate arm } a \text{ in state } x \text{ under passive-arm subsidy } \lambda \}
+\tag{47}
+$$
+
+**Equation 48, Hedge Multiplicative Weight Update.**
+Hedge multiplies each expert's weight by the exponential of minus the learning rate times that expert's loss.
+[Freund and Schapire 1997][research_freund_schapire_1997]
+
+$$
+w_{t+1}(a) = w_t(a) \exp(-\eta L_t(a))
+\tag{48}
+$$
+
+**Equation 49, Regret Bound of Hedge.**
+With full information Hedge incurs regret against the best of $N$ experts of order the square root of $T \log N$.
+[Freund and Schapire 1997][research_freund_schapire_1997]
+
+$$
+R_T \leq \sqrt{2 T \log N}
+\tag{49}
+$$
+
+**Equation 50, Projected Online Gradient Descent.**
+Online gradient descent takes a gradient step on the current loss and projects the result back onto the feasible convex set.
+[Zinkevich 2003][research_zinkevich_2003]
+
+$$
+x_{t+1} = \Pi_{\mathcal{K}}\!\left[x_t - \eta \nabla f_t(x_t)\right]
+\tag{50}
+$$
+
+**Equation 51, Regret Bound of Online Gradient Descent.**
+Online gradient descent incurs regret at most a term in the squared diameter over the step size plus a term in the squared gradient bound times the step size and horizon.
+[Zinkevich 2003][research_zinkevich_2003]
+
+$$
+R_T \leq \frac{D^2}{2 \eta} + \frac{\eta G^2 T}{2}
+\tag{51}
+$$
+
+**Equation 52, Follow the Regularised Leader.**
+Follow the regularised leader plays the point minimising the cumulative past loss plus a strongly convex regulariser scaled by the inverse learning rate.
+
+$$
+x_{t+1} = \arg\min_{x \in \mathcal{K}} \left[ \sum_{s=1}^{t} f_s(x) + \frac{1}{\eta} R(x) \right]
+\tag{52}
+$$
+
+### Notation
+
+- $K$, the number of arms
+- $T$, the horizon, the number of rounds
+- $X_t$, the reward received at round $t$
+- $A_t$, the arm played at round $t$
+- $\mu^*$, the mean reward of the optimal arm
+- $\mu_a$, the mean reward of arm $a$
+- $\Delta_a$, the suboptimality gap of arm $a$
+- $N_a(T)$, the number of times arm $a$ has been played by round $T$
+- $\hat{\mu}_a$, the empirical mean reward of arm $a$
+- $R_T$, the cumulative regret over horizon $T$
+- $\text{KL}$, the Kullback-Leibler divergence
+- $\nu_a$, the reward distribution of arm $a$
+- $x_a$, the feature vector of arm $a$ in a linear bandit
+- $V_t$, the ridge-regularised design matrix in a linear bandit
+- $\hat{\theta}_t$, the ridge regression estimate of the linear parameter
+- $H(A^*)$, the entropy of the prior over the optimal arm
+- $p_t(a)$, the probability of playing arm $a$ at round $t$
+- $w_t(a)$, the exponential weight of arm or expert $a$
+- $\eta$, the learning rate, except in equation 32, where $\eta_t$ is zero-mean reward noise
+- $\gamma$, the uniform mixing parameter of EXP3 in equation 27 and the discount factor in equation 46
+- $\gamma_T$, the maximum information gain of a kernel after $T$ observations
+- $\alpha(G)$, the independence number of the feedback graph
+- $\bar{D}$, the expected feedback delay
+- $T^*(\mu)$, the characteristic time of a best-arm identification instance
+- $\Pi_{\mathcal{K}}$, the Euclidean projection onto the feasible convex set
+- $W_a(x)$, the Whittle index of arm $a$ in state $x$
 
 ## References
 

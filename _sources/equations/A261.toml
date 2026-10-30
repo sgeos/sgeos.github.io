@@ -1,0 +1,419 @@
+# Equation classification for A261. Read by `python3 _lib/equations.py`.
+
+caution = "Fitness is dimensionless or in the arbitrary units of the problem at hand, and the letter $F$ carries several meanings, standing for fitness throughout but for the Fisher information matrix in the natural gradient and for the scale factor in differential evolution, so each use takes its meaning from the equation in which it appears."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Population at a Generation"
+gloss = "The population at generation $t$ is a finite set of candidate solutions drawn from the solution space."
+cite = []
+digest = "c642a9b5f1d9e4ff"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Generic Evolutionary Update"
+gloss = "The article composes selection, recombination, mutation and replacement operators into a single schematic update that produces $\\lambda$ offspring per generation, a template that particular algorithms instantiate."
+cite = []
+digest = "eb0d4537fea655dd"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Fitness Proportionate Selection"
+gloss = "Each individual is selected with probability equal to its fitness divided by the total fitness of the population."
+cite = ["book_holland_1975"]
+digest = "8d6a64b4347729d3"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Schema Theorem"
+gloss = "Holland's schema theorem bounds from below the expected number of instances of a schema in the next generation by its fitness ratio less the disruption due to crossover and mutation."
+cite = ["book_holland_1975"]
+digest = "03923082106d3ec9"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "One Plus One Evolution Strategy"
+gloss = "The single parent is replaced by a Gaussian perturbation of itself only when the perturbation has higher fitness."
+cite = ["research_rechenberg_1973"]
+digest = "6bfdc248e1063479"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "One Fifth Success Rule"
+gloss = "Rechenberg's rule enlarges the step size when more than one fifth of recent offspring succeed and shrinks it when fewer do."
+cite = ["research_rechenberg_1973"]
+digest = "3b97e1f4ce7c8cd9"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Covariance Matrix Adaptation Sampling"
+gloss = "The Covariance Matrix Adaptation Evolution Strategy draws each offspring from a multivariate normal distribution about the mean with step size $\\sigma$ and covariance $C$."
+cite = ["research_hansen_ostermeier_2001_cmaes"]
+digest = "d5bb5142d1af549f"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Rank Mu Covariance Update"
+gloss = "The rank-$\\mu$ update blends the old covariance with a weighted sum of outer products of the best normalised search steps."
+cite = ["research_hansen_2016_cmaes_tutorial"]
+digest = "81a351fd291c5fdd"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Search Gradient by the Log Likelihood Trick"
+gloss = "The gradient of expected fitness under a search distribution equals the expected fitness times the gradient of the log density, which admits Monte Carlo estimation."
+cite = ["research_wierstra_et_al_2014_nes"]
+digest = "63da2293073a47df"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Natural Search Gradient"
+gloss = "Natural Evolution Strategies precondition the search gradient with the inverse Fisher information matrix of the search distribution."
+cite = ["research_wierstra_et_al_2014_nes"]
+digest = "abce1dba919a16c2"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Isotropic Gaussian Evolution Strategy Gradient Estimate"
+gloss = "The gradient of the Gaussian-smoothed fitness is estimated as a fitness-weighted sum of the sampled perturbations divided by the population size and the noise scale."
+cite = ["research_salimans_et_al_2017_es"]
+digest = "3255c4ccf432f96e"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Particle Swarm Velocity Update"
+gloss = "Each particle's new velocity combines inertia with random attractions towards its own best position and the swarm's best position."
+cite = ["research_kennedy_eberhart_1995_pso"]
+digest = "6b90e98c1cf497de"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Differential Evolution Mutation"
+gloss = "Differential evolution forms a mutant vector by adding to one random member the scaled difference of two others."
+cite = ["research_storn_price_1997_de"]
+digest = "64deffe1bde52dbc"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Compatibility Distance of NeuroEvolution of Augmenting Topologies"
+gloss = "NeuroEvolution of Augmenting Topologies measures the distance between two genomes as weighted counts of excess and disjoint genes, normalised by genome size, plus the weighted mean weight difference of matching genes."
+cite = ["research_stanley_miikkulainen_2002_neat"]
+digest = "ffb599696d38aec0"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Explicit Fitness Sharing"
+gloss = "Each individual's fitness is divided by the number of individuals within the compatibility threshold of it, which is the size of its species."
+cite = ["research_stanley_miikkulainen_2002_neat"]
+digest = "b0dce16b0b7cc337"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Compositional Pattern Producing Network Weight"
+gloss = "HyperNEAT obtains each connection weight by querying a Compositional Pattern-Producing Network with the coordinates of the two endpoints."
+cite = ["research_stanley_dambrosio_gauci_2009_hyperneat"]
+digest = "a7d9d99d8f99b017"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Novelty Score"
+gloss = "Novelty search scores a candidate by the mean behavioural distance to its $k$ nearest neighbours in the archive."
+cite = ["research_lehman_stanley_2011_abandoning"]
+digest = "dc541d31440cd7dd"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Linear Blend of Novelty and Fitness"
+gloss = "The article combines novelty and fitness as a convex linear blend with a single weight $w$, one of several ways the literature mixes the two objectives."
+cite = []
+digest = "22eace2f2d4c4a36"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Elite of a Behavioural Cell"
+gloss = "MAP-Elites keeps in each cell of the discretised behaviour space the fittest candidate found with that descriptor."
+cite = ["research_mouret_clune_2015_mapelites"]
+digest = "7b4ed5661ff15746"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Quality Diversity Score"
+gloss = "The quality diversity score of an archive is the sum of elite fitness over all filled cells, so it rewards both coverage and quality."
+cite = ["research_pugh_soros_stanley_2016_qd"]
+digest = "3f3514c94bcae1b7"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Pareto Set"
+gloss = "The Pareto set comprises every solution that no other solution Pareto-dominates."
+cite = []
+digest = "7a925090d98b0753"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Non-Dominated Fronts"
+gloss = "The Non-dominated Sorting Genetic Algorithm II defines the first front as the non-dominated members of the population and each later front as the non-dominated members of what remains."
+cite = ["research_deb_et_al_2002_nsga2"]
+digest = "b080a8c2d55f3426"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Regret Maximising Environment Design"
+gloss = "Protagonist Antagonist Induced Regret Environment Design chooses environment parameters that maximise the antagonist's return less the protagonist's return."
+cite = ["research_dennis_et_al_2020_paired_a261"]
+digest = "6515a3fd5ab8c90d"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Competitive Coevolutionary Fitness"
+gloss = "In competitive coevolution an individual's fitness is its expected payoff against members of the opposing population."
+cite = []
+digest = "c1a99a0d20737d46"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Joint Fitness of Cooperative Coevolution"
+gloss = "The article writes cooperative coevolution as scoring one component from each sub-population through a joint fitness of their concatenation, a schematic that leaves out how collaborators are chosen."
+cite = ["research_potter_dejong_2000"]
+digest = "de7732257697809c"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Pareto Dominance"
+gloss = "One solution Pareto-dominates another when it is at least as good in every objective and strictly better in at least one."
+cite = ["research_ficici_pollack_2001_pareto"]
+digest = "58aa738ba3f54952"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Differentiable Architecture Search Mixed Operation"
+gloss = "Differentiable Architecture Search replaces the choice of one operation by a softmax-weighted mixture of all candidate operations."
+cite = ["research_liu_simonyan_yang_2019_darts"]
+digest = "3a1050fd9d58df88"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Bilevel Architecture Objective"
+gloss = "The architecture parameters minimise the validation loss of the weights that minimise the training loss for that architecture."
+cite = ["research_liu_simonyan_yang_2019_darts"]
+digest = "14c9df6e78969393"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Compound Scaling Rule"
+gloss = "EfficientNet scales depth, width and resolution as powers of a single coefficient under a constraint that roughly doubles the computation per unit increase in that coefficient."
+cite = ["research_tan_le_2019_efficientnet"]
+digest = "886f1c229a8c5248"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Shared Replay Buffer"
+gloss = "Evolutionary Reinforcement Learning pools the transitions experienced by every member of the population into one replay buffer."
+cite = ["research_khadka_tumer_2018_erl"]
+digest = "d84539ccb9c64889"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Cross Entropy Method Update"
+gloss = "The cross entropy method refits the Gaussian search distribution to the mean and covariance of the $k$ best samples."
+cite = ["research_pourchot_sigaud_2019_cemrl"]
+digest = "7d5a0107d5ce5bc6"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Language Model Variation Operator"
+gloss = "The article formalises Evolution through Large Models as sampling an offspring from a language model conditioned on a prompt built from the selected parents, a schematic of an operator the source describes procedurally."
+cite = ["research_lehman_et_al_2023_elm"]
+digest = "d9f440ce9217af4c"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Replicator Equation"
+gloss = "The frequency of each strategy grows at a rate proportional to its frequency and to the amount by which its fitness exceeds the population mean."
+cite = []
+digest = "27940b20999cc6ef"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "No Free Lunch Theorem"
+gloss = "Summed over all objective functions, the probability of any performance sequence after $m$ evaluations is the same for every pair of algorithms."
+cite = ["research_wolpert_macready_1997_nfl"]
+digest = "444c2424f8005b3b"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "NK Landscape Fitness"
+gloss = "The fitness of a genotype in Kauffman's NK model is the mean over $N$ loci of random contributions that each depend on the locus and $K$ epistatic neighbours."
+cite = ["book_kauffman_1993"]
+digest = "44b38a967dfb9340"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Price Equation"
+gloss = "The Price equation splits the change in a trait mean, scaled by mean fitness, into the covariance of fitness with the trait and the fitness-weighted change in the trait during transmission."
+cite = ["research_price_1970"]
+digest = "8196ce0ee78ccb33"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Fundamental Theorem of Natural Selection"
+gloss = "Fisher's theorem equates the change in mean fitness per generation to the additive genetic variance in fitness divided by the mean fitness."
+cite = ["book_fisher_1930"]
+digest = "9e77a9d23d43b67c"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Baldwin Smoothed Fitness"
+gloss = "The article defines the fitness of a genotype as the expected fitness of the phenotypes that a lifetime learning budget of $T$ steps can reach from it, a formalisation of the Baldwin effect it constructs."
+cite = []
+digest = "d862a69e44be2a3c"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Canalisation Function"
+gloss = "The article expresses Waddington's canalisation as the direct phenotype map plus a pull towards the attractor of whichever basin the phenotype falls in, a construction of its own that Waddington stated only pictorially."
+cite = []
+digest = "1de88e127958397f"
+
+[[symbol]]
+tex = '\mathcal{P}_t'
+meaning = "the population at generation $t$"
+
+[[symbol]]
+tex = '\mathcal{X}'
+meaning = "the solution space"
+
+[[symbol]]
+tex = 'F(x)'
+meaning = "the fitness of candidate $x$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the number of offspring per generation"
+
+[[symbol]]
+tex = 'm(H, t)'
+meaning = "the number of instances of schema $H$ at generation $t$"
+
+[[symbol]]
+tex = '\bar{f}'
+meaning = "the mean fitness of the population"
+
+[[symbol]]
+tex = 'p_c'
+meaning = "the crossover rate"
+
+[[symbol]]
+tex = 'p_m'
+meaning = "the mutation rate"
+
+[[symbol]]
+tex = 'p_s'
+meaning = "the recent success rate of proposed offspring"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the mutation step size"
+
+[[symbol]]
+tex = 'C'
+meaning = "the covariance matrix of the search distribution"
+
+[[symbol]]
+tex = 'c_\mu'
+meaning = "the learning rate of the rank-$\\mu$ covariance update"
+
+[[symbol]]
+tex = 'w_i'
+meaning = "the recombination weights in the covariance update, and the fitness of individual $i$ in the Price equation"
+
+[[symbol]]
+tex = 'F(\theta)'
+meaning = "the Fisher information matrix of the search distribution"
+
+[[symbol]]
+tex = '\omega'
+meaning = "the inertia weight of particle swarm optimisation"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the compatibility distance between two genomes"
+
+[[symbol]]
+tex = '\rho(x)'
+meaning = "the novelty of candidate $x$"
+
+[[symbol]]
+tex = 'b(x)'
+meaning = "the behavioural descriptor of candidate $x$"
+
+[[symbol]]
+tex = '\mathcal{E}'
+meaning = "the elite archive of MAP-Elites"
+
+[[symbol]]
+tex = '\succ_{\text{Pareto}}'
+meaning = "the Pareto dominance relation"
+
+[[symbol]]
+tex = 'U(x, y)'
+meaning = "the payoff of $x$ against $y$"
+
+[[symbol]]
+tex = '\alpha_o'
+meaning = "the architecture mixing weight of candidate operation $o$"
+
+[[symbol]]
+tex = '\bar{z}'
+meaning = "the population mean of trait $z$"
+
+[[symbol]]
+tex = '\bar{w}'
+meaning = "the population mean fitness"
+
+[[symbol]]
+tex = '\sigma^2_A(w)'
+meaning = "the additive genetic variance in fitness"
+
+[[symbol]]
+tex = '\text{Learn}_T(g)'
+meaning = "the distribution of phenotypes reachable from genotype $g$ in $T$ steps of lifetime learning"

@@ -1,0 +1,375 @@
+# Equation classification for A257. Read by `python3 _lib/equations.py`.
+
+caution = "Occupancy measures, importance ratios and concentrability coefficients are dimensionless, values and returns carry the units of the reward signal, and $N$ counts transitions in some equations and trajectories in others, so a sample complexity bound must be read with the unit of $N$ that its source uses."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Offline Dataset"
+gloss = "Offline reinforcement learning receives a fixed set of transitions collected beforehand by a behaviour policy."
+cite = ["research_levine_et_al_2020"]
+digest = "9c27eb7e71d598be"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Discounted State-Action Occupancy"
+gloss = "The normalised discounted occupancy gives how often a policy visits each state-action pair, weighted by the discount."
+cite = []
+digest = "86a94713091a34d5"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Occupancy Ratio"
+gloss = "The ratio of the target policy's occupancy to the behaviour occupancy measures distributional shift and is unbounded where the data do not cover the target policy."
+cite = []
+digest = "c9be1dafccef970b"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Q-Learning Target"
+gloss = "The bootstrapped target maximises over next actions, including actions the dataset may never contain."
+cite = []
+digest = "0d8592406ffc7917"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Lower Bound on Maximisation Bias"
+gloss = "The article states that the expected maximum of noisy action values exceeds the true maximum by at least a multiple of the noise scale that grows with the action count, which holds only under its assumption of zero-mean noise of equal variance at every action."
+cite = []
+digest = "c367182d8507a036"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Behaviour Cloning Loss"
+gloss = "Behaviour cloning maximises the log likelihood of the dataset actions under the learned policy."
+cite = []
+digest = "4994a5aeea049085"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Advantage-Weighted Regression Loss"
+gloss = "Advantage-weighted regression weights each behaviour cloning term by the exponential of the action's advantage over a temperature."
+cite = ["research_peng_kumar_zhang_levine_2019"]
+digest = "d44e45f51b91d476"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Trajectory Importance Sampling Estimator"
+gloss = "The estimator averages each trajectory's return weighted by its full importance ratio."
+cite = ["research_precup_sutton_singh_2000_offline"]
+digest = "c3e72049dc7cff01"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Trajectory Importance Sampling Ratio"
+gloss = "The ratio of target to behaviour policy probabilities is multiplied over the actions of a trajectory of length $T$."
+cite = ["research_precup_sutton_singh_2000_offline"]
+digest = "1975798f246d970e"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Per-Decision Importance Sampling Estimator"
+gloss = "Each reward is weighted only by the importance ratio of the actions up to and including the one that produced it."
+cite = ["research_precup_sutton_singh_2000_offline"]
+digest = "6f38fb3782a5e3a1"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Weighted Importance Sampling Estimator"
+gloss = "Weighted importance sampling normalises the reweighted returns by the sum of the ratios, which introduces bias but usually reduces variance."
+cite = []
+digest = "e8fd4b65fa35a88f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Doubly Robust Off-Policy Estimator"
+gloss = "The doubly robust estimator combines importance-weighted rewards with a learned value baseline so that it remains unbiased if either the ratios or the baseline is correct."
+cite = ["research_jiang_li_2016_offline", "research_thomas_brunskill_2016"]
+digest = "806407e9dedc8458"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "DualDICE Saddle-Point Objective"
+gloss = "Distribution correction estimation, abbreviated DICE, recovers the occupancy ratio as the solution of a saddle-point problem that uses only the dataset and samples from the initial distribution."
+cite = ["research_nachum_et_al_2019_dualdice"]
+digest = "59824c1f3c462742"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Fitted Q Evaluation Backup"
+gloss = "Each iteration regresses the action value onto the reward plus the discounted expected value of the previous estimate under the target policy at the next state."
+cite = ["research_le_voloshin_yue_2019"]
+digest = "841a7154daf2b2a9"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Behaviour-Regularised Policy Objective"
+gloss = "The policy maximises its expected action value less a multiple of its divergence from the behaviour policy."
+cite = ["research_wu_tucker_nachum_2019"]
+digest = "007ab6b069e794f3"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Squared Maximum Mean Discrepancy"
+gloss = "The squared maximum mean discrepancy between two action distributions is written with kernel expectations within and across the two distributions."
+cite = ["research_kumar_et_al_2019_bear"]
+digest = "6f4991599e910e10"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "TD3 Plus Behaviour Cloning Objective"
+gloss = "The deterministic actor maximises its action value less a weighted squared distance from the dataset action."
+cite = ["research_fujimoto_gu_2021"]
+digest = "dd79dd3fb4339a96"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Advantage-Weighted Optimal Policy"
+gloss = "The solution of the divergence-constrained improvement problem is the behaviour policy reweighted by the exponentiated advantage."
+cite = ["research_nair_et_al_2020_awac"]
+digest = "41307c8d8c1600af"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Advantage-Weighted Actor-Critic Gradient"
+gloss = "The policy gradient is the behaviour cloning gradient with each dataset action weighted by its exponentiated advantage."
+cite = ["research_nair_et_al_2020_awac"]
+digest = "cf0f359b4ac32fd8"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Implicit Q-Learning Value Loss"
+gloss = "Implicit Q-learning fits the state value by expectile regression on target action values, approximating a maximum over dataset actions."
+cite = ["research_kostrikov_nair_levine_2022"]
+digest = "af3e0048b66dcd6c"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Implicit Q-Learning Action-Value Loss"
+gloss = "The action value regresses onto the reward plus the discounted fitted state value, so no out-of-distribution action is queried."
+cite = ["research_kostrikov_nair_levine_2022"]
+digest = "524e3298bbbeaf20"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Conservative Q-Learning Objective"
+gloss = "Conservative Q-learning adds to the Bellman error a penalty equal to the soft maximum of the action values less their mean over dataset actions."
+cite = ["research_kumar_zhou_tucker_levine_2020"]
+digest = "b45250f1ab2e4d04"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Conservative Value Lower Bound"
+gloss = "In the tabular setting the policy-averaged conservative action value does not exceed the corresponding true value."
+cite = ["research_kumar_zhou_tucker_levine_2020"]
+digest = "a45ae58086ed53df"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Ensemble Minimum Target"
+gloss = "The target takes the minimum over an ensemble of $N$ action-value networks, which yields pessimism that grows with their disagreement."
+cite = ["research_an_et_al_2021"]
+digest = "4dce40e6534e5744"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Ensemble Gradient Diversity Penalty"
+gloss = "The ensemble-diversified actor-critic adds a penalty on the pairwise cosine similarity of the members' action gradients."
+cite = ["research_an_et_al_2021"]
+digest = "79ad8be52b34363c"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Lower Confidence Bound Action Value"
+gloss = "The pessimistic action value subtracts a multiple of the epistemic uncertainty from the estimate."
+cite = ["research_rashidinejad_et_al_2021"]
+digest = "e270fbab4496cb25"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Return-Conditioned Policy"
+gloss = "Decision Transformer conditions each action on a recent window of states, actions and returns-to-go."
+cite = ["research_chen_et_al_2021_dt"]
+digest = "51bc06d994ad5214"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Decision Transformer Loss"
+gloss = "The model is trained by maximising the log likelihood of dataset actions under that conditioning."
+cite = ["research_chen_et_al_2021_dt"]
+digest = "df95768fc1ec5a0f"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Forward Diffusion Step"
+gloss = "Each forward step shrinks the trajectory by $\\sqrt{1 - \\beta_k}$ and adds Gaussian noise of variance $\\beta_k$."
+cite = ["research_ho_jain_abbeel_2020_ddpm"]
+digest = "b19f55eb4dabc0cb"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Learned Reverse Diffusion Step"
+gloss = "A network predicts the mean and covariance of the Gaussian that removes one step of noise."
+cite = ["research_janner_du_song_2022"]
+digest = "edb3775aeb8261f4"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Guided Reverse Mean"
+gloss = "Guidance shifts the reverse mean along the gradient of a return signal scaled by the reverse covariance."
+cite = ["research_janner_du_song_2022"]
+digest = "132b32df31b7165e"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Uncertainty-Penalised Reward"
+gloss = "Model-based offline policy optimisation subtracts from the model reward a multiple of the ensemble uncertainty."
+cite = ["research_yu_et_al_2020_mopo"]
+digest = "99c0e7d1537f84b4"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Calibration Penalty for Conservative Q-Learning"
+gloss = "The article renders the calibration of Cal-QL as a squared penalty on any shortfall of the action value below the behaviour value, a form of its own rather than the cited method's substitution inside the conservative penalty."
+cite = ["research_nakamoto_et_al_2023"]
+digest = "92c783c1e5bb83e9"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Suboptimality Bound of Pessimistic Offline Learning"
+gloss = "Pessimistic offline algorithms return a policy whose suboptimality shrinks as the square root of the concentrability coefficient over the dataset size, with a polynomial dependence on the horizon."
+cite = ["research_rashidinejad_et_al_2021", "research_jin_yang_wang_2021"]
+digest = "f4c155744178ef06"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Single-Policy Concentrability Coefficient"
+gloss = "The coefficient is the largest ratio of the optimal policy's occupancy to the behaviour occupancy."
+cite = ["research_rashidinejad_et_al_2021"]
+digest = "557ae4b80a27fe9f"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Averaged Concentrability Coefficient"
+gloss = "Averaging the occupancy ratio under the optimal policy's occupancy gives a weaker coverage measure than its maximum."
+cite = []
+digest = "326b047150f48d8d"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "All-Policy Concentrability Coefficient"
+gloss = "All-policy concentrability takes the largest occupancy ratio over every policy, which the data must bound for algorithms without pessimism."
+cite = []
+digest = "facc907765d7fa20"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Bradley-Terry Trajectory Preference Loss"
+gloss = "The reward model minimises the cross-entropy of observed trajectory preferences under a logistic model of summed predicted rewards."
+cite = ["research_christiano_et_al_2017_rlhf"]
+digest = "6864ef4c2fd45f16"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Constrained Policy Optimisation Problem"
+gloss = "The policy maximises expected return subject to each expected constraint cost staying below its threshold."
+cite = ["research_le_voloshin_yue_2019_constraints"]
+digest = "46aee4bdadcc54fe"
+
+[[symbol]]
+tex = '\mathcal{D}'
+meaning = "the fixed offline dataset"
+
+[[symbol]]
+tex = 'd^\pi(s, a)'
+meaning = "the normalised discounted state-action occupancy of policy $\\pi$"
+
+[[symbol]]
+tex = 'd^\mu(s, a)'
+meaning = "the occupancy of the behaviour policy"
+
+[[symbol]]
+tex = 'w(s, a)'
+meaning = "the occupancy ratio"
+
+[[symbol]]
+tex = '\rho_{0:T-1}'
+meaning = "the trajectory importance sampling ratio"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the advantage temperature in equations 7, 18 and 19, the pessimism scale in equation 26 and, as $\\beta_k$, the diffusion noise schedule"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the strength of behaviour regularisation or of the conservative penalty"
+
+[[symbol]]
+tex = "k(a, a')"
+meaning = "the kernel of the maximum mean discrepancy"
+
+[[symbol]]
+tex = 'L_2^\tau'
+meaning = "the expectile loss at level $\\tau$"
+
+[[symbol]]
+tex = '\hat{\sigma}(s, a)'
+meaning = "the epistemic uncertainty estimate"
+
+[[symbol]]
+tex = '\tau^{(k)}'
+meaning = "the trajectory after $k$ diffusion steps"
+
+[[symbol]]
+tex = 'u(s, a)'
+meaning = "the ensemble uncertainty estimate"
+
+[[symbol]]
+tex = 'C^*'
+meaning = "the single-policy concentrability coefficient"
+
+[[symbol]]
+tex = 'H'
+meaning = "the episode horizon"
+
+[[symbol]]
+tex = 'J_{c_i}(\pi)'
+meaning = "the expected cost of constraint $i$, with $d_i$ its threshold"

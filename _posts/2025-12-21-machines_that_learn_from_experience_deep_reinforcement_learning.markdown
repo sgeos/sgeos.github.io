@@ -31,7 +31,10 @@ In deep Q-learning, the action-value function is represented as $Q_\theta(s, a) 
 
 The Deep Q-Network algorithm was introduced in the [Mnih et al. 2013][research_mnih_et_al_2013] NIPS Deep Learning workshop paper and extended into the [Mnih et al. 2015][research_mnih_et_al_2015] Nature paper that provided the canonical demonstration that Q-learning with neural function approximation could reach human-level performance on Atari games from raw pixel input. The DQN loss function is the mean squared error between the network's Q-value estimate and the bootstrapped target,
 
-$$L(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[\left(r + \gamma \max_{a'} Q_{\theta^{-}}(s', a') - Q_\theta(s, a)\right)^2\right]$$
+$$
+L(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[\left(r + \gamma \max_{a'} Q_{\theta^{-}}(s', a') - Q_\theta(s, a)\right)^2\right]
+\tag{1}
+$$
 
 where $\mathcal{D}$ is the experience replay buffer, $\theta$ are the online network parameters, and $\theta^{-}$ are the target network parameters that are held fixed and periodically copied from $\theta$.
 
@@ -45,29 +48,44 @@ Empirical results on the fifty-seven-game Arcade Learning Environment of [Bellem
 
 Successive papers refined DQN along several dimensions. Double DQN of [van Hasselt et al. 2016][research_van_hasselt_guez_silver_2016] extends the tabular double Q-learning idea to the neural setting. The bootstrapped target uses the online network for action selection but the target network for value evaluation,
 
-$$y_t = r_{t+1} + \gamma Q_{\theta^{-}}(s_{t+1}, \arg\max_{a'} Q_\theta(s_{t+1}, a'))$$
+$$
+y_t = r_{t+1} + \gamma Q_{\theta^{-}}(s_{t+1}, \arg\max_{a'} Q_\theta(s_{t+1}, a'))
+\tag{2}
+$$
 
 reducing the overestimation bias that plagues single-network Q-learning under function approximation.
 
 Dueling DQN of [Wang et al. 2016][research_wang_et_al_2016] factors the network into two streams that separately estimate the state value and the action advantage,
 
-$$Q_\theta(s, a) = V_\theta(s) + \left(A_\theta(s, a) - \frac{1}{|\mathcal{A}|} \sum_{a'} A_\theta(s, a')\right)$$
+$$
+Q_\theta(s, a) = V_\theta(s) + \left(A_\theta(s, a) - \frac{1}{|\mathcal{A}|} \sum_{a'} A_\theta(s, a')\right)
+\tag{3}
+$$
 
 where the advantage stream subtracts its mean to identify $V$ and $A$ up to a constant. The factorization improves learning efficiency in states where action choice matters little.
 
 Prioritized experience replay of [Schaul et al. 2015][research_schaul_et_al_2016] samples transitions from the buffer with sampling probability
 
-$$P(i) = \frac{p_i^\alpha}{\sum_j p_j^\alpha}$$
+$$
+P(i) = \frac{p_i^\alpha}{\sum_j p_j^\alpha}
+\tag{4}
+$$
 
 where $p_i = \lvert \delta_i \rvert + \epsilon$ is the priority derived from the transition's absolute TD error and $\alpha \in [0, 1]$ controls the degree of prioritization. To correct for the sampling bias introduced by prioritization, gradient updates are weighted by importance-sampling weights
 
-$$w_i = \left(\frac{1}{N \cdot P(i)}\right)^\beta$$
+$$
+w_i = \left(\frac{1}{N \cdot P(i)}\right)^\beta
+\tag{5}
+$$
 
 with $\beta$ annealed from an initial value to 1 over training. Prioritization focuses learning on the transitions where the current value estimate is most wrong and yields substantial sample efficiency improvements.
 
 Noisy networks of [Fortunato et al. 2018][research_fortunato_et_al_2018] replace $\epsilon$-greedy exploration with parametric noise added to network weights. A noisy linear layer with weight $W$ and bias $b$ is replaced by
 
-$$y = (W_\mu + W_\sigma \odot \epsilon_W) x + (b_\mu + b_\sigma \odot \epsilon_b)$$
+$$
+y = (W_\mu + W_\sigma \odot \epsilon_W) x + (b_\mu + b_\sigma \odot \epsilon_b)
+\tag{6}
+$$
 
 where $\epsilon_W, \epsilon_b$ are noise samples drawn independently or according to a factorized scheme, and $W_\sigma, b_\sigma$ are learned noise-magnitude parameters. The mechanism provides state-dependent exploration that adapts as the network learns.
 
@@ -79,19 +97,28 @@ Rainbow of [Hessel et al. 2018][research_hessel_et_al_2018] combined double, due
 
 Distributional reinforcement learning treated in article three admits a natural deep-network implementation. The C51 algorithm of [Bellemare et al. 2017][research_bellemare_dabney_munos_2017] represents the return distribution $Z_\theta(s, a)$ as a categorical distribution over 51 atoms uniformly spaced in a fixed reward range, and the network outputs a probability vector over these atoms for each action. The distributional Bellman target is computed by projecting the shifted-and-scaled distribution back onto the fixed support, and the loss is the KL divergence between predicted and target distributions,
 
-$$L(\theta) = \mathbb{E}_{(s, a, r, s')}\!\left[D_{\text{KL}}\!\left(\Phi \mathcal{T} Z_{\theta^{-}}(s', a^*) \,\|\, Z_\theta(s, a)\right)\right]$$
+$$
+L(\theta) = \mathbb{E}_{(s, a, r, s')}\!\left[D_{\text{KL}}\!\left(\Phi \mathcal{T} Z_{\theta^{-}}(s', a^*) \,\|\, Z_\theta(s, a)\right)\right]
+\tag{7}
+$$
 
 where $\Phi$ is the projection operator, $\mathcal{T}$ the distributional Bellman operator, and $a^\* = \arg\max_{a'} \mathbb{E}[Z_\theta(s', a')]$.
 
 Quantile Regression DQN of [Dabney et al. 2018a][research_dabney_rowland_bellemare_munos_2018] represents the return distribution by its quantiles rather than a fixed categorical support. For $N$ quantiles at fixed levels $\tau_i = (2i - 1) / 2N$, the network outputs quantile values $\{Z^i_\theta(s, a)\}$ and the quantile regression loss is
 
-$$L^{\text{QR}}(\theta) = \sum_i \sum_j \mathbb{E}\!\left[\rho_{\tau_i}(y_j - Z^i_\theta(s, a))\right]$$
+$$
+L^{\text{QR}}(\theta) = \sum_i \sum_j \mathbb{E}\!\left[\rho_{\tau_i}(y_j - Z^i_\theta(s, a))\right]
+\tag{8}
+$$
 
 where $y_j$ are the target quantile values and $\rho_\tau(u) = u(\tau - \mathbb{1}\{u < 0\})$ is the quantile Huber loss.
 
 Implicit Quantile Networks of [Dabney et al. 2018b][research_dabney_ostrovski_silver_munos_2018] generalize QR-DQN to arbitrary continuous quantile levels sampled at each update. The IQN network parameterizes a quantile function
 
-$$Z_\tau(s, a) = f_\theta(\psi(s), \phi(\tau))_a$$
+$$
+Z_\tau(s, a) = f_\theta(\psi(s), \phi(\tau))_a
+\tag{9}
+$$
 
 where $\psi(s)$ is a state encoding, $\phi(\tau)$ is a Fourier or trigonometric embedding of the quantile level $\tau \in [0, 1]$, and the combined output produces the corresponding quantile value. The formulation provides a flexible representation of the return distribution and enables risk-sensitive objectives that require quantile queries at levels other than the fixed set of QR-DQN.
 
@@ -103,7 +130,10 @@ Partial observability requires state representation that captures relevant histo
 
 Belief-state maintenance provides the theoretical interpretation. If the agent maintains a sufficient statistic of history equivalent to the belief state
 
-$$b_t(s) = P(s_t = s \mid o_{1:t}, a_{1:t-1})$$
+$$
+b_t(s) = P(s_t = s \mid o_{1:t}, a_{1:t-1})
+\tag{10}
+$$
 
 then the resulting sufficient-statistic-conditioned policy is equivalent to a POMDP-optimal policy. Learned recurrent representations approximate this ideal without the intractable Bayesian filtering that exact belief-state computation would require.
 
@@ -115,7 +145,10 @@ Auxiliary loss functions provide additional training signal beyond the main rein
 
 Self-predictive representations of [Schwarzer et al. 2021][research_schwarzer_et_al_2021] and its successors use a self-supervised objective that predicts future latent states from current representation and actions,
 
-$$L_{\text{SPR}}(\theta) = \sum_k \left\| f_{\text{proj}}(g_\theta(\phi_\theta(s_t), a_{t:t+k-1})) - \text{sg}\!\left(f_{\text{proj}}(\phi_\theta(s_{t+k}))\right) \right\|^2$$
+$$
+L_{\text{SPR}}(\theta) = \sum_k \left\| f_{\text{proj}}(g_\theta(\phi_\theta(s_t), a_{t:t+k-1})) - \text{sg}\!\left(f_{\text{proj}}(\phi_\theta(s_{t+k}))\right) \right\|^2
+\tag{11}
+$$
 
 where sg denotes stop-gradient, $\phi_\theta$ is the state encoder, $g_\theta$ is a latent transition model, and $f_{\text{proj}}$ is a projection network. The self-supervised loss substantially improves sample efficiency on Atari 100k and other data-limited benchmarks. The similar CURL algorithm of [Laskin et al. 2020][research_laskin_srinivas_abbeel_2020] uses contrastive learning between augmented views of the same observation as the auxiliary signal.
 
@@ -127,7 +160,10 @@ The policy gradient methods of article three extend directly to deep neural poli
 
 Trust-region policy optimization of [Schulman et al. 2015][research_schulman_levine_moritz_jordan_abbeel_2015] enforces a Kullback-Leibler constraint on the policy update. The optimization problem is
 
-$$\max_\theta \; \mathbb{E}_{s, a \sim \pi_{\theta_{\text{old}}}}\!\left[\frac{\pi_\theta(a \mid s)}{\pi_{\theta_{\text{old}}}(a \mid s)} A^{\pi_{\theta_{\text{old}}}}(s, a)\right] \quad \text{subject to} \quad \mathbb{E}_{s}\!\left[D_{\text{KL}}(\pi_{\theta_{\text{old}}}(\cdot \mid s) \,\|\, \pi_\theta(\cdot \mid s))\right] \leq \delta$$
+$$
+\max_\theta \; \mathbb{E}_{s, a \sim \pi_{\theta_{\text{old}}}}\!\left[\frac{\pi_\theta(a \mid s)}{\pi_{\theta_{\text{old}}}(a \mid s)} A^{\pi_{\theta_{\text{old}}}}(s, a)\right] \quad \text{subject to} \quad \mathbb{E}_{s}\!\left[D_{\text{KL}}(\pi_{\theta_{\text{old}}}(\cdot \mid s) \,\|\, \pi_\theta(\cdot \mid s))\right] \leq \delta
+\tag{12}
+$$
 
 The importance-sampling ratio $r_t(\theta) = \pi_\theta(a_t \mid s_t) / \pi_{\theta_{\text{old}}}(a_t \mid s_t)$ enables off-policy correction from the batch of trajectories collected under the old policy. TRPO solves the constrained optimization via conjugate gradient on the Fisher information matrix and line search along the natural gradient direction.
 
@@ -135,13 +171,19 @@ TRPO provided the first scalable trust-region method for deep policy optimizatio
 
 Proximal Policy Optimization of [Schulman et al. 2017][research_schulman_wolski_dhariwal_radford_klimov_2017] replaces the trust-region constraint with a clipped surrogate objective,
 
-$$L^{\text{CLIP}}(\theta) = \mathbb{E}_t\!\left[\min\!\left(r_t(\theta) \hat{A}_t, \; \text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t\right)\right]$$
+$$
+L^{\text{CLIP}}(\theta) = \mathbb{E}_t\!\left[\min\!\left(r_t(\theta) \hat{A}_t, \; \text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t\right)\right]
+\tag{13}
+$$
 
 where $\hat{A}\_t$ is a generalized advantage estimate from article three. The clipping operator caps the effective step size in the direction of the advantage without requiring an explicit KL constraint or expensive second-order optimization. PPO uses first-order optimization (Adam) with multiple epochs of minibatch updates over the collected trajectory batch and has become the default policy-gradient algorithm across the field.
 
 The complete PPO objective adds a value-function regression term and an entropy bonus,
 
-$$L^{\text{PPO}}(\theta) = L^{\text{CLIP}}(\theta) - c_1 \mathbb{E}_t\!\left[(V_\theta(s_t) - V_t^{\text{target}})^2\right] + c_2 \mathbb{E}_t\!\left[H(\pi_\theta(\cdot \mid s_t))\right]$$
+$$
+L^{\text{PPO}}(\theta) = L^{\text{CLIP}}(\theta) - c_1 \mathbb{E}_t\!\left[(V_\theta(s_t) - V_t^{\text{target}})^2\right] + c_2 \mathbb{E}_t\!\left[H(\pi_\theta(\cdot \mid s_t))\right]
+\tag{14}
+$$
 
 with coefficients $c_1$ and $c_2$ balancing the three terms. The simplicity of PPO's implementation and its robustness across a wide range of tasks account for its adoption. [Engstrom et al. 2020][research_engstrom_et_al_2020] documented that many of PPO's empirical advantages come from implementation details (learning-rate annealing, orthogonal initialization, observation normalization, value function clipping, generalized advantage estimation with $\lambda$) rather than the clipping mechanism per se.
 
@@ -153,7 +195,10 @@ The synchronous variant A2C waits for all workers to complete their rollouts bef
 
 IMPALA of [Espeholt et al. 2018][research_espeholt_et_al_2018] separates actor and learner processes and uses a V-trace off-policy correction to account for the lag between actor policies and the learner policy at update time. The V-trace target is a truncated importance-sampled n-step return,
 
-$$v_t = V(s_t) + \sum_{k=t}^{t+n-1} \gamma^{k-t} \left(\prod_{j=t}^{k-1} c_j\right) \rho_k (r_{k+1} + \gamma V(s_{k+1}) - V(s_k))$$
+$$
+v_t = V(s_t) + \sum_{k=t}^{t+n-1} \gamma^{k-t} \left(\prod_{j=t}^{k-1} c_j\right) \rho_k (r_{k+1} + \gamma V(s_{k+1}) - V(s_k))
+\tag{15}
+$$
 
 where $c_j = \min(\bar{c}, \pi(a_j \mid s_j) / \mu(a_j \mid s_j))$ and $\rho_k = \min(\bar{\rho}, \pi(a_k \mid s_k) / \mu(a_k \mid s_k))$ are truncated importance-sampling ratios with clip constants $\bar{c}, \bar{\rho}$. V-trace enables high-throughput distributed training by tolerating policy lag that would break naive on-policy methods.
 
@@ -163,41 +208,65 @@ Ape-X of [Horgan 2018][research_horgan_et_al_2018] and R2D2 of [Kapturowski et a
 
 Continuous action spaces require different algorithmic treatment than discrete actions. The Deep Deterministic Policy Gradient (DDPG) of [Lillicrap et al. 2015][research_lillicrap_et_al_2016] extends the deterministic policy gradient of article three to deep networks. The actor $\mu_\theta : \mathcal{S} \to \mathcal{A}$ outputs a deterministic action, and the critic $Q_w(s, a)$ estimates the action-value. The critic is trained by the standard DQN-style TD loss, and the actor is trained by the deterministic policy gradient
 
-$$\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^\mu}\!\left[\nabla_\theta \mu_\theta(s) \nabla_a Q_w(s, a)|_{a = \mu_\theta(s)}\right]$$
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^\mu}\!\left[\nabla_\theta \mu_\theta(s) \nabla_a Q_w(s, a)|_{a = \mu_\theta(s)}\right]
+\tag{16}
+$$
 
 Exploration is added by injecting noise into the deterministic action at training time, either Ornstein-Uhlenbeck noise as in the original paper or independent Gaussian noise as in later work.
 
 Twin Delayed DDPG (TD3) of [Fujimoto et al. 2018][research_fujimoto_hoof_meger_2018] addresses three DDPG failure modes. Twin critics take the minimum of two independently-trained Q-networks in the target computation,
 
-$$y = r + \gamma \min_{i \in \{1, 2\}} Q_{w_i^{-}}(s', \tilde{a}), \quad \tilde{a} = \mu_{\theta^{-}}(s') + \epsilon$$
+$$
+y = r + \gamma \min_{i \in \{1, 2\}} Q_{w_i^{-}}(s', \tilde{a}), \quad \tilde{a} = \mu_{\theta^{-}}(s') + \epsilon
+\tag{17}
+$$
 
 where $\epsilon \sim \text{clip}(\mathcal{N}(0, \sigma^2), -c, c)$ is clipped Gaussian target policy smoothing noise. The min operator reduces overestimation bias analogously to double Q-learning, the target policy smoothing regularizes the value function against sharp local overestimates, and delayed policy updates apply the actor gradient only every $d$ critic updates to prevent policy exploitation of critic errors.
 
 Soft Actor-Critic (SAC) of [Haarnoja et al. 2018][research_haarnoja_zhou_abbeel_levine_2018] replaces the standard reinforcement learning objective with a maximum-entropy objective
 
-$$J_{\text{SAC}}(\pi) = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t \left(r_{t+1} + \alpha H(\pi(\cdot \mid s_t))\right)\right]$$
+$$
+J_{\text{SAC}}(\pi) = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t \left(r_{t+1} + \alpha H(\pi(\cdot \mid s_t))\right)\right]
+\tag{18}
+$$
 
 where the entropy bonus with temperature $\alpha$ encourages stochastic policies. The corresponding soft Bellman equation for the state value function is
 
-$$V^\pi(s) = \mathbb{E}_{a \sim \pi}\!\left[Q^\pi(s, a) - \alpha \log \pi(a \mid s)\right]$$
+$$
+V^\pi(s) = \mathbb{E}_{a \sim \pi}\!\left[Q^\pi(s, a) - \alpha \log \pi(a \mid s)\right]
+\tag{19}
+$$
 
 and for the action value function,
 
-$$Q^\pi(s, a) = \mathbb{E}_{s'}\!\left[r + \gamma V^\pi(s')\right]$$
+$$
+Q^\pi(s, a) = \mathbb{E}_{s'}\!\left[r + \gamma V^\pi(s')\right]
+\tag{20}
+$$
 
 SAC learns a stochastic Gaussian policy and uses the reparameterization trick
 
-$$a = \mu_\theta(s) + \sigma_\theta(s) \odot \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)$$
+$$
+a = \mu_\theta(s) + \sigma_\theta(s) \odot \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)
+\tag{21}
+$$
 
 to obtain low-variance policy gradient estimates by backpropagating through the sampled action. Automatic temperature tuning targets a desired minimum entropy $\bar{H}$ by adjusting $\alpha$ according to the loss
 
-$$L(\alpha) = -\alpha \mathbb{E}\!\left[\log \pi_\theta(a \mid s) + \bar{H}\right]$$
+$$
+L(\alpha) = -\alpha \mathbb{E}\!\left[\log \pi_\theta(a \mid s) + \bar{H}\right]
+\tag{22}
+$$
 
 rather than fixing $\alpha$ as a hyperparameter. SAC is generally the most robust off-policy continuous-control algorithm as of the mid 2020s, with reliable performance across the MuJoCo continuous control benchmarks.
 
 Both DDPG-family and SAC algorithms use Polyak-averaged target networks
 
-$$\theta^{-} \leftarrow \tau \theta + (1 - \tau) \theta^{-}$$
+$$
+\theta^{-} \leftarrow \tau \theta + (1 - \tau) \theta^{-}
+\tag{23}
+$$
 
 with small $\tau$ (typically 0.005) to stabilize bootstrapping targets.
 
@@ -209,7 +278,10 @@ Transformer architectures introduced to reinforcement learning in the late 2010s
 
 Decision Transformer of [Chen et al. 2021][research_chen_et_al_2021] treats reinforcement learning as sequence modeling by autoregressively predicting actions conditioned on states, previous actions, and target returns-to-go. The model factorizes the trajectory as
 
-$$P(\tau) = \prod_t P(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})$$
+$$
+P(\tau) = \prod_t P(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})
+\tag{24}
+$$
 
 where $\hat{R}\_t = \sum_{k=t}^{T} r_k$ is the return-to-go from time $t$. Training uses standard supervised learning loss on trajectory data without value bootstrapping or off-policy corrections. The target return-to-go conditioning provides a form of policy specification at inference time. The agent generates actions consistent with achieving the specified return. Decision Transformer performs competitively with model-free offline RL methods and simplifies the algorithmic apparatus considerably.
 
@@ -229,11 +301,17 @@ The architecture used two neural networks. A policy network trained by supervise
 
 AlphaGo Zero of [Silver et al. 2017][research_silver_et_al_2017] simplified the approach by eliminating human game data entirely and combining policy and value networks into a single dual-head network $f_\theta(s) = (p, v)$ that outputs a policy distribution and a value estimate. MCTS uses the PUCT selection rule
 
-$$a_t = \arg\max_a \left[Q(s_t, a) + c_{\text{puct}} \, p(a \mid s_t) \frac{\sqrt{\sum_b N(s_t, b)}}{1 + N(s_t, a)}\right]$$
+$$
+a_t = \arg\max_a \left[Q(s_t, a) + c_{\text{puct}} \, p(a \mid s_t) \frac{\sqrt{\sum_b N(s_t, b)}}{1 + N(s_t, a)}\right]
+\tag{25}
+$$
 
 with $Q(s, a)$ the mean action value from tree statistics, $p(a \mid s)$ the neural network policy prior, $N(s, a)$ the visit count, and $c_{\text{puct}}$ an exploration constant. The training loop alternates self-play games under the current network with MCTS, and network updates minimize the combined loss
 
-$$L(\theta) = (z - v_\theta(s))^2 - \boldsymbol{\pi}^\top \log \boldsymbol{p}_\theta(s) + c \|\theta\|^2$$
+$$
+L(\theta) = (z - v_\theta(s))^2 - \boldsymbol{\pi}^\top \log \boldsymbol{p}_\theta(s) + c \|\theta\|^2
+\tag{26}
+$$
 
 where $z \in \{-1, 0, +1\}$ is the game outcome, $\boldsymbol{\pi}$ is the MCTS-improved policy from search visit counts, and the final term is L2 regularization. The resulting agent exceeded the strength of AlphaGo Master and the earlier AlphaGo Lee Sedol version within 40 days of training on 4 TPUs.
 
@@ -241,7 +319,10 @@ AlphaZero of [Silver et al. 2018][research_silver_et_al_2018] extended the Alpha
 
 MuZero of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020] removed the assumption that the environment model is known. Three neural networks parameterize a learned model. A representation function $h_\theta(o_1, \ldots, o_t) = s^0$ encodes past observations into an internal state, a dynamics function $g_\theta(s^{k-1}, a^k) = (r^k, s^k)$ predicts the reward and next internal state given an action, and a prediction function $f_\theta(s^k) = (p^k, v^k)$ predicts policy and value from internal state. MCTS operates over the learned internal state space rather than the true environment. The MuZero training loss combines terms for observed reward, value, and policy at each unrolled step,
 
-$$L_t(\theta) = \sum_{k=0}^{K} \left[(r_{t+k} - r_\theta^k)^2 + (z_{t+k} - v_\theta^k)^2 - \boldsymbol{\pi}_{t+k}^\top \log \boldsymbol{p}_\theta^k\right] + c \|\theta\|^2$$
+$$
+L_t(\theta) = \sum_{k=0}^{K} \left[(r_{t+k} - r_\theta^k)^2 + (z_{t+k} - v_\theta^k)^2 - \boldsymbol{\pi}_{t+k}^\top \log \boldsymbol{p}_\theta^k\right] + c \|\theta\|^2
+\tag{27}
+$$
 
 where $K$ is the number of unrolled steps and $z_{t+k}$ is the $n$-step or full-return target. MuZero achieved superhuman play in chess, shogi, and Go while also matching state-of-the-art on Atari, unifying the previously-distinct settings of board games and video games under a single algorithm.
 
@@ -267,11 +348,17 @@ Centralized training with decentralized execution provides a widely-used framewo
 
 QMIX of [Rashid et al. 2018][research_rashid_et_al_2018] factors the joint value function as a monotonic mixture of per-agent utility functions,
 
-$$Q_{\text{tot}}(\boldsymbol{s}, \boldsymbol{a}) = f_{\text{mix}}(Q_1(s_1, a_1), \ldots, Q_n(s_n, a_n) ; \boldsymbol{s})$$
+$$
+Q_{\text{tot}}(\boldsymbol{s}, \boldsymbol{a}) = f_{\text{mix}}(Q_1(s_1, a_1), \ldots, Q_n(s_n, a_n) ; \boldsymbol{s})
+\tag{28}
+$$
 
 where the mixing network $f_{\text{mix}}$ has monotonically non-negative weights conditioning on the global state. The monotonicity constraint preserves individual-global maximum consistency,
 
-$$\arg\max_{\boldsymbol{a}} Q_{\text{tot}}(\boldsymbol{s}, \boldsymbol{a}) = (\arg\max_{a_1} Q_1(s_1, a_1), \ldots, \arg\max_{a_n} Q_n(s_n, a_n))$$
+$$
+\arg\max_{\boldsymbol{a}} Q_{\text{tot}}(\boldsymbol{s}, \boldsymbol{a}) = (\arg\max_{a_1} Q_1(s_1, a_1), \ldots, \arg\max_{a_n} Q_n(s_n, a_n))
+\tag{29}
+$$
 
 enabling decentralized greedy execution while maintaining a coherent joint value function during training. QTRAN of [Son et al. 2019][research_son_et_al_2019] and other successor methods relax the monotonicity constraint for greater expressiveness at the cost of more complex training.
 
@@ -289,21 +376,33 @@ Reinforcement learning from human feedback has become the standard post-training
 
 The standard RLHF pipeline proceeds in three stages. First, supervised fine-tuning on human demonstrations aligns the model with instruction-following behavior. Second, a reward model $R_\phi(x, y)$ is trained on human preference comparisons using the Bradley-Terry model,
 
-$$P(y_w \succ y_l \mid x) = \sigma(R_\phi(x, y_w) - R_\phi(x, y_l))$$
+$$
+P(y_w \succ y_l \mid x) = \sigma(R_\phi(x, y_w) - R_\phi(x, y_l))
+\tag{30}
+$$
 
 with the reward-model loss
 
-$$L^{\text{RM}}(\phi) = -\mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}}\!\left[\log \sigma(R_\phi(x, y_w) - R_\phi(x, y_l))\right]$$
+$$
+L^{\text{RM}}(\phi) = -\mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}}\!\left[\log \sigma(R_\phi(x, y_w) - R_\phi(x, y_l))\right]
+\tag{31}
+$$
 
 for preferred completion $y_w$ and dispreferred completion $y_l$. Third, PPO optimizes the policy against the learned reward model with a KL penalty against the supervised-fine-tuned model,
 
-$$L^{\text{RLHF}}(\theta) = \mathbb{E}_{x, y \sim \pi_\theta}\!\left[R(x, y)\right] - \beta \mathbb{E}_{x, y \sim \pi_\theta}\!\left[D_{\text{KL}}\!\left(\pi_\theta(y \mid x) \,\|\, \pi_{\text{SFT}}(y \mid x)\right)\right]$$
+$$
+L^{\text{RLHF}}(\theta) = \mathbb{E}_{x, y \sim \pi_\theta}\!\left[R(x, y)\right] - \beta \mathbb{E}_{x, y \sim \pi_\theta}\!\left[D_{\text{KL}}\!\left(\pi_\theta(y \mid x) \,\|\, \pi_{\text{SFT}}(y \mid x)\right)\right]
+\tag{32}
+$$
 
 where $\pi_{\text{SFT}}$ is the supervised-fine-tuned reference model and $\beta$ is a KL penalty coefficient that prevents the policy from drifting too far from the reference.
 
 Direct Preference Optimization of [Rafailov et al. 2023][research_rafailov_et_al_2023] eliminates the explicit reward model by deriving a closed-form loss that directly optimizes the policy against preference data. The DPO loss
 
-$$L^{\text{DPO}}(\theta) = -\mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}}\!\left[\log \sigma\!\left(\beta \log \frac{\pi_\theta(y_w \mid x)}{\pi_{\text{SFT}}(y_w \mid x)} - \beta \log \frac{\pi_\theta(y_l \mid x)}{\pi_{\text{SFT}}(y_l \mid x)}\right)\right]$$
+$$
+L^{\text{DPO}}(\theta) = -\mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}}\!\left[\log \sigma\!\left(\beta \log \frac{\pi_\theta(y_w \mid x)}{\pi_{\text{SFT}}(y_w \mid x)} - \beta \log \frac{\pi_\theta(y_l \mid x)}{\pi_{\text{SFT}}(y_l \mid x)}\right)\right]
+\tag{33}
+$$
 
 for preferred completion $y_w$ and dispreferred completion $y_l$ trades the standard reinforcement learning apparatus for a simpler supervised-learning-style optimization. DPO and its variants have become widely adopted for open-source language model post-training.
 
@@ -315,7 +414,10 @@ Deep reinforcement learning systems have scaled substantially in compute cost ov
 
 Scaling laws for reinforcement learning have received recent attention. [Andrychowicz et al. 2021][research_andrychowicz_et_al_2021] characterized what matters in policy-gradient RL through a large-scale empirical study, identifying algorithmic details, network architecture, hyperparameter choices, and problem-factors that individually or collectively determine performance. [Hilton et al. 2023][research_hilton_et_al_2023] studied scaling laws for compute in single-agent reinforcement learning, finding that reinforcement learning shows compute-efficiency improvements comparable to supervised learning under appropriate parameterization. Their compute-efficiency law takes the approximate form
 
-$$\text{Score}(C) - \text{Score}_{\max} = -\alpha C^{-\beta}$$
+$$
+\text{Score}(C) - \text{Score}_{\max} = -\alpha C^{-\beta}
+\tag{34}
+$$
 
 for compute budget $C$ and constants $\alpha, \beta$ that depend on the domain, mirroring the power-law form observed in supervised learning scaling.
 
@@ -383,6 +485,339 @@ Despite these correspondences, deep RL agents differ from biological learners in
 - What is the theoretical basis for the empirical success of RLHF in language-model post-training? The KL-constrained reward maximization framework is well-understood in principle, but its empirical effectiveness on high-dimensional language-model policies is not fully theoretically explained.
 - How should deep reinforcement learning agents be evaluated for generalization beyond training distribution? Procedural generation benchmarks address the problem partially, but full out-of-distribution generalization remains an open challenge.
 - What is the correct architectural inductive bias for deep reinforcement learning? Convolutional networks, recurrent networks, transformers, and mixture models each capture aspects, and no unified architectural framework has emerged.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 34 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 34, 33 are established and 1 are bespoke.
+Losses and objectives are expectations over sampled transitions or trajectories, returns and values carry the units of the reward signal, and coefficients such as the discount factor, the clipping range and the entropy temperature are dimensionless hyperparameters whose values differ between the papers cited.
+
+**Equation 1, Deep Q-Network Loss.**
+The deep Q-network minimises the squared difference between its action value and a bootstrapped target computed with a slowly updated target network over transitions drawn from a replay buffer.
+[Mnih et al. 2015][research_mnih_et_al_2015]
+
+$$
+L(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[\left(r + \gamma \max_{a'} Q_{\theta^{-}}(s', a') - Q_\theta(s, a)\right)^2\right]
+\tag{1}
+$$
+
+**Equation 2, Double Deep Q-Network Target.**
+The online network selects the next action and the target network evaluates it, which reduces overestimation bias.
+[van Hasselt et al. 2016][research_van_hasselt_guez_silver_2016]
+
+$$
+y_t = r_{t+1} + \gamma Q_{\theta^{-}}(s_{t+1}, \arg\max_{a'} Q_\theta(s_{t+1}, a'))
+\tag{2}
+$$
+
+**Equation 3, Dueling Network Aggregation.**
+The action value is assembled from a state value stream and an advantage stream whose mean is subtracted so that the two are identifiable.
+[Wang et al. 2016][research_wang_et_al_2016]
+
+$$
+Q_\theta(s, a) = V_\theta(s) + \left(A_\theta(s, a) - \frac{1}{|\mathcal{A}|} \sum_{a'} A_\theta(s, a')\right)
+\tag{3}
+$$
+
+**Equation 4, Prioritised Replay Sampling Probability.**
+A transition is sampled with probability proportional to its priority raised to an exponent that sets the strength of prioritisation.
+[Schaul et al. 2015][research_schaul_et_al_2016]
+
+$$
+P(i) = \frac{p_i^\alpha}{\sum_j p_j^\alpha}
+\tag{4}
+$$
+
+**Equation 5, Prioritised Replay Importance Weights.**
+Each sampled transition's gradient is weighted by the inverse of its sampling probability relative to uniform, raised to an annealed exponent.
+[Schaul et al. 2015][research_schaul_et_al_2016]
+
+$$
+w_i = \left(\frac{1}{N \cdot P(i)}\right)^\beta
+\tag{5}
+$$
+
+**Equation 6, Noisy Linear Layer.**
+Each weight and bias is a learned mean plus a learned scale times sampled noise, which gives state-dependent exploration.
+[Fortunato et al. 2018][research_fortunato_et_al_2018]
+
+$$
+y = (W_\mu + W_\sigma \odot \epsilon_W) x + (b_\mu + b_\sigma \odot \epsilon_b)
+\tag{6}
+$$
+
+**Equation 7, Categorical Distributional Loss.**
+The categorical algorithm minimises the Kullback-Leibler divergence from the projected distributional Bellman target to the predicted return distribution.
+[Bellemare et al. 2017][research_bellemare_dabney_munos_2017]
+
+$$
+L(\theta) = \mathbb{E}_{(s, a, r, s')}\!\left[D_{\text{KL}}\!\left(\Phi \mathcal{T} Z_{\theta^{-}}(s', a^*) \,\|\, Z_\theta(s, a)\right)\right]
+\tag{7}
+$$
+
+**Equation 8, Quantile Regression Loss.**
+Quantile regression fits each output to its quantile level by an asymmetric loss summed over pairs of predicted and target quantiles.
+[Dabney et al. 2018a][research_dabney_rowland_bellemare_munos_2018]
+
+$$
+L^{\text{QR}}(\theta) = \sum_i \sum_j \mathbb{E}\!\left[\rho_{\tau_i}(y_j - Z^i_\theta(s, a))\right]
+\tag{8}
+$$
+
+**Equation 9, Implicit Quantile Function.**
+Implicit quantile networks output the return quantile at any sampled level from a state encoding combined with an embedding of that level.
+[Dabney et al. 2018b][research_dabney_ostrovski_silver_munos_2018]
+
+$$
+Z_\tau(s, a) = f_\theta(\psi(s), \phi(\tau))_a
+\tag{9}
+$$
+
+**Equation 10, Belief State.**
+The belief state is the posterior probability of each hidden state given the history of observations and actions.
+
+$$
+b_t(s) = P(s_t = s \mid o_{1:t}, a_{1:t-1})
+\tag{10}
+$$
+
+**Equation 11, Self-Predictive Representation Loss.**
+The encoder and a latent transition model are trained to predict projected future latent states, with gradients stopped through the target.
+[Schwarzer et al. 2021][research_schwarzer_et_al_2021]
+
+$$
+L_{\text{SPR}}(\theta) = \sum_k \left\| f_{\text{proj}}(g_\theta(\phi_\theta(s_t), a_{t:t+k-1})) - \text{sg}\!\left(f_{\text{proj}}(\phi_\theta(s_{t+k}))\right) \right\|^2
+\tag{11}
+$$
+
+**Equation 12, Trust-Region Policy Optimisation Problem.**
+Trust-region policy optimisation maximises an importance-weighted advantage surrogate subject to a bound on the mean Kullback-Leibler divergence from the old policy.
+[Schulman et al. 2015][research_schulman_levine_moritz_jordan_abbeel_2015]
+
+$$
+\max_\theta \; \mathbb{E}_{s, a \sim \pi_{\theta_{\text{old}}}}\!\left[\frac{\pi_\theta(a \mid s)}{\pi_{\theta_{\text{old}}}(a \mid s)} A^{\pi_{\theta_{\text{old}}}}(s, a)\right] \quad \text{subject to} \quad \mathbb{E}_{s}\!\left[D_{\text{KL}}(\pi_{\theta_{\text{old}}}(\cdot \mid s) \,\|\, \pi_\theta(\cdot \mid s))\right] \leq \delta
+\tag{12}
+$$
+
+**Equation 13, Clipped Surrogate Objective.**
+Proximal policy optimisation takes the smaller of the ratio-weighted advantage and its clipped counterpart, which removes the incentive to move the ratio outside a band around one.
+[Schulman et al. 2017][research_schulman_wolski_dhariwal_radford_klimov_2017]
+
+$$
+L^{\text{CLIP}}(\theta) = \mathbb{E}_t\!\left[\min\!\left(r_t(\theta) \hat{A}_t, \; \text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t\right)\right]
+\tag{13}
+$$
+
+**Equation 14, Combined Proximal Policy Optimisation Objective.**
+The full objective adds a value regression penalty and an entropy bonus to the clipped surrogate.
+[Schulman et al. 2017][research_schulman_wolski_dhariwal_radford_klimov_2017]
+
+$$
+L^{\text{PPO}}(\theta) = L^{\text{CLIP}}(\theta) - c_1 \mathbb{E}_t\!\left[(V_\theta(s_t) - V_t^{\text{target}})^2\right] + c_2 \mathbb{E}_t\!\left[H(\pi_\theta(\cdot \mid s_t))\right]
+\tag{14}
+$$
+
+**Equation 15, V-Trace Target.**
+V-trace corrects the value estimate by temporal-difference errors weighted with truncated importance ratios, which tolerates lag between actor and learner policies.
+[Espeholt et al. 2018][research_espeholt_et_al_2018]
+
+$$
+v_t = V(s_t) + \sum_{k=t}^{t+n-1} \gamma^{k-t} \left(\prod_{j=t}^{k-1} c_j\right) \rho_k (r_{k+1} + \gamma V(s_{k+1}) - V(s_k))
+\tag{15}
+$$
+
+**Equation 16, Deep Deterministic Policy Gradient.**
+The actor is updated by chaining its Jacobian with the action gradient of the learned critic at the action it outputs.
+[Lillicrap et al. 2015][research_lillicrap_et_al_2016]
+
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^\mu}\!\left[\nabla_\theta \mu_\theta(s) \nabla_a Q_w(s, a)|_{a = \mu_\theta(s)}\right]
+\tag{16}
+$$
+
+**Equation 17, Twin Delayed Target with Policy Smoothing.**
+The target takes the minimum of two target critics evaluated at a target action perturbed by clipped Gaussian noise.
+[Fujimoto et al. 2018][research_fujimoto_hoof_meger_2018]
+
+$$
+y = r + \gamma \min_{i \in \{1, 2\}} Q_{w_i^{-}}(s', \tilde{a}), \quad \tilde{a} = \mu_{\theta^{-}}(s') + \epsilon
+\tag{17}
+$$
+
+**Equation 18, Maximum-Entropy Objective.**
+Soft actor-critic maximises the discounted sum of reward plus a temperature times the entropy of the policy at each state.
+[Haarnoja et al. 2018][research_haarnoja_zhou_abbeel_levine_2018]
+
+$$
+J_{\text{SAC}}(\pi) = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t \left(r_{t+1} + \alpha H(\pi(\cdot \mid s_t))\right)\right]
+\tag{18}
+$$
+
+**Equation 19, Soft State Value.**
+The soft state value is the expected action value less the temperature times the log probability of the action.
+[Haarnoja et al. 2018][research_haarnoja_zhou_abbeel_levine_2018]
+
+$$
+V^\pi(s) = \mathbb{E}_{a \sim \pi}\!\left[Q^\pi(s, a) - \alpha \log \pi(a \mid s)\right]
+\tag{19}
+$$
+
+**Equation 20, Soft Bellman Equation for Action Values.**
+The soft action value is the expected reward plus the discounted soft value of the successor state.
+[Haarnoja et al. 2018][research_haarnoja_zhou_abbeel_levine_2018]
+
+$$
+Q^\pi(s, a) = \mathbb{E}_{s'}\!\left[r + \gamma V^\pi(s')\right]
+\tag{20}
+$$
+
+**Equation 21, Reparameterised Gaussian Action.**
+The action is a deterministic function of the state and independent standard normal noise, so gradients can pass through the sample.
+
+$$
+a = \mu_\theta(s) + \sigma_\theta(s) \odot \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)
+\tag{21}
+$$
+
+**Equation 22, Automatic Entropy Temperature Loss.**
+The temperature is adjusted by gradient descent so that the policy entropy is driven toward a target value.
+
+$$
+L(\alpha) = -\alpha \mathbb{E}\!\left[\log \pi_\theta(a \mid s) + \bar{H}\right]
+\tag{22}
+$$
+
+**Equation 23, Soft Polyak Target Network Update.**
+The target network parameters move a small fraction $\tau$ of the way toward the online parameters at each step.
+
+$$
+\theta^{-} \leftarrow \tau \theta + (1 - \tau) \theta^{-}
+\tag{23}
+$$
+
+**Equation 24, Decision Transformer Factorisation.**
+Decision Transformer models each action autoregressively given a recent window of states, actions and returns-to-go.
+[Chen et al. 2021][research_chen_et_al_2021]
+
+$$
+P(\tau) = \prod_t P(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})
+\tag{24}
+$$
+
+**Equation 25, Predictor Upper Confidence Tree Selection Rule.**
+Tree search selects the action maximising the mean value plus a bonus proportional to the network prior and to the square root of the parent visit count over one plus the action visit count.
+[Silver et al. 2017][research_silver_et_al_2017]
+
+$$
+a_t = \arg\max_a \left[Q(s_t, a) + c_{\text{puct}} \, p(a \mid s_t) \frac{\sqrt{\sum_b N(s_t, b)}}{1 + N(s_t, a)}\right]
+\tag{25}
+$$
+
+**Equation 26, AlphaGo Zero Training Loss.**
+The dual-head network minimises the squared error of its value against the game outcome, the cross-entropy of its policy against the search policy and a weight penalty.
+[Silver et al. 2017][research_silver_et_al_2017]
+
+$$
+L(\theta) = (z - v_\theta(s))^2 - \boldsymbol{\pi}^\top \log \boldsymbol{p}_\theta(s) + c \|\theta\|^2
+\tag{26}
+$$
+
+**Equation 27, MuZero Training Loss.**
+MuZero sums over unrolled model steps the reward, value and policy errors of its learned model, plus a weight penalty.
+[Schrittwieser et al. 2020][research_schrittwieser_et_al_2020]
+
+$$
+L_t(\theta) = \sum_{k=0}^{K} \left[(r_{t+k} - r_\theta^k)^2 + (z_{t+k} - v_\theta^k)^2 - \boldsymbol{\pi}_{t+k}^\top \log \boldsymbol{p}_\theta^k\right] + c \|\theta\|^2
+\tag{27}
+$$
+
+**Equation 28, Monotonic Value Mixing.**
+QMIX writes the joint action value as a state-conditioned mixing of the per-agent utilities with non-negative weights.
+[Rashid et al. 2018][research_rashid_et_al_2018]
+
+$$
+Q_{\text{tot}}(\boldsymbol{s}, \boldsymbol{a}) = f_{\text{mix}}(Q_1(s_1, a_1), \ldots, Q_n(s_n, a_n) ; \boldsymbol{s})
+\tag{28}
+$$
+
+**Equation 29, Individual-Global Maximum Consistency.**
+Monotonic mixing guarantees that the joint greedy action is the tuple of each agent's individually greedy action.
+[Rashid et al. 2018][research_rashid_et_al_2018]
+
+$$
+\arg\max_{\boldsymbol{a}} Q_{\text{tot}}(\boldsymbol{s}, \boldsymbol{a}) = (\arg\max_{a_1} Q_1(s_1, a_1), \ldots, \arg\max_{a_n} Q_n(s_n, a_n))
+\tag{29}
+$$
+
+**Equation 30, Bradley-Terry Preference Model.**
+The probability that one completion is preferred to another is the logistic function of the difference in their learned rewards.
+
+$$
+P(y_w \succ y_l \mid x) = \sigma(R_\phi(x, y_w) - R_\phi(x, y_l))
+\tag{30}
+$$
+
+**Equation 31, Reward Model Loss.**
+The reward model minimises the negative log likelihood of the observed preferences under the Bradley-Terry model.
+
+$$
+L^{\text{RM}}(\phi) = -\mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}}\!\left[\log \sigma(R_\phi(x, y_w) - R_\phi(x, y_l))\right]
+\tag{31}
+$$
+
+**Equation 32, Kullback-Leibler Regularised Fine-Tuning Objective.**
+Reinforcement learning from human feedback, abbreviated RLHF, maximises the learned reward less a multiple of the divergence from the supervised reference model.
+
+$$
+L^{\text{RLHF}}(\theta) = \mathbb{E}_{x, y \sim \pi_\theta}\!\left[R(x, y)\right] - \beta \mathbb{E}_{x, y \sim \pi_\theta}\!\left[D_{\text{KL}}\!\left(\pi_\theta(y \mid x) \,\|\, \pi_{\text{SFT}}(y \mid x)\right)\right]
+\tag{32}
+$$
+
+**Equation 33, Direct Preference Optimisation Loss.**
+Direct preference optimisation fits the Bradley-Terry model with the reward replaced by the scaled log ratio of policy to reference probabilities.
+[Rafailov et al. 2023][research_rafailov_et_al_2023]
+
+$$
+L^{\text{DPO}}(\theta) = -\mathbb{E}_{(x, y_w, y_l) \sim \mathcal{D}}\!\left[\log \sigma\!\left(\beta \log \frac{\pi_\theta(y_w \mid x)}{\pi_{\text{SFT}}(y_w \mid x)} - \beta \log \frac{\pi_\theta(y_l \mid x)}{\pi_{\text{SFT}}(y_l \mid x)}\right)\right]
+\tag{33}
+$$
+
+*Equation 34, Bespoke Saturating Power Law of Score Against Compute.*
+The article summarises reinforcement learning compute scaling as a score approaching a ceiling with a power-law deficit in compute, a form it states as approximate and whose constants depend on the domain.
+[Hilton et al. 2023][research_hilton_et_al_2023]
+
+$$
+\text{Score}(C) - \text{Score}_{\max} = -\alpha C^{-\beta}
+\tag{34}
+$$
+
+### Notation
+
+- $\theta^{-}$, the target network parameters
+- $\mathcal{D}$, the experience replay buffer or preference dataset
+- $Q_\theta(s, a)$, the action value estimated by the online network
+- $p_i$, the replay priority of transition $i$, its absolute temporal-difference error plus a small constant
+- $\beta$, the importance-weight annealing exponent in equation 5, the divergence penalty coefficient in equations 32 and 33 and a fitted exponent in equation 34
+- $\alpha$, the prioritisation exponent in equation 4, the entropy temperature in equations 18 to 22 and a fitted constant in equation 34
+- $\rho_{\tau_i}$, the quantile regression loss at level $\tau_i$
+- $b_t(s)$, the belief state, a probability distribution over hidden states at step $t$
+- $r_t(\theta)$, the ratio of new to old policy probability for the action taken
+- $\hat{A}_t$, the advantage estimate at step $t$
+- $c_j$, a truncated importance ratio in V-trace, with $\rho_k$ the other
+- $\mu_\theta(s)$, the deterministic actor or the mean of the Gaussian policy
+- $\bar{H}$, the target entropy
+- $\hat{R}_{t-K:t}$, the returns-to-go over the context window
+- $c_{\text{puct}}$, the exploration constant of tree search
+- $\boldsymbol{\pi}$, the search policy derived from visit counts
+- $Q_{\text{tot}}$, the joint action value of all agents
+- $R_\phi(x, y_w)$, the learned reward of the preferred completion to a prompt
+- $\pi_{\text{SFT}}$, the supervised fine-tuned reference model
+- $C$, the compute budget in equation 34
 
 ## References
 

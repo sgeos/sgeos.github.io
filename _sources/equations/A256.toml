@@ -1,0 +1,451 @@
+# Equation classification for A256. Read by `python3 _lib/equations.py`.
+
+caution = "States, observations and latent codes are vectors whose units depend on the environment and encoder, so a squared model error compares only within one representation, while rewards and values carry the units of the reward signal and horizons such as $H$ count decision steps."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Belief State"
+gloss = "The belief state is the posterior probability of each hidden state given the history of observations and actions."
+cite = ["research_kaelbling_littman_cassandra_1998"]
+digest = "f7e8f7d7a1d45e43"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Bayesian Belief Update"
+gloss = "The new belief is the predicted state distribution weighted by the likelihood of the new observation and normalised."
+cite = ["research_kaelbling_littman_cassandra_1998"]
+digest = "fcb4212ae2e15fa3"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Learned Forward Dynamics Model"
+gloss = "A parameterised model approximates the distribution of the next state given the current state and action."
+cite = []
+digest = "2229c4db09c19e7c"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Maximum-Likelihood Model Loss"
+gloss = "The model is fitted by minimising the negative log likelihood of observed next states."
+cite = []
+digest = "59798f210d38404b"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Kullback-Leibler Model Loss"
+gloss = "Minimising the Kullback-Leibler divergence from the empirical transition distribution to the model is equivalent to maximum likelihood."
+cite = []
+digest = "be3ffda108fbf7a3"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Learned Reward Model"
+gloss = "A regression model approximates the expected reward of a state and action."
+cite = []
+digest = "94244b395fc4651c"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Inverse Dynamics Model"
+gloss = "An inverse model approximates the distribution of the action that connects two consecutive states."
+cite = []
+digest = "e88787587a3794c3"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Value-Equivalence Model Loss"
+gloss = "A value-equivalent model is trained so that the value of its predicted next state matches the value of the true next state."
+cite = []
+digest = "65b53b3563f6054f"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Dyna Update from a Real Transition"
+gloss = "Dyna applies the ordinary Q-learning update to each transition experienced in the environment."
+cite = ["research_sutton_1990"]
+digest = "715b2dbfa33fcd4d"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Dyna Update from an Imagined Transition"
+gloss = "Dyna applies the same Q-learning update to transitions sampled from its learned model, reusing each real experience many times."
+cite = ["research_sutton_1990"]
+digest = "021c2669a288519a"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Prioritised Sweeping Priority"
+gloss = "Each state-action pair is prioritised by the magnitude of its model-predicted temporal-difference error."
+cite = ["research_moore_atkeson_1993"]
+digest = "e5e443961686213f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "PILCO Expected Return"
+gloss = "Probabilistic inference for learning control, abbreviated PILCO, evaluates a policy by its expected return under the Gaussian process posterior over dynamics."
+cite = ["research_deisenroth_rasmussen_2011"]
+digest = "7dc500b692a6a211"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Deterministic Neural Dynamics Model"
+gloss = "A neural network maps the current state and action to a point prediction of the next state."
+cite = []
+digest = "0b70a785dbf14efa"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Gaussian Neural Dynamics Model"
+gloss = "A stochastic neural model outputs the mean and covariance of a Gaussian over the next state."
+cite = []
+digest = "24c7119c37eca653"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Probabilistic Ensemble Member"
+gloss = "Each member of the ensemble in probabilistic ensembles with trajectory sampling outputs its own Gaussian over the next state."
+cite = ["research_chua_calandra_mcallister_levine_2018"]
+digest = "0318e4663b5eb5ca"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Aleatoric and Epistemic Decomposition of Ensemble Variance"
+gloss = "By the law of total variance the ensemble covariance is the mean member covariance plus the covariance of the member means."
+cite = ["research_chua_calandra_mcallister_levine_2018"]
+digest = "27fcc1d7467742d6"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Model Predictive Control Objective"
+gloss = "Model predictive control chooses the action sequence maximising the predicted discounted reward over a finite horizon plus a terminal value, and executes only its first action."
+cite = []
+digest = "658714594c064f94"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Cross-Entropy Method Update"
+gloss = "The Gaussian proposal is refitted to the mean and variance of the elite set of top-scoring action sequences."
+cite = ["research_rubinstein_1997"]
+digest = "233b28bc9d10c470"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Model Predictive Path Integral Update"
+gloss = "Model predictive path integral control updates the proposal mean as a softmax-weighted average of sampled action sequences by their returns."
+cite = ["research_williams_aldrich_theodorou_2017"]
+digest = "2bfd91aa445979d6"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Monte Carlo Tree Search Action Value"
+gloss = "The value of an edge in the search tree is the mean of the returns of the simulations that passed through it."
+cite = ["research_schrittwieser_et_al_2020"]
+digest = "157663556a56df19"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Variational Autoencoder Encoder and Decoder"
+gloss = "An encoder maps each observation to a distribution over latent codes and a decoder reconstructs the observation from a code."
+cite = ["research_ha_schmidhuber_2018"]
+digest = "4ad4c07a9b9cba80"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Evidence Lower Bound"
+gloss = "The evidence lower bound is the expected reconstruction log likelihood less the Kullback-Leibler divergence of the encoder from the prior."
+cite = []
+digest = "6bae62d96fe93d27"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Recurrent Latent Dynamics Model"
+gloss = "A recurrent mixture density network predicts the next latent code from the current code, action and hidden state."
+cite = ["research_ha_schmidhuber_2018"]
+digest = "6e33db1ace3caf1b"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Latent-Space Controller"
+gloss = "A compact controller selects the action from the latent code and the recurrent hidden state."
+cite = ["research_ha_schmidhuber_2018"]
+digest = "c97aadb03c46745b"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Recurrent State-Space Model Transition"
+gloss = "The recurrent state-space model advances a deterministic recurrent state and draws a stochastic latent conditioned on it."
+cite = ["research_hafner_et_al_2019"]
+digest = "be358257272e5895"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Recurrent State-Space Model Loss"
+gloss = "The model maximises the likelihood of observations and rewards while a weighted Kullback-Leibler term aligns the observation-conditioned posterior with the prior."
+cite = ["research_hafner_et_al_2019"]
+digest = "a1e6e18512b271e3"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Imagined Latent Trajectory"
+gloss = "Dreamer rolls the world model forward from a real latent state under the current policy to produce imagined states, actions and rewards."
+cite = ["research_hafner_lillicrap_ba_norouzi_2020_dreamer"]
+digest = "be1c47fd49d217eb"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Truncated Lambda-Return over an Imagined Horizon"
+gloss = "The critic target is a geometrically weighted average of $n$-step returns truncated at the imagination horizon."
+cite = ["research_hafner_lillicrap_ba_norouzi_2020_dreamer"]
+digest = "9058f32a542974d5"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Dreamer Actor Gradient"
+gloss = "The actor ascends the imagined return and terminal value by differentiating through the learned dynamics, plus an entropy bonus."
+cite = ["research_hafner_lillicrap_ba_norouzi_2020_dreamer"]
+digest = "025123dfcf6beab8"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Discrete Categorical Latent"
+gloss = "DreamerV2 represents the latent state as one-hot categorical variables trained with straight-through gradients."
+cite = ["research_hafner_lillicrap_norouzi_ba_2020"]
+digest = "ceb7e9b791db1747"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Model-Based Value Expansion Target"
+gloss = "The target sums $H$ model-predicted rewards and bootstraps from the value of the model-predicted state at the horizon."
+cite = ["research_feinberg_et_al_2018"]
+digest = "9d2b7bf479e5a99c"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Stochastic Ensemble Value Expansion Target"
+gloss = "Targets at several horizons are combined with weights inversely proportional to their ensemble variances."
+cite = ["research_buckman_et_al_2018"]
+digest = "f57991a4383b6e6a"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Stochastic Value Gradient"
+gloss = "The policy gradient is obtained by back-propagating reward and value gradients through a differentiable dynamics model."
+cite = ["research_heess_wayne_silver_lillicrap_erez_tassa_2015"]
+digest = "14de25cd87c8fdd2"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Task-Conditioned Dynamics Model"
+gloss = "The dynamics model takes a latent task embedding inferred from a short adaptation trajectory as an extra input."
+cite = []
+digest = "a6f9a4fd85a106aa"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Uncertainty-Penalised Reward"
+gloss = "Model-based offline policy optimisation subtracts from the model reward a multiple of the ensemble uncertainty."
+cite = ["research_yu_et_al_2020_mopo"]
+digest = "99c0e7d1537f84b4"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Value and Reward Equivalence Loss"
+gloss = "The article combines the squared value discrepancy of the predicted next state with a squared reward error weighted by $\\eta$, an illustrative composite rather than the loss of any one cited method."
+cite = []
+digest = "2f26e985c3d03f5e"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Minimax Sample Complexity of Tabular Model-Based Learning"
+gloss = "Model-based learning finds an $\\epsilon$-optimal policy in a finite-horizon tabular process with a number of samples linear in the state and action counts, cubic in the horizon and inverse quadratic in $\\epsilon$."
+cite = []
+digest = "2b06f7a9fedb1a08"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Top-Down Prediction in Predictive Coding"
+gloss = "Each level predicts the activity of the level below through its weights and a nonlinearity."
+cite = ["research_rao_ballard_1999"]
+digest = "dae3d2c8588dff87"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Prediction Error at a Level"
+gloss = "The prediction error is the activity at a level less the prediction from the level above."
+cite = ["research_rao_ballard_1999"]
+digest = "0ca133a2445bafa0"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Predictive Coding Activity Dynamics"
+gloss = "Latent activity descends the prediction errors that it influences, pulled toward its own prediction and pushed to explain the errors of the adjacent level."
+cite = ["research_rao_ballard_1999"]
+digest = "87b499f18b2ec4e3"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Predictive Coding Weight Learning"
+gloss = "Weights change in proportion to the product of the prediction error and the activity that generated the prediction, a Hebbian form."
+cite = ["research_rao_ballard_1999"]
+digest = "0df6ade6a6f13f28"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Variational Free Energy"
+gloss = "The variational free energy equals the divergence from the recognition distribution to the true posterior minus the log evidence, so minimising it both improves inference and bounds surprise."
+cite = ["research_friston_2010"]
+digest = "8aea659d572b7576"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Expected Free Energy of a Policy"
+gloss = "Active inference scores a policy by the expected difference between the log approximate posterior and the log generative model over predicted states and outcomes."
+cite = ["research_friston_2010"]
+digest = "9954c9ee2b8fe8cc"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Epistemic and Pragmatic Decomposition of Expected Free Energy"
+gloss = "Expected free energy splits into a negative expected information gain about hidden states and a negative expected log preference for outcomes."
+cite = ["research_millidge_tschantz_buckley_2021"]
+digest = "2f12d3c55b5fe279"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Softmax Policy Posterior"
+gloss = "Policies are selected with probability proportional to the exponential of their negative expected free energy."
+cite = []
+digest = "6b96f10993417d93"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Motor Forward Model"
+gloss = "A forward model predicts the next sensory state from the current state and motor command."
+cite = ["research_wolpert_ghahramani_jordan_1995"]
+digest = "feb4583b1a786014"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Sensory Prediction Error"
+gloss = "The sensory prediction error is the observed next state less the forward model's prediction."
+cite = ["research_wolpert_ghahramani_jordan_1995"]
+digest = "d9d79a7019cd6c0a"
+
+[[symbol]]
+tex = 'b_t(s)'
+meaning = "the belief state, a probability distribution over hidden states at step $t$"
+
+[[symbol]]
+tex = "O(o_{t+1} \\mid s')"
+meaning = "the observation likelihood"
+
+[[symbol]]
+tex = '\hat{P}_\theta'
+meaning = "the learned dynamics model"
+
+[[symbol]]
+tex = '\hat{R}'
+meaning = "the learned reward model"
+
+[[symbol]]
+tex = '\Sigma_k(s, a)'
+meaning = "the predicted covariance of ensemble member $k$"
+
+[[symbol]]
+tex = 'H'
+meaning = "the planning or imagination horizon"
+
+[[symbol]]
+tex = '\mathcal{E}'
+meaning = "the elite set of the cross-entropy method"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the softmax temperature in equation 19, the return mixing parameter in equation 28 and the uncertainty penalty in equation 35"
+
+[[symbol]]
+tex = 'z_t'
+meaning = "the latent code at step $t$"
+
+[[symbol]]
+tex = 'h_t'
+meaning = "the deterministic recurrent state"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the entropy coefficient in equation 29 and the reward weight in equation 36"
+
+[[symbol]]
+tex = 'u(s, a)'
+meaning = "the ensemble uncertainty estimate"
+
+[[symbol]]
+tex = 'r^{(l)}'
+meaning = "the latent activity at level $l$ of a predictive coding hierarchy"
+
+[[symbol]]
+tex = 'W^{(l)}'
+meaning = "the generative weights from level $l+1$ to level $l$"
+
+[[symbol]]
+tex = '\epsilon^{(l)}'
+meaning = "the prediction error at level $l$"
+
+[[symbol]]
+tex = 'q(s)'
+meaning = "the approximate posterior, or recognition distribution, over hidden states"
+
+[[symbol]]
+tex = 'G(\pi)'
+meaning = "the expected free energy of policy $\\pi$"
+
+[[symbol]]
+tex = 'u_t'
+meaning = "the motor command at step $t$"

@@ -1,0 +1,523 @@
+# Equation classification for A251. Read by `python3 _lib/equations.py`.
+
+caution = "Rewards are taken to lie in the unit interval unless the text states a subgaussian tail, regret carries the units of reward, and every order bound hides constants that differ between the algorithms it compares."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Expected Cumulative Reward"
+gloss = "The learner seeks to maximise the expected sum of rewards collected over the horizon."
+cite = []
+digest = "c1952c71307c7e69"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Cumulative Regret of a Stochastic Bandit"
+gloss = "Regret is the expected shortfall of the collected reward against always playing the arm with the highest mean."
+cite = []
+digest = "41c38eed71471f42"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Regret Decomposition by Arm"
+gloss = "Regret equals the sum over arms of each suboptimality gap times the expected number of pulls of that arm."
+cite = []
+digest = "94587364e3754cd4"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Simple Regret"
+gloss = "Simple regret is the gap between the optimal mean and the mean of the arm recommended after the final round."
+cite = []
+digest = "de1b739c85d3d031"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Empirical Mean of an Arm"
+gloss = "The empirical mean of an arm is the average of the rewards from its first $n$ pulls."
+cite = []
+digest = "54c670e104b3c0dd"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Hoeffding Inequality for Bounded Rewards"
+gloss = "For rewards in the unit interval the probability that the empirical mean deviates from the true mean by at least $\\epsilon$ falls exponentially in $n \\epsilon^2$."
+cite = []
+digest = "968a5129e4db7c10"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Subgaussian Concentration of the Empirical Mean"
+gloss = "For rewards with a subgaussian tail of parameter $\\sigma$ the same deviation probability falls exponentially in $n \\epsilon^2 / 2 \\sigma^2$."
+cite = []
+digest = "7adf97f66d2d3d90"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Pseudo-Regret"
+gloss = "Pseudo-regret compares the optimal mean against the true means of the arms played, without the noise of realised rewards."
+cite = []
+digest = "5c4b96f03c930829"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Bayesian Regret"
+gloss = "Bayesian regret averages the regret of an algorithm over a prior on the environment parameters."
+cite = []
+digest = "8da089d8c7ab6b82"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Regret of Decaying Epsilon-Greedy Exploration"
+gloss = "With the exploration probability decaying as $1/t$ and tuned to the smallest gap, epsilon-greedy exploration achieves regret logarithmic in the horizon."
+cite = ["research_auer_cesa_bianchi_fischer_2002"]
+digest = "e480723671b54764"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Gap-Free Regret of Explore-Then-Commit"
+gloss = "Explore-then-commit with an exploration budget tuned without knowledge of the gaps incurs regret growing as the two-thirds power of the horizon."
+cite = []
+digest = "3839c3ded9242ddf"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Kullback-Leibler Divergence"
+gloss = "The Kullback-Leibler divergence is the expectation under $P$ of the log ratio of the two densities."
+cite = []
+digest = "1b0108e929ac27dc"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Lai-Robbins Asymptotic Lower Bound"
+gloss = "Any consistent algorithm must incur regret at least logarithmic in the horizon, with a constant set by each gap divided by the divergence between that arm and the optimal arm."
+cite = ["research_lai_robbins_1985"]
+digest = "82887ef79282d64a"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Minimax Regret Lower Bound"
+gloss = "No algorithm can guarantee worst-case regret growing more slowly than the square root of $K T$."
+cite = ["research_auer_cesa_bianchi_freund_schapire_2002"]
+digest = "741bd07cc718adfc"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "UCB1 Arm Selection"
+gloss = "The UCB1 rule, an upper confidence bound algorithm, plays the arm whose empirical mean plus a Hoeffding confidence radius is largest."
+cite = ["research_auer_cesa_bianchi_fischer_2002"]
+digest = "1073dee0ff05746c"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Finite-Time Regret Bound of UCB1"
+gloss = "UCB1 incurs regret at most a logarithmic term inversely proportional to each gap plus a constant proportional to the sum of the gaps."
+cite = ["research_auer_cesa_bianchi_fischer_2002"]
+digest = "4925b4662f5a2d5e"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "UCB-V Arm Selection"
+gloss = "UCB-V replaces the worst-case confidence radius by one built from the empirical variance plus a range correction."
+cite = ["research_audibert_munos_szepesvari_2009"]
+digest = "d45ffc838a28afb2"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "KL-UCB Arm Selection"
+gloss = "KL-UCB plays the arm whose largest plausible mean, the largest value within a Kullback-Leibler confidence set around the empirical mean, is highest."
+cite = ["research_cappe_et_al_2013"]
+digest = "b21be039e600dae7"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "LinUCB Arm Selection"
+gloss = "LinUCB plays the arm whose estimated linear reward plus an ellipsoidal confidence width is largest."
+cite = ["research_li_et_al_2010"]
+digest = "ab4d7b626fa338d0"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Ridge-Regularised Design Matrix"
+gloss = "The design matrix sums the outer products of the feature vectors played so far on top of a ridge term."
+cite = []
+digest = "2d258a74e91f1493"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Ridge Regression Estimate of the Linear Parameter"
+gloss = "The parameter estimate is the regularised least-squares solution from the features played and rewards received."
+cite = []
+digest = "7d8c75148fa8da25"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Regret of Linear Upper Confidence Bound Methods"
+gloss = "In the linear stochastic setting optimistic algorithms incur regret that scales with the feature dimension rather than the arm count."
+cite = []
+digest = "392164ca2f14be7f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Information-Theoretic Bayesian Regret Bound for Thompson Sampling"
+gloss = "The Bayesian regret of Thompson sampling is bounded by the square root of the horizon times the entropy of the prior over the optimal arm."
+cite = ["research_russo_van_roy_2014"]
+digest = "c9e53c43bf93611c"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Frequentist Regret of Linear Thompson Sampling"
+gloss = "Linear Thompson sampling matches the square-root dependence on the horizon of linear upper confidence bound methods with a worse dependence on dimension."
+cite = ["research_agrawal_goyal_2013"]
+digest = "e195db80eb4966fb"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Importance-Weighted Reward Estimate"
+gloss = "Dividing the observed reward by the probability of the arm played gives an unbiased estimate of every arm's reward."
+cite = ["research_auer_cesa_bianchi_freund_schapire_2002"]
+digest = "a91f8a95bfb5ea6b"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "EXP3 Exponential Weight Update"
+gloss = "EXP3, the exponential-weight algorithm for exploration and exploitation, multiplies each arm's weight by the exponential of the learning rate times its estimated reward."
+cite = ["research_auer_cesa_bianchi_freund_schapire_2002"]
+digest = "9405b7e163e3308c"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "EXP3 Sampling Distribution with Uniform Mixing"
+gloss = "The probability of playing an arm mixes its normalised weight with a uniform distribution so that every arm keeps some chance of being explored."
+cite = ["research_auer_cesa_bianchi_freund_schapire_2002"]
+digest = "b97ab650c2061df4"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Tuned EXP3 Learning Rate"
+gloss = "The learning rate that balances the terms of the EXP3 analysis scales as the square root of $\\log K$ over $T K$."
+cite = []
+digest = "d2adf85765cfc725"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Regret Bound of EXP3"
+gloss = "With the tuned learning rate EXP3 incurs regret against any adversary of order the square root of $T K \\log K$."
+cite = []
+digest = "1c5f07f9205b0f19"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Adversarial Regret Lower Bound"
+gloss = "Every algorithm suffers worst-case regret at least of order the square root of $T K$ against an adversary, so EXP3 is optimal up to a logarithmic factor."
+cite = []
+digest = "d43c8853943d9f4a"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Tsallis-INF Update"
+gloss = "Tsallis-INF plays the distribution on the simplex that minimises the estimated cumulative loss regularised by the Tsallis entropy of power one half."
+cite = ["research_zimmert_seldin_2019"]
+digest = "fbd88ec915b83dbe"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Stochastic Contextual Bandit Reward Model"
+gloss = "The reward is an unknown function of the context and the chosen arm plus zero-mean noise."
+cite = []
+digest = "47b5d822592f2f2e"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Regret of Policy-Class Contextual Bandit Algorithms"
+gloss = "Algorithms competing with a finite policy class incur regret that grows only logarithmically in the size of that class."
+cite = ["research_beygelzimer_et_al_2011"]
+digest = "fe3f8ba089f5cf4c"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Linear Bandit Reward Model"
+gloss = "Each arm's mean reward is the inner product of an unknown parameter with a known feature vector of the arm."
+cite = []
+digest = "7a7d1202c692517e"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Regret of Gaussian Process Upper Confidence Bound"
+gloss = "The Gaussian process upper confidence bound algorithm incurs regret governed by the maximum information gain of the kernel in place of the dimension."
+cite = ["research_srinivas_et_al_2010"]
+digest = "3dc55f8e1dcc527a"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Maximum Information Gain of a Kernel"
+gloss = "The maximum information gain is the largest mutual information between the function and any $T$ noisy observations, expressed through the log determinant of the Gram matrix."
+cite = ["research_srinivas_et_al_2010"]
+digest = "cba72d4f2f92d530"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Regret of Combinatorial Bandits"
+gloss = "Combinatorial bandit algorithms incur regret that depends on the logarithm of the action set size rather than on the size itself."
+cite = ["research_cesa_bianchi_lugosi_2012"]
+digest = "9ceb0c09137c817f"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Regret of the Zooming Algorithm for Lipschitz Bandits"
+gloss = "The zooming algorithm incurs regret whose exponent in the horizon rises from one half toward one as the zooming dimension grows."
+cite = ["research_kleinberg_slivkins_upfal_2008"]
+digest = "10a6aeeab2210ae1"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Regret Under Delayed Feedback"
+gloss = "A black-box reduction adds to the undelayed regret a term proportional to the expected delay times the square root of the horizon."
+cite = ["research_joulani_gyorgy_szepesvari_2013"]
+digest = "33ccaa6509c2bf67"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Regret with Graph-Structured Feedback"
+gloss = "With side observations along a feedback graph the arm count in the regret bound is replaced by the independence number of the graph."
+cite = ["research_alon_et_al_2013"]
+digest = "eed1c0210db2333b"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "One-Point Gradient Estimator"
+gloss = "A single function value at a randomly perturbed point, scaled by the dimension over the perturbation radius, gives an unbiased gradient of a smoothed loss."
+cite = ["research_flaxman_kalai_mcmahan_2005"]
+digest = "5b51543c7645162c"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Regret of Bandit Gradient Descent"
+gloss = "Online gradient descent driven by the one-point estimator incurs regret of order the three-quarters power of the horizon for general convex losses."
+cite = ["research_flaxman_kalai_mcmahan_2005"]
+digest = "21577a330fcbd6f5"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Successive Elimination Criterion"
+gloss = "An arm is discarded once its empirical mean falls below the best by more than twice a confidence radius chosen so that the optimal arm survives with probability $1 - \\delta$."
+cite = ["research_even_dar_mannor_mansour_2006"]
+digest = "15b6ce667e9f463f"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Fixed-Confidence Sample Complexity Lower Bound"
+gloss = "Any $\\delta$-correct identification strategy needs an expected number of samples at least a characteristic time of the instance times $\\log(1/\\delta)$."
+cite = ["research_garivier_kaufmann_2016"]
+digest = "02768a1ead47774b"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Sliding-Window Upper Confidence Bound"
+gloss = "Sliding-window UCB computes the empirical mean and confidence radius from only the most recent $\\tau$ rounds so that it can track abrupt changes."
+cite = ["research_garivier_moulines_2011"]
+digest = "41a5bb7fc243038c"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Discounted Empirical Mean"
+gloss = "The discounted mean weights each past reward from an arm by the discount factor raised to its age."
+cite = ["research_garivier_moulines_2011"]
+digest = "d9bcd04ef0f243c8"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Whittle Index"
+gloss = "The Whittle index of an arm in a state is the passive subsidy at which activating and resting the arm become equally attractive."
+cite = ["research_whittle_1988"]
+digest = "aeeefaec55ac962d"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Hedge Multiplicative Weight Update"
+gloss = "Hedge multiplies each expert's weight by the exponential of minus the learning rate times that expert's loss."
+cite = ["research_freund_schapire_1997"]
+digest = "fcb4ba4ac7f377dd"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Regret Bound of Hedge"
+gloss = "With full information Hedge incurs regret against the best of $N$ experts of order the square root of $T \\log N$."
+cite = ["research_freund_schapire_1997"]
+digest = "9efb5ce1523300de"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Projected Online Gradient Descent"
+gloss = "Online gradient descent takes a gradient step on the current loss and projects the result back onto the feasible convex set."
+cite = ["research_zinkevich_2003"]
+digest = "fe7ba1d0e8c156b5"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Regret Bound of Online Gradient Descent"
+gloss = "Online gradient descent incurs regret at most a term in the squared diameter over the step size plus a term in the squared gradient bound times the step size and horizon."
+cite = ["research_zinkevich_2003"]
+digest = "9fb39849abefc4da"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Follow the Regularised Leader"
+gloss = "Follow the regularised leader plays the point minimising the cumulative past loss plus a strongly convex regulariser scaled by the inverse learning rate."
+cite = []
+digest = "90ed61758ea557b4"
+
+[[symbol]]
+tex = 'K'
+meaning = "the number of arms"
+
+[[symbol]]
+tex = 'T'
+meaning = "the horizon, the number of rounds"
+
+[[symbol]]
+tex = 'X_t'
+meaning = "the reward received at round $t$"
+
+[[symbol]]
+tex = 'A_t'
+meaning = "the arm played at round $t$"
+
+[[symbol]]
+tex = '\mu^*'
+meaning = "the mean reward of the optimal arm"
+
+[[symbol]]
+tex = '\mu_a'
+meaning = "the mean reward of arm $a$"
+
+[[symbol]]
+tex = '\Delta_a'
+meaning = "the suboptimality gap of arm $a$"
+
+[[symbol]]
+tex = 'N_a(T)'
+meaning = "the number of times arm $a$ has been played by round $T$"
+
+[[symbol]]
+tex = '\hat{\mu}_a'
+meaning = "the empirical mean reward of arm $a$"
+
+[[symbol]]
+tex = 'R_T'
+meaning = "the cumulative regret over horizon $T$"
+
+[[symbol]]
+tex = '\text{KL}'
+meaning = "the Kullback-Leibler divergence"
+
+[[symbol]]
+tex = '\nu_a'
+meaning = "the reward distribution of arm $a$"
+
+[[symbol]]
+tex = 'x_a'
+meaning = "the feature vector of arm $a$ in a linear bandit"
+
+[[symbol]]
+tex = 'V_t'
+meaning = "the ridge-regularised design matrix in a linear bandit"
+
+[[symbol]]
+tex = '\hat{\theta}_t'
+meaning = "the ridge regression estimate of the linear parameter"
+
+[[symbol]]
+tex = 'H(A^*)'
+meaning = "the entropy of the prior over the optimal arm"
+
+[[symbol]]
+tex = 'p_t(a)'
+meaning = "the probability of playing arm $a$ at round $t$"
+
+[[symbol]]
+tex = 'w_t(a)'
+meaning = "the exponential weight of arm or expert $a$"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the learning rate, except in equation 32, where $\\eta_t$ is zero-mean reward noise"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the uniform mixing parameter of EXP3 in equation 27 and the discount factor in equation 46"
+
+[[symbol]]
+tex = '\gamma_T'
+meaning = "the maximum information gain of a kernel after $T$ observations"
+
+[[symbol]]
+tex = '\alpha(G)'
+meaning = "the independence number of the feedback graph"
+
+[[symbol]]
+tex = '\bar{D}'
+meaning = "the expected feedback delay"
+
+[[symbol]]
+tex = 'T^*(\mu)'
+meaning = "the characteristic time of a best-arm identification instance"
+
+[[symbol]]
+tex = '\Pi_{\mathcal{K}}'
+meaning = "the Euclidean projection onto the feasible convex set"
+
+[[symbol]]
+tex = 'W_a(x)'
+meaning = "the Whittle index of arm $a$ in state $x$"

@@ -45,11 +45,17 @@ Real environments frequently violate the full-observability assumption of the Ma
 
 The belief-state MDP formulation replaces the hidden state with the belief
 
-$$b_t(s) = \Pr(s_t = s \mid o_{1:t}, a_{1:t-1})$$
+$$
+b_t(s) = \Pr(s_t = s \mid o_{1:t}, a_{1:t-1})
+\tag{1}
+$$
 
 updated via Bayes' rule at each step,
 
-$$b_{t+1}(s') = \frac{O(o_{t+1} \mid s') \sum_s P(s' \mid s, a_t) b_t(s)}{\sum_{s''} O(o_{t+1} \mid s'') \sum_s P(s'' \mid s, a_t) b_t(s)}$$
+$$
+b_{t+1}(s') = \frac{O(o_{t+1} \mid s') \sum_s P(s' \mid s, a_t) b_t(s)}{\sum_{s''} O(o_{t+1} \mid s'') \sum_s P(s'' \mid s, a_t) b_t(s)}
+\tag{2}
+$$
 
 The belief MDP has a fully-observed state space (the space of beliefs) but is generally infinite-dimensional and requires approximation for practical algorithms.
 
@@ -65,27 +71,42 @@ Model-based reinforcement learning admits several distinct model formulations an
 
 Forward dynamics models predict the next state given the current state and action,
 
-$$\hat{P}_\theta(s' \mid s, a) \approx P(s' \mid s, a)$$
+$$
+\hat{P}_\theta(s' \mid s, a) \approx P(s' \mid s, a)
+\tag{3}
+$$
 
 with parameters $\theta$ trained by maximum likelihood on collected transitions,
 
-$$L_{\text{ML}}(\theta) = -\mathbb{E}_{(s, a, s') \sim \mathcal{D}}\!\left[\log \hat{P}_\theta(s' \mid s, a)\right]$$
+$$
+L_{\text{ML}}(\theta) = -\mathbb{E}_{(s, a, s') \sim \mathcal{D}}\!\left[\log \hat{P}_\theta(s' \mid s, a)\right]
+\tag{4}
+$$
 
 or equivalently by minimizing the KL divergence between empirical and model distributions,
 
-$$L_{\text{KL}}(\theta) = D_{\text{KL}}(P_{\text{data}}(s' \mid s, a) \, \| \, \hat{P}_\theta(s' \mid s, a))$$
+$$
+L_{\text{KL}}(\theta) = D_{\text{KL}}(P_{\text{data}}(s' \mid s, a) \, \| \, \hat{P}_\theta(s' \mid s, a))
+\tag{5}
+$$
 
 For deterministic environments the model may output a point estimate, for stochastic environments the model should output a distribution.
 
 Reward models predict the reward given state and action or state, action, and next state,
 
-$$\hat{R}_\phi(s, a) \approx \mathbb{E}[R(s, a)]$$
+$$
+\hat{R}_\phi(s, a) \approx \mathbb{E}[R(s, a)]
+\tag{6}
+$$
 
 trained by regression on observed rewards.
 
 Inverse dynamics models predict the action that connects two consecutive states,
 
-$$\hat{A}_\psi(a \mid s, s') \approx \Pr(a_t = a \mid s_t = s, s_{t+1} = s')$$
+$$
+\hat{A}_\psi(a \mid s, s') \approx \Pr(a_t = a \mid s_t = s, s_{t+1} = s')
+\tag{7}
+$$
 
 Inverse dynamics are useful for representation learning (article four's ICM used them), for planning through backchaining from desired states, and for imitation learning from state-only demonstrations.
 
@@ -93,7 +114,10 @@ Latent dynamics models operate in a learned latent space rather than the raw obs
 
 Value-equivalent models train the model to produce accurate value predictions rather than accurate observation predictions,
 
-$$L_{\text{VE}}(\theta) = \mathbb{E}\!\left[(V_\pi(s') - V_\pi(\hat{s}'))^2\right]$$
+$$
+L_{\text{VE}}(\theta) = \mathbb{E}\!\left[(V_\pi(s') - V_\pi(\hat{s}'))^2\right]
+\tag{8}
+$$
 
 focusing model capacity on the aspects of state relevant for control rather than on visual fidelity. MuZero and related methods pursue this direction.
 
@@ -103,17 +127,26 @@ Task-relevant models make similar restrictions to the state representation by co
 
 The Dyna architecture of [Sutton 1990][research_sutton_1990] provides the archetypal integration of model-free and model-based updates. After each real transition $(s, a, r, s')$, the agent updates its Q-function on the real transition, updates its tabular model of $\hat{P}$ and $\hat{R}$, and performs $n$ simulated Q-updates by sampling states and actions from the model. The mechanism reuses each real transition through the model,
 
-$$Q(s, a) \leftarrow Q(s, a) + \alpha \left[r + \gamma \max_{a'} Q(s', a') - Q(s, a)\right]$$
+$$
+Q(s, a) \leftarrow Q(s, a) + \alpha \left[r + \gamma \max_{a'} Q(s', a') - Q(s, a)\right]
+\tag{9}
+$$
 
 for real transitions and
 
-$$Q(\tilde{s}, \tilde{a}) \leftarrow Q(\tilde{s}, \tilde{a}) + \alpha \left[\hat{R}(\tilde{s}, \tilde{a}) + \gamma \max_{a'} Q(\tilde{s}', a') - Q(\tilde{s}, \tilde{a})\right]$$
+$$
+Q(\tilde{s}, \tilde{a}) \leftarrow Q(\tilde{s}, \tilde{a}) + \alpha \left[\hat{R}(\tilde{s}, \tilde{a}) + \gamma \max_{a'} Q(\tilde{s}', a') - Q(\tilde{s}, \tilde{a})\right]
+\tag{10}
+$$
 
 for imagined transitions $(\tilde{s}, \tilde{a}, \hat{R}(\tilde{s}, \tilde{a}), \tilde{s}')$ sampled from the model. Sample efficiency gains scale with the accuracy of the learned model and the ratio of imagined to real updates.
 
 Prioritized sweeping extends Dyna by maintaining a priority queue of state-action pairs to update, ordered by predicted TD error magnitude. Each state-action pair $(s, a)$ is assigned a priority
 
-$$\text{priority}(s, a) = \left| \hat{R}(s, a) + \gamma \max_{a'} Q(\hat{s}', a') - Q(s, a) \right|$$
+$$
+\text{priority}(s, a) = \left| \hat{R}(s, a) + \gamma \max_{a'} Q(\hat{s}', a') - Q(s, a) \right|
+\tag{11}
+$$
 
 and the algorithm sweeps the pairs with the highest priorities first. The mechanism focuses computation on the parts of the state space with the largest uncertainty about value, providing significant acceleration in problems with sparse reward.
 
@@ -121,7 +154,10 @@ Real-time dynamic programming updates value estimates only along trajectories th
 
 PILCO of Deisenroth and Rasmussen 2011 combined Gaussian process regression on the dynamics with analytic policy improvement through moment matching. The PILCO objective computes the expected long-horizon return under the Gaussian process posterior over dynamics,
 
-$$J(\pi) = \mathbb{E}_{p, \pi, \hat{P}}\!\left[\sum_{t=0}^{T} r(s_t)\right]$$
+$$
+J(\pi) = \mathbb{E}_{p, \pi, \hat{P}}\!\left[\sum_{t=0}^{T} r(s_t)\right]
+\tag{12}
+$$
 
 where the expectation is taken over both policy stochasticity and posterior model uncertainty. Analytic gradients through the objective enable policy improvement via gradient ascent. PILCO achieved order-of-magnitude sample-efficiency improvements over model-free methods on cart-pole and other continuous control benchmarks.
 
@@ -131,11 +167,17 @@ Related Gaussian-process-based methods including Bayesian black-box optimization
 
 The transition to neural network dynamics models enabled deep model-based reinforcement learning on high-dimensional problems that Gaussian processes could not scale to. A deterministic neural dynamics model outputs a point prediction of the next state,
 
-$$\hat{s}' = f_\theta(s, a)$$
+$$
+\hat{s}' = f_\theta(s, a)
+\tag{13}
+$$
 
 trained by mean-squared-error regression on collected transitions. Stochastic neural dynamics models output a distribution, typically parameterized as a Gaussian,
 
-$$\hat{P}_\theta(s' \mid s, a) = \mathcal{N}(s' ; \mu_\theta(s, a), \Sigma_\theta(s, a))$$
+$$
+\hat{P}_\theta(s' \mid s, a) = \mathcal{N}(s' ; \mu_\theta(s, a), \Sigma_\theta(s, a))
+\tag{14}
+$$
 
 with mean and covariance networks jointly trained by maximum likelihood.
 
@@ -155,11 +197,17 @@ Bayesian methods maintain a posterior over model parameters and characterize epi
 
 The PETS framework of Chua et al 2018 provides the canonical uncertainty-aware model-based method. An ensemble of probabilistic dynamics models are trained, each outputting a Gaussian over next states,
 
-$$\hat{P}_k(s' \mid s, a) = \mathcal{N}(\mu_k(s, a), \Sigma_k(s, a))$$
+$$
+\hat{P}_k(s' \mid s, a) = \mathcal{N}(\mu_k(s, a), \Sigma_k(s, a))
+\tag{15}
+$$
 
 The ensemble mean and variance across $K$ members provide combined estimates,
 
-$$\bar{\mu}(s, a) = \frac{1}{K} \sum_k \mu_k(s, a), \quad \bar{\Sigma}(s, a) = \underbrace{\frac{1}{K} \sum_k \Sigma_k(s, a)}_{\text{aleatoric}} + \underbrace{\frac{1}{K} \sum_k (\mu_k - \bar{\mu})(\mu_k - \bar{\mu})^\top}_{\text{epistemic}}$$
+$$
+\bar{\mu}(s, a) = \frac{1}{K} \sum_k \mu_k(s, a), \quad \bar{\Sigma}(s, a) = \underbrace{\frac{1}{K} \sum_k \Sigma_k(s, a)}_{\text{aleatoric}} + \underbrace{\frac{1}{K} \sum_k (\mu_k - \bar{\mu})(\mu_k - \bar{\mu})^\top}_{\text{epistemic}}
+\tag{16}
+$$
 
 with the first term capturing aleatoric uncertainty (the average within-ensemble variance) and the second term capturing epistemic uncertainty (the variance of ensemble means). Trajectory sampling propagates uncertainty through rollouts by resampling which ensemble member to use at each step (Trajectory Sampling 1, TS1) or by fixing the ensemble member across the trajectory (Trajectory Sampling infinity, TS-inf).
 
@@ -173,17 +221,26 @@ Model predictive control (MPC) uses the learned model to plan a sequence of acti
 
 The general MPC objective at state $s_t$ is
 
-$$a_t = \arg\max_{a_{t:t+H-1}} \mathbb{E}_{\hat{P}}\!\left[\sum_{k=0}^{H-1} \gamma^k r(s_{t+k}, a_{t+k}) + \gamma^H V(s_{t+H})\right]$$
+$$
+a_t = \arg\max_{a_{t:t+H-1}} \mathbb{E}_{\hat{P}}\!\left[\sum_{k=0}^{H-1} \gamma^k r(s_{t+k}, a_{t+k}) + \gamma^H V(s_{t+H})\right]
+\tag{17}
+$$
 
 where the expectation is over model predictions, $H$ is the planning horizon, and $V(s_{t+H})$ is a learned or bootstrapped value function that estimates the return from the horizon.
 
 Sampling-based planners including the cross-entropy method (CEM) of [Rubinstein 1997][research_rubinstein_1997], model predictive path integral (MPPI) of [Williams et al. 2017][research_williams_aldrich_theodorou_2017], and their variants sample sequences of actions from a proposal distribution, evaluate them against the model, and refine the proposal distribution based on the top-scoring samples. The CEM update rule for a Gaussian proposal $\mathcal{N}(\mu_i, \sigma_i^2)$ over action sequences is
 
-$$\mu_{i+1} = \frac{1}{|\mathcal{E}|} \sum_{a \in \mathcal{E}} a, \quad \sigma_{i+1}^2 = \frac{1}{|\mathcal{E}|} \sum_{a \in \mathcal{E}} (a - \mu_{i+1})^2$$
+$$
+\mu_{i+1} = \frac{1}{|\mathcal{E}|} \sum_{a \in \mathcal{E}} a, \quad \sigma_{i+1}^2 = \frac{1}{|\mathcal{E}|} \sum_{a \in \mathcal{E}} (a - \mu_{i+1})^2
+\tag{18}
+$$
 
 where $\mathcal{E}$ is the elite set of top-scoring sampled action sequences at iteration $i$. MPPI uses a soft-max weighting rather than a hard-elite selection,
 
-$$w_j = \frac{\exp(\lambda R_j)}{\sum_{j'} \exp(\lambda R_{j'})}, \quad \mu_{i+1} = \sum_j w_j \, a_j$$
+$$
+w_j = \frac{\exp(\lambda R_j)}{\sum_{j'} \exp(\lambda R_{j'})}, \quad \mu_{i+1} = \sum_j w_j \, a_j
+\tag{19}
+$$
 
 with temperature $\lambda$ controlling the weighting sharpness. The iCEM algorithm of [Pinneri et al. 2021][research_pinneri_et_al_2021] provided a widely-used variant with adaptive noise schedules and colored-noise action distributions.
 
@@ -199,7 +256,10 @@ Search-based planning treats the learned model as a simulator over which action-
 
 Monte Carlo tree search (MCTS) combined with learned models has produced the most striking results. MuZero of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020] treated later achieved state-of-the-art performance on chess, shogi, Go, and Atari using MCTS over a learned model. Each MCTS iteration proceeds by selection, expansion, simulation, and backup phases,
 
-$$Q(s_t, a) = \frac{1}{N(s_t, a)} \sum_{i=1}^{N(s_t, a)} G_i^{(a)}$$
+$$
+Q(s_t, a) = \frac{1}{N(s_t, a)} \sum_{i=1}^{N(s_t, a)} G_i^{(a)}
+\tag{20}
+$$
 
 with the mean-return statistic accumulating across simulations that pass through the state-action pair. Action selection at internal nodes uses the PUCT rule of article four, combining the model's predicted policy prior with the visit-count-weighted exploration bonus.
 
@@ -217,19 +277,31 @@ World models represent environment dynamics in a compact learned latent space ra
 
 The [Ha and Schmidhuber 2018][research_ha_schmidhuber_2018] World Models paper provided the canonical modern architecture. A variational autoencoder compresses observations to latent codes,
 
-$$q_\phi(z_t \mid o_t), \quad p_\theta(o_t \mid z_t)$$
+$$
+q_\phi(z_t \mid o_t), \quad p_\theta(o_t \mid z_t)
+\tag{21}
+$$
 
 with the standard evidence lower bound objective
 
-$$\text{ELBO}(\phi, \theta; o_t) = \mathbb{E}_{q_\phi}\!\left[\log p_\theta(o_t \mid z_t)\right] - D_{\text{KL}}(q_\phi(z_t \mid o_t) \, \| \, p(z_t))$$
+$$
+\text{ELBO}(\phi, \theta; o_t) = \mathbb{E}_{q_\phi}\!\left[\log p_\theta(o_t \mid z_t)\right] - D_{\text{KL}}(q_\phi(z_t \mid o_t) \, \| \, p(z_t))
+\tag{22}
+$$
 
 trading observation reconstruction quality against KL divergence from the prior. A recurrent mixture density network models the temporal dynamics,
 
-$$p_\psi(z_{t+1} \mid z_t, a_t, h_t)$$
+$$
+p_\psi(z_{t+1} \mid z_t, a_t, h_t)
+\tag{23}
+$$
 
 with hidden state $h_t$ providing temporal memory. A compact controller in the latent space provides action selection,
 
-$$a_t = \pi_\vartheta(z_t, h_t)$$
+$$
+a_t = \pi_\vartheta(z_t, h_t)
+\tag{24}
+$$
 
 The three-component architecture separates perception (VAE), memory (RNN), and control (policy) into modules that can be trained separately or jointly.
 
@@ -237,11 +309,17 @@ Deep Variational Bayes Filters of Karl et al 2017 provide a related architecture
 
 The Recurrent State-Space Model (RSSM) of [Hafner et al. 2019][research_hafner_et_al_2019] PlaNet combined stochastic and deterministic components in the latent state,
 
-$$h_t = f_\theta(h_{t-1}, z_{t-1}, a_{t-1}), \quad z_t \sim p_\theta(z_t \mid h_t)$$
+$$
+h_t = f_\theta(h_{t-1}, z_{t-1}, a_{t-1}), \quad z_t \sim p_\theta(z_t \mid h_t)
+\tag{25}
+$$
 
 with the deterministic component providing long-range memory and the stochastic component capturing environment stochasticity. The RSSM training objective combines observation reconstruction, reward prediction, and a KL regularizer between the observation-conditioned posterior and the observation-free prior,
 
-$$L_{\text{RSSM}}(\theta) = -\mathbb{E}\!\left[\sum_t \log p_\theta(o_t \mid h_t, z_t) + \log p_\theta(r_t \mid h_t, z_t)\right] + \beta \sum_t D_{\text{KL}}(q_\phi(z_t \mid h_t, o_t) \, \| \, p_\theta(z_t \mid h_t))$$
+$$
+L_{\text{RSSM}}(\theta) = -\mathbb{E}\!\left[\sum_t \log p_\theta(o_t \mid h_t, z_t) + \log p_\theta(r_t \mid h_t, z_t)\right] + \beta \sum_t D_{\text{KL}}(q_\phi(z_t \mid h_t, o_t) \, \| \, p_\theta(z_t \mid h_t))
+\tag{26}
+$$
 
 with the KL regularizer aligning the belief maintained from observations with the belief that can be projected forward from the recurrent state alone. The RSSM has become the standard architectural pattern for latent-dynamics world models.
 
@@ -251,21 +329,33 @@ The Dreamer series of Hafner et al 2019, 2020, 2023 extends the world-model fram
 
 Dreamer of [Hafner et al. 2020a][research_hafner_lillicrap_ba_norouzi_2020_dreamer] introduced the imagination-based actor-critic training. The world model produces latent trajectories
 
-$$\{(z_t, a_t, r_t)\}_{t=0}^{H}$$
+$$
+\{(z_t, a_t, r_t)\}_{t=0}^{H}
+\tag{27}
+$$
 
 by rolling out the RSSM forward from a real state $z_0$ with actions sampled from the current policy. The critic is trained to predict the $\lambda$-return over imagined trajectories,
 
-$$V^\lambda_t = (1 - \lambda) \sum_{n=1}^{H-t-1} \lambda^{n-1} V^{(n)}_t + \lambda^{H-t-1} V^{(H-t)}_t$$
+$$
+V^\lambda_t = (1 - \lambda) \sum_{n=1}^{H-t-1} \lambda^{n-1} V^{(n)}_t + \lambda^{H-t-1} V^{(H-t)}_t
+\tag{28}
+$$
 
 with $n$-step return $V^{(n)}\_t = \sum_{k=0}^{n-1} \gamma^k \hat{r}\_{t+k+1} + \gamma^n V(\hat{z}\_{t+n})$, and the actor is trained on these imagined trajectories using analytic gradients through the model,
 
-$$\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \sum_t \gamma^t r_t + \gamma^H V(z_H) + \eta \nabla_\theta H(\pi_\theta)$$
+$$
+\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \sum_t \gamma^t r_t + \gamma^H V(z_H) + \eta \nabla_\theta H(\pi_\theta)
+\tag{29}
+$$
 
 which is possible because the model is differentiable and the gradient flows through the model dynamics as well as the reward function. The entropy regularizer with coefficient $\eta$ prevents premature policy collapse.
 
 DreamerV2 of [Hafner et al. 2020b][research_hafner_lillicrap_norouzi_ba_2020] extended this formulation to Atari with a discrete latent representation and improved training stability. The discrete latent representation
 
-$$z_t = \text{OneHot}(\arg\max_i \pi_\theta^{(i)}(h_t))$$
+$$
+z_t = \text{OneHot}(\arg\max_i \pi_\theta^{(i)}(h_t))
+\tag{30}
+$$
 
 with straight-through estimator gradients enabled markedly larger effective latent space capacity than continuous latents while maintaining differentiability.
 
@@ -281,17 +371,26 @@ MBPO of [Janner et al. 2019][research_janner_fu_zhang_levine_2019] uses ensemble
 
 Model-Value Expansion (MVE) of [Feinberg et al. 2018][research_feinberg_et_al_2018] uses fixed-length model rollouts to extend the TD target with model-based multi-step returns,
 
-$$y_t^{\text{MVE}} = \sum_{k=0}^{H-1} \gamma^k \hat{r}_{t+k+1} + \gamma^H V(\hat{s}_{t+H})$$
+$$
+y_t^{\text{MVE}} = \sum_{k=0}^{H-1} \gamma^k \hat{r}_{t+k+1} + \gamma^H V(\hat{s}_{t+H})
+\tag{31}
+$$
 
 providing improved value function targets for actor-critic learning. Stochastic Ensemble Value Expansion (STEVE) of [Buckman et al. 2018][research_buckman_et_al_2018] extends MVE by computing multi-step targets at multiple horizons and combining them via inverse-variance weighting,
 
-$$y_t^{\text{STEVE}} = \frac{\sum_H (1/\sigma_H^2) \, y_t^{\text{MVE}(H)}}{\sum_H (1/\sigma_H^2)}$$
+$$
+y_t^{\text{STEVE}} = \frac{\sum_H (1/\sigma_H^2) \, y_t^{\text{MVE}(H)}}{\sum_H (1/\sigma_H^2)}
+\tag{32}
+$$
 
 with $\sigma_H^2$ the estimated variance of the $H$-step target from the model ensemble. The mechanism provides an alternative to short rollouts for combining model-based and model-free data sources.
 
 Model-based value gradient methods including SVG of [Heess et al. 2015][research_heess_wayne_silver_lillicrap_erez_tassa_2015] compute analytical gradients of return through the model dynamics,
 
-$$\nabla_\theta J(\theta) = \mathbb{E}\!\left[\sum_t \gamma^t \left(\nabla_a r(s_t, a_t) + \gamma \nabla_a V(s_{t+1}) \nabla_a f_\zeta(s_t, a_t)\right) \nabla_\theta \pi_\theta(s_t)\right]$$
+$$
+\nabla_\theta J(\theta) = \mathbb{E}\!\left[\sum_t \gamma^t \left(\nabla_a r(s_t, a_t) + \gamma \nabla_a V(s_{t+1}) \nabla_a f_\zeta(s_t, a_t)\right) \nabla_\theta \pi_\theta(s_t)\right]
+\tag{33}
+$$
 
 providing an alternative to policy gradient that has proved effective on continuous control.
 
@@ -305,7 +404,10 @@ Model-based meta-policy optimization of [Clavera et al. 2018][research_clavera_e
 
 Latent-variable model-based meta-learning approaches condition the world model on a latent task embedding
 
-$$\hat{P}_\theta(s' \mid s, a, z_{\text{task}})$$
+$$
+\hat{P}_\theta(s' \mid s, a, z_{\text{task}})
+\tag{34}
+$$
 
 with the task embedding inferred from a short adaptation trajectory. The framework supports zero-shot generalization to new tasks that share structure with the training distribution through the shared world model.
 
@@ -319,7 +421,10 @@ The core observation is that a learned model can extrapolate beyond the states c
 
 Model-Based Offline Policy Optimization (MOPO) of [Yu et al. 2020][research_yu_et_al_2020_mopo] and Model-Based Offline Reinforcement Learning (MOReL) of [Kidambi et al. 2020][research_kidambi_et_al_2020_morel] address this trade-off by penalizing policies that visit high-uncertainty regions of the learned model. The MOPO reward penalty takes the form
 
-$$\tilde{r}(s, a) = \hat{r}(s, a) - \lambda \, u(s, a)$$
+$$
+\tilde{r}(s, a) = \hat{r}(s, a) - \lambda \, u(s, a)
+\tag{35}
+$$
 
 where $u(s, a)$ is an uncertainty estimate from the model ensemble and $\lambda$ controls the trade-off between exploiting the model and staying within its trustworthy region.
 
@@ -331,7 +436,10 @@ Empirical results on the D4RL benchmark treated in article eight show that model
 
 The classical objective for model learning is maximum likelihood on observed transitions, but alternative objectives can produce models more useful for control. Value-equivalent models train the model to produce accurate values rather than accurate observations,
 
-$$L_{\text{VE}}(\theta) = \mathbb{E}\!\left[(V(s') - V(\hat{s}'))^2\right] + \eta \, \mathbb{E}\!\left[(r - \hat{r})^2\right]$$
+$$
+L_{\text{VE}}(\theta) = \mathbb{E}\!\left[(V(s') - V(\hat{s}'))^2\right] + \eta \, \mathbb{E}\!\left[(r - \hat{r})^2\right]
+\tag{36}
+$$
 
 focusing model capacity on aspects of state relevant for value prediction rather than on visual fidelity. The Predictron of [Silver et al. 2017][research_silver_hasselt_hessel_2017] and Value Prediction Networks of [Oh et al. 2017][research_oh_singh_lee_2017] provided early demonstrations that a model trained end-to-end for value prediction outperforms models trained for observation prediction on control tasks. The Imagination-Augmented Agent framework of [Racanière et al. 2017][research_racaniere_et_al_2017] and the fast generative models of [Buesing et al. 2018][research_buesing_et_al_2018] extended the idea to full generative models optimized for planning rather than reconstruction.
 
@@ -345,7 +453,10 @@ Transformer-based world models including IRIS of [Micheli et al. 2023][research_
 
 Theoretical sample complexity of model-based reinforcement learning has received considerable attention. For tabular MDPs, model-based methods achieve minimax-optimal sample complexity bounds of order
 
-$$\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}| |\mathcal{A}| H^3}{\epsilon^2}\right)$$
+$$
+\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}| |\mathcal{A}| H^3}{\epsilon^2}\right)
+\tag{37}
+$$
 
 for producing an $\epsilon$-optimal policy in finite-horizon MDPs of horizon $H$, matching lower bounds up to logarithmic factors. Model-free methods generally do not achieve minimax rates in the horizon dependence, providing theoretical evidence for the sample-efficiency advantages of model-based methods.
 
@@ -361,17 +472,29 @@ Predictive coding provides a neuroscience-adjacent framework for understanding h
 
 The Rao-Ballard equations for a two-level system involve top-down predictions
 
-$$\hat{r}_i^{(l)} = f(W^{(l)} r^{(l+1)})$$
+$$
+\hat{r}_i^{(l)} = f(W^{(l)} r^{(l+1)})
+\tag{38}
+$$
 
 from level $l+1$ to level $l$ and bottom-up prediction errors
 
-$$\epsilon^{(l)} = r^{(l)} - \hat{r}^{(l)}$$
+$$
+\epsilon^{(l)} = r^{(l)} - \hat{r}^{(l)}
+\tag{39}
+$$
 
 that drive updates at both levels,
 
-$$\dot{r}^{(l)} \propto -\epsilon^{(l)} + W^{(l+1)\top} \epsilon^{(l+1)}$$
+$$
+\dot{r}^{(l)} \propto -\epsilon^{(l)} + W^{(l+1)\top} \epsilon^{(l+1)}
+\tag{40}
+$$
 
-$$\dot{W}^{(l)} \propto \epsilon^{(l)} r^{(l+1) \top}$$
+$$
+\dot{W}^{(l)} \propto \epsilon^{(l)} r^{(l+1) \top}
+\tag{41}
+$$
 
 for latent activity $r$ and weights $W$. The model was originally proposed as a computational account of receptive field properties in visual cortex but has since been extended to a general framework for hierarchical predictive processing.
 
@@ -383,21 +506,33 @@ The correspondence to model-based reinforcement learning is direct. The generati
 
 The [Friston 2010][research_friston_2010] free energy principle extends predictive coding to a broader theory of perception, action, and learning that provides an alternative formulation of model-based reinforcement learning. This formulation treats agents as minimizing a variational free energy
 
-$$F = \mathbb{E}_{q(s)}\!\left[\log q(s) - \log p(s, o \mid m)\right] = D_{\text{KL}}(q(s) \, \| \, p(s \mid o, m)) - \log p(o \mid m)$$
+$$
+F = \mathbb{E}_{q(s)}\!\left[\log q(s) - \log p(s, o \mid m)\right] = D_{\text{KL}}(q(s) \, \| \, p(s \mid o, m)) - \log p(o \mid m)
+\tag{42}
+$$
 
 where $q(s)$ is a recognition distribution over hidden states, $p(s, o \mid m)$ is a generative model of hidden states and observations, and $m$ is the model itself. Minimizing free energy through inference (updating $q$) and learning (updating $m$) implements Bayesian belief revision under the generative model.
 
 Active inference extends the framework to action by treating action selection as free-energy minimization over future outcomes. Under the active inference framework, actions are selected to minimize expected free energy
 
-$$G(\pi) = \mathbb{E}_{q(s, o; \pi)}\!\left[\log q(s \mid o; \pi) - \log p(s, o \mid m)\right]$$
+$$
+G(\pi) = \mathbb{E}_{q(s, o; \pi)}\!\left[\log q(s \mid o; \pi) - \log p(s, o \mid m)\right]
+\tag{43}
+$$
 
 which decomposes into an epistemic (information-gain) term and a pragmatic (reward-seeking) term,
 
-$$G(\pi) = \underbrace{-\mathbb{E}_{q(o; \pi)}\!\left[D_{\text{KL}}(q(s \mid o, \pi) \, \| \, q(s \mid \pi))\right]}_{\text{epistemic (negative information gain)}} + \underbrace{-\mathbb{E}_{q(o; \pi)}\!\left[\log p(o \mid m)\right]}_{\text{pragmatic (negative expected utility)}}$$
+$$
+G(\pi) = \underbrace{-\mathbb{E}_{q(o; \pi)}\!\left[D_{\text{KL}}(q(s \mid o, \pi) \, \| \, q(s \mid \pi))\right]}_{\text{epistemic (negative information gain)}} + \underbrace{-\mathbb{E}_{q(o; \pi)}\!\left[\log p(o \mid m)\right]}_{\text{pragmatic (negative expected utility)}}
+\tag{44}
+$$
 
 The epistemic term encourages actions that reduce uncertainty about hidden states, the pragmatic term encourages actions that lead to preferred outcomes. Policies are selected via a softmax posterior over the negative expected free energy,
 
-$$q(\pi) \propto \exp(-G(\pi))$$
+$$
+q(\pi) \propto \exp(-G(\pi))
+\tag{45}
+$$
 
 providing a probabilistic action selection that trades off exploration and exploitation through a single unified criterion.
 
@@ -421,11 +556,17 @@ The scaling behavior of world models across the foundation model regime is an ac
 
 Internal models in biological neural systems have been extensively studied across multiple systems. Motor learning and control research established that the cerebellum learns forward models of the motor apparatus, predicting sensory consequences of motor commands to enable rapid feedback control. Foundational treatments include [Wolpert et al. 1995][research_wolpert_ghahramani_jordan_1995] on internal models for motor learning, [Miall and Wolpert 1996][research_miall_wolpert_1996] on the role of forward models, and [Kawato 1999][research_kawato_1999] on internal models as a general principle of motor control. The [Wolpert et al. 1998][research_wolpert_miall_kawato_1998] framework proposed a hierarchical system of forward and inverse models that supports motor skill learning and adaptation. The forward model predicts the sensory consequences of a motor command,
 
-$$\hat{s}_{t+1} = f_{\text{forward}}(s_t, u_t)$$
+$$
+\hat{s}_{t+1} = f_{\text{forward}}(s_t, u_t)
+\tag{46}
+$$
 
 and the corresponding sensory prediction error
 
-$$\epsilon_{\text{sensory}} = s_{t+1}^{\text{observed}} - \hat{s}_{t+1}$$
+$$
+\epsilon_{\text{sensory}} = s_{t+1}^{\text{observed}} - \hat{s}_{t+1}
+\tag{47}
+$$
 
 drives adaptation of the forward model and provides the training signal for the inverse controller. The cerebellar prediction-error learning documented at length by [Ito 2008][research_ito_2008] has proved to be one of the clearest neural correspondences to a machine learning algorithm. Optimal feedback control frameworks including [Todorov and Jordan 2002][research_todorov_jordan_2002] and [Todorov 2004][research_todorov_2004] connect internal-model-based motor control to normative optimal control theory, providing the theoretical basis for understanding biological motor behavior as approximate optimal control under learned models.
 
@@ -471,6 +612,447 @@ Real-world robotic manipulation benchmarks including RRC of [Byravan 2022][resea
 - How closely do the internal models of biological brains correspond to the world models of contemporary machine learning? Correspondence at a functional level is well documented, but detailed algorithmic correspondence remains open.
 - Can world models be reliably learned at foundation-model scale, and what is the correct theoretical framework for their emergent capabilities?
 - How should model-based reinforcement learning be integrated with hierarchical decomposition of article six? Hierarchical world models and multi-timescale planning present distinctive challenges and opportunities.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 47 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 47, 46 are established and 1 are bespoke.
+States, observations and latent codes are vectors whose units depend on the environment and encoder, so a squared model error compares only within one representation, while rewards and values carry the units of the reward signal and horizons such as $H$ count decision steps.
+
+**Equation 1, Belief State.**
+The belief state is the posterior probability of each hidden state given the history of observations and actions.
+[Kaelbling et al. 1998][research_kaelbling_littman_cassandra_1998]
+
+$$
+b_t(s) = \Pr(s_t = s \mid o_{1:t}, a_{1:t-1})
+\tag{1}
+$$
+
+**Equation 2, Bayesian Belief Update.**
+The new belief is the predicted state distribution weighted by the likelihood of the new observation and normalised.
+[Kaelbling et al. 1998][research_kaelbling_littman_cassandra_1998]
+
+$$
+b_{t+1}(s') = \frac{O(o_{t+1} \mid s') \sum_s P(s' \mid s, a_t) b_t(s)}{\sum_{s''} O(o_{t+1} \mid s'') \sum_s P(s'' \mid s, a_t) b_t(s)}
+\tag{2}
+$$
+
+**Equation 3, Learned Forward Dynamics Model.**
+A parameterised model approximates the distribution of the next state given the current state and action.
+
+$$
+\hat{P}_\theta(s' \mid s, a) \approx P(s' \mid s, a)
+\tag{3}
+$$
+
+**Equation 4, Maximum-Likelihood Model Loss.**
+The model is fitted by minimising the negative log likelihood of observed next states.
+
+$$
+L_{\text{ML}}(\theta) = -\mathbb{E}_{(s, a, s') \sim \mathcal{D}}\!\left[\log \hat{P}_\theta(s' \mid s, a)\right]
+\tag{4}
+$$
+
+**Equation 5, Kullback-Leibler Model Loss.**
+Minimising the Kullback-Leibler divergence from the empirical transition distribution to the model is equivalent to maximum likelihood.
+
+$$
+L_{\text{KL}}(\theta) = D_{\text{KL}}(P_{\text{data}}(s' \mid s, a) \, \| \, \hat{P}_\theta(s' \mid s, a))
+\tag{5}
+$$
+
+**Equation 6, Learned Reward Model.**
+A regression model approximates the expected reward of a state and action.
+
+$$
+\hat{R}_\phi(s, a) \approx \mathbb{E}[R(s, a)]
+\tag{6}
+$$
+
+**Equation 7, Inverse Dynamics Model.**
+An inverse model approximates the distribution of the action that connects two consecutive states.
+
+$$
+\hat{A}_\psi(a \mid s, s') \approx \Pr(a_t = a \mid s_t = s, s_{t+1} = s')
+\tag{7}
+$$
+
+**Equation 8, Value-Equivalence Model Loss.**
+A value-equivalent model is trained so that the value of its predicted next state matches the value of the true next state.
+
+$$
+L_{\text{VE}}(\theta) = \mathbb{E}\!\left[(V_\pi(s') - V_\pi(\hat{s}'))^2\right]
+\tag{8}
+$$
+
+**Equation 9, Dyna Update from a Real Transition.**
+Dyna applies the ordinary Q-learning update to each transition experienced in the environment.
+[Sutton 1990][research_sutton_1990]
+
+$$
+Q(s, a) \leftarrow Q(s, a) + \alpha \left[r + \gamma \max_{a'} Q(s', a') - Q(s, a)\right]
+\tag{9}
+$$
+
+**Equation 10, Dyna Update from an Imagined Transition.**
+Dyna applies the same Q-learning update to transitions sampled from its learned model, reusing each real experience many times.
+[Sutton 1990][research_sutton_1990]
+
+$$
+Q(\tilde{s}, \tilde{a}) \leftarrow Q(\tilde{s}, \tilde{a}) + \alpha \left[\hat{R}(\tilde{s}, \tilde{a}) + \gamma \max_{a'} Q(\tilde{s}', a') - Q(\tilde{s}, \tilde{a})\right]
+\tag{10}
+$$
+
+**Equation 11, Prioritised Sweeping Priority.**
+Each state-action pair is prioritised by the magnitude of its model-predicted temporal-difference error.
+[Moore and Atkeson 1993][research_moore_atkeson_1993]
+
+$$
+\text{priority}(s, a) = \left| \hat{R}(s, a) + \gamma \max_{a'} Q(\hat{s}', a') - Q(s, a) \right|
+\tag{11}
+$$
+
+**Equation 12, PILCO Expected Return.**
+Probabilistic inference for learning control, abbreviated PILCO, evaluates a policy by its expected return under the Gaussian process posterior over dynamics.
+[Deisenroth and Rasmussen 2011][research_deisenroth_rasmussen_2011]
+
+$$
+J(\pi) = \mathbb{E}_{p, \pi, \hat{P}}\!\left[\sum_{t=0}^{T} r(s_t)\right]
+\tag{12}
+$$
+
+**Equation 13, Deterministic Neural Dynamics Model.**
+A neural network maps the current state and action to a point prediction of the next state.
+
+$$
+\hat{s}' = f_\theta(s, a)
+\tag{13}
+$$
+
+**Equation 14, Gaussian Neural Dynamics Model.**
+A stochastic neural model outputs the mean and covariance of a Gaussian over the next state.
+
+$$
+\hat{P}_\theta(s' \mid s, a) = \mathcal{N}(s' ; \mu_\theta(s, a), \Sigma_\theta(s, a))
+\tag{14}
+$$
+
+**Equation 15, Probabilistic Ensemble Member.**
+Each member of the ensemble in probabilistic ensembles with trajectory sampling outputs its own Gaussian over the next state.
+[Chua et al. 2018][research_chua_calandra_mcallister_levine_2018]
+
+$$
+\hat{P}_k(s' \mid s, a) = \mathcal{N}(\mu_k(s, a), \Sigma_k(s, a))
+\tag{15}
+$$
+
+**Equation 16, Aleatoric and Epistemic Decomposition of Ensemble Variance.**
+By the law of total variance the ensemble covariance is the mean member covariance plus the covariance of the member means.
+[Chua et al. 2018][research_chua_calandra_mcallister_levine_2018]
+
+$$
+\bar{\mu}(s, a) = \frac{1}{K} \sum_k \mu_k(s, a), \quad \bar{\Sigma}(s, a) = \underbrace{\frac{1}{K} \sum_k \Sigma_k(s, a)}_{\text{aleatoric}} + \underbrace{\frac{1}{K} \sum_k (\mu_k - \bar{\mu})(\mu_k - \bar{\mu})^\top}_{\text{epistemic}}
+\tag{16}
+$$
+
+**Equation 17, Model Predictive Control Objective.**
+Model predictive control chooses the action sequence maximising the predicted discounted reward over a finite horizon plus a terminal value, and executes only its first action.
+
+$$
+a_t = \arg\max_{a_{t:t+H-1}} \mathbb{E}_{\hat{P}}\!\left[\sum_{k=0}^{H-1} \gamma^k r(s_{t+k}, a_{t+k}) + \gamma^H V(s_{t+H})\right]
+\tag{17}
+$$
+
+**Equation 18, Cross-Entropy Method Update.**
+The Gaussian proposal is refitted to the mean and variance of the elite set of top-scoring action sequences.
+[Rubinstein 1997][research_rubinstein_1997]
+
+$$
+\mu_{i+1} = \frac{1}{|\mathcal{E}|} \sum_{a \in \mathcal{E}} a, \quad \sigma_{i+1}^2 = \frac{1}{|\mathcal{E}|} \sum_{a \in \mathcal{E}} (a - \mu_{i+1})^2
+\tag{18}
+$$
+
+**Equation 19, Model Predictive Path Integral Update.**
+Model predictive path integral control updates the proposal mean as a softmax-weighted average of sampled action sequences by their returns.
+[Williams et al. 2017][research_williams_aldrich_theodorou_2017]
+
+$$
+w_j = \frac{\exp(\lambda R_j)}{\sum_{j'} \exp(\lambda R_{j'})}, \quad \mu_{i+1} = \sum_j w_j \, a_j
+\tag{19}
+$$
+
+**Equation 20, Monte Carlo Tree Search Action Value.**
+The value of an edge in the search tree is the mean of the returns of the simulations that passed through it.
+[Schrittwieser et al. 2020][research_schrittwieser_et_al_2020]
+
+$$
+Q(s_t, a) = \frac{1}{N(s_t, a)} \sum_{i=1}^{N(s_t, a)} G_i^{(a)}
+\tag{20}
+$$
+
+**Equation 21, Variational Autoencoder Encoder and Decoder.**
+An encoder maps each observation to a distribution over latent codes and a decoder reconstructs the observation from a code.
+[Ha and Schmidhuber 2018][research_ha_schmidhuber_2018]
+
+$$
+q_\phi(z_t \mid o_t), \quad p_\theta(o_t \mid z_t)
+\tag{21}
+$$
+
+**Equation 22, Evidence Lower Bound.**
+The evidence lower bound is the expected reconstruction log likelihood less the Kullback-Leibler divergence of the encoder from the prior.
+
+$$
+\text{ELBO}(\phi, \theta; o_t) = \mathbb{E}_{q_\phi}\!\left[\log p_\theta(o_t \mid z_t)\right] - D_{\text{KL}}(q_\phi(z_t \mid o_t) \, \| \, p(z_t))
+\tag{22}
+$$
+
+**Equation 23, Recurrent Latent Dynamics Model.**
+A recurrent mixture density network predicts the next latent code from the current code, action and hidden state.
+[Ha and Schmidhuber 2018][research_ha_schmidhuber_2018]
+
+$$
+p_\psi(z_{t+1} \mid z_t, a_t, h_t)
+\tag{23}
+$$
+
+**Equation 24, Latent-Space Controller.**
+A compact controller selects the action from the latent code and the recurrent hidden state.
+[Ha and Schmidhuber 2018][research_ha_schmidhuber_2018]
+
+$$
+a_t = \pi_\vartheta(z_t, h_t)
+\tag{24}
+$$
+
+**Equation 25, Recurrent State-Space Model Transition.**
+The recurrent state-space model advances a deterministic recurrent state and draws a stochastic latent conditioned on it.
+[Hafner et al. 2019][research_hafner_et_al_2019]
+
+$$
+h_t = f_\theta(h_{t-1}, z_{t-1}, a_{t-1}), \quad z_t \sim p_\theta(z_t \mid h_t)
+\tag{25}
+$$
+
+**Equation 26, Recurrent State-Space Model Loss.**
+The model maximises the likelihood of observations and rewards while a weighted Kullback-Leibler term aligns the observation-conditioned posterior with the prior.
+[Hafner et al. 2019][research_hafner_et_al_2019]
+
+$$
+L_{\text{RSSM}}(\theta) = -\mathbb{E}\!\left[\sum_t \log p_\theta(o_t \mid h_t, z_t) + \log p_\theta(r_t \mid h_t, z_t)\right] + \beta \sum_t D_{\text{KL}}(q_\phi(z_t \mid h_t, o_t) \, \| \, p_\theta(z_t \mid h_t))
+\tag{26}
+$$
+
+**Equation 27, Imagined Latent Trajectory.**
+Dreamer rolls the world model forward from a real latent state under the current policy to produce imagined states, actions and rewards.
+[Hafner et al. 2020a][research_hafner_lillicrap_ba_norouzi_2020_dreamer]
+
+$$
+\{(z_t, a_t, r_t)\}_{t=0}^{H}
+\tag{27}
+$$
+
+**Equation 28, Truncated Lambda-Return over an Imagined Horizon.**
+The critic target is a geometrically weighted average of $n$-step returns truncated at the imagination horizon.
+[Hafner et al. 2020a][research_hafner_lillicrap_ba_norouzi_2020_dreamer]
+
+$$
+V^\lambda_t = (1 - \lambda) \sum_{n=1}^{H-t-1} \lambda^{n-1} V^{(n)}_t + \lambda^{H-t-1} V^{(H-t)}_t
+\tag{28}
+$$
+
+**Equation 29, Dreamer Actor Gradient.**
+The actor ascends the imagined return and terminal value by differentiating through the learned dynamics, plus an entropy bonus.
+[Hafner et al. 2020a][research_hafner_lillicrap_ba_norouzi_2020_dreamer]
+
+$$
+\nabla_\theta J_{\text{actor}}(\theta) = \nabla_\theta \sum_t \gamma^t r_t + \gamma^H V(z_H) + \eta \nabla_\theta H(\pi_\theta)
+\tag{29}
+$$
+
+**Equation 30, Discrete Categorical Latent.**
+DreamerV2 represents the latent state as one-hot categorical variables trained with straight-through gradients.
+[Hafner et al. 2020b][research_hafner_lillicrap_norouzi_ba_2020]
+
+$$
+z_t = \text{OneHot}(\arg\max_i \pi_\theta^{(i)}(h_t))
+\tag{30}
+$$
+
+**Equation 31, Model-Based Value Expansion Target.**
+The target sums $H$ model-predicted rewards and bootstraps from the value of the model-predicted state at the horizon.
+[Feinberg et al. 2018][research_feinberg_et_al_2018]
+
+$$
+y_t^{\text{MVE}} = \sum_{k=0}^{H-1} \gamma^k \hat{r}_{t+k+1} + \gamma^H V(\hat{s}_{t+H})
+\tag{31}
+$$
+
+**Equation 32, Stochastic Ensemble Value Expansion Target.**
+Targets at several horizons are combined with weights inversely proportional to their ensemble variances.
+[Buckman et al. 2018][research_buckman_et_al_2018]
+
+$$
+y_t^{\text{STEVE}} = \frac{\sum_H (1/\sigma_H^2) \, y_t^{\text{MVE}(H)}}{\sum_H (1/\sigma_H^2)}
+\tag{32}
+$$
+
+**Equation 33, Stochastic Value Gradient.**
+The policy gradient is obtained by back-propagating reward and value gradients through a differentiable dynamics model.
+[Heess et al. 2015][research_heess_wayne_silver_lillicrap_erez_tassa_2015]
+
+$$
+\nabla_\theta J(\theta) = \mathbb{E}\!\left[\sum_t \gamma^t \left(\nabla_a r(s_t, a_t) + \gamma \nabla_a V(s_{t+1}) \nabla_a f_\zeta(s_t, a_t)\right) \nabla_\theta \pi_\theta(s_t)\right]
+\tag{33}
+$$
+
+**Equation 34, Task-Conditioned Dynamics Model.**
+The dynamics model takes a latent task embedding inferred from a short adaptation trajectory as an extra input.
+
+$$
+\hat{P}_\theta(s' \mid s, a, z_{\text{task}})
+\tag{34}
+$$
+
+**Equation 35, Uncertainty-Penalised Reward.**
+Model-based offline policy optimisation subtracts from the model reward a multiple of the ensemble uncertainty.
+[Yu et al. 2020][research_yu_et_al_2020_mopo]
+
+$$
+\tilde{r}(s, a) = \hat{r}(s, a) - \lambda \, u(s, a)
+\tag{35}
+$$
+
+*Equation 36, Bespoke Value and Reward Equivalence Loss.*
+The article combines the squared value discrepancy of the predicted next state with a squared reward error weighted by $\eta$, an illustrative composite rather than the loss of any one cited method.
+
+$$
+L_{\text{VE}}(\theta) = \mathbb{E}\!\left[(V(s') - V(\hat{s}'))^2\right] + \eta \, \mathbb{E}\!\left[(r - \hat{r})^2\right]
+\tag{36}
+$$
+
+**Equation 37, Minimax Sample Complexity of Tabular Model-Based Learning.**
+Model-based learning finds an $\epsilon$-optimal policy in a finite-horizon tabular process with a number of samples linear in the state and action counts, cubic in the horizon and inverse quadratic in $\epsilon$.
+
+$$
+\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}| |\mathcal{A}| H^3}{\epsilon^2}\right)
+\tag{37}
+$$
+
+**Equation 38, Top-Down Prediction in Predictive Coding.**
+Each level predicts the activity of the level below through its weights and a nonlinearity.
+[Rao and Ballard 1999][research_rao_ballard_1999]
+
+$$
+\hat{r}_i^{(l)} = f(W^{(l)} r^{(l+1)})
+\tag{38}
+$$
+
+**Equation 39, Prediction Error at a Level.**
+The prediction error is the activity at a level less the prediction from the level above.
+[Rao and Ballard 1999][research_rao_ballard_1999]
+
+$$
+\epsilon^{(l)} = r^{(l)} - \hat{r}^{(l)}
+\tag{39}
+$$
+
+**Equation 40, Predictive Coding Activity Dynamics.**
+Latent activity descends the prediction errors that it influences, pulled toward its own prediction and pushed to explain the errors of the adjacent level.
+[Rao and Ballard 1999][research_rao_ballard_1999]
+
+$$
+\dot{r}^{(l)} \propto -\epsilon^{(l)} + W^{(l+1)\top} \epsilon^{(l+1)}
+\tag{40}
+$$
+
+**Equation 41, Predictive Coding Weight Learning.**
+Weights change in proportion to the product of the prediction error and the activity that generated the prediction, a Hebbian form.
+[Rao and Ballard 1999][research_rao_ballard_1999]
+
+$$
+\dot{W}^{(l)} \propto \epsilon^{(l)} r^{(l+1) \top}
+\tag{41}
+$$
+
+**Equation 42, Variational Free Energy.**
+The variational free energy equals the divergence from the recognition distribution to the true posterior minus the log evidence, so minimising it both improves inference and bounds surprise.
+[Friston 2010][research_friston_2010]
+
+$$
+F = \mathbb{E}_{q(s)}\!\left[\log q(s) - \log p(s, o \mid m)\right] = D_{\text{KL}}(q(s) \, \| \, p(s \mid o, m)) - \log p(o \mid m)
+\tag{42}
+$$
+
+**Equation 43, Expected Free Energy of a Policy.**
+Active inference scores a policy by the expected difference between the log approximate posterior and the log generative model over predicted states and outcomes.
+[Friston 2010][research_friston_2010]
+
+$$
+G(\pi) = \mathbb{E}_{q(s, o; \pi)}\!\left[\log q(s \mid o; \pi) - \log p(s, o \mid m)\right]
+\tag{43}
+$$
+
+**Equation 44, Epistemic and Pragmatic Decomposition of Expected Free Energy.**
+Expected free energy splits into a negative expected information gain about hidden states and a negative expected log preference for outcomes.
+[Millidge et al. 2021][research_millidge_tschantz_buckley_2021]
+
+$$
+G(\pi) = \underbrace{-\mathbb{E}_{q(o; \pi)}\!\left[D_{\text{KL}}(q(s \mid o, \pi) \, \| \, q(s \mid \pi))\right]}_{\text{epistemic (negative information gain)}} + \underbrace{-\mathbb{E}_{q(o; \pi)}\!\left[\log p(o \mid m)\right]}_{\text{pragmatic (negative expected utility)}}
+\tag{44}
+$$
+
+**Equation 45, Softmax Policy Posterior.**
+Policies are selected with probability proportional to the exponential of their negative expected free energy.
+
+$$
+q(\pi) \propto \exp(-G(\pi))
+\tag{45}
+$$
+
+**Equation 46, Motor Forward Model.**
+A forward model predicts the next sensory state from the current state and motor command.
+[Wolpert et al. 1995][research_wolpert_ghahramani_jordan_1995]
+
+$$
+\hat{s}_{t+1} = f_{\text{forward}}(s_t, u_t)
+\tag{46}
+$$
+
+**Equation 47, Sensory Prediction Error.**
+The sensory prediction error is the observed next state less the forward model's prediction.
+[Wolpert et al. 1995][research_wolpert_ghahramani_jordan_1995]
+
+$$
+\epsilon_{\text{sensory}} = s_{t+1}^{\text{observed}} - \hat{s}_{t+1}
+\tag{47}
+$$
+
+### Notation
+
+- $b_t(s)$, the belief state, a probability distribution over hidden states at step $t$
+- $O(o_{t+1} \mid s')$, the observation likelihood
+- $\hat{P}_\theta$, the learned dynamics model
+- $\hat{R}$, the learned reward model
+- $\Sigma_k(s, a)$, the predicted covariance of ensemble member $k$
+- $H$, the planning or imagination horizon
+- $\mathcal{E}$, the elite set of the cross-entropy method
+- $\lambda$, the softmax temperature in equation 19, the return mixing parameter in equation 28 and the uncertainty penalty in equation 35
+- $z_t$, the latent code at step $t$
+- $h_t$, the deterministic recurrent state
+- $\eta$, the entropy coefficient in equation 29 and the reward weight in equation 36
+- $u(s, a)$, the ensemble uncertainty estimate
+- $r^{(l)}$, the latent activity at level $l$ of a predictive coding hierarchy
+- $W^{(l)}$, the generative weights from level $l+1$ to level $l$
+- $\epsilon^{(l)}$, the prediction error at level $l$
+- $q(s)$, the approximate posterior, or recognition distribution, over hidden states
+- $G(\pi)$, the expected free energy of policy $\pi$
+- $u_t$, the motor command at step $t$
 
 ## References
 

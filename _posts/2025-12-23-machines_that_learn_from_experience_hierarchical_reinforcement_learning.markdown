@@ -23,15 +23,24 @@ Hierarchical control addresses these difficulties by introducing temporally-exte
 
 Formally, consider a task requiring $H$ primitive-action steps to complete. A flat agent must propagate value signal through $H$ Bellman updates, with effective discount factor
 
-$$\gamma^H_{\text{flat}} = \gamma^H$$
+$$
+\gamma^H_{\text{flat}} = \gamma^H
+\tag{1}
+$$
 
 A two-level hierarchical agent with sub-policies each of length $k$ propagates value at the high level through only $H/k$ steps, with effective discount factor per high-level step
 
-$$\gamma_{\text{high}} = \gamma^k$$
+$$
+\gamma_{\text{high}} = \gamma^k
+\tag{2}
+$$
 
 and total high-level effective discount
 
-$$\gamma^{H/k}_{\text{high}} = (\gamma^k)^{H/k} = \gamma^H$$
+$$
+\gamma^{H/k}_{\text{high}} = (\gamma^k)^{H/k} = \gamma^H
+\tag{3}
+$$
 
 Although the total discount at task-completion horizon is unchanged, the number of Bellman updates required to propagate value across that horizon reduces by the temporal compression ratio $k$, and each high-level Bellman update carries less variance in the value target because it aggregates reward over $k$ primitive-action steps.
 
@@ -57,25 +66,40 @@ The deep reinforcement learning wave of the 2010s brought new algorithmic develo
 
 The semi-Markov decision process (SMDP) formalism generalizes the Markov decision process to accommodate actions whose duration is variable. An SMDP is specified by a tuple
 
-$$\mathcal{M}_{\text{SMDP}} = (\mathcal{S}, \mathcal{A}, P, R, F)$$
+$$
+\mathcal{M}_{\text{SMDP}} = (\mathcal{S}, \mathcal{A}, P, R, F)
+\tag{4}
+$$
 
 where $\mathcal{S}, \mathcal{A}$ are state and action spaces, $P(s' \mid s, a)$ is a transition kernel, $R(s, a)$ is a reward function, and $F(\tau \mid s, a)$ is a duration distribution specifying the number of time steps that action $a$ occupies starting from state $s$.
 
 The SMDP Bellman equation replaces the single-step reward and discount with cumulative reward and discount over the action duration,
 
-$$V^{\pi}(s) = \sum_a \pi(a \mid s) \left[R(s, a) + \sum_{s', \tau} F(\tau \mid s, a) P(s' \mid s, a, \tau) \gamma^\tau V^\pi(s')\right]$$
+$$
+V^{\pi}(s) = \sum_a \pi(a \mid s) \left[R(s, a) + \sum_{s', \tau} F(\tau \mid s, a) P(s' \mid s, a, \tau) \gamma^\tau V^\pi(s')\right]
+\tag{5}
+$$
 
 where $R(s, a)$ now denotes the expected discounted cumulative reward accumulated during action $a$ and $F(\tau \mid s, a)$ is the probability that action $a$ takes duration $\tau$. Concretely, if action $a$ initiated at state $s$ generates a sequence of primitive-action rewards $r_1, r_2, \ldots, r_\tau$, the cumulative reward is
 
-$$R(s, a) = \mathbb{E}\!\left[\sum_{i=0}^{\tau-1} \gamma^i r_{i+1} \mid s, a\right]$$
+$$
+R(s, a) = \mathbb{E}\!\left[\sum_{i=0}^{\tau-1} \gamma^i r_{i+1} \mid s, a\right]
+\tag{6}
+$$
 
 The discount factor $\gamma^\tau$ reflects that reward received after $\tau$ primitive steps is discounted by $\gamma$ raised to $\tau$. The SMDP Bellman optimality equation for the action-value function is
 
-$$Q^*(s, a) = R(s, a) + \sum_{s', \tau} F(\tau \mid s, a) P(s' \mid s, a, \tau) \gamma^\tau \max_{a'} Q^*(s', a')$$
+$$
+Q^*(s, a) = R(s, a) + \sum_{s', \tau} F(\tau \mid s, a) P(s' \mid s, a, \tau) \gamma^\tau \max_{a'} Q^*(s', a')
+\tag{7}
+$$
 
 Q-learning extends to the SMDP setting through an SMDP Q-learning update,
 
-$$Q(s, a) \leftarrow Q(s, a) + \alpha \left[r + \gamma^\tau \max_{a'} Q(s', a') - Q(s, a)\right]$$
+$$
+Q(s, a) \leftarrow Q(s, a) + \alpha \left[r + \gamma^\tau \max_{a'} Q(s', a') - Q(s, a)\right]
+\tag{8}
+$$
 
 where $r$ is the cumulative discounted reward and $\tau$ the duration of the action selected at $s$. The update reduces to standard Q-learning when $\tau = 1$ and provides the algorithmic foundation for the options and MAXQ frameworks treated below.
 
@@ -83,7 +107,10 @@ where $r$ is the cumulative discounted reward and $\tau$ the duration of the act
 
 The options framework of Sutton Precup and Singh formalizes temporally-extended actions in the reinforcement learning setting. An option is a triple
 
-$$o = (I_o, \pi_o, \beta_o)$$
+$$
+o = (I_o, \pi_o, \beta_o)
+\tag{9}
+$$
 
 where $I_o \subseteq \mathcal{S}$ is the initiation set specifying states from which the option can be invoked, $\pi_o : \mathcal{S} \to \Delta(\mathcal{A})$ is the intra-option policy specifying action selection while the option is executing, and $\beta_o : \mathcal{S} \to [0, 1]$ is the termination condition specifying the probability of terminating the option at each state.
 
@@ -91,17 +118,26 @@ Primitive actions can be modeled as one-step options with $I_o = \mathcal{S}$, $
 
 A policy over options $\mu : \mathcal{S} \to \Delta(\mathcal{O})$ selects an option at each option-initiation state. The induced dynamics are semi-Markov. Option execution proceeds through primitive-action steps until the termination condition triggers, at which point the high-level policy selects a new option. Formally, upon selecting option $o$ at state $s_t$, primitive actions are drawn according to $a_i \sim \pi_o(\cdot \mid s_{t+i})$ for $i = 0, 1, \ldots$, and termination occurs at step $\tau$ with probability
 
-$$P(\tau_o = k) = \prod_{i=0}^{k-1} (1 - \beta_o(s_{t+i})) \, \beta_o(s_{t+k})$$
+$$
+P(\tau_o = k) = \prod_{i=0}^{k-1} (1 - \beta_o(s_{t+i})) \, \beta_o(s_{t+k})
+\tag{10}
+$$
 
 corresponding to the option continuing through $k$ steps of non-termination followed by termination at step $k$.
 
 The option value function
 
-$$V^\mu(s) = \mathbb{E}\!\left[\sum_{k=0}^{\infty} \gamma^k r_{k+1} \mid s_0 = s, \mu\right]$$
+$$
+V^\mu(s) = \mathbb{E}\!\left[\sum_{k=0}^{\infty} \gamma^k r_{k+1} \mid s_0 = s, \mu\right]
+\tag{11}
+$$
 
 satisfies the SMDP Bellman equation for the induced semi-Markov process. The option-Q function
 
-$$Q^\mu(s, o) = \mathbb{E}\!\left[r(s, o) + \gamma^{\tau(s, o)} V^\mu(s') \mid s_0 = s, o_0 = o\right]$$
+$$
+Q^\mu(s, o) = \mathbb{E}\!\left[r(s, o) + \gamma^{\tau(s, o)} V^\mu(s') \mid s_0 = s, o_0 = o\right]
+\tag{12}
+$$
 
 decomposes the option value as expected cumulative discounted reward $r(s, o)$ accumulated during option execution plus the discounted next-state value.
 
@@ -111,11 +147,17 @@ The options framework subsumes MAXQ, HAMs, and feudal reinforcement learning as 
 
 The intra-option learning framework permits updates to the option value function based on individual primitive-step transitions rather than requiring the option to terminate before update. The intra-option Q-update is
 
-$$Q(s, o) \leftarrow Q(s, o) + \alpha \left[r + \gamma U(s', o) - Q(s, o)\right]$$
+$$
+Q(s, o) \leftarrow Q(s, o) + \alpha \left[r + \gamma U(s', o) - Q(s, o)\right]
+\tag{13}
+$$
 
 where
 
-$$U(s', o) = (1 - \beta_o(s')) Q(s', o) + \beta_o(s') \max_{o'} Q(s', o')$$
+$$
+U(s', o) = (1 - \beta_o(s')) Q(s', o) + \beta_o(s') \max_{o'} Q(s', o')
+\tag{14}
+$$
 
 is the option-conditional value that continues the option with probability $1 - \beta_o(s')$ and terminates and selects the greedy next option with probability $\beta_o(s')$. The mechanism enables efficient credit assignment within options while preserving the semi-Markov structure at the high level.
 
@@ -123,21 +165,33 @@ Intra-option policy improvement uses the standard policy-improvement operations 
 
 The Bellman optimality equation for options is
 
-$$Q^*(s, o) = \sum_a \pi_o(a \mid s) \left[R(s, a) + \gamma \sum_{s'} P(s' \mid s, a) U^*(s', o)\right]$$
+$$
+Q^*(s, o) = \sum_a \pi_o(a \mid s) \left[R(s, a) + \gamma \sum_{s'} P(s' \mid s, a) U^*(s', o)\right]
+\tag{15}
+$$
 
 with
 
-$$U^*(s', o) = (1 - \beta_o(s')) Q^*(s', o) + \beta_o(s') V^*(s'), \quad V^*(s') = \max_{o'} Q^*(s', o')$$
+$$
+U^*(s', o) = (1 - \beta_o(s')) Q^*(s', o) + \beta_o(s') V^*(s'), \quad V^*(s') = \max_{o'} Q^*(s', o')
+\tag{16}
+$$
 
 The recursive structure enables value iteration and other dynamic programming methods to compute $Q^\*$ and thereby the optimal policy over options.
 
 The option advantage function
 
-$$A^\mu_\Omega(s, o) = Q^\mu(s, o) - V^\mu(s)$$
+$$
+A^\mu_\Omega(s, o) = Q^\mu(s, o) - V^\mu(s)
+\tag{17}
+$$
 
 quantifies the value of committing to option $o$ over the current policy-average option choice. The termination advantage
 
-$$A^\mu_\beta(s, o) = Q^\mu(s, o) - V^\mu(s)$$
+$$
+A^\mu_\beta(s, o) = Q^\mu(s, o) - V^\mu(s)
+\tag{18}
+$$
 
 quantifies the value of continuing option $o$ over terminating and selecting a fresh option, and enters directly into the termination-gradient theorem treated later. The sign of the termination advantage determines whether the current option should extend or end at each state.
 
@@ -149,21 +203,33 @@ A MAXQ task hierarchy consists of subtasks organized in a directed acyclic graph
 
 The MAXQ value function decomposition writes the value of a state under a subtask as
 
-$$V^\pi(i, s) = V^{\pi_i}(a_i(s), s) + C^\pi(i, s, a_i(s))$$
+$$
+V^\pi(i, s) = V^{\pi_i}(a_i(s), s) + C^\pi(i, s, a_i(s))
+\tag{19}
+$$
 
 where $\pi_i$ is the current policy at subtask $i$, $a_i(s)$ is the action or child subtask selected at state $s$, $V^{\pi_i}(a_i(s), s)$ is the value of the selected child, and $C^\pi(i, s, a_i(s))$ is the completion function
 
-$$C^\pi(i, s, a) = \mathbb{E}\!\left[\gamma^{\tau_a} V^\pi(i, s') \mid \text{child } a \text{ terminates at } s'\right]$$
+$$
+C^\pi(i, s, a) = \mathbb{E}\!\left[\gamma^{\tau_a} V^\pi(i, s') \mid \text{child } a \text{ terminates at } s'\right]
+\tag{20}
+$$
 
 representing the expected discounted reward from completing subtask $i$ after the child terminates. The recursive Bellman equation for the MAXQ hierarchy is
 
-$$V^\pi(i, s) = \sum_a \pi_i(a \mid s) \left[V^{\pi_i}(a, s) + C^\pi(i, s, a)\right]$$
+$$
+V^\pi(i, s) = \sum_a \pi_i(a \mid s) \left[V^{\pi_i}(a, s) + C^\pi(i, s, a)\right]
+\tag{21}
+$$
 
 The decomposition provides several advantages. Subtask values can be learned locally within each subtask, permitting sample efficiency gains through reuse of subtask policies across contexts. The completion function factors out the parent-task-portion of value from the child-task-portion.
 
 The MAXQ-Q learning algorithm updates each completion function through a TD update
 
-$$C(i, s, a) \leftarrow C(i, s, a) + \alpha \left[\gamma^{\tau_a} V(i, s') - C(i, s, a)\right]$$
+$$
+C(i, s, a) \leftarrow C(i, s, a) + \alpha \left[\gamma^{\tau_a} V(i, s') - C(i, s, a)\right]
+\tag{22}
+$$
 
 where $s'$ is the state at child termination and $\tau_a$ is the duration of the child. The mechanism learns completion functions locally within each subtask context while composing them hierarchically for evaluation.
 
@@ -181,11 +247,17 @@ Hierarchical Abstract Machines of [Parr and Russell 1998][research_parr_russell_
 
 The HAM-induced MDP has a state space consisting of pairs $(s, m)$ where $s$ is the environment state and $m$ is the current machine state,
 
-$$\mathcal{S}_{\text{HAM}} = \mathcal{S} \times \mathcal{M}$$
+$$
+\mathcal{S}_{\text{HAM}} = \mathcal{S} \times \mathcal{M}
+\tag{23}
+$$
 
 with transitions among machine states determined by the HAM structure and transitions among environment states determined by the underlying MDP. Q-learning within the induced MDP updates state-machine-conditioned Q-values
 
-$$Q((s, m), a) \leftarrow Q((s, m), a) + \alpha \left[r + \gamma^\tau \max_{a'} Q((s', m'), a') - Q((s, m), a)\right]$$
+$$
+Q((s, m), a) \leftarrow Q((s, m), a) + \alpha \left[r + \gamma^\tau \max_{a'} Q((s', m'), a') - Q((s, m), a)\right]
+\tag{24}
+$$
 
 for choice-state actions $a$ over the accumulated reward $r$ and duration $\tau$ until the next choice state. HAMQ, the HAM Q-learning algorithm, converges to the HAM-optimal policy under standard conditions on step size and infinite visitation of choice-state contexts.
 
@@ -195,21 +267,33 @@ The choice-versus-constraint formulation of HAMs contrasts with the free-form op
 
 The deep reinforcement learning wave of the 2010s produced neural implementations of the classical hierarchical frameworks. Hierarchical DQN of [Kulkarni et al. 2016][research_kulkarni_et_al_2016] combined deep Q-learning with a two-level hierarchy in which a high-level meta-controller selects sub-goals from a discrete set and a low-level controller learns to reach the selected sub-goal. The meta-controller Q-network is updated on transitions between sub-goal completions,
 
-$$Q_{\text{meta}}(s, g) \leftarrow Q_{\text{meta}}(s, g) + \alpha \left[R_g + \gamma \max_{g'} Q_{\text{meta}}(s', g') - Q_{\text{meta}}(s, g)\right]$$
+$$
+Q_{\text{meta}}(s, g) \leftarrow Q_{\text{meta}}(s, g) + \alpha \left[R_g + \gamma \max_{g'} Q_{\text{meta}}(s', g') - Q_{\text{meta}}(s, g)\right]
+\tag{25}
+$$
 
 where $R_g$ is the cumulative extrinsic reward received while pursuing sub-goal $g$ and $s'$ is the state at sub-goal termination. The low-level controller uses an intrinsic reward signal for reaching the sub-goal,
 
-$$r^{\text{intrinsic}}_t = \mathbb{1}\!\left\{\phi(s_t) = g\right\}$$
+$$
+r^{\text{intrinsic}}_t = \mathbb{1}\!\left\{\phi(s_t) = g\right\}
+\tag{26}
+$$
 
 for a goal-check function $\phi$. The mechanism achieved significant improvements on Montezuma's Revenge where flat DQN made essentially no progress.
 
 FeUdal Networks of [Vezhnevets et al. 2017][research_vezhnevets_et_al_2017] extended the feudal framework to deep neural networks with a manager operating at a coarser timescale than the worker. The manager produces a directional sub-goal in a latent state space,
 
-$$g_t = f_{\text{manager}}(s_t; \theta_M) \in \mathbb{R}^d$$
+$$
+g_t = f_{\text{manager}}(s_t; \theta_M) \in \mathbb{R}^d
+\tag{27}
+$$
 
 updated every $c$ primitive steps and pooled across neighboring updates. The worker receives an intrinsic reward for producing state changes aligned with the manager's directional sub-goal,
 
-$$r_t^{\text{FuN}} = \frac{1}{c} \sum_{i=1}^{c} \cos\!\left(s_{t+i} - s_t, g_{t-i}\right)$$
+$$
+r_t^{\text{FuN}} = \frac{1}{c} \sum_{i=1}^{c} \cos\!\left(s_{t+i} - s_t, g_{t-i}\right)
+\tag{28}
+$$
 
 which is the cosine similarity between the actual state-change direction and the manager-specified target direction. The mechanism decouples the manager's goal specification from the worker's action selection through the shared latent space, addressing the credit-assignment difficulty at scale.
 
@@ -221,13 +305,19 @@ The Option-Critic Architecture of [Bacon et al. 2017][research_bacon_harb_precup
 
 The option-policy gradient theorem gives the gradient of the expected return with respect to the intra-option policy parameters $\theta$,
 
-$$\nabla_\theta J = \mathbb{E}_{s, o}\!\left[Q_U(s, o, a) \nabla_\theta \log \pi_{o, \theta}(a \mid s)\right]$$
+$$
+\nabla_\theta J = \mathbb{E}_{s, o}\!\left[Q_U(s, o, a) \nabla_\theta \log \pi_{o, \theta}(a \mid s)\right]
+\tag{29}
+$$
 
 where $Q_U(s, o, a) = \mathbb{E}[r + \gamma U(s', o) \mid s, o, a]$ is the option-conditioned action-value at the primitive-action level.
 
 The termination gradient theorem gives the gradient with respect to the termination condition parameters $\vartheta$,
 
-$$\nabla_\vartheta J = -\mathbb{E}\!\left[\nabla_\vartheta \beta_{o, \vartheta}(s') \left(Q^\mu(s', o) - V^\mu(s')\right)\right]$$
+$$
+\nabla_\vartheta J = -\mathbb{E}\!\left[\nabla_\vartheta \beta_{o, \vartheta}(s') \left(Q^\mu(s', o) - V^\mu(s')\right)\right]
+\tag{30}
+$$
 
 which is proportional to the advantage of continuing the option over terminating and switching to the best next option. Options that provide marked advantage over termination are encouraged to persist, options that provide little advantage over termination are encouraged to end.
 
@@ -239,13 +329,19 @@ Extensions of Option-Critic include Interest-Option-Critic that adds learned int
 
 HIRO of [Nachum et al. 2018][research_nachum_gu_lee_levine_2018] provides an off-policy hierarchical reinforcement learning algorithm for continuous control settings. A high-level policy $\mu_{\text{high}}(g \mid s)$ produces state-conditioned sub-goals in the observation space at fixed intervals of $c$ primitive-action steps, and a low-level policy $\pi_{\text{low}}(a \mid s, g)$ learns to reach the sub-goals through goal-conditioned reinforcement learning with intrinsic reward
 
-$$r^{\text{low}}_t = -\| s_{t+1} - (s_t + g_t) \|_2$$
+$$
+r^{\text{low}}_t = -\| s_{t+1} - (s_t + g_t) \|_2
+\tag{31}
+$$
 
 for goal-directed displacement $g_t$, encouraging state changes aligned with the specified sub-goal.
 
 The critical technical challenge in off-policy hierarchical learning is that the low-level policy changes during training, invalidating past trajectories collected under earlier low-level policies. HIRO addresses this through goal relabeling. At training time, high-level transitions are relabeled with the sub-goals that would have been optimal under the current low-level policy,
 
-$$\tilde{g}_t = \arg\max_g P(a_{t:t+c-1} \mid s_{t:t+c-1}, g, \pi_{\text{low}})$$
+$$
+\tilde{g}_t = \arg\max_g P(a_{t:t+c-1} \mid s_{t:t+c-1}, g, \pi_{\text{low}})
+\tag{32}
+$$
 
 which is approximated by searching over a small set of candidate goals around the actually-executed goal and the state transitions that occurred.
 
@@ -257,7 +353,10 @@ Related methods include HAC (Hierarchical Actor-Critic) of [Levy et al. 2018][re
 
 Goal-conditioned reinforcement learning treated in article five naturally extends to hierarchical settings. A high-level policy proposes goals from a goal space $\mathcal{G}$ and a low-level goal-conditioned policy attempts to reach those goals. The universal value function of [Schaul et al. 2015][research_schaul_horgan_gregor_silver_2015_hrl] provides the foundational value function representation
 
-$$V(s, g) = \mathbb{E}\!\left[\sum_t \gamma^t r(s_t, g) \mid s_0 = s, \pi(\cdot \mid \cdot, g)\right]$$
+$$
+V(s, g) = \mathbb{E}\!\left[\sum_t \gamma^t r(s_t, g) \mid s_0 = s, \pi(\cdot \mid \cdot, g)\right]
+\tag{33}
+$$
 
 that generalizes across goals in a shared parameter space.
 
@@ -269,7 +368,10 @@ Sub-goal generation approaches use several methods to propose useful sub-goals. 
 
 The latent-code formulation of skills treats a hierarchical policy as a two-level composition in which a high-level policy selects a skill embedding $z \in \mathcal{Z}$ from a continuous skill space and a low-level latent-conditioned policy
 
-$$\pi_\theta(a \mid s, z)$$
+$$
+\pi_\theta(a \mid s, z)
+\tag{34}
+$$
 
 produces different behaviors for different values of the code. Continuous latent spaces support interpolation between skills, distance-based skill similarity, and gradient-based composition, providing a natural interface for skill manipulation that discrete option sets do not.
 
@@ -287,7 +389,10 @@ The rise of large language models treated in article four has produced a class o
 
 SayCan of [Ahn et al. 2022][research_ahn_et_al_2022_saycan] combines an LLM that proposes candidate subgoal actions with a value function that scores each candidate for reachability under the current low-level policy. The combined score selects the next skill to execute,
 
-$$p(\text{skill}_i \mid \text{context}) \propto p_{\text{LLM}}(\text{skill}_i \mid \text{context}) \cdot V(\text{skill}_i \mid s)$$
+$$
+p(\text{skill}_i \mid \text{context}) \propto p_{\text{LLM}}(\text{skill}_i \mid \text{context}) \cdot V(\text{skill}_i \mid s)
+\tag{35}
+$$
 
 providing a hierarchical policy in which the language model handles high-level reasoning through natural language and the value function handles low-level executability grounding. The mechanism connects deployed language models to robotic control in a way that requires no additional training of the language model itself.
 
@@ -307,7 +412,10 @@ Bottleneck-state-based methods identify states through which many trajectories p
 
 Successor-feature-based methods use the successor representation of [Dayan 1993][research_dayan_1993_hrl] to identify options that reach diverse regions of the state space. Options-of-Interest of Barreto et al 2019 provides one systematic instantiation. Eigenoption discovery of [Machado et al. 2018][research_machado_bellemare_bowling_2018_eigenoptions] uses the eigenfunctions of the successor representation to define options. The graph-Laplacian formulation constructs the state-transition matrix
 
-$$L = D - W$$
+$$
+L = D - W
+\tag{36}
+$$
 
 where $W$ is the state-transition adjacency matrix under a uniform random policy and $D$ is the corresponding diagonal degree matrix. Eigenoption termination conditions are derived from the eigenvectors corresponding to small eigenvalues, capturing broad directional structure in the state space that promotes efficient exploration.
 
@@ -317,7 +425,10 @@ Learning progress and empowerment-based option discovery provide additional sign
 
 The Option-Critic framework treated above provides an end-to-end approach to option discovery through gradient descent on the return, but suffers from the degeneracy problem in which learned options collapse to trivial behavior. Deliberation cost or termination-cost regularization addresses this partially,
 
-$$L_{\text{OC}}(\theta, \vartheta) = -\mathbb{E}[G] + \eta \, \mathbb{E}\!\left[\sum_t \beta_{o_t, \vartheta}(s_t)\right]$$
+$$
+L_{\text{OC}}(\theta, \vartheta) = -\mathbb{E}[G] + \eta \, \mathbb{E}\!\left[\sum_t \beta_{o_t, \vartheta}(s_t)\right]
+\tag{37}
+$$
 
 where $\eta$ penalizes frequent option termination. The Termination Critic of [Harutyunyan et al. 2019][research_harutyunyan_et_al_2019] provides a principled information-theoretic objective that specifically targets the termination-degeneracy problem. Flexible option learning of [Klissarov and Precup 2021][research_klissarov_precup_2021] introduces adaptive regularization schedules that improve option-critic convergence.
 
@@ -331,7 +442,10 @@ The theoretical sample-complexity advantages of hierarchical decomposition have 
 
 Regret analysis for options under UCRL2-style optimism was given by [Fruit and Lazaric 2017][research_fruit_lazaric_2017], proving that options can substantially reduce regret when the option structure aligns with the task structure. The bound has the form
 
-$$R_T = \tilde{\mathcal{O}}\!\left(D_O \sqrt{|\mathcal{S}| |\mathcal{O}| T}\right)$$
+$$
+R_T = \tilde{\mathcal{O}}\!\left(D_O \sqrt{|\mathcal{S}| |\mathcal{O}| T}\right)
+\tag{38}
+$$
 
 where $D_O$ is the diameter of the option-induced SMDP and $\lvert \mathcal{O} \rvert$ is the number of options. When $\lvert \mathcal{O} \rvert \ll \lvert \mathcal{A} \rvert$ and $D_O$ is comparable to the primitive-action diameter $D$, hierarchical exploration achieves markedly better regret than flat exploration.
 
@@ -363,11 +477,17 @@ Semi-parametric hierarchical planning combines learned models with structured pl
 
 Option models describe the expected outcome of executing an option from a state, capturing both the expected duration and the expected next state distribution. Formally, the option model consists of a duration-and-outcome distribution
 
-$$P^o(s', \tau \mid s) = P(s_{\tau} = s', \tau_o = \tau \mid s_0 = s, o)$$
+$$
+P^o(s', \tau \mid s) = P(s_{\tau} = s', \tau_o = \tau \mid s_0 = s, o)
+\tag{39}
+$$
 
 and a cumulative reward function
 
-$$R^o(s) = \mathbb{E}\!\left[\sum_{i=0}^{\tau_o - 1} \gamma^i r_{i+1} \mid s_0 = s, o\right]$$
+$$
+R^o(s) = \mathbb{E}\!\left[\sum_{i=0}^{\tau_o - 1} \gamma^i r_{i+1} \mid s_0 = s, o\right]
+\tag{40}
+$$
 
 Option models enable multi-step planning at the option timescale, providing a natural bridge between hierarchical control and model-based planning treated in article seven.
 
@@ -425,6 +545,391 @@ Reproducibility challenges in hierarchical reinforcement learning are similar to
 - How should hierarchical decomposition interact with meta-learning and continual learning? Learned low-level skills should support fast adaptation to new tasks, but current methods do not consistently deliver this promise.
 - What is the correct handling of the exploration problem in hierarchical settings? Options can dramatically improve exploration when the option boundaries align with task structure but can hinder exploration when they do not.
 - How should the trade-off between recursive optimality and hierarchical optimality be resolved in practice? Recursive optimality is often much easier to achieve but is not guaranteed to produce globally-optimal behavior.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 40 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 40, 37 are established and 3 are bespoke.
+Durations such as $\tau$, $k$ and $c$ count primitive decision steps rather than seconds, so a discount raised to a duration is dimensionless, and values and option rewards carry the units of the primitive reward accumulated over those steps.
+
+**Equation 1, Discount over a Flat Horizon.**
+A reward reached after $H$ primitive steps is discounted by the discount factor raised to $H$.
+
+$$
+\gamma^H_{\text{flat}} = \gamma^H
+\tag{1}
+$$
+
+*Equation 2, Bespoke Discount per High-Level Step.*
+The article assumes that every sub-policy lasts exactly $k$ primitive steps, so each high-level step carries the fixed discount $\gamma^k$ rather than an expectation over variable durations.
+
+$$
+\gamma_{\text{high}} = \gamma^k
+\tag{2}
+$$
+
+*Equation 3, Bespoke Equality of Flat and Hierarchical Total Discount.*
+Under the same assumption of fixed sub-policy length $k$ dividing the horizon, the discount over $H/k$ high-level steps equals the flat discount over $H$ primitive steps.
+
+$$
+\gamma^{H/k}_{\text{high}} = (\gamma^k)^{H/k} = \gamma^H
+\tag{3}
+$$
+
+**Equation 4, Semi-Markov Decision Process as a Tuple.**
+A semi-Markov decision process adds to the states, actions, transitions and rewards a distribution over the duration of each action.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+\mathcal{M}_{\text{SMDP}} = (\mathcal{S}, \mathcal{A}, P, R, F)
+\tag{4}
+$$
+
+**Equation 5, Semi-Markov Bellman Expectation Equation.**
+The value of a state is the expected discounted reward accumulated during the chosen action plus the successor value discounted by the action's duration.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+V^{\pi}(s) = \sum_a \pi(a \mid s) \left[R(s, a) + \sum_{s', \tau} F(\tau \mid s, a) P(s' \mid s, a, \tau) \gamma^\tau V^\pi(s')\right]
+\tag{5}
+$$
+
+**Equation 6, Discounted Cumulative Reward of an Extended Action.**
+The reward of a temporally extended action is the expected discounted sum of the primitive rewards received while it runs.
+
+$$
+R(s, a) = \mathbb{E}\!\left[\sum_{i=0}^{\tau-1} \gamma^i r_{i+1} \mid s, a\right]
+\tag{6}
+$$
+
+**Equation 7, Semi-Markov Bellman Optimality Equation.**
+The optimal value of an extended action is its cumulative reward plus the best successor value discounted by its duration.
+
+$$
+Q^*(s, a) = R(s, a) + \sum_{s', \tau} F(\tau \mid s, a) P(s' \mid s, a, \tau) \gamma^\tau \max_{a'} Q^*(s', a')
+\tag{7}
+$$
+
+**Equation 8, Semi-Markov Q-Learning Update.**
+Q-learning over extended actions bootstraps with the discount raised to the observed duration and reduces to ordinary Q-learning for one-step actions.
+
+$$
+Q(s, a) \leftarrow Q(s, a) + \alpha \left[r + \gamma^\tau \max_{a'} Q(s', a') - Q(s, a)\right]
+\tag{8}
+$$
+
+**Equation 9, Option as a Triple.**
+An option is defined by its initiation set, its intra-option policy and its termination condition.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+o = (I_o, \pi_o, \beta_o)
+\tag{9}
+$$
+
+**Equation 10, Distribution of Option Duration.**
+The probability that an option terminates after exactly $k$ steps is the product of the continuation probabilities along the way times the termination probability at the last state.
+
+$$
+P(\tau_o = k) = \prod_{i=0}^{k-1} (1 - \beta_o(s_{t+i})) \, \beta_o(s_{t+k})
+\tag{10}
+$$
+
+**Equation 11, Value of a Policy over Options.**
+The value under a policy over options is the expected discounted primitive return when options are chosen by that policy.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+V^\mu(s) = \mathbb{E}\!\left[\sum_{k=0}^{\infty} \gamma^k r_{k+1} \mid s_0 = s, \mu\right]
+\tag{11}
+$$
+
+**Equation 12, Option Action Value.**
+The value of starting an option is its expected discounted reward plus the next state value discounted by the option's duration.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+Q^\mu(s, o) = \mathbb{E}\!\left[r(s, o) + \gamma^{\tau(s, o)} V^\mu(s') \mid s_0 = s, o_0 = o\right]
+\tag{12}
+$$
+
+**Equation 13, Intra-Option Q-Learning Update.**
+Each primitive transition updates the option value toward the reward plus the discounted value of arriving at the next state with that option.
+[Precup 2000][book_precup_thesis_2000]
+
+$$
+Q(s, o) \leftarrow Q(s, o) + \alpha \left[r + \gamma U(s', o) - Q(s, o)\right]
+\tag{13}
+$$
+
+**Equation 14, Value upon Arrival.**
+The value of arriving at a state while executing an option mixes continuing the option and switching to the best option, weighted by the termination probability.
+[Precup 2000][book_precup_thesis_2000]
+
+$$
+U(s', o) = (1 - \beta_o(s')) Q(s', o) + \beta_o(s') \max_{o'} Q(s', o')
+\tag{14}
+$$
+
+**Equation 15, Intra-Option Bellman Optimality Equation.**
+The optimal option value averages over the option's primitive actions the reward plus the discounted optimal value upon arrival.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+Q^*(s, o) = \sum_a \pi_o(a \mid s) \left[R(s, a) + \gamma \sum_{s'} P(s' \mid s, a) U^*(s', o)\right]
+\tag{15}
+$$
+
+**Equation 16, Optimal Value upon Arrival.**
+The optimal value upon arrival mixes continuing the option with taking the optimal state value, weighted by the termination probability.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+U^*(s', o) = (1 - \beta_o(s')) Q^*(s', o) + \beta_o(s') V^*(s'), \quad V^*(s') = \max_{o'} Q^*(s', o')
+\tag{16}
+$$
+
+**Equation 17, Option Advantage.**
+The option advantage is the value of committing to an option less the value of the state under the policy over options.
+[Bacon et al. 2017][research_bacon_harb_precup_2017]
+
+$$
+A^\mu_\Omega(s, o) = Q^\mu(s, o) - V^\mu(s)
+\tag{17}
+$$
+
+**Equation 18, Termination Advantage.**
+The termination advantage compares continuing the current option with terminating and choosing afresh, and it takes the same form as the option advantage.
+[Bacon et al. 2017][research_bacon_harb_precup_2017]
+
+$$
+A^\mu_\beta(s, o) = Q^\mu(s, o) - V^\mu(s)
+\tag{18}
+$$
+
+**Equation 19, MAXQ Value Decomposition.**
+The value of a subtask splits into the value of the child it invokes plus a completion term for finishing the parent afterwards.
+[Dietterich 2000][research_dietterich_2000]
+
+$$
+V^\pi(i, s) = V^{\pi_i}(a_i(s), s) + C^\pi(i, s, a_i(s))
+\tag{19}
+$$
+
+**Equation 20, MAXQ Completion Function.**
+The completion function is the expected discounted value of the parent subtask from the state where the child terminates.
+[Dietterich 2000][research_dietterich_2000]
+
+$$
+C^\pi(i, s, a) = \mathbb{E}\!\left[\gamma^{\tau_a} V^\pi(i, s') \mid \text{child } a \text{ terminates at } s'\right]
+\tag{20}
+$$
+
+**Equation 21, MAXQ Recursive Bellman Equation.**
+A subtask's value averages over its children the child value plus the completion value.
+[Dietterich 2000][research_dietterich_2000]
+
+$$
+V^\pi(i, s) = \sum_a \pi_i(a \mid s) \left[V^{\pi_i}(a, s) + C^\pi(i, s, a)\right]
+\tag{21}
+$$
+
+**Equation 22, MAXQ-Q Completion Update.**
+Each completion function moves toward the parent value at the child's termination state discounted by the child's duration.
+[Dietterich 2000][research_dietterich_2000]
+
+$$
+C(i, s, a) \leftarrow C(i, s, a) + \alpha \left[\gamma^{\tau_a} V(i, s') - C(i, s, a)\right]
+\tag{22}
+$$
+
+**Equation 23, Hierarchy of Abstract Machines State Space.**
+The decision process induced by a hierarchy of abstract machines has as its states the pairs of environment state and machine state.
+[Parr and Russell 1998][research_parr_russell_1998]
+
+$$
+\mathcal{S}_{\text{HAM}} = \mathcal{S} \times \mathcal{M}
+\tag{23}
+$$
+
+**Equation 24, HAMQ Update.**
+Q-learning over choice points of the machine bootstraps with the discount raised to the time until the next choice point.
+[Parr and Russell 1998][research_parr_russell_1998]
+
+$$
+Q((s, m), a) \leftarrow Q((s, m), a) + \alpha \left[r + \gamma^\tau \max_{a'} Q((s', m'), a') - Q((s, m), a)\right]
+\tag{24}
+$$
+
+**Equation 25, Hierarchical Deep Q-Network Meta-Controller Update.**
+The meta-controller Q-learns over sub-goals using the extrinsic reward accumulated while each sub-goal is pursued.
+[Kulkarni et al. 2016][research_kulkarni_et_al_2016]
+
+$$
+Q_{\text{meta}}(s, g) \leftarrow Q_{\text{meta}}(s, g) + \alpha \left[R_g + \gamma \max_{g'} Q_{\text{meta}}(s', g') - Q_{\text{meta}}(s, g)\right]
+\tag{25}
+$$
+
+**Equation 26, Sub-Goal Attainment Reward.**
+The low-level controller receives a reward of one when the goal-check function reports that the sub-goal is reached.
+[Kulkarni et al. 2016][research_kulkarni_et_al_2016]
+
+$$
+r^{\text{intrinsic}}_t = \mathbb{1}\!\left\{\phi(s_t) = g\right\}
+\tag{26}
+$$
+
+**Equation 27, Feudal Network Manager Goal.**
+The manager emits a goal direction in a latent space from the current state.
+[Vezhnevets et al. 2017][research_vezhnevets_et_al_2017]
+
+$$
+g_t = f_{\text{manager}}(s_t; \theta_M) \in \mathbb{R}^d
+\tag{27}
+$$
+
+**Equation 28, Feudal Network Worker Intrinsic Reward.**
+The worker is rewarded by the mean cosine similarity between latent state changes and the manager's recent goal directions.
+[Vezhnevets et al. 2017][research_vezhnevets_et_al_2017]
+
+$$
+r_t^{\text{FuN}} = \frac{1}{c} \sum_{i=1}^{c} \cos\!\left(s_{t+i} - s_t, g_{t-i}\right)
+\tag{28}
+$$
+
+**Equation 29, Intra-Option Policy Gradient Theorem.**
+The gradient with respect to the intra-option policy weights its score function by the option-conditioned action value.
+[Bacon et al. 2017][research_bacon_harb_precup_2017]
+
+$$
+\nabla_\theta J = \mathbb{E}_{s, o}\!\left[Q_U(s, o, a) \nabla_\theta \log \pi_{o, \theta}(a \mid s)\right]
+\tag{29}
+$$
+
+**Equation 30, Termination Gradient Theorem.**
+The gradient with respect to the termination parameters lowers termination where the option's value exceeds the state value and raises it elsewhere.
+[Bacon et al. 2017][research_bacon_harb_precup_2017]
+
+$$
+\nabla_\vartheta J = -\mathbb{E}\!\left[\nabla_\vartheta \beta_{o, \vartheta}(s') \left(Q^\mu(s', o) - V^\mu(s')\right)\right]
+\tag{30}
+$$
+
+**Equation 31, HIRO Low-Level Reward.**
+The low-level policy is penalised by the distance between the state reached and the current state displaced by the sub-goal.
+[Nachum et al. 2018][research_nachum_gu_lee_levine_2018]
+
+$$
+r^{\text{low}}_t = -\| s_{t+1} - (s_t + g_t) \|_2
+\tag{31}
+$$
+
+**Equation 32, HIRO Off-Policy Goal Relabelling.**
+Stored high-level transitions are relabelled with the sub-goal under which the current low-level policy best explains the actions taken.
+[Nachum et al. 2018][research_nachum_gu_lee_levine_2018]
+
+$$
+\tilde{g}_t = \arg\max_g P(a_{t:t+c-1} \mid s_{t:t+c-1}, g, \pi_{\text{low}})
+\tag{32}
+$$
+
+**Equation 33, Universal Value Function.**
+The value function takes a goal as a second argument and gives the expected discounted goal-relative reward under the goal-conditioned policy.
+[Schaul et al. 2015][research_schaul_horgan_gregor_silver_2015_hrl]
+
+$$
+V(s, g) = \mathbb{E}\!\left[\sum_t \gamma^t r(s_t, g) \mid s_0 = s, \pi(\cdot \mid \cdot, g)\right]
+\tag{33}
+$$
+
+**Equation 34, Latent-Conditioned Skill Policy.**
+The low-level policy conditions on a continuous skill code so that different codes produce different behaviours.
+
+$$
+\pi_\theta(a \mid s, z)
+\tag{34}
+$$
+
+**Equation 35, SayCan Skill Scoring.**
+The next skill is chosen in proportion to the language model's probability of the skill times the value function's estimate that it can be executed from the current state.
+[Ahn et al. 2022][research_ahn_et_al_2022_saycan]
+
+$$
+p(\text{skill}_i \mid \text{context}) \propto p_{\text{LLM}}(\text{skill}_i \mid \text{context}) \cdot V(\text{skill}_i \mid s)
+\tag{35}
+$$
+
+**Equation 36, Graph Laplacian.**
+The graph Laplacian is the diagonal degree matrix less the adjacency matrix of the state transition graph.
+[Machado et al. 2018][research_machado_bellemare_bowling_2018_eigenoptions]
+
+$$
+L = D - W
+\tag{36}
+$$
+
+*Equation 37, Bespoke Termination-Penalised Option-Critic Loss.*
+The article writes the option-critic objective as the negative return plus a penalty proportional to the expected sum of termination probabilities, a regularised form it chooses to express the deliberation cost idea.
+
+$$
+L_{\text{OC}}(\theta, \vartheta) = -\mathbb{E}[G] + \eta \, \mathbb{E}\!\left[\sum_t \beta_{o_t, \vartheta}(s_t)\right]
+\tag{37}
+$$
+
+**Equation 38, Regret of Optimistic Learning with Options.**
+Optimistic learning over options incurs regret governed by the diameter of the option-induced process and the number of options instead of the number of primitive actions.
+[Fruit and Lazaric 2017][research_fruit_lazaric_2017]
+
+$$
+R_T = \tilde{\mathcal{O}}\!\left(D_O \sqrt{|\mathcal{S}| |\mathcal{O}| T}\right)
+\tag{38}
+$$
+
+**Equation 39, Option Transition Model.**
+The option model gives the joint probability of the state at termination and the duration of the option.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+P^o(s', \tau \mid s) = P(s_{\tau} = s', \tau_o = \tau \mid s_0 = s, o)
+\tag{39}
+$$
+
+**Equation 40, Option Reward Model.**
+The option reward model is the expected discounted reward accumulated before the option terminates.
+[Sutton et al. 1999][research_sutton_precup_singh_1999]
+
+$$
+R^o(s) = \mathbb{E}\!\left[\sum_{i=0}^{\tau_o - 1} \gamma^i r_{i+1} \mid s_0 = s, o\right]
+\tag{40}
+$$
+
+### Notation
+
+- $H$, the task horizon in primitive steps
+- $k$, the length of each sub-policy in primitive steps, or the duration of an option in equation 10
+- $F(\tau \mid s, a)$, the duration distribution of an extended action
+- $\tau$, the duration of an extended action or option in primitive steps
+- $I_o$, the initiation set of option $o$
+- $\pi_o$, the intra-option policy of option $o$
+- $\beta_o$, the termination condition of option $o$
+- $U(s', o)$, the value upon arrival at $s'$ while executing option $o$
+- $C^\pi(i, s, a)$, the MAXQ completion function of subtask $i$
+- $\mathcal{M}$, the set of machine states of a hierarchy of abstract machines
+- $R_g$, the extrinsic reward accumulated while pursuing sub-goal $g$
+- $g_t$, the sub-goal or goal direction issued at step $t$
+- $c$, the number of primitive steps between high-level decisions
+- $\vartheta$, the termination condition parameters
+- $Q_U(s, o, a)$, the option-conditioned action value at the primitive level
+- $z$, the continuous skill code
+- $L = D - W$, the graph Laplacian with $D$ the degree matrix and $W$ the adjacency matrix
+- $\eta$, the termination penalty coefficient
+- $D_O$, the diameter of the option-induced semi-Markov process
+- $P^o(s', \tau \mid s)$, the joint distribution of termination state and duration of option $o$
 
 ## References
 

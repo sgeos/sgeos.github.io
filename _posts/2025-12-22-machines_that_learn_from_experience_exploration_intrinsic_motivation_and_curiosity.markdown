@@ -21,15 +21,24 @@ The classical Markov decision process setting inherits the exploration-exploitat
 
 Formally, define the sub-optimality gap of a policy $\pi$ at state $s$ as
 
-$$\Delta^\pi(s) = V^*(s) - V^\pi(s)$$
+$$
+\Delta^\pi(s) = V^*(s) - V^\pi(s)
+\tag{1}
+$$
 
 Two related performance measures quantify the effectiveness of an exploration strategy. The cumulative regret over $T$ episodes is
 
-$$R_T = \sum_{k=1}^{T} \left(V^*(s_0) - V^{\pi_k}(s_0)\right)$$
+$$
+R_T = \sum_{k=1}^{T} \left(V^*(s_0) - V^{\pi_k}(s_0)\right)
+\tag{2}
+$$
 
 for a sequence of policies $\pi_1, \pi_2, \ldots, \pi_T$ produced by the exploration algorithm. The sample complexity is the number of steps in which the current policy is not $\epsilon$-optimal,
 
-$$\text{SC}(\epsilon, \delta) = \left| \left\{t : V^*(s_t) - V^{\pi_t}(s_t) > \epsilon\right\} \right|$$
+$$
+\text{SC}(\epsilon, \delta) = \left| \left\{t : V^*(s_t) - V^{\pi_t}(s_t) > \epsilon\right\} \right|
+\tag{3}
+$$
 
 which is bounded with probability at least $1 - \delta$ by an algorithm-polynomial in the problem parameters.
 
@@ -55,25 +64,40 @@ The deep reinforcement learning era brought new attention to the exploration pro
 
 Optimism in the face of uncertainty extends from bandits to MDPs by inflating value estimates at uncertain state-action pairs. In tabular finite MDPs the mechanism admits clean analysis. Define an exploration bonus $b(s, a)$ derived from uncertainty and add it to the reward,
 
-$$\tilde{r}(s, a) = r(s, a) + b(s, a)$$
+$$
+\tilde{r}(s, a) = r(s, a) + b(s, a)
+\tag{4}
+$$
 
 with the bonus decreasing as the state-action pair is visited more. Standard choices include count-based bonuses
 
-$$b(s, a) = \beta / \sqrt{N(s, a)}$$
+$$
+b(s, a) = \beta / \sqrt{N(s, a)}
+\tag{5}
+$$
 
 for visit count $N(s, a)$ and exploration coefficient $\beta$, motivated by the UCB analysis in bandits.
 
 The R-MAX algorithm treats unvisited state-action pairs as maximally rewarding, using
 
-$$\tilde{r}_{\text{R-MAX}}(s, a) = \begin{cases} \hat{r}(s, a) & \text{if } N(s, a) \geq m \\ R_{\max} & \text{otherwise} \end{cases}$$
+$$
+\tilde{r}_{\text{R-MAX}}(s, a) = \begin{cases} \hat{r}(s, a) & \text{if } N(s, a) \geq m \\ R_{\max} & \text{otherwise} \end{cases}
+\tag{6}
+$$
 
 for a visit threshold $m$ and the maximum possible reward $R_{\max}$, providing exploration through the maximum-reward assumption rather than an additive bonus. Interval-based exploration methods including MBIE-EB of [Strehl and Littman 2008][research_strehl_littman_2008] use bonus terms of the form
 
-$$b_{\text{MBIE-EB}}(s, a) = \frac{\beta}{\sqrt{N(s, a)}}$$
+$$
+b_{\text{MBIE-EB}}(s, a) = \frac{\beta}{\sqrt{N(s, a)}}
+\tag{7}
+$$
 
 derived from Chernoff-Hoeffding confidence intervals on the estimated Q-value. UCRL2 of [Jaksch et al. 2010][research_jaksch_ortner_auer_2010] applies optimism at the level of the entire MDP, maintaining confidence sets over $(P, R)$ constructed as
 
-$$\mathcal{M}_t = \left\{(P', R') : \| P'(\cdot \mid s, a) - \hat{P}_t(\cdot \mid s, a) \|_1 \leq c_1 \sqrt{\log(t)/N_t(s, a)}, \; |R'(s, a) - \hat{R}_t(s, a)| \leq c_2 \sqrt{\log(t)/N_t(s, a)}\right\}$$
+$$
+\mathcal{M}_t = \left\{(P', R') : \| P'(\cdot \mid s, a) - \hat{P}_t(\cdot \mid s, a) \|_1 \leq c_1 \sqrt{\log(t)/N_t(s, a)}, \; |R'(s, a) - \hat{R}_t(s, a)| \leq c_2 \sqrt{\log(t)/N_t(s, a)}\right\}
+\tag{8}
+$$
 
 and following the policy optimal for the most-optimistic MDP in the confidence set. Both approaches achieve regret bounds of order $\tilde{\mathcal{O}}(D \sqrt{\lvert \mathcal{S} \rvert \lvert \mathcal{A} \rvert T})$ for MDP diameter $D$.
 
@@ -81,7 +105,10 @@ Optimism-based methods extend to function approximation but require additional c
 
 The disagreement measure
 
-$$U(s, a) = \sqrt{\frac{1}{K} \sum_{k=1}^K (Q_k(s, a) - \bar{Q}(s, a))^2}$$
+$$
+U(s, a) = \sqrt{\frac{1}{K} \sum_{k=1}^K (Q_k(s, a) - \bar{Q}(s, a))^2}
+\tag{9}
+$$
 
 with $\bar{Q}(s, a) = (1/K) \sum_k Q_k(s, a)$ provides a state-action uncertainty estimate that can drive an additive bonus in an alternative use of the ensemble. Ensemble methods provide a practical mechanism to extend optimism-based exploration to deep function approximation without requiring exact posterior computation.
 
@@ -89,13 +116,19 @@ with $\bar{Q}(s, a) = (1/K) \sum_k Q_k(s, a)$ provides a state-action uncertaint
 
 Policy-gradient methods admit distinctive exploration mechanisms grounded in the stochasticity of the policy itself. Entropy regularization adds a policy entropy bonus to the reinforcement learning objective,
 
-$$J_{\text{ent}}(\theta) = J(\theta) + \beta \, \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[H(\pi_\theta(\cdot \mid s))\right]$$
+$$
+J_{\text{ent}}(\theta) = J(\theta) + \beta \, \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[H(\pi_\theta(\cdot \mid s))\right]
+\tag{10}
+$$
 
 with weighting coefficient $\beta$, encouraging the policy to maintain stochasticity that supports exploration. Maximum-entropy reinforcement learning of [Ziebart 2010][book_ziebart_2010_thesis] extends the objective to a full information-theoretic formulation in which the policy trades off reward against entropy at every state, and Soft Actor-Critic treated in article four provides the deep-learning implementation. The maximum-entropy objective has close ties to the Boltzmann exploration formulation and to the principle of maximum entropy inference.
 
 Parameter space noise provides an alternative to action-space stochasticity. [Plappert et al. 2018][research_plappert_et_al_2018] adds noise directly to policy parameters,
 
-$$\tilde{\theta} = \theta + \sigma \cdot \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)$$
+$$
+\tilde{\theta} = \theta + \sigma \cdot \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)
+\tag{11}
+$$
 
 for a per-training-step noise sample $\epsilon$ and an adaptive scale $\sigma$. The mechanism produces state-dependent exploration that adapts as the policy learns, and empirically outperforms Gaussian action-space noise on many continuous-control problems. NoisyNets of Fortunato et al 2018 treated in article four provides a related deep-learning variant.
 
@@ -107,13 +140,19 @@ The Best-Response Learning framework of [Kakade and Langford 2002][research_kaka
 
 Posterior sampling for reinforcement learning (PSRL) of [Osband et al. 2013][research_osband_van_roy_2013_psrl] extends Thompson sampling from bandits to MDPs. The agent maintains a posterior distribution over environment parameters $\theta$,
 
-$$p(\theta \mid \mathcal{D}_t) \propto p(\mathcal{D}_t \mid \theta) \, p(\theta)$$
+$$
+p(\theta \mid \mathcal{D}_t) \propto p(\mathcal{D}_t \mid \theta) \, p(\theta)
+\tag{12}
+$$
 
 sampled from prior $p(\theta)$ conditioned on trajectory data $\mathcal{D}\_t$. At the start of each episode the agent draws $\tilde{\theta} \sim p(\theta \mid \mathcal{D}\_t)$, computes the optimal policy $\pi_{\tilde{\theta}}^\*$ for the sampled environment, and follows it for the episode. The mechanism trades exploration for exploitation through the posterior variance rather than through explicit optimism.
 
 The Bayesian regret of PSRL for finite-horizon episodic MDPs is
 
-$$R_T^{\text{Bayes}} = \tilde{\mathcal{O}}\!\left(H \sqrt{|\mathcal{S}| |\mathcal{A}| T}\right)$$
+$$
+R_T^{\text{Bayes}} = \tilde{\mathcal{O}}\!\left(H \sqrt{|\mathcal{S}| |\mathcal{A}| T}\right)
+\tag{13}
+$$
 
 for horizon $H$ and total step count $T$, comparable to optimism-based approaches. The posterior-sampling analysis provides an alternative theoretical framework that has proved productive for extending exploration guarantees to structured MDPs.
 
@@ -139,11 +178,17 @@ The count-based exploration bonus of the form $\beta / \sqrt{N(s, a)}$ works wel
 
 Let $\rho(s)$ be a density estimator over states that assigns a probability $\rho_n(s)$ after $n$ observations and $\rho'\_n(s)$ after observing state $s$ once more. The pseudocount
 
-$$\hat{N}(s) = \frac{\rho_n(s)(1 - \rho'_n(s))}{\rho'_n(s) - \rho_n(s)}$$
+$$
+\hat{N}(s) = \frac{\rho_n(s)(1 - \rho'_n(s))}{\rho'_n(s) - \rho_n(s)}
+\tag{14}
+$$
 
 approximates the number of times $s$ has been observed under the assumption that $\rho$ is a well-calibrated density estimator. The pseudocount provides the input to a count-based bonus,
 
-$$b(s, a) = \beta / \sqrt{\hat{N}(s) + 1}$$
+$$
+b(s, a) = \beta / \sqrt{\hat{N}(s) + 1}
+\tag{15}
+$$
 
 or a variant, and reduces the exploration problem to the density-estimation problem. The choice of density model determines the effective inductive bias for what counts as a novel state.
 
@@ -151,7 +196,10 @@ CTS density models based on context-tree switching provided the original density
 
 The connection between pseudocounts and information gain provides an alternative theoretical framing. If the density model $\rho$ can be interpreted as a Bayesian predictive distribution, the log-likelihood improvement from observing $s$ provides an information-gain quantity that can serve as an intrinsic reward,
 
-$$r^{\text{IG}}(s) = \log \rho'_n(s) - \log \rho_n(s)$$
+$$
+r^{\text{IG}}(s) = \log \rho'_n(s) - \log \rho_n(s)
+\tag{16}
+$$
 
 The pseudocount can be derived from the information-gain formulation under assumptions on the density model, unifying the count-based and information-theoretic perspectives on exploration.
 
@@ -161,11 +209,17 @@ The pseudocount framework generalized to hash-based counts, latent-space counts,
 
 Latent-space pseudocounts of [Machado et al. 2020][research_machado_bellemare_bowling_2020] count in a learned latent space $\phi(s)$ that captures task-relevant features while discarding task-irrelevant variation. The pseudocount
 
-$$\hat{N}_\phi(s) = \hat{N}(\phi(s))$$
+$$
+\hat{N}_\phi(s) = \hat{N}(\phi(s))
+\tag{17}
+$$
 
 is computed over the latent encoding rather than the raw observation. The approach addresses the noisy-TV problem discussed below by ensuring that the density estimator is invariant to irreducible-noise features of the observation. Hash-based pseudocounts of [Tang et al. 2017][research_tang_et_al_2017] use a SimHash or learned hash function $h : \mathcal{S} \to \{0, 1\}^k$ to project observations to a discrete bucket space and count buckets, obtaining an intrinsic reward
 
-$$r^{\text{hash}}(s) = \frac{\beta}{\sqrt{N(h(s)) + 1}}$$
+$$
+r^{\text{hash}}(s) = \frac{\beta}{\sqrt{N(h(s)) + 1}}
+\tag{18}
+$$
 
 at a computational cost far below the density-model approach.
 
@@ -179,25 +233,40 @@ The prediction-error curiosity family uses the error of a learned forward or inv
 
 ICM learns an inverse dynamics model $\hat{a}\_t = f_{\text{inv}}(\phi(s_t), \phi(s_{t+1}))$ that predicts the action from consecutive state encodings, trained by the inverse-dynamics loss
 
-$$L_{\text{inv}}(\phi, f_{\text{inv}}) = \mathbb{E}\!\left[\ell(f_{\text{inv}}(\phi(s_t), \phi(s_{t+1})), a_t)\right]$$
+$$
+L_{\text{inv}}(\phi, f_{\text{inv}}) = \mathbb{E}\!\left[\ell(f_{\text{inv}}(\phi(s_t), \phi(s_{t+1})), a_t)\right]
+\tag{19}
+$$
 
 for classification loss $\ell$, and a forward dynamics model $\hat{\phi}(s_{t+1}) = f_{\text{fwd}}(\phi(s_t), a_t)$ that predicts the next state encoding, trained by the forward loss
 
-$$L_{\text{fwd}}(\phi, f_{\text{fwd}}) = \frac{1}{2} \mathbb{E}\!\left[\| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \|^2\right]$$
+$$
+L_{\text{fwd}}(\phi, f_{\text{fwd}}) = \frac{1}{2} \mathbb{E}\!\left[\| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \|^2\right]
+\tag{20}
+$$
 
 The combined ICM training objective
 
-$$L_{\text{ICM}} = (1 - \beta) L_{\text{inv}} + \beta L_{\text{fwd}}$$
+$$
+L_{\text{ICM}} = (1 - \beta) L_{\text{inv}} + \beta L_{\text{fwd}}
+\tag{21}
+$$
 
 with $\beta \in [0, 1]$ balances the two losses. The state encoder $\phi$ is trained through the inverse-model objective to capture features relevant to action, filtering out features that the agent cannot influence.
 
 The intrinsic reward is the forward-model prediction error in the learned feature space,
 
-$$r^{\text{ICM}}_t = \frac{\eta}{2} \| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \|^2$$
+$$
+r^{\text{ICM}}_t = \frac{\eta}{2} \| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \|^2
+\tag{22}
+$$
 
 with $\eta$ a scaling coefficient, and the total policy-training reward combines extrinsic and intrinsic terms,
 
-$$r_t^{\text{total}} = r_t^{\text{ext}} + r_t^{\text{ICM}}$$
+$$
+r_t^{\text{total}} = r_t^{\text{ext}} + r_t^{\text{ICM}}
+\tag{23}
+$$
 
 The mechanism rewards trajectories that lead to forward-model surprise, focusing exploration on parts of the state space where the agent's dynamics model is inaccurate.
 
@@ -209,15 +278,24 @@ ICM achieved substantial improvements on VizDoom and Super Mario Bros benchmarks
 
 Random Network Distillation (RND) of [Burda et al. 2018][research_burda_edwards_storkey_klimov_2018] provides a simpler prediction-error method that trains a predictor network to match the output of a randomly-initialized fixed target network. The intrinsic reward is the prediction error,
 
-$$r^{\text{RND}}_t = \| \hat{f}_\theta(s_t) - f_{\bar{\theta}}(s_t) \|^2$$
+$$
+r^{\text{RND}}_t = \| \hat{f}_\theta(s_t) - f_{\bar{\theta}}(s_t) \|^2
+\tag{24}
+$$
 
 where $f_{\bar{\theta}}$ is the fixed random target network and $\hat{f}\_\theta$ is the predictor trained by the regression loss
 
-$$L_{\text{RND}}(\theta) = \mathbb{E}_{s \sim \mathcal{D}}\!\left[\| \hat{f}_\theta(s) - f_{\bar{\theta}}(s) \|^2\right]$$
+$$
+L_{\text{RND}}(\theta) = \mathbb{E}_{s \sim \mathcal{D}}\!\left[\| \hat{f}_\theta(s) - f_{\bar{\theta}}(s) \|^2\right]
+\tag{25}
+$$
 
 on visited states. RND applies observation and reward normalization
 
-$$\tilde{s}_t = \frac{s_t - \mu_s}{\sigma_s}, \quad \tilde{r}^{\text{RND}}_t = \frac{r^{\text{RND}}_t}{\sigma_r}$$
+$$
+\tilde{s}_t = \frac{s_t - \mu_s}{\sigma_s}, \quad \tilde{r}^{\text{RND}}_t = \frac{r^{\text{RND}}_t}{\sigma_r}
+\tag{26}
+$$
 
 with running estimates of mean and standard deviation to stabilize training across environments with different observation and reward scales.
 
@@ -231,17 +309,26 @@ The RND intrinsic reward decays as the state space is covered, providing a natur
 
 Empowerment of [Klyubin et al. 2005][research_klyubin_polani_nehaniv_2005] and its systematic treatment in [Salge et al. 2014][research_salge_glackin_polani_2014] provides an information-theoretic objective for exploration that captures the agent's control over its future. The empowerment at state $s$ is the maximum mutual information between an action sequence and the resulting state after $k$ steps,
 
-$$\mathfrak{E}(s) = \max_{p(a_{t:t+k-1})} I(A_{t:t+k-1} ; S_{t+k} \mid S_t = s)$$
+$$
+\mathfrak{E}(s) = \max_{p(a_{t:t+k-1})} I(A_{t:t+k-1} ; S_{t+k} \mid S_t = s)
+\tag{27}
+$$
 
 where the maximization is over action-sequence distributions. States with high empowerment provide the agent with marked control over its future outcomes, and empowerment-driven exploration seeks such states.
 
 The computational challenge of empowerment is the mutual-information maximization over action sequences. The definition expands as
 
-$$I(A_{t:t+k-1} ; S_{t+k} \mid S_t) = H(A_{t:t+k-1}) - H(A_{t:t+k-1} \mid S_{t+k}, S_t)$$
+$$
+I(A_{t:t+k-1} ; S_{t+k} \mid S_t) = H(A_{t:t+k-1}) - H(A_{t:t+k-1} \mid S_{t+k}, S_t)
+\tag{28}
+$$
 
 where $H$ denotes Shannon entropy. Variational bounds provide tractable approximations. The Barber-Agakov lower bound underlies [Mohamed and Jimenez Rezende 2015][research_mohamed_rezende_2015] variational empowerment estimator,
 
-$$I(A ; S') \geq \mathbb{E}_{p(a, s')}\!\left[\log q(a \mid s') - \log p(a)\right]$$
+$$
+I(A ; S') \geq \mathbb{E}_{p(a, s')}\!\left[\log q(a \mid s') - \log p(a)\right]
+\tag{29}
+$$
 
 where $q(a \mid s')$ is a learned decoder that predicts the action from the resulting state. Maximizing the lower bound over $q$ and the action distribution $p(a)$ provides a tractable empowerment estimator that scales to deep RL settings.
 
@@ -249,7 +336,10 @@ Other information-theoretic exploration objectives include mutual information be
 
 Free-energy based exploration from active inference of [Friston 2010][research_friston_2010_active_inference] provides an alternative information-theoretic framework in which exploration and exploitation both minimize a variational free energy. The model treats action selection as expected-free-energy minimization,
 
-$$G(\pi) = \mathbb{E}_{q(s, o; \pi)}\!\left[\log q(s \mid o; \pi) - \log p(s, o \mid m)\right]$$
+$$
+G(\pi) = \mathbb{E}_{q(s, o; \pi)}\!\left[\log q(s \mid o; \pi) - \log p(s, o \mid m)\right]
+\tag{30}
+$$
 
 with the expected free energy decomposing into an epistemic (information-gain) term and a pragmatic (reward-seeking) term. Article seven treats predictive coding and active inference at greater length.
 
@@ -257,7 +347,10 @@ with the expected free energy decomposing into an epistemic (information-gain) t
 
 Schmidhuber's formal theory of creativity, fun, and intrinsic motivation of [Schmidhuber 2010][research_schmidhuber_2010] provides a unified information-theoretic framework in which curiosity, creativity, and aesthetic pleasure all arise from compression progress on the agent's world model. This formulation interprets the intrinsic reward as the improvement in world-model compression rate on the observations,
 
-$$r^{\text{CP}}_t = L(o_t \mid M_{t-1}) - L(o_t \mid M_t)$$
+$$
+r^{\text{CP}}_t = L(o_t \mid M_{t-1}) - L(o_t \mid M_t)
+\tag{31}
+$$
 
 where $L(o \mid M)$ is the compression length of observation $o$ under world model $M$, $M_{t-1}$ is the model before observing $o_t$, and $M_t$ is the model after. The compression-progress reward captures the intuition that learning progress itself is intrinsically rewarding.
 
@@ -271,7 +364,10 @@ The developmental robotics community has developed a distinct research program o
 
 The developmental approach emphasizes learning progress as the intrinsic reward signal, similar in spirit to Schmidhuber's compression progress but with emphasis on progress in the ability to reach diverse goals rather than compression of observations. The IAC (Intelligent Adaptive Curiosity) family of algorithms of [Oudeyer et al. 2007][research_oudeyer_kaplan_hafner_2007] partitions the sensorimotor space into regions and estimates learning progress within each region as the derivative of prediction accuracy over time,
 
-$$r^{\text{IAC}}_t = \frac{d}{dt} \text{Accuracy}(f_{\text{region}(s_t)})$$
+$$
+r^{\text{IAC}}_t = \frac{d}{dt} \text{Accuracy}(f_{\text{region}(s_t)})
+\tag{32}
+$$
 
 Exploration focuses on regions where learning progress is highest, capturing the intuition that curiosity is drawn to problems that are neither too easy nor too hard, sometimes called the goldilocks zone.
 
@@ -303,21 +399,33 @@ Goal-conditioned reinforcement learning extends the MDP by conditioning the poli
 
 The universal value function of [Schaul et al. 2015][research_schaul_horgan_gregor_silver_2015] extends the standard value function with a goal argument,
 
-$$V(s, g) = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t r(s_t, g) \mid s_0 = s\right]$$
+$$
+V(s, g) = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t r(s_t, g) \mid s_0 = s\right]
+\tag{33}
+$$
 
 where the reward is defined relative to a goal $g \in \mathcal{G}$. Automatic goal generation from unsupervised experience produces goals through methods including hindsight experience replay [Andrychowicz et al. 2017][research_andrychowicz_et_al_2017_exploration], where failed trajectories $\tau = (s_0, a_0, \ldots, s_T)$ are relabeled with the goals they actually achieved,
 
-$$g'(\tau) = \phi(s_T), \quad r'(s_t, g'(\tau)) = -\| \phi(s_t) - g'(\tau) \|$$
+$$
+g'(\tau) = \phi(s_T), \quad r'(s_t, g'(\tau)) = -\| \phi(s_t) - g'(\tau) \|
+\tag{34}
+$$
 
 with $\phi$ a state-to-goal mapping. VAE-based goal proposal generates novel goals through a variational autoencoder trained on the state distribution, skew-fit biases goal generation toward rare regions of the state space through density-model reweighting.
 
 Skill discovery through mutual information provides another intrinsic-motivation approach. The Variational Intrinsic Control (VIC) algorithm of [Gregor et al. 2016][research_gregor_rezende_wierstra_2016] established the mutual-information-based skill discovery framework. The DIAYN (Diversity Is All You Need) algorithm of [Eysenbach et al. 2019][research_eysenbach_gupta_ibarz_levine_2019] learns a set of skills $z$ by maximizing the mutual information between skill and resulting state,
 
-$$I(S ; Z) = H(Z) - H(Z \mid S)$$
+$$
+I(S ; Z) = H(Z) - H(Z \mid S)
+\tag{35}
+$$
 
 The maximization uses a variational discriminator $q(z \mid s)$ to lower-bound the mutual information and rewards the skill policy for producing states from which the skill can be identified,
 
-$$r^{\text{DIAYN}}(s, z) = \log q(z \mid s) - \log p(z)$$
+$$
+r^{\text{DIAYN}}(s, z) = \log q(z \mid s) - \log p(z)
+\tag{36}
+$$
 
 The mechanism produces a diverse collection of behaviors without extrinsic reward, providing a form of unsupervised exploration that generates a repertoire of skills usable for downstream tasks. Extensions include Dynamics-Aware Discovery of Skills (DADS) of [Sharma et al. 2020][research_sharma_et_al_2020] which conditions the mutual-information objective on the learned dynamics model, and Variational Option Discovery (VOD) of [Achiam et al. 2018][research_achiam_edwards_amodei_2018] which formulates skill discovery within the options framework.
 
@@ -331,7 +439,10 @@ Meta-exploration frames exploration itself as a learnable skill acquired across 
 
 RL$^2$ of [Duan et al. 2016][research_duan_schulman_chen_2016_rl2] and the concurrent learning-to-reinforcement-learn work of [Wang et al. 2016][research_wang_et_al_2016_l2rl] formulated meta-reinforcement learning as training a recurrent policy on a distribution of MDPs so that the recurrent state serves as a task-conditional summary of the current task. The recurrent policy learns to explore efficiently at the start of each new task and to exploit once the task is identified,
 
-$$\pi_\theta(a_t \mid o_t, h_t), \quad h_t = f_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})$$
+$$
+\pi_\theta(a_t \mid o_t, h_t), \quad h_t = f_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})
+\tag{37}
+$$
 
 with the recurrent state $h_t$ implicitly tracking task uncertainty.
 
@@ -377,7 +488,10 @@ The detachment problem is the failure to return to previously-discovered rewarde
 
 Never Give Up combines episodic and lifetime novelty by multiplying the two intrinsic reward terms,
 
-$$r^{\text{NGU}}_t = r^{\text{episodic}}_t \cdot \text{clip}(r^{\text{lifetime}}_t, 1, L)$$
+$$
+r^{\text{NGU}}_t = r^{\text{episodic}}_t \cdot \text{clip}(r^{\text{lifetime}}_t, 1, L)
+\tag{38}
+$$
 
 where the episodic term measures novelty within the current episode via a k-nearest-neighbor distance in learned embedding space, the lifetime term measures overall novelty via RND, and the clipping bound $L$ prevents unstable amplification. The multiplicative combination encourages the agent to seek states that are both episode-novel and lifetime-novel.
 
@@ -391,7 +505,10 @@ Model-based reinforcement learning provides a natural setting for exploration si
 
 Plan2Explore of [Sekar et al. 2020][research_sekar_et_al_2020] extends the Dreamer world-model architecture with an ensemble of forward dynamics models trained on different data subsamples. The intrinsic reward is the disagreement among ensemble predictions,
 
-$$r^{\text{P2E}}(s, a) = \text{Var}_k\!\left[\hat{f}_k(s, a)\right]$$
+$$
+r^{\text{P2E}}(s, a) = \text{Var}_k\!\left[\hat{f}_k(s, a)\right]
+\tag{39}
+$$
 
 which measures epistemic uncertainty in the world model. Plan2Explore trains the exploration policy entirely in imagination through the learned world model, permitting efficient exploration without extensive real-world interaction. Self-supervised exploration via disagreement of [Pathak et al. 2019][research_pathak_gandhi_gupta_2019] applied the same ensemble-disagreement approach in a model-based framework. Model-based active exploration (MAX) of [Shyam et al. 2019][research_shyam_jaskowski_gomez_2019] uses expected information gain over model parameters as an explicit exploration objective.
 
@@ -437,6 +554,385 @@ Empirical practice for exploration research includes reporting results on multip
 - Can exploration algorithms be designed to be robust to environments with irreducible-noise features without requiring domain-tuning of the intrinsic reward or feature representation?
 - How should exploration budgets be allocated across a hierarchy of tasks and time scales, from micro-exploration within a single episode to macro-exploration across a lifetime of learning?
 - What is the correct connection between exploration and generalization? Exploration algorithms typically evaluate on tasks with structural similarity to the training distribution, the extent to which learned exploration policies transfer to genuinely novel task distributions is not well understood.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 39 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 39, 38 are established and 1 are bespoke.
+Intrinsic rewards are dimensionless signals scaled by coefficients such as $\beta$ and $\eta$ that set their weight against the extrinsic reward, so their magnitudes are comparable only within one method, and information quantities are in nats when natural logarithms are used.
+
+**Equation 1, Sub-Optimality Gap of a Policy.**
+The gap at a state is the optimal value less the value of the policy there.
+
+$$
+\Delta^\pi(s) = V^*(s) - V^\pi(s)
+\tag{1}
+$$
+
+**Equation 2, Episodic Cumulative Regret.**
+Regret sums over episodes the shortfall of each policy's value at the start state against the optimal value.
+
+$$
+R_T = \sum_{k=1}^{T} \left(V^*(s_0) - V^{\pi_k}(s_0)\right)
+\tag{2}
+$$
+
+**Equation 3, Sample Complexity of Exploration.**
+The sample complexity counts the steps at which the current policy is more than $\epsilon$ below optimal.
+[Kakade and Langford 2002][research_kakade_langford_2002_exploration]
+
+$$
+\text{SC}(\epsilon, \delta) = \left| \left\{t : V^*(s_t) - V^{\pi_t}(s_t) > \epsilon\right\} \right|
+\tag{3}
+$$
+
+**Equation 4, Optimistic Bonus-Augmented Reward.**
+Optimism is implemented by adding to the reward a bonus that reflects uncertainty about the state-action pair.
+
+$$
+\tilde{r}(s, a) = r(s, a) + b(s, a)
+\tag{4}
+$$
+
+**Equation 5, Count-Based Exploration Bonus.**
+The bonus decays as the inverse square root of the visit count, following the confidence radius of upper confidence bound methods.
+
+$$
+b(s, a) = \beta / \sqrt{N(s, a)}
+\tag{5}
+$$
+
+**Equation 6, R-MAX Optimistic Reward.**
+R-MAX uses the empirical reward for pairs visited at least $m$ times and the maximum possible reward for all others.
+[Brafman and Tennenholtz 2002][research_brafman_tennenholtz_2002]
+
+$$
+\tilde{r}_{\text{R-MAX}}(s, a) = \begin{cases} \hat{r}(s, a) & \text{if } N(s, a) \geq m \\ R_{\max} & \text{otherwise} \end{cases}
+\tag{6}
+$$
+
+**Equation 7, MBIE-EB Exploration Bonus.**
+Model-based interval estimation with exploration bonuses, abbreviated MBIE-EB, adds a bonus inversely proportional to the square root of the visit count.
+[Strehl and Littman 2008][research_strehl_littman_2008]
+
+$$
+b_{\text{MBIE-EB}}(s, a) = \frac{\beta}{\sqrt{N(s, a)}}
+\tag{7}
+$$
+
+**Equation 8, UCRL2 Confidence Set of Models.**
+UCRL2, an upper confidence algorithm for reinforcement learning, keeps every model whose transition and reward estimates lie within count-dependent confidence radii of the empirical estimates.
+[Jaksch et al. 2010][research_jaksch_ortner_auer_2010]
+
+$$
+\mathcal{M}_t = \left\{(P', R') : \| P'(\cdot \mid s, a) - \hat{P}_t(\cdot \mid s, a) \|_1 \leq c_1 \sqrt{\log(t)/N_t(s, a)}, \; |R'(s, a) - \hat{R}_t(s, a)| \leq c_2 \sqrt{\log(t)/N_t(s, a)}\right\}
+\tag{8}
+$$
+
+**Equation 9, Ensemble Disagreement.**
+The standard deviation of the action values across an ensemble of $K$ heads serves as an estimate of epistemic uncertainty.
+[Osband et al. 2016][research_osband_blundell_pritzel_van_roy_2016_exploration]
+
+$$
+U(s, a) = \sqrt{\frac{1}{K} \sum_{k=1}^K (Q_k(s, a) - \bar{Q}(s, a))^2}
+\tag{9}
+$$
+
+**Equation 10, Entropy-Regularised Policy Objective.**
+The objective adds to the expected return a multiple of the expected Shannon entropy of the policy over visited states.
+
+$$
+J_{\text{ent}}(\theta) = J(\theta) + \beta \, \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[H(\pi_\theta(\cdot \mid s))\right]
+\tag{10}
+$$
+
+**Equation 11, Parameter Space Noise.**
+Exploration perturbs the policy parameters by Gaussian noise of adaptive scale rather than perturbing the actions.
+[Plappert et al. 2018][research_plappert_et_al_2018]
+
+$$
+\tilde{\theta} = \theta + \sigma \cdot \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)
+\tag{11}
+$$
+
+**Equation 12, Posterior over Environment Parameters.**
+Bayes' rule updates the prior over environment parameters by the likelihood of the trajectory data.
+[Osband et al. 2013][research_osband_van_roy_2013_psrl]
+
+$$
+p(\theta \mid \mathcal{D}_t) \propto p(\mathcal{D}_t \mid \theta) \, p(\theta)
+\tag{12}
+$$
+
+**Equation 13, Bayesian Regret of Posterior Sampling for Reinforcement Learning.**
+Posterior sampling for reinforcement learning incurs Bayesian regret growing with the episode horizon and the square root of the state and action counts times the number of steps.
+[Osband et al. 2013][research_osband_van_roy_2013_psrl]
+
+$$
+R_T^{\text{Bayes}} = \tilde{\mathcal{O}}\!\left(H \sqrt{|\mathcal{S}| |\mathcal{A}| T}\right)
+\tag{13}
+$$
+
+**Equation 14, Density-Model Pseudocount.**
+The pseudocount is the visit count consistent with the change in a density model's probability of a state when that state is observed once more.
+[Bellemare et al. 2016][research_bellemare_et_al_2016_exploration]
+
+$$
+\hat{N}(s) = \frac{\rho_n(s)(1 - \rho'_n(s))}{\rho'_n(s) - \rho_n(s)}
+\tag{14}
+$$
+
+**Equation 15, Pseudocount Exploration Bonus.**
+The pseudocount replaces the visit count in an inverse square root bonus.
+[Bellemare et al. 2016][research_bellemare_et_al_2016_exploration]
+
+$$
+b(s, a) = \beta / \sqrt{\hat{N}(s) + 1}
+\tag{15}
+$$
+
+**Equation 16, Prediction Gain.**
+The intrinsic reward is the increase in the log probability that the density model assigns to a state after training on it.
+[Bellemare et al. 2016][research_bellemare_et_al_2016_exploration]
+
+$$
+r^{\text{IG}}(s) = \log \rho'_n(s) - \log \rho_n(s)
+\tag{16}
+$$
+
+**Equation 17, Latent-Space Pseudocount.**
+The pseudocount is computed on a learned encoding of the state rather than on the raw observation.
+[Machado et al. 2020][research_machado_bellemare_bowling_2020]
+
+$$
+\hat{N}_\phi(s) = \hat{N}(\phi(s))
+\tag{17}
+$$
+
+**Equation 18, Hash-Count Intrinsic Reward.**
+Observations are hashed into discrete buckets and the bonus decays as the inverse square root of the bucket count.
+[Tang et al. 2017][research_tang_et_al_2017]
+
+$$
+r^{\text{hash}}(s) = \frac{\beta}{\sqrt{N(h(s)) + 1}}
+\tag{18}
+$$
+
+**Equation 19, Inverse Dynamics Loss.**
+The intrinsic curiosity module, abbreviated ICM, trains its encoder by predicting the action taken from consecutive state encodings.
+[Pathak et al. 2017][research_pathak_et_al_2017]
+
+$$
+L_{\text{inv}}(\phi, f_{\text{inv}}) = \mathbb{E}\!\left[\ell(f_{\text{inv}}(\phi(s_t), \phi(s_{t+1})), a_t)\right]
+\tag{19}
+$$
+
+**Equation 20, Forward Dynamics Loss.**
+The forward model is trained to predict the encoding of the next state from the current encoding and action.
+[Pathak et al. 2017][research_pathak_et_al_2017]
+
+$$
+L_{\text{fwd}}(\phi, f_{\text{fwd}}) = \frac{1}{2} \mathbb{E}\!\left[\| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \|^2\right]
+\tag{20}
+$$
+
+**Equation 21, Combined Intrinsic Curiosity Module Loss.**
+The module's objective is a convex combination of the inverse and forward losses.
+[Pathak et al. 2017][research_pathak_et_al_2017]
+
+$$
+L_{\text{ICM}} = (1 - \beta) L_{\text{inv}} + \beta L_{\text{fwd}}
+\tag{21}
+$$
+
+**Equation 22, Curiosity Reward from Forward Prediction Error.**
+The intrinsic reward is a scaled squared error of the forward model in the learned feature space.
+[Pathak et al. 2017][research_pathak_et_al_2017]
+
+$$
+r^{\text{ICM}}_t = \frac{\eta}{2} \| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \|^2
+\tag{22}
+$$
+
+**Equation 23, Extrinsic Plus Intrinsic Reward.**
+The policy is trained on the sum of the environment reward and the curiosity reward.
+[Pathak et al. 2017][research_pathak_et_al_2017]
+
+$$
+r_t^{\text{total}} = r_t^{\text{ext}} + r_t^{\text{ICM}}
+\tag{23}
+$$
+
+**Equation 24, Random Network Distillation Reward.**
+Random network distillation rewards the squared error of a trained predictor in matching a fixed randomly initialised network on the current state.
+[Burda et al. 2018][research_burda_edwards_storkey_klimov_2018]
+
+$$
+r^{\text{RND}}_t = \| \hat{f}_\theta(s_t) - f_{\bar{\theta}}(s_t) \|^2
+\tag{24}
+$$
+
+**Equation 25, Random Network Distillation Predictor Loss.**
+The predictor regresses onto the fixed random network over visited states, so its error falls where the agent has been.
+[Burda et al. 2018][research_burda_edwards_storkey_klimov_2018]
+
+$$
+L_{\text{RND}}(\theta) = \mathbb{E}_{s \sim \mathcal{D}}\!\left[\| \hat{f}_\theta(s) - f_{\bar{\theta}}(s) \|^2\right]
+\tag{25}
+$$
+
+**Equation 26, Observation and Intrinsic Reward Normalisation.**
+Observations are standardised and intrinsic rewards divided by running estimates of their standard deviation.
+[Burda et al. 2018][research_burda_edwards_storkey_klimov_2018]
+
+$$
+\tilde{s}_t = \frac{s_t - \mu_s}{\sigma_s}, \quad \tilde{r}^{\text{RND}}_t = \frac{r^{\text{RND}}_t}{\sigma_r}
+\tag{26}
+$$
+
+**Equation 27, Empowerment.**
+Empowerment is the channel capacity from a $k$-step action sequence to the state it leads to from a given state.
+[Klyubin et al. 2005][research_klyubin_polani_nehaniv_2005]
+
+$$
+\mathfrak{E}(s) = \max_{p(a_{t:t+k-1})} I(A_{t:t+k-1} ; S_{t+k} \mid S_t = s)
+\tag{27}
+$$
+
+**Equation 28, Mutual Information as an Entropy Difference.**
+The mutual information between actions and the resulting state is the entropy of the actions less their entropy given the outcome.
+
+$$
+I(A_{t:t+k-1} ; S_{t+k} \mid S_t) = H(A_{t:t+k-1}) - H(A_{t:t+k-1} \mid S_{t+k}, S_t)
+\tag{28}
+$$
+
+**Equation 29, Barber-Agakov Variational Lower Bound.**
+Replacing the true action posterior by a learned decoder gives a lower bound on the mutual information.
+[Mohamed and Jimenez Rezende 2015][research_mohamed_rezende_2015]
+
+$$
+I(A ; S') \geq \mathbb{E}_{p(a, s')}\!\left[\log q(a \mid s') - \log p(a)\right]
+\tag{29}
+$$
+
+**Equation 30, Expected Free Energy of a Policy.**
+Active inference scores a policy by the expected difference between the log approximate posterior and the log generative model over predicted states and outcomes.
+[Friston 2010][research_friston_2010_active_inference]
+
+$$
+G(\pi) = \mathbb{E}_{q(s, o; \pi)}\!\left[\log q(s \mid o; \pi) - \log p(s, o \mid m)\right]
+\tag{30}
+$$
+
+**Equation 31, Compression Progress Reward.**
+The intrinsic reward is the reduction in the description length of an observation achieved by updating the world model on it.
+[Schmidhuber 2010][research_schmidhuber_2010]
+
+$$
+r^{\text{CP}}_t = L(o_t \mid M_{t-1}) - L(o_t \mid M_t)
+\tag{31}
+$$
+
+**Equation 32, Learning Progress Reward.**
+Intelligent adaptive curiosity rewards the rate at which predictive accuracy improves in the region of sensorimotor space being visited.
+[Oudeyer et al. 2007][research_oudeyer_kaplan_hafner_2007]
+
+$$
+r^{\text{IAC}}_t = \frac{d}{dt} \text{Accuracy}(f_{\text{region}(s_t)})
+\tag{32}
+$$
+
+**Equation 33, Universal Value Function.**
+The value function takes a goal as a second argument and gives the expected discounted goal-relative reward.
+[Schaul et al. 2015][research_schaul_horgan_gregor_silver_2015]
+
+$$
+V(s, g) = \mathbb{E}\!\left[\sum_{t=0}^{\infty} \gamma^t r(s_t, g) \mid s_0 = s\right]
+\tag{33}
+$$
+
+*Equation 34, Bespoke Hindsight Relabelling with a Distance Reward.*
+The achieved final state becomes the goal and the relabelled reward is written as the negative distance to it, a dense choice that the article makes in place of the sparse success indicator of the original hindsight experience replay.
+[Andrychowicz et al. 2017][research_andrychowicz_et_al_2017_exploration]
+
+$$
+g'(\tau) = \phi(s_T), \quad r'(s_t, g'(\tau)) = -\| \phi(s_t) - g'(\tau) \|
+\tag{34}
+$$
+
+**Equation 35, Skill-State Mutual Information.**
+Skill discovery maximises the mutual information between skill and state, the entropy of skills less their entropy given the state.
+[Eysenbach et al. 2019][research_eysenbach_gupta_ibarz_levine_2019]
+
+$$
+I(S ; Z) = H(Z) - H(Z \mid S)
+\tag{35}
+$$
+
+**Equation 36, Diversity Is All You Need Skill Reward.**
+The skill policy is rewarded by the discriminator's log probability of its skill less the log prior probability of that skill.
+[Eysenbach et al. 2019][research_eysenbach_gupta_ibarz_levine_2019]
+
+$$
+r^{\text{DIAYN}}(s, z) = \log q(z \mid s) - \log p(z)
+\tag{36}
+$$
+
+**Equation 37, Recurrent Meta-Reinforcement Learning Policy.**
+The policy conditions on a recurrent state updated from each observation, previous action and previous reward, so that the state summarises the current task.
+[Duan et al. 2016][research_duan_schulman_chen_2016_rl2]
+
+$$
+\pi_\theta(a_t \mid o_t, h_t), \quad h_t = f_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})
+\tag{37}
+$$
+
+**Equation 38, Never Give Up Intrinsic Reward.**
+Episodic novelty is multiplied by a lifetime novelty factor clipped between one and a bound $L$.
+[Badia et al. 2020b][research_badia_et_al_2020_ngu]
+
+$$
+r^{\text{NGU}}_t = r^{\text{episodic}}_t \cdot \text{clip}(r^{\text{lifetime}}_t, 1, L)
+\tag{38}
+$$
+
+**Equation 39, Ensemble Disagreement Reward.**
+Plan2Explore rewards the variance of next-state predictions across an ensemble of learned dynamics models.
+[Sekar et al. 2020][research_sekar_et_al_2020]
+
+$$
+r^{\text{P2E}}(s, a) = \text{Var}_k\!\left[\hat{f}_k(s, a)\right]
+\tag{39}
+$$
+
+### Notation
+
+- $\Delta^\pi(s)$, the sub-optimality gap of policy $\pi$ at state $s$
+- $R_T$, the cumulative regret over horizon $T$
+- $b(s, a)$, the exploration bonus of a state-action pair
+- $N(s, a)$, the visit count of a state-action pair
+- $\beta$, an exploration coefficient, the entropy weight in equation 10 and the forward-loss weight in equation 21
+- $R_{\max}$, the maximum possible reward
+- $m$, the visit threshold of R-MAX
+- $H$, the episode horizon in equation 13 and the Shannon entropy elsewhere
+- $\hat{N}(s)$, the pseudocount of state $s$
+- $\rho_n(s)$, the density model's probability of $s$ after $n$ observations
+- $h(s)$, the hash bucket of state $s$
+- $\phi(s_{t+1})$, the learned encoding of the next state
+- $\eta$, the scaling coefficient of the curiosity reward
+- $f_{\bar{\theta}}$, the fixed random target network
+- $\mathfrak{E}(s)$, the empowerment of state $s$
+- $G(\pi)$, the expected free energy of policy $\pi$
+- $L(o_t \mid M_t)$, the compression length of an observation under world model $M_t$
+- $V(s, g)$, the universal value function of state and goal
+- $q(z \mid s)$, the skill discriminator
+- $h_t$, the recurrent state of a meta-learning policy
 
 ## References
 

@@ -1,0 +1,403 @@
+# Equation classification for A255. Read by `python3 _lib/equations.py`.
+
+caution = "Durations such as $\\tau$, $k$ and $c$ count primitive decision steps rather than seconds, so a discount raised to a duration is dimensionless, and values and option rewards carry the units of the primitive reward accumulated over those steps."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Discount over a Flat Horizon"
+gloss = "A reward reached after $H$ primitive steps is discounted by the discount factor raised to $H$."
+cite = []
+digest = "d1005f6d98d28d21"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Discount per High-Level Step"
+gloss = "The article assumes that every sub-policy lasts exactly $k$ primitive steps, so each high-level step carries the fixed discount $\\gamma^k$ rather than an expectation over variable durations."
+cite = []
+digest = "199ba8505387678a"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Equality of Flat and Hierarchical Total Discount"
+gloss = "Under the same assumption of fixed sub-policy length $k$ dividing the horizon, the discount over $H/k$ high-level steps equals the flat discount over $H$ primitive steps."
+cite = []
+digest = "8bd1fae3d53e6c23"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Semi-Markov Decision Process as a Tuple"
+gloss = "A semi-Markov decision process adds to the states, actions, transitions and rewards a distribution over the duration of each action."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "9171b00f3cb41abf"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Semi-Markov Bellman Expectation Equation"
+gloss = "The value of a state is the expected discounted reward accumulated during the chosen action plus the successor value discounted by the action's duration."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "cccc8ccde6377f73"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Discounted Cumulative Reward of an Extended Action"
+gloss = "The reward of a temporally extended action is the expected discounted sum of the primitive rewards received while it runs."
+cite = []
+digest = "538db4abede3d73b"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Semi-Markov Bellman Optimality Equation"
+gloss = "The optimal value of an extended action is its cumulative reward plus the best successor value discounted by its duration."
+cite = []
+digest = "78005cf8dd7c6dce"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Semi-Markov Q-Learning Update"
+gloss = "Q-learning over extended actions bootstraps with the discount raised to the observed duration and reduces to ordinary Q-learning for one-step actions."
+cite = []
+digest = "74bde271aeb41fde"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Option as a Triple"
+gloss = "An option is defined by its initiation set, its intra-option policy and its termination condition."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "597635c5fde80759"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Distribution of Option Duration"
+gloss = "The probability that an option terminates after exactly $k$ steps is the product of the continuation probabilities along the way times the termination probability at the last state."
+cite = []
+digest = "6d09082c3cb70764"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Value of a Policy over Options"
+gloss = "The value under a policy over options is the expected discounted primitive return when options are chosen by that policy."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "db0e064f20ce7da2"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Option Action Value"
+gloss = "The value of starting an option is its expected discounted reward plus the next state value discounted by the option's duration."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "32cc95061fb775a5"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Intra-Option Q-Learning Update"
+gloss = "Each primitive transition updates the option value toward the reward plus the discounted value of arriving at the next state with that option."
+cite = ["book_precup_thesis_2000"]
+digest = "d22dfb60e8c46ba9"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Value upon Arrival"
+gloss = "The value of arriving at a state while executing an option mixes continuing the option and switching to the best option, weighted by the termination probability."
+cite = ["book_precup_thesis_2000"]
+digest = "851944bf394408cd"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Intra-Option Bellman Optimality Equation"
+gloss = "The optimal option value averages over the option's primitive actions the reward plus the discounted optimal value upon arrival."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "ed98115b377a59d2"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Optimal Value upon Arrival"
+gloss = "The optimal value upon arrival mixes continuing the option with taking the optimal state value, weighted by the termination probability."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "c609b90ab57c2b72"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Option Advantage"
+gloss = "The option advantage is the value of committing to an option less the value of the state under the policy over options."
+cite = ["research_bacon_harb_precup_2017"]
+digest = "954dfbb3263b5ca6"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Termination Advantage"
+gloss = "The termination advantage compares continuing the current option with terminating and choosing afresh, and it takes the same form as the option advantage."
+cite = ["research_bacon_harb_precup_2017"]
+digest = "ca3b2f9d107c3032"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "MAXQ Value Decomposition"
+gloss = "The value of a subtask splits into the value of the child it invokes plus a completion term for finishing the parent afterwards."
+cite = ["research_dietterich_2000"]
+digest = "dfb8514d5b384119"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "MAXQ Completion Function"
+gloss = "The completion function is the expected discounted value of the parent subtask from the state where the child terminates."
+cite = ["research_dietterich_2000"]
+digest = "7525e1d09a7c1f75"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "MAXQ Recursive Bellman Equation"
+gloss = "A subtask's value averages over its children the child value plus the completion value."
+cite = ["research_dietterich_2000"]
+digest = "e7fcbabf20577f5d"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "MAXQ-Q Completion Update"
+gloss = "Each completion function moves toward the parent value at the child's termination state discounted by the child's duration."
+cite = ["research_dietterich_2000"]
+digest = "ac4274992067597f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Hierarchy of Abstract Machines State Space"
+gloss = "The decision process induced by a hierarchy of abstract machines has as its states the pairs of environment state and machine state."
+cite = ["research_parr_russell_1998"]
+digest = "c34b55c2e287ec08"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "HAMQ Update"
+gloss = "Q-learning over choice points of the machine bootstraps with the discount raised to the time until the next choice point."
+cite = ["research_parr_russell_1998"]
+digest = "94e6604d7c0489b7"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Hierarchical Deep Q-Network Meta-Controller Update"
+gloss = "The meta-controller Q-learns over sub-goals using the extrinsic reward accumulated while each sub-goal is pursued."
+cite = ["research_kulkarni_et_al_2016"]
+digest = "c7d7622933a34a6d"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Sub-Goal Attainment Reward"
+gloss = "The low-level controller receives a reward of one when the goal-check function reports that the sub-goal is reached."
+cite = ["research_kulkarni_et_al_2016"]
+digest = "ea9603a3a737ff75"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Feudal Network Manager Goal"
+gloss = "The manager emits a goal direction in a latent space from the current state."
+cite = ["research_vezhnevets_et_al_2017"]
+digest = "6078171bbbe8c0f4"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Feudal Network Worker Intrinsic Reward"
+gloss = "The worker is rewarded by the mean cosine similarity between latent state changes and the manager's recent goal directions."
+cite = ["research_vezhnevets_et_al_2017"]
+digest = "e17b0f6481d978b3"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Intra-Option Policy Gradient Theorem"
+gloss = "The gradient with respect to the intra-option policy weights its score function by the option-conditioned action value."
+cite = ["research_bacon_harb_precup_2017"]
+digest = "3d6dd22370573785"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Termination Gradient Theorem"
+gloss = "The gradient with respect to the termination parameters lowers termination where the option's value exceeds the state value and raises it elsewhere."
+cite = ["research_bacon_harb_precup_2017"]
+digest = "9a83fe3434bc4f65"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "HIRO Low-Level Reward"
+gloss = "The low-level policy is penalised by the distance between the state reached and the current state displaced by the sub-goal."
+cite = ["research_nachum_gu_lee_levine_2018"]
+digest = "9af847c3a8516778"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "HIRO Off-Policy Goal Relabelling"
+gloss = "Stored high-level transitions are relabelled with the sub-goal under which the current low-level policy best explains the actions taken."
+cite = ["research_nachum_gu_lee_levine_2018"]
+digest = "c584211f0293ee27"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Universal Value Function"
+gloss = "The value function takes a goal as a second argument and gives the expected discounted goal-relative reward under the goal-conditioned policy."
+cite = ["research_schaul_horgan_gregor_silver_2015_hrl"]
+digest = "8c78167f35956fa9"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Latent-Conditioned Skill Policy"
+gloss = "The low-level policy conditions on a continuous skill code so that different codes produce different behaviours."
+cite = []
+digest = "1fb28918bdb81b33"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "SayCan Skill Scoring"
+gloss = "The next skill is chosen in proportion to the language model's probability of the skill times the value function's estimate that it can be executed from the current state."
+cite = ["research_ahn_et_al_2022_saycan"]
+digest = "cd75ea8a3f61cbce"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Graph Laplacian"
+gloss = "The graph Laplacian is the diagonal degree matrix less the adjacency matrix of the state transition graph."
+cite = ["research_machado_bellemare_bowling_2018_eigenoptions"]
+digest = "ed9f759d5802a70b"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Termination-Penalised Option-Critic Loss"
+gloss = "The article writes the option-critic objective as the negative return plus a penalty proportional to the expected sum of termination probabilities, a regularised form it chooses to express the deliberation cost idea."
+cite = []
+digest = "a76894389ff4d67c"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Regret of Optimistic Learning with Options"
+gloss = "Optimistic learning over options incurs regret governed by the diameter of the option-induced process and the number of options instead of the number of primitive actions."
+cite = ["research_fruit_lazaric_2017"]
+digest = "9692852b3e09b215"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Option Transition Model"
+gloss = "The option model gives the joint probability of the state at termination and the duration of the option."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "1176e9be940f55ea"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Option Reward Model"
+gloss = "The option reward model is the expected discounted reward accumulated before the option terminates."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "5fa7a4c33c9016a1"
+
+[[symbol]]
+tex = 'H'
+meaning = "the task horizon in primitive steps"
+
+[[symbol]]
+tex = 'k'
+meaning = "the length of each sub-policy in primitive steps, or the duration of an option in equation 10"
+
+[[symbol]]
+tex = 'F(\tau \mid s, a)'
+meaning = "the duration distribution of an extended action"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the duration of an extended action or option in primitive steps"
+
+[[symbol]]
+tex = 'I_o'
+meaning = "the initiation set of option $o$"
+
+[[symbol]]
+tex = '\pi_o'
+meaning = "the intra-option policy of option $o$"
+
+[[symbol]]
+tex = '\beta_o'
+meaning = "the termination condition of option $o$"
+
+[[symbol]]
+tex = "U(s', o)"
+meaning = "the value upon arrival at $s'$ while executing option $o$"
+
+[[symbol]]
+tex = 'C^\pi(i, s, a)'
+meaning = "the MAXQ completion function of subtask $i$"
+
+[[symbol]]
+tex = '\mathcal{M}'
+meaning = "the set of machine states of a hierarchy of abstract machines"
+
+[[symbol]]
+tex = 'R_g'
+meaning = "the extrinsic reward accumulated while pursuing sub-goal $g$"
+
+[[symbol]]
+tex = 'g_t'
+meaning = "the sub-goal or goal direction issued at step $t$"
+
+[[symbol]]
+tex = 'c'
+meaning = "the number of primitive steps between high-level decisions"
+
+[[symbol]]
+tex = '\vartheta'
+meaning = "the termination condition parameters"
+
+[[symbol]]
+tex = 'Q_U(s, o, a)'
+meaning = "the option-conditioned action value at the primitive level"
+
+[[symbol]]
+tex = 'z'
+meaning = "the continuous skill code"
+
+[[symbol]]
+tex = 'L = D - W'
+meaning = "the graph Laplacian with $D$ the degree matrix and $W$ the adjacency matrix"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the termination penalty coefficient"
+
+[[symbol]]
+tex = 'D_O'
+meaning = "the diameter of the option-induced semi-Markov process"
+
+[[symbol]]
+tex = "P^o(s', \\tau \\mid s)"
+meaning = "the joint distribution of termination state and duration of option $o$"

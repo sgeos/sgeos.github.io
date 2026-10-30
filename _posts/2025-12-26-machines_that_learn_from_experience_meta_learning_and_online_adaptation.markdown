@@ -19,21 +19,33 @@ Meta-learning is the study of algorithms that improve their own learning process
 
 Meta-learning treats the learning algorithm itself as an object to be improved through experience. In the standard supervised or reinforcement learning setting, an algorithm maps a training dataset $\mathcal{D}$ to a hypothesis $h$,
 
-$$h = \mathcal{A}(\mathcal{D})$$
+$$
+h = \mathcal{A}(\mathcal{D})
+\tag{1}
+$$
 
 with the algorithm $\mathcal{A}$ fixed by human design. Meta-learning parameterizes the algorithm $\mathcal{A}$ by meta-parameters $\phi$ and optimizes those parameters across a distribution of tasks,
 
-$$\phi^* = \arg\max_\phi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\mathcal{A}_\phi(\mathcal{D}_{\mathcal{T}}))\right]$$
+$$
+\phi^* = \arg\max_\phi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\mathcal{A}_\phi(\mathcal{D}_{\mathcal{T}}))\right]
+\tag{2}
+$$
 
 where $\mathcal{L}\_{\mathcal{T}}$ is a task-loss and $\mathcal{D}\_{\mathcal{T}}$ is the training data for task $\mathcal{T}$. The optimized meta-algorithm $\mathcal{A}\_{\phi^\*}$ produces hypotheses that adapt rapidly to new tasks drawn from $p(\mathcal{T})$.
 
 The reinforcement learning specialization treats each task as a Markov decision process $\mathcal{M} = (\mathcal{S}, \mathcal{A}, P_{\mathcal{T}}, R_{\mathcal{T}}, \gamma)$ with task-transition and reward. The learning algorithm produces a policy from experience,
 
-$$\pi = \mathcal{A}_\phi(\tau_{1:H})$$
+$$
+\pi = \mathcal{A}_\phi(\tau_{1:H})
+\tag{3}
+$$
 
 where $\tau_{1:H}$ is a sequence of transitions collected during the inner-loop adaptation. Meta-reinforcement learning optimizes $\phi$ to produce policies that achieve high return on tasks drawn from $p(\mathcal{T})$ after only $H$ steps of adaptation. The meta-testing procedure for a new task $\mathcal{T} \sim p(\mathcal{T})$ then proceeds by executing
 
-$$\tau_{1:H} \sim \pi_{\mathcal{A}_\phi(\emptyset)}, \pi_{\mathcal{A}_\phi(\tau_{1:1})}, \ldots, \pi_{\mathcal{A}_\phi(\tau_{1:H-1})}$$
+$$
+\tau_{1:H} \sim \pi_{\mathcal{A}_\phi(\emptyset)}, \pi_{\mathcal{A}_\phi(\tau_{1:1})}, \ldots, \pi_{\mathcal{A}_\phi(\tau_{1:H-1})}
+\tag{4}
+$$
 
 with progressive re-adaptation as data accumulates, followed by evaluation of the final adapted policy $\pi_{\mathcal{A}\_\phi(\tau_{1:H})}$ over an evaluation horizon under task $\mathcal{T}$.
 
@@ -65,17 +77,26 @@ The meta-training procedure alternates between task sampling and inner-loop adap
 
 The meta-training objective is
 
-$$J_{\text{meta}}(\phi) = \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[J_{\mathcal{T}}(\pi_{\mathcal{A}_\phi(\tau_{1:H})})\right]$$
+$$
+J_{\text{meta}}(\phi) = \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[J_{\mathcal{T}}(\pi_{\mathcal{A}_\phi(\tau_{1:H})})\right]
+\tag{5}
+$$
 
 where $\pi_{\mathcal{A}\_\phi(\tau_{1:H})}$ is the policy produced by the meta-algorithm after $H$ steps of adaptation, and $J_{\mathcal{T}}$ is the expected return under task $\mathcal{T}$,
 
-$$J_{\mathcal{T}}(\pi) = \mathbb{E}_\pi\!\left[\sum_{t=0}^{T-1} \gamma^t R_{\mathcal{T}}(s_t, a_t) \mid s_0 \sim \mu_0\right]$$
+$$
+J_{\mathcal{T}}(\pi) = \mathbb{E}_\pi\!\left[\sum_{t=0}^{T-1} \gamma^t R_{\mathcal{T}}(s_t, a_t) \mid s_0 \sim \mu_0\right]
+\tag{6}
+$$
 
 Optimizing this objective produces a meta-algorithm that adapts efficiently to new tasks.
 
 The Bayes-adaptive MDP formalism provides a normative framing. Treating the task identity as a latent variable, the joint state-plus-task becomes fully observable via the belief $b_t(\mathcal{T})$, and the optimal Bayes-adaptive policy solves
 
-$$\pi^*_{\text{BAMDP}} = \arg\max_\pi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\sum_{t=0}^{T-1} \gamma^t R_{\mathcal{T}}(s_t, a_t) \mid s_0 \sim \mu_0, \pi\right]$$
+$$
+\pi^*_{\text{BAMDP}} = \arg\max_\pi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\sum_{t=0}^{T-1} \gamma^t R_{\mathcal{T}}(s_t, a_t) \mid s_0 \sim \mu_0, \pi\right]
+\tag{7}
+$$
 
 with actions conditioned on both the current state and the current belief. Bayes-optimal exploration automatically emerges from this framing because information-gathering actions that reduce belief uncertainty about $\mathcal{T}$ are valuable through their effect on future expected reward.
 
@@ -89,7 +110,10 @@ The recurrent meta-reinforcement learning framework treats meta-learning as trai
 
 RL-squared of Duan et al 2016 formulates the meta-policy as
 
-$$\pi_\theta(a_t \mid o_t, h_t), \quad h_t = f_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})$$
+$$
+\pi_\theta(a_t \mid o_t, h_t), \quad h_t = f_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})
+\tag{8}
+$$
 
 with the recurrent state $h_t$ updated by a neural network based on the current observation, previous action, previous reward, and previous hidden state. The recurrent policy is trained end-to-end by standard policy gradient methods on the outer meta-objective, treating the entire adaptation trajectory as a single episode from the meta-learning perspective.
 
@@ -107,37 +131,58 @@ Model-Agnostic Meta-Learning (MAML) of Finn Abbeel and Levine 2017 provides a gr
 
 Formally, MAML optimizes meta-parameters $\theta$ that satisfy
 
-$$\theta^* = \arg\min_\theta \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta))\right]$$
+$$
+\theta^* = \arg\min_\theta \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta))\right]
+\tag{9}
+$$
 
 where $\alpha$ is the inner-loop step size and $\mathcal{L}\_{\mathcal{T}}$ is the task-loss. The inner-loop adaptation from meta-parameters to task-parameters is
 
-$$\theta'_{\mathcal{T}} = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}^{\text{train}}(\theta)$$
+$$
+\theta'_{\mathcal{T}} = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}^{\text{train}}(\theta)
+\tag{10}
+$$
 
 and the multi-step extension performs $k$ successive gradient updates
 
-$$\theta_i = \theta_{i-1} - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}^{\text{train}}(\theta_{i-1}), \quad i = 1, \ldots, k$$
+$$
+\theta_i = \theta_{i-1} - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}^{\text{train}}(\theta_{i-1}), \quad i = 1, \ldots, k
+\tag{11}
+$$
 
 starting from $\theta_0 = \theta$. The mechanism requires that a small number of gradient steps from $\theta^\*$ on the task-loss produces near-optimal task-parameters.
 
 Computing the meta-gradient requires differentiating through the inner-loop gradient update, which produces second-order gradients. The meta-gradient at $\theta$ is
 
-$$\nabla_\theta J_{\text{MAML}} = \mathbb{E}_{\mathcal{T}}\!\left[(I - \alpha \nabla_\theta^2 \mathcal{L}_{\mathcal{T}}(\theta)) \nabla_{\theta'} \mathcal{L}_{\mathcal{T}}(\theta')|_{\theta' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta)}\right]$$
+$$
+\nabla_\theta J_{\text{MAML}} = \mathbb{E}_{\mathcal{T}}\!\left[(I - \alpha \nabla_\theta^2 \mathcal{L}_{\mathcal{T}}(\theta)) \nabla_{\theta'} \mathcal{L}_{\mathcal{T}}(\theta')|_{\theta' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta)}\right]
+\tag{12}
+$$
 
 where the second-order term $\nabla_\theta^2 \mathcal{L}\_{\mathcal{T}}(\theta)$ is the Hessian of the inner-loop loss. Full second-order MAML is computationally expensive but provides the theoretical basis for the approach.
 
 First-order MAML approximations drop the second-order terms in exchange for computational efficiency, using
 
-$$\nabla_\theta J_{\text{FOMAML}} \approx \mathbb{E}_{\mathcal{T}}\!\left[\nabla_{\theta'} \mathcal{L}_{\mathcal{T}}(\theta')|_{\theta' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta)}\right]$$
+$$
+\nabla_\theta J_{\text{FOMAML}} \approx \mathbb{E}_{\mathcal{T}}\!\left[\nabla_{\theta'} \mathcal{L}_{\mathcal{T}}(\theta')|_{\theta' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta)}\right]
+\tag{13}
+$$
 
 producing a gradient approximation that has empirically proved to be sufficient on many tasks. The [Nichol et al. 2018][research_nichol_achiam_schulman_2018] Reptile algorithm provides an even simpler first-order alternative,
 
-$$\theta \leftarrow \theta + \beta (\text{SGD}_k^{\mathcal{T}}(\theta) - \theta)$$
+$$
+\theta \leftarrow \theta + \beta (\text{SGD}_k^{\mathcal{T}}(\theta) - \theta)
+\tag{14}
+$$
 
 where $\text{SGD}\_k^{\mathcal{T}}(\theta)$ is the parameters obtained after $k$ steps of stochastic gradient descent on task $\mathcal{T}$. Reptile achieves comparable performance to MAML with significantly simpler implementation.
 
 The policy-gradient specialization of MAML for reinforcement learning uses the REINFORCE gradient in the inner loop,
 
-$$\nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta) = -\mathbb{E}_{\tau \sim \pi_\theta}\!\left[\sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) G_t\right]$$
+$$
+\nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta) = -\mathbb{E}_{\tau \sim \pi_\theta}\!\left[\sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) G_t\right]
+\tag{15}
+$$
 
 with the outer-loop meta-gradient computed through the inner-loop trajectory sampling and gradient update.
 
@@ -153,23 +198,35 @@ Metric-based meta-learning approaches parameterize the learning algorithm as a d
 
 Siamese networks of [Koch Zemel Salakhutdinov 2015][research_koch_zemel_salakhutdinov_2015] provided the initial architecture, training paired networks to produce embeddings such that same-class pairs are close and different-class pairs are far in the embedding space. This formulation is trained with a contrastive or triplet loss
 
-$$L_{\text{contrastive}}(x_i, x_j, y_{ij}) = y_{ij} \, \|f_\theta(x_i) - f_\theta(x_j)\|^2 + (1 - y_{ij}) \, \max(0, m - \|f_\theta(x_i) - f_\theta(x_j)\|)^2$$
+$$
+L_{\text{contrastive}}(x_i, x_j, y_{ij}) = y_{ij} \, \|f_\theta(x_i) - f_\theta(x_j)\|^2 + (1 - y_{ij}) \, \max(0, m - \|f_\theta(x_i) - f_\theta(x_j)\|)^2
+\tag{16}
+$$
 
 with $y_{ij} = 1$ if the pair is same-class and $y_{ij} = 0$ otherwise, and $m$ a margin hyperparameter.
 
 Matching Networks of [Vinyals et al. 2016][research_vinyals_et_al_2016_matching] extended the treatment to few-shot classification. Given a support set $\mathcal{S} = \{(x_i, y_i)\}\_{i=1}^N$ and a query $x^\*$, the predicted label is
 
-$$\hat{y}^* = \sum_{i=1}^{N} a(x^*, x_i) \, y_i, \quad a(x^*, x_i) = \frac{\exp(\text{cosine}(f(x^*), g(x_i)))}{\sum_j \exp(\text{cosine}(f(x^*), g(x_j)))}$$
+$$
+\hat{y}^* = \sum_{i=1}^{N} a(x^*, x_i) \, y_i, \quad a(x^*, x_i) = \frac{\exp(\text{cosine}(f(x^*), g(x_i)))}{\sum_j \exp(\text{cosine}(f(x^*), g(x_j)))}
+\tag{17}
+$$
 
 where the attention weights implement a soft nearest-neighbor lookup in the learned embedding space. The full context embedding variant conditions $f$ and $g$ on the entire support set through a bidirectional LSTM, enabling context-dependent metric adaptation.
 
 Prototypical Networks of [Snell et al. 2017][research_snell_swersky_zemel_2017] provided a simpler and often more effective framework in which each class is represented by the mean embedding of its support examples
 
-$$c_k = \frac{1}{|\mathcal{S}_k|} \sum_{(x_i, y_i) \in \mathcal{S}_k} f_\theta(x_i)$$
+$$
+c_k = \frac{1}{|\mathcal{S}_k|} \sum_{(x_i, y_i) \in \mathcal{S}_k} f_\theta(x_i)
+\tag{18}
+$$
 
 and query classification proceeds by softmax over squared distances to prototypes
 
-$$p_\theta(y = k \mid x^*) = \frac{\exp(-\|f_\theta(x^*) - c_k\|^2)}{\sum_{k'} \exp(-\|f_\theta(x^*) - c_{k'}\|^2)}$$
+$$
+p_\theta(y = k \mid x^*) = \frac{\exp(-\|f_\theta(x^*) - c_k\|^2)}{\sum_{k'} \exp(-\|f_\theta(x^*) - c_{k'}\|^2)}
+\tag{19}
+$$
 
 This account provides a Bayes-optimal classifier under an assumed spherical Gaussian likelihood in embedding space and generalizes to zero-shot settings when class embeddings are computed from side information rather than support examples.
 
@@ -185,21 +242,33 @@ The account provides several conceptual advantages over the recurrent and gradie
 
 PEARL of Rakelly Zhou Quillen Finn Levine 2019 provides the canonical modern instantiation. The task inference network uses variational inference on a set of context transitions,
 
-$$q_\phi(z \mid \mathcal{C}) = \mathcal{N}(z ; \mu_\phi(\mathcal{C}), \Sigma_\phi(\mathcal{C}))$$
+$$
+q_\phi(z \mid \mathcal{C}) = \mathcal{N}(z ; \mu_\phi(\mathcal{C}), \Sigma_\phi(\mathcal{C}))
+\tag{20}
+$$
 
 where $\mathcal{C} = \{(s_i, a_i, r_i, s'\_i)\}\_{i=1}^N$ is a set of transitions from the target task. The context is aggregated in a permutation-invariant manner via a product-of-Gaussians factorization over per-transition encodings,
 
-$$\mu_\phi(\mathcal{C}) = \frac{\sum_i \mu_\phi(c_i) / \sigma^2_\phi(c_i)}{\sum_i 1 / \sigma^2_\phi(c_i)}, \quad \sigma^{-2}_\phi(\mathcal{C}) = \sum_i \sigma^{-2}_\phi(c_i)$$
+$$
+\mu_\phi(\mathcal{C}) = \frac{\sum_i \mu_\phi(c_i) / \sigma^2_\phi(c_i)}{\sum_i 1 / \sigma^2_\phi(c_i)}, \quad \sigma^{-2}_\phi(\mathcal{C}) = \sum_i \sigma^{-2}_\phi(c_i)
+\tag{21}
+$$
 
 so that the inferred task representation does not depend on the ordering of the context transitions.
 
 The task-conditioned policy is trained by off-policy actor-critic methods (SAC) with the inferred task representation as an additional input,
 
-$$\pi_\theta(a \mid s, z), \quad Q_\psi(s, a, z)$$
+$$
+\pi_\theta(a \mid s, z), \quad Q_\psi(s, a, z)
+\tag{22}
+$$
 
 The end-to-end meta-training objective combines the reinforcement learning objective with a variational inference term,
 
-$$J_{\text{PEARL}}(\theta, \psi, \phi) = J_{\text{SAC}}(\theta, \psi, \phi) - \beta \, D_{\text{KL}}(q_\phi(z \mid \mathcal{C}) \, \| \, p(z))$$
+$$
+J_{\text{PEARL}}(\theta, \psi, \phi) = J_{\text{SAC}}(\theta, \psi, \phi) - \beta \, D_{\text{KL}}(q_\phi(z \mid \mathcal{C}) \, \| \, p(z))
+\tag{23}
+$$
 
 where the KL term regularizes the task representation toward a prior distribution.
 
@@ -211,21 +280,33 @@ Bayesian meta-reinforcement learning provides a principled framework that treats
 
 The Bayes-adaptive MDP formalism casts meta-reinforcement learning as a POMDP over the joint state-plus-task-identity space. The optimal Bayes-adaptive policy conditions on the belief over task identity,
 
-$$b_t(\mathcal{T}) = \Pr(\mathcal{T} \mid o_{1:t}, a_{1:t-1})$$
+$$
+b_t(\mathcal{T}) = \Pr(\mathcal{T} \mid o_{1:t}, a_{1:t-1})
+\tag{24}
+$$
 
 updated by Bayes rule at each step. Solving the Bayes-adaptive POMDP exactly is intractable for realistic problems, but approximate methods provide practical algorithms. The BAMCP algorithm of [Guez Silver Dayan 2013][research_guez_silver_dayan_2013] extended Monte Carlo tree search to the Bayes-adaptive setting, providing sample-efficient planning under task uncertainty. The [Ortega et al. 2019][research_ortega_et_al_2019] Bayesian meta-reinforcement learning treatment provided a systematic modern framework connecting the classical Bayes-adaptive theory to deep function approximation.
 
 VariBAD of Zintgraf Shiarlis Igl Schulze Gal Hofmann Whiteson 2020 provides a variational Bayesian meta-reinforcement learning framework. A variational encoder produces a distribution over latent tasks
 
-$$q_\phi(z_t \mid \tau_{1:t}) = \mathcal{N}(z_t ; \mu_\phi(\tau_{1:t}), \Sigma_\phi(\tau_{1:t}))$$
+$$
+q_\phi(z_t \mid \tau_{1:t}) = \mathcal{N}(z_t ; \mu_\phi(\tau_{1:t}), \Sigma_\phi(\tau_{1:t}))
+\tag{25}
+$$
 
 trained through a variational objective that combines observation prediction with a KL regularizer,
 
-$$L_{\text{VariBAD}}(\phi) = -\mathbb{E}_{q_\phi}\!\left[\sum_t \log p_\theta(o_t, r_t \mid s_t, a_t, z_t)\right] + \beta \sum_t D_{\text{KL}}(q_\phi(z_t \mid \tau_{1:t}) \, \| \, p(z_t))$$
+$$
+L_{\text{VariBAD}}(\phi) = -\mathbb{E}_{q_\phi}\!\left[\sum_t \log p_\theta(o_t, r_t \mid s_t, a_t, z_t)\right] + \beta \sum_t D_{\text{KL}}(q_\phi(z_t \mid \tau_{1:t}) \, \| \, p(z_t))
+\tag{26}
+$$
 
 The policy conditions on the current variational task belief
 
-$$\pi_\theta(a_t \mid s_t, q_\phi(z_t \mid \tau_{1:t}))$$
+$$
+\pi_\theta(a_t \mid s_t, q_\phi(z_t \mid \tau_{1:t}))
+\tag{27}
+$$
 
 producing behavior that trades off task-identifying exploration against reward-seeking exploitation.
 
@@ -239,7 +320,10 @@ Hypernetworks provide a distinct route to meta-learning in which a meta-network 
 
 The hypernetwork meta-learner formalizes as
 
-$$\theta_{\text{policy}} = H_\phi(z_{\text{task}}), \quad z_{\text{task}} = q_\psi(\tau_{1:H})$$
+$$
+\theta_{\text{policy}} = H_\phi(z_{\text{task}}), \quad z_{\text{task}} = q_\psi(\tau_{1:H})
+\tag{28}
+$$
 
 where $H_\phi$ is the hypernetwork with meta-parameters $\phi$, $z_{\text{task}}$ is a task embedding produced by a task inference network $q_\psi$ from adaptation trajectory $\tau_{1:H}$, and $\theta_{\text{policy}}$ are the parameters of the task-policy $\pi_{\theta_{\text{policy}}}$. This account combines the task-inference approach of PEARL with the direct policy-parameter generation of hypernetworks, avoiding both the second-order gradients of MAML and the recurrent state maintenance of RL-squared.
 
@@ -255,11 +339,17 @@ Meta-gradient methods use outer-loop gradients to optimize aspects of the inner 
 
 The core observation is that if the inner learning process is differentiable, then gradients with respect to its hyperparameters can be computed and used to optimize a meta-objective. Xu van Hasselt and Silver 2018 introduced this formulation by optimizing the discount factor and $\lambda$-return parameter online,
 
-$$\gamma \leftarrow \gamma - \eta \nabla_\gamma J_{\text{outer}}(\theta_\gamma)$$
+$$
+\gamma \leftarrow \gamma - \eta \nabla_\gamma J_{\text{outer}}(\theta_\gamma)
+\tag{29}
+$$
 
 where $J_{\text{outer}}$ is a meta-objective (typically the return over a validation trajectory) and $\theta_\gamma$ are the policy parameters produced by the inner learning process with the current $\gamma$. The chain rule expansion of the meta-gradient exposes its computational structure,
 
-$$\nabla_\gamma J_{\text{outer}} = \frac{\partial J_{\text{outer}}}{\partial \theta_\gamma} \cdot \frac{\partial \theta_\gamma}{\partial \gamma}$$
+$$
+\nabla_\gamma J_{\text{outer}} = \frac{\partial J_{\text{outer}}}{\partial \theta_\gamma} \cdot \frac{\partial \theta_\gamma}{\partial \gamma}
+\tag{30}
+$$
 
 with the second factor requiring backpropagation through the inner-loop training dynamics.
 
@@ -267,7 +357,10 @@ Meta-Gradient Reinforcement Learning of Xu van Hasselt Silver 2018 documented th
 
 Learned Intrinsic Reward Policy Gradient (LIRPG) of Zheng Oh Singh 2018 optimizes an intrinsic reward function online through meta-gradients. The intrinsic reward augments the extrinsic reward during policy optimization,
 
-$$\tilde{r}_t = r_t + \eta_{\text{intrinsic}}(s_t, a_t; \phi)$$
+$$
+\tilde{r}_t = r_t + \eta_{\text{intrinsic}}(s_t, a_t; \phi)
+\tag{31}
+$$
 
 with $\phi$ optimized to maximize the outer-loop objective (extrinsic return only). The mechanism produces intrinsic rewards that shape policy learning without affecting the true objective.
 
@@ -285,7 +378,10 @@ The meta-learning of optimization procedures themselves represents a distinct br
 
 Learning to Learn by Gradient Descent by Gradient Descent of [Andrychowicz et al. 2016][research_andrychowicz_et_al_2016] parameterized the optimizer update rule as a recurrent network,
 
-$$\Delta \theta_t = m_\phi(\nabla_\theta L, h_t), \quad h_{t+1} = f_\phi(\nabla_\theta L, h_t)$$
+$$
+\Delta \theta_t = m_\phi(\nabla_\theta L, h_t), \quad h_{t+1} = f_\phi(\nabla_\theta L, h_t)
+\tag{32}
+$$
 
 trained to minimize the loss achieved by iteratively applying the update rule. This account produced learned optimizers that outperformed standard first-order methods on the training task distribution but generalized poorly to novel tasks.
 
@@ -293,7 +389,10 @@ Subsequent work by [Metz et al. 2018][research_metz_et_al_2019] documented the c
 
 Meta-learning of auxiliary losses provides a related direction. The framework parameterizes an auxiliary loss function that is added to the primary learning objective,
 
-$$L_{\text{aux}}(\theta) = L_{\text{primary}}(\theta) + \lambda \, L_{\phi}(\theta)$$
+$$
+L_{\text{aux}}(\theta) = L_{\text{primary}}(\theta) + \lambda \, L_{\phi}(\theta)
+\tag{33}
+$$
 
 with $\phi$ optimized through outer-loop gradients to maximize the primary objective. The learned auxiliary loss can encode auxiliary tasks, regularizers, or representation-learning objectives that support the primary objective without being explicitly designed. [Wichrowska et al. 2017][research_wichrowska_et_al_2017] provided scaled-up learned optimizers with cross-task generalization, and [Chen Hoffman Colmenarejo Denil 2017][research_chen_et_al_2017_learned_optimizer] demonstrated that learned optimizers can generalize appreciably beyond the training distribution when trained on diverse task ensembles.
 
@@ -303,19 +402,28 @@ Multi-task reinforcement learning treats the setting in which the agent learns a
 
 Shared representation multi-task learning trains a single network with task-heads,
 
-$$Q(s, a; \phi_{\text{shared}}, \phi_{\text{task}}) = h_{\phi_{\text{task}}}(f_{\phi_{\text{shared}}}(s, a))$$
+$$
+Q(s, a; \phi_{\text{shared}}, \phi_{\text{task}}) = h_{\phi_{\text{task}}}(f_{\phi_{\text{shared}}}(s, a))
+\tag{34}
+$$
 
 with shared parameters $\phi_{\text{shared}}$ trained on all tasks and task-parameters $\phi_{\text{task}}$ trained only on the corresponding task. The mechanism supports positive transfer through shared representations while allowing task-specialization. Progressive Networks of [Rusu et al. 2016][research_rusu_et_al_2016_progressive] provided an alternative that avoids negative transfer by adding new columns for each task while freezing prior columns. Actor-Mimic of [Parisotto et al. 2015][research_parisotto_ba_salakhutdinov_2016] used policy distillation from single-task expert policies to a multi-task student policy, providing an alternative multi-task learning framework grounded in imitation learning. The [Sener and Koltun 2018][research_sener_koltun_2018] treatment of multi-task learning as multi-objective optimization provided a principled framework based on Pareto-optimality of the multi-task loss.
 
 Multi-task actor-critic frameworks including [Teh et al. 2017][research_teh_et_al_2017] Distral use distillation between task-and shared policies to encourage transferable behavior. Distral's task-policies are trained with a KL regularizer toward the shared distilled policy,
 
-$$L_{\text{Distral}}(\pi_{\mathcal{T}}, \pi_0) = -J_{\mathcal{T}}(\pi_{\mathcal{T}}) + \alpha \, D_{\text{KL}}(\pi_{\mathcal{T}} \, \| \, \pi_0) - \beta \, H(\pi_{\mathcal{T}})$$
+$$
+L_{\text{Distral}}(\pi_{\mathcal{T}}, \pi_0) = -J_{\mathcal{T}}(\pi_{\mathcal{T}}) + \alpha \, D_{\text{KL}}(\pi_{\mathcal{T}} \, \| \, \pi_0) - \beta \, H(\pi_{\mathcal{T}})
+\tag{35}
+$$
 
 with $\pi_0$ trained to distill the ensemble of task-policies, encouraging shared structure to propagate through the distillation channel.
 
 Negative interference between tasks is a persistent challenge. Learning gradient projection methods of [Yu Kumar Gupta Hausman Levine Finn 2020][research_yu_et_al_2020_pcgrad] PCGrad address negative interference by projecting each task's gradient onto the space orthogonal to interfering directions from other tasks. For each task pair with gradients $g_i, g_j$ where $g_i \cdot g_j < 0$, PCGrad replaces $g_i$ with its projection
 
-$$g_i^{\text{PC}} = g_i - \frac{g_i \cdot g_j}{\|g_j\|^2} g_j$$
+$$
+g_i^{\text{PC}} = g_i - \frac{g_i \cdot g_j}{\|g_j\|^2} g_j
+\tag{36}
+$$
 
 removing the conflicting component before averaging across the multi-task ensemble.
 
@@ -355,7 +463,10 @@ Continual adaptation extends the meta-learning framework to settings in which th
 
 Online adaptation via meta-learning of [Nagabandi et al. 2018][research_nagabandi_et_al_2018_meta_online] provides the direct link between meta-learning and continual online adaptation. This formulation trains a meta-learned initialization such that few-shot gradient updates produce task-parameters that generalize to unseen environmental conditions. At each online step, the current parameters are updated from the meta-initialization based on a sliding window of recent transitions,
 
-$$\theta_t = \theta_{\text{meta}} - \alpha \sum_{s=1}^{k} \nabla_{\theta_{\text{meta}}} \ell(\theta_{\text{meta}}; \tau_{t-s})$$
+$$
+\theta_t = \theta_{\text{meta}} - \alpha \sum_{s=1}^{k} \nabla_{\theta_{\text{meta}}} \ell(\theta_{\text{meta}}; \tau_{t-s})
+\tag{37}
+$$
 
 where $\ell$ is the per-transition prediction loss. Applied to legged robot control, this formulation enables rapid adaptation to novel terrain, actuator faults, and payload variations through a small number of online gradient steps.
 
@@ -369,11 +480,17 @@ In-context reinforcement learning extends the in-context learning of large langu
 
 Algorithm Distillation of Laskin Wang Oh Parisotto Spencer et al 2023 provided the systematic treatment. A transformer is trained on trajectories
 
-$$\tau = (o_1, a_1, r_1, o_2, a_2, r_2, \ldots)$$
+$$
+\tau = (o_1, a_1, r_1, o_2, a_2, r_2, \ldots)
+\tag{38}
+$$
 
 where the trajectory represents the entire learning-algorithm trace over the lifetime of an agent solving a task. The transformer is trained by autoregressive cross-entropy on trajectory-conditional action prediction,
 
-$$L_{\text{AD}}(\theta) = -\mathbb{E}_{\tau \sim \mathcal{D}_{\text{learn}}}\!\left[\sum_t \log \pi_\theta(a_t \mid \tau_{1:t-1})\right]$$
+$$
+L_{\text{AD}}(\theta) = -\mathbb{E}_{\tau \sim \mathcal{D}_{\text{learn}}}\!\left[\sum_t \log \pi_\theta(a_t \mid \tau_{1:t-1})\right]
+\tag{39}
+$$
 
 where $\mathcal{D}\_{\text{learn}}$ is a dataset of learning-algorithm traces across a distribution of tasks. At test time the transformer predicts $a_t$ conditional on $\tau_{1:t-1}$ and produces increasingly-competent actions as more trajectory context is provided. The mechanism is remarkably general. Any learning algorithm can be distilled into an in-context transformer by generating training traces from the algorithm.
 
@@ -389,7 +506,10 @@ The theoretical foundations of meta-learning provide sample complexity bounds th
 
 The generalization bound for meta-learning takes the form
 
-$$\mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}[R(\mathcal{A}_\phi, \mathcal{T})] \leq \hat{R}_{\text{meta}}(\mathcal{A}_\phi) + \mathcal{O}\!\left(\sqrt{\frac{\text{Comp}(\mathcal{A})}{n_{\text{tasks}} m_{\text{per-task}}}}\right)$$
+$$
+\mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}[R(\mathcal{A}_\phi, \mathcal{T})] \leq \hat{R}_{\text{meta}}(\mathcal{A}_\phi) + \mathcal{O}\!\left(\sqrt{\frac{\text{Comp}(\mathcal{A})}{n_{\text{tasks}} m_{\text{per-task}}}}\right)
+\tag{40}
+$$
 
 where $\text{Comp}(\mathcal{A})$ is a complexity measure of the meta-algorithm class, $n_{\text{tasks}}$ is the number of meta-training tasks, and $m_{\text{per-task}}$ is the number of samples per task. When the effective algorithm-class complexity is smaller than the model-class complexity for per-task learning, meta-learning provides sample-complexity advantages.
 
@@ -411,11 +531,17 @@ Model-based meta-policy optimization of [Clavera et al. 2018][research_clavera_e
 
 Latent-variable model-based meta-learning approaches condition the world model on a latent task embedding
 
-$$\hat{P}_\theta(s' \mid s, a, z_{\text{task}}), \quad q_\phi(z_{\text{task}} \mid \tau_{1:H})$$
+$$
+\hat{P}_\theta(s' \mid s, a, z_{\text{task}}), \quad q_\phi(z_{\text{task}} \mid \tau_{1:H})
+\tag{41}
+$$
 
 with the task embedding inferred from a short adaptation trajectory. The joint training objective combines observation reconstruction under the task-conditioned model with a variational regularizer,
 
-$$L_{\text{TCWM}}(\theta, \phi) = -\mathbb{E}_{q_\phi(z \mid \tau)}\!\left[\sum_t \log \hat{P}_\theta(s_{t+1} \mid s_t, a_t, z)\right] + \beta \, D_{\text{KL}}(q_\phi(z \mid \tau) \, \| \, p(z))$$
+$$
+L_{\text{TCWM}}(\theta, \phi) = -\mathbb{E}_{q_\phi(z \mid \tau)}\!\left[\sum_t \log \hat{P}_\theta(s_{t+1} \mid s_t, a_t, z)\right] + \beta \, D_{\text{KL}}(q_\phi(z \mid \tau) \, \| \, p(z))
+\tag{42}
+$$
 
 The treatment supports zero-shot generalization to new tasks that share structure with the training distribution through the shared world model.
 
@@ -443,7 +569,10 @@ Domain randomization of [Tobin et al. 2017][research_tobin_et_al_2017_dr] provid
 
 Formally, domain randomization solves
 
-$$\pi^*_{\text{DR}} = \arg\max_\pi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[J_{\mathcal{T}}(\pi)\right]$$
+$$
+\pi^*_{\text{DR}} = \arg\max_\pi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[J_{\mathcal{T}}(\pi)\right]
+\tag{43}
+$$
 
 which is the multi-task objective without task-adaptation. This formulation produces zero-shot generalization to any task in the randomization support at the cost of task-optimality.
 
@@ -529,6 +658,421 @@ Article fourteen returns to the NeuroAI bridge and treats the meta-reinforcement
 - What is the correct treatment of the exploration-exploitation trade-off during meta-testing? Bayesian meta-learning provides one answer but is computationally expensive, while simpler methods trade optimality for tractability.
 - How closely do the meta-learning mechanisms of biological brains correspond to machine learning meta-learning algorithms?
 - Can meta-learning be reliably combined with hierarchical decomposition and model-based planning?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 43 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 43, 37 are established and 6 are bespoke.
+Every quantity is a dimensionless parameter, probability or loss, or a return in the units of the reward, and the step sizes and weights $\alpha$, $\beta$ and $\eta$ are reused with different meanings in different sections, so each is read in the section where it appears.
+
+**Equation 1, Learning Algorithm as a Map from Data to Hypothesis.**
+A conventional learning algorithm fixed by human design maps a training dataset to a hypothesis.
+
+$$
+h = \mathcal{A}(\mathcal{D})
+\tag{1}
+$$
+
+**Equation 2, Meta-Learning Objective over a Task Distribution.**
+Meta-learning chooses the meta-parameters of the learning algorithm by optimising the expected task loss of the hypotheses it produces across a distribution of tasks.
+[Hospedales et al. 2022][research_hospedales_et_al_2022]
+
+$$
+\phi^* = \arg\max_\phi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\mathcal{A}_\phi(\mathcal{D}_{\mathcal{T}}))\right]
+\tag{2}
+$$
+
+**Equation 3, Meta-Reinforcement Learning Algorithm as a Map from Experience to Policy.**
+In meta-reinforcement learning the parameterised algorithm maps the transitions collected during inner-loop adaptation to a policy.
+
+$$
+\pi = \mathcal{A}_\phi(\tau_{1:H})
+\tag{3}
+$$
+
+*Equation 4, Bespoke Progressive Re-Adaptation Schedule at Meta-Test Time.*
+The article writes the meta-test rollout as a sequence in which the policy is re-derived from the meta-algorithm after every transition, a schedule it chose to illustrate progressive adaptation.
+
+$$
+\tau_{1:H} \sim \pi_{\mathcal{A}_\phi(\emptyset)}, \pi_{\mathcal{A}_\phi(\tau_{1:1})}, \ldots, \pi_{\mathcal{A}_\phi(\tau_{1:H-1})}
+\tag{4}
+$$
+
+**Equation 5, Meta-Reinforcement Learning Training Objective.**
+The meta-training objective is the expected return, over tasks drawn from the task distribution, of the policy the meta-algorithm produces after the adaptation horizon.
+
+$$
+J_{\text{meta}}(\phi) = \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[J_{\mathcal{T}}(\pi_{\mathcal{A}_\phi(\tau_{1:H})})\right]
+\tag{5}
+$$
+
+**Equation 6, Expected Discounted Return of a Policy on a Task.**
+The return of a policy on a task is the expected discounted sum of the task's rewards over a finite horizon from an initial state distribution.
+
+$$
+J_{\mathcal{T}}(\pi) = \mathbb{E}_\pi\!\left[\sum_{t=0}^{T-1} \gamma^t R_{\mathcal{T}}(s_t, a_t) \mid s_0 \sim \mu_0\right]
+\tag{6}
+$$
+
+**Equation 7, Bayes-Adaptive Optimal Policy.**
+The Bayes-adaptive Markov decision process treats the task as a latent variable and seeks the policy that maximises expected return averaged over the prior on tasks.
+[Duff 2002][book_duff_2002]
+
+$$
+\pi^*_{\text{BAMDP}} = \arg\max_\pi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\sum_{t=0}^{T-1} \gamma^t R_{\mathcal{T}}(s_t, a_t) \mid s_0 \sim \mu_0, \pi\right]
+\tag{7}
+$$
+
+**Equation 8, RL-Squared Recurrent Meta-Policy.**
+The policy of reinforcement learning squared, written RL-squared, conditions on a recurrent hidden state updated from the current observation, the previous action, the previous reward and the previous hidden state.
+[Duan et al. 2016][research_duan_et_al_2016_rl2]
+
+$$
+\pi_\theta(a_t \mid o_t, h_t), \quad h_t = f_\theta(o_t, a_{t-1}, r_{t-1}, h_{t-1})
+\tag{8}
+$$
+
+**Equation 9, Model-Agnostic Meta-Learning Objective.**
+Model-Agnostic Meta-Learning, known as MAML, seeks initial parameters whose loss after one inner gradient step is minimal in expectation over tasks.
+[Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017]
+
+$$
+\theta^* = \arg\min_\theta \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[\mathcal{L}_{\mathcal{T}}(\theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta))\right]
+\tag{9}
+$$
+
+**Equation 10, MAML Inner-Loop Adaptation Step.**
+The task parameters are obtained from the meta-parameters by one gradient step on the task's training loss with the inner step size.
+[Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017]
+
+$$
+\theta'_{\mathcal{T}} = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}^{\text{train}}(\theta)
+\tag{10}
+$$
+
+**Equation 11, Multi-Step MAML Inner Loop.**
+The multi-step extension repeats the inner gradient step $k$ times starting from the meta-parameters.
+[Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017]
+
+$$
+\theta_i = \theta_{i-1} - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}^{\text{train}}(\theta_{i-1}), \quad i = 1, \ldots, k
+\tag{11}
+$$
+
+**Equation 12, Second-Order MAML Meta-Gradient.**
+Differentiating through the inner step multiplies the gradient at the adapted parameters by the identity minus the step size times the Hessian of the inner loss.
+[Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017]
+
+$$
+\nabla_\theta J_{\text{MAML}} = \mathbb{E}_{\mathcal{T}}\!\left[(I - \alpha \nabla_\theta^2 \mathcal{L}_{\mathcal{T}}(\theta)) \nabla_{\theta'} \mathcal{L}_{\mathcal{T}}(\theta')|_{\theta' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta)}\right]
+\tag{12}
+$$
+
+**Equation 13, First-Order MAML Meta-Gradient.**
+First-order MAML drops the Hessian term and uses the gradient at the adapted parameters as the meta-gradient.
+[Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017]
+
+$$
+\nabla_\theta J_{\text{FOMAML}} \approx \mathbb{E}_{\mathcal{T}}\!\left[\nabla_{\theta'} \mathcal{L}_{\mathcal{T}}(\theta')|_{\theta' = \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta)}\right]
+\tag{13}
+$$
+
+**Equation 14, Reptile Meta-Update.**
+Reptile moves the meta-parameters a fraction $\beta$ of the way toward the parameters reached after $k$ steps of stochastic gradient descent on a sampled task.
+[Nichol et al. 2018][research_nichol_achiam_schulman_2018]
+
+$$
+\theta \leftarrow \theta + \beta (\text{SGD}_k^{\mathcal{T}}(\theta) - \theta)
+\tag{14}
+$$
+
+**Equation 15, REINFORCE Gradient of the Task Loss.**
+In the reinforcement learning form of MAML the inner-loop gradient is the negated score-function estimate weighted by the return from each step.
+[Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017]
+
+$$
+\nabla_\theta \mathcal{L}_{\mathcal{T}}(\theta) = -\mathbb{E}_{\tau \sim \pi_\theta}\!\left[\sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) G_t\right]
+\tag{15}
+$$
+
+**Equation 16, Contrastive Loss for Siamese Embeddings.**
+The contrastive loss pulls same-class pairs together by their squared embedding distance and pushes different-class pairs apart until they are at least a margin $m$ away.
+
+$$
+L_{\text{contrastive}}(x_i, x_j, y_{ij}) = y_{ij} \, \|f_\theta(x_i) - f_\theta(x_j)\|^2 + (1 - y_{ij}) \, \max(0, m - \|f_\theta(x_i) - f_\theta(x_j)\|)^2
+\tag{16}
+$$
+
+**Equation 17, Matching Networks Attention Classifier.**
+Matching Networks predict a query's label as an attention-weighted sum of support labels, with weights given by a softmax over cosine similarities of embeddings.
+[Vinyals et al. 2016][research_vinyals_et_al_2016_matching]
+
+$$
+\hat{y}^* = \sum_{i=1}^{N} a(x^*, x_i) \, y_i, \quad a(x^*, x_i) = \frac{\exp(\text{cosine}(f(x^*), g(x_i)))}{\sum_j \exp(\text{cosine}(f(x^*), g(x_j)))}
+\tag{17}
+$$
+
+**Equation 18, Class Prototype as Mean Support Embedding.**
+Prototypical Networks represent each class by the mean embedding of its support examples.
+[Snell et al. 2017][research_snell_swersky_zemel_2017]
+
+$$
+c_k = \frac{1}{|\mathcal{S}_k|} \sum_{(x_i, y_i) \in \mathcal{S}_k} f_\theta(x_i)
+\tag{18}
+$$
+
+**Equation 19, Prototypical Networks Class Probability.**
+A query is classified by a softmax over the negative squared distances from its embedding to each class prototype.
+[Snell et al. 2017][research_snell_swersky_zemel_2017]
+
+$$
+p_\theta(y = k \mid x^*) = \frac{\exp(-\|f_\theta(x^*) - c_k\|^2)}{\sum_{k'} \exp(-\|f_\theta(x^*) - c_{k'}\|^2)}
+\tag{19}
+$$
+
+**Equation 20, PEARL Gaussian Task Posterior.**
+Probabilistic Embeddings for Actor-critic Reinforcement Learning, known as PEARL, infers a Gaussian posterior over a latent task variable from a set of context transitions.
+[Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl]
+
+$$
+q_\phi(z \mid \mathcal{C}) = \mathcal{N}(z ; \mu_\phi(\mathcal{C}), \Sigma_\phi(\mathcal{C}))
+\tag{20}
+$$
+
+**Equation 21, Product-of-Gaussians Context Aggregation.**
+Multiplying the per-transition Gaussian factors gives a precision-weighted mean and a precision equal to the sum of the factor precisions, which is invariant to the order of the transitions.
+[Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl]
+
+$$
+\mu_\phi(\mathcal{C}) = \frac{\sum_i \mu_\phi(c_i) / \sigma^2_\phi(c_i)}{\sum_i 1 / \sigma^2_\phi(c_i)}, \quad \sigma^{-2}_\phi(\mathcal{C}) = \sum_i \sigma^{-2}_\phi(c_i)
+\tag{21}
+$$
+
+**Equation 22, Task-Conditioned Actor and Critic.**
+In PEARL both the policy and the action-value function take the inferred latent task variable as an additional input.
+[Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl]
+
+$$
+\pi_\theta(a \mid s, z), \quad Q_\psi(s, a, z)
+\tag{22}
+$$
+
+**Equation 23, PEARL Meta-Training Objective.**
+The PEARL objective combines the soft actor-critic objective with a weighted penalty on the Kullback-Leibler divergence, abbreviated KL, that pulls the task posterior toward a prior.
+[Rakelly Zhou Quillen Finn Levine 2019][research_rakelly_et_al_2019_pearl]
+
+$$
+J_{\text{PEARL}}(\theta, \psi, \phi) = J_{\text{SAC}}(\theta, \psi, \phi) - \beta \, D_{\text{KL}}(q_\phi(z \mid \mathcal{C}) \, \| \, p(z))
+\tag{23}
+$$
+
+**Equation 24, Belief over Task Identity.**
+The belief is the posterior probability of each task given the observations and actions so far, updated by Bayes rule at each step.
+[Duff 2002][book_duff_2002]
+
+$$
+b_t(\mathcal{T}) = \Pr(\mathcal{T} \mid o_{1:t}, a_{1:t-1})
+\tag{24}
+$$
+
+**Equation 25, VariBAD Recurrent Task Posterior.**
+Variational Bayes-Adaptive Deep reinforcement learning, known as VariBAD, encodes the trajectory so far into a Gaussian posterior over a time-indexed latent task variable.
+[Zintgraf et al. 2020][research_zintgraf_et_al_2020_varibad]
+
+$$
+q_\phi(z_t \mid \tau_{1:t}) = \mathcal{N}(z_t ; \mu_\phi(\tau_{1:t}), \Sigma_\phi(\tau_{1:t}))
+\tag{25}
+$$
+
+**Equation 26, VariBAD Variational Objective.**
+The VariBAD encoder is trained by a negative evidence lower bound that combines the log-likelihood of observations and rewards with a weighted KL regulariser on the latent posterior.
+[Zintgraf et al. 2020][research_zintgraf_et_al_2020_varibad]
+
+$$
+L_{\text{VariBAD}}(\phi) = -\mathbb{E}_{q_\phi}\!\left[\sum_t \log p_\theta(o_t, r_t \mid s_t, a_t, z_t)\right] + \beta \sum_t D_{\text{KL}}(q_\phi(z_t \mid \tau_{1:t}) \, \| \, p(z_t))
+\tag{26}
+$$
+
+**Equation 27, Belief-Conditioned VariBAD Policy.**
+The VariBAD policy conditions on the current state and on the current variational posterior over the task.
+[Zintgraf et al. 2020][research_zintgraf_et_al_2020_varibad]
+
+$$
+\pi_\theta(a_t \mid s_t, q_\phi(z_t \mid \tau_{1:t}))
+\tag{27}
+$$
+
+*Equation 28, Bespoke Hypernetwork Meta-Learner with Task Inference.*
+The article composes a task-inference network in the style of PEARL with a hypernetwork that maps the inferred task embedding directly to policy parameters.
+[Ha et al. 2017][research_ha_dai_le_2016]
+
+$$
+\theta_{\text{policy}} = H_\phi(z_{\text{task}}), \quad z_{\text{task}} = q_\psi(\tau_{1:H})
+\tag{28}
+$$
+
+**Equation 29, Meta-Gradient Update of the Discount Factor.**
+Meta-gradient reinforcement learning adjusts the discount factor online by a gradient step on an outer meta-objective evaluated at the policy parameters the inner learner produced.
+[Xu et al. 2018][research_xu_van_hasselt_silver_2018]
+
+$$
+\gamma \leftarrow \gamma - \eta \nabla_\gamma J_{\text{outer}}(\theta_\gamma)
+\tag{29}
+$$
+
+**Equation 30, Chain Rule for the Meta-Gradient.**
+The meta-gradient factors into the sensitivity of the outer objective to the policy parameters and the sensitivity of those parameters to the hyperparameter, the second requiring backpropagation through inner training.
+[Xu et al. 2018][research_xu_van_hasselt_silver_2018]
+
+$$
+\nabla_\gamma J_{\text{outer}} = \frac{\partial J_{\text{outer}}}{\partial \theta_\gamma} \cdot \frac{\partial \theta_\gamma}{\partial \gamma}
+\tag{30}
+$$
+
+**Equation 31, LIRPG Augmented Reward.**
+Learned Intrinsic Reward Policy Gradient, known as LIRPG, adds a parameterised intrinsic reward to the extrinsic reward, with the intrinsic parameters tuned by meta-gradients on extrinsic return alone.
+[Zheng Oh Singh 2018][research_zheng_oh_singh_2018_lirpg]
+
+$$
+\tilde{r}_t = r_t + \eta_{\text{intrinsic}}(s_t, a_t; \phi)
+\tag{31}
+$$
+
+**Equation 32, Learned Recurrent Optimiser Update.**
+A recurrent network with meta-parameters maps the current gradient and its hidden state to a parameter update and a new hidden state.
+[Andrychowicz et al. 2016][research_andrychowicz_et_al_2016]
+
+$$
+\Delta \theta_t = m_\phi(\nabla_\theta L, h_t), \quad h_{t+1} = f_\phi(\nabla_\theta L, h_t)
+\tag{32}
+$$
+
+*Equation 33, Bespoke Primary Loss with a Meta-Learned Auxiliary Term.*
+The article writes the auxiliary-loss family as the primary loss plus a weighted parameterised loss whose parameters an outer loop tunes, a generic template rather than any one published objective.
+
+$$
+L_{\text{aux}}(\theta) = L_{\text{primary}}(\theta) + \lambda \, L_{\phi}(\theta)
+\tag{33}
+$$
+
+**Equation 34, Shared Trunk with Task-Specific Heads.**
+Hard parameter sharing composes a task-specific head with a shared representation trained on all tasks.
+
+$$
+Q(s, a; \phi_{\text{shared}}, \phi_{\text{task}}) = h_{\phi_{\text{task}}}(f_{\phi_{\text{shared}}}(s, a))
+\tag{34}
+$$
+
+**Equation 35, Distral Task-Policy Objective.**
+Distral trains each task policy to maximise return while a KL term pulls it toward the shared distilled policy and an entropy bonus keeps it stochastic.
+[Teh et al. 2017][research_teh_et_al_2017]
+
+$$
+L_{\text{Distral}}(\pi_{\mathcal{T}}, \pi_0) = -J_{\mathcal{T}}(\pi_{\mathcal{T}}) + \alpha \, D_{\text{KL}}(\pi_{\mathcal{T}} \, \| \, \pi_0) - \beta \, H(\pi_{\mathcal{T}})
+\tag{35}
+$$
+
+**Equation 36, PCGrad Gradient Projection.**
+Projecting Conflicting Gradients, known as PCGrad, removes from a task gradient its component along another task's gradient when the two conflict.
+[Yu Kumar Gupta Hausman Levine Finn 2020][research_yu_et_al_2020_pcgrad]
+
+$$
+g_i^{\text{PC}} = g_i - \frac{g_i \cdot g_j}{\|g_j\|^2} g_j
+\tag{36}
+$$
+
+**Equation 37, Online Adaptation from a Meta-Learned Initialisation.**
+At each online step the parameters are recomputed from the meta-learned initialisation by a gradient step on the prediction loss over a sliding window of the $k$ most recent transitions.
+[Nagabandi et al. 2018][research_nagabandi_et_al_2018_meta_online]
+
+$$
+\theta_t = \theta_{\text{meta}} - \alpha \sum_{s=1}^{k} \nabla_{\theta_{\text{meta}}} \ell(\theta_{\text{meta}}; \tau_{t-s})
+\tag{37}
+$$
+
+**Equation 38, Learning-History Trajectory.**
+Algorithm Distillation trains on the whole interleaved sequence of observations, actions and rewards that a learning agent produces over its lifetime on a task.
+[Laskin et al. 2023][research_laskin_et_al_2023]
+
+$$
+\tau = (o_1, a_1, r_1, o_2, a_2, r_2, \ldots)
+\tag{38}
+$$
+
+**Equation 39, Algorithm Distillation Objective.**
+The transformer is trained by autoregressive cross-entropy to predict each action from the learning history that precedes it.
+[Laskin et al. 2023][research_laskin_et_al_2023]
+
+$$
+L_{\text{AD}}(\theta) = -\mathbb{E}_{\tau \sim \mathcal{D}_{\text{learn}}}\!\left[\sum_t \log \pi_\theta(a_t \mid \tau_{1:t-1})\right]
+\tag{39}
+$$
+
+*Equation 40, Bespoke Schematic Meta-Generalisation Bound.*
+The article states a schematic bound in which expected risk exceeds empirical meta-risk by at most a term shrinking with the product of task count and samples per task, an abstract complexity measure standing in for the specific terms of any published theorem.
+
+$$
+\mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}[R(\mathcal{A}_\phi, \mathcal{T})] \leq \hat{R}_{\text{meta}}(\mathcal{A}_\phi) + \mathcal{O}\!\left(\sqrt{\frac{\text{Comp}(\mathcal{A})}{n_{\text{tasks}} m_{\text{per-task}}}}\right)
+\tag{40}
+$$
+
+*Equation 41, Bespoke Task-Conditioned World Model.*
+The article represents the latent-variable family of model-based meta-learning methods as a dynamics model conditioned on a task embedding inferred from a short adaptation trajectory.
+
+$$
+\hat{P}_\theta(s' \mid s, a, z_{\text{task}}), \quad q_\phi(z_{\text{task}} \mid \tau_{1:H})
+\tag{41}
+$$
+
+*Equation 42, Bespoke Task-Conditioned World Model Objective.*
+The article assembles a training objective for its task-conditioned world model from a transition log-likelihood under the inferred task and a weighted KL regulariser toward a prior.
+
+$$
+L_{\text{TCWM}}(\theta, \phi) = -\mathbb{E}_{q_\phi(z \mid \tau)}\!\left[\sum_t \log \hat{P}_\theta(s_{t+1} \mid s_t, a_t, z)\right] + \beta \, D_{\text{KL}}(q_\phi(z \mid \tau) \, \| \, p(z))
+\tag{42}
+$$
+
+**Equation 43, Domain Randomisation Objective.**
+Domain randomisation seeks one policy that maximises expected return over the distribution of randomised simulated environments, with no adaptation at test time.
+[Tobin et al. 2017][research_tobin_et_al_2017_dr]
+
+$$
+\pi^*_{\text{DR}} = \arg\max_\pi \mathbb{E}_{\mathcal{T} \sim p(\mathcal{T})}\!\left[J_{\mathcal{T}}(\pi)\right]
+\tag{43}
+$$
+
+### Notation
+
+- $\mathcal{A}_\phi$, the learning algorithm parameterised by meta-parameters $\phi$
+- $\mathcal{D}$, a training dataset
+- $p(\mathcal{T})$, the distribution over tasks $\mathcal{T}$, each a Markov decision process in the reinforcement learning setting
+- $\mathcal{L}_{\mathcal{T}}$, the loss on task $\mathcal{T}$
+- $\tau_{1:H}$, the transitions collected during $H$ steps of inner-loop adaptation
+- $J_{\mathcal{T}}$, the expected discounted return on task $\mathcal{T}$
+- $R_{\mathcal{T}}$, the reward function of task $\mathcal{T}$
+- $\gamma$, the discount factor
+- $\mu_0$, the initial state distribution
+- $\pi_\theta$, a policy with parameters $\theta$
+- $h_t$, the recurrent hidden state, of the meta-policy in RL-squared and of the learned optimiser
+- $\alpha$, the inner-loop step size, and the KL weight in Distral
+- $\beta$, the Reptile outer step size, the KL weight in PEARL, VariBAD and the world model objective, and the entropy weight in Distral
+- $\eta$, the meta-gradient step size
+- $G_t$, the discounted return from step $t$
+- $f_\theta$, the learned embedding network in metric-based methods
+- $c_k$, the prototype of class $k$
+- $m$, the margin of the contrastive loss
+- $q_\phi$, the variational task-inference network
+- $z$, the latent task variable
+- $\mathcal{C}$, the set of context transitions from the target task
+- $D_{\text{KL}}$, the Kullback-Leibler divergence
+- $b_t(\mathcal{T})$, the belief over task identity at step $t$
+- $H_\phi$, the hypernetwork with meta-parameters $\phi$
+- $g_i$, the gradient of task $i$
 
 ## References
 

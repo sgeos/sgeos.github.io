@@ -1,0 +1,783 @@
+# Equation classification for A252. Read by `python3 _lib/equations.py`.
+
+caution = "Returns and value functions carry the units of the reward signal, discount factors, step sizes, trace parameters and probabilities are dimensionless, and time is counted in discrete decision steps, so a bound stated in steps or iterations is a count rather than a duration."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Markov Decision Process as a Tuple"
+gloss = "A Markov decision process is specified by its state space, action space, transition kernel, reward distribution, discount factor and initial state distribution."
+cite = ["book_puterman_1994"]
+digest = "df5d2060fb60179e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Transition Kernel"
+gloss = "The transition kernel gives the probability of moving to each next state from a given state under a given action."
+cite = []
+digest = "46aff5374fc54c44"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Markov Property"
+gloss = "Conditioning the next state on the full history gives the same distribution as conditioning on the most recent state and action alone."
+cite = []
+digest = "ccd535fb209c82ed"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Trajectory Distribution Induced by a Policy"
+gloss = "The probability of a trajectory factorises into the initial state probability and the product of policy and transition probabilities along it."
+cite = []
+digest = "56d66b514f8c4cc6"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Discounted Return"
+gloss = "The return from a step is the sum of all later rewards, each weighted by the discount factor raised to its delay."
+cite = []
+digest = "1d52c263e7b013e1"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Expected Return Objective"
+gloss = "A policy is judged by its expected return from the initial state distribution, which equals the average of its state values under that distribution."
+cite = []
+digest = "2435e4e306800db3"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "State Value Function"
+gloss = "The value of a state under a policy is the expected return from that state when the policy is followed."
+cite = []
+digest = "45e5bc397273e91f"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Action Value Function"
+gloss = "The action value is the expected return from taking a given action in a given state and following the policy thereafter."
+cite = []
+digest = "f83b6b147b7f10ad"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Relation Between State and Action Values"
+gloss = "The state value is the policy-weighted average of the action values, and each action value is the expected reward plus the discounted value of the successor state."
+cite = []
+digest = "0a7b4cb751647d50"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Advantage Function"
+gloss = "The advantage of an action is its action value less the value of the state under the policy."
+cite = []
+digest = "bad8837c5881045d"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Bellman Expectation Equation for State Values"
+gloss = "The value of a state equals the policy-weighted expectation of the immediate reward plus the discounted value of the successor state."
+cite = ["book_sutton_barto_2018"]
+digest = "c898357c49051ab4"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Bellman Expectation Equation in Matrix Form"
+gloss = "For a finite Markov decision process the Bellman expectation equation is a linear system in the vector of state values."
+cite = []
+digest = "b265ff90c35dd095"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Closed-Form Policy Evaluation"
+gloss = "Because the discounted transition matrix has spectral radius below one, the value vector is the inverse of the identity minus that matrix applied to the reward vector."
+cite = []
+digest = "5dc123392e096b77"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Bellman Expectation Equation for Action Values"
+gloss = "The action value equals the expected immediate reward plus the discounted policy-weighted action value of the successor state."
+cite = []
+digest = "5319cdd5d0901107"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Bellman Optimality Equation for State Values"
+gloss = "The optimal value of a state is the best expected immediate reward plus discounted optimal value of the successor over all actions."
+cite = ["book_puterman_1994"]
+digest = "c26d53bb1228228d"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Bellman Optimality Equation for Action Values"
+gloss = "The optimal action value is the expected immediate reward plus the discounted best action value available in the successor state."
+cite = ["book_puterman_1994"]
+digest = "b19fe0aac703bd3c"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Bellman Expectation Operator"
+gloss = "The Bellman expectation operator maps a value function to the policy-weighted expected reward plus the discounted value of the successor state."
+cite = []
+digest = "f4d63129699e8a30"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Bellman Optimality Operator"
+gloss = "The Bellman optimality operator maps a value function to the best expected reward plus discounted successor value over all actions."
+cite = []
+digest = "cf2f20a611bf21f3"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Contraction of the Bellman Operators"
+gloss = "Both Bellman operators shrink the largest difference between two value functions by at least the discount factor, so each has a unique fixed point by the Banach fixed-point theorem."
+cite = []
+digest = "2ad408a833e68d0b"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Greedy Policy with Respect to a Value Function"
+gloss = "The greedy policy selects in each state the action that maximises the expected reward plus the discounted value of the successor."
+cite = []
+digest = "647f7862d71e1fa3"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Value Iteration"
+gloss = "Value iteration applies the Bellman optimality operator repeatedly to the current value estimate."
+cite = ["book_bellman_1957"]
+digest = "c1ef1f88cbdbaec7"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Geometric Convergence of Value Iteration"
+gloss = "By the contraction property the error of value iteration in the supremum norm falls at least by the discount factor at each iteration."
+cite = []
+digest = "7167651812761bfc"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Policy Improvement Step"
+gloss = "Policy iteration replaces the current policy by the policy that is greedy with respect to its evaluated value function."
+cite = ["book_howard_1960"]
+digest = "9dcdb95a4a3496e5"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Linear Programming Formulation of a Markov Decision Process"
+gloss = "The optimal value function is the solution of a linear programme that minimises the weighted sum of state values subject to each value dominating every one-step Bellman backup."
+cite = ["book_puterman_1994"]
+digest = "815020031f8142d7"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "First-Visit Monte Carlo Estimator"
+gloss = "The first-visit estimator averages, over the episodes that reach a state, the return that follows the first visit to it."
+cite = []
+digest = "3f93d6279c0869b2"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Every-Visit Monte Carlo Estimator"
+gloss = "The every-visit estimator averages the returns that follow every visit to a state across all episodes."
+cite = []
+digest = "710d1aae30702013"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Per-Episode Importance Sampling Ratio"
+gloss = "The ratio of target to behaviour policy probabilities multiplied along an episode reweights its return toward the target policy."
+cite = []
+digest = "70542c416debfdf0"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Ordinary Importance Sampling Estimator"
+gloss = "Ordinary importance sampling averages the reweighted returns over the episodes, which is unbiased but can have unbounded variance."
+cite = []
+digest = "397176ad9336f908"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Weighted Importance Sampling Estimator"
+gloss = "Weighted importance sampling normalises the reweighted returns by the sum of the ratios, which introduces bias but usually reduces variance."
+cite = []
+digest = "b90833d8a26fbf5a"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Per-Decision Importance Sampling Estimator"
+gloss = "Per-decision importance sampling weights each reward only by the ratios of the actions that preceded it."
+cite = ["research_precup_sutton_singh_2000"]
+digest = "c2d653ae39ff7f8a"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Tabular One-Step Temporal-Difference Update"
+gloss = "The value of the visited state moves by a step size toward the reward plus the discounted estimate of the next state."
+cite = ["research_sutton_1988"]
+digest = "8952f885988139ad"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Temporal-Difference Error"
+gloss = "The temporal-difference error is the reward plus the discounted estimate of the next state less the estimate of the current state."
+cite = ["research_sutton_1988"]
+digest = "1fd4db42f003b8b4"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Robbins-Monro Step-Size Conditions"
+gloss = "The step sizes must sum to infinity so that the iterates can travel any distance while their squares sum to a finite value so that the noise is averaged out."
+cite = ["research_robbins_monro_1951"]
+digest = "fc098ad4be2ea040"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "N-Step Return"
+gloss = "The $n$-step return sums $n$ discounted rewards and then bootstraps from the value estimate of the state reached."
+cite = []
+digest = "1cb3fe88f0267908"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Q-Learning Update"
+gloss = "Q-learning moves the action value toward a target built from the best action value in the next state, which makes it an off-policy method."
+cite = ["research_watkins_dayan_1992"]
+digest = "13553ebc7f6ae9ca"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "SARSA Update"
+gloss = "SARSA moves the action value toward a target built from the action the agent actually takes next, which makes it an on-policy method."
+cite = ["research_rummery_niranjan_1994"]
+digest = "f7e0473ff3d2af12"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Expected SARSA Update"
+gloss = "Expected SARSA replaces the sampled next action value by its expectation under the current policy."
+cite = []
+digest = "29d960372d2690f5"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Double Q-Learning Update"
+gloss = "One estimator selects the maximising next action and the other evaluates it, which removes the upward bias of a single maximum."
+cite = ["research_van_hasselt_2010"]
+digest = "b0a13cc249558804"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Overestimation Bias of the Maximum"
+gloss = "By Jensen's inequality the expected maximum of noisy estimates is at least the maximum of their expectations."
+cite = []
+digest = "d219d56a192304c9"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Epsilon-Greedy Policy"
+gloss = "The epsilon-greedy policy spreads probability $\\epsilon$ uniformly over all actions and gives the remainder to the greedy action."
+cite = []
+digest = "7c3364dd8acea355"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Boltzmann Exploration"
+gloss = "Softmax exploration chooses actions with probability proportional to the exponential of their action values divided by a temperature."
+cite = []
+digest = "5808b6d5b4bb4285"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Entropy-Regularised Policy Objective"
+gloss = "The objective adds to the expected return a multiple of the expected Shannon entropy of the policy over visited states."
+cite = []
+digest = "965116287db9c25b"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Count-Based Exploration Bonus"
+gloss = "The exploration bonus decays as the inverse square root of the visit count of the state-action pair, as in model-based interval estimation with exploration bonuses."
+cite = ["research_strehl_li_littman_2009"]
+digest = "79961f902c434bbf"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Lambda-Return"
+gloss = "The $\\lambda$-return is a geometrically weighted average of all $n$-step returns."
+cite = []
+digest = "56f862d3c2867c4e"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Accumulating Eligibility Trace"
+gloss = "Each state's trace decays by $\\gamma \\lambda$ at every step and is incremented by one when the state is visited."
+cite = []
+digest = "ddea770dc146b685"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Backward-View TD Lambda Update"
+gloss = "Every state value moves by the step size times the current temporal-difference error times its eligibility trace."
+cite = []
+digest = "2c187bc3bde4497b"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Policy Gradient Theorem"
+gloss = "The gradient of expected return is the expectation over the discounted state distribution of the score function weighted by the action value."
+cite = ["research_sutton_mcallester_singh_mansour_2000"]
+digest = "fd745cbbbb1941ac"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "REINFORCE Update"
+gloss = "REINFORCE ascends the score function of each action taken weighted by the Monte Carlo return that followed it."
+cite = ["research_williams_1992"]
+digest = "48a382fc1fcddf2d"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "REINFORCE with a Baseline"
+gloss = "Subtracting a state-dependent baseline from the return leaves the expected update unchanged and reduces its variance."
+cite = ["research_williams_1992"]
+digest = "8c43e0241851f6be"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Advantage Form of the Policy Gradient"
+gloss = "Using the state value as the baseline replaces the action value by the advantage in the policy gradient."
+cite = []
+digest = "38132aa1a31f2e05"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Fisher Information Matrix of a Policy"
+gloss = "The Fisher information is the expected outer product of the score function, and its inverse preconditions the natural policy gradient."
+cite = ["research_kakade_2001"]
+digest = "8ed45d56c45c7b2f"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "One-Step Actor Update"
+gloss = "The actor ascends the score function of the action taken weighted by the critic's one-step temporal-difference error as an advantage estimate."
+cite = []
+digest = "8eb76c907c2895bf"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Semi-Gradient Critic Update"
+gloss = "The critic moves its parameters along the gradient of its value estimate scaled by the one-step temporal-difference error."
+cite = ["research_konda_tsitsiklis_2000"]
+digest = "a4fe25fe716f51b8"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Deterministic Policy Gradient Theorem"
+gloss = "For a deterministic policy the gradient of expected return chains the policy Jacobian with the action gradient of the action value at the chosen action."
+cite = ["research_silver_et_al_2014"]
+digest = "3f4fd72e94987bd9"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Generalised Advantage Estimation"
+gloss = "Generalised advantage estimation sums future temporal-difference errors with weights decaying as powers of $\\gamma \\lambda$."
+cite = ["research_schulman_moritz_levine_jordan_abbeel_2016"]
+digest = "1c44f63dbdf49600"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Linear Value Function"
+gloss = "A linear value function is the inner product of a fixed feature vector of the state with a learned weight vector."
+cite = []
+digest = "ec4e1cd8f44d41cb"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Linear Semi-Gradient TD Update"
+gloss = "With linear features the temporal-difference update moves the weights along the feature vector of the visited state scaled by the temporal-difference error."
+cite = ["research_tsitsiklis_van_roy_1997"]
+digest = "8fdf1e79dbc14361"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Projected Bellman Fixed Point"
+gloss = "Linear temporal-difference learning converges to the value function that equals the projection onto the feature span of its own Bellman backup."
+cite = ["research_tsitsiklis_van_roy_1997"]
+digest = "310c057a66bb6bea"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Least-Squares Temporal-Difference Solution"
+gloss = "Least-squares temporal-difference learning solves the projected Bellman equation directly as a linear system in the weights."
+cite = ["research_bradtke_barto_1996"]
+digest = "489841c00dbd2a19"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Fitted Value Iteration"
+gloss = "Each iteration regresses a function from the chosen class onto the Bellman optimality backup of the previous estimate at the sampled states."
+cite = ["research_munos_szepesvari_2008"]
+digest = "dfb4e77d5aa31c32"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Fitted Q Iteration"
+gloss = "Each iteration regresses an action-value function onto sampled rewards plus the discounted maximum of the previous estimate at the next state."
+cite = ["research_ernst_geurts_wehenkel_2005"]
+digest = "9f6583e9a4adb0c5"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Mean-Squared Projected Bellman Error"
+gloss = "The objective is the squared norm, weighted by the behaviour state distribution, of the projected Bellman residual of the linear value function."
+cite = ["research_sutton_maei_precup_2009"]
+digest = "8a40a9ca2a902340"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Temporal-Difference Learning with Gradient Correction"
+gloss = "The TDC rule, temporal-difference learning with gradient correction, adds a correction term built from an auxiliary weight vector that tracks the expected temporal-difference error given the features."
+cite = ["research_sutton_maei_precup_2009"]
+digest = "7e1246435f514e9a"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Emphasis of Emphatic Temporal-Difference Learning"
+gloss = "The emphasis mixes the current interest with a follow-on trace that accumulates discounted and importance-weighted past interest."
+cite = ["research_sutton_mahmood_white_2016"]
+digest = "f6959b997c3ec196"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Stochastic Approximation Iteration"
+gloss = "A stochastic approximation algorithm moves its parameters by a decaying step size times a noisy update direction."
+cite = ["book_kushner_clark_1978"]
+digest = "2ea4df3e53480734"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Mean Ordinary Differential Equation"
+gloss = "The ordinary differential equation method associates the iteration with the flow of its expected update, whose stable equilibria are the limits of the iterates."
+cite = ["book_kushner_clark_1978"]
+digest = "58dd6bd9a448bbe2"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Sample Complexity of R-MAX"
+gloss = "R-MAX finds an $\\epsilon$-optimal policy with probability $1 - \\delta$ after a number of suboptimal steps polynomial in the state and action counts, $1/\\epsilon$ and the effective horizon."
+cite = ["research_brafman_tennenholtz_2002"]
+digest = "92cc2b260789cca2"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Regret Bound of UCRL2"
+gloss = "The regret of UCRL2, an upper confidence algorithm for reinforcement learning, grows with the diameter of the process and the square root of the horizon."
+cite = ["research_jaksch_ortner_auer_2010"]
+digest = "9e587ac942646868"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Potential-Based Reward Shaping"
+gloss = "Adding the discounted change in a potential function to the reward leaves the optimal policy unchanged."
+cite = ["research_ng_harada_russell_1999"]
+digest = "280cb3614c4b6b09"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Trajectory Importance Sampling Ratio"
+gloss = "The ratio of target to behaviour policy probabilities is multiplied over the actions of a trajectory of length $T$."
+cite = []
+digest = "1975798f246d970e"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Worst-Case Variance of Trajectory Importance Sampling"
+gloss = "In the worst case the variance of the importance-weighted return grows exponentially with the horizon at a rate set by the largest ratio of policy probabilities."
+cite = []
+digest = "f32ad0f39ea2f115"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Doubly Robust Off-Policy Estimator"
+gloss = "The doubly robust estimator adds to a model-based value estimate an importance-weighted correction of its residual, so that it remains unbiased if either component is correct."
+cite = ["research_jiang_li_2016"]
+digest = "5bf8677f9286f5c0"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Maximum-Likelihood Tabular Model"
+gloss = "Certainty equivalence estimates the transition probabilities and mean rewards from the observed counts and plans as if the estimates were exact."
+cite = []
+digest = "6ec2420bfb2a9ddf"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Distributional Bellman Equation"
+gloss = "The random return from a state and action equals in distribution the reward plus the discounted random return from the successor pair."
+cite = ["research_bellemare_dabney_munos_2017"]
+digest = "2eb207beb715cc6b"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Average Reward Objective"
+gloss = "For a continuing task the policy is judged by the long-run expected reward per step rather than by a discounted sum."
+cite = ["book_puterman_1994"]
+digest = "ae7c436a4c8ff5d8"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Differential Value Function"
+gloss = "The differential value sums the excess of each future reward over the average reward."
+cite = []
+digest = "d870ceb59448b66d"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Differential Bellman Equation"
+gloss = "The differential value equals the expected reward less the average reward plus the undiscounted differential value of the successor state."
+cite = []
+digest = "f5fda931feede0e3"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Temporal-Difference Error as Dopamine Prediction Error"
+gloss = "The same temporal-difference error is the quantity that midbrain dopamine neurons are found to encode."
+cite = ["research_schultz_dayan_montague_1997"]
+digest = "1fd4db42f003b8b4"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Successor Representation"
+gloss = "The successor representation gives the expected discounted number of future visits to one state starting from another under the policy."
+cite = ["research_dayan_1993"]
+digest = "402d80cfe0a406cf"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Hard Target Network Update"
+gloss = "The target network parameters are overwritten by the online parameters once every $C$ steps."
+cite = ["research_mnih_et_al_2015"]
+digest = "40af405ba04b9f63"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Soft Polyak Target Network Update"
+gloss = "The target network parameters move a small fraction $\\tau$ of the way toward the online parameters at each step."
+cite = []
+digest = "c7c2b0d42d519fd1"
+
+[[symbol]]
+tex = '\mathcal{S}'
+meaning = "the state space"
+
+[[symbol]]
+tex = '\mathcal{A}'
+meaning = "the action space"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the discount factor, between zero and one"
+
+[[symbol]]
+tex = '\mu_0'
+meaning = "the initial state distribution"
+
+[[symbol]]
+tex = '\mu(a_t \mid s_t)'
+meaning = "the behaviour policy that generated off-policy data"
+
+[[symbol]]
+tex = 'G_t'
+meaning = "the discounted return from step $t$"
+
+[[symbol]]
+tex = 'V^{\pi}(s)'
+meaning = "the state value function under policy $\\pi$"
+
+[[symbol]]
+tex = 'Q^{\pi}(s, a)'
+meaning = "the action value function under policy $\\pi$"
+
+[[symbol]]
+tex = 'A^{\pi}(s, a)'
+meaning = "the advantage function under policy $\\pi$"
+
+[[symbol]]
+tex = 'T^{\pi}'
+meaning = "the Bellman expectation operator for policy $\\pi$"
+
+[[symbol]]
+tex = 'T^*'
+meaning = "the Bellman optimality operator"
+
+[[symbol]]
+tex = '\mathbf{P}^{\pi}'
+meaning = "the state transition matrix induced by policy $\\pi$"
+
+[[symbol]]
+tex = '\delta_t'
+meaning = "the temporal-difference error at step $t$"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "a step size"
+
+[[symbol]]
+tex = '\rho_{0:T}'
+meaning = "the importance sampling ratio of an episode"
+
+[[symbol]]
+tex = 'G_t^{(n)}'
+meaning = "the $n$-step return"
+
+[[symbol]]
+tex = 'G_t^{\lambda}'
+meaning = "the $\\lambda$-return"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the trace decay parameter, which in equation 64 also weights the interest against the follow-on trace"
+
+[[symbol]]
+tex = 'e_t(s)'
+meaning = "the eligibility trace of state $s$"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the Boltzmann temperature in equation 41 and the Polyak averaging rate in equation 81"
+
+[[symbol]]
+tex = 'N(s, a)'
+meaning = "the visit count of a state-action pair"
+
+[[symbol]]
+tex = 'd^{\pi_\theta}'
+meaning = "the discounted state distribution under the parameterised policy"
+
+[[symbol]]
+tex = 'F(\theta)'
+meaning = "the Fisher information matrix of the policy"
+
+[[symbol]]
+tex = '\phi(s)'
+meaning = "the feature vector of state $s$"
+
+[[symbol]]
+tex = '\Pi_{\phi}'
+meaning = "the projection onto the span of the features under the on-policy state distribution"
+
+[[symbol]]
+tex = 'D_\mu'
+meaning = "the diagonal matrix of the behaviour state distribution that weights the norm"
+
+[[symbol]]
+tex = 'M_t'
+meaning = "the emphasis of emphatic temporal-difference learning, with $I_t$ the interest and $F_t$ the follow-on trace"
+
+[[symbol]]
+tex = 'D'
+meaning = "the diameter of the Markov decision process in equation 68"
+
+[[symbol]]
+tex = '\Phi(s)'
+meaning = "the shaping potential of state $s$"
+
+[[symbol]]
+tex = 'Z^{\pi}(s, a)'
+meaning = "the random return from a state and action"
+
+[[symbol]]
+tex = '\tilde{V}^{\pi}(s)'
+meaning = "the differential value function"
+
+[[symbol]]
+tex = "M^{\\pi}(s, s')"
+meaning = "the successor representation"
+
+[[symbol]]
+tex = '\theta^{-}'
+meaning = "the target network parameters"

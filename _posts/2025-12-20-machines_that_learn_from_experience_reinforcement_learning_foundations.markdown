@@ -19,29 +19,47 @@ Reinforcement learning is the study of computational agents that learn to select
 
 A Markov decision process is a tuple
 
-$$\mathcal{M} = (\mathcal{S}, \mathcal{A}, P, R, \gamma, \mu_0)$$
+$$
+\mathcal{M} = (\mathcal{S}, \mathcal{A}, P, R, \gamma, \mu_0)
+\tag{1}
+$$
 
 where $\mathcal{S}$ is a state space, $\mathcal{A}$ is an action space (possibly state-dependent), $P : \mathcal{S} \times \mathcal{A} \to \Delta(\mathcal{S})$ is a transition kernel with
 
-$$P(s' \mid s, a) = \Pr(s_{t+1} = s' \mid s_t = s, a_t = a)$$
+$$
+P(s' \mid s, a) = \Pr(s_{t+1} = s' \mid s_t = s, a_t = a)
+\tag{2}
+$$
 
 $R : \mathcal{S} \times \mathcal{A} \times \mathcal{S} \to \Delta(\mathbb{R})$ is a reward distribution, $\gamma \in [0, 1)$ is a discount factor, and $\mu_0 \in \Delta(\mathcal{S})$ is an initial state distribution. The Markov property requires
 
-$$P(s_{t+1} \mid s_t, a_t, s_{t-1}, a_{t-1}, \ldots, s_0, a_0) = P(s_{t+1} \mid s_t, a_t)$$
+$$
+P(s_{t+1} \mid s_t, a_t, s_{t-1}, a_{t-1}, \ldots, s_0, a_0) = P(s_{t+1} \mid s_t, a_t)
+\tag{3}
+$$
 
 so the transition depends only on the most recent state and action.
 
 A policy $\pi : \mathcal{S} \to \Delta(\mathcal{A})$ specifies action selection. Deterministic policies are the special case where $\pi(a \mid s)$ concentrates on a single action for each state. The policy and MDP together induce a distribution over trajectories
 
-$$p_{\pi}(\tau) = \mu_0(s_0) \prod_{t=0}^{\infty} \pi(a_t \mid s_t) P(s_{t+1} \mid s_t, a_t)$$
+$$
+p_{\pi}(\tau) = \mu_0(s_0) \prod_{t=0}^{\infty} \pi(a_t \mid s_t) P(s_{t+1} \mid s_t, a_t)
+\tag{4}
+$$
 
 The discounted return from time $t$ is
 
-$$G_t = \sum_{k=0}^{\infty} \gamma^k r_{t+k+1}$$
+$$
+G_t = \sum_{k=0}^{\infty} \gamma^k r_{t+k+1}
+\tag{5}
+$$
 
 with $r_{t+1}$ the reward received after action $a_t$ from state $s_t$. The agent's objective is to maximize the expected return under the initial state distribution,
 
-$$J(\pi) = \mathbb{E}_{\pi} \left[ G_0 \right] = \mathbb{E}_{s \sim \mu_0}[V^{\pi}(s)]$$
+$$
+J(\pi) = \mathbb{E}_{\pi} \left[ G_0 \right] = \mathbb{E}_{s \sim \mu_0}[V^{\pi}(s)]
+\tag{6}
+$$
 
 where $V^{\pi}(s)$ is the state value function defined below.
 
@@ -65,43 +83,73 @@ The 1990s and 2000s produced the systematic mathematical foundations. [Bertsekas
 
 The state value function under a policy $\pi$ is the expected return from state $s$ under $\pi$,
 
-$$V^{\pi}(s) = \mathbb{E}_{\pi} \left[ G_t \mid s_t = s \right]$$
+$$
+V^{\pi}(s) = \mathbb{E}_{\pi} \left[ G_t \mid s_t = s \right]
+\tag{7}
+$$
 
 The action value function or Q function under $\pi$ is the expected return from state $s$ taking action $a$ and thereafter following $\pi$,
 
-$$Q^{\pi}(s, a) = \mathbb{E}_{\pi} \left[ G_t \mid s_t = s, a_t = a \right]$$
+$$
+Q^{\pi}(s, a) = \mathbb{E}_{\pi} \left[ G_t \mid s_t = s, a_t = a \right]
+\tag{8}
+$$
 
 The two are related by
 
-$$V^{\pi}(s) = \sum_a \pi(a \mid s) Q^{\pi}(s, a), \quad Q^{\pi}(s, a) = \mathbb{E}\!\left[r + \gamma V^{\pi}(s') \mid s, a\right]$$
+$$
+V^{\pi}(s) = \sum_a \pi(a \mid s) Q^{\pi}(s, a), \quad Q^{\pi}(s, a) = \mathbb{E}\!\left[r + \gamma V^{\pi}(s') \mid s, a\right]
+\tag{9}
+$$
 
 The advantage function
 
-$$A^{\pi}(s, a) = Q^{\pi}(s, a) - V^{\pi}(s)$$
+$$
+A^{\pi}(s, a) = Q^{\pi}(s, a) - V^{\pi}(s)
+\tag{10}
+$$
 
 captures the improvement of action $a$ over the policy-average action at state $s$ and is central to policy-gradient variance reduction.
 
 The Bellman expectation equation for the state value function is
 
-$$V^{\pi}(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi}(s') \right]$$
+$$
+V^{\pi}(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi}(s') \right]
+\tag{11}
+$$
 
 This is a linear system in $V^{\pi}$ over $\lvert \mathcal{S} \rvert$ unknowns and has a unique solution when $\gamma < 1$. In matrix form for finite MDPs, letting $\mathbf{V}^{\pi} \in \mathbb{R}^{\lvert \mathcal{S} \rvert}$ be the value vector, $\mathbf{R}^{\pi}$ the expected immediate reward vector under $\pi$, and $\mathbf{P}^{\pi}$ the $\lvert \mathcal{S} \rvert \times \lvert \mathcal{S} \rvert$ policy-induced transition matrix, the equation is
 
-$$\mathbf{V}^{\pi} = \mathbf{R}^{\pi} + \gamma \mathbf{P}^{\pi} \mathbf{V}^{\pi}$$
+$$
+\mathbf{V}^{\pi} = \mathbf{R}^{\pi} + \gamma \mathbf{P}^{\pi} \mathbf{V}^{\pi}
+\tag{12}
+$$
 
 which has the closed-form solution
 
-$$\mathbf{V}^{\pi} = (\mathbf{I} - \gamma \mathbf{P}^{\pi})^{-1} \mathbf{R}^{\pi}$$
+$$
+\mathbf{V}^{\pi} = (\mathbf{I} - \gamma \mathbf{P}^{\pi})^{-1} \mathbf{R}^{\pi}
+\tag{13}
+$$
 
 for $\gamma < 1$ where the inverse exists because $\gamma \mathbf{P}^{\pi}$ has spectral radius at most $\gamma$. The corresponding equation for $Q^{\pi}$ is
 
-$$Q^{\pi}(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \sum_{a'} \pi(a' \mid s') Q^{\pi}(s', a') \right]$$
+$$
+Q^{\pi}(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \sum_{a'} \pi(a' \mid s') Q^{\pi}(s', a') \right]
+\tag{14}
+$$
 
 The Bellman optimality equations characterize the optimal value functions $V^\*$ and $Q^\*$,
 
-$$V^*(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^*(s') \right]$$
+$$
+V^*(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^*(s') \right]
+\tag{15}
+$$
 
-$$Q^*(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \max_{a'} Q^*(s', a') \right]$$
+$$
+Q^*(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \max_{a'} Q^*(s', a') \right]
+\tag{16}
+$$
 
 An optimal policy $\pi^\*$ is any policy achieving $V^{\pi^\*} = V^\*$ at every state, equivalently any policy that at each state selects an action in $\arg\max_a Q^\*(s, a)$. Existence of optimal deterministic policies is guaranteed for finite MDPs under standard conditions.
 
@@ -109,21 +157,33 @@ An optimal policy $\pi^\*$ is any policy achieving $V^{\pi^\*} = V^\*$ at every 
 
 The Bellman expectation and optimality operators acting on value functions provide the theoretical foundation for the classical algorithms. Define the Bellman expectation operator under $\pi$,
 
-$$(T^{\pi} V)(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]$$
+$$
+(T^{\pi} V)(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]
+\tag{17}
+$$
 
 and the Bellman optimality operator,
 
-$$(T^* V)(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]$$
+$$
+(T^* V)(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]
+\tag{18}
+$$
 
 Both operators are $\gamma$-contractions on $\mathbb{R}^{\lvert \mathcal{S} \rvert}$ under the supremum norm,
 
-$$\| T^{\pi} V - T^{\pi} V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}, \quad \| T^* V - T^* V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}$$
+$$
+\| T^{\pi} V - T^{\pi} V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}, \quad \| T^* V - T^* V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}
+\tag{19}
+$$
 
 By the Banach fixed-point theorem, each operator has a unique fixed point that value iteration converges to at a geometric rate governed by $\gamma$. The fixed point of $T^{\pi}$ is $V^{\pi}$ and the fixed point of $T^\*$ is $V^\*$. The corresponding contraction property for the $Q$-value operators is analogous.
 
 The greedy policy with respect to a value function $V$ is the deterministic policy
 
-$$\pi_V(s) = \arg\max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]$$
+$$
+\pi_V(s) = \arg\max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]
+\tag{20}
+$$
 
 The policy improvement theorem states that if $\pi$ and $\pi'$ are two policies such that $Q^{\pi}(s, \pi'(s)) \geq V^{\pi}(s)$ for all $s$, then $V^{\pi'}(s) \geq V^{\pi}(s)$ for all $s$. In particular, the policy greedy with respect to $V^{\pi}$ is at least as good as $\pi$, providing the foundation for policy iteration.
 
@@ -133,17 +193,26 @@ When the MDP model $(P, R)$ is known, dynamic programming provides exact algorit
 
 Value iteration applies the Bellman optimality operator directly,
 
-$$V_{k+1}(s) = (T^* V_k)(s)$$
+$$
+V_{k+1}(s) = (T^* V_k)(s)
+\tag{21}
+$$
 
 converging to $V^\*$ from any initial $V_0$ at a rate
 
-$$\| V_k - V^* \|_{\infty} \leq \gamma^k \| V_0 - V^* \|_{\infty}$$
+$$
+\| V_k - V^* \|_{\infty} \leq \gamma^k \| V_0 - V^* \|_{\infty}
+\tag{22}
+$$
 
 by the contraction property. Value iteration produces an $\epsilon$-optimal value function in $\mathcal{O}(\log(1/\epsilon)/(1-\gamma))$ iterations.
 
 Policy iteration alternates policy evaluation, which solves the linear system $V^{\pi_k} = T^{\pi_k} V^{\pi_k}$ exactly for the current policy, and policy improvement, which sets
 
-$$\pi_{k+1}(s) = \arg\max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi_k}(s') \right]$$
+$$
+\pi_{k+1}(s) = \arg\max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi_k}(s') \right]
+\tag{23}
+$$
 
 Policy iteration converges to $\pi^\*$ in a finite number of iterations for finite MDPs, since each iteration strictly improves the policy or terminates. In practice policy iteration converges in a small number of iterations independent of state-space size for well-posed problems.
 
@@ -151,7 +220,10 @@ Modified policy iteration interpolates between value and policy iteration by per
 
 Linear programming provides an alternative exact solution method for finite MDPs. The optimal value function is the unique feasible solution of
 
-$$\min_{V} \sum_s \mu_0(s) V(s) \quad \text{subject to} \quad V(s) \geq \sum_{s', r} P(s', r \mid s, a) [r + \gamma V(s')] \; \forall s, a$$
+$$
+\min_{V} \sum_s \mu_0(s) V(s) \quad \text{subject to} \quad V(s) \geq \sum_{s', r} P(s', r \mid s, a) [r + \gamma V(s')] \; \forall s, a
+\tag{24}
+$$
 
 The dual formulation solves for occupation measures directly and connects to convex-optimization approaches to reinforcement learning treated in subsequent articles.
 
@@ -159,11 +231,17 @@ The dual formulation solves for occupation measures directly and connects to con
 
 Monte Carlo methods estimate value functions from sample episodes rather than from a known model. For episodic tasks, the first-visit Monte Carlo estimator of $V^{\pi}(s)$ averages returns following the first visit to state $s$ in each episode,
 
-$$\hat{V}^{\pi}_{\text{FV}}(s) = \frac{1}{|\text{Ep}(s)|} \sum_{i \in \text{Ep}(s)} G^{(i)}_{t^{(i)}_s}$$
+$$
+\hat{V}^{\pi}_{\text{FV}}(s) = \frac{1}{|\text{Ep}(s)|} \sum_{i \in \text{Ep}(s)} G^{(i)}_{t^{(i)}_s}
+\tag{25}
+$$
 
 where $\text{Ep}(s)$ is the set of episodes containing state $s$ and $t^{(i)}\_s$ is the time of first visit. The every-visit variant
 
-$$\hat{V}^{\pi}_{\text{EV}}(s) = \frac{1}{N(s)} \sum_{i} \sum_{t : s_t^{(i)} = s} G^{(i)}_{t}$$
+$$
+\hat{V}^{\pi}_{\text{EV}}(s) = \frac{1}{N(s)} \sum_{i} \sum_{t : s_t^{(i)} = s} G^{(i)}_{t}
+\tag{26}
+$$
 
 averages over all visits with $N(s)$ the total visit count and shares the same limit but with different finite-sample bias and variance. The first-visit estimator is unbiased for i.i.d. episodes, the every-visit estimator introduces bias from within-episode correlation between successive visits but often has lower variance.
 
@@ -173,19 +251,31 @@ The standard resolutions are the assumption of exploring starts, in which each e
 
 Off-policy Monte Carlo control learns about a target policy $\pi$ from data generated under a behavior policy $\mu$ via importance sampling. The per-episode importance sampling ratio for an episode of length $T$ is
 
-$$\rho_{0:T} = \prod_{t=0}^{T} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}$$
+$$
+\rho_{0:T} = \prod_{t=0}^{T} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
+\tag{27}
+$$
 
 and the ordinary importance-sampling estimator of $V^{\pi}(s)$ is
 
-$$\hat{V}^{\pi}_{\text{OIS}}(s) = \frac{\sum_i \rho^{(i)} G^{(i)}}{|\text{Ep}(s)|}$$
+$$
+\hat{V}^{\pi}_{\text{OIS}}(s) = \frac{\sum_i \rho^{(i)} G^{(i)}}{|\text{Ep}(s)|}
+\tag{28}
+$$
 
 which is unbiased but often has infinite or unbounded variance. The weighted importance-sampling estimator
 
-$$\hat{V}^{\pi}_{\text{WIS}}(s) = \frac{\sum_i \rho^{(i)} G^{(i)}}{\sum_i \rho^{(i)}}$$
+$$
+\hat{V}^{\pi}_{\text{WIS}}(s) = \frac{\sum_i \rho^{(i)} G^{(i)}}{\sum_i \rho^{(i)}}
+\tag{29}
+$$
 
 is biased but often has substantially lower variance and is consistent under standard conditions. Per-decision importance sampling reduces variance further by using per-transition ratios only over the relevant portion of the trajectory,
 
-$$\hat{V}^{\pi}_{\text{PD}}(s_t) = \mathbb{E}_\mu\!\left[\sum_{k=t}^{T} \gamma^{k-t} \rho_{t:k-1} r_{k+1}\right]$$
+$$
+\hat{V}^{\pi}_{\text{PD}}(s_t) = \mathbb{E}_\mu\!\left[\sum_{k=t}^{T} \gamma^{k-t} \rho_{t:k-1} r_{k+1}\right]
+\tag{30}
+$$
 
 with $\rho_{t:k-1} = \prod_{j=t}^{k-1} \pi(a_j \mid s_j) / \mu(a_j \mid s_j)$.
 
@@ -193,17 +283,26 @@ with $\rho_{t:k-1} = \prod_{j=t}^{k-1} \pi(a_j \mid s_j) / \mu(a_j \mid s_j)$.
 
 Temporal-difference learning combines the sample-based character of Monte Carlo methods with the bootstrapping character of dynamic programming. The one-step TD update, called TD(0), applies the update
 
-$$V(s_t) \leftarrow V(s_t) + \alpha \left[ r_{t+1} + \gamma V(s_{t+1}) - V(s_t) \right]$$
+$$
+V(s_t) \leftarrow V(s_t) + \alpha \left[ r_{t+1} + \gamma V(s_{t+1}) - V(s_t) \right]
+\tag{31}
+$$
 
 after each transition. The TD error
 
-$$\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$$
+$$
+\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)
+\tag{32}
+$$
 
 is the fundamental quantity driving both prediction and control algorithms in the value-based family.
 
 TD(0) is guaranteed to converge to $V^{\pi}$ under linear function approximation and mild step-size conditions, with the tabular case as a special case of this result. The Robbins-Monro conditions require
 
-$$\sum_{t=0}^{\infty} \alpha_t = \infty, \quad \sum_{t=0}^{\infty} \alpha_t^2 < \infty$$
+$$
+\sum_{t=0}^{\infty} \alpha_t = \infty, \quad \sum_{t=0}^{\infty} \alpha_t^2 < \infty
+\tag{33}
+$$
 
 for step-size sequences $\alpha_t$ that decay appropriately.
 
@@ -211,7 +310,10 @@ TD versus Monte Carlo trades off bias and variance. Monte Carlo estimates are un
 
 The $n$-step TD return
 
-$$G_t^{(n)} = r_{t+1} + \gamma r_{t+2} + \cdots + \gamma^{n-1} r_{t+n} + \gamma^n V(s_{t+n})$$
+$$
+G_t^{(n)} = r_{t+1} + \gamma r_{t+2} + \cdots + \gamma^{n-1} r_{t+n} + \gamma^n V(s_{t+n})
+\tag{34}
+$$
 
 interpolates between one-step TD ($n=1$) and Monte Carlo ($n$ equal to episode length). The $n$-step update replaces $V(s_{t+1})$ in TD(0) with $G_t^{(n)}$.
 
@@ -219,29 +321,44 @@ interpolates between one-step TD ($n=1$) and Monte Carlo ($n$ equal to episode l
 
 Q-learning is the canonical off-policy TD control algorithm. The one-step Q-learning update after transition $(s_t, a_t, r_{t+1}, s_{t+1})$ is
 
-$$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t) \right]$$
+$$
+Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t) \right]
+\tag{35}
+$$
 
 The target uses the maximum $Q$ over next actions rather than the action actually selected, making the update off-policy. Q-learning learns about the greedy policy regardless of which policy generated the data. [Watkins and Dayan 1992][research_watkins_dayan_1992] proved that Q-learning converges to $Q^\*$ almost surely under standard conditions on the step-size and the visitation of state-action pairs.
 
 SARSA is the on-policy analogue, using the actually-selected next action in the target,
 
-$$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t) \right]$$
+$$
+Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t) \right]
+\tag{36}
+$$
 
 named for the tuple $(s_t, a_t, r_{t+1}, s_{t+1}, a_{t+1})$ appearing in the update. SARSA was introduced by [Rummery and Niranjan 1994][research_rummery_niranjan_1994] and converges to the $Q$ function of the greedy-in-the-limit policy under standard exploration conditions.
 
 Expected SARSA replaces the sample $Q(s_{t+1}, a_{t+1})$ with its expectation under the current policy,
 
-$$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \sum_{a'} \pi(a' \mid s_{t+1}) Q(s_{t+1}, a') - Q(s_t, a_t) \right]$$
+$$
+Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \sum_{a'} \pi(a' \mid s_{t+1}) Q(s_{t+1}, a') - Q(s_t, a_t) \right]
+\tag{37}
+$$
 
 reducing variance at the cost of slightly greater computation per update.
 
 Double Q-learning [van Hasselt 2010][research_van_hasselt_2010] addresses the overestimation bias in Q-learning by maintaining two independent estimators $Q_A$ and $Q_B$ and using each to select the maximizing action for the target of the other. On each update, with probability one-half the update is
 
-$$Q_A(s_t, a_t) \leftarrow Q_A(s_t, a_t) + \alpha \left[r_{t+1} + \gamma Q_B(s_{t+1}, \arg\max_{a'} Q_A(s_{t+1}, a')) - Q_A(s_t, a_t)\right]$$
+$$
+Q_A(s_t, a_t) \leftarrow Q_A(s_t, a_t) + \alpha \left[r_{t+1} + \gamma Q_B(s_{t+1}, \arg\max_{a'} Q_A(s_{t+1}, a')) - Q_A(s_t, a_t)\right]
+\tag{38}
+$$
 
 and with probability one-half the roles of $Q_A$ and $Q_B$ are swapped. The mechanism removes the systematic upward bias in max-based estimators over noisy samples,
 
-$$\mathbb{E}[\max_a Q(s, a)] \geq \max_a \mathbb{E}[Q(s, a)]$$
+$$
+\mathbb{E}[\max_a Q(s, a)] \geq \max_a \mathbb{E}[Q(s, a)]
+\tag{39}
+$$
 
 with equality only when the estimates are exact.
 
@@ -253,13 +370,19 @@ Value-based and policy-gradient methods both require an exploration strategy to 
 
 The $\epsilon$-greedy strategy selects a uniform random action with probability $\epsilon$ and the greedy action otherwise,
 
-$$\pi(a \mid s) = \begin{cases} 1 - \epsilon + \epsilon / |\mathcal{A}| & \text{if } a = \arg\max_{a'} Q(s, a') \\ \epsilon / |\mathcal{A}| & \text{otherwise} \end{cases}$$
+$$
+\pi(a \mid s) = \begin{cases} 1 - \epsilon + \epsilon / |\mathcal{A}| & \text{if } a = \arg\max_{a'} Q(s, a') \\ \epsilon / |\mathcal{A}| & \text{otherwise} \end{cases}
+\tag{40}
+$$
 
 Under decaying schedules $\epsilon_t \to 0$ with $\sum \epsilon_t = \infty$, $\epsilon$-greedy Q-learning converges to $Q^\*$ in the tabular case and provides a widely-used baseline for control experiments.
 
 Boltzmann exploration, also called softmax exploration, weights actions by the exponential of their $Q$-values with temperature parameter $\tau$,
 
-$$\pi(a \mid s) = \frac{\exp(Q(s, a) / \tau)}{\sum_{a'} \exp(Q(s, a') / \tau)}$$
+$$
+\pi(a \mid s) = \frac{\exp(Q(s, a) / \tau)}{\sum_{a'} \exp(Q(s, a') / \tau)}
+\tag{41}
+$$
 
 The temperature $\tau$ interpolates between uniform ($\tau \to \infty$) and greedy ($\tau \to 0$) exploration. Softmax provides smoother action selection than $\epsilon$-greedy and is preferred when $Q$-value differences carry meaningful information beyond just the ordering.
 
@@ -267,13 +390,19 @@ Optimistic initialization sets $Q(s, a) = Q_{\max}$ for all state-action pairs a
 
 Entropy regularization augments the policy gradient objective with a policy entropy term,
 
-$$J_{\text{ent}}(\theta) = J(\theta) + \beta \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[H(\pi_\theta(\cdot \mid s))\right]$$
+$$
+J_{\text{ent}}(\theta) = J(\theta) + \beta \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[H(\pi_\theta(\cdot \mid s))\right]
+\tag{42}
+$$
 
 where $H(\pi(\cdot \mid s)) = -\sum_a \pi(a \mid s) \log \pi(a \mid s)$ is the Shannon entropy. The entropy bonus prevents premature convergence to deterministic suboptimal policies and provides a smoothed maximum-entropy formulation that underlies soft actor-critic and related maximum-entropy methods treated in article four.
 
 Count-based exploration bonuses reward visitation of infrequently-observed state-action pairs, adding to the reward
 
-$$r^{\text{expl}}(s, a) = \beta / \sqrt{N(s, a)}$$
+$$
+r^{\text{expl}}(s, a) = \beta / \sqrt{N(s, a)}
+\tag{43}
+$$
 
 for visit count $N(s, a)$. The bonus is the value-based analogue of the UCB confidence radius from article two and provides asymptotically optimal exploration under suitable conditions. Article five extends these ideas to structured environments where naive count-based exploration fails.
 
@@ -281,17 +410,26 @@ for visit count $N(s, a)$. The bonus is the value-based analogue of the UCB conf
 
 Eligibility traces provide an efficient mechanism for propagating credit backward through time. The forward view of TD($\lambda$) defines the $\lambda$-return
 
-$$G_t^{\lambda} = (1 - \lambda) \sum_{n=1}^{\infty} \lambda^{n-1} G_t^{(n)}$$
+$$
+G_t^{\lambda} = (1 - \lambda) \sum_{n=1}^{\infty} \lambda^{n-1} G_t^{(n)}
+\tag{44}
+$$
 
 which is a geometrically-weighted average of the $n$-step returns for $\lambda \in [0, 1]$. For $\lambda = 0$ this recovers TD(0), for $\lambda = 1$ it recovers Monte Carlo.
 
 The backward view maintains an eligibility trace $e_t(s)$ for each state,
 
-$$e_t(s) = \gamma \lambda e_{t-1}(s) + \mathbb{1}\{s_t = s\}$$
+$$
+e_t(s) = \gamma \lambda e_{t-1}(s) + \mathbb{1}\{s_t = s\}
+\tag{45}
+$$
 
 and updates all state values in proportion to their eligibility on each TD error,
 
-$$V(s) \leftarrow V(s) + \alpha \delta_t e_t(s) \quad \forall s$$
+$$
+V(s) \leftarrow V(s) + \alpha \delta_t e_t(s) \quad \forall s
+\tag{46}
+$$
 
 The forward and backward views are equivalent in expectation and produce identical updates over episodes. The backward view is computationally efficient because it operates online with $\mathcal{O}(\lvert \mathcal{S} \rvert)$ storage rather than requiring the full trajectory to be observed before updates begin.
 
@@ -301,25 +439,40 @@ Watkins's Q($\lambda$) and [Peng and Williams 1996][research_peng_williams_1996]
 
 Policy gradient methods parameterize the policy directly as $\pi_\theta$ and optimize the expected return $J(\theta)$ by gradient ascent on $\theta$. The policy gradient theorem [Sutton et al. 1999][research_sutton_mcallester_singh_mansour_2000] gives
 
-$$\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta}, a \sim \pi_\theta}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) \, Q^{\pi_\theta}(s, a) \right]$$
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta}, a \sim \pi_\theta}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) \, Q^{\pi_\theta}(s, a) \right]
+\tag{47}
+$$
 
 where $d^{\pi_\theta}(s) = \sum_{t=0}^{\infty} \gamma^t p^{\pi_\theta}(s_t = s)$ is the discounted state distribution under $\pi_\theta$. The gradient does not require differentiation through the transition kernel, only through the policy, which permits treatment of unknown or non-differentiable environments.
 
 The REINFORCE algorithm of [Williams 1992][research_williams_1992] implements policy gradient with a Monte Carlo return estimate,
 
-$$\theta_{t+1} = \theta_t + \alpha \sum_{k=t}^{T} \nabla_\theta \log \pi_\theta(a_k \mid s_k) G_k$$
+$$
+\theta_{t+1} = \theta_t + \alpha \sum_{k=t}^{T} \nabla_\theta \log \pi_\theta(a_k \mid s_k) G_k
+\tag{48}
+$$
 
 Variance reduction subtracts a state-dependent baseline $b(s_t)$ from the return,
 
-$$\theta_{t+1} = \theta_t + \alpha \sum_{k=t}^{T} \nabla_\theta \log \pi_\theta(a_k \mid s_k) \left[G_k - b(s_k)\right]$$
+$$
+\theta_{t+1} = \theta_t + \alpha \sum_{k=t}^{T} \nabla_\theta \log \pi_\theta(a_k \mid s_k) \left[G_k - b(s_k)\right]
+\tag{49}
+$$
 
 which does not change the expectation. Using $b(s) = V^{\pi_\theta}(s)$ yields the advantage form
 
-$$\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) A^{\pi_\theta}(s, a) \right]$$
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) A^{\pi_\theta}(s, a) \right]
+\tag{50}
+$$
 
 The natural policy gradient of [Kakade 2001][research_kakade_2001] preconditions the gradient by the inverse Fisher information matrix
 
-$$F(\theta) = \mathbb{E}_{s, a}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) \nabla_\theta \log \pi_\theta(a \mid s)^\top \right]$$
+$$
+F(\theta) = \mathbb{E}_{s, a}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) \nabla_\theta \log \pi_\theta(a \mid s)^\top \right]
+\tag{51}
+$$
 
 yielding the update $\theta \leftarrow \theta + \alpha F(\theta)^{-1} \nabla_\theta J(\theta)$. Natural gradient corrects for the parameterization-dependence of the plain gradient and provides invariance to policy reparameterization. [Peters and Schaal 2008][research_peters_schaal_2008] developed the natural-actor-critic algorithm for robotics applications, and [Bhatnagar et al. 2009][research_bhatnagar_et_al_2009] provided convergence-guaranteed natural actor-critic algorithms with function approximation. Trust-region and proximal policy optimization treated in article four build on the natural-gradient framework.
 
@@ -331,23 +484,35 @@ Actor-critic algorithms combine a parameterized policy (the actor) with a parame
 
 The advantage actor-critic update uses
 
-$$\theta \leftarrow \theta + \alpha_\theta \nabla_\theta \log \pi_\theta(a_t \mid s_t) \left[r_{t+1} + \gamma V_w(s_{t+1}) - V_w(s_t)\right]$$
+$$
+\theta \leftarrow \theta + \alpha_\theta \nabla_\theta \log \pi_\theta(a_t \mid s_t) \left[r_{t+1} + \gamma V_w(s_{t+1}) - V_w(s_t)\right]
+\tag{52}
+$$
 
 where the bracketed quantity is a one-step advantage estimate. The critic parameters $w$ are updated by TD(0) on the value function,
 
-$$w \leftarrow w + \alpha_w \left[r_{t+1} + \gamma V_w(s_{t+1}) - V_w(s_t)\right] \nabla_w V_w(s_t)$$
+$$
+w \leftarrow w + \alpha_w \left[r_{t+1} + \gamma V_w(s_{t+1}) - V_w(s_t)\right] \nabla_w V_w(s_t)
+\tag{53}
+$$
 
 The two updates operate on different timescales, with $\alpha_w \gg \alpha_\theta$ ensuring the critic tracks the current policy sufficiently well. [Konda and Tsitsiklis 1999][research_konda_tsitsiklis_2000] proved convergence for linear function-approximation actor-critic under standard timescale-separation and step-size conditions.
 
 Deterministic policy gradient of [Silver et al. 2014][research_silver_et_al_2014] treats continuous action spaces with a deterministic policy $\pi_\theta : \mathcal{S} \to \mathcal{A}$. The deterministic policy gradient theorem gives
 
-$$\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[ \nabla_\theta \pi_\theta(s) \nabla_a Q^{\pi_\theta}(s, a) \big|_{a = \pi_\theta(s)} \right]$$
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[ \nabla_\theta \pi_\theta(s) \nabla_a Q^{\pi_\theta}(s, a) \big|_{a = \pi_\theta(s)} \right]
+\tag{54}
+$$
 
 avoiding the score-function trick required for stochastic policies. The deterministic policy gradient underlies the DDPG algorithm treated in article four.
 
 Generalized advantage estimation of [Schulman et al. 2015][research_schulman_moritz_levine_jordan_abbeel_2016] interpolates between one-step and Monte Carlo advantage estimates using a $\lambda$ parameter analogous to TD($\lambda$). The GAE advantage is
 
-$$\hat{A}^{\text{GAE}(\gamma, \lambda)}_t = \sum_{l=0}^{\infty} (\gamma \lambda)^l \delta_{t+l}$$
+$$
+\hat{A}^{\text{GAE}(\gamma, \lambda)}_t = \sum_{l=0}^{\infty} (\gamma \lambda)^l \delta_{t+l}
+\tag{55}
+$$
 
 where $\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$ is the one-step TD residual. Setting $\lambda = 0$ recovers the one-step advantage and $\lambda = 1$ recovers Monte Carlo, with intermediate values trading bias for variance in the advantage estimate used in policy-gradient updates.
 
@@ -355,15 +520,24 @@ where $\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$ is the one-step TD resid
 
 Function approximation is required when the state space is large or continuous. Linear function approximation represents value as
 
-$$V_w(s) = \phi(s)^\top w = \sum_i \phi_i(s) w_i$$
+$$
+V_w(s) = \phi(s)^\top w = \sum_i \phi_i(s) w_i
+\tag{56}
+$$
 
 for feature vector $\phi(s) \in \mathbb{R}^d$ and weight vector $w \in \mathbb{R}^d$. The corresponding TD(0) update becomes
 
-$$w \leftarrow w + \alpha \delta_t \phi(s_t)$$
+$$
+w \leftarrow w + \alpha \delta_t \phi(s_t)
+\tag{57}
+$$
 
 where $\delta_t$ is the TD error computed with $V_w$. This is stochastic gradient descent on a modified least-squares objective, not on true mean-squared value error, and the resulting fixed point is the solution of a projected Bellman equation
 
-$$w = \Pi_{\phi} T^{\pi} V_w$$
+$$
+w = \Pi_{\phi} T^{\pi} V_w
+\tag{58}
+$$
 
 where $\Pi_\phi$ is the projection onto the space spanned by the features under the on-policy state distribution.
 
@@ -371,7 +545,10 @@ The linear TD fixed point exists and is unique for on-policy learning under stan
 
 Least-squares TD (LSTD) of [Bradtke and Barto 1996][research_bradtke_barto_1996] solves the projected Bellman equation directly,
 
-$$w = A^{-1} b$$
+$$
+w = A^{-1} b
+\tag{59}
+$$
 
 where $A = \Phi^\top D_\pi (\Phi - \gamma P^{\pi} \Phi)$ and $b = \Phi^\top D_\pi R^{\pi}$, with $\Phi$ the feature matrix and $D_\pi$ the on-policy state-visitation diagonal matrix. LSTD converges in $\mathcal{O}(d^2)$ storage and $\mathcal{O}(d^3)$ computation per solve, making it efficient for moderate $d$.
 
@@ -385,11 +562,17 @@ Fitted methods approach reinforcement learning as a sequence of supervised learn
 
 Fitted value iteration of [Gordon 1995][research_gordon_1995] and [Munos and Szepesvári 2008][research_munos_szepesvari_2008] iteratively fits a value function to targets computed by applying the Bellman optimality operator to samples,
 
-$$V_{k+1} = \arg\min_{V \in \mathcal{F}} \sum_{i=1}^n \left(V(s_i) - (T^* V_k)(s_i)\right)^2$$
+$$
+V_{k+1} = \arg\min_{V \in \mathcal{F}} \sum_{i=1}^n \left(V(s_i) - (T^* V_k)(s_i)\right)^2
+\tag{60}
+$$
 
 for a function class $\mathcal{F}$. Fitted Q iteration of [Ernst et al. 2005][research_ernst_geurts_wehenkel_2005] extends the approach to the action-value case,
 
-$$Q_{k+1} = \arg\min_{Q \in \mathcal{F}} \sum_{i=1}^n \left(Q(s_i, a_i) - (r_i + \gamma \max_{a'} Q_k(s_i', a'))\right)^2$$
+$$
+Q_{k+1} = \arg\min_{Q \in \mathcal{F}} \sum_{i=1}^n \left(Q(s_i, a_i) - (r_i + \gamma \max_{a'} Q_k(s_i', a'))\right)^2
+\tag{61}
+$$
 
 using ensemble tree learners as the function class. Neural fitted Q iteration of [Riedmiller 2005][research_riedmiller_2005] used neural networks as the function class and provided a direct precursor to deep Q-networks. The fitted approach cleanly separates the two challenges of reinforcement learning (defining targets and fitting them) at the cost of substantially higher per-iteration computation than online TD updates.
 
@@ -403,17 +586,26 @@ The mathematical cause is that the projected Bellman operator $\Pi_\phi T^{\pi}$
 
 Gradient-TD methods of [Sutton et al. 2009][research_sutton_maei_precup_2009] modify the TD update to descend on a true objective function that guarantees convergence in the off-policy linear setting. The mean-squared projected Bellman error
 
-$$\text{MSPBE}(w) = \| \Pi_\phi (T^{\pi} V_w - V_w) \|_{D_\mu}^2$$
+$$
+\text{MSPBE}(w) = \| \Pi_\phi (T^{\pi} V_w - V_w) \|_{D_\mu}^2
+\tag{62}
+$$
 
 serves as the objective function, and the TDC update rule is
 
-$$w \leftarrow w + \alpha \left[\delta_t \phi_t - \gamma \phi_{t+1} (\phi_t^\top h_t)\right], \quad h \leftarrow h + \beta \left[\delta_t - \phi_t^\top h_t\right] \phi_t$$
+$$
+w \leftarrow w + \alpha \left[\delta_t \phi_t - \gamma \phi_{t+1} (\phi_t^\top h_t)\right], \quad h \leftarrow h + \beta \left[\delta_t - \phi_t^\top h_t\right] \phi_t
+\tag{63}
+$$
 
 where $h$ is an auxiliary weight vector that estimates the linear part of the correction. GTD, TDC, and GTD2 provide alternative gradient corrections, differing in their asymptotic bias and finite-sample behavior.
 
 Emphatic TD of [Sutton et al. 2016][research_sutton_mahmood_white_2016] weights TD updates by an emphasis quantity
 
-$$M_t = \lambda I_t + (1 - \lambda) F_t$$
+$$
+M_t = \lambda I_t + (1 - \lambda) F_t
+\tag{64}
+$$
 
 where $I_t$ is an interest function and $F_t = \gamma \rho_{t-1} F_{t-1} + I_t$ is a followon trace. Deep reinforcement learning generally accepts the deadly triad and manages its instability through empirical mechanisms such as target networks and experience replay rather than through the classical gradient-TD analytical framework.
 
@@ -423,11 +615,17 @@ The convergence theory of reinforcement learning algorithms rests on the general
 
 The ODE method of [Kushner and Clark 1978][book_kushner_clark_1978] associates the stochastic iteration
 
-$$w_{t+1} = w_t + \alpha_t h(w_t, \xi_{t+1})$$
+$$
+w_{t+1} = w_t + \alpha_t h(w_t, \xi_{t+1})
+\tag{65}
+$$
 
 with the deterministic differential equation
 
-$$\dot{w}(t) = \bar{h}(w(t)) = \mathbb{E}[h(w, \xi)]$$
+$$
+\dot{w}(t) = \bar{h}(w(t)) = \mathbb{E}[h(w, \xi)]
+\tag{66}
+$$
 
 so that under standard conditions the iterates track the ODE trajectory. When the ODE has a globally asymptotically stable equilibrium $w^\*$, the stochastic iterates converge to $w^\*$ almost surely.
 
@@ -445,13 +643,19 @@ The sample complexity of reinforcement learning is the number of environment int
 
 The E3 algorithm of [Kearns and Singh 2002][research_kearns_singh_2002] and the R-MAX algorithm of [Brafman and Tennenholtz 2002][research_brafman_tennenholtz_2002] achieve PAC-MDP guarantees for finite MDPs with sample complexity polynomial in $\lvert \mathcal{S} \rvert$, $\lvert \mathcal{A} \rvert$, and $1/(1-\gamma)$. The R-MAX sample complexity bound has the form
 
-$$\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}|^2 |\mathcal{A}|}{\epsilon^3 (1-\gamma)^6} \log(1/\delta)\right)$$
+$$
+\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}|^2 |\mathcal{A}|}{\epsilon^3 (1-\gamma)^6} \log(1/\delta)\right)
+\tag{67}
+$$
 
 for producing an $\epsilon$-optimal policy with probability at least $1 - \delta$. Both algorithms use the principle of optimism in the face of uncertainty. Unknown states are treated as maximally rewarding, encouraging exploration to reduce their uncertainty.
 
 Regret-based analysis of finite MDPs began with the UCRL2 algorithm of [Jaksch et al. 2010][research_jaksch_ortner_auer_2010] and its successors, building on [Auer and Ortner 2006][research_auer_ortner_2007] earlier logarithmic regret bounds. UCRL2 maintains confidence sets over transition and reward parameters and follows optimistic policies with respect to those sets. The regret bound
 
-$$R_T = \tilde{\mathcal{O}}(D \sqrt{|\mathcal{S}| |\mathcal{A}| T})$$
+$$
+R_T = \tilde{\mathcal{O}}(D \sqrt{|\mathcal{S}| |\mathcal{A}| T})
+\tag{68}
+$$
 
 involves the diameter $D$ of the MDP, the state and action-space sizes, and the horizon $T$. The minimax lower bound of [Azar et al. 2017][research_azar_osband_munos_2017] establishes $\Omega(\sqrt{H \lvert \mathcal{S} \rvert \lvert \mathcal{A} \rvert T})$ for finite-horizon MDPs, and their UCBVI algorithm matches this bound. Posterior sampling for reinforcement learning of [Osband et al. 2013][research_osband_van_roy_2013] extends Thompson sampling from bandits to MDPs and achieves Bayesian regret bounds of similar order under the Bayesian setting.
 
@@ -459,7 +663,10 @@ Model-based interval estimation with exploration bonuses of [Strehl et al. 2009]
 
 Reward shaping can substantially reduce sample complexity when auxiliary reward information is available. Potential-based reward shaping of [Ng et al. 1999][research_ng_harada_russell_1999] modifies the reward function to
 
-$$r'(s, a, s') = r(s, a, s') + \gamma \Phi(s') - \Phi(s)$$
+$$
+r'(s, a, s') = r(s, a, s') + \gamma \Phi(s') - \Phi(s)
+\tag{69}
+$$
 
 for an arbitrary potential function $\Phi : \mathcal{S} \to \mathbb{R}$. The transformation preserves the optimal policy exactly while shaping the effective sparsity of the reward signal, addressing the well-known difficulty of learning under sparse rewards. The theoretical framework and its extensions have proved influential for practical applications where reward-signal engineering meaningfully reduces sample complexity. Hindsight experience replay of [Andrychowicz et al. 2017][research_andrychowicz_et_al_2017] extends the reward-shaping idea by relabeling failed goal-reaching episodes with the actually-achieved outcomes, treating each trajectory as an off-policy demonstration for the corresponding hindsight goal.
 
@@ -467,17 +674,26 @@ for an arbitrary potential function $\Phi : \mathcal{S} \to \mathbb{R}$. The tra
 
 Off-policy learning enables value estimation and policy improvement from data generated under a policy different from the target policy. The importance-sampling ratio between target policy $\pi$ and behavior policy $\mu$ over a length-$T$ trajectory is
 
-$$\rho_{0:T-1} = \prod_{t=0}^{T-1} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}$$
+$$
+\rho_{0:T-1} = \prod_{t=0}^{T-1} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
+\tag{70}
+$$
 
 Per-decision importance sampling improves variance by using ratios only over the relevant portion of the trajectory. Weighted importance sampling normalizes by the sum of ratios rather than the count.
 
 The variance of importance sampling estimators grows exponentially with the trajectory length in the worst case,
 
-$$\text{Var}[\rho_{0:T-1} G] = \mathcal{O}\!\left(\left(\frac{\pi_{\max}}{\mu_{\min}}\right)^{2T}\right)$$
+$$
+\text{Var}[\rho_{0:T-1} G] = \mathcal{O}\!\left(\left(\frac{\pi_{\max}}{\mu_{\min}}\right)^{2T}\right)
+\tag{71}
+$$
 
 which is the fundamental sample-complexity obstacle to off-policy learning at long horizons. Doubly robust estimators of [Jiang and Li 2016][research_jiang_li_2016] combine importance sampling with model-based value estimates to control variance,
 
-$$\hat{V}^{\pi}_{\text{DR}}(s) = \hat{V}^{\pi}_{\text{model}}(s) + \mathbb{E}_\mu\!\left[\rho\!\left(G - \hat{V}^{\pi}_{\text{model}}(s)\right)\right]$$
+$$
+\hat{V}^{\pi}_{\text{DR}}(s) = \hat{V}^{\pi}_{\text{model}}(s) + \mathbb{E}_\mu\!\left[\rho\!\left(G - \hat{V}^{\pi}_{\text{model}}(s)\right)\right]
+\tag{72}
+$$
 
 where $\hat{V}^{\pi}\_{\text{model}}$ is a model-based value estimate and the importance-sampling term serves as a correction that is unbiased whenever either the model or the importance-sampling estimate is correct.
 
@@ -489,7 +705,10 @@ Model-based methods learn or maintain an internal model of the environment and u
 
 The most direct model-based approach is certainty equivalence. Fit the maximum-likelihood transition and reward parameters from data,
 
-$$\hat{P}(s' \mid s, a) = \frac{N(s, a, s')}{N(s, a)}, \quad \hat{R}(s, a) = \frac{\sum_i r_i \mathbb{1}\{s_i = s, a_i = a\}}{N(s, a)}$$
+$$
+\hat{P}(s' \mid s, a) = \frac{N(s, a, s')}{N(s, a)}, \quad \hat{R}(s, a) = \frac{\sum_i r_i \mathbb{1}\{s_i = s, a_i = a\}}{N(s, a)}
+\tag{73}
+$$
 
 and solve for $\hat{\pi}^\*$ using value or policy iteration on $\hat{P}$ and $\hat{R}$. The strategy is optimal in the limit of infinite data and provides finite-sample guarantees under suitable conditions.
 
@@ -503,7 +722,10 @@ Model-based methods offer sample-complexity advantages over model-free methods w
 
 Distributional reinforcement learning replaces the expected return $V^{\pi}$ with the return distribution $Z^{\pi}$,
 
-$$Z^{\pi}(s, a) \stackrel{D}{=} R(s, a, s') + \gamma Z^{\pi}(s', a')$$
+$$
+Z^{\pi}(s, a) \stackrel{D}{=} R(s, a, s') + \gamma Z^{\pi}(s', a')
+\tag{74}
+$$
 
 as a random variable rather than its scalar mean. The distributional Bellman operator applied to a return-distribution estimate produces a target distribution that the estimator regresses against.
 
@@ -515,17 +737,26 @@ Beyond the immediate algorithmic gains, distributional methods provide the natur
 
 For continuing tasks in which episode boundaries are absent or artificial, the average-reward formulation replaces the discounted objective by
 
-$$J_{\text{avg}}(\pi) = \lim_{T \to \infty} \frac{1}{T} \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{T-1} r_{t+1}\right]$$
+$$
+J_{\text{avg}}(\pi) = \lim_{T \to \infty} \frac{1}{T} \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{T-1} r_{t+1}\right]
+\tag{75}
+$$
 
 Under ergodicity of the induced Markov chain, this limit exists and equals $\sum_s d^{\pi}(s) \sum_a \pi(a \mid s) r(s, a)$ where $d^{\pi}$ is the stationary distribution.
 
 The differential value function
 
-$$\tilde{V}^{\pi}(s) = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} (r_{t+1} - J_{\text{avg}}(\pi)) \mid s_0 = s\right]$$
+$$
+\tilde{V}^{\pi}(s) = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} (r_{t+1} - J_{\text{avg}}(\pi)) \mid s_0 = s\right]
+\tag{76}
+$$
 
 replaces the discounted value function, and the differential Bellman equation
 
-$$\tilde{V}^{\pi}(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[r - J_{\text{avg}}(\pi) + \tilde{V}^{\pi}(s')\right]$$
+$$
+\tilde{V}^{\pi}(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[r - J_{\text{avg}}(\pi) + \tilde{V}^{\pi}(s')\right]
+\tag{77}
+$$
 
 provides the recursive structure. Differential Q-learning and differential SARSA extend the tabular algorithms.
 
@@ -535,7 +766,10 @@ Average-reward methods are theoretically preferable for continuing tasks where d
 
 The reinforcement learning apparatus has striking parallels in neuroscience. [Schultz et al. 1997][research_schultz_dayan_montague_1997] identified midbrain dopamine neurons as encoding a temporal-difference reward prediction error
 
-$$\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$$
+$$
+\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)
+\tag{78}
+$$
 
 with quantitative correspondence between dopamine spike responses and TD error predictions across a range of behavioral tasks. This finding launched the modern field of computational neuroscience of reward learning and provided the empirical foundation for treating temporal-difference learning as a candidate algorithmic account of animal learning. [O'Doherty et al. 2004][research_odoherty_et_al_2004] demonstrated the analogous TD-like signals in human ventral striatum using functional magnetic resonance imaging, and [Bayer and Glimcher 2005][research_bayer_glimcher_2005] provided quantitative single-neuron recordings in primates that established the fine-grained correspondence between dopamine firing and the TD prediction error. The [Niv 2009][research_niv_2009] review synthesized the reinforcement-learning-in-the-brain literature at the state of the art of the late 2000s.
 
@@ -547,7 +781,10 @@ The Rescorla-Wagner model of classical conditioning corresponds exactly to a sin
 
 The successor representation of [Dayan 1993][research_dayan_1993] provides a distinctive value-function factorization that has since informed both machine learning and neuroscience. The successor representation is the matrix
 
-$$M^{\pi}(s, s') = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} \gamma^t \mathbb{1}\{s_t = s'\} \mid s_0 = s\right]$$
+$$
+M^{\pi}(s, s') = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} \gamma^t \mathbb{1}\{s_t = s'\} \mid s_0 = s\right]
+\tag{79}
+$$
 
 giving the expected discounted future visitation of state $s'$ starting from state $s$ under policy $\pi$. The value function factors as $V^{\pi}(s) = \sum_{s'} M^{\pi}(s, s') R(s')$, decomposing value into the state-visitation structure and the reward structure. The factorization is efficient when reward changes but transitions do not, since only $R$ needs to be relearned. Neural evidence for successor-representation-like structure in the hippocampus [Stachenfeld et al. 2017][research_stachenfeld_botvinick_gershman_2017] has made the successor representation a load-bearing bridge concept between reinforcement learning and neuroscience.
 
@@ -577,11 +814,17 @@ The core algorithmic templates persist. Deep Q-networks are Q-learning with neur
 
 Two developments enable the transition to deep neural function approximation. Experience replay of [Lin 1992][research_lin_1992] decouples the temporal correlation of successive updates, permitting stochastic-gradient-descent-based optimization to converge in practice. Target networks introduced by [Mnih et al. 2015][research_mnih_et_al_2015] stabilize the bootstrapping target by holding a slower-updated copy of the value function. The target network update rule is either a hard periodic copy
 
-$$\theta^{-} \leftarrow \theta \quad \text{every } C \text{ steps}$$
+$$
+\theta^{-} \leftarrow \theta \quad \text{every } C \text{ steps}
+\tag{80}
+$$
 
 or a soft Polyak-averaged update
 
-$$\theta^{-} \leftarrow \tau \theta + (1 - \tau) \theta^{-}$$
+$$
+\theta^{-} \leftarrow \tau \theta + (1 - \tau) \theta^{-}
+\tag{81}
+$$
 
 for small $\tau$. Both mechanisms accept the deadly triad and manage its instability rather than avoiding it.
 
@@ -595,6 +838,742 @@ Article four develops the deep reinforcement learning wave that these mechanisms
 - How should sample complexity be characterized for continuous-state continuous-action MDPs beyond the linear and low-rank cases? Deep function approximation admits practical algorithms whose sample complexity is not tightly characterized by current theory.
 - What is the correct treatment of long-horizon credit assignment under function approximation? Eligibility traces provide a partial answer, but the interaction between long horizons, function approximation, and bootstrapping remains a source of both theoretical and empirical difficulty.
 - How closely does the actor-critic apparatus correspond to the anatomy and physiology of the mammalian basal ganglia, and what algorithmic variants are supported or refuted by the neural evidence? Article fourteen returns to this question.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 81 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 81, 81 are established and 0 are bespoke.
+Returns and value functions carry the units of the reward signal, discount factors, step sizes, trace parameters and probabilities are dimensionless, and time is counted in discrete decision steps, so a bound stated in steps or iterations is a count rather than a duration.
+
+**Equation 1, Markov Decision Process as a Tuple.**
+A Markov decision process is specified by its state space, action space, transition kernel, reward distribution, discount factor and initial state distribution.
+[Puterman 1994][book_puterman_1994]
+
+$$
+\mathcal{M} = (\mathcal{S}, \mathcal{A}, P, R, \gamma, \mu_0)
+\tag{1}
+$$
+
+**Equation 2, Transition Kernel.**
+The transition kernel gives the probability of moving to each next state from a given state under a given action.
+
+$$
+P(s' \mid s, a) = \Pr(s_{t+1} = s' \mid s_t = s, a_t = a)
+\tag{2}
+$$
+
+**Equation 3, Markov Property.**
+Conditioning the next state on the full history gives the same distribution as conditioning on the most recent state and action alone.
+
+$$
+P(s_{t+1} \mid s_t, a_t, s_{t-1}, a_{t-1}, \ldots, s_0, a_0) = P(s_{t+1} \mid s_t, a_t)
+\tag{3}
+$$
+
+**Equation 4, Trajectory Distribution Induced by a Policy.**
+The probability of a trajectory factorises into the initial state probability and the product of policy and transition probabilities along it.
+
+$$
+p_{\pi}(\tau) = \mu_0(s_0) \prod_{t=0}^{\infty} \pi(a_t \mid s_t) P(s_{t+1} \mid s_t, a_t)
+\tag{4}
+$$
+
+**Equation 5, Discounted Return.**
+The return from a step is the sum of all later rewards, each weighted by the discount factor raised to its delay.
+
+$$
+G_t = \sum_{k=0}^{\infty} \gamma^k r_{t+k+1}
+\tag{5}
+$$
+
+**Equation 6, Expected Return Objective.**
+A policy is judged by its expected return from the initial state distribution, which equals the average of its state values under that distribution.
+
+$$
+J(\pi) = \mathbb{E}_{\pi} \left[ G_0 \right] = \mathbb{E}_{s \sim \mu_0}[V^{\pi}(s)]
+\tag{6}
+$$
+
+**Equation 7, State Value Function.**
+The value of a state under a policy is the expected return from that state when the policy is followed.
+
+$$
+V^{\pi}(s) = \mathbb{E}_{\pi} \left[ G_t \mid s_t = s \right]
+\tag{7}
+$$
+
+**Equation 8, Action Value Function.**
+The action value is the expected return from taking a given action in a given state and following the policy thereafter.
+
+$$
+Q^{\pi}(s, a) = \mathbb{E}_{\pi} \left[ G_t \mid s_t = s, a_t = a \right]
+\tag{8}
+$$
+
+**Equation 9, Relation Between State and Action Values.**
+The state value is the policy-weighted average of the action values, and each action value is the expected reward plus the discounted value of the successor state.
+
+$$
+V^{\pi}(s) = \sum_a \pi(a \mid s) Q^{\pi}(s, a), \quad Q^{\pi}(s, a) = \mathbb{E}\!\left[r + \gamma V^{\pi}(s') \mid s, a\right]
+\tag{9}
+$$
+
+**Equation 10, Advantage Function.**
+The advantage of an action is its action value less the value of the state under the policy.
+
+$$
+A^{\pi}(s, a) = Q^{\pi}(s, a) - V^{\pi}(s)
+\tag{10}
+$$
+
+**Equation 11, Bellman Expectation Equation for State Values.**
+The value of a state equals the policy-weighted expectation of the immediate reward plus the discounted value of the successor state.
+[Sutton and Barto 2018][book_sutton_barto_2018]
+
+$$
+V^{\pi}(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi}(s') \right]
+\tag{11}
+$$
+
+**Equation 12, Bellman Expectation Equation in Matrix Form.**
+For a finite Markov decision process the Bellman expectation equation is a linear system in the vector of state values.
+
+$$
+\mathbf{V}^{\pi} = \mathbf{R}^{\pi} + \gamma \mathbf{P}^{\pi} \mathbf{V}^{\pi}
+\tag{12}
+$$
+
+**Equation 13, Closed-Form Policy Evaluation.**
+Because the discounted transition matrix has spectral radius below one, the value vector is the inverse of the identity minus that matrix applied to the reward vector.
+
+$$
+\mathbf{V}^{\pi} = (\mathbf{I} - \gamma \mathbf{P}^{\pi})^{-1} \mathbf{R}^{\pi}
+\tag{13}
+$$
+
+**Equation 14, Bellman Expectation Equation for Action Values.**
+The action value equals the expected immediate reward plus the discounted policy-weighted action value of the successor state.
+
+$$
+Q^{\pi}(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \sum_{a'} \pi(a' \mid s') Q^{\pi}(s', a') \right]
+\tag{14}
+$$
+
+**Equation 15, Bellman Optimality Equation for State Values.**
+The optimal value of a state is the best expected immediate reward plus discounted optimal value of the successor over all actions.
+[Puterman 1994][book_puterman_1994]
+
+$$
+V^*(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^*(s') \right]
+\tag{15}
+$$
+
+**Equation 16, Bellman Optimality Equation for Action Values.**
+The optimal action value is the expected immediate reward plus the discounted best action value available in the successor state.
+[Puterman 1994][book_puterman_1994]
+
+$$
+Q^*(s, a) = \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma \max_{a'} Q^*(s', a') \right]
+\tag{16}
+$$
+
+**Equation 17, Bellman Expectation Operator.**
+The Bellman expectation operator maps a value function to the policy-weighted expected reward plus the discounted value of the successor state.
+
+$$
+(T^{\pi} V)(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]
+\tag{17}
+$$
+
+**Equation 18, Bellman Optimality Operator.**
+The Bellman optimality operator maps a value function to the best expected reward plus discounted successor value over all actions.
+
+$$
+(T^* V)(s) = \max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]
+\tag{18}
+$$
+
+**Equation 19, Contraction of the Bellman Operators.**
+Both Bellman operators shrink the largest difference between two value functions by at least the discount factor, so each has a unique fixed point by the Banach fixed-point theorem.
+
+$$
+\| T^{\pi} V - T^{\pi} V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}, \quad \| T^* V - T^* V' \|_{\infty} \leq \gamma \| V - V' \|_{\infty}
+\tag{19}
+$$
+
+**Equation 20, Greedy Policy with Respect to a Value Function.**
+The greedy policy selects in each state the action that maximises the expected reward plus the discounted value of the successor.
+
+$$
+\pi_V(s) = \arg\max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V(s') \right]
+\tag{20}
+$$
+
+**Equation 21, Value Iteration.**
+Value iteration applies the Bellman optimality operator repeatedly to the current value estimate.
+[Bellman 1957][book_bellman_1957]
+
+$$
+V_{k+1}(s) = (T^* V_k)(s)
+\tag{21}
+$$
+
+**Equation 22, Geometric Convergence of Value Iteration.**
+By the contraction property the error of value iteration in the supremum norm falls at least by the discount factor at each iteration.
+
+$$
+\| V_k - V^* \|_{\infty} \leq \gamma^k \| V_0 - V^* \|_{\infty}
+\tag{22}
+$$
+
+**Equation 23, Policy Improvement Step.**
+Policy iteration replaces the current policy by the policy that is greedy with respect to its evaluated value function.
+[Howard 1960][book_howard_1960]
+
+$$
+\pi_{k+1}(s) = \arg\max_a \sum_{s', r} P(s', r \mid s, a) \left[ r + \gamma V^{\pi_k}(s') \right]
+\tag{23}
+$$
+
+**Equation 24, Linear Programming Formulation of a Markov Decision Process.**
+The optimal value function is the solution of a linear programme that minimises the weighted sum of state values subject to each value dominating every one-step Bellman backup.
+[Puterman 1994][book_puterman_1994]
+
+$$
+\min_{V} \sum_s \mu_0(s) V(s) \quad \text{subject to} \quad V(s) \geq \sum_{s', r} P(s', r \mid s, a) [r + \gamma V(s')] \; \forall s, a
+\tag{24}
+$$
+
+**Equation 25, First-Visit Monte Carlo Estimator.**
+The first-visit estimator averages, over the episodes that reach a state, the return that follows the first visit to it.
+
+$$
+\hat{V}^{\pi}_{\text{FV}}(s) = \frac{1}{|\text{Ep}(s)|} \sum_{i \in \text{Ep}(s)} G^{(i)}_{t^{(i)}_s}
+\tag{25}
+$$
+
+**Equation 26, Every-Visit Monte Carlo Estimator.**
+The every-visit estimator averages the returns that follow every visit to a state across all episodes.
+
+$$
+\hat{V}^{\pi}_{\text{EV}}(s) = \frac{1}{N(s)} \sum_{i} \sum_{t : s_t^{(i)} = s} G^{(i)}_{t}
+\tag{26}
+$$
+
+**Equation 27, Per-Episode Importance Sampling Ratio.**
+The ratio of target to behaviour policy probabilities multiplied along an episode reweights its return toward the target policy.
+
+$$
+\rho_{0:T} = \prod_{t=0}^{T} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
+\tag{27}
+$$
+
+**Equation 28, Ordinary Importance Sampling Estimator.**
+Ordinary importance sampling averages the reweighted returns over the episodes, which is unbiased but can have unbounded variance.
+
+$$
+\hat{V}^{\pi}_{\text{OIS}}(s) = \frac{\sum_i \rho^{(i)} G^{(i)}}{|\text{Ep}(s)|}
+\tag{28}
+$$
+
+**Equation 29, Weighted Importance Sampling Estimator.**
+Weighted importance sampling normalises the reweighted returns by the sum of the ratios, which introduces bias but usually reduces variance.
+
+$$
+\hat{V}^{\pi}_{\text{WIS}}(s) = \frac{\sum_i \rho^{(i)} G^{(i)}}{\sum_i \rho^{(i)}}
+\tag{29}
+$$
+
+**Equation 30, Per-Decision Importance Sampling Estimator.**
+Per-decision importance sampling weights each reward only by the ratios of the actions that preceded it.
+[Precup et al. 2000][research_precup_sutton_singh_2000]
+
+$$
+\hat{V}^{\pi}_{\text{PD}}(s_t) = \mathbb{E}_\mu\!\left[\sum_{k=t}^{T} \gamma^{k-t} \rho_{t:k-1} r_{k+1}\right]
+\tag{30}
+$$
+
+**Equation 31, Tabular One-Step Temporal-Difference Update.**
+The value of the visited state moves by a step size toward the reward plus the discounted estimate of the next state.
+[Sutton 1988][research_sutton_1988]
+
+$$
+V(s_t) \leftarrow V(s_t) + \alpha \left[ r_{t+1} + \gamma V(s_{t+1}) - V(s_t) \right]
+\tag{31}
+$$
+
+**Equation 32, Temporal-Difference Error.**
+The temporal-difference error is the reward plus the discounted estimate of the next state less the estimate of the current state.
+[Sutton 1988][research_sutton_1988]
+
+$$
+\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)
+\tag{32}
+$$
+
+**Equation 33, Robbins-Monro Step-Size Conditions.**
+The step sizes must sum to infinity so that the iterates can travel any distance while their squares sum to a finite value so that the noise is averaged out.
+[Robbins and Monro 1951][research_robbins_monro_1951]
+
+$$
+\sum_{t=0}^{\infty} \alpha_t = \infty, \quad \sum_{t=0}^{\infty} \alpha_t^2 < \infty
+\tag{33}
+$$
+
+**Equation 34, N-Step Return.**
+The $n$-step return sums $n$ discounted rewards and then bootstraps from the value estimate of the state reached.
+
+$$
+G_t^{(n)} = r_{t+1} + \gamma r_{t+2} + \cdots + \gamma^{n-1} r_{t+n} + \gamma^n V(s_{t+n})
+\tag{34}
+$$
+
+**Equation 35, Q-Learning Update.**
+Q-learning moves the action value toward a target built from the best action value in the next state, which makes it an off-policy method.
+[Watkins and Dayan 1992][research_watkins_dayan_1992]
+
+$$
+Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t) \right]
+\tag{35}
+$$
+
+**Equation 36, SARSA Update.**
+SARSA moves the action value toward a target built from the action the agent actually takes next, which makes it an on-policy method.
+[Rummery and Niranjan 1994][research_rummery_niranjan_1994]
+
+$$
+Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma Q(s_{t+1}, a_{t+1}) - Q(s_t, a_t) \right]
+\tag{36}
+$$
+
+**Equation 37, Expected SARSA Update.**
+Expected SARSA replaces the sampled next action value by its expectation under the current policy.
+
+$$
+Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \sum_{a'} \pi(a' \mid s_{t+1}) Q(s_{t+1}, a') - Q(s_t, a_t) \right]
+\tag{37}
+$$
+
+**Equation 38, Double Q-Learning Update.**
+One estimator selects the maximising next action and the other evaluates it, which removes the upward bias of a single maximum.
+[van Hasselt 2010][research_van_hasselt_2010]
+
+$$
+Q_A(s_t, a_t) \leftarrow Q_A(s_t, a_t) + \alpha \left[r_{t+1} + \gamma Q_B(s_{t+1}, \arg\max_{a'} Q_A(s_{t+1}, a')) - Q_A(s_t, a_t)\right]
+\tag{38}
+$$
+
+**Equation 39, Overestimation Bias of the Maximum.**
+By Jensen's inequality the expected maximum of noisy estimates is at least the maximum of their expectations.
+
+$$
+\mathbb{E}[\max_a Q(s, a)] \geq \max_a \mathbb{E}[Q(s, a)]
+\tag{39}
+$$
+
+**Equation 40, Epsilon-Greedy Policy.**
+The epsilon-greedy policy spreads probability $\epsilon$ uniformly over all actions and gives the remainder to the greedy action.
+
+$$
+\pi(a \mid s) = \begin{cases} 1 - \epsilon + \epsilon / |\mathcal{A}| & \text{if } a = \arg\max_{a'} Q(s, a') \\ \epsilon / |\mathcal{A}| & \text{otherwise} \end{cases}
+\tag{40}
+$$
+
+**Equation 41, Boltzmann Exploration.**
+Softmax exploration chooses actions with probability proportional to the exponential of their action values divided by a temperature.
+
+$$
+\pi(a \mid s) = \frac{\exp(Q(s, a) / \tau)}{\sum_{a'} \exp(Q(s, a') / \tau)}
+\tag{41}
+$$
+
+**Equation 42, Entropy-Regularised Policy Objective.**
+The objective adds to the expected return a multiple of the expected Shannon entropy of the policy over visited states.
+
+$$
+J_{\text{ent}}(\theta) = J(\theta) + \beta \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[H(\pi_\theta(\cdot \mid s))\right]
+\tag{42}
+$$
+
+**Equation 43, Count-Based Exploration Bonus.**
+The exploration bonus decays as the inverse square root of the visit count of the state-action pair, as in model-based interval estimation with exploration bonuses.
+[Strehl et al. 2009][research_strehl_li_littman_2009]
+
+$$
+r^{\text{expl}}(s, a) = \beta / \sqrt{N(s, a)}
+\tag{43}
+$$
+
+**Equation 44, Lambda-Return.**
+The $\lambda$-return is a geometrically weighted average of all $n$-step returns.
+
+$$
+G_t^{\lambda} = (1 - \lambda) \sum_{n=1}^{\infty} \lambda^{n-1} G_t^{(n)}
+\tag{44}
+$$
+
+**Equation 45, Accumulating Eligibility Trace.**
+Each state's trace decays by $\gamma \lambda$ at every step and is incremented by one when the state is visited.
+
+$$
+e_t(s) = \gamma \lambda e_{t-1}(s) + \mathbb{1}\{s_t = s\}
+\tag{45}
+$$
+
+**Equation 46, Backward-View TD Lambda Update.**
+Every state value moves by the step size times the current temporal-difference error times its eligibility trace.
+
+$$
+V(s) \leftarrow V(s) + \alpha \delta_t e_t(s) \quad \forall s
+\tag{46}
+$$
+
+**Equation 47, Policy Gradient Theorem.**
+The gradient of expected return is the expectation over the discounted state distribution of the score function weighted by the action value.
+[Sutton et al. 1999][research_sutton_mcallester_singh_mansour_2000]
+
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta}, a \sim \pi_\theta}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) \, Q^{\pi_\theta}(s, a) \right]
+\tag{47}
+$$
+
+**Equation 48, REINFORCE Update.**
+REINFORCE ascends the score function of each action taken weighted by the Monte Carlo return that followed it.
+[Williams 1992][research_williams_1992]
+
+$$
+\theta_{t+1} = \theta_t + \alpha \sum_{k=t}^{T} \nabla_\theta \log \pi_\theta(a_k \mid s_k) G_k
+\tag{48}
+$$
+
+**Equation 49, REINFORCE with a Baseline.**
+Subtracting a state-dependent baseline from the return leaves the expected update unchanged and reduces its variance.
+[Williams 1992][research_williams_1992]
+
+$$
+\theta_{t+1} = \theta_t + \alpha \sum_{k=t}^{T} \nabla_\theta \log \pi_\theta(a_k \mid s_k) \left[G_k - b(s_k)\right]
+\tag{49}
+$$
+
+**Equation 50, Advantage Form of the Policy Gradient.**
+Using the state value as the baseline replaces the action value by the advantage in the policy gradient.
+
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) A^{\pi_\theta}(s, a) \right]
+\tag{50}
+$$
+
+**Equation 51, Fisher Information Matrix of a Policy.**
+The Fisher information is the expected outer product of the score function, and its inverse preconditions the natural policy gradient.
+[Kakade 2001][research_kakade_2001]
+
+$$
+F(\theta) = \mathbb{E}_{s, a}\!\left[ \nabla_\theta \log \pi_\theta(a \mid s) \nabla_\theta \log \pi_\theta(a \mid s)^\top \right]
+\tag{51}
+$$
+
+**Equation 52, One-Step Actor Update.**
+The actor ascends the score function of the action taken weighted by the critic's one-step temporal-difference error as an advantage estimate.
+
+$$
+\theta \leftarrow \theta + \alpha_\theta \nabla_\theta \log \pi_\theta(a_t \mid s_t) \left[r_{t+1} + \gamma V_w(s_{t+1}) - V_w(s_t)\right]
+\tag{52}
+$$
+
+**Equation 53, Semi-Gradient Critic Update.**
+The critic moves its parameters along the gradient of its value estimate scaled by the one-step temporal-difference error.
+[Konda and Tsitsiklis 1999][research_konda_tsitsiklis_2000]
+
+$$
+w \leftarrow w + \alpha_w \left[r_{t+1} + \gamma V_w(s_{t+1}) - V_w(s_t)\right] \nabla_w V_w(s_t)
+\tag{53}
+$$
+
+**Equation 54, Deterministic Policy Gradient Theorem.**
+For a deterministic policy the gradient of expected return chains the policy Jacobian with the action gradient of the action value at the chosen action.
+[Silver et al. 2014][research_silver_et_al_2014]
+
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta}}\!\left[ \nabla_\theta \pi_\theta(s) \nabla_a Q^{\pi_\theta}(s, a) \big|_{a = \pi_\theta(s)} \right]
+\tag{54}
+$$
+
+**Equation 55, Generalised Advantage Estimation.**
+Generalised advantage estimation sums future temporal-difference errors with weights decaying as powers of $\gamma \lambda$.
+[Schulman et al. 2015][research_schulman_moritz_levine_jordan_abbeel_2016]
+
+$$
+\hat{A}^{\text{GAE}(\gamma, \lambda)}_t = \sum_{l=0}^{\infty} (\gamma \lambda)^l \delta_{t+l}
+\tag{55}
+$$
+
+**Equation 56, Linear Value Function.**
+A linear value function is the inner product of a fixed feature vector of the state with a learned weight vector.
+
+$$
+V_w(s) = \phi(s)^\top w = \sum_i \phi_i(s) w_i
+\tag{56}
+$$
+
+**Equation 57, Linear Semi-Gradient TD Update.**
+With linear features the temporal-difference update moves the weights along the feature vector of the visited state scaled by the temporal-difference error.
+[Tsitsiklis and Van Roy 1997][research_tsitsiklis_van_roy_1997]
+
+$$
+w \leftarrow w + \alpha \delta_t \phi(s_t)
+\tag{57}
+$$
+
+**Equation 58, Projected Bellman Fixed Point.**
+Linear temporal-difference learning converges to the value function that equals the projection onto the feature span of its own Bellman backup.
+[Tsitsiklis and Van Roy 1997][research_tsitsiklis_van_roy_1997]
+
+$$
+w = \Pi_{\phi} T^{\pi} V_w
+\tag{58}
+$$
+
+**Equation 59, Least-Squares Temporal-Difference Solution.**
+Least-squares temporal-difference learning solves the projected Bellman equation directly as a linear system in the weights.
+[Bradtke and Barto 1996][research_bradtke_barto_1996]
+
+$$
+w = A^{-1} b
+\tag{59}
+$$
+
+**Equation 60, Fitted Value Iteration.**
+Each iteration regresses a function from the chosen class onto the Bellman optimality backup of the previous estimate at the sampled states.
+[Munos and Szepesvári 2008][research_munos_szepesvari_2008]
+
+$$
+V_{k+1} = \arg\min_{V \in \mathcal{F}} \sum_{i=1}^n \left(V(s_i) - (T^* V_k)(s_i)\right)^2
+\tag{60}
+$$
+
+**Equation 61, Fitted Q Iteration.**
+Each iteration regresses an action-value function onto sampled rewards plus the discounted maximum of the previous estimate at the next state.
+[Ernst et al. 2005][research_ernst_geurts_wehenkel_2005]
+
+$$
+Q_{k+1} = \arg\min_{Q \in \mathcal{F}} \sum_{i=1}^n \left(Q(s_i, a_i) - (r_i + \gamma \max_{a'} Q_k(s_i', a'))\right)^2
+\tag{61}
+$$
+
+**Equation 62, Mean-Squared Projected Bellman Error.**
+The objective is the squared norm, weighted by the behaviour state distribution, of the projected Bellman residual of the linear value function.
+[Sutton et al. 2009][research_sutton_maei_precup_2009]
+
+$$
+\text{MSPBE}(w) = \| \Pi_\phi (T^{\pi} V_w - V_w) \|_{D_\mu}^2
+\tag{62}
+$$
+
+**Equation 63, Temporal-Difference Learning with Gradient Correction.**
+The TDC rule, temporal-difference learning with gradient correction, adds a correction term built from an auxiliary weight vector that tracks the expected temporal-difference error given the features.
+[Sutton et al. 2009][research_sutton_maei_precup_2009]
+
+$$
+w \leftarrow w + \alpha \left[\delta_t \phi_t - \gamma \phi_{t+1} (\phi_t^\top h_t)\right], \quad h \leftarrow h + \beta \left[\delta_t - \phi_t^\top h_t\right] \phi_t
+\tag{63}
+$$
+
+**Equation 64, Emphasis of Emphatic Temporal-Difference Learning.**
+The emphasis mixes the current interest with a follow-on trace that accumulates discounted and importance-weighted past interest.
+[Sutton et al. 2016][research_sutton_mahmood_white_2016]
+
+$$
+M_t = \lambda I_t + (1 - \lambda) F_t
+\tag{64}
+$$
+
+**Equation 65, Stochastic Approximation Iteration.**
+A stochastic approximation algorithm moves its parameters by a decaying step size times a noisy update direction.
+[Kushner and Clark 1978][book_kushner_clark_1978]
+
+$$
+w_{t+1} = w_t + \alpha_t h(w_t, \xi_{t+1})
+\tag{65}
+$$
+
+**Equation 66, Mean Ordinary Differential Equation.**
+The ordinary differential equation method associates the iteration with the flow of its expected update, whose stable equilibria are the limits of the iterates.
+[Kushner and Clark 1978][book_kushner_clark_1978]
+
+$$
+\dot{w}(t) = \bar{h}(w(t)) = \mathbb{E}[h(w, \xi)]
+\tag{66}
+$$
+
+**Equation 67, Sample Complexity of R-MAX.**
+R-MAX finds an $\epsilon$-optimal policy with probability $1 - \delta$ after a number of suboptimal steps polynomial in the state and action counts, $1/\epsilon$ and the effective horizon.
+[Brafman and Tennenholtz 2002][research_brafman_tennenholtz_2002]
+
+$$
+\tilde{\mathcal{O}}\!\left(\frac{|\mathcal{S}|^2 |\mathcal{A}|}{\epsilon^3 (1-\gamma)^6} \log(1/\delta)\right)
+\tag{67}
+$$
+
+**Equation 68, Regret Bound of UCRL2.**
+The regret of UCRL2, an upper confidence algorithm for reinforcement learning, grows with the diameter of the process and the square root of the horizon.
+[Jaksch et al. 2010][research_jaksch_ortner_auer_2010]
+
+$$
+R_T = \tilde{\mathcal{O}}(D \sqrt{|\mathcal{S}| |\mathcal{A}| T})
+\tag{68}
+$$
+
+**Equation 69, Potential-Based Reward Shaping.**
+Adding the discounted change in a potential function to the reward leaves the optimal policy unchanged.
+[Ng et al. 1999][research_ng_harada_russell_1999]
+
+$$
+r'(s, a, s') = r(s, a, s') + \gamma \Phi(s') - \Phi(s)
+\tag{69}
+$$
+
+**Equation 70, Trajectory Importance Sampling Ratio.**
+The ratio of target to behaviour policy probabilities is multiplied over the actions of a trajectory of length $T$.
+
+$$
+\rho_{0:T-1} = \prod_{t=0}^{T-1} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
+\tag{70}
+$$
+
+**Equation 71, Worst-Case Variance of Trajectory Importance Sampling.**
+In the worst case the variance of the importance-weighted return grows exponentially with the horizon at a rate set by the largest ratio of policy probabilities.
+
+$$
+\text{Var}[\rho_{0:T-1} G] = \mathcal{O}\!\left(\left(\frac{\pi_{\max}}{\mu_{\min}}\right)^{2T}\right)
+\tag{71}
+$$
+
+**Equation 72, Doubly Robust Off-Policy Estimator.**
+The doubly robust estimator adds to a model-based value estimate an importance-weighted correction of its residual, so that it remains unbiased if either component is correct.
+[Jiang and Li 2016][research_jiang_li_2016]
+
+$$
+\hat{V}^{\pi}_{\text{DR}}(s) = \hat{V}^{\pi}_{\text{model}}(s) + \mathbb{E}_\mu\!\left[\rho\!\left(G - \hat{V}^{\pi}_{\text{model}}(s)\right)\right]
+\tag{72}
+$$
+
+**Equation 73, Maximum-Likelihood Tabular Model.**
+Certainty equivalence estimates the transition probabilities and mean rewards from the observed counts and plans as if the estimates were exact.
+
+$$
+\hat{P}(s' \mid s, a) = \frac{N(s, a, s')}{N(s, a)}, \quad \hat{R}(s, a) = \frac{\sum_i r_i \mathbb{1}\{s_i = s, a_i = a\}}{N(s, a)}
+\tag{73}
+$$
+
+**Equation 74, Distributional Bellman Equation.**
+The random return from a state and action equals in distribution the reward plus the discounted random return from the successor pair.
+[Bellemare et al. 2017][research_bellemare_dabney_munos_2017]
+
+$$
+Z^{\pi}(s, a) \stackrel{D}{=} R(s, a, s') + \gamma Z^{\pi}(s', a')
+\tag{74}
+$$
+
+**Equation 75, Average Reward Objective.**
+For a continuing task the policy is judged by the long-run expected reward per step rather than by a discounted sum.
+[Puterman 1994][book_puterman_1994]
+
+$$
+J_{\text{avg}}(\pi) = \lim_{T \to \infty} \frac{1}{T} \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{T-1} r_{t+1}\right]
+\tag{75}
+$$
+
+**Equation 76, Differential Value Function.**
+The differential value sums the excess of each future reward over the average reward.
+
+$$
+\tilde{V}^{\pi}(s) = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} (r_{t+1} - J_{\text{avg}}(\pi)) \mid s_0 = s\right]
+\tag{76}
+$$
+
+**Equation 77, Differential Bellman Equation.**
+The differential value equals the expected reward less the average reward plus the undiscounted differential value of the successor state.
+
+$$
+\tilde{V}^{\pi}(s) = \sum_a \pi(a \mid s) \sum_{s', r} P(s', r \mid s, a) \left[r - J_{\text{avg}}(\pi) + \tilde{V}^{\pi}(s')\right]
+\tag{77}
+$$
+
+**Equation 78, Temporal-Difference Error as Dopamine Prediction Error.**
+The same temporal-difference error is the quantity that midbrain dopamine neurons are found to encode.
+[Schultz et al. 1997][research_schultz_dayan_montague_1997]
+
+$$
+\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)
+\tag{78}
+$$
+
+**Equation 79, Successor Representation.**
+The successor representation gives the expected discounted number of future visits to one state starting from another under the policy.
+[Dayan 1993][research_dayan_1993]
+
+$$
+M^{\pi}(s, s') = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} \gamma^t \mathbb{1}\{s_t = s'\} \mid s_0 = s\right]
+\tag{79}
+$$
+
+**Equation 80, Hard Target Network Update.**
+The target network parameters are overwritten by the online parameters once every $C$ steps.
+[Mnih et al. 2015][research_mnih_et_al_2015]
+
+$$
+\theta^{-} \leftarrow \theta \quad \text{every } C \text{ steps}
+\tag{80}
+$$
+
+**Equation 81, Soft Polyak Target Network Update.**
+The target network parameters move a small fraction $\tau$ of the way toward the online parameters at each step.
+
+$$
+\theta^{-} \leftarrow \tau \theta + (1 - \tau) \theta^{-}
+\tag{81}
+$$
+
+### Notation
+
+- $\mathcal{S}$, the state space
+- $\mathcal{A}$, the action space
+- $\gamma$, the discount factor, between zero and one
+- $\mu_0$, the initial state distribution
+- $\mu(a_t \mid s_t)$, the behaviour policy that generated off-policy data
+- $G_t$, the discounted return from step $t$
+- $V^{\pi}(s)$, the state value function under policy $\pi$
+- $Q^{\pi}(s, a)$, the action value function under policy $\pi$
+- $A^{\pi}(s, a)$, the advantage function under policy $\pi$
+- $T^{\pi}$, the Bellman expectation operator for policy $\pi$
+- $T^*$, the Bellman optimality operator
+- $\mathbf{P}^{\pi}$, the state transition matrix induced by policy $\pi$
+- $\delta_t$, the temporal-difference error at step $t$
+- $\alpha$, a step size
+- $\rho_{0:T}$, the importance sampling ratio of an episode
+- $G_t^{(n)}$, the $n$-step return
+- $G_t^{\lambda}$, the $\lambda$-return
+- $\lambda$, the trace decay parameter, which in equation 64 also weights the interest against the follow-on trace
+- $e_t(s)$, the eligibility trace of state $s$
+- $\tau$, the Boltzmann temperature in equation 41 and the Polyak averaging rate in equation 81
+- $N(s, a)$, the visit count of a state-action pair
+- $d^{\pi_\theta}$, the discounted state distribution under the parameterised policy
+- $F(\theta)$, the Fisher information matrix of the policy
+- $\phi(s)$, the feature vector of state $s$
+- $\Pi_{\phi}$, the projection onto the span of the features under the on-policy state distribution
+- $D_\mu$, the diagonal matrix of the behaviour state distribution that weights the norm
+- $M_t$, the emphasis of emphatic temporal-difference learning, with $I_t$ the interest and $F_t$ the follow-on trace
+- $D$, the diameter of the Markov decision process in equation 68
+- $\Phi(s)$, the shaping potential of state $s$
+- $Z^{\pi}(s, a)$, the random return from a state and action
+- $\tilde{V}^{\pi}(s)$, the differential value function
+- $M^{\pi}(s, s')$, the successor representation
+- $\theta^{-}$, the target network parameters
 
 ## References
 

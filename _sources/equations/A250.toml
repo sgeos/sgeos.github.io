@@ -1,0 +1,411 @@
+# Equation classification for A250. Read by `python3 _lib/equations.py`.
+
+caution = "Returns, values and regret carry the units of the reward signal, while discount factors, step sizes and probabilities are dimensionless, and time is counted in discrete decision steps rather than in seconds."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Markov Decision Process as a Tuple"
+gloss = "A Markov decision process is specified by its state space, action space, transition kernel, reward function, discount factor and initial state distribution."
+cite = ["book_sutton_barto_2018"]
+digest = "df5d2060fb60179e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Transition Kernel"
+gloss = "The transition kernel gives the distribution of the next state conditional on the current state and action."
+cite = []
+digest = "690edd403a263afc"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Markov Property"
+gloss = "Conditioning the next state on the full history gives the same distribution as conditioning on the most recent state and action alone."
+cite = []
+digest = "ccd535fb209c82ed"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Stochastic Policy as a Distribution over Actions"
+gloss = "A stochastic policy assigns each action a non-negative probability, and these probabilities sum to one in every state."
+cite = []
+digest = "a079197438e0d310"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Discounted Return"
+gloss = "The return from a step is the sum of all later rewards, each weighted by the discount factor raised to its delay."
+cite = []
+digest = "1d52c263e7b013e1"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Average Reward Objective"
+gloss = "For a continuing task the policy is judged by the long-run expected reward per step rather than by a discounted sum."
+cite = []
+digest = "c9157280b4456126"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Trajectory Distribution Induced by a Policy"
+gloss = "The probability of a trajectory factorises into the initial state probability and the product of policy and transition probabilities along it."
+cite = []
+digest = "56d66b514f8c4cc6"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Observation Kernel of a Partially Observable Process"
+gloss = "In a partially observable Markov decision process the agent receives an observation drawn from a distribution conditioned on the hidden state."
+cite = []
+digest = "a44cca0d4a1f3907"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Rescorla-Wagner Update"
+gloss = "The associative strength of each conditioned stimulus moves in proportion to the difference between the reinforcement magnitude and the summed strengths of all stimuli present."
+cite = ["research_rescorla_wagner_1972"]
+digest = "d2d9297a7ea58b97"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Independent and Identically Distributed Training Sample"
+gloss = "In batch supervised learning each labelled example is drawn independently from one fixed distribution."
+cite = []
+digest = "b05b35e221871872"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Empirical Risk"
+gloss = "The empirical risk of a predictor is its loss averaged over the training sample."
+cite = []
+digest = "3bb3a669d97e379f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Policy Dependence of the State Distribution"
+gloss = "Two different policies generally visit states with different frequencies, so the data an agent collects depends on its own behaviour."
+cite = []
+digest = "c450023dd2be2c0c"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Probably Approximately Correct Generalisation Bound"
+gloss = "A probably approximately correct bound states that the true risk exceeds the empirical risk by more than a tolerance with probability at most a stated confidence level."
+cite = []
+digest = "f9831691177847ee"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Conditional Value at Risk of the Return"
+gloss = "The conditional value at risk is the expected return over the lower tail of outcomes at or below the chosen quantile."
+cite = []
+digest = "1a881c5c2cfb3a41"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Cumulative Regret"
+gloss = "Regret sums over the horizon the shortfall of the reward received against the reward a reference policy would have obtained."
+cite = []
+digest = "517236cba86fd199"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Empowerment"
+gloss = "Empowerment is the largest mutual information that any policy can achieve between a sequence of actions and the state it leads to from a given state."
+cite = []
+digest = "dbb6e9c607a1688c"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "State Value Function"
+gloss = "The value of a state under a policy is the expected return from that state when the policy is followed."
+cite = []
+digest = "45e5bc397273e91f"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Action Value Function"
+gloss = "The action value is the expected return from taking a given action in a given state and following the policy thereafter."
+cite = []
+digest = "f83b6b147b7f10ad"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Bellman Expectation Equation"
+gloss = "The value of a state equals the policy-weighted expectation of the immediate reward plus the discounted value of the successor state."
+cite = []
+digest = "c898357c49051ab4"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Bellman Optimality Equation for State Values"
+gloss = "The optimal value of a state is the best expected immediate reward plus discounted optimal value of the successor over all actions."
+cite = ["book_puterman_1994"]
+digest = "c26d53bb1228228d"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Bellman Optimality Equation for Action Values"
+gloss = "The optimal action value is the expected immediate reward plus the discounted best action value available in the successor state."
+cite = ["book_puterman_1994"]
+digest = "b19fe0aac703bd3c"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Greedy Policy from Optimal Action Values"
+gloss = "An optimal policy selects in each state an action that maximises the optimal action value."
+cite = []
+digest = "b36bacf4dcc44c63"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Advantage Function"
+gloss = "The advantage of an action is its action value less the value of the state under the policy."
+cite = []
+digest = "bad8837c5881045d"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Contraction of the Bellman Expectation Operator"
+gloss = "Applying the Bellman expectation operator shrinks the largest difference between two value functions by at least the discount factor."
+cite = []
+digest = "e98a168727276156"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Temporal-Difference Error"
+gloss = "The temporal-difference error is the reward plus the discounted estimate of the next state less the estimate of the current state."
+cite = []
+digest = "1fd4db42f003b8b4"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Tabular One-Step Temporal-Difference Update"
+gloss = "The value estimate of the visited state moves by a step size times the temporal-difference error."
+cite = ["research_sutton_1988"]
+digest = "87acd088711246d8"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "SARSA Update"
+gloss = "SARSA moves the action value toward a target built from the action the agent actually takes next, which makes it an on-policy method."
+cite = []
+digest = "f7e0473ff3d2af12"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Q-Learning Update"
+gloss = "Q-learning moves the action value toward a target built from the best action value in the next state, which makes it an off-policy method."
+cite = ["research_watkins_1989"]
+digest = "13553ebc7f6ae9ca"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Policy Gradient Theorem"
+gloss = "The gradient of expected return is the expectation of the score function of the policy weighted by the action value."
+cite = ["research_williams_1992"]
+digest = "5fb338f29509338d"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Advantage Form of the Policy Gradient"
+gloss = "Subtracting the state value as a baseline replaces the action value by the advantage without biasing the gradient and reduces its variance."
+cite = []
+digest = "604f5b9da566962b"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Value Iteration"
+gloss = "Value iteration applies the Bellman optimality operator to the current estimate and converges geometrically to the optimal value."
+cite = ["book_bellman_1957"]
+digest = "c358249aa60c1464"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Policy Improvement Step"
+gloss = "Policy iteration replaces the current policy by the policy that is greedy with respect to its evaluated value function."
+cite = ["book_howard_1960"]
+digest = "9dcdb95a4a3496e5"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Constant Step Monte Carlo Update"
+gloss = "Monte Carlo estimation moves the value of a state toward the full return observed after visiting it."
+cite = []
+digest = "b92bf9f74aa0f3d2"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Per-Step Importance Sampling Ratio"
+gloss = "The ratio of target to behaviour policy probabilities for the action taken reweights off-policy data toward the target policy."
+cite = []
+digest = "492582f48cd8b154"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Variational Free Energy"
+gloss = "The variational free energy equals the Kullback-Leibler divergence from the recognition distribution to the true posterior minus the log evidence, so minimising it both improves inference and bounds surprise."
+cite = ["research_friston_2010"]
+digest = "f9538052ca3b6f02"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Gap-Free Regret of Optimistic Bandit Algorithms"
+gloss = "Optimistic algorithms on a $K$-armed bandit incur regret growing no faster than the square root of $K T \\log T$ over horizon $T$."
+cite = []
+digest = "3442fc4995d14f40"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Upper Confidence Bound Action Selection"
+gloss = "The upper confidence bound rule picks the arm whose empirical mean plus an exploration bonus that shrinks with its pull count is largest."
+cite = []
+digest = "1786d40ea535f6ec"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Thompson Sampling"
+gloss = "Thompson sampling draws parameters from the posterior and acts greedily with respect to the draw."
+cite = []
+digest = "9bb0c9594f0f920f"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Forward-Model Prediction Error Curiosity Reward"
+gloss = "The intrinsic reward is the squared error of a learned forward model in predicting the embedding of the next state."
+cite = []
+digest = "0f729821a98dfaa4"
+
+[[symbol]]
+tex = '\mathcal{S}'
+meaning = "the state space"
+
+[[symbol]]
+tex = '\mathcal{A}'
+meaning = "the action space"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the discount factor, between zero and one"
+
+[[symbol]]
+tex = '\mu_0'
+meaning = "the initial state distribution"
+
+[[symbol]]
+tex = '\pi(a \mid s)'
+meaning = "the probability that the policy selects action $a$ in state $s$"
+
+[[symbol]]
+tex = '\mu(a_t \mid s_t)'
+meaning = "the behaviour policy that generated off-policy data"
+
+[[symbol]]
+tex = 'G_t'
+meaning = "the discounted return from step $t$"
+
+[[symbol]]
+tex = 'd^{\pi}(s)'
+meaning = "the marginal state distribution induced by policy $\\pi$"
+
+[[symbol]]
+tex = 'V^{\pi}(s)'
+meaning = "the state value function under policy $\\pi$"
+
+[[symbol]]
+tex = 'Q^{\pi}(s, a)'
+meaning = "the action value function under policy $\\pi$"
+
+[[symbol]]
+tex = 'A^{\pi}(s, a)'
+meaning = "the advantage function under policy $\\pi$"
+
+[[symbol]]
+tex = 'T^{\pi}'
+meaning = "the Bellman expectation operator for policy $\\pi$"
+
+[[symbol]]
+tex = '\delta_t'
+meaning = "the temporal-difference error at step $t$"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the step size in an update rule, the conditioned stimulus salience in the Rescorla-Wagner model and the tail level in the conditional value at risk"
+
+[[symbol]]
+tex = '\rho_t'
+meaning = "the per-step importance sampling ratio"
+
+[[symbol]]
+tex = 'V_j'
+meaning = "the associative strength of conditioned stimulus $j$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the maximum associative strength the reinforcer supports"
+
+[[symbol]]
+tex = 'q_\alpha(G)'
+meaning = "the lower $\\alpha$-quantile of the return distribution"
+
+[[symbol]]
+tex = 'R_T'
+meaning = "the cumulative regret over horizon $T$"
+
+[[symbol]]
+tex = 'N_t(a)'
+meaning = "the number of prior pulls of arm $a$"
+
+[[symbol]]
+tex = '\mathfrak{E}(s)'
+meaning = "the empowerment of state $s$"
+
+[[symbol]]
+tex = 'q(s)'
+meaning = "the approximate posterior, or recognition distribution, over hidden states"
+
+[[symbol]]
+tex = 'p(o, s)'
+meaning = "the generative model of observations and hidden states"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the learned state representation in which curiosity is measured"

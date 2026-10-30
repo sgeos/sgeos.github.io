@@ -19,17 +19,26 @@ Offline reinforcement learning treats the problem of learning a policy from a fi
 
 The offline reinforcement learning problem is specified by a fixed dataset
 
-$$\mathcal{D} = \{(s_i, a_i, r_i, s'_i)\}_{i=1}^N$$
+$$
+\mathcal{D} = \{(s_i, a_i, r_i, s'_i)\}_{i=1}^N
+\tag{1}
+$$
 
 collected under some behavior policy $\mu$ or mixture of policies. The learner does not interact with the environment during training and must produce a policy that performs well when subsequently deployed. The behavior policy $\mu$ is generally unknown, though its samples are observed through the action selections in $\mathcal{D}$.
 
 The offline setting differs fundamentally from the online setting in that the state-action distribution induced by any candidate policy $\pi$ may differ considerably from the state-action distribution in $\mathcal{D}$. Let $d^\pi(s, a)$ denote the discounted state-action occupancy under policy $\pi$,
 
-$$d^\pi(s, a) = (1 - \gamma) \sum_{t=0}^{\infty} \gamma^t \Pr(s_t = s, a_t = a \mid s_0 \sim \mu_0, \pi)$$
+$$
+d^\pi(s, a) = (1 - \gamma) \sum_{t=0}^{\infty} \gamma^t \Pr(s_t = s, a_t = a \mid s_0 \sim \mu_0, \pi)
+\tag{2}
+$$
 
 and let $d^\mu$ denote the corresponding occupancy under the behavior policy. The distributional shift between $\pi$ and the offline data is captured by the ratio
 
-$$w(s, a) = \frac{d^\pi(s, a)}{d^\mu(s, a)}$$
+$$
+w(s, a) = \frac{d^\pi(s, a)}{d^\mu(s, a)}
+\tag{3}
+$$
 
 which becomes unbounded or infinite when $\pi$ visits states or takes actions not covered by $\mu$. When $\pi$ visits states or takes actions poorly covered by $\mathcal{D}$, the learned value estimates or reward predictions at those states are unreliable, and policies that exploit such unreliable estimates typically fail catastrophically at deployment.
 
@@ -55,11 +64,17 @@ The 2020s produced a diversification of algorithmic approaches including uncerta
 
 The distributional shift problem is the central difficulty of offline reinforcement learning. Standard Q-learning under function approximation produces value overestimation when applied to off-policy data because the max operator in the Bellman target,
 
-$$y = r + \gamma \max_{a'} Q(s', a')$$
+$$
+y = r + \gamma \max_{a'} Q(s', a')
+\tag{4}
+$$
 
 extrapolates the Q-function to actions that may be poorly represented in the dataset. If $\hat{Q}$ has estimation noise with variance $\sigma^2$ at each action, the expected max is systematically biased upward by
 
-$$\mathbb{E}[\max_a \hat{Q}(s, a)] - \max_a Q^*(s, a) \geq c(|\mathcal{A}|) \sigma$$
+$$
+\mathbb{E}[\max_a \hat{Q}(s, a)] - \max_a Q^*(s, a) \geq c(|\mathcal{A}|) \sigma
+\tag{5}
+$$
 
 where $c(\lvert \mathcal{A} \rvert)$ grows with the action space size, capturing the Jensen-gap for the max operator over noisy estimates. When $Q$ overestimates value at such actions, the Bellman update propagates the overestimation to predecessor states, and the compounding error catastrophically destroys value estimates over many training iterations.
 
@@ -75,7 +90,10 @@ Behavior-cloned baselines that simply imitate the behavior policy avoid distribu
 
 Behavior cloning (BC) provides the simplest baseline for offline reinforcement learning by treating the problem as supervised learning of the behavior policy,
 
-$$L_{\text{BC}}(\pi_\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\log \pi_\theta(a \mid s)\right]$$
+$$
+L_{\text{BC}}(\pi_\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\log \pi_\theta(a \mid s)\right]
+\tag{6}
+$$
 
 which produces a policy that approximates $\mu$ without any policy improvement. The [Pomerleau 1988][research_pomerleau_1988_alvinn] ALVINN autonomous driving system provided one of the earliest demonstrations of behavior cloning at deployment scale, training a neural network to steer from expert demonstrations. The [Bain and Sammut 1995][research_bain_sammut_1995] and subsequent behavior cloning literature established the account in imitation learning, and its application to offline reinforcement learning provides a lower bound on the performance any real offline algorithm should exceed.
 
@@ -83,7 +101,10 @@ The DAgger framework of [Ross Gordon Bagnell 2011][research_ross_gordon_bagnell_
 
 Advantage-weighted regression of [Peng et al. 2019][research_peng_kumar_zhang_levine_2019] combines behavior cloning with implicit policy improvement through exponentiated-advantage weighting,
 
-$$L_{\text{AWR}}(\pi_\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\exp(A(s, a) / \beta) \log \pi_\theta(a \mid s)\right]$$
+$$
+L_{\text{AWR}}(\pi_\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\exp(A(s, a) / \beta) \log \pi_\theta(a \mid s)\right]
+\tag{7}
+$$
 
 analogously to AWAC treated later. The mechanism produces policies that lie in the neighborhood of the behavior policy but weighted toward higher-advantage actions, providing modest policy improvement without value-function machinery.
 
@@ -97,23 +118,35 @@ Off-policy evaluation (OPE) is the sub-problem of estimating the value of a targ
 
 The importance-sampling estimator of [Precup et al. 2000][research_precup_sutton_singh_2000_offline] applies importance-sampling ratios to trajectories, with the [Precup et al. 2001][research_precup_sutton_dasgupta_2001] extension covering off-policy temporal difference learning with function approximation,
 
-$$\hat{V}^\pi_{\text{IS}} = \frac{1}{N} \sum_{i=1}^N \rho_{0:T_i-1}^{(i)} G^{(i)}$$
+$$
+\hat{V}^\pi_{\text{IS}} = \frac{1}{N} \sum_{i=1}^N \rho_{0:T_i-1}^{(i)} G^{(i)}
+\tag{8}
+$$
 
 where $G^{(i)}$ is the return of trajectory $i$ and $\rho_{0:T-1}$ is the trajectory-level importance-sampling ratio
 
-$$\rho_{0:T-1} = \prod_{t=0}^{T-1} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}$$
+$$
+\rho_{0:T-1} = \prod_{t=0}^{T-1} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
+\tag{9}
+$$
 
 The estimator is unbiased under mild conditions but has variance that grows exponentially with trajectory length in the worst case, making it impractical for long-horizon problems.
 
 Per-decision importance sampling reduces variance by exploiting the trajectory structure,
 
-$$\hat{V}^\pi_{\text{PDIS}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \rho_{0:t}^{(i)} r_{t+1}^{(i)}$$
+$$
+\hat{V}^\pi_{\text{PDIS}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \rho_{0:t}^{(i)} r_{t+1}^{(i)}
+\tag{10}
+$$
 
 using only the prefix importance-sampling ratio up to each reward.
 
 Weighted importance sampling normalizes by the sum of importance-sampling ratios,
 
-$$\hat{V}^\pi_{\text{WIS}} = \frac{\sum_i \rho_{0:T_i-1}^{(i)} G^{(i)}}{\sum_i \rho_{0:T_i-1}^{(i)}}$$
+$$
+\hat{V}^\pi_{\text{WIS}} = \frac{\sum_i \rho_{0:T_i-1}^{(i)} G^{(i)}}{\sum_i \rho_{0:T_i-1}^{(i)}}
+\tag{11}
+$$
 
 trading bias for reduced variance. The weighted estimator is consistent under standard conditions and is generally preferred in practice.
 
@@ -121,19 +154,28 @@ Doubly robust estimators of [Jiang and Li 2016][research_jiang_li_2016_offline] 
 
 The doubly robust framework is defined by
 
-$$\hat{V}^\pi_{\text{DR}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \left[\rho_{0:t}^{(i)} \left(r_{t+1}^{(i)} + \gamma \hat{V}(s_{t+1}^{(i)}) - \hat{Q}(s_t^{(i)}, a_t^{(i)})\right) + \rho_{0:t-1}^{(i)} \hat{V}(s_t^{(i)})\right]$$
+$$
+\hat{V}^\pi_{\text{DR}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \left[\rho_{0:t}^{(i)} \left(r_{t+1}^{(i)} + \gamma \hat{V}(s_{t+1}^{(i)}) - \hat{Q}(s_t^{(i)}, a_t^{(i)})\right) + \rho_{0:t-1}^{(i)} \hat{V}(s_t^{(i)})\right]
+\tag{12}
+$$
 
 which is unbiased if either the importance-sampling weights or the value baseline is correct, providing robustness to specification errors.
 
 Marginalized importance sampling methods including DualDICE of [Nachum et al. 2019][research_nachum_et_al_2019_dualdice] and its extensions bypass the trajectory-level variance explosion by estimating the marginal state-action distribution ratio rather than the trajectory-level ratio. The [Liu et al. 2018][research_liu_li_tang_zhou_2018] Breaking the Curse of Horizon framework provided the initial theoretical treatment of marginal importance sampling and established the polynomial-horizon guarantee. Retrace of [Munos et al. 2016][research_munos_et_al_2016_retrace] introduced truncated importance ratios that provide safe and efficient off-policy multi-step return estimation. Minimax weight learning of [Uehara et al. 2020][research_uehara_huang_jiang_2020] provided a unified framework for marginal importance sampling with function approximation, and the [Kallus and Uehara 2020][research_kallus_uehara_2020] framework provided efficient double reinforcement learning bounds for off-policy evaluation. The DualDICE objective solves the min-max problem
 
-$$\min_v \max_\zeta \, \mathbb{E}_{(s, a) \sim d^\mu}\!\left[f(\zeta(s, a)) - \zeta(s, a) \cdot \mathcal{T}^\pi v(s, a)\right] + (1 - \gamma) \mathbb{E}_{s_0 \sim \mu_0, a_0 \sim \pi}\!\left[v(s_0, a_0)\right]$$
+$$
+\min_v \max_\zeta \, \mathbb{E}_{(s, a) \sim d^\mu}\!\left[f(\zeta(s, a)) - \zeta(s, a) \cdot \mathcal{T}^\pi v(s, a)\right] + (1 - \gamma) \mathbb{E}_{s_0 \sim \mu_0, a_0 \sim \pi}\!\left[v(s_0, a_0)\right]
+\tag{13}
+$$
 
 where $\mathcal{T}^\pi$ is the Bellman expectation operator under $\pi$ and $f$ is a convex function whose conjugate produces the correct estimator. The estimator achieves polynomial rather than exponential variance in the horizon, providing a foundation for practical long-horizon off-policy evaluation.
 
 Fitted Q evaluation of [Le Voloshin Yue 2019][research_le_voloshin_yue_2019] iteratively fits a Q-function to observed data through the Bellman backup
 
-$$\hat{Q}_{k+1}(s, a) = \mathbb{E}_{(s', r) \sim \mathcal{D}}\!\left[r + \gamma \mathbb{E}_{a' \sim \pi}[\hat{Q}_k(s', a')]\right]$$
+$$
+\hat{Q}_{k+1}(s, a) = \mathbb{E}_{(s', r) \sim \mathcal{D}}\!\left[r + \gamma \mathbb{E}_{a' \sim \pi}[\hat{Q}_k(s', a')]\right]
+\tag{14}
+$$
 
 using only the actions actually taken in the dataset for the Bellman target, avoiding the max-operator extrapolation of Q-learning. The resulting value estimate is unbiased under standard concentrability conditions.
 
@@ -141,13 +183,19 @@ using only the actions actually taken in the dataset for the Bellman target, avo
 
 Behavior regularization approaches constrain the learned policy to remain close to the data-generating behavior policy, limiting distributional shift by construction. The general framework adds a divergence penalty to the standard policy objective,
 
-$$J_{\text{BR}}(\pi) = \mathbb{E}\!\left[Q(s, a)\right] - \alpha \, D(\pi(\cdot \mid s) \, \| \, \mu(\cdot \mid s))$$
+$$
+J_{\text{BR}}(\pi) = \mathbb{E}\!\left[Q(s, a)\right] - \alpha \, D(\pi(\cdot \mid s) \, \| \, \mu(\cdot \mid s))
+\tag{15}
+$$
 
 where $D$ is a divergence measure and $\alpha$ controls the strength of the constraint.
 
 BEAR of [Kumar Fu Tucker Levine 2019][research_kumar_et_al_2019_bear] uses the maximum mean discrepancy (MMD) between the learned policy and an estimated behavior policy,
 
-$$\text{MMD}^2(\pi, \mu) = \mathbb{E}_{a \sim \pi, a' \sim \pi}[k(a, a')] - 2 \mathbb{E}_{a \sim \pi, a' \sim \mu}[k(a, a')] + \mathbb{E}_{a \sim \mu, a' \sim \mu}[k(a, a')]$$
+$$
+\text{MMD}^2(\pi, \mu) = \mathbb{E}_{a \sim \pi, a' \sim \pi}[k(a, a')] - 2 \mathbb{E}_{a \sim \pi, a' \sim \mu}[k(a, a')] + \mathbb{E}_{a \sim \mu, a' \sim \mu}[k(a, a')]
+\tag{16}
+$$
 
 for a kernel $k$, and constrains the policy to satisfy $\text{MMD}(\pi, \mu) \leq \epsilon$.
 
@@ -155,27 +203,42 @@ BRAC of [Wu et al. 2019][research_wu_tucker_nachum_2019] systematically evaluate
 
 TD3+BC of [Fujimoto and Gu 2021][research_fujimoto_gu_2021] provided a minimalist approach that adds a behavior cloning term to the TD3 policy objective,
 
-$$J_{\text{TD3+BC}}(\pi) = \mathbb{E}\!\left[Q(s, \pi(s))\right] - \lambda \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\|\pi(s) - a\|^2\right]$$
+$$
+J_{\text{TD3+BC}}(\pi) = \mathbb{E}\!\left[Q(s, \pi(s))\right] - \lambda \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\|\pi(s) - a\|^2\right]
+\tag{17}
+$$
 
 with adaptive weighting $\lambda$ based on the Q-value scale. The simplicity of the approach combined with competitive empirical performance has made TD3+BC a widely-used baseline.
 
 Advantage-Weighted Actor Critic (AWAC) of [Nair et al. 2020][research_nair_et_al_2020_awac] takes a weighted-behavior-cloning approach in which the policy is trained to imitate the advantage-weighted behavior distribution,
 
-$$\pi^*(a \mid s) \propto \mu(a \mid s) \exp(A(s, a) / \beta)$$
+$$
+\pi^*(a \mid s) \propto \mu(a \mid s) \exp(A(s, a) / \beta)
+\tag{18}
+$$
 
 using an implicit constraint on the KL divergence from the behavior policy. The AWAC gradient minimizes the KL-constrained cross-entropy,
 
-$$\nabla_\theta L_{\text{AWAC}}(\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\exp\!\left(A^{\pi_k}(s, a) / \beta\right) \nabla_\theta \log \pi_\theta(a \mid s)\right]$$
+$$
+\nabla_\theta L_{\text{AWAC}}(\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\exp\!\left(A^{\pi_k}(s, a) / \beta\right) \nabla_\theta \log \pi_\theta(a \mid s)\right]
+\tag{19}
+$$
 
 which reweights the standard behavior-cloning gradient by the exponentiated advantage of each dataset action. AWAC has proved particularly effective for offline-to-online fine-tuning discussed later.
 
 Implicit Q-Learning (IQL) of [Kostrikov Nair Levine 2022][research_kostrikov_nair_levine_2022] avoids the Q-value overestimation problem by fitting the value function via expectile regression,
 
-$$L_{\text{IQL}}(V) = \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[L_2^\tau(Q_{\text{target}}(s, a) - V(s))\right]$$
+$$
+L_{\text{IQL}}(V) = \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[L_2^\tau(Q_{\text{target}}(s, a) - V(s))\right]
+\tag{20}
+$$
 
 with expectile loss $L_2^\tau(u) = \lvert \tau - \mathbb{1}\{u < 0\} \rvert u^2$ for quantile $\tau \in (0, 1)$. The Q-function is updated with respect to the fitted value baseline,
 
-$$L_{\text{IQL}}(Q) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[(r + \gamma V(s') - Q(s, a))^2\right]$$
+$$
+L_{\text{IQL}}(Q) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[(r + \gamma V(s') - Q(s, a))^2\right]
+\tag{21}
+$$
 
 and the policy is extracted via advantage-weighted regression analogous to AWAC. The mechanism approximates the max over actions in the dataset without requiring explicit policy evaluation on out-of-distribution actions.
 
@@ -185,13 +248,19 @@ Conservative Q-Learning (CQL) of [Kumar Zhou Tucker Levine 2020][research_kumar_
 
 The CQL objective augments the standard Bellman error with a penalty term,
 
-$$L_{\text{CQL}}(Q) = \alpha \, \mathbb{E}_{s \sim \mathcal{D}}\!\left[\log \sum_a \exp(Q(s, a)) - \mathbb{E}_{a \sim \mu}[Q(s, a)]\right] + L_{\text{Bellman}}(Q)$$
+$$
+L_{\text{CQL}}(Q) = \alpha \, \mathbb{E}_{s \sim \mathcal{D}}\!\left[\log \sum_a \exp(Q(s, a)) - \mathbb{E}_{a \sim \mu}[Q(s, a)]\right] + L_{\text{Bellman}}(Q)
+\tag{22}
+$$
 
 where the first term is a per-state Q-value overhang penalty that becomes large when the learned Q-function assigns high value to actions not represented in the dataset. Under the CQL objective, actions in the dataset receive their Bellman-consistent value estimates while actions outside the dataset receive systematically lower value estimates, preventing policy exploitation of out-of-distribution Q-value overestimates.
 
 The theoretical analysis of CQL shows that the learned Q-function provides a lower bound on the true Q-function of any policy sufficiently close to the dataset support. Formally, for the exact CQL solution $\hat{Q}$ under the tabular setting, the expected value under any policy $\pi$ satisfies
 
-$$\mathbb{E}_{a \sim \pi}\!\left[\hat{Q}(s, a)\right] \leq \mathbb{E}_{a \sim \pi}\!\left[Q^*(s, a)\right]$$
+$$
+\mathbb{E}_{a \sim \pi}\!\left[\hat{Q}(s, a)\right] \leq \mathbb{E}_{a \sim \pi}\!\left[Q^*(s, a)\right]
+\tag{23}
+$$
 
 with the bound tight when $\pi = \mu$ and increasingly loose as $\pi$ diverges from $\mu$. This pessimistic value estimation aligns with the pessimism-based sample complexity theory discussed later.
 
@@ -205,19 +274,28 @@ Uncertainty-aware approaches use explicit uncertainty estimates in the Q-functio
 
 SAC-N of [An et al. 2021][research_an_et_al_2021] scales the SAC algorithm to use a large ensemble of $N$ Q-networks (typically $N = 10$ to $100$) and uses the min across the ensemble as the Q-value target,
 
-$$Q_{\text{target}}(s, a) = \min_{k=1, \ldots, N} Q_k(s, a)$$
+$$
+Q_{\text{target}}(s, a) = \min_{k=1, \ldots, N} Q_k(s, a)
+\tag{24}
+$$
 
 The mechanism produces an implicit pessimism that scales with ensemble disagreement, providing state-of-the-art performance on D4RL benchmarks without explicit policy constraints or behavior regularization.
 
 EDAC of An Moon Kim Song 2021 provides a diversity-encouraging regularization that pushes ensemble members apart in gradient space,
 
-$$L_{\text{EDAC}} = L_{\text{SAC-N}} + \eta \, \mathbb{E}\!\left[\sum_{k \neq k'} \frac{|\nabla_a Q_k^\top \nabla_a Q_{k'}|}{\|\nabla_a Q_k\| \|\nabla_a Q_{k'}\|}\right]$$
+$$
+L_{\text{EDAC}} = L_{\text{SAC-N}} + \eta \, \mathbb{E}\!\left[\sum_{k \neq k'} \frac{|\nabla_a Q_k^\top \nabla_a Q_{k'}|}{\|\nabla_a Q_k\| \|\nabla_a Q_{k'}\|}\right]
+\tag{25}
+$$
 
 encouraging the ensemble members to disagree more strongly on out-of-distribution actions, amplifying the pessimism effect.
 
 SAC-RND of [Ghasemipour Gu Nachum 2022][research_ghasemipour_gu_nachum_2022] uses random network distillation as an uncertainty proxy in place of Q-ensemble disagreement, providing a computationally cheaper alternative to large Q-ensembles with competitive performance. The lower-confidence-bound (LCB) formulation of pessimistic offline learning generalizes both approaches through
 
-$$Q_{\text{LCB}}(s, a) = \hat{Q}(s, a) - \beta \, \hat{\sigma}(s, a)$$
+$$
+Q_{\text{LCB}}(s, a) = \hat{Q}(s, a) - \beta \, \hat{\sigma}(s, a)
+\tag{26}
+$$
 
 where $\hat{\sigma}(s, a)$ is an epistemic uncertainty estimate and $\beta$ scales the pessimism. Policy improvement against $Q_{\text{LCB}}$ produces provably-safe offline learning under standard concentrability conditions.
 
@@ -231,11 +309,17 @@ Sequence modeling reformulations recast offline reinforcement learning as autore
 
 Decision Transformer of [Chen et al. 2021][research_chen_et_al_2021_dt] treated in article four predicts actions conditioned on states, previous actions, and target returns-to-go,
 
-$$\pi_\theta(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})$$
+$$
+\pi_\theta(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})
+\tag{27}
+$$
 
 trained by the standard supervised cross-entropy loss on the offline dataset,
 
-$$L_{\text{DT}}(\theta) = -\mathbb{E}_{\tau \sim \mathcal{D}}\!\left[\sum_t \log \pi_\theta(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})\right]$$
+$$
+L_{\text{DT}}(\theta) = -\mathbb{E}_{\tau \sim \mathcal{D}}\!\left[\sum_t \log \pi_\theta(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})\right]
+\tag{28}
+$$
 
 The return-to-go conditioning provides an inference-time knob for policy specification. At test time the agent conditions on a chosen target return, producing actions consistent with achieving that return.
 
@@ -253,15 +337,24 @@ Diffusion models have provided a distinctive class of offline reinforcement lear
 
 Diffuser of [Janner et al. 2022][research_janner_du_song_2022] provided the first systematic treatment, using diffusion over trajectory sequences rather than over per-state actions. The forward diffusion process progressively noises the trajectory $\tau$,
 
-$$q(\tau^{(k)} \mid \tau^{(k-1)}) = \mathcal{N}(\tau^{(k)} ; \sqrt{1 - \beta_k} \, \tau^{(k-1)}, \beta_k I)$$
+$$
+q(\tau^{(k)} \mid \tau^{(k-1)}) = \mathcal{N}(\tau^{(k)} ; \sqrt{1 - \beta_k} \, \tau^{(k-1)}, \beta_k I)
+\tag{29}
+$$
 
 and the reverse denoising process is learned by a neural network,
 
-$$p_\theta(\tau^{(k-1)} \mid \tau^{(k)}) = \mathcal{N}(\tau^{(k-1)} ; \mu_\theta(\tau^{(k)}, k), \Sigma_\theta(\tau^{(k)}, k))$$
+$$
+p_\theta(\tau^{(k-1)} \mid \tau^{(k)}) = \mathcal{N}(\tau^{(k-1)} ; \mu_\theta(\tau^{(k)}, k), \Sigma_\theta(\tau^{(k)}, k))
+\tag{30}
+$$
 
 The method treats planning as conditional generation, sampling trajectories from a diffusion model conditioned on start state and target reward through classifier-free or classifier guidance,
 
-$$\tilde{\mu}_\theta(\tau^{(k)}, k) = \mu_\theta(\tau^{(k)}, k) + \Sigma_\theta \, \nabla_{\tau^{(k)}} J(\tau^{(k)})$$
+$$
+\tilde{\mu}_\theta(\tau^{(k)}, k) = \mu_\theta(\tau^{(k)}, k) + \Sigma_\theta \, \nabla_{\tau^{(k)}} J(\tau^{(k)})
+\tag{31}
+$$
 
 where $J$ is a reward-based guidance signal.
 
@@ -281,7 +374,10 @@ Article seven treated model-based offline reinforcement learning at length. The 
 
 MOPO of [Yu et al. 2020][research_yu_et_al_2020_mopo] and MOReL of [Kidambi et al. 2020][research_kidambi_et_al_2020_morel] provided the foundational methods with uncertainty-penalty rewards that penalize policy visits to high-uncertainty model regions. The MOPO penalty modifies the reward on model-based rollouts as
 
-$$\tilde{r}(s, a) = \hat{r}(s, a) - \lambda \, u(s, a)$$
+$$
+\tilde{r}(s, a) = \hat{r}(s, a) - \lambda \, u(s, a)
+\tag{32}
+$$
 
 where $u(s, a)$ is an epistemic uncertainty estimate from the model ensemble and $\lambda$ controls the trade-off between model exploitation and conservatism. COMBO of [Yu et al. 2021][research_yu_et_al_2021_combo] extended the model by combining model-based rollouts with the CQL conservative value objective, achieving state-of-the-art performance on many benchmarks.
 
@@ -299,7 +395,10 @@ AWAC of Nair et al 2020 was designed with offline-to-online fine-tuning in mind.
 
 Cal-QL of [Nakamoto et al. 2023][research_nakamoto_et_al_2023] provides an alternative approach that calibrates the offline-trained conservative Q-function to match the true value scale, permitting effective online fine-tuning without the policy collapse that plain CQL exhibits during online adaptation. The Cal-QL objective adds a calibration term to CQL that lower-bounds the Q-function by the Monte Carlo return of the behavior policy,
 
-$$L_{\text{Cal-QL}}(Q) = L_{\text{CQL}}(Q) + \eta \, \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\left(\max(Q(s, a), V^\mu(s)) - Q(s, a)\right)^2\right]$$
+$$
+L_{\text{Cal-QL}}(Q) = L_{\text{CQL}}(Q) + \eta \, \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\left(\max(Q(s, a), V^\mu(s)) - Q(s, a)\right)^2\right]
+\tag{33}
+$$
 
 preventing the Q-function from underestimating value on states well-covered by the dataset.
 
@@ -315,23 +414,35 @@ The pessimism principle formalizes this observation. An offline algorithm should
 
 Xie Cheng Jiang Mineiro and Agarwal 2021, [Rashidinejad et al. 2021][research_rashidinejad_et_al_2021], [Jin et al. 2021][research_jin_yang_wang_2021], and [Uehara and Sun 2022][research_uehara_sun_2022] established sample complexity bounds for pessimistic offline reinforcement learning of the form
 
-$$V^* - V^{\hat{\pi}} \leq \tilde{\mathcal{O}}\!\left(\sqrt{\frac{C^* H^3}{N}}\right)$$
+$$
+V^* - V^{\hat{\pi}} \leq \tilde{\mathcal{O}}\!\left(\sqrt{\frac{C^* H^3}{N}}\right)
+\tag{34}
+$$
 
 where $C^\*$ is a concentrability coefficient measuring the coverage of the optimal policy's state-action distribution by the offline data distribution and $N$ is the dataset size. The bound depends on $C^\*$ rather than the state-action space size, providing meaningful guarantees for problems with large state spaces provided the coverage is favorable.
 
 The concentrability coefficient can be characterized as
 
-$$C^* = \max_{s, a} \frac{d^{\pi^*}(s, a)}{d^\mu(s, a)}$$
+$$
+C^* = \max_{s, a} \frac{d^{\pi^*}(s, a)}{d^\mu(s, a)}
+\tag{35}
+$$
 
 where $d^{\pi^\*}$ is the state-action distribution of the optimal policy and $d^\mu$ is that of the behavior policy. When $C^\*$ is bounded, the offline dataset provides sufficient coverage to identify a near-optimal policy without further exploration.
 
 Weaker single-policy concentrability replaces the maximum over states and actions with an average,
 
-$$\bar{C}^* = \mathbb{E}_{(s, a) \sim d^{\pi^*}}\!\left[\frac{d^{\pi^*}(s, a)}{d^\mu(s, a)}\right]$$
+$$
+\bar{C}^* = \mathbb{E}_{(s, a) \sim d^{\pi^*}}\!\left[\frac{d^{\pi^*}(s, a)}{d^\mu(s, a)}\right]
+\tag{36}
+$$
 
 and yields tighter bounds in favorable regimes. All-policy concentrability
 
-$$C_{\text{all}} = \sup_\pi \max_{s, a} \frac{d^\pi(s, a)}{d^\mu(s, a)}$$
+$$
+C_{\text{all}} = \sup_\pi \max_{s, a} \frac{d^\pi(s, a)}{d^\mu(s, a)}
+\tag{37}
+$$
 
 is required by algorithms without pessimism, and its typical unboundedness is the fundamental reason such algorithms fail in offline settings.
 
@@ -375,7 +486,10 @@ Preference-based offline reinforcement learning combines offline data with human
 
 The general setting provides a dataset of trajectory pairs $(\tau_i, \tau'\_i)$ with human preferences $y_i \in \{0, 1\}$ indicating whether $\tau_i$ or $\tau'\_i$ was preferred. A reward model is learned by minimizing the Bradley-Terry log-likelihood
 
-$$L_{\text{reward}}(\phi) = -\mathbb{E}_{(\tau, \tau', y)}\!\left[y \log \sigma(\hat{R}_\phi(\tau) - \hat{R}_\phi(\tau')) + (1 - y) \log \sigma(\hat{R}_\phi(\tau') - \hat{R}_\phi(\tau))\right]$$
+$$
+L_{\text{reward}}(\phi) = -\mathbb{E}_{(\tau, \tau', y)}\!\left[y \log \sigma(\hat{R}_\phi(\tau) - \hat{R}_\phi(\tau')) + (1 - y) \log \sigma(\hat{R}_\phi(\tau') - \hat{R}_\phi(\tau))\right]
+\tag{38}
+$$
 
 where $\hat{R}\_\phi(\tau) = \sum_t \hat{r}\_\phi(s_t, a_t)$ is the trajectory-level reward under the learned reward model. The learned reward is then used to label the offline dataset and enable standard offline reinforcement learning.
 
@@ -391,7 +505,10 @@ Offline constrained reinforcement learning augments the standard offline setting
 
 The constrained offline problem seeks a policy that maximizes expected return subject to constraint satisfaction,
 
-$$\max_\pi J(\pi) \quad \text{subject to} \quad J_{c_i}(\pi) \leq d_i \text{ for } i = 1, \ldots, K$$
+$$
+\max_\pi J(\pi) \quad \text{subject to} \quad J_{c_i}(\pi) \leq d_i \text{ for } i = 1, \ldots, K
+\tag{39}
+$$
 
 where $J_{c_i}(\pi)$ is the expected value of constraint $i$ under policy $\pi$ and $d_i$ is the allowed threshold. Both $J$ and the $J_{c_i}$ must be estimated from the offline data, subject to the same distributional shift challenges as unconstrained offline reinforcement learning.
 
@@ -463,6 +580,380 @@ Article fourteen returns to the NeuroAI bridge and treats the relationship betwe
 - How closely do the offline learning mechanisms of hippocampal replay correspond to offline reinforcement learning algorithms?
 - What is the correct approach to combining multiple heterogeneous offline datasets from different collection policies, quality levels, and time periods?
 - How should offline reinforcement learning be integrated with the sequence modeling, diffusion, and foundation model paradigms that have emerged in the 2020s?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 39 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 39, 37 are established and 2 are bespoke.
+Occupancy measures, importance ratios and concentrability coefficients are dimensionless, values and returns carry the units of the reward signal, and $N$ counts transitions in some equations and trajectories in others, so a sample complexity bound must be read with the unit of $N$ that its source uses.
+
+**Equation 1, Offline Dataset.**
+Offline reinforcement learning receives a fixed set of transitions collected beforehand by a behaviour policy.
+[Levine et al. 2020][research_levine_et_al_2020]
+
+$$
+\mathcal{D} = \{(s_i, a_i, r_i, s'_i)\}_{i=1}^N
+\tag{1}
+$$
+
+**Equation 2, Discounted State-Action Occupancy.**
+The normalised discounted occupancy gives how often a policy visits each state-action pair, weighted by the discount.
+
+$$
+d^\pi(s, a) = (1 - \gamma) \sum_{t=0}^{\infty} \gamma^t \Pr(s_t = s, a_t = a \mid s_0 \sim \mu_0, \pi)
+\tag{2}
+$$
+
+**Equation 3, Occupancy Ratio.**
+The ratio of the target policy's occupancy to the behaviour occupancy measures distributional shift and is unbounded where the data do not cover the target policy.
+
+$$
+w(s, a) = \frac{d^\pi(s, a)}{d^\mu(s, a)}
+\tag{3}
+$$
+
+**Equation 4, Q-Learning Target.**
+The bootstrapped target maximises over next actions, including actions the dataset may never contain.
+
+$$
+y = r + \gamma \max_{a'} Q(s', a')
+\tag{4}
+$$
+
+*Equation 5, Bespoke Lower Bound on Maximisation Bias.*
+The article states that the expected maximum of noisy action values exceeds the true maximum by at least a multiple of the noise scale that grows with the action count, which holds only under its assumption of zero-mean noise of equal variance at every action.
+
+$$
+\mathbb{E}[\max_a \hat{Q}(s, a)] - \max_a Q^*(s, a) \geq c(|\mathcal{A}|) \sigma
+\tag{5}
+$$
+
+**Equation 6, Behaviour Cloning Loss.**
+Behaviour cloning maximises the log likelihood of the dataset actions under the learned policy.
+
+$$
+L_{\text{BC}}(\pi_\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\log \pi_\theta(a \mid s)\right]
+\tag{6}
+$$
+
+**Equation 7, Advantage-Weighted Regression Loss.**
+Advantage-weighted regression weights each behaviour cloning term by the exponential of the action's advantage over a temperature.
+[Peng et al. 2019][research_peng_kumar_zhang_levine_2019]
+
+$$
+L_{\text{AWR}}(\pi_\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\exp(A(s, a) / \beta) \log \pi_\theta(a \mid s)\right]
+\tag{7}
+$$
+
+**Equation 8, Trajectory Importance Sampling Estimator.**
+The estimator averages each trajectory's return weighted by its full importance ratio.
+[Precup et al. 2000][research_precup_sutton_singh_2000_offline]
+
+$$
+\hat{V}^\pi_{\text{IS}} = \frac{1}{N} \sum_{i=1}^N \rho_{0:T_i-1}^{(i)} G^{(i)}
+\tag{8}
+$$
+
+**Equation 9, Trajectory Importance Sampling Ratio.**
+The ratio of target to behaviour policy probabilities is multiplied over the actions of a trajectory of length $T$.
+[Precup et al. 2000][research_precup_sutton_singh_2000_offline]
+
+$$
+\rho_{0:T-1} = \prod_{t=0}^{T-1} \frac{\pi(a_t \mid s_t)}{\mu(a_t \mid s_t)}
+\tag{9}
+$$
+
+**Equation 10, Per-Decision Importance Sampling Estimator.**
+Each reward is weighted only by the importance ratio of the actions up to and including the one that produced it.
+[Precup et al. 2000][research_precup_sutton_singh_2000_offline]
+
+$$
+\hat{V}^\pi_{\text{PDIS}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \rho_{0:t}^{(i)} r_{t+1}^{(i)}
+\tag{10}
+$$
+
+**Equation 11, Weighted Importance Sampling Estimator.**
+Weighted importance sampling normalises the reweighted returns by the sum of the ratios, which introduces bias but usually reduces variance.
+
+$$
+\hat{V}^\pi_{\text{WIS}} = \frac{\sum_i \rho_{0:T_i-1}^{(i)} G^{(i)}}{\sum_i \rho_{0:T_i-1}^{(i)}}
+\tag{11}
+$$
+
+**Equation 12, Doubly Robust Off-Policy Estimator.**
+The doubly robust estimator combines importance-weighted rewards with a learned value baseline so that it remains unbiased if either the ratios or the baseline is correct.
+[Jiang and Li 2016][research_jiang_li_2016_offline]
+[Thomas and Brunskill 2016][research_thomas_brunskill_2016]
+
+$$
+\hat{V}^\pi_{\text{DR}} = \frac{1}{N} \sum_{i=1}^N \sum_{t=0}^{T_i-1} \gamma^t \left[\rho_{0:t}^{(i)} \left(r_{t+1}^{(i)} + \gamma \hat{V}(s_{t+1}^{(i)}) - \hat{Q}(s_t^{(i)}, a_t^{(i)})\right) + \rho_{0:t-1}^{(i)} \hat{V}(s_t^{(i)})\right]
+\tag{12}
+$$
+
+**Equation 13, DualDICE Saddle-Point Objective.**
+Distribution correction estimation, abbreviated DICE, recovers the occupancy ratio as the solution of a saddle-point problem that uses only the dataset and samples from the initial distribution.
+[Nachum et al. 2019][research_nachum_et_al_2019_dualdice]
+
+$$
+\min_v \max_\zeta \, \mathbb{E}_{(s, a) \sim d^\mu}\!\left[f(\zeta(s, a)) - \zeta(s, a) \cdot \mathcal{T}^\pi v(s, a)\right] + (1 - \gamma) \mathbb{E}_{s_0 \sim \mu_0, a_0 \sim \pi}\!\left[v(s_0, a_0)\right]
+\tag{13}
+$$
+
+**Equation 14, Fitted Q Evaluation Backup.**
+Each iteration regresses the action value onto the reward plus the discounted expected value of the previous estimate under the target policy at the next state.
+[Le Voloshin Yue 2019][research_le_voloshin_yue_2019]
+
+$$
+\hat{Q}_{k+1}(s, a) = \mathbb{E}_{(s', r) \sim \mathcal{D}}\!\left[r + \gamma \mathbb{E}_{a' \sim \pi}[\hat{Q}_k(s', a')]\right]
+\tag{14}
+$$
+
+**Equation 15, Behaviour-Regularised Policy Objective.**
+The policy maximises its expected action value less a multiple of its divergence from the behaviour policy.
+[Wu et al. 2019][research_wu_tucker_nachum_2019]
+
+$$
+J_{\text{BR}}(\pi) = \mathbb{E}\!\left[Q(s, a)\right] - \alpha \, D(\pi(\cdot \mid s) \, \| \, \mu(\cdot \mid s))
+\tag{15}
+$$
+
+**Equation 16, Squared Maximum Mean Discrepancy.**
+The squared maximum mean discrepancy between two action distributions is written with kernel expectations within and across the two distributions.
+[Kumar Fu Tucker Levine 2019][research_kumar_et_al_2019_bear]
+
+$$
+\text{MMD}^2(\pi, \mu) = \mathbb{E}_{a \sim \pi, a' \sim \pi}[k(a, a')] - 2 \mathbb{E}_{a \sim \pi, a' \sim \mu}[k(a, a')] + \mathbb{E}_{a \sim \mu, a' \sim \mu}[k(a, a')]
+\tag{16}
+$$
+
+**Equation 17, TD3 Plus Behaviour Cloning Objective.**
+The deterministic actor maximises its action value less a weighted squared distance from the dataset action.
+[Fujimoto and Gu 2021][research_fujimoto_gu_2021]
+
+$$
+J_{\text{TD3+BC}}(\pi) = \mathbb{E}\!\left[Q(s, \pi(s))\right] - \lambda \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\|\pi(s) - a\|^2\right]
+\tag{17}
+$$
+
+**Equation 18, Advantage-Weighted Optimal Policy.**
+The solution of the divergence-constrained improvement problem is the behaviour policy reweighted by the exponentiated advantage.
+[Nair et al. 2020][research_nair_et_al_2020_awac]
+
+$$
+\pi^*(a \mid s) \propto \mu(a \mid s) \exp(A(s, a) / \beta)
+\tag{18}
+$$
+
+**Equation 19, Advantage-Weighted Actor-Critic Gradient.**
+The policy gradient is the behaviour cloning gradient with each dataset action weighted by its exponentiated advantage.
+[Nair et al. 2020][research_nair_et_al_2020_awac]
+
+$$
+\nabla_\theta L_{\text{AWAC}}(\theta) = -\mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\exp\!\left(A^{\pi_k}(s, a) / \beta\right) \nabla_\theta \log \pi_\theta(a \mid s)\right]
+\tag{19}
+$$
+
+**Equation 20, Implicit Q-Learning Value Loss.**
+Implicit Q-learning fits the state value by expectile regression on target action values, approximating a maximum over dataset actions.
+[Kostrikov Nair Levine 2022][research_kostrikov_nair_levine_2022]
+
+$$
+L_{\text{IQL}}(V) = \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[L_2^\tau(Q_{\text{target}}(s, a) - V(s))\right]
+\tag{20}
+$$
+
+**Equation 21, Implicit Q-Learning Action-Value Loss.**
+The action value regresses onto the reward plus the discounted fitted state value, so no out-of-distribution action is queried.
+[Kostrikov Nair Levine 2022][research_kostrikov_nair_levine_2022]
+
+$$
+L_{\text{IQL}}(Q) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}}\!\left[(r + \gamma V(s') - Q(s, a))^2\right]
+\tag{21}
+$$
+
+**Equation 22, Conservative Q-Learning Objective.**
+Conservative Q-learning adds to the Bellman error a penalty equal to the soft maximum of the action values less their mean over dataset actions.
+[Kumar Zhou Tucker Levine 2020][research_kumar_zhou_tucker_levine_2020]
+
+$$
+L_{\text{CQL}}(Q) = \alpha \, \mathbb{E}_{s \sim \mathcal{D}}\!\left[\log \sum_a \exp(Q(s, a)) - \mathbb{E}_{a \sim \mu}[Q(s, a)]\right] + L_{\text{Bellman}}(Q)
+\tag{22}
+$$
+
+**Equation 23, Conservative Value Lower Bound.**
+In the tabular setting the policy-averaged conservative action value does not exceed the corresponding true value.
+[Kumar Zhou Tucker Levine 2020][research_kumar_zhou_tucker_levine_2020]
+
+$$
+\mathbb{E}_{a \sim \pi}\!\left[\hat{Q}(s, a)\right] \leq \mathbb{E}_{a \sim \pi}\!\left[Q^*(s, a)\right]
+\tag{23}
+$$
+
+**Equation 24, Ensemble Minimum Target.**
+The target takes the minimum over an ensemble of $N$ action-value networks, which yields pessimism that grows with their disagreement.
+[An et al. 2021][research_an_et_al_2021]
+
+$$
+Q_{\text{target}}(s, a) = \min_{k=1, \ldots, N} Q_k(s, a)
+\tag{24}
+$$
+
+**Equation 25, Ensemble Gradient Diversity Penalty.**
+The ensemble-diversified actor-critic adds a penalty on the pairwise cosine similarity of the members' action gradients.
+[An et al. 2021][research_an_et_al_2021]
+
+$$
+L_{\text{EDAC}} = L_{\text{SAC-N}} + \eta \, \mathbb{E}\!\left[\sum_{k \neq k'} \frac{|\nabla_a Q_k^\top \nabla_a Q_{k'}|}{\|\nabla_a Q_k\| \|\nabla_a Q_{k'}\|}\right]
+\tag{25}
+$$
+
+**Equation 26, Lower Confidence Bound Action Value.**
+The pessimistic action value subtracts a multiple of the epistemic uncertainty from the estimate.
+[Rashidinejad et al. 2021][research_rashidinejad_et_al_2021]
+
+$$
+Q_{\text{LCB}}(s, a) = \hat{Q}(s, a) - \beta \, \hat{\sigma}(s, a)
+\tag{26}
+$$
+
+**Equation 27, Return-Conditioned Policy.**
+Decision Transformer conditions each action on a recent window of states, actions and returns-to-go.
+[Chen et al. 2021][research_chen_et_al_2021_dt]
+
+$$
+\pi_\theta(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})
+\tag{27}
+$$
+
+**Equation 28, Decision Transformer Loss.**
+The model is trained by maximising the log likelihood of dataset actions under that conditioning.
+[Chen et al. 2021][research_chen_et_al_2021_dt]
+
+$$
+L_{\text{DT}}(\theta) = -\mathbb{E}_{\tau \sim \mathcal{D}}\!\left[\sum_t \log \pi_\theta(a_t \mid s_{t-K:t}, a_{t-K:t-1}, \hat{R}_{t-K:t})\right]
+\tag{28}
+$$
+
+**Equation 29, Forward Diffusion Step.**
+Each forward step shrinks the trajectory by $\sqrt{1 - \beta_k}$ and adds Gaussian noise of variance $\beta_k$.
+[Ho Jain Abbeel 2020][research_ho_jain_abbeel_2020_ddpm]
+
+$$
+q(\tau^{(k)} \mid \tau^{(k-1)}) = \mathcal{N}(\tau^{(k)} ; \sqrt{1 - \beta_k} \, \tau^{(k-1)}, \beta_k I)
+\tag{29}
+$$
+
+**Equation 30, Learned Reverse Diffusion Step.**
+A network predicts the mean and covariance of the Gaussian that removes one step of noise.
+[Janner et al. 2022][research_janner_du_song_2022]
+
+$$
+p_\theta(\tau^{(k-1)} \mid \tau^{(k)}) = \mathcal{N}(\tau^{(k-1)} ; \mu_\theta(\tau^{(k)}, k), \Sigma_\theta(\tau^{(k)}, k))
+\tag{30}
+$$
+
+**Equation 31, Guided Reverse Mean.**
+Guidance shifts the reverse mean along the gradient of a return signal scaled by the reverse covariance.
+[Janner et al. 2022][research_janner_du_song_2022]
+
+$$
+\tilde{\mu}_\theta(\tau^{(k)}, k) = \mu_\theta(\tau^{(k)}, k) + \Sigma_\theta \, \nabla_{\tau^{(k)}} J(\tau^{(k)})
+\tag{31}
+$$
+
+**Equation 32, Uncertainty-Penalised Reward.**
+Model-based offline policy optimisation subtracts from the model reward a multiple of the ensemble uncertainty.
+[Yu et al. 2020][research_yu_et_al_2020_mopo]
+
+$$
+\tilde{r}(s, a) = \hat{r}(s, a) - \lambda \, u(s, a)
+\tag{32}
+$$
+
+*Equation 33, Bespoke Calibration Penalty for Conservative Q-Learning.*
+The article renders the calibration of Cal-QL as a squared penalty on any shortfall of the action value below the behaviour value, a form of its own rather than the cited method's substitution inside the conservative penalty.
+[Nakamoto et al. 2023][research_nakamoto_et_al_2023]
+
+$$
+L_{\text{Cal-QL}}(Q) = L_{\text{CQL}}(Q) + \eta \, \mathbb{E}_{(s, a) \sim \mathcal{D}}\!\left[\left(\max(Q(s, a), V^\mu(s)) - Q(s, a)\right)^2\right]
+\tag{33}
+$$
+
+**Equation 34, Suboptimality Bound of Pessimistic Offline Learning.**
+Pessimistic offline algorithms return a policy whose suboptimality shrinks as the square root of the concentrability coefficient over the dataset size, with a polynomial dependence on the horizon.
+[Rashidinejad et al. 2021][research_rashidinejad_et_al_2021]
+[Jin et al. 2021][research_jin_yang_wang_2021]
+
+$$
+V^* - V^{\hat{\pi}} \leq \tilde{\mathcal{O}}\!\left(\sqrt{\frac{C^* H^3}{N}}\right)
+\tag{34}
+$$
+
+**Equation 35, Single-Policy Concentrability Coefficient.**
+The coefficient is the largest ratio of the optimal policy's occupancy to the behaviour occupancy.
+[Rashidinejad et al. 2021][research_rashidinejad_et_al_2021]
+
+$$
+C^* = \max_{s, a} \frac{d^{\pi^*}(s, a)}{d^\mu(s, a)}
+\tag{35}
+$$
+
+**Equation 36, Averaged Concentrability Coefficient.**
+Averaging the occupancy ratio under the optimal policy's occupancy gives a weaker coverage measure than its maximum.
+
+$$
+\bar{C}^* = \mathbb{E}_{(s, a) \sim d^{\pi^*}}\!\left[\frac{d^{\pi^*}(s, a)}{d^\mu(s, a)}\right]
+\tag{36}
+$$
+
+**Equation 37, All-Policy Concentrability Coefficient.**
+All-policy concentrability takes the largest occupancy ratio over every policy, which the data must bound for algorithms without pessimism.
+
+$$
+C_{\text{all}} = \sup_\pi \max_{s, a} \frac{d^\pi(s, a)}{d^\mu(s, a)}
+\tag{37}
+$$
+
+**Equation 38, Bradley-Terry Trajectory Preference Loss.**
+The reward model minimises the cross-entropy of observed trajectory preferences under a logistic model of summed predicted rewards.
+[Christiano et al. 2017][research_christiano_et_al_2017_rlhf]
+
+$$
+L_{\text{reward}}(\phi) = -\mathbb{E}_{(\tau, \tau', y)}\!\left[y \log \sigma(\hat{R}_\phi(\tau) - \hat{R}_\phi(\tau')) + (1 - y) \log \sigma(\hat{R}_\phi(\tau') - \hat{R}_\phi(\tau))\right]
+\tag{38}
+$$
+
+**Equation 39, Constrained Policy Optimisation Problem.**
+The policy maximises expected return subject to each expected constraint cost staying below its threshold.
+[Le et al. 2019][research_le_voloshin_yue_2019_constraints]
+
+$$
+\max_\pi J(\pi) \quad \text{subject to} \quad J_{c_i}(\pi) \leq d_i \text{ for } i = 1, \ldots, K
+\tag{39}
+$$
+
+### Notation
+
+- $\mathcal{D}$, the fixed offline dataset
+- $d^\pi(s, a)$, the normalised discounted state-action occupancy of policy $\pi$
+- $d^\mu(s, a)$, the occupancy of the behaviour policy
+- $w(s, a)$, the occupancy ratio
+- $\rho_{0:T-1}$, the trajectory importance sampling ratio
+- $\beta$, the advantage temperature in equations 7, 18 and 19, the pessimism scale in equation 26 and, as $\beta_k$, the diffusion noise schedule
+- $\alpha$, the strength of behaviour regularisation or of the conservative penalty
+- $k(a, a')$, the kernel of the maximum mean discrepancy
+- $L_2^\tau$, the expectile loss at level $\tau$
+- $\hat{\sigma}(s, a)$, the epistemic uncertainty estimate
+- $\tau^{(k)}$, the trajectory after $k$ diffusion steps
+- $u(s, a)$, the ensemble uncertainty estimate
+- $C^*$, the single-policy concentrability coefficient
+- $H$, the episode horizon
+- $J_{c_i}(\pi)$, the expected cost of constraint $i$, with $d_i$ its threshold
 
 ## References
 

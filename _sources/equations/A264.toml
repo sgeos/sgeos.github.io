@@ -1,0 +1,371 @@
+# Equation classification for A264. Read by `python3 _lib/equations.py`.
+
+caution = "Associative strengths, probabilities and retention are dimensionless while times carry the units of the experiment, and symbols such as $\\alpha$, $\\beta$, $\\gamma$, $\\eta$ and $\\lambda$ are reused with a different meaning in each model, so every equation is read with the symbols defined beside it."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke General Learning Update"
+gloss = "The article frames every tradition of learning as one recursive update of an internal state from the interaction history, with the update function left open to each formalisation."
+cite = []
+digest = "42f8adfb44c2b8ba"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Exponential Acquisition Curve"
+gloss = "Associative strength approaches its asymptote exponentially with the number of conditioned stimulus and unconditioned stimulus pairings."
+cite = []
+digest = "4bb119c14e3c9cfa"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Similarity-Scaled Generalisation Gradient"
+gloss = "The article writes the generalisation gradient as the trained associative strength scaled by an unspecified similarity between a test stimulus and the conditioned stimulus."
+cite = []
+digest = "88bd4600ac210f59"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Contingency Measure Delta P"
+gloss = "Contingency is the probability of the unconditioned stimulus given the conditioned stimulus minus its probability in the absence of the conditioned stimulus."
+cite = ["research_rescorla_1968"]
+digest = "1386a2c9da2c2472"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Rescorla-Wagner Update"
+gloss = "The change in associative strength of each conditioned stimulus on a trial is the product of two learning rates and the shared prediction error between the asymptote and the summed strength of all stimuli present."
+cite = ["research_rescorla_wagner_1972"]
+digest = "6e191d141a1b0c5f"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Delta Rule as Temporal-Difference Learning Without Discounting"
+gloss = "With the discount factor set to zero the temporal-difference update reduces to moving a value estimate toward the received reward, the trial-level form of the Rescorla-Wagner rule."
+cite = []
+digest = "0afe535b3e633b2e"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Herrnstein Matching Law"
+gloss = "Under concurrent variable-interval schedules the proportion of responses on an alternative equals the proportion of reinforcement obtained from it."
+cite = ["research_herrnstein_1961"]
+digest = "d1099f0278e9bcce"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Hull Multiplicative Response Strength"
+gloss = "Hull's drive-reduction theory makes response strength the product of habit strength, drive and incentive, which combines learning history with motivational state."
+cite = ["book_hull_1943"]
+digest = "4c01be464d98851f"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Miller Capacity of Short-Term Memory"
+gloss = "Miller's estimate places the capacity of short-term memory at about seven chunks, give or take two."
+cite = ["research_miller_1956"]
+digest = "810f2d33e2e353be"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Mackintosh Attention Rule"
+gloss = "Attention to a stimulus rises when it predicts the outcome better than the other stimuli present and falls otherwise."
+cite = ["research_mackintosh_1975"]
+digest = "170a9b95f9f58dbd"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Pearce-Hall Attention Update"
+gloss = "Attention to a conditioned stimulus on a trial is a smoothed average of the unsigned prediction error on the previous trial and the previous attention."
+cite = ["research_pearce_hall_1980"]
+digest = "587087989e177376"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Uncertainty-Weighted Blend of Model-Based and Model-Free Values"
+gloss = "The article combines the model-based and model-free value estimates as an average weighted by inverse variance, a blending assumption in place of the arbitration that selects the less uncertain controller."
+cite = []
+digest = "bd391cfb14be76cc"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Prototype Classification Rule"
+gloss = "The article formalises prototype theory as a posterior over categories proportional to the similarity to each category prototype times the category prior, a form that the cited prototype work states only in words."
+cite = []
+digest = "25b7f0f9ab729410"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Generalized Context Model Choice Rule"
+gloss = "The probability of assigning an item to a category is its summed similarity to the stored exemplars of that category divided by its summed similarity to all exemplars."
+cite = ["research_nosofsky_1986"]
+digest = "8a483f45dc98c265"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Bayesian Generalisation with the Size Principle"
+gloss = "The posterior over candidate concepts multiplies the prior by a likelihood that is the reciprocal of the hypothesis size for each consistent example and zero otherwise, which favours the smallest consistent hypothesis."
+cite = ["research_tenenbaum_1999"]
+digest = "afc8d2c6e54a9126"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "ALCOVE Exemplar Activation"
+gloss = "The Attention Learning Covering map model activates each exemplar node by an exponential decay of the attention-weighted Minkowski distance between the input and the exemplar."
+cite = ["research_kruschke_1992_alcove"]
+digest = "87be6135b442cc89"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Structure-Mapping Objective"
+gloss = "The article writes the selected analogical mapping as the maximiser of an unweighted sum of structural consistency and systematicity, a schematic scoring of the preferences that structure-mapping theory states."
+cite = []
+digest = "46bae43e7075ddf0"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Vicarious Reinforcement Update"
+gloss = "The article models observational learning as a change in the probability of a behaviour that adds direct and observed reinforcement, each with its own learning rate."
+cite = []
+digest = "5045f77cdfbfa613"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Softmax Copy-Successful Strategy"
+gloss = "The article formalises the copy-successful social learning strategy as a softmax over the observed average reward of each behaviour, a choice rule it supplies for a strategy the cited survey describes qualitatively."
+cite = []
+digest = "44ae365d2668369c"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Power Law of Practice"
+gloss = "The time to complete a task falls toward an asymptote as a power of the number of practice trials."
+cite = ["research_newell_rosenbloom_1981"]
+digest = "ffbae073e2192617"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Fitts's Law"
+gloss = "Movement time grows linearly with the base-two logarithm of twice the movement distance divided by the target width."
+cite = ["research_fitts_1954"]
+digest = "29f75bf4c0b6e0d6"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Exponential Forgetting Curve"
+gloss = "Retention decays exponentially from its initial value with a single memory time constant, the textbook simplification of the forgetting curve."
+cite = []
+digest = "0055d9c68471af16"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Exponential Decay of Short-Term Recall"
+gloss = "Without rehearsal the probability of recall from short-term memory decays exponentially with the delay, as in the Brown-Peterson task."
+cite = []
+digest = "f966349dc4c8c8bf"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Bayes' Rule"
+gloss = "The posterior over hypotheses is the likelihood times the prior divided by the evidence."
+cite = []
+digest = "0928508654be654b"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Posterior over Causal Graph Structures"
+gloss = "Causal learning is posed as Bayesian inference over graphs, with the likelihood factorised over each variable conditioned on its parents in the candidate graph."
+cite = ["research_gopnik_et_al_2004"]
+digest = "11248d892dcaadf2"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Prospect Theory Value Function"
+gloss = "The value function is a power function that is concave for gains and convex and steeper for losses, with the loss-aversion coefficient scaling the loss branch."
+cite = ["research_kahneman_tversky_1979"]
+digest = "123da34f142444ff"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Prospect Theory Probability Weighting Function"
+gloss = "The one-parameter weighting function of cumulative prospect theory overweights small probabilities and underweights moderate and large ones."
+cite = ["research_tversky_kahneman_1992"]
+digest = "849260ea653a7212"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Prospect Theory Decision Value"
+gloss = "The value of a prospect is the sum over its outcomes of the weighted probability times the value of each outcome."
+cite = ["research_kahneman_tversky_1979"]
+digest = "708edd4e512c20af"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Cross-Situational Word-Learning Posterior"
+gloss = "The article writes the posterior over word and referent mappings as a product over labelling instances of the word likelihood given the mapping and referent, with the prior placed inside the product."
+cite = []
+digest = "67056fa1979954f1"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Variational Free Energy"
+gloss = "Free energy is the Kullback-Leibler divergence from the approximate posterior to the true posterior over hidden states minus the log evidence, so it bounds surprise from above."
+cite = []
+digest = "f622b1c3e39177a4"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Interoceptive Inference Account of Emotion"
+gloss = "The article writes emotion as an unspecified categorical inference applied to the interoceptive prediction error and the context, a schematic rendering of the interoceptive predictive processing proposal."
+cite = ["research_seth_2013"]
+digest = "7eb87d234ad485f6"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Spike-Timing-Dependent Plasticity Window"
+gloss = "Synaptic weight potentiates when the postsynaptic spike follows the presynaptic spike and depresses when it precedes it, with each branch decaying exponentially in the spike time difference."
+cite = ["research_bi_poo_1998"]
+digest = "140c9da966f94eba"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Spacing-Dependent Power-Law Retention"
+gloss = "The article writes retention as a power law in the ratio of the retention interval to the study spacing, a form it supplies rather than the fit reported in the cited meta-analysis."
+cite = []
+digest = "31fc5876b849c7cb"
+
+[[symbol]]
+tex = '\theta_t'
+meaning = "the internal state of the learner at time $t$"
+
+[[symbol]]
+tex = '\Delta(\theta_t, o_t, a_t, r_t)'
+meaning = "the update function, which depends on the formalisation adopted"
+
+[[symbol]]
+tex = 'V_\infty'
+meaning = "the asymptotic associative strength"
+
+[[symbol]]
+tex = 'V_{\text{CS}}'
+meaning = "the associative strength of a conditioned stimulus"
+
+[[symbol]]
+tex = '\alpha_{\text{CS}}'
+meaning = "the learning rate or attention for a conditioned stimulus"
+
+[[symbol]]
+tex = '\beta_{\text{US}}'
+meaning = "the learning rate for the unconditioned stimulus"
+
+[[symbol]]
+tex = '\Sigma V'
+meaning = "the summed associative strength of all conditioned stimuli present on a trial"
+
+[[symbol]]
+tex = '\Delta P'
+meaning = "the contingency between the conditioned and unconditioned stimulus"
+
+[[symbol]]
+tex = 'B_1'
+meaning = "the response rate on the first alternative"
+
+[[symbol]]
+tex = 'R_1'
+meaning = "the reinforcement rate on the first alternative"
+
+[[symbol]]
+tex = 'C_{\text{STM}}'
+meaning = "the capacity of short-term memory in chunks"
+
+[[symbol]]
+tex = 'w_{\text{MB}}(s, a)'
+meaning = "the weight on the model-based value estimate, proportional to its inverse variance"
+
+[[symbol]]
+tex = 'p_k'
+meaning = "the prototype of category $k$"
+
+[[symbol]]
+tex = '\eta(x^*, x_i)'
+meaning = "the similarity of a test item to stored exemplar $i$, an exponential of their distance"
+
+[[symbol]]
+tex = 'a_i^{\text{exemplar}}'
+meaning = "the activation of exemplar node $i$"
+
+[[symbol]]
+tex = '\bar{r}(a)'
+meaning = "the observed average reward of individuals performing behaviour $a$"
+
+[[symbol]]
+tex = 'T_0'
+meaning = "the asymptotic time to complete a task"
+
+[[symbol]]
+tex = '\frac{2 D}{W}'
+meaning = "twice the movement distance divided by the target width"
+
+[[symbol]]
+tex = 'R_0'
+meaning = "the initial retention"
+
+[[symbol]]
+tex = '\tau_{\text{STM}}'
+meaning = "the decay time constant of short-term memory, about twenty seconds without rehearsal"
+
+[[symbol]]
+tex = '\text{Pa}_G(x_i)'
+meaning = "the parents of variable $x_i$ in causal graph $G$"
+
+[[symbol]]
+tex = 'v(x)'
+meaning = "the prospect theory value of an outcome $x$ relative to the reference point"
+
+[[symbol]]
+tex = 'w(p)'
+meaning = "the prospect theory decision weight of probability $p$"
+
+[[symbol]]
+tex = 'D_{\text{KL}}'
+meaning = "the Kullback-Leibler divergence"
+
+[[symbol]]
+tex = '\Delta w_{ij}'
+meaning = "the change in synaptic weight from neuron $j$ to neuron $i$"
+
+[[symbol]]
+tex = 'R(t, s)'
+meaning = "the retention at time $t$ after a study session with spacing $s$"

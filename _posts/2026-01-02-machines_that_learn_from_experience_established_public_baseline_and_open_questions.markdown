@@ -27,7 +27,10 @@ The account also acknowledges the temporal-decay problem that any synthesis of a
 
 The general form of the synthesis-problem update follows the same recursive learning form that has organized the series,
 
-$$B_{t+1} = B_t + \eta \, \Delta(B_t, E_t)$$
+$$
+B_{t+1} = B_t + \eta \, \Delta(B_t, E_t)
+\tag{1}
+$$
 
 with $B_t$ the established public baseline at time $t$, $E_t$ the empirical developments in the intervening period, $\Delta$ the update function that permits new findings into the baseline as they meet the reproducibility criteria, and $\eta$ the rate at which the field's institutional processes update the baseline. The dynamics of $B$ across time provide the meta-level object of study for the history and sociology of the field.
 
@@ -51,87 +54,138 @@ The foundational formal objects of experiential learning have been significantly
 
 The Markov decision process of [Bellman 1957][book_bellman_1957] and [Howard 1960][book_howard_1960] provides the formal foundation. The tuple
 
-$$\mathcal{M} = (\mathcal{S}, \mathcal{A}, P, R, \gamma, \mu_0)$$
+$$
+\mathcal{M} = (\mathcal{S}, \mathcal{A}, P, R, \gamma, \mu_0)
+\tag{2}
+$$
 
 specifies the state space, action space, transition kernel, reward function, discount factor, and initial state distribution. The treatment organizes the mathematical treatment of experiential learning and continues to provide the canonical vocabulary for the field. The formal apparatus allows several standard extensions including the partially observable Markov decision process, the semi-Markov decision process, the constrained Markov decision process, and the multi-agent Markov game. Each extension has been substantially formalized and continues to organize modern research.
 
 The agent's objective is formalized through the discounted return
 
-$$G_t = \sum_{k=0}^\infty \gamma^k r_{t+k+1}$$
+$$
+G_t = \sum_{k=0}^\infty \gamma^k r_{t+k+1}
+\tag{3}
+$$
 
 with $\gamma \in [0, 1)$ trading off immediate against delayed reward. The policy $\pi(a \mid s)$ induces a distribution over trajectories $\tau = (s_0, a_0, r_1, s_1, a_1, \ldots)$ specified by
 
-$$p_\pi(\tau) = \mu_0(s_0) \prod_{t=0}^\infty \pi(a_t \mid s_t) \, P(s_{t+1} \mid s_t, a_t)$$
+$$
+p_\pi(\tau) = \mu_0(s_0) \prod_{t=0}^\infty \pi(a_t \mid s_t) \, P(s_{t+1} \mid s_t, a_t)
+\tag{4}
+$$
 
 and the state-occupancy measure
 
-$$d^\pi(s) = (1 - \gamma) \sum_{t=0}^\infty \gamma^t \, \Pr_\pi(s_t = s)$$
+$$
+d^\pi(s) = (1 - \gamma) \sum_{t=0}^\infty \gamma^t \, \Pr_\pi(s_t = s)
+\tag{5}
+$$
 
 which appears in the policy-gradient theorem and the offline-reinforcement-learning distributional-shift literature.
 
 The value function and Bellman recursion of [Bellman 1957][book_bellman_1957] provide the dynamic-programming foundation. The state-value function
 
-$$V^\pi(s) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \mid s_0 = s \right]$$
+$$
+V^\pi(s) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \mid s_0 = s \right]
+\tag{6}
+$$
 
 and its Bellman recursion
 
-$$V^\pi(s) = \sum_a \pi(a \mid s) \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma V^\pi(s') \right]$$
+$$
+V^\pi(s) = \sum_a \pi(a \mid s) \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma V^\pi(s') \right]
+\tag{7}
+$$
 
 provide the fixed-point characterization that continues to organize the algorithmic treatment. The action-value function
 
-$$Q^\pi(s, a) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \mid s_0 = s, a_0 = a \right]$$
+$$
+Q^\pi(s, a) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \mid s_0 = s, a_0 = a \right]
+\tag{8}
+$$
 
 and the advantage function
 
-$$A^\pi(s, a) = Q^\pi(s, a) - V^\pi(s)$$
+$$
+A^\pi(s, a) = Q^\pi(s, a) - V^\pi(s)
+\tag{9}
+$$
 
 provide the action-conditioned refinements that organize the policy-improvement and variance-reduction literatures. The optimal Bellman equation
 
-$$V^*(s) = \max_a \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma V^*(s') \right]$$
+$$
+V^*(s) = \max_a \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma V^*(s') \right]
+\tag{10}
+$$
 
 specifies the fixed-point characterization of the optimal value function. The corresponding optimal action-value function satisfies
 
-$$Q^*(s, a) = \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma \max_{a'} Q^*(s', a') \right]$$
+$$
+Q^*(s, a) = \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma \max_{a'} Q^*(s', a') \right]
+\tag{11}
+$$
 
 This account has been markedly extended through subsequent work but continues to provide the mathematical foundation for the field.
 
 Under partial observability the belief-state update
 
-$$b_{t+1}(s') = \frac{O(o_{t+1} \mid s') \sum_s P(s' \mid s, a_t) \, b_t(s)}{\sum_{s''} O(o_{t+1} \mid s'') \sum_s P(s'' \mid s, a_t) \, b_t(s)}$$
+$$
+b_{t+1}(s') = \frac{O(o_{t+1} \mid s') \sum_s P(s' \mid s, a_t) \, b_t(s)}{\sum_{s''} O(o_{t+1} \mid s'') \sum_s P(s'' \mid s, a_t) \, b_t(s)}
+\tag{12}
+$$
 
 provides the sufficient-statistic-of-history that permits the partially-observable Markov decision process to be recast as a fully-observable Markov decision process over belief states. The framework has been appreciably characterized and continues to provide the formal foundation for the partial-observability literature.
 
 The temporal-difference error of [Sutton 1988][research_sutton_1988] provides the model-free foundation. The update
 
-$$\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$$
+$$
+\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)
+\tag{13}
+$$
 
 specifies the prediction-error signal that drives the temporal-difference learning update
 
-$$V(s_t) \leftarrow V(s_t) + \alpha \delta_t$$
+$$
+V(s_t) \leftarrow V(s_t) + \alpha \delta_t
+\tag{14}
+$$
 
 The account provides the model-free alternative to the model-based Bellman-recursion approach and continues to organize extensive modern research.
 
 The Q-learning update of [Watkins 1989][research_watkins_1989] provides the control-side alternative. The update
 
-$$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_a Q(s_{t+1}, a) - Q(s_t, a_t) \right]$$
+$$
+Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_a Q(s_{t+1}, a) - Q(s_t, a_t) \right]
+\tag{15}
+$$
 
 specifies the off-policy update that provides the convergence guarantees under tabular conditions. The model continues to organize sizable modern research and provides the foundation for deep Q-network approaches.
 
 The policy gradient theorem of [Williams 1992][research_williams_1992] and [Sutton et al. 1999b][research_sutton_et_al_2000] provides the direct-policy-optimization foundation. The gradient
 
-$$\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} \left[ \sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) \, Q^{\pi_\theta}(s_t, a_t) \right]$$
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} \left[ \sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) \, Q^{\pi_\theta}(s_t, a_t) \right]
+\tag{16}
+$$
 
 provides the unbiased gradient estimator that continues to organize the direct-policy-optimization literature. This formulation has been greatly refined through variance-reduction techniques including baselines, advantage estimators, and trust-region methods.
 
 The Rescorla-Wagner model of [Rescorla and Wagner 1972][research_rescorla_wagner_1972] provides the psychological correspondence. The associative-strength update
 
-$$\Delta V_i = \alpha_i \beta \left( \lambda - \sum_j V_j \right)$$
+$$
+\Delta V_i = \alpha_i \beta \left( \lambda - \sum_j V_j \right)
+\tag{17}
+$$
 
 specifies the prediction-error-driven learning rule that continues to organize the associative-learning literature. The formal correspondence to temporal-difference learning provides the bridge between psychology and machine learning that continues to organize appreciable modern research.
 
 The regret decomposition of [Lai and Robbins 1985][research_lai_robbins_1985] provides the bandit-and-online-learning foundation. The regret bound
 
-$$R_T \geq \sum_{a: \Delta_a > 0} \frac{\log T}{D_{KL}(P_a \| P_{a^*})} \, \Delta_a + o(\log T)$$
+$$
+R_T \geq \sum_{a: \Delta_a > 0} \frac{\log T}{D_{KL}(P_a \| P_{a^*})} \, \Delta_a + o(\log T)
+\tag{18}
+$$
 
 specifies the fundamental lower bound on cumulative regret that continues to organize the bandit and online-learning literature. The treatment has been considerably extended through subsequent work and continues to provide the formal foundation for the field.
 
@@ -143,11 +197,17 @@ The established algorithmic toolkit of experiential learning consolidates the co
 
 Bandits and online learning of [A251 Bandits and Online Learning][related_post_a251_bandits] contribute the upper-confidence-bound algorithm of [Auer et al. 2002][research_auer_cesa_bianchi_fischer_2002] with its action-selection rule
 
-$$a_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \log t}{N_a(t)}} \right]$$
+$$
+a_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \log t}{N_a(t)}} \right]
+\tag{19}
+$$
 
 and its regret bound of order $O(\sqrt{T \log T})$, Thompson sampling of [Thompson 1933][research_thompson_1933] with the posterior-sampling rule
 
-$$\theta_t \sim p(\theta \mid \mathcal{D}_{t-1}), \quad a_t = \arg\max_a \mathbb{E}[r \mid a, \theta_t]$$
+$$
+\theta_t \sim p(\theta \mid \mathcal{D}_{t-1}), \quad a_t = \arg\max_a \mathbb{E}[r \mid a, \theta_t]
+\tag{20}
+$$
 
 and its Bayesian-optimal regret properties, the exponential-weights algorithm for the adversarial setting, and the extensions to contextual bandits including LinUCB and neural contextual bandits. The framework provides the pre-Markov-decision-process foundation for the field.
 
@@ -155,95 +215,152 @@ Reinforcement learning foundations of [A252 Reinforcement Learning Foundations][
 
 Deep reinforcement learning of [A253 Deep Reinforcement Learning][related_post_a253_deep_rl] contributes the canonical algorithms including deep Q-networks of [Mnih et al. 2015][research_mnih_et_al_2015] with the target-network loss
 
-$$\mathcal{L}(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}} \left[ \left( r + \gamma \max_{a'} Q_{\theta^-}(s', a') - Q_\theta(s, a) \right)^2 \right]$$
+$$
+\mathcal{L}(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}} \left[ \left( r + \gamma \max_{a'} Q_{\theta^-}(s', a') - Q_\theta(s, a) \right)^2 \right]
+\tag{21}
+$$
 
 the double DQN of [Van et al. 2016][research_van_hasselt_guez_silver_2016] and dueling DQN of [Wang et al 2016 Dueling][research_wang_et_al_2016_dueling] refinements, the policy-gradient methods including asynchronous advantage actor-critic of [Mnih et al. 2016][research_mnih_et_al_2016], trust region policy optimization of [Schulman et al. 2015][research_schulman_et_al_2015], and proximal policy optimization of [Schulman et al. 2017][research_schulman_et_al_2017] with the clipped surrogate objective
 
-$$\mathcal{L}^{\text{CLIP}}(\theta) = \mathbb{E}_t \left[ \min \left( \rho_t(\theta) \hat{A}_t, \, \text{clip}(\rho_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t \right) \right]$$
+$$
+\mathcal{L}^{\text{CLIP}}(\theta) = \mathbb{E}_t \left[ \min \left( \rho_t(\theta) \hat{A}_t, \, \text{clip}(\rho_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t \right) \right]
+\tag{22}
+$$
 
 with $\rho_t(\theta) = \pi_\theta(a_t \mid s_t) / \pi_{\theta_{\text{old}}}(a_t \mid s_t)$, the deterministic-policy-gradient family including the [Silver et al. 2014][research_silver_et_al_2014] deterministic policy gradient theorem, DDPG of [Lillicrap et al. 2015][research_lillicrap_et_al_2015] and TD3 of [Fujimoto Hoof Meger 2018][research_fujimoto_hoof_meger_2018], the maximum-entropy family including soft actor-critic of [Haarnoja et al. 2018][research_haarnoja_et_al_2018] with the entropy-regularized objective
 
-$$J(\pi) = \sum_t \mathbb{E}_{(s_t, a_t) \sim \pi} \left[ r(s_t, a_t) + \alpha \mathcal{H}(\pi(\cdot \mid s_t)) \right]$$
+$$
+J(\pi) = \sum_t \mathbb{E}_{(s_t, a_t) \sim \pi} \left[ r(s_t, a_t) + \alpha \mathcal{H}(\pi(\cdot \mid s_t)) \right]
+\tag{23}
+$$
 
 the distributional reinforcement learning framework of [Bellemare et al. 2017][research_bellemare_dabney_munos_2017] that learns the distribution of the discounted return rather than only its expectation and induces the categorical DQN and quantile-regression DQN of [Dabney et al. 2018a][research_dabney_et_al_2018_qr_dqn] and the implicit quantile network of [Dabney et al. 2018b][research_dabney_et_al_2018_iqn], and the self-play framework including AlphaGo of [Silver et al. 2016][research_silver_et_al_2016], AlphaZero of [Silver et al. 2017][research_silver_et_al_2017] and its journal treatment in [Silver et al. 2018][research_silver_et_al_2018], and MuZero of [Schrittwieser et al. 2020][research_schrittwieser_et_al_2020] that extends the framework to unknown dynamics. The model provides the canonical algorithms that continue to organize modern deep reinforcement learning research.
 
 Exploration, intrinsic motivation, and curiosity of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration] contribute the count-based and pseudocount exploration frameworks including [Bellemare et al. 2016][research_bellemare_et_al_2016] with the exploration-bonus reward
 
-$$r^+_t = r_t + \frac{\beta}{\sqrt{\hat{N}(s_t)}}$$
+$$
+r^+_t = r_t + \frac{\beta}{\sqrt{\hat{N}(s_t)}}
+\tag{24}
+$$
 
 the prediction-error curiosity of [Pathak et al. 2017][research_pathak_et_al_2017] with the intrinsic reward
 
-$$r^i_t = \eta \left\| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \right\|_2^2$$
+$$
+r^i_t = \eta \left\| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \right\|_2^2
+\tag{25}
+$$
 
 the empowerment framework of [Klyubin et al. 2005][research_klyubin_polani_nehaniv_2005] with the channel-capacity objective
 
-$$\mathfrak{E}(s) = \max_{\omega} I(A_t^n; S_{t+n} \mid s_t = s)$$
+$$
+\mathfrak{E}(s) = \max_{\omega} I(A_t^n; S_{t+n} \mid s_t = s)
+\tag{26}
+$$
 
 and the information-gain frameworks including the [Houthooft et al. 2016][research_houthooft_et_al_2016] variational-information-maximizing exploration framework. The treatment provides the canonical exploration methods that continue to organize modern research on hard-exploration problems.
 
 Hierarchical reinforcement learning of [A255 Hierarchical Reinforcement Learning][related_post_a255_hierarchical] contributes the options framework of [Sutton et al. 1999a][research_sutton_precup_singh_1999] with the option tuple
 
-$$o = \langle \mathcal{I}_o, \pi_o, \beta_o \rangle$$
+$$
+o = \langle \mathcal{I}_o, \pi_o, \beta_o \rangle
+\tag{27}
+$$
 
 comprising an initiation set, an intra-option policy, and a termination condition, and inducing the semi-Markov decision process value function
 
-$$V^\mu(s) = \sum_o \mu(o \mid s) \left[ \sum_{k=1}^\infty \gamma^{k-1} \mathbb{E}[r_{t+k} \mid s, o] + \gamma^k \mathbb{E}[V^\mu(s_{t+k}) \mid s, o] \right]$$
+$$
+V^\mu(s) = \sum_o \mu(o \mid s) \left[ \sum_{k=1}^\infty \gamma^{k-1} \mathbb{E}[r_{t+k} \mid s, o] + \gamma^k \mathbb{E}[V^\mu(s_{t+k}) \mid s, o] \right]
+\tag{28}
+$$
 
 the MAXQ decomposition of [Dietterich 2000][research_dietterich_2000], the feudal networks framework of [Dayan and Hinton 1992][research_dayan_hinton_1993] and its modern extension in [Vezhnevets et al. 2017][research_vezhnevets_et_al_2017], and the option-critic hierarchical actor-critic method of [Bacon et al. 2017][research_bacon_harb_precup_2017]. This account provides the canonical hierarchical algorithms that continue to organize modern research on temporally-extended action.
 
 World models and predictive model-based adaptation of [A256 World Models and Predictive Model-Based Adaptation][related_post_a256_world_models] contribute the model-based reinforcement learning algorithms including Dyna of [Sutton 1991][research_sutton_1991] with the interleaved update
 
-$$\hat{P}, \hat{R} \leftarrow \text{Learn}(\mathcal{D}); \quad Q \leftarrow Q + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right] \text{ on both real and simulated experience}$$
+$$
+\hat{P}, \hat{R} \leftarrow \text{Learn}(\mathcal{D}); \quad Q \leftarrow Q + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right] \text{ on both real and simulated experience}
+\tag{29}
+$$
 
 the PILCO framework of [Deisenroth and Rasmussen 2011][research_deisenroth_rasmussen_2011], the world-model architecture of [Ha and Schmidhuber 2018][research_ha_schmidhuber_2018] with a latent-dynamics model $z_{t+1} \sim p_\psi(z_{t+1} \mid z_t, a_t)$ trained jointly with an observation decoder $p_\phi(o_t \mid z_t)$, and the Dreamer family of algorithms of [Hafner et al. 2019][research_hafner_et_al_2020] and [Hafner et al. 2023][research_hafner_et_al_2023] that optimize policies through the differentiable rollout of learned latent dynamics. The framework provides the canonical model-based algorithms that continue to organize modern research on sample-efficient learning.
 
 Offline and batch reinforcement learning of [A257 Offline and Batch Reinforcement Learning][related_post_a257_offline] contribute the canonical offline algorithms including batch-constrained Q-learning of [Fujimoto Meger Precup 2019][research_fujimoto_meger_precup_2019], conservative Q-learning of [Kumar et al. 2020][research_kumar_et_al_2020] with the pessimistic penalty
 
-$$\mathcal{L}_{\text{CQL}}(\theta) = \alpha \left[ \mathbb{E}_{s \sim \mathcal{D}} \log \sum_a \exp Q_\theta(s, a) - \mathbb{E}_{(s, a) \sim \mathcal{D}} Q_\theta(s, a) \right] + \mathcal{L}_{\text{TD}}(\theta)$$
+$$
+\mathcal{L}_{\text{CQL}}(\theta) = \alpha \left[ \mathbb{E}_{s \sim \mathcal{D}} \log \sum_a \exp Q_\theta(s, a) - \mathbb{E}_{(s, a) \sim \mathcal{D}} Q_\theta(s, a) \right] + \mathcal{L}_{\text{TD}}(\theta)
+\tag{30}
+$$
 
 behavior regularization methods with the policy-constraint objective
 
-$$\pi = \arg\max_\pi \mathbb{E}_{s \sim \mathcal{D}, a \sim \pi} [Q(s, a)] - \lambda \, D(\pi \| \pi_\beta)$$
+$$
+\pi = \arg\max_\pi \mathbb{E}_{s \sim \mathcal{D}, a \sim \pi} [Q(s, a)] - \lambda \, D(\pi \| \pi_\beta)
+\tag{31}
+$$
 
 and the implicit Q-learning approach of [Kostrikov et al. 2021][research_kostrikov_nair_levine_2022] that avoids querying out-of-distribution actions through expectile regression. The account provides the canonical offline algorithms that continue to organize modern research on learning from fixed datasets, and the [Levine et al. 2020][research_levine_et_al_2020] tutorial provides the canonical survey.
 
 Meta-learning and online adaptation of [A258 Meta-Learning and Online Adaptation][related_post_a258_meta_learning] contribute the canonical meta-learning algorithms including model-agnostic meta-learning of [Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017] with the bi-level objective
 
-$$\theta^* = \arg\min_\theta \sum_{\mathcal{T}_i \sim p(\mathcal{T})} \mathcal{L}_{\mathcal{T}_i} \left( \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}_i}(\theta) \right)$$
+$$
+\theta^* = \arg\min_\theta \sum_{\mathcal{T}_i \sim p(\mathcal{T})} \mathcal{L}_{\mathcal{T}_i} \left( \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}_i}(\theta) \right)
+\tag{32}
+$$
 
 the recurrent meta-reinforcement-learning approach of [Wang et al. 2016b][research_wang_et_al_2016] and [Duan et al. 2016][research_duan_et_al_2016] in which the inner-loop learning dynamics are absorbed into a recurrent network's hidden-state update, and the in-context learning frameworks introduced by [Brown 2020][research_brown_et_al_2020] in which foundation models perform the implicit adaptation through attention over the context window. The model provides the canonical meta-learning algorithms that continue to organize modern research on fast adaptation.
 
 Continual and lifelong learning of [A259 Continual and Lifelong Learning][related_post_a259_continual] contribute the canonical continual-learning algorithms including elastic weight consolidation of [Kirkpatrick et al. 2017][research_kirkpatrick_et_al_2017] with the Fisher-information-weighted quadratic penalty
 
-$$\mathcal{L}(\theta) = \mathcal{L}_B(\theta) + \sum_i \frac{\lambda}{2} F_i (\theta_i - \theta^*_{A, i})^2$$
+$$
+\mathcal{L}(\theta) = \mathcal{L}_B(\theta) + \sum_i \frac{\lambda}{2} F_i (\theta_i - \theta^*_{A, i})^2
+\tag{33}
+$$
 
 progressive networks of [Rusu et al. 2016][research_rusu_et_al_2016] that freeze prior-task parameters and add lateral adapters, the generative-replay framework of [Shin et al. 2017][research_shin_et_al_2017] that uses a learned generator $p_\psi(x, y)$ to rehearse prior tasks, the gradient episodic memory framework of [Lopez-Paz and Ranzato 2017][research_lopez_paz_ranzato_2017], and the averaged gradient episodic memory extension of [Chaudhry et al. 2018][research_chaudhry_et_al_2019]. This formulation provides the canonical continual-learning algorithms that continue to organize modern research on catastrophic forgetting.
 
 Learning from demonstration, preference, and other agents of [A260 Learning From Demonstration Preference and Other Agents][related_post_a260_demonstration] contribute the canonical algorithms including behavior cloning with the maximum-likelihood objective
 
-$$\pi_{\text{BC}} = \arg\max_\pi \mathbb{E}_{(s, a) \sim \mathcal{D}_E} \log \pi(a \mid s)$$
+$$
+\pi_{\text{BC}} = \arg\max_\pi \mathbb{E}_{(s, a) \sim \mathcal{D}_E} \log \pi(a \mid s)
+\tag{34}
+$$
 
 generative adversarial imitation learning of [Ho and Ermon 2016][research_ho_ermon_2016] with the minimax objective
 
-$$\min_\pi \max_D \mathbb{E}_{\pi}[\log D(s, a)] + \mathbb{E}_{\pi_E}[\log(1 - D(s, a))] - \lambda \mathcal{H}(\pi)$$
+$$
+\min_\pi \max_D \mathbb{E}_{\pi}[\log D(s, a)] + \mathbb{E}_{\pi_E}[\log(1 - D(s, a))] - \lambda \mathcal{H}(\pi)
+\tag{35}
+$$
 
 maximum-entropy inverse reinforcement learning of [Ziebart 2008][research_ziebart_et_al_2008] with the trajectory-distribution model
 
-$$p(\tau) \propto \exp\left( \sum_t r_\phi(s_t, a_t) \right)$$
+$$
+p(\tau) \propto \exp\left( \sum_t r_\phi(s_t, a_t) \right)
+\tag{36}
+$$
 
 preference-based reinforcement learning of [Christiano et al. 2017][research_christiano_et_al_2017] with the Bradley-Terry preference model
 
-$$P(\tau^1 \succ \tau^2) = \frac{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t)}{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t) + \exp \sum_t \hat{r}_\phi(s^2_t, a^2_t)}$$
+$$
+P(\tau^1 \succ \tau^2) = \frac{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t)}{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t) + \exp \sum_t \hat{r}_\phi(s^2_t, a^2_t)}
+\tag{37}
+$$
 
 and the reinforcement-learning-from-human-feedback pipelines of [Ouyang et al. 2022][research_ouyang_et_al_2022] and [Stiennon et al. 2020][research_stiennon_et_al_2020] that operationalize preference-learning at scale for language model alignment. The treatment provides the canonical algorithms that continue to organize modern research on learning from non-reward signals, and the [Ng and Russell 2000][research_ng_russell_2000] and [Abbeel and Ng 2004][research_abbeel_ng_2004] foundational papers establish the inverse-reinforcement-learning framework.
 
 Evolutionary and open-ended adaptation of [A261 Evolutionary and Open-Ended Adaptation][related_post_a261_evolutionary] contribute the canonical algorithms including evolutionary strategies of [Salimans et al. 2017][research_salimans_et_al_2017] with the natural-evolution-strategies gradient estimator
 
-$$\nabla_\theta \mathbb{E}_{\epsilon \sim \mathcal{N}(0, I)} \left[ F(\theta + \sigma \epsilon) \right] = \frac{1}{\sigma} \mathbb{E}_\epsilon \left[ F(\theta + \sigma \epsilon) \, \epsilon \right]$$
+$$
+\nabla_\theta \mathbb{E}_{\epsilon \sim \mathcal{N}(0, I)} \left[ F(\theta + \sigma \epsilon) \right] = \frac{1}{\sigma} \mathbb{E}_\epsilon \left[ F(\theta + \sigma \epsilon) \, \epsilon \right]
+\tag{38}
+$$
 
 neuroevolution of augmenting topologies of [Stanley and Miikkulainen 2002][research_stanley_miikkulainen_2002], the quality-diversity frameworks including MAP-Elites of [Mouret and Clune 2015][research_mouret_clune_2015] that maintain an archive $\mathcal{A}$ over a behavior grid so that each cell $c$ retains
 
-$$\mathcal{A}[c] = \arg\max_{x \in \text{Cell}(c)} F(x)$$
+$$
+\mathcal{A}[c] = \arg\max_{x \in \text{Cell}(c)} F(x)
+\tag{39}
+$$
 
 the novelty-search framework of [Lehman and Stanley 2011][research_lehman_stanley_2011] that abandons the objective in favor of behavioral novelty, and the POET open-endedness framework of [Wang et al. 2019][research_wang_lehman_clune_stanley_2019] that co-evolves agents and environments. This account provides the canonical evolutionary algorithms that continue to organize modern research on population-based and open-ended learning.
 
@@ -269,11 +386,17 @@ The complementary learning systems finding of [McClelland et al. 1995][research_
 
 The scaling laws of foundation models of [Kaplan et al. 2020][research_kaplan_et_al_2020] and [Hoffmann et al. 2022][research_hoffmann_et_al_2022] provide the empirical findings on the relationship between model size, compute, and performance. The Chinchilla-form parametric law
 
-$$L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E$$
+$$
+L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E
+\tag{40}
+$$
 
 specifies the relationship between the model parameter count $N$, the training-token count $D$, and the achieved loss $L$, with $E$ the irreducible loss and $\alpha, \beta$ the exponents fit to the empirical data. The compute-optimal frontier
 
-$$N^*(C) \propto C^a, \quad D^*(C) \propto C^b$$
+$$
+N^*(C) \propto C^a, \quad D^*(C) \propto C^b
+\tag{41}
+$$
 
 specifies the allocation of a fixed compute budget $C$ across model size and data that minimizes the achieved loss. The findings have been appreciably replicated across model families and continue to organize the research on the scaling of foundation models. The applicability of scaling laws to interactive experiential learning remains greatly open and constitutes one of the open problems that this article surveys.
 
@@ -291,7 +414,10 @@ The signal axis characterizes the form of the training information the learner r
 
 The objective axis characterizes the quantity the learner optimizes. The axis positions include expected discounted return, long-run average reward, risk-sensitive objectives including conditional value at risk
 
-$$\text{CVaR}_\alpha[G] = \mathbb{E}[G \mid G \leq q_\alpha(G)]$$
+$$
+\text{CVaR}_\alpha[G] = \mathbb{E}[G \mid G \leq q_\alpha(G)]
+\tag{42}
+$$
 
 regret against a reference policy, distributional characteristics of return, and information-theoretic objectives including empowerment. The series treats each position through the corresponding articles. Discounted return is the default of [A252 Reinforcement Learning Foundations][related_post_a252_rl_foundations]. Regret is the subject of [A251 Bandits and Online Learning][related_post_a251_bandits]. Distributional characteristics are the subject of the distributional-reinforcement-learning framework of [Bellemare et al. 2017][research_bellemare_dabney_munos_2017] treated in [A253 Deep Reinforcement Learning][related_post_a253_deep_rl]. Information-theoretic objectives are the subject of [A254 Exploration Intrinsic Motivation and Curiosity][related_post_a254_exploration]. The settled public baseline identifies the canonical objectives and their algorithmic implementations. The residual open problem is the characterization of the correct objective under real-world safety and alignment constraints.
 
@@ -311,7 +437,10 @@ The established neuroscience correspondences consolidate the bidirectional excha
 
 The dopamine reward-prediction-error correspondence of [Schultz et al. 1997][research_schultz_dayan_montague_1997] provides the paradigmatic correspondence. The finding that midbrain dopamine neurons encode a reward prediction error mathematically identical to the temporal-difference error
 
-$$\text{DA firing rate at } t \propto \delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)$$
+$$
+\text{DA firing rate at } t \propto \delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)
+\tag{43}
+$$
 
 has been significantly replicated across species, tasks, and recording modalities, and continues to organize the neuroscience-of-reinforcement-learning literature.
 
@@ -321,7 +450,10 @@ The complementary-learning-systems correspondence of [McClelland et al. 1995][re
 
 The predictive-coding correspondence of [Rao and Ballard 1999][research_rao_ballard_1999] provides the perceptual-inference correspondence. The finding that cortical hierarchies implement predictive coding through the top-down expectation and bottom-up prediction-error signaling allows the hierarchical formalization
 
-$$\epsilon_l = x_l - g_l(x_{l+1}), \quad x_l \leftarrow x_l + \eta \left( - \epsilon_l + \frac{\partial g_{l-1}(x_l)}{\partial x_l}^\top \epsilon_{l-1} \right)$$
+$$
+\epsilon_l = x_l - g_l(x_{l+1}), \quad x_l \leftarrow x_l + \eta \left( - \epsilon_l + \frac{\partial g_{l-1}(x_l)}{\partial x_l}^\top \epsilon_{l-1} \right)
+\tag{44}
+$$
 
 with $x_l$ the representation at level $l$, $g_l$ the top-down generative model, and $\epsilon_l$ the residual prediction error. The framework has been greatly characterized and provides the biological correspondence to the modern generative-model and world-model literature.
 
@@ -329,17 +461,26 @@ The convolutional-network-visual-cortex correspondence provides the representati
 
 The grid-cell-successor-representation correspondence provides the spatial-and-planning correspondence. The successor representation of [Dayan 1993][research_dayan_1993]
 
-$$M^\pi(s, s') = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t \, \mathbb{1}[s_t = s'] \mid s_0 = s \right]$$
+$$
+M^\pi(s, s') = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t \, \mathbb{1}[s_t = s'] \mid s_0 = s \right]
+\tag{45}
+$$
 
 factorizes the value function as
 
-$$V^\pi(s) = \sum_{s'} M^\pi(s, s') R(s')$$
+$$
+V^\pi(s) = \sum_{s'} M^\pi(s, s') R(s')
+\tag{46}
+$$
 
 and the eigenvector decomposition of $M^\pi$ produces spatial basis functions with the hexagonal-grid structure observed in entorhinal grid cells. The finding of [Stachenfeld et al. 2017][research_stachenfeld_botvinick_gershman_2017] that entorhinal grid cells implement this eigenvector decomposition of the successor representation has been significantly characterized and provides the bridge between the neuroscience of spatial cognition of [O'Keefe and Dostrovsky 1971][research_okeefe_dostrovsky_1971] and [Hafting et al. 2005][research_hafting_et_al_2005] and the successor-representation literature in machine learning.
 
 The free-energy correspondence provides the unifying-principle correspondence. The variational free energy
 
-$$F(q, o) = \mathbb{E}_{q(s)} \left[ \log q(s) - \log p(o, s) \right] = D_{KL}(q(s) \| p(s \mid o)) - \log p(o)$$
+$$
+F(q, o) = \mathbb{E}_{q(s)} \left[ \log q(s) - \log p(o, s) \right] = D_{KL}(q(s) \| p(s \mid o)) - \log p(o)
+\tag{47}
+$$
 
 specifies the upper bound on surprise that biological agents are proposed to minimize under the [Friston 2010][research_friston_2010] free-energy principle. The account has been substantially formalized and provides the bridge between the neuroscience of perception, action, and learning and the variational-inference framework in machine learning.
 
@@ -355,17 +496,26 @@ The model-free-model-based-dual-system correspondence of [Daw et al. 2005][resea
 
 The prospect-theory-loss-aversion correspondence of [Kahneman and Tversky 1979][research_kahneman_tversky_1979] provides the decision-making correspondence. The finding that human decision-making under uncertainty exhibits systematic deviations from expected-utility theory supports the formalization through the value function
 
-$$v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda (-x)^\beta & x < 0 \end{cases}$$
+$$
+v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda (-x)^\beta & x < 0 \end{cases}
+\tag{48}
+$$
 
 with $\lambda > 1$ the loss-aversion coefficient, and the probability-weighting function
 
-$$w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}$$
+$$
+w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}
+\tag{49}
+$$
 
 that captures the overweighting of small probabilities and underweighting of moderate-to-large probabilities. This formulation has been considerably replicated and provides the empirical constraints against which candidate models of human decision-making are evaluated.
 
 The Bayesian-cognition correspondence of [Tenenbaum et al. 2011][research_tenenbaum_et_al_2011] provides the probabilistic-inference correspondence. The finding that many cognitive phenomena including concept learning, causal reasoning, and inductive generalization admit characterization as Bayesian inference over structured hypothesis spaces admits the formalization
 
-$$p(h \mid d) = \frac{p(d \mid h) \, p(h)}{\sum_{h' \in \mathcal{H}} p(d \mid h') \, p(h')}$$
+$$
+p(h \mid d) = \frac{p(d \mid h) \, p(h)}{\sum_{h' \in \mathcal{H}} p(d \mid h') \, p(h')}
+\tag{50}
+$$
 
 with $\mathcal{H}$ a structured hypothesis space over concepts, causal graphs, or grammatical rules. The treatment has been significantly characterized and provides the bridge between the psychology of cognition and probabilistic machine learning.
 
@@ -373,11 +523,17 @@ The categorization-and-similarity correspondence provides the representation-lea
 
 The spacing-and-retrieval-practice correspondence provides the educational-technology correspondence. The [Ebbinghaus 1885][book_ebbinghaus_1885] forgetting curve
 
-$$R(t) = R_0 \, e^{-t/\tau}$$
+$$
+R(t) = R_0 \, e^{-t/\tau}
+\tag{51}
+$$
 
 with $R(t)$ retention at time $t$ and $\tau$ a memory-time constant, and the [Cepeda et al. 2008][research_cepeda_et_al_2008] distributed-practice power-law form
 
-$$R(t, s) = R_0 \, (1 + t/s)^{-\beta}$$
+$$
+R(t, s) = R_0 \, (1 + t/s)^{-\beta}
+\tag{52}
+$$
 
 with $s$ the spacing between study sessions and $\beta$ a task-forgetting parameter, together with the [Roediger and Karpicke 2006][research_roediger_karpicke_2006] test-enhanced-learning framework, have been markedly replicated and provide the practical foundation for modern learning technology.
 
@@ -391,7 +547,10 @@ The [Bommasani et al. 2021][research_bommasani_et_al_2021] report On the Opportu
 
 The scaling laws of [Kaplan et al. 2020][research_kaplan_et_al_2020] and the compute-optimal refinement of [Hoffmann et al. 2022][research_hoffmann_et_al_2022] provide the empirical foundation for the paradigm. The findings that model capability follows the parametric relationship
 
-$$L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E$$
+$$
+L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E
+\tag{53}
+$$
 
 with model size $N$ and training-token count $D$ have greatly shaped the research on the scaling of foundation models and the downstream deployment through experiential learning.
 
@@ -413,7 +572,10 @@ The Bitter Lesson of [Sutton 2019][research_sutton_2019_bitter_lesson] provides 
 
 The Reward is Enough thesis of [Silver et al. 2021][research_silver_et_al_2021] provides the canonical position statement on the sufficiency of reward maximization as the framework for artificial intelligence. The strong claim
 
-$$\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]$$
+$$
+\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]
+\tag{54}
+$$
 
 as the general framework for goal-directed behavior remains substantially contested at the closing of the editorial window, with the critical responses of [Roy and Duckett 2022][research_roy_duckett_2022] and the alternative frameworks including preference learning and inverse reinforcement learning providing the empirical alternatives.
 
@@ -437,7 +599,10 @@ The partial-observability problem identifies the gap between the tractable parti
 
 The sample-complexity-versus-computational-complexity problem identifies the tradeoff between sample-efficient algorithms (typically expensive computationally) and computationally-efficient algorithms (typically expensive in samples). The PAC-MDP sample-complexity bounds of [Kakade 2003][research_kakade_2003] and [Strehl et al. 2009][research_strehl_li_littman_2009]
 
-$$\tilde{O}\left( \frac{|\mathcal{S}||\mathcal{A}|}{(1 - \gamma)^3 \epsilon^2} \right)$$
+$$
+\tilde{O}\left( \frac{|\mathcal{S}||\mathcal{A}|}{(1 - \gamma)^3 \epsilon^2} \right)
+\tag{55}
+$$
 
 for tabular reinforcement learning provide the worst-case characterization of the tabular setting, but the corresponding bounds under function approximation, partial observability, and structured environments remain appreciably open. The optimal tradeoff and the conditions under which each family of algorithms is preferred remain greatly open.
 
@@ -445,7 +610,10 @@ The open-endedness problem identifies the gap between the frameworks of reinforc
 
 The reward-hypothesis problem identifies the status of the [Silver et al. 2021][research_silver_et_al_2021] Reward is Enough thesis. The claim in its strong form is that any goal-directed behavior of interest can be characterized as maximization of a expected cumulative reward
 
-$$\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]$$
+$$
+\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]
+\tag{56}
+$$
 
 for a reward specification $r$. The empirical support for the thesis under the conditions of practical machine learning is significantly contested, and the alternative frameworks including preference learning and inverse reinforcement learning provide the empirical alternatives whose relative strengths remain substantially open.
 
@@ -579,6 +747,542 @@ The readers of the series are encouraged to consult the individual survey articl
 - How should the practical applications of experiential learning to healthcare, education, autonomous systems, and scientific discovery be organized to maximize the beneficial impact while minimizing the safety and governance risks?
 - What is the correct account of the role of the psychological and neuroscience-informed constraints on the research directions of the field?
 - Can the consolidated corpus of the series inform the design of the next generation of experiential learning systems that address the residual open problems the series has surveyed?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 56 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 56, 54 are established and 2 are bespoke.
+Returns, values and regret carry the units of the reward, the discount factor and all probabilities are dimensionless, and symbols such as $\alpha$, $\beta$, $\eta$, $\lambda$ and $\gamma$ are reused with a different meaning in each framework, so every equation is read with the symbols defined beside it.
+
+*Equation 1, Bespoke Update of the Established Public Baseline.*
+The article models the established public baseline as a recursive update from new empirical developments, with an institutional rate and an update function that admits findings once they meet the reproducibility criteria.
+
+$$
+B_{t+1} = B_t + \eta \, \Delta(B_t, E_t)
+\tag{1}
+$$
+
+**Equation 2, Markov Decision Process Tuple.**
+A Markov decision process is specified by its state space, action space, transition kernel, reward function, discount factor and initial state distribution.
+[Bellman 1957][book_bellman_1957]
+[Howard 1960][book_howard_1960]
+
+$$
+\mathcal{M} = (\mathcal{S}, \mathcal{A}, P, R, \gamma, \mu_0)
+\tag{2}
+$$
+
+**Equation 3, Discounted Return.**
+The return from a time step is the sum of all later rewards, each discounted geometrically by its delay.
+
+$$
+G_t = \sum_{k=0}^\infty \gamma^k r_{t+k+1}
+\tag{3}
+$$
+
+**Equation 4, Trajectory Distribution Induced by a Policy.**
+The probability of a trajectory is the initial state probability times the product of the policy and transition probabilities along it.
+
+$$
+p_\pi(\tau) = \mu_0(s_0) \prod_{t=0}^\infty \pi(a_t \mid s_t) \, P(s_{t+1} \mid s_t, a_t)
+\tag{4}
+$$
+
+**Equation 5, Discounted State-Occupancy Measure.**
+The normalised discounted occupancy of a state is the discount-weighted sum of the probabilities of visiting it at each step.
+
+$$
+d^\pi(s) = (1 - \gamma) \sum_{t=0}^\infty \gamma^t \, \Pr_\pi(s_t = s)
+\tag{5}
+$$
+
+**Equation 6, State-Value Function.**
+The value of a state under a policy is the expected discounted return when starting from that state.
+[Bellman 1957][book_bellman_1957]
+
+$$
+V^\pi(s) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \mid s_0 = s \right]
+\tag{6}
+$$
+
+**Equation 7, Bellman Expectation Equation.**
+The value of a state equals the policy-weighted and transition-weighted average of the immediate reward plus the discounted value of the successor state.
+[Bellman 1957][book_bellman_1957]
+
+$$
+V^\pi(s) = \sum_a \pi(a \mid s) \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma V^\pi(s') \right]
+\tag{7}
+$$
+
+**Equation 8, Action-Value Function.**
+The action value is the expected discounted return when starting from a state, taking a given action and following the policy thereafter.
+
+$$
+Q^\pi(s, a) = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \mid s_0 = s, a_0 = a \right]
+\tag{8}
+$$
+
+**Equation 9, Advantage Function.**
+The advantage of an action is its action value minus the value of the state.
+
+$$
+A^\pi(s, a) = Q^\pi(s, a) - V^\pi(s)
+\tag{9}
+$$
+
+**Equation 10, Bellman Optimality Equation for State Values.**
+The optimal value of a state is the maximum over actions of the expected immediate reward plus the discounted optimal value of the successor.
+[Bellman 1957][book_bellman_1957]
+
+$$
+V^*(s) = \max_a \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma V^*(s') \right]
+\tag{10}
+$$
+
+**Equation 11, Bellman Optimality Equation for Action Values.**
+The optimal action value is the expected immediate reward plus the discounted maximum optimal action value in the successor state.
+[Bellman 1957][book_bellman_1957]
+
+$$
+Q^*(s, a) = \sum_{s'} P(s' \mid s, a) \left[ R(s, a, s') + \gamma \max_{a'} Q^*(s', a') \right]
+\tag{11}
+$$
+
+**Equation 12, Belief-State Update.**
+Under partial observability the belief is propagated through the transition model, reweighted by the observation likelihood and renormalised.
+
+$$
+b_{t+1}(s') = \frac{O(o_{t+1} \mid s') \sum_s P(s' \mid s, a_t) \, b_t(s)}{\sum_{s''} O(o_{t+1} \mid s'') \sum_s P(s'' \mid s, a_t) \, b_t(s)}
+\tag{12}
+$$
+
+**Equation 13, Temporal-Difference Error.**
+The temporal-difference error is the reward plus the discounted value of the next state minus the value of the current state.
+[Sutton 1988][research_sutton_1988]
+
+$$
+\delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)
+\tag{13}
+$$
+
+**Equation 14, Temporal-Difference Value Update.**
+The value estimate of the current state moves toward its bootstrapped target by a step proportional to the temporal-difference error.
+[Sutton 1988][research_sutton_1988]
+
+$$
+V(s_t) \leftarrow V(s_t) + \alpha \delta_t
+\tag{14}
+$$
+
+**Equation 15, Q-Learning Update.**
+The off-policy Q-learning update moves an action value toward the reward plus the discounted maximum action value in the next state.
+[Watkins 1989][research_watkins_1989]
+
+$$
+Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_a Q(s_{t+1}, a) - Q(s_t, a_t) \right]
+\tag{15}
+$$
+
+**Equation 16, Policy Gradient Theorem.**
+The gradient of expected return is the expectation of the score function of the policy weighted by the action value.
+[Williams 1992][research_williams_1992]
+[Sutton et al. 1999b][research_sutton_et_al_2000]
+
+$$
+\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} \left[ \sum_t \nabla_\theta \log \pi_\theta(a_t \mid s_t) \, Q^{\pi_\theta}(s_t, a_t) \right]
+\tag{16}
+$$
+
+**Equation 17, Rescorla-Wagner Update.**
+The associative strength of each stimulus changes in proportion to the shared prediction error between the asymptote and the summed strength of all stimuli present.
+[Rescorla and Wagner 1972][research_rescorla_wagner_1972]
+
+$$
+\Delta V_i = \alpha_i \beta \left( \lambda - \sum_j V_j \right)
+\tag{17}
+$$
+
+**Equation 18, Lai-Robbins Regret Lower Bound.**
+Any consistent bandit algorithm incurs regret growing at least logarithmically in the horizon, with each suboptimal arm contributing its gap divided by its Kullback-Leibler divergence from the optimal arm.
+[Lai and Robbins 1985][research_lai_robbins_1985]
+
+$$
+R_T \geq \sum_{a: \Delta_a > 0} \frac{\log T}{D_{KL}(P_a \| P_{a^*})} \, \Delta_a + o(\log T)
+\tag{18}
+$$
+
+**Equation 19, Upper Confidence Bound Action Selection.**
+The upper confidence bound rule selects the arm whose empirical mean plus a confidence radius that shrinks with its pull count is largest.
+[Auer et al. 2002][research_auer_cesa_bianchi_fischer_2002]
+
+$$
+a_t = \arg\max_a \left[ \hat{\mu}_a + \sqrt{\frac{2 \log t}{N_a(t)}} \right]
+\tag{19}
+$$
+
+**Equation 20, Thompson Sampling.**
+Thompson sampling draws model parameters from the posterior and acts greedily with respect to the draw.
+[Thompson 1933][research_thompson_1933]
+
+$$
+\theta_t \sim p(\theta \mid \mathcal{D}_{t-1}), \quad a_t = \arg\max_a \mathbb{E}[r \mid a, \theta_t]
+\tag{20}
+$$
+
+**Equation 21, Deep Q-Network Target-Network Loss.**
+The deep Q-network minimises the squared temporal-difference error on replayed transitions against a target computed with a separate slowly updated network.
+[Mnih et al. 2015][research_mnih_et_al_2015]
+
+$$
+\mathcal{L}(\theta) = \mathbb{E}_{(s, a, r, s') \sim \mathcal{D}} \left[ \left( r + \gamma \max_{a'} Q_{\theta^-}(s', a') - Q_\theta(s, a) \right)^2 \right]
+\tag{21}
+$$
+
+**Equation 22, Proximal Policy Optimisation Clipped Objective.**
+Proximal policy optimisation takes the minimum of the ratio-weighted advantage and its clipped counterpart, which removes the incentive to move the policy far from its previous iterate.
+[Schulman et al. 2017][research_schulman_et_al_2017]
+
+$$
+\mathcal{L}^{\text{CLIP}}(\theta) = \mathbb{E}_t \left[ \min \left( \rho_t(\theta) \hat{A}_t, \, \text{clip}(\rho_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t \right) \right]
+\tag{22}
+$$
+
+**Equation 23, Maximum-Entropy Objective of Soft Actor-Critic.**
+Soft actor-critic maximises expected reward plus a temperature-weighted entropy of the policy at each visited state.
+[Haarnoja et al. 2018][research_haarnoja_et_al_2018]
+
+$$
+J(\pi) = \sum_t \mathbb{E}_{(s_t, a_t) \sim \pi} \left[ r(s_t, a_t) + \alpha \mathcal{H}(\pi(\cdot \mid s_t)) \right]
+\tag{23}
+$$
+
+**Equation 24, Pseudocount Exploration Bonus.**
+The augmented reward adds a bonus inversely proportional to the square root of the pseudocount of the visited state.
+[Bellemare et al. 2016][research_bellemare_et_al_2016]
+
+$$
+r^+_t = r_t + \frac{\beta}{\sqrt{\hat{N}(s_t)}}
+\tag{24}
+$$
+
+**Equation 25, Prediction-Error Curiosity Reward.**
+The intrinsic reward is the scaled squared error of a forward model predicting the feature embedding of the next state.
+[Pathak et al. 2017][research_pathak_et_al_2017]
+
+$$
+r^i_t = \eta \left\| \hat{\phi}(s_{t+1}) - \phi(s_{t+1}) \right\|_2^2
+\tag{25}
+$$
+
+**Equation 26, Empowerment as Channel Capacity.**
+Empowerment is the maximum over action-sequence distributions of the mutual information between an $n$-step action sequence and the resulting state.
+[Klyubin et al. 2005][research_klyubin_polani_nehaniv_2005]
+
+$$
+\mathfrak{E}(s) = \max_{\omega} I(A_t^n; S_{t+n} \mid s_t = s)
+\tag{26}
+$$
+
+**Equation 27, Option Tuple.**
+An option comprises an initiation set, an intra-option policy and a termination condition.
+[Sutton et al. 1999a][research_sutton_precup_singh_1999]
+
+$$
+o = \langle \mathcal{I}_o, \pi_o, \beta_o \rangle
+\tag{27}
+$$
+
+**Equation 28, Semi-Markov Option Value Function.**
+The value of a state under a policy over options sums the discounted rewards accumulated while an option runs and the value of the state where it terminates, discounted by its duration.
+[Sutton et al. 1999a][research_sutton_precup_singh_1999]
+
+$$
+V^\mu(s) = \sum_o \mu(o \mid s) \left[ \sum_{k=1}^\infty \gamma^{k-1} \mathbb{E}[r_{t+k} \mid s, o] + \gamma^k \mathbb{E}[V^\mu(s_{t+k}) \mid s, o] \right]
+\tag{28}
+$$
+
+**Equation 29, Dyna Interleaved Update.**
+Dyna learns transition and reward models from data and applies the Q-learning update to both real experience and experience simulated from the learned model.
+[Sutton 1991][research_sutton_1991]
+
+$$
+\hat{P}, \hat{R} \leftarrow \text{Learn}(\mathcal{D}); \quad Q \leftarrow Q + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right] \text{ on both real and simulated experience}
+\tag{29}
+$$
+
+**Equation 30, Conservative Q-Learning Penalty.**
+Conservative Q-learning adds to the temporal-difference loss a penalty that pushes down a soft maximum of action values while pushing up the values of actions in the dataset.
+[Kumar et al. 2020][research_kumar_et_al_2020]
+
+$$
+\mathcal{L}_{\text{CQL}}(\theta) = \alpha \left[ \mathbb{E}_{s \sim \mathcal{D}} \log \sum_a \exp Q_\theta(s, a) - \mathbb{E}_{(s, a) \sim \mathcal{D}} Q_\theta(s, a) \right] + \mathcal{L}_{\text{TD}}(\theta)
+\tag{30}
+$$
+
+**Equation 31, Behaviour-Regularised Policy Objective.**
+Behaviour regularisation maximises the action value under the learned policy minus a penalty on its divergence from the behaviour policy that generated the data.
+[Levine et al. 2020][research_levine_et_al_2020]
+
+$$
+\pi = \arg\max_\pi \mathbb{E}_{s \sim \mathcal{D}, a \sim \pi} [Q(s, a)] - \lambda \, D(\pi \| \pi_\beta)
+\tag{31}
+$$
+
+**Equation 32, Model-Agnostic Meta-Learning Objective.**
+Model-agnostic meta-learning chooses initial parameters that minimise the summed task losses after one inner gradient step on each task.
+[Finn Abbeel Levine 2017][research_finn_abbeel_levine_2017]
+
+$$
+\theta^* = \arg\min_\theta \sum_{\mathcal{T}_i \sim p(\mathcal{T})} \mathcal{L}_{\mathcal{T}_i} \left( \theta - \alpha \nabla_\theta \mathcal{L}_{\mathcal{T}_i}(\theta) \right)
+\tag{32}
+$$
+
+**Equation 33, Elastic Weight Consolidation Loss.**
+Elastic weight consolidation adds to the new-task loss a quadratic penalty on each parameter's departure from its old-task value, weighted by the Fisher information.
+[Kirkpatrick et al. 2017][research_kirkpatrick_et_al_2017]
+
+$$
+\mathcal{L}(\theta) = \mathcal{L}_B(\theta) + \sum_i \frac{\lambda}{2} F_i (\theta_i - \theta^*_{A, i})^2
+\tag{33}
+$$
+
+**Equation 34, Behaviour Cloning Objective.**
+Behaviour cloning fits the policy by maximising the log-likelihood of expert actions given expert states.
+
+$$
+\pi_{\text{BC}} = \arg\max_\pi \mathbb{E}_{(s, a) \sim \mathcal{D}_E} \log \pi(a \mid s)
+\tag{34}
+$$
+
+**Equation 35, Generative Adversarial Imitation Learning Objective.**
+Generative adversarial imitation learning trains a discriminator to separate policy and expert state-action pairs while the policy minimises the discriminator objective less an entropy bonus.
+[Ho and Ermon 2016][research_ho_ermon_2016]
+
+$$
+\min_\pi \max_D \mathbb{E}_{\pi}[\log D(s, a)] + \mathbb{E}_{\pi_E}[\log(1 - D(s, a))] - \lambda \mathcal{H}(\pi)
+\tag{35}
+$$
+
+**Equation 36, Maximum-Entropy Inverse Reinforcement Learning Trajectory Model.**
+Maximum-entropy inverse reinforcement learning makes the probability of a trajectory proportional to the exponential of its summed learned reward.
+[Ziebart 2008][research_ziebart_et_al_2008]
+
+$$
+p(\tau) \propto \exp\left( \sum_t r_\phi(s_t, a_t) \right)
+\tag{36}
+$$
+
+**Equation 37, Bradley-Terry Trajectory Preference Model.**
+The probability that one trajectory segment is preferred to another is a softmax over their summed predicted rewards.
+[Christiano et al. 2017][research_christiano_et_al_2017]
+
+$$
+P(\tau^1 \succ \tau^2) = \frac{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t)}{\exp \sum_t \hat{r}_\phi(s^1_t, a^1_t) + \exp \sum_t \hat{r}_\phi(s^2_t, a^2_t)}
+\tag{37}
+$$
+
+**Equation 38, Evolution Strategies Gradient Estimator.**
+The gradient of the Gaussian-smoothed fitness equals the expectation of the fitness of a perturbed parameter vector times the perturbation, divided by the noise scale.
+[Salimans et al. 2017][research_salimans_et_al_2017]
+
+$$
+\nabla_\theta \mathbb{E}_{\epsilon \sim \mathcal{N}(0, I)} \left[ F(\theta + \sigma \epsilon) \right] = \frac{1}{\sigma} \mathbb{E}_\epsilon \left[ F(\theta + \sigma \epsilon) \, \epsilon \right]
+\tag{38}
+$$
+
+**Equation 39, MAP-Elites Archive Cell.**
+Each cell of the Multi-dimensional Archive of Phenotypic Elites retains the fittest solution found whose behaviour falls in that cell.
+[Mouret and Clune 2015][research_mouret_clune_2015]
+
+$$
+\mathcal{A}[c] = \arg\max_{x \in \text{Cell}(c)} F(x)
+\tag{39}
+$$
+
+**Equation 40, Chinchilla Parametric Scaling Law.**
+Loss is an irreducible term plus separate power-law terms that fall with parameter count and with training-token count.
+[Hoffmann et al. 2022][research_hoffmann_et_al_2022]
+
+$$
+L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E
+\tag{40}
+$$
+
+**Equation 41, Compute-Optimal Allocation.**
+For a fixed compute budget the loss-minimising parameter count and token count each scale as a power of the budget.
+[Hoffmann et al. 2022][research_hoffmann_et_al_2022]
+
+$$
+N^*(C) \propto C^a, \quad D^*(C) \propto C^b
+\tag{41}
+$$
+
+**Equation 42, Conditional Value at Risk of the Return.**
+The conditional value at risk is the expected return conditioned on falling at or below its lower quantile at level $\alpha$.
+
+$$
+\text{CVaR}_\alpha[G] = \mathbb{E}[G \mid G \leq q_\alpha(G)]
+\tag{42}
+$$
+
+**Equation 43, Dopamine Reward Prediction Error Correspondence.**
+The phasic firing of midbrain dopamine neurons is proportional to the temporal-difference error.
+[Schultz et al. 1997][research_schultz_dayan_montague_1997]
+
+$$
+\text{DA firing rate at } t \propto \delta_t = r_{t+1} + \gamma V(s_{t+1}) - V(s_t)
+\tag{43}
+$$
+
+**Equation 44, Hierarchical Predictive Coding Update.**
+Each level carries the residual between its representation and the top-down prediction from the level above, and its representation moves to reduce its own error and the error it leaves in the level below.
+[Rao and Ballard 1999][research_rao_ballard_1999]
+
+$$
+\epsilon_l = x_l - g_l(x_{l+1}), \quad x_l \leftarrow x_l + \eta \left( - \epsilon_l + \frac{\partial g_{l-1}(x_l)}{\partial x_l}^\top \epsilon_{l-1} \right)
+\tag{44}
+$$
+
+**Equation 45, Successor Representation.**
+The successor representation is the expected discounted number of future visits to each state from a starting state under the policy.
+[Dayan 1993][research_dayan_1993]
+
+$$
+M^\pi(s, s') = \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t \, \mathbb{1}[s_t = s'] \mid s_0 = s \right]
+\tag{45}
+$$
+
+**Equation 46, Value Factorised Through the Successor Representation.**
+The value of a state is the successor representation applied to the state reward vector.
+[Dayan 1993][research_dayan_1993]
+
+$$
+V^\pi(s) = \sum_{s'} M^\pi(s, s') R(s')
+\tag{46}
+$$
+
+**Equation 47, Variational Free Energy.**
+Free energy is the expected log ratio of the approximate posterior to the joint, equal to the Kullback-Leibler divergence from the true posterior minus the log evidence, so it bounds surprise from above.
+[Friston 2010][research_friston_2010]
+
+$$
+F(q, o) = \mathbb{E}_{q(s)} \left[ \log q(s) - \log p(o, s) \right] = D_{KL}(q(s) \| p(s \mid o)) - \log p(o)
+\tag{47}
+$$
+
+**Equation 48, Prospect Theory Value Function.**
+The value function is a power function that is concave for gains and convex and steeper for losses, with the loss-aversion coefficient scaling the loss branch.
+[Kahneman and Tversky 1979][research_kahneman_tversky_1979]
+
+$$
+v(x) = \begin{cases} x^\alpha & x \geq 0 \\ -\lambda (-x)^\beta & x < 0 \end{cases}
+\tag{48}
+$$
+
+**Equation 49, Prospect Theory Probability Weighting Function.**
+The one-parameter weighting function of cumulative prospect theory overweights small probabilities and underweights moderate and large ones.
+
+$$
+w(p) = \frac{p^\gamma}{(p^\gamma + (1-p)^\gamma)^{1/\gamma}}
+\tag{49}
+$$
+
+**Equation 50, Bayes' Rule over a Hypothesis Space.**
+The posterior over hypotheses is the likelihood times the prior normalised over the structured hypothesis space.
+[Tenenbaum et al. 2011][research_tenenbaum_et_al_2011]
+
+$$
+p(h \mid d) = \frac{p(d \mid h) \, p(h)}{\sum_{h' \in \mathcal{H}} p(d \mid h') \, p(h')}
+\tag{50}
+$$
+
+**Equation 51, Exponential Forgetting Curve.**
+Retention decays exponentially from its initial value with a single memory time constant, the textbook simplification of the forgetting curve.
+
+$$
+R(t) = R_0 \, e^{-t/\tau}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Spacing-Dependent Power-Law Retention.*
+The article writes retention as a power law in the ratio of the retention interval to the study spacing, a form it supplies rather than the fit reported in the cited meta-analysis.
+
+$$
+R(t, s) = R_0 \, (1 + t/s)^{-\beta}
+\tag{52}
+$$
+
+**Equation 53, Chinchilla Parametric Scaling Law Restated.**
+The same parametric law expresses loss as an irreducible term plus power-law terms in parameter count and training-token count.
+[Hoffmann et al. 2022][research_hoffmann_et_al_2022]
+
+$$
+L(N, D) = \frac{A}{N^\alpha} + \frac{B}{D^\beta} + E
+\tag{53}
+$$
+
+**Equation 54, Optimal Policy as Maximiser of Expected Discounted Return.**
+The optimal policy is the policy that maximises the expected discounted return, the objective that the reward-is-enough thesis holds to be sufficient for intelligence.
+[Silver et al. 2021][research_silver_et_al_2021]
+
+$$
+\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]
+\tag{54}
+$$
+
+**Equation 55, Tabular Sample Complexity Bound.**
+The number of samples needed for an $\epsilon$-optimal policy in a tabular problem scales with the number of state-action pairs, the inverse cube of one minus the discount and the inverse square of the accuracy, up to logarithmic factors.
+
+$$
+\tilde{O}\left( \frac{|\mathcal{S}||\mathcal{A}|}{(1 - \gamma)^3 \epsilon^2} \right)
+\tag{55}
+$$
+
+**Equation 56, Optimal Policy Restated for the Reward Hypothesis.**
+The strong form of the reward hypothesis holds that any goal-directed behaviour of interest is the policy maximising expected discounted return for some reward specification.
+[Silver et al. 2021][research_silver_et_al_2021]
+
+$$
+\pi^* = \arg\max_\pi \mathbb{E}_\pi \left[ \sum_{t=0}^\infty \gamma^t r_{t+1} \right]
+\tag{56}
+$$
+
+### Notation
+
+- $B_t$, the established public baseline at time $t$
+- $E_t$, the empirical developments in the intervening period
+- $\mu_0$, the initial state distribution
+- $G_t$, the discounted return from step $t$
+- $d^\pi(s)$, the normalised discounted state-occupancy measure of policy $\pi$
+- $V^\pi(s)$, the state-value function of policy $\pi$
+- $Q^\pi(s, a)$, the action-value function of policy $\pi$
+- $A^\pi(s, a)$, the advantage function of policy $\pi$
+- $b_t(s)$, the belief state, a probability distribution over hidden states at step $t$
+- $\delta_t$, the temporal-difference error at step $t$
+- $R_T$, the cumulative regret over horizon $T$
+- $\Delta_a$, the suboptimality gap of arm $a$
+- $N_a(t)$, the number of pulls of arm $a$ up to round $t$
+- $Q_{\theta^-}$, the target network's action-value estimate
+- $\rho_t(\theta)$, the ratio of the new to the old policy probability of the taken action
+- $\hat{A}_t$, the advantage estimate at step $t$
+- $\mathcal{H}$, the entropy of a policy in the objectives of equations 23 and 35, and the hypothesis space in equation 50
+- $\hat{N}(s_t)$, the pseudocount of the visited state
+- $\mathfrak{E}(s)$, the empowerment of state $s$
+- $\pi_\beta$, the behaviour policy that generated the offline dataset
+- $F_i$, the diagonal Fisher information of parameter $i$ on the old task
+- $\mathcal{D}_E$, the dataset of expert demonstrations
+- $L(N, D)$, the loss as a function of parameter count $N$ and training-token count $D$
+- $q_\alpha(G)$, the lower $\alpha$-quantile of the return distribution
+- $M^\pi(s, s')$, the successor representation of policy $\pi$
+- $g_l$, the top-down generative model at level $l$
+- $v(x)$, the prospect theory value of an outcome $x$
+- $w(p)$, the prospect theory decision weight of probability $p$
+- $R(t, s)$, the retention at time $t$ after a study session with spacing $s$
 
 ## References
 

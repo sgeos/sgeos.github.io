@@ -19,11 +19,17 @@ Evolutionary and open-ended adaptation frames learning as a population-level sea
 
 The evolutionary adaptation problem is specified by a population of candidate solutions and a fitness function that evaluates each candidate. At each generation, selection favors high-fitness candidates, variation operators produce new candidates through mutation or recombination, and the resulting population replaces the prior one. Formally, given a fitness function $F : \mathcal{X} \to \mathbb{R}$ over a solution space $\mathcal{X}$, an evolutionary algorithm maintains a population
 
-$$\mathcal{P}_t = \{x_1^{(t)}, x_2^{(t)}, \ldots, x_N^{(t)}\}, \quad x_i^{(t)} \in \mathcal{X}$$
+$$
+\mathcal{P}_t = \{x_1^{(t)}, x_2^{(t)}, \ldots, x_N^{(t)}\}, \quad x_i^{(t)} \in \mathcal{X}
+\tag{1}
+$$
 
 and iteratively updates the population through a triple of operations. Selection maps the current population to a distribution $s(\mathcal{P}\_t)$ that favors high-fitness individuals. Variation operators apply mutation $m : \mathcal{X} \to \mathcal{X}$ and recombination $r : \mathcal{X} \times \mathcal{X} \to \mathcal{X}$ to selected parents to produce offspring. Replacement combines offspring and prior population into the next generation $\mathcal{P}\_{t+1}$. The general evolutionary update rule takes the form
 
-$$\mathcal{P}_{t+1} = \text{replace}\!\left(\mathcal{P}_t, \, \{m(r(s(\mathcal{P}_t), s(\mathcal{P}_t))) \, : \, i = 1, \ldots, \lambda\}\right)$$
+$$
+\mathcal{P}_{t+1} = \text{replace}\!\left(\mathcal{P}_t, \, \{m(r(s(\mathcal{P}_t), s(\mathcal{P}_t))) \, : \, i = 1, \ldots, \lambda\}\right)
+\tag{2}
+$$
 
 with $\lambda$ offspring generated per generation. evolutionary algorithms differ in the concrete instantiation of the selection, variation, and replacement operators.
 
@@ -59,47 +65,74 @@ Genetic algorithms and evolution strategies constitute the two foundational mode
 
 Genetic algorithms of Holland 1975 encode solutions as binary strings and apply crossover and bit-flip mutation as variation operators. Selection is typically proportional to fitness through fitness-proportionate selection
 
-$$p(x_i^{(t)}) = \frac{F(x_i^{(t)})}{\sum_{j=1}^{N} F(x_j^{(t)})}$$
+$$
+p(x_i^{(t)}) = \frac{F(x_i^{(t)})}{\sum_{j=1}^{N} F(x_j^{(t)})}
+\tag{3}
+$$
 
 or tournament selection in which random subsets of size $k$ compete for reproduction. The classical convergence analysis proceeds through the schema theorem which characterizes the expected number of instances of a schema $H$ in the next generation as
 
-$$\mathbb{E}[m(H, t+1)] \geq m(H, t) \cdot \frac{f(H)}{\bar{f}} \cdot \left(1 - p_c \frac{\delta(H)}{L-1} - p_m \, o(H)\right)$$
+$$
+\mathbb{E}[m(H, t+1)] \geq m(H, t) \cdot \frac{f(H)}{\bar{f}} \cdot \left(1 - p_c \frac{\delta(H)}{L-1} - p_m \, o(H)\right)
+\tag{4}
+$$
 
 where $f(H)$ is the average fitness of instances of $H$, $\bar{f}$ is the population average fitness, $L$ is the string length, $\delta(H)$ is the defining length of the schema, $o(H)$ is the schema order, and $p_c, p_m$ are the crossover and mutation rates. The schema theorem provides an explanation for the exponential accumulation of high-fitness low-order schemata under fitness-proportionate selection.
 
 Evolution strategies of Rechenberg 1973 and Schwefel 1977 encode solutions as real-valued vectors and apply Gaussian mutation as the primary variation operator. The classical (1+1)-ES maintains a single parent $x_t$ and generates one offspring per generation through Gaussian perturbation
 
-$$x_{t+1} = \begin{cases} x_t + \sigma \, \epsilon & \text{if } F(x_t + \sigma \epsilon) > F(x_t) \\ x_t & \text{otherwise} \end{cases}, \quad \epsilon \sim \mathcal{N}(0, I)$$
+$$
+x_{t+1} = \begin{cases} x_t + \sigma \, \epsilon & \text{if } F(x_t + \sigma \epsilon) > F(x_t) \\ x_t & \text{otherwise} \end{cases}, \quad \epsilon \sim \mathcal{N}(0, I)
+\tag{5}
+$$
 
 replacing the parent when the offspring has higher fitness. The step size $\sigma$ adapts through the Rechenberg 1/5-success rule
 
-$$\sigma_{t+1} = \begin{cases} \sigma_t / c & \text{if } p_s > 1/5 \\ \sigma_t \cdot c & \text{if } p_s < 1/5 \\ \sigma_t & \text{otherwise} \end{cases}$$
+$$
+\sigma_{t+1} = \begin{cases} \sigma_t / c & \text{if } p_s > 1/5 \\ \sigma_t \cdot c & \text{if } p_s < 1/5 \\ \sigma_t & \text{otherwise} \end{cases}
+\tag{6}
+$$
 
 with $p_s$ the recent success rate of proposed offspring and $c \in (0, 1)$ a fixed adjustment factor. The $(\mu, \lambda)$-ES generalizes to $\mu$ parents and $\lambda$ offspring with selection restricted to offspring, and the $(\mu + \lambda)$-ES selects from the union of parents and offspring.
 
 The Covariance Matrix Adaptation Evolution Strategy (CMA-ES) of [Hansen and Ostermeier 2001][research_hansen_ostermeier_2001_cmaes] introduced the modern high-performance evolution strategy through the adaptation of a full covariance matrix that captures the local structure of the fitness landscape. The CMA-ES update generates offspring as
 
-$$x_k = m + \sigma \, \mathcal{N}(0, C)$$
+$$
+x_k = m + \sigma \, \mathcal{N}(0, C)
+\tag{7}
+$$
 
 with mean $m$, step size $\sigma$, and covariance $C$. The rank-$\mu$ covariance update at each generation applies
 
-$$C_{t+1} = (1 - c_\mu) C_t + c_\mu \sum_{i=1}^{\mu} w_i \, y_{i:\lambda} \, y_{i:\lambda}^\top$$
+$$
+C_{t+1} = (1 - c_\mu) C_t + c_\mu \sum_{i=1}^{\mu} w_i \, y_{i:\lambda} \, y_{i:\lambda}^\top
+\tag{8}
+$$
 
 where $y_{i:\lambda} = (x_{i:\lambda} - m_t) / \sigma_t$ are normalized ranked-by-fitness search directions, $w_i$ are weights that emphasize higher-ranked offspring, and $c_\mu$ is a learning rate. The covariance update aligns the search distribution with successful search directions. The treatment has become the standard black-box optimization baseline and continues to organize the modern evolution strategy literature. The [Hansen 2016][research_hansen_2016_cmaes_tutorial] tutorial provides the canonical reference.
 
 Natural Evolution Strategies of [Wierstra et al. 2014][research_wierstra_et_al_2014_nes] introduced the account as a stochastic gradient method on the parameter distribution rather than on individual solutions. The gradient of the expected fitness under a search distribution $\pi_\theta$ is
 
-$$\nabla_\theta \, \mathbb{E}_{x \sim \pi_\theta}[F(x)] = \mathbb{E}_{x \sim \pi_\theta}[F(x) \, \nabla_\theta \log \pi_\theta(x)]$$
+$$
+\nabla_\theta \, \mathbb{E}_{x \sim \pi_\theta}[F(x)] = \mathbb{E}_{x \sim \pi_\theta}[F(x) \, \nabla_\theta \log \pi_\theta(x)]
+\tag{9}
+$$
 
 which admits Monte Carlo estimation through samples from $\pi_\theta$. Natural gradient corrections improve the update stability by scaling the gradient with the inverse Fisher information matrix of the search distribution,
 
-$$\tilde{\nabla}_\theta \, \mathbb{E}[F] = F(\theta)^{-1} \nabla_\theta \, \mathbb{E}[F], \quad F(\theta) = \mathbb{E}_{x \sim \pi_\theta}\!\left[\nabla_\theta \log \pi_\theta(x) \, \nabla_\theta \log \pi_\theta(x)^\top\right]$$
+$$
+\tilde{\nabla}_\theta \, \mathbb{E}[F] = F(\theta)^{-1} \nabla_\theta \, \mathbb{E}[F], \quad F(\theta) = \mathbb{E}_{x \sim \pi_\theta}\!\left[\nabla_\theta \log \pi_\theta(x) \, \nabla_\theta \log \pi_\theta(x)^\top\right]
+\tag{10}
+$$
 
 where $F(\theta)$ is the Fisher information matrix of the parameter distribution.
 
 The [Salimans et al. 2017][research_salimans_et_al_2017_es] Evolution Strategies as a Scalable Alternative to Reinforcement Learning framework demonstrated that a simplified version of NES scales to deep neural network policies through massive parallelization. The update rule perturbs the parameters with isotropic Gaussian noise and updates the parameters through the fitness-weighted sum,
 
-$$\nabla_\theta \, \mathbb{E}_{\epsilon \sim \mathcal{N}(0, I)}[F(\theta + \sigma \epsilon)] \approx \frac{1}{N \sigma} \sum_{i=1}^{N} F(\theta + \sigma \epsilon_i) \, \epsilon_i$$
+$$
+\nabla_\theta \, \mathbb{E}_{\epsilon \sim \mathcal{N}(0, I)}[F(\theta + \sigma \epsilon)] \approx \frac{1}{N \sigma} \sum_{i=1}^{N} F(\theta + \sigma \epsilon_i) \, \epsilon_i
+\tag{11}
+$$
 
 The framework achieved competitive performance with policy-gradient methods on standard benchmarks while providing significantly better parallelization efficiency, motivating considerable subsequent work on evolutionary approaches to deep reinforcement learning.
 
@@ -109,7 +142,10 @@ Population-based optimization extends beyond the classical evolutionary framewor
 
 Particle Swarm Optimization (PSO) of [Kennedy and Eberhart 1995][research_kennedy_eberhart_1995_pso] maintains a swarm of candidate solutions whose positions and velocities evolve through interactions with the personal-best and global-best positions. The velocity update
 
-$$v_i^{t+1} = \omega \, v_i^t + \phi_p \, r_p \, (p_i^{\text{best}} - x_i^t) + \phi_g \, r_g \, (g^{\text{best}} - x_i^t)$$
+$$
+v_i^{t+1} = \omega \, v_i^t + \phi_p \, r_p \, (p_i^{\text{best}} - x_i^t) + \phi_g \, r_g \, (g^{\text{best}} - x_i^t)
+\tag{12}
+$$
 
 combines inertia $\omega$, personal-best attraction with coefficient $\phi_p$, and global-best attraction with coefficient $\phi_g$, with $r_p, r_g$ uniform random weights and $p_i^{\text{best}}$, $g^{\text{best}}$ the personal and global best positions respectively. The account has been widely applied to engineering optimization problems and admits distinctive theoretical treatments through dynamical-systems analysis of the swarm trajectories.
 
@@ -117,7 +153,10 @@ Ant Colony Optimization (ACO) of [Dorigo et al. 1996][research_dorigo_maniezzo_c
 
 Differential Evolution (DE) of [Storn and Price 1997][research_storn_price_1997_de] introduced a mutation operator that generates offspring through difference-of-parents perturbations rather than Gaussian noise,
 
-$$v_i = x_{r_1} + F \cdot (x_{r_2} - x_{r_3})$$
+$$
+v_i = x_{r_1} + F \cdot (x_{r_2} - x_{r_3})
+\tag{13}
+$$
 
 with $r_1, r_2, r_3$ distinct random indices and $F$ a scale factor. This formulation adapts to the local geometry of the fitness landscape through the population-derived difference vectors, providing self-scaling behavior that Gaussian mutation does not directly admit. DE has become the standard baseline for continuous black-box optimization alongside CMA-ES.
 
@@ -135,17 +174,26 @@ NEAT of Stanley and Miikkulainen 2002 introduced complexification through innova
 
 The NEAT speciation mechanism partitions the population into species based on genome similarity, protecting innovative variants from immediate competitive pressure while they mature. The compatibility distance between two genomes is
 
-$$\delta = \frac{c_1 E + c_2 D}{N} + c_3 \bar{W}$$
+$$
+\delta = \frac{c_1 E + c_2 D}{N} + c_3 \bar{W}
+\tag{14}
+$$
 
 where $E$ and $D$ are excess and disjoint gene counts, $\bar{W}$ is the average weight difference of matching genes, $N$ is a normalization factor, and $c_1, c_2, c_3$ are weight coefficients. Individuals with $\delta$ below a threshold belong to the same species. Species-adjusted fitness sharing distributes each individual's fitness across its species,
 
-$$f_i' = \frac{f_i}{|\{j : \delta(x_i, x_j) < \delta_{\text{th}}\}|}$$
+$$
+f_i' = \frac{f_i}{|\{j : \delta(x_i, x_j) < \delta_{\text{th}}\}|}
+\tag{15}
+$$
 
 with $\delta_{\text{th}}$ the compatibility threshold. The mechanism produces balanced species populations by penalizing overrepresented species and protects novel structural innovations from immediate extinction.
 
 HyperNEAT of Stanley D'Ambrosio Gauci 2009 introduced Compositional Pattern-Producing Networks (CPPNs) as an indirect encoding that generates network weights from a compact CPPN that maps coordinate inputs to connection weights. Given the source coordinates $(x_1, y_1)$ and target coordinates $(x_2, y_2)$ of a hypothetical connection in the substrate network, the CPPN produces the weight
 
-$$w_{ij} = \text{CPPN}_\theta(x_1, y_1, x_2, y_2)$$
+$$
+w_{ij} = \text{CPPN}_\theta(x_1, y_1, x_2, y_2)
+\tag{16}
+$$
 
 with the CPPN parameters $\theta$ subject to evolutionary search. The account supports the evolution of markedly larger networks than NEAT can practically address, exploiting geometric regularities in the network structure to compress the effective genome size.
 
@@ -183,11 +231,17 @@ Novelty search and quality-diversity methods depart from the direct fitness-opti
 
 Novelty Search of Lehman and Stanley 2011 introduced this formulation through a selection criterion based on behavioral novelty rather than fitness. The behavioral novelty of a candidate is measured as the distance to its $k$-nearest neighbors in a behavioral archive,
 
-$$\rho(x) = \frac{1}{k} \sum_{i=1}^{k} \|b(x) - b(x_i^{\text{NN}})\|$$
+$$
+\rho(x) = \frac{1}{k} \sum_{i=1}^{k} \|b(x) - b(x_i^{\text{NN}})\|
+\tag{17}
+$$
 
 where $b(x)$ is the behavioral descriptor of candidate $x$ and $x_i^{\text{NN}}$ are its $k$ nearest neighbors in the archive. Selection favors candidates with high novelty regardless of their fitness, producing populations that systematically explore the behavioral space. Combined novelty-plus-fitness selection weights the two objectives through
 
-$$s(x) = (1 - w) \, \rho(x) + w \, F(x)$$
+$$
+s(x) = (1 - w) \, \rho(x) + w \, F(x)
+\tag{18}
+$$
 
 with $w \in [0, 1]$ trading off exploration against exploitation, and archive updates typically retain the candidate when $\rho(x) > \rho_{\text{th}}$ for a threshold $\rho_{\text{th}}$.
 
@@ -197,11 +251,17 @@ Quality-Diversity of Pugh Soros Stanley 2016 combined the novelty framework with
 
 MAP-Elites of Mouret and Clune 2015 provided the algorithmic instantiation. The account discretizes the behavioral space into a grid, and maintains a single elite per cell,
 
-$$\mathcal{E}(b) = \arg\max_{x : b(x) = b} F(x)$$
+$$
+\mathcal{E}(b) = \arg\max_{x : b(x) = b} F(x)
+\tag{19}
+$$
 
 with $\mathcal{E}$ producing the current best individual with behavioral descriptor $b$. Selection samples from the elite archive with variation applied to produce new candidates that may either fill empty cells or replace the elite of an existing cell. The model provides simultaneously a high-quality solution repertoire and a systematic exploration of the behavioral space. The QD score aggregates this formulation's dual objective through
 
-$$\text{QD}(\mathcal{E}) = \sum_{b \in \mathcal{B}_{\text{filled}}} F(\mathcal{E}(b))$$
+$$
+\text{QD}(\mathcal{E}) = \sum_{b \in \mathcal{B}_{\text{filled}}} F(\mathcal{E}(b))
+\tag{20}
+$$
 
 capturing both coverage of the behavioral space and quality of the retained solutions.
 
@@ -223,13 +283,19 @@ Multi-objective evolutionary algorithms treat the setting in which several objec
 
 The general multi-objective problem seeks the Pareto set
 
-$$\mathcal{P}^* = \{x \in \mathcal{X} \, : \, \nexists y \in \mathcal{X} \text{ such that } y \succ_{\text{Pareto}} x\}$$
+$$
+\mathcal{P}^* = \{x \in \mathcal{X} \, : \, \nexists y \in \mathcal{X} \text{ such that } y \succ_{\text{Pareto}} x\}
+\tag{21}
+$$
 
 with $\succ_{\text{Pareto}}$ the Pareto-dominance relation. The image of $\mathcal{P}^\*$ in objective space forms the Pareto front, and multi-objective evolutionary algorithms approximate this front through population-based search.
 
 NSGA-II of [Deb Pratap Agarwal Meyarivan 2002][research_deb_et_al_2002_nsga2] introduced the modern non-dominated sorting genetic algorithm through fast non-dominated sorting combined with crowding-distance-based diversity preservation. This account partitions the population into non-domination levels
 
-$$\mathcal{F}_1 = \{x \in \mathcal{P} \, : \, \nexists y \in \mathcal{P}, y \succ_{\text{Pareto}} x\}, \quad \mathcal{F}_k = \{x \in \mathcal{P} \setminus \cup_{j<k} \mathcal{F}_j : \, \nexists y \in \mathcal{P} \setminus \cup_{j<k} \mathcal{F}_j, y \succ_{\text{Pareto}} x\}$$
+$$
+\mathcal{F}_1 = \{x \in \mathcal{P} \, : \, \nexists y \in \mathcal{P}, y \succ_{\text{Pareto}} x\}, \quad \mathcal{F}_k = \{x \in \mathcal{P} \setminus \cup_{j<k} \mathcal{F}_j : \, \nexists y \in \mathcal{P} \setminus \cup_{j<k} \mathcal{F}_j, y \succ_{\text{Pareto}} x\}
+\tag{22}
+$$
 
 with selection favoring lower-index fronts and, within a front, favoring individuals with higher crowding distance. NSGA-II has become the standard baseline for multi-objective evolutionary optimization and continues to organize the modern literature.
 
@@ -257,7 +323,10 @@ Enhanced POET of Wang Lehman Clune Stanley 2020 extended the model with addition
 
 Unsupervised Environment Design of [Dennis et al. 2020][research_dennis_et_al_2020_paired_a261] PAIRED introduced a game-theoretic formulation for open-ended environment generation. An adversarial environment generator proposes environments that maximize the regret of the current agent $\pi_A$ against an antagonist policy $\pi_B$,
 
-$$\theta^*_{\text{env}} = \arg\max_{\theta_{\text{env}}} \left(J_{\theta_{\text{env}}}(\pi_B) - J_{\theta_{\text{env}}}(\pi_A)\right)$$
+$$
+\theta^*_{\text{env}} = \arg\max_{\theta_{\text{env}}} \left(J_{\theta_{\text{env}}}(\pi_B) - J_{\theta_{\text{env}}}(\pi_A)\right)
+\tag{23}
+$$
 
 providing an automatic curriculum of environments that are challenging but solvable at the agent's current capability level. The regret objective ensures that generated environments are neither too easy where both agents succeed nor too hard where both agents fail.
 
@@ -295,19 +364,28 @@ Coevolution treats the setting in which multiple populations coevolve with fitne
 
 Competitive coevolution treats populations with fitness functions defined by pairwise contests. Given populations $\mathcal{P}^A$ and $\mathcal{P}^B$, the fitness of $x \in \mathcal{P}^A$ against the opposing population is
 
-$$F^A(x) = \mathbb{E}_{y \sim \mathcal{P}^B}[U(x, y)]$$
+$$
+F^A(x) = \mathbb{E}_{y \sim \mathcal{P}^B}[U(x, y)]
+\tag{24}
+$$
 
 with $U$ the payoff of $x$ against $y$. The treatment has been applied to the evolution of game-playing strategies, adversarial defense mechanisms, and predator-prey dynamics. The Rosin and Belew 1997 [research_rosin_belew_1997] Hall of Fame framework preserved historical strategies to prevent the loss of adaptations against previously-defeated opponents, providing a mechanism to address the coevolutionary instability problem.
 
 Cooperative coevolution treats populations with shared fitness functions that decompose across the populations. The [Potter and De Jong 2000][research_potter_dejong_2000] cooperative coevolutionary framework introduced the decomposition of complex problems into sub-populations that coevolve toward joint solutions,
 
-$$F(x^1, x^2, \ldots, x^K) = F_{\text{joint}}(x^1 \oplus x^2 \oplus \cdots \oplus x^K)$$
+$$
+F(x^1, x^2, \ldots, x^K) = F_{\text{joint}}(x^1 \oplus x^2 \oplus \cdots \oplus x^K)
+\tag{25}
+$$
 
 with each sub-population evolving one component $x^k$ and the joint solution assembled through concatenation or composition. This account supports the evolution of considerably larger solutions than monolithic populations can practically address.
 
 Pareto coevolution of [Ficici and Pollack 2001][research_ficici_pollack_2001_pareto] introduced multi-objective coevolutionary dynamics through Pareto optimality across the interacting populations, providing formal grounds for the discovery of qualitatively-distinct trade-off solutions. Solution $x$ Pareto-dominates $y$ under objectives $F_1, \ldots, F_M$ if
 
-$$\forall m : \, F_m(x) \geq F_m(y) \quad \text{and} \quad \exists m : \, F_m(x) > F_m(y)$$
+$$
+\forall m : \, F_m(x) \geq F_m(y) \quad \text{and} \quad \exists m : \, F_m(x) > F_m(y)
+\tag{26}
+$$
 
 with the Pareto front comprising all non-dominated solutions. The framework provides the multi-objective extension of the scalar-fitness evolutionary framework.
 
@@ -325,11 +403,17 @@ Large-Scale Evolution of Image Classifiers of [Real et al. 2017][research_real_e
 
 Differentiable Architecture Search (DARTS) of [Liu et al. 2019][research_liu_simonyan_yang_2019_darts] introduced a gradient-based approach to NAS through a continuous relaxation of the discrete architecture space. Each candidate operation $o \in \mathcal{O}$ at each connection receives a mixing weight $\alpha_o$ and the output at each node combines all candidate operations as
 
-$$\bar{o}(x) = \sum_{o \in \mathcal{O}} \frac{\exp(\alpha_o)}{\sum_{o' \in \mathcal{O}} \exp(\alpha_{o'})} \, o(x)$$
+$$
+\bar{o}(x) = \sum_{o \in \mathcal{O}} \frac{\exp(\alpha_o)}{\sum_{o' \in \mathcal{O}} \exp(\alpha_{o'})} \, o(x)
+\tag{27}
+$$
 
 with the architecture parameters $\alpha$ and network weights $w$ jointly optimized through bilevel optimization
 
-$$\min_\alpha L_{\text{val}}(w^*(\alpha), \alpha), \quad w^*(\alpha) = \arg\min_w L_{\text{train}}(w, \alpha)$$
+$$
+\min_\alpha L_{\text{val}}(w^*(\alpha), \alpha), \quad w^*(\alpha) = \arg\min_w L_{\text{train}}(w, \alpha)
+\tag{28}
+$$
 
 This account substantially reduces the search compute cost through gradient-based bilevel optimization but requires the differentiable structure that pure evolutionary methods do not.
 
@@ -339,7 +423,10 @@ The [Elsken et al. 2019][research_elsken_metzen_hutter_2019_nas_survey] neural a
 
 EfficientNet of [Tan and Le 2019][research_tan_le_2019_efficientnet] introduced compound scaling of architecture width, depth, and resolution through a systematic search. The compound-scaling rule assigns
 
-$$d = \alpha^\phi, \quad w = \beta^\phi, \quad r = \gamma^\phi, \quad \text{subject to} \quad \alpha \cdot \beta^2 \cdot \gamma^2 \approx 2$$
+$$
+d = \alpha^\phi, \quad w = \beta^\phi, \quad r = \gamma^\phi, \quad \text{subject to} \quad \alpha \cdot \beta^2 \cdot \gamma^2 \approx 2
+\tag{29}
+$$
 
 where $d, w, r$ are depth, width, and resolution scaling factors, $\phi$ is a global scaling coefficient, and $\alpha, \beta, \gamma$ are per-dimension constants determined through the small-grid search. The framework produces architectures that dominate the Pareto frontier of accuracy versus compute and has markedly shaped subsequent architectural design practice.
 
@@ -367,13 +454,19 @@ Evolutionary reinforcement learning combines evolutionary population dynamics wi
 
 Evolutionary Reinforcement Learning (ERL) of [Khadka and Tumer 2018][research_khadka_tumer_2018_erl] introduced a hybrid framework in which an evolutionary population coexists with a reinforcement learning agent that samples from the population's replay buffer. The shared replay buffer accumulates transitions from all population members,
 
-$$\mathcal{B} = \bigcup_{\pi \in \mathcal{P}_t} \{(s, a, r, s') \, : \, (s, a, r, s') \sim \pi\}$$
+$$
+\mathcal{B} = \bigcup_{\pi \in \mathcal{P}_t} \{(s, a, r, s') \, : \, (s, a, r, s') \sim \pi\}
+\tag{30}
+$$
 
 and the reinforcement learning agent optimizes a policy through standard off-policy gradient updates on $\mathcal{B}$. The evolutionary population provides exploration diversity while the reinforcement learning agent provides gradient-based refinement, and this formulation periodically injects the refined policy back into the evolutionary population as an elite candidate.
 
 CEM-RL of [Pourchot and Sigaud 2019][research_pourchot_sigaud_2019_cemrl] combined the Cross-Entropy Method with off-policy deep reinforcement learning, providing an approach that inherits the exploration benefits of CEM while retaining sample-efficient off-policy gradients. The CEM update samples a population from a Gaussian distribution over parameters and updates the distribution by fitting to the top $k$ performers,
 
-$$\mu_{t+1} = \frac{1}{k} \sum_{i \in \text{top-}k} \theta_i, \quad \Sigma_{t+1} = \frac{1}{k} \sum_{i \in \text{top-}k} (\theta_i - \mu_{t+1})(\theta_i - \mu_{t+1})^\top$$
+$$
+\mu_{t+1} = \frac{1}{k} \sum_{i \in \text{top-}k} \theta_i, \quad \Sigma_{t+1} = \frac{1}{k} \sum_{i \in \text{top-}k} (\theta_i - \mu_{t+1})(\theta_i - \mu_{t+1})^\top
+\tag{31}
+$$
 
 providing an evolutionary-strategies-like update alongside the standard off-policy gradient improvement on the population's shared replay buffer.
 
@@ -391,7 +484,10 @@ The rise of large-scale foundation models has produced new frameworks for evolut
 
 Evolution through Large Models of [Lehman et al. 2022][research_lehman_et_al_2023_elm] introduced ELM, the systematic use of language models as variation operators for evolutionary search over code, natural language, and other symbolic domains. Formally, the language-model variation operator applies
 
-$$x' \sim p_{\text{LM}}(\cdot \mid \text{prompt}(x_1, x_2, \ldots))$$
+$$
+x' \sim p_{\text{LM}}(\cdot \mid \text{prompt}(x_1, x_2, \ldots))
+\tag{32}
+$$
 
 where the prompt encodes selected parents and instructions for semantic mutation or recombination. The framework demonstrated considerably better performance than random mutation for tasks in which the fitness landscape rewards semantic properties.
 
@@ -419,7 +515,10 @@ Computational cultural evolution studies including [Kirby et al. 2015][research_
 
 Multi-agent artificial systems including the Nowak Tarnita Antal 2010 [research_nowak_tarnita_antal_2010] evolutionary dynamics framework provided formal treatments of cultural transmission in structured populations, connecting evolutionary computation to the broader mathematical biology of population dynamics. The replicator dynamics equation
 
-$$\dot{x}_i = x_i \left(f_i(x) - \bar{f}(x)\right), \quad \bar{f}(x) = \sum_j x_j f_j(x)$$
+$$
+\dot{x}_i = x_i \left(f_i(x) - \bar{f}(x)\right), \quad \bar{f}(x) = \sum_j x_j f_j(x)
+\tag{33}
+$$
 
 with $x_i$ the frequency of strategy $i$ and $f_i(x)$ the fitness of strategy $i$ in the population state $x$, provides the foundational mathematical framework for the analysis of selection under frequency-dependent fitness. The framework unifies genetic and cultural transmission through the shared underlying selection mechanism.
 
@@ -433,7 +532,10 @@ The theoretical foundations of evolutionary computation include several compleme
 
 The [Wolpert and Macready 1997][research_wolpert_macready_1997_nfl] No-Free-Lunch theorems established that no optimization algorithm outperforms all others averaged across all possible objective functions. The formal statement is
 
-$$\sum_f P(y \mid f, m, a_1) = \sum_f P(y \mid f, m, a_2)$$
+$$
+\sum_f P(y \mid f, m, a_1) = \sum_f P(y \mid f, m, a_2)
+\tag{34}
+$$
 
 for any two algorithms $a_1, a_2$ and any performance metric $y$ evaluated after $m$ steps on objective function $f$, averaged uniformly across all possible $f$. The theorem provides formal grounds for the diversity of algorithmic approaches and clarifies that algorithm performance depends specifically on the structural assumptions matching the actual problem distribution.
 
@@ -443,13 +545,19 @@ Neutral theory of molecular evolution of [Kimura 1968][research_kimura_1968_neut
 
 Fitness landscape geometry as characterized by [Kauffman 1993][book_kauffman_1993] NK-landscape framework provides a systematic account of the structural properties that determine the difficulty of evolutionary search. This account parameterizes fitness landscapes by two integers with $N$ the number of loci and $K$ the number of epistatic interactions per locus, generating fitness values
 
-$$F(x) = \frac{1}{N} \sum_{i=1}^{N} f_i(x_i, x_{i_1}, \ldots, x_{i_K})$$
+$$
+F(x) = \frac{1}{N} \sum_{i=1}^{N} f_i(x_i, x_{i_1}, \ldots, x_{i_K})
+\tag{35}
+$$
 
 where $f_i$ are randomly-generated per-locus fitness contributions dependent on locus $i$ and its $K$ interacting neighbors. Low-$K$ landscapes admit efficient search while high-$K$ landscapes exhibit rugged fitness landscapes with many local optima that trap greedy improvement.
 
 The Price equation of [Price 1970][research_price_1970] provides the foundational mathematical framework for the analysis of selection dynamics, decomposing the change in a trait mean into a covariance-with-fitness component and a within-generation-change component,
 
-$$\bar{w} \, \Delta \bar{z} = \text{Cov}(w_i, z_i) + \mathbb{E}[w_i \, \Delta z_i]$$
+$$
+\bar{w} \, \Delta \bar{z} = \text{Cov}(w_i, z_i) + \mathbb{E}[w_i \, \Delta z_i]
+\tag{36}
+$$
 
 where $\bar{z}$ is the population mean of trait $z$, $w_i$ is the fitness of individual $i$, $\bar{w}$ is the population mean fitness, and $\Delta z_i$ is the within-generation change in trait $z$ for individual $i$'s offspring. The framework provides a common formal language for the analysis of biological and artificial selection.
 
@@ -493,13 +601,19 @@ Game design and procedural content generation use evolutionary methods for the s
 
 Biological evolution provides the foundational natural precedent for computational evolutionary methods. The [Darwin 1859][book_darwin_1859] origin of species established the framework of descent with modification under natural selection that continues to organize evolutionary biology. The Modern Synthesis of [Fisher 1930][book_fisher_1930], [Wright 1932][research_wright_1932_landscape], and [Haldane 1932][book_haldane_1932] combined Darwinian selection with Mendelian genetics through population genetics, providing the quantitative framework that computational evolutionary methods extended to artificial systems. Fisher's fundamental theorem of natural selection
 
-$$\Delta \bar{w} = \sigma^2_A(w) / \bar{w}$$
+$$
+\Delta \bar{w} = \sigma^2_A(w) / \bar{w}
+\tag{37}
+$$
 
 establishes that the rate of fitness increase equals the additive genetic variance in fitness divided by the mean fitness, providing the foundational quantitative statement of adaptive evolution and its analogue in artificial evolutionary systems.
 
 The Baldwin Effect of [Baldwin 1896][research_baldwin_1896] proposed the mechanism through which learning within a lifetime influences evolutionary trajectories across generations. The Hinton and Nowlan 1987 [research_hinton_nowlan_1987] computational demonstration of the Baldwin effect provided the first artificial-life instantiation, showing that lifetime learning smooths the fitness landscape and accelerates evolutionary discovery of adaptive traits. Formally, the Baldwin-smoothed fitness of a genotype $g$ under a lifetime learning budget $T$ is
 
-$$F_{\text{Baldwin}}(g) = \mathbb{E}_{\pi \sim \text{Learn}_T(g)}\!\left[F(\pi)\right]$$
+$$
+F_{\text{Baldwin}}(g) = \mathbb{E}_{\pi \sim \text{Learn}_T(g)}\!\left[F(\pi)\right]
+\tag{38}
+$$
 
 with $\text{Learn}\_T(g)$ the distribution of phenotypes reachable from $g$ through $T$ steps of lifetime learning. When lifetime learning can reach the fitness optimum from many nearby genotypes, the effective evolutionary fitness landscape is smoother than the direct genotype-to-fitness map.
 
@@ -507,7 +621,10 @@ Evolutionary developmental biology (evo-devo) of [Carroll 2005][book_carroll_200
 
 Waddington's epigenetic landscape of [Waddington 1957][book_waddington_1957] provided the visualization framework for the canalization of developmental trajectories that produces robust phenotypes despite environmental and genetic perturbation. The formal expression through canalization functions
 
-$$\phi_c(g) = \phi(g) + \sum_{i} h_i(g) \, \mathbb{1}[\phi(g) \in \text{basin}_i]$$
+$$
+\phi_c(g) = \phi(g) + \sum_{i} h_i(g) \, \mathbb{1}[\phi(g) \in \text{basin}_i]
+\tag{39}
+$$
 
 captures the attractor structure in which developmental trajectories are drawn toward canalized phenotypes despite genotypic variation. The account has been adopted in the computational literature as a metaphor for the structural properties of evolvable systems.
 
@@ -535,6 +652,389 @@ Article fourteen returns to the NeuroAI bridge and treats the evolutionary corre
 - How should evolutionary methods handle the fitness-evaluation cost trade-off in settings where full fitness evaluation requires extensive compute per candidate?
 - What is the correct account of cultural evolution in artificial multi-agent systems, and can specifically-human patterns of cumulative culture be reproduced through appropriate transmission mechanisms?
 - Can evolutionary methods be reliably combined with the foundation-model paradigm to produce systems that improve through both gradient-based and population-based mechanisms simultaneously?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 39 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 39, 33 are established and 6 are bespoke.
+Fitness is dimensionless or in the arbitrary units of the problem at hand, and the letter $F$ carries several meanings, standing for fitness throughout but for the Fisher information matrix in the natural gradient and for the scale factor in differential evolution, so each use takes its meaning from the equation in which it appears.
+
+**Equation 1, Population at a Generation.**
+The population at generation $t$ is a finite set of candidate solutions drawn from the solution space.
+
+$$
+\mathcal{P}_t = \{x_1^{(t)}, x_2^{(t)}, \ldots, x_N^{(t)}\}, \quad x_i^{(t)} \in \mathcal{X}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Generic Evolutionary Update.*
+The article composes selection, recombination, mutation and replacement operators into a single schematic update that produces $\lambda$ offspring per generation, a template that particular algorithms instantiate.
+
+$$
+\mathcal{P}_{t+1} = \text{replace}\!\left(\mathcal{P}_t, \, \{m(r(s(\mathcal{P}_t), s(\mathcal{P}_t))) \, : \, i = 1, \ldots, \lambda\}\right)
+\tag{2}
+$$
+
+**Equation 3, Fitness Proportionate Selection.**
+Each individual is selected with probability equal to its fitness divided by the total fitness of the population.
+[Holland 1975][book_holland_1975]
+
+$$
+p(x_i^{(t)}) = \frac{F(x_i^{(t)})}{\sum_{j=1}^{N} F(x_j^{(t)})}
+\tag{3}
+$$
+
+**Equation 4, Schema Theorem.**
+Holland's schema theorem bounds from below the expected number of instances of a schema in the next generation by its fitness ratio less the disruption due to crossover and mutation.
+[Holland 1975][book_holland_1975]
+
+$$
+\mathbb{E}[m(H, t+1)] \geq m(H, t) \cdot \frac{f(H)}{\bar{f}} \cdot \left(1 - p_c \frac{\delta(H)}{L-1} - p_m \, o(H)\right)
+\tag{4}
+$$
+
+**Equation 5, One Plus One Evolution Strategy.**
+The single parent is replaced by a Gaussian perturbation of itself only when the perturbation has higher fitness.
+[Rechenberg 1973][research_rechenberg_1973]
+
+$$
+x_{t+1} = \begin{cases} x_t + \sigma \, \epsilon & \text{if } F(x_t + \sigma \epsilon) > F(x_t) \\ x_t & \text{otherwise} \end{cases}, \quad \epsilon \sim \mathcal{N}(0, I)
+\tag{5}
+$$
+
+**Equation 6, One Fifth Success Rule.**
+Rechenberg's rule enlarges the step size when more than one fifth of recent offspring succeed and shrinks it when fewer do.
+[Rechenberg 1973][research_rechenberg_1973]
+
+$$
+\sigma_{t+1} = \begin{cases} \sigma_t / c & \text{if } p_s > 1/5 \\ \sigma_t \cdot c & \text{if } p_s < 1/5 \\ \sigma_t & \text{otherwise} \end{cases}
+\tag{6}
+$$
+
+**Equation 7, Covariance Matrix Adaptation Sampling.**
+The Covariance Matrix Adaptation Evolution Strategy draws each offspring from a multivariate normal distribution about the mean with step size $\sigma$ and covariance $C$.
+[Hansen and Ostermeier 2001][research_hansen_ostermeier_2001_cmaes]
+
+$$
+x_k = m + \sigma \, \mathcal{N}(0, C)
+\tag{7}
+$$
+
+**Equation 8, Rank Mu Covariance Update.**
+The rank-$\mu$ update blends the old covariance with a weighted sum of outer products of the best normalised search steps.
+[Hansen 2016][research_hansen_2016_cmaes_tutorial]
+
+$$
+C_{t+1} = (1 - c_\mu) C_t + c_\mu \sum_{i=1}^{\mu} w_i \, y_{i:\lambda} \, y_{i:\lambda}^\top
+\tag{8}
+$$
+
+**Equation 9, Search Gradient by the Log Likelihood Trick.**
+The gradient of expected fitness under a search distribution equals the expected fitness times the gradient of the log density, which admits Monte Carlo estimation.
+[Wierstra et al. 2014][research_wierstra_et_al_2014_nes]
+
+$$
+\nabla_\theta \, \mathbb{E}_{x \sim \pi_\theta}[F(x)] = \mathbb{E}_{x \sim \pi_\theta}[F(x) \, \nabla_\theta \log \pi_\theta(x)]
+\tag{9}
+$$
+
+**Equation 10, Natural Search Gradient.**
+Natural Evolution Strategies precondition the search gradient with the inverse Fisher information matrix of the search distribution.
+[Wierstra et al. 2014][research_wierstra_et_al_2014_nes]
+
+$$
+\tilde{\nabla}_\theta \, \mathbb{E}[F] = F(\theta)^{-1} \nabla_\theta \, \mathbb{E}[F], \quad F(\theta) = \mathbb{E}_{x \sim \pi_\theta}\!\left[\nabla_\theta \log \pi_\theta(x) \, \nabla_\theta \log \pi_\theta(x)^\top\right]
+\tag{10}
+$$
+
+**Equation 11, Isotropic Gaussian Evolution Strategy Gradient Estimate.**
+The gradient of the Gaussian-smoothed fitness is estimated as a fitness-weighted sum of the sampled perturbations divided by the population size and the noise scale.
+[Salimans et al. 2017][research_salimans_et_al_2017_es]
+
+$$
+\nabla_\theta \, \mathbb{E}_{\epsilon \sim \mathcal{N}(0, I)}[F(\theta + \sigma \epsilon)] \approx \frac{1}{N \sigma} \sum_{i=1}^{N} F(\theta + \sigma \epsilon_i) \, \epsilon_i
+\tag{11}
+$$
+
+**Equation 12, Particle Swarm Velocity Update.**
+Each particle's new velocity combines inertia with random attractions towards its own best position and the swarm's best position.
+[Kennedy and Eberhart 1995][research_kennedy_eberhart_1995_pso]
+
+$$
+v_i^{t+1} = \omega \, v_i^t + \phi_p \, r_p \, (p_i^{\text{best}} - x_i^t) + \phi_g \, r_g \, (g^{\text{best}} - x_i^t)
+\tag{12}
+$$
+
+**Equation 13, Differential Evolution Mutation.**
+Differential evolution forms a mutant vector by adding to one random member the scaled difference of two others.
+[Storn and Price 1997][research_storn_price_1997_de]
+
+$$
+v_i = x_{r_1} + F \cdot (x_{r_2} - x_{r_3})
+\tag{13}
+$$
+
+**Equation 14, Compatibility Distance of NeuroEvolution of Augmenting Topologies.**
+NeuroEvolution of Augmenting Topologies measures the distance between two genomes as weighted counts of excess and disjoint genes, normalised by genome size, plus the weighted mean weight difference of matching genes.
+[Stanley and Miikkulainen 2002][research_stanley_miikkulainen_2002_neat]
+
+$$
+\delta = \frac{c_1 E + c_2 D}{N} + c_3 \bar{W}
+\tag{14}
+$$
+
+**Equation 15, Explicit Fitness Sharing.**
+Each individual's fitness is divided by the number of individuals within the compatibility threshold of it, which is the size of its species.
+[Stanley and Miikkulainen 2002][research_stanley_miikkulainen_2002_neat]
+
+$$
+f_i' = \frac{f_i}{|\{j : \delta(x_i, x_j) < \delta_{\text{th}}\}|}
+\tag{15}
+$$
+
+**Equation 16, Compositional Pattern Producing Network Weight.**
+HyperNEAT obtains each connection weight by querying a Compositional Pattern-Producing Network with the coordinates of the two endpoints.
+[Stanley D'Ambrosio Gauci 2009][research_stanley_dambrosio_gauci_2009_hyperneat]
+
+$$
+w_{ij} = \text{CPPN}_\theta(x_1, y_1, x_2, y_2)
+\tag{16}
+$$
+
+**Equation 17, Novelty Score.**
+Novelty search scores a candidate by the mean behavioural distance to its $k$ nearest neighbours in the archive.
+[Lehman and Stanley 2011][research_lehman_stanley_2011_abandoning]
+
+$$
+\rho(x) = \frac{1}{k} \sum_{i=1}^{k} \|b(x) - b(x_i^{\text{NN}})\|
+\tag{17}
+$$
+
+*Equation 18, Bespoke Linear Blend of Novelty and Fitness.*
+The article combines novelty and fitness as a convex linear blend with a single weight $w$, one of several ways the literature mixes the two objectives.
+
+$$
+s(x) = (1 - w) \, \rho(x) + w \, F(x)
+\tag{18}
+$$
+
+**Equation 19, Elite of a Behavioural Cell.**
+MAP-Elites keeps in each cell of the discretised behaviour space the fittest candidate found with that descriptor.
+[Mouret and Clune 2015][research_mouret_clune_2015_mapelites]
+
+$$
+\mathcal{E}(b) = \arg\max_{x : b(x) = b} F(x)
+\tag{19}
+$$
+
+**Equation 20, Quality Diversity Score.**
+The quality diversity score of an archive is the sum of elite fitness over all filled cells, so it rewards both coverage and quality.
+[Pugh et al. 2016][research_pugh_soros_stanley_2016_qd]
+
+$$
+\text{QD}(\mathcal{E}) = \sum_{b \in \mathcal{B}_{\text{filled}}} F(\mathcal{E}(b))
+\tag{20}
+$$
+
+**Equation 21, Pareto Set.**
+The Pareto set comprises every solution that no other solution Pareto-dominates.
+
+$$
+\mathcal{P}^* = \{x \in \mathcal{X} \, : \, \nexists y \in \mathcal{X} \text{ such that } y \succ_{\text{Pareto}} x\}
+\tag{21}
+$$
+
+**Equation 22, Non-Dominated Fronts.**
+The Non-dominated Sorting Genetic Algorithm II defines the first front as the non-dominated members of the population and each later front as the non-dominated members of what remains.
+[Deb Pratap Agarwal Meyarivan 2002][research_deb_et_al_2002_nsga2]
+
+$$
+\mathcal{F}_1 = \{x \in \mathcal{P} \, : \, \nexists y \in \mathcal{P}, y \succ_{\text{Pareto}} x\}, \quad \mathcal{F}_k = \{x \in \mathcal{P} \setminus \cup_{j<k} \mathcal{F}_j : \, \nexists y \in \mathcal{P} \setminus \cup_{j<k} \mathcal{F}_j, y \succ_{\text{Pareto}} x\}
+\tag{22}
+$$
+
+**Equation 23, Regret Maximising Environment Design.**
+Protagonist Antagonist Induced Regret Environment Design chooses environment parameters that maximise the antagonist's return less the protagonist's return.
+[Dennis et al. 2020][research_dennis_et_al_2020_paired_a261]
+
+$$
+\theta^*_{\text{env}} = \arg\max_{\theta_{\text{env}}} \left(J_{\theta_{\text{env}}}(\pi_B) - J_{\theta_{\text{env}}}(\pi_A)\right)
+\tag{23}
+$$
+
+**Equation 24, Competitive Coevolutionary Fitness.**
+In competitive coevolution an individual's fitness is its expected payoff against members of the opposing population.
+
+$$
+F^A(x) = \mathbb{E}_{y \sim \mathcal{P}^B}[U(x, y)]
+\tag{24}
+$$
+
+*Equation 25, Bespoke Joint Fitness of Cooperative Coevolution.*
+The article writes cooperative coevolution as scoring one component from each sub-population through a joint fitness of their concatenation, a schematic that leaves out how collaborators are chosen.
+[Potter and De Jong 2000][research_potter_dejong_2000]
+
+$$
+F(x^1, x^2, \ldots, x^K) = F_{\text{joint}}(x^1 \oplus x^2 \oplus \cdots \oplus x^K)
+\tag{25}
+$$
+
+**Equation 26, Pareto Dominance.**
+One solution Pareto-dominates another when it is at least as good in every objective and strictly better in at least one.
+[Ficici and Pollack 2001][research_ficici_pollack_2001_pareto]
+
+$$
+\forall m : \, F_m(x) \geq F_m(y) \quad \text{and} \quad \exists m : \, F_m(x) > F_m(y)
+\tag{26}
+$$
+
+**Equation 27, Differentiable Architecture Search Mixed Operation.**
+Differentiable Architecture Search replaces the choice of one operation by a softmax-weighted mixture of all candidate operations.
+[Liu et al. 2019][research_liu_simonyan_yang_2019_darts]
+
+$$
+\bar{o}(x) = \sum_{o \in \mathcal{O}} \frac{\exp(\alpha_o)}{\sum_{o' \in \mathcal{O}} \exp(\alpha_{o'})} \, o(x)
+\tag{27}
+$$
+
+**Equation 28, Bilevel Architecture Objective.**
+The architecture parameters minimise the validation loss of the weights that minimise the training loss for that architecture.
+[Liu et al. 2019][research_liu_simonyan_yang_2019_darts]
+
+$$
+\min_\alpha L_{\text{val}}(w^*(\alpha), \alpha), \quad w^*(\alpha) = \arg\min_w L_{\text{train}}(w, \alpha)
+\tag{28}
+$$
+
+**Equation 29, Compound Scaling Rule.**
+EfficientNet scales depth, width and resolution as powers of a single coefficient under a constraint that roughly doubles the computation per unit increase in that coefficient.
+[Tan and Le 2019][research_tan_le_2019_efficientnet]
+
+$$
+d = \alpha^\phi, \quad w = \beta^\phi, \quad r = \gamma^\phi, \quad \text{subject to} \quad \alpha \cdot \beta^2 \cdot \gamma^2 \approx 2
+\tag{29}
+$$
+
+**Equation 30, Shared Replay Buffer.**
+Evolutionary Reinforcement Learning pools the transitions experienced by every member of the population into one replay buffer.
+[Khadka and Tumer 2018][research_khadka_tumer_2018_erl]
+
+$$
+\mathcal{B} = \bigcup_{\pi \in \mathcal{P}_t} \{(s, a, r, s') \, : \, (s, a, r, s') \sim \pi\}
+\tag{30}
+$$
+
+**Equation 31, Cross Entropy Method Update.**
+The cross entropy method refits the Gaussian search distribution to the mean and covariance of the $k$ best samples.
+[Pourchot and Sigaud 2019][research_pourchot_sigaud_2019_cemrl]
+
+$$
+\mu_{t+1} = \frac{1}{k} \sum_{i \in \text{top-}k} \theta_i, \quad \Sigma_{t+1} = \frac{1}{k} \sum_{i \in \text{top-}k} (\theta_i - \mu_{t+1})(\theta_i - \mu_{t+1})^\top
+\tag{31}
+$$
+
+*Equation 32, Bespoke Language Model Variation Operator.*
+The article formalises Evolution through Large Models as sampling an offspring from a language model conditioned on a prompt built from the selected parents, a schematic of an operator the source describes procedurally.
+[Lehman et al. 2022][research_lehman_et_al_2023_elm]
+
+$$
+x' \sim p_{\text{LM}}(\cdot \mid \text{prompt}(x_1, x_2, \ldots))
+\tag{32}
+$$
+
+**Equation 33, Replicator Equation.**
+The frequency of each strategy grows at a rate proportional to its frequency and to the amount by which its fitness exceeds the population mean.
+
+$$
+\dot{x}_i = x_i \left(f_i(x) - \bar{f}(x)\right), \quad \bar{f}(x) = \sum_j x_j f_j(x)
+\tag{33}
+$$
+
+**Equation 34, No Free Lunch Theorem.**
+Summed over all objective functions, the probability of any performance sequence after $m$ evaluations is the same for every pair of algorithms.
+[Wolpert and Macready 1997][research_wolpert_macready_1997_nfl]
+
+$$
+\sum_f P(y \mid f, m, a_1) = \sum_f P(y \mid f, m, a_2)
+\tag{34}
+$$
+
+**Equation 35, NK Landscape Fitness.**
+The fitness of a genotype in Kauffman's NK model is the mean over $N$ loci of random contributions that each depend on the locus and $K$ epistatic neighbours.
+[Kauffman 1993][book_kauffman_1993]
+
+$$
+F(x) = \frac{1}{N} \sum_{i=1}^{N} f_i(x_i, x_{i_1}, \ldots, x_{i_K})
+\tag{35}
+$$
+
+**Equation 36, Price Equation.**
+The Price equation splits the change in a trait mean, scaled by mean fitness, into the covariance of fitness with the trait and the fitness-weighted change in the trait during transmission.
+[Price 1970][research_price_1970]
+
+$$
+\bar{w} \, \Delta \bar{z} = \text{Cov}(w_i, z_i) + \mathbb{E}[w_i \, \Delta z_i]
+\tag{36}
+$$
+
+**Equation 37, Fundamental Theorem of Natural Selection.**
+Fisher's theorem equates the change in mean fitness per generation to the additive genetic variance in fitness divided by the mean fitness.
+[Fisher 1930][book_fisher_1930]
+
+$$
+\Delta \bar{w} = \sigma^2_A(w) / \bar{w}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Baldwin Smoothed Fitness.*
+The article defines the fitness of a genotype as the expected fitness of the phenotypes that a lifetime learning budget of $T$ steps can reach from it, a formalisation of the Baldwin effect it constructs.
+
+$$
+F_{\text{Baldwin}}(g) = \mathbb{E}_{\pi \sim \text{Learn}_T(g)}\!\left[F(\pi)\right]
+\tag{38}
+$$
+
+*Equation 39, Bespoke Canalisation Function.*
+The article expresses Waddington's canalisation as the direct phenotype map plus a pull towards the attractor of whichever basin the phenotype falls in, a construction of its own that Waddington stated only pictorially.
+
+$$
+\phi_c(g) = \phi(g) + \sum_{i} h_i(g) \, \mathbb{1}[\phi(g) \in \text{basin}_i]
+\tag{39}
+$$
+
+### Notation
+
+- $\mathcal{P}_t$, the population at generation $t$
+- $\mathcal{X}$, the solution space
+- $F(x)$, the fitness of candidate $x$
+- $\lambda$, the number of offspring per generation
+- $m(H, t)$, the number of instances of schema $H$ at generation $t$
+- $\bar{f}$, the mean fitness of the population
+- $p_c$, the crossover rate
+- $p_m$, the mutation rate
+- $p_s$, the recent success rate of proposed offspring
+- $\sigma$, the mutation step size
+- $C$, the covariance matrix of the search distribution
+- $c_\mu$, the learning rate of the rank-$\mu$ covariance update
+- $w_i$, the recombination weights in the covariance update, and the fitness of individual $i$ in the Price equation
+- $F(\theta)$, the Fisher information matrix of the search distribution
+- $\omega$, the inertia weight of particle swarm optimisation
+- $\delta$, the compatibility distance between two genomes
+- $\rho(x)$, the novelty of candidate $x$
+- $b(x)$, the behavioural descriptor of candidate $x$
+- $\mathcal{E}$, the elite archive of MAP-Elites
+- $\succ_{\text{Pareto}}$, the Pareto dominance relation
+- $U(x, y)$, the payoff of $x$ against $y$
+- $\alpha_o$, the architecture mixing weight of candidate operation $o$
+- $\bar{z}$, the population mean of trait $z$
+- $\bar{w}$, the population mean fitness
+- $\sigma^2_A(w)$, the additive genetic variance in fitness
+- $\text{Learn}_T(g)$, the distribution of phenotypes reachable from genotype $g$ in $T$ steps of lifetime learning
 
 ## References
 

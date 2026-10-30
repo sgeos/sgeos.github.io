@@ -1,0 +1,395 @@
+# Equation classification for A254. Read by `python3 _lib/equations.py`.
+
+caution = "Intrinsic rewards are dimensionless signals scaled by coefficients such as $\\beta$ and $\\eta$ that set their weight against the extrinsic reward, so their magnitudes are comparable only within one method, and information quantities are in nats when natural logarithms are used."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Sub-Optimality Gap of a Policy"
+gloss = "The gap at a state is the optimal value less the value of the policy there."
+cite = []
+digest = "96dd77f70126550f"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Episodic Cumulative Regret"
+gloss = "Regret sums over episodes the shortfall of each policy's value at the start state against the optimal value."
+cite = []
+digest = "a149e47a14a9585a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Sample Complexity of Exploration"
+gloss = "The sample complexity counts the steps at which the current policy is more than $\\epsilon$ below optimal."
+cite = ["research_kakade_langford_2002_exploration"]
+digest = "84edd193827cbc01"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Optimistic Bonus-Augmented Reward"
+gloss = "Optimism is implemented by adding to the reward a bonus that reflects uncertainty about the state-action pair."
+cite = []
+digest = "c2fea0371296d569"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Count-Based Exploration Bonus"
+gloss = "The bonus decays as the inverse square root of the visit count, following the confidence radius of upper confidence bound methods."
+cite = []
+digest = "37b9da72d7d20d7b"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "R-MAX Optimistic Reward"
+gloss = "R-MAX uses the empirical reward for pairs visited at least $m$ times and the maximum possible reward for all others."
+cite = ["research_brafman_tennenholtz_2002"]
+digest = "200c3e68c8312fae"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "MBIE-EB Exploration Bonus"
+gloss = "Model-based interval estimation with exploration bonuses, abbreviated MBIE-EB, adds a bonus inversely proportional to the square root of the visit count."
+cite = ["research_strehl_littman_2008"]
+digest = "0b38b2fdacce6e16"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "UCRL2 Confidence Set of Models"
+gloss = "UCRL2, an upper confidence algorithm for reinforcement learning, keeps every model whose transition and reward estimates lie within count-dependent confidence radii of the empirical estimates."
+cite = ["research_jaksch_ortner_auer_2010"]
+digest = "004fe6ed162308d3"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Ensemble Disagreement"
+gloss = "The standard deviation of the action values across an ensemble of $K$ heads serves as an estimate of epistemic uncertainty."
+cite = ["research_osband_blundell_pritzel_van_roy_2016_exploration"]
+digest = "e2fc6f7ea24a7d7b"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Entropy-Regularised Policy Objective"
+gloss = "The objective adds to the expected return a multiple of the expected Shannon entropy of the policy over visited states."
+cite = []
+digest = "5ec5f1df1b7bb293"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Parameter Space Noise"
+gloss = "Exploration perturbs the policy parameters by Gaussian noise of adaptive scale rather than perturbing the actions."
+cite = ["research_plappert_et_al_2018"]
+digest = "a1f79480c717992c"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Posterior over Environment Parameters"
+gloss = "Bayes' rule updates the prior over environment parameters by the likelihood of the trajectory data."
+cite = ["research_osband_van_roy_2013_psrl"]
+digest = "7a9e0c53bf8db04d"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Bayesian Regret of Posterior Sampling for Reinforcement Learning"
+gloss = "Posterior sampling for reinforcement learning incurs Bayesian regret growing with the episode horizon and the square root of the state and action counts times the number of steps."
+cite = ["research_osband_van_roy_2013_psrl"]
+digest = "3b56c97e8927e2d7"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Density-Model Pseudocount"
+gloss = "The pseudocount is the visit count consistent with the change in a density model's probability of a state when that state is observed once more."
+cite = ["research_bellemare_et_al_2016_exploration"]
+digest = "13978094c369e7d5"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Pseudocount Exploration Bonus"
+gloss = "The pseudocount replaces the visit count in an inverse square root bonus."
+cite = ["research_bellemare_et_al_2016_exploration"]
+digest = "5850d2ed8b2671f2"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Prediction Gain"
+gloss = "The intrinsic reward is the increase in the log probability that the density model assigns to a state after training on it."
+cite = ["research_bellemare_et_al_2016_exploration"]
+digest = "1947a0f5ec866230"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Latent-Space Pseudocount"
+gloss = "The pseudocount is computed on a learned encoding of the state rather than on the raw observation."
+cite = ["research_machado_bellemare_bowling_2020"]
+digest = "e6f6bfd4b3981c4a"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Hash-Count Intrinsic Reward"
+gloss = "Observations are hashed into discrete buckets and the bonus decays as the inverse square root of the bucket count."
+cite = ["research_tang_et_al_2017"]
+digest = "1a4528073746b9e3"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Inverse Dynamics Loss"
+gloss = "The intrinsic curiosity module, abbreviated ICM, trains its encoder by predicting the action taken from consecutive state encodings."
+cite = ["research_pathak_et_al_2017"]
+digest = "746c1ca957eee3c2"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Forward Dynamics Loss"
+gloss = "The forward model is trained to predict the encoding of the next state from the current encoding and action."
+cite = ["research_pathak_et_al_2017"]
+digest = "b355b96f266376e0"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Combined Intrinsic Curiosity Module Loss"
+gloss = "The module's objective is a convex combination of the inverse and forward losses."
+cite = ["research_pathak_et_al_2017"]
+digest = "4d9942fd899e81a5"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Curiosity Reward from Forward Prediction Error"
+gloss = "The intrinsic reward is a scaled squared error of the forward model in the learned feature space."
+cite = ["research_pathak_et_al_2017"]
+digest = "949a6a950c0dde59"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Extrinsic Plus Intrinsic Reward"
+gloss = "The policy is trained on the sum of the environment reward and the curiosity reward."
+cite = ["research_pathak_et_al_2017"]
+digest = "9ea4bd54a628f7c8"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Random Network Distillation Reward"
+gloss = "Random network distillation rewards the squared error of a trained predictor in matching a fixed randomly initialised network on the current state."
+cite = ["research_burda_edwards_storkey_klimov_2018"]
+digest = "dfde90df81b6a70f"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Random Network Distillation Predictor Loss"
+gloss = "The predictor regresses onto the fixed random network over visited states, so its error falls where the agent has been."
+cite = ["research_burda_edwards_storkey_klimov_2018"]
+digest = "854dd7d8ef8a83dd"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Observation and Intrinsic Reward Normalisation"
+gloss = "Observations are standardised and intrinsic rewards divided by running estimates of their standard deviation."
+cite = ["research_burda_edwards_storkey_klimov_2018"]
+digest = "0a24e23c2563ce27"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Empowerment"
+gloss = "Empowerment is the channel capacity from a $k$-step action sequence to the state it leads to from a given state."
+cite = ["research_klyubin_polani_nehaniv_2005"]
+digest = "2942766e61c01a73"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Mutual Information as an Entropy Difference"
+gloss = "The mutual information between actions and the resulting state is the entropy of the actions less their entropy given the outcome."
+cite = []
+digest = "f211e109f60b4cda"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Barber-Agakov Variational Lower Bound"
+gloss = "Replacing the true action posterior by a learned decoder gives a lower bound on the mutual information."
+cite = ["research_mohamed_rezende_2015"]
+digest = "43a08e4612281937"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Expected Free Energy of a Policy"
+gloss = "Active inference scores a policy by the expected difference between the log approximate posterior and the log generative model over predicted states and outcomes."
+cite = ["research_friston_2010_active_inference"]
+digest = "9954c9ee2b8fe8cc"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Compression Progress Reward"
+gloss = "The intrinsic reward is the reduction in the description length of an observation achieved by updating the world model on it."
+cite = ["research_schmidhuber_2010"]
+digest = "d9397e298e12d7a9"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Learning Progress Reward"
+gloss = "Intelligent adaptive curiosity rewards the rate at which predictive accuracy improves in the region of sensorimotor space being visited."
+cite = ["research_oudeyer_kaplan_hafner_2007"]
+digest = "530eab43dd4dbfcf"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Universal Value Function"
+gloss = "The value function takes a goal as a second argument and gives the expected discounted goal-relative reward."
+cite = ["research_schaul_horgan_gregor_silver_2015"]
+digest = "72f82af236862e19"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Hindsight Relabelling with a Distance Reward"
+gloss = "The achieved final state becomes the goal and the relabelled reward is written as the negative distance to it, a dense choice that the article makes in place of the sparse success indicator of the original hindsight experience replay."
+cite = ["research_andrychowicz_et_al_2017_exploration"]
+digest = "94bbf934270db394"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Skill-State Mutual Information"
+gloss = "Skill discovery maximises the mutual information between skill and state, the entropy of skills less their entropy given the state."
+cite = ["research_eysenbach_gupta_ibarz_levine_2019"]
+digest = "94dfc9a868efdab6"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Diversity Is All You Need Skill Reward"
+gloss = "The skill policy is rewarded by the discriminator's log probability of its skill less the log prior probability of that skill."
+cite = ["research_eysenbach_gupta_ibarz_levine_2019"]
+digest = "1ff6374e0a4d29a5"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Recurrent Meta-Reinforcement Learning Policy"
+gloss = "The policy conditions on a recurrent state updated from each observation, previous action and previous reward, so that the state summarises the current task."
+cite = ["research_duan_schulman_chen_2016_rl2"]
+digest = "d2bbf8a1fed2bca3"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Never Give Up Intrinsic Reward"
+gloss = "Episodic novelty is multiplied by a lifetime novelty factor clipped between one and a bound $L$."
+cite = ["research_badia_et_al_2020_ngu"]
+digest = "679b715fafb95d65"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Ensemble Disagreement Reward"
+gloss = "Plan2Explore rewards the variance of next-state predictions across an ensemble of learned dynamics models."
+cite = ["research_sekar_et_al_2020"]
+digest = "d18fe884cbd06e8d"
+
+[[symbol]]
+tex = '\Delta^\pi(s)'
+meaning = "the sub-optimality gap of policy $\\pi$ at state $s$"
+
+[[symbol]]
+tex = 'R_T'
+meaning = "the cumulative regret over horizon $T$"
+
+[[symbol]]
+tex = 'b(s, a)'
+meaning = "the exploration bonus of a state-action pair"
+
+[[symbol]]
+tex = 'N(s, a)'
+meaning = "the visit count of a state-action pair"
+
+[[symbol]]
+tex = '\beta'
+meaning = "an exploration coefficient, the entropy weight in equation 10 and the forward-loss weight in equation 21"
+
+[[symbol]]
+tex = 'R_{\max}'
+meaning = "the maximum possible reward"
+
+[[symbol]]
+tex = 'm'
+meaning = "the visit threshold of R-MAX"
+
+[[symbol]]
+tex = 'H'
+meaning = "the episode horizon in equation 13 and the Shannon entropy elsewhere"
+
+[[symbol]]
+tex = '\hat{N}(s)'
+meaning = "the pseudocount of state $s$"
+
+[[symbol]]
+tex = '\rho_n(s)'
+meaning = "the density model's probability of $s$ after $n$ observations"
+
+[[symbol]]
+tex = 'h(s)'
+meaning = "the hash bucket of state $s$"
+
+[[symbol]]
+tex = '\phi(s_{t+1})'
+meaning = "the learned encoding of the next state"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the scaling coefficient of the curiosity reward"
+
+[[symbol]]
+tex = 'f_{\bar{\theta}}'
+meaning = "the fixed random target network"
+
+[[symbol]]
+tex = '\mathfrak{E}(s)'
+meaning = "the empowerment of state $s$"
+
+[[symbol]]
+tex = 'G(\pi)'
+meaning = "the expected free energy of policy $\\pi$"
+
+[[symbol]]
+tex = 'L(o_t \mid M_t)'
+meaning = "the compression length of an observation under world model $M_t$"
+
+[[symbol]]
+tex = 'V(s, g)'
+meaning = "the universal value function of state and goal"
+
+[[symbol]]
+tex = 'q(z \mid s)'
+meaning = "the skill discriminator"
+
+[[symbol]]
+tex = 'h_t'
+meaning = "the recurrent state of a meta-learning policy"

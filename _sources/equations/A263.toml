@@ -1,0 +1,363 @@
+# Equation classification for A263. Read by `python3 _lib/equations.py`.
+
+caution = "Weights, activities, errors and values are dimensionless model quantities unless a section states otherwise, while the leaky integrate-and-fire equation carries physical units of volts, seconds, ohms and amperes, and a learning rate such as $\\eta$ or $\\alpha$ is a step size rather than a measured constant."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "McCulloch-Pitts Threshold Neuron"
+gloss = "The McCulloch-Pitts neuron outputs one when the weighted sum of its binary inputs reaches the threshold and zero otherwise."
+cite = ["research_mcculloch_pitts_1943"]
+digest = "79ce1b5fc1bde710"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Hebbian Learning Rule"
+gloss = "A synaptic weight grows in proportion to the product of the presynaptic and postsynaptic activities."
+cite = ["book_hebb_1949"]
+digest = "16c262f86e76cb6a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Chain Rule of Backpropagation"
+gloss = "The gradient of the loss with respect to a weight is the gradient with respect to the activation it feeds times the derivative of that activation with respect to the weight."
+cite = ["research_rumelhart_hinton_williams_1986"]
+digest = "d538eac3a626e66d"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Perceptron Output"
+gloss = "The perceptron applies a nonlinear activation to the weighted sum of its inputs less a threshold."
+cite = ["research_rosenblatt_1958"]
+digest = "8dcbbbd91f97ff59"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Perceptron Learning Rule"
+gloss = "Each weight moves in proportion to the difference between the target and the output times its input, so weights change only on an error."
+cite = ["research_rosenblatt_1958"]
+digest = "de92887f9e2f8ba0"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Oja's Rule"
+gloss = "Oja's rule adds a decay proportional to the squared output to the Hebbian update, which bounds the weights and drives them toward the first principal component of the input."
+cite = ["research_oja_1982"]
+digest = "bca8a039e95172db"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Discrete Two-Dimensional Convolution"
+gloss = "A convolutional layer slides one shared kernel over the input feature map and sums the products at each position."
+cite = []
+digest = "ce1a56b722140c9d"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Representational Similarity Between Network and Brain"
+gloss = "Representational similarity analysis correlates the representational dissimilarity matrix of a network with that of a brain region over the same stimulus pairs."
+cite = ["research_kriegeskorte_2015"]
+digest = "f289d10021cccc80"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Temporal-Difference Reward Prediction Error"
+gloss = "The temporal-difference error is the reward plus the discounted value of the next state less the value of the current state, the signal that phasic dopamine firing matches."
+cite = ["research_schultz_dayan_montague_1997", "research_sutton_1988_td_a263"]
+digest = "d87f67bceff8b455"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Distributional Bellman Operator"
+gloss = "The distributional Bellman operator propagates the whole random return, the reward plus the discounted return of the next state and action, rather than its mean alone."
+cite = ["research_bellemare_et_al_2017_distributional"]
+digest = "ce02a8e700612084"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Asymmetric Prediction Errors of Distributional Dopamine Coding"
+gloss = "Each dopamine neuron scales positive and negative prediction errors by different learning rates, so its value estimate settles at the expectile set by $\\tau = \\alpha^+ / (\\alpha^+ + \\alpha^-)$."
+cite = ["research_dabney_et_al_2020_dopamine"]
+digest = "de08e28637433692"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Policy Gradient Theorem with an Advantage Critic"
+gloss = "The gradient of expected return is the expectation of the score of the policy times the advantage that the critic estimates."
+cite = ["book_sutton_barto_1998"]
+digest = "fa5d2131ea0729f2"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Recurrent Neural Network Dynamics"
+gloss = "A recurrent network updates its hidden state from the previous state and the input through a nonlinearity and reads the output from the hidden state."
+cite = ["research_sussillo_barak_2013"]
+digest = "12039adadad698d8"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Low-Dimensional Linear Approximation of Population Activity"
+gloss = "Population activity is approximated by its mean plus a combination of $d$ basis vectors with time-varying coefficients, the linear model behind dimensionality reduction of neural recordings."
+cite = ["research_cunningham_yu_2014"]
+digest = "74f0e31a04856aef"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Recurrent Meta-Reinforcement Learning Inner Loop"
+gloss = "A recurrent network whose weights are trained slowly receives the observation, the previous action and the previous reward, so its hidden state carries fast adaptation within a task."
+cite = []
+digest = "c74f0b218501f24a"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Variational Free Energy"
+gloss = "Variational free energy is the expectation under the approximate posterior of the log approximate posterior minus the log joint of observations and hidden states, an upper bound on the negative log evidence."
+cite = []
+digest = "6898b20a66658dea"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Approximation of Backpropagation by Predictive Coding"
+gloss = "The weight update of a predictive coding network approaches the backpropagation update under the limiting condition the article states."
+cite = ["research_whittington_bogacz_2019"]
+digest = "5f62194ae7ada7d5"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Successor Representation"
+gloss = "The successor representation is the expected discounted number of future visits to each state from a given starting state."
+cite = ["research_dayan_1993_sr"]
+digest = "706214aabdc0b529"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Value Factored Through the Successor Representation"
+gloss = "Under the successor representation the value of a state is the sum over states of the expected discounted occupancy times the reward."
+cite = ["research_stachenfeld_botvinick_gershman_2017"]
+digest = "242a8db41dbb4f09"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Grid Cell Firing as a Sum of Three Plane Waves"
+gloss = "A grid cell's firing map is modelled as the sum of three cosine gratings whose wavevectors lie sixty degrees apart, which produces the triangular lattice."
+cite = []
+digest = "dcf7160de5977edc"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Two-Timescale Update of Complementary Learning Systems"
+gloss = "The article formalises Complementary Learning Systems as a fast hippocampal trace update and a slow cortical gradient step on replayed experience, with the fast rate assumed far larger than the slow rate."
+cite = []
+digest = "db17a77162d4b51c"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Scaled Dot-Product Attention"
+gloss = "Scaled dot-product attention weights the values by a softmax of query-key dot products divided by the square root of the key dimension."
+cite = ["research_vaswani_et_al_2017"]
+digest = "4a13018c62c0866e"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Sparse Coding Objective"
+gloss = "Sparse coding minimises the squared reconstruction error of an image patch from a dictionary plus an L1 penalty on the codes."
+cite = ["research_olshausen_field_1996"]
+digest = "3bd571515b60efc7"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Infomax Independent Component Analysis"
+gloss = "Infomax Independent Component Analysis chooses the unmixing matrix that maximises the mutual information between the input and the nonlinearly transformed outputs."
+cite = ["research_bell_sejnowski_1997"]
+digest = "001d693567d12f93"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Information Maximisation Principle of Efficient Coding"
+gloss = "Efficient coding chooses the encoding parameters that maximise the mutual information between a natural signal and its neural response."
+cite = ["research_barlow_1961_efficient"]
+digest = "9ae1d4e3bbd93eef"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Linear Encoding Model from Language Model Features"
+gloss = "The predicted brain response is a linear combination, fitted by ridge regression, of the language model's internal representation of the text so far."
+cite = ["research_caucheteux_king_2022"]
+digest = "9b1f9b1169496ddf"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Saturating Power Law of Brain Prediction Accuracy"
+gloss = "The article writes the growth of brain prediction accuracy with parameter count as a power law approaching an asymptote $r_\\infty$, a functional form it chose."
+cite = []
+digest = "b3adb2261449b385"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Feedback Alignment Error Signal"
+gloss = "Feedback alignment propagates the error backward through a fixed random matrix in place of the transpose of the forward weights."
+cite = ["research_lillicrap_et_al_2016_feedback"]
+digest = "c1e2c86e857df52e"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Leaky Integrate-and-Fire Neuron"
+gloss = "The membrane voltage relaxes toward rest with the membrane time constant, is driven by the input current, and is reset after it crosses threshold."
+cite = []
+digest = "140e131a08442022"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Fast Sigmoid Surrogate Gradient"
+gloss = "The undefined derivative of the spike with respect to voltage is replaced by the derivative of a fast sigmoid centred on threshold with width $\\beta$."
+cite = ["research_neftci_mostafa_zenke_2019"]
+digest = "9535df8eb69ef997"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Weighted Aggregate Brain-Score"
+gloss = "The article writes the Brain-Score aggregate as a weighted sum of per-region fits with region weights $w_r$, a general form of the benchmark's mean over its component scores."
+cite = []
+digest = "2e19205bb372b314"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Linear Encoding Model from Task-Optimised Network Features"
+gloss = "A neural response is predicted as a regularised linear regression on features that a task-optimised network computes from the stimulus, plus noise."
+cite = ["research_yamins_dicarlo_2016"]
+digest = "1ab543771d30649c"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Latent Dynamical Model of Spike Counts"
+gloss = "Latent Factor Analysis via Dynamical Systems evolves a low-dimensional latent state through a learned recurrent transition and draws spike counts from a Poisson distribution with log-linear rates."
+cite = ["research_pandarinath_et_al_2018_lfads"]
+digest = "19fd37701b1917b5"
+
+[[symbol]]
+tex = '\Theta'
+meaning = "the Heaviside step function"
+
+[[symbol]]
+tex = 'w_{ij}'
+meaning = "the synaptic weight from unit $j$ to unit $i$"
+
+[[symbol]]
+tex = '\eta'
+meaning = "a learning rate"
+
+[[symbol]]
+tex = 'y^*'
+meaning = "the target output"
+
+[[symbol]]
+tex = '\text{RDM}'
+meaning = "the representational dissimilarity matrix over stimulus pairs"
+
+[[symbol]]
+tex = '\delta_t'
+meaning = "the temporal-difference reward prediction error"
+
+[[symbol]]
+tex = 'V(s_t)'
+meaning = "the estimated value of state $s_t$"
+
+[[symbol]]
+tex = 'Z(s, a)'
+meaning = "the random return from state $s$ and action $a$"
+
+[[symbol]]
+tex = '\alpha^+'
+meaning = "the learning rate applied to positive prediction errors, with $\\alpha^-$ for negative ones"
+
+[[symbol]]
+tex = 'A^\pi(s, a)'
+meaning = "the advantage function of policy $\\pi$"
+
+[[symbol]]
+tex = 'h_t'
+meaning = "the hidden state of a recurrent network"
+
+[[symbol]]
+tex = '\mathbf{v}_k'
+meaning = "a basis vector of the neural manifold"
+
+[[symbol]]
+tex = 'q(s)'
+meaning = "the approximate posterior, or recognition distribution, over hidden states"
+
+[[symbol]]
+tex = "M(s, s')"
+meaning = "the successor representation from state $s$ to state $s'$"
+
+[[symbol]]
+tex = '\mathbf{k}_i'
+meaning = "one of three wavevectors sixty degrees apart"
+
+[[symbol]]
+tex = '\alpha_{\text{fast}}'
+meaning = "the fast hippocampal learning rate, with $\\alpha_{\\text{slow}}$ the slow cortical rate"
+
+[[symbol]]
+tex = 'd_k'
+meaning = "the key dimension"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the sparsity regularisation coefficient"
+
+[[symbol]]
+tex = '\mathbb{I}'
+meaning = "mutual information"
+
+[[symbol]]
+tex = '\beta_j'
+meaning = "an encoding-model coefficient fitted by regularised regression"
+
+[[symbol]]
+tex = 'B^{(l)}'
+meaning = "the fixed random feedback matrix at layer $l$"
+
+[[symbol]]
+tex = '\tau_m'
+meaning = "the membrane time constant"
+
+[[symbol]]
+tex = 'V_{\text{th}}'
+meaning = "the firing threshold voltage"
+
+[[symbol]]
+tex = 'z_t'
+meaning = "the latent state of the dynamical model"

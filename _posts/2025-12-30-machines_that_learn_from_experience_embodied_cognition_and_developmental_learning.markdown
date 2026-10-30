@@ -19,13 +19,19 @@ Embodied cognition and developmental learning frame intelligence as arising from
 
 Embodied cognition posits that intelligent behavior arises from the interactions between a body, a nervous system, and an environment, rather than from the manipulation of abstract symbolic representations divorced from physical instantiation. Formally, the embodied agent is specified by a triple $(\mathcal{B}, \mathcal{N}, \mathcal{E})$ of body, nervous system, and environment, with sensorimotor coupling defined through the observation and action functions
 
-$$o_t = \Omega(\mathcal{B}, \mathcal{E}, s_t^{\mathcal{E}}), \quad a_t = A(\mathcal{N}, o_t, s_t^{\mathcal{N}})$$
+$$
+o_t = \Omega(\mathcal{B}, \mathcal{E}, s_t^{\mathcal{E}}), \quad a_t = A(\mathcal{N}, o_t, s_t^{\mathcal{N}})
+\tag{1}
+$$
 
 where $s_t^{\mathcal{E}}$ is the environmental state, $s_t^{\mathcal{N}}$ is the nervous system state, $\Omega$ maps the state through the body's sensory apparatus, and $A$ produces motor output through the body's actuators. The model emphasizes that both the sensory mapping $\Omega$ and the action mapping $A$ depend considerably on the physical body, and that cognition cannot be studied in abstraction from these embodied constraints.
 
 Developmental learning treats the trajectory of capability acquisition across a single lifetime. Formally, the developmental state at time $t$ depends on the full history of sensorimotor experience,
 
-$$\phi_t = D(\phi_0, o_{1:t-1}, a_{1:t-1}, \theta_{\text{intrinsic}})$$
+$$
+\phi_t = D(\phi_0, o_{1:t-1}, a_{1:t-1}, \theta_{\text{intrinsic}})
+\tag{2}
+$$
 
 where $\phi_t$ is the developmental state, $D$ is the developmental transition function, $\phi_0$ is the initial state, and $\theta_{\text{intrinsic}}$ parameterizes the intrinsic drives that shape exploration. This formulation provides a temporal dimension that the standard machine learning framing lacks. A developmental system passes through stages characterized by distinct sensory capabilities, motor repertoires, cognitive strategies, and social competences, with each stage building on and reorganizing the capabilities of prior stages.
 
@@ -59,13 +65,19 @@ The embodied cognition framework rests on several complementary claims that dist
 
 The second claim is that cognition is fundamentally situated in an environment that provides both the perceptual affordances and the action possibilities that structure behavior. Environments are not neutral backdrops for cognition but active participants in the cognitive processes that occur within them. The [Gibson 1979][book_gibson_1979] Ecological Approach to Visual Perception introduced the affordance framework in which objects and environments directly present action possibilities to the perceiving organism without the need for intervening symbolic representation. Formally, an affordance is a relation
 
-$$\text{Aff}(o, \mathcal{B}) = \{a \in \mathcal{A} \, : \, p(\text{success}(a, o) \mid \mathcal{B}) > \tau\}$$
+$$
+\text{Aff}(o, \mathcal{B}) = \{a \in \mathcal{A} \, : \, p(\text{success}(a, o) \mid \mathcal{B}) > \tau\}
+\tag{3}
+$$
 
 between the perceived object or environment $o$ and the body $\mathcal{B}$, specifying the actions $a$ that the body can successfully execute given the object with probability above threshold $\tau$. This formulation has been implemented computationally in the affordance-learning frameworks that estimate action-outcome distributions from embodied interaction data.
 
 The third claim is that cognition is enactive rather than representational. The [Varela et al. 1991][book_varela_thompson_rosch_1991] enactive framework proposed that cognition consists in the bringing-forth of a world through the patterns of sensorimotor interaction rather than in the internal representation of an independently-existing external world. The formal instantiation treats agent and environment as coupled dynamical systems
 
-$$\dot{s}_{\mathcal{A}} = f_{\mathcal{A}}(s_{\mathcal{A}}, s_{\mathcal{E}}), \quad \dot{s}_{\mathcal{E}} = f_{\mathcal{E}}(s_{\mathcal{E}}, s_{\mathcal{A}})$$
+$$
+\dot{s}_{\mathcal{A}} = f_{\mathcal{A}}(s_{\mathcal{A}}, s_{\mathcal{E}}), \quad \dot{s}_{\mathcal{E}} = f_{\mathcal{E}}(s_{\mathcal{E}}, s_{\mathcal{A}})
+\tag{4}
+$$
 
 with the agent's cognitive state $s_{\mathcal{A}}$ and the environmental state $s_{\mathcal{E}}$ evolving under mutually-conditioning dynamics. Cognition consists in the pattern of coupled trajectories rather than in the representation of one system by the other.
 
@@ -85,13 +97,19 @@ Sensorimotor contingency theory of O'Regan and Noë 2001 proposed that perceptua
 
 Formally, the sensorimotor contingency of a modality is the mapping from motor actions to sensory changes conditional on the current sensory state,
 
-$$C_M(a, o_t) = \mathbb{E}[o_{t+1} - o_t \mid a_t = a, o_t]$$
+$$
+C_M(a, o_t) = \mathbb{E}[o_{t+1} - o_t \mid a_t = a, o_t]
+\tag{5}
+$$
 
 with $C$ describing how the observation changes as a function of the action taken. Different modalities are characterized by distinct sensorimotor contingencies. Vision exhibits a pattern in which eye movements produce systematic changes in the retinal image consistent with the geometry of the three-dimensional world. Audition exhibits a different pattern in which head movements produce interaural time and level differences consistent with the geometry of sound sources.
 
 This formulation predicts that perceptual experience emerges from the mastery of these sensorimotor contingencies rather than from the passive registration of sensory information. The mastery criterion can be formalized as the achievement of low predictive error on the contingency mapping,
 
-$$\text{Mastery}(M) = -\mathbb{E}_{a, o}\!\left[\|C_M(a, o) - \hat{C}_M(a, o; \theta)\|^2\right]$$
+$$
+\text{Mastery}(M) = -\mathbb{E}_{a, o}\!\left[\|C_M(a, o) - \hat{C}_M(a, o; \theta)\|^2\right]
+\tag{6}
+$$
 
 with $\hat{C}\_M(\cdot; \theta)$ the agent's learned model of the modality-contingencies. Empirical support includes studies of sensory substitution in which subjects trained with a tactile-to-visual sensory substitution device report perceptual experiences consistent with the sensorimotor contingencies of the substituting modality. Sensory substitution of [Bach-Y-Rita et al. 1969][research_bach_y_rita_1969] pioneered the empirical framework through the tactile-visual substitution device that enabled congenitally-blind subjects to acquire visual-like perception through tactile stimulation of the back. The [Kohler 1962][research_kohler_1962] inverted-vision experiments provided the complementary empirical framework by documenting the adaptation to systematically-distorted visual input over extended wearing of inverting goggles.
 
@@ -103,7 +121,10 @@ The [Thompson 2007][book_thompson_2007] Mind in Life extended the framework to a
 
 Modern computational implementations of sensorimotor contingency include the developmental frameworks that treat perceptual learning as the acquisition of sensorimotor prediction models. The [Philipona O'Regan Nadal 2003][research_philipona_oregan_nadal_2003] work on the physical determination of the sensorimotor structure of perceptual modalities provided the mathematical framework for the discovery of the geometric structure of sensory space through motor exploration. The dimensionality of the compensatable subspace matches the number of external spatial degrees of freedom,
 
-$$\dim(\ker(J_M - J_B)) = d_{\text{space}}$$
+$$
+\dim(\ker(J_M - J_B)) = d_{\text{space}}
+\tag{7}
+$$
 
 where $J_M$ is the Jacobian of the sensory response to motor commands and $J_B$ is the Jacobian of the sensory response to body-external motion. The equality supports the discovery of the geometric structure of space through sensorimotor exploration alone.
 
@@ -123,7 +144,10 @@ The Playful of [Baranes and Oudeyer 2013][research_baranes_oudeyer_2013_playful]
 
 Intrinsically Motivated Goal Exploration Processes (IMGEP) of [Forestier et al. 2022][research_forestier_et_al_2022_imgep] provided the general computational framework for autonomous goal-generation in developmental agents. The account maintains an archive of previously-encountered goals and generates new goals through mutation and diversification. At each iteration the agent samples a target behavioral outcome $g$ from a goal-generation distribution, executes a policy $\pi_\theta$ conditioned on the goal, and updates both the policy and the archive with the achieved outcome,
 
-$$g \sim p_{\text{goal}}(\cdot \mid \mathcal{A}_t), \quad \tau \sim \pi_\theta(\cdot \mid g), \quad \mathcal{A}_{t+1} = \mathcal{A}_t \cup \{(g, b(\tau))\}$$
+$$
+g \sim p_{\text{goal}}(\cdot \mid \mathcal{A}_t), \quad \tau \sim \pi_\theta(\cdot \mid g), \quad \mathcal{A}_{t+1} = \mathcal{A}_t \cup \{(g, b(\tau))\}
+\tag{8}
+$$
 
 where $\mathcal{A}\_t$ is the goal-outcome archive and $b(\tau)$ is the behavioral descriptor of the executed trajectory. The model provides an approach that connects developmental robotics to the quality-diversity treatments of article twelve.
 
@@ -141,7 +165,10 @@ The Schmidhuber 1991 curiosity framework introduced the proposal that intrinsic 
 
 The Oudeyer Kaplan Hafner 2007 intrinsic motivation systems framework provided the systematic taxonomy of intrinsic motivation mechanisms including novelty, learning progress, and empowerment. The learning-progress signal quantifies the recent improvement in prediction error over a sliding window,
 
-$$\text{LP}(x) = \|\epsilon_{t-w}(x)\| - \|\epsilon_t(x)\|$$
+$$
+\text{LP}(x) = \|\epsilon_{t-w}(x)\| - \|\epsilon_t(x)\|
+\tag{9}
+$$
 
 with $\epsilon_t(x)$ the current-model prediction error on task or region $x$ and $\\lvert \cdot\ \rvert$ a suitable norm. The learning-progress-based framework has proved particularly influential in developmental robotics through its prediction that developmental agents should preferentially explore states where learning is neither too easy nor too hard.
 
@@ -151,7 +178,10 @@ Modern intrinsic-motivation-based developmental agents produce trajectories that
 
 Empowerment-based intrinsic motivation of [Klyubin et al. 2005][research_klyubin_polani_nehaniv_2005_empowerment] introduced the information-theoretic framework in which agents maximize their potential influence on future observations. Empowerment is formally defined as the channel capacity between action sequences and future states,
 
-$$E(s) = \max_{p(a_{1:n})} \, \mathbb{I}\!\left[A_{1:n} \, ; \, S_{n+1} \mid S_1 = s\right]$$
+$$
+E(s) = \max_{p(a_{1:n})} \, \mathbb{I}\!\left[A_{1:n} \, ; \, S_{n+1} \mid S_1 = s\right]
+\tag{10}
+$$
 
 with the maximization over the distribution of action sequences. The treatment has been applied to developmental robotics as an alternative to learning-progress-based motivation and produces distinctive developmental trajectories characterized by the systematic expansion of behavioral repertoire.
 
@@ -185,7 +215,10 @@ Motor development is the developmental track through which agents acquire sensor
 
 The Bernstein problem of [Bernstein 1967][book_bernstein_1967] identified the challenge of motor development as the coordination of the many degrees of freedom of the biological motor system. The problem is captured by the observation that the effective task-relevant dimensionality is typically appreciably smaller than the number of controllable degrees of freedom,
 
-$$d_{\text{task}} = \dim(\mathcal{T}) \ll d_{\text{motor}} = \dim(\mathcal{U})$$
+$$
+d_{\text{task}} = \dim(\mathcal{T}) \ll d_{\text{motor}} = \dim(\mathcal{U})
+\tag{11}
+$$
 
 with $\mathcal{T}$ the task-relevant subspace and $\mathcal{U}$ the full motor-command space. The treatment predicts that motor development proceeds through the progressive freeing of degrees of freedom, from initial coactivation patterns to increasingly-refined coordinated control that projects motor commands into the task-relevant subspace.
 
@@ -193,13 +226,19 @@ Motor babbling of [Meltzoff and Moore 1997][research_meltzoff_moore_1997_babblin
 
 Dynamic Movement Primitives (DMPs) of [Ijspeert et al. 2013][research_ijspeert_et_al_2013_dmp_a262] provide the computational framework for representing motor skills through parameterized dynamical systems. The framework combines a canonical dynamical system that generates the timing structure with a learned forcing function that shapes the trajectory,
 
-$$\ddot{y} = \alpha (\beta (g - y) - \dot{y}) + f(x)$$
+$$
+\ddot{y} = \alpha (\beta (g - y) - \dot{y}) + f(x)
+\tag{12}
+$$
 
 where $y$ is the state, $g$ is the goal, $\alpha, \beta$ are dynamic parameters ensuring convergence, $f(x)$ is a learned forcing function, and $x$ is the phase variable that progresses from 1 to 0 over the movement. The account supports the properties of motor learning including generalization across goals, robust adaptation to perturbations, and modular composition of primitive movements.
 
 The motor primitive hypothesis of [Mussa-Ivaldi and Solla 2004][research_mussa_ivaldi_solla_2004] proposed that biological motor behavior is composed of a small number of fundamental primitives that are combined through superposition to produce the full motor repertoire. Formally, complex motor output is generated through the weighted superposition of primitive fields,
 
-$$u(t) = \sum_{i=1}^{K} w_i \, \phi_i(t)$$
+$$
+u(t) = \sum_{i=1}^{K} w_i \, \phi_i(t)
+\tag{13}
+$$
 
 with $\phi_i$ the $i$-th motor primitive, $w_i$ the task-weight, and $K$ the number of primitives in the repertoire. The model has considerable empirical support from studies of spinal cord organization and provides testable predictions about the structure of motor control.
 
@@ -207,11 +246,17 @@ Motor development in humans exhibits universal patterns including the cephalocau
 
 Predictive motor control frameworks including the [Wolpert et al. 1995][research_wolpert_ghahramani_jordan_1995] forward-model account propose that motor control operates through the combination of a forward model that predicts sensory consequences of motor commands and an inverse model that generates motor commands from desired sensory outcomes. The forward model predicts the next sensory state as
 
-$$\hat{s}_{t+1} = F_{\text{forward}}(s_t, u_t; \theta_F)$$
+$$
+\hat{s}_{t+1} = F_{\text{forward}}(s_t, u_t; \theta_F)
+\tag{14}
+$$
 
 and the inverse model produces motor commands that achieve a desired sensory outcome,
 
-$$\hat{u}_t = F_{\text{inverse}}(s_t, s_{t+1}^*; \theta_I)$$
+$$
+\hat{u}_t = F_{\text{inverse}}(s_t, s_{t+1}^*; \theta_I)
+\tag{15}
+$$
 
 with $\theta_F, \theta_I$ the learned parameters. Motor development corresponds to the joint learning of both models through the systematic exploration of the sensorimotor space. The treatment connects motor development to the predictive coding treatments below and to the world model treatments of article seven.
 
@@ -245,7 +290,10 @@ Perceptual development treats the track through which agents acquire perceptual 
 
 Statistical learning in infants was documented systematically by [Saffran et al. 1996][research_saffran_aslin_newport_1996] through the demonstration that eight-month-old infants extract statistical regularities from continuous speech streams within just a few minutes of exposure. The statistic learned is the transitional probability between successive syllables,
 
-$$P(y_{t+1} \mid y_t) = \frac{\#(y_t, y_{t+1})}{\#(y_t)}$$
+$$
+P(y_{t+1} \mid y_t) = \frac{\#(y_t, y_{t+1})}{\#(y_t)}
+\tag{16}
+$$
 
 with word boundaries corresponding to the local minima of the transitional probability. This account provides evidence that infants deploy powerful statistical inference mechanisms from the earliest ages and that these mechanisms scaffold subsequent language acquisition.
 
@@ -255,13 +303,19 @@ The [Aslin and Newport 2014][research_aslin_newport_2014] statistical learning r
 
 Multi-modal statistical learning of [Yu and Smith 2007][research_yu_smith_2007] introduced the cross-situational word-learning framework in which infants acquire word-referent mappings through the statistical regularities in co-occurrence across many labeling instances. The associative co-occurrence update after each labeling instance takes the form
 
-$$\text{assoc}_{t+1}(w, r) = \text{assoc}_t(w, r) + \alpha \, \mathbb{1}[(w, r) \in \text{scene}_t]$$
+$$
+\text{assoc}_{t+1}(w, r) = \text{assoc}_t(w, r) + \alpha \, \mathbb{1}[(w, r) \in \text{scene}_t]
+\tag{17}
+$$
 
 with $\alpha$ a learning rate and the mapping candidates ranked by their accumulated associative strength. The framework provides evidence that the bootstrapping problem of language acquisition admits distributional solutions that infants deploy in practice.
 
 Bayesian models of infant cognition of [Xu and Tenenbaum 2007][research_xu_tenenbaum_2007] proposed that infant learning is well-modeled by hierarchical Bayesian inference with strong priors over category structure. The account updates a hierarchical posterior over category hypotheses given examples,
 
-$$p(h \mid X) \propto p(X \mid h) \, p(h \mid \Theta) \, p(\Theta)$$
+$$
+p(h \mid X) \propto p(X \mid h) \, p(h \mid \Theta) \, p(\Theta)
+\tag{18}
+$$
 
 with $h$ a candidate category, $\Theta$ hyperparameters governing category structure, and $X$ observed examples. The model provides quantitative fits to empirical infant behavior across multiple domains and connects developmental psychology to the modern Bayesian machine learning literature.
 
@@ -269,7 +323,10 @@ Face processing development exhibits a trajectory including the very early prefe
 
 Perceptual narrowing is the phenomenon by which infant perceptual discrimination is initially broad and progressively narrows to match the distinctions relevant to the ambient environment. The pattern can be characterized by the developmental trajectory of the discrimination sensitivity across categories,
 
-$$d'_{\text{discrim}}(c_i, c_j; t) = f_{\text{narrowing}}(t, \text{exposure}(c_i, c_j))$$
+$$
+d'_{\text{discrim}}(c_i, c_j; t) = f_{\text{narrowing}}(t, \text{exposure}(c_i, c_j))
+\tag{19}
+$$
 
 with the sensitivity increasing for category distinctions relevant to the ambient environment and decreasing for irrelevant distinctions. The treatment has been documented for phoneme discrimination, face discrimination, and other perceptual domains, and provides evidence for the patterns of experience-dependent plasticity that shape perceptual capabilities.
 
@@ -283,7 +340,10 @@ The Piagetian stages include the sensorimotor stage (birth to approximately two 
 
 Assimilation and accommodation provide the mechanisms of cognitive development. Assimilation is the incorporation of new information into existing cognitive schemas, and accommodation is the modification of existing schemas to accommodate information that does not fit. The framework can be formalized as a schema-updating rule
 
-$$S_{t+1} = \begin{cases} S_t \cup \{o_t\} & \text{if } \text{fit}(S_t, o_t) > \tau \quad \text{(assimilation)} \\ \text{modify}(S_t, o_t) & \text{if } \text{fit}(S_t, o_t) \leq \tau \quad \text{(accommodation)} \end{cases}$$
+$$
+S_{t+1} = \begin{cases} S_t \cup \{o_t\} & \text{if } \text{fit}(S_t, o_t) > \tau \quad \text{(assimilation)} \\ \text{modify}(S_t, o_t) & \text{if } \text{fit}(S_t, o_t) \leq \tau \quad \text{(accommodation)} \end{cases}
+\tag{20}
+$$
 
 with $S_t$ the current schema, $o_t$ the observed information, $\text{fit}$ a compatibility measure, and $\tau$ a threshold. The account provides a computational account of cognitive change through the balance of these two processes.
 
@@ -333,7 +393,10 @@ The [Lake et al. 2016][research_lake_ullman_tenenbaum_gershman_2017] Building Ma
 
 Bayesian implementations of core knowledge through the [Battaglia et al. 2013][research_battaglia_hamrick_tenenbaum_2013] intuitive physics engine framework provided the computational instantiation of core physical knowledge as a probabilistic simulation engine that infants deploy for physical reasoning. This account predicts physical outcomes through the noisy-simulation-and-marginalization computation
 
-$$p(\text{outcome} \mid \text{scene}) = \int p(\text{outcome} \mid s, \theta_{\text{phys}}) \, p(s \mid \text{scene}) \, p(\theta_{\text{phys}}) \, ds \, d\theta_{\text{phys}}$$
+$$
+p(\text{outcome} \mid \text{scene}) = \int p(\text{outcome} \mid s, \theta_{\text{phys}}) \, p(s \mid \text{scene}) \, p(\theta_{\text{phys}}) \, ds \, d\theta_{\text{phys}}
+\tag{21}
+$$
 
 with the scene state $s$ and physical parameters $\theta_{\text{phys}}$ marginalized over their posterior distributions. The framework connects core knowledge to modern probabilistic programming and to the world model treatments of article seven.
 
@@ -351,13 +414,19 @@ Cross-situational word learning of Yu and Smith 2007 provided the developmental 
 
 The formal cross-situational learning model updates the posterior over word-referent mappings after each observation,
 
-$$p(m \mid w, r) \propto p(w \mid m, r) \, p(r \mid m) \, p(m)$$
+$$
+p(m \mid w, r) \propto p(w \mid m, r) \, p(r \mid m) \, p(m)
+\tag{22}
+$$
 
 with $m$ the word-referent mapping, $w$ the observed word, $r$ the observed referent context, and appropriate factorizations of the likelihood. This account provides quantitative fits to empirical child data and demonstrates that statistical inference resolves the referential ambiguity through cross-situational aggregation.
 
 Fast mapping of [Carey and Bartlett 1978][research_carey_bartlett_1978] documented the ability of young children to acquire word meanings from a single exposure. The mutual-exclusivity inductive bias
 
-$$p(m \mid w, \{m_j\}_{j \neq i}) \propto p(w \mid m) \, \mathbb{1}[m \notin \{m_j\}_{j \neq i}]$$
+$$
+p(m \mid w, \{m_j\}_{j \neq i}) \propto p(w \mid m) \, \mathbb{1}[m \notin \{m_j\}_{j \neq i}]
+\tag{23}
+$$
 
 restricts the candidate word-meaning mappings by excluding meanings already assigned to other words in the vocabulary. The framework has been extensively studied both empirically and computationally, and provides evidence for inductive biases that support rapid one-shot word learning.
 
@@ -377,29 +446,44 @@ The Rao and Ballard 1999 hierarchical predictive coding framework introduced the
 
 The formal predictive coding framework computes prediction errors at each hierarchical level as the difference between the actual activity and the predicted activity,
 
-$$\epsilon_l = x_l - \hat{x}_l, \quad \hat{x}_l = g_l(x_{l+1})$$
+$$
+\epsilon_l = x_l - \hat{x}_l, \quad \hat{x}_l = g_l(x_{l+1})
+\tag{24}
+$$
 
 where $x_l$ is the activity at level $l$, $g_l$ is the generative model that maps activity from level $l+1$ to predicted activity at level $l$, and $\epsilon_l$ is the prediction error. The account updates both the activities and the generative model parameters to minimize the total weighted prediction error.
 
 The Friston 2010 free energy principle provided the unified theoretical framework through which perception, action, and learning correspond to the minimization of variational free energy,
 
-$$F = \mathbb{E}_{q(s)}[\log q(s) - \log p(o, s)]$$
+$$
+F = \mathbb{E}_{q(s)}[\log q(s) - \log p(o, s)]
+\tag{25}
+$$
 
 where $q(s)$ is the internal model's posterior over hidden states, $p(o, s)$ is the joint distribution of observations and hidden states, and the free energy provides an upper bound on the negative log-evidence. Perception updates $q$ to minimize $F$, action selects motor commands that minimize expected $F$, and learning updates the parameters of the generative model to minimize $F$. The free energy admits the decomposition
 
-$$F = D_{\text{KL}}(q(s) \, \| \, p(s \mid o)) - \log p(o)$$
+$$
+F = D_{\text{KL}}(q(s) \, \| \, p(s \mid o)) - \log p(o)
+\tag{26}
+$$
 
 into a divergence between the approximate and true posteriors and the negative log-evidence, providing the formal justification for the variational-inference interpretation of predictive coding.
 
 Active inference of [Friston and Frith 2015][research_friston_et_al_2015_active_inference] extended the treatment to action selection through the proposal that agents select actions to minimize expected free energy under alternative policies. The expected free energy of a policy $\pi$ decomposes into pragmatic and epistemic components,
 
-$$G(\pi) = \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\log p(\tilde{o})\right]}_{\text{pragmatic}} + \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\mathbb{H}[q(\tilde{s} \mid \tilde{o}, \pi)]\right]}_{\text{epistemic}}$$
+$$
+G(\pi) = \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\log p(\tilde{o})\right]}_{\text{pragmatic}} + \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\mathbb{H}[q(\tilde{s} \mid \tilde{o}, \pi)]\right]}_{\text{epistemic}}
+\tag{27}
+$$
 
 with the first term favoring observations aligned with preferred outcomes and the second term favoring observations that reduce hidden-state uncertainty. The decomposition provides a unified account of exploration and exploitation, connecting active inference to the intrinsic motivation treatments of article five.
 
 Precision-weighted prediction errors of [Feldman and Friston 2010][research_feldman_friston_2010] extended the standard predictive coding framework with the weighting of prediction errors by their expected precision,
 
-$$\epsilon_l^{\text{weighted}} = \Pi_l (x_l - \hat{x}_l)$$
+$$
+\epsilon_l^{\text{weighted}} = \Pi_l (x_l - \hat{x}_l)
+\tag{28}
+$$
 
 with $\Pi_l$ the precision matrix at level $l$ that captures the expected reliability of the sensory evidence. The precision-weighting framework accounts for attentional modulation, perceptual salience, and the patterns of hierarchical inference observed in developmental neuroscience.
 
@@ -423,7 +507,10 @@ Body schema is the internal representation of the body that supports coordinated
 
 Self-modeling robots of [Bongard et al. 2006][research_bongard_zykov_lipson_2006_a262] demonstrated that robots can autonomously discover their own body schema through active exploration and use the learned model for recovery from unexpected morphological damage. The body schema is formally instantiated as a learned mapping from motor commands to expected sensor readings,
 
-$$\hat{o}_{t+1} = M_\psi(o_t, u_t)$$
+$$
+\hat{o}_{t+1} = M_\psi(o_t, u_t)
+\tag{29}
+$$
 
 with $\psi$ the body-schema parameters that are updated online through the pattern of prediction-error minimization. The account provides the computational instantiation of the body schema in artificial systems and demonstrates that self-modeling supports robust adaptive behavior.
 
@@ -441,7 +528,10 @@ Curriculum learning treats the problem of ordering training examples or tasks to
 
 Bengio Louradour Collobert Weston 2009 [research_bengio_et_al_2009_curriculum] introduced the modern machine learning curriculum learning framework through the proposal that neural networks train more effectively when the training examples are presented in a difficulty-ordered sequence. The general curriculum objective can be written as an expected loss under a time-dependent training distribution,
 
-$$L_{\text{curriculum}}(\theta) = \mathbb{E}_{t \sim T}\!\left[\mathbb{E}_{x \sim p_t(x)}[L(\theta; x)]\right]$$
+$$
+L_{\text{curriculum}}(\theta) = \mathbb{E}_{t \sim T}\!\left[\mathbb{E}_{x \sim p_t(x)}[L(\theta; x)]\right]
+\tag{30}
+$$
 
 with the training distribution $p_t(x)$ progressively shifting from easy to hard examples according to a specified curriculum schedule. This account produces considerably better final performance and faster training convergence on many benchmarks.
 
@@ -451,7 +541,10 @@ Automatic curriculum learning of [Portelas et al. 2020a][research_portelas_et_al
 
 Teacher-Student Curriculum Learning of [Portelas et al. 2020b][research_portelas_et_al_2019_ts] introduced the model in which a teacher policy selects tasks to maximize the expected learning progress of a student policy. The teacher's task-selection policy maximizes
 
-$$\pi_{\text{teacher}}(\mathcal{T}) = \arg\max_{\mathcal{T} \in \mathcal{T}_{\text{avail}}} \, \mathbb{E}\!\left[\text{LP}_{\text{student}}(\mathcal{T})\right]$$
+$$
+\pi_{\text{teacher}}(\mathcal{T}) = \arg\max_{\mathcal{T} \in \mathcal{T}_{\text{avail}}} \, \mathbb{E}\!\left[\text{LP}_{\text{student}}(\mathcal{T})\right]
+\tag{31}
+$$
 
 where the expected learning progress of the student on task $\mathcal{T}$ is estimated from recent training history. The treatment provides an approach that automatically adapts to the student's current capabilities and mimics the patterns of scaffolded instruction observed in human development.
 
@@ -519,7 +612,10 @@ ThreeDWorld of [Gan et al. 2020][research_gan_et_al_2020_tdw] provided the multi
 
 Embodied Question Answering of [Das et al. 2018][research_das_et_al_2018_eqa] introduced the embodied task in which agents must answer questions about their environment through active exploration. The task requires the joint optimization of navigation and answering,
 
-$$\pi^*(q) = \arg\max_\pi \, \mathbb{E}_{\tau \sim \pi(\cdot \mid q)}\!\left[\log p(a^* \mid q, \tau)\right] - \lambda \, |\tau|$$
+$$
+\pi^*(q) = \arg\max_\pi \, \mathbb{E}_{\tau \sim \pi(\cdot \mid q)}\!\left[\log p(a^* \mid q, \tau)\right] - \lambda \, |\tau|
+\tag{32}
+$$
 
 with $q$ the question, $\tau$ the exploration trajectory, $a^\*$ the correct answer, and $\lvert \tau \rvert$ a length penalty. The framework connects embodied AI to language understanding through the requirement of grounding linguistic queries in embodied experience.
 
@@ -537,7 +633,10 @@ Dynamical systems approaches of [Thelen and Smith 1994][book_thelen_smith_1994] 
 
 The formal dynamical systems framework represents developmental state through a differential equation
 
-$$\dot{x} = f(x, u, \theta)$$
+$$
+\dot{x} = f(x, u, \theta)
+\tag{33}
+$$
 
 with $x$ the developmental state, $u$ the environmental input, and $\theta$ the internal parameters. The framework predicts developmental phenomena including the patterns of behavioral variability at transitions, the role of noise in producing developmental change, and the attractor structure that characterizes developmental milestones.
 
@@ -545,7 +644,10 @@ Predictive processing of Clark 2016 provided the theoretical unification of embo
 
 The relationship between embodied cognition and Bayesian brain frameworks has been extensively studied. The Bayesian brain framework proposes that the brain implements probabilistic inference through neural computation. The general perceptual inference
 
-$$p(s \mid o) \propto p(o \mid s) \, p(s)$$
+$$
+p(s \mid o) \propto p(o \mid s) \, p(s)
+\tag{34}
+$$
 
 is instantiated in the hierarchical predictive coding computation described earlier, with the priors $p(s)$ shaped by the developmental history and the likelihoods $p(o \mid s)$ shaped by the sensory apparatus. The extension to embodied Bayesian brains treats the body and environment as participants in the inference computation.
 
@@ -599,7 +701,10 @@ Prosthetics and exoskeletons use embodied AI for the control of assistive device
 
 The neuroscience of developmental learning has been extensively documented across many decades of research. Cortical development follows a temporal trajectory characterized by proliferation of neurons and synapses in early development, followed by systematic pruning of connections in response to experience. The [Huttenlocher 1979][research_huttenlocher_1979] documentation of the developmental trajectory of synaptic density in human cortex provided the foundational quantitative framework, characterized by the pattern
 
-$$\rho_{\text{synapse}}(t) = \rho_0 + \rho_1 t \, e^{-\alpha t} - \rho_2 \, \mathbb{1}[t > t_{\text{prune}}] \, (1 - e^{-\beta (t - t_{\text{prune}})})$$
+$$
+\rho_{\text{synapse}}(t) = \rho_0 + \rho_1 t \, e^{-\alpha t} - \rho_2 \, \mathbb{1}[t > t_{\text{prune}}] \, (1 - e^{-\beta (t - t_{\text{prune}})})
+\tag{35}
+$$
 
 capturing the initial proliferation followed by experience-dependent pruning after the onset time $t_{\text{prune}}$. The appreciable subsequent literature has extended the framework to cortical areas and developmental time windows.
 
@@ -655,6 +760,346 @@ Modern artificial cognitive systems increasingly recognize the value of the comp
 - Can symbol grounding be genuinely solved through the modern foundation model plus embodiment paradigm, or are there residual challenges that require distinct algorithmic responses?
 - What is the correct treatment of the role of social scaffolding and joint attention in artificial developmental systems?
 - How should developmental learning be integrated with the modern machine learning practice of large-scale pretraining plus fine-tuning?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 35 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 35, 22 are established and 13 are bespoke.
+Most equations are schematic relations between functions, distributions and states rather than numerical laws, so they carry no physical units, and a symbol such as $\tau$, $\alpha$ or $\theta$ is reused across sections with the meaning its own section gives it.
+
+*Equation 1, Bespoke Sensorimotor Coupling of Body, Nervous System and Environment.*
+The article frames the embodied agent as a triple of body, nervous system and environment, with observation passing through the body's sensors and action through its actuators.
+
+$$
+o_t = \Omega(\mathcal{B}, \mathcal{E}, s_t^{\mathcal{E}}), \quad a_t = A(\mathcal{N}, o_t, s_t^{\mathcal{N}})
+\tag{1}
+$$
+
+*Equation 2, Bespoke Developmental State as a Function of Sensorimotor History.*
+The article writes the developmental state as a transition function of the initial state, the whole history of observations and actions, and the parameters of the intrinsic drives.
+
+$$
+\phi_t = D(\phi_0, o_{1:t-1}, a_{1:t-1}, \theta_{\text{intrinsic}})
+\tag{2}
+$$
+
+*Equation 3, Bespoke Affordance as a Thresholded Set of Successful Actions.*
+The article formalises a Gibsonian affordance as the set of actions whose probability of success for a given body and object exceeds a chosen threshold $\tau$.
+
+$$
+\text{Aff}(o, \mathcal{B}) = \{a \in \mathcal{A} \, : \, p(\text{success}(a, o) \mid \mathcal{B}) > \tau\}
+\tag{3}
+$$
+
+**Equation 4, Coupled Dynamics of Agent and Environment.**
+Agent and environment are written as two dynamical systems, each of whose rate of change depends on the state of the other, which is the common formalism of dynamical approaches to enactive cognition.
+
+$$
+\dot{s}_{\mathcal{A}} = f_{\mathcal{A}}(s_{\mathcal{A}}, s_{\mathcal{E}}), \quad \dot{s}_{\mathcal{E}} = f_{\mathcal{E}}(s_{\mathcal{E}}, s_{\mathcal{A}})
+\tag{4}
+$$
+
+*Equation 5, Bespoke Sensorimotor Contingency of a Modality.*
+The article formalises the sensorimotor contingency of a modality as the expected change in observation that an action produces from the current observation.
+
+$$
+C_M(a, o_t) = \mathbb{E}[o_{t+1} - o_t \mid a_t = a, o_t]
+\tag{5}
+$$
+
+*Equation 6, Bespoke Mastery of a Sensorimotor Contingency.*
+The article defines mastery as the negative expected squared error between the true contingency and the agent's learned model of it, a figure of merit it introduces.
+
+$$
+\text{Mastery}(M) = -\mathbb{E}_{a, o}\!\left[\|C_M(a, o) - \hat{C}_M(a, o; \theta)\|^2\right]
+\tag{6}
+$$
+
+*Equation 7, Bespoke Dimension of the Compensable Subspace.*
+The article restates the result of Philipona and colleagues as an equality between the dimension of the kernel of the difference of two sensory Jacobians and the number of external spatial degrees of freedom.
+[Philipona O'Regan Nadal 2003][research_philipona_oregan_nadal_2003]
+
+$$
+\dim(\ker(J_M - J_B)) = d_{\text{space}}
+\tag{7}
+$$
+
+**Equation 8, Intrinsically Motivated Goal Exploration Process Iteration.**
+An Intrinsically Motivated Goal Exploration Process samples a goal from the archive, executes a goal-conditioned policy and adds the goal with the achieved behavioural descriptor to the archive.
+[Forestier et al. 2022][research_forestier_et_al_2022_imgep]
+
+$$
+g \sim p_{\text{goal}}(\cdot \mid \mathcal{A}_t), \quad \tau \sim \pi_\theta(\cdot \mid g), \quad \mathcal{A}_{t+1} = \mathcal{A}_t \cup \{(g, b(\tau))\}
+\tag{8}
+$$
+
+**Equation 9, Learning Progress over a Sliding Window.**
+Learning progress on a task or region is the decrease in the norm of the prediction error between the start and the end of a window of length $w$.
+[Oudeyer et al. 2007][research_oudeyer_kaplan_hafner_2007]
+
+$$
+\text{LP}(x) = \|\epsilon_{t-w}(x)\| - \|\epsilon_t(x)\|
+\tag{9}
+$$
+
+**Equation 10, Empowerment as Channel Capacity.**
+Empowerment at a state is the channel capacity from a sequence of $n$ actions to the resulting state, the mutual information maximised over distributions of action sequences.
+[Klyubin et al. 2005][research_klyubin_polani_nehaniv_2005_empowerment]
+
+$$
+E(s) = \max_{p(a_{1:n})} \, \mathbb{I}\!\left[A_{1:n} \, ; \, S_{n+1} \mid S_1 = s\right]
+\tag{10}
+$$
+
+**Equation 11, Degrees of Freedom Problem.**
+The dimension of the task-relevant subspace is far smaller than that of the motor-command space, which is the redundancy that Bernstein identified as the central problem of motor coordination.
+[Bernstein 1967][book_bernstein_1967]
+
+$$
+d_{\text{task}} = \dim(\mathcal{T}) \ll d_{\text{motor}} = \dim(\mathcal{U})
+\tag{11}
+$$
+
+**Equation 12, Dynamic Movement Primitive Transformation System.**
+A Dynamic Movement Primitive is a damped spring pulled toward the goal plus a learned forcing function of a phase variable that decays over the movement.
+[Ijspeert et al. 2013][research_ijspeert_et_al_2013_dmp_a262]
+
+$$
+\ddot{y} = \alpha (\beta (g - y) - \dot{y}) + f(x)
+\tag{12}
+$$
+
+**Equation 13, Superposition of Motor Primitives.**
+Motor output is a weighted superposition of a small repertoire of primitive fields.
+[Mussa-Ivaldi and Solla 2004][research_mussa_ivaldi_solla_2004]
+
+$$
+u(t) = \sum_{i=1}^{K} w_i \, \phi_i(t)
+\tag{13}
+$$
+
+**Equation 14, Forward Model of Motor Control.**
+A forward model predicts the next sensory state from the current state and the motor command.
+[Wolpert et al. 1995][research_wolpert_ghahramani_jordan_1995]
+
+$$
+\hat{s}_{t+1} = F_{\text{forward}}(s_t, u_t; \theta_F)
+\tag{14}
+$$
+
+**Equation 15, Inverse Model of Motor Control.**
+An inverse model produces the motor command expected to carry the current state to a desired next state.
+[Wolpert et al. 1995][research_wolpert_ghahramani_jordan_1995]
+
+$$
+\hat{u}_t = F_{\text{inverse}}(s_t, s_{t+1}^*; \theta_I)
+\tag{15}
+$$
+
+**Equation 16, Transitional Probability Between Syllables.**
+The transitional probability from one syllable to the next is the count of the pair divided by the count of the first syllable, and word boundaries fall at its local minima.
+[Saffran et al. 1996][research_saffran_aslin_newport_1996]
+
+$$
+P(y_{t+1} \mid y_t) = \frac{\#(y_t, y_{t+1})}{\#(y_t)}
+\tag{16}
+$$
+
+**Equation 17, Associative Co-occurrence Update for Cross-Situational Word Learning.**
+The associative strength of a word and a referent grows by a learning rate each time the pair co-occurs in a labelling scene.
+[Yu and Smith 2007][research_yu_smith_2007]
+
+$$
+\text{assoc}_{t+1}(w, r) = \text{assoc}_t(w, r) + \alpha \, \mathbb{1}[(w, r) \in \text{scene}_t]
+\tag{17}
+$$
+
+**Equation 18, Hierarchical Bayesian Posterior over Category Hypotheses.**
+The posterior over a category hypothesis is proportional to the likelihood of the examples times a prior governed by hyperparameters that carry their own prior.
+[Xu and Tenenbaum 2007][research_xu_tenenbaum_2007]
+
+$$
+p(h \mid X) \propto p(X \mid h) \, p(h \mid \Theta) \, p(\Theta)
+\tag{18}
+$$
+
+*Equation 19, Bespoke Perceptual Narrowing Trajectory.*
+The article writes discrimination sensitivity between two categories as an unspecified narrowing function of age and of exposure to the distinction.
+
+$$
+d'_{\text{discrim}}(c_i, c_j; t) = f_{\text{narrowing}}(t, \text{exposure}(c_i, c_j))
+\tag{19}
+$$
+
+*Equation 20, Bespoke Threshold Rule for Assimilation and Accommodation.*
+The article formalises Piagetian assimilation and accommodation as a schema update that adds an observation when a fit measure exceeds a chosen threshold and modifies the schema otherwise.
+
+$$
+S_{t+1} = \begin{cases} S_t \cup \{o_t\} & \text{if } \text{fit}(S_t, o_t) > \tau \quad \text{(assimilation)} \\ \text{modify}(S_t, o_t) & \text{if } \text{fit}(S_t, o_t) \leq \tau \quad \text{(accommodation)} \end{cases}
+\tag{20}
+$$
+
+**Equation 21, Intuitive Physics Engine Prediction by Marginalisation.**
+The predicted outcome of a scene is the simulated outcome averaged over the posterior on the scene state and the prior on the physical parameters.
+[Battaglia et al. 2013][research_battaglia_hamrick_tenenbaum_2013]
+
+$$
+p(\text{outcome} \mid \text{scene}) = \int p(\text{outcome} \mid s, \theta_{\text{phys}}) \, p(s \mid \text{scene}) \, p(\theta_{\text{phys}}) \, ds \, d\theta_{\text{phys}}
+\tag{21}
+$$
+
+**Equation 22, Bayesian Posterior over Word-Referent Mappings.**
+Bayes' rule gives the posterior over a word-referent mapping from the likelihood of the word, the likelihood of the referent context and the prior on the mapping.
+[Frank Tenenbaum Fernald 2013][research_frank_tenenbaum_fernald_2013]
+
+$$
+p(m \mid w, r) \propto p(w \mid m, r) \, p(r \mid m) \, p(m)
+\tag{22}
+$$
+
+*Equation 23, Bespoke Hard Mutual-Exclusivity Constraint.*
+The article writes mutual exclusivity as an indicator that sets to zero the probability of any meaning already assigned to another word, a hard exclusion rather than a graded bias.
+
+$$
+p(m \mid w, \{m_j\}_{j \neq i}) \propto p(w \mid m) \, \mathbb{1}[m \notin \{m_j\}_{j \neq i}]
+\tag{23}
+$$
+
+**Equation 24, Hierarchical Prediction Error.**
+In hierarchical predictive coding each level's prediction error is its activity minus the prediction that the generative model of the level above supplies.
+[Rao and Ballard 1999][research_rao_ballard_1999]
+
+$$
+\epsilon_l = x_l - \hat{x}_l, \quad \hat{x}_l = g_l(x_{l+1})
+\tag{24}
+$$
+
+**Equation 25, Variational Free Energy.**
+Variational free energy is the expectation under the approximate posterior of the log approximate posterior minus the log joint of observations and hidden states.
+[Friston 2010][research_friston_2010_fep]
+
+$$
+F = \mathbb{E}_{q(s)}[\log q(s) - \log p(o, s)]
+\tag{25}
+$$
+
+**Equation 26, Free Energy as Divergence plus Surprisal.**
+Free energy equals the Kullback-Leibler divergence from the approximate to the true posterior plus the negative log evidence, so it bounds the surprisal from above.
+[Friston 2010][research_friston_2010_fep]
+
+$$
+F = D_{\text{KL}}(q(s) \, \| \, p(s \mid o)) - \log p(o)
+\tag{26}
+$$
+
+**Equation 27, Expected Free Energy of a Policy.**
+The expected free energy of a policy is split into a pragmatic term on the log preference for predicted observations and an epistemic term on the uncertainty of hidden states.
+[Friston and Frith 2015][research_friston_et_al_2015_active_inference]
+
+$$
+G(\pi) = \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\log p(\tilde{o})\right]}_{\text{pragmatic}} + \underbrace{-\mathbb{E}_{q(\tilde{o} \mid \pi)}\!\left[\mathbb{H}[q(\tilde{s} \mid \tilde{o}, \pi)]\right]}_{\text{epistemic}}
+\tag{27}
+$$
+
+**Equation 28, Precision-Weighted Prediction Error.**
+The prediction error at each level is multiplied by a precision matrix that encodes the expected reliability of the evidence.
+[Feldman and Friston 2010][research_feldman_friston_2010]
+
+$$
+\epsilon_l^{\text{weighted}} = \Pi_l (x_l - \hat{x}_l)
+\tag{28}
+$$
+
+**Equation 29, Learned Body Schema as a Forward Model.**
+A self-modelling robot learns its body schema as a mapping from the current observation and motor command to the expected next sensor reading.
+[Bongard et al. 2006][research_bongard_zykov_lipson_2006_a262]
+
+$$
+\hat{o}_{t+1} = M_\psi(o_t, u_t)
+\tag{29}
+$$
+
+*Equation 30, Bespoke General Curriculum Objective.*
+The article writes curriculum learning as the expected loss under a training distribution that shifts with a time index drawn from the schedule.
+
+$$
+L_{\text{curriculum}}(\theta) = \mathbb{E}_{t \sim T}\!\left[\mathbb{E}_{x \sim p_t(x)}[L(\theta; x)]\right]
+\tag{30}
+$$
+
+*Equation 31, Bespoke Greedy Teacher Selecting by Expected Learning Progress.*
+The article writes the teacher as greedily choosing the available task of greatest expected student learning progress, a simplification of teachers that in practice sample tasks stochastically.
+
+$$
+\pi_{\text{teacher}}(\mathcal{T}) = \arg\max_{\mathcal{T} \in \mathcal{T}_{\text{avail}}} \, \mathbb{E}\!\left[\text{LP}_{\text{student}}(\mathcal{T})\right]
+\tag{31}
+$$
+
+*Equation 32, Bespoke Embodied Question Answering Objective with a Length Penalty.*
+The article combines the log probability of the correct answer given the question and trajectory with a penalty on trajectory length weighted by $\lambda$.
+
+$$
+\pi^*(q) = \arg\max_\pi \, \mathbb{E}_{\tau \sim \pi(\cdot \mid q)}\!\left[\log p(a^* \mid q, \tau)\right] - \lambda \, |\tau|
+\tag{32}
+$$
+
+**Equation 33, Developmental State as a Dynamical System.**
+The developmental state evolves under a differential equation driven by environmental input and internal parameters.
+[Beer 1995][research_beer_1995]
+
+$$
+\dot{x} = f(x, u, \theta)
+\tag{33}
+$$
+
+**Equation 34, Bayesian Perceptual Inference.**
+Bayes' rule makes the posterior over hidden states proportional to the likelihood of the observation times the prior.
+
+$$
+p(s \mid o) \propto p(o \mid s) \, p(s)
+\tag{34}
+$$
+
+*Equation 35, Bespoke Synaptic Density Curve with Delayed Pruning.*
+The article fits a functional form of its own choosing to the course of synaptic density, a rising and decaying proliferation term less an exponential pruning term that begins at an onset time.
+
+$$
+\rho_{\text{synapse}}(t) = \rho_0 + \rho_1 t \, e^{-\alpha t} - \rho_2 \, \mathbb{1}[t > t_{\text{prune}}] \, (1 - e^{-\beta (t - t_{\text{prune}})})
+\tag{35}
+$$
+
+### Notation
+
+- $\mathcal{B}$, the body of the embodied agent
+- $\mathcal{E}$, the environment
+- $o_t$, the observation at time $t$
+- $a_t$, the action at time $t$
+- $\phi_t$, the developmental state at time $t$
+- $\theta_{\text{intrinsic}}$, the parameters of the intrinsic drives that shape exploration
+- $C_M$, the sensorimotor contingency of modality $M$
+- $\mathcal{A}_t$, the goal-outcome archive of an Intrinsically Motivated Goal Exploration Process
+- $\text{LP}$, learning progress, the recent decrease in prediction error
+- $\epsilon_t(x)$, the current prediction error on task or region $x$
+- $E(s)$, the empowerment of state $s$
+- $\mathbb{I}$, mutual information
+- $f(x)$, the learned forcing function of a dynamic movement primitive, a function of the phase variable $x$
+- $\phi_i(t)$, the $i$th motor primitive
+- $u_t$, the motor command at step $t$
+- $\epsilon_l$, the prediction error at hierarchical level $l$
+- $x_l$, the activity at hierarchical level $l$
+- $g_l$, the generative model mapping level $l+1$ to a prediction of level $l$
+- $q(s)$, the approximate posterior, or recognition distribution, over hidden states
+- $F$, the variational free energy
+- $G(\pi)$, the expected free energy of policy $\pi$
+- $\Pi_l$, the precision matrix at level $l$
+- $M_\psi$, the learned body schema with parameters $\psi$
+- $p_t(x)$, the training distribution at curriculum time $t$
+- $t_{\text{prune}}$, the onset time of synaptic pruning
 
 ## References
 

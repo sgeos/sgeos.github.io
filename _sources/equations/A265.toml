@@ -1,0 +1,567 @@
+# Equation classification for A265. Read by `python3 _lib/equations.py`.
+
+caution = "Returns, values and regret carry the units of the reward, the discount factor and all probabilities are dimensionless, and symbols such as $\\alpha$, $\\beta$, $\\eta$, $\\lambda$ and $\\gamma$ are reused with a different meaning in each framework, so every equation is read with the symbols defined beside it."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Update of the Established Public Baseline"
+gloss = "The article models the established public baseline as a recursive update from new empirical developments, with an institutional rate and an update function that admits findings once they meet the reproducibility criteria."
+cite = []
+digest = "ea76d4a297126377"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Markov Decision Process Tuple"
+gloss = "A Markov decision process is specified by its state space, action space, transition kernel, reward function, discount factor and initial state distribution."
+cite = ["book_bellman_1957", "book_howard_1960"]
+digest = "df5d2060fb60179e"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Discounted Return"
+gloss = "The return from a time step is the sum of all later rewards, each discounted geometrically by its delay."
+cite = []
+digest = "033f60f969f19e81"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Trajectory Distribution Induced by a Policy"
+gloss = "The probability of a trajectory is the initial state probability times the product of the policy and transition probabilities along it."
+cite = []
+digest = "eeecbc51974c6dc9"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Discounted State-Occupancy Measure"
+gloss = "The normalised discounted occupancy of a state is the discount-weighted sum of the probabilities of visiting it at each step."
+cite = []
+digest = "121b7ffd8cac91ff"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "State-Value Function"
+gloss = "The value of a state under a policy is the expected discounted return when starting from that state."
+cite = ["book_bellman_1957"]
+digest = "a874da9c7273ae6e"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Bellman Expectation Equation"
+gloss = "The value of a state equals the policy-weighted and transition-weighted average of the immediate reward plus the discounted value of the successor state."
+cite = ["book_bellman_1957"]
+digest = "488124c48616c446"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Action-Value Function"
+gloss = "The action value is the expected discounted return when starting from a state, taking a given action and following the policy thereafter."
+cite = []
+digest = "0f877e5b8075f738"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Advantage Function"
+gloss = "The advantage of an action is its action value minus the value of the state."
+cite = []
+digest = "975347c780290c81"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Bellman Optimality Equation for State Values"
+gloss = "The optimal value of a state is the maximum over actions of the expected immediate reward plus the discounted optimal value of the successor."
+cite = ["book_bellman_1957"]
+digest = "222d8b4c0c279297"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Bellman Optimality Equation for Action Values"
+gloss = "The optimal action value is the expected immediate reward plus the discounted maximum optimal action value in the successor state."
+cite = ["book_bellman_1957"]
+digest = "1a49d4975db66f9d"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Belief-State Update"
+gloss = "Under partial observability the belief is propagated through the transition model, reweighted by the observation likelihood and renormalised."
+cite = []
+digest = "f9b5042700566725"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Temporal-Difference Error"
+gloss = "The temporal-difference error is the reward plus the discounted value of the next state minus the value of the current state."
+cite = ["research_sutton_1988"]
+digest = "1fd4db42f003b8b4"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Temporal-Difference Value Update"
+gloss = "The value estimate of the current state moves toward its bootstrapped target by a step proportional to the temporal-difference error."
+cite = ["research_sutton_1988"]
+digest = "87acd088711246d8"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Q-Learning Update"
+gloss = "The off-policy Q-learning update moves an action value toward the reward plus the discounted maximum action value in the next state."
+cite = ["research_watkins_1989"]
+digest = "bad8d906aac350c3"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Policy Gradient Theorem"
+gloss = "The gradient of expected return is the expectation of the score function of the policy weighted by the action value."
+cite = ["research_williams_1992", "research_sutton_et_al_2000"]
+digest = "5fb338f29509338d"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Rescorla-Wagner Update"
+gloss = "The associative strength of each stimulus changes in proportion to the shared prediction error between the asymptote and the summed strength of all stimuli present."
+cite = ["research_rescorla_wagner_1972"]
+digest = "d2d9297a7ea58b97"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Lai-Robbins Regret Lower Bound"
+gloss = "Any consistent bandit algorithm incurs regret growing at least logarithmically in the horizon, with each suboptimal arm contributing its gap divided by its Kullback-Leibler divergence from the optimal arm."
+cite = ["research_lai_robbins_1985"]
+digest = "abbbfed223360c09"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Upper Confidence Bound Action Selection"
+gloss = "The upper confidence bound rule selects the arm whose empirical mean plus a confidence radius that shrinks with its pull count is largest."
+cite = ["research_auer_cesa_bianchi_fischer_2002"]
+digest = "d7a23c540ba5d899"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Thompson Sampling"
+gloss = "Thompson sampling draws model parameters from the posterior and acts greedily with respect to the draw."
+cite = ["research_thompson_1933"]
+digest = "a198e326ffc3db88"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Deep Q-Network Target-Network Loss"
+gloss = "The deep Q-network minimises the squared temporal-difference error on replayed transitions against a target computed with a separate slowly updated network."
+cite = ["research_mnih_et_al_2015"]
+digest = "4c635cfc5aa51016"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Proximal Policy Optimisation Clipped Objective"
+gloss = "Proximal policy optimisation takes the minimum of the ratio-weighted advantage and its clipped counterpart, which removes the incentive to move the policy far from its previous iterate."
+cite = ["research_schulman_et_al_2017"]
+digest = "40380e4e0b50941f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Maximum-Entropy Objective of Soft Actor-Critic"
+gloss = "Soft actor-critic maximises expected reward plus a temperature-weighted entropy of the policy at each visited state."
+cite = ["research_haarnoja_et_al_2018"]
+digest = "498b81677bf6b5ca"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Pseudocount Exploration Bonus"
+gloss = "The augmented reward adds a bonus inversely proportional to the square root of the pseudocount of the visited state."
+cite = ["research_bellemare_et_al_2016"]
+digest = "78dd274308b1b04b"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Prediction-Error Curiosity Reward"
+gloss = "The intrinsic reward is the scaled squared error of a forward model predicting the feature embedding of the next state."
+cite = ["research_pathak_et_al_2017"]
+digest = "273f7f58f83362b7"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Empowerment as Channel Capacity"
+gloss = "Empowerment is the maximum over action-sequence distributions of the mutual information between an $n$-step action sequence and the resulting state."
+cite = ["research_klyubin_polani_nehaniv_2005"]
+digest = "a9b10be09474085c"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Option Tuple"
+gloss = "An option comprises an initiation set, an intra-option policy and a termination condition."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "ba4d67a061dade97"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Semi-Markov Option Value Function"
+gloss = "The value of a state under a policy over options sums the discounted rewards accumulated while an option runs and the value of the state where it terminates, discounted by its duration."
+cite = ["research_sutton_precup_singh_1999"]
+digest = "76881dedfc66187d"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Dyna Interleaved Update"
+gloss = "Dyna learns transition and reward models from data and applies the Q-learning update to both real experience and experience simulated from the learned model."
+cite = ["research_sutton_1991"]
+digest = "65ccb64b95228501"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Conservative Q-Learning Penalty"
+gloss = "Conservative Q-learning adds to the temporal-difference loss a penalty that pushes down a soft maximum of action values while pushing up the values of actions in the dataset."
+cite = ["research_kumar_et_al_2020"]
+digest = "def36587f91571bc"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Behaviour-Regularised Policy Objective"
+gloss = "Behaviour regularisation maximises the action value under the learned policy minus a penalty on its divergence from the behaviour policy that generated the data."
+cite = ["research_levine_et_al_2020"]
+digest = "f61f2e544fb37177"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Model-Agnostic Meta-Learning Objective"
+gloss = "Model-agnostic meta-learning chooses initial parameters that minimise the summed task losses after one inner gradient step on each task."
+cite = ["research_finn_abbeel_levine_2017"]
+digest = "442f7a83a9c5ae62"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Elastic Weight Consolidation Loss"
+gloss = "Elastic weight consolidation adds to the new-task loss a quadratic penalty on each parameter's departure from its old-task value, weighted by the Fisher information."
+cite = ["research_kirkpatrick_et_al_2017"]
+digest = "d595adb5110b52d0"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Behaviour Cloning Objective"
+gloss = "Behaviour cloning fits the policy by maximising the log-likelihood of expert actions given expert states."
+cite = []
+digest = "eed1f29b87861e62"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Generative Adversarial Imitation Learning Objective"
+gloss = "Generative adversarial imitation learning trains a discriminator to separate policy and expert state-action pairs while the policy minimises the discriminator objective less an entropy bonus."
+cite = ["research_ho_ermon_2016"]
+digest = "7d085340dac0cd3f"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Maximum-Entropy Inverse Reinforcement Learning Trajectory Model"
+gloss = "Maximum-entropy inverse reinforcement learning makes the probability of a trajectory proportional to the exponential of its summed learned reward."
+cite = ["research_ziebart_et_al_2008"]
+digest = "813cf9888a095cd6"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Bradley-Terry Trajectory Preference Model"
+gloss = "The probability that one trajectory segment is preferred to another is a softmax over their summed predicted rewards."
+cite = ["research_christiano_et_al_2017"]
+digest = "59779d319931a85a"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Evolution Strategies Gradient Estimator"
+gloss = "The gradient of the Gaussian-smoothed fitness equals the expectation of the fitness of a perturbed parameter vector times the perturbation, divided by the noise scale."
+cite = ["research_salimans_et_al_2017"]
+digest = "194aef4320f6a389"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "MAP-Elites Archive Cell"
+gloss = "Each cell of the Multi-dimensional Archive of Phenotypic Elites retains the fittest solution found whose behaviour falls in that cell."
+cite = ["research_mouret_clune_2015"]
+digest = "72799321159831fa"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Chinchilla Parametric Scaling Law"
+gloss = "Loss is an irreducible term plus separate power-law terms that fall with parameter count and with training-token count."
+cite = ["research_hoffmann_et_al_2022"]
+digest = "9095fc62c02c9001"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Compute-Optimal Allocation"
+gloss = "For a fixed compute budget the loss-minimising parameter count and token count each scale as a power of the budget."
+cite = ["research_hoffmann_et_al_2022"]
+digest = "bfa2d4fde64646cc"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Conditional Value at Risk of the Return"
+gloss = "The conditional value at risk is the expected return conditioned on falling at or below its lower quantile at level $\\alpha$."
+cite = []
+digest = "1a881c5c2cfb3a41"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Dopamine Reward Prediction Error Correspondence"
+gloss = "The phasic firing of midbrain dopamine neurons is proportional to the temporal-difference error."
+cite = ["research_schultz_dayan_montague_1997"]
+digest = "32c5a70baaaf200f"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Hierarchical Predictive Coding Update"
+gloss = "Each level carries the residual between its representation and the top-down prediction from the level above, and its representation moves to reduce its own error and the error it leaves in the level below."
+cite = ["research_rao_ballard_1999"]
+digest = "4731d57e23750c55"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Successor Representation"
+gloss = "The successor representation is the expected discounted number of future visits to each state from a starting state under the policy."
+cite = ["research_dayan_1993"]
+digest = "edfbdfab8acc7fd7"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Value Factorised Through the Successor Representation"
+gloss = "The value of a state is the successor representation applied to the state reward vector."
+cite = ["research_dayan_1993"]
+digest = "e13b3e1b6388c8cf"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Variational Free Energy"
+gloss = "Free energy is the expected log ratio of the approximate posterior to the joint, equal to the Kullback-Leibler divergence from the true posterior minus the log evidence, so it bounds surprise from above."
+cite = ["research_friston_2010"]
+digest = "313b27c2dfc0a69e"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Prospect Theory Value Function"
+gloss = "The value function is a power function that is concave for gains and convex and steeper for losses, with the loss-aversion coefficient scaling the loss branch."
+cite = ["research_kahneman_tversky_1979"]
+digest = "4e36954c5a71d921"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Prospect Theory Probability Weighting Function"
+gloss = "The one-parameter weighting function of cumulative prospect theory overweights small probabilities and underweights moderate and large ones."
+cite = []
+digest = "849260ea653a7212"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Bayes' Rule over a Hypothesis Space"
+gloss = "The posterior over hypotheses is the likelihood times the prior normalised over the structured hypothesis space."
+cite = ["research_tenenbaum_et_al_2011"]
+digest = "d4a8c6acfab6b98b"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Exponential Forgetting Curve"
+gloss = "Retention decays exponentially from its initial value with a single memory time constant, the textbook simplification of the forgetting curve."
+cite = []
+digest = "0055d9c68471af16"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Spacing-Dependent Power-Law Retention"
+gloss = "The article writes retention as a power law in the ratio of the retention interval to the study spacing, a form it supplies rather than the fit reported in the cited meta-analysis."
+cite = []
+digest = "13790dbf89388867"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Chinchilla Parametric Scaling Law Restated"
+gloss = "The same parametric law expresses loss as an irreducible term plus power-law terms in parameter count and training-token count."
+cite = ["research_hoffmann_et_al_2022"]
+digest = "9095fc62c02c9001"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Optimal Policy as Maximiser of Expected Discounted Return"
+gloss = "The optimal policy is the policy that maximises the expected discounted return, the objective that the reward-is-enough thesis holds to be sufficient for intelligence."
+cite = ["research_silver_et_al_2021"]
+digest = "cbf0493d44846923"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Tabular Sample Complexity Bound"
+gloss = "The number of samples needed for an $\\epsilon$-optimal policy in a tabular problem scales with the number of state-action pairs, the inverse cube of one minus the discount and the inverse square of the accuracy, up to logarithmic factors."
+cite = []
+digest = "34f79466159411a9"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Optimal Policy Restated for the Reward Hypothesis"
+gloss = "The strong form of the reward hypothesis holds that any goal-directed behaviour of interest is the policy maximising expected discounted return for some reward specification."
+cite = ["research_silver_et_al_2021"]
+digest = "cbf0493d44846923"
+
+[[symbol]]
+tex = 'B_t'
+meaning = "the established public baseline at time $t$"
+
+[[symbol]]
+tex = 'E_t'
+meaning = "the empirical developments in the intervening period"
+
+[[symbol]]
+tex = '\mu_0'
+meaning = "the initial state distribution"
+
+[[symbol]]
+tex = 'G_t'
+meaning = "the discounted return from step $t$"
+
+[[symbol]]
+tex = 'd^\pi(s)'
+meaning = "the normalised discounted state-occupancy measure of policy $\\pi$"
+
+[[symbol]]
+tex = 'V^\pi(s)'
+meaning = "the state-value function of policy $\\pi$"
+
+[[symbol]]
+tex = 'Q^\pi(s, a)'
+meaning = "the action-value function of policy $\\pi$"
+
+[[symbol]]
+tex = 'A^\pi(s, a)'
+meaning = "the advantage function of policy $\\pi$"
+
+[[symbol]]
+tex = 'b_t(s)'
+meaning = "the belief state, a probability distribution over hidden states at step $t$"
+
+[[symbol]]
+tex = '\delta_t'
+meaning = "the temporal-difference error at step $t$"
+
+[[symbol]]
+tex = 'R_T'
+meaning = "the cumulative regret over horizon $T$"
+
+[[symbol]]
+tex = '\Delta_a'
+meaning = "the suboptimality gap of arm $a$"
+
+[[symbol]]
+tex = 'N_a(t)'
+meaning = "the number of pulls of arm $a$ up to round $t$"
+
+[[symbol]]
+tex = 'Q_{\theta^-}'
+meaning = "the target network's action-value estimate"
+
+[[symbol]]
+tex = '\rho_t(\theta)'
+meaning = "the ratio of the new to the old policy probability of the taken action"
+
+[[symbol]]
+tex = '\hat{A}_t'
+meaning = "the advantage estimate at step $t$"
+
+[[symbol]]
+tex = '\mathcal{H}'
+meaning = "the entropy of a policy in the objectives of equations 23 and 35, and the hypothesis space in equation 50"
+
+[[symbol]]
+tex = '\hat{N}(s_t)'
+meaning = "the pseudocount of the visited state"
+
+[[symbol]]
+tex = '\mathfrak{E}(s)'
+meaning = "the empowerment of state $s$"
+
+[[symbol]]
+tex = '\pi_\beta'
+meaning = "the behaviour policy that generated the offline dataset"
+
+[[symbol]]
+tex = 'F_i'
+meaning = "the diagonal Fisher information of parameter $i$ on the old task"
+
+[[symbol]]
+tex = '\mathcal{D}_E'
+meaning = "the dataset of expert demonstrations"
+
+[[symbol]]
+tex = 'L(N, D)'
+meaning = "the loss as a function of parameter count $N$ and training-token count $D$"
+
+[[symbol]]
+tex = 'q_\alpha(G)'
+meaning = "the lower $\\alpha$-quantile of the return distribution"
+
+[[symbol]]
+tex = "M^\\pi(s, s')"
+meaning = "the successor representation of policy $\\pi$"
+
+[[symbol]]
+tex = 'g_l'
+meaning = "the top-down generative model at level $l$"
+
+[[symbol]]
+tex = 'v(x)'
+meaning = "the prospect theory value of an outcome $x$"
+
+[[symbol]]
+tex = 'w(p)'
+meaning = "the prospect theory decision weight of probability $p$"
+
+[[symbol]]
+tex = 'R(t, s)'
+meaning = "the retention at time $t$ after a study session with spacing $s$"

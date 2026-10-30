@@ -1,0 +1,383 @@
+# Equation classification for A262. Read by `python3 _lib/equations.py`.
+
+caution = "Most equations are schematic relations between functions, distributions and states rather than numerical laws, so they carry no physical units, and a symbol such as $\\tau$, $\\alpha$ or $\\theta$ is reused across sections with the meaning its own section gives it."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Sensorimotor Coupling of Body, Nervous System and Environment"
+gloss = "The article frames the embodied agent as a triple of body, nervous system and environment, with observation passing through the body's sensors and action through its actuators."
+cite = []
+digest = "63e76fc42236c5db"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Developmental State as a Function of Sensorimotor History"
+gloss = "The article writes the developmental state as a transition function of the initial state, the whole history of observations and actions, and the parameters of the intrinsic drives."
+cite = []
+digest = "c8f0751fc4dac2d6"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Affordance as a Thresholded Set of Successful Actions"
+gloss = "The article formalises a Gibsonian affordance as the set of actions whose probability of success for a given body and object exceeds a chosen threshold $\\tau$."
+cite = []
+digest = "0cc5ba3ea0fe5f25"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Coupled Dynamics of Agent and Environment"
+gloss = "Agent and environment are written as two dynamical systems, each of whose rate of change depends on the state of the other, which is the common formalism of dynamical approaches to enactive cognition."
+cite = []
+digest = "1cb8f2da18623aa4"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Sensorimotor Contingency of a Modality"
+gloss = "The article formalises the sensorimotor contingency of a modality as the expected change in observation that an action produces from the current observation."
+cite = []
+digest = "262131463194db37"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Mastery of a Sensorimotor Contingency"
+gloss = "The article defines mastery as the negative expected squared error between the true contingency and the agent's learned model of it, a figure of merit it introduces."
+cite = []
+digest = "1bfdb10b15f24e22"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Dimension of the Compensable Subspace"
+gloss = "The article restates the result of Philipona and colleagues as an equality between the dimension of the kernel of the difference of two sensory Jacobians and the number of external spatial degrees of freedom."
+cite = ["research_philipona_oregan_nadal_2003"]
+digest = "76a4984ef76def82"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Intrinsically Motivated Goal Exploration Process Iteration"
+gloss = "An Intrinsically Motivated Goal Exploration Process samples a goal from the archive, executes a goal-conditioned policy and adds the goal with the achieved behavioural descriptor to the archive."
+cite = ["research_forestier_et_al_2022_imgep"]
+digest = "a545a995f311f3cd"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Learning Progress over a Sliding Window"
+gloss = "Learning progress on a task or region is the decrease in the norm of the prediction error between the start and the end of a window of length $w$."
+cite = ["research_oudeyer_kaplan_hafner_2007"]
+digest = "39d591c49dd78b38"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Empowerment as Channel Capacity"
+gloss = "Empowerment at a state is the channel capacity from a sequence of $n$ actions to the resulting state, the mutual information maximised over distributions of action sequences."
+cite = ["research_klyubin_polani_nehaniv_2005_empowerment"]
+digest = "e13e5184740e2728"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Degrees of Freedom Problem"
+gloss = "The dimension of the task-relevant subspace is far smaller than that of the motor-command space, which is the redundancy that Bernstein identified as the central problem of motor coordination."
+cite = ["book_bernstein_1967"]
+digest = "4c6ee5a22bfd2dfc"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Dynamic Movement Primitive Transformation System"
+gloss = "A Dynamic Movement Primitive is a damped spring pulled toward the goal plus a learned forcing function of a phase variable that decays over the movement."
+cite = ["research_ijspeert_et_al_2013_dmp_a262"]
+digest = "142f998d5e1167a6"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Superposition of Motor Primitives"
+gloss = "Motor output is a weighted superposition of a small repertoire of primitive fields."
+cite = ["research_mussa_ivaldi_solla_2004"]
+digest = "b1e1f9ead2c2b0c3"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Forward Model of Motor Control"
+gloss = "A forward model predicts the next sensory state from the current state and the motor command."
+cite = ["research_wolpert_ghahramani_jordan_1995"]
+digest = "841c6c75f9e0a4bb"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Inverse Model of Motor Control"
+gloss = "An inverse model produces the motor command expected to carry the current state to a desired next state."
+cite = ["research_wolpert_ghahramani_jordan_1995"]
+digest = "df5df9a62ed2b5e3"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Transitional Probability Between Syllables"
+gloss = "The transitional probability from one syllable to the next is the count of the pair divided by the count of the first syllable, and word boundaries fall at its local minima."
+cite = ["research_saffran_aslin_newport_1996"]
+digest = "83417e1e1c6e9f56"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Associative Co-occurrence Update for Cross-Situational Word Learning"
+gloss = "The associative strength of a word and a referent grows by a learning rate each time the pair co-occurs in a labelling scene."
+cite = ["research_yu_smith_2007"]
+digest = "f3e99114dfe3c0fd"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Hierarchical Bayesian Posterior over Category Hypotheses"
+gloss = "The posterior over a category hypothesis is proportional to the likelihood of the examples times a prior governed by hyperparameters that carry their own prior."
+cite = ["research_xu_tenenbaum_2007"]
+digest = "5c12dfbd37a0a360"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Perceptual Narrowing Trajectory"
+gloss = "The article writes discrimination sensitivity between two categories as an unspecified narrowing function of age and of exposure to the distinction."
+cite = []
+digest = "e9076f5df30a058f"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Threshold Rule for Assimilation and Accommodation"
+gloss = "The article formalises Piagetian assimilation and accommodation as a schema update that adds an observation when a fit measure exceeds a chosen threshold and modifies the schema otherwise."
+cite = []
+digest = "0506cdd30c650246"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Intuitive Physics Engine Prediction by Marginalisation"
+gloss = "The predicted outcome of a scene is the simulated outcome averaged over the posterior on the scene state and the prior on the physical parameters."
+cite = ["research_battaglia_hamrick_tenenbaum_2013"]
+digest = "e2c3e31620918026"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Bayesian Posterior over Word-Referent Mappings"
+gloss = "Bayes' rule gives the posterior over a word-referent mapping from the likelihood of the word, the likelihood of the referent context and the prior on the mapping."
+cite = ["research_frank_tenenbaum_fernald_2013"]
+digest = "c67136efdfedea7b"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Hard Mutual-Exclusivity Constraint"
+gloss = "The article writes mutual exclusivity as an indicator that sets to zero the probability of any meaning already assigned to another word, a hard exclusion rather than a graded bias."
+cite = []
+digest = "66c4c1a7467d8bf8"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Hierarchical Prediction Error"
+gloss = "In hierarchical predictive coding each level's prediction error is its activity minus the prediction that the generative model of the level above supplies."
+cite = ["research_rao_ballard_1999"]
+digest = "1b181bf5ad9b9d3d"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Variational Free Energy"
+gloss = "Variational free energy is the expectation under the approximate posterior of the log approximate posterior minus the log joint of observations and hidden states."
+cite = ["research_friston_2010_fep"]
+digest = "e14a4618fcabe1e1"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Free Energy as Divergence plus Surprisal"
+gloss = "Free energy equals the Kullback-Leibler divergence from the approximate to the true posterior plus the negative log evidence, so it bounds the surprisal from above."
+cite = ["research_friston_2010_fep"]
+digest = "f622b1c3e39177a4"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Expected Free Energy of a Policy"
+gloss = "The expected free energy of a policy is split into a pragmatic term on the log preference for predicted observations and an epistemic term on the uncertainty of hidden states."
+cite = ["research_friston_et_al_2015_active_inference"]
+digest = "9f826f5a937ce68e"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Precision-Weighted Prediction Error"
+gloss = "The prediction error at each level is multiplied by a precision matrix that encodes the expected reliability of the evidence."
+cite = ["research_feldman_friston_2010"]
+digest = "dcf818a56fa74524"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Learned Body Schema as a Forward Model"
+gloss = "A self-modelling robot learns its body schema as a mapping from the current observation and motor command to the expected next sensor reading."
+cite = ["research_bongard_zykov_lipson_2006_a262"]
+digest = "a20b143696ef6372"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke General Curriculum Objective"
+gloss = "The article writes curriculum learning as the expected loss under a training distribution that shifts with a time index drawn from the schedule."
+cite = []
+digest = "680b2f101f6d76b0"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Greedy Teacher Selecting by Expected Learning Progress"
+gloss = "The article writes the teacher as greedily choosing the available task of greatest expected student learning progress, a simplification of teachers that in practice sample tasks stochastically."
+cite = []
+digest = "30b8c6955646d1bb"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Embodied Question Answering Objective with a Length Penalty"
+gloss = "The article combines the log probability of the correct answer given the question and trajectory with a penalty on trajectory length weighted by $\\lambda$."
+cite = []
+digest = "31529e506947029f"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Developmental State as a Dynamical System"
+gloss = "The developmental state evolves under a differential equation driven by environmental input and internal parameters."
+cite = ["research_beer_1995"]
+digest = "7fd1e4a12651d4bd"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Bayesian Perceptual Inference"
+gloss = "Bayes' rule makes the posterior over hidden states proportional to the likelihood of the observation times the prior."
+cite = []
+digest = "8c440e2919bf5be3"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Synaptic Density Curve with Delayed Pruning"
+gloss = "The article fits a functional form of its own choosing to the course of synaptic density, a rising and decaying proliferation term less an exponential pruning term that begins at an onset time."
+cite = []
+digest = "ba847ed563d963e0"
+
+[[symbol]]
+tex = '\mathcal{B}'
+meaning = "the body of the embodied agent"
+
+[[symbol]]
+tex = '\mathcal{E}'
+meaning = "the environment"
+
+[[symbol]]
+tex = 'o_t'
+meaning = "the observation at time $t$"
+
+[[symbol]]
+tex = 'a_t'
+meaning = "the action at time $t$"
+
+[[symbol]]
+tex = '\phi_t'
+meaning = "the developmental state at time $t$"
+
+[[symbol]]
+tex = '\theta_{\text{intrinsic}}'
+meaning = "the parameters of the intrinsic drives that shape exploration"
+
+[[symbol]]
+tex = 'C_M'
+meaning = "the sensorimotor contingency of modality $M$"
+
+[[symbol]]
+tex = '\mathcal{A}_t'
+meaning = "the goal-outcome archive of an Intrinsically Motivated Goal Exploration Process"
+
+[[symbol]]
+tex = '\text{LP}'
+meaning = "learning progress, the recent decrease in prediction error"
+
+[[symbol]]
+tex = '\epsilon_t(x)'
+meaning = "the current prediction error on task or region $x$"
+
+[[symbol]]
+tex = 'E(s)'
+meaning = "the empowerment of state $s$"
+
+[[symbol]]
+tex = '\mathbb{I}'
+meaning = "mutual information"
+
+[[symbol]]
+tex = 'f(x)'
+meaning = "the learned forcing function of a dynamic movement primitive, a function of the phase variable $x$"
+
+[[symbol]]
+tex = '\phi_i(t)'
+meaning = "the $i$th motor primitive"
+
+[[symbol]]
+tex = 'u_t'
+meaning = "the motor command at step $t$"
+
+[[symbol]]
+tex = '\epsilon_l'
+meaning = "the prediction error at hierarchical level $l$"
+
+[[symbol]]
+tex = 'x_l'
+meaning = "the activity at hierarchical level $l$"
+
+[[symbol]]
+tex = 'g_l'
+meaning = "the generative model mapping level $l+1$ to a prediction of level $l$"
+
+[[symbol]]
+tex = 'q(s)'
+meaning = "the approximate posterior, or recognition distribution, over hidden states"
+
+[[symbol]]
+tex = 'F'
+meaning = "the variational free energy"
+
+[[symbol]]
+tex = 'G(\pi)'
+meaning = "the expected free energy of policy $\\pi$"
+
+[[symbol]]
+tex = '\Pi_l'
+meaning = "the precision matrix at level $l$"
+
+[[symbol]]
+tex = 'M_\psi'
+meaning = "the learned body schema with parameters $\\psi$"
+
+[[symbol]]
+tex = 'p_t(x)'
+meaning = "the training distribution at curriculum time $t$"
+
+[[symbol]]
+tex = 't_{\text{prune}}'
+meaning = "the onset time of synaptic pruning"

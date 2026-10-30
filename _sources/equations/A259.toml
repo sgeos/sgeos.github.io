@@ -1,0 +1,411 @@
+# Equation classification for A259. Read by `python3 _lib/equations.py`.
+
+caution = "Accuracies and transfer measures are dimensionless proportions indexed first by the task trained through and second by the task evaluated, losses and importance weights are dimensionless, and the weights $\\lambda$, $\\alpha$, $\\beta$ and $\\gamma$ are reused with different meanings in different sections, so each is read in the section where it appears."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Sequence of Tasks"
+gloss = "Continual learning is posed over a sequence of tasks or data distributions that arrive over time."
+cite = []
+digest = "b709f2b49d55a41f"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Stream of Task Datasets"
+gloss = "Each task contributes a dataset to a stream, of which the learner sees only the current one at any time."
+cite = []
+digest = "96a5581fdbeb8077"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Continual Learning Objective over Tasks Seen"
+gloss = "The ideal parameters minimise the summed loss over every task observed so far, although training has access only to the current task's loss."
+cite = []
+digest = "b19f629340625ae6"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Average Accuracy after Task k"
+gloss = "Average accuracy is the mean test accuracy over all tasks seen, measured after training through task $k$."
+cite = ["research_lopez_paz_ranzato_2017_gem"]
+digest = "4c61c6bad4e0de7a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Backward Transfer"
+gloss = "Backward transfer averages, over earlier tasks, the change in accuracy between the moment each task was learned and the end of training through task $k$."
+cite = ["research_lopez_paz_ranzato_2017_gem"]
+digest = "612008581e4d0399"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Forward Transfer"
+gloss = "Forward transfer averages the accuracy on each task before it is trained, less the accuracy of an untrained reference model on that task."
+cite = ["research_lopez_paz_ranzato_2017_gem"]
+digest = "722d295185bc4fcf"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Average Forgetting"
+gloss = "Forgetting averages, over earlier tasks, the drop from the best accuracy ever reached on each task to its accuracy after task $k$."
+cite = ["research_chaudhry_et_al_2018_riemannian_walk"]
+digest = "a0497246f2ab55a8"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Inequality Characterising Catastrophic Forgetting"
+gloss = "The article formalises catastrophic forgetting as the loss on an earlier task after later sequential training greatly exceeding its loss when that task was learned, a qualitative statement it chose rather than a measured relation."
+cite = []
+digest = "c7598e8ec8f02676"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Gradient Cosine Similarity between Tasks"
+gloss = "The cosine of the angle between two task gradients measures interference, negative for conflicting demands and positive for aligned ones."
+cite = []
+digest = "b01b7ce8682c8108"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Stability-Plasticity Objective Template"
+gloss = "The article frames practical continual learning methods as a plasticity loss plus a weighted stability regulariser, a template whose regulariser it uses to sort the algorithmic families."
+cite = []
+digest = "3188af2ce428bbd4"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke General Form of Regularisation-Based Methods"
+gloss = "The article writes the regularisation family as the current task loss plus a weighted penalty on departure from each earlier task's solution, a template that the specific methods then instantiate."
+cite = []
+digest = "f5a2cd13f7cff800"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Elastic Weight Consolidation Penalty"
+gloss = "Elastic Weight Consolidation penalises the squared change of each parameter from an earlier task's solution, weighted by its diagonal Fisher information."
+cite = ["research_kirkpatrick_et_al_2017_ewc"]
+digest = "bcb81469ffa6aa7d"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Diagonal Fisher Information"
+gloss = "The diagonal Fisher information of a parameter is the expected square of the derivative of the log-likelihood with respect to it over the task's data."
+cite = ["research_kirkpatrick_et_al_2017_ewc"]
+digest = "77d5acd6e3a52df8"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Synaptic Intelligence Path-Integral Importance"
+gloss = "Synaptic Intelligence accumulates the importance of a parameter as the path integral of its loss gradient times its update velocity during training on a task."
+cite = ["research_zenke_poole_ganguli_2017_si"]
+digest = "b5743220399bbf73"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Memory-Aware Synapses Importance"
+gloss = "Memory-Aware Synapses estimate importance without labels as the expected magnitude of the derivative of the squared output norm with respect to each parameter."
+cite = ["research_aljundi_et_al_2018_mas"]
+digest = "309406d336b4fb7f"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Learning without Forgetting Objective"
+gloss = "Learning without Forgetting adds to the new task loss a weighted Kullback-Leibler divergence, abbreviated KL, between the outputs of the pre-update and current networks on the new task's inputs."
+cite = ["research_li_hoiem_2017_lwf"]
+digest = "823459058be8cf7f"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Variational Continual Learning Recursion"
+gloss = "Variational Continual Learning takes the approximate posterior after the previous task as the prior for the next, so the new posterior is proportional to the new likelihood times that approximation."
+cite = ["research_nguyen_et_al_2018_vcl"]
+digest = "b205f3627b0f57b8"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Online EWC Fisher Recursion"
+gloss = "Online Elastic Weight Consolidation keeps a single running Fisher estimate, decayed by $\\gamma$ before the new task's Fisher is added."
+cite = ["research_schwarz_et_al_2018_online_ewc"]
+digest = "670ee0bb7026577c"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Riemannian Walk Parameter Importance"
+gloss = "Riemannian Walk combines a path integral along the training trajectory with the Fisher information, stabilised by a small constant, into a single importance per parameter."
+cite = ["research_chaudhry_et_al_2018_riemannian_walk"]
+digest = "308178ce6085b9b8"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke General Form of Replay-Based Methods"
+gloss = "The article writes the replay family as the current task loss plus a weighted loss on buffered exemplars from earlier tasks, a template that the specific methods then instantiate."
+cite = []
+digest = "5f1539b331a03fa8"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Gradient Episodic Memory Constraint"
+gloss = "Gradient Episodic Memory requires the current task gradient to have a non-negative inner product with the gradient on every earlier task's memory."
+cite = ["research_lopez_paz_ranzato_2017_gem"]
+digest = "f90d4af816b43e9a"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Averaged GEM Constraint"
+gloss = "Averaged Gradient Episodic Memory replaces the per-task constraints with one constraint against the mean of the earlier tasks' memory gradients."
+cite = ["research_chaudhry_et_al_2019_agem"]
+digest = "3539e8020f5ecb2b"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Reservoir Sampling Retention Probability"
+gloss = "Reservoir sampling keeps the $i$th sample in a buffer of size $M$ with probability $M/i$, capped at one, which yields a uniform random sample of the stream."
+cite = ["research_chaudhry_et_al_2019_er"]
+digest = "0d92edde00b032c2"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Dark Experience Replay Objective"
+gloss = "Dark Experience Replay adds a weighted squared error between current outputs and stored logits on buffered inputs, and a weighted cross-entropy on buffered labels, to the current task loss."
+cite = ["research_buzzega_et_al_2020_der"]
+digest = "2f9543ebea4521ca"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Meta Experience Replay Outer Update"
+gloss = "Meta Experience Replay moves the parameters a fraction $\\gamma$ toward the result of $s$ inner steps on a mixed batch of current and memory samples, in the manner of Reptile."
+cite = ["research_riemer_et_al_2019_mer"]
+digest = "2a047595b10189ef"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "iCaRL Herding Exemplar Selection"
+gloss = "Incremental Classifier and Representation Learning, known as iCaRL, chooses the exemplars of a class whose mean feature lies closest to the class feature mean."
+cite = ["research_rebuffi_et_al_2017_icarl"]
+digest = "99c3caba6f815cbb"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Progressive Network Layer with Lateral Connections"
+gloss = "Each layer of the column for task $k$ combines its own previous layer with lateral inputs from the frozen columns of earlier tasks."
+cite = ["research_rusu_et_al_2016_progressive_cl"]
+digest = "fce79e971b9b5cc1"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "PackNet Task Mask"
+gloss = "PackNet obtains the parameters of task $k$ by an elementwise product of the shared parameters with a stored binary mask."
+cite = ["research_mallya_lazebnik_2018_packnet"]
+digest = "83ae87195781d677"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Hard Attention to the Task Gate"
+gloss = "Hard Attention to the Task gates each layer's activations by a sigmoid of a task embedding scaled by an annealed factor $s$ that drives the gate toward binary values."
+cite = ["research_serra_et_al_2018_hat"]
+digest = "410127a40c59f458"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Online-Aware Meta-Learning Objective"
+gloss = "Online-aware Meta-Learning chooses representation parameters so that sequential gradient steps on a linear head over that representation keep the loss low across the sequence."
+cite = ["research_javed_white_2019_oml"]
+digest = "a088a92cd0a35c1a"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "ANML Neuromodulatory Gating"
+gloss = "A Neuromodulated Meta-Learning Algorithm, known as ANML, multiplies the forward pass elementwise by gates that a neuromodulatory network computes from the input."
+cite = ["research_beaulieu_et_al_2020_anml"]
+digest = "be9cde0fa7ae61ee"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "CLEAR Objective"
+gloss = "Continual Learning with Experience And Replay, known as CLEAR, adds weighted behaviour-cloning and KL terms on replayed trajectories to the V-trace actor-critic loss."
+cite = ["research_rolnick_et_al_2019_clear"]
+digest = "0d2216674bfbb318"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "V-Trace Value Target"
+gloss = "The V-trace target corrects the value estimate by discounted temporal-difference residuals weighted by products of truncated importance-sampling ratios."
+cite = []
+digest = "17cb43cd6922a771"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Maximally Interfered Retrieval Criterion"
+gloss = "Maximally Interfered Retrieval replays the buffered samples whose loss would rise most under the anticipated parameters after the current gradient step."
+cite = ["research_aljundi_et_al_2019_mir"]
+digest = "e97fa085eb202432"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "DualPrompt Prediction with Frozen Backbone"
+gloss = "DualPrompt feeds a frozen pretrained backbone the input together with a general prompt shared across tasks and an expert prompt for the current task, and trains only the prompts."
+cite = ["research_wang_et_al_2022_dualprompt"]
+digest = "693011a8dfbda117"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Neural Tangent Kernel"
+gloss = "The neural tangent kernel is the expected inner product of the parameter gradients of the network output at two inputs, which fixes the network's behaviour in the infinite-width limit."
+cite = ["research_bennani_doan_sugiyama_2020", "research_doan_et_al_2021_ntk"]
+digest = "928a411b1e2c6053"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Kernel Task-Similarity Coefficient"
+gloss = "The article measures task similarity as the normalised Frobenius inner product of the neural tangent kernel blocks of two tasks, a summary it uses to predict mutual forgetting."
+cite = []
+digest = "c0d86303f3135878"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Largest Hessian Eigenvalue at a Task Optimum"
+gloss = "The largest Hessian eigenvalue at an earlier task's optimum is the maximum of the Rayleigh quotient over unit vectors and measures the sharpness of that minimum."
+cite = ["research_mirzadeh_et_al_2020"]
+digest = "e600ee2eb69d03b0"
+
+[[symbol]]
+tex = '\mathcal{T}_k'
+meaning = "the $k$th task in the sequence"
+
+[[symbol]]
+tex = '\mathcal{D}_k'
+meaning = "the training data of task $k$"
+
+[[symbol]]
+tex = 'L_{\mathcal{T}_k}'
+meaning = "the loss on task $k$"
+
+[[symbol]]
+tex = '\theta_i^*'
+meaning = "the parameters reached at the end of training on task $i$"
+
+[[symbol]]
+tex = 'a_{k,i}'
+meaning = "the test accuracy on task $i$ after training through task $k$"
+
+[[symbol]]
+tex = '\tilde{a}_i'
+meaning = "the accuracy of an untrained reference model on task $i$"
+
+[[symbol]]
+tex = '\rho_{i, k}'
+meaning = "the gradient cosine similarity between tasks $i$ and $k$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the weight on a stability, distillation or replay term"
+
+[[symbol]]
+tex = 'F_{i,j}'
+meaning = "the diagonal Fisher information of parameter $j$ for task $i$"
+
+[[symbol]]
+tex = '\omega_{i,j}'
+meaning = "the Synaptic Intelligence importance of parameter $j$ for task $i$"
+
+[[symbol]]
+tex = '\Omega_{i,j}'
+meaning = "the Memory-Aware Synapses importance of parameter $j$ for task $i$"
+
+[[symbol]]
+tex = 'f_\theta'
+meaning = "the network with parameters $\\theta$"
+
+[[symbol]]
+tex = 'D_{\text{KL}}'
+meaning = "the Kullback-Leibler divergence"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the Online EWC decay factor, the Meta Experience Replay step size and the discount factor in V-trace"
+
+[[symbol]]
+tex = '\mathcal{M}'
+meaning = "the replay memory buffer"
+
+[[symbol]]
+tex = 'g_i'
+meaning = "the gradient of the loss on the memory for task $i$"
+
+[[symbol]]
+tex = 'M'
+meaning = "the buffer size in reservoir sampling"
+
+[[symbol]]
+tex = '\varphi_\theta'
+meaning = "the feature extractor"
+
+[[symbol]]
+tex = '\mu_c'
+meaning = "the feature mean of class $c$"
+
+[[symbol]]
+tex = 'm^{(k)}'
+meaning = "the binary parameter mask of task $k$"
+
+[[symbol]]
+tex = 'e_l^{(k)}'
+meaning = "the task-gate embedding of task $k$ at layer $l$"
+
+[[symbol]]
+tex = 'c_j'
+meaning = "the truncated importance-sampling ratio in V-trace"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the behaviour policy of a buffered trajectory"
+
+[[symbol]]
+tex = 'p_g'
+meaning = "the general prompt shared across tasks"
+
+[[symbol]]
+tex = 'p_e^{(k)}'
+meaning = "the expert prompt of task $k$"
+
+[[symbol]]
+tex = "K(x, x')"
+meaning = "the neural tangent kernel"
