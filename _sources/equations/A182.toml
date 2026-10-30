@@ -1,0 +1,251 @@
+# Equation classification for A182. Read by `python3 _lib/equations.py`.
+
+caution = "Sprite-local coordinates are in sprite pixels about the anchor, screen coordinates are in pixels with $y$ increasing downward, depth is in world units along the camera forward axis, and the scale factor is screen pixels per sprite pixel, so the anchor point $\\mathbf{c}$ is a screen position and not the camera."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Sprite-Local Pixel Position"
+gloss = "A pixel of the sprite is located by its coordinates in the local frame of the sprite, ranging over its pixel extent."
+cite = []
+digest = "e7d2832115be0912"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Sprite Depth from the Camera"
+gloss = "The depth of the sprite is the difference between its depth coordinate and that of the camera, which must be positive for the sprite to be drawn."
+cite = []
+digest = "722d880f0b48077c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Perspective Sprite Scale"
+gloss = "The sprite scale is the focal length divided by the depth, so a sprite at a depth equal to the focal length renders at unit scale."
+cite = []
+digest = "c1491befdf3ca0c4"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Screen Anchor of a Sprite"
+gloss = "The anchor pixel of the sprite is placed by perspective projection of its world position, offset from the screen centre column and the horizon row by the scale times the camera-relative position."
+cite = []
+digest = "216519a55cead1e4"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Sprite-Plane Rotation Matrix"
+gloss = "The sprite-plane rotation is the standard two-dimensional rotation by the gameplay orientation angle."
+cite = []
+digest = "6a89cd53d2a43ded"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Sprite Forward Map"
+gloss = "A sprite-local pixel is rotated, scaled uniformly and translated to the screen anchor."
+cite = []
+digest = "7bc2c8bce21e8d2f"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Jacobian of the Sprite Forward Map"
+gloss = "The Jacobian of the forward map with respect to the local coordinates is the scale times the rotation, constant across the sprite."
+cite = []
+digest = "287fd481fd77b780"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Determinant of the Sprite Jacobian"
+gloss = "Because a rotation has unit determinant, the Jacobian determinant is the square of the scale."
+cite = []
+digest = "5db61c4f3ccbd3b9"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Screen Area of a Scaled Sprite"
+gloss = "The screen area of the sprite is its local area multiplied by the square of the scale, so doubling the depth quarters the area."
+cite = []
+digest = "bdd9a73b83a06b95"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Factorisation of the Sprite Forward Map"
+gloss = "The sprite forward map factors as a rotation, a uniform scale and a translation to the anchor, applied from right to left."
+cite = []
+digest = "f3a82ad04f87dd1b"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Sprite Inverse Map"
+gloss = "Subtracting the anchor, rotating by the negated angle and dividing by the scale returns a screen pixel to the local frame of the sprite."
+cite = []
+digest = "23f93994cd61c744"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Local Bounding-Box Hit Test"
+gloss = "A click hits the sprite when its inverse-mapped local position lies within half the sprite width and half the sprite height of the anchor."
+cite = []
+digest = "5a15447b4a201f1e"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Screen Extent of an Axis-Aligned Sprite"
+gloss = "At zero orientation the sprite covers a screen rectangle about the anchor of half-extents the scale times half the sprite width and height."
+cite = []
+digest = "f26e363b1a78b89e"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Worked Sprite Scale"
+gloss = "With an illustrative focal length of one hundred pixels, a sprite at depth fifty renders at double scale."
+cite = []
+digest = "4dca5ad531927568"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Worked Sprite Anchor"
+gloss = "With the camera at the origin and the horizon at row one hundred and twelve, a sprite fifteen units right of the camera on the horizon line anchors at $(158, 112)$."
+cite = []
+digest = "4d464df5dfaa4e24"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Worked Forward Map of the Top-Right Corner"
+gloss = "The top-right corner of a sixty-four by thirty-two pixel sprite at an orientation of thirty degrees is mapped by the rotation, the scale and the anchor."
+cite = []
+digest = "512636906db2b505"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Worked Rotation of the Top-Right Corner"
+gloss = "Rotating the corner by thirty degrees gives the local offset $(35.7, 2.1)$ before scaling."
+cite = []
+digest = "b22371db4ce38444"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Screen Position of the Top-Right Corner"
+gloss = "Scaling by two and adding the anchor places the corner at $(229.4, 116.2)$."
+cite = []
+digest = "e1c1a46021cc2be8"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Inverse Map of a Click"
+gloss = "A click at $(229, 116)$ is mapped back by the transposed rotation and the reciprocal scale."
+cite = []
+digest = "2354f7d22fc22bcf"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Local Position of the Click"
+gloss = "The rotated offset is $(63.5, -32)$, which halves to the local position $(31.8, -16)$ inside the sprite rectangle."
+cite = []
+digest = "96c0886e7909f85c"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Round Trip within a Sprite"
+gloss = "Applying the sprite forward map and then its inverse returns the original local position up to floating-point precision."
+cite = []
+digest = "823451a6b8b6581d"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Depth Draw Order Criterion"
+gloss = "A sprite is drawn before another exactly when it is deeper, which is equivalent to its having the smaller scale."
+cite = []
+digest = "a9767db60be0ff6b"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Sprite Forward Map with Non-Uniform Scale"
+gloss = "Independent scale factors along the two local axes squash or stretch the sprite for visual effect."
+cite = []
+digest = "85d94d413fe8c559"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{local}}'
+meaning = "the sprite-local pixel position $(u, v)$"
+
+[[symbol]]
+tex = 'd'
+meaning = "the depth of the sprite from the camera"
+
+[[symbol]]
+tex = 'c_{\text{camera},z}'
+meaning = "the depth component of the camera position"
+
+[[symbol]]
+tex = 'f'
+meaning = "the focal length in pixels"
+
+[[symbol]]
+tex = 's'
+meaning = "the sprite scaling factor, the focal length divided by the depth"
+
+[[symbol]]
+tex = '\mathbf{c}'
+meaning = "the screen position of the anchor pixel of the sprite"
+
+[[symbol]]
+tex = 's_y^{\text{horizon}}'
+meaning = "the screen row of the horizon"
+
+[[symbol]]
+tex = 'R(\theta)'
+meaning = "the sprite-plane rotation by the orientation angle $\\theta$"
+
+[[symbol]]
+tex = 'J'
+meaning = "the Jacobian of the sprite forward map"
+
+[[symbol]]
+tex = 'A_{\text{screen}}'
+meaning = "the screen-space area the sprite covers"
+
+[[symbol]]
+tex = 'A_{\text{local}}'
+meaning = "the area of the sprite in its local frame"
+
+[[symbol]]
+tex = 'w_{\text{sprite}}'
+meaning = "the sprite width in local pixels"
+
+[[symbol]]
+tex = 'h_{\text{sprite}}'
+meaning = "the sprite height in local pixels"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"
+
+[[symbol]]
+tex = 's_u'
+meaning = "the scale factor along the local $u$ axis"
+
+[[symbol]]
+tex = 's_v'
+meaning = "the scale factor along the local $v$ axis"

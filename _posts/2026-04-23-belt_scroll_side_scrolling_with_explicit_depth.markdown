@@ -185,10 +185,12 @@ The forward map is
 
 $$
 s_x = z\, (w_x - c_x) + W/2,
+\tag{1}
 $$
 
 $$
 s_y = z\, (w_y - c_y) - \beta\, z\, (w_z - c_z) + H/2,
+\tag{2}
 $$
 
 where $W$ and $H$ are the screen width and height
@@ -236,6 +238,7 @@ $$
 \begin{bmatrix} s_x \\ s_y \\ 1 \end{bmatrix} =
 \begin{bmatrix} z & 0 & 0 & W/2 - z\, c_x \\ 0 & z & -\beta\, z & H/2 - z\, c_y + \beta\, z\, c_z \\ 0 & 0 & 0 & 1 \end{bmatrix}
 \begin{bmatrix} w_x \\ w_y \\ w_z \\ 1 \end{bmatrix}.
+\tag{3}
 $$
 
 The matrix is a three-by-four affine matrix
@@ -262,6 +265,7 @@ and a screen-centre translation,
 
 $$
 F = T(\mathbf{o})\, S(z)\, P_z\, K_z(-\beta)\, T(-\mathbf{c}),
+\tag{4}
 $$
 
 where $K_z(-\beta)$
@@ -273,6 +277,7 @@ of the camera-relative world coordinate,
 $$
 K_z(-\beta) =
 \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & -\beta \\ 0 & 0 & 1 \end{bmatrix},
+\tag{5}
 $$
 
 and $P_z$
@@ -282,6 +287,7 @@ that drops the depth component,
 $$
 P_z =
 \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \end{bmatrix}.
+\tag{6}
 $$
 
 The shear and the orthogonal projection
@@ -299,6 +305,7 @@ projects to screen y
 
 $$
 s_y^{\text{ground at camera depth}} = z\, (w_y - c_y) + H/2,
+\tag{7}
 $$
 
 which is the side-scrolling forward map of the previous article
@@ -321,6 +328,7 @@ the airborne character's $w_y$ is
 
 $$
 w_y = w_y^{\text{ground}} - h,
+\tag{8}
 $$
 
 with the subtraction reflecting the $y$-down convention
@@ -336,12 +344,14 @@ by the height-driven vertical offset,
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{sprite}} = \mathbf{p}_{\text{screen}}^{\text{shadow}} - (0,\ z\, h),
+\tag{9}
 $$
 
 with the magnitude of the vertical screen-space separation
 
 $$
 \Delta s_y = z\, h.
+\tag{10}
 $$
 
 The shadow-drop convention
@@ -365,10 +375,12 @@ yields
 
 $$
 w_x = \frac{s_x - W/2}{z} + c_x,
+\tag{11}
 $$
 
 $$
 w_y - \beta\, w_z = \frac{s_y - H/2}{z} + c_y - \beta\, c_z.
+\tag{12}
 $$
 
 The horizontal world coordinate $w_x$
@@ -386,6 +398,7 @@ parameterised by either $w_y$ or $w_z$,
 
 $$
 \{ (w_x,\ w_y,\ w_z) : w_y = \beta\, w_z + \frac{s_y - H/2}{z} + c_y - \beta\, c_z \}.
+\tag{13}
 $$
 
 The line is the pre-image of the screen pixel
@@ -403,6 +416,7 @@ The recovered depth is
 
 $$
 w_z = \frac{w_y^{\text{ground}} - c_y - (s_y - H/2)/z}{\beta} + c_z.
+\tag{14}
 $$
 
 The convention is appropriate
@@ -416,6 +430,7 @@ The recovered vertical world coordinate is
 
 $$
 w_y = \beta\, (w_z^{\text{known}} - c_z) + \frac{s_y - H/2}{z} + c_y.
+\tag{15}
 $$
 
 The convention is appropriate
@@ -443,6 +458,7 @@ gives
 
 $$
 \mathbf{p}_{\text{world}}^{\text{ground}} \in \left(c_x,\ w_y^{\text{ground}},\ c_z + \tfrac{w_y^{\text{ground}} - c_y}{\beta}\right) + \left[ -\tfrac{W}{2z},\ \tfrac{W}{2z} \right] \times \{0\} \times \left[ -\tfrac{H}{2 \beta z},\ \tfrac{H}{2 \beta z} \right].
+\tag{16}
 $$
 
 The visible depth range
@@ -484,10 +500,12 @@ projects to
 
 $$
 s_x = 1 \cdot (500 - 500) + 192 = 192,
+\tag{17}
 $$
 
 $$
 s_y = 1 \cdot (200 - 100) - \tfrac{1}{2} \cdot 1 \cdot (0 - 0) + 112 = 100 + 112 = 212.
+\tag{18}
 $$
 
 The player sprite sits at screen $(192, 212)$,
@@ -500,10 +518,12 @@ projects to
 
 $$
 s_x = 192,
+\tag{19}
 $$
 
 $$
 s_y = 100 - \tfrac{1}{2} \cdot 80 + 112 = 100 - 40 + 112 = 172.
+\tag{20}
 $$
 
 The enemy renders at screen $(192, 172)$,
@@ -517,10 +537,12 @@ projects to
 
 $$
 s_x = 192,
+\tag{21}
 $$
 
 $$
 s_y = 100 - \tfrac{1}{2} \cdot (-40) + 112 = 100 + 20 + 112 = 232.
+\tag{22}
 $$
 
 The enemy renders at screen $(192, 232)$,
@@ -542,6 +564,7 @@ The forward map gives
 
 $$
 s_y = 1 \cdot (175 - 100) - \tfrac{1}{2} \cdot 1 \cdot 0 + 112 = 75 + 112 = 187.
+\tag{23}
 $$
 
 The jumping player renders at screen $(192, 187)$.
@@ -562,6 +585,7 @@ returns
 
 $$
 w_z = \frac{200 - 100 - (172 - 112)/1}{1/2} + 0 = \frac{100 - 60}{1/2} = 80.
+\tag{24}
 $$
 
 The ground-plane inverse returns $w_z = 80$,
@@ -578,6 +602,7 @@ the earlier articles introduced,
 
 $$
 F^{-1}_{\text{ground}}(F(\mathbf{p}_{\text{world}}^{\text{ground}})) = \mathbf{p}_{\text{world}}^{\text{ground}} + O(\varepsilon),
+\tag{25}
 $$
 
 where $\varepsilon$ is the floating-point precision of the engine.
@@ -602,10 +627,12 @@ the ground-projection screen-y values are
 
 $$
 s_{y,1}^{\text{ground}} = z\, (w_y^{\text{ground}} - c_y) - \beta\, z\, (w_{z,1} - c_z) + H/2,
+\tag{26}
 $$
 
 $$
 s_{y,2}^{\text{ground}} = z\, (w_y^{\text{ground}} - c_y) - \beta\, z\, (w_{z,2} - c_z) + H/2.
+\tag{27}
 $$
 
 The object with the larger ground-projection $s_y$
@@ -619,6 +646,7 @@ and equivalently on the world depths,
 
 $$
 \text{draw } i \text{ before } j \iff s_{y,i}^{\text{ground}} < s_{y,j}^{\text{ground}} \iff w_{z,i} > w_{z,j}.
+\tag{28}
 $$
 
 The renderer therefore draws objects
@@ -777,6 +805,7 @@ in proportion to the inverse of the depth,
 
 $$
 s_{\text{sprite}}(w_z) = \frac{s_{\text{sprite}}^{(0)} \cdot d_{\text{ref}}}{w_z - c_z + d_{\text{ref}}},
+\tag{29}
 $$
 
 where $d_{\text{ref}}$ is a reference depth
@@ -1093,6 +1122,272 @@ from looking at the world along a primary axis
 to looking at the world along a tilted axis,
 which is the oblique view
 of the quarter-view cluster.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 29 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 29, 29 are established and 0 are bespoke.
+World coordinates take $w_y$ increasing downward with gravity and $w_z$ increasing into the screen, so a height above the ground is subtracted from $w_y$, a deeper object sits higher on the screen, and the depth-mixing slope converts depth to screen $y$ in pixels per world unit after the zoom.
+
+**Equation 1, Belt-Scroll Forward Map for Screen X.**
+The horizontal screen coordinate is the camera-relative horizontal world coordinate scaled by the zoom and offset to the screen centre, independent of depth.
+
+$$
+s_x = z\, (w_x - c_x) + W/2,
+\tag{1}
+$$
+
+**Equation 2, Belt-Scroll Forward Map for Screen Y.**
+The vertical screen coordinate mixes the vertical world coordinate with the depth offset scaled by the depth-mixing slope, an oblique projection of depth onto screen $y$.
+
+$$
+s_y = z\, (w_y - c_y) - \beta\, z\, (w_z - c_z) + H/2,
+\tag{2}
+$$
+
+**Equation 3, Belt-Scroll Forward Map as a Three-by-Four Matrix.**
+The forward map acts on the augmented world coordinate through a three-by-four affine matrix whose depth column carries the negated slope times the zoom.
+
+$$
+\begin{bmatrix} s_x \\ s_y \\ 1 \end{bmatrix} =
+\begin{bmatrix} z & 0 & 0 & W/2 - z\, c_x \\ 0 & z & -\beta\, z & H/2 - z\, c_y + \beta\, z\, c_z \\ 0 & 0 & 0 & 1 \end{bmatrix}
+\begin{bmatrix} w_x \\ w_y \\ w_z \\ 1 \end{bmatrix}.
+\tag{3}
+$$
+
+**Equation 4, Factorisation with Shear and Orthogonal Projection.**
+The forward map factors as a camera translation, a depth shear, an orthogonal projection that drops depth, a uniform scale and a screen-centre translation.
+
+$$
+F = T(\mathbf{o})\, S(z)\, P_z\, K_z(-\beta)\, T(-\mathbf{c}),
+\tag{4}
+$$
+
+**Equation 5, Depth Shear Matrix.**
+The shear adds the negated slope times the depth to the vertical component of the camera-relative world coordinate.
+
+$$
+K_z(-\beta) =
+\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & -\beta \\ 0 & 0 & 1 \end{bmatrix},
+\tag{5}
+$$
+
+**Equation 6, Orthogonal Projection Dropping Depth.**
+The two-by-three orthogonal projection keeps the horizontal and vertical components and discards depth.
+
+$$
+P_z =
+\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \end{bmatrix}.
+\tag{6}
+$$
+
+**Equation 7, Screen Y at the Camera Depth.**
+At the depth of the camera the depth term vanishes and the forward map reduces to the side-scrolling map of the previous article.
+
+$$
+s_y^{\text{ground at camera depth}} = z\, (w_y - c_y) + H/2,
+\tag{7}
+$$
+
+**Equation 8, Vertical World Coordinate of an Airborne Character.**
+An airborne character sits above the ground by its height, which under the downward vertical convention subtracts from the ground coordinate.
+
+$$
+w_y = w_y^{\text{ground}} - h,
+\tag{8}
+$$
+
+**Equation 9, Airborne Sprite Offset from Its Shadow.**
+The airborne sprite is drawn at the shadow screen position shifted up the screen by the height times the zoom.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{sprite}} = \mathbf{p}_{\text{screen}}^{\text{shadow}} - (0,\ z\, h),
+\tag{9}
+$$
+
+**Equation 10, Screen Separation of Sprite and Shadow.**
+The vertical pixel separation between an airborne sprite and its shadow is the height multiplied by the zoom factor.
+
+$$
+\Delta s_y = z\, h.
+\tag{10}
+$$
+
+**Equation 11, Inverse for the Horizontal World Coordinate.**
+The horizontal world coordinate is recovered uniquely from the horizontal screen coordinate.
+
+$$
+w_x = \frac{s_x - W/2}{z} + c_x,
+\tag{11}
+$$
+
+**Equation 12, Inverse Constraint on Height and Depth.**
+The vertical screen coordinate fixes only the combination of the vertical world coordinate minus the slope times the depth, leaving one degree of freedom.
+
+$$
+w_y - \beta\, w_z = \frac{s_y - H/2}{z} + c_y - \beta\, c_z.
+\tag{12}
+$$
+
+**Equation 13, Preimage Line of a Screen Pixel.**
+The world points that project to one pixel form a line in the plane of vertical coordinate and depth, parameterised by either.
+
+$$
+\{ (w_x,\ w_y,\ w_z) : w_y = \beta\, w_z + \frac{s_y - H/2}{z} + c_y - \beta\, c_z \}.
+\tag{13}
+$$
+
+**Equation 14, Depth Recovered under the Ground-Plane Convention.**
+Setting the vertical world coordinate to the ground resolves the preimage line to a single depth, suited to a click read as a movement command.
+
+$$
+w_z = \frac{w_y^{\text{ground}} - c_y - (s_y - H/2)/z}{\beta} + c_z.
+\tag{14}
+$$
+
+**Equation 15, Vertical Coordinate Recovered at a Known Depth.**
+Fixing the depth to that of a known object resolves the preimage line to a single vertical world coordinate, suited to picking airborne objects.
+
+$$
+w_y = \beta\, (w_z^{\text{known}} - c_z) + \frac{s_y - H/2}{z} + c_y.
+\tag{15}
+$$
+
+**Equation 16, Visible Ground Region.**
+Restricting the inverse to the ground plane maps the screen rectangle to a finite world rectangle in horizontal position and depth, with a depth extent of the screen height divided by the slope and the zoom.
+
+$$
+\mathbf{p}_{\text{world}}^{\text{ground}} \in \left(c_x,\ w_y^{\text{ground}},\ c_z + \tfrac{w_y^{\text{ground}} - c_y}{\beta}\right) + \left[ -\tfrac{W}{2z},\ \tfrac{W}{2z} \right] \times \{0\} \times \left[ -\tfrac{H}{2 \beta z},\ \tfrac{H}{2 \beta z} \right].
+\tag{16}
+$$
+
+**Equation 17, Worked Screen X of a Grounded Player.**
+On a three hundred and eighty-four by two hundred and twenty-four screen with unit zoom and an illustrative camera at $(500, 100, 0)$, a player at $(500, 200, 0)$ lands at screen $x = 192$.
+
+$$
+s_x = 1 \cdot (500 - 500) + 192 = 192,
+\tag{17}
+$$
+
+**Equation 18, Worked Screen Y of a Grounded Player.**
+With an illustrative slope of one half, the same player at the camera depth lands at screen $y = 212$.
+
+$$
+s_y = 1 \cdot (200 - 100) - \tfrac{1}{2} \cdot 1 \cdot (0 - 0) + 112 = 100 + 112 = 212.
+\tag{18}
+$$
+
+**Equation 19, Worked Screen X of a Rear Enemy.**
+An enemy at the same horizontal position but at depth eighty lands at the same screen $x$ as the player.
+
+$$
+s_x = 192,
+\tag{19}
+$$
+
+**Equation 20, Worked Screen Y of a Rear Enemy.**
+The rear enemy lands at screen $y = 172$, forty pixels higher than the player because of its depth.
+
+$$
+s_y = 100 - \tfrac{1}{2} \cdot 80 + 112 = 100 - 40 + 112 = 172.
+\tag{20}
+$$
+
+**Equation 21, Worked Screen X of a Front Enemy.**
+An enemy at the same horizontal position and at depth minus forty lands at the same screen $x$ as the player.
+
+$$
+s_x = 192,
+\tag{21}
+$$
+
+**Equation 22, Worked Screen Y of a Front Enemy.**
+The front enemy lands at screen $y = 232$, twenty pixels lower than the player.
+
+$$
+s_y = 100 - \tfrac{1}{2} \cdot (-40) + 112 = 100 + 20 + 112 = 232.
+\tag{22}
+$$
+
+**Equation 23, Worked Screen Y of a Jumping Player.**
+A player twenty-five units above the ground at the camera depth lands at screen $y = 187$, twenty-five pixels above the shadow.
+
+$$
+s_y = 1 \cdot (175 - 100) - \tfrac{1}{2} \cdot 1 \cdot 0 + 112 = 75 + 112 = 187.
+\tag{23}
+$$
+
+**Equation 24, Worked Ground-Plane Inverse of a Click on the Rear Enemy.**
+The ground-plane inverse of a click at screen $y = 172$ returns a depth of eighty, matching the rear enemy.
+
+$$
+w_z = \frac{200 - 100 - (172 - 112)/1}{1/2} + 0 = \frac{100 - 60}{1/2} = 80.
+\tag{24}
+$$
+
+**Equation 25, Round Trip along the Ground Plane.**
+For a point on the ground plane, the forward map followed by the ground-plane inverse returns the original world position up to floating-point precision.
+
+$$
+F^{-1}_{\text{ground}}(F(\mathbf{p}_{\text{world}}^{\text{ground}})) = \mathbf{p}_{\text{world}}^{\text{ground}} + O(\varepsilon),
+\tag{25}
+$$
+
+**Equation 26, Ground-Projection Screen Y of the First Object.**
+The ground-projection screen $y$ of an object is the forward map applied at the ground coordinate and the depth of the object.
+
+$$
+s_{y,1}^{\text{ground}} = z\, (w_y^{\text{ground}} - c_y) - \beta\, z\, (w_{z,1} - c_z) + H/2,
+\tag{26}
+$$
+
+**Equation 27, Ground-Projection Screen Y of the Second Object.**
+The same expression for a second object differs only in its depth term, so the comparison of the two depends on depth alone.
+
+$$
+s_{y,2}^{\text{ground}} = z\, (w_y^{\text{ground}} - c_y) - \beta\, z\, (w_{z,2} - c_z) + H/2.
+\tag{27}
+$$
+
+**Equation 28, Y-Sort Draw Order Criterion.**
+An object is drawn before another exactly when its ground-projection screen $y$ is smaller, which is equivalent to its lying deeper, so nearer objects are painted last.
+
+$$
+\text{draw } i \text{ before } j \iff s_{y,i}^{\text{ground}} < s_{y,j}^{\text{ground}} \iff w_{z,i} > w_{z,j}.
+\tag{28}
+$$
+
+**Equation 29, Perspective Sprite Scale with Depth.**
+The sprite size falls inversely with the distance from a viewpoint a reference distance in front of the camera depth, the perspective scaling of a later article in the series.
+
+$$
+s_{\text{sprite}}(w_z) = \frac{s_{\text{sprite}}^{(0)} \cdot d_{\text{ref}}}{w_z - c_z + d_{\text{ref}}},
+\tag{29}
+$$
+
+### Notation
+
+- $w_x$, the horizontal world coordinate
+- $w_y$, the vertical world coordinate, increasing downward with gravity
+- $w_z$, the depth into the screen
+- $c_z$, the depth component of the camera position $(c_x, c_y, c_z)$
+- $z$, the zoom factor, in pixels per world unit along the horizontal and vertical axes
+- $\beta$, the depth-mixing slope, the screen $y$ shift per unit of depth offset from the camera
+- $W$, the screen width in pixels
+- $H$, the screen height in pixels
+- $K_z(-\beta)$, the three-by-three depth shear matrix
+- $P_z$, the two-by-three orthogonal projection that drops depth
+- $w_y^{\text{ground}}$, the vertical world coordinate of the ground plane
+- $h$, the height of an airborne character above the ground
+- $w_z^{\text{known}}$, the known depth of an object being picked
+- $\varepsilon$, the floating-point precision of the engine
+- $d_{\text{ref}}$, a reference depth
+- $s_{\text{sprite}}^{(0)}$, the sprite size at the reference depth
 
 ## References
 

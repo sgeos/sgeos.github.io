@@ -1,0 +1,151 @@
+# Equation classification for A173. Read by `python3 _lib/equations.py`.
+
+caution = "Screen coordinates are measured in pixels with $y$ increasing downward in the raster frame and upward in the centred mathematical frame, while world coordinates carry whatever units the game chooses, so the sign of every vertical term depends on which frame an equation is written in."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "General Affine Projection"
+gloss = "A screen position is a linear map of the world position followed by a translation, the general affine form that every projection in the series specialises."
+cite = []
+digest = "76ca6196688cb847"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Affine Projection of Three Dimensions into Two in Components"
+gloss = "The affine projection from a three-dimensional world to a two-dimensional screen is written out with a two-by-three matrix of six entries and a two-component translation."
+cite = []
+digest = "3cc31a73ff509b01"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Homogeneous Projection to Clip Space"
+gloss = "A four-by-four projection matrix carries a homogeneous world position to a homogeneous clip-space position, as in a three-dimensional graphics pipeline."
+cite = []
+digest = "6460bdddeeab3896"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Perspective Divide"
+gloss = "The screen position is recovered by dividing the first two clip-space components by the fourth, the step that makes a perspective projection nonlinear."
+cite = []
+digest = "a5f8c27c1ae60b6c"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Two-Dimensional Affine Map in Homogeneous Coordinates"
+gloss = "Appending a unit row to the matrix and a unit entry to each position folds the translation into a single three-by-three matrix product."
+cite = []
+digest = "17b1c4664ce3694f"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Composed Forward Map"
+gloss = "The forward map is the product of the camera-to-screen, world-to-camera and object-to-world matrices, applied from right to left."
+cite = []
+digest = "91b76fa2f8457210"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Inverse of the Composed Forward Map"
+gloss = "The inverse of a product of invertible matrices is the product of their inverses in reverse order."
+cite = []
+digest = "601854ed568a26cb"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Inverse of an Invertible Affine Map"
+gloss = "When the world is two-dimensional and the matrix is square and invertible, subtracting the translation and applying the inverse matrix returns a unique world point."
+cite = []
+digest = "3afecaa065764ab9"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Preimage Line of a Screen Point"
+gloss = "When a three-dimensional world projects onto a two-dimensional screen, the preimage of a screen point is a line through a reference point along a direction, parameterised by a depth scalar."
+cite = []
+digest = "0169c399844b1524"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Mathematical Frame to Raster Frame"
+gloss = "Negating the vertical component and adding half the screen width and height moves the origin from the centre to the top-left corner and turns $y$ downward."
+cite = []
+digest = "1f7787b91a3ff01e"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Pixel Quantisation by Rounding"
+gloss = "A continuous screen coordinate becomes a discrete pixel address by adding one half to each component and taking the floor, which rounds to the nearest pixel."
+cite = []
+digest = "a8f3223ea7327862"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{world}}'
+meaning = "the position of an object in the game world"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{screen}}'
+meaning = "the position of the image of an object on the screen"
+
+[[symbol]]
+tex = 'A'
+meaning = "the projection matrix encoding rotation, scaling and shearing"
+
+[[symbol]]
+tex = '\mathbf{t}'
+meaning = "the translation accounting for camera position and screen origin"
+
+[[symbol]]
+tex = 'P'
+meaning = "a four-by-four homogeneous projection matrix"
+
+[[symbol]]
+tex = 'M'
+meaning = "the object-local-to-world matrix"
+
+[[symbol]]
+tex = 'V'
+meaning = "the world-to-camera matrix"
+
+[[symbol]]
+tex = 'C'
+meaning = "the camera-to-screen matrix"
+
+[[symbol]]
+tex = 'F'
+meaning = "the composed forward map from object to screen"
+
+[[symbol]]
+tex = 's'
+meaning = "the depth scalar parameterising the preimage line"
+
+[[symbol]]
+tex = '\mathbf{d}'
+meaning = "the direction of the preimage line"
+
+[[symbol]]
+tex = '\mathbf{p}_0'
+meaning = "a known reference point on the preimage line"
+
+[[symbol]]
+tex = 'W'
+meaning = "the screen width in pixels"
+
+[[symbol]]
+tex = 'H'
+meaning = "the screen height in pixels"
+
+[[symbol]]
+tex = '\mathbf{1}'
+meaning = "the all-ones vector"

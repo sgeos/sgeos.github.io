@@ -1,0 +1,267 @@
+# Equation classification for A185. Read by `python3 _lib/equations.py`.
+
+caution = "Draw order is back to front, so an object drawn earlier lies behind, a smaller anchor screen $y$ or a larger world depth $w_z$ marks an object farther from the viewer, and the worked example uses the game-isometric matrix with $w_y$ increasing downward."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Painter's Algorithm Sort Criterion"
+gloss = "Objects are drawn in decreasing order of a back-to-front depth key, so that the last drawn take visual priority."
+cite = []
+digest = "c7c9d208d4e9d270"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Per-Frame Cost of the Painter's Algorithm"
+gloss = "The cost of a frame is a comparison sort of the objects plus the total screen area of the sprites drawn."
+cite = []
+digest = "c5d97c860d0f9375"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Y-Sort Key"
+gloss = "The Y-sort key of an object is the screen $y$ of its anchor."
+cite = []
+digest = "48b10fb878f7d63b"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Y-Sort Criterion"
+gloss = "An object is drawn before another exactly when its anchor screen $y$ is smaller."
+cite = []
+digest = "2351015e189ebc5a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Depth Tie-Breaker"
+gloss = "When two anchors tie, the deeper object is drawn first."
+cite = []
+digest = "d51dc399c08a7a07"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Creation-Order Tie-Breaker"
+gloss = "When objects still tie, a stable sort draws the older object first."
+cite = []
+digest = "df1d22e1658e5fe3"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Identifier Tie-Breaker"
+gloss = "A unique object identifier gives a final deterministic order independent of gameplay state."
+cite = []
+digest = "73d87fe4c14bfbeb"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Z-Sort Key"
+gloss = "The Z-sort key of an object is its world depth coordinate."
+cite = []
+digest = "794f6eddcb455cd5"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Z-Sort Criterion"
+gloss = "An object is drawn before another exactly when its world depth is larger."
+cite = []
+digest = "50e9ffe497c8f254"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Depth Comparison Prone to Flicker"
+gloss = "The bare depth comparison can change result between frames when two depths are nearly equal."
+cite = []
+digest = "9391e5247ca14c83"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Near-Tie Condition"
+gloss = "A flip becomes possible when the depth difference is smaller than the floating-point precision."
+cite = []
+digest = "4a37a98793a01387"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Z-Sort with a Tie Tolerance"
+gloss = "Depths closer than the tolerance are treated as tied and ordered by a secondary criterion, which removes the flicker."
+cite = []
+digest = "f748c057c5fdde13"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Quantised Depth"
+gloss = "Rounding each depth to a multiple of a quantisation step places depths on a fixed-point grid where near ties become exact ties."
+cite = []
+digest = "a577dc4f6fa00603"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Hybrid Y-Then-Z Sort Criterion"
+gloss = "The hybrid sort orders lexicographically by increasing anchor screen $y$, then by decreasing world depth, then by a tertiary criterion."
+cite = []
+digest = "54820675ea2e1473"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Worked Game-Isometric Matrix"
+gloss = "The example uses the game-isometric matrix with an illustrative zoom of thirty-two pixels, an eight hundred by six hundred screen and the camera at the origin."
+cite = []
+digest = "040644f459ddccb9"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Worked Anchor of the Tree"
+gloss = "A tree at $(5, 0, 3)$ anchors at screen $(464, 428)$."
+cite = []
+digest = "3f501f06f1224ac2"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Worked Anchor of the Sign"
+gloss = "A sign at $(4, 0, 4)$ anchors at screen $(400, 428)$, tying the tree in screen $y$."
+cite = []
+digest = "5296afb520413195"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Anchor of the Player"
+gloss = "The player at $(6, 0, 5)$ anchors at screen $(432, 476)$."
+cite = []
+digest = "a3d3bbe0ff30fcca"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Y-Sort Keys"
+gloss = "The three anchor screen $y$ values are $428$, $428$ and $476$, with the tree and the sign tied."
+cite = []
+digest = "d246937b1a935ba4"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Hybrid Draw Order"
+gloss = "Breaking the tie by depth draws the deeper sign before the tree, and the player last."
+cite = []
+digest = "d1bde8517ac53b60"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Worked Anchor of an Airborne Projectile"
+gloss = "A projectile two tiles above the player lands at screen $(432, 412)$, sixty-four pixels above the player anchor."
+cite = []
+digest = "caab7d5a7dc2b9c0"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Worked Shadow Sort Key of the Projectile"
+gloss = "Sorting the projectile by the screen $y$ of its ground projection gives a key of $476$, matching the player."
+cite = []
+digest = "9490574ddff111d9"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Frame-to-Frame Stability of the Sort"
+gloss = "A stable sort returns the same order in consecutive frames when no sort key has changed."
+cite = []
+digest = "3bb9d0b05df76bb5"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Layered Sort Criterion"
+gloss = "Objects are ordered first by layer index and then, within a layer, by a Y-sort, Z-sort or hybrid criterion."
+cite = []
+digest = "fa0301d4616c2a50"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Camera-Frame Depth Sort Key"
+gloss = "Rotating each world position into the camera frame and taking its depth component generalises Z-sort to a rotating camera."
+cite = []
+digest = "69054121aef3a5d4"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Depth Buffer Test"
+gloss = "A depth buffer paints a pixel only when the new depth is nearer than the stored depth, which removes the need for a per-object sort."
+cite = []
+digest = "e7c5f175dd086015"
+
+[[symbol]]
+tex = 'k_i'
+meaning = "the sort key of object $i$"
+
+[[symbol]]
+tex = 'A_i'
+meaning = "the screen-space area of object $i$"
+
+[[symbol]]
+tex = 's_{y, i}^{\text{anchor}}'
+meaning = "the screen $y$ of the anchor of object $i$"
+
+[[symbol]]
+tex = 'w_{z, i}'
+meaning = "the world depth of object $i$"
+
+[[symbol]]
+tex = 't_{\text{created}, i}'
+meaning = "the creation time of object $i$"
+
+[[symbol]]
+tex = '\text{id}(i)'
+meaning = "the unique identifier of object $i$"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision, used as the tie tolerance"
+
+[[symbol]]
+tex = '\Delta'
+meaning = "the depth quantisation step"
+
+[[symbol]]
+tex = 'M'
+meaning = "the game-isometric forward-map matrix of the example"
+
+[[symbol]]
+tex = '\sigma_{n}'
+meaning = "the sorted order at frame $n$"
+
+[[symbol]]
+tex = '\ell_i'
+meaning = "the layer index of object $i$"
+
+[[symbol]]
+tex = 'R'
+meaning = "the camera rotation matrix"
+
+[[symbol]]
+tex = 'd_{\text{new}}'
+meaning = "the depth of the fragment being drawn"
+
+[[symbol]]
+tex = 'd_{\text{stored}}'
+meaning = "the closest depth stored in the depth buffer at the pixel"

@@ -1,0 +1,251 @@
+# Equation classification for A177. Read by `python3 _lib/equations.py`.
+
+caution = "Each layer has its own world coordinates in world units, and a scroll factor is a dimensionless multiplier on the camera position that equals one for the play layer and falls toward zero for distant layers, so a world position is meaningful only together with its layer index."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Per-Layer Parallax Forward Map"
+gloss = "Each layer subtracts the camera position multiplied by its own scroll factor before the common zoom and screen-centre offset, so distant layers move more slowly."
+cite = []
+digest = "e170f5948862bcd4"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Factorisation of the Parallax Forward Map"
+gloss = "The per-layer forward map factors as the floor-case composition with the camera translation scaled by the scroll factor of the layer."
+cite = []
+digest = "7ae9e45746946885"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Parallax Forward Map in Homogeneous Form"
+gloss = "The per-layer map is the planar affine homogeneous matrix of the previous article with the scroll factor multiplying the camera terms of the translation column."
+cite = []
+digest = "fd29612a11d77a5f"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Apparent Screen Velocity of a Layer"
+gloss = "Differentiating the forward map shows that a layer moves on screen opposite to the camera at a rate proportional to the zoom, the scroll factor and the camera velocity."
+cite = []
+digest = "7dbb7df5cf14d039"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Scroll Factor from True Perspective"
+gloss = "Under perspective projection, the scroll factor of a layer is the ratio of the play-layer distance to the layer distance, which is one for the play layer."
+cite = []
+digest = "2f29714db4888dff"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Parallax Forward Map with Per-Axis Scroll Factors"
+gloss = "Replacing the scalar scroll factor with a vector applied componentwise lets a layer scroll at different rates horizontally and vertically."
+cite = []
+digest = "39578f1da340fa41"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Per-Layer Inverse Map"
+gloss = "For a specified layer, subtracting the screen centre, dividing by the zoom and adding the scaled camera position returns a unique world point."
+cite = []
+digest = "56e8485d83b68339"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Candidate Set across Layers"
+gloss = "A screen pixel has one preimage in each layer, so without a layer assignment the inverse returns one candidate per layer."
+cite = []
+digest = "572a6c4e7b18a20e"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Play-Layer Inverse"
+gloss = "Interpreting every click as referring to the play layer applies the floor-case inverse with a scroll factor of one."
+cite = []
+digest = "8346da91de35b4fc"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Per-Layer Viewport Rectangle"
+gloss = "The world region visible on a layer is the screen rectangle mapped back through the per-layer inverse, centred on the scaled camera position."
+cite = []
+digest = "58d655a930f580fc"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Worked Forward Map for a Play-Layer Tree"
+gloss = "On a three hundred and twenty by two hundred and twenty-four screen with unit zoom and an illustrative camera at $(1000, 200)$, a play-layer tree at $(1050, 200)$ lands at $(210, 112)$."
+cite = []
+digest = "8a900f5293d5ec59"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Worked Forward Map for a Hill on the Half-Speed Layer"
+gloss = "A hill at $(550, 100)$ on a layer with an illustrative scroll factor of one half lands at the same screen position as the tree."
+cite = []
+digest = "915921e4d1ab0a4e"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Worked Forward Map for a Star on the Quarter-Speed Layer"
+gloss = "A star at $(300, 50)$ on a layer with an illustrative scroll factor of one quarter also lands at $(210, 112)$."
+cite = []
+digest = "e98fdf54681540c8"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Worked Play-Layer Position after a Camera Shift"
+gloss = "After the camera moves one hundred world units to the right, the tree moves one hundred pixels left to $(110, 112)$."
+cite = []
+digest = "589b30cf5f55c2b2"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Worked Half-Speed Layer Position after a Camera Shift"
+gloss = "After the same camera shift, the hill moves fifty pixels left to $(160, 112)$."
+cite = []
+digest = "c7bddba00f4647bc"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Worked Quarter-Speed Layer Position after a Camera Shift"
+gloss = "After the same camera shift, the star moves twenty-five pixels left to $(185, 112)$."
+cite = []
+digest = "2c33c7969680d65a"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Relative Screen Shift between Two Layers"
+gloss = "The difference between the screen shifts of two layers equals the negated zoom times the difference of their scroll factors times the camera shift."
+cite = []
+digest = "fd5a7273c72867d0"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Play-Layer Candidate of a Click"
+gloss = "The per-layer inverse of a click at $(210, 112)$ on the play layer returns the tree at $(1050, 200)$."
+cite = []
+digest = "8c8c79a7cfbd1d0f"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Half-Speed Layer Candidate of a Click"
+gloss = "The per-layer inverse of the same click on the half-speed layer returns the hill at $(550, 100)$."
+cite = []
+digest = "ae04a19c804d8ee4"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Quarter-Speed Layer Candidate of a Click"
+gloss = "The per-layer inverse of the same click on the quarter-speed layer returns the star at $(300, 50)$."
+cite = []
+digest = "de37e5e9d478b640"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Per-Layer Round Trip"
+gloss = "Within each layer, applying the forward map and then the inverse map returns the original world position up to floating-point precision."
+cite = []
+digest = "d8b8b929c49dd0b9"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Wrapped Layer Position"
+gloss = "Taking the horizontal world position modulo a finite repeat width lets a layer render an endlessly repeating background from finite content."
+cite = []
+digest = "d536c9bdae5327e4"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Linear Per-Scanline Scroll Factor"
+gloss = "The scroll factor is assumed to vary linearly with the screen row about the apparent horizon, with a chosen base value and per-scanline gradient for each layer."
+cite = []
+digest = "5707fd712e2212ff"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{world}}^{(l)}'
+meaning = "a world position on layer $l$"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{screen}}^{(l)}'
+meaning = "the screen position of a point on layer $l$"
+
+[[symbol]]
+tex = '\sigma_l'
+meaning = "the scroll factor of layer $l$, one for the play layer"
+
+[[symbol]]
+tex = '\boldsymbol{\sigma}_l'
+meaning = "the vector of per-axis scroll factors of layer $l$"
+
+[[symbol]]
+tex = 'z'
+meaning = "the zoom factor"
+
+[[symbol]]
+tex = '\mathbf{c}'
+meaning = "the camera position"
+
+[[symbol]]
+tex = '\mathbf{o}'
+meaning = "the screen centre offset in pixels"
+
+[[symbol]]
+tex = '\mathbf{v}_c'
+meaning = "the camera velocity in world units per second"
+
+[[symbol]]
+tex = 'd_{\text{play}}'
+meaning = "the distance of the play layer from the viewer"
+
+[[symbol]]
+tex = 'd_l'
+meaning = "the distance of layer $l$ from the viewer"
+
+[[symbol]]
+tex = '\odot'
+meaning = "the componentwise product"
+
+[[symbol]]
+tex = 'L'
+meaning = "the number of layers"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"
+
+[[symbol]]
+tex = 'w_l'
+meaning = "the finite repeat width of layer $l$"
+
+[[symbol]]
+tex = 's_y^{\text{horizon}}'
+meaning = "the screen $y$ of the apparent horizon"
+
+[[symbol]]
+tex = 'k_l'
+meaning = "the per-scanline gradient of the scroll factor of layer $l$"

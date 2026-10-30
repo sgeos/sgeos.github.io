@@ -1,0 +1,299 @@
+# Equation classification for A178. Read by `python3 _lib/equations.py`.
+
+caution = "World coordinates take $w_y$ increasing downward with gravity and $w_z$ increasing into the screen, so a height above the ground is subtracted from $w_y$, a deeper object sits higher on the screen, and the depth-mixing slope converts depth to screen $y$ in pixels per world unit after the zoom."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Belt-Scroll Forward Map for Screen X"
+gloss = "The horizontal screen coordinate is the camera-relative horizontal world coordinate scaled by the zoom and offset to the screen centre, independent of depth."
+cite = []
+digest = "347a181dcf8ea23b"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Belt-Scroll Forward Map for Screen Y"
+gloss = "The vertical screen coordinate mixes the vertical world coordinate with the depth offset scaled by the depth-mixing slope, an oblique projection of depth onto screen $y$."
+cite = []
+digest = "e599f14b0c87aec8"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Belt-Scroll Forward Map as a Three-by-Four Matrix"
+gloss = "The forward map acts on the augmented world coordinate through a three-by-four affine matrix whose depth column carries the negated slope times the zoom."
+cite = []
+digest = "29aa98835dd69286"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Factorisation with Shear and Orthogonal Projection"
+gloss = "The forward map factors as a camera translation, a depth shear, an orthogonal projection that drops depth, a uniform scale and a screen-centre translation."
+cite = []
+digest = "1fb05788b513fbb1"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Depth Shear Matrix"
+gloss = "The shear adds the negated slope times the depth to the vertical component of the camera-relative world coordinate."
+cite = []
+digest = "df87046c2cc9f483"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Orthogonal Projection Dropping Depth"
+gloss = "The two-by-three orthogonal projection keeps the horizontal and vertical components and discards depth."
+cite = []
+digest = "3b01ad76db562d19"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Screen Y at the Camera Depth"
+gloss = "At the depth of the camera the depth term vanishes and the forward map reduces to the side-scrolling map of the previous article."
+cite = []
+digest = "d955f4e86ee763fa"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Vertical World Coordinate of an Airborne Character"
+gloss = "An airborne character sits above the ground by its height, which under the downward vertical convention subtracts from the ground coordinate."
+cite = []
+digest = "80ec419dd97e0fdd"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Airborne Sprite Offset from Its Shadow"
+gloss = "The airborne sprite is drawn at the shadow screen position shifted up the screen by the height times the zoom."
+cite = []
+digest = "2a94897a24d2aad9"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Screen Separation of Sprite and Shadow"
+gloss = "The vertical pixel separation between an airborne sprite and its shadow is the height multiplied by the zoom factor."
+cite = []
+digest = "498b95eabeaed63f"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Inverse for the Horizontal World Coordinate"
+gloss = "The horizontal world coordinate is recovered uniquely from the horizontal screen coordinate."
+cite = []
+digest = "240fff8148043048"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Inverse Constraint on Height and Depth"
+gloss = "The vertical screen coordinate fixes only the combination of the vertical world coordinate minus the slope times the depth, leaving one degree of freedom."
+cite = []
+digest = "d0daaf35e6a687d3"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Preimage Line of a Screen Pixel"
+gloss = "The world points that project to one pixel form a line in the plane of vertical coordinate and depth, parameterised by either."
+cite = []
+digest = "215ea5ae5d9dc68b"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Depth Recovered under the Ground-Plane Convention"
+gloss = "Setting the vertical world coordinate to the ground resolves the preimage line to a single depth, suited to a click read as a movement command."
+cite = []
+digest = "2965c3db2eef1828"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Vertical Coordinate Recovered at a Known Depth"
+gloss = "Fixing the depth to that of a known object resolves the preimage line to a single vertical world coordinate, suited to picking airborne objects."
+cite = []
+digest = "ff762cd9454cc95b"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Visible Ground Region"
+gloss = "Restricting the inverse to the ground plane maps the screen rectangle to a finite world rectangle in horizontal position and depth, with a depth extent of the screen height divided by the slope and the zoom."
+cite = []
+digest = "1e89e3709950264d"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Worked Screen X of a Grounded Player"
+gloss = "On a three hundred and eighty-four by two hundred and twenty-four screen with unit zoom and an illustrative camera at $(500, 100, 0)$, a player at $(500, 200, 0)$ lands at screen $x = 192$."
+cite = []
+digest = "9763ac75b7b130b5"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Screen Y of a Grounded Player"
+gloss = "With an illustrative slope of one half, the same player at the camera depth lands at screen $y = 212$."
+cite = []
+digest = "d74369e087e3e814"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Screen X of a Rear Enemy"
+gloss = "An enemy at the same horizontal position but at depth eighty lands at the same screen $x$ as the player."
+cite = []
+digest = "5d6d70ea6b585943"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Screen Y of a Rear Enemy"
+gloss = "The rear enemy lands at screen $y = 172$, forty pixels higher than the player because of its depth."
+cite = []
+digest = "9ae48bee901e3d1e"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Worked Screen X of a Front Enemy"
+gloss = "An enemy at the same horizontal position and at depth minus forty lands at the same screen $x$ as the player."
+cite = []
+digest = "5d6d70ea6b585943"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Worked Screen Y of a Front Enemy"
+gloss = "The front enemy lands at screen $y = 232$, twenty pixels lower than the player."
+cite = []
+digest = "5174b32bebb617dd"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Worked Screen Y of a Jumping Player"
+gloss = "A player twenty-five units above the ground at the camera depth lands at screen $y = 187$, twenty-five pixels above the shadow."
+cite = []
+digest = "c9e08962501b8038"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Worked Ground-Plane Inverse of a Click on the Rear Enemy"
+gloss = "The ground-plane inverse of a click at screen $y = 172$ returns a depth of eighty, matching the rear enemy."
+cite = []
+digest = "da8d7c0af56fcc5f"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Round Trip along the Ground Plane"
+gloss = "For a point on the ground plane, the forward map followed by the ground-plane inverse returns the original world position up to floating-point precision."
+cite = []
+digest = "ba6d9c1cb6e4df15"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Ground-Projection Screen Y of the First Object"
+gloss = "The ground-projection screen $y$ of an object is the forward map applied at the ground coordinate and the depth of the object."
+cite = []
+digest = "9ae557d1bb910464"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Ground-Projection Screen Y of the Second Object"
+gloss = "The same expression for a second object differs only in its depth term, so the comparison of the two depends on depth alone."
+cite = []
+digest = "ebfa75c5e2745062"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Y-Sort Draw Order Criterion"
+gloss = "An object is drawn before another exactly when its ground-projection screen $y$ is smaller, which is equivalent to its lying deeper, so nearer objects are painted last."
+cite = []
+digest = "0e88f983aed1de67"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Perspective Sprite Scale with Depth"
+gloss = "The sprite size falls inversely with the distance from a viewpoint a reference distance in front of the camera depth, the perspective scaling of a later article in the series."
+cite = []
+digest = "c48fd0b057808776"
+
+[[symbol]]
+tex = 'w_x'
+meaning = "the horizontal world coordinate"
+
+[[symbol]]
+tex = 'w_y'
+meaning = "the vertical world coordinate, increasing downward with gravity"
+
+[[symbol]]
+tex = 'w_z'
+meaning = "the depth into the screen"
+
+[[symbol]]
+tex = 'c_z'
+meaning = "the depth component of the camera position $(c_x, c_y, c_z)$"
+
+[[symbol]]
+tex = 'z'
+meaning = "the zoom factor, in pixels per world unit along the horizontal and vertical axes"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the depth-mixing slope, the screen $y$ shift per unit of depth offset from the camera"
+
+[[symbol]]
+tex = 'W'
+meaning = "the screen width in pixels"
+
+[[symbol]]
+tex = 'H'
+meaning = "the screen height in pixels"
+
+[[symbol]]
+tex = 'K_z(-\beta)'
+meaning = "the three-by-three depth shear matrix"
+
+[[symbol]]
+tex = 'P_z'
+meaning = "the two-by-three orthogonal projection that drops depth"
+
+[[symbol]]
+tex = 'w_y^{\text{ground}}'
+meaning = "the vertical world coordinate of the ground plane"
+
+[[symbol]]
+tex = 'h'
+meaning = "the height of an airborne character above the ground"
+
+[[symbol]]
+tex = 'w_z^{\text{known}}'
+meaning = "the known depth of an object being picked"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"
+
+[[symbol]]
+tex = 'd_{\text{ref}}'
+meaning = "a reference depth"
+
+[[symbol]]
+tex = 's_{\text{sprite}}^{(0)}'
+meaning = "the sprite size at the reference depth"

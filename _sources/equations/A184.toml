@@ -1,0 +1,207 @@
+# Equation classification for A184. Read by `python3 _lib/equations.py`.
+
+caution = "Each region or game state carries its own forward map with its own axes, so a world position is projected only together with the region or state that owns it, and the worked example measures the world in tiles of sixteen pixels with $w_y$ increasing downward."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Piecewise Forward Map"
+gloss = "The forward map is defined piecewise, applying to each world position the projection of the region that contains it."
+cite = []
+digest = "c91bcfde47196679"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Top-Down Forward Map for the Ground"
+gloss = "Ground positions use the top-down forward map of the lateral and depth coordinates, scaled by the zoom and offset to the screen centre."
+cite = []
+digest = "abd1a1cfaba98c36"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Hybrid Forward Map for Raised Objects"
+gloss = "Objects above the ground use the top-down map lifted up the screen by the height times the zoom, which reproduces the decoupled-vertical-axis map."
+cite = []
+digest = "c13b911f492b6381"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Menu Overlay as a Constant Map"
+gloss = "The article treats the menu overlay as a zero-zoom orthographic projection, a constant map that sends every world position to a fixed screen position."
+cite = []
+digest = "d5970031f90cf80b"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "State-Switching Forward Map"
+gloss = "The forward map is selected by the current game state from among the overworld, town, battle and menu projections."
+cite = []
+digest = "733e153cb800f7df"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Interpolated Transition between Forward Maps"
+gloss = "During a transition the screen position is a convex combination of the source and target projections, weighted by a progress curve running from zero to one."
+cite = []
+digest = "46464265d0745f14"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Torus-Wrapped World Position"
+gloss = "Taking the world position modulo the world dimensions along the two wrapping axes gives the effective position on a torus."
+cite = []
+digest = "c414c6f53b00a36e"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Forward Map of a Wrapped World"
+gloss = "The base top-down forward map is applied to the effective wrapped position."
+cite = []
+digest = "05eccdd7a4ede1b9"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Post-Processing Composed after Projection"
+gloss = "The article models stylised filtering, blurring and compositing as an operator applied after the side-scrolling projection, which leaves the projection itself unchanged."
+cite = []
+digest = "50ed4f5962bd0c8d"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Piecewise Inverse Map"
+gloss = "The inverse first identifies the region a screen pixel belongs to and then applies the inverse of that region's projection."
+cite = []
+digest = "9e35281bdb2d9760"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "State-Switching Inverse Map"
+gloss = "In the per-scene variant the current game state alone determines which inverse to apply."
+cite = []
+digest = "7855c02943f0eb43"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Multi-Valued Inverse on a Torus"
+gloss = "On a wrapped world a screen pixel corresponds to the base inverse shifted by every integer multiple of the world dimensions."
+cite = []
+digest = "8b705b18fcc084b9"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Worked Screen Position of a Ground Tile"
+gloss = "With an illustrative zoom of sixteen pixels per tile and the camera at $(5, 5)$, the ground tile under the camera lands at the screen centre $(128, 112)$."
+cite = []
+digest = "4b7068a09d9f942b"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Worked Screen Position of a Building Base"
+gloss = "A building anchored one tile forward of the camera has its base at $(128, 128)$."
+cite = []
+digest = "7cd342d98f32a863"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Worked Screen Position of a Building Top"
+gloss = "A building three tiles tall extends forty-eight pixels up the screen to its top edge at $(128, 80)$."
+cite = []
+digest = "4df2a7ef5a34f37a"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Worked Local Height of a Click on the Building"
+gloss = "A click at screen row one hundred on the building lies one point seven five tiles above its base."
+cite = []
+digest = "2448227b7ea2b43d"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Worked World Position of the Building Hit"
+gloss = "Combining the building anchor with the local height recovers the world point $(5, -1.75, 6)$, above the ground under the downward vertical convention."
+cite = []
+digest = "2e4e4fc3e97883b4"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Ground Inverse of a Click"
+gloss = "A click at $(140, 130)$ on a ground tile is mapped by the top-down inverse to $(5.75, 6.125)$."
+cite = []
+digest = "1002d8d105af50bd"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Round Trip within a Region or State"
+gloss = "Within each region or state, the forward map followed by its inverse returns the original world position up to floating-point precision."
+cite = []
+digest = "d076ca2de7c38cb5"
+
+[[symbol]]
+tex = 'F_{i(\mathbf{p}_{\text{world}})}'
+meaning = "the forward map of the region containing the world position"
+
+[[symbol]]
+tex = 'z'
+meaning = "the zoom factor in pixels per world tile"
+
+[[symbol]]
+tex = '\mathbf{o}'
+meaning = "the screen centre offset in pixels"
+
+[[symbol]]
+tex = 'h'
+meaning = "the height above the ground, $w_y^{\\text{ground}} - w_y$"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{screen}}^{\text{fixed}}'
+meaning = "the fixed screen position of a menu element"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the current game state, or the active region"
+
+[[symbol]]
+tex = '\beta(t)'
+meaning = "the transition progress curve, running from zero to one"
+
+[[symbol]]
+tex = '\mathbf{W}_{\text{world}}'
+meaning = "the world dimensions along the two wrapping axes"
+
+[[symbol]]
+tex = 'F_{\text{base}}'
+meaning = "the floor-case top-down forward map applied before wrapping"
+
+[[symbol]]
+tex = 'P'
+meaning = "the post-processing pipeline applied after projection"
+
+[[symbol]]
+tex = '\mathbf{I}_{\text{screen}}'
+meaning = "the rendered screen image"
+
+[[symbol]]
+tex = 'k_x'
+meaning = "the integer number of wraps along the lateral axis, with $k_z$ defined alike"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"

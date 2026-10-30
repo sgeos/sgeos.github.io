@@ -1,0 +1,295 @@
+# Equation classification for A187. Read by `python3 _lib/equations.py`.
+
+caution = "Positions are homogeneous four-vectors whose fourth component is one for a point, the camera looks along $+w_z$ so the clip-space fourth component of a perspective projection equals the view-space depth, and normalised-device coordinates run from minus one to one with positive $y$ below the screen centre in the forward viewport transformation."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Projection, View and Model Pipeline"
+gloss = "A world vertex is carried to clip space by the model, view and projection matrices applied in sequence."
+cite = []
+digest = "c9ebbf40f96c1bbc"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Homogeneous Augmentation of a Point"
+gloss = "A world point gains a fourth component equal to one, which distinguishes points from directions in the projective framework."
+cite = []
+digest = "d2b1589455cb8d09"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Model Transform"
+gloss = "The model matrix places model-local coordinates in the world frame by the position, orientation and scale of the object."
+cite = []
+digest = "952e63a9ce1e8749"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "View Transform"
+gloss = "The view matrix carries world coordinates into the camera frame by the position and orientation of the camera."
+cite = []
+digest = "5fb6b2552d5c3cfd"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Projection Transform"
+gloss = "The projection matrix carries camera-frame coordinates into clip space by the lens parameters of the camera."
+cite = []
+digest = "06b718125514a35d"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Full Pipeline from Model-Local Coordinates"
+gloss = "The full pipeline applies the model, view and projection matrices from right to left to a model-local point."
+cite = []
+digest = "5b7113b79d243ae8"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Pipeline without a Model Transform"
+gloss = "Treating world coordinates as the input drops the model matrix, the form the series uses to compare projection modes."
+cite = []
+digest = "99a9ef0fdb06cbc4"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Perspective Division"
+gloss = "Dividing the first three clip-space components by the fourth gives the normalised-device coordinate, the operational form of perspective foreshortening."
+cite = []
+digest = "d23fa401f4ee15c5"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Viewport Transformation"
+gloss = "The normalised-device coordinates from minus one to one are mapped linearly onto the pixel ranges of the screen width and height."
+cite = []
+digest = "0c3fc24c93e0ab81"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Perspective Projection Matrix"
+gloss = "The perspective matrix scales the lateral and vertical axes by the focal length factor and the aspect ratio and copies the view depth into the fourth component."
+cite = []
+digest = "37d9c5b69d139a73"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Orthographic Projection Matrix"
+gloss = "The orthographic matrix scales by the half-widths of the viewing volume and maps the near and far planes to the depth range from minus one to one, leaving the fourth component at one."
+cite = []
+digest = "8714c8ffe080ce5e"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Inverse-Distance Scaling of Perspective Division"
+gloss = "The perspective division scales a vertex at view depth $d$ by the reciprocal of that depth, the common form of the Mode 7 and sprite-scaling factors."
+cite = []
+digest = "da0bef1fed585151"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Inverse Viewport Transformation"
+gloss = "A screen pixel is mapped back linearly to normalised-device coordinates, with the vertical axis negated."
+cite = []
+digest = "0559f390bbe1cedc"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Inverse Perspective Division"
+gloss = "Multiplying the normalised-device coordinate and a unit fourth entry by the clip-space fourth component restores the clip-space coordinate."
+cite = []
+digest = "f688796f63576ce7"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Inverse Projective Pipeline"
+gloss = "Applying the inverses of the projection, view and model matrices in reverse order returns the clip-space coordinate to the world."
+cite = []
+digest = "f9d25400223397c9"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Worked Identity View Matrix"
+gloss = "The example places the camera at the origin looking along $+w_z$, so the view matrix is the identity."
+cite = []
+digest = "061aac241d452ecc"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Worked Orthographic Matrix"
+gloss = "With illustrative half-widths of twenty and fifteen and near and far planes at one and one hundred, the orthographic matrix takes the values shown."
+cite = []
+digest = "49e31c787c789d29"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Orthographic Clip Coordinate"
+gloss = "The vertex $(10, 5, 50)$ maps to the clip coordinate $(1/2, 1/3, -1/99, 1)$."
+cite = []
+digest = "7d0d9159bd6b674a"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Orthographic Normalised-Device Coordinate"
+gloss = "Division by a fourth component of one leaves the coordinate unchanged."
+cite = []
+digest = "26e5b287211baa38"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Orthographic Screen Position"
+gloss = "On an eight hundred by six hundred screen the vertex lands at $(600, 400)$."
+cite = []
+digest = "e8136783610d9782"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Worked Perspective Matrix"
+gloss = "A ninety-degree vertical field of view gives a focal length factor of one, and the four-to-three aspect ratio gives a lateral entry of three quarters."
+cite = []
+digest = "5e36b0e4621b160f"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Worked Perspective Clip Coordinate"
+gloss = "The same vertex maps to a clip coordinate whose fourth component equals its view depth of fifty."
+cite = []
+digest = "8f65b6a023563dd7"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Worked Perspective Normalised-Device Coordinate"
+gloss = "Division by fifty gives lateral and vertical normalised-device coordinates of $0.15$ and $0.10$."
+cite = []
+digest = "ad81fbecb8db0671"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Worked Perspective Screen Position"
+gloss = "The viewport transformation places the vertex at $(460, 330)$."
+cite = []
+digest = "175eaed608fe22bc"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Worked Perspective Coordinate of a Nearer Vertex"
+gloss = "A vertex at half the depth lands twice as far from the screen centre in normalised-device coordinates."
+cite = []
+digest = "0400cf38295cc835"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Round Trip within a Projection"
+gloss = "Within each projection, the forward map followed by its inverse returns the original world position up to floating-point precision."
+cite = []
+digest = "9a92be290d919092"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Projection, View and Model Pipeline Restated"
+gloss = "The conclusion restates the forward map as the model, view and projection matrices applied to each world vertex."
+cite = []
+digest = "f5525bd3df595968"
+
+[[symbol]]
+tex = 'P'
+meaning = "the four-by-four projection matrix"
+
+[[symbol]]
+tex = 'V'
+meaning = "the four-by-four view matrix"
+
+[[symbol]]
+tex = 'M'
+meaning = "the four-by-four model matrix"
+
+[[symbol]]
+tex = '\tilde{\mathbf{p}}_{\text{world}}'
+meaning = "the homogeneous world coordinate"
+
+[[symbol]]
+tex = '\tilde{\mathbf{p}}_{\text{clip}}'
+meaning = "the homogeneous clip-space coordinate"
+
+[[symbol]]
+tex = 'w_c'
+meaning = "the clip-space fourth component"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{ndc}}'
+meaning = "the normalised-device coordinate"
+
+[[symbol]]
+tex = 'W'
+meaning = "the screen width in pixels"
+
+[[symbol]]
+tex = 'H'
+meaning = "the screen height in pixels"
+
+[[symbol]]
+tex = 'f'
+meaning = "the focal length factor, $1/\\tan(\\phi/2)$ for vertical field of view $\\phi$"
+
+[[symbol]]
+tex = 'a'
+meaning = "the aspect ratio $W/H$"
+
+[[symbol]]
+tex = 'A'
+meaning = "the depth scale constant mapping view depth to normalised-device depth"
+
+[[symbol]]
+tex = 'B'
+meaning = "the depth offset constant mapping view depth to normalised-device depth"
+
+[[symbol]]
+tex = 'r'
+meaning = "the lateral half-width of the orthographic viewing volume"
+
+[[symbol]]
+tex = 't'
+meaning = "the vertical half-height of the orthographic viewing volume"
+
+[[symbol]]
+tex = 'z_n'
+meaning = "the near clipping plane"
+
+[[symbol]]
+tex = 'z_f'
+meaning = "the far clipping plane"
+
+[[symbol]]
+tex = 'k(d)'
+meaning = "the inverse-distance scaling factor at view depth $d$"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"

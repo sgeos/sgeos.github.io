@@ -1,0 +1,267 @@
+# Equation classification for A181. Read by `python3 _lib/equations.py`.
+
+caution = "The focal length and every screen coordinate are in pixels, world positions and the camera height are in world units with $w_y$ increasing downward, so the per-scanline scale is in world units per pixel, and the yaw angle is in radians."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Camera Height above the Ground"
+gloss = "Under the downward vertical convention, the camera height is the ground coordinate minus the vertical camera coordinate, which must be positive."
+cite = []
+digest = "06803396e620c507"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Horizontal Field of View from Focal Length"
+gloss = "The horizontal field of view is twice the arctangent of half the screen width divided by the focal length."
+cite = []
+digest = "7bd4b6e893d392db"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Ground Depth of a Scanline"
+gloss = "By similar triangles, a scanline below the horizon meets the ground at a depth equal to the focal length times the camera height divided by the row offset from the horizon."
+cite = []
+digest = "734fa86785136bf3"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Per-Scanline Scale Factor"
+gloss = "The world distance covered by one pixel on a scanline is its ground depth divided by the focal length, inversely proportional to the row offset from the horizon."
+cite = []
+digest = "db367df08a132157"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Gradient of the Per-Scanline Scale"
+gloss = "The scale factor changes with the scanline at a rate that falls with the square of the row offset, so it changes fastest near the horizon."
+cite = []
+digest = "144cabc896255847"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Per-Scanline Mode 7 Matrix"
+gloss = "The matrix the Super Nintendo Entertainment System applies on each scanline is the per-scanline scale times the camera yaw rotation."
+cite = []
+digest = "55b190b28435a62f"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Backward Map from Pixel to Ground"
+gloss = "The ground position sampled by a pixel is the camera position plus the per-scanline matrix applied to the horizontal pixel offset and the focal length."
+cite = []
+digest = "fd0a7788763e76b9"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Backward Map for the Lateral Ground Coordinate"
+gloss = "Written out, the lateral ground coordinate combines the rotated horizontal pixel offset and focal length scaled by the per-scanline factor."
+cite = []
+digest = "8ea070e18564bc24"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Backward Map for the Depth Ground Coordinate"
+gloss = "The depth ground coordinate combines the same two terms with the other row of the rotation."
+cite = []
+digest = "28cadf6b008527f1"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Camera-Frame Ground Coordinates"
+gloss = "Rotating the camera-relative ground position by the negated yaw expresses it in the frame of the camera."
+cite = []
+digest = "9175b38221f6be04"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Perspective Forward Map for Screen X"
+gloss = "The horizontal screen coordinate is the screen centre plus the focal length times the camera-frame lateral coordinate divided by the camera-frame depth."
+cite = []
+digest = "50e1794208ca4b1a"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Perspective Forward Map for Screen Y"
+gloss = "The vertical screen coordinate is the horizon row plus the focal length times the camera height divided by the camera-frame depth, the division that makes the map projective."
+cite = []
+digest = "8b533338664b5027"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Worked Per-Scanline Scale"
+gloss = "With an illustrative horizon at row eighty and a camera height of sixteen units, the per-scanline scale is sixteen divided by the row offset."
+cite = []
+digest = "8053fd0c78c75d99"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Worked Scanline Depth"
+gloss = "With an illustrative focal length of ninety-six pixels, the scanline depth is one thousand five hundred and thirty-six divided by the row offset."
+cite = []
+digest = "cd277cd70c4df2ae"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Worked Lateral Coordinate at the Screen Centre"
+gloss = "At zero yaw the centre pixel of row one hundred samples zero lateral offset from the camera."
+cite = []
+digest = "3c6d18293f1553c3"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Worked Depth Coordinate at the Screen Centre"
+gloss = "The same pixel samples a depth of seventy-six point eight world units, matching the scanline depth."
+cite = []
+digest = "bcfcda96dff4d325"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Worked Lateral Coordinate at the Screen Edge"
+gloss = "The left-edge pixel of the same row samples a lateral offset of minus one hundred and two point four world units."
+cite = []
+digest = "523b6fccf2e92214"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Depth Coordinate at the Screen Edge"
+gloss = "The left-edge pixel samples the same depth as the centre pixel, since depth depends only on the scanline at zero yaw."
+cite = []
+digest = "b5ef83e6a3ba9316"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Per-Scanline Matrix at a Quarter-Turn Yaw"
+gloss = "A yaw of ninety degrees turns the rotation into the quarter-turn matrix scaled by the per-scanline factor."
+cite = []
+digest = "0acd3472e49a6ae4"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Lateral Coordinate after a Quarter Turn"
+gloss = "After the quarter turn the centre pixel samples a lateral offset of minus seventy-six point eight world units."
+cite = []
+digest = "57671274ddc7a655"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Worked Depth Coordinate after a Quarter Turn"
+gloss = "After the quarter turn the same pixel samples zero depth offset, the view having swung onto the lateral axis."
+cite = []
+digest = "d969c631a648564e"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Worked Forward Map for Screen X"
+gloss = "Projecting the sampled ground point forward at zero yaw returns the centre column one hundred and twenty-eight."
+cite = []
+digest = "c16b70cfbe2ba3eb"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Worked Forward Map for Screen Y"
+gloss = "Projecting the same point forward returns row one hundred, the row it was sampled from."
+cite = []
+digest = "2332688786d66e8f"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Round Trip along the Ground Plane"
+gloss = "For a point on the ground plane, the forward map followed by the backward map returns the original world position up to floating-point precision."
+cite = []
+digest = "ba6d9c1cb6e4df15"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Per-Scanline Matrix with Unequal Axis Scales"
+gloss = "Separate lateral and depth scale factors inside the per-scanline matrix let horizontal foreshortening differ from depth foreshortening for stylised effects."
+cite = []
+digest = "ae84eae95505612f"
+
+[[symbol]]
+tex = 'h'
+meaning = "the camera height above the ground in world units"
+
+[[symbol]]
+tex = 'w_y^{\text{ground}}'
+meaning = "the vertical world coordinate of the ground plane"
+
+[[symbol]]
+tex = 'f'
+meaning = "the focal length in pixels"
+
+[[symbol]]
+tex = 'W'
+meaning = "the screen width in pixels"
+
+[[symbol]]
+tex = '\mathrm{FOV}'
+meaning = "the horizontal field of view"
+
+[[symbol]]
+tex = 's_y^{\text{horizon}}'
+meaning = "the screen row of the horizon"
+
+[[symbol]]
+tex = 'd(s_y)'
+meaning = "the ground depth from the camera along its forward axis at scanline $s_y$"
+
+[[symbol]]
+tex = 'z(s_y)'
+meaning = "the per-scanline scale factor, the world distance per screen pixel at scanline $s_y$"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the camera yaw angle"
+
+[[symbol]]
+tex = 'R(\theta)'
+meaning = "the two-dimensional rotation by the yaw angle"
+
+[[symbol]]
+tex = 'M(s_y)'
+meaning = "the per-scanline Mode 7 matrix"
+
+[[symbol]]
+tex = '\tilde{w}_x'
+meaning = "the camera-frame lateral ground coordinate"
+
+[[symbol]]
+tex = '\tilde{w}_z'
+meaning = "the camera-frame depth ground coordinate"
+
+[[symbol]]
+tex = 'z_x'
+meaning = "the lateral scale factor of the anisotropic variant"
+
+[[symbol]]
+tex = 'z_z'
+meaning = "the depth scale factor of the anisotropic variant"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"

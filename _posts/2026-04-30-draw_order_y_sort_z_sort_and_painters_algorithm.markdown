@@ -181,6 +181,7 @@ The sort criterion is the comparison
 
 $$
 \text{draw } i \text{ before } j \iff k_i > k_j.
+\tag{1}
 $$
 
 The sort key $k_i$
@@ -206,6 +207,7 @@ The total per-frame cost is
 
 $$
 T_{\text{painter}}(n) = O(n \log n) + O\left( \sum_{i=1}^{n} A_i \right),
+\tag{2}
 $$
 
 where $A_i$ is the screen-space area of object $i$.
@@ -231,6 +233,7 @@ as the primary sort key,
 
 $$
 k_i^{\, Y} = s_{y, i}^{\text{anchor}}.
+\tag{3}
 $$
 
 The comparison
@@ -239,6 +242,7 @@ for earlier rendering,
 
 $$
 \text{draw } i \text{ before } j \iff s_{y, i}^{\text{anchor}} < s_{y, j}^{\text{anchor}}.
+\tag{4}
 $$
 
 For ground-aligned objects in any of the projection modes
@@ -270,6 +274,7 @@ of each object,
 
 $$
 \text{draw } i \text{ before } j \text{ when tied} \iff w_{z, i} > w_{z, j}.
+\tag{5}
 $$
 
 The deeper object
@@ -283,6 +288,7 @@ through a stable sort algorithm,
 
 $$
 \text{draw } i \text{ before } j \text{ when tied} \iff t_{\text{created}, i} < t_{\text{created}, j}.
+\tag{6}
 $$
 
 The older object
@@ -297,6 +303,7 @@ uses a unique object identifier,
 
 $$
 \text{draw } i \text{ before } j \text{ when tied} \iff \text{id}(i) < \text{id}(j).
+\tag{7}
 $$
 
 The identifier provides a deterministic order
@@ -332,6 +339,7 @@ as the sort key directly,
 
 $$
 k_i^{\, Z} = w_{z, i}.
+\tag{8}
 $$
 
 The comparison
@@ -340,6 +348,7 @@ for earlier rendering,
 
 $$
 \text{draw } i \text{ before } j \iff w_{z, i} > w_{z, j}.
+\tag{9}
 $$
 
 The criterion is more direct than Y-sort
@@ -367,6 +376,7 @@ The comparison
 
 $$
 w_{z, i} > w_{z, j}
+\tag{10}
 $$
 
 can flip between adjacent frames
@@ -374,6 +384,7 @@ if the depth difference is smaller than the floating-point precision $\varepsilo
 
 $$
 |w_{z, i} - w_{z, j}| < \varepsilon.
+\tag{11}
 $$
 
 The flip produces visible flicker
@@ -392,6 +403,7 @@ $$
 w_{z, i} > w_{z, j} & \text{if } |w_{z, i} - w_{z, j}| \geq \varepsilon \\
 \text{secondary criterion} & \text{otherwise}.
 \end{cases}
+\tag{12}
 $$
 
 A typical secondary criterion
@@ -404,6 +416,7 @@ that eliminates the near-tie cases entirely,
 
 $$
 \hat{w}_{z, i} = \mathrm{round}(w_{z, i} / \Delta) \cdot \Delta,
+\tag{13}
 $$
 
 where $\Delta$ is the quantisation step.
@@ -426,6 +439,7 @@ s_{y, i}^{\text{anchor}} < s_{y, j}^{\text{anchor}} & \text{if not tied on } Y \
 w_{z, i} > w_{z, j} & \text{if tied on } Y \text{ and not tied on } Z \\
 \text{tertiary criterion} & \text{if tied on both}.
 \end{cases}
+\tag{14}
 $$
 
 The tertiary criterion
@@ -466,6 +480,7 @@ The forward-map matrix is
 
 $$
 M = \begin{bmatrix} 32 & 0 & -32 \\ 16 & 32 & 16 \end{bmatrix}.
+\tag{15}
 $$
 
 Three world objects populate the scene
@@ -484,18 +499,21 @@ The tree projects to
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{tree}} = (32 \cdot 5 - 32 \cdot 3,\ 16 \cdot 5 + 0 + 16 \cdot 3) + (400, 300) = (64, 128) + (400, 300) = (464, 428).
+\tag{16}
 $$
 
 The sign projects to
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{sign}} = (32 \cdot 4 - 32 \cdot 4,\ 16 \cdot 4 + 0 + 16 \cdot 4) + (400, 300) = (0, 128) + (400, 300) = (400, 428).
+\tag{17}
 $$
 
 The player projects to
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{player}} = (32 \cdot 6 - 32 \cdot 5,\ 16 \cdot 6 + 0 + 16 \cdot 5) + (400, 300) = (32, 176) + (400, 300) = (432, 476).
+\tag{18}
 $$
 
 The Y-sort criterion
@@ -503,6 +521,7 @@ applied to the three anchor screen-y values gives
 
 $$
 \big( s_y^{\text{tree}},\ s_y^{\text{sign}},\ s_y^{\text{player}} \big) = (428,\ 428,\ 476).
+\tag{19}
 $$
 
 The tree and the sign tie at $s_y = 428$.
@@ -521,6 +540,7 @@ produces the draw order
 
 $$
 \text{sign} \to \text{tree} \to \text{player}.
+\tag{20}
 $$
 
 The sign renders first at the back.
@@ -537,6 +557,7 @@ The projectile's anchor screen position is
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{projectile}} = (32 \cdot 6 - 32 \cdot 5,\ 16 \cdot 6 + 32 \cdot (-2) + 16 \cdot 5) + (400, 300) = (32, 112) + (400, 300) = (432, 412).
+\tag{21}
 $$
 
 The projectile renders at screen $(432, 412)$,
@@ -559,6 +580,7 @@ to the screen-y of its ground projection,
 
 $$
 s_y^{\text{projectile, shadow}} = 16 \cdot 6 + 0 + 16 \cdot 5 + 300 = 476.
+\tag{22}
 $$
 
 The projectile's shadow Y-sort key
@@ -575,6 +597,7 @@ when the world configuration is stable,
 
 $$
 \sigma_{n}(\{k_i\}_{i=1}^{n}) = \sigma_{n+1}(\{k_i\}_{i=1}^{n}) \text{ when } k_i \text{ unchanged},
+\tag{23}
 $$
 
 where $\sigma_n$ is the sorted order at frame $n$.
@@ -614,6 +637,7 @@ $$
 \ell_i < \ell_j & \text{if } \ell_i \neq \ell_j \\
 \text{within-layer criterion}(i, j) & \text{if } \ell_i = \ell_j.
 \end{cases}
+\tag{24}
 $$
 
 The within-layer criterion
@@ -630,6 +654,7 @@ as the sort key,
 
 $$
 k_i = (R\, \mathbf{p}_{\text{world}, i})_z,
+\tag{25}
 $$
 
 where $R$ is the camera rotation matrix.
@@ -674,6 +699,7 @@ at each screen pixel,
 
 $$
 \text{paint pixel} \iff d_{\text{new}} < d_{\text{stored}}.
+\tag{26}
 $$
 
 The depth buffer
@@ -926,6 +952,255 @@ The next article in the series
 treats the cross-cutting picking framework
 that uses the draw-order structure
 to identify the clicked object.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 26 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 26, 26 are established and 0 are bespoke.
+Draw order is back to front, so an object drawn earlier lies behind, a smaller anchor screen $y$ or a larger world depth $w_z$ marks an object farther from the viewer, and the worked example uses the game-isometric matrix with $w_y$ increasing downward.
+
+**Equation 1, Painter's Algorithm Sort Criterion.**
+Objects are drawn in decreasing order of a back-to-front depth key, so that the last drawn take visual priority.
+
+$$
+\text{draw } i \text{ before } j \iff k_i > k_j.
+\tag{1}
+$$
+
+**Equation 2, Per-Frame Cost of the Painter's Algorithm.**
+The cost of a frame is a comparison sort of the objects plus the total screen area of the sprites drawn.
+
+$$
+T_{\text{painter}}(n) = O(n \log n) + O\left( \sum_{i=1}^{n} A_i \right),
+\tag{2}
+$$
+
+**Equation 3, Y-Sort Key.**
+The Y-sort key of an object is the screen $y$ of its anchor.
+
+$$
+k_i^{\, Y} = s_{y, i}^{\text{anchor}}.
+\tag{3}
+$$
+
+**Equation 4, Y-Sort Criterion.**
+An object is drawn before another exactly when its anchor screen $y$ is smaller.
+
+$$
+\text{draw } i \text{ before } j \iff s_{y, i}^{\text{anchor}} < s_{y, j}^{\text{anchor}}.
+\tag{4}
+$$
+
+**Equation 5, Depth Tie-Breaker.**
+When two anchors tie, the deeper object is drawn first.
+
+$$
+\text{draw } i \text{ before } j \text{ when tied} \iff w_{z, i} > w_{z, j}.
+\tag{5}
+$$
+
+**Equation 6, Creation-Order Tie-Breaker.**
+When objects still tie, a stable sort draws the older object first.
+
+$$
+\text{draw } i \text{ before } j \text{ when tied} \iff t_{\text{created}, i} < t_{\text{created}, j}.
+\tag{6}
+$$
+
+**Equation 7, Identifier Tie-Breaker.**
+A unique object identifier gives a final deterministic order independent of gameplay state.
+
+$$
+\text{draw } i \text{ before } j \text{ when tied} \iff \text{id}(i) < \text{id}(j).
+\tag{7}
+$$
+
+**Equation 8, Z-Sort Key.**
+The Z-sort key of an object is its world depth coordinate.
+
+$$
+k_i^{\, Z} = w_{z, i}.
+\tag{8}
+$$
+
+**Equation 9, Z-Sort Criterion.**
+An object is drawn before another exactly when its world depth is larger.
+
+$$
+\text{draw } i \text{ before } j \iff w_{z, i} > w_{z, j}.
+\tag{9}
+$$
+
+**Equation 10, Depth Comparison Prone to Flicker.**
+The bare depth comparison can change result between frames when two depths are nearly equal.
+
+$$
+w_{z, i} > w_{z, j}
+\tag{10}
+$$
+
+**Equation 11, Near-Tie Condition.**
+A flip becomes possible when the depth difference is smaller than the floating-point precision.
+
+$$
+|w_{z, i} - w_{z, j}| < \varepsilon.
+\tag{11}
+$$
+
+**Equation 12, Z-Sort with a Tie Tolerance.**
+Depths closer than the tolerance are treated as tied and ordered by a secondary criterion, which removes the flicker.
+
+$$
+\text{draw } i \text{ before } j \iff
+\begin{cases}
+w_{z, i} > w_{z, j} & \text{if } |w_{z, i} - w_{z, j}| \geq \varepsilon \\
+\text{secondary criterion} & \text{otherwise}.
+\end{cases}
+\tag{12}
+$$
+
+**Equation 13, Quantised Depth.**
+Rounding each depth to a multiple of a quantisation step places depths on a fixed-point grid where near ties become exact ties.
+
+$$
+\hat{w}_{z, i} = \mathrm{round}(w_{z, i} / \Delta) \cdot \Delta,
+\tag{13}
+$$
+
+**Equation 14, Hybrid Y-Then-Z Sort Criterion.**
+The hybrid sort orders lexicographically by increasing anchor screen $y$, then by decreasing world depth, then by a tertiary criterion.
+
+$$
+\text{draw } i \text{ before } j \iff
+\begin{cases}
+s_{y, i}^{\text{anchor}} < s_{y, j}^{\text{anchor}} & \text{if not tied on } Y \\
+w_{z, i} > w_{z, j} & \text{if tied on } Y \text{ and not tied on } Z \\
+\text{tertiary criterion} & \text{if tied on both}.
+\end{cases}
+\tag{14}
+$$
+
+**Equation 15, Worked Game-Isometric Matrix.**
+The example uses the game-isometric matrix with an illustrative zoom of thirty-two pixels, an eight hundred by six hundred screen and the camera at the origin.
+
+$$
+M = \begin{bmatrix} 32 & 0 & -32 \\ 16 & 32 & 16 \end{bmatrix}.
+\tag{15}
+$$
+
+**Equation 16, Worked Anchor of the Tree.**
+A tree at $(5, 0, 3)$ anchors at screen $(464, 428)$.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{tree}} = (32 \cdot 5 - 32 \cdot 3,\ 16 \cdot 5 + 0 + 16 \cdot 3) + (400, 300) = (64, 128) + (400, 300) = (464, 428).
+\tag{16}
+$$
+
+**Equation 17, Worked Anchor of the Sign.**
+A sign at $(4, 0, 4)$ anchors at screen $(400, 428)$, tying the tree in screen $y$.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{sign}} = (32 \cdot 4 - 32 \cdot 4,\ 16 \cdot 4 + 0 + 16 \cdot 4) + (400, 300) = (0, 128) + (400, 300) = (400, 428).
+\tag{17}
+$$
+
+**Equation 18, Worked Anchor of the Player.**
+The player at $(6, 0, 5)$ anchors at screen $(432, 476)$.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{player}} = (32 \cdot 6 - 32 \cdot 5,\ 16 \cdot 6 + 0 + 16 \cdot 5) + (400, 300) = (32, 176) + (400, 300) = (432, 476).
+\tag{18}
+$$
+
+**Equation 19, Worked Y-Sort Keys.**
+The three anchor screen $y$ values are $428$, $428$ and $476$, with the tree and the sign tied.
+
+$$
+\big( s_y^{\text{tree}},\ s_y^{\text{sign}},\ s_y^{\text{player}} \big) = (428,\ 428,\ 476).
+\tag{19}
+$$
+
+**Equation 20, Worked Hybrid Draw Order.**
+Breaking the tie by depth draws the deeper sign before the tree, and the player last.
+
+$$
+\text{sign} \to \text{tree} \to \text{player}.
+\tag{20}
+$$
+
+**Equation 21, Worked Anchor of an Airborne Projectile.**
+A projectile two tiles above the player lands at screen $(432, 412)$, sixty-four pixels above the player anchor.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{projectile}} = (32 \cdot 6 - 32 \cdot 5,\ 16 \cdot 6 + 32 \cdot (-2) + 16 \cdot 5) + (400, 300) = (32, 112) + (400, 300) = (432, 412).
+\tag{21}
+$$
+
+**Equation 22, Worked Shadow Sort Key of the Projectile.**
+Sorting the projectile by the screen $y$ of its ground projection gives a key of $476$, matching the player.
+
+$$
+s_y^{\text{projectile, shadow}} = 16 \cdot 6 + 0 + 16 \cdot 5 + 300 = 476.
+\tag{22}
+$$
+
+**Equation 23, Frame-to-Frame Stability of the Sort.**
+A stable sort returns the same order in consecutive frames when no sort key has changed.
+
+$$
+\sigma_{n}(\{k_i\}_{i=1}^{n}) = \sigma_{n+1}(\{k_i\}_{i=1}^{n}) \text{ when } k_i \text{ unchanged},
+\tag{23}
+$$
+
+**Equation 24, Layered Sort Criterion.**
+Objects are ordered first by layer index and then, within a layer, by a Y-sort, Z-sort or hybrid criterion.
+
+$$
+\text{draw } i \text{ before } j \iff
+\begin{cases}
+\ell_i < \ell_j & \text{if } \ell_i \neq \ell_j \\
+\text{within-layer criterion}(i, j) & \text{if } \ell_i = \ell_j.
+\end{cases}
+\tag{24}
+$$
+
+**Equation 25, Camera-Frame Depth Sort Key.**
+Rotating each world position into the camera frame and taking its depth component generalises Z-sort to a rotating camera.
+
+$$
+k_i = (R\, \mathbf{p}_{\text{world}, i})_z,
+\tag{25}
+$$
+
+**Equation 26, Depth Buffer Test.**
+A depth buffer paints a pixel only when the new depth is nearer than the stored depth, which removes the need for a per-object sort.
+
+$$
+\text{paint pixel} \iff d_{\text{new}} < d_{\text{stored}}.
+\tag{26}
+$$
+
+### Notation
+
+- $k_i$, the sort key of object $i$
+- $A_i$, the screen-space area of object $i$
+- $s_{y, i}^{\text{anchor}}$, the screen $y$ of the anchor of object $i$
+- $w_{z, i}$, the world depth of object $i$
+- $t_{\text{created}, i}$, the creation time of object $i$
+- $\text{id}(i)$, the unique identifier of object $i$
+- $\varepsilon$, the floating-point precision, used as the tie tolerance
+- $\Delta$, the depth quantisation step
+- $M$, the game-isometric forward-map matrix of the example
+- $\sigma_{n}$, the sorted order at frame $n$
+- $\ell_i$, the layer index of object $i$
+- $R$, the camera rotation matrix
+- $d_{\text{new}}$, the depth of the fragment being drawn
+- $d_{\text{stored}}$, the closest depth stored in the depth buffer at the pixel
 
 ## References
 

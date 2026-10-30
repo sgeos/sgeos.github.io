@@ -1,0 +1,291 @@
+# Equation classification for A180. Read by `python3 _lib/equations.py`.
+
+caution = "World coordinates take $w_y$ as the vertical axis increasing downward and $w_x$ and $w_z$ as the two ground axes, each column of the projection matrix is the screen image in pixels of one world unit along one axis, and the zoom factor of the game-isometric form is the half-width of a tile in pixels."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Axonometric Forward Map as a Composition"
+gloss = "The forward map composes a camera translation, a rotation to the viewing direction, an orthogonal projection, a non-uniform scale and a screen-centre translation."
+cite = []
+digest = "f904cb6b6c71b2b7"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Axonometric Forward Map as a Single Matrix"
+gloss = "In practice the composition collapses to one two-by-three matrix applied to the camera-relative world coordinate, followed by the screen-centre offset."
+cite = []
+digest = "81f44913c699cd23"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Axonometric Projection Matrix by Columns"
+gloss = "Each column of the projection matrix is the screen-space image of one world-axis unit vector."
+cite = []
+digest = "2b1a425634ad9863"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Foreshortening Factor of the X Axis"
+gloss = "The foreshortening factor of the world $x$ axis is the length of the screen image of its unit vector."
+cite = []
+digest = "f87f18f783647a51"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Foreshortening Factor of the Y Axis"
+gloss = "The foreshortening factor of the world $y$ axis is the length of the screen image of its unit vector."
+cite = []
+digest = "b877409fa3c4de15"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Foreshortening Factor of the Z Axis"
+gloss = "The foreshortening factor of the world $z$ axis is the length of the screen image of its unit vector, and the pattern of equality among the three factors names the isometric, dimetric or trimetric variant."
+cite = []
+digest = "2ebcfd369c7f7ff9"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Axonometric Forward Map as a Three-by-Four Matrix"
+gloss = "The forward map acts on the augmented world coordinate through a three-by-four affine matrix whose translation column absorbs the camera position and screen centre."
+cite = []
+digest = "edfeea9668cc64c6"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Isometric Projection Matrix"
+gloss = "The isometric matrix gives all three axes the same foreshortening, with the two ground axes thirty degrees below the screen horizontal and the vertical axis straight down the screen."
+cite = []
+digest = "47172c12947e2571"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Game-Isometric Projection Matrix"
+gloss = "The game-industry convention uses a two-to-one tile width-to-height ratio, which makes the ground axes slope one pixel down for two across and is in fact dimetric."
+cite = []
+digest = "e15299547c8c6ae4"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Dimetric Projection Matrix of Tile Aspect R"
+gloss = "Relaxing the two-to-one ratio to an arbitrary tile aspect gives a one-parameter dimetric family that recovers the game-isometric matrix at an aspect of two."
+cite = []
+digest = "70d788e161d799a0"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Trimetric Projection Matrix"
+gloss = "Three independent axis scalings and two angles of the ground axes below the screen horizontal give the general trimetric matrix with five free parameters."
+cite = []
+digest = "5218eb3b61ceb53b"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Vertical World Coordinate of an Airborne Character"
+gloss = "An airborne character sits above the ground by its height, which under the downward vertical convention subtracts from the ground coordinate."
+cite = []
+digest = "024772434673019e"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Airborne Sprite Offset along the Vertical Column"
+gloss = "The airborne sprite is drawn at the shadow screen position shifted by the height times the screen image of the world vertical axis."
+cite = []
+digest = "c2749434d5e5af97"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Airborne Sprite Offset in Game-Isometric Projection"
+gloss = "Because the game-isometric vertical column points straight down the screen, the sprite offset reduces to the height times the zoom up the screen."
+cite = []
+digest = "7a2262d7ec1010dc"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Ground-Plane Inverse as a Two-by-Two System"
+gloss = "Fixing the vertical world coordinate at the ground leaves a two-by-two linear system in the two ground coordinates, solvable whenever the ground-axis columns are independent."
+cite = []
+digest = "20cb987024a07da9"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Game-Isometric Ground Inverse for the X Coordinate"
+gloss = "Solving the game-isometric system in closed form gives the ground $x$ coordinate from the sum of the horizontal offset and twice the height-corrected vertical offset."
+cite = []
+digest = "f0bc482daed8d200"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Game-Isometric Ground Inverse for the Z Coordinate"
+gloss = "The ground $z$ coordinate follows from the difference of twice the height-corrected vertical offset and the horizontal offset."
+cite = []
+digest = "c6db76f89c9fe68b"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Game-Isometric Matrix"
+gloss = "An illustrative zoom of thirty-two pixels gives a sixty-four by thirty-two pixel diamond tile and the matrix shown."
+cite = []
+digest = "040644f459ddccb9"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Screen Position of the Tile East of the Origin"
+gloss = "With an illustrative camera at the origin and an eight hundred by six hundred screen, the tile at $(1, 0, 0)$ lands at $(432, 316)$."
+cite = []
+digest = "166a61439ae615ac"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Screen Position of the Tile South of the Origin"
+gloss = "The tile at $(0, 0, 1)$ lands at $(368, 316)$."
+cite = []
+digest = "e898bb2da94a0672"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Worked Screen Position of the Diagonal Tile"
+gloss = "The tile at $(1, 0, 1)$ lands at $(400, 332)$, completing the diamond of four tile corners."
+cite = []
+digest = "b5eea8cfc184b3df"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Worked Screen Position of a Building Roof"
+gloss = "A roof two units above the origin lands sixty-four pixels above the origin tile at $(400, 236)$."
+cite = []
+digest = "c5a8f0a290380839"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Worked Screen Position of an Airborne Character"
+gloss = "A character one unit above the origin lands thirty-two pixels above the origin tile at $(400, 268)$."
+cite = []
+digest = "4cdb8bbc9fe1e6ec"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Worked Ground Inverse for the X Coordinate"
+gloss = "The game-isometric ground inverse of a click at $(432, 316)$ gives a ground $x$ coordinate of one."
+cite = []
+digest = "2289256698fecbc7"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Worked Ground Inverse for the Z Coordinate"
+gloss = "The same click gives a ground $z$ coordinate of zero, recovering the tile at $(1, 0, 0)$."
+cite = []
+digest = "1edf669a75e79b32"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Round Trip along the Ground Plane"
+gloss = "For a point on the ground plane, the forward map followed by the ground-plane inverse returns the original world position up to floating-point precision."
+cite = []
+digest = "ba6d9c1cb6e4df15"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Axonometric Sort Key"
+gloss = "The variable part of the ground-projection screen $y$ is the second-row weighting of the two ground coordinates, which serves as the draw-order key."
+cite = []
+digest = "72006909a5da5148"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Axonometric Draw Order Criterion"
+gloss = "An object is drawn before another exactly when its sort key, and so its ground-projection screen $y$, is smaller."
+cite = []
+digest = "c78f1a663d1923dd"
+
+[[symbol]]
+tex = 'M'
+meaning = "the two-by-three axonometric projection matrix whose columns are the screen images of the world-axis unit vectors"
+
+[[symbol]]
+tex = 'R'
+meaning = "the rotation orienting the view axis along the projection direction"
+
+[[symbol]]
+tex = 'P'
+meaning = "the orthogonal projection dropping the projection-axis coordinate"
+
+[[symbol]]
+tex = 'S'
+meaning = "the non-uniform scale applying the foreshortening of the chosen variant"
+
+[[symbol]]
+tex = '\mathbf{c}'
+meaning = "the camera position $(c_x, c_y, c_z)$"
+
+[[symbol]]
+tex = '\mathbf{o}'
+meaning = "the screen centre offset $(W/2, H/2)$ in pixels"
+
+[[symbol]]
+tex = 'f_x'
+meaning = "the foreshortening factor of the world $x$ axis, with $f_y$ and $f_z$ defined alike"
+
+[[symbol]]
+tex = 'z'
+meaning = "the common column scale, the half-tile width in pixels in game-isometric projection"
+
+[[symbol]]
+tex = 'r'
+meaning = "the tile width-to-height aspect of the dimetric family"
+
+[[symbol]]
+tex = 'z_x'
+meaning = "the foreshortening factor of the world $x$ axis in trimetric projection, with $z_y$ and $z_z$ defined alike"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the angle of the world $x$ axis below the screen horizontal"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the angle of the world $z$ axis below the screen horizontal"
+
+[[symbol]]
+tex = 'w_y^{\text{ground}}'
+meaning = "the vertical world coordinate of the ground plane"
+
+[[symbol]]
+tex = 'h'
+meaning = "the height of an airborne character above the ground"
+
+[[symbol]]
+tex = 'm_{\text{col-}y}'
+meaning = "the column of the projection matrix for the world vertical axis"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"

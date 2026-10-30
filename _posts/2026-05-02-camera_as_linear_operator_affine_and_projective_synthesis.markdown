@@ -25,6 +25,7 @@ to each world vertex,
 
 $$
 \mathbf{p}_{\text{clip}} = P\, V\, M\, \mathbf{p}_{\text{world}}.
+\tag{1}
 $$
 
 The model matrix $M$
@@ -190,6 +191,7 @@ that the projective framework requires,
 
 $$
 \tilde{\mathbf{p}}_{\text{world}} = (w_x, w_y, w_z, 1).
+\tag{2}
 $$
 
 The fourth component
@@ -212,6 +214,7 @@ in the world frame,
 
 $$
 \tilde{\mathbf{p}}_{\text{world}} = M\, \tilde{\mathbf{p}}_{\text{model}}.
+\tag{3}
 $$
 
 The view matrix $V$ is a four-by-four matrix
@@ -220,6 +223,7 @@ into camera-frame coordinates,
 
 $$
 \tilde{\mathbf{p}}_{\text{view}} = V\, \tilde{\mathbf{p}}_{\text{world}}.
+\tag{4}
 $$
 
 The view matrix
@@ -236,6 +240,7 @@ into clip-space coordinates,
 
 $$
 \tilde{\mathbf{p}}_{\text{clip}} = P\, \tilde{\mathbf{p}}_{\text{view}}.
+\tag{5}
 $$
 
 The projection matrix
@@ -248,6 +253,7 @@ The full pipeline is
 
 $$
 \tilde{\mathbf{p}}_{\text{clip}} = P\, V\, M\, \tilde{\mathbf{p}}_{\text{model-local}}.
+\tag{6}
 $$
 
 When the article treats the world coordinate
@@ -257,6 +263,7 @@ the pipeline simplifies to
 
 $$
 \tilde{\mathbf{p}}_{\text{clip}} = P\, V\, \tilde{\mathbf{p}}_{\text{world}}.
+\tag{7}
 $$
 
 The series typically uses this simplified form
@@ -274,6 +281,7 @@ through division by the fourth component,
 
 $$
 \mathbf{p}_{\text{ndc}} = \left( \frac{x_c}{w_c},\ \frac{y_c}{w_c},\ \frac{z_c}{w_c} \right).
+\tag{8}
 $$
 
 The division
@@ -292,6 +300,7 @@ into screen pixel coordinates,
 
 $$
 s_x = \frac{W}{2}\, (x_{\text{ndc}} + 1),\quad s_y = \frac{H}{2}\, (y_{\text{ndc}} + 1),
+\tag{9}
 $$
 
 where $W$ and $H$ are the screen width and height in pixels.
@@ -335,6 +344,7 @@ f / a & 0 & 0 & 0 \\
 0 & 0 & A & B \\
 0 & 0 & 1 & 0
 \end{bmatrix},
+\tag{10}
 $$
 
 where $f = 1 / \tan(\phi/2)$ is the focal length factor
@@ -356,6 +366,7 @@ P_{\text{ortho}} =
 0 & 0 & 2/(z_f - z_n) & -(z_f + z_n)/(z_f - z_n) \\
 0 & 0 & 0 & 1
 \end{bmatrix},
+\tag{11}
 $$
 
 where $r$ and $t$ are the half-widths of the viewing volume
@@ -461,6 +472,7 @@ produces an inverse-distance scaling factor
 
 $$
 k(d) = \frac{1}{d}.
+\tag{12}
 $$
 
 The Mode 7 per-scanline scaling factor $z(s_y) = h/(s_y - s_y^{\text{horizon}})$,
@@ -510,6 +522,7 @@ to a normalised-device coordinate,
 
 $$
 x_{\text{ndc}} = \frac{2\, s_x}{W} - 1,\quad y_{\text{ndc}} = 1 - \frac{2\, s_y}{H}.
+\tag{13}
 $$
 
 The depth value
@@ -524,6 +537,7 @@ follows from the inverse perspective division,
 
 $$
 \tilde{\mathbf{p}}_{\text{clip}} = w_c\, (x_{\text{ndc}},\ y_{\text{ndc}},\ z_{\text{ndc}},\ 1),
+\tag{14}
 $$
 
 where $w_c$ is the clip-space fourth component
@@ -534,6 +548,7 @@ in reverse order,
 
 $$
 \tilde{\mathbf{p}}_{\text{world}} = M^{-1}\, V^{-1}\, P^{-1}\, \tilde{\mathbf{p}}_{\text{clip}}.
+\tag{15}
 $$
 
 The full inverse-projective pipeline
@@ -574,6 +589,7 @@ looking along $+w_z$ axis,
 
 $$
 V = I.
+\tag{16}
 $$
 
 The orthographic projection matrix
@@ -590,6 +606,7 @@ P_{\text{ortho}} =
 0 & 0 & 2/99 & -101/99 \\
 0 & 0 & 0 & 1
 \end{bmatrix}.
+\tag{17}
 $$
 
 The clip-space coordinate
@@ -597,6 +614,7 @@ through the orthographic pipeline is
 
 $$
 \tilde{\mathbf{p}}_{\text{clip, ortho}} = P_{\text{ortho}}\, (10, 5, 50, 1) = (1/2,\ 1/3,\ -1/99,\ 1).
+\tag{18}
 $$
 
 The perspective division divides by $w_c = 1$
@@ -604,6 +622,7 @@ and produces the normalised-device coordinate
 
 $$
 \mathbf{p}_{\text{ndc, ortho}} = (1/2,\ 1/3,\ -1/99).
+\tag{19}
 $$
 
 The viewport transformation
@@ -611,6 +630,7 @@ gives the screen pixel coordinate
 
 $$
 \mathbf{p}_{\text{screen, ortho}} = \big( 400\, (1/2 + 1),\ 300\, (1/3 + 1) \big) = (600,\ 400).
+\tag{20}
 $$
 
 The vertex projects to screen $(600, 400)$
@@ -628,6 +648,7 @@ P_{\text{persp}} =
 0 & 0 & A & B \\
 0 & 0 & 1 & 0
 \end{bmatrix},
+\tag{21}
 $$
 
 where $A$ and $B$ map the view-space depth to normalised-device-coordinate depth.
@@ -637,6 +658,7 @@ through the perspective pipeline is
 
 $$
 \tilde{\mathbf{p}}_{\text{clip, persp}} = P_{\text{persp}}\, (10, 5, 50, 1) = (7.5,\ 5,\ A \cdot 50 + B,\ 50).
+\tag{22}
 $$
 
 The perspective division divides by $w_c = 50$.
@@ -644,6 +666,7 @@ The normalised-device coordinate is
 
 $$
 \mathbf{p}_{\text{ndc, persp}} = \left( \frac{7.5}{50},\ \frac{5}{50},\ \frac{A \cdot 50 + B}{50} \right) = (0.15,\ 0.10,\ z_{\text{ndc}}).
+\tag{23}
 $$
 
 The viewport transformation
@@ -651,6 +674,7 @@ gives the screen pixel coordinate
 
 $$
 \mathbf{p}_{\text{screen, persp}} = \big( 400\, (0.15 + 1),\ 300\, (0.10 + 1) \big) = (460,\ 330).
+\tag{24}
 $$
 
 The vertex projects to screen $(460, 330)$
@@ -679,6 +703,7 @@ as the first vertex,
 
 $$
 \mathbf{p}_{\text{ndc, persp, near}} = (7.5/25,\ 5/25,\ z_{\text{ndc}}) = (0.3,\ 0.2,\ z_{\text{ndc}}).
+\tag{25}
 $$
 
 The screen position is $(520, 360)$,
@@ -701,6 +726,7 @@ holds within each projection,
 
 $$
 F^{-1}(F(\mathbf{p}_{\text{world}})) = \mathbf{p}_{\text{world}} + O(\varepsilon),
+\tag{26}
 $$
 
 where $\varepsilon$ is the floating-point precision of the engine.
@@ -1038,6 +1064,7 @@ applies three matrices to each world vertex,
 
 $$
 \mathbf{p}_{\text{clip}} = P\, V\, M\, \mathbf{p}_{\text{world}},
+\tag{27}
 $$
 
 followed by the perspective division
@@ -1074,6 +1101,279 @@ encodes everything
 from the simplest two-dimensional view
 to the rich three-dimensional rendering
 that contemporary games produce.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 27 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 27, 27 are established and 0 are bespoke.
+Positions are homogeneous four-vectors whose fourth component is one for a point, the camera looks along $+w_z$ so the clip-space fourth component of a perspective projection equals the view-space depth, and normalised-device coordinates run from minus one to one with positive $y$ below the screen centre in the forward viewport transformation.
+
+**Equation 1, Projection, View and Model Pipeline.**
+A world vertex is carried to clip space by the model, view and projection matrices applied in sequence.
+
+$$
+\mathbf{p}_{\text{clip}} = P\, V\, M\, \mathbf{p}_{\text{world}}.
+\tag{1}
+$$
+
+**Equation 2, Homogeneous Augmentation of a Point.**
+A world point gains a fourth component equal to one, which distinguishes points from directions in the projective framework.
+
+$$
+\tilde{\mathbf{p}}_{\text{world}} = (w_x, w_y, w_z, 1).
+\tag{2}
+$$
+
+**Equation 3, Model Transform.**
+The model matrix places model-local coordinates in the world frame by the position, orientation and scale of the object.
+
+$$
+\tilde{\mathbf{p}}_{\text{world}} = M\, \tilde{\mathbf{p}}_{\text{model}}.
+\tag{3}
+$$
+
+**Equation 4, View Transform.**
+The view matrix carries world coordinates into the camera frame by the position and orientation of the camera.
+
+$$
+\tilde{\mathbf{p}}_{\text{view}} = V\, \tilde{\mathbf{p}}_{\text{world}}.
+\tag{4}
+$$
+
+**Equation 5, Projection Transform.**
+The projection matrix carries camera-frame coordinates into clip space by the lens parameters of the camera.
+
+$$
+\tilde{\mathbf{p}}_{\text{clip}} = P\, \tilde{\mathbf{p}}_{\text{view}}.
+\tag{5}
+$$
+
+**Equation 6, Full Pipeline from Model-Local Coordinates.**
+The full pipeline applies the model, view and projection matrices from right to left to a model-local point.
+
+$$
+\tilde{\mathbf{p}}_{\text{clip}} = P\, V\, M\, \tilde{\mathbf{p}}_{\text{model-local}}.
+\tag{6}
+$$
+
+**Equation 7, Pipeline without a Model Transform.**
+Treating world coordinates as the input drops the model matrix, the form the series uses to compare projection modes.
+
+$$
+\tilde{\mathbf{p}}_{\text{clip}} = P\, V\, \tilde{\mathbf{p}}_{\text{world}}.
+\tag{7}
+$$
+
+**Equation 8, Perspective Division.**
+Dividing the first three clip-space components by the fourth gives the normalised-device coordinate, the operational form of perspective foreshortening.
+
+$$
+\mathbf{p}_{\text{ndc}} = \left( \frac{x_c}{w_c},\ \frac{y_c}{w_c},\ \frac{z_c}{w_c} \right).
+\tag{8}
+$$
+
+**Equation 9, Viewport Transformation.**
+The normalised-device coordinates from minus one to one are mapped linearly onto the pixel ranges of the screen width and height.
+
+$$
+s_x = \frac{W}{2}\, (x_{\text{ndc}} + 1),\quad s_y = \frac{H}{2}\, (y_{\text{ndc}} + 1),
+\tag{9}
+$$
+
+**Equation 10, Perspective Projection Matrix.**
+The perspective matrix scales the lateral and vertical axes by the focal length factor and the aspect ratio and copies the view depth into the fourth component.
+
+$$
+P_{\text{persp}} =
+\begin{bmatrix}
+f / a & 0 & 0 & 0 \\
+0 & f & 0 & 0 \\
+0 & 0 & A & B \\
+0 & 0 & 1 & 0
+\end{bmatrix},
+\tag{10}
+$$
+
+**Equation 11, Orthographic Projection Matrix.**
+The orthographic matrix scales by the half-widths of the viewing volume and maps the near and far planes to the depth range from minus one to one, leaving the fourth component at one.
+
+$$
+P_{\text{ortho}} =
+\begin{bmatrix}
+1/r & 0 & 0 & 0 \\
+0 & 1/t & 0 & 0 \\
+0 & 0 & 2/(z_f - z_n) & -(z_f + z_n)/(z_f - z_n) \\
+0 & 0 & 0 & 1
+\end{bmatrix},
+\tag{11}
+$$
+
+**Equation 12, Inverse-Distance Scaling of Perspective Division.**
+The perspective division scales a vertex at view depth $d$ by the reciprocal of that depth, the common form of the Mode 7 and sprite-scaling factors.
+
+$$
+k(d) = \frac{1}{d}.
+\tag{12}
+$$
+
+**Equation 13, Inverse Viewport Transformation.**
+A screen pixel is mapped back linearly to normalised-device coordinates, with the vertical axis negated.
+
+$$
+x_{\text{ndc}} = \frac{2\, s_x}{W} - 1,\quad y_{\text{ndc}} = 1 - \frac{2\, s_y}{H}.
+\tag{13}
+$$
+
+**Equation 14, Inverse Perspective Division.**
+Multiplying the normalised-device coordinate and a unit fourth entry by the clip-space fourth component restores the clip-space coordinate.
+
+$$
+\tilde{\mathbf{p}}_{\text{clip}} = w_c\, (x_{\text{ndc}},\ y_{\text{ndc}},\ z_{\text{ndc}},\ 1),
+\tag{14}
+$$
+
+**Equation 15, Inverse Projective Pipeline.**
+Applying the inverses of the projection, view and model matrices in reverse order returns the clip-space coordinate to the world.
+
+$$
+\tilde{\mathbf{p}}_{\text{world}} = M^{-1}\, V^{-1}\, P^{-1}\, \tilde{\mathbf{p}}_{\text{clip}}.
+\tag{15}
+$$
+
+**Equation 16, Worked Identity View Matrix.**
+The example places the camera at the origin looking along $+w_z$, so the view matrix is the identity.
+
+$$
+V = I.
+\tag{16}
+$$
+
+**Equation 17, Worked Orthographic Matrix.**
+With illustrative half-widths of twenty and fifteen and near and far planes at one and one hundred, the orthographic matrix takes the values shown.
+
+$$
+P_{\text{ortho}} =
+\begin{bmatrix}
+1/20 & 0 & 0 & 0 \\
+0 & 1/15 & 0 & 0 \\
+0 & 0 & 2/99 & -101/99 \\
+0 & 0 & 0 & 1
+\end{bmatrix}.
+\tag{17}
+$$
+
+**Equation 18, Worked Orthographic Clip Coordinate.**
+The vertex $(10, 5, 50)$ maps to the clip coordinate $(1/2, 1/3, -1/99, 1)$.
+
+$$
+\tilde{\mathbf{p}}_{\text{clip, ortho}} = P_{\text{ortho}}\, (10, 5, 50, 1) = (1/2,\ 1/3,\ -1/99,\ 1).
+\tag{18}
+$$
+
+**Equation 19, Worked Orthographic Normalised-Device Coordinate.**
+Division by a fourth component of one leaves the coordinate unchanged.
+
+$$
+\mathbf{p}_{\text{ndc, ortho}} = (1/2,\ 1/3,\ -1/99).
+\tag{19}
+$$
+
+**Equation 20, Worked Orthographic Screen Position.**
+On an eight hundred by six hundred screen the vertex lands at $(600, 400)$.
+
+$$
+\mathbf{p}_{\text{screen, ortho}} = \big( 400\, (1/2 + 1),\ 300\, (1/3 + 1) \big) = (600,\ 400).
+\tag{20}
+$$
+
+**Equation 21, Worked Perspective Matrix.**
+A ninety-degree vertical field of view gives a focal length factor of one, and the four-to-three aspect ratio gives a lateral entry of three quarters.
+
+$$
+P_{\text{persp}} =
+\begin{bmatrix}
+3/4 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & A & B \\
+0 & 0 & 1 & 0
+\end{bmatrix},
+\tag{21}
+$$
+
+**Equation 22, Worked Perspective Clip Coordinate.**
+The same vertex maps to a clip coordinate whose fourth component equals its view depth of fifty.
+
+$$
+\tilde{\mathbf{p}}_{\text{clip, persp}} = P_{\text{persp}}\, (10, 5, 50, 1) = (7.5,\ 5,\ A \cdot 50 + B,\ 50).
+\tag{22}
+$$
+
+**Equation 23, Worked Perspective Normalised-Device Coordinate.**
+Division by fifty gives lateral and vertical normalised-device coordinates of $0.15$ and $0.10$.
+
+$$
+\mathbf{p}_{\text{ndc, persp}} = \left( \frac{7.5}{50},\ \frac{5}{50},\ \frac{A \cdot 50 + B}{50} \right) = (0.15,\ 0.10,\ z_{\text{ndc}}).
+\tag{23}
+$$
+
+**Equation 24, Worked Perspective Screen Position.**
+The viewport transformation places the vertex at $(460, 330)$.
+
+$$
+\mathbf{p}_{\text{screen, persp}} = \big( 400\, (0.15 + 1),\ 300\, (0.10 + 1) \big) = (460,\ 330).
+\tag{24}
+$$
+
+**Equation 25, Worked Perspective Coordinate of a Nearer Vertex.**
+A vertex at half the depth lands twice as far from the screen centre in normalised-device coordinates.
+
+$$
+\mathbf{p}_{\text{ndc, persp, near}} = (7.5/25,\ 5/25,\ z_{\text{ndc}}) = (0.3,\ 0.2,\ z_{\text{ndc}}).
+\tag{25}
+$$
+
+**Equation 26, Round Trip within a Projection.**
+Within each projection, the forward map followed by its inverse returns the original world position up to floating-point precision.
+
+$$
+F^{-1}(F(\mathbf{p}_{\text{world}})) = \mathbf{p}_{\text{world}} + O(\varepsilon),
+\tag{26}
+$$
+
+**Equation 27, Projection, View and Model Pipeline Restated.**
+The conclusion restates the forward map as the model, view and projection matrices applied to each world vertex.
+
+$$
+\mathbf{p}_{\text{clip}} = P\, V\, M\, \mathbf{p}_{\text{world}},
+\tag{27}
+$$
+
+### Notation
+
+- $P$, the four-by-four projection matrix
+- $V$, the four-by-four view matrix
+- $M$, the four-by-four model matrix
+- $\tilde{\mathbf{p}}_{\text{world}}$, the homogeneous world coordinate
+- $\tilde{\mathbf{p}}_{\text{clip}}$, the homogeneous clip-space coordinate
+- $w_c$, the clip-space fourth component
+- $\mathbf{p}_{\text{ndc}}$, the normalised-device coordinate
+- $W$, the screen width in pixels
+- $H$, the screen height in pixels
+- $f$, the focal length factor, $1/\tan(\phi/2)$ for vertical field of view $\phi$
+- $a$, the aspect ratio $W/H$
+- $A$, the depth scale constant mapping view depth to normalised-device depth
+- $B$, the depth offset constant mapping view depth to normalised-device depth
+- $r$, the lateral half-width of the orthographic viewing volume
+- $t$, the vertical half-height of the orthographic viewing volume
+- $z_n$, the near clipping plane
+- $z_f$, the far clipping plane
+- $k(d)$, the inverse-distance scaling factor at view depth $d$
+- $\varepsilon$, the floating-point precision of the engine
 
 ## References
 

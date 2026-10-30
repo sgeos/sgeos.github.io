@@ -165,6 +165,7 @@ to the floor-case forward map,
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{obj}} = z\, (\mathbf{p}_{\text{world}} - \mathbf{c}) + \mathbf{o} - (0,\ z\, h),
+\tag{1}
 $$
 
 where $z$ is the zoom factor,
@@ -183,6 +184,7 @@ omits the height term entirely,
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{shadow}} = z\, (\mathbf{p}_{\text{world}} - \mathbf{c}) + \mathbf{o}.
+\tag{2}
 $$
 
 The shadow sprite
@@ -194,6 +196,7 @@ in screen-space pixels is therefore
 
 $$
 \Delta s_y = z\, h.
+\tag{3}
 $$
 
 The pixel separation grows
@@ -215,6 +218,7 @@ the forward map for the object factors as
 
 $$
 F_{\text{obj}} = T_v(h)\, T(\mathbf{o})\, S(z)\, T(-\mathbf{c}).
+\tag{4}
 $$
 
 The forward map for the shadow
@@ -224,6 +228,7 @@ in place of $T_v(h)$,
 
 $$
 F_{\text{shadow}} = T(\mathbf{o})\, S(z)\, T(-\mathbf{c}).
+\tag{5}
 $$
 
 The two factorisations share
@@ -242,6 +247,7 @@ $$
 \begin{bmatrix} s_x \\ s_y \\ 1 \end{bmatrix} =
 \begin{bmatrix} z & 0 & 0 & W/2 - z\, c_x \\ 0 & z & -z & H/2 - z\, c_y \\ 0 & 0 & 0 & 1 \end{bmatrix}
 \begin{bmatrix} w_x \\ w_y \\ h \\ 1 \end{bmatrix}.
+\tag{6}
 $$
 
 The matrix is the affine specialisation
@@ -256,6 +262,7 @@ with one entry changed,
 $$
 M_{\text{shadow}} =
 \begin{bmatrix} z & 0 & 0 & W/2 - z\, c_x \\ 0 & z & 0 & H/2 - z\, c_y \\ 0 & 0 & 0 & 1 \end{bmatrix}.
+\tag{7}
 $$
 
 The shadow matrix and the object matrix
@@ -276,6 +283,7 @@ A canonical parabolic jump uses
 
 $$
 h(t) = h_0 + v_0\, t - \tfrac{1}{2}\, g\, t^2,
+\tag{8}
 $$
 
 where $h_0$ is the launch height,
@@ -311,10 +319,12 @@ in terms of the screen coordinates and the height yields
 
 $$
 w_x = \frac{s_x - o_x}{z} + c_x,
+\tag{9}
 $$
 
 $$
 w_y = \frac{s_y - o_y + z\, h}{z} + c_y = \frac{s_y - o_y}{z} + c_y + h.
+\tag{10}
 $$
 
 The horizontal world coordinate $w_x$
@@ -335,6 +345,7 @@ expressible in vector form as
 
 $$
 \mathbf{p}_{\text{world}}(h) = \frac{1}{z}\, (\mathbf{p}_{\text{screen}} - \mathbf{o}) + \mathbf{c} + (0,\ h).
+\tag{11}
 $$
 
 The ground-plane case at $h = 0$
@@ -348,6 +359,7 @@ The candidate set is therefore
 
 $$
 \{ (w_x, w_y, h) : w_y = \frac{s_y - o_y}{z} + c_y + h,\ h \geq 0 \}.
+\tag{12}
 $$
 
 The engine resolves the ambiguity
@@ -361,6 +373,7 @@ The recovered world point is
 
 $$
 \mathbf{p}_{\text{world}}^{\text{ground}} = \frac{1}{z}\, (\mathbf{p}_{\text{screen}} - \mathbf{o}) + \mathbf{c},
+\tag{13}
 $$
 
 which is exactly the floor-case inverse map
@@ -417,6 +430,7 @@ The candidate set has cardinality at most two,
 
 $$
 \{(w_x,\ w_y^{(0)},\ 0),\ (w_x,\ w_y^{(1)},\ h_{\text{jump}})\},
+\tag{14}
 $$
 
 where $w_y^{(0)} = (s_y - o_y)/z + c_y$ is the ground candidate
@@ -432,6 +446,7 @@ in three-dimensional world space,
 
 $$
 \{(w_x,\ w_y,\ h) : h \in [0,\ h_{\max}],\ w_y = (s_y - o_y)/z + c_y + h\},
+\tag{15}
 $$
 
 parameterised uniquely by the height $h$.
@@ -446,6 +461,7 @@ under the inverse map evaluated at that height,
 
 $$
 \mathbf{p}_{\text{world}}(h) \in \mathbf{c} + (0,\ h) + \left[ -\tfrac{W}{2z},\ \tfrac{W}{2z} \right] \times \left[ -\tfrac{H}{2z},\ \tfrac{H}{2z} \right].
+\tag{16}
 $$
 
 The rectangle is the floor-case viewport from the previous article
@@ -458,6 +474,7 @@ queries the union of the per-height rectangles,
 
 $$
 \mathbf{p}_{\text{world}} \in \mathbf{c} + \left[ -\tfrac{W}{2z},\ \tfrac{W}{2z} \right] \times \left[ -\tfrac{H}{2z},\ \tfrac{H}{2z} + h_{\max} \right].
+\tag{17}
 $$
 
 The extended rectangle adds a strip of width $h_{\max}$
@@ -495,12 +512,14 @@ The forward map for the object sprite gives
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{obj}} = (400 + 20,\ 300 + 10 - 9) = (420,\ 301).
+\tag{18}
 $$
 
 The forward map for the shadow sprite gives
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{shadow}} = (400 + 20,\ 300 + 10) = (420,\ 310).
+\tag{19}
 $$
 
 The two sprites differ by $\Delta s_y = 9$ pixels,
@@ -514,6 +533,7 @@ The ground-plane inverse gives
 
 $$
 \mathbf{p}_{\text{world}}^{\text{ground}} = (520,\ 401),
+\tag{20}
 $$
 
 which is a world point one unit below the jumping player's horizontal position.
@@ -554,6 +574,7 @@ within floating-point precision,
 
 $$
 F_{\text{obj},\,h}^{-1}(F_{\text{obj}}(\mathbf{p}_{\text{world}},\ h)) = \mathbf{p}_{\text{world}} + O(\varepsilon).
+\tag{21}
 $$
 
 The same identity holds for the shadow map
@@ -561,6 +582,7 @@ with the height fixed at zero,
 
 $$
 F_{\text{shadow}}^{-1}(F_{\text{shadow}}(\mathbf{p}_{\text{world}})) = \mathbf{p}_{\text{world}} + O(\varepsilon),
+\tag{22}
 $$
 
 which is the round-trip identity from the previous article.
@@ -586,6 +608,7 @@ of the shadow sprite by a factor
 
 $$
 s_{\text{shadow}} = \max(s_{\min},\ 1 - k\, h),
+\tag{23}
 $$
 
 where $k > 0$ is a scaling constant
@@ -598,6 +621,7 @@ as the height increases,
 
 $$
 \alpha_{\text{shadow}} = \max(\alpha_{\min},\ 1 - k\, h).
+\tag{24}
 $$
 
 The combination of scaling and fading
@@ -612,6 +636,7 @@ The shadow sits at the ground beneath the object,
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{shadow}} = z\, (\mathbf{p}_{\text{world}} - \mathbf{c}) + \mathbf{o} - (0,\ z\, h_{\text{ground}}(w_x, w_y)),
+\tag{25}
 $$
 
 and the object sprite uses
@@ -955,6 +980,241 @@ swaps the camera orientation
 from looking straight down at the world
 to looking across the world horizontally,
 which is the side-scrolling mode.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 25 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 25, 23 are established and 2 are bespoke.
+Screen positions are in pixels with $y$ increasing downward while height increases upward, so the height term enters the screen position with a negative sign, and world positions and heights share one world unit that the zoom factor converts to pixels.
+
+**Equation 1, Object Sprite Forward Map with Height Offset.**
+The object sprite is placed by the floor-case forward map and then lifted up the screen by the height scaled by the zoom factor.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{obj}} = z\, (\mathbf{p}_{\text{world}} - \mathbf{c}) + \mathbf{o} - (0,\ z\, h),
+\tag{1}
+$$
+
+**Equation 2, Shadow Sprite Forward Map.**
+The shadow sprite omits the height term and sits where the object would sit if its height were zero.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{shadow}} = z\, (\mathbf{p}_{\text{world}} - \mathbf{c}) + \mathbf{o}.
+\tag{2}
+$$
+
+**Equation 3, Screen Separation of Object and Shadow.**
+The vertical pixel separation between the object sprite and its shadow is the height multiplied by the zoom factor.
+
+$$
+\Delta s_y = z\, h.
+\tag{3}
+$$
+
+**Equation 4, Factorisation of the Object Forward Map.**
+The object forward map is the floor-case composition followed by a vertical screen-space translation driven by the height.
+
+$$
+F_{\text{obj}} = T_v(h)\, T(\mathbf{o})\, S(z)\, T(-\mathbf{c}).
+\tag{4}
+$$
+
+**Equation 5, Factorisation of the Shadow Forward Map.**
+The shadow forward map is the same composition with the height-driven translation evaluated at zero height, which is the identity.
+
+$$
+F_{\text{shadow}} = T(\mathbf{o})\, S(z)\, T(-\mathbf{c}).
+\tag{5}
+$$
+
+**Equation 6, Object Forward Map as a Three-by-Four Matrix.**
+The object forward map acts on the augmented world coordinate of position, height and a unit entry through a single three-by-four matrix whose height column carries the negated zoom.
+
+$$
+\begin{bmatrix} s_x \\ s_y \\ 1 \end{bmatrix} =
+\begin{bmatrix} z & 0 & 0 & W/2 - z\, c_x \\ 0 & z & -z & H/2 - z\, c_y \\ 0 & 0 & 0 & 1 \end{bmatrix}
+\begin{bmatrix} w_x \\ w_y \\ h \\ 1 \end{bmatrix}.
+\tag{6}
+$$
+
+**Equation 7, Shadow Forward Map Matrix.**
+The shadow matrix equals the object matrix with the height entry set to zero, so height has no effect on the shadow position.
+
+$$
+M_{\text{shadow}} =
+\begin{bmatrix} z & 0 & 0 & W/2 - z\, c_x \\ 0 & z & 0 & H/2 - z\, c_y \\ 0 & 0 & 0 & 1 \end{bmatrix}.
+\tag{7}
+$$
+
+**Equation 8, Parabolic Jump Height.**
+Under constant gravity the height of a jump is a quadratic in time fixed by the launch height and launch vertical velocity.
+
+$$
+h(t) = h_0 + v_0\, t - \tfrac{1}{2}\, g\, t^2,
+\tag{8}
+$$
+
+**Equation 9, Inverse for the Horizontal World Coordinate.**
+The horizontal world coordinate is recovered uniquely from the horizontal screen coordinate, since height does not enter it.
+
+$$
+w_x = \frac{s_x - o_x}{z} + c_x,
+\tag{9}
+$$
+
+**Equation 10, Inverse for the Vertical World Coordinate at a Given Height.**
+The vertical world coordinate depends on the unknown height, shifting by one world unit for each unit of height.
+
+$$
+w_y = \frac{s_y - o_y + z\, h}{z} + c_y = \frac{s_y - o_y}{z} + c_y + h.
+\tag{10}
+$$
+
+**Equation 11, Inverse Map at a Known Height.**
+When the height is known, the inverse map returns a single world point, which reduces to the floor-case inverse at zero height.
+
+$$
+\mathbf{p}_{\text{world}}(h) = \frac{1}{z}\, (\mathbf{p}_{\text{screen}} - \mathbf{o}) + \mathbf{c} + (0,\ h).
+\tag{11}
+$$
+
+**Equation 12, Candidate Set of World Points under a Pixel.**
+With the height unknown, every non-negative height yields a world point that projects to the same pixel, so the preimage is a half-line parameterised by height.
+
+$$
+\{ (w_x, w_y, h) : w_y = \frac{s_y - o_y}{z} + c_y + h,\ h \geq 0 \}.
+\tag{12}
+$$
+
+**Equation 13, Ground-Plane Inverse.**
+Interpreting the click as referring to the ground sets the height to zero and recovers the floor-case inverse map.
+
+$$
+\mathbf{p}_{\text{world}}^{\text{ground}} = \frac{1}{z}\, (\mathbf{p}_{\text{screen}} - \mathbf{o}) + \mathbf{c},
+\tag{13}
+$$
+
+**Equation 14, Candidate Set under a Single Discrete Jump Height.**
+When jumps reach only one discrete height, the candidate set holds at most a ground candidate and an airborne candidate.
+
+$$
+\{(w_x,\ w_y^{(0)},\ 0),\ (w_x,\ w_y^{(1)},\ h_{\text{jump}})\},
+\tag{14}
+$$
+
+**Equation 15, Candidate Segment under a Bounded Height.**
+When height is bounded by a maximum, the candidate set is a bounded segment in world space parameterised uniquely by height.
+
+$$
+\{(w_x,\ w_y,\ h) : h \in [0,\ h_{\max}],\ w_y = (s_y - o_y)/z + c_y + h\},
+\tag{15}
+$$
+
+**Equation 16, Viewport at a Known Height.**
+The world rectangle visible at a given height is the floor-case viewport shifted by that height in the world frame.
+
+$$
+\mathbf{p}_{\text{world}}(h) \in \mathbf{c} + (0,\ h) + \left[ -\tfrac{W}{2z},\ \tfrac{W}{2z} \right] \times \left[ -\tfrac{H}{2z},\ \tfrac{H}{2z} \right].
+\tag{16}
+$$
+
+**Equation 17, Viewport Extended for Airborne Objects.**
+The union of the per-height viewports over heights up to the maximum extends the floor-case rectangle by a strip of that maximum height along one edge.
+
+$$
+\mathbf{p}_{\text{world}} \in \mathbf{c} + \left[ -\tfrac{W}{2z},\ \tfrac{W}{2z} \right] \times \left[ -\tfrac{H}{2z},\ \tfrac{H}{2z} + h_{\max} \right].
+\tag{17}
+$$
+
+**Equation 18, Worked Object Sprite Position at the Jump Apex.**
+With unit zoom, a camera at $(500, 400)$ and the player at $(520, 410)$ at a height of nine units, the object sprite lands at $(420, 301)$.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{obj}} = (400 + 20,\ 300 + 10 - 9) = (420,\ 301).
+\tag{18}
+$$
+
+**Equation 19, Worked Shadow Sprite Position at the Jump Apex.**
+The shadow sprite of the same player lands at $(420, 310)$, nine pixels below the object sprite.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{shadow}} = (400 + 20,\ 300 + 10) = (420,\ 310).
+\tag{19}
+$$
+
+**Equation 20, Worked Ground-Plane Inverse of a Click on the Airborne Player.**
+A click on the airborne sprite at $(420, 301)$ is mapped by the ground-plane inverse to the world point $(520, 401)$ rather than to the player.
+
+$$
+\mathbf{p}_{\text{world}}^{\text{ground}} = (520,\ 401),
+\tag{20}
+$$
+
+**Equation 21, Object Round Trip at a Known Height.**
+Applying the object forward map and the inverse at the same height returns the original world position up to floating-point precision.
+
+$$
+F_{\text{obj},\,h}^{-1}(F_{\text{obj}}(\mathbf{p}_{\text{world}},\ h)) = \mathbf{p}_{\text{world}} + O(\varepsilon).
+\tag{21}
+$$
+
+**Equation 22, Shadow Round Trip.**
+Applying the shadow forward map and its inverse returns the original world position up to floating-point precision, as in the floor case.
+
+$$
+F_{\text{shadow}}^{-1}(F_{\text{shadow}}(\mathbf{p}_{\text{world}})) = \mathbf{p}_{\text{world}} + O(\varepsilon),
+\tag{22}
+$$
+
+*Equation 23, Bespoke Linear Shadow Scale with a Floor.*
+The shadow sprite is assumed to shrink linearly with height at a chosen rate, clamped below by a minimum scale so that it stays visible.
+
+$$
+s_{\text{shadow}} = \max(s_{\min},\ 1 - k\, h),
+\tag{23}
+$$
+
+*Equation 24, Bespoke Linear Shadow Fade with a Floor.*
+The shadow opacity is assumed to fall linearly with height at the same chosen rate, clamped below by a minimum opacity.
+
+$$
+\alpha_{\text{shadow}} = \max(\alpha_{\min},\ 1 - k\, h).
+\tag{24}
+$$
+
+**Equation 25, Shadow Forward Map over Discrete Ground Heights.**
+With terrain of discrete ground heights, the shadow is lifted by the ground height beneath the object rather than drawn at zero height.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{shadow}} = z\, (\mathbf{p}_{\text{world}} - \mathbf{c}) + \mathbf{o} - (0,\ z\, h_{\text{ground}}(w_x, w_y)),
+\tag{25}
+$$
+
+### Notation
+
+- $\mathbf{p}_{\text{world}}$, the world position of an object on the ground plane
+- $\mathbf{p}_{\text{screen}}^{\text{obj}}$, the screen position of the object sprite
+- $\mathbf{p}_{\text{screen}}^{\text{shadow}}$, the screen position of the shadow sprite
+- $z$, the zoom factor in pixels per world unit
+- $\mathbf{c}$, the camera position
+- $\mathbf{o}$, the screen centre offset in pixels, with components $o_x$ and $o_y$
+- $h$, the height of an object above the ground, increasing upward
+- $T_v(h)$, the height-driven vertical translation in screen space
+- $h_0$, the launch height of a jump
+- $v_0$, the launch vertical velocity of a jump
+- $g$, the gravity constant in world units per second squared
+- $h_{\text{jump}}$, the single discrete height a restricted jump reaches
+- $h_{\max}$, the maximum height an object can reach
+- $\varepsilon$, the floating-point precision of the engine
+- $k$, the positive constant by which the shadow shrinks or fades per unit of height
+- $s_{\min}$, the minimum shadow scale
+- $\alpha_{\min}$, the minimum shadow opacity
+- $h_{\text{ground}}(w_x, w_y)$, the discrete ground height at a world position
 
 ## References
 

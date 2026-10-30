@@ -1,0 +1,259 @@
+# Equation classification for A179. Read by `python3 _lib/equations.py`.
+
+caution = "World coordinates take $w_y$ increasing downward and $w_z$ increasing into the screen, the depth angle is in radians measured so that depth tilts toward positive screen $x$ and negative screen $y$, and the foreshortening factor is the screen length in world units of one unit of depth before the zoom."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Oblique Forward Map for Screen X"
+gloss = "The horizontal screen coordinate adds to the side-scrolling term a depth shift of the foreshortening factor times the cosine of the depth angle."
+cite = []
+digest = "c2c83483b4e8da6c"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Oblique Forward Map for Screen Y"
+gloss = "The vertical screen coordinate subtracts from the side-scrolling term a depth shift of the foreshortening factor times the sine of the depth angle."
+cite = []
+digest = "69c2ef2e89ac03a4"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Oblique Forward Map in Vector Form"
+gloss = "The oblique forward map is the side-scrolling map plus the scaled depth offset along a fixed screen-space unit direction set by the depth angle."
+cite = []
+digest = "fa94c98747be37fb"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Screen Separation of Two Depths"
+gloss = "By linearity, two points differing only in depth separate on screen along the depth direction by the foreshortening factor times the zoom times their depth difference."
+cite = []
+digest = "3c537552413d88b8"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Oblique Forward Map as a Three-by-Four Matrix"
+gloss = "The forward map acts on the augmented world coordinate through a three-by-four affine matrix whose depth column holds the two depth-direction components."
+cite = []
+digest = "b0b7b3f23ca774f4"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Factorisation with Two-Axis Shear"
+gloss = "The forward map factors as a camera translation, a two-axis depth shear, an orthogonal projection that drops depth, a uniform scale and a screen-centre translation."
+cite = []
+digest = "20a8e39a2fb96043"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Two-Axis Depth Shear Matrix"
+gloss = "The shear adds the depth-driven shifts to both the horizontal and vertical components, generalising the single-axis shear of the belt-scroll mode."
+cite = []
+digest = "03f86ad6cc4be2a6"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Orthogonal Projection Dropping Depth"
+gloss = "The two-by-three orthogonal projection keeps the horizontal and vertical components and discards depth."
+cite = []
+digest = "3b01ad76db562d19"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Vertical World Coordinate of an Airborne Character"
+gloss = "An airborne character sits above the ground by its height, which under the downward vertical convention subtracts from the ground coordinate."
+cite = []
+digest = "024772434673019e"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Airborne Sprite Offset from Its Shadow"
+gloss = "The airborne sprite is drawn at the shadow screen position shifted up the screen by the height times the zoom."
+cite = []
+digest = "2a94897a24d2aad9"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Screen Separation of Sprite and Shadow"
+gloss = "The vertical pixel separation between an airborne sprite and its shadow is the height multiplied by the zoom factor, independent of the depth direction."
+cite = []
+digest = "498b95eabeaed63f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Inverse Constraint from Screen X"
+gloss = "The horizontal screen coordinate fixes only the combination of the horizontal world coordinate and the depth along the cosine of the depth angle."
+cite = []
+digest = "a2eb01d49a64eb22"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Inverse Constraint from Screen Y"
+gloss = "The vertical screen coordinate fixes only the combination of the vertical world coordinate and the depth along the sine of the depth angle."
+cite = []
+digest = "1422ca34de06db3c"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Picking Line of Oblique Projection"
+gloss = "The world points that project to one pixel form a line parameterised by depth, the picking ray of oblique projection."
+cite = []
+digest = "ede6efa9b6793dc6"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Depth Recovered under the Ground-Plane Convention"
+gloss = "Setting the vertical world coordinate to the ground resolves the picking line to a single depth through the vertical constraint."
+cite = []
+digest = "8ad7e875271fc951"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Horizontal Coordinate Recovered on the Ground Plane"
+gloss = "Substituting the recovered depth into the horizontal constraint gives the horizontal world coordinate of the ground point."
+cite = []
+digest = "d93cca21165f9f15"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "World Point under the Screen Centre"
+gloss = "Inverting the screen centre onto the ground plane gives the centre of the visible ground parallelogram."
+cite = []
+digest = "e1b37f35b0503a02"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Screen X of a Grounded Character"
+gloss = "With unit zoom, an illustrative camera at $(200, 80, 0)$, a depth angle of $\\pi/4$ and the cabinet foreshortening of one half, a character at $(200, 100, 0)$ lands at screen $x = 160$."
+cite = []
+digest = "5177ee34ef64c104"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Screen Y of a Grounded Character"
+gloss = "The same character lands at screen $y = 120$, since its depth equals that of the camera."
+cite = []
+digest = "fb73c5e2f21e76ad"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Screen X of a Rear Character"
+gloss = "A character forty units deeper is shifted about fourteen pixels right to screen $x \\approx 174$."
+cite = []
+digest = "fcd40ad25ba7d715"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Worked Screen Y of a Rear Character"
+gloss = "The rear character is shifted about fourteen pixels up to screen $y \\approx 106$."
+cite = []
+digest = "460ba3b954d4f60c"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Worked Screen X of a Front Character"
+gloss = "A character twenty units nearer is shifted about seven pixels left to screen $x \\approx 153$."
+cite = []
+digest = "21df0ff6d882d048"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Worked Screen Y of a Front Character"
+gloss = "The front character is shifted about seven pixels down to screen $y \\approx 127$."
+cite = []
+digest = "7d3928e2bdf31c44"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Round Trip along the Ground Plane"
+gloss = "For a point on the ground plane, the forward map followed by the ground-plane inverse returns the original world position up to floating-point precision."
+cite = []
+digest = "ba6d9c1cb6e4df15"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Y-Sort Draw Order Criterion"
+gloss = "An object is drawn before another exactly when its ground-projection screen $y$ is smaller, which is equivalent to its lying deeper."
+cite = []
+digest = "94cf80dcc5b457e1"
+
+[[symbol]]
+tex = 'w_z'
+meaning = "the depth into the screen"
+
+[[symbol]]
+tex = 'c_z'
+meaning = "the depth component of the camera position $(c_x, c_y, c_z)$"
+
+[[symbol]]
+tex = 'z'
+meaning = "the zoom factor"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the foreshortening factor, the screen length of one unit of depth along the depth-mixing direction"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the depth-mixing angle, in the open interval from zero to $\\pi$"
+
+[[symbol]]
+tex = '\mathbf{d}(\phi)'
+meaning = "the screen-space depth-direction unit vector $(\\cos\\phi, -\\sin\\phi)$"
+
+[[symbol]]
+tex = '\mathbf{o}'
+meaning = "the screen centre offset $(W/2, H/2)$ in pixels"
+
+[[symbol]]
+tex = 'K(\alpha, \phi)'
+meaning = "the three-by-three two-axis depth shear matrix"
+
+[[symbol]]
+tex = 'P_z'
+meaning = "the two-by-three orthogonal projection that drops depth"
+
+[[symbol]]
+tex = 'w_y^{\text{ground}}'
+meaning = "the vertical world coordinate of the ground plane"
+
+[[symbol]]
+tex = 'h'
+meaning = "the height of an airborne character above the ground"
+
+[[symbol]]
+tex = 'u_x'
+meaning = "the horizontal constraint value fixed by the screen $x$ of a click"
+
+[[symbol]]
+tex = 'u_y'
+meaning = "the vertical constraint value fixed by the screen $y$ of a click"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"

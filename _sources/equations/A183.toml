@@ -1,0 +1,307 @@
+# Equation classification for A183. Read by `python3 _lib/equations.py`.
+
+caution = "World positions are in grid-cell units on the floor plane with the vertical axis $w_y$ increasing downward so that the ceiling has the smaller $w_y$, the focal length is in pixels per world unit at unit distance, and screen rows run downward from zero at the top."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Camera Plane Magnitude from Field of View"
+gloss = "The camera plane vector has a length equal to the tangent of half the horizontal field of view, which is one for a field of view of ninety degrees."
+cite = []
+digest = "5391da41b9d6a415"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Normalised Camera-X Coordinate of a Column"
+gloss = "Each screen column maps linearly to a normalised coordinate running from minus one at the left edge to plus one at the right edge."
+cite = []
+digest = "8a439b13cb20101b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Per-Column Ray Direction"
+gloss = "The ray for a column is the forward direction plus the normalised camera-x coordinate times the camera plane vector, which is not of unit length in general."
+cite = []
+digest = "b4feacb2c7b8ab28"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Perpendicular Distance to the Wall Hit"
+gloss = "Because the forward direction is a unit vector perpendicular to the camera plane, the projection of the hit displacement onto it equals the ray parameter at the hit."
+cite = []
+digest = "9fc2bfa6fe62a627"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Wall Slice Height"
+gloss = "The slice height in pixels is the focal length times the wall height divided by the perpendicular distance, the inverse-distance scaling of perspective."
+cite = []
+digest = "c5e46572ce830b6f"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Wall Slice Height for a Unit Wall"
+gloss = "With a wall of unit height the slice height reduces to the focal length divided by the perpendicular distance."
+cite = []
+digest = "7f748486ef0e05c6"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Vertical Screen Range of a Wall Slice"
+gloss = "With the camera at the wall midpoint, as in the classic raycaster, the slice is centred on the middle row of the screen."
+cite = []
+digest = "7c17cd908f2519c9"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Horizontal Texture Coordinate of a Wall Hit"
+gloss = "For a wall at constant depth coordinate, the horizontal texture coordinate is the fractional part of the lateral coordinate of the hit."
+cite = []
+digest = "e770f4e0e953a062"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Vertical Texture Coordinate of a Slice Row"
+gloss = "The vertical texture coordinate maps the rows of the slice linearly from zero at its top to one at its bottom."
+cite = []
+digest = "3a680009ab099d43"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Euclidean Distance to the Wall Hit"
+gloss = "The Euclidean distance from the camera to the hit is the length of the displacement on the floor plane."
+cite = []
+digest = "e78e9143df8dee58"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Euclidean and Perpendicular Distance Relation"
+gloss = "The Euclidean distance equals the perpendicular distance divided by the cosine of the angle between the ray and the forward direction."
+cite = []
+digest = "8ef33f22f67d532f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Cosine of the Ray Angle"
+gloss = "Since the ray has unit forward component, the cosine of the ray angle is the reciprocal of the ray length, which falls toward the screen edges."
+cite = []
+digest = "8f398a0da9b08f64"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Fisheye-Corrected Slice Height"
+gloss = "Using the perpendicular distance, equivalently the Euclidean distance multiplied by the cosine of the ray angle, keeps a flat wall flat on screen."
+cite = []
+digest = "67475849f184050f"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Wall Pixel Inverse"
+gloss = "A click on a wall pixel recovers the hit point on the floor plane and a vertical position from the ceiling down by the vertical texture coordinate times the wall height."
+cite = []
+digest = "41b3dab8dd2fb9db"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Floor Distance of a Screen Row"
+gloss = "A floor pixel meets the floor at a forward distance equal to the focal length times the camera height above the floor divided by the row offset below the screen middle."
+cite = []
+digest = "335b758d08721eb0"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Floor Pixel Inverse"
+gloss = "Advancing from the camera along the per-column ray by the floor distance gives the floor position under the pixel, since the ray has unit forward component."
+cite = []
+digest = "4f0b96a04c8dd076"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Worked Perpendicular Distance at the Centre Column"
+gloss = "With an illustrative camera at $(5.5, 5.5)$ facing along $+w_x$ and a wall at $w_x = 10$, the centre ray meets the wall at a perpendicular distance of four point five."
+cite = []
+digest = "9a7e98ba5881bb79"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Slice Height at the Centre Column"
+gloss = "With an illustrative focal length of two hundred pixels, the centre slice is about forty-four pixels tall."
+cite = []
+digest = "30ebb2d1bce0d14e"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Wall Hit at the Left Edge Column"
+gloss = "With a sixty-six degree field of view the left-edge ray of direction $(1, -0.65)$ meets the same wall at $(10, 2.575)$."
+cite = []
+digest = "49d3560d70f73b1b"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Perpendicular Distance at the Left Edge Column"
+gloss = "The perpendicular distance at the left edge is also four point five, because the wall is perpendicular to the forward direction."
+cite = []
+digest = "efc5a67fdc43a91e"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Worked Slice Height at the Left Edge Column"
+gloss = "The left-edge slice has the same height of about forty-four pixels, so the flat wall renders as a strip of constant height."
+cite = []
+digest = "30ebb2d1bce0d14e"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Worked Euclidean Distance at the Left Edge Column"
+gloss = "The Euclidean distance at the left edge is about five point three seven, longer than the perpendicular distance."
+cite = []
+digest = "eace68f18bd1a1cc"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Worked Uncorrected Slice Height at the Left Edge Column"
+gloss = "Using the Euclidean distance would shorten the left-edge slice to about thirty-seven pixels, the fisheye distortion."
+cite = []
+digest = "3027eee1d66f33a8"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Worked Vertical Texture Coordinate of a Click"
+gloss = "A click at the middle row of the centre slice gives a vertical texture coordinate of about one half, the wall midpoint."
+cite = []
+digest = "f55dfd88fac10493"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Round Trip per Column"
+gloss = "For a wall point, the forward map followed by the wall inverse returns the original world position up to floating-point precision."
+cite = []
+digest = "5bad80766c90f98b"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Slice Centre under a Variable Camera Height"
+gloss = "When the camera may move off the wall midpoint, the slice centre shifts from the screen middle by the focal length times the height offset divided by the perpendicular distance."
+cite = []
+digest = "562459ab3ab32b11"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Slice Centre under a Pitch Offset"
+gloss = "Looking up or down shifts every slice centre by the focal length times the tangent of the pitch angle, a vertical shear that approximates a true rotation."
+cite = []
+digest = "1ec03bc18576176f"
+
+[[symbol]]
+tex = '\mathbf{p}'
+meaning = "the camera plane vector, perpendicular to the forward direction"
+
+[[symbol]]
+tex = '\mathbf{d}'
+meaning = "the unit forward direction of the camera"
+
+[[symbol]]
+tex = '\mathrm{FOV}'
+meaning = "the horizontal field of view"
+
+[[symbol]]
+tex = '\mathrm{camx}(s_x)'
+meaning = "the normalised camera-x coordinate of screen column $s_x$"
+
+[[symbol]]
+tex = '\mathbf{r}(s_x)'
+meaning = "the ray direction for screen column $s_x$"
+
+[[symbol]]
+tex = '\mathbf{h}'
+meaning = "the wall hit point, with components $h_x$ and $h_z$"
+
+[[symbol]]
+tex = '\mathbf{c}'
+meaning = "the camera position on the floor plane"
+
+[[symbol]]
+tex = 'd_{\text{perp}}'
+meaning = "the perpendicular distance from the camera plane to the wall hit"
+
+[[symbol]]
+tex = 'd_{\text{euc}}'
+meaning = "the Euclidean distance from the camera to the wall hit"
+
+[[symbol]]
+tex = 'h_{\text{slice}}'
+meaning = "the wall slice height in pixels"
+
+[[symbol]]
+tex = 'h_{\text{wall}}'
+meaning = "the wall height, the floor coordinate minus the ceiling coordinate"
+
+[[symbol]]
+tex = 'f'
+meaning = "the vertical focal length in pixels per world unit at unit distance"
+
+[[symbol]]
+tex = 'H'
+meaning = "the screen height in pixels"
+
+[[symbol]]
+tex = 'u_{\text{texture}}'
+meaning = "the horizontal texture coordinate"
+
+[[symbol]]
+tex = 'v_{\text{texture}}'
+meaning = "the vertical texture coordinate"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the angle between a ray and the forward direction"
+
+[[symbol]]
+tex = 'w_y^{\text{ceiling}}'
+meaning = "the vertical world coordinate of the ceiling"
+
+[[symbol]]
+tex = 'w_y^{\text{floor}}'
+meaning = "the vertical world coordinate of the floor"
+
+[[symbol]]
+tex = 'd_{\text{floor}}(s_y)'
+meaning = "the forward distance to the floor point under screen row $s_y$"
+
+[[symbol]]
+tex = 'c_y^{\text{midpoint}}'
+meaning = "the camera height at the wall midpoint"
+
+[[symbol]]
+tex = '\theta_{\text{pitch}}'
+meaning = "the pitch angle of the view"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"

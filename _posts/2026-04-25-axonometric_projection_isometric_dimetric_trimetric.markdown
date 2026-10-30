@@ -233,6 +233,7 @@ and a screen-centre translation,
 
 $$
 F = T(\mathbf{o})\, S\, P\, R\, T(-\mathbf{c}),
+\tag{1}
 $$
 
 where the rotation $R$
@@ -249,6 +250,7 @@ acting on the camera-relative world coordinate,
 
 $$
 \mathbf{p}_{\text{screen}} = M\, (\mathbf{p}_{\text{world}} - \mathbf{c}) + \mathbf{o},
+\tag{2}
 $$
 
 where the columns of $M$
@@ -258,6 +260,7 @@ of the three world-axis unit vectors,
 $$
 M =
 \begin{bmatrix} m_{xx} & m_{xy} & m_{xz} \\ m_{yx} & m_{yy} & m_{yz} \end{bmatrix}.
+\tag{3}
 $$
 
 The first column $(m_{xx}, m_{yx})$
@@ -273,14 +276,17 @@ of the corresponding column,
 
 $$
 f_x = \sqrt{m_{xx}^2 + m_{yx}^2},
+\tag{4}
 $$
 
 $$
 f_y = \sqrt{m_{xy}^2 + m_{yy}^2},
+\tag{5}
 $$
 
 $$
 f_z = \sqrt{m_{xz}^2 + m_{yz}^2}.
+\tag{6}
 $$
 
 The three variants
@@ -303,6 +309,7 @@ $$
 \begin{bmatrix} s_x \\ s_y \\ 1 \end{bmatrix} =
 \begin{bmatrix} m_{xx} & m_{xy} & m_{xz} & W/2 - m_{xx} c_x - m_{xy} c_y - m_{xz} c_z \\ m_{yx} & m_{yy} & m_{yz} & H/2 - m_{yx} c_x - m_{yy} c_y - m_{yz} c_z \\ 0 & 0 & 0 & 1 \end{bmatrix}
 \begin{bmatrix} w_x \\ w_y \\ w_z \\ 1 \end{bmatrix}.
+\tag{7}
 $$
 
 The matrix is the three-by-four affine matrix
@@ -315,6 +322,7 @@ sets all three column magnitudes to a common value $z$,
 $$
 M_{\text{iso}} = z
 \begin{bmatrix} \sqrt{3}/2 & 0 & -\sqrt{3}/2 \\ 1/2 & 1 & 1/2 \end{bmatrix}.
+\tag{8}
 $$
 
 A unit ground-plane tile
@@ -349,6 +357,7 @@ uses a tile width-to-height pixel ratio of two to one,
 $$
 M_{\text{game-iso}} = z
 \begin{bmatrix} 1 & 0 & -1 \\ 1/2 & 1 & 1/2 \end{bmatrix},
+\tag{9}
 $$
 
 with $z$ giving the half-tile-width in pixels.
@@ -373,6 +382,7 @@ to an arbitrary aspect $r$,
 $$
 M_{\text{dimetric}}(r) = z
 \begin{bmatrix} 1 & 0 & -1 \\ 1/r & 1 & 1/r \end{bmatrix}.
+\tag{10}
 $$
 
 Setting $r = 2$ recovers game-iso.
@@ -388,6 +398,7 @@ allows three independent column scalings,
 $$
 M_{\text{trimetric}} =
 \begin{bmatrix} z_x \cos\alpha & 0 & -z_z \cos\gamma \\ z_x \sin\alpha & z_y & z_z \sin\gamma \end{bmatrix},
+\tag{11}
 $$
 
 where $z_x$, $z_y$, $z_z$ are the per-axis foreshortening factors
@@ -430,6 +441,7 @@ the airborne character's $w_y$ is
 
 $$
 w_y = w_y^{\text{ground}} - h.
+\tag{12}
 $$
 
 The sprite-shadow decomposition writes
@@ -439,6 +451,7 @@ shifted upward by the height-driven offset,
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{sprite}} = \mathbf{p}_{\text{screen}}^{\text{shadow}} - (m_{xy}, m_{yy})\, h.
+\tag{13}
 $$
 
 In game-iso
@@ -448,6 +461,7 @@ so the shift reduces to
 
 $$
 \mathbf{p}_{\text{screen}}^{\text{sprite}} = \mathbf{p}_{\text{screen}}^{\text{shadow}} - (0,\ z\, h).
+\tag{14}
 $$
 
 The shadow-drop convention
@@ -490,6 +504,7 @@ $$
 \begin{bmatrix} w_x - c_x \\ w_z - c_z \end{bmatrix} =
 \begin{bmatrix} s_x - W/2 \\ s_y - H/2 \end{bmatrix} -
 m_{\text{col-}y}\, (w_y^{\text{ground}} - c_y),
+\tag{15}
 $$
 
 where $m_{\text{col-}y} = (m_{xy}, m_{yy})^T$.
@@ -524,10 +539,12 @@ yields
 
 $$
 w_x - c_x = \frac{s_x - W/2 + 2 (s_y - H/2 - z (w_y^{\text{ground}} - c_y))}{2 z},
+\tag{16}
 $$
 
 $$
 w_z - c_z = \frac{-(s_x - W/2) + 2 (s_y - H/2 - z (w_y^{\text{ground}} - c_y))}{2 z}.
+\tag{17}
 $$
 
 The inverse is fully closed-form
@@ -565,6 +582,7 @@ The forward-map matrix is
 
 $$
 M = \begin{bmatrix} 32 & 0 & -32 \\ 16 & 32 & 16 \end{bmatrix}.
+\tag{18}
 $$
 
 A tile at world position $(0, 0, 0)$
@@ -577,6 +595,7 @@ projects to
 
 $$
 \mathbf{p}_{\text{screen}} = (32, 16) + (400, 300) = (432, 316).
+\tag{19}
 $$
 
 A tile at world position $(0, 0, 1)$,
@@ -585,6 +604,7 @@ projects to
 
 $$
 \mathbf{p}_{\text{screen}} = (-32, 16) + (400, 300) = (368, 316).
+\tag{20}
 $$
 
 A tile at world position $(1, 0, 1)$
@@ -592,6 +612,7 @@ projects to
 
 $$
 \mathbf{p}_{\text{screen}} = (32 - 32,\ 16 + 16) + (400, 300) = (0, 32) + (400, 300) = (400, 332).
+\tag{21}
 $$
 
 The four tiles
@@ -608,6 +629,7 @@ projects to
 
 $$
 \mathbf{p}_{\text{screen}} = (0,\ 0 + 32 \cdot (-2)) + (400, 300) = (0, -64) + (400, 300) = (400, 236).
+\tag{22}
 $$
 
 The building base coincides with the tile origin's screen position $(400, 300)$,
@@ -622,6 +644,7 @@ projects to
 
 $$
 \mathbf{p}_{\text{screen}} = (0, -32) + (400, 300) = (400, 268).
+\tag{23}
 $$
 
 The character renders 32 pixels above the ground-tile centre,
@@ -634,10 +657,12 @@ returns
 
 $$
 w_x - c_x = \frac{(432 - 400) + 2 (316 - 300 - 0)}{2 \cdot 32} = \frac{32 + 32}{64} = 1,
+\tag{24}
 $$
 
 $$
 w_z - c_z = \frac{-(432 - 400) + 2 (316 - 300)}{2 \cdot 32} = \frac{-32 + 32}{64} = 0.
+\tag{25}
 $$
 
 The ground-plane inverse returns world tile $(1, 0, 0)$,
@@ -648,6 +673,7 @@ holds along the ground plane,
 
 $$
 F^{-1}_{\text{ground}}(F(\mathbf{p}_{\text{world}}^{\text{ground}})) = \mathbf{p}_{\text{world}}^{\text{ground}} + O(\varepsilon),
+\tag{26}
 $$
 
 where $\varepsilon$ is the floating-point precision of the engine.
@@ -668,6 +694,7 @@ is
 
 $$
 \text{sort key}_i = m_{yx}\, w_{x,i} + m_{yz}\, w_{z,i}.
+\tag{27}
 $$
 
 The criterion writes
@@ -675,6 +702,7 @@ as the comparison inequality
 
 $$
 \text{draw } i \text{ before } j \iff s_{y,i}^{\text{ground}} < s_{y,j}^{\text{ground}} \iff m_{yx}\, w_{x,i} + m_{yz}\, w_{z,i} < m_{yx}\, w_{x,j} + m_{yz}\, w_{z,j}.
+\tag{28}
 $$
 
 For game-iso,
@@ -1094,6 +1122,270 @@ The next article in the series
 opens the affine-and-projective cluster
 with the Mode 7 affine ground plane
 that the Super Nintendo Entertainment System pioneered.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 28 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 28, 28 are established and 0 are bespoke.
+World coordinates take $w_y$ as the vertical axis increasing downward and $w_x$ and $w_z$ as the two ground axes, each column of the projection matrix is the screen image in pixels of one world unit along one axis, and the zoom factor of the game-isometric form is the half-width of a tile in pixels.
+
+**Equation 1, Axonometric Forward Map as a Composition.**
+The forward map composes a camera translation, a rotation to the viewing direction, an orthogonal projection, a non-uniform scale and a screen-centre translation.
+
+$$
+F = T(\mathbf{o})\, S\, P\, R\, T(-\mathbf{c}),
+\tag{1}
+$$
+
+**Equation 2, Axonometric Forward Map as a Single Matrix.**
+In practice the composition collapses to one two-by-three matrix applied to the camera-relative world coordinate, followed by the screen-centre offset.
+
+$$
+\mathbf{p}_{\text{screen}} = M\, (\mathbf{p}_{\text{world}} - \mathbf{c}) + \mathbf{o},
+\tag{2}
+$$
+
+**Equation 3, Axonometric Projection Matrix by Columns.**
+Each column of the projection matrix is the screen-space image of one world-axis unit vector.
+
+$$
+M =
+\begin{bmatrix} m_{xx} & m_{xy} & m_{xz} \\ m_{yx} & m_{yy} & m_{yz} \end{bmatrix}.
+\tag{3}
+$$
+
+**Equation 4, Foreshortening Factor of the X Axis.**
+The foreshortening factor of the world $x$ axis is the length of the screen image of its unit vector.
+
+$$
+f_x = \sqrt{m_{xx}^2 + m_{yx}^2},
+\tag{4}
+$$
+
+**Equation 5, Foreshortening Factor of the Y Axis.**
+The foreshortening factor of the world $y$ axis is the length of the screen image of its unit vector.
+
+$$
+f_y = \sqrt{m_{xy}^2 + m_{yy}^2},
+\tag{5}
+$$
+
+**Equation 6, Foreshortening Factor of the Z Axis.**
+The foreshortening factor of the world $z$ axis is the length of the screen image of its unit vector, and the pattern of equality among the three factors names the isometric, dimetric or trimetric variant.
+
+$$
+f_z = \sqrt{m_{xz}^2 + m_{yz}^2}.
+\tag{6}
+$$
+
+**Equation 7, Axonometric Forward Map as a Three-by-Four Matrix.**
+The forward map acts on the augmented world coordinate through a three-by-four affine matrix whose translation column absorbs the camera position and screen centre.
+
+$$
+\begin{bmatrix} s_x \\ s_y \\ 1 \end{bmatrix} =
+\begin{bmatrix} m_{xx} & m_{xy} & m_{xz} & W/2 - m_{xx} c_x - m_{xy} c_y - m_{xz} c_z \\ m_{yx} & m_{yy} & m_{yz} & H/2 - m_{yx} c_x - m_{yy} c_y - m_{yz} c_z \\ 0 & 0 & 0 & 1 \end{bmatrix}
+\begin{bmatrix} w_x \\ w_y \\ w_z \\ 1 \end{bmatrix}.
+\tag{7}
+$$
+
+**Equation 8, Isometric Projection Matrix.**
+The isometric matrix gives all three axes the same foreshortening, with the two ground axes thirty degrees below the screen horizontal and the vertical axis straight down the screen.
+
+$$
+M_{\text{iso}} = z
+\begin{bmatrix} \sqrt{3}/2 & 0 & -\sqrt{3}/2 \\ 1/2 & 1 & 1/2 \end{bmatrix}.
+\tag{8}
+$$
+
+**Equation 9, Game-Isometric Projection Matrix.**
+The game-industry convention uses a two-to-one tile width-to-height ratio, which makes the ground axes slope one pixel down for two across and is in fact dimetric.
+
+$$
+M_{\text{game-iso}} = z
+\begin{bmatrix} 1 & 0 & -1 \\ 1/2 & 1 & 1/2 \end{bmatrix},
+\tag{9}
+$$
+
+**Equation 10, Dimetric Projection Matrix of Tile Aspect R.**
+Relaxing the two-to-one ratio to an arbitrary tile aspect gives a one-parameter dimetric family that recovers the game-isometric matrix at an aspect of two.
+
+$$
+M_{\text{dimetric}}(r) = z
+\begin{bmatrix} 1 & 0 & -1 \\ 1/r & 1 & 1/r \end{bmatrix}.
+\tag{10}
+$$
+
+**Equation 11, Trimetric Projection Matrix.**
+Three independent axis scalings and two angles of the ground axes below the screen horizontal give the general trimetric matrix with five free parameters.
+
+$$
+M_{\text{trimetric}} =
+\begin{bmatrix} z_x \cos\alpha & 0 & -z_z \cos\gamma \\ z_x \sin\alpha & z_y & z_z \sin\gamma \end{bmatrix},
+\tag{11}
+$$
+
+**Equation 12, Vertical World Coordinate of an Airborne Character.**
+An airborne character sits above the ground by its height, which under the downward vertical convention subtracts from the ground coordinate.
+
+$$
+w_y = w_y^{\text{ground}} - h.
+\tag{12}
+$$
+
+**Equation 13, Airborne Sprite Offset along the Vertical Column.**
+The airborne sprite is drawn at the shadow screen position shifted by the height times the screen image of the world vertical axis.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{sprite}} = \mathbf{p}_{\text{screen}}^{\text{shadow}} - (m_{xy}, m_{yy})\, h.
+\tag{13}
+$$
+
+**Equation 14, Airborne Sprite Offset in Game-Isometric Projection.**
+Because the game-isometric vertical column points straight down the screen, the sprite offset reduces to the height times the zoom up the screen.
+
+$$
+\mathbf{p}_{\text{screen}}^{\text{sprite}} = \mathbf{p}_{\text{screen}}^{\text{shadow}} - (0,\ z\, h).
+\tag{14}
+$$
+
+**Equation 15, Ground-Plane Inverse as a Two-by-Two System.**
+Fixing the vertical world coordinate at the ground leaves a two-by-two linear system in the two ground coordinates, solvable whenever the ground-axis columns are independent.
+
+$$
+\begin{bmatrix} m_{xx} & m_{xz} \\ m_{yx} & m_{yz} \end{bmatrix}
+\begin{bmatrix} w_x - c_x \\ w_z - c_z \end{bmatrix} =
+\begin{bmatrix} s_x - W/2 \\ s_y - H/2 \end{bmatrix} -
+m_{\text{col-}y}\, (w_y^{\text{ground}} - c_y),
+\tag{15}
+$$
+
+**Equation 16, Game-Isometric Ground Inverse for the X Coordinate.**
+Solving the game-isometric system in closed form gives the ground $x$ coordinate from the sum of the horizontal offset and twice the height-corrected vertical offset.
+
+$$
+w_x - c_x = \frac{s_x - W/2 + 2 (s_y - H/2 - z (w_y^{\text{ground}} - c_y))}{2 z},
+\tag{16}
+$$
+
+**Equation 17, Game-Isometric Ground Inverse for the Z Coordinate.**
+The ground $z$ coordinate follows from the difference of twice the height-corrected vertical offset and the horizontal offset.
+
+$$
+w_z - c_z = \frac{-(s_x - W/2) + 2 (s_y - H/2 - z (w_y^{\text{ground}} - c_y))}{2 z}.
+\tag{17}
+$$
+
+**Equation 18, Worked Game-Isometric Matrix.**
+An illustrative zoom of thirty-two pixels gives a sixty-four by thirty-two pixel diamond tile and the matrix shown.
+
+$$
+M = \begin{bmatrix} 32 & 0 & -32 \\ 16 & 32 & 16 \end{bmatrix}.
+\tag{18}
+$$
+
+**Equation 19, Worked Screen Position of the Tile East of the Origin.**
+With an illustrative camera at the origin and an eight hundred by six hundred screen, the tile at $(1, 0, 0)$ lands at $(432, 316)$.
+
+$$
+\mathbf{p}_{\text{screen}} = (32, 16) + (400, 300) = (432, 316).
+\tag{19}
+$$
+
+**Equation 20, Worked Screen Position of the Tile South of the Origin.**
+The tile at $(0, 0, 1)$ lands at $(368, 316)$.
+
+$$
+\mathbf{p}_{\text{screen}} = (-32, 16) + (400, 300) = (368, 316).
+\tag{20}
+$$
+
+**Equation 21, Worked Screen Position of the Diagonal Tile.**
+The tile at $(1, 0, 1)$ lands at $(400, 332)$, completing the diamond of four tile corners.
+
+$$
+\mathbf{p}_{\text{screen}} = (32 - 32,\ 16 + 16) + (400, 300) = (0, 32) + (400, 300) = (400, 332).
+\tag{21}
+$$
+
+**Equation 22, Worked Screen Position of a Building Roof.**
+A roof two units above the origin lands sixty-four pixels above the origin tile at $(400, 236)$.
+
+$$
+\mathbf{p}_{\text{screen}} = (0,\ 0 + 32 \cdot (-2)) + (400, 300) = (0, -64) + (400, 300) = (400, 236).
+\tag{22}
+$$
+
+**Equation 23, Worked Screen Position of an Airborne Character.**
+A character one unit above the origin lands thirty-two pixels above the origin tile at $(400, 268)$.
+
+$$
+\mathbf{p}_{\text{screen}} = (0, -32) + (400, 300) = (400, 268).
+\tag{23}
+$$
+
+**Equation 24, Worked Ground Inverse for the X Coordinate.**
+The game-isometric ground inverse of a click at $(432, 316)$ gives a ground $x$ coordinate of one.
+
+$$
+w_x - c_x = \frac{(432 - 400) + 2 (316 - 300 - 0)}{2 \cdot 32} = \frac{32 + 32}{64} = 1,
+\tag{24}
+$$
+
+**Equation 25, Worked Ground Inverse for the Z Coordinate.**
+The same click gives a ground $z$ coordinate of zero, recovering the tile at $(1, 0, 0)$.
+
+$$
+w_z - c_z = \frac{-(432 - 400) + 2 (316 - 300)}{2 \cdot 32} = \frac{-32 + 32}{64} = 0.
+\tag{25}
+$$
+
+**Equation 26, Round Trip along the Ground Plane.**
+For a point on the ground plane, the forward map followed by the ground-plane inverse returns the original world position up to floating-point precision.
+
+$$
+F^{-1}_{\text{ground}}(F(\mathbf{p}_{\text{world}}^{\text{ground}})) = \mathbf{p}_{\text{world}}^{\text{ground}} + O(\varepsilon),
+\tag{26}
+$$
+
+**Equation 27, Axonometric Sort Key.**
+The variable part of the ground-projection screen $y$ is the second-row weighting of the two ground coordinates, which serves as the draw-order key.
+
+$$
+\text{sort key}_i = m_{yx}\, w_{x,i} + m_{yz}\, w_{z,i}.
+\tag{27}
+$$
+
+**Equation 28, Axonometric Draw Order Criterion.**
+An object is drawn before another exactly when its sort key, and so its ground-projection screen $y$, is smaller.
+
+$$
+\text{draw } i \text{ before } j \iff s_{y,i}^{\text{ground}} < s_{y,j}^{\text{ground}} \iff m_{yx}\, w_{x,i} + m_{yz}\, w_{z,i} < m_{yx}\, w_{x,j} + m_{yz}\, w_{z,j}.
+\tag{28}
+$$
+
+### Notation
+
+- $M$, the two-by-three axonometric projection matrix whose columns are the screen images of the world-axis unit vectors
+- $R$, the rotation orienting the view axis along the projection direction
+- $P$, the orthogonal projection dropping the projection-axis coordinate
+- $S$, the non-uniform scale applying the foreshortening of the chosen variant
+- $\mathbf{c}$, the camera position $(c_x, c_y, c_z)$
+- $\mathbf{o}$, the screen centre offset $(W/2, H/2)$ in pixels
+- $f_x$, the foreshortening factor of the world $x$ axis, with $f_y$ and $f_z$ defined alike
+- $z$, the common column scale, the half-tile width in pixels in game-isometric projection
+- $r$, the tile width-to-height aspect of the dimetric family
+- $z_x$, the foreshortening factor of the world $x$ axis in trimetric projection, with $z_y$ and $z_z$ defined alike
+- $\alpha$, the angle of the world $x$ axis below the screen horizontal
+- $\gamma$, the angle of the world $z$ axis below the screen horizontal
+- $w_y^{\text{ground}}$, the vertical world coordinate of the ground plane
+- $h$, the height of an airborne character above the ground
+- $m_{\text{col-}y}$, the column of the projection matrix for the world vertical axis
+- $\varepsilon$, the floating-point precision of the engine
 
 ## References
 

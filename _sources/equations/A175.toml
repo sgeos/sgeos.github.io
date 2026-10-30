@@ -1,0 +1,275 @@
+# Equation classification for A175. Read by `python3 _lib/equations.py`.
+
+caution = "Screen positions are in pixels with $y$ increasing downward while height increases upward, so the height term enters the screen position with a negative sign, and world positions and heights share one world unit that the zoom factor converts to pixels."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Object Sprite Forward Map with Height Offset"
+gloss = "The object sprite is placed by the floor-case forward map and then lifted up the screen by the height scaled by the zoom factor."
+cite = []
+digest = "eb3c56982e9f5412"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Shadow Sprite Forward Map"
+gloss = "The shadow sprite omits the height term and sits where the object would sit if its height were zero."
+cite = []
+digest = "ff1499f246694cdc"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Screen Separation of Object and Shadow"
+gloss = "The vertical pixel separation between the object sprite and its shadow is the height multiplied by the zoom factor."
+cite = []
+digest = "498b95eabeaed63f"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Factorisation of the Object Forward Map"
+gloss = "The object forward map is the floor-case composition followed by a vertical screen-space translation driven by the height."
+cite = []
+digest = "3cf9f5145f19ff1e"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Factorisation of the Shadow Forward Map"
+gloss = "The shadow forward map is the same composition with the height-driven translation evaluated at zero height, which is the identity."
+cite = []
+digest = "971fd411dda304e8"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Object Forward Map as a Three-by-Four Matrix"
+gloss = "The object forward map acts on the augmented world coordinate of position, height and a unit entry through a single three-by-four matrix whose height column carries the negated zoom."
+cite = []
+digest = "1892d9dc7674c6a1"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Shadow Forward Map Matrix"
+gloss = "The shadow matrix equals the object matrix with the height entry set to zero, so height has no effect on the shadow position."
+cite = []
+digest = "fd73aeb3d16d26f9"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Parabolic Jump Height"
+gloss = "Under constant gravity the height of a jump is a quadratic in time fixed by the launch height and launch vertical velocity."
+cite = []
+digest = "fa156082901b8cd6"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Inverse for the Horizontal World Coordinate"
+gloss = "The horizontal world coordinate is recovered uniquely from the horizontal screen coordinate, since height does not enter it."
+cite = []
+digest = "35eeb7e8e8ddd519"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Inverse for the Vertical World Coordinate at a Given Height"
+gloss = "The vertical world coordinate depends on the unknown height, shifting by one world unit for each unit of height."
+cite = []
+digest = "388822c6f6d7c03c"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Inverse Map at a Known Height"
+gloss = "When the height is known, the inverse map returns a single world point, which reduces to the floor-case inverse at zero height."
+cite = []
+digest = "1b1c07b55f53dcf3"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Candidate Set of World Points under a Pixel"
+gloss = "With the height unknown, every non-negative height yields a world point that projects to the same pixel, so the preimage is a half-line parameterised by height."
+cite = []
+digest = "e56a6399644102dd"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Ground-Plane Inverse"
+gloss = "Interpreting the click as referring to the ground sets the height to zero and recovers the floor-case inverse map."
+cite = []
+digest = "c913792621a06f42"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Candidate Set under a Single Discrete Jump Height"
+gloss = "When jumps reach only one discrete height, the candidate set holds at most a ground candidate and an airborne candidate."
+cite = []
+digest = "c9b2206c7c29eaa6"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Candidate Segment under a Bounded Height"
+gloss = "When height is bounded by a maximum, the candidate set is a bounded segment in world space parameterised uniquely by height."
+cite = []
+digest = "06f6d131d35e4e1a"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Viewport at a Known Height"
+gloss = "The world rectangle visible at a given height is the floor-case viewport shifted by that height in the world frame."
+cite = []
+digest = "53728542ca5f789e"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Viewport Extended for Airborne Objects"
+gloss = "The union of the per-height viewports over heights up to the maximum extends the floor-case rectangle by a strip of that maximum height along one edge."
+cite = []
+digest = "7eb22012537cac61"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Object Sprite Position at the Jump Apex"
+gloss = "With unit zoom, a camera at $(500, 400)$ and the player at $(520, 410)$ at a height of nine units, the object sprite lands at $(420, 301)$."
+cite = []
+digest = "bf5665da218db02e"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Shadow Sprite Position at the Jump Apex"
+gloss = "The shadow sprite of the same player lands at $(420, 310)$, nine pixels below the object sprite."
+cite = []
+digest = "be1058b5230f4366"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Worked Ground-Plane Inverse of a Click on the Airborne Player"
+gloss = "A click on the airborne sprite at $(420, 301)$ is mapped by the ground-plane inverse to the world point $(520, 401)$ rather than to the player."
+cite = []
+digest = "71353439a7fc2cdd"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Object Round Trip at a Known Height"
+gloss = "Applying the object forward map and the inverse at the same height returns the original world position up to floating-point precision."
+cite = []
+digest = "933e52cbcc3558af"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Shadow Round Trip"
+gloss = "Applying the shadow forward map and its inverse returns the original world position up to floating-point precision, as in the floor case."
+cite = []
+digest = "622f8c313725e1e3"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Linear Shadow Scale with a Floor"
+gloss = "The shadow sprite is assumed to shrink linearly with height at a chosen rate, clamped below by a minimum scale so that it stays visible."
+cite = []
+digest = "0c874d28d0e883ce"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Linear Shadow Fade with a Floor"
+gloss = "The shadow opacity is assumed to fall linearly with height at the same chosen rate, clamped below by a minimum opacity."
+cite = []
+digest = "f6d531781ebdb2c1"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Shadow Forward Map over Discrete Ground Heights"
+gloss = "With terrain of discrete ground heights, the shadow is lifted by the ground height beneath the object rather than drawn at zero height."
+cite = []
+digest = "3128670134fcc9a3"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{world}}'
+meaning = "the world position of an object on the ground plane"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{screen}}^{\text{obj}}'
+meaning = "the screen position of the object sprite"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{screen}}^{\text{shadow}}'
+meaning = "the screen position of the shadow sprite"
+
+[[symbol]]
+tex = 'z'
+meaning = "the zoom factor in pixels per world unit"
+
+[[symbol]]
+tex = '\mathbf{c}'
+meaning = "the camera position"
+
+[[symbol]]
+tex = '\mathbf{o}'
+meaning = "the screen centre offset in pixels, with components $o_x$ and $o_y$"
+
+[[symbol]]
+tex = 'h'
+meaning = "the height of an object above the ground, increasing upward"
+
+[[symbol]]
+tex = 'T_v(h)'
+meaning = "the height-driven vertical translation in screen space"
+
+[[symbol]]
+tex = 'h_0'
+meaning = "the launch height of a jump"
+
+[[symbol]]
+tex = 'v_0'
+meaning = "the launch vertical velocity of a jump"
+
+[[symbol]]
+tex = 'g'
+meaning = "the gravity constant in world units per second squared"
+
+[[symbol]]
+tex = 'h_{\text{jump}}'
+meaning = "the single discrete height a restricted jump reaches"
+
+[[symbol]]
+tex = 'h_{\max}'
+meaning = "the maximum height an object can reach"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"
+
+[[symbol]]
+tex = 'k'
+meaning = "the positive constant by which the shadow shrinks or fades per unit of height"
+
+[[symbol]]
+tex = 's_{\min}'
+meaning = "the minimum shadow scale"
+
+[[symbol]]
+tex = '\alpha_{\min}'
+meaning = "the minimum shadow opacity"
+
+[[symbol]]
+tex = 'h_{\text{ground}}(w_x, w_y)'
+meaning = "the discrete ground height at a world position"

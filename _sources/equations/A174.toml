@@ -1,0 +1,163 @@
+# Equation classification for A174. Read by `python3 _lib/equations.py`.
+
+caution = "Screen positions are in pixels with $y$ increasing downward, world positions are in world units, and the zoom factor converts between them in pixels per world unit, so an equation that negates the vertical scale is written for a world whose $y$ increases upward."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Top-Down Forward Map"
+gloss = "The world position relative to the camera is scaled by the zoom factor and offset to the screen centre, a uniform scale with no rotation or height term."
+cite = []
+digest = "cb6a4ebaca4c774e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Top-Down Forward Map in Homogeneous Form"
+gloss = "The same forward map is written as a single three-by-three homogeneous matrix whose translation column combines the scaled camera position and the screen centre."
+cite = []
+digest = "365033c7cbac8c7c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Factorisation into Translation, Scale and Translation"
+gloss = "The forward map factors as a translation by the negated camera position, a uniform scale by the zoom and a translation by the screen centre, applied from right to left."
+cite = []
+digest = "501138d77063d049"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Forward Map for a World with Upward Vertical Axis"
+gloss = "Negating the second row of the scale matrix maps a world whose $y$ increases upward onto a screen whose $y$ increases downward."
+cite = []
+digest = "7127aa050b60014f"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Top-Down Inverse Map"
+gloss = "Subtracting the screen centre, dividing by the zoom and adding the camera position returns the unique world point under a screen pixel."
+cite = []
+digest = "c12a93d3e90f59c8"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "World-Space Viewport Rectangle"
+gloss = "Applying the inverse map to the screen corners gives the rectangle of world positions visible on screen, centred on the camera with half-extents of half the screen size divided by the zoom."
+cite = []
+digest = "980c3abded9c64af"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Tile Coordinate of a World Point"
+gloss = "Dividing a world point by the tile size and taking the floor componentwise gives the index of the grid cell that contains it."
+cite = []
+digest = "4e02e56c96cbbd26"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Worked Forward Map for a Tree"
+gloss = "With an illustrative camera at $(500, 400)$, unit zoom and an eight hundred by six hundred screen, the tree at $(600, 350)$ lands at screen position $(500, 250)$."
+cite = []
+digest = "ae1ffc29cac23d7b"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Worked Inverse Map for a Click"
+gloss = "Reversing the same steps for a click at $(500, 250)$ recovers the world position of the tree exactly."
+cite = []
+digest = "a27a9e37d3e812d4"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Round Trip within Floating-Point Precision"
+gloss = "Applying the forward map and then the inverse map returns the original world position up to an error of the order of the floating-point precision of the engine."
+cite = []
+digest = "9a92be290d919092"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Smoothed Camera Follow"
+gloss = "Each frame the camera moves a fixed fraction of the remaining distance toward its target, an exponential approach in discrete time."
+cite = []
+digest = "cfd90e6739e1f7eb"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Camera Clamped to Map Bounds"
+gloss = "The target camera position is clamped so that the visible window, of half-extent half the viewport size, stays inside the map."
+cite = []
+digest = "ec1906c285d9cbe4"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{world}}'
+meaning = "the world position of an object"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{screen}}'
+meaning = "the screen position in pixels"
+
+[[symbol]]
+tex = 'z'
+meaning = "the zoom factor, the number of screen pixels per world unit"
+
+[[symbol]]
+tex = '\mathbf{c}'
+meaning = "the camera position, the world point at the centre of the screen"
+
+[[symbol]]
+tex = '\mathbf{o}'
+meaning = "the screen centre offset $(W/2, H/2)$ in pixels"
+
+[[symbol]]
+tex = 'W'
+meaning = "the screen width in pixels"
+
+[[symbol]]
+tex = 'H'
+meaning = "the screen height in pixels"
+
+[[symbol]]
+tex = 'T'
+meaning = "a translation by its vector argument"
+
+[[symbol]]
+tex = 'S(z)'
+meaning = "a uniform scale by the zoom factor"
+
+[[symbol]]
+tex = 's_{\text{tile}}'
+meaning = "the side length of a tile in world units"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the fraction of the remaining distance the camera moves each frame, in the interval from zero exclusive to one inclusive"
+
+[[symbol]]
+tex = '\mathbf{c}_{\text{target}}'
+meaning = "the target camera position"
+
+[[symbol]]
+tex = '\mathbf{m}_{\min}'
+meaning = "the minimum corner of the map"
+
+[[symbol]]
+tex = '\mathbf{m}_{\max}'
+meaning = "the maximum corner of the map"
+
+[[symbol]]
+tex = '\mathbf{v}'
+meaning = "the viewport size in world units"

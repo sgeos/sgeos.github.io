@@ -186,6 +186,7 @@ with magnitude set by the horizontal field of view,
 
 $$
 |\mathbf{p}| = \tan\left( \frac{\mathrm{FOV}}{2} \right).
+\tag{1}
 $$
 
 For a 90-degree field of view,
@@ -201,12 +202,14 @@ runs from $-1$ at the left screen edge to $+1$ at the right edge,
 
 $$
 \mathrm{camx}(s_x) = \frac{2\, s_x}{W} - 1.
+\tag{2}
 $$
 
 The ray direction for column $s_x$ is
 
 $$
 \mathbf{r}(s_x) = \mathbf{d} + \mathrm{camx}(s_x) \cdot \mathbf{p}.
+\tag{3}
 $$
 
 The ray is not unit-length in general.
@@ -239,6 +242,7 @@ is the projection of the displacement onto the forward direction,
 
 $$
 d_{\text{perp}} = (\mathbf{h} - \mathbf{c}) \cdot \mathbf{d} = t.
+\tag{4}
 $$
 
 The simplification to $t$ holds
@@ -254,6 +258,7 @@ that perspective projection introduces,
 
 $$
 h_{\text{slice}} = \frac{f \cdot h_{\text{wall}}}{d_{\text{perp}}},
+\tag{5}
 $$
 
 where $f$ is the vertical focal length in pixels per world unit
@@ -265,6 +270,7 @@ the simplified formula is
 
 $$
 h_{\text{slice}} = \frac{f}{d_{\text{perp}}}.
+\tag{6}
 $$
 
 A wall at distance $d_{\text{perp}} = f$
@@ -280,6 +286,7 @@ The slice spans the vertical screen range
 
 $$
 s_y \in \left[ \frac{H}{2} - \frac{h_{\text{slice}}}{2},\ \frac{H}{2} + \frac{h_{\text{slice}}}{2} \right].
+\tag{7}
 $$
 
 The renderer writes the wall texture
@@ -300,6 +307,7 @@ is the fractional part of the hit's $w_x$,
 
 $$
 u_{\text{texture}} = w_x^{\text{hit}} - \lfloor w_x^{\text{hit}} \rfloor.
+\tag{8}
 $$
 
 For a wall at constant $w_x$,
@@ -309,6 +317,7 @@ maps the slice screen-y to the wall's local vertical,
 
 $$
 v_{\text{texture}}(s_y) = \frac{s_y - (H/2 - h_{\text{slice}}/2)}{h_{\text{slice}}}.
+\tag{9}
 $$
 
 The vertical texture coordinate ranges from $0$ at the top of the slice
@@ -323,6 +332,7 @@ might use the Euclidean distance instead,
 
 $$
 d_{\text{euc}} = |\mathbf{h} - \mathbf{c}| = \sqrt{(h_x - c_x)^2 + (h_z - c_z)^2}.
+\tag{10}
 $$
 
 The Euclidean distance and the perpendicular distance
@@ -330,12 +340,14 @@ are related by
 
 $$
 d_{\text{euc}} = \frac{d_{\text{perp}}}{\cos\alpha},
+\tag{11}
 $$
 
 where $\alpha$ is the angle between the ray and the forward direction,
 
 $$
 \cos\alpha = \frac{\mathbf{r} \cdot \mathbf{d}}{|\mathbf{r}|} = \frac{1}{|\mathbf{r}|} = \frac{1}{\sqrt{1 + \mathrm{camx}^2\, |\mathbf{p}|^2}}.
+\tag{12}
 $$
 
 Using $d_{\text{euc}}$ in the slice-height formula
@@ -355,6 +367,7 @@ in the slice-height formula,
 
 $$
 h_{\text{slice}} = \frac{f}{d_{\text{perp}}} = \frac{f \cos\alpha}{d_{\text{euc}}}.
+\tag{13}
 $$
 
 The corrected slice rendering
@@ -397,6 +410,7 @@ combined with the texture coordinate at the click,
 
 $$
 \mathbf{p}_{\text{world}}^{\text{wall}} = (h_x,\ w_y^{\text{ceiling}} + v_{\text{texture}}(s_y) \cdot h_{\text{wall}},\ h_z).
+\tag{14}
 $$
 
 The vertical world coordinate
@@ -410,6 +424,7 @@ along the camera-forward axis is
 
 $$
 d_{\text{floor}}(s_y) = \frac{f\, (w_y^{\text{floor}} - c_y)}{s_y - H/2},
+\tag{15}
 $$
 
 with the same inverse-screen-y form
@@ -420,6 +435,7 @@ by the floor distance,
 
 $$
 \mathbf{p}_{\text{world}}^{\text{floor}} = \big( c_x + d_{\text{floor}}(s_y)\, r_x(s_x),\ w_y^{\text{floor}},\ c_z + d_{\text{floor}}(s_y)\, r_z(s_x) \big),
+\tag{16}
 $$
 
 where $r_x(s_x)$ and $r_z(s_x)$ are the horizontal components
@@ -504,12 +520,14 @@ The perpendicular distance is
 
 $$
 d_{\text{perp}} = (10 - 5.5, 5.5 - 5.5) \cdot (1, 0) = 4.5.
+\tag{17}
 $$
 
 The wall slice height is
 
 $$
 h_{\text{slice}} = \frac{200}{4.5} \approx 44 \text{ pixels}.
+\tag{18}
 $$
 
 The slice spans screen-y range
@@ -529,12 +547,14 @@ The hit point is
 
 $$
 \mathbf{h} = (5.5, 5.5) + 4.5 \cdot (1, -0.65) = (10, 5.5 - 2.925) = (10, 2.575).
+\tag{19}
 $$
 
 The perpendicular distance is
 
 $$
 d_{\text{perp}} = (4.5, -2.925) \cdot (1, 0) = 4.5.
+\tag{20}
 $$
 
 The wall slice at column $s_x = 0$
@@ -542,6 +562,7 @@ has the same height as the central column,
 
 $$
 h_{\text{slice}} = \frac{200}{4.5} \approx 44 \text{ pixels}.
+\tag{21}
 $$
 
 The flat wall renders as a flat constant-height strip
@@ -556,12 +577,14 @@ The Euclidean distance for the edge column is
 
 $$
 d_{\text{euc}} = \sqrt{4.5^2 + 2.925^2} = \sqrt{20.25 + 8.556} \approx 5.37.
+\tag{22}
 $$
 
 The uncorrected slice height would be
 
 $$
 h_{\text{slice}}^{\text{wrong}} = \frac{200}{5.37} \approx 37 \text{ pixels},
+\tag{23}
 $$
 
 which is shorter than the central column's 44 pixels.
@@ -581,6 +604,7 @@ through
 
 $$
 v_{\text{texture}} = \frac{100 - 78}{44} \approx 0.5.
+\tag{24}
 $$
 
 The click corresponds to the wall at world position
@@ -592,6 +616,7 @@ holds per column,
 
 $$
 F^{-1}_{\text{wall}}(F(\mathbf{p}_{\text{world}}^{\text{wall}})) = \mathbf{p}_{\text{world}}^{\text{wall}} + O(\varepsilon),
+\tag{25}
 $$
 
 where $\varepsilon$ is the floating-point precision of the engine.
@@ -634,6 +659,7 @@ according to the camera height,
 
 $$
 s_y^{\text{slice-center}} = \frac{H}{2} - \frac{f\, (c_y - c_y^{\text{midpoint}})}{d_{\text{perp}}}.
+\tag{26}
 $$
 
 Rise of the Triad used the jumping-and-crouching variant.
@@ -646,6 +672,7 @@ according to the pitch offset,
 
 $$
 s_y^{\text{slice-center}} = \frac{H}{2} - f\, \tan(\theta_{\text{pitch}}).
+\tag{27}
 $$
 
 The variant is mathematically an approximation
@@ -938,6 +965,258 @@ The next article in the cluster
 treats stylised and hybrid projections
 that combine multiple projection modes
 in a single game.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 27 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 27, 27 are established and 0 are bespoke.
+World positions are in grid-cell units on the floor plane with the vertical axis $w_y$ increasing downward so that the ceiling has the smaller $w_y$, the focal length is in pixels per world unit at unit distance, and screen rows run downward from zero at the top.
+
+**Equation 1, Camera Plane Magnitude from Field of View.**
+The camera plane vector has a length equal to the tangent of half the horizontal field of view, which is one for a field of view of ninety degrees.
+
+$$
+|\mathbf{p}| = \tan\left( \frac{\mathrm{FOV}}{2} \right).
+\tag{1}
+$$
+
+**Equation 2, Normalised Camera-X Coordinate of a Column.**
+Each screen column maps linearly to a normalised coordinate running from minus one at the left edge to plus one at the right edge.
+
+$$
+\mathrm{camx}(s_x) = \frac{2\, s_x}{W} - 1.
+\tag{2}
+$$
+
+**Equation 3, Per-Column Ray Direction.**
+The ray for a column is the forward direction plus the normalised camera-x coordinate times the camera plane vector, which is not of unit length in general.
+
+$$
+\mathbf{r}(s_x) = \mathbf{d} + \mathrm{camx}(s_x) \cdot \mathbf{p}.
+\tag{3}
+$$
+
+**Equation 4, Perpendicular Distance to the Wall Hit.**
+Because the forward direction is a unit vector perpendicular to the camera plane, the projection of the hit displacement onto it equals the ray parameter at the hit.
+
+$$
+d_{\text{perp}} = (\mathbf{h} - \mathbf{c}) \cdot \mathbf{d} = t.
+\tag{4}
+$$
+
+**Equation 5, Wall Slice Height.**
+The slice height in pixels is the focal length times the wall height divided by the perpendicular distance, the inverse-distance scaling of perspective.
+
+$$
+h_{\text{slice}} = \frac{f \cdot h_{\text{wall}}}{d_{\text{perp}}},
+\tag{5}
+$$
+
+**Equation 6, Wall Slice Height for a Unit Wall.**
+With a wall of unit height the slice height reduces to the focal length divided by the perpendicular distance.
+
+$$
+h_{\text{slice}} = \frac{f}{d_{\text{perp}}}.
+\tag{6}
+$$
+
+**Equation 7, Vertical Screen Range of a Wall Slice.**
+With the camera at the wall midpoint, as in the classic raycaster, the slice is centred on the middle row of the screen.
+
+$$
+s_y \in \left[ \frac{H}{2} - \frac{h_{\text{slice}}}{2},\ \frac{H}{2} + \frac{h_{\text{slice}}}{2} \right].
+\tag{7}
+$$
+
+**Equation 8, Horizontal Texture Coordinate of a Wall Hit.**
+For a wall at constant depth coordinate, the horizontal texture coordinate is the fractional part of the lateral coordinate of the hit.
+
+$$
+u_{\text{texture}} = w_x^{\text{hit}} - \lfloor w_x^{\text{hit}} \rfloor.
+\tag{8}
+$$
+
+**Equation 9, Vertical Texture Coordinate of a Slice Row.**
+The vertical texture coordinate maps the rows of the slice linearly from zero at its top to one at its bottom.
+
+$$
+v_{\text{texture}}(s_y) = \frac{s_y - (H/2 - h_{\text{slice}}/2)}{h_{\text{slice}}}.
+\tag{9}
+$$
+
+**Equation 10, Euclidean Distance to the Wall Hit.**
+The Euclidean distance from the camera to the hit is the length of the displacement on the floor plane.
+
+$$
+d_{\text{euc}} = |\mathbf{h} - \mathbf{c}| = \sqrt{(h_x - c_x)^2 + (h_z - c_z)^2}.
+\tag{10}
+$$
+
+**Equation 11, Euclidean and Perpendicular Distance Relation.**
+The Euclidean distance equals the perpendicular distance divided by the cosine of the angle between the ray and the forward direction.
+
+$$
+d_{\text{euc}} = \frac{d_{\text{perp}}}{\cos\alpha},
+\tag{11}
+$$
+
+**Equation 12, Cosine of the Ray Angle.**
+Since the ray has unit forward component, the cosine of the ray angle is the reciprocal of the ray length, which falls toward the screen edges.
+
+$$
+\cos\alpha = \frac{\mathbf{r} \cdot \mathbf{d}}{|\mathbf{r}|} = \frac{1}{|\mathbf{r}|} = \frac{1}{\sqrt{1 + \mathrm{camx}^2\, |\mathbf{p}|^2}}.
+\tag{12}
+$$
+
+**Equation 13, Fisheye-Corrected Slice Height.**
+Using the perpendicular distance, equivalently the Euclidean distance multiplied by the cosine of the ray angle, keeps a flat wall flat on screen.
+
+$$
+h_{\text{slice}} = \frac{f}{d_{\text{perp}}} = \frac{f \cos\alpha}{d_{\text{euc}}}.
+\tag{13}
+$$
+
+**Equation 14, Wall Pixel Inverse.**
+A click on a wall pixel recovers the hit point on the floor plane and a vertical position from the ceiling down by the vertical texture coordinate times the wall height.
+
+$$
+\mathbf{p}_{\text{world}}^{\text{wall}} = (h_x,\ w_y^{\text{ceiling}} + v_{\text{texture}}(s_y) \cdot h_{\text{wall}},\ h_z).
+\tag{14}
+$$
+
+**Equation 15, Floor Distance of a Screen Row.**
+A floor pixel meets the floor at a forward distance equal to the focal length times the camera height above the floor divided by the row offset below the screen middle.
+
+$$
+d_{\text{floor}}(s_y) = \frac{f\, (w_y^{\text{floor}} - c_y)}{s_y - H/2},
+\tag{15}
+$$
+
+**Equation 16, Floor Pixel Inverse.**
+Advancing from the camera along the per-column ray by the floor distance gives the floor position under the pixel, since the ray has unit forward component.
+
+$$
+\mathbf{p}_{\text{world}}^{\text{floor}} = \big( c_x + d_{\text{floor}}(s_y)\, r_x(s_x),\ w_y^{\text{floor}},\ c_z + d_{\text{floor}}(s_y)\, r_z(s_x) \big),
+\tag{16}
+$$
+
+**Equation 17, Worked Perpendicular Distance at the Centre Column.**
+With an illustrative camera at $(5.5, 5.5)$ facing along $+w_x$ and a wall at $w_x = 10$, the centre ray meets the wall at a perpendicular distance of four point five.
+
+$$
+d_{\text{perp}} = (10 - 5.5, 5.5 - 5.5) \cdot (1, 0) = 4.5.
+\tag{17}
+$$
+
+**Equation 18, Worked Slice Height at the Centre Column.**
+With an illustrative focal length of two hundred pixels, the centre slice is about forty-four pixels tall.
+
+$$
+h_{\text{slice}} = \frac{200}{4.5} \approx 44 \text{ pixels}.
+\tag{18}
+$$
+
+**Equation 19, Worked Wall Hit at the Left Edge Column.**
+With a sixty-six degree field of view the left-edge ray of direction $(1, -0.65)$ meets the same wall at $(10, 2.575)$.
+
+$$
+\mathbf{h} = (5.5, 5.5) + 4.5 \cdot (1, -0.65) = (10, 5.5 - 2.925) = (10, 2.575).
+\tag{19}
+$$
+
+**Equation 20, Worked Perpendicular Distance at the Left Edge Column.**
+The perpendicular distance at the left edge is also four point five, because the wall is perpendicular to the forward direction.
+
+$$
+d_{\text{perp}} = (4.5, -2.925) \cdot (1, 0) = 4.5.
+\tag{20}
+$$
+
+**Equation 21, Worked Slice Height at the Left Edge Column.**
+The left-edge slice has the same height of about forty-four pixels, so the flat wall renders as a strip of constant height.
+
+$$
+h_{\text{slice}} = \frac{200}{4.5} \approx 44 \text{ pixels}.
+\tag{21}
+$$
+
+**Equation 22, Worked Euclidean Distance at the Left Edge Column.**
+The Euclidean distance at the left edge is about five point three seven, longer than the perpendicular distance.
+
+$$
+d_{\text{euc}} = \sqrt{4.5^2 + 2.925^2} = \sqrt{20.25 + 8.556} \approx 5.37.
+\tag{22}
+$$
+
+**Equation 23, Worked Uncorrected Slice Height at the Left Edge Column.**
+Using the Euclidean distance would shorten the left-edge slice to about thirty-seven pixels, the fisheye distortion.
+
+$$
+h_{\text{slice}}^{\text{wrong}} = \frac{200}{5.37} \approx 37 \text{ pixels},
+\tag{23}
+$$
+
+**Equation 24, Worked Vertical Texture Coordinate of a Click.**
+A click at the middle row of the centre slice gives a vertical texture coordinate of about one half, the wall midpoint.
+
+$$
+v_{\text{texture}} = \frac{100 - 78}{44} \approx 0.5.
+\tag{24}
+$$
+
+**Equation 25, Round Trip per Column.**
+For a wall point, the forward map followed by the wall inverse returns the original world position up to floating-point precision.
+
+$$
+F^{-1}_{\text{wall}}(F(\mathbf{p}_{\text{world}}^{\text{wall}})) = \mathbf{p}_{\text{world}}^{\text{wall}} + O(\varepsilon),
+\tag{25}
+$$
+
+**Equation 26, Slice Centre under a Variable Camera Height.**
+When the camera may move off the wall midpoint, the slice centre shifts from the screen middle by the focal length times the height offset divided by the perpendicular distance.
+
+$$
+s_y^{\text{slice-center}} = \frac{H}{2} - \frac{f\, (c_y - c_y^{\text{midpoint}})}{d_{\text{perp}}}.
+\tag{26}
+$$
+
+**Equation 27, Slice Centre under a Pitch Offset.**
+Looking up or down shifts every slice centre by the focal length times the tangent of the pitch angle, a vertical shear that approximates a true rotation.
+
+$$
+s_y^{\text{slice-center}} = \frac{H}{2} - f\, \tan(\theta_{\text{pitch}}).
+\tag{27}
+$$
+
+### Notation
+
+- $\mathbf{p}$, the camera plane vector, perpendicular to the forward direction
+- $\mathbf{d}$, the unit forward direction of the camera
+- $\mathrm{FOV}$, the horizontal field of view
+- $\mathrm{camx}(s_x)$, the normalised camera-x coordinate of screen column $s_x$
+- $\mathbf{r}(s_x)$, the ray direction for screen column $s_x$
+- $\mathbf{h}$, the wall hit point, with components $h_x$ and $h_z$
+- $\mathbf{c}$, the camera position on the floor plane
+- $d_{\text{perp}}$, the perpendicular distance from the camera plane to the wall hit
+- $d_{\text{euc}}$, the Euclidean distance from the camera to the wall hit
+- $h_{\text{slice}}$, the wall slice height in pixels
+- $h_{\text{wall}}$, the wall height, the floor coordinate minus the ceiling coordinate
+- $f$, the vertical focal length in pixels per world unit at unit distance
+- $H$, the screen height in pixels
+- $u_{\text{texture}}$, the horizontal texture coordinate
+- $v_{\text{texture}}$, the vertical texture coordinate
+- $\alpha$, the angle between a ray and the forward direction
+- $w_y^{\text{ceiling}}$, the vertical world coordinate of the ceiling
+- $w_y^{\text{floor}}$, the vertical world coordinate of the floor
+- $d_{\text{floor}}(s_y)$, the forward distance to the floor point under screen row $s_y$
+- $c_y^{\text{midpoint}}$, the camera height at the wall midpoint
+- $\theta_{\text{pitch}}$, the pitch angle of the view
+- $\varepsilon$, the floating-point precision of the engine
 
 ## References
 

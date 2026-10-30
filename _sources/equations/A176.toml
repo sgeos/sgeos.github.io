@@ -1,0 +1,235 @@
+# Equation classification for A176. Read by `python3 _lib/equations.py`.
+
+caution = "World and screen coordinates both take $y$ increasing downward unless an equation negates the vertical scale, so an upward launch velocity enters the trajectory with a negative sign, and the worked example takes one world unit per pixel."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Side-Scrolling Forward Map"
+gloss = "The world position relative to the camera is scaled by the zoom factor and offset to the screen centre, the same planar affine map as the floor case."
+cite = []
+digest = "cb6a4ebaca4c774e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Forward Map for a World with Upward Vertical Axis"
+gloss = "Negating the second row of the scale matrix maps a world whose $y$ increases upward, as physics conventions prefer, onto a screen whose $y$ increases downward."
+cite = []
+digest = "7127aa050b60014f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Horizontal-Only Scrolling Camera"
+gloss = "The camera moves horizontally over time while its vertical position stays fixed at a constant that keeps the ground at the bottom of the screen."
+cite = []
+digest = "2971c29215241889"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Camera Following the Player with a Right Bias"
+gloss = "The horizontal camera position trails the player by a fixed bias in world units, which places the player sprite a constant distance from the screen centre."
+cite = []
+digest = "4f12f29ae61ef24b"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Ballistic Jump Trajectory in a Downward Vertical Frame"
+gloss = "Under constant gravity the player position is quadratic in time, with the upward launch velocity negated because world $y$ increases downward."
+cite = []
+digest = "0706a6a2a29f1018"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Factorisation of the Side-Scrolling Forward Map"
+gloss = "The forward map factors as a translation by the negated camera position, a uniform scale and a translation to the screen centre, identical to the floor-case factorisation."
+cite = []
+digest = "501138d77063d049"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Side-Scrolling Forward Map in Homogeneous Form"
+gloss = "The forward map is the planar affine three-by-three homogeneous matrix of the floor case."
+cite = []
+digest = "5129e8cab4f08273"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Side-Scrolling Inverse Map"
+gloss = "The forward matrix is square and of full rank, so subtracting the screen centre, dividing by the zoom and adding the camera position returns one world point for every pixel."
+cite = []
+digest = "c12a93d3e90f59c8"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "World-Space Viewport Rectangle"
+gloss = "Applying the inverse map to the screen rectangle gives the world region the renderer iterates over when culling invisible objects."
+cite = []
+digest = "980c3abded9c64af"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Worked Forward Map for a Standing Player"
+gloss = "On a two hundred and fifty-six by two hundred and forty screen with unit zoom and an illustrative camera at $(268, 120)$, a player standing at $(300, 200)$ lands at screen $(160, 200)$."
+cite = []
+digest = "31c956fe7b9c5629"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Worked Player Position at the Jump Apex"
+gloss = "With illustrative launch velocities of fifty and one hundred and fifty world units per second and a gravity of six hundred, the player reaches $(312.5, 181.25)$ at the apex after a quarter of a second."
+cite = []
+digest = "6b9e13b616faeea6"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Worked Screen Position at the Jump Apex"
+gloss = "Because the camera tracks the horizontal motion exactly, the player sprite stays at screen $x = 160$ and rises to screen $y = 181.25$."
+cite = []
+digest = "d5dceaf5990d0da5"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Round Trip within Floating-Point Precision"
+gloss = "Applying the forward map and then the inverse map returns the original world position up to an error of the order of the floating-point precision of the engine."
+cite = []
+digest = "9a92be290d919092"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Vertical Dead-Zone Camera Update"
+gloss = "When the player leaves a vertical band around the camera centre, the camera moves so that the player sits on the edge of the band."
+cite = []
+digest = "b7e54ffb1438a086"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Smoothed Camera Follow"
+gloss = "Each frame the camera moves a fixed fraction of the remaining distance toward the player, an exponential approach in discrete time."
+cite = []
+digest = "cfd90e6739e1f7eb"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Forced-Scroll Camera"
+gloss = "The camera advances at a fixed horizontal velocity regardless of the player, so its horizontal position is linear in time."
+cite = []
+digest = "830b5c792a022118"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "One-Way Scrolling Camera"
+gloss = "Taking the maximum of the current camera position and the biased player position lets the camera advance but never retreat."
+cite = []
+digest = "c021b1dba6b91e3a"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Flip-Screen Camera"
+gloss = "The camera snaps to the centre of the screen-width page that contains the player, so the view changes only when the player crosses a page boundary."
+cite = []
+digest = "11672a1599b4a836"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Camera Clamped to Level Bounds"
+gloss = "The target camera position is clamped so that the visible window, of half-extent half the viewport size, stays inside the level."
+cite = []
+digest = "ec1906c285d9cbe4"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Linear Look-Ahead Camera"
+gloss = "The camera is assumed to lead the player by an offset proportional to the horizontal velocity, with a chosen look-ahead constant."
+cite = []
+digest = "889c4a1f6ca86ae9"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{world}}'
+meaning = "the world position of an object"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{screen}}'
+meaning = "the screen position in pixels"
+
+[[symbol]]
+tex = 'z'
+meaning = "the zoom factor, the number of screen pixels per world unit"
+
+[[symbol]]
+tex = '\mathbf{c}'
+meaning = "the camera position, with components $c_x$ and $c_y$"
+
+[[symbol]]
+tex = '\mathbf{o}'
+meaning = "the screen centre offset $(W/2, H/2)$ in pixels"
+
+[[symbol]]
+tex = 'c_y^{(0)}'
+meaning = "the fixed vertical camera position"
+
+[[symbol]]
+tex = 'd_{\text{bias}}'
+meaning = "the right-bias offset of the camera in world units"
+
+[[symbol]]
+tex = 'v_x'
+meaning = "the horizontal launch velocity"
+
+[[symbol]]
+tex = 'v_y^{(0)}'
+meaning = "the upward launch velocity, positive under the downward vertical convention"
+
+[[symbol]]
+tex = 'g'
+meaning = "the gravitational acceleration in world units per second squared"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"
+
+[[symbol]]
+tex = 'd_v'
+meaning = "the half-height of the vertical dead-zone band"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the interpolation factor, in the interval from zero exclusive to one inclusive"
+
+[[symbol]]
+tex = 'v_{\text{scroll}}'
+meaning = "the fixed horizontal scroll velocity"
+
+[[symbol]]
+tex = 'W'
+meaning = "the screen width"
+
+[[symbol]]
+tex = '\mathbf{v}'
+meaning = "the viewport size in world units"
+
+[[symbol]]
+tex = 'k'
+meaning = "the positive look-ahead constant"
+
+[[symbol]]
+tex = 'v_{x,\text{player}}'
+meaning = "the horizontal velocity of the player"

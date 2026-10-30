@@ -1,0 +1,247 @@
+# Equation classification for A186. Read by `python3 _lib/equations.py`.
+
+caution = "Screen coordinates are in pixels with $y$ increasing downward, so a positive rotation angle turns a sprite clockwise as seen on screen, and a condition number is a dimensionless ratio while a determinant carries the units of screen area per unit of world area."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Inverse Map to a Candidate Set"
+gloss = "The inverse map takes a screen coordinate to a set of candidate world points, which has a single element only when the inverse is determined."
+cite = []
+digest = "8503c57de46c0559"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Ground-Plane Picking Convention"
+gloss = "Fixing the vertical world coordinate at the ground and inverting the remaining coordinates suits movement commands."
+cite = []
+digest = "1a8101d80cf8c960"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Known-Depth Picking Convention"
+gloss = "Fixing the depth to a value the gameplay context supplies and inverting the remaining coordinates suits picking at a known depth."
+cite = []
+digest = "2125cf8a23fee7e7"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Screen-Space Bounding-Box Hit Test"
+gloss = "A sprite is hit when the clicked pixel lies inside its screen-space bounding rectangle."
+cite = []
+digest = "a8f4db78bb5a627b"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Nearest Hit Selection"
+gloss = "Among the sprites hit, the pick is the one with the smallest depth from the camera, which a front-to-back iteration finds first."
+cite = []
+digest = "a34461d674684783"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Condition Number as a Singular Value Ratio"
+gloss = "The condition number of a matrix is the ratio of its largest to its smallest singular value."
+cite = []
+digest = "3945582324449c5c"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Condition Number as a Product of Norms"
+gloss = "Equivalently, the condition number is the operator two-norm of the matrix times that of its inverse."
+cite = []
+digest = "1600e5dff8ad891d"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Relative Error Bound of a Linear Solve"
+gloss = "The relative error in the solution of a linear system is at most the condition number times the relative perturbation of the right-hand side."
+cite = []
+digest = "49ad002617771374"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Game-Isometric Ground-Plane Matrix"
+gloss = "The game-isometric ground-plane matrix has singular values of the zoom times the square root of two and the zoom divided by the square root of two, so its condition number is two."
+cite = []
+digest = "2dc0d7d88387f43b"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Belt-Scroll Ground-Plane Matrix"
+gloss = "The belt-scroll ground-plane matrix has singular values of the zoom and the slope times the zoom, giving a condition number of the reciprocal of the slope when the slope is at most one."
+cite = []
+digest = "73e82a61d909fa4d"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Determinant as Area Scale"
+gloss = "A linear map scales areas by the absolute value of its determinant, so a world rectangle covers that multiple of its area on screen."
+cite = []
+digest = "7dd18811614b3b26"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "World Area Sampled by a Screen Area"
+gloss = "The world area sampled by a screen area is the screen area divided by the absolute determinant, so a larger determinant gives finer picking precision."
+cite = []
+digest = "0389fd551d67cd5c"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Sprite Inverse Map"
+gloss = "Subtracting the anchor, rotating by the negated angle and dividing by the scale returns a screen click to the local frame of the sprite."
+cite = []
+digest = "23f93994cd61c744"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Local Bounding-Box Hit Test"
+gloss = "A click hits the sprite when its local position lies within half the sprite width and half the sprite height of the anchor."
+cite = []
+digest = "32d5138ba790f06a"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Alpha-Tested Hit"
+gloss = "A refined test counts a hit only when the alpha of the sprite at the local pixel exceeds a transparency threshold, rejecting clicks on transparent regions."
+cite = []
+digest = "3f2228600d0cb4f4"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Worked Offset from the Sprite Anchor"
+gloss = "With an illustrative sprite anchor at $(160, 140)$, a light-gun hit at $(200, 150)$ lies at an offset of $(40, 10)$."
+cite = []
+digest = "c2e69401350a4ae1"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Worked Inverse Rotation Matrix"
+gloss = "Rotation by minus thirty degrees has cosine about $0.866$ and sine minus one half."
+cite = []
+digest = "f8a5db1475a13f32"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Worked Rotated Offset"
+gloss = "Rotating the offset gives $(39.6, -11.3)$."
+cite = []
+digest = "08cdd64afc34a955"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Worked Sprite-Local Hit Position"
+gloss = "Dividing by the illustrative scale of two gives the local position $(19.8, -5.7)$, inside the sixty-four pixel square sprite."
+cite = []
+digest = "3ce490967a52ab25"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Round Trip within a Sprite"
+gloss = "Applying the sprite forward map and then its inverse returns the original local position up to floating-point precision."
+cite = []
+digest = "823451a6b8b6581d"
+
+[[symbol]]
+tex = 'F^{-1}'
+meaning = "the inverse map from screen to world"
+
+[[symbol]]
+tex = 'w_z^{\text{known}}'
+meaning = "the depth supplied by the gameplay context"
+
+[[symbol]]
+tex = 'B_i^{\text{screen}}'
+meaning = "the screen-space bounding box of sprite $i$"
+
+[[symbol]]
+tex = '\text{depth}_i'
+meaning = "the depth from the camera of sprite $i$"
+
+[[symbol]]
+tex = '\kappa(A)'
+meaning = "the condition number of the matrix $A$"
+
+[[symbol]]
+tex = '\sigma_{\max}(A)'
+meaning = "the largest singular value of $A$"
+
+[[symbol]]
+tex = '\sigma_{\min}(A)'
+meaning = "the smallest singular value of $A$"
+
+[[symbol]]
+tex = '\Delta \mathbf{x}'
+meaning = "the perturbation of the solution"
+
+[[symbol]]
+tex = '\Delta \mathbf{b}'
+meaning = "the perturbation of the right-hand side"
+
+[[symbol]]
+tex = 'z'
+meaning = "the zoom factor"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the belt-scroll depth-mixing slope"
+
+[[symbol]]
+tex = 'A_{\text{screen}}'
+meaning = "the screen-space area"
+
+[[symbol]]
+tex = 'A_{\text{world}}'
+meaning = "the world-space area"
+
+[[symbol]]
+tex = '\mathbf{p}_{\text{local}}'
+meaning = "the sprite-local position $(u, v)$"
+
+[[symbol]]
+tex = 's'
+meaning = "the sprite scale factor"
+
+[[symbol]]
+tex = 'R(-\theta)'
+meaning = "the rotation by the negated sprite orientation"
+
+[[symbol]]
+tex = '\mathbf{c}'
+meaning = "the screen anchor of the sprite"
+
+[[symbol]]
+tex = 'w_{\text{sprite}}'
+meaning = "the sprite width in local pixels"
+
+[[symbol]]
+tex = 'h_{\text{sprite}}'
+meaning = "the sprite height in local pixels"
+
+[[symbol]]
+tex = '\alpha_{\text{threshold}}'
+meaning = "the transparency threshold of the engine"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the floating-point precision of the engine"
