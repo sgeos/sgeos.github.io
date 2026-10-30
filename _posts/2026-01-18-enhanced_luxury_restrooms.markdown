@@ -53,21 +53,33 @@ The sixth dimension is technological augmentation. Technological augmentation co
 
 The six dimensions admit aggregation into a scalar elevation index. Let $x_H, x_P, x_S, x_T, x_R, x_A$ denote the normalized scores of a facility on the six dimensions, each scaled to the unit interval $[0, 1]$. The gating role of hygienic sufficiency is captured by a saturating gate function
 
-$$\Phi(x_H) = \frac{x_H}{x_H + h_0}$$
+$$
+\Phi(x_H) = \frac{x_H}{x_H + h_0}
+\tag{1}
+$$
 
 with $h_0 > 0$ a half-saturation constant that sets the hygienic level at which the gate reaches one half. The elevation index is then the gated weighted aggregate of the remaining five dimensions,
 
-$$E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d$$
+$$
+E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d
+\tag{2}
+$$
 
 with nonnegative weights $w_d$ that sum to one. The gate encodes the framework commitment that hygienic failure suppresses the perceived elevation of a facility regardless of its scores on the enrichment dimensions, because $\Phi(x_H) \to 0$ as $x_H \to 0$ drives $E \to 0$ irrespective of the bracketed sum.
 
 The additive aggregate within the bracket permits a substitution-elastic generalization when the analyst wishes to model complementarity among the enrichment dimensions rather than pure substitutability. The constant-elasticity-of-substitution form
 
-$$E_{\text{CES}} = \Phi(x_H) \cdot \left( \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d^{\rho} \right)^{1/\rho}$$
+$$
+E_{\text{CES}} = \Phi(x_H) \cdot \left( \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d^{\rho} \right)^{1/\rho}
+\tag{3}
+$$
 
 recovers the additive aggregate as $\rho \to 1$, the geometric aggregate as $\rho \to 0$, and the Leontief minimum as $\rho \to -\infty$. The geometric limit
 
-$$E_{\text{geo}} = \Phi(x_H) \cdot \prod_{d \in \{P, S, T, R, A\}} x_d^{w_d}$$
+$$
+E_{\text{geo}} = \Phi(x_H) \cdot \prod_{d \in \{P, S, T, R, A\}} x_d^{w_d}
+\tag{4}
+$$
 
 is the appropriate choice when the analyst holds that a facility scoring near zero on any single enrichment dimension cannot be experienced as elevated, because a single vanishing factor drives the product to zero.
 
@@ -77,59 +89,95 @@ The throughput dimension of the framework allows the most complete formal treatm
 
 Model the facility as a service system with $c$ interchangeable fixtures. Users arrive according to a Poisson process of rate $\lambda$, so that the number of arrivals in a time interval is Poisson-distributed and the interarrival times are exponential with mean $1/\lambda$. Each user occupies a fixture for a service time with mean $1/\mu$, so that $\mu$ is the per-fixture service rate. The offered load is the dimensionless quantity
 
-$$a = \frac{\lambda}{\mu}$$
+$$
+a = \frac{\lambda}{\mu}
+\tag{5}
+$$
 
 measured in erlangs, and the utilization of the facility is
 
-$$\rho = \frac{a}{c} = \frac{\lambda}{c \mu}$$
+$$
+\rho = \frac{a}{c} = \frac{\lambda}{c \mu}
+\tag{6}
+$$
 
 which must satisfy $\rho < 1$ for the system to be stable, because a utilization at or above one implies an unbounded growth of the waiting line. Under the assumption of exponential service the system is the $M/M/c$ queue, whose stationary behavior is exactly solvable and is treated in the standard references of the field from [Erlang 1917][research_erlang_1917] through [Kleinrock 1975][book_kleinrock_1975_queueing] Queueing Systems and [Shortle et al. 2018][book_shortle_2018_queueing] Fundamentals of Queueing Theory.
 
 The stationary distribution of the number in the system begins with the probability that the system is empty,
 
-$$P_0 = \left[ \sum_{k=0}^{c-1} \frac{a^k}{k!} + \frac{a^c}{c! \, (1 - \rho)} \right]^{-1}$$
+$$
+P_0 = \left[ \sum_{k=0}^{c-1} \frac{a^k}{k!} + \frac{a^c}{c! \, (1 - \rho)} \right]^{-1}
+\tag{7}
+$$
 
 the normalizing constant of the birth-death process, in terms of which the probability that an arriving user must wait, because all $c$ fixtures are occupied at the moment of arrival, is given by the Erlang-C formula
 
-$$C(c, a) = \frac{a^c}{c! \, (1 - \rho)} \, P_0 = \frac{\dfrac{a^c}{c! \, (1 - \rho)}}{\displaystyle\sum_{k=0}^{c-1} \frac{a^k}{k!} + \frac{a^c}{c! \, (1 - \rho)}}$$
+$$
+C(c, a) = \frac{a^c}{c! \, (1 - \rho)} \, P_0 = \frac{\dfrac{a^c}{c! \, (1 - \rho)}}{\displaystyle\sum_{k=0}^{c-1} \frac{a^k}{k!} + \frac{a^c}{c! \, (1 - \rho)}}
+\tag{8}
+$$
 
 which is the central quantity of the throughput dimension, because it is the probability that a user encounters a queue rather than an available fixture. The waiting time itself is not merely characterized by its mean, because the full distribution of the queueing delay is the exponential tail
 
-$$P(W_q > t) = C(c, a) \, e^{-c \mu (1 - \rho) \, t}$$
+$$
+P(W_q > t) = C(c, a) \, e^{-c \mu (1 - \rho) \, t}
+\tag{9}
+$$
 
 which shows that the fraction of users waiting longer than a tolerance $t$ falls exponentially in the tolerance at a rate set by the surplus service capacity $c \mu (1 - \rho)$. The elevated facility may therefore be specified not by a mean-wait target but by a tail target, that no more than a small fraction of users wait longer than a stated tolerance, which is the appropriate service-level criterion when the perceived quality of the facility is set by the worst experience rather than the average one.
 
 The full stationary distribution of the number of users in the system follows from the same birth-death balance. The probability of finding exactly $n$ users present is
 
-$$P_n = \begin{cases} \dfrac{a^n}{n!} \, P_0, & 0 \leq n < c \\[2mm] \dfrac{a^n}{c! \, c^{\,n-c}} \, P_0, & n \geq c \end{cases}$$
+$$
+P_n = \begin{cases} \dfrac{a^n}{n!} \, P_0, & 0 \leq n < c \\[2mm] \dfrac{a^n}{c! \, c^{\,n-c}} \, P_0, & n \geq c \end{cases}
+\tag{10}
+$$
 
 so that the occupancy below the fixture count follows a truncated Poisson form and the occupancy above it decays geometrically at ratio $\rho$. The mean number in the system recovers by summation as $L = L_q + a$, the queue content plus the mean number in service, which is Little's law applied to the whole system.
 
 A distinct provisioning regime arises when a user who finds every fixture occupied does not wait but departs, whether to another facility or without service, which is the loss regime rather than the delay regime. Under the loss regime the relevant quantity is the Erlang-B blocking probability
 
-$$B(c, a) = \frac{\dfrac{a^c}{c!}}{\displaystyle\sum_{k=0}^{c} \frac{a^k}{k!}}$$
+$$
+B(c, a) = \frac{\dfrac{a^c}{c!}}{\displaystyle\sum_{k=0}^{c} \frac{a^k}{k!}}
+\tag{11}
+$$
 
 the probability that all $c$ fixtures are occupied at an arrival, which is the fraction of demand the facility turns away. The loss regime describes the facility whose users will not queue, and the elevated facility that serves an impatient clientele is provisioned against the Erlang-B blocking probability rather than the Erlang-C waiting time, holding the blocking probability below a small target so that the facility rarely turns a user away.
 
 The exponential-service assumption of the Erlang models is an idealization, because measured fixture-occupancy times are closer to a lognormal distribution with a variance the exponential form overstates. The general-service correction of the Kingman approximation adjusts the expected wait of the exponential model by the ratio of the actual service-time variability to the exponential baseline,
 
-$$W_q^{G/G/c} \approx W_q^{M/M/c} \cdot \frac{C_a^2 + C_s^2}{2}$$
+$$
+W_q^{G/G/c} \approx W_q^{M/M/c} \cdot \frac{C_a^2 + C_s^2}{2}
+\tag{12}
+$$
 
 with $C_a$ and $C_s$ the coefficients of variation of the interarrival and service times, so that a service process less variable than the exponential, for which $C_s < 1$, yields a shorter wait than the Erlang model predicts. The correction shows that the Erlang results are conservative for the real facility, and that the provisioning derived from them errs toward surplus rather than shortfall, which is the prudent direction of error for a facility whose failure is publicly visible. The expected waiting time in the queue, exclusive of service, follows from the Erlang-C probability as
 
-$$W_q = \frac{C(c, a)}{c \mu - \lambda} = \frac{C(c, a)}{c \mu (1 - \rho)}$$
+$$
+W_q = \frac{C(c, a)}{c \mu - \lambda} = \frac{C(c, a)}{c \mu (1 - \rho)}
+\tag{13}
+$$
 
 and the expected number of users waiting in the queue follows from Little's law, the fundamental conservation relation of queueing theory established by [Little 1961][research_little_1961],
 
-$$L_q = \lambda \, W_q$$
+$$
+L_q = \lambda \, W_q
+\tag{14}
+$$
 
 which states that the time-average number in the queue equals the arrival rate multiplied by the average time each user spends in the queue and holds for any arrival and service law in steady state, not only for the exponential case. The total expected time in the system, including service, is
 
-$$W = W_q + \frac{1}{\mu}$$
+$$
+W = W_q + \frac{1}{\mu}
+\tag{15}
+$$
 
 and the total expected number in the system follows both from a second application of Little's law and from the decomposition into the queue content and the number in service,
 
-$$L = \lambda W = L_q + a$$
+$$
+L = \lambda W = L_q + a
+\tag{16}
+$$
 
 which expresses the conservation of users across the waiting and service phases of the system.
 
@@ -137,25 +185,37 @@ The sensitivity of the expected wait to the utilization is the property that mak
 
 The peak arrival rate rather than the mean arrival rate governs the required provisioning, because the demand on many elimination facilities is sharply time-varying. A facility attached to a theater, a stadium, or a transit terminal experiences arrival rates during an intermission or an event egress that exceed the daily mean by a large multiple. Let $\lambda_{\text{peak}} = \beta \lambda_{\text{mean}}$ with a peaking factor $\beta > 1$. The fixture count required to hold the peak utilization below a target $\rho^{\star}$ is
 
-$$c \geq \frac{\beta \lambda_{\text{mean}}}{\mu \, \rho^{\star}}$$
+$$
+c \geq \frac{\beta \lambda_{\text{mean}}}{\mu \, \rho^{\star}}
+\tag{17}
+$$
 
 which shows that the required provisioning scales linearly in the peaking factor. A facility designed to the mean rather than to the peak fails precisely at the moments of heaviest demand, which are the moments at which the failure is most visible.
 
 The provisioning problem supports a compact heuristic in the square-root staffing rule, which states that the fixture count required to hold a target probability of delay under offered load $a$ is approximately
 
-$$c \approx a + \beta \sqrt{a}$$
+$$
+c \approx a + \beta \sqrt{a}
+\tag{18}
+$$
 
 with $\beta$ a service-grade constant that increases with the stringency of the delay target. The rule expresses the economy of scale of shared service, because the safety margin $\beta \sqrt{a}$ grows only as the square root of the load, so that a larger facility serving a larger load requires proportionally fewer surplus fixtures above the offered load than a smaller facility serving a smaller load. The economy of scale is one reason the consolidated restroom of a large establishment can achieve a lower waiting time at a lower fractional over-provisioning than the scattered small restrooms of a fragmented one.
 
 The choice of the fixture count admits formalization as a cost minimization. Let $\kappa$ denote the amortized capital and operating cost per fixture, inclusive of the floor area the fixture occupies, and let $\gamma$ denote the monetized value of a unit of user waiting time. The total cost is the sum of the fixture cost and the aggregate waiting cost,
 
-$$\min_{c} \; \Big[ \, c \, \kappa + \gamma \, \lambda \, W_q(c) \, \Big]$$
+$$
+\min_{c} \; \Big[ \, c \, \kappa + \gamma \, \lambda \, W_q(c) \, \Big]
+\tag{19}
+$$
 
 which is convex in $c$, because the fixture cost rises linearly while the waiting cost falls convexly as fixtures are added, so that an interior optimum $c^{\star}$ balances the marginal fixture cost against the marginal waiting saving. The elevated facility is characteristically one whose operator assigns a high value to $\gamma$, whether because the facility serves a clientele whose time is valuable or because the operator treats the absence of a queue as a component of the experience it sells, and therefore provisions beyond the point a minimal-cost public facility would choose.
 
 The throughput dimension also permits a spatial efficiency measure in the served demand per unit floor area,
 
-$$\Theta = \frac{c \, \mu \, \rho^{\star}}{A_{\text{floor}}}$$
+$$
+\Theta = \frac{c \, \mu \, \rho^{\star}}{A_{\text{floor}}}
+\tag{20}
+$$
 
 with $\rho^{\star}$ the utilization at the target service level and $A_{\text{floor}}$ the floor area of the facility. The measure captures the tension between the throughput dimension and the sensory-enrichment dimension, because the generous fixture spacing, the lounge area, and the circulation width that advance sensory enrichment reduce the served demand per unit area, so that an elevated facility trades spatial throughput efficiency for experiential quality.
 
@@ -167,17 +227,26 @@ The asymmetry has several compounding sources. The mean occupancy time of a fixt
 
 Equal floor area translated into equal fixture count sets $c_m = c_w = c$. Under equal fixture count the female offered load $a_w = \lambda / \mu_w$ exceeds the male offered load $a_m = \lambda / \mu_m$, so that the female utilization $\rho_w = a_w / c$ exceeds the male utilization $\rho_m = a_m / c$. Because the expected wait is increasing and convex in utilization, the female expected wait exceeds the male expected wait, and the excess grows sharply as the common provision approaches the female saturation point. The ratio of the female to the male expected wait under equal provision is
 
-$$\frac{W_{q,w}}{W_{q,m}} = \frac{C(c, a_w)}{C(c, a_m)} \cdot \frac{1 - \rho_m}{1 - \rho_w}$$
+$$
+\frac{W_{q,w}}{W_{q,m}} = \frac{C(c, a_w)}{C(c, a_m)} \cdot \frac{1 - \rho_m}{1 - \rho_w}
+\tag{21}
+$$
 
 which exceeds the service-time ratio $\mu_m / \mu_w$ by the convex amplification of the utilization factors, so that a service-time asymmetry of a factor near two produces a wait asymmetry far larger as the female utilization approaches one. This convex amplification is the quantitative core of the observed disparity between the female and the male restroom queue. The observed asymmetry of restroom queues, in which the female queue is long while the male queue is short, is the direct consequence.
 
 Parity properly understood is the equalization of an outcome rather than of an input. Two natural parity criteria present themselves. The first is equalization of the expected wait, which requires fixture counts $c_m$ and $c_w$ satisfying
 
-$$W_q(c_m, a_m) = W_q(c_w, a_w)$$
+$$
+W_q(c_m, a_m) = W_q(c_w, a_w)
+\tag{22}
+$$
 
 with $W_q$ the Erlang-C waiting time of the preceding section. The second is equalization of the utilization, which requires
 
-$$\frac{\lambda}{c_m \mu_m} = \frac{\lambda}{c_w \mu_w} \quad\Longrightarrow\quad \frac{c_w}{c_m} = \frac{\mu_m}{\mu_w}$$
+$$
+\frac{\lambda}{c_m \mu_m} = \frac{\lambda}{c_w \mu_w} \quad\Longrightarrow\quad \frac{c_w}{c_m} = \frac{\mu_m}{\mu_w}
+\tag{23}
+$$
 
 so that the ratio of required female fixtures to male fixtures equals the ratio of male to female service rate, which is the ratio of female to male mean occupancy time. Under the empirical occupancy-time ratio the utilization-parity criterion requires roughly 1.5 to 2 times as many female fixtures as male fixtures to equalize the utilization, and the wait-parity criterion requires a comparable or larger ratio because the wait is convex in utilization. The building-code response, in the form of the revised fixture-ratio tables of the [International Plumbing Code][ref_ipc_fixture_403] and the [Uniform Plumbing Code][ref_upc_fixtures] and the potty-parity statutes discussed in the historical treatment below, is an institutional approximation to this balancing condition. The formal analysis of the parity problem in the planning and operations literature, from the review of [Anthony and Dufresne 2007][research_anthony_dufresne_2007] through the queueing treatment of [Huh et al. 2019][research_huh_2019_potty], confirms that fixture equality does not deliver waiting equality, and the flexibility analysis of [Farajollahzadeh and Hu][research_farajollahzadeh_hu_potty], with its stadium-design case study [Farajollahzadeh et al. 2025][research_farajollahzadeh_stadium], shows that pooling capacity through all-gender provision reduces the disparity by the same mechanism that pooling reduces waiting in any shared-server queue. The empirical asymmetry that drives the analysis is documented in the measurement of [whether women spend more time in the restroom than men][research_do_women_spend_more], and the broader gendered-time-cost framing is developed in the recent scholarship [beyond potty parity][research_beyond_potty_parity] and in the [feminist critical analysis of public toilets and gender][research_feminist_critical].
 
@@ -189,57 +258,93 @@ The discretion dimension of the framework allows formal treatment along its acou
 
 The acoustic environment of a restroom is governed in the first place by its reverberation. The restroom is characteristically a hard-surfaced room, finished in tile, porcelain, stone, and glass, whose surfaces absorb little sound. The reverberation time, defined as the time for the sound energy density to decay by sixty decibels after a source ceases, is given for a diffuse field by the Sabine relation established in the founding work of architectural acoustics by [Sabine 1922][book_sabine_1922_acoustics] and treated in the modern references such as [Long 2006][book_long_2006_architectural_acoustics] Architectural Acoustics,
 
-$$T_{60} = \frac{0.161 \, V}{A}$$
+$$
+T_{60} = \frac{0.161 \, V}{A}
+\tag{24}
+$$
 
 in metric units, with $V$ the room volume in cubic meters and $A$ the total absorption in metric sabins. The total absorption is the sum over the room surfaces of the surface area multiplied by its absorption coefficient,
 
-$$A = \sum_i S_i \, \alpha_i$$
+$$
+A = \sum_i S_i \, \alpha_i
+\tag{25}
+$$
 
 with $S_i$ the area of surface $i$ and $\alpha_i$ its absorption coefficient, a dimensionless quantity between zero and one. The Sabine relation assumes a nearly uniform and moderate absorption, and where the absorption is high or unevenly distributed the Eyring correction
 
-$$T_{60} = \frac{0.161 \, V}{-S \ln(1 - \bar{\alpha})}$$
+$$
+T_{60} = \frac{0.161 \, V}{-S \ln(1 - \bar{\alpha})}
+\tag{26}
+$$
 
 with $S$ the total surface area and $\bar{\alpha} = A / S$ the mean absorption coefficient supplies the more accurate estimate, reducing to the Sabine form in the limit of small mean absorption. The hard finishes characteristic of the restroom carry absorption coefficients near a few hundredths, so that the total absorption is small and the reverberation time is long. A long reverberation time sustains and spreads the sounds of elimination, which is precisely the acoustic outcome the discretion dimension seeks to prevent. Elevation along the acoustic axis therefore begins with the introduction of absorption, whether through acoustic ceiling treatment, through sound-absorbing partition material, or through soft furnishing in the serviced restroom.
 
 The concealment of a sound against a background is a masking problem. Let $L_s$ denote the sound-pressure level of the elimination sound to be concealed and $L_m$ denote the level of a masking sound introduced deliberately. The detectability of the target against the masker is governed by the signal-to-masker ratio
 
-$$\text{SMR} = L_s - L_m$$
+$$
+\text{SMR} = L_s - L_m
+\tag{27}
+$$
 
 so that a sufficiently loud and spectrally appropriate masker drives the signal-to-masker ratio below the detection threshold and renders the target sound inaudible. The masking is most efficient when the masker occupies the same critical bands as the target, because auditory masking is strongest within a critical band.
 
 The intelligibility of a concealed sound against a background is quantified by the articulation index, standardized as the speech intelligibility index in [ANSI and the Acoustical Society of America S3.5][ref_ansi_asa_s35_sii] and applied to the measurement of speech privacy in [ASTM E1130][ref_astm_e1130]. The index is a band-weighted aggregate of the clipped signal-to-noise ratio,
 
-$$\text{AI} = \sum_k W_k \, \frac{\big[\, \text{SNR}_k + 12 \,\big]_0^{30}}{30}$$
+$$
+\text{AI} = \sum_k W_k \, \frac{\big[\, \text{SNR}_k + 12 \,\big]_0^{30}}{30}
+\tag{28}
+$$
 
 with $W_k$ the importance weight of frequency band $k$, $\text{SNR}\_k = L_{s,k} - L_{n,k}$ the signal-to-noise ratio in the band, and the bracket denoting truncation to the interval from zero to thirty decibels. A concealed sound is intelligible as the index approaches one and private as it approaches zero. A masking device raises the effective background in each band, and the combined level of the ambient noise and the added masker is the energy sum
 
-$$L_{n,k}^{\text{tot}} = 10 \log_{10}\!\Big( 10^{L_{n,k}/10} + 10^{L_{m,k}/10} \Big)$$
+$$
+L_{n,k}^{\text{tot}} = 10 \log_{10}\!\Big( 10^{L_{n,k}/10} + 10^{L_{m,k}/10} \Big)
+\tag{29}
+$$
 
 so that the added masker lowers the signal-to-noise ratio and drives the articulation index toward zero at the neighboring stall. Because the masking and the ambient sounds fluctuate in time, the effective background is characterized by the equivalent continuous level, the logarithmic time average of the fluctuating level,
 
-$$L_{\text{eq}} = 10 \log_{10}\!\left( \frac{1}{T} \int_0^T 10^{L(t)/10} \, dt \right)$$
+$$
+L_{\text{eq}} = 10 \log_{10}\!\left( \frac{1}{T} \int_0^T 10^{L(t)/10} \, dt \right)
+\tag{30}
+$$
 
 which is the quantity against which the intelligibility of an intermittent target sound is assessed. The reporting of the masking-sound level is standardized in [ASTM E1573][ref_astm_e1573]. This is the acoustic principle of the automatic sound-masking device, treated in the technological-augmentation history below, which plays a masking sound, characteristically a recorded flush or a synthesized water sound, to conceal the sounds of elimination. The device also serves a resource-conservation function, because it substitutes a recorded sound for the repeated real flushing that users otherwise employ as a masker, and thereby reduces water consumption. Let $n_f$ denote the number of concealment flushes a user would otherwise perform and $v_f$ the volume per flush. The water saved per use by substitution of the device is
 
-$$\Delta v = n_f \, v_f$$
+$$
+\Delta v = n_f \, v_f
+\tag{31}
+$$
 
 which over the usage volume of a busy public facility integrates to a substantial conserved quantity. The device most closely associated with this function is the [Otohime sound device][ref_npr_otohime] marketed in Japan, whose reported per-use water saving is a manufacturer and journalistic estimate rather than a metrological measurement and is treated here as such.
 
 The olfactory axis reduces to a dilution and removal problem governed by the ventilation of the room. Model the restroom as a well-mixed volume $V$ ventilated at a volumetric flow rate $Q$, with an odorant generated at rate $G$. The steady-state odorant concentration is given by the mass balance
 
-$$C_{\text{ss}} = C_{\text{supply}} + \frac{G}{Q}$$
+$$
+C_{\text{ss}} = C_{\text{supply}} + \frac{G}{Q}
+\tag{32}
+$$
 
 with $C_{\text{supply}}$ the concentration in the supply air, so that the steady-state odor level is inversely proportional to the ventilation rate. Inverting the relation gives the ventilation flow required to hold the odor concentration at a target level,
 
-$$Q = \frac{G}{C_{\text{ss}} - C_{\text{supply}}}$$
+$$
+Q = \frac{G}{C_{\text{ss}} - C_{\text{supply}}}
+\tag{33}
+$$
 
 which is the design relation that sizes the exhaust to the generation rate and the acceptable odor concentration. After a generation event ceases, the concentration decays toward the supply level according to the first-order relaxation
 
-$$C(t) = C_{\text{supply}} + \big(C_0 - C_{\text{supply}}\big) \, e^{-Q t / V}$$
+$$
+C(t) = C_{\text{supply}} + \big(C_0 - C_{\text{supply}}\big) \, e^{-Q t / V}
+\tag{34}
+$$
 
 with time constant $\tau = V / Q$. The ventilation rate is conventionally expressed as an air-change rate, the number of room volumes exchanged per unit time,
 
-$$\text{ACH} = \frac{Q}{V} = \frac{1}{\tau}$$
+$$
+\text{ACH} = \frac{Q}{V} = \frac{1}{\tau}
+\tag{35}
+$$
 
 so that a higher air-change rate both lowers the steady-state odor level and shortens the decay time constant. The ventilation of the restroom is a matter of code as well as of comfort, and the ventilation standard [ASHRAE 62.1][ref_ashrae_62_1] specifies an exhaust of approximately fifty cubic feet per minute of continuous flow, near twenty-five liters per second, per water closet or urinal, with a higher intermittent rate. Elevation along the olfactory axis is the provision of ventilation sufficient to hold the odor concentration below the perception threshold at the generation rate the facility experiences, supplemented in the elevated facility by active scent introduction that substitutes a pleasant odorant for the neutral target of mere dilution.
 
@@ -249,47 +354,77 @@ The hygienic-sufficiency dimension, the gating base of the framework, supports t
 
 The disinfection of a surface or a volume of water is governed to first approximation by first-order inactivation kinetics. Let $N$ denote the viable pathogen count and $N_0$ its initial value. Under a constant disinfectant exposure the count decays as
 
-$$\frac{N}{N_0} = e^{-k t}$$
+$$
+\frac{N}{N_0} = e^{-k t}
+\tag{36}
+$$
 
 with $k$ an inactivation rate constant that depends on the disinfectant, its concentration, and the organism. The exposure required for a target reduction is characterized by the product of concentration and contact time, the CT value
 
-$$\text{CT} = C \cdot t$$
+$$
+\text{CT} = C \cdot t
+\tag{37}
+$$
 
 which for a specified log-reduction target is approximately constant for a given organism and disinfectant, so that a higher concentration permits a shorter contact time and conversely. The CT formulation is the standard basis of water-disinfection and surface-disinfection guidance, and the quantitative-microbial-risk-assessment framework of [Haas et al. 2014][book_haas_2014_qmra] supplies the translation from residual pathogen count to infection probability.
 
 The aerosol pathway is the toilet plume, the fine aerosol lofted by the turbulent flow of a flush, documented from the early droplet-production measurements of [Gerba et al. 1975][research_gerba_1975_plume] through the literature review of [Johnson et al. 2013][research_johnson_2013_plume] and the high-speed visualization of the energetic commercial-toilet plume by [Crimaldi et al. 2022][research_crimaldi_2022_plume], with the surface-contamination pathway documented by [Barker and Jones 2005][research_barker_jones_2005] and the role of the closed lid in suppressing the plume established by [Best et al. 2012][research_best_wilcox_2012]. The residence time of an aerosolized particle governs the opportunity for its inhalation or its deposition on a surface. A particle of diameter $d$ and density $\rho_p$ settling through air of density $\rho_f$ and dynamic viscosity $\eta$ reaches a terminal settling velocity given in the Stokes regime by
 
-$$v_s = \frac{(\rho_p - \rho_f) \, g \, d^2}{18 \, \eta}$$
+$$
+v_s = \frac{(\rho_p - \rho_f) \, g \, d^2}{18 \, \eta}
+\tag{38}
+$$
 
 which scales as the square of the particle diameter, so that the fine particles of the toilet plume settle slowly and persist in the air of the enclosure for an extended interval. For the finest particles, whose diameter approaches the mean free path of the air, the continuum assumption of the Stokes derivation fails and the settling velocity is corrected by the Cunningham slip factor
 
-$$C_c = 1 + \frac{\lambda_{\text{mfp}}}{d} \left[ 2.34 + 1.05 \, e^{-0.39 \, d / \lambda_{\text{mfp}}} \right]$$
+$$
+C_c = 1 + \frac{\lambda_{\text{mfp}}}{d} \left[ 2.34 + 1.05 \, e^{-0.39 \, d / \lambda_{\text{mfp}}} \right]
+\tag{39}
+$$
 
 with $\lambda_{\text{mfp}}$ the mean free path of the air, so that the corrected settling velocity $v_s C_c$ exceeds the uncorrected Stokes value and the very finest droplet nuclei settle still more slowly, extending their airborne residence. The time for a particle to settle through a height $h$ is
 
-$$t_{\text{settle}} = \frac{h}{v_s C_c}$$
+$$
+t_{\text{settle}} = \frac{h}{v_s C_c}
+\tag{40}
+$$
 
 which for the fine particles of the plume reaches minutes to tens of minutes, the interval over which the ventilation of the enclosure must remove them. The persistence is the reason the discretion-dimension ventilation of the preceding section serves a hygienic function as well, because the same air exchange that dilutes odor also removes aerosolized pathogen, and the reason the closed-lid flush is a hygienic measure, because the closed lid interrupts the lofting of the plume.
 
 The translation from an environmental pathogen dose to a probability of infection is the province of dose-response modeling. Under the exponential dose-response model the probability of infection from an ingested or inhaled dose $D$ is
 
-$$P_{\text{inf}} = 1 - e^{-r D}$$
+$$
+P_{\text{inf}} = 1 - e^{-r D}
+\tag{41}
+$$
 
 with $r$ a per-organism infectivity parameter, and under the more flexible Beta-Poisson model it is
 
-$$P_{\text{inf}} = 1 - \left(1 + \frac{D}{\beta}\right)^{-\alpha}$$
+$$
+P_{\text{inf}} = 1 - \left(1 + \frac{D}{\beta}\right)^{-\alpha}
+\tag{42}
+$$
 
 with $\alpha$ and $\beta$ fitted parameters. The dose itself accumulates along the fomite pathway as the product
 
-$$D = C_s \, A_c \, \tau_{s \to h} \, \tau_{h \to m} \, N_{\text{contacts}}$$
+$$
+D = C_s \, A_c \, \tau_{s \to h} \, \tau_{h \to m} \, N_{\text{contacts}}
+\tag{43}
+$$
 
 of the surface pathogen concentration $C_s$, the contact area $A_c$, the surface-to-hand and hand-to-mouth transfer efficiencies $\tau_{s \to h}$ and $\tau_{h \to m}$, and the number of contacts $N_{\text{contacts}}$, a chain quantified in the hand-to-face contact studies of [Nicas and Best 2008][research_nicas_best_2008]. The disinfection that reduces the surface concentration $C_s$ follows more generally the Chick-Watson law
 
-$$\ln \frac{N}{N_0} = -k \, C^{\,n} \, t$$
+$$
+\ln \frac{N}{N_0} = -k \, C^{\,n} \, t
+\tag{44}
+$$
 
 with $n$ the coefficient of dilution that governs the relative importance of disinfectant concentration and contact time, reducing to the simple first-order form when $n$ equals one and the concentration is held constant. The efficacy of a surface-disinfection process is reported as the log reduction
 
-$$\text{LR} = -\log_{10} \frac{N}{N_0}$$
+$$
+\text{LR} = -\log_{10} \frac{N}{N_0}
+\tag{45}
+$$
 
 so that the elevated facility that specifies a cleaning protocol to a stated log-reduction target sets a measurable hygienic standard rather than a nominal one. Hand hygiene interrupts the chain at the surface-to-hand and hand-to-mouth links, and the provision of effective hand hygiene, whose evidence base is set out in the [World Health Organization guidelines on hand hygiene][ref_who_hand_hygiene] and the earlier [guideline of Larson for the Association for Professionals in Infection Control][research_larson_1995], is therefore the single most consequential hygienic-dimension feature of the facility. The magnitude of the effect is established by a substantial epidemiological literature, including the systematic review of [Curtis and Cairncross 2003][research_curtis_cairncross_2003] on the reduction of diarrhoeal disease by handwashing with soap, the community meta-analysis of [Aiello et al. 2008][research_aiello_2008], and the worldwide review of handwashing practice by [Freeman et al. 2014][research_freeman_2014], which together place the provision of hand hygiene among the most consequential public-health functions the facility discharges. The drying of the hands after washing is itself a contested augmentation, because the jet-air dryer disperses residual microorganisms into the air of the facility more than the paper towel does, a finding of the comparative studies of [Best and Redway 2015][research_best_redway_2014], [Kimmitt and Redway 2016][research_kimmitt_redway_2016], and [Huesca-Espitia et al. 2018][research_huesca_espitia_2018], so that the choice of drying technology is a further instance of the non-monotone interaction between the augmentation dimension and the hygienic base.
 
@@ -297,23 +432,38 @@ Technological augmentation of hygiene is not unambiguously beneficial, a point t
 
 The fluid mechanics of the flush itself is the siphon action of the water closet. The characteristic modern water closet evacuates its bowl by establishing a siphon over the weir of the trap, so that once the rising water fills the trap passage the siphon draws the bowl contents through by the hydrostatic head. The flow through the siphon is governed by the Bernoulli relation along a streamline from the bowl surface to the trap outlet,
 
-$$p_1 + \tfrac{1}{2}\rho v_1^2 + \rho g z_1 = p_2 + \tfrac{1}{2}\rho v_2^2 + \rho g z_2$$
+$$
+p_1 + \tfrac{1}{2}\rho v_1^2 + \rho g z_1 = p_2 + \tfrac{1}{2}\rho v_2^2 + \rho g z_2
+\tag{46}
+$$
 
 subject to the continuity of the volumetric flow through the varying cross-section,
 
-$$A_1 v_1 = A_2 v_2 = Q_{\text{flush}}$$
+$$
+A_1 v_1 = A_2 v_2 = Q_{\text{flush}}
+\tag{47}
+$$
 
 so that the discharge velocity at the outlet driven by the head $\Delta h$ from the crest to the outlet is
 
-$$v_{\text{out}} = C_d \sqrt{2 g \, \Delta h}$$
+$$
+v_{\text{out}} = C_d \sqrt{2 g \, \Delta h}
+\tag{48}
+$$
 
 with $C_d$ a discharge coefficient that lumps the viscous and contraction losses of the real trapway. The time to empty a bowl of cross-section $A_b$ through a trap of area $A_t$ as the head falls from $h_0$ to $h_f$ follows by integration of the Torricelli discharge as
 
-$$t_{\text{flush}} = \frac{A_b}{C_d A_t} \sqrt{\frac{2}{g}} \left( \sqrt{h_0} - \sqrt{h_f} \right)$$
+$$
+t_{\text{flush}} = \frac{A_b}{C_d A_t} \sqrt{\frac{2}{g}} \left( \sqrt{h_0} - \sqrt{h_f} \right)
+\tag{49}
+$$
 
 which shows that the evacuation time rises with the bowl area and falls with the trap area and the discharge coefficient, the design levers by which the fixture achieves a rapid and complete flush at the reduced water volume treated below. The minimum flush volume consistent with reliable siphon establishment and bowl clearance has fallen across the twentieth and twenty-first centuries under water-conservation pressure. The regulated maximum flush volume in the United States fell to 1.6 gallons, approximately 6.0 liters, under the [Energy Policy Act 1992][ref_epact_1992], and the high-efficiency threshold under the Environmental Protection Agency [WaterSense specification][ref_epa_watersense_toilets] is 1.28 gallons, approximately 4.8 liters, subject to a solid-clearance performance floor verified by the [Maximum Performance testing protocol][ref_map_testing] against the [ceramic-fixture standard ASME A112.19.2][ref_asme_a112_19_2]. The trap also serves a hygienic function independent of evacuation, because the standing water in the trap forms a seal against the ingress of sewer gas. Let $h_s$ denote the depth of the trap seal. The seal resists a pressure difference up to
 
-$$\Delta p_{\max} = \rho g h_s$$
+$$
+\Delta p_{\max} = \rho g h_s
+\tag{50}
+$$
 
 with $\rho$ the density of water and $g$ the gravitational acceleration, so that a transient pressure excursion in the drainage system exceeding this value breaks the seal and admits sewer gas, which is the failure mode that drainage venting is designed to prevent. The [International Plumbing Code trap provisions][ref_ipc_traps_1002] require a liquid seal depth between two and four inches, approximately fifty to one hundred millimeters, which bounds the pressure excursion the seal can resist.
 
@@ -323,11 +473,17 @@ The sensory-enrichment dimension is the dimension along which luxury is most vis
 
 The perceived thermal state of an occupant is predicted by the [Fanger comfort model][book_fanger_1970_thermal_comfort], standardized in [ASHRAE Standard 55][ref_ashrae_55] and [ISO 7730 Analytical Determination n.d.][ref_iso_7730], which relates the thermal load on the body to a predicted mean vote on a seven-point thermal-sensation scale. The predicted mean vote is
 
-$$\text{PMV} = \big(0.303 \, e^{-0.036 M} + 0.028\big) \, L$$
+$$
+\text{PMV} = \big(0.303 \, e^{-0.036 M} + 0.028\big) \, L
+\tag{51}
+$$
 
 with $M$ the metabolic heat production per unit body surface area and $L$ the thermal load, defined as the difference between the internal heat production and the heat loss to the environment at the actual environmental conditions. The dispersion of individual votes about the predicted mean is summarized by the predicted percentage dissatisfied,
 
-$$\text{PPD} = 100 - 95 \, \exp\!\big(-0.03353 \, \text{PMV}^4 - 0.2179 \, \text{PMV}^2\big)$$
+$$
+\text{PPD} = 100 - 95 \, \exp\!\big(-0.03353 \, \text{PMV}^4 - 0.2179 \, \text{PMV}^2\big)
+\tag{52}
+$$
 
 which attains its minimum of five percent at a predicted mean vote of zero, so that even under ideally neutral conditions a residual five percent of occupants report dissatisfaction. The comfort model shows that the elimination facility, characteristically a hard and often poorly conditioned room, sits by default away from thermal neutrality, and that elevation along the thermal axis, through the heated seat of the washlet, through radiant floor heating, and through the conditioning of the ventilation air, moves the predicted mean vote toward zero and the predicted percentage dissatisfied toward its floor.
 
@@ -337,25 +493,40 @@ The sensory dimension of the facility is carried by its sound field and its ligh
 
 The sound-pressure level at a point in a room is the sum of a direct field from the source and a reverberant field built up by reflection. The room constant
 
-$$R = \frac{A}{1 - \bar{\alpha}}$$
+$$
+R = \frac{A}{1 - \bar{\alpha}}
+\tag{53}
+$$
 
 with $A$ the total absorption and $\bar{\alpha}$ the mean absorption coefficient characterizes the capacity of the room to build a reverberant field, and the steady sound-pressure level at a distance $r$ from a source of sound power $L_w$ and directivity $Q$ is
 
-$$L_p = L_w + 10 \log_{10}\!\left( \frac{Q}{4 \pi r^2} + \frac{4}{R} \right)$$
+$$
+L_p = L_w + 10 \log_{10}\!\left( \frac{Q}{4 \pi r^2} + \frac{4}{R} \right)
+\tag{54}
+$$
 
 whose first bracketed term is the direct field falling as the inverse square of the distance and whose second term is the reverberant field, uniform through the room. The two terms are equal at the critical distance
 
-$$r_c = \frac{1}{4}\sqrt{\frac{Q R}{\pi}}$$
+$$
+r_c = \frac{1}{4}\sqrt{\frac{Q R}{\pi}}
+\tag{55}
+$$
 
 beyond which the reverberant field dominates. In the hard-finished restroom the room constant is small, so that the critical distance is short and the reverberant term dominates almost everywhere, and the sounds of the room spread uniformly, which is the acoustic condition the discretion dimension seeks to suppress through absorption that raises $R$ and pushes the critical distance outward.
 
 The luminous environment is governed by the illuminance, the luminous flux per unit area,
 
-$$E = \frac{\Phi}{A_{\text{surface}}}$$
+$$
+E = \frac{\Phi}{A_{\text{surface}}}
+\tag{56}
+$$
 
 with $\Phi$ the luminous flux, and by the luminance of the surfaces the eye perceives. The perceived quality of the visual environment depends on the luminance contrast between a feature and its background,
 
-$$C = \frac{L_{\text{feature}} - L_{\text{background}}}{L_{\text{background}}}$$
+$$
+C = \frac{L_{\text{feature}} - L_{\text{background}}}{L_{\text{background}}}
+\tag{57}
+$$
 
 so that the elevated facility manages both the level of illuminance, sufficient for the grooming function the facility often serves, and the contrast and color temperature of the light, which set the character of the space and the appearance of the user in the mirror. The management of the luminous environment is a sensory-dimension elevation with no counterpart in the utilitarian facility, whose lighting serves only visibility.
 
@@ -365,17 +536,26 @@ The resource and hygienic dimensions of the facility admit two further quantitat
 
 The water consumption of a facility is the product of its usage volume and its per-use water demand. For a facility serving $N$ uses per day at a flush volume $v_f$, the annual water consumption is
 
-$$W_{\text{annual}} = N \, v_f \times 365$$
+$$
+W_{\text{annual}} = N \, v_f \times 365
+\tag{58}
+$$
 
 so that the reduction of the per-flush volume from the older seven-gallon fixtures of the early twentieth century to the 1.28-gallon high-efficiency fixture of the WaterSense specification represents a large conserved quantity integrated over the usage volume of a public facility, and the water saved by a fleet of high-efficiency fixtures against a baseline volume $v_0$ is
 
-$$\Delta W = N \, (v_0 - v_f) \times 365$$
+$$
+\Delta W = N \, (v_0 - v_f) \times 365
+\tag{59}
+$$
 
 which is the resource-dimension elevation the water-conserving fixture represents. The elevation of the facility along the augmentation dimension, through the low-flow fixture and the sound-masking device that reduces concealment flushing, is thus simultaneously a resource-dimension elevation.
 
 The airborne transmission of pathogen within the enclosed facility is described by the Wells-Riley model, which relates the probability of infection to the exposure to airborne infectious quanta. The infection probability is
 
-$$P_{\text{inf}} = 1 - \exp\!\left( -\frac{I \, q \, p \, t}{Q} \right)$$
+$$
+P_{\text{inf}} = 1 - \exp\!\left( -\frac{I \, q \, p \, t}{Q} \right)
+\tag{60}
+$$
 
 with $I$ the number of infectious sources present, $q$ the quantum-generation rate per source, $p$ the pulmonary ventilation rate of the exposed user, $t$ the exposure duration, and $Q$ the room ventilation rate. The model shows that the infection probability falls with the ventilation rate $Q$, so that the ventilation that the discretion dimension provides for odor control and the hygienic dimension provides for aerosol removal also reduces airborne transmission, and the short exposure duration $t$ characteristic of the elimination facility limits the risk relative to spaces of longer occupancy. The effectiveness of the ventilation in removing contaminant from the breathing zone, rather than merely from the room, is characterized by a ventilation effectiveness factor that multiplies the nominal ventilation rate, and the elevated facility that places its exhaust to capture contaminant at the source achieves a higher effectiveness than the facility that merely dilutes the room volume.
 
@@ -385,43 +565,70 @@ Several further relations complete the quantitative apparatus of the framework a
 
 The facility with a finite waiting capacity is the loss-delay system $M/M/c/K$, in which at most $K$ users may be present, those beyond the $c$ in service waiting until the capacity $K$ is reached, after which arrivals are lost. The blocking probability, the fraction of arrivals lost because the system holds $K$ users, is
 
-$$P_K = \frac{a^c \, \rho^{\,K-c}}{c!} \, P_0$$
+$$
+P_K = \frac{a^c \, \rho^{\,K-c}}{c!} \, P_0
+\tag{61}
+$$
 
 with $P_0$ the empty-system probability of the finite chain, and the effective arrival rate that enters the system is the offered rate thinned by the blocking, $\lambda_{\text{eff}} = \lambda (1 - P_K)$. The finite-capacity model describes the facility whose queue space is itself limited, so that provisioning must consider the waiting area as well as the fixture count, a consideration the elevated facility addresses through generous circulation space that raises $K$.
 
 The combination of independent sound sources follows the logarithmic addition of their powers. Two sources of equal level $L$ combine to a level
 
-$$L_{\text{total}} = L + 10 \log_{10} 2 \approx L + 3$$
+$$
+L_{\text{total}} = L + 10 \log_{10} 2 \approx L + 3
+\tag{62}
+$$
 
 so that doubling the number of equal sources raises the level by approximately three decibels. For $n$ equal sources the combined level is
 
-$$L_n = L + 10 \log_{10} n$$
+$$
+L_n = L + 10 \log_{10} n
+\tag{63}
+$$
 
 a relation that governs the accumulation of the sounds of a busy facility and the specification of the masking that must overcome them, because the masking level required rises with the logarithm of the occupancy.
 
 The thermal comfort of the occupant depends not on the air temperature alone but on the operative temperature, the weighted mean of the air temperature and the mean radiant temperature,
 
-$$T_{\text{op}} = \frac{h_c \, T_a + h_r \, T_r}{h_c + h_r}$$
+$$
+T_{\text{op}} = \frac{h_c \, T_a + h_r \, T_r}{h_c + h_r}
+\tag{64}
+$$
 
 with $h_c$ and $h_r$ the convective and radiative heat-transfer coefficients, so that the cold radiant surfaces characteristic of the hard-finished restroom depress the operative temperature below the air temperature and the heated surfaces of the elevated facility raise it. The thermal response of a heated element such as the washlet seat to a step of applied power follows the first-order relaxation
 
-$$T(t) = T_{\infty} - (T_{\infty} - T_0) \, e^{-t / \tau_h}$$
+$$
+T(t) = T_{\infty} - (T_{\infty} - T_0) \, e^{-t / \tau_h}
+\tag{65}
+$$
 
 with time constant $\tau_h = m c / (U A)$ set by the thermal mass and the heat-loss conductance of the element, so that the heated seat reaches its setpoint on a characteristic timescale that the elevated fixture minimizes to deliver immediate comfort. The ventilation effectiveness, the ratio of the contaminant removal achieved at the breathing zone to that of a perfectly mixed room, multiplies the nominal ventilation rate in the mass-balance relations of the discretion section,
 
-$$Q_{\text{eff}} = \varepsilon_v \, Q$$
+$$
+Q_{\text{eff}} = \varepsilon_v \, Q
+\tag{66}
+$$
 
 with $\varepsilon_v$ the effectiveness factor, and the age of air, the mean time since the air at a point entered the room, is its dual measure,
 
-$$\bar{\tau}_{\text{air}} = \frac{V}{Q}$$
+$$
+\bar{\tau}_{\text{air}} = \frac{V}{Q}
+\tag{67}
+$$
 
 for a perfectly mixed room, a low age of air indicating fresh well-distributed supply. The thermal comfort of the occupant depends on the metabolic heat production and the clothing insulation, conventionally measured in the met and clo units, the metabolic rate referenced to the resting value,
 
-$$M = \text{met} \times 58.15 \; \text{W m}^{-2}$$
+$$
+M = \text{met} \times 58.15 \; \text{W m}^{-2}
+\tag{68}
+$$
 
 and the clothing insulation expressed in clo units of $0.155 \; \text{m}^2\,\text{K}\,\text{W}^{-1}$ each, and the heat the occupant must shed is the metabolic rate net of external work,
 
-$$H = M - W$$
+$$
+H = M - W
+\tag{69}
+$$
 
 which enters the thermal-load term of the Fanger model of the sensory section, so that the lightly clothed and largely sedentary user of the restroom sits at a definite point in the met-clo space that the elevated facility conditions toward comfort. These relations are drawn from the standard references of queueing theory including [Gross and Harris 1998][book_gross_harris_1998_queueing] and of aerosol science including [Hinds 1999][book_hinds_1999_aerosol], and they complete the quantitative operationalization of the framework dimensions.
 
@@ -547,7 +754,10 @@ The elevation of a facility class thus requires advancement along the multidimen
 
 The joint-elevation condition permits a compact form. Let $\theta$ denote a threshold on the elevation index above which a facility is recognized as elevated. The facility is elevated when
 
-$$E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d \; \geq \; \theta$$
+$$
+E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d \; \geq \; \theta
+\tag{70}
+$$
 
 which requires both that the hygienic gate be substantially open, so that $\Phi(x_H)$ is near one, and that the weighted enrichment aggregate clear the threshold net of the gate. A facility may fail the condition by a closed gate at satisfactory enrichment, which is the unhygienic-but-ornamented failure, or by an open gate at insufficient enrichment, which is the clean-but-utilitarian baseline. The two failure modes are distinguished by which factor of the product is deficient.
 
@@ -586,6 +796,648 @@ The augmentation-interaction question asks the general characterization of the n
 The parity-criterion question asks which of the several parity criteria, whether equal wait, equal utilization, or equal probability of delay, is the appropriate normative target for the equitable provision of elimination facilities. The article states the criteria and their fixture-ratio consequences but does not adjudicate among them, because the adjudication is a normative rather than a positive question.
 
 The convergence question asks whether the elevation trajectories of elimination facilities across establishments and cultures converge toward a common configuration or sustain persistent divergence. The contemporary evidence of the high-technology washroom suggests partial convergence on the augmentation dimension alongside persistent divergence on the discretion and social-signification dimensions, but the long-run trajectory is not resolved.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 70 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 70, 58 are established and 12 are bespoke.
+Dimension scores lie in the unit interval and the elevation index is dimensionless, queueing rates are per unit time with offered load in erlangs, sound levels are in decibels and combine by energy rather than arithmetic, acoustic and ventilation relations use metric units, and several letters, including $\beta$, $\rho$, $\Phi$, $E$, $Q$ and $L$, carry different meanings in different sections.
+
+*Equation 1, Bespoke Hygienic Gate Function.*
+The article gates elevation by a saturating function of the hygienic score with a half-saturation constant, so that poor hygiene suppresses the whole index.
+
+$$
+\Phi(x_H) = \frac{x_H}{x_H + h_0}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Six-Dimension Elevation Index.*
+The article defines the elevation index as the hygienic gate times a weighted sum of the five enrichment scores, with weights that sum to one.
+
+$$
+E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d
+\tag{2}
+$$
+
+*Equation 3, Bespoke Constant-Elasticity Elevation Index.*
+The article replaces the weighted sum with a constant-elasticity-of-substitution aggregate, which spans the additive, geometric and minimum forms as $\rho$ varies.
+
+$$
+E_{\text{CES}} = \Phi(x_H) \cdot \left( \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d^{\rho} \right)^{1/\rho}
+\tag{3}
+$$
+
+*Equation 4, Bespoke Geometric Elevation Index.*
+In the geometric limit of its aggregate, the article makes any single enrichment score near zero drive the index to zero.
+
+$$
+E_{\text{geo}} = \Phi(x_H) \cdot \prod_{d \in \{P, S, T, R, A\}} x_d^{w_d}
+\tag{4}
+$$
+
+**Equation 5, Offered Load.**
+The offered load is the arrival rate divided by the service rate of one fixture, measured in erlangs.
+
+$$
+a = \frac{\lambda}{\mu}
+\tag{5}
+$$
+
+**Equation 6, Utilisation of a Multi-Server Queue.**
+Utilisation is the offered load per fixture and must stay below one for the queue to be stable.
+[Kleinrock 1975][book_kleinrock_1975_queueing]
+
+$$
+\rho = \frac{a}{c} = \frac{\lambda}{c \mu}
+\tag{6}
+$$
+
+**Equation 7, Empty-System Probability of the M/M/c Queue.**
+The probability that the $M/M/c$ system is empty is the normalising constant of its birth-death chain.
+[Kleinrock 1975][book_kleinrock_1975_queueing]
+
+$$
+P_0 = \left[ \sum_{k=0}^{c-1} \frac{a^k}{k!} + \frac{a^c}{c! \, (1 - \rho)} \right]^{-1}
+\tag{7}
+$$
+
+**Equation 8, Erlang-C Probability of Waiting.**
+The Erlang-C formula gives the probability that an arriving user finds every fixture occupied and must wait.
+[Erlang 1917][research_erlang_1917]
+[Kleinrock 1975][book_kleinrock_1975_queueing]
+
+$$
+C(c, a) = \frac{a^c}{c! \, (1 - \rho)} \, P_0 = \frac{\dfrac{a^c}{c! \, (1 - \rho)}}{\displaystyle\sum_{k=0}^{c-1} \frac{a^k}{k!} + \frac{a^c}{c! \, (1 - \rho)}}
+\tag{8}
+$$
+
+**Equation 9, Tail of the M/M/c Waiting Time.**
+The probability that the wait exceeds a tolerance is the Erlang-C probability times an exponential decay at the rate of the surplus service capacity.
+[Kleinrock 1975][book_kleinrock_1975_queueing]
+
+$$
+P(W_q > t) = C(c, a) \, e^{-c \mu (1 - \rho) \, t}
+\tag{9}
+$$
+
+**Equation 10, Stationary Distribution of the M/M/c Queue.**
+The number present follows a truncated Poisson form below the fixture count and decays geometrically at ratio $\rho$ above it.
+[Kleinrock 1975][book_kleinrock_1975_queueing]
+
+$$
+P_n = \begin{cases} \dfrac{a^n}{n!} \, P_0, & 0 \leq n < c \\[2mm] \dfrac{a^n}{c! \, c^{\,n-c}} \, P_0, & n \geq c \end{cases}
+\tag{10}
+$$
+
+**Equation 11, Erlang-B Blocking Probability.**
+The Erlang-B formula gives the probability that a user who will not wait finds every fixture occupied and is turned away.
+[Erlang 1917][research_erlang_1917]
+
+$$
+B(c, a) = \frac{\dfrac{a^c}{c!}}{\displaystyle\sum_{k=0}^{c} \frac{a^k}{k!}}
+\tag{11}
+$$
+
+**Equation 12, Kingman Approximation for General Service.**
+The Kingman approximation scales the exponential-service wait by the mean of the squared coefficients of variation of interarrival and service times.
+[Gross and Harris 1998][book_gross_harris_1998_queueing]
+
+$$
+W_q^{G/G/c} \approx W_q^{M/M/c} \cdot \frac{C_a^2 + C_s^2}{2}
+\tag{12}
+$$
+
+**Equation 13, Mean Wait in the M/M/c Queue.**
+The mean wait in queue is the Erlang-C probability divided by the surplus service rate.
+[Kleinrock 1975][book_kleinrock_1975_queueing]
+
+$$
+W_q = \frac{C(c, a)}{c \mu - \lambda} = \frac{C(c, a)}{c \mu (1 - \rho)}
+\tag{13}
+$$
+
+**Equation 14, Little's Law for the Queue.**
+The mean number waiting equals the arrival rate times the mean wait, for any arrival and service law in steady state.
+[Little 1961][research_little_1961]
+
+$$
+L_q = \lambda \, W_q
+\tag{14}
+$$
+
+**Equation 15, Mean Time in the System.**
+The mean time in the system is the mean wait in queue plus the mean service time.
+
+$$
+W = W_q + \frac{1}{\mu}
+\tag{15}
+$$
+
+**Equation 16, Little's Law for the Whole System.**
+The mean number in the system equals the arrival rate times the mean time in the system, which is the queue content plus the offered load.
+[Little 1961][research_little_1961]
+
+$$
+L = \lambda W = L_q + a
+\tag{16}
+$$
+
+**Equation 17, Fixture Count to Meet a Peak Utilisation Target.**
+Holding the peak utilisation below a target requires a fixture count at least the peak arrival rate over the product of service rate and target utilisation.
+
+$$
+c \geq \frac{\beta \lambda_{\text{mean}}}{\mu \, \rho^{\star}}
+\tag{17}
+$$
+
+**Equation 18, Square-Root Staffing Rule.**
+The fixture count for a target probability of delay is approximately the offered load plus a service-grade multiple of its square root.
+
+$$
+c \approx a + \beta \sqrt{a}
+\tag{18}
+$$
+
+**Equation 19, Fixture Count Minimising Fixture and Waiting Cost.**
+The fixture count is chosen to minimise the sum of fixture cost and the monetised waiting time of all arrivals.
+[Gross and Harris 1998][book_gross_harris_1998_queueing]
+
+$$
+\min_{c} \; \Big[ \, c \, \kappa + \gamma \, \lambda \, W_q(c) \, \Big]
+\tag{19}
+$$
+
+*Equation 20, Bespoke Throughput Density.*
+The article defines the served demand per unit floor area at the target utilisation as a measure of spatial throughput efficiency.
+
+$$
+\Theta = \frac{c \, \mu \, \rho^{\star}}{A_{\text{floor}}}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Ratio of Female to Male Waits under Equal Provision.*
+The article forms the ratio of the two Erlang-C waits under equal fixture count and equal arrival rate, so that the convexity of the wait in utilisation amplifies the service-time asymmetry.
+
+$$
+\frac{W_{q,w}}{W_{q,m}} = \frac{C(c, a_w)}{C(c, a_m)} \cdot \frac{1 - \rho_m}{1 - \rho_w}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Wait-Parity Criterion.*
+The article proposes parity as equal expected wait for the two sexes, an outcome rather than an input.
+
+$$
+W_q(c_m, a_m) = W_q(c_w, a_w)
+\tag{22}
+$$
+
+*Equation 23, Bespoke Utilisation-Parity Criterion.*
+The article proposes parity as equal utilisation, which under equal arrival rates sets the ratio of female to male fixtures equal to the ratio of male to female service rates.
+
+$$
+\frac{\lambda}{c_m \mu_m} = \frac{\lambda}{c_w \mu_w} \quad\Longrightarrow\quad \frac{c_w}{c_m} = \frac{\mu_m}{\mu_w}
+\tag{23}
+$$
+
+**Equation 24, Sabine Reverberation Time.**
+The Sabine relation gives the time for sound energy to decay by sixty decibels as a constant times room volume over total absorption, in metric units.
+[Sabine 1922][book_sabine_1922_acoustics]
+[Long 2006][book_long_2006_architectural_acoustics]
+
+$$
+T_{60} = \frac{0.161 \, V}{A}
+\tag{24}
+$$
+
+**Equation 25, Total Room Absorption.**
+Total absorption is the sum over surfaces of area times absorption coefficient.
+[Long 2006][book_long_2006_architectural_acoustics]
+
+$$
+A = \sum_i S_i \, \alpha_i
+\tag{25}
+$$
+
+**Equation 26, Eyring Reverberation Time.**
+The Eyring correction replaces total absorption by minus the surface area times the logarithm of one minus the mean absorption coefficient, and reduces to Sabine when absorption is small.
+[Long 2006][book_long_2006_architectural_acoustics]
+
+$$
+T_{60} = \frac{0.161 \, V}{-S \ln(1 - \bar{\alpha})}
+\tag{26}
+$$
+
+**Equation 27, Signal-to-Masker Ratio.**
+The signal-to-masker ratio is the difference in decibels between the target level and the masker level.
+
+$$
+\text{SMR} = L_s - L_m
+\tag{27}
+$$
+
+**Equation 28, Articulation Index.**
+The articulation index is the importance-weighted sum over frequency bands of the signal-to-noise ratio, offset by twelve decibels, clipped to a thirty-decibel range and normalised.
+[ANSI and the Acoustical Society of America S3.5][ref_ansi_asa_s35_sii]
+
+$$
+\text{AI} = \sum_k W_k \, \frac{\big[\, \text{SNR}_k + 12 \,\big]_0^{30}}{30}
+\tag{28}
+$$
+
+**Equation 29, Energy Sum of Two Sound Levels.**
+Two incoherent levels combine by adding their intensities and converting back to decibels.
+
+$$
+L_{n,k}^{\text{tot}} = 10 \log_{10}\!\Big( 10^{L_{n,k}/10} + 10^{L_{m,k}/10} \Big)
+\tag{29}
+$$
+
+**Equation 30, Equivalent Continuous Sound Level.**
+The equivalent continuous level is the decibel value of the time-averaged intensity of a fluctuating level.
+
+$$
+L_{\text{eq}} = 10 \log_{10}\!\left( \frac{1}{T} \int_0^T 10^{L(t)/10} \, dt \right)
+\tag{30}
+$$
+
+*Equation 31, Bespoke Water Saved per Use by a Masking Device.*
+The article assumes the device replaces every concealment flush a user would otherwise make, so the saving per use is the number of such flushes times the flush volume.
+
+$$
+\Delta v = n_f \, v_f
+\tag{31}
+$$
+
+**Equation 32, Steady-State Concentration in a Well-Mixed Room.**
+The mass balance of a well-mixed room gives a steady concentration equal to the supply concentration plus the generation rate over the ventilation flow.
+
+$$
+C_{\text{ss}} = C_{\text{supply}} + \frac{G}{Q}
+\tag{32}
+$$
+
+**Equation 33, Ventilation Flow for a Target Concentration.**
+Inverting the steady-state mass balance gives the ventilation flow required to hold the concentration at a target.
+
+$$
+Q = \frac{G}{C_{\text{ss}} - C_{\text{supply}}}
+\tag{33}
+$$
+
+**Equation 34, Decay of Concentration after Generation Ceases.**
+After generation stops the concentration relaxes exponentially toward the supply level with time constant $V / Q$.
+
+$$
+C(t) = C_{\text{supply}} + \big(C_0 - C_{\text{supply}}\big) \, e^{-Q t / V}
+\tag{34}
+$$
+
+**Equation 35, Air-Change Rate.**
+The air-change rate is the ventilation flow divided by room volume, the reciprocal of the ventilation time constant.
+
+$$
+\text{ACH} = \frac{Q}{V} = \frac{1}{\tau}
+\tag{35}
+$$
+
+**Equation 36, First-Order Inactivation Kinetics.**
+Under constant disinfectant exposure the viable pathogen count decays exponentially in time.
+
+$$
+\frac{N}{N_0} = e^{-k t}
+\tag{36}
+$$
+
+**Equation 37, CT Value.**
+The CT value is disinfectant concentration times contact time, approximately constant for a given log-reduction target, organism and disinfectant.
+
+$$
+\text{CT} = C \cdot t
+\tag{37}
+$$
+
+**Equation 38, Stokes Settling Velocity.**
+In the Stokes regime the terminal settling velocity of a particle scales with the density difference and the square of its diameter over the viscosity of air.
+[Hinds 1999][book_hinds_1999_aerosol]
+
+$$
+v_s = \frac{(\rho_p - \rho_f) \, g \, d^2}{18 \, \eta}
+\tag{38}
+$$
+
+**Equation 39, Cunningham Slip Correction.**
+The Cunningham factor corrects the Stokes velocity for particles whose diameter approaches the mean free path of air.
+[Hinds 1999][book_hinds_1999_aerosol]
+
+$$
+C_c = 1 + \frac{\lambda_{\text{mfp}}}{d} \left[ 2.34 + 1.05 \, e^{-0.39 \, d / \lambda_{\text{mfp}}} \right]
+\tag{39}
+$$
+
+**Equation 40, Settling Time through a Height.**
+The settling time is the height divided by the slip-corrected settling velocity.
+[Hinds 1999][book_hinds_1999_aerosol]
+
+$$
+t_{\text{settle}} = \frac{h}{v_s C_c}
+\tag{40}
+$$
+
+**Equation 41, Exponential Dose-Response Model.**
+The exponential model gives the probability of infection from a dose with a single per-organism infectivity parameter.
+[Haas et al. 2014][book_haas_2014_qmra]
+
+$$
+P_{\text{inf}} = 1 - e^{-r D}
+\tag{41}
+$$
+
+**Equation 42, Beta-Poisson Dose-Response Model.**
+The Beta-Poisson model gives the probability of infection from a dose with two fitted parameters.
+[Haas et al. 2014][book_haas_2014_qmra]
+
+$$
+P_{\text{inf}} = 1 - \left(1 + \frac{D}{\beta}\right)^{-\alpha}
+\tag{42}
+$$
+
+**Equation 43, Fomite Exposure Dose.**
+The dose along the fomite pathway is the surface concentration times contact area, the two transfer efficiencies and the number of contacts.
+[Nicas and Best 2008][research_nicas_best_2008]
+
+$$
+D = C_s \, A_c \, \tau_{s \to h} \, \tau_{h \to m} \, N_{\text{contacts}}
+\tag{43}
+$$
+
+**Equation 44, Chick-Watson Law.**
+The logarithmic survival ratio is proportional to contact time and to a power of disinfectant concentration set by the coefficient of dilution.
+
+$$
+\ln \frac{N}{N_0} = -k \, C^{\,n} \, t
+\tag{44}
+$$
+
+**Equation 45, Log Reduction.**
+The log reduction is minus the base-ten logarithm of the surviving fraction.
+
+$$
+\text{LR} = -\log_{10} \frac{N}{N_0}
+\tag{45}
+$$
+
+**Equation 46, Bernoulli Relation along a Streamline.**
+Pressure, kinetic energy per unit volume and potential energy per unit volume sum to a constant along a streamline of steady inviscid flow.
+
+$$
+p_1 + \tfrac{1}{2}\rho v_1^2 + \rho g z_1 = p_2 + \tfrac{1}{2}\rho v_2^2 + \rho g z_2
+\tag{46}
+$$
+
+**Equation 47, Continuity of Volumetric Flow.**
+The volumetric flow is the same at every cross-section of the siphon.
+
+$$
+A_1 v_1 = A_2 v_2 = Q_{\text{flush}}
+\tag{47}
+$$
+
+**Equation 48, Torricelli Discharge with a Discharge Coefficient.**
+The outlet velocity under a head is the free-fall velocity from that head reduced by a discharge coefficient that lumps the losses of the trapway.
+
+$$
+v_{\text{out}} = C_d \sqrt{2 g \, \Delta h}
+\tag{48}
+$$
+
+**Equation 49, Draining Time of a Bowl.**
+Integrating the Torricelli discharge as the head falls gives an emptying time proportional to the difference of the square roots of the initial and final heads.
+
+$$
+t_{\text{flush}} = \frac{A_b}{C_d A_t} \sqrt{\frac{2}{g}} \left( \sqrt{h_0} - \sqrt{h_f} \right)
+\tag{49}
+$$
+
+**Equation 50, Pressure Resisted by a Trap Seal.**
+A trap seal resists a pressure difference up to the hydrostatic pressure of its water depth.
+
+$$
+\Delta p_{\max} = \rho g h_s
+\tag{50}
+$$
+
+**Equation 51, Predicted Mean Vote.**
+The Fanger model gives the predicted mean vote as a metabolism-dependent sensitivity times the thermal load on the body.
+[Fanger comfort model][book_fanger_1970_thermal_comfort]
+[ISO 7730 Analytical Determination n.d.][ref_iso_7730]
+
+$$
+\text{PMV} = \big(0.303 \, e^{-0.036 M} + 0.028\big) \, L
+\tag{51}
+$$
+
+**Equation 52, Predicted Percentage Dissatisfied.**
+The predicted percentage dissatisfied is a fixed function of the predicted mean vote with a minimum of five percent at neutrality.
+[Fanger comfort model][book_fanger_1970_thermal_comfort]
+[ISO 7730 Analytical Determination n.d.][ref_iso_7730]
+
+$$
+\text{PPD} = 100 - 95 \, \exp\!\big(-0.03353 \, \text{PMV}^4 - 0.2179 \, \text{PMV}^2\big)
+\tag{52}
+$$
+
+**Equation 53, Room Constant.**
+The room constant is the total absorption divided by one minus the mean absorption coefficient.
+[Long 2006][book_long_2006_architectural_acoustics]
+
+$$
+R = \frac{A}{1 - \bar{\alpha}}
+\tag{53}
+$$
+
+**Equation 54, Sound Pressure Level from Direct and Reverberant Fields.**
+The level at a distance from a source is its power level plus the decibel value of the sum of an inverse-square direct term and a uniform reverberant term.
+[Long 2006][book_long_2006_architectural_acoustics]
+
+$$
+L_p = L_w + 10 \log_{10}\!\left( \frac{Q}{4 \pi r^2} + \frac{4}{R} \right)
+\tag{54}
+$$
+
+**Equation 55, Critical Distance.**
+The critical distance, at which the direct and reverberant fields are equal, grows with the square root of the directivity times the room constant.
+[Long 2006][book_long_2006_architectural_acoustics]
+
+$$
+r_c = \frac{1}{4}\sqrt{\frac{Q R}{\pi}}
+\tag{55}
+$$
+
+**Equation 56, Illuminance.**
+Illuminance is luminous flux per unit area.
+
+$$
+E = \frac{\Phi}{A_{\text{surface}}}
+\tag{56}
+$$
+
+**Equation 57, Luminance Contrast.**
+The contrast of a feature is the difference between its luminance and the background luminance, divided by the background luminance.
+
+$$
+C = \frac{L_{\text{feature}} - L_{\text{background}}}{L_{\text{background}}}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Annual Water Consumption of a Facility.*
+The article assembles annual consumption from a constant daily use count, one flush per use and the flush volume.
+
+$$
+W_{\text{annual}} = N \, v_f \times 365
+\tag{58}
+$$
+
+*Equation 59, Bespoke Annual Water Saved by High-Efficiency Fixtures.*
+Under the same one-flush-per-use assumption, the annual saving is the daily use count times the reduction in flush volume over a year.
+
+$$
+\Delta W = N \, (v_0 - v_f) \times 365
+\tag{59}
+$$
+
+**Equation 60, Wells-Riley Infection Probability.**
+The Wells-Riley model gives the probability of airborne infection from the infectious quanta inhaled, which falls with the ventilation rate.
+
+$$
+P_{\text{inf}} = 1 - \exp\!\left( -\frac{I \, q \, p \, t}{Q} \right)
+\tag{60}
+$$
+
+**Equation 61, Blocking Probability of the M/M/c/K Queue.**
+The blocking probability of a finite-capacity queue is the stationary probability that the system holds its full capacity of $K$ users.
+[Gross and Harris 1998][book_gross_harris_1998_queueing]
+
+$$
+P_K = \frac{a^c \, \rho^{\,K-c}}{c!} \, P_0
+\tag{61}
+$$
+
+**Equation 62, Level of Two Equal Sound Sources.**
+Two equal incoherent sources combine to a level about three decibels above either.
+
+$$
+L_{\text{total}} = L + 10 \log_{10} 2 \approx L + 3
+\tag{62}
+$$
+
+**Equation 63, Level of n Equal Sound Sources.**
+The level of $n$ equal incoherent sources exceeds that of one by ten times the base-ten logarithm of $n$.
+
+$$
+L_n = L + 10 \log_{10} n
+\tag{63}
+$$
+
+**Equation 64, Operative Temperature.**
+The operative temperature is the mean of air temperature and mean radiant temperature weighted by the convective and radiative heat-transfer coefficients.
+[ASHRAE Standard 55][ref_ashrae_55]
+
+$$
+T_{\text{op}} = \frac{h_c \, T_a + h_r \, T_r}{h_c + h_r}
+\tag{64}
+$$
+
+**Equation 65, First-Order Heating Response.**
+A heated element approaches its final temperature exponentially with a time constant set by its thermal mass and heat-loss conductance.
+
+$$
+T(t) = T_{\infty} - (T_{\infty} - T_0) \, e^{-t / \tau_h}
+\tag{65}
+$$
+
+**Equation 66, Effective Ventilation Rate.**
+The effective ventilation rate is the nominal rate multiplied by the ventilation effectiveness.
+
+$$
+Q_{\text{eff}} = \varepsilon_v \, Q
+\tag{66}
+$$
+
+**Equation 67, Mean Age of Air in a Well-Mixed Room.**
+In a perfectly mixed room the mean age of air equals the room volume divided by the ventilation flow.
+
+$$
+\bar{\tau}_{\text{air}} = \frac{V}{Q}
+\tag{67}
+$$
+
+**Equation 68, Metabolic Rate in Met Units.**
+One met corresponds to a metabolic heat production of 58.15 watts per square metre of body surface.
+[ASHRAE Standard 55][ref_ashrae_55]
+
+$$
+M = \text{met} \times 58.15 \; \text{W m}^{-2}
+\tag{68}
+$$
+
+**Equation 69, Heat to Be Shed.**
+The heat the occupant must shed is the metabolic rate net of external work.
+[Fanger comfort model][book_fanger_1970_thermal_comfort]
+
+$$
+H = M - W
+\tag{69}
+$$
+
+*Equation 70, Bespoke Joint-Elevation Condition.*
+The article recognises a facility as elevated when its gated elevation index reaches a threshold, which requires both an open hygienic gate and sufficient enrichment.
+
+$$
+E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d \; \geq \; \theta
+\tag{70}
+$$
+
+### Notation
+
+- $x_H$, the normalised hygienic score, with $x_d$ the score on enrichment dimension $d$
+- $h_0$, the half-saturation constant of the hygienic gate
+- $\Phi(x_H)$, the hygienic gate, distinct from the luminous flux $\Phi$
+- $w_d$, the weight of enrichment dimension $d$
+- $\lambda$, the arrival rate of users, distinct from the mean free path $\lambda_{\text{mfp}}$
+- $\mu$, the service rate of one fixture, with $\mu_m$ and $\mu_w$ for male and female users
+- $c$, the number of fixtures
+- $a$, the offered load in erlangs
+- $C(c, a)$, the Erlang-C probability of waiting
+- $B(c, a)$, the Erlang-B blocking probability
+- $W_q$, the mean wait in queue, with $W$ the mean time in the system
+- $L_q$, the mean number waiting, with $L$ the mean number in the system
+- $C_a$, the coefficient of variation of interarrival times, with $C_s$ that of service times
+- $\rho^{\star}$, the target utilisation
+- $\kappa$, the amortised cost per fixture
+- $\gamma$, the monetised value of a unit of waiting time
+- $T_{60}$, the reverberation time
+- $\alpha_i$, the absorption coefficient of surface $i$, with $\bar{\alpha}$ the mean coefficient
+- $W_k$, the importance weight of frequency band $k$
+- $C_{\text{supply}}$, the concentration in the supply air
+- $G$, the odorant generation rate
+- $k$, the inactivation rate constant
+- $v_s$, the Stokes settling velocity
+- $C_c$, the Cunningham slip factor
+- $\eta$, the dynamic viscosity of air
+- $P_{\text{inf}}$, the probability of infection
+- $C_d$, the discharge coefficient of the trapway
+- $h_s$, the depth of the trap seal
+- $M$, the metabolic heat production per unit body surface area
+- $R$, the room constant
+- $r_c$, the critical distance
+- $v_f$, the volume of one flush, with $v_0$ a baseline volume
+- $T_{\text{op}}$, the operative temperature
+- $\varepsilon_v$, the ventilation effectiveness
 
 ## References
 

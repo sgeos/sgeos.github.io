@@ -1,0 +1,711 @@
+# Equation classification for A294. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units except where a relation states otherwise, temperatures enter radiative, gas-law and van't Hoff relations in kelvin but the Magnus fit, the geothermometers and the bathing thresholds in degrees Celsius, geothermometer concentrations are in milligrams per kilogram or molal units as each relation states, and several letters, including $k$, $\\lambda$, $\\beta$, $E$, $Q$ and $L$, carry different meanings in different sections."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Newton Cooling of a Lumped Bath"
+gloss = "Under the lumped-capacitance model the bath temperature falls at a rate proportional to its excess over the ambient temperature."
+cite = ["book_incropera_heat_mass"]
+digest = "38b63e46bc1e9bb4"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Exponential Cooling of a Lumped Bath"
+gloss = "Integrating the lumped-capacitance equation gives an exponential approach of the bath temperature to the ambient temperature."
+cite = ["book_incropera_heat_mass"]
+digest = "248400eebba62397"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Thermal Time Constant"
+gloss = "The time constant is the thermal mass of the water divided by the heat-loss conductance of its surfaces."
+cite = ["book_incropera_heat_mass"]
+digest = "29147bb96b8229a1"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Biot Number"
+gloss = "The Biot number compares internal with surface thermal resistance, and the lumped model holds when it is well below one."
+cite = ["book_incropera_heat_mass"]
+digest = "6db0aad03197bbe1"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Nusselt Number"
+gloss = "The Nusselt number is the dimensionless surface heat-transfer coefficient, a function of the Rayleigh and Prandtl numbers in natural convection."
+cite = ["book_incropera_heat_mass", "book_cengel_heat_mass"]
+digest = "743db301215492a9"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Partition of Surface Heat Loss"
+gloss = "The total surface heat loss is the sum of evaporative, convective, radiative and conductive losses."
+cite = []
+digest = "0e6bc377968ff394"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Newton's Law of Cooling at the Surface"
+gloss = "The convective loss is a convective coefficient times area times the difference between water and air temperatures."
+cite = ["book_incropera_heat_mass"]
+digest = "58459e33734281de"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Stefan-Boltzmann Radiative Loss"
+gloss = "The radiative loss is emissivity times the Stefan-Boltzmann constant times area times the difference of the fourth powers of the absolute temperatures."
+cite = ["book_incropera_heat_mass"]
+digest = "d63f0f36eab22be3"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Fourier Conduction through the Vessel Wall"
+gloss = "The conductive loss through the wall is the conductivity times area over thickness times the temperature difference to the ground."
+cite = ["book_incropera_heat_mass"]
+digest = "17922c21b153e324"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Evaporative Heat Loss"
+gloss = "The evaporative loss is the evaporation rate times the latent heat of vaporisation."
+cite = []
+digest = "bd091c187ab585a0"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Radiative Loss with a View Factor"
+gloss = "A view factor between the water surface and the cooler surroundings scales the radiative loss."
+cite = ["book_incropera_heat_mass"]
+digest = "85046e5f6575ec92"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Chilton-Colburn Heat and Mass Transfer Analogy"
+gloss = "The ratio of the convective heat-transfer coefficient to the mass-transfer coefficient is the density times specific heat of air times the Lewis number to the two-thirds power."
+cite = ["book_incropera_heat_mass"]
+digest = "a5c6759391df342d"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Sensible Heat of Heating"
+gloss = "Raising a water mass through a temperature difference requires the mass times specific heat times that difference."
+cite = []
+digest = "1d3ad9d88d164376"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Heating Time Neglecting Losses"
+gloss = "The article divides the sensible heat by the delivered power of the source and neglects heat lost during heating, which makes the time a lower bound."
+cite = []
+digest = "93ad5280e22f3b95"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Latent Heat Absorbed by Löyly Water"
+gloss = "Water thrown on the stones absorbs its mass times the latent heat of vaporisation as it flashes to vapour."
+cite = []
+digest = "0fd72b9025be43fd"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Vapour Partial Pressure from the Ideal Gas Law"
+gloss = "The added vapour raises the partial pressure by its mass times the gas constant of water vapour times absolute temperature over room volume."
+cite = []
+digest = "a53b44b366b1846b"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Relative Humidity"
+gloss = "Relative humidity is the vapour pressure as a percentage of the saturation pressure at the air temperature."
+cite = []
+digest = "b97708db3daf3139"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "August-Roche-Magnus Saturation Pressure"
+gloss = "The Magnus fit gives saturation vapour pressure in pascals from temperature in degrees Celsius, here used beyond its nominal range for illustration."
+cite = []
+digest = "35592ba059e1e5c9"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Evaporative Heat Loss by Sweat"
+gloss = "The heat lost by sweating is the sweat evaporation rate times the latent heat of vaporisation."
+cite = []
+digest = "6edde34c62aa8c03"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Maximum Evaporative Capacity"
+gloss = "The evaporative capacity of the environment is an evaporative coefficient times the difference between skin saturation vapour pressure and air vapour pressure."
+cite = []
+digest = "4dcbc710652eca0c"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Human Heat Balance"
+gloss = "Metabolic heat production net of external work equals the evaporative, radiative, convective and conductive losses plus the rate of heat storage."
+cite = []
+digest = "b7d36dbb39847ecb"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Metabolic Rate in Met Units"
+gloss = "One met corresponds to a metabolic heat production of 58.15 watts per square metre of body surface."
+cite = []
+digest = "6160daa88651e9b1"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Rate of Change of Core Temperature"
+gloss = "The storage term divided by body mass times tissue specific heat gives the rate at which core temperature changes."
+cite = []
+digest = "bf7bad72b0bd19bd"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Time to a Hyperthermia Threshold"
+gloss = "The article assumes a constant net rate of heat gain, so that the time to the threshold is the heat needed to raise the body to it divided by that rate."
+cite = []
+digest = "57b9e06b50e1f45e"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Wet-Bulb Globe Temperature"
+gloss = "The wet-bulb globe temperature weights the natural wet-bulb, globe and dry-bulb temperatures at seven tenths, two tenths and one tenth."
+cite = []
+digest = "37d589d61e9c4592"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Cardiac Output"
+gloss = "Cardiac output is heart rate times stroke volume."
+cite = []
+digest = "57ba4a82f9985b2c"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Mean Arterial Pressure"
+gloss = "Mean arterial pressure is cardiac output times systemic vascular resistance."
+cite = []
+digest = "cf60904b98a52c52"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Temperature Coefficient of a Rate"
+gloss = "A physiological rate changes by the factor $Q_{10}$ for every ten degrees of temperature change."
+cite = []
+digest = "f55ed7c058883a05"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Hydrostatic Gauge Pressure"
+gloss = "The gauge pressure at depth is the density times gravitational acceleration times depth."
+cite = []
+digest = "2edfa3c0a7290b68"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Archimedes Buoyant Force"
+gloss = "The buoyant force equals the weight of the displaced water."
+cite = []
+digest = "d6cee3fc84a7717a"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Apparent Weight of an Immersed Body"
+gloss = "A fully immersed body has an apparent weight proportional to the difference between its density and that of water."
+cite = []
+digest = "5d3ee1f18e4ccf97"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Linear Geothermal Gradient"
+gloss = "Temperature in the crust rises linearly with depth at the geothermal gradient."
+cite = []
+digest = "5b22fd7cf2d2b32d"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Fourier Conductive Heat Flux"
+gloss = "The conductive heat flux is minus the thermal conductivity of the rock times the temperature gradient."
+cite = []
+digest = "f8c15bafbada31b8"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Cooling of Water along an Ascending Channel"
+gloss = "Water flowing along a channel at fixed surrounding temperature approaches that temperature exponentially in distance at a rate set by the wetted perimeter over the heat-capacity flow."
+cite = ["book_incropera_heat_mass"]
+digest = "e438986c71896048"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Saturation Index"
+gloss = "The saturation index is the base-ten logarithm of the ion activity product over the solubility product, negative for undersaturation and positive for supersaturation."
+cite = ["book_langmuir_geochemistry"]
+digest = "47467a68c17034d6"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Quartz Geothermometer with Conductive Cooling"
+gloss = "The Fournier quartz geothermometer estimates reservoir temperature in degrees Celsius from dissolved silica in milligrams per kilogram."
+cite = ["research_fournier_1977"]
+digest = "6f1464890b8d80d7"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Sodium-Potassium-Calcium Geothermometer"
+gloss = "The Fournier and Truesdell geothermometer estimates reservoir temperature from sodium, potassium and calcium, with a coefficient of four thirds or one third according to temperature regime."
+cite = ["research_fournier_truesdell_1973"]
+digest = "d51a10e83138c2fe"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Giggenbach Sodium-Potassium Geothermometer"
+gloss = "The Giggenbach geothermometer estimates the reservoir temperature of fully equilibrated water from the sodium to potassium ratio."
+cite = ["research_giggenbach_1988"]
+digest = "88fce41a7ed58e2a"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Van't Hoff Relation for Solubility"
+gloss = "The logarithm of saturation concentration changes with reciprocal temperature in proportion to minus the enthalpy of dissolution over the gas constant."
+cite = []
+digest = "368c1340af307963"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Calcite Dissolution Equilibrium"
+gloss = "Calcite, carbon dioxide and water are in equilibrium with dissolved calcium and bicarbonate, so that degassing of carbon dioxide drives precipitation."
+cite = []
+digest = "da9b1a8b950957c5"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Calcite Saturation Index"
+gloss = "The calcite saturation index compares the activity product of calcium and carbonate with the temperature-dependent solubility product of calcite."
+cite = ["book_langmuir_geochemistry"]
+digest = "5c8faeefe4e8ce0b"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Oxidation of Dissolved Sulfide"
+gloss = "The oxidation of hydrogen sulfide to sulfate releases two hydrogen ions and acidifies the spring water."
+cite = []
+digest = "09ec7289080dc06b"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Radioactive Activity and Decay Constant"
+gloss = "Activity is the decay constant times the number of atoms, and the decay constant is the natural logarithm of two over the half-life."
+cite = []
+digest = "579967f113b1931c"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Radioactive Decay of Concentration"
+gloss = "The radon concentration decays exponentially at the decay constant."
+cite = []
+digest = "c381589727aca76b"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Pool Turnover Time"
+gloss = "The turnover time is the pool volume divided by the filtration flow."
+cite = []
+digest = "8f68e714bdf6db2e"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Turnovers per Day"
+gloss = "The number of turnovers per day is the number of seconds in a day times the filtration flow over the pool volume."
+cite = []
+digest = "ea2e714b0e436e63"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "CT Value"
+gloss = "The CT value is disinfectant concentration times contact time, benchmarked against tabulated requirements for each organism."
+cite = ["ref_epa_swtr", "book_white_chlorination"]
+digest = "3162fbabdd3463e1"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Chick-Watson Law"
+gloss = "The logarithmic survival ratio is proportional to contact time and to a power of disinfectant concentration set by the coefficient of dilution."
+cite = ["research_chick_1908"]
+digest = "113398f0960e65bc"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Exponential Growth of Legionella"
+gloss = "Within its proliferation range the population grows exponentially at a temperature-dependent rate."
+cite = []
+digest = "c4098b103958fc24"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Decimal-Reduction Relation"
+gloss = "Thermal inactivation reduces the population tenfold in each decimal-reduction time at the given temperature."
+cite = []
+digest = "b2c50525c94f1d63"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "z-Value Relation"
+gloss = "The decimal-reduction time falls tenfold for each rise in temperature of $z$."
+cite = []
+digest = "a62f20540a14af1f"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Log Reduction"
+gloss = "The log reduction is minus the base-ten logarithm of the surviving fraction."
+cite = []
+digest = "63df656059834d82"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "First-Order Decay of Disinfectant Residual"
+gloss = "The disinfectant residual decays exponentially through demand and volatilisation."
+cite = []
+digest = "17329f87dd8e8a33"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Sabine Reverberation Time and Total Absorption"
+gloss = "The Sabine relation gives the reverberation time as a constant times hall volume over total absorption, the area-weighted sum of absorption coefficients."
+cite = ["book_kuttruff_room_acoustics"]
+digest = "cb8b3334c026c99d"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Mean Free Path between Reflections"
+gloss = "The mean free path of a sound ray in a diffuse room is four times the volume over the surface area."
+cite = ["book_kuttruff_room_acoustics"]
+digest = "f854fe97bc095b42"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Eyring Reverberation Time"
+gloss = "The Eyring expression replaces total absorption by minus the surface area times the logarithm of one minus the mean absorption coefficient, and reduces to Sabine when absorption is small."
+cite = ["book_kuttruff_room_acoustics"]
+digest = "ac36c89b30a71162"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Dalton Evaporation Relation"
+gloss = "The evaporation rate is proportional to the vapour pressure deficit at the surface, with a coefficient that rises linearly with air speed."
+cite = []
+digest = "818c459d2b29c704"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Cost of Heating a Bath"
+gloss = "The article assembles the heating cost from the sensible heat and the integrated loss over the period, divided by source efficiency and multiplied by the energy price."
+cite = []
+digest = "59372ceed50be647"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Thermal Power of a Flowing Spring"
+gloss = "The thermal power a spring delivers is its mass flow times specific heat times the excess of spring temperature over ambient."
+cite = []
+digest = "214783b98cb5ada7"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Mixing Temperature of Two Streams"
+gloss = "The temperature of two mixed streams is their heat-capacity-flow weighted mean."
+cite = []
+digest = "ca9d2b2108268cd7"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Orifice Flow through a Nozzle"
+gloss = "Flow through a nozzle is a discharge coefficient times nozzle area times the Bernoulli jet velocity under the pressure drop."
+cite = []
+digest = "15009e2e4c936def"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Grashof Number"
+gloss = "The Grashof number is the ratio of buoyant to viscous forces in natural convection."
+cite = ["book_incropera_heat_mass"]
+digest = "ade5a5d8ba9f1e5d"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Prandtl Number and Thermal Diffusivity"
+gloss = "The Prandtl number is kinematic viscosity over thermal diffusivity, which is conductivity over density times specific heat."
+cite = ["book_incropera_heat_mass"]
+digest = "aad91a78e110b7ff"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Rayleigh Number"
+gloss = "The Rayleigh number is the product of the Grashof and Prandtl numbers."
+cite = ["book_incropera_heat_mass"]
+digest = "c96eb11d6ec3fe8a"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Natural-Convection Nusselt Correlation"
+gloss = "In natural convection the Nusselt number follows a power law in the Rayleigh number with constants set by geometry and regime."
+cite = ["book_incropera_heat_mass"]
+digest = "3822df99be344500"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number is the flow speed times characteristic length over kinematic viscosity."
+cite = ["book_incropera_heat_mass"]
+digest = "db5fa9d9afa42f74"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Linear Apparent Temperature"
+gloss = "The article linearises apparent temperature as the air temperature plus a positive sensitivity times the excess of vapour pressure over a reference."
+cite = []
+digest = "a6a70ffff97055ca"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Six-Dimension Elevation Index"
+gloss = "The article defines the elevation index as the hygienic gate times a weighted sum of the five enrichment scores, with weights that sum to one and that vary between facility classes."
+cite = ["related_post_a293_restrooms"]
+digest = "c311395b7cdc1287"
+
+[[symbol]]
+tex = 'T_{\text{env}}'
+meaning = "the ambient temperature, with $T_0$ the initial water temperature"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the thermal time constant of the bath"
+
+[[symbol]]
+tex = 'U'
+meaning = "the overall heat-transfer coefficient of the bath surfaces"
+
+[[symbol]]
+tex = 'L_c'
+meaning = "a characteristic length"
+
+[[symbol]]
+tex = 'k_f'
+meaning = "the thermal conductivity of the fluid"
+
+[[symbol]]
+tex = 'h_c'
+meaning = "the convective heat-transfer coefficient, with $h_m$ the mass-transfer coefficient"
+
+[[symbol]]
+tex = 'T_w'
+meaning = "the water temperature, with $T_a$ the air temperature"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the emissivity of the water surface"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 'L_v'
+meaning = "the latent heat of vaporisation"
+
+[[symbol]]
+tex = 'F'
+meaning = "the view factor between the water surface and its surroundings"
+
+[[symbol]]
+tex = '\text{Le}'
+meaning = "the Lewis number, thermal over mass diffusivity"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the efficiency of the heat source"
+
+[[symbol]]
+tex = 'm_w'
+meaning = "the mass of water thrown on the stones"
+
+[[symbol]]
+tex = 'R_v'
+meaning = "the gas constant of water vapour"
+
+[[symbol]]
+tex = 'p_{\text{sat}}(T)'
+meaning = "the saturation vapour pressure at temperature $T$"
+
+[[symbol]]
+tex = 'h_e'
+meaning = "the evaporative heat-transfer coefficient"
+
+[[symbol]]
+tex = 'p_a'
+meaning = "the vapour pressure of the air"
+
+[[symbol]]
+tex = 'c_b'
+meaning = "the specific heat of body tissue"
+
+[[symbol]]
+tex = 'T_{c,\lim}'
+meaning = "the hyperthermia threshold of core temperature"
+
+[[symbol]]
+tex = 'Q_{10}'
+meaning = "the factor by which a rate changes per ten degrees"
+
+[[symbol]]
+tex = '\Gamma'
+meaning = "the geothermal gradient"
+
+[[symbol]]
+tex = 'P_w'
+meaning = "the wetted perimeter of the channel"
+
+[[symbol]]
+tex = 'K_{sp}'
+meaning = "the solubility product"
+
+[[symbol]]
+tex = '\text{IAP}'
+meaning = "the ion activity product"
+
+[[symbol]]
+tex = '\Delta H_{\text{sol}}'
+meaning = "the enthalpy of dissolution"
+
+[[symbol]]
+tex = 't_{1/2}'
+meaning = "the half-life"
+
+[[symbol]]
+tex = 'Q_f'
+meaning = "the filtration flow"
+
+[[symbol]]
+tex = '\mu_g'
+meaning = "the growth rate of Legionella"
+
+[[symbol]]
+tex = 'D(T)'
+meaning = "the decimal-reduction time at temperature $T$"
+
+[[symbol]]
+tex = 'z'
+meaning = "the temperature change for a tenfold change in the decimal-reduction time"
+
+[[symbol]]
+tex = 'k_d'
+meaning = "the decay constant of the disinfectant residual"
+
+[[symbol]]
+tex = 'T_{60}'
+meaning = "the reverberation time"
+
+[[symbol]]
+tex = '\bar{d}'
+meaning = "the mean free path of a sound ray between reflections"
+
+[[symbol]]
+tex = 'e_s'
+meaning = "the saturation vapour pressure at the water temperature, with $e_a$ the vapour pressure of the air"
+
+[[symbol]]
+tex = 'p_E'
+meaning = "the price of energy"
+
+[[symbol]]
+tex = 'A_n'
+meaning = "the nozzle area"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the kinematic viscosity"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the sensitivity of apparent temperature to vapour pressure"
+
+[[symbol]]
+tex = '\Phi(x_H)'
+meaning = "the hygienic gate of the elevation index"
+
+[[symbol]]
+tex = 'w_d'
+meaning = "the weight of enrichment dimension $d$, with $x_d$ the score on that dimension"

@@ -51,63 +51,105 @@ The sensory-enrichment dimension of the immersion facility is carried in its dom
 
 The cooling of a filled bath toward the temperature of its surroundings is governed to first approximation by the lumped-capacitance model, in which the bath is treated as a body of uniform temperature exchanging heat with its environment. The temperature obeys the first-order relaxation
 
-$$\frac{dT}{dt} = -k \, (T - T_{\text{env}})$$
+$$
+\frac{dT}{dt} = -k \, (T - T_{\text{env}})
+\tag{1}
+$$
 
 whose solution is the exponential approach
 
-$$T(t) = T_{\text{env}} + (T_0 - T_{\text{env}}) \, e^{-k t}$$
+$$
+T(t) = T_{\text{env}} + (T_0 - T_{\text{env}}) \, e^{-k t}
+\tag{2}
+$$
 
 with $T_0$ the initial water temperature, $T_{\text{env}}$ the ambient temperature, and $k$ a cooling constant. The cooling constant is set by the heat-loss conductance and the thermal mass of the water through $k = 1/\tau$ with the time constant
 
-$$\tau = \frac{m c}{U A}$$
+$$
+\tau = \frac{m c}{U A}
+\tag{3}
+$$
 
 in which $m$ is the mass of water, $c$ its specific heat capacity of approximately 4186 joules per kilogram per kelvin, $U$ the overall heat-transfer coefficient of the bath surfaces, and $A$ the heat-loss area. The time constant is the reason a large thermal mass holds its heat, because $\tau$ scales with the water mass, so that the deep communal pool cools slowly while the shallow individual tub cools quickly. The lumped-capacitance model is valid when the internal temperature is nearly uniform, which holds for a stirred or convecting bath, and its validity is characterized by a small Biot number, the ratio of internal to surface thermal resistance,
 
-$$\text{Bi} = \frac{h \, L_c}{k}$$
+$$
+\text{Bi} = \frac{h \, L_c}{k}
+\tag{4}
+$$
 
 with $h$ the surface heat-transfer coefficient, $L_c$ a characteristic length, and $k$ the thermal conductivity of the body, the lumped model holding when the Biot number is well below unity. The surface heat-transfer coefficient itself is not a constant but follows from the convective flow through the Nusselt number, the dimensionless ratio of convective to conductive transfer at the surface,
 
-$$\text{Nu} = \frac{h \, L_c}{k_f} = f(\text{Ra}, \text{Pr})$$
+$$
+\text{Nu} = \frac{h \, L_c}{k_f} = f(\text{Ra}, \text{Pr})
+\tag{5}
+$$
 
 which for the natural convection above a warm bath surface is a function of the Rayleigh number, the product of the Grashof and Prandtl numbers that measures the strength of the buoyancy-driven flow, so that a warmer bath drives a stronger convective plume and a higher heat-transfer coefficient. These relations, drawn from the standard heat-transfer references of [Incropera and colleagues][book_incropera_heat_mass] and [Çengel and Ghajar][book_cengel_heat_mass], close the thermal apparatus by relating the surface coefficient of the lumped model to the flow it drives.
 
 The heat lost from the open surface of a bath partitions among several channels. The total surface heat loss is the sum
 
-$$q_{\text{total}} = q_{\text{evap}} + q_{\text{conv}} + q_{\text{rad}} + q_{\text{cond}}$$
+$$
+q_{\text{total}} = q_{\text{evap}} + q_{\text{conv}} + q_{\text{rad}} + q_{\text{cond}}
+\tag{6}
+$$
 
 of the evaporative, convective, radiative, and conductive losses. The convective loss to the air above the surface follows Newton's law of cooling
 
-$$q_{\text{conv}} = h_c A (T_w - T_a)$$
+$$
+q_{\text{conv}} = h_c A (T_w - T_a)
+\tag{7}
+$$
 
 with $h_c$ a convective coefficient and $T_w$ and $T_a$ the water and air temperatures. The radiative loss to the surroundings follows the Stefan-Boltzmann law
 
-$$q_{\text{rad}} = \varepsilon \sigma A (T_w^4 - T_{\text{env}}^4)$$
+$$
+q_{\text{rad}} = \varepsilon \sigma A (T_w^4 - T_{\text{env}}^4)
+\tag{8}
+$$
 
 with $\varepsilon$ the emissivity of the water surface, near unity in the infrared, and $\sigma$ the Stefan-Boltzmann constant. The conductive loss through the walls and floor of the vessel to the surrounding ground follows the Fourier law across the containing material,
 
-$$q_{\text{cond}} = \frac{k A}{L} (T_w - T_{\text{ground}})$$
+$$
+q_{\text{cond}} = \frac{k A}{L} (T_w - T_{\text{ground}})
+\tag{9}
+$$
 
 with $k$ the conductivity and $L$ the thickness of the wall, a channel the insulated modern tub minimizes and the uninsulated masonry pool of antiquity did not. The evaporative loss carries the latent heat of the water that leaves the surface as vapor,
 
-$$q_{\text{evap}} = \dot m_{\text{evap}} \, L_v$$
+$$
+q_{\text{evap}} = \dot m_{\text{evap}} \, L_v
+\tag{10}
+$$
 
 with $L_v$ the latent heat of vaporization and $\dot m_{\text{evap}}$ the evaporation rate, which for a warm bath is the dominant channel and which rises with the dryness and the movement of the air above the surface. The radiative loss to a partially enclosing surrounding is modulated by a view factor $F$ between the water surface and the cooler surfaces it sees,
 
-$$q_{\text{rad}} = \varepsilon \sigma A F (T_w^4 - T_{\text{env}}^4)$$
+$$
+q_{\text{rad}} = \varepsilon \sigma A F (T_w^4 - T_{\text{env}}^4)
+\tag{11}
+$$
 
 so that the open-air pool under a cold night sky, for which the view factor to the cold sky approaches unity, loses more by radiation than the same pool within an enclosing hall. The evaporative and convective losses are linked by the analogy between heat and mass transfer, expressed in the Lewis relation, which ties the evaporative mass-transfer coefficient $h_m$ to the convective heat-transfer coefficient $h_c$ through the Lewis number,
 
-$$\frac{h_c}{h_m} = \rho \, c_p \, \text{Le}^{2/3}, \qquad \text{Le} = \frac{\alpha}{D_{AB}}$$
+$$
+\frac{h_c}{h_m} = \rho \, c_p \, \text{Le}^{2/3}, \qquad \text{Le} = \frac{\alpha}{D_{AB}}
+\tag{12}
+$$
 
 with $\text{Le}$ the ratio of the thermal diffusivity $\alpha$ to the mass diffusivity $D_{AB}$, so that the two surface losses rise together with air movement because both coefficients scale with the same convective flow. The dominance of evaporation is the reason a warm bath in still, humid air holds its heat far better than the same bath in moving, dry air, and the reason the enclosed and humid bathing hall is a thermally efficient environment.
 
 The heating of a bath to its operating temperature requires the sensible heat
 
-$$Q = m c \, \Delta T$$
+$$
+Q = m c \, \Delta T
+\tag{13}
+$$
 
 to raise the water mass $m$ by the temperature difference $\Delta T$, delivered over a time
 
-$$t = \frac{m c \, \Delta T}{P \, \eta}$$
+$$
+t = \frac{m c \, \Delta T}{P \, \eta}
+\tag{14}
+$$
 
 by a heat source of power $P$ and efficiency $\eta$. The energy of heating scales with the water mass, so that the large communal bath represents a large committed energy, which is one reason the elevated communal bath has historically depended on an abundant and inexpensive heat source, whether the wood and slave labor of the Roman furnace or the geothermal heat of the volcanic spring.
 
@@ -115,27 +157,45 @@ by a heat source of power $P$ and efficiency $\eta$. The energy of heating scale
 
 The sauna is a bathing form in which the heat is carried by hot air and by the vapor of water thrown on heated stones rather than by immersion in liquid water, and its central phenomenon, the löyly, admits quantitative treatment. When a mass $m_w$ of water is thrown on the hot stones it flashes to vapor, absorbing the latent heat
 
-$$Q = m_w L_v$$
+$$
+Q = m_w L_v
+\tag{15}
+$$
 
 and raising the water-vapor partial pressure of the room air. The added vapor raises the partial pressure by
 
-$$p_v = \frac{m_w R_v T}{V}$$
+$$
+p_v = \frac{m_w R_v T}{V}
+\tag{16}
+$$
 
 with $R_v$ the gas constant of water vapor and $V$ the room volume, and the resulting relative humidity is the ratio of the vapor pressure to the saturation pressure
 
-$$\text{RH} = \frac{p_v}{p_{\text{sat}}(T)} \times 100\%$$
+$$
+\text{RH} = \frac{p_v}{p_{\text{sat}}(T)} \times 100\%
+\tag{17}
+$$
 
 where the saturation pressure follows the August-Roche-Magnus relation
 
-$$p_{\text{sat}}(T) = 610.94 \, \exp\!\left(\frac{17.625 \, T}{T + 243.04}\right)$$
+$$
+p_{\text{sat}}(T) = 610.94 \, \exp\!\left(\frac{17.625 \, T}{T + 243.04}\right)
+\tag{18}
+$$
 
 with $T$ in degrees Celsius and the pressure in pascals, a fit whose nominal validity range is exceeded at sauna temperatures and which is used here for illustration rather than for precise metrology. The physiological effect of the löyly is the suppression of evaporative cooling. The bather sheds metabolic heat in the hot room chiefly by the evaporation of sweat, whose heat loss is
 
-$$E_{\text{sweat}} = \dot m_{\text{sweat}} \, L_v$$
+$$
+E_{\text{sweat}} = \dot m_{\text{sweat}} \, L_v
+\tag{19}
+$$
 
 with $\dot m_{\text{sweat}}$ the sweat evaporation rate and $L_v$ the latent heat of vaporization, and the maximum evaporative capacity of the environment is set by the difference between the saturation vapor pressure at the skin and the vapor pressure of the air,
 
-$$E_{\max} = h_e \, (p_{s,\text{skin}} - p_a)$$
+$$
+E_{\max} = h_e \, (p_{s,\text{skin}} - p_a)
+\tag{20}
+$$
 
 with $h_e$ an evaporative heat-transfer coefficient. The evaporation rate falls as the vapor pressure of the air rises toward the vapor pressure at the skin, so that the burst of humidity from the löyly drives $p_a$ upward, collapses the available evaporative capacity $E_{\max}$, reduces the bather's evaporative heat loss, and raises the apparent temperature sharply even though the air temperature changes little. The löyly is thus a deliberate manipulation of the evaporative term of the bather's heat balance, and the control of the löyly is the central skill of sauna practice.
 
@@ -145,53 +205,86 @@ The elevation of the bath along the sensory dimension is constrained by the phys
 
 The core temperature of an immersed bather changes according to the storage term of the thermoregulatory heat balance. The full balance equates the metabolic heat production net of external work to the sum of the evaporative, radiative, convective, and conductive losses and the rate of heat storage,
 
-$$M - W = E + R + C + K + S$$
+$$
+M - W = E + R + C + K + S
+\tag{21}
+$$
 
 with the metabolic heat production $M$ conventionally expressed in met units referenced to the resting rate,
 
-$$M = \text{met} \times 58.15 \; \text{W m}^{-2}$$
+$$
+M = \text{met} \times 58.15 \; \text{W m}^{-2}
+\tag{22}
+$$
 
 so that the low metabolic rate of the reposing bather places the heat balance almost entirely at the mercy of the environmental terms. The storage term drives the core-temperature change
 
-$$\frac{dT_c}{dt} = \frac{M - W - E - R - C - K}{m \, c_b}$$
+$$
+\frac{dT_c}{dt} = \frac{M - W - E - R - C - K}{m \, c_b}
+\tag{23}
+$$
 
 with $c_b$ the specific heat of body tissue, near 3470 joules per kilogram per kelvin, and $m$ the body mass. In hot immersion the radiative, convective, and conductive terms reverse sign and become heat gains rather than losses, and the evaporative term is suppressed because the skin is covered by water that cannot evaporate, so that the storage term is strongly positive and the core temperature rises. The time to reach a hyperthermia threshold from a starting core temperature is the first-order estimate
 
-$$t_{\lim} = \frac{m \, c_b \, (T_{c,\lim} - T_{c,0})}{\dot Q_{\text{net gain}}}$$
+$$
+t_{\lim} = \frac{m \, c_b \, (T_{c,\lim} - T_{c,0})}{\dot Q_{\text{net gain}}}
+\tag{24}
+$$
 
 with $T_{c,\lim}$ a threshold near thirty-nine to forty degrees Celsius and $\dot Q_{\text{net gain}}$ the net rate of heat gain, an estimate subject to large individual variation. The heat stress of the hot and humid environment is summarized for practical assessment by the wet-bulb globe temperature, a weighted combination of the natural wet-bulb, globe, and dry-bulb temperatures,
 
-$$\text{WBGT} = 0.7 \, T_{\text{nwb}} + 0.2 \, T_g + 0.1 \, T_a$$
+$$
+\text{WBGT} = 0.7 \, T_{\text{nwb}} + 0.2 \, T_g + 0.1 \, T_a
+\tag{25}
+$$
 
 which weights the humidity-sensitive wet-bulb term most heavily because the suppression of evaporative cooling at high humidity is the dominant hazard, and the löyly of the sauna raises precisely this term. The finiteness of the exposure limit is the physiological reason the elevated hot bath is taken in bounded intervals and is punctuated by cooling, and the reason the responsible bathing facility manages the duration of exposure.
 
 The cardiovascular response to heat is a vasodilation that redistributes blood toward the skin to carry metabolic and absorbed heat to the surface. The cardiac output is the product of heart rate and stroke volume
 
-$$\dot Q_{\text{cardiac}} = \text{HR} \times \text{SV}$$
+$$
+\dot Q_{\text{cardiac}} = \text{HR} \times \text{SV}
+\tag{26}
+$$
 
 and the mean arterial pressure is the product of cardiac output and systemic vascular resistance
 
-$$\text{MAP} = \dot Q_{\text{cardiac}} \times \text{SVR}$$
+$$
+\text{MAP} = \dot Q_{\text{cardiac}} \times \text{SVR}
+\tag{27}
+$$
 
 so that the heat-induced fall in systemic vascular resistance from vasodilation is compensated by a rise in heart rate to maintain arterial pressure. The sustained elevation of heart rate in the hot bath is the basis of the cardiovascular literature on bathing, including the cohort studies of [Laukkanen et al. 2015][research_laukkanen_2015_sauna] associating regular sauna bathing with reduced cardiovascular mortality, the review of [Laukkanen et al. 2018a][research_laukkanen_2018_review], and the study of [Kohara et al. 2018][research_kohara_2018_bathing] on habitual hot-water bathing, which are treated as the evidence base for the therapeutic claims that surround elevated bathing while their causal interpretation remains a matter of ongoing research.
 
 The cold plunge that punctuates the hot bath in many bathing cultures produces the opposite response, a vasoconstriction that raises systemic vascular resistance and a cold-shock response of the first seconds of immersion. The rate dependence of the physiological response on temperature is summarized by a temperature coefficient of the form
 
-$$\frac{R_2}{R_1} = Q_{10}^{\,(T_2 - T_1)/10}$$
+$$
+\frac{R_2}{R_1} = Q_{10}^{\,(T_2 - T_1)/10}
+\tag{28}
+$$
 
 with $Q_{10}$ the factor by which a rate changes per ten-degree temperature change. The alternation of hot immersion and cold plunge that constitutes contrast bathing is treated in the physiological literature including [Tipton et al. 2017][research_tipton_2017_cold] on the hazards and effects of cold-water immersion and the meta-analysis of [Bieuzen et al. 2013][research_bieuzen_2013_contrast] on contrast water therapy.
 
 The hydrostatic pressure of immersion is a further physiological load. The gauge pressure at depth $h$ below the surface is
 
-$$p = \rho g h$$
+$$
+p = \rho g h
+\tag{29}
+$$
 
 which amounts to approximately ten kilopascals per meter of depth, so that the immersed body experiences a graded compression that is greatest at the feet and least at the surface. The compression assists venous return from the limbs and shifts blood centrally, raising central venous pressure and stroke volume and inducing the immersion diuresis documented in the physiological review of [Epstein 1992][research_epstein_1992_immersion]. The buoyant relief of the bather's weight follows Archimedes principle, the buoyant force
 
-$$F_b = \rho_{\text{water}} \, g \, V_{\text{disp}}$$
+$$
+F_b = \rho_{\text{water}} \, g \, V_{\text{disp}}
+\tag{30}
+$$
 
 being the weight of the displaced water. The apparent weight of the immersed body is the difference between its weight and the buoyant force,
 
-$$W' = (\rho_{\text{body}} - \rho_{\text{water}}) \, g \, V_{\text{body}}$$
+$$
+W' = (\rho_{\text{body}} - \rho_{\text{water}}) \, g \, V_{\text{body}}
+\tag{31}
+$$
 
 which for a body of density near that of water, between roughly 985 and 1060 kilograms per cubic meter, very nearly vanishes, producing the sensation of near-weightlessness that is among the sensory attractions of immersion and the basis of the therapeutic use of the bath for the unloading of the joints. The hydrostatic support also alters the mechanics of breathing, because the compression of the thorax at depth raises the work of inspiration, a further physiological consequence of the hydrostatic relation above.
 
@@ -201,59 +294,98 @@ The natural hot spring is the historical foundation of much elevated bathing, an
 
 The heat of a hot spring originates in the geothermal gradient, the increase of temperature with depth in the crust,
 
-$$T(z) = T_0 + \Gamma z$$
+$$
+T(z) = T_0 + \Gamma z
+\tag{32}
+$$
 
 with $T_0$ the surface temperature and $\Gamma$ the gradient, typically twenty-five to thirty kelvin per kilometer away from volcanic regions and much steeper near them. The conductive heat flux that sustains the gradient follows the Fourier law
 
-$$q = -\lambda \frac{dT}{dz}$$
+$$
+q = -\lambda \frac{dT}{dz}
+\tag{33}
+$$
 
 with $\lambda$ the thermal conductivity of the rock, so that the elevated heat flux of a volcanic region drives both a steeper gradient and the hotter springs that the region hosts. Water that circulates to depth is heated toward the temperature of its deepest passage and rises to the surface, cooling in transit along the channel according to
 
-$$T(x) = T_{\text{env}} + (T_{\text{in}} - T_{\text{env}}) \, \exp\!\left(-\frac{h P_w}{\dot m c} \, x\right)$$
+$$
+T(x) = T_{\text{env}} + (T_{\text{in}} - T_{\text{env}}) \, \exp\!\left(-\frac{h P_w}{\dot m c} \, x\right)
+\tag{34}
+$$
 
 with $P_w$ the wetted perimeter of the channel, $\dot m$ the mass flow, and $x$ the distance along the channel, so that a high flow rate delivers the deep heat to the surface with little loss while a low flow rate arrives cool.
 
 The mineral content that distinguishes thermal water and that underlies the therapeutic reputation of the spa is governed by the temperature-dependent solubility of the minerals the water contacts at depth. The saturation state of the water with respect to a mineral is the saturation index
 
-$$\text{SI} = \log_{10}\!\left(\frac{\text{IAP}}{K_{sp}}\right)$$
+$$
+\text{SI} = \log_{10}\!\left(\frac{\text{IAP}}{K_{sp}}\right)
+\tag{35}
+$$
 
 the logarithm of the ratio of the ion activity product to the solubility product, negative for undersaturation and dissolution and positive for supersaturation and precipitation. Because the deep water equilibrates with rock minerals at the temperature of depth, the dissolved-mineral concentrations record that temperature, and the relation is inverted to estimate the reservoir temperature through geothermometry. The silica geothermometer of [Fournier 1977][research_fournier_1977] estimates the reservoir temperature from the dissolved-silica concentration through the conductive-cooling relation
 
-$$T = \frac{1309}{5.19 - \log_{10} \text{SiO}_2} - 273.15$$
+$$
+T = \frac{1309}{5.19 - \log_{10} \text{SiO}_2} - 273.15
+\tag{36}
+$$
 
 with the silica in milligrams per kilogram and the temperature in degrees Celsius, and the cation geothermometer of [Fournier and Truesdell 1973][research_fournier_truesdell_1973] estimates it from the sodium, potassium, and calcium concentrations,
 
-$$T = \frac{1647}{\log_{10}(\text{Na}/\text{K}) + \beta \left[\log_{10}(\sqrt{\text{Ca}}/\text{Na}) + 2.06\right] + 2.47} - 273.15$$
+$$
+T = \frac{1647}{\log_{10}(\text{Na}/\text{K}) + \beta \left[\log_{10}(\sqrt{\text{Ca}}/\text{Na}) + 2.06\right] + 2.47} - 273.15
+\tag{37}
+$$
 
 with the concentrations in molal units and $\beta$ a coefficient that takes the value four thirds or one third according to the temperature regime. For waters that have fully equilibrated at high temperature the sodium-potassium geothermometer of [Giggenbach 1988][research_giggenbach_1988] supplies a complementary estimate,
 
-$$T = \frac{1390}{1.75 + \log_{10}(\text{Na}/\text{K})} - 273.15$$
+$$
+T = \frac{1390}{1.75 + \log_{10}(\text{Na}/\text{K})} - 273.15
+\tag{38}
+$$
 
 with the concentrations in milligrams per kilogram. The silica content that the first geothermometer employs reflects the temperature-dependent solubility of quartz, which rises monotonically with temperature over the geothermal range and which the correlation of [Fournier and Potter 1982][research_fournier_potter_1982] quantifies. The temperature dependence of the solubility follows the van't Hoff relation
 
-$$\frac{d \ln C_{\text{sat}}}{d(1/T)} = -\frac{\Delta H_{\text{sol}}}{R}$$
+$$
+\frac{d \ln C_{\text{sat}}}{d(1/T)} = -\frac{\Delta H_{\text{sol}}}{R}
+\tag{39}
+$$
 
 with $\Delta H_{\text{sol}}$ the enthalpy of dissolution and $R$ the gas constant, so that the endothermic dissolution of quartz gives a solubility that increases with temperature, and the silica dissolved at depth records the reservoir temperature and precipitates as the sinter that surrounds a silica-rich spring such as the Icelandic geothermal lagoons. The geothermometers assume mineral equilibrium at depth and no re-equilibration, dilution, or precipitation during ascent, assumptions that limit their reliability for surface samples and that are stated here as the validity bounds of the method.
 
 The travertine terraces that surround many carbonate hot springs are the visible record of the retrograde solubility of calcite, which unlike most salts dissolves less at higher temperature and which precipitates as the rising water degasses carbon dioxide and cools. The reaction
 
-$$\text{CaCO}_3 + \text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{Ca}^{2+} + 2\,\text{HCO}_3^-$$
+$$
+\text{CaCO}_3 + \text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{Ca}^{2+} + 2\,\text{HCO}_3^-
+\tag{40}
+$$
 
 runs to the right at depth under high carbon-dioxide pressure and to the left at the surface as the pressure falls, depositing the carbonate that builds the terrace. The direction of the reaction is governed by the calcite saturation index
 
-$$\text{SI}_{\text{calcite}} = \log_{10} \frac{\{\text{Ca}^{2+}\} \{\text{CO}_3^{2-}\}}{K_{sp,\text{calcite}}(T)}$$
+$$
+\text{SI}_{\text{calcite}} = \log_{10} \frac{\{\text{Ca}^{2+}\} \{\text{CO}_3^{2-}\}}{K_{sp,\text{calcite}}(T)}
+\tag{41}
+$$
 
 the logarithm of the ratio of the ion activity product to the temperature-dependent solubility product, which turns positive and drives precipitation as the rising water degasses carbon dioxide and warms, because calcite exhibits the retrograde solubility that falls with rising temperature, opposite to the behavior of most salts. The characteristic odor and low pH of the sulfur spring arise from the oxidation of dissolved sulfide,
 
-$$\text{H}_2\text{S} + 2\,\text{O}_2 \rightarrow \text{SO}_4^{2-} + 2\,\text{H}^+$$
+$$
+\text{H}_2\text{S} + 2\,\text{O}_2 \rightarrow \text{SO}_4^{2-} + 2\,\text{H}^+
+\tag{42}
+$$
 
 which releases hydrogen ions and acidifies the water of the acid-sulfate spring, while the bicarbonate spring sets its pH through the carbonic-acid equilibria, so that the mineral chemistry of the spring determines both its therapeutic reputation and the sensory character of its water. The mineral character extends to trace constituents including radon, whose activity concentration relates the decay rate to the number of radon atoms $N$ through the decay constant,
 
-$$A = \lambda N, \qquad \lambda = \frac{\ln 2}{t_{1/2}}$$
+$$
+A = \lambda N, \qquad \lambda = \frac{\ln 2}{t_{1/2}}
+\tag{43}
+$$
 
 and whose concentration decays with the characteristic
 
-$$C(t) = C_0 \, e^{-\lambda t}$$
+$$
+C(t) = C_0 \, e^{-\lambda t}
+\tag{44}
+$$
 
 with a half-life of the radon-222 isotope of 3.82 days, so that the radon of a spring degasses and decays rapidly once the water surfaces, a fact relevant to the radiological assessment of spring water treated in the [World Health Organization radon guidance][ref_who_indoor_radon]. The mineral content that gives the thermal water its character and its therapeutic reputation is thus a direct record of the temperature and chemistry of the deep reservoir, and its interpretation is governed by the saturation-index and geothermometric relations above and by the aqueous-geochemistry treatment of [Langmuir][book_langmuir_geochemistry] and [Stumm and Morgan][book_stumm_morgan_aquatic].
 
@@ -263,41 +395,68 @@ The hygienic-sufficiency dimension of the immersion facility, its gating base, i
 
 The turnover of the water sets the rate at which contaminant introduced by bathers is removed and replaced. The turnover time of a pool of volume $V$ served by a filtration flow $Q_f$ is
 
-$$t_{\text{turnover}} = \frac{V}{Q_f}$$
+$$
+t_{\text{turnover}} = \frac{V}{Q_f}
+\tag{45}
+$$
 
 and the number of turnovers per day is its reciprocal scaled to the day,
 
-$$n_{\text{turnover}} = \frac{86400 \, Q_f}{V}$$
+$$
+n_{\text{turnover}} = \frac{86400 \, Q_f}{V}
+\tag{46}
+$$
 
 with $Q_f$ in cubic meters per second, so that the public-health guidance that specifies a minimum turnover frequency sets a lower bound on the filtration flow relative to the pool volume. The elevated shared bath is characteristically one whose turnover time is short enough to hold the accumulated contaminant below the threshold of hygienic concern, supplemented by disinfection. The inactivation of pathogen by a chemical disinfectant follows the exposure product of concentration and contact time, the CT value
 
-$$\text{CT} = C \times t$$
+$$
+\text{CT} = C \times t
+\tag{47}
+$$
 
 benchmarked against tabulated per-organism requirements in the disinfection guidance of authorities including the [Environmental Protection Agency surface-water-treatment rules][ref_epa_swtr], and the kinetics of inactivation follow the Chick-Watson law
 
-$$\ln \frac{N}{N_0} = -k \, C^{\,n} \, t$$
+$$
+\ln \frac{N}{N_0} = -k \, C^{\,n} \, t
+\tag{48}
+$$
 
 established in the founding disinfection study of [Chick 1908][research_chick_1908], with $N/N_0$ the surviving fraction, $k$ a rate constant, and $n$ the coefficient of dilution, reducing to a simple exponential decay at constant concentration and unit dilution coefficient.
 
 The pathogen of principal concern in the warm shared bath is Legionella, which proliferates in the temperature range of roughly twenty-five to forty-five degrees Celsius that overlaps the comfortable bathing range and which is killed rapidly above roughly fifty-five to sixty degrees Celsius. Within the proliferation range the population grows exponentially,
 
-$$N(t) = N_0 \, e^{\mu_g t}$$
+$$
+N(t) = N_0 \, e^{\mu_g t}
+\tag{49}
+$$
 
 with $\mu_g$ a temperature-dependent growth rate that is positive across the bathing range, so that an untreated warm bath is an amplifier of the organism rather than a neutral reservoir, and the hygienic management must hold the disinfectant residual and the turnover against this growth. The thermal inactivation follows the decimal-reduction relation
 
-$$\log_{10} \frac{N}{N_0} = -\frac{t}{D(T)}$$
+$$
+\log_{10} \frac{N}{N_0} = -\frac{t}{D(T)}
+\tag{50}
+$$
 
 with $D(T)$ the decimal-reduction time at temperature $T$, itself falling with temperature according to the $z$-value relation
 
-$$\log_{10} \frac{D_1}{D_2} = \frac{T_2 - T_1}{z}$$
+$$
+\log_{10} \frac{D_1}{D_2} = \frac{T_2 - T_1}{z}
+\tag{51}
+$$
 
 with $z$ the temperature change for a tenfold change in the decimal-reduction time. with the log-reduction achieved by a disinfection process reported as the negative logarithm of the surviving fraction,
 
-$$\text{LR} = -\log_{10} \frac{N}{N_0}$$
+$$
+\text{LR} = -\log_{10} \frac{N}{N_0}
+\tag{52}
+$$
 
 so that a process delivering a four-log reduction leaves one organism in ten thousand. The disinfectant residual that sustains the reduction itself decays through demand and volatilization, following a first-order loss
 
-$$C(t) = C_0 \, e^{-k_d t}$$
+$$
+C(t) = C_0 \, e^{-k_d t}
+\tag{53}
+$$
 
 with $k_d$ a decay constant, so that the treatment must replenish the residual continuously to hold the concentration against the demand the bathers impose. The narrow margin between the comfortable bathing temperature and the Legionella proliferation range, treated in the disinfection study of [Cervero-Aragó et al. 2015][research_cervero_arago_2015] and in the [World Health Organization Legionella guidance][ref_who_legionella], is the reason the hygienic management of the warm shared bath is a demanding problem and the reason the elevated bathing facility invests heavily in the water-treatment technology of the augmentation dimension, whose principles are set out in the water-treatment references of [White's Handbook of Chlorination][book_white_chlorination] and [Crittenden and colleagues][book_crittenden_water_treatment]. The public-health framework for the shared recreational bath is set out in the [World Health Organization guidelines for safe recreational water][ref_who_recreational_water_pools].
 
@@ -305,15 +464,24 @@ with $k_d$ a decay constant, so that the treatment must replenish the residual c
 
 The sensory dimension of the immersion facility includes the acoustic character of the bathing hall, which is a consequence of the hard, wet, reflective surfaces that the bath requires. The reverberation of the hall follows the same Sabine relation that governs the restroom of the companion article,
 
-$$T_{60} = \frac{0.161 \, V}{A}, \qquad A = \sum_i S_i \, \alpha_i$$
+$$
+T_{60} = \frac{0.161 \, V}{A}, \qquad A = \sum_i S_i \, \alpha_i
+\tag{54}
+$$
 
 with the total absorption $A$ the sum over surfaces of the area multiplied by the absorption coefficient. The tiled and stone surfaces of the bath carry absorption coefficients of a few hundredths and the water surface carries a coefficient near one hundredth, so that the total absorption of a masonry bathing hall is very small and the reverberation time is long. The mean free path of a sound ray between reflections in the hall is
 
-$$\bar{d} = \frac{4 V}{S}$$
+$$
+\bar{d} = \frac{4 V}{S}
+\tag{55}
+$$
 
 with $S$ the total surface area, and the sparseness of absorption over that path is what sustains the long reverberation, for which the Sabine form is adequate precisely because the mean absorption of the hard hall is small and the more general Eyring expression
 
-$$T_{60} = \frac{0.161 \, V}{-S \ln(1 - \bar{\alpha})}$$
+$$
+T_{60} = \frac{0.161 \, V}{-S \ln(1 - \bar{\alpha})}
+\tag{56}
+$$
 
 reduces to it in that limit. The result is the resonant, enveloping acoustic that characterizes the great masonry baths and that is among their sensory attractions, treated in the acoustic references of [Kuttruff][book_kuttruff_room_acoustics] and [Beranek][book_beranek_concert_halls]. The elevated bath, unlike the elevated restroom, does not seek to suppress its reverberation, because the resonant acoustic is experienced as a feature rather than as a failure of discretion, and the difference in the treatment of reverberation between the two facility classes is itself an expression of their different weighting of the discretion and sensory dimensions.
 
@@ -323,27 +491,42 @@ The elevated bath is a large claim on water and energy, and the quantitative app
 
 The evaporation from the open surface of a warm bath, the dominant channel of its heat loss, follows a mass-transfer relation of the Dalton type in which the evaporation rate is proportional to the difference between the saturation vapor pressure at the water surface and the actual vapor pressure of the air, enhanced by air movement,
 
-$$E = (a + b \, u)(e_s - e_a)$$
+$$
+E = (a + b \, u)(e_s - e_a)
+\tag{57}
+$$
 
 with $u$ the air speed over the surface, $e_s$ the saturation vapor pressure at the water temperature, $e_a$ the vapor pressure of the air, and $a$ and $b$ empirical coefficients. The relation shows that the warm bath in still, humid air loses little to evaporation while the same bath in moving, dry air loses much, which is the physical reason the enclosed and humid bathing hall retains its heat and the exposed open-air pool demands continuous reheating.
 
 The energy required to bring a bath to temperature and to hold it there is the sum of the sensible heat of the initial heating and the integrated heat loss over the period of use. The cost of heating is
 
-$$\text{Cost} = \frac{m c \, \Delta T + Q_{\text{loss}}}{\eta} \times p_E$$
+$$
+\text{Cost} = \frac{m c \, \Delta T + Q_{\text{loss}}}{\eta} \times p_E
+\tag{58}
+$$
 
 with $m c \, \Delta T$ the sensible heat, $Q_{\text{loss}}$ the integrated loss over the period, $\eta$ the efficiency of the heat source, and $p_E$ the price of energy. The natural hot spring reduces the cost to near zero by supplying the heat geothermally, which is the economic reason the elevated communal bath has clustered historically at geothermal sources, and the thermal power a flowing spring delivers is
 
-$$P = \dot m \, c \, (T_{\text{spring}} - T_{\text{ambient}})$$
+$$
+P = \dot m \, c \, (T_{\text{spring}} - T_{\text{ambient}})
+\tag{59}
+$$
 
 with $\dot m$ the mass flow of the spring, so that a copious hot spring delivers a thermal power that no fuel-fired bath could economically match. The mixing of a hot source with a cold supply to reach a bathing temperature follows the enthalpy balance
 
-$$T_{\text{mix}} = \frac{\dot m_1 c \, T_1 + \dot m_2 c \, T_2}{\dot m_1 c + \dot m_2 c}$$
+$$
+T_{\text{mix}} = \frac{\dot m_1 c \, T_1 + \dot m_2 c \, T_2}{\dot m_1 c + \dot m_2 c}
+\tag{60}
+$$
 
 which is the relation the bath attendant applies in tempering the water of a spring too hot for immersion.
 
 The hydraulic apparatus of the bath includes the turnover of the pool and the jets of the hydrotherapy bath. The turnover, treated in the disinfection section, is complemented by the jet flow of the hydrotherapy nozzle, which follows from the Bernoulli relation as
 
-$$Q = C_d \, A_n \sqrt{\frac{2 \, \Delta p}{\rho}}$$
+$$
+Q = C_d \, A_n \sqrt{\frac{2 \, \Delta p}{\rho}}
+\tag{61}
+$$
 
 with $C_d$ the discharge coefficient, $A_n$ the nozzle area, and $\Delta p$ the pressure drop across the nozzle, delivering a jet of velocity $v = \sqrt{2 \Delta p / \rho}$ and a momentum flux $\rho Q v$ that the bather feels as the massaging force of the jet. The jet is the technological-augmentation elevation of the bath along its therapeutic axis, from the water cure of the nineteenth century to the whirlpool bath of the twentieth.
 
@@ -353,29 +536,47 @@ The convective transfers that govern the heat balance of the bath and the bather
 
 The natural convection above a warm bath surface or around a bather in still water is driven by buoyancy and measured by the Grashof number, the ratio of buoyant to viscous forces,
 
-$$\text{Gr} = \frac{g \beta (T_s - T_\infty) L_c^3}{\nu^2}$$
+$$
+\text{Gr} = \frac{g \beta (T_s - T_\infty) L_c^3}{\nu^2}
+\tag{62}
+$$
 
 with $\beta$ the thermal expansion coefficient, $\nu$ the kinematic viscosity, and $L_c$ a characteristic length. The relative importance of momentum and thermal diffusion is the Prandtl number
 
-$$\text{Pr} = \frac{\nu}{\alpha}, \qquad \alpha = \frac{k}{\rho \, c_p}$$
+$$
+\text{Pr} = \frac{\nu}{\alpha}, \qquad \alpha = \frac{k}{\rho \, c_p}
+\tag{63}
+$$
 
 with $\alpha$ the thermal diffusivity defined by the conductivity, density, and specific heat, and the product of the Grashof and Prandtl numbers is the Rayleigh number
 
-$$\text{Ra} = \text{Gr} \cdot \text{Pr}$$
+$$
+\text{Ra} = \text{Gr} \cdot \text{Pr}
+\tag{64}
+$$
 
 which governs the onset and vigor of the natural-convection plume that carries heat from the water surface. In the natural-convection regime the Nusselt number follows a power-law correlation in the Rayleigh number,
 
-$$\text{Nu} = C \, \text{Ra}^{\,n}$$
+$$
+\text{Nu} = C \, \text{Ra}^{\,n}
+\tag{65}
+$$
 
 with $C$ and $n$ empirical constants set by the geometry and the flow regime, so that the surface heat-transfer coefficient rises with the Rayleigh number, while in the forced-convection regime of a jet or a moving air stream the Nusselt number is instead a function of the Reynolds number
 
-$$\text{Re} = \frac{u L_c}{\nu}$$
+$$
+\text{Re} = \frac{u L_c}{\nu}
+\tag{66}
+$$
 
 in the forced-convection regime of a jet or a moving air stream. These groups determine the surface heat-transfer coefficient that the lumped-capacitance and pool-loss relations take as given.
 
 The sensory experience of the hot and humid bathing environment is not the air temperature alone but an apparent temperature that rises with the humidity, because the suppression of evaporative cooling at high humidity raises the physiological heat load. The apparent temperature is an increasing function of both the dry-bulb temperature and the vapor pressure of the air,
 
-$$T_{\text{app}} = T_a + \kappa \, (p_a - p_{\text{ref}})$$
+$$
+T_{\text{app}} = T_a + \kappa \, (p_a - p_{\text{ref}})
+\tag{67}
+$$
 
 with $\kappa$ a positive sensitivity coefficient, which is the quantitative expression of the löyly effect treated above, in which the burst of humidity raises the apparent temperature sharply while the dry-bulb temperature changes little. The metabolic heat the bather must shed is set by the metabolic rate, conventionally measured in units of the resting metabolic rate, and the balance of this production against the environmental load through the storage relation of the physiology section determines the safe duration of the exposure.
 
@@ -487,7 +688,10 @@ The two facility classes share the six-dimension elevation mechanic and differ i
 
 The generalizable mechanic is that a facility serving a universal somatic necessity is elevated from a utilitarian minimum toward an enhanced and luxury experience by ascending a partially ordered ladder of six value dimensions rooted at a gating hygienic base, and that the weights of the dimensions in the elevation index are set by the nature of the bodily act the facility serves. An act that privacy norms require to be concealed pushes weight toward the discretion dimension. An act that a culture makes communal and prolonged pushes weight toward the sensory and social-signification dimensions. The elevation index
 
-$$E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d$$
+$$
+E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d
+\tag{68}
+$$
 
 retains its form across the facility classes, with the gate $\Phi(x_H)$ common to both, and the weight vector $(w_P, w_S, w_T, w_R, w_A)$ varying between them in the manner the two articles document. The cross-facility generalization is therefore not that all somatic facilities are elevated in the same way, but that they are elevated along the same dimensions with weights determined by the act.
 
@@ -526,6 +730,634 @@ The segregation question asks the relative contribution of physiological, hygien
 The convergence question asks whether the elevated immersion facilities of different cultures converge toward a common configuration under the contemporary destination-spa model or sustain their distinct ritual structures. The contemporary evidence suggests convergence on the augmentation and hygienic dimensions alongside persistence of the culturally particular ritual structures, but the long-run trajectory is not resolved.
 
 The sustainability question asks whether the large water and energy commitments of the elevated immersion facility are consistent with the resource constraints of a warming and water-stressed world, and how the elevation of the bath will be reconciled with those constraints. The question is posed here and is not resolved.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 68 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 68, 63 are established and 5 are bespoke.
+Quantities are in SI units except where a relation states otherwise, temperatures enter radiative, gas-law and van't Hoff relations in kelvin but the Magnus fit, the geothermometers and the bathing thresholds in degrees Celsius, geothermometer concentrations are in milligrams per kilogram or molal units as each relation states, and several letters, including $k$, $\lambda$, $\beta$, $E$, $Q$ and $L$, carry different meanings in different sections.
+
+**Equation 1, Newton Cooling of a Lumped Bath.**
+Under the lumped-capacitance model the bath temperature falls at a rate proportional to its excess over the ambient temperature.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\frac{dT}{dt} = -k \, (T - T_{\text{env}})
+\tag{1}
+$$
+
+**Equation 2, Exponential Cooling of a Lumped Bath.**
+Integrating the lumped-capacitance equation gives an exponential approach of the bath temperature to the ambient temperature.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+T(t) = T_{\text{env}} + (T_0 - T_{\text{env}}) \, e^{-k t}
+\tag{2}
+$$
+
+**Equation 3, Thermal Time Constant.**
+The time constant is the thermal mass of the water divided by the heat-loss conductance of its surfaces.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\tau = \frac{m c}{U A}
+\tag{3}
+$$
+
+**Equation 4, Biot Number.**
+The Biot number compares internal with surface thermal resistance, and the lumped model holds when it is well below one.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\text{Bi} = \frac{h \, L_c}{k}
+\tag{4}
+$$
+
+**Equation 5, Nusselt Number.**
+The Nusselt number is the dimensionless surface heat-transfer coefficient, a function of the Rayleigh and Prandtl numbers in natural convection.
+[Incropera and colleagues][book_incropera_heat_mass]
+[Çengel and Ghajar][book_cengel_heat_mass]
+
+$$
+\text{Nu} = \frac{h \, L_c}{k_f} = f(\text{Ra}, \text{Pr})
+\tag{5}
+$$
+
+**Equation 6, Partition of Surface Heat Loss.**
+The total surface heat loss is the sum of evaporative, convective, radiative and conductive losses.
+
+$$
+q_{\text{total}} = q_{\text{evap}} + q_{\text{conv}} + q_{\text{rad}} + q_{\text{cond}}
+\tag{6}
+$$
+
+**Equation 7, Newton's Law of Cooling at the Surface.**
+The convective loss is a convective coefficient times area times the difference between water and air temperatures.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+q_{\text{conv}} = h_c A (T_w - T_a)
+\tag{7}
+$$
+
+**Equation 8, Stefan-Boltzmann Radiative Loss.**
+The radiative loss is emissivity times the Stefan-Boltzmann constant times area times the difference of the fourth powers of the absolute temperatures.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+q_{\text{rad}} = \varepsilon \sigma A (T_w^4 - T_{\text{env}}^4)
+\tag{8}
+$$
+
+**Equation 9, Fourier Conduction through the Vessel Wall.**
+The conductive loss through the wall is the conductivity times area over thickness times the temperature difference to the ground.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+q_{\text{cond}} = \frac{k A}{L} (T_w - T_{\text{ground}})
+\tag{9}
+$$
+
+**Equation 10, Evaporative Heat Loss.**
+The evaporative loss is the evaporation rate times the latent heat of vaporisation.
+
+$$
+q_{\text{evap}} = \dot m_{\text{evap}} \, L_v
+\tag{10}
+$$
+
+**Equation 11, Radiative Loss with a View Factor.**
+A view factor between the water surface and the cooler surroundings scales the radiative loss.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+q_{\text{rad}} = \varepsilon \sigma A F (T_w^4 - T_{\text{env}}^4)
+\tag{11}
+$$
+
+**Equation 12, Chilton-Colburn Heat and Mass Transfer Analogy.**
+The ratio of the convective heat-transfer coefficient to the mass-transfer coefficient is the density times specific heat of air times the Lewis number to the two-thirds power.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\frac{h_c}{h_m} = \rho \, c_p \, \text{Le}^{2/3}, \qquad \text{Le} = \frac{\alpha}{D_{AB}}
+\tag{12}
+$$
+
+**Equation 13, Sensible Heat of Heating.**
+Raising a water mass through a temperature difference requires the mass times specific heat times that difference.
+
+$$
+Q = m c \, \Delta T
+\tag{13}
+$$
+
+*Equation 14, Bespoke Heating Time Neglecting Losses.*
+The article divides the sensible heat by the delivered power of the source and neglects heat lost during heating, which makes the time a lower bound.
+
+$$
+t = \frac{m c \, \Delta T}{P \, \eta}
+\tag{14}
+$$
+
+**Equation 15, Latent Heat Absorbed by Löyly Water.**
+Water thrown on the stones absorbs its mass times the latent heat of vaporisation as it flashes to vapour.
+
+$$
+Q = m_w L_v
+\tag{15}
+$$
+
+**Equation 16, Vapour Partial Pressure from the Ideal Gas Law.**
+The added vapour raises the partial pressure by its mass times the gas constant of water vapour times absolute temperature over room volume.
+
+$$
+p_v = \frac{m_w R_v T}{V}
+\tag{16}
+$$
+
+**Equation 17, Relative Humidity.**
+Relative humidity is the vapour pressure as a percentage of the saturation pressure at the air temperature.
+
+$$
+\text{RH} = \frac{p_v}{p_{\text{sat}}(T)} \times 100\%
+\tag{17}
+$$
+
+**Equation 18, August-Roche-Magnus Saturation Pressure.**
+The Magnus fit gives saturation vapour pressure in pascals from temperature in degrees Celsius, here used beyond its nominal range for illustration.
+
+$$
+p_{\text{sat}}(T) = 610.94 \, \exp\!\left(\frac{17.625 \, T}{T + 243.04}\right)
+\tag{18}
+$$
+
+**Equation 19, Evaporative Heat Loss by Sweat.**
+The heat lost by sweating is the sweat evaporation rate times the latent heat of vaporisation.
+
+$$
+E_{\text{sweat}} = \dot m_{\text{sweat}} \, L_v
+\tag{19}
+$$
+
+**Equation 20, Maximum Evaporative Capacity.**
+The evaporative capacity of the environment is an evaporative coefficient times the difference between skin saturation vapour pressure and air vapour pressure.
+
+$$
+E_{\max} = h_e \, (p_{s,\text{skin}} - p_a)
+\tag{20}
+$$
+
+**Equation 21, Human Heat Balance.**
+Metabolic heat production net of external work equals the evaporative, radiative, convective and conductive losses plus the rate of heat storage.
+
+$$
+M - W = E + R + C + K + S
+\tag{21}
+$$
+
+**Equation 22, Metabolic Rate in Met Units.**
+One met corresponds to a metabolic heat production of 58.15 watts per square metre of body surface.
+
+$$
+M = \text{met} \times 58.15 \; \text{W m}^{-2}
+\tag{22}
+$$
+
+**Equation 23, Rate of Change of Core Temperature.**
+The storage term divided by body mass times tissue specific heat gives the rate at which core temperature changes.
+
+$$
+\frac{dT_c}{dt} = \frac{M - W - E - R - C - K}{m \, c_b}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Time to a Hyperthermia Threshold.*
+The article assumes a constant net rate of heat gain, so that the time to the threshold is the heat needed to raise the body to it divided by that rate.
+
+$$
+t_{\lim} = \frac{m \, c_b \, (T_{c,\lim} - T_{c,0})}{\dot Q_{\text{net gain}}}
+\tag{24}
+$$
+
+**Equation 25, Wet-Bulb Globe Temperature.**
+The wet-bulb globe temperature weights the natural wet-bulb, globe and dry-bulb temperatures at seven tenths, two tenths and one tenth.
+
+$$
+\text{WBGT} = 0.7 \, T_{\text{nwb}} + 0.2 \, T_g + 0.1 \, T_a
+\tag{25}
+$$
+
+**Equation 26, Cardiac Output.**
+Cardiac output is heart rate times stroke volume.
+
+$$
+\dot Q_{\text{cardiac}} = \text{HR} \times \text{SV}
+\tag{26}
+$$
+
+**Equation 27, Mean Arterial Pressure.**
+Mean arterial pressure is cardiac output times systemic vascular resistance.
+
+$$
+\text{MAP} = \dot Q_{\text{cardiac}} \times \text{SVR}
+\tag{27}
+$$
+
+**Equation 28, Temperature Coefficient of a Rate.**
+A physiological rate changes by the factor $Q_{10}$ for every ten degrees of temperature change.
+
+$$
+\frac{R_2}{R_1} = Q_{10}^{\,(T_2 - T_1)/10}
+\tag{28}
+$$
+
+**Equation 29, Hydrostatic Gauge Pressure.**
+The gauge pressure at depth is the density times gravitational acceleration times depth.
+
+$$
+p = \rho g h
+\tag{29}
+$$
+
+**Equation 30, Archimedes Buoyant Force.**
+The buoyant force equals the weight of the displaced water.
+
+$$
+F_b = \rho_{\text{water}} \, g \, V_{\text{disp}}
+\tag{30}
+$$
+
+**Equation 31, Apparent Weight of an Immersed Body.**
+A fully immersed body has an apparent weight proportional to the difference between its density and that of water.
+
+$$
+W' = (\rho_{\text{body}} - \rho_{\text{water}}) \, g \, V_{\text{body}}
+\tag{31}
+$$
+
+**Equation 32, Linear Geothermal Gradient.**
+Temperature in the crust rises linearly with depth at the geothermal gradient.
+
+$$
+T(z) = T_0 + \Gamma z
+\tag{32}
+$$
+
+**Equation 33, Fourier Conductive Heat Flux.**
+The conductive heat flux is minus the thermal conductivity of the rock times the temperature gradient.
+
+$$
+q = -\lambda \frac{dT}{dz}
+\tag{33}
+$$
+
+**Equation 34, Cooling of Water along an Ascending Channel.**
+Water flowing along a channel at fixed surrounding temperature approaches that temperature exponentially in distance at a rate set by the wetted perimeter over the heat-capacity flow.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+T(x) = T_{\text{env}} + (T_{\text{in}} - T_{\text{env}}) \, \exp\!\left(-\frac{h P_w}{\dot m c} \, x\right)
+\tag{34}
+$$
+
+**Equation 35, Saturation Index.**
+The saturation index is the base-ten logarithm of the ion activity product over the solubility product, negative for undersaturation and positive for supersaturation.
+[Langmuir][book_langmuir_geochemistry]
+
+$$
+\text{SI} = \log_{10}\!\left(\frac{\text{IAP}}{K_{sp}}\right)
+\tag{35}
+$$
+
+**Equation 36, Quartz Geothermometer with Conductive Cooling.**
+The Fournier quartz geothermometer estimates reservoir temperature in degrees Celsius from dissolved silica in milligrams per kilogram.
+[Fournier 1977][research_fournier_1977]
+
+$$
+T = \frac{1309}{5.19 - \log_{10} \text{SiO}_2} - 273.15
+\tag{36}
+$$
+
+**Equation 37, Sodium-Potassium-Calcium Geothermometer.**
+The Fournier and Truesdell geothermometer estimates reservoir temperature from sodium, potassium and calcium, with a coefficient of four thirds or one third according to temperature regime.
+[Fournier and Truesdell 1973][research_fournier_truesdell_1973]
+
+$$
+T = \frac{1647}{\log_{10}(\text{Na}/\text{K}) + \beta \left[\log_{10}(\sqrt{\text{Ca}}/\text{Na}) + 2.06\right] + 2.47} - 273.15
+\tag{37}
+$$
+
+**Equation 38, Giggenbach Sodium-Potassium Geothermometer.**
+The Giggenbach geothermometer estimates the reservoir temperature of fully equilibrated water from the sodium to potassium ratio.
+[Giggenbach 1988][research_giggenbach_1988]
+
+$$
+T = \frac{1390}{1.75 + \log_{10}(\text{Na}/\text{K})} - 273.15
+\tag{38}
+$$
+
+**Equation 39, Van't Hoff Relation for Solubility.**
+The logarithm of saturation concentration changes with reciprocal temperature in proportion to minus the enthalpy of dissolution over the gas constant.
+
+$$
+\frac{d \ln C_{\text{sat}}}{d(1/T)} = -\frac{\Delta H_{\text{sol}}}{R}
+\tag{39}
+$$
+
+**Equation 40, Calcite Dissolution Equilibrium.**
+Calcite, carbon dioxide and water are in equilibrium with dissolved calcium and bicarbonate, so that degassing of carbon dioxide drives precipitation.
+
+$$
+\text{CaCO}_3 + \text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{Ca}^{2+} + 2\,\text{HCO}_3^-
+\tag{40}
+$$
+
+**Equation 41, Calcite Saturation Index.**
+The calcite saturation index compares the activity product of calcium and carbonate with the temperature-dependent solubility product of calcite.
+[Langmuir][book_langmuir_geochemistry]
+
+$$
+\text{SI}_{\text{calcite}} = \log_{10} \frac{\{\text{Ca}^{2+}\} \{\text{CO}_3^{2-}\}}{K_{sp,\text{calcite}}(T)}
+\tag{41}
+$$
+
+**Equation 42, Oxidation of Dissolved Sulfide.**
+The oxidation of hydrogen sulfide to sulfate releases two hydrogen ions and acidifies the spring water.
+
+$$
+\text{H}_2\text{S} + 2\,\text{O}_2 \rightarrow \text{SO}_4^{2-} + 2\,\text{H}^+
+\tag{42}
+$$
+
+**Equation 43, Radioactive Activity and Decay Constant.**
+Activity is the decay constant times the number of atoms, and the decay constant is the natural logarithm of two over the half-life.
+
+$$
+A = \lambda N, \qquad \lambda = \frac{\ln 2}{t_{1/2}}
+\tag{43}
+$$
+
+**Equation 44, Radioactive Decay of Concentration.**
+The radon concentration decays exponentially at the decay constant.
+
+$$
+C(t) = C_0 \, e^{-\lambda t}
+\tag{44}
+$$
+
+**Equation 45, Pool Turnover Time.**
+The turnover time is the pool volume divided by the filtration flow.
+
+$$
+t_{\text{turnover}} = \frac{V}{Q_f}
+\tag{45}
+$$
+
+**Equation 46, Turnovers per Day.**
+The number of turnovers per day is the number of seconds in a day times the filtration flow over the pool volume.
+
+$$
+n_{\text{turnover}} = \frac{86400 \, Q_f}{V}
+\tag{46}
+$$
+
+**Equation 47, CT Value.**
+The CT value is disinfectant concentration times contact time, benchmarked against tabulated requirements for each organism.
+[Environmental Protection Agency surface-water-treatment rules][ref_epa_swtr]
+[White's Handbook of Chlorination][book_white_chlorination]
+
+$$
+\text{CT} = C \times t
+\tag{47}
+$$
+
+**Equation 48, Chick-Watson Law.**
+The logarithmic survival ratio is proportional to contact time and to a power of disinfectant concentration set by the coefficient of dilution.
+[Chick 1908][research_chick_1908]
+
+$$
+\ln \frac{N}{N_0} = -k \, C^{\,n} \, t
+\tag{48}
+$$
+
+**Equation 49, Exponential Growth of Legionella.**
+Within its proliferation range the population grows exponentially at a temperature-dependent rate.
+
+$$
+N(t) = N_0 \, e^{\mu_g t}
+\tag{49}
+$$
+
+**Equation 50, Decimal-Reduction Relation.**
+Thermal inactivation reduces the population tenfold in each decimal-reduction time at the given temperature.
+
+$$
+\log_{10} \frac{N}{N_0} = -\frac{t}{D(T)}
+\tag{50}
+$$
+
+**Equation 51, z-Value Relation.**
+The decimal-reduction time falls tenfold for each rise in temperature of $z$.
+
+$$
+\log_{10} \frac{D_1}{D_2} = \frac{T_2 - T_1}{z}
+\tag{51}
+$$
+
+**Equation 52, Log Reduction.**
+The log reduction is minus the base-ten logarithm of the surviving fraction.
+
+$$
+\text{LR} = -\log_{10} \frac{N}{N_0}
+\tag{52}
+$$
+
+**Equation 53, First-Order Decay of Disinfectant Residual.**
+The disinfectant residual decays exponentially through demand and volatilisation.
+
+$$
+C(t) = C_0 \, e^{-k_d t}
+\tag{53}
+$$
+
+**Equation 54, Sabine Reverberation Time and Total Absorption.**
+The Sabine relation gives the reverberation time as a constant times hall volume over total absorption, the area-weighted sum of absorption coefficients.
+[Kuttruff][book_kuttruff_room_acoustics]
+
+$$
+T_{60} = \frac{0.161 \, V}{A}, \qquad A = \sum_i S_i \, \alpha_i
+\tag{54}
+$$
+
+**Equation 55, Mean Free Path between Reflections.**
+The mean free path of a sound ray in a diffuse room is four times the volume over the surface area.
+[Kuttruff][book_kuttruff_room_acoustics]
+
+$$
+\bar{d} = \frac{4 V}{S}
+\tag{55}
+$$
+
+**Equation 56, Eyring Reverberation Time.**
+The Eyring expression replaces total absorption by minus the surface area times the logarithm of one minus the mean absorption coefficient, and reduces to Sabine when absorption is small.
+[Kuttruff][book_kuttruff_room_acoustics]
+
+$$
+T_{60} = \frac{0.161 \, V}{-S \ln(1 - \bar{\alpha})}
+\tag{56}
+$$
+
+**Equation 57, Dalton Evaporation Relation.**
+The evaporation rate is proportional to the vapour pressure deficit at the surface, with a coefficient that rises linearly with air speed.
+
+$$
+E = (a + b \, u)(e_s - e_a)
+\tag{57}
+$$
+
+*Equation 58, Bespoke Cost of Heating a Bath.*
+The article assembles the heating cost from the sensible heat and the integrated loss over the period, divided by source efficiency and multiplied by the energy price.
+
+$$
+\text{Cost} = \frac{m c \, \Delta T + Q_{\text{loss}}}{\eta} \times p_E
+\tag{58}
+$$
+
+**Equation 59, Thermal Power of a Flowing Spring.**
+The thermal power a spring delivers is its mass flow times specific heat times the excess of spring temperature over ambient.
+
+$$
+P = \dot m \, c \, (T_{\text{spring}} - T_{\text{ambient}})
+\tag{59}
+$$
+
+**Equation 60, Mixing Temperature of Two Streams.**
+The temperature of two mixed streams is their heat-capacity-flow weighted mean.
+
+$$
+T_{\text{mix}} = \frac{\dot m_1 c \, T_1 + \dot m_2 c \, T_2}{\dot m_1 c + \dot m_2 c}
+\tag{60}
+$$
+
+**Equation 61, Orifice Flow through a Nozzle.**
+Flow through a nozzle is a discharge coefficient times nozzle area times the Bernoulli jet velocity under the pressure drop.
+
+$$
+Q = C_d \, A_n \sqrt{\frac{2 \, \Delta p}{\rho}}
+\tag{61}
+$$
+
+**Equation 62, Grashof Number.**
+The Grashof number is the ratio of buoyant to viscous forces in natural convection.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\text{Gr} = \frac{g \beta (T_s - T_\infty) L_c^3}{\nu^2}
+\tag{62}
+$$
+
+**Equation 63, Prandtl Number and Thermal Diffusivity.**
+The Prandtl number is kinematic viscosity over thermal diffusivity, which is conductivity over density times specific heat.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\text{Pr} = \frac{\nu}{\alpha}, \qquad \alpha = \frac{k}{\rho \, c_p}
+\tag{63}
+$$
+
+**Equation 64, Rayleigh Number.**
+The Rayleigh number is the product of the Grashof and Prandtl numbers.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\text{Ra} = \text{Gr} \cdot \text{Pr}
+\tag{64}
+$$
+
+**Equation 65, Natural-Convection Nusselt Correlation.**
+In natural convection the Nusselt number follows a power law in the Rayleigh number with constants set by geometry and regime.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\text{Nu} = C \, \text{Ra}^{\,n}
+\tag{65}
+$$
+
+**Equation 66, Reynolds Number.**
+The Reynolds number is the flow speed times characteristic length over kinematic viscosity.
+[Incropera and colleagues][book_incropera_heat_mass]
+
+$$
+\text{Re} = \frac{u L_c}{\nu}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Linear Apparent Temperature.*
+The article linearises apparent temperature as the air temperature plus a positive sensitivity times the excess of vapour pressure over a reference.
+
+$$
+T_{\text{app}} = T_a + \kappa \, (p_a - p_{\text{ref}})
+\tag{67}
+$$
+
+*Equation 68, Bespoke Six-Dimension Elevation Index.*
+The article defines the elevation index as the hygienic gate times a weighted sum of the five enrichment scores, with weights that sum to one and that vary between facility classes.
+[companion article on restrooms][related_post_a293_restrooms]
+
+$$
+E = \Phi(x_H) \cdot \sum_{d \in \{P, S, T, R, A\}} w_d \, x_d
+\tag{68}
+$$
+
+### Notation
+
+- $T_{\text{env}}$, the ambient temperature, with $T_0$ the initial water temperature
+- $\tau$, the thermal time constant of the bath
+- $U$, the overall heat-transfer coefficient of the bath surfaces
+- $L_c$, a characteristic length
+- $k_f$, the thermal conductivity of the fluid
+- $h_c$, the convective heat-transfer coefficient, with $h_m$ the mass-transfer coefficient
+- $T_w$, the water temperature, with $T_a$ the air temperature
+- $\varepsilon$, the emissivity of the water surface
+- $\sigma$, the Stefan-Boltzmann constant
+- $L_v$, the latent heat of vaporisation
+- $F$, the view factor between the water surface and its surroundings
+- $\text{Le}$, the Lewis number, thermal over mass diffusivity
+- $\eta$, the efficiency of the heat source
+- $m_w$, the mass of water thrown on the stones
+- $R_v$, the gas constant of water vapour
+- $p_{\text{sat}}(T)$, the saturation vapour pressure at temperature $T$
+- $h_e$, the evaporative heat-transfer coefficient
+- $p_a$, the vapour pressure of the air
+- $c_b$, the specific heat of body tissue
+- $T_{c,\lim}$, the hyperthermia threshold of core temperature
+- $Q_{10}$, the factor by which a rate changes per ten degrees
+- $\Gamma$, the geothermal gradient
+- $P_w$, the wetted perimeter of the channel
+- $K_{sp}$, the solubility product
+- $\text{IAP}$, the ion activity product
+- $\Delta H_{\text{sol}}$, the enthalpy of dissolution
+- $t_{1/2}$, the half-life
+- $Q_f$, the filtration flow
+- $\mu_g$, the growth rate of Legionella
+- $D(T)$, the decimal-reduction time at temperature $T$
+- $z$, the temperature change for a tenfold change in the decimal-reduction time
+- $k_d$, the decay constant of the disinfectant residual
+- $T_{60}$, the reverberation time
+- $\bar{d}$, the mean free path of a sound ray between reflections
+- $e_s$, the saturation vapour pressure at the water temperature, with $e_a$ the vapour pressure of the air
+- $p_E$, the price of energy
+- $A_n$, the nozzle area
+- $\nu$, the kinematic viscosity
+- $\kappa$, the sensitivity of apparent temperature to vapour pressure
+- $\Phi(x_H)$, the hygienic gate of the elevation index
+- $w_d$, the weight of enrichment dimension $d$, with $x_d$ the score on that dimension
 
 ## References
 

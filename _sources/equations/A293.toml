@@ -1,0 +1,699 @@
+# Equation classification for A293. Read by `python3 _lib/equations.py`.
+
+caution = "Dimension scores lie in the unit interval and the elevation index is dimensionless, queueing rates are per unit time with offered load in erlangs, sound levels are in decibels and combine by energy rather than arithmetic, acoustic and ventilation relations use metric units, and several letters, including $\\beta$, $\\rho$, $\\Phi$, $E$, $Q$ and $L$, carry different meanings in different sections."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Hygienic Gate Function"
+gloss = "The article gates elevation by a saturating function of the hygienic score with a half-saturation constant, so that poor hygiene suppresses the whole index."
+cite = []
+digest = "8a03d5383188d0e2"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Six-Dimension Elevation Index"
+gloss = "The article defines the elevation index as the hygienic gate times a weighted sum of the five enrichment scores, with weights that sum to one."
+cite = []
+digest = "c311395b7cdc1287"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Constant-Elasticity Elevation Index"
+gloss = "The article replaces the weighted sum with a constant-elasticity-of-substitution aggregate, which spans the additive, geometric and minimum forms as $\\rho$ varies."
+cite = []
+digest = "a619afdb4c18877e"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Geometric Elevation Index"
+gloss = "In the geometric limit of its aggregate, the article makes any single enrichment score near zero drive the index to zero."
+cite = []
+digest = "6b2ad8b2613f2cb1"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Offered Load"
+gloss = "The offered load is the arrival rate divided by the service rate of one fixture, measured in erlangs."
+cite = []
+digest = "e768daeb69249ae8"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Utilisation of a Multi-Server Queue"
+gloss = "Utilisation is the offered load per fixture and must stay below one for the queue to be stable."
+cite = ["book_kleinrock_1975_queueing"]
+digest = "c302acae101128e8"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Empty-System Probability of the M/M/c Queue"
+gloss = "The probability that the $M/M/c$ system is empty is the normalising constant of its birth-death chain."
+cite = ["book_kleinrock_1975_queueing"]
+digest = "92acf3e56f60c7fc"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Erlang-C Probability of Waiting"
+gloss = "The Erlang-C formula gives the probability that an arriving user finds every fixture occupied and must wait."
+cite = ["research_erlang_1917", "book_kleinrock_1975_queueing"]
+digest = "8f86573e27dd60c5"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Tail of the M/M/c Waiting Time"
+gloss = "The probability that the wait exceeds a tolerance is the Erlang-C probability times an exponential decay at the rate of the surplus service capacity."
+cite = ["book_kleinrock_1975_queueing"]
+digest = "cf217e1220d2b85b"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Stationary Distribution of the M/M/c Queue"
+gloss = "The number present follows a truncated Poisson form below the fixture count and decays geometrically at ratio $\\rho$ above it."
+cite = ["book_kleinrock_1975_queueing"]
+digest = "2e41ac9ad9ef004f"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Erlang-B Blocking Probability"
+gloss = "The Erlang-B formula gives the probability that a user who will not wait finds every fixture occupied and is turned away."
+cite = ["research_erlang_1917"]
+digest = "675cd42b4ca97f5e"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Kingman Approximation for General Service"
+gloss = "The Kingman approximation scales the exponential-service wait by the mean of the squared coefficients of variation of interarrival and service times."
+cite = ["book_gross_harris_1998_queueing"]
+digest = "c1949da8195bc59e"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Mean Wait in the M/M/c Queue"
+gloss = "The mean wait in queue is the Erlang-C probability divided by the surplus service rate."
+cite = ["book_kleinrock_1975_queueing"]
+digest = "3c69e7074c387914"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Little's Law for the Queue"
+gloss = "The mean number waiting equals the arrival rate times the mean wait, for any arrival and service law in steady state."
+cite = ["research_little_1961"]
+digest = "68b0650f3ef47017"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Mean Time in the System"
+gloss = "The mean time in the system is the mean wait in queue plus the mean service time."
+cite = []
+digest = "3d972c7088e32bf0"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Little's Law for the Whole System"
+gloss = "The mean number in the system equals the arrival rate times the mean time in the system, which is the queue content plus the offered load."
+cite = ["research_little_1961"]
+digest = "019e81565fa57bbe"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Fixture Count to Meet a Peak Utilisation Target"
+gloss = "Holding the peak utilisation below a target requires a fixture count at least the peak arrival rate over the product of service rate and target utilisation."
+cite = []
+digest = "e96cc2ac48e5b890"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Square-Root Staffing Rule"
+gloss = "The fixture count for a target probability of delay is approximately the offered load plus a service-grade multiple of its square root."
+cite = []
+digest = "8defcd2ecfa4ac28"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Fixture Count Minimising Fixture and Waiting Cost"
+gloss = "The fixture count is chosen to minimise the sum of fixture cost and the monetised waiting time of all arrivals."
+cite = ["book_gross_harris_1998_queueing"]
+digest = "dccdfdbb0b719347"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Throughput Density"
+gloss = "The article defines the served demand per unit floor area at the target utilisation as a measure of spatial throughput efficiency."
+cite = []
+digest = "0fefecfc9be44141"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Ratio of Female to Male Waits under Equal Provision"
+gloss = "The article forms the ratio of the two Erlang-C waits under equal fixture count and equal arrival rate, so that the convexity of the wait in utilisation amplifies the service-time asymmetry."
+cite = []
+digest = "043248954568385f"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Wait-Parity Criterion"
+gloss = "The article proposes parity as equal expected wait for the two sexes, an outcome rather than an input."
+cite = []
+digest = "c582e1a7dee55d50"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Utilisation-Parity Criterion"
+gloss = "The article proposes parity as equal utilisation, which under equal arrival rates sets the ratio of female to male fixtures equal to the ratio of male to female service rates."
+cite = []
+digest = "51b9d23b89ed34cb"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Sabine Reverberation Time"
+gloss = "The Sabine relation gives the time for sound energy to decay by sixty decibels as a constant times room volume over total absorption, in metric units."
+cite = ["book_sabine_1922_acoustics", "book_long_2006_architectural_acoustics"]
+digest = "d4979f5d12dd95e3"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Total Room Absorption"
+gloss = "Total absorption is the sum over surfaces of area times absorption coefficient."
+cite = ["book_long_2006_architectural_acoustics"]
+digest = "e8f5f46a0a523cb6"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Eyring Reverberation Time"
+gloss = "The Eyring correction replaces total absorption by minus the surface area times the logarithm of one minus the mean absorption coefficient, and reduces to Sabine when absorption is small."
+cite = ["book_long_2006_architectural_acoustics"]
+digest = "ac36c89b30a71162"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Signal-to-Masker Ratio"
+gloss = "The signal-to-masker ratio is the difference in decibels between the target level and the masker level."
+cite = []
+digest = "e7d6ca2b31430408"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Articulation Index"
+gloss = "The articulation index is the importance-weighted sum over frequency bands of the signal-to-noise ratio, offset by twelve decibels, clipped to a thirty-decibel range and normalised."
+cite = ["ref_ansi_asa_s35_sii"]
+digest = "3adc07796062e22d"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Energy Sum of Two Sound Levels"
+gloss = "Two incoherent levels combine by adding their intensities and converting back to decibels."
+cite = []
+digest = "0f5727e5d0d2decb"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Equivalent Continuous Sound Level"
+gloss = "The equivalent continuous level is the decibel value of the time-averaged intensity of a fluctuating level."
+cite = []
+digest = "f233ea3514b8e086"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Water Saved per Use by a Masking Device"
+gloss = "The article assumes the device replaces every concealment flush a user would otherwise make, so the saving per use is the number of such flushes times the flush volume."
+cite = []
+digest = "a823fe857c54fcf2"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Steady-State Concentration in a Well-Mixed Room"
+gloss = "The mass balance of a well-mixed room gives a steady concentration equal to the supply concentration plus the generation rate over the ventilation flow."
+cite = []
+digest = "ee4781da480a681d"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Ventilation Flow for a Target Concentration"
+gloss = "Inverting the steady-state mass balance gives the ventilation flow required to hold the concentration at a target."
+cite = []
+digest = "7a2fa13d06efcd6b"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Decay of Concentration after Generation Ceases"
+gloss = "After generation stops the concentration relaxes exponentially toward the supply level with time constant $V / Q$."
+cite = []
+digest = "c9b84b9715ac4e5c"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Air-Change Rate"
+gloss = "The air-change rate is the ventilation flow divided by room volume, the reciprocal of the ventilation time constant."
+cite = []
+digest = "49c4c0ab5e24a56d"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "First-Order Inactivation Kinetics"
+gloss = "Under constant disinfectant exposure the viable pathogen count decays exponentially in time."
+cite = []
+digest = "19746acf64fe1fdf"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "CT Value"
+gloss = "The CT value is disinfectant concentration times contact time, approximately constant for a given log-reduction target, organism and disinfectant."
+cite = []
+digest = "931226ddb7bdd30b"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Stokes Settling Velocity"
+gloss = "In the Stokes regime the terminal settling velocity of a particle scales with the density difference and the square of its diameter over the viscosity of air."
+cite = ["book_hinds_1999_aerosol"]
+digest = "3cebca6c1e200694"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Cunningham Slip Correction"
+gloss = "The Cunningham factor corrects the Stokes velocity for particles whose diameter approaches the mean free path of air."
+cite = ["book_hinds_1999_aerosol"]
+digest = "d88178561f143c7c"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Settling Time through a Height"
+gloss = "The settling time is the height divided by the slip-corrected settling velocity."
+cite = ["book_hinds_1999_aerosol"]
+digest = "7d1752218c59c69a"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Exponential Dose-Response Model"
+gloss = "The exponential model gives the probability of infection from a dose with a single per-organism infectivity parameter."
+cite = ["book_haas_2014_qmra"]
+digest = "fbde7fed81c4c139"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Beta-Poisson Dose-Response Model"
+gloss = "The Beta-Poisson model gives the probability of infection from a dose with two fitted parameters."
+cite = ["book_haas_2014_qmra"]
+digest = "f910160669b6db3a"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Fomite Exposure Dose"
+gloss = "The dose along the fomite pathway is the surface concentration times contact area, the two transfer efficiencies and the number of contacts."
+cite = ["research_nicas_best_2008"]
+digest = "fd9482ae030a5922"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Chick-Watson Law"
+gloss = "The logarithmic survival ratio is proportional to contact time and to a power of disinfectant concentration set by the coefficient of dilution."
+cite = []
+digest = "113398f0960e65bc"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Log Reduction"
+gloss = "The log reduction is minus the base-ten logarithm of the surviving fraction."
+cite = []
+digest = "63df656059834d82"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Bernoulli Relation along a Streamline"
+gloss = "Pressure, kinetic energy per unit volume and potential energy per unit volume sum to a constant along a streamline of steady inviscid flow."
+cite = []
+digest = "b9017572b4b1c2c9"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Continuity of Volumetric Flow"
+gloss = "The volumetric flow is the same at every cross-section of the siphon."
+cite = []
+digest = "1a575bc89af43aa8"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Torricelli Discharge with a Discharge Coefficient"
+gloss = "The outlet velocity under a head is the free-fall velocity from that head reduced by a discharge coefficient that lumps the losses of the trapway."
+cite = []
+digest = "edcd13dcc506459b"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Draining Time of a Bowl"
+gloss = "Integrating the Torricelli discharge as the head falls gives an emptying time proportional to the difference of the square roots of the initial and final heads."
+cite = []
+digest = "c1e2e8940cf54268"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Pressure Resisted by a Trap Seal"
+gloss = "A trap seal resists a pressure difference up to the hydrostatic pressure of its water depth."
+cite = []
+digest = "ed1b5bbeb5721386"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Predicted Mean Vote"
+gloss = "The Fanger model gives the predicted mean vote as a metabolism-dependent sensitivity times the thermal load on the body."
+cite = ["book_fanger_1970_thermal_comfort", "ref_iso_7730"]
+digest = "ff80bdc0edca8726"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Predicted Percentage Dissatisfied"
+gloss = "The predicted percentage dissatisfied is a fixed function of the predicted mean vote with a minimum of five percent at neutrality."
+cite = ["book_fanger_1970_thermal_comfort", "ref_iso_7730"]
+digest = "f6114d768544c461"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Room Constant"
+gloss = "The room constant is the total absorption divided by one minus the mean absorption coefficient."
+cite = ["book_long_2006_architectural_acoustics"]
+digest = "0e4178ff27aa6976"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Sound Pressure Level from Direct and Reverberant Fields"
+gloss = "The level at a distance from a source is its power level plus the decibel value of the sum of an inverse-square direct term and a uniform reverberant term."
+cite = ["book_long_2006_architectural_acoustics"]
+digest = "000dae5ee5b7b866"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Critical Distance"
+gloss = "The critical distance, at which the direct and reverberant fields are equal, grows with the square root of the directivity times the room constant."
+cite = ["book_long_2006_architectural_acoustics"]
+digest = "c510430fcc9212dc"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Illuminance"
+gloss = "Illuminance is luminous flux per unit area."
+cite = []
+digest = "ea3f66e495523608"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Luminance Contrast"
+gloss = "The contrast of a feature is the difference between its luminance and the background luminance, divided by the background luminance."
+cite = []
+digest = "1264a7ec18195b3f"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Annual Water Consumption of a Facility"
+gloss = "The article assembles annual consumption from a constant daily use count, one flush per use and the flush volume."
+cite = []
+digest = "7e2d8ddb3a65b444"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Annual Water Saved by High-Efficiency Fixtures"
+gloss = "Under the same one-flush-per-use assumption, the annual saving is the daily use count times the reduction in flush volume over a year."
+cite = []
+digest = "5eb93ebb45511242"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Wells-Riley Infection Probability"
+gloss = "The Wells-Riley model gives the probability of airborne infection from the infectious quanta inhaled, which falls with the ventilation rate."
+cite = []
+digest = "46b226cd640eae7d"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Blocking Probability of the M/M/c/K Queue"
+gloss = "The blocking probability of a finite-capacity queue is the stationary probability that the system holds its full capacity of $K$ users."
+cite = ["book_gross_harris_1998_queueing"]
+digest = "22f80dbf721436e3"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Level of Two Equal Sound Sources"
+gloss = "Two equal incoherent sources combine to a level about three decibels above either."
+cite = []
+digest = "734bc9a82c2e4601"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Level of n Equal Sound Sources"
+gloss = "The level of $n$ equal incoherent sources exceeds that of one by ten times the base-ten logarithm of $n$."
+cite = []
+digest = "f39c7ec9a18396fd"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Operative Temperature"
+gloss = "The operative temperature is the mean of air temperature and mean radiant temperature weighted by the convective and radiative heat-transfer coefficients."
+cite = ["ref_ashrae_55"]
+digest = "54a7e05a6725c1bc"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "First-Order Heating Response"
+gloss = "A heated element approaches its final temperature exponentially with a time constant set by its thermal mass and heat-loss conductance."
+cite = []
+digest = "c5da9aa88d5159da"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Effective Ventilation Rate"
+gloss = "The effective ventilation rate is the nominal rate multiplied by the ventilation effectiveness."
+cite = []
+digest = "d165b351a4b523cc"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Mean Age of Air in a Well-Mixed Room"
+gloss = "In a perfectly mixed room the mean age of air equals the room volume divided by the ventilation flow."
+cite = []
+digest = "17c263274fea05f2"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Metabolic Rate in Met Units"
+gloss = "One met corresponds to a metabolic heat production of 58.15 watts per square metre of body surface."
+cite = ["ref_ashrae_55"]
+digest = "6160daa88651e9b1"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Heat to Be Shed"
+gloss = "The heat the occupant must shed is the metabolic rate net of external work."
+cite = ["book_fanger_1970_thermal_comfort"]
+digest = "debe7b768c8b6724"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Joint-Elevation Condition"
+gloss = "The article recognises a facility as elevated when its gated elevation index reaches a threshold, which requires both an open hygienic gate and sufficient enrichment."
+cite = []
+digest = "dbafefbf98a1161d"
+
+[[symbol]]
+tex = 'x_H'
+meaning = "the normalised hygienic score, with $x_d$ the score on enrichment dimension $d$"
+
+[[symbol]]
+tex = 'h_0'
+meaning = "the half-saturation constant of the hygienic gate"
+
+[[symbol]]
+tex = '\Phi(x_H)'
+meaning = "the hygienic gate, distinct from the luminous flux $\\Phi$"
+
+[[symbol]]
+tex = 'w_d'
+meaning = "the weight of enrichment dimension $d$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the arrival rate of users, distinct from the mean free path $\\lambda_{\\text{mfp}}$"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the service rate of one fixture, with $\\mu_m$ and $\\mu_w$ for male and female users"
+
+[[symbol]]
+tex = 'c'
+meaning = "the number of fixtures"
+
+[[symbol]]
+tex = 'a'
+meaning = "the offered load in erlangs"
+
+[[symbol]]
+tex = 'C(c, a)'
+meaning = "the Erlang-C probability of waiting"
+
+[[symbol]]
+tex = 'B(c, a)'
+meaning = "the Erlang-B blocking probability"
+
+[[symbol]]
+tex = 'W_q'
+meaning = "the mean wait in queue, with $W$ the mean time in the system"
+
+[[symbol]]
+tex = 'L_q'
+meaning = "the mean number waiting, with $L$ the mean number in the system"
+
+[[symbol]]
+tex = 'C_a'
+meaning = "the coefficient of variation of interarrival times, with $C_s$ that of service times"
+
+[[symbol]]
+tex = '\rho^{\star}'
+meaning = "the target utilisation"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the amortised cost per fixture"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the monetised value of a unit of waiting time"
+
+[[symbol]]
+tex = 'T_{60}'
+meaning = "the reverberation time"
+
+[[symbol]]
+tex = '\alpha_i'
+meaning = "the absorption coefficient of surface $i$, with $\\bar{\\alpha}$ the mean coefficient"
+
+[[symbol]]
+tex = 'W_k'
+meaning = "the importance weight of frequency band $k$"
+
+[[symbol]]
+tex = 'C_{\text{supply}}'
+meaning = "the concentration in the supply air"
+
+[[symbol]]
+tex = 'G'
+meaning = "the odorant generation rate"
+
+[[symbol]]
+tex = 'k'
+meaning = "the inactivation rate constant"
+
+[[symbol]]
+tex = 'v_s'
+meaning = "the Stokes settling velocity"
+
+[[symbol]]
+tex = 'C_c'
+meaning = "the Cunningham slip factor"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the dynamic viscosity of air"
+
+[[symbol]]
+tex = 'P_{\text{inf}}'
+meaning = "the probability of infection"
+
+[[symbol]]
+tex = 'C_d'
+meaning = "the discharge coefficient of the trapway"
+
+[[symbol]]
+tex = 'h_s'
+meaning = "the depth of the trap seal"
+
+[[symbol]]
+tex = 'M'
+meaning = "the metabolic heat production per unit body surface area"
+
+[[symbol]]
+tex = 'R'
+meaning = "the room constant"
+
+[[symbol]]
+tex = 'r_c'
+meaning = "the critical distance"
+
+[[symbol]]
+tex = 'v_f'
+meaning = "the volume of one flush, with $v_0$ a baseline volume"
+
+[[symbol]]
+tex = 'T_{\text{op}}'
+meaning = "the operative temperature"
+
+[[symbol]]
+tex = '\varepsilon_v'
+meaning = "the ventilation effectiveness"

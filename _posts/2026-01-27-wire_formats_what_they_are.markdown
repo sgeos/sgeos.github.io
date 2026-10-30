@@ -49,7 +49,10 @@ Three properties are jointly necessary. A representation that lacks any one of t
 
 **It is unambiguous over its domain.** For any byte sequence the format admits, there is exactly one value it denotes. Let $B$ be the set of byte sequences the format accepts and $V$ the set of values it can represent. The decode relation $D \subseteq B \times V$ must be a function, which is to say
 
-$$\forall b \in B, \quad \left| \left\{ v \in V \;:\; (b, v) \in D \right\} \right| = 1$$
+$$
+\forall b \in B, \quad \left| \left\{ v \in V \;:\; (b, v) \in D \right\} \right| = 1
+\tag{1}
+$$
 
 A format that permits two readings of one byte sequence has failed this, and the failure is rarely benign. Where two implementations resolve the ambiguity differently, the disagreement becomes an attack surface, which is the argument [Sassaman, Patterson and Bratus][research_sassaman_formal_language] make in placing protocol parsing inside formal language theory. Formats that fail this admit multiple readings of the same bytes, which is a correctness problem in ordinary use and a security problem when two implementations disagree about which reading is correct.
 
@@ -63,27 +66,42 @@ The primary division within the family is whether the bytes describe themselves.
 
 Protocol Buffers, whose encoding is described in the [Protocol Buffers encoding documentation][ref_protobuf_encoding], occupies a middle position that has proved durable. Each field is preceded by a tag combining a field number and a wire type. For field number $f$ and three-bit wire type $w$, the tag is the varint encoding of
 
-$$\tau = 8f + w$$
+$$
+\tau = 8f + w
+\tag{2}
+$$
 
 which places the wire type in the low three bits and the field number above them, so that any field numbered below sixteen yields a single-byte tag. That is why the low field numbers are worth reserving for the fields that appear most often. The field number identifies the field without naming it, which costs far less than a name, and the wire type tells a decoder how to skip a field it does not recognise even when it lacks the schema. That single decision is what makes unknown fields survivable.
 
 The cost of self-description can be stated directly. For a message of $n$ fields, let $v_i$ be the encoded size of the $i$th value and $m_i$ the size of its inline metadata, meaning names, type tags, or field tags. The total size is
 
-$$S = \sum_{i=1}^{n} \left( m_i + v_i \right)$$
+$$
+S = \sum_{i=1}^{n} \left( m_i + v_i \right)
+\tag{3}
+$$
 
 and the overhead fraction is
 
-$$\phi = \frac{\sum_{i=1}^{n} m_i}{\sum_{i=1}^{n} \left( m_i + v_i \right)}$$
+$$
+\phi = \frac{\sum_{i=1}^{n} m_i}{\sum_{i=1}^{n} \left( m_i + v_i \right)}
+\tag{4}
+$$
 
 For JSON encoding a record of short integers, $m_i$ includes the quoted field name, a colon, a comma, and the decimal digits are themselves larger than a binary equivalent, so $\phi$ frequently exceeds one half. For Protocol Buffers on the same record, $m_i$ is typically one byte, and for Avro with an external schema $m_i$ approaches zero. The interesting observation is not that binary is smaller, which is obvious, but that the ratio is dominated by metadata for small values and becomes irrelevant for large ones. A format carrying megabyte blobs is not meaningfully affected by its field-tag strategy.
 
 Variable-length integer encoding illustrates how representation choices interact with data distribution. In the base-128 varint scheme used by Protocol Buffers, seven bits of payload travel in each byte and the eighth signals continuation, so a non-negative integer $x$ occupies
 
-$$L(x) = \max\left(1, \left\lceil \frac{\lfloor \log_2 x \rfloor + 1}{7} \right\rceil \right)$$
+$$
+L(x) = \max\left(1, \left\lceil \frac{\lfloor \log_2 x \rfloor + 1}{7} \right\rceil \right)
+\tag{5}
+$$
 
 bytes. Small numbers become short, which is the intent, but a value near $2^{64}$ takes ten bytes where a fixed-width encoding would take eight. The bet pays only below a threshold. A varint is strictly smaller than a fixed encoding of $W$ bytes when $L(x) < W$, and for $W = 8$ that condition is
 
-$$x < 2^{49}$$
+$$
+x < 2^{49}
+\tag{6}
+$$
 
 since a value of fifty bits or more already requires eight varint bytes. Varints are a bet that the distribution is concentrated near zero, and like any bet they can be lost.
 
@@ -105,11 +123,17 @@ Header compression illustrates that framing formats face the same metadata press
 
 Framing overhead is a ratio worth stating. For a frame carrying payload of size $p$ with header of size $h$, the useful fraction is
 
-$$\eta = \frac{p}{p + h}$$
+$$
+\eta = \frac{p}{p + h}
+\tag{7}
+$$
 
 Framing also nests, and each layer of encapsulation charges its own header. For $n$ layers with header sizes $h_1$ through $h_n$, the useful fraction is
 
-$$\eta_{\text{stack}} = \frac{p}{p + \sum_{i=1}^{n} h_i}$$
+$$
+\eta_{\text{stack}} = \frac{p}{p + \sum_{i=1}^{n} h_i}
+\tag{8}
+$$
 
 so a bundle inside a transport segment inside a network packet pays all three, and a small payload can carry more framing than content once the stack is deep enough. For an HTTP/2 frame with $h = 9$ carrying a kilobyte, $\eta$ exceeds ninety nine percent and the header is irrelevant. For the same header carrying a four-byte acknowledgement, $\eta$ falls below one third. Protocols that exchange many small messages therefore care enormously about header size, which is why QUIC, specified in [Iyengar and Thomson n.d.][ref_rfc9000], works to keep its packet headers short and why it moved framing into the encrypted payload to permit change without ossification.
 
@@ -129,11 +153,17 @@ The design questions match the interchange family closely. Fixed-width encodings
 
 Instruction density can be treated the same way as encoding overhead. For a program of $k$ instructions with encoded sizes $c_j$, the mean instruction size is
 
-$$\bar{c} = \frac{1}{k} \sum_{j=1}^{k} c_j$$
+$$
+\bar{c} = \frac{1}{k} \sum_{j=1}^{k} c_j
+\tag{9}
+$$
 
 and the total text size is $k \bar{c}$. If a compressed encoding renders a fraction $\rho$ of instructions at half width, the mean becomes
 
-$$\bar{c}_{\text{compressed}} = \bar{c} \left( 1 - \frac{\rho}{2} \right)$$
+$$
+\bar{c}_{\text{compressed}} = \bar{c} \left( 1 - \frac{\rho}{2} \right)
+\tag{10}
+$$
 
 so compressing half the instruction stream saves a quarter of the text. A compressed encoding reduces $\bar{c}$, which matters when instruction memory is the binding constraint, as it is on the embedded targets discussed in [Getting Started with no_std Rust Programming][related_post_no_std_rust_getting_started] and [no_std Rust with bin and lib][related_post_no_std_rust_bin_lib].
 
@@ -194,6 +224,118 @@ The tradeoffs that cut across the three families are the subject of the second a
 A wire format is the byte-level agreement that lets structured meaning cross a boundary. Membership requires that the representation be external, agreed in advance, and unambiguous. Three families that are usually discussed apart all satisfy the definition. Data interchange encodings carry values, protocol framing carries conversation structure, and instruction encodings carry programs.
 
 The families were developed by different communities with different vocabularies, and the separation has obscured how much they share. Each must decide where the schema lives, how a reader finds the end of a unit, what happens on encountering the unrecognised, how much to pay for inspectability, and whether encoding must be canonical. Those five questions are the subject of the companion article, which treats them as one set of tradeoffs rather than three.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 10 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 10, 9 are established and 1 are bespoke.
+Every size is counted in bytes unless a bit count is stated, a field tag is the integer value before it is varint encoded, and every fraction is a dimensionless proportion between zero and one.
+
+**Equation 1, Unambiguity as a Decode Function.**
+Requiring every accepted byte sequence to relate to exactly one value is the standard condition that the decode relation be a function on its domain.
+
+$$
+\forall b \in B, \quad \left| \left\{ v \in V \;:\; (b, v) \in D \right\} \right| = 1
+\tag{1}
+$$
+
+**Equation 2, Protocol Buffers Field Tag.**
+The tag multiplies the field number by eight and adds the three-bit wire type, which places the wire type in the low three bits and the field number above them.
+[Protocol Buffers encoding documentation][ref_protobuf_encoding]
+
+$$
+\tau = 8f + w
+\tag{2}
+$$
+
+**Equation 3, Total Encoded Message Size.**
+The size of a message is the sum over its fields of the inline metadata and the encoded value of each field.
+
+$$
+S = \sum_{i=1}^{n} \left( m_i + v_i \right)
+\tag{3}
+$$
+
+**Equation 4, Metadata Overhead Fraction.**
+The overhead fraction is the share of the encoded message occupied by names, type tags and field tags rather than by values.
+
+$$
+\phi = \frac{\sum_{i=1}^{n} m_i}{\sum_{i=1}^{n} \left( m_i + v_i \right)}
+\tag{4}
+$$
+
+**Equation 5, Length of a Base-128 Varint.**
+Each byte of a base-128 varint carries seven bits of payload, so the length is the bit length of the integer divided by seven and rounded up, with a minimum of one byte for zero.
+[Protocol Buffers encoding documentation][ref_protobuf_encoding]
+
+$$
+L(x) = \max\left(1, \left\lceil \frac{\lfloor \log_2 x \rfloor + 1}{7} \right\rceil \right)
+\tag{5}
+$$
+
+**Equation 6, Threshold Below Which a Varint Beats Eight Fixed Bytes.**
+Setting the varint length below eight bytes admits at most forty-nine bits of payload, so a varint is strictly smaller than a 64-bit fixed encoding only for values below $2^{49}$.
+
+$$
+x < 2^{49}
+\tag{6}
+$$
+
+**Equation 7, Framing Efficiency of a Single Frame.**
+The useful fraction of a frame is its payload divided by the sum of payload and header.
+
+$$
+\eta = \frac{p}{p + h}
+\tag{7}
+$$
+
+**Equation 8, Framing Efficiency of Nested Encapsulation.**
+Each layer of encapsulation adds its own header to the denominator, so the useful fraction falls as the protocol stack deepens.
+
+$$
+\eta_{\text{stack}} = \frac{p}{p + \sum_{i=1}^{n} h_i}
+\tag{8}
+$$
+
+**Equation 9, Mean Instruction Size.**
+The mean instruction size is the arithmetic mean of the encoded sizes of the instructions in a program.
+
+$$
+\bar{c} = \frac{1}{k} \sum_{j=1}^{k} c_j
+\tag{9}
+$$
+
+*Equation 10, Bespoke Mean Instruction Size under Partial Compression.*
+The article assumes that a fraction $\rho$ of instructions drawn evenly from the program is rendered at exactly half width, which scales the mean size by one minus half that fraction.
+
+$$
+\bar{c}_{\text{compressed}} = \bar{c} \left( 1 - \frac{\rho}{2} \right)
+\tag{10}
+$$
+
+### Notation
+
+- $B$, the set of byte sequences the format accepts
+- $V$, the set of values the format can represent
+- $D$, the decode relation, a subset of $B \times V$
+- $\tau$, the integer value of a Protocol Buffers field tag before varint encoding
+- $f$, the field number of a Protocol Buffers field
+- $w$, the three-bit wire type of a Protocol Buffers field
+- $m_i$, the size of the inline metadata of the $i$th field, meaning names, type tags or field tags
+- $v_i$, the encoded size of the $i$th value
+- $\phi$, the overhead fraction, the share of a message taken by metadata
+- $L(x)$, the length in bytes of the base-128 varint encoding of a non-negative integer $x$
+- $\eta$, the framing efficiency, the useful fraction of a frame, with $\eta_{\text{stack}}$ for a nested stack of frames
+- $p$, the payload size of a frame
+- $h_i$, the header size of the $i$th layer of encapsulation, written $h$ for a single frame
+- $c_j$, the encoded size of the $j$th of $k$ instructions
+- $\bar{c}$, the mean instruction size
+- $\rho$, the fraction of instructions rendered in a compressed half-width form
 
 ## References
 

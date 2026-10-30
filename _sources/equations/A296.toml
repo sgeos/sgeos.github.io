@@ -1,0 +1,191 @@
+# Equation classification for A296. Read by `python3 _lib/equations.py`.
+
+caution = "Sizes are counted in bytes and rates in bytes per second, every hit rate, escape probability and compression factor is a dimensionless proportion, and the cost models are first approximations that ignore effects the article names but does not quantify."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Effective Header Size under a Table Hit Rate"
+gloss = "The article models HPACK header compression as a choice between a hit that costs only an index and a miss that costs the full header, which ignores literal encoding and table maintenance."
+cite = []
+digest = "fd53b239d12afe70"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Total Bytes with an Inline Schema"
+gloss = "The article charges every one of $N$ messages the same data and inline metadata sizes, a uniform-message assumption that makes the total linear in the message count."
+cite = []
+digest = "f5a2bb6f6bb4dd8c"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Total Bytes with an Out-of-Band Schema"
+gloss = "Under the same uniform-message assumption, the schema is paid once and each message then carries only its data."
+cite = []
+digest = "5de0bb618b00195d"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Break-Even Message Count for an External Schema"
+gloss = "Comparing the two cost models gives the number of messages beyond which distributing the schema separately is cheaper, a threshold that inherits the uniform-message assumption."
+cite = []
+digest = "37a3913cc50c67e5"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Bound on a Declared Length"
+gloss = "A reader checks the declared length against a bound it chooses independently of the sender before allocating, the standard defence against a length prefix used for resource exhaustion."
+cite = []
+digest = "73111cb1c7dd4bb8"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Expected Payload Size after Delimiter Escaping"
+gloss = "The article assumes the delimiter occurs independently with probability $q$ per byte and that each occurrence expands to two bytes, so the expected size grows by the factor $1 + q$."
+cite = []
+digest = "25c28d10b5773206"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Backward Compatibility as a Round Trip"
+gloss = "Backward compatibility is the requirement that a reader at schema $R$ recovers every value written at any older or equal schema $W$, with forward compatibility the same condition for newer writers."
+cite = []
+digest = "54a3c60418b7cf17"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Canonical Encoding"
+gloss = "A format is canonical when every value has exactly one permitted byte representation, a condition strictly stronger than unambiguity."
+cite = []
+digest = "1878df1915a83a65"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Transfer and Decode Time"
+gloss = "The article treats transfer and decoding as serial stages that do not overlap, so the total time is the sum of the time on the link and the time in the decoder."
+cite = []
+digest = "24ca865953e2e37c"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Condition for Compression to Pay"
+gloss = "Under the serial time model, compression that shrinks the message by $\\alpha$ and slows decoding by $\\beta$ helps only when the compressed time per byte of original message falls below the uncompressed time."
+cite = []
+digest = "e75b67ef4542739c"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Alignment Padding"
+gloss = "The padding that brings a field up to the next multiple of its alignment boundary is zero for an aligned field and at most one byte less than the boundary otherwise."
+cite = ["ref_rfc4506"]
+digest = "6c6e385f4254e67b"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Bounds on the Version Testing Burden"
+gloss = "The article measures the testing burden by the version pairs that negotiation can reach, bounded below by the $k$ outcomes of highest-common-version negotiation and above by all $k^2$ ordered pairs."
+cite = []
+digest = "72785b53f0c645a5"
+
+[[symbol]]
+tex = 'H'
+meaning = "the full size of a header field"
+
+[[symbol]]
+tex = 'I'
+meaning = "the size of the index that renders a header field held in the HPACK table"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the table hit rate"
+
+[[symbol]]
+tex = '\bar{H}'
+meaning = "the effective expected size of a header field"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of messages sent"
+
+[[symbol]]
+tex = 's'
+meaning = "the size of the schema"
+
+[[symbol]]
+tex = 'd'
+meaning = "the data carried by each message"
+
+[[symbol]]
+tex = 'm'
+meaning = "the inline metadata carried by each message"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the declared length in a length prefix, with $\\ell_{\\max}$ the bound the reader chooses"
+
+[[symbol]]
+tex = 'q'
+meaning = "the probability per byte that the delimiter occurs in the payload"
+
+[[symbol]]
+tex = 'p'
+meaning = "the payload size before escaping, with $p'$ its expected size after escaping"
+
+[[symbol]]
+tex = 'W'
+meaning = "the writer schema, with $\\operatorname{enc}_W$ its encode function"
+
+[[symbol]]
+tex = 'R'
+meaning = "the reader schema, with $\\operatorname{dec}_R$ its decode function"
+
+[[symbol]]
+tex = '\preceq'
+meaning = "the order on schema versions"
+
+[[symbol]]
+tex = 'E(v)'
+meaning = "the set of byte sequences a format permits for the value $v$"
+
+[[symbol]]
+tex = 'S'
+meaning = "the size of a message, unrelated to the total size $S$ of the companion article"
+
+[[symbol]]
+tex = 'B'
+meaning = "the bandwidth of the link in bytes per second"
+
+[[symbol]]
+tex = 'D'
+meaning = "the decode rate in bytes per second, unrelated to the decode relation $D$ of the companion article"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the factor by which compression reduces the message size"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the factor by which compression reduces the effective decode rate"
+
+[[symbol]]
+tex = 'P(f, a)'
+meaning = "the padding added to a field of size $f$ aligned to a boundary of $a$ bytes"
+
+[[symbol]]
+tex = 'k'
+meaning = "the number of versions supported on each side of a negotiation"
+
+[[symbol]]
+tex = 'T'
+meaning = "the testing burden, the number of reachable version pairs"

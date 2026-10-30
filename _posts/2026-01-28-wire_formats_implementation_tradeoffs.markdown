@@ -25,7 +25,10 @@ Inline schemas make a message self-contained. Any reader can decode it with no p
 
 Out-of-band schemas move that cost to a one-time distribution step. Apache Avro writes the schema once in a file header and then emits values with almost no per-record metadata, which is close to optimal for large homogeneous batches and poor for a single small message to an unknown party. Header compression in HTTP/2 is the same idea applied to a live conversation, where the [HPACK][ref_rfc7541] dynamic table is a schema that both ends build cooperatively as they talk. For a header field of full size $H$ that the table can render as an index of size $I$, a table hit rate $\theta$ gives an effective size
 
-$$\bar{H} = \theta I + \left( 1 - \theta \right) H$$
+$$
+\bar{H} = \theta I + \left( 1 - \theta \right) H
+\tag{1}
+$$
 
 so a table hitting nine times in ten reduces a fifty-byte header to under six bytes when the index costs one. The gain comes entirely from repetition, which is why the technique helps a long conversation and does nothing for a single request.
 
@@ -33,15 +36,24 @@ Fixed schemas are the instruction-encoding position. A processor does not receiv
 
 The cost structure is easy to state. For $N$ messages where the schema costs $s$ bytes and each message carries $d$ bytes of data plus $m$ bytes of inline metadata, the inline total is
 
-$$T_{\text{inline}} = N \left( d + m \right)$$
+$$
+T_{\text{inline}} = N \left( d + m \right)
+\tag{2}
+$$
 
 and the out-of-band total is
 
-$$T_{\text{external}} = s + N d$$
+$$
+T_{\text{external}} = s + N d
+\tag{3}
+$$
 
 so distributing the schema separately wins when
 
-$$N > \frac{s}{m}$$
+$$
+N > \frac{s}{m}
+\tag{4}
+$$
 
 The threshold is a ratio, not a constant. A format with heavy inline metadata reaches it after a handful of messages. A format with one-byte field tags may never reach it for a low-volume protocol, which is why Protocol Buffers keeping small tags inline is a reasonable middle position, not a failure to commit.
 
@@ -51,13 +63,19 @@ Every reader must know where a unit stops. Length prefixing, delimiting, and fix
 
 Length prefixing lets a reader allocate exactly once and detect truncation immediately, and it makes the length an attacker-controlled input. A declared length that the sender never fulfils is a resource-exhaustion vector. A reader must therefore enforce
 
-$$\ell \leq \ell_{\max}$$
+$$
+\ell \leq \ell_{\max}
+\tag{5}
+$$
 
 on the declared length $\ell$ before allocating, where $\ell_{\max}$ is a bound the reader chooses independently of the sender. Checking after allocation is not a check.
 
 Delimiting requires no lookahead and permits streaming without knowing the total size in advance, and it forces an escaping scheme for payloads that contain the delimiter. Escaping is where subtle bugs live, because encoder and decoder must agree exactly on what is escaped and the failure mode is silent corruption and not a clean error. Escaping also costs size. If the delimiter occurs in payload with probability $q$ per byte and each occurrence expands to two bytes, a payload of $p$ bytes becomes
 
-$$p' = p \left( 1 + q \right)$$
+$$
+p' = p \left( 1 + q \right)
+\tag{6}
+$$
 
 in expectation, so a delimiter chosen to be rare in the expected data costs almost nothing and one chosen carelessly approaches a doubling.
 
@@ -81,7 +99,10 @@ The two positions produce opposite failure modes. Permissive readers stay compat
 
 Schema evolution formalises this. Let $W$ be the writer schema and $R$ the reader schema. Write $\operatorname{dec}\_R$ for the reader's decode function and $\operatorname{enc}\_W$ for the writer's encode function, and let $\preceq$ order schema versions. Backward compatibility is the requirement
 
-$$\operatorname{dec}_R\left( \operatorname{enc}_W(v) \right) = v \quad \text{for all } W \preceq R$$
+$$
+\operatorname{dec}_R\left( \operatorname{enc}_W(v) \right) = v \quad \text{for all } W \preceq R
+\tag{7}
+$$
 
 and forward compatibility is the same condition for all $W \succeq R$. A format supports backward compatibility when a reader at $R$ can read data written at an older $W$, and forward compatibility when a reader at $R$ can read data written at a newer $W$. Avro resolves the two schemas explicitly at read time, as described in its [specification][ref_avro_spec], which makes the compatibility rules a stated part of the format, not an emergent property. Protocol Buffers obtains forward compatibility from skippable unknown fields and constrains what changes are safe, and its [proto3 field presence rules][ref_protobuf_field_presence] document where the constraints bite.
 
@@ -101,7 +122,10 @@ A common resolution is to keep the format binary and invest in tooling that rend
 
 Canonical encoding requires that a given value have exactly one valid byte representation. Let $E(v)$ be the set of byte sequences a format permits for the value $v$. Canonicity is the condition
 
-$$\forall v, \quad \left| E(v) \right| = 1$$
+$$
+\forall v, \quad \left| E(v) \right| = 1
+\tag{8}
+$$
 
 which is strictly stronger than the unambiguity every wire format already requires. Unambiguity says each byte sequence denotes one value. Canonicity says each value has one byte sequence. A format can satisfy the first and violate the second, and most do. Most formats do not require this, because it constrains encoders for no benefit in ordinary use.
 
@@ -121,11 +145,17 @@ Varint encoding is the clearest case. It shortens small integers and requires a 
 
 The choice depends on which resource binds. For a message of size $S$ crossing a link of bandwidth $B$ and then being decoded at rate $D$ bytes per second, the total time is approximately
 
-$$t = \frac{S}{B} + \frac{S}{D}$$
+$$
+t = \frac{S}{B} + \frac{S}{D}
+\tag{9}
+$$
 
 Compression that reduces $S$ to $\alpha S$ for $\alpha < 1$ while reducing the effective decode rate to $\beta D$ for $\beta < 1$ helps when
 
-$$\frac{\alpha}{B} + \frac{\alpha}{\beta D} < \frac{1}{B} + \frac{1}{D}$$
+$$
+\frac{\alpha}{B} + \frac{\alpha}{\beta D} < \frac{1}{B} + \frac{1}{D}
+\tag{10}
+$$
 
 On a slow link the bandwidth term dominates and compactness wins. Within a data centre, where $B$ is large, the decode term dominates and the same choice loses. This is why formats that win on mobile networks lose on local interconnects, and why the correct answer changes with deployment rather than being a property of the format.
 
@@ -141,7 +171,10 @@ A format that fixes byte order imposes a conversion on machines of the opposite 
 
 Alignment is the same tradeoff in space. XDR pads everything to four-byte boundaries so that a reader can load fields directly, and pays in wasted bytes. For a field of size $f$ aligned to boundary $a$, the padding is
 
-$$P(f, a) = \left( a - \left( f \bmod a \right) \right) \bmod a$$
+$$
+P(f, a) = \left( a - \left( f \bmod a \right) \right) \bmod a
+\tag{11}
+$$
 
 which is zero when $f$ is already a multiple of $a$ and approaches $a - 1$ otherwise. Across a record of many small fields the waste accumulates, and for a format carrying many one-byte flags aligned to eight bytes it can dominate the payload entirely.
 
@@ -159,7 +192,10 @@ Instruction encodings ossify hardest of all, because the dependent implementatio
 
 Version negotiation is the usual mitigation and carries its own cost. It adds a round trip or a field, it creates a downgrade surface if an attacker can influence the negotiation, and it multiplies the combinations that must be tested. With $k$ versions supported on each side, the number of ordered pairs is $k^2$, while negotiation that always selects the highest common version yields only $k$ distinct outcomes. The testing burden $T$ therefore lies between
 
-$$k \leq T \leq k^2$$
+$$
+k \leq T \leq k^2
+\tag{12}
+$$
 
 depending on how much of the pair space the negotiation can actually reach, which is why deployed systems support far fewer versions than their specifications permit.
 
@@ -230,6 +266,140 @@ Wire formats face a consistent set of tradeoffs regardless of whether they carry
 The choices interact, and several combinations are contradictory. Canonicity forces strictness. Zero-copy forces padding. Success forces ossification, and the mitigations for ossification carry costs of their own.
 
 No format is best. A format is a set of positions on these tradeoffs, and the positions are appropriate or not with respect to a deployment. The value of recognising that interchange encodings, protocol framing, and instruction encodings are one class is that a decision made carefully in one of them is a decision already understood in the others.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 12 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 12, 4 are established and 8 are bespoke.
+Sizes are counted in bytes and rates in bytes per second, every hit rate, escape probability and compression factor is a dimensionless proportion, and the cost models are first approximations that ignore effects the article names but does not quantify.
+
+*Equation 1, Bespoke Effective Header Size under a Table Hit Rate.*
+The article models HPACK header compression as a choice between a hit that costs only an index and a miss that costs the full header, which ignores literal encoding and table maintenance.
+
+$$
+\bar{H} = \theta I + \left( 1 - \theta \right) H
+\tag{1}
+$$
+
+*Equation 2, Bespoke Total Bytes with an Inline Schema.*
+The article charges every one of $N$ messages the same data and inline metadata sizes, a uniform-message assumption that makes the total linear in the message count.
+
+$$
+T_{\text{inline}} = N \left( d + m \right)
+\tag{2}
+$$
+
+*Equation 3, Bespoke Total Bytes with an Out-of-Band Schema.*
+Under the same uniform-message assumption, the schema is paid once and each message then carries only its data.
+
+$$
+T_{\text{external}} = s + N d
+\tag{3}
+$$
+
+*Equation 4, Bespoke Break-Even Message Count for an External Schema.*
+Comparing the two cost models gives the number of messages beyond which distributing the schema separately is cheaper, a threshold that inherits the uniform-message assumption.
+
+$$
+N > \frac{s}{m}
+\tag{4}
+$$
+
+**Equation 5, Bound on a Declared Length.**
+A reader checks the declared length against a bound it chooses independently of the sender before allocating, the standard defence against a length prefix used for resource exhaustion.
+
+$$
+\ell \leq \ell_{\max}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Expected Payload Size after Delimiter Escaping.*
+The article assumes the delimiter occurs independently with probability $q$ per byte and that each occurrence expands to two bytes, so the expected size grows by the factor $1 + q$.
+
+$$
+p' = p \left( 1 + q \right)
+\tag{6}
+$$
+
+**Equation 7, Backward Compatibility as a Round Trip.**
+Backward compatibility is the requirement that a reader at schema $R$ recovers every value written at any older or equal schema $W$, with forward compatibility the same condition for newer writers.
+
+$$
+\operatorname{dec}_R\left( \operatorname{enc}_W(v) \right) = v \quad \text{for all } W \preceq R
+\tag{7}
+$$
+
+**Equation 8, Canonical Encoding.**
+A format is canonical when every value has exactly one permitted byte representation, a condition strictly stronger than unambiguity.
+
+$$
+\forall v, \quad \left| E(v) \right| = 1
+\tag{8}
+$$
+
+*Equation 9, Bespoke Transfer and Decode Time.*
+The article treats transfer and decoding as serial stages that do not overlap, so the total time is the sum of the time on the link and the time in the decoder.
+
+$$
+t = \frac{S}{B} + \frac{S}{D}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Condition for Compression to Pay.*
+Under the serial time model, compression that shrinks the message by $\alpha$ and slows decoding by $\beta$ helps only when the compressed time per byte of original message falls below the uncompressed time.
+
+$$
+\frac{\alpha}{B} + \frac{\alpha}{\beta D} < \frac{1}{B} + \frac{1}{D}
+\tag{10}
+$$
+
+**Equation 11, Alignment Padding.**
+The padding that brings a field up to the next multiple of its alignment boundary is zero for an aligned field and at most one byte less than the boundary otherwise.
+[Eisler 2006][ref_rfc4506]
+
+$$
+P(f, a) = \left( a - \left( f \bmod a \right) \right) \bmod a
+\tag{11}
+$$
+
+*Equation 12, Bespoke Bounds on the Version Testing Burden.*
+The article measures the testing burden by the version pairs that negotiation can reach, bounded below by the $k$ outcomes of highest-common-version negotiation and above by all $k^2$ ordered pairs.
+
+$$
+k \leq T \leq k^2
+\tag{12}
+$$
+
+### Notation
+
+- $H$, the full size of a header field
+- $I$, the size of the index that renders a header field held in the HPACK table
+- $\theta$, the table hit rate
+- $\bar{H}$, the effective expected size of a header field
+- $N$, the number of messages sent
+- $s$, the size of the schema
+- $d$, the data carried by each message
+- $m$, the inline metadata carried by each message
+- $\ell$, the declared length in a length prefix, with $\ell_{\max}$ the bound the reader chooses
+- $q$, the probability per byte that the delimiter occurs in the payload
+- $p$, the payload size before escaping, with $p'$ its expected size after escaping
+- $W$, the writer schema, with $\operatorname{enc}_W$ its encode function
+- $R$, the reader schema, with $\operatorname{dec}_R$ its decode function
+- $\preceq$, the order on schema versions
+- $E(v)$, the set of byte sequences a format permits for the value $v$
+- $S$, the size of a message, unrelated to the total size $S$ of the companion article
+- $B$, the bandwidth of the link in bytes per second
+- $D$, the decode rate in bytes per second, unrelated to the decode relation $D$ of the companion article
+- $\alpha$, the factor by which compression reduces the message size
+- $\beta$, the factor by which compression reduces the effective decode rate
+- $P(f, a)$, the padding added to a field of size $f$ aligned to a boundary of $a$ bytes
+- $k$, the number of versions supported on each side of a negotiation
+- $T$, the testing burden, the number of reachable version pairs
 
 ## References
 

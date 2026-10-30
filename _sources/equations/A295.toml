@@ -1,0 +1,147 @@
+# Equation classification for A295. Read by `python3 _lib/equations.py`.
+
+caution = "Every size is counted in bytes unless a bit count is stated, a field tag is the integer value before it is varint encoded, and every fraction is a dimensionless proportion between zero and one."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Unambiguity as a Decode Function"
+gloss = "Requiring every accepted byte sequence to relate to exactly one value is the standard condition that the decode relation be a function on its domain."
+cite = []
+digest = "3f6cbe8cd0c05cb4"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Protocol Buffers Field Tag"
+gloss = "The tag multiplies the field number by eight and adds the three-bit wire type, which places the wire type in the low three bits and the field number above them."
+cite = ["ref_protobuf_encoding"]
+digest = "6deeea3d860d4f5d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Total Encoded Message Size"
+gloss = "The size of a message is the sum over its fields of the inline metadata and the encoded value of each field."
+cite = []
+digest = "01f6dc2a0ef392fb"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Metadata Overhead Fraction"
+gloss = "The overhead fraction is the share of the encoded message occupied by names, type tags and field tags rather than by values."
+cite = []
+digest = "34d0e830012eccea"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Length of a Base-128 Varint"
+gloss = "Each byte of a base-128 varint carries seven bits of payload, so the length is the bit length of the integer divided by seven and rounded up, with a minimum of one byte for zero."
+cite = ["ref_protobuf_encoding"]
+digest = "25ee64a2b53e5980"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Threshold Below Which a Varint Beats Eight Fixed Bytes"
+gloss = "Setting the varint length below eight bytes admits at most forty-nine bits of payload, so a varint is strictly smaller than a 64-bit fixed encoding only for values below $2^{49}$."
+cite = []
+digest = "9af5fdfdd7aed649"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Framing Efficiency of a Single Frame"
+gloss = "The useful fraction of a frame is its payload divided by the sum of payload and header."
+cite = []
+digest = "d0ab76bc8a7d3bde"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Framing Efficiency of Nested Encapsulation"
+gloss = "Each layer of encapsulation adds its own header to the denominator, so the useful fraction falls as the protocol stack deepens."
+cite = []
+digest = "fe2d63fe3a5fa36d"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Mean Instruction Size"
+gloss = "The mean instruction size is the arithmetic mean of the encoded sizes of the instructions in a program."
+cite = []
+digest = "3e34cf166e591239"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Mean Instruction Size under Partial Compression"
+gloss = "The article assumes that a fraction $\\rho$ of instructions drawn evenly from the program is rendered at exactly half width, which scales the mean size by one minus half that fraction."
+cite = []
+digest = "7d802b193105ae63"
+
+[[symbol]]
+tex = 'B'
+meaning = "the set of byte sequences the format accepts"
+
+[[symbol]]
+tex = 'V'
+meaning = "the set of values the format can represent"
+
+[[symbol]]
+tex = 'D'
+meaning = "the decode relation, a subset of $B \\times V$"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the integer value of a Protocol Buffers field tag before varint encoding"
+
+[[symbol]]
+tex = 'f'
+meaning = "the field number of a Protocol Buffers field"
+
+[[symbol]]
+tex = 'w'
+meaning = "the three-bit wire type of a Protocol Buffers field"
+
+[[symbol]]
+tex = 'm_i'
+meaning = "the size of the inline metadata of the $i$th field, meaning names, type tags or field tags"
+
+[[symbol]]
+tex = 'v_i'
+meaning = "the encoded size of the $i$th value"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the overhead fraction, the share of a message taken by metadata"
+
+[[symbol]]
+tex = 'L(x)'
+meaning = "the length in bytes of the base-128 varint encoding of a non-negative integer $x$"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the framing efficiency, the useful fraction of a frame, with $\\eta_{\\text{stack}}$ for a nested stack of frames"
+
+[[symbol]]
+tex = 'p'
+meaning = "the payload size of a frame"
+
+[[symbol]]
+tex = 'h_i'
+meaning = "the header size of the $i$th layer of encapsulation, written $h$ for a single frame"
+
+[[symbol]]
+tex = 'c_j'
+meaning = "the encoded size of the $j$th of $k$ instructions"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean instruction size"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the fraction of instructions rendered in a compressed half-width form"
